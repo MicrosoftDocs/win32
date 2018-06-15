@@ -90,7 +90,7 @@
 ##### [FindAtom](/windows/desktop/api/Winbase/nf-winbase-findatoma)
 ##### [GetAtomName](/windows/desktop/api/Winbase/nf-winbase-getatomnamea)
 ##### [GlobalAddAtom](/windows/desktop/api/Winbase/nf-winbase-globaladdatoma)
-##### [GlobalAddAtomEx](/windows/desktop/api/Winbase/)
+##### [GlobalAddAtomEx](https://msdn.microsoft.com/en-us/library/Dn764994(v=VS.85).aspx)
 ##### [GlobalDeleteAtom](/windows/desktop/api/Winbase/nf-winbase-globaldeleteatom)
 ##### [GlobalFindAtom](/windows/desktop/api/Winbase/nf-winbase-globalfindatoma)
 ##### [GlobalGetAtomName](/windows/desktop/api/Winbase/nf-winbase-globalgetatomnamea)

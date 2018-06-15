@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Additional Documentation on Cryptography
 
-Additional documentation on [*cryptography*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) and authentication, and the associated security issues, includes the following publications:
+Additional documentation on [*cryptography*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) and authentication, and the associated security issues, includes the following publications:
 
 -   Adams, Carlisle, and Steve Lloyd. *Understanding PKI: Concepts, Standards, and Deployment Considerations*. 2d ed. Boston: Addison-Wesley Professional, 2002.
 -   Housley, Russ, and Tim Polk. *Planning for PKI: Best Practices Guide for Deploying Public Key Infrastructure*. New York: John Wiley & Sons, Inc., 2001.

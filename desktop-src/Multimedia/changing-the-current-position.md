@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 To change the current position in a device element, use the [**MCI\_SEEK**](mci-seek.md) command message along with the MCI\_TO flag and the [**MCI\_SEEK\_PARMS**](mci-seek-parms.md) structure. If you use the **dwTo** member to specify a seek position with MCI\_SEEK, you should query the time format and set it, if necessary.
 
-In addition to specifying a position with the **dwTo** member, you can specify the MCI\_SEEK\_TO\_START or MCI\_SEEK\_TO\_END flags for the *dwParam1* parameter of the [**mciSendCommand**](/windows/desktop/api/Mmsystem/) function to find the starting and ending positions of the device element. If you use one of these flags, don't specify the MCI\_TO flag.
+In addition to specifying a position with the **dwTo** member, you can specify the MCI\_SEEK\_TO\_START or MCI\_SEEK\_TO\_END flags for the *dwParam1* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to find the starting and ending positions of the device element. If you use one of these flags, don't specify the MCI\_TO flag.
 
  
 

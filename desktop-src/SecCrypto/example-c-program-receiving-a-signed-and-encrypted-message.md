@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The following example works in conjunction with the program in [Example C Program: Sending and Receiving a Signed and Encrypted Message](example-c-program-sending-and-receiving-a-signed-and-encrypted-message.md). It reads the signed and encrypted message, then decrypts and verifies the message.
 
-To decrypt and verify the message, the [*private key*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) of the message's intended receiver must be available. The certificate of the signer is included in the message [*BLOB*](https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b) read in from the file.
+To decrypt and verify the message, the [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) of the message's intended receiver must be available. The certificate of the signer is included in the message [*BLOB*](https://msdn.microsoft.com/en-us/library/ms721569(v=VS.85).aspx) read in from the file.
 
 This example illustrates the following tasks:
 

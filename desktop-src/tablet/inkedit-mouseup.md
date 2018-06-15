@@ -94,7 +94,7 @@ If a mouse button is pressed while the pointer is over an [InkEdit](inkedit-cont
 
 If mouse buttons are pressed in succession, the object that captures the mouse after the first press receives all mouse events until all buttons are released.
 
-This event method is defined in the **\_IInkEditEvents** interface. The **\_IInkEditEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface with an identifier of DISPID\_IeeMouseUp.
+This event method is defined in the **\_IInkEditEvents** interface. The **\_IInkEditEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IeeMouseUp.
 
 ## Requirements
 

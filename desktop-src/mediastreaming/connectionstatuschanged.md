@@ -40,7 +40,7 @@ This event does not return a value.
 
 ## Remarks
 
-To handle notifications from this event, register a [**ConnectionStatusHandler**](/windows/desktop/api/mfidl/) event handler function using the [**add\_ConnectionStatusChanged**](ibasicdevice-add-connectionstatuschanged.md) method. To unregister the event handler, use the [**remove\_ConnectionStatusChanged**](ibasicdevice-remove-connectionstatuschanged.md) method.
+To handle notifications from this event, register a [**ConnectionStatusHandler**](https://msdn.microsoft.com/en-us/library/Hh828836(v=VS.85).aspx) event handler function using the [**add\_ConnectionStatusChanged**](ibasicdevice-add-connectionstatuschanged.md) method. To unregister the event handler, use the [**remove\_ConnectionStatusChanged**](ibasicdevice-remove-connectionstatuschanged.md) method.
 
  
 

@@ -102,7 +102,7 @@ Returns an **HRESULT** value. Possible values include the following.
 ## Remarks
 
 > [!Note]  
-> Another interface by this name exists in the dsound.h header file. The two interfaces are not compatible. The [IKsControl](https://msdn.microsoft.com/d73cf2fc-15bb-4f45-aae3-fb55bcd072a3) interface, documented in the DirectShow DDK, is now the recommended interface for passing property sets between WDM drivers and user mode components.
+> Another interface by this name exists in the dsound.h header file. The two interfaces are not compatible. The [IKsControl](https://msdn.microsoft.com/en-us/library/Ff559766(v=VS.85).aspx) interface, documented in the DirectShow DDK, is now the recommended interface for passing property sets between WDM drivers and user mode components.
 
  
 

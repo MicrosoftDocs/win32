@@ -27,13 +27,13 @@ This was formerly called the Win32 API. The name Windows API more accurately ref
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>Windows API Sets</strong>](windows-apisets.md)<br/> API Sets are strongly named API contracts that provide architectural separation between an API contract and the associated host (DLL) implementation. API Sets contains a subset of the Windows API. The decoupling offers many engineering advantages including reducing the number of DLLs loaded in a process.<br/> [<strong>.NET APIs</strong>](https://msdn.microsoft.com/windows/desktop/e18143ab-e34f-496a-9092-14147075f668)<br/> The .NET Framework class library provides access to system functionality for managed application development. It is the foundation on which .NET Framework applications, components, and controls are built.<br/></td>
+<td>[<strong>Windows API Sets</strong>](windows-apisets.md)<br/> API Sets are strongly named API contracts that provide architectural separation between an API contract and the associated host (DLL) implementation. API Sets contains a subset of the Windows API. The decoupling offers many engineering advantages including reducing the number of DLLs loaded in a process.<br/> [<strong>.NET APIs</strong>](https://msdn.microsoft.com/en-us/library/Gg145045(v=VS.100).aspx)<br/> The .NET Framework class library provides access to system functionality for managed application development. It is the foundation on which .NET Framework applications, components, and controls are built.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>Windows Runtime APIs used in desktop apps</strong>](winrt-apis-for-desktop-apps.md)<br/> Desktop apps can use a subset of the Windows Runtime APIs.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>Windows APIs (Win32 and COM) used in Windows Store apps</strong>](https://msdn.microsoft.com/bb13ae9b-55b2-44c9-a49a-702c325048b0)<br/> Windows Store apps can use a subset of the Win32 and COM API. This subset of APIs was chosen to support key scenarios for Windows Store apps that were not already covered by the Windows Runtime, HTML/CSS, or other supported languages or standards. <br/></td>
+<td>[<strong>Windows APIs (Win32 and COM) used in Windows Store apps</strong>](https://msdn.microsoft.com/en-us/library/BR205757(v=Win.10).aspx)<br/> Windows Store apps can use a subset of the Win32 and COM API. This subset of APIs was chosen to support key scenarios for Windows Store apps that were not already covered by the Windows Runtime, HTML/CSS, or other supported languages or standards. <br/></td>
 </tr>
 </tbody>
 </table>

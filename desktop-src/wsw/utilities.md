@@ -23,7 +23,7 @@ The following definitions are general utilities used with various other API elem
     -   [**WsDateTimeToFileTime**](/windows/desktop/api/WebServices/nf-webservices-wsdatetimetofiletime)
     -   [**WsFileTimeToDateTime**](/windows/desktop/api/WebServices/nf-webservices-wsfiletimetodatetime)
 -   Macros:
-    -   [**WS\_STRING\_EMPTY**](/windows/desktop/api/WebServices/)
+    -   [**WS\_STRING\_EMPTY**](https://msdn.microsoft.com/en-us/library/Dd323449(v=VS.85).aspx)
     -   [**WS\_STRING\_VALUE**](/windows/desktop/api/WebServices/nf-webservices-ws_string_value)
     -   [**WsCountOf**](/windows/desktop/api/WebServices/nf-webservices-wscountof)
     -   [**WsOffsetOf**](/windows/desktop/api/WebServices/nf-webservices-wsoffsetof)

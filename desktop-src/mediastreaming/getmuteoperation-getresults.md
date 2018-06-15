@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # GetMuteOperation.GetResults method
 
-Returns the results of the asynchronous operation started by [**GetMuteAsync**](https://www.bing.com/search?q=**GetMuteAsync**).
+Returns the results of the asynchronous operation started by [**GetMuteAsync**](https://msdn.microsoft.com/en-us/library/Hh828930(v=VS.85).aspx).
 
 ## Syntax
 

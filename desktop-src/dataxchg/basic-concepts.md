@@ -129,7 +129,7 @@ An application must call the [**DdeUninitialize**](/windows/desktop/api/Ddeml/nf
 
 ## Callback Function
 
-An application that uses the DDEML must provide a callback function that processes the DDE events affecting the application. The DDEML notifies an application of such events by sending transactions to the application's DDE callback function. The transactions a callback function receives depend on which callback filter flags the application specified in [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) and whether the application is a client, a server, or both. For more information, please see [**DdeCallback**](https://www.bing.com/search?q=**DdeCallback**).
+An application that uses the DDEML must provide a callback function that processes the DDE events affecting the application. The DDEML notifies an application of such events by sending transactions to the application's DDE callback function. The transactions a callback function receives depend on which callback filter flags the application specified in [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) and whether the application is a client, a server, or both. For more information, please see [**DdeCallback**](https://msdn.microsoft.com/en-us/library/ms648742(v=VS.85).aspx).
 
 The following example shows the general structure of a callback function for a typical client application.
 

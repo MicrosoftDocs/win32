@@ -23,8 +23,8 @@ Windows provides the following functions to query and set the volume level of wa
 
 | Function                                     | Description                                                                       |
 |----------------------------------------------|-----------------------------------------------------------------------------------|
-| [**waveOutGetVolume**](https://www.bing.com/search?q=**waveOutGetVolume**) | Retrieves the current volume level of the specified waveform-audio output device. |
-| [**waveOutSetVolume**](https://www.bing.com/search?q=**waveOutSetVolume**) | Sets the volume level of the specified waveform-audio output device.              |
+| [**waveOutGetVolume**](https://msdn.microsoft.com/en-us/library/Dd743864(v=VS.85).aspx) | Retrieves the current volume level of the specified waveform-audio output device. |
+| [**waveOutSetVolume**](https://msdn.microsoft.com/en-us/library/Dd743874(v=VS.85).aspx) | Sets the volume level of the specified waveform-audio output device.              |
 
 
 

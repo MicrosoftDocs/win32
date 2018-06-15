@@ -37,7 +37,7 @@ The root signature defines what types of resources are bound to the graphics pip
 
 <dl> <dt>
 
-[**ID3D12RootSignature**](/windows/desktop/api/D3D12/)
+[**ID3D12RootSignature**](https://msdn.microsoft.com/en-us/library/Dn788714(v=VS.85).aspx)
 </dt> <dt>
 
 [**ID3D12RootSignatureDeserializer**](/windows/desktop/api/D3D12/nn-d3d12-id3d12rootsignaturedeserializer)

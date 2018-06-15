@@ -52,7 +52,7 @@ For more information about the methods and properties of the interfaces that are
 -   [**IBootTrigger**](/windows/desktop/api/taskschd/nn-taskschd-iboottrigger)
 -   [**IDailyTrigger**](/windows/desktop/api/taskschd/nn-taskschd-idailytrigger)
 -   [**IEventTrigger**](/windows/desktop/api/taskschd/nn-taskschd-ieventtrigger)
--   [**IIdleTrigger**](/windows/desktop/api/taskschd/)
+-   [**IIdleTrigger**](https://msdn.microsoft.com/en-us/library/Aa380724(v=VS.85).aspx)
 -   [**ILogonTrigger**](/windows/desktop/api/taskschd/nn-taskschd-ilogontrigger)
 -   [**IMonthlyDOWTrigger**](/windows/desktop/api/taskschd/nn-taskschd-imonthlydowtrigger)
 -   [**IMonthlyTrigger**](/windows/desktop/api/taskschd/nn-taskschd-imonthlytrigger)

@@ -46,7 +46,7 @@ typedef WCHAR *LPWSTR, *LPWCH;
 
 
 
-The letter "T" in a type definition, for example, TCHAR or LPTSTR, designates a generic type that can be compiled for either Windows code pages or Unicode. The letter "W" in a type definition, for example, WCHAR or LPWSTR, designates a Unicode type. Because Windows code pages are of the older form, they have simple type definitions, such as CHAR and LPSTR. For a complete description of data types in Windows, see [Windows Data Types](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46).
+The letter "T" in a type definition, for example, TCHAR or LPTSTR, designates a generic type that can be compiled for either Windows code pages or Unicode. The letter "W" in a type definition, for example, WCHAR or LPWSTR, designates a Unicode type. Because Windows code pages are of the older form, they have simple type definitions, such as CHAR and LPSTR. For a complete description of data types in Windows, see [Windows Data Types](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx).
 
 ## Related topics
 

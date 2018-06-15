@@ -34,7 +34,7 @@ If the module has no File table, or contains no files in the particular language
 
 ### C++
 
-See [**get\_ModuleFiles**](/windows/desktop/api/Mergemod/) function.
+See [**get\_ModuleFiles**](https://msdn.microsoft.com/en-us/library/Aa369258(v=VS.85).aspx) function.
 
 ## Requirements
 

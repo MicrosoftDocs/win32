@@ -67,7 +67,7 @@ GDI+ can be used in all Windows-based applications. GDI+ was introduced in Windo
 [OpenGL](http://msdn.microsoft.com/library/en-us/opengl/openglstart_9uw5.asp)
 </dt> <dt>
 
-[Windows Multimedia](https://msdn.microsoft.com/c035f3d0-c2ca-4698-b5ae-281d5098a83d)
+[Windows Multimedia](https://msdn.microsoft.com/en-us/library/Dd743883(v=VS.85).aspx)
 </dt> </dl>
 
  

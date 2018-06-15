@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The **FileSignatureInfo** method of the [**Installer**](installer-object.md) object takes the path to a file and returns a SAFEARRAY of bytes that represent the hash or the encoded certificate. The values can then be used to populate the [MsiDigitalSignature](msidigitalsignature-table.md), [MsiPatchCertificate](msipatchcertificate-table.md), and [MsiDigitalCertificate](msidigitalcertificate-table.md) tables.
 
-For more information, see the [**SAFEARRAY Data Type**](https://msdn.microsoft.com/windows/desktop/9ec8025b-4763-4526-ab45-390c5d8b3b1e).
+For more information, see the [**SAFEARRAY Data Type**](https://msdn.microsoft.com/en-us/library/ms221482(v=VS.71).aspx).
 
 ## Syntax
 
@@ -78,7 +78,7 @@ The requested signature information.
 
 ## Return value
 
-If successful, the method returns a [SAFEARRAY](https://msdn.microsoft.com/windows/desktop/9ec8025b-4763-4526-ab45-390c5d8b3b1e) of bytes that contain either the hash or encoded certificate.
+If successful, the method returns a [SAFEARRAY](https://msdn.microsoft.com/en-us/library/ms221482(v=VS.71).aspx) of bytes that contain either the hash or encoded certificate.
 
 ## Remarks
 

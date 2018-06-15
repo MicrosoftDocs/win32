@@ -225,13 +225,13 @@ Now your application's window should have boundary feedback when a user pans pas
 [Windows Touch Gestures](guide-multi-touch-gestures.md)
 </dt> <dt>
 
-[**BeginPanningFeedback**](/windows/desktop/api/uxtheme/)
+[**BeginPanningFeedback**](https://msdn.microsoft.com/en-us/library/Dd317331(v=VS.85).aspx)
 </dt> <dt>
 
-[**EndPanningFeedback**](/windows/desktop/api/uxtheme/)
+[**EndPanningFeedback**](https://msdn.microsoft.com/en-us/library/Dd317327(v=VS.85).aspx)
 </dt> <dt>
 
-[**UpdatePanningFeedback**](/windows/desktop/api/uxtheme/)
+[**UpdatePanningFeedback**](https://msdn.microsoft.com/en-us/library/Dd317336(v=VS.85).aspx)
 </dt> </dl>
 
  

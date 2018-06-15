@@ -23,7 +23,7 @@ The default name for the interface registration file generated from an input fil
 
 <dl> <dt>
 
-[Building and Registering a Proxy DLL](https://msdn.microsoft.com/windows/desktop/939e6eed-2a2d-4d90-8fbb-c07142e7ba70)
+[Building and Registering a Proxy DLL](https://msdn.microsoft.com/en-us/library/ms688707(v=VS.85).aspx)
 </dt> </dl>
 
  

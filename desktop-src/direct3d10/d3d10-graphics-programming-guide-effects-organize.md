@@ -64,7 +64,7 @@ SamplerState MeshTextureSampler
 
 
 
-The syntax for effect variables is more fully detailed in [Effect Variable Syntax (Direct3D 10)](d3d10-effect-variable-syntax.md). The syntax for effect texture samplers is more fully detailed in [Sampler Type (DirectX HLSL)](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_sampler.htm).
+The syntax for effect variables is more fully detailed in [Effect Variable Syntax (Direct3D 10)](d3d10-effect-variable-syntax.md). The syntax for effect texture samplers is more fully detailed in [Sampler Type (DirectX HLSL)](https://msdn.microsoft.com/en-us/library/Bb509644(v=VS.85).aspx).
 
 ## Shaders
 

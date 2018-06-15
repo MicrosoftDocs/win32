@@ -27,7 +27,7 @@ WebWizardHost.Property = Property
 
 ## Property value
 
-A variable of type [**BSTR**](https://msdn.microsoft.com/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228) that specifies or receives the property.
+A variable of type [**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx) that specifies or receives the property.
 
 ## Requirements
 
@@ -49,7 +49,7 @@ A variable of type [**BSTR**](https://msdn.microsoft.com/windows/desktop/1b2d7d2
 [**WebWizardHost**](webwizardhost.md)
 </dt> <dt>
 
-[Using the Transfer Manifest](https://msdn.microsoft.com/b7bb541c-3bf4-4aab-ac70-c006517e772e)
+[Using the Transfer Manifest](https://msdn.microsoft.com/en-us/library/Bb776791(v=VS.85).aspx)
 </dt> <dt>
 
 [Transfer Manifest Schema](manifest-schema.md)

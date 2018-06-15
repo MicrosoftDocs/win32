@@ -219,7 +219,7 @@ Applications can also use the [**ReuseDDElParam**](/windows/desktop/api/Dde/nf-d
 
 ## Dynamic Data Exchange and Impersonation
 
-To allow a server to impersonate a client, the client calls the [**DdeSetQualityOfService**](/windows/desktop/api/Dde/nf-dde-ddesetqualityofservice) function. The [**SECURITY\_IMPERSONATION\_LEVEL**](https://msdn.microsoft.com/windows/desktop/a75ad777-c88e-4899-be50-0118c113a600) structure is used to control the level of impersonation the server may perform.
+To allow a server to impersonate a client, the client calls the [**DdeSetQualityOfService**](/windows/desktop/api/Dde/nf-dde-ddesetqualityofservice) function. The [**SECURITY\_IMPERSONATION\_LEVEL**](https://msdn.microsoft.com/en-us/library/Aa379572(v=VS.85).aspx) structure is used to control the level of impersonation the server may perform.
 
 A DDE server can impersonate a DDE client by calling the [**ImpersonateDdeClientWindow**](/windows/desktop/api/Dde/nf-dde-impersonateddeclientwindow) function. A DDEML server should use the [**DdeImpersonateClient**](/windows/desktop/api/Ddeml/nf-ddeml-ddeimpersonateclient) function.
 

@@ -56,7 +56,7 @@ This method does not return a value.
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.UndoMinimizeAll**](https://msdn.microsoft.com/dcedfa18-6dde-4fb8-9679-4d6ff80249e4) method.
+This method is implemented and accessed through the [**Shell.UndoMinimizeAll**](https://msdn.microsoft.com/en-us/library/Bb774106(v=VS.85).aspx) method.
 
 ## Examples
 

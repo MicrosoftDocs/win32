@@ -48,18 +48,18 @@ Member of the [D3DFORMAT](d3dformat.md) enumerated type, describing the surface 
 **Type**
 </dt> <dd>
 
-Type: **[**D3DRESOURCETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dresourcetype.htm)**
+Type: **[**D3DRESOURCETYPE**](https://msdn.microsoft.com/en-us/library/Bb172601(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Member of the [**D3DRESOURCETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dresourcetype.htm) enumerated type, identifying this resource as a volume.
+Member of the [**D3DRESOURCETYPE**](https://msdn.microsoft.com/en-us/library/Bb172601(v=VS.85).aspx) enumerated type, identifying this resource as a volume.
 
 </dd> <dt>
 
 **Usage**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -70,18 +70,18 @@ Currently not used. Always returned as 0.
 **Pool**
 </dt> <dd>
 
-Type: **[**D3DPOOL**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dpool.htm)**
+Type: **[**D3DPOOL**](https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Member of the [**D3DPOOL**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dpool.htm) enumerated type, specifying the class of memory allocated for this volume.
+Member of the [**D3DPOOL**](https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx) enumerated type, specifying the class of memory allocated for this volume.
 
 </dd> <dt>
 
 **Width**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -92,7 +92,7 @@ Width of the volume, in pixels.
 **Height**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -103,7 +103,7 @@ Height of the volume, in pixels.
 **Depth**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

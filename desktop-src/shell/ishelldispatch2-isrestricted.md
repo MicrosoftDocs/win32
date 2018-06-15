@@ -53,7 +53,7 @@ iRetVal = IShellDispatch2.IsRestricted(
 *sGroup* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228)**
+Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
 
 A **String** that contains the group name. This value is the name of a registry subkey under which to check for the restriction.
 
@@ -62,7 +62,7 @@ A **String** that contains the group name. This value is the name of a registry 
 *sRestriction* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228)**
+Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
 
 A **String** that contains the restriction whose value is to be retrieved.
 
@@ -84,7 +84,7 @@ The value of the restriction. If the specified restriction is not found, the ret
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.IsRestricted**](https://msdn.microsoft.com/C4B3B5C0-7445-483a-885F-5283BD4D4B39) method.
+This method is implemented and accessed through the [**Shell.IsRestricted**](https://msdn.microsoft.com/en-us/library/Gg537741(v=VS.85).aspx) method.
 
 **IsRestricted** first looks for a subkey name that matches *sGroup* under the following key.
 

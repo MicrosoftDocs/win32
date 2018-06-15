@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CreateXamlUIPresenter function
 
-A static creator function that can create a [**XamlUIPresenter**](https://msdn.microsoft.com/Windows.UI.Xaml.Hosting.XamlUIPresenter) for a render surface in a desktop app.
+A static creator function that can create a [**XamlUIPresenter**](https://msdn.microsoft.com/en-us/library/Hh701914(v=WIN.10).aspx) for a render surface in a desktop app.
 
 ## Syntax
 
@@ -39,7 +39,7 @@ An existing hosting interface. See **IViewObjectPresentNotifySite** in Internet 
 *ppPresenter* \[out\]
 </dt> <dd>
 
-The **\[exclusiveto\]** interface for a [**XamlUIPresenter**](https://msdn.microsoft.com/Windows.UI.Xaml.Hosting.XamlUIPresenter).
+The **\[exclusiveto\]** interface for a [**XamlUIPresenter**](https://msdn.microsoft.com/en-us/library/Hh701914(v=WIN.10).aspx).
 
 </dd> </dl>
 
@@ -68,7 +68,7 @@ You cannot call this method from a Windows Store app.
 
 <dl> <dt>
 
-[**XamlUIPresenter**](https://msdn.microsoft.com/Windows.UI.Xaml.Hosting.XamlUIPresenter)
+[**XamlUIPresenter**](https://msdn.microsoft.com/en-us/library/Hh701914(v=WIN.10).aspx)
 </dt> </dl>
 
  

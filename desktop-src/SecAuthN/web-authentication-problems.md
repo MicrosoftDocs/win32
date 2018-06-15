@@ -84,7 +84,7 @@ For more information, see [Blog on using Fiddler web debugger with Windows Store
 [Web Authentication Broker SDK sample app](http://code.msdn.microsoft.com/windowsapps/Web-Authentication-d0485122#content)
 </dt> <dt>
 
-[**Windows.Security.Authentication.Web**](https://msdn.microsoft.com/Windows.Security.Authentication.Web)
+[**Windows.Security.Authentication.Web**](https://msdn.microsoft.com/en-us/library/BR227044(v=Win.10).aspx)
 </dt> </dl>
 
  

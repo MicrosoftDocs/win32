@@ -305,14 +305,14 @@ This code performs the following steps.
 
 Inside the `main` function, perform the following steps.
 
-1.  Call [**CoInitializeEx**](https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f) to initialize the COM library.
+1.  Call [**CoInitializeEx**](https://msdn.microsoft.com/en-us/library/ms695279(v=VS.85).aspx) to initialize the COM library.
 2.  Call [**MFStartup**](/windows/desktop/api/mfapi/nf-mfapi-mfstartup) to initialize Microsoft Media Foundation.
 3.  Create the sink writer.
 4.  Send video frames to the sink writer.
 5.  Call [**IMFSinkWriter::Finalize**](/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-finalize) to finalize the output file.
 6.  Release the pointer to the sink writer.
 7.  Call [**MFShutdown**](/windows/desktop/api/mfapi/nf-mfapi-mfshutdown).
-8.  Call [**CoUninitialize**](https://msdn.microsoft.com/9411cbed-fa3b-46f7-b677-6ada53324edc).
+8.  Call [**CoUninitialize**](https://msdn.microsoft.com/en-us/library/ms688715(v=VS.85).aspx).
 
 
 ```C++

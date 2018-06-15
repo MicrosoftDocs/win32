@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # MSIRESTARTMANAGERCONTROL property
 
-The **MSIRESTARTMANAGERCONTROL** Property specifies whether the Windows Installer package uses the [Restart Manager](https://msdn.microsoft.com/windows/desktop/44b7975a-0093-4c8f-9a14-2a6bfd7a68a5) or [FilesInUse Dialog](filesinuse-dialog.md) functionality.
+The **MSIRESTARTMANAGERCONTROL** Property specifies whether the Windows Installer package uses the [Restart Manager](https://msdn.microsoft.com/en-us/library/Cc948910(v=VS.85).aspx) or [FilesInUse Dialog](filesinuse-dialog.md) functionality.
 
 ## Value
 
@@ -19,9 +19,9 @@ The **MSIRESTARTMANAGERCONTROL** Property specifies whether the Windows Installe
 
 | Value                                                                                        | Meaning                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>0</dt> </dl>                 | This is the default value if the property is not set. Windows Installer always attempts to use the [Restart Manager](https://msdn.microsoft.com/windows/desktop/44b7975a-0093-4c8f-9a14-2a6bfd7a68a5) on Windows Vista.<br/>                                                                                                                                                                                                       |
-| <dl> <dt>"Disable"</dt> </dl>         | Disables interaction of the package with the [Restart Manager](https://msdn.microsoft.com/windows/desktop/44b7975a-0093-4c8f-9a14-2a6bfd7a68a5). Windows Installer uses the [FilesInUse Dialog](filesinuse-dialog.md). <br/>                                                                                                                                                                                                      |
-| <dl> <dt>"DisableShutdown"</dt> </dl> | Windows Installer uses the [FilesInUse Dialog](filesinuse-dialog.md). This setting disables attempts by the [Restart Manager](https://msdn.microsoft.com/windows/desktop/44b7975a-0093-4c8f-9a14-2a6bfd7a68a5) to mitigate restarts when installing a Windows Installer package that has not been authored to use the Restart Manager. The installer still uses the Restart Manager to detect files in use by applications. <br/> |
+| <dl> <dt>0</dt> </dl>                 | This is the default value if the property is not set. Windows Installer always attempts to use the [Restart Manager](https://msdn.microsoft.com/en-us/library/Cc948910(v=VS.85).aspx) on Windows Vista.<br/>                                                                                                                                                                                                       |
+| <dl> <dt>"Disable"</dt> </dl>         | Disables interaction of the package with the [Restart Manager](https://msdn.microsoft.com/en-us/library/Cc948910(v=VS.85).aspx). Windows Installer uses the [FilesInUse Dialog](filesinuse-dialog.md). <br/>                                                                                                                                                                                                      |
+| <dl> <dt>"DisableShutdown"</dt> </dl> | Windows Installer uses the [FilesInUse Dialog](filesinuse-dialog.md). This setting disables attempts by the [Restart Manager](https://msdn.microsoft.com/en-us/library/Cc948910(v=VS.85).aspx) to mitigate restarts when installing a Windows Installer package that has not been authored to use the Restart Manager. The installer still uses the Restart Manager to detect files in use by applications. <br/> |
 
 
 
@@ -29,7 +29,7 @@ The **MSIRESTARTMANAGERCONTROL** Property specifies whether the Windows Installe
 
 ## Remarks
 
-The **MSIRESTARTMANAGERCONTROL** Property is ignored if the [Restart Manager](https://msdn.microsoft.com/windows/desktop/44b7975a-0093-4c8f-9a14-2a6bfd7a68a5) is unavailable or disabled.
+The **MSIRESTARTMANAGERCONTROL** Property is ignored if the [Restart Manager](https://msdn.microsoft.com/en-us/library/Cc948910(v=VS.85).aspx) is unavailable or disabled.
 
 The value of this property can be modified using customization transforms or upgrades. Changing the value of this property from custom actions has no effect.
 

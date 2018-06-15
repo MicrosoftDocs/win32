@@ -120,7 +120,7 @@ When this socket option is enabled, the TCP stack sends keep-alive packets when 
 
 The **SO\_KEEPALIVE** socket option is valid only for protocols that support the notion of keep-alive (connection-oriented protocols). For TCP, the default keep-alive timeout is 2 hours and the keep-alive interval is 1 second. The default number of keep-alive probes varies based on the version of Windows.
 
-The [**SIO\_KEEPALIVE\_VALS**](/windows/desktop/api/Mstcpip/) control code enables or disables the per-connection setting of the TCP **keep-alive** option which specifies the TCP keep-alive timeout and interval. If TCP keep-alive is enabled with **SO\_KEEPALIVE**, then the default TCP settings are used for keep-alive timeout and interval unless these values have been changed using **SIO\_KEEPALIVE\_VALS**.
+The [**SIO\_KEEPALIVE\_VALS**](https://msdn.microsoft.com/en-us/library/Dd877220(v=VS.85).aspx) control code enables or disables the per-connection setting of the TCP **keep-alive** option which specifies the TCP keep-alive timeout and interval. If TCP keep-alive is enabled with **SO\_KEEPALIVE**, then the default TCP settings are used for keep-alive timeout and interval unless these values have been changed using **SIO\_KEEPALIVE\_VALS**.
 
 The default settings when a TCP socket is initialized sets the keep-alive timeout to 2 hours and the keep-alive interval to 1 second. The default system-wide value of the keep-alive timeout is controllable through the [KeepAliveTime](http://go.microsoft.com/fwlink/p/?linkid=153234) registry setting which takes a value in milliseconds. The default system-wide value of the keep-alive interval is controllable through the [KeepAliveInterval](http://go.microsoft.com/fwlink/p/?linkid=153235) registry setting which takes a value in milliseconds.
 
@@ -168,7 +168,7 @@ Note that the *Ws2def.h* header file is automatically included in *Winsock2.h*, 
 [**socket**](/windows/desktop/api/Winsock2/nf-winsock2-socket)
 </dt> <dt>
 
-[**SIO\_KEEPALIVE\_VALS**](/windows/desktop/api/Mstcpip/)
+[**SIO\_KEEPALIVE\_VALS**](https://msdn.microsoft.com/en-us/library/Dd877220(v=VS.85).aspx)
 </dt> <dt>
 
 [TcpMaxDataRetransmissions](http://go.microsoft.com/fwlink/p/?linkid=153232)

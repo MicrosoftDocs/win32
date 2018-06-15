@@ -25,7 +25,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncDDProductionRoomType**](/windows/desktop/api/codecapi/) enumeration.
+The value of this property is a member of the [**eAVEncDDProductionRoomType**](https://msdn.microsoft.com/en-us/library/Dd319390(v=VS.85).aspx) enumeration.
 
 ## Remarks
 

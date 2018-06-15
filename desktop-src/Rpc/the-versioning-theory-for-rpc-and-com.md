@@ -26,7 +26,7 @@ In standard RPC, a path for upgrades and extensions is well defined, and basical
 
 For a COM interface, the version attribute cannot be used. Creating new interfaces and inheriting from the old interfaces is an equivalent of manipulating the version in RPC. Typically, the best approach in COM is to create a new interface for the expanded functionality. An equivalent of the minor version is the new interface inheriting from the old one. Changing old methods or old data types requires an entirely new COM interface—an interface that does not inherit from the old one.
 
-For COM, the [**QueryInterface**](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d) function is an established method of checking whether a server supports an interface; hence, the situations where a client can talk to an old or a new version of an interface can be easily resolved.
+For COM, the [**QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) function is an established method of checking whether a server supports an interface; hence, the situations where a client can talk to an old or a new version of an interface can be easily resolved.
 
  
 

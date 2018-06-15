@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # InkPicture.StrokesAdded event
 
-Occurs when one or more [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) objects are added to the [InkStrokes](/windows/desktop/api/msinkaut/) collection.
+Occurs when one or more [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) objects are added to the [InkStrokes](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection.
 
 ## Syntax
 
@@ -43,7 +43,7 @@ This event does not return a value.
 
 ## Remarks
 
-This event method is defined in the **\_IInkStrokesEvents** interface. The **\_IInkStrokesEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface with an identifier of DISPID\_SEStrokesAdded.
+This event method is defined in the **\_IInkStrokesEvents** interface. The **\_IInkStrokesEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_SEStrokesAdded.
 
 ## Requirements
 

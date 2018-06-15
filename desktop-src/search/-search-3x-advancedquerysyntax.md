@@ -144,7 +144,7 @@ In Windows Vista and earlier, custom properties were not available in AQS. In W
 
 ### DateTime properties in Windows 8
 
-As of Windows 8, DateTime properties (like [System.DateModified](https://msdn.microsoft.com/5e619ccf-e7a1-427b-8cc7-de1417c826c5)) support the canonical date and time format specified by [ISO-8601](http://go.microsoft.com/fwlink/p/?linkid=107369), optionally including the UTC time zone.
+As of Windows 8, DateTime properties (like [System.DateModified](https://msdn.microsoft.com/en-us/library/Bb760685(v=VS.85).aspx)) support the canonical date and time format specified by [ISO-8601](http://go.microsoft.com/fwlink/p/?linkid=107369), optionally including the UTC time zone.
 
 -   **Windows 8 and earlier, date-time without UTC time zone:** *YYYY*-*MM*-*DDThh*:*mm*:*ss*
 

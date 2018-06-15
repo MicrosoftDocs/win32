@@ -19,14 +19,14 @@ Contains a pointer to a property store with encoding properties.
 
 ## Remarks
 
-The value of this attribute is an [**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) pointer.
+The value of this attribute is an [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) pointer.
 
 This attribute enables an application to set encoding properties when using the [Sink Writer](sink-writer.md). To set this attribute, perform the following steps:
 
-1.  Call [**PSCreateMemoryPropertyStore**](https://msdn.microsoft.com/6e7a2ac0-2a4a-41ec-a2a8-ddbe8aa45bc9) to create a new property store.
+1.  Call [**PSCreateMemoryPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb776489(v=VS.85).aspx) to create a new property store.
 2.  Set encoder properties on the property store. The available properties depends on the encoder. For more information, see [Codec Objects](codecobjects.md).
 3.  Call [**MFCreateAttributes**](/windows/desktop/api/mfapi/nf-mfapi-mfcreateattributes) to create a new attribute store.
-4.  Call [**IMFAttributes::SetUnknown**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setunknown) to set the [**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) pointer on the attribute store.
+4.  Call [**IMFAttributes::SetUnknown**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setunknown) to set the [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) pointer on the attribute store.
 5.  Create a new instance of the Sink Writer. Pass the [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) pointer to the creation function. For more information, see [Sink Writer Attributes](sink-writer-attributes.md).
 
 The Sink Writer sets the properties on the encoder before setting the media types.

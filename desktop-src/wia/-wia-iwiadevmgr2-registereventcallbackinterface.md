@@ -71,9 +71,9 @@ Specifies a pointer to the [**IWiaEventCallback**](/windows/desktop/api/wia_xp/n
 *pEventObject* \[out\]
 </dt> <dd>
 
-Type: **[IUnknown](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332)\*\***
+Type: **[IUnknown](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx)\*\***
 
-Receives the address of a pointer to the [IUnknown](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface.
+Receives the address of a pointer to the [IUnknown](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface.
 
 </dd> </dl>
 
@@ -87,7 +87,7 @@ Returns the standard COM error codes or the following.
 
 | Return code                                                                               | Description                                                            |
 |-------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| <dl> <dt>**E\_NOTIMPL**</dt> </dl> | The [IUnknown](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface cannot be returned. <br/> |
+| <dl> <dt>**E\_NOTIMPL**</dt> </dl> | The [IUnknown](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface cannot be returned. <br/> |
 
 
 
@@ -96,13 +96,13 @@ Returns the standard COM error codes or the following.
 ## Remarks
 
 > \[!Warning\]  
-> Using the [**IWiaDevMgr::RegisterEventCallbackInterface**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackinterface), **IWiaDevMgr2::RegisterEventCallbackInterface**, and [**DeviceManager.RegisterEvent**](https://msdn.microsoft.com/VS|wiaaut|~\wia\wiax\refwiaaut\ifaces\idevicemanager\registerevent.htm) methods from the same process after the Still Image Service is restarted may cause an access violation, if the functions were used before the service was stopped.
+> Using the [**IWiaDevMgr::RegisterEventCallbackInterface**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackinterface), **IWiaDevMgr2::RegisterEventCallbackInterface**, and [**DeviceManager.RegisterEvent**](https://msdn.microsoft.com/en-us/library/ms630720(v=VS.85).aspx) methods from the same process after the Still Image Service is restarted may cause an access violation, if the functions were used before the service was stopped.
 
  
 
 When WIA 2.0 applications begin executing, they use this method to register to receive hardware device events. This prevents the application from being restarted when another event for which it is registered occurs. Once an application calls **IWiaDevMgr2::RegisterEventCallbackInterface** to register itself to receive WIA 2.0 events from a device, the registered events are routed to the program by WIA 2.0.
 
-Applications must call the [IUnknown::Release](https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a) method on the interface pointers they receive through the *pEventObject* parameter.
+Applications must call the [IUnknown::Release](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) method on the interface pointers they receive through the *pEventObject* parameter.
 
 > [!Note]  
 > In a multithreaded application, the event notification callback may come in on a different thread from the one that registered the callback.

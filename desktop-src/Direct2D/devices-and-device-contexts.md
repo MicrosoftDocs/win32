@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 # How to render by using a Direct2D device context
 
-In this topic you will learn about creating [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) [**device context**](/windows/desktop/api/D2d1_1/) in Windows 8. This information applies to you if you are developing Windows Store apps or a desktop app by using Direct2D. This topic describes the purpose of Direct2D device context objects, how to create that object , and a step by step guide about rendering and displaying Direct2D primitives and images. You will also learn about switching render targets and adding effects to your app.
+In this topic you will learn about creating [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) [**device context**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) in Windows 8. This information applies to you if you are developing Windows Store apps or a desktop app by using Direct2D. This topic describes the purpose of Direct2D device context objects, how to create that object , and a step by step guide about rendering and displaying Direct2D primitives and images. You will also learn about switching render targets and adding effects to your app.
 
 -   [What is a Direct2D device?](#what-is-a-direct2d-device)
 -   [What is a Direct2D device context?](#what-is-a-direct2d-device-context)
@@ -26,35 +26,35 @@ In this topic you will learn about creating [Direct2D](https://msdn.microsoft.co
 
 ## What is a Direct2D device?
 
-You need a Direct2D device and a Direct3D device to create a Direct2D device context. A [**Direct2D device**](/windows/desktop/api/D2d1_1/) (exposes an **ID2D1Device** interface pointer) represents a display adapter. A Direct3D device (exposes an [**ID3D11Device**](https://msdn.microsoft.com/library/windows/desktop/ff476379) interface pointer) is associated with a Direct2D device. Each app must have one **Direct2D device**, but can have more than one **device**.
+You need a Direct2D device and a Direct3D device to create a Direct2D device context. A [**Direct2D device**](https://msdn.microsoft.com/en-us/library/Hh404478(v=VS.85).aspx) (exposes an **ID2D1Device** interface pointer) represents a display adapter. A Direct3D device (exposes an [**ID3D11Device**](https://msdn.microsoft.com/library/windows/desktop/ff476379) interface pointer) is associated with a Direct2D device. Each app must have one **Direct2D device**, but can have more than one **device**.
 
 ## What is a Direct2D device context?
 
-A [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) [**device context**](/windows/desktop/api/D2d1_1/) (exposes an **ID2D1DeviceContext** interface pointer) represents a set of state and command buffers that you use to render to a target. You can call methods on the device context to set pipeline state and generate rendering commands by using the resources owned by a device.
+A [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) [**device context**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) (exposes an **ID2D1DeviceContext** interface pointer) represents a set of state and command buffers that you use to render to a target. You can call methods on the device context to set pipeline state and generate rendering commands by using the resources owned by a device.
 
 ## Rendering with Direct2D on Windows 8
 
-On Windows 7 and earlier, you use a [**ID2D1HwndRenderTarget**](/windows/desktop/api/d2d1/) or another render target interface to render to a window or surface. Starting with Windows 8, we do not recommend rendering by using methods that rely on interfaces like **ID2D1HwndRenderTarget** because they won't work with Windows Store apps. You can use a [**device context**](/windows/desktop/api/D2d1_1/) to render to an Hwnd if you want to make a desktop app and still take advantage of the **device context's** additional features. However, the **device context** is required to render content in a Windows Store apps with [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b).
+On Windows 7 and earlier, you use a [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) or another render target interface to render to a window or surface. Starting with Windows 8, we do not recommend rendering by using methods that rely on interfaces like **ID2D1HwndRenderTarget** because they won't work with Windows Store apps. You can use a [**device context**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) to render to an Hwnd if you want to make a desktop app and still take advantage of the **device context's** additional features. However, the **device context** is required to render content in a Windows Store apps with [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx).
 
 ## Why use a device context to render?
 
 -   You can render for Windows Store apps.
 -   You can change the render target at any time before, during, and after rendering. The device context ensures that the calls to drawing methods are executed in order and applies them when you switch the render target.
--   You can use more than one type of window with a device context. You can use a [**device context**](/windows/desktop/api/D2d1_1/) and a [**DXGI swap chain**](https://msdn.microsoft.com/library/windows/desktop/hh404631) to render directly to a [**Windows::UI::Core::CoreWindow**](https://msdn.microsoft.com/library/windows/apps/br208225) or a [**Windows::UI::XAML::SwapChainBackgroundPanel**](https://msdn.microsoft.com/library/windows/apps/hh702626).
--   You can use the [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) [**device context**](/windows/desktop/api/D2d1_1/) to create [Direct2D effects](effects-overview.md) and to render the output of an image effect or effect graph to a render target.
--   You can have multiple [**device contexts**](/windows/desktop/api/D2d1_1/), which can be helpful for improving performance in a threaded app. See [Multithreaded Direct2D apps](multi-threaded-direct2d-apps.md) for more information.
--   The [**device context**](/windows/desktop/api/D2d1_1/) interoperates closely with Direct3D, giving you more access to Direct3D options.
+-   You can use more than one type of window with a device context. You can use a [**device context**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) and a [**DXGI swap chain**](https://msdn.microsoft.com/library/windows/desktop/hh404631) to render directly to a [**Windows::UI::Core::CoreWindow**](https://msdn.microsoft.com/library/windows/apps/br208225) or a [**Windows::UI::XAML::SwapChainBackgroundPanel**](https://msdn.microsoft.com/library/windows/apps/hh702626).
+-   You can use the [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) [**device context**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) to create [Direct2D effects](effects-overview.md) and to render the output of an image effect or effect graph to a render target.
+-   You can have multiple [**device contexts**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx), which can be helpful for improving performance in a threaded app. See [Multithreaded Direct2D apps](multi-threaded-direct2d-apps.md) for more information.
+-   The [**device context**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) interoperates closely with Direct3D, giving you more access to Direct3D options.
 
 ## How to create a Direct2D device context for rendering
 
-The code here shows you how to create a Direct3D11 device, get the associated DXGI device, create a [**Direct2D device**](/windows/desktop/api/D2d1_1/), and then finally create the Direct2D [**device context**](/windows/desktop/api/D2d1_1/) for rendering.
+The code here shows you how to create a Direct3D11 device, get the associated DXGI device, create a [**Direct2D device**](https://msdn.microsoft.com/en-us/library/Hh404478(v=VS.85).aspx), and then finally create the Direct2D [**device context**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) for rendering.
 
 Here is a diagram of the method calls and the interfaces this code uses.
 
 ![diagram of direct2d and direct3d devices and device contexts.](images/devicecontextdiagram.png)
 
 > [!Note]  
-> This code assumes you already have an [**ID2D1Factory1**](/windows/desktop/api/D2d1_1/) object, for more information see the [**ID2D1Factory reference page**](/windows/desktop/api/d2d1/).
+> This code assumes you already have an [**ID2D1Factory1**](https://msdn.microsoft.com/en-us/library/Hh404596(v=VS.85).aspx) object, for more information see the [**ID2D1Factory reference page**](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx).
 
  
 
@@ -124,7 +124,7 @@ Let's walk through the steps in the preceding code sample.
 
 1.  Get an ID3D11Device interface pointer you will need this to create the device context.
 
-    -   Declare the creation flags to set up the [Direct3D](https://msdn.microsoft.com/library/windows/desktop/ff476080) device for BGRA support. [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) requires BGRA color order.
+    -   Declare the creation flags to set up the [Direct3D](https://msdn.microsoft.com/library/windows/desktop/ff476080) device for BGRA support. [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) requires BGRA color order.
     -   Declare an array of [**D3D\_FEATURE\_LEVEL**](https://msdn.microsoft.com/library/windows/desktop/ff476329) entries representing the set of feature levels that your app will support.
         > [!Note]  
         > [Direct3D](https://msdn.microsoft.com/library/windows/desktop/ff476080) searches your list until it finds the feature level supported by the host system.
@@ -134,12 +134,12 @@ Let's walk through the steps in the preceding code sample.
     -   Use the [**D3D11CreateDevice**](https://msdn.microsoft.com/library/windows/desktop/ff476082) function to create an [**ID3D11Device**](https://msdn.microsoft.com/library/windows/desktop/hh404575) object, the function will also return an [**ID3D11DeviceContext**](https://msdn.microsoft.com/library/windows/desktop/hh404598) object, but that object is not needed for this example.
 
 2.  Query the [**Direct3D 11 device**](https://msdn.microsoft.com/library/windows/desktop/ff476379) for its [**DXGI Device**](https://msdn.microsoft.com/library/windows/desktop/bb174527) interface.
-3.  Create an [**ID2D1Device**](/windows/desktop/api/D2d1_1/) object by calling the [**ID2D1Factory::CreateDevice**](/windows/desktop/api/d2d1_1/nf-d2d1_1-d2d1createdevice) method and passing in the [**IDXGIDevice**](https://msdn.microsoft.com/library/windows/desktop/bb174527) object.
-4.  Create an [**ID2D1DeviceContext**](/windows/desktop/api/D2d1_1/) pointer using the [**ID2D1Device::CreateDeviceContext**](/windows/desktop/api/D2d1_1/) method.
+3.  Create an [**ID2D1Device**](https://msdn.microsoft.com/en-us/library/Hh404478(v=VS.85).aspx) object by calling the [**ID2D1Factory::CreateDevice**](/windows/desktop/api/d2d1_1/nf-d2d1_1-d2d1createdevice) method and passing in the [**IDXGIDevice**](https://msdn.microsoft.com/library/windows/desktop/bb174527) object.
+4.  Create an [**ID2D1DeviceContext**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) pointer using the [**ID2D1Device::CreateDeviceContext**](https://msdn.microsoft.com/en-us/library/Hh404545(v=VS.85).aspx) method.
 
 ## Selecting a target
 
-The code here shows you how to get the [**2 dimensional Direct3D texture**](https://msdn.microsoft.com/library/windows/desktop/ff476635) for the window back buffer and create a bitmap target that links to this texture to which the [**Direct2D device context**](/windows/desktop/api/D2d1_1/) renders.
+The code here shows you how to get the [**2 dimensional Direct3D texture**](https://msdn.microsoft.com/library/windows/desktop/ff476635) for the window back buffer and create a bitmap target that links to this texture to which the [**Direct2D device context**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) renders.
 
 
 ```C++
@@ -243,13 +243,13 @@ Let's walk through the steps in the preceding code example.
 
 6.  Get the back buffer as an [**IDXGISurface**](https://msdn.microsoft.com/library/windows/desktop/hh404628) to pass to Direct2D. Direct2D doesn't accept an [**ID3D11Texture2D**](https://msdn.microsoft.com/library/windows/desktop/ff476635) directly.
 
-    Create a [**ID2D1Bitmap**](/windows/desktop/api/d2d1/) object from the back buffer using the [**ID2D1DeviceContext::CreateBitmapFromDxgiSurface**](/windows/desktop/api/D2d1_1/) method.
+    Create a [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx) object from the back buffer using the [**ID2D1DeviceContext::CreateBitmapFromDxgiSurface**](https://msdn.microsoft.com/en-us/library/Hh404482(v=VS.85).aspx) method.
 
-7.  Now the [**Direct2D bitmap**](/windows/desktop/api/d2d1/) is linked to the back buffer. Set the target on the [**Direct2D device context**](/windows/desktop/api/D2d1_1/) to the **bitmap**.
+7.  Now the [**Direct2D bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx) is linked to the back buffer. Set the target on the [**Direct2D device context**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) to the **bitmap**.
 
 ## How to render and display
 
-Now that you have a target bitmap, you can draw primitives, images, image effects, and text to it using the [**Direct2D device context**](/windows/desktop/api/D2d1_1/). The code here shows you how to draw a rectangle.
+Now that you have a target bitmap, you can draw primitives, images, image effects, and text to it using the [**Direct2D device context**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx). The code here shows you how to draw a rectangle.
 
 
 ```C++
@@ -285,12 +285,12 @@ DX::ThrowIfFailed(
 Let's walk through the steps in the preceding code example.
 
 1.  Call the [**CreateSolidColorBrush**](/windows/desktop/api/d2d1/nf-d2d1-createsolidcolorbrush) to create a brush to paint the rectangle.
-2.  Call the [**BeginDraw**](/windows/desktop/api/d2d1/) method before issuing any drawing commands.
-3.  Call the [**DrawRectangle**](/windows/desktop/api/d2d1/) method the rectangle to be drawn and the brush.
-4.  Call the [**EndDraw**](/windows/desktop/api/d2d1/) method after you've finished issuing drawing commands.
+2.  Call the [**BeginDraw**](https://msdn.microsoft.com/en-us/library/Dd371768(v=VS.85).aspx) method before issuing any drawing commands.
+3.  Call the [**DrawRectangle**](https://msdn.microsoft.com/en-us/library/Dd371902(v=VS.85).aspx) method the rectangle to be drawn and the brush.
+4.  Call the [**EndDraw**](https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx) method after you've finished issuing drawing commands.
 5.  Display the result by calling the [**IDXGISwapChain::Present**](https://msdn.microsoft.com/library/windows/desktop/bb174576) method.
 
-Now you can use the [**Direct2D device context**](/windows/desktop/api/D2d1_1/) draw primitives, images, image effects, and text to the screen.
+Now you can use the [**Direct2D device context**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) draw primitives, images, image effects, and text to the screen.
 
  
 

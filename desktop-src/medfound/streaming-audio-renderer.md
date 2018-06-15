@@ -38,12 +38,12 @@ For a list of configuration attributes, see [Audio Renderer Attributes](audio-re
 
 An *audio endpoint device* is a hardware device that either renders or captures audio. Examples include speakers, headphones, microphones, and CD players. The SAR always uses an audio rendering device. There are two ways to select the device.
 
-The first approach is to enumerate the audio rendering devices on the system, using the [**IMMDeviceEnumerator**](https://msdn.microsoft.com/1abdeac1-c156-40b8-8b8c-5ddb51e410aa) interface. This interface is documented in the core audio API documentation.
+The first approach is to enumerate the audio rendering devices on the system, using the [**IMMDeviceEnumerator**](https://msdn.microsoft.com/en-us/library/Dd371399(v=VS.85).aspx) interface. This interface is documented in the core audio API documentation.
 
 1.  Create the device enumerator object.
-2.  Use the device enumerator to enumerate audio rendering devices. Each device is represented by a pointer to the [**IMMDevice**](https://msdn.microsoft.com/12b05e7e-81b2-49fd-bb9f-d5ad3315c580) interface.
+2.  Use the device enumerator to enumerate audio rendering devices. Each device is represented by a pointer to the [**IMMDevice**](https://msdn.microsoft.com/en-us/library/Dd371395(v=VS.85).aspx) interface.
 3.  Select a device, based on the device properties or the user's selection.
-4.  Call [**IMMDevice::GetId**](https://msdn.microsoft.com/b2f56713-856c-408e-8993-1d13e234dc89) to get the device identifier.
+4.  Call [**IMMDevice::GetId**](https://msdn.microsoft.com/en-us/library/Dd371407(v=VS.85).aspx) to get the device identifier.
 5.  Set the device identifier as the value of the [**MF\_AUDIO\_RENDERER\_ATTRIBUTE\_ENDPOINT\_ID**](mf-audio-renderer-attribute-endpoint-id-attribute.md) attribute.
 
 Rather than enumerate devices, you can specify the audio device by its *role*. An audio role identifies a general category of usage. For example, the *console* role is defined for games and system notifications, while the *multimedia* role is defined for music and movies. Each role has one audio rendering device assigned to it, and the user can change these assignments. If you specify a device role, the SAR uses whatever audio device has been assigned for that role. To specify the device role, set the [**MF\_AUDIO\_RENDERER\_ATTRIBUTE\_ENDPOINT\_ROLE**](mf-audio-renderer-attribute-endpoint-role-attribute.md) attribute.
@@ -121,7 +121,7 @@ CoTaskMemFree(wstrID);
 
 
 
-To create the activation object for the SAR, change the code that appears after the call to [**IMMDevice::GetId**](https://msdn.microsoft.com/b2f56713-856c-408e-8993-1d13e234dc89) to the following:
+To create the activation object for the SAR, change the code that appears after the call to [**IMMDevice::GetId**](https://msdn.microsoft.com/en-us/library/Dd371407(v=VS.85).aspx) to the following:
 
 
 ```C++

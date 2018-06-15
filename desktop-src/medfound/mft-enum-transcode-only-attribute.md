@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Specifies whether a decoder is optimized for transcoding rather than for playback.
 
-Currently, this attribute applies only to hardware-based decoders that use the AVStream mini-driver. The attribute is stored in the registry under the decoder's capabilities information. For more information, see the documentation for [**IGetCapabilitiesKey**](https://msdn.microsoft.com/97a9112f-7b7b-4a7e-8f40-bdb148d413c8).
+Currently, this attribute applies only to hardware-based decoders that use the AVStream mini-driver. The attribute is stored in the registry under the decoder's capabilities information. For more information, see the documentation for [**IGetCapabilitiesKey**](https://msdn.microsoft.com/en-us/library/Dd390083(v=VS.85).aspx).
 
 Applications typically do not use this attribute.
 

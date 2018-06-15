@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Cryptography Essentials
 
-Microsoft CryptoAPI, application programming interface (API), and CAPICOM provide services that enable developers to add security based on [*cryptography*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) to applications. CryptoAPI includes functionality for encoding to and decoding from [*Abstract Syntax Notation One*](https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02) (ASN.1), encrypting and decrypting data, authentication using [*digital certificates*](https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2), and digital certificate management using certificate stores. CryptoAPI and CAPICOM support both PKI and symmetric key cryptography.
+Microsoft CryptoAPI, application programming interface (API), and CAPICOM provide services that enable developers to add security based on [*cryptography*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) to applications. CryptoAPI includes functionality for encoding to and decoding from [*Abstract Syntax Notation One*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) (ASN.1), encrypting and decrypting data, authentication using [*digital certificates*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx), and digital certificate management using certificate stores. CryptoAPI and CAPICOM support both PKI and symmetric key cryptography.
 
 Cryptography Essentials contains the following topics:
 

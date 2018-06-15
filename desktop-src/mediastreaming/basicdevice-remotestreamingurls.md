@@ -44,7 +44,7 @@ An enumerable collection of pointers to remote streaming URLs.
 
 <dl> <dt>
 
-[**BasicDevice**](https://www.bing.com/search?q=**BasicDevice**)
+[**BasicDevice**](https://msdn.microsoft.com/en-us/library/Hh828813(v=VS.85).aspx)
 </dt> </dl>
 
  

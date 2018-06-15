@@ -43,7 +43,7 @@ HRESULT GetParam(
 *dwParam* \[in\]
 </dt> <dd>
 
-Specifies the parameter to retrieve. It must be a value defined in the [\_AM\_ASFWRITERCONFIG\_PARAM](/windows/desktop/api/Dshowasf/) enumeration.
+Specifies the parameter to retrieve. It must be a value defined in the [\_AM\_ASFWRITERCONFIG\_PARAM](https://msdn.microsoft.com/en-us/library/Dd758054(v=VS.85).aspx) enumeration.
 
 </dd> <dt>
 
@@ -69,7 +69,7 @@ If the method succeeds, it returns S\_OK. If it fails, it returns an **HRESULT**
 
 <dl> <dt>
 
-[**IConfigAsfWriter2 Interface**](/windows/desktop/api/dshowasf/)
+[**IConfigAsfWriter2 Interface**](https://msdn.microsoft.com/en-us/library/Dd743206(v=VS.85).aspx)
 </dt> <dt>
 
 [**IConfigAsfWriter2::SetParam**](iconfigasfwriter2-setparam.md)

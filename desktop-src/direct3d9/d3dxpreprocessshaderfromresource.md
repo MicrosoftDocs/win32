@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 Preprocesses a shader resource without performing compilation. This resolves all \#defines and \#includes, providing a self-contained shader for subsequent compilation.
 
 > [!Note]  
-> Instead of using this legacy function, we recommend that you use the [**D3DPreprocess**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dpreprocess.htm) API.
+> Instead of using this legacy function, we recommend that you use the [**D3DPreprocess**](https://msdn.microsoft.com/en-us/library/Dd607332(v=VS.85).aspx) API.
 
  
 
@@ -41,7 +41,7 @@ HRESULT D3DXPreprocessShaderFromResource(
 *hSrcModule* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**HMODULE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Handle to the module that holds the shader resource. If this value is **NULL**, the current module will be used.
 
@@ -50,7 +50,7 @@ Handle to the module that holds the shader resource. If this value is **NULL**, 
 *pSrcResource* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 String that represents the name of the resource in the module.
 
@@ -94,7 +94,7 @@ Returns a buffer containing a listing of errors and warnings that were encounter
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA, E\_OUTOFMEMORY.
 

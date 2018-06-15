@@ -24,7 +24,7 @@ typedef D3DCOLORVALUE D2D_COLOR_F;
 
 ## Remarks
 
-For more information, see [**D3DCOLORVALUE**](/windows/desktop/api/D2DBaseTypes/).
+For more information, see [**D3DCOLORVALUE**](https://msdn.microsoft.com/en-us/library/Dd368193(v=VS.85).aspx).
 
 ## Requirements
 
@@ -43,7 +43,7 @@ For more information, see [**D3DCOLORVALUE**](/windows/desktop/api/D2DBaseTypes/
 
 <dl> <dt>
 
-[**D3DCOLORVALUE**](/windows/desktop/api/D2DBaseTypes/)
+[**D3DCOLORVALUE**](https://msdn.microsoft.com/en-us/library/Dd368193(v=VS.85).aspx)
 </dt> </dl>
 
  

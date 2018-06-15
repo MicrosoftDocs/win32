@@ -31,7 +31,7 @@ VT\_INT
 
 ## Remarks
 
-Use this property to configure the WTV media source. To set the property, pass an [**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) pointer to the source resolver. For more information, see [Configuring a Media Source](configuring-a-media-source.md).
+Use this property to configure the WTV media source. To set the property, pass an [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) pointer to the source resolver. For more information, see [Configuring a Media Source](configuring-a-media-source.md).
 
 The WTV media source reads Windows Recorded TV Show (.wtv and .ms-drv) files.
 

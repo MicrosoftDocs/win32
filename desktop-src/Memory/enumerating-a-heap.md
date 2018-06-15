@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The following example illustrates the use of the [**HeapWalk**](/windows/desktop/api/HeapApi/nf-heapapi-heapwalk) function to enumerate a heap.
 
-First, the example creates a private heap with the [**HeapCreate**](/windows/desktop/api/HeapApi/nf-heapapi-heapcreate) function. Then it uses [**HeapLock**](/windows/desktop/api/HeapApi/nf-heapapi-heaplock) to lock the heap so other threads cannot access the heap while it is being enumerated. The example then calls [**HeapWalk**](/windows/desktop/api/HeapApi/nf-heapapi-heapwalk) with a pointer to a [**PROCESS\_HEAP\_ENTRY**](https://www.bing.com/search?q=**PROCESS\_HEAP\_ENTRY**) structure and iterates through the heap, printing each entry to the console.
+First, the example creates a private heap with the [**HeapCreate**](/windows/desktop/api/HeapApi/nf-heapapi-heapcreate) function. Then it uses [**HeapLock**](/windows/desktop/api/HeapApi/nf-heapapi-heaplock) to lock the heap so other threads cannot access the heap while it is being enumerated. The example then calls [**HeapWalk**](/windows/desktop/api/HeapApi/nf-heapapi-heapwalk) with a pointer to a [**PROCESS\_HEAP\_ENTRY**](https://msdn.microsoft.com/en-us/library/Aa366798(v=VS.85).aspx) structure and iterates through the heap, printing each entry to the console.
 
 After enumeration is finished, the example uses [**HeapUnlock**](/windows/desktop/api/HeapApi/nf-heapapi-heapunlock) to unlock the heap so that other threads can access it. Finally, the example calls [**HeapDestroy**](/windows/desktop/api/HeapApi/nf-heapapi-heapdestroy) to destroy the private heap.
 

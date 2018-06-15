@@ -32,7 +32,7 @@ A module does not need to be open to retrieve dependency information.
 
 ### C++
 
-See [**get\_Dependencies**](/windows/desktop/api/Mergemod/) Function.
+See [**get\_Dependencies**](https://msdn.microsoft.com/en-us/library/Aa369271(v=VS.85).aspx) Function.
 
 ## Requirements
 

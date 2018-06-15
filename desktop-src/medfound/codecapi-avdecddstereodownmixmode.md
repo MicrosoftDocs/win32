@@ -23,7 +23,7 @@ Specifies the stereo downmix mode for a Dolby Digital audio decoder.
 
 ## Property value
 
-The value of this property is a member of the [**eAVDecDDStereoDownMixMode**](/windows/desktop/api/codecapi/) enumeration.
+The value of this property is a member of the [**eAVDecDDStereoDownMixMode**](https://msdn.microsoft.com/en-us/library/Hh447683(v=VS.85).aspx) enumeration.
 
 ## Remarks
 

@@ -105,7 +105,7 @@ You can provide a custom template for the **Font** dialog box, for example, if y
     -   If your custom template is a resource in an application or dynamic link library, set the **CF\_ENABLETEMPLATE** flag in the **Flags** member. Use the **hInstance** and **lpTemplateName** members of the structure to identify the module and resource name.
     -   If your custom template is already in memory, set the **CF\_ENABLETEMPLATEHANDLE** flag. Use the **hInstance** member to identify the memory object that contains the template.
 
-You can provide a [**CFHookProc**](https://www.bing.com/search?q=**CFHookProc**) hook procedure for the **Font** dialog box. The hook procedure can process messages sent to the dialog box and send messages to the dialog box. If you use a custom template to define additional controls, you must provide a hook procedure to process input for your controls.
+You can provide a [**CFHookProc**](https://msdn.microsoft.com/en-us/library/ms646909(v=VS.85).aspx) hook procedure for the **Font** dialog box. The hook procedure can process messages sent to the dialog box and send messages to the dialog box. If you use a custom template to define additional controls, you must provide a hook procedure to process input for your controls.
 
 **To enable a hook procedure for the Font dialog box**
 

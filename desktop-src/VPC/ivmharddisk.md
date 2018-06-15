@@ -28,7 +28,7 @@ Provides access to a hard disk image. It can be accessed through the [**IVMHardD
 
 ## Members
 
-The **IVMHardDisk** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMHardDisk** also has these types of members:
+The **IVMHardDisk** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMHardDisk** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

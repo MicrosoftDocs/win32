@@ -92,10 +92,10 @@ To build the sample using Microsoft Visual Studio (preferred):
 **Other Resources**
 </dt> <dt>
 
-[**IPropertyStore**](https://msdn.microsoft.com/windows/desktop/e995aaa1-d4c9-475f-b1fa-b9123cd5b653)
+[**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx)
 </dt> <dt>
 
-[About Properties and Property Handlers](https://msdn.microsoft.com/windows/desktop/a773c7b3-a1a2-4cce-ae5f-b54217ea06f4)
+[About Properties and Property Handlers](https://msdn.microsoft.com/en-us/library/Cc144129(v=VS.85).aspx)
 </dt> <dt>
 
 [Property Description Schema](https://www.bing.com/search?q=Property+Description+Schema)

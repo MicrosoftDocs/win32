@@ -12,11 +12,11 @@ ms.date: 05/31/2018
 # D3DX10DisassembleShader function
 
 > [!Note]  
-> Instead of using this legacy function, we recommend that you use the [**D3DDisassemble**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddisassemble.htm) API.
+> Instead of using this legacy function, we recommend that you use the [**D3DDisassemble**](https://msdn.microsoft.com/en-us/library/Dd607326(v=VS.85).aspx) API.
 
  
 
-This function -- which disassembles a compiled shader into a text string that contains assembly instructions and register assignments -- no longer exists. Instead, use [**D3DDisassemble10Effect**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddisassemble10effect.htm).
+This function -- which disassembles a compiled shader into a text string that contains assembly instructions and register assignments -- no longer exists. Instead, use [**D3DDisassemble10Effect**](https://msdn.microsoft.com/en-us/library/Dd607327(v=VS.85).aspx).
 
 ## Syntax
 
@@ -49,7 +49,7 @@ A pointer to the [**compiled shader**](/windows/desktop/api/D3D10/nf-d3d10-id3d1
 *BytecodeLength* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**SIZE\_T**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 The size of pShader.
 
@@ -58,7 +58,7 @@ The size of pShader.
 *EnableColorCode* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Include HTML tags in the output to color code the result.
 
@@ -67,7 +67,7 @@ Include HTML tags in the output to color code the result.
 *pComments* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 The comment string at the top of the shader that identifies the shader constants and variables.
 
@@ -84,7 +84,7 @@ Address of a buffer (see [**ID3D10Blob Interface**](/windows/desktop/api/D3DComm
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 
@@ -92,7 +92,7 @@ Returns one of the following [Direct3D 10 Return Codes](d3d10-graphics-reference
 
 This returned text includes a header with the version of the HLSL compiler used to generate this object, comments describing the memory layout of the constant buffers used by the shader, input and output signatures, and resource binding points.
 
-Here is an example of disassembling a compiled shader. The example assumes you start with a compiled shader (shown as *pVSBuf* which you can see in [HLSLWithoutFX10 Sample](https://msdn.microsoft.com/windows/desktop/61f892cf-4760-177b-5048-0ba3906d8bfc)).
+Here is an example of disassembling a compiled shader. The example assumes you start with a compiled shader (shown as *pVSBuf* which you can see in [HLSLWithoutFX10 Sample](https://msdn.microsoft.com/en-us/library/Ee416414(v=VS.85).aspx)).
 
 
 ```

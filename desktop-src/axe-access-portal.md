@@ -17,9 +17,9 @@ The Assessment Execution Engine (AXE) enables the management and execution of Wi
 
 ## Developer audience
 
-This documentation is intended for software developers who want to write assessments or solutions that use the Assessment Execution Engine (AXE.) It contains complete descriptions of the application programming interfaces and elements. The header files for using the unmanaged C++ version of the AXE APIs are installed with the "Windows Assessment Toolkit" feature of the [Windows Assessment and Deployment Kit (ADK)](https://msdn.microsoft.com/windows/desktop/6fe09525-f188-4668-be54-f222a8d1647b).
+This documentation is intended for software developers who want to write assessments or solutions that use the Assessment Execution Engine (AXE.) It contains complete descriptions of the application programming interfaces and elements. The header files for using the unmanaged C++ version of the AXE APIs are installed with the "Windows Assessment Toolkit" feature of the [Windows Assessment and Deployment Kit (ADK)](https://msdn.microsoft.com/en-us/library/Hh825420(v=WIN.10).aspx).
 
-The AXE object model is a managed assembly used for programmatically creating, reading and writing assessment and job manifests. It is contained in the "Microsoft.Assessments.dll" in the [Windows Assessment and Deployment Kit (ADK)](https://msdn.microsoft.com/windows/desktop/6fe09525-f188-4668-be54-f222a8d1647b) under the "Windows Assessment Toolkit" installation. Currently, the only documentation for the interface is the public APIs discoverable through reflection.
+The AXE object model is a managed assembly used for programmatically creating, reading and writing assessment and job manifests. It is contained in the "Microsoft.Assessments.dll" in the [Windows Assessment and Deployment Kit (ADK)](https://msdn.microsoft.com/en-us/library/Hh825420(v=WIN.10).aspx) under the "Windows Assessment Toolkit" installation. Currently, the only documentation for the interface is the public APIs discoverable through reflection.
 
 ## Run-time requirements
 

@@ -56,7 +56,7 @@ The address of the factory with which *resource* was used.
 
 ## Examples
 
-The following example first creates two debug-enabled [**ID2D1Factory**](/windows/desktop/api/d2d1/) objects; it then creates a geometry from the first factory, and a brush from the second factory. Lastly, it calls [**FillGeometry**](/windows/desktop/api/d2d1/), passing in the geometry and the brush.
+The following example first creates two debug-enabled [**ID2D1Factory**](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx) objects; it then creates a geometry from the first factory, and a brush from the second factory. Lastly, it calls [**FillGeometry**](https://msdn.microsoft.com/en-us/library/Dd371933(v=VS.85).aspx), passing in the geometry and the brush.
 
 
 ```C++

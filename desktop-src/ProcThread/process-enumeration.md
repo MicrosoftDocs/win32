@@ -22,15 +22,15 @@ The following functions are used to enumerate processes.
 | [**EnumProcesses**](https://www.bing.com/search?q=**EnumProcesses**)                     | Retrieves the process identifier for each process object in the system.            |
 | [**Process32First**](https://www.bing.com/search?q=**Process32First**)                   | Retrieves information about the first process encountered in a system snapshot.    |
 | [**Process32Next**](https://www.bing.com/search?q=**Process32Next**)                     | Retrieves information about the next process recorded in a system snapshot.        |
-| [**WTSEnumerateProcesses**](https://msdn.microsoft.com/ddfae294-2e7c-416e-b328-76d011b4af39) | Retrieves information about the active processes on the specified terminal server. |
+| [**WTSEnumerateProcesses**](https://msdn.microsoft.com/en-us/library/Aa383831(v=VS.85).aspx) | Retrieves information about the active processes on the specified terminal server. |
 
 
 
  
 
-The toolhelp functions and [**EnumProcesses**](https://www.bing.com/search?q=**EnumProcesses**) enumerate all process. To list the processes that are running in a specific user account, use [**WTSEnumerateProcesses**](https://msdn.microsoft.com/ddfae294-2e7c-416e-b328-76d011b4af39) and filter on the user SID. You can filter on the session ID to hide processes running in other terminal server sessions.
+The toolhelp functions and [**EnumProcesses**](https://www.bing.com/search?q=**EnumProcesses**) enumerate all process. To list the processes that are running in a specific user account, use [**WTSEnumerateProcesses**](https://msdn.microsoft.com/en-us/library/Aa383831(v=VS.85).aspx) and filter on the user SID. You can filter on the session ID to hide processes running in other terminal server sessions.
 
-You can also filter processes by user account, regardless of the enumeration function, by calling [**OpenProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-openprocess), [**OpenProcessToken**](https://msdn.microsoft.com/1e760ad8-7e46-4748-8c45-36ad8efe936a), and [**GetTokenInformation**](https://msdn.microsoft.com/e94de19c-de12-40fb-a72c-060f7ad12f75) with **TokenUser**. However, you cannot open a process that is protected by a security descriptor unless you have been granted access.
+You can also filter processes by user account, regardless of the enumeration function, by calling [**OpenProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-openprocess), [**OpenProcessToken**](https://msdn.microsoft.com/en-us/library/Aa379295(v=VS.85).aspx), and [**GetTokenInformation**](https://msdn.microsoft.com/en-us/library/Aa446671(v=VS.85).aspx) with **TokenUser**. However, you cannot open a process that is protected by a security descriptor unless you have been granted access.
 
  
 

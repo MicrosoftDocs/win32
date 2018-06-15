@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Sending a Command
 
-The following example function sends the [**play**](play.md) command with the "from" and "to" flags using the [**mciSendString**](/windows/desktop/api/Mmsystem/) function.
+The following example function sends the [**play**](play.md) command with the "from" and "to" flags using the [**mciSendString**](https://msdn.microsoft.com/en-us/library/Dd757161(v=VS.85).aspx) function.
 
 
 ```C++

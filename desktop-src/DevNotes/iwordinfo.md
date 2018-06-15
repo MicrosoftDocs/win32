@@ -17,7 +17,7 @@ The **IWordInfo** interface is a Japanese-specific language resource component. 
 
 ## Members
 
-The **IWordInfo** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IWordInfo** also has these types of members:
+The **IWordInfo** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IWordInfo** also has these types of members:
 
 -   [Methods](#methods)
 

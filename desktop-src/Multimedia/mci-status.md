@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 The MCI\_STATUS command retrieves information about an MCI device. All devices recognize this command. Information is returned in the **dwReturn** member of the structure identified by the *lpStatus* parameter.
 
-To send this command, call the [**mciSendCommand**](/windows/desktop/api/Mmsystem/) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

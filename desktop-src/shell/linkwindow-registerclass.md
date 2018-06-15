@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # LinkWindow\_RegisterClass function
 
-\[This function is available through Windows XP with Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**InitCommonControlsEx**](https://msdn.microsoft.com/VS|Controls|~\controls\common\functions\initcommoncontrolsex.htm) instead.\]
+\[This function is available through Windows XP with Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**InitCommonControlsEx**](https://msdn.microsoft.com/en-us/library/Bb775697(v=VS.85).aspx) instead.\]
 
-Registers a window class that allows for the [SysLink](https://msdn.microsoft.com/windows/desktop/38cfac3d-de60-4882-a434-4f498330b77d) common control to be used in a window.
+Registers a window class that allows for the [SysLink](https://www.bing.com/search?q=SysLink) common control to be used in a window.
 
 ## Syntax
 
@@ -36,7 +36,7 @@ Returns **TRUE** if registration was successful; **FALSE** otherwise.
 
 ## Remarks
 
-This function does not have an associated header or library file so it must be called by ordinal value. Call [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) with the DLL name Shell32.dll to obtain a module handle. Then call [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) with that module handle and the ordinal number 258 to use this function.
+This function does not have an associated header or library file so it must be called by ordinal value. Call [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) with the DLL name Shell32.dll to obtain a module handle. Then call [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) with that module handle and the ordinal number 258 to use this function.
 
 Use [**LinkWindow\_UnregisterClass**](linkwindow-unregisterclass.md) to unregister the class after use.
 
@@ -56,7 +56,7 @@ Use [**LinkWindow\_UnregisterClass**](linkwindow-unregisterclass.md) to unregist
 
 <dl> <dt>
 
-[Overview of SysLink Controls](https://msdn.microsoft.com/windows/desktop/38cfac3d-de60-4882-a434-4f498330b77d)
+[Overview of SysLink Controls](https://www.bing.com/search?q=Overview+of+SysLink+Controls)
 </dt> </dl>
 
  

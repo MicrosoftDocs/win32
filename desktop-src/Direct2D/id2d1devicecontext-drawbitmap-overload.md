@@ -25,10 +25,10 @@ Draws a bitmap to the render target.
 
 | Method                                                                                                                                                          | Description                                     |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------|
-| [**DrawBitmap (ID2D1Bitmap\*, D2D1\_RECT\_F\*, FLOAT, D2D1\_INTERPOLATION\_MODE, D2D1\_RECT\_F\*, D2D1\_MATRIX\_4X4\_F\*)**](/windows/desktop/api/D2d1_1/) | Draws a bitmap to the render target.<br/> |
-| [**DrawBitmap (ID2D1Bitmap\*, D2D1\_RECT\_F&, FLOAT, D2D1\_INTERPOLATION\_MODE, D2D1\_RECT\_F\*, D2D1\_MATRIX\_4X4\_F\*)**](/windows/desktop/api/D2d1_1/) | Draws a bitmap to the render target.<br/> |
-| [**DrawBitmap (ID2D1Bitmap\*, D2D1\_RECT\_F&, FLOAT, D2D1\_INTERPOLATION\_MODE, D2D1\_RECT\_F&, D2D1\_MATRIX\_4X4\_F\*)**](/windows/desktop/api/D2d1_1/)  | Draws a bitmap to the render target.<br/> |
-| [**DrawBitmap (ID2D1Bitmap\*, D2D1\_RECT\_F&, FLOAT, D2D1\_INTERPOLATION\_MODE, D2D1\_RECT\_F&, D2D1\_MATRIX\_4X4\_F&)**](/windows/desktop/api/D2d1_1/)   | Draws a bitmap to the render target.<br/> |
+| [**DrawBitmap (ID2D1Bitmap\*, D2D1\_RECT\_F\*, FLOAT, D2D1\_INTERPOLATION\_MODE, D2D1\_RECT\_F\*, D2D1\_MATRIX\_4X4\_F\*)**](https://msdn.microsoft.com/en-us/library/Dn441539(v=VS.85).aspx) | Draws a bitmap to the render target.<br/> |
+| [**DrawBitmap (ID2D1Bitmap\*, D2D1\_RECT\_F&, FLOAT, D2D1\_INTERPOLATION\_MODE, D2D1\_RECT\_F\*, D2D1\_MATRIX\_4X4\_F\*)**](https://msdn.microsoft.com/en-us/library/JJ841143(v=VS.85).aspx) | Draws a bitmap to the render target.<br/> |
+| [**DrawBitmap (ID2D1Bitmap\*, D2D1\_RECT\_F&, FLOAT, D2D1\_INTERPOLATION\_MODE, D2D1\_RECT\_F&, D2D1\_MATRIX\_4X4\_F\*)**](https://msdn.microsoft.com/en-us/library/JJ841144(v=VS.85).aspx)  | Draws a bitmap to the render target.<br/> |
+| [**DrawBitmap (ID2D1Bitmap\*, D2D1\_RECT\_F&, FLOAT, D2D1\_INTERPOLATION\_MODE, D2D1\_RECT\_F&, D2D1\_MATRIX\_4X4\_F&)**](https://msdn.microsoft.com/en-us/library/JJ841145(v=VS.85).aspx)   | Draws a bitmap to the render target.<br/> |
 
 
 
@@ -36,7 +36,7 @@ Draws a bitmap to the render target.
 
 <dl> <dt>
 
-[**ID2D1DeviceContext**](/windows/desktop/api/D2d1_1/)
+[**ID2D1DeviceContext**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx)
 </dt> </dl>
 
  

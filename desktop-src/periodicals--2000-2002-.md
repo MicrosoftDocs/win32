@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 # Periodicals (2000-2002)
 
--   [Windows Professional](https://www.bing.com/search?q=Windows+Professional)
--   [Windows and .NET Magazine](https://www.bing.com/search?q=Windows+and+.NET+Magazine)
+-   [Windows Professional](https://msdn.microsoft.com/en-us/library/Hh546991(v=VS.85).aspx)
+-   [Windows and .NET Magazine](https://msdn.microsoft.com/en-us/library/Hh546989(v=VS.85).aspx)
 
  
 

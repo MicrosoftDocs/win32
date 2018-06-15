@@ -39,7 +39,7 @@ Set to **TRUE** if the TPM auto provisioning is enabled.
 
 ## Return value
 
-All TPM errors as well as errors specific to [TPM Base Services](https://msdn.microsoft.com/a3888263-aa00-4b31-b51d-c6d448c1edb7) can be returned.
+All TPM errors as well as errors specific to [TPM Base Services](https://msdn.microsoft.com/en-us/library/Aa446795(v=VS.85).aspx) can be returned.
 
 Common return codes are listed below.
 
@@ -55,7 +55,7 @@ Common return codes are listed below.
 
 ## Remarks
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/26494142-2078-4d46-a794-e43973255c2d).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/en-us/library/Aa823192(v=VS.85).aspx).
 
 ## Requirements
 

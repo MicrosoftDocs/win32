@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Sent to a window to retrieve a handle to the large or small icon associated with a window. The system displays the large icon in the ALT+TAB dialog, and the small icon in the window caption.
 
-A window receives this message through its [**WindowProc**](/windows/desktop/api/Winuser/nf-winuser-callwindowproca) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -56,15 +56,15 @@ The DPI of the icon being retrieved. This can be used to provide different icons
 
 Type: **HICON**
 
-The return value is a handle to the large or small icon, depending on the value of *wParam*. When an application receives this message, it can return a handle to a large or small icon, or pass the message to the [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) function.
+The return value is a handle to the large or small icon, depending on the value of *wParam*. When an application receives this message, it can return a handle to a large or small icon, or pass the message to the [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) function.
 
 ## Remarks
 
-When an application receives this message, it can return a handle to a large or small icon, or pass the message to [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca).
+When an application receives this message, it can return a handle to a large or small icon, or pass the message to [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx).
 
-[**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) returns a handle to the large or small icon associated with the window, depending on the value of *wParam*.
+[**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) returns a handle to the large or small icon associated with the window, depending on the value of *wParam*.
 
-A window that has no icon explicitly set (with **WM\_SETICON**) uses the icon for the registered window class, and in this case [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) will return 0 for a **WM\_GETICON** message. If sending a **WM\_GETICON** message to a window returns 0, next try calling the [**GetClassLongPtr**](/windows/desktop/api/Winuser/nf-winuser-getclasslongptra) function for the window. If that returns 0 then try the [**LoadIcon**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\loadicon.htm) function.
+A window that has no icon explicitly set (with **WM\_SETICON**) uses the icon for the registered window class, and in this case [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) will return 0 for a **WM\_GETICON** message. If sending a **WM\_GETICON** message to a window returns 0, next try calling the [**GetClassLongPtr**](https://msdn.microsoft.com/en-us/library/ms633581(v=VS.85).aspx) function for the window. If that returns 0 then try the [**LoadIcon**](https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx) function.
 
 ## Requirements
 
@@ -85,7 +85,7 @@ A window that has no icon explicitly set (with **WM\_SETICON**) uses the icon fo
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca)
+[**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_SETICON**](wm-seticon.md)

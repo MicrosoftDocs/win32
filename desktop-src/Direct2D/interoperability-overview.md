@@ -43,29 +43,29 @@ The following diagram summarizes the different platforms with which Direct2D is 
 
 ## GDI Interoperability
 
-Direct2D enables two-way interoperability with GDI. You can use an [**ID2D1DCRenderTarget**](/windows/desktop/api/d2d1/) to write Direct2D content to a GDI [device context](https://msdn.microsoft.com/library/windows/desktop/dd183553) (DC), or you can use [**ID2D1GdiInteropRenderTarget**](/windows/desktop/api/d2d1/) to obtain a DC representation of a render target.
+Direct2D enables two-way interoperability with GDI. You can use an [**ID2D1DCRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371213(v=VS.85).aspx) to write Direct2D content to a GDI [device context](https://msdn.microsoft.com/library/windows/desktop/dd183553) (DC), or you can use [**ID2D1GdiInteropRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371321(v=VS.85).aspx) to obtain a DC representation of a render target.
 
 For more information and examples, see the [Direct2D and GDI Interoperability Overview](direct2d-and-gdi-interoperation-overview.md).
 
 ## GDI+ Interoperability
 
-You can use GDI+ with Direct2D in the same manner as GDI. You can use an [**ID2D1DCRenderTarget**](/windows/desktop/api/d2d1/) to write Direct2D content to the same DC as your GDI+ content. This approach enables you to start adding Direct2D content to applications that primarily render by using GDI+.
+You can use GDI+ with Direct2D in the same manner as GDI. You can use an [**ID2D1DCRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371213(v=VS.85).aspx) to write Direct2D content to the same DC as your GDI+ content. This approach enables you to start adding Direct2D content to applications that primarily render by using GDI+.
 
-You can also use an [**ID2D1GdiInteropRenderTarget**](/windows/desktop/api/d2d1/) to provide access to a GDI DC that writes by using Direct2D, and then use the [**FromHDC**](https://msdn.microsoft.com/windows/desktop/fb1ce44e-3e46-40e7-a2d2-23aca0c8fd81) method to create a object. This approach is useful for applications that primarily render with Direct2D, but have an extensibility model or other legacy content that requires the ability to render with GDI+.
+You can also use an [**ID2D1GdiInteropRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371321(v=VS.85).aspx) to provide access to a GDI DC that writes by using Direct2D, and then use the [**FromHDC**](https://www.bing.com/search?q=**FromHDC**) method to create a object. This approach is useful for applications that primarily render with Direct2D, but have an extensibility model or other legacy content that requires the ability to render with GDI+.
 
 ## Direct3D Interoperability
 
-Direct2D can use a DXGI surface render target (created by the [**CreateDxgiSurfaceRender**](/windows/desktop/api/d2d1/nf-d2d1-createdxgisurfacerendertarget) method) to write to an [IDXGISurface](http://msdn.microsoft.com/library/bb174565(VS.85).aspx). This action enables you to add 2-D backgrounds and interfaces to 3-D scenes and use Direct2D content as a texture for a 3-D model. Direct2D can also take an [IDXGISurface](http://msdn.microsoft.com/library/bb174565(VS.85).aspx) and use the [**CreateSharedBitmap**](/windows/desktop/api/d2d1/) method to create a bitmap representation.
+Direct2D can use a DXGI surface render target (created by the [**CreateDxgiSurfaceRender**](/windows/desktop/api/d2d1/nf-d2d1-createdxgisurfacerendertarget) method) to write to an [IDXGISurface](http://msdn.microsoft.com/library/bb174565(VS.85).aspx). This action enables you to add 2-D backgrounds and interfaces to 3-D scenes and use Direct2D content as a texture for a 3-D model. Direct2D can also take an [IDXGISurface](http://msdn.microsoft.com/library/bb174565(VS.85).aspx) and use the [**CreateSharedBitmap**](https://msdn.microsoft.com/en-us/library/Dd371865(v=VS.85).aspx) method to create a bitmap representation.
 
 For more information and examples, see the [Direct2D and Direct3D Interoperability Overview](direct2d-and-direct3d-interoperation-overview.md).
 
 ## DirectWrite Interoperability
 
-Direct2D is tightly integrated with DirectWrite. Direct2D makes it easy to render DirectWrite content by providing the [**DrawText**](id2d1rendertarget-drawtext.md), [**DrawTextLayout**](/windows/desktop/api/d2d1/), and [**DrawGlyphRun**](/windows/desktop/api/d2d1/) methods.
+Direct2D is tightly integrated with DirectWrite. Direct2D makes it easy to render DirectWrite content by providing the [**DrawText**](id2d1rendertarget-drawtext.md), [**DrawTextLayout**](https://msdn.microsoft.com/en-us/library/Dd371913(v=VS.85).aspx), and [**DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd371893(v=VS.85).aspx) methods.
 
 ## Windows Imaging Component (WIC) Interoperability
 
-Direct2D provides the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md), [**CreateSharedBitmap**](/windows/desktop/api/d2d1/), and [**CreateWicBitmapRenderTarget**](id2d1factory-createwicbitmaprendertarget.md) methods for manipulating WIC bitmaps.
+Direct2D provides the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md), [**CreateSharedBitmap**](https://msdn.microsoft.com/en-us/library/Dd371865(v=VS.85).aspx), and [**CreateWicBitmapRenderTarget**](id2d1factory-createwicbitmaprendertarget.md) methods for manipulating WIC bitmaps.
 
 ## Related topics
 

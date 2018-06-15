@@ -35,14 +35,14 @@ The address of the render target.
 <span id="tag1"></span><span id="TAG1"></span>*tag1*
 </dt> <dd>
 
-The first tag value. See [**SetTags**](/windows/desktop/api/d2d1/) for more information.
+The first tag value. See [**SetTags**](https://msdn.microsoft.com/en-us/library/Dd316892(v=VS.85).aspx) for more information.
 
 </dd> <dt>
 
 <span id="tag2"></span><span id="TAG2"></span>*tag2*
 </dt> <dd>
 
-The second tag value. See [**SetTags**](/windows/desktop/api/d2d1/) for more information.
+The second tag value. See [**SetTags**](https://msdn.microsoft.com/en-us/library/Dd316892(v=VS.85).aspx) for more information.
 
 </dd> </dl> 
 
@@ -56,7 +56,7 @@ The second tag value. See [**SetTags**](/windows/desktop/api/d2d1/) for more inf
 
 ## Examples
 
-**Example 1:** The following code shows that a draw call is in an invalid state. To avoid the warning message, use [**SetAntialiasMode**](/windows/desktop/api/d2d1/) to set D2D1\_ANTIALIAS\_MODE\_ANTIALIASED before a [**FillOpacityMask**](id2d1rendertarget-fillopacitymask.md) call.
+**Example 1:** The following code shows that a draw call is in an invalid state. To avoid the warning message, use [**SetAntialiasMode**](https://msdn.microsoft.com/en-us/library/Dd316881(v=VS.85).aspx) to set D2D1\_ANTIALIAS\_MODE\_ANTIALIASED before a [**FillOpacityMask**](id2d1rendertarget-fillopacitymask.md) call.
 
 
 ```C++
@@ -111,7 +111,7 @@ This example produces the following debug message:
 D2D DEBUG WARNING - Flush call on render target failed [88990001]. Tags [0, 0].
 ```
 
-**Example 2:** The following code shows that the [**Flush**](/windows/desktop/api/d2d1/) is called after the [**EndDraw**](/windows/desktop/api/d2d1/) call.
+**Example 2:** The following code shows that the [**Flush**](https://msdn.microsoft.com/en-us/library/Dd316801(v=VS.85).aspx) is called after the [**EndDraw**](https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx) call.
 
 
 ```C++
@@ -132,11 +132,11 @@ DEBUG WARNING - A Flush call by a render target failed [88990001]. Tags [0, 0].
 
 ## Possible Causes
 
-The [**Flush**](/windows/desktop/api/d2d1/) call can fail for one of two reasons. It may fail because the method was called outside of the [**BeginDraw**](/windows/desktop/api/d2d1/)/[**EndDraw**](/windows/desktop/api/d2d1/) call, or it may fail because there was an error produced by one of the render target operations that have been processed since the last **Flush** call or **EndDraw** call. To fix the issue, the application should determine the cause of the error and take the appropriate action.
+The [**Flush**](https://msdn.microsoft.com/en-us/library/Dd316801(v=VS.85).aspx) call can fail for one of two reasons. It may fail because the method was called outside of the [**BeginDraw**](https://msdn.microsoft.com/en-us/library/Dd371768(v=VS.85).aspx)/[**EndDraw**](https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx) call, or it may fail because there was an error produced by one of the render target operations that have been processed since the last **Flush** call or **EndDraw** call. To fix the issue, the application should determine the cause of the error and take the appropriate action.
 
 ## Fixes
 
-There are many reasons that a [**Flush**](/windows/desktop/api/d2d1/) call might fail. The application should determine the cause of the error and take the appropriate action.
+There are many reasons that a [**Flush**](https://msdn.microsoft.com/en-us/library/Dd316801(v=VS.85).aspx) call might fail. The application should determine the cause of the error and take the appropriate action.
 
  
 

@@ -307,7 +307,7 @@ If you have provided a rating, but are not seeing it in Games Explorer, make sur
 
 ### Be sure that parental controls are available
 
-Ensure that you are testing parental controls on an edition of Windows Vista that provides parental controls: Home Basic, Home Premium, or Ultimate. Windows Vista Business and Windows Vista Enterprise do not provide parental controls however if you are testing on Windows Vista Ultimate, and the test computer is joined to a domain, you must change a group policy setting make parental controls visible. To do this, see [Getting Started with Games Explorer](https://msdn.microsoft.com/windows/desktop/0639a270-76ac-6bb5-2048-a42b2794afa4).
+Ensure that you are testing parental controls on an edition of Windows Vista that provides parental controls: Home Basic, Home Premium, or Ultimate. Windows Vista Business and Windows Vista Enterprise do not provide parental controls however if you are testing on Windows Vista Ultimate, and the test computer is joined to a domain, you must change a group policy setting make parental controls visible. To do this, see [Getting Started with Games Explorer](https://msdn.microsoft.com/en-us/library/Ee417682(v=VS.85).aspx).
 
 ### Verify that tasks are of the correct type
 

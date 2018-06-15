@@ -62,7 +62,7 @@ MakeCert /n publisherName /r /h 0 /eku "1.3.6.1.5.5.7.3.3,1.3.6.1.4.1.311.10.3.1
 expirationDate /sv MyKey.pvk MyKey.cer
 ```
 
-This command prompts you to provide a password for the .pvk file. We recommend that you choose a [strong password](https://msdn.microsoft.com/windows/desktop/bb6f207d-070a-4d10-b048-41893508c5f6) and keep your private key in a secure location.
+This command prompts you to provide a password for the .pvk file. We recommend that you choose a [strong password](https://msdn.microsoft.com/en-us/library/Bb499367(v=WinEmbedded.5).aspx) and keep your private key in a secure location.
 
 We recommend that you use the suggested parameters in the preceding example for these reasons:
 
@@ -120,7 +120,7 @@ For more info about other options, see [**Pvk2Pfx**](https://msdn.microsoft.com/
 
 ## Remarks
 
-After you create the .pfx file, you can use the file with [SignTool](https://msdn.microsoft.com/library/windows/desktop/aa387764) to sign an app package. For more info, see [How to sign an app package using SignTool](how-to-sign-a-package-using-signtool.md). But the certificate is still not trusted by the local computer for deployment of app packages until you install it into the trusted certificates store of the local computer. You can use [Certutil.exe](https://msdn.microsoft.com/windows/desktop/c264ccf0-ba1e-412b-9dd3-d77dd9345ad9), which comes with Windows.
+After you create the .pfx file, you can use the file with [SignTool](https://msdn.microsoft.com/library/windows/desktop/aa387764) to sign an app package. For more info, see [How to sign an app package using SignTool](how-to-sign-a-package-using-signtool.md). But the certificate is still not trusted by the local computer for deployment of app packages until you install it into the trusted certificates store of the local computer. You can use [Certutil.exe](https://msdn.microsoft.com/en-us/library/Cc732443(v=WS.10).aspx), which comes with Windows.
 
 **To install certificates with WindowsCertutil.exe**
 
@@ -166,7 +166,7 @@ By adding a certificate to [local machine certificate stores](https://msdn.micro
 [How to sign an app package using SignTool](how-to-sign-a-package-using-signtool.md)
 </dt> <dt>
 
-[Signing an app package](https://msdn.microsoft.com/windows/desktop/2e783ec5-7803-4aa3-bd70-a4db567fc3d3)
+[Signing an app package](https://msdn.microsoft.com/en-us/library/BR230260(v=VS.110).aspx)
 </dt> </dl>
 
  

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Text Services Framework
 
-When the [Text Services Framework (TSF)](https://msdn.microsoft.com/windows/desktop/ecc34b2e-89e8-48a8-8a8e-442d2145fe24) is enabled on a control with a [PenInputPanel](https://www.bing.com/search?q=PenInputPanel) object attached, the PenInputPanel object can insert text directly. If the control does not support Text Services Framework (TSF), the PenInputPanel object must resort to using the [SendInput function](https://www.bing.com/search?q=SendInput+function) to insert text.
+When the [Text Services Framework (TSF)](https://msdn.microsoft.com/en-us/library/ms629032(v=VS.85).aspx) is enabled on a control with a [PenInputPanel](https://www.bing.com/search?q=PenInputPanel) object attached, the PenInputPanel object can insert text directly. If the control does not support Text Services Framework (TSF), the PenInputPanel object must resort to using the [SendInput function](https://www.bing.com/search?q=SendInput+function) to insert text.
 
 The ability to insert text directly becomes very important for those inputting East Asian characters, where using the [SendInput function](https://www.bing.com/search?q=SendInput+function) can produce incorrect characters.
 
@@ -38,7 +38,7 @@ The [PenInputPanel Sample](peninputpanel-sample.md) provides an example of enabl
 
 <dl> <dt>
 
-[Text Services Framework](https://msdn.microsoft.com/windows/desktop/ecc34b2e-89e8-48a8-8a8e-442d2145fe24)
+[Text Services Framework](https://msdn.microsoft.com/en-us/library/ms629032(v=VS.85).aspx)
 </dt> </dl>
 
  

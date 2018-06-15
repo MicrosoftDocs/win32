@@ -28,7 +28,7 @@ You can apply one of the transformations shown in the preceding list when you ca
 
 If the width and height of the image are not both multiples of 16, GDI+ will do its best to preserve the image quality when you apply one of the rotation or flipping transformations shown in the preceding list.
 
-To transform a JPEG image, initialize an [**EncoderParameters**](/windows/desktop/api/Gdiplusimaging/) object and pass the address of that object to the [Save](/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-save(in istream,in const clsid,in const encoderparameters)) method of the [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) class. Initialize the **EncoderParameters** object so that it has an array that consists of one [**EncoderParameter**](/windows/desktop/api/Gdiplusimaging/) object. Initialize that one **EncoderParameter** object so that its **Value** member points to a **ULONG** variable that holds one of the following elements of the [**EncoderValue**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-encodervalue) enumeration:
+To transform a JPEG image, initialize an [**EncoderParameters**](https://msdn.microsoft.com/en-us/library/ms534435(v=VS.85).aspx) object and pass the address of that object to the [Save](/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-save(in istream,in const clsid,in const encoderparameters)) method of the [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) class. Initialize the **EncoderParameters** object so that it has an array that consists of one [**EncoderParameter**](https://msdn.microsoft.com/en-us/library/ms534434(v=VS.85).aspx) object. Initialize that one **EncoderParameter** object so that its **Value** member points to a **ULONG** variable that holds one of the following elements of the [**EncoderValue**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-encodervalue) enumeration:
 
 -   EncoderValueTransformRotate90,
 -   EncoderValueTransformRotate180,
@@ -36,7 +36,7 @@ To transform a JPEG image, initialize an [**EncoderParameters**](/windows/deskto
 -   EncoderValueTransformFlipHorizontal,
 -   EncoderValueTransformFlipVertical
 
-Set the **Guid** member of the [**EncoderParameter**](/windows/desktop/api/Gdiplusimaging/) object to EncoderTransformation.
+Set the **Guid** member of the [**EncoderParameter**](https://msdn.microsoft.com/en-us/library/ms534434(v=VS.85).aspx) object to EncoderTransformation.
 
 The following console application creates an [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) object from a JPEG file and then saves the image to a new file. During the save process, the image is rotated 90 degrees. If the width and height of the image are both multiples of 16, the process of rotating and saving the image causes no loss of information.
 

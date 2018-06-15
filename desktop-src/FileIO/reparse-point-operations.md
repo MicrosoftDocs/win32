@@ -19,9 +19,9 @@ The [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa3
 
 | Operation                                                           | Description                                                                                     |
 |---------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| [**FSCTL\_SET\_REPARSE\_POINT**](/windows/desktop/api/WinIoCtl/)       | Allows the calling program to set a new reparse point, or to modify an existing one.<br/> |
-| [**FSCTL\_GET\_REPARSE\_POINT**](/windows/desktop/api/WinIoCtl/)       | Obtains the information stored in an existing reparse point.<br/>                         |
-| [**FSCTL\_DELETE\_REPARSE\_POINT**](/windows/desktop/api/WinIoCtl/) | Removes an existing reparse point.<br/>                                                   |
+| [**FSCTL\_SET\_REPARSE\_POINT**](https://msdn.microsoft.com/en-us/library/Aa364595(v=VS.85).aspx)       | Allows the calling program to set a new reparse point, or to modify an existing one.<br/> |
+| [**FSCTL\_GET\_REPARSE\_POINT**](https://msdn.microsoft.com/en-us/library/Aa364571(v=VS.85).aspx)       | Obtains the information stored in an existing reparse point.<br/>                         |
+| [**FSCTL\_DELETE\_REPARSE\_POINT**](https://msdn.microsoft.com/en-us/library/Aa364560(v=VS.85).aspx) | Removes an existing reparse point.<br/>                                                   |
 
 
 

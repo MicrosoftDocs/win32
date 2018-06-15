@@ -38,16 +38,16 @@ If you must extend the shortcut menu for a file type by registering a dynamic ve
 
 ## How Shortcut Menu Handlers Work with Dynamic Verbs
 
-In addition to [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332), shortcut menu handlers export the following additional interfaces to handle the messaging needed to implement owner-drawn menu items:
+In addition to [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx), shortcut menu handlers export the following additional interfaces to handle the messaging needed to implement owner-drawn menu items:
 
--   [**IShellExtInit**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ishellextinit) (mandatory)
--   [**IContextMenu**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-icontextmenu) (mandatory)
+-   [**IShellExtInit**](https://msdn.microsoft.com/en-us/library/Bb775096(v=VS.85).aspx) (mandatory)
+-   [**IContextMenu**](https://msdn.microsoft.com/en-us/library/Bb776095(v=VS.85).aspx) (mandatory)
 -   [**IContextMenu2**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu2) (optional)
 -   [**IContextMenu3**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu3) (optional)
 
-For more information on owner-drawn menu items, see the *Creating Owner-Drawn Menu Items* section in [Using Menus](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\menus\usingmenus.htm).
+For more information on owner-drawn menu items, see the *Creating Owner-Drawn Menu Items* section in [Using Menus](https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx).
 
-Shell uses the [**IShellExtInit**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ishellextinit) interface to initialize the handler. When the Shell calls [**IShellExtInit::Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize), it passes in a data object with the object's name and a pointer to an item identifier list (PIDL) of the folder that contains the file. The *hkeyProgID* parameter is the registry location under which the shortcut menu handle is registered. The **IShellExtInit::Initialize** method must extract the file name from the data object and store the name and the folder's pointer to an item identifier list (PIDL) for later use. For more information on handler initialization, see [Implementing IShellExtInit](handlers.md).
+Shell uses the [**IShellExtInit**](https://msdn.microsoft.com/en-us/library/Bb775096(v=VS.85).aspx) interface to initialize the handler. When the Shell calls [**IShellExtInit::Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize), it passes in a data object with the object's name and a pointer to an item identifier list (PIDL) of the folder that contains the file. The *hkeyProgID* parameter is the registry location under which the shortcut menu handle is registered. The **IShellExtInit::Initialize** method must extract the file name from the data object and store the name and the folder's pointer to an item identifier list (PIDL) for later use. For more information on handler initialization, see [Implementing IShellExtInit](handlers.md).
 
 When verbs are presented in a shortcut menu, they are first discovered, then presented to the user, and finally invoked. The following list describes these three steps in more detail:
 
@@ -123,7 +123,7 @@ HKEY_CLASSES_ROOT
 
 ## Implementing the IContextMenu Interface
 
-[**IContextMenu**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-icontextmenu) is the most powerful but also the most complicated method to implement. We strongly recommend that you implement a verb by using one of the static verb methods. For more information, see [Choosing a Static or Dynamic Verb for your Shortcut Menu](shortcut-choose-method.md). [**IContextMenu**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-icontextmenu) has three methods, **GetCommandString**, **InvokeCommand**, and **QueryContextMenu**, which are discussed here in detail.
+[**IContextMenu**](https://msdn.microsoft.com/en-us/library/Bb776095(v=VS.85).aspx) is the most powerful but also the most complicated method to implement. We strongly recommend that you implement a verb by using one of the static verb methods. For more information, see [Choosing a Static or Dynamic Verb for your Shortcut Menu](shortcut-choose-method.md). [**IContextMenu**](https://msdn.microsoft.com/en-us/library/Bb776095(v=VS.85).aspx) has three methods, **GetCommandString**, **InvokeCommand**, and **QueryContextMenu**, which are discussed here in detail.
 
 ### IContextMenu::GetCommandString Method
 
@@ -133,7 +133,7 @@ The *idCmd* parameter holds the identifier offset of the command that was define
 
 The following example shows a simple implementation of [**IContextMenu::GetCommandString**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring) that corresponds to the [**IContextMenu::QueryContextMenu**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu) example given in the [IContextMenu::QueryContextMenu Method](#icontextmenuquerycontextmenu-method) section of this topic. Because the handler adds only one menu item, there is only one set of strings that can be returned. The method tests whether *idCmd* is valid and, if it is, returns the requested string.
 
-The [**StringCchCopy**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcopy.htm) function is used to copy the requested string to *pszName* to ensure that the copied string does not exceed the size of the buffer specified by *cchName*. This example only implements support for the Unicode values of *uFlags*, because only those have been used in Windows Explorer since Windows 2000.
+The [**StringCchCopy**](https://msdn.microsoft.com/en-us/library/ms647527(v=VS.85).aspx) function is used to copy the requested string to *pszName* to ensure that the copied string does not exceed the size of the buffer specified by *cchName*. This example only implements support for the Unicode values of *uFlags*, because only those have been used in Windows Explorer since Windows 2000.
 
 
 ```C++
@@ -265,7 +265,7 @@ There are three flags that can be passed in through the *uFlags* parameter that 
 
  
 
-Use either [**InsertMenu**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\insertmenu.htm) or [**InsertMenuItem**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\insertmenuitem.htm) to add menu items to the list. Then return an **HRESULT** value with the severity set to **SEVERITY\_SUCCESS**. Set the code value to the offset of the largest command identifier that was assigned, plus one (1). For example, assume that *idCmdFirst* is set to 5 and you add three items to the menu with command identifiers of 5, 7, and 8. The return value should be `MAKE_HRESULT(SEVERITY_SUCCESS, 0, 8 + 1)`.
+Use either [**InsertMenu**](https://msdn.microsoft.com/en-us/library/ms647987(v=VS.85).aspx) or [**InsertMenuItem**](https://msdn.microsoft.com/en-us/library/ms647988(v=VS.85).aspx) to add menu items to the list. Then return an **HRESULT** value with the severity set to **SEVERITY\_SUCCESS**. Set the code value to the offset of the largest command identifier that was assigned, plus one (1). For example, assume that *idCmdFirst* is set to 5 and you add three items to the menu with command identifiers of 5, 7, and 8. The return value should be `MAKE_HRESULT(SEVERITY_SUCCESS, 0, 8 + 1)`.
 
 The following example shows a simple implementation of [**IContextMenu::QueryContextMenu**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu) that inserts a single command. The identifier offset for the command is IDM\_DISPLAY, which is set to zero. The **m\_pszVerb** and **m\_pwszVerb** variables are private variables used to store the associated language-independent verb string in both ANSI and Unicode formats.
 

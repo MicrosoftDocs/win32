@@ -48,7 +48,7 @@ The Windows Media MPEG4 V1/V2 decoder supports the following output media subtyp
 
 ## Remarks
 
-The Windows Media MPEG4 V1/V2 decoder object exposes the [**IMediaObject**](https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b) interface so that the object can be used as a DirectX Media Object (DMO), and it exposes the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) interface so that the object can be used as a Media Foundation Transform (MFT). The object has the same class identifier (CLSID) regardless of whether it acts as a DMO or an MFT.
+The Windows Media MPEG4 V1/V2 decoder object exposes the [**IMediaObject**](https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx) interface so that the object can be used as a DirectX Media Object (DMO), and it exposes the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) interface so that the object can be used as a Media Foundation Transform (MFT). The object has the same class identifier (CLSID) regardless of whether it acts as a DMO or an MFT.
 
 An MPEG4 V1/V2 decoder behaves as a DMO or an MFT depending on which interfaces you obtain and which version of Windows is running. The following table shows the conditions under which an MPEG4 V1/V2 decoder behaves as a DMO or an MFT.
 

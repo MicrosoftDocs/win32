@@ -30,7 +30,7 @@ This topic is organized as follows:
 
 ## Property Handlers
 
-Property handlers are a crucial part of the property system. They are invoked in-process by the indexer to read and index property values, and are also invoked by Windows Explorer in-process to read and write property values directly in the files. These handlers need to be carefully written and tested to prevent degraded performance or the loss of data in the affected files. For more information on indexer-specific considerations that affect property handler implementation, see [Developing Property Handlers for Windows Search](https://msdn.microsoft.com/VS|search|~\search\wds3x\overviews\propertyhandlers\extidx_propertyhandlers.htm).
+Property handlers are a crucial part of the property system. They are invoked in-process by the indexer to read and index property values, and are also invoked by Windows Explorer in-process to read and write property values directly in the files. These handlers need to be carefully written and tested to prevent degraded performance or the loss of data in the affected files. For more information on indexer-specific considerations that affect property handler implementation, see [Developing Property Handlers for Windows Search](https://msdn.microsoft.com/en-us/library/Bb266532(v=VS.85).aspx).
 
 This topic discusses a sample XML-based file format that describes a recipe with a .recipe file name extension. The .recipe file name extension is registered as its own distinct file format rather than relying on the more generic .xml file format, whose handler uses a secondary stream to store properties. We recommend that you register unique file name extensions for your file types.
 
@@ -47,14 +47,14 @@ When planning your implementation, remember that property handlers are low-level
 
 ## Initializing Property Handlers
 
-Before a property is used by the system, it is initialized by calling an implementation of [**IInitializeWithStream**](https://msdn.microsoft.com/9050845d-1e70-4e85-8d2f-c8bbb382abe5). The property handler should be initialized by having the system assign it a stream rather than leaving that assignment to the handler implementation. This method of initialization ensures the following things:
+Before a property is used by the system, it is initialized by calling an implementation of [**IInitializeWithStream**](https://msdn.microsoft.com/en-us/library/Bb761810(v=VS.85).aspx). The property handler should be initialized by having the system assign it a stream rather than leaving that assignment to the handler implementation. This method of initialization ensures the following things:
 
 -   The property handler can run in a restricted process (an important security feature) without having access rights to directly read or write files, rather accessing their content through the stream.
 -   The system can be trusted to handle the file oplocks correctly, which is an important reliability measure.
 -   The property system provides an automatic safe saving service without any extra functionality required from the property handler implementation. See the [Writing Back Values](#writing-back-values) section for more information about streams.
--   Use of the [**IInitializeWithStream**](https://msdn.microsoft.com/9050845d-1e70-4e85-8d2f-c8bbb382abe5) abstracts your implementation from file system details. This enables the handler to support initialization through alternative storages such as a File Transfer Protocol (FTP) folder or a compressed file with a .zip file name extension.
+-   Use of the [**IInitializeWithStream**](https://msdn.microsoft.com/en-us/library/Bb761810(v=VS.85).aspx) abstracts your implementation from file system details. This enables the handler to support initialization through alternative storages such as a File Transfer Protocol (FTP) folder or a compressed file with a .zip file name extension.
 
-There are cases where initialization with streams is not possible. In those situations, there are two further interfaces that property handlers can implement: [**IInitializeWithFile**](https://msdn.microsoft.com/323181ab-1dc2-4b2a-a91f-3eccd7968bcd) and [**IInitializeWithItem**](https://msdn.microsoft.com/95f3917e-66ca-45de-a3ed-811680a179e7). If a property handler does not implement the [**IInitializeWithStream**](https://msdn.microsoft.com/9050845d-1e70-4e85-8d2f-c8bbb382abe5), it must opt out of running in the isolated process into which the system indexer would place it by default if there were a change to the stream. To opt out of this feature, set the following registry value.
+There are cases where initialization with streams is not possible. In those situations, there are two further interfaces that property handlers can implement: [**IInitializeWithFile**](https://msdn.microsoft.com/en-us/library/Bb761818(v=VS.85).aspx) and [**IInitializeWithItem**](https://msdn.microsoft.com/en-us/library/Bb761814(v=VS.85).aspx). If a property handler does not implement the [**IInitializeWithStream**](https://msdn.microsoft.com/en-us/library/Bb761810(v=VS.85).aspx), it must opt out of running in the isolated process into which the system indexer would place it by default if there were a change to the stream. To opt out of this feature, set the following registry value.
 
 ```
 HKEY_CLASSES_ROOT
@@ -63,9 +63,9 @@ HKEY_CLASSES_ROOT
          DisableProcessIsolation = 1
 ```
 
-However, it is far better to implement [**IInitializeWithStream**](https://msdn.microsoft.com/9050845d-1e70-4e85-8d2f-c8bbb382abe5) and do a stream-based initialization. Your property handler will be safer and more reliable as a result. Disabling process isolation is generally intended only for legacy property handlers and should be strenuously avoided by any new code.
+However, it is far better to implement [**IInitializeWithStream**](https://msdn.microsoft.com/en-us/library/Bb761810(v=VS.85).aspx) and do a stream-based initialization. Your property handler will be safer and more reliable as a result. Disabling process isolation is generally intended only for legacy property handlers and should be strenuously avoided by any new code.
 
-To examine the implementation of a property handler in detail, look at the following code example, which is an implementation of [**IInitializeWithStream::Initialize**](https://msdn.microsoft.com/1e04c0a4-aa9b-4e2c-8307-525809ca903f). The handler is initialized by loading an XML-based recipe document through a pointer to that document's associated [**IStream**](https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531) instance. The **\_spDocEle** variable used near the end of the code example is defined earlier in the sample as an MSXML2::IXMLDOMElementPtr.
+To examine the implementation of a property handler in detail, look at the following code example, which is an implementation of [**IInitializeWithStream::Initialize**](https://msdn.microsoft.com/en-us/library/Bb761812(v=VS.85).aspx). The handler is initialized by loading an XML-based recipe document through a pointer to that document's associated [**IStream**](https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx) instance. The **\_spDocEle** variable used near the end of the code example is defined earlier in the sample as an MSXML2::IXMLDOMElementPtr.
 
 > [!Note]  
 > The following and all subsequent code examples are taken from the recipe handler sample included in the Windows Software Development Kit (SDK). .
@@ -167,7 +167,7 @@ PropertyMap c_rgPropertyMap[] =
 
 
 
-Here is the full implementation of the **\_LoadProperties** method called by [**IInitializeWithStream::Initialize**](https://msdn.microsoft.com/1e04c0a4-aa9b-4e2c-8307-525809ca903f).
+Here is the full implementation of the **\_LoadProperties** method called by [**IInitializeWithStream::Initialize**](https://msdn.microsoft.com/en-us/library/Bb761812(v=VS.85).aspx).
 
 
 ```
@@ -253,9 +253,9 @@ HRESULT CRecipePropertyStore::_LoadProperty(PropertyMap &amp;map)
 
 ## Dealing with PROPVARIANT-Based Values
 
-In the implementation of **\_LoadProperty**, a property value is provided in the form of a [**PROPVARIANT**](https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1). A set of APIs in the software development kit (SDK) is provided to convert from primitive types such as **PWSTR** or **int** to or from **PROPVARIANT** types. These APIs are found in Propvarutil.h.
+In the implementation of **\_LoadProperty**, a property value is provided in the form of a [**PROPVARIANT**](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx). A set of APIs in the software development kit (SDK) is provided to convert from primitive types such as **PWSTR** or **int** to or from **PROPVARIANT** types. These APIs are found in Propvarutil.h.
 
-For example, to convert a [**PROPVARIANT**](https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1) to a string, you can use [**PropVariantToString**](https://www.bing.com/search?q=**PropVariantToString**) as illustrated here.
+For example, to convert a [**PROPVARIANT**](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx) to a string, you can use [**PropVariantToString**](https://www.bing.com/search?q=**PropVariantToString**) as illustrated here.
 
 
 ```
@@ -386,7 +386,7 @@ HRESULT CRecipePropertyStore::_LoadExtendedProperties()
 
 
 
-Serialization APIs declared in Propsys.h are used to serialize and deserialize [**PROPVARIANT**](https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1) types into blobs of data, and then Base64 encoding is used to serialize those blobs into strings that can be saved in the XML. These strings are stored in the **EncodedValue** attribute of the **ExtendedProperties** element. The following utility method, implemented in the sample's Util.cpp file, performs the serialization. It begins with a call to the [**StgSerializePropVariant**](https://www.bing.com/search?q=**StgSerializePropVariant**) function to perform the binary serialization, as illustrated in the following code example.
+Serialization APIs declared in Propsys.h are used to serialize and deserialize [**PROPVARIANT**](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx) types into blobs of data, and then Base64 encoding is used to serialize those blobs into strings that can be saved in the XML. These strings are stored in the **EncodedValue** attribute of the **ExtendedProperties** element. The following utility method, implemented in the sample's Util.cpp file, performs the serialization. It begins with a call to the [**StgSerializePropVariant**](https://www.bing.com/search?q=**StgSerializePropVariant**) function to perform the binary serialization, as illustrated in the following code example.
 
 
 ```
@@ -399,7 +399,7 @@ HRESULT SerializePropVariantAsString(const PROPVARIANT *ppropvar, PWSTR *pszOut)
 
 
 
-Next, the [**CryptBinaryToString**](https://msdn.microsoft.com/e6bdf931-fba3-4a33-b22e-5f818f565842)Â function, declared in Wincrypt.h, performs the Base64 conversion.
+Next, the [**CryptBinaryToString**](https://msdn.microsoft.com/en-us/library/Aa379887(v=VS.85).aspx)Â function, declared in Wincrypt.h, performs the Base64 conversion.
 
 
 ```
@@ -445,7 +445,7 @@ Next, the [**CryptBinaryToString**](https://msdn.microsoft.com/e6bdf931-fba3-4a3
 
 The **DeserializePropVariantFromString** function, also found in Util.cpp, reverses the operation, deserializing values from the XML file.
 
-For information about support for open metadata, see "File Types that Support Open Metadata" in [File Types](https://msdn.microsoft.com/055648cd-46ce-4e61-80b2-bcf1d1823e20).
+For information about support for open metadata, see "File Types that Support Open Metadata" in [File Types](https://msdn.microsoft.com/en-us/library/Cc144148(v=VS.85).aspx).
 
 ## Full-Text Contents
 
@@ -611,15 +611,15 @@ HKEY_CLASSES_ROOT
          ManualSafeSave = 1
 ```
 
-When a handler specifies the ManualSafeSave value, the stream with which it is initialized is not a transacted stream (STGM\_TRANSACTED). The handler itself must implement the safe save function to ensure that the file is not corrupted if the save operation is interrupted. If the handler implements in-place writing, it will write to the stream that it is given. If the handler does not support this feature, then it must retrieve a stream with which to write the updated copy of the file using [**IDestinationStreamFactory::GetDestinationStream**](https://msdn.microsoft.com/4903a3a1-12b7-4094-aac8-6e8525998c3c). After the handler is done writing, it should call [**IPropertyStore::Commit**](https://www.bing.com/search?q=**IPropertyStore::Commit**) on the original stream to complete the operation, and replace the contents of the original stream with the new copy of the file.
+When a handler specifies the ManualSafeSave value, the stream with which it is initialized is not a transacted stream (STGM\_TRANSACTED). The handler itself must implement the safe save function to ensure that the file is not corrupted if the save operation is interrupted. If the handler implements in-place writing, it will write to the stream that it is given. If the handler does not support this feature, then it must retrieve a stream with which to write the updated copy of the file using [**IDestinationStreamFactory::GetDestinationStream**](https://msdn.microsoft.com/en-us/library/Bb762054(v=VS.85).aspx). After the handler is done writing, it should call [**IPropertyStore::Commit**](https://www.bing.com/search?q=**IPropertyStore::Commit**) on the original stream to complete the operation, and replace the contents of the original stream with the new copy of the file.
 
-ManualSafeSave is also the default situation if you do not initialize your handler with a stream. Without an original stream to receive the contents of the temporary stream, you must use [**ReplaceFile**](https://msdn.microsoft.com/23402a71-e945-4891-9815-c75e57051501) to perform an atomic replacement of the source file.
+ManualSafeSave is also the default situation if you do not initialize your handler with a stream. Without an original stream to receive the contents of the temporary stream, you must use [**ReplaceFile**](https://msdn.microsoft.com/en-us/library/Aa365512(v=VS.85).aspx) to perform an atomic replacement of the source file.
 
 Large file formats that will be used in a way that produces files greater than 1 MB should implement support for in-place property writing; otherwise, the performance behavior does not meet the expectations of clients of the property system. In this scenario, the time required to write properties should not be affected by the file size.
 
 For very large files, for example a video file of 1 GB or more, a different solution is required. If there is not enough space in the file to perform in-place writing, the handler may fail the property update if the amount of space reserved for in-place property writing has been exhausted. This failure occurs to avoid poor performance arising from 2 GB of IO (1 to read, 1 to write). Because of this potential failure, these file formats should reserve enough space for in-place property writing.
 
-If the file has enough space in its header to write metadata, and if the writing of that metadata does not cause the file to grow or shrink, it might be safe to write in-place. We recommend 64 KB as a starting point. Writing in-place is equivalent to the handler asking for ManualSafeSave and calling [**IStream::Commit**](https://msdn.microsoft.com/335c3a53-ca6a-42f3-bbf9-684ed48591e6) in the implementation of [**IPropertyStore::Commit**](https://www.bing.com/search?q=**IPropertyStore::Commit**), and has much better performance than copy-on-write. If the file size changes due to property value changes, writing in-place should not be attempted because of the potential for a corrupted file in the event of an abnormal termination.
+If the file has enough space in its header to write metadata, and if the writing of that metadata does not cause the file to grow or shrink, it might be safe to write in-place. We recommend 64 KB as a starting point. Writing in-place is equivalent to the handler asking for ManualSafeSave and calling [**IStream::Commit**](https://msdn.microsoft.com/en-us/library/Aa380036(v=VS.85).aspx) in the implementation of [**IPropertyStore::Commit**](https://www.bing.com/search?q=**IPropertyStore::Commit**), and has much better performance than copy-on-write. If the file size changes due to property value changes, writing in-place should not be attempted because of the potential for a corrupted file in the event of an abnormal termination.
 
 > [!Note]  
 > For performance reasons we recommend that the ManualSafeSave option be used with property handlers working with files that are 100 KB or larger.
@@ -650,7 +650,7 @@ HRESULT CRecipePropertyStore::Commit()
 
 
 
-Next, ask whether the pecified supports [**IDestinationStreamFactory**](https://msdn.microsoft.com/7cedf8eb-b4ef-4889-bd7b-a734e939e872).
+Next, ask whether the pecified supports [**IDestinationStreamFactory**](https://msdn.microsoft.com/en-us/library/Bb762055(v=VS.85).aspx).
 
 
 ```
@@ -803,7 +803,7 @@ interface IPropertyStoreCapabilities : IUnknown
 
 [**IsPropertyWritable**](https://www.bing.com/search?q=**IsPropertyWritable**) returns **S\_OK** to indicate that end users should be allowed to edit the property directly; S\_FALSE indicates that they should not. S\_FALSE can mean that applications are responsible for writing the property, not users. The Shell disables editing controls as appropriate based on the results of calls to this method. A handler that does not implement [**IPropertyStoreCapabilities**](https://www.bing.com/search?q=**IPropertyStoreCapabilities**) is assumed to support open metadata through support for the writing of any property.
 
-If you are building a handler that handles only read-only properties, then you should implement your **Initialize** method ([**IInitializeWithStream**](https://msdn.microsoft.com/9050845d-1e70-4e85-8d2f-c8bbb382abe5), [**IInitializeWithItem**](https://msdn.microsoft.com/95f3917e-66ca-45de-a3ed-811680a179e7), or [**IInitializeWithFile**](https://msdn.microsoft.com/323181ab-1dc2-4b2a-a91f-3eccd7968bcd)) so that it returns STG\_E\_ACCESSDENIED when called with the STGM\_READWRITE flag.
+If you are building a handler that handles only read-only properties, then you should implement your **Initialize** method ([**IInitializeWithStream**](https://msdn.microsoft.com/en-us/library/Bb761810(v=VS.85).aspx), [**IInitializeWithItem**](https://msdn.microsoft.com/en-us/library/Bb761814(v=VS.85).aspx), or [**IInitializeWithFile**](https://msdn.microsoft.com/en-us/library/Bb761818(v=VS.85).aspx)) so that it returns STG\_E\_ACCESSDENIED when called with the STGM\_READWRITE flag.
 
 Some properties have their [isInnate](https://www.bing.com/search?q=isInnate) attribute set to **true**. Innate properties have the following characteristics:
 

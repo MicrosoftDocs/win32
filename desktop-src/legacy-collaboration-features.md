@@ -13,16 +13,16 @@ ms.date: 05/31/2018
 
 This section contains the archived technical articles related to collaboration features.
 
--   [CDO for Windows 2000](https://msdn.microsoft.com/windows/desktop/f928be29-59e2-4341-86c9-31842075775a)
--   [CDO 1.2.1](https://msdn.microsoft.com/windows/desktop/9ec76539-f9df-49e4-8f7f-fd699dcb83da)
+-   [CDO for Windows 2000](https://msdn.microsoft.com/en-us/library/ms527568(v=EXCHG.10).aspx)
+-   [CDO 1.2.1](https://msdn.microsoft.com/en-us/library/ms527445(v=EXCHG.10).aspx)
 -   [Real-time Communications (RTC) Client](https://www.bing.com/search?q=Real-time+Communications+(RTC)+Client)
--   [SEO Help](https://msdn.microsoft.com/windows/desktop/d4f674a7-9b2b-4146-ae84-69e56eb493b7)
--   [SMTP Server Events for Windows 2000](https://msdn.microsoft.com/windows/desktop/5c031f56-29bf-4fcb-abf6-3eab6789a5bf)
--   [Remote Assistance](https://msdn.microsoft.com/VS|remoteassist|~\remoteassist\remoteassist_ovw.htm)
--   [Windows Address Book](https://msdn.microsoft.com/VS|wab|~\wab\wabentry.htm)
--   [Windows Contacts](https://msdn.microsoft.com/5f0ef963-507c-477f-bf82-105188afabcc)
--   [Windows Mail (formerly Outlook Express)](https://msdn.microsoft.com/VS|outlookexpress|~\oe\oe_entry_point.htm)
--   [Windows Messenger](https://msdn.microsoft.com/25517c5a-fd5e-4634-a001-6970e901c871)
+-   [SEO Help](https://msdn.microsoft.com/en-us/library/Bb191035(v=EXCHG.10).aspx)
+-   [SMTP Server Events for Windows 2000](https://msdn.microsoft.com/en-us/library/ms528010(v=EXCHG.10).aspx)
+-   [Remote Assistance](https://msdn.microsoft.com/en-us/library/Aa359213(v=VS.85).aspx)
+-   [Windows Address Book](https://msdn.microsoft.com/en-us/library/ms629361(v=VS.85).aspx)
+-   [Windows Contacts](https://msdn.microsoft.com/en-us/library/Ff800913(v=VS.85).aspx)
+-   [Windows Mail (formerly Outlook Express)](https://msdn.microsoft.com/en-us/library/ms709546(v=VS.85).aspx)
+-   [Windows Messenger](https://msdn.microsoft.com/en-us/library/Ff801816(v=VS.85).aspx)
 -   [Windows NetMeeting 3](https://www.bing.com/search?q=Windows+NetMeeting+3)
 
  

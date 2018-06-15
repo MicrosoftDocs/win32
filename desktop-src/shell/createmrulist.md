@@ -44,7 +44,7 @@ Returns a handle to the new MRU list, or 0 in case of an error.
 
 ## Remarks
 
-This function is not included in a public header or library. It can be accessed through [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) or extracted from comctl32.dll by its ordinal, which is 400 for **CreateMRUListW**.
+This function is not included in a public header or library. It can be accessed through [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) or extracted from comctl32.dll by its ordinal, which is 400 for **CreateMRUListW**.
 
 ## Requirements
 

@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Error Handling in the DLL
 
-Use event logging to record errors that occur in the performance DLL. Logging error events aids in troubleshooting applications that provide performance data during development and after installation. You should limit the amount of error logging that occurs in the [**CollectPerformanceData**](/windows/desktop/api/Winperf/nc-winperf-pm_collect_proc) function because data collection can be frequent.
+Use event logging to record errors that occur in the performance DLL. Logging error events aids in troubleshooting applications that provide performance data during development and after installation. You should limit the amount of error logging that occurs in the [**CollectPerformanceData**](https://msdn.microsoft.com/en-us/library/Aa371898(v=VS.85).aspx) function because data collection can be frequent.
 
-The system logs the following errors to the event log if there are problems with the [**OpenPerformanceData**](/windows/desktop/api/Winperf/) function. If one of the following errors occurs, the system does not call the performance DLL again. Instead, the DLL is unloaded.
+The system logs the following errors to the event log if there are problems with the [**OpenPerformanceData**](https://msdn.microsoft.com/en-us/library/Aa372200(v=VS.85).aspx) function. If one of the following errors occurs, the system does not call the performance DLL again. Instead, the DLL is unloaded.
 
 -   **PERFLIB\_OPEN\_PROC\_NOT\_FOUND**—Logged when the procedure name defined in the registry could not be found in the DLL as an exported function. This usually occurs when the DLL or the service is not installed correctly or the function name has been renamed without updating the installation procedure.
 -   **PERFLIB\_OPEN\_PROC\_FAILURE**—Logged when the open procedure returned an error status other than ERROR\_SUCCESS. Should this happen, the DLL should have also entered an event log entry describing the conditions that caused the failure.

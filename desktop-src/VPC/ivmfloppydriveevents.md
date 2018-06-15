@@ -28,7 +28,7 @@ Defines the outgoing event interface for the [**IVMFloppyDrive**](ivmfloppydrive
 
 ## Members
 
-The **IVMFloppyDriveEvents** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMFloppyDriveEvents** also has these types of members:
+The **IVMFloppyDriveEvents** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMFloppyDriveEvents** also has these types of members:
 
 -   [Methods](#methods)
 

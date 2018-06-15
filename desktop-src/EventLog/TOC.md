@@ -38,8 +38,8 @@
 #### [RegisterEventSource](/windows/desktop/api/Winbase/nf-winbase-registereventsourcea)
 #### [ReportEvent](/windows/desktop/api/Winbase/nf-winbase-reporteventa)
 ### [Event Logging Structures](event-logging-structures.md)
-#### [ELF_EOF_RECORD](/windows/desktop/api/elfdef2/)
-#### [ELF_LOGFILE_HEADER](/windows/desktop/api/elfdef2/)
+#### [ELF_EOF_RECORD](https://msdn.microsoft.com/en-us/library/Bb309022(v=VS.85).aspx)
+#### [ELF_LOGFILE_HEADER](https://msdn.microsoft.com/en-us/library/Bb309024(v=VS.85).aspx)
 #### [EVENTLOG_FULL_INFORMATION](/windows/desktop/api/Winbase/ns-winbase-_eventlog_full_information)
 #### [EVENTLOGRECORD](/windows/desktop/api/Winnt/ns-winnt-_eventlogrecord)
 

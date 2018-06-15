@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 To use an application dictionary with the Tablet PC API, you must first create a file with the list of words for your application dictionary.
 
-The easiest solution for this is to use a text file that contains a list of the words. When your application loads, it reads the text file and creates a [**WordList**](/windows/desktop/api/msinkaut/) object from the list of words in the file. For each [**RecognizerContext**](/windows/desktop/api/msinkaut/) associated with the application dictionary, set the [**WordList**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist) property of the **RecognizerContext** object to the word list in the text file.
+The easiest solution for this is to use a text file that contains a list of the words. When your application loads, it reads the text file and creates a [**WordList**](https://msdn.microsoft.com/en-us/library/ms703370(v=VS.85).aspx) object from the list of words in the file. For each [**RecognizerContext**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx) associated with the application dictionary, set the [**WordList**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist) property of the **RecognizerContext** object to the word list in the text file.
 
-The following example illustrates how to create a [**WordList**](/windows/desktop/api/msinkaut/) object from a [StringCollection](https://www.bing.com/search?q=StringCollection) collection. This example assumes that you have already loaded the list of words from disk and created a StringCollection collection from these words.
+The following example illustrates how to create a [**WordList**](https://msdn.microsoft.com/en-us/library/ms703370(v=VS.85).aspx) object from a [StringCollection](https://www.bing.com/search?q=StringCollection) collection. This example assumes that you have already loaded the list of words from disk and created a StringCollection collection from these words.
 
 
 ```C++
@@ -38,7 +38,7 @@ theRecognizerContext.WordList = theUserWordList;
 
 
 > [!Note]  
-> The [**Strokes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_strokes) property of the [**RecognizerContext**](/windows/desktop/api/msinkaut/) object must be empty before you set the [**WordList**](/windows/desktop/api/msinkaut/) property. If the [**Strokes**](/windows/desktop/api/msinkaut/) property is not empty, an exception is thrown. In addition, words should never be added to a word list after it has been assigned to a **RecognizerContext** object. Words that are added to the word list after it is assigned to the **RecognizerContext** object are not updated in the recognizer. To update the word list you must reassign the **WordList** object to the [**WordList**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist) property of the **RecognizerContext** object.
+> The [**Strokes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_strokes) property of the [**RecognizerContext**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx) object must be empty before you set the [**WordList**](https://msdn.microsoft.com/en-us/library/ms703370(v=VS.85).aspx) property. If the [**Strokes**](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) property is not empty, an exception is thrown. In addition, words should never be added to a word list after it has been assigned to a **RecognizerContext** object. Words that are added to the word list after it is assigned to the **RecognizerContext** object are not updated in the recognizer. To update the word list you must reassign the **WordList** object to the [**WordList**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist) property of the **RecognizerContext** object.
 
  
 

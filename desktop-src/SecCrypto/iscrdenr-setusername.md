@@ -78,7 +78,7 @@ If the method fails, it returns an **HRESULT** value that indicates the error. F
 
 ## Remarks
 
-Call this method to specify the user name to be issued the [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50). An alternative to **setUserName** is [**ISCrdEnr::selectUserName**](iscrdenr-selectusername.md).
+Call this method to specify the user name to be issued the [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx). An alternative to **setUserName** is [**ISCrdEnr::selectUserName**](iscrdenr-selectusername.md).
 
 After a user name has been specified, its value can be retrieved by calling [**getUserName**](iscrdenr-getusername.md).
 

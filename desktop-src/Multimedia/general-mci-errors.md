@@ -25,7 +25,7 @@ ms.date: 05/31/2018
 
 # General MCI Errors
 
-The following error values can be returned by either the [**mciSendCommand**](/windows/desktop/api/Mmsystem/) or [**mciSendString**](/windows/desktop/api/Mmsystem/) function:
+The following error values can be returned by either the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) or [**mciSendString**](https://msdn.microsoft.com/en-us/library/Dd757161(v=VS.85).aspx) function:
 
 
 

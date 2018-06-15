@@ -13,8 +13,8 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**SealMessage**](/windows/desktop/api/Ntsecpkg/)
--   [**UnsealMessage**](/windows/desktop/api/Ntsecpkg/)
+-   [**SealMessage**](https://msdn.microsoft.com/en-us/library/Bb432479(v=VS.85).aspx)
+-   [**UnsealMessage**](https://msdn.microsoft.com/en-us/library/Bb432499(v=VS.85).aspx)
 
  
 

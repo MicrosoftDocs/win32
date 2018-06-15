@@ -59,7 +59,7 @@ The [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) fun
 
 Use the **WM\_CHOOSEFONT\_GETLOGFONT** message to get information about the user's current font selections while the **Font** dialog box is open. For example, if you enable the **Apply** button in the **Font** dialog box, send the message to get the font information to apply to the current text selection.
 
-Typically, you enable a [*CFHookProc*](https://www.bing.com/search?q=*CFHookProc*) hook procedure to process [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) messages for the **Apply** button. When the user clicks the **Apply** button, the hook procedure sends the **WM\_CHOOSEFONT\_GETLOGFONT** message to the dialog box.
+Typically, you enable a [*CFHookProc*](https://msdn.microsoft.com/en-us/library/ms646909(v=VS.85).aspx) hook procedure to process [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) messages for the **Apply** button. When the user clicks the **Apply** button, the hook procedure sends the **WM\_CHOOSEFONT\_GETLOGFONT** message to the dialog box.
 
 ## Requirements
 
@@ -80,7 +80,7 @@ Typically, you enable a [*CFHookProc*](https://www.bing.com/search?q=*CFHookProc
 **Reference**
 </dt> <dt>
 
-[**CFHookProc**](https://www.bing.com/search?q=**CFHookProc**)
+[**CFHookProc**](https://msdn.microsoft.com/en-us/library/ms646909(v=VS.85).aspx)
 </dt> <dt>
 
 [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta)

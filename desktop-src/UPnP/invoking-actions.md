@@ -42,7 +42,7 @@ returnVal = service.InvokeAction("Play", emptyArgs, emptyArgs)
 
 ## C++ Example
 
-The following example defines a C++ function that invokes an action with no arguments. Because [**InvokeAction**](/windows/desktop/api/Upnp/nf-upnp-iupnpservice-invokeaction) requires a [**SAFEARRAY**](https://msdn.microsoft.com/windows/desktop/9ec8025b-4763-4526-ab45-390c5d8b3b1e) of arguments to be passed in, this example creates an empty **SAFEARRAY**. Since this action does not return a value or have output arguments, this example ignores the last two [**VARIANT**](https://msdn.microsoft.com/windows/desktop/f0940eea-077f-4b68-9dac-d49e3fc62e43) values passed to **InvokeAction**.
+The following example defines a C++ function that invokes an action with no arguments. Because [**InvokeAction**](/windows/desktop/api/Upnp/nf-upnp-iupnpservice-invokeaction) requires a [**SAFEARRAY**](https://msdn.microsoft.com/en-us/library/ms221482(v=VS.71).aspx) of arguments to be passed in, this example creates an empty **SAFEARRAY**. Since this action does not return a value or have output arguments, this example ignores the last two [**VARIANT**](https://msdn.microsoft.com/en-us/library/ms221673(v=VS.71).aspx) values passed to **InvokeAction**.
 
 The device generates event notifications if the action causes state variables of the device to change.
 
@@ -120,7 +120,7 @@ void InvokePlay(IUPnPService * pService)
 
 
 
-The following example invokes the fictitious *GetTrackInfo* action. It takes a track number as an argument, returns the track length as a return value, and returns the track title in an output argument. The code is similar to the previous example, except that instead of creating an empty [**SAFEARRAY**](https://msdn.microsoft.com/windows/desktop/9ec8025b-4763-4526-ab45-390c5d8b3b1e) of input arguments, this example inserts a [**VARIANT**](https://msdn.microsoft.com/windows/desktop/f0940eea-077f-4b68-9dac-d49e3fc62e43) that contains the track number. If [**InvokeAction**](/windows/desktop/api/Upnp/nf-upnp-iupnpservice-invokeaction) returns success, this example examines the return value and the array of output arguments.
+The following example invokes the fictitious *GetTrackInfo* action. It takes a track number as an argument, returns the track length as a return value, and returns the track title in an output argument. The code is similar to the previous example, except that instead of creating an empty [**SAFEARRAY**](https://msdn.microsoft.com/en-us/library/ms221482(v=VS.71).aspx) of input arguments, this example inserts a [**VARIANT**](https://msdn.microsoft.com/en-us/library/ms221673(v=VS.71).aspx) that contains the track number. If [**InvokeAction**](/windows/desktop/api/Upnp/nf-upnp-iupnpservice-invokeaction) returns success, this example examines the return value and the array of output arguments.
 
 
 ```C++

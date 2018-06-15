@@ -122,9 +122,9 @@ The following diagram illustrates the extension of the shortcut menu in accordan
 
 ### Activating Your Handler Using the IDropTarget Interface
 
-Dynamic Data Exchange (DDE) is deprecated; use [**IDropTarget**](https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) instead. **IDropTarget** is more robust and has better activation support because it uses COM activation of the handler. In the case of multiple item selection, **IDropTarget** is not subject to the buffer size restrictions found in both DDE and the [**CreateProcess**](https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc). Also, items are passed to the application as a data object that can be converted to an item array by using the [**SHCreateShellItemArrayFromDataObject**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromdataobject) function. Doing so is simpler, and does not lose namespace information as occurs when the item is converted to a path for command-line or DDE protocols.
+Dynamic Data Exchange (DDE) is deprecated; use [**IDropTarget**](https://msdn.microsoft.com/en-us/library/ms679679(v=VS.85).aspx) instead. **IDropTarget** is more robust and has better activation support because it uses COM activation of the handler. In the case of multiple item selection, **IDropTarget** is not subject to the buffer size restrictions found in both DDE and the [**CreateProcess**](https://msdn.microsoft.com/en-us/library/ms682425(v=VS.85).aspx). Also, items are passed to the application as a data object that can be converted to an item array by using the [**SHCreateShellItemArrayFromDataObject**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromdataobject) function. Doing so is simpler, and does not lose namespace information as occurs when the item is converted to a path for command-line or DDE protocols.
 
-For more information about [**IDropTarget**](https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) and Shell queries for file association attributes, see [Perceived Types and Application Registration](fa-perceivedtypes.md).
+For more information about [**IDropTarget**](https://msdn.microsoft.com/en-us/library/ms679679(v=VS.85).aspx) and Shell queries for file association attributes, see [Perceived Types and Application Registration](fa-perceivedtypes.md).
 
 ### Specifying the Position and Order of Static Verbs
 
@@ -170,7 +170,7 @@ Position=Top | Bottom
 
 ### Creating Static Cascading Menus
 
-In Windows 7 and later, cascading menu implementation is supported through registry settings. Prior to Windows 7, the creation of cascading menus was possible only through the implementation of the [**IContextMenu**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-icontextmenu) interface. In Windows 7 and later, you should resort to COM code-based solutions only when the static methods are insufficient.
+In Windows 7 and later, cascading menu implementation is supported through registry settings. Prior to Windows 7, the creation of cascading menus was possible only through the implementation of the [**IContextMenu**](https://msdn.microsoft.com/en-us/library/Bb776095(v=VS.85).aspx) interface. In Windows 7 and later, you should resort to COM code-based solutions only when the static methods are insufficient.
 
 The following screen shot provides an example of a cascading menu.
 
@@ -317,7 +317,7 @@ The following screen shot is an illustration of the previous registry key entry 
 
 ### Creating Cascading Menus with the IExplorerCommand Interface
 
-Another option for adding verbs to a cascading menu is through [**IExplorerCommand::EnumSubCommands**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-enumsubcommands). This method enables data sources that provide their command module commands through [**IExplorerCommandProvider**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider) to use those commands as verbs on a shortcut menu. In Windows 7 and later, you can provide the same verb implementation using [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) as you can with [**IContextMenu**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-icontextmenu).
+Another option for adding verbs to a cascading menu is through [**IExplorerCommand::EnumSubCommands**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-enumsubcommands). This method enables data sources that provide their command module commands through [**IExplorerCommandProvider**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider) to use those commands as verbs on a shortcut menu. In Windows 7 and later, you can provide the same verb implementation using [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) as you can with [**IContextMenu**](https://msdn.microsoft.com/en-us/library/Bb776095(v=VS.85).aspx).
 
 The following two screen shots illustrate the use of cascading menus in the **Devices** folder.
 
@@ -376,15 +376,15 @@ In the Windows 7 registry, see **HKEY\_CLASSES\_ROOT**\\**drive** as an example
 -   AppliesTo = System.Volume.BitlockerProtection:=2
 -   System.Volume.BitlockerRequiresAdmin:=System.StructuredQueryType.Boolean\#True
 
-For more information about AQS, see [Advanced Query Syntax](https://msdn.microsoft.com/VS|search|~\search\wds3x\overviews\aqs_reference.htm).
+For more information about AQS, see [Advanced Query Syntax](https://msdn.microsoft.com/en-us/library/Bb266512(v=VS.85).aspx).
 
 ### Deprecated: Associating Verbs with Dynamic Data Exchange Commands
 
-DDE is deprecated; use [**IDropTarget**](https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) instead. DDE is deprecated because it relies on a broadcast window message to discover the DDE server. A DDE server hang stalls the broadcast window message and thus hangs DDE conversations for other applications. It is common for a single stuck application to cause subsequent hangs all across the user's experience.
+DDE is deprecated; use [**IDropTarget**](https://msdn.microsoft.com/en-us/library/ms679679(v=VS.85).aspx) instead. DDE is deprecated because it relies on a broadcast window message to discover the DDE server. A DDE server hang stalls the broadcast window message and thus hangs DDE conversations for other applications. It is common for a single stuck application to cause subsequent hangs all across the user's experience.
 
-The [**IDropTarget**](https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) method is more robust and has better activation support because it uses COM activation of the handler. In the case of multiple item selection, **IDropTarget** is not subject to the buffer size restrictions found in both DDE and the [**CreateProcess**](https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc). Also, items are passed to the application as a data object that can be converted to an item array by using the [**SHCreateShellItemArrayFromDataObject**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromdataobject) function. Doing so is simpler, and does not lose namespace information as occurs when the item is converted to a path for command-line or DDE protocols.
+The [**IDropTarget**](https://msdn.microsoft.com/en-us/library/ms679679(v=VS.85).aspx) method is more robust and has better activation support because it uses COM activation of the handler. In the case of multiple item selection, **IDropTarget** is not subject to the buffer size restrictions found in both DDE and the [**CreateProcess**](https://msdn.microsoft.com/en-us/library/ms682425(v=VS.85).aspx). Also, items are passed to the application as a data object that can be converted to an item array by using the [**SHCreateShellItemArrayFromDataObject**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromdataobject) function. Doing so is simpler, and does not lose namespace information as occurs when the item is converted to a path for command-line or DDE protocols.
 
-For more information about [**IDropTarget**](https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) and Shell queries for file association attributes, see [Perceived Types and Application Registration](fa-perceivedtypes.md).
+For more information about [**IDropTarget**](https://msdn.microsoft.com/en-us/library/ms679679(v=VS.85).aspx) and Shell queries for file association attributes, see [Perceived Types and Application Registration](fa-perceivedtypes.md).
 
 ## Completing Verb Implementation Tasks
 
@@ -434,7 +434,7 @@ The screen shot illustrates the **New** submenu. When a user selects **MyProgram
 
 ### Creating Drag-and-Drop Handlers
 
-The basic procedure for implementing a drag-and-drop handler is the same as for conventional shortcut menu handlers. However, shortcut menu handlers normally use only the [**IDataObject**](https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4) pointer passed to the handler's [**IShellExtInit::Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize) method to extract the object's name. A drag-and-drop handler could implement a more sophisticated data handler to modify the behavior of the dragged object.
+The basic procedure for implementing a drag-and-drop handler is the same as for conventional shortcut menu handlers. However, shortcut menu handlers normally use only the [**IDataObject**](https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx) pointer passed to the handler's [**IShellExtInit::Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize) method to extract the object's name. A drag-and-drop handler could implement a more sophisticated data handler to modify the behavior of the dragged object.
 
 When a user right-clicks a Shell object to drag an object, a shortcut menu is displayed when the user attempts to drop the object. The following screen shot illustrates a typical drag-and-drop shortcut menu.
 

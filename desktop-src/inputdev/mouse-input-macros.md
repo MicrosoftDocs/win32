@@ -13,15 +13,15 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**GET\_APPCOMMAND\_LPARAM**](/windows/desktop/api/Winuser/nf-winuser-get_appcommand_lparam)
--   [**GET\_DEVICE\_LPARAM**](/windows/desktop/api/Winuser/nf-winuser-get_device_lparam)
--   [**GET\_FLAGS\_LPARAM**](/windows/desktop/api/Winuser/nf-winuser-get_flags_lparam)
--   [**GET\_KEYSTATE\_LPARAM**](/windows/desktop/api/Winuser/nf-winuser-get_keystate_lparam)
--   [**GET\_KEYSTATE\_WPARAM**](/windows/desktop/api/Winuser/nf-winuser-get_keystate_wparam)
--   [**GET\_MOUSEORKEY\_LPARAM**](https://www.bing.com/search?q=**GET\_MOUSEORKEY\_LPARAM**)
--   [**GET\_NCHITTEST\_WPARAM**](/windows/desktop/api/Winuser/nf-winuser-get_nchittest_wparam)
--   [**GET\_WHEEL\_DELTA\_WPARAM**](/windows/desktop/api/Winuser/nf-winuser-get_wheel_delta_wparam)
--   [**GET\_XBUTTON\_WPARAM**](/windows/desktop/api/Winuser/nf-winuser-get_xbutton_wparam)
+-   [**GET\_APPCOMMAND\_LPARAM**](https://msdn.microsoft.com/en-us/library/ms646247(v=VS.85).aspx)
+-   [**GET\_DEVICE\_LPARAM**](https://msdn.microsoft.com/en-us/library/ms646248(v=VS.85).aspx)
+-   [**GET\_FLAGS\_LPARAM**](https://msdn.microsoft.com/en-us/library/ms646249(v=VS.85).aspx)
+-   [**GET\_KEYSTATE\_LPARAM**](https://msdn.microsoft.com/en-us/library/ms646250(v=VS.85).aspx)
+-   [**GET\_KEYSTATE\_WPARAM**](https://msdn.microsoft.com/en-us/library/ms646251(v=VS.85).aspx)
+-   [**GET\_MOUSEORKEY\_LPARAM**](https://msdn.microsoft.com/en-us/library/ms646252(v=VS.85).aspx)
+-   [**GET\_NCHITTEST\_WPARAM**](https://msdn.microsoft.com/en-us/library/ms646253(v=VS.85).aspx)
+-   [**GET\_WHEEL\_DELTA\_WPARAM**](https://msdn.microsoft.com/en-us/library/ms646254(v=VS.85).aspx)
+-   [**GET\_XBUTTON\_WPARAM**](https://msdn.microsoft.com/en-us/library/ms646255(v=VS.85).aspx)
 
  
 

@@ -37,16 +37,16 @@ HRESULT D3DXCreatePRTCompBuffer(
 *Quality* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXSHCOMPRESSQUALITYTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxshcompressqualitytype.htm)**
+Type: **[**D3DXSHCOMPRESSQUALITYTYPE**](https://msdn.microsoft.com/en-us/library/Bb205445(v=VS.85).aspx)**
 
-Quality of spherical harmonic (SH) compression. See [**D3DXSHCOMPRESSQUALITYTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxshcompressqualitytype.htm).
+Quality of spherical harmonic (SH) compression. See [**D3DXSHCOMPRESSQUALITYTYPE**](https://msdn.microsoft.com/en-us/library/Bb205445(v=VS.85).aspx).
 
 </dd> <dt>
 
 *NumClusters* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Number of clusters to use for compression.
 
@@ -55,7 +55,7 @@ Number of clusters to use for compression.
 *NumPCA* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Number of principal component analysis (PCA) basis vectors to use in each cluster.
 
@@ -73,7 +73,7 @@ Optional pointer to the [LPD3DXSHPRTSIMCB](lpd3dxshprtsimcb.md) callback functio
 *lpUserContext* \[in\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Optional pointer to a user-defined value passed to the [LPD3DXSHPRTSIMCB](lpd3dxshprtsimcb.md) callback function. Typically used by an application to pass a pointer to a data structure that provides context information for the callback function. May be **NULL**.
 
@@ -99,7 +99,7 @@ Address of a pointer to the output [**ID3DXPRTCompBuffer**](id3dxprtcompbuffer.m
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

@@ -134,10 +134,10 @@ For the remaining **IMediaObject** methods, there is not a one-to-one correspond
 | **GetInputCurrentType**               | Fully implemented                                                                |
 | **GetOutputCurrentType**              | Fully implemented                                                                |
 | **GetStreamCount**                    | Fully implemented                                                                |
-| **GetInputStatus**                    | [**InternalAcceptingInput**](/windows/desktop/api/Dmoimpl/)        |
-| **Lock** (implemented as **DMOLock**) | [**Lock**](/windows/desktop/api/Dmoimpl/), [**Unlock**](/windows/desktop/api/Dmoimpl/) |
-| **SetInputType**                      | [**InternalCheckInputType**](/windows/desktop/api/Dmoimpl/)        |
-| **SetOutputType**                     | [**InternalCheckOutputType**](/windows/desktop/api/Dmoimpl/)      |
+| **GetInputStatus**                    | [**InternalAcceptingInput**](https://msdn.microsoft.com/en-us/library/Dd406931(v=VS.85).aspx)        |
+| **Lock** (implemented as **DMOLock**) | [**Lock**](https://msdn.microsoft.com/en-us/library/Dd406934(v=VS.85).aspx), [**Unlock**](https://msdn.microsoft.com/en-us/library/Dd406938(v=VS.85).aspx) |
+| **SetInputType**                      | [**InternalCheckInputType**](https://msdn.microsoft.com/en-us/library/Dd406932(v=VS.85).aspx)        |
+| **SetOutputType**                     | [**InternalCheckOutputType**](https://msdn.microsoft.com/en-us/library/Dd406933(v=VS.85).aspx)      |
 
 
 

@@ -91,7 +91,7 @@
 #### [FindActCtxSectionGuid](/windows/desktop/api/Winbase/nf-winbase-findactctxsectionguid)
 #### [FindActCtxSectionString](/windows/desktop/api/Winbase/nf-winbase-findactctxsectionstringa)
 #### [GetCurrentActCtx](/windows/desktop/api/Winbase/nf-winbase-getcurrentactctx)
-#### [IsolationAwareCleanup](/windows/desktop/api/Winbase.inl/)
+#### [IsolationAwareCleanup](https://msdn.microsoft.com/en-us/library/Aa375204(v=VS.85).aspx)
 #### [QueryActCtxW](/windows/desktop/api/Winbase/nf-winbase-queryactctxw)
 #### [QueryActCtxSettingsW](/windows/desktop/api/Winbase/nf-winbase-queryactctxsettingsw)
 #### [ReleaseActCtx](/windows/desktop/api/Winbase/nf-winbase-releaseactctx)

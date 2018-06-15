@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Signing Files and Checking Signatures
 
-[*CryptoAPI*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) Tools include a tool, [SignTool](signtool.md), that performs the following functionality:
+[*CryptoAPI*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) Tools include a tool, [SignTool](signtool.md), that performs the following functionality:
 
 -   [Using SignTool to Sign a File](using-signtool-to-sign-a-file.md)
 -   [Using SignTool to Verify a File Signature](using-signtool-to-verify-a-file-signature.md)

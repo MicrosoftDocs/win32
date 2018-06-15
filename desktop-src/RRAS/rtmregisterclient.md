@@ -87,7 +87,7 @@ Specifies miscellaneous options for special handling of the routing protocol. Th
 
 On successful return, a **HANDLE** value that identifies the client in subsequent calls to the routing table manager.
 
-A **NULL** handle indicates that the routing table manager was unable to register the client. Call [**GetLastError**](https://msdn.microsoft.com/windows/desktop/d852e148-985c-416f-a5a7-27b6914b45d4) to obtain the reason for the failure.
+A **NULL** handle indicates that the routing table manager was unable to register the client. Call [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx) to obtain the reason for the failure.
 
 
 
@@ -127,7 +127,7 @@ A **NULL** handle indicates that the routing table manager was unable to registe
 [Routing Table Manager Version 1 Functions](routing-table-manager-version-1-functions.md)
 </dt> <dt>
 
-[**GetLastError**](https://msdn.microsoft.com/windows/desktop/d852e148-985c-416f-a5a7-27b6914b45d4)
+[**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx)
 </dt> <dt>
 
 [**RegisterProtocol**](/windows/desktop/api/Routprot/nc-routprot-pregister_protocol)

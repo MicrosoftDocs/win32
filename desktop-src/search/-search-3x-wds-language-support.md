@@ -19,7 +19,7 @@ Windows Search is language-independent, but the accuracy of search across langua
 
 Both the language of the indexed text and the query string are broken into tokens. Because tokenization rules vary by language, there are separate wordbreakers for each language or family of languages. If there is a mismatch between the query language and the indexed language, the results can be unpredictable.
 
-Windows Search ships with a well defined set of wordbreakers. Classic wordbreaker and stemmer components are supported in Windows Vista and later. If the language of a document cannot be determined, Windows Search attempts to detect the language to identify the most appropriate wordbreaker. Windows Search attempts to detect the language by calling the [**GetSystemPreferredUILanguages**](https://msdn.microsoft.com/2948b495-c400-4227-94fb-7c4f5171ecae) function to determine the first Multiple User Interface (MUI) language (which is typically the system UI language unless MUI language packs are installed). If that call succeeds, the wordbreaker for the first MUI language is used. If the call to **GetSystemPreferredUILanguages** fails, Windows Search retrieves the system locale by calling the [**GetSystemDefaultLCID**](https://msdn.microsoft.com/67d73d88-6a6c-439b-a321-1b1bd05fe268) function and uses the wordbreaker associated with that locale.
+Windows Search ships with a well defined set of wordbreakers. Classic wordbreaker and stemmer components are supported in Windows Vista and later. If the language of a document cannot be determined, Windows Search attempts to detect the language to identify the most appropriate wordbreaker. Windows Search attempts to detect the language by calling the [**GetSystemPreferredUILanguages**](https://msdn.microsoft.com/en-us/library/Dd318124(v=VS.85).aspx) function to determine the first Multiple User Interface (MUI) language (which is typically the system UI language unless MUI language packs are installed). If that call succeeds, the wordbreaker for the first MUI language is used. If the call to **GetSystemPreferredUILanguages** fails, Windows Search retrieves the system locale by calling the [**GetSystemDefaultLCID**](https://msdn.microsoft.com/en-us/library/Dd318121(v=VS.85).aspx) function and uses the wordbreaker associated with that locale.
 
 If no wordbreaker is installed for a language, Windows Search breaks on white space by using the **Neutral** wordbreaker.
 
@@ -49,12 +49,12 @@ When Windows Search requires a new wordbreaker, the class identifier (CLSID) is 
 
 You can create a custom wordbreaker for a language by implementing the [**IWordBreaker**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordbreaker) interface. Windows Search then calls the **IWordBreaker** methods when it builds content indexes and runs queries.
 
-Locale information for indexed content is retrieved from the source of the content. If the source implementer does not know the locale of the indexed content, it should set the locale to [**LOCALE\_NEUTRAL**](https://msdn.microsoft.com/599250b1-b98a-4fd8-92a0-08571b38fc08).
+Locale information for indexed content is retrieved from the source of the content. If the source implementer does not know the locale of the indexed content, it should set the locale to [**LOCALE\_NEUTRAL**](https://msdn.microsoft.com/en-us/library/Dd373818(v=VS.85).aspx).
 
-For example, if you implement a filter handler (an implementation of the [**IFilter**](https://www.bing.com/search?q=**IFilter**) interface), property handler, or protocol handler, you should set the locale for indexed content to [**LOCALE\_NEUTRAL**](https://msdn.microsoft.com/599250b1-b98a-4fd8-92a0-08571b38fc08) unless you have specific locale information and are confident of its accuracy.
+For example, if you implement a filter handler (an implementation of the [**IFilter**](https://www.bing.com/search?q=**IFilter**) interface), property handler, or protocol handler, you should set the locale for indexed content to [**LOCALE\_NEUTRAL**](https://msdn.microsoft.com/en-us/library/Dd373818(v=VS.85).aspx) unless you have specific locale information and are confident of its accuracy.
 
 > \[!Tip\]  
-> If an index query is based on user input, the locale should match the language in which the user is typing. You can determine this locale by calling the [**GetKeyboardLayout**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getkeyboardlayout.htm) function.
+> If an index query is based on user input, the locale should match the language in which the user is typing. You can determine this locale by calling the [**GetKeyboardLayout**](https://msdn.microsoft.com/en-us/library/ms646296(v=VS.85).aspx) function.
 
  
 
@@ -128,19 +128,19 @@ Windows Search includes wordbreakers to support the following languages.
 
  
 
-For more information about languages and associated identifiers, see [Language Identifier Constants and Strings](https://msdn.microsoft.com/8a6373e0-46c2-4b1b-bc67-543f426ef15a).
+For more information about languages and associated identifiers, see [Language Identifier Constants and Strings](https://msdn.microsoft.com/en-us/library/Dd318693(v=VS.85).aspx).
 
 > [!Note]  
 > There is no guarantee that all of these language registry keys will be present on any given machine. The wordbreaker for any given language may or may not be installed in the machine depending on user settings.
 
  
 
-**Beginning in Windows 8.1**, the preferred way to use wordbreakers is via the WinRT API [**WordsSegmenter class**](https://msdn.microsoft.com/Windows.Data.Text.WordsSegmenter).
+**Beginning in Windows 8.1**, the preferred way to use wordbreakers is via the WinRT API [**WordsSegmenter class**](https://msdn.microsoft.com/en-us/library/Dn263551(v=WIN.10).aspx).
 
 ## Additional Resources
 
 -   For information on how to implement and use custom word breakers and stemmers for additional languages and locales, see [Extending Language Resources in Windows Search](extending-language-resources-in-windows-search.md).
--   If you need to identify the language of a piece of text, you can use Language Auto-Detection (LAD), which is available in Windows 7 and later. For more information, see [Extended Linguistic Services](https://msdn.microsoft.com/90bc1757-ec94-425e-927f-9ae2e1ab8af8) (ELS).
+-   If you need to identify the language of a piece of text, you can use Language Auto-Detection (LAD), which is available in Windows 7 and later. For more information, see [Extended Linguistic Services](https://msdn.microsoft.com/en-us/library/Dd317839(v=VS.85).aspx) (ELS).
 -   For information on managing, querying, and extending the index, see the [Windows Search Developer's Guide](-search-developers-guide-entry-page.md).
 
 ## Related topics

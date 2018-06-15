@@ -65,7 +65,7 @@ This event method is defined in the \_IInkOverlayEvents and \_IInkPictureEvents 
 
 <dl> <dt>
 
-[**InkOverlay Class**](/windows/desktop/api/msinkaut/)
+[**InkOverlay Class**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx)
 </dt> <dt>
 
 **InkOverlay Class**
@@ -74,7 +74,7 @@ This event method is defined in the \_IInkOverlayEvents and \_IInkPictureEvents 
 [**Selection Property**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_selection)
 </dt> <dt>
 
-[**InkRectangle Class**](/windows/desktop/api/msinkaut/)
+[**InkRectangle Class**](https://msdn.microsoft.com/en-us/library/ms700607(v=VS.85).aspx)
 </dt> </dl>
 
  

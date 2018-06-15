@@ -28,34 +28,34 @@ This section describes the functions, macros, messages, and structures associate
 
 ## Allocating and Managing Buffers
 
--   [**MIDIHDR**](https://www.bing.com/search?q=**MIDIHDR**)
--   [**midiInAddBuffer**](https://www.bing.com/search?q=**midiInAddBuffer**)
--   [**midiInPrepareHeader**](https://www.bing.com/search?q=**midiInPrepareHeader**)
--   [**midiInUnprepareHeader**](https://www.bing.com/search?q=**midiInUnprepareHeader**)
--   [**midiOutPrepareHeader**](https://www.bing.com/search?q=**midiOutPrepareHeader**)
--   [**midiOutUnprepareHeader**](https://www.bing.com/search?q=**midiOutUnprepareHeader**)
+-   [**MIDIHDR**](https://msdn.microsoft.com/en-us/library/Dd798449(v=VS.85).aspx)
+-   [**midiInAddBuffer**](https://msdn.microsoft.com/en-us/library/Dd798450(v=VS.85).aspx)
+-   [**midiInPrepareHeader**](https://msdn.microsoft.com/en-us/library/Dd798459(v=VS.85).aspx)
+-   [**midiInUnprepareHeader**](https://msdn.microsoft.com/en-us/library/Dd798464(v=VS.85).aspx)
+-   [**midiOutPrepareHeader**](https://msdn.microsoft.com/en-us/library/Dd798477(v=VS.85).aspx)
+-   [**midiOutUnprepareHeader**](https://msdn.microsoft.com/en-us/library/Dd798482(v=VS.85).aspx)
 
 ## Callback Functions
 
--   [**MidiInProc**](/windows/desktop/api/Mmsystem/)
--   [**MidiOutProc**](/windows/desktop/api/Mmsystem/)
+-   [**MidiInProc**](https://msdn.microsoft.com/en-us/library/Dd798460(v=VS.85).aspx)
+-   [**MidiOutProc**](https://msdn.microsoft.com/en-us/library/Dd798478(v=VS.85).aspx)
 
 ## Device Capabilities
 
--   [**MIDIINCAPS**](https://www.bing.com/search?q=**MIDIINCAPS**)
--   [**midiInGetDevCaps**](https://www.bing.com/search?q=**midiInGetDevCaps**)
--   [**midiInGetID**](https://www.bing.com/search?q=**midiInGetID**)
--   [**midiInGetNumDevs**](https://www.bing.com/search?q=**midiInGetNumDevs**)
--   [**MIDIOUTCAPS**](https://www.bing.com/search?q=**MIDIOUTCAPS**)
--   [**midiOutGetDevCaps**](https://www.bing.com/search?q=**midiOutGetDevCaps**)
--   [**midiOutGetID**](https://www.bing.com/search?q=**midiOutGetID**)
--   [**midiOutGetNumDevs**](https://www.bing.com/search?q=**midiOutGetNumDevs**)
--   [**MIDISTRMBUFFVER**](https://www.bing.com/search?q=**MIDISTRMBUFFVER**)
+-   [**MIDIINCAPS**](https://msdn.microsoft.com/en-us/library/Dd798451(v=VS.85).aspx)
+-   [**midiInGetDevCaps**](https://msdn.microsoft.com/en-us/library/Dd798453(v=VS.85).aspx)
+-   [**midiInGetID**](https://msdn.microsoft.com/en-us/library/Dd798455(v=VS.85).aspx)
+-   [**midiInGetNumDevs**](https://msdn.microsoft.com/en-us/library/Dd798456(v=VS.85).aspx)
+-   [**MIDIOUTCAPS**](https://msdn.microsoft.com/en-us/library/Dd798467(v=VS.85).aspx)
+-   [**midiOutGetDevCaps**](https://msdn.microsoft.com/en-us/library/Dd798469(v=VS.85).aspx)
+-   [**midiOutGetID**](https://msdn.microsoft.com/en-us/library/Dd798471(v=VS.85).aspx)
+-   [**midiOutGetNumDevs**](https://msdn.microsoft.com/en-us/library/Dd798472(v=VS.85).aspx)
+-   [**MIDISTRMBUFFVER**](https://msdn.microsoft.com/en-us/library/Dd798493(v=VS.85).aspx)
 
 ## Error Processing
 
--   [**midiInGetErrorText**](https://www.bing.com/search?q=**midiInGetErrorText**)
--   [**midiOutGetErrorText**](https://www.bing.com/search?q=**midiOutGetErrorText**)
+-   [**midiInGetErrorText**](https://msdn.microsoft.com/en-us/library/Dd798454(v=VS.85).aspx)
+-   [**midiOutGetErrorText**](https://msdn.microsoft.com/en-us/library/Dd798470(v=VS.85).aspx)
 -   [**MIM\_ERROR**](mim-error.md)
 -   [**MIM\_LONGERROR**](mim-longerror.md)
 -   [**MM\_MIM\_ERROR**](mm-mim-error.md)
@@ -63,21 +63,21 @@ This section describes the functions, macros, messages, and structures associate
 
 ## Managing MIDI Streams
 
--   [**midiStreamClose**](https://www.bing.com/search?q=**midiStreamClose**)
--   [**midiStreamOpen**](https://www.bing.com/search?q=**midiStreamOpen**)
--   [**midiStreamOut**](https://www.bing.com/search?q=**midiStreamOut**)
--   [**midiStreamPause**](https://www.bing.com/search?q=**midiStreamPause**)
--   [**midiStreamPosition**](https://www.bing.com/search?q=**midiStreamPosition**)
--   [**midiStreamProperty**](https://www.bing.com/search?q=**midiStreamProperty**)
--   [**midiStreamRestart**](https://www.bing.com/search?q=**midiStreamRestart**)
--   [**midiStreamStop**](https://www.bing.com/search?q=**midiStreamStop**)
+-   [**midiStreamClose**](https://msdn.microsoft.com/en-us/library/Dd798485(v=VS.85).aspx)
+-   [**midiStreamOpen**](https://msdn.microsoft.com/en-us/library/Dd798486(v=VS.85).aspx)
+-   [**midiStreamOut**](https://msdn.microsoft.com/en-us/library/Dd798487(v=VS.85).aspx)
+-   [**midiStreamPause**](https://msdn.microsoft.com/en-us/library/Dd798488(v=VS.85).aspx)
+-   [**midiStreamPosition**](https://msdn.microsoft.com/en-us/library/Dd798489(v=VS.85).aspx)
+-   [**midiStreamProperty**](https://msdn.microsoft.com/en-us/library/Dd798490(v=VS.85).aspx)
+-   [**midiStreamRestart**](https://msdn.microsoft.com/en-us/library/Dd798491(v=VS.85).aspx)
+-   [**midiStreamStop**](https://msdn.microsoft.com/en-us/library/Dd798492(v=VS.85).aspx)
 
 ## Opening and Closing Devices
 
--   [**midiInClose**](https://www.bing.com/search?q=**midiInClose**)
--   [**midiInOpen**](https://www.bing.com/search?q=**midiInOpen**)
--   [**midiOutClose**](https://www.bing.com/search?q=**midiOutClose**)
--   [**midiOutOpen**](https://www.bing.com/search?q=**midiOutOpen**)
+-   [**midiInClose**](https://msdn.microsoft.com/en-us/library/Dd798452(v=VS.85).aspx)
+-   [**midiInOpen**](https://msdn.microsoft.com/en-us/library/Dd798458(v=VS.85).aspx)
+-   [**midiOutClose**](https://msdn.microsoft.com/en-us/library/Dd798468(v=VS.85).aspx)
+-   [**midiOutOpen**](https://msdn.microsoft.com/en-us/library/Dd798476(v=VS.85).aspx)
 -   [**MIM\_CLOSE**](mim-close.md)
 -   [**MIM\_OPEN**](mim-open.md)
 -   [**MM\_MIM\_CLOSE**](mm-mim-close.md)
@@ -90,24 +90,24 @@ This section describes the functions, macros, messages, and structures associate
 ## Output Devices
 
 -   [KEYARRAY](keyarray.md)
--   [**midiOutCacheDrumPatches**](https://www.bing.com/search?q=**midiOutCacheDrumPatches**)
--   [**midiOutCachePatches**](https://www.bing.com/search?q=**midiOutCachePatches**)
--   [**midiOutGetVolume**](https://www.bing.com/search?q=**midiOutGetVolume**)
--   [**midiOutSetVolume**](https://www.bing.com/search?q=**midiOutSetVolume**)
+-   [**midiOutCacheDrumPatches**](https://msdn.microsoft.com/en-us/library/Dd798465(v=VS.85).aspx)
+-   [**midiOutCachePatches**](https://msdn.microsoft.com/en-us/library/Dd798466(v=VS.85).aspx)
+-   [**midiOutGetVolume**](https://msdn.microsoft.com/en-us/library/Dd798473(v=VS.85).aspx)
+-   [**midiOutSetVolume**](https://msdn.microsoft.com/en-us/library/Dd798480(v=VS.85).aspx)
 -   [PATCHARRAY](patcharray.md)
 
 ## Playing a Message or Messages
 
--   [**MEVT\_EVENTPARM**](https://www.bing.com/search?q=**MEVT\_EVENTPARM**)
--   [**MEVT\_EVENTTYPE**](https://www.bing.com/search?q=**MEVT\_EVENTTYPE**)
--   [**MIDIEVENT**](https://www.bing.com/search?q=**MIDIEVENT**)
--   [**midiOutLongMsg**](https://www.bing.com/search?q=**midiOutLongMsg**)
--   [**midiOutReset**](https://www.bing.com/search?q=**midiOutReset**)
--   [**midiOutShortMsg**](https://www.bing.com/search?q=**midiOutShortMsg**)
--   [**midiStreamOut**](https://www.bing.com/search?q=**midiStreamOut**)
--   [**midiStreamPause**](https://www.bing.com/search?q=**midiStreamPause**)
--   [**midiStreamRestart**](https://www.bing.com/search?q=**midiStreamRestart**)
--   [**midiStreamStop**](https://www.bing.com/search?q=**midiStreamStop**)
+-   [**MEVT\_EVENTPARM**](https://msdn.microsoft.com/en-us/library/Dd798441(v=VS.85).aspx)
+-   [**MEVT\_EVENTTYPE**](https://msdn.microsoft.com/en-us/library/Dd798442(v=VS.85).aspx)
+-   [**MIDIEVENT**](https://msdn.microsoft.com/en-us/library/Dd798448(v=VS.85).aspx)
+-   [**midiOutLongMsg**](https://msdn.microsoft.com/en-us/library/Dd798474(v=VS.85).aspx)
+-   [**midiOutReset**](https://msdn.microsoft.com/en-us/library/Dd798479(v=VS.85).aspx)
+-   [**midiOutShortMsg**](https://msdn.microsoft.com/en-us/library/Dd798481(v=VS.85).aspx)
+-   [**midiStreamOut**](https://msdn.microsoft.com/en-us/library/Dd798487(v=VS.85).aspx)
+-   [**midiStreamPause**](https://msdn.microsoft.com/en-us/library/Dd798488(v=VS.85).aspx)
+-   [**midiStreamRestart**](https://msdn.microsoft.com/en-us/library/Dd798491(v=VS.85).aspx)
+-   [**midiStreamStop**](https://msdn.microsoft.com/en-us/library/Dd798492(v=VS.85).aspx)
 -   [**MM\_MOM\_DONE**](mm-mom-done.md)
 -   [**MM\_MOM\_POSITIONCB**](mm-mom-positioncb.md)
 -   [**MOM\_DONE**](mom-done.md)
@@ -115,13 +115,13 @@ This section describes the functions, macros, messages, and structures associate
 
 ## Recording
 
--   [**midiConnect**](https://www.bing.com/search?q=**midiConnect**)
--   [**midiDisconnect**](https://www.bing.com/search?q=**midiDisconnect**)
--   [**midiInReset**](https://www.bing.com/search?q=**midiInReset**)
--   [**midiInStart**](https://www.bing.com/search?q=**midiInStart**)
--   [**midiInStop**](https://www.bing.com/search?q=**midiInStop**)
--   [**MIDIPROPTEMPO**](https://www.bing.com/search?q=**MIDIPROPTEMPO**)
--   [**MIDIPROPTIMEDIV**](https://www.bing.com/search?q=**MIDIPROPTIMEDIV**)
+-   [**midiConnect**](https://msdn.microsoft.com/en-us/library/Dd798446(v=VS.85).aspx)
+-   [**midiDisconnect**](https://msdn.microsoft.com/en-us/library/Dd798447(v=VS.85).aspx)
+-   [**midiInReset**](https://msdn.microsoft.com/en-us/library/Dd798461(v=VS.85).aspx)
+-   [**midiInStart**](https://msdn.microsoft.com/en-us/library/Dd798462(v=VS.85).aspx)
+-   [**midiInStop**](https://msdn.microsoft.com/en-us/library/Dd798463(v=VS.85).aspx)
+-   [**MIDIPROPTEMPO**](https://msdn.microsoft.com/en-us/library/Dd798483(v=VS.85).aspx)
+-   [**MIDIPROPTIMEDIV**](https://msdn.microsoft.com/en-us/library/Dd798484(v=VS.85).aspx)
 -   [**MIM\_DATA**](mim-data.md)
 -   [**MIM\_LONGDATA**](mim-longdata.md)
 -   [**MIM\_MOREDATA**](mim-moredata.md)
@@ -131,8 +131,8 @@ This section describes the functions, macros, messages, and structures associate
 
 ## Sending Messages to Devices
 
--   [**midiInMessage**](https://www.bing.com/search?q=**midiInMessage**)
--   [**midiOutMessage**](https://www.bing.com/search?q=**midiOutMessage**)
+-   [**midiInMessage**](https://msdn.microsoft.com/en-us/library/Dd798457(v=VS.85).aspx)
+-   [**midiOutMessage**](https://msdn.microsoft.com/en-us/library/Dd798475(v=VS.85).aspx)
 
 ## Related topics
 

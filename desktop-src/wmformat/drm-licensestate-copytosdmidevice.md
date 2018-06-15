@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # DRM\_LicenseState\_CopyToSDMIDevice
 
-The **DRM\_LicenseState\_CopyToSDMIDevice** property contains a [**WM\_LICENSE\_STATE\_DATA**](/windows/desktop/api/Wmsdkidl/) structure that contains details about how this right has been applied to the content.
+The **DRM\_LicenseState\_CopyToSDMIDevice** property contains a [**WM\_LICENSE\_STATE\_DATA**](https://msdn.microsoft.com/en-us/library/Dd757942(v=VS.85).aspx) structure that contains details about how this right has been applied to the content.
 
 ## Global Constant
 

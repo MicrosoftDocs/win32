@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 ## 
 
-[**ChangeAdviseCodes**](/windows/desktop/api/SearchAPI/)
+[**ChangeAdviseCodes**](https://msdn.microsoft.com/en-us/library/Aa965736(v=VS.85).aspx)
 
 [**ColumnSortOrder**](/windows/desktop/api/mmcobj/ne-mmcobj-columnsortorder)
 

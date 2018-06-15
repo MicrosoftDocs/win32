@@ -39,13 +39,13 @@ HRESULT get_Renderer(
 
 ## Property value
 
-Receives a [**ActiveBasicDevice**](https://www.bing.com/search?q=**ActiveBasicDevice**) object that represents the renderer device.
+Receives a [**ActiveBasicDevice**](https://msdn.microsoft.com/en-us/library/Dn385755(v=VS.85).aspx) object that represents the renderer device.
 
 ## See also
 
 <dl> <dt>
 
-[**DevicePair**](https://www.bing.com/search?q=**DevicePair**)
+[**DevicePair**](https://msdn.microsoft.com/en-us/library/Dn385771(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -50,14 +50,14 @@ Number of elements in *HandleArray*.
 *StartTime* \[in\]
 </dt> <dd>
 
-Pointer to an optional [**FILETIME**](https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1) structure that specifies the beginning time period for which you want to receive events. The function does not deliver events recorded prior to *StartTime*.
+Pointer to an optional [**FILETIME**](https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx) structure that specifies the beginning time period for which you want to receive events. The function does not deliver events recorded prior to *StartTime*.
 
 </dd> <dt>
 
 *EndTime* \[in\]
 </dt> <dd>
 
-Pointer to an optional [**FILETIME**](https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1) structure that specifies the ending time period for which you want to receive events. The function does not deliver events recorded after *EndTime*.
+Pointer to an optional [**FILETIME**](https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx) structure that specifies the ending time period for which you want to receive events. The function does not deliver events recorded after *EndTime*.
 
 **Windows Server 2003:** This value is ignored for real-time event delivery.
 
@@ -67,7 +67,7 @@ Pointer to an optional [**FILETIME**](https://msdn.microsoft.com/9baf8a0e-59e3-4
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7). The following table includes some common errors and their causes.
+If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
 
 
 

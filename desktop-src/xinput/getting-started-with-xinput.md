@@ -220,12 +220,12 @@ For info about how to use the captureId device identifier, see [Capturing a Stre
 
 ### Getting DirectSound GUIDs (legacy DirectX SDK only)
 
-The headset that can be connected to an Xbox 360 Controller has two functions: it can record sound using a microphone, and it can play back sound using a headphone. In the XInput API, these functions are accomplished through [DirectSound](https://msdn.microsoft.com/windows/desktop/994fb8d3-0ff2-195e-ddb5-bb582ca4ff03), using the **IDirectSound8** and **IDirectSoundCapture8** interfaces.
+The headset that can be connected to an Xbox 360 Controller has two functions: it can record sound using a microphone, and it can play back sound using a headphone. In the XInput API, these functions are accomplished through [DirectSound](https://msdn.microsoft.com/en-us/library/Ee416960(v=VS.85).aspx), using the **IDirectSound8** and **IDirectSoundCapture8** interfaces.
 
-To associate the headset microphone and headphone with their appropriate [DirectSound](https://msdn.microsoft.com/windows/desktop/994fb8d3-0ff2-195e-ddb5-bb582ca4ff03) interfaces, you must get the DirectSoundGUIDs for the capture and render devices by calling [**XInputGetDSoundAudioDeviceGuids**](/windows/desktop/api/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids).
+To associate the headset microphone and headphone with their appropriate [DirectSound](https://msdn.microsoft.com/en-us/library/Ee416960(v=VS.85).aspx) interfaces, you must get the DirectSoundGUIDs for the capture and render devices by calling [**XInputGetDSoundAudioDeviceGuids**](/windows/desktop/api/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids).
 
 > [!Note]  
-> Use of the legacy [DirectSound](https://msdn.microsoft.com/windows/desktop/994fb8d3-0ff2-195e-ddb5-bb582ca4ff03) is not recommended, and is not available in Windows Store apps. The info in this section only applies to the DirectX SDK version of XInput (XInput 1.3). The Windows 8 version of XInput (XInput 1.4) exclusively uses Windows Audio Session API (WASAPI) device identifiers that are obtained through [**XInputGetAudioDeviceIds**](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids).
+> Use of the legacy [DirectSound](https://msdn.microsoft.com/en-us/library/Ee416960(v=VS.85).aspx) is not recommended, and is not available in Windows Store apps. The info in this section only applies to the DirectX SDK version of XInput (XInput 1.3). The Windows 8 version of XInput (XInput 1.4) exclusively uses Windows Audio Session API (WASAPI) device identifiers that are obtained through [**XInputGetAudioDeviceIds**](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids).
 
  
 

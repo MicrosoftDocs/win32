@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # GetStreamPropertiesOperation.GetResults method
 
-Returns the results of the asynchronous operation started by [**GetStreamPropertiesAsync**](https://www.bing.com/search?q=**GetStreamPropertiesAsync**).
+Returns the results of the asynchronous operation started by [**GetStreamPropertiesAsync**](https://msdn.microsoft.com/en-us/library/Hh829001(v=VS.85).aspx).
 
 ## Syntax
 

@@ -15,7 +15,7 @@ If you are writing a general-purpose administration tool, it is likely that you 
 
 The [**RelatedCollectionInfo**](relatedcollectioninfo.md) collection is available from any collection that you might be holding and contains an item for each available related collection. You can enumerate through these items to determine whether a given collection is available.
 
-You can get the [**RelatedCollectionInfo**](relatedcollectioninfo.md) collection from any collection you are holding by using the [**GetCollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-getcollection) method on the [**COMAdminCatalogCollection**](/windows/desktop/api/ComAdmin/) object, leaving the second parameter blank where you would normally specify a parent item's Key property.
+You can get the [**RelatedCollectionInfo**](relatedcollectioninfo.md) collection from any collection you are holding by using the [**GetCollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-getcollection) method on the [**COMAdminCatalogCollection**](https://msdn.microsoft.com/en-us/library/ms679474(v=VS.85).aspx) object, leaving the second parameter blank where you would normally specify a parent item's Key property.
 
 ## Related topics
 

@@ -142,7 +142,7 @@ The following macros are used with multimedia.
 -   [**MCI\_MAKE\_HMS**](mci-make-hms.md)
 -   [**MCI\_MAKE\_MSF**](mci-make-msf.md)
 -   [**MCI\_MAKE\_TMSF**](mci-make-tmsf.md)
--   [**MCI\_MSF\_FRAME**](/windows/desktop/api/Mmsystem/)
+-   [**MCI\_MSF\_FRAME**](https://msdn.microsoft.com/en-us/library/Dd743438(v=VS.85).aspx)
 -   [**MCI\_MSF\_MINUTE**](mci-msf-minute.md)
 -   [**MCI\_MSF\_SECOND**](mci-msf-second.md)
 -   [**MCI\_TMSF\_FRAME**](mci-tmsf-frame.md)
@@ -218,11 +218,11 @@ The following macros are used with multimedia.
 -   [**MCIWndUseFrames**](/windows/desktop/api/Vfw/nf-vfw-mciwnduseframes)
 -   [**MCIWndUseTime**](/windows/desktop/api/Vfw/nf-vfw-mciwndusetime)
 -   [**MCIWndValidateMedia**](/windows/desktop/api/Vfw/nf-vfw-mciwndvalidatemedia)
--   [**MEVT\_EVENTPARM**](https://www.bing.com/search?q=**MEVT\_EVENTPARM**)
--   [**MEVT\_EVENTTYPE**](https://www.bing.com/search?q=**MEVT\_EVENTTYPE**)
+-   [**MEVT\_EVENTPARM**](https://msdn.microsoft.com/en-us/library/Dd798441(v=VS.85).aspx)
+-   [**MEVT\_EVENTTYPE**](https://msdn.microsoft.com/en-us/library/Dd798442(v=VS.85).aspx)
 -   [**min**](min.md)
--   [**mmioFOURCC**](https://www.bing.com/search?q=**mmioFOURCC**)
--   [**sndAlias**](/windows/desktop/api/Mmsystem/)
+-   [**mmioFOURCC**](https://msdn.microsoft.com/en-us/library/Dd757320(v=VS.85).aspx)
+-   [**sndAlias**](https://msdn.microsoft.com/en-us/library/Dd798675(v=VS.85).aspx)
 
 ## Related topics
 

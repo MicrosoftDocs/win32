@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Listing Installed Decoders
 
-Windows GDI+ provides the [**GetImageDecoders**](/windows/desktop/api/Gdiplusimagecodec/nf-gdiplusimagecodec-getimagedecoders) function so that you can determine which image decoders are available on your computer. **GetImageDecoders** returns an array of [**ImageCodecInfo**](/windows/desktop/api/Gdiplusimaging/) objects. Before you call **GetImageDecoders**, you must allocate a buffer large enough to receive that array. You can call [**GetImageDecodersSize**](/windows/desktop/api/Gdiplusimagecodec/nf-gdiplusimagecodec-getimagedecoderssize) to determine the size of the required buffer.
+Windows GDI+ provides the [**GetImageDecoders**](/windows/desktop/api/Gdiplusimagecodec/nf-gdiplusimagecodec-getimagedecoders) function so that you can determine which image decoders are available on your computer. **GetImageDecoders** returns an array of [**ImageCodecInfo**](https://msdn.microsoft.com/en-us/library/ms534466(v=VS.85).aspx) objects. Before you call **GetImageDecoders**, you must allocate a buffer large enough to receive that array. You can call [**GetImageDecodersSize**](/windows/desktop/api/Gdiplusimagecodec/nf-gdiplusimagecodec-getimagedecoderssize) to determine the size of the required buffer.
 
 The following console application lists the available image decoders:
 

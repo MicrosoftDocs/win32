@@ -31,7 +31,7 @@ HRESULT Invoke(
 *asyncInfo* \[in\]
 </dt> <dd>
 
-Type: **[**IAsyncOperationWithProgress&lt;TResult,TProgress&gt;**](/windows/desktop/api/Windows.Foundation.Collections/ns-windows-foundation-collections-iasyncoperationwithprogress)\***
+Type: **[**IAsyncOperationWithProgress&lt;TResult,TProgress&gt;**](https://msdn.microsoft.com/en-us/library/BR205807(v=VS.85).aspx)\***
 
 The asynchronous action that reports completion.
 
@@ -58,7 +58,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IAsyncOperationWithProgressCompletedHandler&lt;TResult,TProgress&gt;**](/windows/desktop/api/Windows.Foundation.Collections/)
+[**IAsyncOperationWithProgressCompletedHandler&lt;TResult,TProgress&gt;**](https://msdn.microsoft.com/en-us/library/BR205808(v=VS.85).aspx)
 </dt> </dl>
 
  

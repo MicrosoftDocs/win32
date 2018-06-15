@@ -65,7 +65,7 @@ A combination of one or more flags that control the device create behavior.
 </tr>
 <tr class="odd">
 <td>D3DCREATE_ENABLE_PRESENTSTATS</td>
-<td>Enables the gathering of present statistics on the device. Calls to [<strong>GetPresentStatistics</strong>](/windows/desktop/api/d3d9/) will return valid data. 
+<td>Enables the gathering of present statistics on the device. Calls to [<strong>GetPresentStatistics</strong>](https://msdn.microsoft.com/en-us/library/Bb205901(v=VS.85).aspx) will return valid data. 
 <table>
 <tbody>
 <tr class="odd">
@@ -107,7 +107,7 @@ Unless hardware vertex processing is not available, the usage of software vertex
 </tr>
 <tr class="even">
 <td>D3DCREATE_MULTITHREADED</td>
-<td>Indicates that the application requests Direct3D to be multithread safe. This makes a Direct3D thread take ownership of its global [critical section](https://msdn.microsoft.com/2ec11a42-3d12-4d60-9dd7-dc38926d56e1) more frequently, which can degrade performance. If an application processes window messages in one thread while making Direct3D API calls in another, the application must use this flag when creating the device. This window must also be destroyed before unloading d3d9.dll.</td>
+<td>Indicates that the application requests Direct3D to be multithread safe. This makes a Direct3D thread take ownership of its global [critical section](https://msdn.microsoft.com/en-us/library/ms682530(v=VS.85).aspx) more frequently, which can degrade performance. If an application processes window messages in one thread while making Direct3D API calls in another, the application must use this flag when creating the device. This window must also be destroyed before unloading d3d9.dll.</td>
 </tr>
 <tr class="odd">
 <td>D3DCREATE_NOWINDOWCHANGES</td>

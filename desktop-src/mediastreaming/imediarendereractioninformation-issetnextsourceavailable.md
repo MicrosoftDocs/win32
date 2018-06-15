@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IMediaRendererActionInformation::IsSetNextSourceAvailable method
 
-Retrieves a value that indicates whether the DMR is currently accepting the [**SetNextSourceFromUriAsync**](https://www.bing.com/search?q=**SetNextSourceFromUriAsync**) method, the [**SetNextSourceFromStreamAsync**](https://www.bing.com/search?q=**SetNextSourceFromStreamAsync**) method or the [**SetNextSourceFromMediaSourceAsync**](https://www.bing.com/search?q=**SetNextSourceFromMediaSourceAsync**) method.
+Retrieves a value that indicates whether the DMR is currently accepting the [**SetNextSourceFromUriAsync**](https://msdn.microsoft.com/en-us/library/Hh828946(v=VS.85).aspx) method, the [**SetNextSourceFromStreamAsync**](https://msdn.microsoft.com/en-us/library/Hh828945(v=VS.85).aspx) method or the [**SetNextSourceFromMediaSourceAsync**](https://msdn.microsoft.com/en-us/library/Hh828944(v=VS.85).aspx) method.
 
 ## Syntax
 
@@ -41,7 +41,7 @@ HRESULT IsSetNextSourceAvailable(
 *value* \[out\]
 </dt> <dd>
 
-A boolean value that is **True** if the DMR is currently accepting the [**SetNextSourceFromUriAsync**](https://www.bing.com/search?q=**SetNextSourceFromUriAsync**) method, the [**SetNextSourceFromStreamAsync**](https://www.bing.com/search?q=**SetNextSourceFromStreamAsync**) method or the [**SetNextSourceFromMediaSourceAsync**](https://www.bing.com/search?q=**SetNextSourceFromMediaSourceAsync**) method and **False** if it is not.
+A boolean value that is **True** if the DMR is currently accepting the [**SetNextSourceFromUriAsync**](https://msdn.microsoft.com/en-us/library/Hh828946(v=VS.85).aspx) method, the [**SetNextSourceFromStreamAsync**](https://msdn.microsoft.com/en-us/library/Hh828945(v=VS.85).aspx) method or the [**SetNextSourceFromMediaSourceAsync**](https://msdn.microsoft.com/en-us/library/Hh828944(v=VS.85).aspx) method and **False** if it is not.
 
 </dd> </dl>
 
@@ -63,7 +63,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 <dl> <dt>
 
-[**IMediaRendererActionInformation**](https://www.bing.com/search?q=**IMediaRendererActionInformation**)
+[**IMediaRendererActionInformation**](https://msdn.microsoft.com/en-us/library/Hh828915(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CAPICOM\_ENCRYPTION\_KEY\_LENGTH enumeration
 
-The **CAPICOM\_ENCRYPTION\_KEY\_LENGTH** enumeration type defines the [*key length*](https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33) to be used in encryption.
+The **CAPICOM\_ENCRYPTION\_KEY\_LENGTH** enumeration type defines the [*key length*](https://msdn.microsoft.com/en-us/library/ms721590(v=VS.85).aspx) to be used in encryption.
 
 ## Members
 

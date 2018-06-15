@@ -23,7 +23,7 @@ This example illustrates the following CryptoAPI functions:
 -   [**CertFreeCertificateContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-certfreecertificatecontext)
 -   [**CertCloseStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certclosestore)
 
-Signing the message can only be done with access to a certificate that has an available [*private key*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a). Verification of the message can only be done with access to the public key related to the private key used to sign the certificate. The user can change the **\#define** statement to the subject name from one of the user's personal certificates.
+Signing the message can only be done with access to a certificate that has an available [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx). Verification of the message can only be done with access to the public key related to the private key used to sign the certificate. The user can change the **\#define** statement to the subject name from one of the user's personal certificates.
 
 This example also demonstrates the initialization of the CRYPT\_SIGN\_MESSAGE\_PARA and CRYPT\_VERIFY\_MESSAGE\_PARA structures needed for calls to [**CryptSignMessage**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsignmessage) and [**CryptVerifyMessageSignature**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifymessagesignature).
 

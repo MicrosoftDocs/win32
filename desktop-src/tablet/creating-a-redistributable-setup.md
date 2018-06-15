@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 To distribute an ink-enabled application to computers that are not running either Windows Vista or Windows XP Tablet PC Edition 2005 (that is, computers running Windows XP, Windows Server 2003, or Windows 2000), you must include the necessary merge modules in your setup.
 
-The Mstpcrt.msm merge module includes all of the files, resources, registry entries, and setup logic necessary for Windows Installer to install the shared files that other platforms require to run unmanaged applications developed for the Tablet PC. Mstpcrt.msm is consumed by Windows Installer (.msi) files. For applications that use the [**InkDivider**](/windows/desktop/api/msinkaut15/) object, you must also redistribute InkDiv.msm. For applications that use managed components, you must also include the merge module files for those managed components.
+The Mstpcrt.msm merge module includes all of the files, resources, registry entries, and setup logic necessary for Windows Installer to install the shared files that other platforms require to run unmanaged applications developed for the Tablet PC. Mstpcrt.msm is consumed by Windows Installer (.msi) files. For applications that use the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object, you must also redistribute InkDiv.msm. For applications that use managed components, you must also include the merge module files for those managed components.
 
 The following table describes the merge module files that ship with the Windows XP Tablet PC Edition Software Development Kit (SDK).
 
@@ -21,7 +21,7 @@ The following table describes the merge module files that ship with the Windows 
 
 | Redistributable Merge Module | Description                                                                                                                    | Files                                                       |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
-| InkDiv.msm<br/>        | Installs the unmanaged version of the [**InkDivider**](/windows/desktop/api/msinkaut15/) object.<br/>                                | InkDiv.dll<br/>                                       |
+| InkDiv.msm<br/>        | Installs the unmanaged version of the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object.<br/>                                | InkDiv.dll<br/>                                       |
 | Mstpcrt.msm<br/>       | Installs the unmanaged components of the Tablet PC Platform version 1.0.<br/>                                            | Gdiplus.dll, InkEd.dll, Tpcps.dll, Wisptis.exe<br/>   |
 | Msvcp60.msm<br/>       | Installs components of the Microsoft Visual C++ runtime.<br/>                                                            | Msvcp60.dll<br/>                                      |
 | Msvcrt.msm<br/>        | Installs components of the Microsoft Visual C runtime.<br/>                                                              | Msvcrt.dll<br/>                                       |
@@ -48,7 +48,7 @@ Ink-enabled applications treat mouse events as pen movements to simulate working
 
 Mstpcrt.msm does not include Windows Journal or Tablet PC Input Panel.
 
-The [**PenInputPanel**](/windows/desktop/api/msinkaut/) object does not function on any operating systems besides Windows XP Tablet PC Edition.
+The [**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) object does not function on any operating systems besides Windows XP Tablet PC Edition.
 
 ## Deployment
 
@@ -74,7 +74,7 @@ Mstpcrt.msm is added to your Setup project and appears in the Solution Explorer 
 Windows Installer adds the files contained in the merge module to the Program Files folder. To use these files, end users must be logged on with an account that has access to the Program Files folder.
 
 > [!Note]  
-> You must add [SelfRegModules Action](https://msdn.microsoft.com/windows/desktop/b139ae28-e479-4915-909d-2449244e9fd6) and [SelfUnregModules Action](https://msdn.microsoft.com/windows/desktop/fa5a5abb-ecd4-434c-b176-83cdca280a13) actions to the installation sequence. The [MsiPublishAssemblies Action](https://msdn.microsoft.com/windows/desktop/4bc67f43-7a7e-4bd3-aa83-610b46a54e11) and [MsiUnpublishAssemblies Action](https://msdn.microsoft.com/library/windows/desktop/aa370500) actions receive their order in the installation sequence from these actions.
+> You must add [SelfRegModules Action](https://msdn.microsoft.com/en-us/library/Aa371607(v=VS.85).aspx) and [SelfUnregModules Action](https://msdn.microsoft.com/en-us/library/Aa371610(v=VS.85).aspx) actions to the installation sequence. The [MsiPublishAssemblies Action](https://msdn.microsoft.com/en-us/library/Aa370359(v=VS.85).aspx) and [MsiUnpublishAssemblies Action](https://msdn.microsoft.com/library/windows/desktop/aa370500) actions receive their order in the installation sequence from these actions.
 
  
 

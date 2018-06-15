@@ -22,24 +22,24 @@ This section describes the functions, structures, and messages associated with j
 
 ## Device Capabilities
 
--   [**joyGetDevCaps**](https://www.bing.com/search?q=**joyGetDevCaps**)
--   [**joyGetNumDevs**](https://www.bing.com/search?q=**joyGetNumDevs**)
--   [**JOYCAPS**](https://www.bing.com/search?q=**JOYCAPS**)
+-   [**joyGetDevCaps**](https://msdn.microsoft.com/en-us/library/Dd757105(v=VS.85).aspx)
+-   [**joyGetNumDevs**](https://msdn.microsoft.com/en-us/library/Dd757106(v=VS.85).aspx)
+-   [**JOYCAPS**](https://msdn.microsoft.com/en-us/library/Dd757103(v=VS.85).aspx)
 
 ## Querying a Joystick
 
 -   [**joyConfigChanged**](/windows/desktop/api/joystickapi/nf-joystickapi-joyconfigchanged)
--   [**joyGetPos**](https://www.bing.com/search?q=**joyGetPos**)
--   [**joyGetPosEx**](https://www.bing.com/search?q=**joyGetPosEx**)
--   [**JOYINFO**](https://www.bing.com/search?q=**JOYINFO**)
--   [**JOYINFOEX**](https://www.bing.com/search?q=**JOYINFOEX**)
+-   [**joyGetPos**](https://msdn.microsoft.com/en-us/library/Dd757107(v=VS.85).aspx)
+-   [**joyGetPosEx**](https://msdn.microsoft.com/en-us/library/Dd757108(v=VS.85).aspx)
+-   [**JOYINFO**](https://msdn.microsoft.com/en-us/library/Dd757110(v=VS.85).aspx)
+-   [**JOYINFOEX**](https://msdn.microsoft.com/en-us/library/Dd757112(v=VS.85).aspx)
 
 ## Capturing a Joystick
 
--   [**joyGetThreshold**](https://www.bing.com/search?q=**joyGetThreshold**)
--   [**joyReleaseCapture**](https://www.bing.com/search?q=**joyReleaseCapture**)
--   [**joySetCapture**](https://www.bing.com/search?q=**joySetCapture**)
--   [**joySetThreshold**](https://www.bing.com/search?q=**joySetThreshold**)
+-   [**joyGetThreshold**](https://msdn.microsoft.com/en-us/library/Dd757109(v=VS.85).aspx)
+-   [**joyReleaseCapture**](https://msdn.microsoft.com/en-us/library/Dd757113(v=VS.85).aspx)
+-   [**joySetCapture**](https://msdn.microsoft.com/en-us/library/Dd757114(v=VS.85).aspx)
+-   [**joySetThreshold**](https://msdn.microsoft.com/en-us/library/Dd757115(v=VS.85).aspx)
 -   [**MM\_JOY1BUTTONDOWN**](mm-joy1buttondown.md)
 -   [**MM\_JOY1BUTTONUP**](mm-joy1buttonup.md)
 -   [**MM\_JOY1MOVE**](mm-joy1move.md)

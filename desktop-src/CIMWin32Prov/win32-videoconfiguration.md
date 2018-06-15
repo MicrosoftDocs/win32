@@ -83,7 +83,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b)\|COLORRES"), [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("bits per pixel")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/en-us/library/Dd144877(v=VS.85).aspx)\|COLORRES"), [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("bits per pixel")
 </dt> </dl>
 
 Indicates the current color depth of the video display.
@@ -101,7 +101,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|System\\\\CurrentControlSet\\\\Services\\\\Class\\\\Info\|ChipType")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32Registry\|System\\\\CurrentControlSet\\\\Services\\\\Class\\\\Info\|ChipType")
 </dt> </dl>
 
 Contains the name of the adapter chip.
@@ -121,7 +121,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**key**](https://msdn.microsoft.com/838d295f-e812-4e46-99a4-d2714a0ae8dc), [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("WMI")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI")
 </dt> </dl>
 
 Specifies the name of the manufacturer of the adapter. This name can be used to compare the compatibility of this device with the needs of the computer system.
@@ -139,7 +139,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|System\\\\CurrentControlSet\\\\Services\\\\Class\\\\Info\|DACType")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32Registry\|System\\\\CurrentControlSet\\\\Services\\\\Class\\\\Info\|DACType")
 </dt> </dl>
 
 Indicates the name of the digital-to-analog chip (DAC) used in the adapter.
@@ -157,7 +157,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("WMI")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI")
 </dt> </dl>
 
 Contains a description or descriptive name of the video adapter.
@@ -175,7 +175,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|System\\\\CurrentControlSet\\\\Services\\\\Class\\\\Info\|VideoMemory"), [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("bytes")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32Registry\|System\\\\CurrentControlSet\\\\Services\\\\Class\\\\Info\|VideoMemory"), [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("bytes")
 </dt> </dl>
 
 Indicates the memory size of the video adapter.
@@ -195,7 +195,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|HARDWARE\\\\Description\\\\System\\\\DisplayController\\\\0\\\\Identifier")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32Registry\|HARDWARE\\\\Description\\\\System\\\\DisplayController\\\\0\\\\Identifier")
 </dt> </dl>
 
 Indicates the type of video adapter.
@@ -215,7 +215,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b)\|BITSPIXEL")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/en-us/library/Dd144877(v=VS.85).aspx)\|BITSPIXEL")
 </dt> </dl>
 
 Indicates the actual number of bits per pixel representing the display. This may be scaled to the current video setting (represented by the ActualColorResolution property) of the user.
@@ -235,7 +235,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64)
 </dt> </dl>
 
 Short textual description of the current object.
@@ -253,7 +253,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b)\|PLANES")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/en-us/library/Dd144877(v=VS.85).aspx)\|PLANES")
 </dt> </dl>
 
 Indicates the current number of color planes used in the video display. A color plane is another way to represent pixel colors; instead of assigning a single RGB value to each a pixel, color planes separate the graphic into each of the primary color components (red green blue), and store them in their own planes. This allows for greater color depths on 8 and 16 bit video systems. Present graphics systems have the bitwidth large enough to store color depth information, making only one color plane necessary.
@@ -273,7 +273,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b)\|NUMCOLORS")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/en-us/library/Dd144877(v=VS.85).aspx)\|NUMCOLORS")
 </dt> </dl>
 
 Indicates the number of color indexes in a color table for a video display. This property is used if the device has a color depth of no more than 8 bits per pixel. For devices with greater color depths, -1 is returned.
@@ -308,7 +308,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b)\|NUMPENS")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/en-us/library/Dd144877(v=VS.85).aspx)\|NUMPENS")
 </dt> </dl>
 
 Indicates the current number of device-specific pens. A value of 0xFFFFFFFF means the device does not support pens. Pens are used to draw lines and theborders of polygonal objects.
@@ -328,7 +328,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|System\\\\CurrentControlSet\\\\Services\\\\Class\\\\AdapterDescription\|DriverDate")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32Registry\|System\\\\CurrentControlSet\\\\Services\\\\Class\\\\AdapterDescription\|DriverDate")
 </dt> </dl>
 
 Indicates the date and time the current video driver was installed.
@@ -346,7 +346,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b)\|HORZRES")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/en-us/library/Dd144877(v=VS.85).aspx)\|HORZRES")
 </dt> </dl>
 
 Indicates the current number of pixels in the horizontal direction (X axis) of the display.
@@ -366,7 +366,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|System\\\\CurrentControlSet\\\\Services\\\\Class\|InfPath")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32Registry\|System\\\\CurrentControlSet\\\\Services\\\\Class\|InfPath")
 </dt> </dl>
 
 Specifies the path to the .inf file of the video driver.
@@ -386,7 +386,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|System\\\\CurrentControlSet\\\\Services\\\\Class\|InfSection")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32Registry\|System\\\\CurrentControlSet\\\\Services\\\\Class\|InfSection")
 </dt> </dl>
 
 Indicates the section of the .inf file where the Win32 video information resides.
@@ -404,7 +404,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|System\\\\CurrentControlSet\\\\Services\\\\Class\\\\Defaule\|drv")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32Registry\|System\\\\CurrentControlSet\\\\Services\\\\Class\\\\Defaule\|drv")
 </dt> </dl>
 
 Indicates the name of the installed video driver.
@@ -422,7 +422,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("WMI")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI")
 </dt> </dl>
 
 Indicates the name of the manufacturer of the display device.
@@ -442,7 +442,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|HARDWARE\\\\Description\\\\System\\\\MonitorPeripheral\\\\0\|Identifier")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32Registry\|HARDWARE\\\\Description\\\\System\\\\MonitorPeripheral\\\\0\|Identifier")
 </dt> </dl>
 
 Indicates the model name of the display device.
@@ -462,7 +462,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**key**](https://msdn.microsoft.com/838d295f-e812-4e46-99a4-d2714a0ae8dc), [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("WMI")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI")
 </dt> </dl>
 
 Contains an identifying name for the video configuration class.
@@ -480,7 +480,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b)\|LOGPIXELSX")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/en-us/library/Dd144877(v=VS.85).aspx)\|LOGPIXELSX")
 </dt> </dl>
 
 Indicates the number of pixels per logical inch along the X axis (horizontal direction) of the display.
@@ -498,7 +498,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b)\|LOGPIXELSY")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/en-us/library/Dd144877(v=VS.85).aspx)\|LOGPIXELSY")
 </dt> </dl>
 
 Indicates the number of pixels per logical inch along the Y axis (vertical direction) of the display.
@@ -516,7 +516,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b)\|VREFRESH")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/en-us/library/Dd144877(v=VS.85).aspx)\|VREFRESH")
 </dt> </dl>
 
 Indicates the refresh rate of the video configuration. A value of 0 or 1 indicates a default rate is being used.
@@ -536,7 +536,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|System\\\\CurrentControlSet\\\\Services\|Device0\|DefaultSettings.Interlaced")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32Registry\|System\\\\CurrentControlSet\\\\Services\|Device0\|DefaultSettings.Interlaced")
 </dt> </dl>
 
 Indicates whether the display device is interlaced.
@@ -570,7 +570,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b)\|VERTSIZE"), [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("millimeters")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/en-us/library/Dd144877(v=VS.85).aspx)\|VERTSIZE"), [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("millimeters")
 </dt> </dl>
 
 Specifies the height of the physical screen.
@@ -588,7 +588,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b)\|HORZSIZE"), [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("millimeters")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/en-us/library/Dd144877(v=VS.85).aspx)\|HORZSIZE"), [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("millimeters")
 </dt> </dl>
 
 Specifies the width of the physical screen.
@@ -606,7 +606,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256)
 </dt> </dl>
 
 Identifier by which the current object is known.
@@ -624,7 +624,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b)\|SIZEPALETTE")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/en-us/library/Dd144877(v=VS.85).aspx)\|SIZEPALETTE")
 </dt> </dl>
 
 Iindicates the current number of color index entries reserved for system use. This value is only valid for display settings that use an indexed palette . Indexed palettes are not used for color depths greater than 8 bits per pixel. If the color depth is more than 8 bits per pixel, this value is set to **NULL**.
@@ -644,7 +644,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b)\|VERTRES")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Device Context Functions\|[**GetDeviceCaps**](https://msdn.microsoft.com/en-us/library/Dd144877(v=VS.85).aspx)\|VERTRES")
 </dt> </dl>
 
 Indicates the current number of pixels in the vertical direction (Y axis) of the display.

@@ -35,7 +35,7 @@ D3DXMATRIX* D3DXMatrixAffineTransformation2D(
 *pOut* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) that is the result of the operation.
 
@@ -44,7 +44,7 @@ Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) that is the result of the o
 *Scaling* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Scaling factor.
 
@@ -53,7 +53,7 @@ Scaling factor.
 *pRotationCenter* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector2.htm)\***
+Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/en-us/library/Bb205544(v=VS.85).aspx)\***
 
 Pointer to a [**D3DXVECTOR2**](d3d10-d3dxvector2.md), a point identifying the center of rotation. If this argument is **NULL**, an identity M<sub>rc</sub> matrix is applied to the formula in Remarks.
 
@@ -62,7 +62,7 @@ Pointer to a [**D3DXVECTOR2**](d3d10-d3dxvector2.md), a point identifying the ce
 *Rotation* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 The angle of rotation.
 
@@ -71,7 +71,7 @@ The angle of rotation.
 *pTranslation* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector2.htm)\***
+Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/en-us/library/Bb205544(v=VS.85).aspx)\***
 
 Pointer to a [**D3DXVECTOR2**](d3d10-d3dxvector2.md), representing the translation. If this argument is **NULL**, an identity Mₜ matrix is applied to the formula in Remarks.
 
@@ -79,7 +79,7 @@ Pointer to a [**D3DXVECTOR2**](d3d10-d3dxvector2.md), representing the translati
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to a D3DXMATRIX structure that is an affine transformation matrix.
 

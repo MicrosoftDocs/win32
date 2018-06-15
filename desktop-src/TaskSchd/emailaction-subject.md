@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 # EmailAction.Subject property
 
-\[This object is no longer supported. Please use IExecAction with the powershell [**Send-MailMessage**](https://msdn.microsoft.com/windows/desktop/796227F5-C9FF-402D-8A04-CDE9E0C180EE) cmdlet as a workaround.\]
+\[This object is no longer supported. Please use IExecAction with the powershell [**Send-MailMessage**](https://msdn.microsoft.com/en-us/library/Hh849925(v=WPS.620).aspx) cmdlet as a workaround.\]
 
 For scripting, gets or sets the subject of the email message.
 

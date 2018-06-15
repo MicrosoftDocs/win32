@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # ID2D1RenderTarget::CreateBitmapFromWicBitmap methods
 
-Creates an [**ID2D1Bitmap**](/windows/desktop/api/d2d1/) by copying the specified Microsoft Windows Imaging Component (WIC) bitmap.
+Creates an [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx) by copying the specified Microsoft Windows Imaging Component (WIC) bitmap.
 
 ### Overload list
 
@@ -27,9 +27,9 @@ Creates an [**ID2D1Bitmap**](/windows/desktop/api/d2d1/) by copying the specifie
 
 | Method                                                                                                                                                                                                              | Description                                                                                                                         |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateBitmapFromWicBitmap(IWICBitmapSource\*,ID2D1Bitmap\*\*)**](/windows/desktop/api/d2d1/)                                                       | Creates an [**ID2D1Bitmap**](/windows/desktop/api/d2d1/) by copying the specified Microsoft Windows Imaging Component(WIC) bitmap.<br/>  |
-| [**CreateBitmapFromWicBitmap(IWICBitmapSource\*,D2D1\_BITMAP\_PROPERTIES&,ID2D1Bitmap\*\*)**](/windows/desktop/api/d2d1/)  | Creates an [**ID2D1Bitmap**](/windows/desktop/api/d2d1/) by copying the specified Microsoft Windows Imaging Component (WIC) bitmap.<br/> |
-| [**CreateBitmapFromWicBitmap(IWICBitmapSource\*,D2D1\_BITMAP\_PROPERTIES\*,ID2D1Bitmap\*\*)**](/windows/desktop/api/d2d1/) | Creates an [**ID2D1Bitmap**](/windows/desktop/api/d2d1/) by copying the specified Microsoft Windows Imaging Component (WIC) bitmap.<br/> |
+| [**CreateBitmapFromWicBitmap(IWICBitmapSource\*,ID2D1Bitmap\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371794(v=VS.85).aspx)                                                       | Creates an [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx) by copying the specified Microsoft Windows Imaging Component(WIC) bitmap.<br/>  |
+| [**CreateBitmapFromWicBitmap(IWICBitmapSource\*,D2D1\_BITMAP\_PROPERTIES&,ID2D1Bitmap\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371797(v=VS.85).aspx)  | Creates an [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx) by copying the specified Microsoft Windows Imaging Component (WIC) bitmap.<br/> |
+| [**CreateBitmapFromWicBitmap(IWICBitmapSource\*,D2D1\_BITMAP\_PROPERTIES\*,ID2D1Bitmap\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371792(v=VS.85).aspx) | Creates an [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx) by copying the specified Microsoft Windows Imaging Component (WIC) bitmap.<br/> |
 
 
 
@@ -56,10 +56,10 @@ For examples, see [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitm
 
 <dl> <dt>
 
-[**ID2D1RenderTarget**](/windows/desktop/api/d2d1/)
+[**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371766(v=VS.85).aspx)
 </dt> <dt>
 
-[**ID2D1Bitmap**](/windows/desktop/api/d2d1/)
+[**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx)
 </dt> <dt>
 
 [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap-from-a-file.md)

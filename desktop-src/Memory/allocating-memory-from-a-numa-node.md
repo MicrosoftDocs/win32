@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Allocating Memory from a NUMA Node
 
-The following sample code demonstrates the use of the NUMA functions [**GetNumaHighestNodeNumber**](https://msdn.microsoft.com/ce944fa7-b42a-4b99-ac8d-30bd026fba21), [**GetNumaProcessorNode**](https://msdn.microsoft.com/88e6c6b3-7ec5-43e5-8cf3-21402925f718), and [**VirtualAllocExNuma**](https://www.bing.com/search?q=**VirtualAllocExNuma**). It also demonstrates the use of the [**QueryWorkingSetEx**](https://msdn.microsoft.com/windows/desktop/59ae76c9-e954-4648-9c9f-787136375b02) function to retrieve the NUMA node on which pages are allocated.
+The following sample code demonstrates the use of the NUMA functions [**GetNumaHighestNodeNumber**](https://msdn.microsoft.com/en-us/library/ms683203(v=VS.85).aspx), [**GetNumaProcessorNode**](https://msdn.microsoft.com/en-us/library/ms683205(v=VS.85).aspx), and [**VirtualAllocExNuma**](https://msdn.microsoft.com/en-us/library/Aa366891(v=VS.85).aspx). It also demonstrates the use of the [**QueryWorkingSetEx**](https://msdn.microsoft.com/en-us/library/ms684949(v=VS.85).aspx) function to retrieve the NUMA node on which pages are allocated.
 
 
 ```C++
@@ -254,7 +254,7 @@ void DumpNumaNodeInfo (PVOID Buffer, SIZE_T Size)
 
 <dl> <dt>
 
-[NUMA Support](https://msdn.microsoft.com/a1263968-2b26-45cc-bdd7-6aa354821a5a)
+[NUMA Support](https://msdn.microsoft.com/en-us/library/Aa363804(v=VS.85).aspx)
 </dt> </dl>
 
  

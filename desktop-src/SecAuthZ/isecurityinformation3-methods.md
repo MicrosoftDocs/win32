@@ -11,12 +11,12 @@ ms.date: 05/31/2018
 
 # ISecurityInformation3 Methods
 
-The [**ISecurityInformation3**](/windows/desktop/api/Aclui/) interface exposes the following methods.
+The [**ISecurityInformation3**](https://msdn.microsoft.com/en-us/library/Bb540757(v=VS.85).aspx) interface exposes the following methods.
 
 ## In this section
 
--   [**GetFullResourceName Method**](/windows/desktop/api/Aclui/)
--   [**OpenElevatedEditor Method**](/windows/desktop/api/Aclui/)
+-   [**GetFullResourceName Method**](https://msdn.microsoft.com/en-us/library/Bb540758(v=VS.85).aspx)
+-   [**OpenElevatedEditor Method**](https://msdn.microsoft.com/en-us/library/Bb540759(v=VS.85).aspx)
 
  
 

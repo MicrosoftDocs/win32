@@ -64,13 +64,13 @@ For instructions about how to build the sample, see the Readme file included wit
 
 <dl> <dt>
 
-[**IFileDialog**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ifiledialog)
+[**IFileDialog**](https://msdn.microsoft.com/en-us/library/Bb775966(v=VS.85).aspx)
 </dt> <dt>
 
 [**IFileSaveDialog**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ifilesavedialog)
 </dt> <dt>
 
-[**IFileOpenDialog**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ifileopendialog)
+[**IFileOpenDialog**](https://msdn.microsoft.com/en-us/library/Bb775834(v=VS.85).aspx)
 </dt> </dl>
 
  

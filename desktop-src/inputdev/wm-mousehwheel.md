@@ -126,7 +126,7 @@ The delta was set to 120 to allow Microsoft or other vendors to build finer-reso
 **Reference**
 </dt> <dt>
 
-[**GET\_KEYSTATE\_WPARAM**](/windows/desktop/api/Winuser/nf-winuser-get_keystate_wparam)
+[**GET\_KEYSTATE\_WPARAM**](https://msdn.microsoft.com/en-us/library/ms646251(v=VS.85).aspx)
 </dt> <dt>
 
 [**GET\_X\_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632654)
@@ -135,7 +135,7 @@ The delta was set to 120 to allow Microsoft or other vendors to build finer-reso
 [**GET\_Y\_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632655)
 </dt> <dt>
 
-[**GET\_WHEEL\_DELTA\_WPARAM**](/windows/desktop/api/Winuser/nf-winuser-get_wheel_delta_wparam)
+[**GET\_WHEEL\_DELTA\_WPARAM**](https://msdn.microsoft.com/en-us/library/ms646254(v=VS.85).aspx)
 </dt> <dt>
 
 [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657)
@@ -144,7 +144,7 @@ The delta was set to 120 to allow Microsoft or other vendors to build finer-reso
 [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659)
 </dt> <dt>
 
-[**mouse\_event**](/windows/desktop/api/Winuser/nf-winuser-mouse_event)
+[**mouse\_event**](https://msdn.microsoft.com/en-us/library/ms646260(v=VS.85).aspx)
 </dt> <dt>
 
 **Conceptual**

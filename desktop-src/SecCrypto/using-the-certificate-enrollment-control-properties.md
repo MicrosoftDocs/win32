@@ -22,11 +22,11 @@ Note, however, that after calling the following methods
 
 the following properties are blocked from being reset
 
--   [**ProviderType**](/windows/desktop/api/Xenroll/)
--   [**KeySpec**](/windows/desktop/api/Xenroll/)
--   [**ProviderFlags**](/windows/desktop/api/Xenroll/)
--   [**ContainerName**](/windows/desktop/api/Xenroll/)
--   [**ProviderName**](/windows/desktop/api/Xenroll/)
+-   [**ProviderType**](https://msdn.microsoft.com/en-us/library/Aa383182(v=VS.85).aspx)
+-   [**KeySpec**](https://msdn.microsoft.com/en-us/library/Aa383155(v=VS.85).aspx)
+-   [**ProviderFlags**](https://msdn.microsoft.com/en-us/library/Aa383177(v=VS.85).aspx)
+-   [**ContainerName**](https://msdn.microsoft.com/en-us/library/Aa382811(v=VS.85).aspx)
+-   [**ProviderName**](https://msdn.microsoft.com/en-us/library/Aa383180(v=VS.85).aspx)
 
 unless the [**ICEnroll4::Reset**](/windows/desktop/api/Xenroll/nf-xenroll-icenroll3-reset) method is called.
 

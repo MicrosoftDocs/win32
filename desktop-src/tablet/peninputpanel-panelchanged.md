@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # PenInputPanel.PanelChanged event
 
-Deprecated. The [**PenInputPanel**](/windows/desktop/api/msinkaut/) has been replaced by the [Text Input Panel (TIP)](text-input-panel-reference.md).
+Deprecated. The [**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) has been replaced by the [Text Input Panel (TIP)](text-input-panel-reference.md).
 
-Occurs when the [**PenInputPanel**](/windows/desktop/api/msinkaut/) object changes between layouts.
+Occurs when the [**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) object changes between layouts.
 
 ## Syntax
 
@@ -33,7 +33,7 @@ HRESULT PanelChanged(
 *NewPanelType* \[in\]
 </dt> <dd>
 
-The new panel type used for input within the [**PenInputPanel**](/windows/desktop/api/msinkaut/) object, after the **PanelChanged** event fires.
+The new panel type used for input within the [**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) object, after the **PanelChanged** event fires.
 
 </dd> </dl>
 
@@ -43,7 +43,7 @@ If this event succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT
 
 ## Remarks
 
-When creating a [**PenInputPanel**](/windows/desktop/api/msinkaut/) object, [**Handwriting**](https://www.bing.com/search?q=**Handwriting**) is the default **PanelType**. If you change the panel by setting the [**CurrentPanel**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_currentpanel) property before the pen input panel becomes active for the first time, a **PanelChanged** event occurs.
+When creating a [**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) object, [**Handwriting**](https://msdn.microsoft.com/en-us/library/ms704908(v=VS.85).aspx) is the default **PanelType**. If you change the panel by setting the [**CurrentPanel**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_currentpanel) property before the pen input panel becomes active for the first time, a **PanelChanged** event occurs.
 
 The **PanelChanged** event is not raised when the user changes between Lined and Boxed writing pads.
 
@@ -64,7 +64,7 @@ The **PanelChanged** event is not raised when the user changes between Lined and
 
 <dl> <dt>
 
-[**PenInputPanel**](/windows/desktop/api/msinkaut/)
+[**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -25,9 +25,9 @@ Creates an image brush. The input image can be any type of image, including a bi
 
 | Method                                                                                                                                                           | Description                                                                                                                  |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------|
-| [**CreateImageBrush (ID2D1Image\*, D2D1\_IMAGE\_BRUSH\_PROPERTIES\*, D2D1\_BRUSH\_PROPERTIES\*, ID2D1ImageBrush\*\*)**](/windows/desktop/api/D2d1_1/) | Creates an image brush. The input image can be any type of image, including a bitmap, effect, or a command list. <br/> |
-| [**CreateImageBrush (ID2D1Image\*, D2D1\_IMAGE\_BRUSH\_PROPERTIES&, D2D1\_BRUSH\_PROPERTIES&, ID2D1ImageBrush\*\*)**](/windows/desktop/api/D2d1_1/)  | Creates an image brush. The input image can be any type of image, including a bitmap, effect, or a command list. <br/> |
-| [**CreateImageBrush (ID2D1Image\*, D2D1\_IMAGE\_BRUSH\_PROPERTIES&, ID2D1ImageBrush\*\*)**](/windows/desktop/api/D2d1_1/)                            | Creates an image brush. The input image can be any type of image, including a bitmap, effect, or a command list. <br/> |
+| [**CreateImageBrush (ID2D1Image\*, D2D1\_IMAGE\_BRUSH\_PROPERTIES\*, D2D1\_BRUSH\_PROPERTIES\*, ID2D1ImageBrush\*\*)**](https://msdn.microsoft.com/en-us/library/Hh404506(v=VS.85).aspx) | Creates an image brush. The input image can be any type of image, including a bitmap, effect, or a command list. <br/> |
+| [**CreateImageBrush (ID2D1Image\*, D2D1\_IMAGE\_BRUSH\_PROPERTIES&, D2D1\_BRUSH\_PROPERTIES&, ID2D1ImageBrush\*\*)**](https://msdn.microsoft.com/en-us/library/JJ841140(v=VS.85).aspx)  | Creates an image brush. The input image can be any type of image, including a bitmap, effect, or a command list. <br/> |
+| [**CreateImageBrush (ID2D1Image\*, D2D1\_IMAGE\_BRUSH\_PROPERTIES&, ID2D1ImageBrush\*\*)**](https://msdn.microsoft.com/en-us/library/JJ841141(v=VS.85).aspx)                            | Creates an image brush. The input image can be any type of image, including a bitmap, effect, or a command list. <br/> |
 
 
 
@@ -35,7 +35,7 @@ Creates an image brush. The input image can be any type of image, including a bi
 
 <dl> <dt>
 
-[**ID2D1DeviceContext**](/windows/desktop/api/D2d1_1/)
+[**ID2D1DeviceContext**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -542,7 +542,7 @@ This property is not supported by Windows Vista. Use [<strong>WIA_IPS_OPTICAL_Y
 <td style="text-align: left;"><span id="WIA_DPS_PAD_COLOR"></span><span id="wia_dps_pad_color"></span><dl> <dt><strong>WIA_DPS_PAD_COLOR</strong></dt> <dt>ScannerDevicePadColor</dt> </dl></td>
 <td style="text-align: left;"><p>Color used to pad when there is not enough image data to fill a requested buffer. This property is implemented for scanners that pad the buffer. This property is optional for all scanners. The minidriver creates and maintains this property.</p>
 <p>Type: <strong>VT_UI1</strong> | <strong>VT_VECTOR</strong>, Access: Read Only, Valid values: [WIA_PROP_NONE](-wia-property-attributes.md)</p>
-<p>The format of the color information is [RGBQUAD](https://msdn.microsoft.com/22e0991d-078e-4b44-9f03-004137e31f6c).</p></td>
+<p>The format of the color information is [RGBQUAD](https://msdn.microsoft.com/en-us/library/Dd162938(v=VS.85).aspx).</p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_DPS_PAGE_HEIGHT"></span><span id="wia_dps_page_height"></span><dl> <dt><strong>WIA_DPS_PAGE_HEIGHT</strong></dt> <dt>ScannerDevicePageHeight</dt> </dl></td>
@@ -753,7 +753,7 @@ If duplex mode is enabled (<strong>WIA_DPS_DOCUMENT_HANDLING_SELECT</strong> is 
 <td style="text-align: left;"><span id="WIA_DPS_PLATEN_COLOR"></span><span id="wia_dps_platen_color"></span><dl> <dt><strong>WIA_DPS_PLATEN_COLOR</strong></dt> <dt>ScannerDevicePlatenColor</dt> </dl></td>
 <td style="text-align: left;"><p>Specifies the color of the platen in back of the sheet to be scanned. This property is optional for scanners that have a platen. The minidriver creates and maintains this property.</p>
 <p>Type: <strong>VT_UI1</strong> | <strong>VT_VECTOR</strong>, Access: Read Only, Valid values: [WIA_PROP_NONE](-wia-property-attributes.md)</p>
-<p>The format of the color information is [RGBQUAD](https://msdn.microsoft.com/22e0991d-078e-4b44-9f03-004137e31f6c).</p></td>
+<p>The format of the color information is [RGBQUAD](https://msdn.microsoft.com/en-us/library/Dd162938(v=VS.85).aspx).</p></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_DPS_PREVIEW"></span><span id="wia_dps_preview"></span><dl> <dt><strong>WIA_DPS_PREVIEW</strong></dt> <dt>ScannerDevicePreview</dt> </dl></td>

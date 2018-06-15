@@ -35,16 +35,16 @@ HRESULT Open(
 *IncludeType* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXINCLUDE\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxinclude_type.htm)**
+Type: **[**D3DXINCLUDE\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb172881(v=VS.85).aspx)**
 
-The location of the \#include file. See [**D3DXINCLUDE\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxinclude_type.htm).
+The location of the \#include file. See [**D3DXINCLUDE\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb172881(v=VS.85).aspx).
 
 </dd> <dt>
 
 *pFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Name of the \#include file.
 
@@ -53,16 +53,16 @@ Name of the \#include file.
 *pParentData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
-Pointer to the container that includes the \#include file. The compiler might pass NULL in *pParentData*. For more information, see the "Searching for Include Files" section in [Compile an Effect (Direct3D 11)](https://msdn.microsoft.com/7624d55e-6466-4156-8f31-30f0d25a2883).
+Pointer to the container that includes the \#include file. The compiler might pass NULL in *pParentData*. For more information, see the "Searching for Include Files" section in [Compile an Effect (Direct3D 11)](https://msdn.microsoft.com/en-us/library/Ff476139(v=VS.85).aspx).
 
 </dd> <dt>
 
 *ppData* \[out\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**LPCVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the returned buffer that contains the include directives. This pointer remains valid until [**ID3DXInclude::Close**](id3dxinclude--close.md) is called.
 
@@ -71,7 +71,7 @@ Pointer to the returned buffer that contains the include directives. This pointe
 *pBytes* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Number of bytes returned in ppData.
 
@@ -79,7 +79,7 @@ Number of bytes returned in ppData.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 The user-implemented method should return S\_OK. If the callback fails when reading the \#include file, the API that caused the callback to be called will fail. This is one of the following:
 

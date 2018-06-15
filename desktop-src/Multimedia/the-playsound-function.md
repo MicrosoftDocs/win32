@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # The PlaySound Function
 
-You can use the [**PlaySound**](/windows/desktop/api/Mmsystem/) function to play waveform audio if the sound fits into available memory. (The [**sndPlaySound**](/windows/desktop/api/Mmsystem/) function offers a subset of the capabilities of PlaySound. To maximize the portability of your Win32-based application, use **PlaySound**, not **sndPlaySound**.)
+You can use the [**PlaySound**](https://msdn.microsoft.com/en-us/library/Dd743680(v=VS.85).aspx) function to play waveform audio if the sound fits into available memory. (The [**sndPlaySound**](https://msdn.microsoft.com/en-us/library/Dd798676(v=VS.85).aspx) function offers a subset of the capabilities of PlaySound. To maximize the portability of your Win32-based application, use **PlaySound**, not **sndPlaySound**.)
 
 The **PlaySound** function allows you to specify a sound in one of three ways:
 
@@ -26,7 +26,7 @@ The **PlaySound** function allows you to specify a sound in one of three ways:
 -   As a filename
 -   As a resource identifier
 
-The [**PlaySound**](/windows/desktop/api/Mmsystem/) function allows you to play a sound in a continuous loop, ending only when you call **PlaySound** again, specifying either **NULL** or the sound identifier of another sound for the *pszSound* parameter.
+The [**PlaySound**](https://msdn.microsoft.com/en-us/library/Dd743680(v=VS.85).aspx) function allows you to play a sound in a continuous loop, ending only when you call **PlaySound** again, specifying either **NULL** or the sound identifier of another sound for the *pszSound* parameter.
 
 You can use **PlaySound** to play the sound synchronously or asynchronously, and to control the behavior of the function in other ways when it must share system resources.
 

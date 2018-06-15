@@ -167,7 +167,7 @@ These names are specified in quotes and are both case and whitespace sensitive.
 <tr class="odd">
 <td>152</td>
 <td>error 0x8007000B: The app package contents must validate against its block map.</td>
-<td>The app package is corrupt and needs to be rebuilt to generate a new block map. For more info about creating an app package, see creating an app package with [app packager](make-appx-package--makeappx-exe-.md) or [Creating an app package with Visual Studio 2012](https://msdn.microsoft.com/windows/desktop/7a045d20-86ae-49a6-abb2-f264bf179cd6).</td>
+<td>The app package is corrupt and needs to be rebuilt to generate a new block map. For more info about creating an app package, see creating an app package with [app packager](make-appx-package--makeappx-exe-.md) or [Creating an app package with Visual Studio 2012](https://msdn.microsoft.com/en-us/library/Hh975357(v=VS.110).aspx).</td>
 </tr>
 </tbody>
 </table>
@@ -196,7 +196,7 @@ After the package is signed, the certificate that you used to sign the package m
 [Code-Signing Best Practices](http://msdn.microsoft.com/windows/hardware/gg487309.aspx)
 </dt> <dt>
 
-[Signing a package in Visual Studio 2012](https://msdn.microsoft.com/windows/desktop/2e783ec5-7803-4aa3-bd70-a4db567fc3d3)
+[Signing a package in Visual Studio 2012](https://msdn.microsoft.com/en-us/library/BR230260(v=VS.110).aspx)
 </dt> <dt>
 
 [SignTool](https://msdn.microsoft.com/library/windows/desktop/aa387764)

@@ -55,7 +55,7 @@ For more information about which operating systems are required to use a particu
 
 <dl> <dt>
 
-[The Component Object Model](https://msdn.microsoft.com/windows/desktop/f5f66603-466c-496b-be29-89a8ed9361dd)
+[The Component Object Model](https://msdn.microsoft.com/en-us/library/ms694363(v=VS.85).aspx)
 </dt> </dl>
 
  

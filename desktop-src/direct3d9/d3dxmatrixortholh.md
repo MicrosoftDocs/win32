@@ -37,14 +37,14 @@ D3DXMATRIX* D3DXMatrixOrthoLH(
 
 Type: **[**D3DXMATRIX**](d3dxmatrix.md)\***
 
-Pointer to the resulting [**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3d10_d3dxmatrix.htm).
+Pointer to the resulting [**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb204929(v=VS.85).aspx).
 
 </dd> <dt>
 
 *w* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Width of the view volume.
 
@@ -53,7 +53,7 @@ Width of the view volume.
 *h* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Height of the view volume.
 
@@ -62,7 +62,7 @@ Height of the view volume.
 *zn* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Minimum z-value of the view volume which is referred to as z-near.
 
@@ -71,7 +71,7 @@ Minimum z-value of the view volume which is referred to as z-near.
 *zf* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Maximum z-value of the view volume which is referred to as z-far.
 
@@ -81,7 +81,7 @@ Maximum z-value of the view volume which is referred to as z-far.
 
 Type: **[**D3DXMATRIX**](d3dxmatrix.md)\***
 
-Pointer to the resulting [**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3d10_d3dxmatrix.htm).
+Pointer to the resulting [**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb204929(v=VS.85).aspx).
 
 ## Remarks
 

@@ -32,7 +32,7 @@ D3DXEVENTHANDLE GetCurrentTrackEvent(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Track identifier.
 
@@ -41,7 +41,7 @@ Track identifier.
 *EventType* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXEVENT\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxevent_type.htm)**
+Type: **[**D3DXEVENT\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb172827(v=VS.85).aspx)**
 
 Type of event to query.
 

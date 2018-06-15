@@ -17,7 +17,7 @@ The access control editor can include an **Auditing** property page that enables
 
 -   On the [basic security property page](basic-security-property-page.md), click **Advanced**. The **Auditing** property page is in the [advanced security property sheet](advanced-security-property-sheet.md).
 
-To include the **Auditing** property page, set the **SI\_ADVANCED** and **SI\_EDIT\_AUDITS** flags in the [**SI\_OBJECT\_INFO**](/windows/desktop/api/Aclui/ns-aclui-_si_object_info) structure returned by your [**ISecurityInformation::GetObjectInformation**](/windows/desktop/api/Aclui/) implementation.
+To include the **Auditing** property page, set the **SI\_ADVANCED** and **SI\_EDIT\_AUDITS** flags in the [**SI\_OBJECT\_INFO**](/windows/desktop/api/Aclui/ns-aclui-_si_object_info) structure returned by your [**ISecurityInformation::GetObjectInformation**](https://msdn.microsoft.com/en-us/library/Aa379102(v=VS.85).aspx) implementation.
 
  
 

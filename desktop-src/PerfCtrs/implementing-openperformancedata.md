@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Implementing OpenPerformanceData
 
-The [**OpenPerformanceData**](/windows/desktop/api/Winperf/) function gives the provider an opportunity to initialize its performance data structures. The system calls your open function the first time a consumer calls [**RegQueryValueEx**](https://msdn.microsoft.com/library/windows/desktop/ms724911), or if the consumer uses the [**RegOpenKey**](https://msdn.microsoft.com/library/windows/desktop/ms724895) or [**RegConnectRegistry**](https://msdn.microsoft.com/library/windows/desktop/ms724840) function to open **HKEY\_PERFORMANCE\_DATA**.
+The [**OpenPerformanceData**](https://msdn.microsoft.com/en-us/library/Aa372200(v=VS.85).aspx) function gives the provider an opportunity to initialize its performance data structures. The system calls your open function the first time a consumer calls [**RegQueryValueEx**](https://msdn.microsoft.com/library/windows/desktop/ms724911), or if the consumer uses the [**RegOpenKey**](https://msdn.microsoft.com/library/windows/desktop/ms724895) or [**RegConnectRegistry**](https://msdn.microsoft.com/library/windows/desktop/ms724840) function to open **HKEY\_PERFORMANCE\_DATA**.
 
-The following example shows an implementation of the [**OpenPerformanceData**](/windows/desktop/api/Winperf/) function. The header file that contains the definition of the counters used in this function follows this example. If you use C++ to implement this function, be sure to use extern "C" when you declare your function. The counter offset constants used in this example are defined the CounterOffsets.h file shown in [Adding Counter Names and Description to the Registry](adding-counter-names-and-descriptions-to-the-registry.md).
+The following example shows an implementation of the [**OpenPerformanceData**](https://msdn.microsoft.com/en-us/library/Aa372200(v=VS.85).aspx) function. The header file that contains the definition of the counters used in this function follows this example. If you use C++ to implement this function, be sure to use extern "C" when you declare your function. The counter offset constants used in this example are defined the CounterOffsets.h file shown in [Adding Counter Names and Description to the Registry](adding-counter-names-and-descriptions-to-the-registry.md).
 
 
 ```C++
@@ -263,7 +263,7 @@ EXPORTS
 
 
 
-The following example shows an implementation of the [*ClosePerformanceData*](/windows/desktop/api/Winperf/nc-winperf-pm_close_proc) function. The system calls your close function when a consumer calls the [**RegCloseKey**](https://msdn.microsoft.com/library/windows/desktop/ms724837) to close **HKEY\_PERFORMANCE\_DATA**. Providers use this call to release any resources that they have allocated.
+The following example shows an implementation of the [*ClosePerformanceData*](https://msdn.microsoft.com/en-us/library/Aa371895(v=VS.85).aspx) function. The system calls your close function when a consumer calls the [**RegCloseKey**](https://msdn.microsoft.com/library/windows/desktop/ms724837) to close **HKEY\_PERFORMANCE\_DATA**. Providers use this call to release any resources that they have allocated.
 
 
 ```C++

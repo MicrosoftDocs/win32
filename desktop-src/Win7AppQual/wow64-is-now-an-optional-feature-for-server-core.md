@@ -48,9 +48,9 @@ Verify that all code used is 64-bit.
 
 ## Links to Other Resources
 
--   [WOW64 Implementation Details](https://msdn.microsoft.com/93daf9d0-dfdb-42c3-8c3d-397b21991e83)
--   [Debugging WOW64](https://msdn.microsoft.com/e0945bdd-998d-4531-869f-21c505cb2135)
--   [Server Core](https://msdn.microsoft.com/38d5312d-a21f-4f85-a728-12ebf392999f)
+-   [WOW64 Implementation Details](https://msdn.microsoft.com/en-us/library/Aa384274(v=VS.85).aspx)
+-   [Debugging WOW64](https://msdn.microsoft.com/en-us/library/Aa384163(v=VS.85).aspx)
+-   [Server Core](https://msdn.microsoft.com/en-us/library/ms723891(v=VS.85).aspx)
 
  
 

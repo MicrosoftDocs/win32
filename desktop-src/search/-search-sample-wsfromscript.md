@@ -75,7 +75,7 @@ To build the sample from the Command Prompt window:
 **Other Resources**
 </dt> <dt>
 
-[**VBScript Language Reference**](https://msdn.microsoft.com/windows/desktop/ddfa5183-d458-41bc-a489-070296ced968)
+[**VBScript Language Reference**](https://msdn.microsoft.com/en-us/library/d1wf56tt(v=VS.71).aspx)
 </dt> </dl>
 
  

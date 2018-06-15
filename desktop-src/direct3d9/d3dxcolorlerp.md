@@ -61,7 +61,7 @@ Pointer to a source [**D3DXCOLOR**](d3dxcolor.md) structure.
 *s* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Parameter that linearly interpolates between the colors, pC1 and pC2, treating them both as 4D vectors. There are no limits on the value of s.
 

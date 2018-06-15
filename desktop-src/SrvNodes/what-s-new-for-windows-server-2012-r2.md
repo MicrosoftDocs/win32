@@ -31,7 +31,7 @@ The following list describes new and updated feature areas for Windows Server 2
 
     **New!** An industry trend has been developing in which employees connect their personal mobile computing devices to the corporate network and resources (either on premise or through the cloud) to perform workplace tasks. This trend requires support for easy configuration of the network and resources, such that employees can register personal devices with the company for work-related purposes. Applications and technology to support easy configuration must also enable IT professionals to manage the risk associated with having uncontrolled devices connected to the corporate network. The Mobile Device Management (MDM) registration enrolls a device into a management service.
 
--   [Windows PowerShell](https://msdn.microsoft.com/windows/desktop/b41a2af3-aec1-402d-8e18-c2c26be461ff)
+-   [Windows PowerShell](https://msdn.microsoft.com/en-us/library/Dd835506(v=VS.85).aspx)
 
     Windows PowerShell is a task-based command-line shell and scripting language designed especially for system administration. New in Windows Server 2012 R2, Windows PowerShell v4 supports Desired State Configuration, which is a new management platform in Windows PowerShell that enables deploying and managing configuration data for software services and managing the environment in which these services run.
 
@@ -89,11 +89,11 @@ The following list describes new and updated feature areas for Windows Server 2
 
     Windows Desktop Sharing allows the user to remotely access an instance of the operating system. Windows Server 2012 includes a number of new features, including Child sessions, RemoteFX Media redirection, and the Remote Desktop Broker client.
 
--   [Windows PowerShell](https://msdn.microsoft.com/windows/desktop/b41a2af3-aec1-402d-8e18-c2c26be461ff)
+-   [Windows PowerShell](https://msdn.microsoft.com/en-us/library/Dd835506(v=VS.85).aspx)
 
     Windows PowerShell is a task-based command-line shell and scripting language designed especially for system administration. New in Windows Server 2012, Windows PowerShell v3 supports Windows PowerShell Workflow, which leverages the benefits of Windows Workflow Foundation to allow the automation of long-running tasks.
 
--   [Management OData](https://msdn.microsoft.com/windows/desktop/06b1b050-0bf7-48f5-ba05-43f489d597c0)
+-   [Management OData](https://msdn.microsoft.com/en-us/library/Hh880865(v=VS.85).aspx)
 
     **New!** Also known as Windows PowerShell Web Services, Management OData, new in Windows PowerShell v3, allows the creation of an ASP.NET web service end point that exposes management data, acessed through Windows PowerShell commands, as OData web service entities.
 

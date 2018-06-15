@@ -53,7 +53,7 @@ Pointer to a [**CALDATETIME**](caldatetime.md) structure defining the maximum su
 
 ## Return value
 
-Returns **TRUE** if successful or **FALSE** otherwise. To get extended error information, the application can call [**GetLastError**](https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4), which can return one of the following error codes:
+Returns **TRUE** if successful or **FALSE** otherwise. To get extended error information, the application can call [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx), which can return one of the following error codes:
 
 -   ERROR\_INVALID\_PARAMETER. Any of the parameter values was invalid.
 
@@ -61,7 +61,7 @@ Returns **TRUE** if successful or **FALSE** otherwise. To get extended error inf
 
 The earliest date supported by this function is January 1, 1601.
 
-This function does not have an associated header file or library file. The application can call [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) with the DLL name (Kernel32.dll) to obtain a module handle. It can then call [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) with the module handle and the name of this function to get the function address.
+This function does not have an associated header file or library file. The application can call [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) with the DLL name (Kernel32.dll) to obtain a module handle. It can then call [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) with the module handle and the name of this function to get the function address.
 
 ## Requirements
 

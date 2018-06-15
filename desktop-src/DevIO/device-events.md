@@ -19,7 +19,7 @@ When your application receives notification, if the event type is [DBT\_CUSTOMEV
 
 1.  Treat the event data as a [**DEV\_BROADCAST\_HDR**](/windows/desktop/api/Dbt/ns-dbt-_dev_broadcast_hdr) structure. Verify that the **dbch\_devicetype** member is set to **DBT\_DEVTYP\_HANDLE**.
 2.  If **dbch\_devicetype** is **DBT\_DEVTYP\_HANDLE**, the event data is really a pointer to a [**DEV\_BROADCAST\_HANDLE**](/windows/desktop/api/Dbt/ns-dbt-_dev_broadcast_handle) structure.
-3.  Compare the **dbch\_eventguid** member to the **GUID**s listed in the following table using the [**IsEqualGUID**](https://msdn.microsoft.com/windows/desktop/3580a0c4-e1f8-4bb7-ba66-c4702ecd11f1) function.
+3.  Compare the **dbch\_eventguid** member to the **GUID**s listed in the following table using the [**IsEqualGUID**](https://msdn.microsoft.com/en-us/library/ms680575(v=VS.85).aspx) function.
 
 <dl> <dt>
 

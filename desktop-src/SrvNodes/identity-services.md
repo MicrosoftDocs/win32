@@ -13,8 +13,8 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [Microsoft Identity Manager 2016 Developer Reference](https://msdn.microsoft.com/windows/desktop/2b5f612f-3119-401b-b1f8-462310c8510f)
--   [Forefront Identity Manager 2010 R2 Developer Reference](https://msdn.microsoft.com/windows/desktop/2220421d-1317-4998-b15f-6dc2877f3712)
+-   [Microsoft Identity Manager 2016 Developer Reference](https://msdn.microsoft.com/en-us/library/Mt243303(v=VS.85).aspx)
+-   [Forefront Identity Manager 2010 R2 Developer Reference](https://msdn.microsoft.com/en-us/library/JJ131731(v=VS.100).aspx)
 -   [Forefront Identity Manager 2010 Developer Reference](https://msdn.microsoft.com/library/ee652263.aspx)
 -   [Identity Lifecycle Manager 2007](identity-lifecycle-manager-2007.md)
 -   [Identity Lifecycle Manager 2007, Feature Pack 1 Developer Reference](https://www.bing.com/search?q=Identity+Lifecycle+Manager+2007,+Feature+Pack+1+Developer+Reference)

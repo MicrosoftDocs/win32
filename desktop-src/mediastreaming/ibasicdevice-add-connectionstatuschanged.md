@@ -42,7 +42,7 @@ HRESULT add_ConnectionStatusChanged(
 *handler* \[in\]
 </dt> <dd>
 
-A [**ConnectionStatusHandler**](/windows/desktop/api/mfidl/) event handler function.
+A [**ConnectionStatusHandler**](https://msdn.microsoft.com/en-us/library/Hh828836(v=VS.85).aspx) event handler function.
 
 </dd> <dt>
 

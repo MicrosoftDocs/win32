@@ -110,7 +110,7 @@ To disable compressed domain transcode and force the encoder to re-encode the im
 
 ## Encoder Options
 
-To set encoding properties, use the [**IPropertyBag2**](https://msdn.microsoft.com/windows/desktop/c74297d0-919d-4cf5-b8f9-5bdbe5111df9) interface. For more information, see the [Encoding Overview](-wic-creating-encoder.md).
+To set encoding properties, use the [**IPropertyBag2**](https://www.bing.com/search?q=**IPropertyBag2**) interface. For more information, see the [Encoding Overview](-wic-creating-encoder.md).
 
 The following list specifies the encoder options.
 

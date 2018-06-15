@@ -26,8 +26,8 @@ Windows provides the following functions to retrieve and set the volume level of
 
 | Value                                        | Meaning                                                                       |
 |----------------------------------------------|-------------------------------------------------------------------------------|
-| [**midiOutGetVolume**](https://www.bing.com/search?q=**midiOutGetVolume**) | Retrieves the volume level of the specified internal MIDI synthesizer device. |
-| [**midiOutSetVolume**](https://www.bing.com/search?q=**midiOutSetVolume**) | Sets the volume level of the specified internal MIDI synthesizer device.      |
+| [**midiOutGetVolume**](https://msdn.microsoft.com/en-us/library/Dd798473(v=VS.85).aspx) | Retrieves the volume level of the specified internal MIDI synthesizer device. |
+| [**midiOutSetVolume**](https://msdn.microsoft.com/en-us/library/Dd798480(v=VS.85).aspx) | Sets the volume level of the specified internal MIDI synthesizer device.      |
 
 
 

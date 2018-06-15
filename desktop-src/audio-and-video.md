@@ -28,11 +28,11 @@ Microsoft provides components that are designed to enable application developers
 | [Windows Media Library Sharing Services](https://msdn.microsoft.com/library/windows/desktop/dd316885)<br/>                | Enables applications to discover media devices on the home network, and share media libraries on the home network and the Internet.<br/>                                                                                     |
 | [Windows Media Player SDK](https://msdn.microsoft.com/library/windows/desktop/dd758070)<br/>                                                | Extends the capabilities of Windows Media Player and Windows Media Player Mobile.<br/>                                                                                                                                       |
 | [Windows Media Rights Manager 10.1.2 SDK](http://msdn.microsoft.com/en-us/library/bb649422(VS.85).aspx)<br/> | Supports digital rights management (DRM) for protecting Windows Media files.<br/>                                                                                                                                            |
-| [Windows Media Services 9 Series](https://msdn.microsoft.com/windows/desktop/3a49df7b-b1c3-4da5-8d68-51132fbd7c40)<br/>                                 | Provides an automation-based API for managing Windows Media Services in Windows Server.<br/>                                                                                                                                 |
+| [Windows Media Services 9 Series](https://msdn.microsoft.com/en-us/library/Dd873819(v=VS.85).aspx)<br/>                                 | Provides an automation-based API for managing Windows Media Services in Windows Server.<br/>                                                                                                                                 |
 | [Windows Media Streaming API](https://msdn.microsoft.com/library/windows/desktop/hh828986)<br/>                                | Models the Digital Media Renderer (DMR) and Digital Media Server (DMS) devices, as defined by the DLNA guidelines, for easy programmatic use.<br/>                                                                           |
 | [Windows Media Transport Controls](https://msdn.microsoft.com/library/windows/desktop/dn892355)<br/>                      | Provides a built-in interface that shows the user information about the currently playing media, such as the title of a song or video. Also provides the user with a common and familiar way to control media playback.<br/> |
-| [Windows Movie Maker 6.0 and Windows DVD Maker 1.0 SDK](https://msdn.microsoft.com/windows/desktop/239d1a58-55a6-4732-bf4b-019ce19e0693)<br/>     | Enables customization of Windows Movie Maker 6.0 and Microsoft Windows DVD Maker 1.0.<br/>                                                                                                                                   |
-| [Legacy Audio and Video](https://www.bing.com/search?q=Legacy+Audio+and+Video)<br/>                                                    | Technologies that are obsolete and should not be used in new applications.<br/>                                                                                                                                              |
+| [Windows Movie Maker 6.0 and Windows DVD Maker 1.0 SDK](https://msdn.microsoft.com/en-us/library/JJ203965(v=VS.85).aspx)<br/>     | Enables customization of Windows Movie Maker 6.0 and Microsoft Windows DVD Maker 1.0.<br/>                                                                                                                                   |
+| [Legacy Audio and Video](https://msdn.microsoft.com/en-us/library/Hh309469(v=VS.85).aspx)<br/>                                                    | Technologies that are obsolete and should not be used in new applications.<br/>                                                                                                                                              |
 
 
 
@@ -42,10 +42,10 @@ Microsoft provides components that are designed to enable application developers
 
 <dl> <dt>
 
-[DirectX Graphics and Gaming](https://www.bing.com/search?q=DirectX+Graphics+and+Gaming)
+[DirectX Graphics and Gaming](https://msdn.microsoft.com/en-us/library/Ee663274(v=VS.85).aspx)
 </dt> <dt>
 
-[Graphics](https://www.bing.com/search?q=Graphics)
+[Graphics](https://msdn.microsoft.com/en-us/library/Ee663279(v=VS.85).aspx)
 </dt> </dl>
 
  

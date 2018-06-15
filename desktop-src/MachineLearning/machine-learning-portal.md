@@ -19,7 +19,7 @@ The following topics describe the COM reference pages for the Windows Machine Le
 
 | Topic                                                                                       | Description                                                                                            |
 |---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| [Windows Machine Learning Reference](https://msdn.microsoft.com/15742C53-D5F8-48BA-9E93-9646D9AE2749)<br/> | The following topics describe the COM reference pages for the Windows Machine Learning SDK.<br/> |
+| [Windows Machine Learning Reference](https://msdn.microsoft.com/en-us/library/Mt845849(v=VS.85).aspx)<br/> | The following topics describe the COM reference pages for the Windows Machine Learning SDK.<br/> |
 
 
 

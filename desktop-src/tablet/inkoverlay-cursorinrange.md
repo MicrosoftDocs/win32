@@ -80,7 +80,7 @@ The [**CursorInRange**](inkcollector-cursorinrange.md) event is fired even when 
 
 <dl> <dt>
 
-[**InkOverlay Class**](/windows/desktop/api/msinkaut/)
+[**InkOverlay Class**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx)
 </dt> <dt>
 
 [**CursorOutOfRange Event**](inkcollector-cursoroutofrange.md)

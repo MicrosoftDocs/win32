@@ -38,7 +38,7 @@ Use the *ppmoniker* parameter to register your component in the ROT.
 ## Remarks
 
 > [!Note]  
-> [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) can pose security risks. Refer to the **LoadLibrary** documentation for information on how to correctly load DLLs with different versions of Windows.
+> [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) can pose security risks. Refer to the **LoadLibrary** documentation for information on how to correctly load DLLs with different versions of Windows.
 >
 > <span codelanguage=""></span>
 >
@@ -90,7 +90,7 @@ Use the *ppmoniker* parameter to register your component in the ROT.
 >
 >  
 >
-> The call to [**IRunningObjectTable::Register**](https://msdn.microsoft.com/40f815b2-dfea-416c-aae1-7ba3a710ad91) requires that the component have the following **AppID** information in the registry.
+> The call to [**IRunningObjectTable::Register**](https://msdn.microsoft.com/en-us/library/ms680747(v=VS.85).aspx) requires that the component have the following **AppID** information in the registry.
 >
 > ```
 > HKEY_CLASSES_ROOT

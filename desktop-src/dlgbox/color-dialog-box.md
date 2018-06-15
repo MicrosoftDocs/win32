@@ -31,13 +31,13 @@ ms.date: 05/31/2018
 
 Displays a modal dialog box that allows the user to choose a specific color value. The user can choose a color from either a set of basic or custom color palettes. Alternatively, the user can generate a color value by modifying the RGB or hue, saturation, luminosity (HSL) color values of the dialog box user interface. The **Color** dialog box returns the RGB value of the color selected by the user.
 
-You create and display a **Color** dialog box by initializing a [**CHOOSECOLOR**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosecolora) structure and passing the structure to the [**ChooseColor**](https://www.bing.com/search?q=**ChooseColor**) function. By setting different parameter values for the **CHOOSECOLOR** structure, you can affect how the Color dialog box appears. For example, you can display either a full or partial user interface version of the dialog box. The following illustration shows the full user interface version of the **Color** dialog box.
+You create and display a **Color** dialog box by initializing a [**CHOOSECOLOR**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosecolora) structure and passing the structure to the [**ChooseColor**](https://msdn.microsoft.com/en-us/library/ms646912(v=VS.85).aspx) function. By setting different parameter values for the **CHOOSECOLOR** structure, you can affect how the Color dialog box appears. For example, you can display either a full or partial user interface version of the dialog box. The following illustration shows the full user interface version of the **Color** dialog box.
 
 ![color dialog box](images/colordialogboxxp.png)
 
-If the user clicks the **OK** button, [**ChooseColor**](https://www.bing.com/search?q=**ChooseColor**) returns **TRUE**. The **rgbResult** member of the [**CHOOSECOLOR**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosecolora) structure contains the RGB color value of the color selected by the user. The RGB color value specifies the intensities of the individual red, green, and blue colors that make up the selected color. The individual values range from 0 through 255. Use the [**GetRValue**](https://msdn.microsoft.com/library/windows/desktop/dd144923), [**GetGValue**](https://msdn.microsoft.com/library/windows/desktop/dd144893), and [**GetBValue**](https://msdn.microsoft.com/library/windows/desktop/dd144856) macros to extract individual colors from an RGB color value.
+If the user clicks the **OK** button, [**ChooseColor**](https://msdn.microsoft.com/en-us/library/ms646912(v=VS.85).aspx) returns **TRUE**. The **rgbResult** member of the [**CHOOSECOLOR**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosecolora) structure contains the RGB color value of the color selected by the user. The RGB color value specifies the intensities of the individual red, green, and blue colors that make up the selected color. The individual values range from 0 through 255. Use the [**GetRValue**](https://msdn.microsoft.com/library/windows/desktop/dd144923), [**GetGValue**](https://msdn.microsoft.com/library/windows/desktop/dd144893), and [**GetBValue**](https://msdn.microsoft.com/library/windows/desktop/dd144856) macros to extract individual colors from an RGB color value.
 
-If the user cancels the **Color** dialog box or an error occurs, [**ChooseColor**](https://www.bing.com/search?q=**ChooseColor**) returns **FALSE** and the **rgbResult** member is not defined. To determine the cause of the error, call the [**CommDlgExtendedError**](/windows/desktop/api/Commdlg/nf-commdlg-commdlgextendederror) function to retrieve the extended error value.
+If the user cancels the **Color** dialog box or an error occurs, [**ChooseColor**](https://msdn.microsoft.com/en-us/library/ms646912(v=VS.85).aspx) returns **FALSE** and the **rgbResult** member is not defined. To determine the cause of the error, call the [**CommDlgExtendedError**](/windows/desktop/api/Commdlg/nf-commdlg-commdlgextendederror) function to retrieve the extended error value.
 
 The following subjects are covered in this section
 
@@ -64,7 +64,7 @@ The custom colors are those that you specify or that the user creates. When you 
 -   Typing RGB values in the **Red**, **Green**, and **Blue** edit controls
 -   Typing HSL values in the **Hue**, **Sat**, and **Lum** edit controls
 
-To add a new custom color to the custom colors display, the user can click the **Add to Custom Colors** button. This also causes the dialog box to copy the RGB value of the new color to the corresponding element in the array pointed to by the **lpCustColors** member. To preserve new custom colors between calls to [**ChooseColor**](https://www.bing.com/search?q=**ChooseColor**), you should allocate static memory for the array. For more information about the RGB and HSL color models, see [Color Models Used by the Color Dialog Box](#color-models-used-by-the-color-dialog-box).
+To add a new custom color to the custom colors display, the user can click the **Add to Custom Colors** button. This also causes the dialog box to copy the RGB value of the new color to the corresponding element in the array pointed to by the **lpCustColors** member. To preserve new custom colors between calls to [**ChooseColor**](https://msdn.microsoft.com/en-us/library/ms646912(v=VS.85).aspx), you should allocate static memory for the array. For more information about the RGB and HSL color models, see [Color Models Used by the Color Dialog Box](#color-models-used-by-the-color-dialog-box).
 
 ## Customizing the Color Dialog Box
 
@@ -76,7 +76,7 @@ To customize a Color dialog box, you can use any of the following methods:
 
 You can modify the appearance and behavior of the Color dialog box by setting flags in the **Flags** member of the [**CHOOSECOLOR**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosecolora) structure. For example, you can set the **CC\_SOLIDCOLOR** flag to direct the dialog box to display only solid colors. To cause the dialog box to initially select a color other than black, set the **CC\_RGBINIT** flag and specify a color in the **rgbResult** member.
 
-You can provide a custom template for the Color dialog box, for example, if you want to include additional controls that are unique to your application. The [**ChooseColor**](https://www.bing.com/search?q=**ChooseColor**) function uses your custom template in place of the default template.
+You can provide a custom template for the Color dialog box, for example, if you want to include additional controls that are unique to your application. The [**ChooseColor**](https://msdn.microsoft.com/en-us/library/ms646912(v=VS.85).aspx) function uses your custom template in place of the default template.
 
 ### To provide a custom template for the Color dialog box
 
@@ -88,7 +88,7 @@ You can provide a custom template for the Color dialog box, for example, if you 
 
     -   If your custom template is already in memory, set the **CC\_ENABLETEMPLATEHANDLE** flag. Use the **hInstance** member to identify the memory object that contains the template.
 
-You can provide a [**CCHookProc**](/windows/desktop/api/Commdlg/) hook procedure for the Color dialog box. The hook procedure can process messages sent to the dialog box. It can also use registered messages to control the behavior of the dialog box. If you use a custom template to define additional controls, you must provide a hook procedure to process input for your controls.
+You can provide a [**CCHookProc**](https://msdn.microsoft.com/en-us/library/ms646908(v=VS.85).aspx) hook procedure for the Color dialog box. The hook procedure can process messages sent to the dialog box. It can also use registered messages to control the behavior of the dialog box. If you use a custom template to define additional controls, you must provide a hook procedure to process input for your controls.
 
 ### To enable a hook procedure for the Color dialog box
 

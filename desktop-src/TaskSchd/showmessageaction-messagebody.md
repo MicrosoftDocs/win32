@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 # ShowMessageAction.MessageBody property
 
-\[This object is no longer supported. You can use IExecAction with the Windows scripting [**MsgBox function**](https://msdn.microsoft.com/windows/desktop/ae073d50-e4a4-4e23-8e46-0cb1369965e7) to show a message in the user session.\]
+\[This object is no longer supported. You can use IExecAction with the Windows scripting [**MsgBox function**](https://msdn.microsoft.com/en-US/library/sfw6660x(v=VS.80).aspx) to show a message in the user session.\]
 
 For scripting, gets or sets the message text that is displayed in the body of the message box.
 

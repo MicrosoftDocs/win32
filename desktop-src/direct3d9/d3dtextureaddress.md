@@ -92,7 +92,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**D3DSAMPLERSTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dsamplerstatetype.htm)
+[**D3DSAMPLERSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172602(v=VS.85).aspx)
 </dt> </dl>
 
  

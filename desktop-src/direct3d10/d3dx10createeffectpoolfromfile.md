@@ -41,7 +41,7 @@ HRESULT D3DX10CreateEffectPoolFromFile(
 *pFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCTSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 The effect filename. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the data type resolves to LPCSTR.
 
@@ -50,34 +50,34 @@ The effect filename. If the compiler settings require Unicode, the data type LPC
 *pDefines* \[in\]
 </dt> <dd>
 
-Type: **const [**D3D10\_SHADER\_MACRO**](/windows/desktop/api/D3D10Shader/)\***
+Type: **const [**D3D10\_SHADER\_MACRO**](https://msdn.microsoft.com/en-us/library/Bb172436(v=VS.85).aspx)\***
 
-A NULL-terminated array of shader macros (see [**D3D10\_SHADER\_MACRO**](/windows/desktop/api/D3D10Shader/)); set this to **NULL** to specify no macros.
+A NULL-terminated array of shader macros (see [**D3D10\_SHADER\_MACRO**](https://msdn.microsoft.com/en-us/library/Bb172436(v=VS.85).aspx)); set this to **NULL** to specify no macros.
 
 </dd> <dt>
 
 *pInclude* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10Include**](/windows/desktop/api/D3D10Shader/)\***
+Type: **[**ID3D10Include**](https://msdn.microsoft.com/en-us/library/Bb173775(v=VS.85).aspx)\***
 
-A pointer to an include interface (see [**ID3D10Include Interface**](/windows/desktop/api/D3D10Shader/)). This parameter can be **NULL**.
+A pointer to an include interface (see [**ID3D10Include Interface**](https://msdn.microsoft.com/en-us/library/Bb173775(v=VS.85).aspx)). This parameter can be **NULL**.
 
 </dd> <dt>
 
 *pProfile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
-A string that specifies the [shader profile](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_models.htm), or shader model.
+A string that specifies the [shader profile](https://msdn.microsoft.com/en-us/library/Bb509626(v=VS.85).aspx), or shader model.
 
 </dd> <dt>
 
 *HLSLFlags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 HLSL compile options (see [D3D10\_SHADER Constants](d3d10-shader.md)).
 
@@ -86,7 +86,7 @@ HLSL compile options (see [D3D10\_SHADER Constants](d3d10-shader.md)).
 *FXFlags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Effect compile options (see [Compile and Effect Flags](d3d10-graphics-reference-effect-constants.md)).
 
@@ -131,7 +131,7 @@ The address of a pointer to memory (see [**ID3D10Blob Interface**](/windows/desk
 *pHResult* \[out\]
 </dt> <dd>
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)\***
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)\***
 
 A pointer to the return value. May be **NULL**. If *pPump* is not **NULL**, then *pHResult* must be a valid memory location until the asynchronous execution completes.
 
@@ -139,13 +139,13 @@ A pointer to the return value. May be **NULL**. If *pPump* is not **NULL**, then
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 
 ## Remarks
 
-This example creates an effect pool from the effect used in the [BasicHLSL10 Sample](https://msdn.microsoft.com/windows/desktop/e749975d-211e-f7ed-5dd1-b9c29681c71b).
+This example creates an effect pool from the effect used in the [BasicHLSL10 Sample](https://msdn.microsoft.com/en-us/library/Ee416395(v=VS.85).aspx).
 
 
 ```

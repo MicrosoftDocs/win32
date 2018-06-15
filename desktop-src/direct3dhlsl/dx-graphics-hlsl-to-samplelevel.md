@@ -149,7 +149,7 @@ This function is supported in the following shader models.
 
 ## Example
 
-This partial code example is from the Instancing.fx file in the [Instancing10 Sample](https://msdn.microsoft.com/windows/desktop/dd22e271-7ace-fcb6-3da2-ba838c59db6e).
+This partial code example is from the Instancing.fx file in the [Instancing10 Sample](https://msdn.microsoft.com/en-us/library/Ee416415(v=VS.85).aspx).
 
 
 ```

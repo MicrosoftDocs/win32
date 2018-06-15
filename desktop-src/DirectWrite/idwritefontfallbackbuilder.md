@@ -39,8 +39,8 @@ The **IDWriteFontFallbackBuilder** interface has these methods.
 | Method                                                                      | Description                                                                                  |
 |:----------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------|
 | [**AddMapping**](idwritefontfallbackbuilder-addmapping.md)                 | Appends a single mapping to the list. Call this once for each additional mapping.<br/> |
-| [**AddMappings**](/windows/desktop/api/dwrite_2/)               | Add all the mappings from an existing font fallback object.<br/>                       |
-| [**CreateFontFallback**](/windows/desktop/api/dwrite_2/) | Creates the finalized fallback object from the mappings added.<br/>                    |
+| [**AddMappings**](https://msdn.microsoft.com/en-us/library/Dn280478(v=VS.85).aspx)               | Add all the mappings from an existing font fallback object.<br/>                       |
+| [**CreateFontFallback**](https://msdn.microsoft.com/en-us/library/Dn280479(v=VS.85).aspx) | Creates the finalized fallback object from the mappings added.<br/>                    |
 
 
 

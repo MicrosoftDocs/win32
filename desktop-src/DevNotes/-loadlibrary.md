@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[This function is a wrapper over the **LoadLibrary** function. This function may be altered or unavailable in the future. Applications should call **LoadLibrary** directly.\]
 
-Loads a library. See [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65).
+Loads a library. See [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx).
 
 ## Syntax
 
@@ -47,7 +47,7 @@ HMODULE _LoadLibrary(
 
 <dl> <dt>
 
-[**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65)
+[**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx)
 </dt> </dl>
 
  

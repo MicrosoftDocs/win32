@@ -13,8 +13,8 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [Microsoft Management Console 3.0](https://msdn.microsoft.com/windows/desktop/28aa1a22-e250-45da-b162-8c0b11338caf)
--   [MMC Class Library](https://msdn.microsoft.com/windows/desktop/87c11643-24d8-42fa-bfa3-02c7f350928b)
+-   [Microsoft Management Console 3.0](https://msdn.microsoft.com/en-us/library/ms692740(v=VS.85).aspx)
+-   [MMC Class Library](https://www.bing.com/search?q=MMC+Class+Library)
 
  
 

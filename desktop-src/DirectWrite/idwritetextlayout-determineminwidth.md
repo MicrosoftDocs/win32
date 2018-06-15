@@ -70,7 +70,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IDWriteTextLayout**](/windows/desktop/api/dwrite/)
+[**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx)
 </dt> <dt>
 
 [**IDWriteTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd316718)

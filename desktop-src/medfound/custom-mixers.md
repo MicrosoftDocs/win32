@@ -59,13 +59,13 @@ If the media type on the reference stream changes, the mixer's other media types
 
 When any input stream reaches the end of the stream, the EVR calls [**IMFTransform::ProcessMessage**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processmessage) on the mixer with [**MFT\_MESSAGE\_NOTIFY\_END\_OF\_STREAM**](mft-message-notify-end-of-stream.md).
 
-The mixer sends the following events to the EVR, using the EVR's [**IMediaEventSink**](https://msdn.microsoft.com/50aa04b4-9a04-4d0d-a558-42595a69aef7) interface. This interface is documented in the DirectShow SDK documentation.
+The mixer sends the following events to the EVR, using the EVR's [**IMediaEventSink**](https://msdn.microsoft.com/en-us/library/Dd406901(v=VS.85).aspx) interface. This interface is documented in the DirectShow SDK documentation.
 
 
 
 | Event                                            | Description                            |
 |--------------------------------------------------|----------------------------------------|
-| [**EC\_SAMPLE\_NEEDED**](https://msdn.microsoft.com/f1bf32ba-ecb7-435f-aefc-f60fdd355620) | The mixer requires a new input sample. |
+| [**EC\_SAMPLE\_NEEDED**](https://msdn.microsoft.com/en-us/library/Dd319606(v=VS.85).aspx) | The mixer requires a new input sample. |
 
 
 
@@ -85,7 +85,7 @@ The mixer must implement the [**IMFTopologyServiceLookupClient**](/windows/deskt
 
 At a minimum, the mixer must query for the following interface:
 
--   [**IMediaEventSink**](https://msdn.microsoft.com/50aa04b4-9a04-4d0d-a558-42595a69aef7)
+-   [**IMediaEventSink**](https://msdn.microsoft.com/en-us/library/Dd406901(v=VS.85).aspx)
 
 When the EVR calls [**IMFTopologyServiceLookupClient::ReleaseServicePointers**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-releaseservicepointers), the mixer must release any pointers obtained from the call to [**InitServicePointers**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-initservicepointers).
 

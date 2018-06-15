@@ -42,14 +42,14 @@ The **IMsRdpInputSink** interface has these methods.
 
 | Method                                                               | Description                          |
 |:---------------------------------------------------------------------|:-------------------------------------|
-| [**AddTouchInput**](/windows/desktop/api/rdpencomapi/)               | Adds touch input.<br/>         |
-| [**BeginTouchFrame**](/windows/desktop/api/rdpencomapi/)           | Begin touch frame.<br/>        |
-| [**EndTouchFrame**](/windows/desktop/api/rdpencomapi/)               | End touch frame.<br/>          |
-| [**SendKeyboardEvent**](/windows/desktop/api/rdpencomapi/)       | Sends keyboard event.<br/>     |
-| [**SendMouseButtonEvent**](/windows/desktop/api/rdpencomapi/) | Sends mouse button event.<br/> |
-| [**SendMouseMoveEvent**](/windows/desktop/api/rdpencomapi/)     | Sends mouse move event.<br/>   |
-| [**SendMouseWheelEvent**](/windows/desktop/api/rdpencomapi/)   | Sends mouse wheel event.<br/>  |
-| [**SendSyncEvent**](/windows/desktop/api/rdpencomapi/)               | Sends sync event.<br/>         |
+| [**AddTouchInput**](https://msdn.microsoft.com/en-us/library/Mt786987(v=VS.85).aspx)               | Adds touch input.<br/>         |
+| [**BeginTouchFrame**](https://msdn.microsoft.com/en-us/library/Mt786988(v=VS.85).aspx)           | Begin touch frame.<br/>        |
+| [**EndTouchFrame**](https://msdn.microsoft.com/en-us/library/Mt786989(v=VS.85).aspx)               | End touch frame.<br/>          |
+| [**SendKeyboardEvent**](https://msdn.microsoft.com/en-us/library/Mt786990(v=VS.85).aspx)       | Sends keyboard event.<br/>     |
+| [**SendMouseButtonEvent**](https://msdn.microsoft.com/en-us/library/Mt786991(v=VS.85).aspx) | Sends mouse button event.<br/> |
+| [**SendMouseMoveEvent**](https://msdn.microsoft.com/en-us/library/Mt786992(v=VS.85).aspx)     | Sends mouse move event.<br/>   |
+| [**SendMouseWheelEvent**](https://msdn.microsoft.com/en-us/library/Mt786993(v=VS.85).aspx)   | Sends mouse wheel event.<br/>  |
+| [**SendSyncEvent**](https://msdn.microsoft.com/en-us/library/Mt786994(v=VS.85).aspx)               | Sends sync event.<br/>         |
 
 
 

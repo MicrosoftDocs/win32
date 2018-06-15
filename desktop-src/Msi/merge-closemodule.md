@@ -36,7 +36,7 @@ Closing a merge module will not affect any errors that have not been retrieved.
 
 ### C++
 
-See [**CloseModule**](/windows/desktop/api/Mergemod/) function.
+See [**CloseModule**](https://msdn.microsoft.com/en-us/library/Aa369267(v=VS.85).aspx) function.
 
 ## Requirements
 

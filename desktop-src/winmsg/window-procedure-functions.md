@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**CallWindowProc**](/windows/desktop/api/Winuser/nf-winuser-callwindowproca)
--   [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca)
--   [*WindowProc*](/windows/desktop/api/Winuser/nf-winuser-callwindowproca)
+-   [**CallWindowProc**](https://msdn.microsoft.com/en-us/library/ms633571(v=VS.85).aspx)
+-   [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx)
+-   [*WindowProc*](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx)
 
  
 

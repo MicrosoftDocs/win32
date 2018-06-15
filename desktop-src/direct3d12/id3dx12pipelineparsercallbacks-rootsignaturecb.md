@@ -43,7 +43,7 @@ void RootSignatureCb(
 *RootSignature* 
 </dt> <dd>
 
-Type: **[**ID3D12RootSignature**](/windows/desktop/api/D3D12/)\***
+Type: **[**ID3D12RootSignature**](https://msdn.microsoft.com/en-us/library/Dn788714(v=VS.85).aspx)\***
 
 Details of the root signature subobject parsed from a pipeline state stream.
 
@@ -75,7 +75,7 @@ Returns nothing.
 [**ID3DX12PipelineParserCallbacks**](id3dx12pipelineparsercallbacks.md)
 </dt> <dt>
 
-[**ID3D12RootSignature**](/windows/desktop/api/D3D12/)
+[**ID3D12RootSignature**](https://msdn.microsoft.com/en-us/library/Dn788714(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -27,7 +27,7 @@ The following are the COM+ enumerations:
 -   [**CSC\_ThreadPool**](/windows/desktop/api/ComSvcs/ne-comsvcs-tagcsc_threadpool)
 -   [**CSC\_TrackerConfig**](/windows/desktop/api/ComSvcs/ne-comsvcs-tagcsc_trackerconfig)
 -   [**CSC\_TransactionConfig**](/windows/desktop/api/ComSvcs/ne-comsvcs-tagcsc_transactionconfig)
--   [**EOC\_ChangeType**](/windows/desktop/api/EventSys/)
+-   [**EOC\_ChangeType**](https://msdn.microsoft.com/en-us/library/ms684348(v=VS.85).aspx)
 -   [**GetAppTrackerDataFlags**](/windows/desktop/api/ComSvcs/ne-comsvcs-_getapptrackerdataflags)
 -   [**TRACKING\_COLL\_TYPE**](/windows/desktop/api/ComSvcs/ne-comsvcs-__midl___midl_itf_autosvcs_0000_0034_0001)
 -   [**TransactionVote**](/windows/desktop/api/ComSvcs/ne-comsvcs-tagtransactionvote)

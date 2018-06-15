@@ -32,7 +32,7 @@ This topic describes the memory limits for supported Windows and Windows Server 
 -   [How graphics cards and other devices affect memory limits](#how-graphics-cards-and-other-devices-affect-memory-limits)
 -   [Related topics](#related-topics)
 
-Limits on memory and address space vary by platform, operating system, and by whether the **IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE** value of the [**LOADED\_IMAGE**](https://msdn.microsoft.com/8bfc6b47-23d6-45e1-a733-5b938d6312da) structure and [4-gigabyte tuning](4-gigabyte-tuning.md) (4GT) are in use. **IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE** is set or cleared by using the [/LARGEADDRESSAWARE](http://go.microsoft.com/FWLink/p/?LinkID=132948) linker option.
+Limits on memory and address space vary by platform, operating system, and by whether the **IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE** value of the [**LOADED\_IMAGE**](https://msdn.microsoft.com/en-us/library/ms680349(v=VS.85).aspx) structure and [4-gigabyte tuning](4-gigabyte-tuning.md) (4GT) are in use. **IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE** is set or cleared by using the [/LARGEADDRESSAWARE](http://go.microsoft.com/FWLink/p/?LinkID=132948) linker option.
 
 4-gigabyte tuning (4GT), also known as application memory tuning, or the /3GB switch, is a technology (only applicable to 32 bit systems) that alters the amount of virtual address space available to user mode applications. Enabling this technology reduces the overall size of the system virtual address space and therefore system resource maximums. For more information, see [What is 4GT]( http://go.microsoft.com/FWLink/p/?LinkID=205633).
 
@@ -320,7 +320,7 @@ X86 client versions with PAE enabled do have a usable 37-bit (128 GB) physical a
 [4-Gigabyte Tuning](4-gigabyte-tuning.md)
 </dt> <dt>
 
-[**IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE**](https://msdn.microsoft.com/8bfc6b47-23d6-45e1-a733-5b938d6312da)
+[**IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE**](https://msdn.microsoft.com/en-us/library/ms680349(v=VS.85).aspx)
 </dt> <dt>
 
 [Physical Address Extension](physical-address-extension.md)

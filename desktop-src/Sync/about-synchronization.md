@@ -24,7 +24,7 @@ The following are other synchronization mechanisms:
 -   [interlocked variable access](interlocked-variable-access.md)
 -   [interlocked singly linked lists](interlocked-singly-linked-lists.md)
 -   [timer queues](timer-queues.md)
--   the [**MemoryBarrier**](https://msdn.microsoft.com/f2c06679-fa2f-4357-ae11-6cec1e50fd8f) macro
+-   the [**MemoryBarrier**](https://msdn.microsoft.com/en-us/library/ms684208(v=VS.85).aspx) macro
 
 For additional information on synchronization, see [Synchronization and Multiprocessor Issues](synchronization-and-multiprocessor-issues.md).
 

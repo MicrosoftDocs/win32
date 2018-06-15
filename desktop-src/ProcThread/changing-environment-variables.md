@@ -204,7 +204,7 @@ int _tmain()
 
 ## Example 3
 
-The following example retrieves the process's environment block using [**GetEnvironmentStrings**](/windows/desktop/api/WinBase/) and prints the contents to the console.
+The following example retrieves the process's environment block using [**GetEnvironmentStrings**](https://msdn.microsoft.com/en-us/library/ms683187(v=VS.85).aspx) and prints the contents to the console.
 
 
 ```C++

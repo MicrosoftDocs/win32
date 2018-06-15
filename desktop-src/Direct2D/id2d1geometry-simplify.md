@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # ID2D1Geometry::Simplify methods
 
-Creates a simplified version of the geometry that contains only lines and (optionally) cubic Bezier curves and writes the result to an [**ID2D1SimplifiedGeometrySink**](/windows/desktop/api/d2d1/).
+Creates a simplified version of the geometry that contains only lines and (optionally) cubic Bezier curves and writes the result to an [**ID2D1SimplifiedGeometrySink**](https://msdn.microsoft.com/en-us/library/Dd316919(v=VS.85).aspx).
 
 ### Overload list
 
@@ -27,10 +27,10 @@ Creates a simplified version of the geometry that contains only lines and (optio
 
 | Method                                                                                                                                                                                                                                       | Description                                                                                                                                                                                                           |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Simplify(D2D1\_GEOMETRY\_SIMPLIFICATION\_OPTION,D2D1\_MATRIX\_3X2\_F\*,ID2D1SimplifiedGeometrySink\*)**](/windows/desktop/api/d2d1/)             | Creates a simplified version of the geometry that contains only lines and (optionally) cubic Bezier curves and writes the result to an [**ID2D1SimplifiedGeometrySink**](/windows/desktop/api/d2d1/).<br/> |
-| [**Simplify(D2D1\_GEOMETRY\_SIMPLIFICATION\_OPTION,D2D1\_MATRIX\_3X2\_F&,ID2D1SimplifiedGeometrySink\*)**](/windows/desktop/api/d2d1/)              | Creates a simplified version of the geometry that contains only lines and (optionally) cubic Bezier curves and writes the result to an [**ID2D1SimplifiedGeometrySink**](/windows/desktop/api/d2d1/).<br/> |
-| [**Simplify(D2D1\_GEOMETRY\_SIMPLIFICATION\_OPTION,D2D1\_MATRIX\_3X2\_F\*,FLOAT,ID2D1SimplifiedGeometrySink\*)**](/windows/desktop/api/d2d1/) | Creates a simplified version of the geometry that contains only lines and (optionally) cubic Bezier curves and writes the result to an [**ID2D1SimplifiedGeometrySink**](/windows/desktop/api/d2d1/).<br/> |
-| [**Simplify(D2D1\_GEOMETRY\_SIMPLIFICATION\_OPTION,D2D1\_MATRIX\_3X2\_F&,FLOAT,ID2D1SimplifiedGeometrySink\*)**](/windows/desktop/api/d2d1/)  | Creates a simplified version of the geometry that contains only lines and (optionally) cubic Bezier curves and writes the result to an [**ID2D1SimplifiedGeometrySink**](/windows/desktop/api/d2d1/).<br/> |
+| [**Simplify(D2D1\_GEOMETRY\_SIMPLIFICATION\_OPTION,D2D1\_MATRIX\_3X2\_F\*,ID2D1SimplifiedGeometrySink\*)**](https://msdn.microsoft.com/en-us/library/Dd316730(v=VS.85).aspx)             | Creates a simplified version of the geometry that contains only lines and (optionally) cubic Bezier curves and writes the result to an [**ID2D1SimplifiedGeometrySink**](https://msdn.microsoft.com/en-us/library/Dd316919(v=VS.85).aspx).<br/> |
+| [**Simplify(D2D1\_GEOMETRY\_SIMPLIFICATION\_OPTION,D2D1\_MATRIX\_3X2\_F&,ID2D1SimplifiedGeometrySink\*)**](https://msdn.microsoft.com/en-us/library/Dd316736(v=VS.85).aspx)              | Creates a simplified version of the geometry that contains only lines and (optionally) cubic Bezier curves and writes the result to an [**ID2D1SimplifiedGeometrySink**](https://msdn.microsoft.com/en-us/library/Dd316919(v=VS.85).aspx).<br/> |
+| [**Simplify(D2D1\_GEOMETRY\_SIMPLIFICATION\_OPTION,D2D1\_MATRIX\_3X2\_F\*,FLOAT,ID2D1SimplifiedGeometrySink\*)**](https://msdn.microsoft.com/en-us/library/Dd316727(v=VS.85).aspx) | Creates a simplified version of the geometry that contains only lines and (optionally) cubic Bezier curves and writes the result to an [**ID2D1SimplifiedGeometrySink**](https://msdn.microsoft.com/en-us/library/Dd316919(v=VS.85).aspx).<br/> |
+| [**Simplify(D2D1\_GEOMETRY\_SIMPLIFICATION\_OPTION,D2D1\_MATRIX\_3X2\_F&,FLOAT,ID2D1SimplifiedGeometrySink\*)**](https://msdn.microsoft.com/en-us/library/Dd316733(v=VS.85).aspx)  | Creates a simplified version of the geometry that contains only lines and (optionally) cubic Bezier curves and writes the result to an [**ID2D1SimplifiedGeometrySink**](https://msdn.microsoft.com/en-us/library/Dd316919(v=VS.85).aspx).<br/> |
 
 
 
@@ -49,7 +49,7 @@ Creates a simplified version of the geometry that contains only lines and (optio
 
 <dl> <dt>
 
-[**ID2D1Geometry**](/windows/desktop/api/d2d1/)
+[**ID2D1Geometry**](https://msdn.microsoft.com/en-us/library/Dd316578(v=VS.85).aspx)
 </dt> </dl>
 
  

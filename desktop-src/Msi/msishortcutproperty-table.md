@@ -58,7 +58,7 @@ A string value that provides information for the [**PROPERTYKEY**](https://www.b
 <span id="PropVariantValue"></span><span id="propvariantvalue"></span><span id="PROPVARIANTVALUE"></span>PropVariantValue
 </dt> <dd>
 
-A string value that provides information for the [**PROPVARIANT**](https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1) structure.
+A string value that provides information for the [**PROPVARIANT**](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx) structure.
 
 </dd> </dl>
 

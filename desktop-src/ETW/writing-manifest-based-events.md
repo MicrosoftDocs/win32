@@ -156,7 +156,7 @@ cleanup:
 
 
 
-When you compile the manifest (see [Compiling an Instrumentation Manifest](https://msdn.microsoft.com/ecb72942-08fc-470d-b4d6-f5f1a70de3fa)) that the example above uses, it creates the following header file (referenced in the example above).
+When you compile the manifest (see [Compiling an Instrumentation Manifest](https://msdn.microsoft.com/en-us/library/Dd996909(v=VS.85).aspx)) that the example above uses, it creates the following header file (referenced in the example above).
 
 
 ```C++

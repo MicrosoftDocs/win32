@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Drawing, Positioning, and Cloning Images
 
-You can use the [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) class to load and display raster images (bitmaps) and vector images (metafiles). To display an image, you need a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object and an **Image** object. The **Graphics** object provides the [**Graphics::DrawImage**](/windows/desktop/api/Gdiplusgraphics/) method, which receives the address of the **Image** object as an argument.
+You can use the [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) class to load and display raster images (bitmaps) and vector images (metafiles). To display an image, you need a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object and an **Image** object. The **Graphics** object provides the [**Graphics::DrawImage**](https://msdn.microsoft.com/en-us/library/ms536030(v=VS.85).aspx) method, which receives the address of the **Image** object as an argument.
 
-The following example constructs an [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) object from the file Climber.jpg and then displays the image. The destination point for the upper-left corner of the image, (10, 10), is specified in the second and third parameters of the [**Graphics::DrawImage**](/windows/desktop/api/Gdiplusgraphics/) method.
+The following example constructs an [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) object from the file Climber.jpg and then displays the image. The destination point for the upper-left corner of the image, (10, 10), is specified in the second and third parameters of the [**Graphics::DrawImage**](https://msdn.microsoft.com/en-us/library/ms536030(v=VS.85).aspx) method.
 
 
 ```

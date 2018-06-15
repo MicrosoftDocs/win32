@@ -23,15 +23,15 @@ A *hard page fault* must be resolved by reading page contents from the page's *b
 
 Pages can be removed from a process working set as a result of the following actions:
 
--   The process reduces or empties the working set by calling the [**SetProcessWorkingSetSize**](https://msdn.microsoft.com/8bc0053c-f687-43b5-a435-df1e813a5204), [**SetProcessWorkingSetSizeEx**](https://msdn.microsoft.com/04332239-dfc2-4d32-987a-af187e725b71) or [**EmptyWorkingSet**](https://www.bing.com/search?q=**EmptyWorkingSet**) function.
--   The process calls the [**VirtualUnlock**](https://www.bing.com/search?q=**VirtualUnlock**) function on a memory range that is not locked.
--   The process unmaps a mapped view of a file using the [**UnmapViewOfFile**](https://www.bing.com/search?q=**UnmapViewOfFile**) function.
+-   The process reduces or empties the working set by calling the [**SetProcessWorkingSetSize**](https://msdn.microsoft.com/en-us/library/ms686234(v=VS.85).aspx), [**SetProcessWorkingSetSizeEx**](https://msdn.microsoft.com/en-us/library/ms686237(v=VS.85).aspx) or [**EmptyWorkingSet**](https://www.bing.com/search?q=**EmptyWorkingSet**) function.
+-   The process calls the [**VirtualUnlock**](https://msdn.microsoft.com/en-us/library/Aa366910(v=VS.85).aspx) function on a memory range that is not locked.
+-   The process unmaps a mapped view of a file using the [**UnmapViewOfFile**](https://msdn.microsoft.com/en-us/library/Aa366882(v=VS.85).aspx) function.
 -   The memory manager trims pages from the working set to create more available memory.
 -   The memory manager must remove a page from the working set to make room for a new page (for example, because the working set is at its maximum size).
 
 If several processes share a page, removing the page from the working set of one process does not affect other processes. After a page is removed from the working sets of all processes that were using it, the page becomes a *transition page*. Transition pages remain cached in RAM until the page is either referenced again by some process or repurposed (for example, filled with zeros and given to another process). If a transition page has been modified since it was last written to disk (that is, if the page is "dirty"), then the page must be written to its backing store before it can be repurposed. The system may start writing dirty transition pages to their backing store as soon as such pages become available.
 
-Each process has a minimum and maximum working set size that affect the virtual memory paging behavior of the process. To obtain the current size of the working set of a specified process, use the [**GetProcessMemoryInfo**](https://www.bing.com/search?q=**GetProcessMemoryInfo**) function. To obtain or change the minimum and maximum working set sizes, use the [**GetProcessWorkingSetSizeEx**](https://msdn.microsoft.com/d2de0bf2-012b-480c-a1a5-54e4d3928381) and [**SetProcessWorkingSetSizeEx**](https://msdn.microsoft.com/04332239-dfc2-4d32-987a-af187e725b71) functions.
+Each process has a minimum and maximum working set size that affect the virtual memory paging behavior of the process. To obtain the current size of the working set of a specified process, use the [**GetProcessMemoryInfo**](https://www.bing.com/search?q=**GetProcessMemoryInfo**) function. To obtain or change the minimum and maximum working set sizes, use the [**GetProcessWorkingSetSizeEx**](https://msdn.microsoft.com/en-us/library/ms683227(v=VS.85).aspx) and [**SetProcessWorkingSetSizeEx**](https://msdn.microsoft.com/en-us/library/ms686237(v=VS.85).aspx) functions.
 
 The process status application programming interface (PSAPI) provides a number of functions that return detailed information about the working set of a process. For details, see [Working Set Information](https://www.bing.com/search?q=Working+Set+Information).
 

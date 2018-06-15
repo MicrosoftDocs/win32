@@ -11,8 +11,8 @@ ms.date: 05/31/2018
 
 # Message Structures
 
--   [**BSMINFO**](/windows/desktop/api/Winuser/ns-winuser-bsminfo)
--   [**MSG**](/windows/desktop/api/Winuser/nc-winuser-msgboxcallback)
+-   [**BSMINFO**](https://msdn.microsoft.com/en-us/library/ms644957(v=VS.85).aspx)
+-   [**MSG**](https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx)
 
  
 

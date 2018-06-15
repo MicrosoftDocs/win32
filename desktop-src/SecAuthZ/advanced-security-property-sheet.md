@@ -17,7 +17,7 @@ The advanced security property sheet enables the user to perform editing operati
 -   An [Auditing](auditing-property-page.md) property page for viewing and editing the object's [*system access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-system-access-control-list-gly) (SACL).
 -   An [Owner](owner-property-page.md) property page for changing the object's owner.
 
-The user can display the advanced security property sheet by clicking the **Advanced** button on the basic security property page. To display the **Advanced** button, set the SI\_ADVANCED flag in the [**SI\_OBJECT\_INFO**](/windows/desktop/api/Aclui/ns-aclui-_si_object_info) structure returned by your [**ISecurityInformation::GetObjectInformation**](/windows/desktop/api/Aclui/) implementation.
+The user can display the advanced security property sheet by clicking the **Advanced** button on the basic security property page. To display the **Advanced** button, set the SI\_ADVANCED flag in the [**SI\_OBJECT\_INFO**](/windows/desktop/api/Aclui/ns-aclui-_si_object_info) structure returned by your [**ISecurityInformation::GetObjectInformation**](https://msdn.microsoft.com/en-us/library/Aa379102(v=VS.85).aspx) implementation.
 
  
 

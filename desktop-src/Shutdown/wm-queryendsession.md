@@ -63,7 +63,7 @@ This parameter can be one or more of the following values. If this parameter is 
 
 | Value                                                                                                                                                                                                                                           | Meaning                                                                                                                                                                                                                         |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="ENDSESSION_CLOSEAPP"></span><span id="endsession_closeapp"></span><dl> <dt>**ENDSESSION\_CLOSEAPP**</dt> <dt>0x00000001</dt> </dl> | The application is using a file that must be replaced, the system is being serviced, or system resources are exhausted. For more information, see [Guidelines for Applications](https://msdn.microsoft.com/97b1df63-65a9-47b4-891b-e4a754882b89).<br/> |
+| <span id="ENDSESSION_CLOSEAPP"></span><span id="endsession_closeapp"></span><dl> <dt>**ENDSESSION\_CLOSEAPP**</dt> <dt>0x00000001</dt> </dl> | The application is using a file that must be replaced, the system is being serviced, or system resources are exhausted. For more information, see [Guidelines for Applications](https://msdn.microsoft.com/en-us/library/Aa373651(v=VS.85).aspx).<br/> |
 | <span id="ENDSESSION_CRITICAL"></span><span id="endsession_critical"></span><dl> <dt>**ENDSESSION\_CRITICAL**</dt> <dt>0x40000000</dt> </dl> | The application is forced to shut down.<br/>                                                                                                                                                                              |
 | <span id="ENDSESSION_LOGOFF"></span><span id="endsession_logoff"></span><dl> <dt>**ENDSESSION\_LOGOFF**</dt> <dt>0x80000000</dt> </dl>       | The user is logging off. For more information, see [Logging Off](logging-off.md).<br/>                                                                                                                                   |
 
@@ -89,7 +89,7 @@ Applications can display a user interface prompting the user for information at 
 
 Console applications can use the [**SetConsoleCtrlHandler**](https://www.bing.com/search?q=**SetConsoleCtrlHandler**) function to receive shutdown notification.
 
-Service applications can use the [**RegisterServiceCtrlHandlerEx**](https://msdn.microsoft.com/23eea346-9899-4214-88f4-9b7eb7ce1332) function to receive shutdown notifications in a handler routine.
+Service applications can use the [**RegisterServiceCtrlHandlerEx**](https://msdn.microsoft.com/en-us/library/ms685058(v=VS.85).aspx) function to receive shutdown notifications in a handler routine.
 
 ## Examples
 
@@ -123,7 +123,7 @@ For an example, see [Logging Off](logging-off.md).
 [**ExitWindows**](/windows/desktop/api/Winuser/nf-winuser-exitwindows)
 </dt> <dt>
 
-[**SetProcessShutdownParameters**](https://msdn.microsoft.com/c467950e-31e1-4608-a08a-0736a5524e0e)
+[**SetProcessShutdownParameters**](https://msdn.microsoft.com/en-us/library/ms686227(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_ENDSESSION**](wm-endsession.md)

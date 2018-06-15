@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IMediaRendererActionInformation::PlaySpeeds method
 
-Retrieves the complete list of [**PlaySpeed**](https://www.bing.com/search?q=**PlaySpeed**) values that are accepted by the DMR.
+Retrieves the complete list of [**PlaySpeed**](https://msdn.microsoft.com/en-us/library/Hh828990(v=VS.85).aspx) values that are accepted by the DMR.
 
 ## Syntax
 
@@ -41,7 +41,7 @@ HRESULT PlaySpeeds(
 *value* \[out\]
 </dt> <dd>
 
-Receives a vector of [**PlaySpeed**](https://www.bing.com/search?q=**PlaySpeed**) structures specifying the complete list of **PlaySpeed** values that are accepted by the DMR.
+Receives a vector of [**PlaySpeed**](https://msdn.microsoft.com/en-us/library/Hh828990(v=VS.85).aspx) structures specifying the complete list of **PlaySpeed** values that are accepted by the DMR.
 
 </dd> </dl>
 
@@ -63,7 +63,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 <dl> <dt>
 
-[**IMediaRendererActionInformation**](https://www.bing.com/search?q=**IMediaRendererActionInformation**)
+[**IMediaRendererActionInformation**](https://msdn.microsoft.com/en-us/library/Hh828915(v=VS.85).aspx)
 </dt> </dl>
 
  

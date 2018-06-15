@@ -26,7 +26,7 @@ A *waitable timer object* is a synchronization object whose state is set to sign
  
 
 > [!Note]  
-> When a timer is signaled, the processor must run to process the associated instructions. High-frequency periodic timers keep the processor continually busy, which prevents the system from remaining in a lower [power state](https://msdn.microsoft.com/3d897a88-125e-457f-9ea7-ac2056b0767a) for any meaningful amount of time. This can have a negative impact on portable computer battery life and scenarios that depend on effective power management, such as large datacenters. For greater energy efficiency, consider using event-based notifications instead of time-based notifications in your application. If a timer is necessary, use a timer that is signaled once rather than a periodic timer, or set the interval to a value greater than one second.
+> When a timer is signaled, the processor must run to process the associated instructions. High-frequency periodic timers keep the processor continually busy, which prevents the system from remaining in a lower [power state](https://msdn.microsoft.com/en-us/library/Aa373229(v=VS.85).aspx) for any meaningful amount of time. This can have a negative impact on portable computer battery life and scenarios that depend on effective power management, such as large datacenters. For greater energy efficiency, consider using event-based notifications instead of time-based notifications in your application. If a timer is necessary, use a timer that is signaled once rather than a periodic timer, or set the interval to a value greater than one second.
 
  
 
@@ -36,7 +36,7 @@ A thread uses the [**CreateWaitableTimer**](/windows/desktop/api/WinBase/nf-winb
 -   Use the *lpDueTime* parameter to specify the time at which the timer is to be set to the signaled state. When a manual-reset timer is set to the signaled state, it remains in this state until [**SetWaitableTimer**](/windows/desktop/api/WinBase/nf-synchapi-setwaitabletimer) establishes a new due time. When a synchronization timer is set to the signaled state, it remains in this state until a thread completes a wait operation on the timer object.
 -   Use the *lPeriod* parameter of the [**SetWaitableTimer**](/windows/desktop/api/WinBase/nf-synchapi-setwaitabletimer) function to specify the timer period. If the period is not zero, the timer is a periodic timer; it is reactivated each time the period expires, until the timer is reset or canceled. If the period is zero, the timer is not a periodic timer; it is signaled once and then deactivated.
 
-A thread can use the [**CancelWaitableTimer**](/windows/desktop/api/WinBase/nf-synchapi-cancelwaitabletimer) function to set the timer to the inactive state. To reset the timer, call [**SetWaitableTimer**](/windows/desktop/api/WinBase/nf-synchapi-setwaitabletimer). When you are finished with the timer object, call [**CloseHandle**](https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9) to close the handle to the timer object.
+A thread can use the [**CancelWaitableTimer**](/windows/desktop/api/WinBase/nf-synchapi-cancelwaitabletimer) function to set the timer to the inactive state. To reset the timer, call [**SetWaitableTimer**](/windows/desktop/api/WinBase/nf-synchapi-setwaitabletimer). When you are finished with the timer object, call [**CloseHandle**](https://msdn.microsoft.com/en-us/library/ms724211(v=VS.85).aspx) to close the handle to the timer object.
 
 The behavior of a waitable timer can be summarized as follows:
 

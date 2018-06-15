@@ -14,9 +14,9 @@ ms.date: 05/31/2018
 The following macros are used with synchronization:
 
 -   [**HasOverlappedIoCompleted**](/windows/desktop/api/WinBase/nf-winbase-hasoverlappediocompleted)
--   [**MemoryBarrier**](/windows/desktop/api/Winnt/nf-ntddk-memorybarrier)
+-   [**MemoryBarrier**](https://msdn.microsoft.com/en-us/library/ms684208(v=VS.85).aspx)
 -   [**PreFetchCacheLine**](/windows/desktop/api/Winnt/nf-winnt-prefetchcacheline)
--   [**YieldProcessor**](/windows/desktop/api/Winnt/nf-miniport-yieldprocessor)
+-   [**YieldProcessor**](https://msdn.microsoft.com/en-us/library/ms687419(v=VS.85).aspx)
 
  
 

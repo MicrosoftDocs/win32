@@ -63,7 +63,7 @@ Identifies the area of the video buffer to update. [RECT](http://go.microsoft.co
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](/windows/desktop/api/Mmsystem/) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 ## Requirements
 
@@ -90,7 +90,7 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_LOAD**](mci-load.md)
 </dt> <dt>
 
-[**mciSendCommand**](/windows/desktop/api/Mmsystem/)
+[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
 </dt> <dt>
 
 [RECT](http://go.microsoft.com/fwlink/p/?linkid=16998)

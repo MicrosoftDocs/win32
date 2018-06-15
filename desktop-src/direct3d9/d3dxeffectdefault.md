@@ -45,18 +45,18 @@ Parameter name.
 **Type**
 </dt> <dd>
 
-Type: **[**D3DXEFFECTDEFAULTTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxeffectdefaulttype.htm)**
+Type: **[**D3DXEFFECTDEFAULTTYPE**](https://msdn.microsoft.com/en-us/library/Bb172822(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Data type in pValue. For more information, see [**D3DXEFFECTDEFAULTTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxeffectdefaulttype.htm)
+Data type in pValue. For more information, see [**D3DXEFFECTDEFAULTTYPE**](https://msdn.microsoft.com/en-us/library/Bb172822(v=VS.85).aspx)
 
 </dd> <dt>
 
 **NumBytes**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -67,7 +67,7 @@ Size, in bytes, of the data pointed to by pValue.
 **pValue**
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

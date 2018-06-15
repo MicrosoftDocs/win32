@@ -57,9 +57,9 @@ The aggregator (ADSI) calls the [**IADsExtension::Operate**](/windows/desktop/ap
 
 The aggregator (ADSI), calls the [**IADsExtension::PrivateGetIDsOfNames**](/windows/desktop/api/Iads/nf-iads-iadsextension-privategetidsofnames) method. It is called after ADSI determines the extension to service the dispatch. The extension could use the type information for getting the DISPID, that is, using the [**DispGetIDsOfNames**](https://msdn.microsoft.com/library/windows/desktop/ms221309) function.
 
-ADSI normally calls the [**PrivateInvoke**](/windows/desktop/api/Iads/nf-iads-iadsextension-privateinvoke) method after calling the [**PrivateGetIDsOfNames**](/windows/desktop/api/Iads/nf-iads-iadsextension-privategetidsofnames) function. The extension should call the actual method that it implements. Alternatively, the extension can use type information and call the [**DispInvoke**](https://msdn.microsoft.com/windows/desktop/69b89e5c-2a04-4a6a-beb0-18e68f8866ac) function.
+ADSI normally calls the [**PrivateInvoke**](/windows/desktop/api/Iads/nf-iads-iadsextension-privateinvoke) method after calling the [**PrivateGetIDsOfNames**](/windows/desktop/api/Iads/nf-iads-iadsextension-privategetidsofnames) function. The extension should call the actual method that it implements. Alternatively, the extension can use type information and call the [**DispInvoke**](https://msdn.microsoft.com/en-us/library/ms221366(v=VS.71).aspx) function.
 
-All parameters have the same meaning as the parameters in the standard [**IDispatch::Invoke**](https://msdn.microsoft.com/windows/desktop/964ade8e-9d8a-4d32-bd47-aa678912a54d) method.
+All parameters have the same meaning as the parameters in the standard [**IDispatch::Invoke**](https://msdn.microsoft.com/en-us/library/ms221479(v=VS.71).aspx) method.
 
  
 

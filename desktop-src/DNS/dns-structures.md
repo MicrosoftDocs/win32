@@ -48,7 +48,7 @@ The following Resource Record (RR) structures are also included in the DNS API. 
 -   [**DNS\_PTR\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_3)
 -   [**DNS\_RRSET**](/windows/desktop/api/Windns/ns-windns-_dnsrrset)
 -   [**DNS\_RRSIG\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_16)
--   [**DNS\_SIG\_DATA**](/windows/desktop/api/Windns/)
+-   [**DNS\_SIG\_DATA**](https://msdn.microsoft.com/en-us/library/ms682094(v=VS.85).aspx)
 -   [**DNS\_SOA\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_5)
 -   [**DNS\_SRV\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_30)
 -   [**DNS\_TKEY\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_35)

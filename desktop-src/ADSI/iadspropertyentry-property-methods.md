@@ -130,7 +130,7 @@ HRESULT put_Name(
 **Values**
 </dt> <dd> <dl>
 
-A **VARIANT** array. Each element in this array represents a value of the named property. Such property values are represented by ADSI objects implementing the [**IADsPropertyValue**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue) and [**IADsPropertyValue2**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue2) interfaces. Therefore, the **VARIANT** array holds an array of pointers to the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface on the ADSI objects implementing the **IADsPropertyValue** and **IADsPropertyValue2** interfaces.
+A **VARIANT** array. Each element in this array represents a value of the named property. Such property values are represented by ADSI objects implementing the [**IADsPropertyValue**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue) and [**IADsPropertyValue2**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue2) interfaces. Therefore, the **VARIANT** array holds an array of pointers to the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface on the ADSI objects implementing the **IADsPropertyValue** and **IADsPropertyValue2** interfaces.
 
 <dt>
 
@@ -322,7 +322,7 @@ Cleanup:
 [**IADsPropertyValue2**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue2)
 </dt> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
+[**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx)
 </dt> </dl>
 
  

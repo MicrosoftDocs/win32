@@ -17,12 +17,12 @@ The following table lists the Mergemod objects and interfaces.
 
 | Object                                              | Interface                                                                          |
 |-----------------------------------------------------|------------------------------------------------------------------------------------|
-| [**ConfigurableItem**](configurableitem-object.md) | [**IMsmConfigurableItem**](/windows/desktop/api/Mergemod/)                     |
-| [**ConfigureModule**](configuremodule-object.md)   | [**IMsmConfigureModule**](/windows/desktop/api/Mergemod/)                       |
-| [**Dependency**](dependency-object.md)             | [**IMsmDependency**](/windows/desktop/api/Mergemod/)                                 |
-| [**Error**](error-object.md)                       | [**IMsmError**](/windows/desktop/api/Mergemod/)                                           |
-| [**GetFiles**](getfiles-object.md)                 | [**IMsmGetFiles**](/windows/desktop/api/Mergemod/)                                     |
-| [**Merge**](merge-object.md)                       | [**IMsmMerge2**](/windows/desktop/api/Mergemod/nn-mergemod-imsmmerge2)[**IMsmMerge**](/windows/desktop/api/Mergemod/) |
+| [**ConfigurableItem**](configurableitem-object.md) | [**IMsmConfigurableItem**](https://msdn.microsoft.com/en-us/library/Aa369242(v=VS.85).aspx)                     |
+| [**ConfigureModule**](configuremodule-object.md)   | [**IMsmConfigureModule**](https://msdn.microsoft.com/en-us/library/Aa369243(v=VS.85).aspx)                       |
+| [**Dependency**](dependency-object.md)             | [**IMsmDependency**](https://msdn.microsoft.com/en-us/library/Aa369249(v=VS.85).aspx)                                 |
+| [**Error**](error-object.md)                       | [**IMsmError**](https://msdn.microsoft.com/en-us/library/Aa369257(v=VS.85).aspx)                                           |
+| [**GetFiles**](getfiles-object.md)                 | [**IMsmGetFiles**](https://msdn.microsoft.com/en-us/library/Aa369259(v=VS.85).aspx)                                     |
+| [**Merge**](merge-object.md)                       | [**IMsmMerge2**](/windows/desktop/api/Mergemod/nn-mergemod-imsmmerge2)[**IMsmMerge**](https://msdn.microsoft.com/en-us/library/Aa369273(v=VS.85).aspx) |
 
 
 

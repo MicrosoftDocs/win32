@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Fog Formulas (Direct3D 9)
 
-C++ applications can control how fog affects the color of objects in a scene by changing how Microsoft Direct3D computes fog effects over distance. The [**D3DFOGMODE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dfogmode.htm) enumerated type contains members that identify the three fog formulas. All formulas calculate a fog factor as a function of distance, given parameters that your application sets.
+C++ applications can control how fog affects the color of objects in a scene by changing how Microsoft Direct3D computes fog effects over distance. The [**D3DFOGMODE**](https://msdn.microsoft.com/en-us/library/Bb172557(v=VS.85).aspx) enumerated type contains members that identify the three fog formulas. All formulas calculate a fog factor as a function of distance, given parameters that your application sets.
 
 ## Linear Fog
 

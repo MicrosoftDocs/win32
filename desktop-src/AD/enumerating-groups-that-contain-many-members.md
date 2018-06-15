@@ -37,7 +37,7 @@ The version of the server that supplies the requested data determines the maximu
 
 For more information about retrieving ranges of attribute values with ADSI, see [Attribute Range Retrieval](https://msdn.microsoft.com/library/aa772308).
 
-For more information about retrieving ranges of attribute values with [System.DirectoryServices](https://msdn.microsoft.com/library/system.directoryservices.aspx), see [Enumerating Members in a Large Group](https://msdn.microsoft.com/windows/desktop/07560e99-624d-477c-8e4f-ed247756ebfd).
+For more information about retrieving ranges of attribute values with [System.DirectoryServices](https://msdn.microsoft.com/library/system.directoryservices.aspx), see [Enumerating Members in a Large Group](https://msdn.microsoft.com/en-US/library/ms180907(v=VS.80).aspx).
 
  
 

@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 -   [Group Policy](https://msdn.microsoft.com/library/aa374177)
 -   [Group Policy Management Console](https://msdn.microsoft.com/library/aa814316)
--   [GPMC Class Library](https://msdn.microsoft.com/windows/desktop/dd34d709-bf6c-4716-9e19-515c7444714b)
+-   [GPMC Class Library](https://msdn.microsoft.com/en-us/library/Ee840126(v=VS.85).aspx)
 
  
 

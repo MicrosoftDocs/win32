@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_NetworkAdapterSetting class
 
-The **Win32\_NetworkAdapterSetting** association [WMI class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267) relates a network adapter and its configuration settings.
+The **Win32\_NetworkAdapterSetting** association [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) relates a network adapter and its configuration settings.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -53,7 +53,7 @@ Data type: **Win32\_NetworkAdapter**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Element"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("WMI\|Win32\_NetworkAdapter")
+Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Element"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_NetworkAdapter")
 </dt> </dl>
 
 A [**Win32\_NetworkAdapter**](win32-networkadapter.md) that describes the properties of the network adapter that is using a particular network adapter setting.
@@ -69,7 +69,7 @@ Data type: **Win32\_NetworkAdapterConfiguration**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Setting"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("WMI\|Win32\_NetworkAdapterConfiguration")
+Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Setting"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_NetworkAdapterConfiguration")
 </dt> </dl>
 
 A [**Win32\_NetworkAdapterConfiguration**](win32-networkadapterconfiguration.md) that describes the configuration settings used on the network adapter.
@@ -80,7 +80,7 @@ A [**Win32\_NetworkAdapterConfiguration**](win32-networkadapterconfiguration.md)
 
 The **Win32\_NetworkAdapterSetting** class is derived from [**Win32\_DeviceSettings**](win32-devicesettings.md).
 
-For information on how to use association classes, see [ASSOCIATORS OF Statement](https://msdn.microsoft.com/d6bd9643-523d-4d81-8bf1-da52ccc7524d).
+For information on how to use association classes, see [ASSOCIATORS OF Statement](https://msdn.microsoft.com/en-us/library/Aa384793(v=VS.85).aspx).
 
 ## Examples
 
@@ -136,7 +136,7 @@ Next
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> <dt>
 
-[WMI Tasks: Networking](https://msdn.microsoft.com/25da32c3-34bf-4c88-9b09-ff371f2cf8db)
+[WMI Tasks: Networking](https://msdn.microsoft.com/en-us/library/Aa394595(v=VS.85).aspx)
 </dt> </dl>
 
  

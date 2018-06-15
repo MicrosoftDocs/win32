@@ -39,7 +39,7 @@ dwParam2 = reserved
 <span id="lpMidiHdr"></span><span id="lpmidihdr"></span><span id="LPMIDIHDR"></span>*lpMidiHdr*
 </dt> <dd>
 
-Pointer to a [**MIDIHDR**](https://www.bing.com/search?q=**MIDIHDR**) structure identifying the buffer.
+Pointer to a [**MIDIHDR**](https://msdn.microsoft.com/en-us/library/Dd798449(v=VS.85).aspx) structure identifying the buffer.
 
 </dd> <dt>
 

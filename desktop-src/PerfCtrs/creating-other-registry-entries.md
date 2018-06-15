@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Creating Other Registry Entries
 
-The performance DLL's [**OpenPerformanceData**](/windows/desktop/api/Winperf/) function takes a string argument as input. To provide an input string to your open function, include a **Linkage** key under your **Services** key. The **Linkage** key contains an **Export** value. Set the value data for **Export** to the input string that you want to pass to your open function. The data type of **Export** is **REG\_MULTI\_SZ**.
+The performance DLL's [**OpenPerformanceData**](https://msdn.microsoft.com/en-us/library/Aa372200(v=VS.85).aspx) function takes a string argument as input. To provide an input string to your open function, include a **Linkage** key under your **Services** key. The **Linkage** key contains an **Export** value. Set the value data for **Export** to the input string that you want to pass to your open function. The data type of **Export** is **REG\_MULTI\_SZ**.
 
-If **Export** is not defined (**Export** is optional), the system passes **NULL** to your [**OpenPerformanceData**](/windows/desktop/api/Winperf/) function.
+If **Export** is not defined (**Export** is optional), the system passes **NULL** to your [**OpenPerformanceData**](https://msdn.microsoft.com/en-us/library/Aa372200(v=VS.85).aspx) function.
 
 Typically, if more than one application shares the same performance DLL, each application includes a **Linkage** key and **Export** value to provide context as to which application is calling the DLL.
 
@@ -36,7 +36,7 @@ HKEY_LOCAL_MACHINE
                   Library = perfctrs.dll
 ```
 
-By default, the performance DLL's [**OpenPerformanceData**](/windows/desktop/api/Winperf/) and [**CollectPerformanceData**](/windows/desktop/api/Winperf/nc-winperf-pm_collect_proc) functions must return within 10,000 milliseconds. If not, the system does not use the data that the DLL returns. The application can increase or decrease the timeout value by specifying an **Open Timeout** or **Collect Timeout** registry value under their **Performance** key as shown in the following example.
+By default, the performance DLL's [**OpenPerformanceData**](https://msdn.microsoft.com/en-us/library/Aa372200(v=VS.85).aspx) and [**CollectPerformanceData**](https://msdn.microsoft.com/en-us/library/Aa371898(v=VS.85).aspx) functions must return within 10,000 milliseconds. If not, the system does not use the data that the DLL returns. The application can increase or decrease the timeout value by specifying an **Open Timeout** or **Collect Timeout** registry value under their **Performance** key as shown in the following example.
 
 ```
 HKEY_LOCAL_MACHINE

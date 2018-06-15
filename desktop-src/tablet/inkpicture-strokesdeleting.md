@@ -31,7 +31,7 @@ void StrokesDeleting(
 *Strokes* \[in\]
 </dt> <dd>
 
-The [InkStrokes](/windows/desktop/api/msinkaut/) collection deleted when the **StrokesDeleting** event fires.
+The [InkStrokes](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection deleted when the **StrokesDeleting** event fires.
 
 </dd> </dl>
 

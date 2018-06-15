@@ -21,7 +21,7 @@ For example, "t o g e t h e r" can yield the following results:
 -   "tog at her" (plus alternates for each word)
 -   "together" (plus alternates for the word)
 
-The [**RecognitionResult**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult) object supports efficient storage of full recognition results within the [**Ink**](/windows/desktop/api/msinkaut/) object. The **Ink** object maps the recognition alternates to the strokes in the **Ink** object and may also contain other information such as baseline position, line indices, and language ranges.
+The [**RecognitionResult**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult) object supports efficient storage of full recognition results within the [**Ink**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object. The **Ink** object maps the recognition alternates to the strokes in the **Ink** object and may also contain other information such as baseline position, line indices, and language ranges.
 
  
 

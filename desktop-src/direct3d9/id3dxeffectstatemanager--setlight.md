@@ -32,7 +32,7 @@ HRESULT SetLight(
 *Index* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 The zero-based index of the light. This is the same index in [**IDirect3DDevice9::SetLight**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setlight).
 
@@ -49,7 +49,7 @@ The light object. See [**D3DLIGHT9**](d3dlight9.md).
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 

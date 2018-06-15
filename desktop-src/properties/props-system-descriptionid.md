@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # System.DescriptionID
 
-The contents of an [**SHDESCRIPTIONID**](https://msdn.microsoft.com/dca32567-2049-4797-af87-d08a5d5d055d) structure, represented as a buffer of bytes.
+The contents of an [**SHDESCRIPTIONID**](https://msdn.microsoft.com/en-us/library/Bb759775(v=VS.85).aspx) structure, represented as a buffer of bytes.
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista
 

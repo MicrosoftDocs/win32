@@ -15,7 +15,7 @@ ID3DX10SkinInfo allows you to optimize, process, and manually set the relationsh
 
 ## Members
 
-The **ID3DX10SkinInfo** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **ID3DX10SkinInfo** also has these types of members:
+The **ID3DX10SkinInfo** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **ID3DX10SkinInfo** also has these types of members:
 
 -   [Methods](#methods)
 

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Reads data from an open file.
 
-This function is the user-mode equivalent to the [**ZwReadFile**](https://msdn.microsoft.com/0f1ec015-bda6-45fe-973d-be414aece918) function documented in the Windows Driver Kit (WDK).
+This function is the user-mode equivalent to the [**ZwReadFile**](https://msdn.microsoft.com/en-us/library/Ff567072(v=VS.85).aspx) function documented in the Windows Driver Kit (WDK).
 
 ## Syntax
 
@@ -69,7 +69,7 @@ This parameter is reserved. Device and intermediate drivers should set this poin
 *IoStatusBlock* \[out\]
 </dt> <dd>
 
-Pointer to an [**IO\_STATUS\_BLOCK**](https://msdn.microsoft.com/1ce2b1d0-a8b2-4a05-8895-e13802690a7b) structure that receives the final completion status and information about the requested read operation. The **Information** member receives the number of bytes actually read from the file.
+Pointer to an [**IO\_STATUS\_BLOCK**](https://msdn.microsoft.com/en-us/library/Ff550671(v=VS.85).aspx) structure that receives the final completion status and information about the requested read operation. The **Information** member receives the number of bytes actually read from the file.
 
 </dd> <dt>
 
@@ -170,7 +170,7 @@ Callers of **NtReadFile** must be running at IRQL = PASSIVE\_LEVEL and [with spe
 
 <dl> <dt>
 
-[**KeInitializeEvent**](https://msdn.microsoft.com/0b59056c-6e73-4078-b8b3-32ced29ff7b0)
+[**KeInitializeEvent**](https://msdn.microsoft.com/en-us/library/Ff552137(v=VS.85).aspx)
 </dt> <dt>
 
 [**NtCreateFile**](/windows/desktop/api/Winternl/nf-winternl-ntcreatefile)

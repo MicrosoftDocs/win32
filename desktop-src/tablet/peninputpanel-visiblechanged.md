@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # PenInputPanel.VisibleChanged event
 
-Deprecated. The [**PenInputPanel**](/windows/desktop/api/msinkaut/) has been replaced by the [Text Input Panel (TIP)](text-input-panel-reference.md).
+Deprecated. The [**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) has been replaced by the [Text Input Panel (TIP)](text-input-panel-reference.md).
 
-Occurs when the [**PenInputPanel**](/windows/desktop/api/msinkaut/) object has shown or hidden itself.
+Occurs when the [**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) object has shown or hidden itself.
 
 ## Syntax
 
@@ -33,7 +33,7 @@ HRESULT VisibleChanged(
 *NewVisibility* \[in\]
 </dt> <dd>
 
-**VARIANT\_TRUE** to cause the [**PenInputPanel**](/windows/desktop/api/msinkaut/) object to become visible; otherwise, **VARIANT\_FALSE**.
+**VARIANT\_TRUE** to cause the [**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) object to become visible; otherwise, **VARIANT\_FALSE**.
 
 </dd> </dl>
 
@@ -62,7 +62,7 @@ The **VisibleChanged** event applies to the Tablet PC Input Panel hover target. 
 
 <dl> <dt>
 
-[**PenInputPanel**](/windows/desktop/api/msinkaut/)
+[**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx)
 </dt> </dl>
 
  

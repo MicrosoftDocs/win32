@@ -62,7 +62,7 @@ D3D10_SHADER_MACRO Shader_Macros[3] = { "zero", "0", "one", "1.0f", NULL, NULL }
 
 
 
-The macros are a NULL terminated array of macros; where each macro is defined with a [**D3D10\_SHADER\_MACRO**](/windows/desktop/api/D3D10Shader/) struct.
+The macros are a NULL terminated array of macros; where each macro is defined with a [**D3D10\_SHADER\_MACRO**](https://msdn.microsoft.com/en-us/library/Bb172436(v=VS.85).aspx) struct.
 
 Lastly, modify the compile effect call to take a pointer to the macros.
 

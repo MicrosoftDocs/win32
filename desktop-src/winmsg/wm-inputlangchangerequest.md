@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # WM\_INPUTLANGCHANGEREQUEST message
 
-Posted to the window with the focus when the user chooses a new input language, either with the hotkey (specified in the Keyboard control panel application) or from the indicator on the system taskbar. An application can accept the change by passing the message to the [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) function or reject the change (and prevent it from taking place) by returning immediately.
+Posted to the window with the focus when the user chooses a new input language, either with the hotkey (specified in the Keyboard control panel application) or from the indicator on the system taskbar. An application can accept the change by passing the message to the [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) function or reject the change (and prevent it from taking place) by returning immediately.
 
-A window receives this message through its [**WindowProc**](/windows/desktop/api/Winuser/nf-winuser-callwindowproca) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -48,7 +48,7 @@ The new input locale. This parameter can be a combination of the following flags
 *lParam* 
 </dt> <dd>
 
-The input locale identifier. For more information, see [Languages, Locales, and Keyboard Layouts](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\aboutkeyboardinput.htm).
+The input locale identifier. For more information, see [Languages, Locales, and Keyboard Layouts](https://msdn.microsoft.com/en-us/library/ms646267(v=VS.85).aspx).
 
 </dd> </dl>
 
@@ -56,11 +56,11 @@ The input locale identifier. For more information, see [Languages, Locales, and 
 
 Type: **LRESULT**
 
-This message is posted, not sent, to the application, so the return value is ignored. To accept the change, the application should pass the message to [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca). To reject the change, the application should return zero without calling **DefWindowProc**.
+This message is posted, not sent, to the application, so the return value is ignored. To accept the change, the application should pass the message to [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx). To reject the change, the application should return zero without calling **DefWindowProc**.
 
 ## Remarks
 
-When the [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) function receives the **WM\_INPUTLANGCHANGEREQUEST** message, it activates the new input locale and notifies the application of the change by sending the [**WM\_INPUTLANGCHANGE**](wm-inputlangchange.md) message.
+When the [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) function receives the **WM\_INPUTLANGCHANGEREQUEST** message, it activates the new input locale and notifies the application of the change by sending the [**WM\_INPUTLANGCHANGE**](wm-inputlangchange.md) message.
 
 The language indicator is present on the taskbar only if you have installed more than one keyboard layout and if you have enabled the indicator using the Keyboard control panel application.
 
@@ -83,7 +83,7 @@ The language indicator is present on the taskbar only if you have installed more
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca)
+[**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_INPUTLANGCHANGE**](wm-inputlangchange.md)

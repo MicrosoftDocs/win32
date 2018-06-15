@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Sent to a window when its nonclient area needs to be changed to indicate an active or inactive state.
 
-A window receives this message through its [**WindowProc**](/windows/desktop/api/Winuser/nf-winuser-callwindowproca) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -36,9 +36,9 @@ Indicates when a title bar or icon needs to be changed to indicate an active or 
 *lParam* 
 </dt> <dd>
 
-When a [visual style](https://msdn.microsoft.com/windows/desktop/9b135ccb-5e36-4657-b79c-689201047430) is active for this window, this parameter is not used.
+When a [visual style](https://www.bing.com/search?q=visual+style) is active for this window, this parameter is not used.
 
-When a visual style is not active for this window, this parameter is a handle to an optional update region for the nonclient area of the window. If this parameter is set to -1, [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) does not repaint the nonclient area to reflect the state change.
+When a visual style is not active for this window, this parameter is a handle to an optional update region for the nonclient area of the window. If this parameter is set to -1, [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) does not repaint the nonclient area to reflect the state change.
 
 </dd> </dl>
 
@@ -50,9 +50,9 @@ When the *wParam* parameter is **FALSE**, an application should return **TRUE** 
 
 ## Remarks
 
-Processing messages related to the nonclient area of a standard window is not recommended, because the application must be able to draw all the required parts of the nonclient area for the window. If an application does process this message, it must return **TRUE** to direct the system to complete the change of active window. If the window is minimized when this message is received, the application should pass the message to the [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) function.
+Processing messages related to the nonclient area of a standard window is not recommended, because the application must be able to draw all the required parts of the nonclient area for the window. If an application does process this message, it must return **TRUE** to direct the system to complete the change of active window. If the window is minimized when this message is received, the application should pass the message to the [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) function.
 
-The [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) function draws the title bar or icon title in its active colors when the *wParam* parameter is **TRUE** and in its inactive colors when *wParam* is **FALSE**.
+The [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) function draws the title bar or icon title in its active colors when the *wParam* parameter is **TRUE** and in its inactive colors when *wParam* is **FALSE**.
 
 ## Requirements
 
@@ -73,7 +73,7 @@ The [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) 
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca)
+[**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx)
 </dt> <dt>
 
 **Conceptual**

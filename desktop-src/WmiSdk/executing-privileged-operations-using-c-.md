@@ -44,7 +44,7 @@ The following procedure describes how to create a thread token and use [**Adjust
 2.  Retrieve the newly created thread token by calling [**GetTokenInformation**](https://msdn.microsoft.com/library/windows/desktop/aa446671).
 3.  Enable the privileged operation with a call to [**AdjustTokenPrivileges**](https://msdn.microsoft.com/library/windows/desktop/aa375202) on the new token.
 4.  Obtain a pointer to [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices).
-5.  Cloak the pointer to [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) with a call to [**CoSetProxyBlanket**](https://msdn.microsoft.com/windows/desktop/c2e5e681-8fa5-4b02-b59d-ba796eb0dccf).
+5.  Cloak the pointer to [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) with a call to [**CoSetProxyBlanket**](https://msdn.microsoft.com/en-us/library/ms692692(v=VS.85).aspx).
 6.  Repeat steps 1 through 5 on each call to WMI.
 
     > [!Note]  

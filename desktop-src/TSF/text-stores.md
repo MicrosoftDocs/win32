@@ -45,7 +45,7 @@ A text store implements an object that supports the [ITextStoreACP](/windows/des
 
 ## Anchor-Based Applications
 
-The manager uses the ACP-based methods natively to manipulate text. However, an anchor-based approach is available for [Microsoft Active Accessibility](https://msdn.microsoft.com/windows/desktop/f3e31c6f-c49e-4a61-99f1-b695ece2bfc9) clients that support [anchors](ranges.md), whereby the manager uses [ITextStoreAnchor](/windows/desktop/api/Textstor/nn-textstor-itextstoreanchor) and [ITextStoreAnchorSink](/windows/desktop/api/Textstor/nn-textstor-itextstoreanchorsink) methods to wrap the [ITextStoreACP](/windows/desktop/api/Textstor/nn-textstor-itextstoreacp) and [ITextStoreACPSink](/windows/desktop/api/Textstor/nn-textstor-itextstoreacpsink) methods.
+The manager uses the ACP-based methods natively to manipulate text. However, an anchor-based approach is available for [Microsoft Active Accessibility](https://msdn.microsoft.com/en-us/library/Dd373592(v=VS.85).aspx) clients that support [anchors](ranges.md), whereby the manager uses [ITextStoreAnchor](/windows/desktop/api/Textstor/nn-textstor-itextstoreanchor) and [ITextStoreAnchorSink](/windows/desktop/api/Textstor/nn-textstor-itextstoreanchorsink) methods to wrap the [ITextStoreACP](/windows/desktop/api/Textstor/nn-textstor-itextstoreacp) and [ITextStoreACPSink](/windows/desktop/api/Textstor/nn-textstor-itextstoreacpsink) methods.
 
 ## Document Access Control
 
@@ -55,7 +55,7 @@ The text store controls access to the text stream by using [document locks](docu
 
 An application initializes a text store by completing the following steps:
 
-1.  Create a thread manager object based on the [ITfThreadMgr](/windows/desktop/api/Msctf/nn-msctf-itfthreadmgr) interface by calling the [CoCreateInstance](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) function with a pointer to a thread manager object. The following is a code example of implementing a thread manager object.
+1.  Create a thread manager object based on the [ITfThreadMgr](/windows/desktop/api/Msctf/nn-msctf-itfthreadmgr) interface by calling the [CoCreateInstance](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) function with a pointer to a thread manager object. The following is a code example of implementing a thread manager object.
     ```C++
     hr = CoCreateInstance (CLSID_TF_ThreadMgr, NULL, CLSCTX_INPROC_SERVER, 
                             IID_ITfThreadMgr, (void**)&amp;pThreadMgr);
@@ -125,7 +125,7 @@ The contents of the text store can be modified with a temporary input state call
 [TfClientId](tfclientid.md)
 </dt> <dt>
 
-[Microsoft Active Accessibility](https://msdn.microsoft.com/windows/desktop/f3e31c6f-c49e-4a61-99f1-b695ece2bfc9)
+[Microsoft Active Accessibility](https://msdn.microsoft.com/en-us/library/Dd373592(v=VS.85).aspx)
 </dt> </dl>
 
  

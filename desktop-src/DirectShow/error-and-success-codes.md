@@ -206,7 +206,7 @@ In addition to the values listed previously, DirectShow Editing Services defines
 
 <dl> <dt>
 
-[**AMGetErrorText**](/windows/desktop/api/errors/)
+[**AMGetErrorText**](https://msdn.microsoft.com/en-us/library/Dd373430(v=VS.85).aspx)
 </dt> <dt>
 
 [Constants and GUIDs](constants-and-guids.md)

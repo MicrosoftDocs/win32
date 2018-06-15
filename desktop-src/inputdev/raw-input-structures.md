@@ -13,17 +13,17 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**RAWHID**](/windows/desktop/api/Winuser/ns-winuser-tagrawhid)
--   [**RAWINPUT**](/windows/desktop/api/Winuser/nf-winuser-defrawinputproc)
--   [**RAWINPUTDEVICE**](/windows/desktop/api/Winuser/nf-winuser-getrawinputdeviceinfoa)
--   [**RAWINPUTDEVICELIST**](/windows/desktop/api/Winuser/nf-winuser-getrawinputdevicelist)
--   [**RAWINPUTHEADER**](/windows/desktop/api/Winuser/ns-winuser-tagrawinputheader)
--   [**RAWKEYBOARD**](/windows/desktop/api/Winuser/ns-winuser-tagrawkeyboard)
--   [**RAWMOUSE**](/windows/desktop/api/Winuser/ns-winuser-tagrawmouse)
--   [**RID\_DEVICE\_INFO**](/windows/desktop/api/Winuser/ns-winuser-tagrid_device_info)
--   [**RID\_DEVICE\_INFO\_HID**](/windows/desktop/api/Winuser/ns-winuser-tagrid_device_info_hid)
--   [**RID\_DEVICE\_INFO\_KEYBOARD**](/windows/desktop/api/Winuser/ns-winuser-tagrid_device_info_keyboard)
--   [**RID\_DEVICE\_INFO\_MOUSE**](/windows/desktop/api/Winuser/ns-winuser-tagrid_device_info_mouse)
+-   [**RAWHID**](https://msdn.microsoft.com/en-us/library/ms645549(v=VS.85).aspx)
+-   [**RAWINPUT**](https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx)
+-   [**RAWINPUTDEVICE**](https://msdn.microsoft.com/en-us/library/ms645565(v=VS.85).aspx)
+-   [**RAWINPUTDEVICELIST**](https://msdn.microsoft.com/en-us/library/ms645568(v=VS.85).aspx)
+-   [**RAWINPUTHEADER**](https://msdn.microsoft.com/en-us/library/ms645571(v=VS.85).aspx)
+-   [**RAWKEYBOARD**](https://msdn.microsoft.com/en-us/library/ms645575(v=VS.85).aspx)
+-   [**RAWMOUSE**](https://msdn.microsoft.com/en-us/library/ms645578(v=VS.85).aspx)
+-   [**RID\_DEVICE\_INFO**](https://msdn.microsoft.com/en-us/library/ms645581(v=VS.85).aspx)
+-   [**RID\_DEVICE\_INFO\_HID**](https://msdn.microsoft.com/en-us/library/ms645584(v=VS.85).aspx)
+-   [**RID\_DEVICE\_INFO\_KEYBOARD**](https://msdn.microsoft.com/en-us/library/ms645587(v=VS.85).aspx)
+-   [**RID\_DEVICE\_INFO\_MOUSE**](https://msdn.microsoft.com/en-us/library/ms645589(v=VS.85).aspx)
 
  
 

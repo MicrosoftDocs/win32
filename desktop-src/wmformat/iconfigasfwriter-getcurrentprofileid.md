@@ -57,7 +57,7 @@ This method is now obsolete because it assumes version 4.0 Windows Media Format 
 
 <dl> <dt>
 
-[**IConfigAsfWriter Interface**](/windows/desktop/api/dshowasf/)
+[**IConfigAsfWriter Interface**](https://msdn.microsoft.com/en-us/library/Dd743205(v=VS.85).aspx)
 </dt> </dl>
 
  

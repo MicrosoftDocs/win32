@@ -66,7 +66,7 @@ CAPRs are created though a new UX provided in Active Directory Administrative Ce
 
 <dl> <dt>
 
-[**AccessCheck**](/windows/desktop/api/Winbase/nf-ntifs-ntaccesscheckandauditalarm)
+[**AccessCheck**](https://msdn.microsoft.com/en-us/library/Aa374815(v=VS.85).aspx)
 </dt> <dt>
 
 [Dynamic Access Control (DAC) scenario](https://msdn.microsoft.com/library/hh802756)

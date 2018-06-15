@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Sent when the size and position of a window's client area must be calculated. By processing this message, an application can control the content of the window's client area when the size or position of the window changes.
 
-A window receives this message through its [**WindowProc**](/windows/desktop/api/Winuser/nf-winuser-callwindowproca) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -38,9 +38,9 @@ If *wParam* is **FALSE**, the application does not need to indicate the valid pa
 *lParam* 
 </dt> <dd>
 
-If *wParam* is **TRUE**, *lParam* points to an [**NCCALCSIZE\_PARAMS**](/windows/desktop/api/Winuser/ns-winuser-tagnccalcsize_params) structure that contains information an application can use to calculate the new size and position of the client rectangle.
+If *wParam* is **TRUE**, *lParam* points to an [**NCCALCSIZE\_PARAMS**](https://msdn.microsoft.com/en-us/library/ms632606(v=VS.85).aspx) structure that contains information an application can use to calculate the new size and position of the client rectangle.
 
-If *wParam* is **FALSE**, *lParam* points to a [**RECT**](https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8) structure. On entry, the structure contains the proposed window rectangle for the window. On exit, the structure should contain the screen coordinates of the corresponding window client area.
+If *wParam* is **FALSE**, *lParam* points to a [**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx) structure. On entry, the structure contains the proposed window rectangle for the window. On exit, the structure should contain the screen coordinates of the corresponding window client area.
 
 </dd> </dl>
 
@@ -65,7 +65,7 @@ If *wParam* is **TRUE** and an application returns zero, the old client area is 
 | <dl> <dt>**WVR\_HREDRAW**</dt> <dt>0x0100</dt> </dl>     | Used in combination with any other values, except **WVR\_VALIDRECTS**, causes the window to be completely redrawn if the client rectangle changes size horizontally. This value is similar to [CS\_HREDRAW](about-window-classes.md) class style<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | <dl> <dt>**WVR\_VREDRAW**</dt> <dt>0x0200</dt> </dl>     | Used in combination with any other values, except **WVR\_VALIDRECTS**, causes the window to be completely redrawn if the client rectangle changes size vertically. This value is similar to [CS\_VREDRAW](about-window-classes.md) class style<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | <dl> <dt>**WVR\_REDRAW**</dt> <dt>0x0300</dt> </dl>      | This value causes the entire window to be redrawn. It is a combination of **WVR\_HREDRAW** and **WVR\_VREDRAW** values.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| <dl> <dt>**WVR\_VALIDRECTS**</dt> <dt>0x0400</dt> </dl>  | This value indicates that, upon return from [**WM\_NCCALCSIZE**](wm-nccalcsize.md), the rectangles specified by the **rgrc**\[1\] and **rgrc**\[2\] members of the [**NCCALCSIZE\_PARAMS**](/windows/desktop/api/Winuser/ns-winuser-tagnccalcsize_params) structure contain valid destination and source area rectangles, respectively. The system combines these rectangles to calculate the area of the window to be preserved. The system copies any part of the window image that is within the source rectangle and clips the image to the destination rectangle. Both rectangles are in parent-relative or screen-relative coordinates. This flag cannot be combined with any other flags. <br/> This return value allows an application to implement more elaborate client-area preservation strategies, such as centering or preserving a subset of the client area.<br/> |
+| <dl> <dt>**WVR\_VALIDRECTS**</dt> <dt>0x0400</dt> </dl>  | This value indicates that, upon return from [**WM\_NCCALCSIZE**](wm-nccalcsize.md), the rectangles specified by the **rgrc**\[1\] and **rgrc**\[2\] members of the [**NCCALCSIZE\_PARAMS**](https://msdn.microsoft.com/en-us/library/ms632606(v=VS.85).aspx) structure contain valid destination and source area rectangles, respectively. The system combines these rectangles to calculate the area of the window to be preserved. The system copies any part of the window image that is within the source rectangle and clips the image to the destination rectangle. Both rectangles are in parent-relative or screen-relative coordinates. This flag cannot be combined with any other flags. <br/> This return value allows an application to implement more elaborate client-area preservation strategies, such as centering or preserving a subset of the client area.<br/> |
 
 
 
@@ -73,11 +73,11 @@ If *wParam* is **TRUE** and an application returns zero, the old client area is 
 
 ## Remarks
 
-The window may be redrawn, depending on whether the [CS\_HREDRAW](about-window-classes.md) or CS\_VREDRAW class style is specified. This is the default, backward-compatible processing of this message by the [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) function (in addition to the usual client rectangle calculation described in the preceding table).
+The window may be redrawn, depending on whether the [CS\_HREDRAW](about-window-classes.md) or CS\_VREDRAW class style is specified. This is the default, backward-compatible processing of this message by the [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) function (in addition to the usual client rectangle calculation described in the preceding table).
 
-When *wParam* is **TRUE**, simply returning 0 without processing the [**NCCALCSIZE\_PARAMS**](/windows/desktop/api/Winuser/ns-winuser-tagnccalcsize_params) rectangles will cause the client area to resize to the size of the window, including the window frame. This will remove the window frame and caption items from your window, leaving only the client area displayed.
+When *wParam* is **TRUE**, simply returning 0 without processing the [**NCCALCSIZE\_PARAMS**](https://msdn.microsoft.com/en-us/library/ms632606(v=VS.85).aspx) rectangles will cause the client area to resize to the size of the window, including the window frame. This will remove the window frame and caption items from your window, leaving only the client area displayed.
 
-Starting with Windows Vista, removing the standard frame by simply returning 0 when the *wParam* is **TRUE** does not affect frames that are extended into the client area using the [**DwmExtendFrameIntoClientArea**](https://msdn.microsoft.com/VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmextendframeintoclientarea.htm) function. Only the standard frame will be removed.
+Starting with Windows Vista, removing the standard frame by simply returning 0 when the *wParam* is **TRUE** does not affect frames that are extended into the client area using the [**DwmExtendFrameIntoClientArea**](https://msdn.microsoft.com/en-us/library/Aa969512(v=VS.85).aspx) function. Only the standard frame will be removed.
 
 ## Requirements
 
@@ -98,16 +98,16 @@ Starting with Windows Vista, removing the standard frame by simply returning 0 w
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca)
+[**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx)
 </dt> <dt>
 
-[**MoveWindow**](/windows/desktop/api/Winuser/nf-winuser-movewindow)
+[**MoveWindow**](https://msdn.microsoft.com/en-us/library/ms633534(v=VS.85).aspx)
 </dt> <dt>
 
-[**SetWindowPos**](/windows/desktop/api/Winuser/nf-winuser-setwindowpos)
+[**SetWindowPos**](https://msdn.microsoft.com/en-us/library/ms633545(v=VS.85).aspx)
 </dt> <dt>
 
-[**NCCALCSIZE\_PARAMS**](/windows/desktop/api/Winuser/ns-winuser-tagnccalcsize_params)
+[**NCCALCSIZE\_PARAMS**](https://msdn.microsoft.com/en-us/library/ms632606(v=VS.85).aspx)
 </dt> <dt>
 
 **Conceptual**
@@ -119,7 +119,7 @@ Starting with Windows Vista, removing the standard frame by simply returning 0 w
 **Other Resources**
 </dt> <dt>
 
-[**RECT**](https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8)
+[**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx)
 </dt> </dl>
 
  

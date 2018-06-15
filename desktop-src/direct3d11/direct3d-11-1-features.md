@@ -67,7 +67,7 @@ The shader tracing API and the enhancements to the HLSL compiler consists of the
 The D3dcompiler.lib library requires D3dcompiler\_nn.dll. This DLL is not part of Windows 8; it is in the \\bin folder of the Windows SDK for Windows 8 along with the Fxc.exe command-line version of the HLSL compiler.
 
 > [!Note]  
-> While you can use this library and DLL combination for development, you can't deploy Windows Store apps that use this combination. Therefore, you must instead compile HLSL shaders before you ship your Windows Store app. You can write HLSL compilation binaries to disk, or the compiler can generate headers with static byte arrays that contain the shader blob data. You use the [**ID3DBlob**](/windows/desktop/api/D3Dcommon/) interface to access the blob data. To develop your Windows Store app, call [**D3DCompile2**](https://msdn.microsoft.com/library/windows/desktop/hh446869) or [**D3DCompileFromFile**](https://msdn.microsoft.com/library/windows/desktop/hh446872) to compile the raw HLSL source, and then feed the resulting blob data to Direct3D.
+> While you can use this library and DLL combination for development, you can't deploy Windows Store apps that use this combination. Therefore, you must instead compile HLSL shaders before you ship your Windows Store app. You can write HLSL compilation binaries to disk, or the compiler can generate headers with static byte arrays that contain the shader blob data. You use the [**ID3DBlob**](https://msdn.microsoft.com/en-us/library/Ff728743(v=VS.85).aspx) interface to access the blob data. To develop your Windows Store app, call [**D3DCompile2**](https://msdn.microsoft.com/library/windows/desktop/hh446869) or [**D3DCompileFromFile**](https://msdn.microsoft.com/library/windows/desktop/hh446872) to compile the raw HLSL source, and then feed the resulting blob data to Direct3D.
 
  
 
@@ -79,7 +79,7 @@ This Direct3D 11.1 feature consists of the following methods and interface.
 
 -   [**ID3D11Device1::CreateDeviceContextState**](/windows/desktop/api/D3D11_1/nf-d3d11_1-id3d11device1-createdevicecontextstate)
 -   [**ID3D11DeviceContext1::SwapDeviceContextState**](/windows/desktop/api/D3D11_1/nf-d3d11_1-id3d11devicecontext1-swapdevicecontextstate)
--   [**ID3DDeviceContextState**](/windows/desktop/api/D3D11_1/)
+-   [**ID3DDeviceContextState**](https://msdn.microsoft.com/en-us/library/Hh446878(v=VS.85).aspx)
 
 ## Check support of new Direct3D 11.1 features and formats
 

@@ -13,10 +13,10 @@ ms.date: 05/31/2018
 
 Using the COM error-handling interfaces and functions, you can return error information by performing the following the steps:
 
-1.  Implement the [**ISupportErrorInfo**](https://msdn.microsoft.com/windows/desktop/42d33066-36b4-4a5b-aa5d-46682e560f32) interface.
-2.  To create an instance of the generic error object, call the [**CreateErrorInfo**](https://msdn.microsoft.com/windows/desktop/6a9dd862-754a-48e3-8be5-d1fbd1d38f2b) function.
-3.  To set its contents, use the [**ICreateErrorInfo**](https://msdn.microsoft.com/windows/desktop/2e7c5ad5-9018-413e-8826-ef752ebf302c) methods.
-4.  To associate the error object with the current logical thread, call the [**SetErrorInfo**](https://msdn.microsoft.com/windows/desktop/8eaacfac-fc37-4eaa-870b-10b99d598d66) function.
+1.  Implement the [**ISupportErrorInfo**](https://msdn.microsoft.com/en-us/library/ms221083(v=VS.71).aspx) interface.
+2.  To create an instance of the generic error object, call the [**CreateErrorInfo**](https://msdn.microsoft.com/en-us/library/ms221316(v=VS.71).aspx) function.
+3.  To set its contents, use the [**ICreateErrorInfo**](https://msdn.microsoft.com/en-us/library/ms221072(v=VS.71).aspx) methods.
+4.  To associate the error object with the current logical thread, call the [**SetErrorInfo**](https://msdn.microsoft.com/en-us/library/ms221409(v=VS.71).aspx) function.
 
 The error handling interfaces create and manage an error object, which provides information about the error. The error object is not the same as the object that encountered the error. It is a separate object associated with the current thread of execution.
 

@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 Creates a font object.
 
 > [!Note]  
-> Instead of using this function, we recommend that you use [DirectWrite](https://msdn.microsoft.com/62a8d723-ae1c-4cbc-a9da-3177e80d4a3a) and the [DirectXTK](http://go.microsoft.com/fwlink/p/?linkid=248929) library, **SpriteFont** class.
+> Instead of using this function, we recommend that you use [DirectWrite](https://msdn.microsoft.com/en-us/library/Dd368038(v=VS.85).aspx) and the [DirectXTK](http://go.microsoft.com/fwlink/p/?linkid=248929) library, **SpriteFont** class.
 
  
 
@@ -64,7 +64,7 @@ Returns a pointer to an [**ID3DX10Font Interface**](id3dx10font.md).
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

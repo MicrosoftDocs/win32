@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # StreamSelectOperation.Completed property
 
-Gets or sets an event handler that is invoked when the asynchronous operation started by [**SelectBestStreamAsync**](https://www.bing.com/search?q=**SelectBestStreamAsync**) is completed.
+Gets or sets an event handler that is invoked when the asynchronous operation started by [**SelectBestStreamAsync**](https://msdn.microsoft.com/en-us/library/Hh829002(v=VS.85).aspx) is completed.
 
 This property is read/write.
 

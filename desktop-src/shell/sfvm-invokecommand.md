@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # SFVM\_INVOKECOMMAND message
 
-Notifies the callback object that one of its toolbar or menu commands has been invoked by the user. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/desktop/api/Shlobj/).
+Notifies the callback object that one of its toolbar or menu commands has been invoked by the user. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/en-us/library/Bb774968(v=VS.85).aspx).
 
 
 ```C++
@@ -37,7 +37,7 @@ The command ID of the selected toolbar or menu item.
 
 ## Remarks
 
-This message serves essentially the same function as a [**WM\_COMMAND**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menumessages\wm_command.htm) message in a conventional window procedure. It allows the callback object to handle any items that it has added to the Windows Explorer tool or menu bar.
+This message serves essentially the same function as a [**WM\_COMMAND**](https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx) message in a conventional window procedure. It allows the callback object to handle any items that it has added to the Windows Explorer tool or menu bar.
 
 ## Requirements
 

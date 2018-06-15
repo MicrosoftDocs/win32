@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # GetTransportInformationOperation::GetResults method
 
-Returns the results of the asynchronous operation started by [**GetTransportInformationAsync**](https://www.bing.com/search?q=**GetTransportInformationAsync**).
+Returns the results of the asynchronous operation started by [**GetTransportInformationAsync**](https://msdn.microsoft.com/en-us/library/Hh828932(v=VS.85).aspx).
 
 ## Syntax
 
@@ -41,7 +41,7 @@ HRESULT GetResults(
 *value* \[out, retval\]
 </dt> <dd>
 
-A reference to a [**TransportInformation**](https://www.bing.com/search?q=**TransportInformation**) structure that contains the results of the operation.
+A reference to a [**TransportInformation**](https://msdn.microsoft.com/en-us/library/Hh829005(v=VS.85).aspx) structure that contains the results of the operation.
 
 </dd> </dl>
 

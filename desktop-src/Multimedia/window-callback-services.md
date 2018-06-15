@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Window Callback Services
 
-The mixer services provide window callback services so that your application can process messages from mixer drivers. To use these services, specify the CALLBACK\_WINDOW flag in the *fdwOpen* parameter and a window handle in the *dwCallback* parameter of the [**mixerOpen**](https://www.bing.com/search?q=**mixerOpen**) function. Driver messages are sent to the window procedure function for the window identified by the handle in *dwCallback*. The messages are specific to the audio device type.
+The mixer services provide window callback services so that your application can process messages from mixer drivers. To use these services, specify the CALLBACK\_WINDOW flag in the *fdwOpen* parameter and a window handle in the *dwCallback* parameter of the [**mixerOpen**](https://msdn.microsoft.com/en-us/library/Dd757308(v=VS.85).aspx) function. Driver messages are sent to the window procedure function for the window identified by the handle in *dwCallback*. The messages are specific to the audio device type.
 
  
 

@@ -41,7 +41,7 @@ Handle to previously created kernel-mode DirectDraw object.
 *puWaitForVerticalBlankData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_WAITFORVERTICALBLANKDATA**](https://msdn.microsoft.com/windows/desktop/27224fb2-3843-4843-b66f-0a3dd8325e1f) structure that contains the information required to obtain the vertical blank status.
+Pointer to a [**DD\_WAITFORVERTICALBLANKDATA**](https://msdn.microsoft.com/en-us/library/Ff551765(v=VS.85).aspx) structure that contains the information required to obtain the vertical blank status.
 
 </dd> </dl>
 

@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [WIA](https://msdn.microsoft.com/VS|wia|~\wia\overviews\startpage.htm)
--   [Still Image](https://msdn.microsoft.com/378268c2-c8ad-4b12-ac87-59bf3f9ec71e)
--   [WIA Automation](https://msdn.microsoft.com/VS|wiaaut|~\wia\wiax\overviews\startpagewiaaut.htm)
+-   [WIA](https://msdn.microsoft.com/en-us/library/ms630368(v=VS.85).aspx)
+-   [Still Image](https://msdn.microsoft.com/en-us/library/Cc836557(v=VS.85).aspx)
+-   [WIA Automation](https://msdn.microsoft.com/en-us/library/ms630827(v=VS.85).aspx)
 
  
 

@@ -31,7 +31,7 @@ HRESULT WINAPI RtwqEndUnregisterWorkQueueWithMMCSS(
 *pResult* 
 </dt> <dd>
 
-Pointer to the [**IMFAsyncResult**](https://msdn.microsoft.com/8c95b1de-8974-445c-8070-41552ea83e53) interface. Pass in the same pointer that your callback object received in the [**IRtwqAsyncCallback::Invoke**](/windows/desktop/api/RTWorkQ/) method.
+Pointer to the [**IMFAsyncResult**](https://msdn.microsoft.com/en-us/library/ms700196(v=VS.85).aspx) interface. Pass in the same pointer that your callback object received in the [**IRtwqAsyncCallback::Invoke**](https://msdn.microsoft.com/en-us/library/Dn448446(v=VS.85).aspx) method.
 
 </dd> </dl>
 

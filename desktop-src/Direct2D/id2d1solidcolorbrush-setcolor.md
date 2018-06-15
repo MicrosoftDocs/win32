@@ -27,14 +27,14 @@ Specifies the color of this solid color brush.
 
 | Method                                                                          | Description                                                |
 |:--------------------------------------------------------------------------------|:-----------------------------------------------------------|
-| [**SetColor(D2D1\_COLOR\_F&)**](/windows/desktop/api/d2d1/)  | Specifies the color of this solid-color brush. <br/> |
-| [**SetColor(D2D1\_COLOR\_F\*)**](/windows/desktop/api/d2d1/) | Specifies the color of this solid color brush. <br/> |
+| [**SetColor(D2D1\_COLOR\_F&)**](https://msdn.microsoft.com/en-us/library/Dd372215(v=VS.85).aspx)  | Specifies the color of this solid-color brush. <br/> |
+| [**SetColor(D2D1\_COLOR\_F\*)**](https://msdn.microsoft.com/en-us/library/Dd372211(v=VS.85).aspx) | Specifies the color of this solid color brush. <br/> |
 
 
 
 ## Remarks
 
-To help create colors, Direct2D provides the [**ColorF**](/windows/desktop/api/d2d1/nl-d2d1helper-colorf) class. It offers several helper methods for creating colors and provides a set or predefined colors.
+To help create colors, Direct2D provides the [**ColorF**](https://msdn.microsoft.com/en-us/library/Dd370907(v=VS.85).aspx) class. It offers several helper methods for creating colors and provides a set or predefined colors.
 
 ## Examples
 
@@ -75,7 +75,7 @@ The following code shows how to use this method.
 
 <dl> <dt>
 
-[**ID2D1SolidColorBrush**](/windows/desktop/api/d2d1/)
+[**ID2D1SolidColorBrush**](https://msdn.microsoft.com/en-us/library/Dd372207(v=VS.85).aspx)
 </dt> </dl>
 
  

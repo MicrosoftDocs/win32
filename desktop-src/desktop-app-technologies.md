@@ -13,19 +13,19 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [Desktop app UI](https://www.bing.com/search?q=Desktop+app+UI)
--   [Desktop environment](https://www.bing.com/search?q=Desktop+environment)
--   [Application installation and servicing](https://www.bing.com/search?q=Application+installation+and+servicing)
--   [Audio and video](https://www.bing.com/search?q=Audio+and+video)
--   [Data access and storage](https://www.bing.com/search?q=Data+access+and+storage)
--   [Devices](/windows/desktop/api//ns-acpitabl-_devicescope)
--   [Diagnostics](/windows/desktop/api//nc-mcd-changer_perform_diagnostics)
--   [Documents and printing](https://msdn.microsoft.com/windows/desktop/20e56af6-9598-4d6a-a2bf-454cef8a3368)
--   [Graphics and gaming](https://www.bing.com/search?q=Graphics+and+gaming)
--   [Networking and Internet](https://www.bing.com/search?q=Networking+and+Internet)
--   [Security and identity](https://www.bing.com/search?q=Security+and+identity)
--   [System services](https://www.bing.com/search?q=System+services)
--   [Windows Machine Learning](https://msdn.microsoft.com/windows/desktop/75dc6fc9-0e24-4403-8243-a46f0f9538bb)
+-   [Desktop app UI](https://msdn.microsoft.com/en-us/library/Ff657751(v=VS.85).aspx)
+-   [Desktop environment](https://msdn.microsoft.com/en-us/library/Ee663298(v=VS.85).aspx)
+-   [Application installation and servicing](https://msdn.microsoft.com/en-us/library/Ee663259(v=VS.85).aspx)
+-   [Audio and video](https://msdn.microsoft.com/en-us/library/Ee663260(v=VS.85).aspx)
+-   [Data access and storage](https://msdn.microsoft.com/en-us/library/Ee663264(v=VS.85).aspx)
+-   [Devices](https://msdn.microsoft.com/en-us/library/Ee663267(v=VS.85).aspx)
+-   [Diagnostics](https://msdn.microsoft.com/en-us/library/Ee663269(v=VS.85).aspx)
+-   [Documents and printing](https://msdn.microsoft.com/en-us/library/Ff686798(v=VS.85).aspx)
+-   [Graphics and gaming](https://msdn.microsoft.com/en-us/library/Ee663279(v=VS.85).aspx)
+-   [Networking and Internet](https://msdn.microsoft.com/en-us/library/Ee663286(v=VS.85).aspx)
+-   [Security and identity](https://msdn.microsoft.com/en-us/library/Ee663293(v=VS.85).aspx)
+-   [System services](https://msdn.microsoft.com/en-us/library/Ee663297(v=VS.85).aspx)
+-   [Windows Machine Learning](https://msdn.microsoft.com/en-us/library/Mt845848(v=VS.85).aspx)
 
  
 

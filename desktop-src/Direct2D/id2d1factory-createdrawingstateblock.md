@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # ID2D1Factory::CreateDrawingStateBlock methods
 
-Creates an [**ID2D1DrawingStateBlock**](/windows/desktop/api/d2d1/) that can be used with the [**SaveDrawingState**](/windows/desktop/api/d2d1/) and [**RestoreDrawingState**](/windows/desktop/api/d2d1/) methods of a render target.
+Creates an [**ID2D1DrawingStateBlock**](https://msdn.microsoft.com/en-us/library/Dd371218(v=VS.85).aspx) that can be used with the [**SaveDrawingState**](https://msdn.microsoft.com/en-us/library/Dd316876(v=VS.85).aspx) and [**RestoreDrawingState**](https://msdn.microsoft.com/en-us/library/Dd316872(v=VS.85).aspx) methods of a render target.
 
 ### Overload list
 
@@ -27,9 +27,9 @@ Creates an [**ID2D1DrawingStateBlock**](/windows/desktop/api/d2d1/) that can be 
 
 | Method                                                                                                                                                                                                                                                        | Description                                                                                                                                                                                                                                                                   |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateDrawingStateBlock(D2D1\_DRAWING\_STATE\_DESCRIPTION\*,IDWriteRenderingParams\*,ID2D1DrawingStateBlock\*\*)**](/windows/desktop/api/d2d1/) | Creates an [**ID2D1DrawingStateBlock**](/windows/desktop/api/d2d1/) that can be used with the [**SaveDrawingState**](/windows/desktop/api/d2d1/) and [**RestoreDrawingState**](/windows/desktop/api/d2d1/) methods of a render target.<br/>  |
-| [**CreateDrawingStateBlock(ID2D1DrawingStateBlock\*\*)**](/windows/desktop/api/d2d1/)                                                                                                                            | Creates an [**ID2D1DrawingStateBlock**](/windows/desktop/api/d2d1/) that can be used with the [**SaveDrawingState**](/windows/desktop/api/d2d1/) and [**RestoreDrawingState**](/windows/desktop/api/d2d1/) methods of a render target. <br/> |
-| [**CreateDrawingStateBlock(D2D1\_DRAWING\_STATE\_DESCRIPTION&,ID2D1DrawingStateBlock\*\*)**](/windows/desktop/api/d2d1/)                                                      | Creates an [**ID2D1DrawingStateBlock**](/windows/desktop/api/d2d1/) that can be used with the [**SaveDrawingState**](/windows/desktop/api/d2d1/) and [**RestoreDrawingState**](/windows/desktop/api/d2d1/) methods of a render target.<br/>  |
+| [**CreateDrawingStateBlock(D2D1\_DRAWING\_STATE\_DESCRIPTION\*,IDWriteRenderingParams\*,ID2D1DrawingStateBlock\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371252(v=VS.85).aspx) | Creates an [**ID2D1DrawingStateBlock**](https://msdn.microsoft.com/en-us/library/Dd371218(v=VS.85).aspx) that can be used with the [**SaveDrawingState**](https://msdn.microsoft.com/en-us/library/Dd316876(v=VS.85).aspx) and [**RestoreDrawingState**](https://msdn.microsoft.com/en-us/library/Dd316872(v=VS.85).aspx) methods of a render target.<br/>  |
+| [**CreateDrawingStateBlock(ID2D1DrawingStateBlock\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371253(v=VS.85).aspx)                                                                                                                            | Creates an [**ID2D1DrawingStateBlock**](https://msdn.microsoft.com/en-us/library/Dd371218(v=VS.85).aspx) that can be used with the [**SaveDrawingState**](https://msdn.microsoft.com/en-us/library/Dd316876(v=VS.85).aspx) and [**RestoreDrawingState**](https://msdn.microsoft.com/en-us/library/Dd316872(v=VS.85).aspx) methods of a render target. <br/> |
+| [**CreateDrawingStateBlock(D2D1\_DRAWING\_STATE\_DESCRIPTION&,ID2D1DrawingStateBlock\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371257(v=VS.85).aspx)                                                      | Creates an [**ID2D1DrawingStateBlock**](https://msdn.microsoft.com/en-us/library/Dd371218(v=VS.85).aspx) that can be used with the [**SaveDrawingState**](https://msdn.microsoft.com/en-us/library/Dd316876(v=VS.85).aspx) and [**RestoreDrawingState**](https://msdn.microsoft.com/en-us/library/Dd316872(v=VS.85).aspx) methods of a render target.<br/>  |
 
 
 
@@ -48,7 +48,7 @@ Creates an [**ID2D1DrawingStateBlock**](/windows/desktop/api/d2d1/) that can be 
 
 <dl> <dt>
 
-[**ID2D1Factory**](/windows/desktop/api/d2d1/)
+[**ID2D1Factory**](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx)
 </dt> </dl>
 
  

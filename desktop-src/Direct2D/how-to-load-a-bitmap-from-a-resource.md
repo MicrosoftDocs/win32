@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # How to Load a Bitmap from a Resource
 
-As described in [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap-from-a-file.md), Direct2D uses the Windows Imaging Component (WIC) to load bitmaps. To load a bitmap from a resource, use WIC objects to load the image and to convert it to a Direct2D-compatible format; then, use the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](/windows/desktop/api/d2d1/).
+As described in [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap-from-a-file.md), Direct2D uses the Windows Imaging Component (WIC) to load bitmaps. To load a bitmap from a resource, use WIC objects to load the image and to convert it to a Direct2D-compatible format; then, use the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx).
 
 1.  In the [application resource definition file](https://msdn.microsoft.com/library/windows/desktop/aa380599), define the resource. The following example defines a resource named "SampleImage".
 
@@ -91,7 +91,7 @@ As described in [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap
 
     
 
-4.  Use the [**IWICImagingFactory::CreateStream**](https://msdn.microsoft.com/windows/desktop/1c2ecaf0-5222-4f9b-96fb-5d2da72d11d4) method to create an [**IWICStream**](https://msdn.microsoft.com/windows/desktop/bc398732-037d-4f48-940f-c70975447972) object.
+4.  Use the [**IWICImagingFactory::CreateStream**](https://msdn.microsoft.com/en-us/library/Ee690325(v=VS.85).aspx) method to create an [**IWICStream**](https://msdn.microsoft.com/en-us/library/Ee719782(v=VS.85).aspx) object.
     ```C++
         if (SUCCEEDED(hr))
         {
@@ -110,7 +110,7 @@ As described in [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap
 
     
 
-5.  Use the [**IWICImagingFactory::CreateDecoderFromStream**](https://msdn.microsoft.com/windows/desktop/b9328715-54a0-4c9a-9977-3252068b7e4b) method to create an [**IWICBitmapDecoder**](https://msdn.microsoft.com/windows/desktop/91dafd5e-e4fb-4691-a3d0-ca8b6ff0aaf7).
+5.  Use the [**IWICImagingFactory::CreateDecoderFromStream**](https://msdn.microsoft.com/en-us/library/Ee690309(v=VS.85).aspx) method to create an [**IWICBitmapDecoder**](https://msdn.microsoft.com/en-us/library/Ee690086(v=VS.85).aspx).
 
     ```C++
         if (SUCCEEDED(hr))
@@ -127,7 +127,7 @@ As described in [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap
 
     
 
-6.  Retrieve a frame from the image and store it in an [**IWICBitmapFrameDecode**](https://msdn.microsoft.com/windows/desktop/1498b800-6449-440f-bed7-85891637e559) object.
+6.  Retrieve a frame from the image and store it in an [**IWICBitmapFrameDecode**](https://msdn.microsoft.com/en-us/library/Ee690134(v=VS.85).aspx) object.
 
     ```C++
         if (SUCCEEDED(hr))
@@ -139,7 +139,7 @@ As described in [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap
 
     
 
-7.  Before Direct2D can use the image, it must be converted to the 32bppPBGRA pixel format. To convert the image format, use the [**IWICImagingFactory::CreateFormatConverter**](https://msdn.microsoft.com/windows/desktop/50ceabdf-574e-4083-86a4-dddd4da06bbf) method to create an [**IWICFormatConverter**](https://msdn.microsoft.com/windows/desktop/d558aaa7-5962-424c-9e83-363fba09ad50) object, then use the **IWICFormatConverter** object's [**Initialize**](https://msdn.microsoft.com/windows/desktop/ff046b2c-a863-48dd-9cbe-3c559c84b682) method to perform the conversion.
+7.  Before Direct2D can use the image, it must be converted to the 32bppPBGRA pixel format. To convert the image format, use the [**IWICImagingFactory::CreateFormatConverter**](https://msdn.microsoft.com/en-us/library/Ee690317(v=VS.85).aspx) method to create an [**IWICFormatConverter**](https://msdn.microsoft.com/en-us/library/Ee690274(v=VS.85).aspx) object, then use the **IWICFormatConverter** object's [**Initialize**](https://msdn.microsoft.com/en-us/library/Ee690279(v=VS.85).aspx) method to perform the conversion.
     ```C++
         if (SUCCEEDED(hr))
         {
@@ -211,7 +211,7 @@ As described in [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap
 
     
 
-8.  Finally, use the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](/windows/desktop/api/d2d1/) object that can be drawn by a render target and used with other Direct2D objects.
+8.  Finally, use the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx) object that can be drawn by a render target and used with other Direct2D objects.
     ```C++
         if (SUCCEEDED(hr))
         {

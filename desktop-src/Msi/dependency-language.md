@@ -28,7 +28,7 @@ propVal = Dependency.Language
 
 ## C++
 
-See [**get\_Language Function (Dependency Object)**](/windows/desktop/api/Mergemod/).
+See [**get\_Language Function (Dependency Object)**](https://msdn.microsoft.com/en-us/library/Aa369246(v=VS.85).aspx).
 
 ## Requirements
 

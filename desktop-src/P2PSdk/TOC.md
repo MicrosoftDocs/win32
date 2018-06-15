@@ -285,7 +285,7 @@
 ###### [PNRP and BLOB](pnrp-and-blob.md)
 ###### [PNRPCLOUDINFO](/windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpcloudinfo)
 ###### [PNRPINFO_V1](/windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpinfo_v1)
-###### [PNRPINFO_V2](/windows/desktop/api/Pnrpns/)
+###### [PNRPINFO_V2](https://msdn.microsoft.com/en-us/library/Aa371671(v=VS.85).aspx)
 ##### [PNRP Constants](pnrp-constants.md)
 ###### [PNRP_CLOUD_FLAGS](/windows/desktop/api/Pnrpdef/ne-pnrpdef-_pnrp_cloud_flags)
 ###### [PNRP_CLOUD_STATE](/windows/desktop/api/Pnrpdef/ne-pnrpdef-_pnrp_cloud_state)

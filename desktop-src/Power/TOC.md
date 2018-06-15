@@ -155,7 +155,7 @@
 #### [BATTERY_SET_INFORMATION](battery-set-information-str.md)
 #### [BATTERY_STATUS](battery-status-str.md)
 #### [BATTERY_WAIT_STATUS](battery-wait-status-str.md)
-#### [DISPLAY_BRIGHTNESS](/windows/desktop/api/WinNT/)
+#### [DISPLAY_BRIGHTNESS](https://msdn.microsoft.com/en-us/library/Aa372686(v=VS.85).aspx)
 #### [DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS](/windows/desktop/api/Powrprof/ns-powrprof-_device_notify_subscribe_parameters)
 #### [GLOBAL_MACHINE_POWER_POLICY](/windows/desktop/api/PowrProf/ns-powrprof-_global_machine_power_policy)
 #### [GLOBAL_POWER_POLICY](/windows/desktop/api/PowrProf/ns-powrprof-_global_power_policy)

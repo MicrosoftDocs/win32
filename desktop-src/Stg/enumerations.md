@@ -20,7 +20,7 @@ The Structured Storage enumerations are described in the following sections.
 -   [**LOCKTYPE**](/windows/desktop/api/Objidl/ne-objidl-taglocktype)
 -   [**STATFLAG**](/windows/desktop/api/WTypes/ne-wtypes-tagstatflag)
 -   [**STGC**](/windows/desktop/api/WTypes/ne-wtypes-tagstgc)
--   [**STGFMT**](/windows/desktop/api/Objbase/)
+-   [**STGFMT**](https://msdn.microsoft.com/en-us/library/Aa380330(v=VS.85).aspx)
 -   [**STGMOVE**](/windows/desktop/api/WTypes/ne-wtypes-tagstgmove)
 -   [**STGTY**](/windows/desktop/api/Objidl/ne-objidl-tagstgty)
 -   [**STREAM\_SEEK**](/windows/desktop/api/Objidl/ne-objidl-tagstream_seek)

@@ -34,7 +34,7 @@ typedef struct D3DDEVICE_CREATION_PARAMETERS {
 **AdapterOrdinal**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -45,18 +45,18 @@ Ordinal number that denotes the display adapter. D3DADAPTER\_DEFAULT is always t
 **DeviceType**
 </dt> <dd>
 
-Type: **[**D3DDEVTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddevtype.htm)**
+Type: **[**D3DDEVTYPE**](https://msdn.microsoft.com/en-us/library/Bb172547(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Member of the [**D3DDEVTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddevtype.htm) enumerated type. Denotes the amount of emulated functionality for this device. The value of this parameter mirrors the value passed to the [**CreateDevice**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-createdevice) call that created this device.
+Member of the [**D3DDEVTYPE**](https://msdn.microsoft.com/en-us/library/Bb172547(v=VS.85).aspx) enumerated type. Denotes the amount of emulated functionality for this device. The value of this parameter mirrors the value passed to the [**CreateDevice**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-createdevice) call that created this device.
 
 </dd> <dt>
 
 **hFocusWindow**
 </dt> <dd>
 
-Type: **[**HWND**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**HWND**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -67,7 +67,7 @@ Window handle to which focus belongs for this Direct3D device. The value of this
 **BehaviorFlags**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

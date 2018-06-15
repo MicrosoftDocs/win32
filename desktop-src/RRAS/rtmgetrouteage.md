@@ -56,7 +56,7 @@ The return value is one of the following values.
 | Value                                                                                   | Description                                                                                                                                                  |
 |-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**RouteAge**</dt> </dl> | The time in seconds since a route was created or last updated.<br/>                                                                                    |
-| <dl> <dt>**INFINITE**</dt> </dl> | The content of the route structure is invalid. In this case, a call to [**GetLastError**](https://msdn.microsoft.com/windows/desktop/d852e148-985c-416f-a5a7-27b6914b45d4) returns ERROR\_INVALID\_PARAMETER.<br/> |
+| <dl> <dt>**INFINITE**</dt> </dl> | The content of the route structure is invalid. In this case, a call to [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx) returns ERROR\_INVALID\_PARAMETER.<br/> |
 
 
 
@@ -91,7 +91,7 @@ The route age is computed from the RR\_TimeStamp member of the structure that is
 [Routing Table Manager Version 1 Functions](routing-table-manager-version-1-functions.md)
 </dt> <dt>
 
-[**GetLastError**](https://msdn.microsoft.com/windows/desktop/d852e148-985c-416f-a5a7-27b6914b45d4)
+[**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx)
 </dt> <dt>
 
 [**RTM\_IP\_ROUTE**](rtm-ip-route.md)

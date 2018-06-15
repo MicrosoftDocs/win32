@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [Windows Server Update Services 3.0 Class Library](https://msdn.microsoft.com/windows/desktop/995e4afc-4bf5-413a-9bd4-a7abbd7f55b1)
+-   [Windows Server Update Services 3.0 Class Library](https://msdn.microsoft.com/en-us/library/ms744624(v=VS.85).aspx)
 -   [Windows Server Update Services 2.0 Class Library](windows-server-update-services-2-0-class-library.md)
 -   [Windows Update Agent API](https://msdn.microsoft.com/library/windows/desktop/aa387099)
 

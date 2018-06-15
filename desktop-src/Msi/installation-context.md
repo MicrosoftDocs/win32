@@ -57,7 +57,7 @@ The following table compares the locations of registry entries for the per-machi
 Windows Installer sets the values of the folder properties to the full path of the respective folder for the installation context.
 
 > [!Note]  
-> Folders are identified by their [**KNOWNFOLDERID**](https://msdn.microsoft.com/windows/desktop/f2c08ade-3083-44e4-82b0-dde45f0e3094) and [**CSIDL**](https://www.bing.com/search?q=**CSIDL**) constants. Beginning with Windows Vista, applications should use the [**SHGetKnownFolderPath**](https://msdn.microsoft.com/windows/desktop/5434c744-484b-4c34-9a76-dddbcb81eb29) function and the **KNOWNFOLDERID** to determine the full path to the special folders. Existing applications that use the **SHGetFolderPath** function and constant special item IDs ([**CSIDL**](https://www.bing.com/search?q=**CSIDL**)) will continue to work.
+> Folders are identified by their [**KNOWNFOLDERID**](https://msdn.microsoft.com/en-us/library/Dd378457(v=VS.85).aspx) and [**CSIDL**](https://www.bing.com/search?q=**CSIDL**) constants. Beginning with Windows Vista, applications should use the [**SHGetKnownFolderPath**](https://msdn.microsoft.com/en-us/library/Bb762188(v=VS.85).aspx) function and the **KNOWNFOLDERID** to determine the full path to the special folders. Existing applications that use the **SHGetFolderPath** function and constant special item IDs ([**CSIDL**](https://www.bing.com/search?q=**CSIDL**)) will continue to work.
 
  
 

@@ -21,7 +21,7 @@ The following table provides an overview of the structures and other definitions
 
 | Function                                                                      | Description                                                                                  |
 |-------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| [**WSMAN\_SHELL\_COMPLETION\_FUNCTION**](/windows/desktop/api/Wsman/nc-wsman-wsman_shell_completion_function) | The callback function that is called for shell operations, which result in a remote request. |
+| [**WSMAN\_SHELL\_COMPLETION\_FUNCTION**](https://msdn.microsoft.com/en-us/library/Dd891185(v=VS.85).aspx) | The callback function that is called for shell operations, which result in a remote request. |
 
 
 

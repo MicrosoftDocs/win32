@@ -180,7 +180,7 @@ If the application does not call [**LoadLibraryEx**](/windows/desktop/api/LibLoa
 [Dynamic-Link Library Security](dynamic-link-library-security.md)
 </dt> <dt>
 
-[**LoadLibrary**](https://www.bing.com/search?q=**LoadLibrary**)
+[**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx)
 </dt> <dt>
 
 [**LoadLibraryEx**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa)

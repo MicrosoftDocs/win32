@@ -19,7 +19,7 @@ This section explains how to perform the following tasks associated with window 
 
 ## Designing a Window Procedure
 
-The following example shows the structure of a typical window procedure. The window procedure uses the message argument in a **switch** statement with individual messages handled by separate **case** statements. Notice that each case returns a specific value for each message. For messages that it does not process, the window procedure calls the [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) function.
+The following example shows the structure of a typical window procedure. The window procedure uses the message argument in a **switch** statement with individual messages handled by separate **case** statements. Notice that each case returns a specific value for each message. For messages that it does not process, the window procedure calls the [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) function.
 
 
 ```
@@ -61,19 +61,19 @@ LRESULT CALLBACK MainWndProc(
 
 
 
-The [**WM\_NCCREATE**](wm-nccreate.md) message is sent just after your window is created, but if an application responds to this message by returning **FALSE**, [**CreateWindowEx**](/windows/desktop/api/Winuser/nf-winuser-createwindowexa) function fails. The [**WM\_CREATE**](wm-create.md) message is sent after your window is already created.
+The [**WM\_NCCREATE**](wm-nccreate.md) message is sent just after your window is created, but if an application responds to this message by returning **FALSE**, [**CreateWindowEx**](https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx) function fails. The [**WM\_CREATE**](wm-create.md) message is sent after your window is already created.
 
-The [**WM\_DESTROY**](wm-destroy.md) message is sent when your window is about to be destroyed. The [**DestroyWindow**](/windows/desktop/api/Winuser/nf-winuser-destroywindow) function takes care of destroying any child windows of the window being destroyed. The [**WM\_NCDESTROY**](wm-ncdestroy.md) message is sent just before a window is destroyed.
+The [**WM\_DESTROY**](wm-destroy.md) message is sent when your window is about to be destroyed. The [**DestroyWindow**](https://msdn.microsoft.com/en-us/library/ms632682(v=VS.85).aspx) function takes care of destroying any child windows of the window being destroyed. The [**WM\_NCDESTROY**](wm-ncdestroy.md) message is sent just before a window is destroyed.
 
-At the very least, a window procedure should process the [**WM\_PAINT**](https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881) message to draw itself. Typically, it should handle mouse and keyboard messages as well. Consult the descriptions of individual messages to determine whether your window procedure should handle them.
+At the very least, a window procedure should process the [**WM\_PAINT**](https://msdn.microsoft.com/en-us/library/Dd145213(v=VS.85).aspx) message to draw itself. Typically, it should handle mouse and keyboard messages as well. Consult the descriptions of individual messages to determine whether your window procedure should handle them.
 
-Your application can call the [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) function as part of the processing of a message. In such a case, the application can modify the message parameters before passing the message to **DefWindowProc**, or it can continue with the default processing after performing its own operations.
+Your application can call the [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) function as part of the processing of a message. In such a case, the application can modify the message parameters before passing the message to **DefWindowProc**, or it can continue with the default processing after performing its own operations.
 
-A dialog box procedure receives a [**WM\_INITDIALOG**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxmessages\wm_initdialog.htm) message instead of a [**WM\_CREATE**](wm-create.md) message and does not pass unprocessed messages to the [**DefDlgProc**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\defdlgproc.htm) function. Otherwise, a dialog box procedure is exactly the same as a window procedure.
+A dialog box procedure receives a [**WM\_INITDIALOG**](https://msdn.microsoft.com/en-us/library/ms645428(v=VS.85).aspx) message instead of a [**WM\_CREATE**](wm-create.md) message and does not pass unprocessed messages to the [**DefDlgProc**](https://msdn.microsoft.com/en-us/library/ms645450(v=VS.85).aspx) function. Otherwise, a dialog box procedure is exactly the same as a window procedure.
 
 ## Associating a Window Procedure with a Window Class
 
-You associate a window procedure with a window class when registering the class. You must fill a [**WNDCLASS**](/windows/desktop/api/Winuser/ns-winuser-tagwndclassa) structure with information about the class, and the **lpfnWndProc** member must specify the address of the window procedure. To register the class, pass the address of **WNDCLASS** structure to the [**RegisterClass**](/windows/desktop/api/Winuser/nc-winuser-pregisterclassnamew) function. After the window class has been registered, the window procedure is automatically associated with each new window created with that class.
+You associate a window procedure with a window class when registering the class. You must fill a [**WNDCLASS**](https://msdn.microsoft.com/en-us/library/ms633576(v=VS.85).aspx) structure with information about the class, and the **lpfnWndProc** member must specify the address of the window procedure. To register the class, pass the address of **WNDCLASS** structure to the [**RegisterClass**](https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx) function. After the window class has been registered, the window procedure is automatically associated with each new window created with that class.
 
 The following example shows how to associate the window procedure in the previous example with a window class.
 
@@ -113,10 +113,10 @@ int APIENTRY WinMain(
 
 ## Subclassing a Window
 
-To subclass an instance of a window, call the [**SetWindowLong**](/windows/desktop/api/Winuser/nf-winuser-setwindowlonga) function and specify the handle to the window to subclass the GWL\_WNDPROC flag and a pointer to the subclass procedure. **SetWindowLong** returns a pointer to the original window procedure; use this pointer to pass messages to the original procedure. The subclass window procedure must use the [**CallWindowProc**](/windows/desktop/api/Winuser/nf-winuser-callwindowproca) function to call the original window procedure.
+To subclass an instance of a window, call the [**SetWindowLong**](https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx) function and specify the handle to the window to subclass the GWL\_WNDPROC flag and a pointer to the subclass procedure. **SetWindowLong** returns a pointer to the original window procedure; use this pointer to pass messages to the original procedure. The subclass window procedure must use the [**CallWindowProc**](https://msdn.microsoft.com/en-us/library/ms633571(v=VS.85).aspx) function to call the original window procedure.
 
 > [!Note]  
-> To write code that is compatible with both 32-bit and 64-bit versions of Windows, use the [**SetWindowLongPtr**](/windows/desktop/api/Winuser/nf-winuser-setwindowlongptra) function.
+> To write code that is compatible with both 32-bit and 64-bit versions of Windows, use the [**SetWindowLongPtr**](https://msdn.microsoft.com/en-us/library/ms644898(v=VS.85).aspx) function.
 
  
 

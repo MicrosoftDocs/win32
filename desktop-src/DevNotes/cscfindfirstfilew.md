@@ -86,7 +86,7 @@ This parameter can be one of the following values.
 *lpOrgFileTime* \[out\]
 </dt> <dd>
 
-A pointer to a [**FILETIME**](https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1) structure to receive the date and time information for the file or subdirectory.
+A pointer to a [**FILETIME**](https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx) structure to receive the date and time information for the file or subdirectory.
 
 </dd> </dl>
 
@@ -98,7 +98,7 @@ If the function fails, the return value is **INVALID\_HANDLE\_VALUE**.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions.
 
 ## Requirements
 

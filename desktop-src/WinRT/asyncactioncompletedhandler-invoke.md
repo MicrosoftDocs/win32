@@ -31,7 +31,7 @@ HRESULT Invoke(
 *asyncInfo* \[in\]
 </dt> <dd>
 
-Type: **[**IAsyncAction**](https://www.bing.com/search?q=**IAsyncAction**)\***
+Type: **[**IAsyncAction**](https://msdn.microsoft.com/en-us/library/BR205781(v=VS.85).aspx)\***
 
 The asynchronous action that reports completion.
 

@@ -25,11 +25,11 @@ Gets the value of the property by index.
 
 | Method                                                                                      | Description                                                                                |
 |:--------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------|
-| [**GetValue(U)**](/windows/desktop/api/D2d1_1/)                                            | Gets the value of the property by index. This is a template overload.<br/>           |
-| [**GetValue(U, T\*)**](/windows/desktop/api/D2d1_1/)                                       | Gets the value of the property by index. This is a template overload.<br/>           |
-| [**GetValue(U, BYTE\*, UINT32)**](/windows/desktop/api/D2d1_1/)                            | Gets the value of the specified property by index. This is a template overload.<br/> |
-| [**GetValue(UINT32, BYTE\*, UINT32)**](/windows/desktop/api/D2d1_1/)                        | Gets the value of the specified property by index.<br/>                              |
-| [**GetValue(UINT32, D2D1\_PROPERTY\_TYPE, BYTE\*, UINT32)**](/windows/desktop/api/D2d1_1/) | Gets the value of the specified property by index.<br/>                              |
+| [**GetValue(U)**](https://msdn.microsoft.com/en-us/library/JJ151743(v=VS.85).aspx)                                            | Gets the value of the property by index. This is a template overload.<br/>           |
+| [**GetValue(U, T\*)**](https://msdn.microsoft.com/en-us/library/JJ151742(v=VS.85).aspx)                                       | Gets the value of the property by index. This is a template overload.<br/>           |
+| [**GetValue(U, BYTE\*, UINT32)**](https://msdn.microsoft.com/en-us/library/JJ151741(v=VS.85).aspx)                            | Gets the value of the specified property by index. This is a template overload.<br/> |
+| [**GetValue(UINT32, BYTE\*, UINT32)**](https://msdn.microsoft.com/en-us/library/Hh446876(v=VS.85).aspx)                        | Gets the value of the specified property by index.<br/>                              |
+| [**GetValue(UINT32, D2D1\_PROPERTY\_TYPE, BYTE\*, UINT32)**](https://msdn.microsoft.com/en-us/library/JJ151740(v=VS.85).aspx) | Gets the value of the specified property by index.<br/>                              |
 
 
 
@@ -37,7 +37,7 @@ Gets the value of the property by index.
 
 <dl> <dt>
 
-[**ID2D1Properties**](/windows/desktop/api/D2d1_1/)
+[**ID2D1Properties**](https://msdn.microsoft.com/en-us/library/Hh446854(v=VS.85).aspx)
 </dt> </dl>
 
  

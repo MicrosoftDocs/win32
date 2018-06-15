@@ -55,7 +55,7 @@ This function always returns S\_OK.
 
 ## Remarks
 
-This function has no associated .lib file. You must use [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) to use it.
+This function has no associated .lib file. You must use [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) to use it.
 
 ## Requirements
 

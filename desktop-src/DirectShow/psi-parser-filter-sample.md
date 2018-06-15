@@ -102,7 +102,7 @@ hr = pPsi->GetCountOfElementaryStreams(ProgNum, &amp;cElemStreams);
 
 
 
-For each elementary stream, the [**IMpeg2PsiParser::GetRecordElementaryPid**](/windows/desktop/api/mpeg2psiparser/) method returns the PID, and the [**IMpeg2PsiParser::GetRecordStreamType**](/windows/desktop/api/mpeg2psiparser/) method returns the stream type:
+For each elementary stream, the [**IMpeg2PsiParser::GetRecordElementaryPid**](https://msdn.microsoft.com/en-us/library/Dd376623(v=VS.85).aspx) method returns the PID, and the [**IMpeg2PsiParser::GetRecordStreamType**](https://msdn.microsoft.com/en-us/library/Dd376626(v=VS.85).aspx) method returns the stream type:
 
 
 ```C++

@@ -20,7 +20,7 @@ The **Template** object represents the certificate extension template of the cer
 The **Template** object is used to perform the following tasks:
 
 -   Determine whether the template is marked critical or present.
--   Retrieve the [*object identifier*](https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521) (OID) or name of the template.
+-   Retrieve the [*object identifier*](https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx) (OID) or name of the template.
 -   Retrieve the minor or major version of the template.
 
 ## Members

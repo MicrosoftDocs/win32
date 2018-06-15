@@ -87,14 +87,14 @@ Specifying this flag causes the vertex and index buffer of the mesh to be create
 <span id="D3DXMESH_VB_SYSTEMMEM"></span><span id="d3dxmesh_vb_systemmem"></span>**D3DXMESH\_VB\_SYSTEMMEM**
 </dt> <dd>
 
-Use the [**D3DPOOL\_SYSTEMMEM**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dpool.htm) usage flag for vertex buffers.
+Use the [**D3DPOOL\_SYSTEMMEM**](https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx) usage flag for vertex buffers.
 
 </dd> <dt>
 
 <span id="D3DXMESH_VB_MANAGED"></span><span id="d3dxmesh_vb_managed"></span>**D3DXMESH\_VB\_MANAGED**
 </dt> <dd>
 
-Use the [**D3DPOOL\_MANAGED**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dpool.htm) usage flag for vertex buffers.
+Use the [**D3DPOOL\_MANAGED**](https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx) usage flag for vertex buffers.
 
 </dd> <dt>
 
@@ -122,14 +122,14 @@ Use the [**D3DUSAGE\_SOFTWAREPROCESSING**](d3dusage.md) usage flag for vertex bu
 <span id="D3DXMESH_IB_SYSTEMMEM"></span><span id="d3dxmesh_ib_systemmem"></span>**D3DXMESH\_IB\_SYSTEMMEM**
 </dt> <dd>
 
-Use the [**D3DPOOL\_SYSTEMMEM**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dpool.htm) usage flag for index buffers.
+Use the [**D3DPOOL\_SYSTEMMEM**](https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx) usage flag for index buffers.
 
 </dd> <dt>
 
 <span id="D3DXMESH_IB_MANAGED"></span><span id="d3dxmesh_ib_managed"></span>**D3DXMESH\_IB\_MANAGED**
 </dt> <dd>
 
-Use the [**D3DPOOL\_MANAGED**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dpool.htm) usage flag for index buffers.
+Use the [**D3DPOOL\_MANAGED**](https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx) usage flag for index buffers.
 
 </dd> <dt>
 

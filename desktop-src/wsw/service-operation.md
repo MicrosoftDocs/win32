@@ -76,7 +76,7 @@ The following enumerations are used with service operations:
 
 -   [**WS\_PARAMETER\_TYPE**](/windows/desktop/api/WebServices/ne-webservices-ws_parameter_type)
 -   [**WS\_SERVICE\_CANCEL\_REASON**](/windows/desktop/api/WebServices/ne-webservices-ws_service_cancel_reason)
--   [**WS\_SERVICE\_OPERATION\_MESSAGE\_OPTION**](/windows/desktop/api/WebServices/)
+-   [**WS\_SERVICE\_OPERATION\_MESSAGE\_OPTION**](https://msdn.microsoft.com/en-us/library/Dd819129(v=VS.85).aspx)
 
 The following structures are used with service operations:
 

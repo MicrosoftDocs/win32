@@ -11,10 +11,10 @@ ms.date: 05/31/2018
 
 # Using the Recognizers Collection
 
-If you use multiple recognizers, you can use the [**Recognizers**](/windows/desktop/api/msinkaut/) collection to list available recognizers and enable a user to select from among them. A **Recognizers** collection checks for installed recognizers, queries the attributes of the [**Recognizer**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer) objects, and stores the results. Applications can use the **Recognizers** collection to display a list of available recognizers without loading each recognizer DLL.
+If you use multiple recognizers, you can use the [**Recognizers**](https://msdn.microsoft.com/en-us/library/ms702438(v=VS.85).aspx) collection to list available recognizers and enable a user to select from among them. A **Recognizers** collection checks for installed recognizers, queries the attributes of the [**Recognizer**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer) objects, and stores the results. Applications can use the **Recognizers** collection to display a list of available recognizers without loading each recognizer DLL.
 
 > [!Note]  
-> The [**Recognizers**](/windows/desktop/api/msinkaut/) collection uses the system registry to check for both Microsoft recognizers and third-party recognizers.
+> The [**Recognizers**](https://msdn.microsoft.com/en-us/library/ms702438(v=VS.85).aspx) collection uses the system registry to check for both Microsoft recognizers and third-party recognizers.
 
  
 
@@ -44,7 +44,7 @@ The following table shows the values of the language identifiers each Microsoft 
 
  
 
-For more information about language identifiers, see [Language Identifier Constants and Strings](https://msdn.microsoft.com/8a6373e0-46c2-4b1b-bc67-543f426ef15a).
+For more information about language identifiers, see [Language Identifier Constants and Strings](https://msdn.microsoft.com/en-us/library/Dd318693(v=VS.85).aspx).
 
  
 

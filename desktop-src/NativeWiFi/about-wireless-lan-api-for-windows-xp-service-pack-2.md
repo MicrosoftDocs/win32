@@ -27,7 +27,7 @@ Because of underlying architectural differences in Windows XP, the Native Wifi 
 
 The following functions are supported by Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:
 
--   [**WLAN\_NOTIFICATION\_CALLBACK**](/windows/desktop/api/wlanapi/nc-wlanapi-wlan_notification_callback)
+-   [**WLAN\_NOTIFICATION\_CALLBACK**](https://msdn.microsoft.com/en-us/library/ms706278(v=VS.85).aspx)
 -   [**WlanAllocateMemory**](/windows/desktop/api/wlanapi/nf-wlanapi-wlanallocatememory)
 -   [**WlanCloseHandle**](/windows/desktop/api/wlanapi/nf-wlanapi-wlanclosehandle)
 -   [**WlanConnect**](/windows/desktop/api/wlanapi/nf-wlanapi-wlanconnect)

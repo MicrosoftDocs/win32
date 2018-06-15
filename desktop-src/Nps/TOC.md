@@ -88,7 +88,7 @@
 ###### [CLIENTPROPERTIES](/windows/desktop/api/SdoIas/ne-sdoias-_clientproperties)
 ###### [CONDITIONPROPERTIES](/windows/desktop/api/SdoIas/ne-sdoias-_conditionproperties)
 ###### [DICTIONARYPROPERTIES](/windows/desktop/api/SdoIas/ne-sdoias-_dictionaryproperties)
-###### [EAPWRAPPROPERTIES](/windows/desktop/api/SdoIas/)
+###### [EAPWRAPPROPERTIES](https://msdn.microsoft.com/en-us/library/Bb960627(v=VS.85).aspx)
 ###### [IASCOMMONPROPERTIES](/windows/desktop/api/SdoIas/ne-sdoias-_iascommonproperties)
 ###### [IASCOMPONENTPROPERTIES](/windows/desktop/api/SdoIas/ne-sdoias-_iascomponentproperties)
 ###### [IASDATASTORE](/windows/desktop/api/SdoIas/ne-sdoias-_iasdatastore)

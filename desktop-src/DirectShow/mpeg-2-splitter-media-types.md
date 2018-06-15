@@ -43,7 +43,7 @@ For AC-3 audio, the media types are as follows.
 | Major Type       | MEDIATYPE\_MPEG2\_PES                | **MEDIATYPE\_Audio**         |
 | Subtype          | MEDIASUBTYPE\_DOLBY\_AC3             | **MEDIASUBTYPE\_DOLBY\_AC3** |
 | Format Type      | FORMAT\_WaveFormatEx                 | **FORMAT\_WaveFormatEx**     |
-| Format Structure | [**WAVEFORMATEX**](/windows/desktop/api/mmreg/) | **WAVEFORMATEX**             |
+| Format Structure | [**WAVEFORMATEX**](https://www.bing.com/search?q=**WAVEFORMATEX**) | **WAVEFORMATEX**             |
 
 
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # InkCollector Object Events
 
-The following table describes which threads the [**InkCollector**](/windows/desktop/api/msinkaut/) object events can fire on.
+The following table describes which threads the [**InkCollector**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx) object events can fire on.
 
 
 

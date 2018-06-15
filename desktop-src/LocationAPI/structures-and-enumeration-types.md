@@ -19,7 +19,7 @@ The Location API defines the following enumeration types.
 
 | Enumeration                                                                       | Description                                                          |
 |-----------------------------------------------------------------------------------|----------------------------------------------------------------------|
-| [**LOCATION\_DESIRED\_ACCURACY**](/windows/desktop/api/LocationApi/)                  | Defines the possible desired accuracy types.                         |
+| [**LOCATION\_DESIRED\_ACCURACY**](https://msdn.microsoft.com/en-us/library/Dd756639(v=VS.85).aspx)                  | Defines the possible desired accuracy types.                         |
 | [**LOCATION\_REPORT\_STATUS**](https://www.bing.com/search?q=**LOCATION\_REPORT\_STATUS**) | Defines possible status for new reports of a particular report type. |
 
 

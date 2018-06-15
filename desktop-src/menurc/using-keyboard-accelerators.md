@@ -51,7 +51,7 @@ This section covers the following topics.
 
 ### Creating the Accelerator Table Resource
 
-You create an accelerator-table resource by using the [ACCELERATORS](https://msdn.microsoft.com/windows/desktop/5953ee2d-b7a7-45d2-8445-4cba1207e272) statement in your application's resource-definition file. You must assign a name or resource identifier to the accelerator table, preferably unlike that of any other resource. The system uses this identifier to load the resource at run time.
+You create an accelerator-table resource by using the [ACCELERATORS](https://msdn.microsoft.com/en-us/library/Aa380610(v=VS.85).aspx) statement in your application's resource-definition file. You must assign a name or resource identifier to the accelerator table, preferably unlike that of any other resource. The system uses this identifier to load the resource at run time.
 
 Each accelerator you define requires a separate entry in the accelerator table. In each entry, you define the keystroke (either an ASCII character code or virtual-key code) that generates the accelerator and the accelerator's identifier. You must also specify whether the keystroke must be used in some combination with the ALT, SHIFT, or CTRL keys. For more information about virtual keys, see [Keyboard Input](https://msdn.microsoft.com/library/windows/desktop/ms645530).
 

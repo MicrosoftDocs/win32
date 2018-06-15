@@ -30,12 +30,12 @@ Cryptography API: Next Generation (CNG) defines the following functions that are
 -   [**BCryptQueryContextFunctionProperty**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptquerycontextfunctionproperty)
 -   [**BCryptQueryProviderRegistration**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptqueryproviderregistration)
 -   [**BCryptRegisterConfigChangeNotify(HANDLE\*)**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify)
--   [**BCryptRegisterConfigChangeNotify(PRKEVENT)**](/windows/desktop/api/Bcrypt/)
+-   [**BCryptRegisterConfigChangeNotify(PRKEVENT)**](https://msdn.microsoft.com/en-us/library/Bb394681(v=VS.85).aspx)
 -   [**BCryptRemoveContextFunction**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptremovecontextfunction)
 -   [**BCryptResolveProviders**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptresolveproviders)
 -   [**BCryptSetContextFunctionProperty**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptsetcontextfunctionproperty)
 -   [**BCryptUnregisterConfigChangeNotify(HANDLE)**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptunregisterconfigchangenotify)
--   [**BCryptUnregisterConfigChangeNotify(PRKEVENT)**](/windows/desktop/api/Bcrypt/)
+-   [**BCryptUnregisterConfigChangeNotify(PRKEVENT)**](https://msdn.microsoft.com/en-us/library/Bb394683(v=VS.85).aspx)
 
  
 

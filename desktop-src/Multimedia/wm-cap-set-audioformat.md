@@ -46,7 +46,7 @@ Size, in bytes, of the structure referenced by **s**.
 <span id="psAudioFormat"></span><span id="psaudioformat"></span><span id="PSAUDIOFORMAT"></span>*psAudioFormat*
 </dt> <dd>
 
-Pointer to a [**WAVEFORMATEX**](/windows/desktop/api/Mmreg/) or [**PCMWAVEFORMAT**](https://www.bing.com/search?q=**PCMWAVEFORMAT**) structure that defines the audio format.
+Pointer to a [**WAVEFORMATEX**](https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx) or [**PCMWAVEFORMAT**](https://msdn.microsoft.com/en-us/library/Dd743663(v=VS.85).aspx) structure that defines the audio format.
 
 </dd> </dl>
 

@@ -75,7 +75,7 @@ There are three parts to using a texture.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Differences between Direct3D 9 and Direct3D 10:<br/> Direct3D 9 uses [<strong>intrinsic texture functions</strong>](dx-graphics-hlsl-intrinsic-functions.md) to perform texture operations. This example is from the [BasicHLSL Sample](https://msdn.microsoft.com/windows/desktop/c1164af8-8570-210f-304e-0fb07281c294) and uses [<strong>tex2D(s, t) (DirectX HLSL)</strong>](dx-graphics-hlsl-tex2d.md) to perform texture sampling.<br/> <span data-codelanguage=""></span>
+<td>Differences between Direct3D 9 and Direct3D 10:<br/> Direct3D 9 uses [<strong>intrinsic texture functions</strong>](dx-graphics-hlsl-intrinsic-functions.md) to perform texture operations. This example is from the [BasicHLSL Sample](https://msdn.microsoft.com/en-us/library/Ee416223(v=VS.85).aspx) and uses [<strong>tex2D(s, t) (DirectX HLSL)</strong>](dx-graphics-hlsl-tex2d.md) to perform texture sampling.<br/> <span data-codelanguage=""></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -87,7 +87,7 @@ There are three parts to using a texture.
 </tbody>
 </table>
 
-<p>Direct3D 10 uses [templated texture objects](dx-graphics-hlsl-to-type.md) instead. Here is an example of the equivalent texture operation. This example is from the [BasicHLSL10 Sample](https://msdn.microsoft.com/windows/desktop/e749975d-211e-f7ed-5dd1-b9c29681c71b) and uses the [sample](dx-graphics-hlsl-to-sample.md) texture-object function.</p>
+<p>Direct3D 10 uses [templated texture objects](dx-graphics-hlsl-to-type.md) instead. Here is an example of the equivalent texture operation. This example is from the [BasicHLSL10 Sample](https://msdn.microsoft.com/en-us/library/Ee416395(v=VS.85).aspx) and uses the [sample](dx-graphics-hlsl-to-sample.md) texture-object function.</p>
 <div class="code">
 <span data-codelanguage=""></span>
 <table>

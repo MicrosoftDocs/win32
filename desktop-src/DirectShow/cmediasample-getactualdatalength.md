@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CMediaSample.GetActualDataLength method
 
-The `GetActualDataLength` method retrieves the length of the valid data in the buffer. This method implements the [**IMediaSample::GetActualDataLength**](/windows/desktop/api/Dshow/nf-strmif-imediasample-getactualdatalength) method.
+The `GetActualDataLength` method retrieves the length of the valid data in the buffer. This method implements the [**IMediaSample::GetActualDataLength**](https://msdn.microsoft.com/en-us/library/Dd407007(v=VS.85).aspx) method.
 
 ## Syntax
 

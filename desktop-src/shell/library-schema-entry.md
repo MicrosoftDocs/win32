@@ -125,7 +125,7 @@ The following is an example of a Library Description file that defines a library
 [version Element (Library Schema)](schema-library-version.md)
 </dt> <dt>
 
-[Search Connector Description Schema](https://msdn.microsoft.com/VS|SEARCH|~\search\fedsearch\reference\searchconnectordescentry.htm)
+[Search Connector Description Schema](https://msdn.microsoft.com/en-us/library/Dd940480(v=VS.85).aspx)
 </dt> </dl>
 
  

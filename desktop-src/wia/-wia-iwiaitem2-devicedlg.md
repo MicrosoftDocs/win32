@@ -109,7 +109,7 @@ This method displays a dialog box to the user that an application uses to gather
 
 After this method returns, the application can use the [**IWiaTransfer**](-wia-iwiatransfer.md) interface to acquire the image.
 
-Applications must call the [IUnknown::Release](https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a) method for each element in the array of interface pointers they receive through the *ppIWiaItem2* parameter. Applications must also free the array using [CoTaskMemFree](https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7).
+Applications must call the [IUnknown::Release](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) method for each element in the array of interface pointers they receive through the *ppIWiaItem2* parameter. Applications must also free the array using [CoTaskMemFree](https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx).
 
 ## Requirements
 

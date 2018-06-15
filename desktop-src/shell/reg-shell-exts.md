@@ -89,7 +89,7 @@ For the following handlers, the default value of the "Handler Subkey Name" key i
 
  
 
-The subkeys specified to add **Pin to Start Menu** and **Pin to Taskbar** to an item's shortcut menu are only required for file types that include the [IsShortCut](https://msdn.microsoft.com/32ad306d-54bd-4130-ad30-08db50ef106e) entry.
+The subkeys specified to add **Pin to Start Menu** and **Pin to Taskbar** to an item's shortcut menu are only required for file types that include the [IsShortCut](https://msdn.microsoft.com/en-us/library/Bb776891(v=VS.85).aspx) entry.
 
 ## Predefined Shell Objects
 
@@ -133,7 +133,7 @@ The following table gives the various subkeys of **HKEY\_CLASSES\_ROOT** under w
 -   The file folder background shortcut menu is accessed by right-clicking within a file folder, but not over any of the folder's contents.
 -   "Verbs" are special commands registered under **HKEY\_CLASSES\_ROOT**\\*Subkey*\\**Shell**\\**Verb**.
 -   For **Network**\\**Type**\\**\#**, "\#" is a network provider type code in decimal. The network provider type code is the high word of a network type. The list of network types is given in the Winnetwk.h header file (WNNC\_NET\_\* values). For example, WNNC\_NET\_SHIVA is 0x00330000, so the corresponding type subkey would be **HKEY\_CLASSES\_ROOT**\\**Network**\\**Type**\\**51**.
--   "*network\_provider\_name*" is a network provider name as specified by [**WNetGetProviderName**](https://msdn.microsoft.com/c1369098-c574-4d5f-8051-ca5aa548e63f), with the spaces converted into underscores. For example, if the Microsoft Networking network provider is installed, its provider name is "Microsoft Windows Network", and the corresponding *network\_provider\_name* is **Microsoft\_Windows\_Network**.
+-   "*network\_provider\_name*" is a network provider name as specified by [**WNetGetProviderName**](https://msdn.microsoft.com/en-us/library/Aa385464(v=VS.85).aspx), with the spaces converted into underscores. For example, if the Microsoft Networking network provider is installed, its provider name is "Microsoft Windows Network", and the corresponding *network\_provider\_name* is **Microsoft\_Windows\_Network**.
 
 ## Example of an Extension Handler Registration
 

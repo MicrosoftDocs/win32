@@ -19,13 +19,13 @@ Time stamps are updated at various times and for various reasons. The only guara
 
 Not all file systems can record creation and last access times, and not all file systems record them in the same manner. For example, the resolution of create time on FAT is 10 milliseconds, while write time has a resolution of 2 seconds and access time has a resolution of 1 day, so it is really the access date. The NTFS file system delays updates to the last access time for a file by up to 1 hour after the last access.
 
-To retrieve the file times for a specified file, use the [**GetFileTime**](/windows/desktop/api/FileAPI/nf-fileapi-getfiletime) function. **GetFileTime** copies the creation, last access, and last write times to individual [**FILETIME**](https://www.bing.com/search?q=**FILETIME**) structures. You can also retrieve file times using the [**FindFirstFile**](https://msdn.microsoft.com/library/windows/desktop/aa364418) and [**FindNextFile**](https://msdn.microsoft.com/library/windows/desktop/aa364428) functions. These functions copy the file times to **FILETIME** structures in a [**WIN32\_FIND\_DATA**](https://msdn.microsoft.com/library/windows/desktop/aa365740) structure. When writing to a file, the last write time is not fully updated until all handles that are used for writing are closed.
+To retrieve the file times for a specified file, use the [**GetFileTime**](/windows/desktop/api/FileAPI/nf-fileapi-getfiletime) function. **GetFileTime** copies the creation, last access, and last write times to individual [**FILETIME**](https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx) structures. You can also retrieve file times using the [**FindFirstFile**](https://msdn.microsoft.com/library/windows/desktop/aa364418) and [**FindNextFile**](https://msdn.microsoft.com/library/windows/desktop/aa364428) functions. These functions copy the file times to **FILETIME** structures in a [**WIN32\_FIND\_DATA**](https://msdn.microsoft.com/library/windows/desktop/aa365740) structure. When writing to a file, the last write time is not fully updated until all handles that are used for writing are closed.
 
 To set the file times for a file, use the [**SetFileTime**](/windows/desktop/api/FileAPI/nf-fileapi-setfiletime) function. This function lets you modify creation, last access, and last write times without changing the content of the file. You can compare the times of different files by using the [**CompareFileTime**](/windows/desktop/api/FileAPI/nf-fileapi-comparefiletime) function. The function compares two file times and returns a value that indicates which time is later or returns 0 (zero) if the times are equal.
 
-If you plan to modify file times for specified files, you can convert a date and time of day to a file time by using the [**SystemTimeToFileTime**](/windows/desktop/api/Winbase/) function. You can also obtain the system time in a [**FILETIME**](https://www.bing.com/search?q=**FILETIME**) structure by calling the [**GetSystemTimeAsFileTime**](/windows/desktop/api/Winbase/) function.
+If you plan to modify file times for specified files, you can convert a date and time of day to a file time by using the [**SystemTimeToFileTime**](https://msdn.microsoft.com/en-us/library/ms724948(v=VS.85).aspx) function. You can also obtain the system time in a [**FILETIME**](https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx) structure by calling the [**GetSystemTimeAsFileTime**](https://msdn.microsoft.com/en-us/library/ms724397(v=VS.85).aspx) function.
 
-To make a file time easy to display to a user, use the [**FileTimeToSystemTime**](/windows/desktop/api/FileAPI/) function. **FileTimeToSystemTime** converts the file time and copies the month, day, year, and time of day from the file time to a [**SYSTEMTIME**](/windows/desktop/api/Winbase/) structure.
+To make a file time easy to display to a user, use the [**FileTimeToSystemTime**](https://msdn.microsoft.com/en-us/library/ms724280(v=VS.85).aspx) function. **FileTimeToSystemTime** converts the file time and copies the month, day, year, and time of day from the file time to a [**SYSTEMTIME**](https://msdn.microsoft.com/en-us/library/ms724950(v=VS.85).aspx) structure.
 
 ## File Times and Daylight Saving Time
 
@@ -37,9 +37,9 @@ The FAT file system records times on disk in local time. [**GetFileTime**](/wind
 
 The NTFS file system records times on disk in UTC. To account for daylight saving time when converting a file time to a local time, use the following sequence of functions instead of using [**FileTimeToLocalFileTime**](/windows/desktop/api/FileAPI/nf-fileapi-filetimetolocalfiletime):
 
--   [**FileTimeToSystemTime**](/windows/desktop/api/FileAPI/)
--   [**SystemTimeToTzSpecificLocalTime**](/windows/desktop/api/Winbase/)
--   [**SystemTimeToFileTime**](/windows/desktop/api/Winbase/)
+-   [**FileTimeToSystemTime**](https://msdn.microsoft.com/en-us/library/ms724280(v=VS.85).aspx)
+-   [**SystemTimeToTzSpecificLocalTime**](https://msdn.microsoft.com/en-us/library/ms724949(v=VS.85).aspx)
+-   [**SystemTimeToFileTime**](https://msdn.microsoft.com/en-us/library/ms724948(v=VS.85).aspx)
 
 ## File Times and CDFS
 

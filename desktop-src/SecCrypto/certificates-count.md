@@ -30,7 +30,7 @@ The number of [**Certificate**](certificate.md) objects in the collection. Each 
 
 ## Remarks
 
-CAPICOM only supports a single certificate for the [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) store. Even if the smart card store contains more than one certificate, this property will contain 1. For more information about the smart card store, see the **CAPICOM\_SMART\_CARD\_USER\_STORE** member of the [**CAPICOM\_STORE\_LOCATION**](capicom-store-location.md) enumeration.
+CAPICOM only supports a single certificate for the [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) store. Even if the smart card store contains more than one certificate, this property will contain 1. For more information about the smart card store, see the **CAPICOM\_SMART\_CARD\_USER\_STORE** member of the [**CAPICOM\_STORE\_LOCATION**](capicom-store-location.md) enumeration.
 
 ## Requirements
 

@@ -17,81 +17,81 @@ Use the following structures to implement RAS functionality.
 
 [**RAS\_STATS**](/windows/desktop/api/Ras/ns-ras-_ras_stats)
 
-[**RASADPARAMS**](/windows/desktop/api/Ras/)
+[**RASADPARAMS**](https://msdn.microsoft.com/en-us/library/Aa376719(v=VS.85).aspx)
 
-[**RASAMB**](/windows/desktop/api/Ras/)
+[**RASAMB**](https://msdn.microsoft.com/en-us/library/Aa376720(v=VS.85).aspx)
 
-[**RASAPIVERSION**](/windows/desktop/api/Ras/)
+[**RASAPIVERSION**](https://msdn.microsoft.com/en-us/library/Dd408102(v=VS.85).aspx)
 
-[**RASAUTODIALENTRY**](/windows/desktop/api/Ras/)
+[**RASAUTODIALENTRY**](https://msdn.microsoft.com/en-us/library/Aa376721(v=VS.85).aspx)
 
-[**RASCOMMSETTINGS**](/windows/desktop/api/Ras/)
+[**RASCOMMSETTINGS**](https://msdn.microsoft.com/en-us/library/Aa376724(v=VS.85).aspx)
 
-[**RASCONN**](/windows/desktop/api/Ras/)
+[**RASCONN**](https://msdn.microsoft.com/en-us/library/Aa376725(v=VS.85).aspx)
 
-[**RASCONNSTATUS**](/windows/desktop/api/Ras/)
+[**RASCONNSTATUS**](https://msdn.microsoft.com/en-us/library/Aa376728(v=VS.85).aspx)
 
-[**RASCREDENTIALS**](/windows/desktop/api/Ras/)
+[**RASCREDENTIALS**](https://msdn.microsoft.com/en-us/library/Aa376730(v=VS.85).aspx)
 
-[**RASCTRYINFO**](/windows/desktop/api/Ras/)
+[**RASCTRYINFO**](https://msdn.microsoft.com/en-us/library/Aa376731(v=VS.85).aspx)
 
-[**RASCUSTOMSCRIPTEXTENSIONS**](/windows/desktop/api/Ras/)
+[**RASCUSTOMSCRIPTEXTENSIONS**](https://msdn.microsoft.com/en-us/library/Aa376738(v=VS.85).aspx)
 
-[**RASDEVINFO**](/windows/desktop/api/Ras/)
+[**RASDEVINFO**](https://msdn.microsoft.com/en-us/library/Aa377001(v=VS.85).aspx)
 
 [**RASDEVSPECIFICINFO**](/windows/desktop/api/Ras/ns-ras-tagrasdevspecificinfo)
 
-[**RASDIALDLG**](/windows/desktop/api/Rasdlg/)
+[**RASDIALDLG**](https://msdn.microsoft.com/en-us/library/Aa377023(v=VS.85).aspx)
 
-[**RASDIALEXTENSIONS**](/windows/desktop/api/Ras/)
+[**RASDIALEXTENSIONS**](https://msdn.microsoft.com/en-us/library/Aa377029(v=VS.85).aspx)
 
-[**RASDIALPARAMS**](/windows/desktop/api/Ras/)
+[**RASDIALPARAMS**](https://msdn.microsoft.com/en-us/library/Aa377238(v=VS.85).aspx)
 
-[**RASEAPINFO**](/windows/desktop/api/Ras/)
+[**RASEAPINFO**](https://msdn.microsoft.com/en-us/library/Aa377242(v=VS.85).aspx)
 
-[**RASEAPUSERIDENTITY**](/windows/desktop/api/Ras/)
+[**RASEAPUSERIDENTITY**](https://msdn.microsoft.com/en-us/library/Aa377247(v=VS.85).aspx)
 
-[**RASENTRY**](/windows/desktop/api/Ras/)
+[**RASENTRY**](https://msdn.microsoft.com/en-us/library/Aa377274(v=VS.85).aspx)
 
-[**RASENTRYDLG**](/windows/desktop/api/Rasdlg/)
+[**RASENTRYDLG**](https://msdn.microsoft.com/en-us/library/Aa377260(v=VS.85).aspx)
 
-[**RASENTRYNAME**](/windows/desktop/api/Ras/)
+[**RASENTRYNAME**](https://msdn.microsoft.com/en-us/library/Aa377267(v=VS.85).aspx)
 
 [**RASIKEV2\_PROJECTION\_INFO**](https://msdn.microsoft.com/library/windows/desktop/dd408106)
 
-[**RASIPADDR**](/windows/desktop/api/Ras/)
+[**RASIPADDR**](https://msdn.microsoft.com/en-us/library/Aa377578(v=VS.85).aspx)
 
-[**RASMONITORDLG**](/windows/desktop/api/Rasdlg/)
+[**RASMONITORDLG**](https://msdn.microsoft.com/en-us/library/Aa377591(v=VS.85).aspx)
 
 [**RASNAPSTATE**](/windows/desktop/api/Ras/ns-ras-_tagrasnapstate)
 
-[**RASNOUSER**](/windows/desktop/api/Rasdlg/)
+[**RASNOUSER**](https://msdn.microsoft.com/en-us/library/Aa377598(v=VS.85).aspx)
 
-[**RASPBDLG**](/windows/desktop/api/Rasdlg/)
+[**RASPBDLG**](https://msdn.microsoft.com/en-us/library/Aa377607(v=VS.85).aspx)
 
 [**RASPPP\_PROJECTION\_INFO**](/windows/desktop/api/Ras/ns-ras-_rasppp_projection_info)
 
-[**RASPPPCCP**](/windows/desktop/api/Ras/)
+[**RASPPPCCP**](https://msdn.microsoft.com/en-us/library/Aa377620(v=VS.85).aspx)
 
-[**RASPPPIP**](/windows/desktop/api/Ras/)
+[**RASPPPIP**](https://msdn.microsoft.com/en-us/library/Aa377634(v=VS.85).aspx)
 
-[**RASPPPIPV6**](/windows/desktop/api/Ras/)
+[**RASPPPIPV6**](https://msdn.microsoft.com/en-us/library/Aa816540(v=VS.85).aspx)
 
-[**RASPPPIPX**](/windows/desktop/api/Ras/)
+[**RASPPPIPX**](https://msdn.microsoft.com/en-us/library/Aa377623(v=VS.85).aspx)
 
-[**RASPPPLCP**](/windows/desktop/api/Ras/)
+[**RASPPPLCP**](https://msdn.microsoft.com/en-us/library/Aa377638(v=VS.85).aspx)
 
-[**RASPPPNBF**](/windows/desktop/api/Ras/)
+[**RASPPPNBF**](https://msdn.microsoft.com/en-us/library/Aa377642(v=VS.85).aspx)
 
 [**RASPROJECTION\_INFO\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/dd408108)
 
-[**RASSLIP**](/windows/desktop/api/Ras/)
+[**RASSLIP**](https://msdn.microsoft.com/en-us/library/Aa377836(v=VS.85).aspx)
 
-[**RASSUBENTRY**](/windows/desktop/api/Ras/)
+[**RASSUBENTRY**](https://msdn.microsoft.com/en-us/library/Aa377839(v=VS.85).aspx)
 
-[**RASTUNNELENDPOINT**](/windows/desktop/api/Ras/)
+[**RASTUNNELENDPOINT**](https://msdn.microsoft.com/en-us/library/Dd430579(v=VS.85).aspx)
 
-[**RASUPDATECONN**](/windows/desktop/api/Ras/)
+[**RASUPDATECONN**](https://msdn.microsoft.com/en-us/library/Dd408110(v=VS.85).aspx)
 
  
 

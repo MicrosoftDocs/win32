@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The following example shows the steps to obtain a [**CERT\_CONTEXT**](https://msdn.microsoft.com/library/windows/desktop/aa377189) structure that contains a certificate; you should select a certificate and certificate store that are appropriate for your application.
 
-This example demonstrates opening a [*certificate store*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-certificate-store-gly) and locating a certificate that will be passed to the [**AcquireCredentialsHandle**](/windows/desktop/api/Sspi/) function, by means of the [**SCHANNEL\_CRED**](/windows/desktop/api/Schannel/ns-schannel-_schannel_cred) structure.
+This example demonstrates opening a [*certificate store*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-certificate-store-gly) and locating a certificate that will be passed to the [**AcquireCredentialsHandle**](https://msdn.microsoft.com/en-us/library/Aa374712(v=VS.85).aspx) function, by means of the [**SCHANNEL\_CRED**](/windows/desktop/api/Schannel/ns-schannel-_schannel_cred) structure.
 
 
 ```C++

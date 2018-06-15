@@ -14,9 +14,9 @@ ms.date: 05/31/2018
 
 # Joystick Position
 
-You can query a joystick for position and button information by using the [**joyGetPos**](https://www.bing.com/search?q=**joyGetPos**) function. For example, an application can query the joystick for baseline position values. The Joystick Control Panel property sheet uses this technique when calibrating the joystick.
+You can query a joystick for position and button information by using the [**joyGetPos**](https://msdn.microsoft.com/en-us/library/Dd757107(v=VS.85).aspx) function. For example, an application can query the joystick for baseline position values. The Joystick Control Panel property sheet uses this technique when calibrating the joystick.
 
-You can also query a joystick or other device that has extended capabilities by using the [**joyGetPosEx**](https://www.bing.com/search?q=**joyGetPosEx**) function.
+You can also query a joystick or other device that has extended capabilities by using the [**joyGetPosEx**](https://msdn.microsoft.com/en-us/library/Dd757108(v=VS.85).aspx) function.
 
  
 

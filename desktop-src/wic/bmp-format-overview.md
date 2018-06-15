@@ -50,7 +50,7 @@ The WIC encoding API are designed to be codec-independent and therefore image en
 
 ### Encoder Options
 
-WIC-enabled codecs differ at the encoding option level. Encoder options reflect the capabilities of an image encoder and each native codec supports a set of these encoder options. Encoder options can be basic WIC supported options available to all WIC enabled codes (though not necessarily supported) or codec-specific options designed by the image format codec. To manage these encoding options during the encoding process, WIC uses the [**IPropertyBag2**](https://msdn.microsoft.com/windows/desktop/c74297d0-919d-4cf5-b8f9-5bdbe5111df9) interface . For more information about using the **IPropertyBag2** interface for WIC encoding see the [Encoding Overview](-wic-creating-encoder.md).
+WIC-enabled codecs differ at the encoding option level. Encoder options reflect the capabilities of an image encoder and each native codec supports a set of these encoder options. Encoder options can be basic WIC supported options available to all WIC enabled codes (though not necessarily supported) or codec-specific options designed by the image format codec. To manage these encoding options during the encoding process, WIC uses the [**IPropertyBag2**](https://www.bing.com/search?q=**IPropertyBag2**) interface . For more information about using the **IPropertyBag2** interface for WIC encoding see the [Encoding Overview](-wic-creating-encoder.md).
 
 The following table lists the WIC encoder options supported by the native BMP codec.
 

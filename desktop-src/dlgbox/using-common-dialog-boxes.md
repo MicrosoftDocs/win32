@@ -26,12 +26,12 @@ This section covers tasks that invoke common dialog boxes:
 
 ## Choosing a Color
 
-This topic describes sample code that displays a **Color** dialog box so that a user can select a color. The sample code first initializes a [**CHOOSECOLOR**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosecolora) structure, and then calls the [**ChooseColor**](https://www.bing.com/search?q=**ChooseColor**) function to display the dialog box. If the function returns **TRUE**, indicating that the user selected a color, the sample code uses the selected color to create a new solid brush.
+This topic describes sample code that displays a **Color** dialog box so that a user can select a color. The sample code first initializes a [**CHOOSECOLOR**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosecolora) structure, and then calls the [**ChooseColor**](https://msdn.microsoft.com/en-us/library/ms646912(v=VS.85).aspx) function to display the dialog box. If the function returns **TRUE**, indicating that the user selected a color, the sample code uses the selected color to create a new solid brush.
 
 This example uses the [**CHOOSECOLOR**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosecolora) structure to initialize the dialog box as follows:
 
--   Initializes the **lpCustColors** member with a pointer to a static array of values. The colors in the array are initially black, but the static array preserves custom colors created by the user for subsequent [**ChooseColor**](https://www.bing.com/search?q=**ChooseColor**) calls.
--   Sets the **CC\_RGBINIT** flag and initializes the **rgbResult** member to specify the color that is initially selected when the dialog box opens. If not specified, the initial selection is black. The example uses the *rgbCurrent* static variable to preserve the selected value between calls to [**ChooseColor**](https://www.bing.com/search?q=**ChooseColor**).
+-   Initializes the **lpCustColors** member with a pointer to a static array of values. The colors in the array are initially black, but the static array preserves custom colors created by the user for subsequent [**ChooseColor**](https://msdn.microsoft.com/en-us/library/ms646912(v=VS.85).aspx) calls.
+-   Sets the **CC\_RGBINIT** flag and initializes the **rgbResult** member to specify the color that is initially selected when the dialog box opens. If not specified, the initial selection is black. The example uses the *rgbCurrent* static variable to preserve the selected value between calls to [**ChooseColor**](https://msdn.microsoft.com/en-us/library/ms646912(v=VS.85).aspx).
 -   Sets the **CC\_FULLOPEN** flag so the custom colors extension of the dialog box is always displayed.
 
 
@@ -103,7 +103,7 @@ if (ChooseFont(&amp;cf)==TRUE)
 ## Opening a File
 
 > [!Note]  
-> Starting with Windows Vista, the Common File Dialog has been superseded by the Common Item Dialog when used to open a file. We recommend that you use the Common Item Dialog API instead of the Common File Dialog API. For more information, see [Common Item Dialog](https://msdn.microsoft.com/windows/desktop/f8846148-89a5-4b9b-ad68-56137a5c2f65).
+> Starting with Windows Vista, the Common File Dialog has been superseded by the Common Item Dialog when used to open a file. We recommend that you use the Common Item Dialog API instead of the Common File Dialog API. For more information, see [Common Item Dialog](https://msdn.microsoft.com/en-us/library/Bb776913(v=VS.85).aspx).
 
  
 
@@ -161,9 +161,9 @@ if (GetOpenFileName(&amp;ofn)==TRUE)
 
 ## Displaying the Print Dialog Box
 
-This topic describes sample code that displays a **Print** dialog box so that a user can select options for printing a document. The sample code first initializes a [**PRINTDLG**](/windows/desktop/api/Commdlg/ns-commdlg-tagpda) structure, and then calls the [**PrintDlg**](https://www.bing.com/search?q=**PrintDlg**) function to display the dialog box.
+This topic describes sample code that displays a **Print** dialog box so that a user can select options for printing a document. The sample code first initializes a [**PRINTDLG**](/windows/desktop/api/Commdlg/ns-commdlg-tagpda) structure, and then calls the [**PrintDlg**](https://msdn.microsoft.com/en-us/library/ms646940(v=VS.85).aspx) function to display the dialog box.
 
-This example sets the **PD\_RETURNDC** flag in the **Flags** member of the [**PRINTDLG**](/windows/desktop/api/Commdlg/ns-commdlg-tagpda) structure. This causes [**PrintDlg**](https://www.bing.com/search?q=**PrintDlg**) to return a device context handle to the selected printer in the **hDC** member. You can use the handle to render output on the printer.
+This example sets the **PD\_RETURNDC** flag in the **Flags** member of the [**PRINTDLG**](/windows/desktop/api/Commdlg/ns-commdlg-tagpda) structure. This causes [**PrintDlg**](https://msdn.microsoft.com/en-us/library/ms646940(v=VS.85).aspx) to return a device context handle to the selected printer in the **hDC** member. You can use the handle to render output on the printer.
 
 On input, the sample code sets the **hDevMode** and **hDevNames** members to **NULL**. If the function returns **TRUE**, these members return handles to [**DEVNAMES**](/windows/desktop/api/Commdlg/ns-commdlg-tagdevnames) structures that contain the user input and information about the printer. You can use this information to prepare the output to be sent to the selected printer.
 
@@ -198,9 +198,9 @@ if (PrintDlg(&amp;pd)==TRUE)
 
 ## Using the Print Property Sheet
 
-This topic describes sample code that displays a **Print** property sheet so that a user can select options for printing a document. The sample code first initializes a [**PRINTDLGEX**](/windows/desktop/api/Commdlg/ns-commdlg-tagpdexa) structure, then calls the [**PrintDlgEx**](https://www.bing.com/search?q=**PrintDlgEx**) function to display the property sheet.
+This topic describes sample code that displays a **Print** property sheet so that a user can select options for printing a document. The sample code first initializes a [**PRINTDLGEX**](/windows/desktop/api/Commdlg/ns-commdlg-tagpdexa) structure, then calls the [**PrintDlgEx**](https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx) function to display the property sheet.
 
-The sample code sets the **PD\_RETURNDC** flag in the **Flags** member of the [**PRINTDLG**](/windows/desktop/api/Commdlg/ns-commdlg-tagpda) structure. This causes the [**PrintDlgEx**](https://www.bing.com/search?q=**PrintDlgEx**) function to return a device context handle to the selected printer in the **hDC** member.
+The sample code sets the **PD\_RETURNDC** flag in the **Flags** member of the [**PRINTDLG**](/windows/desktop/api/Commdlg/ns-commdlg-tagpda) structure. This causes the [**PrintDlgEx**](https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx) function to return a device context handle to the selected printer in the **hDC** member.
 
 On input, the sample code sets the **hDevMode** and **hDevNames** members to **NULL**. If the function returns **S\_OK**, these members return handles to [**DEVNAMES**](/windows/desktop/api/Commdlg/ns-commdlg-tagdevnames) structures containing the user input and information about the printer. You can use this information to prepare the output to be sent to the selected printer.
 
@@ -271,13 +271,13 @@ HRESULT DisplayPrintPropertySheet(HWND hWnd)
 
 ## Setting Up the Printed Page
 
-This topic describes sample code that displays a **Page Setup** dialog box so that a user can select the attributes of the printed page, such as the paper type, paper source, page orientation, and page margins. The sample code first initializes a [**PAGESETUPDLG**](/windows/desktop/api/Commdlg/ns-commdlg-tagpsda) structure, and then calls the [**PageSetupDlg**](https://www.bing.com/search?q=**PageSetupDlg**) function to display the dialog box.
+This topic describes sample code that displays a **Page Setup** dialog box so that a user can select the attributes of the printed page, such as the paper type, paper source, page orientation, and page margins. The sample code first initializes a [**PAGESETUPDLG**](/windows/desktop/api/Commdlg/ns-commdlg-tagpsda) structure, and then calls the [**PageSetupDlg**](https://msdn.microsoft.com/en-us/library/ms646937(v=VS.85).aspx) function to display the dialog box.
 
 This example sets the **PSD\_MARGINS** flag in the **Flags** member and uses the **rtMargin** member to specify the initial margin values. It sets the **PSD\_INTHOUSANDTHSOFINCHES** flag to ensure that the dialog box expresses margin dimensions in thousandths of an inch.
 
 On input, the sample code sets the **hDevMode** and **hDevNames** members to **NULL**. If the function returns **TRUE**, the function uses these members to return handles to [**DEVNAMES**](/windows/desktop/api/Commdlg/ns-commdlg-tagdevnames) structures containing the user input and information about the printer. You can use this information to prepare the output to be sent to the selected printer.
 
-The following example also enables a [**PagePaintHook**](https://www.bing.com/search?q=**PagePaintHook**) hook procedure to customize drawing the contents of the sample page.
+The following example also enables a [**PagePaintHook**](https://msdn.microsoft.com/en-us/library/ms646935(v=VS.85).aspx) hook procedure to customize drawing the contents of the sample page.
 
 
 ```
@@ -306,7 +306,7 @@ if (PageSetupDlg(&amp;psd)==TRUE)
 
 
 
-The following example shows a sample [**PagePaintHook**](https://www.bing.com/search?q=**PagePaintHook**) hook procedure that draws the margin rectangle in the sample page area:
+The following example shows a sample [**PagePaintHook**](https://msdn.microsoft.com/en-us/library/ms646935(v=VS.85).aspx) hook procedure that draws the margin rectangle in the sample page area:
 
 
 ```

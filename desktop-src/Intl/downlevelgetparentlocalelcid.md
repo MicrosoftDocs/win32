@@ -52,7 +52,7 @@ Locale identifier of the locale for which to retrieve the parent locale identifi
 
 ## Return value
 
-Returns the parent locale identifier if successful, or 0 otherwise. To get extended error information, the application can call [**GetLastError**](https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4), which can return one of the following error codes:
+Returns the parent locale identifier if successful, or 0 otherwise. To get extended error information, the application can call [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx), which can return one of the following error codes:
 
 -   ERROR\_INVALID\_PARAMETER. Any of the parameter values was invalid.
 

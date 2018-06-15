@@ -205,7 +205,7 @@ If there are multiple elements, the last one is used. If no [typeInfo](https://w
 </tr>
 <tr class="even">
 <td>DateTime</td>
-<td>The value must be a VT_FILETIME, which is a [<strong>FILETIME</strong>](https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1).</td>
+<td>The value must be a VT_FILETIME, which is a [<strong>FILETIME</strong>](https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx).</td>
 </tr>
 <tr class="odd">
 <td>Guid</td>
@@ -217,7 +217,7 @@ If there are multiple elements, the last one is used. If no [typeInfo](https://w
 </tr>
 <tr class="odd">
 <td>Stream</td>
-<td>The value must be a VT_STREAM, which is an object that implements [<strong>IStream</strong>](https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531).</td>
+<td>The value must be a VT_STREAM, which is an object that implements [<strong>IStream</strong>](https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx).</td>
 </tr>
 <tr class="even">
 <td>Clipboard</td>
@@ -225,7 +225,7 @@ If there are multiple elements, the last one is used. If no [typeInfo](https://w
 </tr>
 <tr class="odd">
 <td>Object</td>
-<td>The value must be a VT_UNKNOWN, which is an object that implements [<strong>IUnknown</strong>](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332).</td>
+<td>The value must be a VT_UNKNOWN, which is an object that implements [<strong>IUnknown</strong>](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx).</td>
 </tr>
 </tbody>
 </table>

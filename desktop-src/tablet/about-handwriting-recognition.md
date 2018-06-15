@@ -28,7 +28,7 @@ Steps 2 and 3 may be repeated in a loop, or all of the ink strokes may be added 
 
 ## Samples and Related Topics
 
-[Advanced Recognition Sample](advanced-recognition-sample.md) demonstrates how to use recognizers with [**Ink**](/windows/desktop/api/msinkaut/) objects to perform ink recognition.
+[Advanced Recognition Sample](advanced-recognition-sample.md) demonstrates how to use recognizers with [**Ink**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) objects to perform ink recognition.
 
 [Recognizer DLL Sample Template](recognizer-dll-sample-template.md) contains a template for creating a recognizer DLL. The template contains functions for registering and unregistering the server, as well as skeletons for primary recognizer functions.
 

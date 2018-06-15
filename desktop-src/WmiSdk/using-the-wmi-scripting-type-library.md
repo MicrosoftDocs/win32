@@ -42,7 +42,7 @@ You can include the reference to the **WbemScripting.SWbemLocator** in a Windows
 
 Scripts can connect with the Scripting API for WMI type library using the following methods:
 
--   Specifying the WbemScripting GUID in the VBScript methods [CreateObject](https://msdn.microsoft.com/library/xzysf6hc.aspx) and [**GetObject**](https://msdn.microsoft.com/windows/desktop/47dd01cb-9468-481e-be7e-55f69a744635).
+-   Specifying the WbemScripting GUID in the VBScript methods [CreateObject](https://msdn.microsoft.com/library/xzysf6hc.aspx) and [**GetObject**](https://msdn.microsoft.com/en-us/library/e9waz863(v=VS.71).aspx).
 
     This alerts Windows Script Host to connect to the WMI object set.
 

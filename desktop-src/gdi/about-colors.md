@@ -18,7 +18,7 @@ This overview provides information on the following topics:
 -   [Color Basics](color-basics.md)
 -   [Color Palettes](color-palettes.md)
 
-Although not described in this overview, image color matching is an important feature of color management that helps ensure that color images look the same whether displayed on screen or printed on paper. For more information, see [Windows Color System](https://msdn.microsoft.com/b354b90f-575d-4392-9aa2-6fb1d2cb3c07).
+Although not described in this overview, image color matching is an important feature of color management that helps ensure that color images look the same whether displayed on screen or printed on paper. For more information, see [Windows Color System](https://msdn.microsoft.com/en-us/library/Dd372446(v=VS.85).aspx).
 
  
 

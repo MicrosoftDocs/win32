@@ -71,7 +71,7 @@ Generally you won't want to hard-code the name of a printer as was done in the p
 
  
 
-The following console application gets the name of the default printer and then draws a rectangle and an ellipse on that printer. The [**Graphics::DrawRectangle**](/windows/desktop/api/Gdiplusgraphics/) call is in between calls to [StartPage](http://msdn.microsoft.com/library/en-us/gdi/prntspol_2isl.asp) and [EndPage](http://msdn.microsoft.com/library/en-us/gdi/prntspol_3b1h.asp), so the rectangle is on a page by itself. Similarly, the ellipse is on a page by itself.
+The following console application gets the name of the default printer and then draws a rectangle and an ellipse on that printer. The [**Graphics::DrawRectangle**](https://msdn.microsoft.com/en-us/library/ms536003(v=VS.85).aspx) call is in between calls to [StartPage](http://msdn.microsoft.com/library/en-us/gdi/prntspol_2isl.asp) and [EndPage](http://msdn.microsoft.com/library/en-us/gdi/prntspol_3b1h.asp), so the rectangle is on a page by itself. Similarly, the ellipse is on a page by itself.
 
 
 ```

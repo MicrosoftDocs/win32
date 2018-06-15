@@ -27,8 +27,8 @@ This document discusses how to implement the extension handlers that allow you t
 | [Icon handler](how-to-create-icon-handlers.md)       | Called before a file's icon is displayed. It enables you to replace the file's default icon with a custom icon on a file-by-file basis.                                    |
 | [Property sheet handler](propsheet-handlers.md)      | Called before an object's **Properties** property sheet is displayed. It enables you to add or replace pages.                                                              |
 | [**Thumbnail Image handler**](/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailprovider) | Provides an image to represent the item.                                                                                                                                   |
-| [**Infotip handler**](/windows/desktop/api/Shlobj_core/)                 | Provides pop-up text when the user hovers the mouse pointer over the object.                                                                                               |
-| [**Metadata handler**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653)     | Provides read and write access to metadata (properties) stored in a file. This can be used to extend the Details view, infotips, the property page, and grouping features. |
+| [**Infotip handler**](https://msdn.microsoft.com/en-us/library/Bb761359(v=VS.85).aspx)                 | Provides pop-up text when the user hovers the mouse pointer over the object.                                                                                               |
+| [**Metadata handler**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx)     | Provides read and write access to metadata (properties) stored in a file. This can be used to extend the Details view, infotips, the property page, and grouping features. |
 
 
 
@@ -40,11 +40,11 @@ Other handlers are not associated with a particular file type but are called bef
 
 | Handler                                                            | Description                                                                                                                                  |
 |--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| [Column handler](https://msdn.microsoft.com/805e0e13-d09e-40f8-955b-c585f388e07e)                             | Called by Windows Explorer before it displays the Details view of a folder. It enables you to add custom columns to the Details view.        |
+| [Column handler](https://msdn.microsoft.com/en-us/library/Bb776831(v=VS.85).aspx)                             | Called by Windows Explorer before it displays the Details view of a folder. It enables you to add custom columns to the Details view.        |
 | [Copy hook handler](how-to-create-copy-hook-handlers.md)          | Called when a folder or printer object is about to be moved, copied, deleted, or renamed. It enables you to approve or veto the operation.   |
 | [Drag-and-drop handler](context-menu-handlers.md)                 | Called when a file is dragged with the right mouse button. It enables you to modify the shortcut menu that is displayed.                     |
 | [Icon Overlay handler](how-to-implement-icon-overlay-handlers.md) | Called before a file's icon is displayed. It enables you to specify an overlay for the file's icon.                                          |
-| [Search handler](https://msdn.microsoft.com/ffd023bb-16ab-43ce-b00b-5e32656c8013)                             | Called to launch a search engine. It enables you to implement a custom search engine accessible from the **Start** menu or Windows Explorer. |
+| [Search handler](https://msdn.microsoft.com/en-us/library/Bb776834(v=VS.85).aspx)                             | Called to launch a search engine. It enables you to implement a custom search engine accessible from the **Start** menu or Windows Explorer. |
 
 
 
@@ -69,20 +69,20 @@ Much of the implementation of a Shell extension handler object depends on its ty
 
 All Shell extension handlers are in-process Component Object Model (COM) objects. They must be assigned a GUID and registered as described in Registering Shell Extension Handlers. They are implemented as DLLs and must export the following standard functions:
 
--   [**DllMain**](https://msdn.microsoft.com/0c3e3083-9297-4626-b2a7-0062d1c2cf9e). The standard entry point to the DLL.
--   [**DllGetClassObject**](https://msdn.microsoft.com/42c08149-c251-47f7-a81f-383975d7081c). Exposes the object's class factory.
--   [**DllCanUnloadNow**](https://msdn.microsoft.com/a47df9eb-97cb-4875-a121-1dabe7bc9db6). COM calls this function to determine whether the object is serving any clients. If not, the system can unload the DLL and free the associated memory.
+-   [**DllMain**](https://msdn.microsoft.com/en-us/library/ms682583(v=VS.85).aspx). The standard entry point to the DLL.
+-   [**DllGetClassObject**](https://msdn.microsoft.com/en-us/library/ms680760(v=VS.85).aspx). Exposes the object's class factory.
+-   [**DllCanUnloadNow**](https://msdn.microsoft.com/en-us/library/ms690368(v=VS.85).aspx). COM calls this function to determine whether the object is serving any clients. If not, the system can unload the DLL and free the associated memory.
 
-Like all COM objects, Shell extension handlers must implement an [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface and a [class factory](https://msdn.microsoft.com/96466756-c135-4ee5-a48c-f31129878473). Most extension handlers must also implement either an [**IPersistFile**](https://msdn.microsoft.com/7d34507f-8a16-43b4-8225-010798abc546) or [**IShellExtInit**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ishellextinit) interface in Windows XP or earlier. These were replaced by [**IInitializeWithStream**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream), [**IInitializeWithItem**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-iinitializewithitem) and [**IInitializeWithFile**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithfile) in Windows Vista. The Shell uses these interfaces to initialize the handler.
+Like all COM objects, Shell extension handlers must implement an [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface and a [class factory](https://msdn.microsoft.com/en-us/library/ms690074(v=VS.85).aspx). Most extension handlers must also implement either an [**IPersistFile**](https://msdn.microsoft.com/en-us/library/ms687223(v=VS.85).aspx) or [**IShellExtInit**](https://msdn.microsoft.com/en-us/library/Bb775096(v=VS.85).aspx) interface in Windows XP or earlier. These were replaced by [**IInitializeWithStream**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream), [**IInitializeWithItem**](https://msdn.microsoft.com/en-us/library/Bb761814(v=VS.85).aspx) and [**IInitializeWithFile**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithfile) in Windows Vista. The Shell uses these interfaces to initialize the handler.
 
-The [**IPersistFile**](https://msdn.microsoft.com/7d34507f-8a16-43b4-8225-010798abc546) interface must be implemented by the following:
+The [**IPersistFile**](https://msdn.microsoft.com/en-us/library/ms687223(v=VS.85).aspx) interface must be implemented by the following:
 
 -   Data handlers
 -   Drop handlers
 
-In the past, icon handlers were also required to implement [**IPersistFile**](https://msdn.microsoft.com/7d34507f-8a16-43b4-8225-010798abc546), but this is no longer true. For icon handlers, **IPersistFile** is now optional and other interfaces such as [**IInitializeWithItem**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-iinitializewithitem) are preferred.
+In the past, icon handlers were also required to implement [**IPersistFile**](https://msdn.microsoft.com/en-us/library/ms687223(v=VS.85).aspx), but this is no longer true. For icon handlers, **IPersistFile** is now optional and other interfaces such as [**IInitializeWithItem**](https://msdn.microsoft.com/en-us/library/Bb761814(v=VS.85).aspx) are preferred.
 
-The [**IShellExtInit**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ishellextinit) interface must be implemented by the following:
+The [**IShellExtInit**](https://msdn.microsoft.com/en-us/library/Bb775096(v=VS.85).aspx) interface must be implemented by the following:
 
 -   Shortcut menu handlers
 -   Drag-and-drop handlers
@@ -90,11 +90,11 @@ The [**IShellExtInit**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ishellext
 
 ### Implementing IPersistFile
 
-The [**IPersistFile**](https://msdn.microsoft.com/7d34507f-8a16-43b4-8225-010798abc546) interface is intended to permit an object to be loaded from or saved to a disk file. It has six methods in addition to [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332), five of its own, and the [**GetClassID**](https://msdn.microsoft.com/921a3b86-a240-454e-9411-8d653e02b90e) method that it inherits from [**IPersist**](https://msdn.microsoft.com/932eb0e2-35a6-482e-9138-00cff30508a9). With Shell extensions, **IPersist** is used only to initialize a Shell extension handler object. Because there is typically no need to read from or write to the disk, only the **GetClassID** and [**Load**](https://msdn.microsoft.com/8391aa5c-fe6e-4b03-9eef-7958f75910a5) methods require a nontoken implementation.
+The [**IPersistFile**](https://msdn.microsoft.com/en-us/library/ms687223(v=VS.85).aspx) interface is intended to permit an object to be loaded from or saved to a disk file. It has six methods in addition to [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx), five of its own, and the [**GetClassID**](https://msdn.microsoft.com/en-us/library/ms688664(v=VS.85).aspx) method that it inherits from [**IPersist**](https://msdn.microsoft.com/en-us/library/ms688695(v=VS.85).aspx). With Shell extensions, **IPersist** is used only to initialize a Shell extension handler object. Because there is typically no need to read from or write to the disk, only the **GetClassID** and [**Load**](https://msdn.microsoft.com/en-us/library/ms687284(v=VS.85).aspx) methods require a nontoken implementation.
 
-The Shell calls [**GetClassID**](https://msdn.microsoft.com/921a3b86-a240-454e-9411-8d653e02b90e) first, and the function returns the class identifier (CLSID) of the extension handler object. The Shell then calls [**Load**](https://msdn.microsoft.com/8391aa5c-fe6e-4b03-9eef-7958f75910a5) and passes in two values. The first, *pszFileName*, is a Unicode string with the name of the file or folder that Shell is about to operate on. The second is *dwMode*, which indicates the file access mode. Because there is typically no need to access files, *dwMode* is usually zero. The method stores these values as needed for later reference.
+The Shell calls [**GetClassID**](https://msdn.microsoft.com/en-us/library/ms688664(v=VS.85).aspx) first, and the function returns the class identifier (CLSID) of the extension handler object. The Shell then calls [**Load**](https://msdn.microsoft.com/en-us/library/ms687284(v=VS.85).aspx) and passes in two values. The first, *pszFileName*, is a Unicode string with the name of the file or folder that Shell is about to operate on. The second is *dwMode*, which indicates the file access mode. Because there is typically no need to access files, *dwMode* is usually zero. The method stores these values as needed for later reference.
 
-The following code fragment illustrates how a typical Shell extension handler implements the [**GetClassID**](https://msdn.microsoft.com/921a3b86-a240-454e-9411-8d653e02b90e) and [**Load**](https://msdn.microsoft.com/8391aa5c-fe6e-4b03-9eef-7958f75910a5) methods. It is designed to handle either ANSI or Unicode. CLSID\_SampleExtHandler is the extension handler object's GUID, and CSampleExtHandler is the name of the class used to implement the interface. The **m\_szFileName** and **m\_dwMode** variables are private variables that are used to store the file's name and access flags.
+The following code fragment illustrates how a typical Shell extension handler implements the [**GetClassID**](https://msdn.microsoft.com/en-us/library/ms688664(v=VS.85).aspx) and [**Load**](https://msdn.microsoft.com/en-us/library/ms687284(v=VS.85).aspx) methods. It is designed to handle either ANSI or Unicode. CLSID\_SampleExtHandler is the extension handler object's GUID, and CSampleExtHandler is the name of the class used to implement the interface. The **m\_szFileName** and **m\_dwMode** variables are private variables that are used to store the file's name and access flags.
 
 
 ```C++
@@ -117,13 +117,13 @@ CSampleExtHandler::Load(PCWSTR pszFile, DWORD dwMode)
 
 ### Implementing IShellExtInit
 
-The [**IShellExtInit**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ishellextinit) interface has only one method, [**IShellExtInit::Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize), in addition to [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332). The method has three parameters that the Shell can use to pass in various types of information. The values passed in depend on the type of handler, and some can be set to **NULL**.
+The [**IShellExtInit**](https://msdn.microsoft.com/en-us/library/Bb775096(v=VS.85).aspx) interface has only one method, [**IShellExtInit::Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize), in addition to [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx). The method has three parameters that the Shell can use to pass in various types of information. The values passed in depend on the type of handler, and some can be set to **NULL**.
 
 -   *pIDFolder* holds a folder's pointer to an item identifier list (PIDL). For property sheet extensions, it is **NULL**. For shortcut menu extensions, it is the PIDL of the folder that contains the item whose shortcut menu is being displayed. For nondefault drag-and-drop handlers, it is the PIDL of the target folder.
--   *pDataObject* holds a pointer to a data object's [**IDataObject**](https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4) interface. The data object holds one or more file names in [CF\_HDROP](dragdrop.md) format.
+-   *pDataObject* holds a pointer to a data object's [**IDataObject**](https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx) interface. The data object holds one or more file names in [CF\_HDROP](dragdrop.md) format.
 -   *hRegKey* holds a registry key for the file object or folder type.
 
-The [**IShellExtInit::Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize) method stores the file name, [**IDataObject**](https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4) pointer, and registry key as needed for later use. The following code fragment illustrates an implementation of **IShellExtInit::Initialize**. For simplicity, this example assumes that the data object contains only a single file. In general, it might contain multiple files that will each need to be extracted.
+The [**IShellExtInit::Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize) method stores the file name, [**IDataObject**](https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx) pointer, and registry key as needed for later use. The following code fragment illustrates an implementation of **IShellExtInit::Initialize**. For simplicity, this example assumes that the data object contains only a single file. In general, it might contain multiple files that will each need to be extracted.
 
 
 ```C++
@@ -191,13 +191,13 @@ STDMETHODIMP CShellExt::Initialize(LPCITEMIDLIST pIDFolder,
 
 
 
-CSampleExtHandler is the name of the class used to implement the interface. The **m\_pIDFolder**, **m\_pDataObject**, **m\_szFileName**, and **m\_hRegKey** variables are private variables used to store the information that is passed in. For simplicity, this example assumes that only one file name will be held by the data object. After the [**FORMATETC**](https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081) structure is retrieved from the data object, [**DragQueryFile**](/windows/desktop/api/Shellapi/nf-shellapi-dragqueryfilea) is used to extract the file name from the **FORMATETC** structure's **medium.hGlobal** member. If a registry key is passed in, the method uses [**RegOpenKeyEx**](https://msdn.microsoft.com/c8a590f2-3249-437f-a320-c7443d42b792) to open the key and assigns the handle to **m\_hRegKey**.
+CSampleExtHandler is the name of the class used to implement the interface. The **m\_pIDFolder**, **m\_pDataObject**, **m\_szFileName**, and **m\_hRegKey** variables are private variables used to store the information that is passed in. For simplicity, this example assumes that only one file name will be held by the data object. After the [**FORMATETC**](https://msdn.microsoft.com/en-us/library/ms682177(v=VS.85).aspx) structure is retrieved from the data object, [**DragQueryFile**](/windows/desktop/api/Shellapi/nf-shellapi-dragqueryfilea) is used to extract the file name from the **FORMATETC** structure's **medium.hGlobal** member. If a registry key is passed in, the method uses [**RegOpenKeyEx**](https://msdn.microsoft.com/en-us/library/ms724897(v=VS.85).aspx) to open the key and assigns the handle to **m\_hRegKey**.
 
 ### Infotip Customization
 
 There are two ways to customize infotips:
 
--   Implement an object that supports [**IQueryInfo**](/windows/desktop/api/Shlobj_core/) and then register that object under the proper subkey in the registry (see [Registering Shell Extension Handlers](#registering-shell-extension-handlers) below).
+-   Implement an object that supports [**IQueryInfo**](https://msdn.microsoft.com/en-us/library/Bb761359(v=VS.85).aspx) and then register that object under the proper subkey in the registry (see [Registering Shell Extension Handlers](#registering-shell-extension-handlers) below).
 -   Specify a fixed string or a list of specific file properties to be displayed.
 
 To display a fixed string for a namespace extension, create an entry called `InfoTip` in the *{CLSID}* key of your namespace extension. Set the value of that entry to be either the literal string you want to display, as shown in this example, or an indirect string that specifies a resource and index within that resource (for localization purposes).
@@ -219,7 +219,7 @@ HKEY_CLASSES_ROOT
 
 If you want the Shell to display specific file properties in the infotip for a specific file type, create an entry called `InfoTip` in the *ProgID* key for that file type. Set the value of that entry to be a semicolon-delineated list of canonical property names, format identifier (FMTID)/property identifier (PID) pairs, or both. This value must begin with "prop:" to identify it as a property list string. If you omit "prop:", the value is seen as a literal string and displayed as such.
 
-In the following example, *propname* is a canonical property name (such as System.Date) and *{fmtid},pid* is an [**FMTID/PID**](/windows/desktop/api/Shobjidl/) pair.
+In the following example, *propname* is a canonical property name (such as System.Date) and *{fmtid},pid* is an [**FMTID/PID**](https://msdn.microsoft.com/en-us/library/Bb759748(v=VS.85).aspx) pair.
 
 ```
 HKEY_CLASSES_ROOT
@@ -233,11 +233,11 @@ The following property names can be used:
 
 | Property Name    | Description                   | Retrieved From                                                                             |
 |------------------|-------------------------------|--------------------------------------------------------------------------------------------|
-| Author           | Author of the document        | [**PIDSI\_AUTHOR**](https://msdn.microsoft.com/ceed6d66-7327-4781-a5dc-9058e671138a)                              |
-| Title            | Title of the document         | [**PIDSI\_TITLE**](https://msdn.microsoft.com/ceed6d66-7327-4781-a5dc-9058e671138a)                               |
-| Subject          | Subject summary               | [**PIDSI\_SUBJECT**](https://msdn.microsoft.com/ceed6d66-7327-4781-a5dc-9058e671138a)                             |
-| Comment          | Document comments             | [**PIDSI\_COMMENT**](https://msdn.microsoft.com/ceed6d66-7327-4781-a5dc-9058e671138a) or folder/driver properties |
-| PageCount        | Number of pages               | [**PIDSI\_PAGECOUNT**](https://msdn.microsoft.com/ceed6d66-7327-4781-a5dc-9058e671138a)                           |
+| Author           | Author of the document        | [**PIDSI\_AUTHOR**](https://msdn.microsoft.com/en-us/library/Aa380376(v=VS.85).aspx)                              |
+| Title            | Title of the document         | [**PIDSI\_TITLE**](https://msdn.microsoft.com/en-us/library/Aa380376(v=VS.85).aspx)                               |
+| Subject          | Subject summary               | [**PIDSI\_SUBJECT**](https://msdn.microsoft.com/en-us/library/Aa380376(v=VS.85).aspx)                             |
+| Comment          | Document comments             | [**PIDSI\_COMMENT**](https://msdn.microsoft.com/en-us/library/Aa380376(v=VS.85).aspx) or folder/driver properties |
+| PageCount        | Number of pages               | [**PIDSI\_PAGECOUNT**](https://msdn.microsoft.com/en-us/library/Aa380376(v=VS.85).aspx)                           |
 | Name             | Friendly name                 | Standard folder view                                                                       |
 | OriginalLocation | Location of original file     | Briefcase folder and Recycle Bin folder                                                    |
 | DateDeleted      | Date file was deleted         | Recycle Bin folder                                                                         |
@@ -252,9 +252,9 @@ The following property names can be used:
 | FreeSpace        | Available storage space       | Disk drives                                                                                |
 | NumberOfVisits   | Number of visits              | Favorites folder                                                                           |
 | Attributes       | File Attributes               | Standard folder details view                                                               |
-| Company          | Company name                  | [**PIDDSI\_COMPANY**](https://msdn.microsoft.com/c6d4e2bc-f7f6-429d-aa91-432d833c69d1)    |
-| Category         | Document category             | [**PIDDSI\_CATEGORY**](https://msdn.microsoft.com/c6d4e2bc-f7f6-429d-aa91-432d833c69d1)   |
-| Copyright        | Media copyright               | [**PIDMSI\_COPYRIGHT**](https://msdn.microsoft.com/c6d4e2bc-f7f6-429d-aa91-432d833c69d1)  |
+| Company          | Company name                  | [**PIDDSI\_COMPANY**](https://msdn.microsoft.com/en-us/library/Aa380374(v=VS.85).aspx)    |
+| Category         | Document category             | [**PIDDSI\_CATEGORY**](https://msdn.microsoft.com/en-us/library/Aa380374(v=VS.85).aspx)   |
+| Copyright        | Media copyright               | [**PIDMSI\_COPYRIGHT**](https://msdn.microsoft.com/en-us/library/Aa380374(v=VS.85).aspx)  |
 | HTMLInfoTipFile  | HTML InfoTip file             | Desktop.ini file for folder                                                                |
 
 
@@ -263,7 +263,7 @@ The following property names can be used:
 
 ## Enhancing Windows Search with Shell Extension Handlers
 
-Shell extension handlers may be used to enhance the user experience provided by a Windows Search protocol handler. To enable such enhancements, the supporting Shell extension handler must be designed to integrate with the search protocol handler as a data source. For information about how to enhance a Windows Search protocol handler through integration with a Shell extension handler, see [Adding Icons, Previews and Shortcut Menus](https://msdn.microsoft.com/VS|search|~\search\wds3x\overviews\protocolhandlers\extidx_proth_ui_extensions.htm). For more information about Windows Search protocol handlers, see [Developing Protocol Handlers](https://msdn.microsoft.com/VS|search|~\search\wds3x\overviews\protocolhandlers\extidx_protocolhandlers.htm).
+Shell extension handlers may be used to enhance the user experience provided by a Windows Search protocol handler. To enable such enhancements, the supporting Shell extension handler must be designed to integrate with the search protocol handler as a data source. For information about how to enhance a Windows Search protocol handler through integration with a Shell extension handler, see [Adding Icons, Previews and Shortcut Menus](https://msdn.microsoft.com/en-us/library/Bb266530(v=VS.85).aspx). For more information about Windows Search protocol handlers, see [Developing Protocol Handlers](https://msdn.microsoft.com/en-us/library/Bb266531(v=VS.85).aspx).
 
 ## Registering Shell Extension Handlers
 
@@ -328,9 +328,9 @@ For the following handlers, the default value of the "Handler Subkey Name" key i
 
  
 
-The subkeys specified to add **Pin to Start Menu** and **Pin to Taskbar** to an item's shortcut menu are only required for file types that include the [IsShortCut](https://msdn.microsoft.com/32ad306d-54bd-4130-ad30-08db50ef106e) entry.
+The subkeys specified to add **Pin to Start Menu** and **Pin to Taskbar** to an item's shortcut menu are only required for file types that include the [IsShortCut](https://msdn.microsoft.com/en-us/library/Bb776891(v=VS.85).aspx) entry.
 
-Support for column provider handlers was removed in Windows Vista. Also, as of Windows Vista, [**IPropertySetStorage**](https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128) has been deprecated in favor of [**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653).
+Support for column provider handlers was removed in Windows Vista. Also, as of Windows Vista, [**IPropertySetStorage**](https://msdn.microsoft.com/en-us/library/Aa379840(v=VS.85).aspx) has been deprecated in favor of [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
 
 While [**IExtractImage**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage) remains supported, [**IThumbnailProvider**](/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailprovider) is preferred for Windows Vista and later.
 
@@ -375,7 +375,7 @@ Notes:
 -   The file folder background shortcut menu is accessed by right-clicking within a file folder, but not over any of the folder's contents.
 -   "Verbs" are special commands registered under **HKEY\_CLASSES\_ROOT**\\*Subkey*\\**Shell**\\**Verb** .
 -   For **Network**\\**Type**\\**\#** , "\#" is a network provider type code in decimal. The network provider type code is the high word of a network type. The list of network types is given in the Winnetwk.h header file (WNNC\_NET\_\* values). For example, WNNC\_NET\_SHIVA is 0x00330000, so the corresponding type key would be **HKEY\_CLASSES\_ROOT**\\**Network**\\**Type**\\**51** .
--   "*network\_provider\_name*" is a network provider name as specified by [**WNetGetProviderName**](https://msdn.microsoft.com/c1369098-c574-4d5f-8051-ca5aa548e63f), with the spaces converted into underscores. For example, if the Microsoft Networking network provider is installed, its provider name is "Microsoft Windows Network", and the corresponding *network\_provider\_name* is **Microsoft\_Windows\_Network**.
+-   "*network\_provider\_name*" is a network provider name as specified by [**WNetGetProviderName**](https://msdn.microsoft.com/en-us/library/Aa385464(v=VS.85).aspx), with the spaces converted into underscores. For example, if the Microsoft Networking network provider is installed, its provider name is "Microsoft Windows Network", and the corresponding *network\_provider\_name* is **Microsoft\_Windows\_Network**.
 
 ### Example of an Extension Handler Registration
 

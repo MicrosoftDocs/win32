@@ -59,7 +59,7 @@ You can also use the following import directive instead of the \#include stateme
 
 
 
-To access the [**InkDivider**](/windows/desktop/api/msinkaut15/) interfaces, you must include msinkaut15\_i.c and msinkaut15.h files in your project.
+To access the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) interfaces, you must include msinkaut15\_i.c and msinkaut15.h files in your project.
 
 > [!Note]  
 > InkDivider has been superseded by the Ink Analysis APIs.
@@ -83,7 +83,7 @@ You can also use the following import directive instead of the \# include statem
 
 
 
-To access the [**PenInputPanel**](/windows/desktop/api/msinkaut/) interfaces, you must include PenInputPanel\_i.c and PenInputPanel.h files in your project.
+To access the [**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) interfaces, you must include PenInputPanel\_i.c and PenInputPanel.h files in your project.
 
 
 ```C++

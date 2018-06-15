@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 The driver of each MCI device maintains a list of its current settings and capabilities, so it can issue an accurate response when it is queried for information.
 
-When you want to communicate with an MCI device, you can use MCIWnd macros and functions. Many of the most common MCI commands and queries are defined as macros. However, if the task you want to perform is unavailable as a function or macro, you can send MCI commands directly to the device driver by using the [**MCIWndSendString**](/windows/desktop/api/Vfw/nf-vfw-mciwndsendstring) macro or by using either the message form or string form of the MCI commands. Using the **MCIWndSendString** macro is equivalent to using the [**mciSendString**](/windows/desktop/api/Mmsystem/) function as follows:
+When you want to communicate with an MCI device, you can use MCIWnd macros and functions. Many of the most common MCI commands and queries are defined as macros. However, if the task you want to perform is unavailable as a function or macro, you can send MCI commands directly to the device driver by using the [**MCIWndSendString**](/windows/desktop/api/Vfw/nf-vfw-mciwndsendstring) macro or by using either the message form or string form of the MCI commands. Using the **MCIWndSendString** macro is equivalent to using the [**mciSendString**](https://msdn.microsoft.com/en-us/library/Dd757161(v=VS.85).aspx) function as follows:
 
 
 ```C++

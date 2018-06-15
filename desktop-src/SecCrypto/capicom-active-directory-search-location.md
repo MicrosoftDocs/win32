@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CAPICOM\_ACTIVE\_DIRECTORY\_SEARCH\_LOCATION enumeration
 
-The **CAPICOM\_ACTIVE\_DIRECTORY\_SEARCH\_LOCATION** enumeration type indicates the location to be searched for an Active Directory [*certificate store*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb).
+The **CAPICOM\_ACTIVE\_DIRECTORY\_SEARCH\_LOCATION** enumeration type indicates the location to be searched for an Active Directory [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).
 
 ## Members
 

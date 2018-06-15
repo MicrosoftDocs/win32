@@ -18,7 +18,7 @@ When you have a cloud storage provider, there are a couple of steps you should t
 
  
 
-The first thing is to register as a sync root provider. This lets the Windows Shell know about your application and that your application will be responsible for synchronizing files under your sync root. This will also let other applications know that you are synchronizing these files so that they can respond appropriately. Other applications can then use [**StorageFile.Provider**](https://msdn.microsoft.com/Windows.Storage.StorageFile.Provider) to get the [**DisplayName**](https://msdn.microsoft.com/Windows.Storage.StorageProvider.DisplayName) and [**Id**](https://msdn.microsoft.com/Windows.Storage.StorageProvider.Id) of your application.
+The first thing is to register as a sync root provider. This lets the Windows Shell know about your application and that your application will be responsible for synchronizing files under your sync root. This will also let other applications know that you are synchronizing these files so that they can respond appropriately. Other applications can then use [**StorageFile.Provider**](https://msdn.microsoft.com/en-us/library/Dn298485(v=WIN.10).aspx) to get the [**DisplayName**](https://msdn.microsoft.com/en-us/library/Dn251730(v=WIN.10).aspx) and [**Id**](https://msdn.microsoft.com/en-us/library/Dn251731(v=WIN.10).aspx) of your application.
 
 In order to register as a sync root provider, you will need to create multiple registry entries. Before providing the list of key-value pairs, here are some placeholders that you should replace with your own application data.
 
@@ -46,7 +46,7 @@ In order to add your extension to the Navigation Pane, you will need to have the
 
 -   Identifiable icon for your application.
 
--   A CLSID for your application. One way to generate a CLSID for your application is to use the Uuidgen.exe. See [CLSID Key](https://msdn.microsoft.com/b5777d87-abf2-45b9-9d95-61db878a5810) for more information about CLSID.
+-   A CLSID for your application. One way to generate a CLSID for your application is to use the Uuidgen.exe. See [CLSID Key](https://msdn.microsoft.com/en-us/library/ms691424(v=VS.85).aspx) for more information about CLSID.
 
 The following steps modify the registry in order to get the necessary information into the File Explorer namespace. The specific steps do three things.
 
@@ -108,7 +108,7 @@ Indicate that your namespace extension should function like other file folder st
 
 ### Step 7: Provide the file system attributes of the target folder
 
-This is required to make sure that the File Explorer provides a consistent and expected experience for users. This command sets **FILE\_ATTRIBUTE\_DIRECTORY** and **FILE\_ATTRIBUTE\_READONLY**, both of which are [**File Attribute Constants**](https://msdn.microsoft.com/ed9a73d2-7fb6-4fb7-97f6-4dbf89e2f156).
+This is required to make sure that the File Explorer provides a consistent and expected experience for users. This command sets **FILE\_ATTRIBUTE\_DIRECTORY** and **FILE\_ATTRIBUTE\_READONLY**, both of which are [**File Attribute Constants**](https://msdn.microsoft.com/en-us/library/Gg258117(v=VS.85).aspx).
 
 **reg add HKCU\\Software\\Classes\\CLSID\\{0672A6D1-A6E0-40FE-AB16-F25BADC6D9E3}\\Instance\\InitPropertyBag /v Attributes /t REG\_DWORD /d 0x11 /f**
 

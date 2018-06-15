@@ -174,7 +174,7 @@ Optional initial value(s); the number of values should match the number of compo
 
 Global variables that are not marked **static** or **extern** are not compiled into the shader. The compiler does not automatically set default values for global variables and cannot use them in optimizations. To initialize this type of global variable, use reflection to get its value and then copy the value to a constant buffer. For example, you can use the [**ID3D11ShaderReflection::GetVariableByName**](https://msdn.microsoft.com/library/windows/desktop/ff476626) method to get the variable, use the [**ID3D11ShaderReflectionVariable::GetDesc**](https://msdn.microsoft.com/library/windows/desktop/ff476608) method to get the shader-variable description, and get the initial value from the **DefaultValue** member of the [**D3D11\_SHADER\_VARIABLE\_DESC**](https://msdn.microsoft.com/library/windows/desktop/ff476213) structure. To copy the value to the constant buffer, you must ensure that the buffer was created with CPU write access ([**D3D11\_CPU\_ACCESS\_WRITE**](https://msdn.microsoft.com/library/windows/desktop/ff476106#d3d11-cpu-access-write)). For more information about how to create a constant buffer, see [How to: Create a Constant Buffer](https://msdn.microsoft.com/library/windows/desktop/ff476896).
 
-You can also use the [effects framework](https://msdn.microsoft.com/windows/desktop/d52a2cad-eac9-4442-9ee5-114bebe0f245) to automatically process the reflecting and setting the initial value. For example, you can use the [**ID3DX11EffectPass::Apply**](https://msdn.microsoft.com/library/windows/desktop/ff476707) method.
+You can also use the [effects framework](https://msdn.microsoft.com/en-us/library/Ff476136(v=VS.85).aspx) to automatically process the reflecting and setting the initial value. For example, you can use the [**ID3DX11EffectPass::Apply**](https://msdn.microsoft.com/library/windows/desktop/ff476707) method.
 
 </dd> </dl>
 
@@ -277,7 +277,7 @@ cbuffer MyBuffer
 
 
 
-A sample that uses packoffset is: [HLSLWithoutFX10 Sample](https://msdn.microsoft.com/windows/desktop/61f892cf-4760-177b-5048-0ba3906d8bfc).
+A sample that uses packoffset is: [HLSLWithoutFX10 Sample](https://msdn.microsoft.com/en-us/library/Ee416414(v=VS.85).aspx).
 
 ## Related topics
 

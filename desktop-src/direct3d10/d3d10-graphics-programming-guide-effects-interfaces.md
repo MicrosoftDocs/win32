@@ -25,7 +25,7 @@ Use runtime interfaces to render an effect.
 | Runtime Interfaces                                               | Description                                                          |
 |------------------------------------------------------------------|----------------------------------------------------------------------|
 | [**ID3D10Effect Interface**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effect)                   | Collection of one or more techniques for rendering.                  |
-| [**ID3D10Include Interface**](/windows/desktop/api/D3D10Shader/)                 | An interface for adding custom behaviors when reading include files. |
+| [**ID3D10Include Interface**](https://msdn.microsoft.com/en-us/library/Bb173775(v=VS.85).aspx)                 | An interface for adding custom behaviors when reading include files. |
 | [**ID3D10EffectPass Interface**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectpass)           | A collection of state assignments.                                   |
 | [**ID3D10EffectPool Interface**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectpool)           | Create a memory location for variables to be shared between effects. |
 | [**ID3D10EffectTechnique Interface**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effecttechnique) | A collection of one or more passes.                                  |

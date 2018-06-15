@@ -58,7 +58,7 @@ Inside the wave capture device and input multiplexer device are stream-processin
 
 The settings in the volume, mute, and multiplexer subunits can be controlled by clients, and the DeviceTopology API provides control interfaces to clients for controlling them. In this example, the ADC subunit has no control settings. Thus, the DeviceTopology API provides no control interface for the ADC.
 
-In the terminology of the DeviceTopology API, connectors and subunits belong to the same general category—parts. All parts, regardless of whether they are connectors or subunits, provide a common set of functions. The DeviceTopology API implements an [**IPart**](/windows/desktop/api/Devicetopology/nn-devicetopology-ipart) interface to represent the generic functions that are common to connectors and subunits. The API implements the [**IConnector**](/windows/desktop/api/Devicetopology/nn-devicetopology-iconnector) and [**ISubunit**](/windows/desktop/api/Devicetopology/) interfaces to represent the specific aspects of connectors and subunits.
+In the terminology of the DeviceTopology API, connectors and subunits belong to the same general category—parts. All parts, regardless of whether they are connectors or subunits, provide a common set of functions. The DeviceTopology API implements an [**IPart**](/windows/desktop/api/Devicetopology/nn-devicetopology-ipart) interface to represent the generic functions that are common to connectors and subunits. The API implements the [**IConnector**](/windows/desktop/api/Devicetopology/nn-devicetopology-iconnector) and [**ISubunit**](https://msdn.microsoft.com/en-us/library/Dd316540(v=VS.85).aspx) interfaces to represent the specific aspects of connectors and subunits.
 
 The DeviceTopology API constructs the topologies of the wave capture device and input multiplexer device from the kernel-streaming (KS) filters that the audio driver exposes to the operating system to represent these devices. (The audio adapter driver implements **IMiniportWaveXxx** and **IMiniportTopology** interfaces to represent the hardware-dependent portions of these filters; for more information about these interfaces and about KS filters, see the Windows DDK documentation.)
 
@@ -342,7 +342,7 @@ If the SelectCaptureDevice function encounters a topology for which that assumpt
 Some, but not necessarily all, parts have associated hardware controls that clients can set or get. A particular part might have zero, one, or more hardware controls. A hardware control is represented by the following pair of interfaces:
 
 -   A generic control interface, [**IControlInterface**](/windows/desktop/api/Devicetopology/nn-devicetopology-icontrolinterface), which has methods that are common to all hardware controls.
--   A function-specific interface (for example, [**IAudioVolumeLevel**](/windows/desktop/api/Devicetopology/)) that exposes the control parameters for a particular type of hardware control (for example, a volume control).
+-   A function-specific interface (for example, [**IAudioVolumeLevel**](https://msdn.microsoft.com/en-us/library/Dd371019(v=VS.85).aspx)) that exposes the control parameters for a particular type of hardware control (for example, a volume control).
 
 To enumerate the hardware controls for a part, the client first calls the [**IPart::GetControlInterfaceCount**](/windows/desktop/api/Devicetopology/nf-devicetopology-ipart-getcontrolinterfacecount) method to determine the number of hardware controls that are associated with the part. Next, the client makes a series of calls to the [**IPart::GetControlInterface**](/windows/desktop/api/Devicetopology/nf-devicetopology-ipart-getcontrolinterface) method to obtain the **IControlInterface** interface for each hardware control. Finally, the client obtains the function-specific interface for each hardware control by calling the [**IControlInterface::GetIID**](/windows/desktop/api/Devicetopology/nf-devicetopology-icontrolinterface-getiid) method to obtain the interface ID. The client calls the [**IPart::Activate**](/windows/desktop/api/Devicetopology/nf-devicetopology-ipart-activate) method with this ID to obtain the function-specific interface.
 
@@ -354,16 +354,16 @@ A part that is a connector might support one of the following function-specific 
 A part that is a subunit might support one or more of the following function-specific control interfaces:
 
 -   [**IAudioAutoGainControl**](/windows/desktop/api/Devicetopology/nn-devicetopology-iaudioautogaincontrol)
--   [**IAudioBass**](/windows/desktop/api/Devicetopology/)
+-   [**IAudioBass**](https://msdn.microsoft.com/en-us/library/Dd370857(v=VS.85).aspx)
 -   [**IAudioChannelConfig**](/windows/desktop/api/Devicetopology/nn-devicetopology-iaudiochannelconfig)
 -   [**IAudioInputSelector**](/windows/desktop/api/Devicetopology/nn-devicetopology-iaudioinputselector)
 -   [**IAudioLoudness**](/windows/desktop/api/Devicetopology/nn-devicetopology-iaudioloudness)
--   [**IAudioMidrange**](/windows/desktop/api/Devicetopology/)
+-   [**IAudioMidrange**](https://msdn.microsoft.com/en-us/library/Dd368232(v=VS.85).aspx)
 -   [**IAudioMute**](/windows/desktop/api/Devicetopology/nn-devicetopology-iaudiomute)
 -   [**IAudioOutputSelector**](/windows/desktop/api/Devicetopology/nn-devicetopology-iaudiooutputselector)
 -   [**IAudioPeakMeter**](/windows/desktop/api/Devicetopology/nn-devicetopology-iaudiopeakmeter)
--   [**IAudioTreble**](/windows/desktop/api/Devicetopology/)
--   [**IAudioVolumeLevel**](/windows/desktop/api/Devicetopology/)
+-   [**IAudioTreble**](https://msdn.microsoft.com/en-us/library/Dd371001(v=VS.85).aspx)
+-   [**IAudioVolumeLevel**](https://msdn.microsoft.com/en-us/library/Dd371019(v=VS.85).aspx)
 -   [**IDeviceSpecificProperty**](/windows/desktop/api/Devicetopology/nn-devicetopology-idevicespecificproperty)
 
 A part supports the **IDeviceSpecificProperty** interface only if the underlying hardware control has a device-specific control value and the control cannot be adequately represented by any other function-specific interface in the preceding list. Typically, a device-specific property is useful only to a client that can infer the meaning of the property value from information such as the part type, part subtype, and part name. The client can obtain this information by calling the [**IPart::GetPartType**](/windows/desktop/api/Devicetopology/nf-devicetopology-ipart-getparttype), [**IPart::GetSubType**](/windows/desktop/api/Devicetopology/nf-devicetopology-ipart-getsubtype), and [**IPart::GetName**](/windows/desktop/api/Devicetopology/nf-devicetopology-ipart-getname) methods.

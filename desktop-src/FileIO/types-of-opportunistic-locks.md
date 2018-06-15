@@ -50,7 +50,7 @@ A filter opportunistic lock differs from a level 2 opportunistic lock in that it
 Your application should request a filter opportunistic lock on a file in three steps:
 
 1.  Use the [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) function to open a handle to the file with the *DesiredAccess* parameter set to zero, indicating no access, and the *dwShareMode* parameter set to the **FILE\_SHARE\_READ** flag to allow sharing for reading. The handle obtained at this point is called the locking handle.
-2.  Request a lock on this handle with the [**FSCTL\_REQUEST\_FILTER\_OPLOCK**](/windows/desktop/api/WinIoCtl/) control code.
+2.  Request a lock on this handle with the [**FSCTL\_REQUEST\_FILTER\_OPLOCK**](https://msdn.microsoft.com/en-us/library/Aa364589(v=VS.85).aspx) control code.
 3.  When the lock is granted, use [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) to open the file again with *DesiredAccess* set to the **GENERIC\_READ** flag. Set *dwShareMode* to the **FILE\_SHARE\_READ** flag to allow others to read the file while you have it open, the **FILE\_SHARE\_DELETE** flag to allow others to mark the file for deletion while you have it open, or both. The handle obtained at this point is called the read handle.
 
 Use the read handle to read from or write to the contents of the file.

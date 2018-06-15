@@ -71,7 +71,7 @@ void main( inout TriangleStream<PS_CUBEMAP_IN> CubeMapStream, triangle PS_CUBEMA
 
 
 
-This is a code snippet from the [CubeMapGS Sample](https://msdn.microsoft.com/windows/desktop/7bb33415-9ed7-1a13-637b-df3669cae2fa).
+This is a code snippet from the [CubeMapGS Sample](https://msdn.microsoft.com/en-us/library/Ee416398(v=VS.85).aspx).
 
 ## Stream-Output Object Methods
 

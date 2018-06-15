@@ -12,19 +12,19 @@ ms.date: 05/31/2018
 
 These features belong to older versions of the Windows Shell. Some of these features may no longer be present or supported.
 
--   [Creating Briefcase Reconcilers](https://msdn.microsoft.com/86d66291-96ae-40ea-98ef-ef263f25aa82)
+-   [Creating Briefcase Reconcilers](https://msdn.microsoft.com/en-us/library/Bb776781(v=VS.85).aspx)
 -   [Handling Online Help](handling-online-help.md)
 -   [Managing Printers](print.md)
--   [Creating Internet Shortcuts](https://msdn.microsoft.com/367c003f-2362-408c-81e1-fda1ffc7e15b)
+-   [Creating Internet Shortcuts](https://msdn.microsoft.com/en-us/library/Bb776784(v=VS.85).aspx)
 -   [User Accounts with Fast User Switching and Remote Desktop](fastuserswitching.md)
--   [Implementing a Folder View](https://msdn.microsoft.com/8c6712d8-c3cb-4450-8277-3a8675622651)
--   [Creating a Disk Cleanup Handler](https://msdn.microsoft.com/f85e0db7-fbdb-452e-90c8-672f716b5692)
--   [Handling Screen Savers](https://msdn.microsoft.com/cda5e690-71fe-4df7-b8a2-3a2ad65b1bfb)
+-   [Implementing a Folder View](https://msdn.microsoft.com/en-us/library/Cc144092(v=VS.85).aspx)
+-   [Creating a Disk Cleanup Handler](https://msdn.microsoft.com/en-us/library/Bb776782(v=VS.85).aspx)
+-   [Handling Screen Savers](https://msdn.microsoft.com/en-us/library/Cc144066(v=VS.85).aspx)
 -   [Debugging the Shell](debugging-with-the-shell.md)
--   [Photo Wizards](https://msdn.microsoft.com/5a692997-ad58-4dd9-8f1c-e22d1f98dc2c)
--   [Publishing Wizards](https://msdn.microsoft.com/53279837-f57b-447a-8c71-03f635959fdb)
+-   [Photo Wizards](https://msdn.microsoft.com/en-us/library/Ff521710(v=VS.85).aspx)
+-   [Publishing Wizards](https://msdn.microsoft.com/en-us/library/Bb776788(v=VS.85).aspx)
 -   [Synchronization Center](synchronization-center-bumper.md)
--   [Windows Defender](https://msdn.microsoft.com/4c56145d-7c64-4ae0-b718-27530653279a)
+-   [Windows Defender](https://msdn.microsoft.com/en-us/library/Ff521745(v=VS.85).aspx)
 
  
 

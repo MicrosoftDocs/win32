@@ -37,9 +37,9 @@ However, if the .NET Framework 4 is the only runtime version that is installed o
 
 ## Solution
 
-To run applications that are built with earlier .NET Framework versions with .NET Framework 4, you must compile your application to target the .NET Framework 4 version by specifying it in the properties for your project in Microsoft Visual Studio, or you can specify .NET Framework 4 in the [**&lt;supportedRuntime&gt; element**](https://msdn.microsoft.com/windows/desktop/1ae16e23-afbe-4de4-b413-bc457f37b69f) in an application configuration file.
+To run applications that are built with earlier .NET Framework versions with .NET Framework 4, you must compile your application to target the .NET Framework 4 version by specifying it in the properties for your project in Microsoft Visual Studio, or you can specify .NET Framework 4 in the [**&lt;supportedRuntime&gt; element**](https://msdn.microsoft.com/en-us/library/w4atty68(v=VS.71).aspx) in an application configuration file.
 
-For more information about how to migrate to the .NET Framework 4, see [Migration Guide to the .NET Framework 4](https://msdn.microsoft.com/windows/desktop/02d55147-9b3a-4557-a45f-fa936fadae3b) and [Version Compatibility in the .NET Framework](https://msdn.microsoft.com/windows/desktop/2f25e522-456a-48c3-8a53-e5f39275649f).
+For more information about how to migrate to the .NET Framework 4, see [Migration Guide to the .NET Framework 4](https://msdn.microsoft.com/en-us/library/Ff657133(v=VS.100).aspx) and [Version Compatibility in the .NET Framework](https://msdn.microsoft.com/en-us/library/Ff602939(v=VS.100).aspx).
 
 ## Compatibility Tests
 
@@ -49,9 +49,9 @@ If your application or component does not work after .NET Framework 4 is install
 
 ## Links to Other Resources
 
--   [**&lt;supportedRuntime&gt; Element**](https://msdn.microsoft.com/windows/desktop/1ae16e23-afbe-4de4-b413-bc457f37b69f)
--   [Migration Guide to the .NET Framework 4](https://msdn.microsoft.com/windows/desktop/02d55147-9b3a-4557-a45f-fa936fadae3b)
--   [Version Compatibility in the .NET Framework](https://msdn.microsoft.com/windows/desktop/2f25e522-456a-48c3-8a53-e5f39275649f)
+-   [**&lt;supportedRuntime&gt; Element**](https://msdn.microsoft.com/en-us/library/w4atty68(v=VS.71).aspx)
+-   [Migration Guide to the .NET Framework 4](https://msdn.microsoft.com/en-us/library/Ff657133(v=VS.100).aspx)
+-   [Version Compatibility in the .NET Framework](https://msdn.microsoft.com/en-us/library/Ff602939(v=VS.100).aspx)
 -   **.NET Framework 4 RTM Application Compatibility Walkthrough:**<http://msdn.microsoft.com/en-us/library/dd889541.aspx>
 -   [Microsoft Connect](http://go.microsoft.com/fwlink/p/?linkid=101629)
 

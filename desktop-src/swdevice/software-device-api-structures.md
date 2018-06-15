@@ -19,10 +19,10 @@ This section describes Software Device API structures.
 
 | Topic                                                                | Description                                                            |
 |----------------------------------------------------------------------|------------------------------------------------------------------------|
-| [**DEVPROPCOMPKEY**](https://www.bing.com/search?q=**DEVPROPCOMPKEY**)<br/>                  | Describes a compound key for a device property.<br/>             |
-| [**DEVPROPERTY**](https://www.bing.com/search?q=**DEVPROPERTY**)<br/>                        | Describes a property for a software device.<br/>                 |
-| [**DEVPROPKEY**](https://www.bing.com/search?q=**DEVPROPKEY**)<br/>                          | Describes a key for a device property.<br/>                      |
-| [**SW\_DEVICE\_CREATE\_INFO**](/windows/desktop/api/Swdevicedef/ns-swdevicedef-_sw_device_create_info)<br/> | Describes info that PnP uses to create the software device.<br/> |
+| [**DEVPROPCOMPKEY**](https://msdn.microsoft.com/en-us/library/Dn315029(v=VS.85).aspx)<br/>                  | Describes a compound key for a device property.<br/>             |
+| [**DEVPROPERTY**](https://msdn.microsoft.com/en-us/library/Dn315030(v=VS.85).aspx)<br/>                        | Describes a property for a software device.<br/>                 |
+| [**DEVPROPKEY**](https://msdn.microsoft.com/en-us/library/Dn315031(v=VS.85).aspx)<br/>                          | Describes a key for a device property.<br/>                      |
+| [**SW\_DEVICE\_CREATE\_INFO**](https://msdn.microsoft.com/en-us/library/Dn315047(v=VS.85).aspx)<br/> | Describes info that PnP uses to create the software device.<br/> |
 
 
 

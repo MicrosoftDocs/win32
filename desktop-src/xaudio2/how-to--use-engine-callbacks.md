@@ -19,7 +19,7 @@ The following steps register an object to handle engine events.
 
 1.  Create a class that inherits from the [**IXAudio2EngineCallback**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2enginecallback) interface.
 
-    All methods of [**IXAudio2EngineCallback**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2enginecallback) are purely virtual and must be defined. The method of interest in this example is [**IXAudio2EngineCallback::OnCriticalError**](https://www.bing.com/search?q=**IXAudio2EngineCallback::OnCriticalError**), which sets a flag to signal the main game loop that a critical error has occurred. The remaining methods, [**IXAudio2EngineCallback::OnProcessingPassStart**](https://www.bing.com/search?q=**IXAudio2EngineCallback::OnProcessingPassStart**) and [**IXAudio2EngineCallback::OnProcessingPassEnd**](https://www.bing.com/search?q=**IXAudio2EngineCallback::OnProcessingPassEnd**), are stubs in this example.
+    All methods of [**IXAudio2EngineCallback**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2enginecallback) are purely virtual and must be defined. The method of interest in this example is [**IXAudio2EngineCallback::OnCriticalError**](https://msdn.microsoft.com/en-us/library/Ee418461(v=VS.85).aspx), which sets a flag to signal the main game loop that a critical error has occurred. The remaining methods, [**IXAudio2EngineCallback::OnProcessingPassStart**](https://msdn.microsoft.com/en-us/library/Ee418463(v=VS.85).aspx) and [**IXAudio2EngineCallback::OnProcessingPassEnd**](https://msdn.microsoft.com/en-us/library/Ee418462(v=VS.85).aspx), are stubs in this example.
 
     ```
     class EngineCallback : public IXAudio2EngineCallback
@@ -41,7 +41,7 @@ The following steps register an object to handle engine events.
 
     
 
-3.  Use [**IXAudio2::RegisterForCallbacks**](https://www.bing.com/search?q=**IXAudio2::RegisterForCallbacks**) to register the engine callback.
+3.  Use [**IXAudio2::RegisterForCallbacks**](https://msdn.microsoft.com/en-us/library/Ee418620(v=VS.85).aspx) to register the engine callback.
 
     ```
     pXAudio2->RegisterForCallbacks( &amp;engineCallback );
@@ -49,7 +49,7 @@ The following steps register an object to handle engine events.
 
     
 
-4.  If you don't need the engine callback any more, call [**IXAudio2::UnregisterForCallbacks**](https://www.bing.com/search?q=**IXAudio2::UnregisterForCallbacks**).
+4.  If you don't need the engine callback any more, call [**IXAudio2::UnregisterForCallbacks**](https://msdn.microsoft.com/en-us/library/Ee418630(v=VS.85).aspx).
 
     ```
     pXAudio2->UnregisterForCallbacks( &amp;engineCallback );

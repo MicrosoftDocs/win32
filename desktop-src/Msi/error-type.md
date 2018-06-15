@@ -28,7 +28,7 @@ propVal = Error.Type
 
 ## C++
 
-See [**get\_Type Function**](/windows/desktop/api/Mergemod/) function (Error Object).
+See [**get\_Type Function**](https://msdn.microsoft.com/en-us/library/Aa369256(v=VS.85).aspx) function (Error Object).
 
 ## Requirements
 

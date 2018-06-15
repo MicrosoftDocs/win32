@@ -17,7 +17,7 @@ The following code shows how to create a solid yellow-green brush to fill a squa
 
 ![illustration of a rectangle filled with a solid yellow-green color](images/brushes-ovw-solidcolor.png)
 
-1.  Declare two [**ID2D1SolidColorBrush**](/windows/desktop/api/d2d1/) pointers: one for painting black and one for painting yellow green.
+1.  Declare two [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/en-us/library/Dd371871(v=VS.85).aspx) pointers: one for painting black and one for painting yellow green.
     ```C++
         ID2D1SolidColorBrush *m_pBlackBrush;
         ID2D1SolidColorBrush *m_pYellowGreenBrush;
@@ -47,7 +47,7 @@ The following code shows how to create a solid yellow-green brush to fill a squa
 
     
 
-3.  Call the [**FillRectangle**](/windows/desktop/api/d2d1/) method to paint the interior of the rectangle with the yellow green brush and the [**DrawRectangle**](/windows/desktop/api/d2d1/) method to paint the outline of the rectangle with the black brush:
+3.  Call the [**FillRectangle**](https://msdn.microsoft.com/en-us/library/Dd371954(v=VS.85).aspx) method to paint the interior of the rectangle with the yellow green brush and the [**DrawRectangle**](https://msdn.microsoft.com/en-us/library/Dd371902(v=VS.85).aspx) method to paint the outline of the rectangle with the black brush:
     ```C++
     m_pRenderTarget->FillRectangle(&amp;rcBrushRect, m_pYellowGreenBrush);
     m_pRenderTarget->DrawRectangle(&amp;rcBrushRect, m_pBlackBrush, 1, NULL);

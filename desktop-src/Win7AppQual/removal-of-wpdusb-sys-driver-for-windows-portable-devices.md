@@ -47,7 +47,7 @@ The WPD API is supported in Windows XP (via the Windows Format SDK), Windows Vis
 
 ## Links to Other Resources
 
-[Windows Portable Devices](https://msdn.microsoft.com/b3833a11-631d-4860-867f-a611c9362dae)
+[Windows Portable Devices](https://msdn.microsoft.com/en-us/library/Dd388998(v=VS.85).aspx)
 
  
 

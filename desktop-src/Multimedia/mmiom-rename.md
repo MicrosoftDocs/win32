@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # MMIOM\_RENAME message
 
-The **MMIOM\_RENAME** message is sent to an I/O procedure by the [**mmioRename**](https://www.bing.com/search?q=**mmioRename**) function to request that the specified file be renamed.
+The **MMIOM\_RENAME** message is sent to an I/O procedure by the [**mmioRename**](https://msdn.microsoft.com/en-us/library/Dd757335(v=VS.85).aspx) function to request that the specified file be renamed.
 
 
 ```C++

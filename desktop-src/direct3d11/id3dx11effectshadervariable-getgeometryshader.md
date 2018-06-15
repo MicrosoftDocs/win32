@@ -54,15 +54,15 @@ A zero-based index.
 *ppGS* 
 </dt> <dd>
 
-Type: **[**ID3D11GeometryShader**](/windows/desktop/api/D3D11/)\*\***
+Type: **[**ID3D11GeometryShader**](https://msdn.microsoft.com/en-us/library/Ff476536(v=VS.85).aspx)\*\***
 
-A pointer to an [**ID3D11GeometryShader**](/windows/desktop/api/D3D11/) pointer that will be set to the geometry shader on return.
+A pointer to an [**ID3D11GeometryShader**](https://msdn.microsoft.com/en-us/library/Ff476536(v=VS.85).aspx) pointer that will be set to the geometry shader on return.
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

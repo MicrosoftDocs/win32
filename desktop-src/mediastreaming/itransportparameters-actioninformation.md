@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # ITransportParameters::ActionInformation method
 
-Obtains an [**IMediaRendererActionInformation**](https://www.bing.com/search?q=**IMediaRendererActionInformation**) interface that provides information about which methods can currently be invoked on the DMR.
+Obtains an [**IMediaRendererActionInformation**](https://msdn.microsoft.com/en-us/library/Hh828915(v=VS.85).aspx) interface that provides information about which methods can currently be invoked on the DMR.
 
 ## Syntax
 
@@ -41,7 +41,7 @@ HRESULT ActionInformation(
 *value* \[out, retval\]
 </dt> <dd>
 
-Receives a reference to an [**IMediaRendererActionInformation**](https://www.bing.com/search?q=**IMediaRendererActionInformation**) interface.
+Receives a reference to an [**IMediaRendererActionInformation**](https://msdn.microsoft.com/en-us/library/Hh828915(v=VS.85).aspx) interface.
 
 </dd> </dl>
 
@@ -63,7 +63,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 <dl> <dt>
 
-[**ITransportParameters**](https://www.bing.com/search?q=**ITransportParameters**)
+[**ITransportParameters**](https://msdn.microsoft.com/en-us/library/Hh828956(v=VS.85).aspx)
 </dt> </dl>
 
  

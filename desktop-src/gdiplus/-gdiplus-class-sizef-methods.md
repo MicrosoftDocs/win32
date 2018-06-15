@@ -15,8 +15,8 @@ This topic lists the methods of the [**SizeF**](/windows/desktop/api/gdiplustype
 
 -   [**Empty**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-sizef-empty)
 -   [**Equals**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-sizef-equals)
--   [**operator-(SizeF&)**](/windows/desktop/api/Gdiplustypes/)
--   [**operator+(SizeF&)**](/windows/desktop/api/Gdiplustypes/)
+-   [**operator-(SizeF&)**](https://msdn.microsoft.com/en-us/library/ms534743(v=VS.85).aspx)
+-   [**operator+(SizeF&)**](https://msdn.microsoft.com/en-us/library/ms534742(v=VS.85).aspx)
 
  
 

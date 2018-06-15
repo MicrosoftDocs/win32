@@ -62,11 +62,11 @@ The type of process information to be retrieved. This parameter can be one of th
 <tbody>
 <tr class="odd">
 <td><span id="ProcessBasicInformation"></span><span id="processbasicinformation"></span><span id="PROCESSBASICINFORMATION"></span><dl> <dt><strong>ProcessBasicInformation</strong></dt> <dt>0</dt> </dl></td>
-<td>Retrieves a pointer to a PEB structure that can be used to determine whether the specified process is being debugged, and a unique value used by the system to identify the specified process. <br/> It is best to use the [<strong>CheckRemoteDebuggerPresent</strong>](https://msdn.microsoft.com/e7eb2d48-4ef3-4708-8895-2bc33d2c3e91) and [<strong>GetProcessId</strong>](/windows/desktop/api/WinBase/nf-processthreadsapi-getprocessid) functions to obtain this information.<br/></td>
+<td>Retrieves a pointer to a PEB structure that can be used to determine whether the specified process is being debugged, and a unique value used by the system to identify the specified process. <br/> It is best to use the [<strong>CheckRemoteDebuggerPresent</strong>](https://msdn.microsoft.com/en-us/library/ms679280(v=VS.85).aspx) and [<strong>GetProcessId</strong>](/windows/desktop/api/WinBase/nf-processthreadsapi-getprocessid) functions to obtain this information.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="ProcessDebugPort"></span><span id="processdebugport"></span><span id="PROCESSDEBUGPORT"></span><dl> <dt><strong>ProcessDebugPort</strong></dt> <dt>7</dt> </dl></td>
-<td>Retrieves a <strong>DWORD_PTR</strong> value that is the port number of the debugger for the process. A nonzero value indicates that the process is being run under the control of a ring 3 debugger.<br/> It is best to use the [<strong>CheckRemoteDebuggerPresent</strong>](https://msdn.microsoft.com/e7eb2d48-4ef3-4708-8895-2bc33d2c3e91) or [<strong>IsDebuggerPresent</strong>](https://msdn.microsoft.com/7bc4bcb7-3f85-4349-a1da-c4ebee2d3e3f) function.<br/></td>
+<td>Retrieves a <strong>DWORD_PTR</strong> value that is the port number of the debugger for the process. A nonzero value indicates that the process is being run under the control of a ring 3 debugger.<br/> It is best to use the [<strong>CheckRemoteDebuggerPresent</strong>](https://msdn.microsoft.com/en-us/library/ms679280(v=VS.85).aspx) or [<strong>IsDebuggerPresent</strong>](https://msdn.microsoft.com/en-us/library/ms680345(v=VS.85).aspx) function.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ProcessWow64Information"></span><span id="processwow64information"></span><span id="PROCESSWOW64INFORMATION"></span><dl> <dt><strong>ProcessWow64Information</strong></dt> <dt>26</dt> </dl></td>
@@ -166,9 +166,9 @@ The forms and significance of NTSTATUS error codes are listed in the Ntstatus.h 
 
 The **ZwQueryInformationProcess** function and the structures that it returns are internal to the operating system and subject to change from one release of Windows to another. To maintain the compatibility of your application, it is better to use public functions mentioned in the description of the *ProcessInformationClass* parameter instead.
 
-If you do use **ZwQueryInformationProcess**, access the function through [run-time dynamic linking](https://msdn.microsoft.com/0ffce2b1-ce50-4550-aa68-6628fdcac01a). This gives your code an opportunity to respond gracefully if the function has been changed or removed from the operating system. Signature changes, however, may not be detectable.
+If you do use **ZwQueryInformationProcess**, access the function through [run-time dynamic linking](https://msdn.microsoft.com/en-us/library/ms686944(v=VS.85).aspx). This gives your code an opportunity to respond gracefully if the function has been changed or removed from the operating system. Signature changes, however, may not be detectable.
 
-This function has no associated import library. You must use the [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) functions to dynamically link to Ntdll.dll.
+This function has no associated import library. You must use the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions to dynamically link to Ntdll.dll.
 
 ## Requirements
 
@@ -186,13 +186,13 @@ This function has no associated import library. You must use the [**LoadLibrary*
 
 <dl> <dt>
 
-[**CheckRemoteDebuggerPresent**](https://msdn.microsoft.com/e7eb2d48-4ef3-4708-8895-2bc33d2c3e91)
+[**CheckRemoteDebuggerPresent**](https://msdn.microsoft.com/en-us/library/ms679280(v=VS.85).aspx)
 </dt> <dt>
 
 [**GetProcessId**](/windows/desktop/api/WinBase/nf-processthreadsapi-getprocessid)
 </dt> <dt>
 
-[**IsDebuggerPresent**](https://msdn.microsoft.com/7bc4bcb7-3f85-4349-a1da-c4ebee2d3e3f)
+[**IsDebuggerPresent**](https://msdn.microsoft.com/en-us/library/ms680345(v=VS.85).aspx)
 </dt> <dt>
 
 [**IsWow64Process**](/windows/desktop/api/WinBase/nf-wow64apiset-iswow64process)

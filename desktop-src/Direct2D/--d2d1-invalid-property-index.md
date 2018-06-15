@@ -23,9 +23,9 @@ Defines an invalid property index.
 
 ## Remarks
 
-When the invalid property index is provided to [**GetValue**](/windows/desktop/api/D2d1_1/) or [**GetValueByName**](/windows/desktop/api/D2d1_1/), the call fails and the output buffer is zero-filled.
+When the invalid property index is provided to [**GetValue**](https://msdn.microsoft.com/en-us/library/Hh446876(v=VS.85).aspx) or [**GetValueByName**](https://msdn.microsoft.com/en-us/library/Hh446879(v=VS.85).aspx), the call fails and the output buffer is zero-filled.
 
-This value is returned by [**ID2D1Properties::GetPropertyIndex**](/windows/desktop/api/D2d1_1/) to indicate that the named property does not have an index in the property interface.
+This value is returned by [**ID2D1Properties::GetPropertyIndex**](https://msdn.microsoft.com/en-us/library/Hh446861(v=VS.85).aspx) to indicate that the named property does not have an index in the property interface.
 
 ## Requirements
 
@@ -44,7 +44,7 @@ This value is returned by [**ID2D1Properties::GetPropertyIndex**](/windows/deskt
 
 <dl> <dt>
 
-[**ID2D1Properties::GetPropertyIndex**](/windows/desktop/api/D2d1_1/)
+[**ID2D1Properties::GetPropertyIndex**](https://msdn.microsoft.com/en-us/library/Hh446861(v=VS.85).aspx)
 </dt> </dl>
 
  

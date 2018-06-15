@@ -31,7 +31,7 @@ BOOL D3DXDebugMute(
 *Mute* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 If **TRUE**, debugger output is halted; if **FALSE**, debug output is enabled.
 
@@ -39,7 +39,7 @@ If **TRUE**, debugger output is halted; if **FALSE**, debug output is enabled.
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Returns the previous value of Mute.
 

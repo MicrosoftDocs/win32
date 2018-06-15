@@ -57,7 +57,7 @@ No return value.
 
 The [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) function creates a **Font** dialog box and uses a [**CHOOSEFONT**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) structure to specify the initial values for the **Flags** member. Use the **WM\_CHOOSEFONT\_SETFLAGS** message to specify different values for the **Flags** member while the **Font** dialog box is open.
 
-Typically, you should send the **WM\_CHOOSEFONT\_SETFLAGS** message from a [**CFHookProc**](https://www.bing.com/search?q=**CFHookProc**) hook procedure.
+Typically, you should send the **WM\_CHOOSEFONT\_SETFLAGS** message from a [**CFHookProc**](https://msdn.microsoft.com/en-us/library/ms646909(v=VS.85).aspx) hook procedure.
 
 ## Requirements
 
@@ -78,7 +78,7 @@ Typically, you should send the **WM\_CHOOSEFONT\_SETFLAGS** message from a [**CF
 **Reference**
 </dt> <dt>
 
-[**CFHookProc**](https://www.bing.com/search?q=**CFHookProc**)
+[**CFHookProc**](https://msdn.microsoft.com/en-us/library/ms646909(v=VS.85).aspx)
 </dt> <dt>
 
 [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta)

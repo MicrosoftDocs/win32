@@ -14,8 +14,8 @@ ms.date: 05/31/2018
 This topic lists the methods of the [**Point**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point) class. For a complete class listing, see **Point Class**.
 
 -   [**Equals**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-point-equals)
--   [**operator-(Point&)**](/windows/desktop/api/Gdiplustypes/)
--   [**operator+(Point&)**](/windows/desktop/api/Gdiplustypes/)
+-   [**operator-(Point&)**](https://msdn.microsoft.com/en-us/library/ms535009(v=VS.85).aspx)
+-   [**operator+(Point&)**](https://msdn.microsoft.com/en-us/library/ms535008(v=VS.85).aspx)
 
  
 

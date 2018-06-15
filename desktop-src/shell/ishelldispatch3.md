@@ -40,7 +40,7 @@ The **IShellDispatch3** object has these methods.
 
 ## Remarks
 
-For a discussion of Windows services, see the [Services](https://msdn.microsoft.com/711391da-05c6-4d89-88d6-c68c2e5c2f86) documentation.
+For a discussion of Windows services, see the [Services](https://msdn.microsoft.com/en-us/library/ms685141(v=VS.85).aspx) documentation.
 
 ## Requirements
 
@@ -60,7 +60,7 @@ For a discussion of Windows services, see the [Services](https://msdn.microsoft.
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
+[**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx)
 </dt> <dt>
 
 [**Shell Object**](shell.md)

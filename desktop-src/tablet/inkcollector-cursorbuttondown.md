@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # InkCollector.CursorButtonDown event
 
-Occurs when the [**InkCollector Class**](/windows/desktop/api/msinkaut/) detects a cursor button that is down.
+Occurs when the [**InkCollector Class**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx) detects a cursor button that is down.
 
 ## Syntax
 
@@ -72,7 +72,7 @@ This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, 
 
 <dl> <dt>
 
-[**InkCollector Class**](/windows/desktop/api/msinkaut/)
+[**InkCollector Class**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx)
 </dt> <dt>
 
 [**CursorDown Event**](inkcollector-cursordown.md)

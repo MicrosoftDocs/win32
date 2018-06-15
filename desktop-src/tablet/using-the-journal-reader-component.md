@@ -41,7 +41,7 @@ The Journal Note Reader component is useful for extracting the ink data and othe
 
 The Journal Note Reader COM component is in the file Journal.dll, which is installed and registered when you download and run the Journal Note Reader installation file.
 
-The COM component does not support the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface.
+The COM component does not support the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface.
 
 ### Managed
 

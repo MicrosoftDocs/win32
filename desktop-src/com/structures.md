@@ -39,7 +39,7 @@ The following structures are provided by COM:
 -   [**SOLE\_AUTHENTICATION\_INFO**](/windows/desktop/api/objidlbase/ns-objidl-tagsole_authentication_info)
 -   [**SOLE\_AUTHENTICATION\_LIST**](/windows/desktop/api/objidlbase/ns-objidl-tagsole_authentication_list)
 -   [**SOLE\_AUTHENTICATION\_SERVICE**](/windows/desktop/api/objidlbase/ns-objidl-tagsole_authentication_service)
--   [**SOleTlsData**](/windows/desktop/api/objbase/)
+-   [**SOleTlsData**](https://msdn.microsoft.com/en-us/library/ms690269(v=VS.85).aspx)
 
  
 

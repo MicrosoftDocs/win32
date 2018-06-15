@@ -13,19 +13,19 @@ ms.date: 05/31/2018
 
 The **SIO\_ADDRESS\_LIST\_SORT** IOCTL allows application developers to sort a list of IPv6 and IPv4 destination addresses to determine the best available address for making a connection. The **SIO\_ADDRESS\_LIST\_SORT** IOCTL is supported on Windows XP and later.
 
-On Windows Vista and later, the [**CreateSortedAddressPairs**](https://msdn.microsoft.com/cdc90d63-15a4-4278-afc3-dbf9ad6ba698) function takes a supplied list of potential IP destination addresses, pairs the destination addresses with the host machine's local IP addresses, and sorts the pairs according to which address pair is best suited for communication between the two peers. The **CreateSortedAddressPairs** function should be used instead of the **SIO\_ADDRESS\_LIST\_SORT** IOCTL on Windows Vista and later.
+On Windows Vista and later, the [**CreateSortedAddressPairs**](https://msdn.microsoft.com/en-us/library/Bb870773(v=VS.85).aspx) function takes a supplied list of potential IP destination addresses, pairs the destination addresses with the host machine's local IP addresses, and sorts the pairs according to which address pair is best suited for communication between the two peers. The **CreateSortedAddressPairs** function should be used instead of the **SIO\_ADDRESS\_LIST\_SORT** IOCTL on Windows Vista and later.
 
 The following sections describe usage considerations for **SIO\_ADDRESS\_LIST\_SORT**.
 
 ## Parameters
 
-The buffer passed to **SIO\_ADDRESS\_LIST\_SORT** is a [**SOCKET\_ADDRESS\_LIST**](/windows/desktop/api/Ws2def/) structure. Each [**SOCKET\_ADDRESS**](/windows/desktop/api/Ws2def/ns-ws2def-_socket_address) in the list must be in SOCKADDR\_IN6 format.
+The buffer passed to **SIO\_ADDRESS\_LIST\_SORT** is a [**SOCKET\_ADDRESS\_LIST**](https://msdn.microsoft.com/en-us/library/Aa385467(v=VS.85).aspx) structure. Each [**SOCKET\_ADDRESS**](/windows/desktop/api/Ws2def/ns-ws2def-_socket_address) in the list must be in SOCKADDR\_IN6 format.
 
 The **SIO\_ADDRESS\_LIST\_SORT** IOCTL sorts both IPv6 and IPv4 addresses on Windows Vista and later. Any IPv4 addresses in the list to be sorted must be in the IPv4-mapped IPv6 address format. For more information on the IPv4-mapped IPv6 address format, see [Dual-Stack Sockets](dual-stack-sockets.md).
 
 On Windows Server 2003, and Windows XP, **SIO\_ADDRESS\_LIST\_SORT** sorts only IPv6 addresses. IPv4 addresses in the IPv4-mapped IPv6 address format are not supported.
 
-On output, the **iAddressCount** member of the [**SOCKET\_ADDRESS\_LIST**](/windows/desktop/api/Ws2def/) structure may be smaller than on input if the IOCTL code determines that some destination addresses are invalid.
+On output, the **iAddressCount** member of the [**SOCKET\_ADDRESS\_LIST**](https://msdn.microsoft.com/en-us/library/Aa385467(v=VS.85).aspx) structure may be smaller than on input if the IOCTL code determines that some destination addresses are invalid.
 
 ## Sorting Determination
 
@@ -53,7 +53,7 @@ The **SIO\_ADDRESS\_LIST\_SORT** IOCTL sorts addresses from best to worst, and f
 
 The **SIO\_ADDRESS\_LIST\_SORT** IOCTL ignores the source address bound to the socket and only sorts by the destination address list passed as a parameter.
 
-The [**CreateSortedAddressPairs**](https://msdn.microsoft.com/cdc90d63-15a4-4278-afc3-dbf9ad6ba698) function should be used instead of the **SIO\_ADDRESS\_LIST\_SORT** IOCTL on Windows Vista and later. The **CreateSortedAddressPairs** function returns a list of address pairs that contains a local source address and a destination address. This provides an application the correct source address to use for each destination address. An application can also filter the results by looking for a specific source address. in the results.
+The [**CreateSortedAddressPairs**](https://msdn.microsoft.com/en-us/library/Bb870773(v=VS.85).aspx) function should be used instead of the **SIO\_ADDRESS\_LIST\_SORT** IOCTL on Windows Vista and later. The **CreateSortedAddressPairs** function returns a list of address pairs that contains a local source address and a destination address. This provides an application the correct source address to use for each destination address. An application can also filter the results by looking for a specific source address. in the results.
 
 ## Requirements
 
@@ -65,7 +65,7 @@ The **SIO\_ADDRESS\_LIST\_SORT** IOCTL is supported on Windows XP and later.
 
 <dl> <dt>
 
-[**CreateSortedAddressPairs**](https://msdn.microsoft.com/cdc90d63-15a4-4278-afc3-dbf9ad6ba698)
+[**CreateSortedAddressPairs**](https://msdn.microsoft.com/en-us/library/Bb870773(v=VS.85).aspx)
 </dt> </dl>
 
  

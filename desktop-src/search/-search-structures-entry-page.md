@@ -19,15 +19,15 @@ This section documents the following structures:
 
 [**FILTERED\_DATA\_SOURCES**](/windows/desktop/api/filtereg/ns-filtereg-_filtered_data_sources)
 
-[**FILTERREGION**](/windows/desktop/api/Filter/)
+[**FILTERREGION**](https://msdn.microsoft.com/en-us/library/Bb231251(v=VS.85).aspx)
 
-[**FULLPROPSPEC**](/windows/desktop/api/Filter/)
+[**FULLPROPSPEC**](https://msdn.microsoft.com/en-us/library/Bb231252(v=VS.85).aspx)
 
 [**HITRANGE**](/windows/desktop/api/Structuredquery/ns-structuredquery-taghitrange)
 
 [**INCREMENTAL\_ACCESS\_INFO**](/windows/desktop/api/Searchapi/ns-searchapi-_incremental_access_info)
 
-[**INLINE\_NOTIFY\_DATA\_CHANGE\_ENTRY**](/windows/desktop/api/Searchapi/)
+[**INLINE\_NOTIFY\_DATA\_CHANGE\_ENTRY**](https://msdn.microsoft.com/en-us/library/Aa965367(v=VS.85).aspx)
 
 [**ITEM\_INFO**](/windows/desktop/api/Searchapi/ns-searchapi-_item_info)
 
@@ -43,7 +43,7 @@ This section documents the following structures:
 
 [**SEARCH\_ITEM\_PERSISTENT\_CHANGE**](/windows/desktop/api/Searchapi/ns-searchapi-_search_item_persistent_change)
 
-[**STAT\_CHUNK**](/windows/desktop/api/Filter/)
+[**STAT\_CHUNK**](https://msdn.microsoft.com/en-us/library/Bb231253(v=VS.85).aspx)
 
 [**TEXT\_SOURCE**](/windows/desktop/api/Indexsrv/ns-indexsrv-tagtext_source)
 

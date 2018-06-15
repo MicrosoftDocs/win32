@@ -76,7 +76,7 @@ else
 
 
 
-The following example opens a store from disk. The example uses the **CreateMyDACL** function, defined in the [Creating a DACL](https://msdn.microsoft.com/f8ec202f-4f34-4123-8f3c-cfc5960b4dc2) topic, to ensure the open file is created with a proper DACL.
+The following example opens a store from disk. The example uses the **CreateMyDACL** function, defined in the [Creating a DACL](https://msdn.microsoft.com/en-us/library/ms717798(v=VS.85).aspx) topic, to ensure the open file is created with a proper DACL.
 
 
 ```C++

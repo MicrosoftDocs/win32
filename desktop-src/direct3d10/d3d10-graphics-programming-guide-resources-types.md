@@ -61,9 +61,9 @@ This vertex buffer contains per-vertex data for eight vertices; each vertex stor
 To access data from a vertex buffer, you need to know which vertex to access and these other buffer parameters:
 
 -   Offset - the number of bytes from the start of the buffer to the data for the first vertex. The offset is supplied to [**IASetVertexBuffers**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-iasetvertexbuffers).
--   BaseVertexLocation - the number of bytes from the offset to the first vertex used by the appropriate draw call (see [Draw Methods](https://msdn.microsoft.com/VS|directx_sdk|~\d3d10_graphics_programming_guide_input_assembler_stage_getting_started.htm)).
+-   BaseVertexLocation - the number of bytes from the offset to the first vertex used by the appropriate draw call (see [Draw Methods](https://msdn.microsoft.com/en-us/library/Bb205117(v=VS.85).aspx)).
 
-Before you create a vertex buffer, you need to define its layout by creating an [**input-layout object**](/windows/desktop/api/D3D10/); this is done by calling [**CreateInputLayout**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-createinputlayout). Once the input-layout object is created, bind it to the input-assembler stage by calling [**IASetInputLayout**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-iasetinputlayout).
+Before you create a vertex buffer, you need to define its layout by creating an [**input-layout object**](https://msdn.microsoft.com/en-us/library/Bb173815(v=VS.85).aspx); this is done by calling [**CreateInputLayout**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-createinputlayout). Once the input-layout object is created, bind it to the input-assembler stage by calling [**IASetInputLayout**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-iasetinputlayout).
 
 To create a vertex buffer, call [**CreateBuffer**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-createbuffer).
 
@@ -99,7 +99,7 @@ To create a shader-constant buffer, call [**CreateBuffer**](/windows/desktop/api
 
 To bind a shader-constant buffer to the pipeline, call one of these methods: [**GSSetConstantBuffers**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-gssetconstantbuffers), [**PSSetConstantBuffers**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-pssetconstantbuffers), or [**VSSetConstantBuffers**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-vssetconstantbuffers).
 
-Note that when using the [**ID3D10Effect Interface**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effect) interface the process of creating, binding and comitting a constant buffer is handled by the **ID3D10Effect Interface** instance. In that case it is only nescesary to get the variable from the effect with one of the GetVariable methods such as [**GetVariableByName**](/windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effect-getvariablebyname) and update the variable with one of the SetVariable methods such as [**SetMatrix**](/windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectmatrixvariable-setmatrix). For an example of using **ID3D10Effect Interface** to manage a constant buffer see [tutorial 07](https://msdn.microsoft.com/windows/desktop/f604f2b2-ffcc-7b5d-2bba-28a66584232c).
+Note that when using the [**ID3D10Effect Interface**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effect) interface the process of creating, binding and comitting a constant buffer is handled by the **ID3D10Effect Interface** instance. In that case it is only nescesary to get the variable from the effect with one of the GetVariable methods such as [**GetVariableByName**](/windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effect-getvariablebyname) and update the variable with one of the SetVariable methods such as [**SetMatrix**](/windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectmatrixvariable-setmatrix). For an example of using **ID3D10Effect Interface** to manage a constant buffer see [tutorial 07](https://msdn.microsoft.com/en-us/library/Ee416442(v=VS.85).aspx).
 
 A shader continues to read variables in a constant buffer directly by variable name in the same manner variables that are not part of a constant buffer are read.
 
@@ -107,11 +107,11 @@ Each shader stage allows up to 15 shader-constant buffers; each buffer can hold 
 
 Use a constant buffer to store the results of the stream-output stage.
 
-See [Shader Constants (DirectX HLSL)](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_constants.htm) for an example of declaring a constant buffer in a shader.
+See [Shader Constants (DirectX HLSL)](https://msdn.microsoft.com/en-us/library/Bb509581(v=VS.85).aspx) for an example of declaring a constant buffer in a shader.
 
 ## Texture Resources
 
-A texture resource is a structured collection of data designed to store texels. Unlike buffers, textures can be filtered by texture samplers as they are read by shader units. The type of texture impacts how the texture is filtered. A texel represents the smallest unit of a texture that can be read or written to by the pipeline. Each texel contains 1 to 4 components, arranged in one of the DXGI formats (see [**DXGI\_FORMAT**](https://msdn.microsoft.com/VS|directx_sdk|~\dxgi_format.htm)).
+A texture resource is a structured collection of data designed to store texels. Unlike buffers, textures can be filtered by texture samplers as they are read by shader units. The type of texture impacts how the texture is filtered. A texel represents the smallest unit of a texture that can be read or written to by the pipeline. Each texel contains 1 to 4 components, arranged in one of the DXGI formats (see [**DXGI\_FORMAT**](https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx)).
 
 Textures are created as a structured resource so that their size is known. However, each texture may be typed or type less at resource-creation time, as long as the type is fully specified using a view when the texture is bound to the pipeline.
 
@@ -236,7 +236,7 @@ Regardless of what texture type you are using, with or without mipmaps, with or 
 
 Creating a fully-typed resource restricts the resource to the format it was created with. This enables the runtime to optimize access, especially if the resource is created with flags indicating that it cannot be [mapped](d3d10-graphics-programming-guide-resources-mapping.md) by the application. Resources created with a specific type cannot be reinterpreted using the view mechanism.
 
-In a type less resource, the data type is unknown when the resource is first created. The application must choose from the available type less formats (see [**DXGI\_FORMAT**](https://msdn.microsoft.com/VS|directx_sdk|~\dxgi_format.htm)). You must specify the size of the memory to allocate and whether the runtime will need to generate the subtextures in a mipmap. However, the exact data format (whether the memory will be interpreted as integers, floating point values, unsigned integers etc.) is not determined until the resource is bound to the pipeline with a view. As the texture format remains flexible until the texture is bound to the pipeline, the resource is referred to as weakly typed storage. Weakly typed storage has the advantage that it can be reused or reinterpreted (in another format) as long as the component bit of the new format matches the bit count of the old format.
+In a type less resource, the data type is unknown when the resource is first created. The application must choose from the available type less formats (see [**DXGI\_FORMAT**](https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx)). You must specify the size of the memory to allocate and whether the runtime will need to generate the subtextures in a mipmap. However, the exact data format (whether the memory will be interpreted as integers, floating point values, unsigned integers etc.) is not determined until the resource is bound to the pipeline with a view. As the texture format remains flexible until the texture is bound to the pipeline, the resource is referred to as weakly typed storage. Weakly typed storage has the advantage that it can be reused or reinterpreted (in another format) as long as the component bit of the new format matches the bit count of the old format.
 
 A single resource can be bound to multiple pipeline stages as long as each has a unique view, which fully qualifies the formats at each location. For example, a resource created with the format DXGI\_FORMAT\_R32G32B32A32\_TYPELESS could be used as an DXGI\_FORMAT\_R32G32B32A32\_FLOAT and an DXGI\_FORMAT\_R32G32B32A32\_UINT at different locations in the pipeline simultaneously.
 

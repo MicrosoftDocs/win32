@@ -13,26 +13,26 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [*CCHookProc*](/windows/desktop/api/Commdlg/)
--   [*CFHookProc*](https://www.bing.com/search?q=*CFHookProc*)
--   [**ChooseColor**](https://www.bing.com/search?q=**ChooseColor**)
+-   [*CCHookProc*](https://msdn.microsoft.com/en-us/library/ms646908(v=VS.85).aspx)
+-   [*CFHookProc*](https://msdn.microsoft.com/en-us/library/ms646909(v=VS.85).aspx)
+-   [**ChooseColor**](https://msdn.microsoft.com/en-us/library/ms646912(v=VS.85).aspx)
 -   [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta)
 -   [**CommDlgExtendedError**](/windows/desktop/api/Commdlg/nf-commdlg-commdlgextendederror)
 -   [**FindText**](/windows/desktop/api/Commdlg/nf-commdlg-findtexta)
--   [*FRHookProc*](https://www.bing.com/search?q=*FRHookProc*)
+-   [*FRHookProc*](https://msdn.microsoft.com/en-us/library/ms646922(v=VS.85).aspx)
 -   [**GetFileTitle**](/windows/desktop/api/Commdlg/nf-commdlg-getfiletitlea)
 -   [**GetOpenFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea)
 -   [**GetSaveFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getsavefilenamea)
--   [*OFNHookProc*](https://www.bing.com/search?q=*OFNHookProc*)
+-   [*OFNHookProc*](https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx)
 -   [*OFNHookProcOldStyle*](https://msdn.microsoft.com/library/windows/desktop/ms646932)
--   [**PagePaintHook**](https://www.bing.com/search?q=**PagePaintHook**)
--   [**PageSetupDlg**](https://www.bing.com/search?q=**PageSetupDlg**)
--   [**PageSetupHook**](https://www.bing.com/search?q=**PageSetupHook**)
--   [**PrintDlg**](https://www.bing.com/search?q=**PrintDlg**)
--   [**PrintDlgEx**](https://www.bing.com/search?q=**PrintDlgEx**)
--   [*PrintHookProc*](https://www.bing.com/search?q=*PrintHookProc*)
+-   [**PagePaintHook**](https://msdn.microsoft.com/en-us/library/ms646935(v=VS.85).aspx)
+-   [**PageSetupDlg**](https://msdn.microsoft.com/en-us/library/ms646937(v=VS.85).aspx)
+-   [**PageSetupHook**](https://msdn.microsoft.com/en-us/library/ms646939(v=VS.85).aspx)
+-   [**PrintDlg**](https://msdn.microsoft.com/en-us/library/ms646940(v=VS.85).aspx)
+-   [**PrintDlgEx**](https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx)
+-   [*PrintHookProc*](https://msdn.microsoft.com/en-us/library/ms646944(v=VS.85).aspx)
 -   [**ReplaceText**](/windows/desktop/api/Commdlg/nf-commdlg-replacetexta)
--   [*SetupHookProc*](https://www.bing.com/search?q=*SetupHookProc*)
+-   [*SetupHookProc*](https://msdn.microsoft.com/en-us/library/ms646948(v=VS.85).aspx)
 
  
 

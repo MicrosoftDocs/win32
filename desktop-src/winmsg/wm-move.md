@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Sent after a window has been moved.
 
-A window receives this message through its [**WindowProc**](/windows/desktop/api/Winuser/nf-winuser-callwindowproca) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -60,7 +60,7 @@ yPos = (int)(short) HIWORD(lParam);   // vertical position
 
 
 
-You can also use the [**MAKEPOINTS**](https://msdn.microsoft.com/1f84cfd0-2836-4c20-9408-17e0d57742be) macro to convert the *lParam* parameter to a [**POINTS**](https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc) structure.
+You can also use the [**MAKEPOINTS**](https://msdn.microsoft.com/en-us/library/Dd145043(v=VS.85).aspx) macro to convert the *lParam* parameter to a [**POINTS**](https://msdn.microsoft.com/en-us/library/Dd162808(v=VS.85).aspx) structure.
 
 ## Requirements
 
@@ -81,10 +81,10 @@ You can also use the [**MAKEPOINTS**](https://msdn.microsoft.com/1f84cfd0-2836-4
 **Reference**
 </dt> <dt>
 
-[**HIWORD**](/windows/desktop/api/Windef/nf-ntintsafe-hiword)
+[**HIWORD**](https://msdn.microsoft.com/en-us/library/ms632657(v=VS.85).aspx)
 </dt> <dt>
 
-[**LOWORD**](/windows/desktop/api/Windef/nf-ntintsafe-loword)
+[**LOWORD**](https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx)
 </dt> <dt>
 
 **Conceptual**
@@ -96,10 +96,10 @@ You can also use the [**MAKEPOINTS**](https://msdn.microsoft.com/1f84cfd0-2836-4
 **Other Resources**
 </dt> <dt>
 
-[**MAKEPOINTS**](https://msdn.microsoft.com/1f84cfd0-2836-4c20-9408-17e0d57742be)
+[**MAKEPOINTS**](https://msdn.microsoft.com/en-us/library/Dd145043(v=VS.85).aspx)
 </dt> <dt>
 
-[**POINTS**](https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc)
+[**POINTS**](https://msdn.microsoft.com/en-us/library/Dd162808(v=VS.85).aspx)
 </dt> </dl>
 
  

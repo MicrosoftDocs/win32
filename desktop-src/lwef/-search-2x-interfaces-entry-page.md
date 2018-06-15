@@ -15,9 +15,9 @@ ms.date: 05/31/2018
 
 ## 
 
-[**IGatherNotify**](/windows/desktop/api/Searchapi/)
+[**IGatherNotify**](https://msdn.microsoft.com/en-us/library/Aa965731(v=VS.85).aspx)
 
-[**ISearchDesktop**](/windows/desktop/api/Searchapi/)
+[**ISearchDesktop**](https://msdn.microsoft.com/en-us/library/Aa965729(v=VS.85).aspx)
 
  
 

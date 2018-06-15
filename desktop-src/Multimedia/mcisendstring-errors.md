@@ -25,7 +25,7 @@ ms.date: 05/31/2018
 
 # mciSendString Errors
 
-The following errors are returned by the [**mciSendString**](/windows/desktop/api/Mmsystem/) function but not by [**mciSendCommand**](/windows/desktop/api/Mmsystem/):
+The following errors are returned by the [**mciSendString**](https://msdn.microsoft.com/en-us/library/Dd757161(v=VS.85).aspx) function but not by [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx):
 
 
 

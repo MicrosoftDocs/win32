@@ -62,7 +62,7 @@ Here is a summary of the key differences when applying these technical requireme
 <span id="The_Games_Explorer_UI_is_not_visible"></span><span id="the_games_explorer_ui_is_not_visible"></span><span id="THE_GAMES_EXPLORER_UI_IS_NOT_VISIBLE"></span>**The Games Explorer UI is not visible**
 </dt> <dd>
 
-All games that you register with the [Games Explorer](https://msdn.microsoft.com/windows/desktop/e01f5313-be50-4d12-8a8f-816d45878e5c) are surfaced as tiles in new Windows UI, but much of the metadata that is associated with the title is no longer visible. You still use the Games Definition File Maker tool (GDFMAKER.EXE), which is now available in the Windows Software Development Kit (SDK), to author the metadata. You also use the existing mechanisms for deploying the metadata. Continue to test your Games Explorer registration by using Windows 7, and verify that the new Windows UI tile shows up when you install it on Windows 8 (see [1.1 Games Explorer Integration](#11-games-explorer-integration)).
+All games that you register with the [Games Explorer](https://msdn.microsoft.com/en-us/library/Hh437965(v=VS.85).aspx) are surfaced as tiles in new Windows UI, but much of the metadata that is associated with the title is no longer visible. You still use the Games Definition File Maker tool (GDFMAKER.EXE), which is now available in the Windows Software Development Kit (SDK), to author the metadata. You also use the existing mechanisms for deploying the metadata. Continue to test your Games Explorer registration by using Windows 7, and verify that the new Windows UI tile shows up when you install it on Windows 8 (see [1.1 Games Explorer Integration](#11-games-explorer-integration)).
 
 To download the Windows 8 SDK, see [Downloads for developing desktop apps](http://go.microsoft.com/fwlink/p/?linkid=253588).
 
@@ -1076,7 +1076,7 @@ AppVerifier tests for many known issues that cause crashes and hangs in Windows 
 <span id="Additional_Information"></span><span id="additional_information"></span><span id="ADDITIONAL_INFORMATION"></span>**Additional Information**
 </dt> <dd>
 
-For more information about Application Verifier, see [Application Verifier](https://msdn.microsoft.com/windows/desktop/b753b71b-4f9f-4567-9596-828db441178e) and [Using Application Verifier Within Your Software Development Lifecycle](http://msdn.microsoft.com/library/aa480483.aspx) on MSDN. You can download Application Verifier from [Download details: Application Verifier](http://www.microsoft.com/downloads/details.aspx?familyid=c4a25ab9-649d-4a1b-b4a7-c9d8b095df18) on Microsoft Download Center.
+For more information about Application Verifier, see [Application Verifier](https://msdn.microsoft.com/en-US/library/ms220948(v=VS.80).aspx) and [Using Application Verifier Within Your Software Development Lifecycle](http://msdn.microsoft.com/library/aa480483.aspx) on MSDN. You can download Application Verifier from [Download details: Application Verifier](http://www.microsoft.com/downloads/details.aspx?familyid=c4a25ab9-649d-4a1b-b4a7-c9d8b095df18) on Microsoft Download Center.
 
 This requirement does not apply to pure managed applications without native interop.
 

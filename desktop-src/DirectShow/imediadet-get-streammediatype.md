@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The `get_StreamMediaType` method retrieves the media type of the current stream. All video streams are converted to [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) types, and all audio streams are converted to [**WAVEFORMATEX**](/windows/desktop/api/mmreg/) types.
+The `get_StreamMediaType` method retrieves the media type of the current stream. All video streams are converted to [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) types, and all audio streams are converted to [**WAVEFORMATEX**](https://www.bing.com/search?q=**WAVEFORMATEX**) types.
 
 ## Syntax
 

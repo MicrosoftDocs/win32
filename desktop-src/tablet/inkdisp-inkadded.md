@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # InkDisp.InkAdded event
 
-Occurs when a stroke is added to the [**InkDisp**](/windows/desktop/api/msinkaut/) object.
+Occurs when a stroke is added to the [**InkDisp**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object.
 
 ## Syntax
 
@@ -43,7 +43,7 @@ This event does not return a value.
 
 ## Remarks
 
-If you use the [**InkOverlay**](/windows/desktop/api/msinkaut/) object or the [InkPicture](inkpicture-control-reference.md) control (where [**EditingMode**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_editingmode) equals [**Delete**](/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayeditingmode) and [**EraserMode**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_erasermode) equals [**StrokeErase**](/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayerasermode)) and pass the eraser over a stroke, you get the following sequence of events:
+If you use the [**InkOverlay**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx) object or the [InkPicture](inkpicture-control-reference.md) control (where [**EditingMode**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_editingmode) equals [**Delete**](/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayeditingmode) and [**EraserMode**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_erasermode) equals [**StrokeErase**](/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayerasermode)) and pass the eraser over a stroke, you get the following sequence of events:
 
 -   [**InkDeleted**](inkdisp-inkdeleted.md)
 -   **InkAdded**
@@ -51,7 +51,7 @@ If you use the [**InkOverlay**](/windows/desktop/api/msinkaut/) object or the [I
 
 The additional **InkAdded** and [**InkDeleted**](inkdisp-inkdeleted.md) events occur because the underlying code adds an internal, invisible stroke to track the eraser.
 
-This event method is defined in the \_IInkEvents interface. The \_IInkEvents interface implements the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface with an identifier of DISPID\_IEInkAdded.
+This event method is defined in the \_IInkEvents interface. The \_IInkEvents interface implements the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IEInkAdded.
 
 The **InkAdded** event is fired even when in select or erase mode, not just when inserting ink. This requires that you monitor the editing mode (which you are responsible for setting) and be aware of the mode before interpreting the event. The advantage of this requirement is greater freedom to innovate on the platform through greater awareness of platform events.
 
@@ -72,7 +72,7 @@ The **InkAdded** event is fired even when in select or erase mode, not just when
 
 <dl> <dt>
 
-[**InkDisp Class**](/windows/desktop/api/msinkaut/)
+[**InkDisp Class**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx)
 </dt> <dt>
 
 [**EditingMode Property \[InkOverlay Class\]**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_editingmode)
@@ -84,7 +84,7 @@ The **InkAdded** event is fired even when in select or erase mode, not just when
 [**InkDeleted Event**](inkdisp-inkdeleted.md)
 </dt> <dt>
 
-[**InkOverlay Class**](/windows/desktop/api/msinkaut/)
+[**InkOverlay Class**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx)
 </dt> <dt>
 
 [InkPicture Control Reference](inkpicture-control-reference.md)

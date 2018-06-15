@@ -18,7 +18,7 @@ This section describes the C++ Windows objects implemented by the Shell.
 
 | Topic                                                          | Description                                    |
 |----------------------------------------------------------------|------------------------------------------------|
-| [**PublishingWizard**](/windows/desktop/api/Shobjidl/)<br/> | Used to create a publishing wizard.<br/> |
+| [**PublishingWizard**](https://msdn.microsoft.com/en-us/library/Bb774108(v=VS.85).aspx)<br/> | Used to create a publishing wizard.<br/> |
 
 
 

@@ -35,7 +35,7 @@ typedef struct _D3DPRESENTSTATS {
 **PresentCount**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -46,7 +46,7 @@ Running count of successful Present calls made by a display device that is curre
 **PresentRefreshCount**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -57,7 +57,7 @@ The vblank count at which the last Present was displayed on screen, the vblank c
 **SyncRefreshCount**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -68,18 +68,18 @@ The vblank count when the scheduler last sampled the machine time by calling Que
 **SyncQPCTime**
 </dt> <dd>
 
-Type: **[**LARGE\_INTEGER**](https://msdn.microsoft.com/6a2985b6-5baf-49ab-af28-67c1374557ea)**
+Type: **[**LARGE\_INTEGER**](https://msdn.microsoft.com/en-us/library/Aa383713(v=VS.85).aspx)**
 
 </dd> <dd>
 
-The scheduler's last sampled machine time, obtained by calling [**QueryPerformanceCounter**](https://msdn.microsoft.com/windows/desktop/08169390-940b-4110-813a-249d107cc953).
+The scheduler's last sampled machine time, obtained by calling [**QueryPerformanceCounter**](https://www.bing.com/search?q=**QueryPerformanceCounter**).
 
 </dd> <dt>
 
 **SyncGPUTime**
 </dt> <dd>
 
-Type: **[**LARGE\_INTEGER**](https://msdn.microsoft.com/6a2985b6-5baf-49ab-af28-67c1374557ea)**
+Type: **[**LARGE\_INTEGER**](https://msdn.microsoft.com/en-us/library/Aa383713(v=VS.85).aspx)**
 
 </dd> <dd>
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Loading Language Resources
 
-Your application loads all user interface language resources, other than certain redirected registry strings, using calls to standard resource loading functions, for example, [**FormatMessage**](https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c), [**LoadString**](https://www.bing.com/search?q=**LoadString**), and [**LoadImage**](https://www.bing.com/search?q=**LoadImage**). Many resource loading functions have been modified to load resources from language-specific resource files automatically, treating resources as if they are contained in the LN file. The following example illustrates the use of **LoadString** to load language strings for an application that follows system language settings.
+Your application loads all user interface language resources, other than certain redirected registry strings, using calls to standard resource loading functions, for example, [**FormatMessage**](https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx), [**LoadString**](https://www.bing.com/search?q=**LoadString**), and [**LoadImage**](https://www.bing.com/search?q=**LoadImage**). Many resource loading functions have been modified to load resources from language-specific resource files automatically, treating resources as if they are contained in the LN file. The following example illustrates the use of **LoadString** to load language strings for an application that follows system language settings.
 
 
 ```C++

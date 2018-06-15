@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Example C Program: Serializing Certificates
 
-The following example demonstrates serializing a [*certificate context*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) and its properties into a form that can be stored in a file, sent with an email message, or otherwise transmitted to another user. The example also shows how the serialized certificate can be changed back into a certificate and added to a certificate store. The same process works also with [*CRLs*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) and [*CTLs*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) using [**CertSerializeCRLStoreElement**](/windows/desktop/api/Wincrypt/nf-wincrypt-certserializecrlstoreelement) and [**CertSerializeCTLStoreElement**](/windows/desktop/api/Wincrypt/nf-wincrypt-certserializectlstoreelement).
+The following example demonstrates serializing a [*certificate context*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) and its properties into a form that can be stored in a file, sent with an email message, or otherwise transmitted to another user. The example also shows how the serialized certificate can be changed back into a certificate and added to a certificate store. The same process works also with [*CRLs*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) and [*CTLs*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) using [**CertSerializeCRLStoreElement**](/windows/desktop/api/Wincrypt/nf-wincrypt-certserializecrlstoreelement) and [**CertSerializeCTLStoreElement**](/windows/desktop/api/Wincrypt/nf-wincrypt-certserializectlstoreelement).
 
 This example illustrates the following tasks and CryptoAPI functions:
 
@@ -19,7 +19,7 @@ This example illustrates the following tasks and CryptoAPI functions:
 -   Opening a certificate store using [**CertOpenStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certopenstore).
 -   Retrieving a certificate from a store using [**CertEnumCertificatesInStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certenumcertificatesinstore).
 -   Getting the name of the certificate's subject using [**CertGetNameString**](/windows/desktop/api/Wincrypt/nf-wincrypt-certgetnamestringa).
--   Creating a serialized form of a [*certificate context*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) and its properties using [**CertSerializeCertificateStoreElement**](/windows/desktop/api/Wincrypt/nf-wincrypt-certserializecertificatestoreelement).
+-   Creating a serialized form of a [*certificate context*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) and its properties using [**CertSerializeCertificateStoreElement**](/windows/desktop/api/Wincrypt/nf-wincrypt-certserializecertificatestoreelement).
 -   Creating a new certificate from a serialized string and adding it into a certificate store using [**CertAddSerializedElementToStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certaddserializedelementtostore).
 -   Using [**CertAddEncodedCertificateToStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certaddencodedcertificatetostore) to create a new certificate from the encoded portion of an existing certificate.
 -   Using [**CertCloseStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certclosestore) to close a certificate store.

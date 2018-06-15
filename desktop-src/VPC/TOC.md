@@ -347,7 +347,7 @@
 ###### [_ID Method](ivmvirtualnetwork--id.md)
 ##### [IVMVirtualNetwork Properties](ivmvirtualnetwork-properties.md)
 ###### [HostAdapter Property](ivmvirtualnetwork-hostadapter.md)
-###### [MediaType Property](/windows/desktop/api/mshtmlc/)
+###### [MediaType Property](https://msdn.microsoft.com/en-us/library/Dd796707(v=VS.85).aspx)
 ###### [Name Property](ivmvirtualnetwork-name.md)
 ###### [NetworkAdapters Property](ivmvirtualnetwork-networkadapters.md)
 #### [IVMVirtualNetworkCollection](ivmvirtualnetworkcollection.md)

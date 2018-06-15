@@ -47,7 +47,7 @@ The type of system information to be retrieved. This parameter can be one of the
 
 </dt> <dd>
 
-The number of processors in the system in a **SYSTEM\_BASIC\_INFORMATION** structure. Use the [**GetSystemInfo**](/windows/desktop/api/Winbase/) function instead.
+The number of processors in the system in a **SYSTEM\_BASIC\_INFORMATION** structure. Use the [**GetSystemInfo**](https://msdn.microsoft.com/en-us/library/ms724381(v=VS.85).aspx) function instead.
 
 </dd> <dt>
 
@@ -165,7 +165,7 @@ typedef struct _SYSTEM_BASIC_INFORMATION {
 } SYSTEM_BASIC_INFORMATION;
 ```
 
-The **NumberOfProcessors** member contains the number of processors present in the system. Use [**GetSystemInfo**](/windows/desktop/api/Winbase/) instead to retrieve this information.
+The **NumberOfProcessors** member contains the number of processors present in the system. Use [**GetSystemInfo**](https://msdn.microsoft.com/en-us/library/ms724381(v=VS.85).aspx) instead to retrieve this information.
 
 The other members of the structure are reserved for internal use by the operating system.
 
@@ -277,7 +277,7 @@ The **KernelTime** member contains the amount of time that the system has spent 
 
 The **UserTime** member contains the amount of time that the system has spent executing in User mode (including all threads in all processes, on all processors), in 1/100ths of a nanosecond.
 
-Use [**GetSystemTimes**](https://www.bing.com/search?q=**GetSystemTimes**) instead to retrieve this information.
+Use [**GetSystemTimes**](https://msdn.microsoft.com/en-us/library/ms724400(v=VS.85).aspx) instead to retrieve this information.
 
 </dd> <dt>
 
@@ -413,7 +413,7 @@ This function has no associated import library. You must use the [**LoadLibrary*
 
 <dl> <dt>
 
-[**GetSystemInfo**](/windows/desktop/api/Winbase/)
+[**GetSystemInfo**](https://msdn.microsoft.com/en-us/library/ms724381(v=VS.85).aspx)
 </dt> <dt>
 
 [**GetProcessHandleCount**](https://msdn.microsoft.com/library/windows/desktop/ms683214)
@@ -422,7 +422,7 @@ This function has no associated import library. You must use the [**LoadLibrary*
 [**GetProcessMemoryInfo**](https://msdn.microsoft.com/library/windows/desktop/ms683219)
 </dt> <dt>
 
-[**GetSystemTimes**](https://www.bing.com/search?q=**GetSystemTimes**)
+[**GetSystemTimes**](https://msdn.microsoft.com/en-us/library/ms724400(v=VS.85).aspx)
 </dt> <dt>
 
 [**GetSystemRegistryQuota**](/windows/desktop/api/Winbase/nf-winbase-getsystemregistryquota)

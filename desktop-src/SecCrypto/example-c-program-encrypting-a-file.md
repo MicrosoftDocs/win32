@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 
 # Example C Program: Encrypting a File
 
-The following example encrypts a data file. The example interactively requests the name of the file that contains [*plaintext*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) to be encrypted and the name of a file where the encrypted data is to be written.
+The following example encrypts a data file. The example interactively requests the name of the file that contains [*plaintext*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) to be encrypted and the name of a file where the encrypted data is to be written.
 
 The example prompts the user for the names of an input file and an output file. It also prompts the user for whether a password is to be used to create the encryption session key. If a password is to be used in the encryption of the data, the same password must be used in the program that decrypts the file. For more information, see [Example C Program: Decrypting a File](example-c-program-decrypting-a-file.md).
 
-Due to changing export control restrictions, the default [*cryptographic service provider*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CSP) and default [*key length*](https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33) may change between operating system releases. It is important that both the encryption and decryption use the same CSP and that the key length be explicitly set to ensure interoperability on different operating system platforms.
+Due to changing export control restrictions, the default [*cryptographic service provider*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSP) and default [*key length*](https://msdn.microsoft.com/en-us/library/ms721590(v=VS.85).aspx) may change between operating system releases. It is important that both the encryption and decryption use the same CSP and that the key length be explicitly set to ensure interoperability on different operating system platforms.
 
 This example uses the function [**MyHandleError**](myhandleerror.md). The code for this function is included with the sample. Code for this and other auxiliary functions is also listed under [General Purpose Functions](general-purpose-functions.md).
 

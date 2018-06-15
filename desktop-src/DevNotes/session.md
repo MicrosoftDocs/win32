@@ -160,7 +160,7 @@ A handle to the FDI context. This datatype is declared as follows:
 **erf**
 </dt> <dd>
 
-The FDI error structure. See [**ERF**](/windows/desktop/api/Fdi/ns-acpitabl-_firmware_boot_performance_table).
+The FDI error structure. See [**ERF**](https://msdn.microsoft.com/en-us/library/Bb432257(v=VS.85).aspx).
 
 </dd> <dt>
 

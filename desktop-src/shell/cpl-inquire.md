@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # CPL\_INQUIRE message
 
-Sent to the [**CPlApplet**](/windows/desktop/api/Cpl/nc-cpl-applet_proc) function of a Control Panel application to request information about a dialog box that the application supports.
+Sent to the [**CPlApplet**](https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx) function of a Control Panel application to request information about a dialog box that the application supports.
 
 ## Parameters
 
@@ -32,7 +32,7 @@ The address of a [**CPLINFO**](/windows/desktop/api/Cpl/ns-cpl-tagcplinfo) struc
 
 ## Return value
 
-If the [**CPlApplet**](/windows/desktop/api/Cpl/nc-cpl-applet_proc) function processes this message successfully, it should return zero.
+If the [**CPlApplet**](https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx) function processes this message successfully, it should return zero.
 
 ## Remarks
 
@@ -40,7 +40,7 @@ The Control Panel sends the **CPL\_INQUIRE** message once for each dialog box su
 
 You can perform initialization for the dialog box when you receive **CPL\_INQUIRE**. If you must allocate memory, do so in response to the [**CPL\_INIT**](cpl-init.md) message.
 
-The [**CPL\_NEWINQUIRE**](cpl-newinquire.md) message returns information in a form that the system cannot cache. For this reason, most [**CPlApplet**](/windows/desktop/api/Cpl/nc-cpl-applet_proc) functions should process **CPL\_INQUIRE** and ignore **CPL\_NEWINQUIRE**.
+The [**CPL\_NEWINQUIRE**](cpl-newinquire.md) message returns information in a form that the system cannot cache. For this reason, most [**CPlApplet**](https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx) functions should process **CPL\_INQUIRE** and ignore **CPL\_NEWINQUIRE**.
 
 The only applications that should use [**CPL\_NEWINQUIRE**](cpl-newinquire.md) are those that need to change their icon or display strings based on the state of the computer. In this case, your **CPL\_INQUIRE** handler should specify the CPL\_DYNAMIC\_RES value for the **idIcon**, **idName**, or **idInfo** members of the [**CPLINFO**](/windows/desktop/api/Cpl/ns-cpl-tagcplinfo) structure, rather than specifying a valid resource identifier. This causes the Control Panel to send the **CPL\_NEWINQUIRE** message each time it needs the icon and display strings, allowing you to specify information based on the current state of the computer. This is significantly slower than using cached information.
 

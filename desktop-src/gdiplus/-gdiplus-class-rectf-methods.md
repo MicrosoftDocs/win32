@@ -14,9 +14,9 @@ ms.date: 05/31/2018
 This topic lists the methods of the [**RectF**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf) class. For a complete class listing, see **RectF Class**.
 
 -   [**Clone**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-rectf-clone)
--   [**Contains(RectF&)**](/windows/desktop/api/Gdiplustypes/)
--   [**Contains(PointF&)**](/windows/desktop/api/Gdiplustypes/)
--   [**Contains(REAL,REAL)**](/windows/desktop/api/Gdiplustypes/)
+-   [**Contains(RectF&)**](https://msdn.microsoft.com/en-us/library/ms534954(v=VS.85).aspx)
+-   [**Contains(PointF&)**](https://msdn.microsoft.com/en-us/library/ms534955(v=VS.85).aspx)
+-   [**Contains(REAL,REAL)**](https://msdn.microsoft.com/en-us/library/ms534956(v=VS.85).aspx)
 -   [**Equals**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-rectf-equals)
 -   [**GetBottom**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-rectf-getbottom)
 -   [**GetBounds**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-rectf-getbounds)
@@ -25,14 +25,14 @@ This topic lists the methods of the [**RectF**](/windows/desktop/api/gdiplustype
 -   [**GetRight**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-rectf-getright)
 -   [**GetSize**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-rectf-getsize)
 -   [**GetTop**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-rectf-gettop)
--   [**Inflate(PointF&)**](/windows/desktop/api/Gdiplustypes/)
--   [**Inflate(REAL,REAL)**](/windows/desktop/api/Gdiplustypes/)
--   [**Intersect(RectF&)**](/windows/desktop/api/Gdiplustypes/)
--   [**Intersect(RectF&,RectF&,RectF&)**](/windows/desktop/api/Gdiplustypes/)
+-   [**Inflate(PointF&)**](https://msdn.microsoft.com/en-us/library/ms534952(v=VS.85).aspx)
+-   [**Inflate(REAL,REAL)**](https://msdn.microsoft.com/en-us/library/ms534953(v=VS.85).aspx)
+-   [**Intersect(RectF&)**](https://msdn.microsoft.com/en-us/library/ms534950(v=VS.85).aspx)
+-   [**Intersect(RectF&,RectF&,RectF&)**](https://msdn.microsoft.com/en-us/library/ms534951(v=VS.85).aspx)
 -   [**IntersectsWith**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-rectf-intersectswith)
 -   [**IsEmptyArea**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-rectf-isemptyarea)
--   [**Offset(PointF&)**](/windows/desktop/api/Gdiplustypes/)
--   [**Offset(REAL,REAL)**](/windows/desktop/api/Gdiplustypes/)
+-   [**Offset(PointF&)**](https://msdn.microsoft.com/en-us/library/ms534948(v=VS.85).aspx)
+-   [**Offset(REAL,REAL)**](https://msdn.microsoft.com/en-us/library/ms534949(v=VS.85).aspx)
 -   [**Union**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-rectf-union)
 
  

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Getting System Information
 
-The following example uses the [**GetComputerName**](/windows/desktop/api/Winbase/nf-winbase-getcomputernamea), [**GetUserName**](/windows/desktop/api/Winbase/nf-winbase-getusernamea), [**GetSystemDirectory**](/windows/desktop/api/Winbase/), [**GetWindowsDirectory**](/windows/desktop/api/Winbase/), and [**ExpandEnvironmentStrings**](/windows/desktop/api/Winbase/) functions to get information that describes the system configuration.
+The following example uses the [**GetComputerName**](/windows/desktop/api/Winbase/nf-winbase-getcomputernamea), [**GetUserName**](/windows/desktop/api/Winbase/nf-winbase-getusernamea), [**GetSystemDirectory**](https://msdn.microsoft.com/en-us/library/ms724373(v=VS.85).aspx), [**GetWindowsDirectory**](https://msdn.microsoft.com/en-us/library/ms724454(v=VS.85).aspx), and [**ExpandEnvironmentStrings**](https://msdn.microsoft.com/en-us/library/ms724265(v=VS.85).aspx) functions to get information that describes the system configuration.
 
 
 ```C++

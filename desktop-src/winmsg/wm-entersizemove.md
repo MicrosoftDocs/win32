@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 
 # WM\_ENTERSIZEMOVE message
 
-Sent one time to a window after it enters the moving or sizing modal loop. The window enters the moving or sizing modal loop when the user clicks the window's title bar or sizing border, or when the window passes the [**WM\_SYSCOMMAND**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratormessages\wm_syscommand.htm) message to the [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) function and the *wParam* parameter of the message specifies the **SC\_MOVE** or **SC\_SIZE** value. The operation is complete when [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) returns.
+Sent one time to a window after it enters the moving or sizing modal loop. The window enters the moving or sizing modal loop when the user clicks the window's title bar or sizing border, or when the window passes the [**WM\_SYSCOMMAND**](https://msdn.microsoft.com/en-us/library/ms646360(v=VS.85).aspx) message to the [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) function and the *wParam* parameter of the message specifies the **SC\_MOVE** or **SC\_SIZE** value. The operation is complete when [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) returns.
 
 The system sends the **WM\_ENTERSIZEMOVE** message regardless of whether the dragging of full windows is enabled.
 
-A window receives this message through its [**WindowProc**](/windows/desktop/api/Winuser/nf-winuser-callwindowproca) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -67,13 +67,13 @@ An application should return zero if it processes this message.
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca)
+[**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_EXITSIZEMOVE**](wm-exitsizemove.md)
 </dt> <dt>
 
-[**WM\_SYSCOMMAND**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratormessages\wm_syscommand.htm)
+[**WM\_SYSCOMMAND**](https://msdn.microsoft.com/en-us/library/ms646360(v=VS.85).aspx)
 </dt> <dt>
 
 **Conceptual**

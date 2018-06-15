@@ -17,8 +17,8 @@ Windows Deployment Services uses the following enumerations.
 
 [**TRANSPORTCLIENT\_CALLBACK\_ID**](/windows/desktop/api/Wdstci/ne-wdstci-_transportclient_callback_id)  
 [**TRANSPORTPROVIDER\_CALLBACK\_ID**](/windows/desktop/api/Wdstpdi/ne-wdstpdi-_transportprovider_callback_id)  
-[**WDS\_LOG\_LEVEL**](/windows/desktop/api/Wdsclientapi/)  
-[**WDS\_LOG\_TYPE\_CLIENT**](/windows/desktop/api/Wdsclientapi/)  
+[**WDS\_LOG\_LEVEL**](https://msdn.microsoft.com/en-us/library/Bb513611(v=VS.85).aspx)  
+[**WDS\_LOG\_TYPE\_CLIENT**](https://msdn.microsoft.com/en-us/library/Bb513612(v=VS.85).aspx)  
 </dl>
 
  

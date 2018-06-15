@@ -31,7 +31,7 @@ typedef struct D3DXMATRIXA16 {
 **\_ij**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -52,7 +52,7 @@ Vectors and quaternions are not byte aligned in D3DX. When using vectors and qua
 
 
 
-Other compilers interpret D3DXMATRIXA16 as D3DXMATRIX. Using this structure on a compiler that does not actually align the matrix can be problematic because it will not expose bugs that ignore alignment. For example, if a D3DXMATRIXA16 object is inside a structure or class, a [**memcpy**](https://msdn.microsoft.com/windows/desktop/34abb90b-bffb-46dc-a2f3-a5e9940839d6) might be done with tight packing (ignoring 16-byte boundaries). This would cause build breaks if the compiler were to sometime add matrix aligning.
+Other compilers interpret D3DXMATRIXA16 as D3DXMATRIX. Using this structure on a compiler that does not actually align the matrix can be problematic because it will not expose bugs that ignore alignment. For example, if a D3DXMATRIXA16 object is inside a structure or class, a [**memcpy**](https://msdn.microsoft.com/en-us/library/dswaw1wk(v=VS.71).aspx) might be done with tight packing (ignoring 16-byte boundaries). This would cause build breaks if the compiler were to sometime add matrix aligning.
 
 ### D3DXMATRIXA16
 

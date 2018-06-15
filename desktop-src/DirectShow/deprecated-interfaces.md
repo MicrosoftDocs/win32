@@ -28,7 +28,7 @@ The following DirectShow interfaces have been deprecated. They are still support
 -   [**IDvdInfo**](/windows/desktop/api/strmif/nn-strmif-idvdinfo)
 -   [**IEnumRegFilters**](/windows/desktop/api/strmif/nn-strmif-ienumregfilters)
 -   [**IFilterMapper**](/windows/desktop/api/strmif/nn-strmif-ifiltermapper)
--   [**IVideoEncoder**](/windows/desktop/api/strmif/)
+-   [**IVideoEncoder**](https://msdn.microsoft.com/en-us/library/Dd377231(v=VS.85).aspx)
 
 ## Related topics
 

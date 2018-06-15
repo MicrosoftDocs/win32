@@ -28,7 +28,7 @@ propVal = Dependency.Version
 
 ## C++
 
-See [**get\_Version**](/windows/desktop/api/Mergemod/) function.
+See [**get\_Version**](https://msdn.microsoft.com/en-us/library/Aa369248(v=VS.85).aspx) function.
 
 ## Requirements
 

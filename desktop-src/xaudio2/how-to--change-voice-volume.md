@@ -15,7 +15,7 @@ This topic shows you how you can change the volume of a voice at an overall leve
 
 ## To set an overall volume level for the voice's input
 
--   Use the [**SetVolume**](https://www.bing.com/search?q=**SetVolume**) function.
+-   Use the [**SetVolume**](https://msdn.microsoft.com/en-us/library/Ee418600(v=VS.85).aspx) function.
 
     ```
     pSourceVoice->SetVolume(1.0);
@@ -35,7 +35,7 @@ This topic shows you how you can change the volume of a voice at an overall leve
 
     
 
-2.  Use the [**SetChannelVolumes**](https://www.bing.com/search?q=**SetChannelVolumes**) function to set the volume of the output channels.
+2.  Use the [**SetChannelVolumes**](https://msdn.microsoft.com/en-us/library/Ee418593(v=VS.85).aspx) function to set the volume of the output channels.
 
     ```
     hr = pSourceVoice->SetChannelVolumes(1,SourceVoiceChannelVolumes);
@@ -60,7 +60,7 @@ Set the connection volume between the voice and a voice in its [**sendlist**](/w
 
     
 
-2.  Use the [**SetOutputMatrix**](https://www.bing.com/search?q=**SetOutputMatrix**) function to set the output matrix.
+2.  Use the [**SetOutputMatrix**](https://msdn.microsoft.com/en-us/library/Ee418598(v=VS.85).aspx) function to set the output matrix.
 
     ```
     pSourceVoice->SetOutputMatrix(pSubmixVoice,1,2,outputMatrix);

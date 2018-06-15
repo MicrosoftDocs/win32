@@ -11,10 +11,10 @@ ms.date: 05/31/2018
 
 # XInput and DirectInput
 
-XInput is an API that allows applications to receive input from the Xbox 360 Controller for Windows. This document describes the differences between XInput and [DirectInput](https://msdn.microsoft.com/windows/desktop/c5d0c734-9f01-30f5-651c-82ac9c21310e) implementations of the Xbox 360 Controller and how you can support XInput devices and legacy DirectInput devices at the same time.
+XInput is an API that allows applications to receive input from the Xbox 360 Controller for Windows. This document describes the differences between XInput and [DirectInput](https://msdn.microsoft.com/en-us/library/Ee416842(v=VS.85).aspx) implementations of the Xbox 360 Controller and how you can support XInput devices and legacy DirectInput devices at the same time.
 
 > [!Note]  
-> Use of legacy [DirectInput](https://msdn.microsoft.com/windows/desktop/c5d0c734-9f01-30f5-651c-82ac9c21310e) is not recommended, and DirectInput is not available for Windows Store apps.
+> Use of legacy [DirectInput](https://msdn.microsoft.com/en-us/library/Ee416842(v=VS.85).aspx) is not recommended, and DirectInput is not available for Windows Store apps.
 
  
 
@@ -22,9 +22,9 @@ XInput is an API that allows applications to receive input from the Xbox 360 Con
 
 XInput is now available for game development. This is the new input standard for both the Xbox 360 and Windows XP with Service Pack 1 (SP1) and later, and Windows Vista. The APIs are available through the DirectX SDK, and the driver is available through Windows Update.
 
-There are several advantages to using XInput over [DirectInput](https://msdn.microsoft.com/windows/desktop/c5d0c734-9f01-30f5-651c-82ac9c21310e):
+There are several advantages to using XInput over [DirectInput](https://msdn.microsoft.com/en-us/library/Ee416842(v=VS.85).aspx):
 
--   XInput is easier to use and requires less setup than [DirectInput](https://msdn.microsoft.com/windows/desktop/c5d0c734-9f01-30f5-651c-82ac9c21310e)
+-   XInput is easier to use and requires less setup than [DirectInput](https://msdn.microsoft.com/en-us/library/Ee416842(v=VS.85).aspx)
 -   Both Xbox 360 and Windows programming will use the same sets of core APIs, allowing programming to translate cross-platform much easier
 -   There will be a large installed base of Xbox 360 controllers
 -   XInput devices (that is, the Xbox 360 controllers) will have vibration functionality only when using XInput APIs
@@ -32,23 +32,23 @@ There are several advantages to using XInput over [DirectInput](https://msdn.mic
 
 ### Using the Xbox 360 Controller with DirectInput
 
-The Xbox 360 Controller is properly enumerated on [DirectInput](https://msdn.microsoft.com/windows/desktop/c5d0c734-9f01-30f5-651c-82ac9c21310e), and can be used with the DirectInputAPIs. However, some functionality provided by XInput will be missing from the DirectInput implementation:
+The Xbox 360 Controller is properly enumerated on [DirectInput](https://msdn.microsoft.com/en-us/library/Ee416842(v=VS.85).aspx), and can be used with the DirectInputAPIs. However, some functionality provided by XInput will be missing from the DirectInput implementation:
 
 -   The left and right trigger buttons will act as a single button, not independently
 -   The vibration effects will not be available
 -   Querying for headset devices will not be available
 
-The combination of the left and right triggers in [DirectInput](https://msdn.microsoft.com/windows/desktop/c5d0c734-9f01-30f5-651c-82ac9c21310e) is by design. Games have always assumed that DirectInput device axes are centered when there is no user interaction with the device. However, the Xbox 360 controller was designed to register minimum value, not center, when the triggers are not being held. Older games would therefore assume user interaction.
+The combination of the left and right triggers in [DirectInput](https://msdn.microsoft.com/en-us/library/Ee416842(v=VS.85).aspx) is by design. Games have always assumed that DirectInput device axes are centered when there is no user interaction with the device. However, the Xbox 360 controller was designed to register minimum value, not center, when the triggers are not being held. Older games would therefore assume user interaction.
 
-The solution was to combine the triggers, setting one trigger to a positive direction and the other to a negative direction, so no user interaction is indicative to [DirectInput](https://msdn.microsoft.com/windows/desktop/c5d0c734-9f01-30f5-651c-82ac9c21310e) of the "control" being at center.
+The solution was to combine the triggers, setting one trigger to a positive direction and the other to a negative direction, so no user interaction is indicative to [DirectInput](https://msdn.microsoft.com/en-us/library/Ee416842(v=VS.85).aspx) of the "control" being at center.
 
 In order to test the trigger values separately, you must use XInput.
 
 ## XInput and DirectInput Side by Side
 
-By supporting XInput only, your game will not work with legacy [DirectInput](https://msdn.microsoft.com/windows/desktop/c5d0c734-9f01-30f5-651c-82ac9c21310e) devices. XInput will not recognize these devices.
+By supporting XInput only, your game will not work with legacy [DirectInput](https://msdn.microsoft.com/en-us/library/Ee416842(v=VS.85).aspx) devices. XInput will not recognize these devices.
 
-If you want your game to support legacy [DirectInput](https://msdn.microsoft.com/windows/desktop/c5d0c734-9f01-30f5-651c-82ac9c21310e) devices, you may use DirectInput and XInput side by side. When enumerating your DirectInput devices, all DirectInput devices will enumerate correctly. All XInput devices will show up as both XInput and DirectInput devices, but they should not be handled through DirectInput. You will need to determine which of your DirectInput devices are legacy devices, and which are XInput devices, and remove them from the enumeration of DirectInput devices.
+If you want your game to support legacy [DirectInput](https://msdn.microsoft.com/en-us/library/Ee416842(v=VS.85).aspx) devices, you may use DirectInput and XInput side by side. When enumerating your DirectInput devices, all DirectInput devices will enumerate correctly. All XInput devices will show up as both XInput and DirectInput devices, but they should not be handled through DirectInput. You will need to determine which of your DirectInput devices are legacy devices, and which are XInput devices, and remove them from the enumeration of DirectInput devices.
 
 To do this, insert this code into your DirectInput enumeration callback:
 

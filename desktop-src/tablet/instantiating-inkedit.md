@@ -23,7 +23,7 @@ The [InkEdit](inkedit-control-reference.md) control is a superclass of the Rich 
 
 Win32 applications instantiate the [InkEdit](inkedit-control-reference.md) control by calling [CreateWindow()](https://www.bing.com/search?q=CreateWindow()) and passing INKEDIT as the window class. INKEDIT is defined in InkEd.h. After the control is created, you can "talk" to the control with messages. Rich Edit messages (EM\_\*) are passed from InkEdit to Rich Edit unaltered; all of the existing Rich Edit functionality is available.
 
-To create an [InkEdit](inkedit-control-reference.md) control, call the [CreateWindow()](https://www.bing.com/search?q=CreateWindow()) function, specifying the InkEdit window class. Use [LoadLibrary()](https://msdn.microsoft.com/windows/desktop/d936b4dd-058c-48e1-834b-b47ef6d8ef65) to register InkEd.dll. Specify the INKEDIT\_CLASS defined constant for the window class parameter and use the window styles as specified in the following examples.
+To create an [InkEdit](inkedit-control-reference.md) control, call the [CreateWindow()](https://www.bing.com/search?q=CreateWindow()) function, specifying the InkEdit window class. Use [LoadLibrary()](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) to register InkEd.dll. Specify the INKEDIT\_CLASS defined constant for the window class parameter and use the window styles as specified in the following examples.
 
 ### Instantiating a Multiline InkEdit Control
 
@@ -58,11 +58,11 @@ m_hWnd, NULL, hInst, NULL);
 
 
 > [!Note]  
-> Unlike with RichEdit, you must be sure to call [CoInitialize()](https://msdn.microsoft.com/windows/desktop/0f171cf4-87b9-43a6-97f2-80ed344fe376) before creating the [InkEdit](inkedit-control-reference.md) control. Call [CoUninitialize()](https://msdn.microsoft.com/windows/desktop/9411cbed-fa3b-46f7-b677-6ada53324edc) when your application shuts down. After calling CoUninitialize(), you must call [FreeLibrary(s\_hlib)](https://msdn.microsoft.com/windows/desktop/823d3147-4ba8-4fe5-ade4-e5604f47eb0a) to decrement the reference count on the InkEdit.dll file.
+> Unlike with RichEdit, you must be sure to call [CoInitialize()](https://msdn.microsoft.com/en-us/library/ms678543(v=VS.85).aspx) before creating the [InkEdit](inkedit-control-reference.md) control. Call [CoUninitialize()](https://msdn.microsoft.com/en-us/library/ms688715(v=VS.85).aspx) when your application shuts down. After calling CoUninitialize(), you must call [FreeLibrary(s\_hlib)](https://msdn.microsoft.com/en-us/library/ms683152(v=VS.85).aspx) to decrement the reference count on the InkEdit.dll file.
 
  
 
-If you use the [ES\_NOIME](https://msdn.microsoft.com/windows/desktop/0f1b3e01-01cb-4b3e-b959-6f32498f0394) window style, the built-in correction support is not available. If you don't specify a parent window, the control is created as a top-level window and the WS\_SYSMENU style is added; this also disables the built-in correction support.
+If you use the [ES\_NOIME](https://www.bing.com/search?q=ES\_NOIME) window style, the built-in correction support is not available. If you don't specify a parent window, the control is created as a top-level window and the WS\_SYSMENU style is added; this also disables the built-in correction support.
 
 ## Related topics
 

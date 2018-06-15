@@ -25,7 +25,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncDDAtoDConverterType**](/windows/desktop/api/codecapi/) enumeration.
+The value of this property is a member of the [**eAVEncDDAtoDConverterType**](https://msdn.microsoft.com/en-us/library/Dd388780(v=VS.85).aspx) enumeration.
 
 ## Requirements
 

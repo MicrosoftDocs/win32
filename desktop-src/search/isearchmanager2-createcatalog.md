@@ -32,7 +32,7 @@ HRESULT CreateCatalog(
 *pszCatalog* \[in\]
 </dt> <dd>
 
-Type: **[**LPCWSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCWSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Name of catalog to create. Can be any name selected by the caller, must contain only standard alphanumeric characters and underscore.
 

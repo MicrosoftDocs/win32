@@ -26,7 +26,7 @@ strName = FolderItemVerb.Name
 
 ## Property value
 
-A variable of type [**BSTR**](https://msdn.microsoft.com/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228) that receives the Name property.
+A variable of type [**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx) that receives the Name property.
 
 ## Examples
 

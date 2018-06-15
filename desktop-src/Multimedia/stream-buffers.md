@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # Stream Buffers
 
-Applications can use stream buffers to send streams of MIDI events to a device. Each stream buffer is a block of memory pointed to by a [**MIDIHDR**](https://www.bing.com/search?q=**MIDIHDR**) structure. This block of memory contains data for one or more MIDI events, each of which is defined by a [**MIDIEVENT**](https://www.bing.com/search?q=**MIDIEVENT**) structure. An application controls the buffer by calling the stream-manipulation functions, such as [**midiStreamOpen**](https://www.bing.com/search?q=**midiStreamOpen**), [**midiStreamOut**](https://www.bing.com/search?q=**midiStreamOut**), and [**midiStreamClose**](https://www.bing.com/search?q=**midiStreamClose**).
+Applications can use stream buffers to send streams of MIDI events to a device. Each stream buffer is a block of memory pointed to by a [**MIDIHDR**](https://msdn.microsoft.com/en-us/library/Dd798449(v=VS.85).aspx) structure. This block of memory contains data for one or more MIDI events, each of which is defined by a [**MIDIEVENT**](https://msdn.microsoft.com/en-us/library/Dd798448(v=VS.85).aspx) structure. An application controls the buffer by calling the stream-manipulation functions, such as [**midiStreamOpen**](https://msdn.microsoft.com/en-us/library/Dd798486(v=VS.85).aspx), [**midiStreamOut**](https://msdn.microsoft.com/en-us/library/Dd798487(v=VS.85).aspx), and [**midiStreamClose**](https://msdn.microsoft.com/en-us/library/Dd798485(v=VS.85).aspx).
 
 -   [Stream Buffer Format](stream-buffer-format.md)
 -   [Timing Information](timing-information.md)

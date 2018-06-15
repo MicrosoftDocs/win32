@@ -22,16 +22,16 @@ The code examples listed at the bottom of the page show how to set the propertie
 
  
 
-In the following examples, the modified task object is always saved to disk by a call to [**IPersistFile::Save**](https://msdn.microsoft.com/windows/desktop/da9581e8-98c7-4592-8ee1-a1bc8232635b). (The [**IPersistFile**](https://msdn.microsoft.com/windows/desktop/7d34507f-8a16-43b4-8225-010798abc546) interface is a standard COM interface inherited by the task object.)
+In the following examples, the modified task object is always saved to disk by a call to [**IPersistFile::Save**](https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx). (The [**IPersistFile**](https://msdn.microsoft.com/en-us/library/ms687223(v=VS.85).aspx) interface is a standard COM interface inherited by the task object.)
 
 The following procedure describes how to set a task property.
 
 **To set a task property**
 
-1.  Call [**CoInitialize**](https://msdn.microsoft.com/windows/desktop/0f171cf4-87b9-43a6-97f2-80ed344fe376) to initialize the COM library and [**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) to get a Task Scheduler object. (These examples assume that the Task Scheduler service is running.)
+1.  Call [**CoInitialize**](https://msdn.microsoft.com/en-us/library/ms678543(v=VS.85).aspx) to initialize the COM library and [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) to get a Task Scheduler object. (These examples assume that the Task Scheduler service is running.)
 2.  Call [**ITaskScheduler::Activate**](/windows/desktop/api/Mstask/nf-mstask-itaskscheduler-activate) to get the [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask) interface of the task object. (Note that this example gets the "Test Task" task.)
 3.  Call the appropriate [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask) method to set the property you are interested in.
-4.  Call [**IPersistFile::Save**](https://msdn.microsoft.com/windows/desktop/da9581e8-98c7-4592-8ee1-a1bc8232635b) to store the modified task object to disk.
+4.  Call [**IPersistFile::Save**](https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx) to store the modified task object to disk.
 
 
 

@@ -73,7 +73,7 @@
 #### [BluetoothSelectDevicesFree](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothselectdevicesfree)
 #### [BluetoothSendAuthenticationResponse](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsendauthenticationresponse)
 #### [BluetoothSendAuthenticationResponseEx](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsendauthenticationresponseex)
-#### [BluetoothSetLocalServiceInfo](/windows/desktop/api/BluetoothAPIs/)
+#### [BluetoothSetLocalServiceInfo](https://msdn.microsoft.com/en-us/library/Bb870603(v=VS.85).aspx)
 #### [BluetoothSetServiceState](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsetservicestate)
 #### [BluetoothUnregisterAuthentication](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothunregisterauthentication)
 #### [BluetoothUpdateDeviceRecord](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothupdatedevicerecord)

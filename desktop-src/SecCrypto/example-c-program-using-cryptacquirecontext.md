@@ -11,13 +11,13 @@ ms.date: 05/31/2018
 
 # Example C Program: Using CryptAcquireContext
 
-The following example demonstrates several different ways to use the [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) and related CryptoAPI functions to work with a [*cryptographic service provider*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CSP) and a [*key container*](https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33).
+The following example demonstrates several different ways to use the [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) and related CryptoAPI functions to work with a [*cryptographic service provider*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSP) and a [*key container*](https://msdn.microsoft.com/en-us/library/ms721590(v=VS.85).aspx).
 
 This example demonstrates the following tasks and CryptoAPI functions:
 
 -   Use the [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) function to acquire a handle for the default CSP and the default key container. If no default key container exists, use the **CryptAcquireContext** function to create the default key container.
 -   Use the [**CryptGetProvParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetprovparam) function to retrieve information about a CSP and a key container.
--   Increase the [*reference count*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd) on the provider by using the [**CryptContextAddRef**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcontextaddref) function.
+-   Increase the [*reference count*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx) on the provider by using the [**CryptContextAddRef**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcontextaddref) function.
 -   Release a CSP by using the [**CryptReleaseContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptreleasecontext) function.
 -   Create a named key container by using the [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) function.
 -   Acquire a handle for a CSP by using the newly created key container.

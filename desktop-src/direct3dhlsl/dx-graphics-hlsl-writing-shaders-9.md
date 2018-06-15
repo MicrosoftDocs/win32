@@ -764,7 +764,7 @@ mad oPos, r0.w, r2, c1
 
 
 
-Some hardware allows for either static or dynamic looping, but most require linear execution. On the models that do not support looping, all loops must be unrolled. An example is the [DepthOfField Sample](https://msdn.microsoft.com/windows/desktop/1bf68123-78e7-6e31-d7b5-20f97f708d62) sample that uses unrolled loops even for ps\_1\_1 shaders.
+Some hardware allows for either static or dynamic looping, but most require linear execution. On the models that do not support looping, all loops must be unrolled. An example is the [DepthOfField Sample](https://msdn.microsoft.com/en-us/library/Ee416592(v=VS.85).aspx) sample that uses unrolled loops even for ps\_1\_1 shaders.
 
 HLSL now includes support for each of these types of flow control:
 

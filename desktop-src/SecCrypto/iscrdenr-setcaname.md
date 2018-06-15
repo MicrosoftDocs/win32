@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # ISCrdEnr::setCAName method
 
-The **setCAName** method specifies the name of the [*certification authority*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CA).
+The **setCAName** method specifies the name of the [*certification authority*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CA).
 
 ## Syntax
 

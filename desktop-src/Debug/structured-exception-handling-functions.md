@@ -17,11 +17,11 @@ The following functions are used in structured exception handling.
 
     Indicates whether the **\_\_try** block of a termination handler terminated normally.
 
--   [**AddVectoredContinueHandler**](/windows/desktop/api/WinBase/)
+-   [**AddVectoredContinueHandler**](https://msdn.microsoft.com/en-us/library/ms679273(v=VS.85).aspx)
 
     Registers a vectored continue handler.
 
--   [**AddVectoredExceptionHandler**](/windows/desktop/api/WinBase/)
+-   [**AddVectoredExceptionHandler**](https://msdn.microsoft.com/en-us/library/ms679274(v=VS.85).aspx)
 
     Registers a vectored exception handler.
 
@@ -33,15 +33,15 @@ The following functions are used in structured exception handling.
 
     Retrieves a machine-independent description of an exception, and information about the machine state that existed for the thread when the exception occurred.
 
--   [**RaiseException**](/windows/desktop/api/WinBase/)
+-   [**RaiseException**](https://msdn.microsoft.com/en-us/library/ms680552(v=VS.85).aspx)
 
     Raises an exception in the calling thread.
 
--   [**RemoveVectoredContinueHandler**](/windows/desktop/api/WinBase/)
+-   [**RemoveVectoredContinueHandler**](https://msdn.microsoft.com/en-us/library/ms680567(v=VS.85).aspx)
 
     Unregisters a vectored continue handler.
 
--   [**RemoveVectoredExceptionHandler**](/windows/desktop/api/WinBase/)
+-   [**RemoveVectoredExceptionHandler**](https://msdn.microsoft.com/en-us/library/ms680571(v=VS.85).aspx)
 
     Unregisters a vectored exception handler.
 
@@ -57,11 +57,11 @@ The following functions are used in structured exception handling.
 
     Reports that a dynamic function table has increased in size.
 
--   [**SetUnhandledExceptionFilter**](/windows/desktop/api/WinBase/)
+-   [**SetUnhandledExceptionFilter**](https://msdn.microsoft.com/en-us/library/ms680634(v=VS.85).aspx)
 
     Enables an application to supersede the top-level exception handler of each thread and process.
 
--   [**UnhandledExceptionFilter**](/windows/desktop/api/WinBase/)
+-   [**UnhandledExceptionFilter**](https://msdn.microsoft.com/en-us/library/ms681401(v=VS.85).aspx)
 
     Passes unhandled exceptions to the debugger, if the process is being debugged.
 

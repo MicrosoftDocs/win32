@@ -260,7 +260,7 @@
 #### [EVT_SYSTEM_PROPERTY_ID](/windows/desktop/api/WinEvt/ne-winevt-_evt_system_property_id)
 #### [EVT_VARIANT_TYPE](/windows/desktop/api/WinEvt/ne-winevt-_evt_variant_type)
 ### [Windows Event Log Functions](windows-event-log-functions.md)
-#### [EVT_SUBSCRIBE_CALLBACK](/windows/desktop/api/WinEvt/nc-winevt-evt_subscribe_callback)
+#### [EVT_SUBSCRIBE_CALLBACK](https://msdn.microsoft.com/en-us/library/Aa385577(v=VS.85).aspx)
 #### [EvtArchiveExportedLog](/windows/desktop/api/WinEvt/nf-winevt-evtarchiveexportedlog)
 #### [EvtCancel](/windows/desktop/api/WinEvt/nf-winevt-evtcancel)
 #### [EvtClearLog](/windows/desktop/api/WinEvt/nf-winevt-evtclearlog)

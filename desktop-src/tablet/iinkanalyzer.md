@@ -91,7 +91,7 @@ The **IInkAnalyzer** interface has these methods.
 
 ## Remarks
 
-**IInkAnalyzer** uses stroke packet data to analyze ink and does not interact with [**InkDisp Class**](/windows/desktop/api/msinkaut/) or [InkStrokes Collection](/windows/desktop/api/msinkaut/) objects directly.
+**IInkAnalyzer** uses stroke packet data to analyze ink and does not interact with [**InkDisp Class**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) or [InkStrokes Collection](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) objects directly.
 
 To add or remove strokes to the **IInkAnalyzer** for analysis, use one of the following methods.
 

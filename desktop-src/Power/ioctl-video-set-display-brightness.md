@@ -52,7 +52,7 @@ The control code for the operation. This value identifies the specific operation
 *lpInBuffer* 
 </dt> <dd>
 
-A pointer to a [**DISPLAY\_BRIGHTNESS**](/windows/desktop/api/WinNT/) structure.
+A pointer to a [**DISPLAY\_BRIGHTNESS**](https://msdn.microsoft.com/en-us/library/Aa372686(v=VS.85).aspx) structure.
 
 </dd> <dt>
 
@@ -107,7 +107,7 @@ If the operation fails or is pending, [**DeviceIoControl**](https://msdn.microso
 
 ## Remarks
 
-The values specified in the **ucACBrightness** and **ucDCBrightness** members of the [**DISPLAY\_BRIGHTNESS**](/windows/desktop/api/WinNT/) structure must have been previously returned by [**IOCTL\_VIDEO\_QUERY\_SUPPORTED\_BRIGHTNESS**](ioctl-video-query-supported-brightness.md). For example, if the supported values are 10, 20, 30, 40, 50, 60, 70, 80, 90, and 100, then using a value of 33 would be an error.
+The values specified in the **ucACBrightness** and **ucDCBrightness** members of the [**DISPLAY\_BRIGHTNESS**](https://msdn.microsoft.com/en-us/library/Aa372686(v=VS.85).aspx) structure must have been previously returned by [**IOCTL\_VIDEO\_QUERY\_SUPPORTED\_BRIGHTNESS**](ioctl-video-query-supported-brightness.md). For example, if the supported values are 10, 20, 30, 40, 50, 60, 70, 80, 90, and 100, then using a value of 33 would be an error.
 
 The header file used to build applications that include this functionality, Ntddvdeo.h, is included in the Microsoft Windows Driver Development Kit (DDK). For information on obtaining the DDK, see [http://www.microsoft.com/whdc/devtools/ddk/default.mspx](Http://go.microsoft.com/fwlink/p/?linkid=84136).
 
@@ -140,7 +140,7 @@ Alternatively, you can define this control code as follows:
 [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216)
 </dt> <dt>
 
-[**DISPLAY\_BRIGHTNESS**](/windows/desktop/api/WinNT/)
+[**DISPLAY\_BRIGHTNESS**](https://msdn.microsoft.com/en-us/library/Aa372686(v=VS.85).aspx)
 </dt> <dt>
 
 [**IOCTL\_VIDEO\_QUERY\_DISPLAY\_BRIGHTNESS**](ioctl-video-query-display-brightness.md)

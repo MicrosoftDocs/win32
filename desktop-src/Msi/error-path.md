@@ -32,7 +32,7 @@ This value is only valid for errors of type msmErrorFileCreate or msmErrorDirCre
 
 ### C++
 
-See [**get\_Path**](/windows/desktop/api/Mergemod/) function.
+See [**get\_Path**](https://msdn.microsoft.com/en-us/library/Aa369255(v=VS.85).aspx) function.
 
 ## Requirements
 

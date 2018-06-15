@@ -26,19 +26,19 @@ The general procedures for implementing and registering a Shell extension handle
 
 ### Step 1: Implementing Icon Handlers
 
-Like all Shell extension handlers, icon handlers are in-process Component Object Model (COM) objects implemented as DLLs. They must export two interfaces in addition to [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332): [**IPersistFile**](https://msdn.microsoft.com/7d34507f-8a16-43b4-8225-010798abc546) and [**IExtractIcon**](/windows/desktop/api/Shlobj_core/).
+Like all Shell extension handlers, icon handlers are in-process Component Object Model (COM) objects implemented as DLLs. They must export two interfaces in addition to [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx): [**IPersistFile**](https://msdn.microsoft.com/en-us/library/ms687223(v=VS.85).aspx) and [**IExtractIcon**](https://msdn.microsoft.com/en-us/library/Bb761854(v=VS.85).aspx).
 
-The Shell initializes the handler through its [**IPersistFile**](https://msdn.microsoft.com/7d34507f-8a16-43b4-8225-010798abc546) interface. It uses this interface to request the handler's class identifier (CLSID) and provides it with the file's name. The rest of the operation takes place through the [**IExtractIcon**](/windows/desktop/api/Shlobj_core/) interface. For a general discussion of how to implement Shell extension handlers, including the **IPersistFile** interface, see [Creating Shell Extension Handlers](handlers.md). The remainder of this document discusses how to implement the **IExtractIcon** interface.
+The Shell initializes the handler through its [**IPersistFile**](https://msdn.microsoft.com/en-us/library/ms687223(v=VS.85).aspx) interface. It uses this interface to request the handler's class identifier (CLSID) and provides it with the file's name. The rest of the operation takes place through the [**IExtractIcon**](https://msdn.microsoft.com/en-us/library/Bb761854(v=VS.85).aspx) interface. For a general discussion of how to implement Shell extension handlers, including the **IPersistFile** interface, see [Creating Shell Extension Handlers](handlers.md). The remainder of this document discusses how to implement the **IExtractIcon** interface.
 
 ### Step 2: Implementing the IExtractIcon Interface
 
-After the interface is initialized, the Shell uses the handler's [**IExtractIcon**](/windows/desktop/api/Shlobj_core/) interface to request the appropriate icon. The interface has two methods: [**IExtractIcon::GetIconLocation**](/windows/desktop/api/Shlobj_core/) and [**IExtractIcon::Extract**](/windows/desktop/api/Shlobj_core/).
+After the interface is initialized, the Shell uses the handler's [**IExtractIcon**](https://msdn.microsoft.com/en-us/library/Bb761854(v=VS.85).aspx) interface to request the appropriate icon. The interface has two methods: [**IExtractIcon::GetIconLocation**](https://msdn.microsoft.com/en-us/library/Bb761852(v=VS.85).aspx) and [**IExtractIcon::Extract**](https://msdn.microsoft.com/en-us/library/Bb761850(v=VS.85).aspx).
 
-Icons are identified by their location in the file system. The [**IExtractIcon::GetIconLocation**](/windows/desktop/api/Shlobj_core/) method is called to request this information. Set the *szIconFile* parameter to the file name. If there is more than one icon in the file, set *piIndex* to the icon's index. Assign appropriate values to the two flag variables. If you do not want to specify a file name, or if you do not want the Shell to extract the icon, set the **GIL\_NOTFILENAME** flag in the *pwFlags* parameter. You do not need to assign a value to *szIconFile*, but the handler must provide icon handles when the Shell calls [**IExtractIcon::Extract**](/windows/desktop/api/Shlobj_core/).
+Icons are identified by their location in the file system. The [**IExtractIcon::GetIconLocation**](https://msdn.microsoft.com/en-us/library/Bb761852(v=VS.85).aspx) method is called to request this information. Set the *szIconFile* parameter to the file name. If there is more than one icon in the file, set *piIndex* to the icon's index. Assign appropriate values to the two flag variables. If you do not want to specify a file name, or if you do not want the Shell to extract the icon, set the **GIL\_NOTFILENAME** flag in the *pwFlags* parameter. You do not need to assign a value to *szIconFile*, but the handler must provide icon handles when the Shell calls [**IExtractIcon::Extract**](https://msdn.microsoft.com/en-us/library/Bb761850(v=VS.85).aspx).
 
-If you return a file name, the Shell normally attempts to load the icon from its cache. To prevent the loading of a cached icon, set the **GIL\_DONTCACHE** flag in the *pwFlags* parameter. If a cached icon is not loaded, the Shell then calls [**IExtractIcon::Extract**](/windows/desktop/api/Shlobj_core/) to request the icon handle.
+If you return a file name, the Shell normally attempts to load the icon from its cache. To prevent the loading of a cached icon, set the **GIL\_DONTCACHE** flag in the *pwFlags* parameter. If a cached icon is not loaded, the Shell then calls [**IExtractIcon::Extract**](https://msdn.microsoft.com/en-us/library/Bb761850(v=VS.85).aspx) to request the icon handle.
 
-If a file and index were specified by [**IExtractIcon::GetIconLocation**](/windows/desktop/api/Shlobj_core/), they are passed to [**IExtractIcon::Extract**](/windows/desktop/api/Shlobj_core/) in the *pszFile* and *nIconIndex* parameters, respectively. If a file name is provided, your handler can return S\_FALSE to have the Shell extract the icon. Otherwise, your handler must extract or otherwise produce large and small icons, and assign their HICON handles to the *phiconLarge* and *phiconSmall* parameters. The Shell adds the icons to its cache to expedite subsequent calls to the handler.
+If a file and index were specified by [**IExtractIcon::GetIconLocation**](https://msdn.microsoft.com/en-us/library/Bb761852(v=VS.85).aspx), they are passed to [**IExtractIcon::Extract**](https://msdn.microsoft.com/en-us/library/Bb761850(v=VS.85).aspx) in the *pszFile* and *nIconIndex* parameters, respectively. If a file name is provided, your handler can return S\_FALSE to have the Shell extract the icon. Otherwise, your handler must extract or otherwise produce large and small icons, and assign their HICON handles to the *phiconLarge* and *phiconSmall* parameters. The Shell adds the icons to its cache to expedite subsequent calls to the handler.
 
 ### Step 3: Registering Icon Handlers
 
@@ -66,10 +66,10 @@ HKEY_CLASSES_ROOT
 [Creating Shell Extension Handlers](handlers.md)
 </dt> <dt>
 
-[**IPersistFile**](https://msdn.microsoft.com/7d34507f-8a16-43b4-8225-010798abc546)
+[**IPersistFile**](https://msdn.microsoft.com/en-us/library/ms687223(v=VS.85).aspx)
 </dt> <dt>
 
-[**IExtractIcon**](/windows/desktop/api/Shlobj_core/)
+[**IExtractIcon**](https://msdn.microsoft.com/en-us/library/Bb761854(v=VS.85).aspx)
 </dt> </dl>
 
  

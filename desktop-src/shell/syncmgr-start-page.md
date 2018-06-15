@@ -47,7 +47,7 @@ Requires Windows Server 2003, Windows XP, Windows 2000, or Windows Millenniu
 
 <dl> <dt>
 
-[About System Event Notification Service](https://msdn.microsoft.com/f313588f-6257-4a0d-b95a-aabc0bc64b53)
+[About System Event Notification Service](https://msdn.microsoft.com/en-us/library/Aa376606(v=VS.85).aspx)
 </dt> </dl>
 
  

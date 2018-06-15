@@ -63,7 +63,7 @@ Number of VCR's video or audio inputs.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](/windows/desktop/api/Mmsystem/) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 ## Requirements
 
@@ -90,7 +90,7 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_LIST**](mci-list.md)
 </dt> <dt>
 
-[**mciSendCommand**](/windows/desktop/api/Mmsystem/)
+[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
 </dt> </dl>
 
  

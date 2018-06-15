@@ -70,7 +70,7 @@
 ##### [SnmpUtilVarBindListFree](/windows/desktop/api/Snmp/nf-snmp-snmputilvarbindlistfree)
 #### [SNMP Structures](snmp-structures.md)
 ##### [AsnAny](/windows/desktop/api/Snmp/ns-snmp-asnany)
-##### [AsnCounter64](/windows/desktop/api/Snmp/)
+##### [AsnCounter64](https://msdn.microsoft.com/en-us/library/Aa377953(v=VS.85).aspx)
 ##### [AsnObjectIdentifier](/windows/desktop/api/Snmp/ns-snmp-asnobjectidentifier)
 ##### [AsnOctetString](/windows/desktop/api/Snmp/ns-snmp-asnoctetstring)
 ##### [SnmpVarBind](/windows/desktop/api/Snmp/ns-snmp-snmpvarbind)

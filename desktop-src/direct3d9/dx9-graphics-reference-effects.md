@@ -22,7 +22,7 @@ Here are the API topics.
 -   [Effect Format (Direct3D 9)](dx9-graphics-reference-effects-file-format.md)
 -   [DirectX Standard Annotations and Semantics Reference](dx9-graphics-reference-effects-dxsas.md)
 
-As an alternative to using the API to create effects, you can also use a command line compile tool. See [Effect-Compiler Tool](https://msdn.microsoft.com/VS|directx_sdk|~\fxc.htm).
+As an alternative to using the API to create effects, you can also use a command line compile tool. See [Effect-Compiler Tool](https://msdn.microsoft.com/en-us/library/Bb232919(v=VS.85).aspx).
 
 ## Related topics
 

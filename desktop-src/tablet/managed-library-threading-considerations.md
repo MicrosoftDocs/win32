@@ -66,9 +66,9 @@ void recoContext_Recognition(object sender,
 
 
 
-If you put a [UserControl](https://www.bing.com/search?q=UserControl) onto awebpagein a browser (see [Web Controls](web-controls.md)), then it runs as an STA application. For smart client applications (see [No Touch Deployment](no-touch-deployment.md)), the developer has full control over the [ApartmentState](https://www.bing.com/search?q=ApartmentState). (The default is generally STA, but may be MTA, depending on your version of CLR.) For threading issues involving the [**RealTimeStylus**](/windows/desktop/api/RTSCom/), see [Threading Considerations for the StylusInput APIs](threading-considerations-for-the-stylusinput-apis.md).
+If you put a [UserControl](https://www.bing.com/search?q=UserControl) onto awebpagein a browser (see [Web Controls](web-controls.md)), then it runs as an STA application. For smart client applications (see [No Touch Deployment](no-touch-deployment.md)), the developer has full control over the [ApartmentState](https://www.bing.com/search?q=ApartmentState). (The default is generally STA, but may be MTA, depending on your version of CLR.) For threading issues involving the [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx), see [Threading Considerations for the StylusInput APIs](threading-considerations-for-the-stylusinput-apis.md).
 
-For more information about calling Windows Forms from an MTA application, see [Multithreaded Windows Forms Control Sample](https://msdn.microsoft.com/windows/desktop/7fe3956f-5b8f-4f78-8aae-c9eb0b28f13a).
+For more information about calling Windows Forms from an MTA application, see [Multithreaded Windows Forms Control Sample](https://msdn.microsoft.com/en-us/library/3s8xdz5c(v=VS.71).aspx).
 
 ## Clipboard Considerations
 
@@ -90,7 +90,7 @@ To improve performance in your application, manually dispose of any Tablet PC ob
 
 ## StylusInput APIs
 
-For information about threading considerations for the [**RealTimeStylus**](/windows/desktop/api/RTSCom/) object and the StylusInput application programming interfaces (APIs) see [Threading Considerations for the StylusInput APIs](threading-considerations-for-the-stylusinput-apis.md).
+For information about threading considerations for the [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object and the StylusInput application programming interfaces (APIs) see [Threading Considerations for the StylusInput APIs](threading-considerations-for-the-stylusinput-apis.md).
 
  
 

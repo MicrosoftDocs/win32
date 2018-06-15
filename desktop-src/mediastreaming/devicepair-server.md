@@ -41,7 +41,7 @@ HRESULT get_Server(
 
 ## Property value
 
-Receives a [**ActiveBasicDevice**](https://www.bing.com/search?q=**ActiveBasicDevice**) object that represents the server device.
+Receives a [**ActiveBasicDevice**](https://msdn.microsoft.com/en-us/library/Dn385755(v=VS.85).aspx) object that represents the server device.
 
 ## Requirements
 
@@ -57,7 +57,7 @@ Receives a [**ActiveBasicDevice**](https://www.bing.com/search?q=**ActiveBasicDe
 
 <dl> <dt>
 
-[**DevicePair**](https://www.bing.com/search?q=**DevicePair**)
+[**DevicePair**](https://msdn.microsoft.com/en-us/library/Dn385771(v=VS.85).aspx)
 </dt> </dl>
 
  

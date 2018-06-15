@@ -37,7 +37,7 @@ HRESULT D3DXCreateKeyframedAnimationSet(
 *pName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to the name of the animation set.
 
@@ -46,7 +46,7 @@ Pointer to the name of the animation set.
 *TicksPerSecond* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Number of key frame ticks that elapse per second.
 
@@ -55,16 +55,16 @@ Number of key frame ticks that elapse per second.
 *Playback* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXPLAYBACK\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxplayback_type.htm)**
+Type: **[**D3DXPLAYBACK\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb205397(v=VS.85).aspx)**
 
-Type of the animation set playback loop. See [**D3DXPLAYBACK\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxplayback_type.htm).
+Type of the animation set playback loop. See [**D3DXPLAYBACK\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb205397(v=VS.85).aspx).
 
 </dd> <dt>
 
 *NumAnimations* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Number of scale, rotate, and translate (SRT) animation sets.
 
@@ -73,7 +73,7 @@ Number of scale, rotate, and translate (SRT) animation sets.
 *NumCallbackKeys* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Number of callback keys.
 
@@ -99,7 +99,7 @@ Address of a pointer to the [**ID3DXKeyframedAnimationSet**](id3dxkeyframedanima
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is S\_OK. If the function fails, the return value can be one of the following values: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

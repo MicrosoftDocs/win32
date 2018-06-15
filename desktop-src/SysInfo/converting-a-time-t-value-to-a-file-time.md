@@ -28,7 +28,7 @@ void TimetToFileTime( time_t t, LPFILETIME pft )
 
 
 
-After you have obtained a file time, you can convert this value to system time using the [**FileTimeToSystemTime**](/windows/desktop/api/FileAPI/) function.
+After you have obtained a file time, you can convert this value to system time using the [**FileTimeToSystemTime**](https://msdn.microsoft.com/en-us/library/ms724280(v=VS.85).aspx) function.
 
  
 

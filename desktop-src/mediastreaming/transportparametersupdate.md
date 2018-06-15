@@ -40,7 +40,7 @@ This event does not return a value.
 
 ## Remarks
 
-To handle notifications from this event, register a [**TransportParametersUpdateHandler**](/windows/desktop/api/mfidl/) event handler function using the [**add\_TransportParametersUpdate**](https://www.bing.com/search?q=**add\_TransportParametersUpdate**) method. To unregister the event handler, use the [**remove\_TransportParametersUpdate**](https://www.bing.com/search?q=**remove\_TransportParametersUpdate**) method.
+To handle notifications from this event, register a [**TransportParametersUpdateHandler**](https://msdn.microsoft.com/en-us/library/Hh829007(v=VS.85).aspx) event handler function using the [**add\_TransportParametersUpdate**](https://msdn.microsoft.com/en-us/library/Hh828929(v=VS.85).aspx) method. To unregister the event handler, use the [**remove\_TransportParametersUpdate**](https://msdn.microsoft.com/en-us/library/Hh828941(v=VS.85).aspx) method.
 
  
 

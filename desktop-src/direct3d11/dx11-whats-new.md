@@ -57,10 +57,10 @@ This SDK allows developers to evaluate the API and write basic applications for 
 <td><span id="Updated_Samples"></span><span id="updated_samples"></span><span id="UPDATED_SAMPLES"></span>Updated Samples<br/></td>
 <td>This release has several new and updated samples.<br/>
 <ul>
-<li>The new [AdaptiveTessellationCS40](https://msdn.microsoft.com/windows/desktop/7cb17765-22d8-42fe-68ec-104a8db543e5) is an illustration of more advanced compute shader processing techniques that can be run on a D3D10 or D3D11 GPU.</li>
-<li>The [HDRToneMappingCS11 sample](https://msdn.microsoft.com/windows/desktop/d325cd30-56e1-d608-6ab6-2755caf2b1b1) has been expanded to implement blur and bloom effects (in addition to tone mapping) using compute shader, as well as providing pixel shader implementations for comparison.</li>
-<li>The [MultithreadedRendering11 sample](https://msdn.microsoft.com/windows/desktop/089de2b0-a2d6-3c99-6ff6-684a1ab3d4de) has been significantly updated, with more complex art assets and more intensive per-thread processing.</li>
-<li>The [SubD11 sample](https://msdn.microsoft.com/windows/desktop/5608dcd2-0114-5056-d87c-d2f7f775ea14) has been updated with a new facial model, and the sample now leverages the adjacency computation feature of the Samples Content Exporter.</li>
+<li>The new [AdaptiveTessellationCS40](https://msdn.microsoft.com/en-us/library/Ee416556(v=VS.85).aspx) is an illustration of more advanced compute shader processing techniques that can be run on a D3D10 or D3D11 GPU.</li>
+<li>The [HDRToneMappingCS11 sample](https://msdn.microsoft.com/en-us/library/Ee416569(v=VS.85).aspx) has been expanded to implement blur and bloom effects (in addition to tone mapping) using compute shader, as well as providing pixel shader implementations for comparison.</li>
+<li>The [MultithreadedRendering11 sample](https://msdn.microsoft.com/en-us/library/Ee416570(v=VS.85).aspx) has been significantly updated, with more complex art assets and more intensive per-thread processing.</li>
+<li>The [SubD11 sample](https://msdn.microsoft.com/en-us/library/Ee416576(v=VS.85).aspx) has been updated with a new facial model, and the sample now leverages the adjacency computation feature of the Samples Content Exporter.</li>
 </ul></td>
 </tr>
 </tbody>

@@ -45,7 +45,7 @@ HRESULT get_UserName(
 
 ## Property value
 
-A pointer to a user name. When you have finished using the string, free it by calling the [**SysFreeString**](https://msdn.microsoft.com/windows/desktop/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function.
+A pointer to a user name. When you have finished using the string, free it by calling the [**SysFreeString**](https://msdn.microsoft.com/en-us/library/ms221481(v=VS.71).aspx) function.
 
 ## Requirements
 

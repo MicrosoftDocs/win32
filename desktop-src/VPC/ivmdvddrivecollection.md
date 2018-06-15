@@ -28,7 +28,7 @@ Defines the collection of CD and DVD drives within the virtual machine. To obtai
 
 ## Members
 
-The **IVMDVDDriveCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMDVDDriveCollection** also has these types of members:
+The **IVMDVDDriveCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMDVDDriveCollection** also has these types of members:
 
 -   [Properties](#properties)
 

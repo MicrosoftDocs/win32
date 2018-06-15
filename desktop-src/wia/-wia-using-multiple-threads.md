@@ -17,7 +17,7 @@ For example, if one thread in an application obtains a pointer to the [**IWiaIte
 
 A common technique used to accomplish this marshalling is to use the global interface table. The global interface table is a table maintained across all threads within a single process. All threads running within the process can retrieve interfaces that are registered to the global interface table. This technique avoids the need to create streams for passing interfaces between threads.
 
-For information on how to use the global interface table, see [IGlobalInterfaceTable](https://msdn.microsoft.com/0c1feee7-e33b-4b5d-8e35-4de6895e3947).
+For information on how to use the global interface table, see [IGlobalInterfaceTable](https://msdn.microsoft.com/en-us/library/ms678517(v=VS.85).aspx).
 
 Even if you do not intend to use multiple threads in a WIA application, you must assume that all data transfer or device event callback functions run in separate threads.
 

@@ -124,7 +124,7 @@ The following table lists the currently defined **ACE** types.
 <li>System alarm</li>
 <li>Object specific</li>
 </ul></td>
-<td>[<strong>SYSTEM_ALARM_OBJECT_ACE</strong>](/windows/desktop/api/Winnt/)</td>
+<td>[<strong>SYSTEM_ALARM_OBJECT_ACE</strong>](https://msdn.microsoft.com/en-us/library/Aa379615(v=VS.85).aspx)</td>
 <td>System</td>
 </tr>
 <tr class="odd">
@@ -189,7 +189,7 @@ System-alarm and object-specific system-alarm ACEs are not currently supported.
 
 <dl> <dt>
 
-[**AddAce**](https://www.bing.com/search?q=**AddAce**)
+[**AddAce**](https://msdn.microsoft.com/en-us/library/Aa374970(v=VS.85).aspx)
 </dt> <dt>
 
 [**ACCESS\_ALLOWED\_ACE**](/windows/desktop/api/Winnt/ns-winnt-_access_allowed_ace)

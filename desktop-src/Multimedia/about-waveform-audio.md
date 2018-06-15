@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # About Waveform Audio
 
-There are several methods for adding sound to your application using waveform audio. The simplest method documented here is that of using the [**PlaySound**](/windows/desktop/api/Mmsystem/) function. Most of the other waveform-audio API elements are relatively low-level.
+There are several methods for adding sound to your application using waveform audio. The simplest method documented here is that of using the [**PlaySound**](https://msdn.microsoft.com/en-us/library/Dd743680(v=VS.85).aspx) function. Most of the other waveform-audio API elements are relatively low-level.
 
 For more information, see the following topics:
 

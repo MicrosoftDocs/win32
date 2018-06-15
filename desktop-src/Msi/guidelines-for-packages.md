@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Because [*User Account Control*](u-gly.md) (UAC) in Windows Vista restricts privileges during an installation, developers of Windows Installer packages should not assume that their installation always has access to all parts of the system.
 
-An installer package that can be successfully deployed to standard users via [Group Policy](https://msdn.microsoft.com/0e9314f4-bdea-47b1-81a4-9b19b79ac49d) should in most cases also work with UAC in Windows Vista. Exceptions to this can occur if the [InstallUISequence table](installuisequence-table.md) contains the [LaunchConditions action](launchconditions-action.md) or the [LaunchCondition table](launchcondition-table.md) contains a condition based on the [Privileged property](privileged.md). Windows Installer package developers should therefore adhere to the following guidelines to ensure their package works with UAC and Windows Vista.
+An installer package that can be successfully deployed to standard users via [Group Policy](https://msdn.microsoft.com/en-us/library/Aa374177(v=VS.85).aspx) should in most cases also work with UAC in Windows Vista. Exceptions to this can occur if the [InstallUISequence table](installuisequence-table.md) contains the [LaunchConditions action](launchconditions-action.md) or the [LaunchCondition table](launchcondition-table.md) contains a condition based on the [Privileged property](privileged.md). Windows Installer package developers should therefore adhere to the following guidelines to ensure their package works with UAC and Windows Vista.
 
 -   When including an [*installation context*](i-gly.md) condition with an action in the [InstallUISequence table](installuisequence-table.md), use a conditional statement based on the [Privileged property](privileged.md). Do not use a condition based on the [**AdminUser**](adminuser.md) property.
 -   When including the installation context with the installation launch conditions, use a [Custom Action Type 19](custom-action-type-19.md) in the [InstallExecuteSequence table](installexecutesequence-table.md) and make the custom action conditional upon the [Privileged property](privileged.md). Do not use an action in the [LaunchCondition table](launchcondition-table.md) with a condition based on the [AdminUser property](adminuser.md) or Privileged property.
@@ -25,7 +25,7 @@ An installer package that can be successfully deployed to standard users via [Gr
 -   If elevated privileges are required to install a Windows Installer package, the author of the package should include the [ElevationShield](elevationshield-attribute.md) attribute for the [PushButton control](pushbutton-control.md) used to start the installation. This will alert the user that clicking on the button will display the UAC dialog box requesting administrator authorization to continue the installation.
 -   Set the [**MSIDEPLOYMENTCOMPLIANT**](msideploymentcompliant.md) property to 1 to indicate to the Windows Installer that the package has been authored and tested to comply with UAC in Windows Vista. If this property is not set, the installer determines whether the package complies with UAC.
 
-Outside of [Group Policy](https://msdn.microsoft.com/0e9314f4-bdea-47b1-81a4-9b19b79ac49d), the following check for UAC compliance can be used on Windows XP.
+Outside of [Group Policy](https://msdn.microsoft.com/en-us/library/Aa374177(v=VS.85).aspx), the following check for UAC compliance can be used on Windows XP.
 
 **To check for UAC compliance outside of Group Policy**
 

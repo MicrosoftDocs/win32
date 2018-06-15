@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Sent to a window that the user is moving. By processing this message, an application can monitor the position of the drag rectangle and, if needed, change its position.
 
-A window receives this message through its [**WindowProc**](/windows/desktop/api/Winuser/nf-winuser-callwindowproca) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -36,7 +36,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**RECT**](https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8) structure with the current position of the window, in screen coordinates. To change the position of the drag rectangle, an application must change the members of this structure.
+A pointer to a [**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx) structure with the current position of the window, in screen coordinates. To change the position of the drag rectangle, an application must change the members of this structure.
 
 </dd> </dl>
 
@@ -80,7 +80,7 @@ An application should return **TRUE** if it processes this message.
 **Other Resources**
 </dt> <dt>
 
-[**RECT**](https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8)
+[**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx)
 </dt> </dl>
 
  

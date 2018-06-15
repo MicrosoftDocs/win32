@@ -17,7 +17,7 @@ The information on this page is intended to be used by programmers so that the s
 
 The System Error Codes are very broad. Each one can occur in one of many hundreds of locations in the system. Consequently the descriptions of these codes cannot be very specific. Use of these codes requires some amount of investigation and analysis. You need to note both the programmatic and the run-time context in which these errors occur. Because these codes are defined in WinError.h for anyone to use, sometimes the codes are returned by non-system software. Sometimes the code is returned by a function deep in the stack and far removed from your code that is handling the error.
 
-The following list describes [system error codes](system-error-codes.md) (errors 500 to 999). They are returned by the [**GetLastError**](/windows/desktop/api/WinBase/) function when many functions fail. To retrieve the description text for the error in your application, use the [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) function with the **FORMAT\_MESSAGE\_FROM\_SYSTEM** flag.
+The following list describes [system error codes](system-error-codes.md) (errors 500 to 999). They are returned by the [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx) function when many functions fail. To retrieve the description text for the error in your application, use the [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) function with the **FORMAT\_MESSAGE\_FROM\_SYSTEM** flag.
 
 <dl> <dt>
 
@@ -757,7 +757,7 @@ A volume has been accessed for which a file system driver is required that has n
 
 
 
-{Unexpected Failure in [**DebugActiveProcess**](/windows/desktop/api/WinBase/)} An unexpected failure occurred while processing a **DebugActiveProcess** API request. You may choose OK to terminate the process, or Cancel to ignore the error.
+{Unexpected Failure in [**DebugActiveProcess**](https://msdn.microsoft.com/en-us/library/ms679295(v=VS.85).aspx)} An unexpected failure occurred while processing a **DebugActiveProcess** API request. You may choose OK to terminate the process, or Cancel to ignore the error.
 
 
 </dt> </dl> </dd> <dt>

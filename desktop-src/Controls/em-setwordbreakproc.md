@@ -37,7 +37,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-The address of the application-defined Wordwrap function. For more information about breaking lines, see the description of the [*EditWordBreakProc*](https://www.bing.com/search?q=*EditWordBreakProc*) callback function.
+The address of the application-defined Wordwrap function. For more information about breaking lines, see the description of the [*EditWordBreakProc*](https://msdn.microsoft.com/en-us/library/Bb761709(v=VS.85).aspx) callback function.
 
 </dd> </dl>
 
@@ -72,7 +72,7 @@ A Wordwrap function defines the point at which the system should break a line of
 **Reference**
 </dt> <dt>
 
-[*EditWordBreakProc*](https://www.bing.com/search?q=*EditWordBreakProc*)
+[*EditWordBreakProc*](https://msdn.microsoft.com/en-us/library/Bb761709(v=VS.85).aspx)
 </dt> <dt>
 
 [**EM\_FMTLINES**](em-fmtlines.md)

@@ -55,7 +55,7 @@ The [**SetWindowsHookEx**](https://www.bing.com/search?q=**SetWindowsHookEx**) f
 
 For more information, see [**SetWindowsHookEx**](https://www.bing.com/search?q=**SetWindowsHookEx**).
 
-Be aware that the **WH\_MOUSE**, **WH\_KEYBOARD**, **WH\_JOURNAL\***, **WH\_SHELL**, and low-level hooks can be called on the thread that installed the hook rather than the thread processing the hook. For these hooks, it is possible that both the 32-bit and 64-bit hooks will be called if a 32-bit hook is ahead of a 64-bit hook in the hook chain. For more information, see [Using Hooks](https://msdn.microsoft.com/windows/desktop/f0ca9e41-a9f7-435f-a601-f0959adcb514).
+Be aware that the **WH\_MOUSE**, **WH\_KEYBOARD**, **WH\_JOURNAL\***, **WH\_SHELL**, and low-level hooks can be called on the thread that installed the hook rather than the thread processing the hook. For these hooks, it is possible that both the 32-bit and 64-bit hooks will be called if a 32-bit hook is ahead of a 64-bit hook in the hook chain. For more information, see [Using Hooks](https://www.bing.com/search?q=Using+Hooks).
 
  
 

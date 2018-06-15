@@ -70,7 +70,7 @@ The address of the delay-load descriptor, if it is found; otherwise, **NULL**.
 
 <dl> <dt>
 
-[Linker Support for Delay-Loaded DLLs](https://msdn.microsoft.com/windows/desktop/b2d7e449-2809-42b1-9c90-2c0ca5e31a14)
+[Linker Support for Delay-Loaded DLLs](https://msdn.microsoft.com/en-us/library/151kt790(v=VS.71).aspx)
 </dt> </dl>
 
  

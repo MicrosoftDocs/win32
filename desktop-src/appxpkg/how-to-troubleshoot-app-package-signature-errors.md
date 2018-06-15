@@ -25,7 +25,7 @@ When you deploy a Windows Store app, Windows always attempts to validate the dig
 ### Prerequisites
 
 -   [Windows Event Log](https://msdn.microsoft.com/library/windows/desktop/aa385780) to diagnose installation failures.
--   [Certutil tasks for managing certificates](https://msdn.microsoft.com/windows/desktop/5e0f52f2-f7c8-4c74-9497-be52366df52e) for certificate store manipulation during troubleshooting
+-   [Certutil tasks for managing certificates](https://msdn.microsoft.com/en-us/library/Cc772898(v=WS.10).aspx) for certificate store manipulation during troubleshooting
 
 ## Instructions
 
@@ -69,7 +69,7 @@ To figure out the certificates that the local computer must trust, you can exami
 4.  In the **Digital Signature Details** dialog, click the **View Certificate** button.
 5.  In the **Certificate** dialog, select the **Certification Path** tab.
 
-The top certificate in the chain is the root certificate and the bottom certificate is the signing certificate. If only a single certificate is in the chain, the signing certificate is also its own root certificate. You can determine the serial number for each certificate that you then use with [Certutil](https://msdn.microsoft.com/windows/desktop/c264ccf0-ba1e-412b-9dd3-d77dd9345ad9):
+The top certificate in the chain is the root certificate and the bottom certificate is the signing certificate. If only a single certificate is in the chain, the signing certificate is also its own root certificate. You can determine the serial number for each certificate that you then use with [Certutil](https://msdn.microsoft.com/en-us/library/Cc732443(v=WS.10).aspx):
 
 **To determine the serial number for each certificate**
 
@@ -94,9 +94,9 @@ To be able to deploy an app package, it must not only be trusted in the user’s
     CertUtil.exe -store TrustedPeople signingCertSerialNumber
     ```
 
-If you don't specify the certificate serial number, [Certutil](https://msdn.microsoft.com/windows/desktop/c264ccf0-ba1e-412b-9dd3-d77dd9345ad9) lists all certificates that are trusted by the local computer for that store.
+If you don't specify the certificate serial number, [Certutil](https://msdn.microsoft.com/en-us/library/Cc732443(v=WS.10).aspx) lists all certificates that are trusted by the local computer for that store.
 
-The package may fail to install due to certificate chaining errors, even if the signing certificate is not self-signed and the root certificate is in the root store of the local computer. In this case, there might be an issue with trust for the intermediate certificate authorities. For more info about this issue, see [Working with Certificates](https://msdn.microsoft.com/windows/desktop/6ffb8682-8f07-4a45-afbb-8d2487e9dbc3).
+The package may fail to install due to certificate chaining errors, even if the signing certificate is not self-signed and the root certificate is in the root store of the local computer. In this case, there might be an issue with trust for the intermediate certificate authorities. For more info about this issue, see [Working with Certificates](https://msdn.microsoft.com/en-us/library/ms731899(v=VS.85).aspx).
 
 ## Remarks
 
@@ -157,7 +157,7 @@ By adding a certificate to [local machine certificate stores](https://msdn.micro
 [Troubleshooting packaging, deployment, and query of Windows Store apps](troubleshooting.md)
 </dt> <dt>
 
-[Certutil tasks for managing certificates](https://msdn.microsoft.com/windows/desktop/5e0f52f2-f7c8-4c74-9497-be52366df52e)
+[Certutil tasks for managing certificates](https://msdn.microsoft.com/en-us/library/Cc772898(v=WS.10).aspx)
 </dt> </dl>
 
  

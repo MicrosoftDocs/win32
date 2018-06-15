@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Using CUnknown
 
-DirectShow implements [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) in a base class called [**CUnknown**](cunknown.md). You can use **CUnknown** to derive other classes, overriding only the methods that change across components. Most of the other base classes in DirectShow derive from **CUnknown**, so your component can inherit directly from **CUnknown** or from another base class.
+DirectShow implements [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) in a base class called [**CUnknown**](cunknown.md). You can use **CUnknown** to derive other classes, overriding only the methods that change across components. Most of the other base classes in DirectShow derive from **CUnknown**, so your component can inherit directly from **CUnknown** or from another base class.
 
 ## INonDelegatingUnknown
 
@@ -37,7 +37,7 @@ The utility function [**GetInterface**](getinterface.md) (see [**COM Helper Func
 
 ## IUnknown
 
-As mentioned earlier, the delegating version of [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) is the same for every component, because it does nothing more than invoke the correct instance of the nondelegating version. For convenience, the header file Combase.h contains a macro, [**DECLARE\_IUNKNOWN**](declare-iunknown.md), which declares the three delegating methods as inline methods. It expands to the following code:
+As mentioned earlier, the delegating version of [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) is the same for every component, because it does nothing more than invoke the correct instance of the nondelegating version. For convenience, the header file Combase.h contains a macro, [**DECLARE\_IUNKNOWN**](declare-iunknown.md), which declares the three delegating methods as inline methods. It expands to the following code:
 
 
 ```C++
@@ -54,7 +54,7 @@ STDMETHODIMP_(ULONG) Release() {
 
 
 
-The utility function [**CUnknown::GetOwner**](cunknown-getowner.md) retrieves a pointer to the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface of the component that owns this component. For an aggregated component, the owner is the outer component. Otherwise, the component owns itself. Include the DECLARE\_IUNKNOWN macro in the public section of your class definition.
+The utility function [**CUnknown::GetOwner**](cunknown-getowner.md) retrieves a pointer to the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface of the component that owns this component. For an aggregated component, the owner is the outer component. Otherwise, the component owns itself. Include the DECLARE\_IUNKNOWN macro in the public section of your class definition.
 
 ## Class Constructor
 
@@ -74,12 +74,12 @@ CMyComponent(TCHAR *tszName, LPUNKNOWN pUnk, HRESULT *phr)
 The method takes the following parameters, which it passes directly to the [**CUnknown**](cunknown.md) constructor method.
 
 -   *tszName* specifies a name for the component.
--   *pUnk* is a pointer to the aggregating [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332).
+-   *pUnk* is a pointer to the aggregating [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx).
 -   *pHr* is a pointer to an HRESULT value, indicating the success or failure of the method.
 
 ## Summary
 
-The following example shows a derived class that supports [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) and a hypothetical interface named ISomeInterface:
+The following example shows a derived class that supports [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) and a hypothetical interface named ISomeInterface:
 
 
 ```C++
@@ -112,10 +112,10 @@ public:
 
 This example illustrates the following points:
 
--   The [**CUnknown**](cunknown.md) class implements the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. The new component inherits from **CUnknown** and from any interfaces that the component supports. The component could derive instead from another base class that inherits from **CUnknown**.
--   The [**DECLARE\_IUNKNOWN**](declare-iunknown.md) macro declares the delegating [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) methods as inline methods.
+-   The [**CUnknown**](cunknown.md) class implements the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. The new component inherits from **CUnknown** and from any interfaces that the component supports. The component could derive instead from another base class that inherits from **CUnknown**.
+-   The [**DECLARE\_IUNKNOWN**](declare-iunknown.md) macro declares the delegating [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) methods as inline methods.
 -   The [**CUnknown**](cunknown.md) class provides the implementation for [**INonDelegatingUnknown**](inondelegatingunknown.md).
--   To support an interface other than [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332), the derived class must override the [**NonDelegatingQueryInterface**](cunknown-nondelegatingqueryinterface.md) method and test for the IID of the new interface.
+-   To support an interface other than [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx), the derived class must override the [**NonDelegatingQueryInterface**](cunknown-nondelegatingqueryinterface.md) method and test for the IID of the new interface.
 -   The class constructor invokes the constructor method for [**CUnknown**](cunknown.md).
 
 The next step in writing a filter is to enable an application to create new instances of the component. This requires an understanding of DLLs and their relation to class factories and class constructor methods. For more information, see [How to Create a DirectShow Filter DLL](how-to-create-a-dll.md).

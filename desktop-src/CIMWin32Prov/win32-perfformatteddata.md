@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_PerfFormattedData class
 
-An abstract base class for the preinstalled, calculated data classes. An example of such a class is [**Win32\_PerfFormattedData\_PerfDisk\_LogicalDisk**](https://www.bing.com/search?q=**Win32\_PerfFormattedData\_PerfDisk\_LogicalDisk**). These classes contain calculated values provided by the high-performance [Formatted Performance Data Provider](https://msdn.microsoft.com/59823f7c-3046-4608-99df-1f43e2934e7e).
+An abstract base class for the preinstalled, calculated data classes. An example of such a class is [**Win32\_PerfFormattedData\_PerfDisk\_LogicalDisk**](https://www.bing.com/search?q=**Win32\_PerfFormattedData\_PerfDisk\_LogicalDisk**). These classes contain calculated values provided by the high-performance [Formatted Performance Data Provider](https://msdn.microsoft.com/en-us/library/Aa390431(v=VS.85).aspx).
 
 The following syntax is simplified from MOF code and shows all of the inherited properties.
 
@@ -60,7 +60,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64)
 </dt> </dl>
 
 Short textual description for the statistic or metric.
@@ -144,7 +144,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256)
 </dt> </dl>
 
 Label by which the statistic or metric is known. When subclassed, this property can be overridden to be a key property.
@@ -232,13 +232,13 @@ The **Win32\_PerfFormattedData** class is derived from [**Win32\_Perf**](win32-p
 [Performance Counter Classes](performance-counter-classes.md)
 </dt> <dt>
 
-[Accessing WMI Preinstalled Performance Classes](https://msdn.microsoft.com/2158385f-d0dc-4102-84db-ce02d2b0ee53)
+[Accessing WMI Preinstalled Performance Classes](https://msdn.microsoft.com/en-us/library/Aa384740(v=VS.85).aspx)
 </dt> <dt>
 
-[WMI Tasks: Performance Monitoring](https://msdn.microsoft.com/4c88de96-992e-4d34-ba93-35d2b6e73c1d)
+[WMI Tasks: Performance Monitoring](https://msdn.microsoft.com/en-us/library/Aa394597(v=VS.85).aspx)
 </dt> <dt>
 
-[Accessing Performance Data in Script](https://msdn.microsoft.com/79e47173-c8b6-452d-9400-93e2bd6e9da5)
+[Accessing Performance Data in Script](https://msdn.microsoft.com/en-us/library/Aa384728(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 <dl> <dt>
 
-<span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>[**Description**](https://msdn.microsoft.com/windows/desktop/b9a1dcb1-9e8a-49a0-8dd5-388c929645c3)
+<span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>[**Description**](https://msdn.microsoft.com/en-us/library/Dd757024(v=VS.85).aspx)
 </dt> <dd>
 
 Sets the active client or character.

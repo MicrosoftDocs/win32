@@ -66,7 +66,7 @@ void _tmain( int argc, TCHAR *argv[] )
 
 If [**CreateProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-createprocessa) succeeds, it returns a [**PROCESS\_INFORMATION**](/windows/desktop/api/WinBase/ns-processthreadsapi-_process_information) structure containing handles and identifiers for the new process and its primary thread. The thread and process handles are created with full access rights, although access can be restricted if you specify security descriptors. When you no longer need these handles, close them by using the [**CloseHandle**](https://msdn.microsoft.com/library/windows/desktop/ms724211) function.
 
-You can also create a process using the [**CreateProcessAsUser**](https://www.bing.com/search?q=**CreateProcessAsUser**) or [**CreateProcessWithLogonW**](/windows/desktop/api/WinBase/nf-winbase-createprocesswithlogonw) function. This allows you to specify the security context of the user account in which the process will execute.
+You can also create a process using the [**CreateProcessAsUser**](https://msdn.microsoft.com/en-us/library/ms682429(v=VS.85).aspx) or [**CreateProcessWithLogonW**](/windows/desktop/api/WinBase/nf-winbase-createprocesswithlogonw) function. This allows you to specify the security context of the user account in which the process will execute.
 
  
 

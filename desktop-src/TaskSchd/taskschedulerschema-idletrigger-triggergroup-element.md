@@ -68,7 +68,7 @@ The **IdleTrigger** element is defined by the [**triggerGroup**](taskschedulersc
 
 For scripting development, an idle trigger is specified using the [**IdleTrigger**](idletrigger.md) object.
 
-For C++ development, an idle trigger is specified using the [**IIdleTrigger**](/windows/desktop/api/taskschd/) interface.
+For C++ development, an idle trigger is specified using the [**IIdleTrigger**](https://msdn.microsoft.com/en-us/library/Aa380724(v=VS.85).aspx) interface.
 
 The child elements listed above are defined by the [**triggerBaseType**](taskschedulerschema-triggerbasetype-complextype.md) complex element types. These elements must be added in the sequence shown below.
 

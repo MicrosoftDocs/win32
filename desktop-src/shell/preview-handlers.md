@@ -25,17 +25,17 @@ This topic discusses the following topics:
 
 ## Preview Handler Architecture
 
-A preview handler is a hosted application. Hosts include the Windows Explorer in Windows Vista or Microsoft Outlook 2007. Hosts implement [**IPreviewHandlerFrame**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ipreviewhandlerframe) as a method of communication between the preview handler and the host.
+A preview handler is a hosted application. Hosts include the Windows Explorer in Windows Vista or Microsoft Outlook 2007. Hosts implement [**IPreviewHandlerFrame**](https://msdn.microsoft.com/en-us/library/Bb775309(v=VS.85).aspx) as a method of communication between the preview handler and the host.
 
 The preview handler itself implements these interfaces:
 
 -   [**IInitializeWithStream**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream)
--   [**IObjectWithSite**](https://msdn.microsoft.com/e688136e-e06b-46ba-bec9-b8db2f9c468d)
--   [**IOleWindow**](https://msdn.microsoft.com/2d0efbae-4a1c-43b1-9021-8d89377f7282)
--   [**IPreviewHandler**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ipreviewhandler)
--   [**IPreviewHandlerVisuals**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ipreviewhandlervisuals) (Optional)
+-   [**IObjectWithSite**](https://msdn.microsoft.com/en-us/library/ms693765(v=VS.85).aspx)
+-   [**IOleWindow**](https://msdn.microsoft.com/en-us/library/ms680102(v=VS.85).aspx)
+-   [**IPreviewHandler**](https://msdn.microsoft.com/en-us/library/Bb775315(v=VS.85).aspx)
+-   [**IPreviewHandlerVisuals**](https://msdn.microsoft.com/en-us/library/Bb775299(v=VS.85).aspx) (Optional)
 
-Your handler is called through its [**IObjectWithSite**](https://msdn.microsoft.com/e688136e-e06b-46ba-bec9-b8db2f9c468d), which returns an [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) pointer through which you request an [**IPreviewHandlerFrame**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ipreviewhandlerframe) object to interact with the host.
+Your handler is called through its [**IObjectWithSite**](https://msdn.microsoft.com/en-us/library/ms693765(v=VS.85).aspx), which returns an [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) pointer through which you request an [**IPreviewHandlerFrame**](https://msdn.microsoft.com/en-us/library/Bb775309(v=VS.85).aspx) object to interact with the host.
 
 ## Server Model Options
 

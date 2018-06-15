@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Erasing by Using the Pen
 
-If you choose to implement erasing in your application other than by using the [**InkOverlay**](/windows/desktop/api/msinkaut/) object, you can do so by using one of the following two methods.
+If you choose to implement erasing in your application other than by using the [**InkOverlay**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx) object, you can do so by using one of the following two methods.
 
 ## Using the Tip of the Pen
 

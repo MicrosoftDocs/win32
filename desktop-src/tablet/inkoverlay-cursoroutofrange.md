@@ -62,7 +62,7 @@ The [**CursorOutOfRange**](inkcollector-cursoroutofrange.md) event is fired even
 
 <dl> <dt>
 
-[**InkOverlay Class**](/windows/desktop/api/msinkaut/)
+[**InkOverlay Class**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx)
 </dt> <dt>
 
 [**CursorInRange Event**](inkcollector-cursorinrange.md)

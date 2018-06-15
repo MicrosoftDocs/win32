@@ -49,7 +49,7 @@ If write-through mode is not enabled, the system enhances the efficiency of netw
 
 The [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) function allows the pipe client to set write-through mode (FILE\_FLAG\_WRITE\_THROUGH) for its pipe handles using the *dwFlagsAndAttributes* parameter. The write-through mode of a pipe handle cannot be changed after the pipe handle has been created. The write-through mode can be different for server and client handles to the same pipe instance.
 
-A pipe client can use the [**SetNamedPipeHandleState**](/windows/desktop/api/Winbase/) function to control the number of bytes and the time-out period before transmission for a pipe on which write-through mode is disabled. For a read-only pipe, the pipe handle must be opened with the GENERIC\_READ and FILE\_WRITE\_ATTRIBUTES access rights.
+A pipe client can use the [**SetNamedPipeHandleState**](https://msdn.microsoft.com/en-us/library/Aa365787(v=VS.85).aspx) function to control the number of bytes and the time-out period before transmission for a pipe on which write-through mode is disabled. For a read-only pipe, the pipe handle must be opened with the GENERIC\_READ and FILE\_WRITE\_ATTRIBUTES access rights.
 
  
 

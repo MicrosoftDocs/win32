@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Obtaining Default Digest Credentials
 
-Both clients and servers must obtain [*credentials*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) before they can establish a [*security context*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) for message exchange. The default behavior of the [**AcquireCredentialsHandle**](/windows/desktop/api/Sspi/) function is to provide credentials for the security principal associated with the current logon [*session*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50).
+Both clients and servers must obtain [*credentials*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) before they can establish a [*security context*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) for message exchange. The default behavior of the [**AcquireCredentialsHandle**](https://msdn.microsoft.com/en-us/library/Aa374712(v=VS.85).aspx) function is to provide credentials for the security principal associated with the current logon [*session*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx).
 
 The following example demonstrates a server-side call to obtain the default credentials.
 

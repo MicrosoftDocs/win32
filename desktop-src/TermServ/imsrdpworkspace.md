@@ -30,7 +30,7 @@ Exposes methods that manage RemoteApp and Desktop Connection credentials and con
 
 ## Members
 
-The **IMsRdpWorkspace** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IMsRdpWorkspace** also has these types of members:
+The **IMsRdpWorkspace** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IMsRdpWorkspace** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -42,12 +42,12 @@ The **IMsRdpWorkspace** interface has these methods.
 
 | Method                                                                                   | Description                                                                                                                                                           |
 |:-----------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ClearWorkspaceCredential**](/windows/desktop/api/workspaceruntime/)             | Deletes the user credentials associated with the specified connection ID.<br/>                                                                                  |
-| [**DisconnectWorkspace**](/windows/desktop/api/workspaceruntime/)                       | Disconnects all existing connections associated with the specified connection ID and deletes the corresponding user credentials from the credential store.<br/> |
-| [**IsWorkspaceCredentialSpecified**](/windows/desktop/api/workspaceruntime/) | Determines whether user credentials exist for the specified connection ID.<br/>                                                                                 |
-| [**IsWorkspaceSSOEnabled**](/windows/desktop/api/workspaceruntime/)                   | Determines whether single sign on (SSO) is enabled for RemoteApp and Desktop Connection.<br/>                                                                   |
-| [**OnAuthenticated**](/windows/desktop/api/workspaceruntime/)                               | Marks the authentication of user credentials for the connection ID, and subsequently shows the connect notification in the taskbar notification area. <br/>     |
-| [**StartWorkspace**](/windows/desktop/api/workspaceruntime/)                                 | Associates user credentials and certificates with a connection ID.<br/>                                                                                         |
+| [**ClearWorkspaceCredential**](https://msdn.microsoft.com/en-us/library/Ee351596(v=VS.85).aspx)             | Deletes the user credentials associated with the specified connection ID.<br/>                                                                                  |
+| [**DisconnectWorkspace**](https://msdn.microsoft.com/en-us/library/Ee351597(v=VS.85).aspx)                       | Disconnects all existing connections associated with the specified connection ID and deletes the corresponding user credentials from the credential store.<br/> |
+| [**IsWorkspaceCredentialSpecified**](https://msdn.microsoft.com/en-us/library/Ee351598(v=VS.85).aspx) | Determines whether user credentials exist for the specified connection ID.<br/>                                                                                 |
+| [**IsWorkspaceSSOEnabled**](https://msdn.microsoft.com/en-us/library/Ee351599(v=VS.85).aspx)                   | Determines whether single sign on (SSO) is enabled for RemoteApp and Desktop Connection.<br/>                                                                   |
+| [**OnAuthenticated**](https://msdn.microsoft.com/en-us/library/Ee351600(v=VS.85).aspx)                               | Marks the authentication of user credentials for the connection ID, and subsequently shows the connect notification in the taskbar notification area. <br/>     |
+| [**StartWorkspace**](https://msdn.microsoft.com/en-us/library/Ee351601(v=VS.85).aspx)                                 | Associates user credentials and certificates with a connection ID.<br/>                                                                                         |
 
 
 

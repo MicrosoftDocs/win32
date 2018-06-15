@@ -57,7 +57,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 When this method is implemented by an image processing filter, the Windows Image Acquisition (WIA) 2.0 minidriver calls it during image acquisition to send progress messages back to the application.
 
-A filter's **IWiaTransferCallback::TransferCallback** must delegate to the application callback's **IWiaTransferCallback::TransferCallback** method. Usually, the filter stream filters the data passed to it and writes the filtered data directly to the application provided stream. When image processing filter stores data between calls to its [IStream::Write](https://msdn.microsoft.com/f0323dda-6c31-4411-bf20-9650162109c0) method, it must also modify the *lPercentComplete* and *ulBytesWrittenToCurrentStream* values in the [**WiaTransferParams**](-wia-wiatransferparams.md) structure.
+A filter's **IWiaTransferCallback::TransferCallback** must delegate to the application callback's **IWiaTransferCallback::TransferCallback** method. Usually, the filter stream filters the data passed to it and writes the filtered data directly to the application provided stream. When image processing filter stores data between calls to its [IStream::Write](https://msdn.microsoft.com/en-us/library/Aa380014(v=VS.85).aspx) method, it must also modify the *lPercentComplete* and *ulBytesWrittenToCurrentStream* values in the [**WiaTransferParams**](-wia-wiatransferparams.md) structure.
 
 ## Requirements
 

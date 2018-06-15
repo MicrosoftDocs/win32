@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The following constants are used by applications or UI frameworks to identify how UI feedback is processed when one of the listed gestures is detected.
 
-These constants are used with the **SPI\_GETGESTUREVISUALIZATION** and **SPI\_SETGESTUREVISUALIZATION** parameters and the [**SystemParametersInfo**](/windows/desktop/api/Winuser/nf-winuser-systemparametersinfoa) function.
+These constants are used with the **SPI\_GETGESTUREVISUALIZATION** and **SPI\_SETGESTUREVISUALIZATION** parameters and the [**SystemParametersInfo**](https://msdn.microsoft.com/en-us/library/ms724947(v=VS.85).aspx) function.
 
 **Note**  
 
@@ -134,7 +134,7 @@ Specifies UI feedback for a right tap.
 [**Contact Visualization**](contact-visualization.md)
 </dt> <dt>
 
-[**SystemParametersInfo**](/windows/desktop/api/Winuser/nf-winuser-systemparametersinfoa)
+[**SystemParametersInfo**](https://msdn.microsoft.com/en-us/library/ms724947(v=VS.85).aspx)
 </dt> <dt>
 
 [Input Feedback Configuration](https://msdn.microsoft.com/library/windows/desktop/hh707352)

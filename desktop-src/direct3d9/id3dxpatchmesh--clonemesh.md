@@ -33,9 +33,9 @@ HRESULT CloneMesh(
 *Options* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
-Combination of one or more [**D3DXMESH**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmesh.htm) flags that specify creation options for the mesh.
+Combination of one or more [**D3DXMESH**](https://msdn.microsoft.com/en-us/library/Bb205370(v=VS.85).aspx) flags that specify creation options for the mesh.
 
 </dd> <dt>
 
@@ -59,7 +59,7 @@ Address of a pointer to an [**ID3DXPatchMesh**](id3dxpatchmesh.md) interface tha
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

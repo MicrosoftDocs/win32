@@ -95,7 +95,7 @@ Another way to assign pages to a property sheet is to specify an array of [**PRO
 
 When a page is created, its dialog box procedure receives a [**WM\_INITDIALOG**](https://msdn.microsoft.com/library/windows/desktop/ms645428) message. The message's *lParam* parameter is a pointer to a copy of the [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-_propsheetpagea_v2) structure that is defined when the page is created. In particular, when a page is created, the structure's **lParam** member can be used to pass application-defined information to the dialog box procedure. With the exception of the **lParam** member, this structure must be treated as read-only. Modifying anything other than **lParam** will have unpredictable consequences.
 
-When the system subsequently passes a copy of the page's [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-_propsheetpagea_v2) structure to your application, it uses the same pointer. Any changes to the structure will be passed along. Because the **lParam** member is ignored by the system, it can be modified to send information to other parts of your application. You can, for instance, use **lParam** to pass information to the page's [*PropSheetPageProc*](/windows/desktop/api/Prsht/nc-prsht-lpfnpspcallbacka) callback function.
+When the system subsequently passes a copy of the page's [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-_propsheetpagea_v2) structure to your application, it uses the same pointer. Any changes to the structure will be passed along. Because the **lParam** member is ignored by the system, it can be modified to send information to other parts of your application. You can, for instance, use **lParam** to pass information to the page's [*PropSheetPageProc*](https://msdn.microsoft.com/en-us/library/Bb760813(v=VS.85).aspx) callback function.
 
 [**PropertySheet**](/windows/desktop/api/Prsht/nf-prsht-propertysheeta) automatically sets the size and initial position of a property sheet. The position is based on the position of the owner window, and the size is based on the largest page specified in the array of pages when the property sheet was created. If you want the pages to match the width of the four buttons at the bottom of the property sheet, set the width of the widest page to 190 dialog units.
 
@@ -108,10 +108,10 @@ The size of a property sheet is computed from the *width* and *height* propertie
 
 After creating a property sheet, an application can add a page to the end of the existing set of pages by sending a [**PSM\_ADDPAGE**](psm-addpage.md) message. To insert a page between existing pages, send a [**PropSheet\_InsertPage**](/windows/desktop/api/Prsht/nf-prsht-propsheet_insertpage) message. Note that the size of the property sheet cannot change after it has been created. Any added or inserted pages must be no larger than the largest page currently in the property sheet. To remove a page, send a [**PSM\_REMOVEPAGE**](psm-removepage.md) message.
 
-When you define a page, you can specify the address of a [*PropSheetPageProc*](/windows/desktop/api/Prsht/nc-prsht-lpfnpspcallbacka) callback function that the property sheet calls when it is creating or removing the page. Using *PropSheetPageProc* gives you an opportunity to perform initialization and cleanup operations for individual pages.
+When you define a page, you can specify the address of a [*PropSheetPageProc*](https://msdn.microsoft.com/en-us/library/Bb760813(v=VS.85).aspx) callback function that the property sheet calls when it is creating or removing the page. Using *PropSheetPageProc* gives you an opportunity to perform initialization and cleanup operations for individual pages.
 
 > [!Note]  
-> A number of messages and one function call occur while the property sheet is manipulating the list of pages. While this action is taking place, attempting to modify the list of pages will have unpredictable results. Do not add, insert, or remove pages in your implementation of [*PropSheetPageProc*](/windows/desktop/api/Prsht/nc-prsht-lpfnpspcallbacka), or while handling the following notifications and Windows messages.
+> A number of messages and one function call occur while the property sheet is manipulating the list of pages. While this action is taking place, attempting to modify the list of pages will have unpredictable results. Do not add, insert, or remove pages in your implementation of [*PropSheetPageProc*](https://msdn.microsoft.com/en-us/library/Bb760813(v=VS.85).aspx), or while handling the following notifications and Windows messages.
 >
 > -   [PSN\_APPLY](psn-apply.md)
 > -   [PSN\_KILLACTIVE](psn-killactive.md)
@@ -124,7 +124,7 @@ When you define a page, you can specify the address of a [*PropSheetPageProc*](/
 
  
 
-If the need arises to modify a property sheet page while you are handling one of these messages or while [*PropSheetPageProc*](/windows/desktop/api/Prsht/nc-prsht-lpfnpspcallbacka) is in operation, post a private Windows message. Your application will not receive that message until after the property sheet manager has finished its tasks, at which point it will be safe to modify the list of pages.
+If the need arises to modify a property sheet page while you are handling one of these messages or while [*PropSheetPageProc*](https://msdn.microsoft.com/en-us/library/Bb760813(v=VS.85).aspx) is in operation, post a private Windows message. Your application will not receive that message until after the property sheet manager has finished its tasks, at which point it will be safe to modify the list of pages.
 
 When a property sheet is destroyed, it automatically destroys all of the pages that have been added to it. The pages are destroyed in reverse order from that specified in the array used to create the pages. To destroy a page that was created by the [**CreatePropertySheetPage**](/windows/desktop/api/Prsht/nf-prsht-createpropertysheetpagea) function but was not added to the property sheet, use the [**DestroyPropertySheetPage**](/windows/desktop/api/Prsht/nf-prsht-destroypropertysheetpage) function.
 

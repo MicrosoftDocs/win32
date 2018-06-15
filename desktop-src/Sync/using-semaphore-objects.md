@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Using Semaphore Objects
 
-The following example uses a [semaphore object](semaphore-objects.md) to limit the number of threads that can perform a particular task. First, it uses the [**CreateSemaphore**](/windows/desktop/api/WinBase/nf-winbase-createsemaphorea) function to create the semaphore and to specify initial and maximum counts, then it uses the [**CreateThread**](https://msdn.microsoft.com/202a4b42-513a-45de-894a-72e56c706a58) function to create the threads.
+The following example uses a [semaphore object](semaphore-objects.md) to limit the number of threads that can perform a particular task. First, it uses the [**CreateSemaphore**](/windows/desktop/api/WinBase/nf-winbase-createsemaphorea) function to create the semaphore and to specify initial and maximum counts, then it uses the [**CreateThread**](https://msdn.microsoft.com/en-us/library/ms682453(v=VS.85).aspx) function to create the threads.
 
 Before a thread attempts to perform the task, it uses the [**WaitForSingleObject**](/windows/desktop/api/WinBase/nf-synchapi-waitforsingleobject) function to determine whether the semaphore's current count permits it to do so. The wait function's time-out parameter is set to zero, so the function returns immediately if the semaphore is in the nonsignaled state. **WaitForSingleObject** decrements the semaphore's count by one.
 

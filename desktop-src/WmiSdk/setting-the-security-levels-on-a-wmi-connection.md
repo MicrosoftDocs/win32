@@ -34,9 +34,9 @@ The following procedure describes how to set the security levels on a WMI connec
 
 **To set the security levels on a WMI connection**
 
--   Set the security levels on the [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) proxy with a call to [**CoSetProxyBlanket**](https://msdn.microsoft.com/windows/desktop/c2e5e681-8fa5-4b02-b59d-ba796eb0dccf).
+-   Set the security levels on the [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) proxy with a call to [**CoSetProxyBlanket**](https://msdn.microsoft.com/en-us/library/ms692692(v=VS.85).aspx).
 
-    The following code example describes a common way of calling [**CoSetProxyBlanket**](https://msdn.microsoft.com/windows/desktop/c2e5e681-8fa5-4b02-b59d-ba796eb0dccf).
+    The following code example describes a common way of calling [**CoSetProxyBlanket**](https://msdn.microsoft.com/en-us/library/ms692692(v=VS.85).aspx).
 
     ```C++
         HRESULT hres;

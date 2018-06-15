@@ -34,7 +34,7 @@ Use the [**MCI\_SET**](mci-set.md) command message along with the [**MCI\_SET\_P
 
  
 
-The following example sets the time format to milliseconds on the device specified by the wDeviceID variable using the [**mciSendCommand**](/windows/desktop/api/Mmsystem/) function.
+The following example sets the time format to milliseconds on the device specified by the wDeviceID variable using the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function.
 
 
 ```C++

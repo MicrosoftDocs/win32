@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # ISCardVerify::ResetSecurityState method
 
-\[The **ResetSecurityState** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **ResetSecurityState** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **ResetSecurityState** method resets the current [*security context*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) of the [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50).
+The **ResetSecurityState** method resets the current [*security context*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) of the [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx).
 
 ## Syntax
 
@@ -45,7 +45,7 @@ The method returns one of the following possible values:
 
 ## Remarks
 
-To re-enable the [*security context*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) without resetting, call [**Unblock**](/windows/desktop/api/mbnapi/).
+To re-enable the [*security context*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) without resetting, call [**Unblock**](https://msdn.microsoft.com/en-us/library/Aa377269(v=VS.85).aspx).
 
 For a list of all the methods defined by this interface, see [**ISCardVerify**](iscardverify.md).
 
@@ -71,7 +71,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 [**ISCardVerify**](iscardverify.md)
 </dt> <dt>
 
-[**Unblock**](/windows/desktop/api/mbnapi/)
+[**Unblock**](https://msdn.microsoft.com/en-us/library/Aa377269(v=VS.85).aspx)
 </dt> </dl>
 
  

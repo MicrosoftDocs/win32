@@ -11,17 +11,17 @@ ms.date: 05/31/2018
 
 # ISecurityInformation Methods
 
-The [**ISecurityInformation**](/windows/desktop/api/Aclui/) interface exposes the following methods.
+The [**ISecurityInformation**](https://msdn.microsoft.com/en-us/library/Aa378900(v=VS.85).aspx) interface exposes the following methods.
 
 ## In this section
 
--   [**GetAccessRights Method**](/windows/desktop/api/Aclui/)
--   [**GetInheritTypes Method**](/windows/desktop/api/Aclui/)
--   [**GetObjectInformation Method**](/windows/desktop/api/Aclui/)
--   [**GetSecurity Method**](/windows/desktop/api/Aclui/)
--   [**MapGeneric Method**](/windows/desktop/api/Aclui/)
--   [**PropertySheetPageCallback Method**](/windows/desktop/api/Aclui/)
--   [**SetSecurity Method**](/windows/desktop/api/Aclui/)
+-   [**GetAccessRights Method**](https://msdn.microsoft.com/en-us/library/Aa379092(v=VS.85).aspx)
+-   [**GetInheritTypes Method**](https://msdn.microsoft.com/en-us/library/Aa379097(v=VS.85).aspx)
+-   [**GetObjectInformation Method**](https://msdn.microsoft.com/en-us/library/Aa379102(v=VS.85).aspx)
+-   [**GetSecurity Method**](https://msdn.microsoft.com/en-us/library/Aa379105(v=VS.85).aspx)
+-   [**MapGeneric Method**](https://msdn.microsoft.com/en-us/library/Aa379113(v=VS.85).aspx)
+-   [**PropertySheetPageCallback Method**](https://msdn.microsoft.com/en-us/library/Aa379116(v=VS.85).aspx)
+-   [**SetSecurity Method**](https://msdn.microsoft.com/en-us/library/Aa379122(v=VS.85).aspx)
 
  
 

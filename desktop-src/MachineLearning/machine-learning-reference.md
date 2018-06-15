@@ -19,9 +19,9 @@ The following topics describe the COM reference pages for the Windows Machine Le
 
 | Topic                                                                                             | Description                                                                                         |
 |---------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| [Windows Machine Learning Enumerations](https://msdn.microsoft.com/7B98720D-89CF-4336-AEEA-80399999E47F)<br/> | The following topics describe the COM enumerations for the Windows Machine Learning SDK.<br/> |
-| [Windows Machine Learning Interfaces](https://msdn.microsoft.com/6DCB9175-4F55-4706-88F0-B2293050CD85)<br/>     | The following topics describe the COM interfaces for the Windows Machine Learning SDK.<br/>   |
-| [Windows Machine Learning Structures](https://msdn.microsoft.com/5FFE3D52-2643-4FB4-B7BC-B6C5661D675F)<br/>     | The following topics describe the COM structures for the Windows Machine Learning SDK.<br/>   |
+| [Windows Machine Learning Enumerations](https://msdn.microsoft.com/en-us/library/Mt845846(v=VS.85).aspx)<br/> | The following topics describe the COM enumerations for the Windows Machine Learning SDK.<br/> |
+| [Windows Machine Learning Interfaces](https://msdn.microsoft.com/en-us/library/Mt845847(v=VS.85).aspx)<br/>     | The following topics describe the COM interfaces for the Windows Machine Learning SDK.<br/>   |
+| [Windows Machine Learning Structures](https://msdn.microsoft.com/en-us/library/Mt845850(v=VS.85).aspx)<br/>     | The following topics describe the COM structures for the Windows Machine Learning SDK.<br/>   |
 
 
 

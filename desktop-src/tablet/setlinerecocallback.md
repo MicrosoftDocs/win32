@@ -34,14 +34,14 @@ HRESULT WINAPI SetLineRecoCallback(
 *hDivider* \[in\]
 </dt> <dd>
 
-A handle to the [**InkDivider**](/windows/desktop/api/msinkaut15/) object.
+A handle to the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object.
 
 </dd> <dt>
 
 *pfn* 
 </dt> <dd>
 
-A pointer to a function that is called when recognition occurs on the [**InkDivider**](/windows/desktop/api/msinkaut15/) passed in.
+A pointer to a function that is called when recognition occurs on the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) passed in.
 
 </dd> </dl>
 

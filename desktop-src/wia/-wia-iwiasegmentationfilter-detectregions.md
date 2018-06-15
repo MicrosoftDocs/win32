@@ -42,9 +42,9 @@ Currently unused. Should be set to zero.
 *pInputStream* \[in\]
 </dt> <dd>
 
-Type: **[IStream](https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531)\***
+Type: **[IStream](https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx)\***
 
-Specifies a pointer to the [IStream](https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531) preview image.
+Specifies a pointer to the [IStream](https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx) preview image.
 
 </dd> <dt>
 
@@ -78,7 +78,7 @@ If the application calls **IWiaSegmentationFilter::DetectRegions** more than onc
 
 If an application changes any properties into *pWiaItem2*, between acquiring the image into *pInputStream* and its call to **IWiaSegmentationFilter::DetectRegions**, the original properties (that is, the properties the item had when the stream was acquired) must be restored. This can be done by [**GetPropertyStream**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getpropertystream) and [**SetPropertyStream**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-setpropertystream).
 
-The application must reset the [IStream](https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531) if its call passes the same stream into the segmentation filter more than once. The application must also reset the stream after the initial download and before calling **IWiaSegmentationFilter::DetectRegions**.
+The application must reset the [IStream](https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx) if its call passes the same stream into the segmentation filter more than once. The application must also reset the stream after the initial download and before calling **IWiaSegmentationFilter::DetectRegions**.
 
 ## Examples
 

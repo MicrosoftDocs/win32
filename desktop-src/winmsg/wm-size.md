@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Sent to a window after its size has changed.
 
-A window receives this message through its [**WindowProc**](/windows/desktop/api/Winuser/nf-winuser-callwindowproca) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -64,7 +64,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-If the [**SetScrollPos**](https://msdn.microsoft.com/windows/desktop/068d874d-ea9e-4953-93b3-9e90141d4e50) or [**MoveWindow**](/windows/desktop/api/Winuser/nf-winuser-movewindow) function is called for a child window as a result of the **WM\_SIZE** message, the *bRedraw* or *bRepaint* parameter should be nonzero to cause the window to be repainted.
+If the [**SetScrollPos**](https://www.bing.com/search?q=**SetScrollPos**) or [**MoveWindow**](https://msdn.microsoft.com/en-us/library/ms633534(v=VS.85).aspx) function is called for a child window as a result of the **WM\_SIZE** message, the *bRedraw* or *bRepaint* parameter should be nonzero to cause the window to be repainted.
 
 Although the width and height of a window are 32-bit values, the *lParam* parameter contains only the low-order 16 bits of each.
 
@@ -87,13 +87,13 @@ Although the width and height of a window are 32-bit values, the *lParam* parame
 **Reference**
 </dt> <dt>
 
-[**HIWORD**](/windows/desktop/api/Windef/nf-ntintsafe-hiword)
+[**HIWORD**](https://msdn.microsoft.com/en-us/library/ms632657(v=VS.85).aspx)
 </dt> <dt>
 
-[**LOWORD**](/windows/desktop/api/Windef/nf-ntintsafe-loword)
+[**LOWORD**](https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx)
 </dt> <dt>
 
-[**MoveWindow**](/windows/desktop/api/Winuser/nf-winuser-movewindow)
+[**MoveWindow**](https://msdn.microsoft.com/en-us/library/ms633534(v=VS.85).aspx)
 </dt> <dt>
 
 **Conceptual**
@@ -105,7 +105,7 @@ Although the width and height of a window are 32-bit values, the *lParam* parame
 **Other Resources**
 </dt> <dt>
 
-[**SetScrollPos**](https://msdn.microsoft.com/windows/desktop/068d874d-ea9e-4953-93b3-9e90141d4e50)
+[**SetScrollPos**](https://www.bing.com/search?q=**SetScrollPos**)
 </dt> </dl>
 
  

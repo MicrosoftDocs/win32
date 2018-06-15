@@ -19,7 +19,7 @@ The tessellator unit has been enhanced. You can now use it to:
 -   Look up per-vertex displacement values from a displacement map and pass them on to a vertex shader.
 -   Support rectangle-patch tessellation. This is specified through a vertex declaration using D3DDECLMETHOD\_PARTIALU or D3DDECLMETHOD\_PARTIALV. If a vertex declaration containing these methods is used to draw a triangle patch, [**IDirect3DDevice9::DrawTriPatch**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawtripatch) will fail. For more information about vertex declarations, see [**D3DVERTEXELEMENT9**](d3dvertexelement9.md).
 
-In DirectX 8.x, what was called ORDER was really the degree. In Direct3D 9, the degree is now specified by [**D3DDEGREETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddegreetype.htm).
+In DirectX 8.x, what was called ORDER was really the degree. In Direct3D 9, the degree is now specified by [**D3DDEGREETYPE**](https://msdn.microsoft.com/en-us/library/Bb172536(v=VS.85).aspx).
 
 
 ```

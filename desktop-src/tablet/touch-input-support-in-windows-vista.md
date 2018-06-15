@@ -17,7 +17,7 @@ Starting with Windows Vista, Tablet PC Technology has support for touch input on
 
 ### Pen and Touch Input Not Exclusive
 
-Do not assume pen and touch input are mutually exclusive in [**InkCollector**](/windows/desktop/api/msinkaut/), [**InkOverlay**](/windows/desktop/api/msinkaut/), and [**RealTimeStylus**](/windows/desktop/api/RTSCom/) applications.
+Do not assume pen and touch input are mutually exclusive in [**InkCollector**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx), [**InkOverlay**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx), and [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) applications.
 
 In Windows Vista, when the system recognizes a pen it ignores touch input. That is, the touch stroke ends and the pen stroke begins. Because this could possibly change in the future, your code should not assume pen and touch input are mutually exclusive.
 
@@ -76,7 +76,7 @@ protected override void WndProc(ref Message msg)
 
 <dl> <dt>
 
-[Windows Touch](https://msdn.microsoft.com/e4fa4615-6d12-4f21-a899-cfa2282baa6d)
+[Windows Touch](https://msdn.microsoft.com/en-us/library/Dd562197(v=VS.85).aspx)
 </dt> </dl>
 
  

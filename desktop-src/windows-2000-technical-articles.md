@@ -10,10 +10,10 @@ ms.date: 05/31/2018
 
 # Windows 2000 Technical Articles
 
--   [Windows 2000 Application Specifications](https://www.bing.com/search?q=Windows+2000+Application+Specifications)
--   [Windows 2000 Magazine](https://www.bing.com/search?q=Windows+2000+Magazine)
--   [Windows 2000 Resource Kit](https://www.bing.com/search?q=Windows+2000+Resource+Kit)
--   [Messaging and Collaboration Technical Articles](https://www.bing.com/search?q=Messaging+and+Collaboration+Technical+Articles)
+-   [Windows 2000 Application Specifications](https://msdn.microsoft.com/en-us/library/Hh546985(v=VS.85).aspx)
+-   [Windows 2000 Magazine](https://msdn.microsoft.com/en-us/library/Hh546986(v=VS.85).aspx)
+-   [Windows 2000 Resource Kit](https://msdn.microsoft.com/en-us/library/Hh546987(v=VS.85).aspx)
+-   [Messaging and Collaboration Technical Articles](https://msdn.microsoft.com/en-us/library/Hh529137(v=VS.85).aspx)
 
  
 

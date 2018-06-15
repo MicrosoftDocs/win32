@@ -25,8 +25,8 @@ Gets the size of the property value in bytes, using the property index.
 
 | Method                                                       | Description                                                                                                     |
 |:-------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------|
-| [**GetValueSize(U)**](/windows/desktop/api/D2d1_1/)     | Gets the size of the property value in bytes, using the property index. This is a template overload.<br/> |
-| [**GetValueSize(UINT32)**](/windows/desktop/api/D2d1_1/) | Gets the size of the property value in bytes, using the property index.<br/>                              |
+| [**GetValueSize(U)**](https://msdn.microsoft.com/en-us/library/JJ151748(v=VS.85).aspx)     | Gets the size of the property value in bytes, using the property index. This is a template overload.<br/> |
+| [**GetValueSize(UINT32)**](https://msdn.microsoft.com/en-us/library/Hh446882(v=VS.85).aspx) | Gets the size of the property value in bytes, using the property index.<br/>                              |
 
 
 
@@ -34,7 +34,7 @@ Gets the size of the property value in bytes, using the property index.
 
 <dl> <dt>
 
-[**ID2D1Properties**](/windows/desktop/api/D2d1_1/)
+[**ID2D1Properties**](https://msdn.microsoft.com/en-us/library/Hh446854(v=VS.85).aspx)
 </dt> </dl>
 
  

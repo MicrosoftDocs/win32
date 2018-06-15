@@ -180,13 +180,13 @@ After you understand the Search Result mode, the Browse mode, and the layout pat
 [File Types](fa-file-types.md)
 </dt> <dt>
 
-[Kind Names](https://msdn.microsoft.com/1466b4c7-49ea-417a-ac94-7b45515ccb96)
+[Kind Names](https://msdn.microsoft.com/en-us/library/Cc144136(v=VS.85).aspx)
 </dt> <dt>
 
-[System.PropList.ContentViewModeForBrowse](https://msdn.microsoft.com/30c15a29-b2cb-4273-8c07-8ef3baa7fee5)
+[System.PropList.ContentViewModeForBrowse](https://msdn.microsoft.com/en-us/library/Dd391580(v=VS.85).aspx)
 </dt> <dt>
 
-[System.PropList.ContentViewModeForSearch](https://msdn.microsoft.com/ffb07b50-a245-45a3-a79a-27426b508600)
+[System.PropList.ContentViewModeForSearch](https://msdn.microsoft.com/en-us/library/Dd391581(v=VS.85).aspx)
 </dt> </dl>
 
  

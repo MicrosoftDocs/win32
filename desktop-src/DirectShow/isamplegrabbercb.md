@@ -20,7 +20,7 @@ The `ISampleGrabberCB` interface provides callback methods for the [**ISampleGra
 
 ## Members
 
-The **ISampleGrabberCB** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **ISampleGrabberCB** also has these types of members:
+The **ISampleGrabberCB** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **ISampleGrabberCB** also has these types of members:
 
 -   [Methods](#methods)
 

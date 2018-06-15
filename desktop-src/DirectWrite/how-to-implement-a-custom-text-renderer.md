@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Render Using a Custom Text Renderer
 
-A [DirectWrite](direct-write-portal.md) [**text layout**](/windows/desktop/api/dwrite/) can be drawn by a custom text renderer derived from [**IDWriteTextRenderer**](/windows/desktop/api/dwrite/). A custom renderer is required to take advantage of some advanced features of DirectWrite, such as rendering to a bitmap or GDI surface, inline objects, and client drawing effects. This tutorial describes the methods of **IDWriteTextRenderer**, and provides an example implementation that uses [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) to render text with a bitmap fill.
+A [DirectWrite](direct-write-portal.md) [**text layout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx) can be drawn by a custom text renderer derived from [**IDWriteTextRenderer**](https://msdn.microsoft.com/en-us/library/Dd371523(v=VS.85).aspx). A custom renderer is required to take advantage of some advanced features of DirectWrite, such as rendering to a bitmap or GDI surface, inline objects, and client drawing effects. This tutorial describes the methods of **IDWriteTextRenderer**, and provides an example implementation that uses [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) to render text with a bitmap fill.
 
 This tutorial contains the following parts:
 
@@ -26,13 +26,13 @@ This tutorial contains the following parts:
 -   [The Destructor](#the-destructor)
 -   [Using the Custom Text Renderer](#using-the-custom-text-renderer)
 
-Your custom text renderer must implement the methods inherited from IUnknown in addition to the methods listed on the [**IDWriteTextRenderer**](/windows/desktop/api/dwrite/) reference page and below.
+Your custom text renderer must implement the methods inherited from IUnknown in addition to the methods listed on the [**IDWriteTextRenderer**](https://msdn.microsoft.com/en-us/library/Dd371523(v=VS.85).aspx) reference page and below.
 
 For the full source code for the custom text renderer, see the CustomTextRenderer.cpp and CustomTextRenderer.h files of the [DirectWrite Hello World Sample](http://go.microsoft.com/fwlink/?LinkID=624680).
 
 ## The Constructor
 
-Your custom text renderer will need a constructor. This example uses both solid and bitmap [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) brushes to render the text.
+Your custom text renderer will need a constructor. This example uses both solid and bitmap [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) brushes to render the text.
 
 Because of this, the constructor takes the parameters found in the table below with descriptions.
 
@@ -77,7 +77,7 @@ pFillBrush_(pFillBrush)
 
 ## DrawGlyphRun()
 
-The [**DrawGlyphRun**](/windows/desktop/api/dwrite/) method is the main callback method of the text renderer. It is passed a run of glyphs to be rendered in addition to information such as the baseline origin and measuring mode. It also passes a client drawing effect object to be applied to the glyph run. For more information, see the [How to Add Client Drawing Effects to a Text Layout](how-to-add-custom-drawing-efffects-to-a-text-layout.md) topic.
+The [**DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd371526(v=VS.85).aspx) method is the main callback method of the text renderer. It is passed a run of glyphs to be rendered in addition to information such as the baseline origin and measuring mode. It also passes a client drawing effect object to be applied to the glyph run. For more information, see the [How to Add Client Drawing Effects to a Text Layout](how-to-add-custom-drawing-efffects-to-a-text-layout.md) topic.
 
 This text renderer implementation renders glyph runs by converting them to [Direct2D](rendering-by-using-direct2d.md) geometries and then drawing and filling the geometries. This consists of the following steps.
 
@@ -102,7 +102,7 @@ This text renderer implementation renders glyph runs by converting them to [Dire
 
     
 
-2.  The [**DWRITE\_GLYPH\_RUN**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_run) that is passed to [**DrawGlyphRun**](/windows/desktop/api/dwrite/) contains a [**IDWriteFontFace**](/windows/desktop/api/dwrite/) object, named *fontFace*, that represents the font face for the whole glyph run. Put the outline of the the glyph run into the geometry sink by using the [**IDWriteFontFace:: GetGlyphRunOutline**](/windows/desktop/api/dwrite/) method, as shown in the following code.
+2.  The [**DWRITE\_GLYPH\_RUN**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_run) that is passed to [**DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd371526(v=VS.85).aspx) contains a [**IDWriteFontFace**](https://msdn.microsoft.com/en-us/library/Dd370983(v=VS.85).aspx) object, named *fontFace*, that represents the font face for the whole glyph run. Put the outline of the the glyph run into the geometry sink by using the [**IDWriteFontFace:: GetGlyphRunOutline**](https://msdn.microsoft.com/en-us/library/Dd371003(v=VS.85).aspx) method, as shown in the following code.
 
     ```C++
     // Get the glyph run outline geometries back from DirectWrite and place them within the
@@ -149,7 +149,7 @@ This text renderer implementation renders glyph runs by converting them to [Dire
 
     
 
-    The *baselineOriginX* and *baselineOriginY* are passed as parameters to the [**DrawGlyphRun**](/windows/desktop/api/dwrite/) callback method.
+    The *baselineOriginX* and *baselineOriginY* are passed as parameters to the [**DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd371526(v=VS.85).aspx) callback method.
 
 5.  Create the transformed geometry by using the [**ID2D1Factory::CreateTransformedGeometry**](https://msdn.microsoft.com/library/windows/desktop/dd371304) method and passing the path geometry and the translation matrix.
 
@@ -168,7 +168,7 @@ This text renderer implementation renders glyph runs by converting them to [Dire
 
     
 
-6.  Finally, draw the outline of the transformed geometry, and fill it by using the [**ID2D1RenderTarget::DrawGeometry**](https://msdn.microsoft.com/library/windows/desktop/dd371890) and [**ID2D1RenderTarget::FillGeometry**](https://msdn.microsoft.com/library/windows/desktop/dd371933) methods and the [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) brushes stored as member variables.
+6.  Finally, draw the outline of the transformed geometry, and fill it by using the [**ID2D1RenderTarget::DrawGeometry**](https://msdn.microsoft.com/library/windows/desktop/dd371890) and [**ID2D1RenderTarget::FillGeometry**](https://msdn.microsoft.com/library/windows/desktop/dd371933) methods and the [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) brushes stored as member variables.
 
     ```C++
         // Draw the outline of the glyph run
@@ -198,11 +198,11 @@ This text renderer implementation renders glyph runs by converting them to [Dire
 
 ## DrawUnderline() and DrawStrikethrough()
 
-[**IDWriteTextRenderer**](/windows/desktop/api/dwrite/) also has callbacks for drawing the underline and strikethrough. This example draws a simple rectangle for an underline or strikethrough, but other shapes can be drawn.
+[**IDWriteTextRenderer**](https://msdn.microsoft.com/en-us/library/Dd371523(v=VS.85).aspx) also has callbacks for drawing the underline and strikethrough. This example draws a simple rectangle for an underline or strikethrough, but other shapes can be drawn.
 
-Drawing an underline by using [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) consists of the following steps.
+Drawing an underline by using [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) consists of the following steps.
 
-1.  First, create a [**D2D1\_RECT\_F**](https://msdn.microsoft.com/library/windows/desktop/dd368151) structure of the size and shape of the underline. The [**DWRITE\_UNDERLINE**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_underline) structure that is passed to the [**DrawUnderline**](/windows/desktop/api/dwrite/) callback method provides the offset, width, and thickness of the underline.
+1.  First, create a [**D2D1\_RECT\_F**](https://msdn.microsoft.com/library/windows/desktop/dd368151) structure of the size and shape of the underline. The [**DWRITE\_UNDERLINE**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_underline) structure that is passed to the [**DrawUnderline**](https://msdn.microsoft.com/en-us/library/Dd371533(v=VS.85).aspx) callback method provides the offset, width, and thickness of the underline.
 
     ```C++
     D2D1_RECT_F rect = D2D1::RectF(
@@ -250,7 +250,7 @@ Drawing an underline by using [Direct2D](https://msdn.microsoft.com/03b3b91c-975
 
     
 
-4.  Finally, draw the outline of the transformed geometry, and fill it by using the [**ID2D1RenderTarget::DrawGeometry**](https://msdn.microsoft.com/library/windows/desktop/dd371890) and [**ID2D1RenderTarget::FillGeometry**](https://msdn.microsoft.com/library/windows/desktop/dd371933) methods and the [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) brushes stored as member variables.
+4.  Finally, draw the outline of the transformed geometry, and fill it by using the [**ID2D1RenderTarget::DrawGeometry**](https://msdn.microsoft.com/library/windows/desktop/dd371890) and [**ID2D1RenderTarget::FillGeometry**](https://msdn.microsoft.com/library/windows/desktop/dd371933) methods and the [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) brushes stored as member variables.
 
     ```C++
         // Draw the outline of the glyph run
@@ -320,7 +320,7 @@ pRT_->GetDpi(&amp;x, &amp;yUnused);
 
 ## DrawInlineObject()
 
-A custom text renderer also has a callback for drawing inline objects. In this example, [**DrawInlineObject**](/windows/desktop/api/dwrite/) returns E\_NOTIMPL. An explanation of how to draw inline objects is beyond the scope of this tutorial. For more information, see the [How to Add Inline Objects to a Text Layout](how-to-add-inline-objects-to-a-text-layout.md) topic.
+A custom text renderer also has a callback for drawing inline objects. In this example, [**DrawInlineObject**](https://msdn.microsoft.com/en-us/library/Dd371527(v=VS.85).aspx) returns E\_NOTIMPL. An explanation of how to draw inline objects is beyond the scope of this tutorial. For more information, see the [How to Add Inline Objects to a Text Layout](how-to-add-inline-objects-to-a-text-layout.md) topic.
 
 ## The Destructor
 
@@ -341,7 +341,7 @@ CustomTextRenderer::~CustomTextRenderer()
 
 ## Using the Custom Text Renderer
 
-You render with the custom renderer by using the [**IDWriteTextLayout::Draw**](/windows/desktop/api/dwrite/) method, which takes a callback interface derived from [**IDWriteTextRenderer**](/windows/desktop/api/dwrite/) as an argument, as shown in the following code.
+You render with the custom renderer by using the [**IDWriteTextLayout::Draw**](https://msdn.microsoft.com/en-us/library/Dd316726(v=VS.85).aspx) method, which takes a callback interface derived from [**IDWriteTextRenderer**](https://msdn.microsoft.com/en-us/library/Dd371523(v=VS.85).aspx) as an argument, as shown in the following code.
 
 
 ```C++
@@ -357,7 +357,7 @@ hr = pTextLayout_->Draw(
 
 
 
-The [**IDWriteTextLayout::Draw**](/windows/desktop/api/dwrite/) method calls the methods of the custom renderer callback you provide. The [**DrawGlyphRun**](/windows/desktop/api/dwrite/), [**DrawUnderline**](/windows/desktop/api/dwrite/), [**DrawInlineObject**](/windows/desktop/api/dwrite/), and [**DrawStrikethrough**](/windows/desktop/api/dwrite/) methods described above perform the drawing functions.
+The [**IDWriteTextLayout::Draw**](https://msdn.microsoft.com/en-us/library/Dd316726(v=VS.85).aspx) method calls the methods of the custom renderer callback you provide. The [**DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd371526(v=VS.85).aspx), [**DrawUnderline**](https://msdn.microsoft.com/en-us/library/Dd371533(v=VS.85).aspx), [**DrawInlineObject**](https://msdn.microsoft.com/en-us/library/Dd371527(v=VS.85).aspx), and [**DrawStrikethrough**](https://msdn.microsoft.com/en-us/library/Dd371530(v=VS.85).aspx) methods described above perform the drawing functions.
 
  
 

@@ -15,7 +15,7 @@ An explicit Application User Model ID (AppUserModelID) used to associate process
 
 To set this property on a window, use [**SHGetPropertyStoreForWindow**](/windows/desktop/api/Shellapi/nf-shellapi-shgetpropertystoreforwindow) to retrieve the window's property store, and use the methods of that retrieved [**IPropertyStore**](https://www.bing.com/search?q=**IPropertyStore**) object to set the [System.AppUserModel.ID](https://www.bing.com/search?q=System.AppUserModel.ID) property of that window.
 
-For more information, see [Application User Model IDs (AppUserModelIDs)](https://msdn.microsoft.com/ebce2d99-6f20-4545-9f12-d79cd8d0828f).
+For more information, see [Application User Model IDs (AppUserModelIDs)](https://msdn.microsoft.com/en-us/library/Dd378459(v=VS.85).aspx).
 
 At the time the [System.AppUserModel.ID](https://www.bing.com/search?q=System.AppUserModel.ID) property is set, the taskbar is notified to refresh its information on the window or shortcut given that AppUserModelID.
 
@@ -50,7 +50,7 @@ PKEY values are defined in Propkey.h.
 
 <dl> <dt>
 
-[Application User Model IDs (AppUserModelIDs)](https://msdn.microsoft.com/ebce2d99-6f20-4545-9f12-d79cd8d0828f)
+[Application User Model IDs (AppUserModelIDs)](https://msdn.microsoft.com/en-us/library/Dd378459(v=VS.85).aspx)
 </dt> <dt>
 
 [**SHGetPropertyStoreForWindow**](/windows/desktop/api/Shellapi/nf-shellapi-shgetpropertystoreforwindow)

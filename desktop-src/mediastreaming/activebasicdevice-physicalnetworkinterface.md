@@ -61,7 +61,7 @@ A pointer to a **GUID** that specifies the id of the physical network interface.
 
 <dl> <dt>
 
-[**ActiveBasicDevice**](https://www.bing.com/search?q=**ActiveBasicDevice**)
+[**ActiveBasicDevice**](https://msdn.microsoft.com/en-us/library/Dn385755(v=VS.85).aspx)
 </dt> </dl>
 
  

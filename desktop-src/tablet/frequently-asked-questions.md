@@ -23,7 +23,7 @@ There is also support for browser deployment of applications that use Windows Pr
 
 A. No, the Tablet PC platform components installed by the Windows SDK include the extensions and utilities needed to develop software for the Tablet PC on a desktop or laptop computer. You can use a mouse or external tablet for pen and handwriting input.
 
-The Tablet PC platform components installed by the Windows SDK can be installed on Windows XP Professional, or Windows Server 2003, but less functionality is available for your applications. On these platforms, your application can collect ink with the [**InkCollector**](/windows/desktop/api/msinkaut/) and [**InkOverlay**](/windows/desktop/api/msinkaut/) objects and can be tested and debugged.
+The Tablet PC platform components installed by the Windows SDK can be installed on Windows XP Professional, or Windows Server 2003, but less functionality is available for your applications. On these platforms, your application can collect ink with the [**InkCollector**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx) and [**InkOverlay**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx) objects and can be tested and debugged.
 
 Also, the [InkEdit](inkedit-control-reference.md) and [InkPicture](inkpicture-control-reference.md) controls can collect ink on these operating systems only if the Tablet PC platform components have been installed from the Windows SDK (or an older version of the Tablet PC Development Kit); they do not collect ink in applications that are redistributed to non-Tablet computers without the platform components installed.
 
@@ -62,7 +62,7 @@ A. Yes, sample code for COM and selected managed languages is included in the Ta
 For available sample applications, see:
 
 -   [Mobile PC and Tablet PC Samples](mobile-pc-and-tablet-pc-samples.md)
--   [Digital Ink Samples, Windoes Presentation Foundation (WPF)](https://msdn.microsoft.com/windows/desktop/75ded3fc-0264-46c5-9dd3-ca58510b1bb8)
+-   [Digital Ink Samples, Windoes Presentation Foundation (WPF)](https://msdn.microsoft.com/en-us/library/Aa972145(v=VS.85).aspx)
 -   &lt;systemdrive&gt;:\\Program Files\\Microsoft SDKs\\Windows\\v6.0\\Samples\\TabletPC
 
 ## Q. What's the base level of Tablet hardware that I should develop for?
@@ -91,7 +91,7 @@ A. Certain parts of the Tablet PC platform may be installed on non-Tablet versio
 
 The proper way to determine if a component of the API is installed is to attempt to create an instance of an object or control and check that it exists before attempting to use it.
 
-For example, to determine if the [**InkCollector**](/windows/desktop/api/msinkaut/) object is available, attempt to create it using [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615).
+For example, to determine if the [**InkCollector**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx) object is available, attempt to create it using [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615).
 
 
 ```C++

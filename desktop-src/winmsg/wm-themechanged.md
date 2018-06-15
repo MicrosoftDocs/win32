@@ -46,7 +46,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-A window receives this message through its [**WindowProc**](/windows/desktop/api/Winuser/nf-winuser-callwindowproca) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx) function.
 
 > [!Note]  
 > This message is posted by the operating system. Applications typically do not send this message.

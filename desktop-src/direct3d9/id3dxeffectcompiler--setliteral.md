@@ -41,7 +41,7 @@ Unique identifier to a parameter. See [Handles (Direct3D 9)](handles.md).
 *Literal* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Set to **TRUE** to make the parameter a literal, and **FALSE** if the parameter can change value during the shader lifetime.
 
@@ -49,7 +49,7 @@ Set to **TRUE** to make the parameter a literal, and **FALSE** if the parameter 
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

@@ -59,7 +59,7 @@ GC://servername.fabrikam.com/DC=sales,DC=fabrikam,DC=com
 
 1.  Bind to the root of the Global Catalog namespace.
 2.  Enumerate the Global Catalog container. The Global Catalog container contains a single object that you can use to search the entire forest.
-3.  Use the object in the container to perform the search. In C/C++, call [**QueryInterface**](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d) to get an [**IDirectorySearch**](https://msdn.microsoft.com/library/aa746362) pointer on the object so that you can use the **IDirectorySearch** interface to perform the search. In Visual Basic, use the object returned from the enumeration in your ADO query.
+3.  Use the object in the container to perform the search. In C/C++, call [**QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) to get an [**IDirectorySearch**](https://msdn.microsoft.com/library/aa746362) pointer on the object so that you can use the **IDirectorySearch** interface to perform the search. In Visual Basic, use the object returned from the enumeration in your ADO query.
 
 To enumerate the Global Catalog servers in a site, perform an LDAP subtree search of "cn=&lt;yoursite&gt;,cn=sites,&lt;DN of the configurationNamingContext&gt;", using the following filter string.
 

@@ -21,15 +21,15 @@ The following procedure is used to execute the WMI application. Steps 1 through 
 
 **To call a provider method**
 
-1.  Initialize COM parameters with a call to [**CoInitializeEx**](https://msdn.microsoft.com/windows/desktop/ffb79c0f-aeda-4ea1-aea8-afb79109837f).
+1.  Initialize COM parameters with a call to [**CoInitializeEx**](https://msdn.microsoft.com/en-us/library/ms695279(v=VS.85).aspx).
 
     For more information, see [Initializing COM for a WMI Application](initializing-com-for-a-wmi-application.md).
 
-2.  Initialize COM process security by calling [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f).
+2.  Initialize COM process security by calling [**CoInitializeSecurity**](https://msdn.microsoft.com/en-us/library/ms693736(v=VS.85).aspx).
 
     For more information, see [Setting the Default Process Security Level Using C++](setting-the-default-process-security-level-using-c-.md).
 
-3.  Obtain the initial locator to WMI by calling [**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec).
+3.  Obtain the initial locator to WMI by calling [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx).
 
     For more information, see [Creating a Connection to a WMI Namespace](creating-a-connection-to-a-wmi-namespace.md).
 
@@ -37,7 +37,7 @@ The following procedure is used to execute the WMI application. Steps 1 through 
 
     For more information, see [Creating a Connection to a WMI Namespace](creating-a-connection-to-a-wmi-namespace.md).
 
-5.  Set [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) proxy security so the WMI service can impersonate the client by calling [**CoSetProxyBlanket**](https://msdn.microsoft.com/windows/desktop/c2e5e681-8fa5-4b02-b59d-ba796eb0dccf).
+5.  Set [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) proxy security so the WMI service can impersonate the client by calling [**CoSetProxyBlanket**](https://msdn.microsoft.com/en-us/library/ms692692(v=VS.85).aspx).
 
     For more information, see [Setting the Security Levels on a WMI Connection](setting-the-security-levels-on-a-wmi-connection.md).
 
@@ -77,7 +77,7 @@ The following procedure is used to execute the WMI application. Steps 1 through 
 
     
 
-    The following code example shows how the [**Win32\_Process::Create**](https://msdn.microsoft.com/library/aa389388) method out-parameters are given to an [**IWbemClassObject**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemclassobject) pointer. The out-parameter value is obtained with the [**IWbemClassObject::Get**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-get) method and stored in a [**VARIANT**](https://msdn.microsoft.com/windows/desktop/e305240e-9e11-4006-98cc-26f4932d2118) variable so that it can be displayed to the user.
+    The following code example shows how the [**Win32\_Process::Create**](https://msdn.microsoft.com/library/aa389388) method out-parameters are given to an [**IWbemClassObject**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemclassobject) pointer. The out-parameter value is obtained with the [**IWbemClassObject::Get**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-get) method and stored in a [**VARIANT**](https://msdn.microsoft.com/en-us/library/ms221627(v=VS.71).aspx) variable so that it can be displayed to the user.
 
     ```C++
     // Execute Method

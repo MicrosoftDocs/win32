@@ -11,14 +11,14 @@ ms.date: 05/31/2018
 
 # Sending Messages to the GINA
 
-[*Winlogon*](https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d) sends messages to the [*GINA*](https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a) while dialog boxes are displayed. These messages are all encapsulated in the WLX\_WM\_SAS message as follows.
+[*Winlogon*](https://msdn.microsoft.com/en-us/library/ms721635(v=VS.85).aspx) sends messages to the [*GINA*](https://msdn.microsoft.com/en-us/library/ms721584(v=VS.85).aspx) while dialog boxes are displayed. These messages are all encapsulated in the WLX\_WM\_SAS message as follows.
 
 
 
 | Secure attention sequence type in wParam parameter | Description                                                                                                                                   |
 |----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | WLX\_SAS\_TYPE\_CTRL\_ALT\_DEL                     | Indicates that a CTRL+ALT+DEL key sequence was received.                                                                                      |
-| WLX\_SAS\_TYPE\_SC\_INSERT                         | Indicates that a [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) has been inserted into a compatible device. |
+| WLX\_SAS\_TYPE\_SC\_INSERT                         | Indicates that a [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) has been inserted into a compatible device. |
 | WLX\_SAS\_TYPE\_SC\_REMOVE                         | Indicates that a smart card has been removed from a compatible device.                                                                        |
 | WLX\_SAS\_TYPE\_USER\_LOGOFF                       | Indicates that a user requested logoff.                                                                                                       |
 | WLX\_SAS\_TYPE\_SCRNSVR\_TIMEOUT                   | Indicates that the screen saver should be run due to lack of user input.                                                                      |

@@ -15,9 +15,9 @@ Implementation of converting from a text ink object (tInk) to ink.
 
 ## To convert from a text ink object to ink
 
-1.  Use the [IPersistStream](https://msdn.microsoft.com/windows/desktop/97ea64ee-d950-4872-add6-1f532a6eb33f) interface to write the contents of the text ink object out to a stream. The text ink object uses ink serialized format to write to the steam.
+1.  Use the [IPersistStream](https://msdn.microsoft.com/en-us/library/ms690091(v=VS.85).aspx) interface to write the contents of the text ink object out to a stream. The text ink object uses ink serialized format to write to the steam.
 2.  Read the contents of the stream into a BYTE array.
-3.  Use the [**InkDisp**](/windows/desktop/api/msinkaut/) object's [**Load**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-load) method to load the contents of the stream into the **InkDisp** object.
+3.  Use the [**InkDisp**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object's [**Load**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-load) method to load the contents of the stream into the **InkDisp** object.
 
 ## Text Ink Object to Ink Object Example
 
@@ -45,7 +45,7 @@ CComPtr<IStream *> spStream = NULL;
 
 
 
-Then, the code obtains the [IPersistStream](https://msdn.microsoft.com/windows/desktop/97ea64ee-d950-4872-add6-1f532a6eb33f) interface from the text ink object.
+Then, the code obtains the [IPersistStream](https://msdn.microsoft.com/en-us/library/ms690091(v=VS.85).aspx) interface from the text ink object.
 
 
 ```C++
@@ -58,7 +58,7 @@ ASSERT(SUCCEEDED(hr) &amp;&amp; spIPersistStream);
 
 
 
-Then, the code uses the [IPersistStream](https://msdn.microsoft.com/windows/desktop/97ea64ee-d950-4872-add6-1f532a6eb33f) interface to save the contents of the text ink object to the stream.
+Then, the code uses the [IPersistStream](https://msdn.microsoft.com/en-us/library/ms690091(v=VS.85).aspx) interface to save the contents of the text ink object to the stream.
 
 
 ```C++
@@ -75,7 +75,7 @@ if( SUCCEEDED(hr) &amp;&amp; pIPersistStream )
 
 
 
-Then, the code creates an [**InkCollector**](/windows/desktop/api/msinkaut/) object, creates an [**InkDisp**](/windows/desktop/api/msinkaut/) object for the **InkCollector**, attaches the **InkCollector** to the application window, and enables ink collection on the **InkCollector**.
+Then, the code creates an [**InkCollector**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx) object, creates an [**InkDisp**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object for the **InkCollector**, attaches the **InkCollector** to the application window, and enables ink collection on the **InkCollector**.
 
 
 ```C++
@@ -142,7 +142,7 @@ Then, the code retrieves the size of the stream and creates a safe array to hold
 
 
 
-Finally, the code accesses the safe array and uses the [**InkDisp**](/windows/desktop/api/msinkaut/) object's [**Load**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-load) method to load the ink from the array.
+Finally, the code accesses the safe array and uses the [**InkDisp**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object's [**Load**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-load) method to load the ink from the array.
 
 
 ```C++

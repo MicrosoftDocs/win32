@@ -147,7 +147,7 @@ The following interfaces are optional:
 | [**IEVRTrustedVideoPlugin**](/windows/desktop/api/evr/nn-evr-ievrtrustedvideoplugin) | Enables the presenter to work with protected media. Implement this interface if your presenter is a trusted component designed to work in the protected media path (PMP). |
 | [**IMFRateSupport**](/windows/desktop/api/mfidl/nn-mfidl-imfratesupport)                 | Reports the range of playback rates that the presenter supports. See [Implementing IMFRateSupport](#implementing-imfratesupport).                                         |
 | [**IMFVideoPositionMapper**](/windows/desktop/api/evr/nn-evr-imfvideopositionmapper) | Maps coordinates on the output video frame to coordinates on the input video frame.                                                                                       |
-| [**IQualProp**](https://msdn.microsoft.com/428dfb97-0dfa-442c-819e-291e6a58f712)                         | Reports performance information. The EVR uses this information for quality-control management. This interface is documented in the DirectShow SDK.                        |
+| [**IQualProp**](https://msdn.microsoft.com/en-us/library/Dd376915(v=VS.85).aspx)                         | Reports performance information. The EVR uses this information for quality-control management. This interface is documented in the DirectShow SDK.                        |
 
 
 
@@ -197,7 +197,7 @@ In your implementation of [**InitServicePointers**](/windows/desktop/api/evr/nf-
 
 | EVR Interface                                | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IMediaEventSink**](https://msdn.microsoft.com/50aa04b4-9a04-4d0d-a558-42595a69aef7) | Provides a way for the presenter to send messages to the EVR. This interface is defined in the DirectShow SDK, so the messages follow the pattern for DirectShow events, not Media Foundation events.<br/>                                                                                                                                                                                                                                                                                                                                              |
+| [**IMediaEventSink**](https://msdn.microsoft.com/en-us/library/Dd406901(v=VS.85).aspx) | Provides a way for the presenter to send messages to the EVR. This interface is defined in the DirectShow SDK, so the messages follow the pattern for DirectShow events, not Media Foundation events.<br/>                                                                                                                                                                                                                                                                                                                                              |
 | [**IMFClock**](/windows/desktop/api/mfidl/nn-mfidl-imfclock)                 | Represents the EVR's clock. The presenter uses this interface to schedule samples for presentation. The EVR can run without a clock, so this interface might not be available. If not, ignore the error code from [**LookupService**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookup-lookupservice).<br/> The clock also implements the [**IMFTimer**](/windows/desktop/api/mfidl/nn-mfidl-imftimer) interface. In the Media Foundation pipeline, the clock implements the [**IMFPresentationClock**](/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock) interface. It does not implement this interface in DirectShow.<br/> |
 
 
@@ -577,7 +577,7 @@ done:
 
 ### Sending Events to the EVR
 
-The presenter must notify the EVR of various events. To do so, it uses the EVR's [**IMediaEventSink**](https://msdn.microsoft.com/50aa04b4-9a04-4d0d-a558-42595a69aef7) interface, obtained when the EVR calls the presenter's [**IMFTopologyServiceLookupClient::InitServicePointers**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-initservicepointers) method. (The **IMediaEventSink** interface is originally a DirectShow interface, but is used in both the DirectShow EVR and the Media Foundation.) The following code shows how to send an event to the EVR:
+The presenter must notify the EVR of various events. To do so, it uses the EVR's [**IMediaEventSink**](https://msdn.microsoft.com/en-us/library/Dd406901(v=VS.85).aspx) interface, obtained when the EVR calls the presenter's [**IMFTopologyServiceLookupClient::InitServicePointers**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-initservicepointers) method. (The **IMediaEventSink** interface is originally a DirectShow interface, but is used in both the DirectShow EVR and the Media Foundation.) The following code shows how to send an event to the EVR:
 
 
 ```C++
@@ -610,7 +610,7 @@ The following table lists the events that the presenter sends, along with the ev
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>EC_COMPLETE</strong>](https://msdn.microsoft.com/46037d53-085d-4fd0-91a0-408702cbfce5)</td>
+<td>[<strong>EC_COMPLETE</strong>](https://msdn.microsoft.com/en-us/library/Dd319485(v=VS.85).aspx)</td>
 <td>The presenter has finished rendering all frames after the MFVP_MESSAGE_ENDOFSTREAM message.<br/>
 <ul>
 <li><em>Param1</em>: HRESULT indicating the status of the operation.</li>
@@ -619,7 +619,7 @@ The following table lists the events that the presenter sends, along with the ev
 For more information, see [End of Stream](#end-of-stream).<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>EC_DISPLAY_CHANGED</strong>](https://msdn.microsoft.com/1f5b066b-6d5d-44bb-851a-424b2bd389c0)</td>
+<td>[<strong>EC_DISPLAY_CHANGED</strong>](https://msdn.microsoft.com/en-us/library/Dd319492(v=VS.85).aspx)</td>
 <td>The Direct3D device has changed.<br/>
 <ul>
 <li><em>Param1</em>: Not used.</li>
@@ -628,7 +628,7 @@ For more information, see [End of Stream](#end-of-stream).<br/></td>
 For more information, see [Managing the Direct3D Device](#managing-the-direct3d-device).<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>EC_ERRORABORT</strong>](https://msdn.microsoft.com/b41546ce-cfac-4cc3-a9ad-413ae2d5d6d5)</td>
+<td>[<strong>EC_ERRORABORT</strong>](https://msdn.microsoft.com/en-us/library/Dd319538(v=VS.85).aspx)</td>
 <td>An error has occurred that requires streaming to stop.<br/>
 <ul>
 <li><em>Param1</em>: <strong>HRESULT</strong> indicating the error that occurred.</li>
@@ -636,7 +636,7 @@ For more information, see [Managing the Direct3D Device](#managing-the-direct3d-
 </ul></td>
 </tr>
 <tr class="even">
-<td>[<strong>EC_PROCESSING_LATENCY</strong>](https://msdn.microsoft.com/84f81ee1-76d8-46fb-86ef-2500f8f4ef36)</td>
+<td>[<strong>EC_PROCESSING_LATENCY</strong>](https://msdn.microsoft.com/en-us/library/Dd319601(v=VS.85).aspx)</td>
 <td>Specifies the amount of time that the presenter is taking to render each frame. (Optional.)<br/>
 <ul>
 <li><em>Param1</em>: Pointer to a constant <strong>LONGLONG</strong> value that contains the amount of time to process the frame, in 100-nanosecond units.</li>
@@ -645,7 +645,7 @@ For more information, see [Managing the Direct3D Device](#managing-the-direct3d-
 For more information, see [Processing Output](#processing-output).<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>EC_SAMPLE_LATENCY</strong>](https://msdn.microsoft.com/8bd202fb-3015-41a2-ad14-862f64cb252f)</td>
+<td>[<strong>EC_SAMPLE_LATENCY</strong>](https://msdn.microsoft.com/en-us/library/Dd319605(v=VS.85).aspx)</td>
 <td>Specifies the current lag time in rendering samples. If the value is positive, samples are behind schedule. If the value is negative, samples are ahead of schedule. (Optional.)<br/>
 <ul>
 <li><em>Param1</em>: Pointer to a constant <strong>LONGLONG</strong> value that contains the lag time, in 100-nanosecond units.</li>
@@ -653,7 +653,7 @@ For more information, see [Processing Output](#processing-output).<br/></td>
 </ul></td>
 </tr>
 <tr class="even">
-<td>[<strong>EC_SCRUB_TIME</strong>](https://msdn.microsoft.com/2c2ef8b8-7bee-4cd8-ad87-b48d6a48aa0e)</td>
+<td>[<strong>EC_SCRUB_TIME</strong>](https://msdn.microsoft.com/en-us/library/Dd319607(v=VS.85).aspx)</td>
 <td>Sent immediately after <strong>EC_STEP_COMPLETE</strong> if the playback rate is zero. This event contains the time stamp of the frame that was displayed.<br/>
 <ul>
 <li><em>Param1</em>: Lower 32 bits of the time stamp.</li>
@@ -662,7 +662,7 @@ For more information, see [Processing Output](#processing-output).<br/></td>
 For more information, see [Frame Stepping](#frame-stepping).<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>EC_STEP_COMPLETE</strong>](https://msdn.microsoft.com/61c3c343-3754-40b7-9f85-9a96d3faf4a2)</td>
+<td>[<strong>EC_STEP_COMPLETE</strong>](https://msdn.microsoft.com/en-us/library/Dd319616(v=VS.85).aspx)</td>
 <td>The presenter has completed or canceled a frame step.<br/>
 <ul>
 <li><em>Param1</em>: Not used.</li>
@@ -822,7 +822,7 @@ After the device is created, if the presenter destroys the device and creates a 
 
 The presenter can create the device in windowed mode or full-screen exclusive mode. For windowed mode, you should provide a way for the application to specify the video window. The standard presenter implements the [**IMFVideoDisplayControl::SetVideoWindow**](/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setvideowindow) method for this purpose. You must create the device when the presenter is first created. Typically, you won't know all of the device parameters at this time, such as the window or the back buffer format. You can create a temporary device and replace it later&\#;just remember to call [**ResetDevice**](/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-resetdevice) on the device manager.
 
-If you create a new device, or if you call **IDirect3DDevice9::Reset** or **IDirect3DDevice9Ex::ResetEx** on an existing device, send an [**EC\_DISPLAY\_CHANGED**](https://msdn.microsoft.com/1f5b066b-6d5d-44bb-851a-424b2bd389c0) event to the EVR. This event notifies the EVR to renegotiate the media type. The EVR ignores the event parameters for this event.
+If you create a new device, or if you call **IDirect3DDevice9::Reset** or **IDirect3DDevice9Ex::ResetEx** on an existing device, send an [**EC\_DISPLAY\_CHANGED**](https://msdn.microsoft.com/en-us/library/Dd319492(v=VS.85).aspx) event to the EVR. This event notifies the EVR to renegotiate the media type. The EVR ignores the event parameters for this event.
 
 ### Allocating Direct3D Surfaces
 
@@ -851,17 +851,17 @@ The simplest option is to create one video sample for the swap chain. If you cho
 
 When the presenter first allocates the video samples, it places them in a queue. The presenter draws from this queue whenever it needs to get a new frame from the mixer. After the mixer outputs the frame, the presenter moves the sample into a second queue. The second queue is for samples that are waiting for their scheduled presentation times.
 
-To make it easier to track the status of each sample, the video sample object implements the [**IMFTrackedSample**](/windows/desktop/api/evr/nn-mfidl-imftrackedsample) interface. You can use this interface as follows:
+To make it easier to track the status of each sample, the video sample object implements the [**IMFTrackedSample**](https://msdn.microsoft.com/en-us/library/ms697026(v=VS.85).aspx) interface. You can use this interface as follows:
 
 1.  Implement the [**IMFAsyncCallback**](/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback) interface in your presenter.
-2.  Before you place a sample in the scheduled queue, query the video sample object for the [**IMFTrackedSample**](/windows/desktop/api/evr/nn-mfidl-imftrackedsample) interface.
+2.  Before you place a sample in the scheduled queue, query the video sample object for the [**IMFTrackedSample**](https://msdn.microsoft.com/en-us/library/ms697026(v=VS.85).aspx) interface.
 
-3.  Call [**IMFTrackedSample::SetAllocator**](/windows/desktop/api/evr/nf-mfidl-imftrackedsample-setallocator) with a pointer to your callback interface.
+3.  Call [**IMFTrackedSample::SetAllocator**](https://msdn.microsoft.com/en-us/library/ms704797(v=VS.85).aspx) with a pointer to your callback interface.
 4.  When the sample is ready for presentation, remove it from the scheduled queue, present it, and release all references to the sample.
 5.  The sample invokes the callback. (The sample object is not deleted in this case because it holds a reference count on itself until the callback is invoked.)
 6.  Inside the callback, return the sample to the available queue.
 
-A presenter is not required to use [**IMFTrackedSample**](/windows/desktop/api/evr/nn-mfidl-imftrackedsample) to track samples; you can implement any technique that works best for your design. One advantage of **IMFTrackedSample** is that you can move the presenter's scheduling and rendering functions into helper objects, and these objects do not need any special mechanism for calling back to the presenter when they release video samples because the sample object provides that mechanism.
+A presenter is not required to use [**IMFTrackedSample**](https://msdn.microsoft.com/en-us/library/ms697026(v=VS.85).aspx) to track samples; you can implement any technique that works best for your design. One advantage of **IMFTrackedSample** is that you can move the presenter's scheduling and rendering functions into helper objects, and these objects do not need any special mechanism for calling back to the presenter when they release video samples because the sample object provides that mechanism.
 
 The following code shows how to set the callback:
 
@@ -998,13 +998,13 @@ To get output from the mixer, perform the following steps:
     If [**ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput) succeeds, continue.
 
 5.  (Optional.) If the clock is available, get the current clock time (*T2*). The amount of latency introduced by the mixer is (*T2* - *T1*). Send an **EC\_PROCESSING\_LATENCY** event with this value to the EVR. The EVR uses this value for quality control. If no clock is available, there is no reason to send the **EC\_PROCESSING\_LATENCY** event.
-6.  (Optional.) Query the sample for [**IMFTrackedSample**](/windows/desktop/api/evr/nn-mfidl-imftrackedsample) and call [**IMFTrackedSample::SetAllocator**](/windows/desktop/api/evr/nf-mfidl-imftrackedsample-setallocator) as described in [Tracking Samples](#tracking-samples).
+6.  (Optional.) Query the sample for [**IMFTrackedSample**](https://msdn.microsoft.com/en-us/library/ms697026(v=VS.85).aspx) and call [**IMFTrackedSample::SetAllocator**](https://msdn.microsoft.com/en-us/library/ms704797(v=VS.85).aspx) as described in [Tracking Samples](#tracking-samples).
 7.  Schedule the sample for presentation.
 
 This sequence of steps can terminate before the presenter gets any output from the mixer. To ensure that no requests are dropped, you should repeat the same steps when the following occur:
 
 -   The presenter's [**IMFClockStateSink::OnClockStart**](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart) or **IMFClockStateSink::OnClockStart** method is called. This handles the case where the mixer ignores input because the clock is paused (step 1).
--   The [**IMFTrackedSample**](/windows/desktop/api/evr/nn-mfidl-imftrackedsample) callback is invoked. This handles the case where the mixer receives input but all of the presenter's video samples are in use (step 2).
+-   The [**IMFTrackedSample**](https://msdn.microsoft.com/en-us/library/ms697026(v=VS.85).aspx) callback is invoked. This handles the case where the mixer receives input but all of the presenter's video samples are in use (step 2).
 
 The next several code examples show these steps in more detail. The presenter calls the `ProcessInputNotify` method (shown in the following example) when it gets the **MFVP\_MESSAGE\_PROCESSINPUTNOTIFY** message.
 
@@ -1262,7 +1262,7 @@ Some remarks about this example:
 
 -   The *m\_SamplePool* variable is assumed to be a collection object that holds the queue of available video samples. The object's `GetSample` method returns **MF\_E\_SAMPLEALLOCATOR\_EMPTY** if the queue is empty.
 -   If the mixer's [**ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput) method returns MF\_E\_TRANSFORM\_NEED\_MORE\_INPUT, it means the mixer cannot produce any more output, so the presenter clears the *m\_fSampleNotify* flag.
--   The `TrackSample` method, which sets the [**IMFTrackedSample**](/windows/desktop/api/evr/nn-mfidl-imftrackedsample) callback, is shown in the section [Tracking Samples](#tracking-samples).
+-   The `TrackSample` method, which sets the [**IMFTrackedSample**](https://msdn.microsoft.com/en-us/library/ms697026(v=VS.85).aspx) callback, is shown in the section [Tracking Samples](#tracking-samples).
 
 ### Repainting Frames
 
@@ -1582,8 +1582,8 @@ The EVR is designed to support frame stepping in DirectShow and scrubbing in Med
 
 Frame stepping in DirectShow works as follows:
 
--   The application calls [**IVideoFrameStep::Step**](https://msdn.microsoft.com/1366b8b4-ea7a-4528-8a5a-03a3de265d89). The number of steps is given in the *dwSteps* parameter. The EVR sends an **MFVP\_MESSAGE\_STEP** message to the presenter, where the message parameter (*ulParam*) is the number of steps.
--   If the application calls [**IVideoFrameStep::CancelStep**](https://msdn.microsoft.com/1310d4d8-a1a3-493c-baee-f7c0ec5790e1) or changes the graph state (running, paused, or stopped), the EVR sends an **MFVP\_MESSAGE\_CANCELSTEP** message.
+-   The application calls [**IVideoFrameStep::Step**](https://msdn.microsoft.com/en-us/library/Dd377235(v=VS.85).aspx). The number of steps is given in the *dwSteps* parameter. The EVR sends an **MFVP\_MESSAGE\_STEP** message to the presenter, where the message parameter (*ulParam*) is the number of steps.
+-   If the application calls [**IVideoFrameStep::CancelStep**](https://msdn.microsoft.com/en-us/library/Dd377233(v=VS.85).aspx) or changes the graph state (running, paused, or stopped), the EVR sends an **MFVP\_MESSAGE\_CANCELSTEP** message.
 
 Scrubbing in Media Foundation works as follows:
 
@@ -1591,7 +1591,7 @@ Scrubbing in Media Foundation works as follows:
 -   To render a new frame, the application calls [**IMFMediaSession::Start**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-start) with the desired position. The EVR sends an **MFVP\_MESSAGE\_STEP** message with *ulParam* equal to 1.
 -   To stop scrubbing, the application sets the playback rate to a nonzero value. The EVR sends the **MFVP\_MESSAGE\_CANCELSTEP** message.
 
-After receiving the **MFVP\_MESSAGE\_STEP** message, the presenter waits for the target frame to arrive. If the number of steps is *N*, the presenter discards the next (*N* - 1) samples and presents the *N* th sample. When the presenter completes the frame step, it sends an [**EC\_STEP\_COMPLETE**](https://msdn.microsoft.com/61c3c343-3754-40b7-9f85-9a96d3faf4a2) event to the EVR with *lParam1* set to **FALSE**. In addition, if the playback rate is zero, the presenter sends an [**EC\_SCRUB\_TIME**](https://msdn.microsoft.com/2c2ef8b8-7bee-4cd8-ad87-b48d6a48aa0e) event. If the EVR cancels frame stepping while a frame-step operation is still pending, the presenter sends an **EC\_STEP\_COMPLETE** event with *lParam1* set to **TRUE**.
+After receiving the **MFVP\_MESSAGE\_STEP** message, the presenter waits for the target frame to arrive. If the number of steps is *N*, the presenter discards the next (*N* - 1) samples and presents the *N* th sample. When the presenter completes the frame step, it sends an [**EC\_STEP\_COMPLETE**](https://msdn.microsoft.com/en-us/library/Dd319616(v=VS.85).aspx) event to the EVR with *lParam1* set to **FALSE**. In addition, if the playback rate is zero, the presenter sends an [**EC\_SCRUB\_TIME**](https://msdn.microsoft.com/en-us/library/Dd319607(v=VS.85).aspx) event. If the EVR cancels frame stepping while a frame-step operation is still pending, the presenter sends an **EC\_STEP\_COMPLETE** event with *lParam1* set to **TRUE**.
 
 The application can frame step or scrub multiple times, so the presenter might receive multiple **MFVP\_MESSAGE\_STEP** messages before it gets an **MFVP\_MESSAGE\_CANCELSTEP** message. Also, the presenter can receive the **MFVP\_MESSAGE\_STEP** message before the clock starts or while the clock is running.
 
@@ -1609,7 +1609,7 @@ This section describes an algorithm to implement frame stepping. The frame stepp
     | WAITING       | The presenter has received the **MFVP\_MESSAGE\_STEP** message, but the clock has not started.                                                                                                                  |
     | PENDING       | The presenter has received the **MFVP\_MESSAGE\_STEP** message and the clock has started, but the presenter is waiting to receive the target frame.                                                             |
     | SCHEDULED     | The presenter has received the target frame and has scheduled it for presentation, but the frame has not been presented.                                                                                        |
-    | COMPLETE      | The presenter has presented the target frame and sent the [**EC\_STEP\_COMPLETE**](https://msdn.microsoft.com/61c3c343-3754-40b7-9f85-9a96d3faf4a2) event, and is waiting for the next **MFVP\_MESSAGE\_STEP** or **MFVP\_MESSAGE\_CANCELSTEP** message. |
+    | COMPLETE      | The presenter has presented the target frame and sent the [**EC\_STEP\_COMPLETE**](https://msdn.microsoft.com/en-us/library/Dd319616(v=VS.85).aspx) event, and is waiting for the next **MFVP\_MESSAGE\_STEP** or **MFVP\_MESSAGE\_CANCELSTEP** message. |
 
     
 
@@ -1662,7 +1662,7 @@ Call these procedures as follows:
 | **MFVP\_MESSAGE\_STEP** message                                               | `CancelStep`        |
 | [**IMFClockStateSink::OnClockStart**](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart)     | `StartFrameStep`    |
 | [**IMFClockStateSink::OnClockRestart**](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart) | `StartFrameStep`    |
-| [**IMFTrackedSample**](/windows/desktop/api/evr/nn-mfidl-imftrackedsample) callback                         | `CompleteFrameStep` |
+| [**IMFTrackedSample**](https://msdn.microsoft.com/en-us/library/ms697026(v=VS.85).aspx) callback                         | `CompleteFrameStep` |
 | [**IMFClockStateSink::OnClockStop**](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstop)       | `CancelFrameStep`   |
 | [**IMFClockStateSink::OnClockSetRate**](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate) | `CancelFrameStep`   |
 

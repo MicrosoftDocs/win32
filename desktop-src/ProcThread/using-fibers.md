@@ -371,7 +371,7 @@ DisplayFiberInfo(
 
 
 
-This example makes use of a fiber data structure which is used to determine the behavior and state of the fiber. One data structure exists for each fiber; the pointer to the data structure is passed to the fiber at fiber creation time using the parameter of the [*FiberProc*](https://www.bing.com/search?q=*FiberProc*) function.
+This example makes use of a fiber data structure which is used to determine the behavior and state of the fiber. One data structure exists for each fiber; the pointer to the data structure is passed to the fiber at fiber creation time using the parameter of the [*FiberProc*](https://msdn.microsoft.com/en-us/library/ms682660(v=VS.85).aspx) function.
 
 The calling thread calls the [**ConvertThreadToFiber**](/windows/desktop/api/WinBase/nf-winbase-convertthreadtofiber) function, which enables fibers to be scheduled by the caller. This also allows the fiber to be scheduled by another fiber. Next, the thread creates two additional fibers, one that performs read operations against a specified file, and another that performs the write operations against a specified file.
 

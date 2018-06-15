@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Uniscribe Glossary
 
-An ABC width is a composite value defined by a GDI [**ABC**](https://msdn.microsoft.com/00000000-0000-0000-0000-000000000001) structure. The structure contains members **abcA**, **abcB**, and **abcC**, corresponding to the "A", "B", and "C" widths of a [glyph](#glyph) or [run](#run).
+An ABC width is a composite value defined by a GDI [**ABC**](https://msdn.microsoft.com/en-us/library/Dd162454(v=VS.85).aspx) structure. The structure contains members **abcA**, **abcB**, and **abcC**, corresponding to the "A", "B", and "C" widths of a [glyph](#glyph) or [run](#run).
 
 The "A" width is [underhang](#underhang) (positive; also known as "padding") or [overhang](#overhang) (negative) to the left of the on-screen equivalent of ink that represents the glyph or run. The "B" width is the black width, the width from the leftmost ink to the rightmost ink. The "C" width is overhang to the right of the ink.
 
@@ -23,7 +23,7 @@ When two or more glyphs are displayed as a unit, usually only the leftmost glyph
 
 ## ABC width
 
-An ABC width is a composite value defined by a GDI [**ABC**](https://msdn.microsoft.com/00000000-0000-0000-0000-000000000001) structure. The structure contains members **abcA**, **abcB**, and **abcC**, corresponding to the "A", "B", and "C" widths of a [glyph](#glyph) or [run](#run).
+An ABC width is a composite value defined by a GDI [**ABC**](https://msdn.microsoft.com/en-us/library/Dd162454(v=VS.85).aspx) structure. The structure contains members **abcA**, **abcB**, and **abcC**, corresponding to the "A", "B", and "C" widths of a [glyph](#glyph) or [run](#run).
 
 The "A" width is [underhang](#underhang) (positive; also known as "padding") or [overhang](#overhang) (negative) to the left of the on-screen equivalent of ink that represents the glyph or run. The "B" width is the black width, the width from the leftmost ink to the rightmost ink. The "C" width is overhang to the right of the ink.
 

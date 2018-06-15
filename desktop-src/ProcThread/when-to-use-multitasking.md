@@ -28,9 +28,9 @@ It is typically more efficient for an application to implement multitasking by c
 
 There are other techniques you can use in the place of multithreading. The most significant of these are as follows: asynchronous input and output (I/O), I/O completion ports, asynchronous procedure calls (APC), and the ability to wait for multiple events.
 
-A single thread can initiate multiple time-consuming I/O requests that can run concurrently using asynchronous I/O. Asynchronous I/O can be performed on files, pipes, and serial communication devices. For more information, see [Synchronization and Overlapped Input and Output](https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af).
+A single thread can initiate multiple time-consuming I/O requests that can run concurrently using asynchronous I/O. Asynchronous I/O can be performed on files, pipes, and serial communication devices. For more information, see [Synchronization and Overlapped Input and Output](https://msdn.microsoft.com/en-us/library/ms686358(v=VS.85).aspx).
 
-A single thread can block its own execution while waiting for any one or all of several events to occur. This is more efficient than using multiple threads, each waiting for a single event, and more efficient than using a single thread that consumes processor time by continually checking for events to occur. For more information, see [Wait Functions](https://msdn.microsoft.com/9c66c71d-fdfd-42ae-895c-2fc842b5bc7a).
+A single thread can block its own execution while waiting for any one or all of several events to occur. This is more efficient than using multiple threads, each waiting for a single event, and more efficient than using a single thread that consumes processor time by continually checking for events to occur. For more information, see [Wait Functions](https://msdn.microsoft.com/en-us/library/ms687069(v=VS.85).aspx).
 
  
 

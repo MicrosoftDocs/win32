@@ -89,7 +89,7 @@ Return **S\_OK** if successful.
 
 ## Remarks
 
-This method allocates the memory required for the buffer pointed to by the *pVersion* parameter. Calling C/C++ applications must free the memory with a call to the [**SysFreeString**](https://msdn.microsoft.com/windows/desktop/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function. This is not required for Visual Basic and scripting clients.
+This method allocates the memory required for the buffer pointed to by the *pVersion* parameter. Calling C/C++ applications must free the memory with a call to the [**SysFreeString**](https://msdn.microsoft.com/en-us/library/ms221481(v=VS.71).aspx) function. This is not required for Visual Basic and scripting clients.
 
 For more information about Remote Desktop Web Connection, see [Requirements for Remote Desktop Web Connection](requirements-for-remote-desktop-web-connection.md).
 

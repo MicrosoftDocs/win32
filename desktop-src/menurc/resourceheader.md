@@ -174,7 +174,7 @@ Type: **WORD**
 
 </dd> <dd>
 
-The language for the resource or set of resources. Set the value for this member with the optional [LANGUAGE](https://msdn.microsoft.com/windows/desktop/175e27e2-903a-4aaf-89ef-532166b167e8) resource definition statement. The parameters are constants from the Winnt.h file.
+The language for the resource or set of resources. Set the value for this member with the optional [LANGUAGE](https://msdn.microsoft.com/en-us/library/Aa381019(v=VS.85).aspx) resource definition statement. The parameters are constants from the Winnt.h file.
 
 Each resource includes a language identifier so the system or application can select a language appropriate for the current locale of the system. If there are multiple resources of the same type and name that differ only in the language of the strings within the resources, you will need to specify a **LanguageId** for each one.
 
@@ -187,7 +187,7 @@ Type: **DWORD**
 
 </dd> <dd>
 
-A user-defined version number for the resource data that tools can use to read and write resource files. Set this value with the optional [VERSION](https://msdn.microsoft.com/windows/desktop/3a33cff3-b8b3-43f4-b43a-ff1d1728cdc1) resource definition statement.
+A user-defined version number for the resource data that tools can use to read and write resource files. Set this value with the optional [VERSION](https://msdn.microsoft.com/en-us/library/Aa381059(v=VS.85).aspx) resource definition statement.
 
 </dd> <dt>
 
@@ -198,13 +198,13 @@ Type: **DWORD**
 
 </dd> <dd>
 
-Specifies user-defined information about the resource that tools can use to read and write resource files. Set this value with the optional [CHARACTERISTICS](https://msdn.microsoft.com/windows/desktop/07834b02-a36e-40cc-8907-bff6631842f3) resource definition statement.
+Specifies user-defined information about the resource that tools can use to read and write resource files. Set this value with the optional [CHARACTERISTICS](https://msdn.microsoft.com/en-us/library/Aa380872(v=VS.85).aspx) resource definition statement.
 
 </dd> </dl>
 
 ## Remarks
 
-A variable type member is called a **Name** or **Ordinal** member, and it is used in most places in the resource file where an identifier appears. The first **WORD** of a **Name** or **Ordinal** type member indicates whether the member is a numeric value or a string. If the first **WORD** in the member is equal to the value 0xffff, which is an invalid Unicode character, then the following **WORD** is a type number. Otherwise, the member contains a Unicode string and the first **WORD** in the member is the first character in the name string. For additional information about resource definition statements, see [Resource-Definition Statements](https://msdn.microsoft.com/windows/desktop/f96b8c1e-8188-40b7-8eda-c13b61b8fc41).
+A variable type member is called a **Name** or **Ordinal** member, and it is used in most places in the resource file where an identifier appears. The first **WORD** of a **Name** or **Ordinal** type member indicates whether the member is a numeric value or a string. If the first **WORD** in the member is equal to the value 0xffff, which is an invalid Unicode character, then the following **WORD** is a type number. Otherwise, the member contains a Unicode string and the first **WORD** in the member is the first character in the name string. For additional information about resource definition statements, see [Resource-Definition Statements](https://msdn.microsoft.com/en-us/library/Aa381043(v=VS.85).aspx).
 
 ## Requirements
 
@@ -230,13 +230,13 @@ A variable type member is called a **Name** or **Ordinal** member, and it is use
 **Other Resources**
 </dt> <dt>
 
-[CHARACTERISTICS Statement](https://msdn.microsoft.com/windows/desktop/07834b02-a36e-40cc-8907-bff6631842f3)
+[CHARACTERISTICS Statement](https://msdn.microsoft.com/en-us/library/Aa380872(v=VS.85).aspx)
 </dt> <dt>
 
-[LANGUAGE Statement](https://msdn.microsoft.com/windows/desktop/175e27e2-903a-4aaf-89ef-532166b167e8)
+[LANGUAGE Statement](https://msdn.microsoft.com/en-us/library/Aa381019(v=VS.85).aspx)
 </dt> <dt>
 
-[VERSION Statement](https://msdn.microsoft.com/windows/desktop/3a33cff3-b8b3-43f4-b43a-ff1d1728cdc1)
+[VERSION Statement](https://msdn.microsoft.com/en-us/library/Aa381059(v=VS.85).aspx)
 </dt> </dl>
 
  

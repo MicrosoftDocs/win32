@@ -48,7 +48,7 @@ The Native Wifi interface defines and uses the following structures.
 -   [**WLAN\_INTERFACE\_INFO\_LIST**](/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_interface_info_list)
 -   [**WLAN\_MAC\_FRAME\_STATISTICS**](/windows/desktop/api/wlanapi/ns-wlanapi-wlan_mac_frame_statistics)
 -   [**WLAN\_MSM\_NOTIFICATION\_DATA**](/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_msm_notification_data)
--   [**WLAN\_NOTIFICATION\_DATA**](/windows/desktop/api/Wlanapi/)
+-   [**WLAN\_NOTIFICATION\_DATA**](https://msdn.microsoft.com/en-us/library/ms706902(v=VS.85).aspx)
 -   [**WLAN\_PHY\_FRAME\_STATISTICS**](/windows/desktop/api/wlanapi/ns-wlanapi-wlan_phy_frame_statistics)
 -   [**WLAN\_PHY\_RADIO\_STATE**](/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_phy_radio_state)
 -   [**WLAN\_PROFILE\_INFO**](/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_profile_info)

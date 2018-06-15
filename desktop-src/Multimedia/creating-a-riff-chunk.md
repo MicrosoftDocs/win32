@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 # Creating a RIFF Chunk
 
-The following example uses the [**mmioCreateChunk**](https://www.bing.com/search?q=**mmioCreateChunk**) function to create a chunk with a chunk identifier of "RIFF" and a form type of "RDIB".
+The following example uses the [**mmioCreateChunk**](https://msdn.microsoft.com/en-us/library/Dd757317(v=VS.85).aspx) function to create a chunk with a chunk identifier of "RIFF" and a form type of "RDIB".
 
 
 ```C++
@@ -37,11 +37,11 @@ mmioCreateChunk(hmmio, &amp;mmckinfo, MMIO_CREATERIFF);
 
 
 
-If you are creating a "RIFF" or "LIST" chunk, you must specify the form type or list type in the **fccType** member of the [**MMCKINFO**](https://www.bing.com/search?q=**MMCKINFO**) structure. In the previous example, "RDIB" is the form type.
+If you are creating a "RIFF" or "LIST" chunk, you must specify the form type or list type in the **fccType** member of the [**MMCKINFO**](https://msdn.microsoft.com/en-us/library/Dd757312(v=VS.85).aspx) structure. In the previous example, "RDIB" is the form type.
 
-If you know the size of the data field in a new chunk, you can set the **cksize** member of the **MMCKINFO** structure when you create the chunk. This value will be written to the data size field in the new chunk. If this value is not correct when you call [**mmioAscend**](https://www.bing.com/search?q=**mmioAscend**) to mark the end of the chunk, it will be automatically rewritten to reflect the correct size of the data field.
+If you know the size of the data field in a new chunk, you can set the **cksize** member of the **MMCKINFO** structure when you create the chunk. This value will be written to the data size field in the new chunk. If this value is not correct when you call [**mmioAscend**](https://msdn.microsoft.com/en-us/library/Dd757315(v=VS.85).aspx) to mark the end of the chunk, it will be automatically rewritten to reflect the correct size of the data field.
 
-After you create a chunk by using the [**mmioCreateChunk**](https://www.bing.com/search?q=**mmioCreateChunk**) function, the file position is set to the data field of the chunk (8 bytes from the beginning of the chunk). If the chunk is a "RIFF" or "LIST" chunk, the file position is set to the location following the form type or list type (12 bytes from the beginning of the chunk).
+After you create a chunk by using the [**mmioCreateChunk**](https://msdn.microsoft.com/en-us/library/Dd757317(v=VS.85).aspx) function, the file position is set to the data field of the chunk (8 bytes from the beginning of the chunk). If the chunk is a "RIFF" or "LIST" chunk, the file position is set to the location following the form type or list type (12 bytes from the beginning of the chunk).
 
  
 

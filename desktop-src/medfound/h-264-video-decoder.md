@@ -15,7 +15,7 @@ The Media Foundation H.264 video decoder is a [Media Foundation Transform](media
 
 The H.264 video decoder exposes the following interfaces.
 
--   [**ICodecAPI**](https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073) (supported in Windows 8)
+-   [**ICodecAPI**](https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx) (supported in Windows 8)
 -   [**IMFGetService**](/windows/desktop/api/mfidl/nn-mfidl-imfgetservice)
 -   [**IMFQualityAdvise**](/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise)
 -   [**IMFQualityAdvise2**](/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise2)
@@ -27,7 +27,7 @@ The H.264 video decoder exposes the following interfaces.
 To create an instance of the decoder, do one of the following:
 
 -   Call the [**MFTEnum**](/windows/desktop/api/mfapi/nf-mfapi-mftenum) or [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex) function.
--   Call [**CoCreateInstance**](https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec). The CLSID for the decoder is **CLSID\_CMSH264DecoderMFT**, declared in wmcodecdsp.h.
+-   Call [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx). The CLSID for the decoder is **CLSID\_CMSH264DecoderMFT**, declared in wmcodecdsp.h.
 
 ## Input Types
 
@@ -112,8 +112,8 @@ The H.264 decoder implements the [**IMFTransform::GetAttributes**](/windows/desk
 
 | Attribute                                                                                       | Description                                                                                |
 |-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| [CODECAPI\_AVDecVideoAcceleration\_H264](https://msdn.microsoft.com/3912136d-0fc1-49b0-bc79-0785d63041e6)            | Enables or disables hardware acceleration.                                                 |
-| [CODECAPI\_AVDecVideoThumbnailGenerationMode](https://msdn.microsoft.com/c640d915-585b-481d-aa49-0d4a559d291c) | Enables or disables thumbnail generation mode.                                             |
+| [CODECAPI\_AVDecVideoAcceleration\_H264](https://msdn.microsoft.com/en-us/library/Dd742712(v=VS.85).aspx)            | Enables or disables hardware acceleration.                                                 |
+| [CODECAPI\_AVDecVideoThumbnailGenerationMode](https://msdn.microsoft.com/en-us/library/Dd742718(v=VS.85).aspx) | Enables or disables thumbnail generation mode.                                             |
 | [MF\_SA\_D3D\_AWARE](mf-sa-d3d-aware-attribute.md)                                             | Indicates that the decoder supports DirectX Video Acceleration (DXVA). Treat as read-only. |
 
 
@@ -137,13 +137,13 @@ In Windows 8, the H.264 decoder also supports the following attributes.
 
  
 
-In Windows 8, the H.264 decoder supports the [**ICodecAPI**](https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073) interface. This interface provides an alternativate API for setting the following codec properties.
+In Windows 8, the H.264 decoder supports the [**ICodecAPI**](https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx) interface. This interface provides an alternativate API for setting the following codec properties.
 
 -   [CODECAPI\_AVDecVideoMaxCodedWidth](codecapi-avdecvideomaxcodedwidth.md)
--   [CODECAPI\_AVDecVideoAcceleration\_H264](https://msdn.microsoft.com/3912136d-0fc1-49b0-bc79-0785d63041e6)
+-   [CODECAPI\_AVDecVideoAcceleration\_H264](https://msdn.microsoft.com/en-us/library/Dd742712(v=VS.85).aspx)
 -   [CODECAPI\_AVDecVideoMaxCodedHeight](codecapi-avdecvideomaxcodedheight.md)
 -   [CODECAPI\_AVDecVideoMaxCodedWidth](codecapi-avdecvideomaxcodedwidth.md)
--   [CODECAPI\_AVDecVideoThumbnailGenerationMode](https://msdn.microsoft.com/c640d915-585b-481d-aa49-0d4a559d291c)
+-   [CODECAPI\_AVDecVideoThumbnailGenerationMode](https://msdn.microsoft.com/en-us/library/Dd742718(v=VS.85).aspx)
 
 ## Format Constraints
 

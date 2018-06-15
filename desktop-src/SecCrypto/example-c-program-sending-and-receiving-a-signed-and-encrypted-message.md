@@ -11,14 +11,14 @@ ms.date: 05/31/2018
 
 # Example C Program: Sending and Receiving a Signed and Encrypted Message
 
-The following example signs a message using a sender's [*private key*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) and encrypts the signed message using a receiver's [*public key*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a). The example then decrypts the message using the receiver's private key and verifies the signature using the sender's public key. The sender's certificate containing the needed public key is included in the encrypted message. This example also writes the signed and encrypted message to a file. For more information, see [Example C Program: Receiving a Signed and Encrypted Message](example-c-program-receiving-a-signed-and-encrypted-message.md).
+The following example signs a message using a sender's [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) and encrypts the signed message using a receiver's [*public key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx). The example then decrypts the message using the receiver's private key and verifies the signature using the sender's public key. The sender's certificate containing the needed public key is included in the encrypted message. This example also writes the signed and encrypted message to a file. For more information, see [Example C Program: Receiving a Signed and Encrypted Message](example-c-program-receiving-a-signed-and-encrypted-message.md).
 
 To sign the message, the signer's private key and the signer's certificate must be available. To encrypt the signed message, a receiver's certificate including the receiver's public key must be available.
 
 To decrypt the message, the receiver's private key must be available. After the message is decrypted, the signature is verified using the public key from the certificate included in the encrypted message.
 
 > [!Note]  
-> Not all of the certificates in a [*certificate store*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) provide access to the [*private key*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) associated with that certificate. When the message is signed and encrypted, a certificate belonging to the signer with access to the private key of that signer must be used. In addition, the receiver of the message must have access to the private key associated with the public key used to encrypt the message.
+> Not all of the certificates in a [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) provide access to the [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) associated with that certificate. When the message is signed and encrypted, a certificate belonging to the signer with access to the private key of that signer must be used. In addition, the receiver of the message must have access to the private key associated with the public key used to encrypt the message.
 
  
 

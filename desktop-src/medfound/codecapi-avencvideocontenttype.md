@@ -23,7 +23,7 @@ Indicates the type of video content for a video encoder.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncVideoContentType**](/windows/desktop/api/codecapi/) enumeration.
+The value of this property is a member of the [**eAVEncVideoContentType**](https://msdn.microsoft.com/en-us/library/Hh447686(v=VS.85).aspx) enumeration.
 
 ## Remarks
 

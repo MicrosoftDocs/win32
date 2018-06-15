@@ -25,8 +25,8 @@ Sets the alpha value for the effect.
 
 | Method                                                                               | Description                                     |
 |:-------------------------------------------------------------------------------------|:------------------------------------------------|
-| [**SetAlpha (IDCompositionAnimation \*)**](/windows/desktop/api/dcomp/) | Sets the alpha value for the effect.<br/> |
-| [**SetAlpha**](/windows/desktop/api/dcomp/)                               | Sets the alpha value for the effect.<br/> |
+| [**SetAlpha (IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919768(v=VS.85).aspx) | Sets the alpha value for the effect.<br/> |
+| [**SetAlpha**](https://msdn.microsoft.com/en-us/library/Dn919767(v=VS.85).aspx)                               | Sets the alpha value for the effect.<br/> |
 
 
 
@@ -34,7 +34,7 @@ Sets the alpha value for the effect.
 
 <dl> <dt>
 
-[**IDCompositionShadowEffect**](/windows/desktop/api/Dcomp/)
+[**IDCompositionShadowEffect**](https://msdn.microsoft.com/en-us/library/Dn919766(v=VS.85).aspx)
 </dt> </dl>
 
  

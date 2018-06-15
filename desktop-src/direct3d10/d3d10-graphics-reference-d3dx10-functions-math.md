@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Math Functions
 
 > [!Note]  
-> The math functions of the D3DX utility library are deprecated for Windows 8. We recommend that you use [DirectXMath](https://msdn.microsoft.com/719954bf-0d7d-f647-2d3f-a77d87df204e) instead.
+> The math functions of the D3DX utility library are deprecated for Windows 8. We recommend that you use [DirectXMath](https://msdn.microsoft.com/en-us/library/Hh437833(v=VS.85).aspx) instead.
 
  
 

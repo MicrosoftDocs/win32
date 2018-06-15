@@ -123,7 +123,7 @@ Forced Power Off (8 + 4)
 
 ## Return value
 
-Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/b560f37c-da22-4745-8d1f-b27afdf572ec) or [**WbemErrorEnum**](https://msdn.microsoft.com/6accd7c9-cb12-4eba-aff0-0aa38324b4ff). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7).
+Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/en-us/library/Aa394559(v=VS.85).aspx) or [**WbemErrorEnum**](https://msdn.microsoft.com/en-us/library/Aa393978(v=VS.85).aspx). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx).
 
 <dl> <dt>
 
@@ -181,7 +181,7 @@ Next
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/windows/desktop/D0756D8C-A3D3-4C75-96A3-8C7F05300B39)
+[Operating System Classes](https://msdn.microsoft.com/en-us/library/Dn792258(v=VS.85).aspx)
 </dt> <dt>
 
 [**Win32\_OperatingSystem**](win32-operatingsystem.md)

@@ -17,7 +17,7 @@ There are three ways for an application to shut down local or remote computers:
 -   shut down the system and restart it
 -   shut down the application, shut down and restart the system, and restart any applications that have been registered for restart
 
-To shut down the system, use the [**ExitWindowsEx**](/windows/desktop/api/Winuser/nf-winuser-exitwindowsex) function with the EWX\_SHUTDOWN flag. For an example, see [How to Shut Down the System](how-to-shut-down-the-system.md). To shut down and restart the system, use the EWX\_REBOOT flag. To restart any applications that have been registered for restart using the [**RegisterApplicationRestart**](https://msdn.microsoft.com/f4cd25b3-2aee-460f-9f9f-b45ecded094f) function, use the EXW\_RESTARTAPPS flag.
+To shut down the system, use the [**ExitWindowsEx**](/windows/desktop/api/Winuser/nf-winuser-exitwindowsex) function with the EWX\_SHUTDOWN flag. For an example, see [How to Shut Down the System](how-to-shut-down-the-system.md). To shut down and restart the system, use the EWX\_REBOOT flag. To restart any applications that have been registered for restart using the [**RegisterApplicationRestart**](https://msdn.microsoft.com/en-us/library/Aa373347(v=VS.85).aspx) function, use the EXW\_RESTARTAPPS flag.
 
 The [**InitiateShutdown**](/windows/desktop/api/Winreg/nf-winreg-initiateshutdowna), [**InitiateSystemShutdown**](/windows/desktop/api/Winreg/nf-winreg-initiatesystemshutdowna), and [**InitiateSystemShutdownEx**](/windows/desktop/api/Winreg/nf-winreg-initiatesystemshutdownexa) functions start a timer and display a dialog box that prompts the user to log off. While this dialog box is displayed, the [**AbortSystemShutdown**](/windows/desktop/api/Winreg/nf-winreg-abortsystemshutdowna) function can stop the timer and prevent the computer from shutting down. However, if the timer expires, the computer is shut down. These functions can also restart the computer following a shutdown operation. For more information, see [Displaying the Shutdown Dialog Box](displaying-the-shutdown-dialog-box.md).
 
@@ -27,7 +27,7 @@ Applications with a window and message queue receive shutdown notifications thro
 
 Console applications receive shutdown notifications in their handler routines. To register a console handler, use the [**SetConsoleCtrlHandler**](https://www.bing.com/search?q=**SetConsoleCtrlHandler**) function.
 
-Service applications receive shutdown notifications in their handler routines. To register a service control handler, use the [**RegisterServiceCtrlHandlerEx**](https://msdn.microsoft.com/23eea346-9899-4214-88f4-9b7eb7ce1332) function.
+Service applications receive shutdown notifications in their handler routines. To register a service control handler, use the [**RegisterServiceCtrlHandlerEx**](https://msdn.microsoft.com/en-us/library/ms685058(v=VS.85).aspx) function.
 
 ## Blocking Shutdown
 

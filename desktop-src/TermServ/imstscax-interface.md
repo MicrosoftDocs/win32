@@ -30,7 +30,7 @@ Enables you to connect and disconnect the client control, create virtual channel
 
 ## Members
 
-The **IMsTscAx** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IMsTscAx** also has these types of members:
+The **IMsTscAx** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IMsTscAx** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -105,7 +105,7 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
+[**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx)
 </dt> <dt>
 
 [Remote Desktop Web Connection Reference](remote-desktop-web-connection-reference.md)

@@ -21,7 +21,7 @@ As part of the enhanced security of the system, access checks are enabled by def
 
 ## Application Pooling
 
-With the new ConcurrentApps property of the [**COMAdminCatalogObject**](/windows/desktop/api/ComAdmin/) object in the [**Applications**](applications.md) collection, COM+ Application Pooling adds scalability for single-threaded processes and integrates with the new COM+ Application Recycling service. See [COM+ Application Pooling](com--application-pooling.md) for detailed information.
+With the new ConcurrentApps property of the [**COMAdminCatalogObject**](https://msdn.microsoft.com/en-us/library/ms679228(v=VS.85).aspx) object in the [**Applications**](applications.md) collection, COM+ Application Pooling adds scalability for single-threaded processes and integrates with the new COM+ Application Recycling service. See [COM+ Application Pooling](com--application-pooling.md) for detailed information.
 
 ## Application Recycling
 

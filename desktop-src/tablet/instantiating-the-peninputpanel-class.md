@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 
 # Instantiating the PenInputPanel Class
 
-\[[**PenInputPanel**](/windows/desktop/api/msinkaut/) has been replaced by [Microsoft.Ink.TextInput](https://www.bing.com/search?q=Microsoft.Ink.TextInput). Please refer to the [Programming the Text Input Panel](programming-the-text-input-panel.md).\]
+\[[**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) has been replaced by [Microsoft.Ink.TextInput](https://www.bing.com/search?q=Microsoft.Ink.TextInput). Please refer to the [Programming the Text Input Panel](programming-the-text-input-panel.md).\]
 
-You can instantiate multiple [**PenInputPanel**](/windows/desktop/api/msinkaut/) objects, attaching one to each control on a form, or you can instantiate one **PenInputPanel** object and move it between controls in focus event handlers. Because only one edit control can have focus at a time, the second method can save memory. A version of the Auto Claims sample called the [PenInputPanel Sample](peninputpanel-sample.md) has been implemented showing both techniques.
+You can instantiate multiple [**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) objects, attaching one to each control on a form, or you can instantiate one **PenInputPanel** object and move it between controls in focus event handlers. Because only one edit control can have focus at a time, the second method can save memory. A version of the Auto Claims sample called the [PenInputPanel Sample](peninputpanel-sample.md) has been implemented showing both techniques.
 
-The following sections describe creating and displaying [**PenInputPanel**](/windows/desktop/api/msinkaut/) objects.
+The following sections describe creating and displaying [**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) objects.
 
 -   [Creating a PenInputPanel Object](creating-a-peninputpanel-object.md)
 -   [Using the PenInputPanel with Combo Boxes](using-the-peninputpanel-with-combo-boxes.md)

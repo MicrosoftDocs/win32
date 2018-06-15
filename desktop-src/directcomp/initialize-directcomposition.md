@@ -92,7 +92,7 @@ Use the **QueryInterface** method to retrieve the [**IDXGIDevice**](https://msdn
 
 ### Step 3: Create the DirectComposition device object
 
-Use the [**DCompositionCreateDevice**](/windows/desktop/api/Dcomp/nf-dcomp-dcompositioncreatedevice) function to create an instance of the DirectComposition device object, specifying the [**IDXGIDevice**](https://msdn.microsoft.com/library/windows/desktop/bb174527) pointer retrieved in the previous step. The function retrieves an [**IDCompositionDevice**](/windows/desktop/api/Dcomp/) pointer used to create all other DirectComposition objects used in a composition.
+Use the [**DCompositionCreateDevice**](/windows/desktop/api/Dcomp/nf-dcomp-dcompositioncreatedevice) function to create an instance of the DirectComposition device object, specifying the [**IDXGIDevice**](https://msdn.microsoft.com/library/windows/desktop/bb174527) pointer retrieved in the previous step. The function retrieves an [**IDCompositionDevice**](https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx) pointer used to create all other DirectComposition objects used in a composition.
 
 
 ```C++
@@ -127,7 +127,7 @@ Use the [**DCompositionCreateDevice**](/windows/desktop/api/Dcomp/nf-dcomp-dcomp
 
 ### Step 4: Create the composition target object
 
-Use the [**IDCompositionDevice::CreateTargetForHwnd**](/windows/desktop/api/Dcomp/) method to create an instance of the composition target object. Calling **CreateTargetForHwnd** binds the device object to the application window that will display the composition.
+Use the [**IDCompositionDevice::CreateTargetForHwnd**](https://msdn.microsoft.com/en-us/library/Hh437396(v=VS.85).aspx) method to create an instance of the composition target object. Calling **CreateTargetForHwnd** binds the device object to the application window that will display the composition.
 
 
 ```C++
@@ -161,7 +161,7 @@ Use the [**IDCompositionDevice::CreateTargetForHwnd**](/windows/desktop/api/Dcom
 
 ### Step 5: Create a visual object
 
-Use the [**IDCompositionDevice::CreateVisual**](/windows/desktop/api/Dcomp/) method to create a visual object. The method retrieves an [**IDCompositionVisual**](/windows/desktop/api/Dcomp/) pointer used to set the properties of the visual. For more information, see [Properties of a visual object](basic-concepts.md).
+Use the [**IDCompositionDevice::CreateVisual**](https://msdn.microsoft.com/en-us/library/Hh437414(v=VS.85).aspx) method to create a visual object. The method retrieves an [**IDCompositionVisual**](https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx) pointer used to set the properties of the visual. For more information, see [Properties of a visual object](basic-concepts.md).
 
 
 ```C++
@@ -175,7 +175,7 @@ Use the [**IDCompositionDevice::CreateVisual**](/windows/desktop/api/Dcomp/) met
 
 ### Step 6: Create a composition surface and render a bitmap to the surface
 
-Create an [**IDCompositionSurface**](/windows/desktop/api/Dcomp/) pointer.
+Create an [**IDCompositionSurface**](https://msdn.microsoft.com/en-us/library/Hh449083(v=VS.85).aspx) pointer.
 
 
 ```C++
@@ -289,7 +289,7 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
 
 ### Step 7: Bind surface to visual and set the properties of the visual object
 
-Call the methods of the visual object's [**IDCompositionVisual**](/windows/desktop/api/Dcomp/) interface to set the properties of the visual.
+Call the methods of the visual object's [**IDCompositionVisual**](https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx) interface to set the properties of the visual.
 
 This next example sets the bitmap content for the visual, and the horizontal and vertical position of the visual relative to upper-left corner of its container. Because it is the root visual, the container for this visual is the composition target window.
 
@@ -317,7 +317,7 @@ This next example sets the bitmap content for the visual, and the horizontal and
 
 ### Step 8: Set the root visual of the visual tree
 
-Set the root visual of the visual tree by calling the [**IDCompositionTarget::SetRoot**](/windows/desktop/api/Dcomp/) method.
+Set the root visual of the visual tree by calling the [**IDCompositionTarget::SetRoot**](https://msdn.microsoft.com/en-us/library/Hh449109(v=VS.85).aspx) method.
 
 
 ```C++
@@ -332,7 +332,7 @@ Set the root visual of the visual tree by calling the [**IDCompositionTarget::Se
 
 ### Step 9: Commit the composition
 
-Call the [**IDCompositionDevice::Commit**](/windows/desktop/api/Dcomp/) method to commit the batch of commands to DirectComposition for processing. The resulting composition appears in the target window.
+Call the [**IDCompositionDevice::Commit**](https://msdn.microsoft.com/en-us/library/Hh437393(v=VS.85).aspx) method to commit the batch of commands to DirectComposition for processing. The resulting composition appears in the target window.
 
 
 ```C++
@@ -1011,22 +1011,22 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
 [**D3D11CreateDevice**](https://msdn.microsoft.com/library/windows/desktop/ff476082)
 </dt> <dt>
 
-[**IDCompositionDevice::Commit**](/windows/desktop/api/Dcomp/)
+[**IDCompositionDevice::Commit**](https://msdn.microsoft.com/en-us/library/Hh437393(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDCompositionDevice::CreateTargetForHwnd**](/windows/desktop/api/Dcomp/)
+[**IDCompositionDevice::CreateTargetForHwnd**](https://msdn.microsoft.com/en-us/library/Hh437396(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDCompositionDevice::CreateVisual**](/windows/desktop/api/Dcomp/)
+[**IDCompositionDevice::CreateVisual**](https://msdn.microsoft.com/en-us/library/Hh437414(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDCompositionSurface**](/windows/desktop/api/Dcomp/)
+[**IDCompositionSurface**](https://msdn.microsoft.com/en-us/library/Hh449083(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDCompositionTarget::SetRoot**](/windows/desktop/api/Dcomp/)
+[**IDCompositionTarget::SetRoot**](https://msdn.microsoft.com/en-us/library/Hh449109(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDCompositionVisual::SetContent**](/windows/desktop/api/Dcomp/)
+[**IDCompositionVisual::SetContent**](https://msdn.microsoft.com/en-us/library/Hh449157(v=VS.85).aspx)
 </dt> <dt>
 
 [**IDXGIDevice**](https://msdn.microsoft.com/library/windows/desktop/bb174527)

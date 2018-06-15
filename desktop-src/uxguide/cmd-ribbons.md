@@ -607,7 +607,7 @@ Whenever practical, map your program's commands to these standard groups, which 
 
     In this example, the button immediately prints a single copy to the default printer, whereas the submenu version displays the Print Options dialog box.
 
-For command labeling guidelines, see [Command labels](https://msdn.microsoft.com/windows/desktop/f579745a-5327-4c8b-bfa7-fe81d9657a3b). For guidelines on specific common controls, see the respective [control guidelines](controls.md).
+For command labeling guidelines, see [Command labels](https://msdn.microsoft.com/en-us/library/Dd319301(v=VS.85).aspx). For guidelines on specific common controls, see the respective [control guidelines](controls.md).
 
 ### Galleries
 

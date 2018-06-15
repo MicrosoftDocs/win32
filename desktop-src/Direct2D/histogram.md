@@ -106,7 +106,7 @@ This effect outputs a FLOAT\[\], with the number of elements corresponding to th
 ## Remarks
 
 > [!Note]  
-> The [**CreateEffect**](/windows/desktop/api/D2d1_1/) method fails if the device doesn't support DirectCompute and returns HRESULT = D2DERR\_INSUFFICIENT\_DEVICE\_CAPABILITIES. All DirectX11 cards and DirectX10 cards that support DirectCompute can use the effect.
+> The [**CreateEffect**](https://msdn.microsoft.com/en-us/library/Hh404500(v=VS.85).aspx) method fails if the device doesn't support DirectCompute and returns HRESULT = D2DERR\_INSUFFICIENT\_DEVICE\_CAPABILITIES. All DirectX11 cards and DirectX10 cards that support DirectCompute can use the effect.
 
  
 
@@ -129,7 +129,7 @@ This effect outputs a FLOAT\[\], with the number of elements corresponding to th
 
 <dl> <dt>
 
-[**ID2D1Effect**](/windows/desktop/api/D2d1_1/)
+[**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx)
 </dt> </dl>
 
  

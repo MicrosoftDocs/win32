@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[This function is a wrapper over the **MoveFile** function. This function may be altered or unavailable in the future. Applications should call **MoveFile** directly.\]
 
-Moves an existing file or directory, including its children. See [**MoveFile**](https://msdn.microsoft.com/baa3cc02-0a61-4463-b2f1-0d7aaefa126b)
+Moves an existing file or directory, including its children. See [**MoveFile**](https://msdn.microsoft.com/en-us/library/Aa365239(v=VS.85).aspx)
 
 ## Syntax
 
@@ -47,7 +47,7 @@ BOOL _MoveFile(
 
 <dl> <dt>
 
-[**MoveFile**](https://msdn.microsoft.com/baa3cc02-0a61-4463-b2f1-0d7aaefa126b)
+[**MoveFile**](https://msdn.microsoft.com/en-us/library/Aa365239(v=VS.85).aspx)
 </dt> </dl>
 
  

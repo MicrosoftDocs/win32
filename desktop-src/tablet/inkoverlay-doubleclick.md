@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # InkOverlay.DoubleClick event
 
-Occurs when the [**InkCollector**](/windows/desktop/api/msinkaut/) or [**InkOverlay**](/windows/desktop/api/msinkaut/) object is double-clicked.
+Occurs when the [**InkCollector**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx) or [**InkOverlay**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx) object is double-clicked.
 
 ## Syntax
 
@@ -60,7 +60,7 @@ This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, 
 
 <dl> <dt>
 
-[**InkOverlay Class**](/windows/desktop/api/msinkaut/)
+[**InkOverlay Class**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx)
 </dt> </dl>
 
  

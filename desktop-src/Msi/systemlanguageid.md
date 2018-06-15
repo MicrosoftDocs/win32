@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # SystemLanguageID property
 
-The **SystemLanguageID** property is the default language identifier for the system. The installer sets it by a call to [**GetSystemDefaultLangID**](https://msdn.microsoft.com/cf9d2f64-a8ad-46f8-9e91-a927b6b3ce08).
+The **SystemLanguageID** property is the default language identifier for the system. The installer sets it by a call to [**GetSystemDefaultLangID**](https://msdn.microsoft.com/en-us/library/Dd318120(v=VS.85).aspx).
 
 ## Requirements
 

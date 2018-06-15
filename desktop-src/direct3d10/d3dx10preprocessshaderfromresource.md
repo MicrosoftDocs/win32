@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # D3DX10PreprocessShaderFromResource function
 
 > [!Note]  
-> Instead of using this legacy function, we recommend that you use the [**D3DPreprocess**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dpreprocess.htm) API.
+> Instead of using this legacy function, we recommend that you use the [**D3DPreprocess**](https://msdn.microsoft.com/en-us/library/Dd607332(v=VS.85).aspx) API.
 
  
 
@@ -43,7 +43,7 @@ HRESULT D3DX10PreprocessShaderFromResource(
 *hModule* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**HMODULE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Handle to the resource module containing the shader. HMODULE can be obtained with [GetModuleHandle Function](http://msdn.microsoft.com/en-us/library/ms683199.aspx).
 
@@ -52,7 +52,7 @@ Handle to the resource module containing the shader. HMODULE can be obtained wit
 *pResourceName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCTSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 The name of the resource in side hModule containing the shader. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the data type resolves to LPCSTR.
 
@@ -61,7 +61,7 @@ The name of the resource in side hModule containing the shader. If the compiler 
 *pSrcFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCTSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Optional. Effect file name, which is used for error messages only. Can be **NULL**.
 
@@ -70,18 +70,18 @@ Optional. Effect file name, which is used for error messages only. Can be **NULL
 *pDefines* \[in\]
 </dt> <dd>
 
-Type: **const [**D3D10\_SHADER\_MACRO**](/windows/desktop/api/D3D10Shader/)\***
+Type: **const [**D3D10\_SHADER\_MACRO**](https://msdn.microsoft.com/en-us/library/Bb172436(v=VS.85).aspx)\***
 
-A NULL-terminated array of shader macros (see [**D3D10\_SHADER\_MACRO**](/windows/desktop/api/D3D10Shader/)); set this to **NULL** to specify no macros.
+A NULL-terminated array of shader macros (see [**D3D10\_SHADER\_MACRO**](https://msdn.microsoft.com/en-us/library/Bb172436(v=VS.85).aspx)); set this to **NULL** to specify no macros.
 
 </dd> <dt>
 
 *pInclude* \[in\]
 </dt> <dd>
 
-Type: **[**LPD3D10INCLUDE**](/windows/desktop/api/D3D10Shader/)**
+Type: **[**LPD3D10INCLUDE**](https://msdn.microsoft.com/en-us/library/Bb173775(v=VS.85).aspx)**
 
-A pointer to an include interface (see [**ID3D10Include Interface**](/windows/desktop/api/D3D10Shader/)); set this to **NULL** to specify there is no include file.
+A pointer to an include interface (see [**ID3D10Include Interface**](https://msdn.microsoft.com/en-us/library/Bb173775(v=VS.85).aspx)); set this to **NULL** to specify there is no include file.
 
 </dd> <dt>
 
@@ -114,7 +114,7 @@ The address of a pointer to memory (see [**ID3D10Blob Interface**](/windows/desk
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

@@ -58,7 +58,7 @@ Pointer to a buffer that contains the user name of the new user.
 
 Type: **LPCTSTR**
 
-Pointer to a buffer that contains the [registry hive](https://msdn.microsoft.com/fe517d88-7b03-4dc3-b3db-6a92665bca8e) to use. This parameter can be **NULL**.
+Pointer to a buffer that contains the [registry hive](https://msdn.microsoft.com/en-us/library/ms724877(v=VS.85).aspx) to use. This parameter can be **NULL**.
 
 </dd> <dt>
 
@@ -101,7 +101,7 @@ Returns **TRUE** if the new user profile was created successfully; otherwise, **
 
 ## Remarks
 
-This function is not declared in the software development kit (SDK) headers and has no associated import library. You must use the [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) functions to link to Userenv.dll. The ANSI version of the function, **CreateUserProfileExA** is referenced from Userenv.dll as ordinal 153. The Unicode version, **CreateUserProfileExW** is referenced as ordinal 154.
+This function is not declared in the software development kit (SDK) headers and has no associated import library. You must use the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions to link to Userenv.dll. The ANSI version of the function, **CreateUserProfileExA** is referenced from Userenv.dll as ordinal 153. The Unicode version, **CreateUserProfileExW** is referenced as ordinal 154.
 
 ## Requirements
 

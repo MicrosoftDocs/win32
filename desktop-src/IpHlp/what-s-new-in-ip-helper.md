@@ -176,8 +176,8 @@ Functions that provide persistent reservations for a consecutive block of TCP or
 
 The following functions have been added to the IP Helper APIs on Windows Server 2003 and later:
 
--   [**CancelSecurityHealthChangeNotify**](/windows/desktop/api/Iphlpapi/)
--   [**NotifySecurityHealthChange**](/windows/desktop/api/Iphlpapi/)
+-   [**CancelSecurityHealthChangeNotify**](https://msdn.microsoft.com/en-us/library/Bb442512(v=VS.85).aspx)
+-   [**NotifySecurityHealthChange**](https://msdn.microsoft.com/en-us/library/Bb451761(v=VS.85).aspx)
 
 ## Windows XP SP2
 

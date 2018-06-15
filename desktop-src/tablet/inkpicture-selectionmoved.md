@@ -31,7 +31,7 @@ void SelectionMoved(
 *OldSelectionRect* \[in\]
 </dt> <dd>
 
-The bounding rectangle of the selected [InkStrokes](/windows/desktop/api/msinkaut/) collection as it existed before the **SelectionMoved** event fired.
+The bounding rectangle of the selected [InkStrokes](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection as it existed before the **SelectionMoved** event fired.
 
 > [!Note]  
 > This rectangle is specified in ink space coordinates, which allows for undo scenarios.
@@ -73,7 +73,7 @@ To get the new bounding rectangle of the collection of strokes that have been mo
 [**Selection Property \[InkPicture Control\]**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection)
 </dt> <dt>
 
-[**InkRectangle Class**](/windows/desktop/api/msinkaut/)
+[**InkRectangle Class**](https://msdn.microsoft.com/en-us/library/ms700607(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -17,7 +17,7 @@ This section describes the Windows Property System structures.
 
 | Topic                                | Contents                                                                                                                                    |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| [**PROPERTYKEY**](https://www.bing.com/search?q=**PROPERTYKEY**) | Specifies the FMTID/PID identifier that programmatically identifies a property. Replaces [**SHCOLUMNID**](https://msdn.microsoft.com/bf7b0e3b-527a-4ef5-894a-a7e1b7750e72).<br/> |
+| [**PROPERTYKEY**](https://www.bing.com/search?q=**PROPERTYKEY**) | Specifies the FMTID/PID identifier that programmatically identifies a property. Replaces [**SHCOLUMNID**](https://msdn.microsoft.com/en-us/library/Bb759748(v=VS.85).aspx).<br/> |
 | [**PROPPRG**](/windows/desktop/api/Shlobj_core/ns-shlobj_core-propprg)           | This structure contains information from a .pif file. It is used by [**PifMgr\_GetProperties**](/windows/desktop/api/Shlobj_core/nf-shlobj_core-pifmgr_getproperties).<br/>       |
 
 

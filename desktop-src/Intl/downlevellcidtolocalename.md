@@ -74,7 +74,7 @@ Flags specifying the type of name to retrieve. The default value is DOWNLEVEL\_L
 
 Returns the count of UTF-16 code points in the locale name, including the terminating null character, if successful. If the function succeeds and the value of *cchName* is 0, the return value is the required size, in characters (including null characters), for the locale name buffer.
 
-The function returns 0 if it does not succeed. To get extended error information, the application can call [**GetLastError**](https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4), which can return one of the following error codes:
+The function returns 0 if it does not succeed. To get extended error information, the application can call [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx), which can return one of the following error codes:
 
 -   ERROR\_INSUFFICIENT\_BUFFER. A supplied buffer size was not large enough, or it was incorrectly set to **NULL**.
 -   ERROR\_INVALID\_FLAGS. The value of *dwFlags* is not valid.

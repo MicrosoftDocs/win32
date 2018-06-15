@@ -202,7 +202,7 @@ The values in this enumerated type are used by the following render states:
 -   D3DRS\_DESTBLENDALPHA
 -   D3DRS\_SRCBLENDALPHA
 
-See [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3drenderstatetype.htm)
+See [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx)
 
 ### Render Target Blending
 

@@ -32,7 +32,7 @@ FLOAT D3DXFresnelTerm(
 *CosTheta* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 The value must be between 0 and 1.
 
@@ -41,7 +41,7 @@ The value must be between 0 and 1.
 *RefractionIndex* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 The refraction index of a material. The value must be greater than 1.
 
@@ -49,7 +49,7 @@ The refraction index of a material. The value must be greater than 1.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 This function returns the Fresnel term for unpolarized light. CosTheta is the cosine of the incident angle.
 

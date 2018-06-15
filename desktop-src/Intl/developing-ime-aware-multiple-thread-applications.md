@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Developing IME-Aware Multiple-thread Applications
 
-The IMM includes thread identification checking that determines if a calling thread is the creator of a specified input method context handle (HIMC type) or window handle (HWND type). If the thread is not the creator of the handle, the called IMM function fails and a subsequent call to [**GetLastError**](https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4) returns ERROR\_INVALID\_ACCESS.
+The IMM includes thread identification checking that determines if a calling thread is the creator of a specified input method context handle (HIMC type) or window handle (HWND type). If the thread is not the creator of the handle, the called IMM function fails and a subsequent call to [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx) returns ERROR\_INVALID\_ACCESS.
 
 > [!Note]  
 > The current IMM architecture does not provide a synchronization facility for access to IMM handles.

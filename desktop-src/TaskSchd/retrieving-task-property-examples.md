@@ -22,17 +22,17 @@ The code examples listed at the bottom of the page show how to retrieve the prop
 
  
 
-Note that if you are retrieving a string property (such as the application name, parameters, or working directory), you must call [CoTaskMemFree](https://msdn.microsoft.com/windows/desktop/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7) to free the memory allocated for the returned string.
+Note that if you are retrieving a string property (such as the application name, parameters, or working directory), you must call [CoTaskMemFree](https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx) to free the memory allocated for the returned string.
 
 The following procedure describes how to retrieve a task property.
 
 **To retrieve a task property**
 
-1.  Call [**CoInitialize**](https://msdn.microsoft.com/windows/desktop/0f171cf4-87b9-43a6-97f2-80ed344fe376) to initialize the COM library and [**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) to get a Task Scheduler object. (These examples assume that the Task Scheduler service is running.)
+1.  Call [**CoInitialize**](https://msdn.microsoft.com/en-us/library/ms678543(v=VS.85).aspx) to initialize the COM library and [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) to get a Task Scheduler object. (These examples assume that the Task Scheduler service is running.)
 2.  Call [**ITaskScheduler::Activate**](/windows/desktop/api/Mstask/nf-mstask-itaskscheduler-activate) to get the [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask) interface of the task object. (Note that this example gets the "Test Task" task.)
 3.  Call the appropriate [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask) method to retrieve the property you are interested in.
 4.  Process the property as needed. (These examples print the property to the screen.)
-5.  If the returned property is a string, call [CoTaskMemFree](https://msdn.microsoft.com/windows/desktop/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7) to free the memory allocated for the returned string.
+5.  If the returned property is a string, call [CoTaskMemFree](https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx) to free the memory allocated for the returned string.
 
 
 

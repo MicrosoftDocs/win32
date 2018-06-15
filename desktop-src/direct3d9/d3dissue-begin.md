@@ -46,7 +46,7 @@ D3DISSUE\_BEGIN is valid for the following query type.
 [**D3DGETDATA\_FLUSH**](d3dgetdata-flush.md)
 </dt> <dt>
 
-[**D3DQUERYTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dquerytype.htm)
+[**D3DQUERYTYPE**](https://msdn.microsoft.com/en-us/library/Bb172594(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -48,9 +48,9 @@ The return value is the length of the text in characters, not including the term
 
 For an edit control, the text to be copied is the content of the edit control. For a combo box, the text is the content of the edit control (or static-text) portion of the combo box. For a button, the text is the button name. For other windows, the text is the window title. To determine the length of an item in a list box, an application can use the [**LB\_GETTEXTLEN**](https://www.bing.com/search?q=**LB\_GETTEXTLEN**) message.
 
-When the **WM\_GETTEXTLENGTH** message is sent, the [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) function returns the length, in characters, of the text. Under certain conditions, the **DefWindowProc** function returns a value that is larger than the actual length of the text. This occurs with certain mixtures of ANSI and Unicode, and is due to the system allowing for the possible existence of double-byte character set (DBCS) characters within the text. The return value, however, will always be at least as large as the actual length of the text; you can thus always use it to guide buffer allocation. This behavior can occur when an application uses both ANSI functions and common dialogs, which use Unicode.
+When the **WM\_GETTEXTLENGTH** message is sent, the [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) function returns the length, in characters, of the text. Under certain conditions, the **DefWindowProc** function returns a value that is larger than the actual length of the text. This occurs with certain mixtures of ANSI and Unicode, and is due to the system allowing for the possible existence of double-byte character set (DBCS) characters within the text. The return value, however, will always be at least as large as the actual length of the text; you can thus always use it to guide buffer allocation. This behavior can occur when an application uses both ANSI functions and common dialogs, which use Unicode.
 
-To obtain the exact length of the text, use the [**WM\_GETTEXT**](wm-gettext.md), [**LB\_GETTEXT**](https://www.bing.com/search?q=**LB\_GETTEXT**), or [**CB\_GETLBTEXT**](https://www.bing.com/search?q=**CB\_GETLBTEXT**) messages, or the [**GetWindowText**](/windows/desktop/api/Winuser/nf-winuser-getwindowtexta) function.
+To obtain the exact length of the text, use the [**WM\_GETTEXT**](wm-gettext.md), [**LB\_GETTEXT**](https://www.bing.com/search?q=**LB\_GETTEXT**), or [**CB\_GETLBTEXT**](https://www.bing.com/search?q=**CB\_GETLBTEXT**) messages, or the [**GetWindowText**](https://msdn.microsoft.com/en-us/library/ms633520(v=VS.85).aspx) function.
 
 Sending a **WM\_GETTEXTLENGTH** message to a non-text static control, such as a static bitmap or static icon controlc, does not return a string value. Instead, it returns zero.
 
@@ -73,13 +73,13 @@ Sending a **WM\_GETTEXTLENGTH** message to a non-text static control, such as a 
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca)
+[**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx)
 </dt> <dt>
 
-[**GetWindowText**](/windows/desktop/api/Winuser/nf-winuser-getwindowtexta)
+[**GetWindowText**](https://msdn.microsoft.com/en-us/library/ms633520(v=VS.85).aspx)
 </dt> <dt>
 
-[**GetWindowTextLength**](/windows/desktop/api/Winuser/nf-winuser-getwindowtextlengtha)
+[**GetWindowTextLength**](https://msdn.microsoft.com/en-us/library/ms633521(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_GETTEXT**](wm-gettext.md)

@@ -22,22 +22,22 @@ Metadata is closely tied to the format of the file. In Media Foundation, file fo
 
 A property handler is a COM object that implements the following interfaces:
 
--   [**IInitializeWithStream**](https://msdn.microsoft.com/9050845d-1e70-4e85-8d2f-c8bbb382abe5)
--   [**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653)
+-   [**IInitializeWithStream**](https://msdn.microsoft.com/en-us/library/Bb761810(v=VS.85).aspx)
+-   [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx)
 
 Optionally, it can also expose the following interface:
 
--   [**IPropertyStoreCapabilities**](https://msdn.microsoft.com/b4e51201-47af-449f-9050-aec3207320f5)
+-   [**IPropertyStoreCapabilities**](https://msdn.microsoft.com/en-us/library/Bb761452(v=VS.85).aspx)
 
-If the Shell property system needs to get metadata for a file, it calls [**CoCreateInstance**](https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) to create the property handler and then calls the appropriate read and write methods on the [**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) interface.
+If the Shell property system needs to get metadata for a file, it calls [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) to create the property handler and then calls the appropriate read and write methods on the [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) interface.
 
-The Media Foundation pipeline uses a slightly different mechanism, because the pipeline gets the property handler directly from the media source. Instead of calling [**CoCreateInstance**](https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) to create the property handler, the pipeline calls [**IMFGetService::GetService**](/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice) on the media source, as described in the topic [Shell Metadata Providers](shell-metadata-providers.md).
+The Media Foundation pipeline uses a slightly different mechanism, because the pipeline gets the property handler directly from the media source. Instead of calling [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) to create the property handler, the pipeline calls [**IMFGetService::GetService**](/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice) on the media source, as described in the topic [Shell Metadata Providers](shell-metadata-providers.md).
 
 To create a custom property handler, do the following:
 
--   Implement the [**IMFGetService**](/windows/desktop/api/mfidl/nn-mfidl-imfgetservice) interface to expose [**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653). The service GUID is **MF\_PROPERTY\_HANDLER\_SERVICE**.
--   If the media source will be used remotely, it must also expose the [**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) interface through the media source's **QueryInterface** method, in addition to [**IMFGetService**](/windows/desktop/api/mfidl/nn-mfidl-imfgetservice).
--   To make the property handler available to the Shell property system, register the DLL for the property handler as described in [Registering and Distributing Property Handlers](https://msdn.microsoft.com/E6E81E04-9CC1-4df5-9A87-DE0CBD177356).
+-   Implement the [**IMFGetService**](/windows/desktop/api/mfidl/nn-mfidl-imfgetservice) interface to expose [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx). The service GUID is **MF\_PROPERTY\_HANDLER\_SERVICE**.
+-   If the media source will be used remotely, it must also expose the [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) interface through the media source's **QueryInterface** method, in addition to [**IMFGetService**](/windows/desktop/api/mfidl/nn-mfidl-imfgetservice).
+-   To make the property handler available to the Shell property system, register the DLL for the property handler as described in [Registering and Distributing Property Handlers](https://msdn.microsoft.com/en-us/library/Dd894084(v=VS.85).aspx).
 -   The media source is registered separately, as described in [Scheme Handlers and Byte-Stream Handlers](scheme-handlers-and-byte-stream-handlers.md).
 
 ### Implementation Tips
@@ -46,9 +46,9 @@ For a list of metadata property keys, see [Metadata Properties for Media Files](
 
 Property handlers must be fast; they must provide efficient read and write access to the metadata. (Consider that the Shell may retrieve metadata from hundreds of files.) Therefore, do not call [**MFStartup**](/windows/desktop/api/mfapi/nf-mfapi-mfstartup) from your property handler. The **MFStartup** function introduces startup latency, because it creates multiple work-queue threads and allocates global memory.
 
-In a typical implementation, the property handler and the media source will share some of the same parsing code. However, a media source uses asynchronous [**IMFByteStream**](/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream) calls for I/O, whereas the property handler uses the [**IStream**](https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531) interface. Media Foundation provides a helper object that wraps an **IStream**-based stream and exposes it as an **IMFByteStream** stream. To create the wrapper, call [**MFCreateMFByteStreamOnStream**](/windows/desktop/api/mfidl/nf-mfidl-mfcreatemfbytestreamonstream).
+In a typical implementation, the property handler and the media source will share some of the same parsing code. However, a media source uses asynchronous [**IMFByteStream**](/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream) calls for I/O, whereas the property handler uses the [**IStream**](https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx) interface. Media Foundation provides a helper object that wraps an **IStream**-based stream and exposes it as an **IMFByteStream** stream. To create the wrapper, call [**MFCreateMFByteStreamOnStream**](/windows/desktop/api/mfidl/nf-mfidl-mfcreatemfbytestreamonstream).
 
-When updating metadata, it is recommended to write the data directly to the original stream. This recommendation differs from the *copy-on-write* behavior of most property handlers, in which a copy of the data is modified. Media files can be very large, so copy-on-write is typically too slow for an efficient implementation. To disable copy-on-write, set the **ManualSafeSave** registry setting, as described in [Registering and Distributing Property Handlers](https://msdn.microsoft.com/E6E81E04-9CC1-4df5-9A87-DE0CBD177356).
+When updating metadata, it is recommended to write the data directly to the original stream. This recommendation differs from the *copy-on-write* behavior of most property handlers, in which a copy of the data is modified. Media files can be very large, so copy-on-write is typically too slow for an efficient implementation. To disable copy-on-write, set the **ManualSafeSave** registry setting, as described in [Registering and Distributing Property Handlers](https://msdn.microsoft.com/en-us/library/Dd894084(v=VS.85).aspx).
 
 ## Related topics
 

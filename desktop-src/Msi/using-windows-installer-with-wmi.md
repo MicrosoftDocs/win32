@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 The Windows Installer provider allows Windows Management Instrumentation (WMI) to access information collected from Windows Installer applications.
 
-The [Windows Installer Provider](https://msdn.microsoft.com/d635cc67-242e-4e8a-9b31-2cdb6b0937d6) is an optional Windows component. Optional installation of the Windows Installer provider ensures backward compatibility, but does not indicate future availability of the provider. For more information about the availability of the Windows Installer Provider, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/f92bdea1-4226-4b80-b723-fba984570aa7) in the [Windows Management Instrumentation (WMI)](https://msdn.microsoft.com/4804152f-2042-4c6a-83c6-75c5e1ab7a04) documentation.
+The [Windows Installer Provider](https://msdn.microsoft.com/en-us/library/Aa394523(v=VS.85).aspx) is an optional Windows component. Optional installation of the Windows Installer provider ensures backward compatibility, but does not indicate future availability of the provider. For more information about the availability of the Windows Installer Provider, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/en-us/library/Aa392726(v=VS.85).aspx) in the [Windows Management Instrumentation (WMI)](https://msdn.microsoft.com/en-us/library/Aa394582(v=VS.85).aspx) documentation.
 
-For the current description of this WMI provider, see [Windows Installer Provider](https://msdn.microsoft.com/d635cc67-242e-4e8a-9b31-2cdb6b0937d6) in the main [Windows Management Instrumentation (WMI)](https://msdn.microsoft.com/4804152f-2042-4c6a-83c6-75c5e1ab7a04) documentation. For a list of WMI classes that are supported by Windows Installer, see [Installed Applications Classes](https://www.bing.com/search?q=Installed+Applications+Classes).
+For the current description of this WMI provider, see [Windows Installer Provider](https://msdn.microsoft.com/en-us/library/Aa394523(v=VS.85).aspx) in the main [Windows Management Instrumentation (WMI)](https://msdn.microsoft.com/en-us/library/Aa394582(v=VS.85).aspx) documentation. For a list of WMI classes that are supported by Windows Installer, see [Installed Applications Classes](https://www.bing.com/search?q=Installed+Applications+Classes).
 
  
 

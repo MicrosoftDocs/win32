@@ -134,7 +134,7 @@ For example, you can convert the ascent from design units to pixels as follows:
 
 ![equation that multiplies 1854 design units by 16 pixels divided by 2048 design units, equaling 14.484375 pixels](images/fontstext9.png)
 
-The preceding code positions text vertically by setting the *y* data member of a [**PointF**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf) object. The y-coordinate is increased by `font.GetHeight(0.0f)` for each new line of text. The [**Font::GetHeight**](/windows/desktop/api/Gdiplusheaders/) method of a [**Font**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font) object returns the line spacing (in pixels) for that particular **Font** object. In this example, the number returned by **Font::GetHeight** is 18.398438. Note that this is the same as the number obtained by converting the line spacing metric to pixels.
+The preceding code positions text vertically by setting the *y* data member of a [**PointF**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf) object. The y-coordinate is increased by `font.GetHeight(0.0f)` for each new line of text. The [**Font::GetHeight**](https://msdn.microsoft.com/en-us/library/ms536202(v=VS.85).aspx) method of a [**Font**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font) object returns the line spacing (in pixels) for that particular **Font** object. In this example, the number returned by **Font::GetHeight** is 18.398438. Note that this is the same as the number obtained by converting the line spacing metric to pixels.
 
  
 

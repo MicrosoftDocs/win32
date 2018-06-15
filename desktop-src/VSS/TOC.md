@@ -493,7 +493,7 @@
 ##### [GetComponent Method](/windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getcomponent)
 ##### [GetComponentCount Method](/windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getcomponentcount)
 ##### [GetWriterInfo Method](/windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getwriterinfo)
-#### [IVssWriterComponentsExt](/windows/desktop/api/VsBackup/)
+#### [IVssWriterComponentsExt](https://msdn.microsoft.com/en-us/library/Aa384312(v=VS.85).aspx)
 ### [Volume Shadow Copy API Structures](volume-shadow-copy-api-structures.md)
 #### [VSS_COMPONENTINFO](/windows/desktop/api/VsBackup/ns-vsbackup-_vss_componentinfo)
 #### [VSS_DIFF_AREA_PROP](/windows/desktop/api/VsMgmt/ns-vsmgmt-_vss_diff_area_prop)

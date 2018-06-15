@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Registering Control Panel Items
 
-Control Panel items must be registered in order to appear in the Control Panel window. If the Control Panel item is implemented as part of a .exe file then it is registered as a command object. Registration differs if the item is implemented as a .dll file that exports the [**CPlApplet**](/windows/desktop/api/Cpl/nc-cpl-applet_proc) function.
+Control Panel items must be registered in order to appear in the Control Panel window. If the Control Panel item is implemented as part of a .exe file then it is registered as a command object. Registration differs if the item is implemented as a .dll file that exports the [**CPlApplet**](https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx) function.
 
 Specific requirements are discussed in these topics:
 

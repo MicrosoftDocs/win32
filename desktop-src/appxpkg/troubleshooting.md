@@ -165,7 +165,7 @@ Check the <strong>AppXDeployment-Server</strong> event log for more info.<br/></
 <li>Package deployment is blocked by Application Control Policies.</li>
 <li>Package deployment is blocked by the &quot;Allow deployment operations in special profiles&quot; policy.</li>
 </ul>
-One of the possible reasons is a need for a roaming profile. See [Deploy Roaming User Profiles](https://msdn.microsoft.com/windows/desktop/65840ed4-02af-49fc-a99d-292a4b50dfd4) to set up Roaming User Profiles on user accounts. If there are no policies configured on your system and you still see this error, perhaps you are logged in with a temporary profile. Log out and log in again, then try the operation again.<br/></td>
+One of the possible reasons is a need for a roaming profile. See [Deploy Roaming User Profiles](https://msdn.microsoft.com/en-us/library/JJ649079(v=WS.11).aspx) to set up Roaming User Profiles on user accounts. If there are no policies configured on your system and you still see this error, perhaps you are logged in with a temporary profile. Log out and log in again, then try the operation again.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_PACKAGES_IN_USE</strong></td>
@@ -185,7 +185,7 @@ One of the possible reasons is a need for a roaming profile. See [Deploy Roaming
 <tr class="odd">
 <td><strong>ERROR_DELETING_EXISTING_</strong><br/> <strong>APPLICATIONDATA_STORE_FAILED</strong><br/></td>
 <td>0x80073D05</td>
-<td>An error occurred while deleting the package's previously existing application data.<br/> You can get this error if the [simulator](https://msdn.microsoft.com/windows/desktop/81b69bf8-ec87-4bb6-9ad4-1fa7b7802d16) is running. Close the simulator. You can also get this error if there are files open in the app data (for example, if you have a log file open in a text editor).<br/></td>
+<td>An error occurred while deleting the package's previously existing application data.<br/> You can get this error if the [simulator](https://msdn.microsoft.com/en-us/library/Hh441475(v=VS.110).aspx) is running. Close the simulator. You can also get this error if there are files open in the app data (for example, if you have a log file open in a text editor).<br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_INSTALL_</strong><br/> <strong>PACKAGE_DOWNGRADE</strong><br/></td>
@@ -270,12 +270,12 @@ If the package contains \AppxMetadata\CodeIntegrity.cat, it must also contain \A
 <tr class="odd">
 <td><strong>CERT_E_UNTRUSTEDROOT</strong></td>
 <td>0x800B0109</td>
-<td>A certificate chain processed, but terminated in a root certificate which isn't trusted by the trust provider.<br/> See [Signing a package](https://msdn.microsoft.com/windows/desktop/2e783ec5-7803-4aa3-bd70-a4db567fc3d3).<br/></td>
+<td>A certificate chain processed, but terminated in a root certificate which isn't trusted by the trust provider.<br/> See [Signing a package](https://msdn.microsoft.com/en-us/library/BR230260(v=VS.110).aspx).<br/></td>
 </tr>
 <tr class="even">
 <td><strong>CERT_E_CHAINING</strong></td>
 <td>0x800B010A</td>
-<td>A certificate chain couldn't be built to a trusted root certification authority.<br/> See [Signing a package](https://msdn.microsoft.com/windows/desktop/2e783ec5-7803-4aa3-bd70-a4db567fc3d3).<br/></td>
+<td>A certificate chain couldn't be built to a trusted root certification authority.<br/> See [Signing a package](https://msdn.microsoft.com/en-us/library/BR230260(v=VS.110).aspx).<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>APPX_E_INVALID_</strong> <br/> <strong>SIP_CLIENT_DATA</strong> <br/></td>

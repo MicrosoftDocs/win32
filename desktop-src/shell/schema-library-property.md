@@ -113,10 +113,10 @@ The requirements for the &lt;canonical-name&gt; element match the requirements f
 [Library Description Schema](library-schema-entry.md)
 </dt> <dt>
 
-[Property Schemas](https://msdn.microsoft.com/4e301210-df3a-41db-a58e-015ee8d41714)
+[Property Schemas](https://msdn.microsoft.com/en-us/library/Cc144135(v=VS.85).aspx)
 </dt> <dt>
 
-[Search Connector Description Schema](https://msdn.microsoft.com/windows/desktop/b85a04c6-9398-4cc7-a894-881216600203)
+[Search Connector Description Schema](https://www.bing.com/search?q=Search+Connector+Description+Schema)
 </dt> </dl>
 
  

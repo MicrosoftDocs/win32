@@ -33,7 +33,7 @@ ms.date: 05/31/2018
 
 
 
-The **CFSTR\_DSOBJECTNAMES** clipboard format is supported by the [**IDataObject**](https://msdn.microsoft.com/windows/desktop/8a002deb-2727-456c-8078-a9b0d5893ed4) provided by the [**ICommonQuery::OpenQueryWindow**](/windows/desktop/api/Cmnquery/) method. The **CFSTR\_DSOBJECTNAMES** clipboard format provides a global memory handle (**HGLOBAL**) that contains [**DSOBJECTNAMES**](/windows/desktop/api/Dsclient/ns-dsclient-dsobjectnames) structure.
+The **CFSTR\_DSOBJECTNAMES** clipboard format is supported by the [**IDataObject**](https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx) provided by the [**ICommonQuery::OpenQueryWindow**](https://msdn.microsoft.com/en-us/library/ms676933(v=VS.85).aspx) method. The **CFSTR\_DSOBJECTNAMES** clipboard format provides a global memory handle (**HGLOBAL**) that contains [**DSOBJECTNAMES**](/windows/desktop/api/Dsclient/ns-dsclient-dsobjectnames) structure.
 
 
 </dt> </dl> </dd> </dl>
@@ -54,10 +54,10 @@ The **CFSTR\_DSOBJECTNAMES** clipboard format is supported by the [**IDataObject
 
 <dl> <dt>
 
-[**IDataObject**](https://msdn.microsoft.com/windows/desktop/8a002deb-2727-456c-8078-a9b0d5893ed4)
+[**IDataObject**](https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx)
 </dt> <dt>
 
-[**ICommonQuery::OpenQueryWindow**](/windows/desktop/api/Cmnquery/)
+[**ICommonQuery::OpenQueryWindow**](https://msdn.microsoft.com/en-us/library/ms676933(v=VS.85).aspx)
 </dt> <dt>
 
 [**DSOBJECTNAMES**](/windows/desktop/api/Dsclient/ns-dsclient-dsobjectnames)

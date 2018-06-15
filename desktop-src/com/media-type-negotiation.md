@@ -29,7 +29,7 @@ fmtetc.cfFormat = RegisterClipboardFormat(CF_MIME_POSTSCRIPT);
 
 A client can set the clipboard format to the special media type CF\_NULL to indicate that the default media type of the resource pointed to by the URL should be retrieved. This format is usually the last one in which the client is interested. When no enumerator is registered with the bind context, a URL moniker works as if an enumerator containing a single [**FORMATETC**](/windows/desktop/api/ObjIdl/ns-objidl-tagformatetc) with **cfFormat**=CF\_NULL is available, automatically downloading the default media-type.
 
-Whatever media type is to be used, the client is notified of the choice by means of the *pformatetc* argument on its [**IBindStatusCallback::OnDataAvailable**](https://msdn.microsoft.com/windows/desktop/9755eda0-4d33-49e1-9bdd-f50a906e826f) method. The callback occurs within the context of the client's call to [**BindToStorage**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtostorage).
+Whatever media type is to be used, the client is notified of the choice by means of the *pformatetc* argument on its [**IBindStatusCallback::OnDataAvailable**](https://www.bing.com/search?q=**IBindStatusCallback::OnDataAvailable**) method. The callback occurs within the context of the client's call to [**BindToStorage**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtostorage).
 
 > [!Note]  
 > If received content is of an unrecognized media-type, the client automatically calls [**RegisterMediaTypes**](https://www.bing.com/search?q=**RegisterMediaTypes**) to register the new type.

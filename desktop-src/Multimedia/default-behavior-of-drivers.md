@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 In many situations, the MCI command specifications define the default values and behavior for drivers of a particular device type. Since multimedia devices can have a wide range of features (and limitations), there can be undefined areas of behavior. Also, drivers might handle exceptions differently, based on the capabilities of the device.
 
-For example, consider the following commands sent to a waveform-audio driver using the [**mciSendString**](/windows/desktop/api/Mmsystem/) function:
+For example, consider the following commands sent to a waveform-audio driver using the [**mciSendString**](https://msdn.microsoft.com/en-us/library/Dd757161(v=VS.85).aspx) function:
 
 
 ```C++

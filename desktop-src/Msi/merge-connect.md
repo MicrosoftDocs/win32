@@ -47,7 +47,7 @@ Errors may be retrieved through the [**Errors**](merge-errors.md) property. Erro
 
 ### C++
 
-See [**Connect**](/windows/desktop/api/Mergemod/) function.
+See [**Connect**](https://msdn.microsoft.com/en-us/library/Aa369268(v=VS.85).aspx) function.
 
 ## Requirements
 

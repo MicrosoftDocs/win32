@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Retrieves multiple completion port entries simultaneously. It waits for pending I/O operations that are associated with the specified completion port to complete.
 
-To dequeue I/O completion packets one at a time, use the [**GetQueuedCompletionStatus**](/windows/desktop/api/WinBase/) function.
+To dequeue I/O completion packets one at a time, use the [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx) function.
 
 ## Syntax
 
@@ -101,7 +101,7 @@ This function returns **TRUE** when at least one pending I/O is completed, but i
 
 This function returns **FALSE** when no I/O operation was dequeued. This typically means that an error occurred while processing the parameters to this call, or that the *CompletionPort* handle was closed or is otherwise invalid. The [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) function provides extended error information.
 
-If a call to [**GetQueuedCompletionStatusEx**](/windows/desktop/api/WinBase/) fails because the handle associated with it is closed, the function returns **FALSE** and [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) will return **ERROR\_ABANDONED\_WAIT\_0**.
+If a call to [**GetQueuedCompletionStatusEx**](https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx) fails because the handle associated with it is closed, the function returns **FALSE** and [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) will return **ERROR\_ABANDONED\_WAIT\_0**.
 
 Server applications may have several threads calling the **GetQueuedCompletionStatusEx** function for the same completion port. As I/O operations complete, they are queued to this port in first-in-first-out order. If a thread is actively waiting on this call, one or more queued requests complete the call for that thread only.
 

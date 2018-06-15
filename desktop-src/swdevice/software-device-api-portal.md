@@ -21,7 +21,7 @@ You can use the Software Device API to create a PnP device from an app. The API 
 
 | Topic                                                                                         | Description                                                                                                                                                                        |
 |-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Software Device API Programming Guide](https://www.bing.com/search?q=Software+Device+API+Programming+Guide)<br/> | This guide contains info on how to use the Software Device API to enumerate PnP devices. <br/>                                                                               |
+| [Software Device API Programming Guide](https://msdn.microsoft.com/en-us/library/Dn315034(v=VS.85).aspx)<br/> | This guide contains info on how to use the Software Device API to enumerate PnP devices. <br/>                                                                               |
 | [Software Device API Reference](software-device-api-reference.md)<br/>                 | This reference describes Software Device API functions that a client app calls and a callback function that a client app implements and Software Device API structures.<br/> |
 
 

@@ -21,7 +21,7 @@ Although [DirectWrite](direct-write-portal.md) addresses many high-DPI issues fo
 
 ## Step 1: Use the System DPI When Creating Windows
 
-This can be done by using [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) or by using [GDI](https://msdn.microsoft.com/library/windows/desktop/dd145203).
+This can be done by using [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) or by using [GDI](https://msdn.microsoft.com/library/windows/desktop/dd145203).
 
 ### Direct2D
 
@@ -68,7 +68,7 @@ The following code uses the [**GetDesktopDpi**](https://msdn.microsoft.com/libra
 
 ### GDI
 
-[GDI](interoperating-with-gdi.md) provides the [**GetDeviceCaps**](https://msdn.microsoft.com/library/windows/desktop/dd144877) function for retrieving device information. You can retrieve DPI information by passing the *LOGPIXELSX* and *LOGPIXELSY* index values. The formula for determining the horizontal and vertical size of a window is the same as with the [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) example above.
+[GDI](interoperating-with-gdi.md) provides the [**GetDeviceCaps**](https://msdn.microsoft.com/library/windows/desktop/dd144877) function for retrieving device information. You can retrieve DPI information by passing the *LOGPIXELSX* and *LOGPIXELSY* index values. The formula for determining the horizontal and vertical size of a window is the same as with the [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) example above.
 
 The following code uses the [**GetDeviceCaps**](https://msdn.microsoft.com/library/windows/desktop/dd144877) function to create a 640 x 480 window, scaled to the system DPI.
 

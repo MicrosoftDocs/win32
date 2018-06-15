@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 # Example of Writing Waveform Data
 
-The following example illustrates the steps required to allocate and set up a [**WAVEHDR**](https://www.bing.com/search?q=**WAVEHDR**) structure and write a block of data to a waveform output device.
+The following example illustrates the steps required to allocate and set up a [**WAVEHDR**](https://msdn.microsoft.com/en-us/library/Dd743837(v=VS.85).aspx) structure and write a block of data to a waveform output device.
 
 
 ```C++

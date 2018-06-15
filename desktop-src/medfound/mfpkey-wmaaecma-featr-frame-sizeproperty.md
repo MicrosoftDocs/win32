@@ -15,7 +15,7 @@ Specifies the audio frame size used by the Voice Capture DSP.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 
@@ -46,7 +46,7 @@ If the value of this property is zero, the DSP selects the frame size based on t
 
 For the best performance, however, it is recommended that applications use the default value. If the processing mode is microphone array only, the default value is 320 samples. For all other processing modes, the default value is 160 samples. For more information about the processing modes of the Voice Capture DSP, see [MFPKEY\_WMAAECMA\_SYSTEM\_MODE](mfpkey-wmaaecma-system-modeproperty.md).
 
-After the first call to [**IMediaObject::AllocateStreamingResources**](https://msdn.microsoft.com/cd608bf2-50a5-4037-aeb5-c5c380c3d6df) or [**IMediaObject::ProcessOutput**](https://msdn.microsoft.com/1a3b1192-f1e9-4f04-b543-d38692502b8e), you can read this property to get the actual frame size in use, even when [**MFPKEY\_WMAAECMA\_FEATURE\_MODE**](mfpkey-wmaaecma-feature-modeproperty.md) is false.
+After the first call to [**IMediaObject::AllocateStreamingResources**](https://msdn.microsoft.com/en-us/library/Dd406943(v=VS.85).aspx) or [**IMediaObject::ProcessOutput**](https://msdn.microsoft.com/en-us/library/Dd406960(v=VS.85).aspx), you can read this property to get the actual frame size in use, even when [**MFPKEY\_WMAAECMA\_FEATURE\_MODE**](mfpkey-wmaaecma-feature-modeproperty.md) is false.
 
 ## Requirements
 

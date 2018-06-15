@@ -41,7 +41,7 @@ The [**IInkCursor**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor) objec
 *Strokes* \[in\]
 </dt> <dd>
 
-The [IInkStrokes](/windows/desktop/api/msinkaut/) collection that the recognizer returned as the gesture.
+The [IInkStrokes](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection that the recognizer returned as the gesture.
 
 </dd> <dt>
 
@@ -109,7 +109,7 @@ For a list of specific application gestures, see the [**InkApplicationGesture**]
 
 <dl> <dt>
 
-[**InkCollector Class**](/windows/desktop/api/msinkaut/)
+[**InkCollector Class**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx)
 </dt> <dt>
 
 [**InkApplicationGesture Enumeration**](/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture)

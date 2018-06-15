@@ -28,9 +28,9 @@ These console-related limitations reduce the number of user interface languages 
 
 ## Set the Language for Console Output
 
-On Windows Vista and later, a console application sets the language to support the console display by calling [**SetThreadPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setthreadpreferreduilanguages). In this call, the application passes MUI\_CONSOLE\_FILTER in the *dwFlags* parameter and **NULL** for *pwszLanguagesBuffer*. An alternative is to call [**SetThreadUILanguage**](https://msdn.microsoft.com/30a0cecf-0ed1-4c03-bd5e-da07b1828c75) with a language identifier of 0. This setting causes the function to select the language that best supports the console display.
+On Windows Vista and later, a console application sets the language to support the console display by calling [**SetThreadPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setthreadpreferreduilanguages). In this call, the application passes MUI\_CONSOLE\_FILTER in the *dwFlags* parameter and **NULL** for *pwszLanguagesBuffer*. An alternative is to call [**SetThreadUILanguage**](https://msdn.microsoft.com/en-us/library/Dd374053(v=VS.85).aspx) with a language identifier of 0. This setting causes the function to select the language that best supports the console display.
 
-On Windows XP, the application can only set the language for console output by calling [**SetThreadUILanguage**](https://msdn.microsoft.com/30a0cecf-0ed1-4c03-bd5e-da07b1828c75) with a language identifier of 0.
+On Windows XP, the application can only set the language for console output by calling [**SetThreadUILanguage**](https://msdn.microsoft.com/en-us/library/Dd374053(v=VS.85).aspx) with a language identifier of 0.
 
 ## Related topics
 

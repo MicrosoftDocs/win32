@@ -17,7 +17,7 @@ Because the items in a given collection all represent the same kind of thing, th
 
 For a complete list of properties exposed by items in each collection, see [COM+ Administration Collections](com--administration-collections.md).
 
-You represent an item in a collection by using an object created from the [**COMAdminCatalogObject**](/windows/desktop/api/ComAdmin/) class. This object enables you to set and get any of the properties exposed by the item. When setting properties, it is also possible that you might be contending with another writer to the COM+ catalog. For more information, see [Getting and Setting Properties](getting-and-setting-properties.md).
+You represent an item in a collection by using an object created from the [**COMAdminCatalogObject**](https://msdn.microsoft.com/en-us/library/ms679228(v=VS.85).aspx) class. This object enables you to set and get any of the properties exposed by the item. When setting properties, it is also possible that you might be contending with another writer to the COM+ catalog. For more information, see [Getting and Setting Properties](getting-and-setting-properties.md).
 
 After you have set properties, no changes are actually committed until you explicitly save changes. For more information, see [Saving or Discarding Changes](saving-or-discarding-changes.md).
 

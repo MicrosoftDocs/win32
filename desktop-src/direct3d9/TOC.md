@@ -472,7 +472,7 @@
 ##### [IDirect3DSwapChain9Ex](/windows/desktop/api/d3d9/nn-d3d9-idirect3dswapchain9ex)
 ###### [GetDisplayModeEx](/windows/desktop/api/D3D9/nf-d3d9-idirect3dswapchain9ex-getdisplaymodeex)
 ###### [GetLastPresentCount](/windows/desktop/api/d3d9/nf-d3d9-idirect3dswapchain9ex-getlastpresentcount)
-###### [GetPresentStatistics](/windows/desktop/api/d3d9/)
+###### [GetPresentStatistics](https://msdn.microsoft.com/en-us/library/Bb205901(v=VS.85).aspx)
 ##### [IDirect3DTexture9](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dtexture9)
 ###### [AddDirtyRect](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dtexture9-adddirtyrect)
 ###### [GetLevelDesc](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dtexture9-getleveldesc)

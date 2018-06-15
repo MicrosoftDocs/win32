@@ -52,7 +52,7 @@ The debug version of the library asserts if the subscript (either on the left or
 
 ## Examples
 
-The following code example shows the use of [**CHStringArray::operator \[\]**](/windows/desktop/api/ChPtrArr/).
+The following code example shows the use of [**CHStringArray::operator \[\]**](https://msdn.microsoft.com/en-us/library/Aa384934(v=VS.85).aspx).
 
 
 ```C++

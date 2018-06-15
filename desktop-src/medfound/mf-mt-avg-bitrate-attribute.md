@@ -19,7 +19,7 @@ Approximate data rate of the video stream, in bits per second, for a video media
 
 ## Remarks
 
-This attribute corresponds to the **dwBitRate** member of the [**VIDEOINFOHEADER**](https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932) and [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/5e3d5bf0-435f-45da-8409-a1463b56a7ae) structures.
+This attribute corresponds to the **dwBitRate** member of the [**VIDEOINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx) and [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/en-us/library/Dd407326(v=VS.85).aspx) structures.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

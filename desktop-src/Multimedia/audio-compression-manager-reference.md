@@ -28,7 +28,7 @@ This section describes the functions, structures, and messages associated with t
 -   [**acmDriverClose**](/windows/desktop/api/Msacm/nf-msacm-acmdriverclose)
 -   [**ACMDRIVERDETAILS**](/windows/desktop/api/Msacm/ns-msacm-tacmdriverdetails)
 -   [**acmDriverEnum**](/windows/desktop/api/Msacm/nf-msacm-acmdriverenum)
--   [**acmDriverEnumCallback**](/windows/desktop/api/Msacm/nc-msacm-acmdriverenumcb)
+-   [**acmDriverEnumCallback**](https://msdn.microsoft.com/en-us/library/Dd742891(v=VS.85).aspx)
 -   [**acmDriverID**](/windows/desktop/api/Msacm/nf-msacm-acmdriverid)
 -   [**acmDriverMessage**](/windows/desktop/api/Msacm/nf-msacm-acmdrivermessage)
 -   [**acmDriverOpen**](/windows/desktop/api/Msacm/nf-msacm-acmdriveropen)

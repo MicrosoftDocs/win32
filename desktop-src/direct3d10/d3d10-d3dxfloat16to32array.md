@@ -33,7 +33,7 @@ FLOAT* D3DXFloat16To32Array(
 *pOut* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the array of 32-bit floats.
 
@@ -42,7 +42,7 @@ Pointer to the array of 32-bit floats.
 *pIn* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXFLOAT16**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxfloat16.htm)\***
+Type: **const [**D3DXFLOAT16**](https://msdn.microsoft.com/en-us/library/Bb172839(v=VS.85).aspx)\***
 
 Pointer to an array of 16-bit floats.
 
@@ -51,7 +51,7 @@ Pointer to an array of 16-bit floats.
 *n* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Number of elements in the array.
 
@@ -59,7 +59,7 @@ Number of elements in the array.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to an array of 32-bit floats.
 

@@ -93,7 +93,7 @@ case SFVM_GETNOTIFY:
 [**SFVM\_QUERYFSNOTIFY**](sfvm-queryfsnotify.md)
 </dt> <dt>
 
-[**IShellFolderViewCB::MessageSFVCB**](/windows/desktop/api/Shlobj/)
+[**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/en-us/library/Bb774968(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -27,16 +27,16 @@ Draws the specified text using the format information provided by an [**IDWriteT
 
 | Method                                                                                                                                                                                                                                                                               | Description                                                                                                                                     |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DrawText(WCHAR\*,IDWriteTextFormat\*,D2D1\_RECT\_F&,ID2D1Brush\*,D2D1\_DRAW\_TEXT\_OPTIONS,DWRITE\_TEXT\_MEASURING\_METHOD)**](/windows/desktop/api/d2d1/)  | Draws the specified text using the format information provided by an [**IDWriteTextFormat**](https://msdn.microsoft.com/library/windows/desktop/dd316628) object.<br/>  |
-| [**DrawText(WCHAR\*,IDWriteTextFormat\*,D2D1\_RECT\_F\*,ID2D1Brush\*,D2D1\_DRAW\_TEXT\_OPTIONS,DWRITE\_TEXT\_MEASURING\_METHOD)**](/windows/desktop/api/d2d1/) | Draws the specified text using the format information provided by an [**IDWriteTextFormat**](https://msdn.microsoft.com/library/windows/desktop/dd316628) object. <br/> |
+| [**DrawText(WCHAR\*,IDWriteTextFormat\*,D2D1\_RECT\_F&,ID2D1Brush\*,D2D1\_DRAW\_TEXT\_OPTIONS,DWRITE\_TEXT\_MEASURING\_METHOD)**](https://msdn.microsoft.com/en-us/library/Dd371919(v=VS.85).aspx)  | Draws the specified text using the format information provided by an [**IDWriteTextFormat**](https://msdn.microsoft.com/library/windows/desktop/dd316628) object.<br/>  |
+| [**DrawText(WCHAR\*,IDWriteTextFormat\*,D2D1\_RECT\_F\*,ID2D1Brush\*,D2D1\_DRAW\_TEXT\_OPTIONS,DWRITE\_TEXT\_MEASURING\_METHOD)**](https://msdn.microsoft.com/en-us/library/Dd371916(v=VS.85).aspx) | Draws the specified text using the format information provided by an [**IDWriteTextFormat**](https://msdn.microsoft.com/library/windows/desktop/dd316628) object. <br/> |
 
 
 
 ## Remarks
 
-To draw text with Direct2D, use the [**ID2D1RenderTarget::DrawText**](/windows/desktop/api/d2d1/) method for text that has a single format, or the [**ID2D1RenderTarget::DrawTextLayout**](/windows/desktop/api/d2d1/) method when you need multiple formats, advanced OpenType features, or hit testing. These methods use the DirectWrite API to provide high-quality text display.
+To draw text with Direct2D, use the [**ID2D1RenderTarget::DrawText**](https://msdn.microsoft.com/en-us/library/Dd371919(v=VS.85).aspx) method for text that has a single format, or the [**ID2D1RenderTarget::DrawTextLayout**](https://msdn.microsoft.com/en-us/library/Dd371913(v=VS.85).aspx) method when you need multiple formats, advanced OpenType features, or hit testing. These methods use the DirectWrite API to provide high-quality text display.
 
-This method doesn't return an error code if it fails. To determine whether a drawing operation (such as **DrawText**) failed, check the result returned by the [**ID2D1RenderTarget::EndDraw**](/windows/desktop/api/d2d1/) or [**ID2D1RenderTarget::Flush**](/windows/desktop/api/d2d1/) methods.
+This method doesn't return an error code if it fails. To determine whether a drawing operation (such as **DrawText**) failed, check the result returned by the [**ID2D1RenderTarget::EndDraw**](https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx) or [**ID2D1RenderTarget::Flush**](https://msdn.microsoft.com/en-us/library/Dd316801(v=VS.85).aspx) methods.
 
 ## Examples
 
@@ -57,7 +57,7 @@ For an example, see [How to Draw Text](how-to--draw-text.md).
 
 <dl> <dt>
 
-[**ID2D1RenderTarget**](/windows/desktop/api/d2d1/)
+[**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371766(v=VS.85).aspx)
 </dt> <dt>
 
 [**IDWriteTextFormat**](https://msdn.microsoft.com/library/windows/desktop/dd316628)

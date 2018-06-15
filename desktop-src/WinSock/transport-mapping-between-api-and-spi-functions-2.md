@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The Winsock Transport SPI is similar to the Winsock API in that all of the basic socket functions appear. When a new version of a Winsock function and the original version both exist in the API, only the new version will show up in the SPI. This is illustrated in the following list.
 
--   [**connect**](/windows/desktop/api/Winsock2/nf-winsock2-connect) and [**WSAConnect**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnect) both map to [**WSPConnect**](/windows/desktop/api/Ws2spi/)
+-   [**connect**](/windows/desktop/api/Winsock2/nf-winsock2-connect) and [**WSAConnect**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnect) both map to [**WSPConnect**](https://msdn.microsoft.com/en-us/library/ms742272(v=VS.85).aspx)
 -   [**accept**](/windows/desktop/api/Winsock2/nf-winsock2-accept) and [**WSAAccept**](/windows/desktop/api/Winsock2/nf-winsock2-wsaaccept) map to [**WSPAccept**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpwspaccept)
 -   [**socket**](/windows/desktop/api/Winsock2/nf-winsock2-socket) and [**WSASocket**](/windows/desktop/api/Winsock2/nf-winsock2-wsasocketa) map to [**WSPSocket**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpwspsocket)
 

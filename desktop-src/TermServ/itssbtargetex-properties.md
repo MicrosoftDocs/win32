@@ -19,7 +19,7 @@ The [**ITsSbTargetEx**](https://msdn.microsoft.com/library/mt703466) interface e
 
 ## In this section
 
--   [**TargetLoad property**](/windows/desktop/api/sbtsv/)
+-   [**TargetLoad property**](https://msdn.microsoft.com/en-us/library/Mt703468(v=VS.85).aspx)
 
  
 

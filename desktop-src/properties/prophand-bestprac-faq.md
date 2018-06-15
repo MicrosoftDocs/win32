@@ -77,7 +77,7 @@ This section provides answers to frequently asked questions about properties and
 
     The Windows Search indexer runs as a system service and cannot load DLLs that are stored in the user profile directory. If you are building and debugging using Microsoft Visual Studio, it will place the DLL in your user profile (and therefore it won't be loaded by the indexer). To work around this, copy your DLL outside of your profile folder (for example, into **C:\\Program Files\\YourAppName**) and register it there.
 
-    For more specific guidance on developing property handlers to work with the Windows Search indexer, see [Developing Property Handlers for Windows Search](https://msdn.microsoft.com/VS|search|~\search\wds3x\overviews\propertyhandlers\extidx_propertyhandlers.htm).
+    For more specific guidance on developing property handlers to work with the Windows Search indexer, see [Developing Property Handlers for Windows Search](https://msdn.microsoft.com/en-us/library/Bb266532(v=VS.85).aspx).
 
 -   **Question:** Which properties should be discoverable through the [**IPropertyStore::GetCount**](https://www.bing.com/search?q=**IPropertyStore::GetCount**) and [**IPropertyStore::GetAt**](https://www.bing.com/search?q=**IPropertyStore::GetAt**) enumeration methods?
 
@@ -96,7 +96,7 @@ This section provides answers to frequently asked questions about properties and
 
 -   **Question:** How do I know which file formats support open metadata?
 
-    For information about support for open metadata, see "File Types that Support Open Metadata" in [File Types](https://msdn.microsoft.com/055648cd-46ce-4e61-80b2-bcf1d1823e20).
+    For information about support for open metadata, see "File Types that Support Open Metadata" in [File Types](https://msdn.microsoft.com/en-us/library/Cc144148(v=VS.85).aspx).
 
 -   **Question:** Can VT\_NULL values be stored using a property handler?
 
@@ -104,7 +104,7 @@ This section provides answers to frequently asked questions about properties and
 
 -   **Question:** Which date string formats are supported by the [**PropVariantChangeType**](https://www.bing.com/search?q=**PropVariantChangeType**) function?
 
-    Generally, properties that represent date/time values should be represented using VT\_FILETIME. However, many data sources provide this information in string form. The [**PropVariantChangeType**](https://www.bing.com/search?q=**PropVariantChangeType**) helper API supports coercing some string date formats into [**FILETIME**](https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1) values, as shown in the following table.
+    Generally, properties that represent date/time values should be represented using VT\_FILETIME. However, many data sources provide this information in string form. The [**PropVariantChangeType**](https://www.bing.com/search?q=**PropVariantChangeType**) helper API supports coercing some string date formats into [**FILETIME**](https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx) values, as shown in the following table.
 
     
 

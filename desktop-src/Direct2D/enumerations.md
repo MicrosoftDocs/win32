@@ -314,11 +314,11 @@ Starting in Windows 8, more interpolations modes are available. See [<strong>D2D
 </tr>
 <tr class="even">
 <td>[<strong>D2D1_FACTORY_TYPE</strong>](/windows/desktop/api/d2d1/ne-d2d1-d2d1_factory_type)<br/></td>
-<td>Specifies whether Direct2D provides synchronization for an [<strong>ID2D1Factory</strong>](/windows/desktop/api/d2d1/) and the resources it creates, so that they may be safely accessed from multiple threads. <br/></td>
+<td>Specifies whether Direct2D provides synchronization for an [<strong>ID2D1Factory</strong>](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx) and the resources it creates, so that they may be safely accessed from multiple threads. <br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>D2D1_FEATURE</strong>](/windows/desktop/api/D2d1effectauthor/ne-d2d1effectauthor-d2d1_feature)<br/></td>
-<td>Defines capabilities of the underlying Direct3D device which may be queried using [<strong>ID2D1EffectContext::CheckFeatureSupport</strong>](/windows/desktop/api/d2d1effectauthor/).<br/></td>
+<td>Defines capabilities of the underlying Direct3D device which may be queried using [<strong>ID2D1EffectContext::CheckFeatureSupport</strong>](https://msdn.microsoft.com/en-us/library/Hh871455(v=VS.85).aspx).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>D2D1_FEATURE_LEVEL</strong>](/windows/desktop/api/d2d1/ne-d2d1-d2d1_feature_level)<br/></td>
@@ -326,11 +326,11 @@ Starting in Windows 8, more interpolations modes are available. See [<strong>D2D
 </tr>
 <tr class="odd">
 <td>[<strong>D2D1_FIGURE_BEGIN</strong>](/windows/desktop/api/d2d1/ne-d2d1-d2d1_figure_begin)<br/></td>
-<td>Indicates whether a specific [<strong>ID2D1SimplifiedGeometrySink</strong>](/windows/desktop/api/d2d1/) figure is filled or hollow. <br/></td>
+<td>Indicates whether a specific [<strong>ID2D1SimplifiedGeometrySink</strong>](https://msdn.microsoft.com/en-us/library/Dd316919(v=VS.85).aspx) figure is filled or hollow. <br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>D2D1_FIGURE_END</strong>](/windows/desktop/api/d2d1/ne-d2d1-d2d1_figure_end)<br/></td>
-<td>Indicates whether a specific [<strong>ID2D1SimplifiedGeometrySink</strong>](/windows/desktop/api/d2d1/) figure is open or closed. <br/></td>
+<td>Indicates whether a specific [<strong>ID2D1SimplifiedGeometrySink</strong>](https://msdn.microsoft.com/en-us/library/Dd316919(v=VS.85).aspx) figure is open or closed. <br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>D2D1_FILL_MODE</strong>](/windows/desktop/api/d2d1/ne-d2d1-d2d1_fill_mode)<br/></td>
@@ -365,7 +365,7 @@ Starting in Windows 8, more interpolations modes are available. See [<strong>D2D
 <td>Identifiers for properties of the [Gaussian blur effect](gaussian-blur.md). <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D2D1_GAMMA_CONVERSION</strong>](/windows/desktop/api/D2d1_1/)<br/></td>
+<td>[<strong>D2D1_GAMMA_CONVERSION</strong>](https://msdn.microsoft.com/en-us/library/Hh447002(v=VS.85).aspx)<br/></td>
 <td>Defines the conversion between color spaces.<br/></td>
 </tr>
 <tr class="even">
@@ -374,7 +374,7 @@ Starting in Windows 8, more interpolations modes are available. See [<strong>D2D
 </tr>
 <tr class="odd">
 <td>[<strong>D2D1_GEOMETRY_SIMPLIFICATION_OPTION</strong>](/windows/desktop/api/d2d1/ne-d2d1-d2d1_geometry_simplification_option)<br/></td>
-<td>Specifies how a geometry is simplified to an [<strong>ID2D1SimplifiedGeometrySink</strong>](/windows/desktop/api/d2d1/).<br/></td>
+<td>Specifies how a geometry is simplified to an [<strong>ID2D1SimplifiedGeometrySink</strong>](https://msdn.microsoft.com/en-us/library/Dd316919(v=VS.85).aspx).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA</strong>](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_highlightsandshadows_input_gamma)<br/></td>
@@ -402,7 +402,7 @@ Starting in Windows 8, more interpolations modes are available. See [<strong>D2D
 </tr>
 <tr class="even">
 <td>[<strong>D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS</strong>](/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_image_source_from_dxgi_options)<br/></td>
-<td>Option flags controlling primary conversion performed by [<strong>CreateImageSourceFromDxgi</strong>](/windows/desktop/api/D2d1_3/), if any.<br/></td>
+<td>Option flags controlling primary conversion performed by [<strong>CreateImageSourceFromDxgi</strong>](https://msdn.microsoft.com/en-us/library/Dn890791(v=VS.85).aspx), if any.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>D2D1_IMAGE_SOURCE_LOADING_OPTIONS</strong>](/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_image_source_loading_options)<br/></td>
@@ -414,7 +414,7 @@ Starting in Windows 8, more interpolations modes are available. See [<strong>D2D
 </tr>
 <tr class="odd">
 <td>[<strong>D2D1_INTERPOLATION_MODE</strong>](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_interpolation_mode)<br/></td>
-<td>This is used to specify the quality of image scaling with [<strong>ID2D1DeviceContext::DrawImage</strong>](/windows/desktop/api/D2d1_1/) and with the [2D affine transform effect](2d-affine-transform.md). <br/></td>
+<td>This is used to specify the quality of image scaling with [<strong>ID2D1DeviceContext::DrawImage</strong>](https://msdn.microsoft.com/en-us/library/Hh404511(v=VS.85).aspx) and with the [2D affine transform effect](2d-affine-transform.md). <br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>D2D1_LAYER_OPTIONS</strong>](/windows/desktop/api/d2d1/ne-d2d1-d2d1_layer_options)<br/></td>
@@ -451,7 +451,7 @@ Starting in Windows 8, the <strong>D2D1_LAYER_OPTIONS_INITIALIZE_FOR_CLEARTYPE</
 </tr>
 <tr class="odd">
 <td>[<strong>D2D1_MAP_OPTIONS</strong>](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_map_options)<br/></td>
-<td>Specifies how the memory to be mapped from the corresponding [<strong>ID2D1Bitmap1</strong>](/windows/desktop/api/D2d1_1/) should be treated.<br/></td>
+<td>Specifies how the memory to be mapped from the corresponding [<strong>ID2D1Bitmap1</strong>](https://msdn.microsoft.com/en-us/library/Hh404349(v=VS.85).aspx) should be treated.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>D2D1_OPACITYMETADATA_PROP</strong>](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_opacitymetadata_prop)<br/></td>
@@ -515,7 +515,7 @@ Starting in Windows 8, the <strong>D2D1_LAYER_OPTIONS_INITIALIZE_FOR_CLEARTYPE</
 </tr>
 <tr class="odd">
 <td>[<strong>D2D1_PROPERTY</strong>](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_property)<br/></td>
-<td>Specifies the indices of the system properties present on the [<strong>ID2D1Properties</strong>](/windows/desktop/api/D2d1_1/) interface for an [<strong>ID2D1Effect</strong>](/windows/desktop/api/D2d1_1/).<br/></td>
+<td>Specifies the indices of the system properties present on the [<strong>ID2D1Properties</strong>](https://msdn.microsoft.com/en-us/library/Hh446854(v=VS.85).aspx) interface for an [<strong>ID2D1Effect</strong>](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>D2D1_RENDERING_PRIORITY</strong>](/windows/desktop/api/D2D1_2/ne-d2d1_2-d2d1_rendering_priority)<br/></td>
@@ -530,8 +530,8 @@ Starting in Windows 8, the <strong>D2D1_LAYER_OPTIONS_INITIALIZE_FOR_CLEARTYPE</
 <td>Describes how a render target is remoted and whether it should be GDI-compatible. This enumeration allows a bitwise combination of its member values.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D2D1_RESOURCE_TYPE</strong>](/windows/desktop/api/D2d1_1/)<br/></td>
-<td>Specifies which kinds of resources should be released when [<strong>ID2D1Device::ClearResources</strong>](/windows/desktop/api/D2d1_1/) is invoked. <br/></td>
+<td>[<strong>D2D1_RESOURCE_TYPE</strong>](https://msdn.microsoft.com/en-us/library/Hh447014(v=VS.85).aspx)<br/></td>
+<td>Specifies which kinds of resources should be released when [<strong>ID2D1Device::ClearResources</strong>](https://msdn.microsoft.com/en-us/library/Hh404542(v=VS.85).aspx) is invoked. <br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE</strong>](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_rgbtohue_output_color_space)<br/></td>

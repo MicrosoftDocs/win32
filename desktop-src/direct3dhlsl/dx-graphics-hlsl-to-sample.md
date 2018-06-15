@@ -142,7 +142,7 @@ This function is supported in the following shader models.
 
 ## Example
 
-This partial code example is from the BasicHLSL10.fx file in the [BasicHLSL10 Sample](https://msdn.microsoft.com/windows/desktop/e749975d-211e-f7ed-5dd1-b9c29681c71b).
+This partial code example is from the BasicHLSL10.fx file in the [BasicHLSL10 Sample](https://msdn.microsoft.com/en-us/library/Ee416395(v=VS.85).aspx).
 
 
 ```

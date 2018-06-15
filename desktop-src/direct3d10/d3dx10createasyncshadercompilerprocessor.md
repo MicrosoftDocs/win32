@@ -39,7 +39,7 @@ HRESULT D3DX10CreateAsyncShaderCompilerProcessor(
 *pFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 A string that contains the shader filename.
 
@@ -48,25 +48,25 @@ A string that contains the shader filename.
 *pDefines* \[in\]
 </dt> <dd>
 
-Type: **const [**D3D10\_SHADER\_MACRO**](/windows/desktop/api/D3D10Shader/)\***
+Type: **const [**D3D10\_SHADER\_MACRO**](https://msdn.microsoft.com/en-us/library/Bb172436(v=VS.85).aspx)\***
 
-A NULL-terminated array of shader macros (see [**D3D10\_SHADER\_MACRO**](/windows/desktop/api/D3D10Shader/)); set this to **NULL** to specify no macros.
+A NULL-terminated array of shader macros (see [**D3D10\_SHADER\_MACRO**](https://msdn.microsoft.com/en-us/library/Bb172436(v=VS.85).aspx)); set this to **NULL** to specify no macros.
 
 </dd> <dt>
 
 *pInclude* \[in\]
 </dt> <dd>
 
-Type: **[**LPD3D10INCLUDE**](/windows/desktop/api/D3D10Shader/)**
+Type: **[**LPD3D10INCLUDE**](https://msdn.microsoft.com/en-us/library/Bb173775(v=VS.85).aspx)**
 
-A pointer to an include interface (see [**ID3D10Include Interface**](/windows/desktop/api/D3D10Shader/)); set this to **NULL** to specify there is no include file.
+A pointer to an include interface (see [**ID3D10Include Interface**](https://msdn.microsoft.com/en-us/library/Bb173775(v=VS.85).aspx)); set this to **NULL** to specify there is no include file.
 
 </dd> <dt>
 
 *pFunctionName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Name of the entry point function for the shader.
 
@@ -75,16 +75,16 @@ Name of the entry point function for the shader.
 *pProfile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
-A string that specifies the [shader profile](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_models.htm) or shader model.
+A string that specifies the [shader profile](https://msdn.microsoft.com/en-us/library/Bb509626(v=VS.85).aspx) or shader model.
 
 </dd> <dt>
 
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 HLSL compile options (see [Shader Flags](d3d10-graphics-reference-effect-constants.md)).
 
@@ -119,7 +119,7 @@ Address of a pointer to a buffer that contains the data processor created (see [
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

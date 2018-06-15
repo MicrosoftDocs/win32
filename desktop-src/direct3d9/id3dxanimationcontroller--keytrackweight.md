@@ -35,7 +35,7 @@ D3DXEVENTHANDLE KeyTrackWeight(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Identifier of the track to modify.
 
@@ -44,7 +44,7 @@ Identifier of the track to modify.
 *NewWeight* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 New weight of the track.
 
@@ -53,7 +53,7 @@ New weight of the track.
 *StartTime* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Global time key. Specifies the global time when the change will take place.
 
@@ -62,7 +62,7 @@ Global time key. Specifies the global time when the change will take place.
 *Duration* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Transition time, which specifies how long the smooth transition will take to complete.
 
@@ -71,9 +71,9 @@ Transition time, which specifies how long the smooth transition will take to com
 *Transition* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxtransition_type.htm)**
+Type: **[**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb205475(v=VS.85).aspx)**
 
-Specifies the transition type used for transitioning between weights. See [**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxtransition_type.htm).
+Specifies the transition type used for transitioning between weights. See [**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb205475(v=VS.85).aspx).
 
 </dd> </dl>
 

@@ -53,7 +53,7 @@ Data type: **Win32\_OperatingSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Element"), [**key**](https://msdn.microsoft.com/838d295f-e812-4e46-99a4-d2714a0ae8dc)
+Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Element"), [**key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx)
 </dt> </dl>
 
 TBD
@@ -69,7 +69,7 @@ Data type: **Win32\_AutochkSetting**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Setting"), [**key**](https://msdn.microsoft.com/838d295f-e812-4e46-99a4-d2714a0ae8dc)
+Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Setting"), [**key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx)
 </dt> </dl>
 
 TBD

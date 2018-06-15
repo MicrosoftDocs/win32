@@ -39,7 +39,7 @@ You can configure a profile stream for data unit extensions, such as SMPTE time 
 1.  Add one or more data unit extensions to the stream using [**IWMStreamConfig2::AddDataUnitExtension**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-adddataunitextension).
 2.  Call [**WMProfile::ReconfigStream**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-reconfigstream) to update the profile.
 3.  Call [**IConfigAsfWriter::ConfigureFilterUsingProfile**](iconfigasfwriter-configurefilterusingprofile.md) with the updated profile object.
-4.  Find the video input pin, and call its [**IAMWMBufferPass::SetNotify**](iamwmbufferpass-setnotify.md) method to register your application-defined [**IAMWMBufferPassCallback**](/windows/desktop/api/dshowasf/) interface.
+4.  Find the video input pin, and call its [**IAMWMBufferPass::SetNotify**](iamwmbufferpass-setnotify.md) method to register your application-defined [**IAMWMBufferPassCallback**](https://msdn.microsoft.com/en-us/library/Dd798277(v=VS.85).aspx) interface.
 
 When the graph runs, your [**IAMWMBufferPassCallback::Notify**](iamwmbufferpasscallback-notify.md) method will be called for each frame, and you will be able to get and set properties on the sample using its [**INSSBuffer3**](/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3) interface methods.
 

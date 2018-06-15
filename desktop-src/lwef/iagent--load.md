@@ -21,7 +21,7 @@ HRESULT Load(
 );
 ```
 
-Loads a character into the [**Characters**](https://msdn.microsoft.com/VS|msagent|~\paface_27j9.htm) collection.
+Loads a character into the [**Characters**](https://msdn.microsoft.com/en-us/library/ms697571(v=VS.85).aspx) collection.
 
 -   Returns S\_OK to indicate the operation was successful.
 

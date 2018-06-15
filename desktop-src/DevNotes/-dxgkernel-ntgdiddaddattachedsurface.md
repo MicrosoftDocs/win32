@@ -35,21 +35,21 @@ DWORD APIENTRY NtGdiDdAddAttachedSurface(
 *hSurface* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/windows/desktop/45a41cec-0257-4e26-809d-c2fc4c247328) structure that represents the surface to which another surface is being attached.
+Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/en-us/library/Ff551733(v=VS.85).aspx) structure that represents the surface to which another surface is being attached.
 
 </dd> <dt>
 
 *hSurfaceAttached* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/windows/desktop/45a41cec-0257-4e26-809d-c2fc4c247328) structure that represents the surface to be attached.
+Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/en-us/library/Ff551733(v=VS.85).aspx) structure that represents the surface to be attached.
 
 </dd> <dt>
 
 *puAddAttachedSurfaceData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_ADDATTACHEDSURFACEDATA**](https://msdn.microsoft.com/windows/desktop/d00120d9-5825-4998-a1ef-ccc5654b91b9) structure that contains information required for the driver to perform the attachment.
+Pointer to a [**DD\_ADDATTACHEDSURFACEDATA**](https://msdn.microsoft.com/en-us/library/Ff550462(v=VS.85).aspx) structure that contains information required for the driver to perform the attachment.
 
 </dd> </dl>
 

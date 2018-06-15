@@ -124,7 +124,7 @@ The following code adds a new policy to the IAS policies collection. The variabl
 [Retrieving a Collection](https://msdn.microsoft.com/library/bb960708)
 </dt> <dt>
 
-[**VARIANT**](https://msdn.microsoft.com/windows/desktop/e305240e-9e11-4006-98cc-26f4932d2118)
+[**VARIANT**](https://msdn.microsoft.com/en-us/library/ms221627(v=VS.71).aspx)
 </dt> </dl>
 
  

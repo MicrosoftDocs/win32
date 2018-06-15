@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # ISCardLocate::ConfigureCardNameSearch method
 
-\[The **ConfigureCardNameSearch** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **ConfigureCardNameSearch** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **ConfigureCardNameSearch** method specifies the card names to be used in the search for the [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50).
+The **ConfigureCardNameSearch** method specifies the card names to be used in the search for the [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx).
 
 ## Syntax
 
@@ -57,7 +57,7 @@ Dialog box title for the search common control.
 *lFlags* \[in\]
 </dt> <dd>
 
-Specifies when [*user interface*](https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb) is displayed.
+Specifies when [*user interface*](https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx) is displayed.
 
 
 
@@ -92,7 +92,7 @@ The method returns one of the following possible values.
 
 ## Remarks
 
-To locate the [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50), call [**FindCard**](iscardlocate-findcard.md).
+To locate the [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx), call [**FindCard**](iscardlocate-findcard.md).
 
 For a list of all the methods provided by this interface, see [**ISCardLocate**](iscardlocate.md).
 

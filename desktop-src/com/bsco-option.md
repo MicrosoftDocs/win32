@@ -48,56 +48,56 @@ typedef enum  {
 <span id="BSCO_ONSTARTBINDING"></span><span id="bsco_onstartbinding"></span>**BSCO\_ONSTARTBINDING**
 </dt> <dd>
 
-The client would like to receive the [**OnStartBinding**](https://msdn.microsoft.com/windows/desktop/75a6432d-d3c6-4010-85fe-355278d86cbb) callback.
+The client would like to receive the [**OnStartBinding**](https://www.bing.com/search?q=**OnStartBinding**) callback.
 
 </dd> <dt>
 
 <span id="BSCO_GETPRIORITY"></span><span id="bsco_getpriority"></span>**BSCO\_GETPRIORITY**
 </dt> <dd>
 
-The client would like to receive the [**GetPriority**](https://msdn.microsoft.com/windows/desktop/22ebe288-6bed-45ed-9818-5097bc70b6b9) callback.
+The client would like to receive the [**GetPriority**](https://www.bing.com/search?q=**GetPriority**) callback.
 
 </dd> <dt>
 
 <span id="BSCO_ONLOWRESOURCE"></span><span id="bsco_onlowresource"></span>**BSCO\_ONLOWRESOURCE**
 </dt> <dd>
 
-The client would like to receive the [**OnLowResource**](https://msdn.microsoft.com/windows/desktop/55977a98-9757-4697-bc4c-a4533fc55576) callback.
+The client would like to receive the [**OnLowResource**](https://www.bing.com/search?q=**OnLowResource**) callback.
 
 </dd> <dt>
 
 <span id="BSCO_ONPROGRESS"></span><span id="bsco_onprogress"></span>**BSCO\_ONPROGRESS**
 </dt> <dd>
 
-The client would like to receive the [**OnProgress**](https://msdn.microsoft.com/windows/desktop/c6541dd3-8095-481a-a2d5-08acaba91aad) callback.
+The client would like to receive the [**OnProgress**](https://www.bing.com/search?q=**OnProgress**) callback.
 
 </dd> <dt>
 
 <span id="BSCO_ONSTOPBINDING"></span><span id="bsco_onstopbinding"></span>**BSCO\_ONSTOPBINDING**
 </dt> <dd>
 
-The client would like to receive the [**OnStopBinding**](https://msdn.microsoft.com/windows/desktop/921b8c09-ca1d-41e5-91e2-7495fcbc539a) callback.
+The client would like to receive the [**OnStopBinding**](https://www.bing.com/search?q=**OnStopBinding**) callback.
 
 </dd> <dt>
 
 <span id="BSCO_GETBINDINFO"></span><span id="bsco_getbindinfo"></span>**BSCO\_GETBINDINFO**
 </dt> <dd>
 
-The client would like to receive the [**GetBindInfo**](https://msdn.microsoft.com/windows/desktop/a402c6a2-bae3-4874-8fc9-67d04b67687e) callback.
+The client would like to receive the [**GetBindInfo**](https://www.bing.com/search?q=**GetBindInfo**) callback.
 
 </dd> <dt>
 
 <span id="BSCO_ONDATAAVAILABLE"></span><span id="bsco_ondataavailable"></span>**BSCO\_ONDATAAVAILABLE**
 </dt> <dd>
 
-The client would like to receive the [**OnDataAvailable**](https://msdn.microsoft.com/windows/desktop/9755eda0-4d33-49e1-9bdd-f50a906e826f) callback.
+The client would like to receive the [**OnDataAvailable**](https://www.bing.com/search?q=**OnDataAvailable**) callback.
 
 </dd> <dt>
 
 <span id="BSCO_ONOBJECTAVAILABLE"></span><span id="bsco_onobjectavailable"></span>**BSCO\_ONOBJECTAVAILABLE**
 </dt> <dd>
 
-The client would like to receive the [**OnObjectAvailable**](https://msdn.microsoft.com/windows/desktop/d225d7f0-69eb-4359-88a4-17c9ea9e7be4) callback.
+The client would like to receive the [**OnObjectAvailable**](https://www.bing.com/search?q=**OnObjectAvailable**) callback.
 
 </dd> <dt>
 

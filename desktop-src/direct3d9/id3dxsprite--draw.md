@@ -44,9 +44,9 @@ Pointer to an [**IDirect3DTexture9**](/windows/desktop/api/d3d9helper/nn-d3d9-id
 *pSrcRect* \[in\]
 </dt> <dd>
 
-Type: **const [**RECT**](https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8)\***
+Type: **const [**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx)\***
 
-Pointer to a [**RECT**](https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8) structure that indicates the portion of the source texture to use for the sprite. If this parameter is **NULL**, then the entire source image is used for the sprite.
+Pointer to a [**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx) structure that indicates the portion of the source texture to use for the sprite. If this parameter is **NULL**, then the entire source image is used for the sprite.
 
 </dd> <dt>
 
@@ -79,7 +79,7 @@ Type: **[**D3DCOLOR**](d3dcolor.md)**
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA.
 

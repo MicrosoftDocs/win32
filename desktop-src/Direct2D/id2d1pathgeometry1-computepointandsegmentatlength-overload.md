@@ -25,10 +25,10 @@ Computes the point that exists at a given distance along the path geometry along
 
 | Method                                                                                                                                                                | Description                                                                                                                                                                         |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ComputePointAndSegmentAtLength (FLOAT, UINT, D2D1\_MATRIX\_3X2\_F\*, D2D1\_POINT\_DESCRIPTION\*)**](/windows/desktop/api/d2d1_3/)       | Computes the point that exists at a given distance along the path geometry along with the index of the segment the point is on and the directional vector at that point.<br/> |
-| [**ComputePointAndSegmentAtLength (FLOAT, UINT, D2D1\_MATRIX\_3X2\_F&, D2D1\_POINT\_DESCRIPTION\*)**](/windows/desktop/api/d2d1_3/)        | Computes the point that exists at a given distance along the path geometry along with the index of the segment the point is on and the directional vector at that point.<br/> |
-| [**ComputePointAndSegmentAtLength (FLOAT, UINT, D2D1\_MATRIX\_3X2\_F\*, FLOAT, D2D1\_POINT\_DESCRIPTION\*)**](/windows/desktop/api/D2d1_1/)  | Computes the point that exists at a given distance along the path geometry along with the index of the segment the point is on and the directional vector at that point.<br/> |
-| [**ComputePointAndSegmentAtLength (FLOAT, UINT, D2D1\_MATRIX\_3X2\_F&, FLOAT, D2D1\_POINT\_DESCRIPTION\*)**](/windows/desktop/api/d2d1_3/) | Computes the point that exists at a given distance along the path geometry along with the index of the segment the point is on and the directional vector at that point.<br/> |
+| [**ComputePointAndSegmentAtLength (FLOAT, UINT, D2D1\_MATRIX\_3X2\_F\*, D2D1\_POINT\_DESCRIPTION\*)**](https://msdn.microsoft.com/en-us/library/Dn900455(v=VS.85).aspx)       | Computes the point that exists at a given distance along the path geometry along with the index of the segment the point is on and the directional vector at that point.<br/> |
+| [**ComputePointAndSegmentAtLength (FLOAT, UINT, D2D1\_MATRIX\_3X2\_F&, D2D1\_POINT\_DESCRIPTION\*)**](https://msdn.microsoft.com/en-us/library/Dn900456(v=VS.85).aspx)        | Computes the point that exists at a given distance along the path geometry along with the index of the segment the point is on and the directional vector at that point.<br/> |
+| [**ComputePointAndSegmentAtLength (FLOAT, UINT, D2D1\_MATRIX\_3X2\_F\*, FLOAT, D2D1\_POINT\_DESCRIPTION\*)**](https://msdn.microsoft.com/en-us/library/Hh446851(v=VS.85).aspx)  | Computes the point that exists at a given distance along the path geometry along with the index of the segment the point is on and the directional vector at that point.<br/> |
+| [**ComputePointAndSegmentAtLength (FLOAT, UINT, D2D1\_MATRIX\_3X2\_F&, FLOAT, D2D1\_POINT\_DESCRIPTION\*)**](https://msdn.microsoft.com/en-us/library/Dn900454(v=VS.85).aspx) | Computes the point that exists at a given distance along the path geometry along with the index of the segment the point is on and the directional vector at that point.<br/> |
 
 
 
@@ -36,7 +36,7 @@ Computes the point that exists at a given distance along the path geometry along
 
 <dl> <dt>
 
-[**ID2D1PathGeometry1**](/windows/desktop/api/D2d1_1/)
+[**ID2D1PathGeometry1**](https://msdn.microsoft.com/en-us/library/Hh446826(v=VS.85).aspx)
 </dt> </dl>
 
  

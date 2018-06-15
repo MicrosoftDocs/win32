@@ -107,7 +107,7 @@ DX::ThrowIfFailed(
 
 The [**ID2D1Factory1**](https://msdn.microsoft.com/library/windows/desktop/hh404596) interface is the starting point for using Direct2D; use an **ID2D1Factory1** to create Direct2D resources.
 
-When you create a factory, you can specify whether it is multi- or single-threaded. (For more information about multi-threaded factories, see the remarks on the [**ID2D1Factory reference page**](/windows/desktop/api/d2d1/).) This example creates a single-threaded factory.
+When you create a factory, you can specify whether it is multi- or single-threaded. (For more information about multi-threaded factories, see the remarks on the [**ID2D1Factory reference page**](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx).) This example creates a single-threaded factory.
 
 In general, your application should create the factory once and retain it for the life of the application.
 
@@ -139,11 +139,11 @@ After you create a factory, use it to create a Direct2D device and then use the 
 
 
 
-A device context is a device that can perform drawing operations and create device-dependent drawing resources such as brushes. You also use the device context to link a [**ID2D1Bitmap**](/windows/desktop/api/d2d1/) to a DXGI surface to use as a render target. The device context can render to different types of targets.
+A device context is a device that can perform drawing operations and create device-dependent drawing resources such as brushes. You also use the device context to link a [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx) to a DXGI surface to use as a render target. The device context can render to different types of targets.
 
-The code here declares the properties for bitmap that links to a DXGI swap chain that renders to a [**CoreWindow**](https://msdn.microsoft.com/library/windows/apps/br208225). The [**ID2D1DeviceContext::CreateBitmapFromDxgiSurface**](/windows/desktop/api/D2d1_1/) method gets a Direct2D surface from the DXGI surface. This makes it so anything rendered to the target [**ID2D1Bitmap**](/windows/desktop/api/d2d1/) is rendered to the surface of the swap chain.
+The code here declares the properties for bitmap that links to a DXGI swap chain that renders to a [**CoreWindow**](https://msdn.microsoft.com/library/windows/apps/br208225). The [**ID2D1DeviceContext::CreateBitmapFromDxgiSurface**](https://msdn.microsoft.com/en-us/library/Hh404482(v=VS.85).aspx) method gets a Direct2D surface from the DXGI surface. This makes it so anything rendered to the target [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx) is rendered to the surface of the swap chain.
 
-Once you have the Direct2D surface, use the [**ID2D1DeviceContext::SetTarget**](/windows/desktop/api/D2d1_1/) method to set it as the active render target.
+Once you have the Direct2D surface, use the [**ID2D1DeviceContext::SetTarget**](https://msdn.microsoft.com/en-us/library/Hh404533(v=VS.85).aspx) method to set it as the active render target.
 
 
 ```C++
@@ -198,11 +198,11 @@ DX::ThrowIfFailed(
 
 A brush is an object that paints an area, such as the stroke of a shape or the fill of a geometry. The brush in this example paints an area with a predefined solid color, black.
 
-Direct2D also provides other types of brushes: gradient brushes for painting linear and radial gradients, a [**bitmap brush**](/windows/desktop/api/d2d1/) for painting with bitmaps and patterns, and starting in Windows 8, an [**image brush**](/windows/desktop/api/d2d1_1/) for painting with a rendered image.
+Direct2D also provides other types of brushes: gradient brushes for painting linear and radial gradients, a [**bitmap brush**](https://msdn.microsoft.com/en-us/library/Dd371122(v=VS.85).aspx) for painting with bitmaps and patterns, and starting in Windows 8, an [**image brush**](https://msdn.microsoft.com/en-us/library/Hh446804(v=VS.85).aspx) for painting with a rendered image.
 
-Some drawing APIs provide pens for drawing outlines and brushes for filling shapes. Direct2D is different: it does not provide a pen object but uses a brush for drawing outlines and filling shapes. When drawing outlines, use the [**ID2D1StrokeStyle**](/windows/desktop/api/d2d1/) interface, or starting in Windows 8 the [**ID2D1StrokeStyle1**](/windows/desktop/api/D2d1_1/) interface, with a brush to control path stroking operations.
+Some drawing APIs provide pens for drawing outlines and brushes for filling shapes. Direct2D is different: it does not provide a pen object but uses a brush for drawing outlines and filling shapes. When drawing outlines, use the [**ID2D1StrokeStyle**](https://msdn.microsoft.com/en-us/library/Dd372217(v=VS.85).aspx) interface, or starting in Windows 8 the [**ID2D1StrokeStyle1**](https://msdn.microsoft.com/en-us/library/Hh446914(v=VS.85).aspx) interface, with a brush to control path stroking operations.
 
-A brush can only be used with the render target that created it and with other render targets in the same resource domain. In general, you should create brushes once and retain them for the life of the render target that created them. [**ID2D1SolidColorBrush**](/windows/desktop/api/d2d1/) is the lone exception; because it is relatively inexpensive to create, you can create a **ID2D1SolidColorBrush** every time you draw a frame, without any noticeable performance hit. You can also use a single **ID2D1SolidColorBrush** and just change its color or opacity every time you use it.
+A brush can only be used with the render target that created it and with other render targets in the same resource domain. In general, you should create brushes once and retain them for the life of the render target that created them. [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/en-us/library/Dd372207(v=VS.85).aspx) is the lone exception; because it is relatively inexpensive to create, you can create a **ID2D1SolidColorBrush** every time you draw a frame, without any noticeable performance hit. You can also use a single **ID2D1SolidColorBrush** and just change its color or opacity every time you use it.
 
 ## Step 5: Draw the Rectangle
 
@@ -232,9 +232,9 @@ DX::ThrowIfFailed(
 
 
 
-The [**DrawRectangle**](/windows/desktop/api/d2d1/) method takes two parameters: the rectangle to be drawn, and the brush to be used to paint the rectangle's outline. Optionally, you can also specify the stroke width, dash pattern, line join, and end cap options.
+The [**DrawRectangle**](https://msdn.microsoft.com/en-us/library/Dd371902(v=VS.85).aspx) method takes two parameters: the rectangle to be drawn, and the brush to be used to paint the rectangle's outline. Optionally, you can also specify the stroke width, dash pattern, line join, and end cap options.
 
-You must call the [**BeginDraw**](/windows/desktop/api/d2d1/) method before issuing any drawing commands, and you must call the [**EndDraw**](/windows/desktop/api/d2d1/) method after you've finished issuing drawing commands. The **EndDraw** method returns an **HRESULT** that indicates whether the drawing commands were successful. If it is not successful, the ThrowIfFailed helper function will throw an exception.
+You must call the [**BeginDraw**](https://msdn.microsoft.com/en-us/library/Dd371768(v=VS.85).aspx) method before issuing any drawing commands, and you must call the [**EndDraw**](https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx) method after you've finished issuing drawing commands. The **EndDraw** method returns an **HRESULT** that indicates whether the drawing commands were successful. If it is not successful, the ThrowIfFailed helper function will throw an exception.
 
 The [**IDXGISwapChain::Present**](https://msdn.microsoft.com/library/windows/desktop/bb174576) method swaps the buffer surface with the on screen surface to display the result.
 

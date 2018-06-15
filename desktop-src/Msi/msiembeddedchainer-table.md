@@ -15,7 +15,7 @@ Use this table to author a [multiple-package installation](multiple-package-inst
 
 **[Windows Installer 4.0 or earlier](not-supported-in-windows-installer-4-0.md):** Not supported. This table is available beginning with Windows Installer 4.5.
 
-**Windows Server 2008 R2 with the [Remote Desktop Services](https://msdn.microsoft.com/90c40b7a-e324-43fc-a1e6-f29997ed9436) role enabled:** Not supported. A multiple package installation using the MsiEmbeddedChainer table fails if the [Remote Desktop Services](https://msdn.microsoft.com/90c40b7a-e324-43fc-a1e6-f29997ed9436) role is enabled.
+**Windows Server 2008 R2 with the [Remote Desktop Services](https://msdn.microsoft.com/en-us/library/Bb892075(v=VS.85).aspx) role enabled:** Not supported. A multiple package installation using the MsiEmbeddedChainer table fails if the [Remote Desktop Services](https://msdn.microsoft.com/en-us/library/Bb892075(v=VS.85).aspx) role is enabled.
 
 To install multiple packages from a single package, one of the user-defined functions listed in the MsiEmbeddedChainer table must have a conditional statment in the Condition field that evaluates to run the action. If more than one function has a condition that evaluates to run, only one function can run. This case is an error, and it cannot be guaranteed which function will run. If other custom actions are needed by the installation, these should be authored into the [CustomAction table](customaction-table.md) and sequence tables.
 

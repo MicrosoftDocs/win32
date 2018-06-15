@@ -51,7 +51,7 @@ Pointer to a source [**D3DXCOLOR**](d3dxcolor.md) structure.
 *c* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Contrast value. This parameter linearly interpolates between fifty percent gray and the color, pC. There are not limits on the value of c. If this parameter is zero, then the returned color is fifty percent gray. If this parameter is 1, then the returned color is the original color.
 

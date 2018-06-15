@@ -25,10 +25,10 @@ Creates a bitmap brush, the input image is a Direct2D bitmap object.
 
 | Method                                                                                                                                                                  | Description                                                                     |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------|
-| [**CreateBitmapBrush (ID2D1Bitmap\*, D2D1\_BITMAP\_BRUSH\_PROPERTIES1, D2D1\_BRUSH\_PROPERTIES, ID2D1BitmapBrush1\*\*)**](/windows/desktop/api/D2d1_1/)    | Creates a bitmap brush, the input image is a Direct2D bitmap object.<br/> |
-| [**CreateBitmapBrush (ID2D1Bitmap\*, D2D1\_BITMAP\_BRUSH\_PROPERTIES1\*, D2D1\_BRUSH\_PROPERTIES\*, ID2D1BitmapBrush1\*\*)**](/windows/desktop/api/D2d1_1/) | Creates a bitmap brush, the input image is a Direct2D bitmap object.<br/> |
-| [**CreateBitmapBrush (ID2D1Bitmap\*, ID2D1BitmapBrush1\*\*)**](/windows/desktop/api/D2d1_1/)                                                               | Creates a bitmap brush, the input image is a Direct2D bitmap object.<br/> |
-| [**CreateBitmapBrush (ID2D1Bitmap\*, D2D1\_BITMAP\_BRUSH\_PROPERTIES1\*, ID2D1BitmapBrush1\*\*)**](/windows/desktop/api/D2d1_1/)                           | Creates a bitmap brush, the input image is a Direct2D bitmap object.<br/> |
+| [**CreateBitmapBrush (ID2D1Bitmap\*, D2D1\_BITMAP\_BRUSH\_PROPERTIES1, D2D1\_BRUSH\_PROPERTIES, ID2D1BitmapBrush1\*\*)**](https://msdn.microsoft.com/en-us/library/JJ841133(v=VS.85).aspx)    | Creates a bitmap brush, the input image is a Direct2D bitmap object.<br/> |
+| [**CreateBitmapBrush (ID2D1Bitmap\*, D2D1\_BITMAP\_BRUSH\_PROPERTIES1\*, D2D1\_BRUSH\_PROPERTIES\*, ID2D1BitmapBrush1\*\*)**](https://msdn.microsoft.com/en-us/library/Hh847970(v=VS.85).aspx) | Creates a bitmap brush, the input image is a Direct2D bitmap object.<br/> |
+| [**CreateBitmapBrush (ID2D1Bitmap\*, ID2D1BitmapBrush1\*\*)**](https://msdn.microsoft.com/en-us/library/JJ841132(v=VS.85).aspx)                                                               | Creates a bitmap brush, the input image is a Direct2D bitmap object.<br/> |
+| [**CreateBitmapBrush (ID2D1Bitmap\*, D2D1\_BITMAP\_BRUSH\_PROPERTIES1\*, ID2D1BitmapBrush1\*\*)**](https://msdn.microsoft.com/en-us/library/JJ841131(v=VS.85).aspx)                           | Creates a bitmap brush, the input image is a Direct2D bitmap object.<br/> |
 
 
 
@@ -36,7 +36,7 @@ Creates a bitmap brush, the input image is a Direct2D bitmap object.
 
 <dl> <dt>
 
-[**ID2D1DeviceContext**](/windows/desktop/api/D2d1_1/)
+[**ID2D1DeviceContext**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx)
 </dt> </dl>
 
  

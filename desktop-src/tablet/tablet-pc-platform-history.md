@@ -25,7 +25,7 @@ The Windows Presentation Foundation also supports development of Tablet PC appli
 
 ### Tablet Platform in Windows 7 and Windows Server 2008 R2
 
-Windows 7 introduces additional language support, the math input control, and custom dictionaries. [Windows Touch](https://msdn.microsoft.com/e4fa4615-6d12-4f21-a899-cfa2282baa6d) features have also been added to Windows operating systems.
+Windows 7 introduces additional language support, the math input control, and custom dictionaries. [Windows Touch](https://msdn.microsoft.com/en-us/library/Dd562197(v=VS.85).aspx) features have also been added to Windows operating systems.
 
 Windows Server 2008 R2 introduces support for additional languages, custom dictionaries, and server-side recognition.
 

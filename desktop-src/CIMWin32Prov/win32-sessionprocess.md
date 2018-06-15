@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_SessionProcess class
 
-The **Win32\_SessionProcess** association [WMI class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267) represents an association between a logon session and the processes associated with that session.
+The **Win32\_SessionProcess** association [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) represents an association between a logon session and the processes associated with that session.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -53,7 +53,7 @@ Data type: **Win32\_LogonSession**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Antecedent"), [**Key**](https://msdn.microsoft.com/838d295f-e812-4e46-99a4-d2714a0ae8dc)
+Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Antecedent"), [**Key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx)
 </dt> </dl>
 
 A [**Win32\_LogonSession**](win32-logonsessionmappeddisk.md) that represents the session which is related to the process.
@@ -69,7 +69,7 @@ Data type: **Win32\_Process**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Dependent"), [**Key**](https://msdn.microsoft.com/838d295f-e812-4e46-99a4-d2714a0ae8dc)
+Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Dependent"), [**Key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx)
 </dt> </dl>
 
 A [**Win32\_Process**](win32-processor.md) that represents the process associated with the session.
@@ -101,7 +101,7 @@ A [**Win32\_Process**](win32-processor.md) that represents the process associate
 [**Win32\_SessionResource**](win32-sessionresource.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/windows/desktop/D0756D8C-A3D3-4C75-96A3-8C7F05300B39)
+[Operating System Classes](https://msdn.microsoft.com/en-us/library/Dn792258(v=VS.85).aspx)
 </dt> </dl>
 
  

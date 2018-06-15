@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CPL\_EXIT message
 
-Sent once to the [**CPlApplet**](/windows/desktop/api/Cpl/nc-cpl-applet_proc) function of a Control Panel application before the DLL containing the Control Panel application is released.
+Sent once to the [**CPlApplet**](https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx) function of a Control Panel application before the DLL containing the Control Panel application is released.
 
 ## Parameters
 
@@ -25,7 +25,7 @@ Sent once to the [**CPlApplet**](/windows/desktop/api/Cpl/nc-cpl-applet_proc) fu
 
 ## Return value
 
-If the [**CPlApplet**](/windows/desktop/api/Cpl/nc-cpl-applet_proc) function processes this message successfully, it should return zero.
+If the [**CPlApplet**](https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx) function processes this message successfully, it should return zero.
 
 ## Remarks
 
@@ -49,7 +49,7 @@ In response to this message, a Control Panel application must free any memory th
 
 <dl> <dt>
 
-[**FreeLibrary**](https://msdn.microsoft.com/823d3147-4ba8-4fe5-ade4-e5604f47eb0a)
+[**FreeLibrary**](https://msdn.microsoft.com/en-us/library/ms683152(v=VS.85).aspx)
 </dt> </dl>
 
  

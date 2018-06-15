@@ -26,11 +26,11 @@ typedef D2D_COLOR_F D2D1_COLOR_F;
 
 **D2D1\_COLOR\_F** is a typedef for [**D2D\_COLOR\_F**](d2d-color-f.md), which is itself a typedef for [D3DCOLORVALUE](http://msdn.microsoft.com/library/bb172520(VS.85).aspx). For information about the members provided by **D2D1\_COLOR\_F**, see [D3DCOLORVALUE](http://msdn.microsoft.com/library/bb172520(VS.85).aspx).
 
-The [**ColorF**](/windows/desktop/api/d2d1/nl-d2d1helper-colorf) class provides a set of predefined colors and helper functions for defining colors. For more information, see the [**ColorF**](/windows/desktop/api/d2d1/nl-d2d1helper-colorf) reference.
+The [**ColorF**](https://msdn.microsoft.com/en-us/library/Dd370907(v=VS.85).aspx) class provides a set of predefined colors and helper functions for defining colors. For more information, see the [**ColorF**](https://msdn.microsoft.com/en-us/library/Dd370907(v=VS.85).aspx) reference.
 
 ## Examples
 
-The following example uses the [**ColorF**](/windows/desktop/api/d2d1/nl-d2d1helper-colorf) class to specify a predefined color (black) when creating an [**ID2D1SolidColorBrush**](/windows/desktop/api/d2d1/).
+The following example uses the [**ColorF**](https://msdn.microsoft.com/en-us/library/Dd370907(v=VS.85).aspx) class to specify a predefined color (black) when creating an [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/en-us/library/Dd372207(v=VS.85).aspx).
 
 
 ```C++
@@ -42,7 +42,7 @@ hr = m_pRenderTarget->CreateSolidColorBrush(
 
 
 
-The following example uses the [**ColorF**](/windows/desktop/api/d2d1/nl-d2d1helper-colorf) class to specify a color using red, green, blue, and alpha values.
+The following example uses the [**ColorF**](https://msdn.microsoft.com/en-us/library/Dd370907(v=VS.85).aspx) class to specify a color using red, green, blue, and alpha values.
 
 
 ```C++
@@ -75,7 +75,7 @@ hr = pCompatibleRenderTarget->CreateSolidColorBrush(
 [D3DCOLORVALUE](http://msdn.microsoft.com/library/bb172520(VS.85).aspx)
 </dt> <dt>
 
-[**ColorF**](/windows/desktop/api/d2d1/nl-d2d1helper-colorf)
+[**ColorF**](https://msdn.microsoft.com/en-us/library/Dd370907(v=VS.85).aspx)
 </dt> </dl>
 
  

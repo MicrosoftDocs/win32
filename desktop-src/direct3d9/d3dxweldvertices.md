@@ -46,9 +46,9 @@ Pointer to an [**ID3DXMesh**](id3dxmesh.md) object, the mesh from which to weld 
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
-Combination of one or more flags from [**D3DXWELDEPSILONSFLAGS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxweldepsilonsflags.htm).
+Combination of one or more flags from [**D3DXWELDEPSILONSFLAGS**](https://msdn.microsoft.com/en-us/library/Bb205561(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -64,7 +64,7 @@ Pointer to a [**D3DXWeldEpsilons**](d3dxweldepsilons.md) structure, specifying t
 *pAdjacencyIn* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **const [**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the source mesh. If the edge has no adjacent faces, the value is 0xffffffff. If this parameter is set to **NULL**, [**ID3DXBaseMesh::GenerateAdjacency**](id3dxbasemesh--generateadjacency.md) will be called to create logical adjacency information.
 
@@ -73,7 +73,7 @@ Pointer to an array of three DWORDs per face that specify the three neighbors fo
 *pAdjacencyOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the optimized mesh. If the edge has no adjacent faces, the value is 0xffffffff.
 
@@ -82,7 +82,7 @@ Pointer to an array of three DWORDs per face that specify the three neighbors fo
 *pFaceRemap* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 An array of DWORDs, one per face, that identifies the original mesh face that corresponds to each face in the welded mesh.
 
@@ -99,7 +99,7 @@ Address of a pointer to an [**ID3DXBuffer**](id3dxbuffer.md) interface, which co
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Saving or Discarding Changes
 
-When you set properties on an item, no changes are actually recorded to the COM+ catalog until you explicitly save changes. You do this using the [**SaveChanges**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-savechanges) method on the [**COMAdminCatalogCollection**](/windows/desktop/api/ComAdmin/) object for the collection containing the item.
+When you set properties on an item, no changes are actually recorded to the COM+ catalog until you explicitly save changes. You do this using the [**SaveChanges**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-savechanges) method on the [**COMAdminCatalogCollection**](https://msdn.microsoft.com/en-us/library/ms679474(v=VS.85).aspx) object for the collection containing the item.
 
-If you want to discard changes that have not yet been committed, you can call the [**Populate**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-populate) method on the [**COMAdminCatalogCollection**](/windows/desktop/api/ComAdmin/) object. This reads in all persistent data from the COM+ catalog for all items in the collection, effectively deleting any pending changes.
+If you want to discard changes that have not yet been committed, you can call the [**Populate**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-populate) method on the [**COMAdminCatalogCollection**](https://msdn.microsoft.com/en-us/library/ms679474(v=VS.85).aspx) object. This reads in all persistent data from the COM+ catalog for all items in the collection, effectively deleting any pending changes.
 
 When you use [**SaveChanges**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-savechanges), any inconsistencies in property settings that you have chosen result in an error, and **SaveChanges** fails to write the object that returned the error. All properties on a given item either are written or fail to be written as a whole.
 

@@ -17,7 +17,7 @@ Exposes methods that identify, enumerate, and manage user identities on the syst
 
 ## Members
 
-The **IUserIdentityManager** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IUserIdentityManager** also has these types of members:
+The **IUserIdentityManager** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IUserIdentityManager** also has these types of members:
 
 -   [Methods](#methods)
 

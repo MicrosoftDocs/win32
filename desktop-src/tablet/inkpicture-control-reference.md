@@ -40,12 +40,12 @@ Creating the InkPicture control behind a transparent control (such as a GroupBox
 |------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **ChangeUICues**                                                                   | Deprecated.<br/>                                                                                                                                                                                                                                                                                             |
 | [**Click**](inkpicture-click.md)                                                  | Occurs when a user clicks the InkPicture control.<br/>                                                                                                                                                                                                                                                       |
-| [**CursorButtonDown Event**](inkpicture-cursorbuttondown.md)                      | Occurs when the [**InkCollector**](/windows/desktop/api/msinkaut/) control detects an [**IInkCursorButton**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursorbutton) object that is down.<br/>                                                                                                                                                         |
+| [**CursorButtonDown Event**](inkpicture-cursorbuttondown.md)                      | Occurs when the [**InkCollector**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx) control detects an [**IInkCursorButton**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursorbutton) object that is down.<br/>                                                                                                                                                         |
 | [**CursorButtonUp Event**](inkpicture-cursorbuttonup.md)                          | Occurs when the InkPicture control detects an [**IInkCursorButton**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursorbutton) that is up.<br/>                                                                                                                                                                                                  |
 | [**CursorDown Event**](inkpicture-cursordown.md)                                  | Occurs when the cursor tip contacts the digitizing tablet surface.<br/>                                                                                                                                                                                                                                      |
 | [**CursorInRange Event**](inkpicture-cursorinrange.md)                            | Occurs when a cursor enters the physical detection range (proximity) of the tablet context.<br/>                                                                                                                                                                                                             |
 | [**CursorOutOfRange Event**](inkpicture-cursoroutofrange.md)                      | Occurs when the cursor leaves the physical detection range (proximity) of the tablet context.<br/>                                                                                                                                                                                                           |
-| [**DblClick**](inkpicture-dblclick.md)                                            | Occurs when the InkPicture control is double-clicked.<br/> This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface with an identifier of DISPID\_IPEDblClick.<br/> |
+| [**DblClick**](inkpicture-dblclick.md)                                            | Occurs when the InkPicture control is double-clicked.<br/> This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IPEDblClick.<br/> |
 | [**Gesture Event**](inkpicture-gesture.md)                                        | Occurs when an application gesture is recognized.<br/>                                                                                                                                                                                                                                                       |
 | [**KeyDown Event \[InkPicture Control\]**](inkpicture-keydown.md)                 | Occurs when a key is pressed and in the down position while the InkPicture control has focus.<br/>                                                                                                                                                                                                           |
 | [**KeyPress Event\[InkPicture Control\]**](inkpicture-keypress.md)                | Occurs when a key is pressed while the InkPicture control has focus.<br/>                                                                                                                                                                                                                                    |
@@ -120,7 +120,7 @@ Creating the InkPicture control behind a transparent control (such as a GroupBox
 <tbody>
 <tr class="odd">
 <td>[<strong>AutoRedraw Property</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_autoredraw)</td>
-<td>Gets or sets a value that specifies whether the InkPicture control repaints when the window is invalidated (whether the [<strong>InkDisp</strong>](/windows/desktop/api/msinkaut/) object currently associated with InkPicture control is automatically redrawn when the window associated with the InkPicture receives a WM_PAINT message).<br/></td>
+<td>Gets or sets a value that specifies whether the InkPicture control repaints when the window is invalidated (whether the [<strong>InkDisp</strong>](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object currently associated with InkPicture control is automatically redrawn when the window associated with the InkPicture receives a WM_PAINT message).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>BackColor</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_backcolor)</td>
@@ -139,12 +139,12 @@ Creating the InkPicture control behind a transparent control (such as a GroupBox
 <td>Gets the [<strong>IInkCursors</strong>](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors) collection available for use in the InkPicture control's inking region.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>CustomStrokes</strong>](/windows/desktop/api/msinkaut/)</td>
+<td>[<strong>CustomStrokes</strong>](https://msdn.microsoft.com/en-us/library/ms703274(v=VS.85).aspx)</td>
 <td>Gets the [<strong>IInkCustomStrokes</strong>](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes) collection to be persisted with the ink (design-time only).<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>DefaultDrawingAttributes Property</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_defaultdrawingattributes)</td>
-<td>Gets or sets the default [<strong>InkDrawingAttributes</strong>](/windows/desktop/api/msinkaut/) collection to use when drawing and displaying ink (run time only).<br/></td>
+<td>Gets or sets the default [<strong>InkDrawingAttributes</strong>](https://msdn.microsoft.com/en-us/library/ms695050(v=VS.85).aspx) collection to use when drawing and displaying ink (run time only).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>DesiredPacketDescription Property</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_desiredpacketdescription)</td>
@@ -181,7 +181,7 @@ This property is equivalent to the [<strong>InkEnabled</strong>](/windows/deskto
 </tr>
 <tr class="odd">
 <td>[<strong>Ink</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_ink)</td>
-<td>Gets or sets the [<strong>InkDisp</strong>](/windows/desktop/api/msinkaut/) object that is associated with the InkPicture control (run time only).<br/></td>
+<td>Gets or sets the [<strong>InkDisp</strong>](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object that is associated with the InkPicture control (run time only).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>InkEnabled</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled)</td>
@@ -209,11 +209,11 @@ This property is equivalent to the [<strong>InkEnabled</strong>](/windows/deskto
 </tr>
 <tr class="even">
 <td>[<strong>Renderer Property</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_renderer)</td>
-<td>Gets or sets the [<strong>InkRenderer</strong>](/windows/desktop/api/msinkaut/) object that is used to draw ink on the InkPicture control (run time only).<br/></td>
+<td>Gets or sets the [<strong>InkRenderer</strong>](https://msdn.microsoft.com/en-us/library/ms699463(v=VS.85).aspx) object that is used to draw ink on the InkPicture control (run time only).<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>Selection</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection)</td>
-<td>Gets the [InkStrokes](/windows/desktop/api/msinkaut/) collection currently selected inside the InkPicture control (run time only).<br/></td>
+<td>Gets the [InkStrokes](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection currently selected inside the InkPicture control (run time only).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>SizeMode</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_sizemode)</td>
@@ -250,7 +250,7 @@ You can use the InkPicture control to render ink in Microsoft Windows 2000, Wind
 
 If you use Windows 2000, Windows Server 2003, any edition of Windows XP other than Windows XP Tablet PC Edition 2005, you can assign values to the ambient properties of the InkPicture control, then copy and paste ink to other applications. However, the value of its InkEnabled property will always be **FALSE**.
 
-Persisted [**InkDisp**](/windows/desktop/api/msinkaut/) objects can be loaded and displayed on all editions of Windows Vista and XP and on systems that have only the Windows XP Tablet PC Edition Software Development Kit (SDK) installed. **InkDisp** objects can only be converted to text (recognized), if Windows Vista or the Windows XP Tablet PC Edition 2005 is installed.
+Persisted [**InkDisp**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) objects can be loaded and displayed on all editions of Windows Vista and XP and on systems that have only the Windows XP Tablet PC Edition Software Development Kit (SDK) installed. **InkDisp** objects can only be converted to text (recognized), if Windows Vista or the Windows XP Tablet PC Edition 2005 is installed.
 
 If operations on this control do not succeed, a legal HRESULT is returned. If error conditions result, check the returned HRESULT against the error.
 
@@ -276,7 +276,7 @@ This object implements the **IInkPicture** COM interface.
 [InkEdit Control Reference](inkedit-control-reference.md)
 </dt> <dt>
 
-[**InkOverlay Class**](/windows/desktop/api/msinkaut/)
+[**InkOverlay Class**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx)
 </dt> </dl>
 
  

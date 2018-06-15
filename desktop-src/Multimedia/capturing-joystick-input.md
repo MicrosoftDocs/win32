@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 # Capturing Joystick Input
 
-Most of the code controlling the joystick is in the main window function. In the following portion of the message handler, the application calls [**joySetCapture**](https://www.bing.com/search?q=**joySetCapture**) to capture input from the joystick JOYSTICKID1.
+Most of the code controlling the joystick is in the main window function. In the following portion of the message handler, the application calls [**joySetCapture**](https://msdn.microsoft.com/en-us/library/Dd757114(v=VS.85).aspx) to capture input from the joystick JOYSTICKID1.
 
 
 ```C++

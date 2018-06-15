@@ -13,22 +13,22 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [GDI](https://msdn.microsoft.com/b58ab70a-2071-4264-9d20-c0b0aaf8dc5c)
--   [GDI+](https://msdn.microsoft.com/VS|gdicpp|~\gdiplus\gdiplus.htm)
--   [Monitor Configuration](https://msdn.microsoft.com/8439ca75-dd31-42a8-afd6-e1f7a867d17c)
--   [OpenGL](https://msdn.microsoft.com/ddd7c8d0-f1d1-4d16-bd0c-99cee3d733c5)
--   [Picture Acquisition](https://msdn.microsoft.com/849ba7d2-9739-4501-8f83-7181a0efdd0e)
--   [Windows Color System](https://msdn.microsoft.com/b354b90f-575d-4392-9aa2-6fb1d2cb3c07)
--   [WPF Bitmap Effects](https://msdn.microsoft.com/VS|wibe|~\wibelh\wibelh.htm)
+-   [GDI](https://msdn.microsoft.com/en-us/library/Dd145203(v=VS.85).aspx)
+-   [GDI+](https://msdn.microsoft.com/en-us/library/ms533798(v=VS.85).aspx)
+-   [Monitor Configuration](https://msdn.microsoft.com/en-us/library/Dd692962(v=VS.85).aspx)
+-   [OpenGL](https://msdn.microsoft.com/en-us/library/Dd374278(v=VS.85).aspx)
+-   [Picture Acquisition](https://msdn.microsoft.com/en-us/library/Dd370838(v=VS.85).aspx)
+-   [Windows Color System](https://msdn.microsoft.com/en-us/library/Dd372446(v=VS.85).aspx)
+-   [WPF Bitmap Effects](https://msdn.microsoft.com/en-us/library/ms735092(v=VS.85).aspx)
 
 ## Related topics
 
 <dl> <dt>
 
-[DirectX Graphics and Gaming](https://www.bing.com/search?q=DirectX+Graphics+and+Gaming)
+[DirectX Graphics and Gaming](https://msdn.microsoft.com/en-us/library/Ee663274(v=VS.85).aspx)
 </dt> <dt>
 
-[Graphics](https://www.bing.com/search?q=Graphics)
+[Graphics](https://msdn.microsoft.com/en-us/library/Ee663279(v=VS.85).aspx)
 </dt> </dl>
 
  

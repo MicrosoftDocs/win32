@@ -33,7 +33,7 @@ The [**SignalObjectAndWait**](/windows/desktop/api/WinBase/nf-winbase-signalobje
 
 ## Multiple-object Wait Functions
 
-The [**WaitForMultipleObjects**](/windows/desktop/api/WinBase/wdm-irqlkewaitformultipleobjects), [**WaitForMultipleObjectsEx**](/windows/desktop/api/WinBase/nf-synchapi-waitformultipleobjectsex), [**MsgWaitForMultipleObjects**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjects), and [**MsgWaitForMultipleObjectsEx**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjectsex) functions enable the calling thread to specify an array containing one or more synchronization object handles. These functions return when one of the following occurs:
+The [**WaitForMultipleObjects**](https://msdn.microsoft.com/en-us/library/ms687025(v=VS.85).aspx), [**WaitForMultipleObjectsEx**](/windows/desktop/api/WinBase/nf-synchapi-waitformultipleobjectsex), [**MsgWaitForMultipleObjects**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjects), and [**MsgWaitForMultipleObjectsEx**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjectsex) functions enable the calling thread to specify an array containing one or more synchronization object handles. These functions return when one of the following occurs:
 
 -   The state of any one of the specified objects is set to signaled or the states of all objects have been set to signaled. You control whether one or all of the states will be used in the function call.
 -   The time-out interval elapses. The time-out interval can be set to **INFINITE** to specify that the wait will not time out.
@@ -50,7 +50,7 @@ The [**MsgWaitForMultipleObjectsEx**](/windows/desktop/api/Winuser/nf-winuser-ms
 
 ## Registered Wait Functions
 
-The [**RegisterWaitForSingleObject**](/windows/desktop/api/WinBase/nf-winbase-registerwaitforsingleobject) function differs from the other wait functions in that the wait operation is performed by a thread from the [thread pool](https://msdn.microsoft.com/a5e52080-35d4-47f5-9050-90889e3bf2f8). When the specified conditions are met, the callback function is executed by a worker thread from the thread pool.
+The [**RegisterWaitForSingleObject**](/windows/desktop/api/WinBase/nf-winbase-registerwaitforsingleobject) function differs from the other wait functions in that the wait operation is performed by a thread from the [thread pool](https://msdn.microsoft.com/en-us/library/ms686756(v=VS.85).aspx). When the specified conditions are met, the callback function is executed by a worker thread from the thread pool.
 
 By default, a registered wait operation is a multiple-wait operation. The system resets the timer every time the event is signaled (or the time-out interval elapses) until you call the [**UnregisterWaitEx**](unregisterwaitex.md) function to cancel the operation. To specify that a wait operation should be executed only once, set the *dwFlags* parameter of [**RegisterWaitForSingleObject**](/windows/desktop/api/WinBase/nf-winbase-registerwaitforsingleobject) to **WT\_EXECUTEONLYONCE**.
 

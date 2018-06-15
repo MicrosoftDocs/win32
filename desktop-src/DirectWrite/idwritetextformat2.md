@@ -38,7 +38,7 @@ The **IDWriteTextFormat2** interface has these methods.
 
 | Method                                                      | Description                                                                      |
 |:------------------------------------------------------------|:---------------------------------------------------------------------------------|
-| [**GetLineSpacing**](/windows/desktop/api/dwrite/) | Gets the line spacing adjustment set for a multiline text paragraph. <br/> |
+| [**GetLineSpacing**](https://msdn.microsoft.com/en-us/library/Mt574122(v=VS.85).aspx) | Gets the line spacing adjustment set for a multiline text paragraph. <br/> |
 | [**SetLineSpacing**](idwritetextformat2-setlinespacing.md) | Set line spacing.<br/>                                                     |
 
 

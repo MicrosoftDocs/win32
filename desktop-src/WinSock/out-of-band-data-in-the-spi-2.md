@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Out-of-Band Data in the SPI
 
-The service providers which support the out-of-band data (OOB) abstraction for the stream-style sockets must adhere to the semantics in this section. We will describe OOB data handling in a protocol-independent manner. Please refer to the [Winsock Annexes](winsock-annexes.md) for a discussion of OOB data implemented using urgent data in TCP/IP service providers. In the following, the use of [**WSPRecv**](/windows/desktop/api/Ws2spi/) also applies to [**WSPRecvFrom**](/windows/desktop/api/Ws2spi/).
+The service providers which support the out-of-band data (OOB) abstraction for the stream-style sockets must adhere to the semantics in this section. We will describe OOB data handling in a protocol-independent manner. Please refer to the [Winsock Annexes](winsock-annexes.md) for a discussion of OOB data implemented using urgent data in TCP/IP service providers. In the following, the use of [**WSPRecv**](https://msdn.microsoft.com/en-us/library/ms742288(v=VS.85).aspx) also applies to [**WSPRecvFrom**](https://msdn.microsoft.com/en-us/library/ms742287(v=VS.85).aspx).
 
  
 

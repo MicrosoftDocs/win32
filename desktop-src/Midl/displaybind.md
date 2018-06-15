@@ -110,13 +110,13 @@ interface MyObject : IUnknown
 [**bindable**](bindable.md)
 </dt> <dt>
 
-[TYPEFLAGS](https://msdn.microsoft.com/windows/desktop/bf34cc90-f772-4562-9d18-7cf35aeed41e)
+[TYPEFLAGS](https://msdn.microsoft.com/en-us/library/ms221509(v=VS.71).aspx)
 </dt> <dt>
 
-[ODL File Syntax](https://msdn.microsoft.com/windows/desktop/df7aa86f-1453-4409-939e-788d469d611e)
+[ODL File Syntax](https://msdn.microsoft.com/en-us/library/ms221683(v=VS.71).aspx)
 </dt> <dt>
 
-[ODL File Example](https://msdn.microsoft.com/windows/desktop/86d64a4f-08eb-422a-bb1d-dfa868094645)
+[ODL File Example](https://msdn.microsoft.com/en-us/library/ms221308(v=VS.71).aspx)
 </dt> <dt>
 
 [Generating a Type Library With MIDL](generating-a-type-library-with-midl-2.md)

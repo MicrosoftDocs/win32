@@ -26,15 +26,15 @@ You can work with individual MIDI messages by using the following functions.
 
 | Value                                      | Meaning                                                                                                                                                                             |
 |--------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**midiOutLongMsg**](https://www.bing.com/search?q=**midiOutLongMsg**)   | Sends a buffer of MIDI data to the specified MIDI output device. Use this function to send system-exclusive messages to a MIDI device.                                              |
-| [**midiOutReset**](https://www.bing.com/search?q=**midiOutReset**)       | Turns off all notes on all channels for a specified MIDI output device. Any pending system-exclusive buffers and stream buffers are marked as done and returned to the application. |
-| [**midiOutShortMsg**](https://www.bing.com/search?q=**midiOutShortMsg**) | Sends a MIDI message to a specified MIDI output device.                                                                                                                             |
+| [**midiOutLongMsg**](https://msdn.microsoft.com/en-us/library/Dd798474(v=VS.85).aspx)   | Sends a buffer of MIDI data to the specified MIDI output device. Use this function to send system-exclusive messages to a MIDI device.                                              |
+| [**midiOutReset**](https://msdn.microsoft.com/en-us/library/Dd798479(v=VS.85).aspx)       | Turns off all notes on all channels for a specified MIDI output device. Any pending system-exclusive buffers and stream buffers are marked as done and returned to the application. |
+| [**midiOutShortMsg**](https://msdn.microsoft.com/en-us/library/Dd798481(v=VS.85).aspx) | Sends a MIDI message to a specified MIDI output device.                                                                                                                             |
 
 
 
  
 
-To send any MIDI message (except for system-exclusive messages), use [**midiOutShortMsg**](https://www.bing.com/search?q=**midiOutShortMsg**).
+To send any MIDI message (except for system-exclusive messages), use [**midiOutShortMsg**](https://msdn.microsoft.com/en-us/library/Dd798481(v=VS.85).aspx).
 
  
 

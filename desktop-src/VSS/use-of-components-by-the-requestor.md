@@ -67,7 +67,7 @@ See [Working with Selectability and Logical Paths](working-with-selectability-an
 
 Each component is uniquely identified by the [*Writer Class ID*](vssgloss-w.md) of its parent writer, its name, and its [*logical path*](vssgloss-l.md).
 
-The requester can use the [**IVssWriterComponentsExt**](/windows/desktop/api/VsBackup/) interface returned by the [**IVssBackupComponents::GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents) method to obtain information about each stored component.
+The requester can use the [**IVssWriterComponentsExt**](https://msdn.microsoft.com/en-us/library/Aa384312(v=VS.85).aspx) interface returned by the [**IVssBackupComponents::GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents) method to obtain information about each stored component.
 
 The component's name and logical path (among other items) can be found via the [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) interface returned by [**IVssWriterComponentsExt::GetComponent**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getcomponent).
 

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The following example shows using [**CryptEncodeObjectEx**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencodeobjectex) and [**CryptDecodeObjectEx**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdecodeobjectex). This example can easily be modified to use [**CryptEncodeObject**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencodeobject) and [**CryptDecodeObject**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdecodeobject).
 
-This example also uses a modified version of the function [**ByteToStr**](bytetostr.md) to print an [*Abstract Syntax Notation One*](https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02) (ASN.1) encoded series of octets. It also uses [**MyHandleError**](myhandleerror.md). Code for these functions is included with the sample.
+This example also uses a modified version of the function [**ByteToStr**](bytetostr.md) to print an [*Abstract Syntax Notation One*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) (ASN.1) encoded series of octets. It also uses [**MyHandleError**](myhandleerror.md). Code for these functions is included with the sample.
 
 
 ```C++

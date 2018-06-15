@@ -28,7 +28,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 The creation flags passed into the *options* parameter of [**D3DX10CreateMesh**](d3d10-d3dx10createmesh.md) when the mesh was created. See [**D3DX10\_MESH**](d3dx10-mesh.md).
 

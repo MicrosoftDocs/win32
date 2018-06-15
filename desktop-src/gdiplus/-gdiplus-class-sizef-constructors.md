@@ -19,8 +19,8 @@ This topic lists the constructors of the [**SizeF**](/windows/desktop/api/gdiplu
 
 | Constructor                                                          | Description                                                                                                                                             |
 |:---------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**SizeF(SizeF&)**](/windows/desktop/api/Gdiplustypes/)            | Creates a [**SizeF**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef) object and initializes its members by copying the members of another **SizeF** object.<br/> |
-| [**SizeF(REAL,REAL)**](/windows/desktop/api/Gdiplustypes/) | Creates a [**SizeF**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef) object and initializes its **Width** and **Height** data members.<br/>                      |
+| [**SizeF(SizeF&)**](https://msdn.microsoft.com/en-us/library/ms534746(v=VS.85).aspx)            | Creates a [**SizeF**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef) object and initializes its members by copying the members of another **SizeF** object.<br/> |
+| [**SizeF(REAL,REAL)**](https://msdn.microsoft.com/en-us/library/ms534745(v=VS.85).aspx) | Creates a [**SizeF**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef) object and initializes its **Width** and **Height** data members.<br/>                      |
 | [**SizeF()**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-sizef-sizef(in const sizef &))                       | Creates a [**SizeF**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef) object and initializes the members to zero. This is the default constructor.<br/>           |
 
 

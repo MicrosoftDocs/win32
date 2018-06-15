@@ -22,7 +22,7 @@ The multimedia file I/O services let you treat a block of memory as a file. This
 
 As with I/O buffers, memory files can use memory allocated by the application or by the file I/O manager. In addition, memory files can be either expandable or nonexpandable. When the file I/O manager reaches the end of an expandable memory file, it expands the memory file by a predefined increment.
 
-To open a memory file, use the [**mmioOpen**](https://www.bing.com/search?q=**mmioOpen**) function with the *szFilename* parameter set to **NULL** and the MMIO\_READWRITE flag set in the *dwOpenFlags* parameter. Set the *lpmmioinfo* parameter to point to an [**MMIOINFO**](https://www.bing.com/search?q=**MMIOINFO**) structure that has been set up as follows:
+To open a memory file, use the [**mmioOpen**](https://msdn.microsoft.com/en-us/library/Dd757331(v=VS.85).aspx) function with the *szFilename* parameter set to **NULL** and the MMIO\_READWRITE flag set in the *dwOpenFlags* parameter. Set the *lpmmioinfo* parameter to point to an [**MMIOINFO**](https://msdn.microsoft.com/en-us/library/Dd757322(v=VS.85).aspx) structure that has been set up as follows:
 
 1.  Set the **pIOProc** member to **NULL**.
 2.  Set the **fccIOProc** member to FOURCC\_MEM.

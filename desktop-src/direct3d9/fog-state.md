@@ -15,11 +15,11 @@ Fog effects can give a 3D scene greater realism. You can use fog effects for mor
 
 For more information about using fog in your application, see [Fog (Direct3D 9)](fog.md).
 
-A C++ application controls fog through device rendering states. The [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3drenderstatetype.htm) enumerated type includes states to control whether pixel (table) or vertex fog is used, what color it is, the fog formula the system applies, and the parameters of the formula.
+A C++ application controls fog through device rendering states. The [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx) enumerated type includes states to control whether pixel (table) or vertex fog is used, what color it is, the fog formula the system applies, and the parameters of the formula.
 
 You enable fog by setting the D3DRS\_FOGENABLE render state to **TRUE**. The fog color can be set to any color value by using the D3DRS\_FOGCOLOR render state; the alpha component of the fog color is ignored.
 
-The D3DRS\_FOGTABLEMODE and D3DRS\_FOGVERTEXMODE render states control the fog formula applied for fog calculations, and they indirectly control which type of fog is applied. Both render states can be set to a member of the [**D3DFOGMODE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dfogmode.htm) enumerated type. Setting either render state to D3DFOG\_NONE disables pixel or vertex fog, respectively. If both render states are set to valid modes, the system applies only pixel fog effects.
+The D3DRS\_FOGTABLEMODE and D3DRS\_FOGVERTEXMODE render states control the fog formula applied for fog calculations, and they indirectly control which type of fog is applied. Both render states can be set to a member of the [**D3DFOGMODE**](https://msdn.microsoft.com/en-us/library/Bb172557(v=VS.85).aspx) enumerated type. Setting either render state to D3DFOG\_NONE disables pixel or vertex fog, respectively. If both render states are set to valid modes, the system applies only pixel fog effects.
 
 The D3DRS\_FOGSTART and D3DRS\_FOGEND render states control fog formula parameters for the D3DFOG\_LINEAR mode. The D3DRS\_FOGDENSITY render state controls fog density in the exponential fog modes.
 

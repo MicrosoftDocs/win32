@@ -321,7 +321,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="HCOLORSPACE"></span><span id="hcolorspace"></span><strong>HCOLORSPACE</strong></td>
-<td><p>A handle to a [color space](https://msdn.microsoft.com/windows/desktop/37b9a354-1883-46bb-952e-f7519804f5e6).</p>
+<td><p>A handle to a [color space](https://msdn.microsoft.com/en-us/library/Dd316799(v=VS.85).aspx).</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HCOLORSPACE;</code></p></td>
 </tr>
@@ -479,7 +479,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="HRESULT"></span><span id="hresult"></span><strong>HRESULT</strong></td>
-<td><p>The return codes used by COM interfaces. For more information, see [Structure of the COM Error Codes](https://msdn.microsoft.com/windows/desktop/97e68708-eb62-4481-af03-cf8b80304103). To test an <strong>HRESULT</strong> value, use the [<strong>FAILED</strong>](https://msdn.microsoft.com/windows/desktop/d9c4ff73-c255-4a82-b901-23bd5b41ee6c) and [<strong>SUCCEEDED</strong>](https://msdn.microsoft.com/windows/desktop/7a258b0b-d214-46c5-be0a-6493cd14a0e5) macros.</p>
+<td><p>The return codes used by COM interfaces. For more information, see [Structure of the COM Error Codes](https://msdn.microsoft.com/en-us/library/ms690088(v=VS.85).aspx). To test an <strong>HRESULT</strong> value, use the [<strong>FAILED</strong>](https://msdn.microsoft.com/en-us/library/ms693474(v=VS.85).aspx) and [<strong>SUCCEEDED</strong>](https://msdn.microsoft.com/en-us/library/ms687197(v=VS.85).aspx) macros.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef LONG HRESULT;</code></p></td>
 </tr>

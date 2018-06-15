@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # GetSignerCert
 
-The **GetSignerCert** function goes through (enumerates) the certificates in a [*certificate store*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) until a certificate with a signature key is found. If a certificate is found, a pointer to the certificate is returned. This code demonstrates:
+The **GetSignerCert** function goes through (enumerates) the certificates in a [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) until a certificate with a signature key is found. If a certificate is found, a pointer to the certificate is returned. This code demonstrates:
 
 -   Finding a certificate with a certificate property.
 -   Checking that property.

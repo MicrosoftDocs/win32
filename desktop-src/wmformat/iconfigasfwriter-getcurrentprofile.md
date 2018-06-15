@@ -57,7 +57,7 @@ If the method succeeds, the **IWMProfile** pointer that it returns has an outsta
 
 <dl> <dt>
 
-[**IConfigAsfWriter Interface**](/windows/desktop/api/dshowasf/)
+[**IConfigAsfWriter Interface**](https://msdn.microsoft.com/en-us/library/Dd743205(v=VS.85).aspx)
 </dt> </dl>
 
  

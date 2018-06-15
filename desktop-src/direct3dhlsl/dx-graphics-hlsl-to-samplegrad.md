@@ -216,7 +216,7 @@ This function is supported in the following shader models.
 
 ## Example
 
-This partial code example is from the MotionBlur.fx file in the [MotionBlur10 Sample](https://msdn.microsoft.com/windows/desktop/cbbd469c-a44b-b170-edad-774ff28907d1).
+This partial code example is from the MotionBlur.fx file in the [MotionBlur10 Sample](https://msdn.microsoft.com/en-us/library/Ee416417(v=VS.85).aspx).
 
 
 ```

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Listening to System Events
 
-Applications can listen to system events by using the [**InkCollector**](/windows/desktop/api/msinkaut/) object and listening for the [**SystemGesture**](inkcollector-systemgesture.md) event on it. You can set which events an application listens to. When a tablet pen action occurs, the corresponding **SystemGesture** event is sent to the application on its **InkCollector** object. An application can cancel the mouse message that corresponds to a given **SystemGesture** event when it receives the event. For details about canceling mouse messages, see **SystemGesture** event.
+Applications can listen to system events by using the [**InkCollector**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx) object and listening for the [**SystemGesture**](inkcollector-systemgesture.md) event on it. You can set which events an application listens to. When a tablet pen action occurs, the corresponding **SystemGesture** event is sent to the application on its **InkCollector** object. An application can cancel the mouse message that corresponds to a given **SystemGesture** event when it receives the event. For details about canceling mouse messages, see **SystemGesture** event.
 
  
 

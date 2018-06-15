@@ -45,7 +45,7 @@ Pointer to the [**D3DXPLANE**](d3dxplane.md) structure that contains the resulti
 *OutStride* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 The stride of each transformed plane.
 
@@ -63,7 +63,7 @@ Pointer to the input [**D3DXPLANE**](d3dxplane.md) structure, which contains the
 *PStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 The stride of each non-transformed plane.
 
@@ -81,7 +81,7 @@ Pointer to the source [**D3DXMATRIX**](d3dxmatrix.md) structure, which contains 
 *n* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 The number of planes to transform.
 

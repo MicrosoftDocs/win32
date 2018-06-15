@@ -13,8 +13,8 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**IPrintDialogCallback**](/windows/desktop/api/Commdlg/)
--   [**IPrintDialogServices**](/windows/desktop/api/Commdlg/)
+-   [**IPrintDialogCallback**](https://msdn.microsoft.com/en-us/library/ms646896(v=VS.85).aspx)
+-   [**IPrintDialogServices**](https://msdn.microsoft.com/en-us/library/ms646897(v=VS.85).aspx)
 
  
 

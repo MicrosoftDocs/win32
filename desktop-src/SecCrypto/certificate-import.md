@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2 Class**](https://www.bing.com/search?q=**X509Certificate2+Class**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
 
-The **Import** method imports a previously encoded certificate from a string into the [**Certificate**](certificate.md) object. Calling this method resets the [*state*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) of this object.
+The **Import** method imports a previously encoded certificate from a string into the [**Certificate**](certificate.md) object. Calling this method resets the [*state*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) of this object.
 
 ## Syntax
 

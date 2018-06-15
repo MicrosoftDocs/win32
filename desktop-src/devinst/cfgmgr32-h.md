@@ -722,7 +722,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 <td>Use [<strong>UnregisterDeviceNotification</strong>](https://msdn.microsoft.com/library/windows/desktop/aa363475) instead of <strong>CM_Unregister_Notification</strong> if your code targets Windows 7 or earlier versions of Windows.<br/> The <strong>CM_Unregister_Notification</strong> function closes the specified HCMNOTIFICATION handle.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>CMP_WaitNoPendingInstallEvents</strong>](/windows/desktop/api/Cfgmgr32/)<br/></td>
+<td>[<strong>CMP_WaitNoPendingInstallEvents</strong>](https://msdn.microsoft.com/en-us/library/Ff537916(v=VS.85).aspx)<br/></td>
 <td>The <strong>CMP_WaitNoPendingInstallEvents</strong> function waits until there are no pending device installation activities for the PnP manager to perform.<br/></td>
 </tr>
 <tr class="even">

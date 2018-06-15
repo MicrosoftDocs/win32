@@ -33,9 +33,9 @@ The CLSID for this effect is CLSID\_D2D1ColorManagement.
 
 | Display name and index enumeration                                                                  | Description                                                                                                                                                                                                     |
 |-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SourceContext<br/> D2D1\_COLORMANAGEMENT\_PROP\_SOURCE\_COLOR\_CONTEXT<br/>             | The source color space information. The type is [**ID2D1ColorContext**](/windows/desktop/api/D2d1_1/).<br/> The default value is NULL.<br/>                                                                |
+| SourceContext<br/> D2D1\_COLORMANAGEMENT\_PROP\_SOURCE\_COLOR\_CONTEXT<br/>             | The source color space information. The type is [**ID2D1ColorContext**](https://msdn.microsoft.com/en-us/library/Hh404388(v=VS.85).aspx).<br/> The default value is NULL.<br/>                                                                |
 | SourceIntent<br/> D2D1\_COLORMANAGEMENT\_PROP\_SOURCE\_RENDERING\_INTENT<br/>           | Which ICC rendering intent to use. The type is D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT.<br/> The default value is D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT\_PERCEPTUAL.<br/>                       |
-| DestinationContext<br/> D2D1\_COLORMANAGEMENT\_PROP\_DESTINATION\_COLOR\_CONTEXT<br/>   | The destination color space information. The type is [**ID2D1ColorContext**](/windows/desktop/api/D2d1_1/).<br/> The default value is NULL.<br/>                                                           |
+| DestinationContext<br/> D2D1\_COLORMANAGEMENT\_PROP\_DESTINATION\_COLOR\_CONTEXT<br/>   | The destination color space information. The type is [**ID2D1ColorContext**](https://msdn.microsoft.com/en-us/library/Hh404388(v=VS.85).aspx).<br/> The default value is NULL.<br/>                                                           |
 | DestinationIntent<br/> D2D1\_COLORMANAGEMENT\_PROP\_DESTINATION\_RENDERING\_INTENT<br/> | Which ICC rendering intent to use. The type is D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT.<br/> The default value is D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT\_PERCEPTUAL.<br/>                       |
 | AlphaMode<br/> D2D1\_COLORMANAGEMENT\_PROP\_ALPHA\_MODE<br/>                            | How to interpret alpha data that is contained in the input image. The type is D2D1\_COLORMANAGEMENT\_ALPHA\_MODE.<br/> The default value is D2D1\_COLORMANAGEMENT\_ALPHA\_MODE\_PREMULTIPLIED.<br/> |
 | Quality<br/> D2D1\_COLORMANAGEMENT\_PROP\_QUALITY<br/>                                  | The quality level of the transform. The type is D2D1\_COLORMANAGEMENT\_QUALITY.<br/> The default value is D2D1\_COLORMANAGEMENT\_QUALITY\_NORMAL.<br/>                                              |
@@ -199,7 +199,7 @@ In general, the effect sets alpha to 1 (opaque) if there is no alpha data in the
 
  
 
-The color management effect fails when drawing if the application requests a quality mode that is not supported by the hardware. You can determine the feature level when you call [**D3D11CreateDevice**](https://msdn.microsoft.com/library/windows/desktop/ff476082). You can check for floating point buffer support by calling [**ID2D1EffectContext::IsBufferPrecisionSupported**](/windows/desktop/api/D2d1_1/) with the value [**D2D1\_BUFFER\_PRECISION\_32BPC\_FLOAT**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_buffer_precision).
+The color management effect fails when drawing if the application requests a quality mode that is not supported by the hardware. You can determine the feature level when you call [**D3D11CreateDevice**](https://msdn.microsoft.com/library/windows/desktop/ff476082). You can check for floating point buffer support by calling [**ID2D1EffectContext::IsBufferPrecisionSupported**](https://msdn.microsoft.com/en-us/library/Dn441541(v=VS.85).aspx) with the value [**D2D1\_BUFFER\_PRECISION\_32BPC\_FLOAT**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_buffer_precision).
 
 ## Sample code
 
@@ -224,7 +224,7 @@ For an example of this effect, download the [Direct2D effects photo adjustment s
 
 <dl> <dt>
 
-[**ID2D1Effect**](/windows/desktop/api/D2d1_1/)
+[**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx)
 </dt> </dl>
 
  

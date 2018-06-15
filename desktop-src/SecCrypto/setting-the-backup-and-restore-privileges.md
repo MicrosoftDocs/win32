@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Setting the Backup and Restore Privileges
 
-To successfully call the Certificate Services backup and restore API, the caller's token must include the backup and restore [*privileges*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a). These privileges can be programmatically set, and the following example can be used to set or remove these privileges. The backup and restore privileges are required of all backup and restore applications, not merely Certificate Services backup and restore. For information about the security implications of modifying privileges, see [Running with Special Privileges](https://msdn.microsoft.com/b25db548-d5ab-4276-9b50-36d030909384).
+To successfully call the Certificate Services backup and restore API, the caller's token must include the backup and restore [*privileges*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx). These privileges can be programmatically set, and the following example can be used to set or remove these privileges. The backup and restore privileges are required of all backup and restore applications, not merely Certificate Services backup and restore. For information about the security implications of modifying privileges, see [Running with Special Privileges](https://msdn.microsoft.com/en-us/library/ms717802(v=VS.85).aspx).
 
 
 ```C++

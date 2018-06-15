@@ -40,7 +40,7 @@ The following structures are used with fonts and text.
 [**POINTFX**](/windows/desktop/api/Wingdi/ns-wingdi-tagpointfx)  
 [**POLYTEXT**](/windows/desktop/api/Wingdi/ns-wingdi-tagpolytexta)  
 [**RASTERIZER\_STATUS**](/windows/desktop/api/Wingdi/ns-wingdi-_rasterizer_status)  
-[**SIZE**](/windows/desktop/api/Windef/)  
+[**SIZE**](https://msdn.microsoft.com/en-us/library/Dd145106(v=VS.85).aspx)  
 [**TEXTMETRIC**](/windows/desktop/api/Wingdi/ns-wingdi-tagtextmetrica)  
 [**TTPOLYCURVE**](/windows/desktop/api/Wingdi/ns-wingdi-tagttpolycurve)  
 [**TTPOLYGONHEADER**](/windows/desktop/api/Wingdi/ns-wingdi-tagttpolygonheader)  

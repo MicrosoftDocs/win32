@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_ProtocolBinding class
 
-The **Win32\_ProtocolBinding** association [WMI class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267) relates a system-level driver, network protocol, and network adapter.
+The **Win32\_ProtocolBinding** association [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) relates a system-level driver, network protocol, and network adapter.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -54,7 +54,7 @@ Data type: **Win32\_NetworkProtocol**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/838d295f-e812-4e46-99a4-d2714a0ae8dc), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("WMI\|Win32\_NetworkProtocol")
+Qualifiers: [**key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_NetworkProtocol")
 </dt> </dl>
 
 Reference to the instance representing the protocol that is used with the system driver and on the network adapter.
@@ -70,7 +70,7 @@ Data type: **Win32\_SystemDriver**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("WMI\|Win32\_SystemDriver")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_SystemDriver")
 </dt> </dl>
 
 Reference to the instance representing the system driver that uses the network adapter through the network protocol of this class.
@@ -86,7 +86,7 @@ Data type: **Win32\_NetworkAdapter**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/838d295f-e812-4e46-99a4-d2714a0ae8dc), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("WMI\|Win32\_NetworkAdapter")
+Qualifiers: [**key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_NetworkAdapter")
 </dt> </dl>
 
 Properties of the network adapter being used on the computer system.
@@ -111,7 +111,7 @@ Properties of the network adapter being used on the computer system.
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/windows/desktop/D0756D8C-A3D3-4C75-96A3-8C7F05300B39)
+[Operating System Classes](https://msdn.microsoft.com/en-us/library/Dn792258(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -187,8 +187,8 @@ The following functions retrieve and modify configuration settings for the TCP/I
 
 ## Security Health
 
--   [**CancelSecurityHealthChangeNotify**](/windows/desktop/api/Iphlpapi/)
--   [**NotifySecurityHealthChange**](/windows/desktop/api/Iphlpapi/)
+-   [**CancelSecurityHealthChangeNotify**](https://msdn.microsoft.com/en-us/library/Bb442512(v=VS.85).aspx)
+-   [**NotifySecurityHealthChange**](https://msdn.microsoft.com/en-us/library/Bb451761(v=VS.85).aspx)
 
 These functions are defined only on Windows Server 2003.
 

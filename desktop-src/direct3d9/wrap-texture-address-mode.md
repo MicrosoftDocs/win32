@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Wrap Texture Address Mode (Direct3D 9)
 
-The wrap texture address mode, identified by the D3DTADDRESS\_WRAP member of the [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtextureaddress.htm) enumerated type, makes Direct3D repeat the texture on every integer junction. Suppose, for example, your application creates a square primitive and specifies texture coordinates of (0.0,0.0), (0.0,3.0), (3.0,3.0), and (3.0,0.0). Setting the texture addressing mode to D3DTADDRESS\_WRAP results in the texture being applied three times in both the u-and v-directions, as shown in the following illustration.
+The wrap texture address mode, identified by the D3DTADDRESS\_WRAP member of the [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/en-us/library/Bb172614(v=VS.85).aspx) enumerated type, makes Direct3D repeat the texture on every integer junction. Suppose, for example, your application creates a square primitive and specifies texture coordinates of (0.0,0.0), (0.0,3.0), (3.0,3.0), and (3.0,0.0). Setting the texture addressing mode to D3DTADDRESS\_WRAP results in the texture being applied three times in both the u-and v-directions, as shown in the following illustration.
 
 ![illustration of a face texture wrapped in the u-direction and the v-direction](images/wrap.png)
 

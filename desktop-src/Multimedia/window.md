@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 The window command controls the display window. You can use this command to change the display characteristics of the window or provide a destination window for the driver to use in place of the default display window. Digital-video, and video-overlay devices recognize this command.
 
-To send this command, call the [**mciSendString**](/windows/desktop/api/Mmsystem/) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](https://msdn.microsoft.com/en-us/library/Dd757161(v=VS.85).aspx) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(

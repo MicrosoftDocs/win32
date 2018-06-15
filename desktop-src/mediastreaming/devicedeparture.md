@@ -40,7 +40,7 @@ This event does not return a value.
 
 ## Remarks
 
-To handle notifications from this event, register a [**DeviceControllerFinderHandler**](/windows/desktop/api/mfidl/) event handler function using the [**add\_DeviceDeparture**](https://www.bing.com/search?q=**add\_DeviceDeparture**) method. To unregister the event handler, use the [**remove\_DeviceDeparture**](https://www.bing.com/search?q=**remove\_DeviceDeparture**) method.
+To handle notifications from this event, register a [**DeviceControllerFinderHandler**](https://msdn.microsoft.com/en-us/library/Hh828843(v=VS.85).aspx) event handler function using the [**add\_DeviceDeparture**](https://msdn.microsoft.com/en-us/library/Hh828904(v=VS.85).aspx) method. To unregister the event handler, use the [**remove\_DeviceDeparture**](https://msdn.microsoft.com/en-us/library/Hh828908(v=VS.85).aspx) method.
 
  
 

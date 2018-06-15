@@ -32,7 +32,7 @@ This method does not return a value.
 
 ## C++
 
-See [**CloseLog**](/windows/desktop/api/Mergemod/) function.
+See [**CloseLog**](https://msdn.microsoft.com/en-us/library/Aa369266(v=VS.85).aspx) function.
 
 ## Requirements
 

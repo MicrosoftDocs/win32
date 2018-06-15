@@ -28,7 +28,7 @@ The following collections of properties are available from the security call con
 |-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | NumCallers<br/>             | The number of callers in the chain of calls.<br/>                                                                                |
 | MinAuthenticationLevel<br/> | The least secure authentication level of all callers in the chain.<br/>                                                          |
-| Callers<br/>                | Information about the identity of upstream callers, in the form of a [**SecurityCallers**](/windows/desktop/api/ComSvcs/) collection.<br/> |
+| Callers<br/>                | Information about the identity of upstream callers, in the form of a [**SecurityCallers**](https://msdn.microsoft.com/en-us/library/ms679185(v=VS.85).aspx) collection.<br/> |
 | DirectCaller<br/>           | The caller that called the object directly (with no intervening callers). <br/>                                                  |
 | OriginalCaller<br/>         | The caller that originated the chain of calls to the object. <br/>                                                               |
 
@@ -36,13 +36,13 @@ The following collections of properties are available from the security call con
 
  
 
-For more information about how to use this collection, Microsoft Visual Basic developers should see the [**SecurityCallContext**](/windows/desktop/api/ComSvcs/) class. C and C++ developers should refer to [**ISecurityCallContext**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext).
+For more information about how to use this collection, Microsoft Visual Basic developers should see the [**SecurityCallContext**](https://msdn.microsoft.com/en-us/library/ms687633(v=VS.85).aspx) class. C and C++ developers should refer to [**ISecurityCallContext**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext).
 
 ## SecurityCallers Collection
 
-The [**SecurityCallers**](/windows/desktop/api/ComSvcs/) collection represents callers that can be retrieved by using an index between 0 and 1 less than NumCallers, inclusive. Each caller is represented by a [**SecurityIdentity**](/windows/desktop/api/ComSvcs/) object.
+The [**SecurityCallers**](https://msdn.microsoft.com/en-us/library/ms679185(v=VS.85).aspx) collection represents callers that can be retrieved by using an index between 0 and 1 less than NumCallers, inclusive. Each caller is represented by a [**SecurityIdentity**](https://msdn.microsoft.com/en-us/library/ms686443(v=VS.85).aspx) object.
 
-For more information about this collection, Visual Basic developers should see the [**SecurityCallers**](/windows/desktop/api/ComSvcs/) class. C and C++ developers should refer to [**ISecurityCallersColl**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallerscoll).
+For more information about this collection, Visual Basic developers should see the [**SecurityCallers**](https://msdn.microsoft.com/en-us/library/ms679185(v=VS.85).aspx) class. C and C++ developers should refer to [**ISecurityCallersColl**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallerscoll).
 
 ## SecurityIdentity Collection
 
@@ -60,7 +60,7 @@ For more information about this collection, Visual Basic developers should see t
 
  
 
-For more information on this collection, Visual Basic developers should see the [**SecurityIdentity**](/windows/desktop/api/ComSvcs/) class. C and C++ developers should refer to [**ISecurityIdentityColl**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecurityidentitycoll).
+For more information on this collection, Visual Basic developers should see the [**SecurityIdentity**](https://msdn.microsoft.com/en-us/library/ms686443(v=VS.85).aspx) class. C and C++ developers should refer to [**ISecurityIdentityColl**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecurityidentitycoll).
 
 ## Related topics
 

@@ -48,7 +48,7 @@ The **ITsSbTargetEx** interface has these properties.
 | [**NumPendingConnections**](/windows/desktop/api/sbtsv/nf-sbtsv-itssbtarget-get_numpendingconnections)<br/> | Read-only<br/>  | Retrieves the number of pending user connections for the target.<br/>               |
 | [**NumSessions**](/windows/desktop/api/sbtsv/nf-sbtsv-itssbtarget-get_numsessions)<br/>                     | Read-only<br/>  | Retrieves the number of sessions maintained by broker for the target.<br/>          |
 | [**TargetFQDN**](/windows/desktop/api/sbtsv/nf-sbtsv-itssbtarget-get_targetfqdn)<br/>                       | Read/write<br/> | Specifies or retrieves the fully qualified domain name of the target.<br/>          |
-| [**TargetLoad**](/windows/desktop/api/sbtsv/)<br/>                     | Read-only<br/>  | Retrieves the relative load on a target.<br/>                                       |
+| [**TargetLoad**](https://msdn.microsoft.com/en-us/library/Mt703468(v=VS.85).aspx)<br/>                     | Read-only<br/>  | Retrieves the relative load on a target.<br/>                                       |
 | [**TargetName**](itssbtarget-targetname.md)<br/>                       | Read/write<br/> | Specifies or retrieves the name of the target.<br/>                                 |
 | [**TargetNetbios**](/windows/desktop/api/sbtsv/nf-sbtsv-itssbtarget-get_targetnetbios)<br/>                 | Read/write<br/> | Specifies or retrieves the NetBIOS name of the target.<br/>                         |
 | [**TargetPropertySet**](/windows/desktop/api/sbtsv/nf-sbtsv-itssbtarget-get_targetpropertyset)<br/>         | Read/write<br/> | Specifies or retrieves the property set for the target.<br/>                        |

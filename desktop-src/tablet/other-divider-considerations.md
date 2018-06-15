@@ -11,19 +11,19 @@ ms.date: 05/31/2018
 
 # Other Divider Considerations
 
-Consider the following when deciding when and how to use the [**Divider**](/windows/desktop/api/msinkaut15/) object in an application:
+Consider the following when deciding when and how to use the [**Divider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object in an application:
 
--   The [**Divider**](/windows/desktop/api/msinkaut15/) object is designed to separate drawings and blocks of handwriting, but not to recognize higher levels of structure, such as tables or columns.
--   The [**Divider**](/windows/desktop/api/msinkaut15/) object does not provide interfaces specifically for correction of results of layout analysis.
--   The use of timeout and number of stroke heuristics to add or remove multiple strokes at a time from the strokes in the [**Divider**](/windows/desktop/api/msinkaut15/) object may improve performance.
+-   The [**Divider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object is designed to separate drawings and blocks of handwriting, but not to recognize higher levels of structure, such as tables or columns.
+-   The [**Divider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object does not provide interfaces specifically for correction of results of layout analysis.
+-   The use of timeout and number of stroke heuristics to add or remove multiple strokes at a time from the strokes in the [**Divider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object may improve performance.
 
 ## Reanalysis Considerations
 
-If you are considering using the [**Divider**](/windows/desktop/api/msinkaut15/) object in an application where the **Divider** object may have to reanalyze large amounts of ink, keep the following in mind.
+If you are considering using the [**Divider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object in an application where the **Divider** object may have to reanalyze large amounts of ink, keep the following in mind.
 
 ### Retaining Copies of Ink and Strokes
 
-An application can keep copies of [**Ink**](/windows/desktop/api/msinkaut/) and [**DivisionResult**](/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult) objects for application elements that may be revisited later in the application session. This eliminates the need to reanalyze the **Ink** object if the user returns to the element. This approach trades off memory for better performance.
+An application can keep copies of [**Ink**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) and [**DivisionResult**](/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult) objects for application elements that may be revisited later in the application session. This eliminates the need to reanalyze the **Ink** object if the user returns to the element. This approach trades off memory for better performance.
 
 ### Data Reduction Heuristics
 
@@ -33,7 +33,7 @@ You may be able to record the analysis results as application data, and implemen
 
 <dl> <dt>
 
-[**InkDivider Class**](/windows/desktop/api/msinkaut15/)
+[**InkDivider Class**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx)
 </dt> <dt>
 
 [Microsoft.Ink.Divider Class](https://www.bing.com/search?q=Microsoft.Ink.Divider+Class)

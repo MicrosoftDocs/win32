@@ -42,7 +42,7 @@ typedef struct D3DXCONSTANT_DESC {
 **Name**
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -53,18 +53,18 @@ Name of the constant.
 **RegisterSet**
 </dt> <dd>
 
-Type: **[**D3DXREGISTER\_SET**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxregister_set.htm)**
+Type: **[**D3DXREGISTER\_SET**](https://msdn.microsoft.com/en-us/library/Bb205424(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Constant data type. See [**D3DXREGISTER\_SET**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxregister_set.htm).
+Constant data type. See [**D3DXREGISTER\_SET**](https://msdn.microsoft.com/en-us/library/Bb205424(v=VS.85).aspx).
 
 </dd> <dt>
 
 **RegisterIndex**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -75,7 +75,7 @@ Zero-based index of the constant in the table.
 **RegisterCount**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -86,29 +86,29 @@ Number of registers that contain data.
 **Class**
 </dt> <dd>
 
-Type: **[**D3DXPARAMETER\_CLASS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxparameter_class.htm)**
+Type: **[**D3DXPARAMETER\_CLASS**](https://msdn.microsoft.com/en-us/library/Bb205378(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Parameter class. See [**D3DXPARAMETER\_CLASS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxparameter_class.htm).
+Parameter class. See [**D3DXPARAMETER\_CLASS**](https://msdn.microsoft.com/en-us/library/Bb205378(v=VS.85).aspx).
 
 </dd> <dt>
 
 **Type**
 </dt> <dd>
 
-Type: **[**D3DXPARAMETER\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxparameter_type.htm)**
+Type: **[**D3DXPARAMETER\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb205380(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Parameter type. See [**D3DXPARAMETER\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxparameter_type.htm).
+Parameter type. See [**D3DXPARAMETER\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb205380(v=VS.85).aspx).
 
 </dd> <dt>
 
 **Rows**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -119,7 +119,7 @@ Number of rows.
 **Columns**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -130,7 +130,7 @@ Number of columns.
 **Elements**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -141,7 +141,7 @@ Number of elements in the array.
 **StructMembers**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -152,7 +152,7 @@ Number of structure member sub-parameters.
 **Bytes**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -163,7 +163,7 @@ Data size in number of bytes.
 **DefaultValue**
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

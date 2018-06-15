@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # BasicDevice.Icons property
 
-Gets a vector of [**IDeviceIcon**](https://www.bing.com/search?q=**IDeviceIcon**) interfaces.
+Gets a vector of [**IDeviceIcon**](https://msdn.microsoft.com/en-us/library/Hh828909(v=VS.85).aspx) interfaces.
 
 This property is read-only.
 
@@ -38,13 +38,13 @@ HRESULT get_Icons(
 
 ## Property value
 
-An enumerable collection of [**IDeviceIcon**](https://www.bing.com/search?q=**IDeviceIcon**) interface pointers.
+An enumerable collection of [**IDeviceIcon**](https://msdn.microsoft.com/en-us/library/Hh828909(v=VS.85).aspx) interface pointers.
 
 ## See also
 
 <dl> <dt>
 
-[**BasicDevice**](https://www.bing.com/search?q=**BasicDevice**)
+[**BasicDevice**](https://msdn.microsoft.com/en-us/library/Hh828813(v=VS.85).aspx)
 </dt> </dl>
 
  

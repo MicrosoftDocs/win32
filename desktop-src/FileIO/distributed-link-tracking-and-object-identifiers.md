@@ -52,7 +52,7 @@ OLE linking includes the same heuristic link tracking. Windows also includes the
 
 For more information about shell shortcuts, see [**IShellLink**](https://msdn.microsoft.com/library/windows/desktop/bb774950).
 
-For more information about OLE links, see [**IOleLink**](https://msdn.microsoft.com/windows/desktop/4a34a90d-df1b-4bbf-8365-9d741c18ff74).
+For more information about OLE links, see [**IOleLink**](https://msdn.microsoft.com/en-us/library/ms682297(v=VS.85).aspx).
 
 If a link is made to a file on NTFS 3.0 or later, and the file is moved to any other volume with NTFS 3.0 or later within the same domain, the file can be found by the tracking service, subject to time considerations. Additionally, if the file is moved outside the domain or within a workgroup, it is found.
 
@@ -98,7 +98,7 @@ This server service maintains information in the domain controllers about volume
 
 </dd> </dl>
 
-The link tracking services are exposed by the [**IShellLink**](https://msdn.microsoft.com/library/windows/desktop/bb774950) and [**IOleLink**](https://msdn.microsoft.com/windows/desktop/4a34a90d-df1b-4bbf-8365-9d741c18ff74) interfaces. Therefore, they are used by shell shortcuts. When the [**IShellLink::Resolve**](https://msdn.microsoft.com/library/windows/desktop/bb774952) method is called and the referent file cannot be found, for example, when the user activates a shell shortcut, the tracking service is called automatically to find the file. Similarly, when the [**IOleLink**](https://msdn.microsoft.com/windows/desktop/4a34a90d-df1b-4bbf-8365-9d741c18ff74) implementation cannot find a file, for example, in its [**BindToSource**](https://msdn.microsoft.com/library/windows/desktop/ms679752) method, it automatically calls on the tracking service.
+The link tracking services are exposed by the [**IShellLink**](https://msdn.microsoft.com/library/windows/desktop/bb774950) and [**IOleLink**](https://msdn.microsoft.com/en-us/library/ms682297(v=VS.85).aspx) interfaces. Therefore, they are used by shell shortcuts. When the [**IShellLink::Resolve**](https://msdn.microsoft.com/library/windows/desktop/bb774952) method is called and the referent file cannot be found, for example, when the user activates a shell shortcut, the tracking service is called automatically to find the file. Similarly, when the [**IOleLink**](https://msdn.microsoft.com/en-us/library/ms682297(v=VS.85).aspx) implementation cannot find a file, for example, in its [**BindToSource**](https://msdn.microsoft.com/library/windows/desktop/ms679752) method, it automatically calls on the tracking service.
 
 ## Link Tracking Limitations
 

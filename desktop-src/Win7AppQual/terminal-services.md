@@ -63,11 +63,11 @@ In Windows Server 2008 R2, you can install a program on the Remote Desktop Serve
 
 Prior to the Windows Server 2008 R2 version of Remote Desktop Services, Windows supported only one Windows Installer installation at a time. For applications that required per-user configurations, such as Microsoft Office Word, an administrator needed to pre-install the application, and application developers needed to test these applications on both the remote desktop client and the Remote Desktop Session Host. Windows Installer RDS Compatibility feature allows identifying and installing missing per-user configurations for multiple users simultaneously and makes the application installation experience on Remote Desktop Server similar to that on a local desktop.
 
-**Windows Server 2008 R2 with the [Remote Desktop Services](https://msdn.microsoft.com/90c40b7a-e324-43fc-a1e6-f29997ed9436) role enabled:** Not supported. A multiple package installation using the [MsiEmbeddedChainer table](https://msdn.microsoft.com/ac1e9c7b-bb83-4e1e-9108-211374c7d878) fails if the [Remote Desktop Services](https://msdn.microsoft.com/90c40b7a-e324-43fc-a1e6-f29997ed9436) role is enabled.
+**Windows Server 2008 R2 with the [Remote Desktop Services](https://msdn.microsoft.com/en-us/library/Bb892075(v=VS.85).aspx) role enabled:** Not supported. A multiple package installation using the [MsiEmbeddedChainer table](https://msdn.microsoft.com/en-us/library/Bb736316(v=VS.85).aspx) fails if the [Remote Desktop Services](https://msdn.microsoft.com/en-us/library/Bb892075(v=VS.85).aspx) role is enabled.
 
 ## Links to Other Resources
 
--   [Terminal Services Programming Guidelines](https://msdn.microsoft.com/e0cd52c5-40d7-4a48-9d10-fdbcea46a5a0)
+-   [Terminal Services Programming Guidelines](https://msdn.microsoft.com/en-us/library/Aa383490(v=VS.85).aspx)
 -   [Terminal Services at TechNet](http://go.microsoft.com/fwlink/p/?linkid=205177)
 -   [Terminal Services product home page](http://go.microsoft.com/fwlink/p/?linkid=205178)
 -   [Application Readiness for Terminal Services white paper](http://go.microsoft.com/fwlink/p/?linkid=205677)

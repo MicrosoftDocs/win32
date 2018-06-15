@@ -19,9 +19,9 @@ This topic lists the constructors of the [**Point**](/windows/desktop/api/gdiplu
 
 | Constructor                                                | Description                                                                                                                                                                      |
 |:-----------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Point(Size&)**](/windows/desktop/api/Gdiplustypes/)   | Creates a [**Point**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point) object using a [**Size**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size) object to initialize the **X** and **Y** data members.<br/> |
-| [**Point(Point&)**](/windows/desktop/api/Gdiplustypes/) | Creates a new [**Point**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point) object and copies the data members from another **Point** object.<br/>                                           |
-| [**Point(INT,INT)**](/windows/desktop/api/Gdiplustypes/)  | Creates a [**Point**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point) object using two integers to initialize the **X** and **Y** data members.<br/>                                       |
+| [**Point(Size&)**](https://msdn.microsoft.com/en-us/library/ms535013(v=VS.85).aspx)   | Creates a [**Point**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point) object using a [**Size**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size) object to initialize the **X** and **Y** data members.<br/> |
+| [**Point(Point&)**](https://msdn.microsoft.com/en-us/library/ms535012(v=VS.85).aspx) | Creates a new [**Point**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point) object and copies the data members from another **Point** object.<br/>                                           |
+| [**Point(INT,INT)**](https://msdn.microsoft.com/en-us/library/ms535011(v=VS.85).aspx)  | Creates a [**Point**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point) object using two integers to initialize the **X** and **Y** data members.<br/>                                       |
 | [**Point()**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-point-point(in const point &))             | Creates a [**Point**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point) object and initializes the **X** and **Y** data members to zero. This is the default constructor.<br/>               |
 
 

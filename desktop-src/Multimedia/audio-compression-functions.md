@@ -26,7 +26,7 @@ The following functions are used with audio compression.
 -   [**acmDriverClose**](/windows/desktop/api/Msacm/nf-msacm-acmdriverclose)
 -   [**acmDriverDetails**](/windows/desktop/api/Msacm/nf-msacm-acmdriverdetails)
 -   [**acmDriverEnum**](/windows/desktop/api/Msacm/nf-msacm-acmdriverenum)
--   [**acmDriverEnumCallback**](/windows/desktop/api/Msacm/nc-msacm-acmdriverenumcb)
+-   [**acmDriverEnumCallback**](https://msdn.microsoft.com/en-us/library/Dd742891(v=VS.85).aspx)
 -   [**acmDriverID**](/windows/desktop/api/Msacm/nf-msacm-acmdriverid)
 -   [**acmDriverMessage**](/windows/desktop/api/Msacm/nf-msacm-acmdrivermessage)
 -   [**acmDriverOpen**](/windows/desktop/api/Msacm/nf-msacm-acmdriveropen)

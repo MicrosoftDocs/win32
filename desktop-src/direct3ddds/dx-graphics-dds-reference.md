@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Reference for DDS
 
-The DDS reference documentation contains the API elements that define the layout of a DDS file. These API elements are defined in the [DDSWithoutD3DX Sample](https://msdn.microsoft.com/windows/desktop/0f7ac353-9d28-7471-ed54-8d7d50579ce8) source files. This sample is located in the \\Samples\\C++\\Direct3D10\\DDSWithoutD3DX\\ folder of the DirectX SDK.
+The DDS reference documentation contains the API elements that define the layout of a DDS file. These API elements are defined in the [DDSWithoutD3DX Sample](https://msdn.microsoft.com/en-us/library/Ee416399(v=VS.85).aspx) source files. This sample is located in the \\Samples\\C++\\Direct3D10\\DDSWithoutD3DX\\ folder of the DirectX SDK.
 
 -   [**DDS\_HEADER**](dds-header.md)
 -   [**DDS\_HEADER\_DX10**](dds-header-dxt10.md)

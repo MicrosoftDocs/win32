@@ -20,7 +20,7 @@ This section explains how to perform the following tasks associated with window 
 
 ## Adding a Window Property
 
-The following example loads an icon and then a cursor and allocates memory for a buffer. The example then uses the [**SetProp**](/windows/desktop/api/Winuser/nf-winuser-setpropa) function to assign the resulting icon, cursor, and memory handles as window properties for the window identified by the application-defined hwndSubclass variable. The properties are identified by the strings PROP\_ICON, PROP\_CURSOR, and PROP\_BUFFER.
+The following example loads an icon and then a cursor and allocates memory for a buffer. The example then uses the [**SetProp**](https://msdn.microsoft.com/en-us/library/ms633568(v=VS.85).aspx) function to assign the resulting icon, cursor, and memory handles as window properties for the window identified by the application-defined hwndSubclass variable. The properties are identified by the strings PROP\_ICON, PROP\_CURSOR, and PROP\_BUFFER.
 
 
 ```
@@ -65,7 +65,7 @@ SetProp(hwndSubclass, "PROP_BUFFER", hMem);
 
 ## Retrieving a Window Property
 
-A window can create handles to its window property data and use the data for any purpose. The following example uses [**GetProp**](/windows/desktop/api/Winuser/nf-winuser-getpropa) to obtain handles to the window properties identified by PROP\_ICON, PROP\_CURSOR, and PROP\_BUFFER. The example then displays the contents of the newly obtained memory buffer, cursor, and icon in the window's client area.
+A window can create handles to its window property data and use the data for any purpose. The following example uses [**GetProp**](https://msdn.microsoft.com/en-us/library/ms633564(v=VS.85).aspx) to obtain handles to the window properties identified by PROP\_ICON, PROP\_CURSOR, and PROP\_BUFFER. The example then displays the contents of the newly obtained memory buffer, cursor, and icon in the window's client area.
 
 
 ```
@@ -110,7 +110,7 @@ TextOut(hdc, 10, 10, tchBuffer, *nSize);
 
 ## Listing Window Properties for a Given Window
 
-In the following example, the [**EnumPropsEx**](/windows/desktop/api/Winuser/nf-winuser-enumpropsexa) function lists the string identifiers of the window properties for the window identified by the application-defined hwndSubclass variable. This function relies on the application-defined callback function WinPropProc to display the strings in the window's client area.
+In the following example, the [**EnumPropsEx**](https://msdn.microsoft.com/en-us/library/ms633563(v=VS.85).aspx) function lists the string identifiers of the window properties for the window identified by the application-defined hwndSubclass variable. This function relies on the application-defined callback function WinPropProc to display the strings in the window's client area.
 
 
 ```
@@ -155,7 +155,7 @@ BOOL CALLBACK WinPropProc(
 
 ## Deleting a Window Property
 
-When a window is destroyed, it must destroy any window properties it set. The following example uses the [**EnumPropsEx**](/windows/desktop/api/Winuser/nf-winuser-enumpropsexa) function and the application-defined callback function DelPropProc to destroy the properties associated with the window identified by the application-defined hwndSubclass variable. The callback function, which uses the [**RemoveProp**](/windows/desktop/api/Winuser/nf-winuser-removepropa) function, is also shown.
+When a window is destroyed, it must destroy any window properties it set. The following example uses the [**EnumPropsEx**](https://msdn.microsoft.com/en-us/library/ms633563(v=VS.85).aspx) function and the application-defined callback function DelPropProc to destroy the properties associated with the window identified by the application-defined hwndSubclass variable. The callback function, which uses the [**RemoveProp**](https://msdn.microsoft.com/en-us/library/ms633567(v=VS.85).aspx) function, is also shown.
 
 
 ```

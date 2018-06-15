@@ -47,7 +47,7 @@ You must \#include "IACom.h". You will most likely use the libraries in conjunct
 
 ### RTS and Other Applications
 
-The Ink Analysis base layer works differently than the others in that it takes point data for analysis rather than [Stroke](https://www.bing.com/search?q=Stroke) objects. Examples of where you would work with the Base layer directly rather than using the Windows forms or COM layers include applications that do not use first generation Tablet PC Platform Ink objects, or applications that use the [**RealTimeStylus**](/windows/desktop/api/RTSCom/) APIs to manage stylus input rather than using the Tablet PC Platform [Ink](https://www.bing.com/search?q=Ink) objects.
+The Ink Analysis base layer works differently than the others in that it takes point data for analysis rather than [Stroke](https://www.bing.com/search?q=Stroke) objects. Examples of where you would work with the Base layer directly rather than using the Windows forms or COM layers include applications that do not use first generation Tablet PC Platform Ink objects, or applications that use the [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) APIs to manage stylus input rather than using the Tablet PC Platform [Ink](https://www.bing.com/search?q=Ink) objects.
 
 ## 32-bit Support Only
 

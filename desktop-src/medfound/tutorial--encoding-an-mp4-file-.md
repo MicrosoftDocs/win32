@@ -171,11 +171,11 @@ int wmain(int argc, wchar_t* argv[])
 
 The `wmain` function does the following:
 
-1.  Calls the [**CoInitializeEx**](https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f) function to initialize the COM library.
+1.  Calls the [**CoInitializeEx**](https://msdn.microsoft.com/en-us/library/ms695279(v=VS.85).aspx) function to initialize the COM library.
 2.  Calls the [**MFStartup**](/windows/desktop/api/mfapi/nf-mfapi-mfstartup) function to initialize Media Foundation.
 3.  Calls the application-defined `EncodeFile` function. This function transcodes the input file to the output file, and is shown in the next section.
 4.  Calls the [**MFShutdown**](/windows/desktop/api/mfapi/nf-mfapi-mfshutdown) function to shut down Media Foundation.
-5.  Call the [**CoUninitialize**](https://msdn.microsoft.com/9411cbed-fa3b-46f7-b677-6ada53324edc) function to uninitialize the COM library.
+5.  Call the [**CoUninitialize**](https://msdn.microsoft.com/en-us/library/ms688715(v=VS.85).aspx) function to uninitialize the COM library.
 
 ## Encode the File
 
