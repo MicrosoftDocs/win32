@@ -72,14 +72,15 @@ WScript.Echo "Waiting for events"
 $query = &quot;SELECT * FROM __InstanceCreationEvent 
           WHERE TargetInstance ISA &#39;Win32_NTLogEvent&#39; &quot;
 
-# Register for event - also specify an action that
-# displays the log event when the event fires.
+<# Register for event - also specify an action that
+displays the log event when the event fires.#>
+
 Register-WmiEvent -Source Demo1 -Query $query -Action {
                 Write-Host &quot;Log Event occured&quot;
                 $global:myevent = $event
                 Write-Host &quot;EVENT MESSAGE&quot;
                 Write-Host $event.SourceEventArgs.NewEvent.TargetInstance.Message}
-# So wait
+<# So wait #>
 &quot;Waiting for events&quot;</code></pre></td>
 </tr>
 </tbody>
