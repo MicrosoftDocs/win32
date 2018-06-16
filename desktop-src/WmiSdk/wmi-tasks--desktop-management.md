@@ -189,12 +189,12 @@ Next</code></pre></td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code># Get desktop information
+<td><pre><code><# Get desktop information #>
 $computer = &quot;.&quot;
 $desktops = Get-WmiObject -Class Win32_DesktopMonitor
 $hostname = hostname
 
-# Display desktop details
+<# Display desktop details #>
 &quot;There are {0} Desktops on {1} as follows:&quot; -f $desktops.Count, $hostname
 &quot;&quot;
 $i=1 # count of desktops on this system
@@ -262,7 +262,7 @@ End Function</code></pre></td>
 [System.Management.ManagementDateTimeconverter]::ToDateTime($Bootup)
 }
 
-# Main script
+<# Main script #>
 $Computer = &quot;.&quot; # adjust as needed
 $computers = Get-WMIObject -class Win32_OperatingSystem -computer $computer
 
