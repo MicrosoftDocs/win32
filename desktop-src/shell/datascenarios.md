@@ -17,7 +17,7 @@ The [Shell Data Object](dataobject.md) document discussed the general approach t
 -   [Copying File Names from the Clipboard to an Application](#copying-file-names-from-the-clipboard-to-an-application)
     -   [Extracting the File Names from the Data Object](#extracting-the-file-names-from-the-data-object)
 -   [Copying the Contents of a Dropped File into an Application](#copying-the-contents-of-a-dropped-file-into-an-application)
-    -   [Using the CFSTR\_FILECONTENTS Format to Extract Data from a File](#using-the-cfstr-filecontents-format-to-extract-data-from-a-file)
+    -   [Using the CFSTR\_FILECONTENTS Format to Extract Data from a File](https://docs.microsoft.com/windows)
 -   [Handling Optimized Move Operations](#handling-optimized-move-operations)
 -   [Handling Delete-on-Paste Operations](#handling-delete-on-paste-operations)
 -   [Transfering Data to and from Virtual Folders](#transfering-data-to-and-from-virtual-folders)
@@ -122,7 +122,7 @@ There are several different ways to extract the contents of a Shell object from 
 -   If the file contains a [CF\_TEXT](clipboard.md) format, the data is ANSI text. You can use the CF\_TEXT format to extract the data, rather than opening the file itself.
 -   If the file contains a linked or embedded OLE object, the data object contains a CF\_EMBEDDEDOBJECT format. Use standard OLE techniques to extract the data. [Scrap files](#creating-and-importing-scrap-files) always contain a CF\_EMBEDDEDOBJECT format.
 -   If the Shell object is from the file system, the data object contains a [CF\_HDROP](clipboard.md) format with the names of the files. Extract the file name from [CF\_HDROP](clipboard.md) and call [**OleCreateFromFile**](https://msdn.microsoft.com/en-us/library/ms690116(v=VS.85).aspx) to create a new linked or embedded object. For a discussion of how to retrieve a file name from a [CF\_HDROP](clipboard.md) format, see [Copying File Names from the Clipboard to an Application](#copying-file-names-from-the-clipboard-to-an-application).
--   If the data object contains a [CFSTR\_FILEDESCRIPTOR](clipboard.md) format, you can extract a file's contents from the file's [CFSTR\_FILECONTENTS](clipboard.md) format. For a discussion of this procedure, see [Using the CFSTR\_FILECONTENTS Format to Extract Data from a File](#using-the-cfstr-filecontents-format-to-extract-data-from-a-file).
+-   If the data object contains a [CFSTR\_FILEDESCRIPTOR](clipboard.md) format, you can extract a file's contents from the file's [CFSTR\_FILECONTENTS](clipboard.md) format. For a discussion of this procedure, see [Using the CFSTR\_FILECONTENTS Format to Extract Data from a File](https://docs.microsoft.com/windows).
 -   Prior to Shell [version 4.71](versions.md), an application indicated that it was transferring a shortcut file type by setting **FD\_LINKUI** in the **dwFlags** member of the [**FILEDESCRIPTOR**](https://msdn.microsoft.com/en-us/library/Bb773288(v=VS.85).aspx) structure. For later versions of the Shell, the preferred way to indicate that shortcuts are being transferred is to use the [CFSTR\_PREFERREDDROPEFFECT](clipboard.md) format set to DROPEFFECT\_LINK. This approach is much more efficient than extracting the **FILEDESCRIPTOR** structure just to check a flag.
 
 If the data extraction process will be lengthy, you might want to do the operation asynchronously on a background thread. Your primary thread can then proceed without unnecessary delays. For a discussion of how to handle asynchronous data extraction, see [Dragging and Dropping Shell Objects Asynchronously](#dragging-and-dropping-shell-objects-asynchronously).
@@ -232,7 +232,7 @@ Instead of [CF\_HDROP](clipboard.md), data is normally transferred from virtual 
 
 Global memory objects are rarely used to transfer data to or from virtual objects because the data must be copied into memory in its entirety. Transferring an interface pointer requires almost no memory and is much more efficient. With very large files, an interface pointer might be the only practical data transfer mechanism. Typically, data is represented by an [**IStream**](https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx) pointer, because that interface is somewhat more flexible than [**IStorage**](https://msdn.microsoft.com/en-us/library/Aa380015(v=VS.85).aspx). The target extracts the pointer from the data object and uses the interface methods to extract the data.
 
-For further discussion of how to handle the [CFSTR\_FILEDESCRIPTOR](clipboard.md)/[CFSTR\_FILECONTENTS](clipboard.md) formats, see [Using the CFSTR\_FILECONTENTS Format to Extract Data from a File](#using-the-cfstr-filecontents-format-to-extract-data-from-a-file).
+For further discussion of how to handle the [CFSTR\_FILEDESCRIPTOR](clipboard.md)/[CFSTR\_FILECONTENTS](clipboard.md) formats, see [Using the CFSTR\_FILECONTENTS Format to Extract Data from a File](https://docs.microsoft.com/windows).
 
 ### Transferring Data to and from a NameSpace Extension
 

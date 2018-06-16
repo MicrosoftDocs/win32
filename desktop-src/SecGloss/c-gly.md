@@ -261,7 +261,7 @@ Functions that manage the storage and retrieval data such as certificates, certi
 <span id="_security_certificate_template_gly"></span><span id="_SECURITY_CERTIFICATE_TEMPLATE_GLY"></span>**certificate template**
 </dt> <dd>
 
-A Windows construct that profiles certificates (that is, it prespecifies the format and content) based on their intended usage. When requesting a [*certificate*](#-security-certificate-gly) from a Windows enterprise *certification authority* (CA), certificate requesters are, depending on their access rights, able to select from a variety of certificate types that are based on certificate templates, such as User and Code Signing.
+A Windows construct that profiles certificates (that is, it prespecifies the format and content) based on their intended usage. When requesting a [*certificate*](https://docs.microsoft.com/windows) from a Windows enterprise *certification authority* (CA), certificate requesters are, depending on their access rights, able to select from a variety of certificate types that are based on certificate templates, such as User and Code Signing.
 
 </dd> <dt>
 

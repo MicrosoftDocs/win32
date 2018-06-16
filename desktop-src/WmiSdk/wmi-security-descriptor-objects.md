@@ -19,9 +19,9 @@ WMI has objects and methods that allow you to read and manipulate security descr
 
 -   [The Role of Security Descriptors](#the-role-of-security-descriptors)
 -   [Access Control and WMI Security Objects](#access-control-and-wmi-security-objects)
--   [Win32\_SecurityDescriptor Object](#win32-securitydescriptor-object)
+-   [Win32\_SecurityDescriptor Object](https://docs.microsoft.com/windows)
 -   [DACL and SACL](#dacl-and-sacl)
--   [Win32\_ACE, Win32\_Trustee, Win32\_SID](#win32-ace-win32-trustee-win32-sid)
+-   [Win32\_ACE, Win32\_Trustee, Win32\_SID](https://docs.microsoft.com/windows)
 -   [Example: Checking Who has Access to Printers](#example-checking-who-has-access-to-printers)
 -   [Related topics](#related-topics)
 

@@ -183,7 +183,7 @@ This topic lists all the APIs in OneCore.lib, grouped by module. Linking to OneC
 -   [APIs from winhttp.dll](#apis-from-winhttpdll)
 -   [APIs from wkscli.dll](#apis-from-wksclidll)
 -   [APIs from wldap32.dll](#apis-from-wldap32dll)
--   [APIs from ws2\_32.dll](#apis-from-ws2-32dll)
+-   [APIs from ws2\_32.dll](https://docs.microsoft.com/windows)
 -   [APIs from xmllite.dll](#apis-from-xmllitedll)
 -   [APIs from api-ms-win-core-namedpipe-ansi-l1-1-1.dll](#apis-from-api-ms-win-core-namedpipe-ansi-l1-1-1dll)
 -   [APIs from api-ms-win-core-namedpipe-l1-2-2.dll](#apis-from-api-ms-win-core-namedpipe-l1-2-2dll)

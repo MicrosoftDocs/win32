@@ -21,7 +21,7 @@ You only need to set privileges when you are accessing WMI on your computer. Whe
 
 The following sections are discussed in this topic:
 
--   [Setting a Privilege from the Security\_ Object](#setting-a-privilege-from-the-security--object)
+-   [Setting a Privilege from the Security\_ Object](https://docs.microsoft.com/windows)
 -   [Setting a Privilege as Part of a Moniker](#setting-a-privilege-as-part-of-a-moniker)
 -   [Revoking and Resetting Privileges](#revoking-and-resetting-privileges)
 -   [Related topics](#related-topics)

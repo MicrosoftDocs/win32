@@ -41,7 +41,7 @@ This section covers the following topics:
 -   [Mouse Messages](#mouse-messages)
     -   [Client Area Mouse Messages](#client-area-mouse-messages)
     -   [Nonclient Area Mouse Messages](#nonclient-area-mouse-messages)
-    -   [The WM\_NCHITTEST Message](#the-wm-nchittest-message)
+    -   [The WM\_NCHITTEST Message](https://docs.microsoft.com/windows)
 -   [Mouse Sonar](#mouse-sonar)
 -   [Mouse Vanish](#mouse-vanish)
 -   [The Mouse Wheel](#the-mouse-wheel)
@@ -125,7 +125,7 @@ This section covers the following topics:
 
 -   [Client Area Mouse Messages](#client-area-mouse-messages)
 -   [Nonclient Area Mouse Messages](#nonclient-area-mouse-messages)
--   [The WM\_NCHITTEST Message](#the-wm-nchittest-message)
+-   [The WM\_NCHITTEST Message](https://docs.microsoft.com/windows)
 
 ### Client Area Mouse Messages
 

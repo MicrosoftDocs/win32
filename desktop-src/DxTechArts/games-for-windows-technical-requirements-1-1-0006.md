@@ -19,7 +19,7 @@ This articles contains these sections:
     -   [Additional Information](#additional-information)
 -   [Games for Windows](#games-for-windows-technical-requirements-best-practices-for-games-on-windows-xp-windows-vista-windows-7-and-windows-8)
     -   [1.1 Games Explorer Integration](#11-games-explorer-integration)
-    -   [1.2 Support Family Safety / Parental Controls](#12-support-family-safety-parental-controls)
+    -   [1.2 Support Family Safety / Parental Controls](https://docs.microsoft.com/windows)
     -   [1.3 Support Rich Saved Games](#13-support-rich-saved-games)
     -   [1.4 Support the Xbox 360 Common Controller for Windows \[Conditional Requirement\]](#14-support-the-xbox-360-common-controller-for-windows-conditional-requirement)
     -   [1.5 Support Multiple Aspect Ratios and Resolutions](#15-support-multiple-aspect-ratios-and-resolutions)
@@ -78,7 +78,7 @@ We recommend that you run the Windows SDK version of GDFMAKER on the released ve
 
  
 
-See [1.2 Support Family Safety / Parental Controls](#12-support-family-safety-parental-controls).
+See [1.2 Support Family Safety / Parental Controls](https://docs.microsoft.com/windows).
 
 </dd> <dt>
 

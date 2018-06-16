@@ -15,7 +15,7 @@ The following features were changed in Microsoft Direct3D 9. If you are using th
 
 -   [BaseVertexIndex Changes](#basevertexindex-changes)
 -   [CreateImageSurface Changes](#createimagesurface-changes)
--   [D3DENUM\_NO\_WHQL\_LEVEL Changes](#d3denum-no-whql-level-changes)
+-   [D3DENUM\_NO\_WHQL\_LEVEL Changes](https://docs.microsoft.com/windows)
 -   [Create Resource Changes](#create-resource-changes)
 -   [EnumAdapterModes Changes](#enumadaptermodes-changes)
 -   [Get/SetStreamSource\_Changes](#getsetstreamsource-changes)

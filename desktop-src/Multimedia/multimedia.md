@@ -26,7 +26,7 @@ An audio-compression technique.
 <span id="_win32_adpcm_gloss"></span><span id="_WIN32_ADPCM_GLOSS"></span> **ADPCM**
 </dt> <dd>
 
-See [Adaptive Differential Pulse Code Modulation (ADPCM)](#-win32-adaptive-differential-pulse-code-modulation-adpcm-gloss).
+See [Adaptive Differential Pulse Code Modulation (ADPCM)](https://docs.microsoft.com/windows).
 
 </dd> <dt>
 
@@ -54,7 +54,7 @@ A method, provided by Musical Instrument Digital Interface (MIDI), for sending m
 <span id="_win32_channel_map_gloss"></span><span id="_WIN32_CHANNEL_MAP_GLOSS"></span> **channel map**
 </dt> <dd>
 
-A channel map, provided by the MIDI Mapper, that can redirect Musical Instrument Digital Interface (MIDI) messages from one channel to another. See also [MIDI Mapper](#-win32-midi-mapper-gloss), [Musical Instrument Digital Interface (MIDI)](#-win32-musical-instrument-digital-interface-midi-gloss).
+A channel map, provided by the MIDI Mapper, that can redirect Musical Instrument Digital Interface (MIDI) messages from one channel to another. See also [MIDI Mapper](https://docs.microsoft.com/windows), [Musical Instrument Digital Interface (MIDI)](#-win32-musical-instrument-digital-interface-midi-gloss).
 
 </dd> <dt>
 
@@ -103,7 +103,7 @@ A Media Control Interface (MCI) device that requires a device element, usually a
 <span id="_win32_control_change_gloss"></span><span id="_WIN32_CONTROL_CHANGE_GLOSS"></span> **control change**
 </dt> <dd>
 
-See [MIDI control-change message](#-win32-midi-control-change-message-gloss).
+See [MIDI control-change message](https://docs.microsoft.com/windows).
 
 </dd> <dt>
 
@@ -131,7 +131,7 @@ A complete file contained in a Resource Interchange File Format (RIFF) compound 
 <span id="_win32_fm_synthesizer_gloss"></span><span id="_WIN32_FM_SYNTHESIZER_GLOSS"></span> **FM synthesizer**
 </dt> <dd>
 
-See [frequency modulation (FM) synthesizer](#-win32-frequency-modulation-fm-synthesizer-gloss).
+See [frequency modulation (FM) synthesizer](https://docs.microsoft.com/windows).
 
 </dd> <dt>
 
@@ -313,7 +313,7 @@ A particular setup of a Musical Instrument Digital Interface (MIDI) synthesizer 
 <span id="_win32_patch_caching_gloss"></span><span id="_WIN32_PATCH_CACHING_GLOSS"></span> **patch caching**
 </dt> <dd>
 
-A technique that enables some internal Musical Instrument Digital Interface (MIDI) synthesizer device drivers to preload their patch data, reducing the delay between the moment the synthesizer receives a MIDI program-change message and the moment it plays a note using the new patch. Patch caching also ensures that required patches are available (the synthesizer might load only a subset of its patches). See also [Musical Instrument Digital Interface (MIDI)](#-win32-musical-instrument-digital-interface-midi-gloss), [patch](#-win32-patch-gloss).
+A technique that enables some internal Musical Instrument Digital Interface (MIDI) synthesizer device drivers to preload their patch data, reducing the delay between the moment the synthesizer receives a MIDI program-change message and the moment it plays a note using the new patch. Patch caching also ensures that required patches are available (the synthesizer might load only a subset of its patches). See also [Musical Instrument Digital Interface (MIDI)](#-win32-musical-instrument-digital-interface-midi-gloss), [patch](https://docs.microsoft.com/windows).
 
 </dd> <dt>
 
@@ -355,7 +355,7 @@ The process of building a movie frame in a memory buffer before it is displayed.
 <span id="_win32_red_book_audio_gloss"></span><span id="_WIN32_RED_BOOK_AUDIO_GLOSS"></span> **Red Book audio**
 </dt> <dd>
 
-See [compact disc - digital audio (CD-DA)](#-win32-compact-disc-digital-audio-cd-da-gloss).
+See [compact disc - digital audio (CD-DA)](https://docs.microsoft.com/windows).
 
 </dd> <dt>
 
@@ -369,28 +369,28 @@ A tagged-file specification used to define standard formats for multimedia files
 <span id="_win32_riff_gloss"></span><span id="_WIN32_RIFF_GLOSS"></span> **RIFF**
 </dt> <dd>
 
-See [Resource Interchange File Format (RIFF)](#-win32-resource-interchange-file-format-riff-gloss).
+See [Resource Interchange File Format (RIFF)](https://docs.microsoft.com/windows).
 
 </dd> <dt>
 
 <span id="_win32_riff_chunk_gloss"></span><span id="_WIN32_RIFF_CHUNK_GLOSS"></span> **RIFF chunk**
 </dt> <dd>
 
-A chunk with chunk identifier [Resource Interchange File Format (RIFF)](#-win32-resource-interchange-file-format-riff-gloss) that includes an identifying code and zero or more subchunks, the contents of which depend on the form type.
+A chunk with chunk identifier [Resource Interchange File Format (RIFF)](https://docs.microsoft.com/windows) that includes an identifying code and zero or more subchunks, the contents of which depend on the form type.
 
 </dd> <dt>
 
 <span id="_win32_riff_file_gloss"></span><span id="_WIN32_RIFF_FILE_GLOSS"></span> **RIFF file**
 </dt> <dd>
 
-A file whose format complies with one of the published [Resource Interchange File Format (RIFF)](#-win32-resource-interchange-file-format-riff-gloss) forms. Examples of RIFF files include WAVE files for waveform audio data, RMID files for Musical Instrument Digital Interface (MIDI) sequences, and RDIB files for device-independent bitmaps.
+A file whose format complies with one of the published [Resource Interchange File Format (RIFF)](https://docs.microsoft.com/windows) forms. Examples of RIFF files include WAVE files for waveform audio data, RMID files for Musical Instrument Digital Interface (MIDI) sequences, and RDIB files for device-independent bitmaps.
 
 </dd> <dt>
 
 <span id="_win32_riff_form_gloss"></span><span id="_WIN32_RIFF_FORM_GLOSS"></span> **RIFF form**
 </dt> <dd>
 
-A file-format specification based on the [Resource Interchange File Format (RIFF)](#-win32-resource-interchange-file-format-riff-gloss) standard.
+A file-format specification based on the [Resource Interchange File Format (RIFF)](https://docs.microsoft.com/windows) standard.
 
 </dd> <dt>
 
@@ -404,14 +404,14 @@ A discrete piece of waveform data represented by a single numerical value. Sampl
 <span id="_win32_sampling_rate_gloss"></span><span id="_WIN32_SAMPLING_RATE_GLOSS"></span> **sampling rate**
 </dt> <dd>
 
-The rate at which a waveform audio driver performs audio-to-digital or digital-to-audio conversion. For compact disc – digital audio (CD-DA), the sampling rate is 44.1 kHz. See also [compact disc - digital audio](#-win32-compact-disc-digital-audio-cd-da-gloss)
+The rate at which a waveform audio driver performs audio-to-digital or digital-to-audio conversion. For compact disc – digital audio (CD-DA), the sampling rate is 44.1 kHz. See also [compact disc - digital audio](https://docs.microsoft.com/windows)
 
 </dd> <dt>
 
 <span id="_win32_sequence_gloss"></span><span id="_WIN32_SEQUENCE_GLOSS"></span> **sequence**
 </dt> <dd>
 
-See [MIDI sequence](#-win32-midi-sequence-gloss).
+See [MIDI sequence](https://docs.microsoft.com/windows).
 
 </dd> <dt>
 
@@ -481,7 +481,7 @@ In Musical Instrument Digital Interface (MIDI), messages understood only by MIDI
 <span id="_win32_tagged_file_format_gloss"></span><span id="_WIN32_TAGGED_FILE_FORMAT_GLOSS"></span> **tagged file format**
 </dt> <dd>
 
-A file format in which data is tagged using standard headers that identify information type and length. See also [Resource Interchange File Format (RIFF)](#-win32-resource-interchange-file-format-riff-gloss).
+A file format in which data is tagged using standard headers that identify information type and length. See also [Resource Interchange File Format (RIFF)](https://docs.microsoft.com/windows).
 
 </dd> <dt>
 
@@ -516,14 +516,14 @@ A time format used by Media Control Interface (MCI) to express time in tracks, m
 <span id="_win32_track_gloss"></span><span id="_WIN32_TRACK_GLOSS"></span> **track**
 </dt> <dd>
 
-A sequence of sound on a compact disc – digital audio (CD-DA) disc. With a Musical Instrument Digital Interface (MIDI) file, information can be separated into tracks, defined by the creator of the file. MIDI file tracks can correspond to MIDI channels, or they can correspond to parts of a song (such as melody or chorus); a CD-DA track usually corresponds to a song. See also [compact disc - digital audio](#-win32-compact-disc-digital-audio-cd-da-gloss).
+A sequence of sound on a compact disc – digital audio (CD-DA) disc. With a Musical Instrument Digital Interface (MIDI) file, information can be separated into tracks, defined by the creator of the file. MIDI file tracks can correspond to MIDI channels, or they can correspond to parts of a song (such as melody or chorus); a CD-DA track usually corresponds to a song. See also [compact disc - digital audio](https://docs.microsoft.com/windows).
 
 </dd> <dt>
 
 <span id="_win32_volume_scalar_gloss"></span><span id="_WIN32_VOLUME_SCALAR_GLOSS"></span> **volume scalar**
 </dt> <dd>
 
-A component of a Musical Instrument Digital Interface (MIDI) Mapper patch map that adjusts the volume of a patch on a synthesizer. For example, if the bass patch on a synthesizer is too loud relative to the piano patch, the volume scalar can reduce the volume for the bass or increase the volume for the piano. (Applications playing waveform audio can also adjust the output volume.) See also [MIDI Mapper](#-win32-midi-mapper-gloss), [patch](#-win32-patch-gloss).
+A component of a Musical Instrument Digital Interface (MIDI) Mapper patch map that adjusts the volume of a patch on a synthesizer. For example, if the bass patch on a synthesizer is too loud relative to the piano patch, the volume scalar can reduce the volume for the bass or increase the volume for the piano. (Applications playing waveform audio can also adjust the output volume.) See also [MIDI Mapper](https://docs.microsoft.com/windows), [patch](https://docs.microsoft.com/windows).
 
 </dd> <dt>
 

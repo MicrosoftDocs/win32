@@ -74,7 +74,7 @@ The pixel format of the new bitmap.
 
 Type: **UINT**
 
-The [*stride*](#term-stride) of the given pixel data.
+The [*stride*](https://docs.microsoft.com/windows) of the given pixel data.
 
 </dd> <dt>
 

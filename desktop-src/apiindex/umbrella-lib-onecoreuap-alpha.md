@@ -25,7 +25,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 
  
 
--   [\_](#-)
+-   [\_](https://docs.microsoft.com/windows)
 -   [a](#onecoreuaplib-umbrella-library-alphabetical)
 -   [b](#b)
 -   [c](#c)

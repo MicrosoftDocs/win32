@@ -51,7 +51,7 @@ myshape.fillcolor = "red"
 
 
 
-Several of the attributes of a shape are also [subelements](#sub-elements) and have their own attributes, including the following:
+Several of the attributes of a shape are also [subelements](https://docs.microsoft.com/windows) and have their own attributes, including the following:
 
 -   [Background](#background-element)
 -   [Extrusion](#extrusion-element)
@@ -64,7 +64,7 @@ Several of the attributes of a shape are also [subelements](#sub-elements) and h
 -   [Stroke](#stroke-element)
 -   [TextPath](#textpath-element)
 
-The VML OM uses several [data types](#datatypes) to define parameters. Datatypes prefixed with "Vg" are enumerations and those prefixed with "IVg" are objects. Click here for a list. Minor datatypes are listed with specific parameters.
+The VML OM uses several [data types](https://docs.microsoft.com/windows) to define parameters. Datatypes prefixed with "Vg" are enumerations and those prefixed with "IVg" are objects. Click here for a list. Minor datatypes are listed with specific parameters.
 
 ## Example
 
@@ -141,7 +141,7 @@ Note that in beta versions, an ActiveX object tag and a different behavior style
 
 ## VML OM Reference
 
-This reference defines the [Shape](#shape-element) element, [subelements](#sub-elements), and [data types](#datatypes) that are used by the object model of VML.
+This reference defines the [Shape](#shape-element) element, [subelements](https://docs.microsoft.com/windows), and [data types](https://docs.microsoft.com/windows) that are used by the object model of VML.
 
 ### Shape element
 
@@ -1061,28 +1061,28 @@ Describes a vector path based on the text data, font, and styles supplied. The t
 
 The following data types are used by the VML Object Model.
 
--   [Double](#double-data)
--   [Fixed](#fixed-data)
--   [Integer](#integer-data)
--   [IVgAdjustments](#adjustments-data)
--   [IVgColor](#color-data)
--   [IVgEquation](#equation-data)
--   [IVgFixedRectangle](#fixedrectangle-data)
--   [IVgFixedRectangleArray](#fixedrectanglearray-data)
--   [IVgFormula](#formula-data)
--   [IVgFormulas](#formulas-data)
--   [IVgGradientColorArray](#gradientcolorarray-data)
--   [IVgPoints](#points-data)
--   [IVgSkewMatrix](#skewmatrix-data)
--   [IVgSkewOffset](#skewoffset-data)
--   [IVgVector2D](#vector2d-data)
--   [IVgVector3D](#vector3d-data)
--   [Length](#length-data)
--   [Measure](#measure-data)
--   [String](#string-data)
--   [VgBlackWhiteMode](#blackwhitemode-data)
--   [VgFraction](#fraction-data)
--   [VgTriState](#tristate-data)
+-   [Double](https://docs.microsoft.com/windows)
+-   [Fixed](https://docs.microsoft.com/windows)
+-   [Integer](https://docs.microsoft.com/windows)
+-   [IVgAdjustments](https://docs.microsoft.com/windows)
+-   [IVgColor](https://docs.microsoft.com/windows)
+-   [IVgEquation](https://docs.microsoft.com/windows)
+-   [IVgFixedRectangle](https://docs.microsoft.com/windows)
+-   [IVgFixedRectangleArray](https://docs.microsoft.com/windows)
+-   [IVgFormula](https://docs.microsoft.com/windows)
+-   [IVgFormulas](https://docs.microsoft.com/windows)
+-   [IVgGradientColorArray](https://docs.microsoft.com/windows)
+-   [IVgPoints](https://docs.microsoft.com/windows)
+-   [IVgSkewMatrix](https://docs.microsoft.com/windows)
+-   [IVgSkewOffset](https://docs.microsoft.com/windows)
+-   [IVgVector2D](https://docs.microsoft.com/windows)
+-   [IVgVector3D](https://docs.microsoft.com/windows)
+-   [Length](https://docs.microsoft.com/windows)
+-   [Measure](https://docs.microsoft.com/windows)
+-   [String](https://docs.microsoft.com/windows)
+-   [VgBlackWhiteMode](https://docs.microsoft.com/windows)
+-   [VgFraction](https://docs.microsoft.com/windows)
+-   [VgTriState](https://docs.microsoft.com/windows)
 
 **Double data type**
 

@@ -40,7 +40,7 @@ Pointer that can be null or point to existing data, whose value can change durin
 <span id="_rpc_uuid_glos"></span><span id="_RPC_UUID_GLOS"></span>**Universal Unique Identifier (UUID)**
 </dt> <dd>
 
-(or [**GUID**](https://msdn.microsoft.com/en-US/library/Aa373931(v=VS.80).aspx)) 128-bit value used in cross-process communication to identify entities such as client and server interfaces, manager entry-point vectors, and RPC objects. See also [uuidgen](#-rpc-uuidgen-glos).
+(or [**GUID**](https://msdn.microsoft.com/en-US/library/Aa373931(v=VS.80).aspx)) 128-bit value used in cross-process communication to identify entities such as client and server interfaces, manager entry-point vectors, and RPC objects. See also [uuidgen](https://docs.microsoft.com/windows).
 
 </dd> <dt>
 
@@ -54,7 +54,7 @@ Process of unpackaging parameters that have been sent across process boundaries.
 <span id="_rpc_uuidgen_glos"></span><span id="_RPC_UUIDGEN_GLOS"></span>**uuidgen**
 </dt> <dd>
 
-Utility program, provided with the Platform Software Development Kit (SDK), that uses a time value and your machine's network card ID to generate [UUIDs](#-rpc-uuid-glos) that are guaranteed to be unique.
+Utility program, provided with the Platform Software Development Kit (SDK), that uses a time value and your machine's network card ID to generate [UUIDs](https://docs.microsoft.com/windows) that are guaranteed to be unique.
 
 </dd> </dl>
 

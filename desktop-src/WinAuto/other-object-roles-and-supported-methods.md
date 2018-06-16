@@ -24,20 +24,20 @@ The following table lists additional object roles which Oleacc.dll supports.
 
 |                                                                         |                                                           |
 |-------------------------------------------------------------------------|-----------------------------------------------------------|
-| [**ROLE\_SYSTEM\_ALERT**](#role-system-alert)                           | [**ROLE\_SYSTEM\_DROPLIST**](#role-system-droplist)       |
-| [**ROLE\_SYSTEM\_APPLICATION**](#role-system-application)               | [**ROLE\_SYSTEM\_EQUATION**](#role-system-equation)       |
-| [**ROLE\_SYSTEM\_BORDER**](#role-system-border)                         | [**ROLE\_SYSTEM\_GRAPHIC**](#role-system-graphic)         |
-| [**ROLE\_SYSTEM\_BUTTONDROPDOWN**](#role-system-buttondropdown)         | [**ROLE\_SYSTEM\_HELPBALLOON**](#role-system-helpballoon) |
-| [**ROLE\_SYSTEM\_BUTTONDROPDOWNGRID**](#role-system-buttondropdowngrid) | [**ROLE\_SYSTEM\_IPADDRESS**](#role-system-ipaddress)     |
-| [**ROLE\_SYSTEM\_BUTTONMENU**](#role-system-buttonmenu)                 | [**ROLE\_SYSTEM\_LINK**](#role-system-link)               |
-| [**ROLE\_SYSTEM\_CELL**](#role-system-cell)                             | [**ROLE\_SYSTEM\_PANE**](#role-system-pane)               |
-| [**ROLE\_SYSTEM\_CHARACTER**](#role-system-character)                   | [**ROLE\_SYSTEM\_ROW**](#role-system-row)                 |
-| [**ROLE\_SYSTEM\_CHART**](#role-system-chart)                           | [**ROLE\_SYSTEM\_ROWHEADER**](#role-system-rowheader)     |
-| [**ROLE\_SYSTEM\_CLOCK**](#role-system-clock)                           | [**ROLE\_SYSTEM\_SEPARATOR**](#role-system-separator)     |
-| [**ROLE\_SYSTEM\_COLUMN**](#role-system-column)                         | [**ROLE\_SYSTEM\_SOUND**](#role-system-sound)             |
-| [**ROLE\_SYSTEM\_DIAGRAM**](#role-system-diagram)                       | [**ROLE\_SYSTEM\_SPLITBUTTON**](#role-system-splitbutton) |
-| [**ROLE\_SYSTEM\_DIAL**](#role-system-dial)                             | [**ROLE\_SYSTEM\_TABLE**](#role-system-table)             |
-| [**ROLE\_SYSTEM\_DOCUMENT**](#role-system-document)                     | [**ROLE\_SYSTEM\_WHITESPACE**](#role-system-whitespace)   |
+| [**ROLE\_SYSTEM\_ALERT**](https://docs.microsoft.com/windows)                           | [**ROLE\_SYSTEM\_DROPLIST**](https://docs.microsoft.com/windows)       |
+| [**ROLE\_SYSTEM\_APPLICATION**](https://docs.microsoft.com/windows)               | [**ROLE\_SYSTEM\_EQUATION**](https://docs.microsoft.com/windows)       |
+| [**ROLE\_SYSTEM\_BORDER**](https://docs.microsoft.com/windows)                         | [**ROLE\_SYSTEM\_GRAPHIC**](https://docs.microsoft.com/windows)         |
+| [**ROLE\_SYSTEM\_BUTTONDROPDOWN**](https://docs.microsoft.com/windows)         | [**ROLE\_SYSTEM\_HELPBALLOON**](https://docs.microsoft.com/windows) |
+| [**ROLE\_SYSTEM\_BUTTONDROPDOWNGRID**](https://docs.microsoft.com/windows) | [**ROLE\_SYSTEM\_IPADDRESS**](https://docs.microsoft.com/windows)     |
+| [**ROLE\_SYSTEM\_BUTTONMENU**](https://docs.microsoft.com/windows)                 | [**ROLE\_SYSTEM\_LINK**](https://docs.microsoft.com/windows)               |
+| [**ROLE\_SYSTEM\_CELL**](https://docs.microsoft.com/windows)                             | [**ROLE\_SYSTEM\_PANE**](https://docs.microsoft.com/windows)               |
+| [**ROLE\_SYSTEM\_CHARACTER**](https://docs.microsoft.com/windows)                   | [**ROLE\_SYSTEM\_ROW**](https://docs.microsoft.com/windows)                 |
+| [**ROLE\_SYSTEM\_CHART**](https://docs.microsoft.com/windows)                           | [**ROLE\_SYSTEM\_ROWHEADER**](https://docs.microsoft.com/windows)     |
+| [**ROLE\_SYSTEM\_CLOCK**](https://docs.microsoft.com/windows)                           | [**ROLE\_SYSTEM\_SEPARATOR**](https://docs.microsoft.com/windows)     |
+| [**ROLE\_SYSTEM\_COLUMN**](https://docs.microsoft.com/windows)                         | [**ROLE\_SYSTEM\_SOUND**](https://docs.microsoft.com/windows)             |
+| [**ROLE\_SYSTEM\_DIAGRAM**](https://docs.microsoft.com/windows)                       | [**ROLE\_SYSTEM\_SPLITBUTTON**](https://docs.microsoft.com/windows) |
+| [**ROLE\_SYSTEM\_DIAL**](https://docs.microsoft.com/windows)                             | [**ROLE\_SYSTEM\_TABLE**](https://docs.microsoft.com/windows)             |
+| [**ROLE\_SYSTEM\_DOCUMENT**](https://docs.microsoft.com/windows)                     | [**ROLE\_SYSTEM\_WHITESPACE**](https://docs.microsoft.com/windows)   |
 
 
 

@@ -29,7 +29,7 @@ This topic describes the following technologies:
     -   [Windows Forms](#windows-forms)
     -   [Windows Presentation Foundation](#windows-presentation-foundation)
     -   [Silverlight](#silverlight)
-    -   [Expression Blend 3 + SketchFlow](#expression-blend-3-sketchflow)
+    -   [Expression Blend 3 + SketchFlow](https://docs.microsoft.com/windows)
     -   [UI Automation for Managed Applications](#ui-automation-for-managed-applications)
 
 ## User Interface Technologies for Unmanaged Applications

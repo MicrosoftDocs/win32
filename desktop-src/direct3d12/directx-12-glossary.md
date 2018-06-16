@@ -299,7 +299,7 @@ A collection of large, contiguous memory allocations that are recycled without a
 <span id="direct3d12.directx_12_glossary_volume_tiled_resources"></span><span id="DIRECT3D12.DIRECTX_12_GLOSSARY_VOLUME_TILED_RESOURCES"></span>**volume tiled resources**
 </dt> <dd>
 
-Three-dimensional [tiled resources](#direct3d12-directx-12-glossary-tiled-resources).
+Three-dimensional [tiled resources](https://docs.microsoft.com/windows).
 
 </dd> </dl>
 

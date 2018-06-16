@@ -379,7 +379,7 @@ Sets or retrieves an unsigned long integer value that contains the connected sta
 
 
 
-Sets or retrieves a DWORD\_PTR that contains the address of the context value associated with this [**HINTERNET**](appendix-a-hinternet-handles.md) handle. This option can be used on any [**HINTERNET**](appendix-a-hinternet-handles.md) handle. This is used by [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona) and [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona). Previously, this set the context value to the address stored in the **lpBuffer** pointer. This has been corrected so that the value stored in the buffer is used and the [INTERNET\_OPTION\_CONTEXT\_VALUE](#internet-option-context-value) flag is assigned a new value. The old value, 10, has been preserved so that applications written for the old behavior are still supported.
+Sets or retrieves a DWORD\_PTR that contains the address of the context value associated with this [**HINTERNET**](appendix-a-hinternet-handles.md) handle. This option can be used on any [**HINTERNET**](appendix-a-hinternet-handles.md) handle. This is used by [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona) and [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona). Previously, this set the context value to the address stored in the **lpBuffer** pointer. This has been corrected so that the value stored in the buffer is used and the [INTERNET\_OPTION\_CONTEXT\_VALUE](https://docs.microsoft.com/windows) flag is assigned a new value. The old value, 10, has been preserved so that applications written for the old behavior are still supported.
 
 
 </dt> </dl> </dd> <dt>
@@ -392,7 +392,7 @@ Sets or retrieves a DWORD\_PTR that contains the address of the context value as
 
 
 
-Identical to [INTERNET\_OPTION\_RECEIVE\_TIMEOUT](#internet-option-receive-timeout). This is used by [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona) and [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona).
+Identical to [INTERNET\_OPTION\_RECEIVE\_TIMEOUT](https://docs.microsoft.com/windows). This is used by [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona) and [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona).
 
 
 </dt> </dl> </dd> <dt>
@@ -405,7 +405,7 @@ Identical to [INTERNET\_OPTION\_RECEIVE\_TIMEOUT](#internet-option-receive-timeo
 
 
 
-Identical to [INTERNET\_OPTION\_SEND\_TIMEOUT](#internet-option-send-timeout). This is used by [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona) and [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona).
+Identical to [INTERNET\_OPTION\_SEND\_TIMEOUT](https://docs.microsoft.com/windows). This is used by [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona) and [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona).
 
 
 </dt> </dl> </dd> <dt>
@@ -1200,7 +1200,7 @@ Not implemented.
 
 
 
-Retrieves an unsigned long integer value that contains the special status flags that indicate the status of the download in progress. This is used by [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona). The [INTERNET\_OPTION\_REQUEST\_FLAGS](#internet-option-request-flags) option can be one of the following values:
+Retrieves an unsigned long integer value that contains the special status flags that indicate the status of the download in progress. This is used by [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona). The [INTERNET\_OPTION\_REQUEST\_FLAGS](https://docs.microsoft.com/windows) option can be one of the following values:
 
 <dl> <dt>
 
@@ -1351,7 +1351,7 @@ Retrieves an unsigned long integer value that contains the security flags for a 
 
 0x20000000
 
-Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_STRONG](#security-flag-strength-strong). This is only returned in a call to [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona).
+Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_STRONG](https://docs.microsoft.com/windows). This is only returned in a call to [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona).
 
 </dd> <dt>
 
@@ -1360,7 +1360,7 @@ Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_STRONG](#security-fl
 
 0x10000000
 
-Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_WEAK](#security-flag-strength-weak). This is only returned in a call to [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona).
+Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_WEAK](https://docs.microsoft.com/windows). This is only returned in a call to [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona).
 
 </dd> <dt>
 
@@ -1369,7 +1369,7 @@ Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_WEAK](#security-flag
 
 0x40000000
 
-Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_MEDIUM](#security-flag-strength-medium). This is only returned in a call to [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona).
+Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_MEDIUM](https://docs.microsoft.com/windows). This is only returned in a call to [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona).
 
 </dd> <dt>
 
@@ -1468,7 +1468,7 @@ Ignores incorrect usage problems.
 
 0x10000000
 
-Identical to the value [SECURITY\_FLAG\_STRENGTH\_WEAK](#security-flag-strength-weak). This is only returned in a call to [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona).
+Identical to the value [SECURITY\_FLAG\_STRENGTH\_WEAK](https://docs.microsoft.com/windows). This is only returned in a call to [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona).
 
 </dd> <dt>
 

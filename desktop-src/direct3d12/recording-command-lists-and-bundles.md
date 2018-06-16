@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 This topic describes recording command lists and bundles in Direct3D 12 apps. Command lists and bundles both allow apps to record drawing or state-changing calls for later execution on the graphics processing unit (GPU).
 
 -   [Creating command lists](#creating-command-lists)
-    -   [D3D12\_COMMAND\_LIST\_TYPE](#d3d12-command-list-type)
+    -   [D3D12\_COMMAND\_LIST\_TYPE](https://docs.microsoft.com/windows)
     -   [ID3D12CommandAllocator](#id3d12commandallocator)
     -   [ID3D12PipelineState](#id3d12pipelinestate)
     -   [ID3D12DescriptorHeap](#id3d12descriptorheap)

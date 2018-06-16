@@ -13,8 +13,8 @@ ms.date: 05/31/2018
 
 This topic describes ways to make your COM code more effective and robust.
 
--   [The \_\_uuidof Operator](#the---uuidof-operator)
--   [The IID\_PPV\_ARGS Macro](#the-iid-ppv-args-macro)
+-   [The \_\_uuidof Operator](https://docs.microsoft.com/windows)
+-   [The IID\_PPV\_ARGS Macro](https://docs.microsoft.com/windows)
 -   [The SafeRelease Pattern](#the-saferelease-pattern)
 -   [COM Smart Pointers](#com-smart-pointers)
 

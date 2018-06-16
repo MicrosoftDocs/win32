@@ -1063,7 +1063,7 @@ This is an example of a typical test pass using the preceding test requirements 
 
 1.  Verify that the game does not generate errors on exit \[4.3\]
 2.  Verify that the game installed to Program Files \[3.3\]
-3.  Proceed to [Parental Controls](#12-windows-family-safety-parental-controls)
+3.  Proceed to [Parental Controls](https://docs.microsoft.com/windows)
 
 ### 5.7 Parental Controls
 

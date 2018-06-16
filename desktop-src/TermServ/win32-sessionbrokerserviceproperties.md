@@ -50,7 +50,7 @@ class Win32_SessionBrokerServiceProperties
 The **Win32\_SessionBrokerServiceProperties** class has these types of members:
 
 -   [Methods](#methods)
--   [Properties](#win32-sessionbrokerserviceproperties-class)
+-   [Properties](https://docs.microsoft.com/windows)
 
 ### Methods
 

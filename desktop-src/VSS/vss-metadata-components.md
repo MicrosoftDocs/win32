@@ -41,7 +41,7 @@ The life cycle and relationship between the two expressions of a component can b
 -   Writers are responsible for the initial definitions of components.
 -   A requester examines the metadata of all writers and their components.
 -   From components' selectability and logical path information, a requester determines which components must be explicitly included, which may be explicitly included, which define component sets, and which are members of component sets.
--   A requester adds those components that require explicit inclusion, and implicitly includes subcomponents in [*component sets*](#base-vssgloss-component-set) (whose information is not in the Backup Components Document).
+-   A requester adds those components that require explicit inclusion, and implicitly includes subcomponents in [*component sets*](https://docs.microsoft.com/windows) (whose information is not in the Backup Components Document).
 -   When handling events, writers and requesters may modify and examine the component information stored in the Backup Components Document to coordinate their activity.
 
 Both the writer and the requester versions component information are required to properly execute backup and restore operations, and both must be stored with any backed-up data:

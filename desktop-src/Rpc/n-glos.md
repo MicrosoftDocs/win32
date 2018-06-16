@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 <span id="_rpc_name_service_glos"></span><span id="_RPC_NAME_SERVICE_GLOS"></span>**name service**
 </dt> <dd>
 
-Service that maps names to objects and stores the name/object pairs in a database. For example, the RPC name service maps a logical name to a [*binding handle*](b-glos.md) so client applications can refer to that logical name, rather than a protocol sequence and network address. See also name service–interface daemon ([nsid)](#-rpc-nsid-glos), Client Directory Service ([*CDS)*](c-glos.md), [*Locator*](l-glos.md).
+Service that maps names to objects and stores the name/object pairs in a database. For example, the RPC name service maps a logical name to a [*binding handle*](b-glos.md) so client applications can refer to that logical name, rather than a protocol sequence and network address. See also name service–interface daemon ([nsid)](https://docs.microsoft.com/windows), Client Directory Service ([*CDS)*](c-glos.md), [*Locator*](l-glos.md).
 
 </dd> <dt>
 
@@ -33,7 +33,7 @@ Collection of guidelines for distributed computing. The RPC communication protoc
 <span id="_rpc_nsi_glos"></span><span id="_RPC_NSI_GLOS"></span>**Name Service Independent (NSI)**
 </dt> <dd>
 
-Standard for API functions that allows a distributed application to access RPC name-service database elements through various name-service providers, such as OSF-DCE Cell Directory Service or Microsoft Locator. See also [–interface daemon](#-rpc-nsid-glos) (nsid).
+Standard for API functions that allows a distributed application to access RPC name-service database elements through various name-service providers, such as OSF-DCE Cell Directory Service or Microsoft Locator. See also [–interface daemon](https://docs.microsoft.com/windows) (nsid).
 
 </dd> <dt>
 
@@ -47,14 +47,14 @@ Service that provides an interface between Microsoft [*Locator*](l-glos.md) and 
 <span id="_rpc_named_pipe_glos"></span><span id="_RPC_NAMED_PIPE_GLOS"></span>**named pipe**
 </dt> <dd>
 
-Connection-oriented protocol, based on Server Message Blocks (SMBs) and [NetBIOS](#-rpc-netbios-glos), used for communication between a server process and one or more client processes.
+Connection-oriented protocol, based on Server Message Blocks (SMBs) and [NetBIOS](https://docs.microsoft.com/windows), used for communication between a server process and one or more client processes.
 
 </dd> <dt>
 
 <span id="_rpc_netbeui_glos"></span><span id="_RPC_NETBEUI_GLOS"></span>**NetBIOS Extended User Interface (NetBEUI)**
 </dt> <dd>
 
-LAN Manager native transport protocol and network device driver. See also [NetBIOS](#-rpc-netbios-glos).
+LAN Manager native transport protocol and network device driver. See also [NetBIOS](https://docs.microsoft.com/windows).
 
 </dd> <dt>
 

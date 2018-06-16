@@ -19,7 +19,7 @@ This topic contains these sections:
 
 -   [Technologies](#technologies)
 -   [Requirements](#requirements)
--   [View the code (C++)](#view-codecpp)
+-   [View the code (C++)](https://docs.microsoft.com/windows)
 
 <span id="download_locations"></span>
 

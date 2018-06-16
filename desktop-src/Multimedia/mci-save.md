@@ -70,7 +70,7 @@ Returns zero if successful or an error otherwise.
 
 This command is supported by devices that return **TRUE** when you call the [MCI\_GETDEVCAPS](mci-getdevcaps.md) command with the MCI\_GETDEVCAPS\_CAN\_SAVE flag.
 
-The following additional flag applies to all devices supporting [MCI\_SAVE](#mci-save-command):
+The following additional flag applies to all devices supporting [MCI\_SAVE](https://docs.microsoft.com/windows):
 
 <dl> <dt>
 

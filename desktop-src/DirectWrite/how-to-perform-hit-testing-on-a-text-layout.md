@@ -23,7 +23,7 @@ This how to contains the following parts:
 -   [Step 2: Add an OnClick method.](#step-2-add-an-onclick-method)
 -   [Step 3: Perform Hit Testing.](#step-3-perform-hit-testing)
 -   [Step 4: Underline the Clicked Text.](#step-4-underline-the-clicked-text)
--   [Step 5: Handle the WM\_LBUTTONDOWN message.](#step-5-handle-the-wm-lbuttondown-message)
+-   [Step 5: Handle the WM\_LBUTTONDOWN message.](https://docs.microsoft.com/windows)
 
 ## Step 1: Create a Text Layout.
 

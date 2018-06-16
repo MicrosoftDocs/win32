@@ -27,7 +27,7 @@ This section covers tasks that are associated with keyboard accelerators.
     -   [Creating the Accelerator Table Resource](#creating-the-accelerator-table-resource)
     -   [Loading the Accelerator Table Resource](#loading-the-accelerator-table-resource)
     -   [Calling the Translate Accelerator Function](#calling-the-translate-accelerator-function)
-    -   [Processing WM\_COMMAND Messages](#processing-wm-command-messages)
+    -   [Processing WM\_COMMAND Messages](https://docs.microsoft.com/windows)
     -   [Destroying the Accelerator Table Resource](#destroying-the-accelerator-table-resource)
     -   [Creating Accelerators for Font Attributes](#creating-accelerators-for-font-attributes)
 -   [Using an Accelerator Table Created at Run Time](#using-an-accelerator-table-created-at-run-time)
@@ -45,7 +45,7 @@ This section covers the following topics.
 -   [Creating the Accelerator Table Resource](#creating-the-accelerator-table-resource)
 -   [Loading the Accelerator Table Resource](#loading-the-accelerator-table-resource)
 -   [Calling the Translate Accelerator Function](#calling-the-translate-accelerator-function)
--   [Processing WM\_COMMAND Messages](#processing-wm-command-messages)
+-   [Processing WM\_COMMAND Messages](https://docs.microsoft.com/windows)
 -   [Destroying the Accelerator Table Resource](#destroying-the-accelerator-table-resource)
 -   [Creating Accelerators for Font Attributes](#creating-accelerators-for-font-attributes)
 
@@ -349,7 +349,7 @@ To create the accelerator table, pass a pointer to the array of [**ACCEL**](/win
 
 ### Processing Accelerators
 
-The process of loading and calling accelerators provided by an accelerator table created at run time is the same as processing those provided by an accelerator-table resource. For more information, see [Loading the Accelerator Table Resource](#loading-the-accelerator-table-resource) through [Processing WM\_COMMAND Messages](#processing-wm-command-messages).
+The process of loading and calling accelerators provided by an accelerator table created at run time is the same as processing those provided by an accelerator-table resource. For more information, see [Loading the Accelerator Table Resource](#loading-the-accelerator-table-resource) through [Processing WM\_COMMAND Messages](https://docs.microsoft.com/windows).
 
 ### Destroying a Run-Time Accelerator Table
 

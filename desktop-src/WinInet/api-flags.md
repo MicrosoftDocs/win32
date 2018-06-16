@@ -135,7 +135,7 @@ Returns the resource from the cache if the network request for the resource fail
 
 
 
-Does not add the returned entity to the cache. This is identical to the preferred value, [INTERNET\_FLAG\_NO\_CACHE\_WRITE](#internet-flag-no-cache-write).
+Does not add the returned entity to the cache. This is identical to the preferred value, [INTERNET\_FLAG\_NO\_CACHE\_WRITE](https://docs.microsoft.com/windows).
 
 
 </dt> </dl> </dd> <dt>

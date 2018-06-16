@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Specifies events associated with the data proxy steps of an [**IInkAnalyzer**](iinkanalyzer.md) object.
 
--   [Events](#-ianalysisproxyevents-interface)
+-   [Events](https://docs.microsoft.com/windows)
 
 ### Events
 

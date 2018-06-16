@@ -18,7 +18,7 @@ This overview describes the basics of using Direct2D layers. It contains the fol
 -   [What Are Layers?](#what-are-layers)
 -   [Layers in Windows 8 and later](#layers-in-windows-8-and-later)
     -   [ID2D1DeviceContext and PushLayer](#id2d1devicecontext-and-pushlayer)
-    -   [D2D1\_LAYER\_PARAMETERS1 and D2D1\_LAYER\_OPTIONS1](#d2d1-layer-parameters1-and-d2d1-layer-options1)
+    -   [D2D1\_LAYER\_PARAMETERS1 and D2D1\_LAYER\_OPTIONS1](https://docs.microsoft.com/windows)
     -   [Blend Modes](#blend-modes)
     -   [Interoperation](#interoperation)
 -   [Creating Layers](#creating-layers)

@@ -24,22 +24,22 @@ This section has code samples for the following tasks:
 -   [Implementing the Cut, Copy, and Paste Commands](#implementing-the-cut-copy-and-paste-commands)
     -   [Selecting Data](#selecting-data)
     -   [Creating an Edit Menu](#creating-an-edit-menu)
-    -   [Processing the WM\_INITMENUPOPUP Message](#processing-the-wm-initmenupopup-message)
-    -   [Processing the WM\_COMMAND Message](#processing-the-wm-command-message)
+    -   [Processing the WM\_INITMENUPOPUP Message](https://docs.microsoft.com/windows)
+    -   [Processing the WM\_COMMAND Message](https://docs.microsoft.com/windows)
     -   [Copying Information to the Clipboard](#copying-information-to-the-clipboard)
     -   [Pasting Information from the Clipboard](#pasting-information-from-the-clipboard)
     -   [Registering a Clipboard Format](#registering-a-clipboard-format)
-    -   [Processing the WM\_RENDERFORMAT and WM\_RENDERALLFORMATS Messages](#processing-the-wm-renderformat-and-wm-renderallformats-messages)
-    -   [Processing the WM\_DESTROYCLIPBOARD Message](#processing-the-wm-destroyclipboard-message)
+    -   [Processing the WM\_RENDERFORMAT and WM\_RENDERALLFORMATS Messages](https://docs.microsoft.com/windows)
+    -   [Processing the WM\_DESTROYCLIPBOARD Message](https://docs.microsoft.com/windows)
     -   [Using the Owner-Display Clipboard Format](#using-the-owner-display-clipboard-format)
 -   [Monitoring Clipboard Contents](#monitoring-clipboard-contents)
 -   [Querying the Clipboard Sequence Number](#querying-the-clipboard-sequence-number)
 -   [Creating a Clipboard Format Listener](#creating-a-clipboard-format-listener)
 -   [Creating a Clipboard Viewer Window](#creating-a-clipboard-viewer-window)
 -   [Adding a Window to the Clipboard Viewer Chain](#adding-a-window-to-the-clipboard-viewer-chain)
-    -   [Processing the WM\_CHANGECBCHAIN Message](#processing-the-wm-changecbchain-message)
+    -   [Processing the WM\_CHANGECBCHAIN Message](https://docs.microsoft.com/windows)
     -   [Removing a Window from the Clipboard Viewer Chain](#removing-a-window-from-the-clipboard-viewer-chain)
-    -   [Processing the WM\_DRAWCLIPBOARD Message](#processing-the-wm-drawclipboard-message)
+    -   [Processing the WM\_DRAWCLIPBOARD Message](https://docs.microsoft.com/windows)
     -   [Example of a Clipboard Viewer](#example-of-a-clipboard-viewer)
 
 ## Implementing the Cut, Copy, and Paste Commands
@@ -709,9 +709,9 @@ case WM_CREATE:
 
 Code snippets are shown for the following tasks:
 
--   [Processing the WM\_CHANGECBCHAIN Message](#processing-the-wm-changecbchain-message)
+-   [Processing the WM\_CHANGECBCHAIN Message](https://docs.microsoft.com/windows)
 -   [Removing a Window from the Clipboard Viewer Chain](#removing-a-window-from-the-clipboard-viewer-chain)
--   [Processing the WM\_DRAWCLIPBOARD Message](#processing-the-wm-drawclipboard-message)
+-   [Processing the WM\_DRAWCLIPBOARD Message](https://docs.microsoft.com/windows)
 -   [Example of a Clipboard Viewer](#example-of-a-clipboard-viewer)
 
 ### Processing the WM\_CHANGECBCHAIN Message

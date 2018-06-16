@@ -25,7 +25,7 @@ Provider methods should not be confused with the following types of methods:
 
 ## Calling a Provider Method Using Scripting
 
-Any automation language, such as VBScript, PowerShell, or Perl, can call a WMI method. Some languages can use [direct access](#direct-access), but others must use [**SWbemServices.ExecMethod**](swbemservices-execmethod.md) to execute the provider method indirectly.
+Any automation language, such as VBScript, PowerShell, or Perl, can call a WMI method. Some languages can use [direct access](https://docs.microsoft.com/windows), but others must use [**SWbemServices.ExecMethod**](swbemservices-execmethod.md) to execute the provider method indirectly.
 
 <span id="direct_access"></span><span id="DIRECT_ACCESS"></span>
 

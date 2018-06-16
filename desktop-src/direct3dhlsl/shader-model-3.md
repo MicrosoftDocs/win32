@@ -19,7 +19,7 @@ Additional wrap mode render states have been added to cover the possibility of a
 
 -   [Vertex Shader Model 3 Features](#vertex-shader-model-3-features)
 -   [Pixel Shader Model 3 Features](#pixel-shader-model-3-features)
--   [Match Semantics on vs\_3\_0 and ps\_3\_0 Shaders](#match-semantics-on-vs-3-0-and-ps-3-0-shaders)
+-   [Match Semantics on vs\_3\_0 and ps\_3\_0 Shaders](https://docs.microsoft.com/windows)
 -   [Fog, Depth, and Shading Mode Changes](#fog-depth-and-shading-mode-changes)
 -   [Floating Point and Integer Conversions](#floating-point-and-integer-conversions)
 -   [Specifying Full or Partial Precision](#specifying-full-or-partial-precision)

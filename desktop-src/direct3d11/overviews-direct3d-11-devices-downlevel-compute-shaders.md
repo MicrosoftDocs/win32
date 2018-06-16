@@ -25,7 +25,7 @@ The [10Level9 Reference](d3d11-graphics-reference-10level9.md) section lists the
     -   [Thread Group Dimensions](#thread-group-dimensions)
     -   [Two-Dimensional Thread Indices](#two-dimensional-thread-indices)
     -   [Thread Group Shared Memory (TGSM)](#thread-group-shared-memory-tgsm)
--   [D3DCompile with D3DCOMPILE\_SKIP\_OPTIMIZATION](#d3dcompile-with-d3dcompile-skip-optimization)
+-   [D3DCompile with D3DCOMPILE\_SKIP\_OPTIMIZATION](https://docs.microsoft.com/windows)
 -   [Related topics](#related-topics)
 
 ## Unordered Access Views (UAVs)

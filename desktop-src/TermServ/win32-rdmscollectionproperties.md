@@ -64,7 +64,7 @@ class Win32_RDMSCollectionProperties
 The **Win32\_RDMSCollectionProperties** class has these types of members:
 
 -   [Methods](#methods)
--   [Properties](#win32-rdmscollectionproperties-class)
+-   [Properties](https://docs.microsoft.com/windows)
 
 ### Methods
 

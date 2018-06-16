@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 ****wsman:Items****
 </dt> <dd>
 
-A WS-Management protocol element returned in an enumeration that obtains both the instances and the instance [*EPRs*](#winrm-gloss-epr). **wsman:Items** is a container that holds an instance and its EPR. This type of enumeration is initiated when the **WSManFlagReturnObjectAndEPR** flag is set in the request.
+A WS-Management protocol element returned in an enumeration that obtains both the instances and the instance [*EPRs*](https://docs.microsoft.com/windows). **wsman:Items** is a container that holds an instance and its EPR. This type of enumeration is initiated when the **WSManFlagReturnObjectAndEPR** flag is set in the request.
 
 </dd> </dl>
 

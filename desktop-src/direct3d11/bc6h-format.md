@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 The BC6H format is a texture compression format designed to support high-dynamic range (HDR) color spaces in source data.
 
--   [About BC6H/DXGI\_FORMAT\_BC6H](#about-bc6hdxgi-format-bc6h)
+-   [About BC6H/DXGI\_FORMAT\_BC6H](https://docs.microsoft.com/windows)
 -   [BC6H Implementation](#bc6h-implementation)
 -   [Decoding the BC6H Format](#decoding-the-bc6h-format)
 -   [BC6H Compressed Endpoint Format](#bc6h-compressed-endpoint-format)

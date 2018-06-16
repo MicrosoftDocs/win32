@@ -20,7 +20,7 @@ This topic lists all the APIs in OneCore.lib, grouped by module. Linking to OneC
 
  
 
--   [\_](#-)
+-   [\_](https://docs.microsoft.com/windows)
 -   [a](#onecorelib-umbrella-library-alphabetical)
 -   [b](#b)
 -   [c](#c)

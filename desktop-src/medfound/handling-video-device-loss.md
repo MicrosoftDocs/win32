@@ -15,7 +15,7 @@ This topic describes how to detect device loss when using a video capture device
 
 -   [Register For Device Notification](#register-for-device-notification)
 -   [Get the Symbolic Link of the Device](#get-the-symbolic-link-of-the-device)
--   [Handle WM\_DEVICECHANGE](#handle-wm-devicechange)
+-   [Handle WM\_DEVICECHANGE](https://docs.microsoft.com/windows)
 -   [Unregister For Notification](#unregister-for-notification)
 -   [Related topics](#related-topics)
 
