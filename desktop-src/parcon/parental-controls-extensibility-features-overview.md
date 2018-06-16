@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Parental controls can be extended by using the settings and logging APIs.
 
--   [Logging—Background](#logging8212background)
+-   [Logging—Background](https://docs.microsoft.com/windows)
 -   [Logging Extensibility](#logging-extensibility)
 -   [Parental Controls Panel General UI Extensibility Link Addition](#parental-controls-panel-general-ui-extensibility-link-addition)
 -   [Web Content Filter Replacement](#web-content-filter-replacement)

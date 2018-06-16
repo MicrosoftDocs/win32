@@ -40,7 +40,7 @@ Network-specific address of a server process for remote procedure calls. The act
 <span id="_rpc_endpoint_mapper_glos"></span><span id="_RPC_ENDPOINT_MAPPER_GLOS"></span>**endpoint mapper**
 </dt> <dd>
 
-Part of the RPC subsystem (RPCSS) that allows the run-time library to dynamically assign and resolve endpoints. See also [endpoint](#-rpc-endpoint-glos).
+Part of the RPC subsystem (RPCSS) that allows the run-time library to dynamically assign and resolve endpoints. See also [endpoint](https://docs.microsoft.com/windows).
 
 </dd> <dt>
 

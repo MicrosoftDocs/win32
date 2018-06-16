@@ -24,7 +24,7 @@ If you wish to take advantage of driver optimizations for root signature descrip
 -   [Root Descriptor](#root-descriptor)
 -   [Shader Visibility](#shader-visibility)
 -   [Root Signature Definition](#root-signature-definition)
--   [Root Signature Data Structure Serialization / Deserialization](#root-signature-data-structure-serialization-deserialization)
+-   [Root Signature Data Structure Serialization / Deserialization](https://docs.microsoft.com/windows)
 -   [Root Signature Creation API](#root-signature-creation-api)
 -   [Root Signature in Pipeline State Objects](#root-signature-in-pipeline-state-objects)
 -   [Code for Defining a Version 1.1 Root Signature](#code-for-defining-a-version-11-root-signature)

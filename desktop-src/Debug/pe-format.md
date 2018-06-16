@@ -1363,7 +1363,7 @@ The delay-load directory table is the counterpart to the import directory table.
 
  
 
-The tables that are referenced in this data structure are organized and sorted just as their counterparts are for traditional imports. For details, see [The .idata Section](#the--idate-section).
+The tables that are referenced in this data structure are organized and sorted just as their counterparts are for traditional imports. For details, see [The .idata Section](https://docs.microsoft.com/windows).
 
 ### Attributes
 

@@ -26,7 +26,7 @@ Process through which a logical connection is established between a client and a
 <span id="_rpc_binding_glos"></span><span id="_RPC_BINDING_GLOS"></span>**binding**
 </dt> <dd>
 
-Relationship between a client and a server established over a specific protocol sequence to a specific host system and endpoint. Also used as a short form of [binding handle](#-rpc-binding-handle-glos).
+Relationship between a client and a server established over a specific protocol sequence to a specific host system and endpoint. Also used as a short form of [binding handle](https://docs.microsoft.com/windows).
 
 </dd> <dt>
 
@@ -40,7 +40,7 @@ Data structure that represents the logical connection between a client and a ser
 <span id="_rpc_binding_vector_glos"></span><span id="_RPC_BINDING_VECTOR_GLOS"></span>**binding vector**
 </dt> <dd>
 
-RPC data structure that contains a list of [binding handles](#-rpc-binding-handle-glos) over which a server application can receive remote procedure calls.
+RPC data structure that contains a list of [binding handles](https://docs.microsoft.com/windows) over which a server application can receive remote procedure calls.
 
 </dd> </dl>
 

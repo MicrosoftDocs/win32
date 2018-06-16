@@ -109,7 +109,7 @@ ms.date: 05/31/2018
 
 The following lists contain the attributes and modifiers used by [**HttpQueryInfo**](/windows/desktop/api/Wininet/nf-wininet-httpqueryinfoa) and [**QueryInfo**](https://msdn.microsoft.com/library/ms774972).
 
-The attribute flags are used by [**HttpQueryInfo**](/windows/desktop/api/Wininet/nf-wininet-httpqueryinfoa) (or [**QueryInfo**](https://msdn.microsoft.com/library/ms774972)) to indicate what data to retrieve. Most of the attribute flags map directly to a specific HTTP header. There are also some special flags, such as [HTTP\_QUERY\_RAW\_HEADERS](#http-query-raw-headers), that are not related to a specific header.
+The attribute flags are used by [**HttpQueryInfo**](/windows/desktop/api/Wininet/nf-wininet-httpqueryinfoa) (or [**QueryInfo**](https://msdn.microsoft.com/library/ms774972)) to indicate what data to retrieve. Most of the attribute flags map directly to a specific HTTP header. There are also some special flags, such as [HTTP\_QUERY\_RAW\_HEADERS](https://docs.microsoft.com/windows), that are not related to a specific header.
 
 <dl> <dt>
 

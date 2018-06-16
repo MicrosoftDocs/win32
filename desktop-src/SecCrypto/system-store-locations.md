@@ -24,14 +24,14 @@ In CERT\_SYSTEM\_STORE\_CURRENT\_USER, there is also a predefined UserDS store. 
 
 Here are the system stores followed by further remarks:
 
--   [CERT\_SYSTEM\_STORE\_CURRENT\_USER](#cert-system-store-current-user)
--   [CERT\_SYSTEM\_STORE\_LOCAL\_MACHINE](#cert-system-store-local-machine)
--   [CERT\_SYSTEM\_STORE\_CURRENT\_SERVICE](#cert-system-store-current-service)
--   [CERT\_SYSTEM\_STORE\_SERVICES](#cert-system-store-services)
--   [CERT\_SYSTEM\_STORE\_USERS](#cert-system-store-users)
--   [CERT\_SYSTEM\_CURRENT\_USER\_GROUP\_POLICY](#cert-system-current-user-group-policy)
--   [CERT\_SYSTEM\_LOCAL\_MACHINE\_GROUP\_POLICY](#cert-system-local-machine-group-policy)
--   [CERT\_SYSTEM\_STORE\_LOCAL\_MACHINE\_ENTERPRISE](#cert-system-store-local-machine-enterprise)
+-   [CERT\_SYSTEM\_STORE\_CURRENT\_USER](https://docs.microsoft.com/windows)
+-   [CERT\_SYSTEM\_STORE\_LOCAL\_MACHINE](https://docs.microsoft.com/windows)
+-   [CERT\_SYSTEM\_STORE\_CURRENT\_SERVICE](https://docs.microsoft.com/windows)
+-   [CERT\_SYSTEM\_STORE\_SERVICES](https://docs.microsoft.com/windows)
+-   [CERT\_SYSTEM\_STORE\_USERS](https://docs.microsoft.com/windows)
+-   [CERT\_SYSTEM\_CURRENT\_USER\_GROUP\_POLICY](https://docs.microsoft.com/windows)
+-   [CERT\_SYSTEM\_LOCAL\_MACHINE\_GROUP\_POLICY](https://docs.microsoft.com/windows)
+-   [CERT\_SYSTEM\_STORE\_LOCAL\_MACHINE\_ENTERPRISE](https://docs.microsoft.com/windows)
 -   [Remarks](#remarks)
 
 ### CERT\_SYSTEM\_STORE\_CURRENT\_USER

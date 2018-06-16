@@ -63,7 +63,7 @@ The JPEG codec uses basic WIC options. The following table lists the WIC encoder
 | [Luminance](#luminance-option)                       | VT\_UI4/VT\_ARRAY | 64 Entries (DCT)                                                                  | Default luminance table.                                                       |
 | [Chrominance](#chrominance-option)                   | VT\_UI4/VT\_ARRAY | 64 Entries (DCT)                                                                  | Default chrominance table.                                                     |
 | [JpegYCrCbSubsampling](#jpegycrcbsubsampling-option) | VT\_UI1           | [**WICJpegYCrCbSubsamplingOption**](/windows/desktop/api/Wincodec/ne-wincodec-wicjpegycrcbsubsamplingoption) | [**WICJpegYCrCbSubsampling420**](/windows/desktop/api/Wincodec/ne-wincodec-wicjpegycrcbsubsamplingoption) |
-| [SuppressApp0](#-suppressapp0)                       | VT\_BOOL          | **TRUE**/**FALSE**                                                                | **FALSE**                                                                      |
+| [SuppressApp0](https://docs.microsoft.com/windows)                       | VT\_BOOL          | **TRUE**/**FALSE**                                                                | **FALSE**                                                                      |
 
 
 

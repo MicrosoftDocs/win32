@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 -   [Applications performing updates to multiple files and/or to the registry hive](#applications-performing-updates-to-multiple-files-andor-to-the-registry-hive)
 -   [Applications managing a set of structured data](#applications-managing-a-set-of-structured-data)
 -   [Applications with Transactions involving files on a local NTFS volume and Tables in an external SQL database](#applications-with-transactions-involving-files-on-a-local-ntfs-volume-and-tables-in-an-external-sql-database)
--   [Closing & Recommended Action](#closing-amp-recommended-action)
+-   [Closing & Recommended Action](https://docs.microsoft.com/windows)
 
 ## Abstract
 

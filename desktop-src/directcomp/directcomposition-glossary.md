@@ -194,7 +194,7 @@ An object that contains an optional reference to a bitmap object, and a set of p
 <span id="directcomp_glossary_visual_object"></span><span id="DIRECTCOMP_GLOSSARY_VISUAL_OBJECT"></span>**visual object**
 </dt> <dd>
 
-See [*visual*](#directcomp-glossary-visual).
+See [*visual*](https://docs.microsoft.com/windows).
 
 </dd> <dt>
 

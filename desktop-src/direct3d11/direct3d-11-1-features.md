@@ -29,7 +29,7 @@ The following functionality has been added in Direct3D 11.1, which is included w
 -   [Bind a subrange of a constant buffer to a shader](#bind-a-subrange-of-a-constant-buffer-to-a-shader)
 -   [Retrieve the subrange of a constant buffer that is bound to a shader](#retrieve-the-subrange-of-a-constant-buffer-that-is-bound-to-a-shader)
 -   [Clear all or part of a resource view](#clear-all-or-part-of-a-resource-view)
--   [Map SRVs of dynamic buffers with NO\_OVERWRITE](#map-srvs-of-dynamic-buffers-with-no-overwrite)
+-   [Map SRVs of dynamic buffers with NO\_OVERWRITE](https://docs.microsoft.com/windows)
 -   [Use UAVs at every pipeline stage](#use-uavs-at-every-pipeline-stage)
 -   [Extended support for WARP devices](#extended-support-for-warp-devices)
 -   [Use Direct3D in Session 0 processes](#use-direct3d-in-session-0-processes)

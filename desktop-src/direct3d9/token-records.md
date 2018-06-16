@@ -13,12 +13,12 @@ ms.date: 05/31/2018
 
 This section describes the format of the records for each of the record-bearing tokens. Information is divided into the following sections.
 
--   [TOKEN\_NAME](#token-name)
--   [TOKEN\_STRING](#token-string)
--   [TOKEN\_INTEGER](#token-integer)
--   [TOKEN\_GUID](#token-guid)
--   [TOKEN\_INTEGER\_LIST](#token-integer-list)
--   [TOKEN\_FLOAT\_LIST](#token-float-list)
+-   [TOKEN\_NAME](https://docs.microsoft.com/windows)
+-   [TOKEN\_STRING](https://docs.microsoft.com/windows)
+-   [TOKEN\_INTEGER](https://docs.microsoft.com/windows)
+-   [TOKEN\_GUID](https://docs.microsoft.com/windows)
+-   [TOKEN\_INTEGER\_LIST](https://docs.microsoft.com/windows)
+-   [TOKEN\_FLOAT\_LIST](https://docs.microsoft.com/windows)
 
 ## TOKEN\_NAME
 

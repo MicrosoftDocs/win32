@@ -21,7 +21,7 @@ The following sections describe IIS host plug-in configuration:
 
 -   [IIS Hosting Details](#iis-hosting-details)
 -   [IIS Host Configuration Model](#iis-host-configuration-model)
--   [IIS Host (WinRM) Configuration Setup and Details](#iis-host-winrm-configuration8212setup-and-details)
+-   [IIS Host (WinRM) Configuration Setup and Details](https://docs.microsoft.com/windows)
 -   [Reading IIS Host Configuration](#reading-iis-host-configuration)
 -   [Enumerating Plug-ins on the WinRM Service](#enumerating-plug-ins-on-the-winrm-service)
 

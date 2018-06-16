@@ -21,7 +21,7 @@ The functions used with WinSNMP fall into the following functional groupings. An
 -   [PDU Functions](#winsnmp-pdu-functions)
 -   [Utility Functions](#winsnmp-utility-functions)
 -   [Variable Binding Functions](#winsnmp-variable-binding-functions)
--   [WinSNMP Functions   Alphabetic List](#winsnmp-functions-8212-alphabetic-list)
+-   [WinSNMP Functions   Alphabetic List](https://docs.microsoft.com/windows)
 
 ## WinSNMP Communications Functions
 

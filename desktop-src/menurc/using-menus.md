@@ -38,7 +38,7 @@ This section describes the following tasks:
     -   [Loading a Menu-Template Resource](#loading-a-menu-template-resource)
     -   [Creating a Class Menu](#creating-a-class-menu)
 -   [Creating a Shortcut Menu](#creating-a-shortcut-menu)
-    -   [Processing the WM\_CONTEXTMENU Message](#processing-the-wm-contextmenu-message)
+    -   [Processing the WM\_CONTEXTMENU Message](https://docs.microsoft.com/windows)
     -   [Creating a Shortcut Font-Attributes Menu](#creating-a-shortcut-font-attributes-menu)
     -   [Displaying a Shortcut Menu](#displaying-a-shortcut-menu)
 -   [Using Menu-Item Bitmaps](#using-menu-item-bitmaps)
@@ -48,9 +48,9 @@ This section describes the following tasks:
     -   [Example of Menu-Item Bitmaps](#example-of-menu-item-bitmaps)
 -   [Creating Owner-Drawn Menu Items](#creating-owner-drawn-menu-items)
     -   [Setting the Owner-Drawn Flag](#setting-the-owner-drawn-flag)
-    -   [Owner-Drawn Menus and the WM\_MEASUREITEM Message](#owner-drawn-menus-and-the-wm-measureitem-message)
-    -   [Owner-Drawn Menus and the WM\_DRAWITEM Message](#owner-drawn-menus-and-the-wm-drawitem-message)
-    -   [Owner-Drawn Menus and the WM\_MENUCHAR Message](#owner-drawn-menus-and-the-wm-menuchar-message)
+    -   [Owner-Drawn Menus and the WM\_MEASUREITEM Message](https://docs.microsoft.com/windows)
+    -   [Owner-Drawn Menus and the WM\_DRAWITEM Message](https://docs.microsoft.com/windows)
+    -   [Owner-Drawn Menus and the WM\_MENUCHAR Message](https://docs.microsoft.com/windows)
     -   [Setting Fonts for Menu-Item Text Strings](#setting-fonts-for-menu-item-text-strings)
     -   [Example of Owner-Drawn Menu Items](#example-of-owner-drawn-menu-items)
 -   [Using Custom Check Mark Bitmaps](#using-custom-check-mark-bitmaps)
@@ -223,7 +223,7 @@ You can specify the position of a shortcut menu by providing x- and y-coordinate
 
 You should permit the user to choose an item from a shortcut menu by using the same mouse button used to display the menu. To do this, specify either **TPM\_LEFTBUTTON** or **TPM\_RIGHTBUTTON** flag to indicate which mouse button the user can use to choose a menu item.
 
--   [Processing the WM\_CONTEXTMENU Message](#processing-the-wm-contextmenu-message)
+-   [Processing the WM\_CONTEXTMENU Message](https://docs.microsoft.com/windows)
 -   [Creating a Shortcut Font-Attributes Menu](#creating-a-shortcut-font-attributes-menu)
 -   [Displaying a Shortcut Menu](#displaying-a-shortcut-menu)
 
@@ -918,9 +918,9 @@ VOID WINAPI AddBitmapMenu(
 If you need complete control over the appearance of a menu item, you can use an owner-drawn menu item in your application. This section describes the steps involved in creating and using an owner-drawn menu item.
 
 -   [Setting the Owner-Drawn Flag](#setting-the-owner-drawn-flag)
--   [Owner-Drawn Menus and the WM\_MEASUREITEM Message](#owner-drawn-menus-and-the-wm-measureitem-message)
--   [Owner-Drawn Menus and the WM\_DRAWITEM Message](#owner-drawn-menus-and-the-wm-drawitem-message)
--   [Owner-Drawn Menus and the WM\_MENUCHAR Message](#owner-drawn-menus-and-the-wm-menuchar-message)
+-   [Owner-Drawn Menus and the WM\_MEASUREITEM Message](https://docs.microsoft.com/windows)
+-   [Owner-Drawn Menus and the WM\_DRAWITEM Message](https://docs.microsoft.com/windows)
+-   [Owner-Drawn Menus and the WM\_MENUCHAR Message](https://docs.microsoft.com/windows)
 -   [Setting Fonts for Menu-Item Text Strings](#setting-fonts-for-menu-item-text-strings)
 -   [Example of Owner-Drawn Menu Items](#example-of-owner-drawn-menu-items)
 

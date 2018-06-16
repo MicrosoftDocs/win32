@@ -305,9 +305,9 @@ The default value is 3 if [ImageQuality](#imagequality-option) &gt; 0.8; otherwi
 
 Specify the horizontal and vertical tiling of the image before you perform compression encoding for the optimal performance of region decode . By dividing the image into rectangular tiles during encoding you can decode regions of the image without processing the entire compressed data stream. The default value of 0 specifies no subdivision, so the entire image is treated as a single tile. A value of 1 for each parameter creates a single horizontal and a single vertical division, effectively dividing the image into four equally sized tiles. The maximum value of 4095 for each parameter divides the image into 4096 tile rows with 4096 tiles per row. In other words, the parameter values equal the number of horizontal and vertical tiles (respectively) minus 1. A tile can never be smaller than 16 pixels in width or height, so the HD Photo encoder might adjust this parameter to maintain the required minimum tile size. Because there is storage and processing overhead associated with each tile, you should choose these values carefully to meet the specific scenario.
 
-[HorizontalTileSlices](#-horizontaltileslices): The default value is (Image Width – 1) &gt;&gt; 8.
+[HorizontalTileSlices](https://docs.microsoft.com/windows): The default value is (Image Width – 1) &gt;&gt; 8.
 
-[VerticalTileSlices](#-verticaltileslices): The default value is (Image Height – 1) &gt;&gt; 8.
+[VerticalTileSlices](https://docs.microsoft.com/windows): The default value is (Image Height – 1) &gt;&gt; 8.
 
 ### FrequencyOrder Option
 
@@ -344,10 +344,10 @@ The HD Photo encoder performs a compressed domain transcode operation when it en
 
 When the codec performs a compressed domain operation, only certain encoder parameter and property settings are allowed.
 
--   The basic encoder options [ImageQuality](#imagequality-option), [CompressionQuality](#-compressionquality) and [Lossless](#lossless-option) are ignored.
+-   The basic encoder options [ImageQuality](#imagequality-option), [CompressionQuality](https://docs.microsoft.com/windows) and [Lossless](#lossless-option) are ignored.
 -   The HD Photo-specific encoder options [Quality](#quality-option), [Overlap](#overlap-option), [InterleavedAlpha](#interleavedalpha-option) and [AlphaQuality](#alphaquality-option) are ignored.
--   If present, the [HorizontalTileSlices](#-horizontaltileslices) and [VerticalTileSlices](#-verticaltileslices) options must be set to zero. The tile size of an image cannot be changed as part of a compressed domain transcode.
--   You can change the image organization between frequency and spatial ordering by specifying the appropriate value of the [FrequencyOrdering](#-frequencyordering) options.
+-   If present, the [HorizontalTileSlices](https://docs.microsoft.com/windows) and [VerticalTileSlices](https://docs.microsoft.com/windows) options must be set to zero. The tile size of an image cannot be changed as part of a compressed domain transcode.
+-   You can change the image organization between frequency and spatial ordering by specifying the appropriate value of the [FrequencyOrdering](https://docs.microsoft.com/windows) options.
 -   A cardinal rotation and/or horizontal/vertical flip operation can be performed based on the value specified in the [BitmapTransform](#bitmaptransform-option) encoder option.
 -   The image can be cropped by specifying the desired region using the [**WICRect**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-writesource) parameter of the **WriteSource** encoder method.
 -   Image and/or alpha data can be discarded by specifying the appropriate values in the [ImageDataDiscard](#imagedatadiscard-option) and/or [AlphaDataDiscard](#alphadatadiscard-option) options, reducing the encoded file size and effectively reducing the resolution of the new image.

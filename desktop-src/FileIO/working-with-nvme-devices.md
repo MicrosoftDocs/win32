@@ -164,7 +164,7 @@ typedef struct _STORAGE_PROTOCOL_COMMAND {
 
 The vendor specific command desired to be sent should be populated in the highlighted field above. Note again that the Command Effects Log must be implemented for pass-through commands. In particular, these commands need to be reported as supported in the Command Effects Log (see previous section for more information). Also note that PRP fields are driver specific thus applications sending commands can leave them as 0.
 
-Finally, this pass-through IOCTL is intended for sending vendor-specific commands. To send other admin or non-vendor specific NVMe commands such as Identify, this pass-through IOCTL should not be used. For example, **IOCTL\_STORAGE\_QUERY\_PROPERTY** should be used for Identify or Get Log Pages. For more info, see the next section, [Protocol-specific queries](#standard).
+Finally, this pass-through IOCTL is intended for sending vendor-specific commands. To send other admin or non-vendor specific NVMe commands such as Identify, this pass-through IOCTL should not be used. For example, **IOCTL\_STORAGE\_QUERY\_PROPERTY** should be used for Identify or Get Log Pages. For more info, see the next section, [Protocol-specific queries](https://docs.microsoft.com/windows).
 
 ### Don't update firmware through the pass-through mechanism
 

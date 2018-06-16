@@ -20,7 +20,7 @@ A system can contain multiple versions of the same dynamic-link library (DLL). A
 -   [Search Order for Desktop Applications](#search-order-for-desktop-applications)
     -   [Standard Search Order for Desktop Applications](#standard-search-order-for-desktop-applications)
     -   [Alternate Search Order for Desktop Applications](#alternate-search-order-for-desktop-applications)
-    -   [Search Order Using **LOAD\_LIBRARY\_SEARCH** Flags](#search-order-using-load-library-search-flags)
+    -   [Search Order Using **LOAD\_LIBRARY\_SEARCH** Flags](https://docs.microsoft.com/windows)
 -   [Related topics](#related-topics)
 
 ## Factors That Affect Searching

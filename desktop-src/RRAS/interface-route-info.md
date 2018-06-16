@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # INTERFACE\_ROUTE\_INFO structure
 
-The [INTERFACE\_ROUTE\_INFO](#interface-route-info-structure) structure is used to specify the routes to be added or deleted on an RRAS server.
+The [INTERFACE\_ROUTE\_INFO](https://docs.microsoft.com/windows) structure is used to specify the routes to be added or deleted on an RRAS server.
 
 ## Syntax
 
@@ -272,7 +272,7 @@ A **BOOL** that specifies if the route information if for IPv4 or IPv6. If **TRU
 
 ## Remarks
 
-The [INTERFACE\_ROUTE\_INFO](#interface-route-info-structure) structure is not defined in a publicly available header in the Platform Software Development Kit (SDK). Therefore, this structure must be manually defined by application developers.
+The [INTERFACE\_ROUTE\_INFO](https://docs.microsoft.com/windows) structure is not defined in a publicly available header in the Platform Software Development Kit (SDK). Therefore, this structure must be manually defined by application developers.
 
 ## Requirements
 
