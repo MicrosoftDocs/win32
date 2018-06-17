@@ -33,7 +33,7 @@ The following interfaces are used with Direct3D 9.
 -   [**IDirect3DPixelShader9**](/windows/desktop/api)
 -   [**IDirect3DQuery9**](/windows/desktop/api)
 -   [**IDirect3DResource9**](/windows/desktop/api)
--   [**IDirect3DStateBlock9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dstateblock9)
+-   [**IDirect3DStateBlock9**](/windows/desktop/api)
 -   [**IDirect3DSurface9**](/windows/desktop/api)
 -   [**IDirect3DSwapChain9**](/windows/desktop/api)
 -   [**IDirect3DTexture9**](/windows/desktop/api)
