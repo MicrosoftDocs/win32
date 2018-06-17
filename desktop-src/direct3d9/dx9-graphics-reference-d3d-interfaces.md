@@ -38,7 +38,7 @@ The following interfaces are used with Direct3D 9.
 -   [**IDirect3DSwapChain9**](/windows/desktop/api)
 -   [**IDirect3DTexture9**](/windows/desktop/api)
 -   [**IDirect3DVertexBuffer9**](/windows/desktop/api)
--   [**IDirect3DVertexDeclaration9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dvertexdeclaration9)
+-   [**IDirect3DVertexDeclaration9**](/windows/desktop/api)
 -   [**IDirect3DVertexShader9**](/windows/desktop/api)
 -   [**IDirect3DVolume9**](/windows/desktop/api)
 -   [**IDirect3DVolumeTexture9**](/windows/desktop/api)
