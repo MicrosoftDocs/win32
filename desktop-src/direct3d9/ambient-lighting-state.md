@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Ambient light is surrounding light that radiates from all directions. For information about how Direct3D uses ambient light, see [Mathematics of Lighting (Direct3D 9)](mathematics-of-lighting.md).
 
-A C++ application sets the color of ambient lighting by invoking the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate) method and passing the enumerated value D3DRS\_AMBIENT as the first parameter. The second parameter is a color value. The default value is zero.
+A C++ application sets the color of ambient lighting by invoking the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api) method and passing the enumerated value D3DRS\_AMBIENT as the first parameter. The second parameter is a color value. The default value is zero.
 
 
 ```

@@ -147,13 +147,13 @@ The transform states in the range 256 through 511 are reserved to store up to 25
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::GetTransform**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-gettransform)
+[**IDirect3DDevice9::GetTransform**](/windows/desktop/api)
 </dt> <dt>
 
-[**IDirect3DDevice9::MultiplyTransform**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-multiplytransform)
+[**IDirect3DDevice9::MultiplyTransform**](/windows/desktop/api)
 </dt> <dt>
 
-[**IDirect3DDevice9::SetTransform**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settransform)
+[**IDirect3DDevice9::SetTransform**](/windows/desktop/api)
 </dt> <dt>
 
 [**D3DTS\_WORLD**](d3dts-world.md)

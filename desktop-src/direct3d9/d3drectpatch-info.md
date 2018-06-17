@@ -167,7 +167,7 @@ RectInfo.StartVertexOffsetHeight = 4*i;  // The variable i is the index of the
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**DrawRectPatch**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawrectpatch)
+[**DrawRectPatch**](/windows/desktop/api)
 </dt> <dt>
 
 [**D3DXTessellateRectPatch**](d3dxtessellaterectpatch.md)

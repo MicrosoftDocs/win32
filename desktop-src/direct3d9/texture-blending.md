@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Direct3D can blend as many as eight textures onto primitives in a single pass. The use of multiple texture blending can profoundly increase the frame rate of a Direct3D application. An application employs multiple texture blending to apply textures, shadows, specular lighting, diffuse lighting, and other special effects in a single pass.
 
-To use texture blending, your application should first check if the user's hardware supports it. This information is found in the TextureCaps member of the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structure. For details about how to query the user's hardware for texture blending capabilities, see [**IDirect3DDevice9::GetDeviceCaps**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-getdevicecaps).
+To use texture blending, your application should first check if the user's hardware supports it. This information is found in the TextureCaps member of the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structure. For details about how to query the user's hardware for texture blending capabilities, see [**IDirect3DDevice9::GetDeviceCaps**](/windows/desktop/api).
 
 ## Texture Stages and the Texture Blending Cascade
 

@@ -21,7 +21,7 @@ Texture argument constants are used as values for the following members of the [
 -   D3DTSS\_COLORARG2
 -   D3DTSS\_RESULTARG
 
-Set and retrieve texture arguments by calling the [**SetTextureStageState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexturestagestate) and [**GetTextureStageState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-gettexturestagestate) methods.
+Set and retrieve texture arguments by calling the [**SetTextureStageState**](/windows/desktop/api) and [**GetTextureStageState**](/windows/desktop/api) methods.
 
 Argument flags
 
@@ -39,7 +39,7 @@ You can combine an argument flag with a modifier, but two argument flags cannot 
 | D3DTA\_SPECULAR   | The texture argument is the specular color interpolated from vertex components during Gouraud shading. If the vertex does not contain a specular color, the default color is 0xffffffff. Permissions are read-only.                                                                                                                                                                                                                                                                                        |
 | D3DTA\_TEMP       | The texture argument is a temporary register color for read or write. D3DTA\_TEMP is supported if the [D3DPMISCCAPS\_TSSARGTEMP](d3dpmisccaps.md) device capability is present. The default value for the register is (0.0, 0.0, 0.0, 0.0). Permissions are read/write.                                                                                                                                                                                                                                   |
 | D3DTA\_TEXTURE    | The texture argument is the texture color for this texture stage. Permissions are read-only.                                                                                                                                                                                                                                                                                                                                                                                                               |
-| D3DTA\_TFACTOR    | The texture argument is the texture factor set in a previous call to the [**SetRenderState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate) with the [**D3DRS\_TEXTUREFACTOR**](https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx) render-state value. Permissions are read-only.                                                                                                                                                                                                                                                       |
+| D3DTA\_TFACTOR    | The texture argument is the texture factor set in a previous call to the [**SetRenderState**](/windows/desktop/api) with the [**D3DRS\_TEXTUREFACTOR**](https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx) render-state value. Permissions are read-only.                                                                                                                                                                                                                                                       |
 
 
 

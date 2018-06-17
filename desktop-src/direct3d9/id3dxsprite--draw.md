@@ -35,9 +35,9 @@ HRESULT Draw(
 *pTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dtexture9)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/desktop/api)**
 
-Pointer to an [**IDirect3DTexture9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dtexture9) interface that represents the sprite texture.
+Pointer to an [**IDirect3DTexture9**](/windows/desktop/api) interface that represents the sprite texture.
 
 </dd> <dt>
 

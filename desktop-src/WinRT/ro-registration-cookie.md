@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # RO\_REGISTRATION\_COOKIE
 
-Represents activation factories that are registered by calling the [**RoRegisterActivationFactories**](/windows/desktop/api/roapi/nf-roapi-roregisteractivationfactories) function.
+Represents activation factories that are registered by calling the [**RoRegisterActivationFactories**](/windows/desktop/api) function.
 
 
 ```C++
@@ -22,7 +22,7 @@ typedef struct {}* RO_REGISTRATION_COOKIE;
 
 ## Remarks
 
-The [**RoRegisterActivationFactories**](/windows/desktop/api/roapi/nf-roapi-roregisteractivationfactories) function returns a **RO\_REGISTRATION\_COOKIE** when a activatable class factories are registered with the Windows Runtime. The [**RoRevokeActivationFactories**](/windows/desktop/api/roapi/nf-roapi-rorevokeactivationfactories) function uses the cookie to remove the class factories.
+The [**RoRegisterActivationFactories**](/windows/desktop/api) function returns a **RO\_REGISTRATION\_COOKIE** when a activatable class factories are registered with the Windows Runtime. The [**RoRevokeActivationFactories**](/windows/desktop/api) function uses the cookie to remove the class factories.
 
 ## Requirements
 
@@ -40,10 +40,10 @@ The [**RoRegisterActivationFactories**](/windows/desktop/api/roapi/nf-roapi-rore
 
 <dl> <dt>
 
-[**RoRegisterActivationFactories**](/windows/desktop/api/roapi/nf-roapi-roregisteractivationfactories)
+[**RoRegisterActivationFactories**](/windows/desktop/api)
 </dt> <dt>
 
-[**RoRevokeActivationFactories**](/windows/desktop/api/roapi/nf-roapi-rorevokeactivationfactories)
+[**RoRevokeActivationFactories**](/windows/desktop/api)
 </dt> </dl>
 
  

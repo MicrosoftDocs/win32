@@ -31,9 +31,9 @@ HRESULT GetDevice(
 *ppDevice* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9)\***
+Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api)\***
 
-Address of a pointer to an [**IDirect3DDevice9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9) interface, representing the Direct3D device object associated with the font object.
+Address of a pointer to an [**IDirect3DDevice9**](/windows/desktop/api) interface, representing the Direct3D device object associated with the font object.
 
 </dd> </dl>
 
@@ -46,7 +46,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 ## Remarks
 
 > [!Note]  
-> Calling this method will increase the internal reference count on the [**IDirect3DDevice9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9) interface. Be sure to call [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) when you are done using this **IDirect3DDevice9** interface or you will have a memory leak.
+> Calling this method will increase the internal reference count on the [**IDirect3DDevice9**](/windows/desktop/api) interface. Be sure to call [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) when you are done using this **IDirect3DDevice9** interface or you will have a memory leak.
 
  
 

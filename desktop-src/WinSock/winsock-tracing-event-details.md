@@ -24,7 +24,7 @@ The following Winsock events are traced for socket creation:
 -   Socket handles created by calls to the [**socket**](/windows/desktop/api/Winsock2/nf-winsock2-socket) or [**WSASocket**](/windows/desktop/api/Winsock2/nf-winsock2-wsasocketa) functions.
 -   Accepted socket handles on listening sockets.
 -   Socket handles created by calls to the [**WSAJoinLeaf**](/windows/desktop/api/Winsock2/nf-winsock2-wsajoinleaf) function.
--   Socket handles re-used by calls to the [**AcceptEx**](/windows/desktop/api/winsock/nf-mswsock-acceptex) or [**ConnectEx**](/windows/desktop/api/Mswsock/nc-mswsock-lpfn_connectex) functions.
+-   Socket handles re-used by calls to the [**AcceptEx**](/windows/desktop/api) or [**ConnectEx**](/windows/desktop/api/Mswsock/nc-mswsock-lpfn_connectex) functions.
 
 The following parameters are logged for a socket creation event:
 
@@ -155,7 +155,7 @@ The following Winsock events are traced for Winsock-initiated aborts or cancel o
 -   An abort after an internal Winsock error occurred.
 -   An abort due to a connection with errors and the application previously requested that the connection be aborted on certain circumstances. One example of this case would be an application that set SO\_LINGER with a timeout of zero and there is still unacknowledged data on the connection.
 -   An abort on a connection not fully associated with accepting endpoint.
--   An abort on a failed call to the [**accept**](/windows/desktop/api/Winsock2/nf-winsock2-accept) or [**AcceptEx**](/windows/desktop/api/winsock/nf-mswsock-acceptex) function.
+-   An abort on a failed call to the [**accept**](/windows/desktop/api/Winsock2/nf-winsock2-accept) or [**AcceptEx**](/windows/desktop/api) function.
 -   An abort due to a failed receive operation.
 -   An abort due to a Plug and Play event.
 -   An abort due to a failed flush request.
@@ -256,7 +256,7 @@ Event ID = 11
 
 Level = 4 (Information)
 
-The following Winsock events are traced for errors on [**recv**](/windows/desktop/api/winsock/nf-winsock-recv), [**WSARecv**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecv), or [**WSARecvEx**](/windows/desktop/api/winsock/nf-mswsock-wsarecvex) requests:
+The following Winsock events are traced for errors on [**recv**](/windows/desktop/api/winsock/nf-winsock-recv), [**WSARecv**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecv), or [**WSARecvEx**](/windows/desktop/api) requests:
 
 -   Errors returned on failed receive requests.
 
@@ -353,9 +353,9 @@ Event ID = 15 (IPv4), Event ID = 16 (IPv6)
 
 Level = 4 (Information)
 
-The following Winsock events are traced for an [**accept**](/windows/desktop/api/Winsock2/nf-winsock2-accept), [**AcceptEx**](/windows/desktop/api/winsock/nf-mswsock-acceptex), or [**WSAAccept**](/windows/desktop/api/Winsock2/nf-winsock2-wsaaccept) function request:
+The following Winsock events are traced for an [**accept**](/windows/desktop/api/Winsock2/nf-winsock2-accept), [**AcceptEx**](/windows/desktop/api), or [**WSAAccept**](/windows/desktop/api/Winsock2/nf-winsock2-wsaaccept) function request:
 
--   An [**accept**](/windows/desktop/api/Winsock2/nf-winsock2-accept), [**AcceptEx**](/windows/desktop/api/winsock/nf-mswsock-acceptex), or [**WSAAccept**](/windows/desktop/api/Winsock2/nf-winsock2-wsaaccept) function request on a socket handle.
+-   An [**accept**](/windows/desktop/api/Winsock2/nf-winsock2-accept), [**AcceptEx**](/windows/desktop/api), or [**WSAAccept**](/windows/desktop/api/Winsock2/nf-winsock2-wsaaccept) function request on a socket handle.
 
 The following parameters are logged for an accept event:
 
@@ -381,7 +381,7 @@ Level = 4 (Information)
 
 The following Winsock events are traced for a failed accept operation:
 
--   An [**accept**](/windows/desktop/api/Winsock2/nf-winsock2-accept), [**AcceptEx**](/windows/desktop/api/winsock/nf-mswsock-acceptex), or [**WSAAccept**](/windows/desktop/api/Winsock2/nf-winsock2-wsaaccept) request on a socket handle that fails.
+-   An [**accept**](/windows/desktop/api/Winsock2/nf-winsock2-accept), [**AcceptEx**](/windows/desktop/api), or [**WSAAccept**](/windows/desktop/api/Winsock2/nf-winsock2-wsaaccept) request on a socket handle that fails.
 
 The following parameters are logged for a failed accept event:
 
@@ -688,11 +688,11 @@ Event ID = 30
 
 Level = 5 (Verbose)
 
-The following Winsock events are traced when an application calls the [**select**](/windows/desktop/api/Winsock2/nf-winsock2-select) or [**WSAPoll**](/windows/desktop/api/Mswsock/nf-winsock2-wsapoll) function:
+The following Winsock events are traced when an application calls the [**select**](/windows/desktop/api/Winsock2/nf-winsock2-select) or [**WSAPoll**](/windows/desktop/api) function:
 
--   Application posts a [**select**](/windows/desktop/api/Winsock2/nf-winsock2-select) or [**WSAPoll**](/windows/desktop/api/Mswsock/nf-winsock2-wsapoll) request.
+-   Application posts a [**select**](/windows/desktop/api/Winsock2/nf-winsock2-select) or [**WSAPoll**](/windows/desktop/api) request.
 
-The following parameters are logged for [**select**](/windows/desktop/api/Winsock2/nf-winsock2-select) or [**WSAPoll**](/windows/desktop/api/Mswsock/nf-winsock2-wsapoll) events:
+The following parameters are logged for [**select**](/windows/desktop/api/Winsock2/nf-winsock2-select) or [**WSAPoll**](/windows/desktop/api) events:
 
 
 
@@ -700,7 +700,7 @@ The following parameters are logged for [**select**](/windows/desktop/api/Winsoc
 |------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | <span id="Process"></span><span id="process"></span><span id="PROCESS"></span>Process<br/>                 | The owning process ID.<br/>                                                                              |
 | <span id="HandleCount"></span><span id="handlecount"></span><span id="HANDLECOUNT"></span>HandleCount<br/> | The number of handles passed in by the application (only valid on the initiating event).<br/>            |
-| <span id="Timeout"></span><span id="timeout"></span><span id="TIMEOUT"></span>Timeout<br/>                 | The maximum time for the [**select**](/windows/desktop/api/Winsock2/nf-winsock2-select) or [**WSAPoll**](/windows/desktop/api/Mswsock/nf-winsock2-wsapoll) function to wait.<br/> |
+| <span id="Timeout"></span><span id="timeout"></span><span id="TIMEOUT"></span>Timeout<br/>                 | The maximum time for the [**select**](/windows/desktop/api/Winsock2/nf-winsock2-select) or [**WSAPoll**](/windows/desktop/api) function to wait.<br/> |
 
 
 
@@ -712,11 +712,11 @@ Event ID = 31
 
 Level = 5 (Verbose)
 
-The following Winsock events are traced when an application calls the [**select**](/windows/desktop/api/Winsock2/nf-winsock2-select) or [**WSAPoll**](/windows/desktop/api/Mswsock/nf-winsock2-wsapoll) function:
+The following Winsock events are traced when an application calls the [**select**](/windows/desktop/api/Winsock2/nf-winsock2-select) or [**WSAPoll**](/windows/desktop/api) function:
 
--   Winsock completes a [**select**](/windows/desktop/api/Winsock2/nf-winsock2-select) or [**WSAPoll**](/windows/desktop/api/Mswsock/nf-winsock2-wsapoll) call.
+-   Winsock completes a [**select**](/windows/desktop/api/Winsock2/nf-winsock2-select) or [**WSAPoll**](/windows/desktop/api) call.
 
-The following parameters are logged when a [**select**](/windows/desktop/api/Winsock2/nf-winsock2-select) or [**WSAPoll**](/windows/desktop/api/Mswsock/nf-winsock2-wsapoll) operation completes:
+The following parameters are logged when a [**select**](/windows/desktop/api/Winsock2/nf-winsock2-select) or [**WSAPoll**](/windows/desktop/api) operation completes:
 
 
 
@@ -724,7 +724,7 @@ The following parameters are logged when a [**select**](/windows/desktop/api/Win
 |------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | <span id="Process"></span><span id="process"></span><span id="PROCESS"></span>Process<br/>     | The kernel EPROCESS structure address for the process.<br/>                                              |
 | <span id="Endpoint"></span><span id="endpoint"></span><span id="ENDPOINT"></span>Endpoint<br/> | The Winsock kernel socket address used as a unique identifier for a socket.<br/>                         |
-| <span id="Error"></span><span id="error"></span><span id="ERROR"></span>Error<br/>             | The error code returned for the [**select**](/windows/desktop/api/Winsock2/nf-winsock2-select) or [**WSAPoll**](/windows/desktop/api/Mswsock/nf-winsock2-wsapoll) operation.<br/> |
+| <span id="Error"></span><span id="error"></span><span id="ERROR"></span>Error<br/>             | The error code returned for the [**select**](/windows/desktop/api/Winsock2/nf-winsock2-select) or [**WSAPoll**](/windows/desktop/api) operation.<br/> |
 
 
 

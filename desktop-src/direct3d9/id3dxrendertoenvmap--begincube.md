@@ -31,9 +31,9 @@ HRESULT BeginCube(
 *pCubeTex* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DCUBETEXTURE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dcubetexture9)**
+Type: **[**LPDIRECT3DCUBETEXTURE9**](/windows/desktop/api)**
 
-Pointer to an [**IDirect3DCubeTexture9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dcubetexture9) interface that represents the cube texture to which to render.
+Pointer to an [**IDirect3DCubeTexture9**](/windows/desktop/api) interface that represents the cube texture to which to render.
 
 </dd> </dl>
 

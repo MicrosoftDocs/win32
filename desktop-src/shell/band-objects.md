@@ -479,15 +479,15 @@ There are two interfaces that are not required, but that may be useful to implem
 
 The [**IInputObject**](https://msdn.microsoft.com/en-us/library/Bb761804(v=VS.85).aspx) interface must be implemented if a band object accepts user input. Internet Explorer implements [**IInputObjectSite**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobjectsite) and uses **IInputObject** to maintain proper user input focus when it has more than one contained window. There are three methods that need to be implemented by an Explorer Bar.
 
--   [**IInputObject::UIActivateIO**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinputobject-uiactivateio)
--   [**IInputObject::HasFocusIO**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinputobject-hasfocusio)
--   [**IInputObject::TranslateAcceleratorIO**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinputobject-translateacceleratorio)
+-   [**IInputObject::UIActivateIO**](/windows/desktop/api)
+-   [**IInputObject::HasFocusIO**](/windows/desktop/api)
+-   [**IInputObject::TranslateAcceleratorIO**](/windows/desktop/api)
 
-Internet Explorer calls [**UIActivateIO**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinputobject-uiactivateio) to inform the Explorer Bar that it is being activated or deactivated. When activated, the Explorer Bar sample calls [**SetFocus**](https://msdn.microsoft.com/en-us/library/ms646312(v=VS.85).aspx) to set the focus to its window.
+Internet Explorer calls [**UIActivateIO**](/windows/desktop/api) to inform the Explorer Bar that it is being activated or deactivated. When activated, the Explorer Bar sample calls [**SetFocus**](https://msdn.microsoft.com/en-us/library/ms646312(v=VS.85).aspx) to set the focus to its window.
 
-Internet Explorer calls [**HasFocusIO**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinputobject-hasfocusio) when it is attempting to determine which window has focus. If the Explorer Bar's window or one of its descendants has focus, **HasFocusIO** should return S\_OK. If not, it should return S\_FALSE.
+Internet Explorer calls [**HasFocusIO**](/windows/desktop/api) when it is attempting to determine which window has focus. If the Explorer Bar's window or one of its descendants has focus, **HasFocusIO** should return S\_OK. If not, it should return S\_FALSE.
 
-[**TranslateAcceleratorIO**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinputobject-translateacceleratorio) allows the object to process keyboard accelerators. The Explorer Bar sample does not implement this method, so it returns S\_FALSE.
+[**TranslateAcceleratorIO**](/windows/desktop/api) allows the object to process keyboard accelerators. The Explorer Bar sample does not implement this method, so it returns S\_FALSE.
 
 The sample bar's implementation of [**IInputObjectSite**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobjectsite) is as follows.
 

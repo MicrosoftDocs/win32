@@ -34,7 +34,7 @@ HRESULT LightEnable(
 
 Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
-The zero-based index of the light. This is the same index in [**IDirect3DDevice9::SetLight**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setlight).
+The zero-based index of the light. This is the same index in [**IDirect3DDevice9::SetLight**](/windows/desktop/api).
 
 </dd> <dt>
 
@@ -54,7 +54,7 @@ Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.1
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 
 -   The effect will fail during [**ID3DXEffect::BeginPass**](id3dxeffect--beginpass.md).
--   The dynamic effect state call (such as [**IDirect3DDevice9::LightEnable**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-lightenable)) will fail.
+-   The dynamic effect state call (such as [**IDirect3DDevice9::LightEnable**](/windows/desktop/api)) will fail.
 
 ## Requirements
 

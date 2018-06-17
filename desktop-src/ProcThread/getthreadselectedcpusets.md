@@ -34,7 +34,7 @@ BOOL WINAPI GetThreadSelectedCpuSets(
 *Thread* \[in\]
 </dt> <dd>
 
-Specifies the thread for which to query the selected CPU Sets. This handle must have the THREAD\_QUERY\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentThread**](/windows/desktop/api/WinBase/nf-processthreadsapi-getcurrentthread) can also be specified here.
+Specifies the thread for which to query the selected CPU Sets. This handle must have the THREAD\_QUERY\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentThread**](/windows/desktop/api) can also be specified here.
 
 </dd> <dt>
 

@@ -32,9 +32,9 @@ HRESULT D3DXCreateSprite(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api)**
 
-Pointer to an [**IDirect3DDevice9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9) interface, the device to be associated with the sprite.
+Pointer to an [**IDirect3DDevice9**](/windows/desktop/api) interface, the device to be associated with the sprite.
 
 </dd> <dt>
 

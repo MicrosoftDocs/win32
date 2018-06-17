@@ -30,7 +30,7 @@ Implements the Microsoft Windows Store App Remote Desktop Client Control - versi
 
 This class implements the following interfaces.
 
--   [**IRemoteDesktopClient**](/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient)
+-   [**IRemoteDesktopClient**](/windows/desktop/api)
 -   [**IRemoteDesktopClientEvents**](iremotedesktopclientevents.md)
 
 **RemoteDesktopClient** has these types of members:
@@ -46,11 +46,11 @@ The **RemoteDesktopClient** class has these methods.
 
 | Method                                                                                      | Description                                                                                                                                                        |
 |:--------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**attachEvent**](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-attachevent)                                     | Attaches an event handler to an event.<br/>                                                                                                                  |
-| [**Connect**](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-connect)                                             | Initiates a connection by using the properties currently set on the Remote Desktop Protocol (RDP) app container client control.<br/>                         |
-| [**DeleteSavedCredentials**](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-deletesavedcredentials)               | Deletes saved credentials for the specified remote computer.<br/>                                                                                            |
-| [**detachEvent**](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-detachevent)                                     | Detaches an event handler from an event.<br/>                                                                                                                |
-| [**Disconnect**](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-disconnect)                                       | Disconnects the active connection.<br/>                                                                                                                      |
+| [**attachEvent**](/windows/desktop/api)                                     | Attaches an event handler to an event.<br/>                                                                                                                  |
+| [**Connect**](/windows/desktop/api)                                             | Initiates a connection by using the properties currently set on the Remote Desktop Protocol (RDP) app container client control.<br/>                         |
+| [**DeleteSavedCredentials**](/windows/desktop/api)               | Deletes saved credentials for the specified remote computer.<br/>                                                                                            |
+| [**detachEvent**](/windows/desktop/api)                                     | Detaches an event handler from an event.<br/>                                                                                                                |
+| [**Disconnect**](/windows/desktop/api)                                       | Disconnects the active connection.<br/>                                                                                                                      |
 | [**OnAdminMessageReceived**](iremotedesktopclientevents-onadminmessagereceived.md)         | Called when the client control receives an administrative message.<br/>                                                                                      |
 | [**OnAutoReconnected**](iremotedesktopclientevents-onautoreconnected.md)                   | Called when the client control has automatically reconnected to a remote session.<br/>                                                                       |
 | [**OnAutoReconnecting**](iremotedesktopclientevents-onautoreconnecting.md)                 | Called when the client control attempts to automatically reestablish a connection to a remote session.<br/>                                                  |
@@ -64,9 +64,9 @@ The **RemoteDesktopClient** class has these methods.
 | [**OnNetworkStatusChanged**](iremotedesktopclientevents-onnetworkstatuschanged.md)         | Called when the network status has changed.<br/>                                                                                                             |
 | [**OnRemoteDesktopSizeChanged**](iremotedesktopclientevents-onremotedesktopsizechanged.md) | Called when the remote desktop size has changed.<br/>                                                                                                        |
 | [**OnStatusChanged**](iremotedesktopclientevents-onstatuschanged.md)                       | Called when the client control has updated its status.<br/>                                                                                                  |
-| [**OnTouchPointerCursorMoved**](iremotedesktopclientevents-ontouchpointercursormoved.md)   | Called when the touch pointer cursor has moved and the [**EventsEnabled**](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclienttouchpointer-get_eventsenabled) property is set to true.<br/> |
-| [**Reconnect**](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-reconnect)                                         | Initiates an automatic reconnection of the Remote Desktop Protocol (RDP) app container client control to fit the session to the new width and height.<br/>   |
-| [**UpdateSessionDisplaySettings**](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-updatesessiondisplaysettings)   | Updates the width and height settings for the Remote Desktop Protocol (RDP) app container client control.<br/>                                               |
+| [**OnTouchPointerCursorMoved**](iremotedesktopclientevents-ontouchpointercursormoved.md)   | Called when the touch pointer cursor has moved and the [**EventsEnabled**](/windows/desktop/api) property is set to true.<br/> |
+| [**Reconnect**](/windows/desktop/api)                                         | Initiates an automatic reconnection of the Remote Desktop Protocol (RDP) app container client control to fit the session to the new width and height.<br/>   |
+| [**UpdateSessionDisplaySettings**](/windows/desktop/api)   | Updates the width and height settings for the Remote Desktop Protocol (RDP) app container client control.<br/>                                               |
 
 
 
@@ -80,9 +80,9 @@ The **RemoteDesktopClient** class has these properties.
 
 | Property                                                             | Access type          | Description                                                                                                                                                            |
 |:---------------------------------------------------------------------|:---------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Actions**](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-get_actions)<br/>           | Read-only<br/> | Retrieves the actions object for the Remote Desktop Protocol (RDP) app container client.<br/>                                                                    |
+| [**Actions**](/windows/desktop/api)<br/>           | Read-only<br/> | Retrieves the actions object for the Remote Desktop Protocol (RDP) app container client.<br/>                                                                    |
 | [**Settings**](iremotedesktopclient-settings.md)<br/>         | Read-only<br/> | Retrieves the settings object for the Remote Desktop Protocol (RDP) app container client.<br/>                                                                   |
-| [**TouchPointer**](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-get_touchpointer)<br/> | Read-only<br/> | Contains the [**RemoteDesktopClientTouchPointer**](/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclienttouchpointer) object for the Remote Desktop Protocol (RDP) app container client.<br/> |
+| [**TouchPointer**](/windows/desktop/api)<br/> | Read-only<br/> | Contains the [**RemoteDesktopClientTouchPointer**](/windows/desktop/api) object for the Remote Desktop Protocol (RDP) app container client.<br/> |
 
 
 

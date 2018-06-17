@@ -35,7 +35,7 @@ HRESULT SetTextureStageState(
 
 Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
-The stage that the texture is assigned to. This is the index value in [**IDirect3DDevice9::SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture) or [**IDirect3DDevice9::SetTextureStageState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexturestagestate).
+The stage that the texture is assigned to. This is the index value in [**IDirect3DDevice9::SetTexture**](/windows/desktop/api) or [**IDirect3DDevice9::SetTextureStageState**](/windows/desktop/api).
 
 </dd> <dt>
 
@@ -64,7 +64,7 @@ Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.1
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 
 -   The effect will fail during [**ID3DXEffect::BeginPass**](id3dxeffect--beginpass.md).
--   The dynamic effect state call (such as [**IDirect3DDevice9::SetTextureStageState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexturestagestate)) will fail.
+-   The dynamic effect state call (such as [**IDirect3DDevice9::SetTextureStageState**](/windows/desktop/api)) will fail.
 
 ## Requirements
 

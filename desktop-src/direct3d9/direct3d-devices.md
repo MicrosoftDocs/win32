@@ -44,7 +44,7 @@ Because the behavior of the software and reference devices provided with Direct3
 
 ## Behaviors
 
-Direct3D enables you to specify the behavior of a device, as well the device's type. The [**IDirect3D9::CreateDevice**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-createdevice) method enables a combination of one or more of the behavior flags to control the global behaviors of the Direct3D device. These behaviors specify what is and is not maintained in the run-time portion of Direct3D, and the device types specify which driver to use. Although some combinations of device behaviors are not valid, it is possible to use all device behaviors with all device types. For example, it is valid to specify D3DDEVTYPE\_SW on a device created with D3DCREATE\_PUREDEVICE.
+Direct3D enables you to specify the behavior of a device, as well the device's type. The [**IDirect3D9::CreateDevice**](/windows/desktop/api) method enables a combination of one or more of the behavior flags to control the global behaviors of the Direct3D device. These behaviors specify what is and is not maintained in the run-time portion of Direct3D, and the device types specify which driver to use. Although some combinations of device behaviors are not valid, it is possible to use all device behaviors with all device types. For example, it is valid to specify D3DDEVTYPE\_SW on a device created with D3DCREATE\_PUREDEVICE.
 
 ## Related topics
 

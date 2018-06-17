@@ -70,7 +70,7 @@ HRESULT get_Enabled(
 
 <dl> <dt>
 
-[**IRemoteDesktopClientTouchPointer**](/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclienttouchpointer)
+[**IRemoteDesktopClientTouchPointer**](/windows/desktop/api)
 </dt> </dl>
 
  

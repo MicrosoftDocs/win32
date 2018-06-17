@@ -80,10 +80,10 @@ Array of 256 WORD element that describes the blue gamma ramp.
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetGammaRamp**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-getgammaramp)
+[**GetGammaRamp**](/windows/desktop/api)
 </dt> <dt>
 
-[**SetGammaRamp**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setgammaramp)
+[**SetGammaRamp**](/windows/desktop/api)
 </dt> </dl>
 
  

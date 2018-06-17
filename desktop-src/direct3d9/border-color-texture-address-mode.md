@@ -17,7 +17,7 @@ In the following illustration, the application specifies that the texture be app
 
 ![illustration of a texture and a texture with a red border](images/border.png)
 
-Applications set the border color by calling [**IDirect3DDevice9::SetSamplerState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setsamplerstate). Set the first parameter for the call to the desired texture stage identifier, the second parameter to the D3DSAMP\_BORDERCOLOR stage state value, and the third parameter to the new RGBA border color.
+Applications set the border color by calling [**IDirect3DDevice9::SetSamplerState**](/windows/desktop/api). Set the first parameter for the call to the desired texture stage identifier, the second parameter to the D3DSAMP\_BORDERCOLOR stage state value, and the third parameter to the new RGBA border color.
 
 ## Related topics
 

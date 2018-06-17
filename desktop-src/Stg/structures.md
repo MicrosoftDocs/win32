@@ -15,12 +15,12 @@ ms.date: 05/31/2018
 
 Structures are primarily collections of data elements or members that facilitate an organizational scheme for interpreting data or performing operations on it. The Structured Storage structures are described in the following sections:
 
--   [**PROPSPEC**](/windows/desktop/api/propidlbase/ns-propidl-tagpropspec)
--   [**PROPVARIANT**](/windows/desktop/api/propidlbase/ns-propidl-tagpropvariant)
+-   [**PROPSPEC**](/windows/desktop/api)
+-   [**PROPVARIANT**](/windows/desktop/api)
 -   [**RemSNB**](/windows/desktop/api/Objidl/ns-objidl-tagremsnb)
 -   [**SNB**](snb.md)
--   [**STATPROPSETSTG**](/windows/desktop/api/propidlbase/ns-propidl-tagstatpropsetstg)
--   [**STATPROPSTG**](/windows/desktop/api/propidlbase/ns-propidl-tagstatpropstg)
+-   [**STATPROPSETSTG**](/windows/desktop/api)
+-   [**STATPROPSTG**](/windows/desktop/api)
 -   [**STATSTG**](/windows/desktop/api/Objidl/ns-objidl-tagstatstg)
 -   [**STGOPTIONS**](/windows/desktop/api/coml2api/ns-coml2api-tagstgoptions)
 -   [**StorageLayout**](/windows/desktop/api/Objidl/ns-objidl-tagstoragelayout)

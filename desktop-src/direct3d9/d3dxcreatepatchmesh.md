@@ -82,9 +82,9 @@ Array of [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) elements, describing the 
 *pD3DDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api)**
 
-Pointer the device that creates the patch mesh. See [**IDirect3DDevice9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9).
+Pointer the device that creates the patch mesh. See [**IDirect3DDevice9**](/windows/desktop/api).
 
 </dd> <dt>
 

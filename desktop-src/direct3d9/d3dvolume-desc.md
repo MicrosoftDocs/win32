@@ -128,10 +128,10 @@ Depth of the volume, in pixels.
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetDesc**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dvolume9-getdesc)
+[**GetDesc**](/windows/desktop/api)
 </dt> <dt>
 
-[**GetLevelDesc**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dvolumetexture9-getleveldesc)
+[**GetLevelDesc**](/windows/desktop/api)
 </dt> </dl>
 
  

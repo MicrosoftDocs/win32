@@ -15,9 +15,9 @@ Windows Sockets 1.1 defined a number of routines that were used for IPv4 name re
 
 [**gethostname**](/windows/desktop/api/winsock/nf-winsock-gethostname)
 
-[**gethostbyaddr**](/windows/desktop/api/wsipv6ok/nf-winsock-gethostbyaddr)
+[**gethostbyaddr**](/windows/desktop/api)
 
-[**gethostbyname**](/windows/desktop/api/wsipv6ok/nf-winsock-gethostbyname)
+[**gethostbyname**](/windows/desktop/api)
 
 [**getprotobyname**](/windows/desktop/api/winsock/nf-winsock-getprotobyname)
 
@@ -29,9 +29,9 @@ Windows Sockets 1.1 defined a number of routines that were used for IPv4 name re
 
 Asynchronous versions of these functions were also defined.
 
-[**WSAAsyncGetHostByAddr**](/windows/desktop/api/wsipv6ok/nf-winsock-wsaasyncgethostbyaddr)
+[**WSAAsyncGetHostByAddr**](/windows/desktop/api)
 
-[**WSAAsyncGetHostByName**](/windows/desktop/api/wsipv6ok/nf-winsock-wsaasyncgethostbyname)
+[**WSAAsyncGetHostByName**](/windows/desktop/api)
 
 [**WSAAsyncGetProtoByName**](/windows/desktop/api/winsock/nf-winsock-wsaasyncgetprotobyname)
 

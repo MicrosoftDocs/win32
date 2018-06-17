@@ -46,9 +46,9 @@ A pointer to an input mesh (see [**ID3DXMesh**](id3dxmesh.md)) which contains th
 *pTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dtexture9)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/desktop/api)**
 
-A pointer to the texture (see [**IDirect3DTexture9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dtexture9)) that is mapped to the mesh.
+A pointer to the texture (see [**IDirect3DTexture9**](/windows/desktop/api)) that is mapped to the mesh.
 
 </dd> <dt>
 

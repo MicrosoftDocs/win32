@@ -41,9 +41,9 @@ Unique identifier. See [Handles (Direct3D 9)](handles.md).
 *ppPShader* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DPIXELSHADER9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dpixelshader9)\***
+Type: **[**LPDIRECT3DPIXELSHADER9**](/windows/desktop/api)\***
 
-Returns a pixel shader object. See [**IDirect3DPixelShader9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dpixelshader9) object.
+Returns a pixel shader object. See [**IDirect3DPixelShader9**](/windows/desktop/api) object.
 
 </dd> </dl>
 

@@ -31,9 +31,9 @@ HRESULT GetDevice(
 *ppDevice* \[out, retval\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9)\***
+Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api)\***
 
-Address of a pointer to an [**IDirect3DDevice9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9) interface, representing the Direct3D device object associated with the line object.
+Address of a pointer to an [**IDirect3DDevice9**](/windows/desktop/api) interface, representing the Direct3D device object associated with the line object.
 
 </dd> </dl>
 

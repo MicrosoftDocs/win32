@@ -70,7 +70,7 @@ If InVBlank is **TRUE**, then this value is set to zero and can be ignored.
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetRasterStatus**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-getrasterstatus)
+[**GetRasterStatus**](/windows/desktop/api)
 </dt> </dl>
 
  

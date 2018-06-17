@@ -33,7 +33,7 @@ BOOL WINAPI SetThreadSelectedCpuSets(
 *Thread* \[in\]
 </dt> <dd>
 
-Specifies the thread on which to set the CPU Set assignment. This handle must have the THREAD\_SET\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentThread**](/windows/desktop/api/WinBase/nf-processthreadsapi-getcurrentthread) can also be used.
+Specifies the thread on which to set the CPU Set assignment. This handle must have the THREAD\_SET\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentThread**](/windows/desktop/api) can also be used.
 
 </dd> <dt>
 

@@ -120,7 +120,7 @@ Size of the index buffer, in bytes.
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetDesc**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dindexbuffer9-getdesc)
+[**GetDesc**](/windows/desktop/api)
 </dt> <dt>
 
 [Index Buffers (Direct3D 9)](index-buffers.md)

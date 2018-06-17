@@ -202,10 +202,10 @@ Angle, in radians, defining the outer edge of the spotlight's outer cone. Points
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetLight**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-getlight)
+[**GetLight**](/windows/desktop/api)
 </dt> <dt>
 
-[**SetLight**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setlight)
+[**SetLight**](/windows/desktop/api)
 </dt> </dl>
 
  

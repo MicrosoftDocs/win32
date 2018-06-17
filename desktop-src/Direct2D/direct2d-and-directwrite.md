@@ -136,7 +136,7 @@ By creating an [**IDWriteTextLayout**](https://msdn.microsoft.com/library/window
 
 ### DrawGlyphRun
 
-Finally, the application can implement the [**IDWriteTextRenderer**](https://msdn.microsoft.com/library/windows/desktop/dd371523) interface itself and call [**DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd371893(v=VS.85).aspx) and [**FillRectangle**](/windows/desktop/api/d2d1_1/nf-d2d1-fillrectangle) itself, or any other rendering API. All the existing interaction with the Text Layout object will remain unchanged.
+Finally, the application can implement the [**IDWriteTextRenderer**](https://msdn.microsoft.com/library/windows/desktop/dd371523) interface itself and call [**DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd371893(v=VS.85).aspx) and [**FillRectangle**](/windows/desktop/api) itself, or any other rendering API. All the existing interaction with the Text Layout object will remain unchanged.
 
 For an example of how to implement a custom text renderer see the [Render Using a Custom Text Renderer](https://msdn.microsoft.com/library/windows/desktop/dd941787) topic.
 

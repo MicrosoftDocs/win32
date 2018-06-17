@@ -92,9 +92,9 @@ Optional pointer to a vertex declaration (see [**D3DVERTEXELEMENT9**](d3dvertexe
 *pD3DDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api)**
 
-Pointer to a [**IDirect3DDevice9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9) device that is used to create the new mesh.
+Pointer to a [**IDirect3DDevice9**](/windows/desktop/api) device that is used to create the new mesh.
 
 </dd> <dt>
 

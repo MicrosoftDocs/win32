@@ -65,9 +65,9 @@ Combination of one or more flags from the [**D3DXMESH**](https://msdn.microsoft.
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api)**
 
-Pointer to an [**IDirect3DDevice9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9) interface, the device object associated with the mesh.
+Pointer to an [**IDirect3DDevice9**](/windows/desktop/api) interface, the device object associated with the mesh.
 
 </dd> <dt>
 

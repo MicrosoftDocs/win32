@@ -31,9 +31,9 @@ HRESULT GetVertexBuffer(
 *ppVB* \[out, retval\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVERTEXBUFFER9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dvertexbuffer9)\***
+Type: **[**LPDIRECT3DVERTEXBUFFER9**](/windows/desktop/api)\***
 
-Address of a pointer to an [**IDirect3DVertexBuffer9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dvertexbuffer9) interface, representing the vertex buffer object associated with the mesh.
+Address of a pointer to an [**IDirect3DVertexBuffer9**](/windows/desktop/api) interface, representing the vertex buffer object associated with the mesh.
 
 </dd> </dl>
 

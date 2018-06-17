@@ -58,7 +58,7 @@ The reference device is installed by the Windows SDK 8.0 or later and is intende
 <span id="D3DDEVTYPE_SW"></span><span id="d3ddevtype_sw"></span>**D3DDEVTYPE\_SW**
 </dt> <dd>
 
-A pluggable software device that has been registered with [**IDirect3D9::RegisterSoftwareDevice**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-registersoftwaredevice).
+A pluggable software device that has been registered with [**IDirect3D9::RegisterSoftwareDevice**](/windows/desktop/api).
 
 </dd> <dt>
 
@@ -71,7 +71,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## Remarks
 
-All methods of the [**IDirect3D9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3d9) interface that take a **D3DDEVTYPE** device type will fail if D3DDEVTYPE\_NULLREF is specified. To use these methods, substitute D3DDEVTYPE\_REF in the method call.
+All methods of the [**IDirect3D9**](/windows/desktop/api) interface that take a **D3DDEVTYPE** device type will fail if D3DDEVTYPE\_NULLREF is specified. To use these methods, substitute D3DDEVTYPE\_REF in the method call.
 
 A D3DDEVTYPE\_REF device should be created in D3DPOOL\_SCRATCH memory, unless vertex and index buffers are required. To support vertex and index buffers, create the device in D3DPOOL\_SYSTEMMEM memory.
 
@@ -94,19 +94,19 @@ If D3dref9.dll is installed, Direct3D will use the reference rasterizer to creat
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3D9::CheckDeviceFormat**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-checkdeviceformat)
+[**IDirect3D9::CheckDeviceFormat**](/windows/desktop/api)
 </dt> <dt>
 
-[**IDirect3D9::CheckDeviceMultiSampleType**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-checkdevicemultisampletype)
+[**IDirect3D9::CheckDeviceMultiSampleType**](/windows/desktop/api)
 </dt> <dt>
 
-[**IDirect3D9::CheckDeviceType**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-checkdevicetype)
+[**IDirect3D9::CheckDeviceType**](/windows/desktop/api)
 </dt> <dt>
 
-[**IDirect3D9::CreateDevice**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-createdevice)
+[**IDirect3D9::CreateDevice**](/windows/desktop/api)
 </dt> <dt>
 
-[**IDirect3D9::GetDeviceCaps**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-getdevicecaps)
+[**IDirect3D9::GetDeviceCaps**](/windows/desktop/api)
 </dt> <dt>
 
 [**D3DDEVICE\_CREATION\_PARAMETERS**](d3ddevice-creation-parameters.md)

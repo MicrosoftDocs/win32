@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 Your application manipulates resources in order to render a scene. First, an application needs to create a texture resource with one of the following methods:
 
--   [**IDirect3DDevice9::CreateCubeTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createcubetexture)
--   [**IDirect3DDevice9::CreateTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createtexture)
--   [**IDirect3DDevice9::CreateVolumeTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createvolumetexture)
+-   [**IDirect3DDevice9::CreateCubeTexture**](/windows/desktop/api)
+-   [**IDirect3DDevice9::CreateTexture**](/windows/desktop/api)
+-   [**IDirect3DDevice9::CreateVolumeTexture**](/windows/desktop/api)
 
 A texture resource can instead be created with one of the D3DXCreatexxx texturing functions.
 
@@ -23,19 +23,19 @@ The texture objects returned by the texture creation methods are containers for 
 
 The application gains access to the contained surfaces, for the purpose of loading artwork, by calling the following methods. For details, see [Locking Resources (Direct3D 9)](locking-resources.md).
 
--   [**IDirect3DCubeTexture9::LockRect**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dcubetexture9-lockrect)
--   [**IDirect3DTexture9::LockRect**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dtexture9-lockrect)
--   [**IDirect3DVolumeTexture9::LockBox**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dvolumetexture9-lockbox)
+-   [**IDirect3DCubeTexture9::LockRect**](/windows/desktop/api)
+-   [**IDirect3DTexture9::LockRect**](/windows/desktop/api)
+-   [**IDirect3DVolumeTexture9::LockBox**](/windows/desktop/api)
 
 The lock methods take arguments denoting the contained surface - for example, the mipmap sub-level or cube face of the texture - and return pointers to the pixels. The typical application never uses a surface object directly.
 
-Create geometry-oriented resources by calling [**IDirect3DDevice9::CreateIndexBuffer**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createindexbuffer) or [**IDirect3DDevice9::CreateVertexBuffer**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createvertexbuffer).
+Create geometry-oriented resources by calling [**IDirect3DDevice9::CreateIndexBuffer**](/windows/desktop/api) or [**IDirect3DDevice9::CreateVertexBuffer**](/windows/desktop/api).
 
-Lock and fill the buffer resources by calling either [**IDirect3DIndexBuffer9::Lock**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dindexbuffer9-lock) or [**IDirect3DVertexBuffer9::Lock**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dvertexbuffer9-lock), depending upon the resource.
+Lock and fill the buffer resources by calling either [**IDirect3DIndexBuffer9::Lock**](/windows/desktop/api) or [**IDirect3DVertexBuffer9::Lock**](/windows/desktop/api), depending upon the resource.
 
-For managed texture resources, the resource creation process ends here. For non-managed texture resources, an application promotes system memory resources to device-accessible resources (for hardware acceleration) by calling [**IDirect3DDevice9::UpdateTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-updatetexture).
+For managed texture resources, the resource creation process ends here. For non-managed texture resources, an application promotes system memory resources to device-accessible resources (for hardware acceleration) by calling [**IDirect3DDevice9::UpdateTexture**](/windows/desktop/api).
 
-To present images rendered from resources, the application also needs color and depth-stencil buffers. For typical applications, the color buffer is owned by the device's swap chain, which is a collection of back-buffer surfaces, and is implicitly created with the device. Depth-stencil surfaces can be implicitly created, or explicitly created by using the [**IDirect3DDevice9::CreateDepthStencilSurface**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createdepthstencilsurface) method. The application associates a device and its depth and color buffer with a call to [**IDirect3DDevice9::SetRenderTarget**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrendertarget) or [**IDirect3DDevice9::SetDepthStencilSurface**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setdepthstencilsurface).
+To present images rendered from resources, the application also needs color and depth-stencil buffers. For typical applications, the color buffer is owned by the device's swap chain, which is a collection of back-buffer surfaces, and is implicitly created with the device. Depth-stencil surfaces can be implicitly created, or explicitly created by using the [**IDirect3DDevice9::CreateDepthStencilSurface**](/windows/desktop/api) method. The application associates a device and its depth and color buffer with a call to [**IDirect3DDevice9::SetRenderTarget**](/windows/desktop/api) or [**IDirect3DDevice9::SetDepthStencilSurface**](/windows/desktop/api).
 
 For details on presenting the final image, see [Presenting a Scene (Direct3D 9)](presenting-a-scene.md).
 

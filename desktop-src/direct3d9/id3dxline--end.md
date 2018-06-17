@@ -34,7 +34,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 ## Remarks
 
-**ID3DXLine::End** cannot be used as a substitute for either [**IDirect3DDevice9::EndScene**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-endscene) or [**ID3DXRenderToSurface::EndScene**](id3dxrendertosurface--endscene.md).
+**ID3DXLine::End** cannot be used as a substitute for either [**IDirect3DDevice9::EndScene**](/windows/desktop/api) or [**ID3DXRenderToSurface::EndScene**](id3dxrendertosurface--endscene.md).
 
 ## Requirements
 

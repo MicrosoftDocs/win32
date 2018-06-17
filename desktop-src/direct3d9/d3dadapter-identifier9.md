@@ -197,7 +197,7 @@ The following values are also used.
 
 Differences between Direct3D 9 and Direct3D 9Ex:
 
-For Direct3D9Ex running on Windows Vista, Windows Server 2008, Windows 7, and Windows Server 2008 R2 (or more current operating system), [**IDirect3D9::GetAdapterIdentifier**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-getadapteridentifier) returns 1 for the WHQL level without checking the status of the driver.
+For Direct3D9Ex running on Windows Vista, Windows Server 2008, Windows 7, and Windows Server 2008 R2 (or more current operating system), [**IDirect3D9::GetAdapterIdentifier**](/windows/desktop/api) returns 1 for the WHQL level without checking the status of the driver.
 
 </dd> </dl>
 

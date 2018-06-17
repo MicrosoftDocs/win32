@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Using Indexed Vertex Blending (Direct3D 9)
 
-Transform states 256-511 are reserved to store up to 256 matrices that can be indexed using 8-bit indices. Use the macro [**D3DTS\_WORLDMATRIX**](d3dts-worldmatrix.md) to map indices 0-255 to the corresponding transform states. The following code example shows how to use the [**IDirect3DDevice9::SetTransform**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settransform) method to set the matrix at transform state number 256 to an identity matrix.
+Transform states 256-511 are reserved to store up to 256 matrices that can be indexed using 8-bit indices. Use the macro [**D3DTS\_WORLDMATRIX**](d3dts-worldmatrix.md) to map indices 0-255 to the corresponding transform states. The following code example shows how to use the [**IDirect3DDevice9::SetTransform**](/windows/desktop/api) method to set the matrix at transform state number 256 to an identity matrix.
 
 
 ```
@@ -22,7 +22,7 @@ m_pD3DDevice->SetTransform( D3DTS_WORLDMATRIX(0), &amp;matBlend );
 
 
 
-To enable or disable indexed vertex blending, set the D3DRS\_INDEXEDVERTEXBLENDENABLE render state to **TRUE**. When the render state is enabled ,you must pass matrix indices as packed DWORDs with every vertex. When this render state is disabled and vertex blending is enabled, it is equivalent to having the matrix indices 0, 1, 2, and 3 in every vertex. The code example below uses the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate) method to enable indexed vertex blending.
+To enable or disable indexed vertex blending, set the D3DRS\_INDEXEDVERTEXBLENDENABLE render state to **TRUE**. When the render state is enabled ,you must pass matrix indices as packed DWORDs with every vertex. When this render state is disabled and vertex blending is enabled, it is equivalent to having the matrix indices 0, 1, 2, and 3 in every vertex. The code example below uses the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api) method to enable indexed vertex blending.
 
 
 ```
@@ -31,7 +31,7 @@ m_pD3DDevice->SetRenderState( D3DRS_INDEXEDVERTEXBLENDENABLE, TRUE );
 
 
 
-To enable or disable vertex blending, set the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate) render state to a value other than D3DRS\_DISABLE from the [**D3DVERTEXBLENDFLAGS**](https://msdn.microsoft.com/en-us/library/Bb172628(v=VS.85).aspx) enumerated type. If this render state is not set to D3DRS\_DISABLE, then you must pass the required number of weights for each vertex. The following code example uses **IDirect3DDevice9::SetRenderState** to enable vertex blending with three weights for each vertex.
+To enable or disable vertex blending, set the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api) render state to a value other than D3DRS\_DISABLE from the [**D3DVERTEXBLENDFLAGS**](https://msdn.microsoft.com/en-us/library/Bb172628(v=VS.85).aspx) enumerated type. If this render state is not set to D3DRS\_DISABLE, then you must pass the required number of weights for each vertex. The following code example uses **IDirect3DDevice9::SetRenderState** to enable vertex blending with three weights for each vertex.
 
 
 ```
@@ -42,7 +42,7 @@ m_pD3DDevice->SetRenderState( D3DRS_VERTEXBLEND, D3DVBF_3WEIGHTS );
 
 ## Determining Indexed Vertex Blending Support
 
-To determine the maximum size for the indexed vertex blending matrix, check the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structure's MaxVertexBlendMatrixIndex member. The code example below uses the [**IDirect3DDevice9::GetDeviceCaps**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-getdevicecaps) method to retrieve this size.
+To determine the maximum size for the indexed vertex blending matrix, check the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structure's MaxVertexBlendMatrixIndex member. The code example below uses the [**IDirect3DDevice9::GetDeviceCaps**](/windows/desktop/api) method to retrieve this size.
 
 
 ```

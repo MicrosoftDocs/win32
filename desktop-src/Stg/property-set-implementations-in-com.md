@@ -38,7 +38,7 @@ COM provides implementations of the property set interfaces for various objects,
 
     There are several issues to consider in providing an implementation of the [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) interface. Please refer to these *Implementation Considerations* in the COM Reference section.
 
-In addition, there are four helper functions, designed to aid in dealing with properties that have been read from a property set into memory (into a [**PROPVARIANT**](/windows/desktop/api/propidlbase/ns-propidl-tagpropvariant) structure):
+In addition, there are four helper functions, designed to aid in dealing with properties that have been read from a property set into memory (into a [**PROPVARIANT**](/windows/desktop/api) structure):
 
 -   [**PropVariantInit**](/windows/desktop/api/PropIdl/nf-propidl-propvariantinit)
 -   [**PropVariantClear**](https://msdn.microsoft.com/en-us/library/Aa380073(v=VS.85).aspx)

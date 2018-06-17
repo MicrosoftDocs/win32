@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # RemoteServerName
 
-Configures the client to request the object be run at a particular computer whenever an activation function is called for which a [**COSERVERINFO**](/windows/desktop/api/objidlbase/ns-objidl-_coserverinfo) structure is not specified.
+Configures the client to request the object be run at a particular computer whenever an activation function is called for which a [**COSERVERINFO**](/windows/desktop/api) structure is not specified.
 
 ## Registry Entry
 
@@ -27,7 +27,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 
 **RemoteServerName** allows simple configuration management of client applications; they may be written without hard-coded server names and can be configured by modifying the **RemoteServerName** registry values of the classes of objects they use.
 
-As described in the documentation for the [**CLSCTX**](https://msdn.microsoft.com/en-us/library/ms693716(v=VS.85).aspx) enumeration and the [**COSERVERINFO**](/windows/desktop/api/objidlbase/ns-objidl-_coserverinfo) structure, one of the parameters of the distributed COM activation is a pointer to a **COSERVERINFO** structure. When this value is not **NULL**, the information in the **COSERVERINFO** structure overrides the setting of the **RemoteServerName** key for the function call.
+As described in the documentation for the [**CLSCTX**](https://msdn.microsoft.com/en-us/library/ms693716(v=VS.85).aspx) enumeration and the [**COSERVERINFO**](/windows/desktop/api) structure, one of the parameters of the distributed COM activation is a pointer to a **COSERVERINFO** structure. When this value is not **NULL**, the information in the **COSERVERINFO** structure overrides the setting of the **RemoteServerName** key for the function call.
 
 ## Related topics
 

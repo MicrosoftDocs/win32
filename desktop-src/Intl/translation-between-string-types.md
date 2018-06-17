@@ -17,7 +17,7 @@ The functions listed in the following table translate character strings from one
 
 | Function                                           | Description                                             |
 |----------------------------------------------------|---------------------------------------------------------|
-| [**FoldString**](/windows/desktop/api/Winnls/nf-stringapiset-foldstringw)                   | Translates one character string to another.             |
+| [**FoldString**](/windows/desktop/api)                   | Translates one character string to another.             |
 | [**LCMapString**](/windows/desktop/api/Winnls/nf-winnls-lcmapstringa)                 | Maps a character string by locale.                      |
 | [**ToUnicode**](https://www.bing.com/search?q=**ToUnicode**)              | Translates a virtual key code into a Unicode character. |
 | [**MultiByteToWideChar**](/windows/desktop/api/Stringapiset/nf-stringapiset-multibytetowidechar) | Maps a multibyte string to a Unicode string.            |

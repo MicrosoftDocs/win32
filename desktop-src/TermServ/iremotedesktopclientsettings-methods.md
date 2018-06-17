@@ -15,34 +15,34 @@ ms.date: 05/31/2018
 
 # IRemoteDesktopClientSettings methods
 
-The [**IRemoteDesktopClientSettings**](/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclientsettings) interface exposes the following methods.
+The [**IRemoteDesktopClientSettings**](/windows/desktop/api) interface exposes the following methods.
 
 ## In this section
 
 <dl> <dt>
 
-[**ApplySettings method**](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientsettings-applysettings)
+[**ApplySettings method**](/windows/desktop/api)
 </dt> <dd>
 
 Stores the specified contents in the RDP file.
 
 </dd> <dt>
 
-[**GetRdpProperty method**](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientsettings-getrdpproperty)
+[**GetRdpProperty method**](/windows/desktop/api)
 </dt> <dd>
 
 Retrieves a single named RDP property value.
 
 </dd> <dt>
 
-[**RetrieveSettings method**](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientsettings-retrievesettings)
+[**RetrieveSettings method**](/windows/desktop/api)
 </dt> <dd>
 
 Retrieves the entire RDP file as a string.
 
 </dd> <dt>
 
-[**SetRdpProperty method**](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientsettings-setrdpproperty)
+[**SetRdpProperty method**](/windows/desktop/api)
 </dt> <dd>
 
 Sets the value of a single named RDP property.

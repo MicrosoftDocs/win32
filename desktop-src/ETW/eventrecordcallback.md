@@ -33,7 +33,7 @@ VOID WINAPI EventRecordCallback(
 *EventRecord* \[in\]
 </dt> <dd>
 
-Pointer to an [**EVENT\_RECORD**](/windows/desktop/api/relogger/ns-evntcons-_event_record) structure that contains the event information.
+Pointer to an [**EVENT\_RECORD**](/windows/desktop/api) structure that contains the event information.
 
 </dd> </dl>
 

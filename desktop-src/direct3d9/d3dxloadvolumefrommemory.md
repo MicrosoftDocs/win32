@@ -41,9 +41,9 @@ HRESULT D3DXLoadVolumeFromMemory(
 *pDestVolume* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVOLUME9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dvolume9)**
+Type: **[**LPDIRECT3DVOLUME9**](/windows/desktop/api)**
 
-Pointer to an [**IDirect3DVolume9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dvolume9) interface. Specifies the destination volume, which receives the image.
+Pointer to an [**IDirect3DVolume9**](/windows/desktop/api) interface. Specifies the destination volume, which receives the image.
 
 </dd> <dt>
 
@@ -145,7 +145,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 ## Remarks
 
-Writing to a non-level-zero surface of the volume texture will not cause the dirty rectangle to be updated. If **D3DXLoadVolumeFromMemory** is called and the texture was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**IDirect3DVolumeTexture9::AddDirtyBox**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dvolumetexture9-adddirtybox) on the volume texture.
+Writing to a non-level-zero surface of the volume texture will not cause the dirty rectangle to be updated. If **D3DXLoadVolumeFromMemory** is called and the texture was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**IDirect3DVolumeTexture9::AddDirtyBox**](/windows/desktop/api) on the volume texture.
 
 ## Requirements
 

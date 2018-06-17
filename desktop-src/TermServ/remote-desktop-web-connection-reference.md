@@ -339,14 +339,14 @@ Includes methods to retrieve and set properties of the Remote Desktop ActiveX co
 
 </dd> <dt>
 
-[**IRemoteDesktopClient**](/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient)
+[**IRemoteDesktopClient**](/windows/desktop/api)
 </dt> <dd>
 
 Provides methods and properties used to configure and use the Remote Desktop Protocol (RDP) app container client control.
 
 </dd> <dt>
 
-[**IRemoteDesktopClientActions**](/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclientactions)
+[**IRemoteDesktopClientActions**](/windows/desktop/api)
 </dt> <dd>
 
 Provides the methods used to interact with the Remote Desktop Protocol (RDP) app container client control.
@@ -360,16 +360,16 @@ Provides methods that receive information from the server that are related to cl
 
 </dd> <dt>
 
-[**IRemoteDesktopClientSettings**](/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclientsettings)
+[**IRemoteDesktopClientSettings**](/windows/desktop/api)
 </dt> <dd>
 
 Provides the methods needed to configure the connection settings for the Remote Desktop Protocol (RDP) app container client control.
 
-Use the [**IRemoteDesktopClient**](/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient)[**Settings**](iremotedesktopclient-settings.md) property to obtain a pointer to this interface.
+Use the [**IRemoteDesktopClient**](/windows/desktop/api)[**Settings**](iremotedesktopclient-settings.md) property to obtain a pointer to this interface.
 
 </dd> <dt>
 
-[**IRemoteDesktopClientTouchPointer**](/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclienttouchpointer)
+[**IRemoteDesktopClientTouchPointer**](/windows/desktop/api)
 </dt> <dd>
 
 Provides the properties needed to control the touch pointer feature of the Remote Desktop Protocol (RDP) app container client control.

@@ -62,9 +62,9 @@ Combination of one or more flags from the [**D3DXMESH**](https://msdn.microsoft.
 *ppIndexBuffer* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DINDEXBUFFER9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dindexbuffer9)\***
+Type: **[**LPDIRECT3DINDEXBUFFER9**](/windows/desktop/api)\***
 
-Pointer to an [**IDirect3DIndexBuffer9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dindexbuffer9) interface, representing the index buffer containing the strip.
+Pointer to an [**IDirect3DIndexBuffer9**](/windows/desktop/api) interface, representing the index buffer containing the strip.
 
 </dd> <dt>
 

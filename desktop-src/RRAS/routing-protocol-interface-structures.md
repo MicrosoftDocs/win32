@@ -17,7 +17,7 @@ The [Routing Protocol Interface Functions](routing-protocol-interface-functions.
 
 [**MPR\_ROUTING\_CHARACTERISTICS**](/windows/desktop/api/Routprot/ns-routprot-_mpr50_routing_characteristics)
 
-[**MPR\_SERVICE\_CHARACTERISTICS**](/windows/desktop/api/Routprot/ns-stm-_mpr40_service_characteristics)
+[**MPR\_SERVICE\_CHARACTERISTICS**](/windows/desktop/api)
 
 [**UPDATE\_COMPLETE\_MESSAGE**](/windows/desktop/api/Routprot/ns-routprot-_update_complete_message)
 

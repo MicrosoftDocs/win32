@@ -21,7 +21,7 @@ An alternative way to get a pointer to the compound file implementation of [**IP
 
 ## When to Use
 
-Use [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) to manage properties within a single property set. Its methods support reading, writing, and deleting both properties and the optional string names that can be associated with property identifiers. Other methods support the standard commit and revert storage operations. There is also a method that enables you to set times associated with the property storage, and another that permits the assignment of a CLSID that can be used to associate other code, such as user interface code, with the property set. Calling the [**Enum**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-enum) method supplies a pointer to the compound file implementation of [**IEnumSTATPROPSTG**](/windows/desktop/api/propidlbase/nn-propidl-ienumstatpropstg), which allows you to enumerate the properties in the set.
+Use [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) to manage properties within a single property set. Its methods support reading, writing, and deleting both properties and the optional string names that can be associated with property identifiers. Other methods support the standard commit and revert storage operations. There is also a method that enables you to set times associated with the property storage, and another that permits the assignment of a CLSID that can be used to associate other code, such as user interface code, with the property set. Calling the [**Enum**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-enum) method supplies a pointer to the compound file implementation of [**IEnumSTATPROPSTG**](/windows/desktop/api), which allows you to enumerate the properties in the set.
 
 > [!Note]  
 > If you obtain a pointer to [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) by calling [**StgCreateDocfile**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile), [**StgCreateStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex), [**StgOpenStorage**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorage) or [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) on a simple-mode property set storage, the **IPropertyStorage** methods adhere to the rules of simple-mode streams. The property set storage is simple mode if it was obtained for a file that was created or opened with the STGM\_SIMPLE flag. In this case, it is not always possible to make the underlying stream larger and it is not possible to replace existing properties with larger properties. For more information, see [IPropertySetStorage-Compound File Implementation](ipropertysetstorage-compound-file-implementation.md).
@@ -46,9 +46,9 @@ For example, if a property set is created with the PROPSETFLAG\_DEFAULT flag, it
 
 ## IPropertyStorage and Variant Types
 
-The compound file implementation of [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) does not support the variant types VT\_UNKNOWN or VT\_DISPATCH in the **vt** member of the [**PROPVARIANT**](/windows/desktop/api/propidlbase/ns-propidl-tagpropvariant) structure.
+The compound file implementation of [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) does not support the variant types VT\_UNKNOWN or VT\_DISPATCH in the **vt** member of the [**PROPVARIANT**](/windows/desktop/api) structure.
 
-The following table lists variant types that are supported within a SafeArray; that is, these values can be combined with VT\_ARRAY in the **vt** member of the [**PROPVARIANT**](/windows/desktop/api/propidlbase/ns-propidl-tagpropvariant) structure.
+The following table lists variant types that are supported within a SafeArray; that is, these values can be combined with VT\_ARRAY in the **vt** member of the [**PROPVARIANT**](/windows/desktop/api) structure.
 
 
 
@@ -94,7 +94,7 @@ VT\_VARIANT
 
  
 
-When VT\_VARIANT is combined with VT\_ARRAY, the SafeArray itself holds [**PROPVARIANT**](/windows/desktop/api/propidlbase/ns-propidl-tagpropvariant) structures. However, the types of these elements must be taken from the preceding list, cannot be VT\_VARIANT, and cannot include the VT\_VECTOR, VT\_ARRAY, or VT\_BYREF indicators.
+When VT\_VARIANT is combined with VT\_ARRAY, the SafeArray itself holds [**PROPVARIANT**](/windows/desktop/api) structures. However, the types of these elements must be taken from the preceding list, cannot be VT\_VARIANT, and cannot include the VT\_VECTOR, VT\_ARRAY, or VT\_BYREF indicators.
 
 ## IPropertyStorage Methods
 
@@ -116,7 +116,7 @@ If the method fails, the values written to *rgvar*\[\] are undefined. If some st
 <span id="IPropertyStorage__WriteMultiple"></span><span id="ipropertystorage__writemultiple"></span><span id="IPROPERTYSTORAGE__WRITEMULTIPLE"></span>[**IPropertyStorage::WriteMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-writemultiple)
 </dt> <dd>
 
-Writes the properties specified in the *rgpspec*\[\] array, assigning them the [**PROPVARIANT**](/windows/desktop/api/propidlbase/ns-propidl-tagpropvariant) tags and values specified in *rgvar*\[\]. Properties that already exist are assigned the specified **PROPVARIANT** values. Properties that do not currently exist are created.
+Writes the properties specified in the *rgpspec*\[\] array, assigning them the [**PROPVARIANT**](/windows/desktop/api) tags and values specified in *rgvar*\[\]. Properties that already exist are assigned the specified **PROPVARIANT** values. Properties that do not currently exist are created.
 
 </dd> <dt>
 
@@ -172,14 +172,14 @@ For nonsimple property sets only, calls the [**Revert**](/windows/desktop/api/Pr
 <span id="IPropertyStorage__Enum"></span><span id="ipropertystorage__enum"></span><span id="IPROPERTYSTORAGE__ENUM"></span>[**IPropertyStorage::Enum**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-enum)
 </dt> <dd>
 
-Constructs an instance of [**IEnumSTATPROPSTG**](/windows/desktop/api/propidlbase/nn-propidl-ienumstatpropstg), the methods of which can be called to enumerate the [**STATPROPSTG**](/windows/desktop/api/propidlbase/ns-propidl-tagstatpropstg) structures that provide information about each of the properties in the set. This implementation creates an array into which the entire property set is read and which can be shared when **IEnumSTATPROPSTG::Clone** is called. Changes to the property set are not reflected in an open **IEnumSTATPROPSTG** instance. To see such changes, a new instance of this enumerator must be constructed.
+Constructs an instance of [**IEnumSTATPROPSTG**](/windows/desktop/api), the methods of which can be called to enumerate the [**STATPROPSTG**](/windows/desktop/api) structures that provide information about each of the properties in the set. This implementation creates an array into which the entire property set is read and which can be shared when **IEnumSTATPROPSTG::Clone** is called. Changes to the property set are not reflected in an open **IEnumSTATPROPSTG** instance. To see such changes, a new instance of this enumerator must be constructed.
 
 </dd> <dt>
 
 <span id="IPropertyStorage__Stat"></span><span id="ipropertystorage__stat"></span><span id="IPROPERTYSTORAGE__STAT"></span>[**IPropertyStorage::Stat**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-stat)
 </dt> <dd>
 
-Fills in the members of a [**STATPROPSETSTG**](/windows/desktop/api/propidlbase/ns-propidl-tagstatpropsetstg) structure, which contains data about the property set as a whole. On return, supplies a pointer to the structure. For nonsimple storage sets, this implementation calls [**IStorage::Stat**](/windows/desktop/api/Objidl/nf-objidl-istorage-stat) (or [**IStream::Stat**](/windows/desktop/api/Objidl/nf-objidl-istream-stat)) to get the times from the underlying storage or stream. For simple storage sets, no times are maintained.
+Fills in the members of a [**STATPROPSETSTG**](/windows/desktop/api) structure, which contains data about the property set as a whole. On return, supplies a pointer to the structure. For nonsimple storage sets, this implementation calls [**IStorage::Stat**](/windows/desktop/api/Objidl/nf-objidl-istorage-stat) (or [**IStream::Stat**](/windows/desktop/api/Objidl/nf-objidl-istream-stat)) to get the times from the underlying storage or stream. For simple storage sets, no times are maintained.
 
 </dd> <dt>
 

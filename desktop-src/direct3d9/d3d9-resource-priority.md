@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # D3D9\_RESOURCE\_PRIORITY
 
-Constants used to set the priority of a resource in [**SetPriority**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dresource9-setpriority).
+Constants used to set the priority of a resource in [**SetPriority**](/windows/desktop/api).
 
 
 

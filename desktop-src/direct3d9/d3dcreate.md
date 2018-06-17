@@ -27,7 +27,7 @@ A combination of one or more flags that control the device create behavior.
 </tr>
 <tr class="even">
 <td>D3DCREATE_ADAPTERGROUP_DEVICE</td>
-<td>Application asks the device to drive all the heads that this master adapter owns. The flag is illegal on nonmaster adapters. If this flag is set, the presentation parameters passed to [<strong>CreateDevice</strong>](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-createdevice) should point to an array of [<strong>D3DPRESENT_PARAMETERS</strong>](d3dpresent-parameters.md). The number of elements in <strong>D3DPRESENT_PARAMETERS</strong> should equal the number of adapters defined by the NumberOfAdaptersInGroup member of the [<strong>D3DCAPS9</strong>](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structure. The DirectX runtime will assign each element to each head in the numerical order specified by the AdapterOrdinalInGroup member of <strong>D3DCAPS9</strong>.</td>
+<td>Application asks the device to drive all the heads that this master adapter owns. The flag is illegal on nonmaster adapters. If this flag is set, the presentation parameters passed to [<strong>CreateDevice</strong>](/windows/desktop/api) should point to an array of [<strong>D3DPRESENT_PARAMETERS</strong>](d3dpresent-parameters.md). The number of elements in <strong>D3DPRESENT_PARAMETERS</strong> should equal the number of adapters defined by the NumberOfAdaptersInGroup member of the [<strong>D3DCAPS9</strong>](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structure. The DirectX runtime will assign each element to each head in the numerical order specified by the AdapterOrdinalInGroup member of <strong>D3DCAPS9</strong>.</td>
 </tr>
 <tr class="odd">
 <td>D3DCREATE_DISABLE_DRIVER_MANAGEMENT</td>
@@ -146,7 +146,7 @@ If this flag is set, the application must fully support all focus management eve
 
  
 
-D3DCREATE\_HARDWARE\_VERTEXPROCESSING, D3DCREATE\_MIXED\_VERTEXPROCESSING, and D3DCREATE\_SOFTWARE\_VERTEXPROCESSING are mutually exclusive flags. At least one of these vertex processing flags must be specified when calling [**CreateDevice**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-createdevice).
+D3DCREATE\_HARDWARE\_VERTEXPROCESSING, D3DCREATE\_MIXED\_VERTEXPROCESSING, and D3DCREATE\_SOFTWARE\_VERTEXPROCESSING are mutually exclusive flags. At least one of these vertex processing flags must be specified when calling [**CreateDevice**](/windows/desktop/api).
 
 ## Constant Information
 

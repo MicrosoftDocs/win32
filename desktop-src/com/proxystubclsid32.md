@@ -35,7 +35,7 @@ If you add interfaces, you must use this entry to register them (32-bit systems)
 
 <dl> <dt>
 
-[**IMarshal**](/windows/desktop/api/objidlbase/nn-objidl-imarshal)
+[**IMarshal**](/windows/desktop/api)
 </dt> <dt>
 
 [**Interface**](interface-key.md)

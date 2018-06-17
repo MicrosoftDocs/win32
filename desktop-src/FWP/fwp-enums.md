@@ -17,7 +17,7 @@ The Windows Filtering Platform (WFP) API Enumerated Types are as follows.
 
 Management Types
 
--   [**DL\_ADDRESS\_TYPE**](/windows/desktop/api/netiodef/ne-fwpmtypes-__midl___midl_itf_fwpmtypes_0000_0000_0001)
+-   [**DL\_ADDRESS\_TYPE**](/windows/desktop/api)
 -   [**FWPM\_APPC\_NETWORK\_CAPABILITY\_TYPE**](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_appc_network_capability_type_)
 -   [**FWPM\_CHANGE\_TYPE**](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_change_type_)
 -   [**FWPM\_CONNECTION\_EVENT\_TYPE**](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_connection_event_type_)

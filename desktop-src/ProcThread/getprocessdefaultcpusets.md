@@ -34,7 +34,7 @@ BOOL WINAPI GetProcessDefaultCpuSets(
 *Process* \[in\]
 </dt> <dd>
 
-Specifies a process handle for the process to query. This handle must have the PROCESS\_QUERY\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-getcurrentprocess) can also be specified here.
+Specifies a process handle for the process to query. This handle must have the PROCESS\_QUERY\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentProcess**](/windows/desktop/api) can also be specified here.
 
 </dd> <dt>
 

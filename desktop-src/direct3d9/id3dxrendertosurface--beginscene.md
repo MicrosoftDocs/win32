@@ -32,9 +32,9 @@ HRESULT BeginScene(
 *pSurface* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DSURFACE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dsurface9)**
+Type: **[**LPDIRECT3DSURFACE9**](/windows/desktop/api)**
 
-Pointer to an [**IDirect3DSurface9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dsurface9) interface, representing the render surface.
+Pointer to an [**IDirect3DSurface9**](/windows/desktop/api) interface, representing the render surface.
 
 </dd> <dt>
 

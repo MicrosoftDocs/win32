@@ -15,7 +15,7 @@ The following example illustrates the use of [object names](object-names.md) by 
 
 ## First Process
 
-The first process uses the [**CreateMutex**](/windows/desktop/api/WinBase/nf-synchapi-createmutexa) function to create the mutex object. Note that this function succeeds even if there is an existing object with the same name.
+The first process uses the [**CreateMutex**](/windows/desktop/api) function to create the mutex object. Note that this function succeeds even if there is an existing object with the same name.
 
 
 ```C++

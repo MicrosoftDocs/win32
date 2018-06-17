@@ -15,34 +15,34 @@ ms.date: 05/31/2018
 
 # IRemoteDesktopClientActions methods
 
-The [**IRemoteDesktopClientActions**](/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclientactions) interface exposes the following methods.
+The [**IRemoteDesktopClientActions**](/windows/desktop/api) interface exposes the following methods.
 
 ## In this section
 
 <dl> <dt>
 
-[**ExecuteRemoteAction method**](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-executeremoteaction)
+[**ExecuteRemoteAction method**](/windows/desktop/api)
 </dt> <dd>
 
 Causes an action to be performed in the remote session.
 
 </dd> <dt>
 
-[**GetSnapshot method**](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-getsnapshot)
+[**GetSnapshot method**](/windows/desktop/api)
 </dt> <dd>
 
 Causes a snapshot of the Remote Desktop Protocol (RDP) app container client's in-session desktop to be taken.
 
 </dd> <dt>
 
-[**ResumeScreenUpdates method**](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-resumescreenupdates)
+[**ResumeScreenUpdates method**](/windows/desktop/api)
 </dt> <dd>
 
 Resumes screen updates being sent to the client.
 
 </dd> <dt>
 
-[**SuspendScreenUpdates method**](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-suspendscreenupdates)
+[**SuspendScreenUpdates method**](/windows/desktop/api)
 </dt> <dd>
 
 Suspends screen updates being sent to the client.

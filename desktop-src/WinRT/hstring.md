@@ -38,23 +38,23 @@ JavaScript and other languages, such as C\#, and Microsoft Visual Basic, can use
 
  
 
-The **HSTRING** handle is a standard handle type. Semantically, an **HSTRING** containing the value **NULL** represents the empty string, which consists of zero content characters and a terminating **NULL** character. Creating a string via [**WindowsCreateString**](/windows/desktop/api/winstring/nf-winstring-windowscreatestring) with zero characters will produce the handle value **NULL**. When calling [**WindowsGetStringRawBuffer**](/windows/desktop/api/winstring/nf-winstring-windowsgetstringrawbuffer) with the value **NULL**, a pointer to an empty string followed only by the **NUL** terminating character will be returned. No distinct value exists to represent an **HSTRING** that is uninitialized.
+The **HSTRING** handle is a standard handle type. Semantically, an **HSTRING** containing the value **NULL** represents the empty string, which consists of zero content characters and a terminating **NULL** character. Creating a string via [**WindowsCreateString**](/windows/desktop/api) with zero characters will produce the handle value **NULL**. When calling [**WindowsGetStringRawBuffer**](/windows/desktop/api) with the value **NULL**, a pointer to an empty string followed only by the **NUL** terminating character will be returned. No distinct value exists to represent an **HSTRING** that is uninitialized.
 
-Call the [**WindowsCreateString**](/windows/desktop/api/winstring/nf-winstring-windowscreatestring) function to create a new **HSTRING**, and call the [**WindowsDeleteString**](/windows/desktop/api/winstring/nf-winstring-windowsdeletestring) function to release the reference to the backing string memory. Call the [**WindowsCreateStringReference**](/windows/desktop/api/winstring/nf-winstring-windowscreatestringreference) function to create a string reference, which is also called a *fast-pass string*.
+Call the [**WindowsCreateString**](/windows/desktop/api) function to create a new **HSTRING**, and call the [**WindowsDeleteString**](/windows/desktop/api) function to release the reference to the backing string memory. Call the [**WindowsCreateStringReference**](/windows/desktop/api) function to create a string reference, which is also called a *fast-pass string*.
 
-Copy an **HSTRING** by calling the [**WindowsDuplicateString**](/windows/desktop/api/winstring/nf-winstring-windowsduplicatestring) function.
+Copy an **HSTRING** by calling the [**WindowsDuplicateString**](/windows/desktop/api) function.
 
-Concatenate two strings by calling the [**WindowsConcatString**](/windows/desktop/api/winstring/nf-winstring-windowsconcatstring) function.
+Concatenate two strings by calling the [**WindowsConcatString**](/windows/desktop/api) function.
 
-Access the backing string memory by calling the [**WindowsGetStringRawBuffer**](/windows/desktop/api/winstring/nf-winstring-windowsgetstringrawbuffer) function.
+Access the backing string memory by calling the [**WindowsGetStringRawBuffer**](/windows/desktop/api) function.
 
-**HSTRING** can store and use embedded **NUL** characters. Use the [**WindowsStringHasEmbeddedNull**](/windows/desktop/api/winstring/nf-winstring-windowsstringhasembeddednull) function to check for embedded **NUL** characters before using any functions which may produce unexpected results. For example, most of the Windows functions use **LPCWSTR** as an input parameter, and they compute the length of the string only until the first **NUL** is encountered.
+**HSTRING** can store and use embedded **NUL** characters. Use the [**WindowsStringHasEmbeddedNull**](/windows/desktop/api) function to check for embedded **NUL** characters before using any functions which may produce unexpected results. For example, most of the Windows functions use **LPCWSTR** as an input parameter, and they compute the length of the string only until the first **NUL** is encountered.
 
-The backing string must remain immutable and null-terminated. When calling code creates a string reference by using the [**WindowsCreateStringReference**](/windows/desktop/api/winstring/nf-winstring-windowscreatestringreference) function, the memory containing the backing string representation is owned by the caller. The Windows Runtime relies on the contents of the original string to remain unchanged. When passing a string reference into the Windows Runtime, it is the caller’s responsibility to ensure that the string’s contents are unchanging and **NUL** terminated for the duration of the call. The Windows Runtime releases all references to the string reference when the call returns.
+The backing string must remain immutable and null-terminated. When calling code creates a string reference by using the [**WindowsCreateStringReference**](/windows/desktop/api) function, the memory containing the backing string representation is owned by the caller. The Windows Runtime relies on the contents of the original string to remain unchanged. When passing a string reference into the Windows Runtime, it is the caller’s responsibility to ensure that the string’s contents are unchanging and **NUL** terminated for the duration of the call. The Windows Runtime releases all references to the string reference when the call returns.
 
 When you receive an **HSTRING** as an out parameter, it is good practice to set the handle to **NULL** when you are finished with it.
 
-Call the [**WindowsPreallocateStringBuffer**](/windows/desktop/api/WinString/nf-winstring-windowspreallocatestringbuffer) function to allocate a mutable string buffer that you can use to create an immutable **HSTRING**. When you have finished populating the buffer, you call the [**WindowsPromoteStringBuffer**](/windows/desktop/api/winstring/nf-winstring-windowspromotestringbuffer) function to create the **HSTRING**. This two-phase construction pattern enables functionality that is similar to a "string builder."
+Call the [**WindowsPreallocateStringBuffer**](/windows/desktop/api) function to allocate a mutable string buffer that you can use to create an immutable **HSTRING**. When you have finished populating the buffer, you call the [**WindowsPromoteStringBuffer**](/windows/desktop/api) function to create the **HSTRING**. This two-phase construction pattern enables functionality that is similar to a "string builder."
 
 ## Requirements
 
@@ -75,16 +75,16 @@ Call the [**WindowsPreallocateStringBuffer**](/windows/desktop/api/WinString/nf-
 
 </dt> <dt>
 
-[**WindowsCreateString**](/windows/desktop/api/winstring/nf-winstring-windowscreatestring)
+[**WindowsCreateString**](/windows/desktop/api)
 </dt> <dt>
 
-[**WindowsDeleteString**](/windows/desktop/api/winstring/nf-winstring-windowsdeletestring)
+[**WindowsDeleteString**](/windows/desktop/api)
 </dt> <dt>
 
-[**WindowsDuplicateString**](/windows/desktop/api/winstring/nf-winstring-windowsduplicatestring)
+[**WindowsDuplicateString**](/windows/desktop/api)
 </dt> <dt>
 
-[**WindowsPreallocateStringBuffer**](/windows/desktop/api/WinString/nf-winstring-windowspreallocatestringbuffer)
+[**WindowsPreallocateStringBuffer**](/windows/desktop/api)
 </dt> </dl>
 
  

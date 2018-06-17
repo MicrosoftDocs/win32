@@ -49,7 +49,7 @@ HRESULT SetIndices(IDirect3DIndexBuffer9* pIndexData);
 
 ## CreateImageSurface Changes
 
-IDirect3DDevice8::CreateImageSurface was renamed [**CreateOffscreenPlainSurface**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createoffscreenplainsurface). An additional parameter that takes a D3DPOOL type was added. D3DPOOL\_SCRATCH will return a surface that has identical characteristics to a surface created by IDirect3DDevice8::CreateImageSurface. D3DPOOL\_DEFAULT is the appropriate pool for use with [**StretchRect**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-stretchrect) and [**ColorFill**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-colorfill).
+IDirect3DDevice8::CreateImageSurface was renamed [**CreateOffscreenPlainSurface**](/windows/desktop/api). An additional parameter that takes a D3DPOOL type was added. D3DPOOL\_SCRATCH will return a surface that has identical characteristics to a surface created by IDirect3DDevice8::CreateImageSurface. D3DPOOL\_DEFAULT is the appropriate pool for use with [**StretchRect**](/windows/desktop/api) and [**ColorFill**](/windows/desktop/api).
 
 ## D3DENUM\_NO\_WHQL\_LEVEL Changes
 
@@ -59,18 +59,18 @@ Applications now have to explicitly ask for the Microsoft Windows Hardware Quali
 
 A handle has been added to several methods and should be set to **NULL**. The methods affected include:
 
--   [**CreateTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createtexture)
--   [**CreateVolumeTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createvolumetexture)
--   [**CreateCubeTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createcubetexture)
--   [**CreateVertexBuffer**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createvertexbuffer)
--   [**CreateIndexBuffer**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createindexbuffer)
--   [**CreateRenderTarget**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createrendertarget)
--   [**CreateDepthStencilSurface**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createdepthstencilsurface)
--   [**CreateOffscreenPlainSurface**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createoffscreenplainsurface)
+-   [**CreateTexture**](/windows/desktop/api)
+-   [**CreateVolumeTexture**](/windows/desktop/api)
+-   [**CreateCubeTexture**](/windows/desktop/api)
+-   [**CreateVertexBuffer**](/windows/desktop/api)
+-   [**CreateIndexBuffer**](/windows/desktop/api)
+-   [**CreateRenderTarget**](/windows/desktop/api)
+-   [**CreateDepthStencilSurface**](/windows/desktop/api)
+-   [**CreateOffscreenPlainSurface**](/windows/desktop/api)
 
 ## EnumAdapterModes Changes
 
-The [**EnumAdapterModes**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-enumadaptermodes) now takes a D3DFORMAT.
+The [**EnumAdapterModes**](/windows/desktop/api) now takes a D3DFORMAT.
 
 
 ```
@@ -100,7 +100,7 @@ This method treats 565 and 555 as equivalent, and returns the correct version in
 
 ## Get/SetStreamSource Changes
 
-One parameter has been added to the [**GetStreamSource**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-getstreamsource) and [**SetStreamSource**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setstreamsource) methods. The offset is the number of bytes between the beginning of the stream and the beginning of the vertex data. It is measured in bytes. This enables the pipeline to support stream offsets. To find out if the device supports stream offsets, see D3DDEVCAPS2\_STREAMOFFSET.
+One parameter has been added to the [**GetStreamSource**](/windows/desktop/api) and [**SetStreamSource**](/windows/desktop/api) methods. The offset is the number of bytes between the beginning of the stream and the beginning of the vertex data. It is measured in bytes. This enables the pipeline to support stream offsets. To find out if the device supports stream offsets, see D3DDEVCAPS2\_STREAMOFFSET.
 
 
 ```
@@ -119,7 +119,7 @@ Previously, there was only the D3DMULTISAMPLE\_TYPE enumeration. Direct3D 9 reta
 
 An application should choose how many maskable samples it requires, and then consult pQualityLevels. If nonzero, this value indicates the number of quality levels the application can pass to the various creation functions through MultiSampleQuality. Because drivers expose all their multisample schemes as quality levels at D3DMULTISAMPLE\_NONMASKABLE, you can enumerate all available multisampling schemes through this one type if your application does not need to mask samples.
 
-The D3DPRASTERCAPS\_STRETCHBLTMULTISAMPLE caps bit has been retired. This bit used to mean that the multisampling method did not support write masks, and could not be toggled on and off between [**BeginScene**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-beginscene) and [**EndScene**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-endscene). Such nonmaskable methods are now exposed through D3DMULTISAMPLE\_NONMASKABLE.
+The D3DPRASTERCAPS\_STRETCHBLTMULTISAMPLE caps bit has been retired. This bit used to mean that the multisampling method did not support write masks, and could not be toggled on and off between [**BeginScene**](/windows/desktop/api) and [**EndScene**](/windows/desktop/api). Such nonmaskable methods are now exposed through D3DMULTISAMPLE\_NONMASKABLE.
 
 
 ```
@@ -146,14 +146,14 @@ The resource manager is now consulted when a resource (whether managed or nonman
 
 An application can create a mixed-mode device to use software and hardware vertex processing.
 
-To switch between the two vertex processing modes in DirectX 8.x, call IDirect3DDevice8::SetRenderState. This has been replaced with [**SetSoftwareVertexProcessing**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setsoftwarevertexprocessing) to ease problems caused by state blocks. This new method is not recorded by state blocks.
+To switch between the two vertex processing modes in DirectX 8.x, call IDirect3DDevice8::SetRenderState. This has been replaced with [**SetSoftwareVertexProcessing**](/windows/desktop/api) to ease problems caused by state blocks. This new method is not recorded by state blocks.
 
 ## Texture Sampler Changes
 
-Direct3D 9 supports up to sixteen texture surfaces in one pass using the pixel shader 2\_0 model; however, the number of texture coordinates remains limited to eight. Texture stage state is associated with surfaces, coordinate sets, vertex processing, and pixel processing. To manage these differences at compile time, [**SetTextureStageState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexturestagestate) has been broken into two methods:
+Direct3D 9 supports up to sixteen texture surfaces in one pass using the pixel shader 2\_0 model; however, the number of texture coordinates remains limited to eight. Texture stage state is associated with surfaces, coordinate sets, vertex processing, and pixel processing. To manage these differences at compile time, [**SetTextureStageState**](/windows/desktop/api) has been broken into two methods:
 
 -   IDirect3DDevice9::SetTextureStageState will still be used for texture coordinate state, such as wrap modes and texture coordinate generation.
--   [**SetSamplerState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setsamplerstate) has been added and will now be used for filtering, tiling, clamping, MIPLOD, and so forth. This will work for up to sixteen samplers.
+-   [**SetSamplerState**](/windows/desktop/api) has been added and will now be used for filtering, tiling, clamping, MIPLOD, and so forth. This will work for up to sixteen samplers.
 
 ### SetTextureStageState Changes
 
@@ -218,13 +218,13 @@ Vertex declarations are now decoupled from vertex shader creation. Vertex declar
 
 For DirectX 8.x, vertex declarations are tied to vertex shaders.
 
--   For the fixed function pipeline, call [**SetVertexShader**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setvertexshader) with the flexible vertex format (FVF) code of the vertex buffer.
+-   For the fixed function pipeline, call [**SetVertexShader**](/windows/desktop/api) with the flexible vertex format (FVF) code of the vertex buffer.
 -   For vertex shaders, call IDirect3DDevice9::SetVertexShader with a handle to a previously create vertex shader. The shader includes a vertex declaration.
 
 For Direct3D 9, vertex declarations are decoupled from vertex shaders and they can be used with either the fixed function pipeline or with shaders.
 
--   For the fixed function pipeline, there is no need to call IDirect3DDevice9::SetVertexShader. If, however, you want to switch to the fixed function pipeline and have previously used a vertex shader, call IDirect3DDevice9::SetVertexShader(**NULL**). When this is done, you will still need to call [**SetFVF**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setfvf) to declare the FVF code.
--   When using vertex shaders, call IDirect3DDevice9::SetVertexShader with the vertex shader object. Additionally, call IDirect3DDevice9::SetFVF to set up a vertex declaration. This uses the information implicit in the FVF. [**SetVertexDeclaration**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setvertexdeclaration) can be called in place of IDirect3DDevice9::SetFVF because it supports vertex declarations that cannot be expressed with an FVF.
+-   For the fixed function pipeline, there is no need to call IDirect3DDevice9::SetVertexShader. If, however, you want to switch to the fixed function pipeline and have previously used a vertex shader, call IDirect3DDevice9::SetVertexShader(**NULL**). When this is done, you will still need to call [**SetFVF**](/windows/desktop/api) to declare the FVF code.
+-   When using vertex shaders, call IDirect3DDevice9::SetVertexShader with the vertex shader object. Additionally, call IDirect3DDevice9::SetFVF to set up a vertex declaration. This uses the information implicit in the FVF. [**SetVertexDeclaration**](/windows/desktop/api) can be called in place of IDirect3DDevice9::SetFVF because it supports vertex declarations that cannot be expressed with an FVF.
 
 ## Intervals, and SwapEffects Changes
 

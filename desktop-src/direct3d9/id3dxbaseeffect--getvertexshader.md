@@ -41,9 +41,9 @@ Unique identifier. See [Handles (Direct3D 9)](handles.md).
 *ppVShader* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVERTEXSHADER9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dvertexshader9)\***
+Type: **[**LPDIRECT3DVERTEXSHADER9**](/windows/desktop/api)\***
 
-Returns a vertex shader object. See [**IDirect3DVertexShader9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dvertexshader9).
+Returns a vertex shader object. See [**IDirect3DVertexShader9**](/windows/desktop/api).
 
 </dd> </dl>
 

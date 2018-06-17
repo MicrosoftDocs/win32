@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Reference tracking can prevent the unintentional or malicious early release of objects.
 
-When you enable reference tracking, you are requesting that distributed [**AddRef**](/windows/desktop/api/unknwnbase/nf-unknwn-iunknown-addref) and [**Release**](/windows/desktop/api/unknwnbase/nf-unknwn-iunknown-release) calls be authenticated by COM. When reference tracking is enabled, COM keeps track of per-user reference counts so that a user can call **Release** only on objects that the user previously called **AddRef** on. Although reference tracking can decrease performance, it ensures that no matter how many times a given user calls **Release**, the objects and stubs will still exist if someone else has a reference to them.
+When you enable reference tracking, you are requesting that distributed [**AddRef**](/windows/desktop/api) and [**Release**](/windows/desktop/api) calls be authenticated by COM. When reference tracking is enabled, COM keeps track of per-user reference counts so that a user can call **Release** only on objects that the user previously called **AddRef** on. Although reference tracking can decrease performance, it ensures that no matter how many times a given user calls **Release**, the objects and stubs will still exist if someone else has a reference to them.
 
 The client can set reference tracking for a process by passing the EOAC\_SECURE\_REFS capability flag in a call to [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity). You can also enable or disable reference tracking for all applications on a computer by using Dcomcnfg.exe.
 

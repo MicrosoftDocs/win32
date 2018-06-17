@@ -110,10 +110,10 @@ For more information about using the lighting engine to calculate specular light
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::GetMaterial**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-getmaterial)
+[**IDirect3DDevice9::GetMaterial**](/windows/desktop/api)
 </dt> <dt>
 
-[**IDirect3DDevice9::SetMaterial**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setmaterial)
+[**IDirect3DDevice9::SetMaterial**](/windows/desktop/api)
 </dt> </dl>
 
  

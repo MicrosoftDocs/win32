@@ -35,9 +35,9 @@ HRESULT D3DXCreatePolygon(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api)**
 
-Pointer to an [**IDirect3DDevice9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9) interface, representing the device associated with the created polygon mesh.
+Pointer to an [**IDirect3DDevice9**](/windows/desktop/api) interface, representing the device associated with the created polygon mesh.
 
 </dd> <dt>
 

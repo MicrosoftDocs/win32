@@ -60,7 +60,7 @@ Transform states in the range 256 through 511 are reserved to store up to 256 ma
 [Macros](dx9-graphics-reference-d3d-macros.md)
 </dt> <dt>
 
-[**SetTransform**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settransform)
+[**SetTransform**](/windows/desktop/api)
 </dt> </dl>
 
  

@@ -41,12 +41,12 @@ Driver capability flags.
 <tr class="odd">
 <td>D3DCAPS3_COPY_TO_VIDMEM</td>
 <td>0x00000100L</td>
-<td>Device can accelerate a memory copy from system memory to local video memory. This cap guarantees that [<strong>UpdateSurface</strong>](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-updatesurface) and [<strong>UpdateTexture</strong>](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-updatetexture) calls will be hardware accelerated. If this cap is absent, these calls will succeed but will be slower.</td>
+<td>Device can accelerate a memory copy from system memory to local video memory. This cap guarantees that [<strong>UpdateSurface</strong>](/windows/desktop/api) and [<strong>UpdateTexture</strong>](/windows/desktop/api) calls will be hardware accelerated. If this cap is absent, these calls will succeed but will be slower.</td>
 </tr>
 <tr class="even">
 <td>D3DCAPS3_COPY_TO_SYSTEMMEM</td>
 <td>0x00000200L</td>
-<td>Device can accelerate a memory copy from local video memory to system memory. This cap guarantees that [<strong>GetRenderTargetData</strong>](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-getrendertargetdata) calls will be hardware accelerated. If this cap is absent, this call will succeed but will be slower.</td>
+<td>Device can accelerate a memory copy from local video memory to system memory. This cap guarantees that [<strong>GetRenderTargetData</strong>](/windows/desktop/api) calls will be hardware accelerated. If this cap is absent, this call will succeed but will be slower.</td>
 </tr>
 <tr class="odd">
 <td>D3DCAPS3_DXVAHD</td>

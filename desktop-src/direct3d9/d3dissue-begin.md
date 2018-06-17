@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # D3DISSUE\_BEGIN
 
-This macro creates a value used by [**Issue**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dquery9-issue) to issue a query begin.
+This macro creates a value used by [**Issue**](/windows/desktop/api) to issue a query begin.
 
 ``` syntax
 #define D3DISSUE_BEGIN (1 << 1)

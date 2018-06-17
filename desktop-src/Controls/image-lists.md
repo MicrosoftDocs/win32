@@ -89,7 +89,7 @@ When an application calls [**ImageList\_BeginDrag**](/windows/desktop/api/Commct
 
 ## Image Information
 
-There are a number of functions that retrieve information from an image list. The [**ImageList\_GetImageInfo**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_getimageinfo) function fills an [**IMAGEINFO**](/windows/desktop/api/commoncontrols/ns-commctrl-_imageinfo) structure with information about a single image, including the handles of the image and mask bitmaps, the number of color planes and bits per pixel, and the bounding rectangle of the image within the image bitmap. You can use this information to directly manipulate the bitmaps for the image. The [**ImageList\_GetImageCount**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_getimagecount) function retrieves the number of images in an image list.
+There are a number of functions that retrieve information from an image list. The [**ImageList\_GetImageInfo**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_getimageinfo) function fills an [**IMAGEINFO**](/windows/desktop/api) structure with information about a single image, including the handles of the image and mask bitmaps, the number of color planes and bits per pixel, and the bounding rectangle of the image within the image bitmap. You can use this information to directly manipulate the bitmaps for the image. The [**ImageList\_GetImageCount**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_getimagecount) function retrieves the number of images in an image list.
 
 ## Image Overlays
 

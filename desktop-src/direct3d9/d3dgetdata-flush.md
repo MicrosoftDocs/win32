@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # D3DGETDATA\_FLUSH
 
-This macro creates the value passed to [**GetData**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dquery9-getdata) to flush query data.
+This macro creates the value passed to [**GetData**](/windows/desktop/api) to flush query data.
 
 ``` syntax
 #define D3DGETDATA_FLUSH (1 << 0)

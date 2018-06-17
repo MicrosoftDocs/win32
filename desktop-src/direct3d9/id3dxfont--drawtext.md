@@ -120,7 +120,7 @@ The parameters of this method are very similar to those of the GDI [**DrawText**
 
 This method supports both ANSI and Unicode strings.
 
-This method must be called inside a [**BeginScene**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-beginscene) ... [**EndScene**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-endscene) block. The only exception is when an application calls **DrawText** with DT\_CALCRECT to calculate the size of a given block of text.
+This method must be called inside a [**BeginScene**](/windows/desktop/api) ... [**EndScene**](/windows/desktop/api) block. The only exception is when an application calls **DrawText** with DT\_CALCRECT to calculate the size of a given block of text.
 
 Unless the DT\_NOCLIP format is used, this method clips the text so that it does not appear outside the specified rectangle. All formatting is assumed to have multiple lines unless the DT\_SINGLELINE format is specified.
 

@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Impersonation and Asynchronous Calls
 
-The server cannot impersonate the client after the server's call to [**ISynchronize::Signal**](/windows/desktop/api/objidlbase/nf-objidl-isynchronize-signal) completes, even if the Begin\_ method has not yet completed. For example, suppose a client calls the Begin\_ method, the server processes the call immediately, and the server calls **Signal** to indicate it is finished processing. Even if work remains to be done in the Begin\_ method, the server cannot impersonate the client after the call to **Signal** completes.
+The server cannot impersonate the client after the server's call to [**ISynchronize::Signal**](/windows/desktop/api) completes, even if the Begin\_ method has not yet completed. For example, suppose a client calls the Begin\_ method, the server processes the call immediately, and the server calls **Signal** to indicate it is finished processing. Even if work remains to be done in the Begin\_ method, the server cannot impersonate the client after the call to **Signal** completes.
 
-If the server impersonates the client before it calls [**Signal**](/windows/desktop/api/objidlbase/nf-objidl-isynchronize-signal), the impersonation token will not be removed from the thread until the server calls [**IServerSecurity::RevertToSelf**](/windows/desktop/api/objidlbase/nf-objidl-iserversecurity-reverttoself) or until the server's call to Begin\_ returns, whichever comes first.
+If the server impersonates the client before it calls [**Signal**](/windows/desktop/api), the impersonation token will not be removed from the thread until the server calls [**IServerSecurity::RevertToSelf**](/windows/desktop/api) or until the server's call to Begin\_ returns, whichever comes first.
 
 ## Related topics
 

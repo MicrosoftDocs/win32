@@ -49,7 +49,7 @@ Indicates that the interval between two keyframes in a storyboard should repeat 
 [Constants](constants.md)
 </dt> <dt>
 
-[**IUIAnimationStoryboard2::RepeatBetweenKeyframes**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard2-repeatbetweenkeyframes)
+[**IUIAnimationStoryboard2::RepeatBetweenKeyframes**](/windows/desktop/api)
 </dt> </dl>
 
  

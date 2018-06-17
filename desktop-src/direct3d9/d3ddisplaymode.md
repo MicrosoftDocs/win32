@@ -92,13 +92,13 @@ Member of the [D3DFORMAT](d3dformat.md) enumerated type, describing the surface 
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**EnumAdapterModes**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-enumadaptermodes)
+[**EnumAdapterModes**](/windows/desktop/api)
 </dt> <dt>
 
-[**GetAdapterDisplayMode**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-getadapterdisplaymode)
+[**GetAdapterDisplayMode**](/windows/desktop/api)
 </dt> <dt>
 
-[**GetDisplayMode**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-getdisplaymode)
+[**GetDisplayMode**](/windows/desktop/api)
 </dt> </dl>
 
  

@@ -21,7 +21,7 @@ The scheduler maintains a queue of executable threads for each priority level. T
 The following classes of threads are not ready threads.
 
 -   Threads created with the CREATE\_SUSPENDED flag
--   Threads halted during execution with the [**SuspendThread**](/windows/desktop/api/WinBase/nf-processthreadsapi-suspendthread) or [**SwitchToThread**](/windows/desktop/api/WinBase/nf-processthreadsapi-switchtothread) function
+-   Threads halted during execution with the [**SuspendThread**](/windows/desktop/api) or [**SwitchToThread**](/windows/desktop/api) function
 -   Threads waiting for a synchronization object or input.
 
 Until threads that are suspended or blocked become ready to run, the scheduler does not allocate any processor time to them, regardless of their priority.

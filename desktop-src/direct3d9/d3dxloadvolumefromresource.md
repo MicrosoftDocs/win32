@@ -39,9 +39,9 @@ HRESULT D3DXLoadVolumeFromResource(
 *pDestVolume* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVOLUME9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dvolume9)**
+Type: **[**LPDIRECT3DVOLUME9**](/windows/desktop/api)**
 
-Pointer to an [**IDirect3DVolume9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dvolume9) interface. Specifies the destination volume.
+Pointer to an [**IDirect3DVolume9**](/windows/desktop/api) interface. Specifies the destination volume.
 
 </dd> <dt>
 
@@ -129,7 +129,7 @@ The resource being loaded must be a bitmap resource(RT\_BITMAP).
 
 This function handles conversion to and from compressed texture formats.
 
-Writing to a non-level-zero surface of the volume texture will not cause the dirty rectangle to be updated. If [**D3DXLoadVolumeFromFile**](d3dxloadvolumefromfile.md) is called and the texture was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**IDirect3DVolumeTexture9::AddDirtyBox**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dvolumetexture9-adddirtybox) on the volume texture.
+Writing to a non-level-zero surface of the volume texture will not cause the dirty rectangle to be updated. If [**D3DXLoadVolumeFromFile**](d3dxloadvolumefromfile.md) is called and the texture was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**IDirect3DVolumeTexture9::AddDirtyBox**](/windows/desktop/api) on the volume texture.
 
 This function supports both Unicode and ANSI strings.
 

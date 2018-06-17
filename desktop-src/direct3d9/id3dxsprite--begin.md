@@ -56,7 +56,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 ## Remarks
 
-This method must be called from inside a [**IDirect3DDevice9::BeginScene**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-beginscene) . . . [**IDirect3DDevice9::EndScene**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-endscene) sequence. **ID3DXSprite::Begin** cannot be used as a substitute for either **IDirect3DDevice9::BeginScene** or [**ID3DXRenderToSurface::BeginScene**](id3dxrendertosurface--beginscene.md).
+This method must be called from inside a [**IDirect3DDevice9::BeginScene**](/windows/desktop/api) . . . [**IDirect3DDevice9::EndScene**](/windows/desktop/api) sequence. **ID3DXSprite::Begin** cannot be used as a substitute for either **IDirect3DDevice9::BeginScene** or [**ID3DXRenderToSurface::BeginScene**](id3dxrendertosurface--beginscene.md).
 
 This method will set the following states on the device.
 

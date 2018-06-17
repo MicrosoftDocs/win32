@@ -53,9 +53,9 @@ Type: **[**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/en-us/library/Bb1
 *pSrcSurface* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DSURFACE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dsurface9)**
+Type: **[**LPDIRECT3DSURFACE9**](/windows/desktop/api)**
 
-Pointer to [**IDirect3DSurface9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dsurface9) interface, containing the image to be saved.
+Pointer to [**IDirect3DSurface9**](/windows/desktop/api) interface, containing the image to be saved.
 
 </dd> <dt>
 

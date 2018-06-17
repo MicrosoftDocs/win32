@@ -45,7 +45,7 @@ The following three methods require encryption or decryption.
 
  
 
-Encryption and decryption are both done by single method calls. Encryption is done by [**CSecureChannelClient::EncryptParam**](/windows/desktop/api/scclient/nf-scclient-csecurechannelclient-encryptparam) for applications or by [**CSecureChannelServer::EncryptParam**](/windows/desktop/api/scserver/nf-scserver-csecurechannelserver-encryptparam) for service providers. Decryption is done by [**CSecureChannelClient::DecryptParam**](/windows/desktop/api/scclient/nf-scclient-csecurechannelclient-decryptparam) for applications or [**CSecureChannelServer::DecryptParam**](/windows/desktop/api/scserver/nf-scserver-csecurechannelserver-decryptparam) for service providers. The parameters are identical between the client and server methods.
+Encryption and decryption are both done by single method calls. Encryption is done by [**CSecureChannelClient::EncryptParam**](/windows/desktop/api) for applications or by [**CSecureChannelServer::EncryptParam**](/windows/desktop/api) for service providers. Decryption is done by [**CSecureChannelClient::DecryptParam**](/windows/desktop/api) for applications or [**CSecureChannelServer::DecryptParam**](/windows/desktop/api) for service providers. The parameters are identical between the client and server methods.
 
 The following steps show how to encrypt and decrypt data. (These steps are important only if your application communicates with a legacy service provider that does not implement [IWMDMOperation3::TransferObjectDataOnClearChannel](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation3-transferobjectdataonclearchannel).)
 

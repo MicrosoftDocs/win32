@@ -56,7 +56,7 @@ The length, in bytes, of the valid data in the output buffer if the buffer is la
 *Process* \[in, optional\]
 </dt> <dd>
 
-An optional handle to a process. This process is used to determine the value of the **AllocatedToTargetProcess** flag in the SYSTEM\_CPU\_SET\_INFORMATION structure. If a CPU Set is allocated to the specified process, the flag is set. Otherwise, it is clear. This handle must have the PROCESS\_QUERY\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-getcurrentprocess) may also be specified here.
+An optional handle to a process. This process is used to determine the value of the **AllocatedToTargetProcess** flag in the SYSTEM\_CPU\_SET\_INFORMATION structure. If a CPU Set is allocated to the specified process, the flag is set. Otherwise, it is clear. This handle must have the PROCESS\_QUERY\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentProcess**](/windows/desktop/api) may also be specified here.
 
 </dd> <dt>
 

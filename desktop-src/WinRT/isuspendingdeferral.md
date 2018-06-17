@@ -15,7 +15,7 @@ Manages a delayed app suspending operation.
 
 ## Members
 
-The **ISuspendingDeferral** interface inherits from [**IInspectable**](/windows/desktop/api/Inspectable/nn-inspectable-iinspectable). **ISuspendingDeferral** also has these types of members:
+The **ISuspendingDeferral** interface inherits from [**IInspectable**](/windows/desktop/api). **ISuspendingDeferral** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -50,7 +50,7 @@ The **ISuspendingDeferral** interface has these methods.
 
 <dl> <dt>
 
-[**IInspectable**](/windows/desktop/api/Inspectable/nn-inspectable-iinspectable)
+[**IInspectable**](/windows/desktop/api)
 </dt> <dt>
 
 [**ISuspendingEventArgs**](isuspendingeventargs.md)

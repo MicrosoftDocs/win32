@@ -33,9 +33,9 @@ HRESULT D3DXFillVolumeTexture(
 *pTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVOLUMETEXTURE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dvolumetexture9)**
+Type: **[**LPDIRECT3DVOLUMETEXTURE9**](/windows/desktop/api)**
 
-Pointer to an [**IDirect3DVolumeTexture9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dvolumetexture9) interface, representing the filled texture.
+Pointer to an [**IDirect3DVolumeTexture9**](/windows/desktop/api) interface, representing the filled texture.
 
 </dd> <dt>
 

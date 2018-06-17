@@ -150,7 +150,7 @@ The definition of an object in code. In C++, the class of an object is defined a
 <span id="com.class_factory_gloss"></span><span id="COM.CLASS_FACTORY_GLOSS"></span>**class factory**
 </dt> <dd>
 
-A COM object that implements the [**IClassFactory**](/windows/desktop/api/unknwnbase/nn-unknwn-iclassfactory) interface and that creates one or more instances of an object identified by a given class identifier(CLSID).
+A COM object that implements the [**IClassFactory**](/windows/desktop/api) interface and that creates one or more instances of an object identified by a given class identifier(CLSID).
 
 </dd> <dt>
 
@@ -642,7 +642,7 @@ An out-of-process server implemented as an .EXE application running on the same 
 <span id="com.lock_gloss"></span><span id="COM.LOCK_GLOSS"></span>**lock**
 </dt> <dd>
 
-A pointer held to-and possibly, a reference count incremented on-a running object. OLE defines two types of locks that can be held on an object: strong and weak. To implement a strong lock, a server must maintain both a pointer and a reference count, so that the object will remain "locked" in memory at least until the server calls [**IUnknown::Release**](/windows/desktop/api/unknwnbase/nf-unknwn-iunknown-release). To implement a weak lock, the server maintains only a pointer to the object, so that the object can be destroyed by another process.
+A pointer held to-and possibly, a reference count incremented on-a running object. OLE defines two types of locks that can be held on an object: strong and weak. To implement a strong lock, a server must maintain both a pointer and a reference count, so that the object will remain "locked" in memory at least until the server calls [**IUnknown::Release**](/windows/desktop/api). To implement a weak lock, the server maintains only a pointer to the object, so that the object can be destroyed by another process.
 
 </dd> <dt>
 

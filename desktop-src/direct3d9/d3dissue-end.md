@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # D3DISSUE\_END
 
-This macro creates a value used by [**Issue**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dquery9-issue) to issue a query end.
+This macro creates a value used by [**Issue**](/windows/desktop/api) to issue a query end.
 
 ``` syntax
 #define D3DISSUE_END (1 << 0)

@@ -40,7 +40,7 @@ Notice that the preceding vertex format contains only one blending weight value.
 
 ## Setting Blending Matrices
 
-You set the transformation matrices between which the system blends by calling the [**IDirect3DDevice9::SetTransform**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settransform) method. Set the first parameter to a value defined by the [**D3DTS\_WORLDMATRIX**](d3dts-worldmatrix.md) macro, and set the second parameter to the address of the matrix to be set.
+You set the transformation matrices between which the system blends by calling the [**IDirect3DDevice9::SetTransform**](/windows/desktop/api) method. Set the first parameter to a value defined by the [**D3DTS\_WORLDMATRIX**](d3dts-worldmatrix.md) macro, and set the second parameter to the address of the matrix to be set.
 
 The following C++ code example sets two world matrices, between which geometry is blended to create the illusion of a jointed arm.
 
@@ -67,7 +67,7 @@ Setting a blending matrix merely causes the system to cache the matrix for later
 
 ## Enabling Geometry Blending
 
-Geometry blending is disabled by default. To enable geometry blending, call the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate) method to set the D3DRS\_VERTEXBLEND render state to a value from the [**D3DVERTEXBLENDFLAGS**](https://msdn.microsoft.com/en-us/library/Bb172628(v=VS.85).aspx) enumerated type. The following code example shows what this call might look like when setting the render state for a blend between two world matrices.
+Geometry blending is disabled by default. To enable geometry blending, call the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api) method to set the D3DRS\_VERTEXBLEND render state to a value from the [**D3DVERTEXBLENDFLAGS**](https://msdn.microsoft.com/en-us/library/Bb172628(v=VS.85).aspx) enumerated type. The following code example shows what this call might look like when setting the render state for a blend between two world matrices.
 
 
 ```

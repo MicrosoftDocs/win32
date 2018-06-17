@@ -31,7 +31,7 @@ HRESULT GetVertexBuffer(
 *ppVB* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVERTEXBUFFER9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dvertexbuffer9)\***
+Type: **[**LPDIRECT3DVERTEXBUFFER9**](/windows/desktop/api)\***
 
 Pointer to the vertex buffer.
 

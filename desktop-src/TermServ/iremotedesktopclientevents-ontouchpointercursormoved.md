@@ -27,7 +27,7 @@ ms.date: 05/31/2018
 
 # IRemoteDesktopClientEvents::OnTouchPointerCursorMoved method
 
-Called when the touch pointer cursor has moved and the [**EventsEnabled**](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclienttouchpointer-get_eventsenabled) property is set to true.
+Called when the touch pointer cursor has moved and the [**EventsEnabled**](/windows/desktop/api) property is set to true.
 
 ## Syntax
 

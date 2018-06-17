@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # ID3DXPRTCompBuffer::ExtractTexture method
 
-Extracts the per-sample principal component analysis (PCA) projection coefficients from an [**ID3DXPRTCompBuffer**](id3dxprtcompbuffer.md) compressed data buffer and adds the data to an [**IDirect3DTexture9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dtexture9) object.
+Extracts the per-sample principal component analysis (PCA) projection coefficients from an [**ID3DXPRTCompBuffer**](id3dxprtcompbuffer.md) compressed data buffer and adds the data to an [**IDirect3DTexture9**](/windows/desktop/api) object.
 
 ## Syntax
 
@@ -51,9 +51,9 @@ Number of PCA coefficients to extract from the buffer.
 *pTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dtexture9)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/desktop/api)**
 
-Pointer to an [**IDirect3DTexture9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dtexture9) texture object that will store PCA coefficients.
+Pointer to an [**IDirect3DTexture9**](/windows/desktop/api) texture object that will store PCA coefficients.
 
 </dd> </dl>
 

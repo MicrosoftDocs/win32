@@ -43,7 +43,7 @@ CUSTOMVERTEX Vertices[] =
 
 
 
-The code example below shows how to render this triangle fan in Direct3D 9 using [**IDirect3DDevice9::DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive).
+The code example below shows how to render this triangle fan in Direct3D 9 using [**IDirect3DDevice9::DrawPrimitive**](/windows/desktop/api).
 
 
 ```

@@ -33,7 +33,7 @@ HRESULT SetNPatchMode(
 
 Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
-Break the surface into this number of subdivisions. This is the same as the number used by [**IDirect3DDevice9::SetNPatchMode**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setnpatchmode).
+Break the surface into this number of subdivisions. This is the same as the number used by [**IDirect3DDevice9::SetNPatchMode**](/windows/desktop/api).
 
 </dd> </dl>
 
@@ -44,7 +44,7 @@ Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.1
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 
 -   The effect will fail during [**ID3DXEffect::BeginPass**](id3dxeffect--beginpass.md).
--   The dynamic effect state call (such as [**IDirect3DDevice9::SetNPatchMode**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setnpatchmode)) will fail.
+-   The dynamic effect state call (such as [**IDirect3DDevice9::SetNPatchMode**](/windows/desktop/api)) will fail.
 
 ## Requirements
 

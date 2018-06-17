@@ -18,7 +18,7 @@ Terminating a thread has the following results:
 -   The thread object is signaled.
 -   If the thread is the only active thread in the process, the process is terminated. For more information, see [Terminating a Process](terminating-a-process.md).
 
-The [**GetExitCodeThread**](/windows/desktop/api/WinBase/nf-processthreadsapi-getexitcodethread) function returns the termination status of a thread. While a thread is executing, its termination status is STILL\_ACTIVE. When a thread terminates, its termination status changes from STILL\_ACTIVE to the exit code of the thread.
+The [**GetExitCodeThread**](/windows/desktop/api) function returns the termination status of a thread. While a thread is executing, its termination status is STILL\_ACTIVE. When a thread terminates, its termination status changes from STILL\_ACTIVE to the exit code of the thread.
 
 When a thread terminates, the state of the thread object changes to signaled, releasing any other threads that had been waiting for the thread to terminate. For more about synchronization, see [Synchronizing Execution of Multiple Threads](synchronizing-execution-of-multiple-threads.md).
 
@@ -28,17 +28,17 @@ When a thread terminates, its thread object is not freed until all open handles 
 
 A thread executes until one of the following events occurs:
 
--   The thread calls the [**ExitThread**](/windows/desktop/api/WinBase/nf-processthreadsapi-exitthread) function.
--   Any thread of the process calls the [**ExitProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-exitprocess) function.
+-   The thread calls the [**ExitThread**](/windows/desktop/api) function.
+-   Any thread of the process calls the [**ExitProcess**](/windows/desktop/api) function.
 -   The thread function returns.
--   Any thread calls the [**TerminateThread**](/windows/desktop/api/WinBase/nf-processthreadsapi-terminatethread) function with a handle to the thread.
--   Any thread calls the [**TerminateProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-terminateprocess) function with a handle to the process.
+-   Any thread calls the [**TerminateThread**](/windows/desktop/api) function with a handle to the thread.
+-   Any thread calls the [**TerminateProcess**](/windows/desktop/api) function with a handle to the process.
 
-The exit code for a thread is either the value specified in the call to [**ExitThread**](/windows/desktop/api/WinBase/nf-processthreadsapi-exitthread), [**ExitProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-exitprocess), [**TerminateThread**](/windows/desktop/api/WinBase/nf-processthreadsapi-terminatethread), or [**TerminateProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-terminateprocess), or the value returned by the thread function.
+The exit code for a thread is either the value specified in the call to [**ExitThread**](/windows/desktop/api), [**ExitProcess**](/windows/desktop/api), [**TerminateThread**](/windows/desktop/api), or [**TerminateProcess**](/windows/desktop/api), or the value returned by the thread function.
 
-If a thread is terminated by [**ExitThread**](/windows/desktop/api/WinBase/nf-processthreadsapi-exitthread), the system calls the entry-point function of each attached DLL with a value indicating that the thread is detaching from the DLL (unless you call the [**DisableThreadLibraryCalls**](https://msdn.microsoft.com/en-us/library/ms682579(v=VS.85).aspx) function). If a thread is terminated by [**ExitProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-exitprocess), the DLL entry-point functions are invoked once, to indicate that the process is detaching. DLLs are not notified when a thread is terminated by [**TerminateThread**](/windows/desktop/api/WinBase/nf-processthreadsapi-terminatethread) or [**TerminateProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-terminateprocess). For more information about DLLs, see [Dynamic-Link Libraries](https://msdn.microsoft.com/en-us/library/ms682589(v=VS.85).aspx).
+If a thread is terminated by [**ExitThread**](/windows/desktop/api), the system calls the entry-point function of each attached DLL with a value indicating that the thread is detaching from the DLL (unless you call the [**DisableThreadLibraryCalls**](https://msdn.microsoft.com/en-us/library/ms682579(v=VS.85).aspx) function). If a thread is terminated by [**ExitProcess**](/windows/desktop/api), the DLL entry-point functions are invoked once, to indicate that the process is detaching. DLLs are not notified when a thread is terminated by [**TerminateThread**](/windows/desktop/api) or [**TerminateProcess**](/windows/desktop/api). For more information about DLLs, see [Dynamic-Link Libraries](https://msdn.microsoft.com/en-us/library/ms682589(v=VS.85).aspx).
 
-The [**TerminateThread**](/windows/desktop/api/WinBase/nf-processthreadsapi-terminatethread) and [**TerminateProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-terminateprocess) functions should be used only in extreme circumstances, since they do not allow threads to clean up, do not notify attached DLLs, and do not free the initial stack. In addition, handles to objects owned by the thread are not closed until the process terminates. The following steps provide a better solution:
+The [**TerminateThread**](/windows/desktop/api) and [**TerminateProcess**](/windows/desktop/api) functions should be used only in extreme circumstances, since they do not allow threads to clean up, do not notify attached DLLs, and do not free the initial stack. In addition, handles to objects owned by the thread are not closed until the process terminates. The following steps provide a better solution:
 
 -   Create an event object using the [**CreateEvent**](https://msdn.microsoft.com/en-us/library/ms682396(v=VS.85).aspx) function.
 -   Create the threads.

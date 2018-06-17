@@ -39,9 +39,9 @@ HRESULT D3DXCreateVolumeTexture(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api)**
 
-Pointer to an [**IDirect3DDevice9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9) interface, representing the device to be associated with the volume texture.
+Pointer to an [**IDirect3DDevice9**](/windows/desktop/api) interface, representing the device to be associated with the volume texture.
 
 </dd> <dt>
 
@@ -111,9 +111,9 @@ Member of the [**D3DPOOL**](https://msdn.microsoft.com/en-us/library/Bb172584(v=
 *ppVolumeTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVOLUMETEXTURE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dvolumetexture9)\***
+Type: **[**LPDIRECT3DVOLUMETEXTURE9**](/windows/desktop/api)\***
 
-Address of a pointer to an [**IDirect3DVolumeTexture9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dvolumetexture9) interface, representing the created volume texture object.
+Address of a pointer to an [**IDirect3DVolumeTexture9**](/windows/desktop/api) interface, representing the created volume texture object.
 
 </dd> </dl>
 
@@ -125,7 +125,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 ## Remarks
 
-Internally, D3DXCreateVolumeTexture uses [**D3DXCheckVolumeTextureRequirements**](d3dxcheckvolumetexturerequirements.md) to adjust the calling parameters. Therefore, calls to D3DXCreateVolumeTexture will often succeed where calls to [**CreateVolumeTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createvolumetexture) would fail.
+Internally, D3DXCreateVolumeTexture uses [**D3DXCheckVolumeTextureRequirements**](d3dxcheckvolumetexturerequirements.md) to adjust the calling parameters. Therefore, calls to D3DXCreateVolumeTexture will often succeed where calls to [**CreateVolumeTexture**](/windows/desktop/api) would fail.
 
 ## Requirements
 

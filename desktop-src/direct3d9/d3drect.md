@@ -92,7 +92,7 @@ The y-coordinate of the lower-right corner of the rectangle.
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**Clear**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-clear)
+[**Clear**](/windows/desktop/api)
 </dt> </dl>
 
  

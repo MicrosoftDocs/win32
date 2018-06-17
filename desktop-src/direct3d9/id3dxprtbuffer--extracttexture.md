@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # ID3DXPRTBuffer::ExtractTexture method
 
-Extracts coefficient data from a color channel of the buffer for a specified range of coefficients, and adds the data to an [**IDirect3DTexture9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dtexture9) object.
+Extracts coefficient data from a color channel of the buffer for a specified range of coefficients, and adds the data to an [**IDirect3DTexture9**](/windows/desktop/api) object.
 
 ## Syntax
 
@@ -61,9 +61,9 @@ Number of scalars, beginning at StartCoefficient, from which to extract texture 
 *pTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dtexture9)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/desktop/api)**
 
-Pointer to a [**IDirect3DTexture9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dtexture9) texture object that will store coefficients.
+Pointer to a [**IDirect3DTexture9**](/windows/desktop/api) texture object that will store coefficients.
 
 </dd> </dl>
 

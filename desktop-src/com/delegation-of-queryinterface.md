@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 
 # Delegation of QueryInterface
 
-Handlers that require access to some of the internal interfaces on the proxy manager have to go through the [**IInternalUnknown**](/windows/desktop/api/objidlbase/nn-objidl-iinternalunknown) interface. This prevents handlers from blindly delegating and exposing the aggregatee's internal interfaces outside of the aggregate. These interfaces include [**IClientSecurity**](/windows/desktop/api/ObjIdl/nn-objidl-iclientsecurity) and [**IMultiQI**](/windows/desktop/api/objidlbase/nn-objidl-imultiqi). If the handler wants to expose **IClientSecurity** or **IMultiQI**, it should implement them itself.
+Handlers that require access to some of the internal interfaces on the proxy manager have to go through the [**IInternalUnknown**](/windows/desktop/api) interface. This prevents handlers from blindly delegating and exposing the aggregatee's internal interfaces outside of the aggregate. These interfaces include [**IClientSecurity**](/windows/desktop/api/ObjIdl/nn-objidl-iclientsecurity) and [**IMultiQI**](/windows/desktop/api). If the handler wants to expose **IClientSecurity** or **IMultiQI**, it should implement them itself.
 
 In the case of [**IClientSecurity**](/windows/desktop/api/ObjIdl/nn-objidl-iclientsecurity), if the client tries to set the security on an interface that the handler has exposed, the handler should set the security on the underlying network interface proxy.
 
-In the case of [**IMultiQI**](/windows/desktop/api/objidlbase/nn-objidl-imultiqi), the handler should fill in the interfaces it knows about and then forward the call to the proxy manager to get the rest of the interfaces filled in.
+In the case of [**IMultiQI**](/windows/desktop/api), the handler should fill in the interfaces it knows about and then forward the call to the proxy manager to get the rest of the interfaces filled in.
 
 ## Related topics
 

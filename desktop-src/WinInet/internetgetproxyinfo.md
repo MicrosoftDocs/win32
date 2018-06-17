@@ -144,13 +144,13 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 <dl> <dt>
 
-[**InternetInitializeAutoProxyDll**](/windows/desktop/api/winineti/nf-wininet-internetinitializeautoproxydll)
+[**InternetInitializeAutoProxyDll**](/windows/desktop/api)
 </dt> <dt>
 
 [**InternetDeInitializeAutoProxyDll**](https://msdn.microsoft.com/en-us/library/Aa384580(v=VS.85).aspx)
 </dt> <dt>
 
-[**DetectAutoProxyUrl**](/windows/desktop/api/winineti/nf-wininet-detectautoproxyurl)
+[**DetectAutoProxyUrl**](/windows/desktop/api)
 </dt> </dl>
 
  

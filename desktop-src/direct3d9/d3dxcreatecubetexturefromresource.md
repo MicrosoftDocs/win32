@@ -34,9 +34,9 @@ HRESULT D3DXCreateCubeTextureFromResource(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api)**
 
-Pointer to an [**IDirect3DDevice9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9) interface, representing the device to be associated with the cube texture.
+Pointer to an [**IDirect3DDevice9**](/windows/desktop/api) interface, representing the device to be associated with the cube texture.
 
 </dd> <dt>
 
@@ -61,9 +61,9 @@ Pointer to a string that specifies the resource name. If the compiler settings r
 *ppCubeTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DCUBETEXTURE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dcubetexture9)\***
+Type: **[**LPDIRECT3DCUBETEXTURE9**](/windows/desktop/api)\***
 
-Address of a pointer to an [**IDirect3DCubeTexture9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dcubetexture9) interface, representing the created cube texture object.
+Address of a pointer to an [**IDirect3DCubeTexture9**](/windows/desktop/api) interface, representing the created cube texture object.
 
 </dd> </dl>
 

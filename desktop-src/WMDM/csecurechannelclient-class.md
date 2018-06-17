@@ -26,18 +26,18 @@ The **CSecureChannelClient** class exposes the following methods.
 
 | Method                                                            | Description                                                                                                               |
 |-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| [**Authenticate**](/windows/desktop/api/scclient/nf-scclient-csecurechannelclient-authenticate)         | Triggers the exchange of certificates between components to establish trust.                                              |
-| [**DecryptParam**](/windows/desktop/api/scclient/nf-scclient-csecurechannelclient-decryptparam)         | Decrypts data received through a parameter.                                                                               |
-| [**EncryptParam**](/windows/desktop/api/scclient/nf-scclient-csecurechannelclient-encryptparam)         | Encrypts data being sent out through a parameter.                                                                         |
-| [**fIsAuthenticated**](/windows/desktop/api/scclient/nf-scclient-csecurechannelclient-fisauthenticated) | Verifies that a secure authentication channel has been successfully established. This method is not used by applications. |
-| [**GetAppSec**](/windows/desktop/api/scclient/nf-scclient-csecurechannelclient-getappsec)               | Retrieves the application security levels of the local and remote components.                                             |
-| [**GetSessionKey**](/windows/desktop/api/scclient/nf-scclient-csecurechannelclient-getsessionkey)       | Retrieves the current session key. This method is not used by applications.                                               |
-| [**MACFinal**](/windows/desktop/api/scclient/nf-scclient-csecurechannelclient-macfinal)                 | Releases the message authentication code (MAC) channel and retrieves a final MAC value.                                   |
-| [**MACInit**](/windows/desktop/api/scclient/nf-scclient-csecurechannelclient-macinit)                   | Acquires a message authentication code (MAC) channel.                                                                     |
-| [**MACUpdate**](/windows/desktop/api/scclient/nf-scclient-csecurechannelclient-macupdate)               | Adds a value to a message authentication code (MAC).                                                                      |
-| [**SetCertificate**](/windows/desktop/api/scclient/nf-scclient-csecurechannelclient-setcertificate)     | Specifies the certificate and private key of the secure authenticated channel (SAC) client.                               |
-| [**SetInterface**](/windows/desktop/api/scclient/nf-scclient-csecurechannelclient-setinterface)         | Selects the interface used for secure authenticated channel (SAC) communications.                                         |
-| [**SetSessionKey**](/windows/desktop/api/scclient/nf-scclient-csecurechannelclient-setsessionkey)       | Sets the session key that is used to communicate with another component. This method is not used by applications.         |
+| [**Authenticate**](/windows/desktop/api)         | Triggers the exchange of certificates between components to establish trust.                                              |
+| [**DecryptParam**](/windows/desktop/api)         | Decrypts data received through a parameter.                                                                               |
+| [**EncryptParam**](/windows/desktop/api)         | Encrypts data being sent out through a parameter.                                                                         |
+| [**fIsAuthenticated**](/windows/desktop/api) | Verifies that a secure authentication channel has been successfully established. This method is not used by applications. |
+| [**GetAppSec**](/windows/desktop/api)               | Retrieves the application security levels of the local and remote components.                                             |
+| [**GetSessionKey**](/windows/desktop/api)       | Retrieves the current session key. This method is not used by applications.                                               |
+| [**MACFinal**](/windows/desktop/api)                 | Releases the message authentication code (MAC) channel and retrieves a final MAC value.                                   |
+| [**MACInit**](/windows/desktop/api)                   | Acquires a message authentication code (MAC) channel.                                                                     |
+| [**MACUpdate**](/windows/desktop/api)               | Adds a value to a message authentication code (MAC).                                                                      |
+| [**SetCertificate**](/windows/desktop/api)     | Specifies the certificate and private key of the secure authenticated channel (SAC) client.                               |
+| [**SetInterface**](/windows/desktop/api)         | Selects the interface used for secure authenticated channel (SAC) communications.                                         |
+| [**SetSessionKey**](/windows/desktop/api)       | Sets the session key that is used to communicate with another component. This method is not used by applications.         |
 
 
 

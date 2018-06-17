@@ -30,7 +30,7 @@ To simplify common matrix operations, Direct2D provides the [**D2D1::Matrix3x2F*
 
 ## Examples
 
-The following example uses the [**D2D1::Matrix3x2F::Rotation**](/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-rotation) method to create a rotation matrix that rotates a square clockwise 45 degrees about the center of the square and passes the matrix to the [**SetTransform**](/windows/desktop/api/d2d1_1/nf-d2d1-settransform) method of the render target (*m\_pRenderTarget*).
+The following example uses the [**D2D1::Matrix3x2F::Rotation**](/windows/desktop/api) method to create a rotation matrix that rotates a square clockwise 45 degrees about the center of the square and passes the matrix to the [**SetTransform**](/windows/desktop/api) method of the render target (*m\_pRenderTarget*).
 
 The following illustration shows the effect of applying the preceding rotation transformation to the square. The original square is a dotted outline, and the rotated square is a solid outline.
 

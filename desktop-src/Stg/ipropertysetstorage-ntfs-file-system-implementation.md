@@ -74,7 +74,7 @@ Deletes a property set in the current property storage.
 <span id="IPropertySetStorage__Enum"></span><span id="ipropertysetstorage__enum"></span><span id="IPROPERTYSETSTORAGE__ENUM"></span>[**IPropertySetStorage::Enum**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-enum)
 </dt> <dd>
 
-Creates an object used to enumerate [**STATPROPSETSTG**](/windows/desktop/api/propidlbase/ns-propidl-tagstatpropsetstg) structures. Each **STATPROPSETSTG** structure provides data about a single property set.
+Creates an object used to enumerate [**STATPROPSETSTG**](/windows/desktop/api) structures. Each **STATPROPSETSTG** structure provides data about a single property set.
 
 </dd> </dl>
 
@@ -86,7 +86,7 @@ The NTFS implementation of [**IPropertySetStorage**](/windows/desktop/api/Propid
 
 The NTFS implementation of [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) differs from the compound file implementation in the following ways:
 
--   A [**STATPROPSETSTG**](/windows/desktop/api/propidlbase/ns-propidl-tagstatpropsetstg) structure obtained from the [**IEnumSTATPROPSETSTG**](/windows/desktop/api/propidlbase/nn-propidl-ienumstatpropsetstg) interface contains a **clsid** member whose value is always zero (**CLSID\_NULL**). With the compound file implementation, the correct **clsid** member is returned for non-simple (see [Storage and Stream Objects for a Property Set](storage-vs--stream-for-a-property-set.md)) property sets.
+-   A [**STATPROPSETSTG**](/windows/desktop/api) structure obtained from the [**IEnumSTATPROPSETSTG**](/windows/desktop/api) interface contains a **clsid** member whose value is always zero (**CLSID\_NULL**). With the compound file implementation, the correct **clsid** member is returned for non-simple (see [Storage and Stream Objects for a Property Set](storage-vs--stream-for-a-property-set.md)) property sets.
 -   When obtaining an NTFS implementation of [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) interface pointer using the [**StgCreateStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex) or [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) function, the *grfmode* parameter must follow the same rules as for the compound file implementation.
 
     In addition, the following flags may not be used:
@@ -120,7 +120,7 @@ The NTFS implementation of [**IPropertySetStorage**](/windows/desktop/api/Propid
 [**PROPSETFLAG Constants**](propsetflag-constants.md)
 </dt> <dt>
 
-[**STATPROPSETSTG**](/windows/desktop/api/propidlbase/ns-propidl-tagstatpropsetstg)
+[**STATPROPSETSTG**](/windows/desktop/api)
 </dt> </dl>
 
  

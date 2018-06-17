@@ -106,16 +106,16 @@ Using [Triangle Strips](triangle-strips.md) or [Triangle Fans (Direct3D 9)](tria
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::DrawIndexedPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawindexedprimitive)
+[**IDirect3DDevice9::DrawIndexedPrimitive**](/windows/desktop/api)
 </dt> <dt>
 
-[**IDirect3DDevice9::DrawIndexedPrimitiveUP**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawindexedprimitiveup)
+[**IDirect3DDevice9::DrawIndexedPrimitiveUP**](/windows/desktop/api)
 </dt> <dt>
 
-[**IDirect3DDevice9::DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive)
+[**IDirect3DDevice9::DrawPrimitive**](/windows/desktop/api)
 </dt> <dt>
 
-[**IDirect3DDevice9::DrawPrimitiveUP**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitiveup)
+[**IDirect3DDevice9::DrawPrimitiveUP**](/windows/desktop/api)
 </dt> </dl>
 
  

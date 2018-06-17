@@ -63,13 +63,13 @@ In Direct3D, the \_34 element of a projection matrix cannot be a negative number
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetTransform**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-gettransform)
+[**GetTransform**](/windows/desktop/api)
 </dt> <dt>
 
-[**MultiplyTransform**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-multiplytransform)
+[**MultiplyTransform**](/windows/desktop/api)
 </dt> <dt>
 
-[**SetTransform**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settransform)
+[**SetTransform**](/windows/desktop/api)
 </dt> <dt>
 
 **SetTransform**

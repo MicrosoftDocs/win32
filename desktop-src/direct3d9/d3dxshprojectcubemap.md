@@ -44,9 +44,9 @@ Order of the spherical harmonic (SH) evaluation. Must be in the range of [D3DXSH
 *pCubeMap* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DCUBETEXTURE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dcubetexture9)**
+Type: **[**LPDIRECT3DCUBETEXTURE9**](/windows/desktop/api)**
 
-Pointer to a source cube texture. See [**IDirect3DCubeTexture9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dcubetexture9).
+Pointer to a source cube texture. See [**IDirect3DCubeTexture9**](/windows/desktop/api).
 
 </dd> <dt>
 

@@ -171,10 +171,10 @@ Same as **PRIVACY\_TEMPLATE\_LOW**.
 
 <dl> <dt>
 
-[**PrivacyGetZonePreferenceW**](/windows/desktop/api/winineti/nf-wininet-privacygetzonepreferencew)
+[**PrivacyGetZonePreferenceW**](/windows/desktop/api)
 </dt> <dt>
 
-[**PrivacySetZonePreferenceW**](/windows/desktop/api/winineti/nf-wininet-privacysetzonepreferencew)
+[**PrivacySetZonePreferenceW**](/windows/desktop/api)
 </dt> </dl>
 
  

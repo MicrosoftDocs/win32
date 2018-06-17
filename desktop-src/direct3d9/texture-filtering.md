@@ -19,7 +19,7 @@ Direct3D simplifies the complex process of texture filtering. It provides you wi
 
 Each type of texture filtering has advantages and disadvantages. For instance, linear texture filtering can produce jagged edges or a chunky appearance in the final image. However, it is a computationally low-overhead method of texture filtering. Filtering with mipmaps usually produces the best results, especially when combined with anisotropic filtering. However, it requires the most memory of the techniques that Direct3D supports.
 
-Applications that use texture interface pointers should set the current texture filtering method by calling the [**IDirect3DDevice9::SetSamplerState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setsamplerstate) method. Set the value of the first parameter to the integer index number (0-7) of the texture for which you are selecting a texture filtering method. Pass D3DSAMP\_MAGFILTER, D3DSAMP\_MINFILTER, or D3DSAMP\_MIPFILTER for the second parameter to set the magnification, minification, or mipmapping filter. Pass a member of the [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/en-us/library/Bb172615(v=VS.85).aspx) enumerated type as the value in the third parameter.
+Applications that use texture interface pointers should set the current texture filtering method by calling the [**IDirect3DDevice9::SetSamplerState**](/windows/desktop/api) method. Set the value of the first parameter to the integer index number (0-7) of the texture for which you are selecting a texture filtering method. Pass D3DSAMP\_MAGFILTER, D3DSAMP\_MINFILTER, or D3DSAMP\_MIPFILTER for the second parameter to set the magnification, minification, or mipmapping filter. Pass a member of the [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/en-us/library/Bb172615(v=VS.85).aspx) enumerated type as the value in the third parameter.
 
 This section presents the texture filtering methods that Direct3D supports. It is organized into the following topics.
 
@@ -30,7 +30,7 @@ This section presents the texture filtering methods that Direct3D supports. It i
 -   [Texture Filtering with Mipmaps (Direct3D 9)](texture-filtering-with-mipmaps.md)
 
 > [!Note]  
-> Although the texture-filtering render states present in the [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx) enumerated type are superseded by texture stage states, the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate), as opposed to the IDirect3DDevice2 version, does not fail if you attempt to use them. Rather, the system maps the effects of these render states to the first stage in the multitexture cascade, stage 0. Applications should not mix the legacy render states with their corresponding texture stage states, as unpredictable results can occur.
+> Although the texture-filtering render states present in the [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx) enumerated type are superseded by texture stage states, the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api), as opposed to the IDirect3DDevice2 version, does not fail if you attempt to use them. Rather, the system maps the effects of these render states to the first stage in the multitexture cascade, stage 0. Applications should not mix the legacy render states with their corresponding texture stage states, as unpredictable results can occur.
 
  
 

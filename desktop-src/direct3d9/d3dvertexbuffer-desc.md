@@ -116,7 +116,7 @@ Combination of [D3DFVF](d3dfvf.md) that describes the vertex format of the verti
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetDesc**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dvertexbuffer9-getdesc)
+[**GetDesc**](/windows/desktop/api)
 </dt> <dt>
 
 [Vertex Buffers (Direct3D 9)](vertex-buffers.md)

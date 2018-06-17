@@ -52,9 +52,9 @@ Type: **[**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/en-us/library/Bb1
 *pSrcTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DBASETEXTURE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dbasetexture9)**
+Type: **[**LPDIRECT3DBASETEXTURE9**](/windows/desktop/api)**
 
-Pointer to [**IDirect3DBaseTexture9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dbasetexture9) interface, containing the texture to be saved.
+Pointer to [**IDirect3DBaseTexture9**](/windows/desktop/api) interface, containing the texture to be saved.
 
 </dd> <dt>
 

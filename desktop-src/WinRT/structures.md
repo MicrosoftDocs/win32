@@ -14,9 +14,9 @@ ms.date: 05/31/2018
 ## In this section
 
 -   [**APARTMENT\_SHUTDOWN\_REGISTRATION\_COOKIE**](https://msdn.microsoft.com/en-us/library/JJ219262(v=VS.85).aspx)
--   [**EventRegistrationToken**](/windows/desktop/api/eventtoken/ns-eventtoken-eventregistrationtoken)
+-   [**EventRegistrationToken**](/windows/desktop/api)
 -   [**DateTime**](https://msdn.microsoft.com/en-us/library/BR205770(v=VS.85).aspx)
--   [**HSTRING\_HEADER**](/windows/desktop/api/hstring/ns-hstring-hstring_header)
+-   [**HSTRING\_HEADER**](/windows/desktop/api)
 -   [**IRoSimpleMetaDataBuilder**](https://www.bing.com/search?q=**IRoSimpleMetaDataBuilder**)
 -   [**IRoMetaDataLocator**](https://www.bing.com/search?q=**IRoMetaDataLocator**)
 -   [**Point**](https://msdn.microsoft.com/en-us/library/BR224614(v=VS.85).aspx)

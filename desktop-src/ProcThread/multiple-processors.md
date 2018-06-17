@@ -29,7 +29,7 @@ On systems with more than 64 processors, the affinity mask initially represents 
 
 ## Thread Ideal Processor
 
-When you specify a *thread ideal processor*, the scheduler runs the thread on the specified processor when possible. Use the [**SetThreadIdealProcessor**](https://msdn.microsoft.com/en-us/library/ms686253(v=VS.85).aspx) function to specify a preferred processor for a thread. This does not guarantee that the ideal processor will be chosen but provides a useful hint to the scheduler. On systems with more than 64 processors, you can use the [**SetThreadIdealProcessorEx**](/windows/desktop/api/WinBase/nf-processthreadsapi-setthreadidealprocessorex) function to specify a preferred processor in a specific processor group.
+When you specify a *thread ideal processor*, the scheduler runs the thread on the specified processor when possible. Use the [**SetThreadIdealProcessor**](https://msdn.microsoft.com/en-us/library/ms686253(v=VS.85).aspx) function to specify a preferred processor for a thread. This does not guarantee that the ideal processor will be chosen but provides a useful hint to the scheduler. On systems with more than 64 processors, you can use the [**SetThreadIdealProcessorEx**](/windows/desktop/api) function to specify a preferred processor in a specific processor group.
 
 ## Related topics
 

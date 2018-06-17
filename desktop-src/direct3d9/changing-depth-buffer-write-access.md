@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 By default, the Direct3D system is allowed to write to the depth buffer. Most applications leave writing to the depth buffer enabled, but you can achieve some special effects by not allowing the Direct3D system to write to the depth buffer.
 
-You can disable depth buffer writes in C++ by calling the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate) method with the State parameter set to D3DRS\_ZWRITEENABLE and the Value parameter set to 0.
+You can disable depth buffer writes in C++ by calling the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api) method with the State parameter set to D3DRS\_ZWRITEENABLE and the Value parameter set to 0.
 
 ## Related topics
 

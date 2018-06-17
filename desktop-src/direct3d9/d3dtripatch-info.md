@@ -92,7 +92,7 @@ N/A - Not available. Not supported.
 
 ## Remarks
 
-For example, the following diagram identifies the vertex order and segment numbers for a cubic Bézier triangle patch. The vertex order determines the segment numbers used by [**DrawTriPatch**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawtripatch). The offset is the number of bytes to the first triangle patch vertex in the vertex buffer.
+For example, the following diagram identifies the vertex order and segment numbers for a cubic Bézier triangle patch. The vertex order determines the segment numbers used by [**DrawTriPatch**](/windows/desktop/api). The offset is the number of bytes to the first triangle patch vertex in the vertex buffer.
 
 ![diagram of a triangular high-order patch with nine vertices](images/hop-tripatch-info.png)
 
@@ -113,7 +113,7 @@ For example, the following diagram identifies the vertex order and segment numbe
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**DrawTriPatch**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawtripatch)
+[**DrawTriPatch**](/windows/desktop/api)
 </dt> <dt>
 
 [**D3DXTessellateTriPatch**](d3dxtessellatetripatch.md)

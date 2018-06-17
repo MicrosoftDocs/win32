@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # ID3DXTextureGutterHelper::ApplyGuttersTex method
 
-Applies gutters to an [**IDirect3DTexture9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dtexture9) texture object.
+Applies gutters to an [**IDirect3DTexture9**](/windows/desktop/api) texture object.
 
 ## Syntax
 
@@ -31,9 +31,9 @@ HRESULT ApplyGuttersTex(
 *pTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dtexture9)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/desktop/api)**
 
-Pointer to a [**IDirect3DTexture9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dtexture9) texture object.
+Pointer to a [**IDirect3DTexture9**](/windows/desktop/api) texture object.
 
 </dd> </dl>
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # NtGetCurrentProcessorNumber function
 
-\[**NtGetCurrentProcessorNumber** may be altered or unavailable in future versions of Windows. Applications should use the [**GetCurrentProcessorNumber**](/windows/desktop/api/WinBase/nf-processthreadsapi-getcurrentprocessornumber) function instead.\]
+\[**NtGetCurrentProcessorNumber** may be altered or unavailable in future versions of Windows. Applications should use the [**GetCurrentProcessorNumber**](/windows/desktop/api) function instead.\]
 
 Retrieves the number of the processor the current thread was running on during the call to this function.
 

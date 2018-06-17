@@ -26,18 +26,18 @@ The **CSecureChannelServer** class exposes the following methods.
 
 | Method                                                            | Description                                                                                 |
 |-------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| [**DecryptParam**](/windows/desktop/api/scserver/nf-scserver-csecurechannelserver-decryptparam)         | Decrypts the data contained in a parameter.                                                 |
-| [**EncryptParam**](/windows/desktop/api/scserver/nf-scserver-csecurechannelserver-encryptparam)         | Encrypts the data contained in a parameter.                                                 |
-| [**fIsAuthenticated**](/windows/desktop/api/scserver/nf-scserver-csecurechannelserver-fisauthenticated) | Verifies that a secure authentication channel has been successfully established.            |
-| [**GetAppSec**](/windows/desktop/api/scserver/nf-scserver-csecurechannelserver-getappsec)               | Retrieves the application security levels of the local and remote components.               |
-| [**GetSessionKey**](/windows/desktop/api/scserver/nf-scserver-csecurechannelserver-getsessionkey)       | Retrieves the current session key.                                                          |
-| [**MACFinal**](/windows/desktop/api/scserver/nf-scserver-csecurechannelserver-macfinal)                 | Releases the message authentication code (MAC) channel and retrieves a final MAC value.     |
-| [**MACInit**](/windows/desktop/api/scserver/nf-scserver-csecurechannelserver-macinit)                   | Acquires a message authentication code (MAC) channel.                                       |
-| [**MACUpdate**](/windows/desktop/api/scserver/nf-scserver-csecurechannelserver-macupdate)               | Updates the message authentication code (MAC) value with a parameter value.                 |
-| [**SACAuth**](/windows/desktop/api/scserver/nf-scserver-csecurechannelserver-sacauth)                   | Establishes a secure authenticated channel between components.                              |
-| [**SACGetProtocols**](/windows/desktop/api/scserver/nf-scserver-csecurechannelserver-sacgetprotocols)   | Reports the protocols supported by a component.                                             |
-| [**SetCertificate**](/windows/desktop/api/scserver/nf-scserver-csecurechannelserver-setcertificate)     | Specifies the certificate and private key of the secure authenticated channel (SAC) server. |
-| [**SetSessionKey**](/windows/desktop/api/scserver/nf-scserver-csecurechannelserver-setsessionkey)       | Sets the session key that is used to communicate with another component.                    |
+| [**DecryptParam**](/windows/desktop/api)         | Decrypts the data contained in a parameter.                                                 |
+| [**EncryptParam**](/windows/desktop/api)         | Encrypts the data contained in a parameter.                                                 |
+| [**fIsAuthenticated**](/windows/desktop/api) | Verifies that a secure authentication channel has been successfully established.            |
+| [**GetAppSec**](/windows/desktop/api)               | Retrieves the application security levels of the local and remote components.               |
+| [**GetSessionKey**](/windows/desktop/api)       | Retrieves the current session key.                                                          |
+| [**MACFinal**](/windows/desktop/api)                 | Releases the message authentication code (MAC) channel and retrieves a final MAC value.     |
+| [**MACInit**](/windows/desktop/api)                   | Acquires a message authentication code (MAC) channel.                                       |
+| [**MACUpdate**](/windows/desktop/api)               | Updates the message authentication code (MAC) value with a parameter value.                 |
+| [**SACAuth**](/windows/desktop/api)                   | Establishes a secure authenticated channel between components.                              |
+| [**SACGetProtocols**](/windows/desktop/api)   | Reports the protocols supported by a component.                                             |
+| [**SetCertificate**](/windows/desktop/api)     | Specifies the certificate and private key of the secure authenticated channel (SAC) server. |
+| [**SetSessionKey**](/windows/desktop/api)       | Sets the session key that is used to communicate with another component.                    |
 
 
 

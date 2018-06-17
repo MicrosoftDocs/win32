@@ -62,7 +62,7 @@ The type of process information to be retrieved. This parameter can be one of th
 <tbody>
 <tr class="odd">
 <td><span id="ProcessBasicInformation"></span><span id="processbasicinformation"></span><span id="PROCESSBASICINFORMATION"></span><dl> <dt><strong>ProcessBasicInformation</strong></dt> <dt>0</dt> </dl></td>
-<td>Retrieves a pointer to a PEB structure that can be used to determine whether the specified process is being debugged, and a unique value used by the system to identify the specified process. <br/> It is best to use the [<strong>CheckRemoteDebuggerPresent</strong>](https://msdn.microsoft.com/en-us/library/ms679280(v=VS.85).aspx) and [<strong>GetProcessId</strong>](/windows/desktop/api/WinBase/nf-processthreadsapi-getprocessid) functions to obtain this information.<br/></td>
+<td>Retrieves a pointer to a PEB structure that can be used to determine whether the specified process is being debugged, and a unique value used by the system to identify the specified process. <br/> It is best to use the [<strong>CheckRemoteDebuggerPresent</strong>](https://msdn.microsoft.com/en-us/library/ms679280(v=VS.85).aspx) and [<strong>GetProcessId</strong>](/windows/desktop/api) functions to obtain this information.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="ProcessDebugPort"></span><span id="processdebugport"></span><span id="PROCESSDEBUGPORT"></span><dl> <dt><strong>ProcessDebugPort</strong></dt> <dt>7</dt> </dl></td>
@@ -70,7 +70,7 @@ The type of process information to be retrieved. This parameter can be one of th
 </tr>
 <tr class="odd">
 <td><span id="ProcessWow64Information"></span><span id="processwow64information"></span><span id="PROCESSWOW64INFORMATION"></span><dl> <dt><strong>ProcessWow64Information</strong></dt> <dt>26</dt> </dl></td>
-<td>Determines whether the process is running in the WOW64 environment (WOW64 is the x86 emulator that allows Win32-based applications to run on 64-bit Windows).<br/> It is best to use the [<strong>IsWow64Process</strong>](/windows/desktop/api/WinBase/nf-wow64apiset-iswow64process) function to obtain this information.<br/></td>
+<td>Determines whether the process is running in the WOW64 environment (WOW64 is the x86 emulator that allows Win32-based applications to run on 64-bit Windows).<br/> It is best to use the [<strong>IsWow64Process</strong>](/windows/desktop/api) function to obtain this information.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="ProcessImageFileName"></span><span id="processimagefilename"></span><span id="PROCESSIMAGEFILENAME"></span><dl> <dt><strong>ProcessImageFileName</strong></dt> <dt>27</dt> </dl></td>
@@ -116,7 +116,7 @@ typedef struct _PROCESS_BASIC_INFORMATION {
 } PROCESS_BASIC_INFORMATION;
 ```
 
-The **UniqueProcessId** member points to the system's unique identifier for this process. It is best to use the [**GetProcessId**](/windows/desktop/api/WinBase/nf-processthreadsapi-getprocessid) function to retrieve this information.
+The **UniqueProcessId** member points to the system's unique identifier for this process. It is best to use the [**GetProcessId**](/windows/desktop/api) function to retrieve this information.
 
 The **PebBaseAddress** member points to a [**PEB**](/windows/desktop/api/Winternl/ns-winternl-_peb) structure.
 
@@ -129,7 +129,7 @@ The other members of this structure are reserved for internal use by the operati
 
 When the *ProcessInformationClass* parameter is **ProcessWow64Information**, the buffer pointed to by the *ProcessInformation* parameter should be large enough to hold a **ULONG\_PTR**. If this value is nonzero, the process is running in a WOW64 environment; otherwise, if the value is equal to zero, the process is not running in a WOW64 environment.
 
-It is best to use the [**IsWow64Process**](/windows/desktop/api/WinBase/nf-wow64apiset-iswow64process) function to determine whether a process is running in the WOW64 environment.
+It is best to use the [**IsWow64Process**](/windows/desktop/api) function to determine whether a process is running in the WOW64 environment.
 
 </dd> <dt>
 
@@ -189,13 +189,13 @@ This function has no associated import library. You must use the [**LoadLibrary*
 [**CheckRemoteDebuggerPresent**](https://msdn.microsoft.com/en-us/library/ms679280(v=VS.85).aspx)
 </dt> <dt>
 
-[**GetProcessId**](/windows/desktop/api/WinBase/nf-processthreadsapi-getprocessid)
+[**GetProcessId**](/windows/desktop/api)
 </dt> <dt>
 
 [**IsDebuggerPresent**](https://msdn.microsoft.com/en-us/library/ms680345(v=VS.85).aspx)
 </dt> <dt>
 
-[**IsWow64Process**](/windows/desktop/api/WinBase/nf-wow64apiset-iswow64process)
+[**IsWow64Process**](/windows/desktop/api)
 </dt> </dl>
 
  

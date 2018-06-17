@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The following functions are used to implement compound documents and perform data transfer between applications.
 
--   [**CreateDataAdviseHolder**](/windows/desktop/api/ole2/nf-objbase-createdataadviseholder)
+-   [**CreateDataAdviseHolder**](/windows/desktop/api)
 -   [**CreateDataCache**](/windows/desktop/api/ObjBase/nf-objbase-createdatacache)
 -   [**CreateFormatEnumerator**](/windows/desktop/api/Urlmon/nf-urlmon-createformatenumerator)
 -   [**CreateOleAdviseHolder**](/windows/desktop/api/Ole2/nf-ole2-createoleadviseholder)

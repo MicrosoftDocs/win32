@@ -13,13 +13,13 @@ ms.date: 05/31/2018
 
 The following functions are used to handle modem connections.
 
--   [**InternetAutodial**](/windows/desktop/api/winineti/nf-wininet-internetautodial)
--   [**InternetAutodialHangup**](/windows/desktop/api/winineti/nf-wininet-internetautodialhangup)
--   [**InternetDial**](/windows/desktop/api/winineti/nf-wininet-internetdial)
--   [**InternetGetConnectedState**](/windows/desktop/api/winineti/nf-wininet-internetgetconnectedstate)
--   [**InternetGetConnectedStateEx**](/windows/desktop/api/winineti/nf-wininet-internetgetconnectedstateex)
--   [**InternetHangUp**](/windows/desktop/api/winineti/nf-wininet-internethangup)
--   [**InternetGoOnline**](/windows/desktop/api/winineti/nf-wininet-internetgoonline)
+-   [**InternetAutodial**](/windows/desktop/api)
+-   [**InternetAutodialHangup**](/windows/desktop/api)
+-   [**InternetDial**](/windows/desktop/api)
+-   [**InternetGetConnectedState**](/windows/desktop/api)
+-   [**InternetGetConnectedStateEx**](/windows/desktop/api)
+-   [**InternetHangUp**](/windows/desktop/api)
+-   [**InternetGoOnline**](/windows/desktop/api)
 
 > [!Note]  
 > WinINet dial-up functions do not support double-dial connections, SmartCard authentication, or connections that require registry-based certification.

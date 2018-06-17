@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Creating Blending Stages (Direct3D 9)
 
-A blending stage is a set of texture operations and their arguments that define how textures are blended. When making a blending stage, C++ applications invoke the [**IDirect3DDevice9::SetTextureStageState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexturestagestate) method. The first call specifies the operation that is performed. Two additional invocations define the arguments to which the operation is applied. The following code example illustrates the creation of a blending stage.
+A blending stage is a set of texture operations and their arguments that define how textures are blended. When making a blending stage, C++ applications invoke the [**IDirect3DDevice9::SetTextureStageState**](/windows/desktop/api) method. The first call specifies the operation that is performed. Two additional invocations define the arguments to which the operation is applied. The following code example illustrates the creation of a blending stage.
 
 
 ```

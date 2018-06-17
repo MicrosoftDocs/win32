@@ -73,7 +73,7 @@ The decision of whether to use a client certificate should be made in the contex
 
 TLS supports only the impersonate (RPC\_C\_IMP\_LEVEL\_IMPERSONATE) level of impersonation. If COM negotiates TLS as the authentication service on a proxy, COM will set the impersonation level to impersonate regardless of the process default. For impersonation to work properly in TLS, the client must provide an X.509 certificate to the server and the server must have that certificate mapped to a particular user account on the server. For more information, see the [Step-by-Step Guide to Mapping Certificates to User Accounts](http://go.microsoft.com/fwlink/p/?linkid=103681).
 
-TLS does not support [cloaking](cloaking.md). If a cloaking flag and TLS are specified in a [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) or a [**IClientSecurity::SetBlanket**](/windows/desktop/api/objidlbase/nf-objidl-iclientsecurity-setblanket) call, E\_INVALIDARG will be returned.
+TLS does not support [cloaking](cloaking.md). If a cloaking flag and TLS are specified in a [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) or a [**IClientSecurity::SetBlanket**](/windows/desktop/api) call, E\_INVALIDARG will be returned.
 
 TLS does not work with the authentication level set to None. The handshake between the client and server examines the authentication level set by each and chooses the higher security setting for the connection.
 
@@ -87,7 +87,7 @@ To use TLS, the following parameters should be specified when a server calls [**
 
 -   *pVoid* should be either a pointer to an [**IAccessControl**](/windows/desktop/api/IAccess/nn-iaccess-iaccesscontrol) object or a pointer to a [**SECURITY\_DESCRIPTOR**](https://msdn.microsoft.com/library/windows/desktop/aa379561). It should not be **NULL** or a pointer to an AppID.
 -   *cAuthSvc* cannot be 0 or -1. COM servers never chooses Schannel when *cAuthSvc*is -1.
--   *asAuthSvc* must specify Schannel as a possible authentication service. This is done by setting the following [**SOLE\_AUTHENTICATION\_SERVICE**](/windows/desktop/api/objidlbase/ns-objidl-tagsole_authentication_service) parameters for the Schannel member of the [**SOLE\_AUTHENTICATION\_LIST**](/windows/desktop/api/objidlbase/ns-objidl-tagsole_authentication_list):
+-   *asAuthSvc* must specify Schannel as a possible authentication service. This is done by setting the following [**SOLE\_AUTHENTICATION\_SERVICE**](/windows/desktop/api) parameters for the Schannel member of the [**SOLE\_AUTHENTICATION\_LIST**](/windows/desktop/api):
     -   *dwAuthnSvc* must be RPC\_C\_AUTHN\_GSS\_SCHANNEL.
     -   *dwAuthzSvc* should be RPC\_C\_AUTHZ\_NONE. Currently, it is ignored.
     -   *pPrincipalName* must be a pointer to a [**CERT\_CONTEXT**](https://msdn.microsoft.com/library/windows/desktop/aa377189), cast as a pointer to OLECHAR, which represents the server's X.509 certificate.
@@ -98,13 +98,13 @@ For more information about using [**CoInitializeSecurity**](/windows/desktop/api
 
 ### How a Client Sets the Security Blanket
 
-If a client wants to use TLS, it must specify Schannel (RPC\_C\_AUTHN\_GSS\_SCHANNEL) in its list of authentication services in the *pAuthList* parameter of [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity). If Schannel is not specified as a possible authentication service when **CoInitializeSecurity** is called, a later call to [**CoSetProxyBlanket**](/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket) (or [**IClientSecurity::SetBlanket**](/windows/desktop/api/objidlbase/nf-objidl-iclientsecurity-setblanket)) will fail if it tries to specify Schannel as the authentication service.
+If a client wants to use TLS, it must specify Schannel (RPC\_C\_AUTHN\_GSS\_SCHANNEL) in its list of authentication services in the *pAuthList* parameter of [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity). If Schannel is not specified as a possible authentication service when **CoInitializeSecurity** is called, a later call to [**CoSetProxyBlanket**](/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket) (or [**IClientSecurity::SetBlanket**](/windows/desktop/api)) will fail if it tries to specify Schannel as the authentication service.
 
 The following parameters should be specified when a client calls [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity):
 
 -   *dwAuthnLevel* specifies the default authentication level that the client wants to use. It cannot be RPC\_C\_AUTHN\_LEVEL\_NONE.
 -   *dwImpLevel* must be RPC\_C\_IMP\_LEVEL\_IMPERSONATE.
--   *pAuthList* must have the following [**SOLE\_AUTHENTICATION\_INFO**](/windows/desktop/api/objidlbase/ns-objidl-tagsole_authentication_info) parameters as a member of the list:
+-   *pAuthList* must have the following [**SOLE\_AUTHENTICATION\_INFO**](/windows/desktop/api) parameters as a member of the list:
     -   *dwAuthnSvc* must be RPC\_C\_AUTHN\_GSS\_SCHANNEL.
     -   *dwAuthzSvc* must be RPC\_C\_AUTHZ\_NONE.
     -   *pAuthInfo* is a pointer to a [**CERT\_CONTEXT**](https://msdn.microsoft.com/library/windows/desktop/aa377189), cast as a pointer to void, which represents the client's X.509 certificate. If the client does not have a certificate or does not wish to present its certificate to the server, *pAuthInfo* must be **NULL** and an anonymous connection will be attempted with the server.
@@ -114,7 +114,7 @@ For more information about using [**CoInitializeSecurity**](/windows/desktop/api
 
 ### How a Client Changes the Security Blanket
 
-If a client wants to use TLS but change the security blanket after calling [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity), it must call either [**CoSetProxyBlanket**](/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket) or [**IClientSecurity::SetBlanket**](/windows/desktop/api/objidlbase/nf-objidl-iclientsecurity-setblanket) with parameters similar to those used in the call to **CoInitializeSecurity**, with the following differences:
+If a client wants to use TLS but change the security blanket after calling [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity), it must call either [**CoSetProxyBlanket**](/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket) or [**IClientSecurity::SetBlanket**](/windows/desktop/api) with parameters similar to those used in the call to **CoInitializeSecurity**, with the following differences:
 
 -   *pServerPrincName* indicates the principal name of the server, in either msstd or fullsic format. For information on these formats, see [Principal Names](https://msdn.microsoft.com/library/windows/desktop/aa374385). If the client has the server's X.509 certificate, it can find the principal name by calling [**RpcCertGeneratePrincipalName**](https://msdn.microsoft.com/library/windows/desktop/aa375625).
 -   *pAuthInfo* is a pointer to a [**CERT\_CONTEXT**](https://msdn.microsoft.com/library/windows/desktop/aa377189), cast as a pointer to RPC\_AUTH\_IDENTITY\_HANDLE, which represents the client's X.509 certificate. If the client does not have a certificate or does not wish to present its certificate to the server, *pAuthInfo* must be **NULL** and an anonymous connection will be attempted with the server.

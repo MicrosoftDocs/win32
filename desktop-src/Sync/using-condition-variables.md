@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The following code implements a producer/consumer queue. The queue is represented as a bounded circular buffer, and is protected by a critical section. The code uses two condition variables: one used by producers (`BufferNotFull`) and one used by consumers (`BufferNotEmpty`).
 
-The code calls the [**InitializeConditionVariable**](/windows/desktop/api/WinBase/nf-synchapi-initializeconditionvariable) function to create the condition variables. The consumer threads call the [**SleepConditionVariableCS**](/windows/desktop/api/WinBase/nf-synchapi-sleepconditionvariablecs) function to wait for items to be added to the queue and the [**WakeConditionVariable**](/windows/desktop/api/WinBase/nf-synchapi-wakeconditionvariable) function to signal the producer that it is ready for more items. The producer threads call **SleepConditionVariableCS** to wait for the consumer to remove items from the queue and **WakeConditionVariable** to signal the consumer that there are more items in the queue.
+The code calls the [**InitializeConditionVariable**](/windows/desktop/api) function to create the condition variables. The consumer threads call the [**SleepConditionVariableCS**](/windows/desktop/api) function to wait for items to be added to the queue and the [**WakeConditionVariable**](/windows/desktop/api) function to signal the producer that it is ready for more items. The producer threads call **SleepConditionVariableCS** to wait for the consumer to remove items from the queue and **WakeConditionVariable** to signal the consumer that there are more items in the queue.
 
 **Windows Server 2003 and Windows XP:** Condition variables are not supported.
 

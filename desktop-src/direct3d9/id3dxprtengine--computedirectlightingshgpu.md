@@ -36,12 +36,12 @@ HRESULT ComputeDirectLightingSHGPU(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api)**
 
-Pointer to the [**IDirect3DDevice9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9) device object used to run the simulation on the GPU. The device must support [ps\_2\_0](https://msdn.microsoft.com/en-us/library/Bb219843(v=VS.85).aspx) pixel shaders.
+Pointer to the [**IDirect3DDevice9**](/windows/desktop/api) device object used to run the simulation on the GPU. The device must support [ps\_2\_0](https://msdn.microsoft.com/en-us/library/Bb219843(v=VS.85).aspx) pixel shaders.
 
 > [!Note]  
-> Callback functions should not use the [**IDirect3DDevice9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9) device object used by the GPU simulator.
+> Callback functions should not use the [**IDirect3DDevice9**](/windows/desktop/api) device object used by the GPU simulator.
 
  
 

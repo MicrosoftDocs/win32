@@ -97,7 +97,7 @@ Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).a
 
 </dd> <dd>
 
-Quality level. The valid range is between zero and one less than the level returned by pQualityLevels used by [**CheckDeviceMultiSampleType**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-checkdevicemultisampletype). Passing a larger value returns the error, D3DERR\_INVALIDCALL. The MultisampleQuality values of paired render targets, depth stencil surfaces and the MultiSample type must all match.
+Quality level. The valid range is between zero and one less than the level returned by pQualityLevels used by [**CheckDeviceMultiSampleType**](/windows/desktop/api). Passing a larger value returns the error, D3DERR\_INVALIDCALL. The MultisampleQuality values of paired render targets, depth stencil surfaces and the MultiSample type must all match.
 
 </dd> <dt>
 
@@ -140,13 +140,13 @@ Height of the surface, in pixels.
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetLevelDesc**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dcubetexture9-getleveldesc)
+[**GetLevelDesc**](/windows/desktop/api)
 </dt> <dt>
 
-[**GetDesc**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dsurface9-getdesc)
+[**GetDesc**](/windows/desktop/api)
 </dt> <dt>
 
-[**GetLevelDesc**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dtexture9-getleveldesc)
+[**GetLevelDesc**](/windows/desktop/api)
 </dt> </dl>
 
  

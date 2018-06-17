@@ -57,7 +57,7 @@ VOLUMEVERTEX g_vVertices[4] =
 
 Now, create a vertex buffer and fill it with data from the vertices.
 
-The next step is to use the [**IDirect3DDevice9::CreateVolumeTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createvolumetexture) method to create a volume texture, as shown in this code example.
+The next step is to use the [**IDirect3DDevice9::CreateVolumeTexture**](/windows/desktop/api) method to create a volume texture, as shown in this code example.
 
 
 ```

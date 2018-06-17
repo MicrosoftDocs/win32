@@ -15,7 +15,7 @@ Provides data for an app suspending event.
 
 ## Members
 
-The **ISuspendingEventArgs** interface inherits from [**IInspectable**](/windows/desktop/api/Inspectable/nn-inspectable-iinspectable). **ISuspendingEventArgs** also has these types of members:
+The **ISuspendingEventArgs** interface inherits from [**IInspectable**](/windows/desktop/api). **ISuspendingEventArgs** also has these types of members:
 
 -   [Properties](#properties)
 
@@ -54,7 +54,7 @@ This object is accessed when you implement event handlers like [**SuspendingEven
 
 <dl> <dt>
 
-[**IInspectable**](/windows/desktop/api/Inspectable/nn-inspectable-iinspectable)
+[**IInspectable**](/windows/desktop/api)
 </dt> <dt>
 
 [**ISuspendingOperation**](isuspendingoperation.md)

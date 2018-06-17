@@ -36,7 +36,7 @@ HRESULT SetDisplaceParam(
 *Texture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DBASETEXTURE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dbasetexture9)**
+Type: **[**LPDIRECT3DBASETEXTURE9**](/windows/desktop/api)**
 
 Texture containing the displacement data.
 

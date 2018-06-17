@@ -17,9 +17,9 @@ Vertex components are one or more vertex elements stored contiguously (interleav
 
 ![diagram of the process to render primitives by using vertex components](images/vertexdata.png)
 
-Rendering primitives consists of two steps. First, set up one or more vertex component streams; second, invoke a [**IDirect3DDevice9::DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) method to render from those streams. Identification of vertex elements within these component streams is specified by the vertex shader.
+Rendering primitives consists of two steps. First, set up one or more vertex component streams; second, invoke a [**IDirect3DDevice9::DrawPrimitive**](/windows/desktop/api) method to render from those streams. Identification of vertex elements within these component streams is specified by the vertex shader.
 
-The [**IDirect3DDevice9::DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) methods specify an offset in the vertex data streams so that an arbitrary contiguous subset of the primitives within one set of vertex data can be rendered with each draw invocation. This enables you to change the device rendering state between groups of primitives that are rendered from the same vertex buffers.
+The [**IDirect3DDevice9::DrawPrimitive**](/windows/desktop/api) methods specify an offset in the vertex data streams so that an arbitrary contiguous subset of the primitives within one set of vertex data can be rendered with each draw invocation. This enables you to change the device rendering state between groups of primitives that are rendered from the same vertex buffers.
 
 Both indexed and nonindexed drawing methods are supported. For more information, see [Rendering from Vertex and Index Buffers (Direct3D 9)](rendering-from-vertex-and-index-buffers.md).
 

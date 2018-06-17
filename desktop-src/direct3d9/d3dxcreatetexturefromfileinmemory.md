@@ -34,9 +34,9 @@ HRESULT D3DXCreateTextureFromFileInMemory(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api)**
 
-Pointer to an [**IDirect3DDevice9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9) interface representing the device to be associated with the texture.
+Pointer to an [**IDirect3DDevice9**](/windows/desktop/api) interface representing the device to be associated with the texture.
 
 </dd> <dt>
 
@@ -61,9 +61,9 @@ Size in bytes of the file in memory.
 *ppTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dtexture9)\***
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/desktop/api)\***
 
-Address of a pointer to an [**IDirect3DTexture9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dtexture9) interface representing the created texture object.
+Address of a pointer to an [**IDirect3DTexture9**](/windows/desktop/api) interface representing the created texture object.
 
 </dd> </dl>
 

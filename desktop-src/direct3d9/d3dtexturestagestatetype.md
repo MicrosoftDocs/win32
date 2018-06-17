@@ -189,7 +189,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## Remarks
 
-Members of this enumerated type are used with the [**IDirect3DDevice9::GetTextureStageState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-gettexturestagestate) and [**IDirect3DDevice9::SetTextureStageState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexturestagestate) methods to retrieve and set texture state values.
+Members of this enumerated type are used with the [**IDirect3DDevice9::GetTextureStageState**](/windows/desktop/api) and [**IDirect3DDevice9::SetTextureStageState**](/windows/desktop/api) methods to retrieve and set texture state values.
 
 The valid range of values for the D3DTSS\_BUMPENVMAT00, D3DTSS\_BUMPENVMAT01, D3DTSS\_BUMPENVMAT10, and D3DTSS\_BUMPENVMAT11 bump-mapping matrix coefficients is greater than or equal to -8.0 and less than 8.0. This range, expressed in mathematical notation is (-8.0,8.0).
 
@@ -210,10 +210,10 @@ The valid range of values for the D3DTSS\_BUMPENVMAT00, D3DTSS\_BUMPENVMAT01, D3
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::GetTextureStageState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-gettexturestagestate)
+[**IDirect3DDevice9::GetTextureStageState**](/windows/desktop/api)
 </dt> <dt>
 
-[**IDirect3DDevice9::SetTextureStageState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexturestagestate)
+[**IDirect3DDevice9::SetTextureStageState**](/windows/desktop/api)
 </dt> </dl>
 
  

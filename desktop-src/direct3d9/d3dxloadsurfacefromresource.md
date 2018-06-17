@@ -39,9 +39,9 @@ HRESULT D3DXLoadSurfaceFromResource(
 *pDestSurface* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DSURFACE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dsurface9)**
+Type: **[**LPDIRECT3DSURFACE9**](/windows/desktop/api)**
 
-Pointer to an [**IDirect3DSurface9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dsurface9) interface. Specifies the destination surface, which receives the image.
+Pointer to an [**IDirect3DSurface9**](/windows/desktop/api) interface. Specifies the destination surface, which receives the image.
 
 </dd> <dt>
 
@@ -131,7 +131,7 @@ The resource being loaded must be of type RT\_BITMAP or RT\_RCDATA. Resource typ
 
 This function handles conversion to and from compressed texture formats.
 
-Writing to a non-level-zero surface will not cause the dirty rectangle to be updated. If [**D3DXLoadSurfaceFromFile**](d3dxloadsurfacefromfile.md) is called and the surface was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**AddDirtyRect**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dtexture9-adddirtyrect) on the surface.
+Writing to a non-level-zero surface will not cause the dirty rectangle to be updated. If [**D3DXLoadSurfaceFromFile**](d3dxloadsurfacefromfile.md) is called and the surface was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**AddDirtyRect**](/windows/desktop/api) on the surface.
 
 ## Requirements
 

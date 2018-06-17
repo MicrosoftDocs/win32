@@ -31,9 +31,9 @@ HRESULT GetIndexBuffer(
 *ppIB* \[out, retval\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DINDEXBUFFER9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dindexbuffer9)\***
+Type: **[**LPDIRECT3DINDEXBUFFER9**](/windows/desktop/api)\***
 
-Address of a pointer to an [**IDirect3DIndexBuffer9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dindexbuffer9) interface, representing the index buffer object associated with the mesh.
+Address of a pointer to an [**IDirect3DIndexBuffer9**](/windows/desktop/api) interface, representing the index buffer object associated with the mesh.
 
 </dd> </dl>
 

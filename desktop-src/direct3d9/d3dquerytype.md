@@ -174,7 +174,7 @@ Efficiency of memory allocation contained in a [**D3DMEMORYPRESSURE**](d3dmemory
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::CreateQuery**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createquery)
+[**IDirect3DDevice9::CreateQuery**](/windows/desktop/api)
 </dt> </dl>
 
  

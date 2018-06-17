@@ -37,7 +37,7 @@ Defines what the server authorizes.
 
 ## Remarks
 
-These constants are used by methods of the [**IClientSecurity**](/windows/desktop/api/ObjIdl/nn-objidl-iclientsecurity) interface. They are used in the [**SOLE\_AUTHENTICATION\_SERVICE**](/windows/desktop/api/objidlbase/ns-objidl-tagsole_authentication_service) structure, which is retrieved by the [**CoQueryAuthenticationServices**](/windows/desktop/api/combaseapi/nf-combaseapi-coqueryauthenticationservices) function. They are also used in the [**SOLE\_AUTHENTICATION\_INFO**](/windows/desktop/api/objidlbase/ns-objidl-tagsole_authentication_info) structure, which in turn is a member of the [**SOLE\_AUTHENTICATION\_LIST**](/windows/desktop/api/objidlbase/ns-objidl-tagsole_authentication_list) structure. This structure, which is a list of authentication services, the authorization services they perform, and the authentication information for each service, is passed to the [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) function and the [**IClientSecurity::SetBlanket**](/windows/desktop/api/objidlbase/nf-objidl-iclientsecurity-setblanket) method.
+These constants are used by methods of the [**IClientSecurity**](/windows/desktop/api/ObjIdl/nn-objidl-iclientsecurity) interface. They are used in the [**SOLE\_AUTHENTICATION\_SERVICE**](/windows/desktop/api) structure, which is retrieved by the [**CoQueryAuthenticationServices**](/windows/desktop/api/combaseapi/nf-combaseapi-coqueryauthenticationservices) function. They are also used in the [**SOLE\_AUTHENTICATION\_INFO**](/windows/desktop/api) structure, which in turn is a member of the [**SOLE\_AUTHENTICATION\_LIST**](/windows/desktop/api) structure. This structure, which is a list of authentication services, the authorization services they perform, and the authentication information for each service, is passed to the [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) function and the [**IClientSecurity::SetBlanket**](/windows/desktop/api) method.
 
 ## Requirements
 
@@ -64,10 +64,10 @@ These constants are used by methods of the [**IClientSecurity**](/windows/deskto
 [**IClientSecurity**](/windows/desktop/api/ObjIdl/nn-objidl-iclientsecurity)
 </dt> <dt>
 
-[**SOLE\_AUTHENTICATION\_INFO**](/windows/desktop/api/objidlbase/ns-objidl-tagsole_authentication_info)
+[**SOLE\_AUTHENTICATION\_INFO**](/windows/desktop/api)
 </dt> <dt>
 
-[**SOLE\_AUTHENTICATION\_SERVICE**](/windows/desktop/api/objidlbase/ns-objidl-tagsole_authentication_service)
+[**SOLE\_AUTHENTICATION\_SERVICE**](/windows/desktop/api)
 </dt> </dl>
 
  

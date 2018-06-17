@@ -25,11 +25,11 @@ The faces of a cube map don't need to contain extremely detailed renderings of t
 
 ## Mipmapped Cubic Environment Maps
 
-Cube maps can be mipmapped. To create a mipmapped cube map, set the Levels parameter of the [**CreateCubeTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createcubetexture) method to the number of levels that you want. You can envision the topography of these surfaces as shown in the following diagram.
+Cube maps can be mipmapped. To create a mipmapped cube map, set the Levels parameter of the [**CreateCubeTexture**](/windows/desktop/api) method to the number of levels that you want. You can envision the topography of these surfaces as shown in the following diagram.
 
 ![diagram of a mipmapped cube map with n mip levels](images/cubemap-mipped.png)
 
-Applications that create mipmapped cubic environment maps can access each face by calling the [**GetCubeMapSurface**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dcubetexture9-getcubemapsurface) method. Start by setting the appropriate value from the [**D3DCUBEMAP\_FACES**](https://msdn.microsoft.com/en-us/library/Bb172528(v=VS.85).aspx) enumerated type, as discussed in [Creating Cubic Environment Map Surfaces (Direct3D 9)](creating-cubic-environment-map-surfaces.md). Next, select the level to retrieve by setting the **GetCubeMapSurface** level parameter to the mipmap level that you want. Remember that 0 corresponds with the top-level image.
+Applications that create mipmapped cubic environment maps can access each face by calling the [**GetCubeMapSurface**](/windows/desktop/api) method. Start by setting the appropriate value from the [**D3DCUBEMAP\_FACES**](https://msdn.microsoft.com/en-us/library/Bb172528(v=VS.85).aspx) enumerated type, as discussed in [Creating Cubic Environment Map Surfaces (Direct3D 9)](creating-cubic-environment-map-surfaces.md). Next, select the level to retrieve by setting the **GetCubeMapSurface** level parameter to the mipmap level that you want. Remember that 0 corresponds with the top-level image.
 
 ## Texture Coordinates for Cubic Environment Maps
 

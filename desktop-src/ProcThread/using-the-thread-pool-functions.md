@@ -13,24 +13,24 @@ ms.date: 05/31/2018
 
 This example creates a custom thread pool, creates a work item and a thread pool timer, and associates them with a cleanup group. The pool consists of one persistent thread. It demonstrates the use of the following thread pool functions:
 
--   [**CloseThreadpool**](/windows/desktop/api/WinBase/nf-threadpoolapiset-closethreadpool)
--   [**CloseThreadpoolCleanupGroup**](/windows/desktop/api/WinBase/nf-threadpoolapiset-closethreadpoolcleanupgroup)
--   [**CloseThreadpoolCleanupGroupMembers**](/windows/desktop/api/WinBase/nf-threadpoolapiset-closethreadpoolcleanupgroupmembers)
--   [**CloseThreadpoolWait**](/windows/desktop/api/WinBase/nf-threadpoolapiset-closethreadpoolwait)
--   [**CreateThreadpool**](/windows/desktop/api/WinBase/nf-threadpoolapiset-createthreadpool)
--   [**CreateThreadpoolCleanupGroup**](/windows/desktop/api/WinBase/nf-threadpoolapiset-createthreadpoolcleanupgroup)
--   [**CreateThreadpoolTimer**](/windows/desktop/api/WinBase/nf-threadpoolapiset-createthreadpooltimer)
--   [**CreateThreadpoolWait**](/windows/desktop/api/WinBase/nf-threadpoolapiset-createthreadpoolwait)
+-   [**CloseThreadpool**](/windows/desktop/api)
+-   [**CloseThreadpoolCleanupGroup**](/windows/desktop/api)
+-   [**CloseThreadpoolCleanupGroupMembers**](/windows/desktop/api)
+-   [**CloseThreadpoolWait**](/windows/desktop/api)
+-   [**CreateThreadpool**](/windows/desktop/api)
+-   [**CreateThreadpoolCleanupGroup**](/windows/desktop/api)
+-   [**CreateThreadpoolTimer**](/windows/desktop/api)
+-   [**CreateThreadpoolWait**](/windows/desktop/api)
 -   [**CreateThreadpoolWork**](https://msdn.microsoft.com/en-us/library/ms682478(v=VS.85).aspx)
 -   [**InitializeThreadpoolEnvironment**](/windows/desktop/api/WinBase/nf-winbase-initializethreadpoolenvironment)
 -   [**SetThreadpoolCallbackCleanupGroup**](/windows/desktop/api/WinBase/nf-winbase-setthreadpoolcallbackcleanupgroup)
 -   [**SetThreadpoolCallbackPool**](/windows/desktop/api/WinBase/nf-winbase-setthreadpoolcallbackpool)
 -   [**SetThreadpoolThreadMaximum**](https://msdn.microsoft.com/en-us/library/ms686266(v=VS.85).aspx)
--   [**SetThreadpoolThreadMinimum**](/windows/desktop/api/WinBase/nf-threadpoolapiset-setthreadpoolthreadminimum)
--   [**SetThreadpoolTimer**](/windows/desktop/api/WinBase/nf-threadpoolapiset-setthreadpooltimer)
--   [**SetThreadpoolWait**](/windows/desktop/api/WinBase/nf-threadpoolapiset-setthreadpoolwait)
--   [**SubmitThreadpoolWork**](/windows/desktop/api/WinBase/nf-threadpoolapiset-submitthreadpoolwork)
--   [**WaitForThreadpoolWaitCallbacks**](/windows/desktop/api/WinBase/nf-threadpoolapiset-waitforthreadpoolwaitcallbacks)
+-   [**SetThreadpoolThreadMinimum**](/windows/desktop/api)
+-   [**SetThreadpoolTimer**](/windows/desktop/api)
+-   [**SetThreadpoolWait**](/windows/desktop/api)
+-   [**SubmitThreadpoolWork**](/windows/desktop/api)
+-   [**WaitForThreadpoolWaitCallbacks**](/windows/desktop/api)
 
 
 ```C++

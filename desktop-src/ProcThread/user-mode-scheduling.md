@@ -48,7 +48,7 @@ An application might create one UMS scheduler thread for each processor that wil
 
 ## UMS Worker Threads, Thread Contexts, and Completion Lists
 
-A UMS worker thread is created by calling [**CreateRemoteThreadEx**](/windows/desktop/api/WinBase/nf-processthreadsapi-createremotethreadex) with the PROC\_THREAD\_ATTRIBUTE\_UMS\_THREAD attribute and specifying a UMS thread context and a completion list.
+A UMS worker thread is created by calling [**CreateRemoteThreadEx**](/windows/desktop/api) with the PROC\_THREAD\_ATTRIBUTE\_UMS\_THREAD attribute and specifying a UMS thread context and a completion list.
 
 A UMS thread context represents the UMS thread state of a worker thread and is used to identify the worker thread in UMS function calls. It is created by calling [**CreateUmsThreadContext**](/windows/desktop/api/WinBase/nf-winbase-createumsthreadcontext).
 

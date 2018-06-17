@@ -41,9 +41,9 @@ Unique identifier. See [Handles (Direct3D 9)](handles.md).
 *ppTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DBASETEXTURE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dbasetexture9)\***
+Type: **[**LPDIRECT3DBASETEXTURE9**](/windows/desktop/api)\***
 
-Returns a texture object. See [**IDirect3DBaseTexture9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dbasetexture9).
+Returns a texture object. See [**IDirect3DBaseTexture9**](/windows/desktop/api).
 
 </dd> </dl>
 

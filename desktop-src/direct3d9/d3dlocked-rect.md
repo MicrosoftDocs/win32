@@ -47,7 +47,7 @@ Type: **void\***
 
 </dd> <dd>
 
-Pointer to the locked bits. If a [**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx) was provided to the [**LockRect**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dsurface9-lockrect) call, pBits will be appropriately offset from the start of the surface.
+Pointer to the locked bits. If a [**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx) was provided to the [**LockRect**](/windows/desktop/api) call, pBits will be appropriately offset from the start of the surface.
 
 </dd> </dl>
 
@@ -72,13 +72,13 @@ The pitch for DXTn formats is different from what was returned in DirectX 7. It 
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**IDirect3DCubeTexture9::LockRect**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dcubetexture9-lockrect)
+[**IDirect3DCubeTexture9::LockRect**](/windows/desktop/api)
 </dt> <dt>
 
-[**IDirect3DSurface9::LockRect**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dsurface9-lockrect)
+[**IDirect3DSurface9::LockRect**](/windows/desktop/api)
 </dt> <dt>
 
-[**IDirect3DTexture9::LockRect**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dtexture9-lockrect)
+[**IDirect3DTexture9::LockRect**](/windows/desktop/api)
 </dt> </dl>
 
  

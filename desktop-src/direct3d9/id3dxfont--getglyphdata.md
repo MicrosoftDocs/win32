@@ -43,9 +43,9 @@ Glyph identifier.
 *ppTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dtexture9)\***
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/desktop/api)\***
 
-Address of a pointer to a [**IDirect3DTexture9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dtexture9) object that contains the glyph.
+Address of a pointer to a [**IDirect3DTexture9**](/windows/desktop/api) object that contains the glyph.
 
 </dd> <dt>
 

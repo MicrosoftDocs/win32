@@ -17,7 +17,7 @@ For a conceptual overview of depth buffers, see [Depth Buffers (Direct3D 9)](dep
 
 C++ applications update the depth-buffering state with the D3DRS\_ZENABLE render state, using a member of the [**D3DZBUFFERTYPE**](https://msdn.microsoft.com/en-us/library/Bb205568(v=VS.85).aspx) enumeration to specify the new state value.
 
-If your application needs to prevent Direct3D from writing to the depth buffer, it can use the D3DRS\_ZWRITEENABLE enumerated value, specifying D3DZB\_FALSE as the second parameter for the call to [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate).
+If your application needs to prevent Direct3D from writing to the depth buffer, it can use the D3DRS\_ZWRITEENABLE enumerated value, specifying D3DZB\_FALSE as the second parameter for the call to [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api).
 
 The following code example shows how the depth-buffer state is set to enable z-buffering.
 

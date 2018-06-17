@@ -28,8 +28,8 @@ When adding IPv6 support to an application the following guidelines should be us
 
 -   Use [**WSAConnectByName**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbynamea) to establish a connection to an endpoint given a host name and port. The **WSAConnectByName** function is available on Windows Vista and later.
 -   Use [**WSAConnectByList**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbylist) to establish a connection to one out of a collection of possible endpoints represented by a set of destination addresses (host names and ports). The **WSAConnectByList** function is available on Windows Vista and later.
--   Replace [**gethostbyname**](/windows/desktop/api/wsipv6ok/nf-winsock-gethostbyname) function calls with calls to one of the new [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) Windows Sockets functions. The **getaddrinfo** function with support for the IPv6 protocol is available on Windows XP and later. The IPv6 protocol is also supported on Windows 2000 when the IPv6 Technology Preview for Windows 2000 is installed.
--   Replace [**gethostbyaddr**](/windows/desktop/api/wsipv6ok/nf-winsock-gethostbyaddr) function calls with calls to one of the new [**getnameinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getnameinfo) Windows Sockets functions. The **getnameinfo** function with support for the IPv6 protocol is available on Windows XP and later. The IPv6 protocol is also supported on Windows 2000 when the IPv6 Technology Preview for Windows 2000 is installed.
+-   Replace [**gethostbyname**](/windows/desktop/api) function calls with calls to one of the new [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) Windows Sockets functions. The **getaddrinfo** function with support for the IPv6 protocol is available on Windows XP and later. The IPv6 protocol is also supported on Windows 2000 when the IPv6 Technology Preview for Windows 2000 is installed.
+-   Replace [**gethostbyaddr**](/windows/desktop/api) function calls with calls to one of the new [**getnameinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getnameinfo) Windows Sockets functions. The **getnameinfo** function with support for the IPv6 protocol is available on Windows XP and later. The IPv6 protocol is also supported on Windows 2000 when the IPv6 Technology Preview for Windows 2000 is installed.
 
 ## WSAConnectByName
 
@@ -285,11 +285,11 @@ SOCKET OpenAndConnect(char *ServerName, unsigned short Port, int SocketType)
 Notice that both of these source code examples perform the same tasks, but the first example, using the **getaddrinfo** function, requires fewer lines of source code, and can handle either IPv6 or IPv4 addresses. The number of lines of source code eliminated by using the **getaddrinfo** function varies.
 
 > [!Note]  
-> In production source code, your application would iterate through the set of addresses returned by the [**gethostbyname**](/windows/desktop/api/wsipv6ok/nf-winsock-gethostbyname) or [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) function. These examples omit that step in favor of simplicity.
+> In production source code, your application would iterate through the set of addresses returned by the [**gethostbyname**](/windows/desktop/api) or [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) function. These examples omit that step in favor of simplicity.
 
  
 
-Another issue you must address when modifying an existing IPv4 application to support IPv6 is associated with the order in which functions are called. Both [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) and [**gethostbyname**](/windows/desktop/api/wsipv6ok/nf-winsock-gethostbyname) require that a sequence of function calls are made in a specific order.
+Another issue you must address when modifying an existing IPv4 application to support IPv6 is associated with the order in which functions are called. Both [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) and [**gethostbyname**](/windows/desktop/api) require that a sequence of function calls are made in a specific order.
 
 On platforms where both IPv4 and IPv6 are used, the address family of the remote host name is not known ahead of time. So address resolution using the [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) function must be executed first to determine the IP address and address family of the remote host. Then the [**socket**](/windows/desktop/api/Winsock2/nf-winsock2-socket) function can be called to open a socket of the address family returned by [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo). This is an important change in how Windows Sockets applications are written, since many IPv4 applications tend to use a different order of function calls.
 
@@ -383,7 +383,7 @@ Finally, applications making use of the IP Helper function [**GetAdaptersInfo**]
 
 ## Recommendations
 
-The best approach to ensure your application is using IPv6-compatible function calls is to use the [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) function for obtaining host-to-address translation. Beginning with Windows XP, the **getaddrinfo** function makes the [**gethostbyname**](/windows/desktop/api/wsipv6ok/nf-winsock-gethostbyname) function unnecessary, and your application should therefore use the **getaddrinfo** function instead for future programming projects. While Microsoft will continue to support **gethostbyname**, this function will not be extended to support IPv6. For transparent support for obtaining IPv6 and IPv4 host information, you must use **getaddrinfo**.
+The best approach to ensure your application is using IPv6-compatible function calls is to use the [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) function for obtaining host-to-address translation. Beginning with Windows XP, the **getaddrinfo** function makes the [**gethostbyname**](/windows/desktop/api) function unnecessary, and your application should therefore use the **getaddrinfo** function instead for future programming projects. While Microsoft will continue to support **gethostbyname**, this function will not be extended to support IPv6. For transparent support for obtaining IPv6 and IPv4 host information, you must use **getaddrinfo**.
 
 The following example shows how to best use the **getaddrinfo** function. Notice that the function, when used properly as this example demonstrates, handles both IPv6 and IPv4 host-to-address translation properly, but it also obtains other useful information about the host, such as the type of sockets supported. This sample is an excerpt from the Client.c sample found in Appendix B.
 
@@ -441,7 +441,7 @@ int ResolveName(char *Server, char *PortName, int Family, int SocketType)
 
 Code to Avoid
 
-Host address translation has traditionally been achieved using the [**gethostbyname**](/windows/desktop/api/wsipv6ok/nf-winsock-gethostbyname) function. Beginning with Windows XP:
+Host address translation has traditionally been achieved using the [**gethostbyname**](/windows/desktop/api) function. Beginning with Windows XP:
 
 -   The **getaddrinfo** function makes the **gethostbyname** function obsolete.
 -   Your applications should use the **getaddrinfo** function instead of the **gethostbyname** function.
@@ -452,11 +452,11 @@ Coding Tasks
 
 1.  Acquire the Checkv4.exe utility. This utility is installed as part of the Windows SDK. The Windows SDK is available through an MSDN subscription and can also be downloaded from the Microsoft website (http://msdn.microsoft.com). An older version of the *Checkv4.exe* tool was also as included as part of the Microsoft IPv6 Technology Preview for Windows 2000.
 2.  Run the *Checkv4.exe* utility against your code. See [Using the Checkv4.exe Utility](using-the-checkv4-exe-utility-2.md) to learn about running the version utility against your files.
-3.  The utility alerts you to usage of the [**gethostbyname**](/windows/desktop/api/wsipv6ok/nf-winsock-gethostbyname), [**gethostbyaddr**](/windows/desktop/api/wsipv6ok/nf-winsock-gethostbyaddr), and other IPv4-only functions, and provides recommendations on how to replace them with the IPv6-compatible function such as [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) and [**getnameinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getnameinfo).
+3.  The utility alerts you to usage of the [**gethostbyname**](/windows/desktop/api), [**gethostbyaddr**](/windows/desktop/api), and other IPv4-only functions, and provides recommendations on how to replace them with the IPv6-compatible function such as [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) and [**getnameinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getnameinfo).
 4.  Replace any instances of the **gethostbyname** function, and associated code as appropriate, with the **getaddrinfo** function. On Windows Vista, use the [**WSAConnectByName**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbynamea) or [**WSAConnectByList**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbylist) function when appropriate.
-5.  Replace any instances of the [**gethostbyaddr**](/windows/desktop/api/wsipv6ok/nf-winsock-gethostbyaddr) function, and associated code as appropriate, with the [**getnameinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getnameinfo) function.
+5.  Replace any instances of the [**gethostbyaddr**](/windows/desktop/api) function, and associated code as appropriate, with the [**getnameinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getnameinfo) function.
 
-Alternatively, you can search your code base for instances of the **gethostbyname** and [**gethostbyaddr**](/windows/desktop/api/wsipv6ok/nf-winsock-gethostbyaddr) functions, and change all such usage (and other associated code, as appropriate) to the **getaddrinfo** and [**getnameinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getnameinfo) functions.
+Alternatively, you can search your code base for instances of the **gethostbyname** and [**gethostbyaddr**](/windows/desktop/api) functions, and change all such usage (and other associated code, as appropriate) to the **getaddrinfo** and [**getnameinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getnameinfo) functions.
 
 ## Related topics
 

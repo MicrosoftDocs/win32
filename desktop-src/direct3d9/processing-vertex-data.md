@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Processing Vertex Data (Direct3D 9)
 
-The [**IDirect3DDevice9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9) interface supports vertex processing in both software and hardware. In general, the device capabilities for software and hardware vertex processing are not identical. Hardware capabilities are variable, depending on the display adapter and driver, while software capabilities are fixed.
+The [**IDirect3DDevice9**](/windows/desktop/api) interface supports vertex processing in both software and hardware. In general, the device capabilities for software and hardware vertex processing are not identical. Hardware capabilities are variable, depending on the display adapter and driver, while software capabilities are fixed.
 
 The following flags control vertex processing behavior for the hardware abstraction layer (HAL) and reference devices.
 
@@ -19,7 +19,7 @@ The following flags control vertex processing behavior for the hardware abstract
 -   D3DCREATE\_HARDWARE\_VERTEXPROCESSING
 -   D3DCREATE\_MIXED\_VERTEXPROCESSING
 
-Specify one of the vertex processing behavior flags when calling [**IDirect3D9::CreateDevice**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-createdevice). The mixed-mode flag enables the device to perform both software and hardware vertex processing. Only one vertex processing flag may be set for a device at any one time. Note that the D3DCREATE\_HARDWARE\_VERTEXPROCESSING flag is required to be set when creating a pure device (D3DCREATE\_PUREDEVICE).
+Specify one of the vertex processing behavior flags when calling [**IDirect3D9::CreateDevice**](/windows/desktop/api). The mixed-mode flag enables the device to perform both software and hardware vertex processing. Only one vertex processing flag may be set for a device at any one time. Note that the D3DCREATE\_HARDWARE\_VERTEXPROCESSING flag is required to be set when creating a pure device (D3DCREATE\_PUREDEVICE).
 
 To avoid dual vertex processing capabilities on a single device, only the hardware vertex processing capabilities can be queried at run time. Software vertex processing capabilities are fixed and cannot be queried at run time.
 

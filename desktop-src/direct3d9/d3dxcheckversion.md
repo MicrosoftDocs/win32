@@ -73,7 +73,7 @@ HRESULT CD3DXMyApplication::Initialize(HINSTANCE hInstance,
 
 
 
-Use [**Direct3DCreate9**](/windows/desktop/api/d3d9helper/nf-d3d9-direct3dcreate9) to verify that the correct runtime is installed.
+Use [**Direct3DCreate9**](/windows/desktop/api) to verify that the correct runtime is installed.
 
 ## Requirements
 

@@ -19,7 +19,7 @@ An additional sampler stage is present in the early part of the vertex pipe, as 
 
 ![diagram of the sampler stage in the vertex pipe](images/tessellatordx9.png)
 
-The displacement map sampler state can be set by the [**SetSamplerState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setsamplerstate) using stage number 256, which is a new stage number. The displacement map texture is set by [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture).
+The displacement map sampler state can be set by the [**SetSamplerState**](/windows/desktop/api) using stage number 256, which is a new stage number. The displacement map texture is set by [**SetTexture**](/windows/desktop/api).
 
 The map can be presampled or not, which means that it can be ordered in a way that enables the lookup of the displacement values without filtering.
 
@@ -37,8 +37,8 @@ The map can be presampled or not, which means that it can be ordered in a way th
 -   When D3DSAMP\_MIPFILTER in the displacement map sampler is not D3DTEXF\_NONE, the level of detail is computed as follows (Note that the adaptive tessellation state is used even if the D3DRS\_ENABLEADAPTIVETESSELLATION is **FALSE**): Tmax = render state D3DRS\_MAXTESSELLATIONLEVEL
 -   Compute tessellation level Te for a vertex Vi: (Xi, Yi, Zi) the same way as described in the "Adaptive tessellation" section. Level of detail L = log2(Tmax) - log2 (Te).
 -   Texture filtering and sampling operations follow the same rules as the pixel pipeline (level of detail (LOD) bias is applied, etc.).
--   Not all formats can be used as displacement maps but only those that support the D3DUSAGE\_DMAP. The application can query that with the CheckDeviceFormat [**CheckDeviceFormat**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-checkdeviceformat).
--   D3DUSAGE\_DMAP must be specified in [**CreateTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createtexture) to notify the driver that this texture is to be used as a displacement map.
+-   Not all formats can be used as displacement maps but only those that support the D3DUSAGE\_DMAP. The application can query that with the CheckDeviceFormat [**CheckDeviceFormat**](/windows/desktop/api).
+-   D3DUSAGE\_DMAP must be specified in [**CreateTexture**](/windows/desktop/api) to notify the driver that this texture is to be used as a displacement map.
 -   D3DUSAGE\_DMAP can only be used with textures. It cannot be used with cube maps or volumes.
 -   Textures and render targets created with D3DUSAGE\_DMAP can be set at regular sampler stages and as render targets.
 -   The render states to set the wrap mode for the texture coordinates are ignored in displacement mapping. In general, there are no wrap modes for the tessellator engine.

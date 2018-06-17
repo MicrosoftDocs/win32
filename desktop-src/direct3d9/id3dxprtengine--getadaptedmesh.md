@@ -35,9 +35,9 @@ HRESULT GetAdaptedMesh(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api)**
 
-Pointer to an [**IDirect3DDevice9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9) device that is used to create the output mesh.
+Pointer to an [**IDirect3DDevice9**](/windows/desktop/api) device that is used to create the output mesh.
 
 </dd> <dt>
 

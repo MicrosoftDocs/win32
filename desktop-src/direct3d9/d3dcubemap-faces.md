@@ -100,16 +100,16 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DCubeTexture9::AddDirtyRect**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dcubetexture9-adddirtyrect)
+[**IDirect3DCubeTexture9::AddDirtyRect**](/windows/desktop/api)
 </dt> <dt>
 
-[**IDirect3DCubeTexture9::GetCubeMapSurface**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dcubetexture9-getcubemapsurface)
+[**IDirect3DCubeTexture9::GetCubeMapSurface**](/windows/desktop/api)
 </dt> <dt>
 
-[**IDirect3DCubeTexture9::LockRect**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dcubetexture9-lockrect)
+[**IDirect3DCubeTexture9::LockRect**](/windows/desktop/api)
 </dt> <dt>
 
-[**IDirect3DCubeTexture9::UnlockRect**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dcubetexture9-unlockrect)
+[**IDirect3DCubeTexture9::UnlockRect**](/windows/desktop/api)
 </dt> </dl>
 
  

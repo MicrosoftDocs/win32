@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 This section contains reference information for the functions that you need to use when you work with Direct3D. The following functions are implemented:
 
 -   [**DebugSetMute**](debugsetmute.md)
--   [**Direct3DCreate9**](/windows/desktop/api/d3d9helper/nf-d3d9-direct3dcreate9)
+-   [**Direct3DCreate9**](/windows/desktop/api)
 
     
 

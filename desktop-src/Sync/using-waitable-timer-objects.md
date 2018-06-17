@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Using Waitable Timer Objects
 
-The following example creates a timer that will be signaled after a 10 second delay. First, the code uses the [**CreateWaitableTimer**](/windows/desktop/api/WinBase/nf-winbase-createwaitabletimera) function to create a [waitable timer object](waitable-timer-objects.md). Then it uses the [**SetWaitableTimer**](/windows/desktop/api/WinBase/nf-synchapi-setwaitabletimer) function to set the timer. The code uses the [**WaitForSingleObject**](/windows/desktop/api/WinBase/nf-synchapi-waitforsingleobject) function to determine when the timer has been signaled.
+The following example creates a timer that will be signaled after a 10 second delay. First, the code uses the [**CreateWaitableTimer**](/windows/desktop/api/WinBase/nf-winbase-createwaitabletimera) function to create a [waitable timer object](waitable-timer-objects.md). Then it uses the [**SetWaitableTimer**](/windows/desktop/api) function to set the timer. The code uses the [**WaitForSingleObject**](/windows/desktop/api) function to determine when the timer has been signaled.
 
 
 ```C++

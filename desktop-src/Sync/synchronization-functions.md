@@ -34,10 +34,10 @@ The following functions are used in synchronization.
 
 | Asynchronous function                                  | Description                                                                                           |
 |--------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| [**APCProc**](https://msdn.microsoft.com/en-us/library/ms681947(v=VS.85).aspx)                             | An application-defined callback function used with the [**QueueUserAPC**](/windows/desktop/api/WinBase/nf-processthreadsapi-queueuserapc) function. |
-| [**GetOverlappedResult**](/windows/desktop/api/WinBase/nf-ioapiset-getoverlappedresult)     | Retrieves the results of an overlapped operation.                                                     |
+| [**APCProc**](https://msdn.microsoft.com/en-us/library/ms681947(v=VS.85).aspx)                             | An application-defined callback function used with the [**QueueUserAPC**](/windows/desktop/api) function. |
+| [**GetOverlappedResult**](/windows/desktop/api)     | Retrieves the results of an overlapped operation.                                                     |
 | [**GetOverlappedResultEx**](/windows/desktop/api/Ioapiset/nf-ioapiset-getoverlappedresultex) | Retrieves the results of an overlapped operation within a specified timeout interval.                 |
-| [**QueueUserAPC**](/windows/desktop/api/WinBase/nf-processthreadsapi-queueuserapc)                   | Adds a user-mode asynchronous procedure call (APC) object to the APC queue of the specified thread.   |
+| [**QueueUserAPC**](/windows/desktop/api)                   | Adds a user-mode asynchronous procedure call (APC) object to the APC queue of the specified thread.   |
 
 
 
@@ -49,18 +49,18 @@ The following functions are used in synchronization.
 
 | Condition variable and SRW lock function                           | Description                                                                                                                                       |
 |--------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AcquireSRWLockExclusive**](/windows/desktop/api/WinBase/nf-synchapi-acquiresrwlockexclusive)         | Acquires a slim reader/writer (SRW) lock in exclusive mode.                                                                                       |
-| [**AcquireSRWLockShared**](/windows/desktop/api/WinBase/nf-synchapi-acquiresrwlockshared)               | Acquires a slim reader/writer (SRW) lock in shared mode.                                                                                          |
-| [**InitializeConditionVariable**](/windows/desktop/api/WinBase/nf-synchapi-initializeconditionvariable) | Initializes a condition variable.                                                                                                                 |
-| [**InitializeSRWLock**](/windows/desktop/api/WinBase/nf-synchapi-initializesrwlock)                     | Initialize a slim reader/writer (SRW) lock.                                                                                                       |
-| [**ReleaseSRWLockExclusive**](/windows/desktop/api/WinBase/nf-synchapi-releasesrwlockexclusive)         | Releases a slim reader/writer (SRW) lock that was acquired in exclusive mode.                                                                     |
-| [**ReleaseSRWLockShared**](/windows/desktop/api/WinBase/nf-synchapi-releasesrwlockshared)               | Releases a slim reader/writer (SRW) lock that was acquired in shared mode.                                                                        |
-| [**SleepConditionVariableCS**](/windows/desktop/api/WinBase/nf-synchapi-sleepconditionvariablecs)       | Sleeps on the specified condition variable and releases the specified critical section as an atomic operation.                                    |
-| [**SleepConditionVariableSRW**](/windows/desktop/api/WinBase/nf-synchapi-sleepconditionvariablesrw)     | Sleeps on the specified condition variable and releases the specified lock as an atomic operation.                                                |
-| [**TryAcquireSRWLockExclusive**](/windows/desktop/api/WinBase/nf-synchapi-tryacquiresrwlockexclusive)   | Attempts to acquire a slim reader/writer (SRW) lock in exclusive mode. If the call is successful, the calling thread takes ownership of the lock. |
-| [**TryAcquireSRWLockShared**](/windows/desktop/api/WinBase/nf-synchapi-tryacquiresrwlockshared)         | Attempts to acquire a slim reader/writer (SRW) lock in shared mode. If the call is successful, the calling thread takes ownership of the lock.    |
-| [**WakeAllConditionVariable**](/windows/desktop/api/WinBase/nf-synchapi-wakeallconditionvariable)       | Wake all threads waiting on the specified condition variable.                                                                                     |
-| [**WakeConditionVariable**](/windows/desktop/api/WinBase/nf-synchapi-wakeconditionvariable)             | Wake a single thread waiting on the specified condition variable.                                                                                 |
+| [**AcquireSRWLockExclusive**](/windows/desktop/api)         | Acquires a slim reader/writer (SRW) lock in exclusive mode.                                                                                       |
+| [**AcquireSRWLockShared**](/windows/desktop/api)               | Acquires a slim reader/writer (SRW) lock in shared mode.                                                                                          |
+| [**InitializeConditionVariable**](/windows/desktop/api) | Initializes a condition variable.                                                                                                                 |
+| [**InitializeSRWLock**](/windows/desktop/api)                     | Initialize a slim reader/writer (SRW) lock.                                                                                                       |
+| [**ReleaseSRWLockExclusive**](/windows/desktop/api)         | Releases a slim reader/writer (SRW) lock that was acquired in exclusive mode.                                                                     |
+| [**ReleaseSRWLockShared**](/windows/desktop/api)               | Releases a slim reader/writer (SRW) lock that was acquired in shared mode.                                                                        |
+| [**SleepConditionVariableCS**](/windows/desktop/api)       | Sleeps on the specified condition variable and releases the specified critical section as an atomic operation.                                    |
+| [**SleepConditionVariableSRW**](/windows/desktop/api)     | Sleeps on the specified condition variable and releases the specified lock as an atomic operation.                                                |
+| [**TryAcquireSRWLockExclusive**](/windows/desktop/api)   | Attempts to acquire a slim reader/writer (SRW) lock in exclusive mode. If the call is successful, the calling thread takes ownership of the lock. |
+| [**TryAcquireSRWLockShared**](/windows/desktop/api)         | Attempts to acquire a slim reader/writer (SRW) lock in shared mode. If the call is successful, the calling thread takes ownership of the lock.    |
+| [**WakeAllConditionVariable**](/windows/desktop/api)       | Wake all threads waiting on the specified condition variable.                                                                                     |
+| [**WakeConditionVariable**](/windows/desktop/api)             | Wake a single thread waiting on the specified condition variable.                                                                                 |
 
 
 
@@ -72,14 +72,14 @@ The following functions are used in synchronization.
 
 | Critical section function                                                              | Description                                                                             |
 |----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| [**DeleteCriticalSection**](/windows/desktop/api/WinBase/nf-synchapi-deletecriticalsection)                                 | Releases all resources used by an unowned critical section object.                      |
-| [**EnterCriticalSection**](/windows/desktop/api/WinBase/nf-synchapi-entercriticalsection)                                   | Waits for ownership of the specified critical section object.                           |
-| [**InitializeCriticalSection**](/windows/desktop/api/WinBase/nf-synchapi-initializecriticalsection)                         | Initializes a critical section object.                                                  |
-| [**InitializeCriticalSectionAndSpinCount**](/windows/desktop/api/WinBase/nf-synchapi-initializecriticalsectionandspincount) | Initializes a critical section object and sets the spin count for the critical section. |
-| [**InitializeCriticalSectionEx**](/windows/desktop/api/WinBase/nf-synchapi-initializecriticalsectionex)                     | Initializes a critical section object with a spin count and optional flags.             |
-| [**LeaveCriticalSection**](/windows/desktop/api/WinBase/nf-synchapi-leavecriticalsection)                                   | Releases ownership of the specified critical section object.                            |
-| [**SetCriticalSectionSpinCount**](/windows/desktop/api/WinBase/nf-synchapi-setcriticalsectionspincount)                     | Sets the spin count for the specified critical section.                                 |
-| [**TryEnterCriticalSection**](/windows/desktop/api/WinBase/nf-synchapi-tryentercriticalsection)                             | Attempts to enter a critical section without blocking.                                  |
+| [**DeleteCriticalSection**](/windows/desktop/api)                                 | Releases all resources used by an unowned critical section object.                      |
+| [**EnterCriticalSection**](/windows/desktop/api)                                   | Waits for ownership of the specified critical section object.                           |
+| [**InitializeCriticalSection**](/windows/desktop/api)                         | Initializes a critical section object.                                                  |
+| [**InitializeCriticalSectionAndSpinCount**](/windows/desktop/api) | Initializes a critical section object and sets the spin count for the critical section. |
+| [**InitializeCriticalSectionEx**](/windows/desktop/api)                     | Initializes a critical section object with a spin count and optional flags.             |
+| [**LeaveCriticalSection**](/windows/desktop/api)                                   | Releases ownership of the specified critical section object.                            |
+| [**SetCriticalSectionSpinCount**](/windows/desktop/api)                     | Sets the spin count for the specified critical section.                                 |
+| [**TryEnterCriticalSection**](/windows/desktop/api)                             | Attempts to enter a critical section without blocking.                                  |
 
 
 
@@ -91,12 +91,12 @@ The following functions are used in synchronization.
 
 | Event function                         | Description                                                                                                                                                  |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateEvent**](/windows/desktop/api/WinBase/nf-synchapi-createeventa)     | Creates or opens a named or unnamed event object.                                                                                                            |
-| [**CreateEventEx**](/windows/desktop/api/WinBase/nf-synchapi-createeventexa) | Creates or opens a named or unnamed event object and returns a handle to the object.                                                                         |
-| [**OpenEvent**](/windows/desktop/api/WinBase/nf-synchapi-openeventa)         | Opens an existing named event object.                                                                                                                        |
+| [**CreateEvent**](/windows/desktop/api)     | Creates or opens a named or unnamed event object.                                                                                                            |
+| [**CreateEventEx**](/windows/desktop/api) | Creates or opens a named or unnamed event object and returns a handle to the object.                                                                         |
+| [**OpenEvent**](/windows/desktop/api)         | Opens an existing named event object.                                                                                                                        |
 | [**PulseEvent**](/windows/desktop/api/WinBase/nf-winbase-pulseevent)       | Sets the specified event object to the signaled state and then resets it to the nonsignaled state after releasing the appropriate number of waiting threads. |
-| [**ResetEvent**](/windows/desktop/api/WinBase/nf-synchapi-resetevent)       | Sets the specified event object to the nonsignaled state.                                                                                                    |
-| [**SetEvent**](/windows/desktop/api/WinBase/nf-synchapi-setevent)           | Sets the specified event object to the signaled state.                                                                                                       |
+| [**ResetEvent**](/windows/desktop/api)       | Sets the specified event object to the nonsignaled state.                                                                                                    |
+| [**SetEvent**](/windows/desktop/api)           | Sets the specified event object to the signaled state.                                                                                                       |
 
 
 
@@ -108,10 +108,10 @@ The following functions are used in synchronization.
 
 | One-time initialization function                           | Description                                                                                                                                                                                                 |
 |------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**InitOnceBeginInitialize**](/windows/desktop/api/WinBase/nf-synchapi-initoncebegininitialize) | Begins one-time initialization.                                                                                                                                                                             |
-| [**InitOnceComplete**](/windows/desktop/api/WinBase/nf-synchapi-initoncecomplete)               | Completes one-time initialization.                                                                                                                                                                          |
-| [**InitOnceExecuteOnce**](/windows/desktop/api/WinBase/nf-synchapi-initonceexecuteonce)         | Executes the specified function successfully one time. No other threads that specify the same one-time initialization structure can execute this function while it is being executed by the current thread. |
-| [**InitOnceInitialize**](/windows/desktop/api/WinBase/nf-synchapi-initonceinitialize)           | Initializes a one-time initialization structure.                                                                                                                                                            |
+| [**InitOnceBeginInitialize**](/windows/desktop/api) | Begins one-time initialization.                                                                                                                                                                             |
+| [**InitOnceComplete**](/windows/desktop/api)               | Completes one-time initialization.                                                                                                                                                                          |
+| [**InitOnceExecuteOnce**](/windows/desktop/api)         | Executes the specified function successfully one time. No other threads that specify the same one-time initialization structure can execute this function while it is being executed by the current thread. |
+| [**InitOnceInitialize**](/windows/desktop/api)           | Initializes a one-time initialization structure.                                                                                                                                                            |
 
 
 
@@ -266,10 +266,10 @@ The following functions are used in synchronization.
 
 | Mutex function                         | Description                                                                          |
 |----------------------------------------|--------------------------------------------------------------------------------------|
-| [**CreateMutex**](/windows/desktop/api/WinBase/nf-synchapi-createmutexa)     | Creates or opens a named or unnamed mutex object.                                    |
-| [**CreateMutexEx**](/windows/desktop/api/WinBase/nf-synchapi-createmutexexa) | Creates or opens a named or unnamed mutex object and returns a handle to the object. |
+| [**CreateMutex**](/windows/desktop/api)     | Creates or opens a named or unnamed mutex object.                                    |
+| [**CreateMutexEx**](/windows/desktop/api) | Creates or opens a named or unnamed mutex object and returns a handle to the object. |
 | [**OpenMutex**](/windows/desktop/api/WinBase/nf-winbase-openmutexa)         | Opens an existing named mutex object.                                                |
-| [**ReleaseMutex**](/windows/desktop/api/WinBase/nf-synchapi-releasemutex)   | Releases ownership of the specified mutex object.                                    |
+| [**ReleaseMutex**](/windows/desktop/api)   | Releases ownership of the specified mutex object.                                    |
 
 
 
@@ -302,7 +302,7 @@ The following functions are used in synchronization.
 | [**CreateSemaphore**](/windows/desktop/api/WinBase/nf-winbase-createsemaphorea)     | Creates or opens a named or unnamed semaphore object.                                    |
 | [**CreateSemaphoreEx**](/windows/desktop/api/WinBase/nf-winbase-createsemaphoreexa) | Creates or opens a named or unnamed semaphore object and returns a handle to the object. |
 | [**OpenSemaphore**](/windows/desktop/api/WinBase/nf-winbase-opensemaphorea)         | Opens an existing named semaphore object.                                                |
-| [**ReleaseSemaphore**](/windows/desktop/api/WinBase/nf-synchapi-releasesemaphore)   | Increases the count of the specified semaphore object by a specified amount.             |
+| [**ReleaseSemaphore**](/windows/desktop/api)   | Increases the count of the specified semaphore object by a specified amount.             |
 
 
 
@@ -314,19 +314,19 @@ The following functions are used in synchronization.
 
 | Singly-linked list function                                          | Description                                                                                                                                                                                                                                                  |
 |----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**InitializeSListHead**](/windows/desktop/api/WinBase/nf-interlockedapi-initializeslisthead)                   | Initializes the head of a singly linked list.                                                                                                                                                                                                                |
-| [**InterlockedFlushSList**](/windows/desktop/api/WinBase/nf-interlockedapi-interlockedflushslist)               | Flushes the entire list of items in a singly linked list.                                                                                                                                                                                                    |
-| [**InterlockedPopEntrySList**](/windows/desktop/api/WinBase/nf-interlockedapi-interlockedpopentryslist)         | Removes an item from the front of a singly linked list.                                                                                                                                                                                                      |
-| [**InterlockedPushEntrySList**](/windows/desktop/api/WinBase/nf-interlockedapi-interlockedpushentryslist)       | Inserts an item at the front of a singly linked list.                                                                                                                                                                                                        |
+| [**InitializeSListHead**](/windows/desktop/api)                   | Initializes the head of a singly linked list.                                                                                                                                                                                                                |
+| [**InterlockedFlushSList**](/windows/desktop/api)               | Flushes the entire list of items in a singly linked list.                                                                                                                                                                                                    |
+| [**InterlockedPopEntrySList**](/windows/desktop/api)         | Removes an item from the front of a singly linked list.                                                                                                                                                                                                      |
+| [**InterlockedPushEntrySList**](/windows/desktop/api)       | Inserts an item at the front of a singly linked list.                                                                                                                                                                                                        |
 | [**InterlockedPushListSList**](https://msdn.microsoft.com/en-us/library/Hh448545(v=VS.85).aspx)         | Inserts a singly-linked list at the front of another singly linked list.                                                                                                                                                                                     |
 | [**InterlockedPushListSListEx**](/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpushlistslistex)     | Inserts a singly-linked list at the front of another singly linked list. Access to the lists is synchronized on a multiprocessor system. This version of the method does not use the [\_\_fastcall](https://msdn.microsoft.com/en-us/library/6xa169sk(v=VS.71).aspx) calling convention |
-| [**QueryDepthSList**](/windows/desktop/api/WinBase/nf-interlockedapi-querydepthslist)                           | Retrieves the number of entries in the specified singly linked list.                                                                                                                                                                                         |
+| [**QueryDepthSList**](/windows/desktop/api)                           | Retrieves the number of entries in the specified singly linked list.                                                                                                                                                                                         |
 | [**RtlFirstEntrySList**](/windows/desktop/api/WinNT/nf-winnt-rtlfirstentryslist)                     | Retrieves the first entry in a singly linked list.                                                                                                                                                                                                           |
-| [**RtlInitializeSListHead**](/windows/desktop/api/Winnt/nf-winnt-rtlinitializeslisthead)             | Initializes the head of a singly linked list. Applications should call [**InitializeSListHead**](/windows/desktop/api/WinBase/nf-interlockedapi-initializeslisthead) instead.                                                                                                                           |
-| [**RtlInterlockedFlushSList**](/windows/desktop/api/Winnt/nf-winnt-rtlinterlockedflushslist)         | Flushes the entire list of items in a singly linked list. Applications should call [**InterlockedFlushSList**](/windows/desktop/api/WinBase/nf-interlockedapi-interlockedflushslist) instead.                                                                                                           |
-| [**RtlInterlockedPopEntrySList**](/windows/desktop/api/Winnt/nf-winnt-rtlinterlockedpopentryslist)   | Removes an item from the front of a singly linked list. Applications should call [**InterlockedPopEntrySList**](/windows/desktop/api/WinBase/nf-interlockedapi-interlockedpopentryslist) instead.                                                                                                       |
-| [**RtlInterlockedPushEntrySList**](/windows/desktop/api/Winnt/nf-winnt-rtlinterlockedpushentryslist) | Inserts an item at the front of a singly linked list. Applications should call [**InterlockedPushEntrySList**](/windows/desktop/api/WinBase/nf-interlockedapi-interlockedpushentryslist) instead.                                                                                                       |
-| [**RtlQueryDepthSList**](/windows/desktop/api/Winnt/nf-winnt-rtlquerydepthslist)                     | Retrieves the number of entries in the specified singly linked list. Applications should call [**QueryDepthSList**](/windows/desktop/api/WinBase/nf-interlockedapi-querydepthslist) instead.                                                                                                            |
+| [**RtlInitializeSListHead**](/windows/desktop/api/Winnt/nf-winnt-rtlinitializeslisthead)             | Initializes the head of a singly linked list. Applications should call [**InitializeSListHead**](/windows/desktop/api) instead.                                                                                                                           |
+| [**RtlInterlockedFlushSList**](/windows/desktop/api/Winnt/nf-winnt-rtlinterlockedflushslist)         | Flushes the entire list of items in a singly linked list. Applications should call [**InterlockedFlushSList**](/windows/desktop/api) instead.                                                                                                           |
+| [**RtlInterlockedPopEntrySList**](/windows/desktop/api/Winnt/nf-winnt-rtlinterlockedpopentryslist)   | Removes an item from the front of a singly linked list. Applications should call [**InterlockedPopEntrySList**](/windows/desktop/api) instead.                                                                                                       |
+| [**RtlInterlockedPushEntrySList**](/windows/desktop/api/Winnt/nf-winnt-rtlinterlockedpushentryslist) | Inserts an item at the front of a singly linked list. Applications should call [**InterlockedPushEntrySList**](/windows/desktop/api) instead.                                                                                                       |
+| [**RtlQueryDepthSList**](/windows/desktop/api/Winnt/nf-winnt-rtlquerydepthslist)                     | Retrieves the number of entries in the specified singly linked list. Applications should call [**QueryDepthSList**](/windows/desktop/api) instead.                                                                                                            |
 
 
 
@@ -376,9 +376,9 @@ The following functions are used in synchronization.
 | [**UnregisterWait**](/windows/desktop/api/WinBase/nf-winbase-unregisterwait)                           | Cancels a registered wait operation.                                                                                                                                                                                                                       |
 | [**UnregisterWaitEx**](unregisterwaitex.md)                       | Cancels a registered wait operation.                                                                                                                                                                                                                       |
 | [**WaitForMultipleObjects**](https://msdn.microsoft.com/en-us/library/ms687025(v=VS.85).aspx)           | Waits until one or all of the specified objects are in the signaled state or the time-out interval elapses.                                                                                                                                                |
-| [**WaitForMultipleObjectsEx**](/windows/desktop/api/WinBase/nf-synchapi-waitformultipleobjectsex)       | Waits until one or all of the specified objects are in the signaled state, an I/O completion routine or asynchronous procedure call (APC) is queued to the thread, or the time-out interval elapses.                                                       |
-| [**WaitForSingleObject**](/windows/desktop/api/WinBase/nf-synchapi-waitforsingleobject)                 | Waits until the specified object is in the signaled state or the time-out interval elapses.                                                                                                                                                                |
-| [**WaitForSingleObjectEx**](/windows/desktop/api/WinBase/nf-synchapi-waitforsingleobjectex)             | Waits until the specified object is in the signaled state, an I/O completion routine or asynchronous procedure call (APC) is queued to the thread, or the time-out interval elapses.                                                                       |
+| [**WaitForMultipleObjectsEx**](/windows/desktop/api)       | Waits until one or all of the specified objects are in the signaled state, an I/O completion routine or asynchronous procedure call (APC) is queued to the thread, or the time-out interval elapses.                                                       |
+| [**WaitForSingleObject**](/windows/desktop/api)                 | Waits until the specified object is in the signaled state or the time-out interval elapses.                                                                                                                                                                |
+| [**WaitForSingleObjectEx**](/windows/desktop/api)             | Waits until the specified object is in the signaled state, an I/O completion routine or asynchronous procedure call (APC) is queued to the thread, or the time-out interval elapses.                                                                       |
 | [**WaitOnAddress**](/windows/desktop/api/SynchAPI/nf-synchapi-waitonaddress)                             | Waits for the value at the specified address to change.                                                                                                                                                                                                    |
 | [**WaitOrTimerCallback**](https://msdn.microsoft.com/en-us/library/ms687066(v=VS.85).aspx)                 | An application-defined function that serves as the starting address for a timer callback or a registered wait callback.                                                                                                                                    |
 | [**WakeByAddressAll**](/windows/desktop/api/SynchAPI/nf-synchapi-wakebyaddressall)                       | Wakes all threads waiting for the value of an address to change.                                                                                                                                                                                           |
@@ -394,13 +394,13 @@ The following functions are used in synchronization.
 
 | Waitable-timer function                                | Description                                                                                                       |
 |--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| [**CancelWaitableTimer**](/windows/desktop/api/WinBase/nf-synchapi-cancelwaitabletimer)     | Sets the specified waitable timer to the inactive state.                                                          |
+| [**CancelWaitableTimer**](/windows/desktop/api)     | Sets the specified waitable timer to the inactive state.                                                          |
 | [**CreateWaitableTimer**](/windows/desktop/api/WinBase/nf-winbase-createwaitabletimera)     | Creates or opens a waitable timer object.                                                                         |
 | [**CreateWaitableTimerEx**](/windows/desktop/api/WinBase/nf-winbase-createwaitabletimerexa) | Creates or opens a waitable timer object and returns a handle to the object.                                      |
 | [**OpenWaitableTimer**](/windows/desktop/api/WinBase/nf-winbase-openwaitabletimera)         | Opens an existing named waitable timer object.                                                                    |
-| [**SetWaitableTimer**](/windows/desktop/api/WinBase/nf-synchapi-setwaitabletimer)           | Activates the specified waitable timer.                                                                           |
-| [**SetWaitableTimerEx**](/windows/desktop/api/WinBase/nf-synchapi-setwaitabletimerex)       | Activates the specified waitable timer and provides context information for the timer. .                          |
-| [**TimerAPCProc**](https://msdn.microsoft.com/en-us/library/ms686786(v=VS.85).aspx)                   | Application-defined timer completion routine used with the [**SetWaitableTimer**](/windows/desktop/api/WinBase/nf-synchapi-setwaitabletimer) function. |
+| [**SetWaitableTimer**](/windows/desktop/api)           | Activates the specified waitable timer.                                                                           |
+| [**SetWaitableTimerEx**](/windows/desktop/api)       | Activates the specified waitable timer and provides context information for the timer. .                          |
+| [**TimerAPCProc**](https://msdn.microsoft.com/en-us/library/ms686786(v=VS.85).aspx)                   | Application-defined timer completion routine used with the [**SetWaitableTimer**](/windows/desktop/api) function. |
 
 
 

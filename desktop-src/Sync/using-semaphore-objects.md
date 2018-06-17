@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 The following example uses a [semaphore object](semaphore-objects.md) to limit the number of threads that can perform a particular task. First, it uses the [**CreateSemaphore**](/windows/desktop/api/WinBase/nf-winbase-createsemaphorea) function to create the semaphore and to specify initial and maximum counts, then it uses the [**CreateThread**](https://msdn.microsoft.com/en-us/library/ms682453(v=VS.85).aspx) function to create the threads.
 
-Before a thread attempts to perform the task, it uses the [**WaitForSingleObject**](/windows/desktop/api/WinBase/nf-synchapi-waitforsingleobject) function to determine whether the semaphore's current count permits it to do so. The wait function's time-out parameter is set to zero, so the function returns immediately if the semaphore is in the nonsignaled state. **WaitForSingleObject** decrements the semaphore's count by one.
+Before a thread attempts to perform the task, it uses the [**WaitForSingleObject**](/windows/desktop/api) function to determine whether the semaphore's current count permits it to do so. The wait function's time-out parameter is set to zero, so the function returns immediately if the semaphore is in the nonsignaled state. **WaitForSingleObject** decrements the semaphore's count by one.
 
-When a thread completes the task, it uses the [**ReleaseSemaphore**](/windows/desktop/api/WinBase/nf-synchapi-releasesemaphore) function to increment the semaphore's count, thus enabling another waiting thread to perform the task.
+When a thread completes the task, it uses the [**ReleaseSemaphore**](/windows/desktop/api) function to increment the semaphore's count, thus enabling another waiting thread to perform the task.
 
 
 ```C++

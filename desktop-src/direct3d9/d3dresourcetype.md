@@ -108,7 +108,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DResource9::GetType**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dresource9-gettype)
+[**IDirect3DResource9::GetType**](/windows/desktop/api)
 </dt> </dl>
 
  

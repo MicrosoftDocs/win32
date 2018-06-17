@@ -35,7 +35,7 @@ HRESULT D3DXTessellateTriPatch(
 *pVB* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVERTEXBUFFER9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dvertexbuffer9)**
+Type: **[**LPDIRECT3DVERTEXBUFFER9**](/windows/desktop/api)**
 
 Vertex buffer containing the patch data.
 

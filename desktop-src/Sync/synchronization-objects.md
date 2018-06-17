@@ -45,7 +45,7 @@ Though available for other uses, the following objects can also be used for sync
 
  
 
-In some circumstances, you can also use a file, named pipe, or communications device as a synchronization object; however, their use for this purpose is discouraged. Instead, use asynchronous I/O and wait on the event object set in the [**OVERLAPPED**](/windows/desktop/api/WinBase/ns-minwinbase-_overlapped) structure. It is safer to use the event object because of the confusion that can occur when multiple simultaneous overlapped operations are performed on the same file, named pipe, or communications device. In this situation, there is no way to know which operation caused the object's state to be signaled.
+In some circumstances, you can also use a file, named pipe, or communications device as a synchronization object; however, their use for this purpose is discouraged. Instead, use asynchronous I/O and wait on the event object set in the [**OVERLAPPED**](/windows/desktop/api) structure. It is safer to use the event object because of the confusion that can occur when multiple simultaneous overlapped operations are performed on the same file, named pipe, or communications device. In this situation, there is no way to know which operation caused the object's state to be signaled.
 
 For additional information about I/O operations on files, named pipes, or communications, see [Synchronization and Overlapped Input and Output](synchronization-and-overlapped-input-and-output.md).
 

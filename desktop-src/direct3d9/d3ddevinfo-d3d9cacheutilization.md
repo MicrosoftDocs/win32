@@ -72,7 +72,7 @@ An efficient cache is typically closer to a 90 percent hit rate, and an ineffici
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetData**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dquery9-getdata)
+[**GetData**](/windows/desktop/api)
 </dt> </dl>
 
  

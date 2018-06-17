@@ -414,21 +414,21 @@ Performs an atomic XOR operation on the specified **LONGLONG** values. The opera
 
 <dl> <dt>
 
-[**SetWaitableTimerEx**](/windows/desktop/api/WinBase/nf-synchapi-setwaitabletimerex)
+[**SetWaitableTimerEx**](/windows/desktop/api)
 </dt> <dd>
 
 Activates the specified waitable timer and provides context information for the timer.
 
 </dd> <dt>
 
-[**TryAcquireSRWLockExclusive**](/windows/desktop/api/WinBase/nf-synchapi-tryacquiresrwlockexclusive)
+[**TryAcquireSRWLockExclusive**](/windows/desktop/api)
 </dt> <dd>
 
 Attempts to acquire a slim reader/writer (SRW) lock in exclusive mode. If the call is successful, the calling thread takes ownership of the lock.
 
 </dd> <dt>
 
-[**TryAcquireSRWLockShared**](/windows/desktop/api/WinBase/nf-synchapi-tryacquiresrwlockshared)
+[**TryAcquireSRWLockShared**](/windows/desktop/api)
 </dt> <dd>
 
 Attempts to acquire a slim reader/writer (SRW) lock in shared mode. If the call is successful, the calling thread takes ownership of the lock.
@@ -442,7 +442,7 @@ Attempts to acquire a slim reader/writer (SRW) lock in shared mode. If the call 
 [**REASON\_CONTEXT**](https://msdn.microsoft.com/en-us/library/Dd405536(v=VS.85).aspx)
 </dt> <dd>
 
-Contains context information for a timer activated with [**SetWaitableTimerEx**](/windows/desktop/api/WinBase/nf-synchapi-setwaitabletimerex).
+Contains context information for a timer activated with [**SetWaitableTimerEx**](/windows/desktop/api).
 
 </dd> </dl>
 

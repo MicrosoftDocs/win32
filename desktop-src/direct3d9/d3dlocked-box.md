@@ -84,10 +84,10 @@ Volumes can be visualized as being organized into slices of width x height 2D su
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**IDirect3DVolume9::LockBox**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dvolume9-lockbox)
+[**IDirect3DVolume9::LockBox**](/windows/desktop/api)
 </dt> <dt>
 
-[**IDirect3DVolumeTexture9::LockBox**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dvolumetexture9-lockbox)
+[**IDirect3DVolumeTexture9::LockBox**](/windows/desktop/api)
 </dt> </dl>
 
  

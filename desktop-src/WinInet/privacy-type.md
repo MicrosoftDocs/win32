@@ -75,10 +75,10 @@ Cookies are categorized as first-party and third-party. A first-party cookie is 
 
 <dl> <dt>
 
-[**PrivacyGetZonePreferenceW**](/windows/desktop/api/winineti/nf-wininet-privacygetzonepreferencew)
+[**PrivacyGetZonePreferenceW**](/windows/desktop/api)
 </dt> <dt>
 
-[**PrivacySetZonePreferenceW**](/windows/desktop/api/winineti/nf-wininet-privacysetzonepreferencew)
+[**PrivacySetZonePreferenceW**](/windows/desktop/api)
 </dt> </dl>
 
  

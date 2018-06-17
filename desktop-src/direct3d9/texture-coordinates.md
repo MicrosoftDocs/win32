@@ -47,11 +47,11 @@ It is possible for texture coordinates of a vertex to be greater than 1.0. When 
 
 ## Texture Coordinates and Texture Stages
 
-Texture coordinates are associated with textures by way of texture stages. Textures get assigned to texture stages with SetTexture(stageIndex, pTexture). See [**IDirect3DDevice9::SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture).
+Texture coordinates are associated with textures by way of texture stages. Textures get assigned to texture stages with SetTexture(stageIndex, pTexture). See [**IDirect3DDevice9::SetTexture**](/windows/desktop/api).
 
 A Flexible Vertex Format(FVF) code can define up to eight sets of texture coordinates. The texture coordinate data is furnished by the user in the vertex data. The data is referred to with a zero based index: 0 - 7. There are up to eight texture blending stages. A texture is associated with a particular stage using SetTexture( stageIndex, pTexture).
 
-Once this is done, any set of texture coordinates can be used by any stage. Each set of coordinates is associated with a stage using SetTextureStageState( stageIndex, D3DTSS\_TEXCOORDINDEX, textureCoordinateIndex ). See [**IDirect3DDevice9::SetTextureStageState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexturestagestate). This way, the blending stages can be set up to use any texture and any texture coordinates. More than one stage can use the same textures, or texture coordinates.
+Once this is done, any set of texture coordinates can be used by any stage. Each set of coordinates is associated with a stage using SetTextureStageState( stageIndex, D3DTSS\_TEXCOORDINDEX, textureCoordinateIndex ). See [**IDirect3DDevice9::SetTextureStageState**](/windows/desktop/api). This way, the blending stages can be set up to use any texture and any texture coordinates. More than one stage can use the same textures, or texture coordinates.
 
 Additional information is contained in the following topics.
 

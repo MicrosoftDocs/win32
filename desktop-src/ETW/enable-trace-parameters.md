@@ -43,7 +43,7 @@ Set to **ENABLE\_TRACE\_PARAMETERS\_VERSION\_2**.
 **EnableProperty**
 </dt> <dd>
 
-Optional settings that ETW can include when writing the event. Some settings write extra data to the [**extended data item**](/windows/desktop/api/relogger/ns-evntcons-_event_header_extended_data_item) section of each event. Other settings refine which events will be included. To use these optional settings, specify one or more of the following flags; otherwise, set to zero.
+Optional settings that ETW can include when writing the event. Some settings write extra data to the [**extended data item**](/windows/desktop/api) section of each event. Other settings refine which events will be included. To use these optional settings, specify one or more of the following flags; otherwise, set to zero.
 
 
 

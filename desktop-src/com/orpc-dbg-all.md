@@ -81,7 +81,7 @@ A pointer to a **BYTE** buffer that contains:
 **pMessage**
 </dt> <dd>
 
-A pointer to an [**RPCOLEMESSAGE**](/windows/desktop/api/objidlbase/ns-objidl-tagrpcolemessage) structure that contains RPC data marshalling information.
+A pointer to an [**RPCOLEMESSAGE**](/windows/desktop/api) structure that contains RPC data marshalling information.
 
 > [!Note]
 >
@@ -107,7 +107,7 @@ A pointer to the IID of the [**IOrpcDebugNotify**](iorpcdebugnotify.md) interfac
 **pChannel**
 </dt> <dd>
 
-A pointer to the [**IRpcChannelBuffer**](/windows/desktop/api/objidlbase/nn-objidl-irpcchannelbuffer) interface of the COM RPC channel implementation on the server.
+A pointer to the [**IRpcChannelBuffer**](/windows/desktop/api) interface of the COM RPC channel implementation on the server.
 
 > [!Note]
 >

@@ -35,7 +35,7 @@ HRESULT ResampleTex(
 *pTextureIn* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dtexture9)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/desktop/api)**
 
 Texture that corresponds to the original parameterization in pMeshIn. This texture will be used to create pTextureOut.
 
@@ -71,7 +71,7 @@ Zero-based index (used in combination with Usage), which identifies the componen
 *pTextureOut* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dtexture9)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/desktop/api)**
 
 Resampled texture.
 

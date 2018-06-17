@@ -68,7 +68,7 @@ Ongoing enhancements to common controls have resulted in the need to extend many
 |                               |                                                                                              |
 |-------------------------------|----------------------------------------------------------------------------------------------|
 | HDITEM\_V1\_SIZE              | The size of the [**HDITEM**](/windows/desktop/api/Commctrl/ns-commctrl-_hd_itema) structure in version 4.0.                           |
-| IMAGELISTDRAWPARAMS\_V3\_SIZE | The size of the [**IMAGELISTDRAWPARAMS**](/windows/desktop/api/commoncontrols/ns-commctrl-_imagelistdrawparams) structure in version 5.9. |
+| IMAGELISTDRAWPARAMS\_V3\_SIZE | The size of the [**IMAGELISTDRAWPARAMS**](/windows/desktop/api) structure in version 5.9. |
 | LVCOLUMN\_V1\_SIZE            | The size of the [**LVCOLUMN**](/windows/desktop/api/Commctrl/ns-commctrl-taglvcolumna) structure in version 4.0.                       |
 | LVGROUP\_V5\_SIZE             | The size of the [**LVGROUP**](/windows/desktop/api/Commctrl/ns-commctrl-taglvgroup) structure in version 6.0.                         |
 | LVHITTESTINFO\_V1\_SIZE       | The size of the [**LVHITTESTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglvhittestinfo) structure in version 4.0.             |

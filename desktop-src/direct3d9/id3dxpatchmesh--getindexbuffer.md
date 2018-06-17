@@ -31,7 +31,7 @@ HRESULT GetIndexBuffer(
 *ppIB* \[out, retval\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DINDEXBUFFER9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dindexbuffer9)\***
+Type: **[**LPDIRECT3DINDEXBUFFER9**](/windows/desktop/api)\***
 
 Pointer to the index buffer.
 

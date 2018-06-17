@@ -17,7 +17,7 @@ Many 3D accelerator cards do not support diffuse iterated values as arguments to
 
 Some 3D hardware may not have a blending stage associated with the first texture. On these adapters, your application must perform blending in the second and third texture stages in the set of current textures.
 
-Because of limitations in much of today's hardware, few display adapters can perform trilinear mipmap interpolation through the multiple texture blending interface offered by [**IDirect3DDevice9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9). Your application can use multipass texture blending to achieve the same effects, or degrade to the D3DTEXF\_POINT mipmap filter mode, which is widely supported.
+Because of limitations in much of today's hardware, few display adapters can perform trilinear mipmap interpolation through the multiple texture blending interface offered by [**IDirect3DDevice9**](/windows/desktop/api). Your application can use multipass texture blending to achieve the same effects, or degrade to the D3DTEXF\_POINT mipmap filter mode, which is widely supported.
 
 ## Related topics
 

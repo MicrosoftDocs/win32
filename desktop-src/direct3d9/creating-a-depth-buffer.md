@@ -27,7 +27,7 @@ d3dpp.AutoDepthStencilFormat = D3DFMT_D16;
 
 By setting the EnableAutoDepthStencil member to **TRUE**, you instruct Direct3D to manage depth buffers for the application. Note that AutoDepthStencilFormat must be set to a valid depth buffer format. The D3DFMT\_D16 flag specifies a 16-bit depth buffer, if one is available.
 
-The following call to the [**IDirect3D9::CreateDevice**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-createdevice) method creates a device that then creates a depth buffer.
+The following call to the [**IDirect3D9::CreateDevice**](/windows/desktop/api) method creates a device that then creates a depth buffer.
 
 
 ```
@@ -41,9 +41,9 @@ return E_FAIL;
 
 The depth buffer is automatically set as the render target of the device. When the device is reset, the depth buffer is automatically destroyed and re-created in the new size.
 
-To create a new depth buffer surface, use the [**IDirect3DDevice9::CreateDepthStencilSurface**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createdepthstencilsurface) method.
+To create a new depth buffer surface, use the [**IDirect3DDevice9::CreateDepthStencilSurface**](/windows/desktop/api) method.
 
-To set a new depth-buffer surface for the device, use the [**IDirect3DDevice9::SetDepthStencilSurface**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setdepthstencilsurface) method.
+To set a new depth-buffer surface for the device, use the [**IDirect3DDevice9::SetDepthStencilSurface**](/windows/desktop/api) method.
 
 To use the depth buffer in your application, you need to enable the depth buffer. For details, see [Enabling Depth Buffering (Direct3D 9)](enabling-depth-buffering.md).
 

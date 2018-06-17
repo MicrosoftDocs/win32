@@ -176,7 +176,7 @@ To create the gradient shown in the preceding illustration, complete these steps
 
     
 
-2.  Create an [**ID2D1GradientStopCollection**](https://msdn.microsoft.com/en-us/library/Dd316783(v=VS.85).aspx). The following example calls [**CreateGradientStopCollection**](/windows/desktop/api/d2d1_1/nf-d2d1-creategradientstopcollection), passing in the array of [**D2D1\_GRADIENT\_STOP**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_gradient_stop) objects, the number of gradient stops (2), [**D2D1\_GAMMA\_2\_2**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_gamma) for interpolation, and [**D2D1\_EXTEND\_MODE\_CLAMP**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode) for the extend mode.
+2.  Create an [**ID2D1GradientStopCollection**](https://msdn.microsoft.com/en-us/library/Dd316783(v=VS.85).aspx). The following example calls [**CreateGradientStopCollection**](/windows/desktop/api), passing in the array of [**D2D1\_GRADIENT\_STOP**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_gradient_stop) objects, the number of gradient stops (2), [**D2D1\_GAMMA\_2\_2**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_gamma) for interpolation, and [**D2D1\_EXTEND\_MODE\_CLAMP**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode) for the extend mode.
 
     ```C++
     // Create the ID2D1GradientStopCollection from a previously
@@ -246,7 +246,7 @@ The following illustration shows a circle painted with an [**ID2D1RadialGradient
 
 ![illustration of a circle painted with a radial gradient brush](images/brushes-ovw-radials.png)
 
-The following code examples shows how to paint this circle with an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371529(v=VS.85).aspx) that has two color stops: "Yellow" at a position of 0.0, and "ForestGreen" at a position of 1.0. Similar to creating an [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371488(v=VS.85).aspx), the example calls [**CreateGradientStopCollection**](/windows/desktop/api/d2d1_1/nf-d2d1-creategradientstopcollection) to create an [**ID2D1GradientStopCollection**](https://msdn.microsoft.com/en-us/library/Dd316783(v=VS.85).aspx) from an array of gradient stops.
+The following code examples shows how to paint this circle with an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371529(v=VS.85).aspx) that has two color stops: "Yellow" at a position of 0.0, and "ForestGreen" at a position of 1.0. Similar to creating an [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371488(v=VS.85).aspx), the example calls [**CreateGradientStopCollection**](/windows/desktop/api) to create an [**ID2D1GradientStopCollection**](https://msdn.microsoft.com/en-us/library/Dd316783(v=VS.85).aspx) from an array of gradient stops.
 
 
 ```C++
@@ -371,7 +371,7 @@ Sometimes, the gradient of a gradient brush or the bitmap for a bitmap brush doe
 
 -   When this happens for an [**ID2D1BitmapBrush**](https://msdn.microsoft.com/en-us/library/Dd371122(v=VS.85).aspx), Direct2D uses the brush's horizontal ([**SetExtendModeX**](https://msdn.microsoft.com/en-us/library/Dd371139(v=VS.85).aspx)) and vertical ([**SetExtendModeY**](https://msdn.microsoft.com/en-us/library/Dd371142(v=VS.85).aspx)) extend mode settings to determine how to fill the remaining area.
 
--   When this happens for a gradient brush, Direct2D determines how to fill the remaining area by using the value of the [**D2D1\_EXTEND\_MODE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode) parameter that you specified when you called the [**CreateGradientStopCollection**](/windows/desktop/api/d2d1_1/nf-d2d1-creategradientstopcollection) to create the gradient brush's [**ID2D1GradientStopCollection**](https://msdn.microsoft.com/en-us/library/Dd316783(v=VS.85).aspx).
+-   When this happens for a gradient brush, Direct2D determines how to fill the remaining area by using the value of the [**D2D1\_EXTEND\_MODE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode) parameter that you specified when you called the [**CreateGradientStopCollection**](/windows/desktop/api) to create the gradient brush's [**ID2D1GradientStopCollection**](https://msdn.microsoft.com/en-us/library/Dd316783(v=VS.85).aspx).
 
 The following illustration shows the results from every possible combination of the extend modes for an [**ID2D1BitmapBrush**](https://msdn.microsoft.com/en-us/library/Dd371122(v=VS.85).aspx): [**D2D1\_EXTEND\_MODE\_CLAMP**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode) (CLAMP), **D2D1\_EXTEND\_MODE\_WRAP** (WRAP), and **D2D1\_EXTEND\_MIRROR** (MIRROR).
 
@@ -399,7 +399,7 @@ When you paint with a brush, it paints in the coordinate space of the render tar
 
 You can "move" the gradient defined by an [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371488(v=VS.85).aspx) to a target area by setting its start point and end point. Likewise, you can move the gradient defined by an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371529(v=VS.85).aspx) by changing its center and radii.
 
-To align the content of an [**ID2D1BitmapBrush**](https://msdn.microsoft.com/en-us/library/Dd371122(v=VS.85).aspx) to the area being painted, you can use the [**SetTransform**](/windows/desktop/api/d2d1_1/nf-d2d1-settransform) method to translate the bitmap to the desired location. This transform only affects the brush; it does not affect any other content drawn by the render target.
+To align the content of an [**ID2D1BitmapBrush**](https://msdn.microsoft.com/en-us/library/Dd371122(v=VS.85).aspx) to the area being painted, you can use the [**SetTransform**](/windows/desktop/api) method to translate the bitmap to the desired location. This transform only affects the brush; it does not affect any other content drawn by the render target.
 
 The following illustrations shows the effect of using an [**ID2D1BitmapBrush**](https://msdn.microsoft.com/en-us/library/Dd371122(v=VS.85).aspx) to fill a rectangle located at (100, 100). The illustration on the left illustration shows the result of filling the rectangle without transforming the brush: the bitmap is drawn at the render target's origin. As a result, only a portion of the bitmap appears in the rectangle. The illustration on the right shows the result of transforming the **ID2D1BitmapBrush** so that its content is shifted 50 pixels to the right and 50 pixels down. The bitmap now fills the rectangle.
 

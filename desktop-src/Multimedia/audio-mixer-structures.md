@@ -21,15 +21,15 @@ ms.date: 05/31/2018
 
 The following structures are used with audio mixers.
 
--   [**MIXERCAPS**](/windows/desktop/api/Mmsystem/ns-mmeapi-tagmixercapsa)
--   [**MIXERCONTROL**](/windows/desktop/api/Mmsystem/ns-mmeapi-tagmixercontrola)
+-   [**MIXERCAPS**](/windows/desktop/api)
+-   [**MIXERCONTROL**](/windows/desktop/api)
 -   [**MIXERCONTROLDETAILS**](/windows/desktop/api/mmeapi/ns-mmeapi-tagmixercontroldetails_listtexta)
 -   [**MIXERCONTROLDETAILS\_BOOLEAN**](https://msdn.microsoft.com/en-us/library/Dd757295(v=VS.85).aspx)
 -   [**MIXERCONTROLDETAILS\_LISTTEXT**](https://msdn.microsoft.com/en-us/library/Dd757296(v=VS.85).aspx)
 -   [**MIXERCONTROLDETAILS\_SIGNED**](https://msdn.microsoft.com/en-us/library/Dd757297(v=VS.85).aspx)
 -   [**MIXERCONTROLDETAILS\_UNSIGNED**](https://msdn.microsoft.com/en-us/library/Dd757298(v=VS.85).aspx)
--   [**MIXERLINE**](/windows/desktop/api/Mmsystem/ns-mmeapi-tagmixerlinea)
--   [**MIXERLINECONTROLS**](/windows/desktop/api/Mmsystem/ns-mmeapi-tagmixerlinecontrolsa)
+-   [**MIXERLINE**](/windows/desktop/api)
+-   [**MIXERLINECONTROLS**](/windows/desktop/api)
 
 ## Related topics
 

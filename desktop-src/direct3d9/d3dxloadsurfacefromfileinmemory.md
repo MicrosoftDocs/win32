@@ -39,9 +39,9 @@ HRESULT D3DXLoadSurfaceFromFileInMemory(
 *pDestSurface* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DSURFACE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dsurface9)**
+Type: **[**LPDIRECT3DSURFACE9**](/windows/desktop/api)**
 
-Pointer to an [**IDirect3DSurface9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dsurface9) interface. Specifies the destination surface, which receives the image.
+Pointer to an [**IDirect3DSurface9**](/windows/desktop/api) interface. Specifies the destination surface, which receives the image.
 
 </dd> <dt>
 
@@ -127,7 +127,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 This function handles conversion to and from compressed texture formats and supports the following file formats: .bmp, .dds, .dib, .hdr, .jpg, .pfm, .png, .ppm, and .tga. See [**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/en-us/library/Bb172878(v=VS.85).aspx).
 
-Writing to a non-level-zero surface will not cause the dirty rectangle to be updated. If **D3DXLoadSurfaceFromFileInMemory** is called and the surface was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**AddDirtyRect**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dtexture9-adddirtyrect) on the surface.
+Writing to a non-level-zero surface will not cause the dirty rectangle to be updated. If **D3DXLoadSurfaceFromFileInMemory** is called and the surface was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**AddDirtyRect**](/windows/desktop/api) on the surface.
 
 ## Requirements
 

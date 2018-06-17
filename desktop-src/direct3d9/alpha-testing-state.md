@@ -34,7 +34,7 @@ if (pCaps.AlphaCmpCaps & D3DPCMPCAPS_GREATEREQUAL)
 
 
 
-Not all hardware supports all alpha-testing features. You can check the device capabilities by calling the [**IDirect3D9::GetDeviceCaps**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-getdevicecaps) method. After retrieving the device capabilities, check the associated [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structure's AlphaCmpCaps member for the desired comparison function. If the AlphaCmpCaps member contains only the D3DPCMPCAPS\_ALWAYS capability or only the D3DPCMPCAPS\_NEVER capability, the driver does not support alpha tests.
+Not all hardware supports all alpha-testing features. You can check the device capabilities by calling the [**IDirect3D9::GetDeviceCaps**](/windows/desktop/api) method. After retrieving the device capabilities, check the associated [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structure's AlphaCmpCaps member for the desired comparison function. If the AlphaCmpCaps member contains only the D3DPCMPCAPS\_ALWAYS capability or only the D3DPCMPCAPS\_NEVER capability, the driver does not support alpha tests.
 
 ## Related topics
 

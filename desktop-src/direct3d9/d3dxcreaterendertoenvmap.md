@@ -37,9 +37,9 @@ HRESULT D3DXCreateRenderToEnvMap(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api)**
 
-Pointer to an [**IDirect3DDevice9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9) interface, which is the device to associate with the render surface.
+Pointer to an [**IDirect3DDevice9**](/windows/desktop/api) interface, which is the device to associate with the render surface.
 
 </dd> <dt>
 

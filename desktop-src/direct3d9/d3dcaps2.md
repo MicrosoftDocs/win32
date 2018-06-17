@@ -35,7 +35,7 @@ Driver capability flags.
 <tr class="odd">
 <td>D3DCAPS2_CANCALIBRATEGAMMA</td>
 <td>0x00100000L</td>
-<td>The system has a calibrator installed that can automatically adjust the gamma ramp so that the result is identical on all systems that have a calibrator. To invoke the calibrator when setting new gamma levels, use the D3DSGR_CALIBRATE flag when calling [<strong>SetGammaRamp</strong>](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setgammaramp). Calibrating gamma ramps incurs some processing overhead and should not be used frequently.</td>
+<td>The system has a calibrator installed that can automatically adjust the gamma ramp so that the result is identical on all systems that have a calibrator. To invoke the calibrator when setting new gamma levels, use the D3DSGR_CALIBRATE flag when calling [<strong>SetGammaRamp</strong>](/windows/desktop/api). Calibrating gamma ramps incurs some processing overhead and should not be used frequently.</td>
 </tr>
 <tr class="even">
 <td>D3DCAPS2_CANSHARERESOURCE</td>
@@ -54,7 +54,7 @@ Driver capability flags.
 <tr class="odd">
 <td>D3DCAPS2_CANMANAGERESOURCE</td>
 <td>0x10000000L</td>
-<td>The driver is capable of managing resources. On such drivers, D3DPOOL_MANAGED resources will be managed by the driver. To have Direct3D override the driver so that Direct3D manages resources, use the D3DCREATE_DISABLE_DRIVER_MANAGEMENT flag when calling [<strong>CreateDevice</strong>](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-createdevice).</td>
+<td>The driver is capable of managing resources. On such drivers, D3DPOOL_MANAGED resources will be managed by the driver. To have Direct3D override the driver so that Direct3D manages resources, use the D3DCREATE_DISABLE_DRIVER_MANAGEMENT flag when calling [<strong>CreateDevice</strong>](/windows/desktop/api).</td>
 </tr>
 <tr class="even">
 <td>D3DCAPS2_DYNAMICTEXTURES</td>

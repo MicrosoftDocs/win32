@@ -48,7 +48,7 @@ Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).as
 
 </dd> <dd>
 
-Width of the new swap chain's back buffers, in pixels. If **Windowed** is **FALSE** (the presentation is full-screen), this value must equal the width of one of the enumerated display modes found through [**EnumAdapterModes**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-enumadaptermodes). If **Windowed** is **TRUE** and either **BackBufferWidth** or **BackBufferHeight** is zero, the corresponding dimension of the client area of the **hDeviceWindow** (or the focus window, if **hDeviceWindow** is **NULL**) is taken.
+Width of the new swap chain's back buffers, in pixels. If **Windowed** is **FALSE** (the presentation is full-screen), this value must equal the width of one of the enumerated display modes found through [**EnumAdapterModes**](/windows/desktop/api). If **Windowed** is **TRUE** and either **BackBufferWidth** or **BackBufferHeight** is zero, the corresponding dimension of the client area of the **hDeviceWindow** (or the focus window, if **hDeviceWindow** is **NULL**) is taken.
 
 </dd> <dt>
 
@@ -59,7 +59,7 @@ Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).as
 
 </dd> <dd>
 
-Height of the new swap chain's back buffers, in pixels. If **Windowed** is **FALSE** (the presentation is full-screen), this value must equal the height of one of the enumerated display modes found through [**EnumAdapterModes**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-enumadaptermodes). If **Windowed** is **TRUE** and either **BackBufferWidth** or **BackBufferHeight** is zero, the corresponding dimension of the client area of the **hDeviceWindow** (or the focus window, if **hDeviceWindow** is **NULL**) is taken.
+Height of the new swap chain's back buffers, in pixels. If **Windowed** is **FALSE** (the presentation is full-screen), this value must equal the height of one of the enumerated display modes found through [**EnumAdapterModes**](/windows/desktop/api). If **Windowed** is **TRUE** and either **BackBufferWidth** or **BackBufferHeight** is zero, the corresponding dimension of the client area of the **hDeviceWindow** (or the focus window, if **hDeviceWindow** is **NULL**) is taken.
 
 </dd> <dt>
 
@@ -70,9 +70,9 @@ Type: **[D3DFORMAT](d3dformat.md)**
 
 </dd> <dd>
 
-The back buffer format. For more information about formats, see [D3DFORMAT](d3dformat.md). This value must be one of the render-target formats as validated by [**CheckDeviceType**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-checkdevicetype). You can use [**GetDisplayMode**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-getdisplaymode) to obtain the current format.
+The back buffer format. For more information about formats, see [D3DFORMAT](d3dformat.md). This value must be one of the render-target formats as validated by [**CheckDeviceType**](/windows/desktop/api). You can use [**GetDisplayMode**](/windows/desktop/api) to obtain the current format.
 
-In fact, D3DFMT\_UNKNOWN can be specified for the **BackBufferFormat** while in windowed mode. This tells the runtime to use the current display-mode format and eliminates the need to call [**GetDisplayMode**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-getdisplaymode).
+In fact, D3DFMT\_UNKNOWN can be specified for the **BackBufferFormat** while in windowed mode. This tells the runtime to use the current display-mode format and eliminates the need to call [**GetDisplayMode**](/windows/desktop/api).
 
 For windowed applications, the back buffer format no longer needs to match the display-mode format because color conversion can now be done by the hardware (if the hardware supports color conversion). The set of possible back buffer formats is constrained, but the runtime will allow any valid back buffer format to be presented to any desktop format. (There is the additional requirement that the device be operable in the desktop; devices typically do not operate in 8 bits per pixel modes.)
 
@@ -111,7 +111,7 @@ Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).a
 
 </dd> <dd>
 
-Quality level. The valid range is between zero and one less than the level returned by pQualityLevels used by [**CheckDeviceMultiSampleType**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-checkdevicemultisampletype). Passing a larger value returns the error D3DERR\_INVALIDCALL. Paired values of render targets or of depth stencil surfaces and [**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb172574(v=VS.85).aspx) must match.
+Quality level. The valid range is between zero and one less than the level returned by pQualityLevels used by [**CheckDeviceMultiSampleType**](/windows/desktop/api). Passing a larger value returns the error D3DERR\_INVALIDCALL. Paired values of render targets or of depth stencil surfaces and [**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb172574(v=VS.85).aspx) must match.
 
 </dd> <dt>
 
@@ -147,15 +147,15 @@ Type: **[**HWND**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).as
 
 </dd> <dd>
 
-The device window determines the location and size of the back buffer on screen. This is used by Direct3D when the back buffer contents are copied to the front buffer during [**Present**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-present).
+The device window determines the location and size of the back buffer on screen. This is used by Direct3D when the back buffer contents are copied to the front buffer during [**Present**](/windows/desktop/api).
 
 -   For a full-screen application, this is a handle to the top window (which is the focus window).
 
     For applications that use multiple full-screen devices (such as a multimonitor system), exactly one device can use the focus window as the device window. All other devices must have unique device windows.
 
--   For a windowed-mode application, this handle will be the default target window for [**Present**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-present). If this handle is **NULL**, the focus window will be taken.
+-   For a windowed-mode application, this handle will be the default target window for [**Present**](/windows/desktop/api). If this handle is **NULL**, the focus window will be taken.
 
-Note that no attempt is made by the runtime to reflect user changes in window size. The back buffer is not implicitly reset when this window is reset. However, the [**Present**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-present) method does automatically track window position changes.
+Note that no attempt is made by the runtime to reflect user changes in window size. The back buffer is not implicitly reset when this window is reset. However, the [**Present**](/windows/desktop/api) method does automatically track window position changes.
 
 </dd> <dt>
 
@@ -215,7 +215,7 @@ Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).as
 The rate at which the display adapter refreshes the screen. The value depends on the mode in which the application is running:
 
 -   For windowed mode, the refresh rate must be 0.
--   For full-screen mode, the refresh rate is one of the refresh rates returned by [**EnumAdapterModes**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-enumadaptermodes).
+-   For full-screen mode, the refresh rate is one of the refresh rates returned by [**EnumAdapterModes**](/windows/desktop/api).
 
 </dd> <dt>
 
@@ -247,16 +247,16 @@ The maximum rate at which the swap chain's back buffers can be presented to the 
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**CreateDevice**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-createdevice)
+[**CreateDevice**](/windows/desktop/api)
 </dt> <dt>
 
-[**CreateAdditionalSwapChain**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createadditionalswapchain)
+[**CreateAdditionalSwapChain**](/windows/desktop/api)
 </dt> <dt>
 
-[**Present**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-present)
+[**Present**](/windows/desktop/api)
 </dt> <dt>
 
-[**Reset**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-reset)
+[**Reset**](/windows/desktop/api)
 </dt> </dl>
 
  

@@ -483,7 +483,7 @@ Code has been omitted from this example.
 
 ## Apply an Opacity Mask to a Layer
 
-When you call [**PushLayer**](/windows/desktop/api/d2d1_1/nf-d2d1-pushlayer) to push an [**ID2D1Layer**](https://msdn.microsoft.com/en-us/library/Dd371483(v=VS.85).aspx) onto an render target, you can use the [**D2D1\_LAYER\_PARAMETERS**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters) structure to apply a brush as an opacity mask. The following code example uses an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371529(v=VS.85).aspx) as an opacity mask.
+When you call [**PushLayer**](/windows/desktop/api) to push an [**ID2D1Layer**](https://msdn.microsoft.com/en-us/library/Dd371483(v=VS.85).aspx) onto an render target, you can use the [**D2D1\_LAYER\_PARAMETERS**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters) structure to apply a brush as an opacity mask. The following code example uses an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371529(v=VS.85).aspx) as an opacity mask.
 
 
 ```C++

@@ -75,9 +75,9 @@ Clip intersection flags that describe the current clip status. This member can t
 
 ## Remarks
 
-When clipping is enabled during vertex processing (by [**ProcessVertices**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-processvertices), [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive), or other drawing functions), Direct3D computes a clip code for every vertex. The clip code is a combination of D3DCS\_\* bits. When a vertex is outside a particular clipping plane, the corresponding bit is set in the clipping code. Direct3D maintains the clip status using **D3DCLIPSTATUS9**, which has ClipUnion and ClipIntersection members. ClipUnion is a bitwise OR of all vertex clip codes and ClipIntersection is a bitwise AND of all vertex clip codes. Initial values are zero for ClipUnion and 0xFFFFFFFF for ClipIntersection. When D3DRS\_CLIPPING is set to **FALSE**, ClipUnion and ClipIntersection are set to zero. Direct3D updates the clip status during drawing calls. To compute clip status for a particular object, set ClipUnion and ClipIntersection to their initial value and continue drawing.
+When clipping is enabled during vertex processing (by [**ProcessVertices**](/windows/desktop/api), [**DrawPrimitive**](/windows/desktop/api), or other drawing functions), Direct3D computes a clip code for every vertex. The clip code is a combination of D3DCS\_\* bits. When a vertex is outside a particular clipping plane, the corresponding bit is set in the clipping code. Direct3D maintains the clip status using **D3DCLIPSTATUS9**, which has ClipUnion and ClipIntersection members. ClipUnion is a bitwise OR of all vertex clip codes and ClipIntersection is a bitwise AND of all vertex clip codes. Initial values are zero for ClipUnion and 0xFFFFFFFF for ClipIntersection. When D3DRS\_CLIPPING is set to **FALSE**, ClipUnion and ClipIntersection are set to zero. Direct3D updates the clip status during drawing calls. To compute clip status for a particular object, set ClipUnion and ClipIntersection to their initial value and continue drawing.
 
-Clip status is not updated by [**DrawRectPatch**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawrectpatch) and [**DrawTriPatch**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawtripatch) because there is no software emulation for them.
+Clip status is not updated by [**DrawRectPatch**](/windows/desktop/api) and [**DrawTriPatch**](/windows/desktop/api) because there is no software emulation for them.
 
 ## Requirements
 
@@ -96,10 +96,10 @@ Clip status is not updated by [**DrawRectPatch**](/windows/desktop/api/d3d9helpe
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetClipStatus**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-getclipstatus)
+[**GetClipStatus**](/windows/desktop/api)
 </dt> <dt>
 
-[**SetClipStatus**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setclipstatus)
+[**SetClipStatus**](/windows/desktop/api)
 </dt> </dl>
 
  

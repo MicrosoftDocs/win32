@@ -13,8 +13,8 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**IMAGEINFO**](/windows/desktop/api/commoncontrols/ns-commctrl-_imageinfo)
--   [**IMAGELISTDRAWPARAMS**](/windows/desktop/api/commoncontrols/ns-commctrl-_imagelistdrawparams)
+-   [**IMAGEINFO**](/windows/desktop/api)
+-   [**IMAGELISTDRAWPARAMS**](/windows/desktop/api)
 
  
 

@@ -34,7 +34,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 ## Remarks
 
-**ID3DXSprite::OnResetDevice** should be called each time the device is reset (using [**IDirect3DDevice9::Reset**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-reset)), before any other methods are called. This is a good place to re-acquire video-memory resources and capture state blocks.
+**ID3DXSprite::OnResetDevice** should be called each time the device is reset (using [**IDirect3DDevice9::Reset**](/windows/desktop/api)), before any other methods are called. This is a good place to re-acquire video-memory resources and capture state blocks.
 
 ## Requirements
 

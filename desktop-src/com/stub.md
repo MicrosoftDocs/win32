@@ -18,12 +18,12 @@ There are, however, the following differences between the stub and the proxy:
 -   The most important difference is that the stub represents the client in the object's address space.
 -   The stub is not implemented as an aggregate object because there is no requirement that the client be viewed as a single unit; each piece in the stub is a separate component.
 -   The interface stubs are private rather than public.
--   The interface stubs implement [**IRpcStubBuffer**](/windows/desktop/api/objidlbase/nn-objidl-irpcstubbuffer), not [**IRpcProxyBuffer**](/windows/desktop/api/objidlbase/nn-objidl-irpcproxybuffer).
+-   The interface stubs implement [**IRpcStubBuffer**](/windows/desktop/api), not [**IRpcProxyBuffer**](/windows/desktop/api).
 -   Instead of packaging parameters to be marshaled, the stub unpackages them after they have been marshaled and then packages the reply.
 
 ## Structure of the Stub
 
-The following diagram shows the structure of the stub. Each interface stub is connected to an interface on the object. The channel dispatches incoming messages to the appropriate interface stub. All the components talk to the channel through [**IRpcChannelBuffer**](/windows/desktop/api/objidlbase/nn-objidl-irpcchannelbuffer), the interface that provides access to the RPC run-time library.
+The following diagram shows the structure of the stub. Each interface stub is connected to an interface on the object. The channel dispatches incoming messages to the appropriate interface stub. All the components talk to the channel through [**IRpcChannelBuffer**](/windows/desktop/api), the interface that provides access to the RPC run-time library.
 
 ![](images/98714a22-733e-432f-bb90-408bbeecc23f.png)
 

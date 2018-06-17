@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Retrieving a Depth Buffer (Direct3D 9)
 
-The following code example shows how to use the [**IDirect3DDevice9::GetDepthStencilSurface**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-getdepthstencilsurface) method to retrieve a pointer to the depth-buffer surface owned by the device.
+The following code example shows how to use the [**IDirect3DDevice9::GetDepthStencilSurface**](/windows/desktop/api) method to retrieve a pointer to the depth-buffer surface owned by the device.
 
 
 ```

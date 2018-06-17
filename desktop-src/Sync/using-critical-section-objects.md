@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Using Critical Section Objects
 
-The following example shows how a thread initializes, enters, and releases a [critical section](critical-section-objects.md). It uses the [**InitializeCriticalSectionAndSpinCount**](/windows/desktop/api/WinBase/nf-synchapi-initializecriticalsectionandspincount), [**EnterCriticalSection**](/windows/desktop/api/WinBase/nf-synchapi-entercriticalsection), [**LeaveCriticalSection**](/windows/desktop/api/WinBase/nf-synchapi-leavecriticalsection), and [**DeleteCriticalSection**](/windows/desktop/api/WinBase/nf-synchapi-deletecriticalsection) functions.
+The following example shows how a thread initializes, enters, and releases a [critical section](critical-section-objects.md). It uses the [**InitializeCriticalSectionAndSpinCount**](/windows/desktop/api), [**EnterCriticalSection**](/windows/desktop/api), [**LeaveCriticalSection**](/windows/desktop/api), and [**DeleteCriticalSection**](/windows/desktop/api) functions.
 
 ``` syntax
 // Global variable

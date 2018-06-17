@@ -30,7 +30,7 @@ Where:
 -   CurrentPixelColor is the color of the current pixel.
 -   DestBlend is the percentage of the final pixel color that is made up of the current pixel color.
 
-The final blending equation is set by calling [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate) and specifying the blend render state (D3DRS\_BLENDXXX) with a corresponding blending factor ([**D3DBLEND**](https://msdn.microsoft.com/en-us/library/Bb172508(v=VS.85).aspx)). The values of SourceBlend and DestBlend range from 0.0 (transparent) to 1.0 (opaque) inclusive. In addition, an application can control the transparency of a pixel by setting the alpha value in a texture. In this case, use the following:
+The final blending equation is set by calling [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api) and specifying the blend render state (D3DRS\_BLENDXXX) with a corresponding blending factor ([**D3DBLEND**](https://msdn.microsoft.com/en-us/library/Bb172508(v=VS.85).aspx)). The values of SourceBlend and DestBlend range from 0.0 (transparent) to 1.0 (opaque) inclusive. In addition, an application can control the transparency of a pixel by setting the alpha value in a texture. In this case, use the following:
 
 
 ```

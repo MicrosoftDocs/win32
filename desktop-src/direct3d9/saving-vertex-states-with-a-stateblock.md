@@ -16,17 +16,17 @@ A state block can be used to capture only vertex state (see [State Blocks Save a
 -   Vertex render state (see [Vertex Pipeline: Render State](#vertex-pipeline-render-state)).
 -   Vertex sampler state (see [Vertex Pipeline: Sampler State](#vertex-pipeline-sampler-state)).
 -   Vertex texture state (see [Vertex Pipeline: Texture State](#vertex-pipeline-texture-state)).
--   The NPatch mode segments from [**IDirect3DDevice9::SetNPatchMode**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setnpatchmode).
--   Each light from [**IDirect3DDevice9::SetLight**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setlight), as well as whether or not the light is enabled with [**IDirect3DDevice9::LightEnable**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-lightenable).
+-   The NPatch mode segments from [**IDirect3DDevice9::SetNPatchMode**](/windows/desktop/api).
+-   Each light from [**IDirect3DDevice9::SetLight**](/windows/desktop/api), as well as whether or not the light is enabled with [**IDirect3DDevice9::LightEnable**](/windows/desktop/api).
 -   The current vertex shader and each of the vertex shader constants.
--   For each vertex stream, store the divider value from [**IDirect3DDevice9::SetStreamSourceFreq**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setstreamsourcefreq).
+-   For each vertex stream, store the divider value from [**IDirect3DDevice9::SetStreamSourceFreq**](/windows/desktop/api).
 -   The current vertex declaration.
 
-To capture vertex state with a state block, specify D3DSBT\_VERTEXSTATE when calling [**IDirect3DDevice9::CreateStateBlock**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createstateblock).
+To capture vertex state with a state block, specify D3DSBT\_VERTEXSTATE when calling [**IDirect3DDevice9::CreateStateBlock**](/windows/desktop/api).
 
 ## Vertex Pipeline: Render State
 
-Device render states affect the behavior of almost every part of the pipeline. Render states are set by calling [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate).
+Device render states affect the behavior of almost every part of the pipeline. Render states are set by calling [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api).
 
 The following table includes all render states that set-up vertex state:
 
@@ -82,7 +82,7 @@ The following table includes all render states that set-up vertex state:
 
 ## Vertex Pipeline: Sampler State
 
-Sampler states control sampling related topics such as filtering, tiling, and texture coordinate address modes. Use [**IDirect3DDevice9::SetSamplerState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setsamplerstate) to set up the sampler state (including the one used in the tessellator unit to sample displacement maps). The sampler states have been renamed with a "D3DSAMP\_" prefix to enable compile time error detection when porting from DirectX 8.
+Sampler states control sampling related topics such as filtering, tiling, and texture coordinate address modes. Use [**IDirect3DDevice9::SetSamplerState**](/windows/desktop/api) to set up the sampler state (including the one used in the tessellator unit to sample displacement maps). The sampler states have been renamed with a "D3DSAMP\_" prefix to enable compile time error detection when porting from DirectX 8.
 
 The following table includes all sampler states that set-up vertex state:
 
@@ -98,7 +98,7 @@ The following table includes all sampler states that set-up vertex state:
 
 ## Vertex Pipeline: Texture State
 
-Texture states control texture blending operations of the multi-texture blender. Use [**IDirect3DDevice9::SetTextureStageState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexturestagestate) to set-up texture states. Use [**IDirect3DDevice9::SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture) to associate a texture with a sampler stage.
+Texture states control texture blending operations of the multi-texture blender. Use [**IDirect3DDevice9::SetTextureStageState**](/windows/desktop/api) to set-up texture states. Use [**IDirect3DDevice9::SetTexture**](/windows/desktop/api) to associate a texture with a sampler stage.
 
 The following table includes all the texture states that set-up vertex state:
 

@@ -114,11 +114,11 @@ Number of cycles for DrawPrimitive    : 950,500
 
 
 
-The profiler returns the number of CPU cycles required to process the work associated with each call (remember that the GPU isn't included in these numbers because the GPU hasn't started working on these commands yet). Because [**IDirect3DDevice9::DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) required almost a million cycles to process, you could conclude that it is not very efficient. However, you'll soon see why this conclusion is incorrect and how you can generate results that can be used for budgeting.
+The profiler returns the number of CPU cycles required to process the work associated with each call (remember that the GPU isn't included in these numbers because the GPU hasn't started working on these commands yet). Because [**IDirect3DDevice9::DrawPrimitive**](/windows/desktop/api) required almost a million cycles to process, you could conclude that it is not very efficient. However, you'll soon see why this conclusion is incorrect and how you can generate results that can be used for budgeting.
 
 ### Measuring State Changes Requires Careful Render Sequences
 
-All calls other than [**IDirect3DDevice9::DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive), [**DrawIndexedPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawindexedprimitive), or [**Clear**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-clear) (such as [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture), [**SetVertexDeclaration**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setvertexdeclaration), and [**SetRenderState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate)) produce a state change. Each state change sets pipeline state that controls how rendering will be done.
+All calls other than [**IDirect3DDevice9::DrawPrimitive**](/windows/desktop/api), [**DrawIndexedPrimitive**](/windows/desktop/api), or [**Clear**](/windows/desktop/api) (such as [**SetTexture**](/windows/desktop/api), [**SetVertexDeclaration**](/windows/desktop/api), and [**SetRenderState**](/windows/desktop/api)) produce a state change. Each state change sets pipeline state that controls how rendering will be done.
 
 Optimizations in the runtime and/or the driver are designed to speed up rendering by reducing the amount of work required. The following are a couple of state change optimizations that may pollute profile averages:
 
@@ -165,7 +165,7 @@ The advantages of using [**QueryPerformanceCounter**](https://www.bing.com/searc
 
 Example 2: Custom Profiling Implementation with QPC
 
-start and stop are two large integers that will hold the start and stop values returned by the high-performance timer. Notice that QueryPerformanceCounter(&start) is called just before [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture) and QueryPerformanceCounter(&stop) is called just after [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive). After getting the stop value, QueryPerformanceFrequency is called to return freq, which is the frequency of the high-resolution timer. In this hypothetical example, suppose you get the following results for start, stop, and freq:
+start and stop are two large integers that will hold the start and stop values returned by the high-performance timer. Notice that QueryPerformanceCounter(&start) is called just before [**SetTexture**](/windows/desktop/api) and QueryPerformanceCounter(&stop) is called just after [**DrawPrimitive**](/windows/desktop/api). After getting the stop value, QueryPerformanceFrequency is called to return freq, which is the frequency of the high-resolution timer. In this hypothetical example, suppose you get the following results for start, stop, and freq:
 
 
 
@@ -191,7 +191,7 @@ You could convert these values to the number of cycles it takes to execute the A
 
 
 
-In other words, it takes about 4568 clock cycles to process [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture) and [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) on this 2 GHz machine. You could convert these values to the actual time it took to execute all the calls like this:
+In other words, it takes about 4568 clock cycles to process [**SetTexture**](/windows/desktop/api) and [**DrawPrimitive**](/windows/desktop/api) on this 2 GHz machine. You could convert these values to the actual time it took to execute all the calls like this:
 
 
 ```
@@ -241,7 +241,7 @@ Instead, the command buffer is a runtime optimization designed to reduce the eff
 
 ### Profile Results without a Mode Transition
 
-Using the render sequence from example 2, here are some typical timing measurements that illustrate the magnitude of a mode transition. Assuming that [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture) and [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) calls do not cause a mode transition, an off-the-shelf instrumenting profiler could return results similar to these:
+Using the render sequence from example 2, here are some typical timing measurements that illustrate the magnitude of a mode transition. Assuming that [**SetTexture**](/windows/desktop/api) and [**DrawPrimitive**](/windows/desktop/api) calls do not cause a mode transition, an off-the-shelf instrumenting profiler could return results similar to these:
 
 
 ```
@@ -255,7 +255,7 @@ Each of these numbers are the amount of time it takes for the runtime to add the
 
 ### Profile Results with a Mode Transition
 
-Now, look at what happens for the same example when a mode transition occurs. This time, assume [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture) and [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) cause a mode transition. Once again, an off-the-shelf instrumenting profiler could return results similar to these:
+Now, look at what happens for the same example when a mode transition occurs. This time, assume [**SetTexture**](/windows/desktop/api) and [**DrawPrimitive**](/windows/desktop/api) cause a mode transition. Once again, an off-the-shelf instrumenting profiler could return results similar to these:
 
 
 ```
@@ -265,14 +265,14 @@ Number of cycles for DrawPrimitive        : 946,900
 
 
 
-The time measured for [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture) is about the same, however, the dramatic increase in the amount of time spent in [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) is due to the mode transition. Here's what is happening:
+The time measured for [**SetTexture**](/windows/desktop/api) is about the same, however, the dramatic increase in the amount of time spent in [**DrawPrimitive**](/windows/desktop/api) is due to the mode transition. Here's what is happening:
 
 1.  Assume the command buffer has room for one command before our render sequence starts.
-2.  [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture) is converted to a device-independent format and added to the command buffer. In this scenario, this call fills the command buffer.
-3.  The runtime tries to add [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) to the command buffer but cannot, because it is full. Instead, the runtime empties the command buffer. This causes the kernel-mode transition. Assume the transition takes about 5000 cycles. This time contributes to time spent in **DrawPrimitive**.
-4.  The driver then processes the work associated with all the commands that were emptied from the command buffer. Assume that the driver time to process the commands that nearly filled the command buffer is about 935,000 cycles. Assume that the driver work associated with [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture) is about 2750 cycles. This time contributes to time spent in [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive).
+2.  [**SetTexture**](/windows/desktop/api) is converted to a device-independent format and added to the command buffer. In this scenario, this call fills the command buffer.
+3.  The runtime tries to add [**DrawPrimitive**](/windows/desktop/api) to the command buffer but cannot, because it is full. Instead, the runtime empties the command buffer. This causes the kernel-mode transition. Assume the transition takes about 5000 cycles. This time contributes to time spent in **DrawPrimitive**.
+4.  The driver then processes the work associated with all the commands that were emptied from the command buffer. Assume that the driver time to process the commands that nearly filled the command buffer is about 935,000 cycles. Assume that the driver work associated with [**SetTexture**](/windows/desktop/api) is about 2750 cycles. This time contributes to time spent in [**DrawPrimitive**](/windows/desktop/api).
 5.  When the driver finishes its work, the user-mode transition returns control to the runtime. The command buffer is now empty. Assume the transition takes about 5000 cycles.
-6.  The render sequence finishes by converting [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) and adding it to the command buffer. Assume this takes about 900 cycles. This time contributes to time spent in **DrawPrimitive**.
+6.  The render sequence finishes by converting [**DrawPrimitive**](/windows/desktop/api) and adding it to the command buffer. Assume this takes about 900 cycles. This time contributes to time spent in **DrawPrimitive**.
 
 Summarizing the results, you see:
 
@@ -285,7 +285,7 @@ DrawPrimitive = 947,950
 
 
 
-Just like the measurement for [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) without the mode transition (900 cycles), the measurement for **DrawPrimitive** with the mode transition (947,950 cycles) is accurate but useless in terms of budgeting CPU work. The result contains the correct runtime work, the driver work for [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture), the driver work for any commands that preceded **SetTexture**, and two mode transitions. However, the measurement is missing the **DrawPrimitive** driver work.
+Just like the measurement for [**DrawPrimitive**](/windows/desktop/api) without the mode transition (900 cycles), the measurement for **DrawPrimitive** with the mode transition (947,950 cycles) is accurate but useless in terms of budgeting CPU work. The result contains the correct runtime work, the driver work for [**SetTexture**](/windows/desktop/api), the driver work for any commands that preceded **SetTexture**, and two mode transitions. However, the measurement is missing the **DrawPrimitive** driver work.
 
 A mode transition could happen in response to any call. It depends on what was previously in the command buffer. You need to control the mode transition to understand how much CPU work (runtime and driver) is associated with each call. To do that, you need a mechanism for controlling the command buffer and the timing of the mode transition.
 
@@ -335,12 +335,12 @@ Example 3: Using a Query to Control the Command Buffer
 Here is a more detailed explanation of each of these lines of code:
 
 1.  Create an event query by creating a query object with D3DQUERYTYPE\_EVENT.
-2.  Add a query event marker to the command buffer by calling [**Issue**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dquery9-issue)([**D3DISSUE\_END**](d3dissue-end.md)). This marker tells the driver to track when the GPU finishes executing whatever commands preceded the marker.
-3.  The first call empties the command buffer because calling [**GetData**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dquery9-getdata) with [**D3DGETDATA\_FLUSH**](d3dgetdata-flush.md) forces the command buffer to be emptied. Each subsequent call is checking the GPU to see when it finishes processing all the command-buffer work. This loop does not return S\_OK until the GPU is idle.
+2.  Add a query event marker to the command buffer by calling [**Issue**](/windows/desktop/api)([**D3DISSUE\_END**](d3dissue-end.md)). This marker tells the driver to track when the GPU finishes executing whatever commands preceded the marker.
+3.  The first call empties the command buffer because calling [**GetData**](/windows/desktop/api) with [**D3DGETDATA\_FLUSH**](d3dgetdata-flush.md) forces the command buffer to be emptied. Each subsequent call is checking the GPU to see when it finishes processing all the command-buffer work. This loop does not return S\_OK until the GPU is idle.
 4.  Sample the start time.
 5.  Invoke the API calls being profiled.
 6.  Add a second query event marker to the command buffer. This marker will be used to track the completion of the calls.
-7.  The first call empties the command buffer because calling [**GetData**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dquery9-getdata) with [**D3DGETDATA\_FLUSH**](d3dgetdata-flush.md) forces the command buffer to be emptied. When the GPU finishes processing all the command-buffer work, **GetData** returns S\_OK, and the loop is exited because the GPU is idle.
+7.  The first call empties the command buffer because calling [**GetData**](/windows/desktop/api) with [**D3DGETDATA\_FLUSH**](d3dgetdata-flush.md) forces the command buffer to be emptied. When the GPU finishes processing all the command-buffer work, **GetData** returns S\_OK, and the loop is exited because the GPU is idle.
 8.  Sample the stop time.
 
 Here are the results measured with QueryPerformanceCounter and QueryPerformanceFrequency:
@@ -382,20 +382,20 @@ Number of cycles for GetData              : 16,450
 
 The query mechanism has allowed us to control the runtime and the driver work that is being measured. To understand each of these numbers, here's what is happening in response to each of the API calls, along with the estimated timings:
 
-1.  The first call empties the command buffer by calling [**GetData**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dquery9-getdata) with [**D3DGETDATA\_FLUSH**](d3dgetdata-flush.md). When the GPU finishes processing all the command-buffer work, **GetData** returns S\_OK, and the loop is exited because the GPU is idle.
-2.  The render sequence starts by converting [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture) to a device-independent format and adding it to the command buffer. Assume this takes about 100 cycles.
-3.  [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) is converted and added to the command buffer. Assume this takes about 900 cycles.
-4.  [**Issue**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dquery9-issue) adds a query marker to the command buffer. Assume this takes about 200 cycles.
-5.  [**GetData**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dquery9-getdata) causes the command buffer to be emptied which forces the kernel-mode transition. Assume this takes about 5000 cycles.
-6.  The driver then processes the work associated with all four calls. Assume that the driver time to process [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture) is about 2964 cycles, [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) is about 3600 cycles, [**Issue**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dquery9-issue) is about 200 cycles. So the total driver time for all four commands is about 6450 cycles.
+1.  The first call empties the command buffer by calling [**GetData**](/windows/desktop/api) with [**D3DGETDATA\_FLUSH**](d3dgetdata-flush.md). When the GPU finishes processing all the command-buffer work, **GetData** returns S\_OK, and the loop is exited because the GPU is idle.
+2.  The render sequence starts by converting [**SetTexture**](/windows/desktop/api) to a device-independent format and adding it to the command buffer. Assume this takes about 100 cycles.
+3.  [**DrawPrimitive**](/windows/desktop/api) is converted and added to the command buffer. Assume this takes about 900 cycles.
+4.  [**Issue**](/windows/desktop/api) adds a query marker to the command buffer. Assume this takes about 200 cycles.
+5.  [**GetData**](/windows/desktop/api) causes the command buffer to be emptied which forces the kernel-mode transition. Assume this takes about 5000 cycles.
+6.  The driver then processes the work associated with all four calls. Assume that the driver time to process [**SetTexture**](/windows/desktop/api) is about 2964 cycles, [**DrawPrimitive**](/windows/desktop/api) is about 3600 cycles, [**Issue**](/windows/desktop/api) is about 200 cycles. So the total driver time for all four commands is about 6450 cycles.
     > [!Note]  
-    > The driver also takes a little time to see what the status of the GPU is. Because the GPU work is trivial, the GPU should be done already. [**GetData**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dquery9-getdata) will return S\_OK based on the likelihood that the GPU is finished.
+    > The driver also takes a little time to see what the status of the GPU is. Because the GPU work is trivial, the GPU should be done already. [**GetData**](/windows/desktop/api) will return S\_OK based on the likelihood that the GPU is finished.
 
      
 
 7.  When the driver finishes its work, the user-mode transition returns control to the runtime. The command buffer is now empty. Assume this takes about 5000 cycles.
 
-The numbers for [**GetData**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dquery9-getdata) include:
+The numbers for [**GetData**](/windows/desktop/api) include:
 
 
 ```
@@ -413,13 +413,13 @@ The query mechanism used in combination with QueryPerformanceCounter measures al
 
 Now that you know about the command buffer and the effect it can have on profiling, you should know that there are a few other conditions that can cause the runtime to empty the command buffer. You need to watch out for these in your render sequences. Some of these conditions are in response to API calls, others are in response to resource changes in the runtime. Any of the following conditions will cause a mode transition:
 
--   When one of the lock methods ([**Lock**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dvertexbuffer9-lock)) is called on a vertex buffer, index buffer, or texture (under certain conditions with certain flags).
+-   When one of the lock methods ([**Lock**](/windows/desktop/api)) is called on a vertex buffer, index buffer, or texture (under certain conditions with certain flags).
 -   When a device or vertex buffer, index buffer, or texture is created.
 -   When a device or vertex buffer, index buffer, or texture is destroyed by the last release.
--   When [**ValidateDevice**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-validatedevice) is called.
--   When [**Present**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-present) is called.
+-   When [**ValidateDevice**](/windows/desktop/api) is called.
+-   When [**Present**](/windows/desktop/api) is called.
 -   When the command buffer fills up.
--   When [**GetData**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dquery9-getdata) is called with D3DGETDATA\_FLUSH.
+-   When [**GetData**](/windows/desktop/api) is called with D3DGETDATA\_FLUSH.
 
 Be careful to watch for these conditions in your render sequences. Every time a mode transition is added, 10,000 cycles of driver work will be added to your profiling measurements. In addition, the command buffer is not statically sized. The runtime may change the buffer's size in response to the amount of work that is being generated by the application. This is yet another optimization that is dependent on a render sequence.
 
@@ -488,20 +488,20 @@ Using QueryPerformanceCounter measures 2,840 ticks now. Converting ticks to cycl
 
 
 
-In other words, it takes about 6.9 million cycles on this 2 GHz machine to process the 1500 calls in the render loop. Of the 6.9 million cycles, the amount of time in the mode transitions is approximately 10k, so now the profile results are almost entirely measuring work associated with [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture) and [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive).
+In other words, it takes about 6.9 million cycles on this 2 GHz machine to process the 1500 calls in the render loop. Of the 6.9 million cycles, the amount of time in the mode transitions is approximately 10k, so now the profile results are almost entirely measuring work associated with [**SetTexture**](/windows/desktop/api) and [**DrawPrimitive**](/windows/desktop/api).
 
-Notice that the code sample requires an array of two textures. To avoid a runtime optimization that would remove [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture) if it sets the same texture pointer every time it is called, simply use an array of two textures. That way, each time through the loop, the texture pointer changes, and the full work associated with **SetTexture** is performed. Be sure that both textures are the same size and format, so that no other state will change when the texture does.
+Notice that the code sample requires an array of two textures. To avoid a runtime optimization that would remove [**SetTexture**](/windows/desktop/api) if it sets the same texture pointer every time it is called, simply use an array of two textures. That way, each time through the loop, the texture pointer changes, and the full work associated with **SetTexture** is performed. Be sure that both textures are the same size and format, so that no other state will change when the texture does.
 
 And now you have a technique for profiling Direct3D. It relies on the high performance counter (QueryPerformanceCounter) to record the number of ticks it takes the CPU to process work. The work is carefully controlled to be the runtime and driver work associated with API calls using the query mechanism. A query provides two means of control: first to empty the command buffer before the render sequence starts, and secondly to return when the GPU work is finished.
 
-So far, this paper has shown how to profile a render sequence. Each render sequence has been fairly simple, containing a single [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) call and a [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture) call. This was done to focus on the command buffer and the use of the query mechanism to control it. Here is a brief summary of how to profile an arbitrary render sequence:
+So far, this paper has shown how to profile a render sequence. Each render sequence has been fairly simple, containing a single [**DrawPrimitive**](/windows/desktop/api) call and a [**SetTexture**](/windows/desktop/api) call. This was done to focus on the command buffer and the use of the query mechanism to control it. Here is a brief summary of how to profile an arbitrary render sequence:
 
 -   Use a high performance counter like QueryPerformanceCounter to measure the time it takes to process each API call. Use QueryPerformanceFrequency and the CPU clock rate to convert this to the number of CPU cycles per API call.
 -   Minimize the amount of GPU work by rendering triangle lists, where each triangle contains one pixel.
 -   Use the query mechanism to empty the command buffer before the render sequence. This guarantees that profiling will capturing the correct amount of runtime and driver work associated with the render sequence.
 -   Control the amount of work added to the command buffer with query event markers. This same query detects when the GPU finishes its work. Since the GPU work is trivial, this is virtually equivalent to measuring when the driver work is completed.
 
-All of these techniques are used to profile state changes. Assuming that you have read and understood how to control the command buffer, and have successfully completed baseline measurements on [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive), you are ready to add state changes to your render sequences. There are a few additional profiling challenges when adding state changes to a render sequence. If you intend to add state changes to your render sequences, be sure to continue into the next section.
+All of these techniques are used to profile state changes. Assuming that you have read and understood how to control the command buffer, and have successfully completed baseline measurements on [**DrawPrimitive**](/windows/desktop/api), you are ready to add state changes to your render sequences. There are a few additional profiling challenges when adding state changes to a render sequence. If you intend to add state changes to your render sequences, be sure to continue into the next section.
 
 ## Profiling Direct3D State Changes
 
@@ -509,7 +509,7 @@ Direct3D uses many render states to control almost every aspect of the pipeline.
 
 State changes are tricky because you may not be able to see the cost of a state change without rendering. This is a result of the lazy algorithm that the driver and the GPU use to defer work until it absolutely has to be done. In general, you should follow these steps to measure a single state change:
 
-1.  Profile [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) first.
+1.  Profile [**DrawPrimitive**](/windows/desktop/api) first.
 2.  Add one state change to the render sequence and profile the new sequence.
 3.  Subtract the difference between the two sequences to get the cost of the state change.
 
@@ -517,7 +517,7 @@ Naturally, everything you have learned about using the query mechanism and putti
 
 ### Profiling a Simple State Change
 
-Starting with a render sequence that contains [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive), here is the code sequence for measuring the cost of adding [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture):
+Starting with a render sequence that contains [**DrawPrimitive**](/windows/desktop/api), here is the code sequence for measuring the cost of adding [**SetTexture**](/windows/desktop/api):
 
 
 ```
@@ -542,7 +542,7 @@ for(int i = 0; i < 1500; i++)
 
 Example 5: Measuring One State Change API Call
 
-Notice that the loop contains two calls, [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture) and [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive). The render sequence loops 1500 times and generates results similar to these:
+Notice that the loop contains two calls, [**SetTexture**](/windows/desktop/api) and [**DrawPrimitive**](/windows/desktop/api). The render sequence loops 1500 times and generates results similar to these:
 
 
 
@@ -576,7 +576,7 @@ Dividing by the number of iterations in the loop yields:
 
 
 
-Each iteration of the loop contains a state change and a draw call. Subtracting out the result of the [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) render sequence leaves:
+Each iteration of the loop contains a state change and a draw call. Subtracting out the result of the [**DrawPrimitive**](/windows/desktop/api) render sequence leaves:
 
 
 ```
@@ -585,26 +585,26 @@ Each iteration of the loop contains a state change and a draw call. Subtracting 
 
 
 
-This is the average number of cycles to add [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture) to this render sequence. This same technique can be applied to other state changes.
+This is the average number of cycles to add [**SetTexture**](/windows/desktop/api) to this render sequence. This same technique can be applied to other state changes.
 
-Why is [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture) called a simple state change? Because the state that is being set is constrained so that the pipeline does the same amount of work each time the state is changed. Constraining both textures to the same size and format assures the same amount of work for each **SetTexture** call.
+Why is [**SetTexture**](/windows/desktop/api) called a simple state change? Because the state that is being set is constrained so that the pipeline does the same amount of work each time the state is changed. Constraining both textures to the same size and format assures the same amount of work for each **SetTexture** call.
 
 ### Profiling a State Change that Needs to Be Toggled
 
 There are other state changes that cause the amount of work performed by the graphics pipeline to change for every iteration of the render loop. For example, if z-testing is enabled, each pixel color updates a render target only after the new pixel's z value is tested against the z-value for the existing pixel. If z-testing is disabled, this per-pixel test is not done and the output is written much faster. Enabling or disabling the z-test state dramatically changes the amount of work done (by the CPU as well as the GPU) during rendering.
 
-[**SetRenderState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate) requires a particular render state and a state value to enable or disable z-testing. The particular state value is evaluated at runtime to determine how much work is necessary. It is difficult to measure this state change in a render loop and still precondition the pipeline state so that it switches. The only solution is to toggle the state change during the render sequence.
+[**SetRenderState**](/windows/desktop/api) requires a particular render state and a state value to enable or disable z-testing. The particular state value is evaluated at runtime to determine how much work is necessary. It is difficult to measure this state change in a render loop and still precondition the pipeline state so that it switches. The only solution is to toggle the state change during the render sequence.
 
 For example, the profiling technique needs to be repeated twice as follows:
 
-1.  Start by profiling the [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) render sequence. Call this the baseline.
+1.  Start by profiling the [**DrawPrimitive**](/windows/desktop/api) render sequence. Call this the baseline.
 2.  Profile a second render sequence that toggles the state change. The render sequence loop contains:
     -   A state change to set the state into a "false" condition.
-    -   [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) just like the original sequence.
+    -   [**DrawPrimitive**](/windows/desktop/api) just like the original sequence.
     -   A state change to set the state into a "true" condition.
-    -   A second [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) to force the second state change to be realized.
+    -   A second [**DrawPrimitive**](/windows/desktop/api) to force the second state change to be realized.
 3.  Find the difference between the two render sequences. This is done by:
-    -   Multiply the baseline [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) sequence by 2 because there are two **DrawPrimitive** calls in the new sequence.
+    -   Multiply the baseline [**DrawPrimitive**](/windows/desktop/api) sequence by 2 because there are two **DrawPrimitive** calls in the new sequence.
     -   Subtract the result of the new sequence from the original sequence.
     -   Divide the result by 2 to get the average cost of both the "false" and the "true" state change.
 
@@ -639,7 +639,7 @@ for(int i = 0; i < 1500; i++)
 
 Example 5: Measuring a Toggling State Change
 
-The loop toggles the state by executing two [**SetRenderState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate) calls. The first **SetRenderState** call disables z-testing and the second **SetRenderState** enables z-testing. Each **SetRenderState** is followed by [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) so that the work associated with the state change is processed by the driver instead of only setting a dirty bit in the driver.
+The loop toggles the state by executing two [**SetRenderState**](/windows/desktop/api) calls. The first **SetRenderState** call disables z-testing and the second **SetRenderState** enables z-testing. Each **SetRenderState** is followed by [**DrawPrimitive**](/windows/desktop/api) so that the work associated with the state change is processed by the driver instead of only setting a dirty bit in the driver.
 
 These numbers are reasonable for this render sequence:
 
@@ -730,7 +730,7 @@ for(int i = 0; i < 1500; i++)
 
 The z-func state sets the comparison level when writing to the z-buffer (between the z-value of a current pixel with the z-value of a pixel in the depth buffer). D3DCMP\_NEVER turns off the z-testing comparison while D3DCMP\_ALWAYS sets the comparison to happen every time z-testing is done.
 
-Profiling either one of these state changes in a render sequence with [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) generates results similar to these:
+Profiling either one of these state changes in a render sequence with [**DrawPrimitive**](/windows/desktop/api) generates results similar to these:
 
 
 
@@ -768,7 +768,7 @@ But, if you profile both D3DRS\_ZENABLE and D3DRS\_ZFUNC in the same render sequ
 
 You could expect the result to be to be the sum of 2000 and 600 (or 2600) cycles because the driver is doing all the work associated with setting both render states. Instead, the average is 2000 cycles.
 
-This result reflects a state change optimization implemented in the runtime, the driver, or the GPU. In this case, the driver could see the first [**SetRenderState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate) and set a dirty state which would postpone the work until later. When the driver sees the second **SetRenderState**, the same dirty state could be redundantly set and the same work would be postponed once again. When [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) is called, the work associated with the dirty state is finally processed. The driver executes the work one time, which means that the first two state changes are effectively consolidated by the driver. Similarly, the third and fourth state changes are effectively consolidated by the driver into a single state change when the second **DrawPrimitive** is called. The net result is that the driver and the GPU process a single state change for each draw call.
+This result reflects a state change optimization implemented in the runtime, the driver, or the GPU. In this case, the driver could see the first [**SetRenderState**](/windows/desktop/api) and set a dirty state which would postpone the work until later. When the driver sees the second **SetRenderState**, the same dirty state could be redundantly set and the same work would be postponed once again. When [**DrawPrimitive**](/windows/desktop/api) is called, the work associated with the dirty state is finally processed. The driver executes the work one time, which means that the first two state changes are effectively consolidated by the driver. Similarly, the third and fourth state changes are effectively consolidated by the driver into a single state change when the second **DrawPrimitive** is called. The net result is that the driver and the GPU process a single state change for each draw call.
 
 This is a good example of a sequence-dependent driver optimization. The driver postponed work twice by setting a dirty state, and then performed the work once to clear the dirty state. This is a good example of the kind of efficiency improvement that can take place when work is deferred until absolutely necessary.
 
@@ -801,23 +801,23 @@ Example 5b: A Single Concatenated Draw Call
 
 The runtime will concatenate both of these particular draw calls into a single call, which reduces the driver work by 50 percent because the driver will now only need to process one draw call.
 
-In general, the runtime will concatenate two or more back-to-back [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) calls when:
+In general, the runtime will concatenate two or more back-to-back [**DrawPrimitive**](/windows/desktop/api) calls when:
 
 1.  The primitive type is a triangle list (D3DPT\_TRIANGLELIST).
-2.  Each successive [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) call must reference consecutive vertices within the vertex buffer.
+2.  Each successive [**DrawPrimitive**](/windows/desktop/api) call must reference consecutive vertices within the vertex buffer.
 
-Similarly, the right conditions for concatenating two or more back-to-back [**DrawIndexedPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawindexedprimitive) calls are:
+Similarly, the right conditions for concatenating two or more back-to-back [**DrawIndexedPrimitive**](/windows/desktop/api) calls are:
 
 1.  The primitive type is a triangle list (D3DPT\_TRIANGLELIST).
-2.  Each successive [**DrawIndexedPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawindexedprimitive) call must sequential reference consecutive indices within the index buffer.
-3.  Each successive [**DrawIndexedPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawindexedprimitive) call must use the same value for BaseVertexIndex.
+2.  Each successive [**DrawIndexedPrimitive**](/windows/desktop/api) call must sequential reference consecutive indices within the index buffer.
+3.  Each successive [**DrawIndexedPrimitive**](/windows/desktop/api) call must use the same value for BaseVertexIndex.
 
 To prevent concatenation during profiling, modify the render sequence so that the primitive type is not a triangle list, or modify the render sequence so that there are no back-to-back draw calls that use consecutive vertices (or indices). More specifically, the runtime will also concatenate draw calls that meet both of the following conditions:
 
--   When the previous call is [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive), if the next draw call:
+-   When the previous call is [**DrawPrimitive**](/windows/desktop/api), if the next draw call:
     -   uses a triangle list, AND
     -   specifies the StartVertex = previous StartVertex + previous PrimitiveCount \* 3
--   When using [**DrawIndexedPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawindexedprimitive), if the next draw call:
+-   When using [**DrawIndexedPrimitive**](/windows/desktop/api), if the next draw call:
     -   uses a triangle list, AND
     -   specifies the StartIndex = previous StartIndex + previous PrimitiveCount \* 3, AND
     -   specifies the BaseVertexIndex = previous BaseVertexIndex
@@ -837,7 +837,7 @@ Here is a more subtle example of draw call concatenation that is easy to overloo
 
 Example 5c: One State Change and One Draw Call
 
-The loop iterates through 1500 triangles, setting a texture and drawing each triangle. This render loop takes approximately 2750 cycles for [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture) and 1100 cycles for [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) as shown in previous sections. You might intuitively expect that moving **SetTexture** outside the render loop should reduce the amount of work done by the driver by 1500 \* 2750 cycles, which is the amount of work associated with calling **SetTexture** 1500 times. The code snippet would look like this:
+The loop iterates through 1500 triangles, setting a texture and drawing each triangle. This render loop takes approximately 2750 cycles for [**SetTexture**](/windows/desktop/api) and 1100 cycles for [**DrawPrimitive**](/windows/desktop/api) as shown in previous sections. You might intuitively expect that moving **SetTexture** outside the render loop should reduce the amount of work done by the driver by 1500 \* 2750 cycles, which is the amount of work associated with calling **SetTexture** 1500 times. The code snippet would look like this:
 
 
 ```
@@ -853,7 +853,7 @@ The loop iterates through 1500 triangles, setting a texture and drawing each tri
 
 Example 5d: Example 5c with the State Change Outside the Loop
 
-Moving [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture) outside the render loop does reduce the amount of work associated with **SetTexture** since it is called once instead of 1500 times. A less obvious secondary effect is that the work for [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) is also reduced from 1500 calls to 1 call because all of the conditions for concatenating draw calls are satisfied. When the render sequence is processed, the runtime will process 1500 calls into a single driver call. By moving this one line of code, the amount of driver work has been reduced dramatically:
+Moving [**SetTexture**](/windows/desktop/api) outside the render loop does reduce the amount of work associated with **SetTexture** since it is called once instead of 1500 times. A less obvious secondary effect is that the work for [**DrawPrimitive**](/windows/desktop/api) is also reduced from 1500 calls to 1 call because all of the conditions for concatenating draw calls are satisfied. When the render sequence is processed, the runtime will process 1500 calls into a single driver call. By moving this one line of code, the amount of driver work has been reduced dramatically:
 
 
 ```
@@ -872,7 +872,7 @@ driver  work = 1 SetTexture + 1 DrawPrimitive
 
 These results are entirely correct, but are very misleading in the context of the original question. The draw call optimization has caused the amount of driver work to be dramatically reduced. This is a common problem when doing custom profiling. When eliminating calls from a render sequence, be careful to avoid draw call concatenation. In fact, this scenario is a powerful example of the amount of improvement in driver performance possible by this runtime optimization.
 
-So now you know how to measure state changes. Start by profiling [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive). Then add each additional state change to the sequence (in some cases adding one call and in other cases adding two calls) and measure the difference between the two sequences. You can convert the results to ticks or cycles or time. Just like measuring render sequences with QueryPerformanceCounter, measuring individual state changes relies on the query mechanism to control the command buffer, and putting the state changes in a loop to minimize the impact of the mode transitions. This technique measures the cost of toggling a state, since the profiler returns the average of enabling and disabling the state.
+So now you know how to measure state changes. Start by profiling [**DrawPrimitive**](/windows/desktop/api). Then add each additional state change to the sequence (in some cases adding one call and in other cases adding two calls) and measure the difference between the two sequences. You can convert the results to ticks or cycles or time. Just like measuring render sequences with QueryPerformanceCounter, measuring individual state changes relies on the query mechanism to control the command buffer, and putting the state changes in a loop to minimize the impact of the mode transitions. This technique measures the cost of toggling a state, since the profiler returns the average of enabling and disabling the state.
 
 With this capability, you can start generating arbitrary rendering sequences and accurately measuring the associated runtime and driver work. The numbers can then be used to answer budgeting questions like "how many more of these calls" can be made in the render sequence while still maintaining a reasonable frame rate, assuming CPU-limited scenarios.
 
@@ -888,12 +888,12 @@ Start by profiling a Draw\*Primitive call in a render sequence. Remember to:
 4.  Use the query mechanism to measure when the GPU has completed its work.
 5.  Watch out for runtime concatenation that will have a major impact on the amount of work done.
 
-This gives you a baseline performance for [**DrawPrimitive**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive) that can be used to build from. To profile one state change, follow these additional tips:
+This gives you a baseline performance for [**DrawPrimitive**](/windows/desktop/api) that can be used to build from. To profile one state change, follow these additional tips:
 
 1.  Add the state change to a known render sequence profile the new sequence. Since the testing is done in a loop, this requires setting the state twice into opposite values (like enable and disable for instance).
 2.  Compare the difference in cycle times between the two sequences.
-3.  For state changes that significantly change the pipeline (like [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture)), subtract the difference between the two sequences to get the time for state change.
-4.  For state changes that significantly change the pipeline (and therefore require toggling states like [**SetRenderState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate)), subtract the difference between the render sequences and divide by 2. This will generate the average number of cycles for each state change.
+3.  For state changes that significantly change the pipeline (like [**SetTexture**](/windows/desktop/api)), subtract the difference between the two sequences to get the time for state change.
+4.  For state changes that significantly change the pipeline (and therefore require toggling states like [**SetRenderState**](/windows/desktop/api)), subtract the difference between the render sequences and divide by 2. This will generate the average number of cycles for each state change.
 
 But be careful of optimizations that cause unexpected results when profiling. State change optimizations may set dirty states which causes work to be deferred. This can cause profile results which are not as intuitive as expected. Draw calls that are concatenated will dramatically reduce driver work which can lead to misleading conclusions. Carefully planned render sequences are used to prevent state change and draw call concatenations from occurring. The trick is to prevent the optimizations from happening during profiling so that the numbers you generate are reasonable budgeting numbers.
 

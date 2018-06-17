@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 Applications can use [event objects](event-objects.md) in a number of situations to notify a waiting thread of the occurrence of an event. For example, overlapped I/O operations on files, named pipes, and communications devices use an event object to signal their completion. For more information about the use of event objects in overlapped I/O operations, see [Synchronization and Overlapped Input and Output](synchronization-and-overlapped-input-and-output.md).
 
-The following example uses event objects to prevent several threads from reading from a shared memory buffer while a master thread is writing to that buffer. First, the master thread uses the [**CreateEvent**](/windows/desktop/api/WinBase/nf-synchapi-createeventa) function to create a manual-reset event object whose initial state is nonsignaled. Then it creates several reader threads. The master thread performs a write operation and then sets the event object to the signaled state when it has finished writing.
+The following example uses event objects to prevent several threads from reading from a shared memory buffer while a master thread is writing to that buffer. First, the master thread uses the [**CreateEvent**](/windows/desktop/api) function to create a manual-reset event object whose initial state is nonsignaled. Then it creates several reader threads. The master thread performs a write operation and then sets the event object to the signaled state when it has finished writing.
 
-Before starting a read operation, each reader thread uses [**WaitForSingleObject**](/windows/desktop/api/WinBase/nf-synchapi-waitforsingleobject) to wait for the manual-reset event object to be signaled. When **WaitForSingleObject** returns, this indicates that the main thread is ready for it to begin its read operation.
+Before starting a read operation, each reader thread uses [**WaitForSingleObject**](/windows/desktop/api) to wait for the manual-reset event object to be signaled. When **WaitForSingleObject** returns, this indicates that the main thread is ready for it to begin its read operation.
 
 
 ```C++

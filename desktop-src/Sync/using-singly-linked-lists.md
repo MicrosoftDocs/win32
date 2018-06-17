@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Using Singly Linked Lists
 
-The following example uses the [**InitializeSListHead**](/windows/desktop/api/WinBase/nf-interlockedapi-initializeslisthead) function to initialize a [singly linked list](interlocked-singly-linked-lists.md) and the [**InterlockedPushEntrySList**](/windows/desktop/api/WinBase/nf-interlockedapi-interlockedpushentryslist) function to insert 10 items. The example uses the [**InterlockedPopEntrySList**](/windows/desktop/api/WinBase/nf-interlockedapi-interlockedpopentryslist) function to remove 10 items and the [**InterlockedFlushSList**](/windows/desktop/api/WinBase/nf-interlockedapi-interlockedflushslist) function to verify that the list is empty.
+The following example uses the [**InitializeSListHead**](/windows/desktop/api) function to initialize a [singly linked list](interlocked-singly-linked-lists.md) and the [**InterlockedPushEntrySList**](/windows/desktop/api) function to insert 10 items. The example uses the [**InterlockedPopEntrySList**](/windows/desktop/api) function to remove 10 items and the [**InterlockedFlushSList**](/windows/desktop/api) function to verify that the list is empty.
 
 
 ```C++

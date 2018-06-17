@@ -15,7 +15,7 @@ Provides information about an app suspending operation.
 
 ## Members
 
-The **ISuspendingOperation** interface inherits from [**IInspectable**](/windows/desktop/api/Inspectable/nn-inspectable-iinspectable). **ISuspendingOperation** also has these types of members:
+The **ISuspendingOperation** interface inherits from [**IInspectable**](/windows/desktop/api). **ISuspendingOperation** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -65,7 +65,7 @@ The **ISuspendingOperation** interface has these properties.
 
 <dl> <dt>
 
-[**IInspectable**](/windows/desktop/api/Inspectable/nn-inspectable-iinspectable)
+[**IInspectable**](/windows/desktop/api)
 </dt> <dt>
 
 [**ISuspendingDeferral**](isuspendingdeferral.md)
