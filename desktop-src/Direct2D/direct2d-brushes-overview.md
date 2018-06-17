@@ -86,7 +86,7 @@ To define a color, you can use the [**D2D1\_COLOR\_F**](d2d1-color-f.md) structu
 
     
 
--   Use the [**ColorF(UINT32, FLOAT)**](/windows/desktop/api/d2d1helper/nf-d2d1helper-colorf-colorf(uint32_float)) constructor to specify the hexadecimal value of a color and an alpha value, as shown in the following example.
+-   Use the [**ColorF(UINT32, FLOAT)**](/windows/desktop/api) constructor to specify the hexadecimal value of a color and an alpha value, as shown in the following example.
     ```C++
     hr = m_pRenderTarget->CreateSolidColorBrush(
         D2D1::ColorF(D2D1::ColorF(0x9ACD32, 1.0f)),  
