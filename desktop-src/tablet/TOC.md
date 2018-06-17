@@ -958,7 +958,7 @@
 #### [Ink Analysis Structures](ink-analysis-structures.md)
 ##### [InkAnalysisRecognizerGuide Structure](inkanalysisrecognizerguide.md)
 ### [InkEdit Control Reference](inkedit-control-reference.md)
-#### [IInkEdit interface](iinkedit.md)
+#### IInkEdit interface
 ##### [Change Event](inkedit-change.md)
 ##### [Click Event](inkedit-click.md)
 ##### [DblClick Event](inkedit-dblclick.md)
