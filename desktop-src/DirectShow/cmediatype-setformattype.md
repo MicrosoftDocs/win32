@@ -41,7 +41,7 @@ This method does not return a value.
 
 ## Remarks
 
-This method sets the **formattype** member. The format type defines the layout of the format block. For example, if the format type is FORMAT\_VideoInfo, the format block should contain a [**VIDEOINFOHEADER**](videoinfoheader.md) structure. To set the format block, call the [**CMediaType::SetFormat**](cmediatype-setformat.md) method. The caller is responsible for making sure that the format block matches the format type.
+This method sets the **formattype** member. The format type defines the layout of the format block. For example, if the format type is FORMAT\_VideoInfo, the format block should contain a **VIDEOINFOHEADER** structure. To set the format block, call the [**CMediaType::SetFormat**](cmediatype-setformat.md) method. The caller is responsible for making sure that the format block matches the format type.
 
 ## Requirements
 
