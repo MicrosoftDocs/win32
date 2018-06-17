@@ -19,11 +19,9 @@ There are several WMI classes and a scripting object to parse or convert the [CI
 
 The script examples shown in this topic obtain data only from the local computer. For more information about how to use the script to obtain data from remote computers, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
-## 
+## To run a script
 
 The following procedure describes how to run a script.
-
-**To run a script**
 
 1.  Copy the code and save it in a file with a .vbs extension, such as *filename.vbs*. Ensure that your text editor does not add a .txt extension to the file.
 2.  Open a command prompt window and navigate to the directory where you saved the file.
@@ -154,7 +152,7 @@ Next</code></pre></td>
 $Computer = &quot;.&quot;
 $times = Get-WmiObject Win32_LocalTime -computer $computer
 
-# Now display the result
+<# Now display the result #>
 
 Foreach ($time in $times) {
     &quot;Day : {0}&quot; -f $Time.Day
@@ -219,7 +217,7 @@ Next</code></pre></td>
 <td><pre><code>$Computer = &quot;.&quot;  
 $timezone = Get-WMIObject -class Win32_TimeZone -ComputerName $computer  
   
-# Display details  
+<# Display details  #>
 if ($computer -eq &quot;.&quot;) {$computer = Hostname}  
 &quot;Time zone information on computer `&quot;{0}`&quot;&quot; -f $computer  
 &quot;Time Zone Description   : {0}&quot; -f $timezone.Description  
@@ -260,7 +258,7 @@ if ($computer -eq &quot;.&quot;) {$computer = Hostname}
     $iHour   = [Int32]::Parse($strWmiDate.SubString( 8, 2)) 
     $iMinute = [Int32]::Parse($strWmiDate.SubString(10, 2)) 
     $iSecond = [Int32]::Parse($strWmiDate.SubString(12, 2)) 
-# decimal point is at $strWmiDate.Substring(14, 1) 
+<# decimal point is at $strWmiDate.Substring(14, 1) #> 
     $iMicroseconds = [Int32]::Parse($strWmiDate.Substring(15, 6)) 
     $iMilliseconds = $iMicroseconds / 1000 
     $iUtcOffsetMinutes = [Int32]::Parse($strWmiDate.Substring(21, 4)) 

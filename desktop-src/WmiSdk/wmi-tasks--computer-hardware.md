@@ -19,11 +19,9 @@ WMI tasks for computer hardware obtain information about the presence, state, or
 
 The script examples shown in this topic obtain data only from the local computer. For more information about how to use the script to obtain data from remote computers, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
-## 
+## To run a script
 
 The following procedure describes how to run a script.
-
-**To run a script**
 
 1.  Copy the code and save it in a file with a .vbs extension, such as *filename.vbs*. Ensure that your text editor does not add a .txt extension to the file.
 2.  Open a command prompt window and navigate to the directory where you saved the file.
@@ -398,7 +396,7 @@ Next</code></pre></td>
 
 $mouse = Get-WmiObject -Class Win32_PointingDevice
 
-# Decode detalis
+<# Decode detalis #>
 
 function Deviceinterface {
     param ($value)
@@ -443,7 +441,7 @@ param ($value)
     }
 }
 
-# Display details
+<# Display details #>
 
 &quot;Mouse Information on System: {0}&quot; -f $mouse.systemname
 &quot;Description : {0}&quot; -f $mouse.Description

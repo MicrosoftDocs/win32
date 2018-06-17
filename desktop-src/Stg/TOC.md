@@ -99,14 +99,14 @@
 ##### [ReleaseWriteAccess](/windows/desktop/api/Objidl/nf-objidl-idirectwriterlock-releasewriteaccess)
 ##### [WaitForWriteAccess](/windows/desktop/api/Objidl/nf-objidl-idirectwriterlock-waitforwriteaccess)
 ##### [IDirectWriterLock - Compound File Implementation](idirectwriterlock-compound-file-implementation.md)
-#### [IEnumSTATPROPSETSTG](/windows/desktop/api/propidlbase/nn-propidl-ienumstatpropsetstg)
+#### IEnumSTATPROPSETSTG
 ##### [Clone](/windows/desktop/api/propidlbase/nf-propidl-ienumstatpropsetstg-clone)
 ##### [Next](/windows/desktop/api/propidlbase/nf-propidl-ienumstatpropsetstg-next)
 ##### [RemoteNext](https://msdn.microsoft.com/en-us/library/Aa379206(v=VS.85).aspx)
 ##### [Reset](/windows/desktop/api/propidlbase/nf-propidl-ienumstatpropsetstg-reset)
 ##### [Skip](/windows/desktop/api/propidlbase/nf-propidl-ienumstatpropsetstg-skip)
 ##### [IEnumSTATPROPSETSTG - Compound File Implementation](ienumstatpropsetstg-compound-file-implementation.md)
-#### [IEnumSTATPROPSTG](/windows/desktop/api/propidlbase/nn-propidl-ienumstatpropstg)
+#### IEnumSTATPROPSTG
 ##### [Clone](/windows/desktop/api/propidlbase/nf-propidl-ienumstatpropstg-clone)
 ##### [Next](/windows/desktop/api/propidlbase/nf-propidl-ienumstatpropstg-next)
 ##### [RemoteNext](https://msdn.microsoft.com/en-us/library/Aa379214(v=VS.85).aspx)
