@@ -388,7 +388,7 @@
 ####### [Fullscreen property](imstscsecuredsettings-fullscreen.md)
 ####### [StartProgram property](imstscsecuredsettings-startprogram.md)
 ####### [WorkDir property](imstscsecuredsettings-workdir.md)
-##### [IRemoteDesktopClient](/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient)
+##### IRemoteDesktopClient
 ###### [IRemoteDesktopClient methods](iremotedesktopclient-methods.md)
 ####### [attachEvent method](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-attachevent)
 ####### [Connect method](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-connect)
@@ -401,7 +401,7 @@
 ####### [Actions property](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-get_actions)
 ####### [Settings property](iremotedesktopclient-settings.md)
 ####### [TouchPointer property](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-get_touchpointer)
-##### [IRemoteDesktopClientActions](/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclientactions)
+##### IRemoteDesktopClientActions
 ###### [IRemoteDesktopClientActions methods](iremotedesktopclientactions-methods.md)
 ####### [ExecuteRemoteAction method](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-executeremoteaction)
 ####### [GetSnapshot method](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-getsnapshot)
@@ -423,13 +423,13 @@
 ####### [OnKeyCombinationPressed method](iremotedesktopclientevents-onkeycombinationpressed.md)
 ####### [OnRemoteDesktopSizeChanged method](iremotedesktopclientevents-onremotedesktopsizechanged.md)
 ####### [OnTouchPointerCursorMoved method](iremotedesktopclientevents-ontouchpointercursormoved.md)
-##### [IRemoteDesktopClientSettings](/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclientsettings)
+##### IRemoteDesktopClientSettings
 ###### [IRemoteDesktopClientSettings methods](iremotedesktopclientsettings-methods.md)
 ####### [ApplySettings method](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientsettings-applysettings)
 ####### [GetRdpProperty method](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientsettings-getrdpproperty)
 ####### [RetrieveSettings method](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientsettings-retrievesettings)
 ####### [SetRdpProperty method](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientsettings-setrdpproperty)
-##### [IRemoteDesktopClientTouchPointer](/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclienttouchpointer)
+##### IRemoteDesktopClientTouchPointer
 ###### [IRemoteDesktopClientTouchPointer properties](iremotedesktopclienttouchpointer-properties.md)
 ####### [Enabled property](iremotedesktopclienttouchpointer-enabled.md)
 ####### [EventsEnabled property](/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclienttouchpointer-get_eventsenabled)
