@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # The State of a Graphics Object
 
-The [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class is at the heart of Windows GDI+. To draw anything, you create a **Graphics** object, set its properties, and call its methods ( [DrawLine](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(in const pen,in const point &,in const point &)), [DrawImage](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(in image,in const point &)), [DrawString](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring(const wchar,int,const font,const pointf &,const brush)), and the like).
+The [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class is at the heart of Windows GDI+. To draw anything, you create a **Graphics** object, set its properties, and call its methods ( [DrawLine](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(in const pen_in const point &_in const point &)), [DrawImage](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(in image_in const point &)), [DrawString](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring(const wchar_int_const font_const pointf &_const brush)), and the like).
 
 The following example constructs a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object and a [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) object and then calls the [**Graphics::DrawRectangle**](https://msdn.microsoft.com/en-us/library/ms536003(v=VS.85).aspx) method of the **Graphics** object:
 
@@ -35,7 +35,7 @@ In the preceding code, the [BeginPaint](http://msdn.microsoft.com/library/en-us/
 
 ## Graphics State
 
-A [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object does more than provide drawing methods, such as [DrawLine](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(in const pen,in const point &,in const point &)) and [DrawRectangle](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(in const pen,in const rect &)). A **Graphics** object also maintains graphics state, which can be divided into the following categories:
+A [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object does more than provide drawing methods, such as [DrawLine](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(in const pen_in const point &_in const point &)) and [DrawRectangle](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(in const pen_in const rect &)). A **Graphics** object also maintains graphics state, which can be divided into the following categories:
 
 -   A link to a device context
 -   Quality settings
@@ -93,7 +93,7 @@ The following illustration shows the two ellipses. Note that the 30-degree rotat
 
 ### Clipping Region
 
-A [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object maintains a clipping region that applies to all items drawn by that **Graphics** object. You can set the clipping region by calling the [SetClip](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setclip(in const graphicspath,in combinemode)) method.
+A [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object maintains a clipping region that applies to all items drawn by that **Graphics** object. You can set the clipping region by calling the [SetClip](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setclip(in const graphicspath_in combinemode)) method.
 
 The following example creates a plus-shaped region by forming the union of two rectangles. That region is designated as the clipping region of a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object. Then the code draws two lines that are restricted to the interior of the clipping region.
 

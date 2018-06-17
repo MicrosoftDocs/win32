@@ -13,13 +13,13 @@ ms.date: 05/31/2018
 
 The [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class provides a variety of drawing methods including those shown in the following list:
 
--   [DrawLine Methods](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(in const pen,in const point &,in const point &))
--   [DrawRectangle Methods](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(in const pen,in const rect &))
--   [DrawEllipse Methods](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawellipse(in const pen,in const rect &))
--   [DrawArc Methods](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawarc(in const pen,in const rect &,in real,in real))
+-   [DrawLine Methods](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(in const pen_in const point &_in const point &))
+-   [DrawRectangle Methods](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(in const pen_in const rect &))
+-   [DrawEllipse Methods](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawellipse(in const pen_in const rect &))
+-   [DrawArc Methods](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawarc(in const pen_in const rect &_in real_in real))
 -   [**Graphics::DrawPath**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpath)
--   [DrawCurve Methods](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawcurve(in const pen,in const point,in int))
--   [DrawBezier Methods](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawbezier(in const pen,in const point &,in const point &,in const point &,in const point &))
+-   [DrawCurve Methods](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawcurve(in const pen_in const point_in int))
+-   [DrawBezier Methods](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawbezier(in const pen_in const point &_in const point &_in const point &_in const point &))
 
 One of the arguments that you pass to such a drawing method is the address of a [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) object.
 

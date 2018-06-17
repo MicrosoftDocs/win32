@@ -25,9 +25,9 @@ The **CInstance::SetCharSplat** method sets a string property.
 
 | Method                                                                             | Description                        |
 |:-----------------------------------------------------------------------------------|:-----------------------------------|
-| [**SetCharSplat(LPCWSTR, DWORD)**](/windows/desktop/api/Instance/nf-instance-cinstance-setcharsplat(lpcwstr,dword))     | Sets a string property.<br/> |
-| [**SetCharSplat(LPCWSTR, LPCSTR)**](/windows/desktop/api/Instance/nf-instance-cinstance-setcharsplat(lpcwstr,lpcstr))   | Sets a string property.<br/> |
-| [**SetCharSplat(LPCWSTR, LPCWSTR)**](/windows/desktop/api/Instance/nf-instance-cinstance-setcharsplat(lpcwstr,lpcwstr)) | Sets a string property.<br/> |
+| [**SetCharSplat(LPCWSTR, DWORD)**](/windows/desktop/api/Instance/nf-instance-cinstance-setcharsplat(lpcwstr_dword))     | Sets a string property.<br/> |
+| [**SetCharSplat(LPCWSTR, LPCSTR)**](/windows/desktop/api/Instance/nf-instance-cinstance-setcharsplat(lpcwstr_lpcstr))   | Sets a string property.<br/> |
+| [**SetCharSplat(LPCWSTR, LPCWSTR)**](/windows/desktop/api/Instance/nf-instance-cinstance-setcharsplat(lpcwstr_lpcwstr)) | Sets a string property.<br/> |
 
 
 

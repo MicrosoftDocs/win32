@@ -56,8 +56,8 @@ The **CHString** class has these methods.
 | [**Empty**](/windows/desktop/api/ChString/nf-chstring-chstring-empty)                           | Forces a string to have 0 (zero) length.<br/>                                                            |
 | [**Find**](/windows/desktop/api/ChString/nf-chstring-chstring-find)                             | Overloaded. Finds a character or substring inside a larger string.<br/>                                  |
 | [**FindOneOf**](/windows/desktop/api/ChString/nf-chstring-chstring-findoneof)                   | Finds the first matching character from a set.<br/>                                                      |
-| [**Format**](/windows/desktop/api/ChString/nf-chstring-chstring-format(uint,---))                         | Overloaded. Formats the string as **sprintf** does.<br/>                                                 |
-| [**FormatMessageW**](/windows/desktop/api/ChString/nf-chstring-chstring-formatmessagew(uint,---))         | Overloaded. Formats a message string.<br/>                                                               |
+| [**Format**](/windows/desktop/api/ChString/nf-chstring-chstring-format(uint_---))                         | Overloaded. Formats the string as **sprintf** does.<br/>                                                 |
+| [**FormatMessageW**](/windows/desktop/api/ChString/nf-chstring-chstring-formatmessagew(uint_---))         | Overloaded. Formats a message string.<br/>                                                               |
 | [**FormatV**](/windows/desktop/api/ChString/nf-chstring-chstring-formatv)                       | Formats the string as **vsprintf** does.<br/>                                                            |
 | [**FreeExtra**](/windows/desktop/api/ChString/nf-chstring-chstring-freeextra)                   | Removes any overhead of this string by freeing any extra memory previously allocated to the string.<br/> |
 | [**GetAllocLength**](/windows/desktop/api/ChString/nf-chstring-chstring-getalloclength)         | Returns the size of the string buffer.<br/>                                                              |

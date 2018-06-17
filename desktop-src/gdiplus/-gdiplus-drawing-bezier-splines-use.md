@@ -29,7 +29,7 @@ The following illustration shows the resulting Bézier spline along with its sta
 
 ![illustration showing a bezier spline with two end points and two control points](images/bezierspline1.png)
 
-You can use the [DrawBeziers](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawbeziers(in const pen,in const point,in int)) method of the [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class to draw a sequence of connected Bézier splines. The following example draws a curve that consists of two connected Bézier splines. The end point of the first Bézier spline is the start point of the second Bézier spline.
+You can use the [DrawBeziers](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawbeziers(in const pen_in const point_in int)) method of the [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class to draw a sequence of connected Bézier splines. The following example draws a curve that consists of two connected Bézier splines. The end point of the first Bézier spline is the start point of the second Bézier spline.
 
 
 ```

@@ -23,8 +23,8 @@ You can unload individual providers that are no longer required.
 
 To use this capability, you must make the three following changes to your provider in MainDll.cpp:
 
--   In the function **DllMain** where you call [**CWbemProviderGlue::FrameworkLoginDLL**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-frameworklogindll(lpcwstr,plong)), you must add a second parameter which is a pointer to a long.
--   In the function **DllCanUnloadNow** where you call [**CWbemProviderGlue::FrameworkLogoffDLL**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-frameworklogoffdll(lpcwstr,plong)), you must add a second parameter which is a pointer to a long.
+-   In the function **DllMain** where you call [**CWbemProviderGlue::FrameworkLoginDLL**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-frameworklogindll(lpcwstr_plong)), you must add a second parameter which is a pointer to a long.
+-   In the function **DllCanUnloadNow** where you call [**CWbemProviderGlue::FrameworkLogoffDLL**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-frameworklogoffdll(lpcwstr_plong)), you must add a second parameter which is a pointer to a long.
 -   In the function **DllGetClassObject** where you create an instance of **CWbemGlueFactory**, you must add a parameter which is a pointer to a long.
 
 In all three cases, the pointer to a long must be the same pointer.

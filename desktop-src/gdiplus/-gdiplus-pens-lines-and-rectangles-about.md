@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Pens, Lines, and Rectangles
 
-To draw lines with Windows GDI+ you need to create a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object and a [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) object. The **Graphics** object provides the methods that actually do the drawing, and the **Pen** object stores attributes of the line, such as color, width, and style. Drawing a line is simply a matter of calling the [DrawLine](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(in const pen,in const point &,in const point &)) method of the **Graphics** object. The address of the **Pen** object is passed as one of the arguments to the DrawLine method. The following example draws a line from the point (4, 2) to the point (12, 6).
+To draw lines with Windows GDI+ you need to create a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object and a [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) object. The **Graphics** object provides the methods that actually do the drawing, and the **Pen** object stores attributes of the line, such as color, width, and style. Drawing a line is simply a matter of calling the [DrawLine](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(in const pen_in const point &_in const point &)) method of the **Graphics** object. The address of the **Pen** object is passed as one of the arguments to the DrawLine method. The following example draws a line from the point (4, 2) to the point (12, 6).
 
 
 ```
@@ -20,7 +20,7 @@ myGraphics.DrawLine(&amp;myPen, 4, 2, 12, 6);
 
 
 
-[DrawLine](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(in const pen,in const point &,in const point &)) is an overloaded method of the [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class, so there are several ways you can supply it with arguments. For example, you can construct two [**Point**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point) objects and pass references to the **Point** objects as arguments to the DrawLine method.
+[DrawLine](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(in const pen_in const point &_in const point &)) is an overloaded method of the [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class, so there are several ways you can supply it with arguments. For example, you can construct two [**Point**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point) objects and pass references to the **Point** objects as arguments to the DrawLine method.
 
 
 ```
@@ -55,7 +55,7 @@ You can use various methods of the [**Pen**](/windows/desktop/api/gdipluspen/nl-
 
 ![illustration of a two lines demonstrating rounded and circular ends, rounded and mitered corners, and two arrow styles](images/aboutgdip02-art04.png)
 
-Drawing rectangles with GDI+ is similar to drawing lines. To draw a rectangle, you need a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object and a [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) object. The **Graphics** object provides a [DrawRectangle](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(in const pen,in const rect &)) method, and the **Pen** object stores attributes, such as line width and color. The address of the **Pen** object is passed as one of the arguments to the DrawRectangle method. The following example draws a rectangle with its upper-left corner at (100, 50), a width of 80, and a height of 40.
+Drawing rectangles with GDI+ is similar to drawing lines. To draw a rectangle, you need a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object and a [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) object. The **Graphics** object provides a [DrawRectangle](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(in const pen_in const rect &)) method, and the **Pen** object stores attributes, such as line width and color. The address of the **Pen** object is passed as one of the arguments to the DrawRectangle method. The following example draws a rectangle with its upper-left corner at (100, 50), a width of 80, and a height of 40.
 
 
 ```
@@ -64,7 +64,7 @@ myGraphics.DrawRectangle(&amp;myPen, 100, 50, 80, 40);
 
 
 
-[DrawRectangle](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(in const pen,in const rect &)) is an overloaded method of the [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class, so there are several ways you can supply it with arguments. For example, you can construct a [**Rect**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect) object and pass a reference to the **Rect** object as an argument to the DrawRectangle method.
+[DrawRectangle](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(in const pen_in const rect &)) is an overloaded method of the [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class, so there are several ways you can supply it with arguments. For example, you can construct a [**Rect**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect) object and pass a reference to the **Rect** object as an argument to the DrawRectangle method.
 
 
 ```
@@ -74,7 +74,7 @@ myGraphics.DrawRectangle(&amp;myPen, myRect);
 
 
 
-A [**Rect**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect) object has methods for manipulating and gathering information about the rectangle. For example, the [Inflate](/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-inflate(in const point &)) and [Offset](/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-offset(in int,in int)) methods change the size and position of the rectangle. The [**Rect::IntersectsWith**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-rect-intersectswith) method tells you whether the rectangle intersects another given rectangle, and the [Contains](/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-contains(in const point &)) method tells you whether a given point is inside the rectangle.
+A [**Rect**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect) object has methods for manipulating and gathering information about the rectangle. For example, the [Inflate](/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-inflate(in const point &)) and [Offset](/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-offset(in int_in int)) methods change the size and position of the rectangle. The [**Rect::IntersectsWith**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-rect-intersectswith) method tells you whether the rectangle intersects another given rectangle, and the [Contains](/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-contains(in const point &)) method tells you whether a given point is inside the rectangle.
 
  
 

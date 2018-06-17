@@ -21,20 +21,20 @@ The [**CWbemProviderGlue**](/windows/desktop/api/WbemGlue/nl-wbemglue-cwbemprovi
 
 ## In this section
 
--   [**FrameworkLoginDLL method**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-frameworklogindll(lpcwstr,plong))
--   [**FrameworkLogoffDLL method**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-frameworklogoffdll(lpcwstr,plong))
--   [**GetAllDerivedInstances method**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getallderivedinstances(lpcwstr,trefpointercollection_cinstance_,methodcontext,lpcwstr))
+-   [**FrameworkLoginDLL method**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-frameworklogindll(lpcwstr_plong))
+-   [**FrameworkLogoffDLL method**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-frameworklogoffdll(lpcwstr_plong))
+-   [**GetAllDerivedInstances method**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getallderivedinstances(lpcwstr_trefpointercollection_cinstance__methodcontext_lpcwstr))
 -   [**GetAllDerivedInstancesAsynch method**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getallderivedinstancesasynch)
 -   [**GetAllInstances method**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getallinstances)
 -   [**GetAllInstancesAsynch method**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getallinstancesasynch)
--   [**GetEmptyInstance methods**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getemptyinstance(methodcontext,lpcwstr,cinstance,lpcwstr))
--   [**GetInstanceByPath method**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getinstancebypath(lpcwstr,cinstance,methodcontext))
+-   [**GetEmptyInstance methods**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getemptyinstance(methodcontext_lpcwstr_cinstance_lpcwstr))
+-   [**GetInstanceByPath method**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getinstancebypath(lpcwstr_cinstance_methodcontext))
 -   [**GetInstanceKeysByPath method**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getinstancekeysbypath)
 -   [**GetInstancePropertiesByPath method**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getinstancepropertiesbypath)
--   [**GetInstancesByQuery method**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getinstancesbyquery(lpcwstr,trefpointercollection_cinstance_,methodcontext,lpcwstr))
+-   [**GetInstancesByQuery method**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getinstancesbyquery(lpcwstr_trefpointercollection_cinstance__methodcontext_lpcwstr))
 -   [**GetInstancesByQueryAsynch method**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getinstancesbyqueryasynch)
--   [**GetNameSpaceConnection method**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getnamespaceconnection(lpcwstr,methodcontext))
--   [**IsDerivedFrom method**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-isderivedfrom(lpcwstr,lpcwstr,methodcontext,lpcwstr))
+-   [**GetNameSpaceConnection method**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getnamespaceconnection(lpcwstr_methodcontext))
+-   [**IsDerivedFrom method**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-isderivedfrom(lpcwstr_lpcwstr_methodcontext_lpcwstr))
 -   [**SetStatusObject method**](/windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-setstatusobject)
 
  

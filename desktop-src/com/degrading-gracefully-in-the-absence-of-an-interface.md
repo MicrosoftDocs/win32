@@ -30,7 +30,7 @@ This is why this appendix recognizes a control as any object with a CLSID and an
 
 In short, an object should be able to implement as little as **IDispatch** and one event set exposed through [**IConnectionPointContainer**](/windows/desktop/api/OCIdl/nn-ocidl-iconnectionpointcontainer) to gain all of those visual features above.
 
-With this in mind, the following table describes what a container might do in the absence of any possible interface. Note that only those interfaces are listed that the container will directly obtain through [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q,)). Other interfaces, like [**IOleInPlaceActiveObject**](/windows/desktop/api/OleIdl/nn-oleidl-ioleinplaceactiveobject), are obtained through other means.
+With this in mind, the following table describes what a container might do in the absence of any possible interface. Note that only those interfaces are listed that the container will directly obtain through [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q_)). Other interfaces, like [**IOleInPlaceActiveObject**](/windows/desktop/api/OleIdl/nn-oleidl-ioleinplaceactiveobject), are obtained through other means.
 
 
 

@@ -19,7 +19,7 @@ The client can cancel the call at any time, from when the Begin\_ method is call
 
 1.  Query the call object for [**ICancelMethodCalls**](/windows/desktop/api/objidlbase/nn-objidl-icancelmethodcalls).
 
-2.  Call [**ICancelMethodCalls::Cancel**](/windows/desktop/api/objidlbase/nf-objidl-icancelmethodcalls-cancel), and then call [**Release**](/windows/desktop/api/unknwnbase/nf-unknwn-iunknown-release) to release the pointer obtained by the [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q,)) call in step 1.
+2.  Call [**ICancelMethodCalls::Cancel**](/windows/desktop/api/objidlbase/nf-objidl-icancelmethodcalls-cancel), and then call [**Release**](/windows/desktop/api/unknwnbase/nf-unknwn-iunknown-release) to release the pointer obtained by the [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q_)) call in step 1.
 
 3.  If the client has not called the Finish\_ method already, call it now.
 

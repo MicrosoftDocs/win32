@@ -17,7 +17,7 @@ For each method on a synchronous interface, the corresponding asynchronous inter
 
 **To begin an asynchronous call**
 
-1.  Query the server object for the [**ICallFactory**](/windows/desktop/api/objidlbase/nn-objidl-icallfactory) interface. If [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q,)) returns E\_NOINTERFACE, the server object does not support asynchronous calling.
+1.  Query the server object for the [**ICallFactory**](/windows/desktop/api/objidlbase/nn-objidl-icallfactory) interface. If [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q_)) returns E\_NOINTERFACE, the server object does not support asynchronous calling.
 
 2.  Call [**ICallFactory::CreateCall**](/windows/desktop/api/objidlbase/nf-objidl-icallfactory-createcall) to create a call object corresponding to the interface you want, and then release the pointer to [**ICallFactory**](/windows/desktop/api/objidlbase/nn-objidl-icallfactory).
 

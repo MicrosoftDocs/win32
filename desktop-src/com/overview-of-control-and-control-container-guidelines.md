@@ -17,7 +17,7 @@ An ActiveX control container must be able to host a minimal ActiveX control; it 
 
 It is important for controls that require optional features, or features specific to a certain container to be clearly packaged and marketed with those requirements. Similarly containers that offer certain features or component categories must be marketed and packaged as offering those levels of support when hosting ActiveX controls. It is recommended that controls target and test with as many containers as possible and degrade gracefully to offer less or alternative functionality if interfaces or methods are not available. In a situation where a control cannot perform its designated job function without the support of a component category, that category should be entered as a requirement in the registry in order to prevent the control being inserted in an inappropriate container.
 
-These guidelines define those interfaces and methods that a control may expect a control container to support, although as always a control should check the return values when using [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q,)) or other methods to obtain pointers to these interfaces. A container should not expect a control to support anything more than the [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown) interface, and these guidelines identify what interfaces a control may support and what the presence of a particular interface means.
+These guidelines define those interfaces and methods that a control may expect a control container to support, although as always a control should check the return values when using [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q_)) or other methods to obtain pointers to these interfaces. A container should not expect a control to support anything more than the [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown) interface, and these guidelines identify what interfaces a control may support and what the presence of a particular interface means.
 
 ## Why the ActiveX Control and Control Container Guidelines Are Important
 
@@ -27,9 +27,9 @@ By following these guidelines, control and container developers make their contr
 
 ## What to Do When an Interface You Need Is Not Available
 
-OLE programs should use [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q,)) to acquire interface pointers, and must check the return value. OLE applications cannot safely assume that **QueryInterface** will succeed.
+OLE programs should use [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q_)) to acquire interface pointers, and must check the return value. OLE applications cannot safely assume that **QueryInterface** will succeed.
 
-This requirement applies to all OLE applications. If the requested interface is not available (that is, [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q,)) returns E\_NOINTERFACE), the control or container must degrade gracefully, even if that means that it cannot perform its designated job function.
+This requirement applies to all OLE applications. If the requested interface is not available (that is, [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q_)) returns E\_NOINTERFACE), the control or container must degrade gracefully, even if that means that it cannot perform its designated job function.
 
 ## Related topics
 

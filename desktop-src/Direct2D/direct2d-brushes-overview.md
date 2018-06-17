@@ -72,7 +72,7 @@ To define a color, you can use the [**D2D1\_COLOR\_F**](d2d1-color-f.md) structu
 
     
 
--   Use the [**ColorF(FLOAT, FLOAT, FLOAT, FLOAT)**](/windows/desktop/api/d2d1helper/nf-d2d1helper-colorf-colorf(float,float,float,float)) constructor to specify a color in the sequence of a red, green, blue, and alpha, where each element has a value between 0.0 and 1.0.
+-   Use the [**ColorF(FLOAT, FLOAT, FLOAT, FLOAT)**](/windows/desktop/api/d2d1helper/nf-d2d1helper-colorf-colorf(float_float_float_float)) constructor to specify a color in the sequence of a red, green, blue, and alpha, where each element has a value between 0.0 and 1.0.
 
     The following example specifies the red, green, blue, and alpha values for a color.
 
@@ -86,7 +86,7 @@ To define a color, you can use the [**D2D1\_COLOR\_F**](d2d1-color-f.md) structu
 
     
 
--   Use the [**ColorF(UINT32, FLOAT)**](/windows/desktop/api/d2d1helper/nf-d2d1helper-colorf-colorf(uint32,float)) constructor to specify the hexadecimal value of a color and an alpha value, as shown in the following example.
+-   Use the [**ColorF(UINT32, FLOAT)**](/windows/desktop/api/d2d1helper/nf-d2d1helper-colorf-colorf(uint32_float)) constructor to specify the hexadecimal value of a color and an alpha value, as shown in the following example.
     ```C++
     hr = m_pRenderTarget->CreateSolidColorBrush(
         D2D1::ColorF(D2D1::ColorF(0x9ACD32, 1.0f)),  

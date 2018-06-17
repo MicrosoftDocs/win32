@@ -25,7 +25,7 @@ The [**CFrameworkQuery**](/windows/desktop/api/FrQuery/nl-frquery-cframeworkquer
 -   [**GetQuery method**](/windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-getquery)
 -   [**GetQueryClassName method**](/windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-getqueryclassname)
 -   [**GetRequiredProperties method**](/windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-getrequiredproperties)
--   [**GetValuesForProp methods**](/windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-getvaluesforprop(lpcwstr,chstringarray &))
+-   [**GetValuesForProp methods**](/windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-getvaluesforprop(lpcwstr_chstringarray &))
 -   [**IsPropertyRequired method**](/windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-ispropertyrequired)
 -   [**KeysOnly method**](/windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-keysonly)
 

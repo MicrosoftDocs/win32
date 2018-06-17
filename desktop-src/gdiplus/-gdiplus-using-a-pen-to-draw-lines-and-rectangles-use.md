@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Using a Pen to Draw Lines and Rectangles
 
-To draw lines and rectangles, you need a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object and a [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) object. The **Graphics** object provides the [DrawLine](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(in const pen,in const point &,in const point &)) method, and the **Pen** object stores features of the line, such as color and width.
+To draw lines and rectangles, you need a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object and a [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) object. The **Graphics** object provides the [DrawLine](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(in const pen_in const point &_in const point &)) method, and the **Pen** object stores features of the line, such as color and width.
 
 The following example draws a line from (20, 10) to (300, 100). Assume **graphics** is an existing [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object.
 

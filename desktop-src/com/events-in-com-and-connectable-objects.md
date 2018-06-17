@@ -17,7 +17,7 @@ With COM, server objects can use COM events to fire events without any informati
 
 COM connectable objects provide outgoing interfaces to their clients in addition to their incoming interfaces. As a result, objects and their clients can engage in bidirectional communication. Incoming interfaces are implemented on an object and receive calls from external clients of an object, while outgoing interfaces are implemented on the client's sink and receive calls from the object. The object defines an interface it would like to use, and the client implements it.
 
-An object defines its incoming interfaces and provides implementations of these interfaces. Incoming interfaces are available to clients through the object's [**IUnknown::QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q,)) method. Clients call the methods of an incoming interface on the object, and the object performs desired actions on behalf of the client.
+An object defines its incoming interfaces and provides implementations of these interfaces. Incoming interfaces are available to clients through the object's [**IUnknown::QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q_)) method. Clients call the methods of an incoming interface on the object, and the object performs desired actions on behalf of the client.
 
 Outgoing interfaces are also defined by an object, but the client provides the implementations of the outgoing interfaces on a sink object that the client creates. The object then calls methods of the outgoing interface on the sink object to notify the client of changes in the object, to trigger events in the client, to request something from the client, or, in fact, for any purpose the object creator comes up with.
 

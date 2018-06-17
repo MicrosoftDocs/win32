@@ -19,7 +19,7 @@ Regions can be constructed from paths, and paths can contain the outlines of str
 
 ![illustration showing the string "hello" filled by a pattern of concentric circles](images/aboutgdip02-art31.png)
 
-To draw with clipping, create a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object, call its [SetClip](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setclip(in const graphicspath,in combinemode)) method, and then call the drawing methods of that same **Graphics** object. The following example draws a line that is clipped to a rectangular region.
+To draw with clipping, create a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object, call its [SetClip](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setclip(in const graphicspath_in combinemode)) method, and then call the drawing methods of that same **Graphics** object. The following example draws a line that is clipped to a rectangular region.
 
 
 ```
