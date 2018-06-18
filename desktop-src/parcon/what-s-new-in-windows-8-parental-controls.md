@@ -1,7 +1,7 @@
 ---
-Description: 'Gives an overview of the changes to the Windows Parental Controls introduced in Windows 8.'
-ms.assetid: '7EB33215-8F8B-4EA4-87E6-A98F0D014548'
-title: 'What's New in Windows 8 Family Safety'
+Description: Gives an overview of the changes to the Windows Parental Controls introduced in Windows 8.
+ms.assetid: 7EB33215-8F8B-4EA4-87E6-A98F0D014548
+title: Whats New in Windows 8 Family Safety
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

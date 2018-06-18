@@ -1,6 +1,6 @@
 ---
-Description: 'Use the GetSecurityInfo and GetNamedSecurityInfo functions to retrieve a pointer to an object's security descriptor.'
-ms.assetid: '834f1b58-d403-4899-865e-5721a37587e9'
+Description: Use the GetSecurityInfo and GetNamedSecurityInfo functions to retrieve a pointer to an objects security descriptor.
+ms.assetid: 834f1b58-d403-4899-865e-5721a37587e9
 title: Security Descriptor Operations
 ms.technology: desktop
 ms.prod: windows

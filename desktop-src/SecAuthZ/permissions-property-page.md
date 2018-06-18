@@ -1,6 +1,6 @@
 ---
-Description: 'The Permissions property page contains controls for advanced editing of the ACEs in an object's DACL.'
-ms.assetid: '85a9fe30-871b-4909-b789-3fc257ffdbff'
+Description: The Permissions property page contains controls for advanced editing of the ACEs in an objects DACL.
+ms.assetid: 85a9fe30-871b-4909-b789-3fc257ffdbff
 title: Permissions Property Page
 ms.technology: desktop
 ms.prod: windows

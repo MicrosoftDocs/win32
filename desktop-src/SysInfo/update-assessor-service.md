@@ -1,6 +1,6 @@
 ---
-Description: 'The Windows as a Service (WaaS) Update Assessment Platform provides information on a device's Windows updates.'
-ms.assetid: 'B107AAF3-4248-40EF-ABD2-C5B31602AEF7'
+Description: The Windows as a Service (WaaS) Update Assessment Platform provides information on a devices Windows updates.
+ms.assetid: B107AAF3-4248-40EF-ABD2-C5B31602AEF7
 title: WaaS Assessment Platform
 ms.technology: desktop
 ms.prod: windows

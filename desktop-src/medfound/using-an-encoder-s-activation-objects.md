@@ -1,7 +1,7 @@
 ---
-Description: 'For converting media files into ASF format, you can use Windows Media encoders. To use these encoders, they must be registered with the system.'
-ms.assetid: '18c26619-6047-4f7f-bb65-ca418f02e5b1'
-title: 'Using an Encoder's Activation Objects'
+Description: For converting media files into ASF format, you can use Windows Media encoders. To use these encoders, they must be registered with the system.
+ms.assetid: 18c26619-6047-4f7f-bb65-ca418f02e5b1
+title: Using an Encoders Activation Objects
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

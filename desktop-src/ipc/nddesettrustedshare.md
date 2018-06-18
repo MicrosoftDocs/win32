@@ -1,6 +1,6 @@
 ---
-Description: 'Grants the specified DDE share trusted status within the current user's context.'
-ms.assetid: '508d3603-468c-4ecb-8e5c-0ab86c2ff3b4'
+Description: Grants the specified DDE share trusted status within the current users context.
+ms.assetid: 508d3603-468c-4ecb-8e5c-0ab86c2ff3b4
 title: NDdeSetTrustedShare function
 ms.technology: desktop
 ms.prod: windows

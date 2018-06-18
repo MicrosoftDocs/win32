@@ -1,7 +1,7 @@
 ---
-Description: 'Specifies whether a Media Foundation transform (MFT) is registered only in the application's process.'
-ms.assetid: 'e10d6378-8e85-4f73-9fa3-a2e954fc8249'
-title: 'MFT\_PROCESS\_LOCAL\_Attribute attribute'
+Description: Specifies whether a Media Foundation transform (MFT) is registered only in the applications process.
+ms.assetid: e10d6378-8e85-4f73-9fa3-a2e954fc8249
+title: MFT\_PROCESS\_LOCAL\_Attribute attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

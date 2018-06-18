@@ -1,7 +1,7 @@
 ---
-Description: 'Specifies a BLOB that contains the context to use when initializing a media protection system's trusted input module.'
-ms.assetid: 'A1B1E088-72D3-4B5F-B868-64896AF04EF1'
-title: 'MFPKEY\_MediaProtectionSystemContext property'
+Description: Specifies a BLOB that contains the context to use when initializing a media protection systems trusted input module.
+ms.assetid: A1B1E088-72D3-4B5F-B868-64896AF04EF1
+title: MFPKEY\_MediaProtectionSystemContext property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

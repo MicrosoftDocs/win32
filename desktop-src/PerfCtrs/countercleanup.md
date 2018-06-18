@@ -1,6 +1,6 @@
 ---
-Description: 'Removes the provider's registration.'
-ms.assetid: 'e52c1ee0-140a-4277-bddd-d93338a512bc'
+Description: Removes the providers registration.
+ms.assetid: e52c1ee0-140a-4277-bddd-d93338a512bc
 title: CounterCleanup function
 ms.technology: desktop
 ms.prod: windows

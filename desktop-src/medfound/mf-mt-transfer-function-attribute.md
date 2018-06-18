@@ -1,7 +1,7 @@
 ---
-Description: 'Specifies the conversion function from RGB to R'G'B' for a video media type.'
-ms.assetid: 'c64c2135-f588-4d7a-9ca8-ae4f7b290572'
-title: 'MF\_MT\_TRANSFER\_FUNCTION attribute'
+Description: Specifies the conversion function from RGB to RGB for a video media type.
+ms.assetid: c64c2135-f588-4d7a-9ca8-ae4f7b290572
+title: MF\_MT\_TRANSFER\_FUNCTION attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

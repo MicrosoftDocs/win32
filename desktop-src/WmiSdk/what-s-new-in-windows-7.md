@@ -1,13 +1,13 @@
 ---
-Description: 'What's New in Windows 7'
+Description: Whats New in Windows 7
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'C3FE15EF-CBF0-4A5D-ADCC-108795F8CE7A'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: C3FE15EF-CBF0-4A5D-ADCC-108795F8CE7A
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'What's New in Windows 7'
+title: Whats New in Windows 7
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

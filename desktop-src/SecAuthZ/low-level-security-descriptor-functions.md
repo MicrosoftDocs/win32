@@ -1,7 +1,7 @@
 ---
-Description: 'Functions for setting and retrieving an object's security descriptor.'
-ms.assetid: '22bf0d6b-3ec6-4c28-ace4-49e48714f4bf'
-title: 'Low-level Security Descriptor Functions'
+Description: Functions for setting and retrieving an objects security descriptor.
+ms.assetid: 22bf0d6b-3ec6-4c28-ace4-49e48714f4bf
+title: Low-level Security Descriptor Functions
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

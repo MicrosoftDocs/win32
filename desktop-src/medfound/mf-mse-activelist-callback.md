@@ -1,7 +1,7 @@
 ---
-Description: 'Contains a pointer to the application's callback interface for the IMFBufferListNotify interface for the active buffer list.'
-ms.assetid: '703A7BF0-A89F-40E9-9440-B8C8E03FDE1A'
-title: 'MF\_MSE\_ACTIVELIST\_CALLBACK attribute'
+Description: Contains a pointer to the applications callback interface for the IMFBufferListNotify interface for the active buffer list.
+ms.assetid: 703A7BF0-A89F-40E9-9440-B8C8E03FDE1A
+title: MF\_MSE\_ACTIVELIST\_CALLBACK attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

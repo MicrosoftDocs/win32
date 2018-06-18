@@ -1,7 +1,7 @@
 ---
-Description: 'This section describes the new features that were added to Performance Counters for each release.'
-ms.assetid: '14bdae6c-9dcd-401e-8c43-5391e00cf7e3'
-title: 'What's New'
+Description: This section describes the new features that were added to Performance Counters for each release.
+ms.assetid: 14bdae6c-9dcd-401e-8c43-5391e00cf7e3
+title: Whats New
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

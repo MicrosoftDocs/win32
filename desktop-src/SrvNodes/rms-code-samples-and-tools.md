@@ -1,7 +1,7 @@
 ---
-Description: 'This roadmap provides Microsoft supplied code samples that show you how it's done and code snippets that you can use in your applications.'
-ms.assetid: '3e55d32b-c036-4729-8b8f-d348d8b7cac4'
-title: 'RMS Scenarios, Code and Tools'
+Description: This roadmap provides Microsoft supplied code samples that show you how its done and code snippets that you can use in your applications.
+ms.assetid: 3e55d32b-c036-4729-8b8f-d348d8b7cac4
+title: RMS Scenarios, Code and Tools
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

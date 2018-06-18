@@ -1,7 +1,7 @@
 ---
-Description: 'Describes how chroma was sampled for a Y'Cb'Cr' video media type.'
-ms.assetid: '0c930348-8669-42cc-9d74-df9ef475bdc8'
-title: 'MF\_MT\_VIDEO\_CHROMA\_SITING attribute'
+Description: Describes how chroma was sampled for a YCbCr video media type.
+ms.assetid: 0c930348-8669-42cc-9d74-df9ef475bdc8
+title: MF\_MT\_VIDEO\_CHROMA\_SITING attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

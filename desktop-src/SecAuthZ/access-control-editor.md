@@ -1,6 +1,6 @@
 ---
-Description: 'A set of property sheets and property pages that enable the user to view and modify the components of an object's security descriptor.'
-ms.assetid: 'ca709f27-8463-4f11-92ac-2148796e640a'
+Description: A set of property sheets and property pages that enable the user to view and modify the components of an objects security descriptor.
+ms.assetid: ca709f27-8463-4f11-92ac-2148796e640a
 title: Access Control Editor
 ms.technology: desktop
 ms.prod: windows

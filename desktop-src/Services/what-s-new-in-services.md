@@ -1,7 +1,7 @@
 ---
-Description: 'Windows 7 and Windows Server 2008 R2 include the following new and updated programming elements for services.'
-ms.assetid: '4be7e244-ad4c-440d-b04e-23afb4c7ddf2'
-title: 'What's New in Services for Windows 7'
+Description: Windows 7 and Windows Server 2008 R2 include the following new and updated programming elements for services.
+ms.assetid: 4be7e244-ad4c-440d-b04e-23afb4c7ddf2
+title: Whats New in Services for Windows 7
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

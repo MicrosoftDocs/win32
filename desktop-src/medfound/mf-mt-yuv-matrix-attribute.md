@@ -1,7 +1,7 @@
 ---
-Description: 'For YUV media types, defines the conversion matrix from the Y'Cb'Cr' color space to the R'G'B' color space.'
-ms.assetid: 'b268d16d-b4cc-4026-9ba7-805cc5409b95'
-title: 'MF\_MT\_YUV\_MATRIX attribute'
+Description: For YUV media types, defines the conversion matrix from the YCbCr color space to the RGB color space.
+ms.assetid: b268d16d-b4cc-4026-9ba7-805cc5409b95
+title: MF\_MT\_YUV\_MATRIX attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

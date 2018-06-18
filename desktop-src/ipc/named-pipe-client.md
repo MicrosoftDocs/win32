@@ -1,6 +1,6 @@
 ---
-Description: 'Code example shows a pipe client that opens a named pipe, sets the pipe handle to message-read mode, uses the WriteFile function to send a request to the server, and uses the ReadFile function to read the server's reply.'
-ms.assetid: '1bde4d4d-958e-45f4-8cdb-0572adcaa3ac'
+Description: Code example shows a pipe client that opens a named pipe, sets the pipe handle to message-read mode, uses the WriteFile function to send a request to the server, and uses the ReadFile function to read the servers reply.
+ms.assetid: 1bde4d4d-958e-45f4-8cdb-0572adcaa3ac
 title: Named Pipe Client
 ms.technology: desktop
 ms.prod: windows

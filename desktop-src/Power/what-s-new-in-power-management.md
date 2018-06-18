@@ -1,7 +1,7 @@
 ---
-Description: 'Windows 10 helps your application optimize power consumption when it's running on a mobile device.'
-ms.assetid: 'a956b88c-8a75-4c1c-af27-53c69feb1596'
-title: 'What's New in Power Management'
+Description: Windows 10 helps your application optimize power consumption when its running on a mobile device.
+ms.assetid: a956b88c-8a75-4c1c-af27-53c69feb1596
+title: Whats New in Power Management
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

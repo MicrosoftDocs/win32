@@ -1,6 +1,6 @@
 ---
-Description: 'Raised by the policy engine when license acquisition is about to begin. License acquisition is performed using the application's implementation of the IMFContentProtectionManager interface.'
-ms.assetid: 'c328743c-a69b-431e-8a05-0e140aad9b4d'
+Description: Raised by the policy engine when license acquisition is about to begin. License acquisition is performed using the applications implementation of the IMFContentProtectionManager interface.
+ms.assetid: c328743c-a69b-431e-8a05-0e140aad9b4d
 title: MELicenseAcquisitionStart event
 ms.technology: desktop
 ms.prod: windows

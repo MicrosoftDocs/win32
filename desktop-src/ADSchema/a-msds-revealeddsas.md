@@ -1,6 +1,6 @@
 ---
 title: ms-DS-Revealed-DSAs attribute
-description: Backward link for ms-DS-Revealed-Users. Identifies which RODC holds that user's secret.
+description: Backward link for ms-DS-Revealed-Users. Identifies which RODC holds that users secret.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin

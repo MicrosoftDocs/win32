@@ -1,7 +1,7 @@
 ---
-Description: 'Represents a contiguous range of logical blocks that is identifiable by a file system through the disk's DeviceID (key) field.'
-ms.assetid: 'a70b4bee-7f5d-43b1-a7cc-7f0593bc8a11'
-title: 'CIM\_LogicalDisk class'
+Description: Represents a contiguous range of logical blocks that is identifiable by a file system through the disks DeviceID (key) field.
+ms.assetid: a70b4bee-7f5d-43b1-a7cc-7f0593bc8a11
+title: CIM\_LogicalDisk class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

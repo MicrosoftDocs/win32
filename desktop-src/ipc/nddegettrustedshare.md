@@ -1,6 +1,6 @@
 ---
-Description: 'Retrieves the options associated with a DDE share that is in the server user's list of trusted shares.'
-ms.assetid: 'e5f2b4f8-f922-4734-9fe3-8a74a7f5f619'
+Description: Retrieves the options associated with a DDE share that is in the server users list of trusted shares.
+ms.assetid: e5f2b4f8-f922-4734-9fe3-8a74a7f5f619
 title: NDdeGetTrustedShare function
 ms.technology: desktop
 ms.prod: windows

@@ -1,7 +1,7 @@
 ---
-Description: 'The Side-by-Side Assembly API installs, removes, or queries side-by-side assemblies from the system's side-by-side assembly store.'
-ms.assetid: '70c1cdc4-7e8c-4d13-b371-c085f6c6eafe'
-title: 'Side-by-Side Assembly API'
+Description: The Side-by-Side Assembly API installs, removes, or queries side-by-side assemblies from the systems side-by-side assembly store.
+ms.assetid: 70c1cdc4-7e8c-4d13-b371-c085f6c6eafe
+title: Side-by-Side Assembly API
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
-Description: 'Microsoft Media Foundation was introduced in Windows Vista as the replacement for DirectShow. Of course, DirectShow is still supported in Windows 7, but developers are encouraged to use Media Foundation in their new digital media applications.'
-ms.assetid: 'c345c0d9-5325-4f73-b9ec-1673ad10e3e4'
-title: 'What's New for Media Foundation'
+Description: Microsoft Media Foundation was introduced in Windows Vista as the replacement for DirectShow. Of course, DirectShow is still supported in Windows 7, but developers are encouraged to use Media Foundation in their new digital media applications.
+ms.assetid: c345c0d9-5325-4f73-b9ec-1673ad10e3e4
+title: Whats New for Media Foundation
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

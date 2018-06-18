@@ -1,6 +1,6 @@
 ---
-Description: 'The SECURITY\_IMPERSONATION\_LEVEL enumeration defines four impersonation levels that determine the operations a server can perform in the client's context.'
-ms.assetid: 'ae152dbf-44f0-417f-a85e-09bf60dcfcb0'
+Description: The SECURITY\_IMPERSONATION\_LEVEL enumeration defines four impersonation levels that determine the operations a server can perform in the clients context.
+ms.assetid: ae152dbf-44f0-417f-a85e-09bf60dcfcb0
 title: Impersonation Levels
 ms.technology: desktop
 ms.prod: windows

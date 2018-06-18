@@ -1,11 +1,11 @@
 ---
-Description: 'When a user application requests data from objects on the system through a WMI provider, impersonation means the provider presents credentials that represent the client's security level rather than the provider's.'
+Description: When a user application requests data from objects on the system through a WMI provider, impersonation means the provider presents credentials that represent the clients security level rather than the providers.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6d54f234-45aa-445b-ad50-7d5a9946c134'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6d54f234-45aa-445b-ad50-7d5a9946c134
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Impersonating a Client
 ms.author: windowssdkdev

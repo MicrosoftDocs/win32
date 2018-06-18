@@ -1,7 +1,7 @@
 ---
-Description: 'The DoInitialize method must be implemented by the monitor. The MCSVC calls this method to obtain a capture filter immediately before calling the NPP's IRTC::Connect method.'
-ms.assetid: '5e43be75-21b3-4f37-ad53-3ffdd55f56a1'
-title: 'IMonitor::DoInitialize method'
+Description: The DoInitialize method must be implemented by the monitor. The MCSVC calls this method to obtain a capture filter immediately before calling the NPPs IRTCConnect method.
+ms.assetid: 5e43be75-21b3-4f37-ad53-3ffdd55f56a1
+title: IMonitorDoInitialize method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

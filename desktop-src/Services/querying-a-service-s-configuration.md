@@ -1,7 +1,7 @@
 ---
-Description: 'A service configuration program uses the OpenService function to get a handle with SERVICE\_QUERY\_CONFIG access to an installed service object.'
-ms.assetid: 'e6633dc9-c9b6-457d-8adc-e751ec9cf71d'
-title: 'Querying a Service's Configuration'
+Description: A service configuration program uses the OpenService function to get a handle with SERVICE\_QUERY\_CONFIG access to an installed service object.
+ms.assetid: e6633dc9-c9b6-457d-8adc-e751ec9cf71d
+title: Querying a Services Configuration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
