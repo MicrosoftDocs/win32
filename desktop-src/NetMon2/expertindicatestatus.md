@@ -1,6 +1,6 @@
 ---
-Description: 'The ExpertIndicateStatus function indicates the percentage of completion of the expert's analysis of the capture file.'
-ms.assetid: '6dbaa6d3-6068-4a28-9d9f-bcc7a25da407'
+Description: The ExpertIndicateStatus function indicates the percentage of completion of the experts analysis of the capture file.
+ms.assetid: 6dbaa6d3-6068-4a28-9d9f-bcc7a25da407
 title: ExpertIndicateStatus function
 ms.technology: desktop
 ms.prod: windows
@@ -107,13 +107,3 @@ The **ExpertIndicateStatus** function can only be called by experts that impleme
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
-
-
-
- 
-
- 
-
-
-
-
