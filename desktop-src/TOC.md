@@ -1,6 +1,5 @@
 #[Windows Desktop Apps](/windows/desktop)
 ##Get Started
-##[Design](uxguide/TOC.md)
 ###[Choose Your Technology](choose-your-technology.md)
 ###[What's new](windows-8.md)
 ####[Windows 8 and 8.1 Technologies](whatsnew/windows-8-technologies.md)
@@ -15,6 +14,7 @@
 ####[Programming Guide for 64-bit Windows](winprog64/programming-guide-for-64-bit-windows.md)
 ####[Using the Windows Headers](winprog/using-the-windows-headers.md)
 ###Downloads and Tools
+##[Design](uxguide/TOC.md)
 ##Develop
 ###[Desktop app technologies](desktop-app-technologies.md)
 ####[Desktop App User Interface](windows-application-ui-development.md)
