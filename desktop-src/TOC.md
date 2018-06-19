@@ -1,6 +1,6 @@
 #[Windows Desktop Apps](/windows/desktop)
-##[Design](uxguide/TOC.md)
 ##Get Started
+##[Design](uxguide/TOC.md)
 ###[Choose Your Technology](choose-your-technology.md)
 ###[What's new](windows-8.md)
 ####[Windows 8 and 8.1 Technologies](whatsnew/windows-8-technologies.md)
