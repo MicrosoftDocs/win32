@@ -25,7 +25,7 @@ Create Windows desktop applications that your customers can use at work and play
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get started</h3>
+                        <h2>Get started</h2>
                         <p>
                             <a href="desktop-programming">Desktop programming</a>
                         </p>
@@ -56,7 +56,7 @@ Create Windows desktop applications that your customers can use at work and play
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Design</h3>
+                        <h2>Design</h2>
                         <p>
                             <a href="uxguide/designprinciples">Design basics</a>
                         </p>
@@ -84,7 +84,7 @@ Create Windows desktop applications that your customers can use at work and play
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Develop</h3>
+                        <h2>Develop</h2>
                         <p>
                             <a href="desktop-app-technologies">Desktop app technologies</a>
                         </p>
@@ -115,7 +115,7 @@ Create Windows desktop applications that your customers can use at work and play
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>API reference</h3>
+                        <h2>API reference</h2>
                         <p>
                             <a href="api">Windows API reference</a>
                         </p>
