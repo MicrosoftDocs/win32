@@ -13,7 +13,7 @@
 ####[Get Started with Win32 and C++](learnwin32/learn-to-program-for-windows.md)
 ####[Programming Guide for 64-bit Windows](winprog64/programming-guide-for-64-bit-windows.md)
 ####[Using the Windows Headers](winprog/using-the-windows-headers.md)
-###Downloads and Tools
+###[Downloads and Tools](https://developer.microsoft.com/en-us/windows/downloads)
 ##[Design](uxguide/TOC.md)
 ##Develop
 ###[Desktop app technologies](desktop-app-technologies.md)
@@ -27,7 +27,7 @@
 ######[Legacy User Interaction Features](legacy-user-interaction-features.md)
 #######[Touch Input](wintouch/windows-touch-portal.md)
 #######[Keyboard and Mouse Input](inputdev/user-input.md)
-#######MultiPoint Mouse
+#######[MultiPoint Mouse](https://msdn.microsoft.com/en-us/library/windows/desktop/ff877472.aspx)
 #######[Tablet PC](tablet/tablet-pc-development-guide.md)
 #####[Windows and Messages](winmsg/windowing.md)
 #####[Desktop Window Manager (DWM)](dwm/DWM)
@@ -65,12 +65,11 @@
 ######[Volume Shadow Copy Service](vss/volume-shadow-copy-service-portal.md)
 #####[Cloud Filter API](cfapi/cloud-files-api-portal.md)
 #####[Distributed File System](dfs/distributed-file-system.md)
-#####Extensible Storage Engine
 #####[Image Mastering API](imapi/portal.md)
-#####Imaging API
+#####[Imaging API](https://msdn.microsoft.com/en-us/library/windows/desktop/dd851933.aspx)
 #####[Local File Systems](fileio/file-systems.md)
-#####vstor
-#####vds
+#####[Virtual Storage](https://msdn.microsoft.com/en-us/library/windows/desktop/dd323653(v=vs.85).aspx)
+#####[Virtual Disk Service](https://msdn.microsoft.com/en-us/library/bb986750(v=vs.85).aspx)
 ####[Devices](devices.md)
 #####[Communications Resources](devio/communications-resources.md)
 #####[Location API](locationapi/windows-location-api-portal.md)
@@ -95,7 +94,7 @@
 #####[System Monitor](sysmon/system-monitor-portal.md)
 #####[Tool Help Library](toolhelp/tool-help-library.md)
 #####[Windows Error Reporting](wer/windows-error-reporting.md)
-#####Windows Events
+#####[Windows Events](events/windows-events.md)
 ######[TraceLogging](tracelogging/trace-logging-portal.md)
 ######[Event Tracing](etw/event-tracing-portal.md)
 ######[Event Logging](eventlog/event-logging.md)
@@ -121,7 +120,7 @@
 #######[DirectDraw](directdraw/directdraw.md)
 #######[Technical Articles](dxtecharts/dx9-technical-articles.md)
 #######[Where is the DirectX SDK?](directx-sdk--august-2009-.md)
-######direct3dtools
+######[Tools for DirectX Graphics](https://msdn.microsoft.com/en-us/library/windows/desktop/bb232917(v=vs.85).aspx)
 ######[DirectX Graphics Articles](direct3darticles/directx-graphics-articles-portal.md)
 ######[XAudio2 APIs](xaudio2/xaudio2-apis-portal.md)
 ######[XInput Game Controller APIs](xinput/xinput-game-controller-apis-portal.md)
@@ -135,7 +134,7 @@
 #####[Domain Name System (DNS)](dns/DNS)
 #####[HTTP Server API](http/http-api-start-page.md)
 #####[IP Helper](iphlp/ip-helper-start-page.md)
-#####Message Queuing (MSMQ)
+#####[Message Queuing](https://msdn.microsoft.com/en-us/library/ms711472(v=vs.85).aspx)
 #####[Network List Manager](nla/portal.md)
 #####[Network Management](netmgmt/network-management.md)
 #####[Network Share Management](netshare/network-share-management.md)
@@ -143,7 +142,7 @@
 #####[Remote Procedure Call (RPC)](rpc/RPC)
 #####[Routing and Remote Access Service](rras/portal.md)
 #####[Simple Network Management Protocol](snmp/snmp-start-page.md)
-#####tapi
+#####[Telephony Application Programming Interfaces](https://msdn.microsoft.com/en-us/library/windows/desktop/ms734273(v=vs.85).aspx)
 #####[Teredo](teredo/portal.md)
 #####[WebSocket Protocol Component API](websock/web-socket-protocol-component-api-portal.md)
 #####[Windows Filtering Platform](fwp/windows-filtering-platform-start-page.md)
@@ -152,7 +151,7 @@
 #####[Windows Sockets 2](winsock/windows-sockets-start-page-2.md)
 #####[Wireless Networking](wireless-networking.md)
 ######[Bluetooth](bluetooth/bluetooth-start-page.md)
-######mbn
+######[Mobile Broadband](https://msdn.microsoft.com/en-us/library/windows/desktop/dd323271(v=vs.85).aspx)
 ######[Native Wifi](nativewifi/portal.md)
 ######[Windows Connect Now](wcn/portal.md)
 ######[Windows Connection Manager](wcm/windows-connection-manager-portal.md)
@@ -176,13 +175,13 @@
 #######Directory Access Technologies
 ########[Active Directory Service Interfaces](adsi/active-directory-service-interfaces-adsi.md)
 ######Access Management Services
-#######Active Directory Federation Services
-########Active Directory Federation Services Overview 
+#######[Active Directory Federation Services](https://msdn.microsoft.com/en-us/library/ee663257(v=vs.85).aspx)
+########[Active Directory Federation Services Overview](https://msdn.microsoft.com/en-us/library/ms674895(v=vs.85).aspx)
 #####[Network Access Protection](nap/network-access-protection-start-page.md)
 #####[Network Policy Server](nps/portal.md)
 #####[Parental Controls](parcon/parental-controls-portal.md)
-#####Rights Management
-######RMS Scenarios, Code and Tools
+#####[Rights Management](https://msdn.microsoft.com/en-us/library/hh552972(v=vs.85).aspx)
+######[RMS Scenarios, Code and Tools](https://msdn.microsoft.com/en-us/library/dn609938(v=vs.85).aspx)
 #####[Security Management](secmgmt/management-portal.md)
 #####[Security Glossary](secgloss/security-glossary.md)
 #####[TPM Base Services](tbs/tpm-base-services-portal.md)
@@ -209,17 +208,17 @@
 ####[Developer Notes](devnotes/developer-notes.md)
 ###[Develop with server technologies](server-and-system-technologies.md)
 ####Server Technologies
-#####File Server Resource Manager Reference
+#####[File Server Resource Manager Reference](https://msdn.microsoft.com/en-us/library/mt740695(v=vs.85).aspx)
 ####System Administration
-#####Group Policy
-######GPMC Class Library Reference
+#####[Group Policy](https://msdn.microsoft.com/en-us/library/ee663280(v=vs.85).aspx)
+######[GPMC Class Library Reference](https://msdn.microsoft.com/en-us/library/mt739121(v=vs.85).aspx)
 #####[Mobile Device Management Registration](mdmreg/mobile-device-management-registration-portal.md)
 #####[System Restore](sr/system-restore-portal.md)
 #####[System Shutdown](shutdown/system-shutdown.md)
 #####[Task Scheduler](taskschd/task-scheduler-start-page.md)
 #####[Windows Deployment Services](wds/windows-deployment-services-portal.md)
 #####[Windows Management Instrumentation](wmisdk/wmi-start-page.md)
-#####Windows Management Infrastructure Managed API
+#####[Windows Management Infrastructure Managed API](https://msdn.microsoft.com/en-us/library/mt738833(v=vs.85).aspx)
 #####WMI Providers
 ######[Boot Configuration Data WMI Provider](bcd/boot-configuration-data-portal.md)
 ######[Boot Event Collector WMI Provider](bevtcolprov/boot-event-collector-wmi-provider-portal.md)
