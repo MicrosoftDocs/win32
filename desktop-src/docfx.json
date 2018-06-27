@@ -38,7 +38,11 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/windows/desktop/breadcrumb/toc.json",
-      "extendBreadcrumb": true
+      "extendBreadcrumb": true,
+      "searchScope": [
+        "Windows", 
+        "Desktop"
+      ]
     },
     "fileMetadata": {
       "feedback_system": {
