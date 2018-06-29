@@ -11,6 +11,17 @@ title: SWbemObject.Properties\_ property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemObject.Properties_
+- ISWbemObject.Properties_
+- ISWbemObject.get_Properties_
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemObject.Properties\_ property

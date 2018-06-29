@@ -13,6 +13,15 @@ title: AddNode method of the CIM\_ClusteringService class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ClusteringService.AddNode
+api_type: 
+- COM
+api_location: 
+- CIMWin32.dll
 ---
 
 # AddNode method of the CIM\_ClusteringService class

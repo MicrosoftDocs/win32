@@ -7,6 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- FSCTL_SRV_REQUEST_RESUME_KEY
+api_type: 
+- NA
+api_location: 
 ---
 
 # FSCTL\_SRV\_REQUEST\_RESUME\_KEY control code

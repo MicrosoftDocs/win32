@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SMS_MESSAGE_TYPES
+api_type: 
+- HeaderDef
+api_location: 
+- PortableDevice.h
 ---
 
 # SMS\_MESSAGE\_TYPES enumeration

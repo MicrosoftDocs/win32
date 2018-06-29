@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- WPD_EFFECT_MODES
+api_type: 
+- HeaderDef
+api_location: 
+- PortableDevice.h
 ---
 
 # WPD\_EFFECT\_MODES enumeration

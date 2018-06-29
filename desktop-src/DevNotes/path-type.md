@@ -7,6 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- PATH_TYPE
+api_type: 
+- NA
+api_location: 
 ---
 
 # PATH\_TYPE enumeration

@@ -11,6 +11,17 @@ title: SWbemObjectPath.Keys property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemObjectPath.Keys
+- ISWbemObjectPath.Keys
+- ISWbemObjectPath.get_Keys
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemObjectPath.Keys property

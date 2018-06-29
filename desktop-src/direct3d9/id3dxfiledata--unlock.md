@@ -7,6 +7,16 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- ID3DXFileData.Unlock
+api_type: 
+- COM
+api_location: 
+- D3dx9.lib
+- D3dx9.dll
 ---
 
 # ID3DXFileData::Unlock method

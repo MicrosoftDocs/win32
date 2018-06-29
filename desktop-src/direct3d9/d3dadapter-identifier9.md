@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- D3DADAPTER_IDENTIFIER9
+api_type: 
+- HeaderDef
+api_location: 
+- D3D9Types.h
 ---
 
 # D3DADAPTER\_IDENTIFIER9 structure

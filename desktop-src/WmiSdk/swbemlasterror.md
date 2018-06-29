@@ -11,6 +11,40 @@ title: SWbemLastError object
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemLastError
+- Associators_
+- AssociatorsAsync_
+- Delete_
+- DeleteAsync_
+- ExecMethod_
+- ExecMethodAsync_
+- Instances_
+- InstancesAsync_
+- Put_
+- PutAsync_
+- References_
+- ReferencesAsync_
+- SpawnDerivedClass_
+- SpawnInstance_
+- Subclasses_
+- SubclassesAsync_
+- Derivation_
+- get_Derivation_
+- Methods_
+- get_Methods_
+- Qualifiers_
+- get_Qualifiers_
+- Security_
+- get_Security_
+- ISWbemLastError
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemLastError object

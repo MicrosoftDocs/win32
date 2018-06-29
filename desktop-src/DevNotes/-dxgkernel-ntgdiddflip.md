@@ -7,6 +7,18 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- NtGdiDdFlip
+api_type: 
+- DllExport
+api_location: 
+- Ntgdi.h
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 ---
 
 # NtGdiDdFlip function

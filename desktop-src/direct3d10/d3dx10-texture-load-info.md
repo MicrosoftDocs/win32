@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- D3DX10_TEXTURE_LOAD_INFO
+api_type: 
+- HeaderDef
+api_location: 
+- D3DX10Tex.h
 ---
 
 # D3DX10\_TEXTURE\_LOAD\_INFO structure

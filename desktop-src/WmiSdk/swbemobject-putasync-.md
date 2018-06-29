@@ -11,6 +11,17 @@ title: SWbemObject.PutAsync\_ method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemObject.PutAsync_
+- ISWbemObject.PutAsync_
+- ISWbemObject.PutAsync_
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemObject.PutAsync\_ method

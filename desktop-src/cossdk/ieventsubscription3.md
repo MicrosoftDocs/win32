@@ -7,6 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- IEventSubscription3
+api_type: 
+- COM
+api_location: 
 ---
 
 # IEventSubscription3 interface

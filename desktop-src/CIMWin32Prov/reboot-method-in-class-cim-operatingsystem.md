@@ -13,6 +13,15 @@ title: Reboot method of the CIM\_OperatingSystem class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_OperatingSystem.Reboot
+api_type: 
+- COM
+api_location: 
+- CIMWin32.dll
 ---
 
 # Reboot method of the CIM\_OperatingSystem class

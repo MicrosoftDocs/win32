@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- m_nBatched
+api_type: 
+- HeaderDef
+api_location: 
+- Outputq.h
 ---
 
 # COutputQueue::m\_nBatched member

@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- ETW_PROCESS_HANDLE_INFO_TYPE
+api_type: 
+- HeaderDef
+api_location: 
+- evntrace.h
 ---
 
 # ETW\_PROCESS\_HANDLE\_INFO\_TYPE enumeration

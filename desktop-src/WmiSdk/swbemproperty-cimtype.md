@@ -11,6 +11,17 @@ title: SWbemProperty.CIMType property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemProperty.CIMType
+- ISWbemProperty.CIMType
+- ISWbemProperty.get_CIMType
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemProperty.CIMType property

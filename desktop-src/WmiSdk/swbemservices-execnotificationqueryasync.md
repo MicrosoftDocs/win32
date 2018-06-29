@@ -11,6 +11,17 @@ title: SWbemServices.ExecNotificationQueryAsync method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemServices.ExecNotificationQueryAsync
+- ISWbemServices.ExecNotificationQueryAsync
+- ISWbemServices.ExecNotificationQueryAsync
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemServices.ExecNotificationQueryAsync method

@@ -13,6 +13,15 @@ title: ListBackups method of the Control class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Control.ListBackups
+api_type: 
+- COM
+api_location: 
+- BEvtCol.exe
 ---
 
 # ListBackups method of the Control class

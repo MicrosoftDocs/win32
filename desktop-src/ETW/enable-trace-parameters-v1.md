@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- ENABLE_TRACE_PARAMETERS_V1
+api_type: 
+- HeaderDef
+api_location: 
+- Evntrace.h
 ---
 
 # ENABLE\_TRACE\_PARAMETERS\_V1 structure

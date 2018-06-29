@@ -11,6 +11,17 @@ title: SWbemLocator.ConnectServer method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemLocator.ConnectServer
+- ISWbemLocator.ConnectServer
+- ISWbemLocator.ConnectServer
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemLocator.ConnectServer method

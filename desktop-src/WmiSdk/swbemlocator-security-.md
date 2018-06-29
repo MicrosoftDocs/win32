@@ -11,6 +11,17 @@ title: SWbemLocator.Security\_ property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemLocator.Security_
+- ISWbemLocator.Security_
+- ISWbemLocator.get_Security_
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemLocator.Security\_ property

@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- D3DX_CPU_OPTIMIZATION
+api_type: 
+- HeaderDef
+api_location: 
+- D3DX10Math.h
 ---
 
 # D3DX\_CPU\_OPTIMIZATION enumeration

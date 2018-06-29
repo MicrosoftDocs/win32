@@ -7,6 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- ISCardVerify.ChangeCode
+api_type: 
+- COM
+api_location: 
 ---
 
 # ISCardVerify::ChangeCode method

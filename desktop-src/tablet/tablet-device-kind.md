@@ -7,6 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- TABLET_DEVICE_KIND
+api_type: 
+- NA
+api_location: 
 ---
 
 # TABLET\_DEVICE\_KIND enumeration

@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- D3DX10CompileFromFile
+api_type: 
+- HeaderDef
+api_location: 
+- D3DX10Async.h
 ---
 
 # D3DX10CompileFromFile function

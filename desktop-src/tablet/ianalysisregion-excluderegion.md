@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- IAnalysisRegion.ExcludeRegion
+api_type: 
+- COM
+api_location: 
+- IACom.dll
 ---
 
 # IAnalysisRegion::ExcludeRegion method

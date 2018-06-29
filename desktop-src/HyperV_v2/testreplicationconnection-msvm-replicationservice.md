@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ReplicationService.TestReplicationConnection
+api_type: 
+- COM
+api_location: 
+- vmms.exe
 ---
 
 # TestReplicationConnection method of the Msvm\_ReplicationService class

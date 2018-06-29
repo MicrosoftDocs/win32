@@ -13,6 +13,15 @@ title: ChangeStartMode method of the Win32\_Service class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_Service.ChangeStartMode
+api_type: 
+- COM
+api_location: 
+- CIMWin32.dll
 ---
 
 # ChangeStartMode method of the Win32\_Service class

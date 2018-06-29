@@ -11,6 +11,17 @@ title: SWbemEventSource.Security\_ property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemEventSource.Security_
+- ISWbemEventSource.Security_
+- ISWbemEventSource.get_Security_
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemEventSource.Security\_ property

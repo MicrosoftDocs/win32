@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- GENERIC_PORT
+api_type: 
+- HeaderDef
+api_location: 
+- Netmon.h
 ---
 
 # GENERIC\_PORT union

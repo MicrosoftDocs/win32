@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- D3DAUTHENTICATEDCHANNEL_QUERYOUTPUTID_OUTPUT
+api_type: 
+- HeaderDef
+api_location: 
+- d3d9types.h
 ---
 
 # D3DAUTHENTICATEDCHANNEL\_QUERYROUTPUTID\_OUTPUT structure

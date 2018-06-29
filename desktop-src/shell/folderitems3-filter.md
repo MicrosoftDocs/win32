@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- FolderItems3.Filter
+api_type: 
+- COM
+api_location: 
+- Shell32.dll
 ---
 
 # FolderItems3.Filter method

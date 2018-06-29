@@ -11,6 +11,18 @@ title: SWbemObjectPath.Locale property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemObjectPath.Locale
+- ISWbemObjectPath.Locale
+- ISWbemObjectPath.get_Locale
+- ISWbemObjectPath.put_Locale
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemObjectPath.Locale property

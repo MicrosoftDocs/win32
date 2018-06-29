@@ -7,6 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- COPY_CHUNK
+api_type: 
+- NA
+api_location: 
 ---
 
 # IOCTL\_LMR\_DISABLE\_LOCAL\_BUFFERING control code

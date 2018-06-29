@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- EAPOL_INTF_PARAMS
+api_type: 
+- HeaderDef
+api_location: 
+- wzcsapi.h
 ---
 
 # EAPOL\_INTF\_PARAMS structure

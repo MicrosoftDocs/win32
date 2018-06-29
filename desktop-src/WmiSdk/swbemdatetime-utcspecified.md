@@ -11,6 +11,18 @@ title: SWbemDateTime.UTCSpecified property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemDateTime.UTCSpecified
+- ISWbemDateTime.UTCSpecified
+- ISWbemDateTime.get_UTCSpecified
+- ISWbemDateTime.put_UTCSpecified
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemDateTime.UTCSpecified property

@@ -13,6 +13,15 @@ title: SetUrgency method of the CIM\_AlarmDevice class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_AlarmDevice.SetUrgency
+api_type: 
+- COM
+api_location: 
+- CIMWin32.dll
 ---
 
 # SetUrgency method of the CIM\_AlarmDevice class

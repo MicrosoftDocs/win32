@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- LdrDllNotification
+- PLDR_DLL_NOTIFICATION_FUNCTION
+api_type: 
+- UserDefined
+api_location: 
 ---
 
 # LdrDllNotification callback function

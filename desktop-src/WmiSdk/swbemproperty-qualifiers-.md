@@ -11,6 +11,17 @@ title: SWbemProperty.Qualifiers\_ property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemProperty.Qualifiers_
+- ISWbemProperty.Qualifiers_
+- ISWbemProperty.get_Qualifiers_
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemProperty.Qualifiers\_ property

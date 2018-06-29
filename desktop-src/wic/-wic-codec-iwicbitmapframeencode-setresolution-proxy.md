@@ -7,6 +7,16 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- IWICBitmapFrameEncode_SetResolution_Proxy
+api_type: 
+- DllExport
+api_location: 
+- Windowscodecs.dll
+- Wincodec.lib
 ---
 
 # IWICBitmapFrameEncode\_SetResolution\_Proxy function

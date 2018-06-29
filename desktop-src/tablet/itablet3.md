@@ -7,6 +7,16 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- ITablet3
+api_type: 
+- COM
+api_location: 
+- wisptis.exe
+- wisptis.exe.dll
 ---
 
 # ITablet3 interface

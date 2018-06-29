@@ -7,6 +7,19 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- D3DXSHMultiply2
+- D3DXSHMultiply3
+- D3DXSHMultiply4
+- D3DXSHMultiply5
+- D3DXSHMultiply6
+api_type: 
+- HeaderDef
+api_location: 
+- d3dx9math.h
 ---
 
 # D3DXSHMultiply2 function

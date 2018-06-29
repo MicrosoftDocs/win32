@@ -13,6 +13,15 @@ title: JoinDomainOrWorkgroup method of the Win32\_ComputerSystem class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_ComputerSystem.JoinDomainOrWorkgroup
+api_type: 
+- COM
+api_location: 
+- CIMWin32.dll
 ---
 
 # JoinDomainOrWorkgroup method of the Win32\_ComputerSystem class

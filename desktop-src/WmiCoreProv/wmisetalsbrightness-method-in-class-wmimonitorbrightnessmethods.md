@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- WmiMonitorBrightnessMethods.WmiSetALSBrightness
+api_type: 
+- COM
+api_location: 
+- WmiProv.dll
 ---
 
 # WmiSetALSBrightness method of the WmiMonitorBrightnessMethods class

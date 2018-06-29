@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_Ps2Mouse.ClickButton
+api_type: 
+- COM
+api_location: 
+- vmms.exe
 ---
 
 # ClickButton method of the Msvm\_Ps2Mouse class

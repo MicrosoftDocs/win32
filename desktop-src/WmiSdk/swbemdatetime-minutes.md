@@ -11,6 +11,18 @@ title: SWbemDateTime.Minutes property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemDateTime.Minutes
+- ISWbemDateTime.Minutes
+- ISWbemDateTime.get_Minutes
+- ISWbemDateTime.put_Minutes
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemDateTime.Minutes property

@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- TRACE_PROVIDER_INSTANCE_INFO
+api_type: 
+- HeaderDef
+api_location: 
+- Evntrace.h
 ---
 
 # TRACE\_PROVIDER\_INSTANCE\_INFO structure

@@ -11,6 +11,18 @@ title: SWbemDateTime.Hours property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemDateTime.Hours
+- ISWbemDateTime.Hours
+- ISWbemDateTime.get_Hours
+- ISWbemDateTime.put_Hours
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemDateTime.Hours property

@@ -11,6 +11,17 @@ title: SWbemObjectPath.Security\_ property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemObjectPath.Security_
+- ISWbemObjectPath.Security_
+- ISWbemObjectPath.get_Security_
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemObjectPath.Security\_ property

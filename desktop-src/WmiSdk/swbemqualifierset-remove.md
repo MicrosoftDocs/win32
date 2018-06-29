@@ -11,6 +11,17 @@ title: SWbemQualifierSet.Remove method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemQualifierSet.Remove
+- ISWbemQualifierSet.Remove
+- ISWbemQualifierSet.Remove
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemQualifierSet.Remove method

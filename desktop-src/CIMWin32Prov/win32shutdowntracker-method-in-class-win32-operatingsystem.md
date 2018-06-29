@@ -13,6 +13,15 @@ title: Win32ShutdownTracker method of the Win32\_OperatingSystem class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_OperatingSystem.Win32ShutdownTracker
+api_type: 
+- COM
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32ShutdownTracker method of the Win32\_OperatingSystem class

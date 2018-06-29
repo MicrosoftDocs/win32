@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- IByteBuffer.SetSize
+api_type: 
+- COM
+api_location: 
+- Scardssp.dll
 ---
 
 # IByteBuffer::SetSize method

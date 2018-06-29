@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- BufferCallback
+api_type: 
+- UserDefined
+api_location: 
+- Evntrace.h
 ---
 
 # PEVENT\_TRACE\_BUFFER\_CALLBACK callback function

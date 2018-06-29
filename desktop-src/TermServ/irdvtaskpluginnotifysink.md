@@ -20,6 +20,7 @@ api_type:
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+api_location: 
 ---
 
 # IRDVTaskPluginNotifySink interface

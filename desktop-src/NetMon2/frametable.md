@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- FRAMETABLE
+api_type: 
+- HeaderDef
+api_location: 
+- Netmon.h
 ---
 
 # FRAMETABLE structure

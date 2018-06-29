@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- IAsyncAction.get_Completed
+api_type: 
+- COM
+api_location: 
+- Windows.Foundation.idl
 ---
 
 # IAsyncAction::get\_Completed method

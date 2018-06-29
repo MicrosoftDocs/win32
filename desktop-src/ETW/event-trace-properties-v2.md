@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- EVENT_TRACE_PROPERTIES_V2
+api_type: 
+- HeaderDef
+api_location: 
+- Evntrace.h
 ---
 
 # EVENT\_TRACE\_PROPERTIES\_V2 structure

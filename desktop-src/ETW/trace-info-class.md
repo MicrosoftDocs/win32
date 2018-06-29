@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- TRACE_INFO_CLASS,
+api_type: 
+- HeaderDef
+api_location: 
+- Evntrace.h
 ---
 
 # TRACE\_INFO\_CLASS enumeration

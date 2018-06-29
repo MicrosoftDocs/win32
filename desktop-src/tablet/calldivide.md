@@ -7,6 +7,16 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CallDivide
+api_type: 
+- LibDef
+api_location: 
+- InkDiv.dll
+- InkDiv.dll.dll
 ---
 
 # CallDivide function

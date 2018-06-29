@@ -11,6 +11,17 @@ title: SWbemObjectSet.Security\_ property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemObjectSet.Security_
+- ISWbemObjectSet.Security_
+- ISWbemObjectSet.get_Security_
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemObjectSet.Security\_ property

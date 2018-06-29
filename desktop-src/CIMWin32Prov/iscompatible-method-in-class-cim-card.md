@@ -13,6 +13,15 @@ title: IsCompatible method of the CIM\_Card class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Card.IsCompatible
+api_type: 
+- COM
+api_location: 
+- CIMWin32.dll
 ---
 
 # IsCompatible method of the CIM\_Card class

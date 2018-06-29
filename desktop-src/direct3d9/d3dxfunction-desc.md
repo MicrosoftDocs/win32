@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- D3DXFUNCTION_DESC
+api_type: 
+- HeaderDef
+api_location: 
+- d3dx9effect.h
 ---
 
 # D3DXFUNCTION\_DESC structure

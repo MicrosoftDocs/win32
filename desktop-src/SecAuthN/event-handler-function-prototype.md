@@ -7,6 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Event_Handler_Function_Name
+api_type: 
+- UserDefined
+api_location: 
 ---
 
 # Event Handler Function Prototype callback function

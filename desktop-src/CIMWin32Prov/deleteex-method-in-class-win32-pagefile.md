@@ -13,6 +13,15 @@ title: DeleteEx method of the Win32\_PageFile class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PageFile.DeleteEx
+api_type: 
+- COM
+api_location: 
+- CIMWin32.dll
 ---
 
 # DeleteEx method of the Win32\_PageFile class

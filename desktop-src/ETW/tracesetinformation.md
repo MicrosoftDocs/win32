@@ -7,6 +7,19 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- TraceSetInformation
+api_type: 
+- DllExport
+api_location: 
+- Sechost.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+- API-MS-Win-Eventing-Controller-l1-1-0.dll
+- KernelBase.dll
 ---
 
 # TraceSetInformation function

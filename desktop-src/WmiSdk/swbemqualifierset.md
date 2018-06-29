@@ -11,6 +11,16 @@ title: SWbemQualifierSet object
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemQualifierSet
+- ISWbemQualifierSet
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemQualifierSet object

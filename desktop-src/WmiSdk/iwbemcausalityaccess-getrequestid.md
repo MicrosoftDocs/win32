@@ -11,6 +11,15 @@ title: IWbemCausalityAccess::GetRequestId method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- IWbemCausalityAccess.GetRequestId
+api_type: 
+- COM
+api_location: 
+- Fastprox.dll
 ---
 
 # IWbemCausalityAccess::GetRequestId method

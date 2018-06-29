@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- WFD_DISPLAY_SINK_NOTIFICATION_CALLBACK
+api_type: 
+- UserDefined
+api_location: 
+- wfdsink.h
 ---
 
 # WFD\_DISPLAY\_SINK\_NOTIFICATION\_CALLBACK callback function

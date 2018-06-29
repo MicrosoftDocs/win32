@@ -13,6 +13,15 @@ title: RenewDHCPLease method of the Win32\_NetworkAdapterConfiguration class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_NetworkAdapterConfiguration.RenewDHCPLease
+api_type: 
+- COM
+api_location: 
+- CIMWin32.dll
 ---
 
 # RenewDHCPLease method of the Win32\_NetworkAdapterConfiguration class

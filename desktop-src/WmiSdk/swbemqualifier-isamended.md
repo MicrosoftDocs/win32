@@ -11,6 +11,17 @@ title: SWbemQualifier.IsAmended property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemQualifier.IsAmended
+- ISWbemQualifier.IsAmended
+- ISWbemQualifier.get_IsAmended
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemQualifier.IsAmended property

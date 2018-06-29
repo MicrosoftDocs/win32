@@ -11,6 +11,16 @@ title: SWbemSecurity.AuthenticationLevel property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemSecurity.AuthenticationLevel
+- ISWbemSecurity.AuthenticationLevel
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemSecurity.AuthenticationLevel property

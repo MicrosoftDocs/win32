@@ -7,6 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- KERB_SMARTCARD_CSP_INFO
+api_type: 
+- NA
+api_location: 
 ---
 
 # KERB\_SMARTCARD\_CSP\_INFO structure

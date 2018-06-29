@@ -11,6 +11,18 @@ title: SWbemDateTime.Day property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemDateTime.Day
+- ISWbemDateTime.Day
+- ISWbemDateTime.get_Day
+- ISWbemDateTime.put_Day
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemDateTime.Day property

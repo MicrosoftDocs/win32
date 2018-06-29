@@ -11,6 +11,17 @@ title: SWbemPropertySet.Item method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemPropertySet.Item
+- ISWbemPropertySet.Item
+- ISWbemPropertySet.Item
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemPropertySet.Item method

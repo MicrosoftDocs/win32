@@ -11,6 +11,17 @@ title: SWbemObjectSet.Count property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemObjectSet.Count
+- ISWbemObjectSet.Count
+- ISWbemObjectSet.get_Count
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemObjectSet.Count property

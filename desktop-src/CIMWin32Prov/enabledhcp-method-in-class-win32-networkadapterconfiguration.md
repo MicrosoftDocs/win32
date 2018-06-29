@@ -13,6 +13,15 @@ title: EnableDHCP method of the Win32\_NetworkAdapterConfiguration class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_NetworkAdapterConfiguration.EnableDHCP
+api_type: 
+- COM
+api_location: 
+- CIMWin32.dll
 ---
 
 # EnableDHCP method of the Win32\_NetworkAdapterConfiguration class

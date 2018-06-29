@@ -11,6 +11,18 @@ title: SWbemPrivilege.Identifier property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemPrivilege.Identifier
+- ISWbemPrivilege.Identifier
+- ISWbemPrivilege.get_Identifier
+- ISWbemPrivilege.put_Identifier
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemPrivilege.Identifier property

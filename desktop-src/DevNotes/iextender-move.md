@@ -7,6 +7,16 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- IExtender.Move
+api_type: 
+- COM
+api_location: 
+- Ole2disp.dll
+- Oleaut32.dll
 ---
 
 # IExtender::Move method

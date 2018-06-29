@@ -13,6 +13,15 @@ title: SetTcpMaxDataRetransmissions method of the Win32\_NetworkAdapterConfigura
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_NetworkAdapterConfiguration.SetTcpMaxDataRetransmissions
+api_type: 
+- COM
+api_location: 
+- CIMWin32.dll
 ---
 
 # SetTcpMaxDataRetransmissions method of the Win32\_NetworkAdapterConfiguration class

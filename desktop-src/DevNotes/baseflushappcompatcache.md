@@ -7,6 +7,18 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- BaseFlushAppcompatCache
+api_type: 
+- DllExport
+api_location: 
+- Kernel32.dll
+- API-MS-Win-Core-appcompat-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-appcompat-l1-1-1.dll
 ---
 
 # BaseFlushAppcompatCache function

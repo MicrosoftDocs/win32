@@ -11,6 +11,17 @@ title: SWbemProperty.Origin property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemProperty.Origin
+- ISWbemProperty.Origin
+- ISWbemProperty.get_Origin
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemProperty.Origin property

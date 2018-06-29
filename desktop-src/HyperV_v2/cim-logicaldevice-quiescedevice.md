@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_LogicalDevice.QuiesceDevice
+api_type: 
+- COM
+api_location: 
+- vmms.exe
 ---
 
 # QuiesceDevice method of the CIM\_LogicalDevice class

@@ -6,6 +6,16 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- EnumMRUListW
+- EnumMRUListW
+api_type: 
+- DllExport
+api_location: 
+- Comctl32.dll
 ---
 
 # EnumMRUListW function

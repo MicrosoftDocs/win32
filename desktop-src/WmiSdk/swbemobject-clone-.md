@@ -11,6 +11,17 @@ title: SWbemObject.Clone\_ method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemObject.Clone_
+- ISWbemObject.Clone_
+- ISWbemObject.Clone_
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemObject.Clone\_ method

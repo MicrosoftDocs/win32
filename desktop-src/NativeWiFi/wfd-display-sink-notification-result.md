@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- WFD_DISPLAY_SINK_NOTIFICATION
+api_type: 
+- HeaderDef
+api_location: 
+- wfdsink.h
 ---
 
 # WFD\_DISPLAY\_SINK\_NOTIFICATION\_RESULT structure

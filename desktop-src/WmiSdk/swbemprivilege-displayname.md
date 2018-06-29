@@ -11,6 +11,17 @@ title: SWbemPrivilege.DisplayName property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemPrivilege.DisplayName
+- ISWbemPrivilege.DisplayName
+- ISWbemPrivilege.get_DisplayName
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemPrivilege.DisplayName property

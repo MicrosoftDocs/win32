@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- LSA_SID_NAME_MAPPING_OPERATION_INPUT
+api_type: 
+- HeaderDef
+api_location: 
+- lsalookupi.h
 ---
 
 # LSA\_SID\_NAME\_MAPPING\_OPERATION\_INPUT structure

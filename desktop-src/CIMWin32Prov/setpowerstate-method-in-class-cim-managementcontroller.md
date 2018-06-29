@@ -13,6 +13,15 @@ title: SetPowerState method of the CIM\_ManagementController class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ManagementController.SetPowerState
+api_type: 
+- COM
+api_location: 
+- CIMWin32.dll
 ---
 
 # SetPowerState method of the CIM\_ManagementController class

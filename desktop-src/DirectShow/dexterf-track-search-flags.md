@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- DEXTERF_TRACK_SEARCH_FLAGS
+api_type: 
+- HeaderDef
+api_location: 
+- Qedit.h
 ---
 
 # DEXTERF\_TRACK\_SEARCH\_FLAGS enumeration

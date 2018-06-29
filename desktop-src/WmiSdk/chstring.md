@@ -11,6 +11,18 @@ title: CHString class
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CHString
+- ??1CHString@@QAE@XZ
+- ??1CHString@@QEAA@XZ
+api_type: 
+- COM
+api_location: 
+- FrameDynOS.dll
+- FrameDyn.dll
 ---
 
 # CHString class

@@ -11,6 +11,17 @@ title: SWbemLastError.GetObjectText\_ method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemLastError.GetObjectText_
+- ISWbemLastError.GetObjectText_
+- ISWbemLastError.GetObjectText_
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemLastError.GetObjectText\_ method

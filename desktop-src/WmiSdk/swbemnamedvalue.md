@@ -11,6 +11,16 @@ title: SWbemNamedValue object
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemNamedValue
+- ISWbemNamedValue
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemNamedValue object

@@ -11,6 +11,17 @@ title: SWbemProperty.IsArray property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemProperty.IsArray
+- ISWbemProperty.IsArray
+- ISWbemProperty.get_IsArray
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemProperty.IsArray property

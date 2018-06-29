@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CreateXamlUIPresenter
+api_type: 
+- DllExport
+api_location: 
+- Windows.UI.Xaml.dll
 ---
 
 # CreateXamlUIPresenter function

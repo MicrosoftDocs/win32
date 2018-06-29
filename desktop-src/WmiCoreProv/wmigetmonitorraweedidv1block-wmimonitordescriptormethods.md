@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- WmiMonitorDescriptorMethods.WmiGetMonitorRawEEdidV1Block
+api_type: 
+- COM
+api_location: 
+- WmiProv.dll
 ---
 
 # WmiGetMonitorRawEEdidV1Block method of the WmiMonitorDescriptorMethods class

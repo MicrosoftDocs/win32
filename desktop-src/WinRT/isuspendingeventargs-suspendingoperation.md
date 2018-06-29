@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- ISuspendingEventArgs.SuspendingOperation
+- ISuspendingEventArgs.get_SuspendingOperation
+- ISuspendingEventArgs.put_SuspendingOperation
+api_type: 
+- COM
+api_location: 
+- Windows.ApplicationModel.h
 ---
 
 # ISuspendingEventArgs::SuspendingOperation property

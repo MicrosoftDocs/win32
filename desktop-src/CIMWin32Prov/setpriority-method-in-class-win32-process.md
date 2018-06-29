@@ -13,6 +13,15 @@ title: SetPriority method of the Win32\_Process class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_Process.SetPriority
+api_type: 
+- COM
+api_location: 
+- CIMWin32.dll
 ---
 
 # SetPriority method of the Win32\_Process class

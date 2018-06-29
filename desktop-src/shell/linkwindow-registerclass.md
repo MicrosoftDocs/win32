@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- LinkWindow_RegisterClass
+api_type: 
+- DllExport
+api_location: 
+- Shell32.dll
 ---
 
 # LinkWindow\_RegisterClass function

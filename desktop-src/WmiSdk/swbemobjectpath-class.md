@@ -11,6 +11,18 @@ title: SWbemObjectPath.Class property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemObjectPath.Class
+- ISWbemObjectPath.Class
+- ISWbemObjectPath.get_Class
+- ISWbemObjectPath.put_Class
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemObjectPath.Class property

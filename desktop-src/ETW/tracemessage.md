@@ -7,6 +7,18 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- TraceMessage
+api_type: 
+- DllExport
+api_location: 
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-eventing-classicprovider-l1-1-0.dll
 ---
 
 # TraceMessage function

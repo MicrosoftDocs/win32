@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- _GetDiskFreeSpaceEx
+api_type: 
+- DllExport
+api_location: 
+- Msmdun80.dll
 ---
 
 # \_GetDiskFreeSpaceEx function

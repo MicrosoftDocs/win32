@@ -11,6 +11,17 @@ title: SWbemObjectPath.ParentNamespace property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemObjectPath.ParentNamespace
+- ISWbemObjectPath.ParentNamespace
+- ISWbemObjectPath.get_ParentNamespace
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemObjectPath.ParentNamespace property

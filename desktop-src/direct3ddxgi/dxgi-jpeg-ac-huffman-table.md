@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- DXGI_JPEG_AC_HUFFMAN_TABLE
+api_type: 
+- HeaderDef
+api_location: 
+- dxgitype.h
 ---
 
 # DXGI\_JPEG\_AC\_HUFFMAN\_TABLE structure

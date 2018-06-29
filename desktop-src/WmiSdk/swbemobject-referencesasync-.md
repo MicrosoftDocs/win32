@@ -11,6 +11,17 @@ title: SWbemObject.ReferencesAsync\_ method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemObject.ReferencesAsync_
+- ISWbemObject.ReferencesAsync_
+- ISWbemObject.ReferencesAsync_
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemObject.ReferencesAsync\_ method

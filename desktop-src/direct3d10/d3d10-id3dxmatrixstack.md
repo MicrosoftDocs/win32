@@ -7,6 +7,16 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- ID3DXMatrixStack
+api_type: 
+- COM
+api_location: 
+- D3DX10.lib
+- D3DX10.dll
 ---
 
 # ID3DXMatrixStack interface

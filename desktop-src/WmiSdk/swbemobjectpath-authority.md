@@ -11,6 +11,18 @@ title: SWbemObjectPath.Authority property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemObjectPath.Authority
+- ISWbemObjectPath.Authority
+- ISWbemObjectPath.get_Authority
+- ISWbemObjectPath.put_Authority
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemObjectPath.Authority property

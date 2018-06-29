@@ -7,6 +7,16 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- IWiaErrorHandler.ReportStatus
+api_type: 
+- COM
+api_location: 
+- Wiaguid.lib
+- Wiaguid.dll
 ---
 
 # IWiaErrorHandler::ReportStatus method

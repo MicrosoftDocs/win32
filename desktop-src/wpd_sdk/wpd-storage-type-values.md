@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- WPD_STORAGE_TYPE_VALUES
+api_type: 
+- HeaderDef
+api_location: 
+- PortableDevice.h
 ---
 
 # WPD\_STORAGE\_TYPE\_VALUES enumeration

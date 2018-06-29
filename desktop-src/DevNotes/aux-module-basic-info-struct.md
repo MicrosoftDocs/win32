@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- AUX_MODULE_BASIC_INFO
+api_type: 
+- HeaderDef
+api_location: 
+- Aux_klib.h
 ---
 
 # AUX\_MODULE\_BASIC\_INFO structure

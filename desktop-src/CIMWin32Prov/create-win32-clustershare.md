@@ -13,6 +13,11 @@ title: Create method of the Win32\_ClusterShare class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- kbSyntax
+api_name: 
+api_type: 
+api_location: 
 ---
 
 # Create method of the Win32\_ClusterShare class

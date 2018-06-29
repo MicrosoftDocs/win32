@@ -11,6 +11,17 @@ title: SWbemServices.ExecQuery method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemServices.ExecQuery
+- ISWbemServices.ExecQuery
+- ISWbemServices.ExecQuery
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemServices.ExecQuery method

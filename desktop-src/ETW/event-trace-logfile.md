@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- EVENT_TRACE_LOGFILE
+- EVENT_TRACE_LOGFILEA
+- EVENT_TRACE_LOGFILEW
+api_type: 
+- HeaderDef
+api_location: 
+- Evntrace.h
 ---
 
 # EVENT\_TRACE\_LOGFILE structure

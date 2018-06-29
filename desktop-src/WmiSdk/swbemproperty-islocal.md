@@ -11,6 +11,17 @@ title: SWbemProperty.IsLocal property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemProperty.IsLocal
+- ISWbemProperty.IsLocal
+- ISWbemProperty.get_IsLocal
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemProperty.IsLocal property

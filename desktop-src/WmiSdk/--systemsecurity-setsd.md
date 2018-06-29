@@ -11,6 +11,15 @@ title: SetSD method of the \_\_SystemSecurity class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- __SystemSecurity.SetSD
+api_type: 
+- COM
+api_location: 
+- All
 ---
 
 # SetSD method of the \_\_SystemSecurity class

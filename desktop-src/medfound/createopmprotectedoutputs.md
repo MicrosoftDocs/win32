@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CreateOPMProtectedOutputs
+api_type: 
+- DllExport
+api_location: 
+- gdi32.dll
 ---
 
 # CreateOPMProtectedOutputs function

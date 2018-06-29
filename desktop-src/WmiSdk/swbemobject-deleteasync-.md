@@ -11,6 +11,17 @@ title: SWbemObject.DeleteAsync\_ method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemObject.DeleteAsync_
+- ISWbemObject.DeleteAsync_
+- ISWbemObject.DeleteAsync_
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemObject.DeleteAsync\_ method

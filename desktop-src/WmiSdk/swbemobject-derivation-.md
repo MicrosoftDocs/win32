@@ -11,6 +11,17 @@ title: SWbemObject.Derivation\_ property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemObject.Derivation_
+- ISWbemObject.Derivation_
+- ISWbemObject.get_Derivation_
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemObject.Derivation\_ property

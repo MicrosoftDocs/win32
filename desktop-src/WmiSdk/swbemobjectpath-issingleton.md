@@ -11,6 +11,17 @@ title: SWbemObjectPath.IsSingleton property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemObjectPath.IsSingleton
+- ISWbemObjectPath.IsSingleton
+- ISWbemObjectPath.get_IsSingleton
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemObjectPath.IsSingleton property

@@ -7,6 +7,25 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- AddLocalAlternateComputerName
+- AddLocalAlternateComputerNameA
+- AddLocalAlternateComputerNameW
+api_type: 
+- DllExport
+api_location: 
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 ---
 
 # AddLocalAlternateComputerName function

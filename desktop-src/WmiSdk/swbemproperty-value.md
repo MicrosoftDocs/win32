@@ -11,6 +11,18 @@ title: SWbemProperty.Value property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemProperty.Value
+- ISWbemProperty.Value
+- ISWbemProperty.get_Value
+- ISWbemProperty.put_Value
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemProperty.Value property

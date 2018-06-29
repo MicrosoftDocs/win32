@@ -11,6 +11,16 @@ title: WBEMTime class
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- WBEMTime
+api_type: 
+- COM
+api_location: 
+- FrameDynOS.dll
+- FrameDyn.dll
 ---
 
 # WBEMTime class

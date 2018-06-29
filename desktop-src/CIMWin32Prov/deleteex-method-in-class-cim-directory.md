@@ -13,6 +13,15 @@ title: DeleteEx method of the CIM\_Directory class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Directory.DeleteEx
+api_type: 
+- COM
+api_location: 
+- CIMWin32.dll
 ---
 
 # DeleteEx method of the CIM\_Directory class

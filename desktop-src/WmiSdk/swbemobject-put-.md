@@ -11,6 +11,17 @@ title: SWbemObject.Put\_ method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemObject.Put_
+- ISWbemObject.Put_
+- ISWbemObject.Put_
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemObject.Put\_ method

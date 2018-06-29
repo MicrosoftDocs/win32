@@ -13,6 +13,15 @@ title: GetEffectivePermission method of the Win32\_PageFile class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PageFile.GetEffectivePermission
+api_type: 
+- COM
+api_location: 
+- CIMWin32.dll
 ---
 
 # GetEffectivePermission method of the Win32\_PageFile class

@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- D3DLOCKED_RECT
+api_type: 
+- HeaderDef
+api_location: 
+- D3D9Types.h
 ---
 
 # D3DLOCKED\_RECT structure

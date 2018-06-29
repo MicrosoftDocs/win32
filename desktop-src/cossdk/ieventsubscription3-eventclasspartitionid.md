@@ -7,6 +7,16 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- IEventSubscription3.EventClassPartitionID
+- IEventSubscription3.get_EventClassPartitionID
+- IEventSubscription3.put_EventClassPartitionID
+api_type: 
+- COM
+api_location: 
 ---
 
 # IEventSubscription3::EventClassPartitionID property

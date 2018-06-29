@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- ISuspendingOperation.Deadline
+- ISuspendingOperation.get_Deadline
+- ISuspendingOperation.put_Deadline
+api_type: 
+- COM
+api_location: 
+- Windows.ApplicationModel.h
 ---
 
 # ISuspendingOperation::Deadline property

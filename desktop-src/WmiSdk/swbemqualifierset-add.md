@@ -11,6 +11,17 @@ title: SWbemQualifierSet.Add method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemQualifierSet.Add
+- ISWbemQualifierSet.Add
+- ISWbemQualifierSet.Add
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemQualifierSet.Add method

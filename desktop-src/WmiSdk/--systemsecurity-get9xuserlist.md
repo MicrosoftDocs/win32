@@ -11,6 +11,15 @@ title: '\_\_SystemSecurity::Get9XUserList method'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- __SystemSecurity.Get9XUserList
+api_type: 
+- COM
+api_location: 
+- all
 ---
 
 # \_\_SystemSecurity::Get9XUserList method

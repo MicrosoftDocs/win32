@@ -13,6 +13,15 @@ title: SetTcpUseRFC1122UrgentPointer method of the Win32\_NetworkAdapterConfigur
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_NetworkAdapterConfiguration.SetTcpUseRFC1122UrgentPointer
+api_type: 
+- COM
+api_location: 
+- CIMWin32.dll
 ---
 
 # SetTcpUseRFC1122UrgentPointer method of the Win32\_NetworkAdapterConfiguration class

@@ -11,6 +11,18 @@ title: SWbemQualifier.PropagatesToInstance property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemQualifier.PropagatesToInstance
+- ISWbemQualifier.PropagatesToInstance
+- ISWbemQualifier.get_PropagatesToInstance
+- ISWbemQualifier.put_PropagatesToInstance
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemQualifier.PropagatesToInstance property

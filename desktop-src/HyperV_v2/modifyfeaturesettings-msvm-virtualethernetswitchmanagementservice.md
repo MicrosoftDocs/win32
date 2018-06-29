@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualEthernetSwitchManagementService.ModifyFeatureSettings
+api_type: 
+- COM
+api_location: 
+- vmms.exe
 ---
 
 # ModifyFeatureSettings method of the Msvm\_VirtualEthernetSwitchManagementService class

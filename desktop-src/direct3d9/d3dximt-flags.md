@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- D3DXIMT
+api_type: 
+- HeaderDef
+api_location: 
+- d3dx9mesh.h
 ---
 
 # D3DXIMT FLAGS enumeration

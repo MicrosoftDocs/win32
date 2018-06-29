@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- KSMULTIPLE_ITEM
+api_type: 
+- HeaderDef
+api_location: 
+- ks.h
 ---
 
 # KSMULTIPLE\_ITEM structure

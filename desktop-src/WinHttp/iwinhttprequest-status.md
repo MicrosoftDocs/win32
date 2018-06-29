@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- IWinHttpRequest.Status
+- IWinHttpRequest.get_Status
+- WinHttpRequest.Status
+api_type: 
+- COM
+api_location: 
+- Winhttp.dll
 ---
 
 # IWinHttpRequest::Status property

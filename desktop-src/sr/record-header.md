@@ -16,6 +16,7 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+api_location: 
 ---
 
 # RECORD\_HEADER structure

@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualSystemMigrationService.RemoveNetworkSettings
+api_type: 
+- COM
+api_location: 
+- vmms.exe
 ---
 
 # RemoveNetworkSettings method of the Msvm\_VirtualSystemMigrationService class

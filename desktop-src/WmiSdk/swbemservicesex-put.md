@@ -11,6 +11,17 @@ title: SWbemServicesEx.Put method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemServicesEx.Put
+- ISWbemServicesEx.Put
+- ISWbemServicesEx.Put
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemServicesEx.Put method

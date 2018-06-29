@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- WLDP_WINDOWS_LOCKDOWN_MODE
+api_type: 
+- HeaderDef
+api_location: 
+- wldp.h
 ---
 
 # WLDP\_WINDOWS\_LOCKDOWN\_MODE enumeration

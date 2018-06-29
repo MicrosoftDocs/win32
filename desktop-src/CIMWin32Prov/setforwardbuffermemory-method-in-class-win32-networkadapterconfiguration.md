@@ -13,6 +13,15 @@ title: SetForwardBufferMemory method of the Win32\_NetworkAdapterConfiguration c
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_NetworkAdapterConfiguration.SetForwardBufferMemory
+api_type: 
+- COM
+api_location: 
+- CIMWin32.dll
 ---
 
 # SetForwardBufferMemory method of the Win32\_NetworkAdapterConfiguration class

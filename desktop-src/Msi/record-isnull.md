@@ -7,6 +7,16 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Record.IsNull
+- IRecord000C1093-0000-0000-C000-000000000046.get_IsNull
+api_type: 
+- COM
+api_location: 
+- Msi.dll
 ---
 
 # Record.IsNull property

@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- NtGdiD3DDrawPrimitives2
+api_type: 
+- HeaderDef
+api_location: 
+- Ntgdi.h
 ---
 
 # NtGdiD3DDrawPrimitives2 function

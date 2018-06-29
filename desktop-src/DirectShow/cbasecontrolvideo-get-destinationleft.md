@@ -7,6 +7,18 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CBaseControlVideo.get_DestinationLeft
+api_type: 
+- COM
+api_location: 
+- Strmbase.lib
+- Strmbase.dll
+- Strmbasd.lib
+- Strmbasd.dll
 ---
 
 # CBaseControlVideo.get\_DestinationLeft method

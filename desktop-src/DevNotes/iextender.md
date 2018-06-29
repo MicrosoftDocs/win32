@@ -7,6 +7,48 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- IExtender
+- IExtender.Align
+- IExtender.get_Align
+- IExtender.put_Align
+- IExtender.Enabled
+- IExtender.get_Enabled
+- IExtender.put_Enabled
+- IExtender.Height
+- IExtender.get_Height
+- IExtender.put_Height
+- IExtender.Left
+- IExtender.get_Left
+- IExtender.put_Left
+- IExtender.TabStop
+- IExtender.get_TabStop
+- IExtender.put_TabStop
+- IExtender.Top
+- IExtender.get_Top
+- IExtender.put_Top
+- IExtender.Visible
+- IExtender.get_Visible
+- IExtender.put_Visible
+- IExtender.Width
+- IExtender.get_Width
+- IExtender.put_Width
+- IExtender.Name
+- IExtender.get_Name
+- IExtender.Parent
+- IExtender.get_Parent
+- IExtender.Hwnd
+- IExtender.get_Hwnd
+- IExtender.Container
+- IExtender.get_Container
+api_type: 
+- COM
+api_location: 
+- Ole2disp.dll
+- Oleaut32.dll
 ---
 
 # IExtender interface

@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- IWiaDevMgr2.RegisterEventCallbackInterface
+api_type: 
+- COM
+api_location: 
+- Wia.h
 ---
 
 # IWiaDevMgr2::RegisterEventCallbackInterface method

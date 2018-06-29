@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- D3DXMESHDATATYPE
+api_type: 
+- HeaderDef
+api_location: 
+- d3dx9anim.h
 ---
 
 # D3DXMESHDATATYPE enumeration

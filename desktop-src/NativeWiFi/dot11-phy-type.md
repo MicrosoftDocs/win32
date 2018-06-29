@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- DOT11_PHY_TYPE
+api_type: 
+- HeaderDef
+api_location: 
+- windot11.h
 ---
 
 # DOT11\_PHY\_TYPE enumeration

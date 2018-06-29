@@ -7,6 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SCSI_PASS_THROUGH_DIRECT_WITH_AUXILIARY
+api_type: 
+- NA
+api_location: 
 ---
 
 # SCSI\_PASS\_THROUGH\_DIRECT\_WITH\_AUXILIARY structure

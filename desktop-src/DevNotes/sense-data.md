@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SENSE_DATA
+api_type: 
+- HeaderDef
+api_location: 
+- Scsi.h
 ---
 
 # SENSE\_DATA structure

@@ -7,6 +7,18 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- __C_specific_handler
+- __C_specific_handler
+api_type: 
+- DllExport
+api_location: 
+- ntoskrnl.exe
+- NTDll.dll
+- wpdupfltr.sys
 ---
 
 # \_\_C\_specific\_handler function

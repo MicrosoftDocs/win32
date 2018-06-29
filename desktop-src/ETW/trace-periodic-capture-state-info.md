@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- TRACE_PERIODIC_CAPTURE_STATE_INFO
+api_type: 
+- HeaderDef
+api_location: 
+- Evntrace.h
 ---
 
 # TRACE\_PERIODIC\_CAPTURE\_STATE\_INFO structure

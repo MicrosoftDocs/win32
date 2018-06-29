@@ -7,6 +7,16 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- ConfigurableItem.Context
+- IMsmConfigurableItem.get_Context
+api_type: 
+- COM
+api_location: 
+- Mergemod.dll
 ---
 
 # ConfigurableItem.Context property

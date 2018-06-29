@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- MF_MSE_ERROR
+api_type: 
+- HeaderDef
+api_location: 
+- mfmediaengine.h
 ---
 
 # MF\_MSE\_ERROR enumeration

@@ -11,6 +11,17 @@ title: SWbemObjectEx.Refresh\_ method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemObjectEx.Refresh_
+- ISWbemObjectEx.Refresh_
+- ISWbemObjectEx.Refresh_
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemObjectEx.Refresh\_ method

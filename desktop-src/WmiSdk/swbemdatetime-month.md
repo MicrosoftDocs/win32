@@ -11,6 +11,18 @@ title: SWbemDateTime.Month property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SWbemDateTime.Month
+- ISWbemDateTime.Month
+- ISWbemDateTime.get_Month
+- ISWbemDateTime.put_Month
+api_type: 
+- COM
+api_location: 
+- Wbemdisp.dll
 ---
 
 # SWbemDateTime.Month property

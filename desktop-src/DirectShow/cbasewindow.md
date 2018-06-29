@@ -7,6 +7,18 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CBaseWindow
+api_type: 
+- COM
+api_location: 
+- Strmbase.lib
+- Strmbase.dll
+- Strmbasd.lib
+- Strmbasd.dll
 ---
 
 # CBaseWindow class

@@ -7,6 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- TABLET_CONTEXT_SETTINGS
+api_type: 
+- NA
+api_location: 
 ---
 
 # TABLET\_CONTEXT\_SETTINGS structure

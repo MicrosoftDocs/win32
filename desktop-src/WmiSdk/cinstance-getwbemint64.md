@@ -11,6 +11,15 @@ title: CInstance::GetWBEMINT64 methods
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+api_type: 
+- DllExport
+api_location: 
+- FrameDynOS.dll
+- FrameDyn.dll
 ---
 
 # CInstance::GetWBEMINT64 methods

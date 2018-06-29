@@ -13,6 +13,15 @@ title: Enable method of the Win32\_PnPEntity class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PnPEntity.Enable
+api_type: 
+- COM
+api_location: 
+- CIMWin32.dll
 ---
 
 # Enable method of the Win32\_PnPEntity class

@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- DOT11_AUTH_CIPHER_PAIR
+api_type: 
+- HeaderDef
+api_location: 
+- wlantypes.h
 ---
 
 # DOT11\_AUTH\_CIPHER\_PAIR structure

@@ -13,6 +13,15 @@ title: Reset method of the CIM\_Fan class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Fan.Reset
+api_type: 
+- COM
+api_location: 
+- CIMWin32.dll
 ---
 
 # Reset method of the CIM\_Fan class

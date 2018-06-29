@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- D3DDEVINFO_D3D9INTERFACETIMINGS
+api_type: 
+- HeaderDef
+api_location: 
+- D3D9Types.h
 ---
 
 # D3DDEVINFO\_D3D9INTERFACETIMINGS structure

@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- ETW_TRACE_PARTITION_INFORMATION
+api_type: 
+- HeaderDef
+api_location: 
+- evntrace.h
 ---
 
 # ETW\_TRACE\_PARTITION\_INFORMATION structure

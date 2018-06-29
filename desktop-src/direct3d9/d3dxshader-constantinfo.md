@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- D3DXSHADER_CONSTANTINFO
+api_type: 
+- HeaderDef
+api_location: 
+- d3dx9shader.h
 ---
 
 # D3DXSHADER\_CONSTANTINFO structure
