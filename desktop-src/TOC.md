@@ -135,6 +135,7 @@
 #####[HTTP Server API](http/http-api-start-page.md)
 #####[IP Helper](iphlp/ip-helper-start-page.md)
 #####[Message Queuing](https://msdn.microsoft.com/en-us/library/ms711472(v=vs.85).aspx)
+#####[Network interfaces](network-interfaces.md)
 #####[Network List Manager](nla/portal.md)
 #####[Network Management](netmgmt/network-management.md)
 #####[Network Share Management](netshare/network-share-management.md)
@@ -147,7 +148,6 @@
 #####[WebSocket Protocol Component API](websock/web-socket-protocol-component-api-portal.md)
 #####[Windows Filtering Platform](fwp/windows-filtering-platform-start-page.md)
 #####[Windows Networking](wnet/windows-networking-wnet-.md)
-#####feedsapi
 #####[Windows Sockets 2](winsock/windows-sockets-start-page-2.md)
 #####[Wireless Networking](wireless-networking.md)
 ######[Bluetooth](bluetooth/bluetooth-start-page.md)
