@@ -95,6 +95,8 @@ The suspend message is WM\_POWERBROADCAST with wParam=PBT\_APMSUSPEND; this mess
 
 The resume message is WM\_POWERBROADCAST with wParam=PBT\_APMRESUME; this message is broadcast concurrently to all opted in processes after a resume. Relative time of delivery to the system exit from connected standby is not guaranteed.
 
+For camera related applications, when power state transition is taking place, during the suspension notification, applications must release all references to the camera (all capture pipeline objects must be shutdown and disposed of).  To avoid possible battery drain, on Windows 10 RS3+ systems Windows Camera Frame Server service will close all capture sessions if the application does not handle the suspension notification properly.  The side effect of this is that when the system comes out of standby or S3/S4 state, the application’s capture pipeline is no longer in a working state.
+
 ## Tests
 
 Test your software across connected standby transitions.
