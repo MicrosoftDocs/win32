@@ -51,7 +51,7 @@
 ##### [Retrieving Time and Date Information](retrieving-time-and-date-information.md)
 ##### [Era Handling for the Japanese Calendar](era-handling-for-the-japanese-calendar.md)
 ##### [Using Persistent Locale Data](using-persistent-locale-data.md)
-##### [Using Pseudo-Locales for Localization Testing](using-pseudo-locales-for-localization-testing.md)
+##### [Using pseudo-locales for localizability testing](using-pseudo-locales-for-localization-testing.md)
 ##### [Using Unicode Normalization to Represent Strings](using-unicode-normalization-to-represent-strings.md)
 ##### [Working with Custom Locales](working-with-custom-locales.md)
 ##### [NLS: Internationalized Domain Name (IDN) Conversion Sample](nls--internationalized-domain-name--idn--conversion-sample.md)
