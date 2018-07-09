@@ -6,7 +6,7 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
-ms.date: 05/31/2018
+ms.date: 07/09/2018
 topic_type: 
 - APIRef
 - kbSyntax
@@ -48,6 +48,13 @@ typedef struct EVENT_TRACE_PROPERTIES_V2 {
   ULONG                    VersionNumber;
   PEVENT_FILTER_DESCRIPTOR FilterDesc;
   ULONG                    FilterDescCount;
+  union {
+    struct {
+      ULONG Wow : 1;
+      ULONG QpcDeltaTracking : 1;
+    }
+    ULONG V2Options;
+  };
 } EVENT_TRACE_PROPERTIES_V2, *PEVENT_TRACE_PROPERTIES_V2;
 ```
 
@@ -450,7 +457,20 @@ This is only applicable to Private Loggers. The only time this should not be nul
 
 The number of filters that the **FilterDesc** points to. The only time this should not be zero is for system wide Private Loggers.
 
+</dd> <dt>
+
+**V2Options**
+</dt> <dd>
+
+An extended set of configuration options:
+
+**Wow**: Marks whether or not this logger was created by a Wow64 process. This should never be set on input as it is reserved for internal use.
+
+**QpcDeltaTracking**: When set, this turns on QPC Delta Tracking events for use in Container scenarios. When a Container's QPC clock is not synchronized with the QPC clock of its host, this feature will insert QPC Delta events into the trace to allow the parsing engine to correlate a Container's trace with traces from the host. This is supported beginning in the next major release of Windows 10. 
+
 </dd> </dl>
+
+
 
 ## Remarks
 
