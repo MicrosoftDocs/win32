@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- PWM_PIN_IS_STARTED_OUTPUT
+api_type: 
+- HeaderDef
+api_location: 
+- Pwm.h
 ---
 
 # PWM\_PIN\_IS\_STARTED\_OUTPUT structure

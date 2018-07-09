@@ -7,6 +7,87 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Microsoft.Interop.Security.AzRoles.IAzRole
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.AddAppMember
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.AddMember
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.AddMemberName
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.AddOperation
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.AddPropertyItem
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.AddTask
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.DeleteAppMember
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.DeleteMember
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.DeleteMemberName
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.DeleteOperation
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.DeletePropertyItem
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.DeleteTask
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.GetProperty
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.SetProperty
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.Submit
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.ApplicationData
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.get_ApplicationData
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.set_ApplicationData
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.AppMembers
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.get_AppMembers
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.Description
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.get_Description
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.set_Description
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.Members
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.get_Members
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.MembersName
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.get_MembersName
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.Name
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.get_Name
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.set_Name
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.Operations
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.get_Operations
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.Tasks
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.get_Tasks
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.Writable
+- Microsoft.Interop.Security.AzRoles.IAzRole.Microsoft.Interop.Security.Azroles.IAzRole.get_Writable
+- Microsoft.Interop.Security.Azroles.IAzRole.ApplicationData
+- Microsoft.Interop.Security.Azroles.IAzRole.get_ApplicationData
+- Microsoft.Interop.Security.Azroles.IAzRole.set_ApplicationData
+- Microsoft.Interop.Security.Azroles.IAzRole.AppMembers
+- Microsoft.Interop.Security.Azroles.IAzRole.get_AppMembers
+- Microsoft.Interop.Security.Azroles.IAzRole.Description
+- Microsoft.Interop.Security.Azroles.IAzRole.get_Description
+- Microsoft.Interop.Security.Azroles.IAzRole.set_Description
+- Microsoft.Interop.Security.Azroles.IAzRole.Members
+- Microsoft.Interop.Security.Azroles.IAzRole.get_Members
+- Microsoft.Interop.Security.Azroles.IAzRole.MembersName
+- Microsoft.Interop.Security.Azroles.IAzRole.get_MembersName
+- Microsoft.Interop.Security.Azroles.IAzRole.Name
+- Microsoft.Interop.Security.Azroles.IAzRole.get_Name
+- Microsoft.Interop.Security.Azroles.IAzRole.set_Name
+- Microsoft.Interop.Security.Azroles.IAzRole.Operations
+- Microsoft.Interop.Security.Azroles.IAzRole.get_Operations
+- Microsoft.Interop.Security.Azroles.IAzRole.Tasks
+- Microsoft.Interop.Security.Azroles.IAzRole.get_Tasks
+- Microsoft.Interop.Security.Azroles.IAzRole.Writable
+- Microsoft.Interop.Security.Azroles.IAzRole.get_Writable
+- Microsoft.Interop.Security.Azroles.IAzRole.AddAppMember
+- Microsoft.Interop.Security.Azroles.IAzRole.AddMember
+- Microsoft.Interop.Security.Azroles.IAzRole.AddMemberName
+- Microsoft.Interop.Security.Azroles.IAzRole.AddOperation
+- Microsoft.Interop.Security.Azroles.IAzRole.AddPropertyItem
+- Microsoft.Interop.Security.Azroles.IAzRole.AddTask
+- Microsoft.Interop.Security.Azroles.IAzRole.DeleteAppMember
+- Microsoft.Interop.Security.Azroles.IAzRole.DeleteMember
+- Microsoft.Interop.Security.Azroles.IAzRole.DeleteMemberName
+- Microsoft.Interop.Security.Azroles.IAzRole.DeleteOperation
+- Microsoft.Interop.Security.Azroles.IAzRole.DeletePropertyItem
+- Microsoft.Interop.Security.Azroles.IAzRole.DeleteTask
+- Microsoft.Interop.Security.Azroles.IAzRole.GetProperty
+- Microsoft.Interop.Security.Azroles.IAzRole.SetProperty
+- Microsoft.Interop.Security.Azroles.IAzRole.Submit
+api_type: 
+- COM
+api_location: 
+- Microsoft.Interop.Security.Azroles.dll
 ---
 
 # Microsoft.Interop.Security.AzRoles.IAzRole interface

@@ -7,6 +7,16 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CRYPTUI_SELECTCERTIFICATE_STRUCT
+- CRYPTUI_SELECTCERTIFICATE_STRUCTA
+- CRYPTUI_SELECTCERTIFICATE_STRUCTW
+api_type: 
+- NA
+api_location: 
 ---
 
 # CRYPTUI\_SELECTCERTIFICATE\_STRUCT structure

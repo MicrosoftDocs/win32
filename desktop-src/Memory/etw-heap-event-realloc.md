@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- ETW_HEAP_EVENT_REALLOC
+api_type: 
+- HeaderDef
+api_location: 
+- ntwmi.h
 ---
 
 # ETW\_HEAP\_EVENT\_REALLOC event

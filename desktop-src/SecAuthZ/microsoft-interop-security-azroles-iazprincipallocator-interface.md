@@ -7,6 +7,19 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Microsoft.Interop.Security.AzRoles.IAzPrincipalLocator
+- Microsoft.Interop.Security.AzRoles.IAzPrincipalLocator.Microsoft.Interop.Security.Azroles.IAzNameResolver.NameFromSid
+- Microsoft.Interop.Security.AzRoles.IAzPrincipalLocator.Microsoft.Interop.Security.Azroles.IAzNameResolver.NamesFromSids
+- Microsoft.Interop.Security.Azroles.IAzNameResolver.NameFromSid
+- Microsoft.Interop.Security.Azroles.IAzNameResolver.NamesFromSids
+api_type: 
+- COM
+api_location: 
+- Microsoft.Interop.Security.Azroles.dll
 ---
 
 # Microsoft.Interop.Security.AzRoles.IAzPrincipalLocator interface

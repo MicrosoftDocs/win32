@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Certificate.ExtendedKeyUsage
+- ICertificate2.ExtendedKeyUsage
+- ICertificate.ExtendedKeyUsage
+api_type: 
+- COM
+api_location: 
+- Capicom.dll
 ---
 
 # ICertificate2::ExtendedKeyUsage method

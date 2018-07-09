@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CFG_CALL_TARGET_INFO
+api_type: 
+- HeaderDef
+api_location: 
+- ntmmapi.h
 ---
 
 # CFG\_CALL\_TARGET\_INFO structure

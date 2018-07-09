@@ -7,6 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CryptUIDlgSelectCertificate
+- CryptUIDlgSelectCertificateA
+- CryptUIDlgSelectCertificateW
+api_type: 
+- DllExport
+api_location: 
+- Cryptui.dll
+- Ext-MS-Win-security-cryptui-l1-1-0.dll
+- ext-ms-win-security-cryptui-l1-1-1.dll
+- CertCredProviderOneCore.dll
 ---
 
 # CryptUIDlgSelectCertificate function

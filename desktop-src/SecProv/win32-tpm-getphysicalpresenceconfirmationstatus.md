@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_Tpm.GetPhysicalPresenceConfirmationStatus
+api_type: 
+- COM
+api_location: 
+- Win32_tpm.dll
 ---
 
 # Win32\_Tpm::GetPhysicalPresenceConfirmationStatus method

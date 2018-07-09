@@ -7,6 +7,87 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Microsoft.Interop.Security.AzRoles.IAzTask
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.AddOperation
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.AddPropertyItem
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.AddTask
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.DeleteOperation
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.DeletePropertyItem
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.DeleteTask
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.GetProperty
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.SetProperty
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.Submit
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.ApplicationData
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.get_ApplicationData
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.set_ApplicationData
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.BizRule
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.get_BizRule
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.set_BizRule
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.BizRuleImportedPath
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.get_BizRuleImportedPath
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.set_BizRuleImportedPath
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.BizRuleLanguage
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.get_BizRuleLanguage
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.set_BizRuleLanguage
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.Description
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.get_Description
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.set_Description
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.IsRoleDefinition
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.get_IsRoleDefinition
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.set_IsRoleDefinition
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.Name
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.get_Name
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.set_Name
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.Operations
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.get_Operations
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.Tasks
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.get_Tasks
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.Writable
+- Microsoft.Interop.Security.AzRoles.IAzTask.Microsoft.Interop.Security.Azroles.IAzTask.get_Writable
+- Microsoft.Interop.Security.Azroles.IAzTask.ApplicationData
+- Microsoft.Interop.Security.Azroles.IAzTask.get_ApplicationData
+- Microsoft.Interop.Security.Azroles.IAzTask.set_ApplicationData
+- Microsoft.Interop.Security.Azroles.IAzTask.BizRule
+- Microsoft.Interop.Security.Azroles.IAzTask.get_BizRule
+- Microsoft.Interop.Security.Azroles.IAzTask.set_BizRule
+- Microsoft.Interop.Security.Azroles.IAzTask.BizRuleImportedPath
+- Microsoft.Interop.Security.Azroles.IAzTask.get_BizRuleImportedPath
+- Microsoft.Interop.Security.Azroles.IAzTask.set_BizRuleImportedPath
+- Microsoft.Interop.Security.Azroles.IAzTask.BizRuleLanguage
+- Microsoft.Interop.Security.Azroles.IAzTask.get_BizRuleLanguage
+- Microsoft.Interop.Security.Azroles.IAzTask.set_BizRuleLanguage
+- Microsoft.Interop.Security.Azroles.IAzTask.Description
+- Microsoft.Interop.Security.Azroles.IAzTask.get_Description
+- Microsoft.Interop.Security.Azroles.IAzTask.set_Description
+- Microsoft.Interop.Security.Azroles.IAzTask.IsRoleDefinition
+- Microsoft.Interop.Security.Azroles.IAzTask.get_IsRoleDefinition
+- Microsoft.Interop.Security.Azroles.IAzTask.set_IsRoleDefinition
+- Microsoft.Interop.Security.Azroles.IAzTask.Name
+- Microsoft.Interop.Security.Azroles.IAzTask.get_Name
+- Microsoft.Interop.Security.Azroles.IAzTask.set_Name
+- Microsoft.Interop.Security.Azroles.IAzTask.Operations
+- Microsoft.Interop.Security.Azroles.IAzTask.get_Operations
+- Microsoft.Interop.Security.Azroles.IAzTask.Tasks
+- Microsoft.Interop.Security.Azroles.IAzTask.get_Tasks
+- Microsoft.Interop.Security.Azroles.IAzTask.Writable
+- Microsoft.Interop.Security.Azroles.IAzTask.get_Writable
+- Microsoft.Interop.Security.Azroles.IAzTask.AddOperation
+- Microsoft.Interop.Security.Azroles.IAzTask.AddPropertyItem
+- Microsoft.Interop.Security.Azroles.IAzTask.AddTask
+- Microsoft.Interop.Security.Azroles.IAzTask.DeleteOperation
+- Microsoft.Interop.Security.Azroles.IAzTask.DeletePropertyItem
+- Microsoft.Interop.Security.Azroles.IAzTask.DeleteTask
+- Microsoft.Interop.Security.Azroles.IAzTask.GetProperty
+- Microsoft.Interop.Security.Azroles.IAzTask.SetProperty
+- Microsoft.Interop.Security.Azroles.IAzTask.Submit
+api_type: 
+- COM
+api_location: 
+- Microsoft.Interop.Security.Azroles.dll
 ---
 
 # Microsoft.Interop.Security.AzRoles.IAzTask interface

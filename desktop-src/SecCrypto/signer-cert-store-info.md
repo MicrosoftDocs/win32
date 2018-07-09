@@ -7,6 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SIGNER_CERT_STORE_INFO
+api_type: 
+- NA
+api_location: 
 ---
 
 # SIGNER\_CERT\_STORE\_INFO structure

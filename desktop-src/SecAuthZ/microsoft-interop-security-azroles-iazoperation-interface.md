@@ -7,6 +7,49 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Microsoft.Interop.Security.AzRoles.IAzOperation
+- Microsoft.Interop.Security.AzRoles.IAzOperation.Microsoft.Interop.Security.Azroles.IAzOperation.GetProperty
+- Microsoft.Interop.Security.AzRoles.IAzOperation.Microsoft.Interop.Security.Azroles.IAzOperation.SetProperty
+- Microsoft.Interop.Security.AzRoles.IAzOperation.Microsoft.Interop.Security.Azroles.IAzOperation.Submit
+- Microsoft.Interop.Security.AzRoles.IAzOperation.Microsoft.Interop.Security.Azroles.IAzOperation.ApplicationData
+- Microsoft.Interop.Security.AzRoles.IAzOperation.Microsoft.Interop.Security.Azroles.IAzOperation.get_ApplicationData
+- Microsoft.Interop.Security.AzRoles.IAzOperation.Microsoft.Interop.Security.Azroles.IAzOperation.set_ApplicationData
+- Microsoft.Interop.Security.AzRoles.IAzOperation.Microsoft.Interop.Security.Azroles.IAzOperation.Description
+- Microsoft.Interop.Security.AzRoles.IAzOperation.Microsoft.Interop.Security.Azroles.IAzOperation.get_Description
+- Microsoft.Interop.Security.AzRoles.IAzOperation.Microsoft.Interop.Security.Azroles.IAzOperation.set_Description
+- Microsoft.Interop.Security.AzRoles.IAzOperation.Microsoft.Interop.Security.Azroles.IAzOperation.Name
+- Microsoft.Interop.Security.AzRoles.IAzOperation.Microsoft.Interop.Security.Azroles.IAzOperation.get_Name
+- Microsoft.Interop.Security.AzRoles.IAzOperation.Microsoft.Interop.Security.Azroles.IAzOperation.set_Name
+- Microsoft.Interop.Security.AzRoles.IAzOperation.Microsoft.Interop.Security.Azroles.IAzOperation.OperationID
+- Microsoft.Interop.Security.AzRoles.IAzOperation.Microsoft.Interop.Security.Azroles.IAzOperation.get_OperationID
+- Microsoft.Interop.Security.AzRoles.IAzOperation.Microsoft.Interop.Security.Azroles.IAzOperation.set_OperationID
+- Microsoft.Interop.Security.AzRoles.IAzOperation.Microsoft.Interop.Security.Azroles.IAzOperation.Writable
+- Microsoft.Interop.Security.AzRoles.IAzOperation.Microsoft.Interop.Security.Azroles.IAzOperation.get_Writable
+- Microsoft.Interop.Security.Azroles.IAzOperation.ApplicationData
+- Microsoft.Interop.Security.Azroles.IAzOperation.get_ApplicationData
+- Microsoft.Interop.Security.Azroles.IAzOperation.set_ApplicationData
+- Microsoft.Interop.Security.Azroles.IAzOperation.Description
+- Microsoft.Interop.Security.Azroles.IAzOperation.get_Description
+- Microsoft.Interop.Security.Azroles.IAzOperation.set_Description
+- Microsoft.Interop.Security.Azroles.IAzOperation.Name
+- Microsoft.Interop.Security.Azroles.IAzOperation.get_Name
+- Microsoft.Interop.Security.Azroles.IAzOperation.set_Name
+- Microsoft.Interop.Security.Azroles.IAzOperation.OperationID
+- Microsoft.Interop.Security.Azroles.IAzOperation.get_OperationID
+- Microsoft.Interop.Security.Azroles.IAzOperation.set_OperationID
+- Microsoft.Interop.Security.Azroles.IAzOperation.Writable
+- Microsoft.Interop.Security.Azroles.IAzOperation.get_Writable
+- Microsoft.Interop.Security.Azroles.IAzOperation.GetProperty
+- Microsoft.Interop.Security.Azroles.IAzOperation.SetProperty
+- Microsoft.Interop.Security.Azroles.IAzOperation.Submit
+api_type: 
+- COM
+api_location: 
+- Microsoft.Interop.Security.Azroles.dll
 ---
 
 # Microsoft.Interop.Security.AzRoles.IAzOperation interface

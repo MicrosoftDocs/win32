@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CARD_DIRECTORY_ACCESS_CONDITION
+api_type: 
+- HeaderDef
+api_location: 
+- Cardmod.h
 ---
 
 # CARD\_DIRECTORY\_ACCESS\_CONDITION enumeration

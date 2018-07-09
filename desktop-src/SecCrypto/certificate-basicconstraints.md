@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Certificate.BasicConstraints
+- ICertificate2.BasicConstraints
+- ICertificate.BasicConstraints
+api_type: 
+- COM
+api_location: 
+- Capicom.dll
 ---
 
 # ICertificate2::BasicConstraints method

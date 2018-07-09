@@ -7,6 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SIGNER_SUBJECT_INFO
+api_type: 
+- NA
+api_location: 
 ---
 
 # SIGNER\_SUBJECT\_INFO structure

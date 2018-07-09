@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- ExtendedKeyUsage
+api_type: 
+- COM
+api_location: 
+- Capicom.dll
 ---
 
 # ExtendedKeyUsage object

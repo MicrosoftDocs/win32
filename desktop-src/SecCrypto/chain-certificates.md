@@ -7,6 +7,19 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- IChain2.Certificates
+- IChain2.get_Certificates
+- IChain.Certificates
+- IChain.get_Certificates
+- Chain.Certificates
+api_type: 
+- COM
+api_location: 
+- Capicom.dll
 ---
 
 # IChain2::Certificates property

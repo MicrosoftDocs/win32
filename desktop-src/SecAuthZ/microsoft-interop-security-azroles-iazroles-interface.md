@@ -7,6 +7,25 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Microsoft.Interop.Security.AzRoles.IAzRoles
+- Microsoft.Interop.Security.AzRoles.IAzRoles.Microsoft.Interop.Security.Azroles.IAzRoles.GetEnumerator
+- Microsoft.Interop.Security.AzRoles.IAzRoles.Microsoft.Interop.Security.Azroles.IAzRoles.Count
+- Microsoft.Interop.Security.AzRoles.IAzRoles.Microsoft.Interop.Security.Azroles.IAzRoles.get_Count
+- Microsoft.Interop.Security.AzRoles.IAzRoles.Microsoft.Interop.Security.Azroles.IAzRoles.Item
+- Microsoft.Interop.Security.AzRoles.IAzRoles.Microsoft.Interop.Security.Azroles.IAzRoles.get_Item
+- Microsoft.Interop.Security.Azroles.IAzRoles.Count
+- Microsoft.Interop.Security.Azroles.IAzRoles.get_Count
+- Microsoft.Interop.Security.Azroles.IAzRoles.Item
+- Microsoft.Interop.Security.Azroles.IAzRoles.get_Item
+- Microsoft.Interop.Security.Azroles.IAzRoles.GetEnumerator
+api_type: 
+- COM
+api_location: 
+- Microsoft.Interop.Security.Azroles.dll
 ---
 
 # Microsoft.Interop.Security.AzRoles.IAzRoles interface

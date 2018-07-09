@@ -7,6 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- FILE_SYSTEM_RECOGNITION_STRUCTURE
+api_type: 
+- NA
+api_location: 
 ---
 
 # FILE\_SYSTEM\_RECOGNITION\_STRUCTURE structure

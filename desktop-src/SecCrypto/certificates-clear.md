@@ -7,6 +7,16 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Certificates.Clear
+- ICertificates2.Clear
+api_type: 
+- COM
+api_location: 
+- Capicom.dll
 ---
 
 # ICertificates2::Clear method

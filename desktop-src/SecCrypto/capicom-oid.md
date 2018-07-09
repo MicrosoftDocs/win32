@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CAPICOM_OID
+api_type: 
+- HeaderDef
+api_location: 
+- Capicom.h
 ---
 
 # CAPICOM\_OID enumeration

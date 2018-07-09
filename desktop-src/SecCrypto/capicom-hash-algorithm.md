@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CAPICOM_HASH_ALGORITHM
+api_type: 
+- HeaderDef
+api_location: 
+- Capicom.h
 ---
 
 # CAPICOM\_HASH\_ALGORITHM enumeration

@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CAPICOM_KEY_STORAGE_FLAG
+api_type: 
+- HeaderDef
+api_location: 
+- Capicom.h
 ---
 
 # CAPICOM\_KEY\_STORAGE\_FLAG enumeration

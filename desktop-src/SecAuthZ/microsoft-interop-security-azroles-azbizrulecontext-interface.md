@@ -7,6 +7,27 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Microsoft.Interop.Security.AzRoles.IAzBizRuleContext
+- Microsoft.Interop.Security.AzRoles.IAzBizRuleContext.Microsoft.Interop.Security.Azroles.IAzBizRuleContext.GetParameter
+- Microsoft.Interop.Security.AzRoles.IAzBizRuleContext.Microsoft.Interop.Security.Azroles.IAzBizRuleContext.BusinessRuleResult
+- Microsoft.Interop.Security.AzRoles.IAzBizRuleContext.Microsoft.Interop.Security.Azroles.IAzBizRuleContext.set_BusinessRuleResult
+- Microsoft.Interop.Security.AzRoles.IAzBizRuleContext.Microsoft.Interop.Security.Azroles.IAzBizRuleContext.BusinessRuleString
+- Microsoft.Interop.Security.AzRoles.IAzBizRuleContext.Microsoft.Interop.Security.Azroles.IAzBizRuleContext.get_BusinessRuleString
+- Microsoft.Interop.Security.AzRoles.IAzBizRuleContext.Microsoft.Interop.Security.Azroles.IAzBizRuleContext.set_BusinessRuleString
+- Microsoft.Interop.Security.Azroles.IAzBizRuleContext.BusinessRuleResult
+- Microsoft.Interop.Security.Azroles.IAzBizRuleContext.set_BusinessRuleResult
+- Microsoft.Interop.Security.Azroles.IAzBizRuleContext.BusinessRuleString
+- Microsoft.Interop.Security.Azroles.IAzBizRuleContext.get_BusinessRuleString
+- Microsoft.Interop.Security.Azroles.IAzBizRuleContext.set_BusinessRuleString
+- Microsoft.Interop.Security.Azroles.IAzBizRuleContext.GetParameter
+api_type: 
+- COM
+api_location: 
+- Microsoft.Interop.Security.Azroles.dll
 ---
 
 # Microsoft.Interop.Security.AzRoles.IAzBizRuleContext interface

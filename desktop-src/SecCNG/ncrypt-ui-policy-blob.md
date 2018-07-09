@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- NCRYPT_UI_POLICY_BLOB
+api_type: 
+- HeaderDef
+api_location: 
+- Ncrypt_provider.h
 ---
 
 # NCRYPT\_UI\_POLICY\_BLOB structure

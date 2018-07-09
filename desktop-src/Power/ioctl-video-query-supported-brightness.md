@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- IOCTL_VIDEO_QUERY_SUPPORTED_BRIGHTNESS
+api_type: 
+- HeaderDef
+api_location: 
+- Ntddvdeo.h
 ---
 
 # IOCTL\_VIDEO\_QUERY\_SUPPORTED\_BRIGHTNESS control code

@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE_INPUT
+api_type: 
+- HeaderDef
+api_location: 
+- Pwm.h
 ---
 
 # PWM\_PIN\_SET\_ACTIVE\_DUTY\_CYCLE\_PERCENTAGE\_INPUT structure

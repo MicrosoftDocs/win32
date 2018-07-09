@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SetThreadSelectedCpuSets
+api_type: 
+- DllExport
+api_location: 
+- Kernel32.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- KernelBase.dll
 ---
 
 # SetThreadSelectedCpuSets function

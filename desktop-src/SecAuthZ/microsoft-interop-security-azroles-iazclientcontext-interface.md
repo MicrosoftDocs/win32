@@ -7,6 +7,57 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Microsoft.Interop.Security.AzRoles.IAzClientContext
+- Microsoft.Interop.Security.AzRoles.IAzClientContext.Microsoft.Interop.Security.Azroles.IAzClientContext.AccessCheck
+- Microsoft.Interop.Security.AzRoles.IAzClientContext.Microsoft.Interop.Security.Azroles.IAzClientContext.GetBusinessRuleString
+- Microsoft.Interop.Security.AzRoles.IAzClientContext.Microsoft.Interop.Security.Azroles.IAzClientContext.GetProperty
+- Microsoft.Interop.Security.AzRoles.IAzClientContext.Microsoft.Interop.Security.Azroles.IAzClientContext.GetRoles
+- Microsoft.Interop.Security.AzRoles.IAzClientContext.Microsoft.Interop.Security.Azroles.IAzClientContext.RoleForAccessCheck
+- Microsoft.Interop.Security.AzRoles.IAzClientContext.Microsoft.Interop.Security.Azroles.IAzClientContext.get_RoleForAccessCheck
+- Microsoft.Interop.Security.AzRoles.IAzClientContext.Microsoft.Interop.Security.Azroles.IAzClientContext.set_RoleForAccessCheck
+- Microsoft.Interop.Security.AzRoles.IAzClientContext.Microsoft.Interop.Security.Azroles.IAzClientContext.UserCanonical
+- Microsoft.Interop.Security.AzRoles.IAzClientContext.Microsoft.Interop.Security.Azroles.IAzClientContext.get_UserCanonical
+- Microsoft.Interop.Security.AzRoles.IAzClientContext.Microsoft.Interop.Security.Azroles.IAzClientContext.UserDisplay
+- Microsoft.Interop.Security.AzRoles.IAzClientContext.Microsoft.Interop.Security.Azroles.IAzClientContext.get_UserDisplay
+- Microsoft.Interop.Security.AzRoles.IAzClientContext.Microsoft.Interop.Security.Azroles.IAzClientContext.UserDn
+- Microsoft.Interop.Security.AzRoles.IAzClientContext.Microsoft.Interop.Security.Azroles.IAzClientContext.get_UserDn
+- Microsoft.Interop.Security.AzRoles.IAzClientContext.Microsoft.Interop.Security.Azroles.IAzClientContext.UserDnsSamCompat
+- Microsoft.Interop.Security.AzRoles.IAzClientContext.Microsoft.Interop.Security.Azroles.IAzClientContext.get_UserDnsSamCompat
+- Microsoft.Interop.Security.AzRoles.IAzClientContext.Microsoft.Interop.Security.Azroles.IAzClientContext.UserGuid
+- Microsoft.Interop.Security.AzRoles.IAzClientContext.Microsoft.Interop.Security.Azroles.IAzClientContext.get_UserGuid
+- Microsoft.Interop.Security.AzRoles.IAzClientContext.Microsoft.Interop.Security.Azroles.IAzClientContext.UserSamCompat
+- Microsoft.Interop.Security.AzRoles.IAzClientContext.Microsoft.Interop.Security.Azroles.IAzClientContext.get_UserSamCompat
+- Microsoft.Interop.Security.AzRoles.IAzClientContext.Microsoft.Interop.Security.Azroles.IAzClientContext.UserUpn
+- Microsoft.Interop.Security.AzRoles.IAzClientContext.Microsoft.Interop.Security.Azroles.IAzClientContext.get_UserUpn
+- Microsoft.Interop.Security.Azroles.IAzClientContext.RoleForAccessCheck
+- Microsoft.Interop.Security.Azroles.IAzClientContext.get_RoleForAccessCheck
+- Microsoft.Interop.Security.Azroles.IAzClientContext.set_RoleForAccessCheck
+- Microsoft.Interop.Security.Azroles.IAzClientContext.UserCanonical
+- Microsoft.Interop.Security.Azroles.IAzClientContext.get_UserCanonical
+- Microsoft.Interop.Security.Azroles.IAzClientContext.UserDisplay
+- Microsoft.Interop.Security.Azroles.IAzClientContext.get_UserDisplay
+- Microsoft.Interop.Security.Azroles.IAzClientContext.UserDn
+- Microsoft.Interop.Security.Azroles.IAzClientContext.get_UserDn
+- Microsoft.Interop.Security.Azroles.IAzClientContext.UserDnsSamCompat
+- Microsoft.Interop.Security.Azroles.IAzClientContext.get_UserDnsSamCompat
+- Microsoft.Interop.Security.Azroles.IAzClientContext.UserGuid
+- Microsoft.Interop.Security.Azroles.IAzClientContext.get_UserGuid
+- Microsoft.Interop.Security.Azroles.IAzClientContext.UserSamCompat
+- Microsoft.Interop.Security.Azroles.IAzClientContext.get_UserSamCompat
+- Microsoft.Interop.Security.Azroles.IAzClientContext.UserUpn
+- Microsoft.Interop.Security.Azroles.IAzClientContext.get_UserUpn
+- Microsoft.Interop.Security.Azroles.IAzClientContext.AccessCheck
+- Microsoft.Interop.Security.Azroles.IAzClientContext.GetBusinessRuleString
+- Microsoft.Interop.Security.Azroles.IAzClientContext.GetProperty
+- Microsoft.Interop.Security.Azroles.IAzClientContext.GetRoles
+api_type: 
+- COM
+api_location: 
+- Microsoft.Interop.Security.Azroles.dll
 ---
 
 # Microsoft.Interop.Security.AzRoles.IAzClientContext interface

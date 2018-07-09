@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- IOCTL_VOLUME_IS_CSV
+api_type: 
+- HeaderDef
+api_location: 
+- Ntddvol.h
 ---
 
 # IOCTL\_VOLUME\_IS\_CSV control code

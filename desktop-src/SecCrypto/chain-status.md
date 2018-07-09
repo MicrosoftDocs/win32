@@ -6,6 +6,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- IChain2.Status
+- IChain.Status
+- Chain.Status
+api_type: 
+- COM
+api_location: 
+- Capicom.dll
 ---
 
 # IChain2::Status property

@@ -7,6 +7,19 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CancelIo
+api_type: 
+- DllExport
+api_location: 
+- Kernel32.dll
+- API-MS-Win-Core-io-l1-1-1.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
 ---
 
 # CancelIo function

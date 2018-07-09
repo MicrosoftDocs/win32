@@ -7,6 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SIGNER_SPC_CHAIN_INFO
+api_type: 
+- NA
+api_location: 
 ---
 
 # SIGNER\_SPC\_CHAIN\_INFO structure

@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- PWM_CONTROLLER_GET_ACTUAL_PERIOD_OUTPUT
+api_type: 
+- HeaderDef
+api_location: 
+- Pwm.h
 ---
 
 # PWM\_CONTROLLER\_GET\_ACTUAL\_PERIOD\_OUTPUT structure

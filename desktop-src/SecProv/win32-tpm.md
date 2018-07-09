@@ -7,6 +7,23 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_Tpm
+- Win32_Tpm.IsActivated_InitialValue
+- Win32_Tpm.IsEnabled_InitialValue
+- Win32_Tpm.IsOwned_InitialValue
+- Win32_Tpm.SpecVersion
+- Win32_Tpm.ManufacturerVersion
+- Win32_Tpm.ManufacturerVersionInfo
+- Win32_Tpm.ManufacturerId
+- Win32_Tpm.PhysicalPresenceVersionInfo
+api_type: 
+- DllExport
+api_location: 
+- Win32_tpm.dll
 ---
 
 # Win32\_Tpm class

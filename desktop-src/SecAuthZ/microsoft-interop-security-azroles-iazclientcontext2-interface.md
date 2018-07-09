@@ -7,6 +7,71 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.AccessCheck
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.AddApplicationGroups
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.AddRoles
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.AddStringSids
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.GetAssignedScopesPage
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.GetBusinessRuleString
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.GetProperty
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.GetRoles
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.LDAPQueryDN
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.get_LDAPQueryDN
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.set_LDAPQueryDN
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.RoleForAccessCheck
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.get_RoleForAccessCheck
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.set_RoleForAccessCheck
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.UserCanonical
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.get_UserCanonical
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.UserDisplay
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.get_UserDisplay
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.UserDn
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.get_UserDn
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.UserDnsSamCompat
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.get_UserDnsSamCompat
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.UserGuid
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.get_UserGuid
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.UserSamCompat
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.get_UserSamCompat
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.UserUpn
+- Microsoft.Interop.Security.AzRoles.IAzClientContext2.Microsoft.Interop.Security.Azroles.IAzClientContext2.get_UserUpn
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.LDAPQueryDN
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.get_LDAPQueryDN
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.set_LDAPQueryDN
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.RoleForAccessCheck
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.get_RoleForAccessCheck
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.set_RoleForAccessCheck
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.UserCanonical
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.get_UserCanonical
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.UserDisplay
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.get_UserDisplay
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.UserDn
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.get_UserDn
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.UserDnsSamCompat
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.get_UserDnsSamCompat
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.UserGuid
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.get_UserGuid
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.UserSamCompat
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.get_UserSamCompat
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.UserUpn
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.get_UserUpn
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.AccessCheck
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.AddApplicationGroups
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.AddRoles
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.AddStringSids
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.GetAssignedScopesPage
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.GetBusinessRuleString
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.GetProperty
+- Microsoft.Interop.Security.Azroles.IAzClientContext2.GetRoles
+api_type: 
+- COM
+api_location: 
+- Microsoft.Interop.Security.Azroles.dll
 ---
 
 # Microsoft.Interop.Security.AzRoles.IAzClientContext2 interface

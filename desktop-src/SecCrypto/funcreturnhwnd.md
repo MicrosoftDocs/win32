@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CRYPT_RETURN_HWND
+api_type: 
+- UserDefined
+api_location: 
+- Cspdk.h
 ---
 
 # CRYPT\_RETURN\_HWND function pointer

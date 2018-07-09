@@ -7,6 +7,21 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Microsoft.Interop.Security.AzRoles.IAzObjectPicker
+- Microsoft.Interop.Security.AzRoles.IAzObjectPicker.Microsoft.Interop.Security.Azroles.IAzObjectPicker.GetPrincipals
+- Microsoft.Interop.Security.AzRoles.IAzObjectPicker.Microsoft.Interop.Security.Azroles.IAzObjectPicker.Name
+- Microsoft.Interop.Security.AzRoles.IAzObjectPicker.Microsoft.Interop.Security.Azroles.IAzObjectPicker.get_Name
+- Microsoft.Interop.Security.Azroles.IAzObjectPicker.Name
+- Microsoft.Interop.Security.Azroles.IAzObjectPicker.get_Name
+- Microsoft.Interop.Security.Azroles.IAzObjectPicker.GetPrincipals
+api_type: 
+- COM
+api_location: 
+- Microsoft.Interop.Security.Azroles.dll
 ---
 
 # Microsoft.Interop.Security.AzRoles.IAzObjectPicker interface

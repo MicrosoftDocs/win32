@@ -7,6 +7,16 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- IOCTL_BATTERY_QUERY_TAG
+api_type: 
+- HeaderDef
+api_location: 
+- Poclass.h
+- BatClass.h
 ---
 
 # IOCTL\_BATTERY\_QUERY\_TAG control code

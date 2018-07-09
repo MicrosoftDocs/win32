@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_EncryptableVolume.GetKeyProtectorExternalKey
+api_type: 
+- COM
+api_location: 
+- Root\CIMV2\Security\MicrosoftVolumeEncryption
 ---
 
 # GetKeyProtectorExternalKey method of the Win32\_EncryptableVolume class

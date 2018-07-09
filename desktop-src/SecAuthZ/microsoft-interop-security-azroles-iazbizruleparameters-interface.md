@@ -7,6 +7,29 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Microsoft.Interop.Security.AzRoles.IAzBizRuleParameters
+- Microsoft.Interop.Security.AzRoles.IAzBizRuleParameters.Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.AddParameter
+- Microsoft.Interop.Security.AzRoles.IAzBizRuleParameters.Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.AddParameters
+- Microsoft.Interop.Security.AzRoles.IAzBizRuleParameters.Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.GetParameterValue
+- Microsoft.Interop.Security.AzRoles.IAzBizRuleParameters.Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.Remove
+- Microsoft.Interop.Security.AzRoles.IAzBizRuleParameters.Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.RemoveAll
+- Microsoft.Interop.Security.AzRoles.IAzBizRuleParameters.Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.Count
+- Microsoft.Interop.Security.AzRoles.IAzBizRuleParameters.Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.get_Count
+- Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.Count
+- Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.get_Count
+- Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.AddParameter
+- Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.AddParameters
+- Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.GetParameterValue
+- Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.Remove
+- Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.RemoveAll
+api_type: 
+- COM
+api_location: 
+- Microsoft.Interop.Security.Azroles.dll
 ---
 
 # Microsoft.Interop.Security.AzRoles.IAzBizRuleParameters interface
