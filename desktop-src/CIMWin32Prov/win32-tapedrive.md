@@ -13,6 +13,57 @@ title: Win32\_TapeDrive class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_TapeDrive
+- Win32_TapeDrive.Reset
+- Win32_TapeDrive.SetPowerState
+- Win32_TapeDrive.Availability
+- Win32_TapeDrive.Capabilities
+- Win32_TapeDrive.CapabilityDescriptions
+- Win32_TapeDrive.Caption
+- Win32_TapeDrive.Compression
+- Win32_TapeDrive.CompressionMethod
+- Win32_TapeDrive.ConfigManagerErrorCode
+- Win32_TapeDrive.ConfigManagerUserConfig
+- Win32_TapeDrive.CreationClassName
+- Win32_TapeDrive.DefaultBlockSize
+- Win32_TapeDrive.Description
+- Win32_TapeDrive.DeviceID
+- Win32_TapeDrive.ECC
+- Win32_TapeDrive.EOTWarningZoneSize
+- Win32_TapeDrive.ErrorCleared
+- Win32_TapeDrive.ErrorDescription
+- Win32_TapeDrive.ErrorMethodology
+- Win32_TapeDrive.FeaturesHigh
+- Win32_TapeDrive.FeaturesLow
+- Win32_TapeDrive.Id
+- Win32_TapeDrive.InstallDate
+- Win32_TapeDrive.LastErrorCode
+- Win32_TapeDrive.Manufacturer
+- Win32_TapeDrive.MaxBlockSize
+- Win32_TapeDrive.MaxMediaSize
+- Win32_TapeDrive.MaxPartitionCount
+- Win32_TapeDrive.MediaType
+- Win32_TapeDrive.MinBlockSize
+- Win32_TapeDrive.Name
+- Win32_TapeDrive.NeedsCleaning
+- Win32_TapeDrive.NumberOfMediaSupported
+- Win32_TapeDrive.Padding
+- Win32_TapeDrive.PNPDeviceID
+- Win32_TapeDrive.PowerManagementCapabilities
+- Win32_TapeDrive.PowerManagementSupported
+- Win32_TapeDrive.ReportSetMarks
+- Win32_TapeDrive.Status
+- Win32_TapeDrive.StatusInfo
+- Win32_TapeDrive.SystemCreationClassName
+- Win32_TapeDrive.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_TapeDrive class

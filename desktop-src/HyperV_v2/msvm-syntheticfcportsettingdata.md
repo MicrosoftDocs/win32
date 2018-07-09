@@ -7,6 +7,44 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_SyntheticFcPortSettingData
+- Msvm_SyntheticFcPortSettingData.InstanceID
+- Msvm_SyntheticFcPortSettingData.Caption
+- Msvm_SyntheticFcPortSettingData.Description
+- Msvm_SyntheticFcPortSettingData.ElementName
+- Msvm_SyntheticFcPortSettingData.ResourceType
+- Msvm_SyntheticFcPortSettingData.OtherResourceType
+- Msvm_SyntheticFcPortSettingData.ResourceSubType
+- Msvm_SyntheticFcPortSettingData.PoolID
+- Msvm_SyntheticFcPortSettingData.ConsumerVisibility
+- Msvm_SyntheticFcPortSettingData.HostResource
+- Msvm_SyntheticFcPortSettingData.AllocationUnits
+- Msvm_SyntheticFcPortSettingData.VirtualQuantity
+- Msvm_SyntheticFcPortSettingData.Reservation
+- Msvm_SyntheticFcPortSettingData.Limit
+- Msvm_SyntheticFcPortSettingData.Weight
+- Msvm_SyntheticFcPortSettingData.AutomaticAllocation
+- Msvm_SyntheticFcPortSettingData.AutomaticDeallocation
+- Msvm_SyntheticFcPortSettingData.Parent
+- Msvm_SyntheticFcPortSettingData.Connection
+- Msvm_SyntheticFcPortSettingData.Address
+- Msvm_SyntheticFcPortSettingData.MappingBehavior
+- Msvm_SyntheticFcPortSettingData.AddressOnParent
+- Msvm_SyntheticFcPortSettingData.VirtualQuantityUnits
+- Msvm_SyntheticFcPortSettingData.VirtualPortWWPN
+- Msvm_SyntheticFcPortSettingData.VirtualPortWWNN
+- Msvm_SyntheticFcPortSettingData.SecondaryWWPN
+- Msvm_SyntheticFcPortSettingData.SecondaryWWNN
+- Msvm_SyntheticFcPortSettingData.VirtualSystemIdentifiers
+- Msvm_SyntheticFcPortSettingData.ChapEnabled
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_SyntheticFcPortSettingData class

@@ -13,6 +13,29 @@ title: Win32\_ProcessStartup class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_ProcessStartup
+- Win32_ProcessStartup.CreateFlags
+- Win32_ProcessStartup.EnvironmentVariables
+- Win32_ProcessStartup.ErrorMode
+- Win32_ProcessStartup.FillAttribute
+- Win32_ProcessStartup.PriorityClass
+- Win32_ProcessStartup.ShowWindow
+- Win32_ProcessStartup.Title
+- Win32_ProcessStartup.WinstationDesktop
+- Win32_ProcessStartup.X
+- Win32_ProcessStartup.XCountChars
+- Win32_ProcessStartup.XSize
+- Win32_ProcessStartup.Y
+- Win32_ProcessStartup.YCountChars
+- Win32_ProcessStartup.YSize
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_ProcessStartup class

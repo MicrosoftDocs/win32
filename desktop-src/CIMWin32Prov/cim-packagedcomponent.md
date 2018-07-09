@@ -13,6 +13,18 @@ title: CIM\_PackagedComponent class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_PackagedComponent
+- CIM_PackagedComponent.LocationWithinContainer
+- CIM_PackagedComponent.PartComponent
+- CIM_PackagedComponent.GroupComponent
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_PackagedComponent class

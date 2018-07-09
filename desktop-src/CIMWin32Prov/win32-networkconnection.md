@@ -13,6 +13,32 @@ title: Win32\_NetworkConnection class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_NetworkConnection
+- Win32_NetworkConnection.Caption
+- Win32_NetworkConnection.Description
+- Win32_NetworkConnection.InstallDate
+- Win32_NetworkConnection.Status
+- Win32_NetworkConnection.AccessMask
+- Win32_NetworkConnection.Comment
+- Win32_NetworkConnection.ConnectionState
+- Win32_NetworkConnection.ConnectionType
+- Win32_NetworkConnection.DisplayType
+- Win32_NetworkConnection.LocalName
+- Win32_NetworkConnection.Name
+- Win32_NetworkConnection.Persistent
+- Win32_NetworkConnection.ProviderName
+- Win32_NetworkConnection.RemoteName
+- Win32_NetworkConnection.RemotePath
+- Win32_NetworkConnection.ResourceType
+- Win32_NetworkConnection.UserName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_NetworkConnection class

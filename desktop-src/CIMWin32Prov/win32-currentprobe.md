@@ -13,6 +13,52 @@ title: Win32\_CurrentProbe class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_CurrentProbe
+- Win32_CurrentProbe.Reset
+- Win32_CurrentProbe.SetPowerState
+- Win32_CurrentProbe.Accuracy
+- Win32_CurrentProbe.Availability
+- Win32_CurrentProbe.Caption
+- Win32_CurrentProbe.ConfigManagerErrorCode
+- Win32_CurrentProbe.ConfigManagerUserConfig
+- Win32_CurrentProbe.CreationClassName
+- Win32_CurrentProbe.CurrentReading
+- Win32_CurrentProbe.Description
+- Win32_CurrentProbe.DeviceID
+- Win32_CurrentProbe.ErrorCleared
+- Win32_CurrentProbe.ErrorDescription
+- Win32_CurrentProbe.InstallDate
+- Win32_CurrentProbe.IsLinear
+- Win32_CurrentProbe.LastErrorCode
+- Win32_CurrentProbe.LowerThresholdCritical
+- Win32_CurrentProbe.LowerThresholdFatal
+- Win32_CurrentProbe.LowerThresholdNonCritical
+- Win32_CurrentProbe.MaxReadable
+- Win32_CurrentProbe.MinReadable
+- Win32_CurrentProbe.Name
+- Win32_CurrentProbe.NominalReading
+- Win32_CurrentProbe.NormalMax
+- Win32_CurrentProbe.NormalMin
+- Win32_CurrentProbe.PNPDeviceID
+- Win32_CurrentProbe.PowerManagementCapabilities
+- Win32_CurrentProbe.PowerManagementSupported
+- Win32_CurrentProbe.Resolution
+- Win32_CurrentProbe.Status
+- Win32_CurrentProbe.StatusInfo
+- Win32_CurrentProbe.SystemCreationClassName
+- Win32_CurrentProbe.SystemName
+- Win32_CurrentProbe.Tolerance
+- Win32_CurrentProbe.UpperThresholdCritical
+- Win32_CurrentProbe.UpperThresholdFatal
+- Win32_CurrentProbe.UpperThresholdNonCritical
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_CurrentProbe class

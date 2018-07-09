@@ -7,6 +7,81 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ExternalEthernetPort
+- Msvm_ExternalEthernetPort.SetPowerState
+- Msvm_ExternalEthernetPort.EnableDevice
+- Msvm_ExternalEthernetPort.OnlineDevice
+- Msvm_ExternalEthernetPort.QuiesceDevice
+- Msvm_ExternalEthernetPort.SaveProperties
+- Msvm_ExternalEthernetPort.RestoreProperties
+- Msvm_ExternalEthernetPort.InstanceID
+- Msvm_ExternalEthernetPort.Caption
+- Msvm_ExternalEthernetPort.Description
+- Msvm_ExternalEthernetPort.ElementName
+- Msvm_ExternalEthernetPort.InstallDate
+- Msvm_ExternalEthernetPort.Name
+- Msvm_ExternalEthernetPort.OperationalStatus
+- Msvm_ExternalEthernetPort.StatusDescriptions
+- Msvm_ExternalEthernetPort.Status
+- Msvm_ExternalEthernetPort.HealthState
+- Msvm_ExternalEthernetPort.CommunicationStatus
+- Msvm_ExternalEthernetPort.DetailedStatus
+- Msvm_ExternalEthernetPort.OperatingStatus
+- Msvm_ExternalEthernetPort.PrimaryStatus
+- Msvm_ExternalEthernetPort.EnabledState
+- Msvm_ExternalEthernetPort.OtherEnabledState
+- Msvm_ExternalEthernetPort.RequestedState
+- Msvm_ExternalEthernetPort.EnabledDefault
+- Msvm_ExternalEthernetPort.TimeOfLastStateChange
+- Msvm_ExternalEthernetPort.AvailableRequestedStates
+- Msvm_ExternalEthernetPort.TransitioningToState
+- Msvm_ExternalEthernetPort.SystemCreationClassName
+- Msvm_ExternalEthernetPort.SystemName
+- Msvm_ExternalEthernetPort.CreationClassName
+- Msvm_ExternalEthernetPort.DeviceID
+- Msvm_ExternalEthernetPort.PowerManagementSupported
+- Msvm_ExternalEthernetPort.PowerManagementCapabilities
+- Msvm_ExternalEthernetPort.Availability
+- Msvm_ExternalEthernetPort.StatusInfo
+- Msvm_ExternalEthernetPort.LastErrorCode
+- Msvm_ExternalEthernetPort.ErrorDescription
+- Msvm_ExternalEthernetPort.ErrorCleared
+- Msvm_ExternalEthernetPort.OtherIdentifyingInfo
+- Msvm_ExternalEthernetPort.PowerOnHours
+- Msvm_ExternalEthernetPort.TotalPowerOnHours
+- Msvm_ExternalEthernetPort.IdentifyingDescriptions
+- Msvm_ExternalEthernetPort.AdditionalAvailability
+- Msvm_ExternalEthernetPort.MaxQuiesceTime
+- Msvm_ExternalEthernetPort.Speed
+- Msvm_ExternalEthernetPort.MaxSpeed
+- Msvm_ExternalEthernetPort.RequestedSpeed
+- Msvm_ExternalEthernetPort.UsageRestriction
+- Msvm_ExternalEthernetPort.PortType
+- Msvm_ExternalEthernetPort.OtherPortType
+- Msvm_ExternalEthernetPort.OtherNetworkPortType
+- Msvm_ExternalEthernetPort.PortNumber
+- Msvm_ExternalEthernetPort.LinkTechnology
+- Msvm_ExternalEthernetPort.OtherLinkTechnology
+- Msvm_ExternalEthernetPort.PermanentAddress
+- Msvm_ExternalEthernetPort.NetworkAddresses
+- Msvm_ExternalEthernetPort.FullDuplex
+- Msvm_ExternalEthernetPort.AutoSense
+- Msvm_ExternalEthernetPort.SupportedMaximumTransmissionUnit
+- Msvm_ExternalEthernetPort.ActiveMaximumTransmissionUnit
+- Msvm_ExternalEthernetPort.MaxDataSize
+- Msvm_ExternalEthernetPort.Capabilities
+- Msvm_ExternalEthernetPort.CapabilityDescriptions
+- Msvm_ExternalEthernetPort.EnabledCapabilities
+- Msvm_ExternalEthernetPort.OtherEnabledCapabilities
+- Msvm_ExternalEthernetPort.IsBound
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ExternalEthernetPort class

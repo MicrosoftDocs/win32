@@ -7,6 +7,25 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_DisplayController
+- CIM_DisplayController.Description
+- CIM_DisplayController.VideoProcessor
+- CIM_DisplayController.VideoMemoryType
+- CIM_DisplayController.OtherVideoMemoryType
+- CIM_DisplayController.NumberOfVideoPages
+- CIM_DisplayController.MaxMemorySupported
+- CIM_DisplayController.AcceleratorCapabilities
+- CIM_DisplayController.CapabilityDescriptions
+- CIM_DisplayController.OtherVideoArchitecture
+- CIM_DisplayController.VideoArchitecture
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_DisplayController class

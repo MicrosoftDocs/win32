@@ -7,6 +7,73 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_Processor
+- Msvm_Processor.SetPowerState
+- Msvm_Processor.EnableDevice
+- Msvm_Processor.OnlineDevice
+- Msvm_Processor.QuiesceDevice
+- Msvm_Processor.SaveProperties
+- Msvm_Processor.RestoreProperties
+- Msvm_Processor.InstanceID
+- Msvm_Processor.Caption
+- Msvm_Processor.Description
+- Msvm_Processor.ElementName
+- Msvm_Processor.InstallDate
+- Msvm_Processor.Name
+- Msvm_Processor.OperationalStatus
+- Msvm_Processor.StatusDescriptions
+- Msvm_Processor.Status
+- Msvm_Processor.HealthState
+- Msvm_Processor.CommunicationStatus
+- Msvm_Processor.DetailedStatus
+- Msvm_Processor.OperatingStatus
+- Msvm_Processor.PrimaryStatus
+- Msvm_Processor.EnabledState
+- Msvm_Processor.OtherEnabledState
+- Msvm_Processor.RequestedState
+- Msvm_Processor.EnabledDefault
+- Msvm_Processor.TimeOfLastStateChange
+- Msvm_Processor.AvailableRequestedStates
+- Msvm_Processor.TransitioningToState
+- Msvm_Processor.SystemCreationClassName
+- Msvm_Processor.SystemName
+- Msvm_Processor.CreationClassName
+- Msvm_Processor.DeviceID
+- Msvm_Processor.PowerManagementSupported
+- Msvm_Processor.PowerManagementCapabilities
+- Msvm_Processor.Availability
+- Msvm_Processor.StatusInfo
+- Msvm_Processor.LastErrorCode
+- Msvm_Processor.ErrorDescription
+- Msvm_Processor.ErrorCleared
+- Msvm_Processor.OtherIdentifyingInfo
+- Msvm_Processor.PowerOnHours
+- Msvm_Processor.TotalPowerOnHours
+- Msvm_Processor.IdentifyingDescriptions
+- Msvm_Processor.AdditionalAvailability
+- Msvm_Processor.MaxQuiesceTime
+- Msvm_Processor.Role
+- Msvm_Processor.Family
+- Msvm_Processor.OtherFamilyDescription
+- Msvm_Processor.UpgradeMethod
+- Msvm_Processor.MaxClockSpeed
+- Msvm_Processor.CurrentClockSpeed
+- Msvm_Processor.DataWidth
+- Msvm_Processor.AddressWidth
+- Msvm_Processor.LoadPercentage
+- Msvm_Processor.Stepping
+- Msvm_Processor.UniqueID
+- Msvm_Processor.CPUStatus
+- Msvm_Processor.ExternalBusClockSpeed
+- Msvm_Processor.LoadPercentageHistory
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_Processor class

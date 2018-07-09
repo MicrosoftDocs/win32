@@ -7,6 +7,61 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ComputerSystem
+- Msvm_ComputerSystem.SetPowerState
+- Msvm_ComputerSystem.InstanceID
+- Msvm_ComputerSystem.Caption
+- Msvm_ComputerSystem.Description
+- Msvm_ComputerSystem.ElementName
+- Msvm_ComputerSystem.InstallDate
+- Msvm_ComputerSystem.OperationalStatus
+- Msvm_ComputerSystem.StatusDescriptions
+- Msvm_ComputerSystem.Status
+- Msvm_ComputerSystem.HealthState
+- Msvm_ComputerSystem.CommunicationStatus
+- Msvm_ComputerSystem.DetailedStatus
+- Msvm_ComputerSystem.OperatingStatus
+- Msvm_ComputerSystem.PrimaryStatus
+- Msvm_ComputerSystem.EnabledState
+- Msvm_ComputerSystem.OtherEnabledState
+- Msvm_ComputerSystem.RequestedState
+- Msvm_ComputerSystem.EnabledDefault
+- Msvm_ComputerSystem.TimeOfLastStateChange
+- Msvm_ComputerSystem.AvailableRequestedStates
+- Msvm_ComputerSystem.TransitioningToState
+- Msvm_ComputerSystem.CreationClassName
+- Msvm_ComputerSystem.Name
+- Msvm_ComputerSystem.PrimaryOwnerName
+- Msvm_ComputerSystem.PrimaryOwnerContact
+- Msvm_ComputerSystem.Roles
+- Msvm_ComputerSystem.NameFormat
+- Msvm_ComputerSystem.OtherIdentifyingInfo
+- Msvm_ComputerSystem.IdentifyingDescriptions
+- Msvm_ComputerSystem.Dedicated
+- Msvm_ComputerSystem.OtherDedicatedDescriptions
+- Msvm_ComputerSystem.ResetCapability
+- Msvm_ComputerSystem.PowerManagementCapabilities
+- Msvm_ComputerSystem.OnTimeInMilliseconds
+- Msvm_ComputerSystem.ProcessID
+- Msvm_ComputerSystem.TimeOfLastConfigurationChange
+- Msvm_ComputerSystem.NumberOfNumaNodes
+- Msvm_ComputerSystem.ReplicationState
+- Msvm_ComputerSystem.ReplicationHealth
+- Msvm_ComputerSystem.ReplicationMode
+- Msvm_ComputerSystem.FailedOverReplicationType
+- Msvm_ComputerSystem.LastReplicationType
+- Msvm_ComputerSystem.LastApplicationConsistentReplicationTime
+- Msvm_ComputerSystem.LastReplicationTime
+- Msvm_ComputerSystem.LastSuccessfulBackupTime
+- Msvm_ComputerSystem.EnhancedSessionModeState
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ComputerSystem class

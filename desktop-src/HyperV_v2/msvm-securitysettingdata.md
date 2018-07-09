@@ -7,6 +7,21 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_SecuritySettingData
+- Msvm_SecuritySettingData.TpmEnabled
+- Msvm_SecuritySettingData.KsdEnabled
+- Msvm_SecuritySettingData.ShieldingRequested
+- Msvm_SecuritySettingData.DataProtectionRequested
+- Msvm_SecuritySettingData.EncryptStateAndVmMigrationTraffic
+- Msvm_SecuritySettingData.VirtualizationBasedSecurityOptOut
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_SecuritySettingData class

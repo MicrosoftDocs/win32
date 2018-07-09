@@ -13,6 +13,54 @@ title: CIM\_NonVolatileStorage class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_NonVolatileStorage
+- CIM_NonVolatileStorage.Access
+- CIM_NonVolatileStorage.AdditionalErrorData
+- CIM_NonVolatileStorage.Availability
+- CIM_NonVolatileStorage.BlockSize
+- CIM_NonVolatileStorage.Caption
+- CIM_NonVolatileStorage.ConfigManagerErrorCode
+- CIM_NonVolatileStorage.ConfigManagerUserConfig
+- CIM_NonVolatileStorage.CorrectableError
+- CIM_NonVolatileStorage.CreationClassName
+- CIM_NonVolatileStorage.Description
+- CIM_NonVolatileStorage.DeviceID
+- CIM_NonVolatileStorage.EndingAddress
+- CIM_NonVolatileStorage.ErrorAccess
+- CIM_NonVolatileStorage.ErrorAddress
+- CIM_NonVolatileStorage.ErrorCleared
+- CIM_NonVolatileStorage.ErrorData
+- CIM_NonVolatileStorage.ErrorDataOrder
+- CIM_NonVolatileStorage.ErrorDescription
+- CIM_NonVolatileStorage.ErrorInfo
+- CIM_NonVolatileStorage.ErrorMethodology
+- CIM_NonVolatileStorage.ErrorResolution
+- CIM_NonVolatileStorage.ErrorTime
+- CIM_NonVolatileStorage.ErrorTransferSize
+- CIM_NonVolatileStorage.InstallDate
+- CIM_NonVolatileStorage.IsWriteable
+- CIM_NonVolatileStorage.LastErrorCode
+- CIM_NonVolatileStorage.Name
+- CIM_NonVolatileStorage.NumberOfBlocks
+- CIM_NonVolatileStorage.OtherErrorDescription
+- CIM_NonVolatileStorage.PNPDeviceID
+- CIM_NonVolatileStorage.PowerManagementCapabilities
+- CIM_NonVolatileStorage.PowerManagementSupported
+- CIM_NonVolatileStorage.Purpose
+- CIM_NonVolatileStorage.StartingAddress
+- CIM_NonVolatileStorage.Status
+- CIM_NonVolatileStorage.StatusInfo
+- CIM_NonVolatileStorage.SystemCreationClassName
+- CIM_NonVolatileStorage.SystemLevelAddress
+- CIM_NonVolatileStorage.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_NonVolatileStorage class

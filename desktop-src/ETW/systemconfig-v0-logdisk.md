@@ -7,6 +7,28 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SystemConfig_V0_LogDisk
+- SystemConfig_V0_LogDisk.StartOffset
+- SystemConfig_V0_LogDisk.PartitionSize
+- SystemConfig_V0_LogDisk.DiskNumber
+- SystemConfig_V0_LogDisk.Size
+- SystemConfig_V0_LogDisk.DriveType
+- SystemConfig_V0_LogDisk.DriveLetterString
+- SystemConfig_V0_LogDisk.Pad
+- SystemConfig_V0_LogDisk.PartitionNumber
+- SystemConfig_V0_LogDisk.SectorsPerCluster
+- SystemConfig_V0_LogDisk.BytesPerSector
+- SystemConfig_V0_LogDisk.NumberOfFreeClusters
+- SystemConfig_V0_LogDisk.TotalNumberOfClusters
+- SystemConfig_V0_LogDisk.FileSystem
+- SystemConfig_V0_LogDisk.VolumeExt
+api_type: 
+- NA
+api_location: 
 ---
 
 # SystemConfig\_V0\_LogDisk class

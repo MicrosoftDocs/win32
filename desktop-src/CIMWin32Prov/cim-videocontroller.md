@@ -13,6 +13,53 @@ title: CIM\_VideoController class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_VideoController
+- CIM_VideoController.AcceleratorCapabilities
+- CIM_VideoController.Availability
+- CIM_VideoController.CapabilityDescriptions
+- CIM_VideoController.Caption
+- CIM_VideoController.ConfigManagerErrorCode
+- CIM_VideoController.ConfigManagerUserConfig
+- CIM_VideoController.CreationClassName
+- CIM_VideoController.CurrentBitsPerPixel
+- CIM_VideoController.CurrentHorizontalResolution
+- CIM_VideoController.CurrentNumberOfColors
+- CIM_VideoController.CurrentNumberOfColumns
+- CIM_VideoController.CurrentNumberOfRows
+- CIM_VideoController.CurrentRefreshRate
+- CIM_VideoController.CurrentScanMode
+- CIM_VideoController.CurrentVerticalResolution
+- CIM_VideoController.Description
+- CIM_VideoController.DeviceID
+- CIM_VideoController.ErrorCleared
+- CIM_VideoController.ErrorDescription
+- CIM_VideoController.InstallDate
+- CIM_VideoController.LastErrorCode
+- CIM_VideoController.MaxMemorySupported
+- CIM_VideoController.MaxNumberControlled
+- CIM_VideoController.MaxRefreshRate
+- CIM_VideoController.MinRefreshRate
+- CIM_VideoController.Name
+- CIM_VideoController.NumberOfVideoPages
+- CIM_VideoController.PNPDeviceID
+- CIM_VideoController.PowerManagementCapabilities
+- CIM_VideoController.PowerManagementSupported
+- CIM_VideoController.ProtocolSupported
+- CIM_VideoController.Status
+- CIM_VideoController.StatusInfo
+- CIM_VideoController.SystemCreationClassName
+- CIM_VideoController.SystemName
+- CIM_VideoController.TimeOfLastReset
+- CIM_VideoController.VideoMemoryType
+- CIM_VideoController.VideoProcessor
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_VideoController class

@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SampledProfile
+- SampledProfile.InstructionPointer
+- SampledProfile.ThreadId
+- SampledProfile.Count
+api_type: 
+- NA
+api_location: 
 ---
 
 # SampledProfile class

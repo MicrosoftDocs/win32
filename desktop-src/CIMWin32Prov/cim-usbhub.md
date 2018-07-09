@@ -13,6 +13,43 @@ title: CIM\_USBHub class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_USBHub
+- CIM_USBHub.Availability
+- CIM_USBHub.Caption
+- CIM_USBHub.ClassCode
+- CIM_USBHub.ConfigManagerErrorCode
+- CIM_USBHub.ConfigManagerUserConfig
+- CIM_USBHub.CreationClassName
+- CIM_USBHub.CurrentAlternateSettings
+- CIM_USBHub.CurrentConfigValue
+- CIM_USBHub.Description
+- CIM_USBHub.DeviceID
+- CIM_USBHub.ErrorCleared
+- CIM_USBHub.ErrorDescription
+- CIM_USBHub.GangSwitched
+- CIM_USBHub.InstallDate
+- CIM_USBHub.LastErrorCode
+- CIM_USBHub.Name
+- CIM_USBHub.NumberOfConfigs
+- CIM_USBHub.NumberOfPorts
+- CIM_USBHub.PNPDeviceID
+- CIM_USBHub.PowerManagementCapabilities
+- CIM_USBHub.PowerManagementSupported
+- CIM_USBHub.ProtocolCode
+- CIM_USBHub.Status
+- CIM_USBHub.StatusInfo
+- CIM_USBHub.SubclassCode
+- CIM_USBHub.SystemCreationClassName
+- CIM_USBHub.SystemName
+- CIM_USBHub.USBVersion
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_USBHub class

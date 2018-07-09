@@ -13,6 +13,17 @@ title: Win32\_LoadOrderGroupServiceMembers class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_LoadOrderGroupServiceMembers
+- Win32_LoadOrderGroupServiceMembers.GroupComponent
+- Win32_LoadOrderGroupServiceMembers.PartComponent
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_LoadOrderGroupServiceMembers class

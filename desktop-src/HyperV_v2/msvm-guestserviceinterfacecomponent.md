@@ -7,6 +7,34 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_GuestServiceInterfaceComponent
+- Msvm_GuestServiceInterfaceComponent.Availability
+- Msvm_GuestServiceInterfaceComponent.Caption
+- Msvm_GuestServiceInterfaceComponent.ConfigManagerErrorCode
+- Msvm_GuestServiceInterfaceComponent.ConfigManagerUserConfig
+- Msvm_GuestServiceInterfaceComponent.CreationClassName
+- Msvm_GuestServiceInterfaceComponent.Description
+- Msvm_GuestServiceInterfaceComponent.DeviceID
+- Msvm_GuestServiceInterfaceComponent.ErrorCleared
+- Msvm_GuestServiceInterfaceComponent.ErrorDescription
+- Msvm_GuestServiceInterfaceComponent.InstallDate
+- Msvm_GuestServiceInterfaceComponent.LastErrorCode
+- Msvm_GuestServiceInterfaceComponent.Name
+- Msvm_GuestServiceInterfaceComponent.PNPDeviceID
+- Msvm_GuestServiceInterfaceComponent.PowerManagementCapabilities
+- Msvm_GuestServiceInterfaceComponent.PowerManagementSupported
+- Msvm_GuestServiceInterfaceComponent.Status
+- Msvm_GuestServiceInterfaceComponent.StatusInfo
+- Msvm_GuestServiceInterfaceComponent.SystemCreationClassName
+- Msvm_GuestServiceInterfaceComponent.SystemName
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_GuestServiceInterfaceComponent class

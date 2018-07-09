@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Image_V0_Load
+- Image_V0_Load.BaseAddress
+- Image_V0_Load.ModuleSize
+- Image_V0_Load.ImageFileName
+api_type: 
+- NA
+api_location: 
 ---
 
 # Image\_V0\_Load class

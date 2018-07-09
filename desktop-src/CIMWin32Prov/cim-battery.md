@@ -13,6 +13,46 @@ title: CIM\_Battery class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Battery
+- CIM_Battery.Caption
+- CIM_Battery.Description
+- CIM_Battery.InstallDate
+- CIM_Battery.Name
+- CIM_Battery.Status
+- CIM_Battery.Availability
+- CIM_Battery.ConfigManagerErrorCode
+- CIM_Battery.ConfigManagerUserConfig
+- CIM_Battery.CreationClassName
+- CIM_Battery.DeviceID
+- CIM_Battery.PowerManagementCapabilities
+- CIM_Battery.ErrorCleared
+- CIM_Battery.ErrorDescription
+- CIM_Battery.LastErrorCode
+- CIM_Battery.PNPDeviceID
+- CIM_Battery.PowerManagementSupported
+- CIM_Battery.StatusInfo
+- CIM_Battery.SystemCreationClassName
+- CIM_Battery.SystemName
+- CIM_Battery.BatteryStatus
+- CIM_Battery.Chemistry
+- CIM_Battery.DesignCapacity
+- CIM_Battery.DesignVoltage
+- CIM_Battery.EstimatedChargeRemaining
+- CIM_Battery.EstimatedRunTime
+- CIM_Battery.ExpectedLife
+- CIM_Battery.FullChargeCapacity
+- CIM_Battery.MaxRechargeTime
+- CIM_Battery.SmartBatteryVersion
+- CIM_Battery.TimeOnBattery
+- CIM_Battery.TimeToFullCharge
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Battery class

@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_BootSourceComponent
+- Msvm_BootSourceComponent.GroupComponent
+- Msvm_BootSourceComponent.PartComponent
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_BootSourceComponent class

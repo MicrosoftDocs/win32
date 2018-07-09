@@ -13,6 +13,42 @@ title: CIM\_Slot class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Slot
+- CIM_Slot.Caption
+- CIM_Slot.ConnectorPinout
+- CIM_Slot.ConnectorType
+- CIM_Slot.CreationClassName
+- CIM_Slot.Description
+- CIM_Slot.HeightAllowed
+- CIM_Slot.InstallDate
+- CIM_Slot.LengthAllowed
+- CIM_Slot.Manufacturer
+- CIM_Slot.MaxDataWidth
+- CIM_Slot.Model
+- CIM_Slot.Name
+- CIM_Slot.Number
+- CIM_Slot.OtherIdentifyingInfo
+- CIM_Slot.PartNumber
+- CIM_Slot.PoweredOn
+- CIM_Slot.PurposeDescription
+- CIM_Slot.SerialNumber
+- CIM_Slot.SKU
+- CIM_Slot.SpecialPurpose
+- CIM_Slot.Status
+- CIM_Slot.SupportsHotPlug
+- CIM_Slot.Tag
+- CIM_Slot.ThermalRating
+- CIM_Slot.VccMixedVoltageSupport
+- CIM_Slot.Version
+- CIM_Slot.VppMixedVoltageSupport
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Slot class

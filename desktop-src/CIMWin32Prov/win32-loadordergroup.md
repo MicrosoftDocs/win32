@@ -13,6 +13,22 @@ title: Win32\_LoadOrderGroup class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_LoadOrderGroup
+- Win32_LoadOrderGroup.Caption
+- Win32_LoadOrderGroup.Description
+- Win32_LoadOrderGroup.InstallDate
+- Win32_LoadOrderGroup.Status
+- Win32_LoadOrderGroup.DriverEnabled
+- Win32_LoadOrderGroup.GroupOrder
+- Win32_LoadOrderGroup.Name
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_LoadOrderGroup class

@@ -7,6 +7,22 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- FileIo_DirEnum
+- FileIo_DirEnum.IrpPtr
+- FileIo_DirEnum.TTID
+- FileIo_DirEnum.FileObject
+- FileIo_DirEnum.FileKey
+- FileIo_DirEnum.Length
+- FileIo_DirEnum.InfoClass
+- FileIo_DirEnum.FileIndex
+- FileIo_DirEnum.FileName
+api_type: 
+- NA
+api_location: 
 ---
 
 # FileIo\_DirEnum class

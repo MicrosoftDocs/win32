@@ -7,6 +7,27 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualSystemManagementCapabilities
+- Msvm_VirtualSystemManagementCapabilities.InstanceID
+- Msvm_VirtualSystemManagementCapabilities.Caption
+- Msvm_VirtualSystemManagementCapabilities.Description
+- Msvm_VirtualSystemManagementCapabilities.ElementName
+- Msvm_VirtualSystemManagementCapabilities.ElementNameEditSupported
+- Msvm_VirtualSystemManagementCapabilities.MaxElementNameLen
+- Msvm_VirtualSystemManagementCapabilities.RequestedStatesSupported
+- Msvm_VirtualSystemManagementCapabilities.ElementNameMask
+- Msvm_VirtualSystemManagementCapabilities.VirtualSystemTypesSupported
+- Msvm_VirtualSystemManagementCapabilities.SynchronousMethodsSupported
+- Msvm_VirtualSystemManagementCapabilities.AsynchronousMethodsSupported
+- Msvm_VirtualSystemManagementCapabilities.IndicationsSupported
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualSystemManagementCapabilities class

@@ -7,6 +7,19 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_EthernetSwitchPortRoutingDomainSettingData
+- Msvm_EthernetSwitchPortRoutingDomainSettingData.RoutingDomainGuid
+- Msvm_EthernetSwitchPortRoutingDomainSettingData.RoutingDomainName
+- Msvm_EthernetSwitchPortRoutingDomainSettingData.IsolationIdList
+- Msvm_EthernetSwitchPortRoutingDomainSettingData.IsolationIdNameList
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_EthernetSwitchPortRoutingDomainSettingData class

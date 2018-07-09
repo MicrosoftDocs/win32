@@ -13,6 +13,53 @@ title: Win32\_SystemEnclosure class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_SystemEnclosure
+- Win32_SystemEnclosure.IsCompatible
+- Win32_SystemEnclosure.AudibleAlarm
+- Win32_SystemEnclosure.BreachDescription
+- Win32_SystemEnclosure.CableManagementStrategy
+- Win32_SystemEnclosure.Caption
+- Win32_SystemEnclosure.ChassisTypes
+- Win32_SystemEnclosure.CreationClassName
+- Win32_SystemEnclosure.CurrentRequiredOrProduced
+- Win32_SystemEnclosure.Depth
+- Win32_SystemEnclosure.Description
+- Win32_SystemEnclosure.HeatGeneration
+- Win32_SystemEnclosure.Height
+- Win32_SystemEnclosure.HotSwappable
+- Win32_SystemEnclosure.InstallDate
+- Win32_SystemEnclosure.LockPresent
+- Win32_SystemEnclosure.Manufacturer
+- Win32_SystemEnclosure.Model
+- Win32_SystemEnclosure.Name
+- Win32_SystemEnclosure.NumberOfPowerCords
+- Win32_SystemEnclosure.OtherIdentifyingInfo
+- Win32_SystemEnclosure.PartNumber
+- Win32_SystemEnclosure.PoweredOn
+- Win32_SystemEnclosure.Removable
+- Win32_SystemEnclosure.Replaceable
+- Win32_SystemEnclosure.SecurityBreach
+- Win32_SystemEnclosure.SecurityStatus
+- Win32_SystemEnclosure.SerialNumber
+- Win32_SystemEnclosure.ServiceDescriptions
+- Win32_SystemEnclosure.ServicePhilosophy
+- Win32_SystemEnclosure.SKU
+- Win32_SystemEnclosure.SMBIOSAssetTag
+- Win32_SystemEnclosure.Status
+- Win32_SystemEnclosure.Tag
+- Win32_SystemEnclosure.TypeDescriptions
+- Win32_SystemEnclosure.Version
+- Win32_SystemEnclosure.VisibleAlarm
+- Win32_SystemEnclosure.Weight
+- Win32_SystemEnclosure.Width
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_SystemEnclosure class

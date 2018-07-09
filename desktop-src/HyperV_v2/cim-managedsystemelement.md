@@ -7,6 +7,25 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ManagedSystemElement
+- CIM_ManagedSystemElement.InstallDate
+- CIM_ManagedSystemElement.Name
+- CIM_ManagedSystemElement.OperationalStatus
+- CIM_ManagedSystemElement.StatusDescriptions
+- CIM_ManagedSystemElement.Status
+- CIM_ManagedSystemElement.HealthState
+- CIM_ManagedSystemElement.CommunicationStatus
+- CIM_ManagedSystemElement.DetailedStatus
+- CIM_ManagedSystemElement.OperatingStatus
+- CIM_ManagedSystemElement.PrimaryStatus
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_ManagedSystemElement class

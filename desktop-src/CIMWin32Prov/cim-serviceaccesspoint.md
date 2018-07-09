@@ -13,6 +13,24 @@ title: CIM\_ServiceAccessPoint class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ServiceAccessPoint
+- CIM_ServiceAccessPoint.Caption
+- CIM_ServiceAccessPoint.Description
+- CIM_ServiceAccessPoint.InstallDate
+- CIM_ServiceAccessPoint.Status
+- CIM_ServiceAccessPoint.CreationClassName
+- CIM_ServiceAccessPoint.Name
+- CIM_ServiceAccessPoint.SystemCreationClassName
+- CIM_ServiceAccessPoint.SystemName
+- CIM_ServiceAccessPoint.Type
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_ServiceAccessPoint class

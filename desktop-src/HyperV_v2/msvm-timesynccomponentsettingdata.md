@@ -7,6 +7,39 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_TimeSyncComponentSettingData
+- Msvm_TimeSyncComponentSettingData.InstanceID
+- Msvm_TimeSyncComponentSettingData.Caption
+- Msvm_TimeSyncComponentSettingData.Description
+- Msvm_TimeSyncComponentSettingData.ElementName
+- Msvm_TimeSyncComponentSettingData.ResourceType
+- Msvm_TimeSyncComponentSettingData.OtherResourceType
+- Msvm_TimeSyncComponentSettingData.ResourceSubType
+- Msvm_TimeSyncComponentSettingData.PoolID
+- Msvm_TimeSyncComponentSettingData.ConsumerVisibility
+- Msvm_TimeSyncComponentSettingData.HostResource
+- Msvm_TimeSyncComponentSettingData.AllocationUnits
+- Msvm_TimeSyncComponentSettingData.VirtualQuantity
+- Msvm_TimeSyncComponentSettingData.Reservation
+- Msvm_TimeSyncComponentSettingData.Limit
+- Msvm_TimeSyncComponentSettingData.Weight
+- Msvm_TimeSyncComponentSettingData.AutomaticAllocation
+- Msvm_TimeSyncComponentSettingData.AutomaticDeallocation
+- Msvm_TimeSyncComponentSettingData.Parent
+- Msvm_TimeSyncComponentSettingData.Connection
+- Msvm_TimeSyncComponentSettingData.Address
+- Msvm_TimeSyncComponentSettingData.MappingBehavior
+- Msvm_TimeSyncComponentSettingData.AddressOnParent
+- Msvm_TimeSyncComponentSettingData.VirtualQuantityUnits
+- Msvm_TimeSyncComponentSettingData.EnabledState
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_TimeSyncComponentSettingData class

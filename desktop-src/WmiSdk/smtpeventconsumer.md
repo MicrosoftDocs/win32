@@ -11,6 +11,28 @@ title: SMTPEventConsumer class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SMTPEventConsumer
+- SMTPEventConsumer.CreatorSID
+- SMTPEventConsumer.MachineName
+- SMTPEventConsumer.MaximumQueueSize
+- SMTPEventConsumer.BccLine
+- SMTPEventConsumer.CcLine
+- SMTPEventConsumer.FromLine
+- SMTPEventConsumer.HeaderFields
+- SMTPEventConsumer.Message
+- SMTPEventConsumer.Name
+- SMTPEventConsumer.ReplyToLine
+- SMTPEventConsumer.SMTPServer
+- SMTPEventConsumer.Subject
+- SMTPEventConsumer.ToLine
+api_type: 
+- DllExport
+api_location: 
+- Smtpcons.dll
 ---
 
 # SMTPEventConsumer class

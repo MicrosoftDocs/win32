@@ -13,6 +13,38 @@ title: CIM\_BinarySensor class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_BinarySensor
+- CIM_BinarySensor.Caption
+- CIM_BinarySensor.Description
+- CIM_BinarySensor.InstallDate
+- CIM_BinarySensor.Name
+- CIM_BinarySensor.Status
+- CIM_BinarySensor.Availability
+- CIM_BinarySensor.ConfigManagerErrorCode
+- CIM_BinarySensor.ConfigManagerUserConfig
+- CIM_BinarySensor.CreationClassName
+- CIM_BinarySensor.DeviceID
+- CIM_BinarySensor.PowerManagementCapabilities
+- CIM_BinarySensor.ErrorCleared
+- CIM_BinarySensor.ErrorDescription
+- CIM_BinarySensor.LastErrorCode
+- CIM_BinarySensor.PNPDeviceID
+- CIM_BinarySensor.PowerManagementSupported
+- CIM_BinarySensor.StatusInfo
+- CIM_BinarySensor.SystemCreationClassName
+- CIM_BinarySensor.SystemName
+- CIM_BinarySensor.CurrentReading
+- CIM_BinarySensor.ExpectedReading
+- CIM_BinarySensor.InterpretationOfFalse
+- CIM_BinarySensor.InterpretationOfTrue
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_BinarySensor class

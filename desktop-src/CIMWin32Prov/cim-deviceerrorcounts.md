@@ -13,6 +13,27 @@ title: CIM\_DeviceErrorCounts class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_DeviceErrorCounts
+- CIM_DeviceErrorCounts.Caption
+- CIM_DeviceErrorCounts.Description
+- CIM_DeviceErrorCounts.CriticalErrorCount
+- CIM_DeviceErrorCounts.DeviceCreationClassName
+- CIM_DeviceErrorCounts.DeviceID
+- CIM_DeviceErrorCounts.Name
+- CIM_DeviceErrorCounts.IndeterminateErrorCount
+- CIM_DeviceErrorCounts.MajorErrorCount
+- CIM_DeviceErrorCounts.MinorErrorCount
+- CIM_DeviceErrorCounts.SystemCreationClassName
+- CIM_DeviceErrorCounts.SystemName
+- CIM_DeviceErrorCounts.WarningCount
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_DeviceErrorCounts class

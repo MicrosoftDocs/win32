@@ -13,6 +13,51 @@ title: CIM\_POTSModem class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_POTSModem
+- CIM_POTSModem.AnswerMode
+- CIM_POTSModem.Availability
+- CIM_POTSModem.Caption
+- CIM_POTSModem.CompressionInfo
+- CIM_POTSModem.ConfigManagerErrorCode
+- CIM_POTSModem.ConfigManagerUserConfig
+- CIM_POTSModem.CountriesSupported
+- CIM_POTSModem.CountrySelected
+- CIM_POTSModem.CreationClassName
+- CIM_POTSModem.CurrentPasswords
+- CIM_POTSModem.Description
+- CIM_POTSModem.DeviceID
+- CIM_POTSModem.DialType
+- CIM_POTSModem.ErrorCleared
+- CIM_POTSModem.ErrorControlInfo
+- CIM_POTSModem.ErrorDescription
+- CIM_POTSModem.InactivityTimeout
+- CIM_POTSModem.InstallDate
+- CIM_POTSModem.LastErrorCode
+- CIM_POTSModem.MaxBaudRateToPhone
+- CIM_POTSModem.MaxBaudRateToSerialPort
+- CIM_POTSModem.MaxNumberOfPasswords
+- CIM_POTSModem.ModulationScheme
+- CIM_POTSModem.Name
+- CIM_POTSModem.PNPDeviceID
+- CIM_POTSModem.PowerManagementCapabilities
+- CIM_POTSModem.PowerManagementSupported
+- CIM_POTSModem.RingsBeforeAnswer
+- CIM_POTSModem.SpeakerVolumeInfo
+- CIM_POTSModem.Status
+- CIM_POTSModem.StatusInfo
+- CIM_POTSModem.SupportsCallback
+- CIM_POTSModem.SupportsSynchronousConnect
+- CIM_POTSModem.SystemCreationClassName
+- CIM_POTSModem.SystemName
+- CIM_POTSModem.TimeOfLastReset
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_POTSModem class

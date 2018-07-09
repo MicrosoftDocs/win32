@@ -13,6 +13,22 @@ title: CIM\_FRU class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_FRU
+- CIM_FRU.Caption
+- CIM_FRU.Description
+- CIM_FRU.FRUNumber
+- CIM_FRU.IdentifyingNumber
+- CIM_FRU.Name
+- CIM_FRU.RevisionLevel
+- CIM_FRU.Vendor
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_FRU class

@@ -7,6 +7,22 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_VLANEndpoint
+- CIM_VLANEndpoint.DesiredEndpointMode
+- CIM_VLANEndpoint.OtherEndpointMode
+- CIM_VLANEndpoint.OperationalEndpointMode
+- CIM_VLANEndpoint.DesiredVLANTrunkEncapsulation
+- CIM_VLANEndpoint.OtherTrunkEncapsulation
+- CIM_VLANEndpoint.OperationalVLANTrunkEncapsulation
+- CIM_VLANEndpoint.GVRPStatus
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_VLANEndpoint class

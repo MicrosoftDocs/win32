@@ -13,6 +13,37 @@ title: Win32\_BaseService class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_BaseService
+- Win32_BaseService.AcceptPause
+- Win32_BaseService.AcceptStop
+- Win32_BaseService.Caption
+- Win32_BaseService.CreationClassName
+- Win32_BaseService.Description
+- Win32_BaseService.DesktopInteract
+- Win32_BaseService.DisplayName
+- Win32_BaseService.ErrorControl
+- Win32_BaseService.ExitCode
+- Win32_BaseService.InstallDate
+- Win32_BaseService.Name
+- Win32_BaseService.PathName
+- Win32_BaseService.ServiceSpecificExitCode
+- Win32_BaseService.ServiceType
+- Win32_BaseService.Started
+- Win32_BaseService.StartMode
+- Win32_BaseService.StartName
+- Win32_BaseService.State
+- Win32_BaseService.Status
+- Win32_BaseService.SystemCreationClassName
+- Win32_BaseService.SystemName
+- Win32_BaseService.TagId
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_BaseService class

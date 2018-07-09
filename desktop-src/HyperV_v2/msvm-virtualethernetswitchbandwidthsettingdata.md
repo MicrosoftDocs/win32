@@ -7,6 +7,21 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualEthernetSwitchBandwidthSettingData
+- Msvm_VirtualEthernetSwitchBandwidthSettingData.InstanceID
+- Msvm_VirtualEthernetSwitchBandwidthSettingData.Caption
+- Msvm_VirtualEthernetSwitchBandwidthSettingData.Description
+- Msvm_VirtualEthernetSwitchBandwidthSettingData.ElementName
+- Msvm_VirtualEthernetSwitchBandwidthSettingData.DefaultFlowReservation
+- Msvm_VirtualEthernetSwitchBandwidthSettingData.DefaultFlowWeight
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualEthernetSwitchBandwidthSettingData class

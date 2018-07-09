@@ -13,6 +13,30 @@ title: Win32\_IRQResource class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_IRQResource
+- Win32_IRQResource.Availability
+- Win32_IRQResource.Caption
+- Win32_IRQResource.CreationClassName
+- Win32_IRQResource.CSCreationClassName
+- Win32_IRQResource.CSName
+- Win32_IRQResource.Description
+- Win32_IRQResource.Hardware
+- Win32_IRQResource.InstallDate
+- Win32_IRQResource.IRQNumber
+- Win32_IRQResource.Name
+- Win32_IRQResource.Shareable
+- Win32_IRQResource.Status
+- Win32_IRQResource.TriggerLevel
+- Win32_IRQResource.TriggerType
+- Win32_IRQResource.Vector
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_IRQResource class

@@ -13,6 +13,40 @@ title: Win32\_1394Controller class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_1394Controller
+- Win32_1394Controller.Reset
+- Win32_1394Controller.SetPowerState
+- Win32_1394Controller.Availability
+- Win32_1394Controller.Caption
+- Win32_1394Controller.ConfigManagerErrorCode
+- Win32_1394Controller.ConfigManagerUserConfig
+- Win32_1394Controller.CreationClassName
+- Win32_1394Controller.Description
+- Win32_1394Controller.DeviceID
+- Win32_1394Controller.ErrorCleared
+- Win32_1394Controller.ErrorDescription
+- Win32_1394Controller.InstallDate
+- Win32_1394Controller.LastErrorCode
+- Win32_1394Controller.Manufacturer
+- Win32_1394Controller.MaxNumberControlled
+- Win32_1394Controller.Name
+- Win32_1394Controller.PNPDeviceID
+- Win32_1394Controller.PowerManagementCapabilities
+- Win32_1394Controller.PowerManagementSupported
+- Win32_1394Controller.ProtocolSupported
+- Win32_1394Controller.Status
+- Win32_1394Controller.StatusInfo
+- Win32_1394Controller.SystemCreationClassName
+- Win32_1394Controller.SystemName
+- Win32_1394Controller.TimeOfLastReset
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_1394Controller class

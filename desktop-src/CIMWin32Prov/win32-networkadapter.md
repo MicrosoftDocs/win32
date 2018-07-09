@@ -13,6 +13,57 @@ title: Win32\_NetworkAdapter class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_NetworkAdapter
+- Win32_NetworkAdapter.Reset
+- Win32_NetworkAdapter.SetPowerState
+- Win32_NetworkAdapter.AdapterType
+- Win32_NetworkAdapter.AdapterTypeID
+- Win32_NetworkAdapter.AutoSense
+- Win32_NetworkAdapter.Availability
+- Win32_NetworkAdapter.Caption
+- Win32_NetworkAdapter.ConfigManagerErrorCode
+- Win32_NetworkAdapter.ConfigManagerUserConfig
+- Win32_NetworkAdapter.CreationClassName
+- Win32_NetworkAdapter.Description
+- Win32_NetworkAdapter.DeviceID
+- Win32_NetworkAdapter.ErrorCleared
+- Win32_NetworkAdapter.ErrorDescription
+- Win32_NetworkAdapter.GUID
+- Win32_NetworkAdapter.Index
+- Win32_NetworkAdapter.InstallDate
+- Win32_NetworkAdapter.Installed
+- Win32_NetworkAdapter.InterfaceIndex
+- Win32_NetworkAdapter.LastErrorCode
+- Win32_NetworkAdapter.MACAddress
+- Win32_NetworkAdapter.Manufacturer
+- Win32_NetworkAdapter.MaxNumberControlled
+- Win32_NetworkAdapter.MaxSpeed
+- Win32_NetworkAdapter.Name
+- Win32_NetworkAdapter.NetConnectionID
+- Win32_NetworkAdapter.NetConnectionStatus
+- Win32_NetworkAdapter.NetEnabled
+- Win32_NetworkAdapter.NetworkAddresses
+- Win32_NetworkAdapter.PermanentAddress
+- Win32_NetworkAdapter.PhysicalAdapter
+- Win32_NetworkAdapter.PNPDeviceID
+- Win32_NetworkAdapter.PowerManagementCapabilities
+- Win32_NetworkAdapter.PowerManagementSupported
+- Win32_NetworkAdapter.ProductName
+- Win32_NetworkAdapter.ServiceName
+- Win32_NetworkAdapter.Speed
+- Win32_NetworkAdapter.Status
+- Win32_NetworkAdapter.StatusInfo
+- Win32_NetworkAdapter.SystemCreationClassName
+- Win32_NetworkAdapter.SystemName
+- Win32_NetworkAdapter.TimeOfLastReset
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_NetworkAdapter class

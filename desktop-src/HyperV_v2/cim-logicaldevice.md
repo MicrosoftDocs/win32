@@ -7,6 +7,32 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_LogicalDevice
+- CIM_LogicalDevice.SystemCreationClassName
+- CIM_LogicalDevice.SystemName
+- CIM_LogicalDevice.CreationClassName
+- CIM_LogicalDevice.DeviceID
+- CIM_LogicalDevice.PowerManagementSupported
+- CIM_LogicalDevice.PowerManagementCapabilities
+- CIM_LogicalDevice.Availability
+- CIM_LogicalDevice.StatusInfo
+- CIM_LogicalDevice.LastErrorCode
+- CIM_LogicalDevice.ErrorDescription
+- CIM_LogicalDevice.ErrorCleared
+- CIM_LogicalDevice.OtherIdentifyingInfo
+- CIM_LogicalDevice.PowerOnHours
+- CIM_LogicalDevice.TotalPowerOnHours
+- CIM_LogicalDevice.IdentifyingDescriptions
+- CIM_LogicalDevice.AdditionalAvailability
+- CIM_LogicalDevice.MaxQuiesceTime
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_LogicalDevice class

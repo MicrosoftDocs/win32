@@ -13,6 +13,42 @@ title: Win32\_WMISetting class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_WMISetting
+- Win32_WMISetting.Caption
+- Win32_WMISetting.Description
+- Win32_WMISetting.SettingID
+- Win32_WMISetting.ASPScriptDefaultNamespace
+- Win32_WMISetting.ASPScriptEnabled
+- Win32_WMISetting.AutorecoverMofs
+- Win32_WMISetting.AutoStartWin9X
+- Win32_WMISetting.BackupInterval
+- Win32_WMISetting.BackupLastTime
+- Win32_WMISetting.BuildVersion
+- Win32_WMISetting.DatabaseDirectory
+- Win32_WMISetting.DatabaseMaxSize
+- Win32_WMISetting.EnableAnonWin9xConnections
+- Win32_WMISetting.EnableEvents
+- Win32_WMISetting.EnableStartupHeapPreallocation
+- Win32_WMISetting.HighThresholdOnClientObjects
+- Win32_WMISetting.HighThresholdOnEvents
+- Win32_WMISetting.InstallationDirectory
+- Win32_WMISetting.LastStartupHeapPreallocation
+- Win32_WMISetting.LoggingDirectory
+- Win32_WMISetting.LoggingLevel
+- Win32_WMISetting.LowThresholdOnClientObjects
+- Win32_WMISetting.LowThresholdOnEvents
+- Win32_WMISetting.MaxLogFileSize
+- Win32_WMISetting.MaxWaitOnClientObjects
+- Win32_WMISetting.MaxWaitOnEvents
+- Win32_WMISetting.MofSelfInstallDirectory
+api_type: 
+- DllExport
+api_location: 
+- Wbemcore.dll
 ---
 
 # Win32\_WMISetting class

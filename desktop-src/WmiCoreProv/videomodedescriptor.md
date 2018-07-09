@@ -7,6 +7,41 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- VideoModeDescriptor
+- VideoModeDescriptor.CompositePolarityType
+- VideoModeDescriptor.HorizontalActivePixels
+- VideoModeDescriptor.HorizontalBlankingPixels
+- VideoModeDescriptor.HorizontalBorder
+- VideoModeDescriptor.HorizontalImageSize
+- VideoModeDescriptor.HorizontalPolarityType
+- VideoModeDescriptor.HorizontalRefreshRateDenominator
+- VideoModeDescriptor.HorizontalRefreshRateNumerator
+- VideoModeDescriptor.HorizontalSyncOffset
+- VideoModeDescriptor.HorizontalSyncPulseWidth
+- VideoModeDescriptor.IsInterlaced
+- VideoModeDescriptor.IsSerrationRequired
+- VideoModeDescriptor.IsSyncOnRGB
+- VideoModeDescriptor.PixelClockRate
+- VideoModeDescriptor.StereoModeType
+- VideoModeDescriptor.SyncSignalType
+- VideoModeDescriptor.VerticalActivePixels
+- VideoModeDescriptor.VerticalBlankingPixels
+- VideoModeDescriptor.VerticalBorder
+- VideoModeDescriptor.VerticalImageSize
+- VideoModeDescriptor.VerticalRefreshRateDenominator
+- VideoModeDescriptor.VerticalRefreshRateNumerator
+- VideoModeDescriptor.VerticalSyncOffset
+- VideoModeDescriptor.VerticalPolarityType
+- VideoModeDescriptor.VerticalSyncPulseWidth
+- VideoModeDescriptor.VideoStandardType
+api_type: 
+- DllExport
+api_location: 
+- WmiProv.dll
 ---
 
 # VideoModeDescriptor class

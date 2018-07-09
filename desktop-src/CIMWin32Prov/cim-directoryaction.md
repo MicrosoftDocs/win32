@@ -13,6 +13,25 @@ title: CIM\_DirectoryAction class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_DirectoryAction
+- CIM_DirectoryAction.ActionID
+- CIM_DirectoryAction.Caption
+- CIM_DirectoryAction.Description
+- CIM_DirectoryAction.Direction
+- CIM_DirectoryAction.Name
+- CIM_DirectoryAction.SoftwareElementID
+- CIM_DirectoryAction.SoftwareElementState
+- CIM_DirectoryAction.TargetOperatingSystem
+- CIM_DirectoryAction.Version
+- CIM_DirectoryAction.DirectoryName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_DirectoryAction class

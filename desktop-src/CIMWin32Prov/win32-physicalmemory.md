@@ -13,6 +13,51 @@ title: Win32\_PhysicalMemory class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PhysicalMemory
+- Win32_PhysicalMemory.Attributes
+- Win32_PhysicalMemory.BankLabel
+- Win32_PhysicalMemory.Capacity
+- Win32_PhysicalMemory.Caption
+- Win32_PhysicalMemory.ConfiguredClockSpeed
+- Win32_PhysicalMemory.ConfiguredVoltage
+- Win32_PhysicalMemory.CreationClassName
+- Win32_PhysicalMemory.DataWidth
+- Win32_PhysicalMemory.Description
+- Win32_PhysicalMemory.DeviceLocator
+- Win32_PhysicalMemory.FormFactor
+- Win32_PhysicalMemory.HotSwappable
+- Win32_PhysicalMemory.InstallDate
+- Win32_PhysicalMemory.InterleaveDataDepth
+- Win32_PhysicalMemory.InterleavePosition
+- Win32_PhysicalMemory.Manufacturer
+- Win32_PhysicalMemory.MaxVoltage
+- Win32_PhysicalMemory.MemoryType
+- Win32_PhysicalMemory.MinVoltage
+- Win32_PhysicalMemory.Model
+- Win32_PhysicalMemory.Name
+- Win32_PhysicalMemory.OtherIdentifyingInfo
+- Win32_PhysicalMemory.PartNumber
+- Win32_PhysicalMemory.PositionInRow
+- Win32_PhysicalMemory.PoweredOn
+- Win32_PhysicalMemory.Removable
+- Win32_PhysicalMemory.Replaceable
+- Win32_PhysicalMemory.SerialNumber
+- Win32_PhysicalMemory.SKU
+- Win32_PhysicalMemory.SMBIOSMemoryType
+- Win32_PhysicalMemory.Speed
+- Win32_PhysicalMemory.Status
+- Win32_PhysicalMemory.Tag
+- Win32_PhysicalMemory.TotalWidth
+- Win32_PhysicalMemory.TypeDetail
+- Win32_PhysicalMemory.Version
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PhysicalMemory class

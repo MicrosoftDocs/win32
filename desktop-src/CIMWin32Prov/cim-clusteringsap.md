@@ -13,6 +13,24 @@ title: CIM\_ClusteringSAP class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ClusteringSAP
+- CIM_ClusteringSAP.Caption
+- CIM_ClusteringSAP.Description
+- CIM_ClusteringSAP.InstallDate
+- CIM_ClusteringSAP.Status
+- CIM_ClusteringSAP.CreationClassName
+- CIM_ClusteringSAP.Name
+- CIM_ClusteringSAP.SystemCreationClassName
+- CIM_ClusteringSAP.SystemName
+- CIM_ClusteringSAP.Type
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_ClusteringSAP class

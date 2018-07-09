@@ -13,6 +13,50 @@ title: Win32\_Battery class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_Battery
+- Win32_Battery.Reset
+- Win32_Battery.SetPowerState
+- Win32_Battery.Availability
+- Win32_Battery.BatteryRechargeTime
+- Win32_Battery.BatteryStatus
+- Win32_Battery.Caption
+- Win32_Battery.Chemistry
+- Win32_Battery.ConfigManagerErrorCode
+- Win32_Battery.ConfigManagerUserConfig
+- Win32_Battery.CreationClassName
+- Win32_Battery.Description
+- Win32_Battery.DesignCapacity
+- Win32_Battery.DesignVoltage
+- Win32_Battery.DeviceID
+- Win32_Battery.ErrorCleared
+- Win32_Battery.ErrorDescription
+- Win32_Battery.EstimatedChargeRemaining
+- Win32_Battery.EstimatedRunTime
+- Win32_Battery.ExpectedBatteryLife
+- Win32_Battery.ExpectedLife
+- Win32_Battery.FullChargeCapacity
+- Win32_Battery.InstallDate
+- Win32_Battery.LastErrorCode
+- Win32_Battery.MaxRechargeTime
+- Win32_Battery.Name
+- Win32_Battery.PNPDeviceID
+- Win32_Battery.PowerManagementCapabilities
+- Win32_Battery.PowerManagementSupported
+- Win32_Battery.SmartBatteryVersion
+- Win32_Battery.Status
+- Win32_Battery.StatusInfo
+- Win32_Battery.SystemCreationClassName
+- Win32_Battery.SystemName
+- Win32_Battery.TimeOnBattery
+- Win32_Battery.TimeToFullCharge
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_Battery class

@@ -13,6 +13,35 @@ title: CIM\_UserDevice class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_UserDevice
+- CIM_UserDevice.Availability
+- CIM_UserDevice.Caption
+- CIM_UserDevice.ConfigManagerErrorCode
+- CIM_UserDevice.ConfigManagerUserConfig
+- CIM_UserDevice.CreationClassName
+- CIM_UserDevice.Description
+- CIM_UserDevice.DeviceID
+- CIM_UserDevice.ErrorCleared
+- CIM_UserDevice.ErrorDescription
+- CIM_UserDevice.InstallDate
+- CIM_UserDevice.IsLocked
+- CIM_UserDevice.LastErrorCode
+- CIM_UserDevice.Name
+- CIM_UserDevice.PNPDeviceID
+- CIM_UserDevice.PowerManagementCapabilities
+- CIM_UserDevice.PowerManagementSupported
+- CIM_UserDevice.Status
+- CIM_UserDevice.StatusInfo
+- CIM_UserDevice.SystemCreationClassName
+- CIM_UserDevice.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_UserDevice class

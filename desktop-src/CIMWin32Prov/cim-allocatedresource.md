@@ -13,6 +13,17 @@ title: CIM\_AllocatedResource class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_AllocatedResource
+- CIM_AllocatedResource.Dependent
+- CIM_AllocatedResource.Antecedent
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_AllocatedResource class

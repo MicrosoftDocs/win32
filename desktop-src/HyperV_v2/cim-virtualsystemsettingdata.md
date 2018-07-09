@@ -7,6 +7,32 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_VirtualSystemSettingData
+- CIM_VirtualSystemSettingData.VirtualSystemIdentifier
+- CIM_VirtualSystemSettingData.VirtualSystemType
+- CIM_VirtualSystemSettingData.Notes
+- CIM_VirtualSystemSettingData.CreationTime
+- CIM_VirtualSystemSettingData.ConfigurationID
+- CIM_VirtualSystemSettingData.ConfigurationDataRoot
+- CIM_VirtualSystemSettingData.ConfigurationFile
+- CIM_VirtualSystemSettingData.SnapshotDataRoot
+- CIM_VirtualSystemSettingData.SuspendDataRoot
+- CIM_VirtualSystemSettingData.SwapFileDataRoot
+- CIM_VirtualSystemSettingData.LogDataRoot
+- CIM_VirtualSystemSettingData.AutomaticStartupAction
+- CIM_VirtualSystemSettingData.AutomaticStartupActionDelay
+- CIM_VirtualSystemSettingData.AutomaticStartupActionSequenceNumber
+- CIM_VirtualSystemSettingData.AutomaticShutdownAction
+- CIM_VirtualSystemSettingData.AutomaticRecoveryAction
+- CIM_VirtualSystemSettingData.RecoveryFile
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_VirtualSystemSettingData class

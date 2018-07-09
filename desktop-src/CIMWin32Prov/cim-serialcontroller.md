@@ -13,6 +13,40 @@ title: CIM\_SerialController class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_SerialController
+- CIM_SerialController.Availability
+- CIM_SerialController.Capabilities
+- CIM_SerialController.CapabilityDescriptions
+- CIM_SerialController.Caption
+- CIM_SerialController.ConfigManagerErrorCode
+- CIM_SerialController.ConfigManagerUserConfig
+- CIM_SerialController.CreationClassName
+- CIM_SerialController.Description
+- CIM_SerialController.DeviceID
+- CIM_SerialController.ErrorCleared
+- CIM_SerialController.ErrorDescription
+- CIM_SerialController.InstallDate
+- CIM_SerialController.LastErrorCode
+- CIM_SerialController.MaxBaudRate
+- CIM_SerialController.MaxNumberControlled
+- CIM_SerialController.Name
+- CIM_SerialController.PNPDeviceID
+- CIM_SerialController.PowerManagementCapabilities
+- CIM_SerialController.PowerManagementSupported
+- CIM_SerialController.ProtocolSupported
+- CIM_SerialController.Status
+- CIM_SerialController.StatusInfo
+- CIM_SerialController.SystemCreationClassName
+- CIM_SerialController.SystemName
+- CIM_SerialController.TimeOfLastReset
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_SerialController class

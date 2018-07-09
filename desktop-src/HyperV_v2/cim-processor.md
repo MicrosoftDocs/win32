@@ -7,6 +7,28 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Processor
+- CIM_Processor.Role
+- CIM_Processor.Family
+- CIM_Processor.OtherFamilyDescription
+- CIM_Processor.UpgradeMethod
+- CIM_Processor.MaxClockSpeed
+- CIM_Processor.CurrentClockSpeed
+- CIM_Processor.DataWidth
+- CIM_Processor.AddressWidth
+- CIM_Processor.LoadPercentage
+- CIM_Processor.Stepping
+- CIM_Processor.UniqueID
+- CIM_Processor.CPUStatus
+- CIM_Processor.ExternalBusClockSpeed
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_Processor class

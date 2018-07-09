@@ -13,6 +13,33 @@ title: CIM\_Process class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Process
+- CIM_Process.Caption
+- CIM_Process.CreationClassName
+- CIM_Process.CreationDate
+- CIM_Process.CSCreationClassName
+- CIM_Process.CSName
+- CIM_Process.Description
+- CIM_Process.ExecutionState
+- CIM_Process.Handle
+- CIM_Process.InstallDate
+- CIM_Process.KernelModeTime
+- CIM_Process.Name
+- CIM_Process.OSCreationClassName
+- CIM_Process.OSName
+- CIM_Process.Priority
+- CIM_Process.Status
+- CIM_Process.TerminationDate
+- CIM_Process.UserModeTime
+- CIM_Process.WorkingSetSize
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Process class

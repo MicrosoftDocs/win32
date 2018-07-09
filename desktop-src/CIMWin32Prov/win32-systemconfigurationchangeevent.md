@@ -13,6 +13,18 @@ title: Win32\_SystemConfigurationChangeEvent class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_SystemConfigurationChangeEvent
+- Win32_SystemConfigurationChangeEvent.SECURITY_DESCRIPTOR
+- Win32_SystemConfigurationChangeEvent.TIME_CREATED
+- Win32_SystemConfigurationChangeEvent.EventType
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_SystemConfigurationChangeEvent class

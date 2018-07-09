@@ -11,6 +11,19 @@ title: '\_\_CIMOMIdentification class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- __CIMOMIdentification
+- Root.__CIMOMIdentification.SetupDateTime
+- Root.__CIMOMIdentification.VersionCurrentlyRunning
+- Root.__CIMOMIdentification.VersionUsedToCreateDB
+- Root.__CIMOMIdentification.WorkingDirectory
+api_type: 
+- Schema
+api_location: 
+- Root
 ---
 
 # \_\_CIMOMIdentification class

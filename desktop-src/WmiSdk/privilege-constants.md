@@ -11,6 +11,41 @@ title: Privilege Constants
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- wbemPrivilegeCreateToken
+- wbemPrivilegePrimaryToken
+- wbemPrivilegeLockMemory
+- wbemPrivilegeIncreaseQuota
+- wbemPrivilegeMachineAccount
+- wbemPrivilegeTcb
+- wbemPrivilegeSecurity
+- wbemPrivilegeTakeOwnership
+- wbemPrivilegeLoadDriver
+- wbemPrivilegeSystemProfile
+- wbemPrivilegeSystemtime
+- wbemPrivilegeProfileSingleProcess
+- wbemPrivilegeIncreaseBasePriority
+- wbemPrivilegeCreatePagefile
+- wbemPrivilegeCreatePermanent
+- wbemPrivilegeBackup
+- wbemPrivilegeRestore
+- wbemPrivilegeShutdown
+- wbemPrivilegeDebug
+- wbemPrivilegeAudit
+- wbemPrivilegeSystemEnvironment
+- wbemPrivilegeChangeNotify
+- wbemPrivilegeRemoteShutdown
+- wbemPrivilegeUndock
+- wbemPrivilegeSyncAgent
+- wbemPrivilegeEnableDelegation
+- wbemPrivilegeManageVolume
+api_type: 
+- HeaderDef
+api_location: 
+- Wbemdisp.h
 ---
 
 # Privilege Constants

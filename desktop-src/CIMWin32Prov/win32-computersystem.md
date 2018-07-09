@@ -13,6 +13,80 @@ title: Win32\_ComputerSystem class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_ComputerSystem
+- Win32_ComputerSystem.SetPowerState
+- Win32_ComputerSystem.AdminPasswordStatus
+- Win32_ComputerSystem.AutomaticManagedPagefile
+- Win32_ComputerSystem.AutomaticResetBootOption
+- Win32_ComputerSystem.AutomaticResetCapability
+- Win32_ComputerSystem.BootOptionOnLimit
+- Win32_ComputerSystem.BootOptionOnWatchDog
+- Win32_ComputerSystem.BootROMSupported
+- Win32_ComputerSystem.BootupState
+- Win32_ComputerSystem.BootStatus
+- Win32_ComputerSystem.Caption
+- Win32_ComputerSystem.ChassisBootupState
+- Win32_ComputerSystem.ChassisSKUNumber
+- Win32_ComputerSystem.CreationClassName
+- Win32_ComputerSystem.CurrentTimeZone
+- Win32_ComputerSystem.DaylightInEffect
+- Win32_ComputerSystem.Description
+- Win32_ComputerSystem.DNSHostName
+- Win32_ComputerSystem.Domain
+- Win32_ComputerSystem.DomainRole
+- Win32_ComputerSystem.EnableDaylightSavingsTime
+- Win32_ComputerSystem.FrontPanelResetStatus
+- Win32_ComputerSystem.HypervisorPresent
+- Win32_ComputerSystem.InfraredSupported
+- Win32_ComputerSystem.InitialLoadInfo
+- Win32_ComputerSystem.InstallDate
+- Win32_ComputerSystem.KeyboardPasswordStatus
+- Win32_ComputerSystem.LastLoadInfo
+- Win32_ComputerSystem.Manufacturer
+- Win32_ComputerSystem.Model
+- Win32_ComputerSystem.Name
+- Win32_ComputerSystem.NameFormat
+- Win32_ComputerSystem.NetworkServerModeEnabled
+- Win32_ComputerSystem.NumberOfLogicalProcessors
+- Win32_ComputerSystem.NumberOfProcessors
+- Win32_ComputerSystem.OEMLogoBitmap
+- Win32_ComputerSystem.OEMStringArray
+- Win32_ComputerSystem.PartOfDomain
+- Win32_ComputerSystem.PauseAfterReset
+- Win32_ComputerSystem.PCSystemType
+- Win32_ComputerSystem.PCSystemTypeEx
+- Win32_ComputerSystem.PowerManagementCapabilities
+- Win32_ComputerSystem.PowerManagementSupported
+- Win32_ComputerSystem.PowerOnPasswordStatus
+- Win32_ComputerSystem.PowerState
+- Win32_ComputerSystem.PowerSupplyState
+- Win32_ComputerSystem.PrimaryOwnerContact
+- Win32_ComputerSystem.PrimaryOwnerName
+- Win32_ComputerSystem.ResetCapability
+- Win32_ComputerSystem.ResetCount
+- Win32_ComputerSystem.ResetLimit
+- Win32_ComputerSystem.Roles
+- Win32_ComputerSystem.Status
+- Win32_ComputerSystem.SupportContactDescription
+- Win32_ComputerSystem.SystemFamily
+- Win32_ComputerSystem.SystemSKUNumber
+- Win32_ComputerSystem.SystemStartupDelay
+- Win32_ComputerSystem.SystemStartupOptions
+- Win32_ComputerSystem.SystemStartupSetting
+- Win32_ComputerSystem.SystemType
+- Win32_ComputerSystem.ThermalState
+- Win32_ComputerSystem.TotalPhysicalMemory
+- Win32_ComputerSystem.UserName
+- Win32_ComputerSystem.WakeUpType
+- Win32_ComputerSystem.Workgroup
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_ComputerSystem class

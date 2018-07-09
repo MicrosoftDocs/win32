@@ -7,6 +7,50 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualEthernetSwitch
+- Msvm_VirtualEthernetSwitch.SetPowerState
+- Msvm_VirtualEthernetSwitch.InstanceID
+- Msvm_VirtualEthernetSwitch.Caption
+- Msvm_VirtualEthernetSwitch.Description
+- Msvm_VirtualEthernetSwitch.ElementName
+- Msvm_VirtualEthernetSwitch.InstallDate
+- Msvm_VirtualEthernetSwitch.OperationalStatus
+- Msvm_VirtualEthernetSwitch.StatusDescriptions
+- Msvm_VirtualEthernetSwitch.Status
+- Msvm_VirtualEthernetSwitch.HealthState
+- Msvm_VirtualEthernetSwitch.CommunicationStatus
+- Msvm_VirtualEthernetSwitch.DetailedStatus
+- Msvm_VirtualEthernetSwitch.OperatingStatus
+- Msvm_VirtualEthernetSwitch.PrimaryStatus
+- Msvm_VirtualEthernetSwitch.EnabledState
+- Msvm_VirtualEthernetSwitch.OtherEnabledState
+- Msvm_VirtualEthernetSwitch.RequestedState
+- Msvm_VirtualEthernetSwitch.EnabledDefault
+- Msvm_VirtualEthernetSwitch.TimeOfLastStateChange
+- Msvm_VirtualEthernetSwitch.AvailableRequestedStates
+- Msvm_VirtualEthernetSwitch.TransitioningToState
+- Msvm_VirtualEthernetSwitch.CreationClassName
+- Msvm_VirtualEthernetSwitch.Name
+- Msvm_VirtualEthernetSwitch.PrimaryOwnerName
+- Msvm_VirtualEthernetSwitch.PrimaryOwnerContact
+- Msvm_VirtualEthernetSwitch.Roles
+- Msvm_VirtualEthernetSwitch.NameFormat
+- Msvm_VirtualEthernetSwitch.OtherIdentifyingInfo
+- Msvm_VirtualEthernetSwitch.IdentifyingDescriptions
+- Msvm_VirtualEthernetSwitch.Dedicated
+- Msvm_VirtualEthernetSwitch.OtherDedicatedDescriptions
+- Msvm_VirtualEthernetSwitch.ResetCapability
+- Msvm_VirtualEthernetSwitch.PowerManagementCapabilities
+- Msvm_VirtualEthernetSwitch.MaxVMQOffloads
+- Msvm_VirtualEthernetSwitch.MaxIOVOffloads
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualEthernetSwitch class

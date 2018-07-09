@@ -13,6 +13,17 @@ title: CIM\_Mount class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Mount
+- CIM_Mount.Dependent
+- CIM_Mount.Antecedent
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Mount class

@@ -7,6 +7,78 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_WiFiPort
+- Msvm_WiFiPort.RequestStateChange
+- Msvm_WiFiPort.SetPowerState
+- Msvm_WiFiPort.Reset
+- Msvm_WiFiPort.EnableDevice
+- Msvm_WiFiPort.OnlineDevice
+- Msvm_WiFiPort.QuiesceDevice
+- Msvm_WiFiPort.SaveProperties
+- Msvm_WiFiPort.RestoreProperties
+- Msvm_WiFiPort.InstanceID
+- Msvm_WiFiPort.Caption
+- Msvm_WiFiPort.Description
+- Msvm_WiFiPort.ElementName
+- Msvm_WiFiPort.InstallDate
+- Msvm_WiFiPort.Name
+- Msvm_WiFiPort.OperationalStatus
+- Msvm_WiFiPort.StatusDescriptions
+- Msvm_WiFiPort.Status
+- Msvm_WiFiPort.HealthState
+- Msvm_WiFiPort.CommunicationStatus
+- Msvm_WiFiPort.DetailedStatus
+- Msvm_WiFiPort.OperatingStatus
+- Msvm_WiFiPort.PrimaryStatus
+- Msvm_WiFiPort.EnabledState
+- Msvm_WiFiPort.OtherEnabledState
+- Msvm_WiFiPort.RequestedState
+- Msvm_WiFiPort.EnabledDefault
+- Msvm_WiFiPort.TimeOfLastStateChange
+- Msvm_WiFiPort.AvailableRequestedStates
+- Msvm_WiFiPort.TransitioningToState
+- Msvm_WiFiPort.SystemCreationClassName
+- Msvm_WiFiPort.SystemName
+- Msvm_WiFiPort.CreationClassName
+- Msvm_WiFiPort.DeviceID
+- Msvm_WiFiPort.PowerManagementSupported
+- Msvm_WiFiPort.PowerManagementCapabilities
+- Msvm_WiFiPort.Availability
+- Msvm_WiFiPort.StatusInfo
+- Msvm_WiFiPort.LastErrorCode
+- Msvm_WiFiPort.ErrorDescription
+- Msvm_WiFiPort.ErrorCleared
+- Msvm_WiFiPort.OtherIdentifyingInfo
+- Msvm_WiFiPort.PowerOnHours
+- Msvm_WiFiPort.TotalPowerOnHours
+- Msvm_WiFiPort.IdentifyingDescriptions
+- Msvm_WiFiPort.AdditionalAvailability
+- Msvm_WiFiPort.MaxQuiesceTime
+- Msvm_WiFiPort.Speed
+- Msvm_WiFiPort.MaxSpeed
+- Msvm_WiFiPort.RequestedSpeed
+- Msvm_WiFiPort.UsageRestriction
+- Msvm_WiFiPort.PortType
+- Msvm_WiFiPort.OtherPortType
+- Msvm_WiFiPort.OtherNetworkPortType
+- Msvm_WiFiPort.PortNumber
+- Msvm_WiFiPort.LinkTechnology
+- Msvm_WiFiPort.OtherLinkTechnology
+- Msvm_WiFiPort.PermanentAddress
+- Msvm_WiFiPort.NetworkAddresses
+- Msvm_WiFiPort.FullDuplex
+- Msvm_WiFiPort.AutoSense
+- Msvm_WiFiPort.SupportedMaximumTransmissionUnit
+- Msvm_WiFiPort.ActiveMaximumTransmissionUnit
+- Msvm_WiFiPort.IsBound
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_WiFiPort class

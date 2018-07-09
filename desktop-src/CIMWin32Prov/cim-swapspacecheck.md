@@ -13,6 +13,25 @@ title: CIM\_SwapSpaceCheck class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_SwapSpaceCheck
+- CIM_SwapSpaceCheck.CheckID
+- CIM_SwapSpaceCheck.Caption
+- CIM_SwapSpaceCheck.Description
+- CIM_SwapSpaceCheck.CheckMode
+- CIM_SwapSpaceCheck.Name
+- CIM_SwapSpaceCheck.TargetOperatingSystem
+- CIM_SwapSpaceCheck.Version
+- CIM_SwapSpaceCheck.SoftwareElementID
+- CIM_SwapSpaceCheck.SoftwareElementState
+- CIM_SwapSpaceCheck.SwapSpaceSize
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_SwapSpaceCheck class

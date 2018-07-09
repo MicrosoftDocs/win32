@@ -7,6 +7,46 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualSystemMigrationService
+- Msvm_VirtualSystemMigrationService.InstanceID
+- Msvm_VirtualSystemMigrationService.Caption
+- Msvm_VirtualSystemMigrationService.Description
+- Msvm_VirtualSystemMigrationService.ElementName
+- Msvm_VirtualSystemMigrationService.InstallDate
+- Msvm_VirtualSystemMigrationService.OperationalStatus
+- Msvm_VirtualSystemMigrationService.StatusDescriptions
+- Msvm_VirtualSystemMigrationService.Status
+- Msvm_VirtualSystemMigrationService.HealthState
+- Msvm_VirtualSystemMigrationService.CommunicationStatus
+- Msvm_VirtualSystemMigrationService.DetailedStatus
+- Msvm_VirtualSystemMigrationService.OperatingStatus
+- Msvm_VirtualSystemMigrationService.PrimaryStatus
+- Msvm_VirtualSystemMigrationService.EnabledState
+- Msvm_VirtualSystemMigrationService.OtherEnabledState
+- Msvm_VirtualSystemMigrationService.RequestedState
+- Msvm_VirtualSystemMigrationService.EnabledDefault
+- Msvm_VirtualSystemMigrationService.TimeOfLastStateChange
+- Msvm_VirtualSystemMigrationService.AvailableRequestedStates
+- Msvm_VirtualSystemMigrationService.TransitioningToState
+- Msvm_VirtualSystemMigrationService.SystemCreationClassName
+- Msvm_VirtualSystemMigrationService.SystemName
+- Msvm_VirtualSystemMigrationService.Name
+- Msvm_VirtualSystemMigrationService.CreationClassName
+- Msvm_VirtualSystemMigrationService.PrimaryOwnerName
+- Msvm_VirtualSystemMigrationService.PrimaryOwnerContact
+- Msvm_VirtualSystemMigrationService.StartMode
+- Msvm_VirtualSystemMigrationService.Started
+- Msvm_VirtualSystemMigrationService.ActiveVirtualSystemMigrationCount
+- Msvm_VirtualSystemMigrationService.ActiveStorageMigrationCount
+- Msvm_VirtualSystemMigrationService.MigrationServiceListenerIPAddressList
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualSystemMigrationService class

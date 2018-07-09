@@ -13,6 +13,25 @@ title: CIM\_MemoryMappedIO class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_MemoryMappedIO
+- CIM_MemoryMappedIO.Caption
+- CIM_MemoryMappedIO.Description
+- CIM_MemoryMappedIO.InstallDate
+- CIM_MemoryMappedIO.Name
+- CIM_MemoryMappedIO.Status
+- CIM_MemoryMappedIO.CreationClassName
+- CIM_MemoryMappedIO.CSCreationClassName
+- CIM_MemoryMappedIO.CSName
+- CIM_MemoryMappedIO.EndingAddress
+- CIM_MemoryMappedIO.StartingAddress
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_MemoryMappedIO class

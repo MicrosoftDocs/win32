@@ -13,6 +13,54 @@ title: Win32\_PortableBattery class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PortableBattery
+- Win32_PortableBattery.Reset
+- Win32_PortableBattery.SetPowerState
+- Win32_PortableBattery.Availability
+- Win32_PortableBattery.BatteryStatus
+- Win32_PortableBattery.CapacityMultiplier
+- Win32_PortableBattery.Caption
+- Win32_PortableBattery.Chemistry
+- Win32_PortableBattery.ConfigManagerErrorCode
+- Win32_PortableBattery.ConfigManagerUserConfig
+- Win32_PortableBattery.CreationClassName
+- Win32_PortableBattery.Description
+- Win32_PortableBattery.DesignCapacity
+- Win32_PortableBattery.DesignVoltage
+- Win32_PortableBattery.DeviceID
+- Win32_PortableBattery.ErrorCleared
+- Win32_PortableBattery.ErrorDescription
+- Win32_PortableBattery.EstimatedChargeRemaining
+- Win32_PortableBattery.EstimatedRunTime
+- Win32_PortableBattery.ExpectedBatteryLife
+- Win32_PortableBattery.ExpectedLife
+- Win32_PortableBattery.FullChargeCapacity
+- Win32_PortableBattery.InstallDate
+- Win32_PortableBattery.LastErrorCode
+- Win32_PortableBattery.Location
+- Win32_PortableBattery.ManufactureDate
+- Win32_PortableBattery.Manufacturer
+- Win32_PortableBattery.MaxBatteryError
+- Win32_PortableBattery.MaxRechargeTime
+- Win32_PortableBattery.Name
+- Win32_PortableBattery.PNPDeviceID
+- Win32_PortableBattery.PowerManagementCapabilities
+- Win32_PortableBattery.PowerManagementSupported
+- Win32_PortableBattery.SmartBatteryVersion
+- Win32_PortableBattery.Status
+- Win32_PortableBattery.StatusInfo
+- Win32_PortableBattery.SystemCreationClassName
+- Win32_PortableBattery.SystemName
+- Win32_PortableBattery.TimeOnBattery
+- Win32_PortableBattery.TimeToFullCharge
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PortableBattery class

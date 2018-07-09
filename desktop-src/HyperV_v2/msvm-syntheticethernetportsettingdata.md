@@ -7,6 +7,45 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_SyntheticEthernetPortSettingData
+- Msvm_SyntheticEthernetPortSettingData.InstanceID
+- Msvm_SyntheticEthernetPortSettingData.Caption
+- Msvm_SyntheticEthernetPortSettingData.Description
+- Msvm_SyntheticEthernetPortSettingData.ElementName
+- Msvm_SyntheticEthernetPortSettingData.ResourceType
+- Msvm_SyntheticEthernetPortSettingData.OtherResourceType
+- Msvm_SyntheticEthernetPortSettingData.ResourceSubType
+- Msvm_SyntheticEthernetPortSettingData.PoolID
+- Msvm_SyntheticEthernetPortSettingData.ConsumerVisibility
+- Msvm_SyntheticEthernetPortSettingData.HostResource
+- Msvm_SyntheticEthernetPortSettingData.AllocationUnits
+- Msvm_SyntheticEthernetPortSettingData.VirtualQuantity
+- Msvm_SyntheticEthernetPortSettingData.Reservation
+- Msvm_SyntheticEthernetPortSettingData.Limit
+- Msvm_SyntheticEthernetPortSettingData.Weight
+- Msvm_SyntheticEthernetPortSettingData.AutomaticAllocation
+- Msvm_SyntheticEthernetPortSettingData.AutomaticDeallocation
+- Msvm_SyntheticEthernetPortSettingData.Parent
+- Msvm_SyntheticEthernetPortSettingData.Connection
+- Msvm_SyntheticEthernetPortSettingData.Address
+- Msvm_SyntheticEthernetPortSettingData.MappingBehavior
+- Msvm_SyntheticEthernetPortSettingData.AddressOnParent
+- Msvm_SyntheticEthernetPortSettingData.VirtualQuantityUnits
+- Msvm_SyntheticEthernetPortSettingData.DesiredVLANEndpointMode
+- Msvm_SyntheticEthernetPortSettingData.OtherEndpointMode
+- Msvm_SyntheticEthernetPortSettingData.VirtualSystemIdentifiers
+- Msvm_SyntheticEthernetPortSettingData.DeviceNamingEnabled
+- Msvm_SyntheticEthernetPortSettingData.AllowPacketDirect
+- Msvm_SyntheticEthernetPortSettingData.StaticMacAddress
+- Msvm_SyntheticEthernetPortSettingData.ClusterMonitored
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_SyntheticEthernetPortSettingData class

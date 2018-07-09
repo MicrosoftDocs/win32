@@ -13,6 +13,41 @@ title: CIM\_FlatPanel class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_FlatPanel
+- CIM_FlatPanel.Availability
+- CIM_FlatPanel.Caption
+- CIM_FlatPanel.ConfigManagerErrorCode
+- CIM_FlatPanel.ConfigManagerUserConfig
+- CIM_FlatPanel.CreationClassName
+- CIM_FlatPanel.Description
+- CIM_FlatPanel.DeviceID
+- CIM_FlatPanel.DisplayType
+- CIM_FlatPanel.ErrorCleared
+- CIM_FlatPanel.ErrorDescription
+- CIM_FlatPanel.HorizontalResolution
+- CIM_FlatPanel.InstallDate
+- CIM_FlatPanel.IsLocked
+- CIM_FlatPanel.LastErrorCode
+- CIM_FlatPanel.LightSource
+- CIM_FlatPanel.Name
+- CIM_FlatPanel.PNPDeviceID
+- CIM_FlatPanel.PowerManagementCapabilities
+- CIM_FlatPanel.PowerManagementSupported
+- CIM_FlatPanel.ScanMode
+- CIM_FlatPanel.Status
+- CIM_FlatPanel.StatusInfo
+- CIM_FlatPanel.SupportsColor
+- CIM_FlatPanel.SystemCreationClassName
+- CIM_FlatPanel.SystemName
+- CIM_FlatPanel.VerticalResolution
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_FlatPanel class

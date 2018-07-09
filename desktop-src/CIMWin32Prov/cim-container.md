@@ -13,6 +13,18 @@ title: CIM\_Container class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Container
+- CIM_Container.PartComponent
+- CIM_Container.GroupComponent
+- CIM_Container.LocationWithinContainer
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Container class

@@ -7,6 +7,23 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ReplicationRelationship
+- Msvm_ReplicationRelationship.InstanceID
+- Msvm_ReplicationRelationship.ReplicationState
+- Msvm_ReplicationRelationship.ReplicationHealth
+- Msvm_ReplicationRelationship.FailedOverReplicationType
+- Msvm_ReplicationRelationship.LastReplicationType
+- Msvm_ReplicationRelationship.LastApplicationConsistentReplicationTime
+- Msvm_ReplicationRelationship.LastReplicationTime
+- Msvm_ReplicationRelationship.LastApplyTime
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ReplicationRelationship class

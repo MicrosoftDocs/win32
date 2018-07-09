@@ -13,6 +13,23 @@ title: Win32\_StartupCommand class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_StartupCommand
+- Win32_StartupCommand.Caption
+- Win32_StartupCommand.Description
+- Win32_StartupCommand.SettingID
+- Win32_StartupCommand.Command
+- Win32_StartupCommand.Location
+- Win32_StartupCommand.Name
+- Win32_StartupCommand.User
+- Win32_StartupCommand.UserSID
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_StartupCommand class

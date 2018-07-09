@@ -13,6 +13,34 @@ title: CIM\_LocalFileSystem class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_LocalFileSystem
+- CIM_LocalFileSystem.Caption
+- CIM_LocalFileSystem.Description
+- CIM_LocalFileSystem.InstallDate
+- CIM_LocalFileSystem.Name
+- CIM_LocalFileSystem.Status
+- CIM_LocalFileSystem.AvailableSpace
+- CIM_LocalFileSystem.BlockSize
+- CIM_LocalFileSystem.CasePreserved
+- CIM_LocalFileSystem.CaseSensitive
+- CIM_LocalFileSystem.CodeSet
+- CIM_LocalFileSystem.CompressionMethod
+- CIM_LocalFileSystem.CreationClassName
+- CIM_LocalFileSystem.CSCreationClassName
+- CIM_LocalFileSystem.CSName
+- CIM_LocalFileSystem.EncryptionMethod
+- CIM_LocalFileSystem.FileSystemSize
+- CIM_LocalFileSystem.MaxFileNameLength
+- CIM_LocalFileSystem.ReadOnly
+- CIM_LocalFileSystem.Root
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_LocalFileSystem class

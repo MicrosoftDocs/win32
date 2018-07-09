@@ -11,6 +11,43 @@ title: CommandLineEventConsumer class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CommandLineEventConsumer
+- CommandLineEventConsumer.CreatorSID
+- CommandLineEventConsumer.MachineName
+- CommandLineEventConsumer.MaximumQueueSize
+- CommandLineEventConsumer.CommandLineTemplate
+- CommandLineEventConsumer.CreateNewConsole
+- CommandLineEventConsumer.CreateNewProcessGroup
+- CommandLineEventConsumer.CreateSeparateWowVdm
+- CommandLineEventConsumer.CreateSharedWowVdm
+- CommandLineEventConsumer.DesktopName
+- CommandLineEventConsumer.ExecutablePath
+- CommandLineEventConsumer.FillAttributes
+- CommandLineEventConsumer.ForceOffFeedback
+- CommandLineEventConsumer.ForceOnFeedback
+- CommandLineEventConsumer.KillTimeout
+- CommandLineEventConsumer.Name
+- CommandLineEventConsumer.Priority
+- CommandLineEventConsumer.RunInteractively
+- CommandLineEventConsumer.ShowWindowCommand
+- CommandLineEventConsumer.UseDefaultErrorMode
+- CommandLineEventConsumer.WindowTitle
+- CommandLineEventConsumer.WorkingDirectory
+- CommandLineEventConsumer.XCoordinate
+- CommandLineEventConsumer.XNumCharacters
+- CommandLineEventConsumer.XSize
+- CommandLineEventConsumer.YCoordinate
+- CommandLineEventConsumer.YNumCharacters
+- CommandLineEventConsumer.YSize
+- CommandLineEventConsumer.FillAttribute
+api_type: 
+- DllExport
+api_location: 
+- Wbemcons.dll
 ---
 
 # CommandLineEventConsumer class

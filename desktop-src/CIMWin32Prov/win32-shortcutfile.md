@@ -13,6 +13,49 @@ title: Win32\_ShortcutFile class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_ShortcutFile
+- Win32_ShortcutFile.Caption
+- Win32_ShortcutFile.Description
+- Win32_ShortcutFile.InstallDate
+- Win32_ShortcutFile.Status
+- Win32_ShortcutFile.AccessMask
+- Win32_ShortcutFile.Archive
+- Win32_ShortcutFile.Compressed
+- Win32_ShortcutFile.CompressionMethod
+- Win32_ShortcutFile.CreationClassName
+- Win32_ShortcutFile.CreationDate
+- Win32_ShortcutFile.CSCreationClassName
+- Win32_ShortcutFile.CSName
+- Win32_ShortcutFile.Drive
+- Win32_ShortcutFile.EightDotThreeFileName
+- Win32_ShortcutFile.Encrypted
+- Win32_ShortcutFile.EncryptionMethod
+- Win32_ShortcutFile.Name
+- Win32_ShortcutFile.Extension
+- Win32_ShortcutFile.FileName
+- Win32_ShortcutFile.FileSize
+- Win32_ShortcutFile.FileType
+- Win32_ShortcutFile.FSCreationClassName
+- Win32_ShortcutFile.FSName
+- Win32_ShortcutFile.Hidden
+- Win32_ShortcutFile.InUseCount
+- Win32_ShortcutFile.LastAccessed
+- Win32_ShortcutFile.LastModified
+- Win32_ShortcutFile.Path
+- Win32_ShortcutFile.Readable
+- Win32_ShortcutFile.System
+- Win32_ShortcutFile.Writeable
+- Win32_ShortcutFile.Manufacturer
+- Win32_ShortcutFile.Version
+- Win32_ShortcutFile.Target
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_ShortcutFile class

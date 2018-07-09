@@ -7,6 +7,27 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SystemConfig_V0_PhyDisk
+- SystemConfig_V0_PhyDisk.DiskNumber
+- SystemConfig_V0_PhyDisk.BytesPerSector
+- SystemConfig_V0_PhyDisk.SectorsPerTrack
+- SystemConfig_V0_PhyDisk.TracksPerCylinder
+- SystemConfig_V0_PhyDisk.Cylinders
+- SystemConfig_V0_PhyDisk.SCSIPort
+- SystemConfig_V0_PhyDisk.SCSIPath
+- SystemConfig_V0_PhyDisk.SCSITarget
+- SystemConfig_V0_PhyDisk.SCSILun
+- SystemConfig_V0_PhyDisk.Manufacturer
+- SystemConfig_V0_PhyDisk.PartitionCount
+- SystemConfig_V0_PhyDisk.WriteCacheEnabled
+- SystemConfig_V0_PhyDisk.BootDriveLetter
+api_type: 
+- NA
+api_location: 
 ---
 
 # SystemConfig\_V0\_PhyDisk class

@@ -13,6 +13,66 @@ title: Win32\_CDROMDrive class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_CDROMDrive
+- Win32_CDROMDrive.Reset
+- Win32_CDROMDrive.SetPowerState
+- Win32_CDROMDrive.Availability
+- Win32_CDROMDrive.Capabilities
+- Win32_CDROMDrive.CapabilityDescriptions
+- Win32_CDROMDrive.Caption
+- Win32_CDROMDrive.CompressionMethod
+- Win32_CDROMDrive.ConfigManagerErrorCode
+- Win32_CDROMDrive.ConfigManagerUserConfig
+- Win32_CDROMDrive.CreationClassName
+- Win32_CDROMDrive.DefaultBlockSize
+- Win32_CDROMDrive.Description
+- Win32_CDROMDrive.DeviceID
+- Win32_CDROMDrive.Drive
+- Win32_CDROMDrive.DriveIntegrity
+- Win32_CDROMDrive.ErrorCleared
+- Win32_CDROMDrive.ErrorDescription
+- Win32_CDROMDrive.ErrorMethodology
+- Win32_CDROMDrive.FileSystemFlags
+- Win32_CDROMDrive.FileSystemFlagsEx
+- Win32_CDROMDrive.Id
+- Win32_CDROMDrive.InstallDate
+- Win32_CDROMDrive.LastErrorCode
+- Win32_CDROMDrive.Manufacturer
+- Win32_CDROMDrive.MaxBlockSize
+- Win32_CDROMDrive.MaximumComponentLength
+- Win32_CDROMDrive.MaxMediaSize
+- Win32_CDROMDrive.MediaLoaded
+- Win32_CDROMDrive.MediaType
+- Win32_CDROMDrive.MfrAssignedRevisionLevel
+- Win32_CDROMDrive.MinBlockSize
+- Win32_CDROMDrive.Name
+- Win32_CDROMDrive.NeedsCleaning
+- Win32_CDROMDrive.NumberOfMediaSupported
+- Win32_CDROMDrive.PNPDeviceID
+- Win32_CDROMDrive.PowerManagementCapabilities
+- Win32_CDROMDrive.PowerManagementSupported
+- Win32_CDROMDrive.RevisionLevel
+- Win32_CDROMDrive.SCSIBus
+- Win32_CDROMDrive.SCSILogicalUnit
+- Win32_CDROMDrive.SCSIPort
+- Win32_CDROMDrive.SCSITargetId
+- Win32_CDROMDrive.SerialNumber
+- Win32_CDROMDrive.Size
+- Win32_CDROMDrive.Status
+- Win32_CDROMDrive.StatusInfo
+- Win32_CDROMDrive.SystemCreationClassName
+- Win32_CDROMDrive.SystemName
+- Win32_CDROMDrive.TransferRate
+- Win32_CDROMDrive.VolumeName
+- Win32_CDROMDrive.VolumeSerialNumber
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_CDROMDrive class

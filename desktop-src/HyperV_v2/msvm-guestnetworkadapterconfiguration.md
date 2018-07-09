@@ -7,6 +7,23 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_GuestNetworkAdapterConfiguration
+- Msvm_GuestNetworkAdapterConfiguration.InstanceID
+- Msvm_GuestNetworkAdapterConfiguration.ProtocolIFType
+- Msvm_GuestNetworkAdapterConfiguration.DHCPEnabled
+- Msvm_GuestNetworkAdapterConfiguration.IPAddresses
+- Msvm_GuestNetworkAdapterConfiguration.Subnets
+- Msvm_GuestNetworkAdapterConfiguration.DefaultGateways
+- Msvm_GuestNetworkAdapterConfiguration.DNSServers
+- Msvm_GuestNetworkAdapterConfiguration.IPAddressOrigins
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_GuestNetworkAdapterConfiguration class

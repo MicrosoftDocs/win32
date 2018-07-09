@@ -7,6 +7,18 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SystemConfig_V0_Services
+- SystemConfig_V0_Services.ServiceName
+- SystemConfig_V0_Services.DisplayName
+- SystemConfig_V0_Services.ProcessName
+- SystemConfig_V0_Services.ProcessId
+api_type: 
+- NA
+api_location: 
 ---
 
 # SystemConfig\_V0\_Services class

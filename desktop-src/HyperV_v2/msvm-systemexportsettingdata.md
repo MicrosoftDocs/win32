@@ -7,6 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_SystemExportSettingData
+- Msvm_SystemExportSettingData.ManagedElement
+- Msvm_SystemExportSettingData.SettingData
+- Msvm_SystemExportSettingData.IsDefault
+- Msvm_SystemExportSettingData.IsCurrent
+- Msvm_SystemExportSettingData.IsNext
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_SystemExportSettingData class

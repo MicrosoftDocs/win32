@@ -13,6 +13,29 @@ title: CIM\_SoftwareElementVersionCheck class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_SoftwareElementVersionCheck
+- CIM_SoftwareElementVersionCheck.Caption
+- CIM_SoftwareElementVersionCheck.CheckID
+- CIM_SoftwareElementVersionCheck.CheckMode
+- CIM_SoftwareElementVersionCheck.Description
+- CIM_SoftwareElementVersionCheck.LowerSoftwareElementVersion
+- CIM_SoftwareElementVersionCheck.Name
+- CIM_SoftwareElementVersionCheck.SoftwareElementID
+- CIM_SoftwareElementVersionCheck.SoftwareElementName
+- CIM_SoftwareElementVersionCheck.SoftwareElementState
+- CIM_SoftwareElementVersionCheck.SoftwareElementStateDesired
+- CIM_SoftwareElementVersionCheck.TargetOperatingSystem
+- CIM_SoftwareElementVersionCheck.TargetOperatingSystemDesired
+- CIM_SoftwareElementVersionCheck.UpperSoftwareElementVersion
+- CIM_SoftwareElementVersionCheck.Version
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_SoftwareElementVersionCheck class

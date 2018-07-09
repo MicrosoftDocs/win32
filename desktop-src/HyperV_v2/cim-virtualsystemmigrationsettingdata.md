@@ -7,6 +7,21 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_VirtualSystemMigrationSettingData
+- CIM_VirtualSystemMigrationSettingData.MigrationType
+- CIM_VirtualSystemMigrationSettingData.Priority
+- CIM_VirtualSystemMigrationSettingData.Bandwidth
+- CIM_VirtualSystemMigrationSettingData.BandwidthUnit
+- CIM_VirtualSystemMigrationSettingData.OtherTransportType
+- CIM_VirtualSystemMigrationSettingData.TransportType
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_VirtualSystemMigrationSettingData class

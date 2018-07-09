@@ -13,6 +13,19 @@ title: Win32\_LogicalDiskToPartition class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_LogicalDiskToPartition
+- Win32_LogicalDiskToPartition.EndingAddress
+- Win32_LogicalDiskToPartition.StartingAddress
+- Win32_LogicalDiskToPartition.Antecedent
+- Win32_LogicalDiskToPartition.Dependent
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_LogicalDiskToPartition class

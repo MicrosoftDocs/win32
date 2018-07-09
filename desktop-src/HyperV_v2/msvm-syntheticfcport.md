@@ -7,6 +7,79 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_SyntheticFcPort
+- Msvm_SyntheticFcPort.SetPowerState
+- Msvm_SyntheticFcPort.EnableDevice
+- Msvm_SyntheticFcPort.OnlineDevice
+- Msvm_SyntheticFcPort.QuiesceDevice
+- Msvm_SyntheticFcPort.SaveProperties
+- Msvm_SyntheticFcPort.RestoreProperties
+- Msvm_SyntheticFcPort.InstanceID
+- Msvm_SyntheticFcPort.Caption
+- Msvm_SyntheticFcPort.Description
+- Msvm_SyntheticFcPort.ElementName
+- Msvm_SyntheticFcPort.InstallDate
+- Msvm_SyntheticFcPort.Name
+- Msvm_SyntheticFcPort.OperationalStatus
+- Msvm_SyntheticFcPort.StatusDescriptions
+- Msvm_SyntheticFcPort.Status
+- Msvm_SyntheticFcPort.HealthState
+- Msvm_SyntheticFcPort.CommunicationStatus
+- Msvm_SyntheticFcPort.DetailedStatus
+- Msvm_SyntheticFcPort.OperatingStatus
+- Msvm_SyntheticFcPort.PrimaryStatus
+- Msvm_SyntheticFcPort.EnabledState
+- Msvm_SyntheticFcPort.OtherEnabledState
+- Msvm_SyntheticFcPort.RequestedState
+- Msvm_SyntheticFcPort.EnabledDefault
+- Msvm_SyntheticFcPort.TimeOfLastStateChange
+- Msvm_SyntheticFcPort.AvailableRequestedStates
+- Msvm_SyntheticFcPort.TransitioningToState
+- Msvm_SyntheticFcPort.SystemCreationClassName
+- Msvm_SyntheticFcPort.SystemName
+- Msvm_SyntheticFcPort.CreationClassName
+- Msvm_SyntheticFcPort.DeviceID
+- Msvm_SyntheticFcPort.PowerManagementSupported
+- Msvm_SyntheticFcPort.PowerManagementCapabilities
+- Msvm_SyntheticFcPort.Availability
+- Msvm_SyntheticFcPort.StatusInfo
+- Msvm_SyntheticFcPort.LastErrorCode
+- Msvm_SyntheticFcPort.ErrorDescription
+- Msvm_SyntheticFcPort.ErrorCleared
+- Msvm_SyntheticFcPort.OtherIdentifyingInfo
+- Msvm_SyntheticFcPort.PowerOnHours
+- Msvm_SyntheticFcPort.TotalPowerOnHours
+- Msvm_SyntheticFcPort.IdentifyingDescriptions
+- Msvm_SyntheticFcPort.AdditionalAvailability
+- Msvm_SyntheticFcPort.MaxQuiesceTime
+- Msvm_SyntheticFcPort.Speed
+- Msvm_SyntheticFcPort.MaxSpeed
+- Msvm_SyntheticFcPort.RequestedSpeed
+- Msvm_SyntheticFcPort.UsageRestriction
+- Msvm_SyntheticFcPort.PortType
+- Msvm_SyntheticFcPort.OtherPortType
+- Msvm_SyntheticFcPort.OtherNetworkPortType
+- Msvm_SyntheticFcPort.PortNumber
+- Msvm_SyntheticFcPort.LinkTechnology
+- Msvm_SyntheticFcPort.OtherLinkTechnology
+- Msvm_SyntheticFcPort.PermanentAddress
+- Msvm_SyntheticFcPort.NetworkAddresses
+- Msvm_SyntheticFcPort.FullDuplex
+- Msvm_SyntheticFcPort.AutoSense
+- Msvm_SyntheticFcPort.SupportedMaximumTransmissionUnit
+- Msvm_SyntheticFcPort.ActiveMaximumTransmissionUnit
+- Msvm_SyntheticFcPort.SupportedCOS
+- Msvm_SyntheticFcPort.ActiveCOS
+- Msvm_SyntheticFcPort.SupportedFC4Types
+- Msvm_SyntheticFcPort.ActiveFC4Types
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_SyntheticFcPort class

@@ -7,6 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_BasedOn
+- Msvm_BasedOn.Antecedent
+- Msvm_BasedOn.Dependent
+- Msvm_BasedOn.StartingAddress
+- Msvm_BasedOn.EndingAddress
+- Msvm_BasedOn.OrderIndex
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_BasedOn class

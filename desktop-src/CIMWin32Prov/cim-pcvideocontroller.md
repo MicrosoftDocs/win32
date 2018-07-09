@@ -13,6 +13,56 @@ title: CIM\_PCVideoController class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_PCVideoController
+- CIM_PCVideoController.AcceleratorCapabilities
+- CIM_PCVideoController.Availability
+- CIM_PCVideoController.CapabilityDescriptions
+- CIM_PCVideoController.Caption
+- CIM_PCVideoController.ConfigManagerErrorCode
+- CIM_PCVideoController.ConfigManagerUserConfig
+- CIM_PCVideoController.CreationClassName
+- CIM_PCVideoController.CurrentBitsPerPixel
+- CIM_PCVideoController.CurrentHorizontalResolution
+- CIM_PCVideoController.CurrentNumberOfColors
+- CIM_PCVideoController.CurrentNumberOfColumns
+- CIM_PCVideoController.CurrentNumberOfRows
+- CIM_PCVideoController.CurrentRefreshRate
+- CIM_PCVideoController.CurrentScanMode
+- CIM_PCVideoController.CurrentVerticalResolution
+- CIM_PCVideoController.Description
+- CIM_PCVideoController.DeviceID
+- CIM_PCVideoController.ErrorCleared
+- CIM_PCVideoController.ErrorDescription
+- CIM_PCVideoController.InstallDate
+- CIM_PCVideoController.LastErrorCode
+- CIM_PCVideoController.MaxMemorySupported
+- CIM_PCVideoController.MaxNumberControlled
+- CIM_PCVideoController.MaxRefreshRate
+- CIM_PCVideoController.MinRefreshRate
+- CIM_PCVideoController.Name
+- CIM_PCVideoController.NumberOfColorPlanes
+- CIM_PCVideoController.NumberOfVideoPages
+- CIM_PCVideoController.PNPDeviceID
+- CIM_PCVideoController.PowerManagementCapabilities
+- CIM_PCVideoController.PowerManagementSupported
+- CIM_PCVideoController.ProtocolSupported
+- CIM_PCVideoController.Status
+- CIM_PCVideoController.StatusInfo
+- CIM_PCVideoController.SystemCreationClassName
+- CIM_PCVideoController.SystemName
+- CIM_PCVideoController.TimeOfLastReset
+- CIM_PCVideoController.VideoArchitecture
+- CIM_PCVideoController.VideoMemoryType
+- CIM_PCVideoController.VideoMode
+- CIM_PCVideoController.VideoProcessor
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_PCVideoController class

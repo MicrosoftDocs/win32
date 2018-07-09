@@ -6,6 +6,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- FMEVENT_HELPSTRING
+api_type: 
+- HeaderDef
+api_location: 
+- Wfext.h
 ---
 
 # FMEVENT\_HELPSTRING message

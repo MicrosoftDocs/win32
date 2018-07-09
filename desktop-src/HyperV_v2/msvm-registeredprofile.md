@@ -7,6 +7,25 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_RegisteredProfile
+- Msvm_RegisteredProfile.InstanceID
+- Msvm_RegisteredProfile.Caption
+- Msvm_RegisteredProfile.Description
+- Msvm_RegisteredProfile.ElementName
+- Msvm_RegisteredProfile.RegisteredOrganization
+- Msvm_RegisteredProfile.OtherRegisteredOrganization
+- Msvm_RegisteredProfile.RegisteredName
+- Msvm_RegisteredProfile.RegisteredVersion
+- Msvm_RegisteredProfile.AdvertiseTypes
+- Msvm_RegisteredProfile.AdvertiseTypeDescriptions
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_RegisteredProfile class

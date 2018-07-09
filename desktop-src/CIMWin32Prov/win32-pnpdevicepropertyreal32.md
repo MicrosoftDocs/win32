@@ -13,6 +13,20 @@ title: Win32\_PnPDevicePropertyReal32 class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PnPDevicePropertyReal32
+- Win32_PnPDevicePropertyReal32.Key
+- Win32_PnPDevicePropertyReal32.KeyName
+- Win32_PnPDevicePropertyReal32.Type
+- Win32_PnPDevicePropertyReal32.DeviceID
+- Win32_PnPDevicePropertyReal32.Data
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PnPDevicePropertyReal32 class

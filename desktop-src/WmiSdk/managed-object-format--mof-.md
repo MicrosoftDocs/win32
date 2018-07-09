@@ -11,6 +11,11 @@ title: Managed Object Format (MOF)
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- kbArticle
+api_name: 
+api_type: 
+api_location: 
 ---
 
 # Managed Object Format (MOF)

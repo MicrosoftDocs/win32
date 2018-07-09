@@ -7,6 +7,30 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualSystemExportSettingData
+- Msvm_VirtualSystemExportSettingData.CaptureLiveState
+- Msvm_VirtualSystemExportSettingData.InstanceID
+- Msvm_VirtualSystemExportSettingData.Caption
+- Msvm_VirtualSystemExportSettingData.Description
+- Msvm_VirtualSystemExportSettingData.ElementName
+- Msvm_VirtualSystemExportSettingData.CopySnapshotConfiguration
+- Msvm_VirtualSystemExportSettingData.CopyVmRuntimeInformation
+- Msvm_VirtualSystemExportSettingData.CopyVmStorage
+- Msvm_VirtualSystemExportSettingData.CreateVmExportSubdirectory
+- Msvm_VirtualSystemExportSettingData.SnapshotVirtualSystem
+- Msvm_VirtualSystemExportSettingData.BackupIntent
+- Msvm_VirtualSystemExportSettingData.ExportForLiveMigration
+- Msvm_VirtualSystemExportSettingData.DisableDifferentialOfIgnoredStorage
+- Msvm_VirtualSystemExportSettingData.ExcludedVirtualHardDisks
+- Msvm_VirtualSystemExportSettingData.DifferentialBackupBase
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualSystemExportSettingData class

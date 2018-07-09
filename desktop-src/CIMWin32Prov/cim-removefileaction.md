@@ -13,6 +13,25 @@ title: CIM\_RemoveFileAction class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_RemoveFileAction
+- CIM_RemoveFileAction.ActionID
+- CIM_RemoveFileAction.Caption
+- CIM_RemoveFileAction.Description
+- CIM_RemoveFileAction.Direction
+- CIM_RemoveFileAction.Name
+- CIM_RemoveFileAction.SoftwareElementID
+- CIM_RemoveFileAction.SoftwareElementState
+- CIM_RemoveFileAction.TargetOperatingSystem
+- CIM_RemoveFileAction.Version
+- CIM_RemoveFileAction.File
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_RemoveFileAction class

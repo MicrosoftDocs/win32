@@ -13,6 +13,18 @@ title: Win32\_DeviceChangeEvent class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_DeviceChangeEvent
+- Win32_DeviceChangeEvent.SECURITY_DESCRIPTOR
+- Win32_DeviceChangeEvent.TIME_CREATED
+- Win32_DeviceChangeEvent.EventType
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_DeviceChangeEvent class

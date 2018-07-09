@@ -13,6 +13,25 @@ title: CIM\_CreateDirectoryAction class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_CreateDirectoryAction
+- CIM_CreateDirectoryAction.ActionID
+- CIM_CreateDirectoryAction.Caption
+- CIM_CreateDirectoryAction.Description
+- CIM_CreateDirectoryAction.Direction
+- CIM_CreateDirectoryAction.Name
+- CIM_CreateDirectoryAction.SoftwareElementID
+- CIM_CreateDirectoryAction.SoftwareElementState
+- CIM_CreateDirectoryAction.TargetOperatingSystem
+- CIM_CreateDirectoryAction.Version
+- CIM_CreateDirectoryAction.DirectoryName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_CreateDirectoryAction class

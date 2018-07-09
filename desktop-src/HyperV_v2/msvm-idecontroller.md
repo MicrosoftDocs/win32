@@ -7,6 +7,63 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_IDEController
+- Msvm_IDEController.SetPowerState
+- Msvm_IDEController.EnableDevice
+- Msvm_IDEController.OnlineDevice
+- Msvm_IDEController.QuiesceDevice
+- Msvm_IDEController.SaveProperties
+- Msvm_IDEController.RestoreProperties
+- Msvm_IDEController.InstanceID
+- Msvm_IDEController.Caption
+- Msvm_IDEController.Description
+- Msvm_IDEController.ElementName
+- Msvm_IDEController.InstallDate
+- Msvm_IDEController.Name
+- Msvm_IDEController.OperationalStatus
+- Msvm_IDEController.StatusDescriptions
+- Msvm_IDEController.Status
+- Msvm_IDEController.HealthState
+- Msvm_IDEController.CommunicationStatus
+- Msvm_IDEController.DetailedStatus
+- Msvm_IDEController.OperatingStatus
+- Msvm_IDEController.PrimaryStatus
+- Msvm_IDEController.EnabledState
+- Msvm_IDEController.OtherEnabledState
+- Msvm_IDEController.RequestedState
+- Msvm_IDEController.EnabledDefault
+- Msvm_IDEController.TimeOfLastStateChange
+- Msvm_IDEController.AvailableRequestedStates
+- Msvm_IDEController.TransitioningToState
+- Msvm_IDEController.SystemCreationClassName
+- Msvm_IDEController.SystemName
+- Msvm_IDEController.CreationClassName
+- Msvm_IDEController.DeviceID
+- Msvm_IDEController.PowerManagementSupported
+- Msvm_IDEController.PowerManagementCapabilities
+- Msvm_IDEController.Availability
+- Msvm_IDEController.StatusInfo
+- Msvm_IDEController.LastErrorCode
+- Msvm_IDEController.ErrorDescription
+- Msvm_IDEController.ErrorCleared
+- Msvm_IDEController.OtherIdentifyingInfo
+- Msvm_IDEController.PowerOnHours
+- Msvm_IDEController.TotalPowerOnHours
+- Msvm_IDEController.IdentifyingDescriptions
+- Msvm_IDEController.AdditionalAvailability
+- Msvm_IDEController.MaxQuiesceTime
+- Msvm_IDEController.TimeOfLastReset
+- Msvm_IDEController.ProtocolSupported
+- Msvm_IDEController.MaxNumberControlled
+- Msvm_IDEController.ProtocolDescription
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_IDEController class

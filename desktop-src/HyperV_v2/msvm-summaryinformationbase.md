@@ -7,6 +7,32 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_SummaryInformationBase
+- Msvm_SummaryInformationBase.InstanceID
+- Msvm_SummaryInformationBase.CreationTime
+- Msvm_SummaryInformationBase.ElementName
+- Msvm_SummaryInformationBase.EnabledState
+- Msvm_SummaryInformationBase.OtherEnabledState
+- Msvm_SummaryInformationBase.HealthState
+- Msvm_SummaryInformationBase.Name
+- Msvm_SummaryInformationBase.Notes
+- Msvm_SummaryInformationBase.Version
+- Msvm_SummaryInformationBase.NumberOfProcessors
+- Msvm_SummaryInformationBase.OperationalStatus
+- Msvm_SummaryInformationBase.StatusDescriptions
+- Msvm_SummaryInformationBase.UpTime
+- Msvm_SummaryInformationBase.EnhancedSessionModeState
+- Msvm_SummaryInformationBase.VirtualSwitchNames
+- Msvm_SummaryInformationBase.VirtualSystemSubType
+- Msvm_SummaryInformationBase.HostComputerSystemName
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_SummaryInformationBase class

@@ -11,6 +11,11 @@ title: Monitoring and Responding to Events with Standard Consumers
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- kbArticle
+api_name: 
+api_type: 
+api_location: 
 ---
 
 # Monitoring and Responding to Events with Standard Consumers

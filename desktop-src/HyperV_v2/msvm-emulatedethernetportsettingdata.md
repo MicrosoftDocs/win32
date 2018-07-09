@@ -7,6 +7,42 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_EmulatedEthernetPortSettingData
+- Msvm_EmulatedEthernetPortSettingData.Caption
+- Msvm_EmulatedEthernetPortSettingData.Description
+- Msvm_EmulatedEthernetPortSettingData.InstanceID
+- Msvm_EmulatedEthernetPortSettingData.ElementName
+- Msvm_EmulatedEthernetPortSettingData.ResourceType
+- Msvm_EmulatedEthernetPortSettingData.OtherResourceType
+- Msvm_EmulatedEthernetPortSettingData.ResourceSubType
+- Msvm_EmulatedEthernetPortSettingData.PoolID
+- Msvm_EmulatedEthernetPortSettingData.ConsumerVisibility
+- Msvm_EmulatedEthernetPortSettingData.HostResource
+- Msvm_EmulatedEthernetPortSettingData.AllocationUnits
+- Msvm_EmulatedEthernetPortSettingData.VirtualQuantity
+- Msvm_EmulatedEthernetPortSettingData.Reservation
+- Msvm_EmulatedEthernetPortSettingData.Limit
+- Msvm_EmulatedEthernetPortSettingData.Weight
+- Msvm_EmulatedEthernetPortSettingData.AutomaticAllocation
+- Msvm_EmulatedEthernetPortSettingData.AutomaticDeallocation
+- Msvm_EmulatedEthernetPortSettingData.Parent
+- Msvm_EmulatedEthernetPortSettingData.Connection
+- Msvm_EmulatedEthernetPortSettingData.Address
+- Msvm_EmulatedEthernetPortSettingData.MappingBehavior
+- Msvm_EmulatedEthernetPortSettingData.AddressOnParent
+- Msvm_EmulatedEthernetPortSettingData.VirtualQuantityUnits
+- Msvm_EmulatedEthernetPortSettingData.DesiredVLANEndpointMode
+- Msvm_EmulatedEthernetPortSettingData.OtherEndpointMode
+- Msvm_EmulatedEthernetPortSettingData.StaticMacAddress
+- Msvm_EmulatedEthernetPortSettingData.ClusterMonitored
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_EmulatedEthernetPortSettingData class

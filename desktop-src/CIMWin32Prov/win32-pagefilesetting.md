@@ -13,6 +13,21 @@ title: Win32\_PageFileSetting class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PageFileSetting
+- Win32_PageFileSetting.Caption
+- Win32_PageFileSetting.Description
+- Win32_PageFileSetting.SettingID
+- Win32_PageFileSetting.InitialSize
+- Win32_PageFileSetting.MaximumSize
+- Win32_PageFileSetting.Name
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PageFileSetting class

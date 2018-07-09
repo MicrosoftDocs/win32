@@ -13,6 +13,24 @@ title: CIM\_BootSAP class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_BootSAP
+- CIM_BootSAP.Caption
+- CIM_BootSAP.Description
+- CIM_BootSAP.InstallDate
+- CIM_BootSAP.Status
+- CIM_BootSAP.CreationClassName
+- CIM_BootSAP.Name
+- CIM_BootSAP.SystemCreationClassName
+- CIM_BootSAP.SystemName
+- CIM_BootSAP.Type
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_BootSAP class

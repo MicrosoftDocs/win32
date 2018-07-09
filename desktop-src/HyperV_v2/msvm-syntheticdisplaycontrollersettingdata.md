@@ -7,6 +7,18 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_SyntheticDisplayControllerSettingData
+- Msvm_SyntheticDisplayControllerSettingData.ResolutionType
+- Msvm_SyntheticDisplayControllerSettingData.HorizontalResolution
+- Msvm_SyntheticDisplayControllerSettingData.VerticalResolution
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_SyntheticDisplayControllerSettingData class

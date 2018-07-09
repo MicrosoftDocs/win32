@@ -7,6 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_Synthetic3DServiceSettingData
+- Msvm_Synthetic3DServiceSettingData.InstanceID
+- Msvm_Synthetic3DServiceSettingData.Caption
+- Msvm_Synthetic3DServiceSettingData.Description
+- Msvm_Synthetic3DServiceSettingData.ElementName
+- Msvm_Synthetic3DServiceSettingData.GPUOvercommitEnabled
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_Synthetic3DServiceSettingData class

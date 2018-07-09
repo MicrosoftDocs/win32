@@ -13,6 +13,34 @@ title: CIM\_Chip class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Chip
+- CIM_Chip.Caption
+- CIM_Chip.Description
+- CIM_Chip.InstallDate
+- CIM_Chip.Name
+- CIM_Chip.Status
+- CIM_Chip.CreationClassName
+- CIM_Chip.Manufacturer
+- CIM_Chip.Model
+- CIM_Chip.OtherIdentifyingInfo
+- CIM_Chip.PartNumber
+- CIM_Chip.PoweredOn
+- CIM_Chip.SerialNumber
+- CIM_Chip.SKU
+- CIM_Chip.Tag
+- CIM_Chip.Version
+- CIM_Chip.HotSwappable
+- CIM_Chip.Removable
+- CIM_Chip.Replaceable
+- CIM_Chip.FormFactor
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Chip class

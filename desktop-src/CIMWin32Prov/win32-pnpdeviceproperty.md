@@ -13,6 +13,32 @@ title: Win32\_PnPDeviceProperty class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PnPDeviceProperty
+- Win32_PnPDeviceProperty.Key
+- Win32_PnPDeviceProperty.KeyName
+- Win32_PnPDeviceProperty.Type
+- Win32_PnPDeviceProperty.DeviceID
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PnPDeviceProperty
+- Win32_PnPDeviceProperty.Key
+- Win32_PnPDeviceProperty.KeyName
+- Win32_PnPDeviceProperty.Type
+- Win32_PnPDeviceProperty.DeviceID
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PnPDeviceProperty class

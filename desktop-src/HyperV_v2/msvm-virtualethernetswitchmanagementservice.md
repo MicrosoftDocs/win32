@@ -7,6 +7,43 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualEthernetSwitchManagementService
+- Msvm_VirtualEthernetSwitchManagementService.InstanceID
+- Msvm_VirtualEthernetSwitchManagementService.Caption
+- Msvm_VirtualEthernetSwitchManagementService.Description
+- Msvm_VirtualEthernetSwitchManagementService.ElementName
+- Msvm_VirtualEthernetSwitchManagementService.InstallDate
+- Msvm_VirtualEthernetSwitchManagementService.Name
+- Msvm_VirtualEthernetSwitchManagementService.OperationalStatus
+- Msvm_VirtualEthernetSwitchManagementService.StatusDescriptions
+- Msvm_VirtualEthernetSwitchManagementService.Status
+- Msvm_VirtualEthernetSwitchManagementService.HealthState
+- Msvm_VirtualEthernetSwitchManagementService.CommunicationStatus
+- Msvm_VirtualEthernetSwitchManagementService.DetailedStatus
+- Msvm_VirtualEthernetSwitchManagementService.OperatingStatus
+- Msvm_VirtualEthernetSwitchManagementService.PrimaryStatus
+- Msvm_VirtualEthernetSwitchManagementService.EnabledState
+- Msvm_VirtualEthernetSwitchManagementService.OtherEnabledState
+- Msvm_VirtualEthernetSwitchManagementService.RequestedState
+- Msvm_VirtualEthernetSwitchManagementService.EnabledDefault
+- Msvm_VirtualEthernetSwitchManagementService.TimeOfLastStateChange
+- Msvm_VirtualEthernetSwitchManagementService.AvailableRequestedStates
+- Msvm_VirtualEthernetSwitchManagementService.TransitioningToState
+- Msvm_VirtualEthernetSwitchManagementService.SystemCreationClassName
+- Msvm_VirtualEthernetSwitchManagementService.SystemName
+- Msvm_VirtualEthernetSwitchManagementService.CreationClassName
+- Msvm_VirtualEthernetSwitchManagementService.PrimaryOwnerName
+- Msvm_VirtualEthernetSwitchManagementService.PrimaryOwnerContact
+- Msvm_VirtualEthernetSwitchManagementService.StartMode
+- Msvm_VirtualEthernetSwitchManagementService.Started
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualEthernetSwitchManagementService class

@@ -7,6 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- PageFault_HardFault
+- PageFault_HardFault.InitialTime
+- PageFault_HardFault.ReadOffset
+- PageFault_HardFault.VirtualAddress
+- PageFault_HardFault.FileObject
+- PageFault_HardFault.TThreadId
+- PageFault_HardFault.ByteCount
+api_type: 
+- NA
+api_location: 
 ---
 
 # PageFault\_HardFault class

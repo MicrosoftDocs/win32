@@ -13,6 +13,36 @@ title: Win32\_OptionalFeature class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_OptionalFeature
+- Win32_OptionalFeature.Description
+- Win32_OptionalFeature.InstallDate
+- Win32_OptionalFeature.Status
+- Win32_OptionalFeature.Caption
+- Win32_OptionalFeature.Name
+- Win32_OptionalFeature.InstallState
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_OptionalFeature
+- Win32_OptionalFeature.Description
+- Win32_OptionalFeature.InstallDate
+- Win32_OptionalFeature.Status
+- Win32_OptionalFeature.Caption
+- Win32_OptionalFeature.Name
+- Win32_OptionalFeature.InstallState
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_OptionalFeature class

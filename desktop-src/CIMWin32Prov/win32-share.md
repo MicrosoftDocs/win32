@@ -13,6 +13,25 @@ title: Win32\_Share class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_Share
+- Win32_Share.Caption
+- Win32_Share.Description
+- Win32_Share.InstallDate
+- Win32_Share.Status
+- Win32_Share.AccessMask
+- Win32_Share.AllowMaximum
+- Win32_Share.MaximumAllowed
+- Win32_Share.Name
+- Win32_Share.Path
+- Win32_Share.Type
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_Share class

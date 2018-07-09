@@ -13,6 +13,40 @@ title: Win32\_SoundDevice class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_SoundDevice
+- Win32_SoundDevice.Reset
+- Win32_SoundDevice.SetPowerState
+- Win32_SoundDevice.Availability
+- Win32_SoundDevice.Caption
+- Win32_SoundDevice.ConfigManagerErrorCode
+- Win32_SoundDevice.ConfigManagerUserConfig
+- Win32_SoundDevice.CreationClassName
+- Win32_SoundDevice.Description
+- Win32_SoundDevice.DeviceID
+- Win32_SoundDevice.DMABufferSize
+- Win32_SoundDevice.ErrorCleared
+- Win32_SoundDevice.ErrorDescription
+- Win32_SoundDevice.InstallDate
+- Win32_SoundDevice.LastErrorCode
+- Win32_SoundDevice.Manufacturer
+- Win32_SoundDevice.MPU401Address
+- Win32_SoundDevice.Name
+- Win32_SoundDevice.PNPDeviceID
+- Win32_SoundDevice.PowerManagementCapabilities
+- Win32_SoundDevice.PowerManagementSupported
+- Win32_SoundDevice.ProductName
+- Win32_SoundDevice.Status
+- Win32_SoundDevice.StatusInfo
+- Win32_SoundDevice.SystemCreationClassName
+- Win32_SoundDevice.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_SoundDevice class

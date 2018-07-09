@@ -7,6 +7,19 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- StackWalk_Event
+- StackWalk_Event.EventTimeStamp
+- StackWalk_Event.StackProcess
+- StackWalk_Event.StackThread
+- StackWalk_Event.Stack1
+- StackWalk_Event.Stack192
+api_type: 
+- NA
+api_location: 
 ---
 
 # StackWalk\_Event class

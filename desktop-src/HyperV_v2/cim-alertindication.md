@@ -7,6 +7,35 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_AlertIndication
+- CIM_AlertIndication.Description
+- CIM_AlertIndication.AlertingManagedElement
+- CIM_AlertIndication.AlertingElementFormat
+- CIM_AlertIndication.OtherAlertingElementFormat
+- CIM_AlertIndication.AlertType
+- CIM_AlertIndication.OtherAlertType
+- CIM_AlertIndication.PerceivedSeverity
+- CIM_AlertIndication.ProbableCause
+- CIM_AlertIndication.ProbableCauseDescription
+- CIM_AlertIndication.Trending
+- CIM_AlertIndication.RecommendedActions
+- CIM_AlertIndication.EventID
+- CIM_AlertIndication.EventTime
+- CIM_AlertIndication.SystemCreationClassName
+- CIM_AlertIndication.SystemName
+- CIM_AlertIndication.ProviderName
+- CIM_AlertIndication.Message
+- CIM_AlertIndication.MessageArguments
+- CIM_AlertIndication.MessageID
+- CIM_AlertIndication.OwningEntity
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_AlertIndication class

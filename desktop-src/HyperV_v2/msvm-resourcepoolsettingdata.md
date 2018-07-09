@@ -7,6 +7,27 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ResourcePoolSettingData
+- Msvm_ResourcePoolSettingData.InstanceID
+- Msvm_ResourcePoolSettingData.Caption
+- Msvm_ResourcePoolSettingData.Description
+- Msvm_ResourcePoolSettingData.ElementName
+- Msvm_ResourcePoolSettingData.PoolID
+- Msvm_ResourcePoolSettingData.ResourceType
+- Msvm_ResourcePoolSettingData.OtherResourceType
+- Msvm_ResourcePoolSettingData.ResourceSubType
+- Msvm_ResourcePoolSettingData.LoadBalancingBehavior
+- Msvm_ResourcePoolSettingData.MappingBehavior
+- Msvm_ResourcePoolSettingData.MappingOrder
+- Msvm_ResourcePoolSettingData.Notes
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ResourcePoolSettingData class

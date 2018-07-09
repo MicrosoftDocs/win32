@@ -13,6 +13,37 @@ title: Win32\_Thread class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_Thread
+- Win32_Thread.Caption
+- Win32_Thread.CreationClassName
+- Win32_Thread.CSCreationClassName
+- Win32_Thread.CSName
+- Win32_Thread.Description
+- Win32_Thread.ElapsedTime
+- Win32_Thread.ExecutionState
+- Win32_Thread.Handle
+- Win32_Thread.InstallDate
+- Win32_Thread.KernelModeTime
+- Win32_Thread.Name
+- Win32_Thread.OSCreationClassName
+- Win32_Thread.OSName
+- Win32_Thread.Priority
+- Win32_Thread.PriorityBase
+- Win32_Thread.ProcessCreationClassName
+- Win32_Thread.ProcessHandle
+- Win32_Thread.StartAddress
+- Win32_Thread.Status
+- Win32_Thread.ThreadState
+- Win32_Thread.ThreadWaitReason
+- Win32_Thread.UserModeTime
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_Thread class

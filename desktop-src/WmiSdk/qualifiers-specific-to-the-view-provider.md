@@ -11,6 +11,14 @@ title: Qualifiers Specific to the View Provider
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Qualifiers
+api_type: 
+- NA
+api_location: 
 ---
 
 # Qualifiers Specific to the View Provider

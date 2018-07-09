@@ -7,6 +7,11 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- kbArticle
+api_name: 
+api_type: 
+api_location: 
 ---
 
 # ps\_1\_1, ps\_1\_2, ps\_1\_3, ps\_1\_4 Instructions

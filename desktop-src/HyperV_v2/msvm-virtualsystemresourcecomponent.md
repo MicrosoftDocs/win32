@@ -7,6 +7,23 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualSystemResourceComponent
+- Msvm_VirtualSystemResourceComponent.Name
+- Msvm_VirtualSystemResourceComponent.CLSID
+- Msvm_VirtualSystemResourceComponent.Context
+- Msvm_VirtualSystemResourceComponent.Enabled
+- Msvm_VirtualSystemResourceComponent.AdditionalClassNames
+- Msvm_VirtualSystemResourceComponent.Type
+- Msvm_VirtualSystemResourceComponent.HotAdd
+- Msvm_VirtualSystemResourceComponent.HotRemove
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualSystemResourceComponent class

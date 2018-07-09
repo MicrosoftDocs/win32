@@ -7,6 +7,39 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_RdvComponentSettingData
+- Msvm_RdvComponentSettingData.InstanceID
+- Msvm_RdvComponentSettingData.Caption
+- Msvm_RdvComponentSettingData.Description
+- Msvm_RdvComponentSettingData.ElementName
+- Msvm_RdvComponentSettingData.ResourceType
+- Msvm_RdvComponentSettingData.OtherResourceType
+- Msvm_RdvComponentSettingData.ResourceSubType
+- Msvm_RdvComponentSettingData.PoolID
+- Msvm_RdvComponentSettingData.ConsumerVisibility
+- Msvm_RdvComponentSettingData.HostResource
+- Msvm_RdvComponentSettingData.AllocationUnits
+- Msvm_RdvComponentSettingData.VirtualQuantity
+- Msvm_RdvComponentSettingData.Reservation
+- Msvm_RdvComponentSettingData.Limit
+- Msvm_RdvComponentSettingData.Weight
+- Msvm_RdvComponentSettingData.AutomaticAllocation
+- Msvm_RdvComponentSettingData.AutomaticDeallocation
+- Msvm_RdvComponentSettingData.Parent
+- Msvm_RdvComponentSettingData.Connection
+- Msvm_RdvComponentSettingData.Address
+- Msvm_RdvComponentSettingData.MappingBehavior
+- Msvm_RdvComponentSettingData.AddressOnParent
+- Msvm_RdvComponentSettingData.VirtualQuantityUnits
+- Msvm_RdvComponentSettingData.EnabledState
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_RdvComponentSettingData class

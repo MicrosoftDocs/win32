@@ -13,6 +13,25 @@ title: CIM\_BootService class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_BootService
+- CIM_BootService.Caption
+- CIM_BootService.Description
+- CIM_BootService.InstallDate
+- CIM_BootService.Status
+- CIM_BootService.CreationClassName
+- CIM_BootService.Name
+- CIM_BootService.Started
+- CIM_BootService.StartMode
+- CIM_BootService.SystemCreationClassName
+- CIM_BootService.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_BootService class

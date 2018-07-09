@@ -13,6 +13,49 @@ title: Win32\_CodecFile class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_CodecFile
+- Win32_CodecFile.AccessMask
+- Win32_CodecFile.Archive
+- Win32_CodecFile.Caption
+- Win32_CodecFile.Compressed
+- Win32_CodecFile.CompressionMethod
+- Win32_CodecFile.CreationClassName
+- Win32_CodecFile.CreationDate
+- Win32_CodecFile.CSCreationClassName
+- Win32_CodecFile.CSName
+- Win32_CodecFile.Description
+- Win32_CodecFile.Drive
+- Win32_CodecFile.EightDotThreeFileName
+- Win32_CodecFile.Encrypted
+- Win32_CodecFile.EncryptionMethod
+- Win32_CodecFile.Extension
+- Win32_CodecFile.FileName
+- Win32_CodecFile.FileSize
+- Win32_CodecFile.FileType
+- Win32_CodecFile.FSCreationClassName
+- Win32_CodecFile.FSName
+- Win32_CodecFile.Group
+- Win32_CodecFile.Hidden
+- Win32_CodecFile.InstallDate
+- Win32_CodecFile.InUseCount
+- Win32_CodecFile.LastAccessed
+- Win32_CodecFile.LastModified
+- Win32_CodecFile.Manufacturer
+- Win32_CodecFile.Name
+- Win32_CodecFile.Path
+- Win32_CodecFile.Readable
+- Win32_CodecFile.Status
+- Win32_CodecFile.System
+- Win32_CodecFile.Version
+- Win32_CodecFile.Writeable
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_CodecFile class

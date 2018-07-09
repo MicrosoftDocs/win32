@@ -7,6 +7,45 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_MemorySettingData
+- Msvm_MemorySettingData.InstanceID
+- Msvm_MemorySettingData.Caption
+- Msvm_MemorySettingData.Description
+- Msvm_MemorySettingData.ElementName
+- Msvm_MemorySettingData.ResourceType
+- Msvm_MemorySettingData.OtherResourceType
+- Msvm_MemorySettingData.ResourceSubType
+- Msvm_MemorySettingData.PoolID
+- Msvm_MemorySettingData.ConsumerVisibility
+- Msvm_MemorySettingData.HostResource
+- Msvm_MemorySettingData.AllocationUnits
+- Msvm_MemorySettingData.VirtualQuantity
+- Msvm_MemorySettingData.Reservation
+- Msvm_MemorySettingData.Limit
+- Msvm_MemorySettingData.Weight
+- Msvm_MemorySettingData.AutomaticAllocation
+- Msvm_MemorySettingData.AutomaticDeallocation
+- Msvm_MemorySettingData.Parent
+- Msvm_MemorySettingData.Connection
+- Msvm_MemorySettingData.Address
+- Msvm_MemorySettingData.MappingBehavior
+- Msvm_MemorySettingData.AddressOnParent
+- Msvm_MemorySettingData.VirtualQuantityUnits
+- Msvm_MemorySettingData.DynamicMemoryEnabled
+- Msvm_MemorySettingData.TargetMemoryBuffer
+- Msvm_MemorySettingData.IsVirtualized
+- Msvm_MemorySettingData.SwapFilesInUse
+- Msvm_MemorySettingData.MaxMemoryBlocksPerNumaNode
+- Msvm_MemorySettingData.SgxSize
+- Msvm_MemorySettingData.SgxEnabled
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_MemorySettingData class

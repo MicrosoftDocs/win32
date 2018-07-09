@@ -7,6 +7,42 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_HeartbeatComponentSettingData
+- Msvm_HeartbeatComponentSettingData.InstanceID
+- Msvm_HeartbeatComponentSettingData.Caption
+- Msvm_HeartbeatComponentSettingData.Description
+- Msvm_HeartbeatComponentSettingData.ElementName
+- Msvm_HeartbeatComponentSettingData.ResourceType
+- Msvm_HeartbeatComponentSettingData.OtherResourceType
+- Msvm_HeartbeatComponentSettingData.ResourceSubType
+- Msvm_HeartbeatComponentSettingData.PoolID
+- Msvm_HeartbeatComponentSettingData.ConsumerVisibility
+- Msvm_HeartbeatComponentSettingData.HostResource
+- Msvm_HeartbeatComponentSettingData.AllocationUnits
+- Msvm_HeartbeatComponentSettingData.VirtualQuantity
+- Msvm_HeartbeatComponentSettingData.Reservation
+- Msvm_HeartbeatComponentSettingData.Limit
+- Msvm_HeartbeatComponentSettingData.Weight
+- Msvm_HeartbeatComponentSettingData.AutomaticAllocation
+- Msvm_HeartbeatComponentSettingData.AutomaticDeallocation
+- Msvm_HeartbeatComponentSettingData.Parent
+- Msvm_HeartbeatComponentSettingData.Connection
+- Msvm_HeartbeatComponentSettingData.Address
+- Msvm_HeartbeatComponentSettingData.MappingBehavior
+- Msvm_HeartbeatComponentSettingData.AddressOnParent
+- Msvm_HeartbeatComponentSettingData.VirtualQuantityUnits
+- Msvm_HeartbeatComponentSettingData.EnabledState
+- Msvm_HeartbeatComponentSettingData.ErrorThreshold
+- Msvm_HeartbeatComponentSettingData.Interval
+- Msvm_HeartbeatComponentSettingData.Latency
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_HeartbeatComponentSettingData class

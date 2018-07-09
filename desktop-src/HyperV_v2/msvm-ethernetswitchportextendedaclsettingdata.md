@@ -7,6 +7,27 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_EthernetSwitchPortExtendedAclSettingData
+- Msvm_EthernetSwitchPortExtendedAclSettingData.Name
+- Msvm_EthernetSwitchPortExtendedAclSettingData.Direction
+- Msvm_EthernetSwitchPortExtendedAclSettingData.Action
+- Msvm_EthernetSwitchPortExtendedAclSettingData.LocalIPAddress
+- Msvm_EthernetSwitchPortExtendedAclSettingData.RemoteIPAddress
+- Msvm_EthernetSwitchPortExtendedAclSettingData.LocalPort
+- Msvm_EthernetSwitchPortExtendedAclSettingData.RemotePort
+- Msvm_EthernetSwitchPortExtendedAclSettingData.Protocol
+- Msvm_EthernetSwitchPortExtendedAclSettingData.Weight
+- Msvm_EthernetSwitchPortExtendedAclSettingData.Stateful
+- Msvm_EthernetSwitchPortExtendedAclSettingData.IdleSessionTimeout
+- Msvm_EthernetSwitchPortExtendedAclSettingData.IsolationID
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_EthernetSwitchPortExtendedAclSettingData class

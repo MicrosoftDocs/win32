@@ -7,6 +7,59 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ShutdownComponent
+- Msvm_ShutdownComponent.EnableDevice
+- Msvm_ShutdownComponent.OnlineDevice
+- Msvm_ShutdownComponent.QuiesceDevice
+- Msvm_ShutdownComponent.RestoreProperties
+- Msvm_ShutdownComponent.SaveProperties
+- Msvm_ShutdownComponent.SetPowerState
+- Msvm_ShutdownComponent.InstanceID
+- Msvm_ShutdownComponent.Caption
+- Msvm_ShutdownComponent.Description
+- Msvm_ShutdownComponent.ElementName
+- Msvm_ShutdownComponent.InstallDate
+- Msvm_ShutdownComponent.Name
+- Msvm_ShutdownComponent.OperationalStatus
+- Msvm_ShutdownComponent.StatusDescriptions
+- Msvm_ShutdownComponent.Status
+- Msvm_ShutdownComponent.HealthState
+- Msvm_ShutdownComponent.CommunicationStatus
+- Msvm_ShutdownComponent.DetailedStatus
+- Msvm_ShutdownComponent.OperatingStatus
+- Msvm_ShutdownComponent.PrimaryStatus
+- Msvm_ShutdownComponent.EnabledState
+- Msvm_ShutdownComponent.OtherEnabledState
+- Msvm_ShutdownComponent.RequestedState
+- Msvm_ShutdownComponent.EnabledDefault
+- Msvm_ShutdownComponent.TimeOfLastStateChange
+- Msvm_ShutdownComponent.AvailableRequestedStates
+- Msvm_ShutdownComponent.TransitioningToState
+- Msvm_ShutdownComponent.SystemCreationClassName
+- Msvm_ShutdownComponent.SystemName
+- Msvm_ShutdownComponent.CreationClassName
+- Msvm_ShutdownComponent.DeviceID
+- Msvm_ShutdownComponent.PowerManagementSupported
+- Msvm_ShutdownComponent.PowerManagementCapabilities
+- Msvm_ShutdownComponent.Availability
+- Msvm_ShutdownComponent.StatusInfo
+- Msvm_ShutdownComponent.LastErrorCode
+- Msvm_ShutdownComponent.ErrorDescription
+- Msvm_ShutdownComponent.ErrorCleared
+- Msvm_ShutdownComponent.OtherIdentifyingInfo
+- Msvm_ShutdownComponent.PowerOnHours
+- Msvm_ShutdownComponent.TotalPowerOnHours
+- Msvm_ShutdownComponent.IdentifyingDescriptions
+- Msvm_ShutdownComponent.AdditionalAvailability
+- Msvm_ShutdownComponent.MaxQuiesceTime
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ShutdownComponent class

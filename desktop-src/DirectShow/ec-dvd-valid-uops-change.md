@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- EC_DVD_VALID_UOPS_CHANGE
+api_type: 
+- HeaderDef
+api_location: 
+- dvdevcode.h
 ---
 
 # EC\_DVD\_VALID\_UOPS\_CHANGE

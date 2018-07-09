@@ -7,6 +7,47 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ProcessorSettingData
+- Msvm_ProcessorSettingData.InstanceID
+- Msvm_ProcessorSettingData.Caption
+- Msvm_ProcessorSettingData.Description
+- Msvm_ProcessorSettingData.ElementName
+- Msvm_ProcessorSettingData.ResourceType
+- Msvm_ProcessorSettingData.OtherResourceType
+- Msvm_ProcessorSettingData.ResourceSubType
+- Msvm_ProcessorSettingData.PoolID
+- Msvm_ProcessorSettingData.ConsumerVisibility
+- Msvm_ProcessorSettingData.HostResource
+- Msvm_ProcessorSettingData.AllocationUnits
+- Msvm_ProcessorSettingData.VirtualQuantity
+- Msvm_ProcessorSettingData.Reservation
+- Msvm_ProcessorSettingData.Limit
+- Msvm_ProcessorSettingData.Weight
+- Msvm_ProcessorSettingData.AutomaticAllocation
+- Msvm_ProcessorSettingData.AutomaticDeallocation
+- Msvm_ProcessorSettingData.Parent
+- Msvm_ProcessorSettingData.Connection
+- Msvm_ProcessorSettingData.Address
+- Msvm_ProcessorSettingData.MappingBehavior
+- Msvm_ProcessorSettingData.AddressOnParent
+- Msvm_ProcessorSettingData.VirtualQuantityUnits
+- Msvm_ProcessorSettingData.LimitCPUID
+- Msvm_ProcessorSettingData.HwThreadsPerCore
+- Msvm_ProcessorSettingData.LimitProcessorFeatures
+- Msvm_ProcessorSettingData.MaxProcessorsPerNumaNode
+- Msvm_ProcessorSettingData.MaxNumaNodesPerSocket
+- Msvm_ProcessorSettingData.EnableHostResourceProtection
+- Msvm_ProcessorSettingData.CpuGroupId
+- Msvm_ProcessorSettingData.HideHypervisorPresent
+- Msvm_ProcessorSettingData.ExposeVirtualizationExtensions
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ProcessorSettingData class

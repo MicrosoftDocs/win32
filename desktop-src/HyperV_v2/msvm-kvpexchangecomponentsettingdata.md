@@ -7,6 +7,42 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_KvpExchangeComponentSettingData
+- Msvm_KvpExchangeComponentSettingData.DisableHostKVPItems
+- Msvm_KvpExchangeComponentSettingData.InstanceID
+- Msvm_KvpExchangeComponentSettingData.Caption
+- Msvm_KvpExchangeComponentSettingData.Description
+- Msvm_KvpExchangeComponentSettingData.ElementName
+- Msvm_KvpExchangeComponentSettingData.ResourceType
+- Msvm_KvpExchangeComponentSettingData.OtherResourceType
+- Msvm_KvpExchangeComponentSettingData.ResourceSubType
+- Msvm_KvpExchangeComponentSettingData.PoolID
+- Msvm_KvpExchangeComponentSettingData.ConsumerVisibility
+- Msvm_KvpExchangeComponentSettingData.HostResource
+- Msvm_KvpExchangeComponentSettingData.AllocationUnits
+- Msvm_KvpExchangeComponentSettingData.VirtualQuantity
+- Msvm_KvpExchangeComponentSettingData.Reservation
+- Msvm_KvpExchangeComponentSettingData.Limit
+- Msvm_KvpExchangeComponentSettingData.Weight
+- Msvm_KvpExchangeComponentSettingData.AutomaticAllocation
+- Msvm_KvpExchangeComponentSettingData.AutomaticDeallocation
+- Msvm_KvpExchangeComponentSettingData.Parent
+- Msvm_KvpExchangeComponentSettingData.Connection
+- Msvm_KvpExchangeComponentSettingData.Address
+- Msvm_KvpExchangeComponentSettingData.MappingBehavior
+- Msvm_KvpExchangeComponentSettingData.AddressOnParent
+- Msvm_KvpExchangeComponentSettingData.VirtualQuantityUnits
+- Msvm_KvpExchangeComponentSettingData.EnabledState
+- Msvm_KvpExchangeComponentSettingData.HostExchangeItems
+- Msvm_KvpExchangeComponentSettingData.HostOnlyItems
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_KvpExchangeComponentSettingData class

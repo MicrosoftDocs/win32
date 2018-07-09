@@ -13,6 +13,40 @@ title: Win32\_FloppyController class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_FloppyController
+- Win32_FloppyController.Reset
+- Win32_FloppyController.SetPowerState
+- Win32_FloppyController.Availability
+- Win32_FloppyController.Caption
+- Win32_FloppyController.ConfigManagerErrorCode
+- Win32_FloppyController.ConfigManagerUserConfig
+- Win32_FloppyController.CreationClassName
+- Win32_FloppyController.Description
+- Win32_FloppyController.DeviceID
+- Win32_FloppyController.ErrorCleared
+- Win32_FloppyController.ErrorDescription
+- Win32_FloppyController.InstallDate
+- Win32_FloppyController.LastErrorCode
+- Win32_FloppyController.Manufacturer
+- Win32_FloppyController.MaxNumberControlled
+- Win32_FloppyController.Name
+- Win32_FloppyController.PNPDeviceID
+- Win32_FloppyController.PowerManagementCapabilities
+- Win32_FloppyController.PowerManagementSupported
+- Win32_FloppyController.ProtocolSupported
+- Win32_FloppyController.Status
+- Win32_FloppyController.StatusInfo
+- Win32_FloppyController.SystemCreationClassName
+- Win32_FloppyController.SystemName
+- Win32_FloppyController.TimeOfLastReset
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_FloppyController class

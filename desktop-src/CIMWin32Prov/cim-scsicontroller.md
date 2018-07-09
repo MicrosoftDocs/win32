@@ -13,6 +13,41 @@ title: CIM\_SCSIController class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_SCSIController
+- CIM_SCSIController.Availability
+- CIM_SCSIController.Caption
+- CIM_SCSIController.ConfigManagerErrorCode
+- CIM_SCSIController.ConfigManagerUserConfig
+- CIM_SCSIController.ControllerTimeouts
+- CIM_SCSIController.CreationClassName
+- CIM_SCSIController.Description
+- CIM_SCSIController.DeviceID
+- CIM_SCSIController.ErrorCleared
+- CIM_SCSIController.ErrorDescription
+- CIM_SCSIController.InstallDate
+- CIM_SCSIController.LastErrorCode
+- CIM_SCSIController.MaxDataWidth
+- CIM_SCSIController.MaxNumberControlled
+- CIM_SCSIController.MaxTransferRate
+- CIM_SCSIController.Name
+- CIM_SCSIController.PNPDeviceID
+- CIM_SCSIController.PowerManagementCapabilities
+- CIM_SCSIController.PowerManagementSupported
+- CIM_SCSIController.ProtectionManagement
+- CIM_SCSIController.ProtocolSupported
+- CIM_SCSIController.Status
+- CIM_SCSIController.StatusInfo
+- CIM_SCSIController.SystemCreationClassName
+- CIM_SCSIController.SystemName
+- CIM_SCSIController.TimeOfLastReset
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_SCSIController class

@@ -7,6 +7,35 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualSystemMigrationSettingData
+- Msvm_VirtualSystemMigrationSettingData.InstanceID
+- Msvm_VirtualSystemMigrationSettingData.Caption
+- Msvm_VirtualSystemMigrationSettingData.Description
+- Msvm_VirtualSystemMigrationSettingData.ElementName
+- Msvm_VirtualSystemMigrationSettingData.MigrationType
+- Msvm_VirtualSystemMigrationSettingData.Priority
+- Msvm_VirtualSystemMigrationSettingData.Bandwidth
+- Msvm_VirtualSystemMigrationSettingData.BandwidthUnit
+- Msvm_VirtualSystemMigrationSettingData.OtherTransportType
+- Msvm_VirtualSystemMigrationSettingData.TransportType
+- Msvm_VirtualSystemMigrationSettingData.RemoveSourceUnmanagedVhds
+- Msvm_VirtualSystemMigrationSettingData.AvoidRemovingVHDs
+- Msvm_VirtualSystemMigrationSettingData.CPUCappingMagnitude
+- Msvm_VirtualSystemMigrationSettingData.CancelIfBlackoutThresholdExceeded
+- Msvm_VirtualSystemMigrationSettingData.AllowOverwriteExistingFile
+- Msvm_VirtualSystemMigrationSettingData.UnmanagedVhds
+- Msvm_VirtualSystemMigrationSettingData.DestinationPlannedVirtualSystemId
+- Msvm_VirtualSystemMigrationSettingData.DestinationIPAddressList
+- Msvm_VirtualSystemMigrationSettingData.RetainVhdCopiesOnSource
+- Msvm_VirtualSystemMigrationSettingData.EnableCompression
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualSystemMigrationSettingData class

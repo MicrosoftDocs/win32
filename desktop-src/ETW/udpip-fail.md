@@ -7,6 +7,16 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- UdpIp_Fail
+- UdpIp_Fail.Proto
+- UdpIp_Fail.FailureCode
+api_type: 
+- NA
+api_location: 
 ---
 
 # UdpIp\_Fail class

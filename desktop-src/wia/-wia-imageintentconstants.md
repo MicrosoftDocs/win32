@@ -7,6 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- WIA_INTENT_IMAGE_TYPE_COLOR
+- WIA_INTENT_IMAGE_TYPE_GRAYSCALE
+- WIA_INTENT_IMAGE_TYPE_TEXT
+- WIA_INTENT_MINIMIZE_SIZE
+- WIA_INTENT_MAXIMIZE_QUALITY
+- WIA_INTENT_BEST_PREVIEW
+api_type: 
+- HeaderDef
+api_location: 
+- wiadef.h
 ---
 
 # Image Intent Constants

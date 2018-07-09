@@ -13,6 +13,44 @@ title: CIM\_MediaAccessDevice class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_MediaAccessDevice
+- CIM_MediaAccessDevice.Caption
+- CIM_MediaAccessDevice.Description
+- CIM_MediaAccessDevice.InstallDate
+- CIM_MediaAccessDevice.Name
+- CIM_MediaAccessDevice.Status
+- CIM_MediaAccessDevice.Availability
+- CIM_MediaAccessDevice.ConfigManagerErrorCode
+- CIM_MediaAccessDevice.ConfigManagerUserConfig
+- CIM_MediaAccessDevice.CreationClassName
+- CIM_MediaAccessDevice.DeviceID
+- CIM_MediaAccessDevice.PowerManagementCapabilities
+- CIM_MediaAccessDevice.ErrorCleared
+- CIM_MediaAccessDevice.ErrorDescription
+- CIM_MediaAccessDevice.LastErrorCode
+- CIM_MediaAccessDevice.PNPDeviceID
+- CIM_MediaAccessDevice.PowerManagementSupported
+- CIM_MediaAccessDevice.StatusInfo
+- CIM_MediaAccessDevice.SystemCreationClassName
+- CIM_MediaAccessDevice.SystemName
+- CIM_MediaAccessDevice.Capabilities
+- CIM_MediaAccessDevice.CapabilityDescriptions
+- CIM_MediaAccessDevice.CompressionMethod
+- CIM_MediaAccessDevice.DefaultBlockSize
+- CIM_MediaAccessDevice.ErrorMethodology
+- CIM_MediaAccessDevice.MaxBlockSize
+- CIM_MediaAccessDevice.MaxMediaSize
+- CIM_MediaAccessDevice.MinBlockSize
+- CIM_MediaAccessDevice.NeedsCleaning
+- CIM_MediaAccessDevice.NumberOfMediaSupported
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_MediaAccessDevice class

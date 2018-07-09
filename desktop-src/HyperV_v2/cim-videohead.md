@@ -7,6 +7,26 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_VideoHead
+- CIM_VideoHead.CurrentBitsPerPixel
+- CIM_VideoHead.CurrentHorizontalResolution
+- CIM_VideoHead.CurrentVerticalResolution
+- CIM_VideoHead.MaxRefreshRate
+- CIM_VideoHead.MinRefreshRate
+- CIM_VideoHead.CurrentRefreshRate
+- CIM_VideoHead.CurrentScanMode
+- CIM_VideoHead.OtherCurrentScanMode
+- CIM_VideoHead.CurrentNumberOfRows
+- CIM_VideoHead.CurrentNumberOfColumns
+- CIM_VideoHead.CurrentNumberOfColors
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_VideoHead class

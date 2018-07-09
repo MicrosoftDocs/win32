@@ -7,6 +7,35 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_EthernetSwitchPortOffloadSettingData
+- Msvm_EthernetSwitchPortOffloadSettingData.InstanceID
+- Msvm_EthernetSwitchPortOffloadSettingData.Caption
+- Msvm_EthernetSwitchPortOffloadSettingData.Description
+- Msvm_EthernetSwitchPortOffloadSettingData.ElementName
+- Msvm_EthernetSwitchPortOffloadSettingData.IPSecOffloadLimit
+- Msvm_EthernetSwitchPortOffloadSettingData.VMQOffloadWeight
+- Msvm_EthernetSwitchPortOffloadSettingData.IOVOffloadWeight
+- Msvm_EthernetSwitchPortOffloadSettingData.IOVQueuePairsRequested
+- Msvm_EthernetSwitchPortOffloadSettingData.IOVInterruptModeration
+- Msvm_EthernetSwitchPortOffloadSettingData.PacketDirectModerationInterval
+- Msvm_EthernetSwitchPortOffloadSettingData.VmmqQueuePairs
+- Msvm_EthernetSwitchPortOffloadSettingData.VrssVmbusChannelAffinityPolicy
+- Msvm_EthernetSwitchPortOffloadSettingData.VrssIndependentHostSpreading
+- Msvm_EthernetSwitchPortOffloadSettingData.VrssExcludePrimaryProcessor
+- Msvm_EthernetSwitchPortOffloadSettingData.VrssQueueSchedulingMode
+- Msvm_EthernetSwitchPortOffloadSettingData.VrssMinQueuePairs
+- Msvm_EthernetSwitchPortOffloadSettingData.VmmqEnabled
+- Msvm_EthernetSwitchPortOffloadSettingData.VrssEnabled
+- Msvm_EthernetSwitchPortOffloadSettingData.PacketDirectModerationCount
+- Msvm_EthernetSwitchPortOffloadSettingData.PacketDirectNumProcs
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_EthernetSwitchPortOffloadSettingData class

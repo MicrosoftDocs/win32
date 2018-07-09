@@ -13,6 +13,26 @@ title: Win32\_QuickFixEngineering class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_QuickFixEngineering
+- Win32_QuickFixEngineering.Caption
+- Win32_QuickFixEngineering.Description
+- Win32_QuickFixEngineering.InstallDate
+- Win32_QuickFixEngineering.Name
+- Win32_QuickFixEngineering.Status
+- Win32_QuickFixEngineering.CSName
+- Win32_QuickFixEngineering.FixComments
+- Win32_QuickFixEngineering.HotFixID
+- Win32_QuickFixEngineering.InstalledBy
+- Win32_QuickFixEngineering.InstalledOn
+- Win32_QuickFixEngineering.ServicePackInEffect
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_QuickFixEngineering class

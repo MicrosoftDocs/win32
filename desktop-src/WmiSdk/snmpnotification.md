@@ -11,6 +11,24 @@ title: SnmpNotification class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SnmpNotification
+- Root\snmp\localhost.SnmpNotification.SECURITY_DESCRIPTOR
+- Root\snmp\localhost.SnmpNotification.TIME_CREATED
+- Root\snmp\localhost.SnmpNotification.AgentAddress
+- Root\snmp\localhost.SnmpNotification.AgentTransport
+- Root\snmp\localhost.SnmpNotification.AgentTransportAddress
+- Root\snmp\localhost.SnmpNotification.Community
+- Root\snmp\localhost.SnmpNotification.Identification
+- Root\snmp\localhost.SnmpNotification.TimeStamp
+- Root\snmp\localhost.SnmpNotification.AgentTransportProtocol
+api_type: 
+- Schema
+api_location: 
+- Root\snmp\localhost
 ---
 
 # SnmpNotification class

@@ -13,6 +13,17 @@ title: Win32\_GroupUser class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_GroupUser
+- Win32_GroupUser.GroupComponent
+- Win32_GroupUser.PartComponent
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_GroupUser class

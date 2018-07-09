@@ -7,6 +7,38 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_MediaAccessDevice
+- CIM_MediaAccessDevice.Capabilities
+- CIM_MediaAccessDevice.CapabilityDescriptions
+- CIM_MediaAccessDevice.ErrorMethodology
+- CIM_MediaAccessDevice.CompressionMethod
+- CIM_MediaAccessDevice.NumberOfMediaSupported
+- CIM_MediaAccessDevice.MaxMediaSize
+- CIM_MediaAccessDevice.DefaultBlockSize
+- CIM_MediaAccessDevice.MaxBlockSize
+- CIM_MediaAccessDevice.MinBlockSize
+- CIM_MediaAccessDevice.NeedsCleaning
+- CIM_MediaAccessDevice.MediaIsLocked
+- CIM_MediaAccessDevice.Security
+- CIM_MediaAccessDevice.LastCleaned
+- CIM_MediaAccessDevice.MaxAccessTime
+- CIM_MediaAccessDevice.UncompressedDataRate
+- CIM_MediaAccessDevice.LoadTime
+- CIM_MediaAccessDevice.UnloadTime
+- CIM_MediaAccessDevice.MountCount
+- CIM_MediaAccessDevice.TimeOfLastMount
+- CIM_MediaAccessDevice.TotalMountTime
+- CIM_MediaAccessDevice.UnitsDescription
+- CIM_MediaAccessDevice.MaxUnitsBeforeCleaning
+- CIM_MediaAccessDevice.UnitsUsed
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_MediaAccessDevice class

@@ -7,6 +7,21 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- WmiMonitorColorCharacteristics
+- WmiMonitorColorCharacteristics.Active
+- WmiMonitorColorCharacteristics.Blue
+- WmiMonitorColorCharacteristics.DefaultWhite
+- WmiMonitorColorCharacteristics.Green
+- WmiMonitorColorCharacteristics.InstanceName
+- WmiMonitorColorCharacteristics.Red
+api_type: 
+- DllExport
+api_location: 
+- WmiProv.dll
 ---
 
 # WmiMonitorColorCharacteristics class

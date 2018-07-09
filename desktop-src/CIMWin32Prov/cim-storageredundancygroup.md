@@ -13,6 +13,23 @@ title: CIM\_StorageRedundancyGroup class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_StorageRedundancyGroup
+- CIM_StorageRedundancyGroup.Caption
+- CIM_StorageRedundancyGroup.Description
+- CIM_StorageRedundancyGroup.InstallDate
+- CIM_StorageRedundancyGroup.Name
+- CIM_StorageRedundancyGroup.Status
+- CIM_StorageRedundancyGroup.CreationClassName
+- CIM_StorageRedundancyGroup.RedundancyStatus
+- CIM_StorageRedundancyGroup.TypeOfAlgorithm
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_StorageRedundancyGroup class

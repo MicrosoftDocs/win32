@@ -7,6 +7,31 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_CopyFileToGuestJob
+- Msvm_CopyFileToGuestJob.StartService
+- Msvm_CopyFileToGuestJob.StopService
+- Msvm_CopyFileToGuestJob.Caption
+- Msvm_CopyFileToGuestJob.CreationClassName
+- Msvm_CopyFileToGuestJob.Description
+- Msvm_CopyFileToGuestJob.InstallDate
+- Msvm_CopyFileToGuestJob.Name
+- Msvm_CopyFileToGuestJob.Started
+- Msvm_CopyFileToGuestJob.StartMode
+- Msvm_CopyFileToGuestJob.Status
+- Msvm_CopyFileToGuestJob.SystemCreationClassName
+- Msvm_CopyFileToGuestJob.SystemName
+- Msvm_CopyFileToGuestJob.CopyFileToGuestSettingData
+- Msvm_CopyFileToGuestJob.Cancellable
+- Msvm_CopyFileToGuestJob.ErrorSummaryDescription
+- Msvm_CopyFileToGuestJob.VirtualSystemName
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_CopyFileToGuestJob class

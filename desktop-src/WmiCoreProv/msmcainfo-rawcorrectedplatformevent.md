@@ -7,6 +7,18 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- MSMCAInfo_RawCorrectedPlatformEvent
+- MSMCAInfo_RawCorrectedPlatformEvent.Active
+- MSMCAInfo_RawCorrectedPlatformEvent.Count
+- MSMCAInfo_RawCorrectedPlatformEvent.Records
+api_type: 
+- DllExport
+api_location: 
+- Wmiprov.dll
 ---
 
 # MSMCAInfo\_RawCorrectedPlatformEvent class

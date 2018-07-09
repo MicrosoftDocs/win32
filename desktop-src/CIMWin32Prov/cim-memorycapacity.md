@@ -13,6 +13,21 @@ title: CIM\_MemoryCapacity class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_MemoryCapacity
+- CIM_MemoryCapacity.Caption
+- CIM_MemoryCapacity.Description
+- CIM_MemoryCapacity.Name
+- CIM_MemoryCapacity.MaximumMemoryCapacity
+- CIM_MemoryCapacity.MemoryType
+- CIM_MemoryCapacity.MinimumMemoryCapacity
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_MemoryCapacity class

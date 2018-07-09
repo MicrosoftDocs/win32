@@ -7,6 +7,21 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SystemConfig_NIC
+- SystemConfig_NIC.PhysicalAddr
+- SystemConfig_NIC.PhysicalAddrLen
+- SystemConfig_NIC.Ipv4Index
+- SystemConfig_NIC.Ipv6Index
+- SystemConfig_NIC.NICDescription
+- SystemConfig_NIC.IpAddresses
+- SystemConfig_NIC.DnsServerAddresses
+api_type: 
+- NA
+api_location: 
 ---
 
 # SystemConfig\_NIC class

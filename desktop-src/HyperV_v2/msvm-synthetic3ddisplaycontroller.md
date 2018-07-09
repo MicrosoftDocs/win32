@@ -7,6 +7,75 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_Synthetic3DDisplayController
+- Msvm_Synthetic3DDisplayController.RequestStateChange
+- Msvm_Synthetic3DDisplayController.SetPowerState
+- Msvm_Synthetic3DDisplayController.Reset
+- Msvm_Synthetic3DDisplayController.EnableDevice
+- Msvm_Synthetic3DDisplayController.OnlineDevice
+- Msvm_Synthetic3DDisplayController.QuiesceDevice
+- Msvm_Synthetic3DDisplayController.SaveProperties
+- Msvm_Synthetic3DDisplayController.RestoreProperties
+- Msvm_Synthetic3DDisplayController.InstanceID
+- Msvm_Synthetic3DDisplayController.Caption
+- Msvm_Synthetic3DDisplayController.Description
+- Msvm_Synthetic3DDisplayController.ElementName
+- Msvm_Synthetic3DDisplayController.InstallDate
+- Msvm_Synthetic3DDisplayController.Name
+- Msvm_Synthetic3DDisplayController.OperationalStatus
+- Msvm_Synthetic3DDisplayController.StatusDescriptions
+- Msvm_Synthetic3DDisplayController.Status
+- Msvm_Synthetic3DDisplayController.HealthState
+- Msvm_Synthetic3DDisplayController.CommunicationStatus
+- Msvm_Synthetic3DDisplayController.DetailedStatus
+- Msvm_Synthetic3DDisplayController.OperatingStatus
+- Msvm_Synthetic3DDisplayController.PrimaryStatus
+- Msvm_Synthetic3DDisplayController.EnabledState
+- Msvm_Synthetic3DDisplayController.OtherEnabledState
+- Msvm_Synthetic3DDisplayController.RequestedState
+- Msvm_Synthetic3DDisplayController.EnabledDefault
+- Msvm_Synthetic3DDisplayController.TimeOfLastStateChange
+- Msvm_Synthetic3DDisplayController.AvailableRequestedStates
+- Msvm_Synthetic3DDisplayController.TransitioningToState
+- Msvm_Synthetic3DDisplayController.SystemCreationClassName
+- Msvm_Synthetic3DDisplayController.SystemName
+- Msvm_Synthetic3DDisplayController.CreationClassName
+- Msvm_Synthetic3DDisplayController.DeviceID
+- Msvm_Synthetic3DDisplayController.PowerManagementSupported
+- Msvm_Synthetic3DDisplayController.PowerManagementCapabilities
+- Msvm_Synthetic3DDisplayController.Availability
+- Msvm_Synthetic3DDisplayController.StatusInfo
+- Msvm_Synthetic3DDisplayController.LastErrorCode
+- Msvm_Synthetic3DDisplayController.ErrorDescription
+- Msvm_Synthetic3DDisplayController.ErrorCleared
+- Msvm_Synthetic3DDisplayController.PowerOnHours
+- Msvm_Synthetic3DDisplayController.TotalPowerOnHours
+- Msvm_Synthetic3DDisplayController.OtherIdentifyingInfo
+- Msvm_Synthetic3DDisplayController.IdentifyingDescriptions
+- Msvm_Synthetic3DDisplayController.AdditionalAvailability
+- Msvm_Synthetic3DDisplayController.MaxQuiesceTime
+- Msvm_Synthetic3DDisplayController.TimeOfLastReset
+- Msvm_Synthetic3DDisplayController.ProtocolSupported
+- Msvm_Synthetic3DDisplayController.MaxNumberControlled
+- Msvm_Synthetic3DDisplayController.ProtocolDescription
+- Msvm_Synthetic3DDisplayController.VideoProcessor
+- Msvm_Synthetic3DDisplayController.VideoMemoryType
+- Msvm_Synthetic3DDisplayController.OtherVideoMemoryType
+- Msvm_Synthetic3DDisplayController.NumberOfVideoPages
+- Msvm_Synthetic3DDisplayController.MaxMemorySupported
+- Msvm_Synthetic3DDisplayController.AcceleratorCapabilities
+- Msvm_Synthetic3DDisplayController.CapabilityDescriptions
+- Msvm_Synthetic3DDisplayController.OtherVideoArchitecture
+- Msvm_Synthetic3DDisplayController.VideoArchitecture
+- Msvm_Synthetic3DDisplayController.AllocatedGPU
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_Synthetic3DDisplayController class

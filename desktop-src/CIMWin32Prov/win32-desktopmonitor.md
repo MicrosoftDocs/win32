@@ -13,6 +13,45 @@ title: Win32\_DesktopMonitor class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_DesktopMonitor
+- Win32_DesktopMonitor.Reset
+- Win32_DesktopMonitor.SetPowerState
+- Win32_DesktopMonitor.Availability
+- Win32_DesktopMonitor.Bandwidth
+- Win32_DesktopMonitor.Caption
+- Win32_DesktopMonitor.ConfigManagerErrorCode
+- Win32_DesktopMonitor.ConfigManagerUserConfig
+- Win32_DesktopMonitor.CreationClassName
+- Win32_DesktopMonitor.Description
+- Win32_DesktopMonitor.DeviceID
+- Win32_DesktopMonitor.DisplayType
+- Win32_DesktopMonitor.ErrorCleared
+- Win32_DesktopMonitor.ErrorDescription
+- Win32_DesktopMonitor.InstallDate
+- Win32_DesktopMonitor.IsLocked
+- Win32_DesktopMonitor.LastErrorCode
+- Win32_DesktopMonitor.MonitorManufacturer
+- Win32_DesktopMonitor.MonitorType
+- Win32_DesktopMonitor.Name
+- Win32_DesktopMonitor.PixelsPerXLogicalInch
+- Win32_DesktopMonitor.PixelsPerYLogicalInch
+- Win32_DesktopMonitor.PNPDeviceID
+- Win32_DesktopMonitor.PowerManagementCapabilities
+- Win32_DesktopMonitor.PowerManagementSupported
+- Win32_DesktopMonitor.ScreenHeight
+- Win32_DesktopMonitor.ScreenWidth
+- Win32_DesktopMonitor.Status
+- Win32_DesktopMonitor.StatusInfo
+- Win32_DesktopMonitor.SystemCreationClassName
+- Win32_DesktopMonitor.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_DesktopMonitor class

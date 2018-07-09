@@ -7,6 +7,22 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- IPPROTO_IP
+- IPPROTO_IPV6
+- IPPROTO_RM
+- IPPROTO_TCP
+- IPPROTO_UDP
+- NSPROTO_IPX
+- SOL_APPLETALK
+- SOL_IRLMP
+- SOL_SOCKET
+api_type: 
+- NA
+api_location: 
 ---
 
 # Socket Options

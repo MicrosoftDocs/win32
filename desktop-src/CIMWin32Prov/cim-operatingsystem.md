@@ -13,6 +13,42 @@ title: CIM\_OperatingSystem class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_OperatingSystem
+- CIM_OperatingSystem.Caption
+- CIM_OperatingSystem.CreationClassName
+- CIM_OperatingSystem.CSCreationClassName
+- CIM_OperatingSystem.CSName
+- CIM_OperatingSystem.CurrentTimeZone
+- CIM_OperatingSystem.Description
+- CIM_OperatingSystem.Distributed
+- CIM_OperatingSystem.FreePhysicalMemory
+- CIM_OperatingSystem.FreeSpaceInPagingFiles
+- CIM_OperatingSystem.FreeVirtualMemory
+- CIM_OperatingSystem.InstallDate
+- CIM_OperatingSystem.LastBootUpTime
+- CIM_OperatingSystem.LocalDateTime
+- CIM_OperatingSystem.MaxNumberOfProcesses
+- CIM_OperatingSystem.MaxProcessMemorySize
+- CIM_OperatingSystem.Name
+- CIM_OperatingSystem.NumberOfLicensedUsers
+- CIM_OperatingSystem.NumberOfProcesses
+- CIM_OperatingSystem.NumberOfUsers
+- CIM_OperatingSystem.OSType
+- CIM_OperatingSystem.OtherTypeDescription
+- CIM_OperatingSystem.SizeStoredInPagingFiles
+- CIM_OperatingSystem.Status
+- CIM_OperatingSystem.TotalSwapSpaceSize
+- CIM_OperatingSystem.TotalVirtualMemorySize
+- CIM_OperatingSystem.TotalVisibleMemorySize
+- CIM_OperatingSystem.Version
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_OperatingSystem class

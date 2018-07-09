@@ -7,6 +7,21 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SFN_VALIDATEF_CHECK
+- SFN_VALIDATEF_POPUP
+- SFN_VALIDATEF_TELLME
+- SFN_VALIDATEF_REPLACE
+- SFN_VALIDATEF_USELOCAL
+- SFN_VALIDATEF_NOFIND
+- SFN_VALIDATEF_IGNOREMUTED
+api_type: 
+- HeaderDef
+api_location: 
+- Qedit.h
 ---
 
 # File Name Validation Flags

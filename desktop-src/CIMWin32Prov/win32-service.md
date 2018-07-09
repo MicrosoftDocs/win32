@@ -13,6 +13,41 @@ title: Win32\_Service class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_Service
+- Win32_Service.AcceptPause
+- Win32_Service.AcceptStop
+- Win32_Service.Caption
+- Win32_Service.CheckPoint
+- Win32_Service.CreationClassName
+- Win32_Service.DelayedAutoStart
+- Win32_Service.Description
+- Win32_Service.DesktopInteract
+- Win32_Service.DisplayName
+- Win32_Service.ErrorControl
+- Win32_Service.ExitCode
+- Win32_Service.InstallDate
+- Win32_Service.Name
+- Win32_Service.PathName
+- Win32_Service.ProcessId
+- Win32_Service.ServiceSpecificExitCode
+- Win32_Service.ServiceType
+- Win32_Service.Started
+- Win32_Service.StartMode
+- Win32_Service.StartName
+- Win32_Service.State
+- Win32_Service.Status
+- Win32_Service.SystemCreationClassName
+- Win32_Service.SystemName
+- Win32_Service.TagId
+- Win32_Service.WaitHint
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_Service class

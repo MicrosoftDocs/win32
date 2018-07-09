@@ -7,6 +7,39 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_EthernetSwitchHardwareOffloadData
+- Msvm_EthernetSwitchHardwareOffloadData.InstanceID
+- Msvm_EthernetSwitchHardwareOffloadData.Caption
+- Msvm_EthernetSwitchHardwareOffloadData.Description
+- Msvm_EthernetSwitchHardwareOffloadData.ElementName
+- Msvm_EthernetSwitchHardwareOffloadData.SystemCreationClassName
+- Msvm_EthernetSwitchHardwareOffloadData.SystemName
+- Msvm_EthernetSwitchHardwareOffloadData.CreationClassName
+- Msvm_EthernetSwitchHardwareOffloadData.Name
+- Msvm_EthernetSwitchHardwareOffloadData.IovVfCapacity
+- Msvm_EthernetSwitchHardwareOffloadData.IovVfUsage
+- Msvm_EthernetSwitchHardwareOffloadData.VmqCapacity
+- Msvm_EthernetSwitchHardwareOffloadData.VmqUsage
+- Msvm_EthernetSwitchHardwareOffloadData.IPsecSACapacity
+- Msvm_EthernetSwitchHardwareOffloadData.IPsecSAUsage
+- Msvm_EthernetSwitchHardwareOffloadData.IovQueuePairCapacity
+- Msvm_EthernetSwitchHardwareOffloadData.IovQueuePairUsage
+- Msvm_EthernetSwitchHardwareOffloadData.PacketDirectInUse
+- Msvm_EthernetSwitchHardwareOffloadData.DefaultQueueVmmqQueuePairs
+- Msvm_EthernetSwitchHardwareOffloadData.DefaultQueueVrssIndependentHostSpreading
+- Msvm_EthernetSwitchHardwareOffloadData.DefaultQueueVrssExcludePrimaryProcessor
+- Msvm_EthernetSwitchHardwareOffloadData.DefaultQueueVrssQueueSchedulingMode
+- Msvm_EthernetSwitchHardwareOffloadData.DefaultQueueVrssMinQueuePairs
+- Msvm_EthernetSwitchHardwareOffloadData.DefaultQueueVmmqEnabled
+- Msvm_EthernetSwitchHardwareOffloadData.DefaultQueueVrssEnabled
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_EthernetSwitchHardwareOffloadData class

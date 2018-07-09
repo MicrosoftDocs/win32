@@ -13,6 +13,46 @@ title: Win32\_BIOS class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_BIOS
+- Win32_BIOS.BiosCharacteristics
+- Win32_BIOS.BIOSVersion
+- Win32_BIOS.BuildNumber
+- Win32_BIOS.Caption
+- Win32_BIOS.CodeSet
+- Win32_BIOS.CurrentLanguage
+- Win32_BIOS.Description
+- Win32_BIOS.EmbeddedControllerMajorVersion
+- Win32_BIOS.EmbeddedControllerMinorVersion
+- Win32_BIOS.IdentificationCode
+- Win32_BIOS.InstallableLanguages
+- Win32_BIOS.InstallDate
+- Win32_BIOS.LanguageEdition
+- Win32_BIOS.ListOfLanguages
+- Win32_BIOS.Manufacturer
+- Win32_BIOS.Name
+- Win32_BIOS.OtherTargetOS
+- Win32_BIOS.PrimaryBIOS
+- Win32_BIOS.ReleaseDate
+- Win32_BIOS.SerialNumber
+- Win32_BIOS.SMBIOSBIOSVersion
+- Win32_BIOS.SMBIOSMajorVersion
+- Win32_BIOS.SMBIOSMinorVersion
+- Win32_BIOS.SMBIOSPresent
+- Win32_BIOS.SoftwareElementID
+- Win32_BIOS.SoftwareElementState
+- Win32_BIOS.Status
+- Win32_BIOS.SystemBiosMajorVersion
+- Win32_BIOS.SystemBiosMinorVersion
+- Win32_BIOS.TargetOperatingSystem
+- Win32_BIOS.Version
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_BIOS class

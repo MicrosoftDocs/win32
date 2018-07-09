@@ -7,6 +7,61 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_KvpExchangeComponent
+- Msvm_KvpExchangeComponent.SetPowerState
+- Msvm_KvpExchangeComponent.EnableDevice
+- Msvm_KvpExchangeComponent.OnlineDevice
+- Msvm_KvpExchangeComponent.QuiesceDevice
+- Msvm_KvpExchangeComponent.SaveProperties
+- Msvm_KvpExchangeComponent.RestoreProperties
+- Msvm_KvpExchangeComponent.InstanceID
+- Msvm_KvpExchangeComponent.Caption
+- Msvm_KvpExchangeComponent.Description
+- Msvm_KvpExchangeComponent.ElementName
+- Msvm_KvpExchangeComponent.InstallDate
+- Msvm_KvpExchangeComponent.Name
+- Msvm_KvpExchangeComponent.OperationalStatus
+- Msvm_KvpExchangeComponent.StatusDescriptions
+- Msvm_KvpExchangeComponent.Status
+- Msvm_KvpExchangeComponent.HealthState
+- Msvm_KvpExchangeComponent.CommunicationStatus
+- Msvm_KvpExchangeComponent.DetailedStatus
+- Msvm_KvpExchangeComponent.OperatingStatus
+- Msvm_KvpExchangeComponent.PrimaryStatus
+- Msvm_KvpExchangeComponent.EnabledState
+- Msvm_KvpExchangeComponent.OtherEnabledState
+- Msvm_KvpExchangeComponent.RequestedState
+- Msvm_KvpExchangeComponent.EnabledDefault
+- Msvm_KvpExchangeComponent.TimeOfLastStateChange
+- Msvm_KvpExchangeComponent.AvailableRequestedStates
+- Msvm_KvpExchangeComponent.TransitioningToState
+- Msvm_KvpExchangeComponent.SystemCreationClassName
+- Msvm_KvpExchangeComponent.SystemName
+- Msvm_KvpExchangeComponent.CreationClassName
+- Msvm_KvpExchangeComponent.DeviceID
+- Msvm_KvpExchangeComponent.PowerManagementSupported
+- Msvm_KvpExchangeComponent.PowerManagementCapabilities
+- Msvm_KvpExchangeComponent.Availability
+- Msvm_KvpExchangeComponent.StatusInfo
+- Msvm_KvpExchangeComponent.LastErrorCode
+- Msvm_KvpExchangeComponent.ErrorDescription
+- Msvm_KvpExchangeComponent.ErrorCleared
+- Msvm_KvpExchangeComponent.OtherIdentifyingInfo
+- Msvm_KvpExchangeComponent.PowerOnHours
+- Msvm_KvpExchangeComponent.TotalPowerOnHours
+- Msvm_KvpExchangeComponent.IdentifyingDescriptions
+- Msvm_KvpExchangeComponent.AdditionalAvailability
+- Msvm_KvpExchangeComponent.MaxQuiesceTime
+- Msvm_KvpExchangeComponent.GuestExchangeItems
+- Msvm_KvpExchangeComponent.GuestIntrinsicExchangeItems
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_KvpExchangeComponent class

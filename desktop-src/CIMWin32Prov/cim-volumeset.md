@@ -13,6 +13,41 @@ title: CIM\_VolumeSet class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_VolumeSet
+- CIM_VolumeSet.Access
+- CIM_VolumeSet.Availability
+- CIM_VolumeSet.BlockSize
+- CIM_VolumeSet.Caption
+- CIM_VolumeSet.ConfigManagerErrorCode
+- CIM_VolumeSet.ConfigManagerUserConfig
+- CIM_VolumeSet.CreationClassName
+- CIM_VolumeSet.Description
+- CIM_VolumeSet.DeviceID
+- CIM_VolumeSet.ErrorCleared
+- CIM_VolumeSet.ErrorDescription
+- CIM_VolumeSet.ErrorMethodology
+- CIM_VolumeSet.InstallDate
+- CIM_VolumeSet.LastErrorCode
+- CIM_VolumeSet.Name
+- CIM_VolumeSet.NumberOfBlocks
+- CIM_VolumeSet.PNPDeviceID
+- CIM_VolumeSet.PowerManagementCapabilities
+- CIM_VolumeSet.PowerManagementSupported
+- CIM_VolumeSet.PSExtentInterleaveDepth
+- CIM_VolumeSet.PSExtentStripeLength
+- CIM_VolumeSet.Purpose
+- CIM_VolumeSet.Status
+- CIM_VolumeSet.StatusInfo
+- CIM_VolumeSet.SystemCreationClassName
+- CIM_VolumeSet.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_VolumeSet class

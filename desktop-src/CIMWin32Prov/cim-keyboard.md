@@ -13,6 +13,38 @@ title: CIM\_Keyboard class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Keyboard
+- CIM_Keyboard.Availability
+- CIM_Keyboard.Caption
+- CIM_Keyboard.ConfigManagerErrorCode
+- CIM_Keyboard.ConfigManagerUserConfig
+- CIM_Keyboard.CreationClassName
+- CIM_Keyboard.Description
+- CIM_Keyboard.DeviceID
+- CIM_Keyboard.ErrorCleared
+- CIM_Keyboard.ErrorDescription
+- CIM_Keyboard.InstallDate
+- CIM_Keyboard.IsLocked
+- CIM_Keyboard.LastErrorCode
+- CIM_Keyboard.Layout
+- CIM_Keyboard.Name
+- CIM_Keyboard.NumberOfFunctionKeys
+- CIM_Keyboard.Password
+- CIM_Keyboard.PNPDeviceID
+- CIM_Keyboard.PowerManagementCapabilities
+- CIM_Keyboard.PowerManagementSupported
+- CIM_Keyboard.Status
+- CIM_Keyboard.StatusInfo
+- CIM_Keyboard.SystemCreationClassName
+- CIM_Keyboard.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Keyboard class

@@ -13,6 +13,50 @@ title: CIM\_UninterruptiblePowerSupply class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_UninterruptiblePowerSupply
+- CIM_UninterruptiblePowerSupply.ActiveInputVoltage
+- CIM_UninterruptiblePowerSupply.Availability
+- CIM_UninterruptiblePowerSupply.Caption
+- CIM_UninterruptiblePowerSupply.ConfigManagerErrorCode
+- CIM_UninterruptiblePowerSupply.ConfigManagerUserConfig
+- CIM_UninterruptiblePowerSupply.CreationClassName
+- CIM_UninterruptiblePowerSupply.Description
+- CIM_UninterruptiblePowerSupply.DeviceID
+- CIM_UninterruptiblePowerSupply.ErrorCleared
+- CIM_UninterruptiblePowerSupply.ErrorDescription
+- CIM_UninterruptiblePowerSupply.EstimatedChargeRemaining
+- CIM_UninterruptiblePowerSupply.EstimatedRunTime
+- CIM_UninterruptiblePowerSupply.InstallDate
+- CIM_UninterruptiblePowerSupply.IsSwitchingSupply
+- CIM_UninterruptiblePowerSupply.LastErrorCode
+- CIM_UninterruptiblePowerSupply.Name
+- CIM_UninterruptiblePowerSupply.PNPDeviceID
+- CIM_UninterruptiblePowerSupply.PowerManagementCapabilities
+- CIM_UninterruptiblePowerSupply.PowerManagementSupported
+- CIM_UninterruptiblePowerSupply.Range1InputFrequencyHigh
+- CIM_UninterruptiblePowerSupply.Range1InputFrequencyLow
+- CIM_UninterruptiblePowerSupply.Range1InputVoltageHigh
+- CIM_UninterruptiblePowerSupply.Range1InputVoltageLow
+- CIM_UninterruptiblePowerSupply.Range2InputFrequencyHigh
+- CIM_UninterruptiblePowerSupply.Range2InputFrequencyLow
+- CIM_UninterruptiblePowerSupply.Range2InputVoltageHigh
+- CIM_UninterruptiblePowerSupply.Range2InputVoltageLow
+- CIM_UninterruptiblePowerSupply.RemainingCapacityStatus
+- CIM_UninterruptiblePowerSupply.Status
+- CIM_UninterruptiblePowerSupply.StatusInfo
+- CIM_UninterruptiblePowerSupply.SystemCreationClassName
+- CIM_UninterruptiblePowerSupply.SystemName
+- CIM_UninterruptiblePowerSupply.TimeOnBackup
+- CIM_UninterruptiblePowerSupply.TotalOutputPower
+- CIM_UninterruptiblePowerSupply.TypeOfRangeSwitching
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_UninterruptiblePowerSupply class

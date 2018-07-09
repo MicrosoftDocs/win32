@@ -13,6 +13,19 @@ title: CIM\_DeviceSoftware class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_DeviceSoftware
+- CIM_DeviceSoftware.Dependent
+- CIM_DeviceSoftware.Antecedent
+- CIM_DeviceSoftware.Purpose
+- CIM_DeviceSoftware.PurposeDescription
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_DeviceSoftware class

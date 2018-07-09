@@ -7,6 +7,21 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ResourcePoolConfigurationCapabilities
+- Msvm_ResourcePoolConfigurationCapabilities.InstanceID
+- Msvm_ResourcePoolConfigurationCapabilities.Caption
+- Msvm_ResourcePoolConfigurationCapabilities.Description
+- Msvm_ResourcePoolConfigurationCapabilities.ElementName
+- Msvm_ResourcePoolConfigurationCapabilities.AsynchronousMethodsSupported
+- Msvm_ResourcePoolConfigurationCapabilities.SynchronousMethodsSupported
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ResourcePoolConfigurationCapabilities class

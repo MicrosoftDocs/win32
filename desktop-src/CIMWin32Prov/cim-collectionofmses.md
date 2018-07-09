@@ -13,6 +13,18 @@ title: CIM\_CollectionOfMSEs class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_CollectionOfMSEs
+- CIM_CollectionOfMSEs.Caption
+- CIM_CollectionOfMSEs.CollectionID
+- CIM_CollectionOfMSEs.Description
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_CollectionOfMSEs class

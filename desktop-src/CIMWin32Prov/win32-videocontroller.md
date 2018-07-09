@@ -13,6 +13,76 @@ title: Win32\_VideoController class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_VideoController
+- Win32_VideoController.Reset
+- Win32_VideoController.SetPowerState
+- Win32_VideoController.AcceleratorCapabilities
+- Win32_VideoController.AdapterCompatibility
+- Win32_VideoController.AdapterDACType
+- Win32_VideoController.AdapterRAM
+- Win32_VideoController.Availability
+- Win32_VideoController.CapabilityDescriptions
+- Win32_VideoController.Caption
+- Win32_VideoController.ColorTableEntries
+- Win32_VideoController.ConfigManagerErrorCode
+- Win32_VideoController.ConfigManagerUserConfig
+- Win32_VideoController.CreationClassName
+- Win32_VideoController.CurrentBitsPerPixel
+- Win32_VideoController.CurrentHorizontalResolution
+- Win32_VideoController.CurrentNumberOfColors
+- Win32_VideoController.CurrentNumberOfColumns
+- Win32_VideoController.CurrentNumberOfRows
+- Win32_VideoController.CurrentRefreshRate
+- Win32_VideoController.CurrentScanMode
+- Win32_VideoController.CurrentVerticalResolution
+- Win32_VideoController.Description
+- Win32_VideoController.DeviceID
+- Win32_VideoController.DeviceSpecificPens
+- Win32_VideoController.DitherType
+- Win32_VideoController.DriverDate
+- Win32_VideoController.DriverVersion
+- Win32_VideoController.ErrorCleared
+- Win32_VideoController.ErrorDescription
+- Win32_VideoController.ICMIntent
+- Win32_VideoController.ICMMethod
+- Win32_VideoController.InfFilename
+- Win32_VideoController.InfSection
+- Win32_VideoController.InstallDate
+- Win32_VideoController.InstalledDisplayDrivers
+- Win32_VideoController.LastErrorCode
+- Win32_VideoController.MaxMemorySupported
+- Win32_VideoController.MaxNumberControlled
+- Win32_VideoController.MaxRefreshRate
+- Win32_VideoController.MinRefreshRate
+- Win32_VideoController.Monochrome
+- Win32_VideoController.Name
+- Win32_VideoController.NumberOfColorPlanes
+- Win32_VideoController.NumberOfVideoPages
+- Win32_VideoController.PNPDeviceID
+- Win32_VideoController.PowerManagementCapabilities
+- Win32_VideoController.PowerManagementSupported
+- Win32_VideoController.ProtocolSupported
+- Win32_VideoController.ReservedSystemPaletteEntries
+- Win32_VideoController.SpecificationVersion
+- Win32_VideoController.Status
+- Win32_VideoController.StatusInfo
+- Win32_VideoController.SystemCreationClassName
+- Win32_VideoController.SystemName
+- Win32_VideoController.SystemPaletteEntries
+- Win32_VideoController.TimeOfLastReset
+- Win32_VideoController.VideoArchitecture
+- Win32_VideoController.VideoMemoryType
+- Win32_VideoController.VideoMode
+- Win32_VideoController.VideoModeDescription
+- Win32_VideoController.VideoProcessor
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_VideoController class

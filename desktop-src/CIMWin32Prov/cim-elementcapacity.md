@@ -13,6 +13,17 @@ title: CIM\_ElementCapacity class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ElementCapacity
+- CIM_ElementCapacity.Capacity
+- CIM_ElementCapacity.Element
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_ElementCapacity class

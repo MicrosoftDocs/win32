@@ -13,6 +13,17 @@ title: CIM\_ProductSoftwareFeatures class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ProductSoftwareFeatures
+- CIM_ProductSoftwareFeatures.Component
+- CIM_ProductSoftwareFeatures.Product
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_ProductSoftwareFeatures class

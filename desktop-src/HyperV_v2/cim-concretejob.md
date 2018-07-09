@@ -7,6 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ConcreteJob
+- CIM_ConcreteJob.InstanceID
+- CIM_ConcreteJob.Name
+- CIM_ConcreteJob.JobState
+- CIM_ConcreteJob.TimeOfLastStateChange
+- CIM_ConcreteJob.TimeBeforeRemoval
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_ConcreteJob class

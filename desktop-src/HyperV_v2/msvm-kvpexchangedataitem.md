@@ -7,6 +7,22 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_KvpExchangeDataItem
+- Msvm_KvpExchangeDataItem.InstanceID
+- Msvm_KvpExchangeDataItem.Caption
+- Msvm_KvpExchangeDataItem.Description
+- Msvm_KvpExchangeDataItem.ElementName
+- Msvm_KvpExchangeDataItem.Source
+- Msvm_KvpExchangeDataItem.Name
+- Msvm_KvpExchangeDataItem.Data
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_KvpExchangeDataItem class

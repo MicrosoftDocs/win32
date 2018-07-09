@@ -13,6 +13,23 @@ title: CIM\_JobDestination class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_JobDestination
+- CIM_JobDestination.Caption
+- CIM_JobDestination.Description
+- CIM_JobDestination.InstallDate
+- CIM_JobDestination.Name
+- CIM_JobDestination.Status
+- CIM_JobDestination.CreationClassName
+- CIM_JobDestination.SystemCreationClassName
+- CIM_JobDestination.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_JobDestination class

@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_WiFiDeviceSAPImplementation
+- Msvm_WiFiDeviceSAPImplementation.Antecedent
+- Msvm_WiFiDeviceSAPImplementation.Dependent
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_WiFiDeviceSAPImplementation class

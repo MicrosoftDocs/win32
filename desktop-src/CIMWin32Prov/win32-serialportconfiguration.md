@@ -13,6 +13,44 @@ title: Win32\_SerialPortConfiguration class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_SerialPortConfiguration
+- Win32_SerialPortConfiguration.Caption
+- Win32_SerialPortConfiguration.Description
+- Win32_SerialPortConfiguration.SettingID
+- Win32_SerialPortConfiguration.AbortReadWriteOnError
+- Win32_SerialPortConfiguration.BaudRate
+- Win32_SerialPortConfiguration.BinaryModeEnabled
+- Win32_SerialPortConfiguration.BitsPerByte
+- Win32_SerialPortConfiguration.ContinueXMitOnXOff
+- Win32_SerialPortConfiguration.CTSOutflowControl
+- Win32_SerialPortConfiguration.DiscardNULLBytes
+- Win32_SerialPortConfiguration.DSROutflowControl
+- Win32_SerialPortConfiguration.DSRSensitivity
+- Win32_SerialPortConfiguration.DTRFlowControlType
+- Win32_SerialPortConfiguration.EOFCharacter
+- Win32_SerialPortConfiguration.ErrorReplaceCharacter
+- Win32_SerialPortConfiguration.ErrorReplacementEnabled
+- Win32_SerialPortConfiguration.EventCharacter
+- Win32_SerialPortConfiguration.IsBusy
+- Win32_SerialPortConfiguration.Name
+- Win32_SerialPortConfiguration.Parity
+- Win32_SerialPortConfiguration.ParityCheckEnabled
+- Win32_SerialPortConfiguration.RTSFlowControlType
+- Win32_SerialPortConfiguration.StopBits
+- Win32_SerialPortConfiguration.XOffCharacter
+- Win32_SerialPortConfiguration.XOffXMitThreshold
+- Win32_SerialPortConfiguration.XOnCharacter
+- Win32_SerialPortConfiguration.XOnXMitThreshold
+- Win32_SerialPortConfiguration.XOnXOffInFlowControl
+- Win32_SerialPortConfiguration.XOnXOffOutFlowControl
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_SerialPortConfiguration class

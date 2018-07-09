@@ -7,6 +7,24 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- TcpIp_SendIPV6
+- TcpIp_SendIPV6.PID
+- TcpIp_SendIPV6.size
+- TcpIp_SendIPV6.daddr
+- TcpIp_SendIPV6.saddr
+- TcpIp_SendIPV6.dport
+- TcpIp_SendIPV6.sport
+- TcpIp_SendIPV6.startime
+- TcpIp_SendIPV6.endtime
+- TcpIp_SendIPV6.seqnum
+- TcpIp_SendIPV6.connid
+api_type: 
+- NA
+api_location: 
 ---
 
 # TcpIp\_SendIPV6 class

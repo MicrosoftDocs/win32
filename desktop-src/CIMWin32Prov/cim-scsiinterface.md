@@ -13,6 +13,24 @@ title: CIM\_SCSIInterface class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_SCSIInterface
+- CIM_SCSIInterface.NegotiatedDataWidth
+- CIM_SCSIInterface.NegotiatedSpeed
+- CIM_SCSIInterface.AccessState
+- CIM_SCSIInterface.NumberOfHardResets
+- CIM_SCSIInterface.NumberOfSoftResets
+- CIM_SCSIInterface.Dependent
+- CIM_SCSIInterface.Antecedent
+- CIM_SCSIInterface.SCSIRetries
+- CIM_SCSIInterface.SCSITimeouts
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_SCSIInterface class

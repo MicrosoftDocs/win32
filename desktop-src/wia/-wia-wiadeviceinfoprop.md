@@ -7,6 +7,30 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- WIA_DIP_DEV_ID
+- WIA_DIP_VEND_DESC
+- WIA_DIP_DEV_DESC
+- WIA_DIP_DEV_TYPE
+- WIA_DIP_PORT_NAME
+- WIA_DIP_DEV_NAME
+- WIA_DIP_SERVER_NAME
+- WIA_DIP_REMOTE_DEV_ID
+- WIA_DIP_UI_CLSID
+- WIA_DIP_HW_CONFIG
+- WIA_DIP_BAUDRATE
+- WIA_DIP_STI_GEN_CAPABILITIES
+- WIA_DIP_WIA_VERSION
+- WIA_DIP_DRIVER_VERSION
+- WIA_DIP_PNP_ID
+- WIA_DIP_STI_DRIVER_VERSION
+api_type: 
+- HeaderDef
+api_location: 
+- wiadef.h
 ---
 
 # Device Information Property Constants

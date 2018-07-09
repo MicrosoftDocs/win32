@@ -13,6 +13,17 @@ title: CIM\_MemoryWithMedia class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_MemoryWithMedia
+- CIM_MemoryWithMedia.Dependent
+- CIM_MemoryWithMedia.Antecedent
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_MemoryWithMedia class

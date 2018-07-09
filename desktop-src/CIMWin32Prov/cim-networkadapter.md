@@ -13,6 +13,39 @@ title: CIM\_NetworkAdapter class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_NetworkAdapter
+- CIM_NetworkAdapter.AutoSense
+- CIM_NetworkAdapter.Availability
+- CIM_NetworkAdapter.Caption
+- CIM_NetworkAdapter.ConfigManagerErrorCode
+- CIM_NetworkAdapter.ConfigManagerUserConfig
+- CIM_NetworkAdapter.CreationClassName
+- CIM_NetworkAdapter.Description
+- CIM_NetworkAdapter.DeviceID
+- CIM_NetworkAdapter.ErrorCleared
+- CIM_NetworkAdapter.ErrorDescription
+- CIM_NetworkAdapter.InstallDate
+- CIM_NetworkAdapter.LastErrorCode
+- CIM_NetworkAdapter.MaxSpeed
+- CIM_NetworkAdapter.Name
+- CIM_NetworkAdapter.NetworkAddresses
+- CIM_NetworkAdapter.PermanentAddress
+- CIM_NetworkAdapter.PNPDeviceID
+- CIM_NetworkAdapter.PowerManagementCapabilities
+- CIM_NetworkAdapter.PowerManagementSupported
+- CIM_NetworkAdapter.Speed
+- CIM_NetworkAdapter.Status
+- CIM_NetworkAdapter.StatusInfo
+- CIM_NetworkAdapter.SystemCreationClassName
+- CIM_NetworkAdapter.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_NetworkAdapter class

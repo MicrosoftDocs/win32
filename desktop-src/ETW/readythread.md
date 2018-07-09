@@ -7,6 +7,19 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- ReadyThread
+- ReadyThread.TThreadId
+- ReadyThread.AdjustReason
+- ReadyThread.AdjustIncrement
+- ReadyThread.Flag
+- ReadyThread.Reserved
+api_type: 
+- NA
+api_location: 
 ---
 
 # ReadyThread class

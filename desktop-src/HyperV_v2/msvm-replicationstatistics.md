@@ -7,6 +7,33 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ReplicationStatistics
+- Msvm_ReplicationStatistics.InstanceID
+- Msvm_ReplicationStatistics.Caption
+- Msvm_ReplicationStatistics.Description
+- Msvm_ReplicationStatistics.ElementName
+- Msvm_ReplicationStatistics.StartStatisticTime
+- Msvm_ReplicationStatistics.EndStatisticTime
+- Msvm_ReplicationStatistics.ReplicationSuccessCount
+- Msvm_ReplicationStatistics.ReplicationSize
+- Msvm_ReplicationStatistics.MaxReplicationSize
+- Msvm_ReplicationStatistics.ReplicationLatency
+- Msvm_ReplicationStatistics.ReplicationMissCount
+- Msvm_ReplicationStatistics.MaxReplicationLatency
+- Msvm_ReplicationStatistics.NetworkFailureCount
+- Msvm_ReplicationStatistics.ReplicationFailureCount
+- Msvm_ReplicationStatistics.PendingReplicationSize
+- Msvm_ReplicationStatistics.ApplicationConsistentSnapshotFailureCount
+- Msvm_ReplicationStatistics.ReplicationHealth
+- Msvm_ReplicationStatistics.LastTestFailoverTime
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ReplicationStatistics class

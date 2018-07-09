@@ -13,6 +13,20 @@ title: CIM\_ManagedSystemElement class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ManagedSystemElement
+- CIM_ManagedSystemElement.Caption
+- CIM_ManagedSystemElement.Description
+- CIM_ManagedSystemElement.InstallDate
+- CIM_ManagedSystemElement.Name
+- CIM_ManagedSystemElement.Status
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_ManagedSystemElement class

@@ -13,6 +13,35 @@ title: CIM\_HeatPipe class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_HeatPipe
+- CIM_HeatPipe.ActiveCooling
+- CIM_HeatPipe.Availability
+- CIM_HeatPipe.Caption
+- CIM_HeatPipe.ConfigManagerErrorCode
+- CIM_HeatPipe.ConfigManagerUserConfig
+- CIM_HeatPipe.CreationClassName
+- CIM_HeatPipe.Description
+- CIM_HeatPipe.DeviceID
+- CIM_HeatPipe.ErrorCleared
+- CIM_HeatPipe.ErrorDescription
+- CIM_HeatPipe.InstallDate
+- CIM_HeatPipe.LastErrorCode
+- CIM_HeatPipe.Name
+- CIM_HeatPipe.PNPDeviceID
+- CIM_HeatPipe.PowerManagementCapabilities
+- CIM_HeatPipe.PowerManagementSupported
+- CIM_HeatPipe.Status
+- CIM_HeatPipe.StatusInfo
+- CIM_HeatPipe.SystemCreationClassName
+- CIM_HeatPipe.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_HeatPipe class

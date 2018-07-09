@@ -13,6 +13,39 @@ title: CIM\_DesktopMonitor class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_DesktopMonitor
+- CIM_DesktopMonitor.Caption
+- CIM_DesktopMonitor.Description
+- CIM_DesktopMonitor.InstallDate
+- CIM_DesktopMonitor.Name
+- CIM_DesktopMonitor.Status
+- CIM_DesktopMonitor.Availability
+- CIM_DesktopMonitor.ConfigManagerErrorCode
+- CIM_DesktopMonitor.ConfigManagerUserConfig
+- CIM_DesktopMonitor.CreationClassName
+- CIM_DesktopMonitor.DeviceID
+- CIM_DesktopMonitor.PowerManagementCapabilities
+- CIM_DesktopMonitor.ErrorCleared
+- CIM_DesktopMonitor.ErrorDescription
+- CIM_DesktopMonitor.LastErrorCode
+- CIM_DesktopMonitor.PNPDeviceID
+- CIM_DesktopMonitor.PowerManagementSupported
+- CIM_DesktopMonitor.StatusInfo
+- CIM_DesktopMonitor.SystemCreationClassName
+- CIM_DesktopMonitor.SystemName
+- CIM_DesktopMonitor.IsLocked
+- CIM_DesktopMonitor.Bandwidth
+- CIM_DesktopMonitor.DisplayType
+- CIM_DesktopMonitor.ScreenHeight
+- CIM_DesktopMonitor.ScreenWidth
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_DesktopMonitor class

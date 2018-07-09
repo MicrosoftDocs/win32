@@ -7,6 +7,26 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_AllocationCapabilities
+- Msvm_AllocationCapabilities.InstanceID
+- Msvm_AllocationCapabilities.Caption
+- Msvm_AllocationCapabilities.Description
+- Msvm_AllocationCapabilities.ElementName
+- Msvm_AllocationCapabilities.ResourceType
+- Msvm_AllocationCapabilities.OtherResourceType
+- Msvm_AllocationCapabilities.ResourceSubType
+- Msvm_AllocationCapabilities.RequestTypesSupported
+- Msvm_AllocationCapabilities.SharingMode
+- Msvm_AllocationCapabilities.SupportedAddStates
+- Msvm_AllocationCapabilities.SupportedRemoveStates
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_AllocationCapabilities class

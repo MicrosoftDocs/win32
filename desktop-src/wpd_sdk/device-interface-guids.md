@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- GUID_DEVINTERFACE_WPD
+- GUID_DEVINTERFACE_WPD_PRIVATE
+- GUID_DEVINTERFACE_WPD_SERVICE
+api_type: 
+- HeaderDef
+api_location: 
+- PortableDevice.h
 ---
 
 # Device Interface GUIDs

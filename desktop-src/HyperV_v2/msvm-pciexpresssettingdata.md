@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_PciExpressSettingData
+- Msvm_PciExpressSettingData.VirtualFunctions
+- Msvm_PciExpressSettingData.VirtualSystemIdentifiers
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_PciExpressSettingData class

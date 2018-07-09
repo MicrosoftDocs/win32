@@ -7,6 +7,57 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ReplicationSettingData
+- Msvm_ReplicationSettingData.InstanceID
+- Msvm_ReplicationSettingData.Caption
+- Msvm_ReplicationSettingData.Description
+- Msvm_ReplicationSettingData.ElementName
+- Msvm_ReplicationSettingData.VirtualSystemIdentifier
+- Msvm_ReplicationSettingData.VirtualSystemType
+- Msvm_ReplicationSettingData.Notes
+- Msvm_ReplicationSettingData.CreationTime
+- Msvm_ReplicationSettingData.ConfigurationID
+- Msvm_ReplicationSettingData.ConfigurationDataRoot
+- Msvm_ReplicationSettingData.ConfigurationFile
+- Msvm_ReplicationSettingData.SnapshotDataRoot
+- Msvm_ReplicationSettingData.SuspendDataRoot
+- Msvm_ReplicationSettingData.SwapFileDataRoot
+- Msvm_ReplicationSettingData.LogDataRoot
+- Msvm_ReplicationSettingData.AutomaticStartupAction
+- Msvm_ReplicationSettingData.AutomaticStartupActionDelay
+- Msvm_ReplicationSettingData.AutomaticStartupActionSequenceNumber
+- Msvm_ReplicationSettingData.AutomaticShutdownAction
+- Msvm_ReplicationSettingData.AutomaticRecoveryAction
+- Msvm_ReplicationSettingData.RecoveryFile
+- Msvm_ReplicationSettingData.AuthenticationType
+- Msvm_ReplicationSettingData.CertificateThumbPrint
+- Msvm_ReplicationSettingData.RootCertificateThumbPrint
+- Msvm_ReplicationSettingData.CompressionEnabled
+- Msvm_ReplicationSettingData.BypassProxyServer
+- Msvm_ReplicationSettingData.RecoveryConnectionPoint
+- Msvm_ReplicationSettingData.RecoveryHostSystem
+- Msvm_ReplicationSettingData.PrimaryConnectionPoint
+- Msvm_ReplicationSettingData.PrimaryHostSystem
+- Msvm_ReplicationSettingData.RecoveryServerPortNumber
+- Msvm_ReplicationSettingData.ReplicateHostKvpItems
+- Msvm_ReplicationSettingData.ApplicationConsistentSnapshotInterval
+- Msvm_ReplicationSettingData.RecoveryHistory
+- Msvm_ReplicationSettingData.IncludedDisks
+- Msvm_ReplicationSettingData.AutoResynchronizeEnabled
+- Msvm_ReplicationSettingData.AutoResynchronizeIntervalStart
+- Msvm_ReplicationSettingData.AutoResynchronizeIntervalEnd
+- Msvm_ReplicationSettingData.EnableWriteOrderPreservationAcrossDisks
+- Msvm_ReplicationSettingData.ReplicationProvider
+- Msvm_ReplicationSettingData.AdditionalSettings
+- Msvm_ReplicationSettingData.ReplicationInterval
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ReplicationSettingData class

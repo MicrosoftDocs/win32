@@ -7,6 +7,65 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_Ps2Mouse
+- Msvm_Ps2Mouse.SetPowerState
+- Msvm_Ps2Mouse.EnableDevice
+- Msvm_Ps2Mouse.OnlineDevice
+- Msvm_Ps2Mouse.QuiesceDevice
+- Msvm_Ps2Mouse.SaveProperties
+- Msvm_Ps2Mouse.RestoreProperties
+- Msvm_Ps2Mouse.InstanceID
+- Msvm_Ps2Mouse.Caption
+- Msvm_Ps2Mouse.Description
+- Msvm_Ps2Mouse.ElementName
+- Msvm_Ps2Mouse.InstallDate
+- Msvm_Ps2Mouse.Name
+- Msvm_Ps2Mouse.OperationalStatus
+- Msvm_Ps2Mouse.StatusDescriptions
+- Msvm_Ps2Mouse.Status
+- Msvm_Ps2Mouse.HealthState
+- Msvm_Ps2Mouse.CommunicationStatus
+- Msvm_Ps2Mouse.DetailedStatus
+- Msvm_Ps2Mouse.OperatingStatus
+- Msvm_Ps2Mouse.PrimaryStatus
+- Msvm_Ps2Mouse.EnabledState
+- Msvm_Ps2Mouse.OtherEnabledState
+- Msvm_Ps2Mouse.RequestedState
+- Msvm_Ps2Mouse.EnabledDefault
+- Msvm_Ps2Mouse.TimeOfLastStateChange
+- Msvm_Ps2Mouse.AvailableRequestedStates
+- Msvm_Ps2Mouse.TransitioningToState
+- Msvm_Ps2Mouse.SystemCreationClassName
+- Msvm_Ps2Mouse.SystemName
+- Msvm_Ps2Mouse.CreationClassName
+- Msvm_Ps2Mouse.DeviceID
+- Msvm_Ps2Mouse.PowerManagementSupported
+- Msvm_Ps2Mouse.PowerManagementCapabilities
+- Msvm_Ps2Mouse.Availability
+- Msvm_Ps2Mouse.StatusInfo
+- Msvm_Ps2Mouse.LastErrorCode
+- Msvm_Ps2Mouse.ErrorDescription
+- Msvm_Ps2Mouse.ErrorCleared
+- Msvm_Ps2Mouse.OtherIdentifyingInfo
+- Msvm_Ps2Mouse.PowerOnHours
+- Msvm_Ps2Mouse.TotalPowerOnHours
+- Msvm_Ps2Mouse.IdentifyingDescriptions
+- Msvm_Ps2Mouse.AdditionalAvailability
+- Msvm_Ps2Mouse.MaxQuiesceTime
+- Msvm_Ps2Mouse.IsLocked
+- Msvm_Ps2Mouse.PointingType
+- Msvm_Ps2Mouse.NumberOfButtons
+- Msvm_Ps2Mouse.Handedness
+- Msvm_Ps2Mouse.Resolution
+- Msvm_Ps2Mouse.AbsoluteCoordinates
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_Ps2Mouse class

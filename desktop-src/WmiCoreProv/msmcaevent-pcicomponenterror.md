@@ -7,6 +7,36 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- MSMCAEvent_PCIComponentError
+- MSMCAEvent_PCIComponentError.Active
+- MSMCAEvent_PCIComponentError.AdditionalErrors
+- MSMCAEvent_PCIComponentError.Cpu
+- MSMCAEvent_PCIComponentError.ErrorSeverity
+- MSMCAEvent_PCIComponentError.InstanceName
+- MSMCAEvent_PCIComponentError.PCI_COMP_ERROR_STATUS
+- MSMCAEvent_PCIComponentError.PCI_COMP_INFO_BusNumber
+- MSMCAEvent_PCIComponentError.PCI_COMP_INFO_ClassCodeBaseClass
+- MSMCAEvent_PCIComponentError.PCI_COMP_INFO_ClassCodeInterface
+- MSMCAEvent_PCIComponentError.PCI_COMP_INFO_ClassCodeSubClass
+- MSMCAEvent_PCIComponentError.PCI_COMP_INFO_DeviceId
+- MSMCAEvent_PCIComponentError.PCI_COMP_INFO_DeviceNumber
+- MSMCAEvent_PCIComponentError.PCI_COMP_INFO_FunctionNumber
+- MSMCAEvent_PCIComponentError.PCI_COMP_INFO_SegmentNumber
+- MSMCAEvent_PCIComponentError.PCI_COMP_INFO_VendorId
+- MSMCAEvent_PCIComponentError.RawRecord
+- MSMCAEvent_PCIComponentError.RecordId
+- MSMCAEvent_PCIComponentError.Size
+- MSMCAEvent_PCIComponentError.Type
+- MSMCAEvent_PCIComponentError.VALIDATION_BITS
+- MSMCAEvent_PCIComponentError.LogToEventlog
+api_type: 
+- DllExport
+api_location: 
+- Wmiprov.dll
 ---
 
 # MSMCAEvent\_PCIComponentError class

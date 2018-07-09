@@ -13,6 +13,46 @@ title: Win32\_ClusterShare class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_ClusterShare
+- Win32_ClusterShare.Caption
+- Win32_ClusterShare.Description
+- Win32_ClusterShare.InstallDate
+- Win32_ClusterShare.Status
+- Win32_ClusterShare.AccessMask
+- Win32_ClusterShare.AllowMaximum
+- Win32_ClusterShare.MaximumAllowed
+- Win32_ClusterShare.Name
+- Win32_ClusterShare.Path
+- Win32_ClusterShare.Type
+- Win32_ClusterShare.ServerName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_ClusterShare
+- Win32_ClusterShare.Caption
+- Win32_ClusterShare.Description
+- Win32_ClusterShare.InstallDate
+- Win32_ClusterShare.Status
+- Win32_ClusterShare.AccessMask
+- Win32_ClusterShare.AllowMaximum
+- Win32_ClusterShare.MaximumAllowed
+- Win32_ClusterShare.Name
+- Win32_ClusterShare.Path
+- Win32_ClusterShare.Type
+- Win32_ClusterShare.ServerName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_ClusterShare class

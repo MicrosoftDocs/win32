@@ -11,6 +11,11 @@ title: Setting Security on an Asynchronous Call in VBScript
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- kbArticle
+api_name: 
+api_type: 
+api_location: 
 ---
 
 # Setting Security on an Asynchronous Call in VBScript

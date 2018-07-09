@@ -13,6 +13,30 @@ title: CIM\_PhysicalElement class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_PhysicalElement
+- CIM_PhysicalElement.Caption
+- CIM_PhysicalElement.Description
+- CIM_PhysicalElement.InstallDate
+- CIM_PhysicalElement.Name
+- CIM_PhysicalElement.Status
+- CIM_PhysicalElement.CreationClassName
+- CIM_PhysicalElement.Manufacturer
+- CIM_PhysicalElement.Model
+- CIM_PhysicalElement.OtherIdentifyingInfo
+- CIM_PhysicalElement.PartNumber
+- CIM_PhysicalElement.PoweredOn
+- CIM_PhysicalElement.SerialNumber
+- CIM_PhysicalElement.SKU
+- CIM_PhysicalElement.Tag
+- CIM_PhysicalElement.Version
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_PhysicalElement class

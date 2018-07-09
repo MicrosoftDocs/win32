@@ -7,6 +7,45 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_Synth3dVideoPool
+- Msvm_Synth3dVideoPool.InstanceID
+- Msvm_Synth3dVideoPool.Caption
+- Msvm_Synth3dVideoPool.Description
+- Msvm_Synth3dVideoPool.ElementName
+- Msvm_Synth3dVideoPool.InstallDate
+- Msvm_Synth3dVideoPool.Name
+- Msvm_Synth3dVideoPool.OperationalStatus
+- Msvm_Synth3dVideoPool.StatusDescriptions
+- Msvm_Synth3dVideoPool.Status
+- Msvm_Synth3dVideoPool.HealthState
+- Msvm_Synth3dVideoPool.CommunicationStatus
+- Msvm_Synth3dVideoPool.DetailedStatus
+- Msvm_Synth3dVideoPool.OperatingStatus
+- Msvm_Synth3dVideoPool.PrimaryStatus
+- Msvm_Synth3dVideoPool.PoolID
+- Msvm_Synth3dVideoPool.Primordial
+- Msvm_Synth3dVideoPool.Capacity
+- Msvm_Synth3dVideoPool.Reserved
+- Msvm_Synth3dVideoPool.ResourceType
+- Msvm_Synth3dVideoPool.OtherResourceType
+- Msvm_Synth3dVideoPool.ResourceSubType
+- Msvm_Synth3dVideoPool.AllocationUnits
+- Msvm_Synth3dVideoPool.ConsumedResourceUnits
+- Msvm_Synth3dVideoPool.CurrentlyConsumedResource
+- Msvm_Synth3dVideoPool.MaxConsumableResource
+- Msvm_Synth3dVideoPool.Is3dVideoSupported
+- Msvm_Synth3dVideoPool.IsSLATCapable
+- Msvm_Synth3dVideoPool.IsGPUCapable
+- Msvm_Synth3dVideoPool.DirectXVersion
+- Msvm_Synth3dVideoPool.RequiredMinimumDirectXVersion
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_Synth3dVideoPool class

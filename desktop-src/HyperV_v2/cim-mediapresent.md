@@ -7,6 +7,18 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_MediaPresent
+- CIM_MediaPresent.Antecedent
+- CIM_MediaPresent.Dependent
+- CIM_MediaPresent.FixedMedia
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_MediaPresent class

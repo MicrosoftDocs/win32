@@ -11,6 +11,16 @@ title: Namespace ACE Type Constants
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Allow
+- Deny
+api_type: 
+- HeaderDef
+api_location: 
+- Winnt.h
 ---
 
 # Namespace ACE Type Constants

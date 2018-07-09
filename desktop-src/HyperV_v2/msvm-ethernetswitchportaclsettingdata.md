@@ -7,6 +7,28 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_EthernetSwitchPortAclSettingData
+- Msvm_EthernetSwitchPortAclSettingData.InstanceID
+- Msvm_EthernetSwitchPortAclSettingData.Caption
+- Msvm_EthernetSwitchPortAclSettingData.Description
+- Msvm_EthernetSwitchPortAclSettingData.ElementName
+- Msvm_EthernetSwitchPortAclSettingData.Name
+- Msvm_EthernetSwitchPortAclSettingData.Direction
+- Msvm_EthernetSwitchPortAclSettingData.Applicability
+- Msvm_EthernetSwitchPortAclSettingData.AclType
+- Msvm_EthernetSwitchPortAclSettingData.Action
+- Msvm_EthernetSwitchPortAclSettingData.LocalAddress
+- Msvm_EthernetSwitchPortAclSettingData.LocalAddressPrefixLength
+- Msvm_EthernetSwitchPortAclSettingData.RemoteAddress
+- Msvm_EthernetSwitchPortAclSettingData.RemoteAddressPrefixLength
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_EthernetSwitchPortAclSettingData class

@@ -13,6 +13,19 @@ title: CIM\_BasedOn class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_BasedOn
+- CIM_BasedOn.Dependent
+- CIM_BasedOn.Antecedent
+- CIM_BasedOn.EndingAddress
+- CIM_BasedOn.StartingAddress
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_BasedOn class

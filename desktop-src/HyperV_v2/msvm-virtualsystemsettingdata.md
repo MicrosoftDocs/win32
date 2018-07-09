@@ -7,6 +7,75 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualSystemSettingData
+- Msvm_VirtualSystemSettingData.InstanceID
+- Msvm_VirtualSystemSettingData.Caption
+- Msvm_VirtualSystemSettingData.Description
+- Msvm_VirtualSystemSettingData.ElementName
+- Msvm_VirtualSystemSettingData.VirtualSystemIdentifier
+- Msvm_VirtualSystemSettingData.VirtualSystemType
+- Msvm_VirtualSystemSettingData.Notes
+- Msvm_VirtualSystemSettingData.CreationTime
+- Msvm_VirtualSystemSettingData.ConfigurationID
+- Msvm_VirtualSystemSettingData.ConfigurationDataRoot
+- Msvm_VirtualSystemSettingData.ConfigurationFile
+- Msvm_VirtualSystemSettingData.SnapshotDataRoot
+- Msvm_VirtualSystemSettingData.SuspendDataRoot
+- Msvm_VirtualSystemSettingData.SwapFileDataRoot
+- Msvm_VirtualSystemSettingData.LogDataRoot
+- Msvm_VirtualSystemSettingData.AutomaticStartupAction
+- Msvm_VirtualSystemSettingData.AutomaticStartupActionDelay
+- Msvm_VirtualSystemSettingData.AutomaticStartupActionSequenceNumber
+- Msvm_VirtualSystemSettingData.AutomaticShutdownAction
+- Msvm_VirtualSystemSettingData.AutomaticRecoveryAction
+- Msvm_VirtualSystemSettingData.RecoveryFile
+- Msvm_VirtualSystemSettingData.BIOSGUID
+- Msvm_VirtualSystemSettingData.BIOSSerialNumber
+- Msvm_VirtualSystemSettingData.BaseBoardSerialNumber
+- Msvm_VirtualSystemSettingData.ChassisSerialNumber
+- Msvm_VirtualSystemSettingData.Architecture
+- Msvm_VirtualSystemSettingData.ChassisAssetTag
+- Msvm_VirtualSystemSettingData.BIOSNumLock
+- Msvm_VirtualSystemSettingData.BootOrder
+- Msvm_VirtualSystemSettingData.Parent
+- Msvm_VirtualSystemSettingData.UserSnapshotType
+- Msvm_VirtualSystemSettingData.IsSaved
+- Msvm_VirtualSystemSettingData.AdditionalRecoveryInformation
+- Msvm_VirtualSystemSettingData.AllowFullSCSICommandSet
+- Msvm_VirtualSystemSettingData.DebugChannelId
+- Msvm_VirtualSystemSettingData.DebugPortEnabled
+- Msvm_VirtualSystemSettingData.DebugPort
+- Msvm_VirtualSystemSettingData.Version
+- Msvm_VirtualSystemSettingData.IncrementalBackupEnabled
+- Msvm_VirtualSystemSettingData.VirtualNumaEnabled
+- Msvm_VirtualSystemSettingData.AllowReducedFcRedundancy
+- Msvm_VirtualSystemSettingData.VirtualSystemSubType
+- Msvm_VirtualSystemSettingData.BootSourceOrder
+- Msvm_VirtualSystemSettingData.PauseAfterBootFailure
+- Msvm_VirtualSystemSettingData.NetworkBootPreferredProtocol
+- Msvm_VirtualSystemSettingData.GuestControlledCacheTypes
+- Msvm_VirtualSystemSettingData.AutomaticSnapshotsEnabled
+- Msvm_VirtualSystemSettingData.IsAutomaticSnapshot
+- Msvm_VirtualSystemSettingData.GuestStateFile
+- Msvm_VirtualSystemSettingData.GuestStateDataRoot
+- Msvm_VirtualSystemSettingData.LockOnDisconnect
+- Msvm_VirtualSystemSettingData.ParentPackage
+- Msvm_VirtualSystemSettingData.AutomaticCriticalErrorActionTimeout
+- Msvm_VirtualSystemSettingData.AutomaticCriticalErrorAction
+- Msvm_VirtualSystemSettingData.ConsoleMode
+- Msvm_VirtualSystemSettingData.SecureBootEnabled
+- Msvm_VirtualSystemSettingData.SecureBootTemplateId
+- Msvm_VirtualSystemSettingData.LowMmioGapSize
+- Msvm_VirtualSystemSettingData.HighMmioGapSize
+- Msvm_VirtualSystemSettingData.EnhancedSessionTransportType
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualSystemSettingData class

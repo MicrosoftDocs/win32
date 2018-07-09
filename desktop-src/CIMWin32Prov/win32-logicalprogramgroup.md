@@ -13,6 +13,22 @@ title: Win32\_LogicalProgramGroup class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_LogicalProgramGroup
+- Win32_LogicalProgramGroup.Caption
+- Win32_LogicalProgramGroup.Description
+- Win32_LogicalProgramGroup.InstallDate
+- Win32_LogicalProgramGroup.Status
+- Win32_LogicalProgramGroup.GroupName
+- Win32_LogicalProgramGroup.Name
+- Win32_LogicalProgramGroup.UserName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_LogicalProgramGroup class

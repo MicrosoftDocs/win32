@@ -13,6 +13,23 @@ title: Win32\_ComputerSystemProduct class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_ComputerSystemProduct
+- Win32_ComputerSystemProduct.Caption
+- Win32_ComputerSystemProduct.Description
+- Win32_ComputerSystemProduct.IdentifyingNumber
+- Win32_ComputerSystemProduct.Name
+- Win32_ComputerSystemProduct.SKUNumber
+- Win32_ComputerSystemProduct.Vendor
+- Win32_ComputerSystemProduct.Version
+- Win32_ComputerSystemProduct.UUID
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_ComputerSystemProduct class

@@ -13,6 +13,47 @@ title: Win32\_NetworkLoginProfile class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_NetworkLoginProfile
+- Win32_NetworkLoginProfile.Caption
+- Win32_NetworkLoginProfile.Description
+- Win32_NetworkLoginProfile.SettingID
+- Win32_NetworkLoginProfile.AccountExpires
+- Win32_NetworkLoginProfile.AuthorizationFlags
+- Win32_NetworkLoginProfile.BadPasswordCount
+- Win32_NetworkLoginProfile.CodePage
+- Win32_NetworkLoginProfile.Comment
+- Win32_NetworkLoginProfile.CountryCode
+- Win32_NetworkLoginProfile.Flags
+- Win32_NetworkLoginProfile.FullName
+- Win32_NetworkLoginProfile.HomeDirectory
+- Win32_NetworkLoginProfile.HomeDirectoryDrive
+- Win32_NetworkLoginProfile.LastLogoff
+- Win32_NetworkLoginProfile.LastLogon
+- Win32_NetworkLoginProfile.LogonHours
+- Win32_NetworkLoginProfile.LogonServer
+- Win32_NetworkLoginProfile.MaximumStorage
+- Win32_NetworkLoginProfile.Name
+- Win32_NetworkLoginProfile.NumberOfLogons
+- Win32_NetworkLoginProfile.Parameters
+- Win32_NetworkLoginProfile.PasswordAge
+- Win32_NetworkLoginProfile.PasswordExpires
+- Win32_NetworkLoginProfile.PrimaryGroupId
+- Win32_NetworkLoginProfile.Privileges
+- Win32_NetworkLoginProfile.Profile
+- Win32_NetworkLoginProfile.ScriptPath
+- Win32_NetworkLoginProfile.UnitsPerWeek
+- Win32_NetworkLoginProfile.UserComment
+- Win32_NetworkLoginProfile.UserId
+- Win32_NetworkLoginProfile.UserType
+- Win32_NetworkLoginProfile.Workstations
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_NetworkLoginProfile class

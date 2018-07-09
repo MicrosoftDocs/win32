@@ -7,6 +7,19 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_PointingDevice
+- CIM_PointingDevice.PointingType
+- CIM_PointingDevice.NumberOfButtons
+- CIM_PointingDevice.Handedness
+- CIM_PointingDevice.Resolution
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_PointingDevice class

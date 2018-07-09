@@ -7,6 +7,23 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- WPD_EVENT_DEVICE_CAPABILITIES_UPDATED
+- WPD_EVENT_DEVICE_REMOVED
+- WPD_EVENT_DEVICE_RESET
+- WPD_EVENT_OBJECT_ADDED
+- WPD_EVENT_OBJECT_REMOVED
+- WPD_EVENT_OBJECT_TRANSFER_REQUESTED
+- WPD_EVENT_OBJECT_UPDATED
+- WPD_EVENT_SERVICE_METHOD_COMPLETE
+- WPD_EVENT_STORAGE_FORMAT
+api_type: 
+- HeaderDef
+api_location: 
+- PortableDevice.h
 ---
 
 # Event Constants

@@ -13,6 +13,52 @@ title: Win32\_VoltageProbe class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_VoltageProbe
+- Win32_VoltageProbe.Reset
+- Win32_VoltageProbe.SetPowerState
+- Win32_VoltageProbe.Accuracy
+- Win32_VoltageProbe.Availability
+- Win32_VoltageProbe.Caption
+- Win32_VoltageProbe.ConfigManagerErrorCode
+- Win32_VoltageProbe.ConfigManagerUserConfig
+- Win32_VoltageProbe.CreationClassName
+- Win32_VoltageProbe.CurrentReading
+- Win32_VoltageProbe.Description
+- Win32_VoltageProbe.DeviceID
+- Win32_VoltageProbe.ErrorCleared
+- Win32_VoltageProbe.ErrorDescription
+- Win32_VoltageProbe.InstallDate
+- Win32_VoltageProbe.IsLinear
+- Win32_VoltageProbe.LastErrorCode
+- Win32_VoltageProbe.LowerThresholdCritical
+- Win32_VoltageProbe.LowerThresholdFatal
+- Win32_VoltageProbe.LowerThresholdNonCritical
+- Win32_VoltageProbe.MaxReadable
+- Win32_VoltageProbe.MinReadable
+- Win32_VoltageProbe.Name
+- Win32_VoltageProbe.NominalReading
+- Win32_VoltageProbe.NormalMax
+- Win32_VoltageProbe.NormalMin
+- Win32_VoltageProbe.PNPDeviceID
+- Win32_VoltageProbe.PowerManagementCapabilities
+- Win32_VoltageProbe.PowerManagementSupported
+- Win32_VoltageProbe.Resolution
+- Win32_VoltageProbe.Status
+- Win32_VoltageProbe.StatusInfo
+- Win32_VoltageProbe.SystemCreationClassName
+- Win32_VoltageProbe.SystemName
+- Win32_VoltageProbe.Tolerance
+- Win32_VoltageProbe.UpperThresholdCritical
+- Win32_VoltageProbe.UpperThresholdFatal
+- Win32_VoltageProbe.UpperThresholdNonCritical
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_VoltageProbe class

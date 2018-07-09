@@ -7,6 +7,39 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VssComponentSettingData
+- Msvm_VssComponentSettingData.InstanceID
+- Msvm_VssComponentSettingData.Caption
+- Msvm_VssComponentSettingData.Description
+- Msvm_VssComponentSettingData.ElementName
+- Msvm_VssComponentSettingData.ResourceType
+- Msvm_VssComponentSettingData.OtherResourceType
+- Msvm_VssComponentSettingData.ResourceSubType
+- Msvm_VssComponentSettingData.PoolID
+- Msvm_VssComponentSettingData.ConsumerVisibility
+- Msvm_VssComponentSettingData.HostResource
+- Msvm_VssComponentSettingData.AllocationUnits
+- Msvm_VssComponentSettingData.VirtualQuantity
+- Msvm_VssComponentSettingData.Reservation
+- Msvm_VssComponentSettingData.Limit
+- Msvm_VssComponentSettingData.Weight
+- Msvm_VssComponentSettingData.AutomaticAllocation
+- Msvm_VssComponentSettingData.AutomaticDeallocation
+- Msvm_VssComponentSettingData.Parent
+- Msvm_VssComponentSettingData.Connection
+- Msvm_VssComponentSettingData.Address
+- Msvm_VssComponentSettingData.MappingBehavior
+- Msvm_VssComponentSettingData.AddressOnParent
+- Msvm_VssComponentSettingData.VirtualQuantityUnits
+- Msvm_VssComponentSettingData.EnabledState
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VssComponentSettingData class

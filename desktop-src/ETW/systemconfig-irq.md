@@ -7,6 +7,18 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SystemConfig_IRQ
+- SystemConfig_IRQ.IRQAffinity
+- SystemConfig_IRQ.IRQNum
+- SystemConfig_IRQ.DeviceDescriptionLen
+- SystemConfig_IRQ.DeviceDescription
+api_type: 
+- NA
+api_location: 
 ---
 
 # SystemConfig\_IRQ class

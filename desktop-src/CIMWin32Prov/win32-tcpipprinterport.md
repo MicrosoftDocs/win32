@@ -13,6 +13,32 @@ title: Win32\_TCPIPPrinterPort class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_TCPIPPrinterPort
+- Win32_TCPIPPrinterPort.Caption
+- Win32_TCPIPPrinterPort.Description
+- Win32_TCPIPPrinterPort.InstallDate
+- Win32_TCPIPPrinterPort.Status
+- Win32_TCPIPPrinterPort.CreationClassName
+- Win32_TCPIPPrinterPort.Name
+- Win32_TCPIPPrinterPort.SystemCreationClassName
+- Win32_TCPIPPrinterPort.SystemName
+- Win32_TCPIPPrinterPort.Type
+- Win32_TCPIPPrinterPort.ByteCount
+- Win32_TCPIPPrinterPort.HostAddress
+- Win32_TCPIPPrinterPort.PortNumber
+- Win32_TCPIPPrinterPort.Protocol
+- Win32_TCPIPPrinterPort.Queue
+- Win32_TCPIPPrinterPort.SNMPCommunity
+- Win32_TCPIPPrinterPort.SNMPDevIndex
+- Win32_TCPIPPrinterPort.SNMPEnabled
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_TCPIPPrinterPort class

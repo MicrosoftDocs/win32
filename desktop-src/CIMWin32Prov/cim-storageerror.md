@@ -13,6 +13,21 @@ title: CIM\_StorageError class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_StorageError
+- CIM_StorageError.DeviceCreationClassName
+- CIM_StorageError.DeviceID
+- CIM_StorageError.EndingAddress
+- CIM_StorageError.StartingAddress
+- CIM_StorageError.SystemCreationClassName
+- CIM_StorageError.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_StorageError class

@@ -13,6 +13,20 @@ title: Win32\_PnPDevicePropertySecurityDescriptor class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PnPDevicePropertySecurityDescriptor
+- Win32_PnPDevicePropertySecurityDescriptor.Key
+- Win32_PnPDevicePropertySecurityDescriptor.KeyName
+- Win32_PnPDevicePropertySecurityDescriptor.Type
+- Win32_PnPDevicePropertySecurityDescriptor.DeviceID
+- Win32_PnPDevicePropertySecurityDescriptor.Data
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PnPDevicePropertySecurityDescriptor class

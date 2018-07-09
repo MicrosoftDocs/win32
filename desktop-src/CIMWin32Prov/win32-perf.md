@@ -13,6 +13,24 @@ title: Win32\_Perf class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_Perf
+- Root\CIMV2.Win32_Perf.Caption
+- Root\CIMV2.Win32_Perf.Description
+- Root\CIMV2.Win32_Perf.Name
+- Root\CIMV2.Win32_Perf.Frequency_Object
+- Root\CIMV2.Win32_Perf.Frequency_PerfTime
+- Root\CIMV2.Win32_Perf.Frequency_Sys100NS
+- Root\CIMV2.Win32_Perf.Timestamp_Object
+- Root\CIMV2.Win32_Perf.Timestamp_PerfTime
+- Root\CIMV2.Win32_Perf.Timestamp_Sys100NS
+api_type: 
+- DllExport
+api_location: 
+- WmiPerfInst.dll
 ---
 
 # Win32\_Perf class

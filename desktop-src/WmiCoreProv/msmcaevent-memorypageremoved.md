@@ -7,6 +7,18 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- MSMCAEvent_MemoryPageRemoved
+- MSMCAEvent_MemoryPageRemoved.Active
+- MSMCAEvent_MemoryPageRemoved.InstanceName
+- MSMCAEvent_MemoryPageRemoved.PhysicalAddress
+api_type: 
+- DllExport
+api_location: 
+- Wmiprov.dll
 ---
 
 # MSMCAEvent\_MemoryPageRemoved class

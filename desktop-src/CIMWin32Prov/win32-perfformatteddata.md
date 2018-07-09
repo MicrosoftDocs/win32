@@ -13,6 +13,24 @@ title: Win32\_PerfFormattedData class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PerfFormattedData
+- Win32_PerfFormattedData.Caption
+- Win32_PerfFormattedData.Description
+- Win32_PerfFormattedData.Name
+- Win32_PerfFormattedData.Frequency_Object
+- Win32_PerfFormattedData.Frequency_PerfTime
+- Win32_PerfFormattedData.Frequency_Sys100NS
+- Win32_PerfFormattedData.Timestamp_Object
+- Win32_PerfFormattedData.Timestamp_PerfTime
+- Win32_PerfFormattedData.Timestamp_Sys100NS
+api_type: 
+- DllExport
+api_location: 
+- WmiPerfInst.dll
 ---
 
 # Win32\_PerfFormattedData class

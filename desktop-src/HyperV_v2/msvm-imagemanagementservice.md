@@ -7,6 +7,43 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ImageManagementService
+- Msvm_ImageManagementService.InstanceID
+- Msvm_ImageManagementService.Caption
+- Msvm_ImageManagementService.Description
+- Msvm_ImageManagementService.ElementName
+- Msvm_ImageManagementService.InstallDate
+- Msvm_ImageManagementService.OperationalStatus
+- Msvm_ImageManagementService.StatusDescriptions
+- Msvm_ImageManagementService.Status
+- Msvm_ImageManagementService.HealthState
+- Msvm_ImageManagementService.CommunicationStatus
+- Msvm_ImageManagementService.DetailedStatus
+- Msvm_ImageManagementService.OperatingStatus
+- Msvm_ImageManagementService.PrimaryStatus
+- Msvm_ImageManagementService.EnabledState
+- Msvm_ImageManagementService.OtherEnabledState
+- Msvm_ImageManagementService.RequestedState
+- Msvm_ImageManagementService.EnabledDefault
+- Msvm_ImageManagementService.TimeOfLastStateChange
+- Msvm_ImageManagementService.AvailableRequestedStates
+- Msvm_ImageManagementService.TransitioningToState
+- Msvm_ImageManagementService.SystemCreationClassName
+- Msvm_ImageManagementService.SystemName
+- Msvm_ImageManagementService.CreationClassName
+- Msvm_ImageManagementService.Name
+- Msvm_ImageManagementService.PrimaryOwnerName
+- Msvm_ImageManagementService.PrimaryOwnerContact
+- Msvm_ImageManagementService.StartMode
+- Msvm_ImageManagementService.Started
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ImageManagementService class

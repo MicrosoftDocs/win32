@@ -13,6 +13,50 @@ title: CIM\_Tachometer class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Tachometer
+- CIM_Tachometer.Accuracy
+- CIM_Tachometer.Availability
+- CIM_Tachometer.Caption
+- CIM_Tachometer.ConfigManagerErrorCode
+- CIM_Tachometer.ConfigManagerUserConfig
+- CIM_Tachometer.CreationClassName
+- CIM_Tachometer.CurrentReading
+- CIM_Tachometer.Description
+- CIM_Tachometer.DeviceID
+- CIM_Tachometer.ErrorCleared
+- CIM_Tachometer.ErrorDescription
+- CIM_Tachometer.InstallDate
+- CIM_Tachometer.IsLinear
+- CIM_Tachometer.LastErrorCode
+- CIM_Tachometer.LowerThresholdCritical
+- CIM_Tachometer.LowerThresholdFatal
+- CIM_Tachometer.LowerThresholdNonCritical
+- CIM_Tachometer.MaxReadable
+- CIM_Tachometer.MinReadable
+- CIM_Tachometer.Name
+- CIM_Tachometer.NominalReading
+- CIM_Tachometer.NormalMax
+- CIM_Tachometer.NormalMin
+- CIM_Tachometer.PNPDeviceID
+- CIM_Tachometer.PowerManagementCapabilities
+- CIM_Tachometer.PowerManagementSupported
+- CIM_Tachometer.Resolution
+- CIM_Tachometer.Status
+- CIM_Tachometer.StatusInfo
+- CIM_Tachometer.SystemCreationClassName
+- CIM_Tachometer.SystemName
+- CIM_Tachometer.Tolerance
+- CIM_Tachometer.UpperThresholdCritical
+- CIM_Tachometer.UpperThresholdFatal
+- CIM_Tachometer.UpperThresholdNonCritical
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Tachometer class

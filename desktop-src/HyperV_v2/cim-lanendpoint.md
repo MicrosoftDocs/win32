@@ -7,6 +7,22 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_LANEndpoint
+- CIM_LANEndpoint.LANID
+- CIM_LANEndpoint.LANType
+- CIM_LANEndpoint.OtherLANType
+- CIM_LANEndpoint.MACAddress
+- CIM_LANEndpoint.AliasAddresses
+- CIM_LANEndpoint.GroupAddresses
+- CIM_LANEndpoint.MaxDataSize
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_LANEndpoint class

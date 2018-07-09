@@ -7,6 +7,28 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_StorageAllocationSettingData
+- CIM_StorageAllocationSettingData.VirtualResourceBlockSize
+- CIM_StorageAllocationSettingData.VirtualQuantity
+- CIM_StorageAllocationSettingData.VirtualQuantityUnits
+- CIM_StorageAllocationSettingData.Access
+- CIM_StorageAllocationSettingData.HostResourceBlockSize
+- CIM_StorageAllocationSettingData.Reservation
+- CIM_StorageAllocationSettingData.Limit
+- CIM_StorageAllocationSettingData.HostExtentStartingAddress
+- CIM_StorageAllocationSettingData.HostExtentName
+- CIM_StorageAllocationSettingData.HostExtentNameFormat
+- CIM_StorageAllocationSettingData.OtherHostExtentNameFormat
+- CIM_StorageAllocationSettingData.HostExtentNameNamespace
+- CIM_StorageAllocationSettingData.OtherHostExtentNameNamespace
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_StorageAllocationSettingData class

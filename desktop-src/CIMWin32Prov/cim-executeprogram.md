@@ -13,6 +13,26 @@ title: CIM\_ExecuteProgram class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ExecuteProgram
+- CIM_ExecuteProgram.ActionID
+- CIM_ExecuteProgram.Caption
+- CIM_ExecuteProgram.Description
+- CIM_ExecuteProgram.Direction
+- CIM_ExecuteProgram.Name
+- CIM_ExecuteProgram.SoftwareElementID
+- CIM_ExecuteProgram.SoftwareElementState
+- CIM_ExecuteProgram.TargetOperatingSystem
+- CIM_ExecuteProgram.Version
+- CIM_ExecuteProgram.CommandLine
+- CIM_ExecuteProgram.ProgramPath
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_ExecuteProgram class

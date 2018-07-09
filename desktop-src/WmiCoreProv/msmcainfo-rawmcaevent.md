@@ -7,6 +7,19 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- MSMCAInfo_RawMCAEvent
+- MSMCAInfo_RawMCAEvent.Active
+- MSMCAInfo_RawMCAEvent.Count
+- MSMCAInfo_RawMCAEvent.InstanceName
+- MSMCAInfo_RawMCAEvent.Records
+api_type: 
+- DllExport
+api_location: 
+- Wmiprov.dll
 ---
 
 # MSMCAInfo\_RawMCAEvent class

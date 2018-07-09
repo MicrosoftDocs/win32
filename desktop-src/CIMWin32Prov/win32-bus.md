@@ -13,6 +13,38 @@ title: Win32\_Bus class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_Bus
+- Win32_Bus.Reset
+- Win32_Bus.SetPowerState
+- Win32_Bus.Availability
+- Win32_Bus.BusNum
+- Win32_Bus.BusType
+- Win32_Bus.Caption
+- Win32_Bus.ConfigManagerErrorCode
+- Win32_Bus.ConfigManagerUserConfig
+- Win32_Bus.CreationClassName
+- Win32_Bus.Description
+- Win32_Bus.DeviceID
+- Win32_Bus.ErrorCleared
+- Win32_Bus.ErrorDescription
+- Win32_Bus.InstallDate
+- Win32_Bus.LastErrorCode
+- Win32_Bus.Name
+- Win32_Bus.PNPDeviceID
+- Win32_Bus.PowerManagementCapabilities
+- Win32_Bus.PowerManagementSupported
+- Win32_Bus.Status
+- Win32_Bus.StatusInfo
+- Win32_Bus.SystemCreationClassName
+- Win32_Bus.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_Bus class

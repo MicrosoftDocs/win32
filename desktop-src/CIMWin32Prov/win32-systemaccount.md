@@ -13,6 +13,24 @@ title: Win32\_SystemAccount class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_SystemAccount
+- Win32_SystemAccount.Caption
+- Win32_SystemAccount.Description
+- Win32_SystemAccount.InstallDate
+- Win32_SystemAccount.Status
+- Win32_SystemAccount.LocalAccount
+- Win32_SystemAccount.SID
+- Win32_SystemAccount.SIDType
+- Win32_SystemAccount.Domain
+- Win32_SystemAccount.Name
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_SystemAccount class

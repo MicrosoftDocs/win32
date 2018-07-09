@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- FileIo_OpEnd
+- FileIo_OpEnd.IrpPtr
+- FileIo_OpEnd.ExtraInfo
+- FileIo_OpEnd.NtStatus
+api_type: 
+- NA
+api_location: 
 ---
 
 # FileIo\_OpEnd class

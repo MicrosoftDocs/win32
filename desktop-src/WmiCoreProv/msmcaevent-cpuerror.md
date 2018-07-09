@@ -7,6 +7,26 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- MSMCAEvent_CPUError
+- MSMCAEvent_CPUError.Active
+- MSMCAEvent_CPUError.AdditionalErrors
+- MSMCAEvent_CPUError.Cpu
+- MSMCAEvent_CPUError.ErrorSeverity
+- MSMCAEvent_CPUError.InstanceName
+- MSMCAEvent_CPUError.Level
+- MSMCAEvent_CPUError.RawRecord
+- MSMCAEvent_CPUError.RecordId
+- MSMCAEvent_CPUError.Size
+- MSMCAEvent_CPUError.Type
+- MSMCAEvent_CPUError.LogToEventlog
+api_type: 
+- DllExport
+api_location: 
+- Wmiprov.dll
 ---
 
 # MSMCAEvent\_CPUError class

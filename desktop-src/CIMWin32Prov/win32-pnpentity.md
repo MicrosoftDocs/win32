@@ -13,6 +13,43 @@ title: Win32\_PnPEntity class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PnPEntity
+- Win32_PnPEntity.Reset
+- Win32_PnPEntity.SetPowerState
+- Win32_PnPEntity.Availability
+- Win32_PnPEntity.Caption
+- Win32_PnPEntity.ClassGuid
+- Win32_PnPEntity.CompatibleID
+- Win32_PnPEntity.ConfigManagerErrorCode
+- Win32_PnPEntity.ConfigManagerUserConfig
+- Win32_PnPEntity.CreationClassName
+- Win32_PnPEntity.Description
+- Win32_PnPEntity.DeviceID
+- Win32_PnPEntity.ErrorCleared
+- Win32_PnPEntity.ErrorDescription
+- Win32_PnPEntity.HardwareID
+- Win32_PnPEntity.InstallDate
+- Win32_PnPEntity.LastErrorCode
+- Win32_PnPEntity.Manufacturer
+- Win32_PnPEntity.Name
+- Win32_PnPEntity.PNPClass
+- Win32_PnPEntity.PNPDeviceID
+- Win32_PnPEntity.PowerManagementCapabilities
+- Win32_PnPEntity.PowerManagementSupported
+- Win32_PnPEntity.Present
+- Win32_PnPEntity.Service
+- Win32_PnPEntity.Status
+- Win32_PnPEntity.StatusInfo
+- Win32_PnPEntity.SystemCreationClassName
+- Win32_PnPEntity.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PnPEntity class

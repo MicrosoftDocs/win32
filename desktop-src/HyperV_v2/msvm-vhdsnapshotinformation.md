@@ -7,6 +7,21 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VHDSnapshotInformation
+- Msvm_VHDSnapshotInformation.FilePath
+- Msvm_VHDSnapshotInformation.SnapshotId
+- Msvm_VHDSnapshotInformation.SnapshotPath
+- Msvm_VHDSnapshotInformation.ParentPathsList
+- Msvm_VHDSnapshotInformation.CreationTime
+- Msvm_VHDSnapshotInformation.ResilientChangeTrackingId
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VHDSnapshotInformation class

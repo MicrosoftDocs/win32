@@ -7,6 +7,72 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_S3DisplayController
+- Msvm_S3DisplayController.SetPowerState
+- Msvm_S3DisplayController.EnableDevice
+- Msvm_S3DisplayController.OnlineDevice
+- Msvm_S3DisplayController.QuiesceDevice
+- Msvm_S3DisplayController.SaveProperties
+- Msvm_S3DisplayController.RestoreProperties
+- Msvm_S3DisplayController.InstanceID
+- Msvm_S3DisplayController.Caption
+- Msvm_S3DisplayController.Description
+- Msvm_S3DisplayController.ElementName
+- Msvm_S3DisplayController.InstallDate
+- Msvm_S3DisplayController.Name
+- Msvm_S3DisplayController.OperationalStatus
+- Msvm_S3DisplayController.StatusDescriptions
+- Msvm_S3DisplayController.Status
+- Msvm_S3DisplayController.HealthState
+- Msvm_S3DisplayController.CommunicationStatus
+- Msvm_S3DisplayController.DetailedStatus
+- Msvm_S3DisplayController.OperatingStatus
+- Msvm_S3DisplayController.PrimaryStatus
+- Msvm_S3DisplayController.EnabledState
+- Msvm_S3DisplayController.OtherEnabledState
+- Msvm_S3DisplayController.RequestedState
+- Msvm_S3DisplayController.EnabledDefault
+- Msvm_S3DisplayController.TimeOfLastStateChange
+- Msvm_S3DisplayController.AvailableRequestedStates
+- Msvm_S3DisplayController.TransitioningToState
+- Msvm_S3DisplayController.SystemCreationClassName
+- Msvm_S3DisplayController.SystemName
+- Msvm_S3DisplayController.CreationClassName
+- Msvm_S3DisplayController.DeviceID
+- Msvm_S3DisplayController.PowerManagementSupported
+- Msvm_S3DisplayController.PowerManagementCapabilities
+- Msvm_S3DisplayController.Availability
+- Msvm_S3DisplayController.StatusInfo
+- Msvm_S3DisplayController.LastErrorCode
+- Msvm_S3DisplayController.ErrorDescription
+- Msvm_S3DisplayController.ErrorCleared
+- Msvm_S3DisplayController.OtherIdentifyingInfo
+- Msvm_S3DisplayController.PowerOnHours
+- Msvm_S3DisplayController.TotalPowerOnHours
+- Msvm_S3DisplayController.IdentifyingDescriptions
+- Msvm_S3DisplayController.AdditionalAvailability
+- Msvm_S3DisplayController.MaxQuiesceTime
+- Msvm_S3DisplayController.TimeOfLastReset
+- Msvm_S3DisplayController.ProtocolSupported
+- Msvm_S3DisplayController.MaxNumberControlled
+- Msvm_S3DisplayController.ProtocolDescription
+- Msvm_S3DisplayController.VideoProcessor
+- Msvm_S3DisplayController.VideoMemoryType
+- Msvm_S3DisplayController.OtherVideoMemoryType
+- Msvm_S3DisplayController.NumberOfVideoPages
+- Msvm_S3DisplayController.MaxMemorySupported
+- Msvm_S3DisplayController.AcceleratorCapabilities
+- Msvm_S3DisplayController.CapabilityDescriptions
+- Msvm_S3DisplayController.OtherVideoArchitecture
+- Msvm_S3DisplayController.VideoArchitecture
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_S3DisplayController class

@@ -13,6 +13,46 @@ title: Win32\_Directory class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_Directory
+- Win32_Directory.Caption
+- Win32_Directory.Description
+- Win32_Directory.InstallDate
+- Win32_Directory.Name
+- Win32_Directory.Status
+- Win32_Directory.AccessMask
+- Win32_Directory.Archive
+- Win32_Directory.Compressed
+- Win32_Directory.CompressionMethod
+- Win32_Directory.CreationClassName
+- Win32_Directory.CreationDate
+- Win32_Directory.CSCreationClassName
+- Win32_Directory.CSName
+- Win32_Directory.Drive
+- Win32_Directory.EightDotThreeFileName
+- Win32_Directory.Encrypted
+- Win32_Directory.EncryptionMethod
+- Win32_Directory.Extension
+- Win32_Directory.FileName
+- Win32_Directory.FileSize
+- Win32_Directory.FileType
+- Win32_Directory.FSCreationClassName
+- Win32_Directory.FSName
+- Win32_Directory.Hidden
+- Win32_Directory.InUseCount
+- Win32_Directory.LastAccessed
+- Win32_Directory.LastModified
+- Win32_Directory.Path
+- Win32_Directory.Readable
+- Win32_Directory.System
+- Win32_Directory.Writeable
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_Directory class

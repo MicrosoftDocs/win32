@@ -7,6 +7,27 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_GpuPartitionSettingData
+- Msvm_GpuPartitionSettingData.MinPartitionVRAM
+- Msvm_GpuPartitionSettingData.MaxPartitionVRAM
+- Msvm_GpuPartitionSettingData.OptimalPartitionVRAM
+- Msvm_GpuPartitionSettingData.MinPartitionEncode
+- Msvm_GpuPartitionSettingData.MaxPartitionEncode
+- Msvm_GpuPartitionSettingData.OptimalPartitionEncode
+- Msvm_GpuPartitionSettingData.MinPartitionDecode
+- Msvm_GpuPartitionSettingData.MaxPartitionDecode
+- Msvm_GpuPartitionSettingData.OptimalPartitionDecode
+- Msvm_GpuPartitionSettingData.MinPartitionCompute
+- Msvm_GpuPartitionSettingData.MaxPartitionCompute
+- Msvm_GpuPartitionSettingData.OptimalPartitionCompute
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_GpuPartitionSettingData class

@@ -7,6 +7,22 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualHardDiskState
+- Msvm_VirtualHardDiskState.FileSize
+- Msvm_VirtualHardDiskState.InUse
+- Msvm_VirtualHardDiskState.MinInternalSize
+- Msvm_VirtualHardDiskState.PhysicalSectorSize
+- Msvm_VirtualHardDiskState.Alignment
+- Msvm_VirtualHardDiskState.FragmentationPercentage
+- Msvm_VirtualHardDiskState.Timestamp
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualHardDiskState class

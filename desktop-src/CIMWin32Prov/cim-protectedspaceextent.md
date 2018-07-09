@@ -13,6 +13,40 @@ title: CIM\_ProtectedSpaceExtent class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ProtectedSpaceExtent
+- CIM_ProtectedSpaceExtent.Access
+- CIM_ProtectedSpaceExtent.Availability
+- CIM_ProtectedSpaceExtent.BlockSize
+- CIM_ProtectedSpaceExtent.Caption
+- CIM_ProtectedSpaceExtent.ConfigManagerErrorCode
+- CIM_ProtectedSpaceExtent.ConfigManagerUserConfig
+- CIM_ProtectedSpaceExtent.CreationClassName
+- CIM_ProtectedSpaceExtent.Description
+- CIM_ProtectedSpaceExtent.DeviceID
+- CIM_ProtectedSpaceExtent.ErrorCleared
+- CIM_ProtectedSpaceExtent.ErrorDescription
+- CIM_ProtectedSpaceExtent.ErrorMethodology
+- CIM_ProtectedSpaceExtent.InstallDate
+- CIM_ProtectedSpaceExtent.LastErrorCode
+- CIM_ProtectedSpaceExtent.Name
+- CIM_ProtectedSpaceExtent.NumberOfBlocks
+- CIM_ProtectedSpaceExtent.PNPDeviceID
+- CIM_ProtectedSpaceExtent.PowerManagementCapabilities
+- CIM_ProtectedSpaceExtent.PowerManagementSupported
+- CIM_ProtectedSpaceExtent.Purpose
+- CIM_ProtectedSpaceExtent.Status
+- CIM_ProtectedSpaceExtent.StatusInfo
+- CIM_ProtectedSpaceExtent.SystemCreationClassName
+- CIM_ProtectedSpaceExtent.SystemName
+- CIM_ProtectedSpaceExtent.UserDataStripeDepth
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_ProtectedSpaceExtent class

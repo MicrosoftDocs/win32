@@ -13,6 +13,29 @@ title: Win32\_DisplayControllerConfiguration class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_DisplayControllerConfiguration
+- Win32_DisplayControllerConfiguration.Caption
+- Win32_DisplayControllerConfiguration.Description
+- Win32_DisplayControllerConfiguration.SettingID
+- Win32_DisplayControllerConfiguration.BitsPerPixel
+- Win32_DisplayControllerConfiguration.ColorPlanes
+- Win32_DisplayControllerConfiguration.DeviceEntriesInAColorTable
+- Win32_DisplayControllerConfiguration.DeviceSpecificPens
+- Win32_DisplayControllerConfiguration.HorizontalResolution
+- Win32_DisplayControllerConfiguration.Name
+- Win32_DisplayControllerConfiguration.RefreshRate
+- Win32_DisplayControllerConfiguration.ReservedSystemPaletteEntries
+- Win32_DisplayControllerConfiguration.SystemPaletteEntries
+- Win32_DisplayControllerConfiguration.VerticalResolution
+- Win32_DisplayControllerConfiguration.VideoMode
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_DisplayControllerConfiguration class

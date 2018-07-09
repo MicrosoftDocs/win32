@@ -13,6 +13,55 @@ title: Win32\_MappedLogicalDisk class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_MappedLogicalDisk
+- Win32_MappedLogicalDisk.Reset
+- Win32_MappedLogicalDisk.SetPowerState
+- Win32_MappedLogicalDisk.Access
+- Win32_MappedLogicalDisk.Availability
+- Win32_MappedLogicalDisk.BlockSize
+- Win32_MappedLogicalDisk.Caption
+- Win32_MappedLogicalDisk.Compressed
+- Win32_MappedLogicalDisk.ConfigManagerErrorCode
+- Win32_MappedLogicalDisk.ConfigManagerUserConfig
+- Win32_MappedLogicalDisk.CreationClassName
+- Win32_MappedLogicalDisk.Description
+- Win32_MappedLogicalDisk.DeviceID
+- Win32_MappedLogicalDisk.ErrorCleared
+- Win32_MappedLogicalDisk.ErrorDescription
+- Win32_MappedLogicalDisk.ErrorMethodology
+- Win32_MappedLogicalDisk.FileSystem
+- Win32_MappedLogicalDisk.FreeSpace
+- Win32_MappedLogicalDisk.InstallDate
+- Win32_MappedLogicalDisk.LastErrorCode
+- Win32_MappedLogicalDisk.MaximumComponentLength
+- Win32_MappedLogicalDisk.Name
+- Win32_MappedLogicalDisk.NumberOfBlocks
+- Win32_MappedLogicalDisk.PNPDeviceID
+- Win32_MappedLogicalDisk.PowerManagementCapabilities
+- Win32_MappedLogicalDisk.PowerManagementSupported
+- Win32_MappedLogicalDisk.ProviderName
+- Win32_MappedLogicalDisk.Purpose
+- Win32_MappedLogicalDisk.QuotasDisabled
+- Win32_MappedLogicalDisk.QuotasIncomplete
+- Win32_MappedLogicalDisk.QuotasRebuilding
+- Win32_MappedLogicalDisk.SessionID
+- Win32_MappedLogicalDisk.Size
+- Win32_MappedLogicalDisk.Status
+- Win32_MappedLogicalDisk.StatusInfo
+- Win32_MappedLogicalDisk.SupportsDiskQuotas
+- Win32_MappedLogicalDisk.SupportsFileBasedCompression
+- Win32_MappedLogicalDisk.SystemCreationClassName
+- Win32_MappedLogicalDisk.SystemName
+- Win32_MappedLogicalDisk.VolumeName
+- Win32_MappedLogicalDisk.VolumeSerialNumber
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_MappedLogicalDisk class

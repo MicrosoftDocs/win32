@@ -7,6 +7,72 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_SyntheticDisplayController
+- Msvm_SyntheticDisplayController.SetPowerState
+- Msvm_SyntheticDisplayController.EnableDevice
+- Msvm_SyntheticDisplayController.OnlineDevice
+- Msvm_SyntheticDisplayController.QuiesceDevice
+- Msvm_SyntheticDisplayController.SaveProperties
+- Msvm_SyntheticDisplayController.RestoreProperties
+- Msvm_SyntheticDisplayController.InstanceID
+- Msvm_SyntheticDisplayController.Caption
+- Msvm_SyntheticDisplayController.Description
+- Msvm_SyntheticDisplayController.ElementName
+- Msvm_SyntheticDisplayController.InstallDate
+- Msvm_SyntheticDisplayController.Name
+- Msvm_SyntheticDisplayController.OperationalStatus
+- Msvm_SyntheticDisplayController.StatusDescriptions
+- Msvm_SyntheticDisplayController.Status
+- Msvm_SyntheticDisplayController.HealthState
+- Msvm_SyntheticDisplayController.CommunicationStatus
+- Msvm_SyntheticDisplayController.DetailedStatus
+- Msvm_SyntheticDisplayController.OperatingStatus
+- Msvm_SyntheticDisplayController.PrimaryStatus
+- Msvm_SyntheticDisplayController.EnabledState
+- Msvm_SyntheticDisplayController.OtherEnabledState
+- Msvm_SyntheticDisplayController.RequestedState
+- Msvm_SyntheticDisplayController.EnabledDefault
+- Msvm_SyntheticDisplayController.TimeOfLastStateChange
+- Msvm_SyntheticDisplayController.AvailableRequestedStates
+- Msvm_SyntheticDisplayController.TransitioningToState
+- Msvm_SyntheticDisplayController.SystemCreationClassName
+- Msvm_SyntheticDisplayController.SystemName
+- Msvm_SyntheticDisplayController.CreationClassName
+- Msvm_SyntheticDisplayController.DeviceID
+- Msvm_SyntheticDisplayController.PowerManagementSupported
+- Msvm_SyntheticDisplayController.PowerManagementCapabilities
+- Msvm_SyntheticDisplayController.Availability
+- Msvm_SyntheticDisplayController.StatusInfo
+- Msvm_SyntheticDisplayController.LastErrorCode
+- Msvm_SyntheticDisplayController.ErrorDescription
+- Msvm_SyntheticDisplayController.ErrorCleared
+- Msvm_SyntheticDisplayController.PowerOnHours
+- Msvm_SyntheticDisplayController.TotalPowerOnHours
+- Msvm_SyntheticDisplayController.OtherIdentifyingInfo
+- Msvm_SyntheticDisplayController.IdentifyingDescriptions
+- Msvm_SyntheticDisplayController.AdditionalAvailability
+- Msvm_SyntheticDisplayController.MaxQuiesceTime
+- Msvm_SyntheticDisplayController.TimeOfLastReset
+- Msvm_SyntheticDisplayController.ProtocolSupported
+- Msvm_SyntheticDisplayController.MaxNumberControlled
+- Msvm_SyntheticDisplayController.ProtocolDescription
+- Msvm_SyntheticDisplayController.VideoProcessor
+- Msvm_SyntheticDisplayController.VideoMemoryType
+- Msvm_SyntheticDisplayController.OtherVideoMemoryType
+- Msvm_SyntheticDisplayController.NumberOfVideoPages
+- Msvm_SyntheticDisplayController.MaxMemorySupported
+- Msvm_SyntheticDisplayController.AcceleratorCapabilities
+- Msvm_SyntheticDisplayController.CapabilityDescriptions
+- Msvm_SyntheticDisplayController.OtherVideoArchitecture
+- Msvm_SyntheticDisplayController.VideoArchitecture
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_SyntheticDisplayController class

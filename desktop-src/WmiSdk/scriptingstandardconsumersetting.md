@@ -11,6 +11,20 @@ title: ScriptingStandardConsumerSetting class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- ScriptingStandardConsumerSetting
+- ScriptingStandardConsumerSetting.Caption
+- ScriptingStandardConsumerSetting.Description
+- ScriptingStandardConsumerSetting.MaximumScripts
+- ScriptingStandardConsumerSetting.SettingID
+- ScriptingStandardConsumerSetting.Timeout
+api_type: 
+- DllExport
+api_location: 
+- Scrcons.exe
 ---
 
 # ScriptingStandardConsumerSetting class

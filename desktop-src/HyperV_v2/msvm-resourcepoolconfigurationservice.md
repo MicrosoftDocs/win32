@@ -7,6 +7,46 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ResourcePoolConfigurationService
+- Msvm_ResourcePoolConfigurationService.RequestStateChange
+- Msvm_ResourcePoolConfigurationService.StartService
+- Msvm_ResourcePoolConfigurationService.StopService
+- Msvm_ResourcePoolConfigurationService.InstanceID
+- Msvm_ResourcePoolConfigurationService.Caption
+- Msvm_ResourcePoolConfigurationService.Description
+- Msvm_ResourcePoolConfigurationService.ElementName
+- Msvm_ResourcePoolConfigurationService.InstallDate
+- Msvm_ResourcePoolConfigurationService.Name
+- Msvm_ResourcePoolConfigurationService.OperationalStatus
+- Msvm_ResourcePoolConfigurationService.StatusDescriptions
+- Msvm_ResourcePoolConfigurationService.Status
+- Msvm_ResourcePoolConfigurationService.HealthState
+- Msvm_ResourcePoolConfigurationService.CommunicationStatus
+- Msvm_ResourcePoolConfigurationService.DetailedStatus
+- Msvm_ResourcePoolConfigurationService.OperatingStatus
+- Msvm_ResourcePoolConfigurationService.PrimaryStatus
+- Msvm_ResourcePoolConfigurationService.EnabledState
+- Msvm_ResourcePoolConfigurationService.OtherEnabledState
+- Msvm_ResourcePoolConfigurationService.RequestedState
+- Msvm_ResourcePoolConfigurationService.EnabledDefault
+- Msvm_ResourcePoolConfigurationService.TimeOfLastStateChange
+- Msvm_ResourcePoolConfigurationService.AvailableRequestedStates
+- Msvm_ResourcePoolConfigurationService.TransitioningToState
+- Msvm_ResourcePoolConfigurationService.SystemCreationClassName
+- Msvm_ResourcePoolConfigurationService.SystemName
+- Msvm_ResourcePoolConfigurationService.CreationClassName
+- Msvm_ResourcePoolConfigurationService.PrimaryOwnerName
+- Msvm_ResourcePoolConfigurationService.PrimaryOwnerContact
+- Msvm_ResourcePoolConfigurationService.StartMode
+- Msvm_ResourcePoolConfigurationService.Started
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ResourcePoolConfigurationService class

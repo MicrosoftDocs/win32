@@ -11,6 +11,15 @@ title: '\_\_TimerNextFiring class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- __TimerNextFiring
+api_type: 
+- Schema
+api_location: 
+- All
 ---
 
 # \_\_TimerNextFiring class

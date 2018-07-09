@@ -7,6 +7,82 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ExternalFcPort
+- Msvm_ExternalFcPort.SetPowerState
+- Msvm_ExternalFcPort.EnableDevice
+- Msvm_ExternalFcPort.OnlineDevice
+- Msvm_ExternalFcPort.QuiesceDevice
+- Msvm_ExternalFcPort.SaveProperties
+- Msvm_ExternalFcPort.RestoreProperties
+- Msvm_ExternalFcPort.InstanceID
+- Msvm_ExternalFcPort.Caption
+- Msvm_ExternalFcPort.Description
+- Msvm_ExternalFcPort.ElementName
+- Msvm_ExternalFcPort.InstallDate
+- Msvm_ExternalFcPort.Name
+- Msvm_ExternalFcPort.OperationalStatus
+- Msvm_ExternalFcPort.StatusDescriptions
+- Msvm_ExternalFcPort.Status
+- Msvm_ExternalFcPort.HealthState
+- Msvm_ExternalFcPort.CommunicationStatus
+- Msvm_ExternalFcPort.DetailedStatus
+- Msvm_ExternalFcPort.OperatingStatus
+- Msvm_ExternalFcPort.PrimaryStatus
+- Msvm_ExternalFcPort.EnabledState
+- Msvm_ExternalFcPort.OtherEnabledState
+- Msvm_ExternalFcPort.RequestedState
+- Msvm_ExternalFcPort.EnabledDefault
+- Msvm_ExternalFcPort.TimeOfLastStateChange
+- Msvm_ExternalFcPort.AvailableRequestedStates
+- Msvm_ExternalFcPort.TransitioningToState
+- Msvm_ExternalFcPort.SystemCreationClassName
+- Msvm_ExternalFcPort.SystemName
+- Msvm_ExternalFcPort.CreationClassName
+- Msvm_ExternalFcPort.DeviceID
+- Msvm_ExternalFcPort.PowerManagementSupported
+- Msvm_ExternalFcPort.PowerManagementCapabilities
+- Msvm_ExternalFcPort.Availability
+- Msvm_ExternalFcPort.StatusInfo
+- Msvm_ExternalFcPort.LastErrorCode
+- Msvm_ExternalFcPort.ErrorDescription
+- Msvm_ExternalFcPort.ErrorCleared
+- Msvm_ExternalFcPort.OtherIdentifyingInfo
+- Msvm_ExternalFcPort.PowerOnHours
+- Msvm_ExternalFcPort.TotalPowerOnHours
+- Msvm_ExternalFcPort.IdentifyingDescriptions
+- Msvm_ExternalFcPort.AdditionalAvailability
+- Msvm_ExternalFcPort.MaxQuiesceTime
+- Msvm_ExternalFcPort.Speed
+- Msvm_ExternalFcPort.MaxSpeed
+- Msvm_ExternalFcPort.RequestedSpeed
+- Msvm_ExternalFcPort.UsageRestriction
+- Msvm_ExternalFcPort.PortType
+- Msvm_ExternalFcPort.OtherPortType
+- Msvm_ExternalFcPort.OtherNetworkPortType
+- Msvm_ExternalFcPort.PortNumber
+- Msvm_ExternalFcPort.LinkTechnology
+- Msvm_ExternalFcPort.OtherLinkTechnology
+- Msvm_ExternalFcPort.PermanentAddress
+- Msvm_ExternalFcPort.NetworkAddresses
+- Msvm_ExternalFcPort.FullDuplex
+- Msvm_ExternalFcPort.AutoSense
+- Msvm_ExternalFcPort.SupportedMaximumTransmissionUnit
+- Msvm_ExternalFcPort.ActiveMaximumTransmissionUnit
+- Msvm_ExternalFcPort.SupportedCOS
+- Msvm_ExternalFcPort.ActiveCOS
+- Msvm_ExternalFcPort.SupportedFC4Types
+- Msvm_ExternalFcPort.ActiveFC4Types
+- Msvm_ExternalFcPort.IsHyperVCapable
+- Msvm_ExternalFcPort.WWNN
+- Msvm_ExternalFcPort.WWPN
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ExternalFcPort class

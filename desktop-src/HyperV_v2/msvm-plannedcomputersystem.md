@@ -7,6 +7,52 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_PlannedComputerSystem
+- Msvm_PlannedComputerSystem.SetPowerState
+- Msvm_PlannedComputerSystem.InstanceID
+- Msvm_PlannedComputerSystem.Caption
+- Msvm_PlannedComputerSystem.Description
+- Msvm_PlannedComputerSystem.ElementName
+- Msvm_PlannedComputerSystem.InstallDate
+- Msvm_PlannedComputerSystem.OperationalStatus
+- Msvm_PlannedComputerSystem.StatusDescriptions
+- Msvm_PlannedComputerSystem.Status
+- Msvm_PlannedComputerSystem.HealthState
+- Msvm_PlannedComputerSystem.CommunicationStatus
+- Msvm_PlannedComputerSystem.DetailedStatus
+- Msvm_PlannedComputerSystem.OperatingStatus
+- Msvm_PlannedComputerSystem.PrimaryStatus
+- Msvm_PlannedComputerSystem.EnabledState
+- Msvm_PlannedComputerSystem.OtherEnabledState
+- Msvm_PlannedComputerSystem.RequestedState
+- Msvm_PlannedComputerSystem.EnabledDefault
+- Msvm_PlannedComputerSystem.TimeOfLastStateChange
+- Msvm_PlannedComputerSystem.AvailableRequestedStates
+- Msvm_PlannedComputerSystem.TransitioningToState
+- Msvm_PlannedComputerSystem.CreationClassName
+- Msvm_PlannedComputerSystem.Name
+- Msvm_PlannedComputerSystem.NameFormat
+- Msvm_PlannedComputerSystem.PrimaryOwnerName
+- Msvm_PlannedComputerSystem.PrimaryOwnerContact
+- Msvm_PlannedComputerSystem.Roles
+- Msvm_PlannedComputerSystem.OtherIdentifyingInfo
+- Msvm_PlannedComputerSystem.IdentifyingDescriptions
+- Msvm_PlannedComputerSystem.Dedicated
+- Msvm_PlannedComputerSystem.OtherDedicatedDescriptions
+- Msvm_PlannedComputerSystem.ResetCapability
+- Msvm_PlannedComputerSystem.PowerManagementCapabilities
+- Msvm_PlannedComputerSystem.AssignedNumaNodeList
+- Msvm_PlannedComputerSystem.OnTimeInMilliseconds
+- Msvm_PlannedComputerSystem.ProcessID
+- Msvm_PlannedComputerSystem.TimeOfLastConfigurationChange
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_PlannedComputerSystem class

@@ -7,6 +7,18 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- PageFault_VirtualAlloc
+- PageFault_VirtualAlloc.BaseAddress
+- PageFault_VirtualAlloc.RegionSize
+- PageFault_VirtualAlloc.ProcessId
+- PageFault_VirtualAlloc.Flags
+api_type: 
+- NA
+api_location: 
 ---
 
 # PageFault\_VirtualAlloc class

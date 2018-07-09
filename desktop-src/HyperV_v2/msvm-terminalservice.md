@@ -7,6 +7,43 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_TerminalService
+- Msvm_TerminalService.InstanceID
+- Msvm_TerminalService.Caption
+- Msvm_TerminalService.Description
+- Msvm_TerminalService.ElementName
+- Msvm_TerminalService.InstallDate
+- Msvm_TerminalService.OperationalStatus
+- Msvm_TerminalService.StatusDescriptions
+- Msvm_TerminalService.Status
+- Msvm_TerminalService.HealthState
+- Msvm_TerminalService.CommunicationStatus
+- Msvm_TerminalService.DetailedStatus
+- Msvm_TerminalService.OperatingStatus
+- Msvm_TerminalService.PrimaryStatus
+- Msvm_TerminalService.EnabledState
+- Msvm_TerminalService.OtherEnabledState
+- Msvm_TerminalService.RequestedState
+- Msvm_TerminalService.EnabledDefault
+- Msvm_TerminalService.TimeOfLastStateChange
+- Msvm_TerminalService.AvailableRequestedStates
+- Msvm_TerminalService.TransitioningToState
+- Msvm_TerminalService.SystemCreationClassName
+- Msvm_TerminalService.SystemName
+- Msvm_TerminalService.Name
+- Msvm_TerminalService.CreationClassName
+- Msvm_TerminalService.PrimaryOwnerName
+- Msvm_TerminalService.PrimaryOwnerContact
+- Msvm_TerminalService.StartMode
+- Msvm_TerminalService.Started
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_TerminalService class

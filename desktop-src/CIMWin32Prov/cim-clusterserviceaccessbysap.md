@@ -13,6 +13,17 @@ title: CIM\_ClusterServiceAccessBySAP class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ClusterServiceAccessBySAP
+- CIM_ClusterServiceAccessBySAP.Dependent
+- CIM_ClusterServiceAccessBySAP.Antecedent
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_ClusterServiceAccessBySAP class

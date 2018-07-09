@@ -13,6 +13,25 @@ title: CIM\_Service class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Service
+- CIM_Service.Caption
+- CIM_Service.Description
+- CIM_Service.InstallDate
+- CIM_Service.Status
+- CIM_Service.CreationClassName
+- CIM_Service.Name
+- CIM_Service.Started
+- CIM_Service.StartMode
+- CIM_Service.SystemCreationClassName
+- CIM_Service.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Service class

@@ -7,6 +7,26 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_BaseMetricDefinition
+- CIM_BaseMetricDefinition.Id
+- CIM_BaseMetricDefinition.Name
+- CIM_BaseMetricDefinition.DataType
+- CIM_BaseMetricDefinition.Calculable
+- CIM_BaseMetricDefinition.Units
+- CIM_BaseMetricDefinition.BreakdownDimensions
+- CIM_BaseMetricDefinition.IsContinuous
+- CIM_BaseMetricDefinition.ChangeType
+- CIM_BaseMetricDefinition.TimeScope
+- CIM_BaseMetricDefinition.GatheringType
+- CIM_BaseMetricDefinition.ProgrammaticUnits
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_BaseMetricDefinition class

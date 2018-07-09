@@ -13,6 +13,35 @@ title: CIM\_Refrigeration class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Refrigeration
+- CIM_Refrigeration.ActiveCooling
+- CIM_Refrigeration.Availability
+- CIM_Refrigeration.Caption
+- CIM_Refrigeration.ConfigManagerErrorCode
+- CIM_Refrigeration.ConfigManagerUserConfig
+- CIM_Refrigeration.CreationClassName
+- CIM_Refrigeration.Description
+- CIM_Refrigeration.DeviceID
+- CIM_Refrigeration.ErrorCleared
+- CIM_Refrigeration.ErrorDescription
+- CIM_Refrigeration.InstallDate
+- CIM_Refrigeration.LastErrorCode
+- CIM_Refrigeration.Name
+- CIM_Refrigeration.PNPDeviceID
+- CIM_Refrigeration.PowerManagementCapabilities
+- CIM_Refrigeration.PowerManagementSupported
+- CIM_Refrigeration.Status
+- CIM_Refrigeration.StatusInfo
+- CIM_Refrigeration.SystemCreationClassName
+- CIM_Refrigeration.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Refrigeration class

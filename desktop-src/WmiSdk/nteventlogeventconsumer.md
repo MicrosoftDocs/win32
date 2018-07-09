@@ -11,6 +11,28 @@ title: NTEventLogEventConsumer class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- NTEventLogEventConsumer
+- NTEventLogEventConsumer.CreatorSID
+- NTEventLogEventConsumer.MachineName
+- NTEventLogEventConsumer.MaximumQueueSize
+- NTEventLogEventConsumer.Category
+- NTEventLogEventConsumer.NameOfRawDataProperty
+- NTEventLogEventConsumer.EventID
+- NTEventLogEventConsumer.EventType
+- NTEventLogEventConsumer.InsertionStringTemplates
+- NTEventLogEventConsumer.Name
+- NTEventLogEventConsumer.NumberOfInsertionStrings
+- NTEventLogEventConsumer.NameOfUserSidProperty
+- NTEventLogEventConsumer.SourceName
+- NTEventLogEventConsumer.UNCServerName
+api_type: 
+- DllExport
+api_location: 
+- Wbemcons.dll
 ---
 
 # NTEventLogEventConsumer class

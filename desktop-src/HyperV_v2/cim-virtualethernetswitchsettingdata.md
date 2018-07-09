@@ -7,6 +7,18 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_VirtualEthernetSwitchSettingData
+- CIM_VirtualEthernetSwitchSettingData.VLANConnection
+- CIM_VirtualEthernetSwitchSettingData.AssociatedResourcePool
+- CIM_VirtualEthernetSwitchSettingData.MaxNumMACAddress
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_VirtualEthernetSwitchSettingData class

@@ -7,6 +7,18 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- WIA_DPV_LAST_PICTURE_TAKEN
+- WIA_DPV_IMAGES_DIRECTORY
+- WIA_DPV_DSHOW_DEVICE_PATH
+- WIA_DPF_MOUNT_POINT
+api_type: 
+- HeaderDef
+api_location: 
+- wiadef.h
 ---
 
 # Video WIA Device Property Constants

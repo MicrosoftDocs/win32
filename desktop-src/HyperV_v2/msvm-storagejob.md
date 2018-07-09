@@ -7,6 +7,60 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_StorageJob
+- Msvm_StorageJob.KillJob
+- Msvm_StorageJob.InstanceID
+- Msvm_StorageJob.Caption
+- Msvm_StorageJob.Description
+- Msvm_StorageJob.ElementName
+- Msvm_StorageJob.InstallDate
+- Msvm_StorageJob.Name
+- Msvm_StorageJob.OperationalStatus
+- Msvm_StorageJob.StatusDescriptions
+- Msvm_StorageJob.Status
+- Msvm_StorageJob.HealthState
+- Msvm_StorageJob.CommunicationStatus
+- Msvm_StorageJob.DetailedStatus
+- Msvm_StorageJob.OperatingStatus
+- Msvm_StorageJob.PrimaryStatus
+- Msvm_StorageJob.JobStatus
+- Msvm_StorageJob.TimeSubmitted
+- Msvm_StorageJob.ScheduledStartTime
+- Msvm_StorageJob.StartTime
+- Msvm_StorageJob.ElapsedTime
+- Msvm_StorageJob.JobRunTimes
+- Msvm_StorageJob.RunMonth
+- Msvm_StorageJob.RunDay
+- Msvm_StorageJob.RunDayOfWeek
+- Msvm_StorageJob.RunStartInterval
+- Msvm_StorageJob.LocalOrUtcTime
+- Msvm_StorageJob.UntilTime
+- Msvm_StorageJob.Notify
+- Msvm_StorageJob.Owner
+- Msvm_StorageJob.Priority
+- Msvm_StorageJob.PercentComplete
+- Msvm_StorageJob.DeleteOnCompletion
+- Msvm_StorageJob.ErrorCode
+- Msvm_StorageJob.ErrorDescription
+- Msvm_StorageJob.ErrorSummaryDescription
+- Msvm_StorageJob.RecoveryAction
+- Msvm_StorageJob.OtherRecoveryAction
+- Msvm_StorageJob.JobState
+- Msvm_StorageJob.TimeOfLastStateChange
+- Msvm_StorageJob.TimeBeforeRemoval
+- Msvm_StorageJob.Cancellable
+- Msvm_StorageJob.Child
+- Msvm_StorageJob.JobCompletionStatusCode
+- Msvm_StorageJob.Parent
+- Msvm_StorageJob.JobType
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_StorageJob class

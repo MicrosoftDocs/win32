@@ -7,6 +7,33 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualHardDiskSettingData
+- Msvm_VirtualHardDiskSettingData.InstanceID
+- Msvm_VirtualHardDiskSettingData.Caption
+- Msvm_VirtualHardDiskSettingData.Description
+- Msvm_VirtualHardDiskSettingData.ElementName
+- Msvm_VirtualHardDiskSettingData.Type
+- Msvm_VirtualHardDiskSettingData.Format
+- Msvm_VirtualHardDiskSettingData.Path
+- Msvm_VirtualHardDiskSettingData.ParentPath
+- Msvm_VirtualHardDiskSettingData.ParentTimestamp
+- Msvm_VirtualHardDiskSettingData.ParentIdentifier
+- Msvm_VirtualHardDiskSettingData.MaxInternalSize
+- Msvm_VirtualHardDiskSettingData.BlockSize
+- Msvm_VirtualHardDiskSettingData.LogicalSectorSize
+- Msvm_VirtualHardDiskSettingData.PhysicalSectorSize
+- Msvm_VirtualHardDiskSettingData.VirtualDiskId
+- Msvm_VirtualHardDiskSettingData.DataAlignment
+- Msvm_VirtualHardDiskSettingData.PmemAddressAbstractionType
+- Msvm_VirtualHardDiskSettingData.IsPmemCompatible
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualHardDiskSettingData class

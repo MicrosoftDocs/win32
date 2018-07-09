@@ -7,6 +7,22 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_NetworkConnectionDiagnosticSettingData
+- Msvm_NetworkConnectionDiagnosticSettingData.IsSender
+- Msvm_NetworkConnectionDiagnosticSettingData.SenderIP
+- Msvm_NetworkConnectionDiagnosticSettingData.ReceiverIP
+- Msvm_NetworkConnectionDiagnosticSettingData.ReceiverMac
+- Msvm_NetworkConnectionDiagnosticSettingData.IsolationId
+- Msvm_NetworkConnectionDiagnosticSettingData.SequenceNumber
+- Msvm_NetworkConnectionDiagnosticSettingData.PayloadSize
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_NetworkConnectionDiagnosticSettingData class

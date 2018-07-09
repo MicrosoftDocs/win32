@@ -13,6 +13,41 @@ title: CIM\_USBDevice class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_USBDevice
+- CIM_USBDevice.Availability
+- CIM_USBDevice.Caption
+- CIM_USBDevice.ClassCode
+- CIM_USBDevice.ConfigManagerErrorCode
+- CIM_USBDevice.ConfigManagerUserConfig
+- CIM_USBDevice.CreationClassName
+- CIM_USBDevice.CurrentAlternateSettings
+- CIM_USBDevice.CurrentConfigValue
+- CIM_USBDevice.Description
+- CIM_USBDevice.DeviceID
+- CIM_USBDevice.ErrorCleared
+- CIM_USBDevice.ErrorDescription
+- CIM_USBDevice.InstallDate
+- CIM_USBDevice.LastErrorCode
+- CIM_USBDevice.Name
+- CIM_USBDevice.NumberOfConfigs
+- CIM_USBDevice.PNPDeviceID
+- CIM_USBDevice.PowerManagementCapabilities
+- CIM_USBDevice.PowerManagementSupported
+- CIM_USBDevice.ProtocolCode
+- CIM_USBDevice.Status
+- CIM_USBDevice.StatusInfo
+- CIM_USBDevice.SubclassCode
+- CIM_USBDevice.SystemCreationClassName
+- CIM_USBDevice.SystemName
+- CIM_USBDevice.USBVersion
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_USBDevice class

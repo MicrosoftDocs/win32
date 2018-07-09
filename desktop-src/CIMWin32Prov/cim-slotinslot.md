@@ -13,6 +13,17 @@ title: CIM\_SlotInSlot class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_SlotInSlot
+- CIM_SlotInSlot.Dependent
+- CIM_SlotInSlot.Antecedent
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_SlotInSlot class

@@ -13,6 +13,17 @@ title: CIM\_PExtentRedundancyComponent class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_PExtentRedundancyComponent
+- CIM_PExtentRedundancyComponent.PartComponent
+- CIM_PExtentRedundancyComponent.GroupComponent
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_PExtentRedundancyComponent class

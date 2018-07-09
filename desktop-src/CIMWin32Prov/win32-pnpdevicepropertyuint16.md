@@ -13,6 +13,20 @@ title: Win32\_PnPDevicePropertyUint16 class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PnPDevicePropertyUint16
+- Win32_PnPDevicePropertyUint16.Key
+- Win32_PnPDevicePropertyUint16.KeyName
+- Win32_PnPDevicePropertyUint16.Type
+- Win32_PnPDevicePropertyUint16.DeviceID
+- Win32_PnPDevicePropertyUint16.Data
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PnPDevicePropertyUint16 class

@@ -7,6 +7,45 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualSystemSnapshotService
+- Msvm_VirtualSystemSnapshotService.StartService
+- Msvm_VirtualSystemSnapshotService.StopService
+- Msvm_VirtualSystemSnapshotService.InstanceID
+- Msvm_VirtualSystemSnapshotService.Caption
+- Msvm_VirtualSystemSnapshotService.Description
+- Msvm_VirtualSystemSnapshotService.ElementName
+- Msvm_VirtualSystemSnapshotService.InstallDate
+- Msvm_VirtualSystemSnapshotService.Name
+- Msvm_VirtualSystemSnapshotService.OperationalStatus
+- Msvm_VirtualSystemSnapshotService.StatusDescriptions
+- Msvm_VirtualSystemSnapshotService.Status
+- Msvm_VirtualSystemSnapshotService.HealthState
+- Msvm_VirtualSystemSnapshotService.CommunicationStatus
+- Msvm_VirtualSystemSnapshotService.DetailedStatus
+- Msvm_VirtualSystemSnapshotService.OperatingStatus
+- Msvm_VirtualSystemSnapshotService.PrimaryStatus
+- Msvm_VirtualSystemSnapshotService.EnabledState
+- Msvm_VirtualSystemSnapshotService.OtherEnabledState
+- Msvm_VirtualSystemSnapshotService.RequestedState
+- Msvm_VirtualSystemSnapshotService.EnabledDefault
+- Msvm_VirtualSystemSnapshotService.TimeOfLastStateChange
+- Msvm_VirtualSystemSnapshotService.AvailableRequestedStates
+- Msvm_VirtualSystemSnapshotService.TransitioningToState
+- Msvm_VirtualSystemSnapshotService.SystemCreationClassName
+- Msvm_VirtualSystemSnapshotService.SystemName
+- Msvm_VirtualSystemSnapshotService.CreationClassName
+- Msvm_VirtualSystemSnapshotService.PrimaryOwnerName
+- Msvm_VirtualSystemSnapshotService.PrimaryOwnerContact
+- Msvm_VirtualSystemSnapshotService.StartMode
+- Msvm_VirtualSystemSnapshotService.Started
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualSystemSnapshotService class

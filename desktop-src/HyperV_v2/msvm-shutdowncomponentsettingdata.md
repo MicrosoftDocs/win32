@@ -7,6 +7,39 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ShutdownComponentSettingData
+- Msvm_ShutdownComponentSettingData.InstanceID
+- Msvm_ShutdownComponentSettingData.Caption
+- Msvm_ShutdownComponentSettingData.Description
+- Msvm_ShutdownComponentSettingData.ElementName
+- Msvm_ShutdownComponentSettingData.ResourceType
+- Msvm_ShutdownComponentSettingData.OtherResourceType
+- Msvm_ShutdownComponentSettingData.ResourceSubType
+- Msvm_ShutdownComponentSettingData.PoolID
+- Msvm_ShutdownComponentSettingData.ConsumerVisibility
+- Msvm_ShutdownComponentSettingData.HostResource
+- Msvm_ShutdownComponentSettingData.AllocationUnits
+- Msvm_ShutdownComponentSettingData.VirtualQuantity
+- Msvm_ShutdownComponentSettingData.Reservation
+- Msvm_ShutdownComponentSettingData.Limit
+- Msvm_ShutdownComponentSettingData.Weight
+- Msvm_ShutdownComponentSettingData.AutomaticAllocation
+- Msvm_ShutdownComponentSettingData.AutomaticDeallocation
+- Msvm_ShutdownComponentSettingData.Parent
+- Msvm_ShutdownComponentSettingData.Connection
+- Msvm_ShutdownComponentSettingData.Address
+- Msvm_ShutdownComponentSettingData.MappingBehavior
+- Msvm_ShutdownComponentSettingData.AddressOnParent
+- Msvm_ShutdownComponentSettingData.VirtualQuantityUnits
+- Msvm_ShutdownComponentSettingData.EnabledState
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ShutdownComponentSettingData class

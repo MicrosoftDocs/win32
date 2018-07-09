@@ -13,6 +13,39 @@ title: Win32\_MotherboardDevice class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_MotherboardDevice
+- Win32_MotherboardDevice.Reset
+- Win32_MotherboardDevice.SetPowerState
+- Win32_MotherboardDevice.Availability
+- Win32_MotherboardDevice.Caption
+- Win32_MotherboardDevice.ConfigManagerErrorCode
+- Win32_MotherboardDevice.ConfigManagerUserConfig
+- Win32_MotherboardDevice.CreationClassName
+- Win32_MotherboardDevice.Description
+- Win32_MotherboardDevice.DeviceID
+- Win32_MotherboardDevice.ErrorCleared
+- Win32_MotherboardDevice.ErrorDescription
+- Win32_MotherboardDevice.InstallDate
+- Win32_MotherboardDevice.LastErrorCode
+- Win32_MotherboardDevice.Name
+- Win32_MotherboardDevice.PNPDeviceID
+- Win32_MotherboardDevice.PowerManagementCapabilities
+- Win32_MotherboardDevice.PowerManagementSupported
+- Win32_MotherboardDevice.PrimaryBusType
+- Win32_MotherboardDevice.RevisionNumber
+- Win32_MotherboardDevice.SecondaryBusType
+- Win32_MotherboardDevice.Status
+- Win32_MotherboardDevice.StatusInfo
+- Win32_MotherboardDevice.SystemCreationClassName
+- Win32_MotherboardDevice.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_MotherboardDevice class

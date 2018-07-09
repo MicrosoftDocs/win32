@@ -13,6 +13,56 @@ title: Win32\_MemoryArray class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_MemoryArray
+- Win32_MemoryArray.Reset
+- Win32_MemoryArray.SetPowerState
+- Win32_MemoryArray.Access
+- Win32_MemoryArray.AdditionalErrorData
+- Win32_MemoryArray.Availability
+- Win32_MemoryArray.BlockSize
+- Win32_MemoryArray.Caption
+- Win32_MemoryArray.ConfigManagerErrorCode
+- Win32_MemoryArray.ConfigManagerUserConfig
+- Win32_MemoryArray.CorrectableError
+- Win32_MemoryArray.CreationClassName
+- Win32_MemoryArray.Description
+- Win32_MemoryArray.DeviceID
+- Win32_MemoryArray.EndingAddress
+- Win32_MemoryArray.ErrorAccess
+- Win32_MemoryArray.ErrorAddress
+- Win32_MemoryArray.ErrorCleared
+- Win32_MemoryArray.ErrorData
+- Win32_MemoryArray.ErrorDataOrder
+- Win32_MemoryArray.ErrorDescription
+- Win32_MemoryArray.ErrorGranularity
+- Win32_MemoryArray.ErrorInfo
+- Win32_MemoryArray.ErrorMethodology
+- Win32_MemoryArray.ErrorResolution
+- Win32_MemoryArray.ErrorTime
+- Win32_MemoryArray.ErrorTransferSize
+- Win32_MemoryArray.InstallDate
+- Win32_MemoryArray.LastErrorCode
+- Win32_MemoryArray.Name
+- Win32_MemoryArray.NumberOfBlocks
+- Win32_MemoryArray.OtherErrorDescription
+- Win32_MemoryArray.PNPDeviceID
+- Win32_MemoryArray.PowerManagementCapabilities
+- Win32_MemoryArray.PowerManagementSupported
+- Win32_MemoryArray.Purpose
+- Win32_MemoryArray.StartingAddress
+- Win32_MemoryArray.Status
+- Win32_MemoryArray.StatusInfo
+- Win32_MemoryArray.SystemCreationClassName
+- Win32_MemoryArray.SystemLevelAddress
+- Win32_MemoryArray.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_MemoryArray class

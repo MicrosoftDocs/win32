@@ -13,6 +13,27 @@ title: CIM\_VersionCompatibilityCheck class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_VersionCompatibilityCheck
+- CIM_VersionCompatibilityCheck.CheckID
+- CIM_VersionCompatibilityCheck.Caption
+- CIM_VersionCompatibilityCheck.Description
+- CIM_VersionCompatibilityCheck.CheckMode
+- CIM_VersionCompatibilityCheck.Name
+- CIM_VersionCompatibilityCheck.TargetOperatingSystem
+- CIM_VersionCompatibilityCheck.Version
+- CIM_VersionCompatibilityCheck.SoftwareElementID
+- CIM_VersionCompatibilityCheck.SoftwareElementState
+- CIM_VersionCompatibilityCheck.AllowDownVersion
+- CIM_VersionCompatibilityCheck.AllowMultipleVersions
+- CIM_VersionCompatibilityCheck.Reinstall
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_VersionCompatibilityCheck class

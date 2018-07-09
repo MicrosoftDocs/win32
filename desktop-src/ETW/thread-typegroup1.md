@@ -7,6 +7,28 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Thread_TypeGroup1
+- Thread_TypeGroup1.ProcessId
+- Thread_TypeGroup1.TThreadId
+- Thread_TypeGroup1.StackBase
+- Thread_TypeGroup1.StackLimit
+- Thread_TypeGroup1.UserStackBase
+- Thread_TypeGroup1.UserStackLimit
+- Thread_TypeGroup1.Affinity
+- Thread_TypeGroup1.Win32StartAddr
+- Thread_TypeGroup1.TebBase
+- Thread_TypeGroup1.SubProcessTag
+- Thread_TypeGroup1.BasePriority
+- Thread_TypeGroup1.PagePriority
+- Thread_TypeGroup1.IoPriority
+- Thread_TypeGroup1.ThreadFlags
+api_type: 
+- NA
+api_location: 
 ---
 
 # Thread\_TypeGroup1 class

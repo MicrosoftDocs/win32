@@ -13,6 +13,38 @@ title: CIM\_PhysicalMedia class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_PhysicalMedia
+- CIM_PhysicalMedia.Capacity
+- CIM_PhysicalMedia.Caption
+- CIM_PhysicalMedia.CleanerMedia
+- CIM_PhysicalMedia.CreationClassName
+- CIM_PhysicalMedia.Description
+- CIM_PhysicalMedia.HotSwappable
+- CIM_PhysicalMedia.InstallDate
+- CIM_PhysicalMedia.Manufacturer
+- CIM_PhysicalMedia.MediaDescription
+- CIM_PhysicalMedia.MediaType
+- CIM_PhysicalMedia.Model
+- CIM_PhysicalMedia.Name
+- CIM_PhysicalMedia.OtherIdentifyingInfo
+- CIM_PhysicalMedia.PartNumber
+- CIM_PhysicalMedia.PoweredOn
+- CIM_PhysicalMedia.Removable
+- CIM_PhysicalMedia.Replaceable
+- CIM_PhysicalMedia.SerialNumber
+- CIM_PhysicalMedia.SKU
+- CIM_PhysicalMedia.Status
+- CIM_PhysicalMedia.Tag
+- CIM_PhysicalMedia.Version
+- CIM_PhysicalMedia.WriteProtectOn
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_PhysicalMedia class

@@ -13,6 +13,17 @@ title: Win32\_DeviceBus class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_DeviceBus
+- Win32_DeviceBus.Dependent
+- Win32_DeviceBus.Antecedent
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_DeviceBus class

@@ -11,6 +11,36 @@ title: '\_\_ArbitratorConfiguration class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- __ArbitratorConfiguration
+- Root.__ArbitratorConfiguration.OutstandingTasksTotal
+- Root.__ArbitratorConfiguration.OutstandingTasksPerUser
+- Root.__ArbitratorConfiguration.TaskThreadsTotal
+- Root.__ArbitratorConfiguration.TaskThreadsPerUser
+- Root.__ArbitratorConfiguration.QuotaRetryCount
+- Root.__ArbitratorConfiguration.QuotaRetryWaitInterval
+- Root.__ArbitratorConfiguration.TotalUsers
+- Root.__ArbitratorConfiguration.TotalCacheMemoryPerTask
+- Root.__ArbitratorConfiguration.TotalCacheMemoryPerUser
+- Root.__ArbitratorConfiguration.TotalCacheMemory
+- Root.__ArbitratorConfiguration.TotalCacheDiskPerTask
+- Root.__ArbitratorConfiguration.TotalCacheDiskPerUser
+- Root.__ArbitratorConfiguration.TotalCacheDisk
+- Root.__ArbitratorConfiguration.TemporarySubscriptionsPerUser
+- Root.__ArbitratorConfiguration.PermanentSubscriptionsPerUser
+- Root.__ArbitratorConfiguration.PollingInstructionsPerUser
+- Root.__ArbitratorConfiguration.PollingMemoryPerUser
+- Root.__ArbitratorConfiguration.TemporarySubscriptionsTotal
+- Root.__ArbitratorConfiguration.PermanentSubscriptionsTotal
+- Root.__ArbitratorConfiguration.PollingInstructionsTotal
+- Root.__ArbitratorConfiguration.PollingMemoryTotal
+api_type: 
+- Schema
+api_location: 
+- Root
 ---
 
 # \_\_ArbitratorConfiguration class

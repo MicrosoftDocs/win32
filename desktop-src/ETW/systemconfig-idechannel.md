@@ -7,6 +7,19 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SystemConfig_IDEChannel
+- SystemConfig_IDEChannel.TargetId
+- SystemConfig_IDEChannel.DeviceType
+- SystemConfig_IDEChannel.DeviceTimingMode
+- SystemConfig_IDEChannel.LocationInformationLen
+- SystemConfig_IDEChannel.LocationInformation
+api_type: 
+- NA
+api_location: 
 ---
 
 # SystemConfig\_IDEChannel class

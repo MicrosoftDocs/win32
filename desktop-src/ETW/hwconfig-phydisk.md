@@ -7,6 +7,24 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- HWConfig_PhyDisk
+- HWConfig_PhyDisk.DiskNumber
+- HWConfig_PhyDisk.BytesPerSector
+- HWConfig_PhyDisk.SectorsPerTrack
+- HWConfig_PhyDisk.TracksPerCylinder
+- HWConfig_PhyDisk.Cylinders
+- HWConfig_PhyDisk.SCSIPort
+- HWConfig_PhyDisk.SCSIPath
+- HWConfig_PhyDisk.SCSITarget
+- HWConfig_PhyDisk.SCSILun
+- HWConfig_PhyDisk.Manufacturer
+api_type: 
+- NA
+api_location: 
 ---
 
 # HWConfig\_PhyDisk class

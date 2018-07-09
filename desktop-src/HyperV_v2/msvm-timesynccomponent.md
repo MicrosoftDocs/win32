@@ -7,6 +7,59 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_TimeSyncComponent
+- Msvm_TimeSyncComponent.SetPowerState
+- Msvm_TimeSyncComponent.EnableDevice
+- Msvm_TimeSyncComponent.OnlineDevice
+- Msvm_TimeSyncComponent.QuiesceDevice
+- Msvm_TimeSyncComponent.SaveProperties
+- Msvm_TimeSyncComponent.RestoreProperties
+- Msvm_TimeSyncComponent.InstanceID
+- Msvm_TimeSyncComponent.Caption
+- Msvm_TimeSyncComponent.Description
+- Msvm_TimeSyncComponent.ElementName
+- Msvm_TimeSyncComponent.InstallDate
+- Msvm_TimeSyncComponent.Name
+- Msvm_TimeSyncComponent.OperationalStatus
+- Msvm_TimeSyncComponent.StatusDescriptions
+- Msvm_TimeSyncComponent.Status
+- Msvm_TimeSyncComponent.HealthState
+- Msvm_TimeSyncComponent.CommunicationStatus
+- Msvm_TimeSyncComponent.DetailedStatus
+- Msvm_TimeSyncComponent.OperatingStatus
+- Msvm_TimeSyncComponent.PrimaryStatus
+- Msvm_TimeSyncComponent.EnabledState
+- Msvm_TimeSyncComponent.OtherEnabledState
+- Msvm_TimeSyncComponent.RequestedState
+- Msvm_TimeSyncComponent.EnabledDefault
+- Msvm_TimeSyncComponent.TimeOfLastStateChange
+- Msvm_TimeSyncComponent.AvailableRequestedStates
+- Msvm_TimeSyncComponent.TransitioningToState
+- Msvm_TimeSyncComponent.SystemCreationClassName
+- Msvm_TimeSyncComponent.SystemName
+- Msvm_TimeSyncComponent.CreationClassName
+- Msvm_TimeSyncComponent.DeviceID
+- Msvm_TimeSyncComponent.PowerManagementSupported
+- Msvm_TimeSyncComponent.PowerManagementCapabilities
+- Msvm_TimeSyncComponent.Availability
+- Msvm_TimeSyncComponent.StatusInfo
+- Msvm_TimeSyncComponent.LastErrorCode
+- Msvm_TimeSyncComponent.ErrorDescription
+- Msvm_TimeSyncComponent.ErrorCleared
+- Msvm_TimeSyncComponent.OtherIdentifyingInfo
+- Msvm_TimeSyncComponent.PowerOnHours
+- Msvm_TimeSyncComponent.TotalPowerOnHours
+- Msvm_TimeSyncComponent.IdentifyingDescriptions
+- Msvm_TimeSyncComponent.AdditionalAvailability
+- Msvm_TimeSyncComponent.MaxQuiesceTime
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_TimeSyncComponent class

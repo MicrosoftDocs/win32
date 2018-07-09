@@ -13,6 +13,27 @@ title: TargetForwardingHistory class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- TargetForwardingHistory
+- TargetForwardingHistory.TargetEndpoint
+- TargetForwardingHistory.TargetMac
+- TargetForwardingHistory.TargetGuid
+- TargetForwardingHistory.CollectorEndpoint
+- TargetForwardingHistory.Computer
+- TargetForwardingHistory.ForwarderType
+- TargetForwardingHistory.Destination
+- TargetForwardingHistory.DestinationPattern
+- TargetForwardingHistory.Error
+- TargetForwardingHistory.ConnectedSince
+- TargetForwardingHistory.DisconnectedSince
+- TargetForwardingHistory.WmiDateTime
+api_type: 
+- DllExport
+api_location: 
+- BEvtCol.exe
 ---
 
 # TargetForwardingHistory class

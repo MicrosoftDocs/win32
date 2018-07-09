@@ -13,6 +13,28 @@ title: CIM\_Job class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Job
+- CIM_Job.Caption
+- CIM_Job.Description
+- CIM_Job.InstallDate
+- CIM_Job.Name
+- CIM_Job.Status
+- CIM_Job.ElapsedTime
+- CIM_Job.JobStatus
+- CIM_Job.Notify
+- CIM_Job.Owner
+- CIM_Job.Priority
+- CIM_Job.StartTime
+- CIM_Job.TimeSubmitted
+- CIM_Job.UntilTime
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Job class

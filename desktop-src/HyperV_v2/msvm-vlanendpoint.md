@@ -7,6 +7,51 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VLANEndpoint
+- Msvm_VLANEndpoint.InstanceID
+- Msvm_VLANEndpoint.Caption
+- Msvm_VLANEndpoint.Description
+- Msvm_VLANEndpoint.ElementName
+- Msvm_VLANEndpoint.InstallDate
+- Msvm_VLANEndpoint.Name
+- Msvm_VLANEndpoint.OperationalStatus
+- Msvm_VLANEndpoint.StatusDescriptions
+- Msvm_VLANEndpoint.Status
+- Msvm_VLANEndpoint.HealthState
+- Msvm_VLANEndpoint.CommunicationStatus
+- Msvm_VLANEndpoint.DetailedStatus
+- Msvm_VLANEndpoint.OperatingStatus
+- Msvm_VLANEndpoint.PrimaryStatus
+- Msvm_VLANEndpoint.EnabledState
+- Msvm_VLANEndpoint.OtherEnabledState
+- Msvm_VLANEndpoint.RequestedState
+- Msvm_VLANEndpoint.EnabledDefault
+- Msvm_VLANEndpoint.TimeOfLastStateChange
+- Msvm_VLANEndpoint.AvailableRequestedStates
+- Msvm_VLANEndpoint.TransitioningToState
+- Msvm_VLANEndpoint.SystemCreationClassName
+- Msvm_VLANEndpoint.SystemName
+- Msvm_VLANEndpoint.CreationClassName
+- Msvm_VLANEndpoint.NameFormat
+- Msvm_VLANEndpoint.ProtocolType
+- Msvm_VLANEndpoint.ProtocolIFType
+- Msvm_VLANEndpoint.OtherTypeDescription
+- Msvm_VLANEndpoint.DesiredEndpointMode
+- Msvm_VLANEndpoint.OtherEndpointMode
+- Msvm_VLANEndpoint.OperationalEndpointMode
+- Msvm_VLANEndpoint.DesiredVLANTrunkEncapsulation
+- Msvm_VLANEndpoint.OtherTrunkEncapsulation
+- Msvm_VLANEndpoint.OperationalVLANTrunkEncapsulation
+- Msvm_VLANEndpoint.GVRPStatus
+- Msvm_VLANEndpoint.SupportedEndpointModes
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VLANEndpoint class

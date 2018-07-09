@@ -7,6 +7,21 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- FileIo_Create
+- FileIo_Create.IrpPtr
+- FileIo_Create.TTID
+- FileIo_Create.FileObject
+- FileIo_Create.CreateOptions
+- FileIo_Create.FileAttributes
+- FileIo_Create.ShareAccess
+- FileIo_Create.OpenPath
+api_type: 
+- NA
+api_location: 
 ---
 
 # FileIo\_Create class

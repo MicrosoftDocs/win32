@@ -13,6 +13,50 @@ title: Win32\_PointingDevice class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PointingDevice
+- Win32_PointingDevice.Reset
+- Win32_PointingDevice.SetPowerState
+- Win32_PointingDevice.Availability
+- Win32_PointingDevice.Caption
+- Win32_PointingDevice.ConfigManagerErrorCode
+- Win32_PointingDevice.ConfigManagerUserConfig
+- Win32_PointingDevice.CreationClassName
+- Win32_PointingDevice.Description
+- Win32_PointingDevice.DeviceID
+- Win32_PointingDevice.DeviceInterface
+- Win32_PointingDevice.DoubleSpeedThreshold
+- Win32_PointingDevice.ErrorCleared
+- Win32_PointingDevice.ErrorDescription
+- Win32_PointingDevice.Handedness
+- Win32_PointingDevice.HardwareType
+- Win32_PointingDevice.InfFileName
+- Win32_PointingDevice.InfSection
+- Win32_PointingDevice.InstallDate
+- Win32_PointingDevice.IsLocked
+- Win32_PointingDevice.LastErrorCode
+- Win32_PointingDevice.Manufacturer
+- Win32_PointingDevice.Name
+- Win32_PointingDevice.NumberOfButtons
+- Win32_PointingDevice.PNPDeviceID
+- Win32_PointingDevice.PointingType
+- Win32_PointingDevice.PowerManagementCapabilities
+- Win32_PointingDevice.PowerManagementSupported
+- Win32_PointingDevice.QuadSpeedThreshold
+- Win32_PointingDevice.Resolution
+- Win32_PointingDevice.SampleRate
+- Win32_PointingDevice.Status
+- Win32_PointingDevice.StatusInfo
+- Win32_PointingDevice.Synch
+- Win32_PointingDevice.SystemCreationClassName
+- Win32_PointingDevice.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PointingDevice class

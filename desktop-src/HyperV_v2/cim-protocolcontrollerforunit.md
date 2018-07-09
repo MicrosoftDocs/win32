@@ -7,6 +7,18 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ProtocolControllerForUnit
+- CIM_ProtocolControllerForUnit.Antecedent
+- CIM_ProtocolControllerForUnit.Dependent
+- CIM_ProtocolControllerForUnit.DeviceAccess
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_ProtocolControllerForUnit class

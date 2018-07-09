@@ -7,6 +7,21 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Process_V1_TypeGroup1
+- Process_V1_TypeGroup1.PageDirectoryBase
+- Process_V1_TypeGroup1.ProcessId
+- Process_V1_TypeGroup1.ParentId
+- Process_V1_TypeGroup1.SessionId
+- Process_V1_TypeGroup1.ExitStatus
+- Process_V1_TypeGroup1.UserSID
+- Process_V1_TypeGroup1.ImageFileName
+api_type: 
+- NA
+api_location: 
 ---
 
 # Process\_V1\_TypeGroup1 class

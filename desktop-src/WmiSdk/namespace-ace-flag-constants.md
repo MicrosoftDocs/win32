@@ -11,6 +11,19 @@ title: Namespace ACE Flag Constants
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- OBJECT_INHERIT_ACE
+- CONTAINER_INHERIT_ACE
+- NO_PROPAGATE_INHERIT_ACE
+- INHERIT_ONLY_ACE
+- INHERITED_ACE
+api_type: 
+- HeaderDef
+api_location: 
+- Winnt.h
 ---
 
 # Namespace ACE Flag Constants

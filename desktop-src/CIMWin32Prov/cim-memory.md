@@ -13,6 +13,53 @@ title: CIM\_Memory class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Memory
+- CIM_Memory.Caption
+- CIM_Memory.Description
+- CIM_Memory.InstallDate
+- CIM_Memory.Name
+- CIM_Memory.Status
+- CIM_Memory.Availability
+- CIM_Memory.ConfigManagerErrorCode
+- CIM_Memory.ConfigManagerUserConfig
+- CIM_Memory.CreationClassName
+- CIM_Memory.DeviceID
+- CIM_Memory.PowerManagementCapabilities
+- CIM_Memory.ErrorCleared
+- CIM_Memory.ErrorDescription
+- CIM_Memory.LastErrorCode
+- CIM_Memory.PNPDeviceID
+- CIM_Memory.PowerManagementSupported
+- CIM_Memory.StatusInfo
+- CIM_Memory.SystemCreationClassName
+- CIM_Memory.SystemName
+- CIM_Memory.Access
+- CIM_Memory.BlockSize
+- CIM_Memory.NumberOfBlocks
+- CIM_Memory.Purpose
+- CIM_Memory.ErrorMethodology
+- CIM_Memory.AdditionalErrorData
+- CIM_Memory.CorrectableError
+- CIM_Memory.EndingAddress
+- CIM_Memory.ErrorAccess
+- CIM_Memory.ErrorAddress
+- CIM_Memory.ErrorData
+- CIM_Memory.ErrorDataOrder
+- CIM_Memory.ErrorInfo
+- CIM_Memory.ErrorResolution
+- CIM_Memory.ErrorTime
+- CIM_Memory.ErrorTransferSize
+- CIM_Memory.OtherErrorDescription
+- CIM_Memory.StartingAddress
+- CIM_Memory.SystemLevelAddress
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Memory class

@@ -7,6 +7,83 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_DVDDrive
+- Msvm_DVDDrive.SetPowerState
+- Msvm_DVDDrive.EnableDevice
+- Msvm_DVDDrive.OnlineDevice
+- Msvm_DVDDrive.QuiesceDevice
+- Msvm_DVDDrive.SaveProperties
+- Msvm_DVDDrive.RestoreProperties
+- Msvm_DVDDrive.InstanceID
+- Msvm_DVDDrive.Caption
+- Msvm_DVDDrive.Description
+- Msvm_DVDDrive.ElementName
+- Msvm_DVDDrive.InstallDate
+- Msvm_DVDDrive.Name
+- Msvm_DVDDrive.OperationalStatus
+- Msvm_DVDDrive.StatusDescriptions
+- Msvm_DVDDrive.Status
+- Msvm_DVDDrive.HealthState
+- Msvm_DVDDrive.CommunicationStatus
+- Msvm_DVDDrive.DetailedStatus
+- Msvm_DVDDrive.OperatingStatus
+- Msvm_DVDDrive.PrimaryStatus
+- Msvm_DVDDrive.EnabledState
+- Msvm_DVDDrive.OtherEnabledState
+- Msvm_DVDDrive.RequestedState
+- Msvm_DVDDrive.EnabledDefault
+- Msvm_DVDDrive.TimeOfLastStateChange
+- Msvm_DVDDrive.AvailableRequestedStates
+- Msvm_DVDDrive.TransitioningToState
+- Msvm_DVDDrive.SystemCreationClassName
+- Msvm_DVDDrive.SystemName
+- Msvm_DVDDrive.CreationClassName
+- Msvm_DVDDrive.DeviceID
+- Msvm_DVDDrive.PowerManagementSupported
+- Msvm_DVDDrive.PowerManagementCapabilities
+- Msvm_DVDDrive.Availability
+- Msvm_DVDDrive.StatusInfo
+- Msvm_DVDDrive.LastErrorCode
+- Msvm_DVDDrive.ErrorDescription
+- Msvm_DVDDrive.ErrorCleared
+- Msvm_DVDDrive.OtherIdentifyingInfo
+- Msvm_DVDDrive.PowerOnHours
+- Msvm_DVDDrive.TotalPowerOnHours
+- Msvm_DVDDrive.IdentifyingDescriptions
+- Msvm_DVDDrive.AdditionalAvailability
+- Msvm_DVDDrive.MaxQuiesceTime
+- Msvm_DVDDrive.Capabilities
+- Msvm_DVDDrive.CapabilityDescriptions
+- Msvm_DVDDrive.ErrorMethodology
+- Msvm_DVDDrive.CompressionMethod
+- Msvm_DVDDrive.NumberOfMediaSupported
+- Msvm_DVDDrive.MaxMediaSize
+- Msvm_DVDDrive.DefaultBlockSize
+- Msvm_DVDDrive.MaxBlockSize
+- Msvm_DVDDrive.MinBlockSize
+- Msvm_DVDDrive.NeedsCleaning
+- Msvm_DVDDrive.MediaIsLocked
+- Msvm_DVDDrive.Security
+- Msvm_DVDDrive.LastCleaned
+- Msvm_DVDDrive.MaxAccessTime
+- Msvm_DVDDrive.UncompressedDataRate
+- Msvm_DVDDrive.LoadTime
+- Msvm_DVDDrive.UnloadTime
+- Msvm_DVDDrive.MountCount
+- Msvm_DVDDrive.TimeOfLastMount
+- Msvm_DVDDrive.TotalMountTime
+- Msvm_DVDDrive.UnitsDescription
+- Msvm_DVDDrive.MaxUnitsBeforeCleaning
+- Msvm_DVDDrive.UnitsUsed
+- Msvm_DVDDrive.FormatsSupported
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_DVDDrive class

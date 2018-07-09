@@ -7,6 +7,21 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- MSMCAEvent_Header
+- MSMCAEvent_Header.AdditionalErrors
+- MSMCAEvent_Header.Cpu
+- MSMCAEvent_Header.ErrorSeverity
+- MSMCAEvent_Header.RecordId
+- MSMCAEvent_Header.Type
+- MSMCAEvent_Header.LogToEventlog
+api_type: 
+- DllExport
+api_location: 
+- Wmiprov.dll
 ---
 
 # MSMCAEvent\_Header class

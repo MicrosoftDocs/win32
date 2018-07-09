@@ -13,6 +13,29 @@ title: CIM\_ModifySettingAction class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ModifySettingAction
+- CIM_ModifySettingAction.ActionID
+- CIM_ModifySettingAction.Caption
+- CIM_ModifySettingAction.Description
+- CIM_ModifySettingAction.Direction
+- CIM_ModifySettingAction.Name
+- CIM_ModifySettingAction.SoftwareElementID
+- CIM_ModifySettingAction.SoftwareElementState
+- CIM_ModifySettingAction.TargetOperatingSystem
+- CIM_ModifySettingAction.Version
+- CIM_ModifySettingAction.ActionType
+- CIM_ModifySettingAction.EntryName
+- CIM_ModifySettingAction.EntryValue
+- CIM_ModifySettingAction.FileName
+- CIM_ModifySettingAction.SectionKey
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_ModifySettingAction class

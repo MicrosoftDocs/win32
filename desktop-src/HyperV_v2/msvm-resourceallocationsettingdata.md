@@ -7,6 +7,39 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ResourceAllocationSettingData
+- Msvm_ResourceAllocationSettingData.InstanceID
+- Msvm_ResourceAllocationSettingData.Caption
+- Msvm_ResourceAllocationSettingData.Description
+- Msvm_ResourceAllocationSettingData.ElementName
+- Msvm_ResourceAllocationSettingData.ResourceType
+- Msvm_ResourceAllocationSettingData.OtherResourceType
+- Msvm_ResourceAllocationSettingData.ResourceSubType
+- Msvm_ResourceAllocationSettingData.PoolID
+- Msvm_ResourceAllocationSettingData.ConsumerVisibility
+- Msvm_ResourceAllocationSettingData.HostResource
+- Msvm_ResourceAllocationSettingData.AllocationUnits
+- Msvm_ResourceAllocationSettingData.VirtualQuantity
+- Msvm_ResourceAllocationSettingData.Reservation
+- Msvm_ResourceAllocationSettingData.Limit
+- Msvm_ResourceAllocationSettingData.Weight
+- Msvm_ResourceAllocationSettingData.AutomaticAllocation
+- Msvm_ResourceAllocationSettingData.AutomaticDeallocation
+- Msvm_ResourceAllocationSettingData.Parent
+- Msvm_ResourceAllocationSettingData.Connection
+- Msvm_ResourceAllocationSettingData.Address
+- Msvm_ResourceAllocationSettingData.MappingBehavior
+- Msvm_ResourceAllocationSettingData.AddressOnParent
+- Msvm_ResourceAllocationSettingData.VirtualQuantityUnits
+- Msvm_ResourceAllocationSettingData.VirtualSystemIdentifiers
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ResourceAllocationSettingData class

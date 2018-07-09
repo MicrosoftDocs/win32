@@ -7,6 +7,23 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Indication
+- CIM_Indication.IndicationIdentifier
+- CIM_Indication.CorrelatedIndications
+- CIM_Indication.IndicationTime
+- CIM_Indication.PerceivedSeverity
+- CIM_Indication.OtherSeverity
+- CIM_Indication.IndicationFilterName
+- CIM_Indication.SequenceContext
+- CIM_Indication.SequenceNumber
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_Indication class

@@ -13,6 +13,35 @@ title: CIM\_Display class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Display
+- CIM_Display.Availability
+- CIM_Display.Caption
+- CIM_Display.ConfigManagerErrorCode
+- CIM_Display.ConfigManagerUserConfig
+- CIM_Display.CreationClassName
+- CIM_Display.Description
+- CIM_Display.DeviceID
+- CIM_Display.ErrorCleared
+- CIM_Display.ErrorDescription
+- CIM_Display.InstallDate
+- CIM_Display.IsLocked
+- CIM_Display.LastErrorCode
+- CIM_Display.Name
+- CIM_Display.PNPDeviceID
+- CIM_Display.PowerManagementCapabilities
+- CIM_Display.PowerManagementSupported
+- CIM_Display.Status
+- CIM_Display.StatusInfo
+- CIM_Display.SystemCreationClassName
+- CIM_Display.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Display class

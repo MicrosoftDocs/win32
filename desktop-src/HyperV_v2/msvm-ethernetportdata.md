@@ -7,6 +7,25 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_EthernetPortData
+- Msvm_EthernetPortData.InstanceID
+- Msvm_EthernetPortData.Caption
+- Msvm_EthernetPortData.Description
+- Msvm_EthernetPortData.ElementName
+- Msvm_EthernetPortData.SystemCreationClassName
+- Msvm_EthernetPortData.SystemName
+- Msvm_EthernetPortData.DeviceCreationClassName
+- Msvm_EthernetPortData.DeviceID
+- Msvm_EthernetPortData.CreationClassName
+- Msvm_EthernetPortData.Name
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_EthernetPortData class

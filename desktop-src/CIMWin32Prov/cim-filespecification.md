@@ -13,6 +13,30 @@ title: CIM\_FileSpecification class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_FileSpecification
+- CIM_FileSpecification.CheckID
+- CIM_FileSpecification.Caption
+- CIM_FileSpecification.Description
+- CIM_FileSpecification.CheckMode
+- CIM_FileSpecification.TargetOperatingSystem
+- CIM_FileSpecification.Version
+- CIM_FileSpecification.SoftwareElementID
+- CIM_FileSpecification.SoftwareElementState
+- CIM_FileSpecification.Name
+- CIM_FileSpecification.CheckSum
+- CIM_FileSpecification.CRC1
+- CIM_FileSpecification.CRC2
+- CIM_FileSpecification.CreateTimeStamp
+- CIM_FileSpecification.FileSize
+- CIM_FileSpecification.MD5Checksum
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_FileSpecification class

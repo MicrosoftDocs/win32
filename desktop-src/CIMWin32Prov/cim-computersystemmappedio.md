@@ -13,6 +13,17 @@ title: CIM\_ComputerSystemMappedIO class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ComputerSystemMappedIO
+- CIM_ComputerSystemMappedIO.GroupComponent
+- CIM_ComputerSystemMappedIO.PartComponent
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_ComputerSystemMappedIO class

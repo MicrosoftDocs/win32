@@ -7,6 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- HWConfig_CPU
+- HWConfig_CPU.MHz
+- HWConfig_CPU.NumberOfProcessors
+- HWConfig_CPU.MemSize
+- HWConfig_CPU.PageSize
+- HWConfig_CPU.AllocationGranularity
+- HWConfig_CPU.ComputerName
+api_type: 
+- NA
+api_location: 
 ---
 
 # HWConfig\_CPU class

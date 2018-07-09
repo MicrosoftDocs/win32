@@ -13,6 +13,17 @@ title: CIM\_ElementSetting class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ElementSetting
+- CIM_ElementSetting.Element
+- CIM_ElementSetting.Setting
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_ElementSetting class

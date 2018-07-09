@@ -13,6 +13,25 @@ title: CIM\_System class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_System
+- CIM_System.Caption
+- CIM_System.Description
+- CIM_System.InstallDate
+- CIM_System.Status
+- CIM_System.CreationClassName
+- CIM_System.Name
+- CIM_System.NameFormat
+- CIM_System.PrimaryOwnerContact
+- CIM_System.PrimaryOwnerName
+- CIM_System.Roles
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_System class

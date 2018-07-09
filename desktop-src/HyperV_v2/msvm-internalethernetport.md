@@ -7,6 +7,80 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_InternalEthernetPort
+- Msvm_InternalEthernetPort.SetPowerState
+- Msvm_InternalEthernetPort.EnableDevice
+- Msvm_InternalEthernetPort.OnlineDevice
+- Msvm_InternalEthernetPort.QuiesceDevice
+- Msvm_InternalEthernetPort.SaveProperties
+- Msvm_InternalEthernetPort.RestoreProperties
+- Msvm_InternalEthernetPort.InstanceID
+- Msvm_InternalEthernetPort.Caption
+- Msvm_InternalEthernetPort.Description
+- Msvm_InternalEthernetPort.ElementName
+- Msvm_InternalEthernetPort.InstallDate
+- Msvm_InternalEthernetPort.Name
+- Msvm_InternalEthernetPort.OperationalStatus
+- Msvm_InternalEthernetPort.StatusDescriptions
+- Msvm_InternalEthernetPort.Status
+- Msvm_InternalEthernetPort.HealthState
+- Msvm_InternalEthernetPort.CommunicationStatus
+- Msvm_InternalEthernetPort.DetailedStatus
+- Msvm_InternalEthernetPort.OperatingStatus
+- Msvm_InternalEthernetPort.PrimaryStatus
+- Msvm_InternalEthernetPort.EnabledState
+- Msvm_InternalEthernetPort.OtherEnabledState
+- Msvm_InternalEthernetPort.RequestedState
+- Msvm_InternalEthernetPort.EnabledDefault
+- Msvm_InternalEthernetPort.TimeOfLastStateChange
+- Msvm_InternalEthernetPort.AvailableRequestedStates
+- Msvm_InternalEthernetPort.TransitioningToState
+- Msvm_InternalEthernetPort.SystemCreationClassName
+- Msvm_InternalEthernetPort.SystemName
+- Msvm_InternalEthernetPort.CreationClassName
+- Msvm_InternalEthernetPort.DeviceID
+- Msvm_InternalEthernetPort.PowerManagementSupported
+- Msvm_InternalEthernetPort.PowerManagementCapabilities
+- Msvm_InternalEthernetPort.Availability
+- Msvm_InternalEthernetPort.StatusInfo
+- Msvm_InternalEthernetPort.LastErrorCode
+- Msvm_InternalEthernetPort.ErrorDescription
+- Msvm_InternalEthernetPort.ErrorCleared
+- Msvm_InternalEthernetPort.OtherIdentifyingInfo
+- Msvm_InternalEthernetPort.PowerOnHours
+- Msvm_InternalEthernetPort.TotalPowerOnHours
+- Msvm_InternalEthernetPort.IdentifyingDescriptions
+- Msvm_InternalEthernetPort.AdditionalAvailability
+- Msvm_InternalEthernetPort.MaxQuiesceTime
+- Msvm_InternalEthernetPort.MaxSpeed
+- Msvm_InternalEthernetPort.RequestedSpeed
+- Msvm_InternalEthernetPort.UsageRestriction
+- Msvm_InternalEthernetPort.OtherPortType
+- Msvm_InternalEthernetPort.Speed
+- Msvm_InternalEthernetPort.OtherNetworkPortType
+- Msvm_InternalEthernetPort.PortNumber
+- Msvm_InternalEthernetPort.LinkTechnology
+- Msvm_InternalEthernetPort.OtherLinkTechnology
+- Msvm_InternalEthernetPort.PermanentAddress
+- Msvm_InternalEthernetPort.FullDuplex
+- Msvm_InternalEthernetPort.AutoSense
+- Msvm_InternalEthernetPort.SupportedMaximumTransmissionUnit
+- Msvm_InternalEthernetPort.ActiveMaximumTransmissionUnit
+- Msvm_InternalEthernetPort.PortType
+- Msvm_InternalEthernetPort.NetworkAddresses
+- Msvm_InternalEthernetPort.MaxDataSize
+- Msvm_InternalEthernetPort.Capabilities
+- Msvm_InternalEthernetPort.CapabilityDescriptions
+- Msvm_InternalEthernetPort.EnabledCapabilities
+- Msvm_InternalEthernetPort.OtherEnabledCapabilities
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_InternalEthernetPort class

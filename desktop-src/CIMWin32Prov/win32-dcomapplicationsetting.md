@@ -13,6 +13,27 @@ title: Win32\_DCOMApplicationSetting class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_DCOMApplicationSetting
+- Win32_DCOMApplicationSetting.Caption
+- Win32_DCOMApplicationSetting.Description
+- Win32_DCOMApplicationSetting.SettingID
+- Win32_DCOMApplicationSetting.AppID
+- Win32_DCOMApplicationSetting.AuthenticationLevel
+- Win32_DCOMApplicationSetting.CustomSurrogate
+- Win32_DCOMApplicationSetting.EnableAtStorageActivation
+- Win32_DCOMApplicationSetting.LocalService
+- Win32_DCOMApplicationSetting.RemoteServerName
+- Win32_DCOMApplicationSetting.RunAsUser
+- Win32_DCOMApplicationSetting.ServiceParameters
+- Win32_DCOMApplicationSetting.UseSurrogate
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_DCOMApplicationSetting class

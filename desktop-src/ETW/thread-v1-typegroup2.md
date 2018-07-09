@@ -7,6 +7,16 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Thread_V1_TypeGroup2
+- Thread_V1_TypeGroup2.ProcessId
+- Thread_V1_TypeGroup2.TThreadId
+api_type: 
+- NA
+api_location: 
 ---
 
 # Thread\_V1\_TypeGroup2 class

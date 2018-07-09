@@ -13,6 +13,21 @@ title: Win32\_ComponentCategory class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_ComponentCategory
+- Win32_ComponentCategory.Caption
+- Win32_ComponentCategory.Description
+- Win32_ComponentCategory.InstallDate
+- Win32_ComponentCategory.Status
+- Win32_ComponentCategory.CategoryId
+- Win32_ComponentCategory.Name
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_ComponentCategory class

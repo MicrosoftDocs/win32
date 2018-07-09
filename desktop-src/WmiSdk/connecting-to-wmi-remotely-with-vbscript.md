@@ -11,6 +11,11 @@ title: Connecting to WMI Remotely with VBScript
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- kbArticle
+api_name: 
+api_type: 
+api_location: 
 ---
 
 # Connecting to WMI Remotely with VBScript

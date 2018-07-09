@@ -10,6 +10,18 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- MDM_WindowsAdvancedThreatProtection_DeviceTagging01
+- MDM_WindowsAdvancedThreatProtection_DeviceTagging01.InstanceID
+- MDM_WindowsAdvancedThreatProtection_DeviceTagging01.ParentID
+- MDM_WindowsAdvancedThreatProtection_DeviceTagging01.IdMethod
+api_type: 
+- DllExport
+api_location: 
+- DMWmiBridgeProv.dll
 ---
 
 # MDM\_WindowsAdvancedThreatProtection\_DeviceTagging01 class

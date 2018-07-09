@@ -13,6 +13,25 @@ title: CIM\_DiskSpaceCheck class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_DiskSpaceCheck
+- CIM_DiskSpaceCheck.CheckID
+- CIM_DiskSpaceCheck.Caption
+- CIM_DiskSpaceCheck.Description
+- CIM_DiskSpaceCheck.CheckMode
+- CIM_DiskSpaceCheck.Name
+- CIM_DiskSpaceCheck.TargetOperatingSystem
+- CIM_DiskSpaceCheck.Version
+- CIM_DiskSpaceCheck.SoftwareElementID
+- CIM_DiskSpaceCheck.SoftwareElementState
+- CIM_DiskSpaceCheck.AvailableDiskSpace
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_DiskSpaceCheck class

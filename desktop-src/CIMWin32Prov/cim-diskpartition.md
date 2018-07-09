@@ -13,6 +13,41 @@ title: CIM\_DiskPartition class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_DiskPartition
+- CIM_DiskPartition.Access
+- CIM_DiskPartition.Availability
+- CIM_DiskPartition.BlockSize
+- CIM_DiskPartition.Bootable
+- CIM_DiskPartition.Caption
+- CIM_DiskPartition.ConfigManagerErrorCode
+- CIM_DiskPartition.ConfigManagerUserConfig
+- CIM_DiskPartition.CreationClassName
+- CIM_DiskPartition.Description
+- CIM_DiskPartition.DeviceID
+- CIM_DiskPartition.ErrorCleared
+- CIM_DiskPartition.ErrorDescription
+- CIM_DiskPartition.ErrorMethodology
+- CIM_DiskPartition.InstallDate
+- CIM_DiskPartition.LastErrorCode
+- CIM_DiskPartition.Name
+- CIM_DiskPartition.NumberOfBlocks
+- CIM_DiskPartition.PNPDeviceID
+- CIM_DiskPartition.PowerManagementCapabilities
+- CIM_DiskPartition.PowerManagementSupported
+- CIM_DiskPartition.PrimaryPartition
+- CIM_DiskPartition.Purpose
+- CIM_DiskPartition.Status
+- CIM_DiskPartition.StatusInfo
+- CIM_DiskPartition.SystemCreationClassName
+- CIM_DiskPartition.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_DiskPartition class

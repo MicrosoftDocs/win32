@@ -7,6 +7,41 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_Synthetic3DDisplayControllerSettingData
+- Msvm_Synthetic3DDisplayControllerSettingData.InstanceID
+- Msvm_Synthetic3DDisplayControllerSettingData.Caption
+- Msvm_Synthetic3DDisplayControllerSettingData.Description
+- Msvm_Synthetic3DDisplayControllerSettingData.ElementName
+- Msvm_Synthetic3DDisplayControllerSettingData.ResourceType
+- Msvm_Synthetic3DDisplayControllerSettingData.OtherResourceType
+- Msvm_Synthetic3DDisplayControllerSettingData.ResourceSubType
+- Msvm_Synthetic3DDisplayControllerSettingData.PoolID
+- Msvm_Synthetic3DDisplayControllerSettingData.ConsumerVisibility
+- Msvm_Synthetic3DDisplayControllerSettingData.HostResource
+- Msvm_Synthetic3DDisplayControllerSettingData.AllocationUnits
+- Msvm_Synthetic3DDisplayControllerSettingData.VirtualQuantity
+- Msvm_Synthetic3DDisplayControllerSettingData.Reservation
+- Msvm_Synthetic3DDisplayControllerSettingData.Limit
+- Msvm_Synthetic3DDisplayControllerSettingData.Weight
+- Msvm_Synthetic3DDisplayControllerSettingData.AutomaticAllocation
+- Msvm_Synthetic3DDisplayControllerSettingData.AutomaticDeallocation
+- Msvm_Synthetic3DDisplayControllerSettingData.Parent
+- Msvm_Synthetic3DDisplayControllerSettingData.Connection
+- Msvm_Synthetic3DDisplayControllerSettingData.Address
+- Msvm_Synthetic3DDisplayControllerSettingData.MappingBehavior
+- Msvm_Synthetic3DDisplayControllerSettingData.AddressOnParent
+- Msvm_Synthetic3DDisplayControllerSettingData.VirtualQuantityUnits
+- Msvm_Synthetic3DDisplayControllerSettingData.MaximumScreenResolution
+- Msvm_Synthetic3DDisplayControllerSettingData.MaximumMonitors
+- Msvm_Synthetic3DDisplayControllerSettingData.VRAMSizeBytes
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_Synthetic3DDisplayControllerSettingData class

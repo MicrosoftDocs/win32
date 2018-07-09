@@ -13,6 +13,27 @@ title: CIM\_CopyFileAction class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_CopyFileAction
+- CIM_CopyFileAction.ActionID
+- CIM_CopyFileAction.Caption
+- CIM_CopyFileAction.Description
+- CIM_CopyFileAction.Direction
+- CIM_CopyFileAction.Name
+- CIM_CopyFileAction.SoftwareElementID
+- CIM_CopyFileAction.SoftwareElementState
+- CIM_CopyFileAction.TargetOperatingSystem
+- CIM_CopyFileAction.Version
+- CIM_CopyFileAction.DeleteAfterCopy
+- CIM_CopyFileAction.Destination
+- CIM_CopyFileAction.Source
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_CopyFileAction class

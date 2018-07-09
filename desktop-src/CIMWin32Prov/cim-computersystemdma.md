@@ -13,6 +13,17 @@ title: CIM\_ComputerSystemDMA class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ComputerSystemDMA
+- CIM_ComputerSystemDMA.PartComponent
+- CIM_ComputerSystemDMA.GroupComponent
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_ComputerSystemDMA class

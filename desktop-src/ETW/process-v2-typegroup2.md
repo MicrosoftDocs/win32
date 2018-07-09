@@ -7,6 +7,29 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Process_V2_TypeGroup2
+- Process_V2_TypeGroup2.ProcessId
+- Process_V2_TypeGroup2.PageFaultCount
+- Process_V2_TypeGroup2.HandleCount
+- Process_V2_TypeGroup2.Reserved
+- Process_V2_TypeGroup2.PeakVirtualSize
+- Process_V2_TypeGroup2.PeakWorkingSetSize
+- Process_V2_TypeGroup2.PeakPagefileUsage
+- Process_V2_TypeGroup2.QuotaPeakPagedPoolUsage
+- Process_V2_TypeGroup2.QuotaPeakNonPagedPoolUsage
+- Process_V2_TypeGroup2.VirtualSize
+- Process_V2_TypeGroup2.WorkingSetSize
+- Process_V2_TypeGroup2.PagefileUsage
+- Process_V2_TypeGroup2.QuotaPagedPoolUsage
+- Process_V2_TypeGroup2.QuotaNonPagedPoolUsage
+- Process_V2_TypeGroup2.PrivatePageCount
+api_type: 
+- NA
+api_location: 
 ---
 
 # Process\_V2\_TypeGroup2 class

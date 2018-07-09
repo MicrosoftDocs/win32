@@ -7,6 +7,18 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- FileIo_SimpleOp
+- FileIo_SimpleOp.IrpPtr
+- FileIo_SimpleOp.TTID
+- FileIo_SimpleOp.FileObject
+- FileIo_SimpleOp.FileKey
+api_type: 
+- NA
+api_location: 
 ---
 
 # FileIo\_SimpleOp class

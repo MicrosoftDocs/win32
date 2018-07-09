@@ -11,6 +11,15 @@ title: '\_\_SystemSecurity class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- __SystemSecurity
+api_type: 
+- Schema
+api_location: 
+- All
 ---
 
 # \_\_SystemSecurity class

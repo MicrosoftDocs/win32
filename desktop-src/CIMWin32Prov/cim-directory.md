@@ -13,6 +13,46 @@ title: CIM\_Directory class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Directory
+- CIM_Directory.AccessMask
+- CIM_Directory.Archive
+- CIM_Directory.Caption
+- CIM_Directory.Compressed
+- CIM_Directory.CompressionMethod
+- CIM_Directory.CreationClassName
+- CIM_Directory.CreationDate
+- CIM_Directory.CSCreationClassName
+- CIM_Directory.CSName
+- CIM_Directory.Description
+- CIM_Directory.Drive
+- CIM_Directory.EightDotThreeFileName
+- CIM_Directory.Encrypted
+- CIM_Directory.EncryptionMethod
+- CIM_Directory.Extension
+- CIM_Directory.FileName
+- CIM_Directory.FileSize
+- CIM_Directory.FileType
+- CIM_Directory.FSCreationClassName
+- CIM_Directory.FSName
+- CIM_Directory.Hidden
+- CIM_Directory.InstallDate
+- CIM_Directory.InUseCount
+- CIM_Directory.LastAccessed
+- CIM_Directory.LastModified
+- CIM_Directory.Name
+- CIM_Directory.Path
+- CIM_Directory.Readable
+- CIM_Directory.Status
+- CIM_Directory.System
+- CIM_Directory.Writeable
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Directory class

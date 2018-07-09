@@ -13,6 +13,60 @@ title: Win32\_Process class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_Process
+- Win32_Process.CreationClassName
+- Win32_Process.Caption
+- Win32_Process.CommandLine
+- Win32_Process.CreationDate
+- Win32_Process.CSCreationClassName
+- Win32_Process.CSName
+- Win32_Process.Description
+- Win32_Process.ExecutablePath
+- Win32_Process.ExecutionState
+- Win32_Process.Handle
+- Win32_Process.HandleCount
+- Win32_Process.InstallDate
+- Win32_Process.KernelModeTime
+- Win32_Process.MaximumWorkingSetSize
+- Win32_Process.MinimumWorkingSetSize
+- Win32_Process.Name
+- Win32_Process.OSCreationClassName
+- Win32_Process.OSName
+- Win32_Process.OtherOperationCount
+- Win32_Process.OtherTransferCount
+- Win32_Process.PageFaults
+- Win32_Process.PageFileUsage
+- Win32_Process.ParentProcessId
+- Win32_Process.PeakPageFileUsage
+- Win32_Process.PeakVirtualSize
+- Win32_Process.PeakWorkingSetSize
+- Win32_Process.Priority
+- Win32_Process.PrivatePageCount
+- Win32_Process.ProcessId
+- Win32_Process.QuotaNonPagedPoolUsage
+- Win32_Process.QuotaPagedPoolUsage
+- Win32_Process.QuotaPeakNonPagedPoolUsage
+- Win32_Process.QuotaPeakPagedPoolUsage
+- Win32_Process.ReadOperationCount
+- Win32_Process.ReadTransferCount
+- Win32_Process.SessionId
+- Win32_Process.Status
+- Win32_Process.TerminationDate
+- Win32_Process.ThreadCount
+- Win32_Process.UserModeTime
+- Win32_Process.VirtualSize
+- Win32_Process.WindowsVersion
+- Win32_Process.WorkingSetSize
+- Win32_Process.WriteOperationCount
+- Win32_Process.WriteTransferCount
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_Process class

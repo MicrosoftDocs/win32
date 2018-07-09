@@ -7,6 +7,23 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- KSNODETYPE_DEV_SPECIFIC
+- KSNODETYPE_VIDEO_CAMERA_TERMINAL
+- KSNODETYPE_VIDEO_INPUT_MTT
+- KSNODETYPE_VIDEO_INPUT_TERMINAL
+- KSNODETYPE_VIDEO_OUTPUT_MTT
+- KSNODETYPE_VIDEO_OUTPUT_TERMINAL
+- KSNODETYPE_VIDEO_PROCESSING
+- KSNODETYPE_VIDEO_SELECTOR
+- KSNODETYPE_VIDEO_STREAMING
+api_type: 
+- HeaderDef
+api_location: 
+- Ksmedia.h
 ---
 
 # KS Node Types

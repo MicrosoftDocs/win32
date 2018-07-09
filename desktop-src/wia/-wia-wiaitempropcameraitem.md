@@ -7,6 +7,23 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- WIA_IPC_THUMBNAIL
+- WIA_IPC_THUMB_WIDTH
+- WIA_IPC_THUMB_HEIGHT
+- WIA_IPC_AUDIO_AVAILABLE
+- WIA_IPC_AUDIO_DATA_FORMAT
+- WIA_IPC_AUDIO_DATA
+- WIA_IPC_NUM_PICT_PER_ROW
+- WIA_IPC_SEQUENCE
+- WIA_IPC_TIMEDELAY
+api_type: 
+- HeaderDef
+api_location: 
+- wiadef.h
 ---
 
 # Camera WIA Item Property Constants

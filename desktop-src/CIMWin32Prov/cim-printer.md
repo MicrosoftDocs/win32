@@ -13,6 +13,66 @@ title: CIM\_Printer class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Printer
+- CIM_Printer.Availability
+- CIM_Printer.AvailableJobSheets
+- CIM_Printer.Capabilities
+- CIM_Printer.CapabilityDescriptions
+- CIM_Printer.Caption
+- CIM_Printer.CharSetsSupported
+- CIM_Printer.ConfigManagerErrorCode
+- CIM_Printer.ConfigManagerUserConfig
+- CIM_Printer.CreationClassName
+- CIM_Printer.CurrentCapabilities
+- CIM_Printer.CurrentCharSet
+- CIM_Printer.CurrentLanguage
+- CIM_Printer.CurrentMimeType
+- CIM_Printer.CurrentNaturalLanguage
+- CIM_Printer.CurrentPaperType
+- CIM_Printer.DefaultCapabilities
+- CIM_Printer.DefaultCopies
+- CIM_Printer.DefaultLanguage
+- CIM_Printer.DefaultMimeType
+- CIM_Printer.DefaultNumberUp
+- CIM_Printer.DefaultPaperType
+- CIM_Printer.Description
+- CIM_Printer.DetectedErrorState
+- CIM_Printer.DeviceID
+- CIM_Printer.ErrorCleared
+- CIM_Printer.ErrorDescription
+- CIM_Printer.ErrorInformation
+- CIM_Printer.HorizontalResolution
+- CIM_Printer.InstallDate
+- CIM_Printer.JobCountSinceLastReset
+- CIM_Printer.LanguagesSupported
+- CIM_Printer.LastErrorCode
+- CIM_Printer.MarkingTechnology
+- CIM_Printer.MaxCopies
+- CIM_Printer.MaxNumberUp
+- CIM_Printer.MaxSizeSupported
+- CIM_Printer.MimeTypesSupported
+- CIM_Printer.Name
+- CIM_Printer.NaturalLanguagesSupported
+- CIM_Printer.PaperSizesSupported
+- CIM_Printer.PaperTypesAvailable
+- CIM_Printer.PNPDeviceID
+- CIM_Printer.PowerManagementCapabilities
+- CIM_Printer.PowerManagementSupported
+- CIM_Printer.PrinterStatus
+- CIM_Printer.Status
+- CIM_Printer.StatusInfo
+- CIM_Printer.SystemCreationClassName
+- CIM_Printer.SystemName
+- CIM_Printer.TimeOfLastReset
+- CIM_Printer.VerticalResolution
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Printer class

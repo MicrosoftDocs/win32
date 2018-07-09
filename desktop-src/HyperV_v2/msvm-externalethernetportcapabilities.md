@@ -7,6 +7,21 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ExternalEthernetPortCapabilities
+- Msvm_ExternalEthernetPortCapabilities.InstanceID
+- Msvm_ExternalEthernetPortCapabilities.Caption
+- Msvm_ExternalEthernetPortCapabilities.Description
+- Msvm_ExternalEthernetPortCapabilities.ElementName
+- Msvm_ExternalEthernetPortCapabilities.IOVSupport
+- Msvm_ExternalEthernetPortCapabilities.IOVSupportReasons
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ExternalEthernetPortCapabilities class

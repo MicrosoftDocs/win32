@@ -7,6 +7,18 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- GUID_AUDIOBREAK
+- GUID_DSHOW_CTL
+- GUID_STREAMTRACE
+- GUID_VIDEOREND
+api_type: 
+- HeaderDef
+api_location: 
+- PerfStruct.h
 ---
 
 # Trace GUIDs

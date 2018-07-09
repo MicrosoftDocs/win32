@@ -7,6 +7,61 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_RdvComponent
+- Msvm_RdvComponent.RequestStateChange
+- Msvm_RdvComponent.SetPowerState
+- Msvm_RdvComponent.Reset
+- Msvm_RdvComponent.EnableDevice
+- Msvm_RdvComponent.OnlineDevice
+- Msvm_RdvComponent.QuiesceDevice
+- Msvm_RdvComponent.SaveProperties
+- Msvm_RdvComponent.RestoreProperties
+- Msvm_RdvComponent.InstanceID
+- Msvm_RdvComponent.Caption
+- Msvm_RdvComponent.Description
+- Msvm_RdvComponent.ElementName
+- Msvm_RdvComponent.InstallDate
+- Msvm_RdvComponent.Name
+- Msvm_RdvComponent.OperationalStatus
+- Msvm_RdvComponent.StatusDescriptions
+- Msvm_RdvComponent.Status
+- Msvm_RdvComponent.HealthState
+- Msvm_RdvComponent.CommunicationStatus
+- Msvm_RdvComponent.DetailedStatus
+- Msvm_RdvComponent.OperatingStatus
+- Msvm_RdvComponent.PrimaryStatus
+- Msvm_RdvComponent.EnabledState
+- Msvm_RdvComponent.OtherEnabledState
+- Msvm_RdvComponent.RequestedState
+- Msvm_RdvComponent.EnabledDefault
+- Msvm_RdvComponent.TimeOfLastStateChange
+- Msvm_RdvComponent.AvailableRequestedStates
+- Msvm_RdvComponent.TransitioningToState
+- Msvm_RdvComponent.SystemCreationClassName
+- Msvm_RdvComponent.SystemName
+- Msvm_RdvComponent.CreationClassName
+- Msvm_RdvComponent.DeviceID
+- Msvm_RdvComponent.PowerManagementSupported
+- Msvm_RdvComponent.PowerManagementCapabilities
+- Msvm_RdvComponent.Availability
+- Msvm_RdvComponent.StatusInfo
+- Msvm_RdvComponent.LastErrorCode
+- Msvm_RdvComponent.ErrorDescription
+- Msvm_RdvComponent.ErrorCleared
+- Msvm_RdvComponent.OtherIdentifyingInfo
+- Msvm_RdvComponent.PowerOnHours
+- Msvm_RdvComponent.TotalPowerOnHours
+- Msvm_RdvComponent.IdentifyingDescriptions
+- Msvm_RdvComponent.AdditionalAvailability
+- Msvm_RdvComponent.MaxQuiesceTime
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_RdvComponent class

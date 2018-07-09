@@ -7,6 +7,25 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_WiFiEndpoint
+- CIM_WiFiEndpoint.LANID
+- CIM_WiFiEndpoint.ProtocolIFType
+- CIM_WiFiEndpoint.EncryptionMethod
+- CIM_WiFiEndpoint.OtherEncryptionMethod
+- CIM_WiFiEndpoint.AuthenticationMethod
+- CIM_WiFiEndpoint.OtherAuthenticationMethod
+- CIM_WiFiEndpoint.IEEE8021xAuthenticationProtocol
+- CIM_WiFiEndpoint.AccessPointAddress
+- CIM_WiFiEndpoint.BSSType
+- CIM_WiFiEndpoint.Associated
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_WiFiEndpoint class

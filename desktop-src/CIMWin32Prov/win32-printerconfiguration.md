@@ -13,6 +13,48 @@ title: Win32\_PrinterConfiguration class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PrinterConfiguration
+- Win32_PrinterConfiguration.Caption
+- Win32_PrinterConfiguration.Description
+- Win32_PrinterConfiguration.SettingID
+- Win32_PrinterConfiguration.BitsPerPel
+- Win32_PrinterConfiguration.Collate
+- Win32_PrinterConfiguration.Color
+- Win32_PrinterConfiguration.Copies
+- Win32_PrinterConfiguration.DeviceName
+- Win32_PrinterConfiguration.DisplayFlags
+- Win32_PrinterConfiguration.DisplayFrequency
+- Win32_PrinterConfiguration.DitherType
+- Win32_PrinterConfiguration.DriverVersion
+- Win32_PrinterConfiguration.Duplex
+- Win32_PrinterConfiguration.FormName
+- Win32_PrinterConfiguration.HorizontalResolution
+- Win32_PrinterConfiguration.ICMIntent
+- Win32_PrinterConfiguration.ICMMethod
+- Win32_PrinterConfiguration.LogPixels
+- Win32_PrinterConfiguration.MediaType
+- Win32_PrinterConfiguration.Name
+- Win32_PrinterConfiguration.Orientation
+- Win32_PrinterConfiguration.PaperLength
+- Win32_PrinterConfiguration.PaperSize
+- Win32_PrinterConfiguration.PaperWidth
+- Win32_PrinterConfiguration.PelsHeight
+- Win32_PrinterConfiguration.PelsWidth
+- Win32_PrinterConfiguration.PrintQuality
+- Win32_PrinterConfiguration.Scale
+- Win32_PrinterConfiguration.SpecificationVersion
+- Win32_PrinterConfiguration.TTOption
+- Win32_PrinterConfiguration.VerticalResolution
+- Win32_PrinterConfiguration.XResolution
+- Win32_PrinterConfiguration.YResolution
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PrinterConfiguration class

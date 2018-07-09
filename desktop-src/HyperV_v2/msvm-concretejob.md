@@ -7,6 +7,57 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ConcreteJob
+- Msvm_ConcreteJob.KillJob
+- Msvm_ConcreteJob.InstanceID
+- Msvm_ConcreteJob.Caption
+- Msvm_ConcreteJob.Description
+- Msvm_ConcreteJob.ElementName
+- Msvm_ConcreteJob.InstallDate
+- Msvm_ConcreteJob.Name
+- Msvm_ConcreteJob.OperationalStatus
+- Msvm_ConcreteJob.StatusDescriptions
+- Msvm_ConcreteJob.Status
+- Msvm_ConcreteJob.HealthState
+- Msvm_ConcreteJob.CommunicationStatus
+- Msvm_ConcreteJob.DetailedStatus
+- Msvm_ConcreteJob.OperatingStatus
+- Msvm_ConcreteJob.PrimaryStatus
+- Msvm_ConcreteJob.JobStatus
+- Msvm_ConcreteJob.TimeSubmitted
+- Msvm_ConcreteJob.ScheduledStartTime
+- Msvm_ConcreteJob.StartTime
+- Msvm_ConcreteJob.ElapsedTime
+- Msvm_ConcreteJob.JobRunTimes
+- Msvm_ConcreteJob.RunMonth
+- Msvm_ConcreteJob.RunDay
+- Msvm_ConcreteJob.RunDayOfWeek
+- Msvm_ConcreteJob.RunStartInterval
+- Msvm_ConcreteJob.LocalOrUtcTime
+- Msvm_ConcreteJob.UntilTime
+- Msvm_ConcreteJob.Notify
+- Msvm_ConcreteJob.Owner
+- Msvm_ConcreteJob.Priority
+- Msvm_ConcreteJob.PercentComplete
+- Msvm_ConcreteJob.DeleteOnCompletion
+- Msvm_ConcreteJob.ErrorCode
+- Msvm_ConcreteJob.ErrorDescription
+- Msvm_ConcreteJob.ErrorSummaryDescription
+- Msvm_ConcreteJob.RecoveryAction
+- Msvm_ConcreteJob.OtherRecoveryAction
+- Msvm_ConcreteJob.JobState
+- Msvm_ConcreteJob.TimeOfLastStateChange
+- Msvm_ConcreteJob.TimeBeforeRemoval
+- Msvm_ConcreteJob.Cancellable
+- Msvm_ConcreteJob.JobType
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ConcreteJob class

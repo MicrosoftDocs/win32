@@ -13,6 +13,55 @@ title: Win32\_DiskPartition class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_DiskPartition
+- Win32_DiskPartition.AdditionalAvailability
+- Win32_DiskPartition.Availability
+- Win32_DiskPartition.PowerManagementCapabilities
+- Win32_DiskPartition.IdentifyingDescriptions
+- Win32_DiskPartition.MaxQuiesceTime
+- Win32_DiskPartition.OtherIdentifyingInfo
+- Win32_DiskPartition.StatusInfo
+- Win32_DiskPartition.PowerOnHours
+- Win32_DiskPartition.TotalPowerOnHours
+- Win32_DiskPartition.Access
+- Win32_DiskPartition.BlockSize
+- Win32_DiskPartition.Bootable
+- Win32_DiskPartition.BootPartition
+- Win32_DiskPartition.Caption
+- Win32_DiskPartition.ConfigManagerErrorCode
+- Win32_DiskPartition.ConfigManagerUserConfig
+- Win32_DiskPartition.CreationClassName
+- Win32_DiskPartition.Description
+- Win32_DiskPartition.DeviceID
+- Win32_DiskPartition.DiskIndex
+- Win32_DiskPartition.ErrorCleared
+- Win32_DiskPartition.ErrorDescription
+- Win32_DiskPartition.ErrorMethodology
+- Win32_DiskPartition.HiddenSectors
+- Win32_DiskPartition.Index
+- Win32_DiskPartition.InstallDate
+- Win32_DiskPartition.LastErrorCode
+- Win32_DiskPartition.Name
+- Win32_DiskPartition.NumberOfBlocks
+- Win32_DiskPartition.PNPDeviceID
+- Win32_DiskPartition.PowerManagementSupported
+- Win32_DiskPartition.PrimaryPartition
+- Win32_DiskPartition.Purpose
+- Win32_DiskPartition.RewritePartition
+- Win32_DiskPartition.Size
+- Win32_DiskPartition.StartingOffset
+- Win32_DiskPartition.Status
+- Win32_DiskPartition.SystemCreationClassName
+- Win32_DiskPartition.SystemName
+- Win32_DiskPartition.Type
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_DiskPartition class

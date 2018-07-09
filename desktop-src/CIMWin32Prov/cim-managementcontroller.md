@@ -13,6 +13,37 @@ title: CIM\_ManagementController class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ManagementController
+- CIM_ManagementController.Availability
+- CIM_ManagementController.Caption
+- CIM_ManagementController.ConfigManagerErrorCode
+- CIM_ManagementController.ConfigManagerUserConfig
+- CIM_ManagementController.CreationClassName
+- CIM_ManagementController.Description
+- CIM_ManagementController.DeviceID
+- CIM_ManagementController.ErrorCleared
+- CIM_ManagementController.ErrorDescription
+- CIM_ManagementController.InstallDate
+- CIM_ManagementController.LastErrorCode
+- CIM_ManagementController.MaxNumberControlled
+- CIM_ManagementController.Name
+- CIM_ManagementController.PNPDeviceID
+- CIM_ManagementController.PowerManagementCapabilities
+- CIM_ManagementController.PowerManagementSupported
+- CIM_ManagementController.ProtocolSupported
+- CIM_ManagementController.Status
+- CIM_ManagementController.StatusInfo
+- CIM_ManagementController.SystemCreationClassName
+- CIM_ManagementController.SystemName
+- CIM_ManagementController.TimeOfLastReset
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_ManagementController class

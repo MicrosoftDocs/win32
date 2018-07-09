@@ -13,6 +13,40 @@ title: Win32\_IDEController class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_IDEController
+- Win32_IDEController.Reset
+- Win32_IDEController.SetPowerState
+- Win32_IDEController.Availability
+- Win32_IDEController.Caption
+- Win32_IDEController.ConfigManagerErrorCode
+- Win32_IDEController.ConfigManagerUserConfig
+- Win32_IDEController.CreationClassName
+- Win32_IDEController.Description
+- Win32_IDEController.DeviceID
+- Win32_IDEController.ErrorCleared
+- Win32_IDEController.ErrorDescription
+- Win32_IDEController.InstallDate
+- Win32_IDEController.LastErrorCode
+- Win32_IDEController.Manufacturer
+- Win32_IDEController.MaxNumberControlled
+- Win32_IDEController.Name
+- Win32_IDEController.PNPDeviceID
+- Win32_IDEController.PowerManagementCapabilities
+- Win32_IDEController.PowerManagementSupported
+- Win32_IDEController.ProtocolSupported
+- Win32_IDEController.Status
+- Win32_IDEController.StatusInfo
+- Win32_IDEController.SystemCreationClassName
+- Win32_IDEController.SystemName
+- Win32_IDEController.TimeOfLastReset
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_IDEController class

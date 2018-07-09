@@ -13,6 +13,26 @@ title: CIM\_RemoveDirectoryAction class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_RemoveDirectoryAction
+- CIM_RemoveDirectoryAction.ActionID
+- CIM_RemoveDirectoryAction.Caption
+- CIM_RemoveDirectoryAction.Description
+- CIM_RemoveDirectoryAction.Direction
+- CIM_RemoveDirectoryAction.Name
+- CIM_RemoveDirectoryAction.SoftwareElementID
+- CIM_RemoveDirectoryAction.SoftwareElementState
+- CIM_RemoveDirectoryAction.TargetOperatingSystem
+- CIM_RemoveDirectoryAction.Version
+- CIM_RemoveDirectoryAction.DirectoryName
+- CIM_RemoveDirectoryAction.MustBeEmpty
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_RemoveDirectoryAction class

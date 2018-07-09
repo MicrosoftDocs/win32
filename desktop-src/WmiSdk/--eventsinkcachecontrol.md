@@ -11,6 +11,16 @@ title: \_\_EventSinkCacheControl class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- __EventSinkCacheControl
+- Root.__EventSinkCacheControl.ClearAfter
+api_type: 
+- Schema
+api_location: 
+- Root
 ---
 
 # \_\_EventSinkCacheControl class

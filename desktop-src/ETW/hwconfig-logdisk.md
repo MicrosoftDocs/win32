@@ -7,6 +7,18 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- HWConfig_LogDisk
+- HWConfig_LogDisk.DiskNumber
+- HWConfig_LogDisk.Pad
+- HWConfig_LogDisk.StartOffset
+- HWConfig_LogDisk.PartitionSize
+api_type: 
+- NA
+api_location: 
 ---
 
 # HWConfig\_LogDisk class

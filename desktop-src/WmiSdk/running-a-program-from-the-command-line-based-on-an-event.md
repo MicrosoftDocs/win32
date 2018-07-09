@@ -11,6 +11,11 @@ title: Running a Program from the Command Line Based on an Event
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- kbArticle
+api_name: 
+api_type: 
+api_location: 
 ---
 
 # Running a Program from the Command Line Based on an Event

@@ -13,6 +13,34 @@ title: Win32\_DMAChannel class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_DMAChannel
+- Win32_DMAChannel.AddressSize
+- Win32_DMAChannel.Availability
+- Win32_DMAChannel.BurstMode
+- Win32_DMAChannel.ByteMode
+- Win32_DMAChannel.Caption
+- Win32_DMAChannel.ChannelTiming
+- Win32_DMAChannel.CreationClassName
+- Win32_DMAChannel.CSCreationClassName
+- Win32_DMAChannel.CSName
+- Win32_DMAChannel.Description
+- Win32_DMAChannel.DMAChannel
+- Win32_DMAChannel.InstallDate
+- Win32_DMAChannel.MaxTransferSize
+- Win32_DMAChannel.Name
+- Win32_DMAChannel.Port
+- Win32_DMAChannel.Status
+- Win32_DMAChannel.TransferWidths
+- Win32_DMAChannel.TypeCTiming
+- Win32_DMAChannel.WordMode
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_DMAChannel class

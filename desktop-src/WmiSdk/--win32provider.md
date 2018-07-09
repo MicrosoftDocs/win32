@@ -11,6 +11,11 @@ title: '\_\_Win32Provider class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- kbSyntax
+api_name: 
+api_type: 
+api_location: 
 ---
 
 # \_\_Win32Provider class

@@ -7,6 +7,22 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- WIA_CMD_SYNCHRONIZE
+- WIA_CMD_TAKE_PICTURE
+- WIA_CMD_DELETE_ALL_ITEMS
+- WIA_CMD_CHANGE_DOCUMENT
+- WIA_CMD_UNLOAD_DOCUMENT
+- WIA_CMD_START_FEEDER
+- WIA_CMD_STOP_FEEDER
+- WIA_CMD_PAUSE_FEEDER
+api_type: 
+- HeaderDef
+api_location: 
+- wiadef.h
 ---
 
 # WIA Device Commands

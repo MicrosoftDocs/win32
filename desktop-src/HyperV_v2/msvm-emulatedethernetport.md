@@ -7,6 +7,80 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_EmulatedEthernetPort
+- Msvm_EmulatedEthernetPort.SetPowerState
+- Msvm_EmulatedEthernetPort.EnableDevice
+- Msvm_EmulatedEthernetPort.OnlineDevice
+- Msvm_EmulatedEthernetPort.QuiesceDevice
+- Msvm_EmulatedEthernetPort.SaveProperties
+- Msvm_EmulatedEthernetPort.RestoreProperties
+- Msvm_EmulatedEthernetPort.InstanceID
+- Msvm_EmulatedEthernetPort.Caption
+- Msvm_EmulatedEthernetPort.Description
+- Msvm_EmulatedEthernetPort.ElementName
+- Msvm_EmulatedEthernetPort.InstallDate
+- Msvm_EmulatedEthernetPort.Name
+- Msvm_EmulatedEthernetPort.OperationalStatus
+- Msvm_EmulatedEthernetPort.StatusDescriptions
+- Msvm_EmulatedEthernetPort.Status
+- Msvm_EmulatedEthernetPort.HealthState
+- Msvm_EmulatedEthernetPort.CommunicationStatus
+- Msvm_EmulatedEthernetPort.DetailedStatus
+- Msvm_EmulatedEthernetPort.OperatingStatus
+- Msvm_EmulatedEthernetPort.PrimaryStatus
+- Msvm_EmulatedEthernetPort.EnabledState
+- Msvm_EmulatedEthernetPort.OtherEnabledState
+- Msvm_EmulatedEthernetPort.RequestedState
+- Msvm_EmulatedEthernetPort.EnabledDefault
+- Msvm_EmulatedEthernetPort.TimeOfLastStateChange
+- Msvm_EmulatedEthernetPort.AvailableRequestedStates
+- Msvm_EmulatedEthernetPort.TransitioningToState
+- Msvm_EmulatedEthernetPort.SystemCreationClassName
+- Msvm_EmulatedEthernetPort.SystemName
+- Msvm_EmulatedEthernetPort.CreationClassName
+- Msvm_EmulatedEthernetPort.DeviceID
+- Msvm_EmulatedEthernetPort.PowerManagementSupported
+- Msvm_EmulatedEthernetPort.PowerManagementCapabilities
+- Msvm_EmulatedEthernetPort.Availability
+- Msvm_EmulatedEthernetPort.StatusInfo
+- Msvm_EmulatedEthernetPort.LastErrorCode
+- Msvm_EmulatedEthernetPort.ErrorDescription
+- Msvm_EmulatedEthernetPort.ErrorCleared
+- Msvm_EmulatedEthernetPort.OtherIdentifyingInfo
+- Msvm_EmulatedEthernetPort.PowerOnHours
+- Msvm_EmulatedEthernetPort.TotalPowerOnHours
+- Msvm_EmulatedEthernetPort.IdentifyingDescriptions
+- Msvm_EmulatedEthernetPort.AdditionalAvailability
+- Msvm_EmulatedEthernetPort.MaxQuiesceTime
+- Msvm_EmulatedEthernetPort.Speed
+- Msvm_EmulatedEthernetPort.MaxSpeed
+- Msvm_EmulatedEthernetPort.RequestedSpeed
+- Msvm_EmulatedEthernetPort.UsageRestriction
+- Msvm_EmulatedEthernetPort.PortType
+- Msvm_EmulatedEthernetPort.OtherPortType
+- Msvm_EmulatedEthernetPort.OtherNetworkPortType
+- Msvm_EmulatedEthernetPort.PortNumber
+- Msvm_EmulatedEthernetPort.LinkTechnology
+- Msvm_EmulatedEthernetPort.OtherLinkTechnology
+- Msvm_EmulatedEthernetPort.PermanentAddress
+- Msvm_EmulatedEthernetPort.NetworkAddresses
+- Msvm_EmulatedEthernetPort.FullDuplex
+- Msvm_EmulatedEthernetPort.AutoSense
+- Msvm_EmulatedEthernetPort.SupportedMaximumTransmissionUnit
+- Msvm_EmulatedEthernetPort.ActiveMaximumTransmissionUnit
+- Msvm_EmulatedEthernetPort.MaxDataSize
+- Msvm_EmulatedEthernetPort.Capabilities
+- Msvm_EmulatedEthernetPort.CapabilityDescriptions
+- Msvm_EmulatedEthernetPort.EnabledCapabilities
+- Msvm_EmulatedEthernetPort.OtherEnabledCapabilities
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_EmulatedEthernetPort class

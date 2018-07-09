@@ -13,6 +13,17 @@ title: CIM\_ToDirectorySpecification class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ToDirectorySpecification
+- CIM_ToDirectorySpecification.DestinationDirectory
+- CIM_ToDirectorySpecification.FileName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_ToDirectorySpecification class

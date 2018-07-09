@@ -13,6 +13,40 @@ title: Win32\_USBController class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_USBController
+- Win32_USBController.Reset
+- Win32_USBController.SetPowerState
+- Win32_USBController.Availability
+- Win32_USBController.Caption
+- Win32_USBController.ConfigManagerErrorCode
+- Win32_USBController.ConfigManagerUserConfig
+- Win32_USBController.CreationClassName
+- Win32_USBController.Description
+- Win32_USBController.DeviceID
+- Win32_USBController.ErrorCleared
+- Win32_USBController.ErrorDescription
+- Win32_USBController.InstallDate
+- Win32_USBController.LastErrorCode
+- Win32_USBController.Manufacturer
+- Win32_USBController.MaxNumberControlled
+- Win32_USBController.Name
+- Win32_USBController.PNPDeviceID
+- Win32_USBController.PowerManagementCapabilities
+- Win32_USBController.PowerManagementSupported
+- Win32_USBController.ProtocolSupported
+- Win32_USBController.Status
+- Win32_USBController.StatusInfo
+- Win32_USBController.SystemCreationClassName
+- Win32_USBController.SystemName
+- Win32_USBController.TimeOfLastReset
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_USBController class

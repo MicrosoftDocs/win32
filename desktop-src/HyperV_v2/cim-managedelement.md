@@ -7,6 +7,19 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ManagedElement
+- CIM_ManagedElement.InstanceID
+- CIM_ManagedElement.Caption
+- CIM_ManagedElement.Description
+- CIM_ManagedElement.ElementName
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_ManagedElement class

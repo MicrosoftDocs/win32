@@ -7,6 +7,63 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_DisketteController
+- Msvm_DisketteController.SetPowerState
+- Msvm_DisketteController.EnableDevice
+- Msvm_DisketteController.OnlineDevice
+- Msvm_DisketteController.QuiesceDevice
+- Msvm_DisketteController.SaveProperties
+- Msvm_DisketteController.RestoreProperties
+- Msvm_DisketteController.InstanceID
+- Msvm_DisketteController.Caption
+- Msvm_DisketteController.Description
+- Msvm_DisketteController.ElementName
+- Msvm_DisketteController.InstallDate
+- Msvm_DisketteController.Name
+- Msvm_DisketteController.OperationalStatus
+- Msvm_DisketteController.StatusDescriptions
+- Msvm_DisketteController.Status
+- Msvm_DisketteController.HealthState
+- Msvm_DisketteController.CommunicationStatus
+- Msvm_DisketteController.DetailedStatus
+- Msvm_DisketteController.OperatingStatus
+- Msvm_DisketteController.PrimaryStatus
+- Msvm_DisketteController.EnabledState
+- Msvm_DisketteController.OtherEnabledState
+- Msvm_DisketteController.RequestedState
+- Msvm_DisketteController.EnabledDefault
+- Msvm_DisketteController.TimeOfLastStateChange
+- Msvm_DisketteController.AvailableRequestedStates
+- Msvm_DisketteController.TransitioningToState
+- Msvm_DisketteController.SystemCreationClassName
+- Msvm_DisketteController.SystemName
+- Msvm_DisketteController.CreationClassName
+- Msvm_DisketteController.DeviceID
+- Msvm_DisketteController.PowerManagementSupported
+- Msvm_DisketteController.PowerManagementCapabilities
+- Msvm_DisketteController.Availability
+- Msvm_DisketteController.StatusInfo
+- Msvm_DisketteController.LastErrorCode
+- Msvm_DisketteController.ErrorDescription
+- Msvm_DisketteController.ErrorCleared
+- Msvm_DisketteController.OtherIdentifyingInfo
+- Msvm_DisketteController.PowerOnHours
+- Msvm_DisketteController.TotalPowerOnHours
+- Msvm_DisketteController.IdentifyingDescriptions
+- Msvm_DisketteController.AdditionalAvailability
+- Msvm_DisketteController.MaxQuiesceTime
+- Msvm_DisketteController.TimeOfLastReset
+- Msvm_DisketteController.ProtocolSupported
+- Msvm_DisketteController.MaxNumberControlled
+- Msvm_DisketteController.ProtocolDescription
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_DisketteController class

@@ -7,6 +7,24 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_GuestClusterInformation
+- Msvm_GuestClusterInformation.ClusterId
+- Msvm_GuestClusterInformation.ClusterSize
+- Msvm_GuestClusterInformation.SharedVirtualHardDisks
+- Msvm_GuestClusterInformation.SharedVirtualHardDiskPaths
+- Msvm_GuestClusterInformation.IsClustered
+- Msvm_GuestClusterInformation.IsOnline
+- Msvm_GuestClusterInformation.IsOwned
+- Msvm_GuestClusterInformation.IsActiveActive
+- Msvm_GuestClusterInformation.LastResourceMoveTime
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_GuestClusterInformation class

@@ -7,6 +7,23 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_CopyFileToGuestSettingData
+- Msvm_CopyFileToGuestSettingData.Description
+- Msvm_CopyFileToGuestSettingData.Caption
+- Msvm_CopyFileToGuestSettingData.InstanceID
+- Msvm_CopyFileToGuestSettingData.ElementName
+- Msvm_CopyFileToGuestSettingData.OverwriteExisting
+- Msvm_CopyFileToGuestSettingData.CreateFullPath
+- Msvm_CopyFileToGuestSettingData.SourcePath
+- Msvm_CopyFileToGuestSettingData.DestinationPath
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_CopyFileToGuestSettingData class

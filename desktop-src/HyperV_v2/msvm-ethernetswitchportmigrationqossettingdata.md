@@ -7,6 +7,25 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_EthernetSwitchPortMigrationQosSettingData
+- Msvm_EthernetSwitchPortMigrationQosSettingData.QueueId
+- Msvm_EthernetSwitchPortMigrationQosSettingData.Switch_ReservationMode
+- Msvm_EthernetSwitchPortMigrationQosSettingData.Switch_LinkSpeedPercentage
+- Msvm_EthernetSwitchPortMigrationQosSettingData.Switch_DefaultReservation
+- Msvm_EthernetSwitchPortMigrationQosSettingData.Switch_EnableHardwareLimits
+- Msvm_EthernetSwitchPortMigrationQosSettingData.Switch_EnableHardwareReservations
+- Msvm_EthernetSwitchPortMigrationQosSettingData.Switch_EnableSoftwareReservations
+- Msvm_EthernetSwitchPortMigrationQosSettingData.OutboundReservedValue
+- Msvm_EthernetSwitchPortMigrationQosSettingData.OutboundMaximumMbps
+- Msvm_EthernetSwitchPortMigrationQosSettingData.InboundMaximumMbps
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_EthernetSwitchPortMigrationQosSettingData class

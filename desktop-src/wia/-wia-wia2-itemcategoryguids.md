@@ -7,6 +7,23 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- WIA_CATEGORY_AUTO
+- WIA_CATEGORY_FEEDER
+- WIA_CATEGORY_FEEDER_BACK
+- WIA_CATEGORY_FEEDER_FRONT
+- WIA_CATEGORY_FILM
+- WIA_CATEGORY_FINISHED_FILE
+- WIA_CATEGORY_FLATBED
+- WIA_CATEGORY_FOLDER
+- WIA_CATEGORY_ROOT
+api_type: 
+- HeaderDef
+api_location: 
+- wiadef.h
 ---
 
 # WIA 2.0 Item Category GUIDs

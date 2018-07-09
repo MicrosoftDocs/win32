@@ -13,6 +13,37 @@ title: CIM\_DiscreteSensor class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_DiscreteSensor
+- CIM_DiscreteSensor.AcceptableValues
+- CIM_DiscreteSensor.Availability
+- CIM_DiscreteSensor.Caption
+- CIM_DiscreteSensor.ConfigManagerErrorCode
+- CIM_DiscreteSensor.ConfigManagerUserConfig
+- CIM_DiscreteSensor.CreationClassName
+- CIM_DiscreteSensor.CurrentReading
+- CIM_DiscreteSensor.Description
+- CIM_DiscreteSensor.DeviceID
+- CIM_DiscreteSensor.ErrorCleared
+- CIM_DiscreteSensor.ErrorDescription
+- CIM_DiscreteSensor.InstallDate
+- CIM_DiscreteSensor.LastErrorCode
+- CIM_DiscreteSensor.Name
+- CIM_DiscreteSensor.PNPDeviceID
+- CIM_DiscreteSensor.PossibleValues
+- CIM_DiscreteSensor.PowerManagementCapabilities
+- CIM_DiscreteSensor.PowerManagementSupported
+- CIM_DiscreteSensor.Status
+- CIM_DiscreteSensor.StatusInfo
+- CIM_DiscreteSensor.SystemCreationClassName
+- CIM_DiscreteSensor.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_DiscreteSensor class

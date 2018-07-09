@@ -7,6 +7,62 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_MigrationJob
+- Msvm_MigrationJob.KillJob
+- Msvm_MigrationJob.InstanceID
+- Msvm_MigrationJob.Caption
+- Msvm_MigrationJob.Description
+- Msvm_MigrationJob.ElementName
+- Msvm_MigrationJob.InstallDate
+- Msvm_MigrationJob.Name
+- Msvm_MigrationJob.OperationalStatus
+- Msvm_MigrationJob.StatusDescriptions
+- Msvm_MigrationJob.Status
+- Msvm_MigrationJob.HealthState
+- Msvm_MigrationJob.CommunicationStatus
+- Msvm_MigrationJob.DetailedStatus
+- Msvm_MigrationJob.OperatingStatus
+- Msvm_MigrationJob.PrimaryStatus
+- Msvm_MigrationJob.JobStatus
+- Msvm_MigrationJob.TimeSubmitted
+- Msvm_MigrationJob.ScheduledStartTime
+- Msvm_MigrationJob.StartTime
+- Msvm_MigrationJob.ElapsedTime
+- Msvm_MigrationJob.JobRunTimes
+- Msvm_MigrationJob.RunMonth
+- Msvm_MigrationJob.RunDay
+- Msvm_MigrationJob.RunDayOfWeek
+- Msvm_MigrationJob.RunStartInterval
+- Msvm_MigrationJob.LocalOrUtcTime
+- Msvm_MigrationJob.UntilTime
+- Msvm_MigrationJob.Notify
+- Msvm_MigrationJob.Owner
+- Msvm_MigrationJob.Priority
+- Msvm_MigrationJob.PercentComplete
+- Msvm_MigrationJob.DeleteOnCompletion
+- Msvm_MigrationJob.ErrorCode
+- Msvm_MigrationJob.ErrorDescription
+- Msvm_MigrationJob.RecoveryAction
+- Msvm_MigrationJob.OtherRecoveryAction
+- Msvm_MigrationJob.JobState
+- Msvm_MigrationJob.TimeOfLastStateChange
+- Msvm_MigrationJob.TimeBeforeRemoval
+- Msvm_MigrationJob.Cancellable
+- Msvm_MigrationJob.ErrorSummaryDescription
+- Msvm_MigrationJob.MigrationType
+- Msvm_MigrationJob.VirtualSystemName
+- Msvm_MigrationJob.DestinationHost
+- Msvm_MigrationJob.NewSystemSettingData
+- Msvm_MigrationJob.NewResourceSettingData
+- Msvm_MigrationJob.JobType
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_MigrationJob class

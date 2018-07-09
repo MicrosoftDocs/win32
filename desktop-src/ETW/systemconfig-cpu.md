@@ -7,6 +7,22 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SystemConfig_CPU
+- SystemConfig_CPU.MHz
+- SystemConfig_CPU.NumberOfProcessors
+- SystemConfig_CPU.MemSize
+- SystemConfig_CPU.PageSize
+- SystemConfig_CPU.AllocationGranularity
+- SystemConfig_CPU.ComputerName
+- SystemConfig_CPU.DomainName
+- SystemConfig_CPU.HyperThreadingFlag
+api_type: 
+- NA
+api_location: 
 ---
 
 # SystemConfig\_CPU class

@@ -13,6 +13,39 @@ title: CIM\_AggregatePExtent class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_AggregatePExtent
+- CIM_AggregatePExtent.Caption
+- CIM_AggregatePExtent.Description
+- CIM_AggregatePExtent.InstallDate
+- CIM_AggregatePExtent.Name
+- CIM_AggregatePExtent.Status
+- CIM_AggregatePExtent.Availability
+- CIM_AggregatePExtent.ConfigManagerErrorCode
+- CIM_AggregatePExtent.ConfigManagerUserConfig
+- CIM_AggregatePExtent.CreationClassName
+- CIM_AggregatePExtent.DeviceID
+- CIM_AggregatePExtent.PowerManagementCapabilities
+- CIM_AggregatePExtent.ErrorCleared
+- CIM_AggregatePExtent.ErrorDescription
+- CIM_AggregatePExtent.LastErrorCode
+- CIM_AggregatePExtent.PNPDeviceID
+- CIM_AggregatePExtent.PowerManagementSupported
+- CIM_AggregatePExtent.StatusInfo
+- CIM_AggregatePExtent.SystemCreationClassName
+- CIM_AggregatePExtent.SystemName
+- CIM_AggregatePExtent.Access
+- CIM_AggregatePExtent.BlockSize
+- CIM_AggregatePExtent.ErrorMethodology
+- CIM_AggregatePExtent.Purpose
+- CIM_AggregatePExtent.NumberOfBlocks
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_AggregatePExtent class

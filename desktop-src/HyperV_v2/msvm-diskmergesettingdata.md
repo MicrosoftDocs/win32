@@ -7,6 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_DiskMergeSettingData
+- Msvm_DiskMergeSettingData.InstanceID
+- Msvm_DiskMergeSettingData.Caption
+- Msvm_DiskMergeSettingData.Description
+- Msvm_DiskMergeSettingData.ElementName
+- Msvm_DiskMergeSettingData.EnabledState
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_DiskMergeSettingData class

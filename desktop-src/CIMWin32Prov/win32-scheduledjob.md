@@ -13,6 +13,34 @@ title: Win32\_ScheduledJob class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_ScheduledJob
+- Win32_ScheduledJob.Caption
+- Win32_ScheduledJob.Description
+- Win32_ScheduledJob.InstallDate
+- Win32_ScheduledJob.Name
+- Win32_ScheduledJob.Status
+- Win32_ScheduledJob.ElapsedTime
+- Win32_ScheduledJob.Notify
+- Win32_ScheduledJob.Owner
+- Win32_ScheduledJob.Priority
+- Win32_ScheduledJob.TimeSubmitted
+- Win32_ScheduledJob.UntilTime
+- Win32_ScheduledJob.Command
+- Win32_ScheduledJob.DaysOfMonth
+- Win32_ScheduledJob.DaysOfWeek
+- Win32_ScheduledJob.InteractWithDesktop
+- Win32_ScheduledJob.JobId
+- Win32_ScheduledJob.JobStatus
+- Win32_ScheduledJob.RunRepeatedly
+- Win32_ScheduledJob.StartTime
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_ScheduledJob class

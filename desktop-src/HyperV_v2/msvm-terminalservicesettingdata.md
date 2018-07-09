@@ -7,6 +7,24 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_TerminalServiceSettingData
+- Msvm_TerminalServiceSettingData.InstanceID
+- Msvm_TerminalServiceSettingData.Caption
+- Msvm_TerminalServiceSettingData.Description
+- Msvm_TerminalServiceSettingData.ElementName
+- Msvm_TerminalServiceSettingData.ListenerPort
+- Msvm_TerminalServiceSettingData.DisableSelfSignedCertificateGeneration
+- Msvm_TerminalServiceSettingData.AuthCertificateHash
+- Msvm_TerminalServiceSettingData.TrustedIssuerCertificateHashes
+- Msvm_TerminalServiceSettingData.AllowedHashAlgorithms
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_TerminalServiceSettingData class

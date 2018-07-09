@@ -7,6 +7,26 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualSystemReferencePointExportJob
+- Msvm_VirtualSystemReferencePointExportJob.Cancellable
+- Msvm_VirtualSystemReferencePointExportJob.ErrorSummaryDescription
+- Msvm_VirtualSystemReferencePointExportJob.ExportDirectory
+- Msvm_VirtualSystemReferencePointExportJob.VirtualMachineId
+- Msvm_VirtualSystemReferencePointExportJob.ReferencePointId
+- Msvm_VirtualSystemReferencePointExportJob.BaseReferencePointId
+- Msvm_VirtualSystemReferencePointExportJob.ExportedDisks
+- Msvm_VirtualSystemReferencePointExportJob.ExportedLogFilePaths
+- Msvm_VirtualSystemReferencePointExportJob.ExportedConfigFilePath
+- Msvm_VirtualSystemReferencePointExportJob.ExportedRuntimeFilePath
+- Msvm_VirtualSystemReferencePointExportJob.ExportedGuestStateFilePath
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualSystemReferencePointExportJob class

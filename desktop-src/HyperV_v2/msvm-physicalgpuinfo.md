@@ -7,6 +7,23 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_PhysicalGPUInfo
+- Msvm_PhysicalGPUInfo.InstanceID
+- Msvm_PhysicalGPUInfo.Caption
+- Msvm_PhysicalGPUInfo.Description
+- Msvm_PhysicalGPUInfo.ElementName
+- Msvm_PhysicalGPUInfo.Name
+- Msvm_PhysicalGPUInfo.ID
+- Msvm_PhysicalGPUInfo.TotalVideoMemory
+- Msvm_PhysicalGPUInfo.AvailableVideoMemory
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_PhysicalGPUInfo class

@@ -13,6 +13,22 @@ title: CIM\_RedundancyGroup class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_RedundancyGroup
+- CIM_RedundancyGroup.Caption
+- CIM_RedundancyGroup.Description
+- CIM_RedundancyGroup.InstallDate
+- CIM_RedundancyGroup.Name
+- CIM_RedundancyGroup.Status
+- CIM_RedundancyGroup.CreationClassName
+- CIM_RedundancyGroup.RedundancyStatus
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_RedundancyGroup class

@@ -7,6 +7,23 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualSystemCollection
+- Msvm_VirtualSystemCollection.CollectionID
+- Msvm_VirtualSystemCollection.ElementName
+- Msvm_VirtualSystemCollection.LastApplyConsistencyLevel
+- Msvm_VirtualSystemCollection.LastApplyVirtualMachineIds
+- Msvm_VirtualSystemCollection.LastApplyTime
+- Msvm_VirtualSystemCollection.FailedOverReplicationType
+- Msvm_VirtualSystemCollection.ReplicationMode
+- Msvm_VirtualSystemCollection.ReplicationState
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualSystemCollection class

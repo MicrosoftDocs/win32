@@ -13,6 +13,44 @@ title: Win32\_PhysicalMemoryArray class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PhysicalMemoryArray
+- Win32_PhysicalMemoryArray.IsCompatible
+- Win32_PhysicalMemoryArray.Caption
+- Win32_PhysicalMemoryArray.CreationClassName
+- Win32_PhysicalMemoryArray.Depth
+- Win32_PhysicalMemoryArray.Description
+- Win32_PhysicalMemoryArray.Height
+- Win32_PhysicalMemoryArray.HotSwappable
+- Win32_PhysicalMemoryArray.InstallDate
+- Win32_PhysicalMemoryArray.Location
+- Win32_PhysicalMemoryArray.Manufacturer
+- Win32_PhysicalMemoryArray.MaxCapacity
+- Win32_PhysicalMemoryArray.MaxCapacityEx
+- Win32_PhysicalMemoryArray.MemoryDevices
+- Win32_PhysicalMemoryArray.MemoryErrorCorrection
+- Win32_PhysicalMemoryArray.Model
+- Win32_PhysicalMemoryArray.Name
+- Win32_PhysicalMemoryArray.OtherIdentifyingInfo
+- Win32_PhysicalMemoryArray.PartNumber
+- Win32_PhysicalMemoryArray.PoweredOn
+- Win32_PhysicalMemoryArray.Removable
+- Win32_PhysicalMemoryArray.Replaceable
+- Win32_PhysicalMemoryArray.SerialNumber
+- Win32_PhysicalMemoryArray.SKU
+- Win32_PhysicalMemoryArray.Status
+- Win32_PhysicalMemoryArray.Tag
+- Win32_PhysicalMemoryArray.Use
+- Win32_PhysicalMemoryArray.Version
+- Win32_PhysicalMemoryArray.Weight
+- Win32_PhysicalMemoryArray.Width
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PhysicalMemoryArray class

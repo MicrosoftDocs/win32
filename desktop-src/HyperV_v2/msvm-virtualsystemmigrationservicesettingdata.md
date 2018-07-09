@@ -7,6 +7,25 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualSystemMigrationServiceSettingData
+- Msvm_VirtualSystemMigrationServiceSettingData.InstanceID
+- Msvm_VirtualSystemMigrationServiceSettingData.Caption
+- Msvm_VirtualSystemMigrationServiceSettingData.Description
+- Msvm_VirtualSystemMigrationServiceSettingData.ElementName
+- Msvm_VirtualSystemMigrationServiceSettingData.EnableVirtualSystemMigration
+- Msvm_VirtualSystemMigrationServiceSettingData.MaximumActiveVirtualSystemMigration
+- Msvm_VirtualSystemMigrationServiceSettingData.MaximumActiveStorageMigration
+- Msvm_VirtualSystemMigrationServiceSettingData.AuthenticationType
+- Msvm_VirtualSystemMigrationServiceSettingData.EnableCompression
+- Msvm_VirtualSystemMigrationServiceSettingData.EnableSmbTransport
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualSystemMigrationServiceSettingData class

@@ -13,6 +13,43 @@ title: Win32\_PrintJob class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PrintJob
+- Win32_PrintJob.Caption
+- Win32_PrintJob.Description
+- Win32_PrintJob.InstallDate
+- Win32_PrintJob.Name
+- Win32_PrintJob.Status
+- Win32_PrintJob.ElapsedTime
+- Win32_PrintJob.JobStatus
+- Win32_PrintJob.Notify
+- Win32_PrintJob.Owner
+- Win32_PrintJob.Priority
+- Win32_PrintJob.StartTime
+- Win32_PrintJob.TimeSubmitted
+- Win32_PrintJob.UntilTime
+- Win32_PrintJob.Color
+- Win32_PrintJob.DataType
+- Win32_PrintJob.Document
+- Win32_PrintJob.DriverName
+- Win32_PrintJob.HostPrintQueue
+- Win32_PrintJob.JobId
+- Win32_PrintJob.PagesPrinted
+- Win32_PrintJob.PaperLength
+- Win32_PrintJob.PaperSize
+- Win32_PrintJob.PaperWidth
+- Win32_PrintJob.Parameters
+- Win32_PrintJob.PrintProcessor
+- Win32_PrintJob.Size
+- Win32_PrintJob.StatusMask
+- Win32_PrintJob.TotalPages
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PrintJob class

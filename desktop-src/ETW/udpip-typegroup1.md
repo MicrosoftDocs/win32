@@ -7,6 +7,22 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- UdpIp_TypeGroup1
+- UdpIp_TypeGroup1.PID
+- UdpIp_TypeGroup1.size
+- UdpIp_TypeGroup1.daddr
+- UdpIp_TypeGroup1.saddr
+- UdpIp_TypeGroup1.dport
+- UdpIp_TypeGroup1.sport
+- UdpIp_TypeGroup1.seqnum
+- UdpIp_TypeGroup1.connid
+api_type: 
+- NA
+api_location: 
 ---
 
 # UdpIp\_TypeGroup1 class

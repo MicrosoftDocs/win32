@@ -13,6 +13,34 @@ title: CIM\_Sensor class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Sensor
+- CIM_Sensor.Availability
+- CIM_Sensor.Caption
+- CIM_Sensor.ConfigManagerErrorCode
+- CIM_Sensor.ConfigManagerUserConfig
+- CIM_Sensor.CreationClassName
+- CIM_Sensor.Description
+- CIM_Sensor.DeviceID
+- CIM_Sensor.ErrorCleared
+- CIM_Sensor.ErrorDescription
+- CIM_Sensor.InstallDate
+- CIM_Sensor.LastErrorCode
+- CIM_Sensor.Name
+- CIM_Sensor.PNPDeviceID
+- CIM_Sensor.PowerManagementCapabilities
+- CIM_Sensor.PowerManagementSupported
+- CIM_Sensor.Status
+- CIM_Sensor.StatusInfo
+- CIM_Sensor.SystemCreationClassName
+- CIM_Sensor.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Sensor class

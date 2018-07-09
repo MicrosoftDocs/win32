@@ -7,6 +7,29 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- TcpIp_TypeGroup2
+- TcpIp_TypeGroup2.PID
+- TcpIp_TypeGroup2.size
+- TcpIp_TypeGroup2.daddr
+- TcpIp_TypeGroup2.saddr
+- TcpIp_TypeGroup2.dport
+- TcpIp_TypeGroup2.sport
+- TcpIp_TypeGroup2.mss
+- TcpIp_TypeGroup2.sackopt
+- TcpIp_TypeGroup2.tsopt
+- TcpIp_TypeGroup2.wsopt
+- TcpIp_TypeGroup2.rcvwin
+- TcpIp_TypeGroup2.rcvwinscale
+- TcpIp_TypeGroup2.sndwinscale
+- TcpIp_TypeGroup2.seqnum
+- TcpIp_TypeGroup2.connid
+api_type: 
+- NA
+api_location: 
 ---
 
 # TcpIp\_TypeGroup2 class

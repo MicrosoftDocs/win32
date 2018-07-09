@@ -13,6 +13,20 @@ title: Win32\_PnPDevicePropertyReal32Array class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PnPDevicePropertyReal32Array
+- Win32_PnPDevicePropertyReal32Array.Key
+- Win32_PnPDevicePropertyReal32Array.KeyName
+- Win32_PnPDevicePropertyReal32Array.Type
+- Win32_PnPDevicePropertyReal32Array.DeviceID
+- Win32_PnPDevicePropertyReal32Array.Data
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PnPDevicePropertyReal32Array class

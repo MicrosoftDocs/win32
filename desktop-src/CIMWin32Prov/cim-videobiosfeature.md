@@ -13,6 +13,26 @@ title: CIM\_VideoBIOSFeature class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_VideoBIOSFeature
+- CIM_VideoBIOSFeature.Caption
+- CIM_VideoBIOSFeature.CharacteristicDescriptions
+- CIM_VideoBIOSFeature.Characteristics
+- CIM_VideoBIOSFeature.Description
+- CIM_VideoBIOSFeature.IdentifyingNumber
+- CIM_VideoBIOSFeature.InstallDate
+- CIM_VideoBIOSFeature.Name
+- CIM_VideoBIOSFeature.ProductName
+- CIM_VideoBIOSFeature.Status
+- CIM_VideoBIOSFeature.Vendor
+- CIM_VideoBIOSFeature.Version
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_VideoBIOSFeature class

@@ -7,6 +7,78 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_LogicalDisk
+- Msvm_LogicalDisk.SetPowerState
+- Msvm_LogicalDisk.EnableDevice
+- Msvm_LogicalDisk.OnlineDevice
+- Msvm_LogicalDisk.QuiesceDevice
+- Msvm_LogicalDisk.SaveProperties
+- Msvm_LogicalDisk.RestoreProperties
+- Msvm_LogicalDisk.InstanceID
+- Msvm_LogicalDisk.Caption
+- Msvm_LogicalDisk.Description
+- Msvm_LogicalDisk.ElementName
+- Msvm_LogicalDisk.InstallDate
+- Msvm_LogicalDisk.Name
+- Msvm_LogicalDisk.OperationalStatus
+- Msvm_LogicalDisk.StatusDescriptions
+- Msvm_LogicalDisk.Status
+- Msvm_LogicalDisk.HealthState
+- Msvm_LogicalDisk.CommunicationStatus
+- Msvm_LogicalDisk.DetailedStatus
+- Msvm_LogicalDisk.OperatingStatus
+- Msvm_LogicalDisk.PrimaryStatus
+- Msvm_LogicalDisk.EnabledState
+- Msvm_LogicalDisk.OtherEnabledState
+- Msvm_LogicalDisk.RequestedState
+- Msvm_LogicalDisk.EnabledDefault
+- Msvm_LogicalDisk.TimeOfLastStateChange
+- Msvm_LogicalDisk.AvailableRequestedStates
+- Msvm_LogicalDisk.TransitioningToState
+- Msvm_LogicalDisk.SystemCreationClassName
+- Msvm_LogicalDisk.SystemName
+- Msvm_LogicalDisk.CreationClassName
+- Msvm_LogicalDisk.DeviceID
+- Msvm_LogicalDisk.PowerManagementSupported
+- Msvm_LogicalDisk.PowerManagementCapabilities
+- Msvm_LogicalDisk.Availability
+- Msvm_LogicalDisk.StatusInfo
+- Msvm_LogicalDisk.LastErrorCode
+- Msvm_LogicalDisk.ErrorDescription
+- Msvm_LogicalDisk.ErrorCleared
+- Msvm_LogicalDisk.OtherIdentifyingInfo
+- Msvm_LogicalDisk.PowerOnHours
+- Msvm_LogicalDisk.TotalPowerOnHours
+- Msvm_LogicalDisk.IdentifyingDescriptions
+- Msvm_LogicalDisk.AdditionalAvailability
+- Msvm_LogicalDisk.MaxQuiesceTime
+- Msvm_LogicalDisk.DataOrganization
+- Msvm_LogicalDisk.Purpose
+- Msvm_LogicalDisk.Access
+- Msvm_LogicalDisk.ErrorMethodology
+- Msvm_LogicalDisk.BlockSize
+- Msvm_LogicalDisk.NumberOfBlocks
+- Msvm_LogicalDisk.ConsumableBlocks
+- Msvm_LogicalDisk.IsBasedOnUnderlyingRedundancy
+- Msvm_LogicalDisk.SequentialAccess
+- Msvm_LogicalDisk.ExtentStatus
+- Msvm_LogicalDisk.NoSinglePointOfFailure
+- Msvm_LogicalDisk.DataRedundancy
+- Msvm_LogicalDisk.PackageRedundancy
+- Msvm_LogicalDisk.DeltaReservation
+- Msvm_LogicalDisk.Primordial
+- Msvm_LogicalDisk.NameFormat
+- Msvm_LogicalDisk.NameNamespace
+- Msvm_LogicalDisk.OtherNameNamespace
+- Msvm_LogicalDisk.OtherNameFormat
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_LogicalDisk class

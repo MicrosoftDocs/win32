@@ -7,6 +7,30 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_BaseMetricDefinition
+- Msvm_BaseMetricDefinition.InstanceID
+- Msvm_BaseMetricDefinition.Caption
+- Msvm_BaseMetricDefinition.Description
+- Msvm_BaseMetricDefinition.ElementName
+- Msvm_BaseMetricDefinition.Id
+- Msvm_BaseMetricDefinition.Name
+- Msvm_BaseMetricDefinition.DataType
+- Msvm_BaseMetricDefinition.Calculable
+- Msvm_BaseMetricDefinition.Units
+- Msvm_BaseMetricDefinition.BreakdownDimensions
+- Msvm_BaseMetricDefinition.IsContinuous
+- Msvm_BaseMetricDefinition.ChangeType
+- Msvm_BaseMetricDefinition.TimeScope
+- Msvm_BaseMetricDefinition.GatheringType
+- Msvm_BaseMetricDefinition.ProgrammaticUnits
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_BaseMetricDefinition class

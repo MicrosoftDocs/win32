@@ -13,6 +13,61 @@ title: CIM\_CacheMemory class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_CacheMemory
+- CIM_CacheMemory.Caption
+- CIM_CacheMemory.Description
+- CIM_CacheMemory.InstallDate
+- CIM_CacheMemory.Name
+- CIM_CacheMemory.Status
+- CIM_CacheMemory.Availability
+- CIM_CacheMemory.ConfigManagerErrorCode
+- CIM_CacheMemory.ConfigManagerUserConfig
+- CIM_CacheMemory.CreationClassName
+- CIM_CacheMemory.DeviceID
+- CIM_CacheMemory.PowerManagementCapabilities
+- CIM_CacheMemory.ErrorCleared
+- CIM_CacheMemory.ErrorDescription
+- CIM_CacheMemory.LastErrorCode
+- CIM_CacheMemory.PNPDeviceID
+- CIM_CacheMemory.PowerManagementSupported
+- CIM_CacheMemory.StatusInfo
+- CIM_CacheMemory.SystemCreationClassName
+- CIM_CacheMemory.SystemName
+- CIM_CacheMemory.Access
+- CIM_CacheMemory.BlockSize
+- CIM_CacheMemory.NumberOfBlocks
+- CIM_CacheMemory.Purpose
+- CIM_CacheMemory.ErrorMethodology
+- CIM_CacheMemory.AdditionalErrorData
+- CIM_CacheMemory.CorrectableError
+- CIM_CacheMemory.EndingAddress
+- CIM_CacheMemory.ErrorAccess
+- CIM_CacheMemory.ErrorAddress
+- CIM_CacheMemory.ErrorData
+- CIM_CacheMemory.ErrorDataOrder
+- CIM_CacheMemory.ErrorInfo
+- CIM_CacheMemory.ErrorResolution
+- CIM_CacheMemory.ErrorTime
+- CIM_CacheMemory.ErrorTransferSize
+- CIM_CacheMemory.OtherErrorDescription
+- CIM_CacheMemory.StartingAddress
+- CIM_CacheMemory.SystemLevelAddress
+- CIM_CacheMemory.Associativity
+- CIM_CacheMemory.CacheType
+- CIM_CacheMemory.FlushTimer
+- CIM_CacheMemory.Level
+- CIM_CacheMemory.LineSize
+- CIM_CacheMemory.ReadPolicy
+- CIM_CacheMemory.ReplacementPolicy
+- CIM_CacheMemory.WritePolicy
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_CacheMemory class

@@ -7,6 +7,68 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_SyntheticMouse
+- Msvm_SyntheticMouse.SetPowerState
+- Msvm_SyntheticMouse.EnableDevice
+- Msvm_SyntheticMouse.OnlineDevice
+- Msvm_SyntheticMouse.QuiesceDevice
+- Msvm_SyntheticMouse.SaveProperties
+- Msvm_SyntheticMouse.RestoreProperties
+- Msvm_SyntheticMouse.InstanceID
+- Msvm_SyntheticMouse.Caption
+- Msvm_SyntheticMouse.Description
+- Msvm_SyntheticMouse.ElementName
+- Msvm_SyntheticMouse.InstallDate
+- Msvm_SyntheticMouse.Name
+- Msvm_SyntheticMouse.OperationalStatus
+- Msvm_SyntheticMouse.StatusDescriptions
+- Msvm_SyntheticMouse.Status
+- Msvm_SyntheticMouse.HealthState
+- Msvm_SyntheticMouse.CommunicationStatus
+- Msvm_SyntheticMouse.DetailedStatus
+- Msvm_SyntheticMouse.OperatingStatus
+- Msvm_SyntheticMouse.PrimaryStatus
+- Msvm_SyntheticMouse.EnabledState
+- Msvm_SyntheticMouse.OtherEnabledState
+- Msvm_SyntheticMouse.RequestedState
+- Msvm_SyntheticMouse.EnabledDefault
+- Msvm_SyntheticMouse.TimeOfLastStateChange
+- Msvm_SyntheticMouse.AvailableRequestedStates
+- Msvm_SyntheticMouse.TransitioningToState
+- Msvm_SyntheticMouse.SystemCreationClassName
+- Msvm_SyntheticMouse.SystemName
+- Msvm_SyntheticMouse.CreationClassName
+- Msvm_SyntheticMouse.DeviceID
+- Msvm_SyntheticMouse.PowerManagementSupported
+- Msvm_SyntheticMouse.PowerManagementCapabilities
+- Msvm_SyntheticMouse.Availability
+- Msvm_SyntheticMouse.StatusInfo
+- Msvm_SyntheticMouse.LastErrorCode
+- Msvm_SyntheticMouse.ErrorDescription
+- Msvm_SyntheticMouse.ErrorCleared
+- Msvm_SyntheticMouse.OtherIdentifyingInfo
+- Msvm_SyntheticMouse.PowerOnHours
+- Msvm_SyntheticMouse.TotalPowerOnHours
+- Msvm_SyntheticMouse.IdentifyingDescriptions
+- Msvm_SyntheticMouse.AdditionalAvailability
+- Msvm_SyntheticMouse.MaxQuiesceTime
+- Msvm_SyntheticMouse.IsLocked
+- Msvm_SyntheticMouse.PointingType
+- Msvm_SyntheticMouse.NumberOfButtons
+- Msvm_SyntheticMouse.Handedness
+- Msvm_SyntheticMouse.Resolution
+- Msvm_SyntheticMouse.AbsoluteCoordinates
+- Msvm_SyntheticMouse.HorizontalPosition
+- Msvm_SyntheticMouse.VerticalPosition
+- Msvm_SyntheticMouse.ScrollPosition
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_SyntheticMouse class

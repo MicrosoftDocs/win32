@@ -7,6 +7,33 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_EthernetSwitchPortSecuritySettingData
+- Msvm_EthernetSwitchPortSecuritySettingData.InstanceID
+- Msvm_EthernetSwitchPortSecuritySettingData.Caption
+- Msvm_EthernetSwitchPortSecuritySettingData.Description
+- Msvm_EthernetSwitchPortSecuritySettingData.ElementName
+- Msvm_EthernetSwitchPortSecuritySettingData.AllowMacSpoofing
+- Msvm_EthernetSwitchPortSecuritySettingData.EnableDhcpGuard
+- Msvm_EthernetSwitchPortSecuritySettingData.EnableRouterGuard
+- Msvm_EthernetSwitchPortSecuritySettingData.MonitorMode
+- Msvm_EthernetSwitchPortSecuritySettingData.MonitorSession
+- Msvm_EthernetSwitchPortSecuritySettingData.AllowIeeePriorityTag
+- Msvm_EthernetSwitchPortSecuritySettingData.VirtualSubnetId
+- Msvm_EthernetSwitchPortSecuritySettingData.AllowTeaming
+- Msvm_EthernetSwitchPortSecuritySettingData.TeamName
+- Msvm_EthernetSwitchPortSecuritySettingData.TeamNumber
+- Msvm_EthernetSwitchPortSecuritySettingData.EnableFixSpeed10G
+- Msvm_EthernetSwitchPortSecuritySettingData.Reserved
+- Msvm_EthernetSwitchPortSecuritySettingData.DynamicIPAddressLimit
+- Msvm_EthernetSwitchPortSecuritySettingData.StormLimit
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_EthernetSwitchPortSecuritySettingData class

@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- D3DAUTHENTICATEDCONFIGURE_INITIALIZE
+api_type: 
+- HeaderDef
+api_location: 
+- d3d9types.h
 ---
 
 # D3DAUTHENTICATEDCONFIGURE\_INITIALIZE

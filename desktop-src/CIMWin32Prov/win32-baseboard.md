@@ -13,6 +13,45 @@ title: Win32\_BaseBoard class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_BaseBoard
+- Win32_BaseBoard.IsCompatible
+- Win32_BaseBoard.Caption
+- Win32_BaseBoard.ConfigOptions
+- Win32_BaseBoard.CreationClassName
+- Win32_BaseBoard.Depth
+- Win32_BaseBoard.Description
+- Win32_BaseBoard.Height
+- Win32_BaseBoard.HostingBoard
+- Win32_BaseBoard.HotSwappable
+- Win32_BaseBoard.InstallDate
+- Win32_BaseBoard.Manufacturer
+- Win32_BaseBoard.Model
+- Win32_BaseBoard.Name
+- Win32_BaseBoard.OtherIdentifyingInfo
+- Win32_BaseBoard.PartNumber
+- Win32_BaseBoard.PoweredOn
+- Win32_BaseBoard.Product
+- Win32_BaseBoard.Removable
+- Win32_BaseBoard.Replaceable
+- Win32_BaseBoard.RequirementsDescription
+- Win32_BaseBoard.RequiresDaughterBoard
+- Win32_BaseBoard.SerialNumber
+- Win32_BaseBoard.SKU
+- Win32_BaseBoard.SlotLayout
+- Win32_BaseBoard.SpecialRequirements
+- Win32_BaseBoard.Status
+- Win32_BaseBoard.Tag
+- Win32_BaseBoard.Version
+- Win32_BaseBoard.Weight
+- Win32_BaseBoard.Width
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_BaseBoard class

@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- ALPC_Wait_For_Reply
+- ALPC_Wait_For_Reply.MessageID
+api_type: 
+- NA
+api_location: 
 ---
 
 # ALPC\_Wait\_For\_Reply class

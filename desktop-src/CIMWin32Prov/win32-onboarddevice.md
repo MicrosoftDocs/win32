@@ -13,6 +13,35 @@ title: Win32\_OnBoardDevice class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_OnBoardDevice
+- Win32_OnBoardDevice.Caption
+- Win32_OnBoardDevice.CreationClassName
+- Win32_OnBoardDevice.Description
+- Win32_OnBoardDevice.DeviceType
+- Win32_OnBoardDevice.Enabled
+- Win32_OnBoardDevice.HotSwappable
+- Win32_OnBoardDevice.InstallDate
+- Win32_OnBoardDevice.Manufacturer
+- Win32_OnBoardDevice.Model
+- Win32_OnBoardDevice.Name
+- Win32_OnBoardDevice.OtherIdentifyingInfo
+- Win32_OnBoardDevice.PartNumber
+- Win32_OnBoardDevice.PoweredOn
+- Win32_OnBoardDevice.Removable
+- Win32_OnBoardDevice.Replaceable
+- Win32_OnBoardDevice.SerialNumber
+- Win32_OnBoardDevice.SKU
+- Win32_OnBoardDevice.Status
+- Win32_OnBoardDevice.Tag
+- Win32_OnBoardDevice.Version
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_OnBoardDevice class

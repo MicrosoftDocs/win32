@@ -13,6 +13,20 @@ title: Win32\_PnPDevicePropertyUint64Array class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PnPDevicePropertyUint64Array
+- Win32_PnPDevicePropertyUint64Array.Key
+- Win32_PnPDevicePropertyUint64Array.KeyName
+- Win32_PnPDevicePropertyUint64Array.Type
+- Win32_PnPDevicePropertyUint64Array.DeviceID
+- Win32_PnPDevicePropertyUint64Array.Data
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PnPDevicePropertyUint64Array class

@@ -7,6 +7,42 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_EthernetSwitchExtension
+- Msvm_EthernetSwitchExtension.InstanceID
+- Msvm_EthernetSwitchExtension.Caption
+- Msvm_EthernetSwitchExtension.Description
+- Msvm_EthernetSwitchExtension.ElementName
+- Msvm_EthernetSwitchExtension.InstallDate
+- Msvm_EthernetSwitchExtension.OperationalStatus
+- Msvm_EthernetSwitchExtension.StatusDescriptions
+- Msvm_EthernetSwitchExtension.Status
+- Msvm_EthernetSwitchExtension.HealthState
+- Msvm_EthernetSwitchExtension.CommunicationStatus
+- Msvm_EthernetSwitchExtension.DetailedStatus
+- Msvm_EthernetSwitchExtension.OperatingStatus
+- Msvm_EthernetSwitchExtension.PrimaryStatus
+- Msvm_EthernetSwitchExtension.EnabledState
+- Msvm_EthernetSwitchExtension.OtherEnabledState
+- Msvm_EthernetSwitchExtension.RequestedState
+- Msvm_EthernetSwitchExtension.EnabledDefault
+- Msvm_EthernetSwitchExtension.TimeOfLastStateChange
+- Msvm_EthernetSwitchExtension.AvailableRequestedStates
+- Msvm_EthernetSwitchExtension.TransitioningToState
+- Msvm_EthernetSwitchExtension.SystemCreationClassName
+- Msvm_EthernetSwitchExtension.SystemName
+- Msvm_EthernetSwitchExtension.CreationClassName
+- Msvm_EthernetSwitchExtension.Name
+- Msvm_EthernetSwitchExtension.ExtensionType
+- Msvm_EthernetSwitchExtension.Vendor
+- Msvm_EthernetSwitchExtension.Version
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_EthernetSwitchExtension class

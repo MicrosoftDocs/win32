@@ -13,6 +13,37 @@ title: CIM\_AlarmDevice class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_AlarmDevice
+- CIM_AlarmDevice.Caption
+- CIM_AlarmDevice.Description
+- CIM_AlarmDevice.InstallDate
+- CIM_AlarmDevice.Name
+- CIM_AlarmDevice.Status
+- CIM_AlarmDevice.Availability
+- CIM_AlarmDevice.ConfigManagerErrorCode
+- CIM_AlarmDevice.ConfigManagerUserConfig
+- CIM_AlarmDevice.CreationClassName
+- CIM_AlarmDevice.DeviceID
+- CIM_AlarmDevice.PowerManagementCapabilities
+- CIM_AlarmDevice.ErrorCleared
+- CIM_AlarmDevice.ErrorDescription
+- CIM_AlarmDevice.LastErrorCode
+- CIM_AlarmDevice.PNPDeviceID
+- CIM_AlarmDevice.PowerManagementSupported
+- CIM_AlarmDevice.StatusInfo
+- CIM_AlarmDevice.SystemCreationClassName
+- CIM_AlarmDevice.SystemName
+- CIM_AlarmDevice.AudibleAlarm
+- CIM_AlarmDevice.Urgency
+- CIM_AlarmDevice.VisibleAlarm
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_AlarmDevice class

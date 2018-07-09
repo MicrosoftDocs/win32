@@ -7,6 +7,46 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_FcEndpoint
+- Msvm_FcEndpoint.InstanceID
+- Msvm_FcEndpoint.Caption
+- Msvm_FcEndpoint.Description
+- Msvm_FcEndpoint.ElementName
+- Msvm_FcEndpoint.InstallDate
+- Msvm_FcEndpoint.Name
+- Msvm_FcEndpoint.OperationalStatus
+- Msvm_FcEndpoint.StatusDescriptions
+- Msvm_FcEndpoint.Status
+- Msvm_FcEndpoint.HealthState
+- Msvm_FcEndpoint.CommunicationStatus
+- Msvm_FcEndpoint.DetailedStatus
+- Msvm_FcEndpoint.OperatingStatus
+- Msvm_FcEndpoint.PrimaryStatus
+- Msvm_FcEndpoint.EnabledState
+- Msvm_FcEndpoint.OtherEnabledState
+- Msvm_FcEndpoint.RequestedState
+- Msvm_FcEndpoint.EnabledDefault
+- Msvm_FcEndpoint.TimeOfLastStateChange
+- Msvm_FcEndpoint.AvailableRequestedStates
+- Msvm_FcEndpoint.TransitioningToState
+- Msvm_FcEndpoint.SystemCreationClassName
+- Msvm_FcEndpoint.SystemName
+- Msvm_FcEndpoint.CreationClassName
+- Msvm_FcEndpoint.NameFormat
+- Msvm_FcEndpoint.ProtocolType
+- Msvm_FcEndpoint.ProtocolIFType
+- Msvm_FcEndpoint.OtherTypeDescription
+- Msvm_FcEndpoint.Connected
+- Msvm_FcEndpoint.WWPN
+- Msvm_FcEndpoint.WWNN
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_FcEndpoint class

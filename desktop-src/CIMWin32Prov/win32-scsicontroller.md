@@ -13,6 +13,48 @@ title: Win32\_SCSIController class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_SCSIController
+- Win32_SCSIController.Reset
+- Win32_SCSIController.SetPowerState
+- Win32_SCSIController.Availability
+- Win32_SCSIController.Caption
+- Win32_SCSIController.ConfigManagerErrorCode
+- Win32_SCSIController.ConfigManagerUserConfig
+- Win32_SCSIController.ControllerTimeouts
+- Win32_SCSIController.CreationClassName
+- Win32_SCSIController.Description
+- Win32_SCSIController.DeviceID
+- Win32_SCSIController.DeviceMap
+- Win32_SCSIController.DriverName
+- Win32_SCSIController.ErrorCleared
+- Win32_SCSIController.ErrorDescription
+- Win32_SCSIController.HardwareVersion
+- Win32_SCSIController.Index
+- Win32_SCSIController.InstallDate
+- Win32_SCSIController.LastErrorCode
+- Win32_SCSIController.Manufacturer
+- Win32_SCSIController.MaxDataWidth
+- Win32_SCSIController.MaxNumberControlled
+- Win32_SCSIController.MaxTransferRate
+- Win32_SCSIController.Name
+- Win32_SCSIController.PNPDeviceID
+- Win32_SCSIController.PowerManagementCapabilities
+- Win32_SCSIController.PowerManagementSupported
+- Win32_SCSIController.ProtectionManagement
+- Win32_SCSIController.ProtocolSupported
+- Win32_SCSIController.Status
+- Win32_SCSIController.StatusInfo
+- Win32_SCSIController.SystemCreationClassName
+- Win32_SCSIController.SystemName
+- Win32_SCSIController.TimeOfLastReset
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_SCSIController class

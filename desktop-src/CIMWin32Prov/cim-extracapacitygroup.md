@@ -13,6 +13,23 @@ title: CIM\_ExtraCapacityGroup class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ExtraCapacityGroup
+- CIM_ExtraCapacityGroup.Caption
+- CIM_ExtraCapacityGroup.Description
+- CIM_ExtraCapacityGroup.InstallDate
+- CIM_ExtraCapacityGroup.Name
+- CIM_ExtraCapacityGroup.Status
+- CIM_ExtraCapacityGroup.CreationClassName
+- CIM_ExtraCapacityGroup.RedundancyStatus
+- CIM_ExtraCapacityGroup.MinNumberNeeded
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_ExtraCapacityGroup class

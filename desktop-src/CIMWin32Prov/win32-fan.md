@@ -13,6 +13,40 @@ title: Win32\_Fan class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_Fan
+- Win32_Fan.Reset
+- Win32_Fan.SetPowerState
+- Win32_Fan.SetSpeed
+- Win32_Fan.ActiveCooling
+- Win32_Fan.Availability
+- Win32_Fan.Caption
+- Win32_Fan.ConfigManagerErrorCode
+- Win32_Fan.ConfigManagerUserConfig
+- Win32_Fan.CreationClassName
+- Win32_Fan.Description
+- Win32_Fan.DesiredSpeed
+- Win32_Fan.DeviceID
+- Win32_Fan.ErrorCleared
+- Win32_Fan.ErrorDescription
+- Win32_Fan.InstallDate
+- Win32_Fan.LastErrorCode
+- Win32_Fan.Name
+- Win32_Fan.PNPDeviceID
+- Win32_Fan.PowerManagementCapabilities
+- Win32_Fan.PowerManagementSupported
+- Win32_Fan.Status
+- Win32_Fan.StatusInfo
+- Win32_Fan.SystemCreationClassName
+- Win32_Fan.SystemName
+- Win32_Fan.VariableSpeed
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_Fan class

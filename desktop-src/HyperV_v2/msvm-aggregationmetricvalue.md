@@ -7,6 +7,29 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_AggregationMetricValue
+- Msvm_AggregationMetricValue.InstanceID
+- Msvm_AggregationMetricValue.Caption
+- Msvm_AggregationMetricValue.Description
+- Msvm_AggregationMetricValue.ElementName
+- Msvm_AggregationMetricValue.MetricDefinitionId
+- Msvm_AggregationMetricValue.MeasuredElementName
+- Msvm_AggregationMetricValue.TimeStamp
+- Msvm_AggregationMetricValue.Duration
+- Msvm_AggregationMetricValue.MetricValue
+- Msvm_AggregationMetricValue.BreakdownDimension
+- Msvm_AggregationMetricValue.BreakdownValue
+- Msvm_AggregationMetricValue.Volatile
+- Msvm_AggregationMetricValue.AggregationTimeStamp
+- Msvm_AggregationMetricValue.AggregationDuration
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_AggregationMetricValue class

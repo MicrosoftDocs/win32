@@ -13,6 +13,18 @@ title: CIM\_CompatibleProduct class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_CompatibleProduct
+- CIM_CompatibleProduct.CompatibilityDescription
+- CIM_CompatibleProduct.CompatibleProduct
+- CIM_CompatibleProduct.Product
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_CompatibleProduct class

@@ -7,6 +7,26 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_NetworkPort
+- CIM_NetworkPort.Speed
+- CIM_NetworkPort.OtherNetworkPortType
+- CIM_NetworkPort.PortNumber
+- CIM_NetworkPort.LinkTechnology
+- CIM_NetworkPort.OtherLinkTechnology
+- CIM_NetworkPort.PermanentAddress
+- CIM_NetworkPort.NetworkAddresses
+- CIM_NetworkPort.FullDuplex
+- CIM_NetworkPort.AutoSense
+- CIM_NetworkPort.SupportedMaximumTransmissionUnit
+- CIM_NetworkPort.ActiveMaximumTransmissionUnit
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_NetworkPort class

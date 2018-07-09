@@ -7,6 +7,38 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_FcPortAllocationSettingData
+- Msvm_FcPortAllocationSettingData.InstanceID
+- Msvm_FcPortAllocationSettingData.Caption
+- Msvm_FcPortAllocationSettingData.Description
+- Msvm_FcPortAllocationSettingData.ElementName
+- Msvm_FcPortAllocationSettingData.ResourceType
+- Msvm_FcPortAllocationSettingData.OtherResourceType
+- Msvm_FcPortAllocationSettingData.ResourceSubType
+- Msvm_FcPortAllocationSettingData.PoolID
+- Msvm_FcPortAllocationSettingData.ConsumerVisibility
+- Msvm_FcPortAllocationSettingData.HostResource
+- Msvm_FcPortAllocationSettingData.AllocationUnits
+- Msvm_FcPortAllocationSettingData.VirtualQuantity
+- Msvm_FcPortAllocationSettingData.Reservation
+- Msvm_FcPortAllocationSettingData.Limit
+- Msvm_FcPortAllocationSettingData.Weight
+- Msvm_FcPortAllocationSettingData.AutomaticAllocation
+- Msvm_FcPortAllocationSettingData.AutomaticDeallocation
+- Msvm_FcPortAllocationSettingData.Parent
+- Msvm_FcPortAllocationSettingData.Connection
+- Msvm_FcPortAllocationSettingData.Address
+- Msvm_FcPortAllocationSettingData.MappingBehavior
+- Msvm_FcPortAllocationSettingData.AddressOnParent
+- Msvm_FcPortAllocationSettingData.VirtualQuantityUnits
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_FcPortAllocationSettingData class

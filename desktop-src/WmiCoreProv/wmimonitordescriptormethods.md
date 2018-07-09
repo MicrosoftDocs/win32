@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- WmiMonitorDescriptorMethods
+- WmiMonitorDescriptorMethods.Active
+- WmiMonitorDescriptorMethods.InstanceName
+api_type: 
+- DllExport
+api_location: 
+- WmiProv.dll
 ---
 
 # WmiMonitorDescriptorMethods class

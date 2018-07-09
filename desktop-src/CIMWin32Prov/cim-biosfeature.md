@@ -13,6 +13,26 @@ title: CIM\_BIOSFeature class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_BIOSFeature
+- CIM_BIOSFeature.Caption
+- CIM_BIOSFeature.Description
+- CIM_BIOSFeature.InstallDate
+- CIM_BIOSFeature.Status
+- CIM_BIOSFeature.IdentifyingNumber
+- CIM_BIOSFeature.ProductName
+- CIM_BIOSFeature.Vendor
+- CIM_BIOSFeature.Version
+- CIM_BIOSFeature.Name
+- CIM_BIOSFeature.CharacteristicDescriptions
+- CIM_BIOSFeature.Characteristics
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_BIOSFeature class

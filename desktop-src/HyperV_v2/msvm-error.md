@@ -7,6 +7,30 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_Error
+- Msvm_Error.ErrorType
+- Msvm_Error.OtherErrorType
+- Msvm_Error.OwningEntity
+- Msvm_Error.MessageID
+- Msvm_Error.Message
+- Msvm_Error.MessageArguments
+- Msvm_Error.PerceivedSeverity
+- Msvm_Error.ProbableCause
+- Msvm_Error.ProbableCauseDescription
+- Msvm_Error.RecommendedActions
+- Msvm_Error.ErrorSource
+- Msvm_Error.ErrorSourceFormat
+- Msvm_Error.OtherErrorSourceFormat
+- Msvm_Error.CIMStatusCode
+- Msvm_Error.CIMStatusCodeDescription
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_Error class

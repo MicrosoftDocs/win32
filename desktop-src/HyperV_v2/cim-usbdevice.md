@@ -7,6 +7,31 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_USBDevice
+- CIM_USBDevice.USBVersion
+- CIM_USBDevice.ClassCode
+- CIM_USBDevice.SubclassCode
+- CIM_USBDevice.ProtocolCode
+- CIM_USBDevice.USBVersionInBCD
+- CIM_USBDevice.MaxPacketSize
+- CIM_USBDevice.VendorID
+- CIM_USBDevice.ProductID
+- CIM_USBDevice.DeviceReleaseNumber
+- CIM_USBDevice.Manufacturer
+- CIM_USBDevice.Product
+- CIM_USBDevice.SerialNumber
+- CIM_USBDevice.NumberOfConfigs
+- CIM_USBDevice.CurrentConfigValue
+- CIM_USBDevice.CurrentAlternateSettings
+- CIM_USBDevice.CommandTimeout
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_USBDevice class

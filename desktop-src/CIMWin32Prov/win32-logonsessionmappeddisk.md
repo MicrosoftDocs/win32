@@ -13,6 +13,17 @@ title: Win32\_LogonSessionMappedDisk class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_LogonSessionMappedDisk
+- Win32_LogonSessionMappedDisk.Antecedent
+- Win32_LogonSessionMappedDisk.Dependent
+api_type: 
+- DllExport
+api_location: 
+- cimwin32.dll
 ---
 
 # Win32\_LogonSessionMappedDisk class

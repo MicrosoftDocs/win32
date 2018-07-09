@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_HostedResourcePool
+- CIM_HostedResourcePool.GroupComponent
+- CIM_HostedResourcePool.PartComponent
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_HostedResourcePool class

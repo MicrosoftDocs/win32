@@ -7,6 +7,21 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- COPP_ProtectionType_Unknown
+- COPP_ProtectionType_None
+- COPP_ProtectionType_HDCP
+- COPP_ProtectionType_ACP
+- COPP_ProtectionType_CGMSA
+- COPP_ProtectionType_Mask
+- COPP_ProtectionType_Reserved
+api_type: 
+- HeaderDef
+api_location: 
+- dxva.h
 ---
 
 # COPP Protection Type Flags

@@ -13,6 +13,25 @@ title: Win32\_SystemMemoryResource class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_SystemMemoryResource
+- Win32_SystemMemoryResource.Caption
+- Win32_SystemMemoryResource.Description
+- Win32_SystemMemoryResource.InstallDate
+- Win32_SystemMemoryResource.Name
+- Win32_SystemMemoryResource.Status
+- Win32_SystemMemoryResource.CreationClassName
+- Win32_SystemMemoryResource.CSCreationClassName
+- Win32_SystemMemoryResource.CSName
+- Win32_SystemMemoryResource.EndingAddress
+- Win32_SystemMemoryResource.StartingAddress
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_SystemMemoryResource class

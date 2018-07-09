@@ -13,6 +13,18 @@ title: Win32\_COMSetting class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_COMSetting
+- Win32_COMSetting.Caption
+- Win32_COMSetting.Description
+- Win32_COMSetting.SettingID
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_COMSetting class

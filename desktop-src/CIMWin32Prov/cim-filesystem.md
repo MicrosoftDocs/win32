@@ -13,6 +13,34 @@ title: CIM\_FileSystem class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_FileSystem
+- CIM_FileSystem.Caption
+- CIM_FileSystem.Description
+- CIM_FileSystem.InstallDate
+- CIM_FileSystem.Name
+- CIM_FileSystem.Status
+- CIM_FileSystem.AvailableSpace
+- CIM_FileSystem.BlockSize
+- CIM_FileSystem.CasePreserved
+- CIM_FileSystem.CaseSensitive
+- CIM_FileSystem.CodeSet
+- CIM_FileSystem.CompressionMethod
+- CIM_FileSystem.CreationClassName
+- CIM_FileSystem.CSCreationClassName
+- CIM_FileSystem.CSName
+- CIM_FileSystem.EncryptionMethod
+- CIM_FileSystem.FileSystemSize
+- CIM_FileSystem.MaxFileNameLength
+- CIM_FileSystem.ReadOnly
+- CIM_FileSystem.Root
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_FileSystem class

@@ -11,6 +11,24 @@ title: SnmpExtendedNotification class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SnmpExtendedNotification
+- SnmpExtendedNotification.SECURITY_DESCRIPTOR
+- SnmpExtendedNotification.TIME_CREATED
+- SnmpExtendedNotification.AgentAddress
+- SnmpExtendedNotification.AgentTransport
+- SnmpExtendedNotification.AgentTransportAddress
+- SnmpExtendedNotification.Community
+- SnmpExtendedNotification.Identification
+- SnmpExtendedNotification.TimeStamp
+- SnmpExtendedNotification.AgentTransportProtocol
+api_type: 
+- Schema
+api_location: 
+- Root\snmp\SMIR
 ---
 
 # SnmpExtendedNotification class

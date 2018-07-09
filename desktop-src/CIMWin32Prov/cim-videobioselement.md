@@ -13,6 +13,32 @@ title: CIM\_VideoBIOSElement class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_VideoBIOSElement
+- CIM_VideoBIOSElement.BuildNumber
+- CIM_VideoBIOSElement.Caption
+- CIM_VideoBIOSElement.CodeSet
+- CIM_VideoBIOSElement.Description
+- CIM_VideoBIOSElement.IdentificationCode
+- CIM_VideoBIOSElement.InstallDate
+- CIM_VideoBIOSElement.IsShadowed
+- CIM_VideoBIOSElement.LanguageEdition
+- CIM_VideoBIOSElement.Manufacturer
+- CIM_VideoBIOSElement.Name
+- CIM_VideoBIOSElement.OtherTargetOS
+- CIM_VideoBIOSElement.SerialNumber
+- CIM_VideoBIOSElement.SoftwareElementID
+- CIM_VideoBIOSElement.SoftwareElementState
+- CIM_VideoBIOSElement.Status
+- CIM_VideoBIOSElement.TargetOperatingSystem
+- CIM_VideoBIOSElement.Version
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_VideoBIOSElement class

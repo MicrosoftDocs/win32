@@ -13,6 +13,37 @@ title: Win32\_PrinterDriver class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PrinterDriver
+- Win32_PrinterDriver.Caption
+- Win32_PrinterDriver.ConfigFile
+- Win32_PrinterDriver.CreationClassName
+- Win32_PrinterDriver.DataFile
+- Win32_PrinterDriver.DefaultDataType
+- Win32_PrinterDriver.DependentFiles
+- Win32_PrinterDriver.Description
+- Win32_PrinterDriver.DriverPath
+- Win32_PrinterDriver.FilePath
+- Win32_PrinterDriver.HelpFile
+- Win32_PrinterDriver.InfName
+- Win32_PrinterDriver.InstallDate
+- Win32_PrinterDriver.MonitorName
+- Win32_PrinterDriver.Name
+- Win32_PrinterDriver.OEMUrl
+- Win32_PrinterDriver.Started
+- Win32_PrinterDriver.StartMode
+- Win32_PrinterDriver.Status
+- Win32_PrinterDriver.SupportedPlatform
+- Win32_PrinterDriver.SystemCreationClassName
+- Win32_PrinterDriver.SystemName
+- Win32_PrinterDriver.Version
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PrinterDriver class

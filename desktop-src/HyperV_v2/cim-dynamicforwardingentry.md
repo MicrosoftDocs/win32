@@ -7,6 +7,22 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_DynamicForwardingEntry
+- CIM_DynamicForwardingEntry.SystemCreationClassName
+- CIM_DynamicForwardingEntry.SystemName
+- CIM_DynamicForwardingEntry.ServiceCreationClassName
+- CIM_DynamicForwardingEntry.ServiceName
+- CIM_DynamicForwardingEntry.CreationClassName
+- CIM_DynamicForwardingEntry.MACAddress
+- CIM_DynamicForwardingEntry.DynamicStatus
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_DynamicForwardingEntry class

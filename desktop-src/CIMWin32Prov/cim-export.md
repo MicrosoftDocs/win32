@@ -13,6 +13,18 @@ title: CIM\_Export class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Export
+- CIM_Export.Directory
+- CIM_Export.ExportedDirectoryName
+- CIM_Export.LocalFS
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Export class

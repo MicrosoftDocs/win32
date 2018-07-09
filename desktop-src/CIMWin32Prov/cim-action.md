@@ -13,6 +13,24 @@ title: CIM\_Action class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Action
+- CIM_Action.ActionID
+- CIM_Action.Caption
+- CIM_Action.Description
+- CIM_Action.Direction
+- CIM_Action.Name
+- CIM_Action.SoftwareElementID
+- CIM_Action.SoftwareElementState
+- CIM_Action.TargetOperatingSystem
+- CIM_Action.Version
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Action class

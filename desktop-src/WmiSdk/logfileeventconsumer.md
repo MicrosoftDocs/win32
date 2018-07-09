@@ -11,6 +11,23 @@ title: LogFileEventConsumer class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- LogFileEventConsumer
+- LogFileEventConsumer.CreatorSID
+- LogFileEventConsumer.MachineName
+- LogFileEventConsumer.MaximumQueueSize
+- LogFileEventConsumer.Filename
+- LogFileEventConsumer.IsUnicode
+- LogFileEventConsumer.MaximumFileSize
+- LogFileEventConsumer.Name
+- LogFileEventConsumer.Text
+api_type: 
+- DllExport
+api_location: 
+- Wbemcons.dll
 ---
 
 # LogFileEventConsumer class

@@ -13,6 +13,37 @@ title: Win32\_HeatPipe class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_HeatPipe
+- Win32_HeatPipe.Reset
+- Win32_HeatPipe.SetPowerState
+- Win32_HeatPipe.ActiveCooling
+- Win32_HeatPipe.Availability
+- Win32_HeatPipe.Caption
+- Win32_HeatPipe.ConfigManagerErrorCode
+- Win32_HeatPipe.ConfigManagerUserConfig
+- Win32_HeatPipe.CreationClassName
+- Win32_HeatPipe.Description
+- Win32_HeatPipe.DeviceID
+- Win32_HeatPipe.ErrorCleared
+- Win32_HeatPipe.ErrorDescription
+- Win32_HeatPipe.InstallDate
+- Win32_HeatPipe.LastErrorCode
+- Win32_HeatPipe.Name
+- Win32_HeatPipe.PNPDeviceID
+- Win32_HeatPipe.PowerManagementCapabilities
+- Win32_HeatPipe.PowerManagementSupported
+- Win32_HeatPipe.Status
+- Win32_HeatPipe.StatusInfo
+- Win32_HeatPipe.SystemCreationClassName
+- Win32_HeatPipe.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_HeatPipe class

@@ -7,6 +7,25 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_EthernetSwitchOperationalData
+- Msvm_EthernetSwitchOperationalData.InstanceID
+- Msvm_EthernetSwitchOperationalData.Caption
+- Msvm_EthernetSwitchOperationalData.Description
+- Msvm_EthernetSwitchOperationalData.ElementName
+- Msvm_EthernetSwitchOperationalData.SystemCreationClassName
+- Msvm_EthernetSwitchOperationalData.SystemName
+- Msvm_EthernetSwitchOperationalData.CreationClassName
+- Msvm_EthernetSwitchOperationalData.Name
+- Msvm_EthernetSwitchOperationalData.CurrentSwitchingMode
+- Msvm_EthernetSwitchOperationalData.SupportedSwitchingModes
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_EthernetSwitchOperationalData class

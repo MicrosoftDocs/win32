@@ -7,6 +7,21 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_SettingsDefineCapabilities
+- Msvm_SettingsDefineCapabilities.SupportStatement
+- Msvm_SettingsDefineCapabilities.GroupComponent
+- Msvm_SettingsDefineCapabilities.PartComponent
+- Msvm_SettingsDefineCapabilities.PropertyPolicy
+- Msvm_SettingsDefineCapabilities.ValueRole
+- Msvm_SettingsDefineCapabilities.ValueRange
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_SettingsDefineCapabilities class

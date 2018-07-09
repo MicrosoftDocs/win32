@@ -13,6 +13,28 @@ title: CIM\_IRQ class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_IRQ
+- CIM_IRQ.Caption
+- CIM_IRQ.Description
+- CIM_IRQ.InstallDate
+- CIM_IRQ.Name
+- CIM_IRQ.Status
+- CIM_IRQ.Availability
+- CIM_IRQ.CreationClassName
+- CIM_IRQ.CSCreationClassName
+- CIM_IRQ.CSName
+- CIM_IRQ.IRQNumber
+- CIM_IRQ.Shareable
+- CIM_IRQ.TriggerLevel
+- CIM_IRQ.TriggerType
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_IRQ class

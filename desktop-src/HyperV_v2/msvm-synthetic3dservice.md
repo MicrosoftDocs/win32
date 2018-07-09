@@ -7,6 +7,46 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_Synthetic3DService
+- Msvm_Synthetic3DService.RequestStateChange
+- Msvm_Synthetic3DService.StartService
+- Msvm_Synthetic3DService.StopService
+- Msvm_Synthetic3DService.InstanceID
+- Msvm_Synthetic3DService.Caption
+- Msvm_Synthetic3DService.Description
+- Msvm_Synthetic3DService.ElementName
+- Msvm_Synthetic3DService.InstallDate
+- Msvm_Synthetic3DService.OperationalStatus
+- Msvm_Synthetic3DService.StatusDescriptions
+- Msvm_Synthetic3DService.Status
+- Msvm_Synthetic3DService.HealthState
+- Msvm_Synthetic3DService.CommunicationStatus
+- Msvm_Synthetic3DService.DetailedStatus
+- Msvm_Synthetic3DService.OperatingStatus
+- Msvm_Synthetic3DService.PrimaryStatus
+- Msvm_Synthetic3DService.EnabledState
+- Msvm_Synthetic3DService.OtherEnabledState
+- Msvm_Synthetic3DService.RequestedState
+- Msvm_Synthetic3DService.EnabledDefault
+- Msvm_Synthetic3DService.TimeOfLastStateChange
+- Msvm_Synthetic3DService.AvailableRequestedStates
+- Msvm_Synthetic3DService.TransitioningToState
+- Msvm_Synthetic3DService.SystemCreationClassName
+- Msvm_Synthetic3DService.SystemName
+- Msvm_Synthetic3DService.Name
+- Msvm_Synthetic3DService.CreationClassName
+- Msvm_Synthetic3DService.PrimaryOwnerName
+- Msvm_Synthetic3DService.PrimaryOwnerContact
+- Msvm_Synthetic3DService.StartMode
+- Msvm_Synthetic3DService.Started
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_Synthetic3DService class

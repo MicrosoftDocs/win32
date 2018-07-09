@@ -11,6 +11,23 @@ title: ActiveScriptEventConsumer class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- ActiveScriptEventConsumer
+- ActiveScriptEventConsumer.CreatorSID
+- ActiveScriptEventConsumer.KillTimeout
+- ActiveScriptEventConsumer.MachineName
+- ActiveScriptEventConsumer.MaximumQueueSize
+- ActiveScriptEventConsumer.Name
+- ActiveScriptEventConsumer.ScriptingEngine
+- ActiveScriptEventConsumer.ScriptFileName
+- ActiveScriptEventConsumer.ScriptText
+api_type: 
+- DllExport
+api_location: 
+- Scrcons.exe
 ---
 
 # ActiveScriptEventConsumer class

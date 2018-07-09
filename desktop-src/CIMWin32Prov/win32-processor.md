@@ -13,6 +13,74 @@ title: Win32\_Processor class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_Processor
+- Win32_Processor.Reset
+- Win32_Processor.SetPowerState
+- Win32_Processor.AddressWidth
+- Win32_Processor.Architecture
+- Win32_Processor.AssetTag
+- Win32_Processor.Availability
+- Win32_Processor.Caption
+- Win32_Processor.Characteristics
+- Win32_Processor.ConfigManagerErrorCode
+- Win32_Processor.ConfigManagerUserConfig
+- Win32_Processor.CpuStatus
+- Win32_Processor.CreationClassName
+- Win32_Processor.CurrentClockSpeed
+- Win32_Processor.CurrentVoltage
+- Win32_Processor.DataWidth
+- Win32_Processor.Description
+- Win32_Processor.DeviceID
+- Win32_Processor.ErrorCleared
+- Win32_Processor.ErrorDescription
+- Win32_Processor.ExtClock
+- Win32_Processor.Family
+- Win32_Processor.InstallDate
+- Win32_Processor.L2CacheSize
+- Win32_Processor.L2CacheSpeed
+- Win32_Processor.L3CacheSize
+- Win32_Processor.L3CacheSpeed
+- Win32_Processor.LastErrorCode
+- Win32_Processor.Level
+- Win32_Processor.LoadPercentage
+- Win32_Processor.Manufacturer
+- Win32_Processor.MaxClockSpeed
+- Win32_Processor.Name
+- Win32_Processor.NumberOfCores
+- Win32_Processor.NumberOfEnabledCore
+- Win32_Processor.NumberOfLogicalProcessors
+- Win32_Processor.OtherFamilyDescription
+- Win32_Processor.PartNumber
+- Win32_Processor.PNPDeviceID
+- Win32_Processor.PowerManagementCapabilities
+- Win32_Processor.PowerManagementSupported
+- Win32_Processor.ProcessorId
+- Win32_Processor.ProcessorType
+- Win32_Processor.Revision
+- Win32_Processor.Role
+- Win32_Processor.SecondLevelAddressTranslationExtensions
+- Win32_Processor.SerialNumber
+- Win32_Processor.SocketDesignation
+- Win32_Processor.Status
+- Win32_Processor.StatusInfo
+- Win32_Processor.Stepping
+- Win32_Processor.SystemCreationClassName
+- Win32_Processor.SystemName
+- Win32_Processor.ThreadCount
+- Win32_Processor.UniqueId
+- Win32_Processor.UpgradeMethod
+- Win32_Processor.Version
+- Win32_Processor.VirtualizationFirmwareEnabled
+- Win32_Processor.VMMonitorModeExtensions
+- Win32_Processor.VoltageCaps
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_Processor class

@@ -7,6 +7,26 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ReplicationServiceSettingData
+- Msvm_ReplicationServiceSettingData.InstanceID
+- Msvm_ReplicationServiceSettingData.Caption
+- Msvm_ReplicationServiceSettingData.Description
+- Msvm_ReplicationServiceSettingData.ElementName
+- Msvm_ReplicationServiceSettingData.RecoveryServerEnabled
+- Msvm_ReplicationServiceSettingData.AllowedAuthenticationType
+- Msvm_ReplicationServiceSettingData.CertificateThumbPrint
+- Msvm_ReplicationServiceSettingData.HttpsPort
+- Msvm_ReplicationServiceSettingData.HttpPort
+- Msvm_ReplicationServiceSettingData.MonitoringStartTime
+- Msvm_ReplicationServiceSettingData.MonitoringInterval
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ReplicationServiceSettingData class

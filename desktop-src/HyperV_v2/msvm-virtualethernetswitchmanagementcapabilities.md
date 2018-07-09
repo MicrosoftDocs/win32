@@ -7,6 +7,29 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualEthernetSwitchManagementCapabilities
+- Msvm_VirtualEthernetSwitchManagementCapabilities.InstanceID
+- Msvm_VirtualEthernetSwitchManagementCapabilities.Caption
+- Msvm_VirtualEthernetSwitchManagementCapabilities.Description
+- Msvm_VirtualEthernetSwitchManagementCapabilities.ElementName
+- Msvm_VirtualEthernetSwitchManagementCapabilities.ElementNameEditSupported
+- Msvm_VirtualEthernetSwitchManagementCapabilities.MaxElementNameLen
+- Msvm_VirtualEthernetSwitchManagementCapabilities.RequestedStatesSupported
+- Msvm_VirtualEthernetSwitchManagementCapabilities.ElementNameMask
+- Msvm_VirtualEthernetSwitchManagementCapabilities.VirtualSystemTypesSupported
+- Msvm_VirtualEthernetSwitchManagementCapabilities.SynchronousMethodsSupported
+- Msvm_VirtualEthernetSwitchManagementCapabilities.AsynchronousMethodsSupported
+- Msvm_VirtualEthernetSwitchManagementCapabilities.IndicationsSupported
+- Msvm_VirtualEthernetSwitchManagementCapabilities.IOVSupport
+- Msvm_VirtualEthernetSwitchManagementCapabilities.IOVSupportReasons
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualEthernetSwitchManagementCapabilities class

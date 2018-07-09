@@ -13,6 +13,45 @@ title: CIM\_PhysicalFrame class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_PhysicalFrame
+- CIM_PhysicalFrame.AudibleAlarm
+- CIM_PhysicalFrame.BreachDescription
+- CIM_PhysicalFrame.CableManagementStrategy
+- CIM_PhysicalFrame.Caption
+- CIM_PhysicalFrame.CreationClassName
+- CIM_PhysicalFrame.Depth
+- CIM_PhysicalFrame.Description
+- CIM_PhysicalFrame.Height
+- CIM_PhysicalFrame.HotSwappable
+- CIM_PhysicalFrame.InstallDate
+- CIM_PhysicalFrame.LockPresent
+- CIM_PhysicalFrame.Manufacturer
+- CIM_PhysicalFrame.Model
+- CIM_PhysicalFrame.Name
+- CIM_PhysicalFrame.OtherIdentifyingInfo
+- CIM_PhysicalFrame.PartNumber
+- CIM_PhysicalFrame.PoweredOn
+- CIM_PhysicalFrame.Removable
+- CIM_PhysicalFrame.Replaceable
+- CIM_PhysicalFrame.SecurityBreach
+- CIM_PhysicalFrame.SerialNumber
+- CIM_PhysicalFrame.ServiceDescriptions
+- CIM_PhysicalFrame.ServicePhilosophy
+- CIM_PhysicalFrame.SKU
+- CIM_PhysicalFrame.Status
+- CIM_PhysicalFrame.Tag
+- CIM_PhysicalFrame.Version
+- CIM_PhysicalFrame.VisibleAlarm
+- CIM_PhysicalFrame.Weight
+- CIM_PhysicalFrame.Width
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_PhysicalFrame class

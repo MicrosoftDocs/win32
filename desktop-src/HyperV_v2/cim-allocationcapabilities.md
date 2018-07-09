@@ -7,6 +7,22 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_AllocationCapabilities
+- CIM_AllocationCapabilities.ResourceType
+- CIM_AllocationCapabilities.OtherResourceType
+- CIM_AllocationCapabilities.ResourceSubType
+- CIM_AllocationCapabilities.RequestTypesSupported
+- CIM_AllocationCapabilities.SharingMode
+- CIM_AllocationCapabilities.SupportedAddStates
+- CIM_AllocationCapabilities.SupportedRemoveStates
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_AllocationCapabilities class

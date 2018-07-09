@@ -13,6 +13,68 @@ title: Win32\_DiskDrive class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_DiskDrive
+- Win32_DiskDrive.Reset
+- Win32_DiskDrive.SetPowerState
+- Win32_DiskDrive.Availability
+- Win32_DiskDrive.BytesPerSector
+- Win32_DiskDrive.Capabilities
+- Win32_DiskDrive.CapabilityDescriptions
+- Win32_DiskDrive.Caption
+- Win32_DiskDrive.CompressionMethod
+- Win32_DiskDrive.ConfigManagerErrorCode
+- Win32_DiskDrive.ConfigManagerUserConfig
+- Win32_DiskDrive.CreationClassName
+- Win32_DiskDrive.DefaultBlockSize
+- Win32_DiskDrive.Description
+- Win32_DiskDrive.DeviceID
+- Win32_DiskDrive.ErrorCleared
+- Win32_DiskDrive.ErrorDescription
+- Win32_DiskDrive.ErrorMethodology
+- Win32_DiskDrive.FirmwareRevision
+- Win32_DiskDrive.Index
+- Win32_DiskDrive.InstallDate
+- Win32_DiskDrive.InterfaceType
+- Win32_DiskDrive.LastErrorCode
+- Win32_DiskDrive.Manufacturer
+- Win32_DiskDrive.MaxBlockSize
+- Win32_DiskDrive.MaxMediaSize
+- Win32_DiskDrive.MediaLoaded
+- Win32_DiskDrive.MediaType
+- Win32_DiskDrive.MinBlockSize
+- Win32_DiskDrive.Model
+- Win32_DiskDrive.Name
+- Win32_DiskDrive.NeedsCleaning
+- Win32_DiskDrive.NumberOfMediaSupported
+- Win32_DiskDrive.Partitions
+- Win32_DiskDrive.PNPDeviceID
+- Win32_DiskDrive.PowerManagementCapabilities
+- Win32_DiskDrive.PowerManagementSupported
+- Win32_DiskDrive.SCSIBus
+- Win32_DiskDrive.SCSILogicalUnit
+- Win32_DiskDrive.SCSIPort
+- Win32_DiskDrive.SCSITargetId
+- Win32_DiskDrive.SectorsPerTrack
+- Win32_DiskDrive.SerialNumber
+- Win32_DiskDrive.Signature
+- Win32_DiskDrive.Size
+- Win32_DiskDrive.Status
+- Win32_DiskDrive.StatusInfo
+- Win32_DiskDrive.SystemCreationClassName
+- Win32_DiskDrive.SystemName
+- Win32_DiskDrive.TotalCylinders
+- Win32_DiskDrive.TotalHeads
+- Win32_DiskDrive.TotalSectors
+- Win32_DiskDrive.TotalTracks
+- Win32_DiskDrive.TracksPerCylinder
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_DiskDrive class

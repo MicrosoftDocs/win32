@@ -7,6 +7,25 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- MSMCAEvent_InvalidError
+- MSMCAEvent_InvalidError.Active
+- MSMCAEvent_InvalidError.AdditionalErrors
+- MSMCAEvent_InvalidError.Cpu
+- MSMCAEvent_InvalidError.ErrorSeverity
+- MSMCAEvent_InvalidError.InstanceName
+- MSMCAEvent_InvalidError.RawRecord
+- MSMCAEvent_InvalidError.RecordId
+- MSMCAEvent_InvalidError.Size
+- MSMCAEvent_InvalidError.Type
+- MSMCAEvent_InvalidError.LogToEventlog
+api_type: 
+- DllExport
+api_location: 
+- Wmiprov.dll
 ---
 
 # MSMCAEvent\_InvalidError class

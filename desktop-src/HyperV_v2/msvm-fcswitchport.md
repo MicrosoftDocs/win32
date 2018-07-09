@@ -7,6 +7,79 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_FcSwitchPort
+- Msvm_FcSwitchPort.SetPowerState
+- Msvm_FcSwitchPort.EnableDevice
+- Msvm_FcSwitchPort.OnlineDevice
+- Msvm_FcSwitchPort.QuiesceDevice
+- Msvm_FcSwitchPort.SaveProperties
+- Msvm_FcSwitchPort.RestoreProperties
+- Msvm_FcSwitchPort.InstanceID
+- Msvm_FcSwitchPort.Caption
+- Msvm_FcSwitchPort.Description
+- Msvm_FcSwitchPort.ElementName
+- Msvm_FcSwitchPort.InstallDate
+- Msvm_FcSwitchPort.Name
+- Msvm_FcSwitchPort.OperationalStatus
+- Msvm_FcSwitchPort.StatusDescriptions
+- Msvm_FcSwitchPort.Status
+- Msvm_FcSwitchPort.HealthState
+- Msvm_FcSwitchPort.CommunicationStatus
+- Msvm_FcSwitchPort.DetailedStatus
+- Msvm_FcSwitchPort.OperatingStatus
+- Msvm_FcSwitchPort.PrimaryStatus
+- Msvm_FcSwitchPort.EnabledState
+- Msvm_FcSwitchPort.OtherEnabledState
+- Msvm_FcSwitchPort.RequestedState
+- Msvm_FcSwitchPort.EnabledDefault
+- Msvm_FcSwitchPort.TimeOfLastStateChange
+- Msvm_FcSwitchPort.AvailableRequestedStates
+- Msvm_FcSwitchPort.TransitioningToState
+- Msvm_FcSwitchPort.SystemCreationClassName
+- Msvm_FcSwitchPort.SystemName
+- Msvm_FcSwitchPort.CreationClassName
+- Msvm_FcSwitchPort.DeviceID
+- Msvm_FcSwitchPort.PowerManagementSupported
+- Msvm_FcSwitchPort.PowerManagementCapabilities
+- Msvm_FcSwitchPort.Availability
+- Msvm_FcSwitchPort.StatusInfo
+- Msvm_FcSwitchPort.LastErrorCode
+- Msvm_FcSwitchPort.ErrorDescription
+- Msvm_FcSwitchPort.ErrorCleared
+- Msvm_FcSwitchPort.OtherIdentifyingInfo
+- Msvm_FcSwitchPort.PowerOnHours
+- Msvm_FcSwitchPort.TotalPowerOnHours
+- Msvm_FcSwitchPort.IdentifyingDescriptions
+- Msvm_FcSwitchPort.AdditionalAvailability
+- Msvm_FcSwitchPort.MaxQuiesceTime
+- Msvm_FcSwitchPort.Speed
+- Msvm_FcSwitchPort.MaxSpeed
+- Msvm_FcSwitchPort.RequestedSpeed
+- Msvm_FcSwitchPort.UsageRestriction
+- Msvm_FcSwitchPort.PortType
+- Msvm_FcSwitchPort.OtherPortType
+- Msvm_FcSwitchPort.OtherNetworkPortType
+- Msvm_FcSwitchPort.PortNumber
+- Msvm_FcSwitchPort.LinkTechnology
+- Msvm_FcSwitchPort.OtherLinkTechnology
+- Msvm_FcSwitchPort.PermanentAddress
+- Msvm_FcSwitchPort.NetworkAddresses
+- Msvm_FcSwitchPort.FullDuplex
+- Msvm_FcSwitchPort.AutoSense
+- Msvm_FcSwitchPort.SupportedMaximumTransmissionUnit
+- Msvm_FcSwitchPort.ActiveMaximumTransmissionUnit
+- Msvm_FcSwitchPort.SupportedCOS
+- Msvm_FcSwitchPort.ActiveCOS
+- Msvm_FcSwitchPort.SupportedFC4Types
+- Msvm_FcSwitchPort.ActiveFC4Types
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_FcSwitchPort class

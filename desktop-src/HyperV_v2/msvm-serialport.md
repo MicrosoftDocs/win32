@@ -7,6 +7,65 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_SerialPort
+- Msvm_SerialPort.SetPowerState
+- Msvm_SerialPort.EnableDevice
+- Msvm_SerialPort.OnlineDevice
+- Msvm_SerialPort.QuiesceDevice
+- Msvm_SerialPort.SaveProperties
+- Msvm_SerialPort.RestoreProperties
+- Msvm_SerialPort.InstanceID
+- Msvm_SerialPort.Caption
+- Msvm_SerialPort.Description
+- Msvm_SerialPort.ElementName
+- Msvm_SerialPort.InstallDate
+- Msvm_SerialPort.Name
+- Msvm_SerialPort.OperationalStatus
+- Msvm_SerialPort.StatusDescriptions
+- Msvm_SerialPort.Status
+- Msvm_SerialPort.HealthState
+- Msvm_SerialPort.CommunicationStatus
+- Msvm_SerialPort.DetailedStatus
+- Msvm_SerialPort.OperatingStatus
+- Msvm_SerialPort.PrimaryStatus
+- Msvm_SerialPort.EnabledState
+- Msvm_SerialPort.OtherEnabledState
+- Msvm_SerialPort.RequestedState
+- Msvm_SerialPort.EnabledDefault
+- Msvm_SerialPort.TimeOfLastStateChange
+- Msvm_SerialPort.AvailableRequestedStates
+- Msvm_SerialPort.TransitioningToState
+- Msvm_SerialPort.SystemCreationClassName
+- Msvm_SerialPort.SystemName
+- Msvm_SerialPort.CreationClassName
+- Msvm_SerialPort.DeviceID
+- Msvm_SerialPort.PowerManagementSupported
+- Msvm_SerialPort.PowerManagementCapabilities
+- Msvm_SerialPort.Availability
+- Msvm_SerialPort.StatusInfo
+- Msvm_SerialPort.LastErrorCode
+- Msvm_SerialPort.ErrorDescription
+- Msvm_SerialPort.ErrorCleared
+- Msvm_SerialPort.OtherIdentifyingInfo
+- Msvm_SerialPort.PowerOnHours
+- Msvm_SerialPort.TotalPowerOnHours
+- Msvm_SerialPort.IdentifyingDescriptions
+- Msvm_SerialPort.AdditionalAvailability
+- Msvm_SerialPort.MaxQuiesceTime
+- Msvm_SerialPort.Speed
+- Msvm_SerialPort.MaxSpeed
+- Msvm_SerialPort.RequestedSpeed
+- Msvm_SerialPort.UsageRestriction
+- Msvm_SerialPort.PortType
+- Msvm_SerialPort.OtherPortType
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_SerialPort class

@@ -13,6 +13,48 @@ title: CIM\_DataFile class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_DataFile
+- CIM_DataFile.Caption
+- CIM_DataFile.Description
+- CIM_DataFile.InstallDate
+- CIM_DataFile.Status
+- CIM_DataFile.AccessMask
+- CIM_DataFile.Archive
+- CIM_DataFile.Compressed
+- CIM_DataFile.CompressionMethod
+- CIM_DataFile.CreationClassName
+- CIM_DataFile.CreationDate
+- CIM_DataFile.CSCreationClassName
+- CIM_DataFile.CSName
+- CIM_DataFile.Drive
+- CIM_DataFile.EightDotThreeFileName
+- CIM_DataFile.Encrypted
+- CIM_DataFile.EncryptionMethod
+- CIM_DataFile.Name
+- CIM_DataFile.Extension
+- CIM_DataFile.FileName
+- CIM_DataFile.FileSize
+- CIM_DataFile.FileType
+- CIM_DataFile.FSCreationClassName
+- CIM_DataFile.FSName
+- CIM_DataFile.Hidden
+- CIM_DataFile.InUseCount
+- CIM_DataFile.LastAccessed
+- CIM_DataFile.LastModified
+- CIM_DataFile.Path
+- CIM_DataFile.Readable
+- CIM_DataFile.System
+- CIM_DataFile.Writeable
+- CIM_DataFile.Manufacturer
+- CIM_DataFile.Version
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_DataFile class

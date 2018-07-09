@@ -13,6 +13,17 @@ title: CIM\_Statistics class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Statistics
+- CIM_Statistics.Element
+- CIM_Statistics.Stats
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Statistics class

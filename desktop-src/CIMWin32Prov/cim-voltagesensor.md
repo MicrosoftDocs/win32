@@ -13,6 +13,50 @@ title: CIM\_VoltageSensor class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_VoltageSensor
+- CIM_VoltageSensor.Accuracy
+- CIM_VoltageSensor.Availability
+- CIM_VoltageSensor.Caption
+- CIM_VoltageSensor.ConfigManagerErrorCode
+- CIM_VoltageSensor.ConfigManagerUserConfig
+- CIM_VoltageSensor.CreationClassName
+- CIM_VoltageSensor.CurrentReading
+- CIM_VoltageSensor.Description
+- CIM_VoltageSensor.DeviceID
+- CIM_VoltageSensor.ErrorCleared
+- CIM_VoltageSensor.ErrorDescription
+- CIM_VoltageSensor.InstallDate
+- CIM_VoltageSensor.IsLinear
+- CIM_VoltageSensor.LastErrorCode
+- CIM_VoltageSensor.LowerThresholdCritical
+- CIM_VoltageSensor.LowerThresholdFatal
+- CIM_VoltageSensor.LowerThresholdNonCritical
+- CIM_VoltageSensor.MaxReadable
+- CIM_VoltageSensor.MinReadable
+- CIM_VoltageSensor.Name
+- CIM_VoltageSensor.NominalReading
+- CIM_VoltageSensor.NormalMax
+- CIM_VoltageSensor.NormalMin
+- CIM_VoltageSensor.PNPDeviceID
+- CIM_VoltageSensor.PowerManagementCapabilities
+- CIM_VoltageSensor.PowerManagementSupported
+- CIM_VoltageSensor.Resolution
+- CIM_VoltageSensor.Status
+- CIM_VoltageSensor.StatusInfo
+- CIM_VoltageSensor.SystemCreationClassName
+- CIM_VoltageSensor.SystemName
+- CIM_VoltageSensor.Tolerance
+- CIM_VoltageSensor.UpperThresholdCritical
+- CIM_VoltageSensor.UpperThresholdFatal
+- CIM_VoltageSensor.UpperThresholdNonCritical
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_VoltageSensor class

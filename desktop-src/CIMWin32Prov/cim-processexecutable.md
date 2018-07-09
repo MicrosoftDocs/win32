@@ -13,6 +13,21 @@ title: CIM\_ProcessExecutable class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ProcessExecutable
+- CIM_ProcessExecutable.Dependent
+- CIM_ProcessExecutable.Antecedent
+- CIM_ProcessExecutable.BaseAddress
+- CIM_ProcessExecutable.GlobalProcessCount
+- CIM_ProcessExecutable.ModuleInstance
+- CIM_ProcessExecutable.ProcessCount
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_ProcessExecutable class

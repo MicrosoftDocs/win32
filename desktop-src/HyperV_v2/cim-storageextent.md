@@ -7,6 +7,35 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_StorageExtent
+- CIM_StorageExtent.DataOrganization
+- CIM_StorageExtent.Purpose
+- CIM_StorageExtent.Access
+- CIM_StorageExtent.ErrorMethodology
+- CIM_StorageExtent.BlockSize
+- CIM_StorageExtent.NumberOfBlocks
+- CIM_StorageExtent.ConsumableBlocks
+- CIM_StorageExtent.IsBasedOnUnderlyingRedundancy
+- CIM_StorageExtent.SequentialAccess
+- CIM_StorageExtent.ExtentStatus
+- CIM_StorageExtent.NoSinglePointOfFailure
+- CIM_StorageExtent.DataRedundancy
+- CIM_StorageExtent.PackageRedundancy
+- CIM_StorageExtent.DeltaReservation
+- CIM_StorageExtent.Primordial
+- CIM_StorageExtent.Name
+- CIM_StorageExtent.NameFormat
+- CIM_StorageExtent.NameNamespace
+- CIM_StorageExtent.OtherNameNamespace
+- CIM_StorageExtent.OtherNameFormat
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_StorageExtent class

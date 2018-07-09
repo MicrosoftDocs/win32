@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_StandaloneV2ElementConformsToProfile
+- Msvm_StandaloneV2ElementConformsToProfile.ConformantStandard
+- Msvm_StandaloneV2ElementConformsToProfile.ManagedElement
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_StandaloneV2ElementConformsToProfile class

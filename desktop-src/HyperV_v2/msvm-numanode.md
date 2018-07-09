@@ -7,6 +7,44 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_NumaNode
+- Msvm_NumaNode.RequestStateChange
+- Msvm_NumaNode.InstanceID
+- Msvm_NumaNode.Caption
+- Msvm_NumaNode.Description
+- Msvm_NumaNode.ElementName
+- Msvm_NumaNode.InstallDate
+- Msvm_NumaNode.Name
+- Msvm_NumaNode.OperationalStatus
+- Msvm_NumaNode.StatusDescriptions
+- Msvm_NumaNode.Status
+- Msvm_NumaNode.HealthState
+- Msvm_NumaNode.CommunicationStatus
+- Msvm_NumaNode.DetailedStatus
+- Msvm_NumaNode.OperatingStatus
+- Msvm_NumaNode.PrimaryStatus
+- Msvm_NumaNode.EnabledState
+- Msvm_NumaNode.OtherEnabledState
+- Msvm_NumaNode.RequestedState
+- Msvm_NumaNode.EnabledDefault
+- Msvm_NumaNode.TimeOfLastStateChange
+- Msvm_NumaNode.AvailableRequestedStates
+- Msvm_NumaNode.TransitioningToState
+- Msvm_NumaNode.SystemCreationClassName
+- Msvm_NumaNode.SystemName
+- Msvm_NumaNode.CreationClassName
+- Msvm_NumaNode.NodeID
+- Msvm_NumaNode.NumberOfProcessorCores
+- Msvm_NumaNode.NumberOfLogicalProcessors
+- Msvm_NumaNode.CurrentlyConsumableMemoryBlocks
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_NumaNode class

@@ -13,6 +13,17 @@ title: CIM\_Component class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Component
+- CIM_Component.GroupComponent
+- CIM_Component.PartComponent
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Component class

@@ -7,6 +7,22 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ReplicationAuthorizationSettingData
+- Msvm_ReplicationAuthorizationSettingData.InstanceID
+- Msvm_ReplicationAuthorizationSettingData.Caption
+- Msvm_ReplicationAuthorizationSettingData.Description
+- Msvm_ReplicationAuthorizationSettingData.ElementName
+- Msvm_ReplicationAuthorizationSettingData.AllowedPrimaryHostSystem
+- Msvm_ReplicationAuthorizationSettingData.TrustGroup
+- Msvm_ReplicationAuthorizationSettingData.ReplicaStorageLocation
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ReplicationAuthorizationSettingData class

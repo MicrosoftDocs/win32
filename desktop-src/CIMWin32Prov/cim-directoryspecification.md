@@ -13,6 +13,26 @@ title: CIM\_DirectorySpecification class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_DirectorySpecification
+- CIM_DirectorySpecification.CheckID
+- CIM_DirectorySpecification.Caption
+- CIM_DirectorySpecification.Description
+- CIM_DirectorySpecification.CheckMode
+- CIM_DirectorySpecification.Name
+- CIM_DirectorySpecification.TargetOperatingSystem
+- CIM_DirectorySpecification.Version
+- CIM_DirectorySpecification.SoftwareElementID
+- CIM_DirectorySpecification.SoftwareElementState
+- CIM_DirectorySpecification.DirectoryPath
+- CIM_DirectorySpecification.DirectoryType
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_DirectorySpecification class

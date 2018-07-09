@@ -7,6 +7,34 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ResourceAllocationSettingData
+- CIM_ResourceAllocationSettingData.ResourceType
+- CIM_ResourceAllocationSettingData.OtherResourceType
+- CIM_ResourceAllocationSettingData.ResourceSubType
+- CIM_ResourceAllocationSettingData.PoolID
+- CIM_ResourceAllocationSettingData.ConsumerVisibility
+- CIM_ResourceAllocationSettingData.HostResource
+- CIM_ResourceAllocationSettingData.AllocationUnits
+- CIM_ResourceAllocationSettingData.VirtualQuantity
+- CIM_ResourceAllocationSettingData.Reservation
+- CIM_ResourceAllocationSettingData.Limit
+- CIM_ResourceAllocationSettingData.Weight
+- CIM_ResourceAllocationSettingData.AutomaticAllocation
+- CIM_ResourceAllocationSettingData.AutomaticDeallocation
+- CIM_ResourceAllocationSettingData.Parent
+- CIM_ResourceAllocationSettingData.Connection
+- CIM_ResourceAllocationSettingData.Address
+- CIM_ResourceAllocationSettingData.MappingBehavior
+- CIM_ResourceAllocationSettingData.AddressOnParent
+- CIM_ResourceAllocationSettingData.VirtualQuantityUnits
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_ResourceAllocationSettingData class

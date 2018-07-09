@@ -13,6 +13,40 @@ title: CIM\_ParallelController class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ParallelController
+- CIM_ParallelController.Availability
+- CIM_ParallelController.Capabilities
+- CIM_ParallelController.CapabilityDescriptions
+- CIM_ParallelController.Caption
+- CIM_ParallelController.ConfigManagerErrorCode
+- CIM_ParallelController.ConfigManagerUserConfig
+- CIM_ParallelController.CreationClassName
+- CIM_ParallelController.Description
+- CIM_ParallelController.DeviceID
+- CIM_ParallelController.DMASupport
+- CIM_ParallelController.ErrorCleared
+- CIM_ParallelController.ErrorDescription
+- CIM_ParallelController.InstallDate
+- CIM_ParallelController.LastErrorCode
+- CIM_ParallelController.MaxNumberControlled
+- CIM_ParallelController.Name
+- CIM_ParallelController.PNPDeviceID
+- CIM_ParallelController.PowerManagementCapabilities
+- CIM_ParallelController.PowerManagementSupported
+- CIM_ParallelController.ProtocolSupported
+- CIM_ParallelController.Status
+- CIM_ParallelController.StatusInfo
+- CIM_ParallelController.SystemCreationClassName
+- CIM_ParallelController.SystemName
+- CIM_ParallelController.TimeOfLastReset
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_ParallelController class

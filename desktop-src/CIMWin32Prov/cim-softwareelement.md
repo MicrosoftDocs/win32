@@ -13,6 +13,31 @@ title: CIM\_SoftwareElement class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_SoftwareElement
+- CIM_SoftwareElement.BuildNumber
+- CIM_SoftwareElement.Caption
+- CIM_SoftwareElement.CodeSet
+- CIM_SoftwareElement.Description
+- CIM_SoftwareElement.IdentificationCode
+- CIM_SoftwareElement.InstallDate
+- CIM_SoftwareElement.LanguageEdition
+- CIM_SoftwareElement.Manufacturer
+- CIM_SoftwareElement.Name
+- CIM_SoftwareElement.OtherTargetOS
+- CIM_SoftwareElement.SerialNumber
+- CIM_SoftwareElement.SoftwareElementID
+- CIM_SoftwareElement.SoftwareElementState
+- CIM_SoftwareElement.Status
+- CIM_SoftwareElement.TargetOperatingSystem
+- CIM_SoftwareElement.Version
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_SoftwareElement class

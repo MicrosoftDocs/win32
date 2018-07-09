@@ -7,6 +7,37 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- MSMCAEvent_SystemEventError
+- MSMCAEvent_SystemEventError.Active
+- MSMCAEvent_SystemEventError.AdditionalErrors
+- MSMCAEvent_SystemEventError.Cpu
+- MSMCAEvent_SystemEventError.ErrorSeverity
+- MSMCAEvent_SystemEventError.InstanceName
+- MSMCAEvent_SystemEventError.RawRecord
+- MSMCAEvent_SystemEventError.RecordId
+- MSMCAEvent_SystemEventError.SEL_DATA1
+- MSMCAEvent_SystemEventError.SEL_DATA2
+- MSMCAEvent_SystemEventError.SEL_DATA3
+- MSMCAEvent_SystemEventError.SEL_EVENT_DIR_TYPE
+- MSMCAEvent_SystemEventError.SEL_EVM_REV
+- MSMCAEvent_SystemEventError.SEL_GENERATOR_ID
+- MSMCAEvent_SystemEventError.SEL_RECORD_ID
+- MSMCAEvent_SystemEventError.SEL_RECORD_TYPE
+- MSMCAEvent_SystemEventError.SEL_SENSOR_NUM
+- MSMCAEvent_SystemEventError.SEL_SENSOR_TYPE
+- MSMCAEvent_SystemEventError.SEL_TIME_STAMP
+- MSMCAEvent_SystemEventError.Size
+- MSMCAEvent_SystemEventError.Type
+- MSMCAEvent_SystemEventError.VALIDATION_BITS
+- MSMCAEvent_SystemEventError.LogToEventlog
+api_type: 
+- DllExport
+api_location: 
+- Wmiprov.dll
 ---
 
 # MSMCAEvent\_SystemEventError class

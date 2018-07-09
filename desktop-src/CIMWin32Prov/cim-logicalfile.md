@@ -13,6 +13,46 @@ title: CIM\_LogicalFile class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_LogicalFile
+- CIM_LogicalFile.Caption
+- CIM_LogicalFile.Description
+- CIM_LogicalFile.InstallDate
+- CIM_LogicalFile.Status
+- CIM_LogicalFile.AccessMask
+- CIM_LogicalFile.Archive
+- CIM_LogicalFile.Compressed
+- CIM_LogicalFile.CompressionMethod
+- CIM_LogicalFile.CreationClassName
+- CIM_LogicalFile.CreationDate
+- CIM_LogicalFile.CSCreationClassName
+- CIM_LogicalFile.CSName
+- CIM_LogicalFile.Drive
+- CIM_LogicalFile.EightDotThreeFileName
+- CIM_LogicalFile.Encrypted
+- CIM_LogicalFile.EncryptionMethod
+- CIM_LogicalFile.Name
+- CIM_LogicalFile.Extension
+- CIM_LogicalFile.FileName
+- CIM_LogicalFile.FileSize
+- CIM_LogicalFile.FileType
+- CIM_LogicalFile.FSCreationClassName
+- CIM_LogicalFile.FSName
+- CIM_LogicalFile.Hidden
+- CIM_LogicalFile.InUseCount
+- CIM_LogicalFile.LastAccessed
+- CIM_LogicalFile.LastModified
+- CIM_LogicalFile.Path
+- CIM_LogicalFile.Readable
+- CIM_LogicalFile.System
+- CIM_LogicalFile.Writeable
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_LogicalFile class

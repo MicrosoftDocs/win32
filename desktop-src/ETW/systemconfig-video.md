@@ -7,6 +7,25 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SystemConfig_Video
+- SystemConfig_Video.MemorySize
+- SystemConfig_Video.XResolution
+- SystemConfig_Video.YResolution
+- SystemConfig_Video.BitsPerPixel
+- SystemConfig_Video.VRefresh
+- SystemConfig_Video.ChipType
+- SystemConfig_Video.DACType
+- SystemConfig_Video.AdapterString
+- SystemConfig_Video.BiosString
+- SystemConfig_Video.DeviceId
+- SystemConfig_Video.StateFlags
+api_type: 
+- NA
+api_location: 
 ---
 
 # SystemConfig\_Video class

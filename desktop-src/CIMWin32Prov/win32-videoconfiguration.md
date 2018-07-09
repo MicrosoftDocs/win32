@@ -13,6 +13,45 @@ title: Win32\_VideoConfiguration class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_VideoConfiguration
+- Win32_VideoConfiguration.Caption
+- Win32_VideoConfiguration.Description
+- Win32_VideoConfiguration.SettingID
+- Win32_VideoConfiguration.ActualColorResolution
+- Win32_VideoConfiguration.AdapterChipType
+- Win32_VideoConfiguration.AdapterCompatibility
+- Win32_VideoConfiguration.AdapterDACType
+- Win32_VideoConfiguration.AdapterDescription
+- Win32_VideoConfiguration.AdapterRAM
+- Win32_VideoConfiguration.AdapterType
+- Win32_VideoConfiguration.BitsPerPixel
+- Win32_VideoConfiguration.ColorPlanes
+- Win32_VideoConfiguration.ColorTableEntries
+- Win32_VideoConfiguration.DeviceSpecificPens
+- Win32_VideoConfiguration.DriverDate
+- Win32_VideoConfiguration.HorizontalResolution
+- Win32_VideoConfiguration.InfFilename
+- Win32_VideoConfiguration.InfSection
+- Win32_VideoConfiguration.InstalledDisplayDrivers
+- Win32_VideoConfiguration.MonitorManufacturer
+- Win32_VideoConfiguration.MonitorType
+- Win32_VideoConfiguration.Name
+- Win32_VideoConfiguration.PixelsPerXLogicalInch
+- Win32_VideoConfiguration.PixelsPerYLogicalInch
+- Win32_VideoConfiguration.RefreshRate
+- Win32_VideoConfiguration.ScanMode
+- Win32_VideoConfiguration.ScreenHeight
+- Win32_VideoConfiguration.ScreenWidth
+- Win32_VideoConfiguration.SystemPaletteEntries
+- Win32_VideoConfiguration.VerticalResolution
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_VideoConfiguration class

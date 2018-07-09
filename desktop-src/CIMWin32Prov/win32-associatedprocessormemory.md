@@ -13,6 +13,18 @@ title: Win32\_AssociatedProcessorMemory class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_AssociatedProcessorMemory
+- Win32_AssociatedProcessorMemory.BusSpeed
+- Win32_AssociatedProcessorMemory.Dependent
+- Win32_AssociatedProcessorMemory.Antecedent
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_AssociatedProcessorMemory class

@@ -7,6 +7,35 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- EventTrace_Header
+- EventTrace_Header.BufferSize
+- EventTrace_Header.Version
+- EventTrace_Header.ProviderVersion
+- EventTrace_Header.NumberOfProcessors
+- EventTrace_Header.EndTime
+- EventTrace_Header.TimerResolution
+- EventTrace_Header.MaxFileSize
+- EventTrace_Header.LogFileMode
+- EventTrace_Header.BuffersWritten
+- EventTrace_Header.StartBuffers
+- EventTrace_Header.PointerSize
+- EventTrace_Header.EventsLost
+- EventTrace_Header.CPUSpeed
+- EventTrace_Header.LoggerName
+- EventTrace_Header.LogFileName
+- EventTrace_Header.TimeZoneInformation
+- EventTrace_Header.BootTime
+- EventTrace_Header.PerfFreq
+- EventTrace_Header.StartTime
+- EventTrace_Header.ReservedFlags
+- EventTrace_Header.BuffersLost
+api_type: 
+- NA
+api_location: 
 ---
 
 # EventTrace\_Header class

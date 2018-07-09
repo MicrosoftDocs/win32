@@ -7,6 +7,27 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- MSMCAEvent_SMBIOSError
+- MSMCAEvent_SMBIOSError.Active
+- MSMCAEvent_SMBIOSError.AdditionalErrors
+- MSMCAEvent_SMBIOSError.Cpu
+- MSMCAEvent_SMBIOSError.ErrorSeverity
+- MSMCAEvent_SMBIOSError.InstanceName
+- MSMCAEvent_SMBIOSError.RawRecord
+- MSMCAEvent_SMBIOSError.RecordId
+- MSMCAEvent_SMBIOSError.Size
+- MSMCAEvent_SMBIOSError.SMBIOS_EVENT_TYPE
+- MSMCAEvent_SMBIOSError.Type
+- MSMCAEvent_SMBIOSError.VALIDATION_BITS
+- MSMCAEvent_SMBIOSError.LogToEventlog
+api_type: 
+- DllExport
+api_location: 
+- Wmiprov.dll
 ---
 
 # MSMCAEvent\_SMBIOSError class

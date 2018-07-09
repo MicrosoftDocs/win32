@@ -13,6 +13,76 @@ title: Win32\_NetworkAdapterConfiguration class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_NetworkAdapterConfiguration
+- Win32_NetworkAdapterConfiguration.Caption
+- Win32_NetworkAdapterConfiguration.Description
+- Win32_NetworkAdapterConfiguration.SettingID
+- Win32_NetworkAdapterConfiguration.ArpAlwaysSourceRoute
+- Win32_NetworkAdapterConfiguration.ArpUseEtherSNAP
+- Win32_NetworkAdapterConfiguration.DatabasePath
+- Win32_NetworkAdapterConfiguration.DeadGWDetectEnabled
+- Win32_NetworkAdapterConfiguration.DefaultIPGateway
+- Win32_NetworkAdapterConfiguration.DefaultTOS
+- Win32_NetworkAdapterConfiguration.DefaultTTL
+- Win32_NetworkAdapterConfiguration.DHCPEnabled
+- Win32_NetworkAdapterConfiguration.DHCPLeaseExpires
+- Win32_NetworkAdapterConfiguration.DHCPLeaseObtained
+- Win32_NetworkAdapterConfiguration.DHCPServer
+- Win32_NetworkAdapterConfiguration.DNSDomain
+- Win32_NetworkAdapterConfiguration.DNSDomainSuffixSearchOrder
+- Win32_NetworkAdapterConfiguration.DNSEnabledForWINSResolution
+- Win32_NetworkAdapterConfiguration.DNSHostName
+- Win32_NetworkAdapterConfiguration.DNSServerSearchOrder
+- Win32_NetworkAdapterConfiguration.DomainDNSRegistrationEnabled
+- Win32_NetworkAdapterConfiguration.ForwardBufferMemory
+- Win32_NetworkAdapterConfiguration.FullDNSRegistrationEnabled
+- Win32_NetworkAdapterConfiguration.GatewayCostMetric
+- Win32_NetworkAdapterConfiguration.IGMPLevel
+- Win32_NetworkAdapterConfiguration.Index
+- Win32_NetworkAdapterConfiguration.InterfaceIndex
+- Win32_NetworkAdapterConfiguration.IPAddress
+- Win32_NetworkAdapterConfiguration.IPConnectionMetric
+- Win32_NetworkAdapterConfiguration.IPEnabled
+- Win32_NetworkAdapterConfiguration.IPFilterSecurityEnabled
+- Win32_NetworkAdapterConfiguration.IPPortSecurityEnabled
+- Win32_NetworkAdapterConfiguration.IPSecPermitIPProtocols
+- Win32_NetworkAdapterConfiguration.IPSecPermitTCPPorts
+- Win32_NetworkAdapterConfiguration.IPSecPermitUDPPorts
+- Win32_NetworkAdapterConfiguration.IPSubnet
+- Win32_NetworkAdapterConfiguration.IPUseZeroBroadcast
+- Win32_NetworkAdapterConfiguration.IPXAddress
+- Win32_NetworkAdapterConfiguration.IPXEnabled
+- Win32_NetworkAdapterConfiguration.IPXFrameType
+- Win32_NetworkAdapterConfiguration.IPXMediaType
+- Win32_NetworkAdapterConfiguration.IPXNetworkNumber
+- Win32_NetworkAdapterConfiguration.IPXVirtualNetNumber
+- Win32_NetworkAdapterConfiguration.KeepAliveInterval
+- Win32_NetworkAdapterConfiguration.KeepAliveTime
+- Win32_NetworkAdapterConfiguration.MACAddress
+- Win32_NetworkAdapterConfiguration.MTU
+- Win32_NetworkAdapterConfiguration.NumForwardPackets
+- Win32_NetworkAdapterConfiguration.PMTUBHDetectEnabled
+- Win32_NetworkAdapterConfiguration.PMTUDiscoveryEnabled
+- Win32_NetworkAdapterConfiguration.ServiceName
+- Win32_NetworkAdapterConfiguration.TcpipNetbiosOptions
+- Win32_NetworkAdapterConfiguration.TcpMaxConnectRetransmissions
+- Win32_NetworkAdapterConfiguration.TcpMaxDataRetransmissions
+- Win32_NetworkAdapterConfiguration.TcpNumConnections
+- Win32_NetworkAdapterConfiguration.TcpUseRFC1122UrgentPointer
+- Win32_NetworkAdapterConfiguration.TcpWindowSize
+- Win32_NetworkAdapterConfiguration.WINSEnableLMHostsLookup
+- Win32_NetworkAdapterConfiguration.WINSHostLookupFile
+- Win32_NetworkAdapterConfiguration.WINSPrimaryServer
+- Win32_NetworkAdapterConfiguration.WINSScopeID
+- Win32_NetworkAdapterConfiguration.WINSSecondaryServer
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_NetworkAdapterConfiguration class

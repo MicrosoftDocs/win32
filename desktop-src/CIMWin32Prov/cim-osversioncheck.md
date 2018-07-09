@@ -13,6 +13,26 @@ title: CIM\_OSVersionCheck class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_OSVersionCheck
+- CIM_OSVersionCheck.CheckID
+- CIM_OSVersionCheck.Caption
+- CIM_OSVersionCheck.Description
+- CIM_OSVersionCheck.CheckMode
+- CIM_OSVersionCheck.Name
+- CIM_OSVersionCheck.TargetOperatingSystem
+- CIM_OSVersionCheck.Version
+- CIM_OSVersionCheck.SoftwareElementID
+- CIM_OSVersionCheck.SoftwareElementState
+- CIM_OSVersionCheck.MaximumVersion
+- CIM_OSVersionCheck.MinimumVersion
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_OSVersionCheck class

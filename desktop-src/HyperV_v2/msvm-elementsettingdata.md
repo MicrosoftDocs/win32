@@ -7,6 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ElementSettingData
+- Msvm_ElementSettingData.ManagedElement
+- Msvm_ElementSettingData.SettingData
+- Msvm_ElementSettingData.IsDefault
+- Msvm_ElementSettingData.IsCurrent
+- Msvm_ElementSettingData.IsNext
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ElementSettingData class

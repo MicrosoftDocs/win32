@@ -7,6 +7,43 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_MetricService
+- Msvm_MetricService.InstanceID
+- Msvm_MetricService.Caption
+- Msvm_MetricService.Description
+- Msvm_MetricService.ElementName
+- Msvm_MetricService.InstallDate
+- Msvm_MetricService.OperationalStatus
+- Msvm_MetricService.StatusDescriptions
+- Msvm_MetricService.Status
+- Msvm_MetricService.HealthState
+- Msvm_MetricService.CommunicationStatus
+- Msvm_MetricService.DetailedStatus
+- Msvm_MetricService.OperatingStatus
+- Msvm_MetricService.PrimaryStatus
+- Msvm_MetricService.EnabledState
+- Msvm_MetricService.OtherEnabledState
+- Msvm_MetricService.RequestedState
+- Msvm_MetricService.EnabledDefault
+- Msvm_MetricService.TimeOfLastStateChange
+- Msvm_MetricService.AvailableRequestedStates
+- Msvm_MetricService.TransitioningToState
+- Msvm_MetricService.SystemCreationClassName
+- Msvm_MetricService.SystemName
+- Msvm_MetricService.Name
+- Msvm_MetricService.CreationClassName
+- Msvm_MetricService.PrimaryOwnerName
+- Msvm_MetricService.PrimaryOwnerContact
+- Msvm_MetricService.StartMode
+- Msvm_MetricService.Started
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_MetricService class

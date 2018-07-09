@@ -13,6 +13,32 @@ title: CIM\_BIOSElement class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_BIOSElement
+- CIM_BIOSElement.Caption
+- CIM_BIOSElement.Description
+- CIM_BIOSElement.InstallDate
+- CIM_BIOSElement.Status
+- CIM_BIOSElement.Name
+- CIM_BIOSElement.BuildNumber
+- CIM_BIOSElement.CodeSet
+- CIM_BIOSElement.IdentificationCode
+- CIM_BIOSElement.LanguageEdition
+- CIM_BIOSElement.OtherTargetOS
+- CIM_BIOSElement.SerialNumber
+- CIM_BIOSElement.SoftwareElementID
+- CIM_BIOSElement.SoftwareElementState
+- CIM_BIOSElement.TargetOperatingSystem
+- CIM_BIOSElement.Manufacturer
+- CIM_BIOSElement.Version
+- CIM_BIOSElement.PrimaryBIOS
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_BIOSElement class

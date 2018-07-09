@@ -13,6 +13,24 @@ title: CIM\_SoftwareFeature class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_SoftwareFeature
+- CIM_SoftwareFeature.Caption
+- CIM_SoftwareFeature.Description
+- CIM_SoftwareFeature.IdentifyingNumber
+- CIM_SoftwareFeature.InstallDate
+- CIM_SoftwareFeature.Name
+- CIM_SoftwareFeature.ProductName
+- CIM_SoftwareFeature.Status
+- CIM_SoftwareFeature.Vendor
+- CIM_SoftwareFeature.Version
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_SoftwareFeature class

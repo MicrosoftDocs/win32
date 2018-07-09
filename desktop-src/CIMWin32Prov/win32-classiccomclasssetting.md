@@ -13,6 +13,41 @@ title: Win32\_ClassicCOMClassSetting class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_ClassicCOMClassSetting
+- Win32_ClassicCOMClassSetting.Caption
+- Win32_ClassicCOMClassSetting.Description
+- Win32_ClassicCOMClassSetting.SettingID
+- Win32_ClassicCOMClassSetting.AppID
+- Win32_ClassicCOMClassSetting.AutoConvertToClsid
+- Win32_ClassicCOMClassSetting.AutoTreatAsClsid
+- Win32_ClassicCOMClassSetting.ComponentId
+- Win32_ClassicCOMClassSetting.Control
+- Win32_ClassicCOMClassSetting.DefaultIcon
+- Win32_ClassicCOMClassSetting.InprocHandler
+- Win32_ClassicCOMClassSetting.InprocHandler32
+- Win32_ClassicCOMClassSetting.InprocServer
+- Win32_ClassicCOMClassSetting.InprocServer32
+- Win32_ClassicCOMClassSetting.Insertable
+- Win32_ClassicCOMClassSetting.JavaClass
+- Win32_ClassicCOMClassSetting.LocalServer
+- Win32_ClassicCOMClassSetting.LocalServer32
+- Win32_ClassicCOMClassSetting.LongDisplayName
+- Win32_ClassicCOMClassSetting.ProgId
+- Win32_ClassicCOMClassSetting.ShortDisplayName
+- Win32_ClassicCOMClassSetting.ThreadingModel
+- Win32_ClassicCOMClassSetting.ToolBoxBitmap32
+- Win32_ClassicCOMClassSetting.TreatAsClsid
+- Win32_ClassicCOMClassSetting.TypeLibraryId
+- Win32_ClassicCOMClassSetting.Version
+- Win32_ClassicCOMClassSetting.VersionIndependentProgId
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_ClassicCOMClassSetting class

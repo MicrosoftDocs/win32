@@ -7,6 +7,19 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- PST_E_OK
+- PST_E_TYPE_EXISTS
+- PST_AUTHENTICODE
+- PST_BINARY_CHECK
+- PST_SECURITY_DESCRIPTOR
+api_type: 
+- HeaderDef
+api_location: 
+- Pstore.h
 ---
 
 # PStore Constants

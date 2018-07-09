@@ -13,6 +13,26 @@ title: Win32\_PortResource class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PortResource
+- Win32_PortResource.Alias
+- Win32_PortResource.Caption
+- Win32_PortResource.CreationClassName
+- Win32_PortResource.CSCreationClassName
+- Win32_PortResource.CSName
+- Win32_PortResource.Description
+- Win32_PortResource.EndingAddress
+- Win32_PortResource.InstallDate
+- Win32_PortResource.Name
+- Win32_PortResource.StartingAddress
+- Win32_PortResource.Status
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PortResource class

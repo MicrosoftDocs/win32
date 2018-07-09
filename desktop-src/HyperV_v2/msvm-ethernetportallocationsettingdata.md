@@ -7,6 +7,47 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_EthernetPortAllocationSettingData
+- Msvm_EthernetPortAllocationSettingData.InstanceID
+- Msvm_EthernetPortAllocationSettingData.Caption
+- Msvm_EthernetPortAllocationSettingData.Description
+- Msvm_EthernetPortAllocationSettingData.ElementName
+- Msvm_EthernetPortAllocationSettingData.ResourceType
+- Msvm_EthernetPortAllocationSettingData.OtherResourceType
+- Msvm_EthernetPortAllocationSettingData.ResourceSubType
+- Msvm_EthernetPortAllocationSettingData.PoolID
+- Msvm_EthernetPortAllocationSettingData.ConsumerVisibility
+- Msvm_EthernetPortAllocationSettingData.HostResource
+- Msvm_EthernetPortAllocationSettingData.AllocationUnits
+- Msvm_EthernetPortAllocationSettingData.VirtualQuantity
+- Msvm_EthernetPortAllocationSettingData.Reservation
+- Msvm_EthernetPortAllocationSettingData.Limit
+- Msvm_EthernetPortAllocationSettingData.Weight
+- Msvm_EthernetPortAllocationSettingData.AutomaticAllocation
+- Msvm_EthernetPortAllocationSettingData.AutomaticDeallocation
+- Msvm_EthernetPortAllocationSettingData.Parent
+- Msvm_EthernetPortAllocationSettingData.Connection
+- Msvm_EthernetPortAllocationSettingData.Address
+- Msvm_EthernetPortAllocationSettingData.MappingBehavior
+- Msvm_EthernetPortAllocationSettingData.AddressOnParent
+- Msvm_EthernetPortAllocationSettingData.VirtualQuantityUnits
+- Msvm_EthernetPortAllocationSettingData.DesiredVLANEndpointMode
+- Msvm_EthernetPortAllocationSettingData.OtherEndpointMode
+- Msvm_EthernetPortAllocationSettingData.EnabledState
+- Msvm_EthernetPortAllocationSettingData.LastKnownSwitchName
+- Msvm_EthernetPortAllocationSettingData.RequiredFeatures
+- Msvm_EthernetPortAllocationSettingData.RequiredFeatureHints
+- Msvm_EthernetPortAllocationSettingData.TestReplicaPoolID
+- Msvm_EthernetPortAllocationSettingData.TestReplicaSwitchName
+- Msvm_EthernetPortAllocationSettingData.CompartmentGuid
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_EthernetPortAllocationSettingData class

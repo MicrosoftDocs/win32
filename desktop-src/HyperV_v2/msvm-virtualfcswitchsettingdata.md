@@ -7,6 +7,36 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualFcSwitchSettingData
+- Msvm_VirtualFcSwitchSettingData.InstanceID
+- Msvm_VirtualFcSwitchSettingData.Caption
+- Msvm_VirtualFcSwitchSettingData.Description
+- Msvm_VirtualFcSwitchSettingData.ElementName
+- Msvm_VirtualFcSwitchSettingData.VirtualSystemIdentifier
+- Msvm_VirtualFcSwitchSettingData.VirtualSystemType
+- Msvm_VirtualFcSwitchSettingData.Notes
+- Msvm_VirtualFcSwitchSettingData.CreationTime
+- Msvm_VirtualFcSwitchSettingData.ConfigurationID
+- Msvm_VirtualFcSwitchSettingData.ConfigurationDataRoot
+- Msvm_VirtualFcSwitchSettingData.ConfigurationFile
+- Msvm_VirtualFcSwitchSettingData.SnapshotDataRoot
+- Msvm_VirtualFcSwitchSettingData.SuspendDataRoot
+- Msvm_VirtualFcSwitchSettingData.SwapFileDataRoot
+- Msvm_VirtualFcSwitchSettingData.LogDataRoot
+- Msvm_VirtualFcSwitchSettingData.AutomaticStartupAction
+- Msvm_VirtualFcSwitchSettingData.AutomaticStartupActionDelay
+- Msvm_VirtualFcSwitchSettingData.AutomaticStartupActionSequenceNumber
+- Msvm_VirtualFcSwitchSettingData.AutomaticShutdownAction
+- Msvm_VirtualFcSwitchSettingData.AutomaticRecoveryAction
+- Msvm_VirtualFcSwitchSettingData.RecoveryFile
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualFcSwitchSettingData class

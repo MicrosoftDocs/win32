@@ -7,6 +7,19 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- ISR
+- ISR.InitialTime
+- ISR.Routine
+- ISR.ReturnValue
+- ISR.Vector
+- ISR.Reserved
+api_type: 
+- NA
+api_location: 
 ---
 
 # ISR class

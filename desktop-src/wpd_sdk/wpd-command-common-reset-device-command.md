@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- WPD_COMMAND_COMMON_RESET_DEVICE
+api_type: 
+- HeaderDef
+api_location: 
+- PortableDevice.h
 ---
 
 # WPD\_COMMAND\_COMMON\_RESET\_DEVICE Command

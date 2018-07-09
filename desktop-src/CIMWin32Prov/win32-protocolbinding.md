@@ -13,6 +13,18 @@ title: Win32\_ProtocolBinding class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_ProtocolBinding
+- Win32_ProtocolBinding.Antecedent
+- Win32_ProtocolBinding.Dependent
+- Win32_ProtocolBinding.Device
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_ProtocolBinding class

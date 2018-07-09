@@ -13,6 +13,17 @@ title: CIM\_VideoSetting class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_VideoSetting
+- CIM_VideoSetting.Setting
+- CIM_VideoSetting.Element
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_VideoSetting class

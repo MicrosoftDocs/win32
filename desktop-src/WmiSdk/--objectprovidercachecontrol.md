@@ -11,6 +11,16 @@ title: '\_\_ObjectProviderCacheControl class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- __ObjectProviderCacheControl
+- Root.__ObjectProviderCacheControl.ClearAfter
+api_type: 
+- Schema
+api_location: 
+- Root
 ---
 
 # \_\_ObjectProviderCacheControl class

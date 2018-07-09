@@ -7,6 +7,29 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- EventTrace
+- EventTrace.EventSize
+- EventTrace.ReservedHeaderField
+- EventTrace.EventType
+- EventTrace.TraceLevel
+- EventTrace.TraceVersion
+- EventTrace.ThreadId
+- EventTrace.TimeStamp
+- EventTrace.EventGuid
+- EventTrace.KernelTime
+- EventTrace.UserTime
+- EventTrace.InstanceId
+- EventTrace.ParentGuid
+- EventTrace.ParentInstanceId
+- EventTrace.MofData
+- EventTrace.MofLength
+api_type: 
+- NA
+api_location: 
 ---
 
 # EventTrace class

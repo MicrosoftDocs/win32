@@ -13,6 +13,22 @@ title: Win32\_PrivilegesStatus class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PrivilegesStatus
+- Win32_PrivilegesStatus.Description
+- Win32_PrivilegesStatus.Operation
+- Win32_PrivilegesStatus.ParameterInfo
+- Win32_PrivilegesStatus.ProviderName
+- Win32_PrivilegesStatus.StatusCode
+- Win32_PrivilegesStatus.PrivilegesNotHeld
+- Win32_PrivilegesStatus.PrivilegesRequired
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PrivilegesStatus class

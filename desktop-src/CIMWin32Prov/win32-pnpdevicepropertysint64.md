@@ -13,6 +13,20 @@ title: Win32\_PnPDevicePropertySint64 class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PnPDevicePropertySint64
+- Win32_PnPDevicePropertySint64.Key
+- Win32_PnPDevicePropertySint64.KeyName
+- Win32_PnPDevicePropertySint64.Type
+- Win32_PnPDevicePropertySint64.DeviceID
+- Win32_PnPDevicePropertySint64.Data
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PnPDevicePropertySint64 class

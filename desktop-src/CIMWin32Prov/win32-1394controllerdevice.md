@@ -13,6 +13,22 @@ title: Win32\_1394ControllerDevice class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_1394ControllerDevice
+- Win32_1394ControllerDevice.NegotiatedDataWidth
+- Win32_1394ControllerDevice.NegotiatedSpeed
+- Win32_1394ControllerDevice.AccessState
+- Win32_1394ControllerDevice.NumberOfHardResets
+- Win32_1394ControllerDevice.NumberOfSoftResets
+- Win32_1394ControllerDevice.Antecedent
+- Win32_1394ControllerDevice.Dependent
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_1394ControllerDevice class

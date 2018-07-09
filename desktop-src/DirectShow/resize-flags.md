@@ -7,6 +7,18 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- RESIZEF_STRETCH
+- RESIZEF_CROP
+- RESIZEF_PRESERVEASPECTRATIO
+- RESIZEF_PRESERVEASPECTRATIO_NOLETTERBOX
+api_type: 
+- HeaderDef
+api_location: 
+- Qedit.h
 ---
 
 # Resize Flags

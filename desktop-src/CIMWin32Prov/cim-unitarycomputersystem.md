@@ -13,6 +13,31 @@ title: CIM\_UnitaryComputerSystem class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_UnitaryComputerSystem
+- CIM_UnitaryComputerSystem.Caption
+- CIM_UnitaryComputerSystem.CreationClassName
+- CIM_UnitaryComputerSystem.Description
+- CIM_UnitaryComputerSystem.InitialLoadInfo
+- CIM_UnitaryComputerSystem.InstallDate
+- CIM_UnitaryComputerSystem.LastLoadInfo
+- CIM_UnitaryComputerSystem.Name
+- CIM_UnitaryComputerSystem.NameFormat
+- CIM_UnitaryComputerSystem.PowerManagementCapabilities
+- CIM_UnitaryComputerSystem.PowerManagementSupported
+- CIM_UnitaryComputerSystem.PowerState
+- CIM_UnitaryComputerSystem.PrimaryOwnerContact
+- CIM_UnitaryComputerSystem.PrimaryOwnerName
+- CIM_UnitaryComputerSystem.ResetCapability
+- CIM_UnitaryComputerSystem.Roles
+- CIM_UnitaryComputerSystem.Status
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_UnitaryComputerSystem class

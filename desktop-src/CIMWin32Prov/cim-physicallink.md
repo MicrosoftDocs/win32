@@ -13,6 +13,34 @@ title: CIM\_PhysicalLink class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_PhysicalLink
+- CIM_PhysicalLink.Caption
+- CIM_PhysicalLink.CreationClassName
+- CIM_PhysicalLink.Description
+- CIM_PhysicalLink.InstallDate
+- CIM_PhysicalLink.Length
+- CIM_PhysicalLink.Manufacturer
+- CIM_PhysicalLink.MaxLength
+- CIM_PhysicalLink.MediaType
+- CIM_PhysicalLink.Model
+- CIM_PhysicalLink.Name
+- CIM_PhysicalLink.OtherIdentifyingInfo
+- CIM_PhysicalLink.PartNumber
+- CIM_PhysicalLink.PoweredOn
+- CIM_PhysicalLink.SerialNumber
+- CIM_PhysicalLink.SKU
+- CIM_PhysicalLink.Status
+- CIM_PhysicalLink.Tag
+- CIM_PhysicalLink.Version
+- CIM_PhysicalLink.Wired
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_PhysicalLink class

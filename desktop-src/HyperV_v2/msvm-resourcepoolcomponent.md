@@ -7,6 +7,25 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ResourcePoolComponent
+- Msvm_ResourcePoolComponent.CLSID
+- Msvm_ResourcePoolComponent.Context
+- Msvm_ResourcePoolComponent.Enabled
+- Msvm_ResourcePoolComponent.Name
+- Msvm_ResourcePoolComponent.AllocationCapabilitiesClassName
+- Msvm_ResourcePoolComponent.ResourcePoolClassName
+- Msvm_ResourcePoolComponent.ResourcePoolSettingDataClassName
+- Msvm_ResourcePoolComponent.PhysicalDeviceClassName
+- Msvm_ResourcePoolComponent.WmiFactoryCLSID
+- Msvm_ResourcePoolComponent.MaxParentPools
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ResourcePoolComponent class

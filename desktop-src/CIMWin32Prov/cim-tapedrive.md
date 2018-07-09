@@ -13,6 +13,47 @@ title: CIM\_TapeDrive class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_TapeDrive
+- CIM_TapeDrive.Availability
+- CIM_TapeDrive.Capabilities
+- CIM_TapeDrive.CapabilityDescriptions
+- CIM_TapeDrive.Caption
+- CIM_TapeDrive.CompressionMethod
+- CIM_TapeDrive.ConfigManagerErrorCode
+- CIM_TapeDrive.ConfigManagerUserConfig
+- CIM_TapeDrive.CreationClassName
+- CIM_TapeDrive.DefaultBlockSize
+- CIM_TapeDrive.Description
+- CIM_TapeDrive.DeviceID
+- CIM_TapeDrive.EOTWarningZoneSize
+- CIM_TapeDrive.ErrorCleared
+- CIM_TapeDrive.ErrorDescription
+- CIM_TapeDrive.ErrorMethodology
+- CIM_TapeDrive.InstallDate
+- CIM_TapeDrive.LastErrorCode
+- CIM_TapeDrive.MaxBlockSize
+- CIM_TapeDrive.MaxMediaSize
+- CIM_TapeDrive.MaxPartitionCount
+- CIM_TapeDrive.MinBlockSize
+- CIM_TapeDrive.Name
+- CIM_TapeDrive.NeedsCleaning
+- CIM_TapeDrive.NumberOfMediaSupported
+- CIM_TapeDrive.Padding
+- CIM_TapeDrive.PNPDeviceID
+- CIM_TapeDrive.PowerManagementCapabilities
+- CIM_TapeDrive.PowerManagementSupported
+- CIM_TapeDrive.Status
+- CIM_TapeDrive.StatusInfo
+- CIM_TapeDrive.SystemCreationClassName
+- CIM_TapeDrive.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_TapeDrive class

@@ -7,6 +7,21 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_LogicalPort
+- CIM_LogicalPort.Speed
+- CIM_LogicalPort.MaxSpeed
+- CIM_LogicalPort.RequestedSpeed
+- CIM_LogicalPort.UsageRestriction
+- CIM_LogicalPort.PortType
+- CIM_LogicalPort.OtherPortType
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_LogicalPort class

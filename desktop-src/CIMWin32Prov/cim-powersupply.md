@@ -13,6 +13,46 @@ title: CIM\_PowerSupply class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_PowerSupply
+- CIM_PowerSupply.ActiveInputVoltage
+- CIM_PowerSupply.Availability
+- CIM_PowerSupply.Caption
+- CIM_PowerSupply.ConfigManagerErrorCode
+- CIM_PowerSupply.ConfigManagerUserConfig
+- CIM_PowerSupply.CreationClassName
+- CIM_PowerSupply.Description
+- CIM_PowerSupply.DeviceID
+- CIM_PowerSupply.ErrorCleared
+- CIM_PowerSupply.ErrorDescription
+- CIM_PowerSupply.InstallDate
+- CIM_PowerSupply.IsSwitchingSupply
+- CIM_PowerSupply.LastErrorCode
+- CIM_PowerSupply.Name
+- CIM_PowerSupply.PNPDeviceID
+- CIM_PowerSupply.PowerManagementCapabilities
+- CIM_PowerSupply.PowerManagementSupported
+- CIM_PowerSupply.Range1InputFrequencyHigh
+- CIM_PowerSupply.Range1InputFrequencyLow
+- CIM_PowerSupply.Range1InputVoltageHigh
+- CIM_PowerSupply.Range1InputVoltageLow
+- CIM_PowerSupply.Range2InputFrequencyHigh
+- CIM_PowerSupply.Range2InputFrequencyLow
+- CIM_PowerSupply.Range2InputVoltageHigh
+- CIM_PowerSupply.Range2InputVoltageLow
+- CIM_PowerSupply.Status
+- CIM_PowerSupply.StatusInfo
+- CIM_PowerSupply.SystemCreationClassName
+- CIM_PowerSupply.SystemName
+- CIM_PowerSupply.TotalOutputPower
+- CIM_PowerSupply.TypeOfRangeSwitching
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_PowerSupply class

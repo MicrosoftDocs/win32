@@ -13,6 +13,20 @@ title: Win32\_PnPDevicePropertyBinary class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PnPDevicePropertyBinary
+- Win32_PnPDevicePropertyBinary.Key
+- Win32_PnPDevicePropertyBinary.KeyName
+- Win32_PnPDevicePropertyBinary.Type
+- Win32_PnPDevicePropertyBinary.DeviceID
+- Win32_PnPDevicePropertyBinary.Data
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PnPDevicePropertyBinary class

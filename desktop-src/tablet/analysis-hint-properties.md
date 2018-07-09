@@ -7,6 +7,25 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- GUID_AHP_ALLOWPARTIALDICTIONARYTERMS
+- GUID_AHP_ANALYSISHINTNAME
+- GUID_AHP_COERCETOFACTOID
+- GUID_AHP_ENABLEDUNICODECHARACTERRANGES
+- GUID_AHP_FACTOID
+- GUID_AHP_GUIDE
+- GUID_AHP_PREFIXTEXT
+- GUID_AHP_SUFFIXTEXT
+- GUID_AHP_TOPINKBREAKSONLY
+- GUID_AHP_WORDLIST
+- GUID_AHP_WORDMODE
+api_type: 
+- HeaderDef
+api_location: 
+- iaguid.h
 ---
 
 # Analysis Hint Properties

@@ -13,6 +13,43 @@ title: Win32\_ParallelPort class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_ParallelPort
+- Win32_ParallelPort.Reset
+- Win32_ParallelPort.SetPowerState
+- Win32_ParallelPort.Availability
+- Win32_ParallelPort.Capabilities
+- Win32_ParallelPort.CapabilityDescriptions
+- Win32_ParallelPort.Caption
+- Win32_ParallelPort.ConfigManagerErrorCode
+- Win32_ParallelPort.ConfigManagerUserConfig
+- Win32_ParallelPort.CreationClassName
+- Win32_ParallelPort.Description
+- Win32_ParallelPort.DeviceID
+- Win32_ParallelPort.DMASupport
+- Win32_ParallelPort.ErrorCleared
+- Win32_ParallelPort.ErrorDescription
+- Win32_ParallelPort.InstallDate
+- Win32_ParallelPort.LastErrorCode
+- Win32_ParallelPort.MaxNumberControlled
+- Win32_ParallelPort.Name
+- Win32_ParallelPort.OSAutoDiscovered
+- Win32_ParallelPort.PNPDeviceID
+- Win32_ParallelPort.PowerManagementCapabilities
+- Win32_ParallelPort.PowerManagementSupported
+- Win32_ParallelPort.ProtocolSupported
+- Win32_ParallelPort.Status
+- Win32_ParallelPort.StatusInfo
+- Win32_ParallelPort.SystemCreationClassName
+- Win32_ParallelPort.SystemName
+- Win32_ParallelPort.TimeOfLastReset
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_ParallelPort class

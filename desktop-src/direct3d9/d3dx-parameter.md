@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- D3DX_PARAMETER_ANNOTATION
+- D3DX_PARAMETER_LITERAL
+- D3DX_PARAMETER_SHARED
+api_type: 
+- HeaderDef
+api_location: 
+- d3dx9effect.h
 ---
 
 # D3DX\_PARAMETER

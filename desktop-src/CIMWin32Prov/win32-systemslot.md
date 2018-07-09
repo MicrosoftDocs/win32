@@ -13,6 +13,50 @@ title: Win32\_SystemSlot class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_SystemSlot
+- Win32_SystemSlot.BusNumber
+- Win32_SystemSlot.Caption
+- Win32_SystemSlot.ConnectorPinout
+- Win32_SystemSlot.ConnectorType
+- Win32_SystemSlot.CreationClassName
+- Win32_SystemSlot.CurrentUsage
+- Win32_SystemSlot.Description
+- Win32_SystemSlot.DeviceNumber
+- Win32_SystemSlot.FunctionNumber
+- Win32_SystemSlot.HeightAllowed
+- Win32_SystemSlot.InstallDate
+- Win32_SystemSlot.LengthAllowed
+- Win32_SystemSlot.Manufacturer
+- Win32_SystemSlot.MaxDataWidth
+- Win32_SystemSlot.Model
+- Win32_SystemSlot.Name
+- Win32_SystemSlot.Number
+- Win32_SystemSlot.OtherIdentifyingInfo
+- Win32_SystemSlot.PartNumber
+- Win32_SystemSlot.PMESignal
+- Win32_SystemSlot.PoweredOn
+- Win32_SystemSlot.PurposeDescription
+- Win32_SystemSlot.SegmentGroupNumber
+- Win32_SystemSlot.SerialNumber
+- Win32_SystemSlot.Shared
+- Win32_SystemSlot.SKU
+- Win32_SystemSlot.SlotDesignation
+- Win32_SystemSlot.SpecialPurpose
+- Win32_SystemSlot.Status
+- Win32_SystemSlot.SupportsHotPlug
+- Win32_SystemSlot.Tag
+- Win32_SystemSlot.ThermalRating
+- Win32_SystemSlot.VccMixedVoltageSupport
+- Win32_SystemSlot.Version
+- Win32_SystemSlot.VppMixedVoltageSupport
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_SystemSlot class

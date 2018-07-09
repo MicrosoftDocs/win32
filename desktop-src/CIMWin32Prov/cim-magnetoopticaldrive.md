@@ -13,6 +13,44 @@ title: CIM\_MagnetoOpticalDrive class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_MagnetoOpticalDrive
+- CIM_MagnetoOpticalDrive.Availability
+- CIM_MagnetoOpticalDrive.Capabilities
+- CIM_MagnetoOpticalDrive.CapabilityDescriptions
+- CIM_MagnetoOpticalDrive.Caption
+- CIM_MagnetoOpticalDrive.CompressionMethod
+- CIM_MagnetoOpticalDrive.ConfigManagerErrorCode
+- CIM_MagnetoOpticalDrive.ConfigManagerUserConfig
+- CIM_MagnetoOpticalDrive.CreationClassName
+- CIM_MagnetoOpticalDrive.DefaultBlockSize
+- CIM_MagnetoOpticalDrive.Description
+- CIM_MagnetoOpticalDrive.DeviceID
+- CIM_MagnetoOpticalDrive.ErrorCleared
+- CIM_MagnetoOpticalDrive.ErrorDescription
+- CIM_MagnetoOpticalDrive.ErrorMethodology
+- CIM_MagnetoOpticalDrive.InstallDate
+- CIM_MagnetoOpticalDrive.LastErrorCode
+- CIM_MagnetoOpticalDrive.MaxBlockSize
+- CIM_MagnetoOpticalDrive.MaxMediaSize
+- CIM_MagnetoOpticalDrive.MinBlockSize
+- CIM_MagnetoOpticalDrive.Name
+- CIM_MagnetoOpticalDrive.NeedsCleaning
+- CIM_MagnetoOpticalDrive.NumberOfMediaSupported
+- CIM_MagnetoOpticalDrive.PNPDeviceID
+- CIM_MagnetoOpticalDrive.PowerManagementCapabilities
+- CIM_MagnetoOpticalDrive.PowerManagementSupported
+- CIM_MagnetoOpticalDrive.Status
+- CIM_MagnetoOpticalDrive.StatusInfo
+- CIM_MagnetoOpticalDrive.SystemCreationClassName
+- CIM_MagnetoOpticalDrive.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_MagnetoOpticalDrive class

@@ -13,6 +13,37 @@ title: Win32\_Refrigeration class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_Refrigeration
+- Win32_Refrigeration.Reset
+- Win32_Refrigeration.SetPowerState
+- Win32_Refrigeration.ActiveCooling
+- Win32_Refrigeration.Availability
+- Win32_Refrigeration.Caption
+- Win32_Refrigeration.ConfigManagerErrorCode
+- Win32_Refrigeration.ConfigManagerUserConfig
+- Win32_Refrigeration.CreationClassName
+- Win32_Refrigeration.Description
+- Win32_Refrigeration.DeviceID
+- Win32_Refrigeration.ErrorCleared
+- Win32_Refrigeration.ErrorDescription
+- Win32_Refrigeration.InstallDate
+- Win32_Refrigeration.LastErrorCode
+- Win32_Refrigeration.Name
+- Win32_Refrigeration.PNPDeviceID
+- Win32_Refrigeration.PowerManagementCapabilities
+- Win32_Refrigeration.PowerManagementSupported
+- Win32_Refrigeration.Status
+- Win32_Refrigeration.StatusInfo
+- Win32_Refrigeration.SystemCreationClassName
+- Win32_Refrigeration.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_Refrigeration class

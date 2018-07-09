@@ -7,6 +7,22 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SystemConfig_V0_Power
+- SystemConfig_V0_Power.s1
+- SystemConfig_V0_Power.s2
+- SystemConfig_V0_Power.s3
+- SystemConfig_V0_Power.s4
+- SystemConfig_V0_Power.s5
+- SystemConfig_V0_Power.Pad1
+- SystemConfig_V0_Power.Pad2
+- SystemConfig_V0_Power.Pad3
+api_type: 
+- NA
+api_location: 
 ---
 
 # SystemConfig\_V0\_Power class

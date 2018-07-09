@@ -7,6 +7,21 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ReferencePointCollection
+- Msvm_ReferencePointCollection.CollectionID
+- Msvm_ReferencePointCollection.ElementName
+- Msvm_ReferencePointCollection.ReferencePointType
+- Msvm_ReferencePointCollection.ConsistencyLevel
+- Msvm_ReferencePointCollection.VirtualSystemCollectionId
+- Msvm_ReferencePointCollection.HasAssociatedLog
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ReferencePointCollection class

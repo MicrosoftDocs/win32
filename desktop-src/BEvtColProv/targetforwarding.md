@@ -13,6 +13,25 @@ title: TargetForwarding class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- TargetForwarding
+- TargetForwarding.TargetEndpoint
+- TargetForwarding.TargetMac
+- TargetForwarding.TargetGuid
+- TargetForwarding.CollectorEndpoint
+- TargetForwarding.Computer
+- TargetForwarding.ForwarderType
+- TargetForwarding.Destination
+- TargetForwarding.DestinationPattern
+- TargetForwarding.Error
+- TargetForwarding.ConnectedSince
+api_type: 
+- DllExport
+api_location: 
+- BEvtCol.exe
 ---
 
 # TargetForwarding class

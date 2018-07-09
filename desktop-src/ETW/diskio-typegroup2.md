@@ -7,6 +7,16 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- DiskIo_TypeGroup2
+- DiskIo_TypeGroup2.Irp
+- DiskIo_TypeGroup2.IssuingThreadId
+api_type: 
+- NA
+api_location: 
 ---
 
 # DiskIo\_TypeGroup2 class

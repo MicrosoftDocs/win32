@@ -7,6 +7,19 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_DesktopMonitor
+- CIM_DesktopMonitor.DisplayType
+- CIM_DesktopMonitor.Bandwidth
+- CIM_DesktopMonitor.ScreenHeight
+- CIM_DesktopMonitor.ScreenWidth
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_DesktopMonitor class

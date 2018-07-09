@@ -7,6 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- TcpIp_V0_TypeGroup1
+- TcpIp_V0_TypeGroup1.daddr
+- TcpIp_V0_TypeGroup1.saddr
+- TcpIp_V0_TypeGroup1.dport
+- TcpIp_V0_TypeGroup1.sport
+- TcpIp_V0_TypeGroup1.size
+- TcpIp_V0_TypeGroup1.PID
+api_type: 
+- NA
+api_location: 
 ---
 
 # TcpIp\_V0\_TypeGroup1 class

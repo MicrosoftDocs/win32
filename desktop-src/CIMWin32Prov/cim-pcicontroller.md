@@ -13,6 +13,37 @@ title: CIM\_PCIController class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_PCIController
+- CIM_PCIController.Availability
+- CIM_PCIController.Caption
+- CIM_PCIController.ConfigManagerErrorCode
+- CIM_PCIController.ConfigManagerUserConfig
+- CIM_PCIController.CreationClassName
+- CIM_PCIController.Description
+- CIM_PCIController.DeviceID
+- CIM_PCIController.ErrorCleared
+- CIM_PCIController.ErrorDescription
+- CIM_PCIController.InstallDate
+- CIM_PCIController.LastErrorCode
+- CIM_PCIController.MaxNumberControlled
+- CIM_PCIController.Name
+- CIM_PCIController.PNPDeviceID
+- CIM_PCIController.PowerManagementCapabilities
+- CIM_PCIController.PowerManagementSupported
+- CIM_PCIController.ProtocolSupported
+- CIM_PCIController.Status
+- CIM_PCIController.StatusInfo
+- CIM_PCIController.SystemCreationClassName
+- CIM_PCIController.SystemName
+- CIM_PCIController.TimeOfLastReset
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_PCIController class

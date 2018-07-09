@@ -7,6 +7,43 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualSystemManagementService
+- Msvm_VirtualSystemManagementService.InstanceID
+- Msvm_VirtualSystemManagementService.Caption
+- Msvm_VirtualSystemManagementService.Description
+- Msvm_VirtualSystemManagementService.ElementName
+- Msvm_VirtualSystemManagementService.InstallDate
+- Msvm_VirtualSystemManagementService.Name
+- Msvm_VirtualSystemManagementService.OperationalStatus
+- Msvm_VirtualSystemManagementService.StatusDescriptions
+- Msvm_VirtualSystemManagementService.Status
+- Msvm_VirtualSystemManagementService.HealthState
+- Msvm_VirtualSystemManagementService.CommunicationStatus
+- Msvm_VirtualSystemManagementService.DetailedStatus
+- Msvm_VirtualSystemManagementService.OperatingStatus
+- Msvm_VirtualSystemManagementService.PrimaryStatus
+- Msvm_VirtualSystemManagementService.EnabledState
+- Msvm_VirtualSystemManagementService.OtherEnabledState
+- Msvm_VirtualSystemManagementService.RequestedState
+- Msvm_VirtualSystemManagementService.EnabledDefault
+- Msvm_VirtualSystemManagementService.TimeOfLastStateChange
+- Msvm_VirtualSystemManagementService.AvailableRequestedStates
+- Msvm_VirtualSystemManagementService.TransitioningToState
+- Msvm_VirtualSystemManagementService.SystemCreationClassName
+- Msvm_VirtualSystemManagementService.SystemName
+- Msvm_VirtualSystemManagementService.CreationClassName
+- Msvm_VirtualSystemManagementService.PrimaryOwnerName
+- Msvm_VirtualSystemManagementService.PrimaryOwnerContact
+- Msvm_VirtualSystemManagementService.StartMode
+- Msvm_VirtualSystemManagementService.Started
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualSystemManagementService class

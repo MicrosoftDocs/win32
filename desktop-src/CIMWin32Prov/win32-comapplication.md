@@ -13,6 +13,20 @@ title: Win32\_COMApplication class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_COMApplication
+- Win32_COMApplication.Caption
+- Win32_COMApplication.Description
+- Win32_COMApplication.InstallDate
+- Win32_COMApplication.Name
+- Win32_COMApplication.Status
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_COMApplication class

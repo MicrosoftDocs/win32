@@ -13,6 +13,44 @@ title: CIM\_DiskDrive class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_DiskDrive
+- CIM_DiskDrive.Availability
+- CIM_DiskDrive.Capabilities
+- CIM_DiskDrive.CapabilityDescriptions
+- CIM_DiskDrive.Caption
+- CIM_DiskDrive.CompressionMethod
+- CIM_DiskDrive.ConfigManagerErrorCode
+- CIM_DiskDrive.ConfigManagerUserConfig
+- CIM_DiskDrive.CreationClassName
+- CIM_DiskDrive.DefaultBlockSize
+- CIM_DiskDrive.Description
+- CIM_DiskDrive.DeviceID
+- CIM_DiskDrive.ErrorCleared
+- CIM_DiskDrive.ErrorDescription
+- CIM_DiskDrive.ErrorMethodology
+- CIM_DiskDrive.InstallDate
+- CIM_DiskDrive.LastErrorCode
+- CIM_DiskDrive.MaxBlockSize
+- CIM_DiskDrive.MaxMediaSize
+- CIM_DiskDrive.MinBlockSize
+- CIM_DiskDrive.Name
+- CIM_DiskDrive.NeedsCleaning
+- CIM_DiskDrive.NumberOfMediaSupported
+- CIM_DiskDrive.PNPDeviceID
+- CIM_DiskDrive.PowerManagementCapabilities
+- CIM_DiskDrive.PowerManagementSupported
+- CIM_DiskDrive.Status
+- CIM_DiskDrive.StatusInfo
+- CIM_DiskDrive.SystemCreationClassName
+- CIM_DiskDrive.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_DiskDrive class

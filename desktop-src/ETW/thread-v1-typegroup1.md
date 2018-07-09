@@ -7,6 +7,23 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Thread_V1_TypeGroup1
+- Thread_V1_TypeGroup1.ProcessId
+- Thread_V1_TypeGroup1.TThreadId
+- Thread_V1_TypeGroup1.StackBase
+- Thread_V1_TypeGroup1.StackLimit
+- Thread_V1_TypeGroup1.UserStackBase
+- Thread_V1_TypeGroup1.UserStackLimit
+- Thread_V1_TypeGroup1.StartAddr
+- Thread_V1_TypeGroup1.Win32StartAddr
+- Thread_V1_TypeGroup1.WaitMode
+api_type: 
+- NA
+api_location: 
 ---
 
 # Thread\_V1\_TypeGroup1 class

@@ -7,6 +7,25 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_BIOSElement
+- CIM_BIOSElement.Version
+- CIM_BIOSElement.Manufacturer
+- CIM_BIOSElement.PrimaryBIOS
+- CIM_BIOSElement.ListOfLanguages
+- CIM_BIOSElement.CurrentLanguage
+- CIM_BIOSElement.LoadedStartingAddress
+- CIM_BIOSElement.LoadedEndingAddress
+- CIM_BIOSElement.LoadUtilityInformation
+- CIM_BIOSElement.ReleaseDate
+- CIM_BIOSElement.RegistryURIs
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_BIOSElement class

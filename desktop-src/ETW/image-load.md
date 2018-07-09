@@ -7,6 +7,26 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Image_Load
+- Image_Load.ImageBase
+- Image_Load.ImageSize
+- Image_Load.ProcessId
+- Image_Load.ImageCheckSum
+- Image_Load.TimeDateStamp
+- Image_Load.Reserved0
+- Image_Load.DefaultBase
+- Image_Load.Reserved1
+- Image_Load.Reserved2
+- Image_Load.Reserved3
+- Image_Load.Reserved4
+- Image_Load.FileName
+api_type: 
+- NA
+api_location: 
 ---
 
 # Image\_Load class

@@ -13,6 +13,44 @@ title: CIM\_DisketteDrive class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_DisketteDrive
+- CIM_DisketteDrive.Availability
+- CIM_DisketteDrive.Capabilities
+- CIM_DisketteDrive.CapabilityDescriptions
+- CIM_DisketteDrive.Caption
+- CIM_DisketteDrive.CompressionMethod
+- CIM_DisketteDrive.ConfigManagerErrorCode
+- CIM_DisketteDrive.ConfigManagerUserConfig
+- CIM_DisketteDrive.CreationClassName
+- CIM_DisketteDrive.DefaultBlockSize
+- CIM_DisketteDrive.Description
+- CIM_DisketteDrive.DeviceID
+- CIM_DisketteDrive.ErrorCleared
+- CIM_DisketteDrive.ErrorDescription
+- CIM_DisketteDrive.ErrorMethodology
+- CIM_DisketteDrive.InstallDate
+- CIM_DisketteDrive.LastErrorCode
+- CIM_DisketteDrive.MaxBlockSize
+- CIM_DisketteDrive.MaxMediaSize
+- CIM_DisketteDrive.MinBlockSize
+- CIM_DisketteDrive.Name
+- CIM_DisketteDrive.NeedsCleaning
+- CIM_DisketteDrive.NumberOfMediaSupported
+- CIM_DisketteDrive.PNPDeviceID
+- CIM_DisketteDrive.PowerManagementCapabilities
+- CIM_DisketteDrive.PowerManagementSupported
+- CIM_DisketteDrive.Status
+- CIM_DisketteDrive.StatusInfo
+- CIM_DisketteDrive.SystemCreationClassName
+- CIM_DisketteDrive.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_DisketteDrive class

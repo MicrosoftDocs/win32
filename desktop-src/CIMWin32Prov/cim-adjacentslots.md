@@ -13,6 +13,19 @@ title: CIM\_AdjacentSlots class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_AdjacentSlots
+- CIM_AdjacentSlots.DistanceBetweenSlots
+- CIM_AdjacentSlots.SharedSlots
+- CIM_AdjacentSlots.SlotA
+- CIM_AdjacentSlots.SlotB
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_AdjacentSlots class

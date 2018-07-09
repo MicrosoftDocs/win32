@@ -7,6 +7,78 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_Physical3dGraphicsProcessor
+- Msvm_Physical3dGraphicsProcessor.RequestStateChange
+- Msvm_Physical3dGraphicsProcessor.SetPowerState
+- Msvm_Physical3dGraphicsProcessor.Reset
+- Msvm_Physical3dGraphicsProcessor.EnableDevice
+- Msvm_Physical3dGraphicsProcessor.OnlineDevice
+- Msvm_Physical3dGraphicsProcessor.QuiesceDevice
+- Msvm_Physical3dGraphicsProcessor.SaveProperties
+- Msvm_Physical3dGraphicsProcessor.RestoreProperties
+- Msvm_Physical3dGraphicsProcessor.InstanceID
+- Msvm_Physical3dGraphicsProcessor.Caption
+- Msvm_Physical3dGraphicsProcessor.Description
+- Msvm_Physical3dGraphicsProcessor.ElementName
+- Msvm_Physical3dGraphicsProcessor.InstallDate
+- Msvm_Physical3dGraphicsProcessor.Name
+- Msvm_Physical3dGraphicsProcessor.OperationalStatus
+- Msvm_Physical3dGraphicsProcessor.StatusDescriptions
+- Msvm_Physical3dGraphicsProcessor.Status
+- Msvm_Physical3dGraphicsProcessor.HealthState
+- Msvm_Physical3dGraphicsProcessor.CommunicationStatus
+- Msvm_Physical3dGraphicsProcessor.DetailedStatus
+- Msvm_Physical3dGraphicsProcessor.OperatingStatus
+- Msvm_Physical3dGraphicsProcessor.PrimaryStatus
+- Msvm_Physical3dGraphicsProcessor.EnabledState
+- Msvm_Physical3dGraphicsProcessor.OtherEnabledState
+- Msvm_Physical3dGraphicsProcessor.RequestedState
+- Msvm_Physical3dGraphicsProcessor.EnabledDefault
+- Msvm_Physical3dGraphicsProcessor.TimeOfLastStateChange
+- Msvm_Physical3dGraphicsProcessor.AvailableRequestedStates
+- Msvm_Physical3dGraphicsProcessor.TransitioningToState
+- Msvm_Physical3dGraphicsProcessor.SystemCreationClassName
+- Msvm_Physical3dGraphicsProcessor.SystemName
+- Msvm_Physical3dGraphicsProcessor.CreationClassName
+- Msvm_Physical3dGraphicsProcessor.DeviceID
+- Msvm_Physical3dGraphicsProcessor.PowerManagementSupported
+- Msvm_Physical3dGraphicsProcessor.PowerManagementCapabilities
+- Msvm_Physical3dGraphicsProcessor.Availability
+- Msvm_Physical3dGraphicsProcessor.StatusInfo
+- Msvm_Physical3dGraphicsProcessor.LastErrorCode
+- Msvm_Physical3dGraphicsProcessor.ErrorDescription
+- Msvm_Physical3dGraphicsProcessor.ErrorCleared
+- Msvm_Physical3dGraphicsProcessor.OtherIdentifyingInfo
+- Msvm_Physical3dGraphicsProcessor.PowerOnHours
+- Msvm_Physical3dGraphicsProcessor.TotalPowerOnHours
+- Msvm_Physical3dGraphicsProcessor.IdentifyingDescriptions
+- Msvm_Physical3dGraphicsProcessor.AdditionalAvailability
+- Msvm_Physical3dGraphicsProcessor.MaxQuiesceTime
+- Msvm_Physical3dGraphicsProcessor.EnabledForVirtualization
+- Msvm_Physical3dGraphicsProcessor.CompatibleForVirtualization
+- Msvm_Physical3dGraphicsProcessor.GPUID
+- Msvm_Physical3dGraphicsProcessor.DirectXVersion
+- Msvm_Physical3dGraphicsProcessor.PixelShaderVersion
+- Msvm_Physical3dGraphicsProcessor.DedicatedVideoMemory
+- Msvm_Physical3dGraphicsProcessor.DedicatedSystemMemory
+- Msvm_Physical3dGraphicsProcessor.SharedSystemMemory
+- Msvm_Physical3dGraphicsProcessor.TotalVideoMemory
+- Msvm_Physical3dGraphicsProcessor.AvailableVideoMemory
+- Msvm_Physical3dGraphicsProcessor.DriverProvider
+- Msvm_Physical3dGraphicsProcessor.DriverDate
+- Msvm_Physical3dGraphicsProcessor.DriverInstalled
+- Msvm_Physical3dGraphicsProcessor.DriverVersion
+- Msvm_Physical3dGraphicsProcessor.DriverModelVersion
+- Msvm_Physical3dGraphicsProcessor.Rating
+- Msvm_Physical3dGraphicsProcessor.AdapterIndexID
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_Physical3dGraphicsProcessor class

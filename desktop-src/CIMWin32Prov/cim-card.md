@@ -13,6 +13,42 @@ title: CIM\_Card class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Card
+- CIM_Card.Caption
+- CIM_Card.Description
+- CIM_Card.InstallDate
+- CIM_Card.Name
+- CIM_Card.Status
+- CIM_Card.CreationClassName
+- CIM_Card.Manufacturer
+- CIM_Card.Model
+- CIM_Card.OtherIdentifyingInfo
+- CIM_Card.PartNumber
+- CIM_Card.PoweredOn
+- CIM_Card.SerialNumber
+- CIM_Card.SKU
+- CIM_Card.Tag
+- CIM_Card.Version
+- CIM_Card.Depth
+- CIM_Card.Height
+- CIM_Card.HotSwappable
+- CIM_Card.Removable
+- CIM_Card.Replaceable
+- CIM_Card.Weight
+- CIM_Card.Width
+- CIM_Card.HostingBoard
+- CIM_Card.RequirementsDescription
+- CIM_Card.RequiresDaughterBoard
+- CIM_Card.SlotLayout
+- CIM_Card.SpecialRequirements
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Card class

@@ -13,6 +13,51 @@ title: Win32\_PageFile class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PageFile
+- Win32_PageFile.Caption
+- Win32_PageFile.Description
+- Win32_PageFile.InstallDate
+- Win32_PageFile.Archive
+- Win32_PageFile.Compressed
+- Win32_PageFile.CompressionMethod
+- Win32_PageFile.CreationClassName
+- Win32_PageFile.CreationDate
+- Win32_PageFile.CSCreationClassName
+- Win32_PageFile.CSName
+- Win32_PageFile.Drive
+- Win32_PageFile.EightDotThreeFileName
+- Win32_PageFile.Encrypted
+- Win32_PageFile.EncryptionMethod
+- Win32_PageFile.Extension
+- Win32_PageFile.FileName
+- Win32_PageFile.FileSize
+- Win32_PageFile.FileType
+- Win32_PageFile.FSCreationClassName
+- Win32_PageFile.FSName
+- Win32_PageFile.Hidden
+- Win32_PageFile.InUseCount
+- Win32_PageFile.LastAccessed
+- Win32_PageFile.LastModified
+- Win32_PageFile.Path
+- Win32_PageFile.Readable
+- Win32_PageFile.System
+- Win32_PageFile.Writeable
+- Win32_PageFile.AccessMask
+- Win32_PageFile.Manufacturer
+- Win32_PageFile.Status
+- Win32_PageFile.Version
+- Win32_PageFile.FreeSpace
+- Win32_PageFile.InitialSize
+- Win32_PageFile.MaximumSize
+- Win32_PageFile.Name
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PageFile class

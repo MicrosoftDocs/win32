@@ -7,6 +7,35 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- MSMCAEvent_PCIBusError
+- MSMCAEvent_PCIBusError.Active
+- MSMCAEvent_PCIBusError.AdditionalErrors
+- MSMCAEvent_PCIBusError.Cpu
+- MSMCAEvent_PCIBusError.ErrorSeverity
+- MSMCAEvent_PCIBusError.InstanceName
+- MSMCAEvent_PCIBusError.PCI_BUS_ADDRESS
+- MSMCAEvent_PCIBusError.PCI_BUS_CMD
+- MSMCAEvent_PCIBusError.PCI_BUS_DATA
+- MSMCAEvent_PCIBusError.PCI_BUS_ERROR_STATUS
+- MSMCAEvent_PCIBusError.PCI_BUS_ERROR_TYPE
+- MSMCAEvent_PCIBusError.PCI_BUS_ID_BusNumber
+- MSMCAEvent_PCIBusError.PCI_BUS_ID_SegmentNumber
+- MSMCAEvent_PCIBusError.PCI_BUS_REQUESTOR_ID
+- MSMCAEvent_PCIBusError.PCI_BUS_RESPONDER_ID
+- MSMCAEvent_PCIBusError.RawRecord
+- MSMCAEvent_PCIBusError.RecordId
+- MSMCAEvent_PCIBusError.Size
+- MSMCAEvent_PCIBusError.Type
+- MSMCAEvent_PCIBusError.VALIDATION_BITS
+- MSMCAEvent_PCIBusError.LogToEventlog
+api_type: 
+- DllExport
+api_location: 
+- Wmiprov.dll
 ---
 
 # MSMCAEvent\_PCIBusError class

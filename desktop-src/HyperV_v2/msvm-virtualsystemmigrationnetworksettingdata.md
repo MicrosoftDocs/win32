@@ -7,6 +7,23 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualSystemMigrationNetworkSettingData
+- Msvm_VirtualSystemMigrationNetworkSettingData.InstanceID
+- Msvm_VirtualSystemMigrationNetworkSettingData.Caption
+- Msvm_VirtualSystemMigrationNetworkSettingData.Description
+- Msvm_VirtualSystemMigrationNetworkSettingData.ElementName
+- Msvm_VirtualSystemMigrationNetworkSettingData.SubnetNumber
+- Msvm_VirtualSystemMigrationNetworkSettingData.PrefixLength
+- Msvm_VirtualSystemMigrationNetworkSettingData.Metric
+- Msvm_VirtualSystemMigrationNetworkSettingData.Tags
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualSystemMigrationNetworkSettingData class

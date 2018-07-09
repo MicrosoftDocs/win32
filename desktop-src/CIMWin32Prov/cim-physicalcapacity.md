@@ -13,6 +13,18 @@ title: CIM\_PhysicalCapacity class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_PhysicalCapacity
+- CIM_PhysicalCapacity.Caption
+- CIM_PhysicalCapacity.Description
+- CIM_PhysicalCapacity.Name
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_PhysicalCapacity class

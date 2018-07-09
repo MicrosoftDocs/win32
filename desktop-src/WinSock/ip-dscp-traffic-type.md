@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- IP_DSCP_TRAFFIC_TYPE
+api_type: 
+- HeaderDef
+api_location: 
+- N/A
 ---
 
 # IP\_DSCP\_TRAFFIC\_TYPE

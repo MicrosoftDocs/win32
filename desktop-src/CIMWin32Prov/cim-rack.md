@@ -13,6 +13,47 @@ title: CIM\_Rack class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Rack
+- CIM_Rack.AudibleAlarm
+- CIM_Rack.BreachDescription
+- CIM_Rack.CableManagementStrategy
+- CIM_Rack.Caption
+- CIM_Rack.CountryDesignation
+- CIM_Rack.CreationClassName
+- CIM_Rack.Depth
+- CIM_Rack.Description
+- CIM_Rack.Height
+- CIM_Rack.HotSwappable
+- CIM_Rack.InstallDate
+- CIM_Rack.LockPresent
+- CIM_Rack.Manufacturer
+- CIM_Rack.Model
+- CIM_Rack.Name
+- CIM_Rack.OtherIdentifyingInfo
+- CIM_Rack.PartNumber
+- CIM_Rack.PoweredOn
+- CIM_Rack.Removable
+- CIM_Rack.Replaceable
+- CIM_Rack.SecurityBreach
+- CIM_Rack.SerialNumber
+- CIM_Rack.ServiceDescriptions
+- CIM_Rack.ServicePhilosophy
+- CIM_Rack.SKU
+- CIM_Rack.Status
+- CIM_Rack.Tag
+- CIM_Rack.TypeOfRack
+- CIM_Rack.Version
+- CIM_Rack.VisibleAlarm
+- CIM_Rack.Weight
+- CIM_Rack.Width
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Rack class

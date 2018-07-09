@@ -13,6 +13,40 @@ title: Win32\_PCMCIAController class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PCMCIAController
+- Win32_PCMCIAController.Reset
+- Win32_PCMCIAController.SetPowerState
+- Win32_PCMCIAController.Availability
+- Win32_PCMCIAController.Caption
+- Win32_PCMCIAController.ConfigManagerErrorCode
+- Win32_PCMCIAController.ConfigManagerUserConfig
+- Win32_PCMCIAController.CreationClassName
+- Win32_PCMCIAController.Description
+- Win32_PCMCIAController.DeviceID
+- Win32_PCMCIAController.ErrorCleared
+- Win32_PCMCIAController.ErrorDescription
+- Win32_PCMCIAController.InstallDate
+- Win32_PCMCIAController.LastErrorCode
+- Win32_PCMCIAController.Manufacturer
+- Win32_PCMCIAController.MaxNumberControlled
+- Win32_PCMCIAController.Name
+- Win32_PCMCIAController.PNPDeviceID
+- Win32_PCMCIAController.PowerManagementCapabilities
+- Win32_PCMCIAController.PowerManagementSupported
+- Win32_PCMCIAController.ProtocolSupported
+- Win32_PCMCIAController.Status
+- Win32_PCMCIAController.StatusInfo
+- Win32_PCMCIAController.SystemCreationClassName
+- Win32_PCMCIAController.SystemName
+- Win32_PCMCIAController.TimeOfLastReset
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PCMCIAController class

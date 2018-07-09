@@ -13,6 +13,42 @@ title: CIM\_PhysicalExtent class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_PhysicalExtent
+- CIM_PhysicalExtent.Access
+- CIM_PhysicalExtent.Availability
+- CIM_PhysicalExtent.BlockSize
+- CIM_PhysicalExtent.Caption
+- CIM_PhysicalExtent.ConfigManagerErrorCode
+- CIM_PhysicalExtent.ConfigManagerUserConfig
+- CIM_PhysicalExtent.CreationClassName
+- CIM_PhysicalExtent.Description
+- CIM_PhysicalExtent.DeviceID
+- CIM_PhysicalExtent.ErrorCleared
+- CIM_PhysicalExtent.ErrorDescription
+- CIM_PhysicalExtent.ErrorMethodology
+- CIM_PhysicalExtent.InstallDate
+- CIM_PhysicalExtent.LastErrorCode
+- CIM_PhysicalExtent.Name
+- CIM_PhysicalExtent.NumberOfBlocks
+- CIM_PhysicalExtent.PNPDeviceID
+- CIM_PhysicalExtent.PowerManagementCapabilities
+- CIM_PhysicalExtent.PowerManagementSupported
+- CIM_PhysicalExtent.Purpose
+- CIM_PhysicalExtent.Status
+- CIM_PhysicalExtent.StatusInfo
+- CIM_PhysicalExtent.SystemCreationClassName
+- CIM_PhysicalExtent.SystemName
+- CIM_PhysicalExtent.UnitsBeforeCheckDataInterleave
+- CIM_PhysicalExtent.UnitsOfCheckData
+- CIM_PhysicalExtent.UnitsOfUserData
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_PhysicalExtent class

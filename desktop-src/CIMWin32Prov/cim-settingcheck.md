@@ -13,6 +13,29 @@ title: CIM\_SettingCheck class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_SettingCheck
+- CIM_SettingCheck.Caption
+- CIM_SettingCheck.CheckID
+- CIM_SettingCheck.CheckMode
+- CIM_SettingCheck.CheckType
+- CIM_SettingCheck.Description
+- CIM_SettingCheck.EntryName
+- CIM_SettingCheck.EntryValue
+- CIM_SettingCheck.FileName
+- CIM_SettingCheck.Name
+- CIM_SettingCheck.SectionKey
+- CIM_SettingCheck.SoftwareElementID
+- CIM_SettingCheck.SoftwareElementState
+- CIM_SettingCheck.TargetOperatingSystem
+- CIM_SettingCheck.Version
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_SettingCheck class

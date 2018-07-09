@@ -7,6 +7,24 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_TPM
+- CIM_TPM.TPMSpecMajorVersion
+- CIM_TPM.TPMSpecMinorVersion
+- CIM_TPM.TPMManafucturerMajorRevision
+- CIM_TPM.TPMManufacturerMinorRevision
+- CIM_TPM.TPMManufacturerInfo
+- CIM_TPM.TPMManufacturerId
+- CIM_TPM.TPMState
+- CIM_TPM.TransitioningToTPMState
+- CIM_TPM.AvailableRequestedTPMStates
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_TPM class

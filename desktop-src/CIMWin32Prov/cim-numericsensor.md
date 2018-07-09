@@ -13,6 +13,50 @@ title: CIM\_NumericSensor class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_NumericSensor
+- CIM_NumericSensor.Accuracy
+- CIM_NumericSensor.Availability
+- CIM_NumericSensor.Caption
+- CIM_NumericSensor.ConfigManagerErrorCode
+- CIM_NumericSensor.ConfigManagerUserConfig
+- CIM_NumericSensor.CreationClassName
+- CIM_NumericSensor.CurrentReading
+- CIM_NumericSensor.Description
+- CIM_NumericSensor.DeviceID
+- CIM_NumericSensor.ErrorCleared
+- CIM_NumericSensor.ErrorDescription
+- CIM_NumericSensor.InstallDate
+- CIM_NumericSensor.IsLinear
+- CIM_NumericSensor.LastErrorCode
+- CIM_NumericSensor.LowerThresholdCritical
+- CIM_NumericSensor.LowerThresholdFatal
+- CIM_NumericSensor.LowerThresholdNonCritical
+- CIM_NumericSensor.MaxReadable
+- CIM_NumericSensor.MinReadable
+- CIM_NumericSensor.Name
+- CIM_NumericSensor.NominalReading
+- CIM_NumericSensor.NormalMax
+- CIM_NumericSensor.NormalMin
+- CIM_NumericSensor.PNPDeviceID
+- CIM_NumericSensor.PowerManagementCapabilities
+- CIM_NumericSensor.PowerManagementSupported
+- CIM_NumericSensor.Resolution
+- CIM_NumericSensor.Status
+- CIM_NumericSensor.StatusInfo
+- CIM_NumericSensor.SystemCreationClassName
+- CIM_NumericSensor.SystemName
+- CIM_NumericSensor.Tolerance
+- CIM_NumericSensor.UpperThresholdCritical
+- CIM_NumericSensor.UpperThresholdFatal
+- CIM_NumericSensor.UpperThresholdNonCritical
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_NumericSensor class

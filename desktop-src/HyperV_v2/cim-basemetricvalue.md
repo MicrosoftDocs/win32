@@ -7,6 +7,24 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_BaseMetricValue
+- CIM_BaseMetricValue.InstanceID
+- CIM_BaseMetricValue.MetricDefinitionId
+- CIM_BaseMetricValue.MeasuredElementName
+- CIM_BaseMetricValue.TimeStamp
+- CIM_BaseMetricValue.Duration
+- CIM_BaseMetricValue.MetricValue
+- CIM_BaseMetricValue.BreakdownDimension
+- CIM_BaseMetricValue.BreakdownValue
+- CIM_BaseMetricValue.Volatile
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_BaseMetricValue class

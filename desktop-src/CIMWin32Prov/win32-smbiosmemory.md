@@ -13,6 +13,55 @@ title: Win32\_SMBIOSMemory class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_SMBIOSMemory
+- Win32_SMBIOSMemory.Reset
+- Win32_SMBIOSMemory.SetPowerState
+- Win32_SMBIOSMemory.Access
+- Win32_SMBIOSMemory.AdditionalErrorData
+- Win32_SMBIOSMemory.Availability
+- Win32_SMBIOSMemory.BlockSize
+- Win32_SMBIOSMemory.Caption
+- Win32_SMBIOSMemory.ConfigManagerErrorCode
+- Win32_SMBIOSMemory.ConfigManagerUserConfig
+- Win32_SMBIOSMemory.CorrectableError
+- Win32_SMBIOSMemory.CreationClassName
+- Win32_SMBIOSMemory.Description
+- Win32_SMBIOSMemory.DeviceID
+- Win32_SMBIOSMemory.EndingAddress
+- Win32_SMBIOSMemory.ErrorAccess
+- Win32_SMBIOSMemory.ErrorAddress
+- Win32_SMBIOSMemory.ErrorCleared
+- Win32_SMBIOSMemory.ErrorData
+- Win32_SMBIOSMemory.ErrorDataOrder
+- Win32_SMBIOSMemory.ErrorDescription
+- Win32_SMBIOSMemory.ErrorInfo
+- Win32_SMBIOSMemory.ErrorMethodology
+- Win32_SMBIOSMemory.ErrorResolution
+- Win32_SMBIOSMemory.ErrorTime
+- Win32_SMBIOSMemory.ErrorTransferSize
+- Win32_SMBIOSMemory.InstallDate
+- Win32_SMBIOSMemory.LastErrorCode
+- Win32_SMBIOSMemory.Name
+- Win32_SMBIOSMemory.NumberOfBlocks
+- Win32_SMBIOSMemory.OtherErrorDescription
+- Win32_SMBIOSMemory.PNPDeviceID
+- Win32_SMBIOSMemory.PowerManagementCapabilities
+- Win32_SMBIOSMemory.PowerManagementSupported
+- Win32_SMBIOSMemory.Purpose
+- Win32_SMBIOSMemory.StartingAddress
+- Win32_SMBIOSMemory.Status
+- Win32_SMBIOSMemory.StatusInfo
+- Win32_SMBIOSMemory.SystemCreationClassName
+- Win32_SMBIOSMemory.SystemLevelAddress
+- Win32_SMBIOSMemory.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_SMBIOSMemory class

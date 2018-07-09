@@ -13,6 +13,24 @@ title: CIM\_MonitorResolution class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_MonitorResolution
+- CIM_MonitorResolution.Caption
+- CIM_MonitorResolution.Description
+- CIM_MonitorResolution.SettingID
+- CIM_MonitorResolution.HorizontalResolution
+- CIM_MonitorResolution.MaxRefreshRate
+- CIM_MonitorResolution.MinRefreshRate
+- CIM_MonitorResolution.RefreshRate
+- CIM_MonitorResolution.ScanMode
+- CIM_MonitorResolution.VerticalResolution
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_MonitorResolution class

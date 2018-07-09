@@ -7,6 +7,19 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_AffectedJobElement
+- Msvm_AffectedJobElement.AffectedElement
+- Msvm_AffectedJobElement.AffectingElement
+- Msvm_AffectedJobElement.ElementEffects
+- Msvm_AffectedJobElement.OtherElementEffectsDescriptions
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_AffectedJobElement class

@@ -7,6 +7,36 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_MountedStorageImage
+- Msvm_MountedStorageImage.InstanceID
+- Msvm_MountedStorageImage.Caption
+- Msvm_MountedStorageImage.Description
+- Msvm_MountedStorageImage.ElementName
+- Msvm_MountedStorageImage.InstallDate
+- Msvm_MountedStorageImage.Name
+- Msvm_MountedStorageImage.OperationalStatus
+- Msvm_MountedStorageImage.StatusDescriptions
+- Msvm_MountedStorageImage.Status
+- Msvm_MountedStorageImage.HealthState
+- Msvm_MountedStorageImage.CommunicationStatus
+- Msvm_MountedStorageImage.DetailedStatus
+- Msvm_MountedStorageImage.OperatingStatus
+- Msvm_MountedStorageImage.PrimaryStatus
+- Msvm_MountedStorageImage.Type
+- Msvm_MountedStorageImage.Access
+- Msvm_MountedStorageImage.PortNumber
+- Msvm_MountedStorageImage.PathId
+- Msvm_MountedStorageImage.TargetId
+- Msvm_MountedStorageImage.Lun
+- Msvm_MountedStorageImage.PnpDevicePath
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_MountedStorageImage class

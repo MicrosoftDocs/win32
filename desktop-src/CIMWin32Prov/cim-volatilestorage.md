@@ -13,6 +13,55 @@ title: CIM\_VolatileStorage class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_VolatileStorage
+- CIM_VolatileStorage.Access
+- CIM_VolatileStorage.AdditionalErrorData
+- CIM_VolatileStorage.Availability
+- CIM_VolatileStorage.BlockSize
+- CIM_VolatileStorage.Cacheable
+- CIM_VolatileStorage.CacheType
+- CIM_VolatileStorage.Caption
+- CIM_VolatileStorage.ConfigManagerErrorCode
+- CIM_VolatileStorage.ConfigManagerUserConfig
+- CIM_VolatileStorage.CorrectableError
+- CIM_VolatileStorage.CreationClassName
+- CIM_VolatileStorage.Description
+- CIM_VolatileStorage.DeviceID
+- CIM_VolatileStorage.EndingAddress
+- CIM_VolatileStorage.ErrorAccess
+- CIM_VolatileStorage.ErrorAddress
+- CIM_VolatileStorage.ErrorCleared
+- CIM_VolatileStorage.ErrorData
+- CIM_VolatileStorage.ErrorDataOrder
+- CIM_VolatileStorage.ErrorDescription
+- CIM_VolatileStorage.ErrorInfo
+- CIM_VolatileStorage.ErrorMethodology
+- CIM_VolatileStorage.ErrorResolution
+- CIM_VolatileStorage.ErrorTime
+- CIM_VolatileStorage.ErrorTransferSize
+- CIM_VolatileStorage.InstallDate
+- CIM_VolatileStorage.LastErrorCode
+- CIM_VolatileStorage.Name
+- CIM_VolatileStorage.NumberOfBlocks
+- CIM_VolatileStorage.OtherErrorDescription
+- CIM_VolatileStorage.PNPDeviceID
+- CIM_VolatileStorage.PowerManagementCapabilities
+- CIM_VolatileStorage.PowerManagementSupported
+- CIM_VolatileStorage.Purpose
+- CIM_VolatileStorage.StartingAddress
+- CIM_VolatileStorage.Status
+- CIM_VolatileStorage.StatusInfo
+- CIM_VolatileStorage.SystemCreationClassName
+- CIM_VolatileStorage.SystemLevelAddress
+- CIM_VolatileStorage.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_VolatileStorage class

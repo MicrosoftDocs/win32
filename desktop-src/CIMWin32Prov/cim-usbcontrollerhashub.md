@@ -13,6 +13,22 @@ title: CIM\_USBControllerHasHub class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_USBControllerHasHub
+- CIM_USBControllerHasHub.NegotiatedDataWidth
+- CIM_USBControllerHasHub.NegotiatedSpeed
+- CIM_USBControllerHasHub.AccessState
+- CIM_USBControllerHasHub.NumberOfHardResets
+- CIM_USBControllerHasHub.NumberOfSoftResets
+- CIM_USBControllerHasHub.Dependent
+- CIM_USBControllerHasHub.Antecedent
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_USBControllerHasHub class

@@ -7,6 +7,19 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Controller
+- CIM_Controller.TimeOfLastReset
+- CIM_Controller.ProtocolSupported
+- CIM_Controller.MaxNumberControlled
+- CIM_Controller.ProtocolDescription
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_Controller class

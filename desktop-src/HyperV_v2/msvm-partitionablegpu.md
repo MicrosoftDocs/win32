@@ -7,6 +7,37 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_PartitionableGpu
+- Msvm_PartitionableGpu.ValidPartitionCounts
+- Msvm_PartitionableGpu.PartitionCount
+- Msvm_PartitionableGpu.TotalVRAM
+- Msvm_PartitionableGpu.AvailableVRAM
+- Msvm_PartitionableGpu.MinPartitionVRAM
+- Msvm_PartitionableGpu.MaxPartitionVRAM
+- Msvm_PartitionableGpu.OptimalPartitionVRAM
+- Msvm_PartitionableGpu.TotalEncode
+- Msvm_PartitionableGpu.AvailableEncode
+- Msvm_PartitionableGpu.MinPartitionEncode
+- Msvm_PartitionableGpu.MaxPartitionEncode
+- Msvm_PartitionableGpu.OptimalPartitionEncode
+- Msvm_PartitionableGpu.TotalDecode
+- Msvm_PartitionableGpu.AvailableDecode
+- Msvm_PartitionableGpu.MinPartitionDecode
+- Msvm_PartitionableGpu.MaxPartitionDecode
+- Msvm_PartitionableGpu.OptimalPartitionDecode
+- Msvm_PartitionableGpu.TotalCompute
+- Msvm_PartitionableGpu.AvailableCompute
+- Msvm_PartitionableGpu.MinPartitionCompute
+- Msvm_PartitionableGpu.MaxPartitionCompute
+- Msvm_PartitionableGpu.OptimalPartitionCompute
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_PartitionableGpu class

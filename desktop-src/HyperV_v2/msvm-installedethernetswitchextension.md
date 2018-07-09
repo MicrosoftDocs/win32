@@ -7,6 +7,32 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_InstalledEthernetSwitchExtension
+- Msvm_InstalledEthernetSwitchExtension.InstanceID
+- Msvm_InstalledEthernetSwitchExtension.Caption
+- Msvm_InstalledEthernetSwitchExtension.Description
+- Msvm_InstalledEthernetSwitchExtension.ElementName
+- Msvm_InstalledEthernetSwitchExtension.InstallDate
+- Msvm_InstalledEthernetSwitchExtension.Name
+- Msvm_InstalledEthernetSwitchExtension.OperationalStatus
+- Msvm_InstalledEthernetSwitchExtension.StatusDescriptions
+- Msvm_InstalledEthernetSwitchExtension.Status
+- Msvm_InstalledEthernetSwitchExtension.HealthState
+- Msvm_InstalledEthernetSwitchExtension.CommunicationStatus
+- Msvm_InstalledEthernetSwitchExtension.DetailedStatus
+- Msvm_InstalledEthernetSwitchExtension.OperatingStatus
+- Msvm_InstalledEthernetSwitchExtension.PrimaryStatus
+- Msvm_InstalledEthernetSwitchExtension.ExtensionType
+- Msvm_InstalledEthernetSwitchExtension.Vendor
+- Msvm_InstalledEthernetSwitchExtension.Version
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_InstalledEthernetSwitchExtension class

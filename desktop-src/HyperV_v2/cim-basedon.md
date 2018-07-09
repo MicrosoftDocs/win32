@@ -7,6 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_BasedOn
+- CIM_BasedOn.Antecedent
+- CIM_BasedOn.Dependent
+- CIM_BasedOn.StartingAddress
+- CIM_BasedOn.EndingAddress
+- CIM_BasedOn.OrderIndex
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_BasedOn class

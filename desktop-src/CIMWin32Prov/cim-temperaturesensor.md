@@ -13,6 +13,50 @@ title: CIM\_TemperatureSensor class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_TemperatureSensor
+- CIM_TemperatureSensor.Accuracy
+- CIM_TemperatureSensor.Availability
+- CIM_TemperatureSensor.Caption
+- CIM_TemperatureSensor.ConfigManagerErrorCode
+- CIM_TemperatureSensor.ConfigManagerUserConfig
+- CIM_TemperatureSensor.CreationClassName
+- CIM_TemperatureSensor.CurrentReading
+- CIM_TemperatureSensor.Description
+- CIM_TemperatureSensor.DeviceID
+- CIM_TemperatureSensor.ErrorCleared
+- CIM_TemperatureSensor.ErrorDescription
+- CIM_TemperatureSensor.InstallDate
+- CIM_TemperatureSensor.IsLinear
+- CIM_TemperatureSensor.LastErrorCode
+- CIM_TemperatureSensor.LowerThresholdCritical
+- CIM_TemperatureSensor.LowerThresholdFatal
+- CIM_TemperatureSensor.LowerThresholdNonCritical
+- CIM_TemperatureSensor.MaxReadable
+- CIM_TemperatureSensor.MinReadable
+- CIM_TemperatureSensor.Name
+- CIM_TemperatureSensor.NominalReading
+- CIM_TemperatureSensor.NormalMax
+- CIM_TemperatureSensor.NormalMin
+- CIM_TemperatureSensor.PNPDeviceID
+- CIM_TemperatureSensor.PowerManagementCapabilities
+- CIM_TemperatureSensor.PowerManagementSupported
+- CIM_TemperatureSensor.Resolution
+- CIM_TemperatureSensor.Status
+- CIM_TemperatureSensor.StatusInfo
+- CIM_TemperatureSensor.SystemCreationClassName
+- CIM_TemperatureSensor.SystemName
+- CIM_TemperatureSensor.Tolerance
+- CIM_TemperatureSensor.UpperThresholdCritical
+- CIM_TemperatureSensor.UpperThresholdFatal
+- CIM_TemperatureSensor.UpperThresholdNonCritical
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_TemperatureSensor class

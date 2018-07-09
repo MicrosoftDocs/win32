@@ -13,6 +13,32 @@ title: CIM\_Thread class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Thread
+- CIM_Thread.Caption
+- CIM_Thread.CreationClassName
+- CIM_Thread.CSCreationClassName
+- CIM_Thread.CSName
+- CIM_Thread.Description
+- CIM_Thread.ExecutionState
+- CIM_Thread.Handle
+- CIM_Thread.InstallDate
+- CIM_Thread.KernelModeTime
+- CIM_Thread.Name
+- CIM_Thread.OSCreationClassName
+- CIM_Thread.OSName
+- CIM_Thread.Priority
+- CIM_Thread.ProcessCreationClassName
+- CIM_Thread.ProcessHandle
+- CIM_Thread.Status
+- CIM_Thread.UserModeTime
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Thread class

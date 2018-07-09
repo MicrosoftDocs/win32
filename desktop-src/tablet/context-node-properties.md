@@ -7,6 +7,26 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- GUID_CNP_ALIGNMENTLEVEL
+- GUID_CNP_ASCENDERS
+- GUID_CNP_BASELINE
+- GUID_CNP_CONFIDENCELEVEL
+- GUID_CNP_CUSTOMRECOGNIZERID
+- GUID_CNP_DESCENDERS
+- GUID_CNP_MIDLINE
+- GUID_CNP_NODEDATA
+- GUID_CNP_RECOGNIZEDSTRING
+- GUID_CNP_ROTATEDBOUNDINGBOX
+- GUID_CNP_SEMANTICTYPE
+- GUID_CNP_SHAPENAME
+api_type: 
+- HeaderDef
+api_location: 
+- iaguid.h
 ---
 
 # Context Node Properties

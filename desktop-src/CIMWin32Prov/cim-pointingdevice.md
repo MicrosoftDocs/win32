@@ -13,6 +13,39 @@ title: CIM\_PointingDevice class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_PointingDevice
+- CIM_PointingDevice.Availability
+- CIM_PointingDevice.Caption
+- CIM_PointingDevice.ConfigManagerErrorCode
+- CIM_PointingDevice.ConfigManagerUserConfig
+- CIM_PointingDevice.CreationClassName
+- CIM_PointingDevice.Description
+- CIM_PointingDevice.DeviceID
+- CIM_PointingDevice.ErrorCleared
+- CIM_PointingDevice.ErrorDescription
+- CIM_PointingDevice.Handedness
+- CIM_PointingDevice.InstallDate
+- CIM_PointingDevice.IsLocked
+- CIM_PointingDevice.LastErrorCode
+- CIM_PointingDevice.Name
+- CIM_PointingDevice.NumberOfButtons
+- CIM_PointingDevice.PNPDeviceID
+- CIM_PointingDevice.PointingType
+- CIM_PointingDevice.PowerManagementCapabilities
+- CIM_PointingDevice.PowerManagementSupported
+- CIM_PointingDevice.Resolution
+- CIM_PointingDevice.Status
+- CIM_PointingDevice.StatusInfo
+- CIM_PointingDevice.SystemCreationClassName
+- CIM_PointingDevice.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_PointingDevice class

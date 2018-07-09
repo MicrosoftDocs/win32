@@ -7,6 +7,59 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_HeartbeatComponent
+- Msvm_HeartbeatComponent.SetPowerState
+- Msvm_HeartbeatComponent.EnableDevice
+- Msvm_HeartbeatComponent.OnlineDevice
+- Msvm_HeartbeatComponent.QuiesceDevice
+- Msvm_HeartbeatComponent.SaveProperties
+- Msvm_HeartbeatComponent.RestoreProperties
+- Msvm_HeartbeatComponent.InstanceID
+- Msvm_HeartbeatComponent.Caption
+- Msvm_HeartbeatComponent.Description
+- Msvm_HeartbeatComponent.ElementName
+- Msvm_HeartbeatComponent.InstallDate
+- Msvm_HeartbeatComponent.Name
+- Msvm_HeartbeatComponent.OperationalStatus
+- Msvm_HeartbeatComponent.StatusDescriptions
+- Msvm_HeartbeatComponent.Status
+- Msvm_HeartbeatComponent.HealthState
+- Msvm_HeartbeatComponent.CommunicationStatus
+- Msvm_HeartbeatComponent.DetailedStatus
+- Msvm_HeartbeatComponent.OperatingStatus
+- Msvm_HeartbeatComponent.PrimaryStatus
+- Msvm_HeartbeatComponent.EnabledState
+- Msvm_HeartbeatComponent.OtherEnabledState
+- Msvm_HeartbeatComponent.RequestedState
+- Msvm_HeartbeatComponent.EnabledDefault
+- Msvm_HeartbeatComponent.TimeOfLastStateChange
+- Msvm_HeartbeatComponent.AvailableRequestedStates
+- Msvm_HeartbeatComponent.TransitioningToState
+- Msvm_HeartbeatComponent.SystemCreationClassName
+- Msvm_HeartbeatComponent.SystemName
+- Msvm_HeartbeatComponent.CreationClassName
+- Msvm_HeartbeatComponent.DeviceID
+- Msvm_HeartbeatComponent.PowerManagementSupported
+- Msvm_HeartbeatComponent.PowerManagementCapabilities
+- Msvm_HeartbeatComponent.Availability
+- Msvm_HeartbeatComponent.StatusInfo
+- Msvm_HeartbeatComponent.LastErrorCode
+- Msvm_HeartbeatComponent.ErrorDescription
+- Msvm_HeartbeatComponent.ErrorCleared
+- Msvm_HeartbeatComponent.OtherIdentifyingInfo
+- Msvm_HeartbeatComponent.PowerOnHours
+- Msvm_HeartbeatComponent.TotalPowerOnHours
+- Msvm_HeartbeatComponent.IdentifyingDescriptions
+- Msvm_HeartbeatComponent.AdditionalAvailability
+- Msvm_HeartbeatComponent.MaxQuiesceTime
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_HeartbeatComponent class

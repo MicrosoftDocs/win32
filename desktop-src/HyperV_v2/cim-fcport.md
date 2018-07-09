@@ -7,6 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_FCPort
+- CIM_FCPort.PortType
+- CIM_FCPort.SupportedCOS
+- CIM_FCPort.ActiveCOS
+- CIM_FCPort.SupportedFC4Types
+- CIM_FCPort.ActiveFC4Types
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_FCPort class

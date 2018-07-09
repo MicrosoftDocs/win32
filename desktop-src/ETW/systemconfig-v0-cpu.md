@@ -7,6 +7,21 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SystemConfig_V0_CPU
+- SystemConfig_V0_CPU.MHz
+- SystemConfig_V0_CPU.NumberOfProcessors
+- SystemConfig_V0_CPU.MemSize
+- SystemConfig_V0_CPU.PageSize
+- SystemConfig_V0_CPU.AllocationGranularity
+- SystemConfig_V0_CPU.ComputerName
+- SystemConfig_V0_CPU.DomainName
+api_type: 
+- NA
+api_location: 
 ---
 
 # SystemConfig\_V0\_CPU class

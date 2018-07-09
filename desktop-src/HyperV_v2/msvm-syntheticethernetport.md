@@ -7,6 +7,80 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_SyntheticEthernetPort
+- Msvm_SyntheticEthernetPort.SetPowerState
+- Msvm_SyntheticEthernetPort.EnableDevice
+- Msvm_SyntheticEthernetPort.OnlineDevice
+- Msvm_SyntheticEthernetPort.QuiesceDevice
+- Msvm_SyntheticEthernetPort.SaveProperties
+- Msvm_SyntheticEthernetPort.RestoreProperties
+- Msvm_SyntheticEthernetPort.InstanceID
+- Msvm_SyntheticEthernetPort.Caption
+- Msvm_SyntheticEthernetPort.Description
+- Msvm_SyntheticEthernetPort.ElementName
+- Msvm_SyntheticEthernetPort.InstallDate
+- Msvm_SyntheticEthernetPort.Name
+- Msvm_SyntheticEthernetPort.OperationalStatus
+- Msvm_SyntheticEthernetPort.StatusDescriptions
+- Msvm_SyntheticEthernetPort.Status
+- Msvm_SyntheticEthernetPort.HealthState
+- Msvm_SyntheticEthernetPort.CommunicationStatus
+- Msvm_SyntheticEthernetPort.DetailedStatus
+- Msvm_SyntheticEthernetPort.OperatingStatus
+- Msvm_SyntheticEthernetPort.PrimaryStatus
+- Msvm_SyntheticEthernetPort.EnabledState
+- Msvm_SyntheticEthernetPort.OtherEnabledState
+- Msvm_SyntheticEthernetPort.RequestedState
+- Msvm_SyntheticEthernetPort.EnabledDefault
+- Msvm_SyntheticEthernetPort.TimeOfLastStateChange
+- Msvm_SyntheticEthernetPort.AvailableRequestedStates
+- Msvm_SyntheticEthernetPort.TransitioningToState
+- Msvm_SyntheticEthernetPort.SystemCreationClassName
+- Msvm_SyntheticEthernetPort.SystemName
+- Msvm_SyntheticEthernetPort.CreationClassName
+- Msvm_SyntheticEthernetPort.DeviceID
+- Msvm_SyntheticEthernetPort.PowerManagementSupported
+- Msvm_SyntheticEthernetPort.PowerManagementCapabilities
+- Msvm_SyntheticEthernetPort.Availability
+- Msvm_SyntheticEthernetPort.StatusInfo
+- Msvm_SyntheticEthernetPort.LastErrorCode
+- Msvm_SyntheticEthernetPort.ErrorDescription
+- Msvm_SyntheticEthernetPort.ErrorCleared
+- Msvm_SyntheticEthernetPort.OtherIdentifyingInfo
+- Msvm_SyntheticEthernetPort.PowerOnHours
+- Msvm_SyntheticEthernetPort.TotalPowerOnHours
+- Msvm_SyntheticEthernetPort.IdentifyingDescriptions
+- Msvm_SyntheticEthernetPort.AdditionalAvailability
+- Msvm_SyntheticEthernetPort.MaxQuiesceTime
+- Msvm_SyntheticEthernetPort.Speed
+- Msvm_SyntheticEthernetPort.MaxSpeed
+- Msvm_SyntheticEthernetPort.RequestedSpeed
+- Msvm_SyntheticEthernetPort.UsageRestriction
+- Msvm_SyntheticEthernetPort.PortType
+- Msvm_SyntheticEthernetPort.OtherPortType
+- Msvm_SyntheticEthernetPort.OtherNetworkPortType
+- Msvm_SyntheticEthernetPort.PortNumber
+- Msvm_SyntheticEthernetPort.LinkTechnology
+- Msvm_SyntheticEthernetPort.OtherLinkTechnology
+- Msvm_SyntheticEthernetPort.PermanentAddress
+- Msvm_SyntheticEthernetPort.NetworkAddresses
+- Msvm_SyntheticEthernetPort.FullDuplex
+- Msvm_SyntheticEthernetPort.AutoSense
+- Msvm_SyntheticEthernetPort.SupportedMaximumTransmissionUnit
+- Msvm_SyntheticEthernetPort.ActiveMaximumTransmissionUnit
+- Msvm_SyntheticEthernetPort.MaxDataSize
+- Msvm_SyntheticEthernetPort.Capabilities
+- Msvm_SyntheticEthernetPort.CapabilityDescriptions
+- Msvm_SyntheticEthernetPort.EnabledCapabilities
+- Msvm_SyntheticEthernetPort.OtherEnabledCapabilities
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_SyntheticEthernetPort class

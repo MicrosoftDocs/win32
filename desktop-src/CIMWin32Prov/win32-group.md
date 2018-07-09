@@ -13,6 +13,24 @@ title: Win32\_Group class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_Group
+- Win32_Group.Caption
+- Win32_Group.Description
+- Win32_Group.InstallDate
+- Win32_Group.Status
+- Win32_Group.LocalAccount
+- Win32_Group.SID
+- Win32_Group.SIDType
+- Win32_Group.Domain
+- Win32_Group.Name
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_Group class

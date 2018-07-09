@@ -13,6 +13,17 @@ title: Win32\_MemoryDeviceArray class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_MemoryDeviceArray
+- Win32_MemoryDeviceArray.GroupComponent
+- Win32_MemoryDeviceArray.PartComponent
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_MemoryDeviceArray class

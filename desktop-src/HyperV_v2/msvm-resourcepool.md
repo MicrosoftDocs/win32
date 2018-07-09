@@ -7,6 +7,40 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ResourcePool
+- Msvm_ResourcePool.InstanceID
+- Msvm_ResourcePool.Caption
+- Msvm_ResourcePool.Description
+- Msvm_ResourcePool.ElementName
+- Msvm_ResourcePool.InstallDate
+- Msvm_ResourcePool.Name
+- Msvm_ResourcePool.OperationalStatus
+- Msvm_ResourcePool.StatusDescriptions
+- Msvm_ResourcePool.Status
+- Msvm_ResourcePool.HealthState
+- Msvm_ResourcePool.CommunicationStatus
+- Msvm_ResourcePool.DetailedStatus
+- Msvm_ResourcePool.OperatingStatus
+- Msvm_ResourcePool.PrimaryStatus
+- Msvm_ResourcePool.PoolID
+- Msvm_ResourcePool.Primordial
+- Msvm_ResourcePool.Capacity
+- Msvm_ResourcePool.Reserved
+- Msvm_ResourcePool.ResourceType
+- Msvm_ResourcePool.OtherResourceType
+- Msvm_ResourcePool.ResourceSubType
+- Msvm_ResourcePool.AllocationUnits
+- Msvm_ResourcePool.ConsumedResourceUnits
+- Msvm_ResourcePool.CurrentlyConsumedResource
+- Msvm_ResourcePool.MaxConsumableResource
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ResourcePool class

@@ -13,6 +13,21 @@ title: Win32\_DCOMApplication class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_DCOMApplication
+- Win32_DCOMApplication.Caption
+- Win32_DCOMApplication.Description
+- Win32_DCOMApplication.InstallDate
+- Win32_DCOMApplication.Name
+- Win32_DCOMApplication.Status
+- Win32_DCOMApplication.AppID
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_DCOMApplication class

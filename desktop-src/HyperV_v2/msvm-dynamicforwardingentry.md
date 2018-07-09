@@ -7,6 +7,37 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_DynamicForwardingEntry
+- Msvm_DynamicForwardingEntry.InstanceID
+- Msvm_DynamicForwardingEntry.Caption
+- Msvm_DynamicForwardingEntry.Description
+- Msvm_DynamicForwardingEntry.ElementName
+- Msvm_DynamicForwardingEntry.InstallDate
+- Msvm_DynamicForwardingEntry.Name
+- Msvm_DynamicForwardingEntry.OperationalStatus
+- Msvm_DynamicForwardingEntry.StatusDescriptions
+- Msvm_DynamicForwardingEntry.Status
+- Msvm_DynamicForwardingEntry.HealthState
+- Msvm_DynamicForwardingEntry.CommunicationStatus
+- Msvm_DynamicForwardingEntry.DetailedStatus
+- Msvm_DynamicForwardingEntry.OperatingStatus
+- Msvm_DynamicForwardingEntry.PrimaryStatus
+- Msvm_DynamicForwardingEntry.SystemCreationClassName
+- Msvm_DynamicForwardingEntry.SystemName
+- Msvm_DynamicForwardingEntry.ServiceCreationClassName
+- Msvm_DynamicForwardingEntry.ServiceName
+- Msvm_DynamicForwardingEntry.CreationClassName
+- Msvm_DynamicForwardingEntry.MACAddress
+- Msvm_DynamicForwardingEntry.DynamicStatus
+- Msvm_DynamicForwardingEntry.VlanId
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_DynamicForwardingEntry class

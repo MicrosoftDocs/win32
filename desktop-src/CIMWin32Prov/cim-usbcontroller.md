@@ -13,6 +13,38 @@ title: CIM\_USBController class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_USBController
+- CIM_USBController.Availability
+- CIM_USBController.Caption
+- CIM_USBController.ConfigManagerErrorCode
+- CIM_USBController.ConfigManagerUserConfig
+- CIM_USBController.CreationClassName
+- CIM_USBController.Description
+- CIM_USBController.DeviceID
+- CIM_USBController.ErrorCleared
+- CIM_USBController.ErrorDescription
+- CIM_USBController.InstallDate
+- CIM_USBController.LastErrorCode
+- CIM_USBController.Manufacturer
+- CIM_USBController.MaxNumberControlled
+- CIM_USBController.Name
+- CIM_USBController.PNPDeviceID
+- CIM_USBController.PowerManagementCapabilities
+- CIM_USBController.PowerManagementSupported
+- CIM_USBController.ProtocolSupported
+- CIM_USBController.Status
+- CIM_USBController.StatusInfo
+- CIM_USBController.SystemCreationClassName
+- CIM_USBController.SystemName
+- CIM_USBController.TimeOfLastReset
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_USBController class

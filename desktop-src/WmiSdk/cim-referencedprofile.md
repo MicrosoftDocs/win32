@@ -11,6 +11,17 @@ title: CIM\_ReferencedProfile class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ReferencedProfile
+- CIM_ReferencedProfile.Antecedent
+- CIM_ReferencedProfile.Dependent
+api_type: 
+- Schema
+api_location: 
+- Root\interop
 ---
 
 # CIM\_ReferencedProfile class

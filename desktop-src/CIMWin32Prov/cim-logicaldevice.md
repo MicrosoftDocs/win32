@@ -13,6 +13,34 @@ title: CIM\_LogicalDevice class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_LogicalDevice
+- CIM_LogicalDevice.Caption
+- CIM_LogicalDevice.Description
+- CIM_LogicalDevice.InstallDate
+- CIM_LogicalDevice.Name
+- CIM_LogicalDevice.Status
+- CIM_LogicalDevice.Availability
+- CIM_LogicalDevice.ConfigManagerErrorCode
+- CIM_LogicalDevice.ConfigManagerUserConfig
+- CIM_LogicalDevice.CreationClassName
+- CIM_LogicalDevice.DeviceID
+- CIM_LogicalDevice.PowerManagementCapabilities
+- CIM_LogicalDevice.ErrorCleared
+- CIM_LogicalDevice.ErrorDescription
+- CIM_LogicalDevice.LastErrorCode
+- CIM_LogicalDevice.PNPDeviceID
+- CIM_LogicalDevice.PowerManagementSupported
+- CIM_LogicalDevice.StatusInfo
+- CIM_LogicalDevice.SystemCreationClassName
+- CIM_LogicalDevice.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_LogicalDevice class

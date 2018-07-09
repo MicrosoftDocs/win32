@@ -7,6 +7,19 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Registry_V1_TypeGroup1
+- Registry_V1_TypeGroup1.Status
+- Registry_V1_TypeGroup1.KeyHandle
+- Registry_V1_TypeGroup1.ElapsedTime
+- Registry_V1_TypeGroup1.Index
+- Registry_V1_TypeGroup1.KeyName
+api_type: 
+- NA
+api_location: 
 ---
 
 # Registry\_V1\_TypeGroup1 class

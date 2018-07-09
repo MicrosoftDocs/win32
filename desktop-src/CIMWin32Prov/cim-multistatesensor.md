@@ -13,6 +13,34 @@ title: CIM\_MultiStateSensor class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_MultiStateSensor
+- CIM_MultiStateSensor.Availability
+- CIM_MultiStateSensor.Caption
+- CIM_MultiStateSensor.ConfigManagerErrorCode
+- CIM_MultiStateSensor.ConfigManagerUserConfig
+- CIM_MultiStateSensor.CreationClassName
+- CIM_MultiStateSensor.Description
+- CIM_MultiStateSensor.DeviceID
+- CIM_MultiStateSensor.ErrorCleared
+- CIM_MultiStateSensor.ErrorDescription
+- CIM_MultiStateSensor.InstallDate
+- CIM_MultiStateSensor.LastErrorCode
+- CIM_MultiStateSensor.Name
+- CIM_MultiStateSensor.PNPDeviceID
+- CIM_MultiStateSensor.PowerManagementCapabilities
+- CIM_MultiStateSensor.PowerManagementSupported
+- CIM_MultiStateSensor.Status
+- CIM_MultiStateSensor.StatusInfo
+- CIM_MultiStateSensor.SystemCreationClassName
+- CIM_MultiStateSensor.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_MultiStateSensor class

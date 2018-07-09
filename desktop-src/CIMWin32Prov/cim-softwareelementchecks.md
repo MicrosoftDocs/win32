@@ -13,6 +13,18 @@ title: CIM\_SoftwareElementChecks class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_SoftwareElementChecks
+- CIM_SoftwareElementChecks.Check
+- CIM_SoftwareElementChecks.Element
+- CIM_SoftwareElementChecks.Phase
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_SoftwareElementChecks class

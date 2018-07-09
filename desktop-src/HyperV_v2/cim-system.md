@@ -7,6 +7,23 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_System
+- CIM_System.CreationClassName
+- CIM_System.Name
+- CIM_System.NameFormat
+- CIM_System.PrimaryOwnerName
+- CIM_System.PrimaryOwnerContact
+- CIM_System.Roles
+- CIM_System.OtherIdentifyingInfo
+- CIM_System.IdentifyingDescriptions
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_System class

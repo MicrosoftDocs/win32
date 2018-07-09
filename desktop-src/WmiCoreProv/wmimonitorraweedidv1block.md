@@ -7,6 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- WmiMonitorRawEEdidV1Block
+- WmiMonitorRawEEdidV1Block.Active
+- WmiMonitorRawEEdidV1Block.InstanceName
+- WmiMonitorRawEEdidV1Block.Id
+- WmiMonitorRawEEdidV1Block.Type
+- WmiMonitorRawEEdidV1Block.Content
+api_type: 
+- DllExport
+api_location: 
+- WmiProv.dll
 ---
 
 # WmiMonitorRawEEdidV1Block class

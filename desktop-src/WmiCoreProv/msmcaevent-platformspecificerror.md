@@ -7,6 +7,32 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- MSMCAEvent_PlatformSpecificError
+- MSMCAEvent_PlatformSpecificError.Active
+- MSMCAEvent_PlatformSpecificError.AdditionalErrors
+- MSMCAEvent_PlatformSpecificError.Cpu
+- MSMCAEvent_PlatformSpecificError.ErrorSeverity
+- MSMCAEvent_PlatformSpecificError.InstanceName
+- MSMCAEvent_PlatformSpecificError.OEM_COMPONENT_ID
+- MSMCAEvent_PlatformSpecificError.PLATFORM_BUS_SPECIFIC_DATA
+- MSMCAEvent_PlatformSpecificError.PLATFORM_ERROR_STATUS
+- MSMCAEvent_PlatformSpecificError.PLATFORM_REQUESTOR_ID
+- MSMCAEvent_PlatformSpecificError.PLATFORM_RESPONDER_ID
+- MSMCAEvent_PlatformSpecificError.PLATFORM_TARGET_ID
+- MSMCAEvent_PlatformSpecificError.RawRecord
+- MSMCAEvent_PlatformSpecificError.RecordId
+- MSMCAEvent_PlatformSpecificError.Size
+- MSMCAEvent_PlatformSpecificError.Type
+- MSMCAEvent_PlatformSpecificError.VALIDATION_BITS
+- MSMCAEvent_PlatformSpecificError.LogToEventlog
+api_type: 
+- DllExport
+api_location: 
+- Wmiprov.dll
 ---
 
 # MSMCAEvent\_PlatformSpecificError class

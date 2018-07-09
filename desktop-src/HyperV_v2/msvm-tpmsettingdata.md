@@ -7,6 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_TPMSettingData
+- Msvm_TPMSettingData.Shielded
+- Msvm_TPMSettingData.DataProtected
+- Msvm_TPMSettingData.EnabledState
+- Msvm_TPMSettingData.KeyProtector
+- Msvm_TPMSettingData.LastKnownGoodKeyProtector
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_TPMSettingData class

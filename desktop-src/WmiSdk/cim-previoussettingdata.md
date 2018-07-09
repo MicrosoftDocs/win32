@@ -11,6 +11,17 @@ title: CIM\_PreviousSettingData class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_PreviousSettingData
+- Root\CIMV2.CIM_PreviousSettingData.Target
+- Root\CIMV2.CIM_PreviousSettingData.PreviousObject
+api_type: 
+- Schema
+api_location: 
+- Root\CIMV2
 ---
 
 # CIM\_PreviousSettingData class

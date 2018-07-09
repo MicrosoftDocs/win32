@@ -13,6 +13,44 @@ title: CIM\_CDROMDrive class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_CDROMDrive
+- CIM_CDROMDrive.Caption
+- CIM_CDROMDrive.Description
+- CIM_CDROMDrive.InstallDate
+- CIM_CDROMDrive.Name
+- CIM_CDROMDrive.Status
+- CIM_CDROMDrive.Availability
+- CIM_CDROMDrive.ConfigManagerErrorCode
+- CIM_CDROMDrive.ConfigManagerUserConfig
+- CIM_CDROMDrive.CreationClassName
+- CIM_CDROMDrive.DeviceID
+- CIM_CDROMDrive.PowerManagementCapabilities
+- CIM_CDROMDrive.ErrorCleared
+- CIM_CDROMDrive.ErrorDescription
+- CIM_CDROMDrive.LastErrorCode
+- CIM_CDROMDrive.PNPDeviceID
+- CIM_CDROMDrive.PowerManagementSupported
+- CIM_CDROMDrive.StatusInfo
+- CIM_CDROMDrive.SystemCreationClassName
+- CIM_CDROMDrive.SystemName
+- CIM_CDROMDrive.Capabilities
+- CIM_CDROMDrive.CapabilityDescriptions
+- CIM_CDROMDrive.CompressionMethod
+- CIM_CDROMDrive.DefaultBlockSize
+- CIM_CDROMDrive.ErrorMethodology
+- CIM_CDROMDrive.MaxBlockSize
+- CIM_CDROMDrive.MaxMediaSize
+- CIM_CDROMDrive.MinBlockSize
+- CIM_CDROMDrive.NeedsCleaning
+- CIM_CDROMDrive.NumberOfMediaSupported
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_CDROMDrive class

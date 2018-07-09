@@ -13,6 +13,81 @@ title: Win32\_OperatingSystem class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_OperatingSystem
+- Win32_OperatingSystem.BootDevice
+- Win32_OperatingSystem.BuildNumber
+- Win32_OperatingSystem.BuildType
+- Win32_OperatingSystem.Caption
+- Win32_OperatingSystem.CodeSet
+- Win32_OperatingSystem.CountryCode
+- Win32_OperatingSystem.CreationClassName
+- Win32_OperatingSystem.CSCreationClassName
+- Win32_OperatingSystem.CSDVersion
+- Win32_OperatingSystem.CSName
+- Win32_OperatingSystem.CurrentTimeZone
+- Win32_OperatingSystem.DataExecutionPrevention_Available
+- Win32_OperatingSystem.DataExecutionPrevention_32BitApplications
+- Win32_OperatingSystem.DataExecutionPrevention_Drivers
+- Win32_OperatingSystem.DataExecutionPrevention_SupportPolicy
+- Win32_OperatingSystem.Debug
+- Win32_OperatingSystem.Description
+- Win32_OperatingSystem.Distributed
+- Win32_OperatingSystem.EncryptionLevel
+- Win32_OperatingSystem.ForegroundApplicationBoost
+- Win32_OperatingSystem.FreePhysicalMemory
+- Win32_OperatingSystem.FreeSpaceInPagingFiles
+- Win32_OperatingSystem.FreeVirtualMemory
+- Win32_OperatingSystem.InstallDate
+- Win32_OperatingSystem.LargeSystemCache
+- Win32_OperatingSystem.LastBootUpTime
+- Win32_OperatingSystem.LocalDateTime
+- Win32_OperatingSystem.Locale
+- Win32_OperatingSystem.Manufacturer
+- Win32_OperatingSystem.MaxNumberOfProcesses
+- Win32_OperatingSystem.MaxProcessMemorySize
+- Win32_OperatingSystem.MUILanguages
+- Win32_OperatingSystem.Name
+- Win32_OperatingSystem.NumberOfLicensedUsers
+- Win32_OperatingSystem.NumberOfProcesses
+- Win32_OperatingSystem.NumberOfUsers
+- Win32_OperatingSystem.OperatingSystemSKU
+- Win32_OperatingSystem.Organization
+- Win32_OperatingSystem.OSArchitecture
+- Win32_OperatingSystem.OSLanguage
+- Win32_OperatingSystem.OSProductSuite
+- Win32_OperatingSystem.OSType
+- Win32_OperatingSystem.OtherTypeDescription
+- Win32_OperatingSystem.PAEEnabled
+- Win32_OperatingSystem.PlusProductID
+- Win32_OperatingSystem.PlusVersionNumber
+- Win32_OperatingSystem.PortableOperatingSystem
+- Win32_OperatingSystem.Primary
+- Win32_OperatingSystem.ProductType
+- Win32_OperatingSystem.RegisteredUser
+- Win32_OperatingSystem.SerialNumber
+- Win32_OperatingSystem.ServicePackMajorVersion
+- Win32_OperatingSystem.ServicePackMinorVersion
+- Win32_OperatingSystem.SizeStoredInPagingFiles
+- Win32_OperatingSystem.Status
+- Win32_OperatingSystem.SuiteMask
+- Win32_OperatingSystem.SystemDevice
+- Win32_OperatingSystem.SystemDirectory
+- Win32_OperatingSystem.SystemDrive
+- Win32_OperatingSystem.TotalSwapSpaceSize
+- Win32_OperatingSystem.TotalVirtualMemorySize
+- Win32_OperatingSystem.TotalVisibleMemorySize
+- Win32_OperatingSystem.Version
+- Win32_OperatingSystem.WindowsDirectory
+- Win32_OperatingSystem.QuantumLength
+- Win32_OperatingSystem.QuantumType
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_OperatingSystem class

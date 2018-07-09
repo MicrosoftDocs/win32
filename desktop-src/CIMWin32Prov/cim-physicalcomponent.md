@@ -13,6 +13,33 @@ title: CIM\_PhysicalComponent class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_PhysicalComponent
+- CIM_PhysicalComponent.Caption
+- CIM_PhysicalComponent.Description
+- CIM_PhysicalComponent.InstallDate
+- CIM_PhysicalComponent.Name
+- CIM_PhysicalComponent.Status
+- CIM_PhysicalComponent.CreationClassName
+- CIM_PhysicalComponent.Manufacturer
+- CIM_PhysicalComponent.Model
+- CIM_PhysicalComponent.OtherIdentifyingInfo
+- CIM_PhysicalComponent.PartNumber
+- CIM_PhysicalComponent.PoweredOn
+- CIM_PhysicalComponent.SerialNumber
+- CIM_PhysicalComponent.SKU
+- CIM_PhysicalComponent.Tag
+- CIM_PhysicalComponent.Version
+- CIM_PhysicalComponent.HotSwappable
+- CIM_PhysicalComponent.Removable
+- CIM_PhysicalComponent.Replaceable
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_PhysicalComponent class

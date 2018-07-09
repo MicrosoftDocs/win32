@@ -7,6 +7,26 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ControlledBy
+- Msvm_ControlledBy.NegotiatedSpeed
+- Msvm_ControlledBy.NegotiatedDataWidth
+- Msvm_ControlledBy.Antecedent
+- Msvm_ControlledBy.Dependent
+- Msvm_ControlledBy.AccessState
+- Msvm_ControlledBy.TimeOfDeviceReset
+- Msvm_ControlledBy.NumberOfHardResets
+- Msvm_ControlledBy.NumberOfSoftResets
+- Msvm_ControlledBy.DeviceNumber
+- Msvm_ControlledBy.AccessMode
+- Msvm_ControlledBy.AccessPriority
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ControlledBy class

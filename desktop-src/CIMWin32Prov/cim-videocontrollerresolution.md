@@ -13,6 +13,25 @@ title: CIM\_VideoControllerResolution class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_VideoControllerResolution
+- CIM_VideoControllerResolution.Caption
+- CIM_VideoControllerResolution.Description
+- CIM_VideoControllerResolution.SettingID
+- CIM_VideoControllerResolution.HorizontalResolution
+- CIM_VideoControllerResolution.MaxRefreshRate
+- CIM_VideoControllerResolution.MinRefreshRate
+- CIM_VideoControllerResolution.NumberOfColors
+- CIM_VideoControllerResolution.RefreshRate
+- CIM_VideoControllerResolution.ScanMode
+- CIM_VideoControllerResolution.VerticalResolution
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_VideoControllerResolution class

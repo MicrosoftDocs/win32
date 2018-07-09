@@ -11,6 +11,16 @@ title: '\_\_EventConsumerProviderCacheControl class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- __EventConsumerProviderCacheControl
+- Root.__EventConsumerProviderCacheControl.ClearAfter
+api_type: 
+- Schema
+api_location: 
+- Root
 ---
 
 # \_\_EventConsumerProviderCacheControl class

@@ -7,6 +7,57 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_SummaryInformation
+- Msvm_SummaryInformation.InstanceID
+- Msvm_SummaryInformation.AllocatedGPU
+- Msvm_SummaryInformation.Shielded
+- Msvm_SummaryInformation.AsynchronousTasks
+- Msvm_SummaryInformation.CreationTime
+- Msvm_SummaryInformation.ElementName
+- Msvm_SummaryInformation.EnabledState
+- Msvm_SummaryInformation.OtherEnabledState
+- Msvm_SummaryInformation.GuestOperatingSystem
+- Msvm_SummaryInformation.HealthState
+- Msvm_SummaryInformation.Heartbeat
+- Msvm_SummaryInformation.MemoryUsage
+- Msvm_SummaryInformation.MemoryAvailable
+- Msvm_SummaryInformation.AvailableMemoryBuffer
+- Msvm_SummaryInformation.SwapFilesInUse
+- Msvm_SummaryInformation.Name
+- Msvm_SummaryInformation.Notes
+- Msvm_SummaryInformation.Version
+- Msvm_SummaryInformation.NumberOfProcessors
+- Msvm_SummaryInformation.OperationalStatus
+- Msvm_SummaryInformation.ProcessorLoad
+- Msvm_SummaryInformation.ProcessorLoadHistory
+- Msvm_SummaryInformation.Snapshots
+- Msvm_SummaryInformation.StatusDescriptions
+- Msvm_SummaryInformation.ThumbnailImage
+- Msvm_SummaryInformation.ThumbnailImageHeight
+- Msvm_SummaryInformation.ThumbnailImageWidth
+- Msvm_SummaryInformation.UpTime
+- Msvm_SummaryInformation.ReplicationState
+- Msvm_SummaryInformation.ReplicationStateEx
+- Msvm_SummaryInformation.ReplicationHealth
+- Msvm_SummaryInformation.ReplicationHealthEx
+- Msvm_SummaryInformation.ReplicationMode
+- Msvm_SummaryInformation.TestReplicaSystem
+- Msvm_SummaryInformation.ApplicationHealth
+- Msvm_SummaryInformation.IntegrationServicesVersionState
+- Msvm_SummaryInformation.MemorySpansPhysicalNumaNodes
+- Msvm_SummaryInformation.ReplicationProviderId
+- Msvm_SummaryInformation.EnhancedSessionModeState
+- Msvm_SummaryInformation.VirtualSwitchNames
+- Msvm_SummaryInformation.VirtualSystemSubType
+- Msvm_SummaryInformation.HostComputerSystemName
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_SummaryInformation class

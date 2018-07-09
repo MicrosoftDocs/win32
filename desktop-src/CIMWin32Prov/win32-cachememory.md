@@ -13,6 +13,70 @@ title: Win32\_CacheMemory class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_CacheMemory
+- Win32_CacheMemory.Reset
+- Win32_CacheMemory.SetPowerState
+- Win32_CacheMemory.Access
+- Win32_CacheMemory.AdditionalErrorData
+- Win32_CacheMemory.Associativity
+- Win32_CacheMemory.Availability
+- Win32_CacheMemory.BlockSize
+- Win32_CacheMemory.CacheSpeed
+- Win32_CacheMemory.CacheType
+- Win32_CacheMemory.Caption
+- Win32_CacheMemory.ConfigManagerErrorCode
+- Win32_CacheMemory.ConfigManagerUserConfig
+- Win32_CacheMemory.CorrectableError
+- Win32_CacheMemory.CreationClassName
+- Win32_CacheMemory.CurrentSRAM
+- Win32_CacheMemory.Description
+- Win32_CacheMemory.DeviceID
+- Win32_CacheMemory.EndingAddress
+- Win32_CacheMemory.ErrorAccess
+- Win32_CacheMemory.ErrorAddress
+- Win32_CacheMemory.ErrorCleared
+- Win32_CacheMemory.ErrorCorrectType
+- Win32_CacheMemory.ErrorData
+- Win32_CacheMemory.ErrorDataOrder
+- Win32_CacheMemory.ErrorDescription
+- Win32_CacheMemory.ErrorInfo
+- Win32_CacheMemory.ErrorMethodology
+- Win32_CacheMemory.ErrorResolution
+- Win32_CacheMemory.ErrorTime
+- Win32_CacheMemory.ErrorTransferSize
+- Win32_CacheMemory.FlushTimer
+- Win32_CacheMemory.InstallDate
+- Win32_CacheMemory.InstalledSize
+- Win32_CacheMemory.LastErrorCode
+- Win32_CacheMemory.Level
+- Win32_CacheMemory.LineSize
+- Win32_CacheMemory.Location
+- Win32_CacheMemory.MaxCacheSize
+- Win32_CacheMemory.Name
+- Win32_CacheMemory.NumberOfBlocks
+- Win32_CacheMemory.OtherErrorDescription
+- Win32_CacheMemory.PNPDeviceID
+- Win32_CacheMemory.PowerManagementCapabilities
+- Win32_CacheMemory.PowerManagementSupported
+- Win32_CacheMemory.Purpose
+- Win32_CacheMemory.ReadPolicy
+- Win32_CacheMemory.ReplacementPolicy
+- Win32_CacheMemory.StartingAddress
+- Win32_CacheMemory.Status
+- Win32_CacheMemory.StatusInfo
+- Win32_CacheMemory.SupportedSRAM
+- Win32_CacheMemory.SystemCreationClassName
+- Win32_CacheMemory.SystemLevelAddress
+- Win32_CacheMemory.SystemName
+- Win32_CacheMemory.WritePolicy
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_CacheMemory class

@@ -13,6 +13,40 @@ title: Win32\_InfraredDevice class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_InfraredDevice
+- Win32_InfraredDevice.Reset
+- Win32_InfraredDevice.SetPowerState
+- Win32_InfraredDevice.Availability
+- Win32_InfraredDevice.Caption
+- Win32_InfraredDevice.ConfigManagerErrorCode
+- Win32_InfraredDevice.ConfigManagerUserConfig
+- Win32_InfraredDevice.CreationClassName
+- Win32_InfraredDevice.Description
+- Win32_InfraredDevice.DeviceID
+- Win32_InfraredDevice.ErrorCleared
+- Win32_InfraredDevice.ErrorDescription
+- Win32_InfraredDevice.InstallDate
+- Win32_InfraredDevice.LastErrorCode
+- Win32_InfraredDevice.Manufacturer
+- Win32_InfraredDevice.MaxNumberControlled
+- Win32_InfraredDevice.Name
+- Win32_InfraredDevice.PNPDeviceID
+- Win32_InfraredDevice.PowerManagementCapabilities
+- Win32_InfraredDevice.PowerManagementSupported
+- Win32_InfraredDevice.ProtocolSupported
+- Win32_InfraredDevice.Status
+- Win32_InfraredDevice.StatusInfo
+- Win32_InfraredDevice.SystemCreationClassName
+- Win32_InfraredDevice.SystemName
+- Win32_InfraredDevice.TimeOfLastReset
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_InfraredDevice class

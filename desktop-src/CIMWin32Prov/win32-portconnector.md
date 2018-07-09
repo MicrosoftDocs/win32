@@ -13,6 +13,35 @@ title: Win32\_PortConnector class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PortConnector
+- Win32_PortConnector.Caption
+- Win32_PortConnector.ConnectorPinout
+- Win32_PortConnector.ConnectorType
+- Win32_PortConnector.CreationClassName
+- Win32_PortConnector.Description
+- Win32_PortConnector.ExternalReferenceDesignator
+- Win32_PortConnector.InstallDate
+- Win32_PortConnector.InternalReferenceDesignator
+- Win32_PortConnector.Manufacturer
+- Win32_PortConnector.Model
+- Win32_PortConnector.Name
+- Win32_PortConnector.OtherIdentifyingInfo
+- Win32_PortConnector.PartNumber
+- Win32_PortConnector.PortType
+- Win32_PortConnector.PoweredOn
+- Win32_PortConnector.SerialNumber
+- Win32_PortConnector.SKU
+- Win32_PortConnector.Status
+- Win32_PortConnector.Tag
+- Win32_PortConnector.Version
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PortConnector class

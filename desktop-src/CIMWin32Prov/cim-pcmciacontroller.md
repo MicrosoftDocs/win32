@@ -13,6 +13,38 @@ title: CIM\_PCMCIAController class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_PCMCIAController
+- CIM_PCMCIAController.Availability
+- CIM_PCMCIAController.Caption
+- CIM_PCMCIAController.ConfigManagerErrorCode
+- CIM_PCMCIAController.ConfigManagerUserConfig
+- CIM_PCMCIAController.CreationClassName
+- CIM_PCMCIAController.Description
+- CIM_PCMCIAController.DeviceID
+- CIM_PCMCIAController.ErrorCleared
+- CIM_PCMCIAController.ErrorDescription
+- CIM_PCMCIAController.InstallDate
+- CIM_PCMCIAController.LastErrorCode
+- CIM_PCMCIAController.Manufacturer
+- CIM_PCMCIAController.MaxNumberControlled
+- CIM_PCMCIAController.Name
+- CIM_PCMCIAController.PNPDeviceID
+- CIM_PCMCIAController.PowerManagementCapabilities
+- CIM_PCMCIAController.PowerManagementSupported
+- CIM_PCMCIAController.ProtocolSupported
+- CIM_PCMCIAController.Status
+- CIM_PCMCIAController.StatusInfo
+- CIM_PCMCIAController.SystemCreationClassName
+- CIM_PCMCIAController.SystemName
+- CIM_PCMCIAController.TimeOfLastReset
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_PCMCIAController class

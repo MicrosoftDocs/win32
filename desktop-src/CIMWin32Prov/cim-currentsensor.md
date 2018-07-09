@@ -13,6 +13,50 @@ title: CIM\_CurrentSensor class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_CurrentSensor
+- CIM_CurrentSensor.Accuracy
+- CIM_CurrentSensor.Availability
+- CIM_CurrentSensor.Caption
+- CIM_CurrentSensor.ConfigManagerErrorCode
+- CIM_CurrentSensor.ConfigManagerUserConfig
+- CIM_CurrentSensor.CreationClassName
+- CIM_CurrentSensor.CurrentReading
+- CIM_CurrentSensor.Description
+- CIM_CurrentSensor.DeviceID
+- CIM_CurrentSensor.ErrorCleared
+- CIM_CurrentSensor.ErrorDescription
+- CIM_CurrentSensor.InstallDate
+- CIM_CurrentSensor.IsLinear
+- CIM_CurrentSensor.LastErrorCode
+- CIM_CurrentSensor.LowerThresholdCritical
+- CIM_CurrentSensor.LowerThresholdFatal
+- CIM_CurrentSensor.LowerThresholdNonCritical
+- CIM_CurrentSensor.MaxReadable
+- CIM_CurrentSensor.MinReadable
+- CIM_CurrentSensor.Name
+- CIM_CurrentSensor.NominalReading
+- CIM_CurrentSensor.NormalMax
+- CIM_CurrentSensor.NormalMin
+- CIM_CurrentSensor.PNPDeviceID
+- CIM_CurrentSensor.PowerManagementCapabilities
+- CIM_CurrentSensor.PowerManagementSupported
+- CIM_CurrentSensor.Resolution
+- CIM_CurrentSensor.Status
+- CIM_CurrentSensor.StatusInfo
+- CIM_CurrentSensor.SystemCreationClassName
+- CIM_CurrentSensor.SystemName
+- CIM_CurrentSensor.Tolerance
+- CIM_CurrentSensor.UpperThresholdCritical
+- CIM_CurrentSensor.UpperThresholdFatal
+- CIM_CurrentSensor.UpperThresholdNonCritical
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_CurrentSensor class

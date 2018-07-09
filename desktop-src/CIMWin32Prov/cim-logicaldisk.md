@@ -13,6 +13,41 @@ title: CIM\_LogicalDisk class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_LogicalDisk
+- CIM_LogicalDisk.Access
+- CIM_LogicalDisk.Availability
+- CIM_LogicalDisk.BlockSize
+- CIM_LogicalDisk.Caption
+- CIM_LogicalDisk.ConfigManagerErrorCode
+- CIM_LogicalDisk.ConfigManagerUserConfig
+- CIM_LogicalDisk.CreationClassName
+- CIM_LogicalDisk.Description
+- CIM_LogicalDisk.DeviceID
+- CIM_LogicalDisk.ErrorCleared
+- CIM_LogicalDisk.ErrorDescription
+- CIM_LogicalDisk.ErrorMethodology
+- CIM_LogicalDisk.FreeSpace
+- CIM_LogicalDisk.InstallDate
+- CIM_LogicalDisk.LastErrorCode
+- CIM_LogicalDisk.Name
+- CIM_LogicalDisk.NumberOfBlocks
+- CIM_LogicalDisk.PNPDeviceID
+- CIM_LogicalDisk.PowerManagementCapabilities
+- CIM_LogicalDisk.PowerManagementSupported
+- CIM_LogicalDisk.Purpose
+- CIM_LogicalDisk.Size
+- CIM_LogicalDisk.Status
+- CIM_LogicalDisk.StatusInfo
+- CIM_LogicalDisk.SystemCreationClassName
+- CIM_LogicalDisk.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_LogicalDisk class

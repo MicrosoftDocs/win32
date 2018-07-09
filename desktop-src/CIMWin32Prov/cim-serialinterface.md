@@ -13,6 +13,25 @@ title: CIM\_SerialInterface class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_SerialInterface
+- CIM_SerialInterface.NegotiatedDataWidth
+- CIM_SerialInterface.NegotiatedSpeed
+- CIM_SerialInterface.AccessState
+- CIM_SerialInterface.NumberOfHardResets
+- CIM_SerialInterface.NumberOfSoftResets
+- CIM_SerialInterface.Dependent
+- CIM_SerialInterface.Antecedent
+- CIM_SerialInterface.FlowControlInfo
+- CIM_SerialInterface.NumberOfStopBits
+- CIM_SerialInterface.ParityInfo
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_SerialInterface class

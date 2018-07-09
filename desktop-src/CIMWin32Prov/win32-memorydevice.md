@@ -13,6 +13,56 @@ title: Win32\_MemoryDevice class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_MemoryDevice
+- Win32_MemoryDevice.Reset
+- Win32_MemoryDevice.SetPowerState
+- Win32_MemoryDevice.Access
+- Win32_MemoryDevice.AdditionalErrorData
+- Win32_MemoryDevice.Availability
+- Win32_MemoryDevice.BlockSize
+- Win32_MemoryDevice.Caption
+- Win32_MemoryDevice.ConfigManagerErrorCode
+- Win32_MemoryDevice.ConfigManagerUserConfig
+- Win32_MemoryDevice.CorrectableError
+- Win32_MemoryDevice.CreationClassName
+- Win32_MemoryDevice.Description
+- Win32_MemoryDevice.DeviceID
+- Win32_MemoryDevice.EndingAddress
+- Win32_MemoryDevice.ErrorAccess
+- Win32_MemoryDevice.ErrorAddress
+- Win32_MemoryDevice.ErrorCleared
+- Win32_MemoryDevice.ErrorData
+- Win32_MemoryDevice.ErrorDataOrder
+- Win32_MemoryDevice.ErrorDescription
+- Win32_MemoryDevice.ErrorGranularity
+- Win32_MemoryDevice.ErrorInfo
+- Win32_MemoryDevice.ErrorMethodology
+- Win32_MemoryDevice.ErrorResolution
+- Win32_MemoryDevice.ErrorTime
+- Win32_MemoryDevice.ErrorTransferSize
+- Win32_MemoryDevice.InstallDate
+- Win32_MemoryDevice.LastErrorCode
+- Win32_MemoryDevice.Name
+- Win32_MemoryDevice.NumberOfBlocks
+- Win32_MemoryDevice.OtherErrorDescription
+- Win32_MemoryDevice.PNPDeviceID
+- Win32_MemoryDevice.PowerManagementCapabilities
+- Win32_MemoryDevice.PowerManagementSupported
+- Win32_MemoryDevice.Purpose
+- Win32_MemoryDevice.StartingAddress
+- Win32_MemoryDevice.Status
+- Win32_MemoryDevice.StatusInfo
+- Win32_MemoryDevice.SystemCreationClassName
+- Win32_MemoryDevice.SystemLevelAddress
+- Win32_MemoryDevice.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_MemoryDevice class

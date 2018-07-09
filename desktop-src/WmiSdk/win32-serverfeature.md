@@ -11,6 +11,18 @@ title: Win32\_ServerFeature class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_ServerFeature
+- Win32_ServerFeature.ID
+- Win32_ServerFeature.ParentID
+- Win32_ServerFeature.Name
+api_type: 
+- DllExport
+api_location: 
+- ServerCompProv.dll
 ---
 
 # Win32\_ServerFeature class

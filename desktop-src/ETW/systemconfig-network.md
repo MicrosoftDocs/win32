@@ -7,6 +7,18 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SystemConfig_Network
+- SystemConfig_Network.TcbTablePartitions
+- SystemConfig_Network.MaxHashTableSize
+- SystemConfig_Network.MaxUserPort
+- SystemConfig_Network.TcpTimedWaitDelay
+api_type: 
+- NA
+api_location: 
 ---
 
 # SystemConfig\_Network class

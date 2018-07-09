@@ -7,6 +7,28 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- FrequencyRangeDescriptor
+- FrequencyRangeDescriptor.Origin
+- FrequencyRangeDescriptor.MinVSyncNumerator
+- FrequencyRangeDescriptor.MinVSyncDenominator
+- FrequencyRangeDescriptor.MaxVSyncNumerator
+- FrequencyRangeDescriptor.MaxVSyncDenominator
+- FrequencyRangeDescriptor.MinHSyncNumerator
+- FrequencyRangeDescriptor.MinHSyncDenominator
+- FrequencyRangeDescriptor.MaxHSyncNumerator
+- FrequencyRangeDescriptor.MaxHSyncDenominator
+- FrequencyRangeDescriptor.ConstraintType
+- FrequencyRangeDescriptor.ActiveWidth
+- FrequencyRangeDescriptor.ActiveHeight
+- FrequencyRangeDescriptor.MaxPixelRate
+api_type: 
+- DllExport
+api_location: 
+- WmiProv.dll
 ---
 
 # FrequencyRangeDescriptor class

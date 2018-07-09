@@ -7,6 +7,27 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_StorageAlert
+- Msvm_StorageAlert.AlertingManagedElement
+- Msvm_StorageAlert.AlertingElementFormat
+- Msvm_StorageAlert.OtherAlertingElementFormat
+- Msvm_StorageAlert.AlertType
+- Msvm_StorageAlert.PerceivedSeverity
+- Msvm_StorageAlert.ProbableCause
+- Msvm_StorageAlert.ProbableCauseDescription
+- Msvm_StorageAlert.EventTime
+- Msvm_StorageAlert.OwningEntity
+- Msvm_StorageAlert.MessageArguments
+- Msvm_StorageAlert.MessageID
+- Msvm_StorageAlert.Message
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_StorageAlert class

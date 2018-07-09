@@ -13,6 +13,25 @@ title: CIM\_MemoryCheck class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_MemoryCheck
+- CIM_MemoryCheck.CheckID
+- CIM_MemoryCheck.Caption
+- CIM_MemoryCheck.Description
+- CIM_MemoryCheck.CheckMode
+- CIM_MemoryCheck.Name
+- CIM_MemoryCheck.TargetOperatingSystem
+- CIM_MemoryCheck.Version
+- CIM_MemoryCheck.SoftwareElementID
+- CIM_MemoryCheck.SoftwareElementState
+- CIM_MemoryCheck.MemorySize
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_MemoryCheck class

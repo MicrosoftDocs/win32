@@ -13,6 +13,19 @@ title: CIM\_ChassisInRack class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ChassisInRack
+- CIM_ChassisInRack.LocationWithinContainer
+- CIM_ChassisInRack.PartComponent
+- CIM_ChassisInRack.GroupComponent
+- CIM_ChassisInRack.BottomU
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_ChassisInRack class

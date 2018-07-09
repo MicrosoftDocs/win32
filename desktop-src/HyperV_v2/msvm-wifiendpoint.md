@@ -7,6 +7,60 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_WiFiEndpoint
+- Msvm_WiFiEndpoint.RequestStateChange
+- Msvm_WiFiEndpoint.InstanceID
+- Msvm_WiFiEndpoint.Caption
+- Msvm_WiFiEndpoint.Description
+- Msvm_WiFiEndpoint.ElementName
+- Msvm_WiFiEndpoint.InstallDate
+- Msvm_WiFiEndpoint.Name
+- Msvm_WiFiEndpoint.OperationalStatus
+- Msvm_WiFiEndpoint.StatusDescriptions
+- Msvm_WiFiEndpoint.Status
+- Msvm_WiFiEndpoint.HealthState
+- Msvm_WiFiEndpoint.CommunicationStatus
+- Msvm_WiFiEndpoint.DetailedStatus
+- Msvm_WiFiEndpoint.OperatingStatus
+- Msvm_WiFiEndpoint.PrimaryStatus
+- Msvm_WiFiEndpoint.EnabledState
+- Msvm_WiFiEndpoint.OtherEnabledState
+- Msvm_WiFiEndpoint.RequestedState
+- Msvm_WiFiEndpoint.EnabledDefault
+- Msvm_WiFiEndpoint.TimeOfLastStateChange
+- Msvm_WiFiEndpoint.AvailableRequestedStates
+- Msvm_WiFiEndpoint.TransitioningToState
+- Msvm_WiFiEndpoint.SystemCreationClassName
+- Msvm_WiFiEndpoint.SystemName
+- Msvm_WiFiEndpoint.CreationClassName
+- Msvm_WiFiEndpoint.NameFormat
+- Msvm_WiFiEndpoint.ProtocolType
+- Msvm_WiFiEndpoint.ProtocolIFType
+- Msvm_WiFiEndpoint.OtherTypeDescription
+- Msvm_WiFiEndpoint.LANID
+- Msvm_WiFiEndpoint.LANType
+- Msvm_WiFiEndpoint.OtherLANType
+- Msvm_WiFiEndpoint.MACAddress
+- Msvm_WiFiEndpoint.AliasAddresses
+- Msvm_WiFiEndpoint.GroupAddresses
+- Msvm_WiFiEndpoint.MaxDataSize
+- Msvm_WiFiEndpoint.Connected
+- Msvm_WiFiEndpoint.EncryptionMethod
+- Msvm_WiFiEndpoint.OtherEncryptionMethod
+- Msvm_WiFiEndpoint.AuthenticationMethod
+- Msvm_WiFiEndpoint.OtherAuthenticationMethod
+- Msvm_WiFiEndpoint.IEEE8021xAuthenticationProtocol
+- Msvm_WiFiEndpoint.AccessPointAddress
+- Msvm_WiFiEndpoint.BSSType
+- Msvm_WiFiEndpoint.Associated
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_WiFiEndpoint class

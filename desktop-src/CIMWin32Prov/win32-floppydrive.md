@@ -13,6 +13,47 @@ title: Win32\_FloppyDrive class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_FloppyDrive
+- Win32_FloppyDrive.Reset
+- Win32_FloppyDrive.SetPowerState
+- Win32_FloppyDrive.Availability
+- Win32_FloppyDrive.Capabilities
+- Win32_FloppyDrive.CapabilityDescriptions
+- Win32_FloppyDrive.Caption
+- Win32_FloppyDrive.CompressionMethod
+- Win32_FloppyDrive.ConfigManagerErrorCode
+- Win32_FloppyDrive.ConfigManagerUserConfig
+- Win32_FloppyDrive.CreationClassName
+- Win32_FloppyDrive.DefaultBlockSize
+- Win32_FloppyDrive.Description
+- Win32_FloppyDrive.DeviceID
+- Win32_FloppyDrive.ErrorCleared
+- Win32_FloppyDrive.ErrorDescription
+- Win32_FloppyDrive.ErrorMethodology
+- Win32_FloppyDrive.InstallDate
+- Win32_FloppyDrive.LastErrorCode
+- Win32_FloppyDrive.Manufacturer
+- Win32_FloppyDrive.MaxBlockSize
+- Win32_FloppyDrive.MaxMediaSize
+- Win32_FloppyDrive.MinBlockSize
+- Win32_FloppyDrive.Name
+- Win32_FloppyDrive.NeedsCleaning
+- Win32_FloppyDrive.NumberOfMediaSupported
+- Win32_FloppyDrive.PNPDeviceID
+- Win32_FloppyDrive.PowerManagementCapabilities
+- Win32_FloppyDrive.PowerManagementSupported
+- Win32_FloppyDrive.Status
+- Win32_FloppyDrive.StatusInfo
+- Win32_FloppyDrive.SystemCreationClassName
+- Win32_FloppyDrive.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_FloppyDrive class

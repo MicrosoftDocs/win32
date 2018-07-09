@@ -7,6 +7,41 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- MSMCAEvent_MemoryError
+- MSMCAEvent_MemoryError.Active
+- MSMCAEvent_MemoryError.AdditionalErrors
+- MSMCAEvent_MemoryError.BUS_SPECIFIC_DATA
+- MSMCAEvent_MemoryError.Cpu
+- MSMCAEvent_MemoryError.ErrorSeverity
+- MSMCAEvent_MemoryError.InstanceName
+- MSMCAEvent_MemoryError.MEM_BANK
+- MSMCAEvent_MemoryError.MEM_BIT_POSITION
+- MSMCAEvent_MemoryError.MEM_CARD
+- MSMCAEvent_MemoryError.MEM_COLUMN
+- MSMCAEvent_MemoryError.MEM_ERROR_STATUS
+- MSMCAEvent_MemoryError.MEM_MODULE
+- MSMCAEvent_MemoryError.MEM_NODE
+- MSMCAEvent_MemoryError.MEM_PHYSICAL_ADDR
+- MSMCAEvent_MemoryError.MEM_PHYSICAL_MASK
+- MSMCAEvent_MemoryError.MEM_ROW
+- MSMCAEvent_MemoryError.RawRecord
+- MSMCAEvent_MemoryError.RecordId
+- MSMCAEvent_MemoryError.REQUESTOR_ID
+- MSMCAEvent_MemoryError.RESPONDER_ID
+- MSMCAEvent_MemoryError.Size
+- MSMCAEvent_MemoryError.TARGET_ID
+- MSMCAEvent_MemoryError.Type
+- MSMCAEvent_MemoryError.VALIDATION_BITS
+- MSMCAEvent_MemoryError.MEM_DEVICE
+- MSMCAEvent_MemoryError.LogToEventlog
+api_type: 
+- DllExport
+api_location: 
+- Wmiprov.dll
 ---
 
 # MSMCAEvent\_MemoryError class

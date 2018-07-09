@@ -7,6 +7,19 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_EnabledLogicalElementCapabilities
+- CIM_EnabledLogicalElementCapabilities.ElementNameEditSupported
+- CIM_EnabledLogicalElementCapabilities.MaxElementNameLen
+- CIM_EnabledLogicalElementCapabilities.RequestedStatesSupported
+- CIM_EnabledLogicalElementCapabilities.ElementNameMask
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_EnabledLogicalElementCapabilities class

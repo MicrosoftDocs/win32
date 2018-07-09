@@ -13,6 +13,50 @@ title: CIM\_Chassis class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Chassis
+- CIM_Chassis.Caption
+- CIM_Chassis.Description
+- CIM_Chassis.InstallDate
+- CIM_Chassis.Name
+- CIM_Chassis.Status
+- CIM_Chassis.CreationClassName
+- CIM_Chassis.Manufacturer
+- CIM_Chassis.Model
+- CIM_Chassis.OtherIdentifyingInfo
+- CIM_Chassis.PartNumber
+- CIM_Chassis.PoweredOn
+- CIM_Chassis.SerialNumber
+- CIM_Chassis.SKU
+- CIM_Chassis.Tag
+- CIM_Chassis.Version
+- CIM_Chassis.Depth
+- CIM_Chassis.Height
+- CIM_Chassis.HotSwappable
+- CIM_Chassis.Removable
+- CIM_Chassis.Replaceable
+- CIM_Chassis.Weight
+- CIM_Chassis.Width
+- CIM_Chassis.AudibleAlarm
+- CIM_Chassis.BreachDescription
+- CIM_Chassis.CableManagementStrategy
+- CIM_Chassis.LockPresent
+- CIM_Chassis.SecurityBreach
+- CIM_Chassis.ServiceDescriptions
+- CIM_Chassis.ServicePhilosophy
+- CIM_Chassis.VisibleAlarm
+- CIM_Chassis.ChassisTypes
+- CIM_Chassis.CurrentRequiredOrProduced
+- CIM_Chassis.HeatGeneration
+- CIM_Chassis.NumberOfPowerCords
+- CIM_Chassis.TypeDescriptions
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Chassis class

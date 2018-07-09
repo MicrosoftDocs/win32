@@ -7,6 +7,82 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_EthernetSwitchPort
+- Msvm_EthernetSwitchPort.SetPowerState
+- Msvm_EthernetSwitchPort.EnableDevice
+- Msvm_EthernetSwitchPort.OnlineDevice
+- Msvm_EthernetSwitchPort.QuiesceDevice
+- Msvm_EthernetSwitchPort.SaveProperties
+- Msvm_EthernetSwitchPort.RestoreProperties
+- Msvm_EthernetSwitchPort.InstanceID
+- Msvm_EthernetSwitchPort.Caption
+- Msvm_EthernetSwitchPort.Description
+- Msvm_EthernetSwitchPort.ElementName
+- Msvm_EthernetSwitchPort.InstallDate
+- Msvm_EthernetSwitchPort.Name
+- Msvm_EthernetSwitchPort.OperationalStatus
+- Msvm_EthernetSwitchPort.StatusDescriptions
+- Msvm_EthernetSwitchPort.Status
+- Msvm_EthernetSwitchPort.HealthState
+- Msvm_EthernetSwitchPort.CommunicationStatus
+- Msvm_EthernetSwitchPort.DetailedStatus
+- Msvm_EthernetSwitchPort.OperatingStatus
+- Msvm_EthernetSwitchPort.PrimaryStatus
+- Msvm_EthernetSwitchPort.EnabledState
+- Msvm_EthernetSwitchPort.OtherEnabledState
+- Msvm_EthernetSwitchPort.RequestedState
+- Msvm_EthernetSwitchPort.EnabledDefault
+- Msvm_EthernetSwitchPort.TimeOfLastStateChange
+- Msvm_EthernetSwitchPort.AvailableRequestedStates
+- Msvm_EthernetSwitchPort.TransitioningToState
+- Msvm_EthernetSwitchPort.SystemCreationClassName
+- Msvm_EthernetSwitchPort.SystemName
+- Msvm_EthernetSwitchPort.CreationClassName
+- Msvm_EthernetSwitchPort.DeviceID
+- Msvm_EthernetSwitchPort.PowerManagementSupported
+- Msvm_EthernetSwitchPort.PowerManagementCapabilities
+- Msvm_EthernetSwitchPort.Availability
+- Msvm_EthernetSwitchPort.StatusInfo
+- Msvm_EthernetSwitchPort.LastErrorCode
+- Msvm_EthernetSwitchPort.ErrorDescription
+- Msvm_EthernetSwitchPort.ErrorCleared
+- Msvm_EthernetSwitchPort.OtherIdentifyingInfo
+- Msvm_EthernetSwitchPort.PowerOnHours
+- Msvm_EthernetSwitchPort.TotalPowerOnHours
+- Msvm_EthernetSwitchPort.IdentifyingDescriptions
+- Msvm_EthernetSwitchPort.AdditionalAvailability
+- Msvm_EthernetSwitchPort.MaxQuiesceTime
+- Msvm_EthernetSwitchPort.Speed
+- Msvm_EthernetSwitchPort.MaxSpeed
+- Msvm_EthernetSwitchPort.RequestedSpeed
+- Msvm_EthernetSwitchPort.UsageRestriction
+- Msvm_EthernetSwitchPort.PortType
+- Msvm_EthernetSwitchPort.OtherPortType
+- Msvm_EthernetSwitchPort.OtherNetworkPortType
+- Msvm_EthernetSwitchPort.PortNumber
+- Msvm_EthernetSwitchPort.LinkTechnology
+- Msvm_EthernetSwitchPort.OtherLinkTechnology
+- Msvm_EthernetSwitchPort.PermanentAddress
+- Msvm_EthernetSwitchPort.NetworkAddresses
+- Msvm_EthernetSwitchPort.FullDuplex
+- Msvm_EthernetSwitchPort.AutoSense
+- Msvm_EthernetSwitchPort.SupportedMaximumTransmissionUnit
+- Msvm_EthernetSwitchPort.ActiveMaximumTransmissionUnit
+- Msvm_EthernetSwitchPort.MaxDataSize
+- Msvm_EthernetSwitchPort.Capabilities
+- Msvm_EthernetSwitchPort.CapabilityDescriptions
+- Msvm_EthernetSwitchPort.EnabledCapabilities
+- Msvm_EthernetSwitchPort.OtherEnabledCapabilities
+- Msvm_EthernetSwitchPort.VMQOffloadUsage
+- Msvm_EthernetSwitchPort.IOVOffloadUsage
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_EthernetSwitchPort class

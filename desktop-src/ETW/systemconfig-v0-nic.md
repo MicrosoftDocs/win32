@@ -7,6 +7,30 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SystemConfig_V0_NIC
+- SystemConfig_V0_NIC.NICName
+- SystemConfig_V0_NIC.Index
+- SystemConfig_V0_NIC.PhysicalAddrLen
+- SystemConfig_V0_NIC.PhysicalAddr
+- SystemConfig_V0_NIC.Size
+- SystemConfig_V0_NIC.IpAddress
+- SystemConfig_V0_NIC.SubnetMask
+- SystemConfig_V0_NIC.DhcpServer
+- SystemConfig_V0_NIC.Gateway
+- SystemConfig_V0_NIC.PrimaryWinsServer
+- SystemConfig_V0_NIC.SecondaryWinsServer
+- SystemConfig_V0_NIC.DnsServer1
+- SystemConfig_V0_NIC.DnsServer2
+- SystemConfig_V0_NIC.DnsServer3
+- SystemConfig_V0_NIC.DnsServer4
+- SystemConfig_V0_NIC.Data
+api_type: 
+- NA
+api_location: 
 ---
 
 # SystemConfig\_V0\_NIC class

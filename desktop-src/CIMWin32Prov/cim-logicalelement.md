@@ -13,6 +13,20 @@ title: CIM\_LogicalElement class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_LogicalElement
+- CIM_LogicalElement.Caption
+- CIM_LogicalElement.Description
+- CIM_LogicalElement.InstallDate
+- CIM_LogicalElement.Name
+- CIM_LogicalElement.Status
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_LogicalElement class

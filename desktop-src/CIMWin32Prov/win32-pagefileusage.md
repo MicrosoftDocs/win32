@@ -13,6 +13,24 @@ title: Win32\_PageFileUsage class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PageFileUsage
+- Win32_PageFileUsage.Caption
+- Win32_PageFileUsage.Description
+- Win32_PageFileUsage.InstallDate
+- Win32_PageFileUsage.Status
+- Win32_PageFileUsage.AllocatedBaseSize
+- Win32_PageFileUsage.CurrentUsage
+- Win32_PageFileUsage.Name
+- Win32_PageFileUsage.PeakUsage
+- Win32_PageFileUsage.TempPageFile
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PageFileUsage class

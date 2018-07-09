@@ -7,6 +7,59 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VssComponent
+- Msvm_VssComponent.SetPowerState
+- Msvm_VssComponent.EnableDevice
+- Msvm_VssComponent.OnlineDevice
+- Msvm_VssComponent.QuiesceDevice
+- Msvm_VssComponent.SaveProperties
+- Msvm_VssComponent.RestoreProperties
+- Msvm_VssComponent.InstanceID
+- Msvm_VssComponent.Caption
+- Msvm_VssComponent.Description
+- Msvm_VssComponent.ElementName
+- Msvm_VssComponent.InstallDate
+- Msvm_VssComponent.Name
+- Msvm_VssComponent.OperationalStatus
+- Msvm_VssComponent.StatusDescriptions
+- Msvm_VssComponent.Status
+- Msvm_VssComponent.HealthState
+- Msvm_VssComponent.CommunicationStatus
+- Msvm_VssComponent.DetailedStatus
+- Msvm_VssComponent.OperatingStatus
+- Msvm_VssComponent.PrimaryStatus
+- Msvm_VssComponent.EnabledState
+- Msvm_VssComponent.OtherEnabledState
+- Msvm_VssComponent.RequestedState
+- Msvm_VssComponent.EnabledDefault
+- Msvm_VssComponent.TimeOfLastStateChange
+- Msvm_VssComponent.AvailableRequestedStates
+- Msvm_VssComponent.TransitioningToState
+- Msvm_VssComponent.SystemCreationClassName
+- Msvm_VssComponent.SystemName
+- Msvm_VssComponent.CreationClassName
+- Msvm_VssComponent.DeviceID
+- Msvm_VssComponent.PowerManagementSupported
+- Msvm_VssComponent.PowerManagementCapabilities
+- Msvm_VssComponent.Availability
+- Msvm_VssComponent.StatusInfo
+- Msvm_VssComponent.LastErrorCode
+- Msvm_VssComponent.ErrorDescription
+- Msvm_VssComponent.ErrorCleared
+- Msvm_VssComponent.OtherIdentifyingInfo
+- Msvm_VssComponent.PowerOnHours
+- Msvm_VssComponent.TotalPowerOnHours
+- Msvm_VssComponent.IdentifyingDescriptions
+- Msvm_VssComponent.AdditionalAvailability
+- Msvm_VssComponent.MaxQuiesceTime
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VssComponent class

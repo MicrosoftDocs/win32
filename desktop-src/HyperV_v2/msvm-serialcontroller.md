@@ -7,6 +7,67 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_SerialController
+- Msvm_SerialController.SetPowerState
+- Msvm_SerialController.EnableDevice
+- Msvm_SerialController.OnlineDevice
+- Msvm_SerialController.QuiesceDevice
+- Msvm_SerialController.SaveProperties
+- Msvm_SerialController.RestoreProperties
+- Msvm_SerialController.InstanceID
+- Msvm_SerialController.Caption
+- Msvm_SerialController.Description
+- Msvm_SerialController.ElementName
+- Msvm_SerialController.InstallDate
+- Msvm_SerialController.Name
+- Msvm_SerialController.OperationalStatus
+- Msvm_SerialController.StatusDescriptions
+- Msvm_SerialController.Status
+- Msvm_SerialController.HealthState
+- Msvm_SerialController.CommunicationStatus
+- Msvm_SerialController.DetailedStatus
+- Msvm_SerialController.OperatingStatus
+- Msvm_SerialController.PrimaryStatus
+- Msvm_SerialController.EnabledState
+- Msvm_SerialController.OtherEnabledState
+- Msvm_SerialController.RequestedState
+- Msvm_SerialController.EnabledDefault
+- Msvm_SerialController.TimeOfLastStateChange
+- Msvm_SerialController.AvailableRequestedStates
+- Msvm_SerialController.TransitioningToState
+- Msvm_SerialController.SystemCreationClassName
+- Msvm_SerialController.SystemName
+- Msvm_SerialController.CreationClassName
+- Msvm_SerialController.DeviceID
+- Msvm_SerialController.PowerManagementSupported
+- Msvm_SerialController.PowerManagementCapabilities
+- Msvm_SerialController.Availability
+- Msvm_SerialController.StatusInfo
+- Msvm_SerialController.LastErrorCode
+- Msvm_SerialController.ErrorDescription
+- Msvm_SerialController.ErrorCleared
+- Msvm_SerialController.OtherIdentifyingInfo
+- Msvm_SerialController.PowerOnHours
+- Msvm_SerialController.TotalPowerOnHours
+- Msvm_SerialController.IdentifyingDescriptions
+- Msvm_SerialController.AdditionalAvailability
+- Msvm_SerialController.MaxQuiesceTime
+- Msvm_SerialController.TimeOfLastReset
+- Msvm_SerialController.ProtocolSupported
+- Msvm_SerialController.MaxNumberControlled
+- Msvm_SerialController.ProtocolDescription
+- Msvm_SerialController.Capabilities
+- Msvm_SerialController.CapabilityDescriptions
+- Msvm_SerialController.MaxBaudRate
+- Msvm_SerialController.Security
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_SerialController class

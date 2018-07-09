@@ -13,6 +13,22 @@ title: Win32\_PrinterController class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PrinterController
+- Win32_PrinterController.AccessState
+- Win32_PrinterController.Antecedent
+- Win32_PrinterController.Dependent
+- Win32_PrinterController.NegotiatedDataWidth
+- Win32_PrinterController.NegotiatedSpeed
+- Win32_PrinterController.NumberOfHardResets
+- Win32_PrinterController.NumberOfSoftResets
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PrinterController class

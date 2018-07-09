@@ -13,6 +13,24 @@ title: CIM\_RebootAction class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_RebootAction
+- CIM_RebootAction.ActionID
+- CIM_RebootAction.Caption
+- CIM_RebootAction.Description
+- CIM_RebootAction.Direction
+- CIM_RebootAction.Name
+- CIM_RebootAction.SoftwareElementID
+- CIM_RebootAction.SoftwareElementState
+- CIM_RebootAction.TargetOperatingSystem
+- CIM_RebootAction.Version
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_RebootAction class

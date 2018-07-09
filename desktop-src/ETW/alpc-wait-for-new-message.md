@@ -7,6 +7,16 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- ALPC_Wait_For_New_Message
+- ALPC_Wait_For_New_Message.IsServerPort
+- ALPC_Wait_For_New_Message.PortName
+api_type: 
+- NA
+api_location: 
 ---
 
 # ALPC\_Wait\_For\_New\_Message class

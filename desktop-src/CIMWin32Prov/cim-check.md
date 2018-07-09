@@ -13,6 +13,24 @@ title: CIM\_Check class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Check
+- CIM_Check.CheckID
+- CIM_Check.Caption
+- CIM_Check.Description
+- CIM_Check.CheckMode
+- CIM_Check.Name
+- CIM_Check.TargetOperatingSystem
+- CIM_Check.Version
+- CIM_Check.SoftwareElementID
+- CIM_Check.SoftwareElementState
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Check class

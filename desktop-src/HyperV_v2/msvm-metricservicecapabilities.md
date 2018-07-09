@@ -7,6 +7,28 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_MetricServiceCapabilities
+- Msvm_MetricServiceCapabilities.InstanceID
+- Msvm_MetricServiceCapabilities.Caption
+- Msvm_MetricServiceCapabilities.Description
+- Msvm_MetricServiceCapabilities.ElementName
+- Msvm_MetricServiceCapabilities.ElementNameEditSupported
+- Msvm_MetricServiceCapabilities.MaxElementNameLen
+- Msvm_MetricServiceCapabilities.RequestedStatesSupported
+- Msvm_MetricServiceCapabilities.ElementNameMask
+- Msvm_MetricServiceCapabilities.ControllableMetrics
+- Msvm_MetricServiceCapabilities.MetricsControlTypes
+- Msvm_MetricServiceCapabilities.ControllableManagedElements
+- Msvm_MetricServiceCapabilities.ManagedElementControlTypes
+- Msvm_MetricServiceCapabilities.SupportedMethods
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_MetricServiceCapabilities class

@@ -7,6 +7,31 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Memory
+- CIM_Memory.Volatile
+- CIM_Memory.ErrorMethodology
+- CIM_Memory.StartingAddress
+- CIM_Memory.EndingAddress
+- CIM_Memory.ErrorInfo
+- CIM_Memory.OtherErrorDescription
+- CIM_Memory.CorrectableError
+- CIM_Memory.ErrorTime
+- CIM_Memory.ErrorAccess
+- CIM_Memory.ErrorTransferSize
+- CIM_Memory.ErrorData
+- CIM_Memory.ErrorDataOrder
+- CIM_Memory.ErrorAddress
+- CIM_Memory.SystemLevelAddress
+- CIM_Memory.ErrorResolution
+- CIM_Memory.AdditionalErrorData
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_Memory class

@@ -7,6 +7,15 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- ALPC_Receive_Message
+- ALPC_Receive_Message.MessageID
+api_type: 
+- NA
+api_location: 
 ---
 
 # ALPC\_Receive\_Message class

@@ -10,6 +10,19 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- MDM_Firewall_FirewallRules02_01
+- MDM_Firewall_FirewallRules02_01.InstanceID
+- MDM_Firewall_FirewallRules02_01.ParentID
+- MDM_Firewall_FirewallRules02_01.IcmpTypesAndCodes
+- MDM_Firewall_FirewallRules02_01.FriendlyName
+api_type: 
+- DllExport
+api_location: 
+- DMWmiBridgeProv.dll
 ---
 
 # MDM\_Firewall\_FirewallRules02\_01 class

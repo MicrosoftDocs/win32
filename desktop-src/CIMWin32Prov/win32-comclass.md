@@ -13,6 +13,20 @@ title: Win32\_COMClass class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_COMClass
+- Win32_COMClass.Caption
+- Win32_COMClass.Description
+- Win32_COMClass.InstallDate
+- Win32_COMClass.Name
+- Win32_COMClass.Status
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_COMClass class

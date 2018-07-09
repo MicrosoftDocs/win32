@@ -7,6 +7,21 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ProtocolControllerForUnit
+- Msvm_ProtocolControllerForUnit.Antecedent
+- Msvm_ProtocolControllerForUnit.Dependent
+- Msvm_ProtocolControllerForUnit.DeviceNumber
+- Msvm_ProtocolControllerForUnit.AccessPriority
+- Msvm_ProtocolControllerForUnit.AccessState
+- Msvm_ProtocolControllerForUnit.DeviceAccess
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ProtocolControllerForUnit class

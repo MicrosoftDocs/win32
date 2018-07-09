@@ -13,6 +13,20 @@ title: Win32\_PnPDevicePropertyDateTimeArray class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PnPDevicePropertyDateTimeArray
+- Win32_PnPDevicePropertyDateTimeArray.Key
+- Win32_PnPDevicePropertyDateTimeArray.KeyName
+- Win32_PnPDevicePropertyDateTimeArray.Type
+- Win32_PnPDevicePropertyDateTimeArray.DeviceID
+- Win32_PnPDevicePropertyDateTimeArray.Data
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PnPDevicePropertyDateTimeArray class

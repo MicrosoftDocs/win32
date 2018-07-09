@@ -7,6 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- FileIo_Info
+- FileIo_Info.IrpPtr
+- FileIo_Info.TTID
+- FileIo_Info.FileObject
+- FileIo_Info.FileKey
+- FileIo_Info.ExtraInfo
+- FileIo_Info.InfoClass
+api_type: 
+- NA
+api_location: 
 ---
 
 # FileIo\_Info class

@@ -13,6 +13,52 @@ title: Win32\_TemperatureProbe class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_TemperatureProbe
+- Win32_TemperatureProbe.Reset
+- Win32_TemperatureProbe.SetPowerState
+- Win32_TemperatureProbe.Accuracy
+- Win32_TemperatureProbe.Availability
+- Win32_TemperatureProbe.Caption
+- Win32_TemperatureProbe.ConfigManagerErrorCode
+- Win32_TemperatureProbe.ConfigManagerUserConfig
+- Win32_TemperatureProbe.CreationClassName
+- Win32_TemperatureProbe.CurrentReading
+- Win32_TemperatureProbe.Description
+- Win32_TemperatureProbe.DeviceID
+- Win32_TemperatureProbe.ErrorCleared
+- Win32_TemperatureProbe.ErrorDescription
+- Win32_TemperatureProbe.InstallDate
+- Win32_TemperatureProbe.IsLinear
+- Win32_TemperatureProbe.LastErrorCode
+- Win32_TemperatureProbe.LowerThresholdCritical
+- Win32_TemperatureProbe.LowerThresholdFatal
+- Win32_TemperatureProbe.LowerThresholdNonCritical
+- Win32_TemperatureProbe.MaxReadable
+- Win32_TemperatureProbe.MinReadable
+- Win32_TemperatureProbe.Name
+- Win32_TemperatureProbe.NominalReading
+- Win32_TemperatureProbe.NormalMax
+- Win32_TemperatureProbe.NormalMin
+- Win32_TemperatureProbe.PNPDeviceID
+- Win32_TemperatureProbe.PowerManagementCapabilities
+- Win32_TemperatureProbe.PowerManagementSupported
+- Win32_TemperatureProbe.Resolution
+- Win32_TemperatureProbe.Status
+- Win32_TemperatureProbe.StatusInfo
+- Win32_TemperatureProbe.SystemCreationClassName
+- Win32_TemperatureProbe.SystemName
+- Win32_TemperatureProbe.Tolerance
+- Win32_TemperatureProbe.UpperThresholdCritical
+- Win32_TemperatureProbe.UpperThresholdFatal
+- Win32_TemperatureProbe.UpperThresholdNonCritical
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_TemperatureProbe class

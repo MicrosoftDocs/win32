@@ -7,6 +7,28 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_EthernetSwitchPortVlanSettingData
+- Msvm_EthernetSwitchPortVlanSettingData.InstanceID
+- Msvm_EthernetSwitchPortVlanSettingData.Caption
+- Msvm_EthernetSwitchPortVlanSettingData.Description
+- Msvm_EthernetSwitchPortVlanSettingData.ElementName
+- Msvm_EthernetSwitchPortVlanSettingData.OperationMode
+- Msvm_EthernetSwitchPortVlanSettingData.AccessVlanId
+- Msvm_EthernetSwitchPortVlanSettingData.NativeVlanId
+- Msvm_EthernetSwitchPortVlanSettingData.PvlanMode
+- Msvm_EthernetSwitchPortVlanSettingData.PrimaryVlanId
+- Msvm_EthernetSwitchPortVlanSettingData.SecondaryVlanId
+- Msvm_EthernetSwitchPortVlanSettingData.PruneVlanIdArray
+- Msvm_EthernetSwitchPortVlanSettingData.TrunkVlanIdArray
+- Msvm_EthernetSwitchPortVlanSettingData.SecondaryVlanIdArray
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_EthernetSwitchPortVlanSettingData class

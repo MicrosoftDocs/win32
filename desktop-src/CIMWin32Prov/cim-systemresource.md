@@ -13,6 +13,20 @@ title: CIM\_SystemResource class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_SystemResource
+- CIM_SystemResource.Caption
+- CIM_SystemResource.Description
+- CIM_SystemResource.InstallDate
+- CIM_SystemResource.Name
+- CIM_SystemResource.Status
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_SystemResource class

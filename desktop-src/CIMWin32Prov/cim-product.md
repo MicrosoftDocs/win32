@@ -13,6 +13,22 @@ title: CIM\_Product class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Product
+- CIM_Product.Caption
+- CIM_Product.Description
+- CIM_Product.IdentifyingNumber
+- CIM_Product.Name
+- CIM_Product.SKUNumber
+- CIM_Product.Vendor
+- CIM_Product.Version
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Product class

@@ -7,6 +7,51 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_TransparentBridgingService
+- Msvm_TransparentBridgingService.InstanceID
+- Msvm_TransparentBridgingService.Caption
+- Msvm_TransparentBridgingService.Description
+- Msvm_TransparentBridgingService.ElementName
+- Msvm_TransparentBridgingService.InstallDate
+- Msvm_TransparentBridgingService.OperationalStatus
+- Msvm_TransparentBridgingService.StatusDescriptions
+- Msvm_TransparentBridgingService.Status
+- Msvm_TransparentBridgingService.HealthState
+- Msvm_TransparentBridgingService.CommunicationStatus
+- Msvm_TransparentBridgingService.DetailedStatus
+- Msvm_TransparentBridgingService.OperatingStatus
+- Msvm_TransparentBridgingService.PrimaryStatus
+- Msvm_TransparentBridgingService.EnabledState
+- Msvm_TransparentBridgingService.OtherEnabledState
+- Msvm_TransparentBridgingService.RequestedState
+- Msvm_TransparentBridgingService.EnabledDefault
+- Msvm_TransparentBridgingService.TimeOfLastStateChange
+- Msvm_TransparentBridgingService.AvailableRequestedStates
+- Msvm_TransparentBridgingService.TransitioningToState
+- Msvm_TransparentBridgingService.SystemCreationClassName
+- Msvm_TransparentBridgingService.SystemName
+- Msvm_TransparentBridgingService.CreationClassName
+- Msvm_TransparentBridgingService.Name
+- Msvm_TransparentBridgingService.PrimaryOwnerName
+- Msvm_TransparentBridgingService.PrimaryOwnerContact
+- Msvm_TransparentBridgingService.StartMode
+- Msvm_TransparentBridgingService.Started
+- Msvm_TransparentBridgingService.Keywords
+- Msvm_TransparentBridgingService.ServiceURL
+- Msvm_TransparentBridgingService.StartupConditions
+- Msvm_TransparentBridgingService.StartupParameters
+- Msvm_TransparentBridgingService.ProtocolType
+- Msvm_TransparentBridgingService.OtherProtocolType
+- Msvm_TransparentBridgingService.AgingTime
+- Msvm_TransparentBridgingService.FID
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_TransparentBridgingService class

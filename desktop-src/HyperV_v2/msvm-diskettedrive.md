@@ -7,6 +7,82 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_DisketteDrive
+- Msvm_DisketteDrive.SetPowerState
+- Msvm_DisketteDrive.EnableDevice
+- Msvm_DisketteDrive.OnlineDevice
+- Msvm_DisketteDrive.QuiesceDevice
+- Msvm_DisketteDrive.SaveProperties
+- Msvm_DisketteDrive.RestoreProperties
+- Msvm_DisketteDrive.InstanceID
+- Msvm_DisketteDrive.Caption
+- Msvm_DisketteDrive.Description
+- Msvm_DisketteDrive.ElementName
+- Msvm_DisketteDrive.InstallDate
+- Msvm_DisketteDrive.Name
+- Msvm_DisketteDrive.OperationalStatus
+- Msvm_DisketteDrive.StatusDescriptions
+- Msvm_DisketteDrive.Status
+- Msvm_DisketteDrive.HealthState
+- Msvm_DisketteDrive.CommunicationStatus
+- Msvm_DisketteDrive.DetailedStatus
+- Msvm_DisketteDrive.OperatingStatus
+- Msvm_DisketteDrive.PrimaryStatus
+- Msvm_DisketteDrive.EnabledState
+- Msvm_DisketteDrive.OtherEnabledState
+- Msvm_DisketteDrive.RequestedState
+- Msvm_DisketteDrive.EnabledDefault
+- Msvm_DisketteDrive.TimeOfLastStateChange
+- Msvm_DisketteDrive.AvailableRequestedStates
+- Msvm_DisketteDrive.TransitioningToState
+- Msvm_DisketteDrive.SystemCreationClassName
+- Msvm_DisketteDrive.SystemName
+- Msvm_DisketteDrive.CreationClassName
+- Msvm_DisketteDrive.DeviceID
+- Msvm_DisketteDrive.PowerManagementSupported
+- Msvm_DisketteDrive.PowerManagementCapabilities
+- Msvm_DisketteDrive.Availability
+- Msvm_DisketteDrive.StatusInfo
+- Msvm_DisketteDrive.LastErrorCode
+- Msvm_DisketteDrive.ErrorDescription
+- Msvm_DisketteDrive.ErrorCleared
+- Msvm_DisketteDrive.OtherIdentifyingInfo
+- Msvm_DisketteDrive.PowerOnHours
+- Msvm_DisketteDrive.TotalPowerOnHours
+- Msvm_DisketteDrive.IdentifyingDescriptions
+- Msvm_DisketteDrive.AdditionalAvailability
+- Msvm_DisketteDrive.MaxQuiesceTime
+- Msvm_DisketteDrive.Capabilities
+- Msvm_DisketteDrive.CapabilityDescriptions
+- Msvm_DisketteDrive.ErrorMethodology
+- Msvm_DisketteDrive.CompressionMethod
+- Msvm_DisketteDrive.NumberOfMediaSupported
+- Msvm_DisketteDrive.MaxMediaSize
+- Msvm_DisketteDrive.DefaultBlockSize
+- Msvm_DisketteDrive.MaxBlockSize
+- Msvm_DisketteDrive.MinBlockSize
+- Msvm_DisketteDrive.NeedsCleaning
+- Msvm_DisketteDrive.MediaIsLocked
+- Msvm_DisketteDrive.Security
+- Msvm_DisketteDrive.LastCleaned
+- Msvm_DisketteDrive.MaxAccessTime
+- Msvm_DisketteDrive.UncompressedDataRate
+- Msvm_DisketteDrive.LoadTime
+- Msvm_DisketteDrive.UnloadTime
+- Msvm_DisketteDrive.MountCount
+- Msvm_DisketteDrive.TimeOfLastMount
+- Msvm_DisketteDrive.TotalMountTime
+- Msvm_DisketteDrive.UnitsDescription
+- Msvm_DisketteDrive.MaxUnitsBeforeCleaning
+- Msvm_DisketteDrive.UnitsUsed
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_DisketteDrive class

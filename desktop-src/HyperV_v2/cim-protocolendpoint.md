@@ -7,6 +7,24 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ProtocolEndpoint
+- CIM_ProtocolEndpoint.Description
+- CIM_ProtocolEndpoint.OperationalStatus
+- CIM_ProtocolEndpoint.EnabledState
+- CIM_ProtocolEndpoint.TimeOfLastStateChange
+- CIM_ProtocolEndpoint.Name
+- CIM_ProtocolEndpoint.NameFormat
+- CIM_ProtocolEndpoint.ProtocolType
+- CIM_ProtocolEndpoint.ProtocolIFType
+- CIM_ProtocolEndpoint.OtherTypeDescription
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_ProtocolEndpoint class

@@ -7,6 +7,44 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualEthernetSwitchSettingData
+- Msvm_VirtualEthernetSwitchSettingData.InstanceID
+- Msvm_VirtualEthernetSwitchSettingData.Caption
+- Msvm_VirtualEthernetSwitchSettingData.Description
+- Msvm_VirtualEthernetSwitchSettingData.ElementName
+- Msvm_VirtualEthernetSwitchSettingData.VirtualSystemIdentifier
+- Msvm_VirtualEthernetSwitchSettingData.VirtualSystemType
+- Msvm_VirtualEthernetSwitchSettingData.Notes
+- Msvm_VirtualEthernetSwitchSettingData.CreationTime
+- Msvm_VirtualEthernetSwitchSettingData.ConfigurationID
+- Msvm_VirtualEthernetSwitchSettingData.ConfigurationDataRoot
+- Msvm_VirtualEthernetSwitchSettingData.ConfigurationFile
+- Msvm_VirtualEthernetSwitchSettingData.SnapshotDataRoot
+- Msvm_VirtualEthernetSwitchSettingData.SuspendDataRoot
+- Msvm_VirtualEthernetSwitchSettingData.SwapFileDataRoot
+- Msvm_VirtualEthernetSwitchSettingData.LogDataRoot
+- Msvm_VirtualEthernetSwitchSettingData.AutomaticStartupAction
+- Msvm_VirtualEthernetSwitchSettingData.AutomaticStartupActionDelay
+- Msvm_VirtualEthernetSwitchSettingData.AutomaticStartupActionSequenceNumber
+- Msvm_VirtualEthernetSwitchSettingData.AutomaticShutdownAction
+- Msvm_VirtualEthernetSwitchSettingData.AutomaticRecoveryAction
+- Msvm_VirtualEthernetSwitchSettingData.RecoveryFile
+- Msvm_VirtualEthernetSwitchSettingData.VLANConnection
+- Msvm_VirtualEthernetSwitchSettingData.AssociatedResourcePool
+- Msvm_VirtualEthernetSwitchSettingData.MaxNumMACAddress
+- Msvm_VirtualEthernetSwitchSettingData.IOVPreferred
+- Msvm_VirtualEthernetSwitchSettingData.ExtensionOrder
+- Msvm_VirtualEthernetSwitchSettingData.BandwidthReservationMode
+- Msvm_VirtualEthernetSwitchSettingData.TeamingEnabled
+- Msvm_VirtualEthernetSwitchSettingData.PacketDirectEnabled
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualEthernetSwitchSettingData class

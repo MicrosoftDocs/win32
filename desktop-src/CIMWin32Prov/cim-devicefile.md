@@ -13,6 +13,46 @@ title: CIM\_DeviceFile class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_DeviceFile
+- CIM_DeviceFile.AccessMask
+- CIM_DeviceFile.Archive
+- CIM_DeviceFile.Caption
+- CIM_DeviceFile.Compressed
+- CIM_DeviceFile.CompressionMethod
+- CIM_DeviceFile.CreationClassName
+- CIM_DeviceFile.CreationDate
+- CIM_DeviceFile.CSCreationClassName
+- CIM_DeviceFile.CSName
+- CIM_DeviceFile.Description
+- CIM_DeviceFile.Drive
+- CIM_DeviceFile.EightDotThreeFileName
+- CIM_DeviceFile.Encrypted
+- CIM_DeviceFile.EncryptionMethod
+- CIM_DeviceFile.Extension
+- CIM_DeviceFile.FileName
+- CIM_DeviceFile.FileSize
+- CIM_DeviceFile.FileType
+- CIM_DeviceFile.FSCreationClassName
+- CIM_DeviceFile.FSName
+- CIM_DeviceFile.Hidden
+- CIM_DeviceFile.InstallDate
+- CIM_DeviceFile.InUseCount
+- CIM_DeviceFile.LastAccessed
+- CIM_DeviceFile.LastModified
+- CIM_DeviceFile.Name
+- CIM_DeviceFile.Path
+- CIM_DeviceFile.Readable
+- CIM_DeviceFile.Status
+- CIM_DeviceFile.System
+- CIM_DeviceFile.Writeable
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_DeviceFile class

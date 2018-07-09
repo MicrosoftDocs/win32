@@ -13,6 +13,37 @@ title: Win32\_SystemDriver class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_SystemDriver
+- Win32_SystemDriver.AcceptPause
+- Win32_SystemDriver.AcceptStop
+- Win32_SystemDriver.Caption
+- Win32_SystemDriver.CreationClassName
+- Win32_SystemDriver.Description
+- Win32_SystemDriver.DesktopInteract
+- Win32_SystemDriver.DisplayName
+- Win32_SystemDriver.ErrorControl
+- Win32_SystemDriver.ExitCode
+- Win32_SystemDriver.InstallDate
+- Win32_SystemDriver.Name
+- Win32_SystemDriver.PathName
+- Win32_SystemDriver.ServiceSpecificExitCode
+- Win32_SystemDriver.ServiceType
+- Win32_SystemDriver.Started
+- Win32_SystemDriver.StartMode
+- Win32_SystemDriver.StartName
+- Win32_SystemDriver.State
+- Win32_SystemDriver.Status
+- Win32_SystemDriver.SystemCreationClassName
+- Win32_SystemDriver.SystemName
+- Win32_SystemDriver.TagId
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_SystemDriver class

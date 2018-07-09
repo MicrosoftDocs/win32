@@ -7,6 +7,22 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualSystemReferencePoint
+- Msvm_VirtualSystemReferencePoint.InstanceID
+- Msvm_VirtualSystemReferencePoint.ReferencePointType
+- Msvm_VirtualSystemReferencePoint.ConsistencyLevel
+- Msvm_VirtualSystemReferencePoint.VirtualSystemIdentifier
+- Msvm_VirtualSystemReferencePoint.HasAssociatedData
+- Msvm_VirtualSystemReferencePoint.VirtualDiskIdentifiers
+- Msvm_VirtualSystemReferencePoint.ResilientChangeTrackingIdentifiers
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualSystemReferencePoint class

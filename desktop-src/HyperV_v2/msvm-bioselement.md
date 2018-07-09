@@ -7,6 +7,55 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_BIOSElement
+- Msvm_BIOSElement.InstanceID
+- Msvm_BIOSElement.Caption
+- Msvm_BIOSElement.Description
+- Msvm_BIOSElement.ElementName
+- Msvm_BIOSElement.InstallDate
+- Msvm_BIOSElement.OperationalStatus
+- Msvm_BIOSElement.StatusDescriptions
+- Msvm_BIOSElement.Status
+- Msvm_BIOSElement.HealthState
+- Msvm_BIOSElement.CommunicationStatus
+- Msvm_BIOSElement.DetailedStatus
+- Msvm_BIOSElement.OperatingStatus
+- Msvm_BIOSElement.PrimaryStatus
+- Msvm_BIOSElement.Name
+- Msvm_BIOSElement.SoftwareElementState
+- Msvm_BIOSElement.SoftwareElementID
+- Msvm_BIOSElement.TargetOperatingSystem
+- Msvm_BIOSElement.OtherTargetOS
+- Msvm_BIOSElement.BuildNumber
+- Msvm_BIOSElement.SerialNumber
+- Msvm_BIOSElement.CodeSet
+- Msvm_BIOSElement.IdentificationCode
+- Msvm_BIOSElement.LanguageEdition
+- Msvm_BIOSElement.Version
+- Msvm_BIOSElement.Manufacturer
+- Msvm_BIOSElement.PrimaryBIOS
+- Msvm_BIOSElement.ListOfLanguages
+- Msvm_BIOSElement.CurrentLanguage
+- Msvm_BIOSElement.LoadedStartingAddress
+- Msvm_BIOSElement.LoadedEndingAddress
+- Msvm_BIOSElement.LoadUtilityInformation
+- Msvm_BIOSElement.ReleaseDate
+- Msvm_BIOSElement.RegistryURIs
+- Msvm_BIOSElement.BIOSGUID
+- Msvm_BIOSElement.BIOSSerialNumber
+- Msvm_BIOSElement.BaseBoardSerialNumber
+- Msvm_BIOSElement.ChassisSerialNumber
+- Msvm_BIOSElement.ChassisAssetTag
+- Msvm_BIOSElement.BIOSNumLock
+- Msvm_BIOSElement.BootOrder
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_BIOSElement class

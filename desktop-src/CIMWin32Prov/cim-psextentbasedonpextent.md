@@ -13,6 +13,19 @@ title: CIM\_PSExtentBasedOnPExtent class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_PSExtentBasedOnPExtent
+- CIM_PSExtentBasedOnPExtent.EndingAddress
+- CIM_PSExtentBasedOnPExtent.StartingAddress
+- CIM_PSExtentBasedOnPExtent.Dependent
+- CIM_PSExtentBasedOnPExtent.Antecedent
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_PSExtentBasedOnPExtent class

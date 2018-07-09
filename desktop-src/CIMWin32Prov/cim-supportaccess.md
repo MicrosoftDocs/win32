@@ -13,6 +13,20 @@ title: CIM\_SupportAccess class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_SupportAccess
+- CIM_SupportAccess.CommunicationInfo
+- CIM_SupportAccess.CommunicationMode
+- CIM_SupportAccess.Description
+- CIM_SupportAccess.Locale
+- CIM_SupportAccess.SupportAccessId
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_SupportAccess class

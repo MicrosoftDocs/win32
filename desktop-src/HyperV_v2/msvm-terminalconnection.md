@@ -7,6 +7,37 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_TerminalConnection
+- Msvm_TerminalConnection.InstanceID
+- Msvm_TerminalConnection.Caption
+- Msvm_TerminalConnection.Description
+- Msvm_TerminalConnection.ElementName
+- Msvm_TerminalConnection.InstallDate
+- Msvm_TerminalConnection.Name
+- Msvm_TerminalConnection.OperationalStatus
+- Msvm_TerminalConnection.StatusDescriptions
+- Msvm_TerminalConnection.Status
+- Msvm_TerminalConnection.HealthState
+- Msvm_TerminalConnection.CommunicationStatus
+- Msvm_TerminalConnection.DetailedStatus
+- Msvm_TerminalConnection.OperatingStatus
+- Msvm_TerminalConnection.PrimaryStatus
+- Msvm_TerminalConnection.EnabledState
+- Msvm_TerminalConnection.OtherEnabledState
+- Msvm_TerminalConnection.RequestedState
+- Msvm_TerminalConnection.EnabledDefault
+- Msvm_TerminalConnection.TimeOfLastStateChange
+- Msvm_TerminalConnection.AvailableRequestedStates
+- Msvm_TerminalConnection.TransitioningToState
+- Msvm_TerminalConnection.ConnectionID
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_TerminalConnection class

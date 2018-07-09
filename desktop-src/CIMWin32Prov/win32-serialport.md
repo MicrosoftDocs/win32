@@ -13,6 +13,64 @@ title: Win32\_SerialPort class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_SerialPort
+- Win32_SerialPort.Reset
+- Win32_SerialPort.SetPowerState
+- Win32_SerialPort.Availability
+- Win32_SerialPort.Binary
+- Win32_SerialPort.Capabilities
+- Win32_SerialPort.CapabilityDescriptions
+- Win32_SerialPort.Caption
+- Win32_SerialPort.ConfigManagerErrorCode
+- Win32_SerialPort.ConfigManagerUserConfig
+- Win32_SerialPort.CreationClassName
+- Win32_SerialPort.Description
+- Win32_SerialPort.DeviceID
+- Win32_SerialPort.ErrorCleared
+- Win32_SerialPort.ErrorDescription
+- Win32_SerialPort.InstallDate
+- Win32_SerialPort.LastErrorCode
+- Win32_SerialPort.MaxBaudRate
+- Win32_SerialPort.MaximumInputBufferSize
+- Win32_SerialPort.MaximumOutputBufferSize
+- Win32_SerialPort.MaxNumberControlled
+- Win32_SerialPort.Name
+- Win32_SerialPort.OSAutoDiscovered
+- Win32_SerialPort.PNPDeviceID
+- Win32_SerialPort.PowerManagementCapabilities
+- Win32_SerialPort.PowerManagementSupported
+- Win32_SerialPort.ProtocolSupported
+- Win32_SerialPort.ProviderType
+- Win32_SerialPort.SettableBaudRate
+- Win32_SerialPort.SettableDataBits
+- Win32_SerialPort.SettableFlowControl
+- Win32_SerialPort.SettableParity
+- Win32_SerialPort.SettableParityCheck
+- Win32_SerialPort.SettableRLSD
+- Win32_SerialPort.SettableStopBits
+- Win32_SerialPort.Status
+- Win32_SerialPort.StatusInfo
+- Win32_SerialPort.Supports16BitMode
+- Win32_SerialPort.SupportsDTRDSR
+- Win32_SerialPort.SupportsElapsedTimeouts
+- Win32_SerialPort.SupportsIntTimeouts
+- Win32_SerialPort.SupportsParityCheck
+- Win32_SerialPort.SupportsRLSD
+- Win32_SerialPort.SupportsRTSCTS
+- Win32_SerialPort.SupportsSpecialCharacters
+- Win32_SerialPort.SupportsXOnXOff
+- Win32_SerialPort.SupportsXOnXOffSet
+- Win32_SerialPort.SystemCreationClassName
+- Win32_SerialPort.SystemName
+- Win32_SerialPort.TimeOfLastReset
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_SerialPort class

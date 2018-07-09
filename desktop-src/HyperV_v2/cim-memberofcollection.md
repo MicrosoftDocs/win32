@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_MemberOfCollection
+- CIM_MemberOfCollection.Collection
+- CIM_MemberOfCollection.Member
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_MemberOfCollection class

@@ -7,6 +7,25 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_GuestService
+- Msvm_GuestService.Caption
+- Msvm_GuestService.CreationClassName
+- Msvm_GuestService.Description
+- Msvm_GuestService.InstallDate
+- Msvm_GuestService.Name
+- Msvm_GuestService.Started
+- Msvm_GuestService.StartMode
+- Msvm_GuestService.Status
+- Msvm_GuestService.SystemCreationClassName
+- Msvm_GuestService.SystemName
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_GuestService class

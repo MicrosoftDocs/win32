@@ -13,6 +13,22 @@ title: CIM\_SpareGroup class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_SpareGroup
+- CIM_SpareGroup.Caption
+- CIM_SpareGroup.Description
+- CIM_SpareGroup.InstallDate
+- CIM_SpareGroup.Name
+- CIM_SpareGroup.Status
+- CIM_SpareGroup.CreationClassName
+- CIM_SpareGroup.RedundancyStatus
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_SpareGroup class

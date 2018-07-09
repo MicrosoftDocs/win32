@@ -11,6 +11,20 @@ title: Namespace Access Rights Constants
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- WBEM_ENABLE
+- WBEM_METHOD_EXECUTE
+- WBEM_FULL_WRITE_REP
+- WBEM_PARTIAL_WRITE_REP
+- WBEM_WRITE_PROVIDER
+- WBEM_REMOTE_ACCESS
+api_type: 
+- HeaderDef
+api_location: 
+- Wbemcli.h
 ---
 
 # Namespace Access Rights Constants

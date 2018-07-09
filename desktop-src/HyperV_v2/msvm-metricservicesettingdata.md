@@ -7,6 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_MetricServiceSettingData
+- Msvm_MetricServiceSettingData.InstanceID
+- Msvm_MetricServiceSettingData.Caption
+- Msvm_MetricServiceSettingData.Description
+- Msvm_MetricServiceSettingData.ElementName
+- Msvm_MetricServiceSettingData.MetricsFlushInterval
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_MetricServiceSettingData class

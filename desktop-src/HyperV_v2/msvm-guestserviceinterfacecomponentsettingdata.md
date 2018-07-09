@@ -7,6 +7,36 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_GuestServiceInterfaceComponentSettingData
+- Msvm_GuestServiceInterfaceComponentSettingData.ElementName
+- Msvm_GuestServiceInterfaceComponentSettingData.InstanceID
+- Msvm_GuestServiceInterfaceComponentSettingData.ResourceType
+- Msvm_GuestServiceInterfaceComponentSettingData.OtherResourceType
+- Msvm_GuestServiceInterfaceComponentSettingData.ResourceSubType
+- Msvm_GuestServiceInterfaceComponentSettingData.PoolID
+- Msvm_GuestServiceInterfaceComponentSettingData.ConsumerVisibility
+- Msvm_GuestServiceInterfaceComponentSettingData.HostResource
+- Msvm_GuestServiceInterfaceComponentSettingData.AllocationUnits
+- Msvm_GuestServiceInterfaceComponentSettingData.VirtualQuantity
+- Msvm_GuestServiceInterfaceComponentSettingData.Reservation
+- Msvm_GuestServiceInterfaceComponentSettingData.Limit
+- Msvm_GuestServiceInterfaceComponentSettingData.Weight
+- Msvm_GuestServiceInterfaceComponentSettingData.AutomaticAllocation
+- Msvm_GuestServiceInterfaceComponentSettingData.AutomaticDeallocation
+- Msvm_GuestServiceInterfaceComponentSettingData.Parent
+- Msvm_GuestServiceInterfaceComponentSettingData.Connection
+- Msvm_GuestServiceInterfaceComponentSettingData.Address
+- Msvm_GuestServiceInterfaceComponentSettingData.MappingBehavior
+- Msvm_GuestServiceInterfaceComponentSettingData.EnabledState
+- Msvm_GuestServiceInterfaceComponentSettingData.DefaultEnabledStatePolicy
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_GuestServiceInterfaceComponentSettingData class

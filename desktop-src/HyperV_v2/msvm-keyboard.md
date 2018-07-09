@@ -7,6 +7,64 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_Keyboard
+- Msvm_Keyboard.SetPowerState
+- Msvm_Keyboard.EnableDevice
+- Msvm_Keyboard.OnlineDevice
+- Msvm_Keyboard.QuiesceDevice
+- Msvm_Keyboard.SaveProperties
+- Msvm_Keyboard.RestoreProperties
+- Msvm_Keyboard.InstanceID
+- Msvm_Keyboard.Caption
+- Msvm_Keyboard.Description
+- Msvm_Keyboard.ElementName
+- Msvm_Keyboard.InstallDate
+- Msvm_Keyboard.Name
+- Msvm_Keyboard.OperationalStatus
+- Msvm_Keyboard.StatusDescriptions
+- Msvm_Keyboard.Status
+- Msvm_Keyboard.HealthState
+- Msvm_Keyboard.CommunicationStatus
+- Msvm_Keyboard.DetailedStatus
+- Msvm_Keyboard.OperatingStatus
+- Msvm_Keyboard.PrimaryStatus
+- Msvm_Keyboard.EnabledState
+- Msvm_Keyboard.OtherEnabledState
+- Msvm_Keyboard.RequestedState
+- Msvm_Keyboard.EnabledDefault
+- Msvm_Keyboard.TimeOfLastStateChange
+- Msvm_Keyboard.AvailableRequestedStates
+- Msvm_Keyboard.TransitioningToState
+- Msvm_Keyboard.SystemCreationClassName
+- Msvm_Keyboard.SystemName
+- Msvm_Keyboard.CreationClassName
+- Msvm_Keyboard.DeviceID
+- Msvm_Keyboard.PowerManagementSupported
+- Msvm_Keyboard.PowerManagementCapabilities
+- Msvm_Keyboard.Availability
+- Msvm_Keyboard.StatusInfo
+- Msvm_Keyboard.LastErrorCode
+- Msvm_Keyboard.ErrorDescription
+- Msvm_Keyboard.ErrorCleared
+- Msvm_Keyboard.OtherIdentifyingInfo
+- Msvm_Keyboard.PowerOnHours
+- Msvm_Keyboard.TotalPowerOnHours
+- Msvm_Keyboard.IdentifyingDescriptions
+- Msvm_Keyboard.AdditionalAvailability
+- Msvm_Keyboard.MaxQuiesceTime
+- Msvm_Keyboard.IsLocked
+- Msvm_Keyboard.Layout
+- Msvm_Keyboard.NumberOfFunctionKeys
+- Msvm_Keyboard.Password
+- Msvm_Keyboard.UnicodeSupported
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_Keyboard class

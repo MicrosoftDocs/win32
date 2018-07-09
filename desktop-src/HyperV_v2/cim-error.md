@@ -7,6 +7,30 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Error
+- CIM_Error.ErrorType
+- CIM_Error.OtherErrorType
+- CIM_Error.OwningEntity
+- CIM_Error.MessageID
+- CIM_Error.Message
+- CIM_Error.MessageArguments
+- CIM_Error.PerceivedSeverity
+- CIM_Error.ProbableCause
+- CIM_Error.ProbableCauseDescription
+- CIM_Error.RecommendedActions
+- CIM_Error.ErrorSource
+- CIM_Error.ErrorSourceFormat
+- CIM_Error.OtherErrorSourceFormat
+- CIM_Error.CIMStatusCode
+- CIM_Error.CIMStatusCodeDescription
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_Error class

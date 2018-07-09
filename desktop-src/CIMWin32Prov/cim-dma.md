@@ -13,6 +13,33 @@ title: CIM\_DMA class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_DMA
+- CIM_DMA.AddressSize
+- CIM_DMA.Availability
+- CIM_DMA.BurstMode
+- CIM_DMA.ByteMode
+- CIM_DMA.Caption
+- CIM_DMA.ChannelTiming
+- CIM_DMA.CreationClassName
+- CIM_DMA.CSCreationClassName
+- CIM_DMA.CSName
+- CIM_DMA.Description
+- CIM_DMA.DMAChannel
+- CIM_DMA.InstallDate
+- CIM_DMA.MaxTransferSize
+- CIM_DMA.Name
+- CIM_DMA.Status
+- CIM_DMA.TransferWidths
+- CIM_DMA.TypeCTiming
+- CIM_DMA.WordMode
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_DMA class

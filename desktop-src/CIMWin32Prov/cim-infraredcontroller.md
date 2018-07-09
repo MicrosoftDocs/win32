@@ -13,6 +13,37 @@ title: CIM\_InfraredController class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_InfraredController
+- CIM_InfraredController.Availability
+- CIM_InfraredController.Caption
+- CIM_InfraredController.ConfigManagerErrorCode
+- CIM_InfraredController.ConfigManagerUserConfig
+- CIM_InfraredController.CreationClassName
+- CIM_InfraredController.Description
+- CIM_InfraredController.DeviceID
+- CIM_InfraredController.ErrorCleared
+- CIM_InfraredController.ErrorDescription
+- CIM_InfraredController.InstallDate
+- CIM_InfraredController.LastErrorCode
+- CIM_InfraredController.MaxNumberControlled
+- CIM_InfraredController.Name
+- CIM_InfraredController.PNPDeviceID
+- CIM_InfraredController.PowerManagementCapabilities
+- CIM_InfraredController.PowerManagementSupported
+- CIM_InfraredController.ProtocolSupported
+- CIM_InfraredController.Status
+- CIM_InfraredController.StatusInfo
+- CIM_InfraredController.SystemCreationClassName
+- CIM_InfraredController.SystemName
+- CIM_InfraredController.TimeOfLastReset
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_InfraredController class

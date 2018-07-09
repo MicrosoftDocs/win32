@@ -11,6 +11,11 @@ title: Logging to NT Event Log Based on an Event
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- kbArticle
+api_name: 
+api_type: 
+api_location: 
 ---
 
 # Logging to NT Event Log Based on an Event

@@ -7,6 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ComputerSystem
+- CIM_ComputerSystem.NameFormat
+- CIM_ComputerSystem.Dedicated
+- CIM_ComputerSystem.OtherDedicatedDescriptions
+- CIM_ComputerSystem.ResetCapability
+- CIM_ComputerSystem.PowerManagementCapabilities
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_ComputerSystem class

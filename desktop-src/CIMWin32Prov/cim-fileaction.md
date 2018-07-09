@@ -13,6 +13,24 @@ title: CIM\_FileAction class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_FileAction
+- CIM_FileAction.ActionID
+- CIM_FileAction.Caption
+- CIM_FileAction.Description
+- CIM_FileAction.Direction
+- CIM_FileAction.Name
+- CIM_FileAction.SoftwareElementID
+- CIM_FileAction.SoftwareElementState
+- CIM_FileAction.TargetOperatingSystem
+- CIM_FileAction.Version
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_FileAction class

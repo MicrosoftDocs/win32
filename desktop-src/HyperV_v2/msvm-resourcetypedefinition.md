@@ -7,6 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ResourceTypeDefinition
+- Msvm_ResourceTypeDefinition.ResourceType
+- Msvm_ResourceTypeDefinition.OtherResourceType
+- Msvm_ResourceTypeDefinition.ResourceSubType
+- Msvm_ResourceTypeDefinition.LogicalDeviceClassName
+- Msvm_ResourceTypeDefinition.SettingDataClassName
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ResourceTypeDefinition class

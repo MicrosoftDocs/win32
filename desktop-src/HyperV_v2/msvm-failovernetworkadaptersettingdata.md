@@ -7,6 +7,25 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_FailoverNetworkAdapterSettingData
+- Msvm_FailoverNetworkAdapterSettingData.InstanceID
+- Msvm_FailoverNetworkAdapterSettingData.Caption
+- Msvm_FailoverNetworkAdapterSettingData.Description
+- Msvm_FailoverNetworkAdapterSettingData.ElementName
+- Msvm_FailoverNetworkAdapterSettingData.ProtocolIFType
+- Msvm_FailoverNetworkAdapterSettingData.DHCPEnabled
+- Msvm_FailoverNetworkAdapterSettingData.IPAddresses
+- Msvm_FailoverNetworkAdapterSettingData.Subnets
+- Msvm_FailoverNetworkAdapterSettingData.DefaultGateways
+- Msvm_FailoverNetworkAdapterSettingData.DNSServers
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_FailoverNetworkAdapterSettingData class

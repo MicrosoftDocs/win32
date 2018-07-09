@@ -7,6 +7,34 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualSystemManagementServiceSettingData
+- Msvm_VirtualSystemManagementServiceSettingData.InstanceID
+- Msvm_VirtualSystemManagementServiceSettingData.Caption
+- Msvm_VirtualSystemManagementServiceSettingData.Description
+- Msvm_VirtualSystemManagementServiceSettingData.ElementName
+- Msvm_VirtualSystemManagementServiceSettingData.BiosLockString
+- Msvm_VirtualSystemManagementServiceSettingData.DefaultExternalDataRoot
+- Msvm_VirtualSystemManagementServiceSettingData.DefaultVirtualHardDiskPath
+- Msvm_VirtualSystemManagementServiceSettingData.MaximumMacAddress
+- Msvm_VirtualSystemManagementServiceSettingData.MinimumMacAddress
+- Msvm_VirtualSystemManagementServiceSettingData.NumaSpanningEnabled
+- Msvm_VirtualSystemManagementServiceSettingData.PrimaryOwnerContact
+- Msvm_VirtualSystemManagementServiceSettingData.PrimaryOwnerName
+- Msvm_VirtualSystemManagementServiceSettingData.HbaLunTimeout
+- Msvm_VirtualSystemManagementServiceSettingData.MaximumWWPNAddress
+- Msvm_VirtualSystemManagementServiceSettingData.MinimumWWPNAddress
+- Msvm_VirtualSystemManagementServiceSettingData.CurrentWWNNAddress
+- Msvm_VirtualSystemManagementServiceSettingData.DefaultVirtualHardDiskCachingMode
+- Msvm_VirtualSystemManagementServiceSettingData.HypervisorRootSchedulerEnabled
+- Msvm_VirtualSystemManagementServiceSettingData.EnhancedSessionModeEnabled
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualSystemManagementServiceSettingData class

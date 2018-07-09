@@ -7,6 +7,51 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_LANEndpoint
+- Msvm_LANEndpoint.InstanceID
+- Msvm_LANEndpoint.Caption
+- Msvm_LANEndpoint.Description
+- Msvm_LANEndpoint.ElementName
+- Msvm_LANEndpoint.InstallDate
+- Msvm_LANEndpoint.Name
+- Msvm_LANEndpoint.OperationalStatus
+- Msvm_LANEndpoint.StatusDescriptions
+- Msvm_LANEndpoint.Status
+- Msvm_LANEndpoint.HealthState
+- Msvm_LANEndpoint.CommunicationStatus
+- Msvm_LANEndpoint.DetailedStatus
+- Msvm_LANEndpoint.OperatingStatus
+- Msvm_LANEndpoint.PrimaryStatus
+- Msvm_LANEndpoint.EnabledState
+- Msvm_LANEndpoint.OtherEnabledState
+- Msvm_LANEndpoint.RequestedState
+- Msvm_LANEndpoint.EnabledDefault
+- Msvm_LANEndpoint.TimeOfLastStateChange
+- Msvm_LANEndpoint.AvailableRequestedStates
+- Msvm_LANEndpoint.TransitioningToState
+- Msvm_LANEndpoint.SystemCreationClassName
+- Msvm_LANEndpoint.SystemName
+- Msvm_LANEndpoint.CreationClassName
+- Msvm_LANEndpoint.NameFormat
+- Msvm_LANEndpoint.ProtocolType
+- Msvm_LANEndpoint.ProtocolIFType
+- Msvm_LANEndpoint.OtherTypeDescription
+- Msvm_LANEndpoint.LANID
+- Msvm_LANEndpoint.LANType
+- Msvm_LANEndpoint.OtherLANType
+- Msvm_LANEndpoint.MACAddress
+- Msvm_LANEndpoint.AliasAddresses
+- Msvm_LANEndpoint.GroupAddresses
+- Msvm_LANEndpoint.MaxDataSize
+- Msvm_LANEndpoint.Connected
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_LANEndpoint class

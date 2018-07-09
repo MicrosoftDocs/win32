@@ -7,6 +7,36 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Job
+- CIM_Job.JobStatus
+- CIM_Job.TimeSubmitted
+- CIM_Job.ScheduledStartTime
+- CIM_Job.StartTime
+- CIM_Job.ElapsedTime
+- CIM_Job.JobRunTimes
+- CIM_Job.RunMonth
+- CIM_Job.RunDay
+- CIM_Job.RunDayOfWeek
+- CIM_Job.RunStartInterval
+- CIM_Job.LocalOrUtcTime
+- CIM_Job.UntilTime
+- CIM_Job.Notify
+- CIM_Job.Owner
+- CIM_Job.Priority
+- CIM_Job.PercentComplete
+- CIM_Job.DeleteOnCompletion
+- CIM_Job.ErrorCode
+- CIM_Job.ErrorDescription
+- CIM_Job.RecoveryAction
+- CIM_Job.OtherRecoveryAction
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_Job class

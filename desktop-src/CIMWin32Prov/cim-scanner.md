@@ -13,6 +13,34 @@ title: CIM\_Scanner class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Scanner
+- CIM_Scanner.Availability
+- CIM_Scanner.Caption
+- CIM_Scanner.ConfigManagerErrorCode
+- CIM_Scanner.ConfigManagerUserConfig
+- CIM_Scanner.CreationClassName
+- CIM_Scanner.Description
+- CIM_Scanner.DeviceID
+- CIM_Scanner.ErrorCleared
+- CIM_Scanner.ErrorDescription
+- CIM_Scanner.InstallDate
+- CIM_Scanner.LastErrorCode
+- CIM_Scanner.Name
+- CIM_Scanner.PNPDeviceID
+- CIM_Scanner.PowerManagementCapabilities
+- CIM_Scanner.PowerManagementSupported
+- CIM_Scanner.Status
+- CIM_Scanner.StatusInfo
+- CIM_Scanner.SystemCreationClassName
+- CIM_Scanner.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Scanner class

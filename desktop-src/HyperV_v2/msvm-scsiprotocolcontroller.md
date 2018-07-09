@@ -7,6 +7,62 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_SCSIProtocolController
+- Msvm_SCSIProtocolController.SetPowerState
+- Msvm_SCSIProtocolController.EnableDevice
+- Msvm_SCSIProtocolController.OnlineDevice
+- Msvm_SCSIProtocolController.QuiesceDevice
+- Msvm_SCSIProtocolController.SaveProperties
+- Msvm_SCSIProtocolController.RestoreProperties
+- Msvm_SCSIProtocolController.InstanceID
+- Msvm_SCSIProtocolController.Caption
+- Msvm_SCSIProtocolController.Description
+- Msvm_SCSIProtocolController.ElementName
+- Msvm_SCSIProtocolController.InstallDate
+- Msvm_SCSIProtocolController.Name
+- Msvm_SCSIProtocolController.OperationalStatus
+- Msvm_SCSIProtocolController.StatusDescriptions
+- Msvm_SCSIProtocolController.Status
+- Msvm_SCSIProtocolController.HealthState
+- Msvm_SCSIProtocolController.CommunicationStatus
+- Msvm_SCSIProtocolController.DetailedStatus
+- Msvm_SCSIProtocolController.OperatingStatus
+- Msvm_SCSIProtocolController.PrimaryStatus
+- Msvm_SCSIProtocolController.EnabledState
+- Msvm_SCSIProtocolController.OtherEnabledState
+- Msvm_SCSIProtocolController.RequestedState
+- Msvm_SCSIProtocolController.EnabledDefault
+- Msvm_SCSIProtocolController.TimeOfLastStateChange
+- Msvm_SCSIProtocolController.AvailableRequestedStates
+- Msvm_SCSIProtocolController.TransitioningToState
+- Msvm_SCSIProtocolController.SystemCreationClassName
+- Msvm_SCSIProtocolController.SystemName
+- Msvm_SCSIProtocolController.CreationClassName
+- Msvm_SCSIProtocolController.DeviceID
+- Msvm_SCSIProtocolController.PowerManagementSupported
+- Msvm_SCSIProtocolController.PowerManagementCapabilities
+- Msvm_SCSIProtocolController.Availability
+- Msvm_SCSIProtocolController.StatusInfo
+- Msvm_SCSIProtocolController.LastErrorCode
+- Msvm_SCSIProtocolController.ErrorDescription
+- Msvm_SCSIProtocolController.ErrorCleared
+- Msvm_SCSIProtocolController.OtherIdentifyingInfo
+- Msvm_SCSIProtocolController.PowerOnHours
+- Msvm_SCSIProtocolController.TotalPowerOnHours
+- Msvm_SCSIProtocolController.IdentifyingDescriptions
+- Msvm_SCSIProtocolController.AdditionalAvailability
+- Msvm_SCSIProtocolController.MaxQuiesceTime
+- Msvm_SCSIProtocolController.MaxUnitsControlled
+- Msvm_SCSIProtocolController.NameFormat
+- Msvm_SCSIProtocolController.OtherNameFormat
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_SCSIProtocolController class

@@ -13,6 +13,24 @@ title: Win32\_BootConfiguration class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_BootConfiguration
+- Win32_BootConfiguration.Caption
+- Win32_BootConfiguration.Description
+- Win32_BootConfiguration.SettingID
+- Win32_BootConfiguration.BootDirectory
+- Win32_BootConfiguration.ConfigurationPath
+- Win32_BootConfiguration.LastDrive
+- Win32_BootConfiguration.Name
+- Win32_BootConfiguration.ScratchDirectory
+- Win32_BootConfiguration.TempDirectory
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_BootConfiguration class

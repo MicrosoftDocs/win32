@@ -13,6 +13,25 @@ title: CIM\_ClusteringService class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ClusteringService
+- CIM_ClusteringService.Caption
+- CIM_ClusteringService.Description
+- CIM_ClusteringService.InstallDate
+- CIM_ClusteringService.Status
+- CIM_ClusteringService.CreationClassName
+- CIM_ClusteringService.Name
+- CIM_ClusteringService.Started
+- CIM_ClusteringService.StartMode
+- CIM_ClusteringService.SystemCreationClassName
+- CIM_ClusteringService.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_ClusteringService class

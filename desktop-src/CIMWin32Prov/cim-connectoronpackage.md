@@ -13,6 +13,18 @@ title: CIM\_ConnectorOnPackage class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ConnectorOnPackage
+- CIM_ConnectorOnPackage.LocationWithinContainer
+- CIM_ConnectorOnPackage.PartComponent
+- CIM_ConnectorOnPackage.GroupComponent
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_ConnectorOnPackage class

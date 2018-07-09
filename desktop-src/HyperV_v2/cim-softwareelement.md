@@ -7,6 +7,27 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_SoftwareElement
+- CIM_SoftwareElement.Name
+- CIM_SoftwareElement.Version
+- CIM_SoftwareElement.SoftwareElementState
+- CIM_SoftwareElement.SoftwareElementID
+- CIM_SoftwareElement.TargetOperatingSystem
+- CIM_SoftwareElement.OtherTargetOS
+- CIM_SoftwareElement.Manufacturer
+- CIM_SoftwareElement.BuildNumber
+- CIM_SoftwareElement.SerialNumber
+- CIM_SoftwareElement.CodeSet
+- CIM_SoftwareElement.IdentificationCode
+- CIM_SoftwareElement.LanguageEdition
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_SoftwareElement class

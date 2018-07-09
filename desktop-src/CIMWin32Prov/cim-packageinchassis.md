@@ -13,6 +13,18 @@ title: CIM\_PackageInChassis class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_PackageInChassis
+- CIM_PackageInChassis.LocationWithinContainer
+- CIM_PackageInChassis.PartComponent
+- CIM_PackageInChassis.GroupComponent
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_PackageInChassis class

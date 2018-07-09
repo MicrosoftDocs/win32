@@ -7,6 +7,26 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- GUID_CNT_ANALYSISHINT
+- GUID_CNT_CUSTOMRECOGNIZER
+- GUID_CNT_IMAGE
+- GUID_CNT_INKBULLET
+- GUID_CNT_INKDRAWING
+- GUID_CNT_INKWORD
+- GUID_CNT_LINE
+- GUID_CNT_OBJECT
+- GUID_CNT_PARAGRAPH
+- GUID_CNT_ROOT
+- GUID_CNT_TEXTWORD
+- GUID_CNT_UNCLASSIFIEDINKNODE
+api_type: 
+- HeaderDef
+api_location: 
+- iaguid.h
 ---
 
 # Context Node Types

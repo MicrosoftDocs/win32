@@ -7,6 +7,24 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_BootSourceSettingData
+- Msvm_BootSourceSettingData.Description
+- Msvm_BootSourceSettingData.Caption
+- Msvm_BootSourceSettingData.InstanceID
+- Msvm_BootSourceSettingData.ElementName
+- Msvm_BootSourceSettingData.BootSourceType
+- Msvm_BootSourceSettingData.OtherLocation
+- Msvm_BootSourceSettingData.FirmwareDevicePath
+- Msvm_BootSourceSettingData.BootSourceDescription
+- Msvm_BootSourceSettingData.OptionalData
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_BootSourceSettingData class

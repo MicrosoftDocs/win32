@@ -13,6 +13,39 @@ title: Win32\_TimeZone class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_TimeZone
+- Win32_TimeZone.Caption
+- Win32_TimeZone.Description
+- Win32_TimeZone.SettingID
+- Win32_TimeZone.Bias
+- Win32_TimeZone.DaylightBias
+- Win32_TimeZone.DaylightDay
+- Win32_TimeZone.DaylightDayOfWeek
+- Win32_TimeZone.DaylightHour
+- Win32_TimeZone.DaylightMillisecond
+- Win32_TimeZone.DaylightMinute
+- Win32_TimeZone.DaylightMonth
+- Win32_TimeZone.DaylightName
+- Win32_TimeZone.DaylightSecond
+- Win32_TimeZone.DaylightYear
+- Win32_TimeZone.StandardBias
+- Win32_TimeZone.StandardDay
+- Win32_TimeZone.StandardDayOfWeek
+- Win32_TimeZone.StandardHour
+- Win32_TimeZone.StandardMillisecond
+- Win32_TimeZone.StandardMinute
+- Win32_TimeZone.StandardMonth
+- Win32_TimeZone.StandardName
+- Win32_TimeZone.StandardSecond
+- Win32_TimeZone.StandardYear
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_TimeZone class

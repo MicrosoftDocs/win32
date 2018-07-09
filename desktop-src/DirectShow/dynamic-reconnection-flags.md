@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CONNECTF_DYNAMIC_NONE
+- CONNECTF_DYNAMIC_SOURCES
+- CONNECTF_DYNAMIC_EFFECTS
+api_type: 
+- HeaderDef
+api_location: 
+- Qedit.h
 ---
 
 # Dynamic Reconnection Flags

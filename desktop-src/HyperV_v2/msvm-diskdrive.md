@@ -7,6 +7,83 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_DiskDrive
+- Msvm_DiskDrive.SetPowerState
+- Msvm_DiskDrive.EnableDevice
+- Msvm_DiskDrive.OnlineDevice
+- Msvm_DiskDrive.QuiesceDevice
+- Msvm_DiskDrive.SaveProperties
+- Msvm_DiskDrive.RestoreProperties
+- Msvm_DiskDrive.InstanceID
+- Msvm_DiskDrive.Caption
+- Msvm_DiskDrive.Description
+- Msvm_DiskDrive.ElementName
+- Msvm_DiskDrive.InstallDate
+- Msvm_DiskDrive.Name
+- Msvm_DiskDrive.OperationalStatus
+- Msvm_DiskDrive.StatusDescriptions
+- Msvm_DiskDrive.Status
+- Msvm_DiskDrive.HealthState
+- Msvm_DiskDrive.CommunicationStatus
+- Msvm_DiskDrive.DetailedStatus
+- Msvm_DiskDrive.OperatingStatus
+- Msvm_DiskDrive.PrimaryStatus
+- Msvm_DiskDrive.EnabledState
+- Msvm_DiskDrive.OtherEnabledState
+- Msvm_DiskDrive.RequestedState
+- Msvm_DiskDrive.EnabledDefault
+- Msvm_DiskDrive.TimeOfLastStateChange
+- Msvm_DiskDrive.AvailableRequestedStates
+- Msvm_DiskDrive.TransitioningToState
+- Msvm_DiskDrive.SystemCreationClassName
+- Msvm_DiskDrive.SystemName
+- Msvm_DiskDrive.CreationClassName
+- Msvm_DiskDrive.DeviceID
+- Msvm_DiskDrive.PowerManagementSupported
+- Msvm_DiskDrive.PowerManagementCapabilities
+- Msvm_DiskDrive.Availability
+- Msvm_DiskDrive.StatusInfo
+- Msvm_DiskDrive.LastErrorCode
+- Msvm_DiskDrive.ErrorDescription
+- Msvm_DiskDrive.ErrorCleared
+- Msvm_DiskDrive.OtherIdentifyingInfo
+- Msvm_DiskDrive.PowerOnHours
+- Msvm_DiskDrive.TotalPowerOnHours
+- Msvm_DiskDrive.IdentifyingDescriptions
+- Msvm_DiskDrive.AdditionalAvailability
+- Msvm_DiskDrive.MaxQuiesceTime
+- Msvm_DiskDrive.Capabilities
+- Msvm_DiskDrive.CapabilityDescriptions
+- Msvm_DiskDrive.ErrorMethodology
+- Msvm_DiskDrive.CompressionMethod
+- Msvm_DiskDrive.NumberOfMediaSupported
+- Msvm_DiskDrive.MaxMediaSize
+- Msvm_DiskDrive.DefaultBlockSize
+- Msvm_DiskDrive.MaxBlockSize
+- Msvm_DiskDrive.MinBlockSize
+- Msvm_DiskDrive.NeedsCleaning
+- Msvm_DiskDrive.MediaIsLocked
+- Msvm_DiskDrive.Security
+- Msvm_DiskDrive.LastCleaned
+- Msvm_DiskDrive.MaxAccessTime
+- Msvm_DiskDrive.UncompressedDataRate
+- Msvm_DiskDrive.LoadTime
+- Msvm_DiskDrive.UnloadTime
+- Msvm_DiskDrive.MountCount
+- Msvm_DiskDrive.TimeOfLastMount
+- Msvm_DiskDrive.TotalMountTime
+- Msvm_DiskDrive.UnitsDescription
+- Msvm_DiskDrive.MaxUnitsBeforeCleaning
+- Msvm_DiskDrive.UnitsUsed
+- Msvm_DiskDrive.DriveNumber
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_DiskDrive class

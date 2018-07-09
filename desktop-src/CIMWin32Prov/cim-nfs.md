@@ -13,6 +13,48 @@ title: CIM\_NFS class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_NFS
+- CIM_NFS.AttributeCaching
+- CIM_NFS.AttributeCachingForDirectoriesMax
+- CIM_NFS.AttributeCachingForDirectoriesMin
+- CIM_NFS.AttributeCachingForRegularFilesMax
+- CIM_NFS.AttributeCachingForRegularFilesMin
+- CIM_NFS.AvailableSpace
+- CIM_NFS.BlockSize
+- CIM_NFS.Caption
+- CIM_NFS.CasePreserved
+- CIM_NFS.CaseSensitive
+- CIM_NFS.CodeSet
+- CIM_NFS.CompressionMethod
+- CIM_NFS.CreationClassName
+- CIM_NFS.CSCreationClassName
+- CIM_NFS.CSName
+- CIM_NFS.Description
+- CIM_NFS.EncryptionMethod
+- CIM_NFS.FileSystemSize
+- CIM_NFS.ForegroundMount
+- CIM_NFS.HardMount
+- CIM_NFS.InstallDate
+- CIM_NFS.Interrupt
+- CIM_NFS.MaxFileNameLength
+- CIM_NFS.MountFailureRetries
+- CIM_NFS.Name
+- CIM_NFS.ReadBufferSize
+- CIM_NFS.ReadOnly
+- CIM_NFS.RetransmissionAttempts
+- CIM_NFS.RetransmissionTimeout
+- CIM_NFS.Root
+- CIM_NFS.ServerCommunicationPort
+- CIM_NFS.Status
+- CIM_NFS.WriteBufferSize
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_NFS class

@@ -13,6 +13,42 @@ title: CIM\_PhysicalMemory class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_PhysicalMemory
+- CIM_PhysicalMemory.BankLabel
+- CIM_PhysicalMemory.Capacity
+- CIM_PhysicalMemory.Caption
+- CIM_PhysicalMemory.CreationClassName
+- CIM_PhysicalMemory.DataWidth
+- CIM_PhysicalMemory.Description
+- CIM_PhysicalMemory.FormFactor
+- CIM_PhysicalMemory.HotSwappable
+- CIM_PhysicalMemory.InstallDate
+- CIM_PhysicalMemory.InterleavePosition
+- CIM_PhysicalMemory.Manufacturer
+- CIM_PhysicalMemory.MemoryType
+- CIM_PhysicalMemory.Model
+- CIM_PhysicalMemory.Name
+- CIM_PhysicalMemory.OtherIdentifyingInfo
+- CIM_PhysicalMemory.PartNumber
+- CIM_PhysicalMemory.PositionInRow
+- CIM_PhysicalMemory.PoweredOn
+- CIM_PhysicalMemory.Removable
+- CIM_PhysicalMemory.Replaceable
+- CIM_PhysicalMemory.SerialNumber
+- CIM_PhysicalMemory.SKU
+- CIM_PhysicalMemory.Speed
+- CIM_PhysicalMemory.Status
+- CIM_PhysicalMemory.Tag
+- CIM_PhysicalMemory.TotalWidth
+- CIM_PhysicalMemory.Version
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_PhysicalMemory class

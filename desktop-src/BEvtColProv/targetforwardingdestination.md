@@ -13,6 +13,27 @@ title: TargetForwardingDestination class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- TargetForwardingDestination
+- TargetForwardingDestination.TargetEndpoint
+- TargetForwardingDestination.TargetMac
+- TargetForwardingDestination.TargetGuid
+- TargetForwardingDestination.CollectorEndpoint
+- TargetForwardingDestination.Computer
+- TargetForwardingDestination.ForwarderType
+- TargetForwardingDestination.Destination
+- TargetForwardingDestination.DestinationPattern
+- TargetForwardingDestination.Error
+- TargetForwardingDestination.ConnectedSince
+- TargetForwardingDestination.DisconnectedSince
+- TargetForwardingDestination.WmiDateTime
+api_type: 
+- DllExport
+api_location: 
+- BEvtCol.exe
 ---
 
 # TargetForwardingDestination class

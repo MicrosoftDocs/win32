@@ -13,6 +13,23 @@ title: Win32\_Environment class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_Environment
+- Win32_Environment.Caption
+- Win32_Environment.Description
+- Win32_Environment.InstallDate
+- Win32_Environment.Status
+- Win32_Environment.Name
+- Win32_Environment.SystemVariable
+- Win32_Environment.UserName
+- Win32_Environment.VariableValue
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_Environment class

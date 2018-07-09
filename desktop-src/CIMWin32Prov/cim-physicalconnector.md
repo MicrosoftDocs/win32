@@ -13,6 +13,32 @@ title: CIM\_PhysicalConnector class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_PhysicalConnector
+- CIM_PhysicalConnector.Caption
+- CIM_PhysicalConnector.Description
+- CIM_PhysicalConnector.InstallDate
+- CIM_PhysicalConnector.Name
+- CIM_PhysicalConnector.Status
+- CIM_PhysicalConnector.CreationClassName
+- CIM_PhysicalConnector.Manufacturer
+- CIM_PhysicalConnector.Model
+- CIM_PhysicalConnector.OtherIdentifyingInfo
+- CIM_PhysicalConnector.PartNumber
+- CIM_PhysicalConnector.PoweredOn
+- CIM_PhysicalConnector.SerialNumber
+- CIM_PhysicalConnector.SKU
+- CIM_PhysicalConnector.Tag
+- CIM_PhysicalConnector.Version
+- CIM_PhysicalConnector.ConnectorPinout
+- CIM_PhysicalConnector.ConnectorType
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_PhysicalConnector class

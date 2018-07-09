@@ -13,6 +13,30 @@ title: Win32\_OSRecoveryConfiguration class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_OSRecoveryConfiguration
+- Win32_OSRecoveryConfiguration.Caption
+- Win32_OSRecoveryConfiguration.Description
+- Win32_OSRecoveryConfiguration.SettingID
+- Win32_OSRecoveryConfiguration.AutoReboot
+- Win32_OSRecoveryConfiguration.DebugFilePath
+- Win32_OSRecoveryConfiguration.DebugInfoType
+- Win32_OSRecoveryConfiguration.ExpandedDebugFilePath
+- Win32_OSRecoveryConfiguration.ExpandedMiniDumpDirectory
+- Win32_OSRecoveryConfiguration.KernelDumpOnly
+- Win32_OSRecoveryConfiguration.MiniDumpDirectory
+- Win32_OSRecoveryConfiguration.Name
+- Win32_OSRecoveryConfiguration.OverwriteExistingDebugFile
+- Win32_OSRecoveryConfiguration.SendAdminAlert
+- Win32_OSRecoveryConfiguration.WriteDebugInfo
+- Win32_OSRecoveryConfiguration.WriteToSystemLog
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_OSRecoveryConfiguration class

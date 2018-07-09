@@ -11,6 +11,16 @@ title: '\_\_ProviderRegistration class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- __ProviderRegistration
+- All
+api_type: 
+- Schema
+api_location: 
+- All
 ---
 
 # \_\_ProviderRegistration class

@@ -7,6 +7,16 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- PageFault_TypeGroup1
+- PageFault_TypeGroup1.VirtualAddress
+- PageFault_TypeGroup1.ProgramCounter
+api_type: 
+- NA
+api_location: 
 ---
 
 # PageFault\_TypeGroup1 class

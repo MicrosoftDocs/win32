@@ -7,6 +7,43 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_ReplicationService
+- Msvm_ReplicationService.InstanceID
+- Msvm_ReplicationService.Caption
+- Msvm_ReplicationService.Description
+- Msvm_ReplicationService.ElementName
+- Msvm_ReplicationService.InstallDate
+- Msvm_ReplicationService.Name
+- Msvm_ReplicationService.OperationalStatus
+- Msvm_ReplicationService.StatusDescriptions
+- Msvm_ReplicationService.Status
+- Msvm_ReplicationService.HealthState
+- Msvm_ReplicationService.CommunicationStatus
+- Msvm_ReplicationService.DetailedStatus
+- Msvm_ReplicationService.OperatingStatus
+- Msvm_ReplicationService.PrimaryStatus
+- Msvm_ReplicationService.EnabledState
+- Msvm_ReplicationService.OtherEnabledState
+- Msvm_ReplicationService.RequestedState
+- Msvm_ReplicationService.EnabledDefault
+- Msvm_ReplicationService.TimeOfLastStateChange
+- Msvm_ReplicationService.AvailableRequestedStates
+- Msvm_ReplicationService.TransitioningToState
+- Msvm_ReplicationService.SystemCreationClassName
+- Msvm_ReplicationService.SystemName
+- Msvm_ReplicationService.CreationClassName
+- Msvm_ReplicationService.PrimaryOwnerName
+- Msvm_ReplicationService.PrimaryOwnerContact
+- Msvm_ReplicationService.StartMode
+- Msvm_ReplicationService.Started
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_ReplicationService class

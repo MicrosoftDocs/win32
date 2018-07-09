@@ -7,6 +7,23 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_EthernetSwitchData
+- Msvm_EthernetSwitchData.InstanceID
+- Msvm_EthernetSwitchData.Caption
+- Msvm_EthernetSwitchData.Description
+- Msvm_EthernetSwitchData.ElementName
+- Msvm_EthernetSwitchData.SystemCreationClassName
+- Msvm_EthernetSwitchData.SystemName
+- Msvm_EthernetSwitchData.CreationClassName
+- Msvm_EthernetSwitchData.Name
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_EthernetSwitchData class

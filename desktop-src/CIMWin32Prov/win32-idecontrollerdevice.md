@@ -13,6 +13,22 @@ title: Win32\_IDEControllerDevice class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_IDEControllerDevice
+- Win32_IDEControllerDevice.NegotiatedDataWidth
+- Win32_IDEControllerDevice.NegotiatedSpeed
+- Win32_IDEControllerDevice.AccessState
+- Win32_IDEControllerDevice.NumberOfHardResets
+- Win32_IDEControllerDevice.NumberOfSoftResets
+- Win32_IDEControllerDevice.Antecedent
+- Win32_IDEControllerDevice.Dependent
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_IDEControllerDevice class

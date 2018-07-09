@@ -7,6 +7,23 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- DiskIo_TypeGroup1
+- DiskIo_TypeGroup1.DiskNumber
+- DiskIo_TypeGroup1.IrpFlags
+- DiskIo_TypeGroup1.TransferSize
+- DiskIo_TypeGroup1.Reserved
+- DiskIo_TypeGroup1.ByteOffset
+- DiskIo_TypeGroup1.FileObject
+- DiskIo_TypeGroup1.Irp
+- DiskIo_TypeGroup1.HighResResponseTime
+- DiskIo_TypeGroup1.IssuingThreadId
+api_type: 
+- NA
+api_location: 
 ---
 
 # DiskIo\_TypeGroup1 class

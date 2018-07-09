@@ -13,6 +13,23 @@ title: Win32\_Registry class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_Registry
+- Win32_Registry.Caption
+- Win32_Registry.Description
+- Win32_Registry.InstallDate
+- Win32_Registry.Status
+- Win32_Registry.CurrentSize
+- Win32_Registry.MaximumSize
+- Win32_Registry.Name
+- Win32_Registry.ProposedSize
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_Registry class

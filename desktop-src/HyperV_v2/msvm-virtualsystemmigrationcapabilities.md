@@ -7,6 +7,22 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualSystemMigrationCapabilities
+- Msvm_VirtualSystemMigrationCapabilities.InstanceID
+- Msvm_VirtualSystemMigrationCapabilities.Caption
+- Msvm_VirtualSystemMigrationCapabilities.Description
+- Msvm_VirtualSystemMigrationCapabilities.ElementName
+- Msvm_VirtualSystemMigrationCapabilities.SynchronousMethodsSupported
+- Msvm_VirtualSystemMigrationCapabilities.AsynchronousMethodsSupported
+- Msvm_VirtualSystemMigrationCapabilities.DestinationHostFormatsSupported
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualSystemMigrationCapabilities class

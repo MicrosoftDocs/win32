@@ -7,6 +7,70 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VideoHead
+- Msvm_VideoHead.SetPowerState
+- Msvm_VideoHead.EnableDevice
+- Msvm_VideoHead.OnlineDevice
+- Msvm_VideoHead.QuiesceDevice
+- Msvm_VideoHead.SaveProperties
+- Msvm_VideoHead.RestoreProperties
+- Msvm_VideoHead.InstanceID
+- Msvm_VideoHead.Caption
+- Msvm_VideoHead.Description
+- Msvm_VideoHead.ElementName
+- Msvm_VideoHead.InstallDate
+- Msvm_VideoHead.Name
+- Msvm_VideoHead.OperationalStatus
+- Msvm_VideoHead.StatusDescriptions
+- Msvm_VideoHead.Status
+- Msvm_VideoHead.HealthState
+- Msvm_VideoHead.CommunicationStatus
+- Msvm_VideoHead.DetailedStatus
+- Msvm_VideoHead.OperatingStatus
+- Msvm_VideoHead.PrimaryStatus
+- Msvm_VideoHead.EnabledState
+- Msvm_VideoHead.OtherEnabledState
+- Msvm_VideoHead.RequestedState
+- Msvm_VideoHead.EnabledDefault
+- Msvm_VideoHead.TimeOfLastStateChange
+- Msvm_VideoHead.AvailableRequestedStates
+- Msvm_VideoHead.TransitioningToState
+- Msvm_VideoHead.SystemCreationClassName
+- Msvm_VideoHead.SystemName
+- Msvm_VideoHead.CreationClassName
+- Msvm_VideoHead.DeviceID
+- Msvm_VideoHead.PowerManagementSupported
+- Msvm_VideoHead.PowerManagementCapabilities
+- Msvm_VideoHead.Availability
+- Msvm_VideoHead.StatusInfo
+- Msvm_VideoHead.LastErrorCode
+- Msvm_VideoHead.ErrorDescription
+- Msvm_VideoHead.ErrorCleared
+- Msvm_VideoHead.OtherIdentifyingInfo
+- Msvm_VideoHead.PowerOnHours
+- Msvm_VideoHead.TotalPowerOnHours
+- Msvm_VideoHead.IdentifyingDescriptions
+- Msvm_VideoHead.AdditionalAvailability
+- Msvm_VideoHead.MaxQuiesceTime
+- Msvm_VideoHead.CurrentBitsPerPixel
+- Msvm_VideoHead.CurrentHorizontalResolution
+- Msvm_VideoHead.CurrentVerticalResolution
+- Msvm_VideoHead.MaxRefreshRate
+- Msvm_VideoHead.MinRefreshRate
+- Msvm_VideoHead.CurrentRefreshRate
+- Msvm_VideoHead.CurrentScanMode
+- Msvm_VideoHead.OtherCurrentScanMode
+- Msvm_VideoHead.CurrentNumberOfRows
+- Msvm_VideoHead.CurrentNumberOfColumns
+- Msvm_VideoHead.CurrentNumberOfColors
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VideoHead class

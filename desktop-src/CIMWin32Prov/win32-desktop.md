@@ -13,6 +13,36 @@ title: Win32\_Desktop class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_Desktop
+- Win32_Desktop.Caption
+- Win32_Desktop.Description
+- Win32_Desktop.SettingID
+- Win32_Desktop.BorderWidth
+- Win32_Desktop.CoolSwitch
+- Win32_Desktop.CursorBlinkRate
+- Win32_Desktop.DragFullWindows
+- Win32_Desktop.GridGranularity
+- Win32_Desktop.IconSpacing
+- Win32_Desktop.IconTitleFaceName
+- Win32_Desktop.IconTitleSize
+- Win32_Desktop.IconTitleWrap
+- Win32_Desktop.Name
+- Win32_Desktop.Pattern
+- Win32_Desktop.ScreenSaverActive
+- Win32_Desktop.ScreenSaverExecutable
+- Win32_Desktop.ScreenSaverSecure
+- Win32_Desktop.ScreenSaverTimeout
+- Win32_Desktop.Wallpaper
+- Win32_Desktop.WallpaperStretched
+- Win32_Desktop.WallpaperTiled
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_Desktop class

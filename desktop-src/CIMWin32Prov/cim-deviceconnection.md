@@ -13,6 +13,19 @@ title: CIM\_DeviceConnection class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_DeviceConnection
+- CIM_DeviceConnection.Dependent
+- CIM_DeviceConnection.Antecedent
+- CIM_DeviceConnection.NegotiatedDataWidth
+- CIM_DeviceConnection.NegotiatedSpeed
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_DeviceConnection class

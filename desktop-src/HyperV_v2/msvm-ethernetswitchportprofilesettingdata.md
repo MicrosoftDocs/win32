@@ -7,6 +7,31 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_EthernetSwitchPortProfileSettingData
+- Msvm_EthernetSwitchPortProfileSettingData.InstanceID
+- Msvm_EthernetSwitchPortProfileSettingData.Caption
+- Msvm_EthernetSwitchPortProfileSettingData.Description
+- Msvm_EthernetSwitchPortProfileSettingData.ElementName
+- Msvm_EthernetSwitchPortProfileSettingData.ProfileName
+- Msvm_EthernetSwitchPortProfileSettingData.ProfileId
+- Msvm_EthernetSwitchPortProfileSettingData.VendorName
+- Msvm_EthernetSwitchPortProfileSettingData.VendorId
+- Msvm_EthernetSwitchPortProfileSettingData.ProfileData
+- Msvm_EthernetSwitchPortProfileSettingData.NetCfgInstanceId
+- Msvm_EthernetSwitchPortProfileSettingData.PciSegmentNumber
+- Msvm_EthernetSwitchPortProfileSettingData.PciBusNumber
+- Msvm_EthernetSwitchPortProfileSettingData.PciDeviceNumber
+- Msvm_EthernetSwitchPortProfileSettingData.PciFunctionNumber
+- Msvm_EthernetSwitchPortProfileSettingData.CdnLabelId
+- Msvm_EthernetSwitchPortProfileSettingData.CdnLabelString
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_EthernetSwitchPortProfileSettingData class

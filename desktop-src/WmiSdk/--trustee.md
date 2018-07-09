@@ -11,6 +11,21 @@ title: '\_\_Trustee class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- __Trustee
+- All
+- All
+- All
+- All
+- All
+- All
+api_type: 
+- Schema
+api_location: 
+- All
 ---
 
 # \_\_Trustee class

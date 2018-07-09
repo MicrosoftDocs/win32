@@ -13,6 +13,18 @@ title: CIM\_InstalledOS class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_InstalledOS
+- CIM_InstalledOS.PartComponent
+- CIM_InstalledOS.GroupComponent
+- CIM_InstalledOS.PrimaryOS
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_InstalledOS class

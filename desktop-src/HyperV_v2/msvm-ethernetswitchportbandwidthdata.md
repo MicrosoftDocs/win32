@@ -7,6 +7,26 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_EthernetSwitchPortBandwidthData
+- Msvm_EthernetSwitchPortBandwidthData.InstanceID
+- Msvm_EthernetSwitchPortBandwidthData.Caption
+- Msvm_EthernetSwitchPortBandwidthData.Description
+- Msvm_EthernetSwitchPortBandwidthData.ElementName
+- Msvm_EthernetSwitchPortBandwidthData.SystemCreationClassName
+- Msvm_EthernetSwitchPortBandwidthData.SystemName
+- Msvm_EthernetSwitchPortBandwidthData.DeviceCreationClassName
+- Msvm_EthernetSwitchPortBandwidthData.DeviceID
+- Msvm_EthernetSwitchPortBandwidthData.CreationClassName
+- Msvm_EthernetSwitchPortBandwidthData.Name
+- Msvm_EthernetSwitchPortBandwidthData.CurrentBandwidthReservationPercentage
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_EthernetSwitchPortBandwidthData class

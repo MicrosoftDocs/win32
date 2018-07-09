@@ -13,6 +13,44 @@ title: CIM\_WORMDrive class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_WORMDrive
+- CIM_WORMDrive.Availability
+- CIM_WORMDrive.Capabilities
+- CIM_WORMDrive.CapabilityDescriptions
+- CIM_WORMDrive.Caption
+- CIM_WORMDrive.CompressionMethod
+- CIM_WORMDrive.ConfigManagerErrorCode
+- CIM_WORMDrive.ConfigManagerUserConfig
+- CIM_WORMDrive.CreationClassName
+- CIM_WORMDrive.DefaultBlockSize
+- CIM_WORMDrive.Description
+- CIM_WORMDrive.DeviceID
+- CIM_WORMDrive.ErrorCleared
+- CIM_WORMDrive.ErrorDescription
+- CIM_WORMDrive.ErrorMethodology
+- CIM_WORMDrive.InstallDate
+- CIM_WORMDrive.LastErrorCode
+- CIM_WORMDrive.MaxBlockSize
+- CIM_WORMDrive.MaxMediaSize
+- CIM_WORMDrive.MinBlockSize
+- CIM_WORMDrive.Name
+- CIM_WORMDrive.NeedsCleaning
+- CIM_WORMDrive.NumberOfMediaSupported
+- CIM_WORMDrive.PNPDeviceID
+- CIM_WORMDrive.PowerManagementCapabilities
+- CIM_WORMDrive.PowerManagementSupported
+- CIM_WORMDrive.Status
+- CIM_WORMDrive.StatusInfo
+- CIM_WORMDrive.SystemCreationClassName
+- CIM_WORMDrive.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_WORMDrive class

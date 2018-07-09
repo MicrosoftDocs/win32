@@ -13,6 +13,40 @@ title: Win32\_Keyboard class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_Keyboard
+- Win32_Keyboard.Reset
+- Win32_Keyboard.SetPowerState
+- Win32_Keyboard.Availability
+- Win32_Keyboard.Caption
+- Win32_Keyboard.ConfigManagerErrorCode
+- Win32_Keyboard.ConfigManagerUserConfig
+- Win32_Keyboard.CreationClassName
+- Win32_Keyboard.Description
+- Win32_Keyboard.DeviceID
+- Win32_Keyboard.ErrorCleared
+- Win32_Keyboard.ErrorDescription
+- Win32_Keyboard.InstallDate
+- Win32_Keyboard.IsLocked
+- Win32_Keyboard.LastErrorCode
+- Win32_Keyboard.Layout
+- Win32_Keyboard.Name
+- Win32_Keyboard.NumberOfFunctionKeys
+- Win32_Keyboard.Password
+- Win32_Keyboard.PNPDeviceID
+- Win32_Keyboard.PowerManagementCapabilities
+- Win32_Keyboard.PowerManagementSupported
+- Win32_Keyboard.Status
+- Win32_Keyboard.StatusInfo
+- Win32_Keyboard.SystemCreationClassName
+- Win32_Keyboard.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_Keyboard class

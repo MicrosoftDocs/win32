@@ -7,6 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_VLANEndpointSettingData
+- CIM_VLANEndpointSettingData.PruneEligibleVLANList
+- CIM_VLANEndpointSettingData.NativeVLAN
+- CIM_VLANEndpointSettingData.DefaultVLAN
+- CIM_VLANEndpointSettingData.TrunkedVLANList
+- CIM_VLANEndpointSettingData.AccessVLAN
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_VLANEndpointSettingData class

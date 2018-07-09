@@ -7,6 +7,22 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_EthernetSwitchFeatureCapabilities
+- Msvm_EthernetSwitchFeatureCapabilities.InstanceID
+- Msvm_EthernetSwitchFeatureCapabilities.Caption
+- Msvm_EthernetSwitchFeatureCapabilities.Description
+- Msvm_EthernetSwitchFeatureCapabilities.ElementName
+- Msvm_EthernetSwitchFeatureCapabilities.FeatureId
+- Msvm_EthernetSwitchFeatureCapabilities.Applicability
+- Msvm_EthernetSwitchFeatureCapabilities.Version
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_EthernetSwitchFeatureCapabilities class

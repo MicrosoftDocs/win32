@@ -13,6 +13,18 @@ title: CIM\_Configuration class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Configuration
+- CIM_Configuration.Caption
+- CIM_Configuration.Description
+- CIM_Configuration.Name
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Configuration class

@@ -13,6 +13,17 @@ title: Win32\_WMIElementSetting class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_WMIElementSetting
+- Win32_WMIElementSetting.Element
+- Win32_WMIElementSetting.Setting
+api_type: 
+- DllExport
+api_location: 
+- Wbemcore.dll
 ---
 
 # Win32\_WMIElementSetting class

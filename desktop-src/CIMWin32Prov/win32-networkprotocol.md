@@ -13,6 +13,38 @@ title: Win32\_NetworkProtocol class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_NetworkProtocol
+- Win32_NetworkProtocol.Caption
+- Win32_NetworkProtocol.Description
+- Win32_NetworkProtocol.InstallDate
+- Win32_NetworkProtocol.Status
+- Win32_NetworkProtocol.ConnectionlessService
+- Win32_NetworkProtocol.GuaranteesDelivery
+- Win32_NetworkProtocol.GuaranteesSequencing
+- Win32_NetworkProtocol.MaximumAddressSize
+- Win32_NetworkProtocol.MaximumMessageSize
+- Win32_NetworkProtocol.MessageOriented
+- Win32_NetworkProtocol.MinimumAddressSize
+- Win32_NetworkProtocol.Name
+- Win32_NetworkProtocol.PseudoStreamOriented
+- Win32_NetworkProtocol.SupportsBroadcasting
+- Win32_NetworkProtocol.SupportsConnectData
+- Win32_NetworkProtocol.SupportsDisconnectData
+- Win32_NetworkProtocol.SupportsEncryption
+- Win32_NetworkProtocol.SupportsExpeditedData
+- Win32_NetworkProtocol.SupportsFragmentation
+- Win32_NetworkProtocol.SupportsGracefulClosing
+- Win32_NetworkProtocol.SupportsGuaranteedBandwidth
+- Win32_NetworkProtocol.SupportsMulticasting
+- Win32_NetworkProtocol.SupportsQualityofService
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_NetworkProtocol class

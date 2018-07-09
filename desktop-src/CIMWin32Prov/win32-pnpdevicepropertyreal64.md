@@ -13,6 +13,20 @@ title: Win32\_PnPDevicePropertyReal64 class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Win32_PnPDevicePropertyReal64
+- Win32_PnPDevicePropertyReal64.Key
+- Win32_PnPDevicePropertyReal64.KeyName
+- Win32_PnPDevicePropertyReal64.Type
+- Win32_PnPDevicePropertyReal64.DeviceID
+- Win32_PnPDevicePropertyReal64.Data
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # Win32\_PnPDevicePropertyReal64 class

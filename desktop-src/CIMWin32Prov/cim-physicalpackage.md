@@ -13,6 +13,37 @@ title: CIM\_PhysicalPackage class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_PhysicalPackage
+- CIM_PhysicalPackage.Caption
+- CIM_PhysicalPackage.CreationClassName
+- CIM_PhysicalPackage.Depth
+- CIM_PhysicalPackage.Description
+- CIM_PhysicalPackage.Height
+- CIM_PhysicalPackage.HotSwappable
+- CIM_PhysicalPackage.InstallDate
+- CIM_PhysicalPackage.Manufacturer
+- CIM_PhysicalPackage.Model
+- CIM_PhysicalPackage.Name
+- CIM_PhysicalPackage.OtherIdentifyingInfo
+- CIM_PhysicalPackage.PartNumber
+- CIM_PhysicalPackage.PoweredOn
+- CIM_PhysicalPackage.Removable
+- CIM_PhysicalPackage.Replaceable
+- CIM_PhysicalPackage.SerialNumber
+- CIM_PhysicalPackage.SKU
+- CIM_PhysicalPackage.Status
+- CIM_PhysicalPackage.Tag
+- CIM_PhysicalPackage.Version
+- CIM_PhysicalPackage.Weight
+- CIM_PhysicalPackage.Width
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_PhysicalPackage class

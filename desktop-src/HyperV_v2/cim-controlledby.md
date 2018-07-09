@@ -7,6 +7,24 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ControlledBy
+- CIM_ControlledBy.Antecedent
+- CIM_ControlledBy.Dependent
+- CIM_ControlledBy.AccessState
+- CIM_ControlledBy.TimeOfDeviceReset
+- CIM_ControlledBy.NumberOfHardResets
+- CIM_ControlledBy.NumberOfSoftResets
+- CIM_ControlledBy.DeviceNumber
+- CIM_ControlledBy.AccessMode
+- CIM_ControlledBy.AccessPriority
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_ControlledBy class

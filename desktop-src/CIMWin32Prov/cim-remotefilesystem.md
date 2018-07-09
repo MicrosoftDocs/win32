@@ -13,6 +13,34 @@ title: CIM\_RemoteFileSystem class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_RemoteFileSystem
+- CIM_RemoteFileSystem.AvailableSpace
+- CIM_RemoteFileSystem.BlockSize
+- CIM_RemoteFileSystem.Caption
+- CIM_RemoteFileSystem.CasePreserved
+- CIM_RemoteFileSystem.CaseSensitive
+- CIM_RemoteFileSystem.CodeSet
+- CIM_RemoteFileSystem.CompressionMethod
+- CIM_RemoteFileSystem.CreationClassName
+- CIM_RemoteFileSystem.CSCreationClassName
+- CIM_RemoteFileSystem.CSName
+- CIM_RemoteFileSystem.Description
+- CIM_RemoteFileSystem.EncryptionMethod
+- CIM_RemoteFileSystem.FileSystemSize
+- CIM_RemoteFileSystem.InstallDate
+- CIM_RemoteFileSystem.MaxFileNameLength
+- CIM_RemoteFileSystem.Name
+- CIM_RemoteFileSystem.ReadOnly
+- CIM_RemoteFileSystem.Root
+- CIM_RemoteFileSystem.Status
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_RemoteFileSystem class

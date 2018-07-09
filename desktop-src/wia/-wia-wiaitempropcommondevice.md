@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- WIA_DPA_CONNECT_STATUS
+- WIA_DPA_DEVICE_TIME
+- WIA_DPA_FIRMWARE_VERSION
+api_type: 
+- HeaderDef
+api_location: 
+- wiadef.h
 ---
 
 # Common Device Property Constants

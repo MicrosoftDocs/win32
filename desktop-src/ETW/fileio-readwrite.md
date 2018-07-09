@@ -7,6 +7,21 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- FileIo_ReadWrite
+- FileIo_ReadWrite.Offset
+- FileIo_ReadWrite.IrpPtr
+- FileIo_ReadWrite.TTID
+- FileIo_ReadWrite.FileObject
+- FileIo_ReadWrite.FileKey
+- FileIo_ReadWrite.IoSize
+- FileIo_ReadWrite.IoFlags
+api_type: 
+- NA
+api_location: 
 ---
 
 # FileIo\_ReadWrite class

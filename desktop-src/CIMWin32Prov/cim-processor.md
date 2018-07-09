@@ -13,6 +13,45 @@ title: CIM\_Processor class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Processor
+- CIM_Processor.AddressWidth
+- CIM_Processor.Availability
+- CIM_Processor.Caption
+- CIM_Processor.ConfigManagerErrorCode
+- CIM_Processor.ConfigManagerUserConfig
+- CIM_Processor.CreationClassName
+- CIM_Processor.CurrentClockSpeed
+- CIM_Processor.DataWidth
+- CIM_Processor.Description
+- CIM_Processor.DeviceID
+- CIM_Processor.ErrorCleared
+- CIM_Processor.ErrorDescription
+- CIM_Processor.Family
+- CIM_Processor.InstallDate
+- CIM_Processor.LastErrorCode
+- CIM_Processor.LoadPercentage
+- CIM_Processor.MaxClockSpeed
+- CIM_Processor.Name
+- CIM_Processor.OtherFamilyDescription
+- CIM_Processor.PNPDeviceID
+- CIM_Processor.PowerManagementCapabilities
+- CIM_Processor.PowerManagementSupported
+- CIM_Processor.Role
+- CIM_Processor.Status
+- CIM_Processor.StatusInfo
+- CIM_Processor.Stepping
+- CIM_Processor.SystemCreationClassName
+- CIM_Processor.SystemName
+- CIM_Processor.UniqueId
+- CIM_Processor.UpgradeMethod
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Processor class

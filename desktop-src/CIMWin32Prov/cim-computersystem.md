@@ -13,6 +13,25 @@ title: CIM\_ComputerSystem class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ComputerSystem
+- CIM_ComputerSystem.Caption
+- CIM_ComputerSystem.Description
+- CIM_ComputerSystem.InstallDate
+- CIM_ComputerSystem.Status
+- CIM_ComputerSystem.CreationClassName
+- CIM_ComputerSystem.Name
+- CIM_ComputerSystem.PrimaryOwnerContact
+- CIM_ComputerSystem.PrimaryOwnerName
+- CIM_ComputerSystem.Roles
+- CIM_ComputerSystem.NameFormat
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_ComputerSystem class

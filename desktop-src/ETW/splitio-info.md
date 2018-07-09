@@ -7,6 +7,16 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- SplitIo_Info
+- SplitIo_Info.ParentIrp
+- SplitIo_Info.ChildIrp
+api_type: 
+- NA
+api_location: 
 ---
 
 # SplitIo\_Info class

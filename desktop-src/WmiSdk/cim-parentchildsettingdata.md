@@ -11,6 +11,19 @@ title: CIM\_ParentChildSettingData class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_ParentChildSettingData
+- Root\CIMV2.CIM_ParentChildSettingData.Antecedent
+- Root\CIMV2.CIM_ParentChildSettingData.Dependent
+- Root\CIMV2.CIM_ParentChildSettingData.Parent
+- Root\CIMV2.CIM_ParentChildSettingData.Child
+api_type: 
+- Schema
+api_location: 
+- Root\CIMV2
 ---
 
 # CIM\_ParentChildSettingData class

@@ -13,6 +13,39 @@ title: CIM\_StorageExtent class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_StorageExtent
+- CIM_StorageExtent.Access
+- CIM_StorageExtent.Availability
+- CIM_StorageExtent.BlockSize
+- CIM_StorageExtent.Caption
+- CIM_StorageExtent.ConfigManagerErrorCode
+- CIM_StorageExtent.ConfigManagerUserConfig
+- CIM_StorageExtent.CreationClassName
+- CIM_StorageExtent.Description
+- CIM_StorageExtent.DeviceID
+- CIM_StorageExtent.ErrorCleared
+- CIM_StorageExtent.ErrorDescription
+- CIM_StorageExtent.ErrorMethodology
+- CIM_StorageExtent.InstallDate
+- CIM_StorageExtent.LastErrorCode
+- CIM_StorageExtent.Name
+- CIM_StorageExtent.NumberOfBlocks
+- CIM_StorageExtent.PNPDeviceID
+- CIM_StorageExtent.PowerManagementCapabilities
+- CIM_StorageExtent.PowerManagementSupported
+- CIM_StorageExtent.Purpose
+- CIM_StorageExtent.Status
+- CIM_StorageExtent.StatusInfo
+- CIM_StorageExtent.SystemCreationClassName
+- CIM_StorageExtent.SystemName
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_StorageExtent class

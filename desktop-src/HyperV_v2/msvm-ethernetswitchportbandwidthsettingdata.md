@@ -7,6 +7,24 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_EthernetSwitchPortBandwidthSettingData
+- Msvm_EthernetSwitchPortBandwidthSettingData.InstanceID
+- Msvm_EthernetSwitchPortBandwidthSettingData.Caption
+- Msvm_EthernetSwitchPortBandwidthSettingData.Description
+- Msvm_EthernetSwitchPortBandwidthSettingData.ElementName
+- Msvm_EthernetSwitchPortBandwidthSettingData.Reservation
+- Msvm_EthernetSwitchPortBandwidthSettingData.Weight
+- Msvm_EthernetSwitchPortBandwidthSettingData.Limit
+- Msvm_EthernetSwitchPortBandwidthSettingData.BurstLimit
+- Msvm_EthernetSwitchPortBandwidthSettingData.BurstSize
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_EthernetSwitchPortBandwidthSettingData class

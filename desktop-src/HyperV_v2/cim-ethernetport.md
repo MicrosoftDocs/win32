@@ -7,6 +7,22 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_EthernetPort
+- CIM_EthernetPort.PortType
+- CIM_EthernetPort.NetworkAddresses
+- CIM_EthernetPort.MaxDataSize
+- CIM_EthernetPort.Capabilities
+- CIM_EthernetPort.CapabilityDescriptions
+- CIM_EthernetPort.EnabledCapabilities
+- CIM_EthernetPort.OtherEnabledCapabilities
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # CIM\_EthernetPort class

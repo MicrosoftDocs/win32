@@ -11,6 +11,17 @@ title: CIM\_LastAppliedSettingData class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_LastAppliedSettingData
+- Root\CIMV2.CIM_LastAppliedSettingData.Target
+- Root\CIMV2.CIM_LastAppliedSettingData.AppliedObject
+api_type: 
+- Schema
+api_location: 
+- Root\CIMV2
 ---
 
 # CIM\_LastAppliedSettingData class

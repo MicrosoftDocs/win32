@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- WIA_DEVICE_DIALOG_SINGLE_IMAGE
+- WIA_DEVICE_DIALOG_USE_COMMON_UI
+- WIA_SELECT_DEVICE_NODEFAULT
+api_type: 
+- HeaderDef
+api_location: 
+- wiadef.h
 ---
 
 # WiaFlag

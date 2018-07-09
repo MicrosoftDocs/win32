@@ -7,6 +7,56 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_StorageAllocationSettingData
+- Msvm_StorageAllocationSettingData.InstanceID
+- Msvm_StorageAllocationSettingData.Caption
+- Msvm_StorageAllocationSettingData.Description
+- Msvm_StorageAllocationSettingData.ElementName
+- Msvm_StorageAllocationSettingData.ResourceType
+- Msvm_StorageAllocationSettingData.OtherResourceType
+- Msvm_StorageAllocationSettingData.ResourceSubType
+- Msvm_StorageAllocationSettingData.PoolID
+- Msvm_StorageAllocationSettingData.ConsumerVisibility
+- Msvm_StorageAllocationSettingData.HostResource
+- Msvm_StorageAllocationSettingData.AllocationUnits
+- Msvm_StorageAllocationSettingData.VirtualQuantity
+- Msvm_StorageAllocationSettingData.Limit
+- Msvm_StorageAllocationSettingData.Weight
+- Msvm_StorageAllocationSettingData.StorageQoSPolicyID
+- Msvm_StorageAllocationSettingData.AutomaticAllocation
+- Msvm_StorageAllocationSettingData.AutomaticDeallocation
+- Msvm_StorageAllocationSettingData.Parent
+- Msvm_StorageAllocationSettingData.Connection
+- Msvm_StorageAllocationSettingData.Address
+- Msvm_StorageAllocationSettingData.MappingBehavior
+- Msvm_StorageAllocationSettingData.AddressOnParent
+- Msvm_StorageAllocationSettingData.VirtualResourceBlockSize
+- Msvm_StorageAllocationSettingData.VirtualQuantityUnits
+- Msvm_StorageAllocationSettingData.Access
+- Msvm_StorageAllocationSettingData.HostResourceBlockSize
+- Msvm_StorageAllocationSettingData.Reservation
+- Msvm_StorageAllocationSettingData.HostExtentStartingAddress
+- Msvm_StorageAllocationSettingData.HostExtentName
+- Msvm_StorageAllocationSettingData.HostExtentNameFormat
+- Msvm_StorageAllocationSettingData.OtherHostExtentNameFormat
+- Msvm_StorageAllocationSettingData.HostExtentNameNamespace
+- Msvm_StorageAllocationSettingData.OtherHostExtentNameNamespace
+- Msvm_StorageAllocationSettingData.IOPSLimit
+- Msvm_StorageAllocationSettingData.IOPSReservation
+- Msvm_StorageAllocationSettingData.IOPSAllocationUnits
+- Msvm_StorageAllocationSettingData.PersistentReservationsSupported
+- Msvm_StorageAllocationSettingData.CachingMode
+- Msvm_StorageAllocationSettingData.SnapshotId
+- Msvm_StorageAllocationSettingData.IgnoreFlushes
+- Msvm_StorageAllocationSettingData.WriteHardeningMethod
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_StorageAllocationSettingData class

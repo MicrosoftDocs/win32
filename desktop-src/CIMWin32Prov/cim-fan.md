@@ -13,6 +13,37 @@ title: CIM\_Fan class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_Fan
+- CIM_Fan.ActiveCooling
+- CIM_Fan.Availability
+- CIM_Fan.Caption
+- CIM_Fan.ConfigManagerErrorCode
+- CIM_Fan.ConfigManagerUserConfig
+- CIM_Fan.CreationClassName
+- CIM_Fan.Description
+- CIM_Fan.DesiredSpeed
+- CIM_Fan.DeviceID
+- CIM_Fan.ErrorCleared
+- CIM_Fan.ErrorDescription
+- CIM_Fan.InstallDate
+- CIM_Fan.LastErrorCode
+- CIM_Fan.Name
+- CIM_Fan.PNPDeviceID
+- CIM_Fan.PowerManagementCapabilities
+- CIM_Fan.PowerManagementSupported
+- CIM_Fan.Status
+- CIM_Fan.StatusInfo
+- CIM_Fan.SystemCreationClassName
+- CIM_Fan.SystemName
+- CIM_Fan.VariableSpeed
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_Fan class

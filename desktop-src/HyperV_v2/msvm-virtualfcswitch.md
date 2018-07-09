@@ -7,6 +7,48 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- Msvm_VirtualFcSwitch
+- Msvm_VirtualFcSwitch.SetPowerState
+- Msvm_VirtualFcSwitch.InstanceID
+- Msvm_VirtualFcSwitch.Caption
+- Msvm_VirtualFcSwitch.Description
+- Msvm_VirtualFcSwitch.ElementName
+- Msvm_VirtualFcSwitch.InstallDate
+- Msvm_VirtualFcSwitch.OperationalStatus
+- Msvm_VirtualFcSwitch.StatusDescriptions
+- Msvm_VirtualFcSwitch.Status
+- Msvm_VirtualFcSwitch.HealthState
+- Msvm_VirtualFcSwitch.CommunicationStatus
+- Msvm_VirtualFcSwitch.DetailedStatus
+- Msvm_VirtualFcSwitch.OperatingStatus
+- Msvm_VirtualFcSwitch.PrimaryStatus
+- Msvm_VirtualFcSwitch.EnabledState
+- Msvm_VirtualFcSwitch.OtherEnabledState
+- Msvm_VirtualFcSwitch.RequestedState
+- Msvm_VirtualFcSwitch.EnabledDefault
+- Msvm_VirtualFcSwitch.TimeOfLastStateChange
+- Msvm_VirtualFcSwitch.AvailableRequestedStates
+- Msvm_VirtualFcSwitch.TransitioningToState
+- Msvm_VirtualFcSwitch.CreationClassName
+- Msvm_VirtualFcSwitch.Name
+- Msvm_VirtualFcSwitch.PrimaryOwnerName
+- Msvm_VirtualFcSwitch.PrimaryOwnerContact
+- Msvm_VirtualFcSwitch.Roles
+- Msvm_VirtualFcSwitch.NameFormat
+- Msvm_VirtualFcSwitch.OtherIdentifyingInfo
+- Msvm_VirtualFcSwitch.IdentifyingDescriptions
+- Msvm_VirtualFcSwitch.Dedicated
+- Msvm_VirtualFcSwitch.OtherDedicatedDescriptions
+- Msvm_VirtualFcSwitch.ResetCapability
+- Msvm_VirtualFcSwitch.PowerManagementCapabilities
+api_type: 
+- DllExport
+api_location: 
+- vmms.exe
 ---
 
 # Msvm\_VirtualFcSwitch class

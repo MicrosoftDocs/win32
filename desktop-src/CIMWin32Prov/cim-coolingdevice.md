@@ -13,6 +13,35 @@ title: CIM\_CoolingDevice class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- CIM_CoolingDevice
+- CIM_CoolingDevice.Caption
+- CIM_CoolingDevice.Description
+- CIM_CoolingDevice.InstallDate
+- CIM_CoolingDevice.Name
+- CIM_CoolingDevice.Status
+- CIM_CoolingDevice.Availability
+- CIM_CoolingDevice.ConfigManagerErrorCode
+- CIM_CoolingDevice.ConfigManagerUserConfig
+- CIM_CoolingDevice.CreationClassName
+- CIM_CoolingDevice.DeviceID
+- CIM_CoolingDevice.PowerManagementCapabilities
+- CIM_CoolingDevice.ErrorCleared
+- CIM_CoolingDevice.ErrorDescription
+- CIM_CoolingDevice.LastErrorCode
+- CIM_CoolingDevice.PNPDeviceID
+- CIM_CoolingDevice.PowerManagementSupported
+- CIM_CoolingDevice.StatusInfo
+- CIM_CoolingDevice.SystemCreationClassName
+- CIM_CoolingDevice.SystemName
+- CIM_CoolingDevice.ActiveCooling
+api_type: 
+- DllExport
+api_location: 
+- CIMWin32.dll
 ---
 
 # CIM\_CoolingDevice class
