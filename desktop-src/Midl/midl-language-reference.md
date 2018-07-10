@@ -16,6 +16,11 @@ ms.date: 05/31/2018
 
 This section provides a reference entry for each keyword in the Microsoft Interface Definition Language (MIDL). Reference entries are also included for important language productions and concepts.
 
+| Topic | Description |
+| - | - |
+| [Reserved keywords](reserved-keywords.md) | This topic lists the reserved keywords in MIDL. You may not use these keywords in the names of your types and members. |
+| [Mixed-mode serialization of context handles](mixed-mode-serialization-of-context-handles.md) | In Microsoft Windows XP, a single interface can accommodate both serialized and nonserialized context handles, which is called mixed-mode serialization. |
+
 The reference entries are arranged in alphabetical order, and each entry includes syntax, examples, descriptions, and cross-references.
 
 <dl>

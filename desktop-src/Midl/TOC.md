@@ -164,6 +164,7 @@
 ### [/Zp](-zp.md)
 ### [/Zs](-zs.md)
 ## [MIDL Language Reference](midl-language-reference.md)
+### [Reserved keywords](reserved-keywords.md)
 ### [Mixed Mode Serialization of Context Handles](mixed-mode-serialization-of-context-handles.md)
 ### [aggregatable](aggregatable.md)
 ### [allocate](allocate.md)
