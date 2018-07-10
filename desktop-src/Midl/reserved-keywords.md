@@ -13,7 +13,7 @@ ms.date: 07/10/2018
 ---
 
 # Reserved keywords
-This topic lists the reserved keywords. You may not use these keywords in the names of your runtime classes and members.
+This topic lists the reserved keywords in MIDL. You may not use these keywords in the names of your runtime classes and members.
 
 ## List of keywords that are reserved
 FALSE
