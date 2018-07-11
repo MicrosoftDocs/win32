@@ -17,9 +17,8 @@ The X.509 public key infrastructure (PKI) standard identifies the requirements f
 
 A certificate is a signed data structure that binds a public key to an entity. The [*Abstract Syntax Notation One*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-abstract-syntax-notation-one-gly) (ASN.1) syntax for the version 3 [*X.509*](https://msdn.microsoft.com/library/windows/desktop/ms721636#-security-x-509-gly) certificate is shown in the following example.
 
-## ``` syntax
-
-## -- X.509 signed certificate 
+``` syntax
+-- X.509 signed certificate 
 
 SignedContent ::= SEQUENCE 
 {
@@ -27,9 +26,8 @@ SignedContent ::= SEQUENCE
   algorithm           Object Identifier,
   signature           BITSTRING
 }
-## 
-
-## -- X.509 certificate to be signed
+ 
+-- X.509 certificate to be signed
 
 CertificateToBeSigned ::= SEQUENCE 
 {
