@@ -6,7 +6,7 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 07/12/2018
 ---
 
 # Windows Desktop Application Program
@@ -19,7 +19,7 @@ There s no charge to access this data all you need to do is [sign up](https://go
 
 **If your company already has a Windows Dev Center account**: Sign into your Dev Center account (using the Microsoft account associated with the account owner) and navigate to the **Programs** page (either in **Account settings** or by selecting **All** in the left navigation menu). Under **Windows Desktop Application Program**, click **Get Started** to join the program at no additional cost. If you have an Azure AD tenant associated with your Dev Center account, users you ve added will be able to access the Windows Desktop Application Program. Coming soon, we ll allow you to set more granular access for this program.
 
-> \[!Tip\]  
+> [!Tip]  
 > If your company has a Dev Center account but you don t have access, ask your administrator to [add you as a user](https://docs.microsoft.com/windows/uwp/publish/add-users-groups-and-azure-ad-applications). Note that only the account owner can join the Windows Desktop Application Program.
 
  
@@ -34,7 +34,7 @@ We use [code signing](https://msdn.microsoft.com/library/ms53736.aspx) to establ
 
 We'll provide you a file and ask you to sign it with the same valid, non-expired, non-revoked code signing certificates that you use to sign your desktop applications. After that, you'll upload that signed file to your dashboard. This lets us know that any desktop applications signed with the same certificate belong to your account. We do not use your certificate information for any other purpose.
 
-> \[!Important\]  
+> [!Important]  
 > You do not need to repeat this process if you release a new desktop application. Once you've uploaded the signed file, we ll automatically identify any new applications that are signed with the same certificate, and we'll automatically retrieve analytics for those products. You also don't need to distribute the provided file within your applications or submit any kind of mapping for your products
 
  
@@ -85,7 +85,7 @@ signtool verify /a SignableFile.bin
 
 After your signed files have been uploaded and we've identified your desktop applications, your dashboard will show an overview of your applications along with key metrics.
 
-Our telemetry data will show health information such as crashes for each application associated with your certificate. Your dashboard will show an overview of your applications along with key metrics. You can select any application to view its [Health report](#health-report) and [Installs report](#installs-report) in the dashboard. You can also [retrieve analytic data programmatically by using the Microsoft Store analytics API](#retrieve-analytic-data-using-the-microsoft-store-analytics-api).
+Our telemetry data will show health information such as crashes for each application associated with your certificate. Your dashboard will show an overview of your applications along with key metrics. You can select any application to view its [Health report](#health-report), [Installs report](#installs-report), and [Blocks report](#blocks-report) in the dashboard. You can also [retrieve analytic data programmatically by using the Microsoft Store analytics API](#retrieve-analytic-data-using-the-microsoft-store-analytics-api).
 
 > [!Note]  
 > If we detect that an application s metadata has been updated to use a new name, we ll begin to report new data under the new name. Historical data associated with the old name will be preserved for 30 days.
@@ -118,6 +118,19 @@ You can filter the data in a number of ways, allowing you to:
 -   View install data in aggregate or by region
 -   Compare performance of your desktop applications across Windows versions, or on a specific version, such as the latest Windows 10 release or Windows Insider Fast and Slow releases
 
+### Application blocks report
+
+The **Application blocks** report lets you see info about Windows 10 devices on which your application is impacting Windows 10 upgrades. You can see how many devices are impacted on a given day along with the average number of devices over the last 30 days.
+
+The types of upgrade blocks included are as follows: 
+
+<table>
+<tr><th>Category</th><th>Issue</th><th>Description</th><th>Guidance provided to users</th></tr>
+<tr><td>Potential sediment</td><td>Will block the upgrade</td><td>The application will not work on the new OS release version. User action is required during setup to proceed with the upgrade.</td><td>Remove the application before upgrading and check with the developer for a compatible version of the application.</td></tr>
+<tr><td>Temporary sediment</td><td>May block upgrade. Need to test the application.</td><td>Microsoft is investigating upgrade issues related to this application. The upgrade will not be rolled out to users who may be impacted.</td><td>Remove the application before upgrading and check with the developer for a compatible version of the application.</td></tr>
+<tr><td>Runtime notification</td><td>May not function correctly in the new OS release version, but will not block the upgrade</td><td>The application will not prevent the upgrade, but issues were detected that may prevent it from functioning correctly in the new OS release version.</td><td>No action is required for the upgrade to proceed, but be sure to test the application on the new OS release version, and check with the developer for a compatible version, if needed.</td></tr>
+</table>
+
 ### Retrieve analytic data using the Microsoft Store analytics API
 
 The Microsoft Store analytics API lets you programmatically retrieve analytics data for applications that you have added to your account.
@@ -129,6 +142,9 @@ This API offers the following methods specific to the Windows Desktop Applicatio
 -   [Failure details](https://docs.microsoft.com/windows/uwp/monetize/get-details-for-an-error-in-your-desktop-application)
 -   [Stack trace](https://docs.microsoft.com/windows/uwp/monetize/get-the-stack-trace-for-an-error-in-your-desktop-application)
 -   [CAB file](https://docs.microsoft.com/windows/uwp/monetize/download-the-cab-file-for-an-error-in-your-desktop-application)
+-   [Upgrade blocks](https://docs.microsoft.com/windows/uwp/monetize/get-desktop-block-data)
+-   [Upgrade block details](https://docs.microsoft.com/windows/uwp/monetize/get-desktop-block-data-details)
+
 
 For more info about using this API, see [Access analytic data using Store services](https://docs.microsoft.com/windows/uwp/monetize/access-analytics-data-using-windows-store-services).
 
@@ -142,7 +158,7 @@ Keeping the metadata of your apps and files up to date helps make sure they are 
 -   Provide consistent product name and product version information for all executable files that belong in the same application (i.e., *My application*). If some of your executable files are distributed with multiple applications, give them unique names (i.e., *Shared components*) so you can see analytics for those executables separately from the applications they were distributed with.
 -   Every time you make changes to your metadata, you may see a new entry for your application in your dashboard. If you make a change, new incoming telemetry data will reflect your changes, but your old telemetry data will still appear as an **Unknown** application.
 -   When you revise a file, make sure to update the application version and product version numbers.
-    > \[!Tip\]  
+    > [!Tip]  
     > Use [**VERSIONINFO**](https://msdn.microsoft.com/library/windows/desktop/aa381058.aspx) resources to set the **FileDescription**, **FileVersion**, **ProductName**, and **ProductVersion** for your files and applications. The following example defines a **VERSIONINFO** resource:
     >
     > ``` syntax
