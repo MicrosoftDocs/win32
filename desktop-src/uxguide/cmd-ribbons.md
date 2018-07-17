@@ -223,7 +223,7 @@ There are a variety of factors to consider when determining groups and their pre
     |                                                                                                 |                                                                                              |
     |-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
     | **Correct:**<br/>                                                                         | **Incorrect:**<br/>                                                                    |
-    | ![screen shot of zoom separated from editing group ](images/cmd-ribbons-image13.png)\[newline\] | ![screen shot of zoom included in editing group ](images/cmd-ribbons-image14.png)<br/> |
+    | ![screen shot of zoom separated from editing group ](images/cmd-ribbons-image13.png)<br/> | ![screen shot of zoom included in editing group ](images/cmd-ribbons-image14.png)<br/> |
 
     
 
@@ -236,7 +236,7 @@ There are a variety of factors to consider when determining groups and their pre
     |                                                                                                 |                                                                                                   |
     |-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
     | **Correct:**<br/>                                                                         | **Incorrect:**<br/>                                                                         |
-    | ![screen shot of zoom separated from editing group ](images/cmd-ribbons-image13.png)\[newline\] | ![screen shot of editing group split into two groups ](images/cmd-ribbons-image15.png)<br/> |
+    | ![screen shot of zoom separated from editing group ](images/cmd-ribbons-image13.png)<br/> | ![screen shot of editing group split into two groups ](images/cmd-ribbons-image15.png)<br/> |
 
     
 
@@ -271,7 +271,7 @@ There are a variety of factors to consider when determining groups and their pre
     |                                                                                                |                                                                                           |
     |------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
     | **Correct:**<br/>                                                                        | **Incorrect:**<br/>                                                                 |
-    | ![screen shot of group with different-sized icons ](images/cmd-ribbons-image20.png)\[newline\] | ![screen shot of group with same-sized icons ](images/cmd-ribbons-image21.png)<br/> |
+    | ![screen shot of group with different-sized icons ](images/cmd-ribbons-image20.png)<br/> | ![screen shot of group with same-sized icons ](images/cmd-ribbons-image21.png)<br/> |
 
     
 
@@ -562,7 +562,7 @@ Whenever practical, map your program's commands to these standard groups, which 
     |                                                                                           |                                                                                           |
     |-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
     | **Correct:**<br/>                                                                   | **Incorrect:**<br/>                                                                 |
-    | ![screen shot of insert note and delete note ](images/cmd-ribbons-image38.png)\[newline\] | ![screen shot of insert note, no delete note ](images/cmd-ribbons-image39.png)<br/> |
+    | ![screen shot of insert note and delete note ](images/cmd-ribbons-image38.png)<br/> | ![screen shot of insert note, no delete note ](images/cmd-ribbons-image39.png)<br/> |
 
     
 
@@ -578,7 +578,7 @@ Whenever practical, map your program's commands to these standard groups, which 
             |                                                                                                |                                                                                              |
             |------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
             | **Correct:**<br/>                                                                        | **Better:**<br/>                                                                       |
-            | ![screen shot of rotate command with curved arrow ](images/cmd-ribbons-image40.png)\[newline\] | ![screen shot of rotate command and its options ](images/cmd-ribbons-image41.png)<br/> |
+            | ![screen shot of rotate command with curved arrow ](images/cmd-ribbons-image40.png)<br/> | ![screen shot of rotate command and its options ](images/cmd-ribbons-image41.png)<br/> |
 
             
 
@@ -666,7 +666,7 @@ For command labeling guidelines, see [Command labels](https://msdn.microsoft.com
     |                                                                                                  |                                                                                                |
     |--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
     | **Correct:**<br/>                                                                          | **Incorrect:**<br/>                                                                      |
-    | ![screen shot of blue eye dropper and yellow pencil ](images/cmd-ribbons-image46.png)\[newline\] | ![screen shot of blue eye dropper and blue pencil ](images/cmd-ribbons-image47.png)<br/> |
+    | ![screen shot of blue eye dropper and yellow pencil ](images/cmd-ribbons-image46.png)<br/> | ![screen shot of blue eye dropper and blue pencil ](images/cmd-ribbons-image47.png)<br/> |
 
     
 
@@ -905,7 +905,7 @@ For shortcut key guidelines, see [Keyboard](inter-keyboard.md).
         |                                                                                             |                                                                                              |
         |---------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
         | **Correct:**<br/>                                                                     | **Incorrect:**<br/>                                                                    |
-        | ![screen shot of macros command with one label ](images/cmd-ribbons-image63.png)\[newline\] | ![screen shot of macros command with two labels ](images/cmd-ribbons-image64.png)<br/> |
+        | ![screen shot of macros command with one label ](images/cmd-ribbons-image63.png)<br/> | ![screen shot of macros command with two labels ](images/cmd-ribbons-image64.png)<br/> |
 
         
 

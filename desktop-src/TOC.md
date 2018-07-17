@@ -1,4 +1,4 @@
-#[Windows Desktop Apps](/windows/desktop)
+#[Windows Desktop Apps](index.md)
 ##Get Started
 ###[Choose Your Technology](choose-your-technology.md)
 ###[What's new](windows-8.md)
