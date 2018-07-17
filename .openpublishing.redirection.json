@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "desktop-src/win32-and-com-development.md",
+      "redirect_url": "/windows/desktop/index",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "desktop-src/AD/index.md",
       "redirect_url": "/windows/desktop/AD/active-directory-domain-services",
       "redirect_document_id": false
