@@ -96,7 +96,7 @@
 ##### [IPSEC_TRAFFIC_TYPE](/windows/desktop/api/Ipsectypes/ne-ipsectypes-ipsec_traffic_type_)
 ##### [IPSEC_TRANSFORM_TYPE](/windows/desktop/api/Ipsectypes/ne-ipsectypes-ipsec_transform_type_)
 #### [Management Types](management-types.md)
-##### [DL_ADDRESS_TYPE](/windows/desktop/api/netiodef/ne-fwpmtypes-__midl___midl_itf_fwpmtypes_0000_0000_0001)
+##### [DL_ADDRESS_TYPE](https://msdn.microsoft.com/en-us/library/Dd744934(v=VS.85).aspx)
 ##### [FWPM_APPC_NETWORK_CAPABILITY_TYPE](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_appc_network_capability_type_)
 ##### [FWPM_CHANGE_TYPE](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_change_type_)
 ##### [FWPM_CONNECTION_EVENT_TYPE](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_connection_event_type_)

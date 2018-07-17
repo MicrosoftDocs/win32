@@ -370,7 +370,7 @@
 #### [FreeContextBuffer](/windows/desktop/api/Sspi/nf-sspi-freecontextbuffer)
 #### [FreeCredentialsHandle](/windows/desktop/api/Sspi/nf-sspi-freecredentialshandle)
 #### [FreeHeap](https://msdn.microsoft.com/en-us/library/Aa375418(v=VS.85).aspx)
-#### [LSA_FREE_LSA_HEAP](/windows/desktop/api/Ntsecpkg/nc-ntlsa-lsa_free_lsa_heap)
+#### [LSA_FREE_LSA_HEAP](https://msdn.microsoft.com/en-us/library/Aa375423(v=VS.85).aspx)
 #### [LSA_FREE_PRIVATE_HEAP](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_free_private_heap)
 #### [LSA_FREE_LSA_HEAP](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_free_lsa_heap)
 #### [LSA_FREE_SHARED_MEMORY](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_free_shared_memory)

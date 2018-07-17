@@ -85,7 +85,7 @@
 ##### [GET_FLAGS_LPARAM](https://msdn.microsoft.com/en-us/library/ms646249(v=VS.85).aspx)
 ##### [GET_KEYSTATE_LPARAM](https://msdn.microsoft.com/en-us/library/ms646250(v=VS.85).aspx)
 ##### [GET_KEYSTATE_WPARAM](https://msdn.microsoft.com/en-us/library/ms646251(v=VS.85).aspx)
-##### [GET_MOUSEORKEY_LPARAM](https://msdn.microsoft.com/en-us/library/ms646252(v=VS.85).aspx)
+##### [GET_MOUSEORKEY_LPARAM](get-mouseorkey-lparam.md)
 ##### [GET_NCHITTEST_WPARAM](https://msdn.microsoft.com/en-us/library/ms646253(v=VS.85).aspx)
 ##### [GET_WHEEL_DELTA_WPARAM](https://msdn.microsoft.com/en-us/library/ms646254(v=VS.85).aspx)
 ##### [GET_XBUTTON_WPARAM](https://msdn.microsoft.com/en-us/library/ms646255(v=VS.85).aspx)

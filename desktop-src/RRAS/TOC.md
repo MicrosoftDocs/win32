@@ -571,7 +571,7 @@
 ##### [Routing Protocol Interface Structures](routing-protocol-interface-structures.md)
 ###### [MESSAGE](/windows/desktop/api/Routprot/ns-routprot-_message)
 ###### [MPR_ROUTING_CHARACTERISTICS](/windows/desktop/api/Routprot/ns-routprot-_mpr50_routing_characteristics)
-###### [MPR_SERVICE_CHARACTERISTICS](/windows/desktop/api/Routprot/ns-stm-_mpr40_service_characteristics)
+###### [MPR_SERVICE_CHARACTERISTICS](https://msdn.microsoft.com/en-us/library/Aa375910(v=VS.85).aspx)
 ###### [UPDATE_COMPLETE_MESSAGE](/windows/desktop/api/Routprot/ns-routprot-_update_complete_message)
 ###### [Support Functions Reference](support-functions-reference.md)
 ####### [SUPPORT_FUNCTIONS](/windows/desktop/api/Routprot/ns-routprot-_support_functions_50)

@@ -148,7 +148,7 @@
 ##### [Register Parser](register-parser.md)
 ##### [ParserAutoInstallInfo](parserautoinstallinfo.md)
 #### [Parser Functions](parser-functions.md)
-##### [AddProperty](/windows/desktop/api/sql_1/nf-sql_1-sql_level_1_rpn_expression-addproperty)
+##### [AddProperty](https://msdn.microsoft.com/en-us/library/Ee817694(v=VS.85).aspx)
 ##### [AddressToString](addresstostring.md)
 ##### [AttachPropertyInstance](attachpropertyinstance.md)
 ##### [AttachPropertyInstanceEx](attachpropertyinstanceex.md)

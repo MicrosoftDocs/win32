@@ -1,4 +1,5 @@
 # [High DPI](high-dpi-desktop-application-development-on-windows.md)
+## [Setting the default DPI awareness for a process](setting-the-default-dpi-awareness-for-a-process.md)
 ## [Mixed-Mode DPI Scaling and DPI-aware APIs](high-dpi-improvements-for-desktop-applications.md)
 ## [Developing a Per-Monitor DPI-Aware WPF Application](declaring-managed-apps-dpi-aware.md)
 ## [High DPI Reference](high-dpi-reference.md)

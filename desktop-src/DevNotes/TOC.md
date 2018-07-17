@@ -394,7 +394,7 @@
 ### [RtlUnicodeToMultiByteSize](/windows/desktop/api/Winternl/nf-winternl-rtlunicodetomultibytesize)
 ### [RtlUnicodeToUTF8N](rtlunicodetoutf8n.md)
 ### [RtlUTF8ToUnicodeN](rtlutf8tounicoden.md)
-### [SendIMEMessage](https://msdn.microsoft.com/en-us/library/Hh457667(v=VS.85).aspx)
+### [SendIMEMessage](-win32-sendimemessage.md)
 ### [SendIMEMessageEx](/windows/desktop/api/Ime/nf-ime-sendimemessageexa)
 ### [STRING](/windows/desktop/api/Winternl/ns-winternl-_string)
 ### [UnregisterServerForPMP](/windows/desktop/api/comppkgsup/nf-comppkgsup-unregisterserverforpmp)
