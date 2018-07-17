@@ -143,7 +143,7 @@ Microsoft and non-Microsoft applications that use the Windows Installer do not n
 
 The following example illustrates which registry values to declare for an installation to be recognized as an update to an existing program.
 
-1.  The parent application must add its uninstall information in a subkey under the **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**Windows**\\**CurrentVersion**\\**Uninstall** subkey. See the [Installation](https://www.bing.com/search?q=Installation) topic for more information on using the **Uninstall** subkey.
+1.  The parent application must add its uninstall information in a subkey under the **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**Windows**\\**CurrentVersion**\\**Uninstall** subkey. See the [Installation](ch11d) topic for more information on using the **Uninstall** subkey.
 2.  Each update to that parent application also must add its information as a subkey of the **Uninstall** subkey. It should use a particular naming convention of its choice, attempting to avoid potential conflicts with other programs. The following conventions are reserved as subkey names by Microsoft for use with Windows updates.
     -   IEUpdate
     -   OEUpdate
@@ -216,7 +216,7 @@ DontGroupPatches has no effect in Windows Vista and Windows 7, where the UI co
 ## Additional Resources
 
 -   [Registering Programs with Client Types](reg-middleware-apps.md)
--   [Installation](https://www.bing.com/search?q=Installation)
+-   [Installation](ch11d)
 -   [Configuring Add/Remove Programs with Windows Installer](https://msdn.microsoft.com/en-us/library/Aa368032(v=VS.85).aspx)
 
 ## Related topics

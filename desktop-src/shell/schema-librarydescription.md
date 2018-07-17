@@ -129,7 +129,7 @@ A library can have a unique set of properties, and locations in the library can 
 [Library Description Schema](library-schema-entry.md)
 </dt> <dt>
 
-[Search Connector Description Schema](https://www.bing.com/search?q=Search+Connector+Description+Schema)
+[Search Connector Description Schema](search_sconn_desc_schema_entry)
 </dt> </dl>
 
  

@@ -19,7 +19,7 @@ The [**SetInputScope**](https://msdn.microsoft.com/en-us/library/ms629025(v=VS.8
 
 ## Common Input Scopes
 
-Using the [**SetInputScope**](https://msdn.microsoft.com/en-us/library/ms629025(v=VS.85).aspx) functions and the defined set of common input scopes described in the [**InputScope**](https://www.bing.com/search?q=**InputScope**) enumeration, you can improve the recognition accuracy of the Microsoft handwriting recognizers.
+Using the [**SetInputScope**](https://msdn.microsoft.com/en-us/library/ms629025(v=VS.85).aspx) functions and the defined set of common input scopes described in the [**InputScope**](tsf.inputscope) enumeration, you can improve the recognition accuracy of the Microsoft handwriting recognizers.
 
 > [!Note]  
 > The recognizers for English (United States), English (United Kingdom), German, French, Italian, Spanish, Dutch, and Portuguese currently support using the common input scopes with [**SetInputScope**](https://msdn.microsoft.com/en-us/library/ms629025(v=VS.85).aspx).

@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Ink Divider Sample
 
-This sample is based on the [Ink Collection Sample](ink-collection-sample.md). It shows how to use the [Divider](https://www.bing.com/search?q=Divider) object to analyze ink input.
+This sample is based on the [Ink Collection Sample](ink-collection-sample.md). It shows how to use the [Divider](frlrfMicrosoftInkDividerClassTopic) object to analyze ink input.
 
-For detailed conceptual information about [Divider](https://www.bing.com/search?q=Divider), see [The Divider Object](the-divider-object.md).
+For detailed conceptual information about [Divider](frlrfMicrosoftInkDividerClassTopic), see [The Divider Object](the-divider-object.md).
 
 When the form is updated, the sample draws a bounding rectangle around each analyzed unit, broken into words, lines, paragraphs, and drawings. Besides using different colors, these rectangles are enlarged by different amounts to ensure that none of the rectangles is obscured by others. The following table specifies the color and enlargement for each analyzed unit.
 
@@ -32,7 +32,7 @@ When the form is updated, the sample draws a bounding rectangle around each anal
 
 ## Setting Up the Form
 
-When the form loads, a [Divider](https://www.bing.com/search?q=Divider) object is created. An [InkOverlay](https://www.bing.com/search?q=InkOverlay) object is created and associated with a panel on the form. Then event handlers are attached to the InkOverlay object to track when strokes are added and deleted. Then if recognizers are available, a [RecognizerContext](https://www.bing.com/search?q=RecognizerContext) object for the default recognizer is assigned to the Divider. Then the Divider object's [LineHeight](https://www.bing.com/search?q=LineHeight) property is set and the [Strokes](https://www.bing.com/search?q=Strokes) collection from the InkOverlay object is assigned to the Divider. Finally, the InkOverlay object is enabled.
+When the form loads, a [Divider](frlrfMicrosoftInkDividerClassTopic) object is created. An [InkOverlay](frlrfMicrosoftInkInkOverlayClassTopic) object is created and associated with a panel on the form. Then event handlers are attached to the InkOverlay object to track when strokes are added and deleted. Then if recognizers are available, a [RecognizerContext](frlrfMicrosoftInkRecognizerContextClassTopic) object for the default recognizer is assigned to the Divider. Then the Divider object's [LineHeight](frlrfMicrosoftInkDividerClassLineHeightTopic) property is set and the [Strokes](frlrfMicrosoftInkStrokesClassTopic) collection from the InkOverlay object is assigned to the Divider. Finally, the InkOverlay object is enabled.
 
 
 ```C++
@@ -96,7 +96,7 @@ myInkOverlay.Enabled = true;
 
 
 
-The [Divider](https://www.bing.com/search?q=Divider) object's [Strokes](https://www.bing.com/search?q=Strokes) collection must be kept in sync with the [InkOverlay](https://www.bing.com/search?q=InkOverlay) object's [Strokes](https://www.bing.com/search?q=Strokes) collection (accessed through the InkOverlay object's [Ink](https://www.bing.com/search?q=Ink) property). To ensure that this happens, the [Stroke](https://www.bing.com/search?q=Stroke) event handler for the InkOverlay object is written as follows. Note that the event handler first tests to see if the [EditingMode](https://www.bing.com/search?q=EditingMode) is set to **Ink** to filter out eraser strokes. If the user has requested automatic layout analysis, then the application calls the form's DivideInk method and refreshes the drawing area.
+The [Divider](frlrfMicrosoftInkDividerClassTopic) object's [Strokes](frlrfMicrosoftInkDividerClassStrokesTopic) collection must be kept in sync with the [InkOverlay](frlrfMicrosoftInkInkOverlayClassTopic) object's [Strokes](frlrfMicrosoftInkStrokesClassTopic) collection (accessed through the InkOverlay object's [Ink](frlrfMicrosoftInkInkOverlayClassInkTopic) property). To ensure that this happens, the [Stroke](frlrfMicrosoftInkInkOverlayClassStrokeTopic) event handler for the InkOverlay object is written as follows. Note that the event handler first tests to see if the [EditingMode](frlrfMicrosoftInkInkOverlayClassEditingModeTopic) is set to **Ink** to filter out eraser strokes. If the user has requested automatic layout analysis, then the application calls the form's DivideInk method and refreshes the drawing area.
 
 
 ```C++
@@ -124,7 +124,7 @@ private void myInkOverlay_Stroke(object sender, InkCollectorStrokeEventArgs e )
 
 ## Dividing the Ink
 
-When the user clicks Divide on the File menu, the [Divide](https://www.bing.com/search?q=Divide) method is called on the [Divider](https://www.bing.com/search?q=Divider) object. The default recognizer is used, if available.
+When the user clicks Divide on the File menu, the [Divide](frlrfMicrosoftInkDividerClassDivideTopic) method is called on the [Divider](frlrfMicrosoftInkDividerClassTopic) object. The default recognizer is used, if available.
 
 
 ```C++
@@ -133,7 +133,7 @@ DivisionResult divResult = myInkDivider.Divide();
 
 
 
-The resulting [DivisionResult](https://www.bing.com/search?q=DivisionResult) object, referenced by the variable `divResult`, is passed to a utility function, `getUnitBBBoxes()`. The utility function returns an array of rectangles for whatever division type is requested: segments, lines, paragraphs, or drawings.
+The resulting [DivisionResult](frlrfMicrosoftInkDivisionResultClassTopic) object, referenced by the variable `divResult`, is passed to a utility function, `getUnitBBBoxes()`. The utility function returns an array of rectangles for whatever division type is requested: segments, lines, paragraphs, or drawings.
 
 
 ```C++
@@ -156,7 +156,7 @@ DrawArea.Refresh();
 
 ## Ink Analysis Results
 
-In the utility function, the [DivisionResult](https://www.bing.com/search?q=DivisionResult) object is queried for its results by using the [ResultByType](https://www.bing.com/search?q=ResultByType) method, based on the division type requested by the caller. The ResultByType method returns a [DivisionUnits](https://www.bing.com/search?q=DivisionUnits) collection. Each [DivisionUnit](https://www.bing.com/search?q=DivisionUnit) in the collection represents a drawing, a single recognition segment of handwriting, a line of handwriting, or a block of handwriting, depending upon what was specified when the utility function was called.
+In the utility function, the [DivisionResult](frlrfMicrosoftInkDivisionResultClassTopic) object is queried for its results by using the [ResultByType](frlrfMicrosoftInkDivisionResultClassResultByTypeTopic) method, based on the division type requested by the caller. The ResultByType method returns a [DivisionUnits](frlrfMicrosoftInkDivisionUnitsClassTopic) collection. Each [DivisionUnit](frlrfMicrosoftInkDivisionUnitClassTopic) in the collection represents a drawing, a single recognition segment of handwriting, a line of handwriting, or a block of handwriting, depending upon what was specified when the utility function was called.
 
 
 ```C++
@@ -165,7 +165,7 @@ DivisionUnits units = divResult.ResultByType(divType);
 
 
 
-If there is at least one [DivisionUnit](https://www.bing.com/search?q=DivisionUnit), an array of rectangles is created containing one bounding rectangle per unit. (The rectangles are inflated by differing amounts for each type of unit, held in the inflate variable, to prevent overlapping.)
+If there is at least one [DivisionUnit](frlrfMicrosoftInkDivisionUnitClassTopic), an array of rectangles is created containing one bounding rectangle per unit. (The rectangles are inflated by differing amounts for each type of unit, held in the inflate variable, to prevent overlapping.)
 
 
 ```C++
@@ -205,7 +205,7 @@ if((null != units) &amp;&amp; (0 < units.Count))
 
 ## Redrawing the Form
 
-When the redraw is forced above, the following code executes to paint the bounding boxes for each [DivisionUnit](https://www.bing.com/search?q=DivisionUnit) on the form around the ink.
+When the redraw is forced above, the following code executes to paint the bounding boxes for each [DivisionUnit](frlrfMicrosoftInkDivisionUnitClassTopic) on the form around the ink.
 
 
 ```C++
@@ -257,7 +257,7 @@ private void DrawArea_Paint(object sender, System.Windows.Forms.PaintEventArgs e
 
 ## Closing the Form
 
-The form's [Dispose](https://www.bing.com/search?q=Dispose) method disposes the [InkOverlay](https://www.bing.com/search?q=InkOverlay), [Divider](https://www.bing.com/search?q=Divider), [RecognizerContext](https://www.bing.com/search?q=RecognizerContext) objects and the [Strokes](https://www.bing.com/search?q=Strokes) collection used in the sample.
+The form's [Dispose](frlrfSystemWindowsFormsFormClassDisposeTopic) method disposes the [InkOverlay](frlrfMicrosoftInkInkOverlayClassTopic), [Divider](frlrfMicrosoftInkDividerClassTopic), [RecognizerContext](frlrfMicrosoftInkRecognizerContextClassTopic) objects and the [Strokes](frlrfMicrosoftInkStrokesClassTopic) collection used in the sample.
 
  
 

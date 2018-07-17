@@ -47,7 +47,7 @@ The following are the Flicks constants.
 [Flicks Gestures](flicks-gestures.md)
 </dt> <dt>
 
-[Responding to Pen Flicks](https://www.bing.com/search?q=Responding+to+Pen+Flicks)
+[Responding to Pen Flicks](tablet-responding_to_pen_flicks)
 </dt> </dl>
 
  

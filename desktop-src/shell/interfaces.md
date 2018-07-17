@@ -278,7 +278,7 @@ As of Windows 8, the only functionality of this interface that is supported is 
 <td>Enables interfaces that are usually synchronous to function asynchronously. <br/>
 <blockquote>
 [!Note]<br />
-This interface is the current, renamed version of [<strong>IAsyncOperation</strong>](https://www.bing.com/search?q=<strong>IAsyncOperation</strong>).
+This interface is the current, renamed version of [<strong>IAsyncOperation</strong>](shell.IAsyncOperation).
 </blockquote>
 <br/></td>
 </tr>
@@ -444,7 +444,7 @@ This interface is the current, renamed version of [<strong>IAsyncOperation</stro
 </tr>
 <tr class="even">
 <td>[<strong>IExplorerPaneVisibility</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility)<br/></td>
-<td>Used in Windows Explorer by an [<strong>IShellFolder</strong>](https://msdn.microsoft.com/en-us/library/Bb775075(v=VS.85).aspx) implementation to give suggestions to the view about what panes are visible. Additionally, an [<strong>IExplorerBrowser</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser) host can use this interface to provide information about pane visibility. The host should implement [<strong>QueryService</strong>](https://www.bing.com/search?q=<strong>QueryService</strong>) with <strong>SID_ExplorerPaneVisibility</strong> as the service ID. The host must be in the site chain. <br/> The [<strong>IExplorerPaneVisibility</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility) implementation is retrieved from the Shell folder. The Shell folder, in turn, is retrieved from the view. A namespace extension can elect to provide a custom view ([<strong>IShellView</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview)) rather than using the system folder view object (DefView). In that case, the <strong>IShellView</strong> implementation must include an implementation of [<strong>IFolderView::GetFolder</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder) to return the <strong>IExplorerPaneVisibility</strong> object.<br/> A namespace extension can provide a custom view by implementing [<strong>IShellView</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview) itself rather than using the system folder view object (DefView). In that case, the <strong>IShellView</strong> implementation must include an implementation of [<strong>IFolderView::GetFolder</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder) to make use of [<strong>IExplorerPaneVisibility</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility) .<br/></td>
+<td>Used in Windows Explorer by an [<strong>IShellFolder</strong>](https://msdn.microsoft.com/en-us/library/Bb775075(v=VS.85).aspx) implementation to give suggestions to the view about what panes are visible. Additionally, an [<strong>IExplorerBrowser</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser) host can use this interface to provide information about pane visibility. The host should implement [<strong>QueryService</strong>](_inet_IServiceProvider_QueryService_Method) with <strong>SID_ExplorerPaneVisibility</strong> as the service ID. The host must be in the site chain. <br/> The [<strong>IExplorerPaneVisibility</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility) implementation is retrieved from the Shell folder. The Shell folder, in turn, is retrieved from the view. A namespace extension can elect to provide a custom view ([<strong>IShellView</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview)) rather than using the system folder view object (DefView). In that case, the <strong>IShellView</strong> implementation must include an implementation of [<strong>IFolderView::GetFolder</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder) to return the <strong>IExplorerPaneVisibility</strong> object.<br/> A namespace extension can provide a custom view by implementing [<strong>IShellView</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview) itself rather than using the system folder view object (DefView). In that case, the <strong>IShellView</strong> implementation must include an implementation of [<strong>IFolderView::GetFolder</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder) to make use of [<strong>IExplorerPaneVisibility</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility) .<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>IExtractIcon</strong>](https://msdn.microsoft.com/en-us/library/Bb761854(v=VS.85).aspx)<br/></td>
@@ -756,7 +756,7 @@ This interface is the current, renamed version of [<strong>IAsyncOperation</stro
 </tr>
 <tr class="even">
 <td>[<strong>IObjectProvider</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectprovider)<br/></td>
-<td>Exposes a method to discover objects that are named with a <strong>GUID</strong> from another object. Unlike [<strong>QueryService</strong>](https://www.bing.com/search?q=<strong>QueryService</strong>) this interface will not delegate its functionality on to other objects.<br/></td>
+<td>Exposes a method to discover objects that are named with a <strong>GUID</strong> from another object. Unlike [<strong>QueryService</strong>](_inet_IServiceProvider_QueryService_Method) this interface will not delegate its functionality on to other objects.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>IObjectWithAppUserModelID</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithappusermodelid)<br/></td>
@@ -920,7 +920,7 @@ This interface is the current, renamed version of [<strong>IAsyncOperation</stro
 </tr>
 <tr class="odd">
 <td>[<strong>IQueryInfo</strong>](https://msdn.microsoft.com/en-us/library/Bb761359(v=VS.85).aspx)<br/></td>
-<td>Exposes methods that the Shell uses to retrieve flags and info tip information for an item that resides in an [<strong>IShellFolder</strong>](https://msdn.microsoft.com/en-us/library/Bb775075(v=VS.85).aspx) implementation. Info tips are usually displayed inside a [tooltip](https://www.bing.com/search?q=tooltip) control.<br/></td>
+<td>Exposes methods that the Shell uses to retrieve flags and info tip information for an item that resides in an [<strong>IShellFolder</strong>](https://msdn.microsoft.com/en-us/library/Bb775075(v=VS.85).aspx) implementation. Info tips are usually displayed inside a [tooltip](_win32_Tooltip_Controls) control.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>IRelatedItem</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irelateditem)<br/></td>

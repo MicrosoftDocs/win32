@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Building Blocks
 
-There are several persistence formats the Tablet PC platform generates that are useful as building blocks for the formats listed previously. The following formats are all generated and consumed by using the [**Ink**](https://www.bing.com/search?q=**Ink**) object's [**Load**](https://www.bing.com/search?q=**Load**) and [**Save**](https://www.bing.com/search?q=**Save**) methods.
+There are several persistence formats the Tablet PC platform generates that are useful as building blocks for the formats listed previously. The following formats are all generated and consumed by using the [**Ink**](frlrfMicrosoftInkInkClassTopic) object's [**Load**](frlrfMicrosoftInkInkClassLoadTopic) and [**Save**](frlrfMicrosoftInkInkClassSaveTopic) methods.
 
 -   Ink serialized format (ISF): Ink Serialized Format (ISF) is the most compact persistent representation of ink. You can embed ISF within a binary document format or move it directly to the Clipboard. Ink stored in ISF should use the default coordinate system, which is HIMETRIC, with the vertical axis inverted.
 -   Base-64 Encoded ISF: You can use base-64 encoded ISF to encode ink directly into an Extensible Markup Language (XML) or HTML file.
@@ -22,12 +22,12 @@ There are several persistence formats the Tablet PC platform generates that are 
 
      
 
-An application can generate one of these persistent formats by using the [Microsoft.Ink.Stroke.HitTest](https://www.bing.com/search?q=Microsoft.Ink.Stroke.HitTest) or the [Microsoft.Ink.Ink.HitTest](https://www.bing.com/search?q=Microsoft.Ink.Ink.HitTest) method to generate a strokes collection and either:
+An application can generate one of these persistent formats by using the [Microsoft.Ink.Stroke.HitTest](frlrfMicrosoftInkStrokeClassHitTestTopic) or the [Microsoft.Ink.Ink.HitTest](frlrfMicrosoftInkInkClassHitTestTopic) method to generate a strokes collection and either:
 
--   Adding these strokes to a new [**Ink**](https://www.bing.com/search?q=**Ink**) object by using the [AddStrokesAtRectangle](https://www.bing.com/search?q=AddStrokesAtRectangle) method.
--   Generating a new [**Ink**](https://www.bing.com/search?q=**Ink**) object by using the [ExtractStrokes](https://www.bing.com/search?q=ExtractStrokes) method.
+-   Adding these strokes to a new [**Ink**](frlrfMicrosoftInkInkClassTopic) object by using the [AddStrokesAtRectangle](frlrfMicrosoftInkInkClassAddStrokesAtRectangleTopic) method.
+-   Generating a new [**Ink**](frlrfMicrosoftInkInkClassTopic) object by using the [ExtractStrokes](frlrfMicrosoftInkInkClassExtractStrokesTopic) method.
 
-The first translates the selection rectangle to the origin, while the second does not. The application then uses the [**Save**](https://www.bing.com/search?q=**Save**) method of the [**Ink**](https://www.bing.com/search?q=**Ink**) object.
+The first translates the selection rectangle to the origin, while the second does not. The application then uses the [**Save**](frlrfMicrosoftInkInkClassSaveTopic) method of the [**Ink**](frlrfMicrosoftInkInkClassTopic) object.
 
 ## Related topics
 

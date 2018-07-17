@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Drawing Opaque and Semitransparent Lines
 
-When you draw a line, you must pass the address of a [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) object to the [DrawLine](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(in const pen_in const point &_in const point &)) method of the [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. One of the parameters of the **Pen** constructor is a [**Color**](/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color) object. To draw an opaque line, set the alpha component of the color to 255. To draw a semitransparent line, set the alpha component to any value from 1 through 254.
+When you draw a line, you must pass the address of a [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) object to the [DrawLine](https://msdn.microsoft.com/en-us/library/ms535748(v=VS.85).aspx) method of the [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. One of the parameters of the **Pen** constructor is a [**Color**](/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color) object. To draw an opaque line, set the alpha component of the color to 255. To draw a semitransparent line, set the alpha component to any value from 1 through 254.
 
 When you draw a semitransparent line over a background, the color of the line is blended with the colors of the background. The alpha component specifies how the line and background colors are mixed; alpha values near 0 place more weight on the background colors, and alpha values near 255 place more weigh on the line color.
 

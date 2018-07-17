@@ -91,7 +91,7 @@ This function has no associated import library or header file; you must call it 
 
 <dl> <dt>
 
-[**GetLastInputInfo**](https://www.bing.com/search?q=**GetLastInputInfo**)
+[**GetLastInputInfo**](_win32_getlastinputinfo_cpp)
 </dt> </dl>
 
  

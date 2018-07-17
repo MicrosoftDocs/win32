@@ -105,16 +105,16 @@ Bring your app's window to the foreground if it receives an "activated" callback
 [Quickstart: Sending a toast notification](https://msdn.microsoft.com/en-us/library/Hh465448(v=Win.10).aspx)
 </dt> <dt>
 
-[Quickstart: Sending a toast push notification](https://www.bing.com/search?q=Quickstart:+Sending+a+toast+push+notification)
+[Quickstart: Sending a toast push notification](m_ui_tiles.quickstart_sending_a_toast_push)
 </dt> <dt>
 
 [Guidelines and checklist for toast notifications](https://msdn.microsoft.com/en-us/library/Hh465391(v=Win.10).aspx)
 </dt> <dt>
 
-[How to add images to a toast template](https://www.bing.com/search?q=How+to+add+images+to+a+toast+template)
+[How to add images to a toast template](m_ui_tiles.howto_use_images_toast)
 </dt> <dt>
 
-[How to check toast notification settings](https://www.bing.com/search?q=How+to+check+toast+notification+settings)
+[How to check toast notification settings](m_ui_tiles.howto_check_toast_notification_settings)
 </dt> <dt>
 
 [How to choose and use a toast template](https://msdn.microsoft.com/en-us/library/Hh465448(v=Win.10).aspx)

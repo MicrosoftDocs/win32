@@ -15,7 +15,7 @@ A *transaction* is a series of modifications of a data store (such as a database
 
 Often, applications can be developed using a business transaction or workflow that is split into several smaller transactions or activities. These activities are separated in time and then connected using reliable message queues.
 
-1.  The first transaction involves the order entry database. [Message Queuing](https://www.bing.com/search?q=Message+Queuing) moves the message from one queue to another queue, exactly one time, using transaction capabilities. If the database is updated, there is a message on the queue. If the message doesn't reach the queue, it is aborted and the database is rolled back.
+1.  The first transaction involves the order entry database. [Message Queuing](_mq_Message_Queuing_MSMQ_Start_Page) moves the message from one queue to another queue, exactly one time, using transaction capabilities. If the database is updated, there is a message on the queue. If the message doesn't reach the queue, it is aborted and the database is rolled back.
 2.  Sometime later, Message Queuing discovers that the server is available. There is no application polling for the existence of the server. This is the second transaction.
 3.  The third transaction involves a shipping database query and the update of the shipping database. If the server fails in the middle of this transaction, the modification is rolled back and the message is returned to the input queue. This ensures that the integrity of the data and databases is maintained during the transactions.
 

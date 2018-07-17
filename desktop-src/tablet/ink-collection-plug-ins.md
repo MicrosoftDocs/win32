@@ -11,29 +11,29 @@ ms.date: 05/31/2018
 
 # Ink-Collection Plug-ins
 
-The [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object does not inherently collect ink. To use the **RealTimeStylus** to collect ink, create an ink-collector plug-in.
+The [**RealTimeStylus**](realtimestylus-class.md) object does not inherently collect ink. To use the **RealTimeStylus** to collect ink, create an ink-collector plug-in.
 
-The following is a minimal scenario for using the [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object on a form that collects ink.
+The following is a minimal scenario for using the [**RealTimeStylus**](realtimestylus-class.md) object on a form that collects ink.
 
 1.  Create a form that implements the [**IStylusAsyncPlugin**](https://msdn.microsoft.com/en-us/library/ms702522(v=VS.85).aspx) interface.
-2.  Create a [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object, and attach it to a control on the form.
-3.  Set interest in the StylusDown, Packets, and StylusUp notifications in the form's [DataInterest](https://www.bing.com/search?q=DataInterest) property.
-4.  In the form's [**StylusDown**](/windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusdown), [**Packets**](/windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-packets), and [**StylusUp**](/windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusup) methods, add code to handle the stylus down, packets, and stylus up notifications that are sent from the form's [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object. This code should store the pen data, and create and store the strokes.
+2.  Create a [**RealTimeStylus**](realtimestylus-class.md) object, and attach it to a control on the form.
+3.  Set interest in the StylusDown, Packets, and StylusUp notifications in the form's [DataInterest](P:Microsoft.StylusInput.IStylusAsyncPlugin.DataInterest) property.
+4.  In the form's [**StylusDown**](/windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusdown), [**Packets**](/windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-packets), and [**StylusUp**](/windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusup) methods, add code to handle the stylus down, packets, and stylus up notifications that are sent from the form's [**RealTimeStylus**](realtimestylus-class.md) object. This code should store the pen data, and create and store the strokes.
 
 For a sample of such an application, see the [RealTimeStylus Ink Collection Sample](realtimestylus-ink-collection-sample.md) sample.
 
 > [!Note]  
-> When a [DisplaySettingsChanged](https://www.bing.com/search?q=DisplaySettingsChanged) event occurs, call the [**ModifyDrawingAttributes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-modifydrawingattributes) method of the collected strokes in a DisplaySettingsChanged event handler to recalculate the [Width](https://www.bing.com/search?q=Width) and [Height](https://www.bing.com/search?q=Height) properties. This is necessary to account for possible dots per inch (dpi) changes that result from the DisplaySettingsChanged event.
+> When a [DisplaySettingsChanged](E:Microsoft.Win32.SystemEvents.DisplaySettingsChanged) event occurs, call the [**ModifyDrawingAttributes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-modifydrawingattributes) method of the collected strokes in a DisplaySettingsChanged event handler to recalculate the [Width](P:Microsoft.Ink.DrawingAttributes.Width) and [Height](P:Microsoft.Ink.DrawingAttributes.Height) properties. This is necessary to account for possible dots per inch (dpi) changes that result from the DisplaySettingsChanged event.
 
  
 
 ## Ink Collection and Recognizers
 
-Neither ink analysis nor handwriting recognition is a function of the [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object. As the ink-collector plug-in collects ink-or as you want to recognize the ink-you can copy the ink to a [RecognizerContext](https://www.bing.com/search?q=RecognizerContext) or [Divider](https://www.bing.com/search?q=Divider) object. For more information about recognition and ink analysis, see [About Handwriting Recognition](about-handwriting-recognition.md) or [The Divider Object](the-divider-object.md).
+Neither ink analysis nor handwriting recognition is a function of the [**RealTimeStylus**](realtimestylus-class.md) object. As the ink-collector plug-in collects ink-or as you want to recognize the ink-you can copy the ink to a [RecognizerContext](T:Microsoft.Ink.RecognizerContext) or [Divider](T:Microsoft.Ink.Divider) object. For more information about recognition and ink analysis, see [About Handwriting Recognition](about-handwriting-recognition.md) or [The Divider Object](the-divider-object.md).
 
 ## Static Rendering
 
-To render ink as it is being collected, attach a [DynamicRenderer](https://www.bing.com/search?q=DynamicRenderer) object to the [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object. To render ink after it has been collected, use a [Renderer](https://www.bing.com/search?q=Renderer) object to draw the strokes to the appropriate [Graphics](https://www.bing.com/search?q=Graphics) object. For more information about the DynamicRenderer object, see [Dynamic-Renderer Plug-ins](dynamic-renderer-plug-ins.md). For a sample of both static and dynamic rendering, see [RealTimeStylus Ink Collection Sample](realtimestylus-ink-collection-sample.md).
+To render ink as it is being collected, attach a [DynamicRenderer](T:Microsoft.StylusInput.DynamicRenderer) object to the [**RealTimeStylus**](realtimestylus-class.md) object. To render ink after it has been collected, use a [Renderer](T:Microsoft.Ink.Renderer) object to draw the strokes to the appropriate [Graphics](T:System.Drawing.Graphics) object. For more information about the DynamicRenderer object, see [Dynamic-Renderer Plug-ins](dynamic-renderer-plug-ins.md). For a sample of both static and dynamic rendering, see [RealTimeStylus Ink Collection Sample](realtimestylus-ink-collection-sample.md).
 
  
 

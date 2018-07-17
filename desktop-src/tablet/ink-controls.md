@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Ink Controls
 
-The Tablet PC platform provides two controls, [InkEdit](inkedit-control.md) and [InkPicture](inkpicture-control.md), which enable you to easily add ink and handwriting recognition to Tablet PC applications. The InkEdit control has [managed](https://www.bing.com/search?q=managed), [ActiveX](inkedit-control-reference.md) , and Win32 versions, while InkPicture has only the managed [InkPicture](https://www.bing.com/search?q=InkPicture) and [ActiveX](inkpicture-control-reference.md) versions.
+The Tablet PC platform provides two controls, [InkEdit](inkedit-control.md) and [InkPicture](inkpicture-control.md), which enable you to easily add ink and handwriting recognition to Tablet PC applications. The InkEdit control has [managed](frlrfMicrosoftInkInkEditClassTopic), [ActiveX](inkedit-control-reference.md) , and Win32 versions, while InkPicture has only the managed [InkPicture](frlrfMicrosoftInkInkPictureClassTopic) and [ActiveX](inkpicture-control-reference.md) versions.
 
 The key difference between the controls is in how data is saved. The [InkEdit](inkedit-control.md) control saves ink as text by default, while [InkPicture](inkpicture-control.md) saves ink as ink.
 
@@ -37,7 +37,7 @@ System.Threading.Thread.CurrentThread.ApartmentState = System.Threading.Apartmen
 
 
 
-In managed code, to avoid a memory leak you must explicitly call the [Dispose](https://www.bing.com/search?q=Dispose) method on any Tablet PC control to which an event handler has been attached before the control goes out of scope.
+In managed code, to avoid a memory leak you must explicitly call the [Dispose](frlrfSystemWindowsFormsFormClassDisposeTopic) method on any Tablet PC control to which an event handler has been attached before the control goes out of scope.
 
 The following sections describe ink controls and the use of ink controls in applications:
 

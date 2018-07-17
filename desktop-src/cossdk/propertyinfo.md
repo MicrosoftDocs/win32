@@ -19,7 +19,7 @@ api_location:
 
 # PropertyInfo collection
 
-Retrieves information about the properties that a specified collection supports. The **PropertyInfo** collection is accessible from any [**COMAdminCatalogCollection**](https://msdn.microsoft.com/en-us/library/ms679474(v=VS.85).aspx) object by using the [**GetCollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-getcollection) method. The **PropertyInfo** collection contains one object for each property that is supported by the original collection.
+Retrieves information about the properties that a specified collection supports. The **PropertyInfo** collection is accessible from any [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object by using the [**GetCollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-getcollection) method. The **PropertyInfo** collection contains one object for each property that is supported by the original collection.
 
 ## Members
 
@@ -36,7 +36,7 @@ You can navigate to this collection from every collection.
 
 ## Properties
 
-The following properties are supported by the [**COMAdminCatalogObject**](https://msdn.microsoft.com/en-us/library/ms679228(v=VS.85).aspx) object within the collection:
+The following properties are supported by the [**COMAdminCatalogObject**](comadmincatalogobject.md) object within the collection:
 
 -   [Name](#name)
 

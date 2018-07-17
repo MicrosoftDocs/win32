@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Erasing Ink with the Pen
 
-In addition to enabling handwriting and drawing, you can build your application to support using the tablet pen to erase ink. Use the [**InkOverlay**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx) object to do this.
+In addition to enabling handwriting and drawing, you can build your application to support using the tablet pen to erase ink. Use the [**InkOverlay**](inkoverlay-class.md) object to do this.
 
 The following sections describe erasing ink with the tablet pen.
 

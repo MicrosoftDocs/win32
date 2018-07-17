@@ -19,7 +19,7 @@ api_location:
 
 # CFolderItems class
 
-**CFolderItems** is a collection of [**FolderItems**](folderitems.md). It implements the following interfaces: [**IPersistFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder), [**IObjectWithSite**](https://msdn.microsoft.com/en-us/library/ms693765(v=VS.85).aspx), [**FolderItems3**](folderitems3-object.md), [**IObjectSafety**](https://www.bing.com/search?q=**IObjectSafety**), [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx).
+**CFolderItems** is a collection of [**FolderItems**](folderitems.md). It implements the following interfaces: [**IPersistFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder), [**IObjectWithSite**](https://msdn.microsoft.com/en-us/library/ms693765(v=VS.85).aspx), [**FolderItems3**](folderitems3-object.md), [**IObjectSafety**](_inet_IObjectSafety_Interface_cpp), [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx).
 
 ## Remarks
 

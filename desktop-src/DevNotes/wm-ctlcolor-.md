@@ -62,12 +62,12 @@ If an application processes this message, it returns a handle to a brush. The sy
 
 The **WM\_CTLCOLOR** message from 16-bit Windows has been replaced by more specific notifications. These replacements include the following:
 
--   [**WM\_CTLCOLORBTN**](https://www.bing.com/search?q=**WM\_CTLCOLORBTN**)
--   [**WM\_CTLCOLOREDIT**](https://www.bing.com/search?q=**WM\_CTLCOLOREDIT**)
--   [**WM\_CTLCOLORDLG**](https://www.bing.com/search?q=**WM\_CTLCOLORDLG**)
--   [**WM\_CTLCOLORLISTBOX**](https://www.bing.com/search?q=**WM\_CTLCOLORLISTBOX**)
--   [**WM\_CTLCOLORSCROLLBAR**](https://www.bing.com/search?q=**WM\_CTLCOLORSCROLLBAR**)
--   [**WM\_CTLCOLORSTATIC**](https://www.bing.com/search?q=**WM\_CTLCOLORSTATIC**)
+-   [**WM\_CTLCOLORBTN**](_win32_wm_ctlcolorbtn_cpp)
+-   [**WM\_CTLCOLOREDIT**](_win32_wm_ctlcoloredit_cpp)
+-   [**WM\_CTLCOLORDLG**](_win32_wm_ctlcolordlg_cpp)
+-   [**WM\_CTLCOLORLISTBOX**](_win32_wm_ctlcolorlistbox_cpp)
+-   [**WM\_CTLCOLORSCROLLBAR**](_win32_wm_ctlcolorscrollbar_cpp)
+-   [**WM\_CTLCOLORSTATIC**](_win32_wm_ctlcolorstatic_cpp)
 
 ## Requirements
 

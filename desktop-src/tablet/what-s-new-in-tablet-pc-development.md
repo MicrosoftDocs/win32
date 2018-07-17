@@ -39,11 +39,11 @@ The Stylus Input API is now available in a COM version. See [RealTimeStylus Refe
 
 ## TextInputPanel Class
 
-The [TextInputPanel](https://www.bing.com/search?q=TextInputPanel) class is available as an attachable object, enabling you to add Tablet PC Input Panel functionality to existing controls. The user interface is largely mandated by the current input language. You have the option of choosing either handwriting or keyboard as the default input method for the TextInputPanel object. The end user can switch between input methods by using buttons on the user interface.
+The [TextInputPanel](frlrfMicrosoftInkTextInputTextInputPanelClassTopic) class is available as an attachable object, enabling you to add Tablet PC Input Panel functionality to existing controls. The user interface is largely mandated by the current input language. You have the option of choosing either handwriting or keyboard as the default input method for the TextInputPanel object. The end user can switch between input methods by using buttons on the user interface.
 
 ## Journal Reader Component
 
-The Journal Reader component is available. See [Using the Journal Reader Component](using-the-journal-reader-component.md) for overview material. See the [JournalReader](https://www.bing.com/search?q=JournalReader) class for the managed APIs. See [Journal Reader Component Reference](journal-reader-component-reference.md) for the COM version of the APIs.
+The Journal Reader component is available. See [Using the Journal Reader Component](using-the-journal-reader-component.md) for overview material. See the [JournalReader](frlrfMicrosoftInkJournalReaderClassTopic) class for the managed APIs. See [Journal Reader Component Reference](journal-reader-component-reference.md) for the COM version of the APIs.
 
  
 

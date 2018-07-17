@@ -29,7 +29,7 @@ This topic lists the constructors of the [**Matrix**](/windows/desktop/api/gdipl
 | [**Matrix(Rect&,Point\*)**](https://msdn.microsoft.com/en-us/library/ms535323(v=VS.85).aspx)                | Creates a [**Matrix::Matrix**](https://msdn.microsoft.com/en-us/library/ms535323(v=VS.85).aspx) object based on a rectangle and a point.<br/>                                         |
 | [**Matrix(RectF&,PointF\*)**](https://msdn.microsoft.com/en-us/library/ms535322(v=VS.85).aspx)            | Creates a [**Matrix::Matrix**](https://msdn.microsoft.com/en-us/library/ms535322(v=VS.85).aspx) object based on a rectangle and a point.<br/>                                       |
 | [**Matrix(REAL,REAL,REAL,REAL,REAL,REAL)**](https://msdn.microsoft.com/en-us/library/ms535325(v=VS.85).aspx) | Creates and initializes a [**Matrix::Matrix**](https://msdn.microsoft.com/en-us/library/ms535325(v=VS.85).aspx) object based on six numbers that define an affine transformation.<br/> |
-| [**Matrix()**](/windows/desktop/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-matrix(const matrix &))                                                    | Creates and initializes a [**Matrix::Matrix**](/windows/desktop/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-matrix(const matrix &)) object that represents the identity matrix.<br/>                                             |
+| [**Matrix()**](https://msdn.microsoft.com/en-us/library/ms535324(v=VS.85).aspx)                                                    | Creates and initializes a [**Matrix::Matrix**](https://msdn.microsoft.com/en-us/library/ms535324(v=VS.85).aspx) object that represents the identity matrix.<br/>                                             |
 
 
 

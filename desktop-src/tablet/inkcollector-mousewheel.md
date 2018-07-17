@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # InkCollector.MouseWheel event
 
-Occurs when the mouse wheel moves while the [**InkCollector**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx) or [**InkOverlay**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx) object has focus.
+Occurs when the mouse wheel moves while the [**InkCollector**](inkcollector-class.md) or [**InkOverlay**](inkoverlay-class.md) object has focus.
 
 ## Syntax
 
@@ -105,7 +105,7 @@ This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, 
 
 <dl> <dt>
 
-[**InkCollector Class**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx)
+[**InkCollector Class**](inkcollector-class.md)
 </dt> <dt>
 
 [**InkMouseButton Enumeration**](/windows/desktop/api/msinkaut/ne-msinkaut-inkmousebutton)

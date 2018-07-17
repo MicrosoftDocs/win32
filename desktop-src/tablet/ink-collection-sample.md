@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Ink Collection Sample
 
-This application is based on the [InkCollector](https://www.bing.com/search?q=InkCollector) object and demonstrates the collection of ink. The application creates a window, attaches an InkCollector object to it, and provides the user with menu choices that can be used to change the ink color, the ink width, and enable and disable ink collection.
+This application is based on the [InkCollector](frlrfMicrosoftInkInkCollectorClassTopic) object and demonstrates the collection of ink. The application creates a window, attaches an InkCollector object to it, and provides the user with menu choices that can be used to change the ink color, the ink width, and enable and disable ink collection.
 
 > [!Note]  
 > The version discussed in this section is Visual Basic .NET. The concepts are the same between other language versions in the samples library.
@@ -20,7 +20,7 @@ This application is based on the [InkCollector](https://www.bing.com/search?q=In
 
 ## Declaring the InkCollector
 
-The application first imports the [Microsoft.Ink](https://www.bing.com/search?q=Microsoft.Ink) namespace. Then, the application declares `myInkCollector`, which holds the [InkCollector](https://www.bing.com/search?q=InkCollector) object for the form.
+The application first imports the [Microsoft.Ink](frlrfMicrosoftInk) namespace. Then, the application declares `myInkCollector`, which holds the [InkCollector](frlrfMicrosoftInkInkCollectorClassTopic) object for the form.
 
 
 ```C++
@@ -36,7 +36,7 @@ Public Class InkCollection
 
 ## Setting Things Up
 
-The form's `InkCollection_Load` method handles the form's [Load](https://www.bing.com/search?q=Load) event. It creates a [InkCollector](https://www.bing.com/search?q=InkCollector) object assigned to the form modifies the [DefaultDrawingAttributes](https://www.bing.com/search?q=DefaultDrawingAttributes) property of the InkCollector object and enables the InkCollector object.
+The form's `InkCollection_Load` method handles the form's [Load](frlrfSystemWindowsFormsFormClassLoadTopic) event. It creates a [InkCollector](frlrfMicrosoftInkInkCollectorClassTopic) object assigned to the form modifies the [DefaultDrawingAttributes](frlrfMicrosoftInkInkCollectorClassDefaultDrawingAttributesTopic) property of the InkCollector object and enables the InkCollector object.
 
 
 ```C++
@@ -59,13 +59,13 @@ End Sub
 
 
 
-The [InkCollector](https://www.bing.com/search?q=InkCollector) is assigned to the form's window by assigning the form's window handle to the InkCollector object's [Handle](https://www.bing.com/search?q=Handle) property. Ink collection is turned on by setting the InkCollector object's [Enabled](https://www.bing.com/search?q=Enabled) property to **TRUE**.
+The [InkCollector](frlrfMicrosoftInkInkCollectorClassTopic) is assigned to the form's window by assigning the form's window handle to the InkCollector object's [Handle](frlrfMicrosoftInkInkCollectorClassHandleTopic) property. Ink collection is turned on by setting the InkCollector object's [Enabled](frlrfMicrosoftInkInkCollectorClassEnabledTopic) property to **TRUE**.
 
-The [InkCollector](https://www.bing.com/search?q=InkCollector) object's [DefaultDrawingAttributes](https://www.bing.com/search?q=DefaultDrawingAttributes) property sets the default attributes that are assigned to a new cursor. To set different attributes on a new cursor, use the [DrawingAttributes](https://www.bing.com/search?q=DrawingAttributes) property of the [Cursor](https://www.bing.com/search?q=Cursor) object. To change the drawing attributes of a single stroke, use the [DrawingAttributes](https://www.bing.com/search?q=DrawingAttributes) property of the [Stroke](https://www.bing.com/search?q=Stroke) object.
+The [InkCollector](frlrfMicrosoftInkInkCollectorClassTopic) object's [DefaultDrawingAttributes](frlrfMicrosoftInkInkCollectorClassDefaultDrawingAttributesTopic) property sets the default attributes that are assigned to a new cursor. To set different attributes on a new cursor, use the [DrawingAttributes](frlrfMicrosoftInkCursorClassDrawingAttributesTopic) property of the [Cursor](frlrfMicrosoftInkCursorClassTopic) object. To change the drawing attributes of a single stroke, use the [DrawingAttributes](frlrfMicrosoftInkStrokeClassDrawingAttributesTopic) property of the [Stroke](frlrfMicrosoftInkStrokeClassTopic) object.
 
 ## Changing the Properties
 
-The rest of this simple application consists of handlers for the various menu selections the user can make. For example, when the user chooses to change the ink color to red by selecting Red from the Ink menu, the color is changed using the [Color](https://www.bing.com/search?q=Color) property on [InkCollector](https://www.bing.com/search?q=InkCollector) object's [DefaultDrawingAttributes](https://www.bing.com/search?q=DefaultDrawingAttributes) property in the event handler for the menu.
+The rest of this simple application consists of handlers for the various menu selections the user can make. For example, when the user chooses to change the ink color to red by selecting Red from the Ink menu, the color is changed using the [Color](frlrfMicrosoftInkDrawingAttributesClassColorTopic) property on [InkCollector](frlrfMicrosoftInkInkCollectorClassTopic) object's [DefaultDrawingAttributes](frlrfMicrosoftInkInkCollectorClassDefaultDrawingAttributesTopic) property in the event handler for the menu.
 
 
 ```C++
@@ -79,7 +79,7 @@ End Sub
 
 ## Closing the Form
 
-The form's [Dispose](https://www.bing.com/search?q=Dispose) method disposes the [InkCollector](https://www.bing.com/search?q=InkCollector) object, `myInkCollector`.
+The form's [Dispose](frlrfSystemWindowsFormsFormClassDisposeTopic) method disposes the [InkCollector](frlrfMicrosoftInkInkCollectorClassTopic) object, `myInkCollector`.
 
  
 

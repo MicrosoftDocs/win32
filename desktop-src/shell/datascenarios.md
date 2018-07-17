@@ -338,18 +338,18 @@ Normally, drag-and-drop is a synchronous operation. In brief:
 
 In short, synchronous data transfer can block the primary threads of both applications for a significant amount of time. In particular, both threads must wait while the target extracts the data. For small amounts of data, the time required to extract data is small and synchronous data transfer works quite well. However, synchronously extracting large amounts of data can cause lengthy delays and interfere with the UI of both target and source.
 
-The [**IAsyncOperation**](https://www.bing.com/search?q=**IAsyncOperation**)/[**IDataObjectAsyncCapability**](/windows/desktop/api/Shldisp/nn-shldisp-idataobjectasynccapability) interface is an optional interface that can be implemented by a data object. It gives the drop target the ability to extract data from the data object asynchronously on a background thread. Once data extraction is handed off to the background thread, the primary threads of both applications are free to proceed.
+The [**IAsyncOperation**](shell.IAsyncOperation)/[**IDataObjectAsyncCapability**](/windows/desktop/api/Shldisp/nn-shldisp-idataobjectasynccapability) interface is an optional interface that can be implemented by a data object. It gives the drop target the ability to extract data from the data object asynchronously on a background thread. Once data extraction is handed off to the background thread, the primary threads of both applications are free to proceed.
 
 ### Using IASyncOperation/IDataObjectAsyncCapability
 
 > [!Note]  
-> The interface was originally named [**IAsyncOperation**](https://www.bing.com/search?q=**IAsyncOperation**), but this was later changed to [**IDataObjectAsyncCapability**](/windows/desktop/api/Shldisp/nn-shldisp-idataobjectasynccapability). Otherwise, the two interfaces are identical.
+> The interface was originally named [**IAsyncOperation**](shell.IAsyncOperation), but this was later changed to [**IDataObjectAsyncCapability**](/windows/desktop/api/Shldisp/nn-shldisp-idataobjectasynccapability). Otherwise, the two interfaces are identical.
 
  
 
-The purpose of [**IAsyncOperation**](https://www.bing.com/search?q=**IAsyncOperation**)/[**IDataObjectAsyncCapability**](/windows/desktop/api/Shldisp/nn-shldisp-idataobjectasynccapability) is to allow the drop source and drop target to negotiate whether data can be extracted asynchronously. The following procedure outlines how the drop source uses the interface:
+The purpose of [**IAsyncOperation**](shell.IAsyncOperation)/[**IDataObjectAsyncCapability**](/windows/desktop/api/Shldisp/nn-shldisp-idataobjectasynccapability) is to allow the drop source and drop target to negotiate whether data can be extracted asynchronously. The following procedure outlines how the drop source uses the interface:
 
-1.  Create a data object that exposes [**IAsyncOperation**](https://www.bing.com/search?q=**IAsyncOperation**)/[**IDataObjectAsyncCapability**](/windows/desktop/api/Shldisp/nn-shldisp-idataobjectasynccapability).
+1.  Create a data object that exposes [**IAsyncOperation**](shell.IAsyncOperation)/[**IDataObjectAsyncCapability**](/windows/desktop/api/Shldisp/nn-shldisp-idataobjectasynccapability).
 2.  Call [**SetAsyncMode**](/windows/desktop/api/Shldisp/nf-shldisp-idataobjectasynccapability-setasyncmode) with *fDoOpAsync* set to **VARIANT\_TRUE** to indicate that an asynchronous operation is supported.
 3.  After [**DoDragDrop**](https://msdn.microsoft.com/en-us/library/ms678486(v=VS.85).aspx) returns, call [**InOperation**](/windows/desktop/api/Shldisp/nf-shldisp-idataobjectasynccapability-inoperation):
     -   If [**InOperation**](/windows/desktop/api/Shldisp/nf-shldisp-idataobjectasynccapability-inoperation) fails or returns **VARIANT\_FALSE**, a normal synchronous data transfer has taken place and the data extraction process is finished. The source should do any cleanup that is required, and proceed.
@@ -357,9 +357,9 @@ The purpose of [**IAsyncOperation**](https://www.bing.com/search?q=**IAsyncOpera
 4.  Release the data object.
 5.  When the asynchronous data transfer is complete, the data object normally notifies the source through a private interface.
 
-The following procedure outlines how the drop target uses the [**IAsyncOperation**](https://www.bing.com/search?q=**IAsyncOperation**)/[**IDataObjectAsyncCapability**](/windows/desktop/api/Shldisp/nn-shldisp-idataobjectasynccapability) interface to extract data asynchronously:
+The following procedure outlines how the drop target uses the [**IAsyncOperation**](shell.IAsyncOperation)/[**IDataObjectAsyncCapability**](/windows/desktop/api/Shldisp/nn-shldisp-idataobjectasynccapability) interface to extract data asynchronously:
 
-1.  When the system calls [**IDropTarget::Drop**](https://msdn.microsoft.com/en-us/library/ms687242(v=VS.85).aspx), call [**IDataObject::QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) and request an [**IAsyncOperation**](https://www.bing.com/search?q=**IAsyncOperation**)/[**IDataObjectAsyncCapability**](/windows/desktop/api/Shldisp/nn-shldisp-idataobjectasynccapability) interface (IID\_IAsyncOperation/IID\_IDataObjectAsyncCapability) from the data object.
+1.  When the system calls [**IDropTarget::Drop**](https://msdn.microsoft.com/en-us/library/ms687242(v=VS.85).aspx), call [**IDataObject::QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) and request an [**IAsyncOperation**](shell.IAsyncOperation)/[**IDataObjectAsyncCapability**](/windows/desktop/api/Shldisp/nn-shldisp-idataobjectasynccapability) interface (IID\_IAsyncOperation/IID\_IDataObjectAsyncCapability) from the data object.
 2.  Call [**GetAsyncMode**](/windows/desktop/api/Shldisp/nf-shldisp-idataobjectasynccapability-getasyncmode). If the method returns **VARIANT\_TRUE**, the data object supports asynchronous data extraction.
 3.  Create a separate thread to handle data extraction and call [**StartOperation**](/windows/desktop/api/Shldisp/nf-shldisp-idataobjectasynccapability-startoperation).
 4.  Return the [**IDropTarget::Drop**](https://msdn.microsoft.com/en-us/library/ms687242(v=VS.85).aspx) call, as you would for a normal data transfer operation. [**DoDragDrop**](https://msdn.microsoft.com/en-us/library/ms678486(v=VS.85).aspx) will return and unblock the drop source. Do not call [**IDataObject::SetData**](https://msdn.microsoft.com/en-us/library/ms686626(v=VS.85).aspx) to indicate the outcome of an optimized move or delete-on-paste operation. Wait until the operation is finished.

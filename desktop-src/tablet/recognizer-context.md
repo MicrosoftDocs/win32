@@ -11,17 +11,17 @@ ms.date: 05/31/2018
 
 # Recognizer Context
 
-The [**RecognizerContext**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx) object defines the settings for a single recognizer context. It receives the ink to recognize, defines the constraints on the ink input and the recognition output, and can be queried for recognition results.
+The [**RecognizerContext**](inkrecognizercontext-class.md) object defines the settings for a single recognizer context. It receives the ink to recognize, defines the constraints on the ink input and the recognition output, and can be queried for recognition results.
 
 For more information about ink data, see [Ink Data](ink-data.md). For more information about ink collection, see [Ink Collection](ink-collection.md).
 
-Constraints that you can set on the ink input and recognition output of the [**RecognizerContext**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx) object include:
+Constraints that you can set on the ink input and recognition output of the [**RecognizerContext**](inkrecognizercontext-class.md) object include:
 
 -   The language that is recognized or returned
 -   The dictionary that was used
 -   Factoids
 
-For more information about constraints that you can set on the [**RecognizerContext**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx) object, see [Dictionaries and Factoids](dictionaries-and-factoids.md).
+For more information about constraints that you can set on the [**RecognizerContext**](inkrecognizercontext-class.md) object, see [Dictionaries and Factoids](dictionaries-and-factoids.md).
 
  
 

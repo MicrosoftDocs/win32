@@ -21,7 +21,7 @@ api_location:
 
 # CreateInkDivider function
 
-Instantiates an implementation of the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) interface and returns its handle.
+Instantiates an implementation of the [**InkDivider**](inkdivider-class.md) interface and returns its handle.
 
 This function is not intended to be used by application code.
 
@@ -44,7 +44,7 @@ Returns a handle to the created object.
 
 ## Remarks
 
-This class inherits from the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) base class and implements virtual functions.
+This class inherits from the [**InkDivider**](inkdivider-class.md) base class and implements virtual functions.
 
 ## Requirements
 

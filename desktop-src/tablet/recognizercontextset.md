@@ -21,7 +21,7 @@ api_location:
 
 # RecognizerContextSet function
 
-Tests whether the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object can use the [**InkRecognizerContext**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx) class to analyze words.
+Tests whether the [**InkDivider**](inkdivider-class.md) object can use the [**InkRecognizerContext**](inkrecognizercontext-class.md) class to analyze words.
 
 This function is not intended to be used by application code.
 
@@ -43,7 +43,7 @@ HRESULT WINAPI RecognizerContextSet(
 *hDivider* \[in\]
 </dt> <dd>
 
-A handle to the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object.
+A handle to the [**InkDivider**](inkdivider-class.md) object.
 
 </dd> </dl>
 

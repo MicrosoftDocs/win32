@@ -21,7 +21,7 @@ api_location:
 
 The **Roles** collection is always related to an object in the [**Applications**](applications.md) collection. It holds an object for each role assigned to the application to which it is related.
 
-This collection supports the [**Add**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-add) and [**Remove**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-remove) methods of the [**COMAdminCatalogCollection**](https://msdn.microsoft.com/en-us/library/ms679474(v=VS.85).aspx) object.
+This collection supports the [**Add**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-add) and [**Remove**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-remove) methods of the [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object.
 
 ## Members
 
@@ -42,7 +42,7 @@ You can navigate to this collection from the following collections:
 
 ## Properties
 
-The following properties are supported by the [**COMAdminCatalogObject**](https://msdn.microsoft.com/en-us/library/ms679228(v=VS.85).aspx) object within the collection:
+The following properties are supported by the [**COMAdminCatalogObject**](comadmincatalogobject.md) object within the collection:
 
 -   [Description](#description)
 -   [Name](#name)

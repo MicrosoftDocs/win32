@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # InkOverlay.Painted event
 
-Occurs when the [**InkOverlay**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx) object or [InkPicture](inkpicture-control-reference.md) control has completed redrawing itself.
+Occurs when the [**InkOverlay**](inkoverlay-class.md) object or [InkPicture](inkpicture-control-reference.md) control has completed redrawing itself.
 
 ## Syntax
 
@@ -39,7 +39,7 @@ The device context on which the event occurred.
 *Rect* \[in\]
 </dt> <dd>
 
-The [**InkRectangle**](https://msdn.microsoft.com/en-us/library/ms700607(v=VS.85).aspx) that was repainted.
+The [**InkRectangle**](inkrectangle-class.md) that was repainted.
 
 </dd> </dl>
 
@@ -68,7 +68,7 @@ This event method is defined in the \_IInkOverlayEvents and \_IInkPictureEvents 
 
 <dl> <dt>
 
-[**InkOverlay Class**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx)
+[**InkOverlay Class**](inkoverlay-class.md)
 </dt> </dl>
 
  

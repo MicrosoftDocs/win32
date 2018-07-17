@@ -55,7 +55,7 @@ Static verbs are the simplest verbs to implement, but they still provide rich fu
 </tr>
 <tr class="even">
 <td><strong>DropTarget</strong>/[<strong>IDropTarget</strong>](https://msdn.microsoft.com/en-us/library/ms679679(v=VS.85).aspx)</td>
-<td>A COM-based verb activation means that supports in-proc or out-of-proc activation. <strong>DropTarget</strong>/[<strong>IDropTarget</strong>](https://msdn.microsoft.com/en-us/library/ms679679(v=VS.85).aspx) also supports re-use of an already running handler when the <strong>IDropTarget</strong> interface is implemented by a local server. It also perfectly expresses the items via the marshaled data object and provides a reference to the invoking site chain so that you can interact with the invoker through the [<strong>QueryService</strong>](https://www.bing.com/search?q=<strong>QueryService</strong>).</td>
+<td>A COM-based verb activation means that supports in-proc or out-of-proc activation. <strong>DropTarget</strong>/[<strong>IDropTarget</strong>](https://msdn.microsoft.com/en-us/library/ms679679(v=VS.85).aspx) also supports re-use of an already running handler when the <strong>IDropTarget</strong> interface is implemented by a local server. It also perfectly expresses the items via the marshaled data object and provides a reference to the invoking site chain so that you can interact with the invoker through the [<strong>QueryService</strong>](_inet_IServiceProvider_QueryService_Method).</td>
 </tr>
 <tr class="odd">
 <td>Windows 7 and later: [<strong>IExecuteCommand</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand)</td>

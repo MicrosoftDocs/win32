@@ -23,7 +23,7 @@ api_location:
 
 \[This function is a wrapper over the **LoadString** function. This function may be altered or unavailable in the future. Applications should call **LoadString** directly.\]
 
-Loads a string resource. See [**LoadString**](https://www.bing.com/search?q=**LoadString**).
+Loads a string resource. See [**LoadString**](_win32_loadstring_cpp).
 
 ## Syntax
 
@@ -57,7 +57,7 @@ int _LoadString(
 
 <dl> <dt>
 
-[**LoadString**](https://www.bing.com/search?q=**LoadString**)
+[**LoadString**](_win32_loadstring_cpp)
 </dt> </dl>
 
  

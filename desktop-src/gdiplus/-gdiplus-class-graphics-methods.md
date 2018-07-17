@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 This topic lists the methods of the [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. For a complete class listing, see **Graphics Class**.
 
 -   [**AddMetafileComment**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-addmetafilecomment)
--   [**BeginContainer()**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(in const rect &_in const rect &_in unit))
+-   [**BeginContainer()**](https://msdn.microsoft.com/en-us/library/ms536156(v=VS.85).aspx)
 -   [**BeginContainer(RectF&,RectF&,Unit)**](https://msdn.microsoft.com/en-us/library/ms536157(v=VS.85).aspx)
 -   [**BeginContainer(Rect&,Rect&,Unit)**](https://msdn.microsoft.com/en-us/library/ms536158(v=VS.85).aspx)
 -   [**Clear**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-clear)
@@ -197,7 +197,7 @@ This topic lists the methods of the [**Graphics**](/windows/desktop/api/gdiplusg
 -   [**SetTextContrast**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-settextcontrast)
 -   [**SetTextRenderingHint**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-settextrenderinghint)
 -   [**SetTransform**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-settransform)
--   [**TransformPoints**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-transformpoints(in coordinatespace_in coordinatespace_in out point_in int))
+-   [**TransformPoints**](https://msdn.microsoft.com/en-us/library/ms535819(v=VS.85).aspx)
 -   [**TranslateClip(INT,INT)**](https://msdn.microsoft.com/en-us/library/ms535821(v=VS.85).aspx)
 -   [**TranslateClip(REAL,REAL)**](https://msdn.microsoft.com/en-us/library/ms535822(v=VS.85).aspx)
 -   [**TranslateTransform**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-translatetransform)

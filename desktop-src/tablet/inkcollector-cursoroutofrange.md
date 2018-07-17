@@ -62,7 +62,7 @@ The **CursorOutOfRange** event is fired even when in select or erase mode, not j
 
 <dl> <dt>
 
-[**InkCollector Class**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx)
+[**InkCollector Class**](inkcollector-class.md)
 </dt> <dt>
 
 [**CursorInRange Event**](inkcollector-cursorinrange.md)

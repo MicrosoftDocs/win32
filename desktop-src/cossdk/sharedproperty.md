@@ -1,0 +1,73 @@
+---
+Description: Sets or retrieves the value of a shared property.
+ms.assetid: d3c3e888-fe08-4ea6-b94c-fdfcbe7fd08a
+title: SharedProperty class
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: interface
+ms.date: 05/31/2018
+---
+
+# SharedProperty class
+
+Sets or retrieves the value of a shared property.
+
+For general information about using the Shared Property Manager in COM+, see [COM+ Shared Property Manager](com--shared-property-manager.md).
+
+## When to implement
+
+This class is implemented by COM+.
+
+
+
+|            |                                            |
+|------------|--------------------------------------------|
+| Interfaces | [**ISharedProperty**](/windows/desktop/api/ComSvcs/nn-comsvcs-isharedproperty) |
+
+
+
+ 
+
+## When to use
+
+Use this class to access the methods of [**ISharedProperty**](/windows/desktop/api/ComSvcs/nn-comsvcs-isharedproperty).
+
+## Remarks
+
+You can create a **SharedProperty** object by using the [**CreateProperty**](/windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroup-createproperty) or [**CreatePropertyByPosition**](/windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroup-createpropertybyposition) methods of [**ISharedPropertyGroup**](/windows/desktop/api/ComSvcs/nn-comsvcs-isharedpropertygroup).
+
+To use this class from Microsoft Visual Basic, add a reference to the COM+ Services Type Library. A SharedProperty object is created by calling the [**CreateProperty**](/windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroup-createproperty) or [**CreatePropertyByPosition**](/windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroup-createpropertybyposition) methods of the [**SharedPropertyGroup**](sharedpropertygroup.md) object.
+
+## Requirements
+
+
+
+|                                     |                                                                                      |
+|-------------------------------------|--------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Header<br/>                   | <dl> <dt>ComSvcs.h</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**ISharedProperty**](/windows/desktop/api/ComSvcs/nn-comsvcs-isharedproperty)
+</dt> <dt>
+
+[**SharedPropertyGroup**](sharedpropertygroup.md)
+</dt> <dt>
+
+[**SharedPropertyGroupManager**](sharedpropertygroupmanager.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

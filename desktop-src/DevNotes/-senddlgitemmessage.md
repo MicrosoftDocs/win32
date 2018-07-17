@@ -22,7 +22,7 @@ api_location:
 
 \[This function is a wrapper over the **SendDlgItemMessage** function. This function may be altered or unavailable in the future. Applications should call **SendDlgItemMessage** directly.\]
 
-Sends a message to the specified control in a dialog box. See [**SendDlgItemMessage**](https://www.bing.com/search?q=**SendDlgItemMessage**).
+Sends a message to the specified control in a dialog box. See [**SendDlgItemMessage**](_win32_SendDlgItemMessage_cpp).
 
 ## Syntax
 
@@ -56,7 +56,7 @@ LRESULT _SendDlgItemMessage(
 
 <dl> <dt>
 
-[**SendDlgItemMessage**](https://www.bing.com/search?q=**SendDlgItemMessage**)
+[**SendDlgItemMessage**](_win32_SendDlgItemMessage_cpp)
 </dt> </dl>
 
  

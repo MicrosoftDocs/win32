@@ -112,7 +112,7 @@ The InkAnalysis APIs allow new types of analysis engines to be used by applicati
 
 <dl> <dt>
 
-[Microsoft.Ink](https://www.bing.com/search?q=Microsoft.Ink)
+[Microsoft.Ink](N:Microsoft.Ink)
 </dt> <dt>
 
 [Ink Analysis Reference](ink-analysis-reference.md)

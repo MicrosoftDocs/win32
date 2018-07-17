@@ -97,7 +97,7 @@ Pointer to a table of callback pointers. The table is filled with pointers to fu
 *puD3dTextureFormats* \[out\]
 </dt> <dd>
 
-Pointer to an array of [**DDSURFACEDESC**](https://msdn.microsoft.com/en-us/library/Ff550339(v=VS.85).aspx) structures that define the set of permissible texture formats.
+Pointer to an array of [**DDSURFACEDESC**](display.ddsurfacedesc) structures that define the set of permissible texture formats.
 
 </dd> <dt>
 

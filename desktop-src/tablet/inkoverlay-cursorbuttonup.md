@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # InkOverlay.CursorButtonUp event
 
-Occurs when the [**InkCollector**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx) detects a cursor button that is up.
+Occurs when the [**InkCollector**](inkcollector-class.md) detects a cursor button that is up.
 
 ## Syntax
 
@@ -72,7 +72,7 @@ This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, 
 
 <dl> <dt>
 
-[**InkOverlay Class**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx)
+[**InkOverlay Class**](inkoverlay-class.md)
 </dt> <dt>
 
 [**CursorButtonDown Event**](inkcollector-cursorbuttondown.md)

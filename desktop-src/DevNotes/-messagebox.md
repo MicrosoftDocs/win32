@@ -22,7 +22,7 @@ api_location:
 
 \[This function is a wrapper over the **MessageBox** function. This function may be altered or unavailable in the future. Applications should call **MessageBox** directly.\]
 
-Creates, displays, and operates a message box. See [**MessageBox**](https://www.bing.com/search?q=**MessageBox**).
+Creates, displays, and operates a message box. See [**MessageBox**](_win32_MessageBox_cpp).
 
 ## Syntax
 
@@ -56,7 +56,7 @@ int _MessageBox(
 
 <dl> <dt>
 
-[**MessageBox**](https://www.bing.com/search?q=**MessageBox**)
+[**MessageBox**](_win32_MessageBox_cpp)
 </dt> </dl>
 
  

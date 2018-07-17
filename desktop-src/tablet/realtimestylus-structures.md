@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # RealTimeStylus Structures
 
-This section contains structures that belong to the [**RealTimeStylus Class**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx).
+This section contains structures that belong to the [**RealTimeStylus Class**](realtimestylus-class.md).
 
 ## In This Section
 
@@ -30,10 +30,10 @@ This section contains structures that belong to the [**RealTimeStylus Class**](h
 
 <dl> <dt>
 
-[**GestureRecognizer Class**](https://msdn.microsoft.com/en-us/library/ms700623(v=VS.85).aspx)
+[**GestureRecognizer Class**](gesturerecognizer-class.md)
 </dt> <dt>
 
-[**RealTimeStylus Class**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx)
+[**RealTimeStylus Class**](realtimestylus-class.md)
 </dt> </dl>
 
  

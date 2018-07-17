@@ -29,11 +29,11 @@ Because shortcut menus are often used for file management, the Shell provides a 
 
 The following example illustrates a default shortcut menu that displayed by right-clicking **MyFile.xyz-ms**.
 
-![screen shot of the default shortcut menu](https://www.bing.com/search?q=screen+shot+of+the+default+shortcut+menu)
+![screen shot of the default shortcut menu](images/context-menu/context-filesystemobjects.png)
 
 The reason that a default shortcut menu appears for **MyFile.xyz-ms** is due to the fact that **.xyz-ms** is not a member of a registered file type. In contrast, **.txt** is a registered file type. If you right-click a **.txt** file, then you see a shortcut menu with three additional commands in its upper section: **Print**, **Edit** and **Open with**.
 
-![screen shot of the shortcut menu for a file with a registered file type](https://www.bing.com/search?q=screen+shot+of+the+shortcut+menu+for+a+file+with+a+registered+file+type)
+![screen shot of the shortcut menu for a file with a registered file type](images/context-menu/context-registeredfiletype.png)
 
 To extend the shortcut menu for a file type, you must create a registry entry for each command. A more sophisticated approach is to implement a shortcut menu (verb) handler, which allows you to extend the shortcut menu for a file type on a file-by-file basis. For more information, see [Creating Context Menu Handlers](context-menu-handlers.md), and [Context Menu Reference](context-menu-reference.md).
 

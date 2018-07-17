@@ -25,12 +25,12 @@ The following Tablet PC threading considerations are specific to the Managed Lib
 
 The Tablet PC Platform's Managed Library classes are not generally thread-safe. The following collections are thread-safe at the member level; however, these collections do not guarantee that an enumerator is protected if another thread operates on the collection simultaneously:
 
--   [CursorButtons](https://www.bing.com/search?q=CursorButtons)
--   [Cursors](https://www.bing.com/search?q=Cursors)
--   [DivisionUnits](https://www.bing.com/search?q=DivisionUnits)
--   [RecognitionAlternates](https://www.bing.com/search?q=RecognitionAlternates)
--   [Recognizers](https://www.bing.com/search?q=Recognizers)
--   [Tablets](https://www.bing.com/search?q=Tablets)
+-   [CursorButtons](frlrfMicrosoftInkCursorButtonsClassTopic)
+-   [Cursors](frlrfMicrosoftInkCursorsClassTopic)
+-   [DivisionUnits](frlrfMicrosoftInkDivisionUnitsClassTopic)
+-   [RecognitionAlternates](frlrfMicrosoftInkRecognitionAlternatesClassTopic)
+-   [Recognizers](frlrfMicrosoftInkRecognizersClassTopic)
+-   [Tablets](frlrfMicrosoftInkTabletsClassTopic)
 
 ## STA and MTA Applications
 
@@ -38,15 +38,15 @@ Managed applications created by using the wizards contained in Microsoft Visual 
 
 If your application runs in an MTA, you must write thread-safe code; however, by doing so you can improve certain event handling performance issues.
 
-For more information about the STA thread and MTA thread attributes, see [STAThreadAttribute](https://www.bing.com/search?q=STAThreadAttribute) class and [MTAThreadAttribute](https://www.bing.com/search?q=MTAThreadAttribute) Class.
+For more information about the STA thread and MTA thread attributes, see [STAThreadAttribute](T:System.STAThreadAttribute) class and [MTAThreadAttribute](T:System.MTAThreadAttribute) Class.
 
 ## Windows Forms Threading Considerations
 
-The [InkPicture](https://www.bing.com/search?q=InkPicture) and [InkEdit](https://www.bing.com/search?q=InkEdit) controls extend Windows Forms controls. Windows Forms controls use the single-threaded apartment (STA) model because Windows Forms are based on native Win32 windows that are inherently single threaded. In managed code, ink controls should be created in the same thread as the main thread for the form.
+The [InkPicture](frlrfMicrosoftInkInkPictureClassTopic) and [InkEdit](frlrfMicrosoftInkInkEditClassTopic) controls extend Windows Forms controls. Windows Forms controls use the single-threaded apartment (STA) model because Windows Forms are based on native Win32 windows that are inherently single threaded. In managed code, ink controls should be created in the same thread as the main thread for the form.
 
-In an STA application, certain events happen on a thread other than the application's user interface (UI) thread. When calling any Windows Forms object or control, including the [InkPicture](https://www.bing.com/search?q=InkPicture) and [InkEdit](https://www.bing.com/search?q=InkEdit) controls, from within a Tablet PC event handler, use the object or control's inherited [Control.Invoke](https://www.bing.com/search?q=Control.Invoke) method. The [InvokeRequired](https://www.bing.com/search?q=InvokeRequired) property, inherited from the Control class, can be used to determine if this is necessary.
+In an STA application, certain events happen on a thread other than the application's user interface (UI) thread. When calling any Windows Forms object or control, including the [InkPicture](frlrfMicrosoftInkInkPictureClassTopic) and [InkEdit](frlrfMicrosoftInkInkEditClassTopic) controls, from within a Tablet PC event handler, use the object or control's inherited [Control.Invoke](frlrfSystemWindowsFormsControlClassInvokeTopic) method. The [InvokeRequired](frlrfSystemWindowsFormsControlClassInvokeRequiredTopic) property, inherited from the Control class, can be used to determine if this is necessary.
 
-For example, in the following event handler for the [Recognition](https://www.bing.com/search?q=Recognition) event, the [InvokeRequired](https://www.bing.com/search?q=InvokeRequired) property is tested and if **TRUE**, the event handler is re-invoked from the user interface thread.
+For example, in the following event handler for the [Recognition](frlrfMicrosoftInkRecognizerContextClassRecognitionTopic) event, the [InvokeRequired](frlrfSystemWindowsFormsControlClassInvokeRequiredTopic) property is tested and if **TRUE**, the event handler is re-invoked from the user interface thread.
 
 
 ```C++
@@ -66,13 +66,13 @@ void recoContext_Recognition(object sender,
 
 
 
-If you put a [UserControl](https://www.bing.com/search?q=UserControl) onto awebpagein a browser (see [Web Controls](web-controls.md)), then it runs as an STA application. For smart client applications (see [No Touch Deployment](no-touch-deployment.md)), the developer has full control over the [ApartmentState](https://www.bing.com/search?q=ApartmentState). (The default is generally STA, but may be MTA, depending on your version of CLR.) For threading issues involving the [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx), see [Threading Considerations for the StylusInput APIs](threading-considerations-for-the-stylusinput-apis.md).
+If you put a [UserControl](T:System.Web.UI.UserControl) onto awebpagein a browser (see [Web Controls](web-controls.md)), then it runs as an STA application. For smart client applications (see [No Touch Deployment](no-touch-deployment.md)), the developer has full control over the [ApartmentState](T:System.Threading.ApartmentState). (The default is generally STA, but may be MTA, depending on your version of CLR.) For threading issues involving the [**RealTimeStylus**](realtimestylus-class.md), see [Threading Considerations for the StylusInput APIs](threading-considerations-for-the-stylusinput-apis.md).
 
 For more information about calling Windows Forms from an MTA application, see [Multithreaded Windows Forms Control Sample](https://msdn.microsoft.com/en-us/library/3s8xdz5c(v=VS.71).aspx).
 
 ## Clipboard Considerations
 
-The [Clipboard](https://www.bing.com/search?q=Clipboard) object works only from an STA thread. When trying to copy to or paste from the Clipboard from a thread that is not STA, you get a [ThreadStateException](https://www.bing.com/search?q=ThreadStateException). If your application is MTA, create an STA thread to handle the Clipboard's method calls and some of the other UI aspects of your application.
+The [Clipboard](_win32_Clipboard_cpp) object works only from an STA thread. When trying to copy to or paste from the Clipboard from a thread that is not STA, you get a [ThreadStateException](T:System.Threading.ThreadStateException). If your application is MTA, create an STA thread to handle the Clipboard's method calls and some of the other UI aspects of your application.
 
 ## Exceptions within Event Handlers
 
@@ -84,13 +84,13 @@ Exceptions cannot be thrown from within Tablet PC event handlers. For example, i
 
 ## Disposing Objects and Controls
 
-To avoid a memory leak you must explicitly call the [Dispose](https://www.bing.com/search?q=Dispose) method on any Tablet PC object or control to which an event handler has been attached before the object or control goes out of scope.
+To avoid a memory leak you must explicitly call the [Dispose](frlrfSystemWindowsFormsFormClassDisposeTopic) method on any Tablet PC object or control to which an event handler has been attached before the object or control goes out of scope.
 
-To improve performance in your application, manually dispose of any Tablet PC object or control that implements the [Dispose](https://www.bing.com/search?q=Dispose) method when the object or control is no longer needed.
+To improve performance in your application, manually dispose of any Tablet PC object or control that implements the [Dispose](frlrfSystemWindowsFormsFormClassDisposeTopic) method when the object or control is no longer needed.
 
 ## StylusInput APIs
 
-For information about threading considerations for the [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object and the StylusInput application programming interfaces (APIs) see [Threading Considerations for the StylusInput APIs](threading-considerations-for-the-stylusinput-apis.md).
+For information about threading considerations for the [**RealTimeStylus**](realtimestylus-class.md) object and the StylusInput application programming interfaces (APIs) see [Threading Considerations for the StylusInput APIs](threading-considerations-for-the-stylusinput-apis.md).
 
  
 

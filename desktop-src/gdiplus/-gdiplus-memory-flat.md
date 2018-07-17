@@ -21,8 +21,8 @@ The following flat API functions are wrapped by the [**GdiplusBase**](/windows/d
 
 | Flat function                                          | Wrapper method                                                                                                                                      | Remarks                                                                                                      |
 |--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| GpStatus WINGDIPAPI GdipAlloc(size\_t size)<br/> | [**GpStatus WINGDIPAPI GdiplusBase void\* (operator new)(size\_t in\_size)**](/windows/desktop/api/Gdiplusbase/nf-gdiplusbase-gdiplusbase-operator new)<br/>      | Allocates memory for one Windows GDI+ object. <br/> GdipAlloc is declared in GdiplusMem.h.<br/>  |
-| GpStatus WINGDIPAPI GdipFree(void\* ptr);<br/>   | [**GpStatus WINGDIPAPI GdiplusBase void (operator delete)(void\* in\_pVoid)**](/windows/desktop/api/Gdiplusbase/nf-gdiplusbase-gdiplusbase-operator delete)<br/> | Deallocates memory for one Windows GDI+ object. <br/> GdipFree is declared in GdiplusMem.h.<br/> |
+| GpStatus WINGDIPAPI GdipAlloc(size\_t size)<br/> | [**GpStatus WINGDIPAPI GdiplusBase void\* (operator new)(size\_t in\_size)**](https://msdn.microsoft.com/en-us/library/ms536166(v=VS.85).aspx)<br/>      | Allocates memory for one Windows GDI+ object. <br/> GdipAlloc is declared in GdiplusMem.h.<br/>  |
+| GpStatus WINGDIPAPI GdipFree(void\* ptr);<br/>   | [**GpStatus WINGDIPAPI GdiplusBase void (operator delete)(void\* in\_pVoid)**](https://msdn.microsoft.com/en-us/library/ms536164(v=VS.85).aspx)<br/> | Deallocates memory for one Windows GDI+ object. <br/> GdipFree is declared in GdiplusMem.h.<br/> |
 
 
 

@@ -322,7 +322,7 @@ To provide the information, the folder object creates an object that exposes the
 
 ### IExtractIcon
 
-Windows Explorer requests an [**IExtractIcon**](https://msdn.microsoft.com/en-us/library/Bb761854(v=VS.85).aspx) interface before it displays the contents of a folder. The interface allows your extension to specify custom icons for the objects that are contained by the folder. Otherwise, the standard file and folder icons will be used. To provide a custom icon, create an icon extraction object that exposes **IExtractIcon** and return a pointer to that interface. For further discussion, see the **IExtractIcon** reference documentation or [Creating Icon Handlers](https://www.bing.com/search?q=Creating+Icon+Handlers).
+Windows Explorer requests an [**IExtractIcon**](https://msdn.microsoft.com/en-us/library/Bb761854(v=VS.85).aspx) interface before it displays the contents of a folder. The interface allows your extension to specify custom icons for the objects that are contained by the folder. Otherwise, the standard file and folder icons will be used. To provide a custom icon, create an icon extraction object that exposes **IExtractIcon** and return a pointer to that interface. For further discussion, see the **IExtractIcon** reference documentation or [Creating Icon Handlers](shell.icon_handlers).
 
 ### IContextMenu
 

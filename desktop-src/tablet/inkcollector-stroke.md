@@ -83,7 +83,7 @@ The **Stroke** event is fired when in select or erase mode, not just when insert
 
 <dl> <dt>
 
-[**InkCollector Class**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx)
+[**InkCollector Class**](inkcollector-class.md)
 </dt> <dt>
 
 [**StrokesAdded Event \[InkStrokes Collection\]**](inkstrokes-strokesadded.md)

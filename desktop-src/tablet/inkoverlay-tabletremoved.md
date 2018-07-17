@@ -60,7 +60,7 @@ This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, 
 
 <dl> <dt>
 
-[**InkOverlay Class**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx)
+[**InkOverlay Class**](inkoverlay-class.md)
 </dt> <dt>
 
 [**IInkTablet Interface**](/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet)

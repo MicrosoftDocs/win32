@@ -17,11 +17,11 @@ Users add ink to a transparent layer using a pen. Users can re-size an [InkPictu
 
 The [InkPicture](inkpicture-control-reference.md) control includes basic printing support; however, it is up to you to implement print preview or other advanced printing capabilities.
 
-The managed (.NET Framework) implementation of [InkPicture](https://www.bing.com/search?q=InkPicture) inherits from the [PictureBox](https://www.bing.com/search?q=PictureBox) class.
+The managed (.NET Framework) implementation of [InkPicture](frlrfMicrosoftInkInkPictureClassTopic) inherits from the [PictureBox](T:System.Windows.Forms.PictureBox) class.
 
 By default, ink is colored black if not in high-contrast mode; otherwise, it is set to the current system color setting (COLOR\_WINDOWTEXT) value. Also, by default [**FitToCurve**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_fittocurve) is **FALSE**.
 
-Within the [InkPicture](inkpicture-control-reference.md) control, use the [**Ink**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object to load and save ink.
+Within the [InkPicture](inkpicture-control-reference.md) control, use the [**Ink**](inkdisp-class.md) object to load and save ink.
 
 > [!Note]  
 > When you set the [**EditingMode**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_editingmode) to **Delete** or **Select**, other events (such as the [**Stroke**](inkpicture-stroke.md) event) are triggered. These events are useful if you want to implement your own delete or select modes.

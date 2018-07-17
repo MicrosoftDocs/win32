@@ -16,7 +16,7 @@ You can define custom input scopes by using language models composed of regular 
 For example, if you are creating a database application for warehouse parts and want users to be able to enter part numbers using the Tablet PC Input Panel's writing pad. If the part number syntax consists of three letters followed by four numbers followed by another letter (for example, ABC1234D), the handwriting recognizer would have a difficult time recognizing such input because it is not defined in the language model. There is no predefined factoid that corresponds to such syntax, nor can Microsoft include the syntax for every possible field an application might need. Handwriting regular expressions provide an easy way for applications to define their own language model for a particular special-use field.
 
 > [!Note]  
-> When working in an ink-enabled application that uses the [**Factoid**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_factoid) property of the [**RecognizerContext**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx) object, you cannot use version 1 factoids in a regular expression.
+> When working in an ink-enabled application that uses the [**Factoid**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_factoid) property of the [**RecognizerContext**](inkrecognizercontext-class.md) object, you cannot use version 1 factoids in a regular expression.
 
  
 

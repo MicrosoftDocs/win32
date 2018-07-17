@@ -19,9 +19,9 @@ api_location:
 
 # RelatedCollectionInfo collection
 
-Retrieves information about other collections related to the collection from which it is called. The **RelatedCollectionInfo** collection is accessible from any [**COMAdminCatalogCollection**](https://msdn.microsoft.com/en-us/library/ms679474(v=VS.85).aspx) object by using the [**GetCollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-getcollection) method. The **RelatedCollectionInfo** collection contains one object for each collection that is accessible from the original collection. Related collections follow the Component Services administration tool collection hierarchy.
+Retrieves information about other collections related to the collection from which it is called. The **RelatedCollectionInfo** collection is accessible from any [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object by using the [**GetCollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-getcollection) method. The **RelatedCollectionInfo** collection contains one object for each collection that is accessible from the original collection. Related collections follow the Component Services administration tool collection hierarchy.
 
-This collection does not support the [**Add**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-add) and [**Remove**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-remove) methods of the [**COMAdminCatalogCollection**](https://msdn.microsoft.com/en-us/library/ms679474(v=VS.85).aspx) object.
+This collection does not support the [**Add**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-add) and [**Remove**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-remove) methods of the [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object.
 
 ## Members
 
@@ -38,7 +38,7 @@ You can navigate to this collection from every collection.
 
 ## Properties
 
-The following properties are supported by the [**COMAdminCatalogObject**](https://msdn.microsoft.com/en-us/library/ms679228(v=VS.85).aspx) object within the collection:
+The following properties are supported by the [**COMAdminCatalogObject**](comadmincatalogobject.md) object within the collection:
 
 -   [Name](#name)
 

@@ -71,7 +71,7 @@ This event method is defined in the **\_IInkOverlayEvents** and **\_IInkPictureE
 [**Selection Property \[InkPicture Control\]**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection)
 </dt> <dt>
 
-[**InkRectangle Class**](https://msdn.microsoft.com/en-us/library/ms700607(v=VS.85).aspx)
+[**InkRectangle Class**](inkrectangle-class.md)
 </dt> </dl>
 
  

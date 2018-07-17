@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # InkDisp.InkDeleted event
 
-Occurs when a stroke is deleted from the [**InkDisp**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object.
+Occurs when a stroke is deleted from the [**InkDisp**](inkdisp-class.md) object.
 
 ## Syntax
 
@@ -43,7 +43,7 @@ This event does not return a value.
 
 ## Remarks
 
-If you use the [**InkOverlay**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx) object or the [InkPicture](inkpicture-control-reference.md) control (where [**EditingMode**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_editingmode) equals [**Delete**](/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayeditingmode) and [**EraserMode**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_erasermode) equals [**StrokeErase**](/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayerasermode)) and pass the eraser over a stroke, you get the following sequence of events:
+If you use the [**InkOverlay**](inkoverlay-class.md) object or the [InkPicture](inkpicture-control-reference.md) control (where [**EditingMode**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_editingmode) equals [**Delete**](/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayeditingmode) and [**EraserMode**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_erasermode) equals [**StrokeErase**](/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayerasermode)) and pass the eraser over a stroke, you get the following sequence of events:
 
 -   **InkDeleted**
 -   [**InkAdded**](inkdisp-inkadded.md)
@@ -72,7 +72,7 @@ The **InkDeleted** event is fired even when in select or erase mode, not just wh
 
 <dl> <dt>
 
-[**InkDisp Class**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx)
+[**InkDisp Class**](inkdisp-class.md)
 </dt> <dt>
 
 [**EditingMode Property \[InkOverlay Class\]**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_editingmode)
@@ -84,7 +84,7 @@ The **InkDeleted** event is fired even when in select or erase mode, not just wh
 [**InkAdded Event**](inkdisp-inkadded.md)
 </dt> <dt>
 
-[**InkOverlay Class**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx)
+[**InkOverlay Class**](inkoverlay-class.md)
 </dt> <dt>
 
 [InkPicture Control Reference](inkpicture-control-reference.md)

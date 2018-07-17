@@ -86,7 +86,7 @@ This topic contains information about low-level APIs that are used by the Window
 <td>Converts a character string to an integer.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>RtlFormatCurrentUserKeyPath</strong>](https://www.bing.com/search?q=<strong>RtlFormatCurrentUserKeyPath</strong>)</td>
+<td>[<strong>RtlFormatCurrentUserKeyPath</strong>](winprog.rtlformatcurrentuserkeypath)</td>
 <td>Initializes the supplied buffer with a string representation of the SID for the current user. <br/></td>
 </tr>
 <tr class="even">

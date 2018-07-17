@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 This topic lists the methods of the [**Metafile**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile) class. For a complete class listing, see **Metafile Class**.
 
 -   [**Clone**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-clone)
--   [**ConvertToEmfPlus**](/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-converttoemfplus(in const graphics_in const wchar_in out int_in emftype_in const wchar))
+-   [**ConvertToEmfPlus**](https://msdn.microsoft.com/en-us/library/ms535281(v=VS.85).aspx)
 -   [**ConvertToEmfPlus**](https://msdn.microsoft.com/en-us/library/ms535282(v=VS.85).aspx)
 -   [**ConvertToEmfPlus**](https://msdn.microsoft.com/en-us/library/ms535283(v=VS.85).aspx)
 -   [**EmfToWmfBits**](/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-emftowmfbits)

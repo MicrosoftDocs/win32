@@ -36,9 +36,9 @@ To automate administration effectively, you should be familiar with administrati
 
 For full descriptions of the COMAdmin objects and the corresponding interfaces, see the COM+ Reference documentation for the following classes and interfaces:
 
--   [**COMAdminCatalog**](https://msdn.microsoft.com/en-us/library/ms686842(v=VS.85).aspx)
--   [**COMAdminCatalogCollection**](https://msdn.microsoft.com/en-us/library/ms679474(v=VS.85).aspx)
--   [**COMAdminCatalogObject**](https://msdn.microsoft.com/en-us/library/ms679228(v=VS.85).aspx)
+-   [**COMAdminCatalog**](comadmincatalog.md)
+-   [**COMAdminCatalogCollection**](comadmincatalogcollection.md)
+-   [**COMAdminCatalogObject**](comadmincatalogobject.md)
 -   [**ICOMAdminCatalog**](/windows/desktop/api/ComAdmin/nn-comadmin-icomadmincatalog)
 -   [**ICOMAdminCatalog2**](/windows/desktop/api/ComAdmin/nn-comadmin-icomadmincatalog2)
 -   [**ICatalogCollection**](/windows/desktop/api/ComAdmin/nn-comadmin-icatalogcollection)

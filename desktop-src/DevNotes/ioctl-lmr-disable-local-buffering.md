@@ -46,7 +46,7 @@ BOOL DeviceIoControl(
 *hDevice* \[in\]
 </dt> <dd>
 
-A handle to the remote file. To obtain this handle, call the [**CreateFile**](https://www.bing.com/search?q=**CreateFile**) function.
+A handle to the remote file. To obtain this handle, call the [**CreateFile**](base.createfile) function.
 
 </dd> <dt>
 
@@ -94,7 +94,7 @@ If the output buffer is too small, then the call fails, the [**GetLastError**](h
 
 If the *lpOverlapped* parameter is **NULL**, *lpBytesReturned* cannot be **NULL**. Even when an operation returns no output data and the *lpOutBuffer* parameter is **NULL**, [**DeviceIoControl**](https://msdn.microsoft.com/en-us/library/Aa363216(v=VS.85).aspx) makes use of *lpBytesReturned*. After such an operation, the value of *lpBytesReturned* is meaningless.
 
-If *lpOverlapped* is not **NULL**, *lpBytesReturned* can be **NULL**. If *lpOverlapped* is not **NULL** and the operation returns data, *lpBytesReturned* is meaningless until the overlapped operation has completed. To retrieve the number of bytes returned, call the [**GetOverlappedResult**](https://msdn.microsoft.com/en-us/library/ms683209(v=VS.85).aspx) function. If the *hDevice* parameter is associated with an I/O completion port, you can retrieve the number of bytes returned by calling the [**GetQueuedCompletionStatus**](https://www.bing.com/search?q=**GetQueuedCompletionStatus**) function.
+If *lpOverlapped* is not **NULL**, *lpBytesReturned* can be **NULL**. If *lpOverlapped* is not **NULL** and the operation returns data, *lpBytesReturned* is meaningless until the overlapped operation has completed. To retrieve the number of bytes returned, call the [**GetOverlappedResult**](https://msdn.microsoft.com/en-us/library/ms683209(v=VS.85).aspx) function. If the *hDevice* parameter is associated with an I/O completion port, you can retrieve the number of bytes returned by calling the [**GetQueuedCompletionStatus**](base.getqueuedcompletionstatus) function.
 
 </dd> <dt>
 

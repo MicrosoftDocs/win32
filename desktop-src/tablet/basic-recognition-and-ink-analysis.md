@@ -59,11 +59,11 @@ Thus, there are two mechanisms for attaining recognition results:
 
  
 
-To use the [**BackgroundAnalyze**](iinkanalyzer-backgroundanalyze.md) operation, the [**InkCollector**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx) object (or similar objects or controls such as the [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) (RTS), [**InkOverlay**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx), or [InkCanvas](https://www.bing.com/search?q=InkCanvas) in Windows Presentation Foundation) manages the collection and rendering of the ink strokes. If the **InkCollector** is paired with the ink analysis APIs, applications can keep the recognition results updated by informing the [**InkAnalyzer**](inkanalyzer.md) about each new stroke added to the application. This allows for the **InkAnalyzer** to recognize the strokes incrementally and on a background thread.
+To use the [**BackgroundAnalyze**](iinkanalyzer-backgroundanalyze.md) operation, the [**InkCollector**](inkcollector-class.md) object (or similar objects or controls such as the [**RealTimeStylus**](realtimestylus-class.md) (RTS), [**InkOverlay**](inkoverlay-class.md), or [InkCanvas](T:System.Windows.Controls.InkCanvas) in Windows Presentation Foundation) manages the collection and rendering of the ink strokes. If the **InkCollector** is paired with the ink analysis APIs, applications can keep the recognition results updated by informing the [**InkAnalyzer**](inkanalyzer.md) about each new stroke added to the application. This allows for the **InkAnalyzer** to recognize the strokes incrementally and on a background thread.
 
 To accomplish incremental background analysis, applications need to implement three steps (shown for managed code):
 
-1. Add the stroke to the [**InkAnalyzer**](inkanalyzer.md) whenever the [**InkOverlay**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx) object's [**Stroke**](inkoverlay-stroke.md) event is raised:
+1. Add the stroke to the [**InkAnalyzer**](inkanalyzer.md) whenever the [**InkOverlay**](inkoverlay-class.md) object's [**Stroke**](inkoverlay-stroke.md) event is raised:
 
 
 ```C++
@@ -112,7 +112,7 @@ private void analysisTimer_Tick(object sender, System.EventArgs e)
 
  
 
-3. Listen for the [ResultsUpdated](https://www.bing.com/search?q=ResultsUpdated) event (managed code) or [**Results**](-ianalysisevents-results.md) event (C++ code) to determine when the background process has finished:
+3. Listen for the [ResultsUpdated](frlrfMicrosoftInkInkAnalyzerClassResultsUpdatedTopic) event (managed code) or [**Results**](-ianalysisevents-results.md) event (C++ code) to determine when the background process has finished:
 
 
 ```C++

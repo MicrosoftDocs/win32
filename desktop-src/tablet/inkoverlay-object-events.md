@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # InkOverlay Object Events
 
-The following table describes on which threads the [**InkOverlay**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx) object events can fire.
+The following table describes on which threads the [**InkOverlay**](inkoverlay-class.md) object events can fire.
 
 
 
@@ -23,7 +23,7 @@ The following table describes on which threads the [**InkOverlay**](https://msdn
 | [**CursorInRange**](inkoverlay-cursorinrange.md)                                 | Fires on the ink thread<br/>                                                                                                                                        |
 | [**CursorOutOfRange**](inkoverlay-cursoroutofrange.md)                           | Fires on the ink thread<br/>                                                                                                                                        |
 | [**DoubleClick**](inkoverlay-doubleclick.md) (Automation only).                  | Fires on the application's user interface (UI) thread<br/>                                                                                                          |
-| [**DoubleClick**](https://www.bing.com/search?q=**DoubleClick**) (Managed Library only). | Fires on the application's UI thread<br/>                                                                                                                           |
+| [**DoubleClick**](E:Microsoft.Ink.InkOverlay.DoubleClick) (Managed Library only). | Fires on the application's UI thread<br/>                                                                                                                           |
 | [**Gesture**](inkoverlay-gesture.md)                                             | Fires on the ink thread<br/>                                                                                                                                        |
 | [**MouseDown**](inkoverlay-mousedown.md)                                         | Fires on the application's UI thread<br/>                                                                                                                           |
 | [**MouseMove**](inkoverlay-mousemove.md)                                         | Fires on the application's UI thread<br/>                                                                                                                           |
@@ -33,7 +33,7 @@ The following table describes on which threads the [**InkOverlay**](https://msdn
 | [**NewPackets**](inkoverlay-newpackets.md)                                       | Fires on the ink thread<br/>                                                                                                                                        |
 | [**Painted**](inkoverlay-painted.md)                                             | Fires on the application's UI thread<br/>                                                                                                                           |
 | [**Painting**](inkoverlay-painting.md)                                           | Fires on the application's UI thread<br/>                                                                                                                           |
-| [**SelectionChanged**](inkoverlay-selectionchanged.md)                           | Fires on the ink thread, or on the thread which updates the [**InkOverlay**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx) object's [**Selection**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_selection) property<br/> |
+| [**SelectionChanged**](inkoverlay-selectionchanged.md)                           | Fires on the ink thread, or on the thread which updates the [**InkOverlay**](inkoverlay-class.md) object's [**Selection**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_selection) property<br/> |
 | [**SelectionChanging**](inkoverlay-selectionchanging.md)                         | Fires on the ink thread<br/>                                                                                                                                        |
 | [**SelectionMoved**](inkoverlay-selectionmoved.md)                               | Fires on the ink thread<br/>                                                                                                                                        |
 | [**SelectionMoving**](inkoverlay-selectionmoving.md)                             | Fires on the ink thread<br/>                                                                                                                                        |

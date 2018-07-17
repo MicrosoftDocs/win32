@@ -78,10 +78,10 @@ Performance frequency is the frequency of the performance counter in hertz, spec
 
 <dl> <dt>
 
-[**QueryPerformanceCounter**](https://www.bing.com/search?q=**QueryPerformanceCounter**)
+[**QueryPerformanceCounter**](_win32_queryperformancecounter_cpp)
 </dt> <dt>
 
-[**QueryPerformanceFrequency**](https://www.bing.com/search?q=**QueryPerformanceFrequency**)
+[**QueryPerformanceFrequency**](_win32_queryperformancefrequency_cpp)
 </dt> </dl>
 
  

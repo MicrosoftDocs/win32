@@ -33,7 +33,7 @@ Start the File Type Verifier.
 
 Select the category for your file type, as shown in the following screen shot.
 
-![screen shot showing drag-and-drop function](https://www.bing.com/search?q=screen+shot+showing+drag-and-drop+function)
+![screen shot showing drag-and-drop function](images/file-assoc/filetypeverifier1.png)
 
 The category selection determines the set of tests that will be run by the tool. If your type could fall under more than one category (for example, a TIF file might be a Picture or a Document depending on the content), run the tool again with each appropriate category.
 
@@ -41,25 +41,25 @@ The category selection determines the set of tests that will be run by the tool.
 
 Using Windows Explorer, locate a file to be tested and use the mouse to drag it to the target in File Type Verifier, as shown in the following screen shot.
 
-![screen shot showing drag-and-drop function](https://www.bing.com/search?q=screen+shot+showing+drag-and-drop+function)
+![screen shot showing drag-and-drop function](images/file-assoc/filetypeverifier2.png)
 
 ### Step 6:
 
 Wait for the File Type Verifier tool to proceed through a series of tests. The progress of the testing is shown by the progress bar, as in the following screen shot.
 
-![screen shot showing progress bar](https://www.bing.com/search?q=screen+shot+showing+progress+bar)
+![screen shot showing progress bar](images/file-assoc/filetypeverifier3.png)
 
 ### Step 7:
 
 Review the results summary of your Document file type tests, as shown in the following screen shot.
 
-![screen shot showing results summary](https://www.bing.com/search?q=screen+shot+showing+results+summary)
+![screen shot showing results summary](images/file-assoc/filetypeverifier4.png)
 
 ### Step 8:
 
 Click any of the results on the summary page to view the detailed log. An example log for a preview handler is shown in the following screen shot.
 
-![screen shot showing preview handler log](https://www.bing.com/search?q=screen+shot+showing+preview+handler+log)
+![screen shot showing preview handler log](images/file-assoc/filetypeverifier5.png)
 
 ### Step 9:
 

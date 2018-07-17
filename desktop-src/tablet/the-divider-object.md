@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # The Divider Object
 
-Tablet PC Technology includes layout analysis of ink input that combines handwriting and drawing. The [**Divider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object provides layout analysis features that classify and group strokes into different structural elements.
+Tablet PC Technology includes layout analysis of ink input that combines handwriting and drawing. The [**Divider**](inkdivider-class.md) object provides layout analysis features that classify and group strokes into different structural elements.
 
-The [Ink Divider Sample](ink-divider-sample.md) topic demonstrates how to use a [**Divider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object with [**Ink**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) objects to perform ink layout analysis.
+The [Ink Divider Sample](ink-divider-sample.md) topic demonstrates how to use a [**Divider**](inkdivider-class.md) object with [**Ink**](inkdisp-class.md) objects to perform ink layout analysis.
 
 The following sections describe the basic concepts behind the Tablet PC layout analysis technology:
 

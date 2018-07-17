@@ -68,7 +68,7 @@ This event method is defined in the \_IInkEvents interface. The \_IInkEvents int
 [**Remove Method \[InkStrokes Collection\]**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-remove)
 </dt> <dt>
 
-[**InkDisp Class**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx)
+[**InkDisp Class**](inkdisp-class.md)
 </dt> </dl>
 
  

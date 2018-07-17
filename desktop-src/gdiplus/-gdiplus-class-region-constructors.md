@@ -31,7 +31,7 @@ This topic lists the constructors of the [**Region**](/windows/desktop/api/gdipl
 | [**Region(RectF&)**](https://msdn.microsoft.com/en-us/library/ms534925(v=VS.85).aspx)          | Creates a region that is defined by a rectangle.<br/>                                                                                                                                      |
 | [**Region(BYTE\*,INT)**](https://msdn.microsoft.com/en-us/library/ms534922(v=VS.85).aspx) | Creates a region that is defined by data obtained from another region. <br/>                                                                                                               |
 | [**Region(GraphicsPath\*)**](https://msdn.microsoft.com/en-us/library/ms534923(v=VS.85).aspx)        | Creates a region that is defined by a path (a [**GraphicsPath**](/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath) object) and has a fill mode that is contained in the **GraphicsPath** object.<br/> |
-| [**Region()**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-region-region(const region &))                           | Creates a region that is infinite. This is the default constructor. <br/>                                                                                                                  |
+| [**Region()**](https://msdn.microsoft.com/en-us/library/ms534921(v=VS.85).aspx)                           | Creates a region that is infinite. This is the default constructor. <br/>                                                                                                                  |
 
 
 

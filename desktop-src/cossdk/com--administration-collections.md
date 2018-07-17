@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 The COM+ administration collections serve to hold and organize configuration data stored in the COM+ catalog. The collections correspond to folders in the console tree of the Component Services administration tool. You can access these collections by using the COM+ administration objects and interfaces.
 
-You initiate programmatic administration by using objects created from the [**COMAdminCatalog**](https://msdn.microsoft.com/en-us/library/ms686842(v=VS.85).aspx) class, you represent any collections in the catalog by using objects created from the [**COMAdminCatalogCollection**](https://msdn.microsoft.com/en-us/library/ms679474(v=VS.85).aspx) class, and you represent items in collections by using objects created from the [**COMAdminCatalogObject**](https://msdn.microsoft.com/en-us/library/ms679228(v=VS.85).aspx) class.
+You initiate programmatic administration by using objects created from the [**COMAdminCatalog**](comadmincatalog.md) class, you represent any collections in the catalog by using objects created from the [**COMAdminCatalogCollection**](comadmincatalogcollection.md) class, and you represent items in collections by using objects created from the [**COMAdminCatalogObject**](comadmincatalogobject.md) class.
 
-The items in a given collection expose a consistent set of properties. For example, every item in the [**Components**](components.md) collection represents a component, and the items in the **Components** collection expose the same properties used to configure a component. These properties can be accessed by using the [**COMAdminCatalogObject**](https://msdn.microsoft.com/en-us/library/ms679228(v=VS.85).aspx) class.
+The items in a given collection expose a consistent set of properties. For example, every item in the [**Components**](components.md) collection represents a component, and the items in the **Components** collection expose the same properties used to configure a component. These properties can be accessed by using the [**COMAdminCatalogObject**](comadmincatalogobject.md) class.
 
 > [!Note]  
 > Properties with WriteOnce access are ReadWrite while using the [**Add**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-add) method prior to using [**SaveChanges**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-savechanges) and are ReadOnly afterward.
@@ -26,7 +26,7 @@ For an introduction to programmatic administration of COM+, see [Automating COM+
 
 ## Collection Hierarchy
 
-The following figure illustrates the relationships among the collections. The collections at the far left (in white and gray boxes) are top-level collections, which are accessed by calling the [**GetCollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-getcollection) method of an object created from the [**COMAdminCatalog**](https://msdn.microsoft.com/en-us/library/ms686842(v=VS.85).aspx) class. The remaining collections (in yellow boxes) can only be accessed through their parent collection, by calling the [**GetCollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-getcollection) method of the [**COMAdminCatalogCollection**](https://msdn.microsoft.com/en-us/library/ms679474(v=VS.85).aspx) object that represents their parent. The arrows point from a parent collection to its child collections.
+The following figure illustrates the relationships among the collections. The collections at the far left (in white and gray boxes) are top-level collections, which are accessed by calling the [**GetCollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-getcollection) method of an object created from the [**COMAdminCatalog**](comadmincatalog.md) class. The remaining collections (in yellow boxes) can only be accessed through their parent collection, by calling the [**GetCollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-getcollection) method of the [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object that represents their parent. The arrows point from a parent collection to its child collections.
 
 ![](images/ab61b0ab-2368-4bd8-9cfc-b7adc5beaca3.png)
 

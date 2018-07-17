@@ -51,7 +51,7 @@ There are many variations in users' handwriting. For that reason, handwriting re
 
 **IAnalysisAlternate** objects are generally obtained through [**IInkAnalyzer::GetAlternates Method**](iinkanalyzer-getalternates.md). The first **IAnalysisAlternate** object in the collection is what the [**IInkAnalyzer**](iinkanalyzer.md) considers to be the most likely alternate.
 
-This interface is equivalent to [System.Windows.Ink.AnalysisCore.AnalysisAlternateBase](https://www.bing.com/search?q=System.Windows.Ink.AnalysisCore.AnalysisAlternateBase) in the .NET Framework.
+This interface is equivalent to [System.Windows.Ink.AnalysisCore.AnalysisAlternateBase](frlrfSystemWindowsInkAnalysisCoreAnalysisAlternateBaseClassTopic) in the .NET Framework.
 
 ## Requirements
 

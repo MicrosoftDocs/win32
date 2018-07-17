@@ -63,7 +63,7 @@ This function does not have an associated header or library file so it must be c
 
 <dl> <dt>
 
-[Overview of SysLink Controls](https://www.bing.com/search?q=Overview+of+SysLink+Controls)
+[Overview of SysLink Controls](_inet_syslink_overview)
 </dt> </dl>
 
  

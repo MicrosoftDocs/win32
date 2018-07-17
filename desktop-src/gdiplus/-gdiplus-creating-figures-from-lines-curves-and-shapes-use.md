@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Creating Figures from Lines, Curves, and Shapes
 
-To create a path, construct a [**GraphicsPath**](/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath) object, and then call methods, such as [AddLine](/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-addline(in const point &_in const point &)) and [AddCurve](/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-addcurve(in const point_in int)), to add primitives to the path.
+To create a path, construct a [**GraphicsPath**](/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath) object, and then call methods, such as [AddLine](https://msdn.microsoft.com/en-us/library/ms535543(v=VS.85).aspx) and [AddCurve](https://msdn.microsoft.com/en-us/library/ms535541(v=VS.85).aspx), to add primitives to the path.
 
 The following example creates a path that has a single arc. The arc has a sweep angle of –180 degrees, which is counterclockwise in the default coordinate system.
 

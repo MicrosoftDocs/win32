@@ -83,7 +83,7 @@ The [**Stroke**](inkcollector-stroke.md) event is fired when in select or erase 
 
 <dl> <dt>
 
-[**InkOverlay Class**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx)
+[**InkOverlay Class**](inkoverlay-class.md)
 </dt> <dt>
 
 [**StrokesAdded Event \[InkStrokes Collection\]**](inkstrokes-strokesadded.md)

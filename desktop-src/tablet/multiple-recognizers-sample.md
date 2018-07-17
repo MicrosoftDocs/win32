@@ -18,7 +18,7 @@ It includes the following:
 -   Enumerating the installed recognizers
 -   Creating a *recognizer context* with a specific language recognizer
 -   Serializing recognition results with a stroke collection
--   Organizing stroke collections into a custom collection within the [**InkDisp**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object
+-   Organizing stroke collections into a custom collection within the [**InkDisp**](inkdisp-class.md) object
 -   Serializing *ink* objects to and retrieving them from an *ink serialized format (ISF)* file
 -   Setting recognizer input guides
 -   Using synchronous and asynchronous recognition
@@ -75,7 +75,7 @@ hr = m_spIInkRecognizers.CoCreateInstance(CLSID_InkRecognizers);
 
 ## Creating an Ink Collector
 
-The application's OnCreate method creates an [**InkCollector**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx) object, connects it to its event source, and enables ink collection.
+The application's OnCreate method creates an [**InkCollector**](inkcollector-class.md) object, connects it to its event source, and enables ink collection.
 
 
 ```C++
@@ -161,7 +161,7 @@ m_wndResults.UpdateString(bstrRecognizedString);
 
 ## Deleting Strokes and Recognition Results
 
-The application's OnClear method deletes all strokes and recognition results from the [**InkDisp**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object and clears the windows. The recognizer context's association with its [**InkStrokes**](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection is removed.
+The application's OnClear method deletes all strokes and recognition results from the [**InkDisp**](inkdisp-class.md) object and clears the windows. The recognizer context's association with its [**InkStrokes**](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection is removed.
 
 
 ```C++

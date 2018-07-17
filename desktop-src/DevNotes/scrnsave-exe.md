@@ -39,7 +39,7 @@ Changes made to this entry become effective the next time the system starts a sc
 
 ## Notes
 
--   Windows operating systems add this entry to the registry when you use **Display** in Control Panel to select a screen saver. If you disable all screen savers by choosing **(None)** from the screen saver list, then the operating system deletes this entry from the registry and calls the [**SystemParametersInfo**](https://www.bing.com/search?q=**SystemParametersInfo**) function with *uiAction* equal to SPI\_SETSCREENSAVEACTIVE and *uiParam* equal to **FALSE**.
+-   Windows operating systems add this entry to the registry when you use **Display** in Control Panel to select a screen saver. If you disable all screen savers by choosing **(None)** from the screen saver list, then the operating system deletes this entry from the registry and calls the [**SystemParametersInfo**](base.systemparametersinfo) function with *uiAction* equal to SPI\_SETSCREENSAVEACTIVE and *uiParam* equal to **FALSE**.
 -   This entry can be superseded by a Group Policy setting on systems that support Group Policy. While the **Screen saver executable name** Group Policy setting is enabled, the system ignores this entry. The configuration of this policy setting is stored in the **SCRNSAVE.EXE** entry, which is in the **Policies** subkey.
 
  

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Scanned Paper Form Sample
 
-In this C\# sample, a paper form has been scanned as a Portable Network Graphics (PNG) file and specified as the background image at run time for a [InkPicture](https://www.bing.com/search?q=InkPicture) control. The sample uses a message box to display handwriting recognition results.
+In this C\# sample, a paper form has been scanned as a Portable Network Graphics (PNG) file and specified as the background image at run time for a [InkPicture](frlrfMicrosoftInkInkPictureClassTopic) control. The sample uses a message box to display handwriting recognition results.
 
 The sample includes an Extensible Markup Language (XML) file, Formdata.xml. The XML file contains the name of the PNG file. It also contains `FieldInfo` elements that define rectangular regions on the form where a user can enter ink. The information in the `FieldInfo` element is shown in the following example:
 
@@ -30,7 +30,7 @@ The sample includes an Extensible Markup Language (XML) file, Formdata.xml. The 
 
 The Left, Top, Right, and Bottom elements are definitions of pixel coordinates for each field.
 
-The sample initializes a new [DataSet](https://www.bing.com/search?q=DataSet) with the data contained in Formdata.xml:
+The sample initializes a new [DataSet](T:System.Data.DataSet) with the data contained in Formdata.xml:
 
 
 ```C++
@@ -40,7 +40,7 @@ The sample initializes a new [DataSet](https://www.bing.com/search?q=DataSet) wi
 
 
 
-The form image specified in Formdata.xml is loaded as the background of the [InkPicture](https://www.bing.com/search?q=InkPicture) control:
+The form image specified in Formdata.xml is loaded as the background of the [InkPicture](frlrfMicrosoftInkInkPictureClassTopic) control:
 
 
 ```C++
@@ -51,7 +51,7 @@ The form image specified in Formdata.xml is loaded as the background of the [Ink
 
 
 
-Ink collection is then enabled for the [InkPicture](https://www.bing.com/search?q=InkPicture) control:
+Ink collection is then enabled for the [InkPicture](frlrfMicrosoftInkInkPictureClassTopic) control:
 
 
 ```C++
@@ -72,35 +72,35 @@ If a recognizer is installed, the `Recognize` function retrieves the XML data th
 
 ### Ink Menu Item
 
-The Ink menu click event handler enables the [InkPicture](https://www.bing.com/search?q=InkPicture) control.
+The Ink menu click event handler enables the [InkPicture](frlrfMicrosoftInkInkPictureClassTopic) control.
 
 ### Pen Menu Item
 
 The Pen menu click event handler performs the following tasks:
 
--   Disables ink collection for the [InkPicture](https://www.bing.com/search?q=InkPicture) control (which is necessary before changing the [EditingMode](https://www.bing.com/search?q=EditingMode) property).
--   Sets the [EditingMode](https://www.bing.com/search?q=EditingMode) property to collect ink.
--   Re-enables ink collection for the [InkPicture](https://www.bing.com/search?q=InkPicture) control and toggles the Pen, Select, and Eraser menus to indicate the active mode.
+-   Disables ink collection for the [InkPicture](frlrfMicrosoftInkInkPictureClassTopic) control (which is necessary before changing the [EditingMode](frlrfMicrosoftInkInkPictureClassEditingModeTopic) property).
+-   Sets the [EditingMode](frlrfMicrosoftInkInkPictureClassEditingModeTopic) property to collect ink.
+-   Re-enables ink collection for the [InkPicture](frlrfMicrosoftInkInkPictureClassTopic) control and toggles the Pen, Select, and Eraser menus to indicate the active mode.
 
 ### Edit Menu Item
 
 The Edit menu click event handler is similar to the Pen menu event handler. It performs the following tasks:
 
 -   Disables ink collection.
--   Sets the [EditingMode](https://www.bing.com/search?q=EditingMode) property to **Select**, which enables the user to perform ink selection.
+-   Sets the [EditingMode](frlrfMicrosoftInkInkPictureClassEditingModeTopic) property to **Select**, which enables the user to perform ink selection.
 -   Re-enables ink collection and toggles the Pen, Edit, and Eraser menus to indicate the active mode.
 
 ### Eraser Menu Item
 
-The Eraser menu click event handler sets the [InkPicture](https://www.bing.com/search?q=InkPicture) control [EditingMode](https://www.bing.com/search?q=EditingMode) to **Delete**, which enables a user to erase ink. It also toggles the Pen, Edit, and Eraser menu items.
+The Eraser menu click event handler sets the [InkPicture](frlrfMicrosoftInkInkPictureClassTopic) control [EditingMode](frlrfMicrosoftInkInkPictureClassEditingModeTopic) to **Delete**, which enables a user to erase ink. It also toggles the Pen, Edit, and Eraser menu items.
 
 ### Clear Menu Item
 
-The Clear menu click event handler deletes the current [Strokes](https://www.bing.com/search?q=Strokes) collection for the [InkPicture](https://www.bing.com/search?q=InkPicture) control, thereby erasing all of the ink on the form.
+The Clear menu click event handler deletes the current [Strokes](frlrfMicrosoftInkStrokesClassTopic) collection for the [InkPicture](frlrfMicrosoftInkInkPictureClassTopic) control, thereby erasing all of the ink on the form.
 
 ## Closing the Form
 
-In the Windows Form Designer generated code, the [InkPicture](https://www.bing.com/search?q=InkPicture) control is added to the form's component list when the form is initialized. When the form closes, the InkPicture control is disposed, as well as the other components of the form, by the form's [Dispose](https://www.bing.com/search?q=Dispose) method.
+In the Windows Form Designer generated code, the [InkPicture](frlrfMicrosoftInkInkPictureClassTopic) control is added to the form's component list when the form is initialized. When the form closes, the InkPicture control is disposed, as well as the other components of the form, by the form's [Dispose](frlrfSystemWindowsFormsFormClassDisposeTopic) method.
 
 ## Related topics
 

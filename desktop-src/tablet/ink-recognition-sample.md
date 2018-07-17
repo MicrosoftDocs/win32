@@ -27,7 +27,7 @@ Imports Microsoft.Ink
 
 ## Initialize the InkCollector
 
-The sample adds code to the form's [Load](https://www.bing.com/search?q=Load) event handler that serves to associate the [InkCollector](https://www.bing.com/search?q=InkCollector), myInkCollector, with the group box window and enable the InkCollector.
+The sample adds code to the form's [Load](frlrfSystemWindowsFormsFormClassLoadTopic) event handler that serves to associate the [InkCollector](frlrfMicrosoftInkInkCollectorClassTopic), myInkCollector, with the group box window and enable the InkCollector.
 
 
 ```VB
@@ -49,9 +49,9 @@ End Sub
 
 ## Recognize the Strokes
 
-The [Button](https://www.bing.com/search?q=Button) object's [Click](https://www.bing.com/search?q=Click) event handler checks to ensure that the user has at least one recognizer installed by examining the [Count](https://www.bing.com/search?q=Count) property of the [Recognizers](https://www.bing.com/search?q=Recognizers) collection.
+The [Button](T:System.Windows.Forms.Button) object's [Click](frlrfSystemWindowsFormsControlClassClickTopic) event handler checks to ensure that the user has at least one recognizer installed by examining the [Count](frlrfMicrosoftInkRecognizersClassCountTopic) property of the [Recognizers](frlrfMicrosoftInkRecognizersClassTopic) collection.
 
-The [SelectedText](https://www.bing.com/search?q=SelectedText) property of the text box is set to the best match for the strokes using the [ToString](https://www.bing.com/search?q=ToString) method on the [Strokes](https://www.bing.com/search?q=Strokes) collection. After the strokes have been recognized, they are deleted. Finally, the code forces drawing area repaint, clearing it for further ink use.
+The [SelectedText](frlrfSystemWindowsControlsTextBoxClassSelectedTextTopic) property of the text box is set to the best match for the strokes using the [ToString](frlrfMicrosoftInkStrokesClassToStringTopic) method on the [Strokes](frlrfMicrosoftInkStrokesClassTopic) collection. After the strokes have been recognized, they are deleted. Finally, the code forces drawing area repaint, clearing it for further ink use.
 
 
 ```VB
@@ -85,7 +85,7 @@ End Sub
 
 ## Closing the Form
 
-The form's [Dispose](https://www.bing.com/search?q=Dispose) method disposes the [InkCollector](https://www.bing.com/search?q=InkCollector) object.
+The form's [Dispose](frlrfSystemWindowsFormsFormClassDisposeTopic) method disposes the [InkCollector](frlrfMicrosoftInkInkCollectorClassTopic) object.
 
  
 

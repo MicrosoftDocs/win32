@@ -11,30 +11,30 @@ ms.date: 05/31/2018
 
 # The Cascaded RealTimeStylus Model
 
-The cascaded [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) model enables you to use two **RealTimeStylus** objects, each running on a different thread. With this model, you attach a secondary **RealTimeStylus** object to a primary **RealTimeStylus** object. The secondary **RealTimeStylus** object is attached as the only asynchronous plug-in in the primary **RealTimeStylus** object's asynchronous plug-in collection.
+The cascaded [**RealTimeStylus**](realtimestylus-class.md) model enables you to use two **RealTimeStylus** objects, each running on a different thread. With this model, you attach a secondary **RealTimeStylus** object to a primary **RealTimeStylus** object. The secondary **RealTimeStylus** object is attached as the only asynchronous plug-in in the primary **RealTimeStylus** object's asynchronous plug-in collection.
 
-The cascaded [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) model may be useful in the following scenarios.
+The cascaded [**RealTimeStylus**](realtimestylus-class.md) model may be useful in the following scenarios.
 
--   You can add certain tasks that may be computationally demanding yet still require real-time access to the tablet pen's data stream, such as multistroke gesture recognition, to the secondary [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object's synchronous plug-in collection.
+-   You can add certain tasks that may be computationally demanding yet still require real-time access to the tablet pen's data stream, such as multistroke gesture recognition, to the secondary [**RealTimeStylus**](realtimestylus-class.md) object's synchronous plug-in collection.
 -   You can spread the computational load of your synchronous plug-ins over two threads, reducing delays in ink collection on some Tablet PCs.
 
-The following diagram illustrates the flow of tablet pen data through two cascaded [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) objects and their plug-in collections.
+The following diagram illustrates the flow of tablet pen data through two cascaded [**RealTimeStylus**](realtimestylus-class.md) objects and their plug-in collections.
 
 ![illustration showing cascaded realtimestylus data flow](images/72ca1999-e078-49f8-a336-3b4d0157a472.gif)
 
-In this diagram the circle lettered "A" represents tablet pen data that has already been processed by both the primary and secondary [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) objects and has been placed on the secondary **RealTimeStylus** object's output queue. The circle lettered "B" represents tablet pen data that has already been processed by the primary **RealTimeStylus** object and added to the primary **RealTimeStylus** object's output queue and has not yet been sent to the secondary **RealTimeStylus** object. The circle lettered "C" represents the tablet pen data that the primary **RealTimeStylus** object is currently processing. It is sent to the synchronous plug-in collection and placed on the output queue. The empty circle represents the position in the output queue where future tablet pen data is added.
+In this diagram the circle lettered "A" represents tablet pen data that has already been processed by both the primary and secondary [**RealTimeStylus**](realtimestylus-class.md) objects and has been placed on the secondary **RealTimeStylus** object's output queue. The circle lettered "B" represents tablet pen data that has already been processed by the primary **RealTimeStylus** object and added to the primary **RealTimeStylus** object's output queue and has not yet been sent to the secondary **RealTimeStylus** object. The circle lettered "C" represents the tablet pen data that the primary **RealTimeStylus** object is currently processing. It is sent to the synchronous plug-in collection and placed on the output queue. The empty circle represents the position in the output queue where future tablet pen data is added.
 
 ## Constraints
 
-If you use the default [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) constructor, you create a **RealTimeStylus** object that can only accept input from another **RealTimeStylus** object.
+If you use the default [**RealTimeStylus**](realtimestylus-class.md) constructor, you create a **RealTimeStylus** object that can only accept input from another **RealTimeStylus** object.
 
-The following list describes the constraints associated with using the cascaded [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) model.
+The following list describes the constraints associated with using the cascaded [**RealTimeStylus**](realtimestylus-class.md) model.
 
--   Only two [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) objects may be used, a primary **RealTimeStylus** object and a secondary **RealTimeStylus** object.
--   The primary [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object must be created with a constructor that uses the **attachedControl** or *handle* parameter. The secondary **RealTimeStylus** object must be created with the no-argument constructor.
--   The secondary [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object must be the only asynchronous plug-in in the primary **RealTimeStylus** object's asynchronous plug-in collection.
--   A secondary [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object can only be attached to one primary **RealTimeStylus** object at a time. If it is added to a second primary **RealTimeStylus** object, the [Add](https://www.bing.com/search?q=Add) method throws an exception, and the secondary **RealTimeStylus** object is not attached to the second primary **RealTimeStylus** object.
--   The behavior of some of the secondary [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object's members is modified. The following table describes the modified behavior of these members.
+-   Only two [**RealTimeStylus**](realtimestylus-class.md) objects may be used, a primary **RealTimeStylus** object and a secondary **RealTimeStylus** object.
+-   The primary [**RealTimeStylus**](realtimestylus-class.md) object must be created with a constructor that uses the **attachedControl** or *handle* parameter. The secondary **RealTimeStylus** object must be created with the no-argument constructor.
+-   The secondary [**RealTimeStylus**](realtimestylus-class.md) object must be the only asynchronous plug-in in the primary **RealTimeStylus** object's asynchronous plug-in collection.
+-   A secondary [**RealTimeStylus**](realtimestylus-class.md) object can only be attached to one primary **RealTimeStylus** object at a time. If it is added to a second primary **RealTimeStylus** object, the [Add](frlrfMicrosoftStylusInputStylusAsyncPluginCollectionClassAddTopic) method throws an exception, and the secondary **RealTimeStylus** object is not attached to the second primary **RealTimeStylus** object.
+-   The behavior of some of the secondary [**RealTimeStylus**](realtimestylus-class.md) object's members is modified. The following table describes the modified behavior of these members.
 
     
 
@@ -51,20 +51,20 @@ The following list describes the constraints associated with using the cascaded 
     </thead>
     <tbody>
     <tr class="odd">
-    <td>[GetDesiredPacketDescription](https://www.bing.com/search?q=GetDesiredPacketDescription)</td>
-    <td>This method returns the information from the primary [<strong>RealTimeStylus</strong>](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object.<br/> If the secondary [<strong>RealTimeStylus</strong>](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) is not attached to a primary <strong>RealTimeStylus</strong> object, this method returns the default value.<br/></td>
+    <td>[GetDesiredPacketDescription](frlrfMicrosoftStylusInputRealTimeStylusClassGetDesiredPacketDescriptionTopic)</td>
+    <td>This method returns the information from the primary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) object.<br/> If the secondary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) is not attached to a primary <strong>RealTimeStylus</strong> object, this method returns the default value.<br/></td>
     </tr>
     <tr class="even">
-    <td>[SetDesiredPacketDescription](https://www.bing.com/search?q=SetDesiredPacketDescription)</td>
+    <td>[SetDesiredPacketDescription](frlrfMicrosoftStylusInputRealTimeStylusClassSetDesiredPacketDescriptionTopic)</td>
     <td>This method raises an [InvalidOperationException](https://msdn.microsoft.com/library/system.invalidoperationexception.aspx) exception.<br/></td>
     </tr>
     <tr class="odd">
-    <td>[GetStyluses](https://www.bing.com/search?q=GetStyluses)</td>
-    <td>This method returns the information from the primary [<strong>RealTimeStylus</strong>](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object.<br/> If the secondary [<strong>RealTimeStylus</strong>](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) is not attached to a primary <strong>RealTimeStylus</strong> object, this method returns an empty array.<br/></td>
+    <td>[GetStyluses](frlrfMicrosoftStylusInputRealTimeStylusClassGetStylusesTopic)</td>
+    <td>This method returns the information from the primary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) object.<br/> If the secondary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) is not attached to a primary <strong>RealTimeStylus</strong> object, this method returns an empty array.<br/></td>
     </tr>
     <tr class="even">
-    <td>[Enabled](https://www.bing.com/search?q=Enabled)</td>
-    <td>Getting this property returns the information from the primary [<strong>RealTimeStylus</strong>](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object.<br/> If the secondary [<strong>RealTimeStylus</strong>](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) is not attached to a primary <strong>RealTimeStylus</strong> object, getting this property returns the default value.<br/>
+    <td>[Enabled](frlrfMicrosoftStylusInputRealTimeStylusClassEnabledTopic)</td>
+    <td>Getting this property returns the information from the primary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) object.<br/> If the secondary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) is not attached to a primary <strong>RealTimeStylus</strong> object, getting this property returns the default value.<br/>
     <blockquote>
     [!Note]<br />
     Setting this property raises an [InvalidOperationException](https://msdn.microsoft.com/library/system.invalidoperationexception.aspx) exception.
@@ -72,8 +72,8 @@ The following list describes the constraints associated with using the cascaded 
     <br/></td>
     </tr>
     <tr class="odd">
-    <td>[WindowInputRectangle](https://www.bing.com/search?q=WindowInputRectangle)</td>
-    <td>Getting this property returns the information from the primary [<strong>RealTimeStylus</strong>](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object.<br/> If the secondary [<strong>RealTimeStylus</strong>](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) is not attached to a primary <strong>RealTimeStylus</strong> object, getting this property returns the default value.<br/>
+    <td>[WindowInputRectangle](frlrfMicrosoftStylusInputRealTimeStylusClassWindowInputRectangleTopic)</td>
+    <td>Getting this property returns the information from the primary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) object.<br/> If the secondary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) is not attached to a primary <strong>RealTimeStylus</strong> object, getting this property returns the default value.<br/>
     <blockquote>
     [!Note]<br />
     Setting this property raises an [InvalidOperationException](https://msdn.microsoft.com/library/system.invalidoperationexception.aspx) exception.
@@ -87,7 +87,7 @@ The following list describes the constraints associated with using the cascaded 
 
      
 
--   The parent [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object is expected to stop functioning when the child **RealTimeStylus** is Disposed.
+-   The parent [**RealTimeStylus**](realtimestylus-class.md) object is expected to stop functioning when the child **RealTimeStylus** is Disposed.
 
  
 

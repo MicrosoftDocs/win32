@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # PenInputPanel.PanelMoving event
 
-Deprecated. The [**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) has been replaced by the [Text Input Panel (TIP)](text-input-panel-reference.md).
+Deprecated. The [**PenInputPanel**](peninputpanel-class.md) has been replaced by the [Text Input Panel (TIP)](text-input-panel-reference.md).
 
-Occurs when the [**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) object is moving.
+Occurs when the [**PenInputPanel**](peninputpanel-class.md) object is moving.
 
 ## Syntax
 
@@ -34,14 +34,14 @@ HRESULT PanelMoving(
 *Left* \[in, out\]
 </dt> <dd>
 
-The new horizontal, or x-axis, position of the left edge of the [**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) object, in screen coordinates.
+The new horizontal, or x-axis, position of the left edge of the [**PenInputPanel**](peninputpanel-class.md) object, in screen coordinates.
 
 </dd> <dt>
 
 *Top* \[in, out\]
 </dt> <dd>
 
-The new vertical, or y-axis, position of the left edge of the [**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) object, in screen coordinates.
+The new vertical, or y-axis, position of the left edge of the [**PenInputPanel**](peninputpanel-class.md) object, in screen coordinates.
 
 </dd> </dl>
 
@@ -53,7 +53,7 @@ If this event succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT
 
 The **PanelMoving** event is designed to be used to change the position of the pen input panel by changing the *Left* and *Top* parameters.
 
-The [**MoveTo**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-moveto) and [**Refresh**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-refresh) methods cause the [**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) object to call its auto-positioning code which triggers a **PanelMoving** event. Consequently, calling these methods inside a **PanelMoving** handler can result in a recursive endless loop.
+The [**MoveTo**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-moveto) and [**Refresh**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-refresh) methods cause the [**PenInputPanel**](peninputpanel-class.md) object to call its auto-positioning code which triggers a **PanelMoving** event. Consequently, calling these methods inside a **PanelMoving** handler can result in a recursive endless loop.
 
 ## Requirements
 
@@ -72,7 +72,7 @@ The [**MoveTo**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpa
 
 <dl> <dt>
 
-[**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx)
+[**PenInputPanel**](peninputpanel-class.md)
 </dt> </dl>
 
  

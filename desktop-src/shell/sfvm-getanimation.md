@@ -48,7 +48,7 @@ A pointer to a null-terminated Unicode string containing the path of the .avi fi
 
 By default, the system folder view object displays the "flashlight" animation during a background enumeration.
 
-*phinst* and *pwszName* will be passed to the [animation control](https://www.bing.com/search?q=animation+control) with an [**ACM\_OPEN**](https://msdn.microsoft.com/en-us/library/Bb761897(v=VS.85).aspx) message.
+*phinst* and *pwszName* will be passed to the [animation control](_win32_Animation_Control_Overview) with an [**ACM\_OPEN**](https://msdn.microsoft.com/en-us/library/Bb761897(v=VS.85).aspx) message.
 
 ## Requirements
 

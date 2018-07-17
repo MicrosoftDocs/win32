@@ -20,7 +20,7 @@ The following features are used in this sample:
 
 ## Initializing the Ink Collector and Recognizer Context
 
-The [**InkCollector**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx) and [**InkRecognizerContext**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx) objects are declared as classes that can raise events.
+The [**InkCollector**](inkcollector-class.md) and [**InkRecognizerContext**](inkrecognizercontext-class.md) objects are declared as classes that can raise events.
 
 
 ```C++
@@ -188,7 +188,7 @@ The Paint event handler clears the results picture boxes and adds the saved reco
 
 ## Deleting the Strokes
 
-The form's `CmdClear_Click` method handles the Clear command. If the [**InkCollector**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx) is currently collecting ink, then a message box is displayed and the command is ignored. Otherwise, the event handler stops background recognition, clears the [**Strokes**](/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionresult-get_strokes) property of the recognizer context, and deletes the strokes from the form's [**InkDisp**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object. Then, the event handler redraws the picture box to which the ink collector is associated, and clears the recognition strings and picture boxes.
+The form's `CmdClear_Click` method handles the Clear command. If the [**InkCollector**](inkcollector-class.md) is currently collecting ink, then a message box is displayed and the command is ignored. Otherwise, the event handler stops background recognition, clears the [**Strokes**](/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionresult-get_strokes) property of the recognizer context, and deletes the strokes from the form's [**InkDisp**](inkdisp-class.md) object. Then, the event handler redraws the picture box to which the ink collector is associated, and clears the recognition strings and picture boxes.
 
 
 ```C++

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Using the search Protocol
 
-The **search:** [application protocol](https://www.bing.com/search?q=application+protocol) is an extensible convention for calling the desktop search application on Windows Vista with Service Pack 1 (SP1) and later versions. The protocol was created in Windows Vista with SP1 (for information see the Knowledge Base article [Overview of Windows Vista desktop search Changes in Windows Vista Service Pack 1](http://go.microsoft.com/fwlink/p/?linkid=115816)) to give Windows a way to determine and call the default desktop search application.
+The **search:** [application protocol](_inet_Asynchronous_Pluggable_Protocols_Overview) is an extensible convention for calling the desktop search application on Windows Vista with Service Pack 1 (SP1) and later versions. The protocol was created in Windows Vista with SP1 (for information see the Knowledge Base article [Overview of Windows Vista desktop search Changes in Windows Vista Service Pack 1](http://go.microsoft.com/fwlink/p/?linkid=115816)) to give Windows a way to determine and call the default desktop search application.
 
 The protocol syntax provides a number of parameters useful for performing common desktop searches, such as user-entered search terms or the location on which the search was begun. When users search from one of the two available search entry points (either the **Start** menu or Windows Explorer), the operating system uses the search protocol to launch the default desktop search application. It does this by adding the user-entered search terms to the standard search protocol syntax and passing that information to the application registered as the default search application.
 
@@ -19,7 +19,7 @@ If no other desktop search applications are installed, a search entered into the
 If you develop an application that is intended to use or build upon a specific desktop search application, you should not depend exclusively on the **search:** protocol. Because many applications could own the **search:** protocol, there is no guarantee that your targeted desktop search application will own it at any given time. Instead, you should use a private search protocol defined by that targeted desktop search application. This means that desktop search applications intended to be a platform for third-party applications should support both the **search:** protocol and their own proprietary search protocol.
 
 > [!Note]  
-> The **search:** protocol does not replace the proprietary [search-ms:](https://www.bing.com/search?q=search-ms:) protocol. Applications can still use the **search-ms:** protocol to launch Window Search Explorer or to silently query the Windows Search indexer.
+> The **search:** protocol does not replace the proprietary [search-ms:](_search_3x_WDS_QryIdx_searchms) protocol. Applications can still use the **search-ms:** protocol to launch Window Search Explorer or to silently query the Windows Search indexer.
 
  
 
@@ -193,7 +193,7 @@ HKEY_LOCAL_MACHINE
 
 <dl> <dt>
 
-[Advanced Query Syntax](https://www.bing.com/search?q=Advanced+Query+Syntax)
+[Advanced Query Syntax](_search_3x_AdvancedQuerySyntax)
 </dt> <dt>
 
 [Default Programs](default-programs.md)

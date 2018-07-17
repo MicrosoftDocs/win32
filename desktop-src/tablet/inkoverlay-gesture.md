@@ -109,7 +109,7 @@ For a list of specific application gestures, see the [**InkApplicationGesture**]
 
 <dl> <dt>
 
-[**InkOverlay Class**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx)
+[**InkOverlay Class**](inkoverlay-class.md)
 </dt> <dt>
 
 [**InkApplicationGesture Enumeration**](/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture)

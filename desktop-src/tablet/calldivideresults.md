@@ -21,7 +21,7 @@ api_location:
 
 # CallDivideResults function
 
-Retrieves analysis results from the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object.
+Retrieves analysis results from the [**InkDivider**](inkdivider-class.md) object.
 
 This function is not intended to be used by application code.
 
@@ -56,35 +56,35 @@ HRESULT WINAPI CallDivideResults(
 *hDivider* \[in\]
 </dt> <dd>
 
-A handle to the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object.
+A handle to the [**InkDivider**](inkdivider-class.md) object.
 
 </dd> <dt>
 
 *aWordStrokeIds* \[out\]
 </dt> <dd>
 
-An array of identifiers associated with the word that is passed in to the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) class.
+An array of identifiers associated with the word that is passed in to the [**InkDivider**](inkdivider-class.md) class.
 
 </dd> <dt>
 
 *aLineStrokeIds* \[out\]
 </dt> <dd>
 
-An array of [**ID**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_id) properties for the [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) objects associated with the line that is passed in to the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) class.
+An array of [**ID**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_id) properties for the [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) objects associated with the line that is passed in to the [**InkDivider**](inkdivider-class.md) class.
 
 </dd> <dt>
 
 *aParagraphStrokeIds* \[out\]
 </dt> <dd>
 
-An array of the [**ID**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_id) properties for the [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) objects associated with the paragraph from the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) class.
+An array of the [**ID**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_id) properties for the [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) objects associated with the paragraph from the [**InkDivider**](inkdivider-class.md) class.
 
 </dd> <dt>
 
 *aDrawingStrokeIds* \[out\]
 </dt> <dd>
 
-An array of [**ID**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_id) properties for the [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) objects associated with the drawing from the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) class.
+An array of [**ID**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_id) properties for the [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) objects associated with the drawing from the [**InkDivider**](inkdivider-class.md) class.
 
 </dd> <dt>
 

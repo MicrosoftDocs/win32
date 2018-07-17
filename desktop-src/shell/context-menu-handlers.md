@@ -118,7 +118,7 @@ HKEY_CLASSES_ROOT
 
 The following diagram illustrates the extension of the shortcut menu in accordance with the registry entries above. This shortcut menu has **Open**, **Do It**, and **Print** verbs on its menu, with **Do It** as the default verb.
 
-![screen shot of the do it default verb shortcut menu](https://www.bing.com/search?q=screen+shot+of+the+do+it+default+verb+shortcut+menu)
+![screen shot of the do it default verb shortcut menu](images/context-menu/context-doitdefaultverb.png)
 
 ### Activating Your Handler Using the IDropTarget Interface
 
@@ -174,7 +174,7 @@ In Windows 7 and later, cascading menu implementation is supported through regi
 
 The following screen shot provides an example of a cascading menu.
 
-![screen shot showing an example of a cascading menu](https://www.bing.com/search?q=screen+shot+showing+an+example+of+a+cascading+menu)
+![screen shot showing an example of a cascading menu](images/file-assoc/filecascademenu2ndex.png)
 
 In Windows 7 and later, there are three ways to create cascading menus:
 
@@ -247,7 +247,7 @@ In Windows 7 and later, you can use the ExtendedSubCommandKey entry to create e
 
 The following screen shot is an example of an extended cascading menu.
 
-![screen shot showing extended cascading menu for devices](https://www.bing.com/search?q=screen+shot+showing+extended+cascading+menu+for+devices)
+![screen shot showing extended cascading menu for devices](images/file-assoc/extendedsubcommandskey.png)
 
 Because **HKEY\_CLASSES\_ROOT** is a combination of **HKEY\_CURRENT\_USER** and **HKEY\_LOCAL\_MACHINE**, you can register any custom verbs under the **HKEY\_CURRENT\_USER**\\**Software**\\**Classes** subkey. The main advantage of doing so is that elevated permission is not required. Also, other file associations can reuse this entire set of verbs by specifying the same ExtendedSubCommandsKey subkey. If you do not need to reuse this set of verbs, you can list the verbs under the parent, but ensure that the Default value of the parent is empty.
 
@@ -313,7 +313,7 @@ Because **HKEY\_CLASSES\_ROOT** is a combination of **HKEY\_CURRENT\_USER** and 
 
 The following screen shot is an illustration of the previous registry key entry examples.
 
-![screen shot showing an example of a cascading menu showing choices of notepad and wordpad](https://www.bing.com/search?q=screen+shot+showing+an+example+of+a+cascading+menu+showing+choices+of+notepad+and+wordpad)
+![screen shot showing an example of a cascading menu showing choices of notepad and wordpad](images/file-assoc/testcascademenu2.png)
 
 ### Creating Cascading Menus with the IExplorerCommand Interface
 
@@ -321,11 +321,11 @@ Another option for adding verbs to a cascading menu is through [**IExplorerComma
 
 The following two screen shots illustrate the use of cascading menus in the **Devices** folder.
 
-![screen shot showing an example of a cascading menu in the devices folder](https://www.bing.com/search?q=screen+shot+showing+an+example+of+a+cascading+menu+in+the+devices+folder)
+![screen shot showing an example of a cascading menu in the devices folder](images/file-assoc/filecascademenu.png)
 
 The following screen shot illustrates another implementation of a cascading menu in the **Devices** folder.
 
-![screen shot showing an example of a cascading menu in the devices folder](https://www.bing.com/search?q=screen+shot+showing+an+example+of+a+cascading+menu+in+the+devices+folder)
+![screen shot showing an example of a cascading menu in the devices folder](images/file-assoc/cascadedevices2.png)
 
 > [!Note]  
 > Because [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) supports in-process activation only, it is recommended for use by Shell data sources that need to share the implementation between commands and shortcut menus.
@@ -430,7 +430,7 @@ HKEY_CLASSES_ROOT
 
 The screen shot illustrates the **New** submenu. When a user selects **MyProgram Application** from the **New** submenu, the Shell creates a file named **New MyProgram Application.myp-ms** and passes it to **MyProgram.exe**.
 
-![screen shot of windows explorer showing a new "myprogram application" command on the "new" submenu](https://www.bing.com/search?q=screen+shot+of+windows+explorer+showing+a+new+"myprogram+application"+command+on+the+"new"+submenu)
+![screen shot of windows explorer showing a new "myprogram application" command on the "new" submenu](images/context-menu/context-myprogramexe.png)
 
 ### Creating Drag-and-Drop Handlers
 
@@ -438,7 +438,7 @@ The basic procedure for implementing a drag-and-drop handler is the same as for 
 
 When a user right-clicks a Shell object to drag an object, a shortcut menu is displayed when the user attempts to drop the object. The following screen shot illustrates a typical drag-and-drop shortcut menu.
 
-![screen shot of drag-and-drop shortcut menu](https://www.bing.com/search?q=screen+shot+of+drag-and-drop+shortcut+menu)
+![screen shot of drag-and-drop shortcut menu](images/context-menu/context-dragdrop.png)
 
 A drag-and-drop handler is a shortcut menu handler that can add items to this shortcut menu. Drag-and-drop handlers are typically registered under the following subkey.
 

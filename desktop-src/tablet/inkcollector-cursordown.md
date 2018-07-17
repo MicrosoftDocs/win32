@@ -70,7 +70,7 @@ Use this event carefully because it could have an adverse effect on ink performa
 
 <dl> <dt>
 
-[**InkCollector Class**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx)
+[**InkCollector Class**](inkcollector-class.md)
 </dt> <dt>
 
 [**CursorButtonDown Event**](inkcollector-cursorbuttondown.md)

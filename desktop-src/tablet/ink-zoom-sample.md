@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 This sample program demonstrates how to zoom and scroll ink. In particular, it enables the user to zoom in and out of ink in increments. It also demonstrates how to zoom into a particular region using a zoom rectangle. Finally, this sample illustrates how to collect ink at different zoom ratios and how to set up scrolling within the zoomed drawing area.
 
-In the sample, the [Renderer](https://www.bing.com/search?q=Renderer) object's view and object transforms are used to perform zooming and scrolling. The view transform applies to the points and the pen width. The object transform applies only to the points. The user can control which transform is used by changing the Scale Pen Width item on the Mode menu.
+In the sample, the [Renderer](frlrfMicrosoftInkRendererClassTopic) object's view and object transforms are used to perform zooming and scrolling. The view transform applies to the points and the pen width. The object transform applies only to the points. The user can control which transform is used by changing the Scale Pen Width item on the Mode menu.
 
 > [!Note]  
 > It is problematic to perform some COM calls on certain interface methods ([**InkRenderer.SetViewTransform**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setviewtransform) and [**InkRenderer.SetObjectTransform**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setobjecttransform), for example) when a message has been SENT. When messages are SENT, they need to be marshalled to the POST message queue. To address this scenario, test whether you are handling a message from POST by calling [**InSendMesssageEx**](https://msdn.microsoft.com/library/windows/desktop/ms644942) and POST the message to yourself if the message was SENT.
@@ -22,9 +22,9 @@ In the sample, the [Renderer](https://www.bing.com/search?q=Renderer) object's v
 
 The following features are used in this sample:
 
--   The [InkCollector](https://www.bing.com/search?q=InkCollector) object
--   The [Renderer](https://www.bing.com/search?q=Renderer) object's [SetViewTransform](https://www.bing.com/search?q=SetViewTransform) method
--   The [Renderer](https://www.bing.com/search?q=Renderer) object's [SetObjectTransform](https://www.bing.com/search?q=SetObjectTransform) method
+-   The [InkCollector](frlrfMicrosoftInkInkCollectorClassTopic) object
+-   The [Renderer](frlrfMicrosoftInkRendererClassTopic) object's [SetViewTransform](frlrfMicrosoftInkRendererClassSetViewTransformTopic) method
+-   The [Renderer](frlrfMicrosoftInkRendererClassTopic) object's [SetObjectTransform](frlrfMicrosoftInkRendererClassSetObjectTransformTopic) method
 
 ## Initializing the Form
 
@@ -37,7 +37,7 @@ using Microsoft.Ink;
 
 
 
-The sample declares an [InkCollector](https://www.bing.com/search?q=InkCollector), `myInkCollector`, and some private members to help with scaling.
+The sample declares an [InkCollector](frlrfMicrosoftInkInkCollectorClassTopic), `myInkCollector`, and some private members to help with scaling.
 
 
 ```C++
@@ -61,7 +61,7 @@ private const float MediumInkWidth = 100;
 
 
 
-Then the sample creates and enables the [InkCollector](https://www.bing.com/search?q=InkCollector) in the form's [Load](https://www.bing.com/search?q=Load) event handler. Also, the [Width](https://www.bing.com/search?q=Width) property of the InkCollector object's [DefaultDrawingAttributes](https://www.bing.com/search?q=DefaultDrawingAttributes) property is set. Finally, the scroll bar ranges are defined and the application's `UpdateZoomAndScroll` method is called.
+Then the sample creates and enables the [InkCollector](frlrfMicrosoftInkInkCollectorClassTopic) in the form's [Load](frlrfSystemWindowsFormsFormClassLoadTopic) event handler. Also, the [Width](frlrfMicrosoftInkDrawingAttributesClassWidthTopic) property of the InkCollector object's [DefaultDrawingAttributes](frlrfMicrosoftInkInkCollectorClassDefaultDrawingAttributesTopic) property is set. Finally, the scroll bar ranges are defined and the application's `UpdateZoomAndScroll` method is called.
 
 
 ```C++
@@ -98,7 +98,7 @@ private void InkZoom_Load(object sender, System.EventArgs e)
 The drawing area of the ink collector is affected by many events. In the `UpdateZoomAndScroll` method, a transformation matrix is used to both scale and translate the ink collector within the window.
 
 > [!Note]  
-> The [Renderer](https://www.bing.com/search?q=Renderer) object's [SetViewTransform](https://www.bing.com/search?q=SetViewTransform) method applies the transform to both the strokes and the pen width, while the [SetObjectTransform](https://www.bing.com/search?q=SetObjectTransform) method only applies the transform to the strokes.
+> The [Renderer](frlrfMicrosoftInkRendererClassTopic) object's [SetViewTransform](frlrfMicrosoftInkRendererClassSetViewTransformTopic) method applies the transform to both the strokes and the pen width, while the [SetObjectTransform](frlrfMicrosoftInkRendererClassSetObjectTransformTopic) method only applies the transform to the strokes.
 
  
 
@@ -137,7 +137,7 @@ Refresh();
 
 ## Managing the Scroll Bars
 
-The `UpdateScrollBars` method sets up the scroll bars to work correctly with the current window size, zoom setting, and scroll location within the [InkCollector](https://www.bing.com/search?q=InkCollector). This method calculates the large change and small change values for the vertical and horizontal scroll bars. It also calculates the current value of the scroll bars and whether they should be visible. The [Renderer](https://www.bing.com/search?q=Renderer) object's [PixelToInkSpace](https://www.bing.com/search?q=PixelToInkSpace) method handles the conversion from pixels to the zoomed coordinate space and accounts for any scaling and scrolling that is applied through the view and object transforms.
+The `UpdateScrollBars` method sets up the scroll bars to work correctly with the current window size, zoom setting, and scroll location within the [InkCollector](frlrfMicrosoftInkInkCollectorClassTopic). This method calculates the large change and small change values for the vertical and horizontal scroll bars. It also calculates the current value of the scroll bars and whether they should be visible. The [Renderer](frlrfMicrosoftInkRendererClassTopic) object's [PixelToInkSpace](frlrfMicrosoftInkRendererClassPixelToInkSpaceTopic) method handles the conversion from pixels to the zoomed coordinate space and accounts for any scaling and scrolling that is applied through the view and object transforms.
 
 
 ```C++
@@ -193,11 +193,11 @@ if(vScrollBar.Visible &amp;&amp; (vScrollBar.Value + vScrollBar.LargeChange > vS
 
 ## Zooming to a Rectangle
 
-The `pnlDrawingArea` panel event handlers manage drawing the rectangle to the window. If the Zoom To Rect command is checked on the Mode menu, then the [MouseUp](https://www.bing.com/search?q=MouseUp) event handler calls the application's `ZoomToRectangle` method. The `ZoomToRectangle` method calculates the width and height of the rectangle, checks for boundary conditions, updates the scroll bar values and the scale factor, and then calls the application's `UpdateZoomAndScroll` method to apply the new settings.
+The `pnlDrawingArea` panel event handlers manage drawing the rectangle to the window. If the Zoom To Rect command is checked on the Mode menu, then the [MouseUp](frlrfMicrosoftInkInkCollectorClassMouseUpTopic) event handler calls the application's `ZoomToRectangle` method. The `ZoomToRectangle` method calculates the width and height of the rectangle, checks for boundary conditions, updates the scroll bar values and the scale factor, and then calls the application's `UpdateZoomAndScroll` method to apply the new settings.
 
 ## Closing the Form
 
-The form's [Dispose](https://www.bing.com/search?q=Dispose) method disposes the [InkCollector](https://www.bing.com/search?q=InkCollector) object.
+The form's [Dispose](frlrfSystemWindowsFormsFormClassDisposeTopic) method disposes the [InkCollector](frlrfMicrosoftInkInkCollectorClassTopic) object.
 
  
 

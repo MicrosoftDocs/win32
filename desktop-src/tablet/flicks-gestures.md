@@ -91,7 +91,7 @@ Editing commands such as Copy, Paste, Cut, and Delete might be directed against 
 [Flicks API Reference](flicks-api-reference.md)
 </dt> <dt>
 
-[Responding to Flick Gestures](https://www.bing.com/search?q=Responding+to+Flick+Gestures)
+[Responding to Flick Gestures](tablet-responding_to_pen_flicks)
 </dt> </dl>
 
  

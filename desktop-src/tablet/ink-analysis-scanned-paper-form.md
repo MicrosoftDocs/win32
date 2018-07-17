@@ -19,8 +19,8 @@ This sample application demonstrates the following features of the Ink Analysis 
 
 -   Loading a scanned paper form. The sample imports the form from an image in .png format.
 -   Collecting and rendering ink on top of the scanned form.
--   Using an [InkAnalyzer](https://www.bing.com/search?q=InkAnalyzer) object to parse handwriting.
--   Generating [AnalysisHintNode](https://www.bing.com/search?q=AnalysisHintNode) objects to improve handwriting results.
+-   Using an [InkAnalyzer](T:Microsoft.Ink.InkAnalyzer) object to parse handwriting.
+-   Generating [AnalysisHintNode](T:Microsoft.Ink.AnalysisHintNode) objects to improve handwriting results.
 -   Populating text boxes from analysis hints.
 -   Creating a basic text correction experience.
 
@@ -40,7 +40,7 @@ The Windows Presentation Foundation version references IAWinFX.dll in addition t
 
 ## User Interface
 
-The UI for this application consists of a [TabControl](https://www.bing.com/search?q=TabControl) with two [TabPage](https://www.bing.com/search?q=TabPage) objects associated with it: Ink Form and Converted Text Form. The Ink Form tab contains
+The UI for this application consists of a [TabControl](T:System.Windows.Forms.TabControl) with two [TabPage](T:System.Windows.Forms.TabPage) objects associated with it: Ink Form and Converted Text Form. The Ink Form tab contains
 
 -   A panel that contains an image of a scanned paper form used for taking telephone messages.
 -   A check box that has the application show the analysis hint bounds when selected.
@@ -50,11 +50,11 @@ The Converted Text Form contains the same image and is the page on which the app
 
 ## Functionality
 
-This application uses an [InkOverlay](https://www.bing.com/search?q=InkOverlay) to enable writing. The InkOverlay object is well suited for note taking and basic scribbling. The primary intended use of this object is to display ink as ink. The main class for ink analysis is the [InkAnalyzer](https://www.bing.com/search?q=InkAnalyzer) class. When you call the InkAnalyzer object's [Analyze](https://www.bing.com/search?q=Analyze) method, the ink analysis occurs synchronously.
+This application uses an [InkOverlay](T:Microsoft.Ink.InkOverlay) to enable writing. The InkOverlay object is well suited for note taking and basic scribbling. The primary intended use of this object is to display ink as ink. The main class for ink analysis is the [InkAnalyzer](T:Microsoft.Ink.InkAnalyzer) class. When you call the InkAnalyzer object's [Analyze](M:Microsoft.Ink.InkAnalyzer.Analyze) method, the ink analysis occurs synchronously.
 
-The application initializes two arrays, one of strings and one of rectangles. The string array, `factoidStrings`, is made of [Factoid](https://www.bing.com/search?q=Factoid) objects that are passed into the [InkAnalyzer](https://www.bing.com/search?q=InkAnalyzer) as [AnalysisHintNode](https://www.bing.com/search?q=AnalysisHintNode) objects. The AnalysisHintNode objects bias the InkAnalyzer toward particular input. This sample uses the date, time, and telephone hints, as well as some others.
+The application initializes two arrays, one of strings and one of rectangles. The string array, `factoidStrings`, is made of [Factoid](T:Microsoft.Ink.Factoid) objects that are passed into the [InkAnalyzer](T:Microsoft.Ink.InkAnalyzer) as [AnalysisHintNode](T:Microsoft.Ink.AnalysisHintNode) objects. The AnalysisHintNode objects bias the InkAnalyzer toward particular input. This sample uses the date, time, and telephone hints, as well as some others.
 
-Each [AnalysisHintNode](https://www.bing.com/search?q=AnalysisHintNode) is associated with a specific area of the form. The areas are represented by the array of rectangles, `rects`. By creating a [TextBox](https://www.bing.com/search?q=TextBox) for each rectangle, the sample outputs the recognized text in the correct location.
+Each [AnalysisHintNode](T:Microsoft.Ink.AnalysisHintNode) is associated with a specific area of the form. The areas are represented by the array of rectangles, `rects`. By creating a [TextBox](T:System.Windows.Forms.TextBox) for each rectangle, the sample outputs the recognized text in the correct location.
 
 
 ```C++

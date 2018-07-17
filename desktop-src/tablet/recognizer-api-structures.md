@@ -33,7 +33,7 @@ This section describes the recognizer structures.
 | [**RECO\_LATTICE\_PROPERTIES**](/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_properties) | Contains an array of pointers to property structures.<br/>                                                                                              |
 | [**RECO\_LATTICE\_PROPERTY**](/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_property)     | Contains a property used in the lattice.<br/>                                                                                                           |
 | [**RECO\_RANGE**](/windows/desktop/api/rectypes/ns-rectypes-tagreco_range)                            | Identifies a range of characters in the result string.<br/>                                                                                             |
-| [**STROKE\_RANGE**](/windows/desktop/api/tpcshrd/ns-tpcshrd-tagstroke_range)                        | Specifies a range of strokes in the [**InkDisp**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object.<br/>                                                                       |
+| [**STROKE\_RANGE**](/windows/desktop/api/tpcshrd/ns-tpcshrd-tagstroke_range)                        | Specifies a range of strokes in the [**InkDisp**](inkdisp-class.md) object.<br/>                                                                       |
 
 
 

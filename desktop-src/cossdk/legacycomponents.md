@@ -21,7 +21,7 @@ api_location:
 
 Contains an object for each unconfigured component in the Applications collection. Unconfigured components cannot make use of COM+ services. The properties exposed by these objects hold settings made at the component level.
 
-This collection supports the [**Remove**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-remove) method of the [**COMAdminCatalogCollection**](https://msdn.microsoft.com/en-us/library/ms679474(v=VS.85).aspx) object, but not the [**Add**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-add) method. To install or import components into an application, use methods on the [**COMAdminCatalog**](https://msdn.microsoft.com/en-us/library/ms686842(v=VS.85).aspx) object.
+This collection supports the [**Remove**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-remove) method of the [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object, but not the [**Add**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-add) method. To install or import components into an application, use methods on the [**COMAdminCatalog**](comadmincatalog.md) object.
 
 ## Members
 
@@ -41,7 +41,7 @@ You can navigate to this collection from the following collections:
 
 ## Properties
 
-The following properties are supported by the [**COMAdminCatalogObject**](https://msdn.microsoft.com/en-us/library/ms679228(v=VS.85).aspx) object within the collection:
+The following properties are supported by the [**COMAdminCatalogObject**](comadmincatalogobject.md) object within the collection:
 
 -   [AccessPermissions](#accesspermissions)
 -   [ActivateAtStorage](#activateatstorage)

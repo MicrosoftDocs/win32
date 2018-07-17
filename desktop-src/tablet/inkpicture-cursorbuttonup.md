@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # InkPicture.CursorButtonUp event
 
-Occurs when the [**InkCollector**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx) detects a cursor button that is up.
+Occurs when the [**InkCollector**](inkcollector-class.md) detects a cursor button that is up.
 
 ## Syntax
 

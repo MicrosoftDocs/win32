@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # InkCollector Object Events
 
-The following table describes which threads the [**InkCollector**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx) object events can fire on.
+The following table describes which threads the [**InkCollector**](inkcollector-class.md) object events can fire on.
 
 
 
@@ -23,7 +23,7 @@ The following table describes which threads the [**InkCollector**](https://msdn.
 | [**CursorInRange**](inkcollector-cursorinrange.md)                                | Fires on the ink thread.<br/>                               |
 | [**CursorOutOfRange**](inkcollector-cursoroutofrange.md)                          | Fires on the ink thread.<br/>                               |
 | [**DoubleClick Event**](inkcollector-doubleclick.md) (Automation only).           | Fires on the application's user interface (UI) thread.<br/> |
-| [**DoubleClick**](https://www.bing.com/search?q=**DoubleClick**) (Managed Library only) | Fires on the application's UI thread.<br/>                  |
+| [**DoubleClick**](E:Microsoft.Ink.InkCollector.DoubleClick) (Managed Library only) | Fires on the application's UI thread.<br/>                  |
 | [**Gesture**](inkcollector-gesture.md)                                            | Fires on the ink thread.<br/>                               |
 | [**MouseDown**](inkcollector-mousedown.md)                                        | Fires on the application's UI thread.<br/>                  |
 | [**MouseMove**](inkcollector-mousemove.md)                                        | Fires on the application's UI thread.<br/>                  |

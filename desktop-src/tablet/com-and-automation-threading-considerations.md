@@ -32,9 +32,9 @@ If your application runs in an MTA or uses the free threaded marshaler (FTM), yo
 
 ## InkCollector and InkOverlay
 
-Your application should not release its final reference to the [**InkCollector**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx) or the [**InkOverlay**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx) object, thus destroying the object, directly from the ink thread. Instead, the application should release the **InkCollector** or the **InkOverlay** object from an application thread.
+Your application should not release its final reference to the [**InkCollector**](inkcollector-class.md) or the [**InkOverlay**](inkoverlay-class.md) object, thus destroying the object, directly from the ink thread. Instead, the application should release the **InkCollector** or the **InkOverlay** object from an application thread.
 
-**Caution:** An application that is marked MTA or uses the FTM, which allows direct calls from the ink thread into the application's apartment, can release its final reference to the [**InkCollector**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx) or [**InkOverlay**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx) object directly from the ink thread; however, this causes unrecoverable application failure.
+**Caution:** An application that is marked MTA or uses the FTM, which allows direct calls from the ink thread into the application's apartment, can release its final reference to the [**InkCollector**](inkcollector-class.md) or [**InkOverlay**](inkoverlay-class.md) object directly from the ink thread; however, this causes unrecoverable application failure.
 
 ## Event Sinks
 

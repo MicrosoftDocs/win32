@@ -17,7 +17,7 @@ Starting with Windows Vista, Tablet PC Technology has support for touch input on
 
 ### Pen and Touch Input Not Exclusive
 
-Do not assume pen and touch input are mutually exclusive in [**InkCollector**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx), [**InkOverlay**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx), and [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) applications.
+Do not assume pen and touch input are mutually exclusive in [**InkCollector**](inkcollector-class.md), [**InkOverlay**](inkoverlay-class.md), and [**RealTimeStylus**](realtimestylus-class.md) applications.
 
 In Windows Vista, when the system recognizes a pen it ignores touch input. That is, the touch stroke ends and the pen stroke begins. Because this could possibly change in the future, your code should not assume pen and touch input are mutually exclusive.
 
@@ -27,7 +27,7 @@ There are other sources of mouse messages even when the user is only interacting
 
 ### Enabling and Disabling the Touch Input User Interface
 
-You may wish to enable or disable the touch input user interface depending on the requirements of your application. To accomplish this, intercept operating system window messages in a window procedure and modify the Windows message. Override [WndProc](https://www.bing.com/search?q=WndProc) in your application to intercept these messages. The following C\# pseudo-code shows how to enable and disable the touch input user interface. The code also shows using the same technique to disable the press-and-hold gesture. This method also works for disabling the stylus.
+You may wish to enable or disable the touch input user interface depending on the requirements of your application. To accomplish this, intercept operating system window messages in a window procedure and modify the Windows message. Override [WndProc](frlrfSystemWindowsFormsControlClassWndProcTopic) in your application to intercept these messages. The following C\# pseudo-code shows how to enable and disable the touch input user interface. The code also shows using the same technique to disable the press-and-hold gesture. This method also works for disabling the stylus.
 
 
 ```C++

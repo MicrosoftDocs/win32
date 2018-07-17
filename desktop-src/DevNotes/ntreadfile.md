@@ -156,9 +156,9 @@ File and event handles are valid only in the process context where the handles a
 
 Likewise, **NtReadFile** should be called in the context of the system process if it notifies the driver of I/O completion by means of an APC, because APCs are always fired in the context of the thread that issues the I/O request. If the driver calls **NtReadFile** in the context of a process other than the system one, the APC could be delayed indefinitely, or it might not fire at all.
 
-For more information about working with files, see [Using Files in a Driver](https://www.bing.com/search?q=Using+Files+in+a+Driver).
+For more information about working with files, see [Using Files in a Driver](kernel.using_files_in_a_driver).
 
-Callers of **NtReadFile** must be running at IRQL = PASSIVE\_LEVEL and [with special kernel APCs enabled](https://www.bing.com/search?q=with+special+kernel+APCs+enabled).
+Callers of **NtReadFile** must be running at IRQL = PASSIVE\_LEVEL and [with special kernel APCs enabled](kernel.disabling_apcs).
 
 ## Requirements
 
@@ -185,13 +185,13 @@ Callers of **NtReadFile** must be running at IRQL = PASSIVE\_LEVEL and [with spe
 [**NtCreateFile**](/windows/desktop/api/Winternl/nf-winternl-ntcreatefile)
 </dt> <dt>
 
-[**NtQueryInformationFile**](https://www.bing.com/search?q=**NtQueryInformationFile**)
+[**NtQueryInformationFile**](kernel.ntqueryinformationfile)
 </dt> <dt>
 
-[**NtSetInformationFile**](https://www.bing.com/search?q=**NtSetInformationFile**)
+[**NtSetInformationFile**](kernel.ntsetinformationfile)
 </dt> <dt>
 
-[**NtWriteFile**](https://www.bing.com/search?q=**NtWriteFile**)
+[**NtWriteFile**](kernel.ntwritefile)
 </dt> </dl>
 
  

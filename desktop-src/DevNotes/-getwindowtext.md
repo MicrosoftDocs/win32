@@ -22,7 +22,7 @@ api_location:
 
 \[This function is a wrapper over the **GetWindowText** function. This function may be altered or unavailable in the future. Applications should call **GetWindowText** directly.\]
 
-Retrieves the text from the specified window's title bar. See [**GetWindowText**](https://www.bing.com/search?q=**GetWindowText**).
+Retrieves the text from the specified window's title bar. See [**GetWindowText**](_win32_getwindowtext_cpp).
 
 ## Syntax
 
@@ -56,7 +56,7 @@ int _GetWindowText(
 
 <dl> <dt>
 
-[**GetWindowText**](https://www.bing.com/search?q=**GetWindowText**)
+[**GetWindowText**](_win32_getwindowtext_cpp)
 </dt> </dl>
 
  

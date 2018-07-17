@@ -116,7 +116,7 @@ The requirements for the &lt;canonical-name&gt; element match the requirements f
 [Property Schemas](https://msdn.microsoft.com/en-us/library/Cc144135(v=VS.85).aspx)
 </dt> <dt>
 
-[Search Connector Description Schema](https://www.bing.com/search?q=Search+Connector+Description+Schema)
+[Search Connector Description Schema](search_sconn_desc_schema_entry)
 </dt> </dl>
 
  

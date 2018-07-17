@@ -11,18 +11,18 @@ ms.date: 05/31/2018
 
 # Displaying the Input Panel
 
-\[[**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) has been replaced by [**TextInputPanel**](/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel) ([Microsoft.Ink.TextInput](https://www.bing.com/search?q=Microsoft.Ink.TextInput) for managed code). Please refer to the [Programming the Text Input Panel](programming-the-text-input-panel.md).\]
+\[[**PenInputPanel**](peninputpanel-class.md) has been replaced by [**TextInputPanel**](/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel) ([Microsoft.Ink.TextInput](frlrfMicrosoftInkTextInput) for managed code). Please refer to the [Programming the Text Input Panel](programming-the-text-input-panel.md).\]
 
 The order of the various focus events for a control is as follows:
 
--   [Control.Enter](https://www.bing.com/search?q=Control.Enter)
--   [Control.GotFocus](https://www.bing.com/search?q=Control.GotFocus)
--   [Control.Leave](https://www.bing.com/search?q=Control.Leave)
--   [Control.Validating](https://www.bing.com/search?q=Control.Validating)
--   [Control.Validated](https://www.bing.com/search?q=Control.Validated)
--   [Control.LostFocus](https://www.bing.com/search?q=Control.LostFocus)
+-   [Control.Enter](frlrfSystemWindowsFormsControlClassEnterTopic)
+-   [Control.GotFocus](frlrfSystemWindowsFormsControlClassGotFocusTopic)
+-   [Control.Leave](frlrfSystemWindowsFormsControlClassLeaveTopic)
+-   [Control.Validating](frlrfSystemWindowsFormsControlClassValidatingTopic)
+-   [Control.Validated](frlrfSystemWindowsFormsControlClassValidatedTopic)
+-   [Control.LostFocus](frlrfSystemWindowsFormsControlClassLostFocusTopic)
 
-There is no guarantee that the control actually has focus by the time the [Control.Visible](https://www.bing.com/search?q=Control.Visible) property is written when it is set in the [Control.Enter](https://www.bing.com/search?q=Control.Enter) event handler. The Control.Enter event is the best place to attach the [PenInputPanel](https://www.bing.com/search?q=PenInputPanel) object to a control, but the [Control.GotFocus](https://www.bing.com/search?q=Control.GotFocus) event is the best place to change the [PenInputPanel.Visible](https://www.bing.com/search?q=PenInputPanel.Visible) property.
+There is no guarantee that the control actually has focus by the time the [Control.Visible](frlrfSystemWindowsFormsControlClassVisibleTopic) property is written when it is set in the [Control.Enter](frlrfSystemWindowsFormsControlClassEnterTopic) event handler. The Control.Enter event is the best place to attach the [PenInputPanel](frlrfMicrosoftInkPenInputPanelClassTopic) object to a control, but the [Control.GotFocus](frlrfSystemWindowsFormsControlClassGotFocusTopic) event is the best place to change the [PenInputPanel.Visible](frlrfMicrosoftInkPenInputPanelClassVisibleTopic) property.
 
  
 

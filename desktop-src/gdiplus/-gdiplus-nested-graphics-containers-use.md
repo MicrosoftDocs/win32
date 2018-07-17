@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Nested Graphics Containers
 
-Windows GDI+ provides containers that you can use to temporarily replace or augment part of the state in a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object. You create a container by calling the [**Graphics::BeginContainer**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(in const rect &_in const rect &_in unit)) method of a **Graphics** object. You can call **Graphics::BeginContainer** repeatedly to form nested containers.
+Windows GDI+ provides containers that you can use to temporarily replace or augment part of the state in a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object. You create a container by calling the [**Graphics::BeginContainer**](https://msdn.microsoft.com/en-us/library/ms536156(v=VS.85).aspx) method of a **Graphics** object. You can call **Graphics::BeginContainer** repeatedly to form nested containers.
 
 ## Transformations in Nested Containers
 
@@ -24,7 +24,7 @@ DrawRectangle(&amp;pen, -60, -30, 120, 60)
 
 
 
-twice. The first call to [**Graphics::DrawRectangle**](https://msdn.microsoft.com/en-us/library/ms536003(v=VS.85).aspx) is *inside the container*; that is, the call is in between the calls to [**Graphics::BeginContainer**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(in const rect &_in const rect &_in unit)) and [**Graphics::EndContainer**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-endcontainer). The second call to **Graphics::DrawRectangle** is after the call to **Graphics::EndContainer**.
+twice. The first call to [**Graphics::DrawRectangle**](https://msdn.microsoft.com/en-us/library/ms536003(v=VS.85).aspx) is *inside the container*; that is, the call is in between the calls to [**Graphics::BeginContainer**](https://msdn.microsoft.com/en-us/library/ms536156(v=VS.85).aspx) and [**Graphics::EndContainer**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-endcontainer). The second call to **Graphics::DrawRectangle** is after the call to **Graphics::EndContainer**.
 
 
 ```
@@ -92,7 +92,7 @@ As the two preceding examples show, transformations and clipping regions are cum
 
 ## Quality Settings in Nested Containers
 
-Quality settings ( [**SmoothingMode**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-smoothingmode), [**TextRenderingHint**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-textrenderinghint), and the like) in nested containers are not cumulative; rather, the quality settings of the container temporarily replace the quality settings of a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object. When you create a new container, the quality settings for that container are set to default values. For example, suppose you have a **Graphics** object with a smoothing mode of [****SmoothingModeAntiAlias****](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-smoothingmode). When you create a container, the smoothing mode inside the container is the default smoothing mode. You are free to set the smoothing mode of the container, and any items drawn from inside the container will be drawn according to the mode you set. Items drawn after the call to [**Graphics::EndContainer**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-endcontainer) will be drawn according to the smoothing mode ([****SmoothingModeAntiAlias****](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-smoothingmode)) that was in place before the call to [**Graphics::BeginContainer**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(in const rect &_in const rect &_in unit)).
+Quality settings ( [**SmoothingMode**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-smoothingmode), [**TextRenderingHint**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-textrenderinghint), and the like) in nested containers are not cumulative; rather, the quality settings of the container temporarily replace the quality settings of a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object. When you create a new container, the quality settings for that container are set to default values. For example, suppose you have a **Graphics** object with a smoothing mode of [****SmoothingModeAntiAlias****](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-smoothingmode). When you create a container, the smoothing mode inside the container is the default smoothing mode. You are free to set the smoothing mode of the container, and any items drawn from inside the container will be drawn according to the mode you set. Items drawn after the call to [**Graphics::EndContainer**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-endcontainer) will be drawn according to the smoothing mode ([****SmoothingModeAntiAlias****](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-smoothingmode)) that was in place before the call to [**Graphics::BeginContainer**](https://msdn.microsoft.com/en-us/library/ms536156(v=VS.85).aspx).
 
 ## Several Layers of Nested Containers
 

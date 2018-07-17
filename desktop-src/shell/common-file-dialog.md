@@ -54,7 +54,7 @@ Additionally, developers can choose to implement the following interfaces:
 
 The **Open** or **Save** dialog returns an [**IShellItem**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) or [**IShellItemArray**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray) object to the calling process. The caller can then use an individual **IShellItem** object to get a file system path or to open a stream on the item to read or write information.
 
-Flags and options available to the new dialog methods are very similar to the older **OFN** flags found in the [**OPENFILENAME**](https://msdn.microsoft.com/en-us/library/ms646839(v=VS.85).aspx) structure and used in [**GetOpenFileName**](https://msdn.microsoft.com/en-us/library/ms646927(v=VS.85).aspx) and [**GetSaveFileName**](https://msdn.microsoft.com/en-us/library/ms646928(v=VS.85).aspx). Many of them are exactly the same, except that they begin with an FOS prefix. The complete list can be found in the [**IFileDialog::GetOptions**](/windows/desktop/api) and [**IFileDialog::SetOptions**](/windows/desktop/api) topics. **Open** and **Save** dialogs are created by default with the most common flags. For the **Open** dialog, this is (FOS\_PATHMUSTEXIST \| FOS\_FILEMUSTEXIST \| FOS\_NOCHANGEDIR) and for the **Save** dialog this is (FOS\_OVERWRITEPROMPT \| FOS\_NOREADONLYRETURN \| FOS\_PATHMUSTEXIST \| FOS\_NOCHANGEDIR).
+Flags and options available to the new dialog methods are very similar to the older **OFN** flags found in the [**OPENFILENAME**](https://msdn.microsoft.com/en-us/library/ms646839(v=VS.85).aspx) structure and used in [**GetOpenFileName**](https://msdn.microsoft.com/en-us/library/ms646927(v=VS.85).aspx) and [**GetSaveFileName**](https://msdn.microsoft.com/en-us/library/ms646928(v=VS.85).aspx). Many of them are exactly the same, except that they begin with an FOS prefix. The complete list can be found in the [**IFileDialog::GetOptions**](https://msdn.microsoft.com/en-us/library/Bb775962(v=VS.85).aspx) and [**IFileDialog::SetOptions**](https://msdn.microsoft.com/en-us/library/Bb761832(v=VS.85).aspx) topics. **Open** and **Save** dialogs are created by default with the most common flags. For the **Open** dialog, this is (FOS\_PATHMUSTEXIST \| FOS\_FILEMUSTEXIST \| FOS\_NOCHANGEDIR) and for the **Save** dialog this is (FOS\_OVERWRITEPROMPT \| FOS\_NOREADONLYRETURN \| FOS\_PATHMUSTEXIST \| FOS\_NOCHANGEDIR).
 
 [**IFileDialog**](https://msdn.microsoft.com/en-us/library/Bb775966(v=VS.85).aspx) and its descendant interfaces inherit from and extend [**IModalWindow**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imodalwindow). [**Show**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imodalwindow-show) takes as its only parameter the handle of the parent window. If **Show** returns successfully, there is a valid result. If it returns `HRESULT_FROM_WIN32(ERROR_CANCELLED)`, it means the user canceled the dialog. It might also legitimately return another error code such as **E\_OUTOFMEMORY**.
 
@@ -179,7 +179,7 @@ HRESULT BasicFileOpen()
 
 ### Limiting Results to File System Items
 
-The following example, taken from above, demonstrates how to restrict results to file system items. Note that [**IFileDialog::SetOptions**](/windows/desktop/api) adds the new flag to a value obtained through [**IFileDialog::GetOptions**](/windows/desktop/api). This is the recommended method.
+The following example, taken from above, demonstrates how to restrict results to file system items. Note that [**IFileDialog::SetOptions**](https://msdn.microsoft.com/en-us/library/Bb761832(v=VS.85).aspx) adds the new flag to a value obtained through [**IFileDialog::GetOptions**](https://msdn.microsoft.com/en-us/library/Bb775962(v=VS.85).aspx). This is the recommended method.
 
 
 ```C++
@@ -199,7 +199,7 @@ The following example, taken from above, demonstrates how to restrict results to
 
 ### Specifying File Types for a Dialog
 
-To set specific file types that the dialog can handle, use the [**IFileDialog::SetFileTypes**](/windows/desktop/api) method. That method accepts an array of [**COMDLG\_FILTERSPEC**](/windows/desktop/api/Shtypes/ns-shtypes-_comdlg_filterspec) structures, each of which represents a file type.
+To set specific file types that the dialog can handle, use the [**IFileDialog::SetFileTypes**](https://msdn.microsoft.com/en-us/library/Bb775980(v=VS.85).aspx) method. That method accepts an array of [**COMDLG\_FILTERSPEC**](/windows/desktop/api/Shtypes/ns-shtypes-_comdlg_filterspec) structures, each of which represents a file type.
 
 The default extension mechanism in a dialog is unchanged from [**GetOpenFileName**](https://msdn.microsoft.com/en-us/library/ms646927(v=VS.85).aspx) and [**GetSaveFileName**](https://msdn.microsoft.com/en-us/library/ms646928(v=VS.85).aspx). The file name extension that is appended to the text the user types in the file name edit box is initialized when the dialog opens. It should match the default file type (that selected as the dialog opens). If the default file type is "\*.\*" (all files), the file can be an extension of your choice. If the user chooses a different file type, the extension automatically updates to the first file name extension associated with that file type. If the user chooses "\*.\*" (all files), then the extension reverts to its original value.
 
@@ -224,11 +224,11 @@ The following example illustrates how this was done above.
 
 ### Controlling the Default Folder
 
-Almost any folder in the Shell namespace can be used as the default folder for the dialog (the folder presented when the user chooses to open or save a file). Call [**IFileDialog::SetDefaultFolder**](/windows/desktop/api) prior to calling [**Show**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imodalwindow-show) to do so.
+Almost any folder in the Shell namespace can be used as the default folder for the dialog (the folder presented when the user chooses to open or save a file). Call [**IFileDialog::SetDefaultFolder**](https://msdn.microsoft.com/en-us/library/Bb775972(v=VS.85).aspx) prior to calling [**Show**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imodalwindow-show) to do so.
 
 The default folder is the folder in which the dialog starts the first time a user opens it from your application. After that, the dialog will open in the last folder a user opened or the last folder they used to save an item. See [State Persistence](#state-persistence) for more details.
 
-You can force the dialog to always show the same folder when it opens, regardless of previous user action, by calling [**IFileDialog::SetFolder**](/windows/desktop/api). However, we do not recommended doing this. If you call **SetFolder** before you display the dialog box, the most recent location that the user saved to or opened from is not shown. Unless there is a very specific reason for this behavior, it is not a good or expected user experience and should be avoided. In almost all instances, [**IFileDialog::SetDefaultFolder**](/windows/desktop/api) is the better method.
+You can force the dialog to always show the same folder when it opens, regardless of previous user action, by calling [**IFileDialog::SetFolder**](https://msdn.microsoft.com/en-us/library/Bb761828(v=VS.85).aspx). However, we do not recommended doing this. If you call **SetFolder** before you display the dialog box, the most recent location that the user saved to or opened from is not shown. Unless there is a very specific reason for this behavior, it is not a good or expected user experience and should be avoided. In almost all instances, [**IFileDialog::SetDefaultFolder**](https://msdn.microsoft.com/en-us/library/Bb775972(v=VS.85).aspx) is the better method.
 
 When saving a document for the first time in the **Save** dialog, you should follow the same guidelines in determining the initial folder as you did in the **Open** dialog. If the user is editing a previously existing document, open the dialog in the folder where that document is stored, and populate the edit box with that document's name. Call [**IFileSaveDialog::SetSaveAsItem**](/windows/desktop/api/Shobjidl_core/nf-shobjidl_core-ifilesavedialog-setsaveasitem) with the current item prior to calling [**Show**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imodalwindow-show).
 
@@ -296,11 +296,11 @@ HRESULT AddItemsToCommonPlaces()
 
 ### State Persistence
 
-Prior to Windows Vista, a state, such as the last visited folder, was saved on a per-process basis. However, that information was used regardless of the particular action. For example, a video editing application would present the same folder in the **Render As** dialog as is would in the **Import Media** dialog. In Windows Vista you can be more specific through the use of GUIDs. To assign a **GUID** to the dialog, call [**iFileDialog::SetClientGuid**](/windows/desktop/api).
+Prior to Windows Vista, a state, such as the last visited folder, was saved on a per-process basis. However, that information was used regardless of the particular action. For example, a video editing application would present the same folder in the **Render As** dialog as is would in the **Import Media** dialog. In Windows Vista you can be more specific through the use of GUIDs. To assign a **GUID** to the dialog, call [**iFileDialog::SetClientGuid**](https://msdn.microsoft.com/en-us/library/Bb775968(v=VS.85).aspx).
 
 ### Multiselect Capabilities
 
-Multiselect functionality is available in the **Open** dialog using the [**GetResults**](/windows/desktop/api) method as shown here.
+Multiselect functionality is available in the **Open** dialog using the [**GetResults**](https://msdn.microsoft.com/en-us/library/Bb775831(v=VS.85).aspx) method as shown here.
 
 
 ```C++
@@ -355,7 +355,7 @@ HRESULT MultiselectInvoke()
 
 ## Listening to Events from the Dialog
 
-A calling process can register an [**IFileDialogEvents**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogevents) interface with the dialog by using the [**IFileDialog::Advise**](/windows/desktop/api) and [**IFileDialog::Unadvise**](/windows/desktop/api) methods as shown here.
+A calling process can register an [**IFileDialogEvents**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogevents) interface with the dialog by using the [**IFileDialog::Advise**](https://msdn.microsoft.com/en-us/library/Bb775948(v=VS.85).aspx) and [**IFileDialog::Unadvise**](https://msdn.microsoft.com/en-us/library/Bb761838(v=VS.85).aspx) methods as shown here.
 
 This is taken from the [Basic Usage](#basic-usage) sample.
 
@@ -394,7 +394,7 @@ The calling process can use events for notification when the user changes the fo
 
 ### OnFileOk
 
-This method is called after the user chooses an item, just before the dialog closes. The application can then call [**IFileDialog::GetResult**](/windows/desktop/api) or [**IFileOpenDialog::GetResults**](/windows/desktop/api) as would be done once the dialog had closed. If the item chosen is acceptable, they can return S\_OK. Otherwise, they return S\_FALSE and display UI that tells the user why the chosen item is not valid. If S\_FALSE is returned, the dialog does not close.
+This method is called after the user chooses an item, just before the dialog closes. The application can then call [**IFileDialog::GetResult**](https://msdn.microsoft.com/en-us/library/Bb775964(v=VS.85).aspx) or [**IFileOpenDialog::GetResults**](https://msdn.microsoft.com/en-us/library/Bb775831(v=VS.85).aspx) as would be done once the dialog had closed. If the item chosen is acceptable, they can return S\_OK. Otherwise, they return S\_FALSE and display UI that tells the user why the chosen item is not valid. If S\_FALSE is returned, the dialog does not close.
 
 The calling process can use the window handle of the dialog itself as the parent of the UI. That handle can be obtained by first calling [**IOleWindow::QueryInterface**](https://msdn.microsoft.com/en-us/library/ms680102(v=VS.85).aspx) and then calling [**IOleWindow::GetWindow**](https://msdn.microsoft.com/en-us/library/ms687282(v=VS.85).aspx) with the handle as shown in this example.
 

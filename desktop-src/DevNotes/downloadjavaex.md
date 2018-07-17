@@ -59,7 +59,7 @@ A [**CRYPT\_PROVIDER\_DATA**](https://msdn.microsoft.com/en-us/library/Aa381453(
 *pJava* \[in\]
 </dt> <dd>
 
-A [**JAVA\_POLICY\_PROVIDER**](https://www.bing.com/search?q=**JAVA\_POLICY\_PROVIDER**) structure that contains data related to the policy provider.
+A [**JAVA\_POLICY\_PROVIDER**](winprog.java_policy_provider) structure that contains data related to the policy provider.
 
 </dd> <dt>
 

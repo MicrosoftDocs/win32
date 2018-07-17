@@ -50,7 +50,7 @@ myGraphics.DrawImage(&amp;myTIFF, 300, 200);
 
 
 
-The [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) class provides a [**Image::Clone**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-clone) method that you can use to make a copy of an existing **Image**, [**Metafile**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile), or [**Bitmap**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap) object. The [Clone](/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-clone(in const rectf &_in pixelformat)) method is overloaded in the **Bitmap** class, and one of the variations has a source-rectangle parameter that you can use to specify the portion of the original image that you want to copy. The following example creates a **Bitmap** object by cloning the top half of an existing **Bitmap** object. Then both images are displayed.
+The [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) class provides a [**Image::Clone**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-clone) method that you can use to make a copy of an existing **Image**, [**Metafile**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile), or [**Bitmap**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap) object. The [Clone](https://msdn.microsoft.com/en-us/library/ms536287(v=VS.85).aspx) method is overloaded in the **Bitmap** class, and one of the variations has a source-rectangle parameter that you can use to specify the portion of the original image that you want to copy. The following example creates a **Bitmap** object by cloning the top half of an existing **Bitmap** object. Then both images are displayed.
 
 
 ```

@@ -70,7 +70,7 @@ This method does not return a value.
 
 <dl> <dt>
 
-[**IFeedbackHubAppInfo**](https://www.bing.com/search?q=**IFeedbackHubAppInfo**)
+[**IFeedbackHubAppInfo**](winprog.ifeedbackhubappinfo)
 </dt> </dl>
 
  

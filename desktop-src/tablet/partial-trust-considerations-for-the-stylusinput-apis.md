@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Partial Trust Considerations for the StylusInput API
 
-The [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) that takes the *handle* parameter requires the [UIPermissionWindow.AllWindows](https://www.bing.com/search?q=UIPermissionWindow.AllWindows) and [SecurityPermissionFlag.UnmanagedCode](https://www.bing.com/search?q=SecurityPermissionFlag.UnmanagedCode) permissions, in addition to the permissions required by the constructor that takes the *attachedControl* parameter.
+The [**RealTimeStylus**](realtimestylus-class.md) that takes the *handle* parameter requires the [UIPermissionWindow.AllWindows](T:System.Security.Permissions.UIPermissionWindow) and [SecurityPermissionFlag.UnmanagedCode](T:System.Security.Permissions.SecurityPermissionFlag) permissions, in addition to the permissions required by the constructor that takes the *attachedControl* parameter.
 
 For more information about security and trust issues, see [Security and Trust](security-and-trust.md).
 

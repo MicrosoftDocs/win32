@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 To distribute an ink-enabled application to computers that are not running either Windows Vista or Windows XP Tablet PC Edition 2005 (that is, computers running Windows XP, Windows Server 2003, or Windows 2000), you must include the necessary merge modules in your setup.
 
-The Mstpcrt.msm merge module includes all of the files, resources, registry entries, and setup logic necessary for Windows Installer to install the shared files that other platforms require to run unmanaged applications developed for the Tablet PC. Mstpcrt.msm is consumed by Windows Installer (.msi) files. For applications that use the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object, you must also redistribute InkDiv.msm. For applications that use managed components, you must also include the merge module files for those managed components.
+The Mstpcrt.msm merge module includes all of the files, resources, registry entries, and setup logic necessary for Windows Installer to install the shared files that other platforms require to run unmanaged applications developed for the Tablet PC. Mstpcrt.msm is consumed by Windows Installer (.msi) files. For applications that use the [**InkDivider**](inkdivider-class.md) object, you must also redistribute InkDiv.msm. For applications that use managed components, you must also include the merge module files for those managed components.
 
 The following table describes the merge module files that ship with the Windows XP Tablet PC Edition Software Development Kit (SDK).
 
@@ -21,7 +21,7 @@ The following table describes the merge module files that ship with the Windows 
 
 | Redistributable Merge Module | Description                                                                                                                    | Files                                                       |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
-| InkDiv.msm<br/>        | Installs the unmanaged version of the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object.<br/>                                | InkDiv.dll<br/>                                       |
+| InkDiv.msm<br/>        | Installs the unmanaged version of the [**InkDivider**](inkdivider-class.md) object.<br/>                                | InkDiv.dll<br/>                                       |
 | Mstpcrt.msm<br/>       | Installs the unmanaged components of the Tablet PC Platform version 1.0.<br/>                                            | Gdiplus.dll, InkEd.dll, Tpcps.dll, Wisptis.exe<br/>   |
 | Msvcp60.msm<br/>       | Installs components of the Microsoft Visual C++ runtime.<br/>                                                            | Msvcp60.dll<br/>                                      |
 | Msvcrt.msm<br/>        | Installs components of the Microsoft Visual C runtime.<br/>                                                              | Msvcrt.dll<br/>                                       |
@@ -48,7 +48,7 @@ Ink-enabled applications treat mouse events as pen movements to simulate working
 
 Mstpcrt.msm does not include Windows Journal or Tablet PC Input Panel.
 
-The [**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) object does not function on any operating systems besides Windows XP Tablet PC Edition.
+The [**PenInputPanel**](peninputpanel-class.md) object does not function on any operating systems besides Windows XP Tablet PC Edition.
 
 ## Deployment
 

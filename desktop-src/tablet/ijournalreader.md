@@ -53,7 +53,7 @@ The **JournalReader** class enables you to load a Journal document stream and to
 
 ## Examples
 
-The following example of a handler for a button's [**Click**](https://www.bing.com/search?q=**Click**) event creates an instance of the **JournalReader** class and uses it to read an existing Journal file.
+The following example of a handler for a button's [**Click**](frlrfSystemWindowsFormsControlClassClickTopic) event creates an instance of the **JournalReader** class and uses it to read an existing Journal file.
 
 > [!Note]  
 > The **DisplayXml** method called from this example is not shown. The specific implementation of such a method is dependent on your application's needs.

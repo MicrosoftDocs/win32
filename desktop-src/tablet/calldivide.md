@@ -21,7 +21,7 @@ api_location:
 
 # CallDivide function
 
-Retrieves analysis information from the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object.
+Retrieves analysis information from the [**InkDivider**](inkdivider-class.md) object.
 
 This function is not intended to be used by application code.
 
@@ -50,35 +50,35 @@ HRESULT WINAPI CallDivide(
 *hDivider* \[in\]
 </dt> <dd>
 
-A handle to the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object.
+A handle to the [**InkDivider**](inkdivider-class.md) object.
 
 </dd> <dt>
 
 *pWordSize* \[in\]
 </dt> <dd>
 
-The size of the word returned by the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object.
+The size of the word returned by the [**InkDivider**](inkdivider-class.md) object.
 
 </dd> <dt>
 
 *pLineSize* \[in\]
 </dt> <dd>
 
-The size of the line returned by the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object.
+The size of the line returned by the [**InkDivider**](inkdivider-class.md) object.
 
 </dd> <dt>
 
 *pParagraphSize* \[in\]
 </dt> <dd>
 
-The size of the paragraph returned by the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object.
+The size of the paragraph returned by the [**InkDivider**](inkdivider-class.md) object.
 
 </dd> <dt>
 
 *pDrawingSize* \[in\]
 </dt> <dd>
 
-The size of the drawing returned by the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object.
+The size of the drawing returned by the [**InkDivider**](inkdivider-class.md) object.
 
 </dd> <dt>
 

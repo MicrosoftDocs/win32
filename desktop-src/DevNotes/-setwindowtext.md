@@ -22,7 +22,7 @@ api_location:
 
 \[This function is a wrapper over the **SetWindowText** function. This function may be altered or unavailable in the future. Applications should call **SetWindowText** directly.\]
 
-Changes the text of the specified window's title bar (if it has one). See [**SetWindowText**](https://www.bing.com/search?q=**SetWindowText**).
+Changes the text of the specified window's title bar (if it has one). See [**SetWindowText**](_win32_setwindowtext_cpp).
 
 ## Syntax
 
@@ -56,7 +56,7 @@ BOOL _SetWindowText(
 
 <dl> <dt>
 
-[**SetWindowText**](https://www.bing.com/search?q=**SetWindowText**)
+[**SetWindowText**](_win32_setwindowtext_cpp)
 </dt> </dl>
 
  

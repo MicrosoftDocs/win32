@@ -39,7 +39,7 @@ This function has no parameters.
 
 ## Return value
 
-The version number of the file (see [VERSIONINFO Resource](https://www.bing.com/search?q=VERSIONINFO+Resource)).
+The version number of the file (see [VERSIONINFO Resource](tools.versioninfo_resource)).
 
 ## Remarks
 

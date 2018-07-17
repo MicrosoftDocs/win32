@@ -36,7 +36,7 @@ The **IShellFolderSearchable** interface has these methods.
 | Method                                                                | Description                                                               |
 |:----------------------------------------------------------------------|:--------------------------------------------------------------------------|
 | [**CancelAsyncSearch**](ishellfoldersearchable-cancelasyncsearch.md) | Begins the process of canceling a pending asynchronous search.<br/> |
-| [**FindString**](https://msdn.microsoft.com/en-us/library/Bb775029(v=VS.85).aspx)               | Begins a search for a specified search string.<br/>                 |
+| [**FindString**](ishellfoldersearchable-findstring.md)               | Begins a search for a specified search string.<br/>                 |
 | [**InvalidateSearch**](ishellfoldersearchable-invalidatesearch.md)   | Makes this PIDL an invalid portion of the Shell folder.<br/>        |
 
 

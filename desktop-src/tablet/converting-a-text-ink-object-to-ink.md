@@ -17,7 +17,7 @@ Implementation of converting from a text ink object (tInk) to ink.
 
 1.  Use the [IPersistStream](https://msdn.microsoft.com/en-us/library/ms690091(v=VS.85).aspx) interface to write the contents of the text ink object out to a stream. The text ink object uses ink serialized format to write to the steam.
 2.  Read the contents of the stream into a BYTE array.
-3.  Use the [**InkDisp**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object's [**Load**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-load) method to load the contents of the stream into the **InkDisp** object.
+3.  Use the [**InkDisp**](inkdisp-class.md) object's [**Load**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-load) method to load the contents of the stream into the **InkDisp** object.
 
 ## Text Ink Object to Ink Object Example
 
@@ -75,7 +75,7 @@ if( SUCCEEDED(hr) &amp;&amp; pIPersistStream )
 
 
 
-Then, the code creates an [**InkCollector**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx) object, creates an [**InkDisp**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object for the **InkCollector**, attaches the **InkCollector** to the application window, and enables ink collection on the **InkCollector**.
+Then, the code creates an [**InkCollector**](inkcollector-class.md) object, creates an [**InkDisp**](inkdisp-class.md) object for the **InkCollector**, attaches the **InkCollector** to the application window, and enables ink collection on the **InkCollector**.
 
 
 ```C++
@@ -142,7 +142,7 @@ Then, the code retrieves the size of the stream and creates a safe array to hold
 
 
 
-Finally, the code accesses the safe array and uses the [**InkDisp**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object's [**Load**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-load) method to load the ink from the array.
+Finally, the code accesses the safe array and uses the [**InkDisp**](inkdisp-class.md) object's [**Load**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-load) method to load the ink from the array.
 
 
 ```C++

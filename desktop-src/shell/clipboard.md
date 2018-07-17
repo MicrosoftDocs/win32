@@ -222,9 +222,9 @@ This format is used primarily to allow objects to be deleted by dragging them to
 
 ### CFSTR\_UNTRUSTEDDRAGDROP
 
-This format identifier is used by Windows Internet Explorer and the Windows Shell to provide a mechanism through which to block or prompt for drag-and-drop operations originating from Internet Explorer in conjunction with the [**URLACTION\_SHELL\_ENHANCED\_DRAGDROP\_SECURITY**](https://www.bing.com/search?q=**URLACTION\_SHELL\_ENHANCED\_DRAGDROP\_SECURITY**) flag.
+This format identifier is used by Windows Internet Explorer and the Windows Shell to provide a mechanism through which to block or prompt for drag-and-drop operations originating from Internet Explorer in conjunction with the [**URLACTION\_SHELL\_ENHANCED\_DRAGDROP\_SECURITY**](ie.URL_Action_Flags) flag.
 
-**CFSTR\_UNTRUSTEDDRAGDROP** is added by the source of a drag-and-drop operation to specify that the data object might contain untrustworthy data. The data is represented by an [**STGMEDIUM**](https://msdn.microsoft.com/en-us/library/ms683812(v=VS.85).aspx) structure that contains a global memory object. The structure's **hGlobal** member points to a **DWORD** set to an appropriate [**URL Action**](https://www.bing.com/search?q=**URL+Action**) flag to cause a policy check through the [**IInternetSecurityManager::ProcessUrlAction**](https://www.bing.com/search?q=**IInternetSecurityManager::ProcessUrlAction**) method, using the [**PUAF\_ENFORCERESTRICTED**](https://www.bing.com/search?q=**PUAF\_ENFORCERESTRICTED**) flag.
+**CFSTR\_UNTRUSTEDDRAGDROP** is added by the source of a drag-and-drop operation to specify that the data object might contain untrustworthy data. The data is represented by an [**STGMEDIUM**](https://msdn.microsoft.com/en-us/library/ms683812(v=VS.85).aspx) structure that contains a global memory object. The structure's **hGlobal** member points to a **DWORD** set to an appropriate [**URL Action**](ie.URL_Action_Flags) flag to cause a policy check through the [**IInternetSecurityManager::ProcessUrlAction**](ie.IInternetSecurityManager_ProcessUrlAction_Method) method, using the [**PUAF\_ENFORCERESTRICTED**](ie.PUAF_Enumerated_Type) flag.
 
 ### DragWindow
 

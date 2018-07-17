@@ -39,7 +39,7 @@ The device context on which the event occurred.
 *Rect* \[in\]
 </dt> <dd>
 
-The [**InkRectangle**](https://msdn.microsoft.com/en-us/library/ms700607(v=VS.85).aspx) that was repainted.
+The [**InkRectangle**](inkrectangle-class.md) that was repainted.
 
 </dd> </dl>
 

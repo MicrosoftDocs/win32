@@ -37,7 +37,7 @@ Users can control some aspects of file associations to customize how the Shell t
 
 In the Windows Explorer window shown in the screen shot below, the Shell displays different icons for each file, based on the icon associated with the file type. If the user double-clicks the file **Sample Bitmap Image**, the Shell launches Paint and uses it to open the file because on this system, Paint is associated with .bmp files. People can control these actions using file associations.
 
-![illustration of how file associations work in practice](https://www.bing.com/search?q=illustration+of+how+file+associations+work+in+practice)
+![illustration of how file associations work in practice](images/file-assoc/fileassoc-icons.png)
 
 ## When You Should Implement or Modify File Associations
 

@@ -15,7 +15,7 @@ In Windows 7 and later, you can use the **ExtendedSubCommandsKey** subkey to cr
 
 The following screen shot is an example of an extended cascading menu.
 
-![screen shot showing extended cascading menu for devices](https://www.bing.com/search?q=screen+shot+showing+extended+cascading+menu+for+devices)
+![screen shot showing extended cascading menu for devices](images/file-assoc/extendedsubcommandskey.png)
 
 Because **HKEY\_CLASSES\_ROOT** is a combination of **HKEY\_CURRENT\_USER** and **HKEY\_LOCAL\_MACHINE**, you can register the subverbs under the **HKEY\_CURRENT\_USER**\\**Software**\\**Classes** subkey. The advantage of doing so is that elevated permission is not required. Other file associations can reuse this entire set of verbs by specifying the same **ExtendedSubCommandsKey** subkey. If you do not need to reuse this set of verbs, you can list the verbs under the parent. In this case, make sure the default value of the parent is empty, as illustrated in the registry entry example in this section.
 
@@ -78,7 +78,7 @@ HKEY_CLASSES_ROOT
 
 The following screen shot is an illustration of the previous registry key entry examples.
 
-![screen shot showing an example of a cascading menu showing choices of notepad and wordpad](https://www.bing.com/search?q=screen+shot+showing+an+example+of+a+cascading+menu+showing+choices+of+notepad+and+wordpad)
+![screen shot showing an example of a cascading menu showing choices of notepad and wordpad](images/file-assoc/testcascademenu2.png)
 
  
 

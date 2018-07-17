@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # InkRecognizerContext.Recognition event
 
-Occurs when the [**InkRecognizerContext**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx) has generated results from the [**BackgroundRecognize**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognize) method.
+Occurs when the [**InkRecognizerContext**](inkrecognizercontext-class.md) has generated results from the [**BackgroundRecognize**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognize) method.
 
 ## Syntax
 
@@ -61,7 +61,7 @@ This event does not return a value.
 
 ## Remarks
 
-The behavior of the application programming interface (API) is unpredictable if you try to gain access to the original [**InkRecognizerContext**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx) object from the recognition event handler. Do not attempt to do this. Instead, if you need to do this, create a flag and set it in the [Recognition](ink-recognition.md) event handler. Then you can poll that flag to determine when to change the **InkRecognizerContext** properties outside of the event handler.
+The behavior of the application programming interface (API) is unpredictable if you try to gain access to the original [**InkRecognizerContext**](inkrecognizercontext-class.md) object from the recognition event handler. Do not attempt to do this. Instead, if you need to do this, create a flag and set it in the [Recognition](ink-recognition.md) event handler. Then you can poll that flag to determine when to change the **InkRecognizerContext** properties outside of the event handler.
 
 This event method is defined in the \_IInkEvents interface. The \_IInkEvents interface implements the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IRERecognition.
 
@@ -82,7 +82,7 @@ This event method is defined in the \_IInkEvents interface. The \_IInkEvents int
 
 <dl> <dt>
 
-[**InkRecognizerContext Class**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx)
+[**InkRecognizerContext Class**](inkrecognizercontext-class.md)
 </dt> <dt>
 
 [**BackgroundRecognize Method**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognize)

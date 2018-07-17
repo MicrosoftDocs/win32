@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # PenInputPanel.InputFailed event
 
-Deprecated. The [**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) has been replaced by the [Text Input Panel (TIP)](text-input-panel-reference.md).
+Deprecated. The [**PenInputPanel**](peninputpanel-class.md) has been replaced by the [Text Input Panel (TIP)](text-input-panel-reference.md).
 
-Occurs when input focus changes before the [**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) object was able to insert user input into the attached control.
+Occurs when input focus changes before the [**PenInputPanel**](peninputpanel-class.md) object was able to insert user input into the attached control.
 
 ## Syntax
 
@@ -36,7 +36,7 @@ HRESULT InputFailed(
 *hWnd* \[in\]
 </dt> <dd>
 
-The window handle of the control that invoked the [**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) object.
+The window handle of the control that invoked the [**PenInputPanel**](peninputpanel-class.md) object.
 
 </dd> <dt>
 
@@ -95,7 +95,7 @@ Using the window handle passed into this event, you can choose to insert the tex
 
 <dl> <dt>
 
-[**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx)
+[**PenInputPanel**](peninputpanel-class.md)
 </dt> </dl>
 
  

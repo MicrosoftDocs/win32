@@ -56,7 +56,7 @@ HRSRC _FindResource(
 
 <dl> <dt>
 
-[**FindResource**](https://www.bing.com/search?q=**FindResource**)
+[**FindResource**](_win32_findresource_cpp)
 </dt> </dl>
 
  

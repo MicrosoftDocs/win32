@@ -22,7 +22,7 @@ api_location:
 
 \[This function is a wrapper over the **SendMessage** function. This function may be altered or unavailable in the future. Applications should call **SendMessage** directly.\]
 
-Sends the specified message to a window or windows. See [**SendMessage**](https://www.bing.com/search?q=**SendMessage**).
+Sends the specified message to a window or windows. See [**SendMessage**](_win32_sendmessage_cpp).
 
 ## Syntax
 
@@ -56,7 +56,7 @@ LRESULT _SendMessage(
 
 <dl> <dt>
 
-[**SendMessage**](https://www.bing.com/search?q=**SendMessage**)
+[**SendMessage**](_win32_sendmessage_cpp)
 </dt> </dl>
 
  

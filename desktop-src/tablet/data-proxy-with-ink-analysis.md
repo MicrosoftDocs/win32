@@ -55,10 +55,10 @@ The on-demand approach only requires the data to be passed for those [**ContextN
 [**InkAnalyzer Class (C++)**](inkanalyzer.md)
 </dt> <dt>
 
-[**Microsoft.Ink.InkAnalyzer**](https://www.bing.com/search?q=**Microsoft.Ink.InkAnalyzer**)
+[**Microsoft.Ink.InkAnalyzer**](frlrfMicrosoftInkInkAnalyzerClassTopic)
 </dt> <dt>
 
-[**Microsoft.Ink.ContextNode**](https://www.bing.com/search?q=**Microsoft.Ink.ContextNode**)
+[**Microsoft.Ink.ContextNode**](frlrfMicrosoftInkContextNodeClassTopic)
 </dt> </dl>
 
  

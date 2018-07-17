@@ -13,13 +13,13 @@ ms.date: 05/31/2018
 
 The [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class provides a variety of drawing methods including those shown in the following list:
 
--   [DrawLine Methods](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(in const pen_in const point &_in const point &))
--   [DrawRectangle Methods](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(in const pen_in const rect &))
--   [DrawEllipse Methods](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawellipse(in const pen_in const rect &))
--   [DrawArc Methods](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawarc(in const pen_in const rect &_in real_in real))
+-   [DrawLine Methods](https://msdn.microsoft.com/en-us/library/ms535748(v=VS.85).aspx)
+-   [DrawRectangle Methods](https://msdn.microsoft.com/en-us/library/ms535755(v=VS.85).aspx)
+-   [DrawEllipse Methods](https://msdn.microsoft.com/en-us/library/ms535744(v=VS.85).aspx)
+-   [DrawArc Methods](https://msdn.microsoft.com/en-us/library/ms535733(v=VS.85).aspx)
 -   [**Graphics::DrawPath**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpath)
--   [DrawCurve Methods](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawcurve(in const pen_in const point_in int))
--   [DrawBezier Methods](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawbezier(in const pen_in const point &_in const point &_in const point &_in const point &))
+-   [DrawCurve Methods](https://msdn.microsoft.com/en-us/library/ms535742(v=VS.85).aspx)
+-   [DrawBezier Methods](https://msdn.microsoft.com/en-us/library/ms535734(v=VS.85).aspx)
 
 One of the arguments that you pass to such a drawing method is the address of a [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) object.
 

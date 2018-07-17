@@ -143,7 +143,7 @@ HKEY_LOCAL_MACHINE
                LocalizedString = @C:\Program Files\LitwareInc\ResourceDLL.dll,-123
 ```
 
-Note the use of the (Default) entry as a secondary declaration of the client's display name. If the **LocalizedString** is not present, the (Default) value is used instead. This works with all client types (Internet browsers, email browsers, instant messengers, and media players). For backward compatibility with the [Internet Explorer Client Registry Layout](https://www.bing.com/search?q=Internet+Explorer+Client+Registry+Layout), email programs should set the (Default) value of the *CanonicalName* subkey to the client's display name in the currently installed language.
+Note the use of the (Default) entry as a secondary declaration of the client's display name. If the **LocalizedString** is not present, the (Default) value is used instead. This works with all client types (Internet browsers, email browsers, instant messengers, and media players). For backward compatibility with the [Internet Explorer Client Registry Layout](_inet_Internet_Explorer_Client_Registry_Layout_cpp), email programs should set the (Default) value of the *CanonicalName* subkey to the client's display name in the currently installed language.
 
 ### Registering a Program's Icon
 
@@ -323,7 +323,7 @@ The command line must specify a fully qualified absolute path to the file, follo
 
 The reinstall command line declared in the ReinstallCommand value is executed when the user uses the **Set Program Access and Computer Defaults** page to select your program as the default for its client type. In Windows Vista and later, access to this page requires an Administrator privilege level. In Windows 8, if you have registered your application using the same name for both **Set Program Access and Computer Defaults** and **Default Programs**, the defaults specified in **Default Programs** for that application will be applied for the current user as well as running the reinstall command.
 
-The program launched by the reinstall command line must associate the application with the complete set of [file](fa-intro.md) and [protocol](https://www.bing.com/search?q=protocol) types the application can handle. All applications must establish handler capability in the reinstall command. Applications can use the reinstall command to register capability as well as optionally establish default status. When an application chooses to implement both capability and default handler status in the reinstall command, it should also reinstate any visible links or shortcuts desired. The visible entry points most applications choose are listed in [The Hide Icons Command](#the-hide-icons-command).
+The program launched by the reinstall command line must associate the application with the complete set of [file](fa-intro.md) and [protocol](_inet_Asynchronous_Pluggable_Protocols) types the application can handle. All applications must establish handler capability in the reinstall command. Applications can use the reinstall command to register capability as well as optionally establish default status. When an application chooses to implement both capability and default handler status in the reinstall command, it should also reinstate any visible links or shortcuts desired. The visible entry points most applications choose are listed in [The Hide Icons Command](#the-hide-icons-command).
 
 > [!Note]  
 > It is highly recommended that applications implement handling capability in the reinstall command.
@@ -603,7 +603,7 @@ HKEY_LOCAL_MACHINE
                   mailto
 ```
 
-This registry hierarchy replaces the existing `mailto` registry hierarchy found at **HKEY\_CLASSES\_ROOT**\\**mailto**. The hierarchy remains the same, only the location has changed. The format of this hierarchy is documented on MSDN under [Asynchronous Pluggable Protocol Overviews and Tutorials](https://www.bing.com/search?q=Asynchronous+Pluggable+Protocol+Overviews+and+Tutorials). Typically, the `mailto` protocol is registered to a program rather than an asynchronous protocol, in which case the documentation on [Registering an Application to a URI Scheme](https://www.bing.com/search?q=Registering+an+Application+to+a+URI+Scheme) applies.
+This registry hierarchy replaces the existing `mailto` registry hierarchy found at **HKEY\_CLASSES\_ROOT**\\**mailto**. The hierarchy remains the same, only the location has changed. The format of this hierarchy is documented on MSDN under [Asynchronous Pluggable Protocol Overviews and Tutorials](aplugprot_overviews_entry_cpp). Typically, the `mailto` protocol is registered to a program rather than an asynchronous protocol, in which case the documentation on [Registering an Application to a URI Scheme](ie.appendix_a_registering_an_application_to_a_url_protocol) applies.
 
 The following example shows the `mailto` section of the registration for a `mailto` handler registered to a program.
 
@@ -765,13 +765,13 @@ HKEY_LOCAL_MACHINE
 [How to Register an Internet Browser or Email Client With the Windows Start Menu](start-menu-reg.md)
 </dt> <dt>
 
-[Internet Explorer Client Registry Layout (see the "Client Registry Key Definitions" section)](https://www.bing.com/search?q=Internet+Explorer+Client+Registry+Layout+(see+the+"Client+Registry+Key+Definitions"+section))
+[Internet Explorer Client Registry Layout (see the "Client Registry Key Definitions" section)](_inet_Internet_Explorer_Client_Registry_Layout_cpp)
 </dt> <dt>
 
-[Asynchronous Pluggable Protocol Overviews and Tutorials](https://www.bing.com/search?q=Asynchronous+Pluggable+Protocol+Overviews+and+Tutorials)
+[Asynchronous Pluggable Protocol Overviews and Tutorials](aplugprot_overviews_entry_cpp)
 </dt> <dt>
 
-[Registering an Application to a URI Scheme](https://www.bing.com/search?q=Registering+an+Application+to+a+URI+Scheme)
+[Registering an Application to a URI Scheme](ie.appendix_a_registering_an_application_to_a_url_protocol)
 </dt> </dl>
 
  

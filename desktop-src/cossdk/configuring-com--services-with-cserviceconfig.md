@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Configuring COM+ Services with CServiceConfig
 
-The [**CServiceConfig**](https://msdn.microsoft.com/en-us/library/ms688295(v=VS.85).aspx) class is used to configure the COM+ services that can be used without components. It aggregates the free-threaded marshaler, so it can be used in different apartments. To configure an individual service, you must call [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) for the interface associated with the service and then call methods on that interface to establish the appropriate configuration. The following table describes the interfaces that are implemented through the **CServiceConfig** class.
+The [**CServiceConfig**](cserviceconfig.md) class is used to configure the COM+ services that can be used without components. It aggregates the free-threaded marshaler, so it can be used in different apartments. To configure an individual service, you must call [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) for the interface associated with the service and then call methods on that interface to establish the appropriate configuration. The following table describes the interfaces that are implemented through the **CServiceConfig** class.
 
 
 
@@ -41,7 +41,7 @@ Does not apply.
 
 ## C/C++
 
-The following code fragment illustrates how to create and configure a [**CServiceConfig**](https://msdn.microsoft.com/en-us/library/ms688295(v=VS.85).aspx) object to use COM+ transactions.
+The following code fragment illustrates how to create and configure a [**CServiceConfig**](cserviceconfig.md) object to use COM+ transactions.
 
 
 ```C++
@@ -85,7 +85,7 @@ if (FAILED(hr)) throw(hr);
 
 <dl> <dt>
 
-[**CServiceConfig**](https://msdn.microsoft.com/en-us/library/ms688295(v=VS.85).aspx)
+[**CServiceConfig**](cserviceconfig.md)
 </dt> <dt>
 
 [Using COM+ Services Through CoCreateActivity](using-com--services-through-cocreateactivity.md)

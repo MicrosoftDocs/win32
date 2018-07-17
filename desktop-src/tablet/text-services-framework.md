@@ -11,13 +11,13 @@ ms.date: 05/31/2018
 
 # Text Services Framework
 
-When the [Text Services Framework (TSF)](https://msdn.microsoft.com/en-us/library/ms629032(v=VS.85).aspx) is enabled on a control with a [PenInputPanel](https://www.bing.com/search?q=PenInputPanel) object attached, the PenInputPanel object can insert text directly. If the control does not support Text Services Framework (TSF), the PenInputPanel object must resort to using the [SendInput function](https://www.bing.com/search?q=SendInput+function) to insert text.
+When the [Text Services Framework (TSF)](https://msdn.microsoft.com/en-us/library/ms629032(v=VS.85).aspx) is enabled on a control with a [PenInputPanel](frlrfMicrosoftInkPenInputPanelClassTopic) object attached, the PenInputPanel object can insert text directly. If the control does not support Text Services Framework (TSF), the PenInputPanel object must resort to using the [SendInput function](_win32_SendInput_cpp) to insert text.
 
-The ability to insert text directly becomes very important for those inputting East Asian characters, where using the [SendInput function](https://www.bing.com/search?q=SendInput+function) can produce incorrect characters.
+The ability to insert text directly becomes very important for those inputting East Asian characters, where using the [SendInput function](_win32_SendInput_cpp) can produce incorrect characters.
 
 TSF provides an interface for correcting recognition errors enabling the end user to correct, rewrite, or even dictate the proper text.
 
-TSF is enabled by calling the [EnableTsf](https://www.bing.com/search?q=EnableTsf) method with the *enable* parameter set to **TRUE**.
+TSF is enabled by calling the [EnableTsf](frlrfMicrosoftInkPenInputPanelClassEnableTsfTopic) method with the *enable* parameter set to **TRUE**.
 
 \[C\#\]
 
@@ -30,7 +30,7 @@ thePenInputPanel.EnableTsf(true);
 
 
 
-A [PenInputPanel](https://www.bing.com/search?q=PenInputPanel) object attached to a [InkEdit](https://www.bing.com/search?q=InkEdit) control provides a robust user experience because the InkEdit supports TSF. However, be sure to set the [InkMode](https://www.bing.com/search?q=InkMode) property to [Microsoft.Ink.InkMode.Ink](https://www.bing.com/search?q=Microsoft.Ink.InkMode.Ink) on the InkEdit control as mentioned in the [Best Practices](best-practices.md) topic.
+A [PenInputPanel](frlrfMicrosoftInkPenInputPanelClassTopic) object attached to a [InkEdit](frlrfMicrosoftInkInkEditClassTopic) control provides a robust user experience because the InkEdit supports TSF. However, be sure to set the [InkMode](frlrfMicrosoftInkInkEditClassInkModeTopic) property to [Microsoft.Ink.InkMode.Ink](frlrfMicrosoftInkInkModeClassTopic) on the InkEdit control as mentioned in the [Best Practices](best-practices.md) topic.
 
 The [PenInputPanel Sample](peninputpanel-sample.md) provides an example of enabling TSF.
 

@@ -96,7 +96,7 @@ From a programmatic standpoint, the following cases need to be addressed.
 
 ## Remote Desktop and Bandwidth
 
-With the addition of the Remote Desktop feature to Windows XP, applications should make an effort not to use more bandwidth than needed, avoiding extensive screen drawings and animation effects if the desktop is connected remotely. To determine whether the current session is remote, you can call [**GetSystemMetrics**](https://www.bing.com/search?q=**GetSystemMetrics**) with **SM\_REMOTESESSION**. Be aware, however, that this call does not distinguish between remote and disconnected.
+With the addition of the Remote Desktop feature to Windows XP, applications should make an effort not to use more bandwidth than needed, avoiding extensive screen drawings and animation effects if the desktop is connected remotely. To determine whether the current session is remote, you can call [**GetSystemMetrics**](base.getsystemmetrics) with **SM\_REMOTESESSION**. Be aware, however, that this call does not distinguish between remote and disconnected.
 
  
 

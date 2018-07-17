@@ -32,7 +32,7 @@ This event does not return a value.
 
 ## Remarks
 
-For further details about this event, refer to the [**InkOverlay**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx) object's [**SelectionChanged**](inkoverlay-selectionchanged.md) event, which has the same functionality.
+For further details about this event, refer to the [**InkOverlay**](inkoverlay-class.md) object's [**SelectionChanged**](inkoverlay-selectionchanged.md) event, which has the same functionality.
 
 ## Requirements
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Ink Blog Web Sample
 
-The Ink Blog sample application demonstrates how to create a managed [UserControl](https://www.bing.com/search?q=UserControl) class that has inking capability and host that control in Microsoft Internet Explorer. The sample also demonstrates one technique for sending ink data across a network by using HTTP and for persisting ink on a server.
+The Ink Blog sample application demonstrates how to create a managed [UserControl](T:System.Windows.Forms.UserControl) class that has inking capability and host that control in Microsoft Internet Explorer. The sample also demonstrates one technique for sending ink data across a network by using HTTP and for persisting ink on a server.
 
 > [!Note]  
 > You must have Microsoft Internet Information Services (IIS) with ASP.NET installed to run this sample. Make sure that your computer meets the requirements necessary for ASP.NET applications to run on your computer.
@@ -35,9 +35,9 @@ There are two projects in the InkBlog solution: the **InkBlogControls** project 
 
 ## InkBlogControls Project
 
-The **InkBlogControls** project is a [UserControl](https://www.bing.com/search?q=UserControl) project that contains the code for the user control that enables inking on the Web page. The code for this control, the InkArea control, is in the InkArea.cs file.
+The **InkBlogControls** project is a [UserControl](T:System.Windows.Forms.UserControl) project that contains the code for the user control that enables inking on the Web page. The code for this control, the InkArea control, is in the InkArea.cs file.
 
-The `InkArea` Class inherits from the [UserControl](https://www.bing.com/search?q=UserControl) class. The constructor for the `InkArea` control calls a helper method, `CreateInkCollectionSurface`.
+The `InkArea` Class inherits from the [UserControl](T:System.Windows.Forms.UserControl) class. The constructor for the `InkArea` control calls a helper method, `CreateInkCollectionSurface`.
 
 
 ```C++
@@ -64,7 +64,7 @@ public InkArea()
 
 
 
-The `CreateInkCollectionSurface` method determines whether the Tablet PC inking components are available on the client by attempting to create an instance of the [InkCollector](https://www.bing.com/search?q=InkCollector) class. If the call to the `CreateInkCollectionSurface` method succeeds, the method returns a [Panel](https://www.bing.com/search?q=Panel) object as the control.
+The `CreateInkCollectionSurface` method determines whether the Tablet PC inking components are available on the client by attempting to create an instance of the [InkCollector](T:Microsoft.Ink.InkCollector) class. If the call to the `CreateInkCollectionSurface` method succeeds, the method returns a [Panel](T:System.Windows.Forms.Panel) object as the control.
 
 
 ```C++
@@ -87,7 +87,7 @@ protected Control CreateInkCollectionSurface()
 
 
 
-If the constructor fails because the inking platform files are not found, then the `InputArea` control is instantiated as a [TextBox](https://www.bing.com/search?q=TextBox) control rather than a [InkCollector](https://www.bing.com/search?q=InkCollector) control. The constructor then sizes the control to the size of the parent user control and adds it to the parent's Controls collection.
+If the constructor fails because the inking platform files are not found, then the `InputArea` control is instantiated as a [TextBox](T:System.Windows.Forms.TextBox) control rather than a [InkCollector](T:Microsoft.Ink.InkCollector) control. The constructor then sizes the control to the size of the parent user control and adds it to the parent's Controls collection.
 
 The InkArea control class implements three interesting public properties: InkData, TextData, and WebEnabled.
 
@@ -116,9 +116,9 @@ protected String SerializeInkData()
 
 
 
-In the `SerializeInkData` method, the cast to [InkCollector](https://www.bing.com/search?q=InkCollector) is necessary when obtaining the [Ink](https://www.bing.com/search?q=Ink) object, because `inputArea` is declared as a [Control](https://www.bing.com/search?q=Control). If the Ink object contains any strokes, the ink data is saved into the `inkDataBytes` byte array as a GIF (specified by using the [PersistenceFormat](https://www.bing.com/search?q=PersistenceFormat) enumeration value). The method then converts the byte array to a Base64-encoded string and returns this string.
+In the `SerializeInkData` method, the cast to [InkCollector](T:Microsoft.Ink.InkCollector) is necessary when obtaining the [Ink](T:Microsoft.Ink.Ink) object, because `inputArea` is declared as a [Control](T:System.Windows.Forms.Control). If the Ink object contains any strokes, the ink data is saved into the `inkDataBytes` byte array as a GIF (specified by using the [PersistenceFormat](T:Microsoft.Ink.PersistenceFormat) enumeration value). The method then converts the byte array to a Base64-encoded string and returns this string.
 
-Assuming that the client can perform recognition, the `TextData` property returns the [RecognitionResult](https://www.bing.com/search?q=RecognitionResult) object from passing the ink data to a handwriting recognizer. If the client is not ink-aware, the text box contents are returned, as shown in the following code.
+Assuming that the client can perform recognition, the `TextData` property returns the [RecognitionResult](T:Microsoft.Ink.RecognitionResult) object from passing the ink data to a handwriting recognizer. If the client is not ink-aware, the text box contents are returned, as shown in the following code.
 
 
 ```C++
@@ -140,7 +140,7 @@ public string TextData
 
 
 
-The `TextData` property calls a helper method, `RecognizeInkData`, shown in the following code, to carry out the recognition. When recognition engines are present on the system, the `RecognizeInkData` method returns a string containing the [RecognitionResult](https://www.bing.com/search?q=RecognitionResult) object's [TopString](https://www.bing.com/search?q=TopString) property. Otherwise, it returns an empty string.
+The `TextData` property calls a helper method, `RecognizeInkData`, shown in the following code, to carry out the recognition. When recognition engines are present on the system, the `RecognizeInkData` method returns a string containing the [RecognitionResult](T:Microsoft.Ink.RecognitionResult) object's [TopString](P:Microsoft.Ink.RecognitionResult.TopString) property. Otherwise, it returns an empty string.
 
 
 ```C++
@@ -282,7 +282,7 @@ If you have installed ASP.NET and the .NET Framework on a computer and you then 
 
 <dl> <dt>
 
-[InkCollector](https://www.bing.com/search?q=InkCollector)
+[InkCollector](T:Microsoft.Ink.InkCollector)
 </dt> <dt>
 
 [Ink on the Web](ink-on-the-web.md)
@@ -291,7 +291,7 @@ If you have installed ASP.NET and the .NET Framework on a computer and you then 
 [Ink Data Formats](ink-data-formats.md)
 </dt> <dt>
 
-[System.Windows.Forms.UserControl Class](https://www.bing.com/search?q=System.Windows.Forms.UserControl+Class)
+[System.Windows.Forms.UserControl Class](T:System.Windows.Forms.UserControl)
 </dt> </dl>
 
  

@@ -17,9 +17,9 @@ The following are the COM+ administration classes.
 
 | Class                                                          | Description                                                                                                                                            |
 |----------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**COMAdminCatalog**](https://msdn.microsoft.com/en-us/library/ms686842(v=VS.85).aspx)                     | Accesses the data that is stored in the COM+ catalog.                                                                                                  |
-| [**COMAdminCatalogCollection**](https://msdn.microsoft.com/en-us/library/ms679474(v=VS.85).aspx) | Represents any collection in the COM+ catalog. Use it to enumerate, add, remove, and retrieve items in a collection and to access related collections. |
-| [**COMAdminCatalogObject**](https://msdn.microsoft.com/en-us/library/ms679228(v=VS.85).aspx)         | Represents items in collections in the COM+ catalog. Use it to retrieve and modify properties exposed by an item in a collection.                      |
+| [**COMAdminCatalog**](comadmincatalog.md)                     | Accesses the data that is stored in the COM+ catalog.                                                                                                  |
+| [**COMAdminCatalogCollection**](comadmincatalogcollection.md) | Represents any collection in the COM+ catalog. Use it to enumerate, add, remove, and retrieve items in a collection and to access related collections. |
+| [**COMAdminCatalogObject**](comadmincatalogobject.md)         | Represents items in collections in the COM+ catalog. Use it to retrieve and modify properties exposed by an item in a collection.                      |
 
 
 

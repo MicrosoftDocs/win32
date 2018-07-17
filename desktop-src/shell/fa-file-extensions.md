@@ -23,7 +23,7 @@ This topic is organized as follows:
 
 In the following screen shot of Windows Explorer, the image file Desert.known appears in the Shell **Pictures** library, and is associated only with the Paint application.
 
-![screen shot showing explorer opening an image with no file type](https://www.bing.com/search?q=screen+shot+showing+explorer+opening+an+image+with+no+file+type)
+![screen shot showing explorer opening an image with no file type](images/file-assoc/fileassoc-filetypehandler.png)
 
 The Desert.known file in the preceding screen shot lacks the following functionality that is enabled by a file type handler:
 
@@ -40,7 +40,7 @@ The Desert.known file in the preceding screen shot lacks the following functiona
 
 In the following screen shot, the same file (Desert.known) has the .jpg extension, which is a registered file type that has associated file type handlers, so a thumbnail image and more properties are shown.
 
-![image with a registered file type and associated file type handlers](https://www.bing.com/search?q=image+with+a+registered+file+type+and+associated+file+type+handlers)
+![image with a registered file type and associated file type handlers](images/file-assoc/fileassoc-filetypehandler-2ndex.png)
 
 ## File Type Handler Descriptions
 
@@ -54,7 +54,7 @@ The functionality provided by each file type handler is listed in the following 
 | [Thumbnail](thumbnail-providers.md)                         | A handler that provides an image to represent a Shell item.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | [Property](https://msdn.microsoft.com/en-us/library/Cc144129(v=VS.85).aspx) | A property handler that provides access to item properties for Windows Search, the Windows Explorer and other applications that need to access properties.                                                                                                                                                                                                                                                                                                                                                                                                              |
 | [Preview](preview-handlers.md)                              | A handler that quickly produces a read-only, simplified view of the item to be displayed in the Windows Explorer preview pane.                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| [Filters](https://msdn.microsoft.com/en-us/library/Bb266533(v=VS.85).aspx)              | A filter, an implementation of the [**IFilter**](https://www.bing.com/search?q=**IFilter**) interface, that scans documents for text and properties (also called attributes). It extracts chunks of text from these documents, filtering out embedded formatting and retaining information about the position of the text. It also extracts chunks of values, which are properties of an entire document or of well defined parts of a document. **IFilter** provides the foundation for building higher-level applications such as document indexers and application-independent viewers. |
+| [Filters](https://msdn.microsoft.com/en-us/library/Bb266533(v=VS.85).aspx)              | A filter, an implementation of the [**IFilter**](search._search_IFilter) interface, that scans documents for text and properties (also called attributes). It extracts chunks of text from these documents, filtering out embedded formatting and retaining information about the position of the text. It also extracts chunks of values, which are properties of an entire document or of well defined parts of a document. **IFilter** provides the foundation for building higher-level applications such as document indexers and application-independent viewers. |
 
 
 

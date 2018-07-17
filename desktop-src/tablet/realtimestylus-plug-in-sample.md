@@ -11,26 +11,26 @@ ms.date: 05/31/2018
 
 # RealTimeStylus Plug-in Sample
 
-This application demonstrates working with the [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) class. For a detailed overview of the StylusInput APIs, including the **RealTimeStylus** class, see [Accessing and Manipulating Stylus Input](accessing-and-manipulating-stylus-input.md). For information about synchronous and asynchronous plug-ins, see [Plug-ins and the RealTimeStylus Class](plug-ins-and-the-realtimestylus-class.md).
+This application demonstrates working with the [**RealTimeStylus**](realtimestylus-class.md) class. For a detailed overview of the StylusInput APIs, including the **RealTimeStylus** class, see [Accessing and Manipulating Stylus Input](accessing-and-manipulating-stylus-input.md). For information about synchronous and asynchronous plug-ins, see [Plug-ins and the RealTimeStylus Class](plug-ins-and-the-realtimestylus-class.md).
 
 ## Overview of the Sample
 
-Plug-ins, objects that implement the [**IStylusSyncPlugin**](https://msdn.microsoft.com/en-us/library/ms704312(v=VS.85).aspx) or [**IStylusAsyncPlugin**](https://msdn.microsoft.com/en-us/library/ms702522(v=VS.85).aspx) interface can be added to a [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object. This sample application uses several types of plug-in:
+Plug-ins, objects that implement the [**IStylusSyncPlugin**](https://msdn.microsoft.com/en-us/library/ms704312(v=VS.85).aspx) or [**IStylusAsyncPlugin**](https://msdn.microsoft.com/en-us/library/ms702522(v=VS.85).aspx) interface can be added to a [**RealTimeStylus**](realtimestylus-class.md) object. This sample application uses several types of plug-in:
 
 -   Packet Filter Plug-in: Modifies packets. The packet filter plug-in in this sample modifies packet information by constraining all (x,y) packet data within a rectangular area.
 -   Custom Dynamic Renderer Plug-in: Modifies dynamic rendering qualities. The custom dynamic rendering plug-in in this sample modifies the way ink is rendered by drawing a small circle around each (x,y) point on a stroke.
 -   Dynamic Renderer Plug-in: Modifies dynamic rendering qualities. This sample demonstrates use of the [**DynamicRenderer**](https://msdn.microsoft.com/en-us/library/ms701168(v=VS.85).aspx) object as a plug-in to handle dynamic rendering of ink.
--   Gesture Recognizer Plug-in: Recognizes application gestures. This sample demonstrates use of the [**GestureRecognizer**](https://msdn.microsoft.com/en-us/library/ms700623(v=VS.85).aspx) object as a plug-in to recognize application gestures (when running on a system with the Microsoft gesture recognizer present).
+-   Gesture Recognizer Plug-in: Recognizes application gestures. This sample demonstrates use of the [**GestureRecognizer**](gesturerecognizer-class.md) object as a plug-in to recognize application gestures (when running on a system with the Microsoft gesture recognizer present).
 
-In addition, this sample provides a user interface that enables the user to add, remove, and change the order of each plug-in in the collection. The sample solution contains two projects, RealTimeStylusPluginApp and RealTimeStylusPlugins. RealTimeStylusPluginApp contains the user interface for the sample. RealTimeStylusPlugins contains the implementations of the plug-ins. The RealTimeStylusPlugins project defines the RealTimeStylusPlugins namespace, which contains the packet filter and custom dynamic renderer plug-ins. This namespace is referenced by the RealTimeStylusPluginApp project. The RealTimeStylusPlugins project uses the [Microsoft.Ink](https://www.bing.com/search?q=Microsoft.Ink), [Microsoft.StylusInput](https://www.bing.com/search?q=Microsoft.StylusInput), and [Microsoft.StylusInput.PluginData](https://www.bing.com/search?q=Microsoft.StylusInput.PluginData) namespaces.
+In addition, this sample provides a user interface that enables the user to add, remove, and change the order of each plug-in in the collection. The sample solution contains two projects, RealTimeStylusPluginApp and RealTimeStylusPlugins. RealTimeStylusPluginApp contains the user interface for the sample. RealTimeStylusPlugins contains the implementations of the plug-ins. The RealTimeStylusPlugins project defines the RealTimeStylusPlugins namespace, which contains the packet filter and custom dynamic renderer plug-ins. This namespace is referenced by the RealTimeStylusPluginApp project. The RealTimeStylusPlugins project uses the [Microsoft.Ink](frlrfMicrosoftInk), [Microsoft.StylusInput](frlrfMicrosoftStylusInput), and [Microsoft.StylusInput.PluginData](frlrfMicrosoftStylusInputPluginData) namespaces.
 
-For an overview of the [Microsoft.StylusInput](https://www.bing.com/search?q=Microsoft.StylusInput) and [Microsoft.StylusInput.PluginData](https://www.bing.com/search?q=Microsoft.StylusInput.PluginData) namespaces see [Architecture of the StylusInput APIs](architecture-of-the-stylusinput-apis.md).
+For an overview of the [Microsoft.StylusInput](frlrfMicrosoftStylusInput) and [Microsoft.StylusInput.PluginData](frlrfMicrosoftStylusInputPluginData) namespaces see [Architecture of the StylusInput APIs](architecture-of-the-stylusinput-apis.md).
 
 ## Packet Filter Plug-in
 
-The packet filter plug-in is a synchronous plug-in that demonstrates packet modification. Specifically, it defines a rectangle on the form. Any packets that are drawn outside the region are rendered inside the region. The plug-in class, `PacketFilterPlugin`, registers for notification of `StylusDown`, `StylusUp`, and `Packets` pen input events. The class implements the [StylusDown](https://www.bing.com/search?q=StylusDown), [StylusUp](https://www.bing.com/search?q=StylusUp), and [Packets](https://www.bing.com/search?q=Packets) methods defined on [**IStylusSyncPlugin**](https://msdn.microsoft.com/en-us/library/ms704312(v=VS.85).aspx) class.
+The packet filter plug-in is a synchronous plug-in that demonstrates packet modification. Specifically, it defines a rectangle on the form. Any packets that are drawn outside the region are rendered inside the region. The plug-in class, `PacketFilterPlugin`, registers for notification of `StylusDown`, `StylusUp`, and `Packets` pen input events. The class implements the [StylusDown](frlrfMicrosoftStylusInputIStylusSyncPluginClassStylusDownTopic), [StylusUp](frlrfMicrosoftStylusInputIStylusSyncPluginClassStylusUpTopic), and [Packets](frlrfMicrosoftStylusInputIStylusSyncPluginClassPacketsTopic) methods defined on [**IStylusSyncPlugin**](https://msdn.microsoft.com/en-us/library/ms704312(v=VS.85).aspx) class.
 
-The public constructor for `PacketFilterPlugin` requires a [Rectangle](https://www.bing.com/search?q=Rectangle) structure. This rectangle defines the rectangular area, in ink space coordinates (.01mm = 1 HIMETRIC unit), in which packets will be contained. The rectangle is held in a private field, `rectangle`.
+The public constructor for `PacketFilterPlugin` requires a [Rectangle](T:System.Drawing.Rectangle) structure. This rectangle defines the rectangular area, in ink space coordinates (.01mm = 1 HIMETRIC unit), in which packets will be contained. The rectangle is held in a private field, `rectangle`.
 
 
 ```C++
@@ -46,7 +46,7 @@ public class PacketFilterPlugin:IStylusSyncPlugin
 
 
 
-The `PacketFilterPlugin` class registers for event notifications by implementing the get accessor for the [DataInterest](https://www.bing.com/search?q=DataInterest) property. In this case, the plug-in has interested in responding to the `StylusDown`, `Packets`, `StylusUp`, and `Error` notifications. The sample returns these values as defined in the [DataInterestMask](https://www.bing.com/search?q=DataInterestMask) enumeration. The [StylusDown](https://www.bing.com/search?q=StylusDown) method is called when the pen tip contacts the digitizer surface. The [StylusUp](https://www.bing.com/search?q=StylusUp) method is called when the pen tip leaves the digitizer surface. The [Packets](https://www.bing.com/search?q=Packets) method is called when the [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object receives packets. The [Error](https://www.bing.com/search?q=Error) method is called when the current plug-in or a previous plug-in throws an exception.
+The `PacketFilterPlugin` class registers for event notifications by implementing the get accessor for the [DataInterest](frlrfMicrosoftStylusInputIStylusSyncPluginClassDataInterestTopic) property. In this case, the plug-in has interested in responding to the `StylusDown`, `Packets`, `StylusUp`, and `Error` notifications. The sample returns these values as defined in the [DataInterestMask](frlrfMicrosoftStylusInputDataInterestMaskClassTopic) enumeration. The [StylusDown](frlrfMicrosoftStylusInputIStylusSyncPluginClassStylusDownTopic) method is called when the pen tip contacts the digitizer surface. The [StylusUp](frlrfMicrosoftStylusInputIStylusSyncPluginClassStylusUpTopic) method is called when the pen tip leaves the digitizer surface. The [Packets](frlrfMicrosoftStylusInputIStylusSyncPluginClassPacketsTopic) method is called when the [**RealTimeStylus**](realtimestylus-class.md) object receives packets. The [Error](frlrfMicrosoftStylusInputIStylusSyncPluginClassErrorTopic) method is called when the current plug-in or a previous plug-in throws an exception.
 
 
 ```C++
@@ -65,7 +65,7 @@ public DataInterestMask DataInterest
 
 
 
-The `PacketFilterPlugin` class handles most of these notifications in a helper method, `ModifyPacketData`. The `ModifyPacketData` method gets the x and y values for each new packet from the [PacketsData](https://www.bing.com/search?q=PacketsData) class. If either value is outside the rectangle, the method replaces the value with the nearest point that still falls within the rectangle. This is an example of how a plug-in can replace packet data as it is received from the pen-input stream.
+The `PacketFilterPlugin` class handles most of these notifications in a helper method, `ModifyPacketData`. The `ModifyPacketData` method gets the x and y values for each new packet from the [PacketsData](frlrfMicrosoftStylusInputPluginDataPacketsDataClassTopic) class. If either value is outside the rectangle, the method replaces the value with the nearest point that still falls within the rectangle. This is an example of how a plug-in can replace packet data as it is received from the pen-input stream.
 
 
 ```C++
@@ -102,7 +102,7 @@ private void ModifyPacketData(StylusDataBase data)
 
 The `CustomDynamicRenderer` class also implements the [**IStylusSyncPlugin**](https://msdn.microsoft.com/en-us/library/ms704312(v=VS.85).aspx) class to receive pen-input notifications. It then handles the `Packets` notification to draw a small circle around each new packet point.
 
-The class contains a [Graphics](https://www.bing.com/search?q=Graphics) variable that holds a reference to the graphics object passed into the class constructor. This is the graphics object used for dynamic rendering.
+The class contains a [Graphics](T:System.Drawing.Graphics) variable that holds a reference to the graphics object passed into the class constructor. This is the graphics object used for dynamic rendering.
 
 
 ```C++
@@ -143,15 +143,15 @@ public void Packets(RealTimeStylus sender,  PacketsData data)
 
 ## The RealTimeStylusPluginApp Project
 
-The RealTimeStylusPluginApp project demonstrates the plug-ins previously described, as well as the [**GestureRecognizer**](https://msdn.microsoft.com/en-us/library/ms700623(v=VS.85).aspx) and [**DynamicRenderer**](https://msdn.microsoft.com/en-us/library/ms701168(v=VS.85).aspx) plug-ins. The project's user interface consists of:
+The RealTimeStylusPluginApp project demonstrates the plug-ins previously described, as well as the [**GestureRecognizer**](gesturerecognizer-class.md) and [**DynamicRenderer**](https://msdn.microsoft.com/en-us/library/ms701168(v=VS.85).aspx) plug-ins. The project's user interface consists of:
 
--   A Form that contains a [GroupBox](https://www.bing.com/search?q=GroupBox) control used to define the ink entry area.
--   A [CheckedListBox](https://www.bing.com/search?q=CheckedListBox) control to list and select the available plug-ins.
--   A pair of [Button objects](https://www.bing.com/search?q=Button+objects) to enable re-ordering the plug-ins.
+-   A Form that contains a [GroupBox](T:System.Windows.Forms.GroupBox) control used to define the ink entry area.
+-   A [CheckedListBox](T:System.Windows.Forms.CheckedListBox) control to list and select the available plug-ins.
+-   A pair of [Button objects](T:System.Windows.Forms.Button) to enable re-ordering the plug-ins.
 
 The project defines a structure, `PlugInListItem`, to make managing the plug-ins used in the project easier. The `PlugInListItem` structure contains the plug-in and a description.
 
-The `RealTimeStylusPluginApp` class itself implements the [**IStylusAsyncPlugin**](https://msdn.microsoft.com/en-us/library/ms702522(v=VS.85).aspx) class. This is necessary so that the `RealTimeStylusPluginApp` class can be notified when the [**GestureRecognizer**](https://msdn.microsoft.com/en-us/library/ms700623(v=VS.85).aspx) plug-in adds gesture data to the output queue. The application registers for notification of [CustomStylusDataAdded](https://www.bing.com/search?q=CustomStylusDataAdded). When gesture data is received, `RealTimeStylusPluginApp` places a description of it on the status bar at the bottom of the form.
+The `RealTimeStylusPluginApp` class itself implements the [**IStylusAsyncPlugin**](https://msdn.microsoft.com/en-us/library/ms702522(v=VS.85).aspx) class. This is necessary so that the `RealTimeStylusPluginApp` class can be notified when the [**GestureRecognizer**](gesturerecognizer-class.md) plug-in adds gesture data to the output queue. The application registers for notification of [CustomStylusDataAdded](frlrfMicrosoftStylusInputIStylusSyncPluginClassCustomStylusDataAddedTopic). When gesture data is received, `RealTimeStylusPluginApp` places a description of it on the status bar at the bottom of the form.
 
 
 ```C++
@@ -175,13 +175,13 @@ public void CustomStylusDataAdded(RealTimeStylus sender, CustomStylusData data)
 
 
 > [!Note]  
-> In the [CustomStylusDataAdded](https://www.bing.com/search?q=CustomStylusDataAdded) implementation, it is interesting that you can identify the custom gesture data in the output queue either by GUID (by using the [GestureRecognitionDataGuid](https://www.bing.com/search?q=GestureRecognitionDataGuid) field) or by type (by using the result from the as statement). The sample uses both identification techniques for demonstration purposes. Either approach alone is also valid.
+> In the [CustomStylusDataAdded](frlrfMicrosoftStylusInputIStylusSyncPluginClassCustomStylusDataAddedTopic) implementation, it is interesting that you can identify the custom gesture data in the output queue either by GUID (by using the [GestureRecognitionDataGuid](frlrfmicrosoftstylusinputgesturerecognizerclassgesturerecognitiondataguidtopic) field) or by type (by using the result from the as statement). The sample uses both identification techniques for demonstration purposes. Either approach alone is also valid.
 
  
 
-In the Form's Load event handler, the application creates instances of the `PacketFilter` and `CustomDynamicRenderer` classes and adds them to the list box. The application then attempts to create an instance of the [**GestureRecognizer**](https://msdn.microsoft.com/en-us/library/ms700623(v=VS.85).aspx) class and, if successful, adds it to the list box. This fails if the gesture recognizer is not present on the system. Next, the application instantiates a [**DynamicRenderer**](https://msdn.microsoft.com/en-us/library/ms701168(v=VS.85).aspx) object and adds it to the list box. Finally, the application enables each of the plug-ins and the [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object itself.
+In the Form's Load event handler, the application creates instances of the `PacketFilter` and `CustomDynamicRenderer` classes and adds them to the list box. The application then attempts to create an instance of the [**GestureRecognizer**](gesturerecognizer-class.md) class and, if successful, adds it to the list box. This fails if the gesture recognizer is not present on the system. Next, the application instantiates a [**DynamicRenderer**](https://msdn.microsoft.com/en-us/library/ms701168(v=VS.85).aspx) object and adds it to the list box. Finally, the application enables each of the plug-ins and the [**RealTimeStylus**](realtimestylus-class.md) object itself.
 
-Another important thing to note about the sample is that in the helper methods, the [**RealTimeStylus**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object is first disabled before plug-ins are added or removed and then re-enabled after the addition or removal is complete.
+Another important thing to note about the sample is that in the helper methods, the [**RealTimeStylus**](realtimestylus-class.md) object is first disabled before plug-ins are added or removed and then re-enabled after the addition or removal is complete.
 
 
 ```C++
@@ -202,25 +202,25 @@ private void RemoveFromPluginCollection(int index)
 
 <dl> <dt>
 
-[Microsoft.StylusInput.DynamicRenderer](https://www.bing.com/search?q=Microsoft.StylusInput.DynamicRenderer)
+[Microsoft.StylusInput.DynamicRenderer](frlrfMicrosoftStylusInputDynamicRendererClassTopic)
 </dt> <dt>
 
-[Microsoft.StylusInput.GestureRecognizer](https://www.bing.com/search?q=Microsoft.StylusInput.GestureRecognizer)
+[Microsoft.StylusInput.GestureRecognizer](frlrfMicrosoftStylusInputGestureRecognizerClassTopic)
 </dt> <dt>
 
-[Microsoft.StylusInput.RealTimeStylus](https://www.bing.com/search?q=Microsoft.StylusInput.RealTimeStylus)
+[Microsoft.StylusInput.RealTimeStylus](frlrfMicrosoftStylusInputRealTimeStylusClassTopic)
 </dt> <dt>
 
-[Microsoft.StylusInput.DataInterestMask](https://www.bing.com/search?q=Microsoft.StylusInput.DataInterestMask)
+[Microsoft.StylusInput.DataInterestMask](frlrfMicrosoftStylusInputDataInterestMaskClassTopic)
 </dt> <dt>
 
-[Microsoft.StylusInput.IStylusSyncPlugin](https://www.bing.com/search?q=Microsoft.StylusInput.IStylusSyncPlugin)
+[Microsoft.StylusInput.IStylusSyncPlugin](frlrfMicrosoftStylusInputIStylusSyncPluginClassTopic)
 </dt> <dt>
 
-[Microsoft.StylusInput.IStylusAsyncPlugin](https://www.bing.com/search?q=Microsoft.StylusInput.IStylusAsyncPlugin)
+[Microsoft.StylusInput.IStylusAsyncPlugin](frlrfMicrosoftStylusInputIStylusAsyncPluginClassTopic)
 </dt> <dt>
 
-[Microsoft.StylusInput.PluginData.PacketsData](https://www.bing.com/search?q=Microsoft.StylusInput.PluginData.PacketsData)
+[Microsoft.StylusInput.PluginData.PacketsData](frlrfMicrosoftStylusInputPluginDataPacketsDataClassTopic)
 </dt> <dt>
 
 [Accessing and Manipulating Stylus Input](accessing-and-manipulating-stylus-input.md)

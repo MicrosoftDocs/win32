@@ -31,7 +31,7 @@ SFVM_GETZONE
 *zone* \[out\]
 </dt> <dd>
 
-One of the following values indicating the Internet zone. These values constitute the [**URLZONE**](https://www.bing.com/search?q=**URLZONE**) enumeration, defined in Urlmon.h.
+One of the following values indicating the Internet zone. These values constitute the [**URLZONE**](ie.URLZONE_Enumerated_Type) enumeration, defined in Urlmon.h.
 
 <dt>
 
