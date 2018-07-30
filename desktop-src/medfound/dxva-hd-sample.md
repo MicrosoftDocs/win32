@@ -17,7 +17,7 @@ This sample is essentially a port of the [DXVA2\_VideoProc Sample](dxva2-videopr
 
 The sample programmatically generates video with a primary stream and a substream. The primary stream displays SMPTE color bars. The substream is alpha-blended onto the primary stream using luma keying. The user can change the video processing parameters, including the planar alpha value, source and destination rectangles, color adjustments, and color space. The following image shows that video that is generated.
 
-![screen shot of the dxva-hd sample](https://www.bing.com/search?q=screen+shot+of+the+dxva-hd+sample)
+![screen shot of the dxva-hd sample](images/dxva-hd-sample.png)
 
 ## APIs Demonstrated
 

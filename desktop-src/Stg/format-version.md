@@ -17,7 +17,7 @@ Property sets with Format Version 1 are equivalent to Version 0, with the follow
 
 -   **Case sensitive property names**. Property names are stored in the reserved dictionary property, [Property ID 0](https://msdn.microsoft.com/library/windows/desktop/aa380307). In version 1 property sets, these names can be case sensitive. Case sensitivity is determined by the reserved Behavior property, [Property ID 0x80000003](https://msdn.microsoft.com/library/windows/desktop/aa380307).
 -   **Long property names**. Version 1 property sets, unlike version 0 property sets, are not limited in the length of property names. See [Property ID 0](https://msdn.microsoft.com/library/windows/desktop/aa380307) for more information on property names.
--   **Property types**. Version 1 property sets can hold all the property types that can be held in a version 0 property set plus some additional types. See the [**PROPVARIANT**](/windows/desktop/api) structure for more information on these types.
+-   **Property types**. Version 1 property sets can hold all the property types that can be held in a version 0 property set plus some additional types. See the [**PROPVARIANT**](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx) structure for more information on these types.
 
  
 

@@ -49,7 +49,7 @@ ULONG WINAPI EnumerateTraceGuidsEx(
 *TraceQueryInfoClass* \[in\]
 </dt> <dd>
 
-Determines the type of information to include with the list of registered providers. For possible values, see the [**TRACE\_QUERY\_INFO\_CLASS**](https://www.bing.com/search?q=**TRACE\_QUERY\_INFO\_CLASS**) enumeration.
+Determines the type of information to include with the list of registered providers. For possible values, see the [**TRACE\_QUERY\_INFO\_CLASS**](https://msdn.microsoft.com/library/Aa364147(v=VS.85).aspx) enumeration.
 
 </dd> <dt>
 
@@ -346,7 +346,7 @@ cleanup:
 
 <dl> <dt>
 
-[**TRACE\_QUERY\_INFO\_CLASS**](https://www.bing.com/search?q=**TRACE\_QUERY\_INFO\_CLASS**)
+[**TRACE\_QUERY\_INFO\_CLASS**](https://msdn.microsoft.com/library/Aa364147(v=VS.85).aspx)
 </dt> </dl>
 
  

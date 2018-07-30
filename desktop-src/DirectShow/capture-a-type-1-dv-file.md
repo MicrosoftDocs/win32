@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 A type-1 DV AVI file contains a single interleaved stream. To capture a type-1 file while previewing, use the filter graph shown in the following diagram.
 
-![type-1 capture with preview](https://www.bing.com/search?q=type-1+capture+with+preview)
+![type-1 capture with preview](images/dv1-cap.png)
 
 Filters in this graph include:
 

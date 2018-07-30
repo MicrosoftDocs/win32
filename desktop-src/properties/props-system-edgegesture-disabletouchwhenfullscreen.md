@@ -69,13 +69,13 @@ HRESULT SetTouchDisableProperty(HWND hwnd, BOOL fDisableTouch)
 
 <dl> <dt>
 
-[propertyDescription](https://www.bing.com/search?q=propertyDescription)
+[propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx)
 </dt> <dt>
 
-[searchInfo](https://www.bing.com/search?q=searchInfo)
+[searchInfo](https://msdn.microsoft.com/library/Bb773885(v=VS.85).aspx)
 </dt> <dt>
 
-[typeInfo](https://www.bing.com/search?q=typeInfo)
+[typeInfo](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx)
 </dt> </dl>
 
  

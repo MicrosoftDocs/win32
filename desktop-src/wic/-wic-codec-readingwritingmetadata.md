@@ -49,7 +49,7 @@ The more advanced method is to directly access the metadata handlers. A metadata
 
 The following diagram of the contents of a JPEG image file is used throughout the examples in this topic. The image represented by this diagram was created by using Microsoft Paint; the rating metadata was added by using the Photo Gallery feature of Windows Vista.
 
-![illustration of jpeg image with rating metadata](https://www.bing.com/search?q=illustration+of+jpeg+image+with+rating+metadata)
+![illustration of jpeg image with rating metadata](graphics/jpeg.png)
 
 ## Reading Metadadata Using a Query Reader
 
@@ -127,7 +127,7 @@ Similarly, a query reader can also be obtained at the decoder level. A simple ca
 
 Before you move on to actually reading metadata, look at the following diagram of a JPEG file that includes embedded metadata blocks and actual data to retrieve. This diagram provides callouts to specific metadata blocks and items within the image providing the metadata query expression to each block or item.
 
-![illustration of jpeg image with metadata callouts](https://www.bing.com/search?q=illustration+of+jpeg+image+with+metadata+callouts)
+![illustration of jpeg image with metadata callouts](graphics/jpegwithcallouts.png)
 
 To query for embedded metadata blocks or specific items by name, call the **GetMetadataByName** method. This method takes a query expression and a [PROPVARIANT](http://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) in which the metadata item is returned. The following code queries for a nested metadata block and converts the [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509(VS.85).aspx) component provided by the PROPVARIANT value to a query reader if found.
 
@@ -481,7 +481,7 @@ This method uses a separate query writer is created that is based on the data of
 
 Again, these operations to copy metadata only work when the source and destination images have the same format. This is because different image formats store the metadata blocks in different locations. For instance, both JPEG and TIFF support XMP metadata blocks. In JPEG images, the XMP block is at the root metadata block as illustrated in the [WIC Metadata Overview](-wic-about-metadata.md). However, in a TIFF image, the XMP block is nested in a root IFD block. The following diagram illustrates the differences between a JPEG image and a TIFF image with the same rating metadata.
 
-![jpeg and tiff comparison.](https://www.bing.com/search?q=jpeg+and+tiff+comparison.)
+![jpeg and tiff comparison.](graphics/jpgvstiff.png)
 
 ## Fast Metadata Encoding
 

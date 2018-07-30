@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # WM\_IME\_ENDCOMPOSITION message
 
-Sent to an application when the IME ends composition. A window receives this message through its [**WindowProc**](https://www.bing.com/search?q=**WindowProc**) function.
+Sent to an application when the IME ends composition. A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -39,7 +39,7 @@ This message has no return value.
 
 An application should process this message if it displays composition characters itself.
 
-If the application has created an IME window, it should pass this message to that window. The [**DefWindowProc**](https://www.bing.com/search?q=**DefWindowProc**) function processes this message by passing it to the default IME window.
+If the application has created an IME window, it should pass this message to that window. The [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function processes this message by passing it to the default IME window.
 
 ## Requirements
 

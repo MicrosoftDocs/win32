@@ -54,7 +54,7 @@ This message does not return a value.
 
 ## Remarks
 
-When sent to a combo box, the **WM\_COPY** message is handled by its edit control. This message has no effect when sent to a combo box with the [**CBS\_DROPDOWNLIST**](https://www.bing.com/search?q=**CBS\_DROPDOWNLIST**) style.
+When sent to a combo box, the **WM\_COPY** message is handled by its edit control. This message has no effect when sent to a combo box with the [**CBS\_DROPDOWNLIST**](https://msdn.microsoft.com/library/Bb775796(v=VS.85).aspx) style.
 
 ## Requirements
 

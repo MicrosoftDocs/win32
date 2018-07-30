@@ -31,7 +31,7 @@ You can use the following attributes with this control. To change the value of a
 
 ## Remarks
 
-This control can be created from the STATIC class by using the [**CreateWindowEx**](https://www.bing.com/search?q=**CreateWindowEx**) function. It has the **SS\_ETCHEDHORZ** and **SS\_SUNKEN** styles.
+This control can be created from the STATIC class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the **SS\_ETCHEDHORZ** and **SS\_SUNKEN** styles.
 
  
 

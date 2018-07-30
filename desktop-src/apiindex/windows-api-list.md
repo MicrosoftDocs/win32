@@ -31,7 +31,7 @@ The Windows UI API create and use windows to display output, prompt for user inp
     -   [Carets](https://msdn.microsoft.com/en-us/library/Ff468799(v=VS.85).aspx)
     -   [Combo Boxes](https://msdn.microsoft.com/en-us/library/Ff485897(v=VS.85).aspx)
     -   [Common Dialog Boxes](https://msdn.microsoft.com/en-us/library/Ff468807(v=VS.85).aspx)
-    -   [Common Controls](https://www.bing.com/search?q=Common+Controls)
+    -   [Common Controls](https://msdn.microsoft.com/library/Bb773169(v=VS.85).aspx)
     -   [Cursors](https://msdn.microsoft.com/en-us/library/Ff468814(v=VS.85).aspx)
     -   [Dialog Boxes](https://msdn.microsoft.com/en-us/library/Ff468824(v=VS.85).aspx)
     -   [Edit Controls](https://msdn.microsoft.com/en-us/library/Ff485919(v=VS.85).aspx)
@@ -60,7 +60,7 @@ The Windows UI API create and use windows to display output, prompt for user inp
 -   [Windows Property System](https://msdn.microsoft.com/en-us/library/Ff728872(v=VS.85).aspx)
 -   [Windows Shell](https://msdn.microsoft.com/en-us/library/Ff521731(v=VS.85).aspx)
 -   [Windows Search](https://msdn.microsoft.com/en-us/library/Ee872061(v=VS.85).aspx)
--   [Consoles](https://www.bing.com/search?q=Consoles)
+-   [Consoles](https://msdn.microsoft.com/library/ms682087(v=VS.85).aspx)
 
 ## User Input and Messaging
 
@@ -125,7 +125,7 @@ The Windows UI API create and use windows to display output, prompt for user inp
 
 ## Diagnostics
 
-The [Diagnostics](https://www.bing.com/search?q=Diagnostics) API enable you to troubleshoot application or system problems and monitor performance.
+The [Diagnostics](https://msdn.microsoft.com/library/Bb648685(v=VS.85).aspx) API enable you to troubleshoot application or system problems and monitor performance.
 
 -   [Application Recovery and Restart](https://msdn.microsoft.com/en-us/library/Aa373342(v=VS.85).aspx)
 -   [Debugging](https://msdn.microsoft.com/en-us/library/ms679304(v=VS.85).aspx)
@@ -138,7 +138,7 @@ The [Diagnostics](https://www.bing.com/search?q=Diagnostics) API enable you to t
 -   [Performance Counters](https://msdn.microsoft.com/en-us/library/Aa373088(v=VS.85).aspx)
 -   [Performance Logs and Alerts (PLA)](https://msdn.microsoft.com/en-us/library/Aa372631(v=VS.85).aspx)
 -   [Process Snapshotting](https://msdn.microsoft.com/en-us/library/Dn457826(v=VS.85).aspx)
--   [Process Status (PSAPI)](https://www.bing.com/search?q=Process+Status+(PSAPI))
+-   [Process Status (PSAPI)](https://msdn.microsoft.com/library/ms684895(v=VS.85).aspx)
 -   [Structured Exception Handling](https://msdn.microsoft.com/en-us/library/ms680660(v=VS.85).aspx)
 -   [System Monitor](https://msdn.microsoft.com/en-us/library/Aa379757(v=VS.85).aspx)
 -   [Wait Chain Traversal](https://msdn.microsoft.com/en-us/library/ms681622(v=VS.85).aspx)
@@ -148,7 +148,7 @@ The [Diagnostics](https://www.bing.com/search?q=Diagnostics) API enable you to t
 
 ## Graphics and Multimedia
 
-The [Graphics, multimedia,](https://www.bing.com/search?q=Graphics,+multimedia,) [audio, and video](https://msdn.microsoft.com/en-us/library/Ee663260(v=VS.85).aspx) APIs enable applications to incorporate formatted text, graphics, audio, and video.
+The [Graphics, multimedia,](https://msdn.microsoft.com/library/Aa969176(v=VS.85).aspx) [audio, and video](https://msdn.microsoft.com/en-us/library/Ee663260(v=VS.85).aspx) APIs enable applications to incorporate formatted text, graphics, audio, and video.
 
 -   [Core Audio](https://msdn.microsoft.com/en-us/library/Dd316602(v=VS.85).aspx)
 -   [Direct2D](https://msdn.microsoft.com/en-us/library/Dd372349(v=VS.85).aspx)
@@ -160,7 +160,7 @@ The [Graphics, multimedia,](https://www.bing.com/search?q=Graphics,+multimedia,)
 -   [Microsoft Media Foundation](https://msdn.microsoft.com/en-us/library/ms704847(v=VS.85).aspx)
 -   [Microsoft TV Technologies](https://msdn.microsoft.com/en-us/library/Dd695084(v=VS.85).aspx)
 -   [Windows Imaging Component (WIC)](https://msdn.microsoft.com/en-us/library/Ee719800(v=VS.85).aspx)
--   [Windows Media Audio and Video Codec and DSP](https://www.bing.com/search?q=Windows+Media+Audio+and+Video+Codec+and+DSP)
+-   [Windows Media Audio and Video Codec and DSP](https://msdn.microsoft.com/library/Dd443208(v=VS.85).aspx)
 -   [Windows Media Center](https://msdn.microsoft.com/en-us/library/Dd370843(v=VS.85).aspx)
 -   [Windows Media Format](https://msdn.microsoft.com/en-us/library/Dd757577(v=VS.85).aspx)
 -   [Windows Media Library Sharing Services](https://msdn.microsoft.com/en-us/library/Dd316885(v=VS.85).aspx)
@@ -179,7 +179,7 @@ The [Graphics, multimedia,](https://www.bing.com/search?q=Graphics,+multimedia,)
 -   [Image Mastering](https://msdn.microsoft.com/en-us/library/Aa366224(v=VS.85).aspx)
 -   [Location](https://msdn.microsoft.com/en-us/library/Dd317755(v=VS.85).aspx)
 -   [PnP-X Association Database](https://msdn.microsoft.com/en-us/library/Aa814084(v=VS.85).aspx)
--   [Printing](https://www.bing.com/search?q=Printing)
+-   [Printing](https://msdn.microsoft.com/library/Ff551767(v=VS.85).aspx)
     -   [Print Spooler](https://msdn.microsoft.com/en-us/library/Dd162863(v=VS.85).aspx)
     -   [Print Document Package](https://msdn.microsoft.com/en-us/library/Hh448418(v=VS.85).aspx)
     -   [Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
@@ -187,7 +187,7 @@ The [Graphics, multimedia,](https://www.bing.com/search?q=Graphics,+multimedia,)
     -   [XPS Print](https://msdn.microsoft.com/en-us/library/Dd374565(v=VS.85).aspx)
 -   [Sensors](https://msdn.microsoft.com/en-us/library/Dd318966(v=VS.85).aspx)
 -   [System Event Notification Service (SENS)](https://msdn.microsoft.com/en-us/library/Aa377589(v=VS.85).aspx)
--   [Tool Help](https://www.bing.com/search?q=Tool+Help)
+-   [Tool Help](https://msdn.microsoft.com/library/ms686840(v=VS.85).aspx)
 -   [UPnP](https://msdn.microsoft.com/en-us/library/Aa382303(v=VS.85).aspx)
 -   [Web Services on Devices](https://msdn.microsoft.com/en-us/library/Aa386288(v=VS.85).aspx)
 -   [Windows Image Acquisition (WIA)](https://msdn.microsoft.com/en-us/library/ms629861(v=VS.85).aspx)
@@ -196,7 +196,7 @@ The [Graphics, multimedia,](https://www.bing.com/search?q=Graphics,+multimedia,)
 
 ## System Services
 
-The [System Services](https://www.bing.com/search?q=System+Services) APIs give applications access to the resources of the computer and the features of the underlying operating system, such as memory, file systems, devices, processes, and threads.
+The [System Services](https://msdn.microsoft.com/library/Aa969179(v=VS.85).aspx) APIs give applications access to the resources of the computer and the features of the underlying operating system, such as memory, file systems, devices, processes, and threads.
 
 -   [COM](https://msdn.microsoft.com/en-us/library/ms693341(v=VS.85).aspx)
 -   [COM+](https://msdn.microsoft.com/en-us/library/ms687816(v=VS.85).aspx)
@@ -232,7 +232,7 @@ The [Security and Identity](https://msdn.microsoft.com/en-us/library/Gg537265(v=
 -   [Certificate Enrollment](https://msdn.microsoft.com/en-us/library/Aa374874(v=VS.85).aspx)
 -   [Cryptography](https://msdn.microsoft.com/en-us/library/Aa380256(v=VS.85).aspx)
 -   [Cryptographic Next Generation (CNG)](https://msdn.microsoft.com/en-us/library/Aa376214(v=VS.85).aspx)
--   [Directory Services](https://www.bing.com/search?q=Directory+Services)
+-   [Directory Services](https://msdn.microsoft.com/library/ms682458(v=VS.85).aspx)
     -   [Active Directory Domain Services](https://msdn.microsoft.com/en-us/library/Aa772146(v=VS.85).aspx)
     -   [Active Directory Service Interfaces (ADSI)](https://msdn.microsoft.com/en-us/library/Aa772218(v=VS.85).aspx)
 -   [Extensible Authentication Protocol (EAP)](https://msdn.microsoft.com/en-us/library/Aa363504(v=VS.85).aspx)
@@ -269,13 +269,13 @@ The [System administration](https://msdn.microsoft.com/en-us/library/Hh309472(v=
 -   [Software Licensing](https://msdn.microsoft.com/en-us/library/Bb540850(v=VS.85).aspx)
 -   [Restart Manager](https://msdn.microsoft.com/en-us/library/Cc948910(v=VS.85).aspx)
 -   [Settings Management Infrastructure](https://msdn.microsoft.com/en-us/library/Aa817312(v=VS.85).aspx)
--   [System Restore](https://www.bing.com/search?q=System+Restore)
+-   [System Restore](https://msdn.microsoft.com/library/Dd408121(v=VS.85).aspx)
 -   [System Shutdown](https://msdn.microsoft.com/en-us/library/Aa376882(v=VS.85).aspx)
 -   [Task Scheduler](https://msdn.microsoft.com/en-us/library/Aa383614(v=VS.85).aspx)
 -   [User Access Logging](https://msdn.microsoft.com/en-us/library/Hh437531(v=VS.85).aspx)
 -   [Windows Virtual PC](https://msdn.microsoft.com/en-us/library/Dd796758(v=VS.85).aspx)
 -   [Microsoft Virtual Server](https://msdn.microsoft.com/en-us/library/Bb309134(v=VS.85).aspx)
--   [Network Load Balancing Provider](https://www.bing.com/search?q=Network+Load+Balancing+Provider)
+-   [Network Load Balancing Provider](https://msdn.microsoft.com/library/Aa371728(v=VS.85).aspx)
 -   [Windows Defender WMI v2](https://msdn.microsoft.com/en-us/library/Dn439477(v=VS.85).aspx)
 -   [Windows Deployment Services](https://msdn.microsoft.com/en-us/library/Dd379586(v=VS.85).aspx)
 -   [Windows Genuine Advantage](https://msdn.microsoft.com/en-us/library/Ee428179(v=VS.85).aspx)
@@ -328,7 +328,7 @@ The [Networking](https://msdn.microsoft.com/en-us/library/Gg537258(v=VS.85).aspx
 -   [Windows Internet (WinINet)](https://msdn.microsoft.com/en-us/library/Aa385483(v=VS.85).aspx)
 -   [Windows Networking (WNet)](https://msdn.microsoft.com/en-us/library/Aa385397(v=VS.85).aspx)
 -   [Windows Network Virtualization](https://msdn.microsoft.com/en-us/library/JJ673986(v=VS.85).aspx)
--   [Windows RSS Platform](https://www.bing.com/search?q=Windows+RSS+Platform)
+-   [Windows RSS Platform](https://msdn.microsoft.com/library/ms684702(v=VS.85).aspx)
 -   [Windows Sockets (Winsock)](https://msdn.microsoft.com/en-us/library/ms741416(v=VS.85).aspx)
 -   [Windows Web Services](https://msdn.microsoft.com/en-us/library/Dd430470(v=VS.85).aspx)
 -   [XML HTTP Extended Request](https://msdn.microsoft.com/en-us/library/Hh831163(v=VS.85).aspx)
@@ -337,8 +337,8 @@ The [Networking](https://msdn.microsoft.com/en-us/library/Gg537258(v=VS.85).aspx
 
 The following are technologies and APIs that are outdated or have been replaced or deprecated from the Windows client and server operating systems.
 
--   [DirectMusic](https://www.bing.com/search?q=DirectMusic)
--   [DirectSound](https://www.bing.com/search?q=DirectSound)
+-   [DirectMusic](https://msdn.microsoft.com/library/ms807133(v=MSDN.10).aspx)
+-   [DirectSound](https://msdn.microsoft.com/library/Ee416975(v=VS.85).aspx)
 -   [Graphics Device Interface (GDI)](https://msdn.microsoft.com/en-us/library/Dd145203(v=VS.85).aspx): Use [Direct2D](https://msdn.microsoft.com/en-us/library/Dd372349(v=VS.85).aspx) instead.
 -   [GDI+](https://msdn.microsoft.com/en-us/library/ms533799(v=VS.85).aspx): Use [Direct2D](https://msdn.microsoft.com/en-us/library/Dd372349(v=VS.85).aspx) instead.
 -   [Microsoft UDDI SDK](https://msdn.microsoft.com/en-us/library/Aa966237(v=BTS.10).aspx) is now included with [Microsoft BizTalk Server](http://go.microsoft.com/fwlink/p/?LinkID=122067).

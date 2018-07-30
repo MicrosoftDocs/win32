@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # WM\_IME\_NOTIFY message
 
-Sent to an application to notify it of changes to the IME window. A window receives this message through its [**WindowProc**](https://www.bing.com/search?q=**WindowProc**) function.
+Sent to an application to notify it of changes to the IME window. A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++

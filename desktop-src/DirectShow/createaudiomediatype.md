@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - CreateAudioMediaType
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - Strmbase.lib
 - Strmbase.dll
 - Strmbasd.lib
@@ -23,7 +23,7 @@ api_location:
 
 # CreateAudioMediaType function
 
-The **CreateAudioMediaType** function initializes a media type from a [**WAVEFORMATEX**](https://www.bing.com/search?q=**WAVEFORMATEX**) structure.
+The **CreateAudioMediaType** function initializes a media type from a [**WAVEFORMATEX**](https://msdn.microsoft.com/en-us/library/Dd390970(v=VS.85).aspx) structure.
 
 ## Syntax
 
@@ -45,7 +45,7 @@ HRESULT STDAPI CreateAudioMediaType(
 *pwfx* 
 </dt> <dd>
 
-Pointer to the supplied [**WAVEFORMATEX**](https://www.bing.com/search?q=**WAVEFORMATEX**) structure.
+Pointer to the supplied [**WAVEFORMATEX**](https://msdn.microsoft.com/en-us/library/Dd390970(v=VS.85).aspx) structure.
 
 </dd> <dt>
 

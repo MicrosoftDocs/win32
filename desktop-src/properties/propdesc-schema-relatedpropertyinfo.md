@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # relatedPropertyInfo
 
-New for Windows 7. Container element for [relatedProperty](https://www.bing.com/search?q=relatedProperty) elements. There should be only one [relatedPropertyInfo](https://www.bing.com/search?q=relatedPropertyInfo) element for each [propertyDescription](https://www.bing.com/search?q=propertyDescription) element.
+New for Windows 7. Container element for [relatedProperty](https://msdn.microsoft.com/library/Dd798384(v=VS.85).aspx) elements. There should be only one [relatedPropertyInfo](https://msdn.microsoft.com/library/Dd798385(v=VS.85).aspx) element for each [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx) element.
 
 ## Syntax
 
@@ -45,7 +45,7 @@ New for Windows 7. Container element for [relatedProperty](https://www.bing.com
 
 | Parent Element                                                   | Child Elements                                           |
 |------------------------------------------------------------------|----------------------------------------------------------|
-| [propertyDescription](https://www.bing.com/search?q=propertyDescription) | [relatedProperty](https://www.bing.com/search?q=relatedProperty) |
+| [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx) | [relatedProperty](https://msdn.microsoft.com/library/Dd798384(v=VS.85).aspx) |
 
 
 

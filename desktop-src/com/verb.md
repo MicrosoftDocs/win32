@@ -30,9 +30,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
 
 Each verb is a **REG\_SZ** value of the form "*name*, *menu\_flag*, *verb\_flag*". Verbs must be numbered consecutively.
 
-The *name* describes how the verb is appended by an [**AppendMenu**](https://www.bing.com/search?q=**AppendMenu**) function call. For example, "&Play".
+The *name* describes how the verb is appended by an [**AppendMenu**](https://msdn.microsoft.com/library/ms647616(v=VS.85).aspx) function call. For example, "&Play".
 
-The *menu\_flag* value indicates how the verb should appear in the menu. All flags supported by [**AppendMenu**](https://www.bing.com/search?q=**AppendMenu**) are supported, except for MF\_BITMAP, MF\_OWNERDRAW, and MF\_POPUP.
+The *menu\_flag* value indicates how the verb should appear in the menu. All flags supported by [**AppendMenu**](https://msdn.microsoft.com/library/ms647616(v=VS.85).aspx) are supported, except for MF\_BITMAP, MF\_OWNERDRAW, and MF\_POPUP.
 
 The *verb\_flag* value describes attributes of the verbs. Use one of the values from [**OLEVERBATTRIB**](/windows/desktop/api/OleIdl/ne-oleidl-tagoleverbattrib), or 0.
 
@@ -42,7 +42,7 @@ For more information, see [**OLEVERB**](/windows/desktop/api/OleIdl/ns-oleidl-ta
 
 <dl> <dt>
 
-[**AppendMenu**](https://www.bing.com/search?q=**AppendMenu**)
+[**AppendMenu**](https://msdn.microsoft.com/library/ms647616(v=VS.85).aspx)
 </dt> <dt>
 
 [**OLEVERB**](/windows/desktop/api/OleIdl/ns-oleidl-tagoleverb)

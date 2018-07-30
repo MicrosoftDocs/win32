@@ -7,20 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - HashedData.Algorithm
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - Capicom.dll
 ---
 
 # HashedData.Algorithm property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**HashAlgorithm Class**](https://www.bing.com/search?q=**HashAlgorithm+Class**) in the [**System.Security.Cryptography**](https://www.bing.com/search?q=**System.Security.Cryptography**) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**HashAlgorithm Class**](https://msdn.microsoft.com/library/k50cye1b(v=VS.96).aspx) in the [**System.Security.Cryptography**](https://msdn.microsoft.com/library/9eat8fht(v=VS.100).aspx) namespace.\]
 
 The **Algorithm** property sets or retrieves the type of hashing algorithm used.
 

@@ -22,7 +22,7 @@ api_location:
 
 \[This function is available through Windows XP with Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**InitCommonControlsEx**](https://msdn.microsoft.com/en-us/library/Bb775697(v=VS.85).aspx) instead.\]
 
-Registers a window class that allows for the [SysLink](_inet_syslink_overview) common control to be used in a window.
+Registers a window class that allows for the [SysLink](https://msdn.microsoft.com/library/Bb760706(v=VS.85).aspx) common control to be used in a window.
 
 ## Syntax
 
@@ -65,7 +65,7 @@ Use [**LinkWindow\_UnregisterClass**](linkwindow-unregisterclass.md) to unregist
 
 <dl> <dt>
 
-[Overview of SysLink Controls](_inet_syslink_overview)
+[Overview of SysLink Controls](https://msdn.microsoft.com/library/Bb760706(v=VS.85).aspx)
 </dt> </dl>
 
  

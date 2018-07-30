@@ -19,7 +19,7 @@ All strings in the environment block must be sorted alphabetically by name. The 
 
 ## Example 1
 
-By default, a child process inherits a copy of the environment block of the parent process. The following example demonstrates how to create a new environment block to pass to a child process using [**CreateProcess**](/windows/desktop/api).
+By default, a child process inherits a copy of the environment block of the parent process. The following example demonstrates how to create a new environment block to pass to a child process using [**CreateProcess**](https://msdn.microsoft.com/en-us/library/ms682425(v=VS.85).aspx).
 
 This example uses the code in example three as the child process, Ex3.exe.
 

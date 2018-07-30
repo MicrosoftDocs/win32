@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Defining the Clipping Region
 
-When the user clicks Define Clip Region , the system issues a [**WM\_COMMAND**](https://www.bing.com/search?q=**WM\_COMMAND**) message. The *wParam* parameter of this message contains an application-defined constant, IDM\_DEFINE, that indicates that the user selected this option from the menu. The application processes this input by setting a Boolean flag, fDefineRegion, as shown in the following code sample.
+When the user clicks Define Clip Region , the system issues a [**WM\_COMMAND**](https://msdn.microsoft.com/library/ms647591(v=VS.85).aspx) message. The *wParam* parameter of this message contains an application-defined constant, IDM\_DEFINE, that indicates that the user selected this option from the menu. The application processes this input by setting a Boolean flag, fDefineRegion, as shown in the following code sample.
 
 
 ```C++
@@ -28,7 +28,7 @@ case WM_COMMAND:
 
 After clicking **Define Clipping Region** , the user can begin drawing the rectangle by clicking and dragging the mouse while the cursor is in the application's client area.
 
-When the user presses the left button, the system issues a [**WM\_LBUTTONDOWN**](https://www.bing.com/search?q=**WM\_LBUTTONDOWN**) message. The *lParam* parameter of this message contains the cursor coordinates, which correspond to the upper left corner of a rectangle used to define the clipping region. The application processes the **WM\_LBUTTONDOWN** message, as follows.
+When the user presses the left button, the system issues a [**WM\_LBUTTONDOWN**](https://msdn.microsoft.com/library/ms645607(v=VS.85).aspx) message. The *lParam* parameter of this message contains the cursor coordinates, which correspond to the upper left corner of a rectangle used to define the clipping region. The application processes the **WM\_LBUTTONDOWN** message, as follows.
 
 
 ```C++
@@ -106,7 +106,7 @@ switch (message)
 
 
 
-As the user drags the mouse, the system issues [**WM\_MOUSEMOVE**](https://www.bing.com/search?q=**WM\_MOUSEMOVE**) messages and stores the new cursor coordinates in the *lParam* parameter. Each time the application receives a new **WM\_MOUSEMOVE** message, it erases the previous rectangle (if one exists) and draws the new rectangle by calling the [**Polyline**](/windows/desktop/api/Wingdi/nf-wingdi-polyline) function, passing it the coordinates of the four corners of the rectangle. The application performs the following tasks.
+As the user drags the mouse, the system issues [**WM\_MOUSEMOVE**](https://msdn.microsoft.com/library/ms645616(v=VS.85).aspx) messages and stores the new cursor coordinates in the *lParam* parameter. Each time the application receives a new **WM\_MOUSEMOVE** message, it erases the previous rectangle (if one exists) and draws the new rectangle by calling the [**Polyline**](/windows/desktop/api/Wingdi/nf-wingdi-polyline) function, passing it the coordinates of the four corners of the rectangle. The application performs the following tasks.
 
 
 ```C++

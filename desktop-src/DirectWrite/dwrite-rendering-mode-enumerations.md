@@ -51,12 +51,12 @@ The table here shows the old enumeration values and the new values they are mapp
 <td>Represents a method of rendering glyphs. <br/>
 <blockquote>
 [!Note]<br />
-This topic is about [<strong>DWRITE_RENDERING_MODE</strong>](/windows/desktop/api/dwrite/ne-dwrite-dwrite_rendering_mode) in Windows 8 and later. For info on the previous version see [<strong>this topic</strong>](https://www.bing.com/search?q=<strong>this+topic</strong>).
+This topic is about [<strong>DWRITE_RENDERING_MODE</strong>](/windows/desktop/api/dwrite/ne-dwrite-dwrite_rendering_mode) in Windows 8 and later. For info on the previous version see [<strong>this topic</strong>](https://msdn.microsoft.com/en-us/library/JJ710196(v=VS.85).aspx).
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>DWRITE_RENDERING_MODE</strong>](https://www.bing.com/search?q=<strong>DWRITE_RENDERING_MODE</strong>)<br/></td>
+<td>[<strong>DWRITE_RENDERING_MODE</strong>](https://msdn.microsoft.com/en-us/library/Dd368118(v=VS.85).aspx)<br/></td>
 <td>Represents a method of rendering glyphs. <br/>
 <blockquote>
 [!Note]<br />

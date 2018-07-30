@@ -50,7 +50,7 @@ RADIOBUTTON "Italic", 100, 10, 10, 40, 10
 
 <dl> <dt>
 
-[**GetDialogBaseUnits**](https://www.bing.com/search?q=**GetDialogBaseUnits**)
+[**GetDialogBaseUnits**](https://msdn.microsoft.com/library/ms645475(v=VS.85).aspx)
 </dt> <dt>
 
 [Radio Buttons](https://www.bing.com/search?q=Radio+Buttons)

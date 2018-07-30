@@ -40,15 +40,15 @@ The following images illustrate a Ribbon application that supports multiple Ribb
 
 The following screen shot shows the Ribbon with large images for the Zoom controls.
 
-![screen shot showing a ribbon that uses large images for the zoom controls.](https://www.bing.com/search?q=screen+shot+showing+a+ribbon+that+uses+large+images+for+the+zoom+controls.)
+![screen shot showing a ribbon that uses large images for the zoom controls.](images/overviews/imageresources-largeimage.png)
 
 The following screen shot shows the same Ribbon resized with small images for the Zoom controls
 
-![screen shot showing a ribbon that uses small images for the zoom controls.](https://www.bing.com/search?q=screen+shot+showing+a+ribbon+that+uses+small+images+for+the+zoom+controls.)
+![screen shot showing a ribbon that uses small images for the zoom controls.](images/overviews/imageresources-smallimage.png)
 
 The following screen shot shows the ribbon in hidden state. The ribbon is hidden when all potential control layouts have been exhausted and the ribbon cannot be rendered with a usable application workspace.
 
-![screen shot showing a collapsed ribbon.](https://www.bing.com/search?q=screen+shot+showing+a+collapsed+ribbon.)
+![screen shot showing a collapsed ribbon.](images/overviews/imageresources-noimage.png)
 
 For any image, the exact pixel size is dependent on the display resolution, or dots per inch (dpi), of the monitor being used. At 96 dpi, large images are 32x32 pixels in size and small images are 16x16 pixels in size. The image sizes increase in a linear fashion relative to dpi as illustrated in the following table.
 

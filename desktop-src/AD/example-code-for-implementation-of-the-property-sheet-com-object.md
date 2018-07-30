@@ -21,7 +21,7 @@ The following code example can be used to implement an Active Directory property
 
 ## IShellExtInit Implementation
 
-The following C++ code example can be used to implement the [**IShellExtInit**](https://www.bing.com/search?q=**IShellExtInit**) methods.
+The following C++ code example can be used to implement the [**IShellExtInit**](https://msdn.microsoft.com/library/Bb775096(v=VS.85).aspx) methods.
 
 
 ```C++
@@ -132,7 +132,7 @@ STDMETHODIMP CPropSheetExt::Initialize( LPCITEMIDLIST pidlFolder,
 
 ## IShellPropSheetExt Implementation
 
-The following C++ code example can be used to implement the [**IShellPropSheetExt**](https://www.bing.com/search?q=**IShellPropSheetExt**) methods.
+The following C++ code example can be used to implement the [**IShellPropSheetExt**](https://msdn.microsoft.com/library/Bb774880(v=VS.85).aspx) methods.
 
 
 ```C++

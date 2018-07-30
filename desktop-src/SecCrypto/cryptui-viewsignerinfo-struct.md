@@ -136,7 +136,7 @@ The number of elements in the **rgPropSheetPages** array.
 **rgPropSheetPages**
 </dt> <dd>
 
-An array of [**PROPSHEETPAGE**](https://www.bing.com/search?q=**PROPSHEETPAGE**) structure pointers that define any extra pages to display in the standard dialog box. If this member is **NULL**, no additional pages will be displayed. The **cPropSheetPages** member contains the number of elements in this array.
+An array of [**PROPSHEETPAGE**](https://msdn.microsoft.com/library/Bb774548(v=VS.85).aspx) structure pointers that define any extra pages to display in the standard dialog box. If this member is **NULL**, no additional pages will be displayed. The **cPropSheetPages** member contains the number of elements in this array.
 
 </dd> </dl>
 

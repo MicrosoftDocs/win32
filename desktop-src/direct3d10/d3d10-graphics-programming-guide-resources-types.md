@@ -76,12 +76,12 @@ An index buffer contains a sequential set of 16-bit or 32-bit indices; each inde
 The sequential indices stored in an index buffer are located with the following parameters:
 
 -   Offset - the number of bytes from the start of the buffer to the first index. The offset is supplied to [**IASetIndexBuffer**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-iasetindexbuffer).
--   StartIndexLocation - the number of bytes from the offset to the first vertex used by the appropriate draw call (see [Draw Methods](https://www.bing.com/search?q=Draw+Methods)).
+-   StartIndexLocation - the number of bytes from the offset to the first vertex used by the appropriate draw call (see [Draw Methods](https://msdn.microsoft.com/library/Bb205117(v=VS.85).aspx)).
 -   IndexCount - the number of indices to render.
 
 To create an index buffer, call [**CreateBuffer**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-createbuffer).
 
-An index buffer can stitch together multiple [line or triangle strips](https://www.bing.com/search?q=line+or+triangle+strips) by separating each with a strip-cut index. A strip-cut index allows multiple line or triangle strips to be drawn with a single draw call. A strip-cut index is simply the maximum possible value for the index (0xffff for a 16-bit index, 0xffffffff for a 32-bit index). The strip-cut index resets the winding order in indexed primitives and can be used to remove the need for degenerate triangles that may otherwise be required to maintain proper winding order in a triangle strip. The following illustration shows an example of a strip-cut index.
+An index buffer can stitch together multiple [line or triangle strips](https://msdn.microsoft.com/library/Bb205124(v=VS.85).aspx) by separating each with a strip-cut index. A strip-cut index allows multiple line or triangle strips to be drawn with a single draw call. A strip-cut index is simply the maximum possible value for the index (0xffff for a 16-bit index, 0xffffffff for a 32-bit index). The strip-cut index resets the winding order in indexed primitives and can be used to remove the need for degenerate triangles that may otherwise be required to maintain proper winding order in a triangle strip. The following illustration shows an example of a strip-cut index.
 
 ![illustration of a strip-cut index](images/d3d10-ia-strips-cut-value.png)
 

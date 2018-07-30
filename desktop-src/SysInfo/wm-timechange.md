@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 A message that is sent whenever there is a change in the system time.
 
-A window receives this message through its [**WindowProc**](https://www.bing.com/search?q=**WindowProc**) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -83,7 +83,7 @@ An application should not broadcast this message, because the system will broadc
 
 <dl> <dt>
 
-[**SendMessage**](https://www.bing.com/search?q=**SendMessage**)
+[**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx)
 </dt> </dl>
 
  

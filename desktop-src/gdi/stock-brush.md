@@ -19,7 +19,7 @@ The following illustration shows rectangles painted by using the seven predefine
 
 An application can retrieve a handle identifying one of the seven stock brushes by calling the [**GetStockObject**](/windows/desktop/api/Wingdi/nf-wingdi-getstockobject) function, specifying the brush type.
 
-The 21 stock brushes maintained by the window management interface correspond to the colors of window elements such as menus, scroll bars, and buttons. An application can obtain a handle identifying one of these brushes by calling the [**GetSysColorBrush**](/windows/desktop/api/Winuser/nf-winuser-getsyscolorbrush) function and specifying a system-color value. An application can retrieve the color corresponding to a particular window element by calling the [**GetSysColor**](https://www.bing.com/search?q=**GetSysColor**) function. An application can set the color corresponding to a window element by calling the [**SetSysColors**](https://www.bing.com/search?q=**SetSysColors**) function.
+The 21 stock brushes maintained by the window management interface correspond to the colors of window elements such as menus, scroll bars, and buttons. An application can obtain a handle identifying one of these brushes by calling the [**GetSysColorBrush**](/windows/desktop/api/Winuser/nf-winuser-getsyscolorbrush) function and specifying a system-color value. An application can retrieve the color corresponding to a particular window element by calling the [**GetSysColor**](https://msdn.microsoft.com/library/ms724371(v=VS.85).aspx) function. An application can set the color corresponding to a window element by calling the [**SetSysColors**](https://msdn.microsoft.com/library/ms724940(v=VS.85).aspx) function.
 
  
 

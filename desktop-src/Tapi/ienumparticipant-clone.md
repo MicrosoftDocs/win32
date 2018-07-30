@@ -1,0 +1,88 @@
+---
+Description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.
+ms.assetid: 551e0ddc-7ebf-4fc2-a155-0c9ee2f406d4
+title: IEnumParticipant::Clone method
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# IEnumParticipant::Clone method
+
+\[**Clone** is not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API provides similar functionality.\]
+
+The **Clone** method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.
+
+## Syntax
+
+
+```C++
+);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*ppEnum* \[out\]
+</dt> <dd>
+
+Pointer to new [**IEnumParticipant**](ienumparticipant.md) interface.
+
+</dd> </dl>
+
+## Return value
+
+This method can return one of these values.
+
+
+
+| Return code                                                                                   | Description                                                     |
+|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| <dl> <dt>**S\_OK**</dt> </dl>          | Method succeeded.<br/>                                    |
+| <dl> <dt>**E\_POINTER**</dt> </dl>     | The *ppEnum* parameter is not a valid pointer.<br/>       |
+| <dl> <dt>**E\_OUTOFMEMORY**</dt> </dl> | Insufficient memory exists to perform the operation.<br/> |
+| <dl> <dt>**E\_UNEXPECTED**</dt> </dl>  | Failed for unknown reasons.<br/>                          |
+
+
+
+ 
+
+## Remarks
+
+TAPI calls the [**AddRef**](https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx) method on the [**IEnumParticipant**](ienumparticipant.md) interface returned by **IEnumParticipant::Clone**. The application must call [**Release**](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) on the **IEnumParticipant** interface to free resources associated with it.
+
+## Requirements
+
+
+
+|                         |                                                                                       |
+|-------------------------|---------------------------------------------------------------------------------------|
+| TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
+| Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |
+| Library<br/>      | <dl> <dt>Uuid.lib</dt> </dl>   |
+| DLL<br/>          | <dl> <dt>Tapi3.dll</dt> </dl>  |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**IEnumParticipant**](ienumparticipant.md)
+</dt> <dt>
+
+[**ITParticipant**](itparticipant.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

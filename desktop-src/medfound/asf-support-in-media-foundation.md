@@ -26,7 +26,7 @@ First, the *pipeline* layer contains objects that work inside the [Media Foundat
 
 Second, the WM Container layer provides low-level control over parsing and writing an ASF file. The pipeline layer uses WMContainer internally. Applications can also use WMContainer for low-level ASF parsing and writing.
 
-![diagram showing elements of the pipeline layer and the wm container](https://www.bing.com/search?q=diagram+showing+elements+of+the+pipeline+layer+and+the+wm+container)
+![diagram showing elements of the pipeline layer and the wm container](images/asf-components.png)
 
 ## In this section
 

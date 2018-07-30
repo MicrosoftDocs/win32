@@ -111,8 +111,8 @@ The following functions are used with high-resolution performance counters.
 
 | Function                                                              | Description                                                             |
 |-----------------------------------------------------------------------|-------------------------------------------------------------------------|
-| [**QueryPerformanceCounter**](https://www.bing.com/search?q=**QueryPerformanceCounter**)     | Retrieves the current value of the high-resolution performance counter. |
-| [**QueryPerformanceFrequency**](https://www.bing.com/search?q=**QueryPerformanceFrequency**) | Retrieves the frequency of the high-resolution performance counter.     |
+| [**QueryPerformanceCounter**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx)     | Retrieves the current value of the high-resolution performance counter. |
+| [**QueryPerformanceFrequency**](https://msdn.microsoft.com/library/ms644905(v=VS.85).aspx) | Retrieves the frequency of the high-resolution performance counter.     |
 
 
 

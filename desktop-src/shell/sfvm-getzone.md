@@ -31,7 +31,7 @@ SFVM_GETZONE
 *zone* \[out\]
 </dt> <dd>
 
-One of the following values indicating the Internet zone. These values constitute the [**URLZONE**](ie.URLZONE_Enumerated_Type) enumeration, defined in Urlmon.h.
+One of the following values indicating the Internet zone. These values constitute the [**URLZONE**](https://msdn.microsoft.com/library/ms537175(v=VS.85).aspx) enumeration, defined in Urlmon.h.
 
 <dt>
 

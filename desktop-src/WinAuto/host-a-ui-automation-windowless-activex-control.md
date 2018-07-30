@@ -34,7 +34,7 @@ Learn how to create a control container that can host windowless Microsoft Activ
 
 ### Step 1: Provide the IRawElementProviderSimple interface on behalf of the windowless control.
 
-Whenever the system needs the [**IRawElementProviderSimple**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple) pointer for the root of a windowless control, the system queries the control container. To retrieve the pointer, the container calls the windowless control's implementation of the [**IServiceProvider::QueryService**](https://www.bing.com/search?q=**IServiceProvider::QueryService**) method.
+Whenever the system needs the [**IRawElementProviderSimple**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple) pointer for the root of a windowless control, the system queries the control container. To retrieve the pointer, the container calls the windowless control's implementation of the [**IServiceProvider::QueryService**](https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx) method.
 
 If the control container has a UI Automation implementation, it can return the windowless control's [**IRawElementProviderSimple**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple) pointer to the system.
 

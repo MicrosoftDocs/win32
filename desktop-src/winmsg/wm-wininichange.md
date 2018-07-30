@@ -18,7 +18,7 @@ An application sends the **WM\_WININICHANGE** message to all top-level windows a
 
  
 
-A window receives this message through its [**WindowProc**](https://www.bing.com/search?q=**WindowProc**) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -53,7 +53,7 @@ If you process this message, return zero.
 
 ## Remarks
 
-To send the **WM\_WININICHANGE** message to all top-level windows, use the [**SendMessage**](https://www.bing.com/search?q=**SendMessage**) function with the *hWnd* parameter set to **HWND\_BROADCAST**.
+To send the **WM\_WININICHANGE** message to all top-level windows, use the [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx) function with the *hWnd* parameter set to **HWND\_BROADCAST**.
 
 Calls to functions that change WIN.INI may be mapped to the registry instead. This mapping occurs when WIN.INI and the section being changed are specified in the registry under the following key:
 

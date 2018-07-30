@@ -33,7 +33,7 @@ The following topics contain step-by-step instructions about using WMContainer t
 
 The WMContainer objects interact directly with ASF file objects. The following diagram shows the ASF file structure and the corresponding WMContainer objects.
 
-![diagram showing the asf file structure and corresponding media foundation objects](https://www.bing.com/search?q=diagram+showing+the+asf+file+structure+and+corresponding+media+foundation+objects)
+![diagram showing the asf file structure and corresponding media foundation objects](images/asf-components01.png)
 
 Except for the splitter and multiplexer, each of these objects supports both parsing (reading) and writing ASF files. The splitter is used only for reading ASF files. The multiplexer is used only for authoring new ASF files.
 

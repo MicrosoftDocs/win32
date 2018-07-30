@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ISampleGrabber.SetMediaType
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - strmiids.lib
 - strmiids.dll
 ---
@@ -60,7 +60,7 @@ By default, the Sample Grabber has no preferred media type. To ensure that the S
 
 This method restricts the range of media types that the filter will accept. When the filter connects, it tries to match the media type given in *pType*. To do so, it compares the major type, subtype, and format type GUIDs, in that order. For each of these GUIDs, if *pType* has the value GUID\_NULL, the Sample Grabber accepts the media type without any further checks. If *pType* has any other value, the Sample Grabber compares it to the GUID in the connection type. Unless the two GUIDs match exactly, the Sample Grabber rejects the connection.
 
-For video media types, the Sample Grabber ignores the format block. Therefore, it will accept any video size and frame rate. When you call `SetMediaType`, set the format block (**pbFormat**) to **NULL** and the size (**cbFormat**) to zero. For audio media types, the Sample Grabber will examine the [**WAVEFORMATEX**](https://www.bing.com/search?q=**WAVEFORMATEX**) structure and will require the other filter to connect with that format — unless the format block in *pType* is **NULL**, or the format tag is WAVE\_FORMAT\_PCM and the other structure members are zero.
+For video media types, the Sample Grabber ignores the format block. Therefore, it will accept any video size and frame rate. When you call `SetMediaType`, set the format block (**pbFormat**) to **NULL** and the size (**cbFormat**) to zero. For audio media types, the Sample Grabber will examine the [**WAVEFORMATEX**](https://msdn.microsoft.com/en-us/library/Dd390970(v=VS.85).aspx) structure and will require the other filter to connect with that format — unless the format block in *pType* is **NULL**, or the format tag is WAVE\_FORMAT\_PCM and the other structure members are zero.
 
 Example 1:
 

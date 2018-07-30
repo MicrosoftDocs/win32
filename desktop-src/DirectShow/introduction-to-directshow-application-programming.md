@@ -26,7 +26,7 @@ Filters receive input and produce output. For example, if a filter decodes MPEG-
 
 In DirectShow, an application performs any task by connecting chains of filters together, so that the output from one filter becomes the input for another. A set of connected filters is called a *filter graph*. For example, the following diagram shows a filter graph for playing an AVI file.
 
-![filter graph to play an avi file](https://www.bing.com/search?q=filter+graph+to+play+an+avi+file)
+![filter graph to play an avi file](images/avi-filter-graph.png)
 
 The File Source filter reads the AVI file from the hard disk. The AVI Splitter filter parses the file into two streams, a compressed video stream and an audio stream. The AVI Decompressor filter decodes the video frames. The Video Renderer filter draws the frames to the display, using DirectDraw or GDI. The Default DirectSound Device filter plays the audio stream, using DirectSound.
 

@@ -20,7 +20,7 @@ api_location:
 
 # Algorithm object
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**AlgorithmIdentifier Class**](https://www.bing.com/search?q=**AlgorithmIdentifier+Class**) in the [**System.Security.Cryptography.Pkcs**](https://www.bing.com/search?q=**System.Security.Cryptography.Pkcs**) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**AlgorithmIdentifier Class**](https://msdn.microsoft.com/library/2bd6bc84(v=VS.90).aspx) in the [**System.Security.Cryptography.Pkcs**](https://msdn.microsoft.com/library/6see7k14(v=VS.90).aspx) namespace.\]
 
 The **Algorithm** object specifies the algorithm used for signing, enveloping, and encrypting operations.
 

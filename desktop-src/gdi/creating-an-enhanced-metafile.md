@@ -15,7 +15,7 @@ This section contains an example that demonstrates the creation of an enhanced m
 
 The example uses a device context for the application window as the reference device context. (The system stores the resolution data for this device in the enhanced-metafile's header.) The application retrieves a handle identifying this device context by calling the [**GetDC**](/windows/desktop/api/Winuser/nf-winuser-getdc) function.
 
-The example uses the dimensions of the application's client area to define the dimensions of the picture frame. Using the rectangle dimensions returned by the [**GetClientRect**](https://www.bing.com/search?q=**GetClientRect**) function, the application converts the device units to .01-millimeter units and passes the converted values to the [**CreateEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-createenhmetafilea) function.
+The example uses the dimensions of the application's client area to define the dimensions of the picture frame. Using the rectangle dimensions returned by the [**GetClientRect**](https://msdn.microsoft.com/library/ms633503(v=VS.85).aspx) function, the application converts the device units to .01-millimeter units and passes the converted values to the [**CreateEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-createenhmetafilea) function.
 
 The example displays a **Save As** common dialog box that enables the user to specify the file name of the new enhanced metafile. The system appends the three-character .emf extension to this file name and passes the name to the [**CreateEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-createenhmetafilea) function.
 

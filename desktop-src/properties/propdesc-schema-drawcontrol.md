@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # drawControl
 
-Specifies what control to use when simply displaying the property. There should be only one [drawControl](https://www.bing.com/search?q=drawControl) element for each [displayInfo](https://www.bing.com/search?q=displayInfo) element.
+Specifies what control to use when simply displaying the property. There should be only one [drawControl](https://msdn.microsoft.com/library/Bb773866(v=VS.85).aspx) element for each [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) element.
 
-If there are multiple elements, the last one is used. If no [drawControl](https://www.bing.com/search?q=drawControl) element is provided, then the default attribute settings are applied to the property description.
+If there are multiple elements, the last one is used. If no [drawControl](https://msdn.microsoft.com/library/Bb773866(v=VS.85).aspx) element is provided, then the default attribute settings are applied to the property description.
 
 This form of the control does not allow for property editing.
 
@@ -51,7 +51,7 @@ This form of the control does not allow for property editing.
 
 | Parent Element                                   | Child Elements |
 |--------------------------------------------------|----------------|
-| [displayInfo](https://www.bing.com/search?q=displayInfo) | None           |
+| [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) | None           |
 
 
 
@@ -110,7 +110,7 @@ This form of the control does not allow for property editing.
 </tr>
 <tr class="odd">
 <td>StaticText</td>
-<td>Uses [<strong>IPropertyDescription::FormatForDisplay</strong>](https://www.bing.com/search?q=<strong>IPropertyDescription::FormatForDisplay</strong>) to display the property value.</td>
+<td>Uses [<strong>IPropertyDescription::FormatForDisplay</strong>](https://msdn.microsoft.com/library/Bb761521(v=VS.85).aspx>) to display the property value.</td>
 </tr>
 <tr class="even">
 <td>IconList</td>

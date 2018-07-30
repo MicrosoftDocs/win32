@@ -15,7 +15,7 @@ The **WM\_QUERYENDSESSION** message is sent when the user chooses to end the ses
 
 After processing this message, the system sends the [**WM\_ENDSESSION**](wm-endsession.md) message with the *wParam* parameter set to the results of the **WM\_QUERYENDSESSION** message.
 
-A window receives this message through its [**WindowProc**](https://www.bing.com/search?q=**WindowProc**) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -77,7 +77,7 @@ Note that this parameter is a bit mask. To test for this value, use a bit-wise o
 
 ## Return value
 
-Applications should respect the user's intentions and return **TRUE**. By default, the [**DefWindowProc**](https://www.bing.com/search?q=**DefWindowProc**) function returns **TRUE** for this message.
+Applications should respect the user's intentions and return **TRUE**. By default, the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function returns **TRUE** for this message.
 
 If shutting down would corrupt the system or media that is being burned, the application can return **FALSE**. However, it is good practice to respect the user's actions.
 
@@ -87,7 +87,7 @@ When an application returns **TRUE** for this message, it receives the [**WM\_EN
 
 Applications can display a user interface prompting the user for information at shutdown, however it is not recommended. After five seconds, the system displays information about the applications that are preventing shutdown and allows the user to terminate them. For example, Windows XP displays a dialog box, while Windows Vista displays a full screen with additional information about the applications blocking shutdown. If your application must block or postpone system shutdown, use the [**ShutdownBlockReasonCreate**](/windows/desktop/api/Winuser/nf-winuser-shutdownblockreasoncreate) function. For more information, see [Shutdown Changes for Windows Vista](shutdown-changes-for-windows-vista.md).
 
-Console applications can use the [**SetConsoleCtrlHandler**](https://www.bing.com/search?q=**SetConsoleCtrlHandler**) function to receive shutdown notification.
+Console applications can use the [**SetConsoleCtrlHandler**](https://msdn.microsoft.com/library/ms686016(v=VS.85).aspx) function to receive shutdown notification.
 
 Service applications can use the [**RegisterServiceCtrlHandlerEx**](https://msdn.microsoft.com/en-us/library/ms685058(v=VS.85).aspx) function to receive shutdown notifications in a handler routine.
 
@@ -117,7 +117,7 @@ For an example, see [Logging Off](logging-off.md).
 [Shutting Down](shutting-down.md)
 </dt> <dt>
 
-[**DefWindowProc**](https://www.bing.com/search?q=**DefWindowProc**)
+[**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
 </dt> <dt>
 
 [**ExitWindows**](/windows/desktop/api/Winuser/nf-winuser-exitwindows)

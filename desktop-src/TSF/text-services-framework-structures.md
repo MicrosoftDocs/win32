@@ -34,7 +34,7 @@ These are the Text Services Framework structures.
 -   [**TF\_RENDERINGMARKUP**](https://msdn.microsoft.com/library/windows/desktop/aa966913)
 -   [**TF\_SELECTION**](/windows/desktop/api/Msctf/ns-msctf-tf_selection)
 -   [**TF\_SELECTIONSTYLE**](/windows/desktop/api/Msctf/ns-msctf-tf_selectionstyle)
--   [**TF\_STATUS**](https://www.bing.com/search?q=**TF\_STATUS**)
+-   [**TF\_STATUS**](https://msdn.microsoft.com/en-us/library/ms629192(v=VS.85).aspx)
 -   [**TS\_ATTRVAL**](/windows/desktop/api/Textstor/ns-textstor-ts_attrval)
 -   [**TS\_RUNINFO**](/windows/desktop/api/Textstor/ns-textstor-ts_runinfo)
 -   [**TS\_SELECTION\_ACP**](/windows/desktop/api/Textstor/ns-textstor-ts_selection_acp)

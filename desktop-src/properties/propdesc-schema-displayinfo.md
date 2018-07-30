@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # displayInfo
 
-Specifies a property's display information. There should be only one [displayInfo](https://www.bing.com/search?q=displayInfo) element for each [propertyDescription](https://www.bing.com/search?q=propertyDescription).
+Specifies a property's display information. There should be only one [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) element for each [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx).
 
-If there are multiple elements, the last one is used. If no [displayInfo](https://www.bing.com/search?q=displayInfo) element is provided, then the default attribute settings are applied to the property description.
+If there are multiple elements, the last one is used. If no [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) element is provided, then the default attribute settings are applied to the property description.
 
 ## Syntax
 
@@ -264,15 +264,15 @@ If there are multiple elements, the last one is used. If no [displayInfo](https:
 
 | Parent Element                                                   | Child Elements                                                                                                 |
 |------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| [propertyDescription](https://www.bing.com/search?q=propertyDescription) | [stringFormat](https://www.bing.com/search?q=stringFormat)                                                             |
-|                                                                  | [booleanFormat](https://www.bing.com/search?q=booleanFormat)                                                           |
-|                                                                  | [numberFormat](https://www.bing.com/search?q=numberFormat)                                                             |
-|                                                                  | [dateTimeFormat](https://www.bing.com/search?q=dateTimeFormat)                                                         |
-|                                                                  | [enumeratedList](https://www.bing.com/search?q=enumeratedList)                                                         |
-|                                                                  | [drawControl](https://www.bing.com/search?q=drawControl)                                                               |
-|                                                                  | [editControl](https://www.bing.com/search?q=editControl)                                                               |
-|                                                                  | [filterControl](https://www.bing.com/search?q=filterControl)                                                           |
-|                                                                  | [queryControl](https://www.bing.com/search?q=queryControl) (Windows Vista only. Not supported in Windows 7 and later.) |
+| [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx) | [stringFormat](https://msdn.microsoft.com/library/Bb773886(v=VS.85).aspx)                                                             |
+|                                                                  | [booleanFormat](https://msdn.microsoft.com/library/Bb773862(v=VS.85).aspx)                                                           |
+|                                                                  | [numberFormat](https://msdn.microsoft.com/library/Bb773877(v=VS.85).aspx)                                                             |
+|                                                                  | [dateTimeFormat](https://msdn.microsoft.com/library/Bb773863(v=VS.85).aspx)                                                         |
+|                                                                  | [enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx)                                                         |
+|                                                                  | [drawControl](https://msdn.microsoft.com/library/Bb773866(v=VS.85).aspx)                                                               |
+|                                                                  | [editControl](https://msdn.microsoft.com/library/Bb773868(v=VS.85).aspx)                                                               |
+|                                                                  | [filterControl](https://msdn.microsoft.com/library/Bb773874(v=VS.85).aspx)                                                           |
+|                                                                  | [queryControl](https://msdn.microsoft.com/library/Bb773883(v=VS.85).aspx) (Windows Vista only. Not supported in Windows 7 and later.) |
 
 
 
@@ -300,7 +300,7 @@ If there are multiple elements, the last one is used. If no [displayInfo](https:
 </tr>
 <tr class="even">
 <td>displayType</td>
-<td>Public. Optional. Default is &quot;String&quot;. Specifies the type of the display string. Once set here, the associated <strong>PROPDESC_DISPLAYTYPE</strong> values are retrieved by [<strong>IPropertyDescription::GetDisplayType</strong>](https://www.bing.com/search?q=<strong>IPropertyDescription::GetDisplayType</strong>). The following are valid types. 
+<td>Public. Optional. Default is &quot;String&quot;. Specifies the type of the display string. Once set here, the associated <strong>PROPDESC_DISPLAYTYPE</strong> values are retrieved by [<strong>IPropertyDescription::GetDisplayType</strong>](https://msdn.microsoft.com/library/Bb761535(v=VS.85).aspx>). The following are valid types. 
 <table>
 <thead>
 <tr class="header">
@@ -364,7 +364,7 @@ If there are multiple elements, the last one is used. If no [displayInfo](https:
 </tr>
 <tr class="even">
 <td>relativeDescriptionType</td>
-<td>Optional. Default is &quot;General&quot;. Specifies how two values of this property should be described when they are compared with one another. In the case of equivalency, &quot;Same&quot; is always used. [<strong>IPropertyDescription::GetRelativeDescription</strong>](https://www.bing.com/search?q=<strong>IPropertyDescription::GetRelativeDescription</strong>) and [<strong>IPropertyDescription::GetRelativeDescriptionType</strong>](https://www.bing.com/search?q=<strong>IPropertyDescription::GetRelativeDescriptionType</strong>) use this value to determine what relative description display names to use. 
+<td>Optional. Default is &quot;General&quot;. Specifies how two values of this property should be described when they are compared with one another. In the case of equivalency, &quot;Same&quot; is always used. [<strong>IPropertyDescription::GetRelativeDescription</strong>](https://msdn.microsoft.com/library/Bb761547(v=VS.85).aspx>) and [<strong>IPropertyDescription::GetRelativeDescriptionType</strong>](https://msdn.microsoft.com/library/Bb761549(v=VS.85).aspx>) use this value to determine what relative description display names to use. 
 <table>
 <thead>
 <tr class="header">

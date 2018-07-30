@@ -1,0 +1,63 @@
+---
+Description: Requests to indicate that the graphics log has new data inside of it.
+MS-HAID: vspixengine.IPixEngine2\_OnNewDataAvailable\_BOOL\_BOOL\_INT64\_INT64\_INT32\_BYTE\_arr
+MSHAttr:
+- PreferredSiteName:MSDN
+- PreferredLib:/library/windows/desktop
+title: IPixEngine2::OnNewDataAvailable method
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# <span id="vspixengine.ipixengine2_onnewdataavailable_bool_bool_int64_int64_int32_byte_arr"></span>IPixEngine2::OnNewDataAvailable method
+
+Requests to indicate that the graphics log has new data inside of it.
+
+## Syntax
+
+
+```C++
+);
+```
+
+## Parameters
+
+*fSessionEnd*   
+true if the session has ended, otherwise false.
+
+*fUnloadCurFrame*   
+Not used.
+
+*i64FilePositionStart*   
+The file position, in bytes, at which the new data begins.
+
+*i64FilePositionEnd*   
+The file position, in bytes, at which the new data ends.
+
+*iObjectTableDataSize*   
+The number of bytes contained in count4\_pObjectTableData.
+
+*count4\_pObjectTableData*   
+An buffer containing data for the object table.
+
+## Return value
+
+If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
+
+## Requirements
+
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+
+## <span id="see_also"></span>See also
+
+[**IPixEngine2**](https://msdn.microsoft.com/library/windows/desktop/mt432746)
+
+ 
+
+ 
+
+
+

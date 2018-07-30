@@ -92,7 +92,7 @@ The *shell small icon* is used in the Windows Explorer and the common dialogs. C
 ### To retrieve the size of the shell small icon
 
 1.  Use the [SHGetFileInfo](http://msdn.microsoft.com/library/Bb762179(VS.85).aspx) function with `SHGFI_SHELLICONSIZE | SHGFI_SMALLICON` to retrieve a handle to the system image list.
-2.  Then call the [**ImageList\_GetIconSize**](https://www.bing.com/search?q=**ImageList\_GetIconSize**) function to get the icon size.
+2.  Then call the [**ImageList\_GetIconSize**](https://msdn.microsoft.com/library/Bb761550(v=VS.85).aspx) function to get the icon size.
 
 The shell large icon is used on the desktop.
 
@@ -105,7 +105,7 @@ The shell large icon is used on the desktop.
 ### To retrieve the size of the shell large icon
 
 1.  Use the [**SHGetFileInfo**](https://msdn.microsoft.com/en-us/library/Bb762179(v=VS.85).aspx) function with **SHGFI\_SHELLICONSIZE** to retrieve a handle to the system image list.
-2.  Then call the [**ImageList\_GetIconSize**](https://www.bing.com/search?q=**ImageList\_GetIconSize**) function to get the icon size.
+2.  Then call the [**ImageList\_GetIconSize**](https://msdn.microsoft.com/library/Bb761550(v=VS.85).aspx) function to get the icon size.
 
 The Start menu uses either shell small icons or shell large icons, depending on whether the **Use Large Icons** check box is selected.
 

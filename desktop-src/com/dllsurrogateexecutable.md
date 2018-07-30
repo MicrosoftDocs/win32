@@ -40,7 +40,7 @@ This value is of type **REG\_SZ**. It works in conjunction with the [**DllSurrog
 [**DllSurrogate**](dllsurrogate.md)
 </dt> <dt>
 
-[**ISurrogate**](/windows/desktop/api)
+[**ISurrogate**](https://msdn.microsoft.com/en-us/library/ms695062(v=VS.85).aspx)
 </dt> </dl>
 
  

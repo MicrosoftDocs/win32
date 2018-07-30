@@ -25,15 +25,15 @@ The Sensor API enables you to create such programs. Consider the following scena
 
 Suppose you want to use your computer to help you navigate to a new restaurant. You start out in your house, looking up the address of the restaurant and planning your route. The following screen shot shows how your navigation program could optimize its UI to show detailed information in indoor lighting conditions.
 
-![ui designed for indoor lighting.](https://www.bing.com/search?q=ui+designed+for+indoor+lighting.)
+![ui designed for indoor lighting.](images/nav-normal.png)
 
 When you go outside to your car, you encounter direct sunlight, which makes the laptop's screen difficult to read. The following screen shot shows how your program could alter its UI to maximize legibility/readability in direct light. In this view, much of the detail has been omitted and contrast is maximized.
 
-![ui designed for direct lighting conditions.](https://www.bing.com/search?q=ui+designed+for+direct+lighting+conditions.)
+![ui designed for direct lighting conditions.](images/nav-contrast.png)
 
 As you get closer to the restaurant, evening approaches and it gets dark outside. In the following screen shot, the UI for the navigation program has been optimized for low-light viewing. By using darker colors overall, this UI is easy to glance at in the dark car.
 
-![ui designed for low-light viewing.](https://www.bing.com/search?q=ui+designed+for+low-light+viewing.)
+![ui designed for low-light viewing.](images/nav-lowlight.png)
 
 In the remainder of this section, you will explore some things that you can do to optimize your programs for various lighting conditions and how you can use the Sensor API to help enable light-aware UI.
 

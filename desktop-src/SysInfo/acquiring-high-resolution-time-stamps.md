@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Acquiring high-resolution time stamps
 
-Windows provides APIs that you can use to acquire high-resolution time stamps or measure time intervals. The primary API for native code is [**QueryPerformanceCounter (QPC)**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx). For device drivers, the kernel-mode API is [**KeQueryPerformanceCounter**](https://msdn.microsoft.com/library/windows/hardware/ff553053). For managed code, the [**System.Diagnostics.Stopwatch**](https://www.bing.com/search?q=**System.Diagnostics.Stopwatch**) class uses **QPC** as its precise time basis.
+Windows provides APIs that you can use to acquire high-resolution time stamps or measure time intervals. The primary API for native code is [**QueryPerformanceCounter (QPC)**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx). For device drivers, the kernel-mode API is [**KeQueryPerformanceCounter**](https://msdn.microsoft.com/library/windows/hardware/ff553053). For managed code, the [**System.Diagnostics.Stopwatch**](https://msdn.microsoft.com/library/ebf7z0sw(v=VS.96).aspx) class uses **QPC** as its precise time basis.
 
 [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) is independent of and isn't synchronized to any external time reference. To retrieve time stamps that can be synchronized to an external time reference, such as, Coordinated Universal Time (UTC) for use in high-resolution time-of-day measurements, use [**GetSystemTimePreciseAsFileTime**](https://msdn.microsoft.com/en-us/library/Hh706895(v=VS.85).aspx).
 
@@ -130,7 +130,7 @@ ElapsedMicroseconds.QuadPart /= Frequency.QuadPart;
 
 ### Acquiring high resolution time stamps from managed code
 
-This example shows how to use the managed code [**System.Diagnostics.Stopwatch**](https://www.bing.com/search?q=**System.Diagnostics.Stopwatch**) class.
+This example shows how to use the managed code [**System.Diagnostics.Stopwatch**](https://msdn.microsoft.com/library/ebf7z0sw(v=VS.96).aspx) class.
 
 
 ```CSharp
@@ -148,7 +148,7 @@ double ElapsedSeconds = ElapsedTime * (1.0 / Stopwatch.Frequency);
 
 
 
-The [**System.Diagnostics.Stopwatch**](https://www.bing.com/search?q=**System.Diagnostics.Stopwatch**) class also provides several convenient methods to perform time-interval measurements.
+The [**System.Diagnostics.Stopwatch**](https://msdn.microsoft.com/library/ebf7z0sw(v=VS.96).aspx) class also provides several convenient methods to perform time-interval measurements.
 
 ### Using QPC from kernel mode
 
@@ -341,7 +341,7 @@ Calculations that involve [**QPC**](https://msdn.microsoft.com/en-us/library/ms6
 <span id="How_can_I_obtain_high_resolution_time_stamps_from_managed_code_"></span><span id="how_can_i_obtain_high_resolution_time_stamps_from_managed_code_"></span><span id="HOW_CAN_I_OBTAIN_HIGH_RESOLUTION_TIME_STAMPS_FROM_MANAGED_CODE_"></span>**How can I obtain high resolution time stamps from managed code?**
 </dt> <dd>
 
-Call the [**Stopwatch.GetTimeStamp**](https://www.bing.com/search?q=**Stopwatch.GetTimeStamp**) method from the [**System.Diagnostics.Stopwatch**](https://www.bing.com/search?q=**System.Diagnostics.Stopwatch**) class. For an example about how to use **Stopwatch.GetTimeStamp**, see [Acquiring high resolution time stamps from managed code](#acquiring-high-resolution-time-stamps-from-managed-code).
+Call the [**Stopwatch.GetTimeStamp**](https://msdn.microsoft.com/library/ffwxfccf(v=VS.96).aspx) method from the [**System.Diagnostics.Stopwatch**](https://msdn.microsoft.com/library/ebf7z0sw(v=VS.96).aspx) class. For an example about how to use **Stopwatch.GetTimeStamp**, see [Acquiring high resolution time stamps from managed code](#acquiring-high-resolution-time-stamps-from-managed-code).
 
 </dd> <dt>
 
@@ -373,19 +373,19 @@ Absolute clocks provide accurate time-of-day readings. They are typically based 
 
 If a hardware generator provides ticks at a constant rate, time intervals can be measured by simply counting these ticks. The rate at which the ticks are generated is called the frequency and expressed in Hertz (Hz). The reciprocal of the frequency is called the period or tick interval and is expressed in an appropriate International System of Units (SI) time unit (for example, second, millisecond, microsecond, or nanosecond).
 
-![time interval](https://www.bing.com/search?q=time+interval)
+![time interval](images/tick-interval.png)
 
 The resolution of the timer is equal to the period. Resolution determines the ability to distinguish between any two time stamps and places a lower bound on the smallest time intervals that can be measured. This is sometimes called the tick resolution.
 
 Digital measurement of time introduces a measurements uncertainty of ± 1 tick because the digital counter advances in discrete steps, while time is continuously advancing. This uncertainty is called a quantization error. For typical time-interval measurements, this effect can often be ignored because the quantizing error is much smaller than the time interval being measured.
 
-![digital time measurement](https://www.bing.com/search?q=digital+time+measurement)
+![digital time measurement](images/digital-time-measure.png)
 
 However, if the period being measured is small and approaches the resolution of the timer, you will need to consider this quantizing error. The size of the error introduced is that of one clock period.
 
 The following two diagrams illustrate the impact of the ± 1 tick uncertainty by using a timer with a resolution of 1 time unit.
 
-![tick uncertainty](https://www.bing.com/search?q=tick+uncertainty)
+![tick uncertainty](images/tick-uncertainty.png)
 
 [**QueryPerformanceFrequency**](https://msdn.microsoft.com/en-us/library/ms644905(v=VS.85).aspx) returns the frequency of [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx), and the period and resolution are equal to the reciprocal of this value. The performance counter frequency that **QueryPerformanceFrequency** returns is determined during system initialization and doesn't change while the system is running.
 
@@ -432,13 +432,13 @@ Precision = MAX \[800 ns,100 ns\] = 800 ns
 
 These two figures depict this effect.
 
-![qpc access time](https://www.bing.com/search?q=qpc+access+time)
+![qpc access time](images/qpc-access-time.png)
 
 If the access time is greater than the resolution, don't try to improve the precision by guessing. In other words, it's an error to assume that the time stamp is taken precisely in the middle, or at the beginning or the end of the call.
 
 By contrast, consider the following example in which the [**QPC**](https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx) access time is only 20 nanoseconds and the hardware clock resolution is 100 nanoseconds. This might be the case if the TSC register was used as the basis for **QPC**. Here the precision is limited by the clock resolution.
 
-![qpc precision](https://www.bing.com/search?q=qpc+precision)
+![qpc precision](images/qpc-precision.png)
 
 In practice, you can find time sources for which the time required to read the counter is larger or smaller than the resolution. In either case, the precision will be the larger of the two.
 
@@ -493,7 +493,7 @@ To reduce the adverse effects of this frequency offset error, recent versions of
 
 As the following examples show, the frequency offset error of a hardware clock influences the achievable accuracy, and the resolution of the clock can be less important.
 
-![frequency offset error influences achievable accuracy](https://www.bing.com/search?q=frequency+offset+error+influences+achievable+accuracy)
+![frequency offset error influences achievable accuracy](images/freq-offset-error.png)
 
 <dl> <dt>
 

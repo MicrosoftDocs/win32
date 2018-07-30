@@ -53,7 +53,7 @@ You can use the following attributes with this control. To change the value of a
 
 ## Remarks
 
-This control can be created from the COMBOBOX class by using the [**CreateWindowEx**](https://www.bing.com/search?q=**CreateWindowEx**) function. It has the **CBS\_DROPDOWNLIST**, **CBS\_OWNERDRAWFIXED**, **CBS\_HASSTRINGS**, **WS\_CHILD**, **WS\_GROUP**, **WS\_TABSTOP**, and **WS\_VSCROLL** styles.
+This control can be created from the COMBOBOX class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the **CBS\_DROPDOWNLIST**, **CBS\_OWNERDRAWFIXED**, **CBS\_HASSTRINGS**, **WS\_CHILD**, **WS\_GROUP**, **WS\_TABSTOP**, and **WS\_VSCROLL** styles.
 
  
 

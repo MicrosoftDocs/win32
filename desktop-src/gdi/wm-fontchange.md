@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 An application sends the **WM\_FONTCHANGE** message to all top-level windows in the system after changing the pool of font resources.
 
-To send this message, call the [**SendMessage**](https://www.bing.com/search?q=**SendMessage**) function with the following parameters.
+To send this message, call the [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

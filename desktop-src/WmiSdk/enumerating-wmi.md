@@ -74,7 +74,7 @@ foreach ($Drive in $objCol)
 
     
 
-3.  Instantiate a [CimSession](https://msdn.microsoft.com/library/microsoft.management.infrastructure.cimsession.aspx) object. The following snippet uses the standard "localhost" value for the [**CimSession.Create**](Overload:Microsoft.Management.Infrastructure.CimSession.Create) method.
+3.  Instantiate a [CimSession](https://msdn.microsoft.com/library/microsoft.management.infrastructure.cimsession.aspx) object. The following snippet uses the standard "localhost" value for the [**CimSession.Create**](https://msdn.microsoft.com/library/Hh832529(v=VS.85).aspx) method.
 
     ```CSharp
     CimSession cimSession = CimSession.Create("localhost");

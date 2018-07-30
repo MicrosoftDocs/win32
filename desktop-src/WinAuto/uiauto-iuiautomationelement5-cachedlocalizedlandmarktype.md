@@ -18,7 +18,7 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-api_location: 
+api_location:
 - uiautomationclient.h
 ---
 
@@ -50,7 +50,7 @@ A string containing the cached localized landmark type for the automation elemen
 [**IUIAutomationElement5**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement5)
 </dt> <dt>
 
-[**IUIAutomationElement5**](https://www.bing.com/search?q=**IUIAutomationElement5**)
+[**IUIAutomationElement5**](https://msdn.microsoft.com/en-us/library/Mt798233(v=VS.85).aspx)
 </dt> </dl>
 
  

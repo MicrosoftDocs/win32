@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # typeInfo
 
-Specifies a property's type information. There should be only one [typeInfo](https://www.bing.com/search?q=typeInfo) element for each [propertyDescription](https://www.bing.com/search?q=propertyDescription). This element has changed for Windows 7.
+Specifies a property's type information. There should be only one [typeInfo](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx) element for each [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx). This element has changed for Windows 7.
 
-If there are multiple elements, the last one is used. If no [typeInfo](https://www.bing.com/search?q=typeInfo) element is provided, then the default attribute settings are applied to the property description.
+If there are multiple elements, the last one is used. If no [typeInfo](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx) element is provided, then the default attribute settings are applied to the property description.
 
 ## Syntax for Windows 7
 
@@ -118,7 +118,7 @@ If there are multiple elements, the last one is used. If no [typeInfo](https://w
 
 | Parent Element                                                   | Child Elements |
 |------------------------------------------------------------------|----------------|
-| [propertyDescription](https://www.bing.com/search?q=propertyDescription) | None           |
+| [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx) | None           |
 
 
 
@@ -142,7 +142,7 @@ If there are multiple elements, the last one is used. If no [typeInfo](https://w
 <tbody>
 <tr class="odd">
 <td>type</td>
-<td>Public. Optional. Default is &quot;Any&quot;. Indicates the type of the property. The following are valid types and their associated variant types are retrieved by [<strong>IPropertyDescription::GetPropertyType</strong>](https://www.bing.com/search?q=<strong>IPropertyDescription::GetPropertyType</strong>). 
+<td>Public. Optional. Default is &quot;Any&quot;. Indicates the type of the property. The following are valid types and their associated variant types are retrieved by [<strong>IPropertyDescription::GetPropertyType</strong>](https://msdn.microsoft.com/library/Bb761545(v=VS.85).aspx>). 
 <table>
 <thead>
 <tr class="header">
@@ -153,11 +153,11 @@ If there are multiple elements, the last one is used. If no [typeInfo](https://w
 <tbody>
 <tr class="odd">
 <td>Any</td>
-<td>Default. The property subsystem will not enforce or coerce the property value. [<strong>IPropertyDescription::GetPropertyType</strong>](https://www.bing.com/search?q=<strong>IPropertyDescription::GetPropertyType</strong>) returns VT_NULL. Independent software vendors (ISVs) are strongly encouraged to provide a type rather than fall back on this default.</td>
+<td>Default. The property subsystem will not enforce or coerce the property value. [<strong>IPropertyDescription::GetPropertyType</strong>](https://msdn.microsoft.com/library/Bb761545(v=VS.85).aspx>) returns VT_NULL. Independent software vendors (ISVs) are strongly encouraged to provide a type rather than fall back on this default.</td>
 </tr>
 <tr class="even">
 <td>Null</td>
-<td>There is no value for this property. [<strong>IPropertyDescription::GetPropertyType</strong>](https://www.bing.com/search?q=<strong>IPropertyDescription::GetPropertyType</strong>) returns VT_NULL.</td>
+<td>There is no value for this property. [<strong>IPropertyDescription::GetPropertyType</strong>](https://msdn.microsoft.com/library/Bb761545(v=VS.85).aspx>) returns VT_NULL.</td>
 </tr>
 <tr class="odd">
 <td>String</td>
@@ -234,7 +234,7 @@ If there are multiple elements, the last one is used. If no [typeInfo](https://w
 </tr>
 <tr class="even">
 <td>groupingRange</td>
-<td>Optional. Default is &quot;Discrete&quot;. Specifies how the property is displayed when a view is grouped by this property. Once set here, these values are retrieved by [<strong>IPropertyDescription::GetGroupingRange</strong>](https://www.bing.com/search?q=<strong>IPropertyDescription::GetGroupingRange</strong>). The following are valid types.
+<td>Optional. Default is &quot;Discrete&quot;. Specifies how the property is displayed when a view is grouped by this property. Once set here, these values are retrieved by [<strong>IPropertyDescription::GetGroupingRange</strong>](https://msdn.microsoft.com/library/Bb761542(v=VS.85).aspx>). The following are valid types.
 
 <table>
 <thead>
@@ -279,7 +279,7 @@ If there are multiple elements, the last one is used. If no [typeInfo](https://w
 </tr>
 <tr class="odd">
 <td>isInnate</td>
-<td>Public. Optional. Default is &quot;false&quot;. Specifies whether the property is considered innate. An innate property is one which is either calculated from the content of a file, or from other resources or systems. For example, System.Size is an innate property provided by the file system; changing the value of the property in and of itself does nothing. Other examples are System.Image.Dimensions and System.Document.PageCount, which are calculated by programs based upon the content of the file, not based upon a user-changeable setting. Setting isInnate=&quot;true&quot; means the user cannot edit this property directly via a property control. This value maps to the PDTF_ISINNATE flag defined in [<strong>PROPDESC_TYPE_FLAGS</strong>](https://www.bing.com/search?q=<strong>PROPDESC_TYPE_FLAGS</strong>) and used in [<strong>IPropertyDescription::GetTypeFlags</strong>](https://www.bing.com/search?q=<strong>IPropertyDescription::GetTypeFlags</strong>).</td>
+<td>Public. Optional. Default is &quot;false&quot;. Specifies whether the property is considered innate. An innate property is one which is either calculated from the content of a file, or from other resources or systems. For example, System.Size is an innate property provided by the file system; changing the value of the property in and of itself does nothing. Other examples are System.Image.Dimensions and System.Document.PageCount, which are calculated by programs based upon the content of the file, not based upon a user-changeable setting. Setting isInnate=&quot;true&quot; means the user cannot edit this property directly via a property control. This value maps to the PDTF_ISINNATE flag defined in [<strong>PROPDESC_TYPE_FLAGS</strong>](https://msdn.microsoft.com/library/Bb762527(v=VS.85).aspx>) and used in [<strong>IPropertyDescription::GetTypeFlags</strong>](https://msdn.microsoft.com/library/Bb761556(v=VS.85).aspx>).</td>
 </tr>
 <tr class="even">
 <td>canBePurged</td>
@@ -318,15 +318,15 @@ A property whose <em>isInnate</em> value is &quot;false&quot; (meaning that the 
 </tr>
 <tr class="odd">
 <td>multipleValues</td>
-<td>Public. Optional. Default is &quot;false&quot;. Specifies whether this property can have multiple values. This value maps to the PDTF_MULTIPLEVALUES flag defined in [<strong>PROPDESC_TYPE_FLAGS</strong>](https://www.bing.com/search?q=<strong>PROPDESC_TYPE_FLAGS</strong>) and used in [<strong>IPropertyDescription::GetTypeFlags</strong>](https://www.bing.com/search?q=<strong>IPropertyDescription::GetTypeFlags</strong>). This also influences whether VT_VECTOR is OR'd to the VARTYPE of the property value.</td>
+<td>Public. Optional. Default is &quot;false&quot;. Specifies whether this property can have multiple values. This value maps to the PDTF_MULTIPLEVALUES flag defined in [<strong>PROPDESC_TYPE_FLAGS</strong>](https://msdn.microsoft.com/library/Bb762527(v=VS.85).aspx>) and used in [<strong>IPropertyDescription::GetTypeFlags</strong>](https://msdn.microsoft.com/library/Bb761556(v=VS.85).aspx>). This also influences whether VT_VECTOR is OR'd to the VARTYPE of the property value.</td>
 </tr>
 <tr class="even">
 <td>isGroup</td>
-<td>Public. Optional. Default is &quot;false&quot;. Specifies whether the property is a group heading. A group heading is strictly used in proplists, has no value, is never stored in a file, and should also have &lt;typeInfo type=&quot;Null&quot;&gt;. Some UI in the system use proplists to indicate the sequence of the properties to display. These proplists may include references to group headings (eg, System.PropGroup.Camera), which tell the UI to start a new group section (eg, &quot;Camera Settings&quot;). A property description with isGroup=&quot;true&quot; should specify a &lt;labelInfo label=&quot;Some localized label&quot;&gt;, otherwise it isn't a useful property. This value maps to the PDTF_ISGROUP flag defined in [<strong>PROPDESC_TYPE_FLAGS</strong>](https://www.bing.com/search?q=<strong>PROPDESC_TYPE_FLAGS</strong>) and used in [<strong>IPropertyDescription::GetTypeFlags</strong>](https://www.bing.com/search?q=<strong>IPropertyDescription::GetTypeFlags</strong>).</td>
+<td>Public. Optional. Default is &quot;false&quot;. Specifies whether the property is a group heading. A group heading is strictly used in proplists, has no value, is never stored in a file, and should also have &lt;typeInfo type=&quot;Null&quot;&gt;. Some UI in the system use proplists to indicate the sequence of the properties to display. These proplists may include references to group headings (eg, System.PropGroup.Camera), which tell the UI to start a new group section (eg, &quot;Camera Settings&quot;). A property description with isGroup=&quot;true&quot; should specify a &lt;labelInfo label=&quot;Some localized label&quot;&gt;, otherwise it isn't a useful property. This value maps to the PDTF_ISGROUP flag defined in [<strong>PROPDESC_TYPE_FLAGS</strong>](https://msdn.microsoft.com/library/Bb762527(v=VS.85).aspx>) and used in [<strong>IPropertyDescription::GetTypeFlags</strong>](https://msdn.microsoft.com/library/Bb761556(v=VS.85).aspx>).</td>
 </tr>
 <tr class="odd">
 <td>aggregationType</td>
-<td>Public. Optional. Default is &quot;Default&quot;. Specifies how aggregate properties are displayed when multiple items are selected. Once set here, these values are retrieved by [<strong>IPropertyDescription::GetAggregationType</strong>](https://www.bing.com/search?q=<strong>IPropertyDescription::GetAggregationType</strong>) as an [<strong>PROPDESC_AGGREGATION_TYPE</strong>](https://www.bing.com/search?q=<strong>PROPDESC_AGGREGATION_TYPE</strong>). The following are valid types.
+<td>Public. Optional. Default is &quot;Default&quot;. Specifies how aggregate properties are displayed when multiple items are selected. Once set here, these values are retrieved by [<strong>IPropertyDescription::GetAggregationType</strong>](https://msdn.microsoft.com/library/Bb761523(v=VS.85).aspx>) as an [<strong>PROPDESC_AGGREGATION_TYPE</strong>](https://msdn.microsoft.com/library/Bb762522(v=VS.85).aspx>). The following are valid types.
 
 <table>
 <thead>
@@ -379,11 +379,11 @@ A property whose <em>isInnate</em> value is &quot;false&quot; (meaning that the 
 </tr>
 <tr class="odd">
 <td>isViewable</td>
-<td>Public. Optional. Default value is &quot;false&quot;. Specifies whether this property is intended to be viewable to the user. For example, the Column Chooser UI only shows the properties that have isViewable=&quot;true&quot;. The exception is UI that is driven by a proplist, which will always show the property. If you have a property that is only meant to shuttle data between two objects, and never intended to be viewed by the user, this attribute should be false. This value maps to the PDTF_ISVIEWABLE flag defined in [<strong>PROPDESC_TYPE_FLAGS</strong>](https://www.bing.com/search?q=<strong>PROPDESC_TYPE_FLAGS</strong>) and used in [<strong>IPropertyDescription::GetTypeFlags</strong>](https://www.bing.com/search?q=<strong>IPropertyDescription::GetTypeFlags</strong>).</td>
+<td>Public. Optional. Default value is &quot;false&quot;. Specifies whether this property is intended to be viewable to the user. For example, the Column Chooser UI only shows the properties that have isViewable=&quot;true&quot;. The exception is UI that is driven by a proplist, which will always show the property. If you have a property that is only meant to shuttle data between two objects, and never intended to be viewed by the user, this attribute should be false. This value maps to the PDTF_ISVIEWABLE flag defined in [<strong>PROPDESC_TYPE_FLAGS</strong>](https://msdn.microsoft.com/library/Bb762527(v=VS.85).aspx>) and used in [<strong>IPropertyDescription::GetTypeFlags</strong>](https://msdn.microsoft.com/library/Bb761556(v=VS.85).aspx>).</td>
 </tr>
 <tr class="even">
 <td>isQueryable</td>
-<td>Windows Vista only. Not supported in Windows 7 and later. Public. Optional. Default value is &quot;false&quot;. Specifies whether this property is intended to be available in the Search Query Builder UI. A property must have isViewable=&quot;true&quot; before isQueryable=&quot;true&quot; is respected. This value maps to the PDTF_ISQUERYABLE flag defined in [<strong>PROPDESC_TYPE_FLAGS</strong>](https://www.bing.com/search?q=<strong>PROPDESC_TYPE_FLAGS</strong>) and used in [<strong>IPropertyDescription::GetTypeFlags</strong>](https://www.bing.com/search?q=<strong>IPropertyDescription::GetTypeFlags</strong>).</td>
+<td>Windows Vista only. Not supported in Windows 7 and later. Public. Optional. Default value is &quot;false&quot;. Specifies whether this property is intended to be available in the Search Query Builder UI. A property must have isViewable=&quot;true&quot; before isQueryable=&quot;true&quot; is respected. This value maps to the PDTF_ISQUERYABLE flag defined in [<strong>PROPDESC_TYPE_FLAGS</strong>](https://msdn.microsoft.com/library/Bb762527(v=VS.85).aspx>) and used in [<strong>IPropertyDescription::GetTypeFlags</strong>](https://msdn.microsoft.com/library/Bb761556(v=VS.85).aspx>).</td>
 </tr>
 <tr class="odd">
 <td>searchRawValue</td>

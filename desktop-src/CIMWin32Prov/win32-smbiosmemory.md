@@ -13,10 +13,10 @@ title: Win32\_SMBIOSMemory class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - Win32_SMBIOSMemory
 - Win32_SMBIOSMemory.Reset
 - Win32_SMBIOSMemory.SetPowerState
@@ -58,9 +58,9 @@ api_name:
 - Win32_SMBIOSMemory.SystemCreationClassName
 - Win32_SMBIOSMemory.SystemLevelAddress
 - Win32_SMBIOSMemory.SystemName
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - CIMWin32.dll
 ---
 
@@ -434,7 +434,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa3936
 
 Size in bytes of the blocks that form this storage extent. If unknown or if a block concept is not valid (for example, for aggregate extents, memory or logical disks), enter a 1.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 This property is inherited from [**CIM\_StorageExtent**](cim-storageextent.md).
 
@@ -920,7 +920,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa3936
 
 Ending address, referenced by an application or operating system and mapped by a memory controller for this memory object. The ending address is specified in kilobytes.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -991,7 +991,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa3936
 
 Address of the last memory error. The type of error is described by the **ErrorInfo** property. If **ErrorInfo** is equal to 3 (OK), then this property has no meaning.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -1279,7 +1279,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa3936
 
 Range, in bytes, to which the last error can be resolved. For example, if error addresses are resolved to bit 11 (that is, on a typical page basis), then errors can be resolved to 4 KB boundaries and this property is set to 4000. If the **ErrorInfo** property is equal to 3 (OK), then this property has no meaning.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -1380,7 +1380,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa3936
 
 Total number of consecutive blocks, each block the size of the value contained in the **BlockSize** property, which form this storage extent. Total size of the storage extent can be calculated by multiplying the value of the **BlockSize** property by the value of this property. If the value of **BlockSize** is 1, this property is the total size of the storage extent.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 This property is inherited from [**CIM\_StorageExtent**](cim-storageextent.md).
 
@@ -1561,7 +1561,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa3936
 
 Beginning address that is referenced by an application or operating system, and mapped by a memory controller for this memory object. The starting address is specified in kilobytes.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 

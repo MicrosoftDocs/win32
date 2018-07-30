@@ -21,7 +21,7 @@ Design changes from Internet Explorer 7 to Internet Explorer 8
 
 ${ROWSPAN2}$Internet Explorer versioning${REMOVE}$  
 
-Check for code that incorrectly special cases around Internet Explorer 6, Windows Internet Explorer 7, or Internet Explorer 8 through [user-agent string sniffing, versions vectors, or conditional comments](https://www.bing.com/search?q=user-agent+string+sniffing,+versions+vectors,+or+conditional+comments).
+Check for code that incorrectly special cases around Internet Explorer 6, Windows Internet Explorer 7, or Internet Explorer 8 through [user-agent string sniffing, versions vectors, or conditional comments](https://msdn.microsoft.com/library/ms537503(v=VS.85).aspx).
 
 -   When a long User Agent (UA) String encounters a server that accepts only shorter UA Strings, users see [an error page](http://go.microsoft.com/fwlink/p/?linkid=204992).
 
@@ -31,9 +31,9 @@ Check for code that incorrectly special cases around Internet Explorer 6, Windo
 
 ${ROWSPAN3}$ Standards compliance updates
 
--   Applies to [specified document modes](https://www.bing.com/search?q=specified+document+modes).
+-   Applies to [specified document modes](https://msdn.microsoft.com/library/Cc288325(v=VS.85).aspx).
 -   [Internet Explorer 8 Compatibility View mode](http://go.microsoft.com/fwlink/p/?linkid=204995), which is on by default for intranet sites, typically [reverts standards updates from Internet Explorer 7 to Internet Explorer 8](http://go.microsoft.com/fwlink/p/?linkid=204994).
--   Use the [EmulateIE7 X-UA-Compatible](https://www.bing.com/search?q=EmulateIE7+X-UA-Compatible) HTTP header or **meta** element to enable Compatibility View on websites or specific webpages.
+-   Use the [EmulateIE7 X-UA-Compatible](https://msdn.microsoft.com/library/Cc843977(v=VS.85).aspx) HTTP header or **meta** element to enable Compatibility View on websites or specific webpages.
 
 ${REMOVE}$  
 
@@ -41,18 +41,18 @@ Quirks mode exception: You do not need to make standards compliance changes for 
 
 Applies to Internet Explorer 7 Standards or “Strict” mode and above:
 
--   [XML prologs](https://www.bing.com/search?q=XML+prologs) in the first line of the source code no longer cause DOCTYPE declarations to fail.
--   [Box model](https://www.bing.com/search?q=Box+model) overflow content intersects box and no longer automatically -grows the box div to fit the content.
--   [Certain CSS filters](https://www.bing.com/search?q=Certain+CSS+filters) (for example, \*HTML, \_underscore, and /\*\*/ comment) are not supported.
--   [Only the outermost OBJECT element in nested objects](https://www.bing.com/search?q=Only+the+outermost+OBJECT+element+in+nested+objects) is instantiated .
--   [Applications that rely on the SELECT element](https://www.bing.com/search?q=Applications+that+rely+on+the+SELECT+element) to get an HWND to use with Microsoft Win32 APIs might break because the [SELECT element](http://go.microsoft.com/fwlink/p/?linkid=204996) is now a windowless control.
+-   [XML prologs](https://msdn.microsoft.com/library/Bb250496(v=VS.85).aspx) in the first line of the source code no longer cause DOCTYPE declarations to fail.
+-   [Box model](https://msdn.microsoft.com/library/Bb250496(v=VS.85).aspx) overflow content intersects box and no longer automatically -grows the box div to fit the content.
+-   [Certain CSS filters](https://msdn.microsoft.com/library/Bb250496(v=VS.85).aspx) (for example, \*HTML, \_underscore, and /\*\*/ comment) are not supported.
+-   [Only the outermost OBJECT element in nested objects](https://msdn.microsoft.com/library/ms649487(v=VS.85).aspx) is instantiated .
+-   [Applications that rely on the SELECT element](https://msdn.microsoft.com/library/ms649487(v=VS.85).aspx) to get an HWND to use with Microsoft Win32 APIs might break because the [SELECT element](http://go.microsoft.com/fwlink/p/?linkid=204996) is now a windowless control.
 -   [Channel Definition Format (CDF)](http://go.microsoft.com/fwlink/p/?linkid=204997) is not supported, in favor of RSS feeds.
 -   [XBM](http://go.microsoft.com/fwlink/p/?linkid=204997), an imaging format that is designed for X-based systems, is not supported.
 -   [BASE tags](http://go.microsoft.com/fwlink/p/?linkid=204997) outside of the HEAD document are not allowed.
 
 Applies to Internet Explorer 8 Standards mode and above:
 
--   [Unclosed P elements](https://www.bing.com/search?q=Unclosed+P+elements) are automatically closed when they are followed by [**TABLE**](https://www.bing.com/search?q=**TABLE**), [**FORM**](https://www.bing.com/search?q=**FORM**), [**NOFRAMES**](https://www.bing.com/search?q=**NOFRAMES**), or [**NOSCRIPT**](https://www.bing.com/search?q=**NOSCRIPT**) elements.
+-   [Unclosed P elements](https://msdn.microsoft.com/library/Cc843977(v=VS.85).aspx) are automatically closed when they are followed by [**TABLE**](https://msdn.microsoft.com/library/ms535901(v=VS.85).aspx), [**FORM**](https://msdn.microsoft.com/library/ms535249(v=VS.85).aspx), [**NOFRAMES**](https://msdn.microsoft.com/library/ms535857(v=VS.85).aspx), or [**NOSCRIPT**](https://msdn.microsoft.com/library/ms535858(v=VS.85).aspx) elements.
 -   [Malformed HTML](http://go.microsoft.com/fwlink/p/?linkid=204994) is not supported, in favor of well-formed, valid markup.
 -   The ["className" attribute](http://go.microsoft.com/fwlink/p/?linkid=204994) syntax is not supported, in favor of “class” syntax.
 -   [The attributes collection](http://go.microsoft.com/fwlink/p/?linkid=204994) does not contain all possible attributes that Windows Internet Explorer recognizes.
@@ -67,7 +67,7 @@ Applies to Internet Explorer 8 Standards mode and above:
 <!-- -->
 
 -   For sites and applications where accessibility is a concern, update [ARIA syntax across all Internet Explorer rendering modes](http://go.microsoft.com/fwlink/p/?linkid=205000).
--   Check the [complete list of CSS updates from Internet Explorer 6 to Internet Explorer 8](https://www.bing.com/search?q=complete+list+of+CSS+updates+from+Internet+Explorer+6+to+Internet+Explorer+8).
+-   Check the [complete list of CSS updates from Internet Explorer 6 to Internet Explorer 8](https://msdn.microsoft.com/library/Cc843977(v=VS.85).aspx).
 
 Security improvements
 
@@ -77,13 +77,13 @@ Security improvements
 <!-- -->
 
 -   The [window.opener](http://go.microsoft.com/fwlink/p/?linkid=204997) bypass to the window.close prompt is not allowed.
--   [Object caching protection](https://www.bing.com/search?q=Object+caching+protection) is enabled by default, which blocks access to references of objects when users browse to a new domain (applies to Internet Explorer 6 and later versions on Windows XP with Service Pack 2 (SP2) and later versions).
--   [DHTML scriptlets](https://www.bing.com/search?q=DHTML+scriptlets) are disabled by default.
--   [Scripts that write to the status bar](https://www.bing.com/search?q=Scripts+that+write+to+the+status+bar) are blocked.
--   [URL creation might fail](https://www.bing.com/search?q=URL+creation+might+fail) if URLs do not meet RFC guidelines.
--   [HTTPS pages display an error page](https://www.bing.com/search?q=HTTPS+pages+display+an+error+page) if the site is configured to SSLv2 only, or if the site security certificate is outdated or invalid, has errors, or has weak ciphers.
--   Only ["Punycode" encoded internationalized domain names](https://www.bing.com/search?q="Punycode"+encoded+internationalized+domain+names) are supported. Other formats like ANSI and UTF-8 are blocked.
--   [Cross-domain script URLs](https://www.bing.com/search?q=Cross-domain+script+URLs), redirected navigation in DOM objects, and frame navigations are blocked.
+-   [Object caching protection](https://msdn.microsoft.com/library/ms649488(v=VS.85).aspx) is enabled by default, which blocks access to references of objects when users browse to a new domain (applies to Internet Explorer 6 and later versions on Windows XP with Service Pack 2 (SP2) and later versions).
+-   [DHTML scriptlets](https://msdn.microsoft.com/library/ms649488(v=VS.85).aspx) are disabled by default.
+-   [Scripts that write to the status bar](https://msdn.microsoft.com/library/ms649488(v=VS.85).aspx) are blocked.
+-   [URL creation might fail](https://msdn.microsoft.com/library/Bb250493(v=VS.85).aspx) if URLs do not meet RFC guidelines.
+-   [HTTPS pages display an error page](https://msdn.microsoft.com/library/Bb250503(v=VS.85).aspx) if the site is configured to SSLv2 only, or if the site security certificate is outdated or invalid, has errors, or has weak ciphers.
+-   Only ["Punycode" encoded internationalized domain names](https://msdn.microsoft.com/library/Bb250505(v=VS.85).aspx) are supported. Other formats like ANSI and UTF-8 are blocked.
+-   [Cross-domain script URLs](https://msdn.microsoft.com/library/Bb250493(v=VS.85).aspx), redirected navigation in DOM objects, and frame navigations are blocked.
 -   [Modal or modeless dialog boxes](http://go.microsoft.com/fwlink/p/?linkid=204997) that are created from script might seem [slightly bigger](http://go.microsoft.com/fwlink/p/?linkid=205009).
 -   [Unsecure protocols](http://go.microsoft.com/fwlink/p/?linkid=204997) view-source, Gopher (at the WinINET level), and Telnet do not work.
 
@@ -91,15 +91,15 @@ Security improvements
 
 -   [XSS filter](http://go.microsoft.com/fwlink/p/?linkid=205001) is on by default, which blocks script patterns that most frequently resemble Type-1 XSS attacks, unless you disable them through a X-XSS-Protection HTTP header.
 -   Cross-domain, cross-document communication hacks like [SCRIPT SRC](http://go.microsoft.com/fwlink/p/?linkid=205002) are not supported, in favor of safer [XDM and XDR AJAX features](http://go.microsoft.com/fwlink/p/?linkid=205003).
--   AJAX-enabled sites that [manually manipulate the hash of the URL](https://www.bing.com/search?q=manually+manipulate+the+hash+of+the+URL) might be broken by the new window.location.hash navigation property.
--   [New AJAX features](https://www.bing.com/search?q=New+AJAX+features) like [XDM](http://go.microsoft.com/fwlink/p/?linkid=205003) have [**native properties**](https://www.bing.com/search?q=**native+properties**) that might conflict with existing custom properties.
+-   AJAX-enabled sites that [manually manipulate the hash of the URL](https://msdn.microsoft.com/library/Cc891506(v=VS.85).aspx) might be broken by the new window.location.hash navigation property.
+-   [New AJAX features](https://msdn.microsoft.com/library/Gg598940(v=VS.85).aspx) like [XDM](http://go.microsoft.com/fwlink/p/?linkid=205003) have [**native properties**](https://msdn.microsoft.com/library/Cc288548(v=VS.85).aspx) that might conflict with existing custom properties.
 -   [File upload control](http://go.microsoft.com/fwlink/p/?linkid=205003) submits only the file path, not the full path, to the server.
 -   HTML code or script that is delivered with an ["image/\*" MIME type](http://go.microsoft.com/fwlink/p/?linkid=205003) is blocked from executing.
--   [Navigating a top-level frame](https://www.bing.com/search?q=Navigating+a+top-level+frame) to a site in a different security context opens a new window or tab instead of navigating within the existing frame.
--   [UTF-7 encoded script](https://www.bing.com/search?q=UTF-7+encoded+script) is forced into Windows-1252 encoding, which might cause plain text rendering.
+-   [Navigating a top-level frame](https://msdn.microsoft.com/library/Dd565638(v=VS.85).aspx) to a site in a different security context opens a new window or tab instead of navigating within the existing frame.
+-   [UTF-7 encoded script](https://msdn.microsoft.com/library/Dd565635(v=VS.85).aspx) is forced into Windows-1252 encoding, which might cause plain text rendering.
 -   [HTTP/HTTPS "mixed mode" pages](http://go.microsoft.com/fwlink/p/?linkid=205007) display a dialog box that defaults to displaying secure items only (versus the previous nonsecure default). Users might mistakenly [choose to block HTTP elements](http://go.microsoft.com/fwlink/p/?linkid=205007), like key images.
 -   [DEP/NX is on by default](http://go.microsoft.com/fwlink/p/?linkid=205008), which blocks certain add-ons (that is, ActiveX controls and COM objects) that are built by using older versions of ATL from running code that is marked "non-executable" in memory.
--   [Content that is returned by a web proxy](https://www.bing.com/search?q=Content+that+is+returned+by+a+web+proxy) is blocked if an SSL tunnel is not established in response to a CONNECT request to the original server.
+-   [Content that is returned by a web proxy](https://msdn.microsoft.com/library/Dd565641(v=VS.85).aspx) is blocked if an SSL tunnel is not established in response to a CONNECT request to the original server.
 
 Architectural changes
 
@@ -107,11 +107,11 @@ Architectural changes
 
 <!-- -->
 
--   [Protected Mode](http://go.microsoft.com/fwlink/p/?linkid=205010) is enabled by default for [Internet, Intranet, and Restricted Sites zones](https://www.bing.com/search?q=Internet,+Intranet,+and+Restricted+Sites+zones). This mode [blocks browser extensions that could pose a security risk](https://www.bing.com/search?q=blocks+browser+extensions+that+could+pose+a+security+risk) from running and [lower privilege applications from accessing higher privilege processes](https://www.bing.com/search?q=lower+privilege+applications+from+accessing+higher+privilege+processes), like the Start menu, Control Panel, and the Microsoft Windows registry (applies to Internet Explorer 7 and later versions on Windows Vista and later versions).
+-   [Protected Mode](http://go.microsoft.com/fwlink/p/?linkid=205010) is enabled by default for [Internet, Intranet, and Restricted Sites zones](https://msdn.microsoft.com/library/ms537187(v=VS.85).aspx). This mode [blocks browser extensions that could pose a security risk](https://msdn.microsoft.com/library/Dd565645(v=VS.85).aspx) from running and [lower privilege applications from accessing higher privilege processes](https://msdn.microsoft.com/library/Dd565646(v=VS.85).aspx), like the Start menu, Control Panel, and the Microsoft Windows registry (applies to Internet Explorer 7 and later versions on Windows Vista and later versions).
 
 <!-- -->
 
--   [Protected Mode Update](https://www.bing.com/search?q=Protected+Mode+Update): Intranet runs in medium (instead of low) integrity level by default.
+-   [Protected Mode Update](https://msdn.microsoft.com/library/Dd565648(v=VS.85).aspx): Intranet runs in medium (instead of low) integrity level by default.
 -   [Loosely Coupled Internet Explorer](http://go.microsoft.com/fwlink/p/?linkid=205012) might block add-ons (that is, ActiveX controls and COM objects) that do one of the following:
     -   Use windows hierarchy techniques to locate UI frame and tab windows (which now run in separate processes at different integrity levels).
     -   Create a subclass of the UI frame (now at medium integrity level) from a low-integrity tab process.

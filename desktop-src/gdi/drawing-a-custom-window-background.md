@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Drawing a Custom Window Background
 
-You can draw your own window background rather than having the system draw it for you. Most applications specify a brush handle or system color value for the class background brush when registering the window class; the system uses the brush or color to draw the background. If you set the class background brush to **NULL**, however, the system sends a [**WM\_ERASEBKGND**](https://www.bing.com/search?q=**WM\_ERASEBKGND**) message to your window procedure whenever the window background must be drawn, letting you draw a custom background.
+You can draw your own window background rather than having the system draw it for you. Most applications specify a brush handle or system color value for the class background brush when registering the window class; the system uses the brush or color to draw the background. If you set the class background brush to **NULL**, however, the system sends a [**WM\_ERASEBKGND**](https://msdn.microsoft.com/library/ms648055(v=VS.85).aspx) message to your window procedure whenever the window background must be drawn, letting you draw a custom background.
 
 In the following example, the window procedure draws a large checkerboard pattern that fits neatly in the window. The procedure fills the client area with a white brush and then draws thirteen 20-by-20 rectangles using a gray brush. The display device context to use when drawing the background is specified in the *wParam* parameter for the message.
 
@@ -48,7 +48,7 @@ case WM_ERASEBKGND:
 
 
 
-If the application draws its own minimized window, the system also sends the [**WM\_ERASEBKGND**](https://www.bing.com/search?q=**WM\_ERASEBKGND**) message to the window procedure to draw the background for the minimized window. You can use the same technique used by [**WM\_PAINT**](wm-paint.md) to determine whether the window is minimized that is, call the [**IsIconic**](https://www.bing.com/search?q=**IsIconic**) function and check for the return value **TRUE**.
+If the application draws its own minimized window, the system also sends the [**WM\_ERASEBKGND**](https://msdn.microsoft.com/library/ms648055(v=VS.85).aspx) message to the window procedure to draw the background for the minimized window. You can use the same technique used by [**WM\_PAINT**](wm-paint.md) to determine whether the window is minimized that is, call the [**IsIconic**](https://msdn.microsoft.com/library/ms633527(v=VS.85).aspx) function and check for the return value **TRUE**.
 
  
 

@@ -33,7 +33,7 @@ The following table describes which threads the [**PenInputPanel**](peninputpane
 [**PenInputPanel Class**](peninputpanel-class.md)
 </dt> <dt>
 
-[Microsoft.Ink.PenInputPanel Class](frlrfMicrosoftInkPenInputPanelClassTopic)
+[Microsoft.Ink.PenInputPanel Class](https://msdn.microsoft.com/library/Aa514041(v=MSDN.10).aspx)
 </dt> </dl>
 
  

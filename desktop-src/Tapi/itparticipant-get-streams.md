@@ -1,0 +1,96 @@
+---
+Description: The get\_Streams method creates a collection of streams associated with the current participant.
+ms.assetid: 9ab05b14-8ef8-4e7f-b598-05795011e35d
+title: ITParticipant::get\_Streams method
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# ITParticipant::get\_Streams method
+
+\[**get\_Streams** is not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API provides similar functionality.\]
+
+The **get\_Streams** method creates a collection of streams associated with the current participant. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the [**EnumerateStreams**](itparticipant-enumeratestreams.md) method.
+
+## Syntax
+
+
+```C++
+);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*pVariant* \[out\]
+</dt> <dd>
+
+Pointer to **VARIANT** containing an [**ITCollection**](/windows/desktop/api/tapi3if/nn-tapi3if-itcollection) of [**ITStream**](https://msdn.microsoft.com/en-us/library/ms732390(v=VS.85).aspx) interface pointers.
+
+</dd> </dl>
+
+## Return value
+
+This method can return one of these values.
+
+
+
+| Value                                                                                         | Meaning                                                         |
+|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| <dl> <dt>**S\_OK**</dt> </dl>          | Method succeeded.<br/>                                    |
+| <dl> <dt>**E\_OUTOFMEMORY**</dt> </dl> | Insufficient memory exists to perform the operation.<br/> |
+| <dl> <dt>**E\_POINTER**</dt> </dl>     | The *pVariant* parameter is not a valid pointer.<br/>     |
+
+
+
+ 
+
+## Remarks
+
+TAPI calls the **AddRef** method on the [**ITStream**](https://msdn.microsoft.com/en-us/library/ms732390(v=VS.85).aspx) interface returned by **ITParticipant::get\_Streams**. The application must call **Release** on the **ITStream** interface to free resources associated with it.
+
+## Requirements
+
+
+
+|                         |                                                                                      |
+|-------------------------|--------------------------------------------------------------------------------------|
+| TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                |
+| Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |
+| Library<br/>      | <dl> <dt>Uuid.lib</dt> </dl>  |
+| DLL<br/>          | <dl> <dt>Tapi3.dll</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**ITParticipant**](itparticipant.md)
+</dt> <dt>
+
+[**EnumerateStreams**](itparticipant-enumeratestreams.md)
+</dt> <dt>
+
+[**IEnumStream**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumstream)
+</dt> <dt>
+
+[**ITCollection**](/windows/desktop/api/tapi3if/nn-tapi3if-itcollection)
+</dt> <dt>
+
+[**ITStream**](https://msdn.microsoft.com/en-us/library/ms732390(v=VS.85).aspx)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

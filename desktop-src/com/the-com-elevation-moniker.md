@@ -91,9 +91,9 @@ Elevation:Administrator!new:{guid}
 Elevation:Highest!new:{guid}
 ```
 
-The preceding syntax uses the "new" moniker to return an instance of the COM class specified by *guid*. Note that the "new" moniker internally uses the [**IClassFactory**](/windows/desktop/api) interface to obtain a class object and then calls [**IClassFactory::CreateInstance**](/windows/desktop/api/Unknwn/nf-unknwn-iclassfactory-createinstance) on it.
+The preceding syntax uses the "new" moniker to return an instance of the COM class specified by *guid*. Note that the "new" moniker internally uses the [**IClassFactory**](https://msdn.microsoft.com/en-us/library/ms694364(v=VS.85).aspx) interface to obtain a class object and then calls [**IClassFactory::CreateInstance**](/windows/desktop/api/Unknwn/nf-unknwn-iclassfactory-createinstance) on it.
 
-The elevation moniker can also be used to get a class object, which implements [**IClassFactory**](/windows/desktop/api). The caller then calls [**CreateInstance**](/windows/desktop/api/Unknwn/nf-unknwn-iclassfactory-createinstance) to get an object instance. The syntax for this is as follows:
+The elevation moniker can also be used to get a class object, which implements [**IClassFactory**](https://msdn.microsoft.com/en-us/library/ms694364(v=VS.85).aspx). The caller then calls [**CreateInstance**](/windows/desktop/api/Unknwn/nf-unknwn-iclassfactory-createinstance) to get an object instance. The syntax for this is as follows:
 
 ``` syntax
 Elevation:Administrator!clsid:{guid}

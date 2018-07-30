@@ -51,7 +51,7 @@ The [**IFilter**](https://www.bing.com/search?q=**IFilter**) interface has five 
 
 | Method                                                    | Description                                                                                                        |
 |-----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| [**IFilter::Init**](https://www.bing.com/search?q=**IFilter::Init**)          | Initializes a filtering session.                                                                                   |
+| [**IFilter::Init**](https://msdn.microsoft.com/library/Bb266452(v=VS.85).aspx)          | Initializes a filtering session.                                                                                   |
 | [**IFilter::GetChunk**](https://www.bing.com/search?q=**IFilter::GetChunk**)     | Positions [**IFilter**](https://www.bing.com/search?q=**IFilter**) at the beginning of the first or next chunk and returns a descriptor. |
 | [**IFilter::GetText**](https://www.bing.com/search?q=**IFilter::GetText**)       | Retrieves text from the current chunk.                                                                             |
 | [**IFilter::GetValue**](https://www.bing.com/search?q=**IFilter::GetValue**)     | Retrieves values from the current chunk.                                                                           |

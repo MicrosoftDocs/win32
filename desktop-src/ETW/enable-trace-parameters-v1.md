@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ENABLE_TRACE_PARAMETERS_V1
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - Evntrace.h
 ---
 
@@ -51,7 +51,7 @@ Set to **ENABLE\_TRACE\_PARAMETERS\_VERSION**.
 **EnableProperty**
 </dt> <dd>
 
-Optional information that ETW can include when writing the event. The data is written to the [**extended data item**](/windows/desktop/api) section of the event. To include the optional information, specify one or more of the following flags; otherwise, set to zero.
+Optional information that ETW can include when writing the event. The data is written to the [**extended data item**](https://msdn.microsoft.com/en-us/library/Aa363760(v=VS.85).aspx) section of the event. To include the optional information, specify one or more of the following flags; otherwise, set to zero.
 
 
 

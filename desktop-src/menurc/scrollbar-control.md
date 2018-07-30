@@ -54,7 +54,7 @@ SCROLLBAR IDC_SCROLLBARV, 7, 55, 187, 44, SBS_VERT
 
 <dl> <dt>
 
-[Scroll Bars](https://www.bing.com/search?q=Scroll+Bars)
+[Scroll Bars](https://msdn.microsoft.com/library/Bb787527(v=VS.85).aspx)
 </dt> </dl>
 
  

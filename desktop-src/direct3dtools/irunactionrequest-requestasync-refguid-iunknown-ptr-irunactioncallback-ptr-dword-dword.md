@@ -1,0 +1,60 @@
+---
+Description: An asynchronous request to initiate an action (for example, capture a frame) in the engine.
+MS-HAID: vspixengine.IRunActionRequest\_RequestAsync\_REFGUID\_IUnknown\_ptr\_IRunActionCallback\_ptr\_DWORD\_DWORD
+MSHAttr:
+- PreferredSiteName:MSDN
+- PreferredLib:/library/windows/desktop
+title: IRunActionRequest::RequestAsync method
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# <span id="vspixengine.irunactionrequest_requestasync_refguid_iunknown_ptr_irunactioncallback_ptr_dword_dword"></span>IRunActionRequest::RequestAsync method
+
+An asynchronous request to initiate an action (for example, capture a frame) in the engine.
+
+## Syntax
+
+
+```C++
+);
+```
+
+## Parameters
+
+*action*   
+The specified action.
+
+*actionPayload*   
+The payload of the specified action.
+
+*requestCallback*   
+The address of callback used to notify the host of results.
+
+*requestCookie*   
+A cookie that uniquely identifies the request, and can be used to signal for it to be cancelled.
+
+*progressIntervalMsecs*   
+Not used.
+
+## Return value
+
+If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
+
+## Requirements
+
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+
+## <span id="see_also"></span>See also
+
+[**IRunActionRequest**](https://msdn.microsoft.com/library/windows/desktop/mt432792)
+
+ 
+
+ 
+
+
+

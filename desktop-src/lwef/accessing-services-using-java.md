@@ -45,7 +45,7 @@ public void start()
 
 
 
-The procedure is slightly different when loading characters from a HTTP remote location such as a website. In this case the [**Load**](https://www.bing.com/search?q=**Load**) method is asynchronous and will raise a COM exception of E\_PENDING (0x8000000a). You will need to catch this exception and handle it correctly as is done in the following functions:
+The procedure is slightly different when loading characters from a HTTP remote location such as a website. In this case the [**Load**](https://msdn.microsoft.com/library/h1tx7zt1(v=VS.71).aspx) method is asynchronous and will raise a COM exception of E\_PENDING (0x8000000a). You will need to catch this exception and handle it correctly as is done in the following functions:
 
 
 ```

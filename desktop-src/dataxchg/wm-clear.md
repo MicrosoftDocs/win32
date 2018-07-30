@@ -54,11 +54,11 @@ This message does not return a value.
 
 ## Remarks
 
-The deletion performed by the **WM\_CLEAR** message can be undone by sending the edit control an [**EM\_UNDO**](https://www.bing.com/search?q=**EM\_UNDO**) message.
+The deletion performed by the **WM\_CLEAR** message can be undone by sending the edit control an [**EM\_UNDO**](https://msdn.microsoft.com/library/Bb761670(v=VS.85).aspx) message.
 
 To delete the current selection and place the deleted content on the clipboard, use the [**WM\_CUT**](wm-cut.md) message.
 
-When sent to a combo box, the **WM\_CLEAR** message is handled by its edit control. This message has no effect when sent to a combo box with the [**CBS\_DROPDOWNLIST**](https://www.bing.com/search?q=**CBS\_DROPDOWNLIST**) style.
+When sent to a combo box, the **WM\_CLEAR** message is handled by its edit control. This message has no effect when sent to a combo box with the [**CBS\_DROPDOWNLIST**](https://msdn.microsoft.com/library/Bb775796(v=VS.85).aspx) style.
 
 ## Requirements
 

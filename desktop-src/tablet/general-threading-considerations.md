@@ -47,9 +47,9 @@ When your application is performing custom rendering or when your application is
 
 | Object or Control                                            | Event                                                                                                                                                                                                                     |
 |--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**InkCollector**](inkcollector-class.md) Object<br/> | The underlying control's [Control.Invalidated](frlrfSystemWindowsFormsControlClassInvalidatedTopic) and [Control.Paint](frlrfSystemWindowsFormsControlClassPaintTopic) events.<br/>                                 |
-| [**InkOverlay**](inkoverlay-class.md) Object<br/>     | The underlying control's [Control.Invalidated](frlrfSystemWindowsFormsControlClassInvalidatedTopic) and [Control.Paint](frlrfSystemWindowsFormsControlClassPaintTopic) events.<br/>                                 |
-| [InkPicture](inkpicture-control.md) Control<br/>      | [InkPicture](inkpicture-control.md) control's inherited [Control.Invalidated](frlrfSystemWindowsFormsControlClassInvalidatedTopic) and [Control.Paint](frlrfSystemWindowsFormsControlClassPaintTopic) events.<br/> |
+| [**InkCollector**](inkcollector-class.md) Object<br/> | The underlying control's [Control.Invalidated](https://msdn.microsoft.com/library/z4yzf1s6(v=VS.90).aspx) and [Control.Paint](https://msdn.microsoft.com/library/02745s21(v=VS.90).aspx) events.<br/>                                 |
+| [**InkOverlay**](inkoverlay-class.md) Object<br/>     | The underlying control's [Control.Invalidated](https://msdn.microsoft.com/library/z4yzf1s6(v=VS.90).aspx) and [Control.Paint](https://msdn.microsoft.com/library/02745s21(v=VS.90).aspx) events.<br/>                                 |
+| [InkPicture](inkpicture-control.md) Control<br/>      | [InkPicture](inkpicture-control.md) control's inherited [Control.Invalidated](https://msdn.microsoft.com/library/z4yzf1s6(v=VS.90).aspx) and [Control.Paint](https://msdn.microsoft.com/library/02745s21(v=VS.90).aspx) events.<br/> |
 
 
 
@@ -77,7 +77,7 @@ The [InkPicture](inkpicture-control-reference.md) and [InkEdit](inkedit-control-
 
 Recognition events are raised on the UI thread or the background recognition thread.
 
--   The [InkEdit](inkedit-control-reference.md) control's [**Recognize**](/windows/desktop/api/inked/nf-inked-iinkedit-recognize) method raises the [Recognition](frlrfMicrosoftInkInkEditClassRecognitionTopic) (Managed Library only) or [**RecognitionResult**](inkedit-recognitionresult.md) (Automation only) event on the UI thread.
+-   The [InkEdit](inkedit-control-reference.md) control's [**Recognize**](/windows/desktop/api/inked/nf-inked-iinkedit-recognize) method raises the [Recognition](https://msdn.microsoft.com/library/ms836436(v=MSDN.10).aspx) (Managed Library only) or [**RecognitionResult**](inkedit-recognitionresult.md) (Automation only) event on the UI thread.
 -   The [**RecognizerContext**](inkrecognizercontext-class.md) object's [**BackgroundRecognize**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognize) and [**BackgroundRecognizeWithAlternates**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognizewithalternates) methods raise the [**Recognition**](inkrecognizercontext-recognition.md) and [**RecognitionWithAlternates**](inkrecognizercontext-recognitionwithalternates.md) events on the background recognition thread.
 
 ### Pen Input Panel Events
@@ -88,22 +88,22 @@ Recognition events are raised on the UI thread or the background recognition thr
 
 <dl> <dt>
 
-[Microsoft.Ink.InkCollector.DynamicRendering](frlrfMicrosoftInkInkCollectorClassDynamicRenderingTopic)
+[Microsoft.Ink.InkCollector.DynamicRendering](https://msdn.microsoft.com/library/ms836502(v=MSDN.10).aspx)
 </dt> <dt>
 
-[Microsoft.Ink.InkOverlay.DynamicRendering](frlrfMicrosoftInkInkOverlayClassDynamicRenderingTopic)
+[Microsoft.Ink.InkOverlay.DynamicRendering](https://msdn.microsoft.com/library/ms833104(v=MSDN.10).aspx)
 </dt> <dt>
 
-[Microsoft.Ink.InkPicture.DynamicRendering](P:Microsoft.Ink.InkPicture.DynamicRendering)
+[Microsoft.Ink.InkPicture.DynamicRendering](https://msdn.microsoft.com/library/ms582188(v=VS.90).aspx)
 </dt> <dt>
 
-[Microsoft.Ink.InkCollector.AutoRedraw](frlrfMicrosoftInkInkCollectorClassAutoRedrawTopic)
+[Microsoft.Ink.InkCollector.AutoRedraw](https://msdn.microsoft.com/library/ms836495(v=MSDN.10).aspx)
 </dt> <dt>
 
-[Microsoft.Ink.InkOverlay.AutoRedraw](frlrfMicrosoftInkInkOverlayClassAutoRedrawTopic)
+[Microsoft.Ink.InkOverlay.AutoRedraw](https://msdn.microsoft.com/library/ms833082(v=MSDN.10).aspx)
 </dt> <dt>
 
-[Microsoft.Ink.InkPicture.AutoRedraw](frlrfMicrosoftInkInkPictureClassAutoRedrawTopic)
+[Microsoft.Ink.InkPicture.AutoRedraw](https://msdn.microsoft.com/library/ms582180(v=VS.90).aspx)
 </dt> </dl>
 
  

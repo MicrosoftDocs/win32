@@ -75,7 +75,7 @@ If two MFTs represent the same physical device, they can exchange data within th
 
 In the following diagram, the MFTs labeled "A" and "B" represent functional blocks within the same hardware. For example, in a transcoding scenario, "A" might represent a hardware decoder and "B" might represent a hardware encoder. The data flow between "A" and "B" occurs within the hardware. The MFT labeled "C" is a software MFT. Data flow from "B" to "C" uses system memory.
 
-![diagram showing boxes labeled a through c, and a hardware codec: a points to b and the codec, the codec points to b, and b points to c](https://www.bing.com/search?q=diagram+showing+boxes+labeled+a+through+c,+and+a+hardware+codec:+a+points+to+b+and+the+codec,+the+codec+points+to+b,+and+b+points+to+c)
+![diagram showing boxes labeled a through c, and a hardware codec: a points to b and the codec, the codec points to b, and b points to c](images/proxy-mft.png)
 
 To establish a hardware connection, the two hardware MFTs must use a private communication channel. This connection is established during format negotiation, before the media types are set and before the first call to [**ProcessInput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput). The connection process works as follows:
 
@@ -87,7 +87,7 @@ To establish a hardware connection, the two hardware MFTs must use a private com
     4.  The topology loader sets the [MFT\_CONNECTED\_TO\_HW\_STREAM](mft-connected-to-hw-stream.md) attribute to **TRUE** on both *pDownstream* and *pUpstream*.
 3.  At this point, the downstream MFT has a pointer to the upstream MFT's attribute store, as shown in the following diagram.
 
-    ![diagram with each mfts pointing to its stream, each stream pointing to its store, and the input store with a dashed line to the output store](https://www.bing.com/search?q=diagram+with+each+mfts+pointing+to+its+stream,+each+stream+pointing+to+its+store,+and+the+input+store+with+a+dashed+line+to+the+output+store)
+    ![diagram with each mfts pointing to its stream, each stream pointing to its store, and the input store with a dashed line to the output store](images/proxy-mft2.png)
 
     > [!Note]  
     > For clarity, this diagram shows the streams and the attribute stores as distinct objects, but that is not required for the implementation.

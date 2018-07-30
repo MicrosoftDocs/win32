@@ -7,20 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - NtGetCurrentProcessorNumber
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - Ntdll.dll
 ---
 
 # NtGetCurrentProcessorNumber function
 
-\[**NtGetCurrentProcessorNumber** may be altered or unavailable in future versions of Windows. Applications should use the [**GetCurrentProcessorNumber**](/windows/desktop/api) function instead.\]
+\[**NtGetCurrentProcessorNumber** may be altered or unavailable in future versions of Windows. Applications should use the [**GetCurrentProcessorNumber**](https://msdn.microsoft.com/en-us/library/ms683181(v=VS.85).aspx) function instead.\]
 
 Retrieves the number of the processor the current thread was running on during the call to this function.
 

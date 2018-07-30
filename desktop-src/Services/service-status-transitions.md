@@ -21,13 +21,13 @@ The service state typically changes as a result of handling a control request. C
 
 Only certain service state transitions are valid. The following diagram shows the valid transitions.
 
-![valid service status transitions](https://www.bing.com/search?q=valid+service+status+transitions)
+![valid service status transitions](images/service-status-transitions.png)
 
 The service state reported to the SCM determines how the SCM interacts with the service. For example, if a service reports SERVICE\_STOP\_PENDING, the SCM does not transmit further control requests to the service because this state indicates that the service is shutting down. The next state reported by the service should be SERVICE\_STOPPED because that is the only valid state after SERVICE\_STOP\_PENDING. However, if a service reports a transition that is not valid, the SCM does not fail the call.
 
 The following diagram shows service state transitions in more detail, including the control requests initiated by a service control program (the service client) and the [**SetServiceStatus**](/windows/desktop/api/Winsvc/nf-winsvc-setservicestatus) calls that a service makes to report state changes to the SCM. As mentioned earlier, the SCM sends only control requests that the service has specified it will accept, so a service might not receive all of the requests shown in the diagram.
 
-![service status transitions in detail ](https://www.bing.com/search?q=service+status+transitions+in+detail+)
+![service status transitions in detail ](images/service-status-flow-diagram.png)
 
 ## Related topics
 

@@ -79,7 +79,7 @@ Interfaces that provide information to the relogger on the tracing process and w
 Additional enumerations used by the new functions and interfaces. For more information, see:
 
 -   [**EVENT\_INFO\_CLASS**](/windows/desktop/api/Evntprov/ne-evntprov-_event_info_class)
--   [**TRACE\_QUERY\_INFO\_CLASS**](https://www.bing.com/search?q=**TRACE\_QUERY\_INFO\_CLASS**)
+-   [**TRACE\_QUERY\_INFO\_CLASS**](https://msdn.microsoft.com/library/Aa364147(v=VS.85).aspx)
 
 ## Windows 7 and Windows Server 2008 R2
 

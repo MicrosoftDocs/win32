@@ -22,7 +22,7 @@ On the other hand, type-1 files are less efficient for real-time editing. The ap
 
 A type-2 file can be converted to type-1 using the [DV Muxer](dv-muxer-filter.md) filter. A type-1 file can be converted to type-2 using the [DV Splitter](dv-splitter-filter.md) filter. The following diagram illustrates the difference between the two formats.
 
-![conversion between type-1 and type-2 dv](https://www.bing.com/search?q=conversion+between+type-1+and+type-2+dv)
+![conversion between type-1 and type-2 dv](images/dv-filters3.png)
 
 ## Related topics
 

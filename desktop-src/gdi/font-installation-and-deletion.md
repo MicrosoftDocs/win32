@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Font Installation and Deletion
 
-An application can use a font to draw text only if that font is either resident on a specified device or installed in the system font table. The font table is an internal array that identifies all nondevice fonts that are available to an application. An application can retrieve the names of fonts currently installed on a device or stored in the internal font table by calling the [**EnumFontFamilies**](/windows/desktop/api/Wingdi/nf-wingdi-enumfontfamiliesa) or [**ChooseFont**](https://www.bing.com/search?q=**ChooseFont**) functions.
+An application can use a font to draw text only if that font is either resident on a specified device or installed in the system font table. The font table is an internal array that identifies all nondevice fonts that are available to an application. An application can retrieve the names of fonts currently installed on a device or stored in the internal font table by calling the [**EnumFontFamilies**](/windows/desktop/api/Wingdi/nf-wingdi-enumfontfamiliesa) or [**ChooseFont**](https://msdn.microsoft.com/library/ms646914(v=VS.85).aspx) functions.
 
 To temporarily install a font, call [**AddFontResource**](/windows/desktop/api/Wingdi/nf-wingdi-addfontresourcea) or [**AddFontResourceEx**](/windows/desktop/api/Wingdi/nf-wingdi-addfontresourceexa). These functions load a font that is stored in a font-resource file. However, this is a temporary installation because after a reboot the font will not be present.
 
@@ -27,7 +27,7 @@ A font installed from a location other than the %windir%\\fonts folder cannot be
 -   *Temporary fonts* get loaded only in the current session. Before attempting any font modifications, call [**RemoveFontResource**](/windows/desktop/api/Wingdi/nf-wingdi-removefontresourcea) to force the current session to unload the font.
 -   *Permanent fonts* remain installed after reboot and are loaded by all created sessions. Call [**RemoveFontResource**](/windows/desktop/api/Wingdi/nf-wingdi-removefontresourcea) to force the current session to unload the font. Then, in the font registry key (**HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts**) find and remove the registry value associated with the font. Finally, reboot the machine to ensure the font isn't loaded in any session. After reboot, proceed with your font modification/deletion.
 
-Whenever an application calls the functions that add and delete font resources, it should also call the [**SendMessage**](https://www.bing.com/search?q=**SendMessage**) function and send a [**WM\_FONTCHANGE**](wm-fontchange.md) message to all top-level windows in the system. This message notifies other applications that the internal font table has been altered by an application that added or removed a font.
+Whenever an application calls the functions that add and delete font resources, it should also call the [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx) function and send a [**WM\_FONTCHANGE**](wm-fontchange.md) message to all top-level windows in the system. This message notifies other applications that the internal font table has been altered by an application that added or removed a font.
 
  
 

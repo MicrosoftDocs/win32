@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # MsiShortcutProperty Table
 
-The MsiShortcutProperty table enables Window Installer to set properties for shortcuts that are also [Windows Shell](https://www.bing.com/search?q=Windows+Shell) objects. Beginning with Windows Vista and Windows Server 2008 the Windows Shell provides an IPropertyStore Interface for shell objects such as shortcuts. A Windows Installer 5.0 package running on Windows Server 2008 R2 or Windows 7 can set these properties when the shortcut is installed.
+The MsiShortcutProperty table enables Window Installer to set properties for shortcuts that are also [Windows Shell](https://msdn.microsoft.com/library/Bb773177(v=VS.85).aspx) objects. Beginning with Windows Vista and Windows Server 2008 the Windows Shell provides an IPropertyStore Interface for shell objects such as shortcuts. A Windows Installer 5.0 package running on Windows Server 2008 R2 or Windows 7 can set these properties when the shortcut is installed.
 
 **[Windows Installer 4.5 or earlier](not-supported-in-windows-installer-4-5.md):** Not supported. This table is available beginning with Windows Installer 5.0.
 
@@ -51,7 +51,7 @@ A key into the [Shortcut](shortcut-table.md) table that identifies the shortcut 
 <span id="PropertyKey"></span><span id="propertykey"></span><span id="PROPERTYKEY"></span>PropertyKey
 </dt> <dd>
 
-A string value that provides information for the [**PROPERTYKEY**](https://www.bing.com/search?q=**PROPERTYKEY**) structure. The information in this field must refer to the canonical name of a property registered with the Windows property system. For more information about the Windows property system, see the [Property System Overview](https://www.bing.com/search?q=Property+System+Overview).
+A string value that provides information for the [**PROPERTYKEY**](https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx) structure. The information in this field must refer to the canonical name of a property registered with the Windows property system. For more information about the Windows property system, see the [Property System Overview](https://msdn.microsoft.com/library/Bb776909(v=VS.85).aspx).
 
 </dd> <dt>
 

@@ -13,17 +13,17 @@ title: Win32\_SystemConfigurationChangeEvent class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - Win32_SystemConfigurationChangeEvent
 - Win32_SystemConfigurationChangeEvent.SECURITY_DESCRIPTOR
 - Win32_SystemConfigurationChangeEvent.TIME_CREATED
 - Win32_SystemConfigurationChangeEvent.EventType
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - CIMWin32.dll
 ---
 
@@ -131,7 +131,7 @@ Unique value that indicates the time at which the event was generated. This is a
 
 This property is inherited from [**\_\_Event**](https://msdn.microsoft.com/en-us/library/Aa394634(v=VS.85).aspx).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> </dl>
 

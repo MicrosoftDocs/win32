@@ -7,20 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - OID
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - Capicom.dll
 ---
 
 # OID object
 
-\[The **OID** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**Oid Class**](https://www.bing.com/search?q=**Oid+Class**) in the [**System.Security.Cryptography**](https://www.bing.com/search?q=**System.Security.Cryptography**) namespace.\]
+\[The **OID** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**Oid Class**](https://msdn.microsoft.com/library/za72cszy(v=VS.90).aspx) in the [**System.Security.Cryptography**](https://msdn.microsoft.com/library/9eat8fht(v=VS.100).aspx) namespace.\]
 
 The **OID** object represents an [*object identifier*](https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx) (OID) that is used by several CAPICOM properties.
 

@@ -27,7 +27,7 @@ Imports Microsoft.Ink
 
 ## Initialize the InkCollector
 
-The sample adds code to the form's [Load](frlrfSystemWindowsFormsFormClassLoadTopic) event handler that serves to associate the [InkCollector](frlrfMicrosoftInkInkCollectorClassTopic), myInkCollector, with the group box window and enable the InkCollector.
+The sample adds code to the form's [Load](https://msdn.microsoft.com/library/4w303742(v=VS.100).aspx) event handler that serves to associate the [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.100).aspx), myInkCollector, with the group box window and enable the InkCollector.
 
 
 ```VB
@@ -49,9 +49,9 @@ End Sub
 
 ## Recognize the Strokes
 
-The [Button](T:System.Windows.Forms.Button) object's [Click](frlrfSystemWindowsFormsControlClassClickTopic) event handler checks to ensure that the user has at least one recognizer installed by examining the [Count](frlrfMicrosoftInkRecognizersClassCountTopic) property of the [Recognizers](frlrfMicrosoftInkRecognizersClassTopic) collection.
+The [Button](https://msdn.microsoft.com/library/031c58k4(v=VS.90).aspx) object's [Click](https://msdn.microsoft.com/library/hkz3c8hc(v=VS.90).aspx) event handler checks to ensure that the user has at least one recognizer installed by examining the [Count](https://msdn.microsoft.com/library/ms828521(v=MSDN.10).aspx) property of the [Recognizers](https://msdn.microsoft.com/library/ms828520(v=MSDN.10).aspx) collection.
 
-The [SelectedText](frlrfSystemWindowsControlsTextBoxClassSelectedTextTopic) property of the text box is set to the best match for the strokes using the [ToString](frlrfMicrosoftInkStrokesClassToStringTopic) method on the [Strokes](frlrfMicrosoftInkStrokesClassTopic) collection. After the strokes have been recognized, they are deleted. Finally, the code forces drawing area repaint, clearing it for further ink use.
+The [SelectedText](https://msdn.microsoft.com/library/ms605830(v=VS.96).aspx) property of the text box is set to the best match for the strokes using the [ToString](https://msdn.microsoft.com/library/ms827836(v=MSDN.10).aspx) method on the [Strokes](https://msdn.microsoft.com/library/ms552701(v=VS.100).aspx) collection. After the strokes have been recognized, they are deleted. Finally, the code forces drawing area repaint, clearing it for further ink use.
 
 
 ```VB
@@ -85,7 +85,7 @@ End Sub
 
 ## Closing the Form
 
-The form's [Dispose](frlrfSystemWindowsFormsFormClassDisposeTopic) method disposes the [InkCollector](frlrfMicrosoftInkInkCollectorClassTopic) object.
+The form's [Dispose](https://msdn.microsoft.com/library/d305e9bx(v=VS.100).aspx) method disposes the [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.100).aspx) object.
 
  
 

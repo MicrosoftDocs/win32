@@ -22,7 +22,7 @@ Asynchronous storage works together with asynchronous monikers to provide comple
 
  
 
-An asynchronous moniker client requests asynchronous binding by implementing a bind-status callback object and registering it with the bind context. The bind-status callback object exposes the [**IBindStatusCallback**](https://www.bing.com/search?q=**IBindStatusCallback**) interface, which enables the client to specify binding preferences and to receive progress and global data-availability notifications during the course of a binding operation. The asynchronous compound file implementation provides a connection point for [**IProgressNotify**](https://msdn.microsoft.com/en-us/library/ms680740(v=VS.85).aspx), which clients can use to receive specific availability notifications on individual streams.
+An asynchronous moniker client requests asynchronous binding by implementing a bind-status callback object and registering it with the bind context. The bind-status callback object exposes the [**IBindStatusCallback**](https://msdn.microsoft.com/library/ms775060(v=VS.85).aspx) interface, which enables the client to specify binding preferences and to receive progress and global data-availability notifications during the course of a binding operation. The asynchronous compound file implementation provides a connection point for [**IProgressNotify**](https://msdn.microsoft.com/en-us/library/ms680740(v=VS.85).aspx), which clients can use to receive specific availability notifications on individual streams.
 
  
 

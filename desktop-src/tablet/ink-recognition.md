@@ -58,7 +58,7 @@ catch
 
 ## RecognitionResult and RecognitionAlternate Objects
 
-The results of the recognition are returned in a [**RecognitionResult**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult) object. The results contain a best result string in the [TopString](frlrfMicrosoftInkRecognitionResultClassTopStringTopic) property, as well as a collection of alternative results in a [**RecognitionAlternates**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates) collection. The **RecognitionResult** object can be persisted with the original [**Strokes**](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection from which it was generated.
+The results of the recognition are returned in a [**RecognitionResult**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult) object. The results contain a best result string in the [TopString](https://msdn.microsoft.com/library/ms829602(v=MSDN.10).aspx) property, as well as a collection of alternative results in a [**RecognitionAlternates**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates) collection. The **RecognitionResult** object can be persisted with the original [**Strokes**](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection from which it was generated.
 
 ## RecognizerGuide Structure
 

@@ -23,7 +23,7 @@ api_location:
 
 \[This function is a wrapper over the **PeekMessage** function. This function may be altered or unavailable in the future. Applications should call **PeekMessage** directly.\]
 
-Dispatches incoming sent messages, checks the thread message queue for a posted message, and retrieves the message (if any exist). See [**PeekMessage**](_win32_peekmessage_cpp).
+Dispatches incoming sent messages, checks the thread message queue for a posted message, and retrieves the message (if any exist). See [**PeekMessage**](https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx).
 
 ## Syntax
 
@@ -57,7 +57,7 @@ BOOL _PeekMessage(
 
 <dl> <dt>
 
-[**PeekMessage**](_win32_peekmessage_cpp)
+[**PeekMessage**](https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx)
 </dt> </dl>
 
  

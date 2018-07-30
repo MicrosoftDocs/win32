@@ -25,11 +25,11 @@ This value is a member of the [**\_MFDepthMeasurement**](/windows/desktop/api/mf
 
 If this attribute is not present it is assumed to be **DistanceToFocalPlane**. The distance to focal plane is typically easier to consume in a 3D Euclidian coordinate system.
 
-![illustration of distancetofocalplane](https://www.bing.com/search?q=illustration+of+distancetofocalplane)
+![illustration of distancetofocalplane](images/distance-to-focal-plane.png)
 
 The distance to focal center format is typically raw data from sensor such as time of flight cameras.
 
-![illustration of distancetoopticalcenter](https://www.bing.com/search?q=illustration+of+distancetoopticalcenter)
+![illustration of distancetoopticalcenter](images/distance-to-optical-center.png)
 
 Depth cameras cannot sense the depth of all pixels. When the confidence of a pixel is low, because of material, occlusion, or out of range etc, the depth value on that pixel can be invalid.
 

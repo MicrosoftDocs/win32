@@ -51,7 +51,7 @@ Building the pattern match filter involves creating [**PATTERNMATCH**](patternma
 
 This frame represents a standard offset.
 
-![standard offset frame](https://www.bing.com/search?q=standard+offset+frame)
+![standard offset frame](images/offs-pat.png)
 
 The code fragment is implemented as:
 
@@ -64,7 +64,7 @@ PatternToMatch[ ] = {x00, x00}
 
 This frame depicts a port-specified offset (against IPX).
 
-![port-specified offset frame](https://www.bing.com/search?q=port-specified+offset+frame)
+![port-specified offset frame](images/stan-pat.png)
 
 The example code is implemented as:
 

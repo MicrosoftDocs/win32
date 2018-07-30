@@ -13,10 +13,10 @@ title: Win32\_VideoController class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - Win32_VideoController
 - Win32_VideoController.Reset
 - Win32_VideoController.SetPowerState
@@ -79,9 +79,9 @@ api_name:
 - Win32_VideoController.VideoMode
 - Win32_VideoController.VideoModeDescription
 - Win32_VideoController.VideoProcessor
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - CIMWin32.dll
 ---
 
@@ -995,7 +995,7 @@ Access type: Read-only
 
 Number of colors supported at the current resolution.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 This property is inherited from [**CIM\_VideoController**](cim-videocontroller.md).
 

@@ -39,7 +39,7 @@ If you expect input that is different from the formats listed in the tables in t
 [**Factoid Constants**](factoid-constants.md)
 </dt> <dt>
 
-[Microsoft.Ink.Factoid Class](frlrfMicrosoftInkFactoidClassTopic)
+[Microsoft.Ink.Factoid Class](https://msdn.microsoft.com/library/ms583657(v=VS.90).aspx)
 </dt> </dl>
 
  

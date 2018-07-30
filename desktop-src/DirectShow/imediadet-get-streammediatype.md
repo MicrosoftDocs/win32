@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - IMediaDet.get_StreamMediaType
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - strmiids.lib
 - strmiids.dll
 ---
@@ -26,7 +26,7 @@ api_location:
 
  
 
-The `get_StreamMediaType` method retrieves the media type of the current stream. All video streams are converted to [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) types, and all audio streams are converted to [**WAVEFORMATEX**](https://www.bing.com/search?q=**WAVEFORMATEX**) types.
+The `get_StreamMediaType` method retrieves the media type of the current stream. All video streams are converted to [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) types, and all audio streams are converted to [**WAVEFORMATEX**](https://msdn.microsoft.com/en-us/library/Dd390970(v=VS.85).aspx) types.
 
 ## Syntax
 

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The allocator-presenter is responsible for allocating DirectDraw surfaces and presenting the video frames for rendering. In the vast majority of scenarios, the functionality of the default allocator-presenter will be more than sufficient for an application's needs. But by plugging in a custom allocator-presenter, an application can obtain direct access to the video bits and completely control the rendering process. The trade-off for this increased power is that the application must handle the added complexity of DirectDraw surface management.
 
-![using a custom allocator-presenter](https://www.bing.com/search?q=using+a+custom+allocator-presenter)
+![using a custom allocator-presenter](images/custom-ap.png)
 
 The preceding figure shows the communication interfaces used by the VMR and the allocator-presenter. A custom allocator-presenter that overrides all of the default allocation and presentation functionality must implement the [**IVMRImagePresenter**](/windows/desktop/api/Strmif/nn-strmif-ivmrimagepresenter) and [**IVMRSurfaceAllocator**](/windows/desktop/api/Strmif/nn-strmif-ivmrsurfaceallocator) interfaces, and optionally, [**IVMRWindowlessControl**](/windows/desktop/api/Strmif/nn-strmif-ivmrwindowlesscontrol).
 
@@ -21,7 +21,7 @@ To replace the default allocator-presenter, an application calls the [**IVMRSurf
 
 As an alternate solution, an application can use both its own allocator-presenter and the default allocator-presenter. In this scenario, the custom allocator-presenter handles only those calls where custom functionality is needed, and passes the rest of the calls from the VMR through to the default allocator-presenter. In many cases, it is only necessary to override the [**IVMRImagePresenter**](/windows/desktop/api/Strmif/nn-strmif-ivmrimagepresenter) interface.
 
-![using two allocator-presenters](https://www.bing.com/search?q=using+two+allocator-presenters)
+![using two allocator-presenters](images/custom-ap2.png)
 
 To use both a custom allocator-presenter and the default allocator-presenter, an application would first call [**IVMRSurfaceAllocatorNotify::AdviseSurfaceAllocator**](/windows/desktop/api/Strmif/nf-strmif-ivmrsurfaceallocatornotify-advisesurfaceallocator) to provide a pointer to the new allocator-presenter. This causes the default allocator-presenter to be destroyed, so the application must create another instance of it by calling **QueryInterface** on the VMR and requesting the [**IVMRSurfaceAllocator**](/windows/desktop/api/Strmif/nn-strmif-ivmrsurfaceallocator) interface. As shown in the preceding figure, the custom allocator-presenter overrides the [**IVMRImagePresenter**](/windows/desktop/api/Strmif/nn-strmif-ivmrimagepresenter) interface methods, and simply passes all calls to the **IVMRSurfaceAllocator** interface through to the default implementation. The figure also shows the [**IVMRWindowlessControl**](/windows/desktop/api/Strmif/nn-strmif-ivmrwindowlesscontrol) interface as being implemented on the allocator-presenter.
 

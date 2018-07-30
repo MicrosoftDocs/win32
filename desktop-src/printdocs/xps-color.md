@@ -1,0 +1,72 @@
+---
+Description: A structure that describes a single color value.
+ms.assetid: 710f3ef1-bbc3-416d-9faf-aa4a716007c2
+title: XPS\_COLOR
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# XPS\_COLOR
+
+A structure that describes a single color value.
+
+``` syntax
+typedef union switch (XPS_COLOR_TYPE colorType) value
+{
+    case XPS_COLOR_TYPE_SRGB:
+        struct {
+            byte alpha, red, green, blue;
+        } sRGB;
+    case XPS_COLOR_TYPE_SCRGB:
+        struct {
+            FLOAT alpha, red, green, blue;
+        } scRGB;
+    case XPS_COLOR_TYPE_CONTEXT:
+        struct {
+            byte channelCount;
+            FLOAT channels[9];
+        } context;
+} XPS_COLOR;
+```
+
+## Remarks
+
+The structure's format depends on the value of *colorType*.
+
+<dl>
+
+[**XPS\_COLOR\_TYPE\_SRGB**](https://msdn.microsoft.com/library/Dd372944(v=VS.85).aspx)  
+[**XPS\_COLOR\_TYPE\_SCRGB**](https://msdn.microsoft.com/library/Dd372943(v=VS.85).aspx)  
+[**XPS\_COLOR\_TYPE\_CONTEXT**](/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0024)  
+</dl>
+
+## Requirements
+
+
+
+|                                     |                                                                                                                                          |
+|-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
+| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
+| Header<br/>                   | <dl> <dt>Xpsobjectmodel.h</dt> </dl>                                              |
+| IDL<br/>                      | <dl> <dt>XpsObjectModel.idl</dt> </dl>                                            |
+
+
+
+## See also
+
+<dl> <dt>
+
+[XML Paper Specification](http://go.microsoft.com/?linkid=8435939)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

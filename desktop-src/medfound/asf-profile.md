@@ -21,7 +21,7 @@ An Advanced Systems Format (ASF) file contains one or more streams. For each str
 
 The following diagram shows the relationship between the ASF profile and the objects that are contained in the profile.
 
-![tree diagram of an asf profile node with stream configuration child nodes; the first points to media type, the next two to mutual exclusion](https://www.bing.com/search?q=tree+diagram+of+an+asf+profile+node+with+stream+configuration+child+nodes;+the+first+points+to+media+type,+the+next+two+to+mutual+exclusion)
+![tree diagram of an asf profile node with stream configuration child nodes; the first points to media type, the next two to mutual exclusion](images/asf-components02.png)
 
 For playback, the ASF profile is used to enumerate the streams and find the stream formats. For encoding, the ASF profile is used to configure the streams in the destination file.
 

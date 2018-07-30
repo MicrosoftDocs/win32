@@ -275,7 +275,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="HACCEL"></span><span id="haccel"></span><strong>HACCEL</strong></td>
-<td>A handle to an [accelerator table](https://www.bing.com/search?q=accelerator+table).<br/> This type is declared in WinDef.h as follows:<br/> <code>typedef HANDLE HACCEL;</code><br/></td>
+<td>A handle to an [accelerator table](https://msdn.microsoft.com/library/ms645526(v=VS.85).aspx).<br/> This type is declared in WinDef.h as follows:<br/> <code>typedef HANDLE HACCEL;</code><br/></td>
 </tr>
 <tr class="even">
 <td><span id="HALF_PTR"></span><span id="half_ptr"></span><strong>HALF_PTR</strong></td>
@@ -339,7 +339,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="HCURSOR"></span><span id="hcursor"></span><strong>HCURSOR</strong></td>
-<td><p>A handle to a [cursor](https://www.bing.com/search?q=cursor).</p>
+<td><p>A handle to a [cursor](https://msdn.microsoft.com/library/ms646970(v=VS.85).aspx).</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HICON HCURSOR;</code></p></td>
 </tr>
@@ -405,13 +405,13 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="HHOOK"></span><span id="hhook"></span><strong>HHOOK</strong></td>
-<td><p>A handle to a [hook](https://www.bing.com/search?q=hook).</p>
+<td><p>A handle to a [hook](https://msdn.microsoft.com/library/ms632589(v=VS.85).aspx).</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HHOOK;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="HICON"></span><span id="hicon"></span><strong>HICON</strong></td>
-<td><p>A handle to an [icon](https://www.bing.com/search?q=icon).</p>
+<td><p>A handle to an [icon](https://msdn.microsoft.com/library/ms646973(v=VS.85).aspx).</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HICON;</code></p></td>
 </tr>
@@ -442,7 +442,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="HMENU"></span><span id="hmenu"></span><strong>HMENU</strong></td>
-<td><p>A handle to a [menu](https://www.bing.com/search?q=menu).</p>
+<td><p>A handle to a [menu](https://msdn.microsoft.com/library/ms646977(v=VS.85).aspx).</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HMENU;</code></p></td>
 </tr>
@@ -509,7 +509,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="HWND"></span><span id="hwnd"></span><strong>HWND</strong></td>
-<td><p>A handle to a [window](https://www.bing.com/search?q=window).</p>
+<td><p>A handle to a [window](https://msdn.microsoft.com/library/ms632595(v=VS.85).aspx).</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HWND;</code></p></td>
 </tr>

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 To skew (or shear) an object means to distort an object by a specified angle from the x-axis, the y-axis, or both. For example, when you skew a square, it becomes a parallelogram.
 
-The [**Matrix3x2F::Skew**](/windows/desktop/api) method takes 3 parameters:
+The [**Matrix3x2F::Skew**](https://msdn.microsoft.com/en-us/library/Dd372289(v=VS.85).aspx) method takes 3 parameters:
 
 -   *angleX*: The x-axis skew angle, which is measured in degrees counterclockwise from the y-axis.
 -   *angleY*: The y-axis skew angle, which is measured in degrees clockwise from the x-axis.

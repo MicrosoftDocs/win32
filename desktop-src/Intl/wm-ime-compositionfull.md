@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # WM\_IME\_COMPOSITIONFULL message
 
-Sent to an application when the IME window finds no space to extend the area for the composition window. A window receives this message through its [**WindowProc**](https://www.bing.com/search?q=**WindowProc**) function.
+Sent to an application when the IME window finds no space to extend the area for the composition window. A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -39,7 +39,7 @@ This message has no return value.
 
 The application should use the [IMC\_SETCOMPOSITIONWINDOW](imc-setcompositionwindow.md) command to specify how the window should be displayed.
 
-The IME window, instead of the IME, sends this notification message by the [**SendMessage**](https://www.bing.com/search?q=**SendMessage**) function.
+The IME window, instead of the IME, sends this notification message by the [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx) function.
 
 ## Requirements
 

@@ -27,7 +27,7 @@ ClearType antialiasing is disabled:
 -   For bitmap fonts, vector fonts, device fonts, Type 1 fonts, or Postscript OpenType fonts without TrueType outlines
 -   If the font has tuned embedded bitmaps, only for those font sizes that contain the embedded bitmaps
 
-To activate ClearType antialiasing, call [**SystemParametersInfo**](https://www.bing.com/search?q=**SystemParametersInfo**) once to turn on font smoothing and then a second time to set the smoothing type to FE\_FONTSMOOTHINGCLEARTYPE, as shown in the following code sample:
+To activate ClearType antialiasing, call [**SystemParametersInfo**](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx) once to turn on font smoothing and then a second time to set the smoothing type to FE\_FONTSMOOTHINGCLEARTYPE, as shown in the following code sample:
 
 
 ```C++
@@ -43,7 +43,7 @@ SystemParametersInfo(SPI_SETFONTSMOOTHINGTYPE,
 
 
 
-You can adjust the appearance of text by changing the contrast value used in the ClearType algorithm. The default is 1,400, but it can be any value from 1,000 to 2,200. Depending on the display device and the user's sensitivity to colors, a higher or lower contrast value may improve readability. To change the contrast, call [**SystemParametersInfo**](https://www.bing.com/search?q=**SystemParametersInfo**) with SPI\_SETFONTSMOOTHINGCONTRAST. The following code sets the contrast value to 1,600.
+You can adjust the appearance of text by changing the contrast value used in the ClearType algorithm. The default is 1,400, but it can be any value from 1,000 to 2,200. Depending on the display device and the user's sensitivity to colors, a higher or lower contrast value may improve readability. To change the contrast, call [**SystemParametersInfo**](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx) with SPI\_SETFONTSMOOTHINGCONTRAST. The following code sets the contrast value to 1,600.
 
 
 ```C++

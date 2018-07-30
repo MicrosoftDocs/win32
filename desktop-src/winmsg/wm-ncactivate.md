@@ -36,7 +36,7 @@ Indicates when a title bar or icon needs to be changed to indicate an active or 
 *lParam* 
 </dt> <dd>
 
-When a [visual style](https://www.bing.com/search?q=visual+style) is active for this window, this parameter is not used.
+When a [visual style](https://msdn.microsoft.com/library/Bb773187(v=VS.85).aspx) is active for this window, this parameter is not used.
 
 When a visual style is not active for this window, this parameter is a handle to an optional update region for the nonclient area of the window. If this parameter is set to -1, [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) does not repaint the nonclient area to reflect the state change.
 

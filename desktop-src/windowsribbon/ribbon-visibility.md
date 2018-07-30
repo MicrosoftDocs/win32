@@ -59,7 +59,7 @@ When the ribbon UI is in a minimized state, the ribbon Tab row remains visible a
 
 The following screen shot shows the ribbon in the minimized state.
 
-![screen shot showing the ribbon ui minimized.](https://www.bing.com/search?q=screen+shot+showing+the+ribbon+ui+minimized.)
+![screen shot showing the ribbon ui minimized.](images/overviews/ribbon-minimized.png)
 
 > [!Note]  
 > The Ribbon framework exposes this functionality to the end user through the "Minimize the Ribbon" selection of the ribbon context menu.
@@ -85,7 +85,7 @@ In contrast to the [UI\_PKEY\_Minimized](windowsribbon-reference-properties-uipk
 
 The following screen shot shows the ribbon in the hidden state.
 
-![screen shot showing the ribbon ui hidden.](https://www.bing.com/search?q=screen+shot+showing+the+ribbon+ui+hidden.)
+![screen shot showing the ribbon ui hidden.](images/overviews/ribbon-viewable.png)
 
 ## Example
 

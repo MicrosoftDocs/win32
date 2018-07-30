@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # editControl
 
-Specifies what control to use when editing the property. There should be only one [editControl](https://www.bing.com/search?q=editControl) element for each [displayInfo](https://www.bing.com/search?q=displayInfo) element.
+Specifies what control to use when editing the property. There should be only one [editControl](https://msdn.microsoft.com/library/Bb773868(v=VS.85).aspx) element for each [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) element.
 
-If there are multiple elements, the last one is used. If no [editControl](https://www.bing.com/search?q=editControl) element is provided, then the default attribute settings are applied to the property description.
+If there are multiple elements, the last one is used. If no [editControl](https://msdn.microsoft.com/library/Bb773868(v=VS.85).aspx) element is provided, then the default attribute settings are applied to the property description.
 
 If &lt;typeInfo isInnate="true"&gt;, this element is ignored because an innate property cannot be edited.
 
@@ -51,7 +51,7 @@ If &lt;typeInfo isInnate="true"&gt;, this element is ignored because an innate p
 
 | Parent Element                                   | Child Elements |
 |--------------------------------------------------|----------------|
-| [displayInfo](https://www.bing.com/search?q=displayInfo) | None           |
+| [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) | None           |
 
 
 

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The **WM\_SYNCPAINT** message is used to synchronize painting while avoiding linking independent GUI threads.
 
-A window receives this message through its [**WindowProc**](https://www.bing.com/search?q=**WindowProc**) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -51,7 +51,7 @@ An application returns zero if it processes this message.
 
 ## Remarks
 
-When a window has been hidden, shown, moved, or sized, the system may determine that it is necessary to send a **WM\_SYNCPAINT** message to the top-level windows of other threads. Applications must pass **WM\_SYNCPAINT** to [**DefWindowProc**](https://www.bing.com/search?q=**DefWindowProc**) for processing. The **DefWindowProc** function will send a [**WM\_NCPAINT**](wm-ncpaint.md) message to the window procedure if the window frame must be painted and send a [**WM\_ERASEBKGND**](https://www.bing.com/search?q=**WM\_ERASEBKGND**) message if the window background must be erased.
+When a window has been hidden, shown, moved, or sized, the system may determine that it is necessary to send a **WM\_SYNCPAINT** message to the top-level windows of other threads. Applications must pass **WM\_SYNCPAINT** to [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) for processing. The **DefWindowProc** function will send a [**WM\_NCPAINT**](wm-ncpaint.md) message to the window procedure if the window frame must be painted and send a [**WM\_ERASEBKGND**](https://msdn.microsoft.com/library/ms648055(v=VS.85).aspx) message if the window background must be erased.
 
 ## Requirements
 
@@ -75,7 +75,7 @@ When a window has been hidden, shown, moved, or sized, the system may determine 
 [Painting and Drawing Messages](painting-and-drawing-messages.md)
 </dt> <dt>
 
-[**DefWindowProc**](https://www.bing.com/search?q=**DefWindowProc**)
+[**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
 </dt> <dt>
 
 [**GetDCEx**](/windows/desktop/api/Winuser/nf-winuser-getdcex)

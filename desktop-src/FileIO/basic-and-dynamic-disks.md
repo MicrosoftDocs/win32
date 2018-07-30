@@ -82,7 +82,7 @@ All x86-based and x64-based computers running Windows can use the partition styl
 
 You can create up to four partitions on a basic disk using the MBR partition scheme: either four primary partitions, or three primary and one extended. The extended partition can contain one or more logical drives. The following figure illustrates an example layout of three primary partitions and one extended partition on a basic disk using MBR. The extended partition contains four extended logical drives within it. The extended partition may or may not be located at the end of the disk, but it is always a single contiguous space for logical drives 1-n.
 
-![three primary partitions and one extended partition on a basic disk using mbr](https://www.bing.com/search?q=three+primary+partitions+and+one+extended+partition+on+a+basic+disk+using+mbr)
+![three primary partitions and one extended partition on a basic disk using mbr](images/basic-mbr.png)
 
 Each partition, whether primary or extended, can be formatted to be a Windows volume, with a one-to-one correlation of volume-to-partition. In other words, a single partition cannot contain more than a single volume. In this example, there would be a total of seven volumes available to Windows for file storage. An unformatted partition is not available for file storage in Windows.
 
@@ -100,7 +100,7 @@ The GPT partition style also has the following properties:
 
 The GPT partitioning layout for a basic disk is illustrated in the following figure.
 
-![gpt layout](https://www.bing.com/search?q=gpt+layout)
+![gpt layout](images/basic-gpt.png)
 
 The protective MBR area exists on a GPT partition layout for backward compatibility with disk management utilities that operate on MBR. The GPT header defines the range of logical block addresses that are usable by partition entries. The GPT header also defines its location on the disk, its **GUID**, and a 32-bit cyclic redundancy check (CRC32) checksum that is used to verify the integrity of the GPT header. Each **GUID** partition entry begins with a partition type GUID. The 16-byte partition type **GUID**, which is similar to a System ID in the partition table of an MBR disk, identifies the type of data that the partition contains and identifies how the partition is used, for example if it is a basic disk or a dynamic disk. Note that each **GUID** partition entry has a backup copy.
 

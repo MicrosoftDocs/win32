@@ -100,7 +100,7 @@ The following event identifiers are defined.
 <td>PERFINFO_STREAMTRACE_MPEG2DEMUX_SAMPLE_RECEIVE</td>
 <td>Logged when MPEG-2 Demultiplexer receives a sample.
 <ul>
-<li><strong>data</strong>[0]: Current time returned by [<strong>QueryPerformanceCounter</strong>](https://www.bing.com/search?q=<strong>QueryPerformanceCounter</strong>).</li>
+<li><strong>data</strong>[0]: Current time returned by [<strong>QueryPerformanceCounter</strong>](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx>).</li>
 </ul></td>
 </tr>
 <tr class="odd">

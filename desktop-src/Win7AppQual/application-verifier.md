@@ -117,7 +117,7 @@ One further note: Application Verifier is only as good as the code paths you run
 **Debugging Tools for Windows:**
 
 -   [Overview and download site](http://go.microsoft.com/fwlink/p/?linkid=8708)
--   [MSDN online documentation](https://www.bing.com/search?q=MSDN+online+documentation)
+-   [MSDN online documentation](https://msdn.microsoft.com/library/Ff551063(v=VS.85).aspx)
 
 **Application Verifier:**
 

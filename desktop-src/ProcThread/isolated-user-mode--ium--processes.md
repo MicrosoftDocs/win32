@@ -19,7 +19,7 @@ The VTL isolation is created by the Hyper-V Hypervisor which assigns memory at b
 
 **Diagram 1 - IUM Architecture**
 
-![diagram 1 - ium architecture](https://www.bing.com/search?q=diagram+1+-+ium+architecture)
+![diagram 1 - ium architecture](images/uim-architecture.png)
 
 ## Trustlets
 
@@ -29,7 +29,7 @@ With VSM enabled, the Local Security Authority (LSASS) environment runs as a tru
 
 **Diagram 2 – LSASS Trustlet Design**
 
-![diagram 2 – lsass trustlet design ](https://www.bing.com/search?q=diagram+2+–+lsass+trustlet+design+)
+![diagram 2 – lsass trustlet design ](images/lsass-trustlet-design.png)
 
 ## Isolated User Mode (IUM) Implications
 

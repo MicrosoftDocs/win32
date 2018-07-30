@@ -116,19 +116,19 @@ As explained in the [Shell file association](https://msdn.microsoft.com/en-us/li
 
 <dl> <dt>
 
-[Understanding Property Handlers](https://www.bing.com/search?q=Understanding+Property+Handlers)
+[Understanding Property Handlers](https://msdn.microsoft.com/library/Cc144129(v=VS.85).aspx)
 </dt> <dt>
 
-[Using Kind Names](https://www.bing.com/search?q=Using+Kind+Names)
+[Using Kind Names](https://msdn.microsoft.com/library/Cc144136(v=VS.85).aspx)
 </dt> <dt>
 
-[Initializing Property Handlers](https://www.bing.com/search?q=Initializing+Property+Handlers)
+[Initializing Property Handlers](https://msdn.microsoft.com/library/Cc144131(v=VS.85).aspx)
 </dt> <dt>
 
-[Registering and Distributing Property Handlers](https://www.bing.com/search?q=Registering+and+Distributing+Property+Handlers)
+[Registering and Distributing Property Handlers](https://msdn.microsoft.com/library/Dd894084(v=VS.85).aspx)
 </dt> <dt>
 
-[Property Handler Best Practices and FAQ](https://www.bing.com/search?q=Property+Handler+Best+Practices+and+FAQ)
+[Property Handler Best Practices and FAQ](https://msdn.microsoft.com/library/Dd894083(v=VS.85).aspx)
 </dt> </dl>
 
  

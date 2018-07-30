@@ -24,7 +24,7 @@ To create a custom Explorer Bar, you must implement and register a *band object*
 
 ## Tool Bands
 
-A *tool band* is a band object that was introduced with Microsoft Internet Explorer 5 to support the Windows radio toolbar feature. The Internet Explorer toolbar is actually a [rebar control](_win32_Rebar_Controls) that contains several [toolbar controls](https://msdn.microsoft.com/en-us/library/Bb760435(v=VS.85).aspx). By creating a tool band, you can add a band to that rebar control. However, like Explorer Bars, a tool band is a general purpose window.
+A *tool band* is a band object that was introduced with Microsoft Internet Explorer 5 to support the Windows radio toolbar feature. The Internet Explorer toolbar is actually a [rebar control](https://msdn.microsoft.com/library/Bb774373(v=VS.85).aspx) that contains several [toolbar controls](https://msdn.microsoft.com/en-us/library/Bb760435(v=VS.85).aspx). By creating a tool band, you can add a band to that rebar control. However, like Explorer Bars, a tool band is a general purpose window.
 
 ![screen shot of tool bands](images/toolband1.jpg)
 

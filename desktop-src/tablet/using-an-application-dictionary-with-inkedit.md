@@ -112,13 +112,13 @@ private void Form1_Closed(object sender, System.EventArgs e)
 
 <dl> <dt>
 
-[InkEdit Control](frlrfMicrosoftInkInkEditClassTopic)
+[InkEdit Control](https://msdn.microsoft.com/library/ms552265(v=VS.100).aspx)
 </dt> <dt>
 
-[Microsoft.Ink.RecognizerContext Class](frlrfMicrosoftInkRecognizerContextClassTopic)
+[Microsoft.Ink.RecognizerContext Class](https://msdn.microsoft.com/library/ms552546(v=VS.100).aspx)
 </dt> <dt>
 
-[Mirosoft.Ink.Wordlist Class](frlrfMicrosoftInkWordListClassTopic)
+[Mirosoft.Ink.Wordlist Class](https://msdn.microsoft.com/library/ms827589(v=MSDN.10).aspx)
 </dt> </dl>
 
  

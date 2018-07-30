@@ -43,7 +43,7 @@ When a client requests a resource on a server that requires Passport authenticat
 
 The following image shows the initial request to a Passport affiliate.
 
-![image shows the initial request to a passport affiliate.](https://www.bing.com/search?q=image+shows+the+initial+request+to+a+passport+affiliate.)
+![image shows the initial request to a passport affiliate.](images/art-passport1.png)
 
 ### Passport Login Server
 
@@ -51,7 +51,7 @@ A Passport login server handles all requests for [*tickets*](glossary.md) for an
 
 When a client requests [*tickets*](glossary.md) from a Passport login server, the login server typically responds with a 401 status code to indicate that user credentials must be provided. When these credentials are provided, the login server responds with the *tickets* required to access the specified resource on the server that contains the originally requested resource. The login server can also redirect the client to another server that can provide the requested resource.
 
-![image shows a client ticket request to a passport login server.](https://www.bing.com/search?q=image+shows+a+client+ticket+request+to+a+passport+login+server.)
+![image shows a client ticket request to a passport login server.](images/art-passport2.png)
 
 ### Authenticated Request
 
@@ -59,7 +59,7 @@ When the client has the [*tickets*](glossary.md) that correspond to a given serv
 
 The additional cookies in the response are intended to speed the authentication process. Additional requests in the same session for resources on servers in the same Passport Domain Authority all include these additional cookies. Credentials do not need to be sent to the login server again until the cookies expire.
 
-![image shows an authenticated request to the passport login server.](https://www.bing.com/search?q=image+shows+an+authenticated+request+to+the+passport+login+server.)
+![image shows an authenticated request to the passport login server.](images/art-passport3.png)
 
 ## Using Passport in WinHTTP
 

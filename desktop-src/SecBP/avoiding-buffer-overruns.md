@@ -48,7 +48,7 @@ Preventing buffer overruns is primarily about writing good code. Always validate
 
  
 
-Safe string handling is a long-standing issue that continues to be addressed both by following good programming practices and often by using and retrofitting existing systems with secure, string-handling functions. An example of such a set of functions for the Windows shell starts with [**StringCbCat**](https://www.bing.com/search?q=**StringCbCat**).
+Safe string handling is a long-standing issue that continues to be addressed both by following good programming practices and often by using and retrofitting existing systems with secure, string-handling functions. An example of such a set of functions for the Windows shell starts with [**StringCbCat**](https://msdn.microsoft.com/library/ms647495(v=VS.85).aspx).
 
  
 

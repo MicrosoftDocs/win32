@@ -115,7 +115,7 @@ Called when the remote desktop size has changed.
 [**OnTouchPointerCursorMoved method**](iremotedesktopclientevents-ontouchpointercursormoved.md)
 </dt> <dd>
 
-Called when the touch pointer cursor has moved and the [**EventsEnabled**](/windows/desktop/api) property is set to true.
+Called when the touch pointer cursor has moved and the [**EventsEnabled**](https://msdn.microsoft.com/en-us/library/Mt787031(v=VS.85).aspx) property is set to true.
 
 </dd> </dl>
 

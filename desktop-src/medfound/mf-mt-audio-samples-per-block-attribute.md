@@ -19,7 +19,7 @@ Number of audio samples contained in one compressed block of audio data. This at
 
 ## Remarks
 
-This attribute corresponds to the **wSamplesPerBlock** member of the [**WAVEFORMATEXTENSIBLE**](https://www.bing.com/search?q=**WAVEFORMATEXTENSIBLE**) structure.
+This attribute corresponds to the **wSamplesPerBlock** member of the [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/library/Dd390971(v=VS.85).aspx) structure.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

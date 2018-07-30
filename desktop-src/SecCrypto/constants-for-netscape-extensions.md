@@ -43,7 +43,7 @@ For the szOID\_NETSCAPE\_CERT\_SEQUENCE extension using X509\_ASN\_ENCODING, the
 
 SequenceOfAny ::= SEQUENCE OF ANY
 
-The [**CRYPT\_DER\_BLOB**](https://www.bing.com/search?q=**CRYPT\_DER\_BLOB**)s in the [**CRYPT\_CONTENT\_INFO\_SEQUENCE\_OF\_ANY**](/windows/desktop/api/Wincrypt/ns-wincrypt-_crypt_content_info_sequence_of_any)'s **rgValue** member point to encoded X509 certificates.
+The [**CRYPT\_DER\_BLOB**](https://msdn.microsoft.com/en-us/library/Aa381414(v=VS.85).aspx)s in the [**CRYPT\_CONTENT\_INFO\_SEQUENCE\_OF\_ANY**](/windows/desktop/api/Wincrypt/ns-wincrypt-_crypt_content_info_sequence_of_any)'s **rgValue** member point to encoded X509 certificates.
 
 For szOID\_NETSCAPE\_CERT\_TYPE extensions, the following bits are defined.
 

@@ -43,7 +43,7 @@ You can use the following attributes with the Text control. To change the value 
 
 ## Remarks
 
-This control can be created from the STATIC class by using the [**CreateWindowEx**](https://www.bing.com/search?q=**CreateWindowEx**) function. It has the **SS\_LEFT**, **WS\_CHILD**, and **WS\_GROUP** styles.
+This control can be created from the STATIC class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the **SS\_LEFT**, **WS\_CHILD**, and **WS\_GROUP** styles.
 
 Do not place transparent Text controls on top of colored bitmaps. The text may not be visible if the user changes the display color scheme. For example, text may become invisible if the user sets the high contrast parameter for accessibility reasons.
 

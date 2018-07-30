@@ -7,10 +7,10 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - Msvm_ComputerSystem
 - Msvm_ComputerSystem.SetPowerState
 - Msvm_ComputerSystem.InstanceID
@@ -58,9 +58,9 @@ api_name:
 - Msvm_ComputerSystem.LastReplicationTime
 - Msvm_ComputerSystem.LastSuccessfulBackupTime
 - Msvm_ComputerSystem.EnhancedSessionModeState
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - vmms.exe
 ---
 
@@ -1246,7 +1246,7 @@ Indicates the target state to which the instance is transitioning. This property
 
 The following illustration shows the **EnabledState** values.
 
-![state diagram for enabledstate values for windows server 2008 r2](https://www.bing.com/search?q=state+diagram+for+enabledstate+values+for+windows+server+2008+r2)
+![state diagram for enabledstate values for windows server 2008 r2](images/msvm-computersystem-enabledstate-win2008r2.png)
 
 When a property of the **Msvm\_ComputerSystem** class changes, the WMI provider indicates an [**\_\_InstanceModificationEvent**](https://msdn.microsoft.com/library/aa394651) event that describes the changes. The previous state is contained in the **PreviousInstance** property, and the new state is contained in the **TargetInstance** property. This event is asynchronous; by the time the **\_\_InstanceModificationEvent** event is processed, the **TargetInstance** property may not reflect the current state.
 

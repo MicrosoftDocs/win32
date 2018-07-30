@@ -22,7 +22,7 @@ api_location:
 Retrieves the value of a specific Microsoft .NET Passport sign-in option.
 
 > [!Note]  
-> The **get\_Option** method belongs to the [**IPassportManager3**](_PASSPORT.NET_IPassportManager3_Interface) interface. This topic supplements the initial documentation.
+> The **get\_Option** method belongs to the [**IPassportManager3**](https://msdn.microsoft.com/library/ms817681(v=MSDN.10).aspx) interface. This topic supplements the initial documentation.
 
  
 

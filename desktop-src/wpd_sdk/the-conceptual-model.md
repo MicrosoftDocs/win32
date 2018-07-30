@@ -25,7 +25,7 @@ The two following topics give examples and illustrations of two types of objects
 
 An image object represents a still image. The following diagram shows the relationships between an Image object, its properties, and its resources.
 
-![diagram showing a wpd object and its relationship to its properties and resources](https://www.bing.com/search?q=diagram+showing+a+wpd+object+and+its+relationship+to+its+properties+and+resources)
+![diagram showing a wpd object and its relationship to its properties and resources](images/wpd-overview-figure2.gif)
 
 For more information about the Image object and its properties, see the [**WPD\_CONTENT\_TYPE\_IMAGE**](wpd-content-type-image.md) topic.
 

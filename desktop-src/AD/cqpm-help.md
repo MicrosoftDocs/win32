@@ -41,7 +41,7 @@ Not used.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**HELPINFO**](https://www.bing.com/search?q=**HELPINFO**) structure that contains additional data about the menu item, control, dialog box, or window for which context-sensitive help is requested.
+Pointer to a [**HELPINFO**](https://msdn.microsoft.com/library/Bb773313(v=VS.85).aspx) structure that contains additional data about the menu item, control, dialog box, or window for which context-sensitive help is requested.
 
 </dd> </dl>
 
@@ -68,7 +68,7 @@ The return value for this message is ignored.
 [**CQPageProc**](/windows/desktop/api/Cmnquery/nc-cmnquery-lpcqpageproc)
 </dt> <dt>
 
-[**HELPINFO**](https://www.bing.com/search?q=**HELPINFO**)
+[**HELPINFO**](https://msdn.microsoft.com/library/Bb773313(v=VS.85).aspx)
 </dt> </dl>
 
  

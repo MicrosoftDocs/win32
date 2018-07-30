@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 # TF\_SS\_\* Constants
 
-The TF\_SS\_\* constants, defined before run time in the [**TF\_STATUS**](https://www.bing.com/search?q=**TF\_STATUS**) structure, describe static document states.
+The TF\_SS\_\* constants, defined before run time in the [**TF\_STATUS**](https://msdn.microsoft.com/en-us/library/ms629192(v=VS.85).aspx) structure, describe static document states.
 
 
 
@@ -59,7 +59,7 @@ The **dwStaticFlags** member of the TF\_STATUS structure uses these constants.
 
 <dl> <dt>
 
-[**TF\_STATUS**](https://www.bing.com/search?q=**TF\_STATUS**)
+[**TF\_STATUS**](https://msdn.microsoft.com/en-us/library/ms629192(v=VS.85).aspx)
 </dt> </dl>
 
  

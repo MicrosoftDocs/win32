@@ -17,9 +17,9 @@ The functions listed in the following table translate character strings from one
 
 | Function                                           | Description                                             |
 |----------------------------------------------------|---------------------------------------------------------|
-| [**FoldString**](/windows/desktop/api)                   | Translates one character string to another.             |
+| [**FoldString**](https://msdn.microsoft.com/en-us/library/Dd318063(v=VS.85).aspx)                   | Translates one character string to another.             |
 | [**LCMapString**](/windows/desktop/api/Winnls/nf-winnls-lcmapstringa)                 | Maps a character string by locale.                      |
-| [**ToUnicode**](https://www.bing.com/search?q=**ToUnicode**)              | Translates a virtual key code into a Unicode character. |
+| [**ToUnicode**](https://msdn.microsoft.com/library/ms646320(v=VS.85).aspx)              | Translates a virtual key code into a Unicode character. |
 | [**MultiByteToWideChar**](/windows/desktop/api/Stringapiset/nf-stringapiset-multibytetowidechar) | Maps a multibyte string to a Unicode string.            |
 | [**WideCharToMultiByte**](/windows/desktop/api/Stringapiset/nf-stringapiset-widechartomultibyte) | Maps a Unicode string to a multibyte string.            |
 

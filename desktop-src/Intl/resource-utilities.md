@@ -168,7 +168,7 @@ MUIRCT supports several methods for placing appropriate checksums in the resourc
     3.  Use the -z switch to choose a single language having resources from which MUIRCT always extracts the checksum. Apply this checksum after the files have been built using other methods.
 2.  Build an executable containing both code and resources for a single language. After this, use MUIRCT to split the resources between the LN file and the language-specific resource file. Finally, use a binary localization tool to modify the resulting resource file for each language.
 
-The most common convention for checksum handling is to base the checksum on the English (United States) resources. You are free to adopt a different convention, as long as it is consistent for each LN file. For example, it is perfectly acceptable for a software development enterprise to base its checksums in the software it builds on French (France) resources instead of English (United States) resources, as long as all the applications have French (France) resources on which to base the checksums. It is also acceptable to use the resource configuration file to assign an arbitrary hexadecimal value of up to 16 hexadecimal digits as a checksum. This last strategy precludes the effective use of the -z, -c, and -b switches of MUIRCT. It requires adoption of a method using either [**GuidGen**](https://www.bing.com/search?q=**GuidGen**) or some other tool to generate checksum values. This strategy also requires you to set up a policy for determining when to modify the value when adding new localizable resources.
+The most common convention for checksum handling is to base the checksum on the English (United States) resources. You are free to adopt a different convention, as long as it is consistent for each LN file. For example, it is perfectly acceptable for a software development enterprise to base its checksums in the software it builds on French (France) resources instead of English (United States) resources, as long as all the applications have French (France) resources on which to base the checksums. It is also acceptable to use the resource configuration file to assign an arbitrary hexadecimal value of up to 16 hexadecimal digits as a checksum. This last strategy precludes the effective use of the -z, -c, and -b switches of MUIRCT. It requires adoption of a method using either [**GuidGen**](https://msdn.microsoft.com/library/ms924300(v=MSDN.10).aspx) or some other tool to generate checksum values. This strategy also requires you to set up a policy for determining when to modify the value when adding new localizable resources.
 
 To apply the English (United States) checksum to all files, you can use any of the checksum handling methods described above. For example, you can generate the LN file and language-specific resource file for English (United States), then use the MUIRCT -d switch to obtain the resulting checksum. You can copy this checksum into your resource configuration file and use the -q switch with MUIRCT to apply the checksum to all other files.
 
@@ -244,13 +244,13 @@ Language           -    en-US
 
 ## RC Compiler Utility
 
-RC Compiler (Rc.exe) is a command line utility for compiling a resource definition script file (.rc extension) into resource files (.res extension). RC Compiler is included in the Windows SDK. This document only explains the use of RC Compiler with MUI-related capabilities of the resource loader. For complete information about the compiler, see [About Resource Files](https://www.bing.com/search?q=About+Resource+Files).
+RC Compiler (Rc.exe) is a command line utility for compiling a resource definition script file (.rc extension) into resource files (.res extension). RC Compiler is included in the Windows SDK. This document only explains the use of RC Compiler with MUI-related capabilities of the resource loader. For complete information about the compiler, see [About Resource Files](https://msdn.microsoft.com/library/Aa380599(v=VS.85).aspx).
 
 RC Compiler allows you to build, from a single set of sources, an LN file and a separate language-specific resource file. As for MUIRCT, the files are associated by resource configuration data.
 
 ### RC Compiler Syntax as Used for MUI Resources
 
-RC Compiler switches are defined in detail in [Using RC](https://www.bing.com/search?q=Using+RC). This section only defines the switches used to build MUI resources. Remember that each switch is case-insensitive. Resource types are assumed to be language-neutral unless otherwise indicated.
+RC Compiler switches are defined in detail in [Using RC](https://msdn.microsoft.com/library/Aa381055(v=VS.85).aspx). This section only defines the switches used to build MUI resources. Remember that each switch is case-insensitive. Resource types are assumed to be language-neutral unless otherwise indicated.
 
 
 ```C++

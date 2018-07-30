@@ -40,7 +40,7 @@ Right alignment is not supported.
 
 The following screen shot illustrates the use of a label and an associated label description in an Application Menu.
 
-![screen shot showing a label and an associated label description in an application menu.](https://www.bing.com/search?q=screen+shot+showing+a+label+and+an+associated+label+description+in+an+application+menu.)
+![screen shot showing a label and an associated label description in an application menu.](images/properties/ui-pkey-labeldescription.png)
 
 ## Related topics
 

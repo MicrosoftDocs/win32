@@ -78,10 +78,10 @@ Performance frequency is the frequency of the performance counter in hertz, spec
 
 <dl> <dt>
 
-[**QueryPerformanceCounter**](_win32_queryperformancecounter_cpp)
+[**QueryPerformanceCounter**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx)
 </dt> <dt>
 
-[**QueryPerformanceFrequency**](_win32_queryperformancefrequency_cpp)
+[**QueryPerformanceFrequency**](https://msdn.microsoft.com/library/ms644905(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 This topic is step 5 of the tutorial [Audio/Video Playback in DirectShow](audio-video-playback-in-directshow.md). The complete code is shown in the topic [DirectShow Playback Example](directshow-playback-example.md).
 
-To ensure that video displays correctly, the application must respond to [**WM\_PAINT**](https://msdn.microsoft.com/en-us/library/Dd145213(v=VS.85).aspx), [**WM\_SIZE**](https://www.bing.com/search?q=**WM\_SIZE**), and [**WM\_DISPLAYCHANGE**](https://msdn.microsoft.com/en-us/library/Dd145210(v=VS.85).aspx) messages as follows.
+To ensure that video displays correctly, the application must respond to [**WM\_PAINT**](https://msdn.microsoft.com/en-us/library/Dd145213(v=VS.85).aspx), [**WM\_SIZE**](https://msdn.microsoft.com/library/ms632646(v=VS.85).aspx), and [**WM\_DISPLAYCHANGE**](https://msdn.microsoft.com/en-us/library/Dd145210(v=VS.85).aspx) messages as follows.
 
 ### Handle WM\_PAINT Messages
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # WM\_IME\_CONTROL message
 
-Sent by an application to direct the IME window to carry out the requested command. The application uses this message to control the IME window that it has created. To send this message, the application calls the [**SendMessage**](https://www.bing.com/search?q=**SendMessage**) function with the following parameters.
+Sent by an application to direct the IME window to carry out the requested command. The application uses this message to control the IME window that it has created. To send this message, the application calls the [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

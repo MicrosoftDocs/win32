@@ -13,10 +13,10 @@ title: Win32\_TapeDrive class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - Win32_TapeDrive
 - Win32_TapeDrive.Reset
 - Win32_TapeDrive.SetPowerState
@@ -60,9 +60,9 @@ api_name:
 - Win32_TapeDrive.StatusInfo
 - Win32_TapeDrive.SystemCreationClassName
 - Win32_TapeDrive.SystemName
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - CIMWin32.dll
 ---
 
@@ -1009,7 +1009,7 @@ Default block size, in bytes, for this device.
 
 This property is inherited from [**CIM\_MediaAccessDevice**](cim-mediaaccessdevice.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -1261,7 +1261,7 @@ Maximum block size, in bytes, for media accessed by this device.
 
 This property is inherited from [**CIM\_MediaAccessDevice**](cim-mediaaccessdevice.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -1281,7 +1281,7 @@ Maximum size, in kilobytes, of media supported by this device.
 
 This property is inherited from [**CIM\_MediaAccessDevice**](cim-mediaaccessdevice.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -1332,7 +1332,7 @@ Minimum block size, in bytes, for media accessed by this device.
 
 This property is inherited from [**CIM\_MediaAccessDevice**](cim-mediaaccessdevice.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 

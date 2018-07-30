@@ -62,7 +62,7 @@ The user can right-click the taskbar to display the shortcut menu. The shortcut 
 
 The taskbar supports two display options: Auto-Hide and, in Windows Vista and earlier only, Always On Top (the taskbar is always in this mode in Windows 7 and later). To set these options, the user must open the taskbar shortcut menu, click **Properties**, and select or clear the **Auto-hide the taskbar** check box or the **Keep the taskbar on top of other windows** check box. To retrieve the state of these display options, use the [**ABM\_GETSTATE**](abm-getstate.md) message. If you would like to be notified when the state of these display options changes, process the [**ABN\_STATECHANGE**](abn-statechange.md) notification message in your window procedure. To change the state of these display options, use the [**ABM\_SETSTATE**](abm-setstate.md) message.
 
-The *work area* is the portion of the screen not obscured by the taskbar. To retrieve the size of the work area, call the [**SystemParametersInfo**](base.systemparametersinfo) function with the **SPI\_GETWORKAREA** value set. To retrieve the rectangle coordinates that describe the location of the taskbar, use the [**ABM\_GETTASKBARPOS**](abm-gettaskbarpos.md) message.
+The *work area* is the portion of the screen not obscured by the taskbar. To retrieve the size of the work area, call the [**SystemParametersInfo**](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx) function with the **SPI\_GETWORKAREA** value set. To retrieve the rectangle coordinates that describe the location of the taskbar, use the [**ABM\_GETTASKBARPOS**](abm-gettaskbarpos.md) message.
 
 It is possible to cover the taskbar by explicitly setting the size of the window rectangle equal to the size of the screen with [**SetWindowPos**](https://msdn.microsoft.com/en-us/library/ms633545(v=VS.85).aspx). For Windows 2000 systems or later, the window must lack either [**WS\_CAPTION**](https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx) or [**WS\_THICKFRAME**](https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx), or else the window must be sized so that the client area covers the entire screen. Also particular to those systems, if the taskbar is set to Always On Top, it will remain hidden only while the application is the foreground application.
 
@@ -119,7 +119,7 @@ The results of various mouse events can be summarized as follows:
 
 Typically, clicking the icon causes the application to display a window with additional information, right-clicking displays a shortcut menu, and double-clicking executes the default shortcut menu command.
 
-For an example of how to change the tooltip text associated with a notification area icon, see [Balloon Tooltips for Status Bar Icons](_win32_Tooltip_Controls).
+For an example of how to change the tooltip text associated with a notification area icon, see [Balloon Tooltips for Status Bar Icons](https://msdn.microsoft.com/library/Bb760250(v=VS.85).aspx).
 
 Versions 5.0 and later of the Shell handle [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) mouse and keyboard events in different ways than earlier Shell versions found on Windows NT 4.0, Windows 95, and Windows 98. The differences are as follows:
 

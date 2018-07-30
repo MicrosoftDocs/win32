@@ -31,11 +31,11 @@ Nested jobs have a parent-child relationship in which each child job contains a 
 
 Figure 1 shows a job hierarchy that contains a tree of processes labeled P0 through P7. Job 1 is the *parent job* of Job 2 and Job 4, and it is an *ancestor* of Job 3. Job 2 is the *immediate parent* of Job 3; Job 3 is the *immediate child* of Job 2. Jobs 1, 2, and 3 form a *job chain* in which Jobs 1 and 2 are the *parent job chain* of Job 3. The end job in a job chain is the *immediate job* of the processes in that job. In Figure 1, Job 3 is the immediate job of processes P2, P3, and P4.
 
-![figure 1. a nested job hierarchy that contains a process tree](https://www.bing.com/search?q=figure+1.+a+nested+job+hierarchy+that+contains+a+process+tree)
+![figure 1. a nested job hierarchy that contains a process tree](images/nested-jobs-a.png)
 
 Nested jobs can also be used to manage groups of peer processes. In the job hierarchy shown in Figure 2, Job 1 is the parent job of Job 2. Note that a job hierarchy might contain only part of a process tree. In Figure 2, P0 is not in the hierarchy, but its child processes P1 through P5 are.
 
-![figure 2. a nested job hierarchy that contains peer processes](https://www.bing.com/search?q=figure+2.+a+nested+job+hierarchy+that+contains+peer+processes)
+![figure 2. a nested job hierarchy that contains peer processes](images/nested-jobs-b.png)
 
 ## Creating a Nested Job Hierarchy
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # WM\_IME\_KEYUP message
 
-Sent to an application by the IME to notify the application of a key release and to keep message order. A window receives this message through its [**WindowProc**](https://www.bing.com/search?q=**WindowProc**) function.
+Sent to an application by the IME to notify the application of a key release and to keep message order. A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -72,7 +72,7 @@ An application should return 0 if it processes this message.
 
 ## Remarks
 
-An application can process this message or pass it to the [**DefWindowProc**](https://www.bing.com/search?q=**DefWindowProc**) function to generate a matching [**WM\_KEYUP**](https://www.bing.com/search?q=**WM\_KEYUP**) message.
+An application can process this message or pass it to the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function to generate a matching [**WM\_KEYUP**](https://msdn.microsoft.com/library/ms646281(v=VS.85).aspx) message.
 
 ## Requirements
 

@@ -162,7 +162,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**DeviceIoControl**](https://msdn.microsoft.com/en-us/library/Aa363216(v=VS.85).aspx)::[OID\_GEN\_MEDIA\_IN\_USE](https://www.bing.com/search?q=OID\_GEN\_MEDIA\_IN\_USE)")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**DeviceIoControl**](https://msdn.microsoft.com/en-us/library/Aa363216(v=VS.85).aspx)::[OID\_GEN\_MEDIA\_IN\_USE](https://msdn.microsoft.com/library/Ff569607(v=VS.85).aspx)")
 </dt> </dl>
 
 Network medium in use. The network adapters are as follows:
@@ -278,7 +278,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**DeviceIoControl**](https://msdn.microsoft.com/en-us/library/Aa363216(v=VS.85).aspx)::[OID\_GEN\_MEDIA\_IN\_USE](https://www.bing.com/search?q=OID\_GEN\_MEDIA\_IN\_USE)")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**DeviceIoControl**](https://msdn.microsoft.com/en-us/library/Aa363216(v=VS.85).aspx)::[OID\_GEN\_MEDIA\_IN\_USE](https://msdn.microsoft.com/library/Ff569607(v=VS.85).aspx)")
 </dt> </dl>
 
 Network medium in use. Returns the same information as the **AdapterType** property, except that the information is in the form of an integer.
@@ -1248,7 +1248,7 @@ This property is inherited from [**CIM\_NetworkAdapter**](cim-networkadapter.md)
 
 This property has not been implemented yet. It returns a **NULL** value by default.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -1644,7 +1644,7 @@ Estimate of the current bandwidth in bits per second. For endpoints which vary i
 
 This property is inherited from [**CIM\_NetworkAdapter**](cim-networkadapter.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
 
 </dd> <dt>
 

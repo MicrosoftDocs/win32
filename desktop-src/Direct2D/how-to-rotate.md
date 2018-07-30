@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # How to Rotate an Object
 
-This topic describes how to rotate an object about a specified point. To rotate an object, call [**Matrix3x2F::Rotation**](/windows/desktop/api) method. This method takes two parameters, the specified angle and the center point. The angle is a clockwise rotation angle in degrees, and the center point is the point about which the object rotates. The center point is expressed in the coordinate system of the object that is transformed.
+This topic describes how to rotate an object about a specified point. To rotate an object, call [**Matrix3x2F::Rotation**](https://msdn.microsoft.com/en-us/library/Dd372285(v=VS.85).aspx) method. This method takes two parameters, the specified angle and the center point. The angle is a clockwise rotation angle in degrees, and the center point is the point about which the object rotates. The center point is expressed in the coordinate system of the object that is transformed.
 
 For example, the following code rotates a square clockwise 45 degrees about the center of the square.
 

@@ -33,7 +33,7 @@ For the Windows Ribbon framework to consume the [Ribbon markup](windowsribbon-sc
 
 The workflow of the Ribbon markup compiler is illustrated in the following diagram.
 
-![diagram showing the ribbon markup compiler workflow.](https://www.bing.com/search?q=diagram+showing+the+ribbon+markup+compiler+workflow.)
+![diagram showing the ribbon markup compiler workflow.](images/overviews/overviews-intentcl.png)
 
 ## Command-Line Syntax
 

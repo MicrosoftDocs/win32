@@ -40,7 +40,7 @@ Applications use the methods supported by the following interfaces to perform op
 
 The following diagram shows how an application gets most of the interfaces it needs. Not all methods of all the interfaces or the interfaces that are implemented by the application are shown.
 
-![diagram showing creation and retrieval of most required client interfaces](https://www.bing.com/search?q=diagram+showing+creation+and+retrieval+of+most+required+client+interfaces)
+![diagram showing creation and retrieval of most required client interfaces](images/wpd-sdk-interface-diagram.gif)
 
 ## Related topics
 

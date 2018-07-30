@@ -70,13 +70,13 @@ Certain attributes are also supported for backward compatibility. For more infor
 
 ## Remarks
 
-The [**GetDialogBaseUnits**](https://www.bing.com/search?q=**GetDialogBaseUnits**) function returns the dialog base units in pixels. The exact meaning of the coordinates depends on the style defined by the [**STYLE**](style-statement.md) option statement. For child-style dialog boxes, the coordinates are relative to the origin of the parent window, unless the dialog box has the style **DS\_ABSALIGN**; in that case, the coordinates are relative to the origin of the display screen.
+The [**GetDialogBaseUnits**](https://msdn.microsoft.com/library/ms645475(v=VS.85).aspx) function returns the dialog base units in pixels. The exact meaning of the coordinates depends on the style defined by the [**STYLE**](style-statement.md) option statement. For child-style dialog boxes, the coordinates are relative to the origin of the parent window, unless the dialog box has the style **DS\_ABSALIGN**; in that case, the coordinates are relative to the origin of the display screen.
 
-Do not use the **WS\_CHILD** style with a modal dialog box. The [**DialogBox**](https://www.bing.com/search?q=**DialogBox**) function always disables the parent/owner of the newly created dialog box. When a parent window is disabled, its child windows are implicitly disabled. Since the parent window of the child-style dialog box is disabled, the child-style dialog box is too.
+Do not use the **WS\_CHILD** style with a modal dialog box. The [**DialogBox**](https://msdn.microsoft.com/library/ms645452(v=VS.85).aspx) function always disables the parent/owner of the newly created dialog box. When a parent window is disabled, its child windows are implicitly disabled. Since the parent window of the child-style dialog box is disabled, the child-style dialog box is too.
 
 If a dialog box has the **DS\_ABSALIGN** style, the dialog coordinates for its upper-left corner are relative to the screen origin instead of to the upper-left corner of the parent window. You would typically use this style when you wanted the dialog box to start in a specific part of the display no matter where the parent window may be on the screen.
 
-The name **DIALOG** can also be used as the class-name parameter to the [**CreateWindow**](https://www.bing.com/search?q=**CreateWindow**) function to create a window with dialog-box attributes.
+The name **DIALOG** can also be used as the class-name parameter to the [**CreateWindow**](https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx) function to create a window with dialog-box attributes.
 
 ## Examples
 
@@ -100,7 +100,7 @@ CAPTION "Error!"
 
 <dl> <dt>
 
-[Using Dialog Boxes](https://www.bing.com/search?q=Using+Dialog+Boxes)
+[Using Dialog Boxes](https://msdn.microsoft.com/library/ms644996(v=VS.85).aspx)
 </dt> <dt>
 
 [**ACCELERATORS**](accelerators-resource.md)
@@ -112,16 +112,16 @@ CAPTION "Error!"
 [**CONTROL**](control-control.md)
 </dt> <dt>
 
-[**CreateDialog**](https://www.bing.com/search?q=**CreateDialog**)
+[**CreateDialog**](https://msdn.microsoft.com/library/ms645434(v=VS.85).aspx)
 </dt> <dt>
 
-[**CreateWindow**](https://www.bing.com/search?q=**CreateWindow**)
+[**CreateWindow**](https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx)
 </dt> <dt>
 
-[**DialogBox**](https://www.bing.com/search?q=**DialogBox**)
+[**DialogBox**](https://msdn.microsoft.com/library/ms645452(v=VS.85).aspx)
 </dt> <dt>
 
-[**GetDialogBaseUnits**](https://www.bing.com/search?q=**GetDialogBaseUnits**)
+[**GetDialogBaseUnits**](https://msdn.microsoft.com/library/ms645475(v=VS.85).aspx)
 </dt> <dt>
 
 [**LANGUAGE**](language-statement.md)

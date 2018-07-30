@@ -41,11 +41,11 @@ This implementation requires that the starting and ending file offsets be aligne
 
 Suppose we have two files, X and Y, where each file is composed of 3 distinct regions. Each file region is stored on a distinct region of the volume. The file system stores the knowledge that each of those volume regions is referenced in one file region:
 
-![before clone](https://www.bing.com/search?q=before+clone)
+![before clone](images/before-clone.png)
 
 Now suppose an application issues a block clone operation from File X, over file regions A and B, to File Y at the offset where E currently is. The following file system state would result:
 
-![after clone](https://www.bing.com/search?q=after+clone)
+![after clone](images/after-clone.png)
 
 The data in regions A and B were effectively duplicated from File X to File Y by altering the VCN to LCN mappings within the ReFS volume. The disk extents backing regions A and B were not read, nor were the disk extents backing the old regions E and F overwritten during the operation.
 
@@ -53,7 +53,7 @@ Files X and Y now share logical clusters on disk. This is reflected in the refer
 
 Now, suppose the application overwrites region A in File X. ReFS makes a duplicate copy of A, which we’ll now call G. ReFS then maps G into File X, and applies the modification. This ensures that isolation between the files is preserved. Reference counts are updated appropriately:
 
-![after modifying write](https://www.bing.com/search?q=after+modifying+write)
+![after modifying write](images/after-modifying-write.png)
 
 After the modifying write, region B is still shared on disk. Note that if region A were larger than a cluster, only the modified cluster would have been duplicated, and the remaining portion would have remained shared.
 

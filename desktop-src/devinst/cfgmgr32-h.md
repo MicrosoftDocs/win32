@@ -574,14 +574,14 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 <td>The <strong>CM_Open_Class_Key</strong> function opens the device setup class registry key, the device interface class registry key, or a specific subkey of a class.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>CM_Open_Device_Interface_Key</strong>](https://www.bing.com/search?q=<strong>CM_Open_Device_Interface_Key</strong>)<br/></td>
+<td>[<strong>CM_Open_Device_Interface_Key</strong>](https://msdn.microsoft.com/en-us/library/Hh780223(v=VS.85).aspx)<br/></td>
 <td>The <strong>CM_Open_Device_Interface_Key</strong> function opens the registry subkey that is used by applications and drivers to store information that is specific to a device interface.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>CM_Open_Device_Interface_Key_ExA</strong>](/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_open_device_interface_keya)<br/></td>
 <td><blockquote>
 [!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use [<strong>CM_Open_Device_Interface_Key</strong>](https://www.bing.com/search?q=<strong>CM_Open_Device_Interface_Key</strong>) instead.
+Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use [<strong>CM_Open_Device_Interface_Key</strong>](https://msdn.microsoft.com/en-us/library/Hh780223(v=VS.85).aspx) instead.
 </blockquote>
 <br/> The <strong>CM_Open_Device_Interface_Key_ExA</strong> function opens the registry subkey that is used by applications and drivers to store information that is specific to a device interface.<br/></td>
 </tr>
@@ -589,7 +589,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 <td>[<strong>CM_Open_Device_Interface_Key_ExW</strong>](/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_open_device_interface_key_exw)<br/></td>
 <td><blockquote>
 [!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use [<strong>CM_Open_Device_Interface_Key</strong>](https://www.bing.com/search?q=<strong>CM_Open_Device_Interface_Key</strong>) instead.
+Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use [<strong>CM_Open_Device_Interface_Key</strong>](https://msdn.microsoft.com/en-us/library/Hh780223(v=VS.85).aspx) instead.
 </blockquote>
 <br/> The <strong>CM_Open_Device_Interface_Key_ExW</strong> function opens the registry subkey that is used by applications and drivers to store information that is specific to a device interface.<br/></td>
 </tr>

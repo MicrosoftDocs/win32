@@ -157,7 +157,7 @@ This table lists functions that represent kernel-mode entry points, and the user
 
 <dl> <dt>
 
-[Command and Vertex Buffer Allocation](display.command_and_vertex_buffer_allocation)
+[Command and Vertex Buffer Allocation](https://msdn.microsoft.com/library/Ff539490(v=VS.85).aspx)
 </dt> <dt>
 
 [Introduction to Display](http://msdn.microsoft.com/en-us/library/ff567753.aspx)

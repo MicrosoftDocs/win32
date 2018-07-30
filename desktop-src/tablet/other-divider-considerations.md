@@ -36,7 +36,7 @@ You may be able to record the analysis results as application data, and implemen
 [**InkDivider Class**](inkdivider-class.md)
 </dt> <dt>
 
-[Microsoft.Ink.Divider Class](frlrfMicrosoftInkDividerClassTopic)
+[Microsoft.Ink.Divider Class](https://msdn.microsoft.com/library/ms583616(v=VS.100).aspx)
 </dt> </dl>
 
  

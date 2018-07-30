@@ -138,7 +138,7 @@ The following illustration shows the results of rendering the two group geometri
 
 ### Transformed Geometries
 
-There are multiple ways to transform a geometry. You can use the [**SetTransform**](/windows/desktop/api) method of a render target to transform everything that the render target draws, or you can associate a transform directly with a geometry by using the [**CreateTransformedGeometry**](/windows/desktop/api/d2d1/nf-d2d1-createtransformedgeometry) method to create an [**ID2D1TransformedGeometry**](https://msdn.microsoft.com/en-us/library/Dd371304(v=VS.85).aspx).
+There are multiple ways to transform a geometry. You can use the [**SetTransform**](https://msdn.microsoft.com/en-us/library/Dd742690(v=VS.85).aspx) method of a render target to transform everything that the render target draws, or you can associate a transform directly with a geometry by using the [**CreateTransformedGeometry**](/windows/desktop/api/d2d1/nf-d2d1-createtransformedgeometry) method to create an [**ID2D1TransformedGeometry**](https://msdn.microsoft.com/en-us/library/Dd371304(v=VS.85).aspx).
 
 The method that you should use depends on the effect that you want. When you use the render target to transform and then render a geometry, the transform affects everything about the geometry, including the width of any stroke that you have applied. On the other hand, when you use an [**ID2D1TransformedGeometry**](https://msdn.microsoft.com/en-us/library/Dd372252(v=VS.85).aspx), the transform affects only the coordinates that describe the shape. The transformation will not affect the stroke thickness when the geometry is drawn.
 
@@ -222,7 +222,7 @@ m_pRenderTarget->DrawGeometry(m_pTransformedGeometry, m_pBlackBrush, 1);
 
 ## Geometries as Masks
 
-You can use an [**ID2D1Geometry**](https://msdn.microsoft.com/en-us/library/Dd316578(v=VS.85).aspx) object as a geometric mask when you call the [**PushLayer**](/windows/desktop/api) method. The geometric mask specifies the area of the layer that is composited into the render target. For more information, see the Geometric Masks section of the [Layers Overview](direct2d-layers-overview.md).
+You can use an [**ID2D1Geometry**](https://msdn.microsoft.com/en-us/library/Dd316578(v=VS.85).aspx) object as a geometric mask when you call the [**PushLayer**](https://msdn.microsoft.com/en-us/library/Dd742856(v=VS.85).aspx) method. The geometric mask specifies the area of the layer that is composited into the render target. For more information, see the Geometric Masks section of the [Layers Overview](direct2d-layers-overview.md).
 
 ## Geometric Operations
 
@@ -381,7 +381,7 @@ if (SUCCEEDED(hr))
 
 ### FillContainsPoint and StrokeContainsPoint
 
-The [**FillContainsPoint**](id2d1geometry-fillcontainspoint.md) method indicates whether the area filled by the geometry contains the specified point. You can use this method to do hit testing. The following code example calls **FillContainsPoint** on an [**ID2D1EllipseGeometry**](https://msdn.microsoft.com/en-us/library/Dd371239(v=VS.85).aspx) object, passing in a point at (0,0) and an [**Identity**](/windows/desktop/api) matrix.
+The [**FillContainsPoint**](id2d1geometry-fillcontainspoint.md) method indicates whether the area filled by the geometry contains the specified point. You can use this method to do hit testing. The following code example calls **FillContainsPoint** on an [**ID2D1EllipseGeometry**](https://msdn.microsoft.com/en-us/library/Dd371239(v=VS.85).aspx) object, passing in a point at (0,0) and an [**Identity**](https://msdn.microsoft.com/en-us/library/Dd372278(v=VS.85).aspx) matrix.
 
 
 ```C++

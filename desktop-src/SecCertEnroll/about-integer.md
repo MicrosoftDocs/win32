@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Integer values are encoded into a TLV triplet that begins with a **Tag** value of 0x02. The **Value** field of the TLV triplet contains the encoded integer if it is positive, or its two's complement if it is negative. If the integer is positive but the high order bit is set to 1, a leading 0x00 is added to the content to indicate that the number is not negative. For example, the high order byte of 0x8F (10001111) is 1. Therefore a leading zero byte is added to the content as shown in the following illustration.
 
-![der encoding of boolean data type](https://www.bing.com/search?q=der+encoding+of+boolean+data+type)
+![der encoding of boolean data type](images/der-tlv-integer.png)
 
 If the integer contains fewer than 128 bytes, the *Length* field requires only one byte to specify the content length. If the integer is more than 127 bytes, bit 7 of the *Length* field is set to 1 and bits 6 through 0 specify the number of additional bytes used to identify the content length. For more information, see [Encoded Length and Value Bytes](about-encoded-length-and-value-bytes.md).
 

@@ -23,7 +23,7 @@ This section describes the functions, structures, and messages associated with a
 
 ## Querying Devices
 
--   [**MIXERCAPS**](/windows/desktop/api)
+-   [**MIXERCAPS**](https://msdn.microsoft.com/en-us/library/Dd757291(v=VS.85).aspx)
 -   [**mixerGetDevCaps**](https://msdn.microsoft.com/en-us/library/Dd757300(v=VS.85).aspx)
 -   [**mixerGetNumDevs**](https://msdn.microsoft.com/en-us/library/Dd757304(v=VS.85).aspx)
 
@@ -38,9 +38,9 @@ This section describes the functions, structures, and messages associated with a
 
 ## Retrieving Line Controls
 
--   [**MIXERCONTROL**](/windows/desktop/api)
+-   [**MIXERCONTROL**](https://msdn.microsoft.com/en-us/library/Dd757293(v=VS.85).aspx)
 -   [**mixerGetLineControls**](https://msdn.microsoft.com/en-us/library/Dd757302(v=VS.85).aspx)
--   [**MIXERLINECONTROLS**](/windows/desktop/api)
+-   [**MIXERLINECONTROLS**](https://msdn.microsoft.com/en-us/library/Dd757306(v=VS.85).aspx)
 
 ## Changing Control Attributes
 
@@ -55,7 +55,7 @@ This section describes the functions, structures, and messages associated with a
 ## Retrieving Line Information
 
 -   [**mixerGetLineInfo**](https://msdn.microsoft.com/en-us/library/Dd757303(v=VS.85).aspx)
--   [**MIXERLINE**](/windows/desktop/api)
+-   [**MIXERLINE**](https://msdn.microsoft.com/en-us/library/Dd757305(v=VS.85).aspx)
 -   [**MM\_MIXM\_CONTROL\_CHANGE**](mm-mixm-control-change.md)
 -   [**MM\_MIXM\_LINE\_CHANGE**](mm-mixm-line-change.md)
 

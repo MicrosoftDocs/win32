@@ -559,7 +559,7 @@ Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(
 
 Size of the file, in bytes.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
 
 This property is inherited from [**CIM\_LogicalFile**](cim-logicalfile.md).
 
@@ -701,7 +701,7 @@ Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(
 
 Number of "file opens" that are currently active against the file.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
 
 This property is inherited from [**CIM\_LogicalFile**](cim-logicalfile.md).
 

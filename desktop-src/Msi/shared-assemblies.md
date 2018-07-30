@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 A Win32 assembly can be installed as a shared assembly and be available for use by multiple applications on the computer. Shared assemblies should be installed by a Windows Installer package used to install or update an application.
 
-Shared assemblies are installed as [side-by-side assemblies](side-by-side-assemblies.md). The Windows Installer installs shared side-by-side assemblies into the Winsxs folder. The assemblies are not registered globally on the system, but they are globally available to any application that specifies a dependency on the assembly in a manifest file. For more information, see [Isolated Applications and Side-by-side Assemblies](https://www.bing.com/search?q=Isolated+Applications+and+Side-by-side+Assemblies).
+Shared assemblies are installed as [side-by-side assemblies](side-by-side-assemblies.md). The Windows Installer installs shared side-by-side assemblies into the Winsxs folder. The assemblies are not registered globally on the system, but they are globally available to any application that specifies a dependency on the assembly in a manifest file. For more information, see [Isolated Applications and Side-by-side Assemblies](https://msdn.microsoft.com/library/Dd408052(v=VS.85).aspx).
 
 On operating systems earlier than Windows XP, shared assemblies are usually installed in the Windows system folder and registered globally. The latest installed version is available to any application that binds to it.
 

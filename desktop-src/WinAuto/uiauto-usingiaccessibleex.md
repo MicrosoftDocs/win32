@@ -46,7 +46,7 @@ This topic contains the following sections.
 
 ## Exposing IAccessibleEx
 
-Because the implementation of [**IAccessibleEx**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iaccessibleex) for a control may reside in a separate object, client applications cannot rely on [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) to obtain this interface. Instead, clients are expected to call [**IServiceProvider::QueryService**](https://www.bing.com/search?q=**IServiceProvider::QueryService**). In the following example implementation of this method, it is assumed that **IAccessibleEx** is not implemented on a separate object; therefore the method simply calls through to **QueryInterface**.
+Because the implementation of [**IAccessibleEx**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iaccessibleex) for a control may reside in a separate object, client applications cannot rely on [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) to obtain this interface. Instead, clients are expected to call [**IServiceProvider::QueryService**](https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx). In the following example implementation of this method, it is assumed that **IAccessibleEx** is not implemented on a separate object; therefore the method simply calls through to **QueryInterface**.
 
 
 ```C++

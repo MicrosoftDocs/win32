@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 The Microsoft Windows API provides the following functions to begin an impersonation:
 
--   A DDE server application can call the [**DdeImpersonateClient**](https://www.bing.com/search?q=**DdeImpersonateClient**) function to impersonate a client.
+-   A DDE server application can call the [**DdeImpersonateClient**](https://msdn.microsoft.com/library/ms648756(v=VS.85).aspx) function to impersonate a client.
 -   A named-pipe server can call the [**ImpersonateNamedPipeClient**](https://msdn.microsoft.com/en-us/library/Aa378618(v=VS.85).aspx) function.
 -   You can call the [**ImpersonateLoggedOnUser**](https://msdn.microsoft.com/en-us/library/Aa378612(v=VS.85).aspx) function to impersonate the security context of a logged-on user's [*access token*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-token-gly).
 -   The [**ImpersonateSelf**](https://msdn.microsoft.com/en-us/library/Aa378729(v=VS.85).aspx) function enables a thread to generate a copy of its own access token. This is useful when an application needs to change the security context of a single thread. For example, sometimes only one thread of a process needs to enable a [*privilege*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-privilege-gly).

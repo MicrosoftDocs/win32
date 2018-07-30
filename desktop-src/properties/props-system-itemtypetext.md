@@ -33,17 +33,17 @@ propertyDescription
 
 PKEY values are defined in Propkey.h.
 
-If [System.ItemType](https://www.bing.com/search?q=System.ItemType) is VT\_EMPTY, the value of this property is also VT\_EMPTY. If the item is a file, the value of this property is the same as if you passed the file's System.ItemType value to [**PSFormatForDisplay**](https://www.bing.com/search?q=**PSFormatForDisplay**).
+If [System.ItemType](https://msdn.microsoft.com/library/Bb760781(v=VS.85).aspx) is VT\_EMPTY, the value of this property is also VT\_EMPTY. If the item is a file, the value of this property is the same as if you passed the file's System.ItemType value to [**PSFormatForDisplay**](https://msdn.microsoft.com/library/Bb776496(v=VS.85).aspx).
 
-This property should not be confused with [System.Kind](https://www.bing.com/search?q=System.Kind), which is a high-level, user-friendly kind name. For example, for a .doc document file, the various properties are as shown here:
+This property should not be confused with [System.Kind](https://msdn.microsoft.com/library/Bb787521(v=VS.85).aspx), which is a high-level, user-friendly kind name. For example, for a .doc document file, the various properties are as shown here:
 
 
 
 | Property                                               | Value                   |
 |--------------------------------------------------------|-------------------------|
-| [System.Kind](https://www.bing.com/search?q=System.Kind)                 | Document                |
-| [System.ItemType](https://www.bing.com/search?q=System.ItemType)         | .doc                    |
-| [System.ItemTypeText](https://www.bing.com/search?q=System.ItemTypeText) | Microsoft Word Document |
+| [System.Kind](https://msdn.microsoft.com/library/Bb787521(v=VS.85).aspx)                 | Document                |
+| [System.ItemType](https://msdn.microsoft.com/library/Bb760781(v=VS.85).aspx)         | .doc                    |
+| [System.ItemTypeText](https://msdn.microsoft.com/library/Bb760783(v=VS.85).aspx) | Microsoft Word Document |
 
 
 
@@ -69,46 +69,46 @@ Example values:
 
 <dl> <dt>
 
-[propertyDescription](https://www.bing.com/search?q=propertyDescription)
+[propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx)
 </dt> <dt>
 
-[searchInfo](https://www.bing.com/search?q=searchInfo)
+[searchInfo](https://msdn.microsoft.com/library/Bb773885(v=VS.85).aspx)
 </dt> <dt>
 
-[labelInfo](https://www.bing.com/search?q=labelInfo)
+[labelInfo](https://msdn.microsoft.com/library/Bb773876(v=VS.85).aspx)
 </dt> <dt>
 
-[typeInfo](https://www.bing.com/search?q=typeInfo)
+[typeInfo](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx)
 </dt> <dt>
 
-[displayInfo](https://www.bing.com/search?q=displayInfo)
+[displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx)
 </dt> <dt>
 
-[stringFormat](https://www.bing.com/search?q=stringFormat)
+[stringFormat](https://msdn.microsoft.com/library/Bb773886(v=VS.85).aspx)
 </dt> <dt>
 
-[booleanFormat](https://www.bing.com/search?q=booleanFormat)
+[booleanFormat](https://msdn.microsoft.com/library/Bb773862(v=VS.85).aspx)
 </dt> <dt>
 
-[numberFormat](https://www.bing.com/search?q=numberFormat)
+[numberFormat](https://msdn.microsoft.com/library/Bb773877(v=VS.85).aspx)
 </dt> <dt>
 
-[dateTimeFormat](https://www.bing.com/search?q=dateTimeFormat)
+[dateTimeFormat](https://msdn.microsoft.com/library/Bb773863(v=VS.85).aspx)
 </dt> <dt>
 
-[enumeratedList](https://www.bing.com/search?q=enumeratedList)
+[enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx)
 </dt> <dt>
 
-[drawControl](https://www.bing.com/search?q=drawControl)
+[drawControl](https://msdn.microsoft.com/library/Bb773866(v=VS.85).aspx)
 </dt> <dt>
 
-[editControl](https://www.bing.com/search?q=editControl)
+[editControl](https://msdn.microsoft.com/library/Bb773868(v=VS.85).aspx)
 </dt> <dt>
 
-[filterControl](https://www.bing.com/search?q=filterControl)
+[filterControl](https://msdn.microsoft.com/library/Bb773874(v=VS.85).aspx)
 </dt> <dt>
 
-[queryControl](https://www.bing.com/search?q=queryControl)
+[queryControl](https://msdn.microsoft.com/library/Bb773883(v=VS.85).aspx)
 </dt> </dl>
 
  

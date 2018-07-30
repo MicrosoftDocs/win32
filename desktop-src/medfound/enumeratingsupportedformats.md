@@ -42,7 +42,7 @@ The general order of operations for configuring a decoding DMO is as follows:
 3.  Configure the output type. The supported output types are different for different inputs.
 
 > [!Note]  
-> It is important to use the same media type for the decoder input as was used for the encoder output. This is because the Windows Media Audio and Video codecs use media formats with extra data. This data is appended to the structure pointed to by the **pbFormat** member of the [**DMO\_MEDIA\_TYPE**](https://msdn.microsoft.com/en-us/library/Dd375504(v=VS.85).aspx) structure (usually [**VIDEOINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx) or [**WAVEFORMATEX**](https://www.bing.com/search?q=**WAVEFORMATEX**)). For some types the extra data is part of the enumerated encoder output type. Other types require you to append this data manually. Without the extended format data, you cannot decode the compressed content.
+> It is important to use the same media type for the decoder input as was used for the encoder output. This is because the Windows Media Audio and Video codecs use media formats with extra data. This data is appended to the structure pointed to by the **pbFormat** member of the [**DMO\_MEDIA\_TYPE**](https://msdn.microsoft.com/en-us/library/Dd375504(v=VS.85).aspx) structure (usually [**VIDEOINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx) or [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx)). For some types the extra data is part of the enumerated encoder output type. Other types require you to append this data manually. Without the extended format data, you cannot decode the compressed content.
 
  
 

@@ -101,7 +101,7 @@ To flip and rotate a bitmap source
 
     The following illustration demonstrates flipping an imaging horizontally (along the vertical x-axis).
 
-    ![illustration showing a horizontal flip (along the verital x-axis) of an image](https://www.bing.com/search?q=illustration+showing+a+horizontal+flip+(along+the+verital+x-axis)+of+an+image)
+    ![illustration showing a horizontal flip (along the verital x-axis) of an image](graphics/fliphorizontal.png)
 
 ## See Also
 

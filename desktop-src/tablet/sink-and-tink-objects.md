@@ -21,10 +21,10 @@ These objects can be used for interoperability between applications, either by p
 You can use tInk and sInk objects in the following ways:
 
 -   Both tInk and sInk objects are supported in Microsoft Word 2002. Users can insert ink into a Word document by using the writing and drawing text input panels provided in Word 2002. This ink is embedded into the Word file as an OLE object with the CLSID of either the sInk or tInk object.
--   The Tablet PC [InkEdit](frlrfMicrosoftInkInkEditClassTopic) control makes use of the tInk object. The InkEdit control is a subclass of the standard [RichTextBox](T:System.Windows.Forms.RichTextBox) control. Ink is inserted into the InkEdit control's RTF stream as a tInk object.
--   When an application moves a selected [Ink](frlrfMicrosoftInkInkClassTopic) object onto the Clipboard, the OLE object Clipboard slot contains a tInk or sInk OLE object.
+-   The Tablet PC [InkEdit](https://msdn.microsoft.com/library/ms552265(v=VS.100).aspx) control makes use of the tInk object. The InkEdit control is a subclass of the standard [RichTextBox](https://msdn.microsoft.com/library/hcwk58k6(v=VS.90).aspx) control. Ink is inserted into the InkEdit control's RTF stream as a tInk object.
+-   When an application moves a selected [Ink](https://msdn.microsoft.com/library/Aa515768(v=MSDN.10).aspx) object onto the Clipboard, the OLE object Clipboard slot contains a tInk or sInk OLE object.
 
-For example, your application can recognize handwriting and mark any [Ink](frlrfMicrosoftInkInkClassTopic) object as a tInk object. Then, if you select a word in ink and copy and paste it to Word, alternates for that word are shown in Word 2002.
+For example, your application can recognize handwriting and mark any [Ink](https://msdn.microsoft.com/library/Aa515768(v=MSDN.10).aspx) object as a tInk object. Then, if you select a word in ink and copy and paste it to Word, alternates for that word are shown in Word 2002.
 
 > [!Note]  
 > The Tablet PC Platform's Clipboard support automatically selects the Enhanced Metafile (EMF) flag for you when you place a sInk or tInk object on the Clipboard as an OLE object. The object itself is stored on the Clipboard in the embed source and object descriptor slots.

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Certificate Enrollment Control can be used by an application that must request that a certificate be issued to a named subject. It is designed to accept data in the form of a binary string (BSTR). The data can come from a webpage or from the user interface of the Visual Basic or Visual C++ development system. The output from the Certificate Enrollment Control is a PKCS \#10 certificate request that can be sent on to a [*certification authority*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CA).
 
-![certificate enrollment control](https://www.bing.com/search?q=certificate+enrollment+control)
+![certificate enrollment control](images/xen-arch.png)
 
 Necessary information about the user, the certificate subject, is collected by the User Interface. This information is provided as a BSTR input to the Certificate Enrollment Control. The Certificate Enrollment Control generates the appropriate signature key, key exchange key, or both key pairs. The control then generates and signs a PKCS \#10 [*certificate request*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) by using the generated [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx). The Certificate Enrollment Control then links the key pair to a temporary dummy certificate which is stored in the request store until the issued certificate is returned from a certification authority. Finally, the application sends the PKCS \#10 certificate request to a CA.
 

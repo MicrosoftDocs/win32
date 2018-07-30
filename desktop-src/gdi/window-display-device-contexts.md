@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Window Display Device Contexts
 
-A *window device context* enables an application to draw anywhere in a window, including the nonclient area. Window device contexts are typically used by applications that process the [**WM\_NCPAINT**](wm-ncpaint.md) and [**WM\_NCACTIVATE**](https://www.bing.com/search?q=**WM\_NCACTIVATE**) messages for windows with custom nonclient areas. Using a window device context is not recommended for any other purpose.
+A *window device context* enables an application to draw anywhere in a window, including the nonclient area. Window device contexts are typically used by applications that process the [**WM\_NCPAINT**](wm-ncpaint.md) and [**WM\_NCACTIVATE**](https://msdn.microsoft.com/library/ms632633(v=VS.85).aspx) messages for windows with custom nonclient areas. Using a window device context is not recommended for any other purpose.
 
 An application can retrieve a window device context by using the [**GetWindowDC**](/windows/desktop/api/Winuser/nf-winuser-getwindowdc) or [**GetDCEx**](/windows/desktop/api/Winuser/nf-winuser-getdcex) function with the DCX\_WINDOW option specified. The function retrieves a window device context from the display device context cache. A window that uses a window device context must release it after drawing by using the [**ReleaseDC**](/windows/desktop/api/Winuser/nf-winuser-releasedc) function as soon as possible. Window device contexts are always from the cache; the CS\_OWNDC and CS\_CLASSDC class styles do not affect the device context.
 

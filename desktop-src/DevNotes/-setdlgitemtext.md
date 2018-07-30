@@ -22,7 +22,7 @@ api_location:
 
 \[This function is a wrapper over the **SetDlgItemText** function. This function may be altered or unavailable in the future. Applications should call **SetDlgItemText** directly.\]
 
-Sets the title or text of a control in a dialog box. See [**SetDlgItemText**](_win32_SetDlgItemText_cpp).
+Sets the title or text of a control in a dialog box. See [**SetDlgItemText**](https://msdn.microsoft.com/library/ms645521(v=VS.85).aspx).
 
 ## Syntax
 
@@ -56,7 +56,7 @@ BOOL _SetDlgItemText(
 
 <dl> <dt>
 
-[**SetDlgItemText**](_win32_SetDlgItemText_cpp)
+[**SetDlgItemText**](https://msdn.microsoft.com/library/ms645521(v=VS.85).aspx)
 </dt> </dl>
 
  

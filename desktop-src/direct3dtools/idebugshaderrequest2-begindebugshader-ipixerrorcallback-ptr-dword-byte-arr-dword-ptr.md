@@ -1,0 +1,57 @@
+---
+Description: Requests to start debugging the specified list of instructions.
+MS-HAID: vspixengine.IDebugShaderRequest2\_BeginDebugShader\_IPixErrorCallback\_ptr\_DWORD\_BYTE\_arr\_DWORD\_ptr
+MSHAttr:
+- PreferredSiteName:MSDN
+- PreferredLib:/library/windows/desktop
+title: IDebugShaderRequest2::BeginDebugShader method
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# <span id="vspixengine.idebugshaderrequest2_begindebugshader_ipixerrorcallback_ptr_dword_byte_arr_dword_ptr"></span>IDebugShaderRequest2::BeginDebugShader method
+
+Requests to start debugging the specified list of instructions.
+
+## Syntax
+
+
+```C++
+);
+```
+
+## Parameters
+
+*errorCallback*   
+The address of a callback for errors that might occur during debugging.
+
+*instructionStreamSize*   
+The number of instructions in the instruction stream.
+
+*count1\_instructionStream*   
+The specified instruction stream.
+
+*pDevice*   
+The address to pass to the debug engine for communicating with this debug session (debug engine readprocessmemory on this address).
+
+## Return value
+
+If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
+
+## Requirements
+
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+
+## <span id="see_also"></span>See also
+
+[**IDebugShaderRequest2**](https://msdn.microsoft.com/library/windows/desktop/mt422661)
+
+ 
+
+ 
+
+
+

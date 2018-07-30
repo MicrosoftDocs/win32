@@ -13,8 +13,8 @@ ms.date: 05/31/2018
 
 The following enumerations are provided by COM:
 
--   [**APTTYPE**](/windows/desktop/api)
--   [**APTTYPEQUALIFIER**](/windows/desktop/api)
+-   [**APTTYPE**](https://msdn.microsoft.com/en-us/library/ms693793(v=VS.85).aspx)
+-   [**APTTYPEQUALIFIER**](https://msdn.microsoft.com/en-us/library/ms693793(v=VS.85).aspx)
 -   [**BIND\_FLAGS**](/windows/desktop/api/Objidl/ne-objidl-tagbind_flags)
 -   [**BINDSPEED**](/windows/desktop/api/Oleidl/ne-oleidl-tagbindspeed)
 -   [**BSCO\_OPTION**](bsco-option.md)
@@ -28,8 +28,8 @@ The following enumerations are provided by COM:
 -   [**COMSD**](/windows/desktop/api/Objbase/ne-objbase-tagcomsd)
 -   [**COWAIT\_FLAGS**](/windows/desktop/api/combaseapi/ne-combaseapi-tagcowait_flags)
 -   [**EOC\_ChangeType**](/windows/desktop/api/EventSys/ne-eventsys-__midl_ieventobjectchange_0001)
--   [**EOLE\_AUTHENTICATION\_CAPABILITIES**](/windows/desktop/api)
--   [**EXTCONN**](/windows/desktop/api)
+-   [**EOLE\_AUTHENTICATION\_CAPABILITIES**](https://msdn.microsoft.com/en-us/library/ms693368(v=VS.85).aspx)
+-   [**EXTCONN**](https://msdn.microsoft.com/en-us/library/ms688747(v=VS.85).aspx)
 -   [**GLOBALOPT\_PROPERTIES**](/windows/desktop/api/objidl/ne-objidl-tagglobalopt_properties)
 -   [**GLOBALOPT\_UNMARSHALING\_POLICY\_VALUES**](/windows/desktop/api/objidl/ne-objidl-tagglobalopt_unmarshaling_policy_values)
 -   [**MKRREDUCE**](/windows/desktop/api/Objidl/ne-objidl-tagmkreduce)
@@ -41,7 +41,7 @@ The following enumerations are provided by COM:
 -   [**RECORD\_READING\_POLICY**](/windows/desktop/api/TxLogpub/ne-txlogpub-record_reading_policy)
 -   [**REGCLS**](/windows/desktop/api/combaseapi/ne-combaseapi-tagregcls)
 -   [**SERVERCALL**](/windows/desktop/api/Objidl/ne-objidl-tagservercall)
--   [**THDTYPE**](/windows/desktop/api)
+-   [**THDTYPE**](https://msdn.microsoft.com/en-us/library/ms692663(v=VS.85).aspx)
 -   [**TYSPEC**](/windows/desktop/api/WTypes/ne-wtypes-tagtyspec)
 
  

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # enum
 
-Used to assign enumerated text to discrete values. Any number of these elements may exist under an [enumeratedList](https://www.bing.com/search?q=enumeratedList). Programmatically, these are represented as IPropertyEnumType objects, whose [**IPropertyEnumType::GetEnumType**](https://www.bing.com/search?q=**IPropertyEnumType::GetEnumType**) method returns PET\_DISCRETEVALUE.
+Used to assign enumerated text to discrete values. Any number of these elements may exist under an [enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx). Programmatically, these are represented as IPropertyEnumType objects, whose [**IPropertyEnumType::GetEnumType**](https://msdn.microsoft.com/library/Bb761487(v=VS.85).aspx) method returns PET\_DISCRETEVALUE.
 
 ## Syntax
 
@@ -38,7 +38,7 @@ Used to assign enumerated text to discrete values. Any number of these elements 
 
 | Parent Element                                         | Child Elements |
 |--------------------------------------------------------|----------------|
-| [enumeratedList](https://www.bing.com/search?q=enumeratedList) | none           |
+| [enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx) | none           |
 
 
 

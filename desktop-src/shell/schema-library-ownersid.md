@@ -39,7 +39,7 @@ The &lt;ownerSID&gt; element specifies the security identifier (SID) of the libr
 [Library Description Schema](library-schema-entry.md)
 </dt> <dt>
 
-[Search Connector Description Schema](search_sconn_desc_schema_entry)
+[Search Connector Description Schema](https://msdn.microsoft.com/library/Dd940480(v=VS.85).aspx)
 </dt> </dl>
 
  

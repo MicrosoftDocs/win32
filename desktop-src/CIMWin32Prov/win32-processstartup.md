@@ -157,7 +157,7 @@ This new process has a new console, instead of inheriting the parent console. Th
 
 </dt> <dd>
 
-This new process is the root process of a new process group. The process group includes all of the processes that are descendants of this root process. The process identifier of the new process group is the same as the process identifier that is returned in the **ProcessID** property of the [**Win32\_Process**](win32-process.md) class. Process groups are used by the [**GenerateConsoleCtrlEvent**](https://www.bing.com/search?q=**GenerateConsoleCtrlEvent**) method to enable the sending of either a CTRL+C signal or a CTRL+BREAK signal to a group of console processes.
+This new process is the root process of a new process group. The process group includes all of the processes that are descendants of this root process. The process identifier of the new process group is the same as the process identifier that is returned in the **ProcessID** property of the [**Win32\_Process**](win32-process.md) class. Process groups are used by the [**GenerateConsoleCtrlEvent**](https://msdn.microsoft.com/library/ms683155(v=VS.85).aspx) method to enable the sending of either a CTRL+C signal or a CTRL+BREAK signal to a group of console processes.
 
 </dd> <dt>
 
@@ -641,7 +641,7 @@ Access type: Read/write
 Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/en-us/library/ms686331(v=VS.85).aspx)\|dwX")
 </dt> </dl>
 
-The X offset of the upper left corner of a window if a new window is created—in pixels. The offsets are from the upper left corner of the screen. For GUI processes, the specified position is used the first time the new process calls [**CreateWindow**](https://www.bing.com/search?q=**CreateWindow**) to create an overlapped window if the *X* parameter of **CreateWindow** is **CW\_USEDEFAULT**.
+The X offset of the upper left corner of a window if a new window is created—in pixels. The offsets are from the upper left corner of the screen. For GUI processes, the specified position is used the first time the new process calls [**CreateWindow**](https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx) to create an overlapped window if the *X* parameter of **CreateWindow** is **CW\_USEDEFAULT**.
 
 > \[!Note  X\]  
 > and **Y** cannot be specified independently.
@@ -683,7 +683,7 @@ Access type: Read/write
 Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/en-us/library/ms686331(v=VS.85).aspx)\|dwXSize")
 </dt> </dl>
 
-Pixel width of a window if a new window is created. For GUI processes, this is only used the first time the new process calls [**CreateWindow**](https://www.bing.com/search?q=**CreateWindow**) to create an overlapped window if the nWidth parameter of **CreateWindow** is **CW\_USEDEFAULT**.
+Pixel width of a window if a new window is created. For GUI processes, this is only used the first time the new process calls [**CreateWindow**](https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx) to create an overlapped window if the nWidth parameter of **CreateWindow** is **CW\_USEDEFAULT**.
 
 > [!Note]  
 > **XSize** and **YSize** cannot be specified independently.
@@ -704,7 +704,7 @@ Access type: Read/write
 Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/en-us/library/ms686331(v=VS.85).aspx)\|dwY")
 </dt> </dl>
 
-Pixel offset of the upper-left corner of a window if a new window is created. The offsets are from the upper-left corner of the screen. For GUI processes, the specified position is used the first time the new process calls [**CreateWindow**](https://www.bing.com/search?q=**CreateWindow**) to create an overlapped window if the *y* parameter of **CreateWindow** is **CW\_USEDEFAULT**.
+Pixel offset of the upper-left corner of a window if a new window is created. The offsets are from the upper-left corner of the screen. For GUI processes, the specified position is used the first time the new process calls [**CreateWindow**](https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx) to create an overlapped window if the *y* parameter of **CreateWindow** is **CW\_USEDEFAULT**.
 
 > \[!Note  X\]  
 > and **Y** cannot be specified independently.
@@ -746,7 +746,7 @@ Access type: Read/write
 Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/en-us/library/ms686331(v=VS.85).aspx)\|dwYSize")
 </dt> </dl>
 
-Pixel height of a window if a new window is created. For GUI processes, this is used only the first time the new process calls [**CreateWindow**](https://www.bing.com/search?q=**CreateWindow**) to create an overlapped window if the *nWidth* parameter of **CreateWindow** is **CW\_USEDEFAULT**.
+Pixel height of a window if a new window is created. For GUI processes, this is used only the first time the new process calls [**CreateWindow**](https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx) to create an overlapped window if the *nWidth* parameter of **CreateWindow** is **CW\_USEDEFAULT**.
 
 > [!Note]  
 > **XSize** and **YSize** cannot be specified independently.

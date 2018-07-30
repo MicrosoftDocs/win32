@@ -42,7 +42,7 @@ You can use the following attributes with the Hyperlink control. To change the v
 
 ## Remarks
 
-This control can be created from the WC\_LINK class by using the [**CreateWindowEx**](https://www.bing.com/search?q=**CreateWindowEx**) function. It has the WS\_CHILD, WS\_TABSTOP and WS\_GROUP styles.
+This control can be created from the WC\_LINK class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the WS\_CHILD, WS\_TABSTOP and WS\_GROUP styles.
 
 Do not place transparent [Text controls](text-control.md) on top of colored bitmaps. The text may not be visible if the user changes the display color scheme. For example, text may become invisible if the user sets the high contrast parameter for accessibility reasons.
 

@@ -15,34 +15,34 @@ ms.date: 05/31/2018
 
 # IRemoteDesktopClientSettings methods
 
-The [**IRemoteDesktopClientSettings**](/windows/desktop/api) interface exposes the following methods.
+The [**IRemoteDesktopClientSettings**](https://msdn.microsoft.com/en-us/library/Mt787023(v=VS.85).aspx) interface exposes the following methods.
 
 ## In this section
 
 <dl> <dt>
 
-[**ApplySettings method**](/windows/desktop/api)
+[**ApplySettings method**](https://msdn.microsoft.com/en-us/library/Mt787024(v=VS.85).aspx)
 </dt> <dd>
 
 Stores the specified contents in the RDP file.
 
 </dd> <dt>
 
-[**GetRdpProperty method**](/windows/desktop/api)
+[**GetRdpProperty method**](https://msdn.microsoft.com/en-us/library/Mt787025(v=VS.85).aspx)
 </dt> <dd>
 
 Retrieves a single named RDP property value.
 
 </dd> <dt>
 
-[**RetrieveSettings method**](/windows/desktop/api)
+[**RetrieveSettings method**](https://msdn.microsoft.com/en-us/library/Mt787027(v=VS.85).aspx)
 </dt> <dd>
 
 Retrieves the entire RDP file as a string.
 
 </dd> <dt>
 
-[**SetRdpProperty method**](/windows/desktop/api)
+[**SetRdpProperty method**](https://msdn.microsoft.com/en-us/library/Mt787028(v=VS.85).aspx)
 </dt> <dd>
 
 Sets the value of a single named RDP property.

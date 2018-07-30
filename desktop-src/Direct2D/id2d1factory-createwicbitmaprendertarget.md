@@ -37,7 +37,7 @@ Creates a render target that renders to a Microsoft Windows Imaging Component (W
 
 Your application should create render targets once and hold onto them for the life of the application or until the [**D2DERR\_RECREATE\_TARGET**](direct2d-error-codes.md) error is received. When you receive this error, you need to recreate the render target (and any resources it created).
 
--   ![applies to windows phone](https://www.bing.com/search?q=applies+to+windows+phone)
+-   ![applies to windows phone](../common/phone.png)
 
 **Note**   This method isn't supported on Windows Phone and will fail when called on a device with error code 0x8899000b ( There is no hardware rendering device available for this operation ). Because the Windows Phone Emulator supports WARP rendering, this method will fail when called on the emulator with a different error code, 0x88982f80 (wincodec\_err\_unsupportedpixelformat).
 

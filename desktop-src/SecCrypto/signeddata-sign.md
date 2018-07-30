@@ -7,20 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - SignedData.Sign
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - Capicom.dll
 ---
 
 # SignedData.Sign method
 
-\[The **Sign** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**SignedCms Class**](https://www.bing.com/search?q=**SignedCms+Class**) in the [**System.Security.Cryptography.Pkcs**](https://www.bing.com/search?q=**System.Security.Cryptography.Pkcs**) namespace.\]
+\[The **Sign** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**SignedCms Class**](https://msdn.microsoft.com/library/kz82bs5e(v=VS.90).aspx) in the [**System.Security.Cryptography.Pkcs**](https://msdn.microsoft.com/library/6see7k14(v=VS.100).aspx) namespace.\]
 
 The **Sign** method creates a [*digital signature*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx) on the content to be signed. A digital signature consists of a [*hash*](https://msdn.microsoft.com/en-us/library/ms721586(v=VS.85).aspx) of the content to be signed that is encrypted by using the private key of the signer. This method can only be used after the [**SignedData.Content**](signeddata-content.md) property has been initialized. If the **Sign** method is called on an object that already has a signature, the old signature is replaced. The signature is created by using the SHA1 signing algorithm.
 

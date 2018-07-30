@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # enumRange
 
-Assigns enumeration text to a range of values. Each [enumRange](https://www.bing.com/search?q=enumRange) element specifies a minimum value, and extends until the next element minimum value, or until there are no more enumRange elements.
+Assigns enumeration text to a range of values. Each [enumRange](https://msdn.microsoft.com/library/Bb773873(v=VS.85).aspx) element specifies a minimum value, and extends until the next element minimum value, or until there are no more enumRange elements.
 
 ## Syntax
 
@@ -37,7 +37,7 @@ Assigns enumeration text to a range of values. Each [enumRange](https://www.bing
 
 | Parent Element                                         | Child Elements |
 |--------------------------------------------------------|----------------|
-| [enumeratedList](https://www.bing.com/search?q=enumeratedList) | none           |
+| [enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx) | none           |
 
 
 
@@ -53,7 +53,7 @@ Assigns enumeration text to a range of values. Each [enumRange](https://www.bing
 | setValue  | Public. Optional. When a user selects this enumeration from a listbox property control, this discrete value is assigned as the property value.                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | text      | Public. Optional. The text used to display the enumerated value. The syntax allows for a direct display string or an indirect display string reference; use the indirect display string so that it can be localized.                                                                                                                                                                                                                                                                                                                                                                                                   |
 | mnemonics | **Windows 7 and later.** Public. Optional. A list of mnemonic values that can be used to refer to the property in search queries. The list is delimited with the '\|' character.                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| name      | Required. The canonical property name, unique to the system; for example, System.Rating. This attribute is limited to 64 characters. The name is case sensitive and should use the following syntax: Publisher.Application.PropertyName. The following methods return this value: [**IExplorerCommand::GetCanonicalName**](https://msdn.microsoft.com/en-us/library/Bb761868(v=VS.85).aspx), [**IPropertyDescription::GetCanonicalName**](https://www.bing.com/search?q=**IPropertyDescription::GetCanonicalName**), [**IPropertyDescription2::GetCanonicalName**](/windows/desktop/api/Propsys/nn-propsys-ipropertydescription2), and [**IPropertyUI::GetCanonicalName**](https://www.bing.com/search?q=**IPropertyUI::GetCanonicalName**). |
+| name      | Required. The canonical property name, unique to the system; for example, System.Rating. This attribute is limited to 64 characters. The name is case sensitive and should use the following syntax: Publisher.Application.PropertyName. The following methods return this value: [**IExplorerCommand::GetCanonicalName**](https://msdn.microsoft.com/en-us/library/Bb761868(v=VS.85).aspx), [**IPropertyDescription::GetCanonicalName**](https://msdn.microsoft.com/library/Bb761525(v=VS.85).aspx), [**IPropertyDescription2::GetCanonicalName**](/windows/desktop/api/Propsys/nn-propsys-ipropertydescription2), and [**IPropertyUI::GetCanonicalName**](https://msdn.microsoft.com/library/Dd758076(v=VS.85).aspx). |
 
 
 

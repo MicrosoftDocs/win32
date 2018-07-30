@@ -7,16 +7,16 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - EVENT_TRACE_LOGFILE
 - EVENT_TRACE_LOGFILEA
 - EVENT_TRACE_LOGFILEW
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - Evntrace.h
 ---
 
@@ -116,8 +116,8 @@ Modes for processing events. The modes are defined in the Evntcons.h header file
 
 | Value                                                                                                                                                                                                                     | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="PROCESS_TRACE_MODE_EVENT_RECORD"></span><span id="process_trace_mode_event_record"></span><dl> <dt>**PROCESS\_TRACE\_MODE\_EVENT\_RECORD**</dt> </dl>    | Specify this mode if you want to receive events in the new [**EVENT\_RECORD**](/windows/desktop/api) format. To receive events in the new format you must specify a callback in the **EventRecordCallback** member. If you do not specify this mode, you receive events in the old format through the callback specified in the **EventCallback** member.<br/> **Prior to Windows Vista:** Not supported.<br/>                                             |
-| <span id="PROCESS_TRACE_MODE_RAW_TIMESTAMP"></span><span id="process_trace_mode_raw_timestamp"></span><dl> <dt>**PROCESS\_TRACE\_MODE\_RAW\_TIMESTAMP**</dt> </dl> | Specify this mode if you do not want the time stamp value in the **TimeStamp** member of [**EVENT\_HEADER**](/windows/desktop/api) and [**EVENT\_TRACE\_HEADER**](event-trace-header.md) converted to system time (leaves the time stamp value in the resolution that the controller specified in the **Wnode.ClientContext** member of [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md)).<br/> **Prior to Windows Vista:** Not supported.<br/> |
+| <span id="PROCESS_TRACE_MODE_EVENT_RECORD"></span><span id="process_trace_mode_event_record"></span><dl> <dt>**PROCESS\_TRACE\_MODE\_EVENT\_RECORD**</dt> </dl>    | Specify this mode if you want to receive events in the new [**EVENT\_RECORD**](https://msdn.microsoft.com/en-us/library/Aa363769(v=VS.85).aspx) format. To receive events in the new format you must specify a callback in the **EventRecordCallback** member. If you do not specify this mode, you receive events in the old format through the callback specified in the **EventCallback** member.<br/> **Prior to Windows Vista:** Not supported.<br/>                                             |
+| <span id="PROCESS_TRACE_MODE_RAW_TIMESTAMP"></span><span id="process_trace_mode_raw_timestamp"></span><dl> <dt>**PROCESS\_TRACE\_MODE\_RAW\_TIMESTAMP**</dt> </dl> | Specify this mode if you do not want the time stamp value in the **TimeStamp** member of [**EVENT\_HEADER**](https://msdn.microsoft.com/en-us/library/Aa363759(v=VS.85).aspx) and [**EVENT\_TRACE\_HEADER**](event-trace-header.md) converted to system time (leaves the time stamp value in the resolution that the controller specified in the **Wnode.ClientContext** member of [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md)).<br/> **Prior to Windows Vista:** Not supported.<br/> |
 | <span id="PROCESS_TRACE_MODE_REAL_TIME"></span><span id="process_trace_mode_real_time"></span><dl> <dt>**PROCESS\_TRACE\_MODE\_REAL\_TIME**</dt> </dl>             | Specify this mode to receive events in real time (you must specify this mode if **LoggerName** is not **NULL**).<br/>                                                                                                                                                                                                                                                                                                                                        |
 
 
@@ -198,7 +198,7 @@ On output, if this member is **TRUE**, the event tracing session is the NT Kerne
 **Context**
 </dt> <dd>
 
-Context data that a consumer can specify when calling [**OpenTrace**](opentrace.md). If the consumer uses [**EventRecordCallback**](eventrecordcallback.md) to consume events, ETW sets the **UserContext** member of the [**EVENT\_RECORD**](/windows/desktop/api) structure to this value.
+Context data that a consumer can specify when calling [**OpenTrace**](opentrace.md). If the consumer uses [**EventRecordCallback**](eventrecordcallback.md) to consume events, ETW sets the **UserContext** member of the [**EVENT\_RECORD**](https://msdn.microsoft.com/en-us/library/Aa363769(v=VS.85).aspx) structure to this value.
 
 **Prior to Windows Vista:** Not supported.
 

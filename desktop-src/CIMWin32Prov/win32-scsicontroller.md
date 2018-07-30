@@ -13,10 +13,10 @@ title: Win32\_SCSIController class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - Win32_SCSIController
 - Win32_SCSIController.Reset
 - Win32_SCSIController.SetPowerState
@@ -51,9 +51,9 @@ api_name:
 - Win32_SCSIController.SystemCreationClassName
 - Win32_SCSIController.SystemName
 - Win32_SCSIController.TimeOfLastReset
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - CIMWin32.dll
 ---
 
@@ -1002,7 +1002,7 @@ Maximum transfer rate (in bits per second) supported by the SCSI controller.
 
 This property is inherited from [**CIM\_SCSIController**](cim-scsicontroller.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 

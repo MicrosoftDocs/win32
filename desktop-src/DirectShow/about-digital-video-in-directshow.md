@@ -30,11 +30,11 @@ DirectShow provides the following DV filters:
 
 The DV Splitter and DV Video Decoder work together. The splitter takes the interleaved stream and outputs separate audio and DV video streams. The decoder converts the DV video to uncompressed video. The following image illustrates this process.
 
-![dv splitter and dv decoder](https://www.bing.com/search?q=dv+splitter+and+dv+decoder)
+![dv splitter and dv decoder](images/dv-filters1.png)
 
 The DV Video Encoder and the DV Muxer reverse the process: The encoder converts uncompressed video to DV video, and the mux combines audio and DV video to create a single interleaved stream, as shown in the following diagram.
 
-![dv encoder and dv muxer](https://www.bing.com/search?q=dv+encoder+and+dv+muxer)
+![dv encoder and dv muxer](images/dv-filters2.png)
 
 ## Related topics
 

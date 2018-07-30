@@ -19,7 +19,7 @@ The **OBJECT IDENTIFIER** data type is encoded into a TLV triplet that begins wi
 
 These points are shown by the following illustration.
 
-![der encoding of the object identifier data type](https://www.bing.com/search?q=der+encoding+of+the+object+identifier+data+type)
+![der encoding of the object identifier data type](images/der-tlv-oid.png)
 
 The following example shows how the **ClientId** attribute is encoded in a certificate request.
 

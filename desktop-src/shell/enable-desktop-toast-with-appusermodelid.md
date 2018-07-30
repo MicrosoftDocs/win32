@@ -171,16 +171,16 @@ As an alternative to the approach shown in this topic, you can use a framework s
 [Quickstart: Sending a toast notification](https://msdn.microsoft.com/en-us/library/Hh465448(v=Win.10).aspx)
 </dt> <dt>
 
-[Quickstart: Sending a toast push notification](m_ui_tiles.quickstart_sending_a_toast_push)
+[Quickstart: Sending a toast push notification](https://msdn.microsoft.com/library/Hh761487(v=Win.10).aspx)
 </dt> <dt>
 
 [Guidelines and checklist for toast notifications](https://msdn.microsoft.com/en-us/library/Hh465391(v=Win.10).aspx)
 </dt> <dt>
 
-[How to add images to a toast template](m_ui_tiles.howto_use_images_toast)
+[How to add images to a toast template](https://msdn.microsoft.com/library/Hh761480(v=Win.10).aspx)
 </dt> <dt>
 
-[How to check toast notification settings](m_ui_tiles.howto_check_toast_notification_settings)
+[How to check toast notification settings](https://msdn.microsoft.com/library/Hh761466(v=Win.10).aspx)
 </dt> <dt>
 
 [How to choose and use a toast template](https://msdn.microsoft.com/en-us/library/Hh465448(v=Win.10).aspx)

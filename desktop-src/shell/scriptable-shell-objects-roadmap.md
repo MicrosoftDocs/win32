@@ -128,7 +128,7 @@ The ProgID for each of the Shell objects is shown in the following table.
 
 ### HTML OBJECT Element
 
-You can also use the [**OBJECT**](_inet_OBJECT_Element_OBJECT_Object_scr) element to instantiate Shell objects on an HTML page. To do this, set the **OBJECT** element's **ID** attribute to the variable name you will use in your scripts, and identify the object using its registered number (CLASSID). The following HTML creates an instance of the [**ShellFolderItem**](shellfolderitem-object.md) object using the **OBJECT** element.
+You can also use the [**OBJECT**](https://msdn.microsoft.com/library/ms535859(v=VS.85).aspx) element to instantiate Shell objects on an HTML page. To do this, set the **OBJECT** element's **ID** attribute to the variable name you will use in your scripts, and identify the object using its registered number (CLASSID). The following HTML creates an instance of the [**ShellFolderItem**](shellfolderitem-object.md) object using the **OBJECT** element.
 
 
 ```

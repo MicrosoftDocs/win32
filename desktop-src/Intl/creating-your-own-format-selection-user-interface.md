@@ -48,7 +48,7 @@ Please see [Options for Displaying Text](http://msdn.microsoft.com/en-us/gogloba
 [**Edit control**](https://msdn.microsoft.com/en-us/library/Aa368342(v=VS.85).aspx)
 </dt> <dt>
 
-[Rich Edit](https://www.bing.com/search?q=Rich+Edit)
+[Rich Edit](https://msdn.microsoft.com/library/Bb787873(v=VS.85).aspx)
 </dt> <dt>
 
 [Uniscribe](uniscribe.md)

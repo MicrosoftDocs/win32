@@ -35,7 +35,7 @@ To add or delete items in a gallery control at run time, use the various methods
 
 The following screen shot illustrates the use of two categories, **Selection shapes** and **Selection options**, in a [**SplitButton**](windowsribbon-element-splitbutton.md) menu.
 
-![screen shot that shows two categories, selection shapes and selection options, in a splitbuttongallery control.](https://www.bing.com/search?q=screen+shot+that+shows+two+categories,+selection+shapes+and+selection+options,+in+a+splitbuttongallery+control.)
+![screen shot that shows two categories, selection shapes and selection options, in a splitbuttongallery control.](images/properties/ui-pkey-collection-categories2.png)
 
 ## Related topics
 

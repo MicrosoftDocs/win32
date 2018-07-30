@@ -244,7 +244,7 @@ Control identifier. For more information, see [Common Control Parameters](common
 
 <dl> <dt>
 
-[Using Dialog Boxes](https://www.bing.com/search?q=Using+Dialog+Boxes)
+[Using Dialog Boxes](https://msdn.microsoft.com/library/ms644996(v=VS.85).aspx)
 </dt> <dt>
 
 [**ACCELERATORS**](accelerators-resource.md)
@@ -256,16 +256,16 @@ Control identifier. For more information, see [Common Control Parameters](common
 [**CONTROL**](control-control.md)
 </dt> <dt>
 
-[**CreateDialog**](https://www.bing.com/search?q=**CreateDialog**)
+[**CreateDialog**](https://msdn.microsoft.com/library/ms645434(v=VS.85).aspx)
 </dt> <dt>
 
-[**CreateWindow**](https://www.bing.com/search?q=**CreateWindow**)
+[**CreateWindow**](https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx)
 </dt> <dt>
 
-[**DialogBox**](https://www.bing.com/search?q=**DialogBox**)
+[**DialogBox**](https://msdn.microsoft.com/library/ms645452(v=VS.85).aspx)
 </dt> <dt>
 
-[**GetDialogBaseUnits**](https://www.bing.com/search?q=**GetDialogBaseUnits**)
+[**GetDialogBaseUnits**](https://msdn.microsoft.com/library/ms645475(v=VS.85).aspx)
 </dt> <dt>
 
 [**LANGUAGE**](language-statement.md)

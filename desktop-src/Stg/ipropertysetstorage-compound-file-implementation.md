@@ -39,7 +39,7 @@ Deletes a property set in this property storage.
 
 [**IPropertySetStorage::Enum**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-enum)
 
-Creates an object used to enumerate [**STATPROPSETSTG**](/windows/desktop/api) structures. Each **STATPROPSETSTG** structure provides data about a single property set.
+Creates an object used to enumerate [**STATPROPSETSTG**](https://msdn.microsoft.com/en-us/library/Aa379184(v=VS.85).aspx) structures. Each **STATPROPSETSTG** structure provides data about a single property set.
 
 ## Remarks
 
@@ -76,7 +76,7 @@ Simple property sets cannot be transacted. You cannot specify STGM\_TRANSACTED i
 [**PROPSETFLAG Constants**](propsetflag-constants.md)
 </dt> <dt>
 
-[**STATPROPSETSTG**](/windows/desktop/api)
+[**STATPROPSETSTG**](https://msdn.microsoft.com/en-us/library/Aa379184(v=VS.85).aspx)
 </dt> </dl>
 
  

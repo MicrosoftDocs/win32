@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 A message that is sent to all top-level windows when the [**SystemParametersInfo**](https://msdn.microsoft.com/en-us/library/ms724947(v=VS.85).aspx) function changes a system-wide setting or when policy settings have changed.
 
-Applications should send **WM\_SETTINGCHANGE** to all top-level windows when they make changes to system parameters. (This message cannot be sent directly to a window.) To send the **WM\_SETTINGCHANGE** message to all top-level windows, use the [**SendMessageTimeout**](https://www.bing.com/search?q=**SendMessageTimeout**) function with the *hwnd* parameter set to **HWND\_BROADCAST**.
+Applications should send **WM\_SETTINGCHANGE** to all top-level windows when they make changes to system parameters. (This message cannot be sent directly to a window.) To send the **WM\_SETTINGCHANGE** message to all top-level windows, use the [**SendMessageTimeout**](https://msdn.microsoft.com/library/ms644952(v=VS.85).aspx) function with the *hwnd* parameter set to **HWND\_BROADCAST**.
 
-A window receives this message through its [**WindowProc**](https://www.bing.com/search?q=**WindowProc**) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -86,7 +86,7 @@ The *lParam* parameter indicates which system metric has changed, for example, "
 [Policy Events](https://msdn.microsoft.com/en-us/library/Aa374368(v=VS.85).aspx)
 </dt> <dt>
 
-[**SendMessageTimeout**](https://www.bing.com/search?q=**SendMessageTimeout**)
+[**SendMessageTimeout**](https://msdn.microsoft.com/library/ms644952(v=VS.85).aspx)
 </dt> <dt>
 
 [**SystemParametersInfo**](https://msdn.microsoft.com/en-us/library/ms724947(v=VS.85).aspx)

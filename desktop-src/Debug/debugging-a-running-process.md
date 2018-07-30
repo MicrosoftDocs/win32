@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Debugging a Running Process
 
-To debug a process that is already running, the debugger should use [**DebugActiveProcess**](https://msdn.microsoft.com/en-us/library/ms679295(v=VS.85).aspx) with the process identifier. To retrieve a list of process identifiers, use either the [**EnumProcesses**](https://www.bing.com/search?q=**EnumProcesses**) or [**Process32First**](https://www.bing.com/search?q=**Process32First**) function.
+To debug a process that is already running, the debugger should use [**DebugActiveProcess**](https://msdn.microsoft.com/en-us/library/ms679295(v=VS.85).aspx) with the process identifier. To retrieve a list of process identifiers, use either the [**EnumProcesses**](https://msdn.microsoft.com/library/ms682629(v=VS.85).aspx) or [**Process32First**](https://msdn.microsoft.com/library/ms684834(v=VS.85).aspx) function.
 
 [**DebugActiveProcess**](https://msdn.microsoft.com/en-us/library/ms679295(v=VS.85).aspx) attaches the debugger to the active process. In this case, only the active process can be debugged; its child processes cannot. The debugger must have appropriate access to the executing process to use **DebugActiveProcess**. For more information about access rights, see [Access Control](https://msdn.microsoft.com/en-us/library/Aa374860(v=VS.85).aspx).
 

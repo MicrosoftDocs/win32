@@ -112,7 +112,7 @@ Certain attributes are also supported for backward compatibility. For more infor
 
 ## Remarks
 
-The [**TranslateAccelerator**](https://www.bing.com/search?q=**TranslateAccelerator**) function is used to translate accelerator messages from the application queue into [**WM\_COMMAND**](https://www.bing.com/search?q=**WM\_COMMAND**) or [**WM\_SYSCOMMAND**](https://www.bing.com/search?q=**WM\_SYSCOMMAND**) messages.
+The [**TranslateAccelerator**](https://msdn.microsoft.com/library/ms646373(v=VS.85).aspx) function is used to translate accelerator messages from the application queue into [**WM\_COMMAND**](https://msdn.microsoft.com/library/ms647591(v=VS.85).aspx) or [**WM\_SYSCOMMAND**](https://msdn.microsoft.com/library/ms646360(v=VS.85).aspx) messages.
 
 ## Examples
 
@@ -142,10 +142,10 @@ The following example demonstrates the use of accelerator keys.
 
 <dl> <dt>
 
-[Using Keyboard Accelerators](https://www.bing.com/search?q=Using+Keyboard+Accelerators)
+[Using Keyboard Accelerators](https://msdn.microsoft.com/library/ms646337(v=VS.85).aspx)
 </dt> <dt>
 
-[**TranslateAccelerator**](https://www.bing.com/search?q=**TranslateAccelerator**)
+[**TranslateAccelerator**](https://msdn.microsoft.com/library/ms646373(v=VS.85).aspx)
 </dt> <dt>
 
 [**CHARACTERISTICS**](characteristics-statement.md)

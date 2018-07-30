@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- InkRenderer
+- InkRenderer.IInkRenderer
+api_type: 
+- COM
+api_location: 
+- InkObj.dll
+- InkObj.dll.dll
 ---
 
 # InkRenderer class

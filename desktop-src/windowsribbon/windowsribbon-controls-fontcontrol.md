@@ -49,7 +49,7 @@ This consistent experience includes
 
     The following screen shot shows that the **Fonts** control panel can be accessed directly from the Font Control.
 
-    ![screen shot of the font family list in wordpad for windows 7.](https://www.bing.com/search?q=screen+shot+of+the+font+family+list+in+wordpad+for+windows+7.)
+    ![screen shot of the font family list in wordpad for windows 7.](images/controls/fontcontrol-fontcpl.png)
 
 -   Support for auto-preview.
 -   Exposure of fonts that are most relevant to a user, such as
@@ -506,7 +506,7 @@ The recommended prefix for a Multilingual User Interface (MUI) EN-US Ribbon is '
 
 The following screen shot illustrates the Font Control keytips as they are defined in the previous example.
 
-![screen shot of the fontcontrol keytips in wordpad for windows 7.](https://www.bing.com/search?q=screen+shot+of+the+fontcontrol+keytips+in+wordpad+for+windows+7.)
+![screen shot of the fontcontrol keytips in wordpad for windows 7.](images/controls/fontcontrol-keytips.png)
 
 ### The Ribbon Resource File
 

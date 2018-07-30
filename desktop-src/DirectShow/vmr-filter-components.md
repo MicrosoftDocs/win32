@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The VMR employs a modular design that enables applications to configure it for many different rendering scenarios. Depending on its configuration, the VMR contains from two to five subcomponents (in addition to its input pins).
 
-![vmr in windowed mode with multiple streams](https://www.bing.com/search?q=vmr+in+windowed+mode+with+multiple+streams)
+![vmr in windowed mode with multiple streams](images/vmr-multiple-streams.png)
 
 **Mixer:** The mixer is a COM object responsible for mixing multiple streams. Deinterlacing also occurs inside the mixer. The mixer is loaded by the VMR when multiple input streams are detected, or when the input video is interlaced. The mixer collects information about each input stream and sorts the streams into the correct Z-order. It is responsible for determining when each input pin receives a sample, and for instructing the image compositor at the proper time to perform the actual blending. The mixer also calculates the time stamp to be applied to each output image. When the application is supplying a bitmap to be displayed on top of the composited image, the mixer is responsible for ensuring that the bitmap is displayed on top even if the Z-order of the input streams is modified.
 

@@ -76,26 +76,26 @@ Note that the `Kind` can be a single value or multiple values in a semi-colon de
 
 ## Additional Resources
 
--   For reference documentation about properties, see [System.Kind](https://www.bing.com/search?q=System.Kind) and [System.KindText](https://www.bing.com/search?q=System.KindText).
+-   For reference documentation about properties, see [System.Kind](https://msdn.microsoft.com/library/Bb787521(v=VS.85).aspx) and [System.KindText](https://msdn.microsoft.com/library/Bb787523(v=VS.85).aspx).
 -   For more information about creating new or using existing file types, see [File Types](https://msdn.microsoft.com/en-us/library/Cc144148(v=VS.85).aspx).
 
 ## Related topics
 
 <dl> <dt>
 
-[Understanding Property Handlers](https://www.bing.com/search?q=Understanding+Property+Handlers)
+[Understanding Property Handlers](https://msdn.microsoft.com/library/Cc144129(v=VS.85).aspx)
 </dt> <dt>
 
-[Using Property Lists](https://www.bing.com/search?q=Using+Property+Lists)
+[Using Property Lists](https://msdn.microsoft.com/library/Cc144133(v=VS.85).aspx)
 </dt> <dt>
 
-[Initializing Property Handlers](https://www.bing.com/search?q=Initializing+Property+Handlers)
+[Initializing Property Handlers](https://msdn.microsoft.com/library/Cc144131(v=VS.85).aspx)
 </dt> <dt>
 
-[Registering and Distributing Property Handlers](https://www.bing.com/search?q=Registering+and+Distributing+Property+Handlers)
+[Registering and Distributing Property Handlers](https://msdn.microsoft.com/library/Dd894084(v=VS.85).aspx)
 </dt> <dt>
 
-[Property Handler Best Practices and FAQ](https://www.bing.com/search?q=Property+Handler+Best+Practices+and+FAQ)
+[Property Handler Best Practices and FAQ](https://msdn.microsoft.com/library/Dd894083(v=VS.85).aspx)
 </dt> </dl>
 
  

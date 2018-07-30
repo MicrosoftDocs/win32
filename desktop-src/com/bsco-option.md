@@ -49,56 +49,56 @@ typedef enum  {
 <span id="BSCO_ONSTARTBINDING"></span><span id="bsco_onstartbinding"></span>**BSCO\_ONSTARTBINDING**
 </dt> <dd>
 
-The client would like to receive the [**OnStartBinding**](https://www.bing.com/search?q=**OnStartBinding**) callback.
+The client would like to receive the [**OnStartBinding**](https://msdn.microsoft.com/library/ms775065(v=VS.85).aspx) callback.
 
 </dd> <dt>
 
 <span id="BSCO_GETPRIORITY"></span><span id="bsco_getpriority"></span>**BSCO\_GETPRIORITY**
 </dt> <dd>
 
-The client would like to receive the [**GetPriority**](https://www.bing.com/search?q=**GetPriority**) callback.
+The client would like to receive the [**GetPriority**](https://msdn.microsoft.com/library/ms775059(v=VS.85).aspx) callback.
 
 </dd> <dt>
 
 <span id="BSCO_ONLOWRESOURCE"></span><span id="bsco_onlowresource"></span>**BSCO\_ONLOWRESOURCE**
 </dt> <dd>
 
-The client would like to receive the [**OnLowResource**](https://www.bing.com/search?q=**OnLowResource**) callback.
+The client would like to receive the [**OnLowResource**](https://msdn.microsoft.com/library/ms775062(v=VS.85).aspx) callback.
 
 </dd> <dt>
 
 <span id="BSCO_ONPROGRESS"></span><span id="bsco_onprogress"></span>**BSCO\_ONPROGRESS**
 </dt> <dd>
 
-The client would like to receive the [**OnProgress**](https://www.bing.com/search?q=**OnProgress**) callback.
+The client would like to receive the [**OnProgress**](https://msdn.microsoft.com/library/ms775064(v=VS.85).aspx) callback.
 
 </dd> <dt>
 
 <span id="BSCO_ONSTOPBINDING"></span><span id="bsco_onstopbinding"></span>**BSCO\_ONSTOPBINDING**
 </dt> <dd>
 
-The client would like to receive the [**OnStopBinding**](https://www.bing.com/search?q=**OnStopBinding**) callback.
+The client would like to receive the [**OnStopBinding**](https://msdn.microsoft.com/library/ms775066(v=VS.85).aspx) callback.
 
 </dd> <dt>
 
 <span id="BSCO_GETBINDINFO"></span><span id="bsco_getbindinfo"></span>**BSCO\_GETBINDINFO**
 </dt> <dd>
 
-The client would like to receive the [**GetBindInfo**](https://www.bing.com/search?q=**GetBindInfo**) callback.
+The client would like to receive the [**GetBindInfo**](https://msdn.microsoft.com/library/ms775058(v=VS.85).aspx) callback.
 
 </dd> <dt>
 
 <span id="BSCO_ONDATAAVAILABLE"></span><span id="bsco_ondataavailable"></span>**BSCO\_ONDATAAVAILABLE**
 </dt> <dd>
 
-The client would like to receive the [**OnDataAvailable**](https://www.bing.com/search?q=**OnDataAvailable**) callback.
+The client would like to receive the [**OnDataAvailable**](https://msdn.microsoft.com/library/ms775061(v=VS.85).aspx) callback.
 
 </dd> <dt>
 
 <span id="BSCO_ONOBJECTAVAILABLE"></span><span id="bsco_onobjectavailable"></span>**BSCO\_ONOBJECTAVAILABLE**
 </dt> <dd>
 
-The client would like to receive the [**OnObjectAvailable**](https://www.bing.com/search?q=**OnObjectAvailable**) callback.
+The client would like to receive the [**OnObjectAvailable**](https://msdn.microsoft.com/library/ms775063(v=VS.85).aspx) callback.
 
 </dd> <dt>
 
@@ -118,7 +118,7 @@ The client would like to receive all callbacks.
 
 ## Remarks
 
-A client of a binding operation provides values from the **BSCO\_OPTION** enumeration when calling the [**RegisterBindStatusCallback**](https://www.bing.com/search?q=**RegisterBindStatusCallback**) function to register the client's [**IBindStatusCallback**](https://www.bing.com/search?q=**IBindStatusCallback**) interface.
+A client of a binding operation provides values from the **BSCO\_OPTION** enumeration when calling the [**RegisterBindStatusCallback**](https://msdn.microsoft.com/library/ms775115(v=VS.85).aspx) function to register the client's [**IBindStatusCallback**](https://msdn.microsoft.com/library/ms775060(v=VS.85).aspx) interface.
 
 ## Requirements
 
@@ -135,10 +135,10 @@ A client of a binding operation provides values from the **BSCO\_OPTION** enumer
 
 <dl> <dt>
 
-[**IBindStatusCallback**](https://www.bing.com/search?q=**IBindStatusCallback**)
+[**IBindStatusCallback**](https://msdn.microsoft.com/library/ms775060(v=VS.85).aspx)
 </dt> <dt>
 
-[**RegisterBindStatusCallback**](https://www.bing.com/search?q=**RegisterBindStatusCallback**)
+[**RegisterBindStatusCallback**](https://msdn.microsoft.com/library/ms775115(v=VS.85).aspx)
 </dt> </dl>
 
  

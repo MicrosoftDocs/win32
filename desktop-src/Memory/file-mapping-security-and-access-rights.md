@@ -35,7 +35,7 @@ The valid access rights for file mapping objects include the **DELETE**, **READ\
 
 Mapping a copy-on-write view of a file mapping object requires the same access as mapping a read-only view. **FILE\_MAP\_COPY** is not an actual access right and should not be specified as part of a DACL in a security descriptor. This value can be used only with functions that map a view of a file mapping object, such as the [**MapViewOfFile**](https://msdn.microsoft.com/en-us/library/Aa366761(v=VS.85).aspx) and [**MapViewOfFileEx**](https://msdn.microsoft.com/en-us/library/Aa366763(v=VS.85).aspx) functions, or with the [**OpenFileMapping**](/windows/desktop/api/WinBase/nf-winbase-openfilemappinga) function, which treats **FILE\_MAP\_COPY** the same as **FILE\_MAP\_READ**.
 
-You can request the **ACCESS\_SYSTEM\_SECURITY** access right to a file mapping object if you want to read or write the object's SACL. For more information, see [Access-Control Lists (ACLs)](https://www.bing.com/search?q=Access-Control+Lists+(ACLs)) and [SACL Access Right](https://msdn.microsoft.com/en-us/library/Aa379321(v=VS.85).aspx).
+You can request the **ACCESS\_SYSTEM\_SECURITY** access right to a file mapping object if you want to read or write the object's SACL. For more information, see [Access-Control Lists (ACLs)](https://msdn.microsoft.com/library/Aa374872(v=VS.85).aspx) and [SACL Access Right](https://msdn.microsoft.com/en-us/library/Aa379321(v=VS.85).aspx).
 
  
 

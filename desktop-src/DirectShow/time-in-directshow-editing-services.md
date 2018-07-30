@@ -36,7 +36,7 @@ Media time applies only to source objects. Each source object has a media start 
 -   Timeline start: 20 seconds
 -   Timeline stop: 25 seconds
 
-    ![inserting a source clip on a timeline](https://www.bing.com/search?q=inserting+a+source+clip+on+a+timeline)
+    ![inserting a source clip on a timeline](images/des-time1.png)
 
 **Frame Rates**
 
@@ -47,7 +47,7 @@ Frame rate is the "speed" of a media stream, measured in frames per second. As w
 
 **Playback rate:** The apparent speed of a source clip when it appears in the project. For example, 10 seconds' of video can be fit into 5 seconds on the timeline. As a result, the speed of the clip increases by a factor of 2, as the following diagram illustrates.
 
-![making a source play faster](https://www.bing.com/search?q=making+a+source+play+faster)
+![making a source play faster](images/des-time2.png)
 
 (With an audio source, the pitch would shift as well.) The following formula determines a source clip's playback rate:
 

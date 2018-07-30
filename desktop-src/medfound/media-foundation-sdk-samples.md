@@ -40,8 +40,8 @@ This section describes sample applications that demonstrate how to use Media Fou
 
 | Sample                                            | Description                                                                                                                                                                                                     |
 |---------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [BasicPlayback](https://www.bing.com/search?q=BasicPlayback)          | Plays audio and video files by using the [Media Session](media-session.md). This sample demonstrates how to create playback topologies, control the Media Session, and receive session events during playback. |
-| [MFPlayer](https://www.bing.com/search?q=MFPlayer)                    | Demonstrates some playback functions that are not included in the [BasicPlayback](https://www.bing.com/search?q=BasicPlayback) sample.                                                                                              |
+| [BasicPlayback](https://msdn.microsoft.com/library/Bb970475(v=VS.85).aspx)          | Plays audio and video files by using the [Media Session](media-session.md). This sample demonstrates how to create playback topologies, control the Media Session, and receive session events during playback. |
+| [MFPlayer](https://msdn.microsoft.com/library/Bb970516(v=VS.85).aspx)                    | Demonstrates some playback functions that are not included in the [BasicPlayback](https://msdn.microsoft.com/library/Bb970475(v=VS.85).aspx) sample.                                                                                              |
 | [ProtectedPlayback](protectedplayback-sample.md) | Plays protected audio and video files. This sample shows how to use the protected media path (PMP) session and how to use content enabler objects.                                                              |
 
 
@@ -127,7 +127,7 @@ This section describes sample applications that demonstrate how to use Media Fou
 <td>Demonstrates some advanced playback features of the [MFPlay](using-mfplay-for-audio-video-playback.md) API.</td>
 </tr>
 <tr class="even">
-<td>[PlaybackFX](https://www.bing.com/search?q=PlaybackFX)</td>
+<td>[PlaybackFX](https://msdn.microsoft.com/library/Bb970336(v=VS.85).aspx)</td>
 <td>Applies a grayscale effect to video. Shows how to insert MFTs into a playback topology.<br/>
 <blockquote>
 [!Note]<br />

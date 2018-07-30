@@ -71,7 +71,7 @@ This filter uses the **LDAP\_MATCHING\_RULE\_BIT\_AND** matching rule operator (
 
 The parent of the **nTDSDSA** object is the server object, and the **dNSHostName** property of the server object is the DNS name of the Global Catalog server.
 
-You cannot use \#define constants such as **NTDSDSA\_OPT\_IS\_GC** and **LDAP\_MATCHING\_RULE\_BIT\_AND** directly in a search filter string. However, you could use these constants as arguments to a function such as [**swprintf\_s**](https://www.bing.com/search?q=**swprintf\_s**) to insert the constant values into a filter string.
+You cannot use \#define constants such as **NTDSDSA\_OPT\_IS\_GC** and **LDAP\_MATCHING\_RULE\_BIT\_AND** directly in a search filter string. However, you could use these constants as arguments to a function such as [**swprintf\_s**](https://msdn.microsoft.com/library/ms647550(v=VS.85).aspx) to insert the constant values into a filter string.
 
 The global catalog does not represent the entire forest tree structure. For example, you might expect that the following code example would enumerate all of the domains in the forest and all child objects of each domain. In reality, what it actually does is enumerate all of the domains in the forest, but none of the enumerated domain objects contain any children. This is a limitation of the global catalog.
 

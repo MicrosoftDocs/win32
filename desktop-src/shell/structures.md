@@ -359,7 +359,7 @@ In place of this structure, you can use the [<strong>DLLVERSIONINFO2</strong>](/
 </tr>
 <tr class="even">
 <td>[<strong>SERIALIZEDPROPERTYVALUE</strong>](/windows/desktop/api/Propidl/ns-propidl-tagserializedpropertyvalue)<br/></td>
-<td>A range of memory of arbitrary type that represents a serialized [<strong>PROPVARIANT</strong>](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx) structure. Programs should not inspect the contents of a [<strong>SERIALIZEDPROPERTYVALUE</strong>](/windows/desktop/api/Propidl/ns-propidl-tagserializedpropertyvalue); instead, they should manipulate it with the [<strong>StgSerializePropVariant</strong>](properties.StgSerializePropVariant) and [<strong>StgDeserializePropVariant</strong>](properties.StgDeserializePropVariant) functions.<br/></td>
+<td>A range of memory of arbitrary type that represents a serialized [<strong>PROPVARIANT</strong>](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx) structure. Programs should not inspect the contents of a [<strong>SERIALIZEDPROPERTYVALUE</strong>](/windows/desktop/api/Propidl/ns-propidl-tagserializedpropertyvalue); instead, they should manipulate it with the [<strong>StgSerializePropVariant</strong>](https://msdn.microsoft.com/library/Bb776579(v=VS.85).aspx) and [<strong>StgDeserializePropVariant</strong>](https://msdn.microsoft.com/library/Bb776578(v=VS.85).aspx) functions.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>SFV_CREATE</strong>](/windows/desktop/api/shlobj_core/ns-shlobj_core-_sfv_create)<br/></td>

@@ -15,7 +15,7 @@ There are two versions of the property set serialization format. The original sp
 
 The following items identify the differences between version 0 and version 1 property set serialization formats.
 
--   Support for new **VARTYPE** values. For more information about **VARTYPE** values and how to use them, see the topic [IDispatch Data Types and Structures]( http://go.microsoft.com/fwlink/p/?linkid=124543) and the [**PROPVARIANT**](/windows/desktop/api) structure.
+-   Support for new **VARTYPE** values. For more information about **VARTYPE** values and how to use them, see the topic [IDispatch Data Types and Structures]( http://go.microsoft.com/fwlink/p/?linkid=124543) and the [**PROPVARIANT**](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx) structure.
 
     The following **VARTYPE** values are not supported in version 0 property sets, but are supported in version 1:
 
@@ -29,7 +29,7 @@ The following items identify the differences between version 0 and version 1 pro
 
     VT\_DECIMAL
 
-    Additionally, SafeArrays can be serialized in a property set. The presence of a SafeArray is indicated by the VT\_ARRAY bit combined, using an **OR** operation, with the array elements in the **vt** member of the [**PROPVARIANT**](/windows/desktop/api) structure. For example, a SafeArray of 4-byte signed integers has a type of VT\_ARRAY \| VT\_I4.
+    Additionally, SafeArrays can be serialized in a property set. The presence of a SafeArray is indicated by the VT\_ARRAY bit combined, using an **OR** operation, with the array elements in the **vt** member of the [**PROPVARIANT**](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx) structure. For example, a SafeArray of 4-byte signed integers has a type of VT\_ARRAY \| VT\_I4.
 
     The following element types are valid for a SafeArray in a serialized property set:
 
@@ -47,7 +47,7 @@ The following items identify the differences between version 0 and version 1 pro
 
  
 
-When the VT\_VARIANT data type is specified, it indicates that the SafeArray itself holds [**PROPVARIANT**](/windows/desktop/api) structures. The types for these elements must be from the preceding list, except they cannot contain nested VT\_VARIANT types.
+When the VT\_VARIANT data type is specified, it indicates that the SafeArray itself holds [**PROPVARIANT**](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx) structures. The types for these elements must be from the preceding list, except they cannot contain nested VT\_VARIANT types.
 
 Note that implementations of [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) must be able to recover gracefully by returning an error when a new type is encountered; for example, VARENUM types.
 

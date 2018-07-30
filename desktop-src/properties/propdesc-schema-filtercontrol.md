@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # filterControl
 
-Specifies what control to use in the header filter menu. There should be only one [filterControl](https://www.bing.com/search?q=filterControl) element for each [displayInfo](https://www.bing.com/search?q=displayInfo) element.
+Specifies what control to use in the header filter menu. There should be only one [filterControl](https://msdn.microsoft.com/library/Bb773874(v=VS.85).aspx) element for each [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) element.
 
-If there are multiple elements, the last one is used. If no [filterControl](https://www.bing.com/search?q=filterControl) element is provided, then the default attribute settings are applied to the property description.
+If there are multiple elements, the last one is used. If no [filterControl](https://msdn.microsoft.com/library/Bb773874(v=VS.85).aspx) element is provided, then the default attribute settings are applied to the property description.
 
 ## Syntax
 
@@ -43,7 +43,7 @@ If there are multiple elements, the last one is used. If no [filterControl](http
 
 | Parent Element                                   | Child Elements |
 |--------------------------------------------------|----------------|
-| [displayInfo](https://www.bing.com/search?q=displayInfo) | None           |
+| [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) | None           |
 
 
 

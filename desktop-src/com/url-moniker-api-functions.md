@@ -13,22 +13,22 @@ ms.date: 05/31/2018
 
 URL moniker functions insulate developers from the complexities of creating, managing, and using URL monikers. These functions are as follows:
 
--   [**CreateURLMoniker**](https://www.bing.com/search?q=**CreateURLMoniker**)
--   [**IsValidURL**](https://www.bing.com/search?q=**IsValidURL**)
--   [**RegisterMediaTypes**](https://www.bing.com/search?q=**RegisterMediaTypes**)
+-   [**CreateURLMoniker**](https://msdn.microsoft.com/library/ms775102(v=VS.85).aspx)
+-   [**IsValidURL**](https://msdn.microsoft.com/library/ms775112(v=VS.85).aspx)
+-   [**RegisterMediaTypes**](https://msdn.microsoft.com/library/ms775118(v=VS.85).aspx)
 -   [**CreateFormatEnumerator**](/windows/desktop/api/Urlmon/nf-urlmon-createformatenumerator)
--   [**RegisterFormatEnumerator**](https://www.bing.com/search?q=**RegisterFormatEnumerator**)
--   [**RevokeFormatEnumerator**](https://www.bing.com/search?q=**RevokeFormatEnumerator**)
--   [**RegisterMediaTypeClass**](https://www.bing.com/search?q=**RegisterMediaTypeClass**)
--   [**FindMediaTypeClass**](https://www.bing.com/search?q=**FindMediaTypeClass**)
--   [**GetClassFileOrMime**](https://www.bing.com/search?q=**GetClassFileOrMime**)
--   [**UrlMkSetSessionOption**](https://www.bing.com/search?q=**UrlMkSetSessionOption**)
+-   [**RegisterFormatEnumerator**](https://msdn.microsoft.com/library/ms775116(v=VS.85).aspx)
+-   [**RevokeFormatEnumerator**](https://msdn.microsoft.com/library/ms775121(v=VS.85).aspx)
+-   [**RegisterMediaTypeClass**](https://msdn.microsoft.com/library/ms775117(v=VS.85).aspx)
+-   [**FindMediaTypeClass**](https://msdn.microsoft.com/library/ms775106(v=VS.85).aspx)
+-   [**GetClassFileOrMime**](https://msdn.microsoft.com/library/ms775108(v=VS.85).aspx)
+-   [**UrlMkSetSessionOption**](https://msdn.microsoft.com/library/ms775125(v=VS.85).aspx)
 
 Your familiarity with these functions can be as follows:
 
--   Be familiar with [**CreateURLMoniker**](https://www.bing.com/search?q=**CreateURLMoniker**) and [**IsValidURL**](https://www.bing.com/search?q=**IsValidURL**) if you will be using URL monikers in stand-alone applications. If you are authoring an ActiveX control, you should use [**IBindHost::CreateMoniker**](https://www.bing.com/search?q=**IBindHost::CreateMoniker**) instead of **CreateURLMoniker**.
--   Be familiar with [**RegisterMediaTypes**](https://www.bing.com/search?q=**RegisterMediaTypes**), [**CreateFormatEnumerator**](/windows/desktop/api/Urlmon/nf-urlmon-createformatenumerator), [**RegisterFormatEnumerator**](https://www.bing.com/search?q=**RegisterFormatEnumerator**), and [**RevokeFormatEnumerator**](https://www.bing.com/search?q=**RevokeFormatEnumerator**) if you will be performing any MIME negotiation with URL monikers.
--   Be familiar with [**RegisterMediaTypeClass**](https://www.bing.com/search?q=**RegisterMediaTypeClass**), [**FindMediaTypeClass**](https://www.bing.com/search?q=**FindMediaTypeClass**), [**GetClassFileOrMime**](https://www.bing.com/search?q=**GetClassFileOrMime**), and [**UrlMkSetSessionOption**](https://www.bing.com/search?q=**UrlMkSetSessionOption**) only if you have significant experience both with URL monikers and with COM.
+-   Be familiar with [**CreateURLMoniker**](https://msdn.microsoft.com/library/ms775102(v=VS.85).aspx) and [**IsValidURL**](https://msdn.microsoft.com/library/ms775112(v=VS.85).aspx) if you will be using URL monikers in stand-alone applications. If you are authoring an ActiveX control, you should use [**IBindHost::CreateMoniker**](https://msdn.microsoft.com/library/ms775075(v=VS.85).aspx) instead of **CreateURLMoniker**.
+-   Be familiar with [**RegisterMediaTypes**](https://msdn.microsoft.com/library/ms775118(v=VS.85).aspx), [**CreateFormatEnumerator**](/windows/desktop/api/Urlmon/nf-urlmon-createformatenumerator), [**RegisterFormatEnumerator**](https://msdn.microsoft.com/library/ms775116(v=VS.85).aspx), and [**RevokeFormatEnumerator**](https://msdn.microsoft.com/library/ms775121(v=VS.85).aspx) if you will be performing any MIME negotiation with URL monikers.
+-   Be familiar with [**RegisterMediaTypeClass**](https://msdn.microsoft.com/library/ms775117(v=VS.85).aspx), [**FindMediaTypeClass**](https://msdn.microsoft.com/library/ms775106(v=VS.85).aspx), [**GetClassFileOrMime**](https://msdn.microsoft.com/library/ms775108(v=VS.85).aspx), and [**UrlMkSetSessionOption**](https://msdn.microsoft.com/library/ms775125(v=VS.85).aspx) only if you have significant experience both with URL monikers and with COM.
 
 ## Related topics
 

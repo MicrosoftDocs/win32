@@ -22,13 +22,13 @@ This section provides the conceptual framework for querying the index programmat
 -   [Using Advanced Query Syntax Programmatically](-search-3x-advancedquerysyntax.md)
 
 > [!Note]  
-> Legacy Microsoft Windows Desktop Search (WDS) 2x compatibility: On computers running Windows XP and later, [**ISearchDesktop**](https://www.bing.com/search?q=**ISearchDesktop**) is deprecated. Instead, developers should use [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper) to get a connection string and to parse the user's query into Structured Query Language (SQL), and then query through Object Linking and Embedding Database (OLE DB).
+> Legacy Microsoft Windows Desktop Search (WDS) 2x compatibility: On computers running Windows XP and later, [**ISearchDesktop**](https://msdn.microsoft.com/library/Aa965729(v=VS.85).aspx) is deprecated. Instead, developers should use [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper) to get a connection string and to parse the user's query into Structured Query Language (SQL), and then query through Object Linking and Embedding Database (OLE DB).
 
  
 
 ## Additional Resources
 
--   For information on OLE DB, see [OLE DB Programming Overview](https://www.bing.com/search?q=OLE+DB+Programming+Overview). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](http://msdn.microsoft.com/en-us/library/system.data.oledb(VS.71).aspx).
+-   For information on OLE DB, see [OLE DB Programming Overview](https://msdn.microsoft.com/library/Cc522830(v=VS.71).aspx). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](http://msdn.microsoft.com/en-us/library/system.data.oledb(VS.71).aspx).
 -   For additional background on using of properties in querying, see the following topics:
     -   [Property System](https://msdn.microsoft.com/en-us/library/Cc144125(v=VS.85).aspx)
     -   [System Properties](http://msdn.microsoft.com/en-us/library/bb763010(VS.85).aspx)

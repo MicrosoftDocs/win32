@@ -37,11 +37,11 @@ The Application Menu is a mandatory element in any Ribbon application. The entry
 
  
 
-![screen shot of the application menu button of wordpad for windows 7.](https://www.bing.com/search?q=screen+shot+of+the+application+menu+button+of+wordpad+for+windows+7.)
+![screen shot of the application menu button of wordpad for windows 7.](images/overviews/applicationmenu-button.png)
 
 When clicked, this button displays the rich menu that is shown in the following screen shot (the Application Menu from WordPad for Windows 7).
 
-![screen shot of the application menu menu of wordpad for windows 7.](https://www.bing.com/search?q=screen+shot+of+the+application+menu+menu+of+wordpad+for+windows+7.)
+![screen shot of the application menu menu of wordpad for windows 7.](images/overviews/applicationmenu-menu.png)
 
 > [!Note]  
 > There is no impact on the tab set when the Application Menu button is clicked; instead, the focus enters the menu.
@@ -54,20 +54,20 @@ The Application Menu contains two panes: a list of Commands represented by one o
 
 The [**ApplicationMenu**](windowsribbon-element-applicationmenu.md) element must contain at least one [**MenuGroup**](windowsribbon-element-menugroup.md) child element that exposes a list of application-level commands. If multiple **MenuGroup** elements are declared, a divider line is drawn between the groups, as shown in the following screen shot.
 
-![screen shot of an application menu menugroup.](https://www.bing.com/search?q=screen+shot+of+an+application+menu+menugroup.)
+![screen shot of an application menu menugroup.](images/overviews/applicationmenu-menugroup.png)
 
 The following is a list of constraints for a [**MenuGroup**](windowsribbon-element-menugroup.md) element of an Application Menu:
 
 -   All [**MenuGroup**](windowsribbon-element-menugroup.md) items must be declared with a *Class* attribute value of `MajorItems`.
 -   An Application Menu [**MenuGroup**](windowsribbon-element-menugroup.md) supports only the [Button](windowsribbon-controls-button.md), [Toggle Button](windowsribbon-controls-togglebutton.md), [Drop-Down Button](windowsribbon-controls-dropdownbutton.md), [Split Button](windowsribbon-controls-splitbutton.md), [Drop-Down Gallery](windowsribbon-controls-dropdowngallery.md), and [Split Button Gallery](windowsribbon-controls-splitbuttongallery.md) controls.
     > \[!Important\]  
-    > Command galleries are the only type of gallery that are supported in the Application Menu. See [Working with Galleries](https://www.bing.com/search?q=Working+with+Galleries), for more information on gallery controls.
+    > Command galleries are the only type of gallery that are supported in the Application Menu. See [Working with Galleries](https://msdn.microsoft.com/library/Dd742868(v=VS.85).aspx), for more information on gallery controls.
 
      
 
 When a [Button](windowsribbon-controls-button.md) or [Toggle Button](windowsribbon-controls-togglebutton.md) is used in a [**MenuGroup**](windowsribbon-element-menugroup.md), the value of [**Command.LabelTitle**](windowsribbon-element-command-labeltitle.md) is displayed in the menu and the values of [**Command.TooltipTitle**](windowsribbon-element-command-tooltiptitle.md) and [**Command.TooltipDescription**](windowsribbon-element-command-tooltipdescription.md) are displayed as the tooltip, as shown in the following screen shot.
 
-![screen shot of a button control in an application menu.](https://www.bing.com/search?q=screen+shot+of+a+button+control+in+an+application+menu.)
+![screen shot of a button control in an application menu.](images/overviews/applicationmenu-menubutton.png)
 
 When a [Drop-Down Button](windowsribbon-controls-dropdownbutton.md), [Split Button](windowsribbon-controls-splitbutton.md), [Drop-Down Gallery](windowsribbon-controls-dropdowngallery.md), or [Split Button Gallery](windowsribbon-controls-splitbuttongallery.md) is used in the Application Menu, the menu portion is displayed as a flyout that covers and conceals the **Recent items** pane.
 
@@ -75,7 +75,7 @@ For [Split Button](windowsribbon-controls-splitbutton.md) and [Drop-Down Button]
 
 The following screen shot illustrates these behaviors in a [Split Button](windowsribbon-controls-splitbutton.md) flyout.
 
-![screen shot of a list control flyout in an application menu.](https://www.bing.com/search?q=screen+shot+of+a+list+control+flyout+in+an+application+menu.)
+![screen shot of a list control flyout in an application menu.](images/overviews/applicationmenu-menuflyout.png)
 
 With a [Drop-Down Gallery](windowsribbon-controls-dropdowngallery.md) and a [Split Button Gallery](windowsribbon-controls-splitbuttongallery.md), only a label and an image are shown.
 

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 To transmit a type-2 file while previewing, use the filter graph shown in the following diagram.
 
-![type-2 transmit with preview](https://www.bing.com/search?q=type-2+transmit+with+preview)
+![type-2 transmit with preview](images/dv2-transmit.png)
 
 A type-2 file has two streams, one audio stream and one DV-encoded video stream. This graph uses the [DV Muxer](dv-muxer-filter.md) filter to combine the audio and video streams. It sends the interleaved stream to the MSDV filter, but splits the stream again for preview.
 

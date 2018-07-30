@@ -33,7 +33,7 @@ The TF\_SD\_\* constants describe the document status.
 
 ## Remarks
 
-The **dwDynamicFlags** member of the [TF\_STATUS](https://www.bing.com/search?q=TF\_STATUS) structure uses these constants.
+The **dwDynamicFlags** member of the [TF\_STATUS](https://msdn.microsoft.com/en-us/library/ms629192(v=VS.85).aspx) structure uses these constants.
 
 ## Requirements
 
@@ -53,7 +53,7 @@ The **dwDynamicFlags** member of the [TF\_STATUS](https://www.bing.com/search?q=
 
 <dl> <dt>
 
-[TF\_STATUS](https://www.bing.com/search?q=TF\_STATUS)
+[TF\_STATUS](https://msdn.microsoft.com/en-us/library/ms629192(v=VS.85).aspx)
 </dt> <dt>
 
 [TS\_SD\_\* Constants](ts-sd--constants.md)

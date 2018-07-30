@@ -36,7 +36,7 @@ Metadata provides extended information about an image. This information can be u
 
 The following diagram illustrates the contents of a JPEG file that includes embedded metadata blocks and metadata items.
 
-![jpeg image with rating metadata](https://www.bing.com/search?q=jpeg+image+with+rating+metadata)
+![jpeg image with rating metadata](graphics/jpeg.png)
 
 In this example image, the metadata is embedded in the image file within an image frame. The JPEG format does not support multiple image frames, so the metadata is conceptually attached to this single frame. Formats that support multiple frames, such as TIFF, may have metadata attached to each image frame as this diagram shows. Though not common today and not supported by the native image codecs, some image formats may also support metadata outside of an image frame. WIC is flexible enough to handle both frame-level metadata and metadata outside of an image's individual frame.
 

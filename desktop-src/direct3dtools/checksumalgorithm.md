@@ -1,0 +1,46 @@
+---
+Description: An enum used to indicate the checksum algorithm to be used.
+MS-HAID: vspixengine.CHECKSUMALGORITHM
+MSHAttr:
+- PreferredSiteName:MSDN
+- PreferredLib:/library/windows/desktop
+title: CHECKSUMALGORITHM enumeration
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: enumeration
+ms.date: 05/31/2018
+---
+
+# <span id="vspixengine.checksumalgorithm"></span>CHECKSUMALGORITHM enumeration
+
+An enum used to indicate the checksum algorithm to be used.
+
+## Syntax
+
+
+```C++
+};
+```
+
+## Constants
+
+<span id="None"></span><span id="none"></span><span id="NONE"></span>**None**  
+A value that indicates that no checksum is to be used.
+
+<span id="MD5"></span><span id="md5"></span>**MD5**  
+A value that indicates that MD5 checksums are to be used.
+
+<span id="SHA1"></span><span id="sha1"></span>**SHA1**  
+A value that indicates that SHA1 checksums are to be used.
+
+## Requirements
+
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+
+ 
+
+ 
+
+
+

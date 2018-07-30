@@ -29,7 +29,7 @@ You can use the following techniques to interact with the user from a service on
 
 The following technique is also available for Windows Server 2003 and Windows XP:
 
--   Display a message box by calling the [**MessageBox**](https://www.bing.com/search?q=**MessageBox**) function with **MB\_SERVICE\_NOTIFICATION**. This is recommended for displaying simple status messages. Do not call **MessageBox** during service initialization or from the [**HandlerEx**](/windows/desktop/api/WinSvc/nc-winsvc-lphandler_function_ex) routine, unless you call it from a separate thread, so that you return to the SCM in a timely manner.
+-   Display a message box by calling the [**MessageBox**](https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx) function with **MB\_SERVICE\_NOTIFICATION**. This is recommended for displaying simple status messages. Do not call **MessageBox** during service initialization or from the [**HandlerEx**](/windows/desktop/api/WinSvc/nc-winsvc-lphandler_function_ex) routine, unless you call it from a separate thread, so that you return to the SCM in a timely manner.
 
 ## Using an Interactive Service
 

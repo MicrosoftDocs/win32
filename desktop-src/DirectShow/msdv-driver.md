@@ -20,13 +20,13 @@ The filter's friendly name is `Microsoft DV Camera and VCR`, or a localized equi
 
 MSDV has two output pins. One pin delivers DV frames that contain interleaved audio and video data. The other pin delivers video-only frames with no audio. MSDV cannot stream from both pins at once, so only one output pin can be connected at a time. For more information about capturing video from a DV device, see [Capture DV to File](capture-dv-to-file.md).
 
-![capturing dv data from the device](https://www.bing.com/search?q=capturing+dv+data+from+the+device)
+![capturing dv data from the device](images/dv-filters4.png)
 
 Most DV camcorders have a video tape recorder (VTR) subunit, which can transmit data from tape to the computer. For the application, capturing from tape works the same as capturing live video. The only difference is that the application must control the external tape transport — start and stop the tape, rewind, and so forth. For this purpose, MSDV exposes the [**IAMExtDevice**](/windows/desktop/api/Strmif/nn-strmif-iamextdevice), [**IAMExtTransport**](/windows/desktop/api/Strmif/nn-strmif-iamexttransport), and [**IAMTimecodeReader**](/windows/desktop/api/Strmif/nn-strmif-iamtimecodereader) interfaces. For more information about controlling a VTR, see [Controlling a DV Camcorder](controlling-a-dv-camcorder.md).
 
 You can also transmit DV from the computer to the camcorder. The video can then be viewed in the camcorder's onboard screen, or recorded to tape. To support this functionality, MSDV has an input pin that can receive an interleaved DV stream. When the input pin is connected, MSDV acts as a renderer filter instead of a capture filter. MSDV does not support seeking in this mode. For more information about sending DV to the device, see [Transmit DV from File to Tape](transmit-dv-from-file-to-tape.md).
 
-![transmitting dv data to the device](https://www.bing.com/search?q=transmitting+dv+data+to+the+device)
+![transmitting dv data to the device](images/dv-filters5.png)
 
 Note that the input and output pins cannot be connected at the same time, because the device cannot stream in both directions at the same time.
 

@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - PWM_PIN_GET_POLARITY_OUTPUT
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - Pwm.h
 ---
 
@@ -67,7 +67,7 @@ The polarity of the pin or channel as a [**PWM\_POLARITY**](/windows/desktop/api
 [**IOCTL\_PWM\_PIN\_GET\_POLARITY**](https://www.bing.com/search?q=**IOCTL\_PWM\_PIN\_GET\_POLARITY**)
 </dt> <dt>
 
-[**PWM\_POLARITY**](https://www.bing.com/search?q=**PWM\_POLARITY**)
+[**PWM\_POLARITY**](https://msdn.microsoft.com/en-us/library/Mt843932(v=VS.85).aspx)
 </dt> </dl>
 
  

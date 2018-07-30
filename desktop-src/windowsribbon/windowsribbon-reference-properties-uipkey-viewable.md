@@ -42,7 +42,7 @@ UI\_PKEY\_Viewable is used by an application to query the visible or hidden stat
 
 The following screen shot shows the ribbon in hidden state.
 
-![screen shot showing the ribbon ui hidden.](https://www.bing.com/search?q=screen+shot+showing+the+ribbon+ui+hidden.)
+![screen shot showing the ribbon ui hidden.](images/overviews/ribbon-viewable.png)
 
 ## Related topics
 

@@ -21,7 +21,7 @@ api_location:
 
 # SxsLookupClrGuid function
 
-Retrieves the class name and other information associated with a given GUID in a component's manifest. This function is used only when implementing low-level managed-unmanaged interoperability in the .NET Framework. For more information about managed-unmanaged interoperability, see "Interoperating with Unmanaged Code" in the .NET Framework SDK and also [Isolated Applications and Side-by-side Assemblies](setup.isolated_applications_and_side_by_side_assemblies_start_page).
+Retrieves the class name and other information associated with a given GUID in a component's manifest. This function is used only when implementing low-level managed-unmanaged interoperability in the .NET Framework. For more information about managed-unmanaged interoperability, see "Interoperating with Unmanaged Code" in the .NET Framework SDK and also [Isolated Applications and Side-by-side Assemblies](https://msdn.microsoft.com/library/Dd408052(v=VS.85).aspx).
 
 ## Syntax
 
@@ -309,7 +309,7 @@ void main()
 
 <dl> <dt>
 
-[Isolated Applications and Side-by-side Assemblies](setup.isolated_applications_and_side_by_side_assemblies_start_page)
+[Isolated Applications and Side-by-side Assemblies](https://msdn.microsoft.com/library/Dd408052(v=VS.85).aspx)
 </dt> <dt>
 
 [**CreateActCtx**](https://msdn.microsoft.com/en-us/library/Aa375125(v=VS.85).aspx)

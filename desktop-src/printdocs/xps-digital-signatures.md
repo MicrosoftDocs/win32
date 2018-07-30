@@ -1,0 +1,54 @@
+---
+Description: The XPS Digital Signature API enables a user to sign a document, verify the identity of the signer, and indicate whether an XPS document has changed since it was signed.
+ms.assetid: 895974df-d5e8-4974-b057-ec7e5e59d805
+title: XPS Digital Signature API
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# XPS Digital Signature API
+
+The XPS Digital Signature API enables a user to sign a document, verify the identity of the signer, and indicate whether an XPS document has changed since it was signed. The XPS Digital Signature API is built on the digital signature technology that is used in the Open Packaging Conventions, which are specified in the 1st edition, Part 2, "Open Packaging Conventions," of [Standard ECMA-376, Office Open XML File Formats](http://go.microsoft.com/fwlink/p/?linkid=123375).
+
+## In This Section
+
+This section contains the following topics.
+
+### About XPS Digital Signature API
+
+[About XPS Digital Signature API](about-xps-digital-signatures.md) describes the XPS Digital Signature API at a high level.
+
+### Using XPS Digital Signature API
+
+[Using XPS Digital Signature API](using-digital-signatures-in-xps-documents.md) describes how to use the XPS Digital Signature API.
+
+### XPS Digital Signatures Reference
+
+The [XPS Digital Signature API Reference](xps-digital-signatures-programming-reference.md) contains a complete listing of the interfaces, methods, and enumerators that are implemented by the XPS Digital Signatures API.
+
+## Platform Update for Windows Vista
+
+The XPS Digital Signature interfaces that are described in this section are not supported by the Platform Update for Windows Vista or the Platform Update for Windows Server 2008. An application that requires these interfaces should run on Windows 7 or later, or on Windows Server 2008 R2 or later. Otherwise, the application may not provide the user with the application's complete functionality.
+
+## Related topics
+
+<dl> <dt>
+
+[Packaging](https://msdn.microsoft.com/library/windows/desktop/dd371623)
+</dt> <dt>
+
+[XML Paper Specification](http://go.microsoft.com/?linkid=8435939)
+</dt> <dt>
+
+[Standard ECMA-376, Office Open XML File Formats](http://go.microsoft.com/fwlink/p/?linkid=123375)
+</dt> </dl>
+
+ 
+
+ 
+
+
+

@@ -54,7 +54,7 @@ A handle of the event tracing session that wants to capture the specified inform
 *InformationClass* \[in\]
 </dt> <dd>
 
-The information class to query. The information that the class captures is included in the extended data section of the event. For a list of information classes that you can query, see the [**TRACE\_QUERY\_INFO\_CLASS**](https://www.bing.com/search?q=**TRACE\_QUERY\_INFO\_CLASS**) enumeration.
+The information class to query. The information that the class captures is included in the extended data section of the event. For a list of information classes that you can query, see the [**TRACE\_QUERY\_INFO\_CLASS**](https://msdn.microsoft.com/library/Aa364147(v=VS.85).aspx) enumeration.
 
 </dd> <dt>
 
@@ -120,7 +120,7 @@ The **TraceQueryInformation** function queries event tracing session settings fo
 
 <dl> <dt>
 
-[**TRACE\_QUERY\_INFO\_CLASS**](https://www.bing.com/search?q=**TRACE\_QUERY\_INFO\_CLASS**)
+[**TRACE\_QUERY\_INFO\_CLASS**](https://msdn.microsoft.com/library/Aa364147(v=VS.85).aspx)
 </dt> <dt>
 
 [**TraceSetInformation**](tracesetinformation.md)

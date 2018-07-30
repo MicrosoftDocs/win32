@@ -447,7 +447,7 @@ The following APIs are either deprecated or superseded by newer APIs.
 </tr>
 <tr class="odd">
 <td>[<strong>LinkWindow_RegisterClass</strong>](linkwindow-registerclass.md)<br/></td>
-<td>Registers a window class that allows for the [SysLink](_inet_syslink_overview) common control to be used in a window.<br/></td>
+<td>Registers a window class that allows for the [SysLink](https://msdn.microsoft.com/library/Bb760706(v=VS.85).aspx) common control to be used in a window.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>LinkWindow_UnregisterClass</strong>](linkwindow-unregisterclass.md)<br/></td>
@@ -962,7 +962,7 @@ This function has been replaced by [<strong>SHOpenRegStream2</strong>](/windows/
 <td>Exposes methods that enable the addition of custom columns in the Windows Explorer Details view. <br/>
 <blockquote>
 [!Note]<br />
-Support for [<strong>IColumnProvider</strong>](https://msdn.microsoft.com/en-us/library/Bb776147(v=VS.85).aspx) has been removed as of Windows Vista. The Windows property system is used in its place. See [Windows Property System](properties.windows_property_system) for conceptual materials that explain the use of the new system.
+Support for [<strong>IColumnProvider</strong>](https://msdn.microsoft.com/en-us/library/Bb776147(v=VS.85).aspx) has been removed as of Windows Vista. The Windows property system is used in its place. See [Windows Property System](https://msdn.microsoft.com/library/Ff728898(v=VS.85).aspx) for conceptual materials that explain the use of the new system.
 </blockquote>
 <br/></td>
 </tr>
@@ -1062,7 +1062,7 @@ You should use [thumbnail toolbars](taskbar-extensions.md) in new development in
 </tr>
 <tr class="even">
 <td>[<strong>IRegTreeItem</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iregtreeitem)<br/></td>
-<td>Exposes methods that retrieve and set the state of items in a tree-view control that have the [<strong>Tree-View Control Window Styles</strong>](_win32_Tree_View_Control_Window_Styles) flag set.<br/></td>
+<td>Exposes methods that retrieve and set the state of items in a tree-view control that have the [<strong>Tree-View Control Window Styles</strong>](https://msdn.microsoft.com/library/Bb760013(v=VS.85).aspx) flag set.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>IShellExecuteHook</strong>](https://msdn.microsoft.com/en-us/library/Bb775101(v=VS.85).aspx)<br/></td>
@@ -1163,7 +1163,7 @@ This interface is deprecated as of Windows 7. The feature it supported is no lo
 </tr>
 <tr class="odd">
 <td>[<strong>SFVM_SETISFV</strong>](sfvm-setisfv.md)<br/></td>
-<td>Notifies the callback object of the container site. This is used only when [<strong>IObjectWithSite::SetSite</strong>](_inet_IObjectWithSite_SetSite_Method) is not supported and [<strong>SHCreateShellFolderViewEx</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex) is used. Used by [<strong>IShellFolderViewCB::MessageSFVCB</strong>](https://msdn.microsoft.com/en-us/library/Bb774968(v=VS.85).aspx).<br/></td>
+<td>Notifies the callback object of the container site. This is used only when [<strong>IObjectWithSite::SetSite</strong>](https://msdn.microsoft.com/library/Aa768221(v=VS.85).aspx) is not supported and [<strong>SHCreateShellFolderViewEx</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex) is used. Used by [<strong>IShellFolderViewCB::MessageSFVCB</strong>](https://msdn.microsoft.com/en-us/library/Bb774968(v=VS.85).aspx).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>SFVM_THISIDLIST</strong>](sfvm-thisidlist.md)<br/></td>

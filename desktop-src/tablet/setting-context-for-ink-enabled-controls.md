@@ -15,7 +15,7 @@ All recognition for ink-enabled controls occurs through a [**RecognizerContext**
 
 If you are creating an ink-enabled application, use the [**RecognizerContext**](inkrecognizercontext-class.md) object's [**Factoid**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_factoid) and [**WordList**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist) properties to set contexts.
 
-You may pass in the string values of the names in the input scopes defined in the [**InputScope**](tsf.inputscope) enumeration to the [**Factoid**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_factoid) property, delimited with an opening (! and a closing ). For example, to set the context for a [**RecognizerContext**](inkrecognizercontext-class.md) object to bias toward characters used in a URL, use the syntax shown in the following C\# examples:
+You may pass in the string values of the names in the input scopes defined in the [**InputScope**](https://msdn.microsoft.com/library/ms538181(v=VS.85).aspx) enumeration to the [**Factoid**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_factoid) property, delimited with an opening (! and a closing ). For example, to set the context for a [**RecognizerContext**](inkrecognizercontext-class.md) object to bias toward characters used in a URL, use the syntax shown in the following C\# examples:
 
 
 ```C++
@@ -25,7 +25,7 @@ theRecoContext.Factoid = "(!IS_URL)";
 
 
 > [!Note]  
-> The input scopes as defined in the [**InputScope**](tsf.inputscope) enumeration supersede the factoids that were available in previous versions of the Windows XP Tablet PC Edition SDK, although these factoids will continue to work in order to provide backward compatibility.
+> The input scopes as defined in the [**InputScope**](https://msdn.microsoft.com/library/ms538181(v=VS.85).aspx) enumeration supersede the factoids that were available in previous versions of the Windows XP Tablet PC Edition SDK, although these factoids will continue to work in order to provide backward compatibility.
 
  
 
@@ -53,7 +53,7 @@ theRecognizerContext.RecognitionFlags = RecognitionModes.Coerce;
 
 However, use caution when deciding to set the **Coerce** flag. The flag forces the recognizer to match only the definition of the factoid. For example, if you set the IS\_TELEPHONE\_FULLTELEPHONENUMBER input scope and the **Coerce** flag, the recognizer returns results that exactly match the definition of the IS\_TELEPHONE\_FULLTELEPHONENUMBER input scope only. If a user writes "911" with the IS\_TELEPHONE\_FULLTELEPHONENUMBER input scope and the **Coerce** flag set, the recognizer may return either an empty string or a random string in the format of (XXX) XXX-XXXX (where X is a digit). The format of XXX does not match the definition of the IS\_TELEPHONE\_FULLTELEPHONENUMBER factoid, even though it is a valid phone number.
 
-For lists of the supported formats for each input scope, see the [**InputScope**](tsf.inputscope) reference.
+For lists of the supported formats for each input scope, see the [**InputScope**](https://msdn.microsoft.com/library/ms538181(v=VS.85).aspx) reference.
 
 To return a field to the default setting for the recognizer, set the factoid to IS\_DEFAULT , as in the following C\# example:
 

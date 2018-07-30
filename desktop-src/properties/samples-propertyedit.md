@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Property Edit Sample
 
-Demonstrates how to use the [Property System](https://www.bing.com/search?q=Property+System) APIs to read and write file property values.
+Demonstrates how to use the [Property System](https://msdn.microsoft.com/library/Bb776909(v=VS.85).aspx) APIs to read and write file property values.
 
 This topic contains the following sections.
 
@@ -24,7 +24,7 @@ This topic contains the following sections.
 
 ## Description
 
-This sample shows how to use the [Property System](https://www.bing.com/search?q=Property+System) APIs to read and write property values for file types that use the .jpg, .tiff, .doc, .mp3, or .wma extensions, or for file types that have property handlers, such as the [Recipe Property Handler Sample](https://www.bing.com/search?q=Recipe+Property+Handler+Sample).
+This sample shows how to use the [Property System](https://msdn.microsoft.com/library/Bb776909(v=VS.85).aspx) APIs to read and write property values for file types that use the .jpg, .tiff, .doc, .mp3, or .wma extensions, or for file types that have property handlers, such as the [Recipe Property Handler Sample](https://msdn.microsoft.com/library/Dd940375(v=VS.85).aspx).
 
 ## Requirements
 
@@ -73,16 +73,16 @@ For instructions about how to build the sample, see the Readme file included wit
 [Property System Code Samples](property-system-code-samples.md)
 </dt> <dt>
 
-[Ideal Property Handler Sample](https://www.bing.com/search?q=Ideal+Property+Handler+Sample)
+[Ideal Property Handler Sample](https://msdn.microsoft.com/library/Dd940363(v=VS.85).aspx)
 </dt> <dt>
 
-[Playlist Property Handler Sample](https://www.bing.com/search?q=Playlist+Property+Handler+Sample)
+[Playlist Property Handler Sample](https://msdn.microsoft.com/library/Dd940371(v=VS.85).aspx)
 </dt> <dt>
 
-[Property Schema Sample](https://www.bing.com/search?q=Property+Schema+Sample)
+[Property Schema Sample](https://msdn.microsoft.com/library/Dd940373(v=VS.85).aspx)
 </dt> <dt>
 
-[Recipe Property Handler Sample](https://www.bing.com/search?q=Recipe+Property+Handler+Sample)
+[Recipe Property Handler Sample](https://msdn.microsoft.com/library/Dd940375(v=VS.85).aspx)
 </dt> </dl>
 
  

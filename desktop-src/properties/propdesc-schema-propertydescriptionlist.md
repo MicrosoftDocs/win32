@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # propertyDescriptionList
 
-Container for one or many individual [propertyDescription](https://www.bing.com/search?q=propertyDescription) elements. A .propdesc property description schema file should contain at least one [propertyDescriptionList](https://www.bing.com/search?q=propertyDescriptionList) element.
+Container for one or many individual [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx) elements. A .propdesc property description schema file should contain at least one [propertyDescriptionList](https://msdn.microsoft.com/library/Bb773882(v=VS.85).aspx) element.
 
 ## Syntax
 
@@ -48,7 +48,7 @@ Container for one or many individual [propertyDescription](https://www.bing.com/
 
 | Parent Element                        | Child Elements                                                   |
 |---------------------------------------|------------------------------------------------------------------|
-| [schema](https://www.bing.com/search?q=schema) | [propertyDescription](https://www.bing.com/search?q=propertyDescription) |
+| [schema](https://msdn.microsoft.com/library/Bb773879(v=VS.85).aspx) | [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx) |
 
 
 
@@ -69,7 +69,7 @@ Container for one or many individual [propertyDescription](https://www.bing.com/
 
 ## Remarks
 
-The [propertyDescriptionList](https://www.bing.com/search?q=propertyDescriptionList) should not be confused with "property lists" and [**IPropertyDescriptionList**](https://www.bing.com/search?q=**IPropertyDescriptionList**), which are completely separate.
+The [propertyDescriptionList](https://msdn.microsoft.com/library/Bb773882(v=VS.85).aspx) should not be confused with "property lists" and [**IPropertyDescriptionList**](https://msdn.microsoft.com/library/Bb761511(v=VS.85).aspx), which are completely separate.
 
  
 

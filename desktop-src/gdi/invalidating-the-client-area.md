@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The system is not the only source of [**WM\_PAINT**](wm-paint.md) messages. The [**InvalidateRect**](/windows/desktop/api/Winuser/nf-winuser-invalidaterect) or [**InvalidateRgn**](/windows/desktop/api/Winuser/nf-winuser-invalidatergn) function can indirectly generate **WM\_PAINT** messages for your windows. These functions mark all or part of a client area as invalid (that must be redrawn).
 
-In the following example, the window procedure invalidates the entire client area when processing [**WM\_CHAR**](https://www.bing.com/search?q=**WM\_CHAR**) messages. This allows the user to change the figure by typing a number and view the results; these results are drawn as soon as there are no other messages in the application's message queue.
+In the following example, the window procedure invalidates the entire client area when processing [**WM\_CHAR**](https://msdn.microsoft.com/library/ms646276(v=VS.85).aspx) messages. This allows the user to change the figure by typing a number and view the results; these results are drawn as soon as there are no other messages in the application's message queue.
 
 
 ```C++

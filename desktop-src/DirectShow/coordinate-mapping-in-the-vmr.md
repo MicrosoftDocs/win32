@@ -27,11 +27,11 @@ where \* indicates that the image could be clipped to the destination image at t
 
 The inverse of the transformation is:
 
-![inverse transformation](https://www.bing.com/search?q=inverse+transformation)
+![inverse transformation](images/vmrmapping-t-1.png)
 
 The factor T(Src) T(Flag) T(Ar) is relative to the source resolution. In the factor T(Mix), the normalized source rectangle is relative to the aspect-corrected image. The normalized destination rectangle is relative to the output resolution. The following diagram shows these relationships.
 
-![image transformation steps](https://www.bing.com/search?q=image+transformation+steps)
+![image transformation steps](images/vmrmapping-transform-steps.png)
 
 ## Related topics
 

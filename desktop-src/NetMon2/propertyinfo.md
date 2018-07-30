@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - PROPERTYINFO
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - Netmon.h
 ---
 
@@ -197,7 +197,7 @@ Specify the format function that is called to format the displayed data for the 
 
 ## Remarks
 
-The **PROPERTYINFO** structure is used in calls to the [AddProperty](/windows/desktop/api) function. The **AddProperty** function adds a single property definition to the parser [*property database*](p.md).
+The **PROPERTYINFO** structure is used in calls to the [AddProperty](https://msdn.microsoft.com/en-us/library/Ee817694(v=VS.85).aspx) function. The **AddProperty** function adds a single property definition to the parser [*property database*](p.md).
 
 ## Requirements
 
@@ -215,7 +215,7 @@ The **PROPERTYINFO** structure is used in calls to the [AddProperty](/windows/de
 
 <dl> <dt>
 
-[AddProperty](/windows/desktop/api)
+[AddProperty](https://msdn.microsoft.com/en-us/library/Ee817694(v=VS.85).aspx)
 </dt> <dt>
 
 [RANGE](range.md)

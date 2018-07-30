@@ -25,7 +25,7 @@ The [**InitiateShutdown**](/windows/desktop/api/Winreg/nf-winreg-initiateshutdow
 
 Applications with a window and message queue receive shutdown notifications through the [**WM\_QUERYENDSESSION**](wm-queryendsession.md) and [**WM\_ENDSESSION**](wm-endsession.md) messages. These applications should return **TRUE** to indicate that they can be terminated. Applications should not block system shutdown unless it is absolutely necessary. Applications should perform any required cleanup while processing **WM\_ENDSESSION**. Applications that have unsaved data could save the data to a temporary location and restore it the next time the application starts. It is recommended that applications save their data and state frequently; for example, automatically save data between save operations initiated by the user to reduce the amount of data to be saved at shutdown.
 
-Console applications receive shutdown notifications in their handler routines. To register a console handler, use the [**SetConsoleCtrlHandler**](https://www.bing.com/search?q=**SetConsoleCtrlHandler**) function.
+Console applications receive shutdown notifications in their handler routines. To register a console handler, use the [**SetConsoleCtrlHandler**](https://msdn.microsoft.com/library/ms686016(v=VS.85).aspx) function.
 
 Service applications receive shutdown notifications in their handler routines. To register a service control handler, use the [**RegisterServiceCtrlHandlerEx**](https://msdn.microsoft.com/en-us/library/ms685058(v=VS.85).aspx) function.
 

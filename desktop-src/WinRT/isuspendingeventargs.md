@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ISuspendingEventArgs
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - Windows.ApplicationModel.h
 ---
 
@@ -24,7 +24,7 @@ Provides data for an app suspending event.
 
 ## Members
 
-The **ISuspendingEventArgs** interface inherits from [**IInspectable**](/windows/desktop/api). **ISuspendingEventArgs** also has these types of members:
+The **ISuspendingEventArgs** interface inherits from [**IInspectable**](https://msdn.microsoft.com/en-us/library/BR205821(v=VS.85).aspx). **ISuspendingEventArgs** also has these types of members:
 
 -   [Properties](#properties)
 
@@ -63,7 +63,7 @@ This object is accessed when you implement event handlers like [**SuspendingEven
 
 <dl> <dt>
 
-[**IInspectable**](/windows/desktop/api)
+[**IInspectable**](https://msdn.microsoft.com/en-us/library/BR205821(v=VS.85).aspx)
 </dt> <dt>
 
 [**ISuspendingOperation**](isuspendingoperation.md)

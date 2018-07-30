@@ -33,17 +33,17 @@ Ribbon settings that can be modified at run time and preserved across applicatio
 
     The following screen shot shows the **Add to Quick Access Toolbar** context menu Command.
 
-    ![screen shot of the command context menu in the microsoft paint ribbon.](https://www.bing.com/search?q=screen+shot+of+the+command+context+menu+in+the+microsoft+paint+ribbon.)
+    ![screen shot of the command context menu in the microsoft paint ribbon.](images/controls/qat-contextmenu-add.png)
 
 -   The preferred [Quick Access Toolbar](windowsribbon-controls-quickaccesstoolbar.md) docking state. Specified by the [**UI\_CONTROLDOCK**](https://msdn.microsoft.com/library/windows/desktop/dd371560) value of the [UI\_PKEY\_QuickAccessToolbarDock](windowsribbon-reference-properties-uipkey-quickaccesstoolbardock.md) property key.
 
     This screen shot shows the [Quick Access Toolbar](windowsribbon-controls-quickaccesstoolbar.md) in its default application title bar location and the **Show Quick Access Toolbar below the Ribbon** context menu Command.
 
-    ![screen shot of the command context menu in the microsoft paint ribbon.](https://www.bing.com/search?q=screen+shot+of+the+command+context+menu+in+the+microsoft+paint+ribbon.)
+    ![screen shot of the command context menu in the microsoft paint ribbon.](images/controls/qat-contextmenu-add.png)
 
     This screen shot shows the [Quick Access Toolbar](windowsribbon-controls-quickaccesstoolbar.md) below the ribbon.
 
-    ![screen shot of the quick access toolbar docked below the ribbon.](https://www.bing.com/search?q=screen+shot+of+the+quick+access+toolbar+docked+below+the+ribbon.)
+    ![screen shot of the quick access toolbar docked below the ribbon.](images/controls/qat-dockbottom.png)
 
 -   The ribbon minimized state as specified by the boolean value of the [UI\_PKEY\_Minimized](windowsribbon-reference-properties-uipkey-minimized.md) property key.
 
@@ -54,11 +54,11 @@ Ribbon settings that can be modified at run time and preserved across applicatio
 
     This screen shot shows the **Minimize the Ribbon** context menu Command.
 
-    ![screen shot of the command context menu in the microsoft paint ribbon.](https://www.bing.com/search?q=screen+shot+of+the+command+context+menu+in+the+microsoft+paint+ribbon.)
+    ![screen shot of the command context menu in the microsoft paint ribbon.](images/controls/qat-contextmenu-add.png)
 
     This screen shot shows a minimized ribbon.
 
-    ![screen shot of the minimized microsoft paint ribbon.](https://www.bing.com/search?q=screen+shot+of+the+minimized+microsoft+paint+ribbon.)
+    ![screen shot of the minimized microsoft paint ribbon.](images/properties/ui-pkey-minimized.png)
 
 ## Save Ribbon Settings
 

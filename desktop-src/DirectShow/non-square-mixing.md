@@ -15,7 +15,7 @@ This topic applies to Windows XP Service Pack 2 or later.
 
 When the VMR-9 mixes two or more streams, there are two points where scaling can occur: When the mixer composites the input streams, and when the allocator-presenter renders the composited image.
 
-![vmr mixing operations](https://www.bing.com/search?q=vmr+mixing+operations)
+![vmr mixing operations](images/vmr-nonsquare-mixing.png)
 
 Previous versions of the VMR-9 always composited the input streams using a square (1:1) pixel aspect ratio (PAR), even when there was only a single video stream. If the input stream had non-square pixels, this caused an unnecessary scaling operation. Scaling should be avoided as much as possible, of course, because it degrades the final image quality.
 
@@ -43,7 +43,7 @@ In this example, stream 0 has the largest image size, so the VMR chooses this st
 
 To match the target PAR, the VMR mixer scales stream 1 by the inverse ratio (27:32), resulting in a 540 x 480 image. The two streams are then composited onto one surface. To display the resulting image correctly, the allocator presenter must stretch the image horizontally to fit the 16:9 picture aspect ratio.
 
-![example 1.](https://www.bing.com/search?q=example+1.)
+![example 1.](images/vmr-nonsquare-mixing2.png)
 
 **Example 2.** Stream 0 is 720 x 480 pixels with a picture aspect ratio of 16:9. Stream 1 is a 1024 x 768 pixels with a picture aspect ratio of 4:3.
 

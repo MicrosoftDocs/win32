@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - SetProcessDefaultCpuSets
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - Kernel32.dll
 - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 - KernelBase.dll
@@ -44,7 +44,7 @@ BOOL WINAPI SetProcessDefaultCpuSets(
 *Process* \[in\]
 </dt> <dd>
 
-Specifies the process for which to set the default CPU Sets. This handle must have the PROCESS\_SET\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentProcess**](/windows/desktop/api) can also be specified here.
+Specifies the process for which to set the default CPU Sets. This handle must have the PROCESS\_SET\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentProcess**](https://msdn.microsoft.com/en-us/library/ms683179(v=VS.85).aspx) can also be specified here.
 
 </dd> <dt>
 

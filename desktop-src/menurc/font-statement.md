@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # FONT statement
 
-Defines the font with which the system will draw text in the dialog box. The font must have been previously loaded; for example, by calling the [**LoadResource**](https://www.bing.com/search?q=**LoadResource**) function.
+Defines the font with which the system will draw text in the dialog box. The font must have been previously loaded; for example, by calling the [**LoadResource**](https://msdn.microsoft.com/library/ms648046(v=VS.85).aspx) function.
 
 ``` syntax
 FONT pointsize, "typeface", weight, italic, charset
@@ -74,7 +74,7 @@ FONT 12, "MS Shell Dlg"
 
 <dl> <dt>
 
-[**LoadResource**](https://www.bing.com/search?q=**LoadResource**)
+[**LoadResource**](https://msdn.microsoft.com/library/ms648046(v=VS.85).aspx)
 </dt> </dl>
 
  

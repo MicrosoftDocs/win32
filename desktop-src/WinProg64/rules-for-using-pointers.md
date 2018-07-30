@@ -73,10 +73,10 @@ Porting your code to compile for both 32- and 64-bit Microsoft Windows is straig
 
     If you have window or class private data that contains pointers, your code will need to use the following new functions:
 
-    -   [**GetClassLongPtr**](https://www.bing.com/search?q=**GetClassLongPtr**)
-    -   [**GetWindowLongPtr**](https://www.bing.com/search?q=**GetWindowLongPtr**)
-    -   [**SetClassLongPtr**](https://www.bing.com/search?q=**SetClassLongPtr**)
-    -   [**SetWindowLongPtr**](https://www.bing.com/search?q=**SetWindowLongPtr**)
+    -   [**GetClassLongPtr**](https://msdn.microsoft.com/library/ms633581(v=VS.85).aspx)
+    -   [**GetWindowLongPtr**](https://msdn.microsoft.com/library/ms633585(v=VS.85).aspx)
+    -   [**SetClassLongPtr**](https://msdn.microsoft.com/library/ms633589(v=VS.85).aspx)
+    -   [**SetWindowLongPtr**](https://msdn.microsoft.com/library/ms644898(v=VS.85).aspx)
 
     These functions can be used on both 32- and 64-bit Windows, but they are required on 64-bit Windows. Prepare for the transition by using these functions now.
 
@@ -103,7 +103,7 @@ Porting your code to compile for both 32- and 64-bit Microsoft Windows is straig
 
     `SetWindowLongPtr(hWnd, GWLP_WNDPROC, (LONG_PTR)MyWndProc);`
 
-    When setting the **cbWndExtra** member of the [**WNDCLASS**](https://www.bing.com/search?q=**WNDCLASS**) structure, be sure to reserve enough space for pointers. For example, if you are currently reserving sizeof(DWORD) bytes for a pointer value, reserve sizeof(DWORD\_PTR) bytes.
+    When setting the **cbWndExtra** member of the [**WNDCLASS**](https://msdn.microsoft.com/library/ms633576(v=VS.85).aspx) structure, be sure to reserve enough space for pointers. For example, if you are currently reserving sizeof(DWORD) bytes for a pointer value, reserve sizeof(DWORD\_PTR) bytes.
 
 8.  Access all window and class data using **FIELD\_OFFSET**.
 

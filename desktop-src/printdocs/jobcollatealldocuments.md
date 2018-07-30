@@ -1,0 +1,108 @@
+---
+Description: This topic is not current. For the most current information, see the Print Schema Specification.
+ms.assetid: 64fcd03f-8e0a-498d-82ea-0c69be0a3886
+title: JobCollateAllDocuments
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# JobCollateAllDocuments
+
+This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+
+Describes the collating characteristics of the output. All documents in each individual job are collated. DocumentCollate and JobCollateAlldocuments are mutually exclusive. The behavior and implementation of whether both or only one of these keywords is implemented is left to the driver.
+
+The following are the rules that should be followed for Collate implementation.
+
+## Element Definition and Rules
+
+You must first follow the rules for JobCollateAllDocument, and then apply rules for DocumentCollate for the scenarios to work. Note that in a PrintTicket to Devmode conversion setting, where JobCollateAllDocuments is not supported by the driver, it is up to the driver to choose the appropriate behavior to take (JobCollateAllDocuments = ON or OFF). Also, the choice can be changed depending on other PrintTicket settings.
+
+### JobCollateAllDocuments
+
+ON: Print (DocumentCopiesAllPages) copies of each document, repeat JobCopiesAllDocuments times.
+
+OFF: For each document, print (JobCopiesAllDocuments x DocumentCopiesAllPages) copies together.
+
+### DocumentCollate
+
+ON: For all copies (JobCopiesAllDocuments x DocumentCopiesAllPages) of a document printed contiguously, collate sheets in that document.
+
+OFF: For all copies (JobCopiesAllDocuments x DocumentCopiesAllPages) printed contiguously, print all copies (JobCopiesAllDocuments x DocumentCopiesAllPages) of each sheet together.
+
+-   [Element Information](#element-information)
+-   [Structural Content](#structural-content)
+-   [Extensible Markup Language (XML) Content](#extensible-markup-language-xml-content)
+
+### Element Information
+
+
+
+| Name                       |                    |
+|----------------------------|--------------------|
+| Element Type <br/>   | Feature<br/> |
+| Scoping Prefix <br/> | Job<br/>     |
+| Notes <br/>          | None<br/>    |
+
+
+
+ 
+
+### Structural Content
+
+The XML structure of this element is:
+
+``` syntax
+<psf:Feature name="psk:JobCollateAllDocuments">
+  <psf:Property name="psf:SelectionType">
+    <psf:Value xsi:type="xs:string">psk:PickOne</psf:Value>
+  </psf:Property>
+  <psf:Option name="psk:_OptionName_">
+  <psf:Property name="psf:IdentityOption">
+      <psf:Value xsi:type="xs:string">_IdentityOptionValue_</psf:Value>
+    </psf:Property>
+  </psf:Option>
+</psf:Feature>
+```
+
+### Structure Variables
+
+The following table outlines the characteristics of the variables defined in the XML structure.
+
+
+
+| Name                               | Data type         | Unit                  | Supported values                                                                                                                                                                      | Summary                                                                      |
+|------------------------------------|-------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| \_OptionName\_<br/>          | string<br/> | characters<br/> | Valid fully qualified name as defined by [Namespaces in XML](http://go.microsoft.com/fwlink/p/?linkid=200944). If no namespace is specified, default namespace is assumed.<br/> | The name of the option.<br/>                                           |
+| \_IdentityOptionValue\_<br/> | string<br/> | n/a<br/>        | True, False.<br/>                                                                                                                                                               | Defines an Option which when selected would disable this feature.<br/> |
+
+
+
+ 
+
+### Extensible Markup Language (XML) Content
+
+The public Print Schema keywords are defined in the http://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+
+``` syntax
+<psf:Feature name="psk:JobCollateAllDocuments">
+  <psf:Property name="psf:SelectionType">
+    <psf:Value xsi:type="xs:string">psk:PickOne</psf:Value>
+  </psf:Property>
+  <!-- Specifies collating.  -->
+  <psf:Option name="psk:Collated" />
+  <!-- Specifies no collating. -->
+  <psf:Option name="psk:Uncollated" />
+</psf:Feature>
+```
+
+ 
+
+ 
+
+
+
+

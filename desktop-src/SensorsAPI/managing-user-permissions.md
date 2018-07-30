@@ -15,7 +15,7 @@ The Sensor API provides a method you can use to prompt the user for permissions 
 
 Because sensors can reveal sensitive information, Windows requires that users enable sensors before your program can access any data.
 
-You may want to request permission when you want to use sensors for which the current [**SensorState**](https://www.bing.com/search?q=**SensorState**) is SENSOR\_STATE\_ACCESS\_DENIED.
+You may want to request permission when you want to use sensors for which the current [**SensorState**](https://msdn.microsoft.com/en-us/library/Dd318905(v=VS.85).aspx) is SENSOR\_STATE\_ACCESS\_DENIED.
 
 To request permissions, call the [**ISensorManager::RequestPermissions**](https://msdn.microsoft.com/en-us/library/Dd318867(v=VS.85).aspx) method. When you call this method, Windows opens the **Enable sensors** dialog box to prompt the user to enable the sensors you requested. This dialog box provides the user with the names of the sensors you requested. The user can choose one of the following options:
 
@@ -29,7 +29,7 @@ If a user chooses **Don't enable these sensors**, Windows will not show the **En
 
 The [**RequestPermissions**](https://msdn.microsoft.com/en-us/library/Dd318867(v=VS.85).aspx) method takes a **Boolean** argument that determines whether the **Enable sensors** dialog box is displayed as a modal or modeless window. This setting also affects whether the behavior of the dialog box return code is synchronous or asynchronous.
 
-When modal, the dialog box has exclusive focus among application windows until the user chooses an option, and the **HRESULT** return code from your call to [**RequestPermissions**](https://msdn.microsoft.com/en-us/library/Dd318867(v=VS.85).aspx) indicates the user choice. When modeless, the dialog box does not have exclusive focus and your call to **RequestPermissions** returns immediately. In this case, the return code indicates whether the method succeeded, but cannot be used to ascertain the user's choice. You can then determine which sensors have been enabled by handling the [**OnStateChanged**](https://www.bing.com/search?q=**OnStateChanged**) event and checking each sensor for SENSOR\_STATE\_READY.
+When modal, the dialog box has exclusive focus among application windows until the user chooses an option, and the **HRESULT** return code from your call to [**RequestPermissions**](https://msdn.microsoft.com/en-us/library/Dd318867(v=VS.85).aspx) indicates the user choice. When modeless, the dialog box does not have exclusive focus and your call to **RequestPermissions** returns immediately. In this case, the return code indicates whether the method succeeded, but cannot be used to ascertain the user's choice. You can then determine which sensors have been enabled by handling the [**OnStateChanged**](https://msdn.microsoft.com/en-us/library/Dd318862(v=VS.85).aspx) event and checking each sensor for SENSOR\_STATE\_READY.
 
 For more information about return codes, see the [**RequestPermissions**](https://msdn.microsoft.com/en-us/library/Dd318867(v=VS.85).aspx) reference page.
 

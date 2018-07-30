@@ -38,7 +38,7 @@ The following table lists formats that are available for each factoid used in En
 [**Factoid Constants (C++)**](factoid-constants.md)
 </dt> <dt>
 
-[Factoid Class (managed code)](T:Microsoft.Ink.Factoid)
+[Factoid Class (managed code)](https://msdn.microsoft.com/library/ms583657(v=VS.90).aspx)
 </dt> </dl>
 
  

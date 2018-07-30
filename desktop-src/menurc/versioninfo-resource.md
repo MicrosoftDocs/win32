@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # VERSIONINFO resource
 
-Defines a version-information resource. The resource contains such information about the file as its version number, its intended operating system, and its original filename. The resource is intended to be used with the [Version Information](https://www.bing.com/search?q=Version+Information) functions.
+Defines a version-information resource. The resource contains such information about the file as its version number, its intended operating system, and its original filename. The resource is intended to be used with the [Version Information](https://msdn.microsoft.com/library/ms646981(v=VS.85).aspx) functions.
 
 There are two ways to format a **VERSIONINFO** statement:
 
@@ -368,10 +368,10 @@ END
 
 <dl> <dt>
 
-[Using Version Information](https://www.bing.com/search?q=Using+Version+Information)
+[Using Version Information](https://msdn.microsoft.com/library/ms646985(v=VS.85).aspx)
 </dt> <dt>
 
-[Version Information](https://www.bing.com/search?q=Version+Information)
+[Version Information](https://msdn.microsoft.com/library/ms646981(v=VS.85).aspx)
 </dt> </dl>
 
  

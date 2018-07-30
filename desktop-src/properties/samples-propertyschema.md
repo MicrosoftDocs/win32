@@ -68,16 +68,16 @@ For instructions about how to build the sample, see the Readme file included wit
 [Property System Code Samples](property-system-code-samples.md)
 </dt> <dt>
 
-[Ideal Property Handler Sample](https://www.bing.com/search?q=Ideal+Property+Handler+Sample)
+[Ideal Property Handler Sample](https://msdn.microsoft.com/library/Dd940363(v=VS.85).aspx)
 </dt> <dt>
 
-[Playlist Property Handler Sample](https://www.bing.com/search?q=Playlist+Property+Handler+Sample)
+[Playlist Property Handler Sample](https://msdn.microsoft.com/library/Dd940371(v=VS.85).aspx)
 </dt> <dt>
 
-[Property Edit Sample](https://www.bing.com/search?q=Property+Edit+Sample)
+[Property Edit Sample](https://msdn.microsoft.com/library/Dd940372(v=VS.85).aspx)
 </dt> <dt>
 
-[Recipe Property Handler Sample](https://www.bing.com/search?q=Recipe+Property+Handler+Sample)
+[Recipe Property Handler Sample](https://msdn.microsoft.com/library/Dd940375(v=VS.85).aspx)
 </dt> </dl>
 
  

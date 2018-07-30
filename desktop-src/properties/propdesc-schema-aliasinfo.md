@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # aliasInfo
 
-Specifies a sort alias or list of sort aliases by specifying an element that contains a sort property or list of sort properties. There should be only one [aliasInfo](https://www.bing.com/search?q=aliasInfo) element for each [propertyDescription](https://www.bing.com/search?q=propertyDescription) element. For properties that set canGroupBy=true, unless a secondary sort property is specified (aliasInfo/@additionalSortByAliases=prop:example), the user may experience unexpected behavior when changing the sort order in a view that is grouped by the property. Specifically, the order of the groups will change, but the order of items within the groups will not.
+Specifies a sort alias or list of sort aliases by specifying an element that contains a sort property or list of sort properties. There should be only one [aliasInfo](https://msdn.microsoft.com/library/Bb773860(v=VS.85).aspx) element for each [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx) element. For properties that set canGroupBy=true, unless a secondary sort property is specified (aliasInfo/@additionalSortByAliases=prop:example), the user may experience unexpected behavior when changing the sort order in a view that is grouped by the property. Specifically, the order of the groups will change, but the order of items within the groups will not.
 
 ## Syntax
 
@@ -34,7 +34,7 @@ Specifies a sort alias or list of sort aliases by specifying an element that con
 
 | Parent Element                                                   | Child Elements |
 |------------------------------------------------------------------|----------------|
-| [propertyDescription](https://www.bing.com/search?q=propertyDescription) | None           |
+| [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx) | None           |
 
 
 

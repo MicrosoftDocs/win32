@@ -168,7 +168,7 @@ Filtreg.exe enumerates all file name extensions that have filter handlers associ
 
 ### ifilttst.ini
 
-An [**IFilter**](https://www.bing.com/search?q=**IFilter**) interface is initialized by calling the [**IFilter::Init**](https://www.bing.com/search?q=**IFilter::Init**) method. The **IFilter::Init** method takes the following four parameters:
+An [**IFilter**](https://www.bing.com/search?q=**IFilter**) interface is initialized by calling the [**IFilter::Init**](https://msdn.microsoft.com/library/Bb266452(v=VS.85).aspx) method. The **IFilter::Init** method takes the following four parameters:
 
 1.  *grfFlags*
 2.  *cAttributes*
@@ -178,7 +178,7 @@ An [**IFilter**](https://www.bing.com/search?q=**IFilter**) interface is initial
 The user of the ifilttst.exe program of the [**IFilter**](https://www.bing.com/search?q=**IFilter**) test suite can specify the values for these parameters in a file called ifilttst.ini. The following table describes the entries in the ifilttst.ini file that specify the first three parameters(the input parameters). For a sample file, see [Sample ifilttst.ini File](#sample-ifilttstini-file).
 
 > [!Note]  
-> There is no table entry for the *pdwFlags* parameter because it is an output parameter; it does not need to have any special value prior to the call to the [**IFilter::Init**](https://www.bing.com/search?q=**IFilter::Init**) method.
+> There is no table entry for the *pdwFlags* parameter because it is an output parameter; it does not need to have any special value prior to the call to the [**IFilter::Init**](https://msdn.microsoft.com/library/Bb266452(v=VS.85).aspx) method.
 
  
 
@@ -186,7 +186,7 @@ The user of the ifilttst.exe program of the [**IFilter**](https://www.bing.com/s
 
 | Entry         | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Flags         | The names of the [**IFILTER\_INIT**](https://msdn.microsoft.com/en-us/library/Bb266511(v=VS.85).aspx) flags that are to be joined by the OR operator to form the *grfFlags* parameter of the [**IFilter::Init**](https://www.bing.com/search?q=**IFilter::Init**) method. The flag names must all be uppercase, and on the same line.                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Flags         | The names of the [**IFILTER\_INIT**](https://msdn.microsoft.com/en-us/library/Bb266511(v=VS.85).aspx) flags that are to be joined by the OR operator to form the *grfFlags* parameter of the [**IFilter::Init**](https://msdn.microsoft.com/library/Bb266452(v=VS.85).aspx) method. The flag names must all be uppercase, and on the same line.                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | *cAttributes* | A decimal integer representing the value of the *cAttributes* parameter.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | *aAttributes* | This entry must start with *aAttributes* and must be different from the other *aAttributes* entries within the section. Legal names for the *aAttributes* entry are: *aAttributes*, *aAttributes1*, *aAttributes2*, and so forth. The first token must be a GUID. The GUID must be formatted exactly as illustrated in the `[Test3]` section of the [Sample ifilttst.ini File](#sample-ifilttstini-file). The second token can be either a property identifier (PID) consisting of a number in hexadecimal notation, or a pointer to a wide character string (lpwstr). A lpwstr can be specified by enclosing the string in double quotes, as illustrated in the `[Test6]` section of the Sample ifilttst.ini File. |
 
@@ -194,9 +194,9 @@ The user of the ifilttst.exe program of the [**IFilter**](https://www.bing.com/s
 
  
 
-If the Flags and *cAttributes* entries are not specified, they default to 0. If you set *cAttributes* equal to 2, you should specify two *aAttributes* names. In the `[Test5]` section of the sample, *cAttributes* is 1, but no *aAttributes* have been specified. The test then calls the [**IFilter::Init**](https://www.bing.com/search?q=**IFilter::Init**) method with *cAttributes* equal to 1 and *aAttributes* equal to **NULL**. This is a useful test case because it is likely to cause an access violation in the **IFilter::Init** method.
+If the Flags and *cAttributes* entries are not specified, they default to 0. If you set *cAttributes* equal to 2, you should specify two *aAttributes* names. In the `[Test5]` section of the sample, *cAttributes* is 1, but no *aAttributes* have been specified. The test then calls the [**IFilter::Init**](https://msdn.microsoft.com/library/Bb266452(v=VS.85).aspx) method with *cAttributes* equal to 1 and *aAttributes* equal to **NULL**. This is a useful test case because it is likely to cause an access violation in the **IFilter::Init** method.
 
-If ifilttst.exe cannot find a file named ifilttst.ini in the working directory, a default configuration is used to initialize the [**IFilter::Init**](https://www.bing.com/search?q=**IFilter::Init**) object. The following example illustrates the default configuration.
+If ifilttst.exe cannot find a file named ifilttst.ini in the working directory, a default configuration is used to initialize the [**IFilter::Init**](https://msdn.microsoft.com/library/Bb266452(v=VS.85).aspx) object. The following example illustrates the default configuration.
 
 
 ```
@@ -274,7 +274,7 @@ The validation test verifies the following conditions:
 
 ### Consistency Test
 
-The ifilttxt.exe program re-initializes the [**IFilter**](https://www.bing.com/search?q=**IFilter**) interface with the same parameters as in the validation test and performs a consistency test. If the **IFilter** implementation has been initialized with the [**IFILTER\_INIT**](https://msdn.microsoft.com/en-us/library/Bb266511(v=VS.85).aspx) IFILTER\_INIT\_INDEXING\_ONLY flag, the test releases the **IFilter** interface and re-binds it before making another call to the [**IFilter::Init**](https://www.bing.com/search?q=**IFilter::Init**) method.
+The ifilttxt.exe program re-initializes the [**IFilter**](https://www.bing.com/search?q=**IFilter**) interface with the same parameters as in the validation test and performs a consistency test. If the **IFilter** implementation has been initialized with the [**IFILTER\_INIT**](https://msdn.microsoft.com/en-us/library/Bb266511(v=VS.85).aspx) IFILTER\_INIT\_INDEXING\_ONLY flag, the test releases the **IFilter** interface and re-binds it before making another call to the [**IFilter::Init**](https://msdn.microsoft.com/library/Bb266452(v=VS.85).aspx) method.
 
 The consistency test verifies the following conditions:
 
@@ -340,7 +340,7 @@ Upon request, the Ifilttst.exe program can produce a log containing a descriptio
 
 
 
-The first line is an informational message, indicating that a new configuration has been loaded from the ifilttst.ini file. Line (3) indicates the section name in the ifilttst.ini file from which the current configuration has been read. Lines (4) through (7) list the parameters to [**IFilter::Init**](https://www.bing.com/search?q=**IFilter::Init**). The lines starting with `INFO` are informational messages about the binding of the [**IFilter**](https://www.bing.com/search?q=**IFilter**) and the start of the validation test. Lines starting with `PASS` are messages regarding specific tests that have passed.
+The first line is an informational message, indicating that a new configuration has been loaded from the ifilttst.ini file. Line (3) indicates the section name in the ifilttst.ini file from which the current configuration has been read. Lines (4) through (7) list the parameters to [**IFilter::Init**](https://msdn.microsoft.com/library/Bb266452(v=VS.85).aspx). The lines starting with `INFO` are informational messages about the binding of the [**IFilter**](https://www.bing.com/search?q=**IFilter**) and the start of the validation test. Lines starting with `PASS` are messages regarding specific tests that have passed.
 
 The line in the following log example is a warning. Warnings call attention to [**IFilter**](https://www.bing.com/search?q=**IFilter**) behavior that is problematic, although legal. This warning indicates that the [**IFilter::GetChunk**](https://www.bing.com/search?q=**IFilter::GetChunk**) method has returned a text chunk that contains no text.
 

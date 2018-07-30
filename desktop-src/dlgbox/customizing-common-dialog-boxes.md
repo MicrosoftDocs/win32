@@ -131,7 +131,7 @@ The Common Dialog Box Library defines a set of message strings. You can pass a c
 
 Some common dialog boxes send and receive other window messages. The hook procedure for a **Font** dialog box can send any of the **WM\_CHOOSEFONT\_\*** messages to the **Font** dialog box. For more information, see [Font Dialog Box](font-dialog-box.md). The **Page Setup** dialog box sends the **WM\_PSD\_\*** messages if you have enabled a [*PagePaintHook*](https://msdn.microsoft.com/en-us/library/ms646935(v=VS.85).aspx) hook procedure. For more information, see [Page Setup Dialog Box](page-setup-dialog-box.md).
 
-The Explorer-style **Open** and **Save As** dialog boxes support a set of predefined messages. These include notification messages sent in the form of a [**WM\_NOTIFY**](https://www.bing.com/search?q=**WM\_NOTIFY**) message to your hook procedure, and messages that your hook procedure can send to the dialog box. For a complete list of these messages, see [Explorer-Style Hook Procedures](open-and-save-as-dialog-boxes.md).
+The Explorer-style **Open** and **Save As** dialog boxes support a set of predefined messages. These include notification messages sent in the form of a [**WM\_NOTIFY**](https://msdn.microsoft.com/library/Bb775583(v=VS.85).aspx) message to your hook procedure, and messages that your hook procedure can send to the dialog box. For a complete list of these messages, see [Explorer-Style Hook Procedures](open-and-save-as-dialog-boxes.md).
 
 ## Help Support
 

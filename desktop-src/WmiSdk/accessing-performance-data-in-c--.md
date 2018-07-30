@@ -405,7 +405,7 @@ int __cdecl wmain(int argc, wchar_t* argv[])
 [**Wmiadap.exe**](wmiadap.md)
 </dt> <dt>
 
-[**QueryPerformanceCounter**](https://www.bing.com/search?q=**QueryPerformanceCounter**)
+[**QueryPerformanceCounter**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx)
 </dt> </dl>
 
  

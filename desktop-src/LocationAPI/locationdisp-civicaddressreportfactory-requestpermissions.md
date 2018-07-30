@@ -7,12 +7,12 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - LocationDisp.CivicAddressReportFactory.RequestPermissions
-api_type: 
+api_type:
 - COM
 api_location: 
 ---
@@ -54,7 +54,7 @@ This method does not return a value.
 The call is synchronous and the caller waits for the dialog box to be closed.
 
 > [!Note]  
-> If an application running in protected mode, such as a Browser Helper Object (BHO) for Internet Explorer, calls **RequestPermissions**, and the user chooses the **Don't enable this location sensor** option in the dialog box, the location provider will not be enabled, but Windows will display the dialog box again if **RequestPermissions** is called again by the same user. Applications that run in protected mode may choose to not call [**RequestPermissions**](https://www.bing.com/search?q=**RequestPermissions**) on startup so that the user does not see a possibly unwanted dialog box each time the application starts.
+> If an application running in protected mode, such as a Browser Helper Object (BHO) for Internet Explorer, calls **RequestPermissions**, and the user chooses the **Don't enable this location sensor** option in the dialog box, the location provider will not be enabled, but Windows will display the dialog box again if **RequestPermissions** is called again by the same user. Applications that run in protected mode may choose to not call [**RequestPermissions**](https://msdn.microsoft.com/en-us/library/Dd317635(v=VS.85).aspx) on startup so that the user does not see a possibly unwanted dialog box each time the application starts.
 
  
 

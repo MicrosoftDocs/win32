@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**DL\_ADDRESS\_TYPE**](/windows/desktop/api)
+-   [**DL\_ADDRESS\_TYPE**](https://msdn.microsoft.com/en-us/library/Dd744934(v=VS.85).aspx)
 -   [**FWPM\_APPC\_NETWORK\_CAPABILITY\_TYPE**](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_appc_network_capability_type_)
 -   [**FWPM\_CHANGE\_TYPE**](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_change_type_)
 -   [**FWPM\_CONNECTION\_EVENT\_TYPE**](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_connection_event_type_)

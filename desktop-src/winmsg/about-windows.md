@@ -121,18 +121,18 @@ Every window has one or more window styles. A window style is a named constant t
 
 The system and, to some extent, the window procedure for the class, interpret the window styles.
 
-Some window styles apply to all windows, but most apply to windows of specific window classes. The general window styles are represented by constants that begin with the WS\_ prefix; they can be combined with the OR operator to form different types of windows, including main windows, dialog boxes, and child windows. The class-specific window styles define the appearance and behavior of windows belonging to the predefined control classes. For example, the **SCROLLBAR** class specifies a scroll bar control, but the [**SBS\_HORZ**](https://www.bing.com/search?q=**SBS\_HORZ**) and **SBS\_VERT** styles determine whether a horizontal or vertical scroll bar control is created.
+Some window styles apply to all windows, but most apply to windows of specific window classes. The general window styles are represented by constants that begin with the WS\_ prefix; they can be combined with the OR operator to form different types of windows, including main windows, dialog boxes, and child windows. The class-specific window styles define the appearance and behavior of windows belonging to the predefined control classes. For example, the **SCROLLBAR** class specifies a scroll bar control, but the [**SBS\_HORZ**](https://msdn.microsoft.com/library/Bb787533(v=VS.85).aspx) and **SBS\_VERT** styles determine whether a horizontal or vertical scroll bar control is created.
 
 For lists of styles that can be used by windows, see the following topics:
 
 -   [**Window Styles**](window-styles.md)
--   [Button Styles](https://www.bing.com/search?q=Button+Styles)
--   [Combo Box Styles](https://www.bing.com/search?q=Combo+Box+Styles)
--   [Edit Control Styles](https://www.bing.com/search?q=Edit+Control+Styles)
--   [List Box Styles](https://www.bing.com/search?q=List+Box+Styles)
--   [Rich Edit Control Styles](https://www.bing.com/search?q=Rich+Edit+Control+Styles)
--   [Scroll Bar Control Styles](https://www.bing.com/search?q=Scroll+Bar+Control+Styles)
--   [Static Control Styles](https://www.bing.com/search?q=Static+Control+Styles)
+-   [Button Styles](https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx)
+-   [Combo Box Styles](https://msdn.microsoft.com/library/Bb775796(v=VS.85).aspx)
+-   [Edit Control Styles](https://msdn.microsoft.com/library/Bb775464(v=VS.85).aspx)
+-   [List Box Styles](https://msdn.microsoft.com/library/Bb775149(v=VS.85).aspx)
+-   [Rich Edit Control Styles](https://msdn.microsoft.com/library/Bb774367(v=VS.85).aspx)
+-   [Scroll Bar Control Styles](https://msdn.microsoft.com/library/Bb787533(v=VS.85).aspx)
+-   [Static Control Styles](https://msdn.microsoft.com/library/Bb760773(v=VS.85).aspx)
 
 ### Extended Window Style
 

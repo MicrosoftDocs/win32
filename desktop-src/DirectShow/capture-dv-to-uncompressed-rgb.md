@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 This example shows how to capture DV from the camcorder and save it to a file as uncompressed RGB while previewing. Use the filter graph shown in the following diagram.
 
-![capturing uncompressed rgb to file](https://www.bing.com/search?q=capturing+uncompressed+rgb+to+file)
+![capturing uncompressed rgb to file](images/dv-rgb-cap.png)
 
 The DV Splitter filter splits the interleaved audio/video into separate video and audio streams The DV-encoded video goes to the [DV Video Decoder](dv-video-decoder-filter.md) filter, which outputs uncompressed RGB video. The RGB video is routed through the Smart Tee filter to the AVI Mux filter (for capture) and the video renderer (for preview). Meanwhile, the audio stream from the DV Splitter goes through the Infinite Pin Tee filter to the AVI Mux and the audio renderer. The Filter Graph Manager keeps all of these streams synchronized, using the time stamps on the samples and the graph reference clock.
 

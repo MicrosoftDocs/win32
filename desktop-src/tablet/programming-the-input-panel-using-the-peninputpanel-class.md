@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Programming the Input Panel Using the PenInputPanel Class
 
-\[[**PenInputPanel**](peninputpanel-class.md) has been replaced by [Microsoft.Ink.TextInput](frlrfMicrosoftInkTextInput). Please refer to [Programming the Text Input Panel](programming-the-text-input-panel.md).\]
+\[[**PenInputPanel**](peninputpanel-class.md) has been replaced by [Microsoft.Ink.TextInput](https://msdn.microsoft.com/library/ms581554(v=VS.100).aspx). Please refer to [Programming the Text Input Panel](programming-the-text-input-panel.md).\]
 
 Description of using the [**PenInputPanel**](peninputpanel-class.md) object to program the system-level Tablet PC Input Panel.
 
@@ -78,9 +78,9 @@ If you still see a problem in your application after you disable the Input Panel
 
 In order to use an API on a Web page, it must function in a partial trust environment. All [**PenInputPanel**](peninputpanel-class.md) class members require full trust except the following:
 
--   [PenInputPanel Constructors](frlrfMicrosoftInkPenInputPanelClassctorTopic) (managed code only)
--   [Dispose Method](frlrfMicrosoftInkPenInputPanelClassDisposeTopic) (managed code only)
--   [AttachedEditControl Property](frlrfMicrosoftInkPenInputPanelClassAttachedEditControlTopic) (managed code only)
+-   [PenInputPanel Constructors](https://msdn.microsoft.com/library/ms571341(v=VS.90).aspx) (managed code only)
+-   [Dispose Method](https://msdn.microsoft.com/library/ms571343(v=VS.90).aspx) (managed code only)
+-   [AttachedEditControl Property](https://msdn.microsoft.com/library/ms582239(v=VS.90).aspx) (managed code only)
 -   [**AutoShow Property**](https://msdn.microsoft.com/en-us/library/ms703289(v=VS.85).aspx)
 
 These APIs function in a partial trust environment, such as a Web page, enabling you to instantiate a [**PenInputPanel**](peninputpanel-class.md) object, attach it to a control, and disable Input Panel for that control. For more information, see Programming the Input Panel Using the PenInputPanel Class and [Ink on the Web](ink-on-the-web.md).

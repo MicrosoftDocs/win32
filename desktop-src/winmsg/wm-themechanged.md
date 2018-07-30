@@ -55,9 +55,9 @@ A window receives this message through its [**WindowProc**](https://msdn.microso
 
 Themes are specifications for the appearance of controls, so that the visual element of a control is treated separately from its functionality.
 
-To release an existing theme handle, call [**CloseThemeData**](https://www.bing.com/search?q=**CloseThemeData**). To acquire a new theme handle, use [**OpenThemeData**](https://www.bing.com/search?q=**OpenThemeData**).
+To release an existing theme handle, call [**CloseThemeData**](https://msdn.microsoft.com/library/Bb773287(v=VS.85).aspx). To acquire a new theme handle, use [**OpenThemeData**](https://msdn.microsoft.com/library/Bb759821(v=VS.85).aspx).
 
-Following the **WM\_THEMECHANGED** broadcast, any existing theme handles are invalid. A theme-aware window should release and reopen any of its pre-existing theme handles when it receives the **WM\_THEMECHANGED** message. If the [**OpenThemeData**](https://www.bing.com/search?q=**OpenThemeData**) function returns **NULL**, the window should paint unthemed.
+Following the **WM\_THEMECHANGED** broadcast, any existing theme handles are invalid. A theme-aware window should release and reopen any of its pre-existing theme handles when it receives the **WM\_THEMECHANGED** message. If the [**OpenThemeData**](https://msdn.microsoft.com/library/Bb759821(v=VS.85).aspx) function returns **NULL**, the window should paint unthemed.
 
 ## Requirements
 
@@ -78,13 +78,13 @@ Following the **WM\_THEMECHANGED** broadcast, any existing theme handles are inv
 **Other Resources**
 </dt> <dt>
 
-[**CloseThemeData**](https://www.bing.com/search?q=**CloseThemeData**)
+[**CloseThemeData**](https://msdn.microsoft.com/library/Bb773287(v=VS.85).aspx)
 </dt> <dt>
 
-[**IsThemeActive**](https://www.bing.com/search?q=**IsThemeActive**)
+[**IsThemeActive**](https://msdn.microsoft.com/library/Bb759813(v=VS.85).aspx)
 </dt> <dt>
 
-[**OpenThemeData**](https://www.bing.com/search?q=**OpenThemeData**)
+[**OpenThemeData**](https://msdn.microsoft.com/library/Bb759821(v=VS.85).aspx)
 </dt> </dl>
 
  

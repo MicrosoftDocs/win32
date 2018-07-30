@@ -1,0 +1,104 @@
+---
+Description: The TSPI LINE\_CALLDEVSPECIFICFEATURE message is sent to the LINEEVENT callback function to notify TAPI about device-specific events occurring on a line or address.
+ms.assetid: bf470f5b-f7e5-4f98-9b60-12da599ebf26
+title: LINE\_CALLDEVSPECIFICFEATURE message
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# LINE\_CALLDEVSPECIFICFEATURE message
+
+The TSPI **LINE\_CALLDEVSPECIFICFEATURE** message is sent to the [**LINEEVENT**](https://msdn.microsoft.com/en-us/library/ms725228(v=VS.85).aspx) callback function to notify TAPI about device-specific events occurring on a line or address. The meaning of the message and the interpretation of the *dwParam1* through *dwParam3* parameters is device specific.
+
+
+```C++
+            
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*htLine* 
+</dt> <dd>
+
+The TAPI opaque object handle to the line device.
+
+</dd> <dt>
+
+*htCall* 
+</dt> <dd>
+
+The TAPI opaque object handle to the call device.
+
+</dd> <dt>
+
+*dwMsg* 
+</dt> <dd>
+
+The value LINE\_CALLDEVSPECIFICFEATURE.
+
+</dd> <dt>
+
+*dwParam1* 
+</dt> <dd>
+
+Device specific.
+
+</dd> <dt>
+
+*dwParam2* 
+</dt> <dd>
+
+Device specific.
+
+</dd> <dt>
+
+*dwParam3* 
+</dt> <dd>
+
+Device specific.
+
+</dd> </dl>
+
+## Remarks
+
+The **LINE\_CALLDEVSPECIFICFEATURE** message is used by a service provider in conjunction with the [**TSPI\_lineDevSpecificFeature**](https://msdn.microsoft.com/en-us/library/ms725541(v=VS.85).aspx) function. Its meaning is device specific.
+
+TAPI sends the [**LINE\_DEVSPECIFICFEATURE**](https://msdn.microsoft.com/library/ms725227) message to applications in response to receiving this message from a service provider. The *htLine* and *htCall* parameters are translated to the appropriate *hCall* as the *hDevice* parameter at the TAPI level. The *dwParam1*, *dwParam2*, and *dwParam3* parameters are passed through unmodified.
+
+There is no directly corresponding message at the TAPI level, although this message is very similar to LINE\_DEVSPECIFICFEATURE. At the TSPI level, the device-specific feature messages are split between those reporting events on lines and addresses, and those reporting events on calls.
+
+## Requirements
+
+
+
+|                         |                                                                                   |
+|-------------------------|-----------------------------------------------------------------------------------|
+| TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
+| Header<br/>       | <dl> <dt>Tspi.h</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**LINE\_DEVSPECIFICFEATURE**](https://msdn.microsoft.com/library/ms725227)
+</dt> <dt>
+
+[**TSPI\_lineDevSpecificFeature**](https://msdn.microsoft.com/en-us/library/ms725541(v=VS.85).aspx)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

@@ -1,0 +1,51 @@
+---
+Description: A callback function used to notify the host about which frames have offline analysis reports available.
+MS-HAID: vspixengine.IOfflineAnalysisCacheCallback\_OfflineAnalaysisReportAvailabilityCallback\_DWORD\_DWORD\_arr
+MSHAttr:
+- PreferredSiteName:MSDN
+- PreferredLib:/library/windows/desktop
+title: IOfflineAnalysisCacheCallback::OfflineAnalaysisReportAvailabilityCallback method
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# <span id="vspixengine.iofflineanalysiscachecallback_offlineanalaysisreportavailabilitycallback_dword_dword_arr"></span>IOfflineAnalysisCacheCallback::OfflineAnalaysisReportAvailabilityCallback method
+
+A callback function used to notify the host about which frames have offline analysis reports available.
+
+## Syntax
+
+
+```C++
+);
+```
+
+## Parameters
+
+*numFramesWithReports*   
+The number of frames in count0\_framesWithReports.
+
+*count0\_framesWithReports*   
+An array containing the frame numbers of the frames that have offline analysis reports available.
+
+## Return value
+
+If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
+
+## Requirements
+
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+
+## <span id="see_also"></span>See also
+
+[**IOfflineAnalysisCacheCallback**](https://msdn.microsoft.com/library/windows/desktop/mt432702)
+
+ 
+
+ 
+
+
+

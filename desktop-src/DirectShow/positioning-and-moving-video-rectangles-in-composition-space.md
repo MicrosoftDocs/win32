@@ -32,7 +32,7 @@ For example, assume that stream 0 (which corresponds to pin 0) contains the main
 
  
 
-![moving a video stream in composition space](https://www.bing.com/search?q=moving+a+video+stream+in+composition+space)
+![moving a video stream in composition space](images/composition-space.png)
 
 At time t+10, the video from stream 1 is completely visible. In this example, the native size of stream 1 was maintained while it was moving. You could also stretch or shrink the rectangle to produce interesting effects. You can also flip the video vertically, by specifying a greater value for the top than the bottom, or mirror the video horizontally, by specifying a greater value for the left than the right.
 

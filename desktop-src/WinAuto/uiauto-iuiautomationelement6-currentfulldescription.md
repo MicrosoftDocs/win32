@@ -18,7 +18,7 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-api_location: 
+api_location:
 - uiautomationclient.h
 ---
 
@@ -50,7 +50,7 @@ The current full description of the automation element.
 [**IUIAutomationElement6**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement6)
 </dt> <dt>
 
-[**IUIAutomationElement6**](https://www.bing.com/search?q=**IUIAutomationElement6**)
+[**IUIAutomationElement6**](https://msdn.microsoft.com/en-us/library/Mt798238(v=VS.85).aspx)
 </dt> </dl>
 
  

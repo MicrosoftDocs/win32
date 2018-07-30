@@ -45,7 +45,7 @@ The **IAnalysisAlternates** interface has these methods.
 
 ## Remarks
 
-This interface is equivalent to the [**System.Windows.Ink.AnalysisCore.AnalysisAlternateBaseCollection**](T:System.Windows.Ink.AnalysisCore.AnalysisAlternateBaseCollection) class in the .NET Framework.
+This interface is equivalent to the [**System.Windows.Ink.AnalysisCore.AnalysisAlternateBaseCollection**](https://msdn.microsoft.com/library/ms610094(v=VS.90).aspx) class in the .NET Framework.
 
 ## Requirements
 

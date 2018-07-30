@@ -21,7 +21,7 @@ A value that indicates the type of sensor provided by a frame source, such as co
 
 ## Remarks
 
-This value should be a member of the [**\_MFFrameSourceTypes**](https://www.bing.com/search?q=**\_MFFrameSourceTypes**) enumeration. For backward compatibility, when this attribute is not defined on a media type, it's assumed to be **\_MFFrameSourceTyes::Color**.
+This value should be a member of the [**\_MFFrameSourceTypes**](https://msdn.microsoft.com/library/Mt846679(v=VS.85).aspx) enumeration. For backward compatibility, when this attribute is not defined on a media type, it's assumed to be **\_MFFrameSourceTyes::Color**.
 
 ## Requirements
 

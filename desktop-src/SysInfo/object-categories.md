@@ -17,15 +17,15 @@ The system provides three categories of objects: user, graphics device interface
 
 | User object       | Overview                                                                                        |
 |-------------------|-------------------------------------------------------------------------------------------------|
-| Accelerator table | [Keyboard Accelerators](https://www.bing.com/search?q=Keyboard+Accelerators)                                       |
-| Caret             | [Carets](https://www.bing.com/search?q=Carets)                                                                     |
-| Cursor            | [Cursors](https://www.bing.com/search?q=Cursors)                                                                   |
-| DDE conversation  | [Dynamic Data Exchange Management Library](https://www.bing.com/search?q=Dynamic+Data+Exchange+Management+Library) |
-| Hook              | [Hooks](https://www.bing.com/search?q=Hooks)                                                                       |
-| Icon              | [Icons](https://www.bing.com/search?q=Icons)                                                                       |
-| Menu              | [Menus](https://www.bing.com/search?q=Menus)                                                                       |
-| Window            | [Windows](https://www.bing.com/search?q=Windows)                                                                   |
-| Window position   | [Windows](https://www.bing.com/search?q=Windows)                                                                   |
+| Accelerator table | [Keyboard Accelerators](https://msdn.microsoft.com/library/ms645526(v=VS.85).aspx)                                       |
+| Caret             | [Carets](https://msdn.microsoft.com/library/ms646968(v=VS.85).aspx)                                                                     |
+| Cursor            | [Cursors](https://msdn.microsoft.com/library/ms646970(v=VS.85).aspx)                                                                   |
+| DDE conversation  | [Dynamic Data Exchange Management Library](https://msdn.microsoft.com/library/ms648712(v=VS.85).aspx) |
+| Hook              | [Hooks](https://msdn.microsoft.com/library/ms632589(v=VS.85).aspx)                                                                       |
+| Icon              | [Icons](https://msdn.microsoft.com/library/ms646973(v=VS.85).aspx)                                                                       |
+| Menu              | [Menus](https://msdn.microsoft.com/library/ms646977(v=VS.85).aspx)                                                                       |
+| Window            | [Windows](https://msdn.microsoft.com/library/ms632595(v=VS.85).aspx)                                                                   |
+| Window position   | [Windows](https://msdn.microsoft.com/library/ms632595(v=VS.85).aspx)                                                                   |
 
 
 
@@ -79,7 +79,7 @@ The system provides three categories of objects: user, graphics device interface
 | Timer                 | [Synchronization](https://msdn.microsoft.com/library/windows/desktop/ms686353)                                         |
 | Timer queue           | [Synchronization](https://msdn.microsoft.com/library/windows/desktop/ms686353)                                         |
 | Timer-queue timer     | [Synchronization](https://msdn.microsoft.com/library/windows/desktop/ms686353)                                         |
-| Update resource       | [Resources](https://www.bing.com/search?q=Resources)                                               |
+| Update resource       | [Resources](https://msdn.microsoft.com/library/ms632583(v=VS.85).aspx)                                               |
 | Window station        | [Window Stations](https://msdn.microsoft.com/library/windows/desktop/ms687096)                                         |
 
 

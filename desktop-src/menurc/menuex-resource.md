@@ -23,7 +23,7 @@ Defines the contents of a menu resource. A menu resource is a collection of info
 
 -   Help identifiers on menus.
 -   Identifiers on menus.
--   Use of the **MFT\_\*** type flags and **MFS\_\*** state flags. For more information on these flags, see the [**MENUITEMINFO**](https://www.bing.com/search?q=**MENUITEMINFO**) structure.
+-   Use of the **MFT\_\*** type flags and **MFS\_\*** state flags. For more information on these flags, see the [**MENUITEMINFO**](https://msdn.microsoft.com/library/ms647578(v=VS.85).aspx) structure.
 
 ``` syntax
 menuID MENUEX{ [{[MENUITEM itemText [,[id][, [type][, state]]]] | 
@@ -135,7 +135,7 @@ The valid arithmetic and Boolean operations that can be contained in any of the 
 
 <dl> <dt>
 
-[Using Menus](https://www.bing.com/search?q=Using+Menus)
+[Using Menus](https://msdn.microsoft.com/library/ms647558(v=VS.85).aspx)
 </dt> <dt>
 
 [**ACCELERATORS**](accelerators-resource.md)

@@ -7,6 +7,17 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
+topic_type: 
+- APIRef
+- kbSyntax
+api_name: 
+- InkRecognizerGuide
+- InkRecognizerGuide.IInkRecognizerGuide
+api_type: 
+- COM
+api_location: 
+- InkObj.dll
+- InkObj.dll.dll
 ---
 
 # InkRecognizerGuide class

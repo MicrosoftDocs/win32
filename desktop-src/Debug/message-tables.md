@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Message Tables
 
-Message tables are special string resources used when displaying error messages. They are declared in a resource file using the [MESSAGETABLE](https://www.bing.com/search?q=MESSAGETABLE) resource-definition statement. To access the message strings, use the [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) function.
+Message tables are special string resources used when displaying error messages. They are declared in a resource file using the [MESSAGETABLE](https://msdn.microsoft.com/library/Aa381027(v=VS.85).aspx) resource-definition statement. To access the message strings, use the [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) function.
 
 The system provides a message table for the [system error codes](system-error-codes.md). To retrieve the string that corresponds to the error code, call [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag.
 

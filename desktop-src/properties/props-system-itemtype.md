@@ -40,10 +40,10 @@ The value for System.ItemType is intended to be programmatically parsed, and can
 
 The FriendlyTypeName element of a ProgID should be a localized version of the application name (@winword.dll,-42), while the default value of the ProgID key is a non-localized name (Word.Document.12).
 
-If there is no canonical type, the value is VT\_EMPTY. If the item is a file ([System.FileName](https://www.bing.com/search?q=System.FileName) is not VT\_EMPTY), the value is the same as [System.FileExtension](https://www.bing.com/search?q=System.FileExtension). Use [System.ItemTypeText](https://www.bing.com/search?q=System.ItemTypeText) when you want to display the type to end users in a view.
+If there is no canonical type, the value is VT\_EMPTY. If the item is a file ([System.FileName](https://msdn.microsoft.com/library/Bb760703(v=VS.85).aspx) is not VT\_EMPTY), the value is the same as [System.FileExtension](https://msdn.microsoft.com/library/Bb760699(v=VS.85).aspx). Use [System.ItemTypeText](https://msdn.microsoft.com/library/Bb760783(v=VS.85).aspx) when you want to display the type to end users in a view.
 
 > [!Note]  
-> If the item is a file, passing the [System.ItemType](https://www.bing.com/search?q=System.ItemType) value to [**PSFormatForDisplay**](https://www.bing.com/search?q=**PSFormatForDisplay**) results in the same value as [System.ItemTypeText](https://www.bing.com/search?q=System.ItemTypeText).
+> If the item is a file, passing the [System.ItemType](https://msdn.microsoft.com/library/Bb760781(v=VS.85).aspx) value to [**PSFormatForDisplay**](https://msdn.microsoft.com/library/Bb776496(v=VS.85).aspx) results in the same value as [System.ItemTypeText](https://msdn.microsoft.com/library/Bb760783(v=VS.85).aspx).
 
  
 
@@ -68,46 +68,46 @@ Example values:
 
 <dl> <dt>
 
-[propertyDescription](https://www.bing.com/search?q=propertyDescription)
+[propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx)
 </dt> <dt>
 
-[searchInfo](https://www.bing.com/search?q=searchInfo)
+[searchInfo](https://msdn.microsoft.com/library/Bb773885(v=VS.85).aspx)
 </dt> <dt>
 
-[labelInfo](https://www.bing.com/search?q=labelInfo)
+[labelInfo](https://msdn.microsoft.com/library/Bb773876(v=VS.85).aspx)
 </dt> <dt>
 
-[typeInfo](https://www.bing.com/search?q=typeInfo)
+[typeInfo](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx)
 </dt> <dt>
 
-[displayInfo](https://www.bing.com/search?q=displayInfo)
+[displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx)
 </dt> <dt>
 
-[stringFormat](https://www.bing.com/search?q=stringFormat)
+[stringFormat](https://msdn.microsoft.com/library/Bb773886(v=VS.85).aspx)
 </dt> <dt>
 
-[booleanFormat](https://www.bing.com/search?q=booleanFormat)
+[booleanFormat](https://msdn.microsoft.com/library/Bb773862(v=VS.85).aspx)
 </dt> <dt>
 
-[numberFormat](https://www.bing.com/search?q=numberFormat)
+[numberFormat](https://msdn.microsoft.com/library/Bb773877(v=VS.85).aspx)
 </dt> <dt>
 
-[dateTimeFormat](https://www.bing.com/search?q=dateTimeFormat)
+[dateTimeFormat](https://msdn.microsoft.com/library/Bb773863(v=VS.85).aspx)
 </dt> <dt>
 
-[enumeratedList](https://www.bing.com/search?q=enumeratedList)
+[enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx)
 </dt> <dt>
 
-[drawControl](https://www.bing.com/search?q=drawControl)
+[drawControl](https://msdn.microsoft.com/library/Bb773866(v=VS.85).aspx)
 </dt> <dt>
 
-[editControl](https://www.bing.com/search?q=editControl)
+[editControl](https://msdn.microsoft.com/library/Bb773868(v=VS.85).aspx)
 </dt> <dt>
 
-[filterControl](https://www.bing.com/search?q=filterControl)
+[filterControl](https://msdn.microsoft.com/library/Bb773874(v=VS.85).aspx)
 </dt> <dt>
 
-[queryControl](https://www.bing.com/search?q=queryControl)
+[queryControl](https://msdn.microsoft.com/library/Bb773883(v=VS.85).aspx)
 </dt> <dt>
 
 [Programmatic Identifiers](https://msdn.microsoft.com/en-us/library/Cc144152(v=VS.85).aspx)

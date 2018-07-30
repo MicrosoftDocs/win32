@@ -39,13 +39,13 @@ In general, the standard text support is transparent to applications processing 
 
 ## Complex Script Processing Using Edit Controls
 
-The standard Windows edit controls have been extended to support multilingual text and complex scripts. The extended support includes input and display, as well as correct cursor movement over character clusters, for example, in Thai and Devanagari scripts. For more information, see [Edit Controls](https://www.bing.com/search?q=Edit+Controls).
+The standard Windows edit controls have been extended to support multilingual text and complex scripts. The extended support includes input and display, as well as correct cursor movement over character clusters, for example, in Thai and Devanagari scripts. For more information, see [Edit Controls](https://msdn.microsoft.com/library/Bb775458(v=VS.85).aspx).
 
 ## Complex Script Processing Using Rich Edit Controls
 
 Rich Edit 3.0 is a higher-level collection of interfaces that takes advantage of Uniscribe to insulate text layout applications from the complexities of certain scripts. Rich Edit is the simplest way for applications to display complex scripts even though their primary purpose is not necessarily text layout. Rich Edit provides fast, versatile editing of rich Unicode multilingual text and simple plain text. It includes extensive message and COM interfaces, text editing, formatting, line breaking, simple table layout, vertical text layout, bidirectional text layout, Indic and Thai support, an editing user interface much like Microsoft Word, and Text Object Model interfaces.
 
-Along with the Rich Edit interfaces, applications can use the Rich Edit [**TextOut**](https://msdn.microsoft.com/en-us/library/Dd145133(v=VS.85).aspx) function to automatically parse, shape, position, and break lines. For more information, see [Rich Edit Controls](https://www.bing.com/search?q=Rich+Edit+Controls).
+Along with the Rich Edit interfaces, applications can use the Rich Edit [**TextOut**](https://msdn.microsoft.com/en-us/library/Dd145133(v=VS.85).aspx) function to automatically parse, shape, position, and break lines. For more information, see [Rich Edit Controls](https://msdn.microsoft.com/library/Bb787605(v=VS.85).aspx).
 
 ## Complex Script Processing Using Uniscribe
 

@@ -23,7 +23,7 @@ This attribute is used when a media sink proxies a hardware device and is able t
 
 In this scenario, the decoder and the sink are still represented in the Microsoft Media Foundation by a [Media Foundation transform](media-foundation-transforms.md) (MFT) and a media sink. However, no data flows between these two objects at the pipeline layer, only at the hardware layer, as shown in the following diagram.
 
-![a diagram that shows a hardware proxy source.](https://www.bing.com/search?q=a+diagram+that+shows+a+hardware+proxy+source.)
+![a diagram that shows a hardware proxy source.](images/proxy-mft4.png)
 
 The connection between the MFT and the media sink is negotiated as follows.
 

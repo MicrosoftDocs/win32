@@ -20,7 +20,7 @@ The following sections describe programming the Input Panel using the Text Input
 -   [Enabling Text Correction for Custom Ink Collectors](enabling-text-correction-for-custom-ink-collectors.md)
 
 > [!Note]  
-> The Text Input Panel is implemented in an executable file called TabTip.exe. Running TabTip.exe with the */SeekDesktop* parameter attempts to run a reduced functionality version of Input Panel on a nonstandard interactive desktop, as created with [**CreateDesktop**](base.createdesktop). For most created desktops, Input Panel will automatically run in this mode already. This parameter provides the means for launching it in unusual application scenarios that otherwise prevent the automatic launch. If Input Panel is already running on the desktop, this parameter will have no effect and the instance of TabTip.exe will exit immediately.
+> The Text Input Panel is implemented in an executable file called TabTip.exe. Running TabTip.exe with the */SeekDesktop* parameter attempts to run a reduced functionality version of Input Panel on a nonstandard interactive desktop, as created with [**CreateDesktop**](https://msdn.microsoft.com/library/ms682124(v=VS.85).aspx). For most created desktops, Input Panel will automatically run in this mode already. This parameter provides the means for launching it in unusual application scenarios that otherwise prevent the automatic launch. If Input Panel is already running on the desktop, this parameter will have no effect and the instance of TabTip.exe will exit immediately.
 
  
 

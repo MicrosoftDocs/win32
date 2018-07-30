@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 You can draw your own minimized windows rather than having the system draw them for you. Most applications define a class icon when registering the window class for the window, and the system draws the icon when the window is minimized. If you set the class icon to **NULL**, however, the system sends a [**WM\_PAINT**](wm-paint.md) message to your window procedure whenever the window is minimized, enabling the window procedure to draw in the minimized window.
 
-In the following example, the window procedure draws a star in the minimized window. The procedure uses the [**IsIconic**](https://www.bing.com/search?q=**IsIconic**) function to determine when the window is minimized. This ensures that the star is drawn only when the window is minimized.
+In the following example, the window procedure draws a star in the minimized window. The procedure uses the [**IsIconic**](https://msdn.microsoft.com/library/ms633527(v=VS.85).aspx) function to determine when the window is minimized. This ensures that the star is drawn only when the window is minimized.
 
 
 ```C++
@@ -46,7 +46,7 @@ case WM_PAINT:
 
 
 
-You set the class icon to **NULL** by setting the **hIcon** member of the [**WNDCLASS**](https://www.bing.com/search?q=**WNDCLASS**) structure to **NULL** before calling the [**RegisterClass**](https://www.bing.com/search?q=**RegisterClass**) function for the window class.
+You set the class icon to **NULL** by setting the **hIcon** member of the [**WNDCLASS**](https://msdn.microsoft.com/library/ms633576(v=VS.85).aspx) structure to **NULL** before calling the [**RegisterClass**](https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx) function for the window class.
 
  
 

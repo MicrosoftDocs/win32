@@ -36,7 +36,7 @@ This topic discusses a sample XML-based file format that describes a recipe with
 
 ## Before You Begin
 
-Property handlers are COM objects that create the [**IPropertyStore**](https://www.bing.com/search?q=**IPropertyStore**) abstraction for a specific file format. They read (parse) and write this file format in a manner that conforms to its specification. Some property handlers do their work based on APIs that abstract access to a specific file format. Before you develop a property handler for your file format, you need to understand how your file format stores properties, and how those properties (names and values) are mapped into the property store abstraction.
+Property handlers are COM objects that create the [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) abstraction for a specific file format. They read (parse) and write this file format in a manner that conforms to its specification. Some property handlers do their work based on APIs that abstract access to a specific file format. Before you develop a property handler for your file format, you need to understand how your file format stores properties, and how those properties (names and values) are mapped into the property store abstraction.
 
 When planning your implementation, remember that property handlers are low-level components that are loaded in the context of processes like Windows Explorer, the Windows Search indexer, and third-party applications that use the Shell item programming model. As a result, property handlers cannot be implemented in managed code, and should be implemented in C++. If your handler uses any APIs or services to do its work, you must ensure that those services can function properly in the environment(s) in which your property handler is loaded.
 
@@ -202,9 +202,9 @@ HRESULT CRecipePropertyStore::_LoadProperties()
 
 
 
-The **\_LoadProperties** method calls the Shell helper function [**PSCreateMemoryPropertyStore**](https://www.bing.com/search?q=**PSCreateMemoryPropertyStore**) to create an in-memory property store (cache) for the handled properties. By using a cache, changes are tracked for you. This frees you from tracking whether a property value has been changed in the cache but not yet saved to persisted storage. It also frees you from needlessly persisting property values that have not changed.
+The **\_LoadProperties** method calls the Shell helper function [**PSCreateMemoryPropertyStore**](https://msdn.microsoft.com/library/Bb776489(v=VS.85).aspx) to create an in-memory property store (cache) for the handled properties. By using a cache, changes are tracked for you. This frees you from tracking whether a property value has been changed in the cache but not yet saved to persisted storage. It also frees you from needlessly persisting property values that have not changed.
 
-The **\_LoadProperties** method also calls **\_LoadProperty** whose implementation is illustrated in the following code) once for each mapped property. **\_LoadProperty** gets the value of the property as specified in the **PropertyMap** element in the XML stream and assigns it to the in-memory cache through a call to [**IPropertyStoreCache::SetValueAndState**](https://www.bing.com/search?q=**IPropertyStoreCache::SetValueAndState**). The PSC\_NORMAL flag in the call to **IPropertyStoreCache::SetValueAndState** indicates that the property value has not been altered since the time it entered the cache.
+The **\_LoadProperties** method also calls **\_LoadProperty** whose implementation is illustrated in the following code) once for each mapped property. **\_LoadProperty** gets the value of the property as specified in the **PropertyMap** element in the XML stream and assigns it to the in-memory cache through a call to [**IPropertyStoreCache::SetValueAndState**](https://msdn.microsoft.com/library/Bb761469(v=VS.85).aspx). The PSC\_NORMAL flag in the call to **IPropertyStoreCache::SetValueAndState** indicates that the property value has not been altered since the time it entered the cache.
 
 
 ```
@@ -255,7 +255,7 @@ HRESULT CRecipePropertyStore::_LoadProperty(PropertyMap &amp;map)
 
 In the implementation of **\_LoadProperty**, a property value is provided in the form of a [**PROPVARIANT**](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx). A set of APIs in the software development kit (SDK) is provided to convert from primitive types such as **PWSTR** or **int** to or from **PROPVARIANT** types. These APIs are found in Propvarutil.h.
 
-For example, to convert a [**PROPVARIANT**](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx) to a string, you can use [**PropVariantToString**](https://www.bing.com/search?q=**PropVariantToString**) as illustrated here.
+For example, to convert a [**PROPVARIANT**](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx) to a string, you can use [**PropVariantToString**](https://msdn.microsoft.com/library/Bb776559(v=VS.85).aspx) as illustrated here.
 
 
 ```
@@ -264,7 +264,7 @@ PropVariantToString(REFPROPVARIANT propvar, PWSTR psz, UINT cch);
 
 
 
-To initialize a PROPVARIANT from a string, you can use [**InitPropVariantFromString**](https://www.bing.com/search?q=**InitPropVariantFromString**).
+To initialize a PROPVARIANT from a string, you can use [**InitPropVariantFromString**](https://msdn.microsoft.com/library/Bb762305(v=VS.85).aspx).
 
 
 ```
@@ -386,7 +386,7 @@ HRESULT CRecipePropertyStore::_LoadExtendedProperties()
 
 
 
-Serialization APIs declared in Propsys.h are used to serialize and deserialize [**PROPVARIANT**](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx) types into blobs of data, and then Base64 encoding is used to serialize those blobs into strings that can be saved in the XML. These strings are stored in the **EncodedValue** attribute of the **ExtendedProperties** element. The following utility method, implemented in the sample's Util.cpp file, performs the serialization. It begins with a call to the [**StgSerializePropVariant**](https://www.bing.com/search?q=**StgSerializePropVariant**) function to perform the binary serialization, as illustrated in the following code example.
+Serialization APIs declared in Propsys.h are used to serialize and deserialize [**PROPVARIANT**](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx) types into blobs of data, and then Base64 encoding is used to serialize those blobs into strings that can be saved in the XML. These strings are stored in the **EncodedValue** attribute of the **ExtendedProperties** element. The following utility method, implemented in the sample's Util.cpp file, performs the serialization. It begins with a call to the [**StgSerializePropVariant**](https://msdn.microsoft.com/library/Bb776579(v=VS.85).aspx) function to perform the binary serialization, as illustrated in the following code example.
 
 
 ```
@@ -449,9 +449,9 @@ For information about support for open metadata, see "File Types that Support Op
 
 ## Full-Text Contents
 
-Property handlers can also facilitate a full-text search of the file contents, and they are an easy way to provide that functionality if the file format is not overly complicated. There is an alternative, more powerful way to provide the full text of the file through the [**IFilter**](https://www.bing.com/search?q=**IFilter**) interface implementation.
+Property handlers can also facilitate a full-text search of the file contents, and they are an easy way to provide that functionality if the file format is not overly complicated. There is an alternative, more powerful way to provide the full text of the file through the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface implementation.
 
-The following table summarizes the benefits of each approach using either [**IFilter**](https://www.bing.com/search?q=**IFilter**) or [**IPropertyStore**](https://www.bing.com/search?q=**IPropertyStore**).
+The following table summarizes the benefits of each approach using either [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) or [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 
 
@@ -469,7 +469,7 @@ The following table summarizes the benefits of each approach using either [**IFi
 
  
 
-In the recipe handler sample, the recipe file format does not have any complex requirements, so only [**IPropertyStore**](https://www.bing.com/search?q=**IPropertyStore**) has been implemented for full-text support. Full-text search is implemented for the XML nodes named in the following array.
+In the recipe handler sample, the recipe file format does not have any complex requirements, so only [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) has been implemented for full-text support. Full-text search is implemented for the XML nodes named in the following array.
 
 
 ```
@@ -483,7 +483,7 @@ const PWSTR c_rgszContentXPath[] = {
 
 
 
-The property system contains the `System.Search.Contents` (PKEY\_Search\_Contents) property, which was created to provide full-text content to the indexer. This property's value is never displayed directly in the UI; the text from all of the XML nodes named in the array above are concatenated into a single string. That string is then provided to the indexer as the full-text content of the recipe file through a call to [**IPropertyStoreCache::SetValueAndState**](https://www.bing.com/search?q=**IPropertyStoreCache::SetValueAndState**) as illustrated in the following code example.
+The property system contains the `System.Search.Contents` (PKEY\_Search\_Contents) property, which was created to provide full-text content to the indexer. This property's value is never displayed directly in the UI; the text from all of the XML nodes named in the array above are concatenated into a single string. That string is then provided to the indexer as the full-text content of the recipe file through a call to [**IPropertyStoreCache::SetValueAndState**](https://msdn.microsoft.com/library/Bb761469(v=VS.85).aspx) as illustrated in the following code example.
 
 
 ```
@@ -542,7 +542,7 @@ When writing a property handler, you usually need to consider the following two 
 -   Primary properties: Properties that your file type supports natively. For example, a photo property handler for Exchangeable Image File (EXIF) metadata natively supports `System.Photo.FNumber`.
 -   Extended properties: Properties that your file type supports as part of open metadata.
 
-Because the sample uses in-memory cache, implementing [**IPropertyStore**](https://www.bing.com/search?q=**IPropertyStore**) methods is just a matter of delegating to that cache, as illustrated in the following code example.
+Because the sample uses in-memory cache, implementing [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) methods is just a matter of delegating to that cache, as illustrated in the following code example.
 
 
 ```
@@ -560,14 +560,14 @@ IFACEMETHODIMP GetValue(REFPROPERTYKEY key, __out PROPVARIANT *pPropVar)
 
 If you choose not to delegate to the in-memory cache, you must implement your methods to provide&gt; the following expected behavior:
 
--   [**IPropertyStore::GetCount**](https://www.bing.com/search?q=**IPropertyStore::GetCount**): If there are no properties, this method returns **S\_OK**.
--   [**IPropertyStore::GetAt**](https://www.bing.com/search?q=**IPropertyStore::GetAt**): If *iProp* is greater than or equal to *cProps*, this method returns E\_INVALIDARG and the structure pointed to by the *pkey* parameter is filled with zeroes.
--   [**IPropertyStore::GetCount**](https://www.bing.com/search?q=**IPropertyStore::GetCount**) and [**IPropertyStore::GetAt**](https://www.bing.com/search?q=**IPropertyStore::GetAt**) reflect the current state of the property handler. If a [**PROPERTYKEY**](https://www.bing.com/search?q=**PROPERTYKEY**) is added to or removed from the file through [**IPropertyStore::SetValue**](https://www.bing.com/search?q=**IPropertyStore::SetValue**), these two methods must reflect that change the next time they are called.
--   [**IPropertyStore::GetValue**](https://www.bing.com/search?q=**IPropertyStore::GetValue**): If this method is asked for a value that does not exist, it returns **S\_OK** with the value reported as VT\_EMPTY.
+-   [**IPropertyStore::GetCount**](https://msdn.microsoft.com/library/Bb761472(v=VS.85).aspx): If there are no properties, this method returns **S\_OK**.
+-   [**IPropertyStore::GetAt**](https://msdn.microsoft.com/library/Bb761471(v=VS.85).aspx): If *iProp* is greater than or equal to *cProps*, this method returns E\_INVALIDARG and the structure pointed to by the *pkey* parameter is filled with zeroes.
+-   [**IPropertyStore::GetCount**](https://msdn.microsoft.com/library/Bb761472(v=VS.85).aspx) and [**IPropertyStore::GetAt**](https://msdn.microsoft.com/library/Bb761471(v=VS.85).aspx) reflect the current state of the property handler. If a [**PROPERTYKEY**](https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx) is added to or removed from the file through [**IPropertyStore::SetValue**](https://msdn.microsoft.com/library/Bb761475(v=VS.85).aspx), these two methods must reflect that change the next time they are called.
+-   [**IPropertyStore::GetValue**](https://msdn.microsoft.com/library/Bb761473(v=VS.85).aspx): If this method is asked for a value that does not exist, it returns **S\_OK** with the value reported as VT\_EMPTY.
 
 ## Writing Back Values
 
-When the property handler writes the value of a property using [**IPropertyStore::SetValue**](https://www.bing.com/search?q=**IPropertyStore::SetValue**), it does not write the value to the file until [**IPropertyStore::Commit**](https://www.bing.com/search?q=**IPropertyStore::Commit**) is called. The in-memory cache can be useful in implementing this scheme. In the sample code the **IPropertyStore::SetValue** implementation simply sets the new value in the in-memory cache and sets the state of that property to PSC\_DIRTY.
+When the property handler writes the value of a property using [**IPropertyStore::SetValue**](https://msdn.microsoft.com/library/Bb761475(v=VS.85).aspx), it does not write the value to the file until [**IPropertyStore::Commit**](https://msdn.microsoft.com/library/Bb761470(v=VS.85).aspx) is called. The in-memory cache can be useful in implementing this scheme. In the sample code the **IPropertyStore::SetValue** implementation simply sets the new value in the in-memory cache and sets the state of that property to PSC\_DIRTY.
 
 
 ```
@@ -592,7 +592,7 @@ HRESULT CRecipePropertyStore::SetValue(REFPROPERTYKEY key, const PROPVARIANT *pP
 
 
 
-In any [**IPropertyStore**](https://www.bing.com/search?q=**IPropertyStore**) implementation, the following behavior is expected from [**IPropertyStore::SetValue**](https://www.bing.com/search?q=**IPropertyStore::SetValue**):
+In any [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) implementation, the following behavior is expected from [**IPropertyStore::SetValue**](https://msdn.microsoft.com/library/Bb761475(v=VS.85).aspx):
 
 -   If the property already exists, the value of the property is set.
 -   If the property does not exist, the new property is added and its value set.
@@ -611,7 +611,7 @@ HKEY_CLASSES_ROOT
          ManualSafeSave = 1
 ```
 
-When a handler specifies the ManualSafeSave value, the stream with which it is initialized is not a transacted stream (STGM\_TRANSACTED). The handler itself must implement the safe save function to ensure that the file is not corrupted if the save operation is interrupted. If the handler implements in-place writing, it will write to the stream that it is given. If the handler does not support this feature, then it must retrieve a stream with which to write the updated copy of the file using [**IDestinationStreamFactory::GetDestinationStream**](https://msdn.microsoft.com/en-us/library/Bb762054(v=VS.85).aspx). After the handler is done writing, it should call [**IPropertyStore::Commit**](https://www.bing.com/search?q=**IPropertyStore::Commit**) on the original stream to complete the operation, and replace the contents of the original stream with the new copy of the file.
+When a handler specifies the ManualSafeSave value, the stream with which it is initialized is not a transacted stream (STGM\_TRANSACTED). The handler itself must implement the safe save function to ensure that the file is not corrupted if the save operation is interrupted. If the handler implements in-place writing, it will write to the stream that it is given. If the handler does not support this feature, then it must retrieve a stream with which to write the updated copy of the file using [**IDestinationStreamFactory::GetDestinationStream**](https://msdn.microsoft.com/en-us/library/Bb762054(v=VS.85).aspx). After the handler is done writing, it should call [**IPropertyStore::Commit**](https://msdn.microsoft.com/library/Bb761470(v=VS.85).aspx) on the original stream to complete the operation, and replace the contents of the original stream with the new copy of the file.
 
 ManualSafeSave is also the default situation if you do not initialize your handler with a stream. Without an original stream to receive the contents of the temporary stream, you must use [**ReplaceFile**](https://msdn.microsoft.com/en-us/library/Aa365512(v=VS.85).aspx) to perform an atomic replacement of the source file.
 
@@ -619,14 +619,14 @@ Large file formats that will be used in a way that produces files greater than 1
 
 For very large files, for example a video file of 1 GB or more, a different solution is required. If there is not enough space in the file to perform in-place writing, the handler may fail the property update if the amount of space reserved for in-place property writing has been exhausted. This failure occurs to avoid poor performance arising from 2 GB of IO (1 to read, 1 to write). Because of this potential failure, these file formats should reserve enough space for in-place property writing.
 
-If the file has enough space in its header to write metadata, and if the writing of that metadata does not cause the file to grow or shrink, it might be safe to write in-place. We recommend 64 KB as a starting point. Writing in-place is equivalent to the handler asking for ManualSafeSave and calling [**IStream::Commit**](https://msdn.microsoft.com/en-us/library/Aa380036(v=VS.85).aspx) in the implementation of [**IPropertyStore::Commit**](https://www.bing.com/search?q=**IPropertyStore::Commit**), and has much better performance than copy-on-write. If the file size changes due to property value changes, writing in-place should not be attempted because of the potential for a corrupted file in the event of an abnormal termination.
+If the file has enough space in its header to write metadata, and if the writing of that metadata does not cause the file to grow or shrink, it might be safe to write in-place. We recommend 64 KB as a starting point. Writing in-place is equivalent to the handler asking for ManualSafeSave and calling [**IStream::Commit**](https://msdn.microsoft.com/en-us/library/Aa380036(v=VS.85).aspx) in the implementation of [**IPropertyStore::Commit**](https://msdn.microsoft.com/library/Bb761470(v=VS.85).aspx), and has much better performance than copy-on-write. If the file size changes due to property value changes, writing in-place should not be attempted because of the potential for a corrupted file in the event of an abnormal termination.
 
 > [!Note]  
 > For performance reasons we recommend that the ManualSafeSave option be used with property handlers working with files that are 100 KB or larger.
 
  
 
-As illustrated in the following sample implementation of [**IPropertyStore::Commit**](https://www.bing.com/search?q=**IPropertyStore::Commit**), the handler for ManualSafeSave is registered to illustrate the manual safe save option. The **\_SaveCacheToDom** method writes the property values stored in the in-memory cache to the XMLdocument object.
+As illustrated in the following sample implementation of [**IPropertyStore::Commit**](https://msdn.microsoft.com/library/Bb761470(v=VS.85).aspx), the handler for ManualSafeSave is registered to illustrate the manual safe save option. The **\_SaveCacheToDom** method writes the property values stored in the in-memory cache to the XMLdocument object.
 
 
 ```
@@ -727,7 +727,7 @@ Now iterate through the properties to determine whether the value of a property 
 
 
 
-The [**IPropertyStoreCache::GetState**](https://www.bing.com/search?q=**IPropertyStoreCache::GetState**) method gets the state of the property in the cache. The PSC\_DIRTY flag, which was set in the [**IPropertyStore::SetValue**](https://www.bing.com/search?q=**IPropertyStore::SetValue**) implementation, marks a property as changed.
+The [**IPropertyStoreCache::GetState**](https://msdn.microsoft.com/library/Bb761462(v=VS.85).aspx) method gets the state of the property in the cache. The PSC\_DIRTY flag, which was set in the [**IPropertyStore::SetValue**](https://msdn.microsoft.com/library/Bb761475(v=VS.85).aspx) implementation, marks a property as changed.
 
 
 ```
@@ -789,7 +789,7 @@ If a property is not in the map, it is a new property that was set by Windows Ex
 
 ## Implementing IPropertyStoreCapabilities
 
-[**IPropertyStoreCapabilities**](https://www.bing.com/search?q=**IPropertyStoreCapabilities**) informs the Shell UI whether a particular property can be edited in the Shell UI. It is important to note that this relates only to the ability to edit the property in the UI, not whether you can successfully call [**IPropertyStore::SetValue**](https://www.bing.com/search?q=**IPropertyStore::SetValue**) on the property. A property that provokes a return value of S\_FALSE from [**IPropertyStoreCapabilities::IsPropertyWritable**](https://www.bing.com/search?q=**IPropertyStoreCapabilities::IsPropertyWritable**) might still be capable of being set through an application.
+[**IPropertyStoreCapabilities**](https://msdn.microsoft.com/library/Bb761452(v=VS.85).aspx) informs the Shell UI whether a particular property can be edited in the Shell UI. It is important to note that this relates only to the ability to edit the property in the UI, not whether you can successfully call [**IPropertyStore::SetValue**](https://msdn.microsoft.com/library/Bb761475(v=VS.85).aspx) on the property. A property that provokes a return value of S\_FALSE from [**IPropertyStoreCapabilities::IsPropertyWritable**](https://msdn.microsoft.com/library/Bb761454(v=VS.85).aspx) might still be capable of being set through an application.
 
 
 ```
@@ -801,11 +801,11 @@ interface IPropertyStoreCapabilities : IUnknown
 
 
 
-[**IsPropertyWritable**](https://www.bing.com/search?q=**IsPropertyWritable**) returns **S\_OK** to indicate that end users should be allowed to edit the property directly; S\_FALSE indicates that they should not. S\_FALSE can mean that applications are responsible for writing the property, not users. The Shell disables editing controls as appropriate based on the results of calls to this method. A handler that does not implement [**IPropertyStoreCapabilities**](https://www.bing.com/search?q=**IPropertyStoreCapabilities**) is assumed to support open metadata through support for the writing of any property.
+[**IsPropertyWritable**](https://msdn.microsoft.com/library/Bb761454(v=VS.85).aspx) returns **S\_OK** to indicate that end users should be allowed to edit the property directly; S\_FALSE indicates that they should not. S\_FALSE can mean that applications are responsible for writing the property, not users. The Shell disables editing controls as appropriate based on the results of calls to this method. A handler that does not implement [**IPropertyStoreCapabilities**](https://msdn.microsoft.com/library/Bb761452(v=VS.85).aspx) is assumed to support open metadata through support for the writing of any property.
 
 If you are building a handler that handles only read-only properties, then you should implement your **Initialize** method ([**IInitializeWithStream**](https://msdn.microsoft.com/en-us/library/Bb761810(v=VS.85).aspx), [**IInitializeWithItem**](https://msdn.microsoft.com/en-us/library/Bb761814(v=VS.85).aspx), or [**IInitializeWithFile**](https://msdn.microsoft.com/en-us/library/Bb761818(v=VS.85).aspx)) so that it returns STG\_E\_ACCESSDENIED when called with the STGM\_READWRITE flag.
 
-Some properties have their [isInnate](https://www.bing.com/search?q=isInnate) attribute set to **true**. Innate properties have the following characteristics:
+Some properties have their [isInnate](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx) attribute set to **true**. Innate properties have the following characteristics:
 
 -   The property is usually calculated in some way. For instance, `System.Image.BitDepth` is calculated from the image itself.
 -   Changing the property would not make sense without changing the file. For instance, changing `System.Image.Dimensions` would not resize the image, so it does not make sense to allow the user to change it.
@@ -821,19 +821,19 @@ With the property handler implemented, it must be registered and its file name e
 
 <dl> <dt>
 
-[Understanding Property Handlers](https://www.bing.com/search?q=Understanding+Property+Handlers)
+[Understanding Property Handlers](https://msdn.microsoft.com/library/Cc144129(v=VS.85).aspx)
 </dt> <dt>
 
-[Using Kind Names](https://www.bing.com/search?q=Using+Kind+Names)
+[Using Kind Names](https://msdn.microsoft.com/library/Cc144136(v=VS.85).aspx)
 </dt> <dt>
 
-[Using Property Lists](https://www.bing.com/search?q=Using+Property+Lists)
+[Using Property Lists](https://msdn.microsoft.com/library/Cc144133(v=VS.85).aspx)
 </dt> <dt>
 
 [Registering and Distributing Property Handlers](https://www.bing.com/search?q=Registering+and+Distributing+Property+Handlers)
 </dt> <dt>
 
-[Property Handler Best Practices and FAQ](https://www.bing.com/search?q=Property+Handler+Best+Practices+and+FAQ)
+[Property Handler Best Practices and FAQ](https://msdn.microsoft.com/library/Dd894083(v=VS.85).aspx)
 </dt> </dl>
 
  

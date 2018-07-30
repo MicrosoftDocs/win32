@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The **WM\_DEVMODECHANGE** message is sent to all top-level windows whenever the user changes device-mode settings.
 
-A window receives this message through its [**WindowProc**](https://www.bing.com/search?q=**WindowProc**) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -65,7 +65,7 @@ An application should return zero if it processes this message.
 
 ## Remarks
 
-This message cannot be sent directly to a window. To send the **WM\_DEVMODECHANGE** message to all top-level windows, use the [**SendMessageTimeout**](https://www.bing.com/search?q=**SendMessageTimeout**) function with the *hWnd* parameter set to HWND\_BROADCAST.
+This message cannot be sent directly to a window. To send the **WM\_DEVMODECHANGE** message to all top-level windows, use the [**SendMessageTimeout**](https://msdn.microsoft.com/library/ms644952(v=VS.85).aspx) function with the *hWnd* parameter set to HWND\_BROADCAST.
 
 ## Requirements
 

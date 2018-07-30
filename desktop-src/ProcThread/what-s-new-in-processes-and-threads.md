@@ -27,10 +27,10 @@ The following new functions are used with processors and processor groups.
 
 | Function                                                                                | Description                                                                                                                                                          |
 |-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateRemoteThreadEx**](/windows/desktop/api)<br/>                         | Creates a thread that runs in the virtual address space of another process and optionally specifies extended attributes such as processor group affinity.<br/> |
+| [**CreateRemoteThreadEx**](https://msdn.microsoft.com/en-us/library/Dd405484(v=VS.85).aspx)<br/>                         | Creates a thread that runs in the virtual address space of another process and optionally specifies extended attributes such as processor group affinity.<br/> |
 | [**GetActiveProcessorCount**](/windows/desktop/api/WinBase/nf-winbase-getactiveprocessorcount)<br/>                   | Returns the number of active processors in a processor group or in the system.<br/>                                                                            |
 | [**GetActiveProcessorGroupCount**](/windows/desktop/api/WinBase/nf-winbase-getactiveprocessorgroupcount)<br/>         | Returns the number of active processor groups in the system.<br/>                                                                                              |
-| [**GetCurrentProcessorNumberEx**](/windows/desktop/api)<br/>           | Retrieves the processor group and number of the logical processor in which the calling thread is running.<br/>                                                 |
+| [**GetCurrentProcessorNumberEx**](https://msdn.microsoft.com/en-us/library/Dd405487(v=VS.85).aspx)<br/>           | Retrieves the processor group and number of the logical processor in which the calling thread is running.<br/>                                                 |
 | [**GetLogicalProcessorInformationEx**](https://msdn.microsoft.com/en-us/library/Dd405488(v=VS.85).aspx)<br/> | Retrieves information about the relationships of logical processors and related hardware.<br/>                                                                 |
 | [**GetMaximumProcessorCount**](/windows/desktop/api/WinBase/nf-winbase-getmaximumprocessorcount)<br/>                 | Returns the maximum number of logical processors that a processor group or the system can have.<br/>                                                           |
 | [**GetMaximumProcessorGroupCount**](/windows/desktop/api/WinBase/nf-winbase-getmaximumprocessorgroupcount)<br/>       | Returns the maximum number of processor groups that the system can have. <br/>                                                                                 |
@@ -42,10 +42,10 @@ The following new functions are used with processors and processor groups.
 | [**GetProcessGroupAffinity**](https://msdn.microsoft.com/en-us/library/Dd405496(v=VS.85).aspx)<br/>                   | Retrieves the processor group affinity of the specified process.<br/>                                                                                          |
 | [**GetProcessorSystemCycleTime**](https://msdn.microsoft.com/en-us/library/Dd405497(v=VS.85).aspx)<br/>           | Retrieves the cycle time each processor in the specified group spent executing deferred procedure calls (DPCs) and interrupt service routines (ISRs).<br/>     |
 | [**GetThreadGroupAffinity**](https://msdn.microsoft.com/en-us/library/Dd405498(v=VS.85).aspx)<br/>                     | Retrieves the processor group affinity of the specified thread.<br/>                                                                                           |
-| [**GetThreadIdealProcessorEx**](/windows/desktop/api)<br/>               | Retrieves the processor number of the ideal processor for the specified thread.<br/>                                                                           |
-| [**QueryIdleProcessorCycleTimeEx**](/windows/desktop/api)<br/>       | Retrieves the accumulated cycle time for the idle thread on each logical processor in the specified processor group. <br/>                                     |
+| [**GetThreadIdealProcessorEx**](https://msdn.microsoft.com/en-us/library/Dd405499(v=VS.85).aspx)<br/>               | Retrieves the processor number of the ideal processor for the specified thread.<br/>                                                                           |
+| [**QueryIdleProcessorCycleTimeEx**](https://msdn.microsoft.com/en-us/library/Dd405507(v=VS.85).aspx)<br/>       | Retrieves the accumulated cycle time for the idle thread on each logical processor in the specified processor group. <br/>                                     |
 | [**SetThreadGroupAffinity**](https://msdn.microsoft.com/en-us/library/Dd405516(v=VS.85).aspx)<br/>                     | Sets the processor group affinity for the specified thread.<br/>                                                                                               |
-| [**SetThreadIdealProcessorEx**](/windows/desktop/api)<br/>               | Sets the ideal processor for the specified thread and optionally retrieves the previous ideal processor.<br/>                                                  |
+| [**SetThreadIdealProcessorEx**](https://msdn.microsoft.com/en-us/library/Dd405517(v=VS.85).aspx)<br/>               | Sets the ideal processor for the specified thread and optionally retrieves the previous ideal processor.<br/>                                                  |
 
 
 
@@ -57,10 +57,10 @@ The following new functions are used with thread pools.
 
 | Function                                                                              | Description                                                                                                    |
 |---------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| [**QueryThreadpoolStackInformation**](/windows/desktop/api)<br/> | Retrieves the stack reserve and commit sizes for threads in the specified thread pool.<br/>              |
+| [**QueryThreadpoolStackInformation**](https://msdn.microsoft.com/en-us/library/Dd405508(v=VS.85).aspx)<br/> | Retrieves the stack reserve and commit sizes for threads in the specified thread pool.<br/>              |
 | [**SetThreadpoolCallbackPersistent**](/windows/desktop/api/WinBase/nf-winbase-setthreadpoolcallbackpersistent)<br/> | Specifies that the callback should run on a persistent thread.<br/>                                      |
 | [**SetThreadpoolCallbackPriority**](/windows/desktop/api/WinBase/nf-winbase-setthreadpoolcallbackpriority)<br/>     | Specifies the priority of a callback function relative to other work items in the same thread pool.<br/> |
-| [**SetThreadpoolStackInformation**](/windows/desktop/api)<br/>     | Sets the stack reserve and commit sizes for new threads in the specified thread pool. <br/>              |
+| [**SetThreadpoolStackInformation**](https://msdn.microsoft.com/en-us/library/Dd405520(v=VS.85).aspx)<br/>     | Sets the stack reserve and commit sizes for new threads in the specified thread pool. <br/>              |
 
 
 

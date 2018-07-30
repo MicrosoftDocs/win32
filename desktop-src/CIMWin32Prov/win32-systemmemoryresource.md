@@ -13,10 +13,10 @@ title: Win32\_SystemMemoryResource class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - Win32_SystemMemoryResource
 - Win32_SystemMemoryResource.Caption
 - Win32_SystemMemoryResource.Description
@@ -28,9 +28,9 @@ api_name:
 - Win32_SystemMemoryResource.CSName
 - Win32_SystemMemoryResource.EndingAddress
 - Win32_SystemMemoryResource.StartingAddress
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - CIMWin32.dll
 ---
 
@@ -175,7 +175,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa3936
 
 Ending address of memory mapped I/O.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 This property is inherited from [**CIM\_MemoryMappedIO**](cim-memorymappedio.md).
 
@@ -231,7 +231,7 @@ Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=V
 
 Starting address of memory mapped I/O. The hardware resource identifier property should be set to this value to construct the mapped I/O resource key.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 This property is inherited from [**CIM\_MemoryMappedIO**](cim-memorymappedio.md).
 

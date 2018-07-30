@@ -35,7 +35,7 @@ search:query=from:paolo&syntax=AQS
 
 <dl> <dt>
 
-[Advanced Query Syntax](_search_3x_AdvancedQuerySyntax)
+[Advanced Query Syntax](https://msdn.microsoft.com/library/Bb266512(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -316,7 +316,7 @@ For more information, see [**OSVERSIONINFO**](https://msdn.microsoft.com/en-us/l
 
 -   [Introduction to File Associations](fa-intro.md)
 -   [How to Register an Internet Browser or Email Client With the Windows Start Menu](start-menu-reg.md)
--   [Registering an Application to a URI Scheme](ie.appendix_a_registering_an_application_to_a_url_protocol)
+-   [Registering an Application to a URI Scheme](https://msdn.microsoft.com/library/Aa767914(v=VS.85).aspx)
 
 ## Related topics
 

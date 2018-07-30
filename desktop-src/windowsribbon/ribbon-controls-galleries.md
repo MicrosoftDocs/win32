@@ -134,7 +134,7 @@ The following code example shows the markup required to declare a three-button C
 
 The following screen shot illustrates the three-button Command Space of the preceding code example.
 
-![screen shot of a three-button command space in a dropdowngallery.](https://www.bing.com/search?q=screen+shot+of+a+three-button+command+space+in+a+dropdowngallery.)
+![screen shot of a three-button command space in a dropdowngallery.](images/markup/gallerysample-commandspace.png)
 
 ## How to Implement a Gallery
 

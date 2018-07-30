@@ -39,7 +39,7 @@ This function has no parameters.
 
 ## Return value
 
-The version number of the file (see [VERSIONINFO Resource](tools.versioninfo_resource)).
+The version number of the file (see [VERSIONINFO Resource](https://msdn.microsoft.com/library/Aa381058(v=VS.85).aspx)).
 
 ## Remarks
 

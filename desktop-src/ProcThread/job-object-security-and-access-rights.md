@@ -50,7 +50,7 @@ The following table lists the job-specific access rights.
 
 The handle returned by [**CreateJobObject**](/windows/desktop/api/WinBase/nf-winbase-createjobobjecta) has **JOB\_OBJECT\_ALL\_ACCESS** access to the job object. When you call the [**OpenJobObject**](/windows/desktop/api/WinBase/nf-winbase-openjobobjecta) function, the system checks the requested access rights against the object's security descriptor. If a job object is in a hierarchy of [nested jobs](nested-jobs.md), a caller with access to the job object implicitly has access to all of its child jobs in the hierarchy.
 
-You can request the **ACCESS\_SYSTEM\_SECURITY** access right to a job object if you want to read or write the object's SACL. For more information, see [Access-Control Lists (ACLs)](https://www.bing.com/search?q=Access-Control+Lists+(ACLs)) and [SACL Access Right](https://msdn.microsoft.com/en-us/library/Aa379321(v=VS.85).aspx).
+You can request the **ACCESS\_SYSTEM\_SECURITY** access right to a job object if you want to read or write the object's SACL. For more information, see [Access-Control Lists (ACLs)](https://msdn.microsoft.com/library/Aa374872(v=VS.85).aspx) and [SACL Access Right](https://msdn.microsoft.com/en-us/library/Aa379321(v=VS.85).aspx).
 
 You must set security limitations individually for each process associated with a job object, rather than setting them for the job object itself. For information, see [Process Security and Access Rights](process-security-and-access-rights.md).
 

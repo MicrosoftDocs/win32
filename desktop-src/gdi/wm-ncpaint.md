@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The **WM\_NCPAINT** message is sent to a window when its frame must be painted.
 
-A window receives this message through its [**WindowProc**](https://www.bing.com/search?q=**WindowProc**) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -51,7 +51,7 @@ An application returns zero if it processes this message.
 
 ## Remarks
 
-The [**DefWindowProc**](https://www.bing.com/search?q=**DefWindowProc**) function paints the window frame.
+The [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function paints the window frame.
 
 An application can intercept the **WM\_NCPAINT** message and paint its own custom window frame. The clipping region for a window is always rectangular, even if the shape of the frame is altered.
 
@@ -92,7 +92,7 @@ case WM_NCPAINT:
 [Painting and Drawing Messages](painting-and-drawing-messages.md)
 </dt> <dt>
 
-[**DefWindowProc**](https://www.bing.com/search?q=**DefWindowProc**)
+[**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
 </dt> <dt>
 
 [**GetWindowDC**](/windows/desktop/api/Winuser/nf-winuser-getwindowdc)

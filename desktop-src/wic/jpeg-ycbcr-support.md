@@ -43,7 +43,7 @@ WIC in Windows 8 and earlier supports four different [color models](-wic-codec-n
 
 Here is an image decomposed into its red, green and blue components.
 
-![an image decomposed into its red, green and blue components.](https://www.bing.com/search?q=an+image+decomposed+into+its+red,+green+and+blue+components.)
+![an image decomposed into its red, green and blue components.](graphics/ycbcr1.png)
 
 YC<sub>b</sub>C<sub>r</sub> is an alternate color model that defines color data using a luminance component (Y) and two chrominance components (C<sub>b</sub> and C<sub>r</sub>). It is commonly used in digital imaging and video scenarios. The term YC<sub>b</sub>C<sub>r</sub> is often used interchangeably with YUV, although the two are technically distinct.
 
@@ -51,7 +51,7 @@ There are several variations of YC<sub>b</sub>C<sub>r</sub> which differ in colo
 
 Here is an image decomposed into its Y, C<sub>b</sub>, and C<sub>r</sub> components.
 
-![an image decomposed into its y, cb, and cr components.](https://www.bing.com/search?q=an+image+decomposed+into+its+y,+cb,+and+cr+components.)
+![an image decomposed into its y, cb, and cr components.](graphics/ycbcr2.png)
 
 ### Planar Versus Interleaved Memory Layouts
 
@@ -61,13 +61,13 @@ RGB pixel data is typically stored using an interleaved memory layout. This mean
 
 Here is a figure showing RGBA pixel data stored in an interleaved memory layout.
 
-![a figure showing rgba pixel data stored in an interleaved memory layout.](https://www.bing.com/search?q=a+figure+showing+rgba+pixel+data+stored+in+an+interleaved+memory+layout.)
+![a figure showing rgba pixel data stored in an interleaved memory layout.](graphics/ycbcr3.png)
 
 YC<sub>b</sub>C<sub>r</sub> data is typically stored using a planar memory layout. This means that each color component is stored separately in its own contiguous plane, for a total of three planes. In another common configuration, the C<sub>b</sub> and C<sub>r</sub> components are interleaved and stored together, while the Y component remains in its own plane, for a total of two planes.
 
 Here is a figure showing planar Y and interleaved C<sub>b</sub>C<sub>r</sub> pixel data, a common YC<sub>b</sub>C<sub>r</sub> memory layout.
 
-![a figure showing planar y and interleaved cbcr pixel data, a common ycbcr memory layout.](https://www.bing.com/search?q=a+figure+showing+planar+y+and+interleaved+cbcr+pixel+data,+a+common+ycbcr+memory+layout.)
+![a figure showing planar y and interleaved cbcr pixel data, a common ycbcr memory layout.](graphics/ycbcr4.png)
 
 In both WIC and Direct2D, each color plane is treated as its own distinct object (either an [IWICBitmapSource](-wic-imp-iwicbitmapsource.md) or [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx)), and collectively these planes form the backing data for a YC<sub>b</sub>C<sub>r</sub> image.
 
@@ -313,7 +313,7 @@ Transforming YC<sub>b</sub>C<sub>r</sub> data is nearly identical to decoding, a
 
 WIC supports the notion of chaining together multiple transforms. For example, you can create the following WIC pipeline:
 
-![a diagram of a wic pipeline starting with a jpeg decoder.](https://www.bing.com/search?q=a+diagram+of+a+wic+pipeline+starting+with+a+jpeg+decoder.)
+![a diagram of a wic pipeline starting with a jpeg decoder.](graphics/ycbcr5.png)
 
 You can then call QueryInterface on the [**IWICColorTransform**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccolortransform) to obtain [**IWICPlanarBitmapSourceTransform**](/windows/desktop/api/Wincodec/nn-wincodec-iwicplanarbitmapsourcetransform). The color transform can communicate with the preceding transforms and can expose the aggregate capabilities of every stage in the pipeline. WIC ensures that the YC<sub>b</sub>C<sub>r</sub> data is preserved through the entire process. This chaining only works when using components that support YC<sub>b</sub>C<sub>r</sub> access.
 

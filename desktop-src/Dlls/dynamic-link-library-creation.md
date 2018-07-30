@@ -33,7 +33,7 @@ For more information, see [Building an Import Library and Export File](http://go
 
 ## Using an Import Library
 
-For example, to call the [**CreateWindow**](https://www.bing.com/search?q=**CreateWindow**) function, you must link your code with the import library User32.lib. The reason is that **CreateWindow** resides in a system DLL named User32.dll, and User32.lib is the import library used to resolve the calls to exported functions in User32.dll in your code. The linker creates a table that contains the address of each function call. Calls to functions in a DLL will be fixed up when the DLL is loaded. While the system is initializing the process, it loads User32.dll because the process depends on exported functions in that DLL, and it updates the entries in the function address table. All calls to **CreateWindow** invoke the function exported from User32.dll.
+For example, to call the [**CreateWindow**](https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx) function, you must link your code with the import library User32.lib. The reason is that **CreateWindow** resides in a system DLL named User32.dll, and User32.lib is the import library used to resolve the calls to exported functions in User32.dll in your code. The linker creates a table that contains the address of each function call. Calls to functions in a DLL will be fixed up when the DLL is loaded. While the system is initializing the process, it loads User32.dll because the process depends on exported functions in that DLL, and it updates the entries in the function address table. All calls to **CreateWindow** invoke the function exported from User32.dll.
 
 For information, see [Linking Implicitly with a DLL](http://go.microsoft.com/fwlink/p/?linkid=145449).
 

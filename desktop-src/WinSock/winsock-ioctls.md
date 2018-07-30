@@ -139,11 +139,11 @@ For more detailed information, see the [**SIO\_ADDRESS\_LIST\_QUERY**](https://m
 <span id="SIO_APPLY_TRANSPORT_SETTING__opcode_setting__I__T__3_"></span><span id="sio_apply_transport_setting__opcode_setting__i__t__3_"></span><span id="SIO_APPLY_TRANSPORT_SETTING__OPCODE_SETTING__I__T__3_"></span>SIO\_APPLY\_TRANSPORT\_SETTING (opcode setting: I, T==3)
 </dt> <dd>
 
-Applies a transport setting to a socket. The transport setting being applied is based on the [**TRANSPORT\_SETTING\_ID**](/windows/desktop/api) passed in the *lpvInBuffer* parameter.
+Applies a transport setting to a socket. The transport setting being applied is based on the [**TRANSPORT\_SETTING\_ID**](https://msdn.microsoft.com/en-us/library/JJ553485(v=VS.85).aspx) passed in the *lpvInBuffer* parameter.
 
 The only transport setting currently defines is for the **REAL\_TIME\_NOTIFICATION\_CAPABILITY** capability on a TCP socket.
 
-If the [**TRANSPORT\_SETTING\_ID**](/windows/desktop/api) passed has the **Guid** member set to **REAL\_TIME\_NOTIFICATION\_CAPABILITY**, then this is a request to apply real time notification settings for the TCP socket used with the [**ControlChannelTrigger**](https://msdn.microsoft.com/en-us/library/Hh701032(v=WIN.10).aspx) to receive background network notifications in a Windows Store app.
+If the [**TRANSPORT\_SETTING\_ID**](https://msdn.microsoft.com/en-us/library/JJ553485(v=VS.85).aspx) passed has the **Guid** member set to **REAL\_TIME\_NOTIFICATION\_CAPABILITY**, then this is a request to apply real time notification settings for the TCP socket used with the [**ControlChannelTrigger**](https://msdn.microsoft.com/en-us/library/Hh701032(v=WIN.10).aspx) to receive background network notifications in a Windows Store app.
 
 For more detailed information, see the [**SIO\_APPLY\_TRANSPORT\_SETTING**](https://msdn.microsoft.com/en-us/library/JJ553481(v=VS.85).aspx) reference. **SIO\_APPLY\_TRANSPORT\_SETTING** is supported on Windows 8, Windows Server 2012, and later.
 
@@ -211,9 +211,9 @@ If the output buffer is not large enough for a socket handle (the *cbOutBuffer* 
 <span id="SIO_BSP_HANDLE_POLL__opcode_setting__O__T__1_"></span><span id="sio_bsp_handle_poll__opcode_setting__o__t__1_"></span><span id="SIO_BSP_HANDLE_POLL__OPCODE_SETTING__O__T__1_"></span>SIO\_BSP\_HANDLE\_POLL (opcode setting: O, T==1)
 </dt> <dd>
 
-Retrieves the base service provider handle for a socket used by the [**WSAPoll**](/windows/desktop/api) function. The *lpOverlapped* parameter must be a **NULL** pointer. The returned value is a **SOCKET**.
+Retrieves the base service provider handle for a socket used by the [**WSAPoll**](https://msdn.microsoft.com/en-us/library/ms741669(v=VS.85).aspx) function. The *lpOverlapped* parameter must be a **NULL** pointer. The returned value is a **SOCKET**.
 
-This Ioctl is used by a layered service provider to ensure the provider intercept the [**WSAPoll**](/windows/desktop/api) function.
+This Ioctl is used by a layered service provider to ensure the provider intercept the [**WSAPoll**](https://msdn.microsoft.com/en-us/library/ms741669(v=VS.85).aspx) function.
 
 If the output buffer is not large enough for a socket handle (the *cbOutBuffer* is less than the size of a **SOCKET**), the *lpvOutBuffer* parameter is a **NULL** pointer, or the *lpOverlapped* parameter is not a **NULL** pointer, **SOCKET\_ERROR** is returned as the result of this IOCTL and [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) returns [WSAEFAULT](windows-sockets-error-codes-2.md).
 
@@ -267,11 +267,11 @@ The GUID values for extension functions supported by the Windows TCP/IP service 
 
 | Term                                                                                                                             | Description                                                                               |
 |----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| <span id="WSAID_ACCEPTEX"></span><span id="wsaid_acceptex"></span>WSAID\_ACCEPTEX<br/>                                     | The [**AcceptEx**](/windows/desktop/api) extension function.<br/>                         |
+| <span id="WSAID_ACCEPTEX"></span><span id="wsaid_acceptex"></span>WSAID\_ACCEPTEX<br/>                                     | The [**AcceptEx**](https://msdn.microsoft.com/en-us/library/ms737524(v=VS.85).aspx) extension function.<br/>                         |
 | <span id="WSAID_CONNECTEX"></span><span id="wsaid_connectex"></span>WSAID\_CONNECTEX<br/>                                  | The [**ConnectEx**](/windows/desktop/api/Mswsock/nc-mswsock-lpfn_connectex) extension function. <br/>                      |
 | <span id="WSAID_DISCONNECTEX"></span><span id="wsaid_disconnectex"></span>WSAID\_DISCONNECTEX<br/>                         | The [**DisconnectEx**](https://msdn.microsoft.com/en-us/library/ms737757(v=VS.85).aspx) extension function. <br/>                |
-| <span id="WSAID_GETACCEPTEXSOCKADDRS"></span><span id="wsaid_getacceptexsockaddrs"></span>WSAID\_GETACCEPTEXSOCKADDRS<br/> | The [**GetAcceptExSockaddrs**](/windows/desktop/api) extension function.<br/> |
-| <span id="WSAID_TRANSMITFILE"></span><span id="wsaid_transmitfile"></span>WSAID\_TRANSMITFILE<br/>                         | The [**TransmitFile**](/windows/desktop/api) extension function.<br/>                 |
+| <span id="WSAID_GETACCEPTEXSOCKADDRS"></span><span id="wsaid_getacceptexsockaddrs"></span>WSAID\_GETACCEPTEXSOCKADDRS<br/> | The [**GetAcceptExSockaddrs**](https://msdn.microsoft.com/en-us/library/ms738516(v=VS.85).aspx) extension function.<br/> |
+| <span id="WSAID_TRANSMITFILE"></span><span id="wsaid_transmitfile"></span>WSAID\_TRANSMITFILE<br/>                         | The [**TransmitFile**](https://msdn.microsoft.com/en-us/library/ms740565(v=VS.85).aspx) extension function.<br/>                 |
 | <span id="WSAID_TRANSMITPACKETS"></span><span id="wsaid_transmitpackets"></span>WSAID\_TRANSMITPACKETS<br/>                | The [**TransmitPackets**](/windows/desktop/api/Mswsock/nc-mswsock-lpfn_transmitpackets) extension function. <br/>          |
 | <span id="WSAID_WSARECVMSG"></span><span id="wsaid_wsarecvmsg"></span>WSAID\_WSARECVMSG<br/>                               | The [**WSARecvMsg**](https://msdn.microsoft.com/en-us/library/ms741687(v=VS.85).aspx) extension function.<br/>                     |
 | <span id="WSAID_WSASENDMSG"></span><span id="wsaid_wsasendmsg"></span>WSAID\_WSASENDMSG<br/>                               | The [**WSASendMsg**](/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg) extension function. <br/>                      |
@@ -439,11 +439,11 @@ In high-speed networking where multiple CPUs reside within a single system, the 
 <span id="SIO_QUERY_TRANSPORT_SETTING__opcode_setting__I__T__3_"></span><span id="sio_query_transport_setting__opcode_setting__i__t__3_"></span><span id="SIO_QUERY_TRANSPORT_SETTING__OPCODE_SETTING__I__T__3_"></span>SIO\_QUERY\_TRANSPORT\_SETTING (opcode setting: I, T==3)
 </dt> <dd>
 
-Queries the transport settings on a socket. The transport setting being queried is based on the [**TRANSPORT\_SETTING\_ID**](/windows/desktop/api) passed in the *lpvInBuffer* parameter.
+Queries the transport settings on a socket. The transport setting being queried is based on the [**TRANSPORT\_SETTING\_ID**](https://msdn.microsoft.com/en-us/library/JJ553485(v=VS.85).aspx) passed in the *lpvInBuffer* parameter.
 
 The only transport setting currently defines is for the **REAL\_TIME\_NOTIFICATION\_CAPABILITY** capability on a TCP socket.
 
-If the [**TRANSPORT\_SETTING\_ID**](/windows/desktop/api) has the **Guid** member set to **REAL\_TIME\_NOTIFICATION\_CAPABILITY**, then this is a request to query the real time notification settings for the TCP socket used with the [**ControlChannelTrigger**](https://msdn.microsoft.com/en-us/library/Hh701032(v=WIN.10).aspx) to receive background network notifications in a Windows Store app. If the [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) or [**WSPIoctl**](https://msdn.microsoft.com/en-us/library/ms742282(v=VS.85).aspx) call is successful, this IOCTL returns a [**REAL\_TIME\_NOTIFICATION\_SETTING\_OUTPUT**](/windows/desktop/api/Mstcpip/ns-mstcpip-_real_time_notification_setting_input) structure with the current status.
+If the [**TRANSPORT\_SETTING\_ID**](https://msdn.microsoft.com/en-us/library/JJ553485(v=VS.85).aspx) has the **Guid** member set to **REAL\_TIME\_NOTIFICATION\_CAPABILITY**, then this is a request to query the real time notification settings for the TCP socket used with the [**ControlChannelTrigger**](https://msdn.microsoft.com/en-us/library/Hh701032(v=WIN.10).aspx) to receive background network notifications in a Windows Store app. If the [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) or [**WSPIoctl**](https://msdn.microsoft.com/en-us/library/ms742282(v=VS.85).aspx) call is successful, this IOCTL returns a [**REAL\_TIME\_NOTIFICATION\_SETTING\_OUTPUT**](/windows/desktop/api/Mstcpip/ns-mstcpip-_real_time_notification_setting_input) structure with the current status.
 
 For more detailed information, see the [**SIO\_QUERY\_TRANSPORT\_SETTING**](https://msdn.microsoft.com/en-us/library/JJ553483(v=VS.85).aspx) reference. **SIO\_QUERY\_TRANSPORT\_SETTING** is supported on Windows 8, Windows Server 2012, and later.
 

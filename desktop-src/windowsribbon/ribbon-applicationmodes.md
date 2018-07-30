@@ -56,13 +56,13 @@ Two application modes are defined in RibbonApp:
 
 By default, RibbonApp is set to open in **Simple** mode, and the commands required by novice users are displayed in the **Application Menu** and the **Home** tab. The following screen shots show the RibbonApp **Application Menu** and **Home** tab in **Simple** mode, highlighting the modal controls.
 
-![screen shot showing a tab for the simple application mode.](https://www.bing.com/search?q=screen+shot+showing+a+tab+for+the+simple+application+mode.)![screen shot showing the application menu for the simple application mode.](https://www.bing.com/search?q=screen+shot+showing+the+application+menu+for+the+simple+application+mode.)
+![screen shot showing a tab for the simple application mode.](images/overviews/appmode-hometab.png)![screen shot showing the application menu for the simple application mode.](images/overviews/appmode-simpleappmenu.png)
 
 While these commands may be sufficient for novice users, the RibbonApp also supports expert users through an **Advanced** mode that, when activated by clicking the **Switch to Advanced Mode** button in the **Application Menu**, displays additional core functionality.
 
 This scenario is easily implemented by binding various elements in markup to discrete application modes that can be turned on and off as required. The following screen shots show the RibbonApp **Application Menu** and **Home** tab in **Advanced** mode, highlighting the modal controls.
 
-![screen shot showing a tab for the advanced application mode.](https://www.bing.com/search?q=screen+shot+showing+a+tab+for+the+advanced+application+mode.)![screen shot showing the application menu for the advanced application mode.](https://www.bing.com/search?q=screen+shot+showing+the+application+menu+for+the+advanced+application+mode.)
+![screen shot showing a tab for the advanced application mode.](images/overviews/appmode-advancedtab.png)![screen shot showing the application menu for the advanced application mode.](images/overviews/appmode-advancedappmenu.png)
 
 ## Implementing Application Modes
 

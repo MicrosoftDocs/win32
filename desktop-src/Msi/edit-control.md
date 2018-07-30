@@ -44,7 +44,7 @@ You can use the following attributes with this control. To change the value of a
 
 ## Remarks
 
-This control can be created from the EDIT class by using the [**CreateWindowEx**](https://www.bing.com/search?q=**CreateWindowEx**) function. It has the **WS\_BORDER**, **WS\_CHILD**, **WS\_TABSTOP**, and **WS\_GROUP** styles.
+This control can be created from the EDIT class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the **WS\_BORDER**, **WS\_CHILD**, **WS\_TABSTOP**, and **WS\_GROUP** styles.
 
 The length of text that can be entered can be limited by putting a number from 0 to 2147483646 in curly braces at the beginning of the Text field in the [Control table](control-table.md). For example, if the text field starts with {80}, the length of the string is limited at 80 characters. If no such limit is supplied in the table, or if 0 is specified, the length is set to the maximum possible (2147483646 characters). A negative or non-numeric value will generate an error.
 

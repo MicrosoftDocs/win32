@@ -13,10 +13,10 @@ title: Win32\_Process class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - Win32_Process
 - Win32_Process.CreationClassName
 - Win32_Process.Caption
@@ -63,9 +63,9 @@ api_name:
 - Win32_Process.WorkingSetSize
 - Win32_Process.WriteOperationCount
 - Win32_Process.WriteTransferCount
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - CIMWin32.dll
 ---
 
@@ -472,7 +472,7 @@ Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=V
 
 Time in kernel mode, in milliseconds. If this information is not available, use a value of 0 (zero).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -582,7 +582,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa3936
 
 Number of I/O operations performed that are not read or write operations.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -600,7 +600,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa3936
 
 Amount of data transferred during operations that are not read or write operations.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -688,7 +688,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa3936
 
 Maximum virtual address space a process uses at any one time. Using virtual address space does not necessarily imply corresponding use of either disk or main memory pages. However, virtual space is finite, and by using too much the process might not be able to load libraries.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -742,7 +742,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa3936
 
 Current number of pages allocated that are only accessible to the process represented by this **Win32\_Process** instance.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -850,7 +850,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa3936
 
 Number of read operations performed.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -868,7 +868,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa3936
 
 Amount of data read.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -1042,7 +1042,7 @@ Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=V
 
 Time in user mode, in 100 nanosecond units. If this information is not available, use a value of 0 (zero).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -1060,7 +1060,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa3936
 
 Current size of the virtual address space that a process is using, not the physical or virtual memory actually used by the process. Using virtual address space does not necessarily imply corresponding use of either disk or main memory pages. Virtual space is finite, and by using too much, the process might not be able to load libraries. This value is consistent with what you see in Perfmon.exe.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -1096,7 +1096,7 @@ Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(
 
 Amount of memory in bytes that a process needs to execute efficiently—for an operating system that uses page-based memory management. If the system does not have enough memory (less than the working set size), thrashing occurs. If the size of the working set is not known, use **NULL** or 0 (zero). If working set data is provided, you can monitor the information to understand the changing memory requirements of a process.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 This property is inherited from [**CIM\_Process**](cim-process.md).
 
@@ -1116,7 +1116,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa3936
 
 Number of write operations performed.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -1134,7 +1134,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa3936
 
 Amount of data written.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> </dl>
 
@@ -1156,7 +1156,7 @@ Monitoring process availability. Measures the percentage of time that a process 
 
 You can create an instance of the [**Win32\_ProcessStartup**](win32-processstartup.md) class to configure the process.
 
-You can monitor process performance with the [**Win32\_PerfFormattedData\_PerfProc\_Process**](https://www.bing.com/search?q=**Win32\_PerfFormattedData\_PerfProc\_Process**) class and a WMI refresher object, such as [**SWbemRefresher**](https://msdn.microsoft.com/en-us/library/Aa393838(v=VS.85).aspx). For more information, see [Monitoring Performance Data](https://msdn.microsoft.com/en-us/library/Aa392397(v=VS.85).aspx).
+You can monitor process performance with the [**Win32\_PerfFormattedData\_PerfProc\_Process**](https://msdn.microsoft.com/library/Dn750765(v=VS.85).aspx) class and a WMI refresher object, such as [**SWbemRefresher**](https://msdn.microsoft.com/en-us/library/Aa393838(v=VS.85).aspx). For more information, see [Monitoring Performance Data](https://msdn.microsoft.com/en-us/library/Aa392397(v=VS.85).aspx).
 
 ## Examples
 

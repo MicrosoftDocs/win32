@@ -13,10 +13,10 @@ title: Win32\_PhysicalMemory class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - Win32_PhysicalMemory
 - Win32_PhysicalMemory.Attributes
 - Win32_PhysicalMemory.BankLabel
@@ -54,9 +54,9 @@ api_name:
 - Win32_PhysicalMemory.TotalWidth
 - Win32_PhysicalMemory.TypeDetail
 - Win32_PhysicalMemory.Version
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - CIMWin32.dll
 ---
 
@@ -183,7 +183,7 @@ This value comes from the **Memory Device** structure in the SMBIOS version info
 
 This property is inherited from [**CIM\_PhysicalMemory**](cim-physicalmemory.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 

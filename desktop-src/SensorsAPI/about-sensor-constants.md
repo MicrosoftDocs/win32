@@ -27,7 +27,7 @@ The platform organizes sensors and data in the following ways.
 Your program must use other constants, also. These constants include the following:
 
 -   Sensor properties, such as SENSOR\_PROPERTY\_DESCRIPTION. Usually, these constants are used to describe a sensor. Some sensor properties must be provided by the sensor, some properties can be set by client applications, and some must always return the same value from the sensor. The [**Sensor Properties**](sensor-properties.md) reference section provides this information for each property.
--   Event constants, such as SENSOR\_EVENT\_STATE\_CHANGED. Event constants include **GUID**s, which represent types of events, and **PROPERTYKEY**s, which represent event parameter types. You will use these constants for method calls, such as [**ISensor::SetEventInterest**](https://www.bing.com/search?q=**ISensor::SetEventInterest**) and [**ISensor::GetEventInterest**](https://www.bing.com/search?q=**ISensor::GetEventInterest**).
+-   Event constants, such as SENSOR\_EVENT\_STATE\_CHANGED. Event constants include **GUID**s, which represent types of events, and **PROPERTYKEY**s, which represent event parameter types. You will use these constants for method calls, such as [**ISensor::SetEventInterest**](https://msdn.microsoft.com/en-us/library/Dd318894(v=VS.85).aspx) and [**ISensor::GetEventInterest**](https://msdn.microsoft.com/en-us/library/Dd318871(v=VS.85).aspx).
 
 ### Custom Constants
 

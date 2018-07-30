@@ -30,9 +30,9 @@ propertyDescription
 
 ## Remarks
 
-This [System.Search.UrlToIndexWithModificationTime](https://www.bing.com/search?q=System.Search.UrlToIndexWithModificationTime) property is the same as the [System.Search.UrlToIndex](https://www.bing.com/search?q=System.Search.UrlToIndex) property, except that you also pass in the last modified time of the document. If the last modified time matches, the indexer assumes that the document is already indexed and throws away the notification. This property is a vector with two elements, a **VT\_LPWSTR** value that contains the URL and a **VT\_FILETIME** value that contains the last modified time.
+This [System.Search.UrlToIndexWithModificationTime](https://msdn.microsoft.com/library/Bb760179(v=VS.85).aspx) property is the same as the [System.Search.UrlToIndex](https://msdn.microsoft.com/library/Bb760177(v=VS.85).aspx) property, except that you also pass in the last modified time of the document. If the last modified time matches, the indexer assumes that the document is already indexed and throws away the notification. This property is a vector with two elements, a **VT\_LPWSTR** value that contains the URL and a **VT\_FILETIME** value that contains the last modified time.
 
-[System.Search.UrlToIndexWithModificationTime](https://www.bing.com/search?q=System.Search.UrlToIndexWithModificationTime) was called PID\_GTHR\_DIRLINK\_WITH\_TIME in earlier versions of the Windows operating system.
+[System.Search.UrlToIndexWithModificationTime](https://msdn.microsoft.com/library/Bb760179(v=VS.85).aspx) was called PID\_GTHR\_DIRLINK\_WITH\_TIME in earlier versions of the Windows operating system.
 
 PKEY values are defined in Propkey.h.
 
@@ -40,49 +40,49 @@ PKEY values are defined in Propkey.h.
 
 <dl> <dt>
 
-[System.Search.UrlToIndex](https://www.bing.com/search?q=System.Search.UrlToIndex)
+[System.Search.UrlToIndex](https://msdn.microsoft.com/library/Bb760177(v=VS.85).aspx)
 </dt> <dt>
 
-[propertyDescription](https://www.bing.com/search?q=propertyDescription)
+[propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx)
 </dt> <dt>
 
-[searchInfo](https://www.bing.com/search?q=searchInfo)
+[searchInfo](https://msdn.microsoft.com/library/Bb773885(v=VS.85).aspx)
 </dt> <dt>
 
-[labelInfo](https://www.bing.com/search?q=labelInfo)
+[labelInfo](https://msdn.microsoft.com/library/Bb773876(v=VS.85).aspx)
 </dt> <dt>
 
-[typeInfo](https://www.bing.com/search?q=typeInfo)
+[typeInfo](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx)
 </dt> <dt>
 
-[displayInfo](https://www.bing.com/search?q=displayInfo)
+[displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx)
 </dt> <dt>
 
-[stringFormat](https://www.bing.com/search?q=stringFormat)
+[stringFormat](https://msdn.microsoft.com/library/Bb773886(v=VS.85).aspx)
 </dt> <dt>
 
-[booleanFormat](https://www.bing.com/search?q=booleanFormat)
+[booleanFormat](https://msdn.microsoft.com/library/Bb773862(v=VS.85).aspx)
 </dt> <dt>
 
-[numberFormat](https://www.bing.com/search?q=numberFormat)
+[numberFormat](https://msdn.microsoft.com/library/Bb773877(v=VS.85).aspx)
 </dt> <dt>
 
-[dateTimeFormat](https://www.bing.com/search?q=dateTimeFormat)
+[dateTimeFormat](https://msdn.microsoft.com/library/Bb773863(v=VS.85).aspx)
 </dt> <dt>
 
-[enumeratedList](https://www.bing.com/search?q=enumeratedList)
+[enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx)
 </dt> <dt>
 
-[drawControl](https://www.bing.com/search?q=drawControl)
+[drawControl](https://msdn.microsoft.com/library/Bb773866(v=VS.85).aspx)
 </dt> <dt>
 
-[editControl](https://www.bing.com/search?q=editControl)
+[editControl](https://msdn.microsoft.com/library/Bb773868(v=VS.85).aspx)
 </dt> <dt>
 
-[filterControl](https://www.bing.com/search?q=filterControl)
+[filterControl](https://msdn.microsoft.com/library/Bb773874(v=VS.85).aspx)
 </dt> <dt>
 
-[queryControl](https://www.bing.com/search?q=queryControl)
+[queryControl](https://msdn.microsoft.com/library/Bb773883(v=VS.85).aspx)
 </dt> </dl>
 
  

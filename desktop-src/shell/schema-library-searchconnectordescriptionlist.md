@@ -49,7 +49,7 @@ Search connectors for Windows Federated Search and protocol handler scopes canno
 [Library Description Schema](library-schema-entry.md)
 </dt> <dt>
 
-[Search Connector Description Schema](search_sconn_desc_schema_entry)
+[Search Connector Description Schema](https://msdn.microsoft.com/library/Dd743009(v=VS.85).aspx)
 </dt> </dl>
 
  

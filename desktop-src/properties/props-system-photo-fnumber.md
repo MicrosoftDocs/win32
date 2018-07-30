@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # System.Photo.FNumber
 
-The FNumber value when the photo was taken, as read from the Exchangeable Image File (EXIF) information.This property is calculated from [System.Photo.FNumberNumerator](https://www.bing.com/search?q=System.Photo.FNumberNumerator) and [System.Photo.FNumberDenominator](https://www.bing.com/search?q=System.Photo.FNumberDenominator).
+The FNumber value when the photo was taken, as read from the Exchangeable Image File (EXIF) information.This property is calculated from [System.Photo.FNumberNumerator](https://msdn.microsoft.com/library/Bb760461(v=VS.85).aspx) and [System.Photo.FNumberDenominator](https://msdn.microsoft.com/library/Bb760460(v=VS.85).aspx).
 
 The following are possible values as taken from the EXIF 2.2 specification.
 
@@ -69,46 +69,46 @@ PKEY values are defined in Propkey.h.
 [Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](http://www.exif.org/Exif2-2.PDF)
 </dt> <dt>
 
-[propertyDescription](https://www.bing.com/search?q=propertyDescription)
+[propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx)
 </dt> <dt>
 
-[searchInfo](https://www.bing.com/search?q=searchInfo)
+[searchInfo](https://msdn.microsoft.com/library/Bb773885(v=VS.85).aspx)
 </dt> <dt>
 
-[labelInfo](https://www.bing.com/search?q=labelInfo)
+[labelInfo](https://msdn.microsoft.com/library/Bb773876(v=VS.85).aspx)
 </dt> <dt>
 
-[typeInfo](https://www.bing.com/search?q=typeInfo)
+[typeInfo](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx)
 </dt> <dt>
 
-[displayInfo](https://www.bing.com/search?q=displayInfo)
+[displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx)
 </dt> <dt>
 
-[stringFormat](https://www.bing.com/search?q=stringFormat)
+[stringFormat](https://msdn.microsoft.com/library/Bb773886(v=VS.85).aspx)
 </dt> <dt>
 
-[booleanFormat](https://www.bing.com/search?q=booleanFormat)
+[booleanFormat](https://msdn.microsoft.com/library/Bb773862(v=VS.85).aspx)
 </dt> <dt>
 
-[numberFormat](https://www.bing.com/search?q=numberFormat)
+[numberFormat](https://msdn.microsoft.com/library/Bb773877(v=VS.85).aspx)
 </dt> <dt>
 
-[dateTimeFormat](https://www.bing.com/search?q=dateTimeFormat)
+[dateTimeFormat](https://msdn.microsoft.com/library/Bb773863(v=VS.85).aspx)
 </dt> <dt>
 
-[enumeratedList](https://www.bing.com/search?q=enumeratedList)
+[enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx)
 </dt> <dt>
 
-[drawControl](https://www.bing.com/search?q=drawControl)
+[drawControl](https://msdn.microsoft.com/library/Bb773866(v=VS.85).aspx)
 </dt> <dt>
 
-[editControl](https://www.bing.com/search?q=editControl)
+[editControl](https://msdn.microsoft.com/library/Bb773868(v=VS.85).aspx)
 </dt> <dt>
 
-[filterControl](https://www.bing.com/search?q=filterControl)
+[filterControl](https://msdn.microsoft.com/library/Bb773874(v=VS.85).aspx)
 </dt> <dt>
 
-[queryControl](https://www.bing.com/search?q=queryControl)
+[queryControl](https://msdn.microsoft.com/library/Bb773883(v=VS.85).aspx)
 </dt> </dl>
 
  

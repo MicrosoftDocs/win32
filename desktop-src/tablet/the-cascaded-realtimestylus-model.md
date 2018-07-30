@@ -33,7 +33,7 @@ The following list describes the constraints associated with using the cascaded 
 -   Only two [**RealTimeStylus**](realtimestylus-class.md) objects may be used, a primary **RealTimeStylus** object and a secondary **RealTimeStylus** object.
 -   The primary [**RealTimeStylus**](realtimestylus-class.md) object must be created with a constructor that uses the **attachedControl** or *handle* parameter. The secondary **RealTimeStylus** object must be created with the no-argument constructor.
 -   The secondary [**RealTimeStylus**](realtimestylus-class.md) object must be the only asynchronous plug-in in the primary **RealTimeStylus** object's asynchronous plug-in collection.
--   A secondary [**RealTimeStylus**](realtimestylus-class.md) object can only be attached to one primary **RealTimeStylus** object at a time. If it is added to a second primary **RealTimeStylus** object, the [Add](frlrfMicrosoftStylusInputStylusAsyncPluginCollectionClassAddTopic) method throws an exception, and the secondary **RealTimeStylus** object is not attached to the second primary **RealTimeStylus** object.
+-   A secondary [**RealTimeStylus**](realtimestylus-class.md) object can only be attached to one primary **RealTimeStylus** object at a time. If it is added to a second primary **RealTimeStylus** object, the [Add](https://msdn.microsoft.com/library/ms824814(v=MSDN.10).aspx) method throws an exception, and the secondary **RealTimeStylus** object is not attached to the second primary **RealTimeStylus** object.
 -   The behavior of some of the secondary [**RealTimeStylus**](realtimestylus-class.md) object's members is modified. The following table describes the modified behavior of these members.
 
     
@@ -51,19 +51,19 @@ The following list describes the constraints associated with using the cascaded 
     </thead>
     <tbody>
     <tr class="odd">
-    <td>[GetDesiredPacketDescription](frlrfMicrosoftStylusInputRealTimeStylusClassGetDesiredPacketDescriptionTopic)</td>
+    <td>[GetDesiredPacketDescription](https://msdn.microsoft.com/library/ms825905(v=MSDN.10).aspx)</td>
     <td>This method returns the information from the primary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) object.<br/> If the secondary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) is not attached to a primary <strong>RealTimeStylus</strong> object, this method returns the default value.<br/></td>
     </tr>
     <tr class="even">
-    <td>[SetDesiredPacketDescription](frlrfMicrosoftStylusInputRealTimeStylusClassSetDesiredPacketDescriptionTopic)</td>
+    <td>[SetDesiredPacketDescription](https://msdn.microsoft.com/library/ms826041(v=MSDN.10).aspx)</td>
     <td>This method raises an [InvalidOperationException](https://msdn.microsoft.com/library/system.invalidoperationexception.aspx) exception.<br/></td>
     </tr>
     <tr class="odd">
-    <td>[GetStyluses](frlrfMicrosoftStylusInputRealTimeStylusClassGetStylusesTopic)</td>
+    <td>[GetStyluses](https://msdn.microsoft.com/library/ms825913(v=MSDN.10).aspx)</td>
     <td>This method returns the information from the primary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) object.<br/> If the secondary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) is not attached to a primary <strong>RealTimeStylus</strong> object, this method returns an empty array.<br/></td>
     </tr>
     <tr class="even">
-    <td>[Enabled](frlrfMicrosoftStylusInputRealTimeStylusClassEnabledTopic)</td>
+    <td>[Enabled](https://msdn.microsoft.com/library/ms824832(v=MSDN.10).aspx)</td>
     <td>Getting this property returns the information from the primary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) object.<br/> If the secondary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) is not attached to a primary <strong>RealTimeStylus</strong> object, getting this property returns the default value.<br/>
     <blockquote>
     [!Note]<br />
@@ -72,7 +72,7 @@ The following list describes the constraints associated with using the cascaded 
     <br/></td>
     </tr>
     <tr class="odd">
-    <td>[WindowInputRectangle](frlrfMicrosoftStylusInputRealTimeStylusClassWindowInputRectangleTopic)</td>
+    <td>[WindowInputRectangle](https://msdn.microsoft.com/library/ms824834(v=MSDN.10).aspx)</td>
     <td>Getting this property returns the information from the primary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) object.<br/> If the secondary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) is not attached to a primary <strong>RealTimeStylus</strong> object, getting this property returns the default value.<br/>
     <blockquote>
     [!Note]<br />

@@ -610,7 +610,7 @@ Maximum amount of disk space available to the user. If MaximumStorage is set to 
 
 Example: 10000000
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
 
 </dd> <dt>
 

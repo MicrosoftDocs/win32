@@ -267,7 +267,7 @@ The [*Local Security Authority*](https://msdn.microsoft.com/library/windows/desk
 | [**DeleteCredential**](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_delete_credential)         | Deletes user credentials.<br/>                                                                                              |
 | [**DeleteLogonSession**](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_delete_logon_session)     | Deletes an LSA logon session.<br/>                                                                                          |
 | [**FreeClientBuffer**](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_free_client_buffer)         | Frees memory in the address space of the package's client.<br/>                                                             |
-| [**FreeLsaHeap**](/windows/desktop/api)                   | Deallocates heap memory previously allocated by [**AllocateLsaHeap**](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_allocate_lsa_heap).<br/>                            |
+| [**FreeLsaHeap**](https://msdn.microsoft.com/en-us/library/Aa375423(v=VS.85).aspx)                   | Deallocates heap memory previously allocated by [**AllocateLsaHeap**](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_allocate_lsa_heap).<br/>                            |
 | [**GetCredentials**](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_get_credentials)             | Retrieves credentials associated with a logon session.<br/>                                                                 |
 
 
@@ -571,7 +571,7 @@ The following [*Local Security Authority*](https://msdn.microsoft.com/library/wi
 | [**DeleteCredential**](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_delete_credential)         | Deletes an existing credential.<br/>                                                                                    |
 | [**DeleteLogonSession**](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_delete_logon_session)     | Cleans up any logon sessions created while determining whether a user's authentication information is legitimate.<br/>  |
 | [**FreeClientBuffer**](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_free_client_buffer)         | Frees a client buffer previously allocated with the [**AllocateClientBuffer**](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_allocate_client_buffer) function.<br/> |
-| [**FreeLsaHeap**](/windows/desktop/api)                   | Frees buffers previously allocated by using the [**AllocateLsaHeap**](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_allocate_lsa_heap) function.<br/>               |
+| [**FreeLsaHeap**](https://msdn.microsoft.com/en-us/library/Aa375423(v=VS.85).aspx)                   | Frees buffers previously allocated by using the [**AllocateLsaHeap**](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_allocate_lsa_heap) function.<br/>               |
 | [**GetCredentials**](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_get_credentials)             | Retrieves credentials previously cached by [**AddCredential**](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_add_credential).<br/>                                 |
 
 

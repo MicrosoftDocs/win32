@@ -36,13 +36,13 @@ GraphEdit can build a custom filter graph, using any of the filters registered o
 
 To add a filter to the graph, select the name of the filter and click the **Insert Filters** button, or double-click the filter name. After you have added the filters, you can connect two filters by dragging the mouse from one filter's output pin to another filter's input pin. If the pins accept the connection, GraphEdit draws an arrow connecting them.
 
-![connecting two filters](https://www.bing.com/search?q=connecting+two+filters)
+![connecting two filters](images/gedit-connect.png)
 
 ## Run the Graph
 
 Once you have built a filter graph in Graph Edit, you can run the graph to see whether it works as you expect. The **Graph** menu contains the menu commands **Play**, **Pause**, and **Stop**. These commands invoke to the [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol) methods [**Run**](/windows/desktop/api/Control/nf-control-imediacontrol-run), [**Pause**](/windows/desktop/api/Control/nf-control-imediacontrol-pause), and [**Stop**](/windows/desktop/api/Control/nf-control-imediacontrol-stop), respectively. The GraphEdit toolbar has buttons for these commands, as well:
 
-![pause, play, and stop buttons](https://www.bing.com/search?q=pause,+play,+and+stop+buttons)
+![pause, play, and stop buttons](images/gedit-toolbar.png)
 
 > [!Note]  
 > The GraphEdit **Stop** command first pauses the graph and seeks to time zero (assuming the graph is seekable). For file playback, this action resets the video window to the first frame. Then GraphEdit calls [**IMediaControl::Stop**](/windows/desktop/api/Control/nf-control-imediacontrol-stop).

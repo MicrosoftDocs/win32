@@ -29,17 +29,17 @@ Any function declarations that you copied from Windows.h into your source code m
 
 ## Types that Require Casts
 
-Some functions have generic return types or parameters. For example, the [**SendMessage**](https://www.bing.com/search?q=**SendMessage**) function returns data that may be any number of types, depending on the context. When you see any of these functions in your source code, make sure that you use the correct type cast and that it is as specific as possible. The following list is an example of these functions.
+Some functions have generic return types or parameters. For example, the [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx) function returns data that may be any number of types, depending on the context. When you see any of these functions in your source code, make sure that you use the correct type cast and that it is as specific as possible. The following list is an example of these functions.
 
 -   [**LocalLock**](https://msdn.microsoft.com/library/windows/desktop/aa366737)
 -   [**GlobalLock**](https://msdn.microsoft.com/library/windows/desktop/aa366584)
--   [**GetWindowLong**](https://www.bing.com/search?q=**GetWindowLong**)
--   [**SetWindowLong**](https://www.bing.com/search?q=**SetWindowLong**)
--   [**SendMessage**](https://www.bing.com/search?q=**SendMessage**)
--   [**DefWindowProc**](https://www.bing.com/search?q=**DefWindowProc**)
--   [**SendDlgItemMessage**](https://www.bing.com/search?q=**SendDlgItemMessage**)
+-   [**GetWindowLong**](https://msdn.microsoft.com/library/ms633584(v=VS.85).aspx)
+-   [**SetWindowLong**](https://msdn.microsoft.com/library/ms633591(v=VS.85).aspx)
+-   [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx)
+-   [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
+-   [**SendDlgItemMessage**](https://msdn.microsoft.com/library/ms645515(v=VS.85).aspx)
 
-When you call [**SendMessage**](https://www.bing.com/search?q=**SendMessage**), [**DefWindowProc**](https://www.bing.com/search?q=**DefWindowProc**), or [**SendDlgItemMessage**](https://www.bing.com/search?q=**SendDlgItemMessage**), you should first cast the result to type **UINT\_PTR**. You need to take similar steps for any function that returns an **LRESULT** or **LONG\_PTR** value, where the result contains a handle. This is necessary for writing portable code because the size of a handle varies, depending on the version of Windows. The (**UINT\_PTR**) cast ensures proper conversion. The following code shows an example in which **SendMessage** returns a handle to a brush:
+When you call [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx), [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx), or [**SendDlgItemMessage**](https://msdn.microsoft.com/library/ms645515(v=VS.85).aspx), you should first cast the result to type **UINT\_PTR**. You need to take similar steps for any function that returns an **LRESULT** or **LONG\_PTR** value, where the result contains a handle. This is necessary for writing portable code because the size of a handle varies, depending on the version of Windows. The (**UINT\_PTR**) cast ensures proper conversion. The following code shows an example in which **SendMessage** returns a handle to a brush:
 
 
 ```C++

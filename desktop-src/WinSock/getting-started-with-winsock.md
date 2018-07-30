@@ -57,15 +57,15 @@ The more advanced samples listed below in order from higher to lower performance
 
 -   iocp
 
-    This directory contains three sample programs that use I/O completion ports. The programs include a Winsock server (iocpserver) that uses the [**WSAAccept**](/windows/desktop/api/Winsock2/nf-winsock2-wsaaccept) function, a Winsock server (iocpserverex) that uses the [**AcceptEx**](/windows/desktop/api) function, and a simple multithreaded Winsock client (iocpclient) used to test either of these servers. The server programs support multiple clients connecting via TCP/IP and sending arbitrary sized data buffers which the server then echoes back to the client. For convenience, a simple client program, iocpclient, was developed to connect and continually send data to the server to stress it using multiple threads. Winsock servers that use I/O completion ports provide the most performance capability.
+    This directory contains three sample programs that use I/O completion ports. The programs include a Winsock server (iocpserver) that uses the [**WSAAccept**](/windows/desktop/api/Winsock2/nf-winsock2-wsaaccept) function, a Winsock server (iocpserverex) that uses the [**AcceptEx**](https://msdn.microsoft.com/en-us/library/ms737524(v=VS.85).aspx) function, and a simple multithreaded Winsock client (iocpclient) used to test either of these servers. The server programs support multiple clients connecting via TCP/IP and sending arbitrary sized data buffers which the server then echoes back to the client. For convenience, a simple client program, iocpclient, was developed to connect and continually send data to the server to stress it using multiple threads. Winsock servers that use I/O completion ports provide the most performance capability.
 
 -   overlap
 
-    This directory contains a sample server program that uses overlapped I/O. The sample program uses the [**AcceptEx**](/windows/desktop/api) function and overlapped I/O to handle multiple asynchronous connection requests from clients effectively. The server uses the **AcceptEx** function to multiplex different client connections in a single-threaded Win32 application. Using overlapped I/O allows for greater scalability.
+    This directory contains a sample server program that uses overlapped I/O. The sample program uses the [**AcceptEx**](https://msdn.microsoft.com/en-us/library/ms737524(v=VS.85).aspx) function and overlapped I/O to handle multiple asynchronous connection requests from clients effectively. The server uses the **AcceptEx** function to multiplex different client connections in a single-threaded Win32 application. Using overlapped I/O allows for greater scalability.
 
 -   WSAPoll
 
-    This directory contains a basic sample program that demonstrates the use of the [**WSAPoll**](/windows/desktop/api) function. The combined client and server program are non-blocking and use the **WSAPoll** function to determine when it is possible to send or receive without blocking. This sample is more for illustration and is not a high-performance server.
+    This directory contains a basic sample program that demonstrates the use of the [**WSAPoll**](https://msdn.microsoft.com/en-us/library/ms741669(v=VS.85).aspx) function. The combined client and server program are non-blocking and use the **WSAPoll** function to determine when it is possible to send or receive without blocking. This sample is more for illustration and is not a high-performance server.
 
 -   simple
 

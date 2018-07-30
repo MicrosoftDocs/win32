@@ -102,7 +102,7 @@ The concepts discussed in this topic are demonstrated in the [VMRPlayer Sample](
 
 To create a simple animated bitmap logo, put all of the bitmap "frames" into a single image, as shown in the following illustration.
 
-![vmr image strip](https://www.bing.com/search?q=vmr+image+strip)
+![vmr image strip](images/vmr-image-strip.png)
 
 When you set the bitmap initially using [**IVMRMixerBitmap::SetAlphaBitmap**](/windows/desktop/api/Strmif/nf-strmif-ivmrmixerbitmap-setalphabitmap), if the bitmap is in an HDC, set the **rSrc** field of the **VMRALPHABITMAP** structure to specify the size of the entire bitmap within the HDC. The **top** and **left** members of the structure are set to 0, and the **right** and **bottom** members are the width and height of the bitmap. If the bitmap is in a DirectDraw surface, then the size of the surface is known, so there is no need to specify rSrc in this method.
 

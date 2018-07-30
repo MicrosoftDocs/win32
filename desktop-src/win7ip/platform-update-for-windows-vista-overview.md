@@ -351,7 +351,7 @@ The Windows Ribbon (Ribbon) framework is a rich command presentation system that
 
 The framework is a collection of Microsoft Win32 APIs that provide a host of new user interface capabilities for Windows developers and includes both the Ribbon and a context menu system.
 
-For more information about the Ribbon framework, see [Introducing the Windows Ribbon Framework](https://www.bing.com/search?q=Introducing+the+Windows+Ribbon+Framework).
+For more information about the Ribbon framework, see [Introducing the Windows Ribbon Framework](https://msdn.microsoft.com/library/Dd316910(v=VS.85).aspx).
 
 ### Supported Ribbon Framework API Elements
 

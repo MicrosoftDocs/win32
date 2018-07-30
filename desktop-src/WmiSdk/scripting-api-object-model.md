@@ -11,7 +11,7 @@ title: Scripting API Object Model
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - kbArticle
 api_name: 
 api_type: 
@@ -22,7 +22,7 @@ api_location:
 
 The following diagram shows the relationships between WMI scripting objects.
 
-![relationships between wmi scripting objects](https://www.bing.com/search?q=relationships+between+wmi+scripting+objects)
+![relationships between wmi scripting objects](images/wmi-scripting-object-model.png)
 
  
 

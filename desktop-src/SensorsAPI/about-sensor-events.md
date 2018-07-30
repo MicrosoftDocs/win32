@@ -13,12 +13,12 @@ ms.date: 05/31/2018
 
 The Sensor API can provide event notifications.
 
-When you register to receive events, through either [**ISensor::SetEventSink**](https://www.bing.com/search?q=**ISensor::SetEventSink**) or [**ISensorManager::SetEventSink**](https://www.bing.com/search?q=**ISensorManager::SetEventSink**), you must provide a pointer to a callback interface. You must implement the methods of the callback interface in your code. The Sensor API defines the following callback interfaces:
+When you register to receive events, through either [**ISensor::SetEventSink**](https://msdn.microsoft.com/en-us/library/Dd318896(v=VS.85).aspx) or [**ISensorManager::SetEventSink**](https://msdn.microsoft.com/en-us/library/Dd318868(v=VS.85).aspx), you must provide a pointer to a callback interface. You must implement the methods of the callback interface in your code. The Sensor API defines the following callback interfaces:
 
 -   [**ISensorEvents**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents). Implement this interface to receive events from sensors. Sensors can notify your application about new data, changes in sensor state, sensor disconnection, and custom events defined by the sensor manufacturer.
 -   [**ISensorManagerEvents**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanagerevents). Implement this interface to receive events from the sensor manager. The sensor manager can notify your application when a sensor connects, and therefore may be available for use.
 
-You can cancel event notifications by calling [**SetEventSink**](https://www.bing.com/search?q=**SetEventSink**) again, this time passing a **NULL** value through the parameter.
+You can cancel event notifications by calling [**SetEventSink**](https://msdn.microsoft.com/en-us/library/Dd318896(v=VS.85).aspx) again, this time passing a **NULL** value through the parameter.
 
 ## Related topics
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Multiple Monitor Applications on Different Systems
 
-To have your multiple monitoraware application work both on systems with and without multiple monitor support, link your application with Multimon.h. You must also define COMPILE\_MULTIMON\_STUBS in exactly one C file. If the system does not support multiple monitors, this returns default values from [**GetSystemMetrics**](https://www.bing.com/search?q=**GetSystemMetrics**) , and the multiple monitor functions act as if there is only one display. On multiple monitor systems, your application will work normally.
+To have your multiple monitoraware application work both on systems with and without multiple monitor support, link your application with Multimon.h. You must also define COMPILE\_MULTIMON\_STUBS in exactly one C file. If the system does not support multiple monitors, this returns default values from [**GetSystemMetrics**](https://msdn.microsoft.com/library/ms724385(v=VS.85).aspx) , and the multiple monitor functions act as if there is only one display. On multiple monitor systems, your application will work normally.
 
 Because negative coordinates can happen easily in a multimonitor system, you should retrieve coordinates that are packed in the lParam by using the **GET\_X\_LPARAM** and **GET\_Y\_LPARAM** macros.
 
@@ -25,7 +25,7 @@ To have a screen saver display on all monitors, link with the latest version of 
 
 Input devices that deliver coordinates to the system in absolute coordinates, such as tablets, have their cursor input restricted to the primary monitor. To switch tablet input between monitors, see the instructions from the OEM.
 
-To map mouse input that is sent in absolute coordinates to the entire virtual screen, use the [**INPUT**](https://www.bing.com/search?q=**INPUT**) structure with MOUSEEVENTF\_ABSOLUTE and MOUSEEVENTF\_VIRTUALDESKTOP.
+To map mouse input that is sent in absolute coordinates to the entire virtual screen, use the [**INPUT**](https://msdn.microsoft.com/library/ms646270(v=VS.85).aspx) structure with MOUSEEVENTF\_ABSOLUTE and MOUSEEVENTF\_VIRTUALDESKTOP.
 
 The [**BitBlt**](/windows/desktop/api/Wingdi/nf-wingdi-bitblt) function works well for multiple monitor systems. However, the [**MaskBlt**](/windows/desktop/api/Wingdi/nf-wingdi-maskblt), [**PlgBlt**](/windows/desktop/api/Wingdi/nf-wingdi-plgblt), [**StretchBlt**](/windows/desktop/api/Wingdi/nf-wingdi-stretchblt), and [**TransparentBlt**](/windows/desktop/api/WinGdi/nf-wingdi-transparentblt) functions will fail if the source and destination device contexts are different.
 

@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ISuspendingDeferral
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - Windows.ApplicationModel.h
 ---
 
@@ -24,7 +24,7 @@ Manages a delayed app suspending operation.
 
 ## Members
 
-The **ISuspendingDeferral** interface inherits from [**IInspectable**](/windows/desktop/api). **ISuspendingDeferral** also has these types of members:
+The **ISuspendingDeferral** interface inherits from [**IInspectable**](https://msdn.microsoft.com/en-us/library/BR205821(v=VS.85).aspx). **ISuspendingDeferral** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -59,7 +59,7 @@ The **ISuspendingDeferral** interface has these methods.
 
 <dl> <dt>
 
-[**IInspectable**](/windows/desktop/api)
+[**IInspectable**](https://msdn.microsoft.com/en-us/library/BR205821(v=VS.85).aspx)
 </dt> <dt>
 
 [**ISuspendingEventArgs**](isuspendingeventargs.md)

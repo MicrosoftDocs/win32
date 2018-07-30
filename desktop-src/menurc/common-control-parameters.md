@@ -71,7 +71,7 @@ Height of the control. This value must be a 16-bit unsigned integer in the range
 <span id="style"></span><span id="STYLE"></span>*style*
 </dt> <dd>
 
-Control styles. Use the bitwise OR (\|) operator to combine styles. For more information, see [Window Styles](https://www.bing.com/search?q=Window+Styles).
+Control styles. Use the bitwise OR (\|) operator to combine styles. For more information, see [Window Styles](https://msdn.microsoft.com/library/ms632600(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -92,13 +92,13 @@ Numeric expression indicating the ID used to identify the control during [**WM\_
 <span id="controlData"></span><span id="controldata"></span><span id="CONTROLDATA"></span>*controlData*
 </dt> <dd>
 
-Control-specific data for the control. When a dialog is created, and a control in that dialog which has control-specific data is created, a pointer to that data is passed into the control's window procedure through the *lParam* of the [**WM\_CREATE**](https://www.bing.com/search?q=**WM\_CREATE**) message for that control.
+Control-specific data for the control. When a dialog is created, and a control in that dialog which has control-specific data is created, a pointer to that data is passed into the control's window procedure through the *lParam* of the [**WM\_CREATE**](https://msdn.microsoft.com/library/ms632619(v=VS.85).aspx) message for that control.
 
 </dd> </dl>
 
 ## Remarks
 
-Horizontal dialog units are 1/4 of the dialog base width unit. Vertical units are 1/8 of the dialog base height unit. The current dialog base units are computed from the height and width of the current system font. The [**GetDialogBaseUnits**](https://www.bing.com/search?q=**GetDialogBaseUnits**) function returns the dialog base units in pixels. The coordinates are relative to the origin of the dialog box.
+Horizontal dialog units are 1/4 of the dialog base width unit. Vertical units are 1/8 of the dialog base height unit. The current dialog base units are computed from the height and width of the current system font. The [**GetDialogBaseUnits**](https://msdn.microsoft.com/library/ms645475(v=VS.85).aspx) function returns the dialog base units in pixels. The coordinates are relative to the origin of the dialog box.
 
  
 

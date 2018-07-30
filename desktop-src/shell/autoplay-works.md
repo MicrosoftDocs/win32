@@ -113,7 +113,7 @@ All other media must include a **\[DeviceInstall\]** section for Windows XP to 
 [How to Implement Autorun Startup Applications](how-to-implement-autorun-startup-applications.md)
 </dt> <dt>
 
-[Writing a Device Installation Application](devinst.writing_a_device_installation_application)
+[Writing a Device Installation Application](https://msdn.microsoft.com/library/Ff554015(v=VS.85).aspx)
 </dt> </dl>
 
  

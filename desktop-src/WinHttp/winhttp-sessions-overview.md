@@ -26,7 +26,7 @@ The Microsoft Windows HTTP Services (WinHTTP) exposes a set of C/C++ functions t
 
 The following diagram shows the order in which WinHTTP functions are typically called when interacting with an HTTP server. The shaded boxes represent functions that generate an [HINTERNET](hinternet-handles-in-winhttp.md) handle, while the plain boxes represent functions that use those handles.
 
-![functions that create handles](https://www.bing.com/search?q=functions+that+create+handles)
+![functions that create handles](images/art-winhttp3.png)
 
 ## Initializing WinHTTP
 

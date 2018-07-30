@@ -13,10 +13,10 @@ title: Win32\_PortResource class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - Win32_PortResource
 - Win32_PortResource.Alias
 - Win32_PortResource.Caption
@@ -29,9 +29,9 @@ api_name:
 - Win32_PortResource.Name
 - Win32_PortResource.StartingAddress
 - Win32_PortResource.Status
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - CIMWin32.dll
 ---
 
@@ -195,7 +195,7 @@ Ending address of memory mapped I/O.
 
 This property is inherited from [**CIM\_MemoryMappedIO**](cim-memorymappedio.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -251,7 +251,7 @@ Starting address of memory mapped I/O. The hardware resource identifier property
 
 This property is inherited from [**CIM\_MemoryMappedIO**](cim-memorymappedio.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 

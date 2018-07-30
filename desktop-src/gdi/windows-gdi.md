@@ -43,7 +43,7 @@ For information on which operating systems are required to use a particular func
 -   [Painting and Drawing](painting-and-drawing.md)
 -   [Paths](paths.md)
 -   [Pens](pens.md)
--   [Printing and Print Spooler](https://www.bing.com/search?q=Printing+and+Print+Spooler)
+-   [Printing and Print Spooler](https://msdn.microsoft.com/library/Dd162860(v=VS.85).aspx)
 -   [Rectangles](rectangles.md)
 -   [Regions](regions.md)
 
@@ -54,13 +54,13 @@ For information on which operating systems are required to use a particular func
 [DirectX](http://msdn.microsoft.com/en-us/library/aa302281.aspx)
 </dt> <dt>
 
-[GDI+](https://www.bing.com/search?q=GDI+)
+[GDI+](https://msdn.microsoft.com/library/ms533798(v=VS.85).aspx)
 </dt> <dt>
 
 [OpenGL](https://msdn.microsoft.com/en-us/library/Dd374278(v=VS.85).aspx)
 </dt> <dt>
 
-[Windows Image Acquisition](https://www.bing.com/search?q=Windows+Image+Acquisition)
+[Windows Image Acquisition](https://msdn.microsoft.com/library/ms630368(v=VS.85).aspx)
 </dt> </dl>
 
  

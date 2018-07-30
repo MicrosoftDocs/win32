@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - MPEG2_TRANSPORT_STRIDE
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - bdatypes.h
 ---
 
@@ -80,7 +80,7 @@ Specifies the length of the entire stride packet, in bytes. The value must be at
 
 The following diagram illustrates the relations between the structure members.
 
-![mpeg-2 stride packet](https://www.bing.com/search?q=mpeg-2+stride+packet)
+![mpeg-2 stride packet](images/mpeg2-stride-packet.png)
 
 Input buffers that contain multiplexed stride packets have some restrictions:
 

@@ -50,7 +50,7 @@ An ASF file contains three types of top-level file objects.
 
 The following diagram shows the ASF file structure.
 
-![diagram showing the asf file structure, including items within the header, data, and index](https://www.bing.com/search?q=diagram+showing+the+asf+file+structure,+including+items+within+the+header,+data,+and+index)
+![diagram showing the asf file structure, including items within the header, data, and index](images/asf-components04.png)
 
 This diagram is not drawn to scale; typically the Data Object comprises most of the file.
 

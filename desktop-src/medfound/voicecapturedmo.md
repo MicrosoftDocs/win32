@@ -96,7 +96,7 @@ If you are using the DMO in source mode, do not set the input format. The DMO au
 In either mode, set the output format by calling [**IMediaObject::SetOutputType**](https://msdn.microsoft.com/en-us/library/Dd406963(v=VS.85).aspx). The DMO can accept the following output formats:
 
 -   Subtype: **MEDIASUBTYPE\_PCM** or **MEDIASUBTYPE\_IEEE\_FLOAT**
--   Format block: [**WAVEFORMAT**](https://msdn.microsoft.com/en-us/library/Dd757712(v=VS.85).aspx) or [**WAVEFORMATEX**](https://www.bing.com/search?q=**WAVEFORMATEX**)
+-   Format block: [**WAVEFORMAT**](https://msdn.microsoft.com/en-us/library/Dd757712(v=VS.85).aspx) or [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx)
 -   Samples per second: 8,000; 11,025; 16,000; or 22,050
 -   Channels: 1 for AEC-only mode, 2 or 4 for microphone array processing
 -   Bits per sample: 16

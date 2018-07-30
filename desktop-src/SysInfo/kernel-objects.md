@@ -17,13 +17,13 @@ Any process can create a new handle to an existing kernel object (even one creat
 
 In the following illustration, an application creates an event object. The [**CreateEvent**](https://msdn.microsoft.com/library/windows/desktop/ms682396) function creates the event object and returns an object handle.
 
-![application creating an event object](https://www.bing.com/search?q=application+creating+an+event+object)
+![application creating an event object](images/cshob-03.png)
 
 After the event object has been created, the application can use the event handle to set or wait on the event. The handle remains valid until the application closes the handle or terminates.
 
 Most kernel objects support multiple handles to a single object. For example, the application in the preceding illustration could obtain additional event object handles by using the [**OpenEvent**](https://msdn.microsoft.com/library/windows/desktop/ms684305) function, as shown in the following illustration.
 
-![application creating an event object with multiple handles](https://www.bing.com/search?q=application+creating+an+event+object+with+multiple+handles)
+![application creating an event object with multiple handles](images/cshob-04.png)
 
 This method enables an application to have handles with different access rights. For example, Handle 1 might have set and wait access to the event, and Handle 2 might have only wait access.
 
@@ -31,15 +31,15 @@ If another process knows the event name and has security access to the object, i
 
 An object remains in memory as long as at least one object handle exists. In the following illustration, the applications use the [**CloseHandle**](https://msdn.microsoft.com/en-us/library/ms724211(v=VS.85).aspx) function to close their event object handles. When there are no event handles, the system removes the object from memory, as shown in the following illustration.
 
-![application closing event object handles to remove object from memory](https://www.bing.com/search?q=application+closing+event+object+handles+to+remove+object+from+memory)
+![application closing event object handles to remove object from memory](images/cshob-08.png)
 
 The system manages file objects somewhat differently from other kernel objects. File objects contain the file pointer — the pointer to the next byte to be read or written in a file. Whenever an application creates a new file handle, the system creates a new file object. Therefore, more than one file object can refer to a single file on disk, as shown in the next illustration.
 
-![multiple file objects referring to a file on disk](https://www.bing.com/search?q=multiple+file+objects+referring+to+a+file+on+disk)
+![multiple file objects referring to a file on disk](images/cshob-09.png)
 
 Only through duplication or inheritance can more than one file handle refer to the same file object, as shown in the following illustration.
 
-![two file handles refer to same file object](https://www.bing.com/search?q=two+file+handles+refer+to+same+file+object)
+![two file handles refer to same file object](images/cshob-10.png)
 
 The following table lists each of the kernel objects, along with each object's creator and destroyer functions. The creator functions either create the object and an object handle or create a new existing object handle. The destroyer functions close the object handle. When an application closes the last handle to a kernel object, the system removes the object from memory.
 
@@ -71,7 +71,7 @@ The following table lists each of the kernel objects, along with each object's c
 | Socket                       | [**socket**](https://msdn.microsoft.com/library/windows/desktop/ms740506), [**accept**](https://msdn.microsoft.com/library/windows/desktop/ms737526)                                                                                                                                                                                                    | [**closesocket**](https://msdn.microsoft.com/library/windows/desktop/ms737582)                                                |
 | Thread                       | [**CreateThread**](https://msdn.microsoft.com/library/windows/desktop/ms682453), [**CreateRemoteThread**](https://msdn.microsoft.com/library/windows/desktop/ms682437), [**GetCurrentThread**](https://msdn.microsoft.com/library/windows/desktop/ms683182)                                                                                                                           | [**CloseHandle**](https://msdn.microsoft.com/en-us/library/ms724211(v=VS.85).aspx), [**TerminateThread**](https://msdn.microsoft.com/library/windows/desktop/ms686717)         |
 | Timer                        | [**CreateWaitableTimer**](https://msdn.microsoft.com/library/windows/desktop/ms682492), [**CreateWaitableTimerEx**](https://msdn.microsoft.com/library/windows/desktop/ms682494), [**OpenWaitableTimer**](https://msdn.microsoft.com/library/windows/desktop/ms684337)                                                                                                     | [**CloseHandle**](https://msdn.microsoft.com/en-us/library/ms724211(v=VS.85).aspx)                                                      |
-| Update resource              | [**BeginUpdateResource**](https://www.bing.com/search?q=**BeginUpdateResource**)                                                                                                                                                                                                         | [**EndUpdateResource**](https://www.bing.com/search?q=**EndUpdateResource**)                                   |
+| Update resource              | [**BeginUpdateResource**](https://msdn.microsoft.com/library/ms648030(v=VS.85).aspx)                                                                                                                                                                                                         | [**EndUpdateResource**](https://msdn.microsoft.com/library/ms648032(v=VS.85).aspx)                                   |
 | Window station               | [**GetProcessWindowStation**](https://msdn.microsoft.com/library/windows/desktop/ms683225)                                                                                                                                                                                                       | Applications cannot delete this object.                                                 |
 
 

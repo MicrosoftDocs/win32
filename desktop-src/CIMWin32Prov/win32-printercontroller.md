@@ -13,10 +13,10 @@ title: Win32\_PrinterController class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - Win32_PrinterController
 - Win32_PrinterController.AccessState
 - Win32_PrinterController.Antecedent
@@ -25,9 +25,9 @@ api_name:
 - Win32_PrinterController.NegotiatedSpeed
 - Win32_PrinterController.NumberOfHardResets
 - Win32_PrinterController.NumberOfSoftResets
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - CIMWin32.dll
 ---
 
@@ -178,7 +178,7 @@ Speed in use between devices (when several bus or connection speeds are possible
 
 This property is inherited from [**CIM\_DeviceConnection**](cim-deviceconnection.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 

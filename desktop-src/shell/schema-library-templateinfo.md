@@ -46,7 +46,7 @@ The &lt;templateInfo&gt; element is a container for the [folderType](schema-libr
 [Library Description Schema](library-schema-entry.md)
 </dt> <dt>
 
-[Search Connector Description Schema](search_sconn_desc_schema_entry)
+[Search Connector Description Schema](https://msdn.microsoft.com/library/Dd743009(v=VS.85).aspx)
 </dt> </dl>
 
  

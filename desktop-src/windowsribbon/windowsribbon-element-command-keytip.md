@@ -65,7 +65,7 @@ A **Command.Keytip** can begin with a number only when associated with a control
 
 To display the keytips that are valid for the current state of the ribbon, press and hold the ALT key. The following screen shot shows the initial, or first level, keytips that are displayed in Microsoft Paint for Windows 7. After a first-level keytip has been selected, only second-level keytips are displayed.
 
-![first-level keytips in microsoft paint for windows 7](https://www.bing.com/search?q=first-level+keytips+in+microsoft+paint+for+windows+7)
+![first-level keytips in microsoft paint for windows 7](images/properties/ui-pkey-label-keytips.png)
 
 **Command.Keytip** acts as the keyboard accelerator for a command unless that command is exposed through a menu item. In this case, the framework ignores the **Command.Keytip** value and instead uses a character preceded by an ampersand as specified by [**Command.LabelTitle**](windowsribbon-element-command-labeltitle.md) or [UI\_PKEY\_Label](windowsribbon-reference-properties-uipkey-label.md). If no ampersand is specified by **Command.LabelTitle** or UI\_PKEY\_Label, no keytip or keyboard accelerator is exposed.
 

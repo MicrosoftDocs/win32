@@ -1,0 +1,49 @@
+---
+Description: Represents a 4D vector with signed integer coordinates.
+MS-HAID: vspixengine.PixEngineInt4
+MSHAttr:
+- PreferredSiteName:MSDN
+- PreferredLib:/library/windows/desktop
+title: PixEngineInt4 structure
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: structure
+ms.date: 05/31/2018
+---
+
+# <span id="vspixengine.pixengineint4"></span>PixEngineInt4 structure
+
+Represents a 4D vector with signed integer coordinates.
+
+## Syntax
+
+
+```C++
+} PixEngineInt4;
+```
+
+## Members
+
+**X**  
+The position of the X axis component.
+
+**Y**  
+The position of the Y axis component.
+
+**Z**  
+The position of the Z axis component.
+
+**W**  
+The position of the W axis component.
+
+## Requirements
+
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+
+ 
+
+ 
+
+
+

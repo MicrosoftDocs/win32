@@ -44,7 +44,7 @@ You can use the following attributes with this control. To change the value of a
 
 ## Remarks
 
-This control can be created from the LISTBOX class by using the [**CreateWindowEx**](https://www.bing.com/search?q=**CreateWindowEx**) function. It has the **WS\_TABSTOP**, **WS\_GROUP**, and **WS\_CHILD** styles. If the Sorted control style bit is on, the control is created with the **LBS\_NOTIFY**, **WS\_VSCROLL**, and **WS\_BORDER** styles, otherwise, the control is created with the **LBS\_STANDARD** style.
+This control can be created from the LISTBOX class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the **WS\_TABSTOP**, **WS\_GROUP**, and **WS\_CHILD** styles. If the Sorted control style bit is on, the control is created with the **LBS\_NOTIFY**, **WS\_VSCROLL**, and **WS\_BORDER** styles, otherwise, the control is created with the **LBS\_STANDARD** style.
 
  
 

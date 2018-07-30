@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Using Waitable Timers with an Asynchronous Procedure Call
 
-The following example associates an [asynchronous procedure call](asynchronous-procedure-calls.md) (APC) function, also known as a completion routine, with a [waitable timer](waitable-timer-objects.md) when the timer is set. The address of the completion routine is the fourth parameter to the [**SetWaitableTimer**](/windows/desktop/api) function. The fifth parameter is a void pointer that you can use to pass arguments to the completion routine.
+The following example associates an [asynchronous procedure call](asynchronous-procedure-calls.md) (APC) function, also known as a completion routine, with a [waitable timer](waitable-timer-objects.md) when the timer is set. The address of the completion routine is the fourth parameter to the [**SetWaitableTimer**](https://msdn.microsoft.com/en-us/library/ms686289(v=VS.85).aspx) function. The fifth parameter is a void pointer that you can use to pass arguments to the completion routine.
 
-The completion routine will be executed by the same thread that called [**SetWaitableTimer**](/windows/desktop/api). This thread must be in an alertable state to execute the completion routine. It accomplishes this by calling the [**SleepEx**](https://msdn.microsoft.com/en-us/library/ms686307(v=VS.85).aspx) function, which is an alertable function.
+The completion routine will be executed by the same thread that called [**SetWaitableTimer**](https://msdn.microsoft.com/en-us/library/ms686289(v=VS.85).aspx). This thread must be in an alertable state to execute the completion routine. It accomplishes this by calling the [**SleepEx**](https://msdn.microsoft.com/en-us/library/ms686307(v=VS.85).aspx) function, which is an alertable function.
 
 Each thread has an APC queue. If there is an entry in the thread's APC queue at the time that one of the alertable functions is called, the thread is not put to sleep. Instead, the entry is removed from the APC queue and the completion routine is called.
 

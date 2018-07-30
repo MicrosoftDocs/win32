@@ -98,11 +98,11 @@ UICC can be executed directly from a command-line window or added as a "Custom B
 
 The following image shows the UICC markup compiler in the Windows 7 SDK CMD Shell window.
 
-![screen shot showing uicc.exe in a command-line window.](https://www.bing.com/search?q=screen+shot+showing+uicc.exe+in+a+command-line+window.)
+![screen shot showing uicc.exe in a command-line window.](images/overviews/screenshot-intentcl-commandline.png)
 
 The following image shows UICC added as a Custom Build Step in Visual Studio.
 
-![screen shot showing uicc.exe added as a custom build step in visual studio.](https://www.bing.com/search?q=screen+shot+showing+uicc.exe+added+as+a+custom+build+step+in+visual+studio.)
+![screen shot showing uicc.exe added as a custom build step in visual studio.](images/overviews/screenshot-vs-intentcl-custombuildstep.png)
 
 The UICC generates three files: a binary version of the markup (.bml), an ID definition header (.h file) to expose markup elements to the Ribbon host application, and a [resource-definition script](http://go.microsoft.com/fwlink/p/?linkid=155732) (.rc file) to link Ribbon image and string resources to the host application at compile time.
 

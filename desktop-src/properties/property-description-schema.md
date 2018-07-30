@@ -17,7 +17,7 @@ This section describes schemas used by the Windows Property System.
 
 | Topic                                                      | Contents                                                                                           |
 |------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| [Property Description Schema](https://www.bing.com/search?q=Property+Description+Schema) | Elements that comprise the XML schema used to define properties used by the Shell property system. |
+| [Property Description Schema](https://msdn.microsoft.com/library/Bb773879(v=VS.85).aspx) | Elements that comprise the XML schema used to define properties used by the Shell property system. |
 
 
 

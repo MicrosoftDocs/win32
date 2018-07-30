@@ -109,7 +109,7 @@ The client can call informational methods, such as [**GetInputCurrentType**](/wi
 
 The following diagram shows a flow chart of the procedures described in this topic.
 
-![flow chart that leads from get stream identifiers through loops that set input types, get input, and process output](https://www.bing.com/search?q=flow+chart+that+leads+from+get+stream+identifiers+through+loops+that+set+input+types,+get+input,+and+process+output)
+![flow chart that leads from get stream identifiers through loops that set input types, get input, and process output](images/mft-processing.gif)
 
 ## Extensions to the Basic Model
 

@@ -49,10 +49,10 @@ The code produces the output shown in the following illustration.
 
     
 
-3.  Use the [**ID2D1RenderTarget::CreateGradientStopCollection**](/windows/desktop/api) method to create the [**ID2D1GradientStopCollection**](https://msdn.microsoft.com/en-us/library/Dd316783(v=VS.85).aspx) collection from a previously declared array of [**D2D1\_GRADIENT\_STOP**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_gradient_stop) structures. Then, Use the [**CreateRadialGradientBrush**](/windows/desktop/api/d2d1/nf-d2d1-createradialgradientbrush) to create a radial gradient brush.
+3.  Use the [**ID2D1RenderTarget::CreateGradientStopCollection**](https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx) method to create the [**ID2D1GradientStopCollection**](https://msdn.microsoft.com/en-us/library/Dd316783(v=VS.85).aspx) collection from a previously declared array of [**D2D1\_GRADIENT\_STOP**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_gradient_stop) structures. Then, Use the [**CreateRadialGradientBrush**](/windows/desktop/api/d2d1/nf-d2d1-createradialgradientbrush) to create a radial gradient brush.
 
     > [!Note]  
-    > Starting with Windows 8, you can use the [**ID2D1DeviceContext::CreateGradientStopCollection**](https://msdn.microsoft.com/en-us/library/Hh404502(v=VS.85).aspx) method to create a [**ID2D1GradientStopCollection1**](https://msdn.microsoft.com/en-us/library/Hh446792(v=VS.85).aspx) collection instead of the [**ID2D1RenderTarget::CreateGradientStopCollection**](/windows/desktop/api) method. This interface adds high-color gradients and the interpolation of gradients in either straight or prmultiplied colors. See the **ID2DDeviceContext::CreateGradientStopCollection** page for more information.
+    > Starting with Windows 8, you can use the [**ID2D1DeviceContext::CreateGradientStopCollection**](https://msdn.microsoft.com/en-us/library/Hh404502(v=VS.85).aspx) method to create a [**ID2D1GradientStopCollection1**](https://msdn.microsoft.com/en-us/library/Hh446792(v=VS.85).aspx) collection instead of the [**ID2D1RenderTarget::CreateGradientStopCollection**](https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx) method. This interface adds high-color gradients and the interpolation of gradients in either straight or prmultiplied colors. See the **ID2DDeviceContext::CreateGradientStopCollection** page for more information.
 
      
 

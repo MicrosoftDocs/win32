@@ -1,0 +1,42 @@
+---
+Description: Callback to return the contents of an object in XML form.
+MS-HAID: vspixengine.IGenericBufferDataCallback
+MSHAttr:
+- PreferredSiteName:MSDN
+- PreferredLib:/library/windows/desktop
+title: IGenericBufferDataCallback interface
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: interface
+ms.date: 05/31/2018
+---
+
+# <span id="vspixengine.igenericbufferdatacallback"></span>IGenericBufferDataCallback interface
+
+Callback to return the contents of an object in XML form.
+
+## Members
+
+The **IGenericBufferDataCallback** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IGenericBufferDataCallback** also has these types of members:
+
+-   [Methods](#methods)
+
+### <span id="methods"></span>Methods
+
+The **IGenericBufferDataCallback** interface has these methods.
+
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;">[<strong>ResultCallback</strong>](https://msdn.microsoft.com/library/windows/desktop/mt422683)</td><td style="text-align: left;"><p>A callback that notifies the host of generic buffer information returned by the assocaited request.</p></td></tr></tbody></table>
+
+ 
+
+## Requirements
+
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+
+ 
+
+ 
+
+
+

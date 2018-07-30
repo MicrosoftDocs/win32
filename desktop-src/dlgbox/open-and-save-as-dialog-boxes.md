@@ -218,16 +218,16 @@ To enable a hook procedure for an Explorer-style **Open** or **Save As** dialog 
 An Explorer-style hook procedure receives a variety of messages while the dialog box is open. These include the following:
 
 -   The [**WM\_INITDIALOG**](wm-initdialog.md) message and other standard dialog box messages such as the [**WM\_CTLCOLORDLG**](wm-ctlcolordlg.md) control color message.
--   A set of [**WM\_NOTIFY**](https://www.bing.com/search?q=**WM\_NOTIFY**) notification messages indicating actions taken by the user or other dialog box events.
+-   A set of [**WM\_NOTIFY**](https://msdn.microsoft.com/library/Bb775583(v=VS.85).aspx) notification messages indicating actions taken by the user or other dialog box events.
 -   Messages for any additional controls that you defined by specifying a child dialog template.
 
 In addition, there is a set of messages that you can send to an Explorer-style dialog box to get information or to control the behavior and appearance of the dialog box.
 
 If you provide a hook procedure for an Explorer-style dialog box, the default dialog box procedure creates a child dialog box when the default dialog procedure is processing its [**WM\_INITDIALOG**](wm-initdialog.md) message. The hook procedure acts as the dialog procedure for the child dialog box. At this time, the hook procedure receives its own **WM\_INITDIALOG** message with the *lParam* parameter set to the address of the [**OPENFILENAME**](/windows/desktop/api/Commdlg/ns-commdlg-tagofna) structure used to initialize the dialog box. After the child dialog finishes processing its own **WM\_INITDIALOG** message, the default dialog procedure moves the standard controls, if necessary, to make room for any additional controls of the child dialog box. The default dialog procedure then sends the [**CDN\_INITDONE**](cdn-initdone.md) notification message to the hook procedure.
 
-The hook procedure receives [**WM\_NOTIFY**](https://www.bing.com/search?q=**WM\_NOTIFY**) notification messages indicating actions taken by the user in the dialog box. You can use some of these messages to control the behavior of the dialog box. For example, the hook procedure receives the [**CDN\_FILEOK**](cdn-fileok.md) message when the user chooses a file name and clicks the **OK** button. In response to this message, the hook procedure can use the [**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591) function to reject the selected name and force the dialog box to remain open.
+The hook procedure receives [**WM\_NOTIFY**](https://msdn.microsoft.com/library/Bb775583(v=VS.85).aspx) notification messages indicating actions taken by the user in the dialog box. You can use some of these messages to control the behavior of the dialog box. For example, the hook procedure receives the [**CDN\_FILEOK**](cdn-fileok.md) message when the user chooses a file name and clicks the **OK** button. In response to this message, the hook procedure can use the [**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591) function to reject the selected name and force the dialog box to remain open.
 
-The *lParam* parameter for each [**WM\_NOTIFY**](https://www.bing.com/search?q=**WM\_NOTIFY**) message is a pointer to an [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya) or [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifyexa) structure that defines the action. The **code** member in the header of this structure contains one of the following notification messages.
+The *lParam* parameter for each [**WM\_NOTIFY**](https://msdn.microsoft.com/library/Bb775583(v=VS.85).aspx) message is a pointer to an [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya) or [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifyexa) structure that defines the action. The **code** member in the header of this structure contains one of the following notification messages.
 
 
 
@@ -246,7 +246,7 @@ The *lParam* parameter for each [**WM\_NOTIFY**](https://www.bing.com/search?q=*
 
  
 
-These [**WM\_NOTIFY**](https://www.bing.com/search?q=**WM\_NOTIFY**) messages supersede the [**FILEOKSTRING**](fileokstring.md), [**LBSELCHSTRING**](lbselchstring.md), [**SHAREVISTRING**](sharevistring.md), and [**HELPMSGSTRING**](helpmsgstring.md) registered messages used by previous versions of the **Open** and **Save As** dialog boxes. However, the hook procedure also receives the superseded message after the **WM\_NOTIFY** message if the **WM\_NOTIFY** processing does not use [**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591) to set a nonzero **DWL\_MSGRESULT** value.
+These [**WM\_NOTIFY**](https://msdn.microsoft.com/library/Bb775583(v=VS.85).aspx) messages supersede the [**FILEOKSTRING**](fileokstring.md), [**LBSELCHSTRING**](lbselchstring.md), [**SHAREVISTRING**](sharevistring.md), and [**HELPMSGSTRING**](helpmsgstring.md) registered messages used by previous versions of the **Open** and **Save As** dialog boxes. However, the hook procedure also receives the superseded message after the **WM\_NOTIFY** message if the **WM\_NOTIFY** processing does not use [**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591) to set a nonzero **DWL\_MSGRESULT** value.
 
 To retrieve information about the status of the dialog box or to control the behavior and appearance of the dialog box, the hook procedure can send the following messages to the dialog box.
 

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The **WM\_PALETTEISCHANGING** message informs applications that an application is going to realize its logical palette.
 
-A window receives this message through its [**WindowProc**](https://www.bing.com/search?q=**WindowProc**) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # WM\_IME\_REQUEST message
 
-Sent to an application to provide commands and request information. A window receives this message through its [**WindowProc**](https://www.bing.com/search?q=**WindowProc**) function.
+Sent to an application to provide commands and request information. A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++

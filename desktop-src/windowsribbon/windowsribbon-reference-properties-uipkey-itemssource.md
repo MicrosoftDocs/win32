@@ -35,7 +35,7 @@ To add or delete items in a gallery control at run time, use the [**IUICollectio
 
 The following screen shot illustrates a collection of items in a [**SplitButtonGallery**](windowsribbon-element-splitbuttongallery.md) menu.
 
-![screen shot showing categories in a ribbon gallery.](https://www.bing.com/search?q=screen+shot+showing+categories+in+a+ribbon+gallery.)
+![screen shot showing categories in a ribbon gallery.](images/markup/splitbutton-gallery-control.png)
 
 ## Related topics
 

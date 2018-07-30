@@ -70,7 +70,7 @@ HRESULT get_Enabled(
 
 <dl> <dt>
 
-[**IRemoteDesktopClientTouchPointer**](/windows/desktop/api)
+[**IRemoteDesktopClientTouchPointer**](https://msdn.microsoft.com/en-us/library/Mt787029(v=VS.85).aspx)
 </dt> </dl>
 
  

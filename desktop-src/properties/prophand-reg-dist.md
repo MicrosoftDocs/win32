@@ -68,7 +68,7 @@ Keep in mind the following guidelines as you are developing and testing your pro
 
 -   **In-place property writing**
 
-    If possible, when dealing with medium-sized or large files (several hundred KB or larger), the file format should be arranged so that reading or writing property values does not require reading the whole file from disk. Even if the file needs to be sought, it should not be read into memory in its entirety because that bloats the working set of Windows Explorer or the Windows Search indexer as they try to access or index these files. For more information, see [Initializing Property Handlers](https://www.bing.com/search?q=Initializing+Property+Handlers).
+    If possible, when dealing with medium-sized or large files (several hundred KB or larger), the file format should be arranged so that reading or writing property values does not require reading the whole file from disk. Even if the file needs to be sought, it should not be read into memory in its entirety because that bloats the working set of Windows Explorer or the Windows Search indexer as they try to access or index these files. For more information, see [Initializing Property Handlers](https://msdn.microsoft.com/library/Cc144131(v=VS.85).aspx).
 
     One useful technique to accomplish this is to pad the header of the file with extra space so that the next time a property value needs to be written, the value can be written in place without needing to rewrite the entire file. This requires the ManualSafeSave functionality. This approach involves some extra risk that the file write operation might be interrupted while the write is in progress (due to a system crash or power loss), but because property sizes are generally small, the probability of such an interruption is similarly small, and the performance gains that can be realized through in-place property writing are considered significant enough to justify this additional risk. Even so, you should take care to test your implementation extensively to ensure that your files are not corrupted in the event that a failure does arise in the course of a write operation.
 
@@ -80,7 +80,7 @@ Keep in mind the following guidelines as you are developing and testing your pro
 
 -   **Property handler concurrency**
 
-    Property handlers and the [**IPropertyStore**](https://www.bing.com/search?q=**IPropertyStore**) interface are designed for serial rather than concurrent access. Windows Explorer, the Windows Search indexer, and all other property handler invocations from the Windows codebase guarantee this usage. There should be no reason for third parties to use a property handler concurrently, but this behavior cannot be guaranteed. Also, even though the calling pattern is expected to be serial, the calls may come on different threads (for instance, when the object is being called remotely via COM RPC, as occurs in the indexer). Therefore, property handler implementations must support being called on different threads, and ideally should not suffer any ill effects when called concurrently. Because the intended calling pattern is serial, a trivial implementation using a critical section should be sufficient to meet these requirements in most cases. It is acceptable to avoid blocking on concurrent calls by using the [**TryEnterCriticalSection**](https://msdn.microsoft.com/en-us/library/ms686857(v=VS.85).aspx) function to detect and fail concurrent calls.
+    Property handlers and the [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) interface are designed for serial rather than concurrent access. Windows Explorer, the Windows Search indexer, and all other property handler invocations from the Windows codebase guarantee this usage. There should be no reason for third parties to use a property handler concurrently, but this behavior cannot be guaranteed. Also, even though the calling pattern is expected to be serial, the calls may come on different threads (for instance, when the object is being called remotely via COM RPC, as occurs in the indexer). Therefore, property handler implementations must support being called on different threads, and ideally should not suffer any ill effects when called concurrently. Because the intended calling pattern is serial, a trivial implementation using a critical section should be sufficient to meet these requirements in most cases. It is acceptable to avoid blocking on concurrent calls by using the [**TryEnterCriticalSection**](https://msdn.microsoft.com/en-us/library/ms686857(v=VS.85).aspx) function to detect and fail concurrent calls.
 
 -   **File concurrency**
 
@@ -105,25 +105,25 @@ Keep in mind the following guidelines as you are developing and testing your pro
 
     Property handlers open for **read** (GPS\_DEFAULT), by default enable other readers but deny other writers. Handlers can opt into enabling other writers by specifying the `EnableShareDenyNone` flag in its registration. This means that a handler can successfully handle a situation in which the content of a file changes while the handler is reading the file.
 
-    For flag definitions, see [**GETPROPERTYSTOREFLAGS**](https://www.bing.com/search?q=**GETPROPERTYSTOREFLAGS**).
+    For flag definitions, see [**GETPROPERTYSTOREFLAGS**](https://msdn.microsoft.com/library/Bb762582(v=VS.85).aspx).
 
 ## Related topics
 
 <dl> <dt>
 
-[Understanding Property Handlers](https://www.bing.com/search?q=Understanding+Property+Handlers)
+[Understanding Property Handlers](https://msdn.microsoft.com/library/Cc144129(v=VS.85).aspx)
 </dt> <dt>
 
-[Using Kind Names](https://www.bing.com/search?q=Using+Kind+Names)
+[Using Kind Names](https://msdn.microsoft.com/library/Cc144136(v=VS.85).aspx)
 </dt> <dt>
 
-[Using Property Lists](https://www.bing.com/search?q=Using+Property+Lists)
+[Using Property Lists](https://msdn.microsoft.com/library/Cc144133(v=VS.85).aspx)
 </dt> <dt>
 
-[Initializing Property Handlers](https://www.bing.com/search?q=Initializing+Property+Handlers)
+[Initializing Property Handlers](https://msdn.microsoft.com/library/Cc144131(v=VS.85).aspx)
 </dt> <dt>
 
-[Property Handler Best Practices and FAQ](https://www.bing.com/search?q=Property+Handler+Best+Practices+and+FAQ)
+[Property Handler Best Practices and FAQ](https://msdn.microsoft.com/library/Dd894083(v=VS.85).aspx)
 </dt> </dl>
 
  

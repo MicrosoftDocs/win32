@@ -75,10 +75,10 @@ Cookies are categorized as first-party and third-party. A first-party cookie is 
 
 <dl> <dt>
 
-[**PrivacyGetZonePreferenceW**](/windows/desktop/api)
+[**PrivacyGetZonePreferenceW**](https://msdn.microsoft.com/en-us/library/Aa385336(v=VS.85).aspx)
 </dt> <dt>
 
-[**PrivacySetZonePreferenceW**](/windows/desktop/api)
+[**PrivacySetZonePreferenceW**](https://msdn.microsoft.com/en-us/library/Aa385338(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -455,7 +455,7 @@ In this part, you create the Direct2D resources that you use to draw. Direct2D p
 
 In this part, you implement the windows procedure, the OnRender method that paints content, and the OnResize method that adjusts the size of the render target when the window is resized.
 
-1.  Implement the DemoApp::WndProc method to handle window messages. For the [**WM\_SIZE**](https://www.bing.com/search?q=**WM\_SIZE**) message, call the DemoApp::OnResize method and pass it the new width and height. For the [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213) and [**WM\_DISPLAYCHANGE**](https://msdn.microsoft.com/library/windows/desktop/dd145210) messages, call the DemoApp::OnRender method to paint the window. You implement the OnRender and OnResize methods in the steps that follow.
+1.  Implement the DemoApp::WndProc method to handle window messages. For the [**WM\_SIZE**](https://msdn.microsoft.com/library/ms632646(v=VS.85).aspx) message, call the DemoApp::OnResize method and pass it the new width and height. For the [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213) and [**WM\_DISPLAYCHANGE**](https://msdn.microsoft.com/library/windows/desktop/dd145210) messages, call the DemoApp::OnRender method to paint the window. You implement the OnRender and OnResize methods in the steps that follow.
     ```C++
     LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
     {

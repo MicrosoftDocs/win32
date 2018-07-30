@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Binding is the process of creating a logical connection between a client program and a server program. The information that composes the binding between client and server is represented by a structure called a binding handle.
 
-A binding handle is analogous to a file handle that the fopen C run-time library function returns, or a window handle that the function [**CreateWindow**](https://www.bing.com/search?q=**CreateWindow**) returns.
+A binding handle is analogous to a file handle that the fopen C run-time library function returns, or a window handle that the function [**CreateWindow**](https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx) returns.
 
 As with these handles, your application cannot directly access and manipulate the information in the binding handle. The information in a binding handle data structure is available only to the RPC run-time libraries. You provide the handle, the run-time libraries access and manipulate the appropriate data.
 

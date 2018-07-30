@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 With Windows Installer, a configurable bootstrap executable (Setup.exe) and configuration tool ([Msistuff.exe](msistuff-exe.md)) is included in the [Windows SDK Components for Windows Installer Developers](platform-sdk-components-for-windows-installer-developers.md). By using Msistuff.exe to configure the resources in Setup.exe, developers can easily create a web installation of a Windows Installer package.
 
-The minimum installer version required by the bootstrap executable is Windows Installer version 2.0. Applications can get the installer version by using [**DllGetVersion**](https://www.bing.com/search?q=**DllGetVersion**). For more information see, [Determining the Windows Installer Version](determining-the-windows-installer-version.md)
+The minimum installer version required by the bootstrap executable is Windows Installer version 2.0. Applications can get the installer version by using [**DllGetVersion**](https://msdn.microsoft.com/library/Bb776404(v=VS.85).aspx). For more information see, [Determining the Windows Installer Version](determining-the-windows-installer-version.md)
 
 The bootstrap executable provided with the Windows Installer SDK does the following:
 

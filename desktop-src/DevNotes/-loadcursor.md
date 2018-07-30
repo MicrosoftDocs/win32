@@ -22,7 +22,7 @@ api_location:
 
 \[This function is a wrapper over the **LoadCursor** function. This function may be altered or unavailable in the future. Applications should call **LoadCursor** directly.\]
 
-Loads the specified cursor. See [**LoadCursor**](_win32_loadcursor_cpp).
+Loads the specified cursor. See [**LoadCursor**](https://msdn.microsoft.com/library/ms648391(v=VS.85).aspx).
 
 ## Syntax
 
@@ -56,7 +56,7 @@ HCURSOR _LoadCursor(
 
 <dl> <dt>
 
-[**LoadCursor**](_win32_loadcursor_cpp)
+[**LoadCursor**](https://msdn.microsoft.com/library/ms648391(v=VS.85).aspx)
 </dt> </dl>
 
  

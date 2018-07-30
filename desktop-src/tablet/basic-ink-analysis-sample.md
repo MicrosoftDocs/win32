@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Basic Ink Analysis Sample
 
-The Basic Ink Analysis sample shows how the [InkAnalyzer](frlrfMicrosoftInkInkAnalyzerClassTopic) class divides ink into various word and drawing segments.
+The Basic Ink Analysis sample shows how the [InkAnalyzer](https://msdn.microsoft.com/library/ms583671(v=VS.90).aspx) class divides ink into various word and drawing segments.
 
-This sample is an updated version of the [Ink Divider Sample](ink-divider-sample.md). Whereas the Ink Divider Sample uses the [Divider](frlrfMicrosoftInkDividerClassTopic) class, this sample uses the newer and preferred InkAnalysis API. The InkAnalysis API combines the [RecognizerContext](frlrfMicrosoftInkRecognizerContextClassTopic) and Divider into one API and expands on the functionality of both.
+This sample is an updated version of the [Ink Divider Sample](ink-divider-sample.md). Whereas the Ink Divider Sample uses the [Divider](https://msdn.microsoft.com/library/ms839398(v=MSDN.10).aspx) class, this sample uses the newer and preferred InkAnalysis API. The InkAnalysis API combines the [RecognizerContext](https://msdn.microsoft.com/library/ms828542(v=MSDN.10).aspx) and Divider into one API and expands on the functionality of both.
 
 When you update the form, the sample draws a rectangle around each analyzed unit: words, lines, paragraphs, writing regions, drawings and bullets. The form uses different colors for the different units. The rectangles are also enlarged by different amounts to ensure that no one rectangle is obscured by any others.
 
@@ -67,7 +67,7 @@ You can erase strokes in the form. In the sample application, you can toggle bet
 
 
 
-When you add or delete strokes, the samples updates the [InkAnalyzer](frlrfMicrosoftInkInkAnalyzerClassTopic).
+When you add or delete strokes, the samples updates the [InkAnalyzer](https://msdn.microsoft.com/library/ms583671(v=VS.90).aspx).
 
 
 ```C++
@@ -104,16 +104,16 @@ When you add or delete strokes, the samples updates the [InkAnalyzer](frlrfMicro
 
 
 
-Notice that in the Mode menu, Automatic Layout Analysis is on by default. With this option selected, the [InkOverlay](frlrfMicrosoftInkInkOverlayClassTopic) object's [Stroke](frlrfMicrosoftInkInkOverlayClassStrokeTopic) and [StrokesDeleting](frlrfMicrosoftInkInkOverlayClassStrokesDeletingTopic) event handlers call the [BackgroundAnalyze](frlrfMicrosoftInkInkAnalyzerClassBackgroundAnalyzeTopic) method every time a stroke is created or deleted.
+Notice that in the Mode menu, Automatic Layout Analysis is on by default. With this option selected, the [InkOverlay](https://msdn.microsoft.com/library/ms833057(v=MSDN.10).aspx) object's [Stroke](https://msdn.microsoft.com/library/ms835344(v=MSDN.10).aspx) and [StrokesDeleting](https://msdn.microsoft.com/library/ms835360(v=MSDN.10).aspx) event handlers call the [BackgroundAnalyze](https://msdn.microsoft.com/library/ms568972(v=VS.90).aspx) method every time a stroke is created or deleted.
 
 > [!Note]  
-> Calling the [InkAnalyzer](frlrfMicrosoftInkInkAnalyzerClassTopic) object's [Analyze](frlrfMicrosoftInkInkAnalyzerClassAnalyzeTopic) method with more than a few strokes present creates a noticeable delay in an application. This is because Analyze is a synchronous ink analysis operation. In practice, call the Analyze method only when you need the result. Otherwise use the asynchronous [BackgroundAnalyze](frlrfMicrosoftInkInkAnalyzerClassBackgroundAnalyzeTopic) method, as shown in the sample.
+> Calling the [InkAnalyzer](https://msdn.microsoft.com/library/ms583671(v=VS.90).aspx) object's [Analyze](https://msdn.microsoft.com/library/ms568971(v=VS.90).aspx) method with more than a few strokes present creates a noticeable delay in an application. This is because Analyze is a synchronous ink analysis operation. In practice, call the Analyze method only when you need the result. Otherwise use the asynchronous [BackgroundAnalyze](https://msdn.microsoft.com/library/ms568972(v=VS.90).aspx) method, as shown in the sample.
 
  
 
 ## Handling the Analysis Results
 
-The sample creates two arrays to hold the various rectangles, either horizontal or rotated. Use a rotated bounding box to get the angle on which a line of words is written. The sample shows the properties returned by the [InkAnalyzer](frlrfMicrosoftInkInkAnalyzerClassTopic) and displays the bounding box or the rotated bounding box (depending on the menu selection).
+The sample creates two arrays to hold the various rectangles, either horizontal or rotated. Use a rotated bounding box to get the angle on which a line of words is written. The sample shows the properties returned by the [InkAnalyzer](https://msdn.microsoft.com/library/ms583671(v=VS.90).aspx) and displays the bounding box or the rotated bounding box (depending on the menu selection).
 
 
 ```C++
@@ -272,7 +272,7 @@ The sample creates two arrays to hold the various rectangles, either horizontal 
 
 
 
-The parser calculates [GetRotatedBoundingBox](frlrfMicrosoftInkInkWordNodeClassGetRotatedBoundingBoxTopic) during analysis. You can access the information from the rotated bounding boxes in your application for a number of useful reasons:
+The parser calculates [GetRotatedBoundingBox](https://msdn.microsoft.com/library/ms569544(v=VS.90).aspx) during analysis. You can access the information from the rotated bounding boxes in your application for a number of useful reasons:
 
 -   Detect or draw the bounds of a single line, paragraph, or other unit.
 -   Determine the angle at which a line or paragraph is written.

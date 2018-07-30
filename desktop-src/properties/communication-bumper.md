@@ -26,7 +26,7 @@ ms.date: 05/31/2018
 | [System.Communication.SecurityFlags](https://msdn.microsoft.com/en-us/library/Dd391676(v=VS.85).aspx)<br/>         | Security flags associated with the item to indicate whether the item is encrypted, signed, or DRM enabled.<br/>                                                          |
 | [System.Communication.Suffix](https://msdn.microsoft.com/en-us/library/Bb787753(v=VS.85).aspx)<br/>                       |                                                                                                                                                                                |
 | [System.Communication.TaskStatus](https://msdn.microsoft.com/en-us/library/Bb787754(v=VS.85).aspx)<br/>               | Indicates the current status of the task.<br/>                                                                                                                           |
-| [System.Communication.TaskStatusText](https://msdn.microsoft.com/en-us/library/Bb787755(v=VS.85).aspx)<br/>       | The user-friendly form of [System.Communication.TaskStatus](https://www.bing.com/search?q=System.Communication.TaskStatus). This value is not intended to be parsed programmatically.<br/> |
+| [System.Communication.TaskStatusText](https://msdn.microsoft.com/en-us/library/Bb787755(v=VS.85).aspx)<br/>       | The user-friendly form of [System.Communication.TaskStatus](https://msdn.microsoft.com/library/Bb787754(v=VS.85).aspx). This value is not intended to be parsed programmatically.<br/> |
 
 
 

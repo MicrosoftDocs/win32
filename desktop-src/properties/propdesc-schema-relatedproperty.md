@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # relatedProperty
 
-New for Windows 7. Identifies a property that is related to the property defined in the property description file. There can be as many [relatedProperty](https://www.bing.com/search?q=relatedProperty) elements within a [relatedPropertyInfo](https://www.bing.com/search?q=relatedPropertyInfo) as needed.
+New for Windows 7. Identifies a property that is related to the property defined in the property description file. There can be as many [relatedProperty](https://msdn.microsoft.com/library/Dd798384(v=VS.85).aspx) elements within a [relatedPropertyInfo](https://msdn.microsoft.com/library/Dd798385(v=VS.85).aspx) as needed.
 
 ## Syntax
 
@@ -34,7 +34,7 @@ New for Windows 7. Identifies a property that is related to the property define
 
 | Parent Element                                                   | Child Elements |
 |------------------------------------------------------------------|----------------|
-| [relatedPropertyInfo](https://www.bing.com/search?q=relatedPropertyInfo) | None           |
+| [relatedPropertyInfo](https://msdn.microsoft.com/library/Dd798385(v=VS.85).aspx) | None           |
 
 
 

@@ -50,7 +50,7 @@ PUSHBUTTON "ON", 7, 10, 10, 20, 10
 
 <dl> <dt>
 
-[**GetDialogBaseUnits**](https://www.bing.com/search?q=**GetDialogBaseUnits**)
+[**GetDialogBaseUnits**](https://msdn.microsoft.com/library/ms645475(v=VS.85).aspx)
 </dt> <dt>
 
 [Push Buttons](https://www.bing.com/search?q=Push+Buttons)

@@ -104,7 +104,7 @@ When a user selects a folder that belongs to your namespace extension, you creat
 Namespace extensions use one of two approaches for creating a folder view:
 
 -   Use your child window to host a [list view](https://msdn.microsoft.com/en-us/library/Bb774737(v=VS.85).aspx) control. This control allows you to display the contents of a folder in much the same way as the Windows Explorer [classic view](https://msdn.microsoft.com/en-us/library/Bb776835(v=VS.85).aspx).
--   Use your child window to host a [WebBrowser control](_inet_Reusing_the_WebBrowser_Control_cpp) and use a Dynamic HTML (DHTML) document to display the contents of the folder.
+-   Use your child window to host a [WebBrowser control](https://msdn.microsoft.com/library/Aa752044(v=VS.85).aspx) and use a Dynamic HTML (DHTML) document to display the contents of the folder.
 
 Both approaches display a folder view that looks very much like that displayed for system folders. However, if you want to use a different display scheme, you are free to do so.
 

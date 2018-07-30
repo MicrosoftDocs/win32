@@ -15,7 +15,7 @@ As the number of issued certificates in a public key infrastructure (PKI) increa
 
 The following illustration shows a certificate hierarchy made up of one root CA, two CAs subordinate to the root (one for the marketing department and one for the manufacturing department), and CAs that are subordinate to these.
 
-![certificate hierarchy diagram](https://www.bing.com/search?q=certificate+hierarchy+diagram)
+![certificate hierarchy diagram](images/certificate-hierarchy.png)
 
 ## Related topics
 

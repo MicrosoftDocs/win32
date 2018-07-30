@@ -13,10 +13,10 @@ title: Win32\_PortableBattery class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - Win32_PortableBattery
 - Win32_PortableBattery.Reset
 - Win32_PortableBattery.SetPowerState
@@ -57,9 +57,9 @@ api_name:
 - Win32_PortableBattery.SystemName
 - Win32_PortableBattery.TimeOnBattery
 - Win32_PortableBattery.TimeToFullCharge
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - CIMWin32.dll
 ---
 
@@ -1001,7 +1001,7 @@ Design voltage of the battery in millivolts. If this attribute is not supported,
 
 This property is inherited from [**CIM\_Battery**](cim-battery.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 

@@ -15,8 +15,8 @@ In Windows Vista and later, metadata became central as a method of organizing i
 
 This section describes the following development scenarios within the Windows Property System:
 
--   [Creating Custom Properties](https://www.bing.com/search?q=Creating+Custom+Properties)
--   [Implementing Property Handlers](https://www.bing.com/search?q=Implementing+Property+Handlers)
+-   [Creating Custom Properties](https://msdn.microsoft.com/library/Cc144135(v=VS.85).aspx)
+-   [Implementing Property Handlers](https://msdn.microsoft.com/library/Cc144125(v=VS.85).aspx)
 
 ## Related topics
 

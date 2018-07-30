@@ -50,11 +50,11 @@ The return value is the number of characters copied, not including the terminati
 
 The [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) function copies the text associated with the window into the specified buffer and returns the number of characters copied. Note, for non-text static controls this gives you the text with which the control was originally created, that is, the ID number. However, it gives you the ID of the non-text static control as originally created. That is, if you subsequently used a **STM\_SETIMAGE** to change it the original ID would still be returned.
 
-For an edit control, the text to be copied is the content of the edit control. For a combo box, the text is the content of the edit control (or static-text) portion of the combo box. For a button, the text is the button name. For other windows, the text is the window title. To copy the text of an item in a list box, an application can use the [**LB\_GETTEXT**](https://www.bing.com/search?q=**LB\_GETTEXT**) message.
+For an edit control, the text to be copied is the content of the edit control. For a combo box, the text is the content of the edit control (or static-text) portion of the combo box. For a button, the text is the button name. For other windows, the text is the window title. To copy the text of an item in a list box, an application can use the [**LB\_GETTEXT**](https://msdn.microsoft.com/library/Bb761313(v=VS.85).aspx) message.
 
 When the **WM\_GETTEXT** message is sent to a static control with the **SS\_ICON** style, a handle to the icon will be returned in the first four bytes of the buffer pointed to by *lParam*. This is true only if the [**WM\_SETTEXT**](wm-settext.md) message has been used to set the icon.
 
-**Rich Edit:** If the text to be copied exceeds 64K, use either the [**EM\_STREAMOUT**](https://www.bing.com/search?q=**EM\_STREAMOUT**) or [**EM\_GETSELTEXT**](https://www.bing.com/search?q=**EM\_GETSELTEXT**) message.
+**Rich Edit:** If the text to be copied exceeds 64K, use either the [**EM\_STREAMOUT**](https://msdn.microsoft.com/library/Bb774304(v=VS.85).aspx) or [**EM\_GETSELTEXT**](https://msdn.microsoft.com/library/Bb774190(v=VS.85).aspx) message.
 
 Sending a **WM\_GETTEXT** message to a non-text static control, such as a static bitmap or static icon control, does not return a string value. Instead, it returns zero. In addition, in early versions of Windows, applications could send a **WM\_GETTEXT** message to a non-text static control to retrieve the control's ID. To retrieve a control's ID, applications can use [**GetWindowLong**](https://msdn.microsoft.com/en-us/library/ms633584(v=VS.85).aspx) passing **GWL\_ID** as the index value or [**GetWindowLongPtr**](https://msdn.microsoft.com/en-us/library/ms633585(v=VS.85).aspx) using **GWLP\_ID**.
 
@@ -107,13 +107,13 @@ Sending a **WM\_GETTEXT** message to a non-text static control, such as a static
 **Other Resources**
 </dt> <dt>
 
-[**EM\_GETSELTEXT**](https://www.bing.com/search?q=**EM\_GETSELTEXT**)
+[**EM\_GETSELTEXT**](https://msdn.microsoft.com/library/Bb774190(v=VS.85).aspx)
 </dt> <dt>
 
-[**EM\_STREAMOUT**](https://www.bing.com/search?q=**EM\_STREAMOUT**)
+[**EM\_STREAMOUT**](https://msdn.microsoft.com/library/Bb774304(v=VS.85).aspx)
 </dt> <dt>
 
-[**LB\_GETTEXT**](https://www.bing.com/search?q=**LB\_GETTEXT**)
+[**LB\_GETTEXT**](https://msdn.microsoft.com/library/Bb761313(v=VS.85).aspx)
 </dt> </dl>
 
  

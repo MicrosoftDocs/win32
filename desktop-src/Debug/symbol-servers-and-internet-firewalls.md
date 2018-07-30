@@ -28,7 +28,7 @@ When using the latest versions of cdb.exe or ntsd.exe, this functionality is tur
 
 If you turn on prompting, you will need to reload symbols with the .reload command.
 
-The DbgHelp API has been expanded to support these changes. The [**SymbolServerSetOptions**](https://www.bing.com/search?q=**SymbolServerSetOptions**) function supports the SSRVOPT\_PROXY option. If the data parameter is **NULL**, the default proxy defined in **Internet Options** is used. Otherwise a zero-terminated string is passed specifying the name and port number of the proxy server. The name and port are separated by a colon as follows: *myproxyserver*:80. The [**SymSetOptions**](/windows/desktop/api/Dbghelp/nf-dbghelp-symsetoptions) function supports the SYMOPT\_NO\_PROMPTS option. This turns off all prompting for validation from the symbol server.
+The DbgHelp API has been expanded to support these changes. The [**SymbolServerSetOptions**](https://msdn.microsoft.com/library/ms680676(v=VS.85).aspx) function supports the SSRVOPT\_PROXY option. If the data parameter is **NULL**, the default proxy defined in **Internet Options** is used. Otherwise a zero-terminated string is passed specifying the name and port number of the proxy server. The name and port are separated by a colon as follows: *myproxyserver*:80. The [**SymSetOptions**](/windows/desktop/api/Dbghelp/nf-dbghelp-symsetoptions) function supports the SYMOPT\_NO\_PROMPTS option. This turns off all prompting for validation from the symbol server.
 
  
 

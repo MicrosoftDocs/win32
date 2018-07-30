@@ -13,18 +13,18 @@ ms.date: 05/31/2018
 
 An explicit Application User Model ID (AppUserModelID) used to associate processes, files, and windows with a particular application. In some cases, it is sufficient to rely on the internal AppUserModelID assigned to a process by the system. However, an application that owns multiple processes or an application that is running in a host process might need to explicitly identify itself through this property so that it can group its otherwise disparate windows under a single taskbar button and control the contents of that application's Jump List.
 
-To set this property on a window, use [**SHGetPropertyStoreForWindow**](/windows/desktop/api/Shellapi/nf-shellapi-shgetpropertystoreforwindow) to retrieve the window's property store, and use the methods of that retrieved [**IPropertyStore**](https://www.bing.com/search?q=**IPropertyStore**) object to set the [System.AppUserModel.ID](https://www.bing.com/search?q=System.AppUserModel.ID) property of that window.
+To set this property on a window, use [**SHGetPropertyStoreForWindow**](/windows/desktop/api/Shellapi/nf-shellapi-shgetpropertystoreforwindow) to retrieve the window's property store, and use the methods of that retrieved [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) object to set the [System.AppUserModel.ID](https://msdn.microsoft.com/library/Dd391569(v=VS.85).aspx) property of that window.
 
 For more information, see [Application User Model IDs (AppUserModelIDs)](https://msdn.microsoft.com/en-us/library/Dd378459(v=VS.85).aspx).
 
-At the time the [System.AppUserModel.ID](https://www.bing.com/search?q=System.AppUserModel.ID) property is set, the taskbar is notified to refresh its information on the window or shortcut given that AppUserModelID.
+At the time the [System.AppUserModel.ID](https://msdn.microsoft.com/library/Dd391569(v=VS.85).aspx) property is set, the taskbar is notified to refresh its information on the window or shortcut given that AppUserModelID.
 
-Other window and shortcut properties can be used in conjunction with an explicit AppUserModelID to further control the grouping and pinning associated with a window, the display name and icon used for it in the taskbar, and the command to launch either an application pinned to the taskbar or a new instance of the application through that application's Jump List. These properties should be set before setting the [System.AppUserModel.ID](https://www.bing.com/search?q=System.AppUserModel.ID) property. For more information, see the following topics:
+Other window and shortcut properties can be used in conjunction with an explicit AppUserModelID to further control the grouping and pinning associated with a window, the display name and icon used for it in the taskbar, and the command to launch either an application pinned to the taskbar or a new instance of the application through that application's Jump List. These properties should be set before setting the [System.AppUserModel.ID](https://msdn.microsoft.com/library/Dd391569(v=VS.85).aspx) property. For more information, see the following topics:
 
--   [System.AppUserModel.PreventPinning](https://www.bing.com/search?q=System.AppUserModel.PreventPinning)
--   [System.AppUserModel.RelaunchCommand](https://www.bing.com/search?q=System.AppUserModel.RelaunchCommand)
--   [System.AppUserModel.RelaunchDisplayNameResource](https://www.bing.com/search?q=System.AppUserModel.RelaunchDisplayNameResource)
--   [System.AppUserModel.RelaunchIconResource](https://www.bing.com/search?q=System.AppUserModel.RelaunchIconResource)
+-   [System.AppUserModel.PreventPinning](https://msdn.microsoft.com/library/Dd561983(v=VS.85).aspx)
+-   [System.AppUserModel.RelaunchCommand](https://msdn.microsoft.com/library/Dd391571(v=VS.85).aspx)
+-   [System.AppUserModel.RelaunchDisplayNameResource](https://msdn.microsoft.com/library/Dd391572(v=VS.85).aspx)
+-   [System.AppUserModel.RelaunchIconResource](https://msdn.microsoft.com/library/Dd391573(v=VS.85).aspx)
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7
 
@@ -56,67 +56,67 @@ PKEY values are defined in Propkey.h.
 [**SHGetPropertyStoreForWindow**](/windows/desktop/api/Shellapi/nf-shellapi-shgetpropertystoreforwindow)
 </dt> <dt>
 
-[propertyDescriptionList](https://www.bing.com/search?q=propertyDescriptionList)
+[propertyDescriptionList](https://msdn.microsoft.com/library/Bb773882(v=VS.85).aspx)
 </dt> <dt>
 
-[propertyDescription](https://www.bing.com/search?q=propertyDescription)
+[propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx)
 </dt> <dt>
 
-[searchInfo](https://www.bing.com/search?q=searchInfo)
+[searchInfo](https://msdn.microsoft.com/library/Bb773885(v=VS.85).aspx)
 </dt> <dt>
 
-[labelInfo](https://www.bing.com/search?q=labelInfo)
+[labelInfo](https://msdn.microsoft.com/library/Bb773876(v=VS.85).aspx)
 </dt> <dt>
 
-[typeInfo](https://www.bing.com/search?q=typeInfo)
+[typeInfo](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx)
 </dt> <dt>
 
-[displayInfo](https://www.bing.com/search?q=displayInfo)
+[displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx)
 </dt> <dt>
 
-[aliasInfo](https://www.bing.com/search?q=aliasInfo)
+[aliasInfo](https://msdn.microsoft.com/library/Bb773860(v=VS.85).aspx)
 </dt> <dt>
 
-[stringFormat](https://www.bing.com/search?q=stringFormat)
+[stringFormat](https://msdn.microsoft.com/library/Bb773886(v=VS.85).aspx)
 </dt> <dt>
 
-[booleanFormat](https://www.bing.com/search?q=booleanFormat)
+[booleanFormat](https://msdn.microsoft.com/library/Bb773862(v=VS.85).aspx)
 </dt> <dt>
 
-[numberFormat](https://www.bing.com/search?q=numberFormat)
+[numberFormat](https://msdn.microsoft.com/library/Bb773877(v=VS.85).aspx)
 </dt> <dt>
 
-[dateTimeFormat](https://www.bing.com/search?q=dateTimeFormat)
+[dateTimeFormat](https://msdn.microsoft.com/library/Bb773863(v=VS.85).aspx)
 </dt> <dt>
 
-[enumeratedList](https://www.bing.com/search?q=enumeratedList)
+[enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx)
 </dt> <dt>
 
-[enum](https://www.bing.com/search?q=enum)
+[enum](https://msdn.microsoft.com/library/Bb773869(v=VS.85).aspx)
 </dt> <dt>
 
-[enumRange](https://www.bing.com/search?q=enumRange)
+[enumRange](https://msdn.microsoft.com/library/Bb773873(v=VS.85).aspx)
 </dt> <dt>
 
-[image](https://www.bing.com/search?q=image)
+[image](https://msdn.microsoft.com/library/Dd798383(v=VS.85).aspx)
 </dt> <dt>
 
-[drawControl](https://www.bing.com/search?q=drawControl)
+[drawControl](https://msdn.microsoft.com/library/Bb773866(v=VS.85).aspx)
 </dt> <dt>
 
-[editControl](https://www.bing.com/search?q=editControl)
+[editControl](https://msdn.microsoft.com/library/Bb773868(v=VS.85).aspx)
 </dt> <dt>
 
-[filterControl](https://www.bing.com/search?q=filterControl)
+[filterControl](https://msdn.microsoft.com/library/Bb773874(v=VS.85).aspx)
 </dt> <dt>
 
-[queryControl](https://www.bing.com/search?q=queryControl)
+[queryControl](https://msdn.microsoft.com/library/Bb773883(v=VS.85).aspx)
 </dt> <dt>
 
-[relatedPropertyInfo](https://www.bing.com/search?q=relatedPropertyInfo)
+[relatedPropertyInfo](https://msdn.microsoft.com/library/Dd798385(v=VS.85).aspx)
 </dt> <dt>
 
-[relatedProperty](https://www.bing.com/search?q=relatedProperty)
+[relatedProperty](https://msdn.microsoft.com/library/Dd798384(v=VS.85).aspx)
 </dt> </dl>
 
  

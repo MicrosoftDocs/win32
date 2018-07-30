@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 Sent by an Explorer-style **Open** or **Save As** dialog box when the user specifies a file name and clicks the **OK** button.
 
-Your [*OFNHookProc*](https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx) hook procedure receives this message in the form of a [**WM\_NOTIFY**](https://www.bing.com/search?q=**WM\_NOTIFY**) message.
+Your [*OFNHookProc*](https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx) hook procedure receives this message in the form of a [**WM\_NOTIFY**](https://msdn.microsoft.com/library/Bb775583(v=VS.85).aspx) message.
 
 
 ```C++
@@ -49,7 +49,7 @@ This parameter is not used.
 
 A pointer to an [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya) structure.
 
-The [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya) structure contains an [**NMHDR**](https://www.bing.com/search?q=**NMHDR**) structure whose **code** member indicates the **CDN\_FILEOK** notification message.
+The [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya) structure contains an [**NMHDR**](https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx) structure whose **code** member indicates the **CDN\_FILEOK** notification message.
 
 The [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya) structure also contains a pointer to an [**OPENFILENAME**](/windows/desktop/api/Commdlg/ns-commdlg-tagofna) structure whose **lpstrFile** member specifies the address of the selected file name.
 
@@ -111,7 +111,7 @@ The system sends this notification only if the dialog box was created using the 
 **Other Resources**
 </dt> <dt>
 
-[**WM\_NOTIFY**](https://www.bing.com/search?q=**WM\_NOTIFY**)
+[**WM\_NOTIFY**](https://msdn.microsoft.com/library/Bb775583(v=VS.85).aspx)
 </dt> </dl>
 
  

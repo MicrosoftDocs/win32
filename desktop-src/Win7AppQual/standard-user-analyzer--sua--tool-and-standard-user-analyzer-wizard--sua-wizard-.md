@@ -31,7 +31,7 @@ The following sections provide detailed information about how to use the SUA and
 
 The SUA tool enables you to analyze an application, review a detailed report about the UAC-related issues, and then apply the suggested and selected application mitigations, as shown in the following flowchart.
 
-![](https://www.bing.com/search?q=)
+![](images/act-suaflowchart-appcookbook.gif)
 
 *SUA Tool and Virtualization*
 
@@ -45,7 +45,7 @@ Only the SUA tool enables you to turn on and off the **Launch Elevated** feature
 
 The SUA Wizard enables you to follow a guided, step-by-step process by which you can analyze an application and then apply the suggested and selected application mitigations, as shown in the following flowchart. Unlike the SUA tool, the wizard does not enable a review of the detailed UAC-related issues.
 
-![](https://www.bing.com/search?q=)
+![](images/act-suaflowchart-appcookbook.gif)
 
 ## Links to Other Resources
 

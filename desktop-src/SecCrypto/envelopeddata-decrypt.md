@@ -20,7 +20,7 @@ api_location:
 
 # EnvelopedData.Decrypt method
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**EnvelopedCms Class**](https://www.bing.com/search?q=**EnvelopedCms+Class**) in the [**System.Security.Cryptography.Pkcs**](https://www.bing.com/search?q=**System.Security.Cryptography.Pkcs**) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**EnvelopedCms Class**](https://msdn.microsoft.com/library/f73feezf(v=VS.90).aspx) in the [**System.Security.Cryptography.Pkcs**](https://msdn.microsoft.com/library/6see7k14(v=VS.90).aspx) namespace.\]
 
 The **Decrypt** method decrypts enveloped content. Decryption is done if the recipient of the message has access to the [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) paired with one of the [*public keys*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) used to envelop the message. Calling the **Decrypt** method resets the [*state*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) of the object. If the **Decrypt** method succeeds, the [**Content**](envelopeddata-content.md) property of the [**EnvelopedData**](envelopeddata.md) object is set to the plaintext message.
 

@@ -1,0 +1,46 @@
+---
+Description: Proper shutdown of communications sessions and of an entire application is required to prevent resources from remaining tied up in calls or applications that no longer need them.
+ms.assetid: 64abb427-d41a-4670-a01c-095c678de6ff
+title: TAPI Shutdown
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# TAPI Shutdown
+
+Proper shutdown of communications sessions and of an entire application is required to prevent resources from remaining tied up in calls or applications that no longer need them.
+
+TAPI provides a series of functions and methods to assist in the process. Obviously, the application must also take responsibility for properly releasing allocated memory, whether in the form of data structures or COM references.
+
+
+
+| TAPI 2.x functions                                                            | Description                                                            |
+|-------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [**lineRegisterRequestRecipient**](https://msdn.microsoft.com/en-us/library/ms736043(v=VS.85).aspx) | Unregisters the application as a handler for assisted telephony calls. |
+| [**lineClose**](https://msdn.microsoft.com/en-us/library/ms735573(v=VS.85).aspx)                                       | Disconnects the application as a manager for calls on the given line.  |
+| [**lineShutdown**](https://msdn.microsoft.com/en-us/library/ms736117(v=VS.85).aspx)                                 | Shuts down the application's usage of the line abstraction.            |
+
+
+
+ 
+
+
+
+| TAPI 3.x interfaces or methods                                            | Description                                                                |
+|---------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [**ITTAPI::UnregisterNotifications**](/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-unregisternotifications) | Removes any event notification registrations performed by the application. |
+| [**ITTAPI::Shutdown**](/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-shutdown)                               | Disconnects the application as a call manager.                             |
+
+
+
+ 
+
+ 
+
+ 
+
+
+

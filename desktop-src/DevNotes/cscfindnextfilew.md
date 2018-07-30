@@ -54,7 +54,7 @@ A search handle returned by the [**CSCFindFirstFileW**](cscfindfirstfilew.md) fu
 *lpFind32* \[out\]
 </dt> <dd>
 
-A pointer to the [**WIN32\_FIND\_DATA**](base.win32_find_data_str) structure that receives information about the file or subdirectory.
+A pointer to the [**WIN32\_FIND\_DATA**](https://msdn.microsoft.com/library/Aa365740(v=VS.85).aspx) structure that receives information about the file or subdirectory.
 
 </dd> <dt>
 

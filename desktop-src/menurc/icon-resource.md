@@ -62,7 +62,7 @@ desk1   ICON "desk.ico"
 
 <dl> <dt>
 
-[Using Icons](https://www.bing.com/search?q=Using+Icons)
+[Using Icons](https://msdn.microsoft.com/library/ms648051(v=VS.85).aspx)
 </dt> </dl>
 
  

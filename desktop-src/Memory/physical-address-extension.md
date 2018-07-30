@@ -35,18 +35,18 @@ PAE is supported only on the following 32-bit versions of Windows running on x86
 
 Windows automatically enables PAE if DEP is enabled on a computer that supports hardware-enabled DEP, or if the computer is configured for hot-add memory devices in memory ranges beyond 4 GB. If the computer does not support hardware-enabled DEP or is not configured for hot-add memory devices in memory ranges beyond 4 GB, PAE must be explicitly enabled.
 
-To explicitly enable PAE, use the following [**BCDEdit /set**](https://www.bing.com/search?q=**BCDEdit+/set**) command to set the **pae** boot entry option:
+To explicitly enable PAE, use the following [**BCDEdit /set**](https://msdn.microsoft.com/library/Ff542202(v=VS.85).aspx) command to set the **pae** boot entry option:
 
 <dl> **bcdedit /set \[{ID}\] pae ForceEnable**  
 </dl>
 
-IF DEP is enabled, PAE cannot be disabled. Use the following [**BCDEdit /set**](https://www.bing.com/search?q=**BCDEdit+/set**) commands to disable both DEP and PAE:
+IF DEP is enabled, PAE cannot be disabled. Use the following [**BCDEdit /set**](https://msdn.microsoft.com/library/Ff542202(v=VS.85).aspx) commands to disable both DEP and PAE:
 
 <dl> **bcdedit /set \[{ID}\] nx AlwaysOff**  
 **bcdedit /set \[{ID}\] pae ForceDisable**  
 </dl>
 
-**Windows Server 2003 and Windows XP:** To enable PAE, use the **/PAE** switch in the [boot.ini](https://www.bing.com/search?q=boot.ini) file. To disable PAE, use the **/NOPAE** switch. To disable DEP, use the **/EXECUTE** switch.
+**Windows Server 2003 and Windows XP:** To enable PAE, use the **/PAE** switch in the [boot.ini](https://msdn.microsoft.com/library/Ff550245(v=VS.85).aspx) file. To disable PAE, use the **/NOPAE** switch. To disable DEP, use the **/EXECUTE** switch.
 
 ## Comparing PAE and other Large Memory Support
 

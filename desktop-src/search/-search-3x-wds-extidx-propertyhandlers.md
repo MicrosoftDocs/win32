@@ -59,7 +59,7 @@ Before you begin, you need to consider the following design questions:
 
  
 
-After you have made these decisions, you can write formal descriptions of your custom properties so that the Windows Search engine can begin indexing your files and properties. These formal descriptions are XML files, described in [Property Description Schema](https://www.bing.com/search?q=Property+Description+Schema).
+After you have made these decisions, you can write formal descriptions of your custom properties so that the Windows Search engine can begin indexing your files and properties. These formal descriptions are XML files, described in [Property Description Schema](https://msdn.microsoft.com/library/Cc144127(v=VS.85).aspx).
 
 ### Property Decisions
 

@@ -660,7 +660,7 @@ Qualifiers: [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.8
 
 Number, in kilobytes, of physical memory currently unused and available.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
 
 This property is inherited from [**CIM\_OperatingSystem**](cim-operatingsystem.md).
 
@@ -680,7 +680,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa3936
 
 Number, in kilobytes, that can be mapped into the operating system paging files without causing any other pages to be swapped out.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
 
 This property is inherited from [**CIM\_OperatingSystem**](cim-operatingsystem.md).
 
@@ -700,7 +700,7 @@ Qualifiers: [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.8
 
 Number, in kilobytes, of virtual memory currently unused and available.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
 
 This property is inherited from [**CIM\_OperatingSystem**](cim-operatingsystem.md).
 
@@ -861,7 +861,7 @@ Qualifiers: [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.8
 
 Maximum number, in kilobytes, of memory that can be allocated to a process. For operating systems with no virtual memory, typically this value is equal to the total amount of physical memory minus the memory used by the BIOS and the operating system. For some operating systems, this value may be infinity, in which case 0 (zero) should be entered. In other cases, this value could be a constant, for example, 2G or 4G.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
 
 This property is inherited from [**CIM\_OperatingSystem**](cim-operatingsystem.md).
 
@@ -3279,7 +3279,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa3936
 
 Total number of kilobytes that can be stored in the operating system paging files—0 (zero) indicates that there are no paging files. Be aware that this number does not represent the actual physical size of the paging file on disk.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
 
 This property is inherited from [**CIM\_OperatingSystem**](cim-operatingsystem.md).
 
@@ -3547,7 +3547,7 @@ Qualifiers: [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.8
 
 Total swap space in kilobytes. This value may be **NULL** (unspecified) if the swap space is not distinguished from page files. However, some operating systems distinguish these concepts. For example, in UNIX, whole processes can be swapped out when the free page list falls and remains below a specified amount.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
 
 This property is inherited from [**CIM\_OperatingSystem**](cim-operatingsystem.md).
 
@@ -3567,7 +3567,7 @@ Qualifiers: [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.8
 
 Number, in kilobytes, of virtual memory. For example, this may be calculated by adding the amount of total RAM to the amount of paging space, that is, adding the amount of memory in or aggregated by the computer system to the property, **SizeStoredInPagingFiles**.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
 
 This property is inherited from [**CIM\_OperatingSystem**](cim-operatingsystem.md).
 
@@ -3587,7 +3587,7 @@ Qualifiers: [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.8
 
 Total amount, in kilobytes, of physical memory available to the operating system. This value does not necessarily indicate the true amount of physical memory, but what is reported to the operating system as available to it.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
 
 This property is inherited from [**CIM\_OperatingSystem**](cim-operatingsystem.md).
 

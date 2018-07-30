@@ -17,7 +17,7 @@ SLists are straightforward to implement and use in 32-bit code. However, it is c
 
 **Windows 8:** Starting in Windows 8 the appropriate native interlocked exchange primitives are available for 64-bit code, for example [**InterlockedCompare64Exchange128**](https://msdn.microsoft.com/en-us/library/ms683553(v=VS.85).aspx).
 
-Applications can use SLists by calling the [**InitializeSListHead**](/windows/desktop/api) function to initialize the head of the list. To insert items into the list, use the [**InterlockedPushEntrySList**](/windows/desktop/api) function. To delete items from the list, use the [**InterlockedPopEntrySList**](/windows/desktop/api) function.
+Applications can use SLists by calling the [**InitializeSListHead**](https://msdn.microsoft.com/en-us/library/ms683482(v=VS.85).aspx) function to initialize the head of the list. To insert items into the list, use the [**InterlockedPushEntrySList**](https://msdn.microsoft.com/en-us/library/ms684020(v=VS.85).aspx) function. To delete items from the list, use the [**InterlockedPopEntrySList**](https://msdn.microsoft.com/en-us/library/ms683648(v=VS.85).aspx) function.
 
 All list items must be aligned on a **MEMORY\_ALLOCATION\_ALIGNMENT** boundary. Unaligned items can cause unpredictable results. See **\_aligned\_malloc**.
 
@@ -29,14 +29,14 @@ The following table lists the SList functions.
 
 | Function                                                         | Description                                                                                                                                               |
 |------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**InitializeSListHead**](/windows/desktop/api)               | Initializes the head of a singly linked list.                                                                                                             |
-| [**InterlockedFlushSList**](/windows/desktop/api)           | Flushes the entire list of items in a singly linked list.                                                                                                 |
-| [**InterlockedPopEntrySList**](/windows/desktop/api)     | Removes an item from the front of a singly linked list.                                                                                                   |
-| [**InterlockedPushEntrySList**](/windows/desktop/api)   | Inserts an item at the front of a singly linked list.                                                                                                     |
+| [**InitializeSListHead**](https://msdn.microsoft.com/en-us/library/ms683482(v=VS.85).aspx)               | Initializes the head of a singly linked list.                                                                                                             |
+| [**InterlockedFlushSList**](https://msdn.microsoft.com/en-us/library/ms683612(v=VS.85).aspx)           | Flushes the entire list of items in a singly linked list.                                                                                                 |
+| [**InterlockedPopEntrySList**](https://msdn.microsoft.com/en-us/library/ms683648(v=VS.85).aspx)     | Removes an item from the front of a singly linked list.                                                                                                   |
+| [**InterlockedPushEntrySList**](https://msdn.microsoft.com/en-us/library/ms684020(v=VS.85).aspx)   | Inserts an item at the front of a singly linked list.                                                                                                     |
 | [**InterlockedPushListSList**](https://msdn.microsoft.com/en-us/library/Hh448545(v=VS.85).aspx)     | Inserts a singly-linked list at the front of another singly linked list.                                                                                  |
 | [**InterlockedPushListSListEx**](/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpushlistslistex) | Inserts a singly-linked list at the front of another singly linked list. This version of the method does not use the **\_\_fastcall** calling convention. |
 | [**RtlFirstEntrySList**](/windows/desktop/api/WinNT/nf-winnt-rtlfirstentryslist)                 | Retrieves the first entry in a singly linked list.                                                                                                        |
-| [**QueryDepthSList**](/windows/desktop/api)                       | Retrieves the number of entries in the specified singly linked list.                                                                                      |
+| [**QueryDepthSList**](https://msdn.microsoft.com/en-us/library/ms684916(v=VS.85).aspx)                       | Retrieves the number of entries in the specified singly linked list.                                                                                      |
 
 
 

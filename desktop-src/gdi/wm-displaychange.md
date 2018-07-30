@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The **WM\_DISPLAYCHANGE** message is sent to all windows when the display resolution has changed.
 
-A window receives this message through its [**WindowProc**](https://www.bing.com/search?q=**WindowProc**) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -73,10 +73,10 @@ This message is only sent to top-level windows. For all other windows it is post
 [Painting and Drawing Messages](painting-and-drawing-messages.md)
 </dt> <dt>
 
-[**HIWORD**](https://www.bing.com/search?q=**HIWORD**)
+[**HIWORD**](https://msdn.microsoft.com/library/ms632657(v=VS.85).aspx)
 </dt> <dt>
 
-[**LOWORD**](https://www.bing.com/search?q=**LOWORD**)
+[**LOWORD**](https://msdn.microsoft.com/library/ms632659(v=VS.85).aspx)
 </dt> </dl>
 
  

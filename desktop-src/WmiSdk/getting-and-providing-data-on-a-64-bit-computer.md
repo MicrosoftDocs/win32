@@ -25,7 +25,7 @@ If two versions exist, client applications and scripts can use the context param
 
 The following diagram shows the default and nondefault connections, using the registry as an example for which two providers can exist side-by-side on a 64-bit platform.
 
-![default and nondefault connections on a 64-bit platform](https://www.bing.com/search?q=default+and+nondefault+connections+on+a+64-bit+platform)
+![default and nondefault connections on a 64-bit platform](images/32-64bit-registry.png)
 
 ## Related topics
 

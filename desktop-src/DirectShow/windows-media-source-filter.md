@@ -17,7 +17,7 @@ When this filter is given the name of a local ASF file or a URL for a remote fil
 
 The following diagram shows a filter graph with this filter.
 
-![windows media source filter graph](https://www.bing.com/search?q=windows+media+source+filter+graph)
+![windows media source filter graph](images/wms-wmv-graph.png)
 
 To maintain backward compatibility with Windows Media Player 6.4, this filter is the default source filter for files with .wma, .wmv, and .asf file extensions. For file playback, newer applications should use the [WM ASF Reader](wm-asf-reader-filter.md) filter. However, the WM ASF Reader does not support playback of streamed content.
 

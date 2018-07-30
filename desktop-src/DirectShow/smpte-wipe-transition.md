@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 The SMPTE Wipe transition produces any of the standard wipes defined by the Society of Motion Picture and Television Engineers (SMPTE) in SMPTE document 258M-1993, with the exception of the quad split.
 
-![wipe transition in progress](https://www.bing.com/search?q=wipe+transition+in+progress)
+![wipe transition in progress](images/trans-wipe.png)
 
 Class ID (CLSID): {DE75D012-7A65-11D2-8CEA-00A0C9441E20}
 

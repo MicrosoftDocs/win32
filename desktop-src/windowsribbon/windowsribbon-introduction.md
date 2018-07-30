@@ -68,7 +68,7 @@ The ribbon is a command bar that exposes the major features of an application th
 
 The following image illustrates the Ribbon framework implementation in Paint for Windows 7.
 
-![screen shot showing the ribbon implementation in paint for windows 7.](https://www.bing.com/search?q=screen+shot+showing+the+ribbon+implementation+in+paint+for+windows+7.)
+![screen shot showing the ribbon implementation in paint for windows 7.](images/overviews/screenshot-paint-win7transparency-mirror.png)
 
 ### The ContextPopup View
 

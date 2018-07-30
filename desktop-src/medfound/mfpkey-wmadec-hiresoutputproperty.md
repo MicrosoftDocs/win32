@@ -32,7 +32,7 @@ Set this property to VARIANT\_TRUE to decode multichannel or 24-bit audio conten
 -   The DMO output will be limited to 16-bit, 48-KHz stereo.
 -   The MFT will enumerate output modes that are limited to 16 bits and do not involve changes in channel count or sampling rate.
 
-The properties of high-resolution audio are passed in a [**WAVEFORMATEXTENSIBLE**](https://www.bing.com/search?q=**WAVEFORMATEXTENSIBLE**) structure, not [**WAVEFORMATEX**](https://www.bing.com/search?q=**WAVEFORMATEX**).
+The properties of high-resolution audio are passed in a [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/library/Dd390971(v=VS.85).aspx) structure, not [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx).
 
 High-resolution output is available only if the decoder is running on Windows XP or later. You can set this property regardless of the operating system on which your application is running. On versions of Windows earlier than Windows XP, the decoder will ignore this setting and deliver standard output.
 

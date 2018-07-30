@@ -91,7 +91,7 @@ This function has no associated import library or header file; you must call it 
 
 <dl> <dt>
 
-[**GetLastInputInfo**](_win32_getlastinputinfo_cpp)
+[**GetLastInputInfo**](https://msdn.microsoft.com/library/ms646302(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -64,7 +64,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-If the [**SetScrollPos**](https://www.bing.com/search?q=**SetScrollPos**) or [**MoveWindow**](https://msdn.microsoft.com/en-us/library/ms633534(v=VS.85).aspx) function is called for a child window as a result of the **WM\_SIZE** message, the *bRedraw* or *bRepaint* parameter should be nonzero to cause the window to be repainted.
+If the [**SetScrollPos**](https://msdn.microsoft.com/library/Cc411085(v=MSDN.10).aspx) or [**MoveWindow**](https://msdn.microsoft.com/en-us/library/ms633534(v=VS.85).aspx) function is called for a child window as a result of the **WM\_SIZE** message, the *bRedraw* or *bRepaint* parameter should be nonzero to cause the window to be repainted.
 
 Although the width and height of a window are 32-bit values, the *lParam* parameter contains only the low-order 16 bits of each.
 
@@ -105,7 +105,7 @@ Although the width and height of a window are 32-bit values, the *lParam* parame
 **Other Resources**
 </dt> <dt>
 
-[**SetScrollPos**](https://www.bing.com/search?q=**SetScrollPos**)
+[**SetScrollPos**](https://msdn.microsoft.com/library/Cc411085(v=MSDN.10).aspx)
 </dt> </dl>
 
  

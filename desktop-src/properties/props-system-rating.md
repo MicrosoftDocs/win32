@@ -139,9 +139,9 @@ propertyDescription
 
 PKEY values are defined in Propkey.h.
 
-For compatibility with ratings systems that use values between 1 and 5, see the property [System.SimpleRating](https://www.bing.com/search?q=System.SimpleRating). Note, however, that System.SimpleRating is not used in the Windows Vista Shell.
+For compatibility with ratings systems that use values between 1 and 5, see the property [System.SimpleRating](https://msdn.microsoft.com/library/Bb787564(v=VS.85).aspx). Note, however, that System.SimpleRating is not used in the Windows Vista Shell.
 
-The following table describes what the star rating system used in the Shell UI means in terms of the [System.Rating](https://www.bing.com/search?q=System.Rating) value.
+The following table describes what the star rating system used in the Shell UI means in terms of the [System.Rating](https://msdn.microsoft.com/library/Bb787554(v=VS.85).aspx) value.
 
 
 
@@ -157,7 +157,7 @@ The following table describes what the star rating system used in the Shell UI m
 
  
 
-When a user rates an item by choosing a star rating value in the UI, actual [System.Rating](https://www.bing.com/search?q=System.Rating) values are assigned as shown in this table:
+When a user rates an item by choosing a star rating value in the UI, actual [System.Rating](https://msdn.microsoft.com/library/Bb787554(v=VS.85).aspx) values are assigned as shown in this table:
 
 
 
@@ -173,7 +173,7 @@ When a user rates an item by choosing a star rating value in the UI, actual [Sys
 
  
 
-If your file has a [System.SimpleRating](https://www.bing.com/search?q=System.SimpleRating) value rather than a [System.Rating](https://www.bing.com/search?q=System.Rating) value, use the table below to convert and specify values for System.Rating.
+If your file has a [System.SimpleRating](https://msdn.microsoft.com/library/Bb787564(v=VS.85).aspx) value rather than a [System.Rating](https://msdn.microsoft.com/library/Bb787554(v=VS.85).aspx) value, use the table below to convert and specify values for System.Rating.
 
 
 
@@ -189,52 +189,52 @@ If your file has a [System.SimpleRating](https://www.bing.com/search?q=System.Si
 
  
 
-If your file has both [System.Rating](https://www.bing.com/search?q=System.Rating) and [System.SimpleRating](https://www.bing.com/search?q=System.SimpleRating) persisted values, always use the System.Rating value when it is directly requested, without reference to System.SimpleRating.
+If your file has both [System.Rating](https://msdn.microsoft.com/library/Bb787554(v=VS.85).aspx) and [System.SimpleRating](https://msdn.microsoft.com/library/Bb787564(v=VS.85).aspx) persisted values, always use the System.Rating value when it is directly requested, without reference to System.SimpleRating.
 
 ## Related topics
 
 <dl> <dt>
 
-[propertyDescription](https://www.bing.com/search?q=propertyDescription)
+[propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx)
 </dt> <dt>
 
-[searchInfo](https://www.bing.com/search?q=searchInfo)
+[searchInfo](https://msdn.microsoft.com/library/Bb773885(v=VS.85).aspx)
 </dt> <dt>
 
-[labelInfo](https://www.bing.com/search?q=labelInfo)
+[labelInfo](https://msdn.microsoft.com/library/Bb773876(v=VS.85).aspx)
 </dt> <dt>
 
-[typeInfo](https://www.bing.com/search?q=typeInfo)
+[typeInfo](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx)
 </dt> <dt>
 
-[displayInfo](https://www.bing.com/search?q=displayInfo)
+[displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx)
 </dt> <dt>
 
-[stringFormat](https://www.bing.com/search?q=stringFormat)
+[stringFormat](https://msdn.microsoft.com/library/Bb773886(v=VS.85).aspx)
 </dt> <dt>
 
-[booleanFormat](https://www.bing.com/search?q=booleanFormat)
+[booleanFormat](https://msdn.microsoft.com/library/Bb773862(v=VS.85).aspx)
 </dt> <dt>
 
-[numberFormat](https://www.bing.com/search?q=numberFormat)
+[numberFormat](https://msdn.microsoft.com/library/Bb773877(v=VS.85).aspx)
 </dt> <dt>
 
-[dateTimeFormat](https://www.bing.com/search?q=dateTimeFormat)
+[dateTimeFormat](https://msdn.microsoft.com/library/Bb773863(v=VS.85).aspx)
 </dt> <dt>
 
-[enumeratedList](https://www.bing.com/search?q=enumeratedList)
+[enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx)
 </dt> <dt>
 
-[drawControl](https://www.bing.com/search?q=drawControl)
+[drawControl](https://msdn.microsoft.com/library/Bb773866(v=VS.85).aspx)
 </dt> <dt>
 
-[editControl](https://www.bing.com/search?q=editControl)
+[editControl](https://msdn.microsoft.com/library/Bb773868(v=VS.85).aspx)
 </dt> <dt>
 
-[filterControl](https://www.bing.com/search?q=filterControl)
+[filterControl](https://msdn.microsoft.com/library/Bb773874(v=VS.85).aspx)
 </dt> <dt>
 
-[queryControl](https://www.bing.com/search?q=queryControl)
+[queryControl](https://msdn.microsoft.com/library/Bb773883(v=VS.85).aspx)
 </dt> </dl>
 
  

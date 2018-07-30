@@ -382,7 +382,7 @@ Every blit operation is defined by the following three rectangles:
 
 The target and destination rectangles are specified relative to the destination surface. The source rectangle is specified relative to the source image. All rectangles are specified in pixels.
 
-![diagram showing source, destination, and target rectangles](https://www.bing.com/search?q=diagram+showing+source,+destination,+and+target+rectangles)
+![diagram showing source, destination, and target rectangles](images/dxva-vp-rects.gif)
 
 The video processing device alpha blends the input pictures, using any of the following sources of alpha data:
 

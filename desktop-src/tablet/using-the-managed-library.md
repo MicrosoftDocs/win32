@@ -23,7 +23,7 @@ The managed library objects in the Tablet PC API wrap the COM library implementa
 
 ## Object Comparison
 
-For all objects in the Tablet PC Platform Managed library, [**Equals**](frlrfSystemObjectClassEqualsTopic) is not overridden to correctly compare two objects that are the same. The managed application programming interface (API) does not support the comparison of objects for equality, either through the **Equals** function or through the equals (==) operator.
+For all objects in the Tablet PC Platform Managed library, [**Equals**](https://msdn.microsoft.com/library/d5171fyh(v=VS.96).aspx) is not overridden to correctly compare two objects that are the same. The managed application programming interface (API) does not support the comparison of objects for equality, either through the **Equals** function or through the equals (==) operator.
 
 ## Binding to the Latest Microsoft.Ink.dll
 
@@ -42,7 +42,7 @@ For more information about configuration files, including examples of how to con
 Applications created with Microsoft Windows XP Tablet PC Edition Development Kit 1.7 and later versions are automatically bound to the new version of the Microsoft.Ink assembly. For more information about assembly binding see [How the Runtime Locates Assemblies](http://go.microsoft.com/fwlink/p/?linkid=23507).
 
 > [!Note]  
-> Using application policy to bind to the updated assembly does not work for applications that use the [Divider](frlrfMicrosoftInkDividerClassTopic) class or the [PenInputPanel](frlrfMicrosoftInkPenInputPanelClassTopic) class. Applications that use either of those classes must either continue to use Microsoft.Ink.15.dll or be recompiled after referencing the updated assembly.
+> Using application policy to bind to the updated assembly does not work for applications that use the [Divider](https://msdn.microsoft.com/library/ms583616(v=VS.100).aspx) class or the [PenInputPanel](https://msdn.microsoft.com/library/Aa514041(v=MSDN.10).aspx) class. Applications that use either of those classes must either continue to use Microsoft.Ink.15.dll or be recompiled after referencing the updated assembly.
 
  
 
@@ -52,11 +52,11 @@ If the code within an event handler for any of the managed objects throws an exc
 
 ## Managing Forms
 
-The [Form](T:System.Windows.Forms.Form) class and its base classes do not define a finalizer. To clean up your resources on a form, write a subclass that provides a finalizer (for example, the C\# destructor using the ~) that calls [Dispose](frlrfSystemWindowsFormsFormClassDisposeTopic). To do the cleanup the finalizer overrides Dispose and then calls the base class Dispose. Do not refer to other objects that require the [Finalize](frlrfSystemObjectClassFinalizeTopic) method in the Dispose method when the Boolean parameter is **FALSE**, because those objects may already have been finalized. For more information about releasing resources see [Finalize Methods and Destructors](http://go.microsoft.com/fwlink/p/?linkid=21227).
+The [Form](https://msdn.microsoft.com/library/w4bcxb43(v=VS.90).aspx) class and its base classes do not define a finalizer. To clean up your resources on a form, write a subclass that provides a finalizer (for example, the C\# destructor using the ~) that calls [Dispose](https://msdn.microsoft.com/library/d305e9bx(v=VS.100).aspx). To do the cleanup the finalizer overrides Dispose and then calls the base class Dispose. Do not refer to other objects that require the [Finalize](https://msdn.microsoft.com/library/4k87zsw7(v=VS.96).aspx) method in the Dispose method when the Boolean parameter is **FALSE**, because those objects may already have been finalized. For more information about releasing resources see [Finalize Methods and Destructors](http://go.microsoft.com/fwlink/p/?linkid=21227).
 
 ## Forms and the RecognizerContext
 
-[RecognizerContext](frlrfMicrosoftInkRecognizerContextClassTopic) events run in a different thread than the thread that the form is on. Controls in Windows Forms are bound to a specific thread and are not thread safe. Therefore, you must use one of the control's invoke methods to marshal the call to the proper thread. Four methods on a control are thread safe: the [Invoke](frlrfSystemWindowsFormsControlClassInvokeTopic), [BeginInvoke](frlrfSystemWindowsFormsControlClassBeginInvokeTopic), [EndInvoke](frlrfSystemWindowsFormsControlClassEndInvokeTopic), and [CreateGraphics](frlrfSystemWindowsFormsControlClassCreateGraphicsTopic) methods. For all other method calls, use one of these invoke methods when calling from a different thread. For more information on using these methods, see [Manipulating Controls from Threads](http://msdn.microsoft.com/en-us/library/757y83z4.aspx).
+[RecognizerContext](https://msdn.microsoft.com/library/ms552546(v=VS.100).aspx) events run in a different thread than the thread that the form is on. Controls in Windows Forms are bound to a specific thread and are not thread safe. Therefore, you must use one of the control's invoke methods to marshal the call to the proper thread. Four methods on a control are thread safe: the [Invoke](https://msdn.microsoft.com/library/30s4t80c(v=VS.90).aspx), [BeginInvoke](https://msdn.microsoft.com/library/ae5kdt95(v=VS.90).aspx), [EndInvoke](https://msdn.microsoft.com/library/zbdewc0s(v=VS.90).aspx), and [CreateGraphics](https://msdn.microsoft.com/library/xz0d56wk(v=VS.90).aspx) methods. For all other method calls, use one of these invoke methods when calling from a different thread. For more information on using these methods, see [Manipulating Controls from Threads](http://msdn.microsoft.com/en-us/library/757y83z4.aspx).
 
 ## Waiting for Events
 
@@ -64,7 +64,7 @@ The Tablet PC environment is multithreaded. Use the [**CoWaitForMultipleHandles*
 
 ## Using Ink Strokes Collections
 
-Instances of [Strokes](frlrfMicrosoftInkStrokesClassTopic) collections which are obtained from an [Ink](frlrfMicrosoftInkInkClassTopic) object are not garbage collected. In order to avoid a memory leak, any time that you are working with one of these collections, make use of the "using" statement as shown below.
+Instances of [Strokes](https://msdn.microsoft.com/library/ms552701(v=VS.100).aspx) collections which are obtained from an [Ink](https://msdn.microsoft.com/library/Aa515768(v=MSDN.10).aspx) object are not garbage collected. In order to avoid a memory leak, any time that you are working with one of these collections, make use of the "using" statement as shown below.
 
 
 ```C++
@@ -78,21 +78,21 @@ using (Strokes strokes = myInk.Strokes)
 
 ## Disposing Managed Objects and Controls
 
-To avoid a memory leak you must explicitly call the [Dispose](frlrfSystemWindowsFormsFormClassDisposeTopic) method on any Tablet PC object or control to which an event handler has been attached before the object or control goes out of scope.
+To avoid a memory leak you must explicitly call the [Dispose](https://msdn.microsoft.com/library/d305e9bx(v=VS.100).aspx) method on any Tablet PC object or control to which an event handler has been attached before the object or control goes out of scope.
 
 To improve the performance of your application, manually dispose of the following objects, controls, and collection when they are no longer needed.
 
--   [Divider](frlrfMicrosoftInkDividerClassTopic)
--   [Ink](frlrfMicrosoftInkInkClassTopic)
--   [InkCollector](frlrfMicrosoftInkInkCollectorClassTopic)
--   [InkEdit](frlrfMicrosoftInkInkEditClassTopic)
--   [InkOverlay](frlrfMicrosoftInkInkOverlayClassTopic)
--   [InkPicture](frlrfMicrosoftInkInkPictureClassTopic)
--   [PenInputPanel](frlrfMicrosoftInkPenInputPanelClassTopic)
--   [RecognizerContext](frlrfMicrosoftInkRecognizerContextClassTopic)
--   [Strokes](frlrfMicrosoftInkStrokesClassTopic)
+-   [Divider](https://msdn.microsoft.com/library/ms583616(v=VS.100).aspx)
+-   [Ink](https://msdn.microsoft.com/library/Aa515768(v=MSDN.10).aspx)
+-   [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.100).aspx)
+-   [InkEdit](https://msdn.microsoft.com/library/ms552265(v=VS.100).aspx)
+-   [InkOverlay](https://msdn.microsoft.com/library/ms552322(v=VS.100).aspx)
+-   [InkPicture](https://msdn.microsoft.com/library/Aa514604(v=MSDN.10).aspx)
+-   [PenInputPanel](https://msdn.microsoft.com/library/Aa514041(v=MSDN.10).aspx)
+-   [RecognizerContext](https://msdn.microsoft.com/library/ms552546(v=VS.100).aspx)
+-   [Strokes](https://msdn.microsoft.com/library/ms552701(v=VS.100).aspx)
 
-The following C\# example demonstrates some scenarios in which the [Dispose](frlrfSystemWindowsFormsFormClassDisposeTopic) method is used.
+The following C\# example demonstrates some scenarios in which the [Dispose](https://msdn.microsoft.com/library/d305e9bx(v=VS.100).aspx) method is used.
 
 
 ```C++

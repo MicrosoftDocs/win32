@@ -33,7 +33,7 @@ The default value is `UI_FONTUNDERLINE_NOTSET`.
 
 The following screen shot shows the **Underline** button of the Ribbon [**FontControl**](windowsribbon-element-fontcontrol.md).
 
-![screen shot of the fontcontrol element with the richfont attribute set to true.](https://www.bing.com/search?q=screen+shot+of+the+fontcontrol+element+with+the+richfont+attribute+set+to+true.)
+![screen shot of the fontcontrol element with the richfont attribute set to true.](images/markup/fontcontrol-underline.png)
 
 The following table describes the properties and the UI result.
 

@@ -107,7 +107,7 @@ To build the sample using Microsoft Visual Studio (preferred):
 [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx)
 </dt> <dt>
 
-[OLE DB Programming Overview](https://www.bing.com/search?q=OLE+DB+Programming+Overview)
+[OLE DB Programming Overview](https://msdn.microsoft.com/library/Cc522830(v=VS.71).aspx)
 </dt> </dl>
 
  

@@ -48,7 +48,7 @@ Chroma channels can have a lower sampling rate than the luma channel, without an
 
 The following diagrams shows how chroma is sampled for each of the downsampling rates. Luma samples are represented by a cross, and chroma samples are represented by a circle.
 
-![figure 1. chroma sampling](https://www.bing.com/search?q=figure+1.+chroma+sampling)
+![figure 1. chroma sampling](images/yuv-sampling-grids.png)
 
 The dominant form of 4:2:2 sampling is defined in ITU-R Recommendation BT.601. There are two common variants of 4:2:0 sampling. One of these is used in MPEG-2 video, and the other is used in MPEG-1 and in ITU-T Recommendations H.261 and H.263.
 

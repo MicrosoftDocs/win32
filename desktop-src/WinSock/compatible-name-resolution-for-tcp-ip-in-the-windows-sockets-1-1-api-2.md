@@ -29,8 +29,8 @@ Windows Sockets 1.1 defined a number of routines used for name resolution with T
 <dl>
 
 [**gethostname**](/windows/desktop/api/winsock/nf-winsock-gethostname)  
-[**gethostbyaddr**](/windows/desktop/api)  
-[**gethostbyname**](/windows/desktop/api)  
+[**gethostbyaddr**](https://msdn.microsoft.com/en-us/library/ms738521(v=VS.85).aspx)  
+[**gethostbyname**](https://msdn.microsoft.com/en-us/library/ms738524(v=VS.85).aspx)  
 [**getprotobyname**](/windows/desktop/api/winsock/nf-winsock-getprotobyname)  
 [**getprotobynumber**](/windows/desktop/api/winsock/nf-winsock-getprotobynumber)  
 [**getservbyname**](/windows/desktop/api/winsock/nf-winsock-getservbyname)  
@@ -41,8 +41,8 @@ Asynchronous versions of these functions were also defined.
 
 <dl>
 
-[**WSAAsyncGetHostByAddr**](/windows/desktop/api)  
-[**WSAAsyncGetHostByName**](/windows/desktop/api)  
+[**WSAAsyncGetHostByAddr**](https://msdn.microsoft.com/en-us/library/ms741519(v=VS.85).aspx)  
+[**WSAAsyncGetHostByName**](https://msdn.microsoft.com/en-us/library/ms741522(v=VS.85).aspx)  
 [**WSAAsyncGetProtoByName**](/windows/desktop/api/winsock/nf-winsock-wsaasyncgetprotobyname)  
 [**WSAAsyncGetProtoByNumber**](/windows/desktop/api/winsock/nf-winsock-wsaasyncgetprotobynumber)  
 [**WSAAsyncGetServByName**](/windows/desktop/api/winsock/nf-winsock-wsaasyncgetservbyname)  
@@ -53,8 +53,8 @@ There are also two functions, now implemented in the Winsock2.dll, used to conve
 
 <dl>
 
-[**inet\_addr**](/windows/desktop/api)  
-[**inet\_ntoa**](/windows/desktop/api)  
+[**inet\_addr**](https://msdn.microsoft.com/en-us/library/ms738563(v=VS.85).aspx)  
+[**inet\_ntoa**](https://msdn.microsoft.com/en-us/library/ms738564(v=VS.85).aspx)  
 </dl>
 
 In order to retain strict backward compatibility with Windows Sockets 1.1, all of the older IPv4-only functions continue to be supported as long as at least one namespace provider is present that supports the AF\_INET address family (these functions are not relevant to IP version 6, denoted by AF\_INET6).

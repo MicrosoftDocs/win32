@@ -56,7 +56,7 @@ You can use the following attributes with this control. To change the value of a
 
 Because of the way Windows draws the frame, there is a gap between the top of the control's window and the visible frame, even when there is no caption.
 
-This control can be created from the BUTTON class by using the [**CreateWindowEx**](https://www.bing.com/search?q=**CreateWindowEx**) function. If the [HasBorder](hasborder-control-attribute.md) bit is set, it has the **BS\_GROUPBOX** style, otherwise it has the **BS\_OWNERDRAW** style.
+This control can be created from the BUTTON class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. If the [HasBorder](hasborder-control-attribute.md) bit is set, it has the **BS\_GROUPBOX** style, otherwise it has the **BS\_OWNERDRAW** style.
 
 The RadioButtonGroup control should not overlap other controls and other controls should not overlap a RadioButtonGroup. Overlapping this control and another can cause the controls to function or display incorrectly. To provide screen-reader programs with extra descriptive text about a RadioButtonGroup control, follow the example provided in [Adding Extra Text to Radio Buttons](adding-extra-text-to-radio-buttons.md).
 

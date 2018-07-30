@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - AsyncActionCompletedHandler
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - Windows.Foundation.idl
 ---
 
@@ -24,7 +24,7 @@ Represents the method that is called when an asynchronous action completes.
 
 ## Members
 
-The **AsyncActionCompletedHandler** interface inherits from [**IAsyncInfo**](/windows/desktop/api). **AsyncActionCompletedHandler** also has these types of members:
+The **AsyncActionCompletedHandler** interface inherits from [**IAsyncInfo**](https://msdn.microsoft.com/en-us/library/BR205795(v=VS.85).aspx). **AsyncActionCompletedHandler** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -62,7 +62,7 @@ Assign an **AsyncActionCompletedHandler** to an [**IAsyncAction**](https://msdn.
 
 <dl> <dt>
 
-[**IAsyncInfo**](/windows/desktop/api)
+[**IAsyncInfo**](https://msdn.microsoft.com/en-us/library/BR205795(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -7,20 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - SignedData.Verify
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - Capicom.dll
 ---
 
 # SignedData.Verify method
 
-\[The **Verify** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**SignedCms Class**](https://www.bing.com/search?q=**SignedCms+Class**) in the [**System.Security.Cryptography.Pkcs**](https://www.bing.com/search?q=**System.Security.Cryptography.Pkcs**) namespace.\]
+\[The **Verify** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**SignedCms Class**](https://msdn.microsoft.com/library/kz82bs5e(v=VS.90).aspx) in the [**System.Security.Cryptography.Pkcs**](https://msdn.microsoft.com/library/6see7k14(v=VS.100).aspx) namespace.\]
 
 The **Verify** method determines whether the [*signatures*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx) on signed data in the [**SignedData**](signeddata.md) object are valid. To verify a signature, the encrypted [*hash*](https://msdn.microsoft.com/en-us/library/ms721586(v=VS.85).aspx) of the contents is decrypted by using the signer's public key from the signer's certificate. The decrypted hash is compared to a new hash of the data content. A signature is valid if the hashes match. In addition, this method also builds a certificate chain to determine the validity of the certificate that provides the [*public key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) used to decrypt the hash.
 

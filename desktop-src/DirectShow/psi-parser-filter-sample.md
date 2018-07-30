@@ -28,7 +28,7 @@ You can test the PSI Parser filter in GraphEdit as follows:
 5.  Use the demux property page to map PID 0x00 to the output pin. Set the content type to "MPEG2 PSI Sections".
 6.  Connect the demux output pin to PSI Parser, as shown in the following diagram.
 
-    ![psi parser filter graph](https://www.bing.com/search?q=psi+parser+filter+graph)
+    ![psi parser filter graph](images/psi-parser.png)
 
 7.  Run the graph, in order to feed PSI data to the PSI Parser filter. As the filter decodes the PAT sections, it automatically maps the PMT PIDs to the same output pin on the demux, so that it receives the PMT sections.
 8.  Use the PSI Parser property page to select a program number. The elementary stream list in the property page will show the PID and stream type associated with each elementary stream in the selected program. The property page is designed to recognize stream types defined in ISO/IEC 13818-1.

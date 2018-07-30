@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 A type-2 DV AVI file has two streams, one that contains DV video and another that contains audio. To capture a type-2 file while previewing, use the filter graph shown in the following diagram.
 
-![type-2 capture with preview](https://www.bing.com/search?q=type-2+capture+with+preview)
+![type-2 capture with preview](images/dv2-cap.png)
 
 This graph is almost the same as the graph for type-1 capture (see [Capture a Type-1 DV File](capture-a-type-1-dv-file.md)). However, the capture stream goes through the [DV Splitter](dv-splitter-filter.md) filter before reaching the [AVI Mux](avi-mux-filter.md) filter. The AVI Mux therefore receives two streams, an audio stream and a DV-encoded video stream.
 

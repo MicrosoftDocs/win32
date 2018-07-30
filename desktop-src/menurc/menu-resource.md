@@ -84,7 +84,7 @@ sample MENU
 
 <dl> <dt>
 
-[Using Menus](https://www.bing.com/search?q=Using+Menus)
+[Using Menus](https://msdn.microsoft.com/library/ms647558(v=VS.85).aspx)
 </dt> <dt>
 
 [**ACCELERATORS**](accelerators-resource.md)

@@ -42,7 +42,7 @@ uint32 PressKey(
 
 Type: **uint32**
 
-The virtual-key code of the key to press. For the list for virtual-key codes, see [**Virtual-Key Codes**](https://www.bing.com/search?q=**Virtual-Key+Codes**).
+The virtual-key code of the key to press. For the list for virtual-key codes, see [**Virtual-Key Codes**](https://msdn.microsoft.com/library/Dd375731(v=VS.85).aspx).
 
 </dd> </dl>
 
@@ -336,7 +336,7 @@ End Function
 [**Msvm\_Keyboard**](msvm-keyboard.md)
 </dt> <dt>
 
-[**Virtual-Key Codes**](https://www.bing.com/search?q=**Virtual-Key+Codes**)
+[**Virtual-Key Codes**](https://msdn.microsoft.com/library/Dd375731(v=VS.85).aspx)
 </dt> </dl>
 
  

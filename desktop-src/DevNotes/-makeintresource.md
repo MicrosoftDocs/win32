@@ -23,7 +23,7 @@ api_location:
 
 \[This macro is a wrapper over the **MAKEINTRESOURCE** macro. This macro may be altered or unavailable in the future. Applications should call **MAKEINTRESOURCE** directly.\]
 
-Converts an integer value. See [**MAKEINTRESOURCE**](_win32_makeintresource_cpp).
+Converts an integer value. See [**MAKEINTRESOURCE**](https://msdn.microsoft.com/library/ms648029(v=VS.85).aspx).
 
 ## Syntax
 
@@ -57,7 +57,7 @@ LPTSTR _MAKEINTRESOURCE(
 
 <dl> <dt>
 
-[**MAKEINTRESOURCE**](_win32_makeintresource_cpp)
+[**MAKEINTRESOURCE**](https://msdn.microsoft.com/library/ms648029(v=VS.85).aspx)
 </dt> </dl>
 
  

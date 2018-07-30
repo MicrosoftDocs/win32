@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 You can use a [mutex object](mutex-objects.md) to protect a shared resource from simultaneous access by multiple threads or processes. Each thread must wait for ownership of the mutex before it can execute the code that accesses the shared resource. For example, if several threads share access to a database, the threads can use a mutex object to permit only one thread at a time to write to the database.
 
-The following example uses the [**CreateMutex**](/windows/desktop/api) function to create a mutex object and the [**CreateThread**](https://msdn.microsoft.com/en-us/library/ms682453(v=VS.85).aspx) function to create worker threads.
+The following example uses the [**CreateMutex**](https://msdn.microsoft.com/en-us/library/ms682411(v=VS.85).aspx) function to create a mutex object and the [**CreateThread**](https://msdn.microsoft.com/en-us/library/ms682453(v=VS.85).aspx) function to create worker threads.
 
-When a thread of this process writes to the database, it first requests ownership of the mutex using the [**WaitForSingleObject**](/windows/desktop/api) function. If the thread obtains ownership of the mutex, it writes to the database and then releases its ownership of the mutex using the [**ReleaseMutex**](/windows/desktop/api) function.
+When a thread of this process writes to the database, it first requests ownership of the mutex using the [**WaitForSingleObject**](https://msdn.microsoft.com/en-us/library/ms685061(v=VS.85).aspx) function. If the thread obtains ownership of the mutex, it writes to the database and then releases its ownership of the mutex using the [**ReleaseMutex**](https://msdn.microsoft.com/en-us/library/ms685066(v=VS.85).aspx) function.
 
 This example uses structured exception handling to ensure that the thread properly releases the mutex object. The **\_\_finally** block of code is executed no matter how the **\_\_try** block terminates (unless the **\_\_try** block includes a call to the [**TerminateThread**](https://msdn.microsoft.com/en-us/library/ms686717(v=VS.85).aspx) function). This prevents the mutex object from being abandoned inadvertently.
 

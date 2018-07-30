@@ -20,7 +20,7 @@ The Location API defines the following enumeration types.
 | Enumeration                                                                       | Description                                                          |
 |-----------------------------------------------------------------------------------|----------------------------------------------------------------------|
 | [**LOCATION\_DESIRED\_ACCURACY**](https://msdn.microsoft.com/en-us/library/Dd756639(v=VS.85).aspx)                  | Defines the possible desired accuracy types.                         |
-| [**LOCATION\_REPORT\_STATUS**](https://www.bing.com/search?q=**LOCATION\_REPORT\_STATUS**) | Defines possible status for new reports of a particular report type. |
+| [**LOCATION\_REPORT\_STATUS**](https://msdn.microsoft.com/en-us/library/Dd317641(v=VS.85).aspx) | Defines possible status for new reports of a particular report type. |
 
 
 
@@ -28,7 +28,7 @@ The Location API defines the following enumeration types.
 
 ## Location Constants from the Sensor API
 
-The Sensor API also defines location-related property keys and constants. The property keys defined in sensors.h can be used to retrieve location data from a report by calling [**ILocationReport::GetValue**](https://www.bing.com/search?q=**ILocationReport::GetValue**).
+The Sensor API also defines location-related property keys and constants. The property keys defined in sensors.h can be used to retrieve location data from a report by calling [**ILocationReport::GetValue**](https://msdn.microsoft.com/en-us/library/Dd317624(v=VS.85).aspx).
 
  
 

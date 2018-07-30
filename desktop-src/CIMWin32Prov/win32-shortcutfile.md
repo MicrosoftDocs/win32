@@ -13,10 +13,10 @@ title: Win32\_ShortcutFile class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - Win32_ShortcutFile
 - Win32_ShortcutFile.Caption
 - Win32_ShortcutFile.Description
@@ -52,9 +52,9 @@ api_name:
 - Win32_ShortcutFile.Manufacturer
 - Win32_ShortcutFile.Version
 - Win32_ShortcutFile.Target
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - CIMWin32.dll
 ---
 
@@ -562,7 +562,7 @@ Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(
 
 Size of the file, in bytes.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 This property is inherited from [**CIM\_LogicalFile**](cim-logicalfile.md).
 
@@ -672,7 +672,7 @@ Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(
 
 Number of "file opens" that are currently active against the file.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 This property is inherited from [**CIM\_LogicalFile**](cim-logicalfile.md).
 

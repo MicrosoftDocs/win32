@@ -138,7 +138,7 @@ With the removal of the standard frame, your client area now consists of the ent
 
 ![screen shot of a red highlighted client areas on standard and custom frame](images/clientarea-sidebyside.png)
 
-Because the entire window is your client area, you can simply draw what you want in the extended frame. To add a title to your application, just draw text in the appropriate region. The following image shows themed text drawn on the custom caption frame. The title is drawn using the [**DrawThemeTextEx**](https://www.bing.com/search?q=**DrawThemeTextEx**) function. To view the code that paints the title, see [Appendix B: Painting the Caption Title](#appendix-b-painting-the-caption-title).
+Because the entire window is your client area, you can simply draw what you want in the extended frame. To add a title to your application, just draw text in the appropriate region. The following image shows themed text drawn on the custom caption frame. The title is drawn using the [**DrawThemeTextEx**](https://msdn.microsoft.com/library/Bb773317(v=VS.85).aspx) function. To view the code that paints the title, see [Appendix B: Painting the Caption Title](#appendix-b-painting-the-caption-title).
 
 ![screen shot of a custom frame with title](images/custom-caption-title.png)
 

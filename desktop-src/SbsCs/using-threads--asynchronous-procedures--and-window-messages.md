@@ -17,7 +17,7 @@ Asynchronous procedure calls, completion port callbacks, and any other callbacks
 
 Activation contexts are thread-neutral. Activating a context only changes the current thread's stack, and you cannot activate a context across threads. Thread A cannot force a context onto thread B. The functions of the activation context API are also threading-aware.
 
-When you use [**SendMessage**](https://www.bing.com/search?q=**SendMessage**) or [**PostMessage**](https://www.bing.com/search?q=**PostMessage**) to send a window message to another window procedure in your process, the current activation context is activated before the message is passed on to the target procedure. The current activation context goes along with the message. This ensures that messages that refer to COM objects, DLL names, or other side-by-side resources retain their correct context information.
+When you use [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx) or [**PostMessage**](https://msdn.microsoft.com/library/ms644944(v=VS.85).aspx) to send a window message to another window procedure in your process, the current activation context is activated before the message is passed on to the target procedure. The current activation context goes along with the message. This ensures that messages that refer to COM objects, DLL names, or other side-by-side resources retain their correct context information.
 
  
 

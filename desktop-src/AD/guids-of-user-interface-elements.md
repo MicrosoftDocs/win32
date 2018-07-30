@@ -26,7 +26,7 @@ The following table lists the class identifier, expressed as a GUID, for user in
 | Class Identifier              | Description                                                                                                                                                                                                                                                                 |
 |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **CLSID\_DsFolderProperties** | Reserved. Declared in Dsclient.h.                                                                                                                                                                                                                                           |
-| **CLSID\_DsPropertyPages**    | This object provides the [**IShellExtInit**](https://www.bing.com/search?q=**IShellExtInit**), [**IShellPropSheetExt**](https://www.bing.com/search?q=**IShellPropSheetExt**), and [**IContextMenu**](https://www.bing.com/search?q=**IContextMenu**) interfaces for use with system-supplied directory service objects. Declared in Dsclient.h. |
+| **CLSID\_DsPropertyPages**    | This object provides the [**IShellExtInit**](https://msdn.microsoft.com/library/Bb775096(v=VS.85).aspx), [**IShellPropSheetExt**](https://msdn.microsoft.com/library/Bb774880(v=VS.85).aspx), and [**IContextMenu**](https://msdn.microsoft.com/library/Bb776095(v=VS.85).aspx) interfaces for use with system-supplied directory service objects. Declared in Dsclient.h. |
 
 
 

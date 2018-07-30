@@ -81,7 +81,7 @@ A pointer to a **BYTE** buffer that contains:
 **pMessage**
 </dt> <dd>
 
-A pointer to an [**RPCOLEMESSAGE**](/windows/desktop/api) structure that contains RPC data marshalling information.
+A pointer to an [**RPCOLEMESSAGE**](https://msdn.microsoft.com/en-us/library/ms691405(v=VS.85).aspx) structure that contains RPC data marshalling information.
 
 > [!Note]
 >
@@ -107,7 +107,7 @@ A pointer to the IID of the [**IOrpcDebugNotify**](iorpcdebugnotify.md) interfac
 **pChannel**
 </dt> <dd>
 
-A pointer to the [**IRpcChannelBuffer**](/windows/desktop/api) interface of the COM RPC channel implementation on the server.
+A pointer to the [**IRpcChannelBuffer**](https://msdn.microsoft.com/en-us/library/ms679738(v=VS.85).aspx) interface of the COM RPC channel implementation on the server.
 
 > [!Note]
 >

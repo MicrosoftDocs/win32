@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # MsiTabletPC property
 
-The installer sets the **MsiTabletPC** property to a nonzero value if the current operating system is Windows XP Tablet PC Edition. The installer uses the [**GetSystemMetrics**](https://www.bing.com/search?q=**GetSystemMetrics**) function with **SM\_TABLETPC**, and the property receives the nonzero value returned by this function. If the current system is not Windows XP Tablet PC Edition, the **GetSystemMetrics** function returns zero and the installer does not set this property.
+The installer sets the **MsiTabletPC** property to a nonzero value if the current operating system is Windows XP Tablet PC Edition. The installer uses the [**GetSystemMetrics**](https://msdn.microsoft.com/library/ms724385(v=VS.85).aspx) function with **SM\_TABLETPC**, and the property receives the nonzero value returned by this function. If the current system is not Windows XP Tablet PC Edition, the **GetSystemMetrics** function returns zero and the installer does not set this property.
 
 ## Requirements
 

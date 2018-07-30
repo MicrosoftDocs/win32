@@ -115,7 +115,7 @@ Access type: Read-only
 
 Frequency in ticks per second of the **Timestamp\_Object** property. When sub-classed, the provider defines this property.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -128,9 +128,9 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-Frequency in ticks per second of the **Frequency\_PerfTime** property. A value can be obtained by calling the Windows function [**QueryPerformanceCounter**](https://www.bing.com/search?q=**QueryPerformanceCounter**).
+Frequency in ticks per second of the **Frequency\_PerfTime** property. A value can be obtained by calling the Windows function [**QueryPerformanceCounter**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -145,7 +145,7 @@ Access type: Read-only
 
 Frequency in ticks per second of the **Timestamp\_Sys100NS** property (10000000).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -178,7 +178,7 @@ Access type: Read-only
 
 Object-defined timestamp. The provider defines his property.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -191,9 +191,9 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-High Performance counter timestamp. A value can be obtained by calling the Windows function [**QueryPerformanceCounter**](https://www.bing.com/search?q=**QueryPerformanceCounter**).
+High Performance counter timestamp. A value can be obtained by calling the Windows function [**QueryPerformanceCounter**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -208,7 +208,7 @@ Access type: Read-only
 
 Timestamp value in 100 nanosecond units.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
 
 </dd> </dl>
 

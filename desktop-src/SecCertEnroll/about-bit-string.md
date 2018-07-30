@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The **BIT STRING** data type is encoded into a TLV triplet that begins with a **Tag** byte of 0x03. The **Value** field of the TLV triplet contains a leading byte that specifies the number of bits left unused in the final byte of content. In the following example, the **Length** field is set to 0x03 because three content bytes follow, and the leading byte of the **Value** field is set to 0x04 because there are four unused bits in the last content byte. Each unused bit is denoted by the letter x.
 
-![der encoding of bit string data type](https://www.bing.com/search?q=der+encoding+of+bit+string+data+type)
+![der encoding of bit string data type](images/der-tlv-bitstring.png)
 
 The following example, adapted from the [PKCS \#10 Encoded ASN.1](pkcs--10-encoded-asn-1.md) topic, shows the encoded signature of a sample PKCS \#10 certificate request. The first byte contains the **Tag** value for the **BIT STRING** data type, 0x03. The second and third bytes contain the length of the byte array. Bit 7 of the second byte is set to 1 because there are more than 127 bytes of content. Bits 0 through 6 of the second byte specify the number of trailing **Length** bytes, in this case one. The third byte specifies the number of content bytes, 0x81. The fourth byte, 0x00, specifies the number of unused bits that exist in the last content byte. Note that the signature is encoded in big-endian byte order.
 

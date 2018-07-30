@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # image
 
-There should be only one [image](https://www.bing.com/search?q=image) element for each parent element.
+There should be only one [image](https://msdn.microsoft.com/library/Dd798383(v=VS.85).aspx) element for each parent element.
 
 ## Syntax
 
@@ -39,7 +39,7 @@ There should be only one [image](https://www.bing.com/search?q=image) element fo
 
 | Parent Elements                                                                  | Child Elements |
 |----------------------------------------------------------------------------------|----------------|
-| [enum](https://www.bing.com/search?q=enum), [enumRange](https://www.bing.com/search?q=enumRange) | None           |
+| [enum](https://msdn.microsoft.com/library/Bb773869(v=VS.85).aspx), [enumRange](https://msdn.microsoft.com/library/Bb773873(v=VS.85).aspx) | None           |
 
 
 

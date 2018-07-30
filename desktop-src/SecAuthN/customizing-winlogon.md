@@ -54,7 +54,7 @@ For more information about creating a GINA stub, see the Gina Stubs sample in th
 
 A GINA hook is a GINA stub that, in its implementation of the [**WlxInitialize**](/windows/desktop/api/Winwlx/nf-winwlx-wlxinitialize) function, replaces the pointer to the [**WlxDialogBoxParam**](https://msdn.microsoft.com/en-us/library/Aa380558(v=VS.85).aspx) support function in the dispatch table with a pointer to its own implementation of the **WlxDialogBoxParam** function. As a result, each time the previously installed GINA (typically MsGina.dll) calls the **WlxDialogBoxParam** function, the function implemented by the GINA hook is called.
 
-The [**WlxDialogBoxParam**](https://msdn.microsoft.com/en-us/library/Aa380558(v=VS.85).aspx) function implemented by the GINA hook can replace the [**DialogProc**](https://www.bing.com/search?q=**DialogProc**) callback procedure that responds to a specific dialog box event.
+The [**WlxDialogBoxParam**](https://msdn.microsoft.com/en-us/library/Aa380558(v=VS.85).aspx) function implemented by the GINA hook can replace the [**DialogProc**](https://msdn.microsoft.com/library/ms645469(v=VS.85).aspx) callback procedure that responds to a specific dialog box event.
 
 This gives the GINA hook full control over the appearance and behavior of all of the dialog boxes that MsGina.dll creates.
 

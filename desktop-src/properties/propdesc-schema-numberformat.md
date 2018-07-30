@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # numberFormat
 
-Specifies how [**IPropertyDescription::FormatForDisplay**](https://www.bing.com/search?q=**IPropertyDescription::FormatForDisplay**) should format the property's value as a string. This is applicable only if &lt;displayInfo displayType="Number"&gt;. There should be only one [numberFormat](https://www.bing.com/search?q=numberFormat) element for each [displayInfo](https://www.bing.com/search?q=displayInfo) element.
+Specifies how [**IPropertyDescription::FormatForDisplay**](https://msdn.microsoft.com/library/Bb761521(v=VS.85).aspx) should format the property's value as a string. This is applicable only if &lt;displayInfo displayType="Number"&gt;. There should be only one [numberFormat](https://msdn.microsoft.com/library/Bb773877(v=VS.85).aspx) element for each [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) element.
 
-If there are multiple elements, the last one is used. If no [numberFormat](https://www.bing.com/search?q=numberFormat) element is provided, then the default attribute settings are applied to the property description.
+If there are multiple elements, the last one is used. If no [numberFormat](https://msdn.microsoft.com/library/Bb773877(v=VS.85).aspx) element is provided, then the default attribute settings are applied to the property description.
 
 ## Syntax
 
@@ -59,7 +59,7 @@ If there are multiple elements, the last one is used. If no [numberFormat](https
 
 | Parent Element                                   | Child Elements |
 |--------------------------------------------------|----------------|
-| [displayInfo](https://www.bing.com/search?q=displayInfo) | None           |
+| [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) | None           |
 
 
 

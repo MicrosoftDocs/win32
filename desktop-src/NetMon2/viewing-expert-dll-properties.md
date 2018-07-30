@@ -21,7 +21,7 @@ Use the following procedure to view an expert DLL properties.
 4.  Click the desired **Item name** to display information in the **Value** pane.
 5.  Click **OK** to close the **Properties** dialog box.
 
-![myexpert.dll properties status window](https://www.bing.com/search?q=myexpert.dll+properties+status+window)
+![myexpert.dll properties status window](images/dll-prop.png)
 
  
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Conventions for Function Prototypes
 
-The Windows SDK provides function prototypes in generic, [Windows code page](code-pages.md), and [Unicode](unicode.md) versions. The prototypes can be compiled to produce either Windows code page prototypes or Unicode prototypes. All three prototypes are discussed in this topic and are illustrated by code samples for the [**SetWindowText**](https://www.bing.com/search?q=**SetWindowText**) function.
+The Windows SDK provides function prototypes in generic, [Windows code page](code-pages.md), and [Unicode](unicode.md) versions. The prototypes can be compiled to produce either Windows code page prototypes or Unicode prototypes. All three prototypes are discussed in this topic and are illustrated by code samples for the [**SetWindowText**](https://msdn.microsoft.com/library/ms633546(v=VS.85).aspx) function.
 
 The following is an example of a generic prototype.
 

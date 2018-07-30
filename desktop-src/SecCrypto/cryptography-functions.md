@@ -406,7 +406,7 @@ This API is deprecated. New and existing software should start using [Cryptograp
 </tr>
 <tr class="odd">
 <td>[<strong>CryptProtectData</strong>](/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectdata)</td>
-<td>Performs encryption on the data in a [<strong>DATA_BLOB</strong>](https://www.bing.com/search?q=<strong>DATA_BLOB</strong>) structure.</td>
+<td>Performs encryption on the data in a [<strong>DATA_BLOB</strong>](https://msdn.microsoft.com/en-us/library/Aa381414(v=VS.85).aspx) structure.</td>
 </tr>
 <tr class="even">
 <td>[<strong>CryptProtectMemory</strong>](/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectmemory)</td>
@@ -414,7 +414,7 @@ This API is deprecated. New and existing software should start using [Cryptograp
 </tr>
 <tr class="odd">
 <td>[<strong>CryptUnprotectData</strong>](/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectdata)</td>
-<td>Performs a decryption and integrity check of the data in a [<strong>DATA_BLOB</strong>](https://www.bing.com/search?q=<strong>DATA_BLOB</strong>).</td>
+<td>Performs a decryption and integrity check of the data in a [<strong>DATA_BLOB</strong>](https://msdn.microsoft.com/en-us/library/Aa381414(v=VS.85).aspx).</td>
 </tr>
 <tr class="even">
 <td>[<strong>CryptUnprotectMemory</strong>](/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectmemory)</td>

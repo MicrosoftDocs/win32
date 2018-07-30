@@ -31,7 +31,7 @@ Both Manifest-based and TraceLogging technologies are generally modern providers
 
 The end result is that a payload for an event is generated at runtime. All payloads are fundamentally similar in that they are binary blobs of data containing only the field data for that particular event, regardless of the tracing technology used and which field types are supported by that tracing technology. Without the event metadata, the event payload is meaningless and unintelligable.
 
-The ETW runtime's duty is then to carry this event blob from the provider to the consumer, where it is re-associated with its metadata and becomes decodable. The ETW runtime will add a bit of extra metadata indicating the circumstances of the payload -- for instance things like the timestamp, thread ID, and keywords of the event. This information is relevant to how the event was routed through the runtime, and it is also useful for understanding the identity and context of the event at decoding time. It is eventually surfaced as part of the [**EVENT\_TRACE**](event-trace.md) or [**EVENT\_RECORD**](/windows/desktop/api) for the consumer
+The ETW runtime's duty is then to carry this event blob from the provider to the consumer, where it is re-associated with its metadata and becomes decodable. The ETW runtime will add a bit of extra metadata indicating the circumstances of the payload -- for instance things like the timestamp, thread ID, and keywords of the event. This information is relevant to how the event was routed through the runtime, and it is also useful for understanding the identity and context of the event at decoding time. It is eventually surfaced as part of the [**EVENT\_TRACE**](event-trace.md) or [**EVENT\_RECORD**](https://msdn.microsoft.com/en-us/library/Aa363769(v=VS.85).aspx) for the consumer
 
 ## Event Metadata
 
@@ -43,7 +43,7 @@ Event metadata is authored by hand by the creator of the event in the form of a 
 
 ### WPP
 
-Event metadata is automatically generated and stored in your binary's .pdb by tracewpp.exe during the build process. This metadata can later be extracted in the form of a standalone .tmf file by way of tracepdb.exe. Event decoders typically require either the .pdb or the .tmf file. For more information on tracepdb.exe, see [Tracepdb Overview](https://www.bing.com/search?q=Tracepdb+Overview), and for more information on tracewpp.exe, see [TraceWPP task](https://www.bing.com/search?q=TraceWPP+task).
+Event metadata is automatically generated and stored in your binary's .pdb by tracewpp.exe during the build process. This metadata can later be extracted in the form of a standalone .tmf file by way of tracepdb.exe. Event decoders typically require either the .pdb or the .tmf file. For more information on tracepdb.exe, see [Tracepdb Overview](https://msdn.microsoft.com/library/Ff553869(v=VS.85).aspx), and for more information on tracewpp.exe, see [TraceWPP task](https://msdn.microsoft.com/library/Hh454279(v=VS.85).aspx).
 
 ### Manifest-based
 

@@ -33,13 +33,13 @@ To understand the behavior of these methods, you must know some terminology from
 
 In WASAPI, every audio stream belongs to exactly one *audio session*, which is a group of related audio streams. Typically, an application maintains a single audio session, although applications can create more than one session. The system volume-control program (Sndvol) displays a volume control for each audio session. Through Sndvol, a user can adjust the volume of an audio session from outside of the application. The following image illustrates this process.
 
-![diagram showing audio streams passing through volume control on the way to the speakers; application and sndvol point to volume control](https://www.bing.com/search?q=diagram+showing+audio+streams+passing+through+volume+control+on+the+way+to+the+speakers;+application+and+sndvol+point+to+volume+control)
+![diagram showing audio streams passing through volume control on the way to the speakers; application and sndvol point to volume control](images/audio-session.gif)
 
 In MFPlay, a media item can have one or more active audio streams (typically only one). Internally, MFPlay uses the [Streaming Audio Renderer](streaming-audio-renderer.md) (SAR) to render the audio streams. Unless you configure it otherwise, the SAR joins the application's default audio session.
 
 The MFPlay audio methods control only the streams that belong to the current media item. They do not affect the volume for any other streams that belong to the same audio session. In terms of WASAPI, the MFPlay methods control the *per-channel* volume levels, not the master volume level. The following image illustrates this process.
 
-![diagram similar to the previous one, but the second stream starts at media item, and application points to the second stream and to volume control](https://www.bing.com/search?q=diagram+similar+to+the+previous+one,+but+the+second+stream+starts+at+media+item,+and+application+points+to+the+second+stream+and+to+volume+control)
+![diagram similar to the previous one, but the second stream starts at media item, and application points to the second stream and to volume control](images/audio-session02.gif)
 
 It is important to understand some implications of this feature of MFPlay. First, an application can adjust the playback volume without affecting other audio streams. You could use this feature if MFPlay to implement audio cross-fading, by creating two instances of the MFPlay object and adjusting the volume separately.
 

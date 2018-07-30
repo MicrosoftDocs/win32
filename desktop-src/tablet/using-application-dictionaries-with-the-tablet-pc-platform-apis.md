@@ -15,7 +15,7 @@ To use an application dictionary with the Tablet PC API, you must first create a
 
 The easiest solution for this is to use a text file that contains a list of the words. When your application loads, it reads the text file and creates a [**WordList**](inkwordlist-class.md) object from the list of words in the file. For each [**RecognizerContext**](inkrecognizercontext-class.md) associated with the application dictionary, set the [**WordList**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist) property of the **RecognizerContext** object to the word list in the text file.
 
-The following example illustrates how to create a [**WordList**](inkwordlist-class.md) object from a [StringCollection](T:System.Collections.Specialized.StringCollection) collection. This example assumes that you have already loaded the list of words from disk and created a StringCollection collection from these words.
+The following example illustrates how to create a [**WordList**](inkwordlist-class.md) object from a [StringCollection](https://msdn.microsoft.com/library/d1w61sc5(v=VS.90).aspx) collection. This example assumes that you have already loaded the list of words from disk and created a StringCollection collection from these words.
 
 
 ```C++

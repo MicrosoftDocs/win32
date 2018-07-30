@@ -34,7 +34,7 @@ To understand the leaky bucket model, consider a bucket with a small hole at the
 
 In this metaphor, the bucket is the buffer:
 
-![illustration showing a buffer as a bucket, input rate as water entering the bucket, and output rate as water leaving through a hole in the bucket](https://www.bing.com/search?q=illustration+showing+a+buffer+as+a+bucket,+input+rate+as+water+entering+the+bucket,+and+output+rate+as+water+leaving+through+a+hole+in+the+bucket)
+![illustration showing a buffer as a bucket, input rate as water entering the bucket, and output rate as water leaving through a hole in the bucket](images/asf-components03.png)
 
 If water is poured into the bucket at exactly rate *R*, the bucket will remain at F, because the input rate equals the output rate. If the input rate increases while *R* remains constant, the bucket accumulates water. If the input rate is larger than *R* for a sustained period, eventually the bucket overflows. However, the input rate can vary around *R* without overflowing the bucket, as long as the average input rate does not exceed the capacity of the bucket. The larger the capacity, the more the input rate can vary within a given window of time.
 

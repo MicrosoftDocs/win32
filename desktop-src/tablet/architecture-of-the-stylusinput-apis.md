@@ -29,11 +29,11 @@ A class that implements the [**IStylusAsyncPlugin**](https://msdn.microsoft.com/
 
 Synchronous plug-in collection
 
-A [StylusSyncPluginCollection](frlrfmicrosoftstylusinputstylussyncplugincollectionclasstopic) collection, which is an ordered collection of [IStylusSyncPlugin](frlrfmicrosoftstylusinputistylussyncpluginclasstopic) objects. A synchronous plug-in collection usually refers to the collection assigned to the [SyncPluginCollection](frlrfmicrosoftstylusinputrealtimestylusclasssyncplugincollectiontopic) property of a [RealTimeStylus](frlrfmicrosoftstylusinputrealtimestylusclasstopic) object. Only synchronous plug-ins may be added to a synchronous plug-in collection.
+A [StylusSyncPluginCollection](https://msdn.microsoft.com/library/ms824788(v=MSDN.10).aspx) collection, which is an ordered collection of [IStylusSyncPlugin](https://msdn.microsoft.com/library/ms824751(v=MSDN.10).aspx) objects. A synchronous plug-in collection usually refers to the collection assigned to the [SyncPluginCollection](https://msdn.microsoft.com/library/ms824833(v=MSDN.10).aspx) property of a [RealTimeStylus](https://msdn.microsoft.com/library/ms824830(v=MSDN.10).aspx) object. Only synchronous plug-ins may be added to a synchronous plug-in collection.
 
 Asynchronous plug-in collection
 
-A [StylusAsyncPluginCollection](frlrfmicrosoftstylusinputstylusasyncplugincollectionclasstopic) collection, which is an ordered collection of [IStylusAsyncPlugin](frlrfmicrosoftstylusinputistylusasyncpluginclasstopic) objects. An asynchronous plug-in collection usually refers to the collection assigned to the [AsyncPluginCollection](frlrfmicrosoftstylusinputrealtimestylusclassasyncplugincollectiontopic) property of a [RealTimeStylus](frlrfmicrosoftstylusinputrealtimestylusclasstopic) object. Only asynchronous plug-ins may be added to an asynchronous plug-in collection.
+A [StylusAsyncPluginCollection](https://msdn.microsoft.com/library/ms824808(v=MSDN.10).aspx) collection, which is an ordered collection of [IStylusAsyncPlugin](https://msdn.microsoft.com/library/ms824768(v=MSDN.10).aspx) objects. An asynchronous plug-in collection usually refers to the collection assigned to the [AsyncPluginCollection](https://msdn.microsoft.com/library/ms824831(v=MSDN.10).aspx) property of a [RealTimeStylus](https://msdn.microsoft.com/library/ms824830(v=MSDN.10).aspx) object. Only asynchronous plug-ins may be added to an asynchronous plug-in collection.
 
 ## Synchronous and Asynchronous Plug-ins
 
@@ -45,7 +45,7 @@ For more information about using and creating plug-ins, see [Working with the St
 
 ## The Tablet Pen Data Stream
 
-The [**RealTimeStylus**](realtimestylus-class.md) object has two internal queues that carry the tablet pen data, the input queue and the output queue. The pen data is converted into instances of the classes in the [Microsoft.StylusInput.PluginData](frlrfmicrosoftstylusinputplugindata) namespace. The following list describes how the **RealTimeStylus** object handles the tablet pen data:
+The [**RealTimeStylus**](realtimestylus-class.md) object has two internal queues that carry the tablet pen data, the input queue and the output queue. The pen data is converted into instances of the classes in the [Microsoft.StylusInput.PluginData](https://msdn.microsoft.com/library/ms823992(v=MSDN.10).aspx) namespace. The following list describes how the **RealTimeStylus** object handles the tablet pen data:
 
 The [**RealTimeStylus**](realtimestylus-class.md) object checks for plug-in data objects first on its input queue and then from the tablet pen data stream.
 
@@ -67,7 +67,7 @@ For more information about how specific data is added to the queue and processed
 
 ## The StylusInput APIs
 
-The StylusInput APIs reside primarily in the [Microsoft.StylusInput](frlrfmicrosoftstylusinput) and [Microsoft.StylusInput.PluginData](frlrfmicrosoftstylusinputplugindata) namespaces. However, the StylusInput APIs also reference some classes in the [Microsoft.Ink](frlrfMicrosoftInk) namespace, such as the [Tablet](frlrfMicrosoftInkTabletClassTopic) class, the [TabletPropertyDescriptionCollection](frlrfMicrosoftInkTabletPropertyDescriptionCollectionClassTopic) collection, and the [ApplicationGesture](frlrfMicrosoftInkApplicationGestureClassTopic) and [SystemGesture](frlrfMicrosoftInkSystemGestureClassTopic) enumerations.
+The StylusInput APIs reside primarily in the [Microsoft.StylusInput](https://msdn.microsoft.com/library/ms824750(v=MSDN.10).aspx) and [Microsoft.StylusInput.PluginData](https://msdn.microsoft.com/library/ms823992(v=MSDN.10).aspx) namespaces. However, the StylusInput APIs also reference some classes in the [Microsoft.Ink](https://msdn.microsoft.com/library/ms826516(v=MSDN.10).aspx) namespace, such as the [Tablet](https://msdn.microsoft.com/library/ms827783(v=MSDN.10).aspx) class, the [TabletPropertyDescriptionCollection](https://msdn.microsoft.com/library/ms827760(v=MSDN.10).aspx) collection, and the [ApplicationGesture](https://msdn.microsoft.com/library/ms827547(v=MSDN.10).aspx) and [SystemGesture](https://msdn.microsoft.com/library/ms827134(v=MSDN.10).aspx) enumerations.
 
 ## Related topics
 

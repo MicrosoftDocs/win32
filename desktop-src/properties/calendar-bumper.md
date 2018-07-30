@@ -31,7 +31,7 @@ ms.date: 05/31/2018
 | [System.Calendar.Resources](https://msdn.microsoft.com/en-us/library/Bb787767(v=VS.85).aspx)<br/>                                 | Indicates the resources used for this event.<br/>                                                                                                              |
 | [System.Calendar.ResponseStatus](https://msdn.microsoft.com/en-us/library/Dd391677(v=VS.85).aspx)<br/>                       | Stores the status of a user's responses to meetings in the calendar.<br/>                                                                                      |
 | [System.Calendar.ShowTimeAs](https://msdn.microsoft.com/en-us/library/Bb787768(v=VS.85).aspx)<br/>                               | Indicates the status of the attendee during the event. User can choose to set the status as free, busy, tentative or out of office. <br/>                      |
-| [System.Calendar.ShowTimeAsText](https://msdn.microsoft.com/en-us/library/Bb787780(v=VS.85).aspx)<br/>                       | The user-friendly form of [System.Calendar.ShowTimeAs](https://www.bing.com/search?q=System.Calendar.ShowTimeAs). This value is not intended to be parsed programmatically.<br/> |
+| [System.Calendar.ShowTimeAsText](https://msdn.microsoft.com/en-us/library/Bb787780(v=VS.85).aspx)<br/>                       | The user-friendly form of [System.Calendar.ShowTimeAs](https://msdn.microsoft.com/library/Bb787768(v=VS.85).aspx). This value is not intended to be parsed programmatically.<br/> |
 
 
 

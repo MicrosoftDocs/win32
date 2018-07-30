@@ -31,7 +31,7 @@ If an MFT has field-of-use restrictions, set the **MFT\_ENUM\_FLAG\_FIELDOFUSE**
 
 By default, MFTs registered with this flag are excluded from enumeration results. To enumerate MFTs with field-of-use restrictions, call [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex) and specify the **MFT\_ENUM\_FLAG\_FIELDOFUSE** flag in the *Flags* parameter. The following diagram illustrates this process.
 
-![diagram showing mft and an application sending data to the registry](https://www.bing.com/search?q=diagram+showing+mft+and+an+application+sending+data+to+the+registry)
+![diagram showing mft and an application sending data to the registry](images/mft-fou01.gif)
 
 The [**MFTEnum**](/windows/desktop/api/mfapi/nf-mfapi-mftenum) function always excludes any MFTs that have field-of-use restrictions.
 
@@ -62,7 +62,7 @@ The application specifies the [**IMFFieldOfUseMFTUnlock**](/windows/desktop/api/
 
 The following diagram shows the relation between MFT activation objects and the [**IMFFieldOfUseMFTUnlock**](/windows/desktop/api/mfidl/nn-mfidl-imffieldofusemftunlock) interface.
 
-![diagram showing an application, activation object and mft with arrows to an fou object, which has an arrow back to mft](https://www.bing.com/search?q=diagram+showing+an+application,+activation+object+and+mft+with+arrows+to+an+fou+object,+which+has+an+arrow+back+to+mft)
+![diagram showing an application, activation object and mft with arrows to an fou object, which has an arrow back to mft](images/mft-fou02.gif)
 
 ## Related topics
 

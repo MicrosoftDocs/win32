@@ -13,10 +13,10 @@ title: Win32\_Thread class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - Win32_Thread
 - Win32_Thread.Caption
 - Win32_Thread.CreationClassName
@@ -40,9 +40,9 @@ api_name:
 - Win32_Thread.ThreadState
 - Win32_Thread.ThreadWaitReason
 - Win32_Thread.UserModeTime
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - CIMWin32.dll
 ---
 
@@ -199,7 +199,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa3936
 
 Total execution time, in milliseconds, given to this thread since its creation.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -317,7 +317,7 @@ Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=V
 
 Time in kernel mode, in 100 nanosecond units. If this information is not available, a value of 0 (zero) should be used.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -852,7 +852,7 @@ Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=V
 
 Time in user mode, in 100 nanoseconds units. If this information is not available, a value of 0 (zero) should be used.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 </dd> </dl>
 

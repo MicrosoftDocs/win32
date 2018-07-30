@@ -7,20 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - EnvelopedData
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - Capicom.dll
 ---
 
 # EnvelopedData object
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**EnvelopedCms Class**](https://www.bing.com/search?q=**EnvelopedCms+Class**) in the [**System.Security.Cryptography.Pkcs**](https://www.bing.com/search?q=**System.Security.Cryptography.Pkcs**) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**EnvelopedCms Class**](https://msdn.microsoft.com/library/f73feezf(v=VS.90).aspx) in the [**System.Security.Cryptography.Pkcs**](https://msdn.microsoft.com/library/6see7k14(v=VS.100).aspx) namespace.\]
 
 The **EnvelopedData** object provides properties and methods to envelop data for privacy by encryption. To envelop data, a session cryptographic key is generated. That [*session key*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) is then encrypted for each intended recipient using the [*public key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) of that intended recipient from the recipient's certificate. The encrypted data and the set of encrypted session keys can be sent to all intended recipients. The message generated is in PKCS \#7 format.
 

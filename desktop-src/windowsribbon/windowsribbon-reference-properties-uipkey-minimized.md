@@ -44,7 +44,7 @@ When the ribbon UI is in a minimized state, the ribbon Tab row remains visible a
 
 The following screen shot shows the ribbon in minimized state.
 
-![screen shot showing the ribbon ui minimized.](https://www.bing.com/search?q=screen+shot+showing+the+ribbon+ui+minimized.)
+![screen shot showing the ribbon ui minimized.](images/overviews/ribbon-minimized.png)
 
 ## Related topics
 

@@ -13,10 +13,10 @@ title: Win32\_USBControllerDevice class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - Win32_USBControllerDevice
 - Win32_USBControllerDevice.NegotiatedDataWidth
 - Win32_USBControllerDevice.NegotiatedSpeed
@@ -25,9 +25,9 @@ api_name:
 - Win32_USBControllerDevice.NumberOfSoftResets
 - Win32_USBControllerDevice.Antecedent
 - Win32_USBControllerDevice.Dependent
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - CIMWin32.dll
 ---
 
@@ -167,7 +167,7 @@ Qualifiers: [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.8
 
 When several bus or connection speeds are possible, this property defines the one being used between the devices. Speed is specified in bits-per-second. If connection or bus speeds are not negotiated, or if this information is not available or important to device management, the property should be set to 0 (zero).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
 
 This property is inherited from [**CIM\_DeviceConnection**](cim-deviceconnection.md).
 

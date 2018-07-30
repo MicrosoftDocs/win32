@@ -73,7 +73,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-The clipboard owner can use the [**ScrollWindow**](https://www.bing.com/search?q=**ScrollWindow**) function to scroll the image in the clipboard viewer window and invalidate the appropriate region.
+The clipboard owner can use the [**ScrollWindow**](https://msdn.microsoft.com/library/Cc410994(v=MSDN.10).aspx) function to scroll the image in the clipboard viewer window and invalidate the appropriate region.
 
 ## Requirements
 
@@ -109,7 +109,7 @@ The clipboard owner can use the [**ScrollWindow**](https://www.bing.com/search?q
 **Other Resources**
 </dt> <dt>
 
-[**ScrollWindow**](https://www.bing.com/search?q=**ScrollWindow**)
+[**ScrollWindow**](https://msdn.microsoft.com/library/Cc410994(v=MSDN.10).aspx)
 </dt> </dl>
 
  

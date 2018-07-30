@@ -24,7 +24,7 @@ typedef HANDLE HSTRING_BUFFER;
 
 **HSTRING\_BUFFER** represents a string buffer that you can modify before converting it to an immutable [**HSTRING**](hstring.md).
 
-Call the [**WindowsPreallocateStringBuffer**](/windows/desktop/api) function to create an **HSTRING\_BUFFER**. Call the [**WindowsPromoteStringBuffer**](/windows/desktop/api) to convert an **HSTRING\_BUFFER** to an immutable [**HSTRING**](hstring.md).
+Call the [**WindowsPreallocateStringBuffer**](https://msdn.microsoft.com/en-us/library/BR224638(v=VS.85).aspx) function to create an **HSTRING\_BUFFER**. Call the [**WindowsPromoteStringBuffer**](https://msdn.microsoft.com/en-us/library/BR224639(v=VS.85).aspx) to convert an **HSTRING\_BUFFER** to an immutable [**HSTRING**](hstring.md).
 
 ## Requirements
 
@@ -48,10 +48,10 @@ Call the [**WindowsPreallocateStringBuffer**](/windows/desktop/api) function to 
 [**HSTRING**](hstring.md)
 </dt> <dt>
 
-[**WindowsPreallocateStringBuffer**](/windows/desktop/api)
+[**WindowsPreallocateStringBuffer**](https://msdn.microsoft.com/en-us/library/BR224638(v=VS.85).aspx)
 </dt> <dt>
 
-[**WindowsPromoteStringBuffer**](/windows/desktop/api)
+[**WindowsPromoteStringBuffer**](https://msdn.microsoft.com/en-us/library/BR224639(v=VS.85).aspx)
 </dt> </dl>
 
  

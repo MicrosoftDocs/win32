@@ -81,7 +81,7 @@ Type: **[**LARGE\_INTEGER**](https://msdn.microsoft.com/en-us/library/Aa383713(v
 
 </dd> <dd>
 
-The scheduler's last sampled machine time, obtained by calling [**QueryPerformanceCounter**](https://www.bing.com/search?q=**QueryPerformanceCounter**).
+The scheduler's last sampled machine time, obtained by calling [**QueryPerformanceCounter**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx).
 
 </dd> <dt>
 

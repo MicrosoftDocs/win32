@@ -21,11 +21,11 @@ Winlogon dialog box services are provided by the following support functions.
 
 | Support function                                               | Description                                                                                      |
 |----------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| [**WlxMessageBox**](https://msdn.microsoft.com/en-us/library/Aa380573(v=VS.85).aspx)                         | Similar to the Windows [**MessageBox**](https://www.bing.com/search?q=**MessageBox**) function.                         |
-| [**WlxDialogBox**](https://msdn.microsoft.com/en-us/library/Aa380554(v=VS.85).aspx)                           | Similar to the Windows [**DialogBox**](https://www.bing.com/search?q=**DialogBox**) function.                           |
-| [**WlxDialogBoxIndirect**](https://msdn.microsoft.com/en-us/library/Aa380556(v=VS.85).aspx)           | Similar to the Windows [**DialogBoxIndirect**](https://www.bing.com/search?q=**DialogBoxIndirect**) function.           |
-| [**WlxDialogBoxParam**](https://msdn.microsoft.com/en-us/library/Aa380558(v=VS.85).aspx)                 | Similar to the Windows [**DialogBoxParam**](https://www.bing.com/search?q=**DialogBoxParam**) function.                 |
-| [**WlxDialogBoxIndirectParam**](https://msdn.microsoft.com/en-us/library/Aa380557(v=VS.85).aspx) | Similar to the Windows [**DialogBoxIndirectParam**](https://www.bing.com/search?q=**DialogBoxIndirectParam**) function. |
+| [**WlxMessageBox**](https://msdn.microsoft.com/en-us/library/Aa380573(v=VS.85).aspx)                         | Similar to the Windows [**MessageBox**](https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx) function.                         |
+| [**WlxDialogBox**](https://msdn.microsoft.com/en-us/library/Aa380554(v=VS.85).aspx)                           | Similar to the Windows [**DialogBox**](https://msdn.microsoft.com/library/ms645452(v=VS.85).aspx) function.                           |
+| [**WlxDialogBoxIndirect**](https://msdn.microsoft.com/en-us/library/Aa380556(v=VS.85).aspx)           | Similar to the Windows [**DialogBoxIndirect**](https://msdn.microsoft.com/library/ms645457(v=VS.85).aspx) function.           |
+| [**WlxDialogBoxParam**](https://msdn.microsoft.com/en-us/library/Aa380558(v=VS.85).aspx)                 | Similar to the Windows [**DialogBoxParam**](https://msdn.microsoft.com/library/ms645465(v=VS.85).aspx) function.                 |
+| [**WlxDialogBoxIndirectParam**](https://msdn.microsoft.com/en-us/library/Aa380557(v=VS.85).aspx) | Similar to the Windows [**DialogBoxIndirectParam**](https://msdn.microsoft.com/library/ms645461(v=VS.85).aspx) function. |
 
 
 

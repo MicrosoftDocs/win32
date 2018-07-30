@@ -15,7 +15,7 @@ Occasionally it is necessary to convert between Media Foundation media types and
 
 ### From a Format Structure to a Media Foundation Type
 
-The following functions initialize a Media Foundation media type from a format structure. These functions are also useful if a data stream or a file header contains a format structure. For example, the file header for WAVE audio files contains a [**WAVEFORMATEX**](https://www.bing.com/search?q=**WAVEFORMATEX**) structure.
+The following functions initialize a Media Foundation media type from a format structure. These functions are also useful if a data stream or a file header contains a format structure. For example, the file header for WAVE audio files contains a [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx) structure.
 
 
 
@@ -65,7 +65,7 @@ These structures are equivalent.
 <td>[<strong>MFInitMediaTypeFromVideoInfoHeader</strong>](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromvideoinfoheader)</td>
 </tr>
 <tr class="even">
-<td>[<strong>WAVEFORMATEX</strong>](https://www.bing.com/search?q=<strong>WAVEFORMATEX</strong>) or [<strong>WAVEFORMATEXTENSIBLE</strong>](https://www.bing.com/search?q=<strong>WAVEFORMATEXTENSIBLE</strong>)</td>
+<td>[<strong>WAVEFORMATEX</strong>](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx>) or [<strong>WAVEFORMATEXTENSIBLE</strong>](https://msdn.microsoft.com/library/Dd390971(v=VS.85).aspx>)</td>
 <td>[<strong>MFInitMediaTypeFromWaveFormatEx</strong>](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex)</td>
 </tr>
 </tbody>
@@ -86,7 +86,7 @@ The following functions create or initialize a format structure from a Media Fou
 | [**IMFMediaType::GetRepresentation**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation)            | [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx), [**MFVIDEOFORMAT**](/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat), [**VIDEOINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx), or [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/en-us/library/Dd407326(v=VS.85).aspx) |
 | [**MFCreateAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreateammediatypefrommfmediatype)     | [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx)                                                                                                                                          |
 | [**MFCreateMFVideoFormatFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreatemfvideoformatfrommfmediatype) | [**MFVIDEOFORMAT**](/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat)                                                                                                                                              |
-| [**MFCreateWaveFormatExFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreatewaveformatexfrommfmediatype)   | [**WAVEFORMATEX**](https://www.bing.com/search?q=**WAVEFORMATEX**) or [**WAVEFORMATEXTENSIBLE**](https://www.bing.com/search?q=**WAVEFORMATEXTENSIBLE**)                                                                                    |
+| [**MFCreateWaveFormatExFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreatewaveformatexfrommfmediatype)   | [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx) or [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/library/Dd390971(v=VS.85).aspx)                                                                                    |
 | [**MFInitAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfinitammediatypefrommfmediatype)         | [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx)                                                                                                                                          |
 
 

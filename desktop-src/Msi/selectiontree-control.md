@@ -98,7 +98,7 @@ You can use the following attributes with this control. To change the value of a
 
 ## Remarks
 
-This control can be created from the WC\_TREEVIEW class by using the [**CreateWindowEx**](https://www.bing.com/search?q=**CreateWindowEx**) function. It has the **WS\_BORDER**, **TVS\_HASLINES**, **TVS\_HASBUTTONS**, **TVS\_LINESATROOT**, **TVS\_DISABLEDRAGDROP**, **TVS\_SHOWSELALWAYS**, **WS\_CHILD**, **WS\_TABSTOP**, and **WS\_GROUP** styles.
+This control can be created from the WC\_TREEVIEW class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the **WS\_BORDER**, **TVS\_HASLINES**, **TVS\_HASBUTTONS**, **TVS\_LINESATROOT**, **TVS\_DISABLEDRAGDROP**, **TVS\_SHOWSELALWAYS**, **WS\_CHILD**, **WS\_TABSTOP**, and **WS\_GROUP** styles.
 
 The selection tree is only populated if the [CostInitialize action](costinitialize-action.md) and [CostFinalize action](costfinalize-action.md) have been called.
 

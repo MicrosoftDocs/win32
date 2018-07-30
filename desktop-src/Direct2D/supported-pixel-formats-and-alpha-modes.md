@@ -371,8 +371,8 @@ If you specify an alpha mode other than [**D2D1\_ALPHA\_MODE\_IGNORE**](/windows
 
 You can use the [**SetTextAntialiasMode**](https://msdn.microsoft.com/en-us/library/Dd316897(v=VS.85).aspx) method to change the text antialias mode back to [**D2D1\_TEXT\_ANTIALIAS\_MODE CLEARTYPE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_text_antialias_mode), but rendering ClearType text to a transparent surface can create unpredictable results. If you want to render ClearType text to an transparent render target, we recommend that you use one of the following two techniques.
 
--   Use the [**PushAxisAlignedClip**](/windows/desktop/api) method to clip the render target to the area where the text will be rendered, then call the [**Clear**](id2d1rendertarget-clear.md) method and specify an opaque color, then render your text.
--   Use [**DrawRectangle**](/windows/desktop/api) to draw an opaque rectangle behind the area where the text will be rendered.
+-   Use the [**PushAxisAlignedClip**](https://msdn.microsoft.com/en-us/library/Dd742855(v=VS.85).aspx) method to clip the render target to the area where the text will be rendered, then call the [**Clear**](id2d1rendertarget-clear.md) method and specify an opaque color, then render your text.
+-   Use [**DrawRectangle**](https://msdn.microsoft.com/en-us/library/Dd742846(v=VS.85).aspx) to draw an opaque rectangle behind the area where the text will be rendered.
 
 ## Related topics
 

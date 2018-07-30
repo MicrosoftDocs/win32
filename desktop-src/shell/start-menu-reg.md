@@ -41,7 +41,7 @@ This topic discusses the following items:
 
  
 
-Any web browser application can register to appear as an Internet client on the Start menu. This visibility, coupled with proper registration for an application's [file](fa-intro.md) and [protocol](_inet_Asynchronous_Pluggable_Protocols) types, gives an application default browser status.
+Any web browser application can register to appear as an Internet client on the Start menu. This visibility, coupled with proper registration for an application's [file](fa-intro.md) and [protocol](https://msdn.microsoft.com/library/Aa767743(v=VS.85).aspx) types, gives an application default browser status.
 
 Registrations made in the **HKEY\_CURRENT\_USER** subtree have higher precedence for the console user than corresponding registrations made in the **HKEY\_LOCAL\_MACHINE**. For new users on the system, the settings stored in **HKEY\_LOCAL\_MACHINE** are used. As of Windows XP, Start menu Internet settings are kept in the default entries of two registry locations:
 
@@ -151,7 +151,7 @@ Setting these subkeys for the default Start menu Internet browser is necessary t
 
 ### How the Start Menu Displays the Default Email Client
 
-Any email application can register to appear as an email client on the Start menu. This visibility, coupled with proper registration for an application's [file](fa-intro.md) and [protocol](_inet_Asynchronous_Pluggable_Protocols) types, gives an application default mail status.
+Any email application can register to appear as an email client on the Start menu. This visibility, coupled with proper registration for an application's [file](fa-intro.md) and [protocol](https://msdn.microsoft.com/library/Aa767743(v=VS.85).aspx) types, gives an application default mail status.
 
 Registrations made in the **HKEY\_CURRENT\_USER** subtree have higher precedence for the console user than corresponding registrations made in the **HKEY\_LOCAL\_MACHINE**. For new users on the system, the settings stored in **HKEY\_LOCAL\_MACHINE** are used. As of Windows XP, Start menu Email settings are kept in the default entries of two registry locations:
 

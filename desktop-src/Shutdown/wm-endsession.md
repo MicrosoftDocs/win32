@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The **WM\_ENDSESSION** message is sent to an application after the system processes the results of the [**WM\_QUERYENDSESSION**](wm-queryendsession.md) message. The **WM\_ENDSESSION** message informs the application whether the session is ending.
 
-A window receives this message through its [**WindowProc**](https://www.bing.com/search?q=**WindowProc**) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -81,7 +81,7 @@ If an application processes this message, it should return zero.
 
 Applications that have unsaved data could save the data to a temporary location and restore it the next time the application starts. It is recommended that applications save their data and state frequently; for example, automatically save data between save operations initiated by the user to reduce the amount of data to be saved at shutdown.
 
-The application need not call the [**DestroyWindow**](https://www.bing.com/search?q=**DestroyWindow**) or [**PostQuitMessage**](https://www.bing.com/search?q=**PostQuitMessage**) function when the session is ending.
+The application need not call the [**DestroyWindow**](https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx) or [**PostQuitMessage**](https://msdn.microsoft.com/library/ms644945(v=VS.85).aspx) function when the session is ending.
 
 ## Requirements
 
@@ -105,10 +105,10 @@ The application need not call the [**DestroyWindow**](https://www.bing.com/searc
 [Shutting Down](shutting-down.md)
 </dt> <dt>
 
-[**DestroyWindow**](https://www.bing.com/search?q=**DestroyWindow**)
+[**DestroyWindow**](https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx)
 </dt> <dt>
 
-[**PostQuitMessage**](https://www.bing.com/search?q=**PostQuitMessage**)
+[**PostQuitMessage**](https://msdn.microsoft.com/library/ms644945(v=VS.85).aspx)
 </dt> <dt>
 
 [**SetProcessShutdownParameters**](https://msdn.microsoft.com/en-us/library/ms686227(v=VS.85).aspx)

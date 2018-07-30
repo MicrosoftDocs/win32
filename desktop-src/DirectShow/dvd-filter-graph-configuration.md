@@ -15,7 +15,7 @@ This section describes the various filter graph configurations for DVD playback 
 
 The following illustration shows a DVD filter graph with a software decoder.
 
-![dvd filter graph for windows xp](https://www.bing.com/search?q=dvd+filter+graph+for+windows+xp)
+![dvd filter graph for windows xp](images/dvd-graph-xp.png)
 
 When a hardware decoder is present, it is typically connected directly to the video card by a video port. This enables the decoded video bits to be sent directly to the frame buffer on the graphics card without passing into host memory. To manage this direct connection on earlier versions of Windows, DirectShow supports DirectDraw Video Port Extensions (VPE) through an interface on the [Overlay Mixer Filter](overlay-mixer-filter.md).
 
@@ -26,7 +26,7 @@ When a hardware decoder is present, it is typically connected directly to the vi
 
 In Windows XP and later, a hardware decoder can connect to the [Video Port Manager](video-port-manager.md) filter.
 
-![dvd graph for windows xp with a hardware decoder](https://www.bing.com/search?q=dvd+graph+for+windows+xp+with+a+hardware+decoder)
+![dvd graph for windows xp with a hardware decoder](images/dvd-hwgraph-xp.png)
 
 In all these graphs, the DVD Navigator is the source filter; it performs several tasks:
 

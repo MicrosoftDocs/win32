@@ -137,7 +137,7 @@ To map the LSP structure, execute the following console command:
 **instlsp -m**
 
 > [!Note]  
-> The TDI feature is deprecated and will be removed in future versions of Microsoft Windows. Depending on how you use TDI, use either the Winsock Kernel (WSK) or Windows Filtering Platform (WFP). For more information about WFP and WSK, see [Windows Filtering Platform](https://www.bing.com/search?q=Windows+Filtering+Platform) and [Winsock Kernel](https://msdn.microsoft.com/en-us/library/Ff571083(v=VS.85).aspx). For a Windows Core Networking blog entry about WSK and TDI, see [Introduction to Winsock Kernel (WSK)](http://go.microsoft.com/fwlink/p/?linkid=188455).
+> The TDI feature is deprecated and will be removed in future versions of Microsoft Windows. Depending on how you use TDI, use either the Winsock Kernel (WSK) or Windows Filtering Platform (WFP). For more information about WFP and WSK, see [Windows Filtering Platform](https://msdn.microsoft.com/library/Aa366510(v=VS.85).aspx) and [Winsock Kernel](https://msdn.microsoft.com/en-us/library/Ff571083(v=VS.85).aspx). For a Windows Core Networking blog entry about WSK and TDI, see [Introduction to Winsock Kernel (WSK)](http://go.microsoft.com/fwlink/p/?linkid=188455).
 
  
 

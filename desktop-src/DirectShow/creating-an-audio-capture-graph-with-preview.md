@@ -15,7 +15,7 @@ The filter graph described in [Creating an Audio Capture Graph](creating-an-audi
 
 Connect the Audio Capture Filter to the Infinite Pin Tee, and connect the Infinite Pin Tee to the multiplexer and the [DirectSound Renderer Filter](directsound-renderer-filter.md). Connect the multiplexer to the file writer, as before. The following diagram illustrates the resulting filter graph for an AVI file.
 
-![audio capture graph with preview](https://www.bing.com/search?q=audio+capture+graph+with+preview)
+![audio capture graph with preview](images/audio-capture-graph.png)
 
 Because the DirectSound Renderer is the default audio renderer, you can simply call the [**IGraphBuilder::Render**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-render) method on the Infinite Pin Tee's output pin. The Filter Graph Manager uses [Intelligent Connect](intelligent-connect.md) to create the renderer, add it to the filter graph, and connect the pins.
 

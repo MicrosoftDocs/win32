@@ -178,16 +178,16 @@ Because the VMR does not have its own window, it must be notified if it need to 
 
 1.  [**WM\_PAINT**](https://msdn.microsoft.com/en-us/library/Dd145213(v=VS.85).aspx). Call [**IVMRWindowlessControl::RepaintVideo**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-repaintvideo). This method causes the VMR-7 to repaint the most recent video frame.
 2.  [**WM\_DISPLAYCHANGE**](https://msdn.microsoft.com/en-us/library/Dd145210(v=VS.85).aspx): Call [**IVMRWindowlessControl::DisplayModeChanged**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-displaymodechanged). This method notifies the VMR-7 that the video must be shown at a new resolution or color depth.
-3.  [**WM\_SIZE**](https://www.bing.com/search?q=**WM\_SIZE**) or [**WM\_WINDOWPOSCHANGED**](https://www.bing.com/search?q=**WM\_WINDOWPOSCHANGED**): Recalculate the position of the video and call [**IVMRWindowlessControl::SetVideoPosition**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-setvideoposition) to update the position, if needed.
+3.  [**WM\_SIZE**](https://msdn.microsoft.com/library/ms632646(v=VS.85).aspx) or [**WM\_WINDOWPOSCHANGED**](https://msdn.microsoft.com/library/ms632652(v=VS.85).aspx): Recalculate the position of the video and call [**IVMRWindowlessControl::SetVideoPosition**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-setvideoposition) to update the position, if needed.
 
 **VMR-9**
 
 1.  [**WM\_PAINT**](https://msdn.microsoft.com/en-us/library/Dd145213(v=VS.85).aspx). Call [**IVMRWindowlessControl9::RepaintVideo**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-repaintvideo). This method causes the VMR-9 to repaint the most recent video frame.
 2.  [**WM\_DISPLAYCHANGE**](https://msdn.microsoft.com/en-us/library/Dd145210(v=VS.85).aspx): Call [**IVMRWindowlessControl9::DisplayModeChanged**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-displaymodechanged). This method notifies the VMR-9 that the video must be shown at a new resolution or color depth.
-3.  [**WM\_SIZE**](https://www.bing.com/search?q=**WM\_SIZE**) or [**WM\_WINDOWPOSCHANGED**](https://www.bing.com/search?q=**WM\_WINDOWPOSCHANGED**): Recalculate the position of the video and call [**IVMRWindowlessControl9::SetVideoPosition**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-setvideoposition) to update the position, if needed.
+3.  [**WM\_SIZE**](https://msdn.microsoft.com/library/ms632646(v=VS.85).aspx) or [**WM\_WINDOWPOSCHANGED**](https://msdn.microsoft.com/library/ms632652(v=VS.85).aspx): Recalculate the position of the video and call [**IVMRWindowlessControl9::SetVideoPosition**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-setvideoposition) to update the position, if needed.
 
 > [!Note]  
-> The default handler for the [**WM\_WINDOWPOSCHANGED**](https://www.bing.com/search?q=**WM\_WINDOWPOSCHANGED**) message sends a [**WM\_SIZE**](https://www.bing.com/search?q=**WM\_SIZE**) message. But if your application intercepts **WM\_WINDOWPOSCHANGED** and does not pass it to [**DefWindowProc**](https://www.bing.com/search?q=**DefWindowProc**), you should call **SetVideoPosition** in your **WM\_WINDOWPOSCHANGED** handler, in addition to your **WM\_SIZE** handler.
+> The default handler for the [**WM\_WINDOWPOSCHANGED**](https://msdn.microsoft.com/library/ms632652(v=VS.85).aspx) message sends a [**WM\_SIZE**](https://msdn.microsoft.com/library/ms632646(v=VS.85).aspx) message. But if your application intercepts **WM\_WINDOWPOSCHANGED** and does not pass it to [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx), you should call **SetVideoPosition** in your **WM\_WINDOWPOSCHANGED** handler, in addition to your **WM\_SIZE** handler.
 
  
 

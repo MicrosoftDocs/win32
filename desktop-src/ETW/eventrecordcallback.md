@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - EventRecordCallback
-api_type: 
+api_type:
 - UserDefined
-api_location: 
+api_location:
 - Evntrace.h
 ---
 
@@ -42,7 +42,7 @@ VOID WINAPI EventRecordCallback(
 *EventRecord* \[in\]
 </dt> <dd>
 
-Pointer to an [**EVENT\_RECORD**](/windows/desktop/api) structure that contains the event information.
+Pointer to an [**EVENT\_RECORD**](https://msdn.microsoft.com/en-us/library/Aa363769(v=VS.85).aspx) structure that contains the event information.
 
 </dd> </dl>
 

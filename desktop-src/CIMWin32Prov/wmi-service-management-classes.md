@@ -61,7 +61,7 @@ The following is a table of WMI management classes.
 
 <dl> <dt>
 
-[Win32 Classes](https://www.bing.com/search?q=Win32+Classes)
+[Win32 Classes](https://msdn.microsoft.com/library/Aa394388(v=VS.85).aspx)
 </dt> </dl>
 
  

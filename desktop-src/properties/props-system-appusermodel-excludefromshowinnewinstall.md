@@ -47,76 +47,76 @@ PKEY values are defined in Propkey.h.
 [Application User Model IDs (AppUserModelIDs)](https://msdn.microsoft.com/en-us/library/Dd378459(v=VS.85).aspx)
 </dt> <dt>
 
-[System.AppUserModel.ID](https://www.bing.com/search?q=System.AppUserModel.ID)
+[System.AppUserModel.ID](https://msdn.microsoft.com/library/Dd391569(v=VS.85).aspx)
 </dt> <dt>
 
 [**SHGetPropertyStoreForWindow**](/windows/desktop/api/Shellapi/nf-shellapi-shgetpropertystoreforwindow)
 </dt> <dt>
 
-[propertyDescriptionList](https://www.bing.com/search?q=propertyDescriptionList)
+[propertyDescriptionList](https://msdn.microsoft.com/library/Bb773882(v=VS.85).aspx)
 </dt> <dt>
 
-[propertyDescription](https://www.bing.com/search?q=propertyDescription)
+[propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx)
 </dt> <dt>
 
-[searchInfo](https://www.bing.com/search?q=searchInfo)
+[searchInfo](https://msdn.microsoft.com/library/Bb773885(v=VS.85).aspx)
 </dt> <dt>
 
-[labelInfo](https://www.bing.com/search?q=labelInfo)
+[labelInfo](https://msdn.microsoft.com/library/Bb773876(v=VS.85).aspx)
 </dt> <dt>
 
-[typeInfo](https://www.bing.com/search?q=typeInfo)
+[typeInfo](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx)
 </dt> <dt>
 
-[displayInfo](https://www.bing.com/search?q=displayInfo)
+[displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx)
 </dt> <dt>
 
-[aliasInfo](https://www.bing.com/search?q=aliasInfo)
+[aliasInfo](https://msdn.microsoft.com/library/Bb773860(v=VS.85).aspx)
 </dt> <dt>
 
-[stringFormat](https://www.bing.com/search?q=stringFormat)
+[stringFormat](https://msdn.microsoft.com/library/Bb773886(v=VS.85).aspx)
 </dt> <dt>
 
-[booleanFormat](https://www.bing.com/search?q=booleanFormat)
+[booleanFormat](https://msdn.microsoft.com/library/Bb773862(v=VS.85).aspx)
 </dt> <dt>
 
-[numberFormat](https://www.bing.com/search?q=numberFormat)
+[numberFormat](https://msdn.microsoft.com/library/Bb773877(v=VS.85).aspx)
 </dt> <dt>
 
-[dateTimeFormat](https://www.bing.com/search?q=dateTimeFormat)
+[dateTimeFormat](https://msdn.microsoft.com/library/Bb773863(v=VS.85).aspx)
 </dt> <dt>
 
-[enumeratedList](https://www.bing.com/search?q=enumeratedList)
+[enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx)
 </dt> <dt>
 
-[enum](https://www.bing.com/search?q=enum)
+[enum](https://msdn.microsoft.com/library/Bb773869(v=VS.85).aspx)
 </dt> <dt>
 
-[enumRange](https://www.bing.com/search?q=enumRange)
+[enumRange](https://msdn.microsoft.com/library/Bb773873(v=VS.85).aspx)
 </dt> <dt>
 
-[image](https://www.bing.com/search?q=image)
+[image](https://msdn.microsoft.com/library/Dd798383(v=VS.85).aspx)
 </dt> <dt>
 
-[drawControl](https://www.bing.com/search?q=drawControl)
+[drawControl](https://msdn.microsoft.com/library/Bb773866(v=VS.85).aspx)
 </dt> <dt>
 
-[editControl](https://www.bing.com/search?q=editControl)
+[editControl](https://msdn.microsoft.com/library/Bb773868(v=VS.85).aspx)
 </dt> <dt>
 
-[filterControl](https://www.bing.com/search?q=filterControl)
+[filterControl](https://msdn.microsoft.com/library/Bb773874(v=VS.85).aspx)
 </dt> <dt>
 
-[queryControl](https://www.bing.com/search?q=queryControl)
+[queryControl](https://msdn.microsoft.com/library/Bb773883(v=VS.85).aspx)
 </dt> <dt>
 
-[relatedPropertyInfo](https://www.bing.com/search?q=relatedPropertyInfo)
+[relatedPropertyInfo](https://msdn.microsoft.com/library/Dd798385(v=VS.85).aspx)
 </dt> <dt>
 
-[relatedProperty](https://www.bing.com/search?q=relatedProperty)
+[relatedProperty](https://msdn.microsoft.com/library/Dd798384(v=VS.85).aspx)
 </dt> <dt>
 
-[startPinOption](https://www.bing.com/search?q=startPinOption)
+[startPinOption](https://msdn.microsoft.com/library/JJ553605(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -11,7 +11,7 @@ title: WMI Architecture
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - kbArticle
 api_name: 
 api_type: 
@@ -28,7 +28,7 @@ To obtain data from WMI, write a client script or application that accesses [WMI
 
 The following diagram shows the relationship between the WMI infrastructure and the WMI providers and managed objects, and it also shows the relationship between the WMI infrastructure and the WMI consumers.
 
-![relationship between wmi infrastructure, wmi providers, and managed objects](https://www.bing.com/search?q=relationship+between+wmi+infrastructure,+wmi+providers,+and+managed+objects)
+![relationship between wmi infrastructure, wmi providers, and managed objects](images/wmi-architecture.png)
 
 ## WMI Components
 

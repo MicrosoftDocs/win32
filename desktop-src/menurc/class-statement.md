@@ -32,7 +32,7 @@ CLASS class
 <span id="class"></span><span id="CLASS"></span>*class*
 </dt> <dd>
 
-A 16-bit unsigned integer or a string, enclosed in double quotation marks ("), that identifies the class of the dialog box. If the window procedure for the class does not process a message sent to it, it must call the [**DefDlgProc**](https://www.bing.com/search?q=**DefDlgProc**) function to ensure that all messages are handled properly for the dialog box. A private class can use **DefDlgProc** as the default window procedure. The class must be registered with the **cbWndExtra** member of the [**WNDCLASS**](https://www.bing.com/search?q=**WNDCLASS**) structure set to **DLGWINDOWEXTRA**.
+A 16-bit unsigned integer or a string, enclosed in double quotation marks ("), that identifies the class of the dialog box. If the window procedure for the class does not process a message sent to it, it must call the [**DefDlgProc**](https://msdn.microsoft.com/library/ms645450(v=VS.85).aspx) function to ensure that all messages are handled properly for the dialog box. A private class can use **DefDlgProc** as the default window procedure. The class must be registered with the **cbWndExtra** member of the [**WNDCLASS**](https://msdn.microsoft.com/library/ms633576(v=VS.85).aspx) structure set to **DLGWINDOWEXTRA**.
 
 </dd> </dl>
 
@@ -52,7 +52,7 @@ CLASS "myclass"
 
 <dl> <dt>
 
-[**DefDlgProc**](https://www.bing.com/search?q=**DefDlgProc**)
+[**DefDlgProc**](https://msdn.microsoft.com/library/ms645450(v=VS.85).aspx)
 </dt> <dt>
 
 [**DIALOG**](dialog-resource.md)

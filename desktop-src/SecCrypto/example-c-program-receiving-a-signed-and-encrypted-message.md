@@ -18,7 +18,7 @@ To decrypt and verify the message, the [*private key*](https://msdn.microsoft.co
 This example illustrates the following tasks:
 
 -   Opening and closing system certificate stores.
--   Reading a [**CERT\_NAME\_BLOB**](https://www.bing.com/search?q=**CERT\_NAME\_BLOB**) from a file.
+-   Reading a [**CERT\_NAME\_BLOB**](https://msdn.microsoft.com/en-us/library/Aa381414(v=VS.85).aspx) from a file.
 -   Initializing data structures needed to decrypt and verify a message.
 -   Calling a CryptoAPI function to find the required size of a buffer, allocating the buffer of the required size, and calling the CryptoAPI function again to fill the buffer. For more information, see [Retrieving Data of Unknown Length](retrieving-data-of-unknown-length.md).
 

@@ -17,7 +17,7 @@ To invoke an extension function, the application must first ask for a pointer to
 
 The identifiers assigned to extension functions are globally unique identifiers (GUIDs) that are allocated by service provider vendors. Vendors who create extension functions are urged to publish full details about the function including the syntax of the function prototype. This makes it possible for common and popular extension functions to be offered by more than one service provider vendor. An application can obtain the function pointer and use the function without needing to know anything about the particular service provider that implements the function.
 
-On Windows Vista and later, new Winsock system extensions are exported directly from the Winsock DLL, so the [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) function is not needed to load these extensions. The new extension functions available on Windows Vista and later include the [**WSAPoll**](/windows/desktop/api) and [**WSASendMsg**](/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg) functions that are exported from *Ws2\_32.dll*.
+On Windows Vista and later, new Winsock system extensions are exported directly from the Winsock DLL, so the [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) function is not needed to load these extensions. The new extension functions available on Windows Vista and later include the [**WSAPoll**](https://msdn.microsoft.com/en-us/library/ms741669(v=VS.85).aspx) and [**WSASendMsg**](/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg) functions that are exported from *Ws2\_32.dll*.
 
  
 

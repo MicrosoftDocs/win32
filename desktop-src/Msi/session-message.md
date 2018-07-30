@@ -43,7 +43,7 @@ Session.Message(
 *kind* 
 </dt> <dd>
 
-The *kind* parameter is required to be one of the following values. To display a message box with push buttons and icons, calculate the value of *kind* by adding the standard message box styles used by [**MessageBox**](https://www.bing.com/search?q=**MessageBox**) and [**MessageBoxEx**](https://www.bing.com/search?q=**MessageBoxEx**) to **msiMessageTypeError**, **msiMessageTypeWarning**, or **msiMessageTypeUser**. For more information see the Remarks section below.
+The *kind* parameter is required to be one of the following values. To display a message box with push buttons and icons, calculate the value of *kind* by adding the standard message box styles used by [**MessageBox**](https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx) and [**MessageBoxEx**](https://msdn.microsoft.com/library/ms645507(v=VS.85).aspx) to **msiMessageTypeError**, **msiMessageTypeWarning**, or **msiMessageTypeUser**. For more information see the Remarks section below.
 
 
 
