@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DSURFACE_DESC
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3D9Types.h
 ---
 
@@ -106,7 +106,7 @@ Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).a
 
 </dd> <dd>
 
-Quality level. The valid range is between zero and one less than the level returned by pQualityLevels used by [**CheckDeviceMultiSampleType**](/windows/desktop/api). Passing a larger value returns the error, D3DERR\_INVALIDCALL. The MultisampleQuality values of paired render targets, depth stencil surfaces and the MultiSample type must all match.
+Quality level. The valid range is between zero and one less than the level returned by pQualityLevels used by [**CheckDeviceMultiSampleType**](https://msdn.microsoft.com/library/Bb174311(v=VS.85).aspx). Passing a larger value returns the error, D3DERR\_INVALIDCALL. The MultisampleQuality values of paired render targets, depth stencil surfaces and the MultiSample type must all match.
 
 </dd> <dt>
 
@@ -149,13 +149,13 @@ Height of the surface, in pixels.
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetLevelDesc**](/windows/desktop/api)
+[**GetLevelDesc**](https://msdn.microsoft.com/library/Bb174332(v=VS.85).aspx)
 </dt> <dt>
 
-[**GetDesc**](/windows/desktop/api)
+[**GetDesc**](https://msdn.microsoft.com/library/Bb205895(v=VS.85).aspx)
 </dt> <dt>
 
-[**GetLevelDesc**](/windows/desktop/api)
+[**GetLevelDesc**](https://msdn.microsoft.com/library/Bb174332(v=VS.85).aspx)
 </dt> </dl>
 
  

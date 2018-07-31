@@ -46,7 +46,7 @@ HKEY_LOCAL_MACHINE
 
 Property handlers for a particular file type are commonly distributed with the application(s) that create or manipulate files of that type. However, you should also consider making your property handlers available independently of these applications to support indexing of your file type in server scenarios where property handlers are used by the indexer, but their accompanying applications are not required. If you create a stand-alone installation package for your property handler, be sure that it includes the following:
 
--   The property handler registration details specified in the topic [Registering and Distributing Property Handlers](https://www.bing.com/search?q=Registering+and+Distributing+Property+Handlers).
+-   The property handler registration details specified in the topic [Registering and Distributing Property Handlers](https://msdn.microsoft.com/library/Dd894084(v=VS.85).aspx).
 -   Registration for your file type and any schema files that must be installed, to enable clients to access all the features of your property handler.
 
 ## Performance and Reliability Considerations for Property Handlers

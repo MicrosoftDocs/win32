@@ -39,7 +39,7 @@ The following attributes modify an image.
 | [Gain](msdn-online-vml-gain-attribute.md)                         | Defines the intensity of all colors in an image.                      |
 | [Gamma](msdn-online-vml-gamma-attribute.md)                       | Defines the amount of contrast for an image.                          |
 | [GrayScale](msdn-online-vml-grayscale-attribute.md)               | Determines whether a picture will display in grayscale mode.          |
-| [HRef](https://www.bing.com/search?q=HRef) | Defines a URL for an image.                                           |
+| [HRef](https://msdn.microsoft.com/library/Bb229574(v=VS.85).aspx) | Defines a URL for an image.                                           |
 | [ID](id-attribute--image--vml.md)                                 | Defines a unique identifier for an image.                             |
 | [Movie](msdn-online-vml-movie-attribute.md)                       | Defines a pointer to a movie image.                                   |
 | [OLEID](msdn-online-vml-oleid-attribute.md)                       | Stores the OLE ID of an image.                                        |

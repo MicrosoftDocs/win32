@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXPRTEngine.ComputeDirectLightingSHGPU
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
@@ -46,12 +46,12 @@ HRESULT ComputeDirectLightingSHGPU(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api)**
+Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
 
-Pointer to the [**IDirect3DDevice9**](/windows/desktop/api) device object used to run the simulation on the GPU. The device must support [ps\_2\_0](https://msdn.microsoft.com/en-us/library/Bb219843(v=VS.85).aspx) pixel shaders.
+Pointer to the [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) device object used to run the simulation on the GPU. The device must support [ps\_2\_0](https://msdn.microsoft.com/en-us/library/Bb219843(v=VS.85).aspx) pixel shaders.
 
 > [!Note]  
-> Callback functions should not use the [**IDirect3DDevice9**](/windows/desktop/api) device object used by the GPU simulator.
+> Callback functions should not use the [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) device object used by the GPU simulator.
 
  
 

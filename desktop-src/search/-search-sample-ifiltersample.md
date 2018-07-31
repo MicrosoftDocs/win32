@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IFilterSample
 
-The IFilterSample code sample demonstrates how to create an IFilter base class for implementing the [**IFilter**](https://www.bing.com/search?q=**IFilter**) interface.
+The IFilterSample code sample demonstrates how to create an IFilter base class for implementing the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface.
 
 This topic contains the following sections.
 
@@ -86,7 +86,7 @@ To build the sample using Microsoft Visual Studio (preferred):
 **Reference**
 </dt> <dt>
 
-[**IFilter**](https://www.bing.com/search?q=**IFilter**)
+[**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx)
 </dt> <dt>
 
 **Conceptual**

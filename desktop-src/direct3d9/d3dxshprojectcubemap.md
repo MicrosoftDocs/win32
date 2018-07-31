@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXSHProjectCubeMap
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
@@ -54,9 +54,9 @@ Order of the spherical harmonic (SH) evaluation. Must be in the range of [D3DXSH
 *pCubeMap* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DCUBETEXTURE9**](/windows/desktop/api)**
+Type: **[**LPDIRECT3DCUBETEXTURE9**](https://msdn.microsoft.com/library/Bb174329(v=VS.85).aspx)**
 
-Pointer to a source cube texture. See [**IDirect3DCubeTexture9**](/windows/desktop/api).
+Pointer to a source cube texture. See [**IDirect3DCubeTexture9**](https://msdn.microsoft.com/library/Bb174329(v=VS.85).aspx).
 
 </dd> <dt>
 

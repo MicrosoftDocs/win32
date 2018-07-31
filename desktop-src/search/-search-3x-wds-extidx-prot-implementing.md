@@ -49,7 +49,7 @@ For a list of handlers identified by the developer scenario you are trying to ac
 
 ### Protocol Handlers
 
-If the data store is also a container (such as a file system folder), you must implement a filter to enumerate the URLs in the container. If the data store contains data or file types other than one of the 200 file types supported by Windows Search, you must implement a filter to access and index the contents of items in the store. Windows Search uses protocol handler and [**IFilter**](https://www.bing.com/search?q=**IFilter**) technology similar to that used by SharePoint Server. If you already have filters for a specific store and file type installed on the system being indexed, Windows Search may be able to use the existing interfaces to index this data.
+If the data store is also a container (such as a file system folder), you must implement a filter to enumerate the URLs in the container. If the data store contains data or file types other than one of the 200 file types supported by Windows Search, you must implement a filter to access and index the contents of items in the store. Windows Search uses protocol handler and [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) technology similar to that used by SharePoint Server. If you already have filters for a specific store and file type installed on the system being indexed, Windows Search may be able to use the existing interfaces to index this data.
 
 For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md). For conceptual information on filter handlers, see [Developing Filter Handlers](-search-ifilter-conceptual.md).
 
@@ -75,7 +75,7 @@ Test.zip
     |- FileY.doc
 ```
 
-The FILE protocol handler discovers when FILE://c:/test/test.zip changes by monitoring file system change logs, and it will invoke an [**IFilter**](https://www.bing.com/search?q=**IFilter**) registered for .zip files on that file when the file changes, but it has no knowledge of the internal structure of the .zip file itself.
+The FILE protocol handler discovers when FILE://c:/test/test.zip changes by monitoring file system change logs, and it will invoke an [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) registered for .zip files on that file when the file changes, but it has no knowledge of the internal structure of the .zip file itself.
 
 You must inform the indexer that the compound file format is a data store. It is necessary to do so for individual items to be indexed and retrieved as unique entities. After you have implemented a Shell data source and performed the following steps, you will have a protocol handler that can process and expose the data from a compound file format (a .zip file) as individual items.
 
@@ -129,8 +129,8 @@ To have your .zip URLs indexed immediately after they are created or modified, a
 
 **To have your .zip urls indexed when they are created or modified:**
 
-1.  Create a filter (and implementation of the [**IFilter**](https://www.bing.com/search?q=**IFilter**) interface) for the .zip file type. For more information, see [Developing Property Handlers for Windows Search](-search-3x-wds-extidx-propertyhandlers.md).
-2.  Whenever your [**IFilter**](https://www.bing.com/search?q=**IFilter**) implementation is called, it is because that URL has been discovered or changed. Then, generate an event for the .zip URL appropriate for the source URL, through the [**IGatherNotifyInline**](https://msdn.microsoft.com/en-us/library/Bb231470(v=VS.85).aspx) interface. Doing so gives you the ability to immediately tell the indexer that there is new data to be indexed without having to wait for the incremental crawl.
+1.  Create a filter (and implementation of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface) for the .zip file type. For more information, see [Developing Property Handlers for Windows Search](-search-3x-wds-extidx-propertyhandlers.md).
+2.  Whenever your [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) implementation is called, it is because that URL has been discovered or changed. Then, generate an event for the .zip URL appropriate for the source URL, through the [**IGatherNotifyInline**](https://msdn.microsoft.com/en-us/library/Bb231470(v=VS.85).aspx) interface. Doing so gives you the ability to immediately tell the indexer that there is new data to be indexed without having to wait for the incremental crawl.
 
 ## Related topics
 

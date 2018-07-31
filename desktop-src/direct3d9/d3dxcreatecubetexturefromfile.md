@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXCreateCubeTextureFromFile
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
@@ -43,9 +43,9 @@ HRESULT D3DXCreateCubeTextureFromFile(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api)**
+Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
 
-Pointer to an [**IDirect3DDevice9**](/windows/desktop/api) interface, representing the device to be associated with the cube texture.
+Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, representing the device to be associated with the cube texture.
 
 </dd> <dt>
 
@@ -61,9 +61,9 @@ Pointer to a string that specifies the filename. If the compiler settings requir
 *ppCubeTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DCUBETEXTURE9**](/windows/desktop/api)\***
+Type: **[**LPDIRECT3DCUBETEXTURE9**](https://msdn.microsoft.com/library/Bb174329(v=VS.85).aspx)\***
 
-Address of a pointer to an [**IDirect3DCubeTexture9**](/windows/desktop/api) interface, representing the created cube texture object.
+Address of a pointer to an [**IDirect3DCubeTexture9**](https://msdn.microsoft.com/library/Bb174329(v=VS.85).aspx) interface, representing the created cube texture object.
 
 </dd> </dl>
 

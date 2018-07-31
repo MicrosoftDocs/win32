@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXFont.OnResetDevice
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
@@ -44,7 +44,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 ## Remarks
 
-**OnResetDevice** should be called each time the device is reset (using [**Reset**](/windows/desktop/api)), before any other methods are called. This is a good place to re-acquire video-memory resources and capture state blocks.
+**OnResetDevice** should be called each time the device is reset (using [**Reset**](https://msdn.microsoft.com/library/Bb174425(v=VS.85).aspx)), before any other methods are called. This is a good place to re-acquire video-memory resources and capture state blocks.
 
 ## Requirements
 

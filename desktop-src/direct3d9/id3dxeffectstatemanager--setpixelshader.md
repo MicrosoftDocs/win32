@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXEffectStateManager.SetPixelShader
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - D3dx9.lib
 - D3dx9.dll
 ---
@@ -41,9 +41,9 @@ HRESULT SetPixelShader(
 *pShader* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DPIXELSHADER9**](/windows/desktop/api)**
+Type: **[**LPDIRECT3DPIXELSHADER9**](https://msdn.microsoft.com/library/Bb205869(v=VS.85).aspx)**
 
-A pointer to a pixel shader object. See [**IDirect3DPixelShader9**](/windows/desktop/api).
+A pointer to a pixel shader object. See [**IDirect3DPixelShader9**](https://msdn.microsoft.com/library/Bb205869(v=VS.85).aspx).
 
 </dd> </dl>
 
@@ -54,7 +54,7 @@ Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.1
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 
 -   The effect will fail during [**ID3DXEffect::BeginPass**](id3dxeffect--beginpass.md).
--   The dynamic effect state call (such as [**IDirect3DDevice9::SetPixelShader**](/windows/desktop/api)) will fail.
+-   The dynamic effect state call (such as [**IDirect3DDevice9::SetPixelShader**](https://msdn.microsoft.com/library/Bb174450(v=VS.85).aspx)) will fail.
 
 ## Requirements
 

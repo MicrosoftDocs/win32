@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 <dl> <dt>
 
-[Microsoft Virtual Server](https://www.bing.com/search?q=Microsoft+Virtual+Server)
+[Microsoft Virtual Server](https://msdn.microsoft.com/library/Cc997745(v=VS.85).aspx)
 </dt> <dd>
 
 Microsoft Virtual Server 2005 allows you to create separate virtual machines on top of your Microsoft Windows desktop, where you can install virtually any Intel-architecture operating system. Each virtual machine emulates a complete hardware system—from processor to network card—in a self-contained, isolated software environment, enabling the simultaneous operation of otherwise incompatible systems.

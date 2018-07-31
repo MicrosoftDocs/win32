@@ -394,7 +394,7 @@ The following functions are used in synchronization.
 
 | Waitable-timer function                                | Description                                                                                                       |
 |--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| [**CancelWaitableTimer**](/windows/desktop/api)     | Sets the specified waitable timer to the inactive state.                                                          |
+| [**CancelWaitableTimer**](https://msdn.microsoft.com/library/ms681985(v=VS.85).aspx)     | Sets the specified waitable timer to the inactive state.                                                          |
 | [**CreateWaitableTimer**](/windows/desktop/api/WinBase/nf-winbase-createwaitabletimera)     | Creates or opens a waitable timer object.                                                                         |
 | [**CreateWaitableTimerEx**](/windows/desktop/api/WinBase/nf-winbase-createwaitabletimerexa) | Creates or opens a waitable timer object and returns a handle to the object.                                      |
 | [**OpenWaitableTimer**](/windows/desktop/api/WinBase/nf-winbase-openwaitabletimera)         | Opens an existing named waitable timer object.                                                                    |

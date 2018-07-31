@@ -25,7 +25,7 @@ The faces of a cube map don't need to contain extremely detailed renderings of t
 
 ## Mipmapped Cubic Environment Maps
 
-Cube maps can be mipmapped. To create a mipmapped cube map, set the Levels parameter of the [**CreateCubeTexture**](/windows/desktop/api) method to the number of levels that you want. You can envision the topography of these surfaces as shown in the following diagram.
+Cube maps can be mipmapped. To create a mipmapped cube map, set the Levels parameter of the [**CreateCubeTexture**](https://msdn.microsoft.com/library/Bb174355(v=VS.85).aspx) method to the number of levels that you want. You can envision the topography of these surfaces as shown in the following diagram.
 
 ![diagram of a mipmapped cube map with n mip levels](images/cubemap-mipped.png)
 

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Both indexed and nonindexed drawing methods are supported by Direct3D. The indexed methods use a single set of indices for all vertex components. Vertex data is stored in vertex buffers, and index data is stored in index buffers. Listed below are a few common scenarios for drawing primitives using vertex and index buffers.
 
-These examples compare the use of [**IDirect3DDevice9::DrawPrimitive**](/windows/desktop/api) and [**IDirect3DDevice9::DrawIndexedPrimitive**](/windows/desktop/api)
+These examples compare the use of [**IDirect3DDevice9::DrawPrimitive**](/windows/desktop/api) and [**IDirect3DDevice9::DrawIndexedPrimitive**](https://msdn.microsoft.com/library/Bb174369(v=VS.85).aspx)
 
 ## Scenario 1: Drawing Two Triangles without Indexing
 

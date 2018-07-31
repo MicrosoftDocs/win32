@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXTessellateRectPatch
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
@@ -45,7 +45,7 @@ HRESULT D3DXTessellateRectPatch(
 *pVB* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVERTEXBUFFER9**](/windows/desktop/api)**
+Type: **[**LPDIRECT3DVERTEXBUFFER9**](https://msdn.microsoft.com/library/Bb205915(v=VS.85).aspx)**
 
 Vertex buffer containing the patch data.
 

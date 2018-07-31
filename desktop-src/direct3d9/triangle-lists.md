@@ -44,7 +44,7 @@ CUSTOMVERTEX Vertices[] =
 
 
 
-The code example below shows how to render this triangle list in Direct3D 9 using [**IDirect3DDevice9::DrawPrimitive**](/windows/desktop/api).
+The code example below shows how to render this triangle list in Direct3D 9 using [**IDirect3DDevice9::DrawPrimitive**](https://msdn.microsoft.com/library/Bb174371(v=VS.85).aspx).
 
 
 ```

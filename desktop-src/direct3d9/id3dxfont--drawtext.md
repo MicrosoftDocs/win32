@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXFont.DrawText
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
@@ -130,7 +130,7 @@ The parameters of this method are very similar to those of the GDI [**DrawText**
 
 This method supports both ANSI and Unicode strings.
 
-This method must be called inside a [**BeginScene**](/windows/desktop/api) ... [**EndScene**](/windows/desktop/api) block. The only exception is when an application calls **DrawText** with DT\_CALCRECT to calculate the size of a given block of text.
+This method must be called inside a [**BeginScene**](/windows/desktop/api) ... [**EndScene**](https://msdn.microsoft.com/library/Bb174375(v=VS.85).aspx) block. The only exception is when an application calls **DrawText** with DT\_CALCRECT to calculate the size of a given block of text.
 
 Unless the DT\_NOCLIP format is used, this method clips the text so that it does not appear outside the specified rectangle. All formatting is assumed to have multiple lines unless the DT\_SINGLELINE format is specified.
 

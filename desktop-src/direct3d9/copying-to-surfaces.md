@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Copying to Surfaces (Direct3D 9)
 
-When using [**IDirect3DDevice9::UpdateSurface**](/windows/desktop/api), pass a rectangle on the source surface, or use **NULL** to specify the entire surface. You also pass a point on the destination surface to which the upper left position of the rectangle on the source image is copied. This method does not support clipping. The operation will fail unless the source rectangle and the corresponding destination rectangle are completely contained within the source and destination surfaces respectively. This method does not support alpha blending, color keys, or format conversion. Note that the destination and source surfaces must be distinct.
+When using [**IDirect3DDevice9::UpdateSurface**](https://msdn.microsoft.com/library/Bb205857(v=VS.85).aspx), pass a rectangle on the source surface, or use **NULL** to specify the entire surface. You also pass a point on the destination surface to which the upper left position of the rectangle on the source image is copied. This method does not support clipping. The operation will fail unless the source rectangle and the corresponding destination rectangle are completely contained within the source and destination surfaces respectively. This method does not support alpha blending, color keys, or format conversion. Note that the destination and source surfaces must be distinct.
 
-For other restrictions when using UpdateSurface, see [**IDirect3DDevice9::UpdateSurface**](/windows/desktop/api).
+For other restrictions when using UpdateSurface, see [**IDirect3DDevice9::UpdateSurface**](https://msdn.microsoft.com/library/Bb205857(v=VS.85).aspx).
 
 The following methods are also available in C++/C for copying images to a Direct3D surface.
 
@@ -22,7 +22,7 @@ The following methods are also available in C++/C for copying images to a Direct
 -   [**D3DXLoadSurfaceFromMemory**](d3dxloadsurfacefrommemory.md)
 -   [**D3DXLoadSurfaceFromResource**](d3dxloadsurfacefromresource.md)
 -   [**D3DXLoadSurfaceFromSurface**](d3dxloadsurfacefromsurface.md)
--   [**IDirect3DDevice9::UpdateSurface**](/windows/desktop/api)
+-   [**IDirect3DDevice9::UpdateSurface**](https://msdn.microsoft.com/library/Bb205857(v=VS.85).aspx)
 
 ## UpdateSurface Example
 
@@ -50,7 +50,7 @@ d3dDevice->UpdateSurface( pSource, rcSource, 2, pDest, ptDest);
 [Direct3D Surfaces](direct3d-surfaces.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::StretchRect**](/windows/desktop/api)
+[**IDirect3DDevice9::StretchRect**](https://msdn.microsoft.com/library/Bb174471(v=VS.85).aspx)
 </dt> </dl>
 
  

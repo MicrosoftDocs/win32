@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DBACKBUFFER_TYPE
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3D9Types.h
 ---
 
@@ -89,10 +89,10 @@ Direct3D 9 does not support stereo view, so Direct3D does not use the D3DBACKBUF
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::GetBackBuffer**](/windows/desktop/api)
+[**IDirect3DDevice9::GetBackBuffer**](https://msdn.microsoft.com/library/Bb174379(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDirect3DSwapChain9::GetBackBuffer**](/windows/desktop/api)
+[**IDirect3DSwapChain9::GetBackBuffer**](https://msdn.microsoft.com/library/Bb205902(v=VS.85).aspx)
 </dt> </dl>
 
  

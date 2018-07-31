@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - SslGetCipherSuitePRFHashAlgorithm
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - Ncrypt.dll
 ---
 
@@ -52,21 +52,21 @@ The handle of the [*Secure Sockets Layer protocol*](https://msdn.microsoft.com/l
 *dwProtocol* \[in\]
 </dt> <dd>
 
-One of the [**CNG SSL Provider Protocol Identifier**](https://www.bing.com/search?q=**CNG+SSL+Provider+Protocol+Identifier**) values.
+One of the [**CNG SSL Provider Protocol Identifier**](https://msdn.microsoft.com/library/Hh971257(v=VS.85).aspx) values.
 
 </dd> <dt>
 
 *dwCipherSuite* \[in\]
 </dt> <dd>
 
-One of the [**CNG SSL Provider Cipher Suite Identifier**](https://www.bing.com/search?q=**CNG+SSL+Provider+Cipher+Suite+Identifier**) values.
+One of the [**CNG SSL Provider Cipher Suite Identifier**](https://msdn.microsoft.com/library/Hh971253(v=VS.85).aspx) values.
 
 </dd> <dt>
 
 *dwKeyType* \[in\]
 </dt> <dd>
 
-One of the [**CNG SSL Provider Key Type Identifier**](https://www.bing.com/search?q=**CNG+SSL+Provider+Key+Type+Identifier**) values. For key types that are not [*elliptic curve cryptography*](https://msdn.microsoft.com/library/windows/desktop/ms721575#-security-elliptic-curve-cryptography-gly) (ECC), set this parameter to zero.
+One of the [**CNG SSL Provider Key Type Identifier**](https://msdn.microsoft.com/library/Hh971256(v=VS.85).aspx) values. For key types that are not [*elliptic curve cryptography*](https://msdn.microsoft.com/library/windows/desktop/ms721575#-security-elliptic-curve-cryptography-gly) (ECC), set this parameter to zero.
 
 </dd> <dt>
 

@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DLOCKED_BOX
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3D9Types.h
 ---
 
@@ -93,10 +93,10 @@ Volumes can be visualized as being organized into slices of width x height 2D su
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**IDirect3DVolume9::LockBox**](/windows/desktop/api)
+[**IDirect3DVolume9::LockBox**](https://msdn.microsoft.com/library/Bb205938(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDirect3DVolumeTexture9::LockBox**](/windows/desktop/api)
+[**IDirect3DVolumeTexture9::LockBox**](https://msdn.microsoft.com/library/Bb205945(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # AVIEncoderVFW
 
-For current documentation on Windows Media codecs and digital signal processors, see [Windows Media Audio and Video Codec and DSP APIs.](https://www.bing.com/search?q=Windows+Media+Audio+and+Video+Codec+and+DSP+APIs.)
+For current documentation on Windows Media codecs and digital signal processors, see [Windows Media Audio and Video Codec and DSP APIs.](https://msdn.microsoft.com/library/Dd464626(v=VS.85).aspx)
 
  
 

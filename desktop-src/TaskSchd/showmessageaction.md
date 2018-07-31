@@ -57,7 +57,7 @@ When reading or writing your own XML for a task, a message box action is specifi
 
 ## Examples
 
-For more information and example code for this scripting object, see [Message Box Example (Scripting)](https://www.bing.com/search?q=Message+Box+Example+(Scripting)).
+For more information and example code for this scripting object, see [Message Box Example (Scripting)](https://msdn.microsoft.com/library/Aa381916(v=VS.85).aspx).
 
 ## Requirements
 

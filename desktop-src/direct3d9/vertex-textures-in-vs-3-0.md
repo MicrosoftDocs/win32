@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The vertex shader 3.0 model supports texture lookup in the vertex shader using the [texldl - vs](https://msdn.microsoft.com/en-us/library/Bb206220(v=VS.85).aspx) texture load statement. The vertex engine contains four texture sampler stages, named [D3DVERTEXTEXTURESAMPLER0](d3dvertextexturesampler.md), D3DVERTEXTEXTURESAMPLER1, D3DVERTEXTEXTURESAMPLER2, and D3DVERTEXTEXTURESAMPLER3. These are distinct from the displacement map sampler and texture samplers in the pixel engine.
 
-To sample textures set at those four stages, you can use the vertex engine and program the stages with the [**CheckDeviceFormat**](/windows/desktop/api) method. Set textures at those stages using [**SetTexture**](/windows/desktop/api), with the stage index [D3DVERTEXTEXTURESAMPLER0](d3dvertextexturesampler.md) through D3DVERTEXTEXTURESAMPLER3. A new register has been introduced in the vertex shader, the sampler register (like in ps\_2\_0), which represents the vertex texture sampler. This register needs to be defined in the shader before using it.
+To sample textures set at those four stages, you can use the vertex engine and program the stages with the [**CheckDeviceFormat**](/windows/desktop/api) method. Set textures at those stages using [**SetTexture**](https://msdn.microsoft.com/library/Bb174461(v=VS.85).aspx), with the stage index [D3DVERTEXTEXTURESAMPLER0](d3dvertextexturesampler.md) through D3DVERTEXTEXTURESAMPLER3. A new register has been introduced in the vertex shader, the sampler register (like in ps\_2\_0), which represents the vertex texture sampler. This register needs to be defined in the shader before using it.
 
 An application can query if a format is supported as a vertex texture by calling [**CheckDeviceFormat**](/windows/desktop/api) with [D3DUSAGE\_QUERY\_VERTEXTEXTURE](d3dusage-query.md).
 
@@ -36,9 +36,9 @@ Restrictions include:
 
 ## Sampling Stage Registers
 
-A sampling stage register identifies a sampling unit that can be used in texture load statements. A sampling unit corresponds to the texture sampling stage, encapsulating the sampling-specific state provided in [**SetSamplerState**](/windows/desktop/api).
+A sampling stage register identifies a sampling unit that can be used in texture load statements. A sampling unit corresponds to the texture sampling stage, encapsulating the sampling-specific state provided in [**SetSamplerState**](https://msdn.microsoft.com/library/Bb174456(v=VS.85).aspx).
 
-Each sampler uniquely identifies a single texture surface that is set to the corresponding sampler using [**SetTexture**](/windows/desktop/api). However, the same texture surface can be set at multiple samplers.
+Each sampler uniquely identifies a single texture surface that is set to the corresponding sampler using [**SetTexture**](https://msdn.microsoft.com/library/Bb174461(v=VS.85).aspx). However, the same texture surface can be set at multiple samplers.
 
 At draw time, a texture cannot be simultaneously set as a render target and a texture at a stage.
 
@@ -48,7 +48,7 @@ In vs\_3\_0, if you use a sampler, it must be declared at the beginning of the s
 
 ## Software Processing
 
-This feature will be supported in software vertex processing. The specific filter types supported can be checked by calling [**GetDeviceCaps**](/windows/desktop/api) and checking VertexTextureFilterCaps. All published texture formats will be supported as vertex textures in software vertex processing.
+This feature will be supported in software vertex processing. The specific filter types supported can be checked by calling [**GetDeviceCaps**](https://msdn.microsoft.com/library/Bb174385(v=VS.85).aspx) and checking VertexTextureFilterCaps. All published texture formats will be supported as vertex textures in software vertex processing.
 
 Applications can check if a particular texture format is supported in the software vertex processing mode by calling [**CheckDeviceFormat**](/windows/desktop/api) and providing (D3DVERTEXTEXTURESAMPLER \| [**D3DUSAGE\_SOFTWAREPROCESSING**](d3dusage.md)) as usage. All formats are supported for software vertex processing. The scratch pool is required for software vertex processing.
 

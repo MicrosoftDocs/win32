@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # D3DCLEAR
 
-These flags identify a surface to reset when calling [**Clear**](/windows/desktop/api).
+These flags identify a surface to reset when calling [**Clear**](https://msdn.microsoft.com/library/Bb174352(v=VS.85).aspx).
 
 
 

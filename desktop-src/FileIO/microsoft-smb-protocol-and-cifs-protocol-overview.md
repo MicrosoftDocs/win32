@@ -27,7 +27,7 @@ Although its main purpose is file sharing, additional Microsoft SMB Protocol fun
 -   Unicode support
 -   [Opportunistic locks](opportunistic-locks.md)
 
-In the OSI networking model, Microsoft SMB Protocol is most often used as an Application layer or a Presentation layer protocol, and it relies on lower-level protocols for transport. The transport layer protocol that Microsoft SMB Protocol is most often used with is NetBIOS over TCP/IP ([NBT](https://www.bing.com/search?q=NBT)). However, Microsoft SMB Protocol can also be used without a separate transport protocol the Microsoft SMB Protocol/NBT combination is generally used for backward compatibility.
+In the OSI networking model, Microsoft SMB Protocol is most often used as an Application layer or a Presentation layer protocol, and it relies on lower-level protocols for transport. The transport layer protocol that Microsoft SMB Protocol is most often used with is NetBIOS over TCP/IP ([NBT](https://msdn.microsoft.com/library/Bb870909(v=VS.85).aspx)). However, Microsoft SMB Protocol can also be used without a separate transport protocol the Microsoft SMB Protocol/NBT combination is generally used for backward compatibility.
 
 The Microsoft SMB Protocol is a client-server implementation and consists of a set of data packets, each containing a request sent by the client or a response sent by the server. These packets can be broadly classified as follows:
 

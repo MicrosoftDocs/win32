@@ -61,7 +61,7 @@ For C++ development, a message box action is specified using the [**IShowMessage
 
 ## Examples
 
-For a complete example of the XML for a task that uses a message box action, see [Message Box Example (XML)](https://www.bing.com/search?q=Message+Box+Example+(XML)).
+For a complete example of the XML for a task that uses a message box action, see [Message Box Example (XML)](https://msdn.microsoft.com/library/Aa381917(v=VS.85).aspx).
 
 ## Requirements
 

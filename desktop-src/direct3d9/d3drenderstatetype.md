@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DRENDERSTATETYPE
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3D9Types.h
 ---
 
@@ -289,7 +289,7 @@ The fog formula to be used for pixel fog. Set to one of the members of the [**D3
 
 Depth at which pixel or vertex fog effects begin for linear fog mode. The default value is 0.0f. Depth is specified in world space for vertex fog and either device space \[0.0, 1.0\] or world space for pixel fog. For pixel fog, these values are in device space when the system uses z for fog calculations and world-world space when the system is using eye-relative fog (w-fog). For more information, see [Fog Parameters (Direct3D 9)](fog-parameters.md) and [Eye-Relative vs. Z-based Depth](pixel-fog.md).
 
-Values for this render state are floating-point values. Because the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api) method accepts DWORD values, your application must cast a variable that contains the value, as shown in the following code example.
+Values for this render state are floating-point values. Because the [**IDirect3DDevice9::SetRenderState**](https://msdn.microsoft.com/library/Bb174454(v=VS.85).aspx) method accepts DWORD values, your application must cast a variable that contains the value, as shown in the following code example.
 
 
 ```
@@ -306,7 +306,7 @@ pDevice9->SetRenderState(D3DRS_FOGSTART,
 
 Depth at which pixel or vertex fog effects end for linear fog mode. The default value is 1.0f. Depth is specified in world space for vertex fog and either device space \[0.0, 1.0\] or world space for pixel fog. For pixel fog, these values are in device space when the system uses z for fog calculations and in world space when the system is using eye-relative fog (w-fog). For more information, see [Fog Parameters (Direct3D 9)](fog-parameters.md) and [Eye-Relative vs. Z-based Depth](pixel-fog.md).
 
-Values for this render state are floating-point values. Because the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api) method accepts DWORD values, your application must cast a variable that contains the value, as shown in the following code example.
+Values for this render state are floating-point values. Because the [**IDirect3DDevice9::SetRenderState**](https://msdn.microsoft.com/library/Bb174454(v=VS.85).aspx) method accepts DWORD values, your application must cast a variable that contains the value, as shown in the following code example.
 
 
 ```
@@ -322,7 +322,7 @@ m_pDevice9->SetRenderState(D3DRS_FOGEND, *((DWORD*) (&amp;fFogEnd)));
 
 Fog density for pixel or vertex fog used in the exponential fog modes (D3DFOG\_EXP and D3DFOG\_EXP2). Valid density values range from 0.0 through 1.0. The default value is 1.0. For more information, see [Fog Parameters (Direct3D 9)](fog-parameters.md).
 
-Values for this render state are floating-point values. Because the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api) method accepts DWORD values, your application must cast a variable that contains the value, as shown in the following code example.
+Values for this render state are floating-point values. Because the [**IDirect3DDevice9::SetRenderState**](https://msdn.microsoft.com/library/Bb174454(v=VS.85).aspx) method accepts DWORD values, your application must cast a variable that contains the value, as shown in the following code example.
 
 
 ```
@@ -570,7 +570,7 @@ The [**D3DCLIPPLANEn**](d3dclipplanen.md) macros are defined to provide a conven
 <span id="D3DRS_POINTSIZE"></span><span id="d3drs_pointsize"></span>**D3DRS\_POINTSIZE**
 </dt> <dd>
 
-A float value that specifies the size to use for point size computation in cases where point size is not specified for each vertex. This value is not used when the vertex contains point size. This value is in screen space units if D3DRS\_POINTSCALEENABLE is **FALSE**; otherwise this value is in world space units. The default value is the value a driver returns. If a driver returns 0 or 1, the default value is 64, which allows software point size emulation. Because the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api) method accepts DWORD values, your application must cast a variable that contains the value, as shown in the following code example.
+A float value that specifies the size to use for point size computation in cases where point size is not specified for each vertex. This value is not used when the vertex contains point size. This value is in screen space units if D3DRS\_POINTSCALEENABLE is **FALSE**; otherwise this value is in world space units. The default value is the value a driver returns. If a driver returns 0 or 1, the default value is 64, which allows software point size emulation. Because the [**IDirect3DDevice9::SetRenderState**](https://msdn.microsoft.com/library/Bb174454(v=VS.85).aspx) method accepts DWORD values, your application must cast a variable that contains the value, as shown in the following code example.
 
 
 ```
@@ -584,7 +584,7 @@ m_pDevice9->SetRenderState(D3DRS_POINTSIZE, *((DWORD*)&amp;pointSize));
 <span id="D3DRS_POINTSIZE_MIN"></span><span id="d3drs_pointsize_min"></span>**D3DRS\_POINTSIZE\_MIN**
 </dt> <dd>
 
-A float value that specifies the minimum size of point primitives. Point primitives are clamped to this size during rendering. Setting this to values smaller than 1.0 results in points dropping out when the point does not cover a pixel center and antialiasing is disabled or being rendered with reduced intensity when antialiasing is enabled. The default value is 1.0f. The range for this value is greater than or equal to 0.0f. Because the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api) method accepts DWORD values, your application must cast a variable that contains the value, as shown in the following code example.
+A float value that specifies the minimum size of point primitives. Point primitives are clamped to this size during rendering. Setting this to values smaller than 1.0 results in points dropping out when the point does not cover a pixel center and antialiasing is disabled or being rendered with reduced intensity when antialiasing is enabled. The default value is 1.0f. The range for this value is greater than or equal to 0.0f. Because the [**IDirect3DDevice9::SetRenderState**](https://msdn.microsoft.com/library/Bb174454(v=VS.85).aspx) method accepts DWORD values, your application must cast a variable that contains the value, as shown in the following code example.
 
 
 ```
@@ -612,7 +612,7 @@ bool value that controls computation of size for point primitives. When **TRUE**
 <span id="D3DRS_POINTSCALE_A"></span><span id="d3drs_pointscale_a"></span>**D3DRS\_POINTSCALE\_A**
 </dt> <dd>
 
-A float value that controls for distance-based size attenuation for point primitives. Active only when D3DRS\_POINTSCALEENABLE is **TRUE**. The default value is 1.0f. The range for this value is greater than or equal to 0.0f. Because the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api) method accepts DWORD values, your application must cast a variable that contains the value, as shown in the following code example.
+A float value that controls for distance-based size attenuation for point primitives. Active only when D3DRS\_POINTSCALEENABLE is **TRUE**. The default value is 1.0f. The range for this value is greater than or equal to 0.0f. Because the [**IDirect3DDevice9::SetRenderState**](https://msdn.microsoft.com/library/Bb174454(v=VS.85).aspx) method accepts DWORD values, your application must cast a variable that contains the value, as shown in the following code example.
 
 
 ```
@@ -626,7 +626,7 @@ m_pDevice9->SetRenderState(D3DRS_POINTSCALE_A, *((DWORD*)&amp;pointScaleA));
 <span id="D3DRS_POINTSCALE_B"></span><span id="d3drs_pointscale_b"></span>**D3DRS\_POINTSCALE\_B**
 </dt> <dd>
 
-A float value that controls for distance-based size attenuation for point primitives. Active only when D3DRS\_POINTSCALEENABLE is **TRUE**. The default value is 0.0f. The range for this value is greater than or equal to 0.0f. Because the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api) method accepts DWORD values, your application must cast a variable that contains the value, as shown in the following code example.
+A float value that controls for distance-based size attenuation for point primitives. Active only when D3DRS\_POINTSCALEENABLE is **TRUE**. The default value is 0.0f. The range for this value is greater than or equal to 0.0f. Because the [**IDirect3DDevice9::SetRenderState**](https://msdn.microsoft.com/library/Bb174454(v=VS.85).aspx) method accepts DWORD values, your application must cast a variable that contains the value, as shown in the following code example.
 
 
 ```
@@ -640,7 +640,7 @@ m_pDevice9->SetRenderState(D3DRS_POINTSCALE_B, *((DWORD*)&amp;pointScaleB));
 <span id="D3DRS_POINTSCALE_C"></span><span id="d3drs_pointscale_c"></span>**D3DRS\_POINTSCALE\_C**
 </dt> <dd>
 
-A float value that controls for distance-based size attenuation for point primitives. Active only when D3DRS\_POINTSCALEENABLE is **TRUE**. The default value is 0.0f. The range for this value is greater than or equal to 0.0f. Because the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api) method accepts DWORD values, your application must cast a variable that contains the value, as shown in the following code example.
+A float value that controls for distance-based size attenuation for point primitives. Active only when D3DRS\_POINTSCALEENABLE is **TRUE**. The default value is 0.0f. The range for this value is greater than or equal to 0.0f. Because the [**IDirect3DDevice9::SetRenderState**](https://msdn.microsoft.com/library/Bb174454(v=VS.85).aspx) method accepts DWORD values, your application must cast a variable that contains the value, as shown in the following code example.
 
 
 ```
@@ -688,7 +688,7 @@ This state is only useful for debug builds. The debug monitor defaults to D3DDMT
 <span id="D3DRS_POINTSIZE_MAX"></span><span id="d3drs_pointsize_max"></span>**D3DRS\_POINTSIZE\_MAX**
 </dt> <dd>
 
-A float value that specifies the maximum size to which point sprites will be clamped. The value must be less than or equal to the MaxPointSize member of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) and greater than or equal to D3DRS\_POINTSIZE\_MIN. The default value is 64.0. Because the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api) method accepts DWORD values, your application must cast a variable that contains the value, as shown in the following code example.
+A float value that specifies the maximum size to which point sprites will be clamped. The value must be less than or equal to the MaxPointSize member of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) and greater than or equal to D3DRS\_POINTSIZE\_MIN. The default value is 64.0. Because the [**IDirect3DDevice9::SetRenderState**](https://msdn.microsoft.com/library/Bb174454(v=VS.85).aspx) method accepts DWORD values, your application must cast a variable that contains the value, as shown in the following code example.
 
 
 ```
@@ -718,7 +718,7 @@ Valid values for this render state can be any combination of the D3DCOLORWRITEEN
 <span id="D3DRS_TWEENFACTOR"></span><span id="d3drs_tweenfactor"></span>**D3DRS\_TWEENFACTOR**
 </dt> <dd>
 
-A float value that controls the tween factor. The default value is 0.0f. Because the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api) method accepts DWORD values, your application must cast a variable that contains the value, as shown in the following code example.
+A float value that controls the tween factor. The default value is 0.0f. Because the [**IDirect3DDevice9::SetRenderState**](https://msdn.microsoft.com/library/Bb174454(v=VS.85).aspx) method accepts DWORD values, your application must cast a variable that contains the value, as shown in the following code example.
 
 
 ```
@@ -1052,10 +1052,10 @@ D3DWRAPCOORD_0 | D3DWRAPCOORD_1);
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::GetRenderState**](/windows/desktop/api)
+[**IDirect3DDevice9::GetRenderState**](https://msdn.microsoft.com/library/Bb174403(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDirect3DDevice9::SetRenderState**](/windows/desktop/api)
+[**IDirect3DDevice9::SetRenderState**](https://msdn.microsoft.com/library/Bb174454(v=VS.85).aspx)
 </dt> </dl>
 
  

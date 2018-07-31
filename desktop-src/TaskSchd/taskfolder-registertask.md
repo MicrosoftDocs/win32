@@ -64,7 +64,7 @@ An XML-formatted description of the task.
 The following topics contain tasks defined using XML.
 
 -   [Time Trigger Example (XML)](time-trigger-example--xml-.md)
--   [Event Trigger Example (XML)](https://www.bing.com/search?q=Event+Trigger+Example+(XML))
+-   [Event Trigger Example (XML)](https://msdn.microsoft.com/library/Aa446889(v=VS.85).aspx)
 -   [Daily Trigger Example (XML)](daily-trigger-example--xml-.md)
 -   [Registration Trigger Example (XML)](registration-trigger-example--xml-.md)
 -   [Weekly Trigger Example (XML)](weekly-trigger-example--xml-.md)

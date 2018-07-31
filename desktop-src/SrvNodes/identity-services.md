@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 -   [Forefront Identity Manager 2010 R2 Developer Reference](https://msdn.microsoft.com/en-us/library/JJ131731(v=VS.100).aspx)
 -   [Forefront Identity Manager 2010 Developer Reference](https://msdn.microsoft.com/library/ee652263.aspx)
 -   [Identity Lifecycle Manager 2007](identity-lifecycle-manager-2007.md)
--   [Identity Lifecycle Manager 2007, Feature Pack 1 Developer Reference](https://www.bing.com/search?q=Identity+Lifecycle+Manager+2007,+Feature+Pack+1+Developer+Reference)
+-   [Identity Lifecycle Manager 2007, Feature Pack 1 Developer Reference](https://msdn.microsoft.com/library/ms698364(v=VS.85).aspx)
 
  
 

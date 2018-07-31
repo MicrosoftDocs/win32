@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DPRIMITIVETYPE
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3D9Types.h
 ---
 
@@ -115,16 +115,16 @@ Using [Triangle Strips](triangle-strips.md) or [Triangle Fans (Direct3D 9)](tria
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::DrawIndexedPrimitive**](/windows/desktop/api)
+[**IDirect3DDevice9::DrawIndexedPrimitive**](https://msdn.microsoft.com/library/Bb174369(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDirect3DDevice9::DrawIndexedPrimitiveUP**](/windows/desktop/api)
+[**IDirect3DDevice9::DrawIndexedPrimitiveUP**](https://msdn.microsoft.com/library/Bb174370(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDirect3DDevice9::DrawPrimitive**](/windows/desktop/api)
+[**IDirect3DDevice9::DrawPrimitive**](https://msdn.microsoft.com/library/Bb174371(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDirect3DDevice9::DrawPrimitiveUP**](/windows/desktop/api)
+[**IDirect3DDevice9::DrawPrimitiveUP**](https://msdn.microsoft.com/library/Bb174372(v=VS.85).aspx)
 </dt> </dl>
 
  

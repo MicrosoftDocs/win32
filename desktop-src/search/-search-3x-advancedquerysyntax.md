@@ -425,7 +425,7 @@ Users can limit the scope of their searches to specific folder locations or data
 ## Additional Resources
 
 -   In Windows 7 and later, a shortcut menu option can be available based on whether an AQS condition is met. For more information, see "Getting Dynamic Behavior for Static Verbs by Using Advanced Query Syntax" in [Creating Context Menu Handlers](http://msdn.microsoft.com/en-us/library/Cc144171(VS.85).aspx).
--   AQS queries can be limited to specific types of files, which are known as file kinds. For more information, see [File Types and Associations](http://msdn.microsoft.com/en-us/library/cc144104(VS.85).aspx). For property reference documentation, see [System.Kind](https://www.bing.com/search?q=System.Kind), and [System.KindText](https://msdn.microsoft.com/library/Bb787523(v=VS.85).aspx).
+-   AQS queries can be limited to specific types of files, which are known as file kinds. For more information, see [File Types and Associations](http://msdn.microsoft.com/en-us/library/cc144104(VS.85).aspx). For property reference documentation, see [System.Kind](https://msdn.microsoft.com/library/Bb787521(v=VS.85).aspx), and [System.KindText](https://msdn.microsoft.com/library/Bb787523(v=VS.85).aspx).
 
 ## Related topics
 

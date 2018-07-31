@@ -51,7 +51,7 @@ The following attributes modify a shape.
 | [Height](msdn-online-vml-height-attribute.md)                                                     | Specifies the height of the shape.                                                             |
 | [HR](msdn-online-vml-hr-attribute.md)                                                             | Specifies that a shape is a horizontal rule.                                                   |
 | [HRAlign](msdn-online-vml-hralign-attribute.md)                                                   | Defines the alignment of a horizontal rule.                                                    |
-| [HRef](https://www.bing.com/search?q=HRef)                                     | Defines a URL for a shape. When the shape is clicked, the browser will load the URL.           |
+| [HRef](https://msdn.microsoft.com/library/Bb263846(v=VS.85).aspx)                                     | Defines a URL for a shape. When the shape is clicked, the browser will load the URL.           |
 | [HRHeight](msdn-online-vml-hrheight-attribute.md)                                                 | Defines the thickness of a horizontal rule.                                                    |
 | [HRNoShade](msdn-online-vml-hrnoshade-attribute.md)                                               | Determines whether a horizontal rule will be displayed with 3-D shading.                       |
 | [HRPct](msdn-online-vml-hrpct-attribute.md)                                                       | Defines the length of a horizontal rule as a percentage of page width.                         |
@@ -123,7 +123,7 @@ The following is the minimum code needed to produce a shape. You must define the
 
 
 
-In addition, you must put the following code in your [**HTML**](https://www.bing.com/search?q=**HTML**) element of your web page to obtain the correct schemas for VML and Microsoft Office Extensions. If you are not using Office Extensions, you can omit the second schema.
+In addition, you must put the following code in your [**HTML**](https://msdn.microsoft.com/library/ms535255(v=VS.85).aspx) element of your web page to obtain the correct schemas for VML and Microsoft Office Extensions. If you are not using Office Extensions, you can omit the second schema.
 
 
 ```HTML

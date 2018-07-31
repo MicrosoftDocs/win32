@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - SslCreateHandshakeHash
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - Ncrypt.dll
 ---
 
@@ -58,7 +58,7 @@ A hash handle that can be passed to other SSL provider functions.
 *dwProtocol* \[in\]
 </dt> <dd>
 
-One of the [**CNG SSL Provider Protocol Identifier**](https://www.bing.com/search?q=**CNG+SSL+Provider+Protocol+Identifier**) values.
+One of the [**CNG SSL Provider Protocol Identifier**](https://msdn.microsoft.com/library/Hh971257(v=VS.85).aspx) values.
 
 > [!Note]  
 > This function is not used with the SSL 2.0 protocol.
@@ -70,7 +70,7 @@ One of the [**CNG SSL Provider Protocol Identifier**](https://www.bing.com/searc
 *dwCipherSuite* \[in\]
 </dt> <dd>
 
-One of the [**CNG SSL Provider Cipher Suite Identifier**](https://www.bing.com/search?q=**CNG+SSL+Provider+Cipher+Suite+Identifier**) values.
+One of the [**CNG SSL Provider Cipher Suite Identifier**](https://msdn.microsoft.com/library/Hh971253(v=VS.85).aspx) values.
 
 </dd> <dt>
 

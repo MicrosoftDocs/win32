@@ -11,23 +11,23 @@ ms.date: 05/31/2018
 
 # Texture Dirty Regions (Direct3D 9)
 
-Applications can optimize which subset of a texture is copied by specifying "dirty" regions on textures. Only those regions marked as dirty are copied by a call to [**IDirect3DDevice9::UpdateTexture**](/windows/desktop/api). However, the dirty regions may be expanded to optimize alignment. When a texture is created, the entire texture is considered dirty. Only the following operations affect the dirty state of a texture:
+Applications can optimize which subset of a texture is copied by specifying "dirty" regions on textures. Only those regions marked as dirty are copied by a call to [**IDirect3DDevice9::UpdateTexture**](https://msdn.microsoft.com/library/Bb205858(v=VS.85).aspx). However, the dirty regions may be expanded to optimize alignment. When a texture is created, the entire texture is considered dirty. Only the following operations affect the dirty state of a texture:
 
 -   Adding a dirty region to a texture.
 -   Locking some buffer in the texture. This operation adds the locked region as a dirty region. The application can turn off this automatic dirty region update if it has better knowledge of the actual dirty regions.
--   Using a surface level of the texture as a destination in [**IDirect3DDevice9::UpdateSurface**](/windows/desktop/api) marks the entire texture as dirty.
--   Using the texture as a source in [**IDirect3DDevice9::UpdateTexture**](/windows/desktop/api) clears all the dirty regions on the source texture.
--   Using [**IDirect3DSurface9::GetDC**](/windows/desktop/api) to return a device context.
--   Calling [**IDirect3DBaseTexture9::GenerateMipSubLevels**](/windows/desktop/api) marks the entire texture as dirty.
--   Calling [**IDirect3DBaseTexture9::SetAutoGenFilterType**](/windows/desktop/api) marks the entire texture as dirty.
+-   Using a surface level of the texture as a destination in [**IDirect3DDevice9::UpdateSurface**](https://msdn.microsoft.com/library/Bb205857(v=VS.85).aspx) marks the entire texture as dirty.
+-   Using the texture as a source in [**IDirect3DDevice9::UpdateTexture**](https://msdn.microsoft.com/library/Bb205858(v=VS.85).aspx) clears all the dirty regions on the source texture.
+-   Using [**IDirect3DSurface9::GetDC**](https://msdn.microsoft.com/library/Bb205894(v=VS.85).aspx) to return a device context.
+-   Calling [**IDirect3DBaseTexture9::GenerateMipSubLevels**](https://msdn.microsoft.com/library/Bb174323(v=VS.85).aspx) marks the entire texture as dirty.
+-   Calling [**IDirect3DBaseTexture9::SetAutoGenFilterType**](https://msdn.microsoft.com/library/Bb174327(v=VS.85).aspx) marks the entire texture as dirty.
 
-Dirty regions are set on the top level of a mipmapped texture, and [**IDirect3DDevice9::UpdateTexture**](/windows/desktop/api) can expand the dirty region down the mip chain in order to minimize the number of bytes copied for each sublevel. Note that the sublevel dirty region coordinates are rounded outward, that is, their fractional parts are rounded toward the nearest edge of the texture.
+Dirty regions are set on the top level of a mipmapped texture, and [**IDirect3DDevice9::UpdateTexture**](https://msdn.microsoft.com/library/Bb205858(v=VS.85).aspx) can expand the dirty region down the mip chain in order to minimize the number of bytes copied for each sublevel. Note that the sublevel dirty region coordinates are rounded outward, that is, their fractional parts are rounded toward the nearest edge of the texture.
 
 Because each type of texture has different types of dirty regions, there are methods on each texture type. 2D textures use dirty rectangle, and volume textures use boxes.
 
--   [**IDirect3DCubeTexture9::AddDirtyRect**](/windows/desktop/api)
--   [**IDirect3DTexture9::AddDirtyRect**](/windows/desktop/api)
--   [**IDirect3DVolumeTexture9::AddDirtyBox**](/windows/desktop/api)
+-   [**IDirect3DCubeTexture9::AddDirtyRect**](https://msdn.microsoft.com/library/Bb174330(v=VS.85).aspx)
+-   [**IDirect3DTexture9::AddDirtyRect**](https://msdn.microsoft.com/library/Bb205910(v=VS.85).aspx)
+-   [**IDirect3DVolumeTexture9::AddDirtyBox**](https://msdn.microsoft.com/library/Bb205942(v=VS.85).aspx)
 
 Passing **NULL** for the pDirtyRect or pDirtyBox parameters for the above methods expands the dirty region to cover the entire texture.
 

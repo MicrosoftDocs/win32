@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DMATRIX
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3D9Types.h
 ---
 
@@ -72,13 +72,13 @@ In Direct3D, the \_34 element of a projection matrix cannot be a negative number
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetTransform**](/windows/desktop/api)
+[**GetTransform**](https://msdn.microsoft.com/library/Bb174414(v=VS.85).aspx)
 </dt> <dt>
 
-[**MultiplyTransform**](/windows/desktop/api)
+[**MultiplyTransform**](https://msdn.microsoft.com/library/Bb174422(v=VS.85).aspx)
 </dt> <dt>
 
-[**SetTransform**](/windows/desktop/api)
+[**SetTransform**](https://msdn.microsoft.com/library/Bb174463(v=VS.85).aspx)
 </dt> <dt>
 
 **SetTransform**

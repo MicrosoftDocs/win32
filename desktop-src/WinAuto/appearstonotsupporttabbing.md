@@ -34,7 +34,7 @@ This issue causes usability problems for people who rely on a screen reader or t
 
 <dl> <dt>
 
-[Guidelines for Keyboard User Interface Design](https://www.bing.com/search?q=Guidelines+for+Keyboard+User+Interface+Design)
+[Guidelines for Keyboard User Interface Design](https://msdn.microsoft.com/library/ms971323(v=MSDN.10).aspx)
 </dt> </dl>
 
  

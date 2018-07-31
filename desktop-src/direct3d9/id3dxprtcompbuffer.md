@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXPRTCompBuffer
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
@@ -40,7 +40,7 @@ The **ID3DXPRTCompBuffer** interface has these methods.
 | [**ExtractBasis**](id3dxprtcompbuffer--extractbasis.md)           | Extracts the mean and principal component analysis (PCA) basis vectors for a given cluster from an **ID3DXPRTCompBuffer** compressed data buffer.<br/>                                                                       |
 | [**ExtractClusterIDs**](id3dxprtcompbuffer--extractclusterids.md) | Extracts the per-sample cluster IDs from an **ID3DXPRTCompBuffer** compressed data buffer.<br/>                                                                                                                              |
 | [**ExtractPCA**](id3dxprtcompbuffer--extractpca.md)               | Extracts the per-sample principal component analysis (PCA) projection coefficients from an **ID3DXPRTCompBuffer** compressed data buffer.<br/>                                                                               |
-| [**ExtractTexture**](id3dxprtcompbuffer--extracttexture.md)       | Extracts the per-sample principal component analysis (PCA) projection coefficients from an **ID3DXPRTCompBuffer** compressed data buffer and adds the data to an [**IDirect3DTexture9**](/windows/desktop/api) object.<br/> |
+| [**ExtractTexture**](id3dxprtcompbuffer--extracttexture.md)       | Extracts the per-sample principal component analysis (PCA) projection coefficients from an **ID3DXPRTCompBuffer** compressed data buffer and adds the data to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx) object.<br/> |
 | [**ExtractToMesh**](id3dxprtcompbuffer--extracttomesh.md)         | Extracts the per-sample principal component analysis (PCA) projection coefficients from an **ID3DXPRTCompBuffer** compressed data buffer and adds the data to an [**ID3DXMesh**](id3dxmesh.md) object.<br/>                 |
 | [**GetHeight**](id3dxprtcompbuffer--getheight.md)                 | Retrieves the height of the texture, in pixels.<br/>                                                                                                                                                                         |
 | [**GetNumChannels**](id3dxprtcompbuffer--getnumchannels.md)       | Retrieves the number of color channels used in memory to store samples.<br/>                                                                                                                                                 |

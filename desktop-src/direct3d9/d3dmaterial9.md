@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DMATERIAL9
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3D9Types.h
 ---
 
@@ -119,10 +119,10 @@ For more information about using the lighting engine to calculate specular light
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::GetMaterial**](/windows/desktop/api)
+[**IDirect3DDevice9::GetMaterial**](https://msdn.microsoft.com/library/Bb174394(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDirect3DDevice9::SetMaterial**](/windows/desktop/api)
+[**IDirect3DDevice9::SetMaterial**](https://msdn.microsoft.com/library/Bb174437(v=VS.85).aspx)
 </dt> </dl>
 
  

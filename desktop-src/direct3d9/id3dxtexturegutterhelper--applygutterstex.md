@@ -7,21 +7,21 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXTextureGutterHelper.ApplyGuttersTex
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # ID3DXTextureGutterHelper::ApplyGuttersTex method
 
-Applies gutters to an [**IDirect3DTexture9**](/windows/desktop/api) texture object.
+Applies gutters to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx) texture object.
 
 ## Syntax
 
@@ -41,9 +41,9 @@ HRESULT ApplyGuttersTex(
 *pTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](/windows/desktop/api)**
+Type: **[**LPDIRECT3DTEXTURE9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx)**
 
-Pointer to a [**IDirect3DTexture9**](/windows/desktop/api) texture object.
+Pointer to a [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx) texture object.
 
 </dd> </dl>
 

@@ -16,17 +16,17 @@ A state block can be used to capture only vertex state (see [State Blocks Save a
 -   Vertex render state (see [Vertex Pipeline: Render State](#vertex-pipeline-render-state)).
 -   Vertex sampler state (see [Vertex Pipeline: Sampler State](#vertex-pipeline-sampler-state)).
 -   Vertex texture state (see [Vertex Pipeline: Texture State](#vertex-pipeline-texture-state)).
--   The NPatch mode segments from [**IDirect3DDevice9::SetNPatchMode**](/windows/desktop/api).
--   Each light from [**IDirect3DDevice9::SetLight**](/windows/desktop/api), as well as whether or not the light is enabled with [**IDirect3DDevice9::LightEnable**](/windows/desktop/api).
+-   The NPatch mode segments from [**IDirect3DDevice9::SetNPatchMode**](https://msdn.microsoft.com/library/Bb174438(v=VS.85).aspx).
+-   Each light from [**IDirect3DDevice9::SetLight**](/windows/desktop/api), as well as whether or not the light is enabled with [**IDirect3DDevice9::LightEnable**](https://msdn.microsoft.com/library/Bb174421(v=VS.85).aspx).
 -   The current vertex shader and each of the vertex shader constants.
--   For each vertex stream, store the divider value from [**IDirect3DDevice9::SetStreamSourceFreq**](/windows/desktop/api).
+-   For each vertex stream, store the divider value from [**IDirect3DDevice9::SetStreamSourceFreq**](https://msdn.microsoft.com/library/Bb174460(v=VS.85).aspx).
 -   The current vertex declaration.
 
-To capture vertex state with a state block, specify D3DSBT\_VERTEXSTATE when calling [**IDirect3DDevice9::CreateStateBlock**](/windows/desktop/api).
+To capture vertex state with a state block, specify D3DSBT\_VERTEXSTATE when calling [**IDirect3DDevice9::CreateStateBlock**](https://msdn.microsoft.com/library/Bb174362(v=VS.85).aspx).
 
 ## Vertex Pipeline: Render State
 
-Device render states affect the behavior of almost every part of the pipeline. Render states are set by calling [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api).
+Device render states affect the behavior of almost every part of the pipeline. Render states are set by calling [**IDirect3DDevice9::SetRenderState**](https://msdn.microsoft.com/library/Bb174454(v=VS.85).aspx).
 
 The following table includes all render states that set-up vertex state:
 
@@ -82,7 +82,7 @@ The following table includes all render states that set-up vertex state:
 
 ## Vertex Pipeline: Sampler State
 
-Sampler states control sampling related topics such as filtering, tiling, and texture coordinate address modes. Use [**IDirect3DDevice9::SetSamplerState**](/windows/desktop/api) to set up the sampler state (including the one used in the tessellator unit to sample displacement maps). The sampler states have been renamed with a "D3DSAMP\_" prefix to enable compile time error detection when porting from DirectX 8.
+Sampler states control sampling related topics such as filtering, tiling, and texture coordinate address modes. Use [**IDirect3DDevice9::SetSamplerState**](https://msdn.microsoft.com/library/Bb174456(v=VS.85).aspx) to set up the sampler state (including the one used in the tessellator unit to sample displacement maps). The sampler states have been renamed with a "D3DSAMP\_" prefix to enable compile time error detection when porting from DirectX 8.
 
 The following table includes all sampler states that set-up vertex state:
 
@@ -98,7 +98,7 @@ The following table includes all sampler states that set-up vertex state:
 
 ## Vertex Pipeline: Texture State
 
-Texture states control texture blending operations of the multi-texture blender. Use [**IDirect3DDevice9::SetTextureStageState**](/windows/desktop/api) to set-up texture states. Use [**IDirect3DDevice9::SetTexture**](/windows/desktop/api) to associate a texture with a sampler stage.
+Texture states control texture blending operations of the multi-texture blender. Use [**IDirect3DDevice9::SetTextureStageState**](/windows/desktop/api) to set-up texture states. Use [**IDirect3DDevice9::SetTexture**](https://msdn.microsoft.com/library/Bb174461(v=VS.85).aspx) to associate a texture with a sampler stage.
 
 The following table includes all the texture states that set-up vertex state:
 

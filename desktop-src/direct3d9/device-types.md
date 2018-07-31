@@ -17,11 +17,11 @@ The primary device type is the hal device, which supports hardware accelerated r
 
 Applications do not access graphics adapters directly. They call Direct3D functions and methods. Direct3D accesses the hardware through the hal. If the computer that your application is running on supports the hal, it will gain the best performance by using a hal device.
 
-To create a hal device, call [**CreateDevice**](/windows/desktop/api) using D3DDEVTYPE\_HAL as the device type.
+To create a hal device, call [**CreateDevice**](https://msdn.microsoft.com/library/Bb174313(v=VS.85).aspx) using D3DDEVTYPE\_HAL as the device type.
 
 ## Reference Device
 
-Direct3D supports an additional device type called a reference device or reference rasterizer. Unlike a software device, the reference rasterizer supports every Direct3D feature. This device is intended to be used for debugging purposes and is therefore only available on machines where the DirectX SDK has been installed. Because these features are implemented for accuracy rather than speed and are implemented in software, the results are not very fast. The reference rasterizer does make use of special CPU instructions whenever it can, but it is not intended for retail applications. Use the reference rasterizer only for feature testing or demonstration purposes. To create a reference device, call [**CreateDevice**](/windows/desktop/api) method using D3DDEVTYPE\_REF as the device type.
+Direct3D supports an additional device type called a reference device or reference rasterizer. Unlike a software device, the reference rasterizer supports every Direct3D feature. This device is intended to be used for debugging purposes and is therefore only available on machines where the DirectX SDK has been installed. Because these features are implemented for accuracy rather than speed and are implemented in software, the results are not very fast. The reference rasterizer does make use of special CPU instructions whenever it can, but it is not intended for retail applications. Use the reference rasterizer only for feature testing or demonstration purposes. To create a reference device, call [**CreateDevice**](https://msdn.microsoft.com/library/Bb174313(v=VS.85).aspx) method using D3DDEVTYPE\_REF as the device type.
 
 ## HAL vs. REF Devices
 

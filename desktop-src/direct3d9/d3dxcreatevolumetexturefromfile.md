@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXCreateVolumeTextureFromFile
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
@@ -43,9 +43,9 @@ HRESULT D3DXCreateVolumeTextureFromFile(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api)**
+Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
 
-Pointer to an [**IDirect3DDevice9**](/windows/desktop/api) interface, representing the device to be associated with the volume texture.
+Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, representing the device to be associated with the volume texture.
 
 </dd> <dt>
 
@@ -61,9 +61,9 @@ Pointer to a string that specifies the file name. If the compiler settings requi
 *ppVolumeTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVOLUMETEXTURE9**](/windows/desktop/api)\***
+Type: **[**LPDIRECT3DVOLUMETEXTURE9**](https://msdn.microsoft.com/library/Bb205941(v=VS.85).aspx)\***
 
-Address of a pointer to an [**IDirect3DVolumeTexture9**](/windows/desktop/api) interface representing the created texture object.
+Address of a pointer to an [**IDirect3DVolumeTexture9**](https://msdn.microsoft.com/library/Bb205941(v=VS.85).aspx) interface representing the created texture object.
 
 </dd> </dl>
 

@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DRASTER_STATUS
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3D9Types.h
 ---
 
@@ -79,7 +79,7 @@ If InVBlank is **TRUE**, then this value is set to zero and can be ignored.
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetRasterStatus**](/windows/desktop/api)
+[**GetRasterStatus**](https://msdn.microsoft.com/library/Bb174402(v=VS.85).aspx)
 </dt> </dl>
 
  

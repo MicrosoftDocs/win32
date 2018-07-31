@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXSaveTextureToFile
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
@@ -62,9 +62,9 @@ Type: **[**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/en-us/library/Bb1
 *pSrcTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DBASETEXTURE9**](/windows/desktop/api)**
+Type: **[**LPDIRECT3DBASETEXTURE9**](https://msdn.microsoft.com/library/Bb174322(v=VS.85).aspx)**
 
-Pointer to [**IDirect3DBaseTexture9**](/windows/desktop/api) interface, containing the texture to be saved.
+Pointer to [**IDirect3DBaseTexture9**](https://msdn.microsoft.com/library/Bb174322(v=VS.85).aspx) interface, containing the texture to be saved.
 
 </dd> <dt>
 

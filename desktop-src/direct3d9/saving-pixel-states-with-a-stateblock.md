@@ -18,11 +18,11 @@ A state block can be used to capture only pixel state (see [State Blocks Save an
 -   Pixel sampler state (see [Pixel Pipeline: Sampler State](#pixel-pipeline-sampler-state)).
 -   The current pixel shader and each of the pixel shader constants.
 
-To capture pixel state with a state block, specify D3DSBT\_PIXELSTATE when calling [**IDirect3DDevice9::CreateStateBlock**](/windows/desktop/api).
+To capture pixel state with a state block, specify D3DSBT\_PIXELSTATE when calling [**IDirect3DDevice9::CreateStateBlock**](https://msdn.microsoft.com/library/Bb174362(v=VS.85).aspx).
 
 ## Pixel Pipeline: Render State
 
-Device render states affect the behavior of almost every part of the pipeline. Render states are set by calling [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api).
+Device render states affect the behavior of almost every part of the pipeline. Render states are set by calling [**IDirect3DDevice9::SetRenderState**](https://msdn.microsoft.com/library/Bb174454(v=VS.85).aspx).
 
 The following table includes all render states that set-up pixel state:
 
@@ -104,7 +104,7 @@ The following table includes all render states that set-up pixel state:
 
 ## Pixel Pipeline: Sampler State
 
-Sampler states control sampling related topics such as filtering, tiling, and texture coordinate address modes. Use [**IDirect3DDevice9::SetSamplerState**](/windows/desktop/api) to set up the sampler state (including the one used in the tessellator unit to sample displacement maps). The sampler states have been renamed with a "D3DSAMP\_" prefix to enable compile time error detection when porting from DirectX 8.
+Sampler states control sampling related topics such as filtering, tiling, and texture coordinate address modes. Use [**IDirect3DDevice9::SetSamplerState**](https://msdn.microsoft.com/library/Bb174456(v=VS.85).aspx) to set up the sampler state (including the one used in the tessellator unit to sample displacement maps). The sampler states have been renamed with a "D3DSAMP\_" prefix to enable compile time error detection when porting from DirectX 8.
 
 The following table includes all sampler states that set-up pixel state:
 
@@ -131,7 +131,7 @@ The following table includes all sampler states that set-up pixel state:
 
 ## Pixel Pipeline: Texture State
 
-Texture states control texture blending operations of the multi-texture blender. Use [**IDirect3DDevice9::SetTextureStageState**](/windows/desktop/api) to set-up texture stage states. Use [**IDirect3DDevice9::SetTexture**](/windows/desktop/api) to associate a texture with a sampler stage.
+Texture states control texture blending operations of the multi-texture blender. Use [**IDirect3DDevice9::SetTextureStageState**](/windows/desktop/api) to set-up texture stage states. Use [**IDirect3DDevice9::SetTexture**](https://msdn.microsoft.com/library/Bb174461(v=VS.85).aspx) to associate a texture with a sampler stage.
 
 The following table includes all the texture states that set-up pixel state:
 

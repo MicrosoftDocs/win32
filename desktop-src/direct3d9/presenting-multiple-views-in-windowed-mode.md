@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Presenting Multiple Views in Windowed Mode (Direct3D 9)
 
-In addition to the swap chain that is owned and manipulated through the [**IDirect3DDevice9**](/windows/desktop/api) interface, an application can create additional swap chains in order to present multiple views from the same device. The application typically creates one swap chain per view by using the [**IDirect3DDevice9::CreateAdditionalSwapChain**](/windows/desktop/api) method, and associates each swap chain with a particular window. The application renders images into the back buffers of each swap chain, and then presents them individually.
+In addition to the swap chain that is owned and manipulated through the [**IDirect3DDevice9**](/windows/desktop/api) interface, an application can create additional swap chains in order to present multiple views from the same device. The application typically creates one swap chain per view by using the [**IDirect3DDevice9::CreateAdditionalSwapChain**](https://msdn.microsoft.com/library/Bb174354(v=VS.85).aspx) method, and associates each swap chain with a particular window. The application renders images into the back buffers of each swap chain, and then presents them individually.
 
 Only one swap chain at a time can be full-screen on each adapter.
 

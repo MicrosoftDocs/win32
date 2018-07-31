@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DTEXTURESTAGESTATETYPE
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3D9Types.h
 ---
 
@@ -198,7 +198,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## Remarks
 
-Members of this enumerated type are used with the [**IDirect3DDevice9::GetTextureStageState**](/windows/desktop/api) and [**IDirect3DDevice9::SetTextureStageState**](/windows/desktop/api) methods to retrieve and set texture state values.
+Members of this enumerated type are used with the [**IDirect3DDevice9::GetTextureStageState**](https://msdn.microsoft.com/library/Bb174413(v=VS.85).aspx) and [**IDirect3DDevice9::SetTextureStageState**](https://msdn.microsoft.com/library/Bb174462(v=VS.85).aspx) methods to retrieve and set texture state values.
 
 The valid range of values for the D3DTSS\_BUMPENVMAT00, D3DTSS\_BUMPENVMAT01, D3DTSS\_BUMPENVMAT10, and D3DTSS\_BUMPENVMAT11 bump-mapping matrix coefficients is greater than or equal to -8.0 and less than 8.0. This range, expressed in mathematical notation is (-8.0,8.0).
 
@@ -219,10 +219,10 @@ The valid range of values for the D3DTSS\_BUMPENVMAT00, D3DTSS\_BUMPENVMAT01, D3
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::GetTextureStageState**](/windows/desktop/api)
+[**IDirect3DDevice9::GetTextureStageState**](https://msdn.microsoft.com/library/Bb174413(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDirect3DDevice9::SetTextureStageState**](/windows/desktop/api)
+[**IDirect3DDevice9::SetTextureStageState**](https://msdn.microsoft.com/library/Bb174462(v=VS.85).aspx)
 </dt> </dl>
 
  

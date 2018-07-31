@@ -21,7 +21,7 @@ This Windows Search reference section consists of the following data add-in inte
 
 [**IColumnMapperCreator**](/windows/desktop/api/indexsrv/nn-indexsrv-icolumnmappercreator)
 
-[**IFilter**](https://www.bing.com/search?q=**IFilter**)
+[**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx)
 
 [**ILoadFilter**](/windows/desktop/api/filtereg/nn-filtereg-iloadfilter)
 

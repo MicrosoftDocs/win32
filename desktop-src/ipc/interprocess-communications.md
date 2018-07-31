@@ -40,7 +40,7 @@ The following IPC mechanisms are supported by Windows:
 
 The clipboard acts as a central depository for data sharing among applications. When a user performs a cut or copy operation in an application, the application puts the selected data on the clipboard in one or more standard or application-defined formats. Any other application can then retrieve the data from the clipboard, choosing from the available formats that it understands. The clipboard is a very loosely coupled exchange medium, where applications need only agree on the data format. The applications can reside on the same computer or on different computers on a network.
 
-**Key Point:** All applications should support the clipboard for those data formats that they understand. For example, a text editor or word processor should at least be able to produce and accept clipboard data in pure text format. For more information, see [Clipboard](https://www.bing.com/search?q=Clipboard).
+**Key Point:** All applications should support the clipboard for those data formats that they understand. For example, a text editor or word processor should at least be able to produce and accept clipboard data in pure text format. For more information, see [Clipboard](https://msdn.microsoft.com/library/ms648709(v=VS.85).aspx).
 
 ## Using COM for IPC
 
@@ -54,7 +54,7 @@ The foundation of OLE is the Component Object Model (COM). A software component 
 
 Data copy enables an application to send information to another application using the [**WM\_COPYDATA**](https://msdn.microsoft.com/library/ms649011(v=VS.85).aspx) message. This method requires cooperation between the sending application and the receiving application. The receiving application must know the format of the information and be able to identify the sender. The sending application cannot modify the memory referenced by any pointers.
 
-**Key Point:** Data copy can be used to quickly send information to another application using Windows messaging. For more information, see [Data Copy](https://www.bing.com/search?q=Data+Copy).
+**Key Point:** Data copy can be used to quickly send information to another application using Windows messaging. For more information, see [Data Copy](https://msdn.microsoft.com/library/ms648710(v=VS.85).aspx).
 
 ## Using DDE for IPC
 

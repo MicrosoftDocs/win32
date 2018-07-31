@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DDISPLAYMODE
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3D9Types.h
 ---
 
@@ -101,13 +101,13 @@ Member of the [D3DFORMAT](d3dformat.md) enumerated type, describing the surface 
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**EnumAdapterModes**](/windows/desktop/api)
+[**EnumAdapterModes**](https://msdn.microsoft.com/library/Bb174314(v=VS.85).aspx)
 </dt> <dt>
 
-[**GetAdapterDisplayMode**](/windows/desktop/api)
+[**GetAdapterDisplayMode**](https://msdn.microsoft.com/library/Bb174316(v=VS.85).aspx)
 </dt> <dt>
 
-[**GetDisplayMode**](/windows/desktop/api)
+[**GetDisplayMode**](https://msdn.microsoft.com/library/Bb174387(v=VS.85).aspx)
 </dt> </dl>
 
  

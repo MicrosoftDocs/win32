@@ -286,7 +286,7 @@ All APIs are supported on previous versions of Windows that are eligible for the
 
 The XPS Document APIs support the creating, modifying, and saving of XPS Documents in unmanaged applications
 
-For more information about XPS Document APIs, please see the [XPS Document Programming Guide.](https://www.bing.com/search?q=XPS+Document+Programming+Guide.)
+For more information about XPS Document APIs, please see the [XPS Document Programming Guide.](https://msdn.microsoft.com/library/Dd372978(v=VS.85).aspx)
 
 ### Supported XPS Document API Elements
 

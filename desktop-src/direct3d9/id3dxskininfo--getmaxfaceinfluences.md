@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXSkinInfo.GetMaxFaceInfluences
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
@@ -43,7 +43,7 @@ HRESULT GetMaxFaceInfluences(
 *pIB* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DINDEXBUFFER9**](/windows/desktop/api)**
+Type: **[**LPDIRECT3DINDEXBUFFER9**](https://msdn.microsoft.com/library/Bb205865(v=VS.85).aspx)**
 
 Pointer to the index buffer that contains the mesh index data.
 

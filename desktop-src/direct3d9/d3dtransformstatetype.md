@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DTRANSFORMSTATETYPE
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3D9Types.h
 ---
 
@@ -156,13 +156,13 @@ The transform states in the range 256 through 511 are reserved to store up to 25
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::GetTransform**](/windows/desktop/api)
+[**IDirect3DDevice9::GetTransform**](https://msdn.microsoft.com/library/Bb174414(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDirect3DDevice9::MultiplyTransform**](/windows/desktop/api)
+[**IDirect3DDevice9::MultiplyTransform**](https://msdn.microsoft.com/library/Bb174422(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDirect3DDevice9::SetTransform**](/windows/desktop/api)
+[**IDirect3DDevice9::SetTransform**](https://msdn.microsoft.com/library/Bb174463(v=VS.85).aspx)
 </dt> <dt>
 
 [**D3DTS\_WORLD**](d3dts-world.md)

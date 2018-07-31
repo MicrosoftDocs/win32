@@ -13,10 +13,10 @@ ms.date: 05/31/2018
 
 Multihead cards are those that have a common frame buffer and accelerator, independent digital-to-analog converters (DACs), and monitor outputs. Such devices can offer much more usable multiple monitor support than a similar number of heterogeneous display adapters.
 
-Multihead cards are exposed in the API as a single API-level device that can drive several full-screen swap chains. Consequently, all resources are shared with all the heads, and each head has exactly the same capabilities. Each head can be set to independent display modes. You can use separate calls to [**IDirect3DSwapChain9::Present**](/windows/desktop/api) to refresh each head. You can also use one call to [**IDirect3DDevice9::Present**](/windows/desktop/api) to refresh each head sequentially.
+Multihead cards are exposed in the API as a single API-level device that can drive several full-screen swap chains. Consequently, all resources are shared with all the heads, and each head has exactly the same capabilities. Each head can be set to independent display modes. You can use separate calls to [**IDirect3DSwapChain9::Present**](/windows/desktop/api) to refresh each head. You can also use one call to [**IDirect3DDevice9::Present**](https://msdn.microsoft.com/library/Bb174423(v=VS.85).aspx) to refresh each head sequentially.
 
 > [!Note]  
-> The refresh of each head does not occur simultaneously with a single call to [**IDirect3DDevice9::Present**](/windows/desktop/api). Present statistics in Direct3D 9Ex can use the [**D3DPRESENTSTATS**](d3dpresentstats.md) structure to keep the refreshes to each head close to each other to limit tearing effects across multiple heads of adapters. For information about synchronizing frames of Direct3D 9Ex flip model applications, see [Direct3D 9Ex Improvements](https://msdn.microsoft.com/en-us/library/Ee890072(v=VS.85).aspx).
+> The refresh of each head does not occur simultaneously with a single call to [**IDirect3DDevice9::Present**](https://msdn.microsoft.com/library/Bb174423(v=VS.85).aspx). Present statistics in Direct3D 9Ex can use the [**D3DPRESENTSTATS**](d3dpresentstats.md) structure to keep the refreshes to each head close to each other to limit tearing effects across multiple heads of adapters. For information about synchronizing frames of Direct3D 9Ex flip model applications, see [Direct3D 9Ex Improvements](https://msdn.microsoft.com/en-us/library/Ee890072(v=VS.85).aspx).
 
  
 
@@ -57,11 +57,11 @@ In addition, if EnableAutoDepthStencil is **TRUE**, then each of the following f
 -   BackBufferHeight
 -   BackBufferFormat
 
-If DAC is set, additional calls to [**IDirect3DDevice9::CreateAdditionalSwapChain**](/windows/desktop/api) are illegal.
+If DAC is set, additional calls to [**IDirect3DDevice9::CreateAdditionalSwapChain**](https://msdn.microsoft.com/library/Bb174354(v=VS.85).aspx) are illegal.
 
-If the device was created with the DAC, [**IDirect3DDevice9::Reset**](/windows/desktop/api) will expect an array of [**D3DPRESENT\_PARAMETERS**](d3dpresent-parameters.md).
+If the device was created with the DAC, [**IDirect3DDevice9::Reset**](https://msdn.microsoft.com/library/Bb174425(v=VS.85).aspx) will expect an array of [**D3DPRESENT\_PARAMETERS**](d3dpresent-parameters.md).
 
-Each [**D3DPRESENT\_PARAMETERS**](d3dpresent-parameters.md) structure passed to [**IDirect3DDevice9::Reset**](/windows/desktop/api) must be full screen. To switch back to windowed mode, the application must destroy the device and re-create a non-multihead device in windowed mode.
+Each [**D3DPRESENT\_PARAMETERS**](d3dpresent-parameters.md) structure passed to [**IDirect3DDevice9::Reset**](https://msdn.microsoft.com/library/Bb174425(v=VS.85).aspx) must be full screen. To switch back to windowed mode, the application must destroy the device and re-create a non-multihead device in windowed mode.
 
 Here is a basic usage scenario:
 
@@ -80,7 +80,7 @@ all swap chains are drawn and present outside of loop)
 
 
 
-For more information, see [**IDirect3D9::CreateDevice**](/windows/desktop/api) and [**IDirect3DDevice9::GetNumberOfSwapChains**](/windows/desktop/api).
+For more information, see [**IDirect3D9::CreateDevice**](/windows/desktop/api) and [**IDirect3DDevice9::GetNumberOfSwapChains**](https://msdn.microsoft.com/library/Bb174396(v=VS.85).aspx).
 
 ## Related topics
 

@@ -815,7 +815,7 @@ Due to these characteristics, properties marked as *IsInnate* are provided to th
 
 ## Registering and Distributing Property Handlers
 
-With the property handler implemented, it must be registered and its file name extension associated with the handler. For more information, see [Registering and Distributing Property Handlers](https://www.bing.com/search?q=Registering+and+Distributing+Property+Handlers).
+With the property handler implemented, it must be registered and its file name extension associated with the handler. For more information, see [Registering and Distributing Property Handlers](https://msdn.microsoft.com/library/Dd894084(v=VS.85).aspx).
 
 ## Related topics
 
@@ -830,7 +830,7 @@ With the property handler implemented, it must be registered and its file name e
 [Using Property Lists](https://msdn.microsoft.com/library/Cc144133(v=VS.85).aspx)
 </dt> <dt>
 
-[Registering and Distributing Property Handlers](https://www.bing.com/search?q=Registering+and+Distributing+Property+Handlers)
+[Registering and Distributing Property Handlers](https://msdn.microsoft.com/library/Dd894084(v=VS.85).aspx)
 </dt> <dt>
 
 [Property Handler Best Practices and FAQ](https://msdn.microsoft.com/library/Dd894083(v=VS.85).aspx)

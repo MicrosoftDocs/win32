@@ -21,7 +21,7 @@ Texture argument constants are used as values for the following members of the [
 -   D3DTSS\_COLORARG2
 -   D3DTSS\_RESULTARG
 
-Set and retrieve texture arguments by calling the [**SetTextureStageState**](/windows/desktop/api) and [**GetTextureStageState**](/windows/desktop/api) methods.
+Set and retrieve texture arguments by calling the [**SetTextureStageState**](/windows/desktop/api) and [**GetTextureStageState**](https://msdn.microsoft.com/library/Bb174413(v=VS.85).aspx) methods.
 
 Argument flags
 

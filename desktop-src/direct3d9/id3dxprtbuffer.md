@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXPRTBuffer
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
@@ -40,7 +40,7 @@ The **ID3DXPRTBuffer** interface has these methods.
 | [**AddBuffer**](id3dxprtbuffer--addbuffer.md)           | Adds another buffer to the **ID3DXPRTBuffer** and stores the results in **ID3DXPRTBuffer**.<br/>                                                                                        |
 | [**AttachGH**](id3dxprtbuffer--attachgh.md)             | Associates an [**ID3DXTextureGutterHelper**](id3dxtexturegutterhelper.md) object with the **ID3DXPRTBuffer** object.<br/>                                                              |
 | [**EvalGH**](id3dxprtbuffer--evalgh.md)                 | Applies stored texture gutter data to an **ID3DXPRTBuffer** texture buffer.<br/>                                                                                                        |
-| [**ExtractTexture**](id3dxprtbuffer--extracttexture.md) | Extracts coefficient data from a color channel of the buffer for a specified range of coefficients, and adds the data to an [**IDirect3DTexture9**](/windows/desktop/api) object.<br/> |
+| [**ExtractTexture**](id3dxprtbuffer--extracttexture.md) | Extracts coefficient data from a color channel of the buffer for a specified range of coefficients, and adds the data to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx) object.<br/> |
 | [**ExtractToMesh**](id3dxprtbuffer--extracttomesh.md)   | Extracts coefficient data from a single-channel buffer and adds the data to an [**ID3DXMesh**](id3dxmesh.md) object.<br/>                                                              |
 | [**GetHeight**](id3dxprtbuffer--getheight.md)           | Retrieves the height of the texture, in pixels.<br/>                                                                                                                                    |
 | [**GetNumChannels**](id3dxprtbuffer--getnumchannels.md) | Retrieves the number of color channels used in memory to store samples.<br/>                                                                                                            |

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # D3DPRESENT
 
-Describes the relationship between the adapter refresh rate and the rate at which [**Present**](/windows/desktop/api) or [**Present**](/windows/desktop/api) operations are completed. These values also serve as flag values for the PresentationIntervals field of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9).
+Describes the relationship between the adapter refresh rate and the rate at which [**Present**](https://msdn.microsoft.com/library/Bb205908(v=VS.85).aspx) or [**Present**](https://msdn.microsoft.com/library/Bb205908(v=VS.85).aspx) operations are completed. These values also serve as flag values for the PresentationIntervals field of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9).
 
 
 

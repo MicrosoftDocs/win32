@@ -29,7 +29,7 @@ This issue causes problems for people who rely on a screen-reader and keyboard f
 
 <dl> <dt>
 
-[Guidelines for Keyboard User Interface Design](https://www.bing.com/search?q=Guidelines+for+Keyboard+User+Interface+Design)
+[Guidelines for Keyboard User Interface Design](https://msdn.microsoft.com/library/ms971323(v=MSDN.10).aspx)
 </dt> <dt>
 
 [Windows User Experience Interaction Guidelines - Keyboard](http://go.microsoft.com/fwlink/p/?linkid=255237)

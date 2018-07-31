@@ -65,7 +65,7 @@ For more information on which operating systems are required for a particular fu
 [Windows Multimedia](https://msdn.microsoft.com/library/windows/desktop/dd743883)
 </dt> <dt>
 
-[Windows API](https://www.bing.com/search?q=Windows+API)
+[Windows API](https://msdn.microsoft.com/library/Cc433218(v=VS.85).aspx)
 </dt> </dl>
 
  

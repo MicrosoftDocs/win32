@@ -100,7 +100,7 @@ There are other approaches to work around this issue. However, we recommend you 
 
 ## Ensuring Atomicity of Stateful Operations
 
-While thread-safety features of [DirectX](https://www.bing.com/search?q=DirectX) can help ensure that no two individual API calls are made concurrently, you must also ensure that threads that make stateful API calls don't interfere with each other. Here is an example.
+While thread-safety features of [DirectX](https://msdn.microsoft.com/library/Ee663301(v=VS.85).aspx) can help ensure that no two individual API calls are made concurrently, you must also ensure that threads that make stateful API calls don't interfere with each other. Here is an example.
 
 1.  There are two lines of text that you want to render to both on-screen (by Thread 0) and off-screen (by Thread 1): Line \#1 is "A is greater" and Line \#2 is "than B", both of which will be drawn using a solid black brush.
 2.  Thread 1 draws the first line of text.

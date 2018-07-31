@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DVIEWPORT9
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3D9Types.h
 ---
 
@@ -112,7 +112,7 @@ Together with MinZ, value describing the range of depth values into which a scen
 
 The X, Y, Width, and Height members describe the position and dimensions of the viewport on the render-target surface. Usually, applications render to the entire target surface; when rendering on a 640 x 480 surface, these members should be 0, 0, 640, and 480, respectively. The MinZ and MaxZ are typically set to 0.0 and 1.0 but can be set to other values to achieve specific effects. For example, you might set them both to 0.0 to force the system to render objects to the foreground of a scene, or both to 1.0 to force the objects into the background.
 
-When the viewport parameters for a device change (because of a call to the [**SetViewport**](/windows/desktop/api) method), the driver builds a new transformation matrix.
+When the viewport parameters for a device change (because of a call to the [**SetViewport**](https://msdn.microsoft.com/library/Bb174469(v=VS.85).aspx) method), the driver builds a new transformation matrix.
 
 ## Requirements
 
@@ -131,10 +131,10 @@ When the viewport parameters for a device change (because of a call to the [**Se
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetViewport**](/windows/desktop/api)
+[**GetViewport**](https://msdn.microsoft.com/library/Bb174420(v=VS.85).aspx)
 </dt> <dt>
 
-[**SetViewport**](/windows/desktop/api)
+[**SetViewport**](https://msdn.microsoft.com/library/Bb174469(v=VS.85).aspx)
 </dt> </dl>
 
  

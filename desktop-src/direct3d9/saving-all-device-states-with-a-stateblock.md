@@ -19,7 +19,7 @@ A state block can be used to capture all device states (see [State Blocks Save a
 -   Each vertex texture.
 -   Each displacement map texture.
 -   The current texture palette.
--   For each vertex stream: a pointer to the vertex buffer, each argument from [**IDirect3DDevice9::SetStreamSource**](/windows/desktop/api), and the divider (if any) from [**IDirect3DDevice9::SetStreamSourceFreq**](/windows/desktop/api).
+-   For each vertex stream: a pointer to the vertex buffer, each argument from [**IDirect3DDevice9::SetStreamSource**](/windows/desktop/api), and the divider (if any) from [**IDirect3DDevice9::SetStreamSourceFreq**](https://msdn.microsoft.com/library/Bb174460(v=VS.85).aspx).
 -   A pointer to the index buffer.
 -   The viewport.
 -   The scissors rectangle.
@@ -28,7 +28,7 @@ A state block can be used to capture all device states (see [State Blocks Save a
 -   The clipping planes (if any).
 -   The current material.
 
-To capture all device states with a state block, specify D3DSBT\_ALL when calling [**IDirect3DDevice9::CreateStateBlock**](/windows/desktop/api).
+To capture all device states with a state block, specify D3DSBT\_ALL when calling [**IDirect3DDevice9::CreateStateBlock**](https://msdn.microsoft.com/library/Bb174362(v=VS.85).aspx).
 
 ## Related topics
 

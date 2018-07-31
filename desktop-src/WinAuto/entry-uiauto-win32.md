@@ -57,7 +57,7 @@ The Platform Update for Windows Vista and the Platform Update for Windows Serve
 -   Windows Server 2008 (English) <dl> Windows Server 2008 SP2 (x86 and x64)  
     </dl>
 
-For more information about both updates, see [Platform Update for Windows Vista](https://www.bing.com/search?q=Platform+Update+for+Windows+Vista).
+For more information about both updates, see [Platform Update for Windows Vista](https://msdn.microsoft.com/library/Ee663867(v=VS.85).aspx).
 
 ## In this section
 

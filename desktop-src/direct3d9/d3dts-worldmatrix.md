@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DTS_WORLDMATRIX
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3d9types.h
 ---
 
@@ -69,7 +69,7 @@ Transform states in the range 256 through 511 are reserved to store up to 256 ma
 [Macros](dx9-graphics-reference-d3d-macros.md)
 </dt> <dt>
 
-[**SetTransform**](/windows/desktop/api)
+[**SetTransform**](https://msdn.microsoft.com/library/Bb174463(v=VS.85).aspx)
 </dt> </dl>
 
  

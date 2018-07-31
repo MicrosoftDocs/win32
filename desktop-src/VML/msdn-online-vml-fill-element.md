@@ -37,7 +37,7 @@ The following attributes modify a fill.
 | [Focus](msdn-online-vml-focus-attribute.md)                       | Defines the center of a linear gradient fill.          |
 | [FocusPosition](msdn-online-vml-focusposition-attribute.md)       | Defines the center of a radial gradient fill.          |
 | [FocusSize](msdn-online-vml-focussize-attribute.md)               | Defines the focus size for a radial fill.              |
-| [HRef](https://www.bing.com/search?q=HRef) | Defines a URL to the original image file.              |
+| [HRef](https://msdn.microsoft.com/library/Bb229574(v=VS.85).aspx) | Defines a URL to the original image file.              |
 | [ID](id-attribute--fill--vml.md)                                  | Defines a unique identifier for the fill.              |
 | [Method](msdn-online-vml-method-attribute.md)                     | Defines the method used to generate a gradient fill.   |
 | [On](on-attribute--fill--vml.md)                                  | Determines whether the fill wil be displayed.          |

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Vertex Buffers (Direct3D 9)
 
-Vertex buffers, represented by the [**IDirect3DVertexBuffer9**](/windows/desktop/api) interface, are memory buffers that contain vertex data. Vertex buffers can contain any vertex type - transformed or untransformed, lit or unlit - that can be rendered through the use of the rendering methods in the [**IDirect3DDevice9**](/windows/desktop/api) interface. You can process the vertices in a vertex buffer to perform operations such as transformation, lighting, or generating clipping flags. Transformation is always performed.
+Vertex buffers, represented by the [**IDirect3DVertexBuffer9**](/windows/desktop/api) interface, are memory buffers that contain vertex data. Vertex buffers can contain any vertex type - transformed or untransformed, lit or unlit - that can be rendered through the use of the rendering methods in the [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface. You can process the vertices in a vertex buffer to perform operations such as transformation, lighting, or generating clipping flags. Transformation is always performed.
 
 The flexibility of vertex buffers make them ideal staging points for reusing transformed geometry. You could create a single vertex buffer, transform, light, and clip the vertices in it, and render the model in the scene as many times as needed without re-transforming it, even with interleaved render state changes. This is useful when rendering models that use multiple textures: the geometry is transformed only once, and then portions of it can be rendered as needed, interleaved with the required texture changes. Render state changes made after vertices are processed take effect the next time the vertices are processed.
 

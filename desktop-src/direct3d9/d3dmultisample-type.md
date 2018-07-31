@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DMULTISAMPLE_TYPE
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3D9Types.h
 ---
 
@@ -182,7 +182,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## Remarks
 
-In addition to enabling full-scene multisampling at [**IDirect3DDevice9::Reset**](/windows/desktop/api) time, there will be render states that turn various aspects on and off at fine-grained levels.
+In addition to enabling full-scene multisampling at [**IDirect3DDevice9::Reset**](https://msdn.microsoft.com/library/Bb174425(v=VS.85).aspx) time, there will be render states that turn various aspects on and off at fine-grained levels.
 
 Multisampling is valid only on a swap chain that is being created or reset with the D3DSWAPEFFECT\_DISCARD swap effect.
 
@@ -192,12 +192,12 @@ The multisample antialiasing value can be set with the parameters (or sub-parame
 
 | Method                                                                                             | Parameters                         | Sub-parameters                     |
 |----------------------------------------------------------------------------------------------------|------------------------------------|------------------------------------|
-| [**IDirect3D9::CheckDeviceMultiSampleType**](/windows/desktop/api)           | MultiSampleType and pQualityLevels |                                    |
-| [**IDirect3D9::CreateDevice**](/windows/desktop/api)                                       | pPresentationParameters            | MultiSampleType and pQualityLevels |
-| [**IDirect3DDevice9::CreateAdditionalSwapChain**](/windows/desktop/api) | pPresentationParameters            | MultiSampleType and pQualityLevels |
-| [**IDirect3DDevice9::CreateDepthStencilSurface**](/windows/desktop/api) | MultiSampleType and pQualityLevels |                                    |
-| [**IDirect3DDevice9::CreateRenderTarget**](/windows/desktop/api)               | MultiSampleType and pQualityLevels |                                    |
-| [**IDirect3DDevice9::Reset**](/windows/desktop/api)                                         | pPresentationParameters            | MultiSampleType and pQualityLevels |
+| [**IDirect3D9::CheckDeviceMultiSampleType**](https://msdn.microsoft.com/library/Bb174311(v=VS.85).aspx)           | MultiSampleType and pQualityLevels |                                    |
+| [**IDirect3D9::CreateDevice**](https://msdn.microsoft.com/library/Bb174313(v=VS.85).aspx)                                       | pPresentationParameters            | MultiSampleType and pQualityLevels |
+| [**IDirect3DDevice9::CreateAdditionalSwapChain**](https://msdn.microsoft.com/library/Bb174354(v=VS.85).aspx) | pPresentationParameters            | MultiSampleType and pQualityLevels |
+| [**IDirect3DDevice9::CreateDepthStencilSurface**](https://msdn.microsoft.com/library/Bb174356(v=VS.85).aspx) | MultiSampleType and pQualityLevels |                                    |
+| [**IDirect3DDevice9::CreateRenderTarget**](https://msdn.microsoft.com/library/Bb174361(v=VS.85).aspx)               | MultiSampleType and pQualityLevels |                                    |
+| [**IDirect3DDevice9::Reset**](https://msdn.microsoft.com/library/Bb174425(v=VS.85).aspx)                                         | pPresentationParameters            | MultiSampleType and pQualityLevels |
 
 
 
@@ -209,7 +209,7 @@ D3DMULTISAMPLE\_NONE enables swap effects other than discarding, locking, and so
 
 Whether the display device supports maskable multisampling (more than one sample for a multiple-sample render-target format plus antialias support) or just non-maskable multisampling (only antialias support), the driver for the device provides the number of quality levels for the D3DMULTISAMPLE\_NONMASKABLE multiple-sample type. Applications that just use multisampling for antialiasing purposes only need to query for the number of non-maskable multiple-sample quality levels that the driver supports.
 
-The quality levels supported by the device can be obtained with the pQualityLevels parameter of [**IDirect3D9::CheckDeviceMultiSampleType**](/windows/desktop/api). Quality levels used by the application are set with the MultiSampleQuality parameter of [**IDirect3DDevice9::CreateDepthStencilSurface**](/windows/desktop/api) and [**IDirect3DDevice9::CreateRenderTarget**](/windows/desktop/api).
+The quality levels supported by the device can be obtained with the pQualityLevels parameter of [**IDirect3D9::CheckDeviceMultiSampleType**](https://msdn.microsoft.com/library/Bb174311(v=VS.85).aspx). Quality levels used by the application are set with the MultiSampleQuality parameter of [**IDirect3DDevice9::CreateDepthStencilSurface**](https://msdn.microsoft.com/library/Bb174356(v=VS.85).aspx) and [**IDirect3DDevice9::CreateRenderTarget**](https://msdn.microsoft.com/library/Bb174361(v=VS.85).aspx).
 
 See D3DRS\_MULTISAMPLEMASK for discussion of maskable multisampling.
 

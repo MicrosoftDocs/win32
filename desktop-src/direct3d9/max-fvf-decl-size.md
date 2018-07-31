@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - MAX_FVF_DECL_SIZE
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - d3dx9mesh.h
 ---
 
@@ -68,7 +68,7 @@ MAXD3DDECLLENGTH is defined as a maximum of 64 (see d3d9types.h). This does not 
 [**ID3DXBaseMesh**](id3dxbasemesh.md)
 </dt> <dt>
 
-[**GetDeclaration**](/windows/desktop/api)
+[**GetDeclaration**](https://msdn.microsoft.com/library/Bb205920(v=VS.85).aspx)
 </dt> <dt>
 
 [**D3DXDeclaratorFromFVF**](d3dxdeclaratorfromfvf.md)

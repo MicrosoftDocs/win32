@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Creating Cubic Environment Map Surfaces (Direct3D 9)
 
-You create a cubic environment map texture by calling the [**CreateCubeTexture**](/windows/desktop/api) method. Cubic environment map textures must be square, with dimensions that are a power of two.
+You create a cubic environment map texture by calling the [**CreateCubeTexture**](https://msdn.microsoft.com/library/Bb174355(v=VS.85).aspx) method. Cubic environment map textures must be square, with dimensions that are a power of two.
 
 The following code example shows how your C++ application might create a simple cubic environment map.
 
@@ -29,9 +29,9 @@ m_d3dDevice->CreateCubeTexture(256, 1, D3DUSAGE_RENDERTARGET, D3DFMT_R8G8B8,
 
 ## Accessing Cubic Environment Map Faces
 
-You can navigate between faces of a cubic environment map by using the [**GetCubeMapSurface**](/windows/desktop/api) method.
+You can navigate between faces of a cubic environment map by using the [**GetCubeMapSurface**](https://msdn.microsoft.com/library/Bb174331(v=VS.85).aspx) method.
 
-The following code example uses [**GetCubeMapSurface**](/windows/desktop/api) to retrieve the cube-map surface used for the positive y-face (face 2).
+The following code example uses [**GetCubeMapSurface**](https://msdn.microsoft.com/library/Bb174331(v=VS.85).aspx) to retrieve the cube-map surface used for the positive y-face (face 2).
 
 
 ```
@@ -43,11 +43,11 @@ m_pCubeMap->GetCubeMapSurface(D3DCUBEMAP_FACE_POSITIVE_Y, 0, &amp;pFace2);
 
 
 
-The first parameter that [**GetCubeMapSurface**](/windows/desktop/api) accepts is a [**D3DCUBEMAP\_FACES**](https://msdn.microsoft.com/en-us/library/Bb172528(v=VS.85).aspx) enumerated value that describes the attached surface that the method should retrieve. The second parameter tells Direct3D which level of a mipmapped cube texture to retrieve. The third parameter accepted is the address of the [**IDirect3DSurface9**](/windows/desktop/api) interface, representing the returned cube texture surface. Because this cube-map is not mipmapped, 0 is used here.
+The first parameter that [**GetCubeMapSurface**](https://msdn.microsoft.com/library/Bb174331(v=VS.85).aspx) accepts is a [**D3DCUBEMAP\_FACES**](https://msdn.microsoft.com/en-us/library/Bb172528(v=VS.85).aspx) enumerated value that describes the attached surface that the method should retrieve. The second parameter tells Direct3D which level of a mipmapped cube texture to retrieve. The third parameter accepted is the address of the [**IDirect3DSurface9**](https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx) interface, representing the returned cube texture surface. Because this cube-map is not mipmapped, 0 is used here.
 
 > [!Note]
 >
-> After calling this method, the internal reference count on the [**IDirect3DSurface9**](/windows/desktop/api) interface is increased. When you are done using this surface, be sure to call the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) method on this **IDirect3DSurface9** interface or you will have a memory leak.
+> After calling this method, the internal reference count on the [**IDirect3DSurface9**](https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx) interface is increased. When you are done using this surface, be sure to call the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) method on this **IDirect3DSurface9** interface or you will have a memory leak.
 
  
 
@@ -159,7 +159,7 @@ When the camera is in position and the projection matrix set, you can render the
 
 
 
-Note the call to the [**SetRenderTarget**](/windows/desktop/api) method. When rendering to the cube map faces, you must assign the face as the current render-target surface. Applications that use depth buffers can explicitly create a depth-buffer for the render-target, or reassign an existing depth-buffer to the render-target surface. The code sample above uses the latter approach.
+Note the call to the [**SetRenderTarget**](https://msdn.microsoft.com/library/Bb174455(v=VS.85).aspx) method. When rendering to the cube map faces, you must assign the face as the current render-target surface. Applications that use depth buffers can explicitly create a depth-buffer for the render-target, or reassign an existing depth-buffer to the render-target surface. The code sample above uses the latter approach.
 
 ## Related topics
 

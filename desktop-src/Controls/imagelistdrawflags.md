@@ -33,7 +33,7 @@ ms.date: 05/31/2018
 
 # IMAGELISTDRAWFLAGS
 
-Passed to the [**IImageList::Draw**](/windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-draw) method in the **fStyle** member of [**IMAGELISTDRAWPARAMS**](/windows/desktop/api).
+Passed to the [**IImageList::Draw**](/windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-draw) method in the **fStyle** member of [**IMAGELISTDRAWPARAMS**](https://msdn.microsoft.com/library/Bb761395(v=VS.85).aspx).
 
 
 

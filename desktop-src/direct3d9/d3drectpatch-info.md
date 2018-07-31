@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DRECTPATCH_INFO
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3D9Types.h
 ---
 
@@ -176,7 +176,7 @@ RectInfo.StartVertexOffsetHeight = 4*i;  // The variable i is the index of the
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**DrawRectPatch**](/windows/desktop/api)
+[**DrawRectPatch**](https://msdn.microsoft.com/library/Bb174373(v=VS.85).aspx)
 </dt> <dt>
 
 [**D3DXTessellateRectPatch**](d3dxtessellaterectpatch.md)

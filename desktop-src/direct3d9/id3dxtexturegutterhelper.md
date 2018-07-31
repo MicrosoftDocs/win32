@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXTextureGutterHelper
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
@@ -41,7 +41,7 @@ The **ID3DXTextureGutterHelper** interface has these methods.
 |:-------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------|
 | [**ApplyGuttersFloat**](id3dxtexturegutterhelper--applyguttersfloat.md) | Applies gutters to a FLOAT texture buffer.<br/>                                                  |
 | [**ApplyGuttersPRT**](id3dxtexturegutterhelper--applyguttersprt.md)     | Applies gutters to an [**ID3DXPRTBuffer**](id3dxprtbuffer.md) buffer object.<br/>               |
-| [**ApplyGuttersTex**](id3dxtexturegutterhelper--applygutterstex.md)     | Applies gutters to an [**IDirect3DTexture9**](/windows/desktop/api) texture object.<br/>        |
+| [**ApplyGuttersTex**](id3dxtexturegutterhelper--applygutterstex.md)     | Applies gutters to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx) texture object.<br/>        |
 | [**GetBaryMap**](id3dxtexturegutterhelper--getbarymap.md)               | Retrieves texel barycentric coordinates.<br/>                                                    |
 | [**GetFaceMap**](id3dxtexturegutterhelper--getfacemap.md)               | Retrieves the index of the mesh face to which each texel belongs.<br/>                           |
 | [**GetGutterMap**](id3dxtexturegutterhelper--getguttermap.md)           | Receives a texel class value that indicates texel class according to each texel's location.<br/> |

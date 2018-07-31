@@ -23,7 +23,7 @@ This topic is organized as follows:
 -   [Related topics](#related-topics)
 
 > [!Note]  
-> A filter handler is an implementation of the [**IFilter**](https://www.bing.com/search?q=**IFilter**) interface.
+> A filter handler is an implementation of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface.
 
  
 
@@ -35,7 +35,7 @@ The GUIDs you need for registering a new protocol handler or to find an existing
 
 | GUID                                     | User or application defined | Description                                                                                               |
 |------------------------------------------|-----------------------------|-----------------------------------------------------------------------------------------------------------|
-| **89BCB740-6119-101A-BCB7-00DD010655AF** | Application                 | The [**IFilter**](https://www.bing.com/search?q=**IFilter**) interface GUID is a registry key constant for all filter handlers. |
+| **89BCB740-6119-101A-BCB7-00DD010655AF** | Application                 | The [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface GUID is a registry key constant for all filter handlers. |
 | **{PersistentHandlerGUID}**              | User                        | This is the GUID for the persistent handler.                                                              |
 | **{FilterHandlerCLSID}**                 | User                        | This is the class identifier (CLSID) for the filter handler.                                              |
 | **{ApplicationGUID}**                    | User                        | This is an intermediate (aggregated) GUID.                                                                |
@@ -211,7 +211,7 @@ You can use the [**ILoadFilter**](/windows/desktop/api/filtereg/nn-filtereg-iloa
 
 ## Additional Resources
 
--   The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [Code Gallery](http://go.microsoft.com/fwlink/p/?linkid=155654) and the [Windows 7 SDK](http://go.microsoft.com/fwlink/p/?linkid=129787), demonstrates how to create an [**IFilter**](https://www.bing.com/search?q=**IFilter**) base class for implementing the **IFilter** interface.
+-   The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [Code Gallery](http://go.microsoft.com/fwlink/p/?linkid=155654) and the [Windows 7 SDK](http://go.microsoft.com/fwlink/p/?linkid=129787), demonstrates how to create an [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) base class for implementing the **IFilter** interface.
 -   For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
 -   For an overview of file types, see [File Types](http://msdn.microsoft.com/en-us/library/cc144148(VS.85).aspx).
 -   To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](http://msdn.microsoft.com/en-us/library/cc144150(VS.85).aspx).

@@ -35,7 +35,7 @@ The following attributes modify a stroke.
 | [EndArrowWidth](msdn-online-vml-endarrowwidth-attribute.md)       | Defines an arrowhead width for the end of a stroke.           |
 | [EndCap](msdn-online-vml-endcap-attribute.md)                     | Defines the cap style for the end of a stroke.                |
 | [FillType](msdn-online-vml-filltype-attribute.md)                 | Defines the type of fill used for the background of a stroke. |
-| [HRef](https://www.bing.com/search?q=HRef)    | Defines the URL to the original image for the stroke.         |
+| [HRef](https://msdn.microsoft.com/library/Bb229431(v=VS.85).aspx)    | Defines the URL to the original image for the stroke.         |
 | [ID](id-attribute--stroke--vml.md)                                | Defines a unique identifier for the stroke.                   |
 | [ImageAlignShape](msdn-online-vml-imagealignshape-attribute.md)   | Determines the alignment of a stroke image.                   |
 | [ImageAspect](msdn-online-vml-imageaspect-attribute.md)           | Defines how the stroke image aspect ratio will be preserved.  |

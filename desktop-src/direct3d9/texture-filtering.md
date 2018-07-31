@@ -30,7 +30,7 @@ This section presents the texture filtering methods that Direct3D supports. It i
 -   [Texture Filtering with Mipmaps (Direct3D 9)](texture-filtering-with-mipmaps.md)
 
 > [!Note]  
-> Although the texture-filtering render states present in the [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx) enumerated type are superseded by texture stage states, the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api), as opposed to the IDirect3DDevice2 version, does not fail if you attempt to use them. Rather, the system maps the effects of these render states to the first stage in the multitexture cascade, stage 0. Applications should not mix the legacy render states with their corresponding texture stage states, as unpredictable results can occur.
+> Although the texture-filtering render states present in the [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx) enumerated type are superseded by texture stage states, the [**IDirect3DDevice9::SetRenderState**](https://msdn.microsoft.com/library/Bb174454(v=VS.85).aspx), as opposed to the IDirect3DDevice2 version, does not fail if you attempt to use them. Rather, the system maps the effects of these render states to the first stage in the multitexture cascade, stage 0. Applications should not mix the legacy render states with their corresponding texture stage states, as unpredictable results can occur.
 
  
 

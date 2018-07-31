@@ -146,11 +146,11 @@ Generally speaking, full-text search is supported by components called [filters]
 
 ### Implementation Information for Windows 7
 
-In Windows 7 and later, there is new behavior when registering a property handler, [**IFilter**](https://www.bing.com/search?q=**IFilter**), or new extension. When a new property handler and/or **IFilter** is installed, files with the corresponding extensions are automatically reindexed.
+In Windows 7 and later, there is new behavior when registering a property handler, [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx), or new extension. When a new property handler and/or **IFilter** is installed, files with the corresponding extensions are automatically reindexed.
 
-In Windows 7 it is recommended that an [**IFilter**](https://www.bing.com/search?q=**IFilter**) is installed in conjunction with its corresponding property handlers, and that the **IFilter** is registered before the property handler. The registration of the property handler initiates immediate re-indexing of previously indexed files without first requiring a reboot, and takes advantage of any previously registered IFilter(s) for the purpose of content indexing.
+In Windows 7 it is recommended that an [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) is installed in conjunction with its corresponding property handlers, and that the **IFilter** is registered before the property handler. The registration of the property handler initiates immediate re-indexing of previously indexed files without first requiring a reboot, and takes advantage of any previously registered IFilter(s) for the purpose of content indexing.
 
-If only an [**IFilter**](https://www.bing.com/search?q=**IFilter**) is installed, without a corresponding property handler, then automatic reindexing occurs either after a restart of the indexing service, or a reboot of the system.
+If only an [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) is installed, without a corresponding property handler, then automatic reindexing occurs either after a restart of the indexing service, or a reboot of the system.
 
 For property description flags specific to Windows 7, see the following reference topics:
 
@@ -160,7 +160,7 @@ For property description flags specific to Windows 7, see the following referen
 
 ### Implementation Information for Windows Vista and Earlier
 
-Prior to Windows Vista, filters provided support for parsing and enumerating file content and properties. With the introduction of the property system, property handlers handle file properties while filters handle file content. For Windows Vista, you need develop only a partial implementation of the [**IFilter**](https://www.bing.com/search?q=**IFilter**)interface in coordination with a property handler, as described in [Best Practices for Creating Filter Handlers in Windows Search](-search-3x-wds-extidx-filters.md).
+Prior to Windows Vista, filters provided support for parsing and enumerating file content and properties. With the introduction of the property system, property handlers handle file properties while filters handle file content. For Windows Vista, you need develop only a partial implementation of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx)interface in coordination with a property handler, as described in [Best Practices for Creating Filter Handlers in Windows Search](-search-3x-wds-extidx-filters.md).
 
 While the property system is also included with the Windows Search installation for Windows XP, third-party and legacy applications may require that filters handle both content and properties. Therefore, if you are developing on the Windows XP platform, you should provide a full filter implementation as well as a property handler for your file type or custom property.
 

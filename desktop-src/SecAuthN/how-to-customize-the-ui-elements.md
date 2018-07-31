@@ -78,7 +78,7 @@ In addition to customizing the UI around the web page, developers should also cr
 
 -   Enabling touch
 
-    The web page should be designed with a touch-based user interaction in mind. For more information about designing for touch in Windows 8, see the [Touch interaction design](https://www.bing.com/search?q=Touch+interaction+design) topic.
+    The web page should be designed with a touch-based user interaction in mind. For more information about designing for touch in Windows 8, see the [Touch interaction design](https://msdn.microsoft.com/library/Hh465415(v=Win.10).aspx) topic.
 
 -   Customizing target of the hyperlinks
 

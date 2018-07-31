@@ -7,20 +7,20 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DGETDATA_FLUSH
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3d9types.h
 ---
 
 # D3DGETDATA\_FLUSH
 
-This macro creates the value passed to [**GetData**](/windows/desktop/api) to flush query data.
+This macro creates the value passed to [**GetData**](https://msdn.microsoft.com/library/Bb205873(v=VS.85).aspx) to flush query data.
 
 ``` syntax
 #define D3DGETDATA_FLUSH (1 << 0)

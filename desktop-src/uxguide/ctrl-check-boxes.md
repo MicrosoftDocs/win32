@@ -233,7 +233,7 @@ Recommended sizing and spacing for check boxes.
 
     In this example, the option doesn't use positive phrasing.
 
--   Describe just the option with the label. Keep labels brief so it's easy to refer to them in messages and documentation. If the option requires further explanation, provide the explanation in a [static text](https://www.bing.com/search?q=static+text) control using complete sentences and ending punctuation.
+-   Describe just the option with the label. Keep labels brief so it's easy to refer to them in messages and documentation. If the option requires further explanation, provide the explanation in a [static text](https://msdn.microsoft.com/library/Dn688965(v=VS.85).aspx) control using complete sentences and ending punctuation.
 
     > [!Note]
     >

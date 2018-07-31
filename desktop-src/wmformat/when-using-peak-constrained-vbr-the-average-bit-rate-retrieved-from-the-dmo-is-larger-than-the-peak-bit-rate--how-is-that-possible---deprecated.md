@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # When using peak-constrained VBR, the average bit rate retrieved from the DMO is larger than the peak bit rate. How is that possible?
 
-For current documentation on Windows Media codecs and digital signal processors, see [Windows Media Audio and Video Codec and DSP APIs.](https://www.bing.com/search?q=Windows+Media+Audio+and+Video+Codec+and+DSP+APIs.)
+For current documentation on Windows Media codecs and digital signal processors, see [Windows Media Audio and Video Codec and DSP APIs.](https://msdn.microsoft.com/library/Dd464626(v=VS.85).aspx)
 
  
 

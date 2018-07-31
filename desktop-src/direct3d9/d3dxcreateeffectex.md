@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXCreateEffectEx
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3dx9.lib
 - D3dx9.dll
 ---
@@ -50,9 +50,9 @@ HRESULT D3DXCreateEffectEx(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](/windows/desktop/api)**
+Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
 
-Pointer to the device that will create the effect. See [**IDirect3DDevice9**](/windows/desktop/api).
+Pointer to the device that will create the effect. See [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx).
 
 </dd> <dt>
 

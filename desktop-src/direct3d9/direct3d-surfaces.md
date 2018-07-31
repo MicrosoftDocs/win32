@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Direct3D Surfaces (Direct3D 9)
 
-A surface represents a linear area of display memory and usually resides in the display memory of the display card, although surfaces can exist in system memory. Surfaces are managed by the [**IDirect3DSurface9**](/windows/desktop/api) interface.
+A surface represents a linear area of display memory and usually resides in the display memory of the display card, although surfaces can exist in system memory. Surfaces are managed by the [**IDirect3DSurface9**](https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx) interface.
 
 -   Front Buffer. A rectangle of memory that is translated by the graphics adapter and displayed on the monitor. In Direct3D an application never writes directly to the front buffer.
 -   Back Buffer. A rectangle of memory that an application can directly write to. The back buffer is never directly displayed on the monitor.
@@ -22,23 +22,23 @@ A surface represents a linear area of display memory and usually resides in the 
 
 Create a surface by calling any of these methods:
 
--   [**CreateDepthStencilSurface**](/windows/desktop/api)
--   [**CreateOffscreenPlainSurface**](/windows/desktop/api)
--   [**CreateRenderTarget**](/windows/desktop/api)
+-   [**CreateDepthStencilSurface**](https://msdn.microsoft.com/library/Bb174356(v=VS.85).aspx)
+-   [**CreateOffscreenPlainSurface**](https://msdn.microsoft.com/library/Bb174358(v=VS.85).aspx)
+-   [**CreateRenderTarget**](https://msdn.microsoft.com/library/Bb174361(v=VS.85).aspx)
 
-Surface formats determine how data for each pixel in surface memory is interpreted. Direct3D uses the [D3DFORMAT](d3dformat.md) member of the [**D3DSURFACE\_DESC**](d3dsurface-desc.md) structure to describe the surface format. You can retrieve the format of an existing surface by calling the [**GetDesc**](/windows/desktop/api) method.
+Surface formats determine how data for each pixel in surface memory is interpreted. Direct3D uses the [D3DFORMAT](d3dformat.md) member of the [**D3DSURFACE\_DESC**](d3dsurface-desc.md) structure to describe the surface format. You can retrieve the format of an existing surface by calling the [**GetDesc**](https://msdn.microsoft.com/library/Bb205895(v=VS.85).aspx) method.
 
 Once a surface is created, you can get a pointer to it by calling any of these methods:
 
--   [**GetCubeMapSurface**](/windows/desktop/api)
--   [**GetBackBuffer**](/windows/desktop/api)
--   [**GetDepthStencilSurface**](/windows/desktop/api)
--   [**GetFrontBufferData**](/windows/desktop/api)
--   [**GetRenderTarget**](/windows/desktop/api)
--   [**GetBackBuffer**](/windows/desktop/api)
--   [**GetSurfaceLevel**](/windows/desktop/api)
+-   [**GetCubeMapSurface**](https://msdn.microsoft.com/library/Bb174331(v=VS.85).aspx)
+-   [**GetBackBuffer**](https://msdn.microsoft.com/library/Bb174379(v=VS.85).aspx)
+-   [**GetDepthStencilSurface**](https://msdn.microsoft.com/library/Bb174384(v=VS.85).aspx)
+-   [**GetFrontBufferData**](https://msdn.microsoft.com/library/Bb174388(v=VS.85).aspx)
+-   [**GetRenderTarget**](https://msdn.microsoft.com/library/Bb174404(v=VS.85).aspx)
+-   [**GetBackBuffer**](https://msdn.microsoft.com/library/Bb174379(v=VS.85).aspx)
+-   [**GetSurfaceLevel**](https://msdn.microsoft.com/library/Bb205912(v=VS.85).aspx)
 
-The [**IDirect3DSurface9**](/windows/desktop/api) interface enables you to indirectly access memory through the [**UpdateSurface**](/windows/desktop/api) method. This method allows you to copy a rectangular region of pixels from one **IDirect3DSurface9** interface to another **IDirect3DSurface9** interface. The surface interface also has methods to directly access display memory. For example, you can use the [**LockRect**](/windows/desktop/api) method to lock a rectangular region of display memory. It is important to call [**UnlockRect**](/windows/desktop/api) after you are done working with the locked rectangular region on the surface.
+The [**IDirect3DSurface9**](https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx) interface enables you to indirectly access memory through the [**UpdateSurface**](/windows/desktop/api) method. This method allows you to copy a rectangular region of pixels from one **IDirect3DSurface9** interface to another **IDirect3DSurface9** interface. The surface interface also has methods to directly access display memory. For example, you can use the [**LockRect**](/windows/desktop/api) method to lock a rectangular region of display memory. It is important to call [**UnlockRect**](https://msdn.microsoft.com/library/Bb205898(v=VS.85).aspx) after you are done working with the locked rectangular region on the surface.
 
 ## Additional Surface Topics
 

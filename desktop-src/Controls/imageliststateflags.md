@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 # IMAGELISTSTATEFLAGS
 
-The following flags are passed to the [**IImageList::Draw**](/windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-draw) method in the **fState** member of [**IMAGELISTDRAWPARAMS**](/windows/desktop/api).
+The following flags are passed to the [**IImageList::Draw**](/windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-draw) method in the **fState** member of [**IMAGELISTDRAWPARAMS**](https://msdn.microsoft.com/library/Bb761395(v=VS.85).aspx).
 
 
 
@@ -33,7 +33,7 @@ The following flags are passed to the [**IImageList::Draw**](/windows/desktop/ap
 | <span id="ILS_GLOW"></span><span id="ils_glow"></span><dl> <dt>**ILS\_GLOW**</dt> <dt>0x00000001</dt> </dl>             | Not supported. <br/>                                                                                                                                                                                                                                                                                                                                                                    |
 | <span id="ILS_SHADOW"></span><span id="ils_shadow"></span><dl> <dt>**ILS\_SHADOW**</dt> <dt>0x00000002</dt> </dl>       | Not supported. <br/>                                                                                                                                                                                                                                                                                                                                                                    |
 | <span id="ILS_SATURATE"></span><span id="ils_saturate"></span><dl> <dt>**ILS\_SATURATE**</dt> <dt>0x00000004</dt> </dl> | Reduces the color saturation of the icon to grayscale. This only affects 32bpp images. <br/>                                                                                                                                                                                                                                                                                            |
-| <span id="ILS_ALPHA"></span><span id="ils_alpha"></span><dl> <dt>**ILS\_ALPHA**</dt> <dt>0x00000008</dt> </dl>          | Alpha blends the icon. Alpha blending controls the transparency level of an icon, according to the value of its alpha channel. The value of the alpha channel is indicated by the **frame** member in the [**IMAGELISTDRAWPARAMS**](/windows/desktop/api) method. The alpha channel can be from 0 to 255, with 0 being completely transparent, and 255 being completely opaque.<br/> |
+| <span id="ILS_ALPHA"></span><span id="ils_alpha"></span><dl> <dt>**ILS\_ALPHA**</dt> <dt>0x00000008</dt> </dl>          | Alpha blends the icon. Alpha blending controls the transparency level of an icon, according to the value of its alpha channel. The value of the alpha channel is indicated by the **frame** member in the [**IMAGELISTDRAWPARAMS**](https://msdn.microsoft.com/library/Bb761395(v=VS.85).aspx) method. The alpha channel can be from 0 to 255, with 0 being completely transparent, and 255 being completely opaque.<br/> |
 
 
 

@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DTS_WORLD
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3d9types.h
 ---
 
@@ -60,7 +60,7 @@ This macro is provided to facilitate porting existing applications to Direct3D 9
 [Macros](dx9-graphics-reference-d3d-macros.md)
 </dt> <dt>
 
-[**SetTransform**](/windows/desktop/api)
+[**SetTransform**](https://msdn.microsoft.com/library/Bb174463(v=VS.85).aspx)
 </dt> <dt>
 
 [**D3DTS\_WORLDMATRIX**](d3dts-worldmatrix.md)

@@ -13,8 +13,8 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**IMAGEINFO**](/windows/desktop/api)
--   [**IMAGELISTDRAWPARAMS**](/windows/desktop/api)
+-   [**IMAGEINFO**](https://msdn.microsoft.com/library/Bb761393(v=VS.85).aspx)
+-   [**IMAGELISTDRAWPARAMS**](https://msdn.microsoft.com/library/Bb761395(v=VS.85).aspx)
 
  
 

@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXBaseEffect.GetPixelShader
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - D3dx9.lib
 - D3dx9.dll
 ---
@@ -51,9 +51,9 @@ Unique identifier. See [Handles (Direct3D 9)](handles.md).
 *ppPShader* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DPIXELSHADER9**](/windows/desktop/api)\***
+Type: **[**LPDIRECT3DPIXELSHADER9**](https://msdn.microsoft.com/library/Bb205869(v=VS.85).aspx)\***
 
-Returns a pixel shader object. See [**IDirect3DPixelShader9**](/windows/desktop/api) object.
+Returns a pixel shader object. See [**IDirect3DPixelShader9**](https://msdn.microsoft.com/library/Bb205869(v=VS.85).aspx) object.
 
 </dd> </dl>
 

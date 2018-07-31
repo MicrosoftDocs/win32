@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DTEXTUREFILTERTYPE
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3D9Types.h
 ---
 
@@ -114,15 +114,15 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## Remarks
 
-D3DTEXTUREFILTERTYPE is used by [**IDirect3DDevice9::SetSamplerState**](/windows/desktop/api) along with [**D3DSAMPLERSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172602(v=VS.85).aspx) to define texture filtering modes for a texture stage.
+D3DTEXTUREFILTERTYPE is used by [**IDirect3DDevice9::SetSamplerState**](https://msdn.microsoft.com/library/Bb174456(v=VS.85).aspx) along with [**D3DSAMPLERSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172602(v=VS.85).aspx) to define texture filtering modes for a texture stage.
 
-To check if a format supports texture filter types other than D3DTEXF\_POINT (which is always supported), call [**IDirect3D9::CheckDeviceFormat**](/windows/desktop/api) with D3DUSAGE\_QUERY\_FILTER.
+To check if a format supports texture filter types other than D3DTEXF\_POINT (which is always supported), call [**IDirect3D9::CheckDeviceFormat**](https://msdn.microsoft.com/library/Bb174309(v=VS.85).aspx) with D3DUSAGE\_QUERY\_FILTER.
 
-Set a texture stage's magnification filter by calling [**IDirect3DDevice9::SetSamplerState**](/windows/desktop/api) with the D3DSAMP\_MAGFILTER value as the second parameter and one member of this enumeration as the third parameter.
+Set a texture stage's magnification filter by calling [**IDirect3DDevice9::SetSamplerState**](https://msdn.microsoft.com/library/Bb174456(v=VS.85).aspx) with the D3DSAMP\_MAGFILTER value as the second parameter and one member of this enumeration as the third parameter.
 
-Set a texture stage's minification filter by calling [**IDirect3DDevice9::SetSamplerState**](/windows/desktop/api) with the D3DSAMP\_MINFILTER value as the second parameter and one member of this enumeration as the third parameter.
+Set a texture stage's minification filter by calling [**IDirect3DDevice9::SetSamplerState**](https://msdn.microsoft.com/library/Bb174456(v=VS.85).aspx) with the D3DSAMP\_MINFILTER value as the second parameter and one member of this enumeration as the third parameter.
 
-Set the texture filter to use between-mipmap levels by calling [**IDirect3DDevice9::SetSamplerState**](/windows/desktop/api) with the D3DSAMP\_MIPFILTER value as the second parameter and one member of this enumeration as the third parameter.
+Set the texture filter to use between-mipmap levels by calling [**IDirect3DDevice9::SetSamplerState**](https://msdn.microsoft.com/library/Bb174456(v=VS.85).aspx) with the D3DSAMP\_MIPFILTER value as the second parameter and one member of this enumeration as the third parameter.
 
 Not all valid filtering modes for a device will apply to volume maps. In general, D3DTEXF\_POINT and D3DTEXF\_LINEAR magnification filters will be supported for volume maps. If D3DPTEXTURECAPS\_MIPVOLUMEMAP is set, then the D3DTEXF\_POINT mipmap filter and D3DTEXF\_POINT and D3DTEXF\_LINEAR minification filters will be supported for volume maps. The device may or may not support the D3DTEXF\_LINEAR mipmap filter for volume maps. Devices that support anisotropic filtering for 2D maps do not necessarily support anisotropic filtering for volume maps. However, applications that enable anisotropic filtering will receive the best available filtering (probably linear) if anisotropic filtering is not supported.
 
@@ -152,7 +152,7 @@ Not all valid filtering modes for a device will apply to volume maps. In general
 [**D3DSAMPLERSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172602(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDirect3DDevice9::SetSamplerState**](/windows/desktop/api)
+[**IDirect3DDevice9::SetSamplerState**](https://msdn.microsoft.com/library/Bb174456(v=VS.85).aspx)
 </dt> </dl>
 
  

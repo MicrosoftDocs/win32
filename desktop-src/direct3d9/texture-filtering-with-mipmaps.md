@@ -43,7 +43,7 @@ Mipmap textures are used in 3D scenes to decrease the time required to render a 
 
 ## Creating a Set of Mipmaps
 
-The following example shows how your application can call the [**IDirect3DDevice9::CreateTexture**](/windows/desktop/api) method to build a chain of five mipmap levels: 256x256, 128x128, 64x64, 32x32, and 16x16.
+The following example shows how your application can call the [**IDirect3DDevice9::CreateTexture**](https://msdn.microsoft.com/library/Bb174363(v=VS.85).aspx) method to build a chain of five mipmap levels: 256x256, 128x128, 64x64, 32x32, and 16x16.
 
 
 ```
@@ -57,7 +57,7 @@ m_pD3DDevice->CreateTexture(256, 256, 5, 0, D3DFMT_R8G8B8,
 
 
 
-The first two parameters that are accepted by [**IDirect3DDevice9::CreateTexture**](/windows/desktop/api) are the size and width of the top-level texture. The third parameter specifies the number of levels in the texture. If you set this to zero, Direct3D creates a chain of surfaces, each a power of two smaller than the previous one, down to the smallest possible size of 1x1. The fourth parameter specifies the usage for this resource; in this case, 0 is specified to indicate no specific usage for the resource. The fifth parameter specifies the surface format for the texture. Use a value from the [D3DFORMAT](d3dformat.md) enumerated type for this parameter. The sixth parameter specifies a member of the [**D3DPOOL**](https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx) enumerated type indicating the memory class into which to place the created resource. Unless you are using dynamic textures, D3DPOOL\_MANAGED is recommended. The final parameter takes the address of a pointer to an [**IDirect3DTexture9**](/windows/desktop/api) interface.
+The first two parameters that are accepted by [**IDirect3DDevice9::CreateTexture**](https://msdn.microsoft.com/library/Bb174363(v=VS.85).aspx) are the size and width of the top-level texture. The third parameter specifies the number of levels in the texture. If you set this to zero, Direct3D creates a chain of surfaces, each a power of two smaller than the previous one, down to the smallest possible size of 1x1. The fourth parameter specifies the usage for this resource; in this case, 0 is specified to indicate no specific usage for the resource. The fifth parameter specifies the surface format for the texture. Use a value from the [D3DFORMAT](d3dformat.md) enumerated type for this parameter. The sixth parameter specifies a member of the [**D3DPOOL**](https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx) enumerated type indicating the memory class into which to place the created resource. Unless you are using dynamic textures, D3DPOOL\_MANAGED is recommended. The final parameter takes the address of a pointer to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx) interface.
 
 > [!Note]  
 > Each surface in a mipmap chain has dimensions that are one-half that of the previous surface in the chain. If the top-level mipmap has dimensions of 256x128, the dimensions of the second-level mipmap are 128x64, the third-level are 64x32, and so on, down to 1x1. You cannot request a number of mipmap levels in Levels that would cause either the width or height of any mipmap in the chain to be smaller than 1. In the simple case of a 4x2 top-level mipmap surface, the maximum value allowed for Levels is three. The top-level dimensions are 4x2, the second-level dimensions are 2x1, and the dimensions for the third level are 1x1. A value larger than 3 in Levels results in a fractional value in the height of the second-level mipmap, and is therefore disallowed.
@@ -78,7 +78,7 @@ m_pD3DDevice->SetSamplerState(0, D3DSAMP_MIPFILTER, D3DTEXF_POINT);
 
 
 
-Your application can also manually traverse a chain of mipmap surfaces by using the [**IDirect3DTexture9::GetSurfaceLevel**](/windows/desktop/api) method and specifying the mipmap level to retrieve. The following example traverses a mipmap chain from highest to lowest resolutions.
+Your application can also manually traverse a chain of mipmap surfaces by using the [**IDirect3DTexture9::GetSurfaceLevel**](https://msdn.microsoft.com/library/Bb205912(v=VS.85).aspx) method and specifying the mipmap level to retrieve. The following example traverses a mipmap chain from highest to lowest resolutions.
 
 
 ```
@@ -93,7 +93,7 @@ for (int iLevel = 0; iLevel < pMipMap->GetLevelCount(); iLevel++)
 
 
 
-Applications need to manually traverse a mipmap chain to load bitmap data into each surface in the chain. This is typically the only reason to traverse the chain. An application can retrieve the number of levels in a mipmap by calling [**IDirect3DBaseTexture9::GetLevelCount**](/windows/desktop/api).
+Applications need to manually traverse a mipmap chain to load bitmap data into each surface in the chain. This is typically the only reason to traverse the chain. An application can retrieve the number of levels in a mipmap by calling [**IDirect3DBaseTexture9::GetLevelCount**](https://msdn.microsoft.com/library/Bb174325(v=VS.85).aspx).
 
 ## Related topics
 

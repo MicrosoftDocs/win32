@@ -15,11 +15,11 @@ The mouse cursor methods enable the application to specify a color cursor by pro
 
 The mouse cursor position is tied to the system cursor, appropriately scaled for the current display mode spatial resolution, but it can be moved explicitly by the application. This is analogous to the behavior of the Win32 API - supported system mouse cursor. For more information about how to use a mouse cursor in your Direct3D application, see the following reference topics.
 
--   [**IDirect3DDevice9::ShowCursor**](/windows/desktop/api)
--   [**IDirect3DDevice9::SetCursorPosition**](/windows/desktop/api)
--   [**IDirect3DDevice9::SetCursorProperties**](/windows/desktop/api)
+-   [**IDirect3DDevice9::ShowCursor**](https://msdn.microsoft.com/library/Bb174470(v=VS.85).aspx)
+-   [**IDirect3DDevice9::SetCursorPosition**](https://msdn.microsoft.com/library/Bb174429(v=VS.85).aspx)
+-   [**IDirect3DDevice9::SetCursorProperties**](https://msdn.microsoft.com/library/Bb174430(v=VS.85).aspx)
 
-Direct3D ensures that the mouse is supported either by hardware implementations or by the Direct3D run time that performs hardware-accelerated blitting operations when calling [**IDirect3DDevice9::Present**](/windows/desktop/api).
+Direct3D ensures that the mouse is supported either by hardware implementations or by the Direct3D run time that performs hardware-accelerated blitting operations when calling [**IDirect3DDevice9::Present**](https://msdn.microsoft.com/library/Bb174423(v=VS.85).aspx).
 
 ## Related topics
 

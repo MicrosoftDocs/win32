@@ -7,24 +7,24 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3D9_RESOURCE_PRIORITY_MINIMUM
 - D3D9_RESOURCE_PRIORITY_LOW
 - D3D9_RESOURCE_PRIORITY_NORMAL
 - D3D9_RESOURCE_PRIORITY_HIGH
 - D3D9_RESOURCE_PRIORITY_MAXIMUM
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - d3d9types.h
 ---
 
 # D3D9\_RESOURCE\_PRIORITY
 
-Constants used to set the priority of a resource in [**SetPriority**](/windows/desktop/api).
+Constants used to set the priority of a resource in [**SetPriority**](https://msdn.microsoft.com/library/Bb205885(v=VS.85).aspx).
 
 
 

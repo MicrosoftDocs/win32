@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXFilterTexture
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
@@ -44,9 +44,9 @@ HRESULT D3DXFilterTexture(
 *pBaseTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DBASETEXTURE9**](/windows/desktop/api)**
+Type: **[**LPDIRECT3DBASETEXTURE9**](https://msdn.microsoft.com/library/Bb174322(v=VS.85).aspx)**
 
-Pointer to an [**IDirect3DBaseTexture9**](/windows/desktop/api) interface that represents the texture object to filter.
+Pointer to an [**IDirect3DBaseTexture9**](https://msdn.microsoft.com/library/Bb174322(v=VS.85).aspx) interface that represents the texture object to filter.
 
 </dd> <dt>
 
@@ -87,7 +87,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 A filter is recursively applied to each texture level to generate the next texture level.
 
-Writing to a non-level-zero surface of the texture will not cause the dirty rectangle to be updated. If **D3DXFilterTexture** is called and the surface was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**AddDirtyRect**](/windows/desktop/api) on the texture.
+Writing to a non-level-zero surface of the texture will not cause the dirty rectangle to be updated. If **D3DXFilterTexture** is called and the surface was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**AddDirtyRect**](https://msdn.microsoft.com/library/Bb205910(v=VS.85).aspx) on the texture.
 
 Textures created in the default pool (D3DPOOL\_DEFAULT) cannot be used with **D3DXFilterTexture** (unless created with D3DUSAGE\_DYNAMIC) because a lock operation is needed on the object. Note that locks are prohibited on textures in the default pool (unless they are dynamic).
 

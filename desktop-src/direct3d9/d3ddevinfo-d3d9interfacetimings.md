@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DDEVINFO_D3D9INTERFACETIMINGS
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3D9Types.h
 ---
 
@@ -72,7 +72,7 @@ Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).a
 
 Percentage of time the driver spent waiting for the GPU latency to reduce to less than three rendering frames.
 
-If an application is GPU-limited, the driver must stall the CPU until the GPU gets within three frames. This prevents an application from queuing up many seconds' worth of rendering calls which may dramatically increase the latency between when the user inputs new data and when the user sees the results of that input. In general, the driver can track the number of times [**Present**](/windows/desktop/api) is called to prevent queuing up more than three frames of rendering work.
+If an application is GPU-limited, the driver must stall the CPU until the GPU gets within three frames. This prevents an application from queuing up many seconds' worth of rendering calls which may dramatically increase the latency between when the user inputs new data and when the user sees the results of that input. In general, the driver can track the number of times [**Present**](https://msdn.microsoft.com/library/Bb174423(v=VS.85).aspx) is called to prevent queuing up more than three frames of rendering work.
 
 </dd> <dt>
 
@@ -121,7 +121,7 @@ These system-global metrics may or may not be implemented. Depending on the spec
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetData**](/windows/desktop/api)
+[**GetData**](https://msdn.microsoft.com/library/Bb205873(v=VS.85).aspx)
 </dt> </dl>
 
  

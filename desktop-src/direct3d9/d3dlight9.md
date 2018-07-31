@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DLIGHT9
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3D9Types.h
 ---
 
@@ -211,10 +211,10 @@ Angle, in radians, defining the outer edge of the spotlight's outer cone. Points
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetLight**](/windows/desktop/api)
+[**GetLight**](https://msdn.microsoft.com/library/Bb174392(v=VS.85).aspx)
 </dt> <dt>
 
-[**SetLight**](/windows/desktop/api)
+[**SetLight**](https://msdn.microsoft.com/library/Bb174436(v=VS.85).aspx)
 </dt> </dl>
 
  

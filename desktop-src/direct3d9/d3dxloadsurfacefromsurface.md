@@ -7,14 +7,14 @@ ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXLoadSurfaceFromSurface
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
@@ -48,9 +48,9 @@ HRESULT D3DXLoadSurfaceFromSurface(
 *pDestSurface* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DSURFACE9**](/windows/desktop/api)**
+Type: **[**LPDIRECT3DSURFACE9**](https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx)**
 
-Pointer to an [**IDirect3DSurface9**](/windows/desktop/api) interface. Specifies the destination surface, which receives the image.
+Pointer to an [**IDirect3DSurface9**](https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx) interface. Specifies the destination surface, which receives the image.
 
 </dd> <dt>
 
@@ -75,9 +75,9 @@ Pointer to a [**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.8
 *pSrcSurface* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DSURFACE9**](/windows/desktop/api)**
+Type: **[**LPDIRECT3DSURFACE9**](https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx)**
 
-Pointer to an [**IDirect3DSurface9**](/windows/desktop/api) interface, representing the source surface.
+Pointer to an [**IDirect3DSurface9**](https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx) interface, representing the source surface.
 
 </dd> <dt>
 
@@ -127,7 +127,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 This function handles conversion to and from compressed texture formats.
 
-Writing to a non-level-zero surface will not cause the dirty rectangle to be updated. If **D3DXLoadSurfaceFromSurface** is called and the surface was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**AddDirtyRect**](/windows/desktop/api) on the surface.
+Writing to a non-level-zero surface will not cause the dirty rectangle to be updated. If **D3DXLoadSurfaceFromSurface** is called and the surface was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**AddDirtyRect**](https://msdn.microsoft.com/library/Bb205910(v=VS.85).aspx) on the surface.
 
 ## Requirements
 

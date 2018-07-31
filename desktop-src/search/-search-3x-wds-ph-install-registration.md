@@ -66,7 +66,7 @@ Creating a protocol handler requires the implementation of the following three i
 
 -   [**ISearchProtocol**](/windows/desktop/api/Searchapi/nn-searchapi-isearchprotocol) to manage UrlAccessor objects.
 -   [**IUrlAccessor**](/windows/desktop/api/Searchapi/nn-searchapi-iurlaccessor) to expose properties and identify appropriate filters for items in the Shell data source.
--   [**IFilter**](https://www.bing.com/search?q=**IFilter**) to filter proprietary files or to enumerate and filter hierarchically stored files.
+-   [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) to filter proprietary files or to enumerate and filter hierarchically stored files.
 
 Other than the three mandatory interfaces listed, the other interfaces are optional, and you are at liberty to implement whichever optional interfaces are most appropriate for the task at hand.
 
@@ -97,10 +97,10 @@ The UrlAccessor object is instantiated and initialized by a SearchProtocol objec
 
 | Method                                                                                        | Description                                                                                                                                                                                                                                                                                                                        |
 |-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IUrlAccessor::GetLastModified**](/windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-getlastmodified)                 | Returns the time that the URL was last modified. If this time is more recent than the last time the indexer processed this URL, filter handlers (implementations of the [**IFilter**](https://www.bing.com/search?q=**IFilter**) interface) are called to extract the (possibly) changed data for that item. Modified times for directories are ignored. |
+| [**IUrlAccessor::GetLastModified**](/windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-getlastmodified)                 | Returns the time that the URL was last modified. If this time is more recent than the last time the indexer processed this URL, filter handlers (implementations of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface) are called to extract the (possibly) changed data for that item. Modified times for directories are ignored. |
 | [**IUrlAccessor::IsDirectory**](/windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-isdirectory)                         | Identifies whether the URL represents a folder containing a child URLs.                                                                                                                                                                                                                                                            |
 | [**IUrlAccessor::BindToStream**](/windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-bindtostream)                       | Binds to an [IStream interface](http://msdn.microsoft.com/en-us/library/Aa380034(VS.85).aspx) that represents the data of a file in a custom data store.                                                                                                                                                                           |
-| [**IUrlAccessor::BindToFilter**](/windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-bindtofilter)                       | Binds to a protocol handler-specific [**IFilter**](https://www.bing.com/search?q=**IFilter**), which can expose properties for the item.                                                                                                                                                                                                                 |
+| [**IUrlAccessor::BindToFilter**](/windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-bindtofilter)                       | Binds to a protocol handler-specific [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx), which can expose properties for the item.                                                                                                                                                                                                                 |
 | [**IUrlAccessor4::ShouldIndexItemContent**](/windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor4-shouldindexitemcontent) | Identifies whether the content of the item should be indexed.                                                                                                                                                                                                                                                                      |
 
 
@@ -109,21 +109,21 @@ The UrlAccessor object is instantiated and initialized by a SearchProtocol objec
 
 ### IProtocolHandlerSite
 
-The [**IProtocolHandlerSite**](/windows/desktop/api/Searchapi/nn-searchapi-iprotocolhandlersite) interface is used to instantiate a filter handler, which is hosted in an isolated process. The appropriate filter handler is obtained for a specified persistent class identifier (CLSID), document storage class, or file name extension. The benefit of asking the host process to bind to [**IFilter**](https://www.bing.com/search?q=**IFilter**) is that the host process can manage the process of locating an appropriate filter handler, and control the security involved in calling the handler.
+The [**IProtocolHandlerSite**](/windows/desktop/api/Searchapi/nn-searchapi-iprotocolhandlersite) interface is used to instantiate a filter handler, which is hosted in an isolated process. The appropriate filter handler is obtained for a specified persistent class identifier (CLSID), document storage class, or file name extension. The benefit of asking the host process to bind to [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) is that the host process can manage the process of locating an appropriate filter handler, and control the security involved in calling the handler.
 
 ## Implementing Filter Handlers for Containers
 
-If you are implementing a hierarchical protocol handler, then you must implement a filter handler for a container that enumerates child URLs. A filter handler is an implementation of the [**IFilter**](https://www.bing.com/search?q=**IFilter**) interface. The enumeration process is a loop through the [**IFilter::GetChunk**](https://www.bing.com/search?q=**IFilter::GetChunk**) and [**IFilter::GetValue**](https://www.bing.com/search?q=**IFilter::GetValue**) methods of the **IFilter** interface; each child URL is exposed as the value of the property.
+If you are implementing a hierarchical protocol handler, then you must implement a filter handler for a container that enumerates child URLs. A filter handler is an implementation of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface. The enumeration process is a loop through the [**IFilter::GetChunk**](https://msdn.microsoft.com/library/Bb266448(v=VS.85).aspx) and [**IFilter::GetValue**](https://msdn.microsoft.com/library/Bb266450(v=VS.85).aspx) methods of the **IFilter** interface; each child URL is exposed as the value of the property.
 
-[**IFilter::GetChunk**](https://www.bing.com/search?q=**IFilter::GetChunk**) returns the properties of the container. To enumerate child URLs, **IFilter::GetChunk** returns either of the following:
+[**IFilter::GetChunk**](https://msdn.microsoft.com/library/Bb266448(v=VS.85).aspx) returns the properties of the container. To enumerate child URLs, **IFilter::GetChunk** returns either of the following:
 
 -   [PKEY\_Search\_UrlToIndex](http://msdn.microsoft.com/en-us/library/bb760177(VS.85).aspx):
 
-    The URL to the item without the last modified time. [**IFilter::GetValue**](https://www.bing.com/search?q=**IFilter::GetValue**) returns a PROPVARIANT containing the child URL.
+    The URL to the item without the last modified time. [**IFilter::GetValue**](https://msdn.microsoft.com/library/Bb266450(v=VS.85).aspx) returns a PROPVARIANT containing the child URL.
 
 -   [PKEY\_Search\_UrlToIndexWithModificationTime](http://msdn.microsoft.com/en-us/library/bb760179(VS.85).aspx):
 
-    The URL and the last modified time. [**IFilter::GetValue**](https://www.bing.com/search?q=**IFilter::GetValue**) returns a PROPVARIANT containing a vector of the child URL and the last modified time.
+    The URL and the last modified time. [**IFilter::GetValue**](https://msdn.microsoft.com/library/Bb266450(v=VS.85).aspx) returns a PROPVARIANT containing a vector of the child URL and the last modified time.
 
 Returning [PKEY\_Search\_UrlToIndexWithModificationTime](http://msdn.microsoft.com/en-us/library/bb760179(VS.85).aspx) is more efficient because the indexer can immediately determine whether the item needs to be indexed without calling the [**ISearchProtocol::CreateAccessor**](/windows/desktop/api/Searchapi/nf-searchapi-isearchprotocol-createaccessor) and [**IUrlAccessor::GetLastModified**](/windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-getlastmodified) methods.
 
@@ -200,7 +200,7 @@ HRESULT GetPropVariantForUrlAndTime
 
 
 > [!Note]  
-> A container [**IFilter**](https://www.bing.com/search?q=**IFilter**) component should always enumerate all child URLs even if the child URLs have not changed, because the indexer detects deletions through the enumeration process. If the date output in a [PKEY\_Search\_UrlToIndexWithModificationTime](http://msdn.microsoft.com/en-us/library/bb760179(VS.85).aspx) indicates that the data has not changed, the indexer does not update the data for that URL.
+> A container [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) component should always enumerate all child URLs even if the child URLs have not changed, because the indexer detects deletions through the enumeration process. If the date output in a [PKEY\_Search\_UrlToIndexWithModificationTime](http://msdn.microsoft.com/en-us/library/bb760179(VS.85).aspx) indicates that the data has not changed, the indexer does not update the data for that URL.
 
  
 

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 You can directly access the surface memory by using the [**IDirect3DSurface9::LockRect**](/windows/desktop/api) method. When you call this method, the pRect parameter is a pointer to a [**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx) structure that describes the rectangle on the surface to access directly. To request that the entire surface be locked, set pRect to **NULL**. Also, you can specify a **RECT** that covers only a portion of the surface. Providing that no two rectangles overlap, two threads or processes can simultaneously lock multiple rectangles in a surface. Note that a multisample back buffer cannot be locked.
 
-The [**IDirect3DSurface9::LockRect**](/windows/desktop/api) method fills a [**D3DLOCKED\_RECT**](d3dlocked-rect.md) structure with all the information to properly access the surface memory. The structure includes information about the pitch and has a pointer to the locked bits. When you finish accessing the surface memory, call the [**IDirect3DSurface9::UnlockRect**](/windows/desktop/api) method to unlock it.
+The [**IDirect3DSurface9::LockRect**](/windows/desktop/api) method fills a [**D3DLOCKED\_RECT**](d3dlocked-rect.md) structure with all the information to properly access the surface memory. The structure includes information about the pitch and has a pointer to the locked bits. When you finish accessing the surface memory, call the [**IDirect3DSurface9::UnlockRect**](https://msdn.microsoft.com/library/Bb205898(v=VS.85).aspx) method to unlock it.
 
 While you have a surface locked, you can directly manipulate the contents. The following list describes some tips for avoiding common problems with directly rendering surface memory.
 

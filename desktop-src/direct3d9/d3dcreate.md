@@ -146,7 +146,7 @@ If this flag is set, the application must fully support all focus management eve
 
  
 
-D3DCREATE\_HARDWARE\_VERTEXPROCESSING, D3DCREATE\_MIXED\_VERTEXPROCESSING, and D3DCREATE\_SOFTWARE\_VERTEXPROCESSING are mutually exclusive flags. At least one of these vertex processing flags must be specified when calling [**CreateDevice**](/windows/desktop/api).
+D3DCREATE\_HARDWARE\_VERTEXPROCESSING, D3DCREATE\_MIXED\_VERTEXPROCESSING, and D3DCREATE\_SOFTWARE\_VERTEXPROCESSING are mutually exclusive flags. At least one of these vertex processing flags must be specified when calling [**CreateDevice**](https://msdn.microsoft.com/library/Bb174313(v=VS.85).aspx).
 
 ## Constant Information
 

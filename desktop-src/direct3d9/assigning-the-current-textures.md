@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Direct3D maintains a list of up to eight current textures. It blends these textures onto all the primitive it renders. Only textures created as texture interface pointers can be used in the set of current textures.
 
-Applications call the [**IDirect3DDevice9::SetTexture**](/windows/desktop/api) method to assign textures into the set of current textures. The first parameter must be a number in the range of 0-7, inclusive. Pass the texture interface pointer as the second parameter.
+Applications call the [**IDirect3DDevice9::SetTexture**](https://msdn.microsoft.com/library/Bb174461(v=VS.85).aspx) method to assign textures into the set of current textures. The first parameter must be a number in the range of 0-7, inclusive. Pass the texture interface pointer as the second parameter.
 
 The following C++ code example demonstrates how a texture can be assigned to the set of current textures.
 

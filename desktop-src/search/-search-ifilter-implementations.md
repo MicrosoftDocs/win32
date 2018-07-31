@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Filter Handlers that Ship with Windows
 
-Microsoft supplies several standard filters with Windows Search. Clients call these filter handlers (which are implementations of the [**IFilter**](https://www.bing.com/search?q=**IFilter**) interface) to extract text and properties from a document.
+Microsoft supplies several standard filters with Windows Search. Clients call these filter handlers (which are implementations of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface) to extract text and properties from a document.
 
 This topic is organized as follows:
 
@@ -44,7 +44,7 @@ For property description flags specific to Windows 7, see the following referen
 
 ### Windows Vista Implementation
 
-In Windows Vista and earlier, installing an [**IFilter**](https://www.bing.com/search?q=**IFilter**) or property handler does not initiate a re-indexing of existing items unless an independent software vendor (ISV) explicitly calls a rebuild or re-indexing of matching URLs.
+In Windows Vista and earlier, installing an [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) or property handler does not initiate a re-indexing of existing items unless an independent software vendor (ISV) explicitly calls a rebuild or re-indexing of matching URLs.
 
 There are two major differences between legacy applications like Indexing Service and newer applications like Windows Search that you should be aware of when implementing filters:
 
@@ -67,7 +67,7 @@ However, there are times when you need to implement a filter that handles both c
 -   Preserve language information.
 -   Recursively filter embedded items.
 
-In these situations, you need a full filter implementation, including the [**IFilter::GetValue**](https://www.bing.com/search?q=**IFilter::GetValue**) method to access property values.
+In these situations, you need a full filter implementation, including the [**IFilter::GetValue**](https://msdn.microsoft.com/library/Bb266450(v=VS.85).aspx) method to access property values.
 
 ### Legacy Implementation
 
@@ -77,7 +77,7 @@ For more information on developing a compatible filter, see the following topics
 
 ## Windows Search Filters
 
-Microsoft supplies several standard filters with Windows Search. The [**IFilter**](https://www.bing.com/search?q=**IFilter**)  DLL contents are summarized in the following table. Clicking the name of a filter handler takes you to the description for that **IFilter** implementation.
+Microsoft supplies several standard filters with Windows Search. The [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx)  DLL contents are summarized in the following table. Clicking the name of a filter handler takes you to the description for that **IFilter** implementation.
 
 
 
@@ -99,9 +99,9 @@ The MIME filter handler (in mimefilt.dll) extracts text and property information
 
 ### HTML Filter Handler
 
-The HTML filter handler (in nlhtml.dll) extracts text and property information from the class "htmlfiles" so that it can be indexed by Windows Search. For a description of the association between [**IFilter**](https://www.bing.com/search?q=**IFilter**) and file type, see "Finding the IFilter DLL for a File" in [Registering Filter Handlers](-search-ifilter-registering-filters.md).
+The HTML filter handler (in nlhtml.dll) extracts text and property information from the class "htmlfiles" so that it can be indexed by Windows Search. For a description of the association between [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) and file type, see "Finding the IFilter DLL for a File" in [Registering Filter Handlers](-search-ifilter-registering-filters.md).
 
-You can use the `META` tag feature of HTML documents to convey special handling requests to the HTML [**IFilter**](https://www.bing.com/search?q=**IFilter**). `META` tags occur near the beginning of an html file within the `HEAD ... /HEAD` tags, as illustrated in the following example.
+You can use the `META` tag feature of HTML documents to convey special handling requests to the HTML [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx). `META` tags occur near the beginning of an html file within the `HEAD ... /HEAD` tags, as illustrated in the following example.
 
 
 ```
@@ -131,7 +131,7 @@ Some HTML `META` tags are automatically mapped to well known property set and pr
 
  
 
-Some features of the HTML [**IFilter**](https://www.bing.com/search?q=**IFilter**) are listed in the following table.
+Some features of the HTML [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) are listed in the following table.
 
 
 
@@ -224,11 +224,11 @@ The Document filter handler (in offilt.dll) filters files for some extensions of
 
 ### Plain Text Filter Handler
 
-For plain-text files, Windows Search uses the text filter handler, which filters both the system properties (such as file names) and the contents of a file. When a file type does not have an [**IFilter**](https://www.bing.com/search?q=**IFilter**) association in the registry, Windows Search indexes only the Shell properties for the file. However the user can use the **Advanced Options** in the **Indexing Options** control panel to **Index Properties** or **Index Properties and File Contents**.
+For plain-text files, Windows Search uses the text filter handler, which filters both the system properties (such as file names) and the contents of a file. When a file type does not have an [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) association in the registry, Windows Search indexes only the Shell properties for the file. However the user can use the **Advanced Options** in the **Indexing Options** control panel to **Index Properties** or **Index Properties and File Contents**.
 
 ![screen shot showing the advanced options dialog box](images/ifilteradvancedoptions.png)
 
-If the user chooses this option for a file type without an associated [**IFilter**](https://www.bing.com/search?q=**IFilter**), the text filter handler is used to extract the content of the file. The text filter handler does not "understand" any document format; when filtering the contents of a file, it treats the file as a sequence of characters. It does check for the Unicode byte-order mark at the beginning of the file.
+If the user chooses this option for a file type without an associated [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx), the text filter handler is used to extract the content of the file. The text filter handler does not "understand" any document format; when filtering the contents of a file, it treats the file as a sequence of characters. It does check for the Unicode byte-order mark at the beginning of the file.
 
 ### Binary or Null Filter Handler
 
@@ -236,7 +236,7 @@ When a registered binary file is encountered, the null filter handler is used. T
 
 ## Additional Resources
 
--   The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [Code Gallery](http://go.microsoft.com/fwlink/p/?linkid=155654) and the [Windows 7 SDK](http://go.microsoft.com/fwlink/p/?linkid=129787), demonstrates how to create an IFilter base class for implementing the [**IFilter**](https://www.bing.com/search?q=**IFilter**) interface.
+-   The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [Code Gallery](http://go.microsoft.com/fwlink/p/?linkid=155654) and the [Windows 7 SDK](http://go.microsoft.com/fwlink/p/?linkid=129787), demonstrates how to create an IFilter base class for implementing the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface.
 -   For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
 -   For an overview of file types, see [File Types](http://msdn.microsoft.com/en-us/library/cc144148(VS.85).aspx).
 -   To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](http://msdn.microsoft.com/en-us/library/cc144150(VS.85).aspx).
