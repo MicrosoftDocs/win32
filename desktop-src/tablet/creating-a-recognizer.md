@@ -21,7 +21,7 @@ If you choose to do so, your application can provide its own recognizer implemen
 The following sections detail the implementation of a custom recognizer:
 
 -   [Recognition API Architecture](recognition-api-architecture.md)
--   [Required Recognition APIs](tablet-required_recognition_apis)
+-   [Required Recognition APIs](https://msdn.microsoft.com/library/ms701664(v=VS.85).aspx)
 -   [HRECOGNIZER and HRECOCONTEXT](hrecognizer-and-hrecocontext.md)
 -   [Recognizer Lattice Structure](recognizer-lattice-structure.md)
 -   [Registering Your Recognizer DLL](registering-your-recognizer-dll.md)

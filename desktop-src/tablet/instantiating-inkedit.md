@@ -15,7 +15,7 @@ This topic describes the various ways that you can instantiate an [InkEdit](inke
 
 ## Visual Basic .NET and C\#
 
-If you are working with Microsoft Visual Basic .NET or C\#, drag the [InkEdit](frlrfMicrosoftInkInkEditClassTopic) control from the Toolbox in Visual Studio to the form or page where you want the control to appear.
+If you are working with Microsoft Visual Basic .NET or C\#, drag the [InkEdit](https://msdn.microsoft.com/library/ms701682(v=VS.85).aspx) control from the Toolbox in Visual Studio to the form or page where you want the control to appear.
 
 ## Win32/C++
 

@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 Specifies one preferred network provider in a list of providers to be used when roaming.
 
-The value of this element is an instance of the v1 [**providerType**](../mbn/schema_providertype_complextype.md) complex type.
+The value of this element is an instance of the v1 [**providerType**](https://msdn.microsoft.com/library/Dd323298(v=VS.85).aspx) complex type.
 
 ## Element hierarchy
 

@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 The user name to use for logon.
 
-For more details, see the documentation for the v1 [**UserName**](../mbn/schema_username_userlogoncred_element.md) element.
+For more details, see the documentation for the v1 [**UserName**](https://msdn.microsoft.com/library/Dd323307(v=VS.85).aspx) element.
 
 ## Element hierarchy
 

@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 Specifies a list of preferred network providers when roaming.
 
-For details, see the documentation for the v1 [**DataRoamingPartners**](../mbn/schema_dataroamingpartners_mbnprofile_element.md) element.
+For details, see the documentation for the v1 [**DataRoamingPartners**](https://msdn.microsoft.com/library/Dd323281(v=VS.85).aspx) element.
 
 ## Element hierarchy
 

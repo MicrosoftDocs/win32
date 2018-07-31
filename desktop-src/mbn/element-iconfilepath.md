@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 The path to the icon file for the connection. The operating system connection user interface displays the icon when a connection is made using this profile.
 
-For more details on using this element, see the v1 documentation for [**ICONFilePath**](../mbn/schema_iconfilepath_mbnprofile_element.md).
+For more details on using this element, see the v1 documentation for [**ICONFilePath**](https://msdn.microsoft.com/library/Dd323285(v=VS.85).aspx).
 
 ## Element hierarchy
 

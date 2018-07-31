@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 # <span id="WWAN_profile_v2.element_DisplayProviderName"></span>DisplayProviderName
 
-The [**DisplayProviderName**](element-displayprovidername.md) element is an optional [**providerNameType**](../mbn/schema_providernametype_simpletype.md) that contains the network connection name to display in the Windows Connection Manager. This name will only be displayed if the subscriber is on a home network and not roaming. The roaming network name is displayed based on information from the mobile broadband device.
+The [**DisplayProviderName**](element-displayprovidername.md) element is an optional [**providerNameType**](https://msdn.microsoft.com/library/Dd323296(v=VS.85).aspx) that contains the network connection name to display in the Windows Connection Manager. This name will only be displayed if the subscriber is on a home network and not roaming. The roaming network name is displayed based on information from the mobile broadband device.
 
 ## Element hierarchy
 

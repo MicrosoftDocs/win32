@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 # <span id="WWAN_profile_v4.element_HomeProviderName"></span>HomeProviderName
 
-The name of the home provider for the given SIM/Device. For more information, see the documentation for the v1 [**HomeProviderName**](../mbn/schema_homeprovidername_mbnprofile_element.md) element.
+The name of the home provider for the given SIM/Device. For more information, see the documentation for the v1 [**HomeProviderName**](https://msdn.microsoft.com/library/Dd323284(v=VS.85).aspx) element.
 
 ## Element hierarchy
 

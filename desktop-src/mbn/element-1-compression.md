@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 Specifies whether compression will be used at the data link for header and data transfer.
 
-For more information, see the documentation for the v1 [**Compression**](../mbn/schema_compression_contexttype_element.md) element.
+For more information, see the documentation for the v1 [**Compression**](https://msdn.microsoft.com/library/Dd323277(v=VS.85).aspx) element.
 
 ## Element hierarchy
 

@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 # <span id="WWAN_profile_v4.element_IsLongStandingAdditionalPdpContextProfile"></span>IsLongStandingAdditionalPdpContextProfile
 
-Specifies that this profile is a long-standing additional PDP context profile.If the value of this element is **true**, then [**IsAdditionalPdpContextProfile**](../WWAN_profile_v3/element_IsAdditionalPdpContextProfile.md) must also be set to **true**. This is a new element for v4.
+Specifies that this profile is a long-standing additional PDP context profile.If the value of this element is **true**, then [**IsAdditionalPdpContextProfile**](https://msdn.microsoft.com/library/Mt156987(v=VS.85).aspx) must also be set to **true**. This is a new element for v4.
 
 ## Element hierarchy
 

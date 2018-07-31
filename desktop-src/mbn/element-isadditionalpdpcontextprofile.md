@@ -20,8 +20,8 @@ An "additional PDP context" profile is a profile that does not get activated ove
 
 Note that if this element is set to true, then the following must also be true.
 
--   The [**IsDefault**](../mbn/schema_isdefault_mbnprofile_element.md) element must be unspecified or set to **false** for the profile to be valid.
--   The [**ConnectionMode**](../mbn/schema_connectionmode_mbnprofile_element.md) element must be unspecified or set to **manual** for the profile to be valid.
+-   The [**IsDefault**](https://msdn.microsoft.com/library/Dd323288(v=VS.85).aspx) element must be unspecified or set to **false** for the profile to be valid.
+-   The [**ConnectionMode**](https://msdn.microsoft.com/library/Dd323278(v=VS.85).aspx) element must be unspecified or set to **manual** for the profile to be valid.
 
 ## Element hierarchy
 

@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 # <span id="WWAN_profile_v4.element_Name"></span>Name
 
-The name of the profile. For more information, see the documentation for the v1 [**Name**](../mbn/schema_name_mbnprofile_element.md) element.
+The name of the profile. For more information, see the documentation for the v1 [**Name**](https://msdn.microsoft.com/library/Dd323291(v=VS.85).aspx) element.
 
 ## Element hierarchy
 

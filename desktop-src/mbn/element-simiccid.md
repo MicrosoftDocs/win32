@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 # <span id="WWAN_profile_v4.element_SimIccID"></span>SimIccID
 
-The SIM Identifcation number for GSM devices. For more details , see the documentation for the v1 [**SimIccID**](../mbn/schema_simiccid_mbnprofile_element.md) element.
+The SIM Identifcation number for GSM devices. For more details , see the documentation for the v1 [**SimIccID**](https://msdn.microsoft.com/library/Dd323302(v=VS.85).aspx) element.
 
 ## Element hierarchy
 

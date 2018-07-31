@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 Identifies the APN or dial string to be used to establish a data connection.
 
-For more information, see the documentation for the v1 [**AccessString**](../mbn/schema_accessstring_contexttype_element.md) element.
+For more information, see the documentation for the v1 [**AccessString**](https://msdn.microsoft.com/library/Dd323273(v=VS.85).aspx) element.
 
 ## Element hierarchy
 

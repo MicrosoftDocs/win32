@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 <dl>
 
-[Virtual Disk](../vhd/portal.md)  
+[Virtual Disk](https://msdn.microsoft.com/library/Dd323684(v=VS.85).aspx)  
 </dl>
 
  

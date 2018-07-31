@@ -19,11 +19,11 @@ Configuration information for Multimedia Messaging Service (MMS).
 In addition to setting the configuration elements within this element, an MMS profile must have the following settings.
 
 -   Its [**Name**](element-name.md) element must contain a system-wide unique name.
--   Its [**ProfileCreationType**](../mbn/schema_profilecreationtype_mbnprofile_element.md) must be set to **UserProvisioned**.
+-   Its [**ProfileCreationType**](https://msdn.microsoft.com/library/Dd323293(v=VS.85).aspx) must be set to **UserProvisioned**.
 -   Its [**SimIccID**](https://msdn.microsoft.com/en-us/library/Dd323201(v=VS.85).aspx) must contain the ICCID of the SIM that this profile is intended for.
--   Its [**ConnectionMode**](../mbn/schema_connectionmode_mbnprofile_element.md) must be set to **Manual**.
+-   Its [**ConnectionMode**](https://msdn.microsoft.com/library/Dd323278(v=VS.85).aspx) must be set to **Manual**.
 -   Its [**PurposeGroupGuid**](element-purposegroupguid.md) must contain the GUID for MMS purpose group.
--   Its [**IsAdditionalPdpContextProfile**](../WWAN_profile_v3/element_IsAdditionalPdpContextProfile.md) must be set to **true**.
+-   Its [**IsAdditionalPdpContextProfile**](https://msdn.microsoft.com/library/Mt156987(v=VS.85).aspx) must be set to **true**.
 
 ## Element hierarchy
 

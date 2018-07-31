@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 Specifies whether this profile is the default profile.
 
-For more detail on this element, see the v1 documentation for [**IsDefault**](../mbn/schema_isdefault_mbnprofile_element.md).
+For more detail on this element, see the v1 documentation for [**IsDefault**](https://msdn.microsoft.com/library/Dd323288(v=VS.85).aspx).
 
 ## Element hierarchy
 

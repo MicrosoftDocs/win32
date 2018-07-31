@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 Specifies the the creator of the profile.
 
-For more information about this element, see the documentation for the v1 [**ProfileCreationType**](../mbn/schema_profilecreationtype_mbnprofile_element.md) element.
+For more information about this element, see the documentation for the v1 [**ProfileCreationType**](https://msdn.microsoft.com/library/Dd323293(v=VS.85).aspx) element.
 
 ## Element hierarchy
 

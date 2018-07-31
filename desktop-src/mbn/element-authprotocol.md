@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 Note that in v4, a new enumeration value is available for this element. **AutoSelection** means that an auth protocol is to be picked by lower layer(s).
 
-For further information, see the documentation for the v1 [**AuthProtocol**](../mbn/schema_authprotocol_contexttype_element.md) element.
+For further information, see the documentation for the v1 [**AuthProtocol**](https://msdn.microsoft.com/library/Dd323274(v=VS.85).aspx) element.
 
 ## Element hierarchy
 
