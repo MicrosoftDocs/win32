@@ -32,7 +32,7 @@ ms.date: 05/31/2018
 
 <dl> <dt>
 
-[Internet](https://www.bing.com/search?q=Internet)
+[Internet](https://msdn.microsoft.com/library/Hh309468(v=VS.85).aspx)
 </dt> <dt>
 
 [Networking](https://msdn.microsoft.com/en-us/library/Ee663286(v=VS.85).aspx)

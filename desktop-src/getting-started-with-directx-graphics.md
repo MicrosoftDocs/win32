@@ -21,7 +21,7 @@ To compose bitmaps that Direct3D 11 or Direct2D populated, use [DirectCompositi
 
 To learn about how to create a Windows Store app that uses DirectX, see [Create your first Windows Store app using DirectX](https://msdn.microsoft.com/en-us/library/BR229580(v=Win.10).aspx). You can use the [**Windows.UI::Xaml::Controls::SwapChainPanel**](https://msdn.microsoft.com/en-us/library/Dn252834(v=WIN.10).aspx) class to create high-performance DirectX apps with a XAML UI overlay. For more info about combining XAML and DirectX in a Windows Store app, see [DirectX and XAML interop](https://msdn.microsoft.com/en-us/library/Hh825871(v=WIN.10).aspx).
 
-To learn about how to build a display driver for Windows 8, see [Roadmap for Developing Drivers for the Windows Vista Display Driver Model (WDDM)](https://www.bing.com/search?q=Roadmap+for+Developing+Drivers+for+the+Windows+Vista+Display+Driver+Model+(WDDM)).
+To learn about how to build a display driver for Windows 8, see [Roadmap for Developing Drivers for the Windows Vista Display Driver Model (WDDM)](https://msdn.microsoft.com/library/Ff569513(v=VS.85).aspx).
 
 If you need the documentation for previous DirectX versions, see [Classic DirectX Graphics](https://msdn.microsoft.com/en-us/library/Hh309465(v=VS.85).aspx).
 

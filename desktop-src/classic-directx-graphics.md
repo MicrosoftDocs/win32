@@ -26,7 +26,7 @@ For information about getting started with DirectX graphics, see [Getting Starte
 | [DirectDraw](https://msdn.microsoft.com/library/windows/desktop/gg426115)<br/>                        | Provides information about programming with DirectDraw.<br/>                                                                         |
 | [Technical Articles](https://msdn.microsoft.com/library/windows/desktop/ee416994)<br/>    | Provides a series of technical articles about developing games for Windows.<br/>                                                     |
 | [Where is the DirectX SDK?](https://msdn.microsoft.com/en-us/library/Ee663275(v=VS.85).aspx)<br/> | Provides information about where to find DirectX technologies, tools, and documentation that the DirectX SDK formerly provided.<br/> |
-| [DirectX 9.0 for Managed Code](https://www.bing.com/search?q=DirectX+9.0+for+Managed+Code)<br/>          | Provides information about programming with DirectX 9.0 for Managed Code.<br/>                                                       |
+| [DirectX 9.0 for Managed Code](https://msdn.microsoft.com/library/Bb318658(v=VS.85).aspx)<br/>          | Provides information about programming with DirectX 9.0 for Managed Code.<br/>                                                       |
 
 
 

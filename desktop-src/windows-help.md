@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 ## In this section
 
 -   [Assistance Platform 1.0 Client](https://msdn.microsoft.com/en-us/library/ms728717(v=VS.85).aspx)
--   [Microsoft HTML Help 1.4](https://www.bing.com/search?q=Microsoft+HTML+Help+1.4)
+-   [Microsoft HTML Help 1.4](https://msdn.microsoft.com/library/ms670169(v=VS.85).aspx)
 
  
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Peformance Counters Reference
 
--   [**Windows 2000 Performance Counters Reference**](https://www.bing.com/search?q=**Windows+2000+Performance+Counters+Reference**)
+-   [**Windows 2000 Performance Counters Reference**](https://msdn.microsoft.com/library/Aa833096(v=office.10).aspx)
 
  
 

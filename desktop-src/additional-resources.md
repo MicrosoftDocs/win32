@@ -17,7 +17,7 @@ This section of the Library contains archived articles. Some articles cover depr
 
 | If you're interested in:                                                                                                                     | Use this instead:                                                                         |
 |----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| [Graphics Device Interface (GDI)](https://msdn.microsoft.com/library/windows/desktop/dd145203)<br/> [GDI+](https://www.bing.com/search?q=GDI+)<br/>                        | [Direct2D](https://msdn.microsoft.com/library/windows/desktop/dd372349)                                                            |
+| [Graphics Device Interface (GDI)](https://msdn.microsoft.com/library/windows/desktop/dd145203)<br/> [GDI+](https://msdn.microsoft.com/library/ms533799(v=VS.85).aspx)<br/>                        | [Direct2D](https://msdn.microsoft.com/library/windows/desktop/dd372349)                                                            |
 | [Microsoft UDDI SDK](https://msdn.microsoft.com/en-us/library/Aa966237(v=BTS.10).aspx)                                                                                   | Included with [Microsoft BizTalk Server](http://go.microsoft.com/fwlink/p/?LinkID=122067) |
 | [Remote Installation Service](https://msdn.microsoft.com/en-us/library/Cc786442(v=WS.10).aspx)                                                                          | [Windows Deployment Services](https://msdn.microsoft.com/library/windows/desktop/dd379586)                     |
 | [Virtual Disk Service (VDS)](https://msdn.microsoft.com/library/windows/desktop/aa383429)                                                                                             | [Windows Storage Management](https://msdn.microsoft.com/library/windows/desktop/hh830613)              |
@@ -47,9 +47,9 @@ The following includes our archived articles.
 -   [Legacy Windows Environment Features](https://msdn.microsoft.com/library/windows/desktop/ff945809)
 -   [Mobile PC](https://msdn.microsoft.com/en-us/library/Dd302492(v=VS.85).aspx)
 -   [NetBIOS](https://www.bing.com/search?q=NetBIOS)
--   [OLE DB Provider for Internet Publishing](https://www.bing.com/search?q=OLE+DB+Provider+for+Internet+Publishing)
+-   [OLE DB Provider for Internet Publishing](https://msdn.microsoft.com/library/Hh547020(v=VS.85).aspx)
 -   [PC Health](https://www.bing.com/search?q=PC+Health)
--   [Removable Storage Manager](https://www.bing.com/search?q=Removable+Storage+Manager)
+-   [Removable Storage Manager](https://msdn.microsoft.com/library/Bb540725(v=VS.85).aspx)
 -   [Security Technical Articles](https://msdn.microsoft.com/en-us/library/Hh703255(v=VS.85).aspx)
 -   [Setup API](https://msdn.microsoft.com/library/windows/desktop/cc185682)
 -   [Smart Card](https://msdn.microsoft.com/en-us/library/Hh546982(v=VS.85).aspx)

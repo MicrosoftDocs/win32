@@ -22,7 +22,7 @@ When you want to create a new desktop app, the first decision you make is whethe
 | Topic                                                                                                | Description                                                                                  |
 |------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | [Create your first app using DirectX](https://msdn.microsoft.com/library/windows/desktop/dn643741)<br/> | This basic tutorial will get you started with DirectX app development.<br/>            |
-| [Learn to Program for Windows](https://www.bing.com/search?q=Learn+to+Program+for+Windows)<br/>                   | The aim of this series is to teach you how to write a Windows program in C++.<br/>     |
+| [Learn to Program for Windows](https://msdn.microsoft.com/library/Ff381399(v=VS.85).aspx)<br/>                   | The aim of this series is to teach you how to write a Windows program in C++.<br/>     |
 | [Programming Guide for 64-bit Windows](https://msdn.microsoft.com/library/windows/desktop/bb427430)<br/>    | Describes programming for 64-bit versions of the Windows operating system.<br/>        |
 | [Using the Windows Headers](https://msdn.microsoft.com/library/windows/desktop/aa383745)<br/>                            | Provides an overview of some of the conventions used in the Windows header files.<br/> |
 

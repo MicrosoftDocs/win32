@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Real-Time Communications (RTC) Client
 
--   [**Implementing Automated Agents (Bots) using the RTC Client API**](https://www.bing.com/search?q=**Implementing+Automated+Agents+(Bots)+using+the+RTC+Client+API**)
--   [**Using the RTC Client API**](https://www.bing.com/search?q=**Using+the+RTC+Client+API**)
--   [**Using the RTC Client API for Scalable Applications**](https://www.bing.com/search?q=**Using+the+RTC+Client+API+for+Scalable+Applications**)
+-   [**Implementing Automated Agents (Bots) using the RTC Client API**](https://msdn.microsoft.com/library/Bb246482(v=office.11).aspx)
+-   [**Using the RTC Client API**](https://msdn.microsoft.com/library/Bb246483(v=office.11).aspx)
+-   [**Using the RTC Client API for Scalable Applications**](https://msdn.microsoft.com/library/Bb246484(v=office.11).aspx)
 
  
 

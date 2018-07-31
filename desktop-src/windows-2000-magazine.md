@@ -11,8 +11,8 @@ ms.date: 05/31/2018
 
 # Windows 2000 Magazine
 
--   [**Windows 2000 Magazine (2001)**](https://www.bing.com/search?q=**Windows+2000+Magazine+(2001)**)
--   [**Windows 2000 Magazine (2000)**](https://www.bing.com/search?q=**Windows+2000+Magazine+(2000)**)
+-   [**Windows 2000 Magazine (2001)**](https://msdn.microsoft.com/library/ms954429(v=MSDN.10).aspx)
+-   [**Windows 2000 Magazine (2000)**](https://msdn.microsoft.com/library/ms995915(v=MSDN.10).aspx)
 
  
 

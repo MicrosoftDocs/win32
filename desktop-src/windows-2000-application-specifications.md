@@ -11,8 +11,8 @@ ms.date: 05/31/2018
 
 # Windows 2000 Application Specifications
 
--   [**Application Specification for Microsoft Windows 2000 for Desktop Applications**](https://www.bing.com/search?q=**Application+Specification+for+Microsoft+Windows+2000+for+Desktop+Applications**)
--   [**Application Specification for Microsoft Windows 2000 Server**](https://www.bing.com/search?q=**Application+Specification+for+Microsoft+Windows+2000+Server**)
+-   [**Application Specification for Microsoft Windows 2000 for Desktop Applications**](https://msdn.microsoft.com/library/ms954115(v=MSDN.10).aspx)
+-   [**Application Specification for Microsoft Windows 2000 Server**](https://msdn.microsoft.com/library/ms954370(v=MSDN.10).aspx)
 
  
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Outlook Web Access
 
--   [**Microsoft Outlook Web Access Performance and Extensibility**](https://www.bing.com/search?q=**Microsoft+Outlook+Web+Access+Performance+and+Extensibility**)
+-   [**Microsoft Outlook Web Access Performance and Extensibility**](https://msdn.microsoft.com/library/ms811014(v=MSDN.10).aspx)
 
  
 

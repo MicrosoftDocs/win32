@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [Delta Compression Application Programming Interfaces](https://www.bing.com/search?q=Delta+Compression+Application+Programming+Interfaces)
--   [Microsoft Cabinet Format](https://www.bing.com/search?q=Microsoft+Cabinet+Format)
--   [Glossary](https://www.bing.com/search?q=Glossary)
+-   [Delta Compression Application Programming Interfaces](https://msdn.microsoft.com/library/Bb267312(v=VS.85).aspx)
+-   [Microsoft Cabinet Format](https://msdn.microsoft.com/library/Bb267310(v=VS.85).aspx)
+-   [Glossary](https://msdn.microsoft.com/library/Bb267311(v=VS.85).aspx)
 
  
 

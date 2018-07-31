@@ -11,8 +11,8 @@ ms.date: 05/31/2018
 
 # Collaboration Data Objects (CDO)
 
--   [**Collaboration Data Objects Roadmap**](https://www.bing.com/search?q=**Collaboration+Data+Objects+Roadmap**)
--   [**Collaboration Data Objects: Using E-Mail in Your Application**](https://www.bing.com/search?q=**Collaboration+Data+Objects:+Using+E-Mail+in+Your+Application**)
+-   [**Collaboration Data Objects Roadmap**](https://msdn.microsoft.com/library/ms978698(v=MSDN.10).aspx)
+-   [**Collaboration Data Objects: Using E-Mail in Your Application**](https://msdn.microsoft.com/library/Cc420644(v=MSDN.10).aspx)
 
  
 

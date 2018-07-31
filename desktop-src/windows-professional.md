@@ -12,8 +12,8 @@ ms.date: 05/31/2018
 # Windows Professional
 
 -   Windows Professional (2002)
--   [Windows Professional (2001)](https://www.bing.com/search?q=Windows+Professional+(2001))
--   [Windows Professional (2000)](https://www.bing.com/search?q=Windows+Professional+(2000))
+-   [Windows Professional (2001)](https://msdn.microsoft.com/library/ms977175(v=MSDN.10).aspx)
+-   [Windows Professional (2000)](https://msdn.microsoft.com/library/ms977174(v=MSDN.10).aspx)
 
  
 

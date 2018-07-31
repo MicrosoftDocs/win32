@@ -11,8 +11,8 @@ ms.date: 05/31/2018
 
 # SMTP Server
 
--   [**Microsoft Windows 2000 SMTP Service Events**](https://www.bing.com/search?q=**Microsoft+Windows+2000+SMTP+Service+Events**)
--   [**Writing Managed Sinks for SMTP and Transport Events**](https://www.bing.com/search?q=**Writing+Managed+Sinks+for+SMTP+and+Transport+Events**)
+-   [**Microsoft Windows 2000 SMTP Service Events**](https://msdn.microsoft.com/library/Cc401824(v=MSDN.10).aspx)
+-   [**Writing Managed Sinks for SMTP and Transport Events**](https://msdn.microsoft.com/library/ms998610(v=MSDN.10).aspx)
 
  
 

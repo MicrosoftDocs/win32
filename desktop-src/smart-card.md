@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 This section contains the archived technical articles related to outdated smart card technologies.
 
 -   [Smart Card API](https://msdn.microsoft.com/en-us/library/Dd627646(v=VS.85).aspx)
--   [The Smart Card Cryptographic Service Provider Cookbook](https://www.bing.com/search?q=The+Smart+Card+Cryptographic+Service+Provider+Cookbook)
+-   [The Smart Card Cryptographic Service Provider Cookbook](https://msdn.microsoft.com/library/ms953432(v=MSDN.10).aspx)
 
  
 
