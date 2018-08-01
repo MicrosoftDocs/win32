@@ -99,12 +99,12 @@ IFACEMETHODIMP CMediaPlayer::QueryInterface(REFIID iid, void **pvObject)
 
 IFACEMETHODIMP_(ULONG) CMediaPlayer::AddRef()
 {
-    return InterlockedIncrement(&amp;_refCount);
+    return InterlockedIncrement(&_refCount);
 }
 
 IFACEMETHODIMP_(ULONG) CMediaPlayer::Release()
 {
-    LONG refs = InterlockedDecrement(&amp;_refCount);
+    LONG refs = InterlockedDecrement(&_refCount);
 
     if (refs == 0)
     {

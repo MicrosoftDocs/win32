@@ -43,7 +43,7 @@ int __cdecl main(){
     EntityInfo.EntityId.EntityInstanceId = PROTOCOL_ID(PROTO_TYPE_UCAST, PROTO_VENDOR_ID, PROTO_IP_RIP);
 
     // Register the new entity.
-    dwRet = RtmRegisterEntity(&amp;EntityInfo, NULL, NULL, FALSE, &amp;RegnProfile, &amp;RtmRegHandle);
+    dwRet = RtmRegisterEntity(&EntityInfo, NULL, NULL, FALSE, &RegnProfile, &RtmRegHandle);
     if (dwRet != ERROR_SUCCESS){
         // Registration failed
         // Do something here
@@ -52,7 +52,7 @@ int __cdecl main(){
     }
 
     // This call will return the number of entities in NumEntities for use in the next call to this function.
-    dwRet = RtmGetRegisteredEntities(RtmRegHandle, &amp;NumEntities, &amp;EntityHandle, NULL);
+    dwRet = RtmGetRegisteredEntities(RtmRegHandle, &NumEntities, &EntityHandle, NULL);
 
     if (dwRet == ERROR_INSUFFICIENT_BUFFER){
         
@@ -67,7 +67,7 @@ int __cdecl main(){
         }
               
         // Call RtmGetRegisteredEntities in order to receive the list of registered entities into EntityInfoArray
-        dwRet = RtmGetRegisteredEntities(RtmRegHandle, &amp;NumEntities, EntityHandleArray, EntityInfoArray);
+        dwRet = RtmGetRegisteredEntities(RtmRegHandle, &NumEntities, EntityHandleArray, EntityInfoArray);
         
         // Loop through each of the registered entities and depending upon its protocol ID, do something
         for (UINT i = 0; i <= NumEntities; i++){

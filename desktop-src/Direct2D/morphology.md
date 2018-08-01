@@ -38,7 +38,7 @@ This example shows the output of the effect when using the erode mode.
 
 ```C++
 ComPtr<ID2D1Effect> morphologyEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Morphology, &amp;morphologyEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Morphology, &morphologyEffect);
 
 morphologyEffect->SetInput(0, bitmap);
 

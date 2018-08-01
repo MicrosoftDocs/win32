@@ -48,12 +48,12 @@ public:
 
     STDMETHODIMP_(ULONG) AddRef()
     {
-        return InterlockedIncrement(&amp;m_cRef); 
+        return InterlockedIncrement(&m_cRef); 
     }
 
     STDMETHODIMP_(ULONG) Release()
     {
-        ULONG count = InterlockedDecrement(&amp;m_cRef);
+        ULONG count = InterlockedDecrement(&m_cRef);
         if (count == 0)
         {
             delete this;
@@ -96,7 +96,7 @@ public:
 
         PROPVARIANT var = {};
 
-        hr = pNewData->GetSensorValue(SAMPLE_SENSOR_DATA_TYPE_HOUR, &amp;var);
+        hr = pNewData->GetSensorValue(SAMPLE_SENSOR_DATA_TYPE_HOUR, &var);
 
         if(SUCCEEDED(hr))
         {
@@ -107,11 +107,11 @@ public:
             }
         }
 
-        PropVariantClear(&amp;var);
+        PropVariantClear(&var);
 
         if(SUCCEEDED(hr))
         {
-            hr = pNewData->GetSensorValue(SAMPLE_SENSOR_DATA_TYPE_MINUTE, &amp;var);
+            hr = pNewData->GetSensorValue(SAMPLE_SENSOR_DATA_TYPE_MINUTE, &var);
         }
 
         if(SUCCEEDED(hr))
@@ -123,11 +123,11 @@ public:
             }
         }
 
-        PropVariantClear(&amp;var);
+        PropVariantClear(&var);
 
         if(SUCCEEDED(hr))
         {
-            hr = pNewData->GetSensorValue(SAMPLE_SENSOR_DATA_TYPE_SECOND, &amp;var);
+            hr = pNewData->GetSensorValue(SAMPLE_SENSOR_DATA_TYPE_SECOND, &var);
         }
 
         if(SUCCEEDED(hr))
@@ -139,7 +139,7 @@ public:
             }
         }
 
-        PropVariantClear(&amp;var);
+        PropVariantClear(&var);
 
         if(SUCCEEDED(hr))
         {
@@ -216,7 +216,7 @@ if(SUCCEEDED(hr))
 if(SUCCEEDED(hr))
 {
     // Retrieve the pointer to the callback interface.
-    hr = pEventClass->QueryInterface(IID_PPV_ARGS(&amp;pMyEvents));
+    hr = pEventClass->QueryInterface(IID_PPV_ARGS(&pMyEvents));
 }
 
 if(SUCCEEDED(hr))
@@ -264,7 +264,7 @@ HRESULT SetCurrentReportInterval(ISensor* pSensor, ULONG ulNewInterval)
     hr = CoCreateInstance(__uuidof(PortableDeviceValues),
                             NULL,
                             CLSCTX_INPROC_SERVER,                           
-                            IID_PPV_ARGS(&amp;pPropsToSet));
+                            IID_PPV_ARGS(&pPropsToSet));
 
     if(SUCCEEDED(hr))
     {
@@ -275,7 +275,7 @@ HRESULT SetCurrentReportInterval(ISensor* pSensor, ULONG ulNewInterval)
     if(SUCCEEDED(hr))
     {
         // Only setting a single property, here.
-        hr = pSensor->SetProperties(pPropsToSet, &amp;pPropsReturn);
+        hr = pSensor->SetProperties(pPropsToSet, &pPropsReturn);
     }
 
     // Test for failure.
@@ -284,7 +284,7 @@ HRESULT SetCurrentReportInterval(ISensor* pSensor, ULONG ulNewInterval)
         HRESULT hrError = S_OK;
       
         // Check results for failure.
-        hr = pPropsReturn->GetErrorValue(SENSOR_PROPERTY_CURRENT_REPORT_INTERVAL, &amp;hrError);
+        hr = pPropsReturn->GetErrorValue(SENSOR_PROPERTY_CURRENT_REPORT_INTERVAL, &hrError);
 
         if(SUCCEEDED(hr))
         {
@@ -300,8 +300,8 @@ HRESULT SetCurrentReportInterval(ISensor* pSensor, ULONG ulNewInterval)
         // No permission. Take appropriate action.
     }
 
-    SafeRelease(&amp;pPropsToSet);
-    SafeRelease(&amp;pPropsReturn);
+    SafeRelease(&pPropsToSet);
+    SafeRelease(&pPropsReturn);
    
     return hr;
 }

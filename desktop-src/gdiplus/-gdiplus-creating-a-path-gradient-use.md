@@ -27,7 +27,7 @@ GraphicsPath path;
 path.AddEllipse(0, 0, 140, 70);
 
 // Use the path to construct a brush.
-PathGradientBrush pthGrBrush(&amp;path);
+PathGradientBrush pthGrBrush(&path);
 
 // Set the color at the center of the path to blue.
 pthGrBrush.SetCenterColor(Color(255, 0, 0, 255));
@@ -35,9 +35,9 @@ pthGrBrush.SetCenterColor(Color(255, 0, 0, 255));
 // Set the color along the entire boundary of the path to aqua.
 Color colors[] = {Color(255, 0, 255, 255)};
 int count = 1;
-pthGrBrush.SetSurroundColors(colors, &amp;count);
+pthGrBrush.SetSurroundColors(colors, &count);
 
-graphics.FillEllipse(&amp;pthGrBrush, 0, 0, 140, 70);
+graphics.FillEllipse(&pthGrBrush, 0, 0, 140, 70);
 ```
 
 
@@ -68,7 +68,7 @@ GraphicsPath path;
 path.AddLines(points, 10);
 
 // Use the path to construct a path gradient brush.
-PathGradientBrush pthGrBrush(&amp;path);
+PathGradientBrush pthGrBrush(&path);
 
 // Set the color at the center of the path to red.
 pthGrBrush.SetCenterColor(Color(255, 255, 0, 0));
@@ -81,10 +81,10 @@ Color colors[] = {Color(255, 0, 0, 0),   Color(255, 0, 255, 0),
                   Color(255, 0, 0, 0),   Color(255, 0, 255, 0)};
 
 int count = 10;
-pthGrBrush.SetSurroundColors(colors, &amp;count);
+pthGrBrush.SetSurroundColors(colors, &count);
 
 // Fill the path with the path gradient brush.
-graphics.FillPath(&amp;pthGrBrush, &amp;path);
+graphics.FillPath(&pthGrBrush, &path);
 ```
 
 
@@ -117,13 +117,13 @@ Color colors[] = {Color(255, 255, 0, 0),  // (0, 0) red
                   Color(255, 255, 0, 0)}; // (0, 200) red
 
 int count = 5;
-pBrush.SetSurroundColors(colors, &amp;count);
+pBrush.SetSurroundColors(colors, &count);
 
 // Set the center color to white.
 pBrush.SetCenterColor(Color(255, 255, 255, 255));
 
 // Use the path gradient brush to fill a rectangle.
-graphics.FillRectangle(&amp;pBrush, Rect(0, 0, 180, 220));
+graphics.FillRectangle(&pBrush, Rect(0, 0, 180, 220));
 ```
 
 
@@ -149,19 +149,19 @@ GraphicsPath path;
 path.AddEllipse(0, 0, 200, 100);
 
 // Create a path gradient brush based on the elliptical path.
-PathGradientBrush pthGrBrush(&amp;path);
+PathGradientBrush pthGrBrush(&path);
 pthGrBrush.SetGammaCorrection(TRUE);
 
 // Set the color along the entire boundary to blue.
 Color color(Color(255, 0, 0, 255));
 INT num = 1;
-pthGrBrush.SetSurroundColors(&amp;color, &amp;num);
+pthGrBrush.SetSurroundColors(&color, &num);
 
 // Set the center color to aqua.
 pthGrBrush.SetCenterColor(Color(255, 0, 255, 255));
  
 // Use the path gradient brush to fill the ellipse. 
-graphics.FillPath(&amp;pthGrBrush, &amp;path);
+graphics.FillPath(&pthGrBrush, &path);
 
 // Set the focus scales for the path gradient brush.
 pthGrBrush.SetFocusScales(0.3f, 0.8f);
@@ -169,7 +169,7 @@ pthGrBrush.SetFocusScales(0.3f, 0.8f);
 // Use the path gradient brush to fill the ellipse again.
 // Show this filled ellipse to the right of the first filled ellipse.
 graphics.TranslateTransform(220.0f, 0.0f);
-graphics.FillPath(&amp;pthGrBrush, &amp;path);
+graphics.FillPath(&pthGrBrush, &path);
 ```
 
 
@@ -209,7 +209,7 @@ pthGrBrush.SetInterpolationColors(presetColors, interpPositions, 3);
 // Fill a rectangle that is larger than the triangle
 // specified in the Point array. The portion of the
 // rectangle outside the triangle will not be painted.
-graphics.FillRectangle(&amp;pthGrBrush, 0, 0, 200, 200);
+graphics.FillRectangle(&pthGrBrush, 0, 0, 200, 200);
 ```
 
 
@@ -231,7 +231,7 @@ GraphicsPath path;
 path.AddEllipse(0, 0, 140, 70);
 
 // Use the path to construct a brush.
-PathGradientBrush pthGrBrush(&amp;path);
+PathGradientBrush pthGrBrush(&path);
 
 // Set the center point to a location that is not the centroid of the path.
 pthGrBrush.SetCenterPoint(Point(120, 40));
@@ -242,9 +242,9 @@ pthGrBrush.SetCenterColor(Color(255, 0, 0, 255));
 // Set the color along the entire boundary of the path to aqua.
 Color colors[] = {Color(255, 0, 255, 255)};
 int count = 1;
-pthGrBrush.SetSurroundColors(colors, &amp;count);
+pthGrBrush.SetSurroundColors(colors, &count);
 
-graphics.FillEllipse(&amp;pthGrBrush, 0, 0, 140, 70);
+graphics.FillEllipse(&pthGrBrush, 0, 0, 140, 70);
 ```
 
 

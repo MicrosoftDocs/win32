@@ -141,7 +141,7 @@ IDWriteFactory5* pDWriteFactory; 
 HRESULT hr = DWriteCreateFactory( 
   DWRITE_FACTORY_TYPE_SHARED, 
   __uuidof(IDWriteFactory5), 
-  reinterpret_cast<IUnknown**>(&amp;pDWriteFactory) 
+  reinterpret_cast<IUnknown**>(&pDWriteFactory) 
 ); 
 ```
 
@@ -155,7 +155,7 @@ HRESULT hr = DWriteCreateFactory( 
 IDWriteFontSetBuilder1* pFontSetBuilder; 
 if (SUCCEEDED(hr)) 
 { 
-  hr = pDWriteFactory->CreateFontSetBuilder(&amp;pFontSetBuilder); 
+  hr = pDWriteFactory->CreateFontSetBuilder(&pFontSetBuilder); 
 }  
                 
 ```
@@ -170,7 +170,7 @@ if (SUCCEEDED(hr)) 
 IDWriteFontFile* pFontFile; 
 if (SUCCEEDED(hr)) 
 { 
-  hr = pDWriteFactory->CreateFontFileReference(pFilePath, /* lastWriteTime*/ nullptr, &amp;pFontFile); 
+  hr = pDWriteFactory->CreateFontFileReference(pFilePath, /* lastWriteTime*/ nullptr, &pFontFile); 
 } 
 ```
 
@@ -192,7 +192,7 @@ hr = pFontSetBuilder->AddFontFile(pFontFile); 
 
 ```C++
 IDWriteFontSet* pFontSet; 
-hr = pFontSetBuilder->CreateFontSet(&amp;pFontSet); 
+hr = pFontSetBuilder->CreateFontSet(&pFontSet); 
 ```
 
 
@@ -212,7 +212,7 @@ IDWriteFactory3* pDWriteFactory; 
 HRESULT hr = DWriteCreateFactory( 
 DWRITE_FACTORY_TYPE_SHARED, 
   __uuidof(IDWriteFactory5), 
-  reinterpret_cast<IUnknown**>(&amp;pDWriteFactory) 
+  reinterpret_cast<IUnknown**>(&pDWriteFactory) 
 ); 
 ```
 
@@ -226,7 +226,7 @@ DWRITE_FACTORY_TYPE_SHARED, 
 IDWriteFontSetBuilder* pFontSetBuilder; 
 if (SUCCEEDED(hr)) 
 { 
-  hr = pDWriteFactory->CreateFontSetBuilder(&amp;pFontSetBuilder); 
+  hr = pDWriteFactory->CreateFontSetBuilder(&pFontSetBuilder); 
 } 
 ```
 
@@ -240,7 +240,7 @@ if (SUCCEEDED(hr)) 
 IDWriteFontFile* pFontFile; 
 if (SUCCEEDED(hr)) 
 { 
-  hr = pDWriteFactory->CreateFontFileReference(pFilePath, /* lastWriteTime*/ nullptr, &amp;pFontFile); 
+  hr = pDWriteFactory->CreateFontFileReference(pFilePath, /* lastWriteTime*/ nullptr, &pFontFile); 
 } 
 ```
 
@@ -254,7 +254,7 @@ Instead of adding the file directly to the font set builder, we need to determin
 BOOL isSupported; 
 DWRITE_FONT_FILE_TYPE fileType; 
 UINT32 numberOfFonts; 
-hr = pFontFile->Analyze(&amp;isSupported, &amp;fileType, /* face type */ nullptr, &amp;numberOfFonts); 
+hr = pFontFile->Analyze(&isSupported, &fileType, /* face type */ nullptr, &numberOfFonts); 
 ```
 
 
@@ -267,7 +267,7 @@ The [**Analyze**](https://msdn.microsoft.com/en-us/library/Dd371099(v=VS.85).asp
 for (uint32_t fontIndex = 0; fontIndex < numberOfFonts; fontIndex++) 
 { 
   IDWriteFontFaceReference* pFontFaceReference;
-  hr = pDWriteFactory->CreateFontFaceReference(pFontFile, fontIndex, DWRITE_FONT_SIMULATIONS_NONE, &amp;pFontFaceReference);
+  hr = pDWriteFactory->CreateFontFaceReference(pFontFile, fontIndex, DWRITE_FONT_SIMULATIONS_NONE, &pFontFaceReference);
 
   if (SUCCEEDED(hr))
   {
@@ -349,7 +349,7 @@ if (SUCCEEDED(hr)) 
     hr = pDWriteFactory->CreateHttpFontFileLoader( 
         /* referrerURL */ nullptr, 
         /* extraHeaders */ nullptr, 
-        &amp;pRemoteFontFileLoader 
+        &pRemoteFontFileLoader 
     ); 
 } 
 ```
@@ -386,7 +386,7 @@ From this point, the steps for creating the custom font set are similar to those
      pDWriteFactory, 
      /* baseUrl */ L"https://github.com/", 
      /* fontFileUrl */ L"winjs/winjs/blob/master/src/fonts/Symbols.ttf?raw=true", 
-     &amp;pFontFile 
+     &pFontFile 
  ); 
 ```
 
@@ -405,7 +405,7 @@ Also note that the URL can point to a raw OpenType font file (.ttf, .otf, .ttc, 
 
 ```C++
  IDWriteFontFaceReference* pFontFaceReference; 
- hr = pDWriteFactory->CreateFontFaceReference(pFontFile, /* faceIndex */ 0, DWRITE_FONT_SIMULATIONS_NONE, &amp;pFontFaceReference);
+ hr = pDWriteFactory->CreateFontFaceReference(pFontFile, /* faceIndex */ 0, DWRITE_FONT_SIMULATIONS_NONE, &pFontFaceReference);
 ```
 
 
@@ -472,7 +472,7 @@ The method for creating a custom font set using in-memory font data is as follow
  IDWriteInMemoryFontFileLoader* pInMemoryFontFileLoader; 
 if (SUCCEEDED(hr)) 
 { 
-    hr = pDWriteFactory->CreateInMemoryFontFileLoader(&amp;pInMemoryFontFileLoader); 
+    hr = pDWriteFactory->CreateInMemoryFontFileLoader(&pInMemoryFontFileLoader); 
 }
 ```
 
@@ -502,7 +502,7 @@ hr = pInMemoryFontFileLoader->CreateInMemoryFontFileReference( 
     pFontDataOwner->fontData /* returns void* */, 
     pFontDataOwner->fontDataSize /* returns UINT32 */, 
     pFontDataOwner /* ownerObject, owns the memory with font data and implements IUknown */, 
-    &amp;pFontFile 
+    &pFontFile 
 ); 
 ```
 

@@ -34,7 +34,7 @@ void Modify(
   [in, optional] uint32               InternetAddress,
   [in, optional] uint8                IPProtocol,
   [in, optional] uint8                Services,
-  [out, ref]     MicrosoftDNS_WKSType &amp;RR
+  [out, ref]     MicrosoftDNS_WKSType &RR
 );
 ```
 

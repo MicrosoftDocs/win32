@@ -118,7 +118,7 @@ if(CertRegisterPhysicalStore(
       L"NEWSTORE",
       dwFlags,
       L"TESTOR.STO",
-      &amp;PhysicalStoreInfo,
+      &PhysicalStoreInfo,
       NULL
       ))
 {
@@ -134,7 +134,7 @@ else
 
 printf("Would you like to unregister the %S store? (y/n) "
        ,pvSystemName);
-scanf_s("%c",&amp;fResponse);
+scanf_s("%c",&fResponse);
 
 if(fResponse=='y')
 {

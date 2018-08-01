@@ -29,7 +29,7 @@ CComPtr<IInkRecognizerContext> g_pIInkRecoContext;
 hr = CoCreateInstance(CLSID_InkRecognizerContext, 
       NULL, CLSCTX_INPROC_SERVER,
       IID_IInkRecognizerContext, 
-(void **) &amp;g_pIInkRecoContext);
+(void **) &g_pIInkRecoContext);
 if (FAILED(hr)) 
 {
       ::MessageBox(NULL, TEXT("No recognizers installed.\nExiting."), 

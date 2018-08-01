@@ -47,7 +47,7 @@ The [**GetInterfaceInfo**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getinterfac
      
 
     ```C++
-        if (GetInterfaceInfo(pInterfaceInfo, &amp;ulOutBufLen) ==
+        if (GetInterfaceInfo(pInterfaceInfo, &ulOutBufLen) ==
             ERROR_INSUFFICIENT_BUFFER) {
             free(pInterfaceInfo);
             pInterfaceInfo = (IP_INTERFACE_INFO *) malloc(ulOutBufLen);
@@ -58,7 +58,7 @@ The [**GetInterfaceInfo**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getinterfac
 
 4.  Make a second call to [**GetInterfaceInfo**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getinterfaceinfo) with general error checking and return its value to the **DWORD** variable `dwRetVal` (for more advanced error checking).
     ```C++
-        if ((dwRetVal = GetInterfaceInfo(pInterfaceInfo, &amp;ulOutBufLen)) != NO_ERROR) {
+        if ((dwRetVal = GetInterfaceInfo(pInterfaceInfo, &ulOutBufLen)) != NO_ERROR) {
             printf("  GetInterfaceInfo failed with error: %d\n", dwRetVal);
         }
     ```

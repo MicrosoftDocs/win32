@@ -106,7 +106,7 @@ HRESULT GetFileMetadataFromFormatSDK(IWMDMMetaData* pMetadata, LPCWSTR file)
     // Do loop to allow easy error trapping. Even if there are no errors, 
     // the loop executes only once.
     do {
-        hr = WMCreateEditor(&amp;pEditor);
+        hr = WMCreateEditor(&pEditor);
         if (FAILED(hr)) 
             break;
 
@@ -116,7 +116,7 @@ HRESULT GetFileMetadataFromFormatSDK(IWMDMMetaData* pMetadata, LPCWSTR file)
             break;
 
         CComPtr<IWMHeaderInfo>pHeaderInfo;
-        hr = pEditor->QueryInterface(__uuidof(IWMHeaderInfo), (void**)&amp;pHeaderInfo);
+        hr = pEditor->QueryInterface(__uuidof(IWMHeaderInfo), (void**)&pHeaderInfo);
         if (FAILED(hr))
             break;
 
@@ -134,7 +134,7 @@ HRESULT GetFileMetadataFromFormatSDK(IWMDMMetaData* pMetadata, LPCWSTR file)
             // The function is called twice: once to get the buffer size,
             // and once to get the value in the allocated buffer.
             if (FAILED(pHeaderInfo->GetAttributeByName(
-                &amp;stream, EquivalentProperties[i].FormatSDKConst, &amp;wmfType, NULL, &amp;len)))
+                &stream, EquivalentProperties[i].FormatSDKConst, &wmfType, NULL, &len)))
             {
                 continue;
             }
@@ -142,7 +142,7 @@ HRESULT GetFileMetadataFromFormatSDK(IWMDMMetaData* pMetadata, LPCWSTR file)
             value = new BYTE[len];
             if (value == NULL) continue;
 
-            if (FAILED(pHeaderInfo->GetAttributeByName(&amp;stream, EquivalentProperties[i].FormatSDKConst, &amp;wmfType, value, &amp;len)))
+            if (FAILED(pHeaderInfo->GetAttributeByName(&stream, EquivalentProperties[i].FormatSDKConst, &wmfType, value, &len)))
             {
                 delete[] value;
                 continue;
@@ -226,7 +226,7 @@ HRESULT GetFileMetadataFromDShow(IWMDMMetaData* pMetadata, LPCWSTR file)
 
         // Get the media type for the default stream.
         AM_MEDIA_TYPE mediaType;
-        hr = pIMediaDet->get_StreamMediaType(&amp;mediaType);
+        hr = pIMediaDet->get_StreamMediaType(&mediaType);
         if (FAILED(hr))
             break;
 
@@ -240,7 +240,7 @@ HRESULT GetFileMetadataFromDShow(IWMDMMetaData* pMetadata, LPCWSTR file)
         ZeroMemory(strMediaType, 64);
 
         //Change the major type to a string, then add to IWMDMMetaData.
-        StringFromGUID2(reinterpret_cast<GUID&amp;>(mediaType.majortype),
+        StringFromGUID2(reinterpret_cast<GUID&>(mediaType.majortype),
             (LPOLESTR)strMediaType, 64);
         hr = pMetadata->AddItem(WMDM_TYPE_STRING, 
              g_wszWMDMediaClassPrimaryID, 
@@ -249,7 +249,7 @@ HRESULT GetFileMetadataFromDShow(IWMDMMetaData* pMetadata, LPCWSTR file)
 
         // Clear local string, then retrieve subtype the same way.
         ZeroMemory(strMediaType, 64);
-        StringFromGUID2(reinterpret_cast<GUID&amp;>(mediaType.subtype),
+        StringFromGUID2(reinterpret_cast<GUID&>(mediaType.subtype),
             (LPOLESTR)strMediaType, 64);
         hr = pMetadata->AddItem(WMDM_TYPE_STRING, 
             g_wszWMDMMediaClassSecondaryID, (BYTE*) strMediaType,
@@ -258,20 +258,20 @@ HRESULT GetFileMetadataFromDShow(IWMDMMetaData* pMetadata, LPCWSTR file)
         // Get the duration. Duration is retrieved in seconds, but set 
         // in 100-nanosecond units.
         double duration = 0;
-        hr = pIMediaDet->get_StreamLength(&amp;duration);
+        hr = pIMediaDet->get_StreamLength(&duration);
         if (duration > 0)
         {
             duration *= 10E7;
-            hr = pMetadata->AddItem(WMDM_TYPE_DWORD, g_wszWMDMDuration, (BYTE*) &amp;duration, sizeof(duration));
+            hr = pMetadata->AddItem(WMDM_TYPE_DWORD, g_wszWMDMDuration, (BYTE*) &duration, sizeof(duration));
         }
 
         // Get the frame rate.
         double frameRate = 0;
-        hr = pIMediaDet->get_FrameRate(&amp;frameRate);
+        hr = pIMediaDet->get_FrameRate(&frameRate);
         if (frameRate > 0)
         {
             hr = pMetadata->AddItem(WMDM_TYPE_DWORD, g_wszWMDMFrameRate, 
-                (BYTE*) &amp;frameRate,
+                (BYTE*) &frameRate,
                 sizeof(frameRate));
         }
 
@@ -282,20 +282,20 @@ HRESULT GetFileMetadataFromDShow(IWMDMMetaData* pMetadata, LPCWSTR file)
         {
             VIDEOINFOHEADER* data = (VIDEOINFOHEADER*) mediaType.pbFormat;
             hr = pMetadata->AddItem(WMDM_TYPE_DWORD, g_wszWMDMVideoBitrate, 
-               (BYTE*) &amp;data->dwBitRate, sizeof(DWORD));
+               (BYTE*) &data->dwBitRate, sizeof(DWORD));
             hr = pMetadata->AddItem(WMDM_TYPE_DWORD, g_wszWMDMHeight, 
-               (BYTE*) &amp;data->bmiHeader.biHeight, sizeof(LONG));
+               (BYTE*) &data->bmiHeader.biHeight, sizeof(LONG));
             hr = pMetadata->AddItem(WMDM_TYPE_DWORD, g_wszWMDMWidth, 
-               (BYTE*) &amp;data->bmiHeader.biWidth, sizeof(LONG));
+               (BYTE*) &data->bmiHeader.biWidth, sizeof(LONG));
         }
 
         if (IsEqualGUID(mediaType.formattype, FORMAT_WaveFormatEx))
         {
             WAVEFORMATEX* data = (WAVEFORMATEX*) mediaType.pbFormat;
             hr = pMetadata->AddItem(WMDM_TYPE_WORD, g_wszWMDMBlockAlignment, 
-                (BYTE*) &amp;data->nBlockAlign, sizeof(WORD));
+                (BYTE*) &data->nBlockAlign, sizeof(WORD));
             hr = pMetadata->AddItem(WMDM_TYPE_WORD, g_wszWMDMNumChannels, 
-               (BYTE*) &amp;data->nChannels, sizeof(WORD));
+               (BYTE*) &data->nChannels, sizeof(WORD));
         }
     } while (FALSE); // End of error loop.
     return hr;

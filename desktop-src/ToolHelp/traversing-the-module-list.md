@@ -49,7 +49,7 @@ BOOL ListProcessModules( DWORD dwPID )
  
 //  Retrieve information about the first module, 
 //  and exit if unsuccessful 
-  if( !Module32First( hModuleSnap, &amp;me32 ) ) 
+  if( !Module32First( hModuleSnap, &me32 ) ) 
   { 
     printError( TEXT("Module32First") );  // Show cause of failure 
     CloseHandle( hModuleSnap );     // Must clean up the snapshot object! 
@@ -68,7 +68,7 @@ BOOL ListProcessModules( DWORD dwPID )
     _tprintf( TEXT("\n     base address   = 0x%08X"), (DWORD) me32.modBaseAddr ); 
     _tprintf( TEXT("\n     base size      = %d"),             me32.modBaseSize ); 
  
-  } while( Module32Next( hModuleSnap, &amp;me32 ) ); 
+  } while( Module32Next( hModuleSnap, &me32 ) ); 
 
     _tprintf( TEXT("\n"));
  
@@ -94,7 +94,7 @@ void printError( TCHAR* msg )
   p = sysMsg;
   while( ( *p > 31 ) || ( *p == 9 ) )
     ++p;
-  do { *p-- = 0; } while( ( p >= sysMsg ) &amp;&amp;
+  do { *p-- = 0; } while( ( p >= sysMsg ) &&
                           ( ( *p == '.' ) || ( *p < 33 ) ) );
 
   // Display the message

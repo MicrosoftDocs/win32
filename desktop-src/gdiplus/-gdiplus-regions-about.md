@@ -31,7 +31,7 @@ To fill a region, you need a [**Graphics**](/windows/desktop/api/gdiplusgraphics
 
 
 ```
-myGraphics.FillRegion(&amp;mySolidBrush, &amp;myRegion);
+myGraphics.FillRegion(&mySolidBrush, &myRegion);
 ```
 
 

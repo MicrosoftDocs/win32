@@ -79,14 +79,14 @@ HRESULT CreateVideoStream(IMFASFProfile* pProfile, WORD wStreamNumber, IMFMediaT
     UINT32 dwBitRate = 0;
         
     //Create a new video type from the source type
-    hr = CreateCompressedVideoType(pType, &amp;pVideoType);
+    hr = CreateCompressedVideoType(pType, &pVideoType);
     if (FAILED(hr))
     {
         goto done;
     }
 
     //Create a new stream with the video type
-    hr = pProfile->CreateStream(pVideoType, &amp;pVideoStream);
+    hr = pProfile->CreateStream(pVideoType, &pVideoStream);
     if (FAILED(hr))
     {
         goto done;
@@ -111,8 +111,8 @@ HRESULT CreateVideoStream(IMFASFProfile* pProfile, WORD wStreamNumber, IMFMediaT
 
 done:
 
-    SafeRelease(&amp;pVideoStream);
-    SafeRelease(&amp;pVideoType);
+    SafeRelease(&pVideoStream);
+    SafeRelease(&pVideoType);
 
     return hr;
 }

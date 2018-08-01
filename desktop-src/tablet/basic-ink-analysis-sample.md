@@ -126,7 +126,7 @@ The sample creates two arrays to hold the various rectangles, either horizontal 
             ContextNodeCollection nodes = myInkAnalyzer.FindNodesOfType(nodeType);
 
             // If there is at least one unit, we construct the rectangles
-            if ((null != nodes) &amp;&amp; (0 < nodes.Count))
+            if ((null != nodes) && (0 < nodes.Count))
             {
                 // We need to convert rectangles from ink units to
                 // pixel units. For that, we need Graphics object

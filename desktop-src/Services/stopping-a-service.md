@@ -69,9 +69,9 @@ VOID __stdcall DoStopSvc()
     if ( !QueryServiceStatusEx( 
             schService, 
             SC_STATUS_PROCESS_INFO,
-            (LPBYTE)&amp;ssp, 
+            (LPBYTE)&ssp, 
             sizeof(SERVICE_STATUS_PROCESS),
-            &amp;dwBytesNeeded ) )
+            &dwBytesNeeded ) )
     {
         printf("QueryServiceStatusEx failed (%d)\n", GetLastError()); 
         goto stop_cleanup;
@@ -105,9 +105,9 @@ VOID __stdcall DoStopSvc()
         if ( !QueryServiceStatusEx( 
                  schService, 
                  SC_STATUS_PROCESS_INFO,
-                 (LPBYTE)&amp;ssp, 
+                 (LPBYTE)&ssp, 
                  sizeof(SERVICE_STATUS_PROCESS),
-                 &amp;dwBytesNeeded ) )
+                 &dwBytesNeeded ) )
         {
             printf("QueryServiceStatusEx failed (%d)\n", GetLastError()); 
             goto stop_cleanup;
@@ -135,7 +135,7 @@ VOID __stdcall DoStopSvc()
     if ( !ControlService( 
             schService, 
             SERVICE_CONTROL_STOP, 
-            (LPSERVICE_STATUS) &amp;ssp ) )
+            (LPSERVICE_STATUS) &ssp ) )
     {
         printf( "ControlService failed (%d)\n", GetLastError() );
         goto stop_cleanup;
@@ -149,9 +149,9 @@ VOID __stdcall DoStopSvc()
         if ( !QueryServiceStatusEx( 
                 schService, 
                 SC_STATUS_PROCESS_INFO,
-                (LPBYTE)&amp;ssp, 
+                (LPBYTE)&ssp, 
                 sizeof(SERVICE_STATUS_PROCESS),
-                &amp;dwBytesNeeded ) )
+                &dwBytesNeeded ) )
         {
             printf( "QueryServiceStatusEx failed (%d)\n", GetLastError() );
             goto stop_cleanup;
@@ -189,7 +189,7 @@ BOOL __stdcall StopDependentServices()
 
     // Pass a zero-length buffer to get the required buffer size.
     if ( EnumDependentServices( schService, SERVICE_ACTIVE, 
-         lpDependencies, 0, &amp;dwBytesNeeded, &amp;dwCount ) ) 
+         lpDependencies, 0, &dwBytesNeeded, &dwCount ) ) 
     {
          // If the Enum call succeeds, then there are no dependent
          // services, so do nothing.
@@ -210,8 +210,8 @@ BOOL __stdcall StopDependentServices()
         __try {
             // Enumerate the dependencies.
             if ( !EnumDependentServices( schService, SERVICE_ACTIVE, 
-                lpDependencies, dwBytesNeeded, &amp;dwBytesNeeded,
-                &amp;dwCount ) )
+                lpDependencies, dwBytesNeeded, &dwBytesNeeded,
+                &dwCount ) )
             return FALSE;
 
             for ( i = 0; i < dwCount; i++ ) 
@@ -229,7 +229,7 @@ BOOL __stdcall StopDependentServices()
                     // Send a stop code.
                     if ( !ControlService( hDepService, 
                             SERVICE_CONTROL_STOP,
-                            (LPSERVICE_STATUS) &amp;ssp ) )
+                            (LPSERVICE_STATUS) &ssp ) )
                     return FALSE;
 
                     // Wait for the service to stop.
@@ -239,9 +239,9 @@ BOOL __stdcall StopDependentServices()
                         if ( !QueryServiceStatusEx( 
                                 hDepService, 
                                 SC_STATUS_PROCESS_INFO,
-                                (LPBYTE)&amp;ssp, 
+                                (LPBYTE)&ssp, 
                                 sizeof(SERVICE_STATUS_PROCESS),
-                                &amp;dwBytesNeeded ) )
+                                &dwBytesNeeded ) )
                         return FALSE;
 
                         if ( ssp.dwCurrentState == SERVICE_STOPPED )

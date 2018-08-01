@@ -88,7 +88,7 @@ To create a bitmap decoder by using a stream
         CLSID_WICImagingFactory,
         NULL,
         CLSCTX_INPROC_SERVER,
-        IID_PPV_ARGS(&amp;m_pIWICFactory)
+        IID_PPV_ARGS(&m_pIWICFactory)
         );
     ```
 
@@ -99,7 +99,7 @@ To create a bitmap decoder by using a stream
     ```C++
     // Create a WIC stream to map onto the memory.
     if (SUCCEEDED(hr)){
-       hr = m_pIWICFactory->CreateStream(&amp;pIWICStream);
+       hr = m_pIWICFactory->CreateStream(&pIWICStream);
     }
 
     // Initialize the stream with the memory pointer and size.
@@ -121,7 +121,7 @@ To create a bitmap decoder by using a stream
           pIWICStream,                   // The stream to use to create the decoder
           NULL,                          // Do not prefer a particular vendor
           WICDecodeMetadataCacheOnLoad,  // Cache metadata when needed
-          &amp;pIDecoder);                   // Pointer to the decoder
+          &pIDecoder);                   // Pointer to the decoder
     }
     ```
 
@@ -133,7 +133,7 @@ To create a bitmap decoder by using a stream
     // Retrieve the first bitmap frame.
     if (SUCCEEDED(hr))
     {
-       hr = pIDecoder->GetFrame(0, &amp;pIDecoderFrame);
+       hr = pIDecoder->GetFrame(0, &pIDecoderFrame);
     }
     ```
 

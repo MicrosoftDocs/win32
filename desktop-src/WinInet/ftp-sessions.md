@@ -119,7 +119,7 @@ BOOL WINAPI DisplayFtpDir(
   
   SendDlgItemMessage( hDlg, nListBoxId, LB_RESETCONTENT, 0, 0 );
   hFind = FtpFindFirstFile( hConnection, TEXT( "*.*" ), 
-                            &amp;dirInfo, dwFindFlags, 0 );
+                            &dirInfo, dwFindFlags, 0 );
   if ( hFind == NULL )
   {
     dwError = GetLastError( );
@@ -139,7 +139,7 @@ BOOL WINAPI DisplayFtpDir(
   {
     if( FAILED( StringCchCopy( szFName, FTP_FUNCTIONS_BUFFER_SIZE,
                   dirInfo.cFileName ) ) ||
-        ( ( dirInfo.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY ) &amp;&amp;
+        ( ( dirInfo.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY ) &&
         ( FAILED( StringCchCat( szFName, FTP_FUNCTIONS_BUFFER_SIZE,
          TEXT( " <DIR> " ) ) ) ) ) )
     {
@@ -150,7 +150,7 @@ BOOL WINAPI DisplayFtpDir(
     }
     SendDlgItemMessage( hDlg, nListBoxId, LB_ADDSTRING, 
                         0, (LPARAM) szFName );
-  } while( InternetFindNextFile( hFind, (LPVOID) &amp;dirInfo ) );
+  } while( InternetFindNextFile( hFind, (LPVOID) &dirInfo ) );
 
   if( ( dwError = GetLastError( ) ) == ERROR_NO_MORE_FILES )
   {
@@ -203,7 +203,7 @@ BOOL WINAPI ChangeFtpDir( HWND hDlg,
     goto ChangeFtpDirError;
   }
 
-  if ( !FtpGetCurrentDirectory( hConnection, szOldDirName, &amp;dwSize ))
+  if ( !FtpGetCurrentDirectory( hConnection, szOldDirName, &dwSize ))
   {
     szFailedFunctionName = TEXT( "FtpGetCurrentDirectory" );
     goto ChangeFtpDirError;

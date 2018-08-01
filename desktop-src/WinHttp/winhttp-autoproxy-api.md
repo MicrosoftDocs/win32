@@ -29,8 +29,8 @@ The following example code uses autoproxy. It sets up an HTTP GET request by fir
   WINHTTP_PROXY_INFO         ProxyInfo;
   DWORD                      cbProxyInfoSize = sizeof(ProxyInfo);
   
-  ZeroMemory( &amp;AutoProxyOptions, sizeof(AutoProxyOptions) );
-  ZeroMemory( &amp;ProxyInfo, sizeof(ProxyInfo) );
+  ZeroMemory( &AutoProxyOptions, sizeof(AutoProxyOptions) );
+  ZeroMemory( &ProxyInfo, sizeof(ProxyInfo) );
   
 //
 // Create the WinHTTP session.
@@ -101,15 +101,15 @@ The following example code uses autoproxy. It sets up an HTTP GET request by fir
 //
   if( WinHttpGetProxyForUrl( hHttpSession,
                              L"http://www.microsoft.com/ms.htm",
-                             &amp;AutoProxyOptions,
-                             &amp;ProxyInfo))
+                             &AutoProxyOptions,
+                             &ProxyInfo))
   {
   // A proxy configuration was found, set it on the
   // request handle.
     
     if( !WinHttpSetOption( hRequest, 
                            WINHTTP_OPTION_PROXY,
-                           &amp;ProxyInfo,
+                           &ProxyInfo,
                            cbProxyInfoSize ) )
     {
       // Exit if setting the proxy info failed.
@@ -207,8 +207,8 @@ For example, if a PAC file is available on the local network at the URL, "http:/
 //
   if( WinHttpGetProxyForUrl( hHttpSession,
                              L"http://www.microsoft.com/ms.htm",
-                             &amp;AutoProxyOptions,
-                             &amp;ProxyInfo ) )
+                             &AutoProxyOptions,
+                             &ProxyInfo ) )
 {
   //...
 

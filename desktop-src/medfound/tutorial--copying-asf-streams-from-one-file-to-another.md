@@ -117,18 +117,18 @@ HRESULT AllocReadFromByteStream(
 
     // Create the media buffer. 
     // This function allocates the memory for the buffer.
-    hr = MFCreateMemoryBuffer(cbToRead, &amp;pBuffer);
+    hr = MFCreateMemoryBuffer(cbToRead, &pBuffer);
 
     // Get a pointer to the memory buffer.
     if (SUCCEEDED(hr))
     {
-        hr = pBuffer->Lock(&amp;pData, NULL, NULL);
+        hr = pBuffer->Lock(&pData, NULL, NULL);
     }
 
     // Read the data from the byte stream.
     if (SUCCEEDED(hr))
     {
-        hr = pStream->Read(pData, cbToRead, &amp;cbRead);
+        hr = pStream->Read(pData, cbToRead, &cbRead);
     }
 
     // Update the size of the valid data in the buffer.
@@ -148,7 +148,7 @@ HRESULT AllocReadFromByteStream(
     {
         pBuffer->Unlock();
     }
-    SafeRelease(&amp;pBuffer);
+    SafeRelease(&pBuffer);
     return hr;
 }
 ```
@@ -176,11 +176,11 @@ HRESULT WriteBufferToByteStream(
     DWORD cbWritten = 0;
     BYTE *pMem = NULL;
 
-    hr = pBuffer->Lock(&amp;pMem, NULL, &amp;cbData);
+    hr = pBuffer->Lock(&pMem, NULL, &cbData);
 
     if (SUCCEEDED(hr))
     {
-        hr = pStream->Write(pMem, cbData, &amp;cbWritten);
+        hr = pStream->Write(pMem, cbData, &cbWritten);
     }
 
     if (SUCCEEDED(hr))
@@ -223,7 +223,7 @@ HRESULT AppendToByteStream(IMFByteStream *pSrc, IMFByteStream *pDest)
     {
         ULONG cbRead;
 
-        hr = pSrc->Read(buffer, READ_SIZE, &amp;cbRead);
+        hr = pSrc->Read(buffer, READ_SIZE, &cbRead);
 
         if (FAILED(hr)) { break; }
 
@@ -232,7 +232,7 @@ HRESULT AppendToByteStream(IMFByteStream *pSrc, IMFByteStream *pDest)
             break;
         }
 
-        hr = pDest->Write(buffer, cbRead, &amp;cbRead);
+        hr = pDest->Write(buffer, cbRead, &cbRead);
 
         if (FAILED(hr)) { break; }
     }
@@ -253,7 +253,7 @@ The following example code takes a file name and returns a pointer to a byte str
 ```C++
         // Open the file.
         hr = MFCreateFile(MF_ACCESSMODE_READ, MF_OPENMODE_FAIL_IF_NOT_EXIST, 
-            MF_FILEFLAGS_NONE, pszFileName, &amp;pStream);
+            MF_FILEFLAGS_NONE, pszFileName, &pStream);
 ```
 
 
@@ -308,7 +308,7 @@ HRESULT CreateSourceParsers(
     /*------- Parse the ASF header. -------*/
 
     // Create the ASF ContentInfo object.
-    HRESULT hr = MFCreateASFContentInfo(&amp;pSourceContentInfo);
+    HRESULT hr = MFCreateASFContentInfo(&pSourceContentInfo);
     
     // Read the first 30 bytes to find the total header size.
     if (SUCCEEDED(hr))
@@ -316,18 +316,18 @@ HRESULT CreateSourceParsers(
         hr = AllocReadFromByteStream(
             pSourceStream, 
             MIN_ASF_HEADER_SIZE, 
-            &amp;pBuffer
+            &pBuffer
             );
     }
 
     // Get the header size.
     if (SUCCEEDED(hr))
     {
-        hr = pSourceContentInfo->GetHeaderSize(pBuffer, &amp;cbHeader);
+        hr = pSourceContentInfo->GetHeaderSize(pBuffer, &cbHeader);
     }
 
     // Release the buffer; we will reuse it.
-    SafeRelease(&amp;pBuffer);
+    SafeRelease(&pBuffer);
     
     // Read the entire header into a buffer.
     if (SUCCEEDED(hr))
@@ -340,7 +340,7 @@ HRESULT CreateSourceParsers(
         hr = AllocReadFromByteStream(
             pSourceStream, 
             (DWORD)cbHeader, 
-            &amp;pBuffer
+            &pBuffer
             );
     }
 
@@ -355,7 +355,7 @@ HRESULT CreateSourceParsers(
     // Create the splitter.
     if (SUCCEEDED(hr))
     {
-        hr = MFCreateASFSplitter(&amp;pSplitter);
+        hr = MFCreateASFSplitter(&pSplitter);
     }
     
     // initialize the splitter with the ContentInfo object.
@@ -370,7 +370,7 @@ HRESULT CreateSourceParsers(
     // Generate the presentation descriptor.
     if (SUCCEEDED(hr))
     {
-        hr =  pSourceContentInfo->GeneratePresentationDescriptor(&amp;pPD);
+        hr =  pSourceContentInfo->GeneratePresentationDescriptor(&pPD);
     }
 
     // Get the offset to the start of the Data Object.
@@ -396,10 +396,10 @@ HRESULT CreateSourceParsers(
 
     }
 
-    SafeRelease(&amp;pPD);
-    SafeRelease(&amp;pBuffer);
-    SafeRelease(&amp;pSourceContentInfo);
-    SafeRelease(&amp;pSplitter);
+    SafeRelease(&pPD);
+    SafeRelease(&pBuffer);
+    SafeRelease(&pSourceContentInfo);
+    SafeRelease(&pSplitter);
 
     return S_OK;
 }
@@ -447,7 +447,7 @@ HRESULT GetAudioProfile(
     GUID guidMajorType = GUID_NULL;
     
     // Get the profile object from the source ContentInfo object.
-    HRESULT hr = pSourceContentInfo->GetProfile(&amp;pProfile);
+    HRESULT hr = pSourceContentInfo->GetProfile(&pProfile);
 
     // Remove mutexes from the profile
     if (SUCCEEDED(hr))
@@ -458,7 +458,7 @@ HRESULT GetAudioProfile(
     // Get the total number of streams on the profile.
     if (SUCCEEDED(hr))
     {
-        hr = pProfile->GetStreamCount(&amp;dwTotalStreams);
+        hr = pProfile->GetStreamCount(&dwTotalStreams);
     }
 
     // Enumerate the streams and remove the non-audio streams.
@@ -466,13 +466,13 @@ HRESULT GetAudioProfile(
     {
         for (DWORD index = 0; index < dwTotalStreams; )
         {
-            hr = pProfile->GetStream(index, &amp;wStreamNumber, &amp;pStream);
+            hr = pProfile->GetStream(index, &wStreamNumber, &pStream);
 
             if (FAILED(hr)) { break; }
 
-            hr = pStream->GetStreamType(&amp;guidMajorType);
+            hr = pStream->GetStreamType(&guidMajorType);
 
-            SafeRelease(&amp;pStream);
+            SafeRelease(&pStream);
 
             if (FAILED(hr)) { break; }
 
@@ -506,8 +506,8 @@ HRESULT GetAudioProfile(
         (*ppAudioProfile)->AddRef();
     }
 
-    SafeRelease(&amp;pStream);
-    SafeRelease(&amp;pProfile);
+    SafeRelease(&pStream);
+    SafeRelease(&pProfile);
 
     return S_OK;
 }
@@ -522,7 +522,7 @@ The `RemoveMutexes` function removes any mutual exclusion objects from the profi
 HRESULT RemoveMutexes(IMFASFProfile *pProfile)
 {
     DWORD cMutex = 0;
-    HRESULT hr = pProfile->GetMutualExclusionCount(&amp;cMutex);
+    HRESULT hr = pProfile->GetMutualExclusionCount(&cMutex);
 
     if (SUCCEEDED(hr))
     {
@@ -575,7 +575,7 @@ HRESULT CreateOutputGenerators(
     IMFASFMultiplexer *pMux = NULL;
 
     // Use the ASF profile to create the ContentInfo object.
-    HRESULT hr = MFCreateASFContentInfo(&amp;pContentInfo);
+    HRESULT hr = MFCreateASFContentInfo(&pContentInfo);
 
     if (SUCCEEDED(hr))
     {
@@ -585,7 +585,7 @@ HRESULT CreateOutputGenerators(
     // Create the ASF Multiplexer object.
     if (SUCCEEDED(hr))
     {
-        hr = MFCreateASFMultiplexer(&amp;pMux);
+        hr = MFCreateASFMultiplexer(&pMux);
     }
     
     // Initialize it using the new ContentInfo object.
@@ -604,8 +604,8 @@ HRESULT CreateOutputGenerators(
         (*ppMux)->AddRef();
     }
 
-    SafeRelease(&amp;pContentInfo);
-    SafeRelease(&amp;pMux);
+    SafeRelease(&pContentInfo);
+    SafeRelease(&pMux);
 
     return hr;
 }
@@ -660,7 +660,7 @@ HRESULT GenerateASFDataObject(
             MF_ACCESSMODE_READWRITE, 
             MF_OPENMODE_DELETE_IF_EXIST,
             MF_FILEFLAGS_NONE,
-            &amp;pDataStream
+            &pDataStream
             );
     }
 
@@ -678,7 +678,7 @@ HRESULT GenerateASFDataObject(
             hr = AllocReadFromByteStream(
                 pSourceStream, 
                 cbRead, 
-                &amp;pBuffer
+                &pBuffer
                 );
 
             if (FAILED(hr)) 
@@ -704,7 +704,7 @@ HRESULT GenerateASFDataObject(
                 break; 
             }
 
-            SafeRelease(&amp;pBuffer);
+            SafeRelease(&pBuffer);
         }
     }
 
@@ -726,8 +726,8 @@ HRESULT GenerateASFDataObject(
         (*ppDataStream)->AddRef();
     }
 
-    SafeRelease(&amp;pBuffer);
-    SafeRelease(&amp;pDataStream);
+    SafeRelease(&pBuffer);
+    SafeRelease(&pDataStream);
     return hr;
 }
 ```
@@ -760,7 +760,7 @@ HRESULT GetPacketsFromSplitter(
 
     while (dwStatus & ASF_STATUSFLAGS_INCOMPLETE) 
     {
-        hr = pSplitter->GetNextSample(&amp;dwStatus, &amp;wStreamNum, &amp;pSample);
+        hr = pSplitter->GetNextSample(&dwStatus, &wStreamNum, &pSample);
 
         if (FAILED(hr))
         {
@@ -785,10 +785,10 @@ HRESULT GetPacketsFromSplitter(
             }
         }
 
-        SafeRelease(&amp;pSample);
+        SafeRelease(&pSample);
     }
 
-    SafeRelease(&amp;pSample);
+    SafeRelease(&pSample);
     return hr;
 }
 ```
@@ -820,7 +820,7 @@ HRESULT GenerateASFDataPackets(
 
     while (dwMuxStatus & ASF_STATUSFLAGS_INCOMPLETE)
     {
-        hr = pMux->GetNextPacket(&amp;dwMuxStatus, &amp;pOutputSample);
+        hr = pMux->GetNextPacket(&dwMuxStatus, &pOutputSample);
 
         if (FAILED(hr))
         {
@@ -830,7 +830,7 @@ HRESULT GenerateASFDataPackets(
         if (pOutputSample)
         {
             //Convert to contiguous buffer
-            hr = pOutputSample->ConvertToContiguousBuffer(&amp;pDataPacketBuffer);
+            hr = pOutputSample->ConvertToContiguousBuffer(&pDataPacketBuffer);
             
             if (FAILED(hr))
             {
@@ -846,12 +846,12 @@ HRESULT GenerateASFDataPackets(
             }
         }
 
-        SafeRelease(&amp;pDataPacketBuffer);
-        SafeRelease(&amp;pOutputSample);
+        SafeRelease(&pDataPacketBuffer);
+        SafeRelease(&pOutputSample);
     }
 
-    SafeRelease(&amp;pOutputSample);
-    SafeRelease(&amp;pDataPacketBuffer);
+    SafeRelease(&pOutputSample);
+    SafeRelease(&pDataPacketBuffer);
     return hr;
 }
 ```
@@ -891,31 +891,31 @@ HRESULT WriteASFFile(
         MF_OPENMODE_DELETE_IF_EXIST,
         MF_FILEFLAGS_NONE,
         pszFile,
-        &amp;pWmaStream
+        &pWmaStream
         );
 
     // Get the size of the ASF Header Object.
     if (SUCCEEDED(hr))
     {
-        hr = pContentInfo->GenerateHeader(NULL, &amp;cbHeaderSize);
+        hr = pContentInfo->GenerateHeader(NULL, &cbHeaderSize);
     }
 
     // Create a media buffer.
     if (SUCCEEDED(hr))
     {
-        hr = MFCreateMemoryBuffer(cbHeaderSize, &amp;pHeaderBuffer);
+        hr = MFCreateMemoryBuffer(cbHeaderSize, &pHeaderBuffer);
     }
 
     // Populate the media buffer with the ASF Header Object.
     if (SUCCEEDED(hr))
     {
-        hr = pContentInfo->GenerateHeader(pHeaderBuffer, &amp;cbHeaderSize);
+        hr = pContentInfo->GenerateHeader(pHeaderBuffer, &cbHeaderSize);
     }
  
     // Write the header contents to the byte stream for the output file.
     if (SUCCEEDED(hr))
     {
-        hr = WriteBufferToByteStream(pWmaStream, pHeaderBuffer, &amp;cbWritten);
+        hr = WriteBufferToByteStream(pWmaStream, pHeaderBuffer, &cbWritten);
     }
 
     if (SUCCEEDED(hr))
@@ -930,8 +930,8 @@ HRESULT WriteASFFile(
         hr = AppendToByteStream(pDataStream, pWmaStream);
     }
 
-    SafeRelease(&amp;pHeaderBuffer);
-    SafeRelease(&amp;pWmaStream);
+    SafeRelease(&pHeaderBuffer);
+    SafeRelease(&pWmaStream);
 
     return hr;
 }
@@ -980,7 +980,7 @@ int wmain(int argc, WCHAR* argv[])
 
     // Open the input file.
 
-    hr = OpenFile(pszInputFile, &amp;pSourceStream);
+    hr = OpenFile(pszInputFile, &pSourceStream);
 
     // Initialize the objects that will parse the source file.
 
@@ -988,10 +988,10 @@ int wmain(int argc, WCHAR* argv[])
     {
         hr = CreateSourceParsers(
             pSourceStream, 
-            &amp;pSourceContentInfo,    // ASF Header for the source file.
-            &amp;pSplitter,             // Generates audio samples.
-            &amp;cbDataOffset,          // Offset to the first data packet.
-            &amp;cbDataLength           // Length of the ASF Data Object.
+            &pSourceContentInfo,    // ASF Header for the source file.
+            &pSplitter,             // Generates audio samples.
+            &cbDataOffset,          // Offset to the first data packet.
+            &cbDataLength           // Length of the ASF Data Object.
             );
     }
 
@@ -1001,8 +1001,8 @@ int wmain(int argc, WCHAR* argv[])
     {
         hr = GetAudioProfile(
             pSourceContentInfo, 
-            &amp;pAudioProfile,         // ASF profile for the audio stream.
-            &amp;wSelectStreamNumber    // Stream number of the first audio stream.
+            &pAudioProfile,         // ASF profile for the audio stream.
+            &wSelectStreamNumber    // Stream number of the first audio stream.
             );
     }
 
@@ -1012,8 +1012,8 @@ int wmain(int argc, WCHAR* argv[])
     {
         hr = CreateOutputGenerators(
             pAudioProfile, 
-            &amp;pOutputContentInfo,    // ASF Header for the output file.
-            &amp;pMux                   // Generates ASF data packets.
+            &pOutputContentInfo,    // ASF Header for the output file.
+            &pMux                   // Generates ASF data packets.
             );
     }
 
@@ -1022,7 +1022,7 @@ int wmain(int argc, WCHAR* argv[])
 
     if (SUCCEEDED(hr))
     {
-        hr = pSplitter->SelectStreams(&amp;wSelectStreamNumber, 1);
+        hr = pSplitter->SelectStreams(&wSelectStreamNumber, 1);
     }
     
     // Generate ASF Data Packets and store them in a byte stream.
@@ -1035,7 +1035,7 @@ int wmain(int argc, WCHAR* argv[])
                pMux, 
                cbDataOffset, 
                cbDataLength, 
-               &amp;pDataStream    // Byte stream for the ASF data packets.    
+               &pDataStream    // Byte stream for the ASF data packets.    
                );
     }
 
@@ -1053,13 +1053,13 @@ int wmain(int argc, WCHAR* argv[])
     }
 
     // Clean up.
-    SafeRelease(&amp;pMux);
-    SafeRelease(&amp;pSplitter);
-    SafeRelease(&amp;pDataStream);
-    SafeRelease(&amp;pOutputContentInfo);
-    SafeRelease(&amp;pAudioProfile);
-    SafeRelease(&amp;pSourceContentInfo);
-    SafeRelease(&amp;pSourceStream);
+    SafeRelease(&pMux);
+    SafeRelease(&pSplitter);
+    SafeRelease(&pDataStream);
+    SafeRelease(&pOutputContentInfo);
+    SafeRelease(&pAudioProfile);
+    SafeRelease(&pSourceContentInfo);
+    SafeRelease(&pSourceStream);
 
     MFShutdown();
 

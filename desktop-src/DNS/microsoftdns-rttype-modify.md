@@ -33,7 +33,7 @@ void Modify(
   [in, optional] uint32              TTL,
   [in, optional] uint16              Preference,
   [in, optional] string              IntermediateHost,
-  [out, ref]     MicrosoftDNS_RTType &amp;RR
+  [out, ref]     MicrosoftDNS_RTType &RR
 );
 ```
 

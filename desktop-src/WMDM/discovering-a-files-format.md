@@ -114,7 +114,7 @@ WMDM_FORMATCODE CWMDMController::myGetWMDM_FORMATCODE(LPCWSTR pFileName)
     {
         CComPtr<IMediaDet> pIMediaDet;
         hr = pIMediaDet.CoCreateInstance(CLSID_MediaDet, NULL);
-        if (hr == S_OK &amp;&amp; pIMediaDet != NULL)
+        if (hr == S_OK && pIMediaDet != NULL)
         {
             hr = pIMediaDet->put_Filename(BSTR(pFileName));
             if (FAILED(hr)) return WMDM_FORMATCODE_UNDEFINED;
@@ -122,7 +122,7 @@ WMDM_FORMATCODE CWMDMController::myGetWMDM_FORMATCODE(LPCWSTR pFileName)
             AM_MEDIA_TYPE mediaType;
             if (hr == S_OK)
             {
-                hr = pIMediaDet->get_StreamMediaType(&amp;mediaType);
+                hr = pIMediaDet->get_StreamMediaType(&mediaType);
                 CHECK_HR(hr, 
                   "get_StreamMediaType succeeded in myGetWMDM_FORMATCODE.", 
                   "get_StreamMediaType failed in myGetWMDM_FORMATCODE.");
@@ -131,7 +131,7 @@ WMDM_FORMATCODE CWMDMController::myGetWMDM_FORMATCODE(LPCWSTR pFileName)
             if (hr == S_OK)
             {
                 LONG numStreams = 0;
-                hr = pIMediaDet->get_OutputStreams(&amp;numStreams);
+                hr = pIMediaDet->get_OutputStreams(&numStreams);
 
                 // If there is at least one video stream, the file is video. 
                 // If there are only audio streams, it is audio.

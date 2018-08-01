@@ -58,7 +58,7 @@ _tcscpy_s(szFileName, MAX_PATH, TEXT("main.c"));
 dwLineNumber = 248;
 
 if (SymGetLineFromName64(hProcess, szModuleName, szFileName,
-    dwLineNumber, &amp;lDisplacement, &amp;line))
+    dwLineNumber, &lDisplacement, &line))
 {
     // SymGetLineFromName64 returned success
 }

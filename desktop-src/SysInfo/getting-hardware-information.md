@@ -25,7 +25,7 @@ void main()
  
    // Copy the hardware information to the SYSTEM_INFO structure. 
  
-   GetSystemInfo(&amp;siSysInfo); 
+   GetSystemInfo(&siSysInfo); 
  
    // Display the contents of the SYSTEM_INFO structure. 
 

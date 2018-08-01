@@ -81,7 +81,7 @@ BYTE     byClassID;
 HRESULT  hr;
 
 // Retrieve the class ID.
-hr = pISCardCmd->get_ClassId(&amp;byClassID);
+hr = pISCardCmd->get_ClassId(&byClassID);
 if (FAILED(hr))
 {
   printf("Failed get_ClassId\n");

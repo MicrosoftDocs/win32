@@ -56,7 +56,7 @@ public:
         CManagerEventHandler *pManagerEventHandler;
         HRESULT hr = CUIAnimationCallbackBase::CreateInstance(
             ppManagerEventHandler,
-            &amp;pManagerEventHandler
+            &pManagerEventHandler
             );
         if (SUCCEEDED(hr))
         {
@@ -101,7 +101,7 @@ The following example code is taken from MainWindow.cpp from the Windows Animati
 IUIAnimationManagerEventHandler *pManagerEventHandler;
 HRESULT hr = CManagerEventHandler::CreateInstance(
     this,
-    &amp;pManagerEventHandler
+    &pManagerEventHandler
     );
 if (SUCCEEDED(hr))
 {
@@ -124,7 +124,7 @@ The following example code is taken from MainWindow.cpp in the Windows Animation
 
 UI_ANIMATION_SECONDS secondsNow;
 HRESULT hr = m_pAnimationTimer->GetTime(
-    &amp;secondsNow
+    &secondsNow
     );
 
 if (SUCCEEDED(hr))
@@ -152,7 +152,7 @@ if (SUCCEEDED(hr))
     // Continue redrawing the client area as long as there are animations scheduled
     UI_ANIMATION_MANAGER_STATUS status;
     hr = m_pAnimationManager->GetStatus(
-        &amp;status
+        &status
         );
     if (SUCCEEDED(hr))
     {
@@ -195,7 +195,7 @@ public:
         CTimerEventHandler *pTimerEventHandler;
         HRESULT hr = CUIAnimationCallbackBase::CreateInstance(
             ppTimerEventHandler,
-            &amp;pTimerEventHandler
+            &pTimerEventHandler
             );
 
         if (SUCCEEDED(hr))
@@ -247,7 +247,7 @@ The following example code is taken from MainWindow.cpp from the Windows Animati
 IUIAnimationTimerEventHandler *pTimerEventHandler;
 hr = CTimerEventHandler::CreateInstance(
     this,
-    &amp;pTimerEventHandler
+    &pTimerEventHandler
     );
 if (SUCCEEDED(hr))
 {
@@ -268,7 +268,7 @@ The following example code is taken from MainWindow.cpp in the Windows Animation
 
 IUIAnimationTimerUpdateHandler *pTimerUpdateHandler;
 hr = m_pAnimationManager->QueryInterface(
-    IID_PPV_ARGS(&amp;pTimerUpdateHandler)
+    IID_PPV_ARGS(&pTimerUpdateHandler)
     );
 
 if (SUCCEEDED(hr))

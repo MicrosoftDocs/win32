@@ -65,16 +65,16 @@ void PrintEndpointNames()
     hr = CoCreateInstance(
            CLSID_MMDeviceEnumerator, NULL,
            CLSCTX_ALL, IID_IMMDeviceEnumerator,
-           (void**)&amp;pEnumerator);
+           (void**)&pEnumerator);
     EXIT_ON_ERROR(hr)
 
     hr = pEnumerator->EnumAudioEndpoints(
                         eRender, DEVICE_STATE_ACTIVE,
-                        &amp;pCollection);
+                        &pCollection);
     EXIT_ON_ERROR(hr)
 
     UINT  count;
-    hr = pCollection->GetCount(&amp;count);
+    hr = pCollection->GetCount(&count);
     EXIT_ON_ERROR(hr)
 
     if (count == 0)
@@ -86,24 +86,24 @@ void PrintEndpointNames()
     for (ULONG i = 0; i < count; i++)
     {
         // Get pointer to endpoint number i.
-        hr = pCollection->Item(i, &amp;pEndpoint);
+        hr = pCollection->Item(i, &pEndpoint);
         EXIT_ON_ERROR(hr)
 
         // Get the endpoint ID string.
-        hr = pEndpoint->GetId(&amp;pwszID);
+        hr = pEndpoint->GetId(&pwszID);
         EXIT_ON_ERROR(hr)
         
         hr = pEndpoint->OpenPropertyStore(
-                          STGM_READ, &amp;pProps);
+                          STGM_READ, &pProps);
         EXIT_ON_ERROR(hr)
 
         PROPVARIANT varName;
         // Initialize container for property value.
-        PropVariantInit(&amp;varName);
+        PropVariantInit(&varName);
 
         // Get the endpoint's friendly-name property.
         hr = pProps->GetValue(
-                       PKEY_Device_FriendlyName, &amp;varName);
+                       PKEY_Device_FriendlyName, &varName);
         EXIT_ON_ERROR(hr)
 
         // Print endpoint friendly name and endpoint ID.
@@ -112,7 +112,7 @@ void PrintEndpointNames()
 
         CoTaskMemFree(pwszID);
         pwszID = NULL;
-        PropVariantClear(&amp;varName);
+        PropVariantClear(&varName);
         SAFE_RELEASE(pProps)
         SAFE_RELEASE(pEndpoint)
     }

@@ -26,13 +26,13 @@ STDMETHODIMP CTestMon::OnFrames(UPDATE_EVENT Event)
       i != lpFrameTable->EndIndex; 
      (i == lpFrameTable->FrameTableLength ) ? i=0: i ++ )
     {
-        LPFRAME_DESCRIPTOR lpFrameDesc = &amp;lpFrameTable->Frames[i];
+        LPFRAME_DESCRIPTOR lpFrameDesc = &lpFrameTable->Frames[i];
         
         // Cast the frame data to an unaligned pointer to an IP  
         // structure. A try/catch block could be a workaround, but
         // if the capture filter is set correctly, this is the
         // verifiable IP.
-        ULPIP ulpIP = (ULPIP)(&amp;lpFrameDesc->FramePointer[lpFrameDesc->LowProtocolOffset]);
+        ULPIP ulpIP = (ULPIP)(&lpFrameDesc->FramePointer[lpFrameDesc->LowProtocolOffset]);
         // Now examine the IP frame.
     }
     return NOERROR;

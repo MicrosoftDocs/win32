@@ -81,7 +81,7 @@ HRESULT    hr;
 
 // pIByteData is a pointer to an instance of IByteBuffer.
 // Retrieve the data.
-hr = pISCardCmd->get_Data(&amp;pIByteData);
+hr = pISCardCmd->get_Data(&pIByteData);
 if (FAILED(hr)) 
 {
     printf("Failed get_Data.\n");

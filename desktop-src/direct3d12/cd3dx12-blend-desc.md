@@ -29,10 +29,10 @@ A helper structure to enable easy initialization of a [**D3D12\_BLEND\_DESC**](/
 ```C++
 struct CD3DX12_BLEND_DESC  : public D3D12_BLEND_DESC{
    CD3DX12_BLEND_DESC();
-   explicit CD3DX12_BLEND_DESC(const D3D12_BLEND_DESC&amp; o);
+   explicit CD3DX12_BLEND_DESC(const D3D12_BLEND_DESC& o);
    explicit CD3DX12_BLEND_DESC(CD3DX12_DEFAULT);
    ~CD3DX12_BLEND_DESC();
-   operator const D3D12_BLEND_DESC&amp;() const;
+   operator const D3D12_BLEND_DESC&() const;
 };
 ```
 

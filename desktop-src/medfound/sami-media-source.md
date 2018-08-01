@@ -109,13 +109,13 @@ HRESULT SetSAMIStyleByIndex(IMFMediaSource *pSource, DWORD index)
     DWORD cStyles;
     PROPVARIANT varStyles;
 
-    HRESULT hr = MFGetService(pSource, MF_SAMI_SERVICE, IID_PPV_ARGS(&amp;pSami));
+    HRESULT hr = MFGetService(pSource, MF_SAMI_SERVICE, IID_PPV_ARGS(&pSami));
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pSami->GetStyleCount(&amp;cStyles);
+    hr = pSami->GetStyleCount(&cStyles);
     if (FAILED(hr))
     {
         goto done;
@@ -127,7 +127,7 @@ HRESULT SetSAMIStyleByIndex(IMFMediaSource *pSource, DWORD index)
         goto done;
     }
 
-    hr = pSami->GetStyles(&amp;varStyles);
+    hr = pSami->GetStyles(&varStyles);
     if (FAILED(hr))
     {
         goto done;
@@ -136,8 +136,8 @@ HRESULT SetSAMIStyleByIndex(IMFMediaSource *pSource, DWORD index)
     hr = pSami->SetSelectedStyle(varStyles.calpwstr.pElems[index]);
 
 done:
-    PropVariantClear(&amp;varStyles);
-    SafeRelease(&amp;pSami);
+    PropVariantClear(&varStyles);
+    SafeRelease(&pSami);
     return hr;
 }
 ```

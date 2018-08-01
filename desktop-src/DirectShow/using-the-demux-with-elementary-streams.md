@@ -22,7 +22,7 @@ First, create a media type for MPEG-2 video. Leaving aside the format block for 
 
 ```C++
 AM_MEDIA_TYPE mt;
-ZeroMemory(&amp;mt, sizeof(AM_MEDIA_TYPE));
+ZeroMemory(&mt, sizeof(AM_MEDIA_TYPE));
 mt.majortype = MEDIATYPE_Video ;
 mt.subtype = MEDIASUBTYPE_MPEG2_VIDEO;
 // Possibly create a format block (not shown here).
@@ -36,12 +36,12 @@ Next, create an output pin on the demux:
 ```C++
 // Query the demux filter for IMpeg2Demultiplexer.
 IMpeg2Demultiplexer *pDemux;
-hr = pFilter->QueryInterface(IID_IMpeg2Demultiplexer, (void**)&amp;pDemux);
+hr = pFilter->QueryInterface(IID_IMpeg2Demultiplexer, (void**)&pDemux);
 if (SUCCEEDED(hr))
 {
     // Create a new output pin.
     IPin *pPin0;
-    hr = pDemux->CreateOutputPin(&amp;mt, L"Video Pin", &amp;pPin0);
+    hr = pDemux->CreateOutputPin(&mt, L"Video Pin", &pPin0);
     if (SUCCEEDED(hr))
     {
         ....
@@ -58,12 +58,12 @@ Then, query the new pin for the **IMPEG2PIDMap** interface and call **MapPID**. 
 // Query the pin for IMPEG2PIDMap. This implicitly configures the
 // demux to carry a transport stream. 
 IMPEG2PIDMap *pPidMap;
-hr = pPin0->QueryInterface(IID_IMPEG2PIDMap, (void**)&amp;pPidMap);
+hr = pPin0->QueryInterface(IID_IMPEG2PIDMap, (void**)&pPidMap);
 if (SUCCEEDED(hr))
 {
     // Assign PID 0x31 to pin 0. Set the type to "PES payload."
     ULONG Pid = 0x031;
-    hr = pPidMap->MapPID(1, &amp;Pid, MEDIA_ELEMENTARY_STREAM);
+    hr = pPidMap->MapPID(1, &Pid, MEDIA_ELEMENTARY_STREAM);
     pPidMap->Release();
 }
 ```
@@ -89,7 +89,7 @@ Here is a more complete example of setting the media type, including the format 
 BYTE SeqHdr[] = { ... };  // Contains the sequence header (not shown).
 
 AM_MEDIA_TYPE mt;
-ZeroMemory(&amp;mt, sizeof(AM_MEDIA_TYPE));
+ZeroMemory(&mt, sizeof(AM_MEDIA_TYPE));
 mt.majortype = MEDIATYPE_Video ;
 mt.subtype = MEDIASUBTYPE_MPEG2_VIDEO;
 mt.formattype = FORMAT_MPEG2Video;

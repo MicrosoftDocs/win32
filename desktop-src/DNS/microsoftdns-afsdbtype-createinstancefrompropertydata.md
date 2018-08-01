@@ -37,7 +37,7 @@ void CreateInstanceFromPropertyData(
   [in, optional] uint32                 TTL,
   [in]           uint16                 Subtype,
   [in]           string                 ServerName,
-  [out, ref]     MicrosoftDNS_AFSDBType &amp;RR
+  [out, ref]     MicrosoftDNS_AFSDBType &RR
 );
 ```
 

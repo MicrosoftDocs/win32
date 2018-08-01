@@ -33,7 +33,7 @@ void Modify(
   [in, optional] uint32                 TTL,
   [in, optional] uint16                 Subtype,
   [in, optional] string                 ServerName,
-  [out, ref]     MicrosoftDNS_AFSDBType &amp;RR
+  [out, ref]     MicrosoftDNS_AFSDBType &RR
 );
 ```
 

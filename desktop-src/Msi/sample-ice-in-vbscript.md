@@ -22,19 +22,19 @@ Set recInfo=Installer.CreateRecord(1)
 recInfo.StringData(0)="ICE08" & Chr(9) & "3" 
     & Chr(9) & "Created 05/21/98 by <insert 
     author's name here>"
-Message &amp;h03000000, recInfo
+Message &h03000000, recInfo
 
 'Give last modification date
 recInfo.StringData(0)="ICE08" & Chr(9) & "3" 
     & Chr(9) & "Modified 05/21/98 by <insert 
     author's name here>"
-Message &amp;h03000000, recInfo
+Message &h03000000, recInfo
 
 'Give description of test
 recInfo.StringData(0)="ICE08" & Chr(9) & "3" 
     & Chr(9) & "Checks for duplicate GUIDs 
     in Component table"
-Message &amp;h03000000, recInfo
+Message &h03000000, recInfo
 
 'Is there a Component table in the database?
 iStat = Database.TablePersistent("Component")
@@ -43,7 +43,7 @@ recInfo.StringData(0)="ICE08" & Chr(9) & "2"
     & Chr(9) & "Table: 'Component' missing. 
     ICE08 cannot continue its validation." 
     & Chr(9) & "http://mypage2"
-Message &amp;h03000000, recInfo
+Message &h03000000, recInfo
 ICE08 = 1
 Exit Function
 End If
@@ -64,7 +64,7 @@ rec.StringData(0)="ICE08" & Chr(9)
     has a duplicate GUID: [2]" & Chr(9) 
     & "http://mypage2" & Chr(9) & 
     "Component" & Chr(9) & "ComponentId" & Chr(9) & "[1]"
-Message &amp;h03000000,rec
+Message &h03000000,rec
 End If
 
 'set for next compare

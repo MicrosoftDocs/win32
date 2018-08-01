@@ -261,7 +261,7 @@ MainUIThreadMessageHandler(HWND hwnd,
                           NULL,
                           0,
                           (LPTHREAD_START_ROUTINE)SynchronousIoWorker,
-                          &amp;g_lpFileName,
+                          &g_lpFileName,
                           0,
                           NULL);
 

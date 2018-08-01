@@ -275,12 +275,12 @@ HRESULT GetQueryHelper(ISearchQueryHelper **ppQueryHelper)
     // Create an instance of the search manager
 
     ISearchManager *pSearchManager;
-    HRESULT hr = CoCreateInstance(__uuidof(CSearchManager), NULL, CLSCTX_LOCAL_SERVER, IID_PPV_ARGS(&amp;pSearchManager));
+    HRESULT hr = CoCreateInstance(__uuidof(CSearchManager), NULL, CLSCTX_LOCAL_SERVER, IID_PPV_ARGS(&pSearchManager));
     if (SUCCEEDED(hr))
     {
         // Get the catalog manager from the search manager
         ISearchCatalogManager *pSearchCatalogManager;
-        hr = pSearchManager->GetCatalog(L"SystemIndex", &amp;pSearchCatalogManager);
+        hr = pSearchManager->GetCatalog(L"SystemIndex", &pSearchCatalogManager);
         if (SUCCEEDED(hr))
         {
             // Get the query helper from the catalog manager

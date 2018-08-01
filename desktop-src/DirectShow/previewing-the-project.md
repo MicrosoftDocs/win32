@@ -21,7 +21,7 @@ This article does not go into detail about the render engine. For preview, you o
 ```C++
 IRenderEngine *pRender = NULL; 
 hr = CoCreateInstance(CLSID_RenderEngine, NULL, CLSCTX_INPROC_SERVER,
-            IID_IRenderEngine, (void**) &amp;pRender);
+            IID_IRenderEngine, (void**) &pRender);
 
 hr = pRender->SetTimelineObject(pTL);
 hr = pRender->ConnectFrontEnd( );
@@ -41,7 +41,7 @@ Once the graph is built, you can preview the project by running the graph, as yo
 
 ```C++
 IGraphBuilder   *pGraph = NULL;
-hr = pRender->GetFilterGraph(&amp;pGraph);
+hr = pRender->GetFilterGraph(&pGraph);
 ```
 
 
@@ -53,10 +53,10 @@ Query the filter graph for the [**IMediaControl**](/windows/desktop/api/Control/
 IMediaControl   *pControl = NULL;
 IMediaEvent     *pEvent = NULL;
 long evCode;
-pGraph->QueryInterface(IID_IMediaControl, (void **)&amp;pControl);
-pGraph->QueryInterface(IID_IMediaEvent, (void **)&amp;pEvent);
+pGraph->QueryInterface(IID_IMediaControl, (void **)&pControl);
+pGraph->QueryInterface(IID_IMediaEvent, (void **)&pEvent);
 hr = pControl->Run();
-hr = pEvent->WaitForCompletion(INFINITE, &amp;evCode);
+hr = pEvent->WaitForCompletion(INFINITE, &evCode);
 pControl->Stop();
 ```
 

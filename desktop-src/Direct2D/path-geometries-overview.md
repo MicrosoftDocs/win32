@@ -54,7 +54,7 @@ To create the left mountain, the example calls the [**ID2D1Factory::CreatePathGe
 
 
 ```C++
-hr = m_pD2DFactory->CreatePathGeometry(&amp;m_pLeftMountainGeometry);
+hr = m_pD2DFactory->CreatePathGeometry(&m_pLeftMountainGeometry);
 ```
 
 
@@ -64,7 +64,7 @@ The example then uses the [**Open**](https://msdn.microsoft.com/en-us/library/Dd
 
 ```C++
 ID2D1GeometrySink *pSink = NULL;
-hr = m_pLeftMountainGeometry->Open(&amp;pSink);
+hr = m_pLeftMountainGeometry->Open(&pSink);
 ```
 
 
@@ -104,12 +104,12 @@ The following code shows how to do this.
 
 
 ```C++
-        hr = m_pD2DFactory->CreatePathGeometry(&amp;m_pRightMountainGeometry);
+        hr = m_pD2DFactory->CreatePathGeometry(&m_pRightMountainGeometry);
         if(SUCCEEDED(hr))
         {
             ID2D1GeometrySink *pSink = NULL;
 
-            hr = m_pRightMountainGeometry->Open(&amp;pSink);
+            hr = m_pRightMountainGeometry->Open(&pSink);
             if (SUCCEEDED(hr))
             {
                 pSink->SetFillMode(D2D1_FILL_MODE_WINDING);
@@ -132,7 +132,7 @@ The following code shows how to do this.
             }
             hr = pSink->Close();
 
-            SafeRelease(&amp;pSink);
+            SafeRelease(&pSink);
        }
 ```
 
@@ -150,12 +150,12 @@ The following code shows how to do this.
 
 
 ```C++
-        hr = m_pD2DFactory->CreatePathGeometry(&amp;m_pSunGeometry);
+        hr = m_pD2DFactory->CreatePathGeometry(&m_pSunGeometry);
         if(SUCCEEDED(hr))
         {
             ID2D1GeometrySink *pSink = NULL;
 
-            hr = m_pSunGeometry->Open(&amp;pSink);
+            hr = m_pSunGeometry->Open(&pSink);
             if (SUCCEEDED(hr))
             {
                 pSink->SetFillMode(D2D1_FILL_MODE_WINDING);
@@ -266,7 +266,7 @@ The following code shows how to do this.
             }
             hr = pSink->Close();
 
-            SafeRelease(&amp;pSink);
+            SafeRelease(&pSink);
        }
 ```
 
@@ -282,13 +282,13 @@ The following code shows how to do this.
 
 
 ```C++
-        hr = m_pD2DFactory->CreatePathGeometry(&amp;m_pRiverGeometry);
+        hr = m_pD2DFactory->CreatePathGeometry(&m_pRiverGeometry);
     
         if(SUCCEEDED(hr))
         {
             ID2D1GeometrySink *pSink = NULL;
 
-            hr = m_pRiverGeometry->Open(&amp;pSink);
+            hr = m_pRiverGeometry->Open(&pSink);
             if (SUCCEEDED(hr))
             {
                 pSink->SetFillMode(D2D1_FILL_MODE_WINDING);

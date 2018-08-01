@@ -36,7 +36,7 @@ HRESULT CreateVideoDeviceSource(IMFMediaSource **ppSource)
     IMFActivate **ppDevices = NULL;
 
     // Create an attribute store to specify the enumeration parameters.
-    HRESULT hr = MFCreateAttributes(&amp;pAttributes, 1);
+    HRESULT hr = MFCreateAttributes(&pAttributes, 1);
     if (FAILED(hr))
     {
         goto done;
@@ -54,7 +54,7 @@ HRESULT CreateVideoDeviceSource(IMFMediaSource **ppSource)
 
     // Enumerate devices.
     UINT32 count;
-    hr = MFEnumDeviceSources(pAttributes, &amp;ppDevices, &amp;count);
+    hr = MFEnumDeviceSources(pAttributes, &ppDevices, &count);
     if (FAILED(hr))
     {
         goto done;
@@ -67,7 +67,7 @@ HRESULT CreateVideoDeviceSource(IMFMediaSource **ppSource)
     }
 
     // Create the media source object.
-    hr = ppDevices[0]->ActivateObject(IID_PPV_ARGS(&amp;pSource));
+    hr = ppDevices[0]->ActivateObject(IID_PPV_ARGS(&pSource));
     if (FAILED(hr))
     {
         goto done;
@@ -77,14 +77,14 @@ HRESULT CreateVideoDeviceSource(IMFMediaSource **ppSource)
     (*ppSource)->AddRef();
 
 done:
-    SafeRelease(&amp;pAttributes);
+    SafeRelease(&pAttributes);
 
     for (DWORD i = 0; i < count; i++)
     {
-        SafeRelease(&amp;ppDevices[i]);
+        SafeRelease(&ppDevices[i]);
     }
     CoTaskMemFree(ppDevices);
-    SafeRelease(&amp;pSource);
+    SafeRelease(&pSource);
     return hr;
 }
 ```
@@ -95,11 +95,11 @@ After you create media source, release the interface pointers and free the memor
 
 
 ```C++
-    SafeRelease(&amp;pAttributes);
+    SafeRelease(&pAttributes);
 
     for (DWORD i = 0; i < count; i++)
     {
-        SafeRelease(&amp;ppDevices[i]);
+        SafeRelease(&ppDevices[i]);
     }
     CoTaskMemFree(ppDevices);
 ```

@@ -171,7 +171,7 @@ D3D12 no longer has a dedicated mipmap generation functionality. Applications mu
 <td>D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_BITWISE_OPS ([<strong>D3D11_FORMAT_SUPPORT2</strong>](https://msdn.microsoft.com/library/windows/desktop/ff476135))</td>
 </tr>
 <tr class="even">
-<td>UAV Atomic Cmp&amp;Store/ Cmp&amp;Exch</td>
+<td>UAV Atomic Cmp&Store/ Cmp&Exch</td>
 <td>D3D12_FORMAT_SUPPORT2_UAV_ATOMIC_COMPARE_STORE_OR_COMPARE_EXCHANGE ([<strong>D3D12_FORMAT_SUPPORT2</strong>](https://msdn.microsoft.com/library/windows/desktop/dn859390))</td>
 <td>D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_COMPARE_STORE_OR_COMPARE_EXCHANGE ([<strong>D3D11_FORMAT_SUPPORT2</strong>](https://msdn.microsoft.com/library/windows/desktop/ff476135))</td>
 </tr>

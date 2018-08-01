@@ -52,12 +52,12 @@ HRESULT CreateSimpleGroup(IDirectoryObject *pDirObject,
 // if true, ensure that domain is in native mode.
     if(((iGroupType & ADS_GROUP_TYPE_UNIVERSAL_GROUP) == 
                       ADS_GROUP_TYPE_UNIVERSAL_GROUP)
-       &amp;&amp;((iGroupType & ADS_GROUP_TYPE_SECURITY_ENABLED) == 
+       &&((iGroupType & ADS_GROUP_TYPE_SECURITY_ENABLED) == 
                         ADS_GROUP_TYPE_SECURITY_ENABLED))
     {
         // Verify that the domain that contains the container
         // is in mixed mode.
-        hr = CheckDomainModeOfObject(pDirObject, &amp;bIsMixed);
+        hr = CheckDomainModeOfObject(pDirObject, &bIsMixed);
  
         if (SUCCEEDED(hr))
         {
@@ -105,11 +105,11 @@ HRESULT CreateSimpleGroup(IDirectoryObject *pDirObject,
     ADS_ATTR_INFO  attrInfo[] = 
     {  
        {L"objectClass", ADS_ATTR_UPDATE, 
-                        ADSTYPE_CASE_IGNORE_STRING, &amp;classValue, 1},
+                        ADSTYPE_CASE_IGNORE_STRING, &classValue, 1},
        {L"sAMAccountName", ADS_ATTR_UPDATE, 
-                           ADSTYPE_CASE_IGNORE_STRING, &amp;sAMValue, 1},
+                           ADSTYPE_CASE_IGNORE_STRING, &sAMValue, 1},
        {L"groupType", ADS_ATTR_UPDATE, 
-                      ADSTYPE_CASE_IGNORE_STRING, &amp;groupType, 1}
+                      ADSTYPE_CASE_IGNORE_STRING, &groupType, 1}
     };
  
     // Get the size of the array. 
@@ -143,7 +143,7 @@ HRESULT CreateSimpleGroup(IDirectoryObject *pDirObject,
  
     // Create the new group.
     hr = pDirObject->CreateDSObject( pwCommonNameFull,  attrInfo, 
-                                dwAttrs, &amp;pDisp );
+                                dwAttrs, &pDisp );
     if (SUCCEEDED(hr))
     {
         // Query the new group for an IADs to be returned 
@@ -163,9 +163,9 @@ HRESULT hr = E_FAIL;
 VARIANT var;
 if (pDomain)
 {
-    VariantClear(&amp;var);
+    VariantClear(&var);
     // Get the ntMixedDomain attribute
-    hr = pDomain->Get(CComBSTR("ntMixedDomain"), &amp;var);
+    hr = pDomain->Get(CComBSTR("ntMixedDomain"), &var);
     if (SUCCEEDED(hr))
     {
         // Type should be VT_I4.
@@ -181,7 +181,7 @@ if (pDomain)
                 hr=E_FAIL;
         }
     }
-    VariantClear(&amp;var);
+    VariantClear(&var);
 }
 return hr;
  
@@ -216,25 +216,25 @@ HRESULT CheckDomainModeOfObject(IDirectoryObject *pDirObject,
             wcsncat_s(pDomainPath, pVal,iLen);
             wcscat_s(pDomainPath, L"/rootDSE");
             wprintf(L"DNS Name: %s\n", pDomainPath);
-            VariantClear(&amp;VarTest);
+            VariantClear(&VarTest);
             hr = ADsOpenObject(pDomainPath,
                             NULL,
                             NULL,
                             ADS_SECURE_AUTHENTICATION, // Use Secure 
                                                        // Authentication
                             IID_IADs,
-                            (void**)&amp;pDomain);
+                            (void**)&pDomain);
             if (SUCCEEDED(hr))
             {
                 hr = pDomain->Get(CComBSTR("defaultNamingContext"), 
-                                  &amp;VarTest);
+                                  &VarTest);
                 if (SUCCEEDED(hr))
                 {
                     wcscpy_s(pDomainPath, L"LDAP://");
                      wcsncat_s(pDomainPath, pVal,iLen);
                     wcscat_s(pDomainPath, L"/");
                     wcscat_s(pDomainPath, VarTest.bstrVal);
-                    VariantClear(&amp;VarTest);
+                    VariantClear(&VarTest);
                     if (pDomain)
                         pDomain->Release();
                     if (SUCCEEDED(hr))
@@ -244,7 +244,7 @@ HRESULT CheckDomainModeOfObject(IDirectoryObject *pDirObject,
                                         NULL,
                                         ADS_SECURE_AUTHENTICATION,
                                         IID_IADs,
-                                        (void**)&amp;pDomain);
+                                        (void**)&pDomain);
                         if (SUCCEEDED(hr))
                         {
                             hr = GetDomainMode(pDomain, bIsMixed);
@@ -281,15 +281,15 @@ WCHAR * GetDirectoryObjectAttrib(IDirectoryObject *pDirObject,
  
     pwReturn[0] = 0l;
  
-    hr = pDirObject->GetObjectAttributes( &amp;pAttrName, 
+    hr = pDirObject->GetObjectAttributes( &pAttrName, 
                                           1, 
-                                          &amp;pAttrInfo, 
-                                          &amp;dwReturn ); 
+                                          &pAttrInfo, 
+                                          &dwReturn ); 
     if ( SUCCEEDED(hr) )
     {
         for(DWORD idx=0; idx < dwReturn;idx++, pAttrInfo++ )   
         {
-            if ( (_wcsicmp(pAttrInfo->pszAttrName,pAttrName) == 0 ) &amp;&amp;
+            if ( (_wcsicmp(pAttrInfo->pszAttrName,pAttrName) == 0 ) &&
                  (pAttrInfo->dwADsType == ADSTYPE_CASE_IGNORE_STRING))
             {
                 wcscpy_s(pwReturn,

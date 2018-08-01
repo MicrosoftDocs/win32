@@ -33,13 +33,13 @@ int __cdecl main()
 {
     UINT uiRet = ERROR_SUCCESS;
     int argc;
-    WCHAR** argv = CommandLineToArgvW(GetCommandLine(), &amp;argc);
+    WCHAR** argv = CommandLineToArgvW(GetCommandLine(), &argc);
     
     MSIHANDLE *phFileListRec = NULL;
     DWORD dwcFiles = 0;
     WCHAR* szProductCode = argv[1];
     WCHAR* szPatchFileList = argv[2];
-    if(ERROR_SUCCESS != (uiRet = MsiGetPatchFileList(szProductCode, szPatchFileList, &amp;dwcFiles, &amp;phFileListRec)))
+    if(ERROR_SUCCESS != (uiRet = MsiGetPatchFileList(szProductCode, szPatchFileList, &dwcFiles, &phFileListRec)))
     {
         printf("MsiGetPatchFileListW(%S, ...) Failed with:%d", szProductCode, uiRet);
         return uiRet;
@@ -59,7 +59,7 @@ int __cdecl main()
     for(unsigned int i = 0; i < dwcFiles; i++)
     {
         cchBuf = cchBufSize;
-        while(ERROR_MORE_DATA == (uiRet = MsiRecordGetString(phFileListRec[i], 0, szBuf, &amp;cchBuf)))
+        while(ERROR_MORE_DATA == (uiRet = MsiRecordGetString(phFileListRec[i], 0, szBuf, &cchBuf)))
         {
             if (szBuf)
                 delete[] szBuf;
@@ -131,10 +131,10 @@ Else
 End If
 
 Sub Usage
-    Wscript.Echo "Windows Installer utility to list files updated by a patch for an installed product" &amp;_
-    vbNewLine & " 1st argument is the product code (GUID) of an installed product" &amp;_
-    vbNewLine & " 2nd argument is the list of patches" &amp;_
-    vbNewLine &amp;_
+    Wscript.Echo "Windows Installer utility to list files updated by a patch for an installed product" &_
+    vbNewLine & " 1st argument is the product code (GUID) of an installed product" &_
+    vbNewLine & " 2nd argument is the list of patches" &_
+    vbNewLine &_
     vbNewLine & "Copyright (C) Microsoft. All rights reserved."
     Wscript.Quit 1
 End Sub

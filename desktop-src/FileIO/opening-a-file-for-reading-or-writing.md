@@ -65,7 +65,7 @@ void __cdecl _tmain(int argc, TCHAR *argv[])
                     hFile,           // open file handle
                     DataBuffer,      // start of data to write
                     dwBytesToWrite,  // number of bytes to write
-                    &amp;dwBytesWritten, // number of bytes that were written
+                    &dwBytesWritten, // number of bytes that were written
                     NULL);            // no overlapped structure
 
     if (FALSE == bErrorFlag)
@@ -107,7 +107,7 @@ void DisplayError(LPTSTR lpszFunction)
         NULL,
         dw,
         MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
-        (LPTSTR) &amp;lpMsgBuf,
+        (LPTSTR) &lpMsgBuf,
         0, 
         NULL );
 
@@ -211,7 +211,7 @@ void __cdecl _tmain(int argc, TCHAR *argv[])
     // Read one character less than the buffer size to save room for
     // the terminating NULL character. 
 
-    if( FALSE == ReadFileEx(hFile, ReadBuffer, BUFFERSIZE-1, &amp;ol, FileIOCompletionRoutine) )
+    if( FALSE == ReadFileEx(hFile, ReadBuffer, BUFFERSIZE-1, &ol, FileIOCompletionRoutine) )
     {
         DisplayError(TEXT("ReadFile"));
         printf("Terminal failure: Unable to read from file.\n GetLastError=%08x\n", GetLastError());
@@ -223,7 +223,7 @@ void __cdecl _tmain(int argc, TCHAR *argv[])
     // This is the section of code that assumes the file is ANSI text. 
     // Modify this block for other data types if needed.
 
-    if (dwBytesRead > 0 &amp;&amp; dwBytesRead <= BUFFERSIZE-1)
+    if (dwBytesRead > 0 && dwBytesRead <= BUFFERSIZE-1)
     {
         ReadBuffer[dwBytesRead]='\0'; // NULL character
 
@@ -260,7 +260,7 @@ void DisplayError(LPTSTR lpszFunction)
         NULL,
         dw,
         MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
-        (LPTSTR) &amp;lpMsgBuf,
+        (LPTSTR) &lpMsgBuf,
         0, 
         NULL );
 

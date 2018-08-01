@@ -39,12 +39,12 @@ ID2D1GeometrySink *pSink = NULL;
 <td><pre><code>// Create a path geometry.
 if (SUCCEEDED(hr))
 {
-    hr = m_pD2DFactory-&gt;CreatePathGeometry(&amp;m_pPathGeometry);
+    hr = m_pD2DFactory-&gt;CreatePathGeometry(&m_pPathGeometry);
 
     if (SUCCEEDED(hr))
     {
         // Write to the path geometry using the geometry sink.
-        hr = m_pPathGeometry-&gt;Open(&amp;pSink);
+        hr = m_pPathGeometry-&gt;Open(&pSink);
 
         if (SUCCEEDED(hr))
         {
@@ -75,7 +75,7 @@ if (SUCCEEDED(hr))
 
             hr = pSink-&gt;Close();
         }
-        SafeRelease(&amp;pSink);
+        SafeRelease(&pSink);
     }
 }</code></pre></td>
 </tr>
@@ -95,7 +95,7 @@ if (SUCCEEDED(hr))
     // Create a black brush.
     hr = m_pRenderTarget->CreateSolidColorBrush(
         D2D1::ColorF(D2D1::ColorF::Black),
-        &amp;m_pBlackBrush
+        &m_pBlackBrush
         );
 }
 ```
@@ -125,7 +125,7 @@ if (SUCCEEDED(hr))
     hr = m_pRenderTarget-&gt;CreateGradientStopCollection(
         stops,
         ARRAYSIZE(stops),
-        &amp;pGradientStops
+        &pGradientStops
         );
 
     if (SUCCEEDED(hr))
@@ -136,11 +136,11 @@ if (SUCCEEDED(hr))
                 D2D1::Point2F(100, 200)),
             D2D1::BrushProperties(),
             pGradientStops,
-            &amp;m_pLGBrush
+            &m_pLGBrush
             );
     }
 
-    SafeRelease(&amp;pGradientStops);
+    SafeRelease(&pGradientStops);
 }</code></pre></td>
 </tr>
 </tbody>

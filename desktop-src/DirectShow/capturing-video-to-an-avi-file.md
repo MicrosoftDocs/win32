@@ -23,9 +23,9 @@ To build the graph, start by calling the [**ICaptureGraphBuilder2::SetOutputFile
 ```C++
 IBaseFilter *pMux;
 hr = pBuild->SetOutputFileName(
-    &amp;MEDIASUBTYPE_Avi,  // Specifies AVI for the target file.
+    &MEDIASUBTYPE_Avi,  // Specifies AVI for the target file.
     L"C:\\Example.avi", // File name.
-    &amp;pMux,              // Receives a pointer to the mux.
+    &pMux,              // Receives a pointer to the mux.
     NULL);              // (Optional) Receives a pointer to the file sink.
 ```
 
@@ -38,8 +38,8 @@ Next, call the [**ICaptureGraphBuilder2::RenderStream**](/windows/desktop/api/St
 
 ```C++
 hr = pBuild->RenderStream(
-    &amp;PIN_CATEGORY_CAPTURE, // Pin category.
-    &amp;MEDIATYPE_Video,      // Media type.
+    &PIN_CATEGORY_CAPTURE, // Pin category.
+    &MEDIATYPE_Video,      // Media type.
     pCap,                  // Capture filter.
     NULL,                  // Intermediate filter (optional).
     pMux);                 // Mux or file sink filter.
@@ -57,7 +57,7 @@ To capture audio, call RenderStream with the media type MEDIATYPE\_Audio. If you
 
 ```C++
 IConfigAviMux *pConfigMux = NULL;
-hr = pMux->QueryInterface(IID_IConfigAviMux, (void**)&amp;pConfigMux);
+hr = pMux->QueryInterface(IID_IConfigAviMux, (void**)&pConfigMux);
 if (SUCCEEDED(hr))
 {
     pConfigMux->SetMasterStream(1);
@@ -74,7 +74,7 @@ You may also want to set how the AVI Mux filter interleaves the audio and video 
 
 ```C++
 IConfigInterleaving *pInterleave = NULL;
-hr = pMux->QueryInterface(IID_IConfigInterleaving, (void**)&amp;pInterleave);
+hr = pMux->QueryInterface(IID_IConfigInterleaving, (void**)&pInterleave);
 if (SUCCEEDED(hr))
 {
     pInterleave->put_Mode(INTERLEAVE_CAPTURE);
@@ -102,7 +102,7 @@ pGraph->AddFilter(pEncoder, L"Encoder);
 /* Call SetOutputFileName as shown previously. */
 
 // Render the stream.
-hr = pBuild->RenderStream(&amp;PIN_CATEGORY_CAPTURE, &amp;MEDIATYPE_Video, 
+hr = pBuild->RenderStream(&PIN_CATEGORY_CAPTURE, &MEDIATYPE_Video, 
     pCap, 
 pEncoder, pMux);
 pEncoder->Release();

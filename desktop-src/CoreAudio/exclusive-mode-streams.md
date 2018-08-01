@@ -88,25 +88,25 @@ HRESULT PlayExclusiveStream(MyAudioSource *pMySource)
     hr = CoCreateInstance(
            CLSID_MMDeviceEnumerator, NULL,
            CLSCTX_ALL, IID_IMMDeviceEnumerator,
-           (void**)&amp;pEnumerator);
+           (void**)&pEnumerator);
     EXIT_ON_ERROR(hr)
 
     hr = pEnumerator->GetDefaultAudioEndpoint(
-                        eRender, eConsole, &amp;pDevice);
+                        eRender, eConsole, &pDevice);
     EXIT_ON_ERROR(hr)
 
     hr = pDevice->Activate(
                     IID_IAudioClient, CLSCTX_ALL,
-                    NULL, (void**)&amp;pAudioClient);
+                    NULL, (void**)&pAudioClient);
     EXIT_ON_ERROR(hr)
 
     // Call a helper function to negotiate with the audio
     // device for an exclusive-mode stream format.
-    hr = GetStreamFormat(pAudioClient, &amp;pwfx);
+    hr = GetStreamFormat(pAudioClient, &pwfx);
     EXIT_ON_ERROR(hr)
 
     // Initialize the stream to play at the minimum latency.
-    hr = pAudioClient->GetDevicePeriod(NULL, &amp;hnsRequestedDuration);
+    hr = pAudioClient->GetDevicePeriod(NULL, &hnsRequestedDuration);
     EXIT_ON_ERROR(hr)
 
     hr = pAudioClient->Initialize(
@@ -135,20 +135,20 @@ HRESULT PlayExclusiveStream(MyAudioSource *pMySource)
     EXIT_ON_ERROR(hr);
 
     // Get the actual size of the two allocated buffers.
-    hr = pAudioClient->GetBufferSize(&amp;bufferFrameCount);
+    hr = pAudioClient->GetBufferSize(&bufferFrameCount);
     EXIT_ON_ERROR(hr)
 
     hr = pAudioClient->GetService(
                          IID_IAudioRenderClient,
-                         (void**)&amp;pRenderClient);
+                         (void**)&pRenderClient);
     EXIT_ON_ERROR(hr)
 
     // To reduce latency, load the first buffer with data
     // from the audio source before starting the stream.
-    hr = pRenderClient->GetBuffer(bufferFrameCount, &amp;pData);
+    hr = pRenderClient->GetBuffer(bufferFrameCount, &pData);
     EXIT_ON_ERROR(hr)
 
-    hr = pMySource->LoadData(bufferFrameCount, pData, &amp;flags);
+    hr = pMySource->LoadData(bufferFrameCount, pData, &flags);
     EXIT_ON_ERROR(hr)
 
     hr = pRenderClient->ReleaseBuffer(bufferFrameCount, flags);
@@ -157,7 +157,7 @@ HRESULT PlayExclusiveStream(MyAudioSource *pMySource)
     // Ask MMCSS to temporarily boost the thread priority
     // to reduce glitches while the low-latency stream plays.
     DWORD taskIndex = 0;
-    hTask = AvSetMmThreadCharacteristics(TEXT("Pro Audio"), &amp;taskIndex);
+    hTask = AvSetMmThreadCharacteristics(TEXT("Pro Audio"), &taskIndex);
     if (hTask == NULL)
     {
         hr = E_FAIL;
@@ -181,11 +181,11 @@ HRESULT PlayExclusiveStream(MyAudioSource *pMySource)
         }
 
         // Grab the next empty buffer from the audio device.
-        hr = pRenderClient->GetBuffer(bufferFrameCount, &amp;pData);
+        hr = pRenderClient->GetBuffer(bufferFrameCount, &pData);
         EXIT_ON_ERROR(hr)
 
         // Load the buffer with data from the audio source.
-        hr = pMySource->LoadData(bufferFrameCount, pData, &amp;flags);
+        hr = pMySource->LoadData(bufferFrameCount, pData, &flags);
         EXIT_ON_ERROR(hr)
 
         hr = pRenderClient->ReleaseBuffer(bufferFrameCount, flags);

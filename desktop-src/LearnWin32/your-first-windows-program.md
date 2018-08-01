@@ -38,7 +38,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int nCmdShow
     wc.hInstance     = hInstance;
     wc.lpszClassName = CLASS_NAME;
 
-    RegisterClass(&amp;wc);
+    RegisterClass(&wc);
 
     // Create the window.
 
@@ -67,10 +67,10 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int nCmdShow
     // Run the message loop.
 
     MSG msg = { };
-    while (GetMessage(&amp;msg, NULL, 0, 0))
+    while (GetMessage(&msg, NULL, 0, 0))
     {
-        TranslateMessage(&amp;msg);
-        DispatchMessage(&amp;msg);
+        TranslateMessage(&msg);
+        DispatchMessage(&msg);
     }
 
     return 0;
@@ -87,7 +87,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
     case WM_PAINT:
         {
             PAINTSTRUCT ps;
-            HDC hdc = BeginPaint(hwnd, &amp;ps);
+            HDC hdc = BeginPaint(hwnd, &ps);
 
 ```
 
@@ -104,9 +104,9 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>            FillRect(hdc, &amp;ps.rcPaint, (HBRUSH) (COLOR_WINDOW+1));
+<td><pre><code>            FillRect(hdc, &ps.rcPaint, (HBRUSH) (COLOR_WINDOW+1));
 
-            EndPaint(hwnd, &amp;ps);
+            EndPaint(hwnd, &ps);
         }
         return 0;
 

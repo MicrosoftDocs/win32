@@ -58,13 +58,13 @@ The following procedure shows how to access data from a high-performance provide
         NULL,
         CLSCTX_INPROC_SERVER,
         IID_IWbemRefresher,
-        (void**) &amp;pRefresher);
+        (void**) &pRefresher);
 
     IWbemConfigureRefresher* pConfig = NULL;
 
     pRefresher->QueryInterface( 
         IID_IWbemConfigureRefresher,
-        (void**) &amp;pConfig
+        (void**) &pConfig
       );
     ```
 
@@ -86,7 +86,7 @@ The following procedure shows how to access data from a high-performance provide
          L"Win32_PerfRawData_PerfProc_Process.Name=\"WINWORD\"",
          0L,
          NULL,
-         &amp;pObj,
+         &pObj,
          NULL
     );
     if (FAILED(hr))
@@ -107,7 +107,7 @@ The following procedure shows how to access data from a high-performance provide
     ```C++
         // For quick property retrieval, use IWbemObjectAccess.
         IWbemObjectAccess* pAcc = NULL;
-        pObj->QueryInterface( IID_IWbemObjectAccess, (void**) &amp;pAcc );
+        pObj->QueryInterface( IID_IWbemObjectAccess, (void**) &pAcc );
         // This is not required.
         pObj->Release();
     ```
@@ -129,8 +129,8 @@ The following procedure shows how to access data from a high-performance provide
         CIMTYPE variant;
 
         hr = pAcc->GetPropertyHandle(L"VirtualBytes",
-             &amp;variant,
-             &amp;lVirtualBytesHandle 
+             &variant,
+             &lVirtualBytesHandle 
         );
         if (FAILED(hr))
         {
@@ -163,7 +163,7 @@ CIMTYPE variant;
 VARIANT VT;
 
 CoCreateInstance( CLSID_WbemLocator, NULL,
-    CLSCTX_INPROC_SERVER, IID_IWbemLocator, (void**) &amp;pWbemLocator
+    CLSCTX_INPROC_SERVER, IID_IWbemLocator, (void**) &pWbemLocator
 );
 
 // Connect to the desired namespace
@@ -179,14 +179,14 @@ hr = pWbemLocator->ConnectServer(
      0L,                 // Security flags
      NULL,               // Authority
      NULL,               // Wbem context
-     &amp;pNameSpace         // Namespace
+     &pNameSpace         // Namespace
 );
 
 if ( SUCCEEDED( hr ) )
 {
     // Set namespace security.
     IUnknown* pUnk = NULL;
-    pNameSpace->QueryInterface( IID_IUnknown, (void**) &amp;pUnk );
+    pNameSpace->QueryInterface( IID_IUnknown, (void**) &pUnk );
 
     hr = CoSetProxyBlanket(
          pNameSpace, 
@@ -235,11 +235,11 @@ if ( SUCCEEDED( hr ) )
                      NULL,
                      CLSCTX_INPROC_SERVER, 
                      IID_IWbemRefresher, 
-                     (void**) &amp;pRefresher 
+                     (void**) &pRefresher 
     );
     
     pRefresher->QueryInterface(IID_IWbemConfigureRefresher,
-                               (void**) &amp;pConfig );
+                               (void**) &pConfig );
 
     IWbemClassObject* pObj = NULL;
 
@@ -249,7 +249,7 @@ if ( SUCCEEDED( hr ) )
        L"Win32_PerfRawData_PerfProc_Process.Name=\"WINWORD\"",
        0L,
        NULL,
-       &amp;pObj,
+       &pObj,
        NULL 
     );
     if (FAILED(hr))
@@ -264,7 +264,7 @@ if ( SUCCEEDED( hr ) )
     // For quick property retrieval, use IWbemObjectAccess.
     IWbemObjectAccess* pAcc = NULL;
     pObj->QueryInterface(IID_IWbemObjectAccess, 
-                         (void**) &amp;pAcc );
+                         (void**) &pAcc );
 
     // This is not required.
     pObj->Release();
@@ -274,14 +274,14 @@ if ( SUCCEEDED( hr ) )
     DWORD dwVirtualBytes = 0;
 
     pAcc->GetPropertyHandle(L"VirtualBytes", 
-                            &amp;variant, 
-                            &amp;lVirtualBytesHandle );
+                            &variant, 
+                            &lVirtualBytesHandle );
 
     // Refresh the object ten times and retrieve the value.
     for( int x = 0; x < 10; x++ )
     {
         pRefresher->Refresh( 0L );
-        pAcc->ReadDWORD( lVirtualBytesHandle, &amp;dwVirtualBytes );
+        pAcc->ReadDWORD( lVirtualBytesHandle, &dwVirtualBytes );
         printf( "Process is using %lu bytes\n", dwVirtualBytes );
         // Sleep for a second.
         Sleep( 1000 );

@@ -192,31 +192,31 @@ HRESULT EncodeFile(PCWSTR pszInput, PCWSTR pszOutput)
 
     MFTIME duration = 0;
 
-    HRESULT hr = CreateMediaSource(pszInput, &amp;pSource);
+    HRESULT hr = CreateMediaSource(pszInput, &pSource);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = GetSourceDuration(pSource, &amp;duration);
+    hr = GetSourceDuration(pSource, &duration);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = CreateTranscodeProfile(&amp;pProfile);
+    hr = CreateTranscodeProfile(&pProfile);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = MFCreateTranscodeTopology(pSource, pszOutput, pProfile, &amp;pTopology);
+    hr = MFCreateTranscodeTopology(pSource, pszOutput, pProfile, &pTopology);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = CSession::Create(&amp;pSession);
+    hr = CSession::Create(&pSession);
     if (FAILED(hr))
     {
         goto done;
@@ -236,10 +236,10 @@ done:
         pSource->Shutdown();
     }
 
-    SafeRelease(&amp;pSession);
-    SafeRelease(&amp;pProfile);
-    SafeRelease(&amp;pSource);
-    SafeRelease(&amp;pTopology);
+    SafeRelease(&pSession);
+    SafeRelease(&pProfile);
+    SafeRelease(&pSource);
+    SafeRelease(&pTopology);
     return hr;
 }
 ```
@@ -271,7 +271,7 @@ HRESULT CreateMediaSource(PCWSTR pszURL, IMFMediaSource **ppSource)
     IUnknown* pSource = NULL;
 
     // Create the source resolver.
-    HRESULT hr = MFCreateSourceResolver(&amp;pResolver);
+    HRESULT hr = MFCreateSourceResolver(&pResolver);
     if (FAILED(hr))
     {
         goto done;
@@ -279,7 +279,7 @@ HRESULT CreateMediaSource(PCWSTR pszURL, IMFMediaSource **ppSource)
 
     // Use the source resolver to create the media source
     hr = pResolver->CreateObjectFromURL(pszURL, MF_RESOLUTION_MEDIASOURCE, 
-        NULL, &amp;ObjectType, &amp;pSource);
+        NULL, &ObjectType, &pSource);
     if (FAILED(hr))
     {
         goto done;
@@ -289,8 +289,8 @@ HRESULT CreateMediaSource(PCWSTR pszURL, IMFMediaSource **ppSource)
     hr = pSource->QueryInterface(IID_PPV_ARGS(ppSource));
 
 done:
-    SafeRelease(&amp;pResolver);
-    SafeRelease(&amp;pSource);
+    SafeRelease(&pResolver);
+    SafeRelease(&pSource);
     return hr;
 }
 ```
@@ -311,7 +311,7 @@ HRESULT GetSourceDuration(IMFMediaSource *pSource, MFTIME *pDuration)
 
     IMFPresentationDescriptor *pPD = NULL;
 
-    HRESULT hr = pSource->CreatePresentationDescriptor(&amp;pPD);
+    HRESULT hr = pSource->CreatePresentationDescriptor(&pPD);
     if (SUCCEEDED(hr))
     {
         hr = pPD->GetUINT64(MF_PD_DURATION, (UINT64*)pDuration);
@@ -345,14 +345,14 @@ HRESULT CreateTranscodeProfile(IMFTranscodeProfile **ppProfile)
     IMFAttributes *pVideo = NULL;
     IMFAttributes *pContainer = NULL;
 
-    HRESULT hr = MFCreateTranscodeProfile(&amp;pProfile);
+    HRESULT hr = MFCreateTranscodeProfile(&pProfile);
     if (FAILED(hr)) 
     {
         goto done;
     }
 
     // Audio attributes.
-    hr = CreateAACProfile(audio_profile, &amp;pAudio);
+    hr = CreateAACProfile(audio_profile, &pAudio);
     if (FAILED(hr)) 
     {
         goto done;
@@ -365,7 +365,7 @@ HRESULT CreateTranscodeProfile(IMFTranscodeProfile **ppProfile)
     }
 
     // Video attributes.
-    hr = CreateH264Profile(video_profile, &amp;pVideo);
+    hr = CreateH264Profile(video_profile, &pVideo);
     if (FAILED(hr)) 
     {
         goto done;
@@ -378,7 +378,7 @@ HRESULT CreateTranscodeProfile(IMFTranscodeProfile **ppProfile)
     }
 
     // Container attributes.
-    hr = MFCreateAttributes(&amp;pContainer, 1);
+    hr = MFCreateAttributes(&pContainer, 1);
     if (FAILED(hr)) 
     {
         goto done;
@@ -400,10 +400,10 @@ HRESULT CreateTranscodeProfile(IMFTranscodeProfile **ppProfile)
     (*ppProfile)->AddRef();
 
 done:
-    SafeRelease(&amp;pProfile);
-    SafeRelease(&amp;pAudio);
-    SafeRelease(&amp;pVideo);
-    SafeRelease(&amp;pContainer);
+    SafeRelease(&pProfile);
+    SafeRelease(&pAudio);
+    SafeRelease(&pVideo);
+    SafeRelease(&pContainer);
     return hr;
 }
 ```
@@ -457,9 +457,9 @@ HRESULT CreateH264Profile(DWORD index, IMFAttributes **ppAttributes)
 
     IMFAttributes *pAttributes = NULL;
 
-    const H264ProfileInfo&amp; profile = h264_profiles[index];
+    const H264ProfileInfo& profile = h264_profiles[index];
 
-    HRESULT hr = MFCreateAttributes(&amp;pAttributes, 5);
+    HRESULT hr = MFCreateAttributes(&pAttributes, 5);
     if (SUCCEEDED(hr))
     {
         hr = pAttributes->SetGUID(MF_MT_SUBTYPE, MFVideoFormat_H264);
@@ -489,7 +489,7 @@ HRESULT CreateH264Profile(DWORD index, IMFAttributes **ppAttributes)
         *ppAttributes = pAttributes;
         (*ppAttributes)->AddRef();
     }
-    SafeRelease(&amp;pAttributes);
+    SafeRelease(&pAttributes);
     return hr;
 }
 ```
@@ -507,11 +507,11 @@ HRESULT CreateAACProfile(DWORD index, IMFAttributes **ppAttributes)
         return E_INVALIDARG;
     }
 
-    const AACProfileInfo&amp; profile = aac_profiles[index];
+    const AACProfileInfo& profile = aac_profiles[index];
 
     IMFAttributes *pAttributes = NULL;
 
-    HRESULT hr = MFCreateAttributes(&amp;pAttributes, 7);
+    HRESULT hr = MFCreateAttributes(&pAttributes, 7);
     if (SUCCEEDED(hr))
     {
         hr = pAttributes->SetGUID(MF_MT_SUBTYPE, MFAudioFormat_AAC);
@@ -550,7 +550,7 @@ HRESULT CreateAACProfile(DWORD index, IMFAttributes **ppAttributes)
         *ppAttributes = pAttributes;
         (*ppAttributes)->AddRef();
     }
-    SafeRelease(&amp;pAttributes);
+    SafeRelease(&pAttributes);
     return hr;
 }
 ```
@@ -578,7 +578,7 @@ HRESULT RunEncodingSession(CSession *pSession, MFTIME duration)
         hr = pSession->Wait(WAIT_PERIOD);
         if (hr == E_PENDING)
         {
-            hr = pSession->GetEncodingPosition(&amp;pos);
+            hr = pSession->GetEncodingPosition(&pos);
 
             LONGLONG percent = (100 * pos) / duration ;
             if (percent >= prev + UPDATE_INCR)
@@ -659,8 +659,8 @@ private:
             m_pSession->Shutdown();
         }
 
-        SafeRelease(&amp;m_pClock);
-        SafeRelease(&amp;m_pSession);
+        SafeRelease(&m_pClock);
+        SafeRelease(&m_pSession);
         CloseHandle(m_hWaitEvent);
     }
 
@@ -713,12 +713,12 @@ STDMETHODIMP CSession::QueryInterface(REFIID riid, void** ppv)
 
 STDMETHODIMP_(ULONG) CSession::AddRef()
 {
-    return InterlockedIncrement(&amp;m_cRef);
+    return InterlockedIncrement(&m_cRef);
 }
 
 STDMETHODIMP_(ULONG) CSession::Release()
 {
-    long cRef = InterlockedDecrement(&amp;m_cRef);
+    long cRef = InterlockedDecrement(&m_cRef);
     if (cRef == 0)
     {
         delete this;
@@ -730,19 +730,19 @@ HRESULT CSession::Initialize()
 {
     IMFClock *pClock = NULL;
 
-    HRESULT hr = MFCreateMediaSession(NULL, &amp;m_pSession);
+    HRESULT hr = MFCreateMediaSession(NULL, &m_pSession);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = m_pSession->GetClock(&amp;pClock);
+    hr = m_pSession->GetClock(&pClock);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pClock->QueryInterface(IID_PPV_ARGS(&amp;m_pClock));
+    hr = pClock->QueryInterface(IID_PPV_ARGS(&m_pClock));
     if (FAILED(hr))
     {
         goto done;
@@ -760,7 +760,7 @@ HRESULT CSession::Initialize()
         hr = HRESULT_FROM_WIN32(GetLastError());
     }
 done:
-    SafeRelease(&amp;pClock);
+    SafeRelease(&pClock);
     return hr;
 }
 
@@ -771,19 +771,19 @@ STDMETHODIMP CSession::Invoke(IMFAsyncResult *pResult)
     MediaEventType meType = MEUnknown;
     HRESULT hrStatus = S_OK;
 
-    HRESULT hr = m_pSession->EndGetEvent(pResult, &amp;pEvent);
+    HRESULT hr = m_pSession->EndGetEvent(pResult, &pEvent);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pEvent->GetType(&amp;meType);
+    hr = pEvent->GetType(&meType);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pEvent->GetStatus(&amp;hrStatus);
+    hr = pEvent->GetStatus(&hrStatus);
     if (FAILED(hr))
     {
         goto done;
@@ -822,7 +822,7 @@ done:
         m_pSession->Close();
     }
 
-    SafeRelease(&amp;pEvent);
+    SafeRelease(&pEvent);
     return hr;
 }
 
@@ -832,8 +832,8 @@ HRESULT CSession::StartEncodingSession(IMFTopology *pTopology)
     if (SUCCEEDED(hr))
     {
         PROPVARIANT varStart;
-        PropVariantClear(&amp;varStart);
-        hr = m_pSession->Start(&amp;GUID_NULL, &amp;varStart);
+        PropVariantClear(&varStart);
+        hr = m_pSession->Start(&GUID_NULL, &varStart);
     }
     return hr;
 }

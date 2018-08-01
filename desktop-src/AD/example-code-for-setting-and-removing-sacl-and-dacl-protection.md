@@ -56,7 +56,7 @@ HRESULT SetSDInheritProtect(IADs *pObject, long lControl)
 
     // Get the nTSecurityDescriptor
     CComBSTR sbstrAttribute = "nTSecurityDescriptor";
-    hr = pObject->Get(sbstrAttribute, &amp;svar);
+    hr = pObject->Get(sbstrAttribute, &svar);
     if(FAILED(hr))
     {
         return hr;
@@ -76,14 +76,14 @@ HRESULT SetSDInheritProtect(IADs *pObject, long lControl)
     the IADsSecurityDescriptor pointer.
     */
     CComPtr<IADsSecurityDescriptor> spSD;
-    hr = svar.pdispVal->QueryInterface(IID_IADsSecurityDescriptor, (void**)&amp;spSD);
+    hr = svar.pdispVal->QueryInterface(IID_IADsSecurityDescriptor, (void**)&spSD);
     if(FAILED(hr))
     {
         return hr;
     }
 
     // Get the Control property.
-    hr = spSD->get_Control(&amp;lSetControl);
+    hr = spSD->get_Control(&lSetControl);
     if(FAILED(hr))
     {
         return hr;
@@ -95,17 +95,17 @@ HRESULT SetSDInheritProtect(IADs *pObject, long lControl)
     if(lControl & SE_DACL_PROTECTED)
     {
         lSetControl |= SE_DACL_PROTECTED;
-        lSetControl &amp;= !SE_SACL_PROTECTED;
+        lSetControl &= !SE_SACL_PROTECTED;
     }
     else if(lControl & SE_SACL_PROTECTED)
     {
         lSetControl |= SE_SACL_PROTECTED;
-        lSetControl &amp;= !SE_DACL_PROTECTED;
+        lSetControl &= !SE_DACL_PROTECTED;
     }
     else
     {
-        lSetControl &amp;= !SE_DACL_PROTECTED;
-        lSetControl &amp;= !SE_SACL_PROTECTED;
+        lSetControl &= !SE_DACL_PROTECTED;
+        lSetControl &= !SE_SACL_PROTECTED;
     }
 
     /*

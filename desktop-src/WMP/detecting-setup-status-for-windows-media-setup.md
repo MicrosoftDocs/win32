@@ -57,16 +57,16 @@ int main( void )
 if( ERROR_SUCCESS == RegOpenKeyExA( 
                          HKEY_CURRENT_USER, 
                          "Software\\Microsoft\\MediaPlayer\\Setup", 
-                         0, KEY_QUERY_VALUE, &amp;hKey ))
+                         0, KEY_QUERY_VALUE, &hKey ))
     {
         char szResult[64];
         DWORD dwResult = sizeof( szResult );
  
 if( ERROR_SUCCESS == RegQueryValueExA( 
                          hKey, "InstallResult", NULL, NULL, 
-                         (LPBYTE)szResult, &amp;dwResult ) )
+                         (LPBYTE)szResult, &dwResult ) )
         {
-            sscanf_s( szResult, "%x", &amp;dwResult );
+            sscanf_s( szResult, "%x", &dwResult );
             fSuccess = SUCCEEDED( dwResult );
             fRebootNeeded = ( NS_S_REBOOT_REQUIRED == dwResult );
         }

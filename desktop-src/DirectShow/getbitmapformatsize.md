@@ -61,13 +61,13 @@ To copy a [**BITMAPINFOHEADER**](/windows/desktop/api/WinGDI/ns-wingdi-tagbitmap
 
 
 ```
-LONG size = GetBitmapFormatSize(&amp;bmi);
+LONG size = GetBitmapFormatSize(&bmi);
 
 VIDEOINFO *pVi = static_cast<VIDEOINFO*>(CoTaskMemAlloc(size));
 
 if (pVi != NULL)
 {
-    CopyMemory(HEADER(pVi), &amp;bmi, sizeof(BITMAPINFOHEADER));
+    CopyMemory(HEADER(pVi), &bmi, sizeof(BITMAPINFOHEADER));
 }
 ```
 

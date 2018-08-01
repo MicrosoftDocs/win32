@@ -75,7 +75,7 @@ strcpy_s(g_lpPackageName, 1024 * sizeof(TCHAR), "Negotiate");
 //-----------------------------------------------------------------   
 //  Initialize the socket interface and the security package.
 
-if( WSAStartup (0x0101, &amp;wsaData))
+if( WSAStartup (0x0101, &wsaData))
 {
     fprintf (stderr, "Could not initialize winsock: \n");
     cleanup();
@@ -83,7 +83,7 @@ if( WSAStartup (0x0101, &amp;wsaData))
 
 ss = QuerySecurityPackageInfo (
    g_lpPackageName, 
-   &amp;pkgInfo);
+   &pkgInfo);
 
 if (!SEC_SUCCESS(ss)) 
 {
@@ -117,16 +117,16 @@ while(TRUE)
 //  Make an authenticated connection with client.
 
 
-  if (!AcceptAuthSocket (&amp;Server_Socket))
+  if (!AcceptAuthSocket (&Server_Socket))
   {
       fprintf (stderr, "Could not authenticate the socket.\n");
      cleanup();
   }
       
 ss = QueryContextAttributes(
-       &amp;hctxt,
+       &hctxt,
        SECPKG_ATTR_SIZES,
-       &amp;SecPkgContextSizes );
+       &SecPkgContextSizes );
 
 if (!SEC_SUCCESS(ss))  
 {
@@ -141,9 +141,9 @@ cbMaxSignature = SecPkgContextSizes.cbMaxSignature;
 cbSecurityTrailer = SecPkgContextSizes.cbSecurityTrailer;
 
 ss = QueryContextAttributes(
-      &amp;hctxt,
+      &hctxt,
       SECPKG_ATTR_NEGOTIATION_INFO,
-      &amp;SecPkgNegInfo );
+      &SecPkgNegInfo );
 
 if (!SEC_SUCCESS(ss))  
 {
@@ -163,7 +163,7 @@ FreeContextBuffer(SecPkgNegInfo.PackageInfo);
 //-----------------------------------------------------------------   
 //  Impersonate the client.
 
-  ss = ImpersonateSecurityContext (&amp;hctxt);
+  ss = ImpersonateSecurityContext (&hctxt);
   if (!SEC_SUCCESS(ss)) 
   {
      fprintf (stderr, "Impersonate failed: 0x%08x\n", ss);
@@ -174,7 +174,7 @@ FreeContextBuffer(SecPkgNegInfo.PackageInfo);
        printf("Impersonation worked. \n");
   }
 
-  GetUserName (NULL, &amp;cbUserName);
+  GetUserName (NULL, &cbUserName);
   pUserName = (PCHAR) malloc (cbUserName);
 
   if (!pUserName)
@@ -185,7 +185,7 @@ FreeContextBuffer(SecPkgNegInfo.PackageInfo);
 
   if (!GetUserName (
      pUserName, 
-     &amp;cbUserName))
+     &cbUserName))
   {
     fprintf (stderr, "Could not get the client name. \n");
     cleanup();
@@ -198,7 +198,7 @@ FreeContextBuffer(SecPkgNegInfo.PackageInfo);
 //-----------------------------------------------------------------   
 //  Revert to self.
 
-  ss = RevertSecurityContext (&amp;hctxt);
+  ss = RevertSecurityContext (&hctxt);
   if (!SEC_SUCCESS(ss)) 
   {
      fprintf (stderr, "Revert failed: 0x%08x\n", ss);
@@ -219,8 +219,8 @@ FreeContextBuffer(SecPkgNegInfo.PackageInfo);
   EncryptThis (
        (PBYTE) pMessage,
        cbMessage,
-       &amp;pDataToClient, 
-       &amp;cbDataToClient,
+       &pDataToClient, 
+       &cbDataToClient,
        cbSecurityTrailer);
 
 //-----------------------------------------------------------------   
@@ -240,8 +240,8 @@ FreeContextBuffer(SecPkgNegInfo.PackageInfo);
 
   if (Server_Socket)
   {
-    DeleteSecurityContext (&amp;hctxt);
-    FreeCredentialHandle (&amp;hcred);
+    DeleteSecurityContext (&hctxt);
+    FreeCredentialHandle (&hcred);
     shutdown (Server_Socket, 2) ; 
     closesocket (Server_Socket);
     Server_Socket = 0;
@@ -294,7 +294,7 @@ sockIn.sin_port = htons(usPort);
  
 if (SOCKET_ERROR == bind (
    sockListen, 
-   (LPSOCKADDR) &amp;sockIn, 
+   (LPSOCKADDR) &sockIn, 
    sizeof (sockIn)))  
 {
     fprintf (stderr, "bind failed: %u\n", GetLastError ());
@@ -355,8 +355,8 @@ ss = AcquireCredentialsHandle (
        NULL, 
        NULL, 
        NULL, 
-       &amp;hcred,
-       &amp;Lifetime);
+       &hcred,
+       &Lifetime);
 
 if (!SEC_SUCCESS (ss))
 {
@@ -370,7 +370,7 @@ while(!done)
      AuthSocket, 
      g_pInBuf, 
      g_cbMaxMessage, 
-     &amp;cbIn))
+     &cbIn))
    {
       return(FALSE);
    }
@@ -381,8 +381,8 @@ while(!done)
        g_pInBuf, 
        cbIn, 
        g_pOutBuf, 
-       &amp;cbOut, 
-       &amp;done,
+       &cbOut, 
+       &done,
        fNewConversation))
    {
         fprintf(stderr,"GenServerContext failed.\n");
@@ -423,7 +423,7 @@ ULONG             Attribs = 0;
 
 OutBuffDesc.ulVersion = 0;
 OutBuffDesc.cBuffers = 1;
-OutBuffDesc.pBuffers = &amp;OutSecBuff;
+OutBuffDesc.pBuffers = &OutSecBuff;
 
 OutSecBuff.cbBuffer = *pcbOut;
 OutSecBuff.BufferType = SECBUFFER_TOKEN;
@@ -434,7 +434,7 @@ OutSecBuff.pvBuffer = pOut;
 
 InBuffDesc.ulVersion = 0;
 InBuffDesc.cBuffers = 1;
-InBuffDesc.pBuffers = &amp;InSecBuff;
+InBuffDesc.pBuffers = &InSecBuff;
 
 InSecBuff.cbBuffer = cbIn;
 InSecBuff.BufferType = SECBUFFER_TOKEN;
@@ -444,15 +444,15 @@ printf ("Token buffer received (%lu bytes):\n", InSecBuff.cbBuffer);
 PrintHexDump (InSecBuff.cbBuffer, (PBYTE)InSecBuff.pvBuffer);
 
 ss = AcceptSecurityContext (
-       &amp;hcred,
-       fNewConversation ? NULL : &amp;hctxt,
-       &amp;InBuffDesc,
+       &hcred,
+       fNewConversation ? NULL : &hctxt,
+       &InBuffDesc,
        Attribs, 
        SECURITY_NATIVE_DREP,
-       &amp;hctxt,
-       &amp;OutBuffDesc,
-       &amp;Attribs,
-       &amp;Lifetime);
+       &hctxt,
+       &OutBuffDesc,
+       &Attribs,
+       &Lifetime);
 
 if (!SEC_SUCCESS (ss))  
 {
@@ -466,7 +466,7 @@ if (!SEC_SUCCESS (ss))
 if ((SEC_I_COMPLETE_NEEDED == ss) 
    || (SEC_I_COMPLETE_AND_CONTINUE == ss))  
 {
-    ss = CompleteAuthToken (&amp;hctxt, &amp;OutBuffDesc);
+    ss = CompleteAuthToken (&hctxt, &OutBuffDesc);
     if (!SEC_SUCCESS(ss))  
    {
        fprintf (stderr, "complete failed: 0x%08x\n", ss);
@@ -540,9 +540,9 @@ SecBuff[1].BufferType = SECBUFFER_DATA;
 SecBuff[1].pvBuffer = pMessage;
 
 ss = EncryptMessage(
-    &amp;hctxt,
+    &hctxt,
     ulQop,
-    &amp;BuffDesc,
+    &BuffDesc,
     0);
 
 if (!SEC_SUCCESS(ss)) 
@@ -649,7 +649,7 @@ if (0 == cbBuf)
 
 if (!SendBytes (
   s, 
-  (PBYTE)&amp;cbBuf, 
+  (PBYTE)&cbBuf, 
   sizeof (cbBuf)))
 {
     return(FALSE);
@@ -683,9 +683,9 @@ DWORD cbData;
 
 if (!ReceiveBytes (
   s, 
-  (PBYTE)&amp;cbData, 
+  (PBYTE)&cbData, 
   sizeof (cbData), 
-  &amp;cbRead))
+  &cbRead))
 {
   return(FALSE);
 }
@@ -702,7 +702,7 @@ if (!ReceiveBytes (
   s, 
   pBuf, 
   cbData, 
-  &amp;cbRead))
+  &cbRead))
 {
    return(FALSE);
 }

@@ -77,14 +77,14 @@ void FreeFormatCapability(WMDM_FORMAT_CAPABILITY formatCap)
                 case WMDM_ENUM_PROP_VALID_VALUES_ENUM:
                     for (UINT k=0; k < formatCap.pConfigs[i].pPropDesc[j].ValidValues.EnumeratedValidValues.cEnumValues; k++)
                     {
-                        PropVariantClear (&amp;(formatCap.pConfigs[i].pPropDesc[j].ValidValues.EnumeratedValidValues.pValues[k]));
+                        PropVariantClear (&(formatCap.pConfigs[i].pPropDesc[j].ValidValues.EnumeratedValidValues.pValues[k]));
                     }
                     CoTaskMemFree(formatCap.pConfigs[i].pPropDesc[j].ValidValues.EnumeratedValidValues.pValues);
                     break;
                 case WMDM_ENUM_PROP_VALID_VALUES_RANGE:
-                    PropVariantClear (&amp;(formatCap.pConfigs[i].pPropDesc[j].ValidValues.ValidValuesRange.rangeMin));
-                    PropVariantClear (&amp;(formatCap.pConfigs[i].pPropDesc[j].ValidValues.ValidValuesRange.rangeMax));
-                    PropVariantClear (&amp;(formatCap.pConfigs[i].pPropDesc[j].ValidValues.ValidValuesRange.rangeStep));
+                    PropVariantClear (&(formatCap.pConfigs[i].pPropDesc[j].ValidValues.ValidValuesRange.rangeMin));
+                    PropVariantClear (&(formatCap.pConfigs[i].pPropDesc[j].ValidValues.ValidValuesRange.rangeMax));
+                    PropVariantClear (&(formatCap.pConfigs[i].pPropDesc[j].ValidValues.ValidValuesRange.rangeStep));
                     break;
                 case WMDM_ENUM_PROP_VALID_VALUES_ANY:
                     // No dynamically allocated memory for this value.

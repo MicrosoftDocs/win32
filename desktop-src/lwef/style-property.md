@@ -73,7 +73,7 @@ For example, to change the number of lines, clear bits 24 to 31 with a logical *
 
 ```
    ' Set the number of lines to 4
-   Genie.Balloon.Style = (Genie.Balloon.Style <b>AND</b> &amp;amp;H00FFFFFF) + (4*(2^24))
+   Genie.Balloon.Style = (Genie.Balloon.Style <b>AND</b> &amp;H00FFFFFF) + (4*(2^24))
 ```
 
 
@@ -83,7 +83,7 @@ To set the number of characters per line, clear bits 16 to 23 with a logical **A
 
 ```
    ' Set the number of characters per line to 16
-   Genie.Balloon.Style = (Genie.Balloon.Style AND &amp;amp;HFF00FFFF) + (16*(2^16))
+   Genie.Balloon.Style = (Genie.Balloon.Style AND &amp;HFF00FFFF) + (16*(2^16))
 ```
 
 

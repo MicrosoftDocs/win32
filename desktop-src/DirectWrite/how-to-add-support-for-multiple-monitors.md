@@ -26,11 +26,11 @@ case WM_WINDOWPOSCHANGED:
             if (g_spRenderTarget != NULL)
             {
                 IDWriteRenderingParams* pRenderingParams = NULL;
-                g_spDWriteFactory->CreateMonitorRenderingParams(monitor, &amp;pRenderingParams);
+                g_spDWriteFactory->CreateMonitorRenderingParams(monitor, &pRenderingParams);
 
                 g_spRenderTarget->SetTextRenderingParams(pRenderingParams);
 
-                SafeRelease(&amp;pRenderingParams);
+                SafeRelease(&pRenderingParams);
             }
 
             InvalidateRect(hwnd, NULL, TRUE);

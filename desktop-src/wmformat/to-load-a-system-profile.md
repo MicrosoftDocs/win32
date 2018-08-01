@@ -31,10 +31,10 @@ HRESULT hr = S_OK;
 hr = CoInitialize(NULL);
 
 // Create a profile manager.
-hr = WMCreateProfileManager(&amp;pProfileMgr);
+hr = WMCreateProfileManager(&pProfileMgr);
 
 // Retrieve the data for the general-purpose broadband video profile.
-hr = pProfileMgr->LoadProfileByID(WMProfile_V80_100Video, &amp;pProfile);
+hr = pProfileMgr->LoadProfileByID(WMProfile_V80_100Video, &pProfile);
 
 // TODO: Perform whatever customizations are needed. For details about
 // editing profiles, see Using Custom Profiles.

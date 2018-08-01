@@ -43,13 +43,13 @@ case WM_CHAR:
     return 0L; 
  
 case WM_PAINT: 
-    hdc = BeginPaint(hwnd, &amp;ps); 
-    GetClientRect(hwnd, &amp;rc); 
+    hdc = BeginPaint(hwnd, &ps); 
+    GetClientRect(hwnd, &rc); 
     SetMapMode(hdc, MM_ANISOTROPIC); 
     SetWindowExtEx(hdc, 100, 100, NULL); 
     SetViewportExtEx(hdc, rc.right, rc.bottom, NULL); 
     Polyline(hdc, ppt, cpt); 
-    EndPaint(hwnd, &amp;ps); 
+    EndPaint(hwnd, &ps); 
     return 0L; 
 ```
 

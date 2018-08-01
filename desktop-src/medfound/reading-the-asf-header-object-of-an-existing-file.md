@@ -39,13 +39,13 @@ HRESULT CreateContentInfo(IMFByteStream *pStream,
     IMFMediaBuffer *pBuffer = NULL;
 
     // Create the ASF ContentInfo object.
-    HRESULT hr = MFCreateASFContentInfo(&amp;pContentInfo);
+    HRESULT hr = MFCreateASFContentInfo(&pContentInfo);
     
     // Read the first 30 bytes to find the total header size.
 
     if (SUCCEEDED(hr))
     {
-        hr = MFCreateMemoryBuffer(MIN_ASF_HEADER_SIZE, &amp;pBuffer);
+        hr = MFCreateMemoryBuffer(MIN_ASF_HEADER_SIZE, &pBuffer);
     }
     if (SUCCEEDED(hr))
     {
@@ -53,7 +53,7 @@ HRESULT CreateContentInfo(IMFByteStream *pStream,
     }
     if (SUCCEEDED(hr))
     {
-        hr = pContentInfo->GetHeaderSize(pBuffer, &amp;cbHeader);
+        hr = pContentInfo->GetHeaderSize(pBuffer, &cbHeader);
     }
 
     // Pass the first 30 bytes to the ContentInfo object.
@@ -62,13 +62,13 @@ HRESULT CreateContentInfo(IMFByteStream *pStream,
         hr = pContentInfo->ParseHeader(pBuffer, 0);
     }
 
-    SafeRelease(&amp;pBuffer);
+    SafeRelease(&pBuffer);
 
     if (SUCCEEDED(hr))
     {
         cbBuffer = (DWORD)(cbHeader - MIN_ASF_HEADER_SIZE);
 
-        hr = MFCreateMemoryBuffer(cbBuffer, &amp;pBuffer);
+        hr = MFCreateMemoryBuffer(cbBuffer, &pBuffer);
     }
 
     // Read the rest of the header and finish parsing the header.
@@ -86,8 +86,8 @@ HRESULT CreateContentInfo(IMFByteStream *pStream,
         *ppContentInfo = pContentInfo;
         (*ppContentInfo)->AddRef();
     }
-    SafeRelease(&amp;pBuffer);
-    SafeRelease(&amp;pContentInfo);
+    SafeRelease(&pBuffer);
+    SafeRelease(&pContentInfo);
     return hr;
 } 
 ```
@@ -116,13 +116,13 @@ HRESULT CreateContentInfo(IMFByteStream *pStream,
     IMFMediaBuffer *pBuffer = NULL;
 
     // Create the ASF ContentInfo object.
-    HRESULT hr = MFCreateASFContentInfo(&amp;pContentInfo);
+    HRESULT hr = MFCreateASFContentInfo(&pContentInfo);
     
     // Read the first 30 bytes to find the total header size.
 
     if (SUCCEEDED(hr))
     {
-        hr = MFCreateMemoryBuffer(MIN_ASF_HEADER_SIZE, &amp;pBuffer);
+        hr = MFCreateMemoryBuffer(MIN_ASF_HEADER_SIZE, &pBuffer);
     }
     if (SUCCEEDED(hr))
     {
@@ -130,7 +130,7 @@ HRESULT CreateContentInfo(IMFByteStream *pStream,
     }
     if (SUCCEEDED(hr))
     {
-        hr = pContentInfo->GetHeaderSize(pBuffer, &amp;cbHeader);
+        hr = pContentInfo->GetHeaderSize(pBuffer, &cbHeader);
     }
 
     // Pass the first 30 bytes to the ContentInfo object.
@@ -139,13 +139,13 @@ HRESULT CreateContentInfo(IMFByteStream *pStream,
         hr = pContentInfo->ParseHeader(pBuffer, 0);
     }
 
-    SafeRelease(&amp;pBuffer);
+    SafeRelease(&pBuffer);
 
     if (SUCCEEDED(hr))
     {
         cbBuffer = (DWORD)(cbHeader - MIN_ASF_HEADER_SIZE);
 
-        hr = MFCreateMemoryBuffer(cbBuffer, &amp;pBuffer);
+        hr = MFCreateMemoryBuffer(cbBuffer, &pBuffer);
     }
 
     // Read the rest of the header and finish parsing the header.
@@ -163,8 +163,8 @@ HRESULT CreateContentInfo(IMFByteStream *pStream,
         *ppContentInfo = pContentInfo;
         (*ppContentInfo)->AddRef();
     }
-    SafeRelease(&amp;pBuffer);
-    SafeRelease(&amp;pContentInfo);
+    SafeRelease(&pBuffer);
+    SafeRelease(&pContentInfo);
     return hr;
 } 
 ```

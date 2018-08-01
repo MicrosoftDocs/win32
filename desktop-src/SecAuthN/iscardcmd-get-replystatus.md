@@ -81,7 +81,7 @@ WORD    wReplyStatus;
 HRESULT hr;
 
 // Get reply status.
-hr = pISCardCmd->get_ReplyStatus(&amp;wReplyStatus);
+hr = pISCardCmd->get_ReplyStatus(&wReplyStatus);
 if (FAILED(hr))
 {
   printf("Failed get_ReplyStatus\n");

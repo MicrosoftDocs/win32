@@ -84,7 +84,7 @@ Changing the handling of denormals is done by using the [\_controlfp\_s](http://
 ```
   #include <float.h>;
     unsigned int control_word;
-    _controlfp_s( &amp;control_word, _DN_FLUSH, _MCW_DN );
+    _controlfp_s( &control_word, _DN_FLUSH, _MCW_DN );
 ```
 
 

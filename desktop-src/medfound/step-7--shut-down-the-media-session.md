@@ -35,7 +35,7 @@ HRESULT CPlayer::CloseSession()
 
     HRESULT hr = S_OK;
 
-    SafeRelease(&amp;m_pVideoDisplay);
+    SafeRelease(&m_pVideoDisplay);
 
     // First close the media session.
     if (m_pSession)
@@ -72,8 +72,8 @@ HRESULT CPlayer::CloseSession()
         }
     }
 
-    SafeRelease(&amp;m_pSource);
-    SafeRelease(&amp;m_pSession);
+    SafeRelease(&m_pSource);
+    SafeRelease(&m_pSession);
     m_state = Closed;
     return hr;
 }

@@ -26,7 +26,7 @@ The **ICM\_DRAW\_SUGGESTFORMAT** message queries a rendering driver to suggest a
 
 ```C++
 ICM_DRAW_SUGGESTFORMAT 
-wParam = (DWORD_PTR) (LPVOID) &amp;icdrwSuggest; 
+wParam = (DWORD_PTR) (LPVOID) &icdrwSuggest; 
 lParam = sizeof(ICDRAWSUGGEST); 
 ```
 

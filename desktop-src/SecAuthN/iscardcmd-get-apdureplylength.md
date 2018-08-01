@@ -81,7 +81,7 @@ LONG    lLen;
 HRESULT hr;
 
 // Retrieve the APDU reply length.
-hr = pISCardCmd->get_ApduReplyLength(&amp;lLen);
+hr = pISCardCmd->get_ApduReplyLength(&lLen);
 if (FAILED(hr))
 {
     printf("Failed get_ApduReplyLength\n");

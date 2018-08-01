@@ -58,41 +58,41 @@ STDMETHODIMP CSyncSettings::InitListView()
    
     // Add headers.
     LVCOLUMN lvc;
-    ZeroMemory(&amp;lvc, sizeof(LVCOLUMN));
+    ZeroMemory(&lvc, sizeof(LVCOLUMN));
     lvc.mask = LVCF_WIDTH | LVCF_TEXT | LVCF_SUBITEM; 
     lvc.iSubItem = 0;
     
     lvc.pszText = _T("Sync");
     lvc.cx = 40;
-    ListView_InsertColumn(m_hPlView, lvc.iSubItem, &amp;lvc);
+    ListView_InsertColumn(m_hPlView, lvc.iSubItem, &lvc);
 
     lvc.iSubItem++;
     lvc.pszText = _T("Playlist Name");
     lvc.cx = 300;
-    ListView_InsertColumn(m_hPlView, lvc.iSubItem, &amp;lvc); 
+    ListView_InsertColumn(m_hPlView, lvc.iSubItem, &lvc); 
 
     // Media information.
     // Selection highlights all rows.
     ListView_SetExtendedListViewStyleEx(m_hMediaView, 0, LVS_EX_FULLROWSELECT);
 
     // Add headers
-    ZeroMemory(&amp;lvc, sizeof(LVCOLUMN));
+    ZeroMemory(&lvc, sizeof(LVCOLUMN));
     lvc.mask = LVCF_WIDTH | LVCF_TEXT | LVCF_SUBITEM; 
     lvc.iSubItem = 0;
     
     lvc.pszText = _T("Media name");
     lvc.cx = 150;
-    ListView_InsertColumn(m_hMediaView, lvc.iSubItem, &amp;lvc);
+    ListView_InsertColumn(m_hMediaView, lvc.iSubItem, &lvc);
 
     lvc.iSubItem++;
     lvc.pszText = _T("On Device");
     lvc.cx = 69;
-    ListView_InsertColumn(m_hMediaView, lvc.iSubItem, &amp;lvc);  
+    ListView_InsertColumn(m_hMediaView, lvc.iSubItem, &lvc);  
 
     lvc.iSubItem++;
     lvc.pszText = _T("Fit?");
     lvc.cx = 40;
-    ListView_InsertColumn(m_hMediaView, lvc.iSubItem, &amp;lvc);  
+    ListView_InsertColumn(m_hMediaView, lvc.iSubItem, &lvc);  
    
     return S_OK;
 }

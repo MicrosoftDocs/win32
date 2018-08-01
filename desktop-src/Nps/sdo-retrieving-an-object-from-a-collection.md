@@ -26,7 +26,7 @@ The following code retrieves the IP address of a client from a collection of cli
    // Get the client "Test Client" from the collection of clients
    //
    CComPtr<IDispatch> pFoundClientDispatch;
-   hr = pClientsCollection->Item(&amp;vtClientName, &amp;pFoundClientDispatch);
+   hr = pClientsCollection->Item(&vtClientName, &pFoundClientDispatch);
    if (FAILED(hr))
    {
       return hr;
@@ -35,7 +35,7 @@ The following code retrieves the IP address of a client from a collection of cli
    CComPtr<ISdo> pFoundClientSdo;
    hr = pFoundClientDispatch->QueryInterface(
       __uuidof(ISdo),
-      (void **) &amp;pFoundClientSdo
+      (void **) &pFoundClientSdo
    );
    if (FAILED(hr))
    {
@@ -46,7 +46,7 @@ The following code retrieves the IP address of a client from a collection of cli
    // Get the IP address of that client 
    //
    _variant_t vtAddress;
-   hr = pFoundClientSdo->GetProperty(PROPERTY_CLIENT_ADDRESS ,&amp;vtAddress);
+   hr = pFoundClientSdo->GetProperty(PROPERTY_CLIENT_ADDRESS ,&vtAddress);
    if (FAILED(hr))
    {
       return hr;

@@ -48,7 +48,7 @@ All of the asynchronous methods can return a synchronization object, which you c
 
 ```C++
 IDvdCmd *pCmdObj = NULL;
-hr = pDVDControl2->PlayTitle(uTitle, DVD_CMD_FLAG_None, &amp;pCmdObj);
+hr = pDVDControl2->PlayTitle(uTitle, DVD_CMD_FLAG_None, &pCmdObj);
 ```
 
 
@@ -60,7 +60,7 @@ The following code is functionally equivalent to setting the EC\_DVD\_CMD\_FLAG\
 
 ```C++
 IDvdCmd *pCmdObj = NULL;
-hr = pDVDControl2->PlayTitle(uTitle, DVD_CMD_FLAG_None, &amp;pCmdObj);
+hr = pDVDControl2->PlayTitle(uTitle, DVD_CMD_FLAG_None, &pCmdObj);
 if (SUCCEEDED(hr))
 {
     // Use pCmdObj to wait for the command to complete.
@@ -102,7 +102,7 @@ Note that without a synchronization object, you cannot tell which command is ass
 
 ```C++
 IDvdCmd *pCmdObj = NULL;
-hr = pDVDControl2->PlayTitle(uTitle, DVD_CMD_FLAG_SendEvents, &amp;pCmdObj);
+hr = pDVDControl2->PlayTitle(uTitle, DVD_CMD_FLAG_SendEvents, &pCmdObj);
 if (SUCCEEDED(hr)) 
 {
     // Store pCmdObj in a list of pending commands.
@@ -114,7 +114,7 @@ switch (lEvent)
 case EC_DVD_CMD_END:
    {
        IDvdCmd *pObj = NULL;
-       hr = pDvdInfo2->GetCmdFromEvent(lParam, &amp;pObj);
+       hr = pDvdInfo2->GetCmdFromEvent(lParam, &pObj);
        if (SUCCEEDED(hr)) 
        {
            // Find this object in your list by comparing IUnknown

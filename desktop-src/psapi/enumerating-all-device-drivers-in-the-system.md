@@ -31,7 +31,7 @@ int main( void )
    DWORD cbNeeded;
    int cDrivers, i;
 
-   if( EnumDeviceDrivers(drivers, sizeof(drivers), &amp;cbNeeded) &amp;&amp; cbNeeded < sizeof(drivers))
+   if( EnumDeviceDrivers(drivers, sizeof(drivers), &cbNeeded) && cbNeeded < sizeof(drivers))
    { 
       TCHAR szDriver[ARRAY_SIZE];
 

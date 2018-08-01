@@ -70,7 +70,7 @@ The following example specifies a [**D2D1\_RENDER\_TARGET\_TYPE**](https://msdn.
         hr = m_pD2DFactory->CreateHwndRenderTarget(
             D2D1::RenderTargetProperties((D2D1_RENDER_TARGET_TYPE)(30)),
             D2D1::HwndRenderTargetProperties(m_hwnd, size),
-            &amp;m_pRenderTarget
+            &m_pRenderTarget
             );
 ```
 

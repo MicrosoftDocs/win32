@@ -59,7 +59,7 @@ The **ADS\_SEARCHPREF\_DIRSYNC** search results automatically include deleted ob
 
 
 ```C++
-(&amp;(objectClass=user)(objectCategory=person))
+(&(objectClass=user)(objectCategory=person))
 ```
 
 

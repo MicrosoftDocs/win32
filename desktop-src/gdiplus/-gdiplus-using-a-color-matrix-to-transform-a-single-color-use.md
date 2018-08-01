@@ -53,20 +53,20 @@ ColorMatrix colorMatrix = {
    0.2f, 0.2f, 0.2f, 0.0f, 1.0f};
    
 imageAttributes.SetColorMatrix(
-   &amp;colorMatrix, 
+   &colorMatrix, 
    ColorMatrixFlagsDefault,
    ColorAdjustTypeBitmap);
    
-graphics.DrawImage(&amp;image, 10, 10);
+graphics.DrawImage(&image, 10, 10);
 
 graphics.DrawImage(
-   &amp;image, 
+   &image, 
    Rect(120, 10, width, height),  // destination rectangle 
    0, 0,        // upper-left corner of source rectangle 
    width,       // width of source rectangle
    height,      // height of source rectangle
    UnitPixel,
-   &amp;imageAttributes);
+   &imageAttributes);
 ```
 
 

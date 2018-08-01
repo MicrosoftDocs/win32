@@ -37,7 +37,7 @@ HRESULT CPapFile::Save(
         pszFile,
     STGM_CREATE | STGM_DIRECT | STGM_READWRITE | STGM_SHARE_EXCLUSIVE,
         0,
-        &amp;m_pIStorage);
+        &m_pIStorage);
     if (SUCCEEDED(hr))
     {
       // Obtained the IStorage. The compound file is open.

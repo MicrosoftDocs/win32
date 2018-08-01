@@ -36,28 +36,28 @@ IADs *pADs=NULL;
 // Be aware that, for brevity, error handling is omitted.
 //////////////////////////////////////////////////////////
  
-hr = ADsGetObject(L"LDAP://DC=Sales,DC=Fabrikam,DC=Com", IID_IADs, (void**) &amp;pADs);
+hr = ADsGetObject(L"LDAP://DC=Sales,DC=Fabrikam,DC=Com", IID_IADs, (void**) &pADs);
  
 ///////////////////////////////////////////////////////////////////
 // Retrieve objects prior to calling IADsProperty* methods.
 ///////////////////////////////////////////////////////////////////
 hr = pADs->GetInfo();
-hr = pADs->QueryInterface(IID_IADsPropertyList, (void**) &amp;pPropList);
+hr = pADs->QueryInterface(IID_IADsPropertyList, (void**) &pPropList);
 pADs->Release();
  
 //////////////////////////////////////////////////
 // Get the DC property.
 //////////////////////////////////////////////////
-hr = pPropList->GetPropertyItem(CComBSTR("dc"), ADSTYPE_CASE_IGNORE_STRING, &amp;var);
+hr = pPropList->GetPropertyItem(CComBSTR("dc"), ADSTYPE_CASE_IGNORE_STRING, &var);
  
 if (SUCCEEDED(hr))
 {
     //////////////////////////////////////////
     // Get the IADsPropertyEntry interface.
     //////////////////////////////////////////
-    pDispatch = V_DISPATCH( &amp;var );
-    hr = pDispatch->QueryInterface(IID_IADsPropertyEntry, (void**)&amp;pEntry);
-    VariantClear(&amp;var);
+    pDispatch = V_DISPATCH( &var );
+    hr = pDispatch->QueryInterface(IID_IADsPropertyEntry, (void**)&pEntry);
+    VariantClear(&var);
  
     if (SUCCEEDED(hr))
     {
@@ -68,23 +68,23 @@ if (SUCCEEDED(hr))
         ///////////////////////////////////////////////
         // get_Values return array of VT_DISPATCH.
         ///////////////////////////////////////////////
-        hr = pEntry->get_Values(&amp;varValueArray);
-        hr = pEntry->get_ADsType(&amp;lADsType);
-        hr = SafeArrayGetElement(V_ARRAY(&amp;varValueArray), &amp;idx, &amp;varValue);
+        hr = pEntry->get_Values(&varValueArray);
+        hr = pEntry->get_ADsType(&lADsType);
+        hr = SafeArrayGetElement(V_ARRAY(&varValueArray), &idx, &varValue);
         pEntry->Release();  // Release entry.
  
         /////////////////////////////////////
         // IADsPropertyValue
         /////////////////////////////////////
-        pDispatch = (IDispatch*) V_DISPATCH(&amp;varValue);
+        pDispatch = (IDispatch*) V_DISPATCH(&varValue);
         hr = pDispatch->QueryInterface(IID_IADsPropertyValue, 
-                                       (void**) &amp;pValue);
+                                       (void**) &pValue);
         pDispatch->Release();
  
         /////////////////////////////
         // Display the value.
         /////////////////////////////
-        hr = pValue->get_CaseIgnoreString(&amp;bstr);
+        hr = pValue->get_CaseIgnoreString(&bstr);
         printf("%S\n", bstr);
         SysFreeString(bstr);
         pValue->Release();

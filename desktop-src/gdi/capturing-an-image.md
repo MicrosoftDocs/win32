@@ -67,12 +67,12 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
     hAccelTable = LoadAccelerators(hInstance, MAKEINTRESOURCE(IDC_GDI_CAPTURINGANIMAGE));
 
     // Main message loop:
-    while (GetMessage(&amp;msg, NULL, 0, 0))
+    while (GetMessage(&msg, NULL, 0, 0))
     {
-        if (!TranslateAccelerator(msg.hwnd, hAccelTable, &amp;msg))
+        if (!TranslateAccelerator(msg.hwnd, hAccelTable, &msg))
         {
-            TranslateMessage(&amp;msg);
-            DispatchMessage(&amp;msg);
+            TranslateMessage(&msg);
+            DispatchMessage(&msg);
         }
     }
 
@@ -112,7 +112,7 @@ ATOM MyRegisterClass(HINSTANCE hInstance)
     wcex.lpszClassName    = szWindowClass;
     wcex.hIconSm        = LoadIcon(wcex.hInstance, MAKEINTRESOURCE(IDI_SMALL));
 
-    return RegisterClassEx(&amp;wcex);
+    return RegisterClassEx(&wcex);
 }
 
 //
@@ -188,7 +188,7 @@ int CaptureAnImage(HWND hWnd)
 
     // Get the client area for size calculation
     RECT rcClient;
-    GetClientRect(hWnd, &amp;rcClient);
+    GetClientRect(hWnd, &rcClient);
 
     //This is the best stretch mode
     SetStretchBltMode(hdcWindow,HALFTONE);
@@ -232,7 +232,7 @@ int CaptureAnImage(HWND hWnd)
     }
 
     // Get the BITMAP from the HBITMAP
-    GetObject(hbmScreen,sizeof(BITMAP),&amp;bmpScreen);
+    GetObject(hbmScreen,sizeof(BITMAP),&bmpScreen);
      
     BITMAPFILEHEADER   bmfHeader;    
     BITMAPINFOHEADER   bi;
@@ -262,7 +262,7 @@ int CaptureAnImage(HWND hWnd)
     GetDIBits(hdcWindow, hbmScreen, 0,
         (UINT)bmpScreen.bmHeight,
         lpbitmap,
-        (BITMAPINFO *)&amp;bi, DIB_RGB_COLORS);
+        (BITMAPINFO *)&bi, DIB_RGB_COLORS);
 
     // A file is created, this is where we will save the screen capture.
     HANDLE hFile = CreateFile(L"captureqwsx.bmp",
@@ -285,9 +285,9 @@ int CaptureAnImage(HWND hWnd)
     bmfHeader.bfType = 0x4D42; //BM   
  
     DWORD dwBytesWritten = 0;
-    WriteFile(hFile, (LPSTR)&amp;bmfHeader, sizeof(BITMAPFILEHEADER), &amp;dwBytesWritten, NULL);
-    WriteFile(hFile, (LPSTR)&amp;bi, sizeof(BITMAPINFOHEADER), &amp;dwBytesWritten, NULL);
-    WriteFile(hFile, (LPSTR)lpbitmap, dwBmpSize, &amp;dwBytesWritten, NULL);
+    WriteFile(hFile, (LPSTR)&bmfHeader, sizeof(BITMAPFILEHEADER), &dwBytesWritten, NULL);
+    WriteFile(hFile, (LPSTR)&bi, sizeof(BITMAPINFOHEADER), &dwBytesWritten, NULL);
+    WriteFile(hFile, (LPSTR)lpbitmap, dwBmpSize, &dwBytesWritten, NULL);
     
     //Unlock and Free the DIB from the heap
     GlobalUnlock(hDIB);    
@@ -348,9 +348,9 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     case WM_MOVE:
         
     case WM_PAINT:
-        hdc = BeginPaint(hWnd, &amp;ps);
+        hdc = BeginPaint(hWnd, &ps);
         CaptureAnImage(hWnd);
-        EndPaint(hWnd, &amp;ps);
+        EndPaint(hWnd, &ps);
         break;
     case WM_DESTROY:
         PostQuitMessage(0);

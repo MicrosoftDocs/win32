@@ -91,11 +91,11 @@ if (Device->IsBufferPrecisionSupported(D2D1_BUFFER_PRECISION_32BPC_FLOAT))
 {
   // Get the current rendering controls
   D2D1_RENDERING_CONTROLS renderingControls = {};
-  Context->GetRenderingControls(&amp;amp;renderingControls);
+  Context->GetRenderingControls(&amp;renderingControls);
 
   // Switch the precision within the rendering controls and set it
   renderingControls.bufferPrecision = D2D1_BUFFER_PRECISION_32BPC_FLOAT;
-  Context->SetRenderingControls(&amp;amp;renderingControls);
+  Context->SetRenderingControls(&amp;renderingControls);
 }
               
 ```

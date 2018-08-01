@@ -51,7 +51,7 @@ The following example code is a complete SAMI file with one set of closed captio
       <P Class = ENUSCC>Great reason to visit Seattle, brought to you by two out-of-staters.
       <!-- French closed captions -->
       <P Class = FRFRCC ID = Source>Narrateur
-      <P Class = FRFRCC>Deux personnes ne venant la r&amp;eacute;gion vous donnent de bonnes raisons de visiter Seattle.
+      <P Class = FRFRCC>Deux personnes ne venant la r&eacute;gion vous donnent de bonnes raisons de visiter Seattle.
 </BODY>
 </SAMI>
 

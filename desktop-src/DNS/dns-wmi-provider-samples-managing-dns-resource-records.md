@@ -330,15 +330,15 @@ Class CNAME_RecordData
     Public Function AddHelp
         Call ClassHelp("Adds a CNAME (Alias) Record to a Zone.", _
                        "  DnsResource /Add CNAME <zone> <alias> " _
-                       &amp;"<host>", _
+                       &"<host>", _
                        "   alias         Alias name." & vbCRLF & _
                        "   host          Name of the host.", _
                        "   DnsResource.vbs /Add CNAME " _
-                       &amp;"Example.microsoft.com www.MyDomain " _
-                       &amp;"MyHost.MyDomain" & vbCRLF & _
+                       &"Example.microsoft.com www.MyDomain " _
+                       &"MyHost.MyDomain" & vbCRLF & _
                        "   Creates an alias for MyHost called " _
                        & "www in the MyDomain.Example.microsoft.com" _
-                       &amp;" domain.")
+                       &" domain.")
         AddHelp = 1
     End Function
     Public Function DeleteHelp

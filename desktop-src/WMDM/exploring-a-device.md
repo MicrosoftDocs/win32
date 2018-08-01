@@ -49,7 +49,7 @@ HRESULT ExploreDevice(IWMDMDevice* pDevice)
 
     // Get a root enumerator.
     CComPtr<IWMDMEnumStorage> pEnumStorage;
-    hr = pDevice->EnumStorage(&amp;pEnumStorage);
+    hr = pDevice->EnumStorage(&pEnumStorage);
     if (SUCCEEDED(hr))
     {
         RecursiveExploreStorage(pEnumStorage);
@@ -65,19 +65,19 @@ void RecursiveExploreStorage(IWMDMEnumStorage* pEnumStorage)
 
     ULONG numRetrieved = 0;
     // Loop through all storages in the current storage.
-    while((pEnumStorage->Next(1, &amp;pStorage, &amp;numRetrieved) == S_OK) &amp;&amp; (numRetrieved == 1))
+    while((pEnumStorage->Next(1, &pStorage, &numRetrieved) == S_OK) && (numRetrieved == 1))
     {
         // Get the name of the object.
         const UINT MAX_LEN = 255;
         WCHAR name[MAX_LEN];
-        hr = pStorage->GetName((LPWSTR)&amp;name, MAX_LEN);
+        hr = pStorage->GetName((LPWSTR)&name, MAX_LEN);
         // TODO: Display the retrieved storage name
 
         // If this is a folder, recurse into it.
         if (attributes & WMDM_FILE_ATTR_FOLDER)
         {
             CComPtr<IWMDMEnumStorage> pEnumSubStorage;
-            hr = pStorage->EnumStorage(&amp;pEnumSubStorage);
+            hr = pStorage->EnumStorage(&pEnumSubStorage);
             if (SUCCEEDED(hr)
             {
                 RecursiveExploreStorage(pEnumSubStorage);

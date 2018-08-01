@@ -29,8 +29,8 @@ This operator overloads the assignment operator to copy a media type.
 
 
 ```C++
-CMediaType&amp; CMediaType::operator=(
-  [ref] const AM_MEDIA_TYPE &amp;mtype
+CMediaType& CMediaType::operator=(
+  [ref] const AM_MEDIA_TYPE &mtype
 );
 ```
 

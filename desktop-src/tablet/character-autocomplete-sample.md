@@ -83,7 +83,7 @@ Private Sub LoadRecognizer()
     ' Get a Japanese recognizer context
     Dim recos As New InkRecognizers
     Dim JapaneseReco As IInkRecognizer
-    Set JapaneseReco = recos.GetDefaultRecognizer(&amp;H411)
+    Set JapaneseReco = recos.GetDefaultRecognizer(&H411)
     If JapaneseReco Is Nothing Then
         MsgBox "Japanese Recognizers are not installed on this system. Exiting."
         End
@@ -94,7 +94,7 @@ Private Sub LoadRecognizer()
     Dim lan As Integer
     IsJapanese = False
     For lan = LBound(JapaneseReco.Languages) To UBound(JapaneseReco.Languages)
-        If JapaneseReco.Languages(lan) = &amp;H411 Then
+        If JapaneseReco.Languages(lan) = &H411 Then
             IsJapanese = True
         End If
     Next lan

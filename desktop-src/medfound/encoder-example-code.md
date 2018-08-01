@@ -60,8 +60,8 @@ public:
 
     ~CWmaEncoder()
     {
-        SafeRelease(&amp;m_pMFT);
-        SafeRelease(&amp;m_pOutputType);
+        SafeRelease(&m_pMFT);
+        SafeRelease(&m_pOutputType);
     }
 
     HRESULT Initialize();
@@ -109,10 +109,10 @@ HRESULT CWmaEncoder::Initialize()
         MFT_CATEGORY_AUDIO_ENCODER,
         0,                  // Reserved
         NULL,               // Input type to match. 
-        &amp;toutinfo,          // Output type to match.
+        &toutinfo,          // Output type to match.
         NULL,               // Attributes to match. (None.)
-        &amp;pCLSIDs,           // Receives a pointer to an array of CLSIDs.
-        &amp;count              // Receives the size of the array.
+        &pCLSIDs,           // Receives a pointer to an array of CLSIDs.
+        &count              // Receives the size of the array.
         );
     
     if (SUCCEEDED(hr))
@@ -127,7 +127,7 @@ HRESULT CWmaEncoder::Initialize()
     if (SUCCEEDED(hr))
     {
         hr = CoCreateInstance(pCLSIDs[0], NULL, 
-            CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&amp;m_pMFT));
+            CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&m_pMFT));
     }
 
     return hr;
@@ -153,7 +153,7 @@ HRESULT CWmaEncoder::SetEncodingType(EncodeMode mode)
 
     //Query the encoder for its property store
 
-    HRESULT hr = m_pMFT->QueryInterface(IID_PPV_ARGS(&amp;pProp));
+    HRESULT hr = m_pMFT->QueryInterface(IID_PPV_ARGS(&pProp));
     if (FAILED(hr))
     {
         goto done;
@@ -175,7 +175,7 @@ HRESULT CWmaEncoder::SetEncodingType(EncodeMode mode)
     }
     
 done:
-    SafeRelease(&amp;pProp);
+    SafeRelease(&pProp);
     return hr;
 }
 ```
@@ -193,11 +193,11 @@ HRESULT CWmaEncoder::SetInputType(IMFMediaType* pMediaType)
         return MF_E_NOT_INITIALIZED;
     }
 
-    SafeRelease(&amp;m_pOutputType);
+    SafeRelease(&m_pOutputType);
 
     IMFMediaType *pOutputType = NULL;
 
-    HRESULT hr = m_pMFT->GetStreamIDs(1, &amp;m_dwInputID, 1, &amp;m_dwOutputID);
+    HRESULT hr = m_pMFT->GetStreamIDs(1, &m_dwInputID, 1, &m_dwOutputID);
 
     if (hr == E_NOTIMPL)
     {
@@ -221,7 +221,7 @@ HRESULT CWmaEncoder::SetInputType(IMFMediaType* pMediaType)
     // Loop through the available output types
     for (DWORD iType = 0; ; iType++)
     {
-        hr = m_pMFT->GetOutputAvailableType(m_dwOutputID, iType, &amp;pOutputType);
+        hr = m_pMFT->GetOutputAvailableType(m_dwOutputID, iType, &pOutputType);
         if (FAILED(hr))
         {
             goto done;
@@ -236,11 +236,11 @@ HRESULT CWmaEncoder::SetInputType(IMFMediaType* pMediaType)
             break;
         }
 
-        SafeRelease(&amp;pOutputType);
+        SafeRelease(&pOutputType);
     }
 
 done:
-    SafeRelease(&amp;pOutputType);
+    SafeRelease(&pOutputType);
     return hr;
 }
 ```
@@ -290,12 +290,12 @@ HRESULT CWmaEncoder::GetLeakyBucket1(LeakyBucket *pBucket)
 
     IWMCodecLeakyBucket *pLeakyBuckets = NULL;
 
-    HRESULT hr = m_pMFT->QueryInterface(IID_PPV_ARGS(&amp;pLeakyBuckets));
+    HRESULT hr = m_pMFT->QueryInterface(IID_PPV_ARGS(&pLeakyBuckets));
     if (SUCCEEDED(hr))
     {
         ULONG ulBuffer = 0;
 
-        hr = pLeakyBuckets->GetBufferSizeBits(&amp;ulBuffer);
+        hr = pLeakyBuckets->GetBufferSizeBits(&ulBuffer);
 
         if (SUCCEEDED(hr))
         {
@@ -349,21 +349,21 @@ HRESULT CWmaEncoder::ProcessOutput(IMFSample **ppSample)
     MFT_OUTPUT_STREAM_INFO mftStreamInfo = { 0 };
     MFT_OUTPUT_DATA_BUFFER mftOutputData = { 0 };
 
-    HRESULT hr = m_pMFT->GetOutputStreamInfo(m_dwOutputID, &amp;mftStreamInfo);
+    HRESULT hr = m_pMFT->GetOutputStreamInfo(m_dwOutputID, &mftStreamInfo);
     if (FAILED(hr))
     {
         goto done;
     }
 
     //create a buffer for the output sample
-    hr = MFCreateMemoryBuffer(mftStreamInfo.cbSize, &amp;pBufferOut);
+    hr = MFCreateMemoryBuffer(mftStreamInfo.cbSize, &pBufferOut);
     if (FAILED(hr))
     {
         goto done;
     }
 
     //Create the output sample
-    hr = MFCreateSample(&amp;pSampleOut);
+    hr = MFCreateSample(&pSampleOut);
     if (FAILED(hr))
     {
         goto done;
@@ -383,7 +383,7 @@ HRESULT CWmaEncoder::ProcessOutput(IMFSample **ppSample)
     mftOutputData.dwStreamID = m_dwOutputID;
 
     //Generate the output sample
-    hr = m_pMFT->ProcessOutput(0, 1, &amp;mftOutputData, &amp;dwStatus);
+    hr = m_pMFT->ProcessOutput(0, 1, &mftOutputData, &dwStatus);
     if (hr == MF_E_TRANSFORM_NEED_MORE_INPUT)
     {
         hr = S_OK;
@@ -401,8 +401,8 @@ HRESULT CWmaEncoder::ProcessOutput(IMFSample **ppSample)
     (*ppSample)->AddRef();
 
 done:
-    SafeRelease(&amp;pBufferOut);
-    SafeRelease(&amp;pSampleOut);
+    SafeRelease(&pBufferOut);
+    SafeRelease(&pSampleOut);
     return hr;
 };
 ```

@@ -130,8 +130,8 @@ defaults.DesiredAccess = PRINTER_ACCESS_MANAGE_LIMITED;
 // Open a printer to which the user has no administrative rights.
 HANDLE printer = nullptr;
 assert(!OpenPrinter2(L QueueWithNoAdminRights , // Queue name
-                     &amp;printer,                  // Printer handle
-                     &amp;defaults,                 // Printer defaults
+                     &printer,                  // Printer handle
+                     &defaults,                 // Printer defaults
                      nullptr));                 // Printer options
 
 assert(GetLastError() == ERROR_ACCESS_DENIED);

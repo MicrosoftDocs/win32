@@ -32,8 +32,8 @@ BYTE Set(row, col, bAlive)
     tmp[2] = (BYTE)bAlive;
     bind( s, ... );
     connect( s, ... );
-    send( s, &amp;tmp, 3 );
-    recv( s, &amp;byRet, 1 );
+    send( s, &tmp, 3 );
+    recv( s, &byRet, 1 );
     closesocket( s );
     return byRet;
 }

@@ -34,12 +34,12 @@ BOOL GetDisplayMonitorInfo(int nDeviceIndex, LPSTR lpszMonitorInfo)
         return FALSE;
     }
 
-    ZeroMemory(&amp;DispDev, sizeof(DispDev));
+    ZeroMemory(&DispDev, sizeof(DispDev));
     DispDev.cb = sizeof(DispDev); 
     
     // After the first call to EnumDisplayDevices,  
     // DispDev.DeviceString is the adapter name 
-    if (EnumDisplayDevices(NULL, nDeviceIndex, &amp;DispDev, 0)) 
+    if (EnumDisplayDevices(NULL, nDeviceIndex, &DispDev, 0)) 
         {  
                 hr = StringCchCopy(szSaveDeviceName, 33, DispDev.DeviceName);
                 if (FAILED(hr))
@@ -49,7 +49,7 @@ BOOL GetDisplayMonitorInfo(int nDeviceIndex, LPSTR lpszMonitorInfo)
         
         // After second call, DispDev.DeviceString is the  
         // monitor name for that device  
-        EnumDisplayDevices(szSaveDeviceName, 0, &amp;DispDev, 0);   
+        EnumDisplayDevices(szSaveDeviceName, 0, &DispDev, 0);   
         
                 // In the following, lpszMonitorInfo must be 128 + 1 for  
                 // the null-terminator. 

@@ -37,7 +37,7 @@ void CreateInstanceFromPropertyData(
   [in, optional] uint32               TTL,
   [in]           string               NextDomainName,
   [in]           string               Types,
-  [out, ref]     MicrosoftDNS_NXTType &amp;RR
+  [out, ref]     MicrosoftDNS_NXTType &RR
 );
 ```
 

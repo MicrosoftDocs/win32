@@ -174,7 +174,7 @@ void main(void)
 
         cbSize = CertNameToStr(
             pCertContext->dwCertEncodingType,
-            &amp;(pCertContext->pCertInfo->Subject),
+            &(pCertContext->pCertInfo->Subject),
             MY_STRING_TYPE,
             NULL,
             0);
@@ -205,7 +205,7 @@ void main(void)
 
         cbSize = CertNameToStr(
             pCertContext->dwCertEncodingType,
-            &amp;(pCertContext->pCertInfo->Subject),
+            &(pCertContext->pCertInfo->Subject),
             MY_STRING_TYPE,
             pszString,
             cbSize);
@@ -231,7 +231,7 @@ void main(void)
             NULL,
             NULL,        // NULL to get the number of bytes 
                             // needed for the buffer.          
-            &amp;cbSize,     // Pointer to a DWORD to hold the 
+            &cbSize,     // Pointer to a DWORD to hold the 
                             // number of bytes needed for the 
                             // buffer
             NULL )))     // Optional address of a pointer to
@@ -255,7 +255,7 @@ void main(void)
             MY_STRING_TYPE,
             NULL,
             blobEncodedName.pbData,
-            &amp;blobEncodedName.cbData,
+            &blobEncodedName.cbData,
             NULL))
         {
             _tprintf(TEXT("CertStrToName created the BLOB.\n"));

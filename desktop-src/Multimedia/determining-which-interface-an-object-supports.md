@@ -16,7 +16,7 @@ The **QueryInterface** method lets an application query an object to determine w
 
 ```C++
 STDMETHODIMP CAVIFileCF::QueryInterface( 
-    const IID FAR&amp; iid, 
+    const IID FAR& iid, 
     void FAR* FAR* ppv) 
 { 
     if (iid == IID_IUnknown) 

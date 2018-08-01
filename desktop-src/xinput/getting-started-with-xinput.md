@@ -64,10 +64,10 @@ DWORD dwResult;
 for (DWORD i=0; i< XUSER_MAX_COUNT; i++ )
 {
   XINPUT_STATE state;
-  ZeroMemory( &amp;state, sizeof(XINPUT_STATE) );
+  ZeroMemory( &state, sizeof(XINPUT_STATE) );
 
         // Simply get the state of the controller from XInput.
-        dwResult = XInputGetState( i, &amp;state );
+        dwResult = XInputGetState( i, &state );
 
         if( dwResult == ERROR_SUCCESS )
   {
@@ -169,10 +169,10 @@ The speed of each motor can be specified using a WORD value in the [**XINPUT\_VI
 
 ```
 XINPUT_VIBRATION vibration;
-ZeroMemory( &amp;vibration, sizeof(XINPUT_VIBRATION) );
+ZeroMemory( &vibration, sizeof(XINPUT_VIBRATION) );
 vibration.wLeftMotorSpeed = 32000; // use any value between 0-65535 here
 vibration.wRightMotorSpeed = 16000; // use any value between 0-65535 here
-XInputSetState( i, &amp;vibration );
+XInputSetState( i, &vibration );
 ```
 
 
@@ -195,7 +195,7 @@ WCHAR captureId[ 256 ] = {0};
 UINT rcount = 256;
 UINT ccount = 256;
 
-XInputGetAudioDeviceIds( i, renderId, &amp;rcount, captureId, &amp;ccount );
+XInputGetAudioDeviceIds( i, renderId, &rcount, captureId, &ccount );
 ```
 
 
@@ -206,11 +206,11 @@ After you obtain the device identifiers, you can create the appropriate interfac
 ```
 IXAudio2* pXAudio2 = NULL;
 HRESULT hr;
-if ( FAILED(hr = XAudio2Create( &amp;pXAudio2, 0, XAUDIO2_DEFAULT_PROCESSOR ) ) )
+if ( FAILED(hr = XAudio2Create( &pXAudio2, 0, XAUDIO2_DEFAULT_PROCESSOR ) ) )
     return hr;
 
 IXAudio2MasteringVoice* pMasterVoice = NULL;
-if ( FAILED(hr = pXAudio2->CreateMasteringVoice( &amp;pMasterVoice, XAUDIO2_DEFAULT_CHANNELS, XAUDIO2_DEFAULT_SAMPLERATE, 0, renderId, NULL, AudioCategory_Communications ) ) )
+if ( FAILED(hr = pXAudio2->CreateMasteringVoice( &pMasterVoice, XAUDIO2_DEFAULT_CHANNELS, XAUDIO2_DEFAULT_SAMPLERATE, 0, renderId, NULL, AudioCategory_Communications ) ) )
     return hr;
 ```
 
@@ -231,7 +231,7 @@ To associate the headset microphone and headphone with their appropriate [Direct
 
 
 ```
-XInputGetDSoundAudioDeviceGuids( i, &amp;dsRenderGuid, &amp;dsCaptureGuid );
+XInputGetDSoundAudioDeviceGuids( i, &dsRenderGuid, &dsCaptureGuid );
 
 ```
 
@@ -242,7 +242,7 @@ Once you have retrieved the GUIDs you can create the appropriate interfaces by c
 
 ```
 // Create IDirectSound8 using the controller's render device
-if( FAILED( hr = DirectSoundCreate8( &amp;dsRenderGuid, &amp;pDS, NULL ) ) )
+if( FAILED( hr = DirectSoundCreate8( &dsRenderGuid, &pDS, NULL ) ) )
    return hr;
 
 // Set coop level to DSSCL_PRIORITY
@@ -250,7 +250,7 @@ if( FAILED( hr = pDS->SetCooperativeLevel( hWnd, DSSCL_NORMAL ) ) )
    return hr;
 
 // Create IDirectSoundCapture using the controller's capture device
-if( FAILED( hr = DirectSoundCaptureCreate8( &amp;dsCaptureGuid, &amp;pDSCapture, NULL ) ) )
+if( FAILED( hr = DirectSoundCaptureCreate8( &dsCaptureGuid, &pDSCapture, NULL ) ) )
    return hr;
 ```
 

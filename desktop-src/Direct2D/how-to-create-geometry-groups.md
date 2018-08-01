@@ -39,7 +39,7 @@ HRESULT DemoApp::CreateGeometryResources()
 
     hr = m_pD2DFactory->CreateEllipseGeometry(
         ellipse1,
-        &amp;m_pEllipseGeometry1
+        &m_pEllipseGeometry1
         );
 
     if (SUCCEEDED(hr))
@@ -52,7 +52,7 @@ HRESULT DemoApp::CreateGeometryResources()
 
         hr = m_pD2DFactory->CreateEllipseGeometry(
             ellipse2,
-            &amp;m_pEllipseGeometry2
+            &m_pEllipseGeometry2
             );
     }
 
@@ -67,7 +67,7 @@ HRESULT DemoApp::CreateGeometryResources()
 
         hr = m_pD2DFactory->CreateEllipseGeometry(
             ellipse3,
-            &amp;m_pEllipseGeometry3
+            &m_pEllipseGeometry3
             );
     }
 
@@ -81,7 +81,7 @@ HRESULT DemoApp::CreateGeometryResources()
 
         hr = m_pD2DFactory->CreateEllipseGeometry(
             ellipse4,
-            &amp;m_pEllipseGeometry4
+            &m_pEllipseGeometry4
             );
     }
 
@@ -99,7 +99,7 @@ HRESULT DemoApp::CreateGeometryResources()
             D2D1_FILL_MODE_ALTERNATE,
             ppGeometries,
             ARRAYSIZE(ppGeometries),
-            &amp;m_pGeoGroup_AlternateFill
+            &m_pGeoGroup_AlternateFill
             );
 
         if (SUCCEEDED(hr))
@@ -108,7 +108,7 @@ HRESULT DemoApp::CreateGeometryResources()
                 D2D1_FILL_MODE_WINDING,
                 ppGeometries,
                 ARRAYSIZE(ppGeometries),
-                &amp;m_pGeoGroup_WindingFill
+                &m_pGeoGroup_WindingFill
                 );
         }
 

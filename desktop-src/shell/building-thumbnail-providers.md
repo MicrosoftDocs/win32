@@ -52,7 +52,7 @@ IFACEMETHODIMP CRecipeThumbProvider::GetThumbnail(UINT cx,
                                                   WTS_ALPHATYPE *pdwAlpha)
 {
     PWSTR pszBase64EncodedImageString;
-    HRESULT hr = _GetBase64EncodedImageString(cx, &amp;pszBase64EncodedImageString);
+    HRESULT hr = _GetBase64EncodedImageString(cx, &pszBase64EncodedImageString);
 ```
 
 
@@ -71,7 +71,7 @@ HRESULT CRecipeThumbProvider::_GetBase64EncodedImageString(UINT /* cx */,
     *ppszResult = NULL;
 
     IXMLDOMDocument *pXMLDoc;
-    HRESULT hr = _LoadXMLDocument(&amp;pXMLDoc);
+    HRESULT hr = _LoadXMLDocument(&pXMLDoc);
     if (SUCCEEDED(hr))
     {
         BSTR bstrQuery = SysAllocString(L"Recipe/Attachments/Picture");
@@ -79,11 +79,11 @@ HRESULT CRecipeThumbProvider::_GetBase64EncodedImageString(UINT /* cx */,
         if (SUCCEEDED(hr))
         {
             IXMLDOMNode *pXMLNode;
-            hr = pXMLDoc->selectSingleNode(bstrQuery, &amp;pXMLNode);
+            hr = pXMLDoc->selectSingleNode(bstrQuery, &pXMLNode);
             if (SUCCEEDED(hr))
             {
                 IXMLDOMElement *pXMLElement;
-                hr = pXMLNode->QueryInterface(&amp;pXMLElement);
+                hr = pXMLNode->QueryInterface(&pXMLElement);
                 if (SUCCEEDED(hr))
                 {
                     BSTR bstrAttribute = SysAllocString(L"Source");
@@ -91,10 +91,10 @@ HRESULT CRecipeThumbProvider::_GetBase64EncodedImageString(UINT /* cx */,
                     if (SUCCEEDED(hr))
                     {
                         VARIANT varValue;
-                        hr = pXMLElement->getAttribute(bstrAttribute, &amp;varValue);
+                        hr = pXMLElement->getAttribute(bstrAttribute, &varValue);
                         if (SUCCEEDED(hr))
                         {
-                            if ((varValue.vt == VT_BSTR) &amp;&amp; varValue.bstrVal &amp;&amp; varValue.bstrVal[0])
+                            if ((varValue.vt == VT_BSTR) && varValue.bstrVal && varValue.bstrVal[0])
                             {
                                 hr = SHStrDupW(varValue.bstrVal, ppszResult);
                             }
@@ -102,7 +102,7 @@ HRESULT CRecipeThumbProvider::_GetBase64EncodedImageString(UINT /* cx */,
                             {
                                 hr = E_FAIL;
                             }
-                            VariantClear(&amp;varValue);
+                            VariantClear(&varValue);
                         }
                         SysFreeString(bstrAttribute);
                     }
@@ -129,11 +129,11 @@ IFACEMETHODIMP CRecipeThumbProvider::GetThumbnail(UINT cx,
                                                   WTS_ALPHATYPE *pdwAlpha)
 {
     PWSTR pszBase64EncodedImageString;
-    HRESULT hr = _GetBase64EncodedImageString(cx, &amp;pszBase64EncodedImageString);
+    HRESULT hr = _GetBase64EncodedImageString(cx, &pszBase64EncodedImageString);
     if (SUCCEEDED(hr))
     {
         IStream *pImageStream;
-        hr = _GetStreamFromString(pszBase64EncodedImageString, &amp;pImageStream);
+        hr = _GetStreamFromString(pszBase64EncodedImageString, &pImageStream);
 ```
 
 
@@ -156,9 +156,9 @@ HRESULT CRecipeThumbProvider::_GetStreamFromString(PCWSTR pszImageName,
                                          NULL, 
                                          CRYPT_STRING_BASE64,
                                          NULL, 
-                                         &amp;dwDecodedImageSize, 
-                                         &amp;dwSkipChars, 
-                                         &amp;dwActualFormat);
+                                         &dwDecodedImageSize, 
+                                         &dwSkipChars, 
+                                         &dwActualFormat);
     if (fSuccess)
     {
         BYTE *pbDecodedImage = (BYTE*)LocalAlloc(LPTR, dwDecodedImageSize);
@@ -168,9 +168,9 @@ HRESULT CRecipeThumbProvider::_GetStreamFromString(PCWSTR pszImageName,
                                             lstrlenW(pszImageName), 
                                             CRYPT_STRING_BASE64,
                                             pbDecodedImage, 
-                                            &amp;dwDecodedImageSize, 
-                                            &amp;dwSkipChars, 
-                                            &amp;dwActualFormat);
+                                            &dwDecodedImageSize, 
+                                            &dwSkipChars, 
+                                            &dwActualFormat);
             if (fSuccess)
             {
                 *ppImageStream = SHCreateMemStream(pbDecodedImage, 
@@ -198,11 +198,11 @@ IFACEMETHODIMP CRecipeThumbProvider::GetThumbnail(UINT cx,
                                                   WTS_ALPHATYPE *pdwAlpha)
 {
     PWSTR pszBase64EncodedImageString;
-    HRESULT hr = _GetBase64EncodedImageString(cx, &amp;pszBase64EncodedImageString);
+    HRESULT hr = _GetBase64EncodedImageString(cx, &pszBase64EncodedImageString);
     if (SUCCEEDED(hr))
     {
         IStream *pImageStream;
-        hr = _GetStreamFromString(pszBase64EncodedImageString, &amp;pImageStream);
+        hr = _GetStreamFromString(pszBase64EncodedImageString, &pImageStream);
         if (SUCCEEDED(hr))
         {
             hr = WICCreate32BitsPerPixelHBITMAP(pImageStream, 

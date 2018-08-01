@@ -48,7 +48,7 @@ HRESULT CMyCapturePin::Get(
         return E_PROP_SET_UNSUPPORTED;
     if (dwPropID != AMPROPERTY_PIN_CATEGORY)
         return E_PROP_ID_UNSUPPORTED;
-    if (pPropData == NULL &amp;&amp; pcbReturned == NULL)
+    if (pPropData == NULL && pcbReturned == NULL)
         return E_POINTER;
     if (pcbReturned)
         *pcbReturned = sizeof(GUID);

@@ -42,7 +42,7 @@ Next, call [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/des
 ```C++
 IGraphBuilder *pGraph;
 HRESULT hr = CoCreateInstance(CLSID_FilterGraph, NULL, 
-    CLSCTX_INPROC_SERVER, IID_IGraphBuilder, (void **)&amp;pGraph);
+    CLSCTX_INPROC_SERVER, IID_IGraphBuilder, (void **)&pGraph);
 ```
 
 
@@ -60,8 +60,8 @@ Both of these interfaces are exposed by the Filter Graph Manager. Use the return
 ```C++
 IMediaControl *pControl;
 IMediaEvent   *pEvent;
-hr = pGraph->QueryInterface(IID_IMediaControl, (void **)&amp;pControl);
-hr = pGraph->QueryInterface(IID_IMediaEvent, (void **)&amp;pEvent);
+hr = pGraph->QueryInterface(IID_IMediaControl, (void **)&pControl);
+hr = pGraph->QueryInterface(IID_IMediaEvent, (void **)&pEvent);
 ```
 
 
@@ -91,7 +91,7 @@ When the filter graph runs, data moves through the filters and is rendered as vi
 
 ```C++
 long evCode = 0;
-pEvent->WaitForCompletion(INFINITE, &amp;evCode);
+pEvent->WaitForCompletion(INFINITE, &evCode);
 ```
 
 
@@ -133,15 +133,15 @@ void main(void)
 
     // Create the filter graph manager and query for interfaces.
     hr = CoCreateInstance(CLSID_FilterGraph, NULL, CLSCTX_INPROC_SERVER, 
-                        IID_IGraphBuilder, (void **)&amp;pGraph);
+                        IID_IGraphBuilder, (void **)&pGraph);
     if (FAILED(hr))
     {
         printf("ERROR - Could not create the Filter Graph Manager.");
         return;
     }
 
-    hr = pGraph->QueryInterface(IID_IMediaControl, (void **)&amp;pControl);
-    hr = pGraph->QueryInterface(IID_IMediaEvent, (void **)&amp;pEvent);
+    hr = pGraph->QueryInterface(IID_IMediaControl, (void **)&pControl);
+    hr = pGraph->QueryInterface(IID_IMediaEvent, (void **)&pEvent);
 
     // Build the graph. IMPORTANT: Change this string to a file on your system.
     hr = pGraph->RenderFile(L"C:\\Example.avi", NULL);
@@ -153,7 +153,7 @@ void main(void)
         {
             // Wait for completion.
             long evCode;
-            pEvent->WaitForCompletion(INFINITE, &amp;evCode);
+            pEvent->WaitForCompletion(INFINITE, &evCode);
 
             // Note: Do not use INFINITE in a real application, because it
             // can block indefinitely.

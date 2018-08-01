@@ -20,7 +20,7 @@ The following example shows how to launch the NDF user interface and diagnose co
 NDFHANDLE hNDF;
 HRESULT hr = NdfCreateWebIncident (
                     L"http://www.microsoft.com",
-                    &amp;hNDF);
+                    &hNDF);
 
 if(SUCCEEDED(hr))
 {

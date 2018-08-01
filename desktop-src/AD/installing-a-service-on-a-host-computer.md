@@ -49,7 +49,7 @@ ULONG ulSpn=1;
  
 // Get the full path of the service's executable.
 // The code example assumes that the executable is in the current directory.
-dwStatus = GetFullPathName(TEXT("service.exe"), 512, szPath, &amp;lpFilePart);
+dwStatus = GetFullPathName(TEXT("service.exe"), 512, szPath, &lpFilePart);
 if (dwStatus == 0) {
     _tprintf(TEXT("Unable to install %s - %s\n"), 
             TEXT(SZSERVICEDISPLAYNAME), GetLastErrorText(szErr, 256));
@@ -116,8 +116,8 @@ if ( szServiceAccountSAM[0] == '.' )
 }
  
 dwStatus = SpnCompose(
-        &amp;pspn,            // Receives pointer to the SPN array.
-        &amp;ulSpn,           // Receives number of SPNs returned.
+        &pspn,            // Receives pointer to the SPN array.
+        &ulSpn,           // Receives number of SPNs returned.
         szDNofSCP,        // Input: DN of the SCP.
         szServiceClass);  // Input: the service's class string.
  

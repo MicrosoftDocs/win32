@@ -158,7 +158,7 @@ IFACEMETHODIMP CSampleShellExtension::Initialize(__in_opt PCIDLIST_ABSOLUTE pidl
         // duplicate it now.
         if (hRegKey)
         {
-            LSTATUS const result = RegOpenKeyEx(hRegKey, NULL, 0, KEY_READ, &amp;m_hRegKey); 
+            LSTATUS const result = RegOpenKeyEx(hRegKey, NULL, 0, KEY_READ, &m_hRegKey); 
             hr = HRESULT_FROM_WIN32(result);
         }
     }

@@ -76,12 +76,12 @@ The following two Ribbon markup examples demonstrate how a set of Ribbon Applica
              Symbol="ID_FILE_NEW"
              Comment="New"
              Id="25001"
-             LabelTitle="&amp;amp;New"/>
+             LabelTitle="&amp;New"/>
     <Command Name="cmdOpen"
              Symbol="ID_FILE_OPEN"
              Comment="Open"
              Id="25002"
-             LabelTitle="&amp;amp;&amp;amp;Open"/>
+             LabelTitle="&amp;&amp;Open"/>
     <Command>
       <Command.Name>cmdSave</Command.Name>
       <Command.Symbol>ID_FILE_SAVE</Command.Symbol>
@@ -94,7 +94,7 @@ The following two Ribbon markup examples demonstrate how a set of Ribbon Applica
           <String.Symbol>strSave</String.Symbol>
         </String>
       </Command.LabelTitle>
-      <Command.TooltipTitle>Tooltip title with &amp;amp;&amp;amp; for Save Command</Command.TooltipTitle>
+      <Command.TooltipTitle>Tooltip title with &amp;&amp; for Save Command</Command.TooltipTitle>
       <Command.TooltipDescription>Tooltip description for Save Command.</Command.TooltipDescription>
       <Command.Keytip>s1</Command.Keytip>
     </Command>

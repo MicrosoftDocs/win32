@@ -166,8 +166,8 @@ WCHAR str[MAX_PATH];
 hr = DXUTFindDXSDKMediaFileCch( str, MAX_PATH, L"BasicHLSL10.fx" );
 hr = D3DX10CreateEffectPoolFromFile( str, 
     NULL, NULL, D3D10_SHADER_ENABLE_STRICTNESS, 
-    0, pd3dDevice, NULL, &amp;l_pEffectPool,
-    &amp;l_pBlob_Errors );
+    0, pd3dDevice, NULL, &l_pEffectPool,
+    &l_pBlob_Errors );
 ```
 
 

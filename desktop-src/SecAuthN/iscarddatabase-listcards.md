@@ -115,7 +115,7 @@ hr = pIByteBuff->Initialize(sizeof(byAtr), byAtr);
 hr = pISCDataBase->ListCards(pIByteBuff,
                              NULL,
                              0,
-                             &amp;pSafeArray);
+                             &pSafeArray);
 if (FAILED(hr))
 {
    printf("Failed ListCards\n");

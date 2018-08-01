@@ -52,7 +52,7 @@ void main()
 
     // Acquire a cryptographic provider context handle.
     if(!CryptAcquireContext(
-        &amp;hProv, 
+        &hProv, 
         NULL, 
         NULL, 
         PROV_RSA_FULL, 
@@ -79,7 +79,7 @@ void main()
             hProv, 
             CALG_RC4, 
             CRYPT_EXPORTABLE, 
-            &amp;hKey)) 
+            &hKey)) 
     {
         MyHandleError(TEXT("Error during CryptGenKey."));
     }
@@ -89,8 +89,8 @@ void main()
     if(CryptGetKeyParam(
         hKey, 
         KP_MODE, 
-        (PBYTE)&amp;dwMode, 
-        &amp;dwCount, 
+        (PBYTE)&dwMode, 
+        &dwCount, 
         0))
     {
         // Print the cipher mode.
@@ -108,7 +108,7 @@ void main()
         hKey, 
         KP_IV, 
         NULL,     
-        &amp;dwCount, 
+        &dwCount, 
         0)) 
     {
         MyHandleError(TEXT("Error getting the IV length"));
@@ -119,7 +119,7 @@ void main()
         hKey, 
         KP_IV, 
         pbData, 
-        &amp;dwCount, 
+        &dwCount, 
         0))
     {
         // Print the initialization vector.
@@ -157,7 +157,7 @@ void main()
         hKey, 
         KP_IV, 
         NULL,     
-        &amp;dwCount, 
+        &dwCount, 
         0)) 
     {
         MyHandleError(TEXT("Error getting the IV length"));
@@ -168,7 +168,7 @@ void main()
         hKey, 
         KP_IV, 
         pbData, 
-        &amp;dwCount, 
+        &dwCount, 
         0))
     {
         // Print the initialization vector.

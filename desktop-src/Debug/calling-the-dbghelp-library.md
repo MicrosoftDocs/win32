@@ -51,7 +51,7 @@ LoadDLL(
     // If 'filename' contains no path information, then get the the path to our module and 
     // use it to create a fully qualified path to the module we are loading.  Then load it.
     
-    if (!*drive &amp;&amp; !*dir) 
+    if (!*drive && !*dir) 
     {
         // ghinst is the HINSTANCE of this module, initialized in DllMain or WinMain
          

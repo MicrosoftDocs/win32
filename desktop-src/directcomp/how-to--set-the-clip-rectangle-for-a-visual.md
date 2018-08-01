@@ -51,7 +51,7 @@ Use the [**IDCompositionDevice::CreateRectangleClip**](https://msdn.microsoft.co
     // Create the rectangle clip object.
     if (m_pClip == NULL)
     {
-        hr = m_pDevice->CreateRectangleClip(&amp;m_pClip);
+        hr = m_pDevice->CreateRectangleClip(&m_pClip);
     }
 ```
 
@@ -69,8 +69,8 @@ The following example defines a clip rectangle that is centered around the curre
     {
         // Get the location of the mouse.
         POINT ptMouse = { };
-        GetCursorPos(&amp;ptMouse);
-        ScreenToClient(m_hwnd, &amp;ptMouse);
+        GetCursorPos(&ptMouse);
+        ScreenToClient(m_hwnd, &ptMouse);
 
         // Create a 100-by-100 pixel rectangular clip that is 
         // centered at the mouse location, and is mapped to
@@ -128,12 +128,12 @@ Be sure to free the rectangle clip object when you no longer need it, as well as
 
 
 ```C++
-    SafeRelease(&amp;m_pClip);
-    SafeRelease(&amp;m_pDevice);
-    SafeRelease(&amp;m_pD3D11Device);
-    SafeRelease(&amp;m_pCompTarget);
-    SafeRelease(&amp;m_pVisual);
-    SafeRelease(&amp;m_pSurface);
+    SafeRelease(&m_pClip);
+    SafeRelease(&m_pDevice);
+    SafeRelease(&m_pD3D11Device);
+    SafeRelease(&m_pCompTarget);
+    SafeRelease(&m_pVisual);
+    SafeRelease(&m_pSurface);
 ```
 
 

@@ -47,7 +47,7 @@ HRESULT GetChildObject(IADs *pObject,
     HRESULT hr;
     IADsContainer *pCont;
 
-    hr = pObject->QueryInterface(IID_IADsContainer, (LPVOID*)&amp;pCont);
+    hr = pObject->QueryInterface(IID_IADsContainer, (LPVOID*)&pCont);
     if(SUCCEEDED(hr))
     {
         BSTR bstrClass = NULL;
@@ -61,7 +61,7 @@ HRESULT GetChildObject(IADs *pObject,
         {
             IDispatch *pDisp;
             
-            hr = pCont->GetObject(bstrClass, bstrRDN, &amp;pDisp);
+            hr = pCont->GetObject(bstrClass, bstrRDN, &pDisp);
             if(SUCCEEDED(hr))
             {
                 hr = pDisp->QueryInterface(IID_IADs, (LPVOID*)ppChild);

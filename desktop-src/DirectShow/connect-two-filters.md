@@ -35,7 +35,7 @@ HRESULT ConnectFilters(
     IPin *pIn = NULL;
         
     // Find an input pin on the downstream filter.
-    HRESULT hr = FindUnconnectedPin(pDest, PINDIR_INPUT, &amp;pIn);
+    HRESULT hr = FindUnconnectedPin(pDest, PINDIR_INPUT, &pIn);
     if (SUCCEEDED(hr))
     {
         // Try to connect them.
@@ -66,7 +66,7 @@ HRESULT ConnectFilters(IGraphBuilder *pGraph, IBaseFilter *pSrc, IPin *pIn)
     IPin *pOut = NULL;
         
     // Find an output pin on the upstream filter.
-    HRESULT hr = FindUnconnectedPin(pSrc, PINDIR_OUTPUT, &amp;pOut);
+    HRESULT hr = FindUnconnectedPin(pSrc, PINDIR_OUTPUT, &pOut);
     if (SUCCEEDED(hr))
     {
         // Try to connect them.
@@ -92,7 +92,7 @@ HRESULT ConnectFilters(IGraphBuilder *pGraph, IBaseFilter *pSrc, IBaseFilter *pD
     IPin *pOut = NULL;
 
     // Find an output pin on the first filter.
-    HRESULT hr = FindUnconnectedPin(pSrc, PINDIR_OUTPUT, &amp;pOut);
+    HRESULT hr = FindUnconnectedPin(pSrc, PINDIR_OUTPUT, &pOut);
     if (SUCCEEDED(hr))
     {
         hr = ConnectFilters(pGraph, pOut, pDest);

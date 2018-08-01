@@ -56,7 +56,7 @@ public:
     }
     ~CCredentialManager()
     {
-        SafeRelease(&amp;m_pCredentialCache);
+        SafeRelease(&m_pCredentialCache);
     }
 
     STDMETHODIMP QueryInterface(REFIID riid, void** ppv)
@@ -72,12 +72,12 @@ public:
 
     STDMETHODIMP_(ULONG) AddRef()
     {
-        return InterlockedIncrement(&amp;m_cRef);
+        return InterlockedIncrement(&m_cRef);
     }
 
     STDMETHODIMP_(ULONG) Release()
     {
-        LONG cRef = InterlockedDecrement(&amp;m_cRef);
+        LONG cRef = InterlockedDecrement(&m_cRef);
         if (cRef == 0)
         {
             delete this;
@@ -138,7 +138,7 @@ struct CredentialOp : public IUnknown
 
     ~CredentialOp()
     {
-        SafeRelease(&amp;m_pCredential);
+        SafeRelease(&m_pCredential);
     }
 
     STDMETHODIMP QueryInterface(REFIID riid, void** ppv)
@@ -153,12 +153,12 @@ struct CredentialOp : public IUnknown
 
     STDMETHODIMP_(ULONG) AddRef()
     {
-        return InterlockedIncrement(&amp;m_cRef);
+        return InterlockedIncrement(&m_cRef);
     }
 
     STDMETHODIMP_(ULONG) Release()
     {
-        LONG cRef = InterlockedDecrement(&amp;m_cRef);
+        LONG cRef = InterlockedDecrement(&m_cRef);
         if (cRef == 0)
         {
             delete this;
@@ -210,7 +210,7 @@ STDMETHODIMP CCredentialManager::BeginGetCredentials(
 
     if (m_pCredentialCache == NULL)
     {
-        hr = MFCreateCredentialCache(&amp;m_pCredentialCache);
+        hr = MFCreateCredentialCache(&m_pCredentialCache);
         if (FAILED(hr))
         {
             goto done;
@@ -221,8 +221,8 @@ STDMETHODIMP CCredentialManager::BeginGetCredentials(
         pParam->pszUrl, 
         pParam->pszRealm, 
         dwAuthenticationFlags, 
-        &amp;pCredential, 
-        &amp;dwRequirementFlags
+        &pCredential, 
+        &dwRequirementFlags
         );
 
     if (FAILED(hr))
@@ -267,7 +267,7 @@ STDMETHODIMP CCredentialManager::BeginGetCredentials(
 
     // Now queue the work item.
 
-    hr = MFCreateAsyncResult(pOp, pCallback, pState, &amp;pResult);
+    hr = MFCreateAsyncResult(pOp, pCallback, pState, &pResult);
     if (FAILED(hr))
     {
         goto done;
@@ -276,9 +276,9 @@ STDMETHODIMP CCredentialManager::BeginGetCredentials(
     hr = MFPutWorkItem(MFASYNC_CALLBACK_QUEUE_LONG_FUNCTION, this, pResult);
 
 done:
-    SafeRelease(&amp;pResult);
-    SafeRelease(&amp;pCredential);
-    SafeRelease(&amp;pOp);
+    SafeRelease(&pResult);
+    SafeRelease(&pCredential);
+    SafeRelease(&pOp);
     return hr;
 }
 ```
@@ -297,16 +297,16 @@ STDMETHODIMP CCredentialManager::Invoke(IMFAsyncResult* pResult)
 
     CredentialOp *pOp = NULL;   // not AddRef'd
 
-    HRESULT hr = pResult->GetState(&amp;pState);
+    HRESULT hr = pResult->GetState(&pState);
 
     if (SUCCEEDED(hr))
     {
-        hr = pState->QueryInterface(IID_PPV_ARGS(&amp;pGetCredentialsResult));
+        hr = pState->QueryInterface(IID_PPV_ARGS(&pGetCredentialsResult));
     }
 
     if (SUCCEEDED(hr))
     {
-        hr = pGetCredentialsResult->GetObject(&amp;pOpState);
+        hr = pGetCredentialsResult->GetObject(&pOpState);
     }
 
     if (SUCCEEDED(hr))
@@ -317,7 +317,7 @@ STDMETHODIMP CCredentialManager::Invoke(IMFAsyncResult* pResult)
         hr = PromptUserCredentials(pOp);
     }
 
-    if (SUCCEEDED(hr) &amp;&amp; m_pCredentialCache)
+    if (SUCCEEDED(hr) && m_pCredentialCache)
     {
         // Update with options set by the user.
         hr = m_pCredentialCache->SetUserOptions(
@@ -332,9 +332,9 @@ STDMETHODIMP CCredentialManager::Invoke(IMFAsyncResult* pResult)
         MFInvokeCallback(pGetCredentialsResult);
     }
 
-    SafeRelease(&amp;pState);
-    SafeRelease(&amp;pGetCredentialsResult);
-    SafeRelease(&amp;pOpState);
+    SafeRelease(&pState);
+    SafeRelease(&pGetCredentialsResult);
+    SafeRelease(&pOpState);
     return S_OK;
 }
 ```
@@ -368,7 +368,7 @@ STDMETHODIMP CCredentialManager::EndGetCredentials(
         goto done;
     }
 
-    hr = pResult->GetObject(&amp;pUnk);
+    hr = pResult->GetObject(&pUnk);
     if (FAILED(hr))
     {
         goto done;
@@ -380,7 +380,7 @@ STDMETHODIMP CCredentialManager::EndGetCredentials(
     pOp->m_pCredential = NULL;
 
 done:
-    SafeRelease(&amp;pUnk);
+    SafeRelease(&pUnk);
     return hr;
 }
 ```

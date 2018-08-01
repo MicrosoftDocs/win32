@@ -30,9 +30,9 @@ IMediaControl *pControl = NULL;
 REFERENCE_TIME rtTotal;
 
 // Query for interfaces. Remember to release them later.
-hr = pMux->QueryInterface(IID_IMediaSeeking, (void**)&amp;pSeek);
-hr = pGraph->QueryInterface(IID_IMediaEventEx, (void**)&amp;pEvent);
-hr = pGraph->QueryInterface(IID_IMediaControl, (void**)&amp;pControl);
+hr = pMux->QueryInterface(IID_IMediaSeeking, (void**)&pSeek);
+hr = pGraph->QueryInterface(IID_IMediaEventEx, (void**)&pEvent);
+hr = pGraph->QueryInterface(IID_IMediaControl, (void**)&pControl);
 
 // Error checking is omitted for clarity.
 
@@ -40,7 +40,7 @@ hr = pGraph->QueryInterface(IID_IMediaControl, (void**)&amp;pControl);
 hr = pEvent->SetNotifyWindow((OAHWND)hwnd, WM_GRAPHNOTIFY, 0);
 
 // Set the range of the progress bar to the file length (in seconds).
-hr = pSeek->GetDuration(&amp;rtTotal);
+hr = pSeek->GetDuration(&rtTotal);
 SendDlgItemMessage(hwnd, IDC_PROGRESS1, PBM_SETRANGE, 0, 
    MAKELPARAM(0, rtTotal / 10000000));
 // Start the timer.
@@ -58,7 +58,7 @@ When the application receives a timer event, it can update the UI with the curre
 void OnTimer(HWND hDlg, IMediaSeeking *pSeek)
 {
     REFERENCE_TIME rtNow;
-    HRESULT hr = pSeek->GetCurrentPosition(&amp;rtNow);
+    HRESULT hr = pSeek->GetCurrentPosition(&rtNow);
     if (SUCCEEDED(hr))
     {
         SendDlgItemMessage(hDlg, IDC_PROGRESS1, PBM_SETPOS, rtNow/10000000, 0);
@@ -92,7 +92,7 @@ void DoHandleEvent()
     if (!pEvent) return;
 
     // Get all the events, and see we're done.
-    while (SUCCEEDED(pEvent->GetEvent(&amp;evCode, &amp;param1, &amp;param2, 0))
+    while (SUCCEEDED(pEvent->GetEvent(&evCode, &param1, &param2, 0))
     {
         pEvent->FreeEventParams(evCode, param1, param2);
         switch(evCode)

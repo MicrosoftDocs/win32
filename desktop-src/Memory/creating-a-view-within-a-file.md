@@ -85,7 +85,7 @@ int main(void)
   }
 
   // Get the system allocation granularity.
-  GetSystemInfo(&amp;SysInfo);
+  GetSystemInfo(&SysInfo);
   dwSysGran = SysInfo.dwAllocationGranularity;
 
   // Now calculate a few variables. Calculate the file offsets as
@@ -124,7 +124,7 @@ int main(void)
 
   for (i=0; i<(int)dwSysGran; i++)
   {
-    WriteFile (hFile, &amp;i, sizeof (i), &amp;dBytesWritten, NULL);
+    WriteFile (hFile, &i, sizeof (i), &dBytesWritten, NULL);
   }
 
   // Verify that the correct file size was written.

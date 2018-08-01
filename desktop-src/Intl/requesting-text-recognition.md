@@ -55,15 +55,15 @@ int __cdecl main()
     DWORD                   dwServicesCount = 0;
     HRESULT                 hResult;
 
-    ZeroMemory(&amp;EnumOptions, sizeof (MAPPING_ENUM_OPTIONS));
+    ZeroMemory(&EnumOptions, sizeof (MAPPING_ENUM_OPTIONS));
     EnumOptions.Size = sizeof (MAPPING_ENUM_OPTIONS);
     // Using the Language Auto-Detection GUID to enumerate LAD only:
-    EnumOptions.pGuid = (GUID *)&amp;ELS_GUID_LANGUAGE_DETECTION;
-    hResult = MappingGetServices(&amp;EnumOptions, &amp;prgServices, &amp;dwServicesCount);
+    EnumOptions.pGuid = (GUID *)&ELS_GUID_LANGUAGE_DETECTION;
+    hResult = MappingGetServices(&EnumOptions, &prgServices, &dwServicesCount);
 
     if (SUCCEEDED(hResult))
     {
-        hResult = CallMappingRecognizeText(&amp;prgServices[0]);
+        hResult = CallMappingRecognizeText(&prgServices[0]);
         if (SUCCEEDED(hResult))
         {
             printf("Calling the service %ws has succeeded!\n",
@@ -85,7 +85,7 @@ HRESULT CallMappingRecognizeText(PMAPPING_SERVICE_INFO pService)
     MAPPING_PROPERTY_BAG bag;
     HRESULT hResult;
 
-    ZeroMemory(&amp;bag, sizeof (MAPPING_PROPERTY_BAG));
+    ZeroMemory(&bag, sizeof (MAPPING_PROPERTY_BAG));
     bag.Size = sizeof (MAPPING_PROPERTY_BAG);
 
     // MappingRecognizeText's dwIndex parameter specifies the first
@@ -93,12 +93,12 @@ HRESULT CallMappingRecognizeText(PMAPPING_SERVICE_INFO pService)
     // We pass USER_TEXT_SKIP, thus skipping the "Skip " part
     // of the input string.
     // Calling without MAPPING_OPTIONS:
-    hResult = MappingRecognizeText(pService, USER_TEXT, wcslen(USER_TEXT), USER_TEXT_SKIP, NULL, &amp;bag);
+    hResult = MappingRecognizeText(pService, USER_TEXT, wcslen(USER_TEXT), USER_TEXT_SKIP, NULL, &bag);
     if (SUCCEEDED(hResult))
     {
         printf("Results from service: %ws\n", pService->pszDescription);
-        PrintAllResults(&amp;bag);
-        hResult = MappingFreePropertyBag(&amp;bag);
+        PrintAllResults(&bag);
+        hResult = MappingFreePropertyBag(&bag);
     }
     return hResult;
 }
@@ -152,15 +152,15 @@ int __cdecl main()
     DWORD                   dwServicesCount = 0;
     HRESULT                 hResult;
 
-    ZeroMemory(&amp;EnumOptions, sizeof (MAPPING_ENUM_OPTIONS));
+    ZeroMemory(&EnumOptions, sizeof (MAPPING_ENUM_OPTIONS));
     EnumOptions.Size = sizeof (MAPPING_ENUM_OPTIONS);
     // Using the Script Detection GUID to enumerate SD only:
-    EnumOptions.pGuid = (GUID *)&amp;ELS_GUID_SCRIPT_DETECTION;
-    hResult = MappingGetServices(&amp;EnumOptions, &amp;prgServices, &amp;dwServicesCount);
+    EnumOptions.pGuid = (GUID *)&ELS_GUID_SCRIPT_DETECTION;
+    hResult = MappingGetServices(&EnumOptions, &prgServices, &dwServicesCount);
 
     if (SUCCEEDED(hResult))
     {
-        hResult = CallMappingRecognizeText(&amp;prgServices[0]);
+        hResult = CallMappingRecognizeText(&prgServices[0]);
         if (SUCCEEDED(hResult))
         {
             printf("Calling the service %ws has succeeded!\n",
@@ -182,7 +182,7 @@ HRESULT CallMappingRecognizeText(PMAPPING_SERVICE_INFO pService)
     MAPPING_PROPERTY_BAG bag;
     HRESULT hResult;
 
-    ZeroMemory(&amp;bag, sizeof (MAPPING_PROPERTY_BAG));
+    ZeroMemory(&bag, sizeof (MAPPING_PROPERTY_BAG));
     bag.Size = sizeof (MAPPING_PROPERTY_BAG);
 
     // MappingRecognizeText's dwIndex parameter specifies the first
@@ -190,12 +190,12 @@ HRESULT CallMappingRecognizeText(PMAPPING_SERVICE_INFO pService)
     // We pass USER_TEXT_SKIP, thus skipping the "Skip " part
     // of the input string.
     // Calling without MAPPING_OPTIONS:
-    hResult = MappingRecognizeText(pService, USER_TEXT, wcslen(USER_TEXT), USER_TEXT_SKIP, NULL, &amp;bag);
+    hResult = MappingRecognizeText(pService, USER_TEXT, wcslen(USER_TEXT), USER_TEXT_SKIP, NULL, &bag);
     if (SUCCEEDED(hResult))
     {
         printf("Results from service: %ws\n", pService->pszDescription);
-        PrintAllResults(&amp;bag);
-        hResult = MappingFreePropertyBag(&amp;bag);
+        PrintAllResults(&bag);
+        hResult = MappingFreePropertyBag(&bag);
     }
     return hResult;
 }
@@ -252,15 +252,15 @@ int __cdecl main()
     // 1. Enumerate by GUID:
     prgServices = NULL;
     dwServicesCount = 0;
-    ZeroMemory(&amp;EnumOptions, sizeof (MAPPING_ENUM_OPTIONS));
+    ZeroMemory(&EnumOptions, sizeof (MAPPING_ENUM_OPTIONS));
     EnumOptions.Size = sizeof (MAPPING_ENUM_OPTIONS);
     // Use the Cyrl->Latn Transliteration GUID to enumerate only this service:
-    EnumOptions.pGuid = (GUID *)&amp;ELS_GUID_TRANSLITERATION_CYRILLIC_TO_LATIN;
-    hResult = MappingGetServices(&amp;EnumOptions, &amp;prgServices, &amp;dwServicesCount);
+    EnumOptions.pGuid = (GUID *)&ELS_GUID_TRANSLITERATION_CYRILLIC_TO_LATIN;
+    hResult = MappingGetServices(&EnumOptions, &prgServices, &dwServicesCount);
 
     if (SUCCEEDED(hResult))
     {
-        hResult = CallMappingRecognizeText(&amp;prgServices[0]);
+        hResult = CallMappingRecognizeText(&prgServices[0]);
         if (SUCCEEDED(hResult))
         {
             printf("Calling the service %ws has succeeded!\n",
@@ -279,15 +279,15 @@ int __cdecl main()
     // 2. Enumerate by input script and category:
     prgServices = NULL;
     dwServicesCount = 0;
-    ZeroMemory(&amp;EnumOptions, sizeof (MAPPING_ENUM_OPTIONS));
+    ZeroMemory(&EnumOptions, sizeof (MAPPING_ENUM_OPTIONS));
     EnumOptions.Size = sizeof (MAPPING_ENUM_OPTIONS);
     EnumOptions.pszCategory = L"Transliteration";
     EnumOptions.pszInputScript = L"Cyrl";
-    hResult = MappingGetServices(&amp;EnumOptions, &amp;prgServices, &amp;dwServicesCount);
+    hResult = MappingGetServices(&EnumOptions, &prgServices, &dwServicesCount);
 
     if (SUCCEEDED(hResult))
     {
-        hResult = CallMappingRecognizeText(&amp;prgServices[0]);
+        hResult = CallMappingRecognizeText(&prgServices[0]);
         if (SUCCEEDED(hResult))
         {
             printf("Calling the service %ws has succeeded!\n",
@@ -309,7 +309,7 @@ HRESULT CallMappingRecognizeText(PMAPPING_SERVICE_INFO pService)
     MAPPING_PROPERTY_BAG bag;
     HRESULT hResult;
 
-    ZeroMemory(&amp;bag, sizeof (MAPPING_PROPERTY_BAG));
+    ZeroMemory(&bag, sizeof (MAPPING_PROPERTY_BAG));
     bag.Size = sizeof (MAPPING_PROPERTY_BAG);
 
     // MappingRecognizeText's dwIndex parameter specifies the first
@@ -319,12 +319,12 @@ HRESULT CallMappingRecognizeText(PMAPPING_SERVICE_INFO pService)
     // Calling without MAPPING_OPTIONS:
     // We want the result to be null-terminated for display.
     // That's why we will also pass the input null terminator:
-    hResult = MappingRecognizeText(pService, USER_TEXT, wcslen(USER_TEXT) + 1, USER_TEXT_SKIP, NULL, &amp;bag);
+    hResult = MappingRecognizeText(pService, USER_TEXT, wcslen(USER_TEXT) + 1, USER_TEXT_SKIP, NULL, &bag);
     if (SUCCEEDED(hResult))
     {
         printf("Results from service: %ws\n", pService->pszDescription);
-        PrintAllResults(&amp;bag);
-        hResult = MappingFreePropertyBag(&amp;bag);
+        PrintAllResults(&bag);
+        hResult = MappingFreePropertyBag(&bag);
     }
     return hResult;
 }
@@ -365,7 +365,7 @@ int __cdecl main()
     DWORD i;
 
     // Get all installed ELS services:
-    hResult = MappingGetServices(NULL, &amp;prgServices, &amp;dwServicesCount);
+    hResult = MappingGetServices(NULL, &prgServices, &dwServicesCount);
 
     if (SUCCEEDED(hResult))
     {
@@ -377,7 +377,7 @@ int __cdecl main()
             {
                 printf("--\n");
             }
-            hResult = CallMappingRecognizeText(&amp;prgServices[i]);
+            hResult = CallMappingRecognizeText(&prgServices[i]);
             if (SUCCEEDED(hResult))
             {
                 printf("Calling the service %ws has succeeded!\n",
@@ -400,7 +400,7 @@ HRESULT CallMappingRecognizeText(PMAPPING_SERVICE_INFO pService)
     MAPPING_PROPERTY_BAG bag;
     HRESULT hResult;
 
-    ZeroMemory(&amp;bag, sizeof (MAPPING_PROPERTY_BAG));
+    ZeroMemory(&bag, sizeof (MAPPING_PROPERTY_BAG));
     bag.Size = sizeof (MAPPING_PROPERTY_BAG);
 
     // MappingRecognizeText's dwIndex parameter specifies the first
@@ -408,12 +408,12 @@ HRESULT CallMappingRecognizeText(PMAPPING_SERVICE_INFO pService)
     // We pass USER_TEXT_SKIP, thus skipping the "Skip " part
     // of the input string.
     // Calling without MAPPING_OPTIONS:
-    hResult = MappingRecognizeText(pService, USER_TEXT, wcslen(USER_TEXT), USER_TEXT_SKIP, NULL, &amp;bag);
+    hResult = MappingRecognizeText(pService, USER_TEXT, wcslen(USER_TEXT), USER_TEXT_SKIP, NULL, &bag);
     if (SUCCEEDED(hResult))
     {
         printf("Results from service: %ws\n", pService->pszDescription);
-        PrintAllResults(&amp;bag);
-        hResult = MappingFreePropertyBag(&amp;bag);
+        PrintAllResults(&bag);
+        hResult = MappingFreePropertyBag(&bag);
     }
     return hResult;
 }
@@ -442,7 +442,7 @@ void PrintAllResults(PMAPPING_PROPERTY_BAG pBag)
         for (dwDataIndex = 0; dwDataIndex < pBag->prgResultRanges[dwRangeIndex].dwDataSize / 2; ++dwDataIndex)
         {
             c = ((WCHAR *)pBag->prgResultRanges[dwRangeIndex].pData)[dwDataIndex];
-            if (c >= 32 &amp;&amp; c < 128 &amp;&amp; c != '"') printf("%wc", c);
+            if (c >= 32 && c < 128 && c != '"') printf("%wc", c);
             else printf("#%x", (unsigned)c);
         }
         printf("\"\n");
@@ -456,14 +456,14 @@ void CallRecognizeText(LPCWSTR Category, LPCWSTR Text)
     DWORD                 ServicesCount;
     MAPPING_ENUM_OPTIONS  options = {sizeof(MAPPING_ENUM_OPTIONS), (LPWSTR) Category, 0};
 
-    Result = MappingGetServices(&amp;options, &amp;rgServices, &amp;ServicesCount);
-    if (Result == S_OK &amp;&amp; ServicesCount > 0)
+    Result = MappingGetServices(&options, &rgServices, &ServicesCount);
+    if (Result == S_OK && ServicesCount > 0)
     {
         MAPPING_PROPERTY_BAG bag = { sizeof(MAPPING_PROPERTY_BAG), 0};
-        Result = MappingRecognizeText(&amp;rgServices[0], Text, wcslen(Text), 0, NULL, &amp;bag);
+        Result = MappingRecognizeText(&rgServices[0], Text, wcslen(Text), 0, NULL, &bag);
         if (Result == S_OK)
         {
-            MappingFreePropertyBag(&amp;bag);
+            MappingFreePropertyBag(&bag);
         }
 
         MappingFreeServices(rgServices);
@@ -510,15 +510,15 @@ int __cdecl main()
     DWORD                   dwServicesCount = 0;
     HRESULT                 hResult;
 
-    ZeroMemory(&amp;EnumOptions, sizeof (MAPPING_ENUM_OPTIONS));
+    ZeroMemory(&EnumOptions, sizeof (MAPPING_ENUM_OPTIONS));
     EnumOptions.Size = sizeof (MAPPING_ENUM_OPTIONS);
     // Using the Language Auto-Detection GUID to enumerate LAD only:
-    EnumOptions.pGuid = (GUID *)&amp;ELS_GUID_LANGUAGE_DETECTION;
-    hResult = MappingGetServices(&amp;EnumOptions, &amp;prgServices, &amp;dwServicesCount);
+    EnumOptions.pGuid = (GUID *)&ELS_GUID_LANGUAGE_DETECTION;
+    hResult = MappingGetServices(&EnumOptions, &prgServices, &dwServicesCount);
 
     if (SUCCEEDED(hResult))
     {
-        hResult = CallMappingRecognizeText(&amp;prgServices[0]);
+        hResult = CallMappingRecognizeText(&prgServices[0]);
         if (SUCCEEDED(hResult))
         {
             printf("Calling the service %ws has succeeded!\n",
@@ -551,20 +551,20 @@ HRESULT CallMappingRecognizeText(PMAPPING_SERVICE_INFO pService)
     }
     else
     {
-        ZeroMemory(&amp;bag, sizeof (MAPPING_PROPERTY_BAG));
+        ZeroMemory(&bag, sizeof (MAPPING_PROPERTY_BAG));
         bag.Size = sizeof (MAPPING_PROPERTY_BAG);
 
-        ZeroMemory(&amp;Options, sizeof (MAPPING_OPTIONS));
+        ZeroMemory(&Options, sizeof (MAPPING_OPTIONS));
         Options.Size = sizeof (MAPPING_OPTIONS);
         Options.pfnRecognizeCallback = (PFN_MAPPINGCALLBACKPROC)RecognizeCallback;
-        Options.pRecognizeCallerData = &amp;SyncEvent;
+        Options.pRecognizeCallerData = &SyncEvent;
         Options.dwRecognizeCallerDataSize = sizeof (HANDLE);
 
         // MappingRecognizeText's dwIndex parameter specifies the first
         // index inside the text from where the recognition should start.
         // We pass USER_TEXT_SKIP, thus skipping the "Skip " part
         // of the input string.
-        hResult = MappingRecognizeText(pService, USER_TEXT, wcslen(USER_TEXT), USER_TEXT_SKIP, &amp;Options, &amp;bag);
+        hResult = MappingRecognizeText(pService, USER_TEXT, wcslen(USER_TEXT), USER_TEXT_SKIP, &Options, &bag);
         if (SUCCEEDED(hResult))
         {
             // We are using an event to synchronize our waiting for the call to end,

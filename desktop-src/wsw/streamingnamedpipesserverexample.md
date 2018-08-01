@@ -53,7 +53,7 @@ void PrintError(
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -61,7 +61,7 @@ void PrintError(
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -92,7 +92,7 @@ int __cdecl wmain()
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -105,7 +105,7 @@ int __cdecl wmain()
         NULL, 
         0, 
         NULL, 
-        &amp;listener, 
+        &listener, 
         error);
     if (FAILED(hr))
     {
@@ -117,7 +117,7 @@ int __cdecl wmain()
         listener, 
         NULL, 
         0, 
-        &amp;channel, 
+        &channel, 
         error);
     if (FAILED(hr))
     {
@@ -130,7 +130,7 @@ int __cdecl wmain()
     uri.length = (ULONG)::wcslen(uri.chars);
     hr = WsOpenListener(
         listener, 
-        &amp;uri, 
+        &uri, 
         NULL, 
         error);
     if (FAILED(hr))
@@ -150,7 +150,7 @@ int __cdecl wmain()
         channel,
         NULL, 
         0, 
-        &amp;message, 
+        &message, 
         error);
     if (FAILED(hr))
     {
@@ -163,7 +163,7 @@ int __cdecl wmain()
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -198,7 +198,7 @@ int __cdecl wmain()
                 WS_XML_STRING_TYPE,
                 WS_READ_REQUIRED_VALUE, 
                 NULL, 
-                &amp;receivedAction, 
+                &receivedAction, 
                 sizeof(receivedAction), 
                 error);
         if (FAILED(hr))
@@ -208,7 +208,7 @@ int __cdecl wmain()
         
             // Make sure action is what we expect
             hr = WsXmlStringEquals(
-                &amp;receivedAction, 
+                &receivedAction, 
                 PurchaseOrder_wsdl.messages.PurchaseOrder.action, 
                 error);
             
@@ -224,7 +224,7 @@ int __cdecl wmain()
             hr = WsGetMessageProperty(
                 message, 
                 WS_MESSAGE_PROPERTY_BODY_READER, 
-                &amp;reader, 
+                &reader, 
                 sizeof(reader), 
                 error);
         if (FAILED(hr))
@@ -239,10 +239,10 @@ int __cdecl wmain()
                     _PurchaseOrderType* purchaseOrder;
                     hr = WsReadElement(
                         reader, 
-                        &amp;PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
+                        &PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
                         WS_READ_OPTIONAL_POINTER, 
                         heap, 
-                        &amp;purchaseOrder, 
+                        &purchaseOrder, 
                         sizeof(purchaseOrder), 
                         error);
             if (FAILED(hr))

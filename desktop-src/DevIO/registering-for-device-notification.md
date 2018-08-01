@@ -65,14 +65,14 @@ BOOL DoRegisterDeviceInterfaceToHwnd(
 {
     DEV_BROADCAST_DEVICEINTERFACE NotificationFilter;
 
-    ZeroMemory( &amp;NotificationFilter, sizeof(NotificationFilter) );
+    ZeroMemory( &NotificationFilter, sizeof(NotificationFilter) );
     NotificationFilter.dbcc_size = sizeof(DEV_BROADCAST_DEVICEINTERFACE);
     NotificationFilter.dbcc_devicetype = DBT_DEVTYP_DEVICEINTERFACE;
     NotificationFilter.dbcc_classguid = InterfaceClassGuid;
 
     *hDeviceNotify = RegisterDeviceNotification( 
         hWnd,                       // events recipient
-        &amp;NotificationFilter,        // type of device
+        &NotificationFilter,        // type of device
         DEVICE_NOTIFY_WINDOW_HANDLE // type of recipient handle
         );
 
@@ -108,7 +108,7 @@ void MessagePump(
     // without any filtering. Potential optimization could be
     // obtained via use of filter values if desired.
 
-    while( (retVal = GetMessage(&amp;msg, NULL, 0, 0)) != 0 ) 
+    while( (retVal = GetMessage(&msg, NULL, 0, 0)) != 0 ) 
     { 
         if ( retVal == -1 )
         {
@@ -117,8 +117,8 @@ void MessagePump(
         }
         else
         {
-            TranslateMessage(&amp;msg);
-            DispatchMessage(&amp;msg);
+            TranslateMessage(&msg);
+            DispatchMessage(&msg);
         }
     } 
 }
@@ -168,7 +168,7 @@ INT_PTR WINAPI WinProcCallback(
         if ( ! DoRegisterDeviceInterfaceToHwnd(
                         WceusbshGUID, 
                         hWnd,
-                        &amp;hDeviceNotify) )
+                        &hDeviceNotify) )
         {
             // Terminate on failure.
             ErrorHandler(TEXT("DoRegisterDeviceInterfaceToHwnd"));
@@ -319,7 +319,7 @@ BOOL InitWindowClass()
     wndClass.hIconSm = wndClass.hIcon;
 
 
-    if ( ! RegisterClassEx(&amp;wndClass) )
+    if ( ! RegisterClassEx(&wndClass) )
     {
         ErrorHandler(TEXT("RegisterClassEx"));
         return FALSE;
@@ -344,7 +344,7 @@ int __stdcall _tWinMain(
 //
 
     int nArgC = 0;
-    PWSTR* ppArgV = CommandLineToArgvW(lpstrCmdLine, &amp;nArgC);
+    PWSTR* ppArgV = CommandLineToArgvW(lpstrCmdLine, &nArgC);
     g_pszAppName = ppArgV[0];
 
     if ( ! InitWindowClass() )
@@ -496,7 +496,7 @@ void ErrorHandler(
         NULL,
         dw,
         MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
-        (LPTSTR) &amp;lpMsgBuf,
+        (LPTSTR) &lpMsgBuf,
         0, NULL );
 
     // Display the error message and exit the process.

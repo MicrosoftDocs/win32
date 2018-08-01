@@ -43,9 +43,9 @@ void main(void)
         NULL,                   // local machine
         COUNTER_OBJECT,         // object to enumerate
         pwsCounterListBuffer,   // pass NULL and 0
-        &amp;dwCounterListSize,     // to get required buffer size
+        &dwCounterListSize,     // to get required buffer size
         pwsInstanceListBuffer, 
-        &amp;dwInstanceListSize, 
+        &dwInstanceListSize, 
         PERF_DETAIL_WIZARD,     // counter detail level
         0); 
 
@@ -55,16 +55,16 @@ void main(void)
         pwsCounterListBuffer = (LPWSTR)malloc(dwCounterListSize * sizeof(WCHAR));
         pwsInstanceListBuffer = (LPWSTR)malloc(dwInstanceListSize * sizeof(WCHAR));
 
-        if (NULL != pwsCounterListBuffer &amp;&amp; NULL != pwsInstanceListBuffer) 
+        if (NULL != pwsCounterListBuffer && NULL != pwsInstanceListBuffer) 
         {
             status = PdhEnumObjectItems(
                 NULL,                   // real-time source
                 NULL,                   // local machine
                 COUNTER_OBJECT,         // object to enumerate
                 pwsCounterListBuffer, 
-                &amp;dwCounterListSize,
+                &dwCounterListSize,
                 pwsInstanceListBuffer, 
-                &amp;dwInstanceListSize, 
+                &dwInstanceListSize, 
                 PERF_DETAIL_WIZARD,     // counter detail level
                 0); 
      

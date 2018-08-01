@@ -43,7 +43,7 @@ The transformation that maps world coordinates to page coordinates is called the
 ```
 myGraphics.TranslateTransform(100.0f, 50.0f);
 
-myGraphics.DrawLine(&amp;myPen, 0, 0, 160, 80);
+myGraphics.DrawLine(&myPen, 0, 0, 160, 80);
 ```
 
 
@@ -56,7 +56,7 @@ You can use the [**Graphics::SetPageUnit**](/windows/desktop/api/Gdiplusgraphics
 ```
 myGraphics.SetPageUnit(UnitInch);
 
-myGraphics.DrawLine(&amp;myPen, 0, 0, 2, 1);
+myGraphics.DrawLine(&myPen, 0, 0, 2, 1);
 ```
 
 
@@ -87,7 +87,7 @@ You can combine the world and page transformations to achieve a variety of effec
 ```
 myGraphics.TranslateTransform(2.0f, 0.5f);
 myGraphics.SetPageUnit(UnitInch);
-myGraphics.DrawLine(&amp;myPen, 0, 0, 2, 1);
+myGraphics.DrawLine(&myPen, 0, 0, 2, 1);
 ```
 
 

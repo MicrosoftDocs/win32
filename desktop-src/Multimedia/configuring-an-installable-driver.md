@@ -38,7 +38,7 @@ LONG MyConfigureDriver()
         dci.dwDCISize = sizeof (dci);
         dci.lpszDCISectionName = (LPWSTR)0;
         dci.lpszDCIAliasName = (LPWSTR)0;
-        lRes = SendDriverMessage(hdrvr, DRV_CONFIGURE, 0, (LONG)&amp;dci);
+        lRes = SendDriverMessage(hdrvr, DRV_CONFIGURE, 0, (LONG)&dci);
      }
 
     // Close the driver (no additional parameters needed this time).

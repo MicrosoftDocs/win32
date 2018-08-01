@@ -24,7 +24,7 @@ HRESULT SaveGraphFile(IGraphBuilder *pGraph, WCHAR *wszPath)
     hr = StgCreateDocfile(
         wszPath,
         STGM_CREATE | STGM_TRANSACTED | STGM_READWRITE | STGM_SHARE_EXCLUSIVE,
-        0, &amp;pStorage);
+        0, &pStorage);
     if(FAILED(hr)) 
     {
         return hr;
@@ -34,7 +34,7 @@ HRESULT SaveGraphFile(IGraphBuilder *pGraph, WCHAR *wszPath)
     hr = pStorage->CreateStream(
         wszStreamName,
         STGM_WRITE | STGM_CREATE | STGM_SHARE_EXCLUSIVE,
-        0, 0, &amp;pStream);
+        0, 0, &pStream);
     if (FAILED(hr)) 
     {
         pStorage->Release();    
@@ -42,7 +42,7 @@ HRESULT SaveGraphFile(IGraphBuilder *pGraph, WCHAR *wszPath)
     }
 
     IPersistStream *pPersist = NULL;
-    pGraph->QueryInterface(IID_IPersistStream, (void**)&amp;pPersist);
+    pGraph->QueryInterface(IID_IPersistStream, (void**)&pPersist);
     hr = pPersist->Save(pStream, TRUE);
     pStream->Release();
     pPersist->Release();
@@ -69,7 +69,7 @@ void __cdecl main(void)
     
     // Create the Filter Graph Manager and render a file.
     CoCreateInstance(CLSID_FilterGraph, NULL, CLSCTX_INPROC_SERVER, 
-        IID_IGraphBuilder, reinterpret_cast<void**>(&amp;pGraph));
+        IID_IGraphBuilder, reinterpret_cast<void**>(&pGraph));
     hr = pGraph->RenderFile(L"C:\\Video.avi", NULL);
 
     if (SUCCEEDED(hr))

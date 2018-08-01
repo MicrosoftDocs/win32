@@ -49,8 +49,8 @@ HRESULT hr;
 Microsoft::WRL::ComPtr<IMMDeviceEnumerator> deviceEnum;
 Microsoft::WRL::ComPtr<IMMDevice> defaultDevice;
 
-hr = CoCreateInstance(__uuidof(MMDeviceEnumerator), nullptr, CLSCTX_ALL, __uuidof(IMMDeviceEnumerator), (void**)&amp;deviceEnum);
-hr = deviceEnum->GetDefaultAudioEndpoint(EDataFlow::eRender, eMultimedia, &amp;defaultDevice);
+hr = CoCreateInstance(__uuidof(MMDeviceEnumerator), nullptr, CLSCTX_ALL, __uuidof(IMMDeviceEnumerator), (void**)&deviceEnum);
+hr = deviceEnum->GetDefaultAudioEndpoint(EDataFlow::eRender, eMultimedia, &defaultDevice);
 ```
 
 
@@ -82,15 +82,15 @@ Call [**ISpatialAudioClient::ActivateSpatialAudioStream**](/windows/desktop/api/
 Microsoft::WRL::ComPtr<ISpatialAudioClient> spatialAudioClient;
 
 // Activate ISpatialAudioClient on the desired audio-device 
-hr = defaultDevice->Activate(__uuidof(ISpatialAudioClient), CLSCTX_INPROC_SERVER, nullptr, (void**)&amp;spatialAudioClient);
+hr = defaultDevice->Activate(__uuidof(ISpatialAudioClient), CLSCTX_INPROC_SERVER, nullptr, (void**)&spatialAudioClient);
 
-hr = spatialAudioClient->IsAudioObjectFormatSupported(&amp;format);
+hr = spatialAudioClient->IsAudioObjectFormatSupported(&format);
 
 // Create the event that will be used to signal the client for more data
 HANDLE bufferCompletionEvent = CreateEvent(nullptr, FALSE, FALSE, nullptr);
 
 SpatialAudioObjectRenderStreamActivationParams streamParams;
-streamParams.ObjectFormat = &amp;format;
+streamParams.ObjectFormat = &format;
 streamParams.StaticObjectTypeMask = ChannelMask_Stereo;
 streamParams.MinDynamicObjectCount = 0;
 streamParams.MaxDynamicObjectCount = 0;
@@ -99,13 +99,13 @@ streamParams.EventHandle = bufferCompletionEvent;
 streamParams.NotifyObject = nullptr;
 
 PROPVARIANT activationParams;
-PropVariantInit(&amp;activationParams);
+PropVariantInit(&activationParams);
 activationParams.vt = VT_BLOB;
 activationParams.blob.cbSize = sizeof(streamParams);
-activationParams.blob.pBlobData = reinterpret_cast<BYTE *>(&amp;streamParams);
+activationParams.blob.pBlobData = reinterpret_cast<BYTE *>(&streamParams);
 
 Microsoft::WRL::ComPtr<ISpatialAudioObjectRenderStream> spatialAudioStream;
-hr = spatialAudioClient->ActivateSpatialAudioStream(&amp;activationParams, __uuidof(spatialAudioStream), (void**)&amp;spatialAudioStream);
+hr = spatialAudioClient->ActivateSpatialAudioStream(&activationParams, __uuidof(spatialAudioStream), (void**)&spatialAudioStream);
 ```
 
 
@@ -166,19 +166,19 @@ while (isRendering)
     // Begin the process of sending object data and metadata
     // Get the number of dynamic objects that can be used to send object-data
     // Get the frame count that each buffer will be filled with 
-    hr = spatialAudioStream->BeginUpdatingAudioObjects(&amp;availableDynamicObjectCount, &amp;frameCount);
+    hr = spatialAudioStream->BeginUpdatingAudioObjects(&availableDynamicObjectCount, &frameCount);
 
     BYTE* buffer;
     UINT32 bufferLength;
 
     if (audioObjectFrontLeft == nullptr)
     {
-        hr = spatialAudioStream->ActivateSpatialAudioObject(AudioObjectType::AudioObjectType_FrontLeft, &amp;audioObjectFrontLeft);
+        hr = spatialAudioStream->ActivateSpatialAudioObject(AudioObjectType::AudioObjectType_FrontLeft, &audioObjectFrontLeft);
         if (hr != S_OK) break;
     }
 
     // Get the buffer to write audio data
-    hr = audioObjectFrontLeft->GetBuffer(&amp;buffer, &amp;bufferLength);
+    hr = audioObjectFrontLeft->GetBuffer(&buffer, &bufferLength);
 
     if (totalFrameCount >= frameCount)
     {
@@ -278,8 +278,8 @@ HRESULT hr;
 Microsoft::WRL::ComPtr<IMMDeviceEnumerator> deviceEnum;
 Microsoft::WRL::ComPtr<IMMDevice> defaultDevice;
 
-hr = CoCreateInstance(__uuidof(MMDeviceEnumerator), nullptr, CLSCTX_ALL, __uuidof(IMMDeviceEnumerator), (void**)&amp;deviceEnum);
-hr = deviceEnum->GetDefaultAudioEndpoint(EDataFlow::eRender, eMultimedia, &amp;defaultDevice);
+hr = CoCreateInstance(__uuidof(MMDeviceEnumerator), nullptr, CLSCTX_ALL, __uuidof(IMMDeviceEnumerator), (void**)&deviceEnum);
+hr = deviceEnum->GetDefaultAudioEndpoint(EDataFlow::eRender, eMultimedia, &defaultDevice);
 ```
 
 
@@ -296,15 +296,15 @@ Call [**ISpatialAudioClient::ActivateSpatialAudioStream**](/windows/desktop/api/
 ```C++
 // Activate ISpatialAudioClient on the desired audio-device 
 Microsoft::WRL::ComPtr<ISpatialAudioClient> spatialAudioClient;
-hr = defaultDevice->Activate(__uuidof(ISpatialAudioClient), CLSCTX_INPROC_SERVER, nullptr, (void**)&amp;spatialAudioClient);
+hr = defaultDevice->Activate(__uuidof(ISpatialAudioClient), CLSCTX_INPROC_SERVER, nullptr, (void**)&spatialAudioClient);
 
-hr = spatialAudioClient->IsAudioObjectFormatSupported(&amp;format);
+hr = spatialAudioClient->IsAudioObjectFormatSupported(&format);
 
 // Create the event that will be used to signal the client for more data
 HANDLE bufferCompletionEvent = CreateEvent(nullptr, FALSE, FALSE, nullptr);
 
 UINT32 maxDynamicObjectCount;
-hr = spatialAudioClient->GetMaxDynamicObjectCount(&amp;maxDynamicObjectCount);
+hr = spatialAudioClient->GetMaxDynamicObjectCount(&maxDynamicObjectCount);
 
 if (maxDynamicObjectCount == 0)
 {
@@ -314,7 +314,7 @@ if (maxDynamicObjectCount == 0)
 
 // Set the maximum number of dynamic audio objects that will be used
 SpatialAudioObjectRenderStreamActivationParams streamParams;
-streamParams.ObjectFormat = &amp;format;
+streamParams.ObjectFormat = &format;
 streamParams.StaticObjectTypeMask = AudioObjectType_None;
 streamParams.MinDynamicObjectCount = 0;
 streamParams.MaxDynamicObjectCount = min(maxDynamicObjectCount, 4);
@@ -323,13 +323,13 @@ streamParams.EventHandle = bufferCompletionEvent;
 streamParams.NotifyObject = nullptr;
 
 PROPVARIANT pv;
-PropVariantInit(&amp;pv);
+PropVariantInit(&pv);
 pv.vt = VT_BLOB;
 pv.blob.cbSize = sizeof(streamParams);
-pv.blob.pBlobData = (BYTE *)&amp;streamParams;
+pv.blob.pBlobData = (BYTE *)&streamParams;
 
 Microsoft::WRL::ComPtr<ISpatialAudioObjectRenderStream> spatialAudioStream;;
-hr = spatialAudioClient->ActivateSpatialAudioStream(&amp;pv, __uuidof(spatialAudioStream), (void**)&amp;spatialAudioStream);
+hr = spatialAudioClient->ActivateSpatialAudioStream(&pv, __uuidof(spatialAudioStream), (void**)&spatialAudioStream);
 ```
 
 
@@ -381,17 +381,17 @@ do
     // Begin the process of sending object data and metadata
     // Get the number of active objects that can be used to send object-data
     // Get the frame count that each buffer will be filled with 
-    hr = spatialAudioStream->BeginUpdatingAudioObjects(&amp;availableDynamicObjectCount, &amp;frameCount);
+    hr = spatialAudioStream->BeginUpdatingAudioObjects(&availableDynamicObjectCount, &frameCount);
 
     BYTE* buffer;
     UINT32 bufferLength;
 
     // Spawn a new dynamic audio object every 200 iterations
-    if (spawnCounter % 200 == 0 &amp;&amp; spawnCounter < 1000)
+    if (spawnCounter % 200 == 0 && spawnCounter < 1000)
     {
         // Activate a new dynamic audio object
         Microsoft::WRL::ComPtr<ISpatialAudioObject> audioObject;
-        hr = spatialAudioStream->ActivateSpatialAudioObject(AudioObjectType::AudioObjectType_Dynamic, &amp;audioObject);
+        hr = spatialAudioStream->ActivateSpatialAudioObject(AudioObjectType::AudioObjectType_Dynamic, &audioObject);
 
         // If SPTLAUDCLNT_E_NO_MORE_OBJECTS is returned, there are no more available objects
         if (SUCCEEDED(hr))
@@ -415,7 +415,7 @@ do
     std::vector<My3dObject>::iterator it = objectVector.begin();
     while (it != objectVector.end())
     {
-        it->audioObject->GetBuffer(&amp;buffer, &amp;bufferLength);
+        it->audioObject->GetBuffer(&buffer, &bufferLength);
 
         if (it->totalFrameCount >= frameCount)
         {
@@ -503,8 +503,8 @@ HRESULT hr;
 Microsoft::WRL::ComPtr<IMMDeviceEnumerator> deviceEnum;
 Microsoft::WRL::ComPtr<IMMDevice> defaultDevice;
 
-hr = CoCreateInstance(__uuidof(MMDeviceEnumerator), nullptr, CLSCTX_ALL, __uuidof(IMMDeviceEnumerator), (void**)&amp;deviceEnum);
-hr = deviceEnum->GetDefaultAudioEndpoint(EDataFlow::eRender, eMultimedia, &amp;defaultDevice);
+hr = CoCreateInstance(__uuidof(MMDeviceEnumerator), nullptr, CLSCTX_ALL, __uuidof(IMMDeviceEnumerator), (void**)&deviceEnum);
+hr = deviceEnum->GetDefaultAudioEndpoint(EDataFlow::eRender, eMultimedia, &defaultDevice);
 ```
 
 
@@ -521,21 +521,21 @@ Call [**ISpatialAudioClient::ActivateSpatialAudioStream**](/windows/desktop/api/
 ```C++
 // Activate ISpatialAudioClient on the desired audio-device 
 Microsoft::WRL::ComPtr<ISpatialAudioClient> spatialAudioClient;
-hr = defaultDevice->Activate(__uuidof(ISpatialAudioClient), CLSCTX_INPROC_SERVER, nullptr, (void**)&amp;spatialAudioClient);
+hr = defaultDevice->Activate(__uuidof(ISpatialAudioClient), CLSCTX_INPROC_SERVER, nullptr, (void**)&spatialAudioClient);
 
 Microsoft::WRL::ComPtr<ISpatialAudioObjectRenderStreamForHrtf>  spatialAudioStreamForHrtf;
 hr = spatialAudioClient->IsSpatialAudioStreamAvailable(__uuidof(spatialAudioStreamForHrtf), NULL);
 
-hr = spatialAudioClient->IsAudioObjectFormatSupported(&amp;format);
+hr = spatialAudioClient->IsAudioObjectFormatSupported(&format);
 
 // Create the event that will be used to signal the client for more data
 HANDLE bufferCompletionEvent = CreateEvent(nullptr, FALSE, FALSE, nullptr);
 
 UINT32 maxDynamicObjectCount;
-hr = spatialAudioClient->GetMaxDynamicObjectCount(&amp;maxDynamicObjectCount);
+hr = spatialAudioClient->GetMaxDynamicObjectCount(&maxDynamicObjectCount);
 
 SpatialAudioHrtfActivationParams streamParams;
-streamParams.ObjectFormat = &amp;format;
+streamParams.ObjectFormat = &format;
 streamParams.StaticObjectTypeMask = AudioObjectType_None;
 streamParams.MinDynamicObjectCount = 0;
 streamParams.MaxDynamicObjectCount = min(maxDynamicObjectCount, 4);
@@ -550,7 +550,7 @@ decayModel.MinGain = float(1.58439 * pow(10, -5));
 decayModel.Type = SpatialAudioHrtfDistanceDecayType::SpatialAudioHrtfDistanceDecay_NaturalDecay;
 decayModel.UnityGainDistance = 1;
 
-streamParams.DistanceDecay = &amp;decayModel;
+streamParams.DistanceDecay = &decayModel;
 
 SpatialAudioHrtfDirectivity directivity;
 directivity.Type = SpatialAudioHrtfDirectivityType::SpatialAudioHrtfDirectivity_Cone;
@@ -563,21 +563,21 @@ cone.OuterAngle = 0.2f;
 
 SpatialAudioHrtfDirectivityUnion directivityUnion;
 directivityUnion.Cone = cone;
-streamParams.Directivity = &amp;directivityUnion;
+streamParams.Directivity = &directivityUnion;
 
 SpatialAudioHrtfEnvironmentType environment = SpatialAudioHrtfEnvironmentType::SpatialAudioHrtfEnvironment_Large;
-streamParams.Environment = &amp;environment;
+streamParams.Environment = &environment;
 
 SpatialAudioHrtfOrientation orientation = { 1,0,0,0,1,0,0,0,1 }; // identity matrix
-streamParams.Orientation = &amp;orientation;
+streamParams.Orientation = &orientation;
 
 PROPVARIANT pv;
-PropVariantInit(&amp;pv);
+PropVariantInit(&pv);
 pv.vt = VT_BLOB;
 pv.blob.cbSize = sizeof(streamParams);
-pv.blob.pBlobData = (BYTE *)&amp;streamParams;
+pv.blob.pBlobData = (BYTE *)&streamParams;
 
-hr = spatialAudioClient->ActivateSpatialAudioStream(&amp;pv, __uuidof(spatialAudioStreamForHrtf), (void**)&amp;spatialAudioStreamForHrtf);
+hr = spatialAudioClient->ActivateSpatialAudioStream(&pv, __uuidof(spatialAudioStreamForHrtf), (void**)&spatialAudioStreamForHrtf);
 ```
 
 
@@ -631,17 +631,17 @@ do
     // Begin the process of sending object data and metadata
     // Get the number of active objects that can be used to send object-data
     // Get the frame count that each buffer will be filled with 
-    hr = spatialAudioStreamForHrtf->BeginUpdatingAudioObjects(&amp;availableDynamicObjectCount, &amp;frameCount);
+    hr = spatialAudioStreamForHrtf->BeginUpdatingAudioObjects(&availableDynamicObjectCount, &frameCount);
 
     BYTE* buffer;
     UINT32 bufferLength;
 
     // Spawn a new dynamic audio object every 200 iterations
-    if (spawnCounter % 200 == 0 &amp;&amp; spawnCounter < 1000)
+    if (spawnCounter % 200 == 0 && spawnCounter < 1000)
     {
         // Activate a new dynamic audio object
         Microsoft::WRL::ComPtr<ISpatialAudioObjectForHrtf> audioObject;
-        hr = spatialAudioStreamForHrtf->ActivateSpatialAudioObjectForHrtf(AudioObjectType::AudioObjectType_Dynamic, &amp;audioObject);
+        hr = spatialAudioStreamForHrtf->ActivateSpatialAudioObjectForHrtf(AudioObjectType::AudioObjectType_Dynamic, &audioObject);
 
         // If SPTLAUDCLNT_E_NO_MORE_OBJECTS is returned, there are no more available objects
         if (SUCCEEDED(hr))
@@ -665,7 +665,7 @@ do
     std::vector<My3dObjectForHrtf>::iterator it = objectVector.begin();
     while (it != objectVector.end())
     {
-        it->audioObject->GetBuffer(&amp;buffer, &amp;bufferLength);
+        it->audioObject->GetBuffer(&buffer, &bufferLength);
 
         if (it->totalFrameCount >= frameCount)
         {
@@ -682,7 +682,7 @@ do
             DirectX::XMFLOAT4X4 rotationMatrix;
 
             DirectX::XMMATRIX rotation = CalculateEmitterConeOrientationMatrix(emitterDirection, listenerDirection);
-            XMStoreFloat4x4(&amp;rotationMatrix, rotation);
+            XMStoreFloat4x4(&rotationMatrix, rotation);
 
             SpatialAudioHrtfOrientation orientation = {
                 rotationMatrix._11, rotationMatrix._12, rotationMatrix._13,
@@ -690,7 +690,7 @@ do
                 rotationMatrix._31, rotationMatrix._32, rotationMatrix._33
             };
 
-            it->audioObject->SetOrientation(&amp;orientation);
+            it->audioObject->SetOrientation(&orientation);
             it->yRotationRads += it->deltaYRotation;
 
             it->totalFrameCount -= frameCount;
@@ -744,8 +744,8 @@ The following code example shows the implementation of the **CalculateEmitterCon
 ```C++
 DirectX::XMMATRIX CalculateEmitterConeOrientationMatrix(Windows::Foundation::Numerics::float3 listenerOrientationFront, Windows::Foundation::Numerics::float3 emitterDirection)
 {
-    DirectX::XMVECTOR vListenerDirection = DirectX::XMLoadFloat3(&amp;listenerOrientationFront);
-    DirectX::XMVECTOR vEmitterDirection = DirectX::XMLoadFloat3(&amp;emitterDirection);
+    DirectX::XMVECTOR vListenerDirection = DirectX::XMLoadFloat3(&listenerOrientationFront);
+    DirectX::XMVECTOR vEmitterDirection = DirectX::XMLoadFloat3(&emitterDirection);
     DirectX::XMVECTOR vCross = DirectX::XMVector3Cross(vListenerDirection, vEmitterDirection);
     DirectX::XMVECTOR vDot = DirectX::XMVector3Dot(vListenerDirection, vEmitterDirection);
     DirectX::XMVECTOR vAngle = DirectX::XMVectorACos(vDot);
@@ -776,7 +776,7 @@ DirectX::XMMATRIX CalculateEmitterConeOrientationMatrix(Windows::Foundation::Num
             {
                 vector.z = -listenerOrientationFront.z;
             }
-            DirectX::XMVECTOR vVector = DirectX::XMLoadFloat3(&amp;vector);
+            DirectX::XMVECTOR vVector = DirectX::XMLoadFloat3(&vector);
             vVector = DirectX::XMVector3Normalize(vVector);
             vCross = DirectX::XMVector3Cross(vVector, vEmitterDirection);
             return DirectX::XMMatrixRotationAxis(vCross, angle);

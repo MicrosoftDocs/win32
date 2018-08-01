@@ -93,7 +93,7 @@ strComputer = "."
 strNameSpace = "root\cimv2" 
 strClass = "Win32_Service" 
   
-Const wbemFlagUseAmendedQualifiers = &amp;h20000 
+Const wbemFlagUseAmendedQualifiers = &h20000 
   
 Set objClass = GetObject("winmgmts:{impersonationLevel=impersonate}!\\" & _  
     strComputer & "\" & strNameSpace) 

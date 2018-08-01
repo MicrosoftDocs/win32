@@ -85,7 +85,7 @@ If a Command is exposed through a menu item and the value of **Command.LabelTitl
          Symbol="ID_FILE_NEW"
          Comment="New"
          Id="25001"
-         LabelTitle="&amp;amp;New"/>
+         LabelTitle="&amp;New"/>
 ```
 
 
@@ -98,7 +98,7 @@ To display an ampersand in a label, escape the special character designation wit
          Symbol="ID_FILE_OPEN"
          Comment="Open"
          Id="25002"
-         LabelTitle="&amp;amp;&amp;amp;Open"/>
+         LabelTitle="&amp;&amp;Open"/>
 ```
 
 
@@ -121,7 +121,7 @@ The following example demonstrates the markup for a [**Command**](windowsribbon-
       <String.Symbol>strSave</String.Symbol>
     </String>
   </Command.LabelTitle>
-  <Command.TooltipTitle>Tooltip title with &amp;amp;&amp;amp; for Save Command</Command.TooltipTitle>
+  <Command.TooltipTitle>Tooltip title with &amp;&amp; for Save Command</Command.TooltipTitle>
   <Command.TooltipDescription>Tooltip description for Save Command.</Command.TooltipDescription>
   <Command.Keytip>s1</Command.Keytip>
 </Command>

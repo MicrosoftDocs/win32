@@ -61,7 +61,7 @@ In this example, the [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/
                     m_pWICFactory,
                     L"BitmapMask",
                     L"Image",
-                    &amp;m_pBitmapMask
+                    &m_pBitmapMask
                     );
             }
 ```
@@ -85,7 +85,7 @@ The next example defines the brush, *m\_pFernBitmapBrush*, to which the opacity 
                 hr = m_pRenderTarget->CreateBitmapBrush(
                     m_pFernBitmap,
                     propertiesXClampYClamp,
-                    &amp;m_pFernBitmapBrush
+                    &m_pFernBitmapBrush
                     );
 ```
 
@@ -144,7 +144,7 @@ The next example sets the render target's antialiasing mode to [**D2D1\_ANTIALIA
             m_pBitmapMask,
             m_pFernBitmapBrush,
             D2D1_OPACITY_MASK_CONTENT_GRAPHICS,
-            &amp;rcBrushRect
+            &rcBrushRect
             );
         m_pRenderTarget-&gt;SetAntialiasMode(D2D1_ANTIALIAS_MODE_PER_PRIMITIVE);</code></pre></td>
 </tr>
@@ -185,7 +185,7 @@ The steps that follow describe how to re-create this effect.
                         m_pWICFactory,
                         L"LinearFadeFlowers",
                         L"Image",
-                        &amp;m_pLinearFadeFlowersBitmap
+                        &m_pLinearFadeFlowersBitmap
                         );
                 }
     ```
@@ -231,7 +231,7 @@ The steps that follow describe how to re-create this effect.
                         hr = m_pRenderTarget-&gt;CreateBitmapBrush(
                             m_pLinearFadeFlowersBitmap,
                             propertiesXClampYClamp,
-                            &amp;m_pLinearFadeFlowersBitmapBrush
+                            &m_pLinearFadeFlowersBitmapBrush
                             );
                     }</code></pre></td>
     </tr>
@@ -272,7 +272,7 @@ The steps that follow describe how to re-create this effect.
                     hr = m_pRenderTarget->CreateGradientStopCollection(
                         gradientStops,
                         2,
-                        &amp;pGradientStops);
+                        &pGradientStops);
 
 
                     if (SUCCEEDED(hr))
@@ -282,7 +282,7 @@ The steps that follow describe how to re-create this effect.
                                 D2D1::Point2F(0, 0),
                                 D2D1::Point2F(150, 150)),
                             pGradientStops,
-                            &amp;m_pLinearGradientBrush);
+                            &m_pLinearGradientBrush);
                     }
     ```
 
@@ -337,7 +337,7 @@ The first example creates an [**ID2D1BitmapBrush**](https://msdn.microsoft.com/e
                     m_pWICFactory,
                     L"RadialFadeFlowers",
                     L"Image",
-                    &amp;m_pRadialFadeFlowersBitmap
+                    &m_pRadialFadeFlowersBitmap
                     );
             }
 ```
@@ -385,7 +385,7 @@ The first example creates an [**ID2D1BitmapBrush**](https://msdn.microsoft.com/e
                     hr = m_pRenderTarget-&gt;CreateBitmapBrush(
                         m_pLinearFadeFlowersBitmap,
                         propertiesXClampYClamp,
-                        &amp;m_pLinearFadeFlowersBitmapBrush
+                        &m_pLinearFadeFlowersBitmapBrush
                         );
                 }</code></pre></td>
 </tr>
@@ -429,7 +429,7 @@ The next example defines the radial gradient brush that will be used as the opac
                 hr = m_pRenderTarget->CreateGradientStopCollection(
                     gradientStops,
                     2,
-                    &amp;pGradientStops);
+                    &pGradientStops);
 
 
 ```
@@ -456,7 +456,7 @@ The next example defines the radial gradient brush that will be used as the opac
                             75,
                             75),
                         pGradientStops,
-                        &amp;m_pRadialGradientBrush);
+                        &m_pRadialGradientBrush);
                 }
                 pGradientStops-&gt;Release();
             }</code></pre></td>
@@ -494,7 +494,7 @@ HRESULT DemoApp::RenderWithLayerWithOpacityMask(ID2D1RenderTarget *pRT)
 
     // Create a layer.
     ID2D1Layer *pLayer = NULL;
-    hr = pRT->CreateLayer(NULL, &amp;pLayer);
+    hr = pRT->CreateLayer(NULL, &pLayer);
 
     if (SUCCEEDED(hr))
     {
@@ -530,7 +530,7 @@ HRESULT DemoApp::RenderWithLayerWithOpacityMask(ID2D1RenderTarget *pRT)
  
         pRT->PopLayer();
     }
-    SafeRelease(&amp;pLayer);
+    SafeRelease(&pLayer);
    
     return hr;
     

@@ -39,8 +39,8 @@ case WM_COMMAND:
     // Retrieve the application's client rectangle and paint  
     // with the default (white) brush.  
  
-    GetClientRect(hwnd, &amp;rctTmp); 
-    FillRect(hdc, &amp;rctTmp, GetStockObject(WHITE_BRUSH)); 
+    GetClientRect(hwnd, &rctTmp); 
+    FillRect(hdc, &rctTmp, GetStockObject(WHITE_BRUSH)); 
  
     // Use the rect coordinates to define a clipping region.  
  

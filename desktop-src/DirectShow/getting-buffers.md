@@ -21,7 +21,7 @@ HRESULT CMyInputAllocator::GetBuffer(
     REFERENCE_TIME *pEndTime,
     DWORD dwFlags)
 {
-    CAutoLock cObjectLock(&amp;m_csReceive);
+    CAutoLock cObjectLock(&m_csReceive);
 
     /* Use resources. */
 

@@ -19,16 +19,16 @@ The follow example checks whether the graph supports seeking by frame number. If
 
 
 ```C++
-hr = pSeek->IsFormatSupported(&amp;TIME_FORMAT_FRAME);
+hr = pSeek->IsFormatSupported(&TIME_FORMAT_FRAME);
 if (hr == S_OK)
 {
-    hr = pSeek->SetTimeFormat(&amp;TIME_FORMAT_FRAME);
+    hr = pSeek->SetTimeFormat(&TIME_FORMAT_FRAME);
     if (SUCCEEDED(hr))
     {
         // Seek to frame number 20.
         LONGLONG rtNow = 20;
         hr = pSeek->SetPositions(
-            &amp;rtNow, AM_SEEKING_AbsolutePositioning, 
+            &rtNow, AM_SEEKING_AbsolutePositioning, 
             0, AM_SEEKING_NoPositioning);
     }
 }

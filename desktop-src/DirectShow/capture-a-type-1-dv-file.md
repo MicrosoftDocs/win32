@@ -34,15 +34,15 @@ IBaseFilter           *pAviMux    // Avi Mux filter.
 // Create and initialize the Capture Graph Builder (not shown).
 
 // Create the file-writing section of the graph.
-hr = pBuilder->SetOutputFileName(&amp;MEDIASUBTYPE_Avi, 
-    OLESTR("C:\\Example1.avi"), &amp;pAviMux, 0);
+hr = pBuilder->SetOutputFileName(&MEDIASUBTYPE_Avi, 
+    OLESTR("C:\\Example1.avi"), &pAviMux, 0);
 
 // Render the capture stream.
-hr = pBuilder->RenderStream(&amp;PIN_CATEGORY_CAPTURE, &amp;MEDIATYPE_Interleaved, 
+hr = pBuilder->RenderStream(&PIN_CATEGORY_CAPTURE, &MEDIATYPE_Interleaved, 
     pDV, 0, pAviMux);
 
 // Render the preview stream.
-hr = pBuilder->RenderStream(&amp;PIN_CATEGORY_PREVIEW, &amp;MEDIATYPE_Interleaved,
+hr = pBuilder->RenderStream(&PIN_CATEGORY_PREVIEW, &MEDIATYPE_Interleaved,
     pDV, 0, 0);
 
 // Remember to release all interfaces.

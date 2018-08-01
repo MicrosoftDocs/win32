@@ -55,7 +55,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -63,7 +63,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -100,7 +100,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -112,7 +112,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         WS_HTTP_CHANNEL_BINDING, 
         NULL, 0, 
         NULL, 
-        &amp;listener, 
+        &listener, 
         error);
     if (FAILED(hr))
     {
@@ -122,7 +122,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // Open listener 
     hr = WsOpenListener(
         listener, 
-        &amp;uri, 
+        &uri, 
         NULL, 
         error);
     if (FAILED(hr))
@@ -134,15 +134,15 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     WS_TRANSFER_MODE transferMode = WS_STREAMED_TRANSFER_MODE;
     WS_CHANNEL_PROPERTY transferModeProperty;
     transferModeProperty.id = WS_CHANNEL_PROPERTY_TRANSFER_MODE;
-    transferModeProperty.value = &amp;transferMode;
+    transferModeProperty.value = &transferMode;
     transferModeProperty.valueSize = sizeof(transferMode);
     
     // Create a channel suitable for accepting from the listener
     hr = WsCreateChannelForListener(
         listener, 
-        &amp;transferModeProperty, 
+        &transferModeProperty, 
         1, 
-        &amp;channel, 
+        &channel, 
         error);
     if (FAILED(hr))
     {
@@ -153,7 +153,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         channel,
         NULL, 
         0, 
-        &amp;requestMessage, 
+        &requestMessage, 
         error);
     if (FAILED(hr))
     {
@@ -164,7 +164,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         channel,
         NULL, 
         0, 
-        &amp;replyMessage, 
+        &replyMessage, 
         error);
     if (FAILED(hr))
     {
@@ -177,7 +177,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -237,7 +237,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
                 WS_ACTION_HEADER, 
                 WS_XML_STRING_TYPE,
                 WS_READ_REQUIRED_VALUE, NULL, 
-                &amp;receivedAction, 
+                &receivedAction, 
                 sizeof(receivedAction), 
                 error);
         if (FAILED(hr))
@@ -246,7 +246,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         }
             // Make sure action is what we expect
             hr = WsXmlStringEquals(
-                    &amp;receivedAction, 
+                    &receivedAction, 
                     PurchaseOrder_wsdl.messages.PurchaseOrder.action, 
                     error);
         
@@ -296,10 +296,10 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
                 _PurchaseOrderType* purchaseOrder;
                 hr = WsReadBody(
                     requestMessage, 
-                    &amp;PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
+                    &PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
                     WS_READ_OPTIONAL_POINTER, 
                     heap, 
-                    &amp;purchaseOrder, 
+                    &purchaseOrder, 
                     sizeof(purchaseOrder), 
                     error);
         if (FAILED(hr))
@@ -326,9 +326,9 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         
                 hr = WsWriteBody(
                     replyMessage, 
-                    &amp;PurchaseOrder_wsdl.globalElements.OrderConfirmationType, 
+                    &PurchaseOrder_wsdl.globalElements.OrderConfirmationType, 
                     WS_WRITE_REQUIRED_VALUE,
-                    &amp;orderConfirmation, 
+                    &orderConfirmation, 
                     sizeof(orderConfirmation),
                     error);
         if (FAILED(hr))

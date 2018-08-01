@@ -64,12 +64,12 @@ The following code example shows how to use this function:
 {
     CCritSec MyLock;  // Critical section is not locked yet.
     
-    ASSERT(CritCheckIn(&amp;MyLock)); // This assert will fire.
+    ASSERT(CritCheckIn(&MyLock)); // This assert will fire.
 
     // Lock the critical section.    
-    CAutoLock cObjectLock(&amp;MyLock);
+    CAutoLock cObjectLock(&MyLock);
      
-    ASSERT(CritCheckIn(&amp;MyLock)); // This assert will not fire.
+    ASSERT(CritCheckIn(&MyLock)); // This assert will not fire.
 
 } // Lock goes out of scope here.
 ```

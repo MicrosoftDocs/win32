@@ -46,7 +46,7 @@ BOOL IsTransformD3DAware(IMFTransform *pMFT)
     
     IMFAttributes *pAttributes = NULL;
 
-    HRESULT hr = pMFT->GetAttributes(&amp;pAttributes);
+    HRESULT hr = pMFT->GetAttributes(&pAttributes);
     if (SUCCEEDED(hr))
     {
         bD3DAware = MFGetAttributeUINT32(pAttributes, MF_SA_D3D_AWARE, FALSE);

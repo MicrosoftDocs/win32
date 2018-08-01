@@ -431,7 +431,7 @@ namespace HyperVSamples
 
         public static void Main(string[] args)
         {
-            if (args != null &amp;&amp; args.Length != 2)
+            if (args != null && args.Length != 2)
             {
                 Console.WriteLine("Usage: <application> vmName action");
                 Console.WriteLine("action: start|stop");

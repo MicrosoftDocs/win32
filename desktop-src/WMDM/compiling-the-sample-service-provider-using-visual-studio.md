@@ -89,7 +89,7 @@ The Windows Media Format SDK does not include a Visual Studio solution file. How
             <Tool
                 Name="VCPostBuildEventTool"
                 Description="Performing registration"
-                CommandLine="regsvr32 /s /c &amp;quot;$(TargetPath)&amp;quot;"/>
+                CommandLine="regsvr32 /s /c &quot;$(TargetPath)&quot;"/>
             <Tool
                 Name="VCPreBuildEventTool"/>
             <Tool
@@ -154,7 +154,7 @@ The Windows Media Format SDK does not include a Visual Studio solution file. How
             <Tool
                 Name="VCPostBuildEventTool"
                 Description="Performing registration"
-                CommandLine="regsvr32 /s /c &amp;quot;$(TargetPath)&amp;quot;"/>
+                CommandLine="regsvr32 /s /c &quot;$(TargetPath)&quot;"/>
             <Tool
                 Name="VCPreBuildEventTool"/>
             <Tool

@@ -105,7 +105,7 @@ SimpleVertexCombined verticesCombo[] =
     InitData.pSysMem = verticesCombo;
     InitData.SysMemPitch = 0;
     InitData.SysMemSlicePitch = 0;
-    hr = g_pd3dDevice->CreateBuffer( &amp;bufferDesc, &amp;InitData, &amp;g_pVertexBuffer[0] );
+    hr = g_pd3dDevice->CreateBuffer( &bufferDesc, &InitData, &g_pVertexBuffer[0] );
 ```
 
 
@@ -134,7 +134,7 @@ ID3D10Buffer *g_pIndexBuffer = NULL;
     InitData.pSysMem = indices;
     InitData.SysMemPitch = 0;
     InitData.SysMemSlicePitch = 0;
-    hr = g_pd3dDevice->CreateBuffer( &amp;bufferDesc, &amp;InitData, &amp;g_pIndexBuffer );
+    hr = g_pd3dDevice->CreateBuffer( &bufferDesc, &InitData, &g_pIndexBuffer );
     if( FAILED( hr ) )
         return hr;
   
@@ -168,7 +168,7 @@ struct VS_CONSTANT_BUFFER
     cbDesc.BindFlags = D3D10_BIND_CONSTANT_BUFFER;
     cbDesc.CPUAccessFlags = D3D10_CPU_ACCESS_WRITE;
     cbDesc.MiscFlags = 0;
-    hr = g_pd3dDevice->CreateBuffer( &amp;cbDesc, NULL, &amp;g_pConstantBuffer10 );
+    hr = g_pd3dDevice->CreateBuffer( &cbDesc, NULL, &g_pConstantBuffer10 );
     if( FAILED( hr ) )
        return hr;
 

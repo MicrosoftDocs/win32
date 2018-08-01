@@ -72,11 +72,11 @@ HRESULT FindMatchingMedium(
     KSMULTIPLE_ITEM *pmi;
 
     *pfMatch = false;
-    HRESULT hr = pPin->QueryInterface(IID_IKsPin, (void **)&amp;pKsPin);
+    HRESULT hr = pPin->QueryInterface(IID_IKsPin, (void **)&pKsPin);
     if (FAILED(hr)) 
         return hr;  // Pin does not support IKsPin.
 
-    hr = pKsPin->KsQueryMediums(&amp;pmi);
+    hr = pKsPin->KsQueryMediums(&pmi);
     pKsPin->Release();
     if (FAILED(hr))
         return hr;  // Pin does not support mediums.

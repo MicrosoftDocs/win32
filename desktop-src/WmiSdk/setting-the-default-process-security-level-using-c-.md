@@ -95,7 +95,7 @@ The following code example shows how to change the authentication credentials.
 ```C++
 // Auth Identity structure
 SEC_WINNT_AUTH_IDENTITY_W        authidentity;
-SecureZeroMemory( &amp;authidentity, sizeof(authidentity) );
+SecureZeroMemory( &authidentity, sizeof(authidentity) );
 
 authidentity.User = L"MyUser";
 authidentity.UserLength = wcslen( authidentity.User );
@@ -110,12 +110,12 @@ SecureZeroMemory( authninfo, sizeof(SOLE_AUTHENTICATION_INFO)*2 );
 // NTLM Settings
 authninfo[0].dwAuthnSvc = RPC_C_AUTHN_WINNT;
 authninfo[0].dwAuthzSvc = RPC_C_AUTHZ_NONE;
-authninfo[0].pAuthInfo = &amp;authidentity;
+authninfo[0].pAuthInfo = &authidentity;
 
 // Kerberos Settings
 authninfo[1].dwAuthnSvc = RPC_C_AUTHN_GSS_KERBEROS ;
 authninfo[1].dwAuthzSvc = RPC_C_AUTHZ_NONE;
-authninfo[1].pAuthInfo = &amp;authidentity;
+authninfo[1].pAuthInfo = &authidentity;
 
 SOLE_AUTHENTICATION_LIST    authentlist;
 
@@ -129,7 +129,7 @@ CoInitializeSecurity(
   NULL, 
   RPC_C_AUTHN_LEVEL_CALL, 
   RPC_C_IMP_LEVEL_IMPERSONATE,
-  &amp;authentlist, 
+  &authentlist, 
   EOAC_NONE,
   NULL);
 ```

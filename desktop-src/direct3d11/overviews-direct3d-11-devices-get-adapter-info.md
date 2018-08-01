@@ -21,7 +21,7 @@ This topic shows how to use Microsoft DirectX Graphics Infrastructure (DXGI) to 
     IDXGIOutput* pOutput = NULL; 
     HRESULT hr;
 
-    hr = pAdapter->EnumOutputs(0,&amp;pOutput);
+    hr = pAdapter->EnumOutputs(0,&pOutput);
     ```
 
     
@@ -33,12 +33,12 @@ This topic shows how to use Microsoft DirectX Graphics Infrastructure (DXGI) to 
     DXGI_FORMAT format = DXGI_FORMAT_R32G32B32A32_FLOAT;
 
         // Get the number of elements
-        hr = pOutput->GetDisplayModeList( format, 0, &amp;numModes, NULL);
+        hr = pOutput->GetDisplayModeList( format, 0, &numModes, NULL);
 
         displayModes = new DXGI_MODE_DESC[numModes]; 
 
         // Get the list
-        hr = pOutput->GetDisplayModeList( format, 0, &amp;numModes, displayModes);
+        hr = pOutput->GetDisplayModeList( format, 0, &numModes, displayModes);
     ```
 
     

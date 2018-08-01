@@ -79,7 +79,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -87,7 +87,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -114,19 +114,19 @@ HRESULT CALLBACK AuthorizationCallback(const WS_OPERATION_CONTEXT* context, BOOL
     WS_STRING usernameIdentity = {};
     *authorized = FALSE;
     
-    hr = WsGetOperationContextProperty(context, WS_OPERATION_CONTEXT_PROPERTY_INPUT_MESSAGE, &amp;message, sizeof(message), error);
+    hr = WsGetOperationContextProperty(context, WS_OPERATION_CONTEXT_PROPERTY_INPUT_MESSAGE, &message, sizeof(message), error);
     if (FAILED(hr))
     {
         return hr;
     }
     
-    hr = WsGetMessageProperty(message, WS_MESSAGE_PROPERTY_USERNAME, &amp;usernameIdentity, sizeof(usernameIdentity), error);
+    hr = WsGetMessageProperty(message, WS_MESSAGE_PROPERTY_USERNAME, &usernameIdentity, sizeof(usernameIdentity), error);
     if (FAILED(hr))
     {
         return hr;
     }
         
-    *authorized = CompareWsString(&amp;usernameIdentity, &amp;fixedUsername);
+    *authorized = CompareWsString(&usernameIdentity, &fixedUsername);
     return NOERROR;
 }
 
@@ -147,11 +147,11 @@ static HRESULT CALLBACK MyPasswordValidator(
 
     if (CompareWsString(
             username, 
-            &amp;fixedUsername) 
-        &amp;&amp; 
+            &fixedUsername) 
+        && 
         CompareWsString(
             password, 
-            &amp;fixedPassword))
+            &fixedPassword))
     {
         return S_OK;
     }
@@ -187,7 +187,7 @@ HRESULT CALLBACK PurchaseOrderImpl(
     hr = WsGetOperationContextProperty(
         context, 
         WS_OPERATION_CONTEXT_PROPERTY_HEAP, 
-        &amp;heap, 
+        &heap, 
         sizeof(heap), 
         error);
 if (FAILED(hr))
@@ -198,7 +198,7 @@ if (FAILED(hr))
     hr = WsAlloc(
         heap, 
         sizeof(ExpectedShipDate), 
-        (void**)&amp;expectedShipDate->chars, 
+        (void**)&expectedShipDate->chars, 
         error);
 if (FAILED(hr))
 {
@@ -245,15 +245,15 @@ HRESULT CALLBACK GetOrderStatusImpl(
         WS_XML_STRING _faultDetailName = WS_XML_STRING_VALUE("OrderNotFound");
         WS_XML_STRING _faultDetailNs = WS_XML_STRING_VALUE("http://example.com");
         WS_XML_STRING _faultAction = WS_XML_STRING_VALUE("http://example.com/fault");
-        WS_ELEMENT_DESCRIPTION _faultElementDescription = { &amp;_faultDetailName, &amp;_faultDetailNs, WS_UINT32_TYPE, NULL };
-        WS_FAULT_DETAIL_DESCRIPTION orderNotFoundFaultTypeDescription = { &amp;_faultAction, &amp;_faultElementDescription };
+        WS_ELEMENT_DESCRIPTION _faultElementDescription = { &_faultDetailName, &_faultDetailNs, WS_UINT32_TYPE, NULL };
+        WS_FAULT_DETAIL_DESCRIPTION orderNotFoundFaultTypeDescription = { &_faultAction, &_faultElementDescription };
         
         // Set fault detail information in the error object
         hr = WsSetFaultErrorDetail(
             error,
-            &amp;orderNotFoundFaultTypeDescription,
+            &orderNotFoundFaultTypeDescription,
             WS_WRITE_REQUIRED_VALUE,
-            &amp;orderNotFound,
+            &orderNotFound,
             sizeof(orderNotFound));
         
         if (FAILED(hr))
@@ -264,7 +264,7 @@ HRESULT CALLBACK GetOrderStatusImpl(
         // Add an error string to the error object.  This string will
         // be included in the fault that is sent.
         WS_STRING errorMessage = WS_STRING_VALUE(L"Invalid order ID");
-        hr = WsAddErrorString(error, &amp;errorMessage);
+        hr = WsAddErrorString(error, &errorMessage);
         
         if (FAILED(hr))
         {
@@ -280,7 +280,7 @@ HRESULT CALLBACK GetOrderStatusImpl(
     hr = WsGetOperationContextProperty(
         context, 
         WS_OPERATION_CONTEXT_PROPERTY_HEAP, 
-        &amp;heap, 
+        &heap, 
         sizeof(heap), 
         error);
 if (FAILED(hr))
@@ -291,7 +291,7 @@ if (FAILED(hr))
     hr = WsAlloc(
         heap, 
         sizeof(OrderStatusString), 
-        (void**)&amp;status->chars, 
+        (void**)&status->chars, 
         error);
 if (FAILED(hr))
 {
@@ -318,7 +318,7 @@ HRESULT CALLBACK CloseChannelCallback(const WS_OPERATION_CONTEXT* context, const
     UNREFERENCED_PARAMETER(asyncContext);
 
     ULONG orderCount = InterlockedIncrement(
-        &amp;numberOfOrders);
+        &numberOfOrders);
     if (orderCount == 300)
     {
         SetEvent(closeServer);
@@ -331,9 +331,9 @@ static const PurchaseOrderBindingFunctionTable purchaseOrderFunctions = {Purchas
 // Method contract for the service
 static const WS_SERVICE_CONTRACT purchaseOrderContract = 
 {
-    &amp;PurchaseOrder_wsdl.contracts.PurchaseOrderBinding, // comes from the generated header.
+    &PurchaseOrder_wsdl.contracts.PurchaseOrderBinding, // comes from the generated header.
     NULL, // for not specifying the default contract
-    &amp;purchaseOrderFunctions // specified by the user
+    &purchaseOrderFunctions // specified by the user
 };
 
 
@@ -347,7 +347,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     WS_SERVICE_HOST* host = NULL;
     WS_SERVICE_ENDPOINT serviceEndpoint = {};
     const WS_SERVICE_ENDPOINT* serviceEndpoints[1];
-    serviceEndpoints[0] = &amp;serviceEndpoint;
+    serviceEndpoints[0] = &serviceEndpoint;
     WS_ERROR* error = NULL;
     
     // declare and initialize a username message security binding
@@ -363,7 +363,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // registered with http.sys using a tool such as httpcfg.exe.
     
     // declare and initialize the array of all security bindings
-    WS_SECURITY_BINDING* securityBindings[2] = { &amp;sslBinding.binding, &amp;usernameBinding.binding };
+    WS_SECURITY_BINDING* securityBindings[2] = { &sslBinding.binding, &usernameBinding.binding };
     
     // declare and initialize the security description
     WS_SECURITY_DESCRIPTION securityDescription = {}; // zero out the struct
@@ -372,7 +372,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     WS_SERVICE_ENDPOINT_PROPERTY serviceProperties[1];
     WS_SERVICE_PROPERTY_CLOSE_CALLBACK closeCallbackProperty = {CloseChannelCallback};
     serviceProperties[0].id = WS_SERVICE_ENDPOINT_PROPERTY_CLOSE_CHANNEL_CALLBACK;
-    serviceProperties[0].value = &amp;closeCallbackProperty;
+    serviceProperties[0].value = &closeCallbackProperty;
     serviceProperties[0].valueSize = sizeof(closeCallbackProperty);
     
     
@@ -381,8 +381,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     serviceEndpoint.address.url.length = (ULONG)wcslen(serviceEndpoint.address.url.chars);
     serviceEndpoint.channelBinding = WS_HTTP_CHANNEL_BINDING; // channel binding for the endpoint
     serviceEndpoint.channelType = WS_CHANNEL_TYPE_REPLY; // the channel type
-    serviceEndpoint.securityDescription = &amp;securityDescription; // security description
-    serviceEndpoint.contract = &amp;purchaseOrderContract;  // the contract
+    serviceEndpoint.securityDescription = &securityDescription; // security description
+    serviceEndpoint.contract = &purchaseOrderContract;  // the contract
     serviceEndpoint.properties = serviceProperties;
     serviceEndpoint.propertyCount = WsCountOf(serviceProperties);
     serviceEndpoint.authorizationCallback = AuthorizationCallback;
@@ -391,7 +391,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -413,7 +413,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         1, 
         NULL, 
         0, 
-        &amp;host, 
+        &host, 
         error);
     if (FAILED(hr))
     {

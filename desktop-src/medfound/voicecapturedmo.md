@@ -114,7 +114,7 @@ mt.bTemporalCompression = FALSE;
 mt.formattype = FORMAT_WaveFormatEx;
 
 // Allocate the format block to hold the WAVEFORMATEX structure.
-hr = MoInitMediaType(&amp;mt, sizeof(WAVEFORMATEX));
+hr = MoInitMediaType(&mt, sizeof(WAVEFORMATEX));
 if (SUCCEEDED(hr))
 {
     WAVEFORMATEX *pwav = (WAVEFORMATEX*)mt.pbFormat;
@@ -129,10 +129,10 @@ if (SUCCEEDED(hr))
     // Set the output type.
     if (SUCCEEDED(hr))
     {
-        hr = pDMO->SetOutputType(0, &amp;mt, 0); 
+        hr = pDMO->SetOutputType(0, &mt, 0); 
     }
     // Free the format block.
-    MoFreeMediaType(&amp;mt);
+    MoFreeMediaType(&mt);
 }
 ```
 

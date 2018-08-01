@@ -66,7 +66,7 @@ BOOL FillRichEditFromFile(HWND hwnd, LPCTSTR pszFile)
         es.pfnCallback = EditStreamCallback;
         es.dwCookie    = (DWORD_PTR)hFile;
         
-        if (SendMessage(hwnd, EM_STREAMIN, SF_RTF, (LPARAM)&amp;es) &amp;&amp; es.dwError == 0) 
+        if (SendMessage(hwnd, EM_STREAMIN, SF_RTF, (LPARAM)&es) && es.dwError == 0) 
         {
                 fSuccess = TRUE;
         }

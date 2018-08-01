@@ -200,36 +200,36 @@ LONG FindRichText (
         return E_INVALIDARG;
 
     // Initialize range and font objects used in search
-    if ((*ppr)->GetDuplicate(&amp;pr2)    != NOERROR ||
-        pr1->GetDuplicate(&amp;prip1)     != NOERROR ||
-        pr2->GetDuplicate(&amp;prip2)     != NOERROR ||
-        prip1->GetFont(&amp;pf1)          != NOERROR ||
-        prip2->GetFont(&amp;pf2)          != NOERROR ||
-        pr1->GetText(&amp;bstr)           != NOERROR )
+    if ((*ppr)->GetDuplicate(&pr2)    != NOERROR ||
+        pr1->GetDuplicate(&prip1)     != NOERROR ||
+        pr2->GetDuplicate(&prip2)     != NOERROR ||
+        prip1->GetFont(&pf1)          != NOERROR ||
+        prip2->GetFont(&pf2)          != NOERROR ||
+        pr1->GetText(&bstr)           != NOERROR )
     {
         return E_OUTOFMEMORY;
     }
 
-    pr1->GetStart(&amp;cpFirst1);
+    pr1->GetStart(&cpFirst1);
 
     // Keep searching till rich text is matched or no more plain-text hits
-    while(!cchMatch &amp;&amp; pr2->FindText(bstr, tomForward, 0, &amp;cch) == NOERROR)
+    while(!cchMatch && pr2->FindText(bstr, tomForward, 0, &cch) == NOERROR)
     {
-        pr2->GetStart(&amp;cpFirst2);                 // pr2 is a new trial range
+        pr2->GetStart(&cpFirst2);                 // pr2 is a new trial range
         prip1->SetRange(cpFirst1, cpFirst1);      // Set up IPs to scan match
         prip2->SetRange(cpFirst2, cpFirst2);      //  and trial ranges
 
-        while(cch > 0 &amp;&amp;
+        while(cch > 0 &&
             pf1->IsEqual(pf2, NULL) == NOERROR)   // Walk match & trial ranges
         {                                         //  together comparing font
-            prip1->GetStart(&amp;cch1);               //  properties
+            prip1->GetStart(&cch1);               //  properties
             prip1->Move(tomCharFormat, 1, NULL);
-            prip1->GetStart(&amp;cp);
+            prip1->GetStart(&cp);
             cch1 = cp - cch1;                     // cch of next match font run
 
-            prip2->GetStart(&amp;cch2);
+            prip2->GetStart(&cch2);
             prip2->Move(tomCharFormat, 1, NULL);
-            prip2->GetStart(&amp;cp);
+            prip2->GetStart(&cp);
             cch2 = cp - cch2;                      // cch of next trial font run
 
             if(cch1 < cch)                         // There is more to compare
@@ -243,7 +243,7 @@ LONG FindRichText (
 
             else                                   // Both match and trial runs
             {                                      //  reach at least to match
-                pr2->GetEnd(&amp;cp);                  //  text end: rich-text match
+                pr2->GetEnd(&cp);                  //  text end: rich-text match
                 (*ppr)->SetRange(cpFirst2, cp)     // Set input range to hit
                 cchMatch = cp - cpFirst2;          //  coordinates and return
                 break;                             //  length of matched string
@@ -295,14 +295,14 @@ if (FAILED(hr))
     // TODO: write error handler
     //
 }
-CreateFileMoniker(szBuf, &amp;pmk);
-OleStdRegisterAsRunning(this, pmk, &amp;_dwROTcookie);
+CreateFileMoniker(szBuf, &pmk);
+OleStdRegisterAsRunning(this, pmk, &_dwROTcookie);
 ....................
  
 // Accessibility Client: 
 //    Find hwnd for window pointed to by mouse cursor.
 
-GetCursorPos(&amp;pt);
+GetCursorPos(&pt);
 hwnd = WindowFromPoint(pt);
 
 // Look in ROT (running object table) for an object attached to hwnd
@@ -314,14 +314,14 @@ if (FAILED(hr))
     // TODO: write error handler
     //
 }
-CreateFileMoniker(szBuf, &amp;pmk);
-CreateBindContext(0, &amp;pbc);
-pmk->BindToObject(pbc, NULL, IID_ITextDocument, &amp;pDoc);
+CreateFileMoniker(szBuf, &pmk);
+CreateBindContext(0, &pbc);
+pmk->BindToObject(pbc, NULL, IID_ITextDocument, &pDoc);
 pbc->Release();
 
 if( pDoc )
 {
-    pDoc->RangeFromPoint(pt.x, pt.y, &amp;pRange);
+    pDoc->RangeFromPoint(pt.x, pt.y, &pRange);
     // ...now do whatever with the range pRange
 }
 ```
@@ -342,13 +342,13 @@ The [**EM\_GETOLEINTERFACE**](em-getoleinterface.md) message provides another wa
     POINT    pt;
     IUnknown *pUnk = NULL;
     
-    GetCursorPos(&amp;pt);
+    GetCursorPos(&pt);
     hwnd = WindowFromPoint(pt);
-    SendMessage(hwnd, EM_GETOLEINTERFACE, 0, (LPARAM)&amp;pUnk);
-    if(pUnk &amp;&amp; 
-        pUnk->QueryInterface(IID_ITextDocument, &amp;pDoc) == NOERROR)
+    SendMessage(hwnd, EM_GETOLEINTERFACE, 0, (LPARAM)&pUnk);
+    if(pUnk && 
+        pUnk->QueryInterface(IID_ITextDocument, &pDoc) == NOERROR)
     {
-        pDoc->RangeFromPoint(pt.x, pt.y, &amp;pRange);
+        pDoc->RangeFromPoint(pt.x, pt.y, &pRange);
         //  ... continue with rest of program
     }
 ```

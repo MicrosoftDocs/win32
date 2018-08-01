@@ -82,25 +82,25 @@ public:
     operator CONST FLOAT* () const;
 
     // assignment operators
-    D3DXVECTOR2&amp; operator += ( CONST D3DXVECTOR2&amp; );
-    D3DXVECTOR2&amp; operator -= ( CONST D3DXVECTOR2&amp; );
-    D3DXVECTOR2&amp; operator *= ( FLOAT );
-    D3DXVECTOR2&amp; operator /= ( FLOAT );
+    D3DXVECTOR2& operator += ( CONST D3DXVECTOR2& );
+    D3DXVECTOR2& operator -= ( CONST D3DXVECTOR2& );
+    D3DXVECTOR2& operator *= ( FLOAT );
+    D3DXVECTOR2& operator /= ( FLOAT );
 
     // unary operators
     D3DXVECTOR2 operator + () const;
     D3DXVECTOR2 operator - () const;
 
     // binary operators
-    D3DXVECTOR2 operator + ( CONST D3DXVECTOR2&amp; ) const;
-    D3DXVECTOR2 operator - ( CONST D3DXVECTOR2&amp; ) const;
+    D3DXVECTOR2 operator + ( CONST D3DXVECTOR2& ) const;
+    D3DXVECTOR2 operator - ( CONST D3DXVECTOR2& ) const;
     D3DXVECTOR2 operator * ( FLOAT ) const;
     D3DXVECTOR2 operator / ( FLOAT ) const;
 
-    friend D3DXVECTOR2 operator * ( FLOAT, CONST D3DXVECTOR2&amp; );
+    friend D3DXVECTOR2 operator * ( FLOAT, CONST D3DXVECTOR2& );
 
-    BOOL operator == ( CONST D3DXVECTOR2&amp; ) const;
-    BOOL operator != ( CONST D3DXVECTOR2&amp; ) const;
+    BOOL operator == ( CONST D3DXVECTOR2& ) const;
+    BOOL operator != ( CONST D3DXVECTOR2& ) const;
 
 
 public:

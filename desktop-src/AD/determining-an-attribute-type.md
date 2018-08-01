@@ -32,7 +32,7 @@ It is possible to construct a query string that can be used to query for constru
 
 
 ```C++
-(&amp;(objectCategory=attributeSchema)(systemFlags:1.2.840.113556.1.4.804:=1))
+(&(objectCategory=attributeSchema)(systemFlags:1.2.840.113556.1.4.804:=1))
 ```
 
 
@@ -41,7 +41,7 @@ The [**searchFlags**](https://msdn.microsoft.com/library/ms679765) attribute of 
 
 
 ```C++
-(&amp;(objectCategory=attributeSchema)(searchFlags=1))
+(&(objectCategory=attributeSchema)(searchFlags=1))
 ```
 
 
@@ -50,7 +50,7 @@ The [**isMemberOfPartialAttributeSet**](https://msdn.microsoft.com/library/ms676
 
 
 ```C++
-(&amp;(objectCategory=attributeSchema)(isMemberOfPartialAttributeSet=TRUE))
+(&(objectCategory=attributeSchema)(isMemberOfPartialAttributeSet=TRUE))
 ```
 
 

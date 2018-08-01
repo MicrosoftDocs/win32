@@ -62,7 +62,7 @@ void main(void)
     //---------------------------------------------------------------
     // Get a handle to the default PROV_RSA_FULL provider.
     if(CryptAcquireContext(
-        &amp;hCryptProv, 
+        &hCryptProv, 
         NULL, 
         NULL, 
         PROV_RSA_FULL, 
@@ -76,7 +76,7 @@ void main(void)
         {
             // No default container was found. Attempt to create it.
             if(CryptAcquireContext(
-                &amp;hCryptProv, 
+                &hCryptProv, 
                 NULL, 
                 NULL, 
                 PROV_RSA_FULL, 
@@ -107,7 +107,7 @@ void main(void)
         hCryptProv, 
         PP_NAME, 
         (BYTE*)pszName, 
-        &amp;cbName, 
+        &cbName, 
         0))
     {
         _tprintf(TEXT("CryptGetProvParam succeeded.\n"));
@@ -125,7 +125,7 @@ void main(void)
         hCryptProv, 
         PP_CONTAINER, 
         (BYTE*)pszName, 
-        &amp;cbName, 
+        &cbName, 
         0))
     {
         _tprintf(TEXT("CryptGetProvParam succeeded.\n"));
@@ -195,7 +195,7 @@ void main(void)
 
     hCryptProv = NULL;
     if(CryptAcquireContext(
-        &amp;hCryptProv, 
+        &hCryptProv, 
         pszContainerName,
         NULL, 
         PROV_RSA_FULL, 
@@ -242,7 +242,7 @@ void main(void)
     // Note: This key container will be empty until keys
     // are explicitly created by using the CryptGenKey function.
     if(CryptAcquireContext(
-        &amp;hCryptProv, 
+        &hCryptProv, 
         pszContainerName, 
         NULL, 
         PROV_RSA_FULL,
@@ -274,7 +274,7 @@ void main(void)
     //---------------------------------------------------------------
     // Delete the new key container.
     if(CryptAcquireContext(
-        &amp;hCryptProv, 
+        &hCryptProv, 
         pszContainerName, 
         NULL, 
         PROV_RSA_FULL,

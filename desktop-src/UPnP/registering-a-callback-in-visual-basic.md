@@ -35,7 +35,7 @@ Adding a callback in Visual Basic is different from the method used in VBScript.
     Error:
         With Err
             If .Number > 0 Then
-                eventHandler = .Number Or &amp;H800A0000
+                eventHandler = .Number Or &H800A0000
             Else
                 eventHandler = .Number
             End If

@@ -27,7 +27,7 @@ The following code example shows how to change the **ADS\_UF\_PASSWD\_CANT\_CHAN
 
 
 ```VB
-Const ADS_UF_PASSWD_CANT_CHANGE = &amp;H40
+Const ADS_UF_PASSWD_CANT_CHANGE = &H40
 
 Sub SetUserCannotChangePassword(strDomain As String, strUser As String, strUserCred As String, strPassword As String, fUserCannotChangePassword As Boolean)
     Dim oUser As IADs
@@ -96,14 +96,14 @@ HRESULT SetUserCannotChangePassword(LPCWSTR pwszDomain,
                         pwszPassword,
                         ADS_SECURE_AUTHENTICATION,
                         IID_IADs, 
-                        (void**)&amp;pads);
+                        (void**)&pads);
 
     if(SUCCEEDED(hr))
     {
         CComBSTR sbstrPropName = "userFlags";
         CComVariant svar;
         
-        hr = pads->Get(sbstrPropName, &amp;svar);
+        hr = pads->Get(sbstrPropName, &svar);
         if(SUCCEEDED(hr))
         {
             if(fCannotChangePassword)
@@ -112,7 +112,7 @@ HRESULT SetUserCannotChangePassword(LPCWSTR pwszDomain,
             }
             else
             {
-                svar.lVal &amp;= ~ADS_UF_PASSWD_CANT_CHANGE;
+                svar.lVal &= ~ADS_UF_PASSWD_CANT_CHANGE;
             }
 
             // Perform the change.

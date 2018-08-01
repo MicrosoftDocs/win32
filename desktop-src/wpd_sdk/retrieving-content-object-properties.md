@@ -88,7 +88,7 @@ void ReadContentProperties(
     // access the content-specific methods.
     if (SUCCEEDED(hr))
     {
-        hr = pService->Content(&amp;pContent);
+        hr = pService->Content(&pContent);
         if (FAILED(hr))
         {
             printf("! Failed to get IPortableDeviceContent2 from IPortableDeviceService, hr = 0x%lx\n",hr);
@@ -99,7 +99,7 @@ void ReadContentProperties(
     // to access the property-specific methods.
     if (SUCCEEDED(hr))
     {
-        hr = pContent->Properties(&amp;pProperties);
+        hr = pContent->Properties(&pProperties);
         if (FAILED(hr))
         {
             printf("! Failed to get IPortableDeviceProperties from IPortableDeviceContent2, hr = 0x%lx\n",hr);
@@ -111,7 +111,7 @@ void ReadContentProperties(
     hr = CoCreateInstance(CLSID_PortableDeviceKeyCollection,
                           NULL,
                           CLSCTX_INPROC_SERVER,
-                          IID_PPV_ARGS(&amp;pPropertiesToRead));
+                          IID_PPV_ARGS(&pPropertiesToRead));
     if (SUCCEEDED(hr))
     {
         // 4) Populate the IPortableDeviceKeyCollection with the keys we wish to read.
@@ -152,7 +152,7 @@ void ReadContentProperties(
     {
         hr = pProperties->GetValues(szSelection,         // The object whose properties we are reading
                                     pPropertiesToRead,   // The properties we want to read
-                                    &amp;pObjectProperties); // Driver supplied property values for the specified object
+                                    &pObjectProperties); // Driver supplied property values for the specified object
         if (FAILED(hr))
         {
             printf("! Failed to get all properties for object '%ws', hr= 0x%lx\n", szSelection, hr);

@@ -16,7 +16,7 @@ This topic shows you how you can set groups of voices to send their output to th
 1.  Create a [**submix voice**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2submixvoice) to which all of the game's sound effect voices will send.
     ```
     IXAudio2SubmixVoice * pSFXSubmixVoice;
-    pXAudio2->CreateSubmixVoice(&amp;pSFXSubmixVoice,1,44100,0,0,0,0);
+    pXAudio2->CreateSubmixVoice(&pSFXSubmixVoice,1,44100,0,0,0,0);
     ```
 
     
@@ -24,7 +24,7 @@ This topic shows you how you can set groups of voices to send their output to th
 2.  Create an [**XAUDIO2\_VOICE\_SENDS**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_voice_sends) structure that contains a reference to the submix voice.
     ```
     XAUDIO2_SEND_DESCRIPTOR SFXSend = {0, pSFXSubmixVoice};
-    XAUDIO2_VOICE_SENDS SFXSendList = {1, &amp;SFXSend};
+    XAUDIO2_VOICE_SENDS SFXSendList = {1, &SFXSend};
     ```
 
     
@@ -32,7 +32,7 @@ This topic shows you how you can set groups of voices to send their output to th
 3.  Pass the [**XAUDIO2\_VOICE\_SENDS**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_voice_sends) structure to new source voices as they are created.
     ```
     IXAudio2SourceVoice* pSFXSourceVoice;
-    if( FAILED(hr = pXaudio2->CreateSourceVoice( &amp;pSFXSourceVoice, (WAVEFORMATEX*)&amp;wfx,
+    if( FAILED(hr = pXaudio2->CreateSourceVoice( &pSFXSourceVoice, (WAVEFORMATEX*)&wfx,
         0, XAUDIO2_DEFAULT_FREQ_RATIO, pCallback, pSFXSendList, NULL ) ) )
         return hr;
     ```

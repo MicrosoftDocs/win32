@@ -68,7 +68,7 @@ VOID __stdcall DoQuerySvc()
         schService, 
         NULL, 
         0, 
-        &amp;dwBytesNeeded))
+        &dwBytesNeeded))
     {
         dwError = GetLastError();
         if( ERROR_INSUFFICIENT_BUFFER == dwError )
@@ -87,7 +87,7 @@ VOID __stdcall DoQuerySvc()
         schService, 
         lpsc, 
         cbBufSize, 
-        &amp;dwBytesNeeded) ) 
+        &dwBytesNeeded) ) 
     {
         printf("QueryServiceConfig failed (%d)", GetLastError());
         goto cleanup;
@@ -98,7 +98,7 @@ VOID __stdcall DoQuerySvc()
         SERVICE_CONFIG_DESCRIPTION,
         NULL, 
         0, 
-        &amp;dwBytesNeeded))
+        &dwBytesNeeded))
     {
         dwError = GetLastError();
         if( ERROR_INSUFFICIENT_BUFFER == dwError )
@@ -118,7 +118,7 @@ VOID __stdcall DoQuerySvc()
         SERVICE_CONFIG_DESCRIPTION,
         (LPBYTE) lpsd, 
         cbBufSize, 
-        &amp;dwBytesNeeded) ) 
+        &dwBytesNeeded) ) 
     {
         printf("QueryServiceConfig2 failed (%d)", GetLastError());
         goto cleanup;
@@ -133,13 +133,13 @@ VOID __stdcall DoQuerySvc()
     _tprintf(TEXT("  Binary path: %s\n"), lpsc->lpBinaryPathName);
     _tprintf(TEXT("  Account: %s\n"), lpsc->lpServiceStartName);
 
-    if (lpsd->lpDescription != NULL &amp;&amp; lstrcmp(lpsd->lpDescription, TEXT("")) != 0)
+    if (lpsd->lpDescription != NULL && lstrcmp(lpsd->lpDescription, TEXT("")) != 0)
         _tprintf(TEXT("  Description: %s\n"), lpsd->lpDescription);
-    if (lpsc->lpLoadOrderGroup != NULL &amp;&amp; lstrcmp(lpsc->lpLoadOrderGroup, TEXT("")) != 0)
+    if (lpsc->lpLoadOrderGroup != NULL && lstrcmp(lpsc->lpLoadOrderGroup, TEXT("")) != 0)
         _tprintf(TEXT("  Load order group: %s\n"), lpsc->lpLoadOrderGroup);
     if (lpsc->dwTagId != 0)
         _tprintf(TEXT("  Tag ID: %d\n"), lpsc->dwTagId);
-    if (lpsc->lpDependencies != NULL &amp;&amp; lstrcmp(lpsc->lpDependencies, TEXT("")) != 0)
+    if (lpsc->lpDependencies != NULL && lstrcmp(lpsc->lpDependencies, TEXT("")) != 0)
         _tprintf(TEXT("  Dependencies: %s\n"), lpsc->lpDependencies);
  
     LocalFree(lpsc); 

@@ -81,7 +81,7 @@ int _tmain(VOID)
             InstanceThread,    // thread proc
             (LPVOID) hPipe,    // thread parameter 
             0,                 // not suspended 
-            &amp;dwThreadId);      // returns thread ID 
+            &dwThreadId);      // returns thread ID 
 
          if (hThread == NULL) 
          {
@@ -160,7 +160,7 @@ DWORD WINAPI InstanceThread(LPVOID lpvParam)
          hPipe,        // handle to pipe 
          pchRequest,    // buffer to receive data 
          BUFSIZE*sizeof(TCHAR), // size of buffer 
-         &amp;cbBytesRead, // number of bytes read 
+         &cbBytesRead, // number of bytes read 
          NULL);        // not overlapped I/O 
 
       if (!fSuccess || cbBytesRead == 0)
@@ -177,14 +177,14 @@ DWORD WINAPI InstanceThread(LPVOID lpvParam)
       }
 
    // Process the incoming message.
-      GetAnswerToRequest(pchRequest, pchReply, &amp;cbReplyBytes); 
+      GetAnswerToRequest(pchRequest, pchReply, &cbReplyBytes); 
  
    // Write the reply to the pipe. 
       fSuccess = WriteFile( 
          hPipe,        // handle to pipe 
          pchReply,     // buffer to write from 
          cbReplyBytes, // number of bytes to write 
-         &amp;cbWritten,   // number of bytes written 
+         &cbWritten,   // number of bytes written 
          NULL);        // not overlapped I/O 
 
       if (!fSuccess || cbReplyBytes != cbWritten)

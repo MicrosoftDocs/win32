@@ -209,7 +209,7 @@ Set colServices = objWMIService.ExecQuery ("Select * from Win32_Service where Na
 For Each objService in colServices
     Return = objService.StopService()
     If Return <> 0 Then
-        Wscript.Echo "Failed " &amp;VBNewLine & "Error code = " & Return 
+        Wscript.Echo "Failed " &VBNewLine & "Error code = " & Return 
     Else
        WScript.Echo "Succeeded"
     End If
@@ -255,15 +255,15 @@ For Each objDisk in colDisks
         Case 1
             Wscript.Echo "No root directory. Drive type could not be determined."
         Case 2
-            Wscript.Echo "DeviceID= "&amp; objDisk.DeviceID & "  DriveType = Removable drive" 
+            Wscript.Echo "DeviceID= "& objDisk.DeviceID & "  DriveType = Removable drive" 
         Case 3
-            Wscript.Echo "DeviceID= "&amp; objDisk.DeviceID & "  DriveType = Local hard disk" 
+            Wscript.Echo "DeviceID= "& objDisk.DeviceID & "  DriveType = Local hard disk" 
         Case 4
-            Wscript.Echo "DeviceID= "&amp; objDisk.DeviceID & "  DriveType = Network disk" 
+            Wscript.Echo "DeviceID= "& objDisk.DeviceID & "  DriveType = Network disk" 
         Case 5
-            Wscript.Echo "DeviceID= "&amp; objDisk.DeviceID & "  DriveType = Compact disk" 
+            Wscript.Echo "DeviceID= "& objDisk.DeviceID & "  DriveType = Compact disk" 
         Case 6
-            Wscript.Echo "DeviceID= "&amp; objDisk.DeviceID & "  DriveType = RAM disk" 
+            Wscript.Echo "DeviceID= "& objDisk.DeviceID & "  DriveType = RAM disk" 
         Case Else
             Wscript.Echo "Drive type could not be determined."
     End Select

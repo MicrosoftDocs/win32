@@ -71,19 +71,19 @@ HRESULT RecordAudioStream(MyAudioSink *pMySink)
     hr = CoCreateInstance(
            CLSID_MMDeviceEnumerator, NULL,
            CLSCTX_ALL, IID_IMMDeviceEnumerator,
-           (void**)&amp;pEnumerator);
+           (void**)&pEnumerator);
     EXIT_ON_ERROR(hr)
 
     hr = pEnumerator->GetDefaultAudioEndpoint(
-                        eCapture, eConsole, &amp;pDevice);
+                        eCapture, eConsole, &pDevice);
     EXIT_ON_ERROR(hr)
 
     hr = pDevice->Activate(
                     IID_IAudioClient, CLSCTX_ALL,
-                    NULL, (void**)&amp;pAudioClient);
+                    NULL, (void**)&pAudioClient);
     EXIT_ON_ERROR(hr)
 
-    hr = pAudioClient->GetMixFormat(&amp;pwfx);
+    hr = pAudioClient->GetMixFormat(&pwfx);
     EXIT_ON_ERROR(hr)
 
     hr = pAudioClient->Initialize(
@@ -96,12 +96,12 @@ HRESULT RecordAudioStream(MyAudioSink *pMySink)
     EXIT_ON_ERROR(hr)
 
     // Get the size of the allocated buffer.
-    hr = pAudioClient->GetBufferSize(&amp;bufferFrameCount);
+    hr = pAudioClient->GetBufferSize(&bufferFrameCount);
     EXIT_ON_ERROR(hr)
 
     hr = pAudioClient->GetService(
                          IID_IAudioCaptureClient,
-                         (void**)&amp;pCaptureClient);
+                         (void**)&pCaptureClient);
     EXIT_ON_ERROR(hr)
 
     // Notify the audio sink which format to use.
@@ -121,16 +121,16 @@ HRESULT RecordAudioStream(MyAudioSink *pMySink)
         // Sleep for half the buffer duration.
         Sleep(hnsActualDuration/REFTIMES_PER_MILLISEC/2);
 
-        hr = pCaptureClient->GetNextPacketSize(&amp;packetLength);
+        hr = pCaptureClient->GetNextPacketSize(&packetLength);
         EXIT_ON_ERROR(hr)
 
         while (packetLength != 0)
         {
             // Get the available data in the shared buffer.
             hr = pCaptureClient->GetBuffer(
-                                   &amp;pData,
-                                   &amp;numFramesAvailable,
-                                   &amp;flags, NULL, NULL);
+                                   &pData,
+                                   &numFramesAvailable,
+                                   &flags, NULL, NULL);
             EXIT_ON_ERROR(hr)
 
             if (flags & AUDCLNT_BUFFERFLAGS_SILENT)
@@ -140,13 +140,13 @@ HRESULT RecordAudioStream(MyAudioSink *pMySink)
 
             // Copy the available capture data to the audio sink.
             hr = pMySink->CopyData(
-                              pData, numFramesAvailable, &amp;bDone);
+                              pData, numFramesAvailable, &bDone);
             EXIT_ON_ERROR(hr)
 
             hr = pCaptureClient->ReleaseBuffer(numFramesAvailable);
             EXIT_ON_ERROR(hr)
 
-            hr = pCaptureClient->GetNextPacketSize(&amp;packetLength);
+            hr = pCaptureClient->GetNextPacketSize(&packetLength);
             EXIT_ON_ERROR(hr)
         }
     }

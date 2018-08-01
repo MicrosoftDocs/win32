@@ -42,8 +42,8 @@ When you create a source voice, you can pass a structure to it that defines call
 
     ```
     VoiceCallback voiceCallback;
-    if( FAILED(hr = pXaudio2->CreateSourceVoice( &amp;pSourceVoice, (WAVEFORMATEX*)&amp;wfx,
-                                 0, XAUDIO2_DEFAULT_FREQ_RATIO, &amp;voiceCallback, NULL, NULL ) ) ) return;
+    if( FAILED(hr = pXaudio2->CreateSourceVoice( &pSourceVoice, (WAVEFORMATEX*)&wfx,
+                                 0, XAUDIO2_DEFAULT_FREQ_RATIO, &voiceCallback, NULL, NULL ) ) ) return;
     ```
 
     

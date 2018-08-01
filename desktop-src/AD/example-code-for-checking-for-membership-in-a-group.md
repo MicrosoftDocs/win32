@@ -78,7 +78,7 @@ BOOL RecursiveIsMember(IADsGroup * pADsGroup,
     }
  
     // Get the path of the object passed in
-    hr = pADsGroup->get_ADsPath(&amp;bsGroupPath);
+    hr = pADsGroup->get_ADsPath(&bsGroupPath);
  
     if (!SUCCEEDED(hr))
         return hr;
@@ -94,21 +94,21 @@ BOOL RecursiveIsMember(IADsGroup * pADsGroup,
     }
  
     // Get an interface pointer to the IADsCollection of members
-    hr = pADsGroup->Members(&amp;pADsMembers);
+    hr = pADsGroup->Members(&pADsMembers);
  
     if (SUCCEEDED(hr))
     {
       // Query the IADsCollection of members for a new ENUM 
       // Interface. Be aware that the enum comes back as an 
       // IUnknown *
-      hr = pADsMembers->get__NewEnum(&amp;pUnknown);
+      hr = pADsMembers->get__NewEnum(&pUnknown);
  
       if (SUCCEEDED(hr))
       {
         // Call the QueryInterface method for the 
         // IUnknown * for an IEnumVARIANT interface.
         hr = pUnknown->QueryInterface(IID_IEnumVARIANT,
-                                      (void **)&amp;pEnumVariant);
+                                      (void **)&pEnumVariant);
  
         if (SUCCEEDED(hr))
         {
@@ -121,7 +121,7 @@ BOOL RecursiveIsMember(IADsGroup * pADsGroup,
              hr = ADsEnumerateNext(pEnumVariant, 
                                    FETCH_NUM,
                                    VariantArray,
-                                   &amp;ulElementsFetched);
+                                   &ulElementsFetched);
  
              if (ulElementsFetched )
              {
@@ -149,7 +149,7 @@ BOOL RecursiveIsMember(IADsGroup * pADsGroup,
                   // Get the IADs interface for the
                   // "member" of this group
                   hr = pDispatch->QueryInterface(IID_IDirectoryObject,
-                                                (VOID **) &amp;pIDOCurrent);
+                                                (VOID **) &pIDOCurrent);
  
                   if (SUCCEEDED(hr))
                   {
@@ -164,12 +164,12 @@ BOOL RecursiveIsMember(IADsGroup * pADsGroup,
                     // Get the IADs Interface for 
                     // the current object
                     hr = pIDOCurrent->QueryInterface(IID_IADs,
-                                                     (void**)&amp;pIADsCurrent);
+                                                     (void**)&pIADsCurrent);
                     if (FAILED(hr))
                          return hr;
  
                     // Get the ADsPath property for this member
-                    hr = pIADsCurrent->get_ADsPath(&amp;bstrCurrentPath);
+                    hr = pIADsCurrent->get_ADsPath(&bstrCurrentPath);
 
                     if (SUCCEEDED(hr))
                     {
@@ -205,11 +205,11 @@ BOOL RecursiveIsMember(IADsGroup * pADsGroup,
                                               pwszPassword, 
                                               ADS_SECURE_AUTHENTICATION,
                                               IID_IADsGroup, 
-                                              (void**) &amp;pIADsGroupAsMember);
+                                              (void**) &pIADsGroupAsMember);
                          else
                            hr = ADsGetObject(bstrCurrentPath,
                                              IID_IADsGroup,
-                                             (void **)&amp;pIADsGroupAsMember);
+                                             (void **)&pIADsGroupAsMember);
  
                          // If bind was completed, then this is a group.
                          if (SUCCEEDED(hr))
@@ -286,7 +286,7 @@ BOOL RecursiveIsMember(IADsGroup * pADsGroup,
         BSTR             & bsGuid - Returned GUID            
 */
  
-HRESULT GetObjectGuid(IDirectoryObject * pDO,BSTR &amp;bsGuid)
+HRESULT GetObjectGuid(IDirectoryObject * pDO,BSTR &bsGuid)
 {
  
     GUID *pObjectGUID   = NULL;
@@ -302,16 +302,16 @@ HRESULT GetObjectGuid(IDirectoryObject * pDO,BSTR &amp;bsGuid)
       return E_FAIL;
     }
 
-    hr = pDO->GetObjectAttributes(&amp;pAttributeName, // objectGUID
+    hr = pDO->GetObjectAttributes(&pAttributeName, // objectGUID
                                   1,               // Only objectGUID
-                                  &amp;pAttributeEntries, // Returned 
+                                  &pAttributeEntries, // Returned 
                                                       // attributes
-                                  &amp;dwAttributesReturned // Number of 
+                                  &dwAttributesReturned // Number of 
                                                         // attributes 
                                                         // returned
                                   );
  
-    if (SUCCEEDED(hr) &amp;&amp; dwAttributesReturned>0)
+    if (SUCCEEDED(hr) && dwAttributesReturned>0)
     {
         // Verify that the right type was retrieved--
         // objectGUID is ADSTYPE_OCTET_STRING

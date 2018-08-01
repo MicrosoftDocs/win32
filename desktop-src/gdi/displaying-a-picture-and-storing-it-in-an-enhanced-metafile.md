@@ -36,8 +36,8 @@ fnMapModeOld = SetMapMode(hDC, MM_LOENGLISH);
  
 // Find the midpoint of the client area.  
  
-GetClientRect(hwnd, (LPRECT)&amp;rect); 
-DPtoLP(hDC, (LPPOINT)&amp;rect, 2); 
+GetClientRect(hwnd, (LPRECT)&rect); 
+DPtoLP(hDC, (LPPOINT)&rect, 2); 
  
 // Select a gray brush.  
  

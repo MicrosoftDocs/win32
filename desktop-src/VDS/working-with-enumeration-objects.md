@@ -41,13 +41,13 @@ HRESULT GetControllerById(
     ULONG               ulFetched        = 0;
     BOOL                bDone            = FALSE;
 
-    ZeroMemory(&amp;vdsControllerProperties, sizeof(VDS_CONTROLLER_PROP));
+    ZeroMemory(&vdsControllerProperties, sizeof(VDS_CONTROLLER_PROP));
 
     // Query for the enumeration of controllers belonging
     // to the given subsystem.
-    hResult = pSubsystem->QueryControllers(&amp;pEnumController);
+    hResult = pSubsystem->QueryControllers(&pEnumController);
 
-    if (SUCCEEDED(hResult) &amp;&amp; (!pEnumController)) 
+    if (SUCCEEDED(hResult) && (!pEnumController)) 
     {
         hResult = E_UNEXPECTED; // Errant provider, 
         // returned S_OK 
@@ -61,7 +61,7 @@ HRESULT GetControllerById(
         while (!bDone) 
         {
             ulFetched = 0;
-            hResult = pEnumController->Next(1, &amp;pUnknown, &amp;ulFetched);
+            hResult = pEnumController->Next(1, &pUnknown, &ulFetched);
 
             if (hResult == S_FALSE) 
             {
@@ -69,7 +69,7 @@ HRESULT GetControllerById(
                 break;
             }
 
-            if (SUCCEEDED(hResult) &amp;&amp; (!pUnknown)) 
+            if (SUCCEEDED(hResult) && (!pUnknown)) 
             {
                 hResult = E_UNEXPECTED; // Errant provider, 
                 // returned S_OK with
@@ -81,10 +81,10 @@ HRESULT GetControllerById(
             if (SUCCEEDED(hResult)) 
             {
                 hResult = pUnknown->QueryInterface(IID_IVdsController,  
-                    (void **) &amp;pController);
+                    (void **) &pController);
             }
 
-            if (SUCCEEDED(hResult) &amp;&amp; (!pController)) 
+            if (SUCCEEDED(hResult) && (!pController)) 
             {
                 hResult = E_UNEXPECTED; // Errant provider, 
                 // returned S_OK 
@@ -94,11 +94,11 @@ HRESULT GetControllerById(
             if (SUCCEEDED(hResult)) 
             {
                 hResult = pController->  
-                GetProperties( &amp;vdsControllerProperties);
+                GetProperties( &vdsControllerProperties);
             }
 
             if (SUCCEEDED(hResult) 
-                &amp;&amp; IsEqualGUID(*pControllerId, vdsControllerProperties.id)) 
+                && IsEqualGUID(*pControllerId, vdsControllerProperties.id)) 
             {
                 bDone = TRUE;
             } 
@@ -115,7 +115,7 @@ HRESULT GetControllerById(
                 CoTaskMemFree(vdsControllerProperties.pwszIdentification);
             }
 
-            ZeroMemory(&amp;vdsControllerProperties, sizeof(VDS_CONTROLLER_PROP));
+            ZeroMemory(&vdsControllerProperties, sizeof(VDS_CONTROLLER_PROP));
         }
     }
 

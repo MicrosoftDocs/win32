@@ -43,7 +43,7 @@ extern "C" DWORD APIENTRY CollectPerfData(LPWSTR pQuery,
     // it should never be the case that we are being asked for objects that
     // we do not support because we included the [objects] section in the .ini file.
 
-    fQuerySupported = IsQuerySupported(pQuery, &amp;g_QueriedObjects);
+    fQuerySupported = IsQuerySupported(pQuery, &g_QueriedObjects);
     if (fQuerySupported == FALSE)
     {
         *pcbData = 0;
@@ -95,7 +95,7 @@ extern "C" DWORD APIENTRY CollectPerfData(LPWSTR pQuery,
         // Since this is a single instance object, just copy the object
         // to the buffer.
 
-        memcpy((PTRANSFER)pObjects, &amp;g_Transfer, sizeof(TRANSFER));
+        memcpy((PTRANSFER)pObjects, &g_Transfer, sizeof(TRANSFER));
         pObjects += g_Transfer.Object.TotalByteLength;  
         (*pObjectsReturned)++; 
     }
@@ -108,12 +108,12 @@ extern "C" DWORD APIENTRY CollectPerfData(LPWSTR pQuery,
         // Copy the object and counter definition pieces to the buffer,
         // the instance data follows.
 
-        memcpy((PPEER)pObjects, &amp;g_Peer, sizeof(PEER));
+        memcpy((PPEER)pObjects, &g_Peer, sizeof(PEER));
         pObjects += sizeof(PEER);
         
         // Initialize the instance information.
 
-        ZeroMemory(&amp;inst, sizeof(PEER_INSTANCE));
+        ZeroMemory(&inst, sizeof(PEER_INSTANCE));
         inst.Instance.ByteLength = sizeof(PERF_INSTANCE_DEFINITION) + sizeof(inst.InstanceName);
         inst.Instance.UniqueID = PERF_NO_UNIQUE_ID;
         inst.Instance.NameOffset = sizeof(PERF_INSTANCE_DEFINITION);
@@ -128,7 +128,7 @@ extern "C" DWORD APIENTRY CollectPerfData(LPWSTR pQuery,
 
         // Copy the instance.
 
-        memcpy((PPEER_INSTANCE)pObjects, &amp;inst, sizeof(PEER_INSTANCE));
+        memcpy((PPEER_INSTANCE)pObjects, &inst, sizeof(PEER_INSTANCE));
         pObjects += sizeof(PEER_INSTANCE); 
 
         // Instance-specific data for the second instance.
@@ -139,7 +139,7 @@ extern "C" DWORD APIENTRY CollectPerfData(LPWSTR pQuery,
 
         // Copy the instance.
 
-        memcpy((PPEER_INSTANCE)pObjects, &amp;inst, sizeof(PEER_INSTANCE));
+        memcpy((PPEER_INSTANCE)pObjects, &inst, sizeof(PEER_INSTANCE));
         pObjects += sizeof(PEER_INSTANCE);
 
         (*pObjectsReturned)++; 

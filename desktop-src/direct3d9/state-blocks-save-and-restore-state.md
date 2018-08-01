@@ -20,7 +20,7 @@ Choose the type of state that you want to capture, and create a state block like
 
 ```
 IDirect3DStateBlock9* pStateBlock = NULL;
-pd3dDevice->CreateStateBlock( D3DSBT_ALL, &amp;pStateBlock );
+pd3dDevice->CreateStateBlock( D3DSBT_ALL, &pStateBlock );
 ```
 
 
@@ -38,7 +38,7 @@ To save a custom state sequence, wrap the state that you want to save in a [**ID
 IDirect3DStateBlock9* pStateBlock = NULL;
 pd3dDevice->BeginStateBlock();
 pd3dDevice->SetRenderState ( D3DRS_ZENABLE, true );
-pd3dDevice->EndStateBlock( &amp;pStateBlock );
+pd3dDevice->EndStateBlock( &pStateBlock );
 ```
 
 

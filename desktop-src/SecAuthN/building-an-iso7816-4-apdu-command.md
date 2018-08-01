@@ -28,13 +28,13 @@ To add functionality to a service provider, you need to know how an ISO7816-4 [*
                                NULL,
                                CLSCTX_ALL,
                                IID_ISCardCmd,
-                               (LPVOID*) &amp;g_pISCardCmd);
+                               (LPVOID*) &g_pISCardCmd);
     //  Create an ISCardISO7816 object.
     HRESULT hresult = CoCreateInstance(CLSID_CSCardISO7816,
                                NULL,
                                CLSCTX_ALL,
                                IID_ISCardISO7816,
-                               (LPVOID*) &amp;g_pISCardISO7816);
+                               (LPVOID*) &g_pISCardISO7816);
     ```
 
     
@@ -46,7 +46,7 @@ To add functionality to a service provider, you need to know how an ISO7816-4 [*
     ```C++
     //  Do challenge.
     HRESULT hresult = g_pISCardISO7816->GetChallenge(dwLengthOfChallenge,
-                                             &amp;g_pISCardCmd);
+                                             &g_pISCardCmd);
     ```
 
     
@@ -75,7 +75,7 @@ To add functionality to a service provider, you need to know how an ISO7816-4 [*
                                     (BYTE) INS_NULL,  // P1 = 0x00
                                     (BYTE) INS_NULL,  // P2 = 0x00
                                     NULL,
-                                    &amp;dwBytesExpected);
+                                    &dwBytesExpected);
             if (FAILED(hr))
                 throw (hr);
         }
@@ -109,16 +109,16 @@ hresult = CoCreateInstance(CLSID_CSCardCmd,
                            NULL,
                            CLSCTX_ALL,
                            IID_ISCardCmd,
-                           (LPVOID*) &amp;g_pISCardCmd);
+                           (LPVOID*) &g_pISCardCmd);
 //  Create an ISCardISO7816 object.
 hresult = CoCreateInstance(CLSID_CSCardISO7816,
                            NULL,
                            CLSCTX_ALL,
                            IID_ISCardISO7816,
-                           (LPVOID*) &amp;g_pISCardISO7816);
+                           (LPVOID*) &g_pISCardISO7816);
 //  Do challenge.
 hresult = g_pISCardISO7816->GetChallenge(dwLengthOfChallenge,
-                                         &amp;g_pISCardCmd);
+                                         &g_pISCardCmd);
 
 STDMETHODIMP
 CSCardISO7816::GetChallenge(IN DWORD dwBytesExpected /*= 0*/,
@@ -140,7 +140,7 @@ CSCardISO7816::GetChallenge(IN DWORD dwBytesExpected /*= 0*/,
                                 (BYTE) INS_NULL,  // P1 = 0x00
                                 (BYTE) INS_NULL,  // P2 = 0x00
                                 NULL,
-                                &amp;dwBytesExpected);
+                                &dwBytesExpected);
         if (FAILED(hr))
             throw (hr);
     }

@@ -160,7 +160,7 @@ protected String RecognizeInkData()
             RecognitionStatus recognitionStatus;
             recognizerContext.Strokes = ink.Strokes;
             RecognitionResult recognitionResult = recognizerContext.Recognize(out recognitionStatus);
-            if (recognitionStatus == RecognitionStatus.NoError) &amp;&amp; ( null != recognitionResult) )
+            if (recognitionStatus == RecognitionStatus.NoError) && ( null != recognitionResult) )
             {
                 return recognitionResult.TopString;
             }

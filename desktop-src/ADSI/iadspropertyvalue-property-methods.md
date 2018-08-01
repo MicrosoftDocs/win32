@@ -492,61 +492,61 @@ LONG lstart = 0;
 LONG lend = 0;
 LONG lADsType = ADSTYPE_UNKNOWN;
  
-VariantInit(&amp;var);
-VariantInit(&amp;varItem);
+VariantInit(&var);
+VariantInit(&varItem);
  
 // Bind to the directory object.
 HRESULT hr = ADsGetObject(L"LDAP://dc01/DC=Fabrikam,DC=com",
                           IID_IADsPropertyList,
-                          (void**)&amp;pList);
+                          (void**)&pList);
 
 if(FAILED(hr)){goto Cleanup;}
 
 // Initialize the property cache.
-hr = pList->QueryInterface(IID_IADs,(void**)&amp;pObj);
+hr = pList->QueryInterface(IID_IADs,(void**)&pObj);
 if(FAILED(hr)){goto Cleanup;}
 
 pObj->GetInfo();
 pObj->Release();
  
 // Retrieve the property entry.
-hr = pList->GetPropertyItem(CComBSTR("description"), ADSTYPE_CASE_IGNORE_STRING, &amp;var);
+hr = pList->GetPropertyItem(CComBSTR("description"), ADSTYPE_CASE_IGNORE_STRING, &var);
 pList->Release();
 if(FAILED(hr)){goto Cleanup;}
 
-hr = V_DISPATCH(&amp;var)->QueryInterface(IID_IADsPropertyEntry,
-                                      (void**)&amp;pEntry);
-VariantClear(&amp;var);
+hr = V_DISPATCH(&var)->QueryInterface(IID_IADsPropertyEntry,
+                                      (void**)&pEntry);
+VariantClear(&var);
 if(FAILED(hr)){goto Cleanup;}
  
 // Retrieve the value array of the property entry.
-hr = pEntry->get_Values(&amp;var);
+hr = pEntry->get_Values(&var);
 if(FAILED(hr)){goto Cleanup;}
 
-SAFEARRAY *sa = V_ARRAY( &amp;var );
+SAFEARRAY *sa = V_ARRAY( &var );
  
 // Retrieve the lower and upper bound. Iterate and print the values.
-hr = SafeArrayGetLBound( sa, 1, &amp;lstart );
-hr = SafeArrayGetUBound( sa, 1, &amp;lend );
+hr = SafeArrayGetLBound( sa, 1, &lstart );
+hr = SafeArrayGetUBound( sa, 1, &lend );
 printf(" Property value(s) = ");
 for ( long idx=lstart; idx < lend+1; idx++ )    {
-    hr = SafeArrayGetElement( sa, &amp;idx, &amp;varItem );
-    hr = V_DISPATCH(&amp;varItem)->QueryInterface(IID_IADsPropertyValue,
-                                              (void**)&amp;pVal);
+    hr = SafeArrayGetElement( sa, &idx, &varItem );
+    hr = V_DISPATCH(&varItem)->QueryInterface(IID_IADsPropertyValue,
+                                              (void**)&pVal);
     if(FAILED(hr)){goto Cleanup;}
 
-    pVal->get_ADsType(&amp;lADsType);
+    pVal->get_ADsType(&lADsType);
 
     switch(lADsType)
     {
         case ADSTYPE_CASE_IGNORE_STRING:
         {
-            hr = pVal->get_CaseIgnoreString(&amp;valStr);
+            hr = pVal->get_CaseIgnoreString(&valStr);
             break;
         }
         case ADSTYPE_CASE_EXACT_STRING:
         {
-            hr = pVal->get_CaseExactString(&amp;valStr);
+            hr = pVal->get_CaseExactString(&valStr);
             break;
         }
         default:
@@ -559,7 +559,7 @@ for ( long idx=lstart; idx < lend+1; idx++ )    {
     if(FAILED(hr)){goto Cleanup;}
     printf(" %S ", valStr);
     SysFreeString(valStr);
-    VariantClear(&amp;varItem);
+    VariantClear(&varItem);
 }
 printf("\n");
 
@@ -580,8 +580,8 @@ Cleanup:
         pEnum = NULL;
 
     SysFreeString(valStr);
-    VariantClear(&amp;varItem);
-    VariantClear(&amp;var);
+    VariantClear(&varItem);
+    VariantClear(&var);
 ```
 
 

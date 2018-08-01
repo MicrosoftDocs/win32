@@ -155,23 +155,23 @@ void ClientChangesSecurity ()
   // Initialize client security with no client certificate.
   CoInitializeSecurity( NULL, -1, NULL, NULL,
                         RPC_C_AUTHN_LEVEL_PKT,
-                        RPC_C_IMP_LEVEL_IMPERSONATE, &amp;auth_list,
+                        RPC_C_IMP_LEVEL_IMPERSONATE, &auth_list,
                         EOAC_NONE, NULL );
   
   // Specify info for the proxy.
-  server_instance = {&amp;IID_ISecret, NULL, S_OK};
+  server_instance = {&IID_ISecret, NULL, S_OK};
   server_machine  = {0, L"ServerMachineName", NULL, 0};
   
   // Create a proxy.
   CoCreateInstanceEx( CLSID_Secret, NULL, CLSCTX_REMOTE_SERVER, 
-                      &amp;server_machine, 1, &amp;server_instance);
+                      &server_machine, 1, &server_instance);
   pSecret = (ISecret *) server_instance.pItf;
 
   //** The client obtained the server's certificate during the handshake.
   //** The server requests a certificate from the client.
 
   // Get the default certificate provider.
-  CryptAcquireContext( &amp;provider, NULL, NULL, PROV_RSA_SCHANNEL, 0 );
+  CryptAcquireContext( &provider, NULL, NULL, PROV_RSA_SCHANNEL, 0 );
 
   // Open the certificate store.
   cert_store = CertOpenSystemStore( provider, L"my" );
@@ -187,7 +187,7 @@ void ClientChangesSecurity ()
 
   // Find the fullsic principal name of the server.
   RpcCertGeneratePrincipalName( server_cert, RPC_C_FULL_CERT_CHAIN, 
-                                &amp;server_princ_name );
+                                &server_princ_name );
 
   // Change the client's security: 
   // Increase the authentication level and attach a certificate.
@@ -200,7 +200,7 @@ void ClientChangesSecurity ()
 
   cleanup:
   if (server_princ_name != NULL)
-    RpcStringFree( &amp;server_princ_name );
+    RpcStringFree( &server_princ_name );
   if (client_cert != NULL)
     CertFreeCertificateContext(client_cert);
   if (server_cert != NULL)

@@ -109,7 +109,7 @@ public:
         Clear();
 
         HRESULT hr = pPD->GetAllocatedBlob(
-            MF_PD_ASF_LANGLIST, &amp;pRawList, &amp;cbList);
+            MF_PD_ASF_LANGLIST, &pRawList, &cbList);
 
         if (FAILED(hr))
         {
@@ -188,8 +188,8 @@ done:
     }
 
 private:
-    LanguageList(const LanguageList&amp; lang);
-    LanguageList&amp; operator=(const LanguageList&amp; lang);
+    LanguageList(const LanguageList& lang);
+    LanguageList& operator=(const LanguageList& lang);
 };
 ```
 

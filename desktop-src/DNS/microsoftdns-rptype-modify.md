@@ -33,7 +33,7 @@ void Modify(
   [in, optional] uint32              TTL,
   [in, optional] string              RPMailbox,
   [in, optional] string              TXTDomainName,
-  [out, ref]     MicrosoftDNS_RPType &amp;RR
+  [out, ref]     MicrosoftDNS_RPType &RR
 );
 ```
 

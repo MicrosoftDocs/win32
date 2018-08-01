@@ -77,19 +77,19 @@ HRESULT MainWindow::CreateGraphicsResources()
     if (pRenderTarget == NULL)
     {
         RECT rc;
-        GetClientRect(m_hwnd, &amp;rc);
+        GetClientRect(m_hwnd, &rc);
 
         D2D1_SIZE_U size = D2D1::SizeU(rc.right, rc.bottom);
 
         hr = pFactory->CreateHwndRenderTarget(
             D2D1::RenderTargetProperties(),
             D2D1::HwndRenderTargetProperties(m_hwnd, size),
-            &amp;pRenderTarget);
+            &pRenderTarget);
 
         if (SUCCEEDED(hr))
         {
             const D2D1_COLOR_F color = D2D1::ColorF(1.0f, 1.0f, 0);
-            hr = pRenderTarget->CreateSolidColorBrush(color, &amp;pBrush);
+            hr = pRenderTarget->CreateSolidColorBrush(color, &pBrush);
 
             if (SUCCEEDED(hr))
             {
@@ -102,8 +102,8 @@ HRESULT MainWindow::CreateGraphicsResources()
 
 void MainWindow::DiscardGraphicsResources()
 {
-    SafeRelease(&amp;pRenderTarget);
-    SafeRelease(&amp;pBrush);
+    SafeRelease(&pRenderTarget);
+    SafeRelease(&pBrush);
 }
 
 void MainWindow::OnPaint()
@@ -112,7 +112,7 @@ void MainWindow::OnPaint()
     if (SUCCEEDED(hr))
     {
         PAINTSTRUCT ps;
-        BeginPaint(m_hwnd, &amp;ps);
+        BeginPaint(m_hwnd, &ps);
      
         pRenderTarget->BeginDraw();
 
@@ -124,7 +124,7 @@ void MainWindow::OnPaint()
         {
             DiscardGraphicsResources();
         }
-        EndPaint(m_hwnd, &amp;ps);
+        EndPaint(m_hwnd, &ps);
     }
 }
 
@@ -133,7 +133,7 @@ void MainWindow::Resize()
     if (pRenderTarget != NULL)
     {
         RECT rc;
-        GetClientRect(m_hwnd, &amp;rc);
+        GetClientRect(m_hwnd, &rc);
 
         D2D1_SIZE_U size = D2D1::SizeU(rc.right, rc.bottom);
 
@@ -157,10 +157,10 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR, int nCmdShow)
     // Run the message loop.
 
     MSG msg = { };
-    while (GetMessage(&amp;msg, NULL, 0, 0))
+    while (GetMessage(&msg, NULL, 0, 0))
     {
-        TranslateMessage(&amp;msg);
-        DispatchMessage(&amp;msg);
+        TranslateMessage(&msg);
+        DispatchMessage(&msg);
     }
 
     return 0;
@@ -172,7 +172,7 @@ LRESULT MainWindow::HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam)
     {
     case WM_CREATE:
         if (FAILED(D2D1CreateFactory(
-                D2D1_FACTORY_TYPE_SINGLE_THREADED, &amp;pFactory)))
+                D2D1_FACTORY_TYPE_SINGLE_THREADED, &pFactory)))
         {
             return -1;  // Fail CreateWindowEx.
         }
@@ -180,7 +180,7 @@ LRESULT MainWindow::HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam)
 
     case WM_DESTROY:
         DiscardGraphicsResources();
-        SafeRelease(&amp;pFactory);
+        SafeRelease(&pFactory);
         PostQuitMessage(0);
         return 0;
 

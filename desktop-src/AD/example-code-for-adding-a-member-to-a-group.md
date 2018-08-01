@@ -300,7 +300,7 @@ HRESULT AddMemberToGroup(IADsGroup * pGroup, IADs* pIADsNewMember)
     // Query the new member for its AdsPath.
     // This is a fully qualified LDAP path to the object to add.
     BSTR bsNewMemberPath;
-    hr = pIADsNewMember->get_ADsPath(&amp;bsNewMemberPath); 
+    hr = pIADsNewMember->get_ADsPath(&bsNewMemberPath); 
     if (SUCCEEDED(hr))
     {
  

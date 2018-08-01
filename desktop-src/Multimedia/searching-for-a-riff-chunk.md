@@ -34,7 +34,7 @@ MMCKINFO mmckinfoSubchunk;
 // Locate a "RIFF" chunk with a "WAVE" form type to make 
 // sure the file is a waveform-audio file. 
 mmckinfoParent.fccType = mmioFOURCC('W', 'A', 'V', 'E'); 
-if (mmioDescend(hmmio, (LPMMCKINFO) &amp;mmckinfoParent, NULL, 
+if (mmioDescend(hmmio, (LPMMCKINFO) &mmckinfoParent, NULL, 
     MMIO_FINDRIFF)) 
     // The file is not a waveform-audio file. 
 else 

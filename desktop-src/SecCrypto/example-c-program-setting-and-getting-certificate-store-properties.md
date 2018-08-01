@@ -131,7 +131,7 @@ if (CertSetStoreProperty(
     hCertStore,
     CERT_STORE_LOCALIZED_NAME_PROP_ID,
     0,
-    &amp;Property_Name_Blob))
+    &Property_Name_Blob))
 {
      printf("The name of the store has been set. Continue. \n");
 }
@@ -149,7 +149,7 @@ if(CertGetStoreProperty(
     NULL,     // NULL on the first call  
               // to establish the length of the string to
               // to be returned
-    &amp;cbData))
+    &cbData))
 {
      printf("The length of the property is %d. \n",cbData);
 }
@@ -175,7 +175,7 @@ if(CertGetStoreProperty(
     hCertStore,
     CERT_STORE_LOCALIZED_NAME_PROP_ID,
     pvData,
-    &amp;cbData))
+    &cbData))
 {
      printf("The localized name is %S.\n",pvData);
 }
@@ -221,7 +221,7 @@ if(CertSaveStore(
    MY_ENCODING_TYPE,
    CERT_STORE_SAVE_AS_PKCS7,
    CERT_STORE_SAVE_TO_MEMORY,
-   (void *)&amp;Save_Store_Blob,
+   (void *)&Save_Store_Blob,
    0))
 {
      printf("The store length, %d, has been determined.\n",
@@ -246,7 +246,7 @@ if(CertSaveStore(
    MY_ENCODING_TYPE,
    CERT_STORE_SAVE_AS_PKCS7,
    CERT_STORE_SAVE_TO_MEMORY,
-   (void *)&amp;Save_Store_Blob,
+   (void *)&Save_Store_Blob,
    0))
 {
      printf("The store has been saved to memory.\n");
@@ -314,13 +314,13 @@ HashPara.pvHashAuxInfo= NULL;
 // Calculate the size of the hashed and encoded message. 
 
 if(CryptHashMessage(
-      &amp;HashPara,
+      &HashPara,
       FALSE,
       1,
       rgpbToBeHashed,
       rgcbToBeHashed,
       NULL,
-      &amp;cbHashedBlob,
+      &cbHashedBlob,
       NULL,
       NULL))
 {
@@ -348,13 +348,13 @@ else
 // Hash and encode the message.
 
 if(CryptHashMessage(
-       &amp;HashPara,
+       &HashPara,
        FALSE,
        1,
        rgpbToBeHashed,
        rgcbToBeHashed,
        pbHashedBlob,
-       &amp;cbHashedBlob,
+       &cbHashedBlob,
        NULL,
        NULL))
 {
@@ -373,7 +373,7 @@ if(CertControlStore(
     hCertStore,                    // The store to be controlled
     0,                             // Not used 
     CERT_STORE_CTRL_NOTIFY_CHANGE, // Control action type
-    &amp;hEvent))                      // Points to the event handle.
+    &hEvent))                      // Points to the event handle.
                                    // When a change is detected,
                                    // a signal is written to the 
                                    // space pointed to by
@@ -404,7 +404,7 @@ if (fSignal)
           hCertStore,               // in, the store to be controlled
           0,                        // in, not used.
           CERT_STORE_CTRL_RESYNC,   // in, control action type
-          &amp;hEvent))                 // in, the handle of the event 
+          &hEvent))                 // in, the handle of the event 
                                     // to be rearmed.
     printf("Resynchronization worked. \n");
   else

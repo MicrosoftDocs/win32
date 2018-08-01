@@ -25,7 +25,7 @@ The following sample code shows how to use [**RtmGetMostSpecificDestination**](/
 RTM_IPV4_SET_ADDR_AND_MASK(NetAddress, Addr, Mask);
 
 Status = RtmGetMostSpecificDestination(RtmRegHandle,
-                                       &amp;NetAddress,
+                                       &NetAddress,
                                        RTM_BEST_PROTOCOL,   // Determines which route information is returned.
                                        RTM_VIEW_MASK_UCAST, // Give the information for best unicast route
                                        DestInfo1);

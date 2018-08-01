@@ -105,14 +105,14 @@ int GetPropertyCacheCount(LPWSTR adsPath)
 
     HRESULT hr = ADsGetObject(adsPath,
                           IID_IADsPropertyList,
-                          (void**)&amp;pList);
+                          (void**)&pList);
     // Initialize the property cache.
-    hr = pList->QueryInterface(IID_IADs,(void**)&amp;pObj);
+    hr = pList->QueryInterface(IID_IADs,(void**)&pObj);
     pObj->GetInfo();
     pObj->Release();
 
     // Get the property count.
-    hr = pList->get_PropertyCount(&amp;count);
+    hr = pList->get_PropertyCount(&count);
     pList->Release();
 
     // Return the property count if it succeeded, otherwise

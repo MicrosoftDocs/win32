@@ -49,7 +49,7 @@ BOOL SetPrivilege(
     if ( !LookupPrivilegeValue( 
             NULL,            // lookup privilege on local system
             lpszPrivilege,   // privilege to lookup 
-            &amp;luid ) )        // receives LUID of privilege
+            &luid ) )        // receives LUID of privilege
     {
         printf("LookupPrivilegeValue error: %u\n", GetLastError() ); 
         return FALSE; 
@@ -67,7 +67,7 @@ BOOL SetPrivilege(
     if ( !AdjustTokenPrivileges(
            hToken, 
            FALSE, 
-           &amp;tp, 
+           &tp, 
            sizeof(TOKEN_PRIVILEGES), 
            (PTOKEN_PRIVILEGES) NULL, 
            (PDWORD) NULL) )

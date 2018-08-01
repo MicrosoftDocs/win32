@@ -82,7 +82,7 @@ public class MetadataReaderEnumerator : public IEnumUnknown
                         NULL,
                         WICPersistOptions.WICPersistOptionsDefault | 
             WICMetadataCreationOptions.WICMetadataCreationDefault, 
-                        m_pStream, &amp;m_ppMetadataReader[x]);
+                        m_pStream, &m_ppMetadataReader[x]);
         }
     }
 

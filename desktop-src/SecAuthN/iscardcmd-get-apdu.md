@@ -81,7 +81,7 @@ The following example shows how to retrieve the raw [*application protocol data 
 ```C++
 HRESULT    hr;
 
-hr = pISCardCmd->get_Apdu(&amp;pIByteApdu);
+hr = pISCardCmd->get_Apdu(&pIByteApdu);
 if (FAILED(hr)) 
 {
     printf("Failed get_Apdu.\n");

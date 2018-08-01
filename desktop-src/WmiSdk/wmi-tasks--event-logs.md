@@ -72,15 +72,15 @@ The following table lists script examples that can be used to obtain various typ
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
 Set objWMIService = GetObject(&quot;winmgmts:&quot; _
-    &amp; &quot;{impersonationLevel=impersonate,(Security)}!\\&quot; &amp; _
-        strComputer &amp; &quot;\root\cimv2&quot;)
+    & &quot;{impersonationLevel=impersonate,(Security)}!\\&quot; & _
+        strComputer & &quot;\root\cimv2&quot;)
 Set colLogFiles = objWMIService.ExecQuery _
     (&quot;Select * from Win32_NTEventLogFile &quot; _
-        &amp; &quot;Where LogFileName=&#39;Security&#39;&quot;)
+        & &quot;Where LogFileName=&#39;Security&#39;&quot;)
 For Each objLogFile in colLogFiles
     Wscript.Echo objLogFile.NumberOfRecords
     Wscript.Echo &quot;Maximum Size: &quot; _
-    &amp;  objLogfile.MaxFileSize 
+    &  objLogfile.MaxFileSize 
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -126,8 +126,8 @@ foreach ($objLogFile in $colLogFiles)
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate,(Backup)}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
-Set colLogFiles = objWMIService.ExecQuery (&quot;Select * from Win32_NTEventLogFile &quot; &amp; &quot;Where LogFileName=&#39;Application&#39;&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate,(Backup)}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
+Set colLogFiles = objWMIService.ExecQuery (&quot;Select * from Win32_NTEventLogFile &quot; & &quot;Where LogFileName=&#39;Application&#39;&quot;)
 For Each objLogfile in colLogFiles
     errBackupLog = objLogFile.BackupEventLog(&quot;c:\scripts\application.evt&quot;)
     WScript.Echo &quot;File saved as c:\scripts\applications.evt&quot;
@@ -180,14 +180,14 @@ foreach ($objLogFile in $colLogFiles)
 <td><pre><code>dtmThisDay = Day(Date)
 dtmThisMonth = Month(Date)
 dtmThisYear = Year(Date)
-strBackupName = dtmThisYear &amp; &quot;_&quot; &amp; dtmThisMonth &amp; &quot;_&quot; &amp; dtmThisDay
+strBackupName = dtmThisYear & &quot;_&quot; & dtmThisMonth & &quot;_&quot; & dtmThisDay
 strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate,(Backup)}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
-Set colLogFiles = objWMIService.ExecQuery (&quot;Select * from Win32_NTEventLogFile &quot; &amp; &quot;Where LogFileName=&#39;Application&#39;&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate,(Backup)}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
+Set colLogFiles = objWMIService.ExecQuery (&quot;Select * from Win32_NTEventLogFile &quot; & &quot;Where LogFileName=&#39;Application&#39;&quot;)
 For Each objLogfile in colLogFiles
-    objLogFile.BackupEventLog(&quot;c:\scripts\&quot; &amp; strBackupName &amp; &quot;_application.evt&quot;)
+    objLogFile.BackupEventLog(&quot;c:\scripts\&quot; & strBackupName & &quot;_application.evt&quot;)
     objLogFile.ClearEventLog()
-    WScript.Echo &quot;File saved: &quot; &amp; strBackupName &amp; &quot;_application.evt&quot;
+    WScript.Echo &quot;File saved: &quot; & strBackupName & &quot;_application.evt&quot;
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -237,8 +237,8 @@ foreach ($objLogFile in $colLogFiles)
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
-Set colLogFiles = objWMIService.ExecQuery (&quot;Select * from Win32_NTEventLogFile &quot; &amp; &quot;Where LogFileName=&#39;System&#39;&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
+Set colLogFiles = objWMIService.ExecQuery (&quot;Select * from Win32_NTEventLogFile &quot; & &quot;Where LogFileName=&#39;System&#39;&quot;)
 For Each objLogFile in colLogFiles
     Wscript.Echo objLogFile.NumberOfRecords
 Next</code></pre></td>
@@ -287,8 +287,8 @@ foreach ($objLogFile in $colLogFiles)
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate,(Backup, Security)}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
-Set colLogFiles = objWMIService.ExecQuery (&quot;Select * from Win32_NTEventLogFile &quot; &amp; &quot;Where LogFileName=&#39;Application&#39;&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate,(Backup, Security)}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
+Set colLogFiles = objWMIService.ExecQuery (&quot;Select * from Win32_NTEventLogFile &quot; & &quot;Where LogFileName=&#39;Application&#39;&quot;)
 For Each objLogfile in colLogFiles
     objLogFile.ClearEventLog()
     WScript.Echo &quot;Cleared application event log file&quot;
@@ -340,21 +340,21 @@ foreach ($objLogFile in $colLogFiles)
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
 Set objWMIService = GetObject(&quot;winmgmts:&quot; _
-    &amp; &quot;{impersonationLevel=impersonate}!\\&quot; _
-    &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+    & &quot;{impersonationLevel=impersonate}!\\&quot; _
+    & strComputer & &quot;\root\cimv2&quot;)
 Set colLoggedEvents = objWMIService.ExecQuery _
     (&quot;Select * from Win32_NTLogEvent &quot; _
-        &amp; &quot;Where Logfile = &#39;System&#39;&quot;)
+        & &quot;Where Logfile = &#39;System&#39;&quot;)
 For Each objEvent in colLoggedEvents
-    Wscript.Echo &quot;Category: &quot; &amp; objEvent.Category &amp; VBNewLine _
-    &amp; &quot;Computer Name: &quot; &amp; objEvent.ComputerName &amp; VBNewLine _
-    &amp; &quot;Event Code: &quot; &amp; objEvent.EventCode &amp; VBNewLine _
-    &amp; &quot;Message: &quot; &amp; objEvent.Message &amp; VBNewLine _
-    &amp; &quot;Record Number: &quot; &amp; objEvent.RecordNumber &amp; VBNewLine _
-    &amp; &quot;Source Name: &quot; &amp; objEvent.SourceName &amp; VBNewLine _
-    &amp; &quot;Time Written: &quot; &amp; objEvent.TimeWritten &amp; VBNewLine _
-    &amp; &quot;Event Type: &quot; &amp; objEvent.Type &amp; VBNewLine _
-    &amp; &quot;User: &quot; &amp; objEvent.User
+    Wscript.Echo &quot;Category: &quot; & objEvent.Category & VBNewLine _
+    & &quot;Computer Name: &quot; & objEvent.ComputerName & VBNewLine _
+    & &quot;Event Code: &quot; & objEvent.EventCode & VBNewLine _
+    & &quot;Message: &quot; & objEvent.Message & VBNewLine _
+    & &quot;Record Number: &quot; & objEvent.RecordNumber & VBNewLine _
+    & &quot;Source Name: &quot; & objEvent.SourceName & VBNewLine _
+    & &quot;Time Written: &quot; & objEvent.TimeWritten & VBNewLine _
+    & &quot;Event Type: &quot; & objEvent.Type & VBNewLine _
+    & &quot;User: &quot; & objEvent.User
 Next</code></pre></td>
 </tr>
 </tbody>

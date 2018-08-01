@@ -20,9 +20,9 @@ The following example draws a wide black line and then displays an opaque image 
 Bitmap bitmap(L"Texture1.jpg");
 Pen pen(Color(255, 0, 0, 0), 25);
 // First draw a wide black line.
-graphics.DrawLine(&amp;pen, Point(10, 35), Point(200, 35));
+graphics.DrawLine(&pen, Point(10, 35), Point(200, 35));
 // Now draw an image that covers part of the black line.
-graphics.DrawImage(&amp;bitmap,
+graphics.DrawImage(&bitmap,
    Rect(30, 0, bitmap.GetWidth(), bitmap.GetHeight()));
 ```
 
@@ -48,22 +48,22 @@ ColorMatrix colorMatrix = {1.0f, 0.0f, 0.0f, 0.0f, 0.0f,
                            0.0f, 0.0f, 0.0f, 0.0f, 1.0f};
 // Create an ImageAttributes object and set its color matrix.
 ImageAttributes imageAtt;
-imageAtt.SetColorMatrix(&amp;colorMatrix, ColorMatrixFlagsDefault,
+imageAtt.SetColorMatrix(&colorMatrix, ColorMatrixFlagsDefault,
    ColorAdjustTypeBitmap);
 // First draw a wide black line.
-graphics.DrawLine(&amp;pen, Point(10, 35), Point(200, 35));
+graphics.DrawLine(&pen, Point(10, 35), Point(200, 35));
 // Now draw the semitransparent bitmap image.
 INT iWidth = bitmap.GetWidth();
 INT iHeight = bitmap.GetHeight();
 graphics.DrawImage(
-   &amp;bitmap, 
+   &bitmap, 
    Rect(30, 0, iWidth, iHeight),  // Destination rectangle
    0,                             // Source rectangle X 
    0,                             // Source rectangle Y
    iWidth,                        // Source rectangle width
    iHeight,                       // Source rectangle height
    UnitPixel, 
-   &amp;imageAtt);
+   &imageAtt);
 ```
 
 

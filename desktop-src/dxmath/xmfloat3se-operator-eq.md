@@ -48,7 +48,7 @@ This operator is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMFLOAT3SE::operator = (const XMFLOAT3SE&amp;)</strong>](https://msdn.microsoft.com/en-us/library/Ee419502(v=VS.85).aspx)</td>
+<td style="text-align: left;">[<strong>XMFLOAT3SE::operator = (const XMFLOAT3SE&)</strong>](https://msdn.microsoft.com/en-us/library/Ee419502(v=VS.85).aspx)</td>
 <td style="text-align: left;">Assigns the vector component data from one instance of <code>XMFLOAT3SE</code> to the current instance of <code>XMFLOAT3SE</code>. <br/> This operator assigns the vector component data from one instance of [<strong>XMFLOAT3SE</strong>](https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx) to the current instance of <code>XMFLOAT3SE</code>. <br/>
 <blockquote>
 [!Note]<br />

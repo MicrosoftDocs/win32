@@ -37,8 +37,8 @@ case WMT_NO_RIGHTS_EX:
 
     IServiceProvider *pServiceProvider;
     IWMDRMReader pWMDRMReader;
-    JIF(g_pReader->QueryInterface(IID_IServiceProvider, (void **) &amp;pServiceProvider));
-    JIF(pServiceProvider->QueryService(IID_IWMDRMReader, IID_IWMDRMReader, (void **) &amp;pWMDRMReader)); 
+    JIF(g_pReader->QueryInterface(IID_IServiceProvider, (void **) &pServiceProvider));
+    JIF(pServiceProvider->QueryService(IID_IWMDRMReader, IID_IWMDRMReader, (void **) &pWMDRMReader)); 
     SAFE_RELEASE(pServiceProvider);
 
     // Set the rights we want for this file. These are the actions we 

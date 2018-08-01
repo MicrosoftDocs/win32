@@ -28,53 +28,53 @@ The following code example shows how to use the [**IADsSecurityUtility**](/windo
 '
 ' Define the ADS_RIGHTS_ENUM values.
 '
-Const ADS_RIGHT_DELETE = &amp;H10000
-Const ADS_RIGHT_READ_CONTROL = &amp;H20000
-Const ADS_RIGHT_WRITE_DAC = &amp;H40000
-Const ADS_RIGHT_WRITE_OWNER = &amp;H80000
-Const ADS_RIGHT_SYNCHRONIZE = &amp;H100000
-Const ADS_RIGHT_ACCESS_SYSTEM_SECURITY = &amp;H1000000
-Const ADS_RIGHT_GENERIC_READ = &amp;H80000000
-Const ADS_RIGHT_GENERIC_WRITE = &amp;H40000000
-Const ADS_RIGHT_GENERIC_EXECUTE = &amp;H20000000
-Const ADS_RIGHT_GENERIC_ALL = &amp;H10000000
-Const ADS_RIGHT_DS_CREATE_CHILD = &amp;H1
-Const ADS_RIGHT_DS_DELETE_CHILD = &amp;H2
-Const ADS_RIGHT_ACTRL_DS_LIST = &amp;H4
-Const ADS_RIGHT_DS_SELF = &amp;H8
-Const ADS_RIGHT_DS_READ_PROP = &amp;H10
-Const ADS_RIGHT_DS_WRITE_PROP = &amp;H20
-Const ADS_RIGHT_DS_DELETE_TREE = &amp;H40
-Const ADS_RIGHT_DS_LIST_OBJECT = &amp;H80
-Const ADS_RIGHT_DS_CONTROL_ACCESS = &amp;H100
+Const ADS_RIGHT_DELETE = &H10000
+Const ADS_RIGHT_READ_CONTROL = &H20000
+Const ADS_RIGHT_WRITE_DAC = &H40000
+Const ADS_RIGHT_WRITE_OWNER = &H80000
+Const ADS_RIGHT_SYNCHRONIZE = &H100000
+Const ADS_RIGHT_ACCESS_SYSTEM_SECURITY = &H1000000
+Const ADS_RIGHT_GENERIC_READ = &H80000000
+Const ADS_RIGHT_GENERIC_WRITE = &H40000000
+Const ADS_RIGHT_GENERIC_EXECUTE = &H20000000
+Const ADS_RIGHT_GENERIC_ALL = &H10000000
+Const ADS_RIGHT_DS_CREATE_CHILD = &H1
+Const ADS_RIGHT_DS_DELETE_CHILD = &H2
+Const ADS_RIGHT_ACTRL_DS_LIST = &H4
+Const ADS_RIGHT_DS_SELF = &H8
+Const ADS_RIGHT_DS_READ_PROP = &H10
+Const ADS_RIGHT_DS_WRITE_PROP = &H20
+Const ADS_RIGHT_DS_DELETE_TREE = &H40
+Const ADS_RIGHT_DS_LIST_OBJECT = &H80
+Const ADS_RIGHT_DS_CONTROL_ACCESS = &H100
 '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 '
 ' Ace Type definitions
 '
 Const ADS_ACETYPE_ACCESS_ALLOWED = 0
-Const ADS_ACETYPE_ACCESS_DENIED = &amp;H1
-Const ADS_ACETYPE_SYSTEM_AUDIT = &amp;H2
-Const ADS_ACETYPE_ACCESS_ALLOWED_OBJECT = &amp;H5
-Const ADS_ACETYPE_ACCESS_DENIED_OBJECT = &amp;H6
-Const ADS_ACETYPE_SYSTEM_AUDIT_OBJECT = &amp;H7
+Const ADS_ACETYPE_ACCESS_DENIED = &H1
+Const ADS_ACETYPE_SYSTEM_AUDIT = &H2
+Const ADS_ACETYPE_ACCESS_ALLOWED_OBJECT = &H5
+Const ADS_ACETYPE_ACCESS_DENIED_OBJECT = &H6
+Const ADS_ACETYPE_SYSTEM_AUDIT_OBJECT = &H7
 '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 '
 ' Ace Flag Constants
 '
-Const ADS_ACEFLAG_UNKNOWN = &amp;H1
-Const ADS_ACEFLAG_INHERIT_ACE = &amp;H2
-Const ADS_ACEFLAG_NO_PROPAGATE_INHERIT_ACE = &amp;H4
-Const ADS_ACEFLAG_INHERIT_ONLY_ACE = &amp;H8
-Const ADS_ACEFLAG_INHERITED_ACE = &amp;H10
-Const ADS_ACEFLAG_VALID_INHERIT_FLAGS = &amp;H1F
-Const ADS_ACEFLAG_SUCCESSFUL_ACCESS = &amp;H40
-Const ADS_ACEFLAG_FAILED_ACCESS = &amp;H80
+Const ADS_ACEFLAG_UNKNOWN = &H1
+Const ADS_ACEFLAG_INHERIT_ACE = &H2
+Const ADS_ACEFLAG_NO_PROPAGATE_INHERIT_ACE = &H4
+Const ADS_ACEFLAG_INHERIT_ONLY_ACE = &H8
+Const ADS_ACEFLAG_INHERITED_ACE = &H10
+Const ADS_ACEFLAG_VALID_INHERIT_FLAGS = &H1F
+Const ADS_ACEFLAG_SUCCESSFUL_ACCESS = &H40
+Const ADS_ACEFLAG_FAILED_ACCESS = &H80
 '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 '
 ' Flags constants for AD objects
 '
-Const ADS_FLAG_OBJECT_TYPE_PRESENT = &amp;H1
-Const ADS_FLAG_INHERITED_OBJECT_TYPE_PRESENT = &amp;H2
+Const ADS_FLAG_OBJECT_TYPE_PRESENT = &H1
+Const ADS_FLAG_INHERITED_OBJECT_TYPE_PRESENT = &H2
 '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 '
 ' From Winnt.h
@@ -82,70 +82,70 @@ Const ADS_FLAG_INHERITED_OBJECT_TYPE_PRESENT = &amp;H2
 '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ' File Specific Access Rights
 '
-Const DELETE = &amp;H10000
-Const READ_CONTROL = &amp;H20000
-Const WRITE_DAC = &amp;H40000
-Const WRITE_OWNER = &amp;H80000
-Const SYNCHRONIZE = &amp;H100000
+Const DELETE = &H10000
+Const READ_CONTROL = &H20000
+Const WRITE_DAC = &H40000
+Const WRITE_OWNER = &H80000
+Const SYNCHRONIZE = &H100000
 
-Const STANDARD_RIGHTS_REQUIRED = &amp;HF0000
+Const STANDARD_RIGHTS_REQUIRED = &HF0000
 
 Const STANDARD_RIGHTS_READ = READ_CONTROL
 Const STANDARD_RIGHTS_WRITE = READ_CONTROL
 Const STANDARD_RIGHTS_EXECUTE = READ_CONTROL
 
-Const STANDARD_RIGHTS_ALL = &amp;H1F0000
+Const STANDARD_RIGHTS_ALL = &H1F0000
 
-Const SPECIFIC_RIGHTS_ALL = &amp;HFFFF
+Const SPECIFIC_RIGHTS_ALL = &HFFFF
 
 '
 '  AccessSystemAcl access type
 '
 
-Const ACCESS_SYSTEM_SECURITY = &amp;H1000000
+Const ACCESS_SYSTEM_SECURITY = &H1000000
 
 '
 '  MaximumAllowed access type
 '
 
-Const MAXIMUM_ALLOWED = &amp;H2000000
+Const MAXIMUM_ALLOWED = &H2000000
 
 '
 '  These are the generic rights
 '
 
-Const GENERIC_READ = &amp;H80000000
-Const GENERIC_WRITE = &amp;H40000000
-Const GENERIC_EXECUTE = &amp;H20000000
-Const GENERIC_ALL = &amp;H10000000
+Const GENERIC_READ = &H80000000
+Const GENERIC_WRITE = &H40000000
+Const GENERIC_EXECUTE = &H20000000
+Const GENERIC_ALL = &H10000000
 
 '
 ' AccessMask constants for FILE ACEs
 '
-Const FILE_READ_DATA = &amp;H1                  '  file & pipe
-Const FILE_LIST_DIRECTORY = &amp;H1             '  directory
+Const FILE_READ_DATA = &H1                  '  file & pipe
+Const FILE_LIST_DIRECTORY = &H1             '  directory
 
-Const FILE_WRITE_DATA = &amp;H2                 '  file & pipe
-Const FILE_ADD_FILE = &amp;H2                   '  directory
+Const FILE_WRITE_DATA = &H2                 '  file & pipe
+Const FILE_ADD_FILE = &H2                   '  directory
 
-Const FILE_APPEND_DATA = &amp;H4                '  file
-Const FILE_ADD_SUBDIRECTORY = &amp;H4           '  directory
-Const FILE_CREATE_PIPE_INSTANCE = &amp;H4       '  named pipe
+Const FILE_APPEND_DATA = &H4                '  file
+Const FILE_ADD_SUBDIRECTORY = &H4           '  directory
+Const FILE_CREATE_PIPE_INSTANCE = &H4       '  named pipe
 
-Const FILE_READ_EA = &amp;H8                    '  file & directory
+Const FILE_READ_EA = &H8                    '  file & directory
 
-Const FILE_WRITE_EA = &amp;H10                  '  file & directory
+Const FILE_WRITE_EA = &H10                  '  file & directory
 
-Const FILE_EXECUTE = &amp;H20                   '  file
-Const FILE_TRAVERSE = &amp;H20                  '  directory
+Const FILE_EXECUTE = &H20                   '  file
+Const FILE_TRAVERSE = &H20                  '  directory
 
-Const FILE_DELETE_CHILD = &amp;H40              '  directory
+Const FILE_DELETE_CHILD = &H40              '  directory
 
-Const FILE_READ_ATTRIBUTES = &amp;H80           '  all
+Const FILE_READ_ATTRIBUTES = &H80           '  all
 
-Const FILE_WRITE_ATTRIBUTES = &amp;H100         '  all
+Const FILE_WRITE_ATTRIBUTES = &H100         '  all
 
-Const FILE_ALL_ACCESS = STANDARD_RIGHTS_REQUIRED Or SYNCHRONIZE Or &amp;H1FF
+Const FILE_ALL_ACCESS = STANDARD_RIGHTS_REQUIRED Or SYNCHRONIZE Or &H1FF
 
 Const FILE_GENERIC_READ = STANDARD_RIGHTS_READ Or _
     FILE_READ_DATA Or _
@@ -167,17 +167,17 @@ Const FILE_GENERIC_EXECUTE = STANDARD_RIGHTS_EXECUTE Or _
     FILE_EXECUTE Or _
     SYNCHRONIZE
 
-Const FILE_SHARE_READ = &amp;H1
-Const FILE_SHARE_WRITE = &amp;H2
-Const FILE_SHARE_DELETE = &amp;H4
+Const FILE_SHARE_READ = &H1
+Const FILE_SHARE_WRITE = &H2
+Const FILE_SHARE_DELETE = &H4
 '
 ' AceFlags values for files
 '
-Const OBJECT_INHERIT_ACE = &amp;H1
-Const CONTAINER_INHERIT_ACE = &amp;H2
-Const NO_PROPAGATE_INHERIT_ACE = &amp;H4
-Const INHERIT_ONLY_ACE = &amp;H8
-Const INHERITED_ACE = &amp;H10
+Const OBJECT_INHERIT_ACE = &H1
+Const CONTAINER_INHERIT_ACE = &H2
+Const NO_PROPAGATE_INHERIT_ACE = &H4
+Const INHERIT_ONLY_ACE = &H8
+Const INHERITED_ACE = &H10
   
 '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 '

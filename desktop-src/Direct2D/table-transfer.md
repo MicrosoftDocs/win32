@@ -41,7 +41,7 @@ The image here shows the input and output of the table transfer effect.
 
 ```C++
 ComPtr<ID2D1Effect> tableTransferEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1TableTransfer, &amp;tableTransferEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1TableTransfer, &tableTransferEffect);
 
 tableTransferEffect->SetInput(0, bitmap);
 

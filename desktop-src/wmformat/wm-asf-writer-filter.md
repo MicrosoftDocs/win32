@@ -62,11 +62,11 @@ IWMWriterAdvanced2 *pWMWA2 = NULL;
 
 hr = m_pGraph->AddFilter(pAsfWriter, L"WM ASF Writer");
 ...
-hr = pAsfWriter->QueryInterface(IID_IServiceProvider, (void**)&amp;pProvider)
+hr = pAsfWriter->QueryInterface(IID_IServiceProvider, (void**)&pProvider)
 if (SUCCEEDED(hr))
 {
     hr = pProvider->QueryService(IID_IWMWriterAdvanced2,
-        IID_IWMWriterAdvanced2, (void**)&amp;pWMWA2);
+        IID_IWMWriterAdvanced2, (void**)&pWMWA2);
     pProvider->Release();
 }
 

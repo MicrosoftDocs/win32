@@ -68,7 +68,7 @@ HRESULT CMyClass::ExploreContextNode(
 {
     // Check for certain types of context nodes.
     GUID ContextNodeType;
-    HRESULT hr = pContextNode->GetType(&amp;ContextNodeType);
+    HRESULT hr = pContextNode->GetType(&ContextNodeType);
 
     if (SUCCEEDED(hr))
     {
@@ -92,12 +92,12 @@ HRESULT CMyClass::ExploreContextNode(
         {
             // Check if this node is a branch or a leaf node.
             IContextNodes *pSubNodes = NULL;
-            hr = pContextNode->GetSubNodes(&amp;pSubNodes);
+            hr = pContextNode->GetSubNodes(&pSubNodes);
 
             if (SUCCEEDED(hr))
             {
                 ULONG ulSubNodeCount;
-                hr = pSubNodes->GetCount(&amp;ulSubNodeCount);
+                hr = pSubNodes->GetCount(&ulSubNodeCount);
 
                 if (SUCCEEDED(hr))
                 {
@@ -107,7 +107,7 @@ HRESULT CMyClass::ExploreContextNode(
                         IContextNode *pSubNode = NULL;
                         for (ULONG index=0; index<ulSubNodeCount; index++)
                         {
-                            hr = pSubNodes->GetContextNode(index, &amp;pSubNode);
+                            hr = pSubNodes->GetContextNode(index, &pSubNode);
 
                             if (SUCCEEDED(hr))
                             {
@@ -133,7 +133,7 @@ HRESULT CMyClass::ExploreContextNode(
                     {
                         // This is a leaf node. Check if it contains stroke data.
                         ULONG ulStrokeCount;
-                        hr = pContextNode->GetStrokeCount(&amp;ulStrokeCount);
+                        hr = pContextNode->GetStrokeCount(&ulStrokeCount);
 
                         if (SUCCEEDED(hr))
                         {

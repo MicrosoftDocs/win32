@@ -65,10 +65,10 @@ HRESULT GetSDFromIADs(
     // Set *ppSD to NULL.
     *ppSD = NULL;
     
-    VariantInit(&amp;var);
+    VariantInit(&var);
  
     // Get the nTSecurityDescriptor.
-    hr = pObject->Get(CComBSTR("nTSecurityDescriptor"), &amp;var);
+    hr = pObject->Get(CComBSTR("nTSecurityDescriptor"), &var);
     if (SUCCEEDED(hr))
     {
         // Type should be VT_DISPATCH - an IDispatch pointer to the security descriptor object.
@@ -76,7 +76,7 @@ HRESULT GetSDFromIADs(
         { 
             // Use V_DISPATCH macro to get the IDispatch pointer from the 
             // VARIANT structure and QueryInterface for the IADsSecurityDescriptor pointer.
-            hr = V_DISPATCH(&amp;var)->QueryInterface(IID_IADsSecurityDescriptor, (void**)ppSD);
+            hr = V_DISPATCH(&var)->QueryInterface(IID_IADsSecurityDescriptor, (void**)ppSD);
         }
         else
         {
@@ -84,7 +84,7 @@ HRESULT GetSDFromIADs(
         }
     }
 
-    VariantClear(&amp;var);
+    VariantClear(&var);
     return hr;
 }
 ```

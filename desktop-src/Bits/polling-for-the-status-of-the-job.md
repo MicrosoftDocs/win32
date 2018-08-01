@@ -38,14 +38,14 @@ LARGE_INTEGER liDueTime;
 
 liDueTime.QuadPart = -10000000;  //Poll every 1 second
 hTimer = CreateWaitableTimer(NULL, FALSE, L"MyTimer");
-SetWaitableTimer(hTimer, &amp;liDueTime, 1000, NULL, NULL, 0);
+SetWaitableTimer(hTimer, &liDueTime, 1000, NULL, NULL, 0);
 
 do
 {
   WaitForSingleObject(hTimer, INFINITE);
 
   //Use JobStates[State] to set the window text in a user interface.
-  hr = pJob->GetState(&amp;State);
+  hr = pJob->GetState(&State);
   if (FAILED(hr))
   {
     //Handle error
@@ -55,13 +55,13 @@ do
     //Call pJob->Complete(); to acknowledge that the transfer is complete
     //and make the file available to the client.
   else if (BG_JOB_STATE_ERROR == State || BG_JOB_STATE_TRANSIENT_ERROR == State)
-    //Call pJob->GetError(&amp;pError); to retrieve an IBackgroundCopyError interface 
+    //Call pJob->GetError(&pError); to retrieve an IBackgroundCopyError interface 
     //pointer which you use to determine the cause of the error.
   else if (BG_JOB_STATE_TRANSFERRING == State)
-    //Call pJob->GetProgress(&amp;Progress); to determine the number of bytes 
+    //Call pJob->GetProgress(&Progress); to determine the number of bytes 
     //and files transferred.
-} while (BG_JOB_STATE_TRANSFERRED != State &amp;&amp; 
-         BG_JOB_STATE_ERROR != State &amp;&amp;
+} while (BG_JOB_STATE_TRANSFERRED != State && 
+         BG_JOB_STATE_ERROR != State &&
          BG_JOB_STATE_TRANSIENT_ERROR != State);
 CancelWaitableTimer(hTimer);
 CloseHandle(hTimer);

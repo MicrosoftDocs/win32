@@ -47,7 +47,7 @@ HRESULT CMyInputPin::Inactive()
 
     // Make sure Receive has completed, and is not using resources.
     {
-        CAutoLock c(&amp;m_csReceive);
+        CAutoLock c(&m_csReceive);
 
         /* It is now safe to destroy filter resources used by the
            streaming thread. */

@@ -121,7 +121,7 @@ After the document itself is loaded, the properties to be displayed in Windows E
         }
     }
     
-    catch (_com_error &amp;e)
+    catch (_com_error &e)
     {
         hr = e.Error();
     }
@@ -182,7 +182,7 @@ HRESULT CRecipePropertyStore::_LoadProperties()
     else
     {
         // Create the in-memory property store.
-        hr = PSCreateMemoryPropertyStore(IID_PPV_ARGS(&amp;_spCache));
+        hr = PSCreateMemoryPropertyStore(IID_PPV_ARGS(&_spCache));
     
         if (SUCCEEDED(hr))
         {
@@ -208,7 +208,7 @@ The **\_LoadProperties** method also calls **\_LoadProperty** whose implementati
 
 
 ```
-HRESULT CRecipePropertyStore::_LoadProperty(PropertyMap &amp;map)
+HRESULT CRecipePropertyStore::_LoadProperty(PropertyMap &map)
 {
     HRESULT hr = S_FALSE;
     
@@ -220,7 +220,7 @@ HRESULT CRecipePropertyStore::_LoadProperty(PropertyMap &amp;map)
         
         if (map.vt == (VT_VECTOR | VT_LPWSTR))
         {
-            hr = _LoadVectorProperty(spXmlNode, &amp;propvar, map);
+            hr = _LoadVectorProperty(spXmlNode, &propvar, map);
         }
         else
         {
@@ -235,14 +235,14 @@ HRESULT CRecipePropertyStore::_LoadProperty(PropertyMap &amp;map)
             {
                 // SimplePropVariantFromString is a helper function.
                 // particular to the sample. It is found in Util.cpp.
-                hr = SimplePropVariantFromString(spXmlNode->text, &amp;propvar);
+                hr = SimplePropVariantFromString(spXmlNode->text, &propvar);
             }
         }
     
         if (S_OK == hr)
         {
-            hr = _spCache->SetValueAndState(map.key, &amp;propvar, PSC_NORMAL);
-            PropVariantClear(&amp;propvar);
+            hr = _spCache->SetValueAndState(map.key, &propvar, PSC_NORMAL);
+            PropVariantClear(&propvar);
         }
     }
     return hr;
@@ -280,7 +280,7 @@ As you can see in any of the recipe files included in the sample, there can be m
 HRESULT CRecipePropertyStore::_LoadVectorProperty
                                 (MSXML2::IXMLDOMNode *pNodeParent,
                                  PROPVARIANT *ppropvar,
-                                 struct PropertyMap &amp;map)
+                                 struct PropertyMap &map)
 {
     HRESULT hr = S_FALSE;
     MSXML2::IXMLDOMNodeListPtr spList = pNodeParent->selectNodes(map.pszSubNodeName);
@@ -293,10 +293,10 @@ HRESULT CRecipePropertyStore::_LoadVectorProperty
     
         if (ppropvar->calpwstr.pElems)
         {
-            for (UINT i = 0; (SUCCEEDED(hr) &amp;&amp; i < cElems); ++i)
+            for (UINT i = 0; (SUCCEEDED(hr) && i < cElems); ++i)
             {
                 hr = SHStrDup(spList->item[i]->text, 
-                              &amp;(ppropvar->calpwstr.pElems[i]));
+                              &(ppropvar->calpwstr.pElems[i]));
             }
     
             if (SUCCEEDED(hr))
@@ -307,7 +307,7 @@ HRESULT CRecipePropertyStore::_LoadVectorProperty
                     propvarCount.uintVal = cElems;
                     
                     _spCache->SetValueAndState(map.keyCount,
-                                               &amp;propvarCount, 
+                                               &propvarCount, 
                                                PSC_NORMAL);
                 }
             }
@@ -363,13 +363,13 @@ HRESULT CRecipePropertyStore::_LoadExtendedProperties()
         {
             MSXML2::IXMLDOMElementPtr spElement;
             
-            if (SUCCEEDED(spList->item[i]->QueryInterface(IID_PPV_ARGS(&amp;spElement))))
+            if (SUCCEEDED(spList->item[i]->QueryInterface(IID_PPV_ARGS(&spElement))))
             {
                 PROPERTYKEY key;
                 _bstr_t bstrPropName = spElement->getAttribute(L"Name").bstrVal;
     
-                if (!!bstrPropName &amp;&amp;
-                    (SUCCEEDED(PropertyKeyFromString(bstrPropName, &amp;key))))
+                if (!!bstrPropName &&
+                    (SUCCEEDED(PropertyKeyFromString(bstrPropName, &key))))
                 {
                     PROPVARIANT propvar = { 0 };
                     _bstr_t bstrEncodedValue = 
@@ -380,7 +380,7 @@ HRESULT CRecipePropertyStore::_LoadExtendedProperties()
                         // DeserializePropVariantFromString is a helper function
                         // particular to the sample. It is found in Util.cpp.
                         hr = DeserializePropVariantFromString(bstrEncodedValue, 
-                                                              &amp;propvar);
+                                                              &propvar);
                     }
 ```
 
@@ -394,7 +394,7 @@ HRESULT SerializePropVariantAsString(const PROPVARIANT *ppropvar, PWSTR *pszOut)
 {
     SERIALIZEDPROPERTYVALUE *pBlob;
     ULONG cbBlob;
-    HRESULT hr = StgSerializePropVariant(ppropvar, &amp;pBlob, &amp;cbBlob);
+    HRESULT hr = StgSerializePropVariant(ppropvar, &pBlob, &cbBlob);
 ```
 
 
@@ -412,7 +412,7 @@ Next, the [**CryptBinaryToString**](https://msdn.microsoft.com/en-us/library/Aa3
                                 cbBlob,
                                 CRYPT_STRING_BASE64, 
                                 NULL, 
-                                &amp;cchString))
+                                &cchString))
         {
             *pszOut = (PWSTR)CoTaskMemAlloc(sizeof(WCHAR) *cchString);
     
@@ -422,7 +422,7 @@ Next, the [**CryptBinaryToString**](https://msdn.microsoft.com/en-us/library/Aa3
                                          cbBlob,
                                          CRYPT_STRING_BASE64,
                                          *pszOut, 
-                                         &amp;cchString))
+                                         &cchString))
                 {
                     hr = <mark type="const">S_OK</mark>;
                 }
@@ -512,14 +512,14 @@ HRESULT CRecipePropertyStore::_LoadSearchContent()
     if (bstrContent.length() > 0)
     {
         PROPVARIANT propvar = { VT_LPWSTR };
-        hr = SHStrDup(bstrContent, &amp;(propvar.pwszVal));
+        hr = SHStrDup(bstrContent, &(propvar.pwszVal));
     
         if (SUCCEEDED(hr))
         {
             hr = _spCache->SetValueAndState(PKEY_Search_Contents, 
-                                            &amp;propvar, 
+                                            &propvar, 
                                             PSC_NORMAL);
-            PropVariantClear(&amp;propvar);
+            PropVariantClear(&propvar);
         }
     }
     
@@ -709,7 +709,7 @@ Next, get the number of properties stored in the in-memory cache.
 
 
 ```
-HRESULT hr = _pCache->GetCount(&amp;cProps);          
+HRESULT hr = _pCache->GetCount(&cProps);          
             
 ```
 
@@ -719,10 +719,10 @@ Now iterate through the properties to determine whether the value of a property 
 
 
 ```
-    for (UINT i = 0; SUCCEEDED(hr) &amp;&amp; (i < cProps); ++i)
+    for (UINT i = 0; SUCCEEDED(hr) && (i < cProps); ++i)
     {
         PROPERTYKEY key;
-        hr = _pCache->GetAt(i, &amp;key); 
+        hr = _pCache->GetAt(i, &key); 
 ```
 
 
@@ -735,12 +735,12 @@ The [**IPropertyStoreCache::GetState**](https://msdn.microsoft.com/library/Bb761
         {
             // check the cache state; only save dirty properties
             PSC_STATE psc;
-            hr = _pCache->GetState(key, &amp;psc);
-            if (SUCCEEDED(hr) &amp;&amp; psc == PSC_DIRTY)
+            hr = _pCache->GetState(key, &psc);
+            if (SUCCEEDED(hr) && psc == PSC_DIRTY)
             {
                 // get the cached value
                 PROPVARIANT propvar = {};
-                hr = _pCache->GetValue(key, &amp;propvar); 
+                hr = _pCache->GetValue(key, &propvar); 
 ```
 
 
@@ -776,7 +776,7 @@ If a property is not in the map, it is a new property that was set by Windows Ex
                         hr = _SaveExtendedProperty(key, propvar);
                     }
 
-                    PropVariantClear(&amp;propvar);
+                    PropVariantClear(&propvar);
                 }
             }
         }

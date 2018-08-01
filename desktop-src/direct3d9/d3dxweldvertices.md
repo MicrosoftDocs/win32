@@ -136,11 +136,11 @@ DWORD            i;                       // internal variable
     hr = D3DXLoadMeshFromX ( strMediaPath,
                          D3DXMESH_MANAGED,
                          m_pd3dDevice,
-                         &amp;pAdjacencyBuffer,
-                         &amp;pD3DXMtrlBuffer,
+                         &pAdjacencyBuffer,
+                         &pD3DXMtrlBuffer,
                          NULL,
-                         &amp;m_dwNumMaterials,
-                         &amp;pMesh ) )
+                         &m_dwNumMaterials,
+                         &pMesh ) )
                              
     if( FAILED( hr ) ) 
       goto End;              // Go to error handling
@@ -157,7 +157,7 @@ DWORD            i;                       // internal variable
     
     hr = D3DXWeldVertices ( pMesh,
                             D3DXWELDEPSILONS_WELDPARTIALMATCHES,
-                            &amp;Epsilons,
+                            &Epsilons,
                             (DWORD*)pAdjacencyBuffer->GetBufferPointer(),
                             (DWORD*)pAdjacencyBuffer->GetBufferPointer(),
                             (DWORD*)pFaceRemap,

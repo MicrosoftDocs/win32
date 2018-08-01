@@ -32,8 +32,8 @@ BOOL GetMyUserDefinedLanguages(WCHAR * langStr, DWORD langStrSize)
     {
         // Clear the input variables.
         DWORD bytesActuallyRead = 0;
-        if(ReadFile(langConfigFileHandle, langStr, langStrSize*sizeof(WCHAR), &amp;bytesActuallyRead, NULL)
-           &amp;&amp; bytesActuallyRead > 0)
+        if(ReadFile(langConfigFileHandle, langStr, langStrSize*sizeof(WCHAR), &bytesActuallyRead, NULL)
+           && bytesActuallyRead > 0)
         {
             rtnVal = TRUE;
             DWORD nullIndex = (bytesActuallyRead/sizeof(WCHAR) < langStrSize)
@@ -48,30 +48,30 @@ BOOL ConvertMyLangStrToMultiLangStr(WCHAR * langStr, WCHAR * langMultiStr, DWORD
 {
     BOOL rtnVal = FALSE;
     size_t strLen = 0;
-    rtnVal = SUCCEEDED(StringCchLengthW(langStr, USER_CONFIGURATION_STRING_BUFFER*2, &amp;strLen));
-    if(rtnVal &amp;&amp; strLen > 0 &amp;&amp; langMultiStr &amp;&amp; langMultiStrSize > 0)
+    rtnVal = SUCCEEDED(StringCchLengthW(langStr, USER_CONFIGURATION_STRING_BUFFER*2, &strLen));
+    if(rtnVal && strLen > 0 && langMultiStr && langMultiStrSize > 0)
     {
         WCHAR * langMultiStrPtr = langMultiStr;
         WCHAR * last = langStr + (langStr[0] == 0xFEFF ? 1 : 0);
         WCHAR * context = last;
-        WCHAR * next = wcstok_s(last,L",; :",&amp;context);
-        while(next &amp;&amp; rtnVal)
+        WCHAR * next = wcstok_s(last,L",; :",&context);
+        while(next && rtnVal)
         {
             // Make sure you validate the user input.
-            if(SUCCEEDED(StringCchLengthW(last, LOCALE_NAME_MAX_LENGTH, &amp;strLen))
-               &amp;&amp; IsValidLocaleName(next))
+            if(SUCCEEDED(StringCchLengthW(last, LOCALE_NAME_MAX_LENGTH, &strLen))
+               && IsValidLocaleName(next))
             {
                 langMultiStrPtr[0] = L'\0';
-                rtnVal &amp;= SUCCEEDED(StringCchCatW(langMultiStrPtr,
+                rtnVal &= SUCCEEDED(StringCchCatW(langMultiStrPtr,
                                     (langMultiStrSize - (langMultiStrPtr - langMultiStr)), next));
                 langMultiStrPtr += strLen + 1;
             }
-            next = wcstok_s(NULL, L",; :", &amp;context);
+            next = wcstok_s(NULL, L",; :", &context);
             if(next)
                 last = next;
         }
         // Make sure there is a double null term for the multi-string.
-        if(rtnVal &amp;&amp; (langMultiStrSize - (langMultiStrPtr - langMultiStr)))
+        if(rtnVal && (langMultiStrSize - (langMultiStrPtr - langMultiStr)))
         {
             langMultiStrPtr[0] = L'\0';
         }
@@ -95,7 +95,7 @@ After reading the language preference information, the application code must use
 ```C++
 DWORD langCount = 0;
 // Using SetProcessPreferredUILanguages is recommended for new applications (esp. multi-threaded applications).
-if(!SetProcessPreferredUILanguages(MUI_LANGUAGE_NAME, userLanguagesMultiString, &amp;langCount) || langCount == 0)
+if(!SetProcessPreferredUILanguages(MUI_LANGUAGE_NAME, userLanguagesMultiString, &langCount) || langCount == 0)
 {
     swprintf_s(displayBuffer, SUFFICIENTLY_LARGE_ERROR_BUFFER,
                L"FAILURE: Unable to set the user defined languages, last error = %d.", GetLastError());
@@ -112,7 +112,7 @@ On Windows Vista and later, the application language is set at the thread level
 ```C++
 DWORD langCount = 0;
 // The following line of code is supported on Windows Vista and later.
-if(!SetThreadPreferredUILanguages(MUI_LANGUAGE_NAME, userLanguagesMultiString, &amp;langCount) || langCount == 0)
+if(!SetThreadPreferredUILanguages(MUI_LANGUAGE_NAME, userLanguagesMultiString, &langCount) || langCount == 0)
 {
     swprintf_s(displayBuffer, SUFFICIENTLY_LARGE_ERROR_BUFFER,
                L"FAILURE: Unable to set the user defined languages, last error = %d.", GetLastError());

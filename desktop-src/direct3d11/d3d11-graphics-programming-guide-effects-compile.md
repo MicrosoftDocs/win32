@@ -33,7 +33,7 @@ Here's an example of compiling an effect file.
 WCHAR str[MAX_PATH];
 DXUTFindDXSDKMediaFileCch( str, MAX_PATH, L"BasicHLSL10.fx" );
 
-hr = D3DX11CompileFromFile( str, NULL, NULL, pFunctionName, pProfile, D3D10_SHADER_ENABLE_STRICTNESS, NULL, NULL, &amp;pBlob, &amp;pErrorBlob, NULL );
+hr = D3DX11CompileFromFile( str, NULL, NULL, pFunctionName, pProfile, D3D10_SHADER_ENABLE_STRICTNESS, NULL, NULL, &pBlob, &pErrorBlob, NULL );
 ```
 
 
@@ -91,7 +91,7 @@ Modify the compile effect call to take a pointer to the macros.
 ```
 D3DX11CompileFromFile( str, Shader_Macros, NULL, pFunctionName, 
                        pProfile, D3D10_SHADER_ENABLE_STRICTNESS, NULL, 
-                       NULL, &amp;pBlob, &amp;pErrorBlob, NULL );    
+                       NULL, &pBlob, &pErrorBlob, NULL );    
 ```
 
 
@@ -146,7 +146,7 @@ ID3DBlob*   l_pBlob_Errors = NULL;
 hr = DXUTFindDXSDKMediaFileCch( str, MAX_PATH, L"BasicHLSL10.fx" );
 hr = D3DX11CompileFromFile( str, NULL, NULL, pFunctionName, 
                        pProfile, D3D10_SHADER_ENABLE_STRICTNESS, NULL, 
-                       NULL, &amp;pBlob, &amp;pErrorBlob, NULL );      
+                       NULL, &pBlob, &pErrorBlob, NULL );      
 
 LPVOID l_pError = NULL;
 if( pErrorBlob )

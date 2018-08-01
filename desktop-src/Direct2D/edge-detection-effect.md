@@ -30,7 +30,7 @@ The CLSID for this effect is CLSID\_D2D1EdgeDetection.
 
 ```C++
 ComPtr<ID2D1Effect> edgeDetectionEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1EdgeDetection, &amp;edgeDetectionEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1EdgeDetection, &edgeDetectionEffect);
  
 edgeDetectionEffect->SetInput(0, bitmap);
 edgeDetectionEffect->SetValue(D2D1_EDGEDETECTION_PROP_STRENGTH, 0.5f);

@@ -63,7 +63,7 @@ BOOL ParseALargeFile(HWND hwndParent, LPTSTR lpszFileName)
     
     InitCommonControls(); 
     
-    GetClientRect(hwndParent, &amp;rcClient); 
+    GetClientRect(hwndParent, &rcClient); 
     
     cyVScroll = GetSystemMetrics(SM_CYVSCROLL); 
 
@@ -96,7 +96,7 @@ BOOL ParseALargeFile(HWND hwndParent, LPTSTR lpszFileName)
     pchTmp = pch; 
     
     do { 
-        ReadFile(hFile, pchTmp, sizeof(char) * 2048, &amp;cb, (LPOVERLAPPED) NULL);
+        ReadFile(hFile, pchTmp, sizeof(char) * 2048, &cb, (LPOVERLAPPED) NULL);
         
         // TODO: Write an error handler to check that all the
         // requested data was read.

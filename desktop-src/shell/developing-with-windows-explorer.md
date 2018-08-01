@@ -50,10 +50,10 @@ void CloseExplorerWindows()
     if (SUCCEEDED(CoCreateInstance(CLSID_ShellWindows, 
                                    NULL,  
                                    CLSCTX_LOCAL_SERVER, 
-                                   IID_PPV_ARGS(&amp;psw))))
+                                   IID_PPV_ARGS(&psw))))
     {
         VARIANT v = { VT_I4 };
-        if (SUCCEEDED(psw->get_Count(&amp;v.lVal)))
+        if (SUCCEEDED(psw->get_Count(&v.lVal)))
         {
             // Walk backward to make sure that the windows that close
             // do not cause the array to be reordered.
@@ -61,10 +61,10 @@ void CloseExplorerWindows()
             {
                 IDispatch *pdisp;
                 
-                if (S_OK == psw->Item(v, &amp;pdisp))
+                if (S_OK == psw->Item(v, &pdisp))
                 {
                     IWebBrowser2 *pwb;
-                    if (SUCCEEDED(pdisp->QueryInterface(IID_PPV_ARGS(&amp;pwb))))
+                    if (SUCCEEDED(pdisp->QueryInterface(IID_PPV_ARGS(&pwb))))
                     {
                         pwb->Quit();
                         pwb->Release();
@@ -85,7 +85,7 @@ HRESULT InitVariantFromObject(IUnknown *punk, VARIANT *pvar)
     VariantInit(pvar);
  
     PIDLIST_ABSOLUTE pidl;
-    HRESULT hr = SHGetIDListFromObject(punk, &amp;pidl);
+    HRESULT hr = SHGetIDListFromObject(punk, &pidl);
     if (SUCCEEDED(hr))
     {
         hr = InitVariantFromBuffer(pidl, ILGetSize(pidl), pvar);
@@ -99,7 +99,7 @@ HRESULT ParseItemAsVariant(PCWSTR pszItem, IBindCtx *pbc, VARIANT *pvar)
     VariantInit(pvar);
  
     IShellItem *psi;
-    HRESULT hr = SHCreateItemFromParsingName(pszItem, NULL, IID_PPV_ARGS(&amp;psi));
+    HRESULT hr = SHCreateItemFromParsingName(pszItem, NULL, IID_PPV_ARGS(&psi));
     if (SUCCEEDED(hr))
     {
         hr = InitVariantFromObject(psi, pvar);
@@ -113,7 +113,7 @@ HRESULT GetKnownFolderAsVariant(REFKNOWNFOLDERID kfid, VARIANT *pvar)
     VariantInit(pvar);
  
     PIDLIST_ABSOLUTE pidl;
-    HRESULT hr = SHGetKnownFolderIDList(kfid, 0, NULL, &amp;pidl);
+    HRESULT hr = SHGetKnownFolderIDList(kfid, 0, NULL, &pidl);
     if (SUCCEEDED(hr))
     {
         hr = InitVariantFromBuffer(pidl, ILGetSize(pidl), pvar);
@@ -128,8 +128,8 @@ HRESULT GetShellItemFromCommandLine(REFIID riid, void **ppv)
     HRESULT hr = E_FAIL;
 
     int cArgs;
-    PWSTR *ppszCmd = CommandLineToArgvW(GetCommandLineW(), &amp;cArgs);
-    if (ppszCmd &amp;&amp; cArgs > 1)
+    PWSTR *ppszCmd = CommandLineToArgvW(GetCommandLineW(), &cArgs);
+    if (ppszCmd && cArgs > 1)
     {
         WCHAR szSpec[MAX_PATH];
         StringCchCopyW(szSpec, ARRAYSIZE(szSpec), ppszCmd[1]);
@@ -160,7 +160,7 @@ HRESULT GetShellItemFromCommandLineAsVariant(VARIANT *pvar)
     VariantInit(pvar);
 
     IShellItem *psi;
-    HRESULT hr = GetShellItemFromCommandLine(IID_PPV_ARGS(&amp;psi));
+    HRESULT hr = GetShellItemFromCommandLine(IID_PPV_ARGS(&psi));
     if (SUCCEEDED(hr))
     {
         hr = InitVariantFromObject(psi, pvar);
@@ -175,7 +175,7 @@ void OpenWindow()
     HRESULT hr = CoCreateInstance(CLSID_ShellBrowserWindow, 
                                   NULL,
                                   CLSCTX_LOCAL_SERVER, 
-                                  IID_PPV_ARGS(&amp;pwb));
+                                  IID_PPV_ARGS(&pwb));
     if (SUCCEEDED(hr))
     {
         CoAllowSetForegroundWindow(pwb, 0);
@@ -186,21 +186,21 @@ void OpenWindow()
         pwb->put_Width(800);
  
         VARIANT varTarget = {0};
-        hr = GetShellItemFromCommandLineAsVariant(&amp;varTarget);
+        hr = GetShellItemFromCommandLineAsVariant(&varTarget);
         if (FAILED(hr))
         {
-            hr = GetKnownFolderAsVariant(FOLDERID_UsersFiles, &amp;varTarget);
+            hr = GetKnownFolderAsVariant(FOLDERID_UsersFiles, &varTarget);
         }
 
         if (SUCCEEDED(hr))
         {
             VARIANT vEmpty = {0};
-            hr = pwb->Navigate2(&amp;varTarget, &amp;vEmpty, &amp;vEmpty, &amp;vEmpty, &amp;vEmpty);
+            hr = pwb->Navigate2(&varTarget, &vEmpty, &vEmpty, &vEmpty, &vEmpty);
             if (SUCCEEDED(hr))
             {
                 pwb->put_Visible(VARIANT_TRUE);
             }
-            VariantClear(&amp;varTarget);
+            VariantClear(&varTarget);
         }
         pwb->Release();
     }

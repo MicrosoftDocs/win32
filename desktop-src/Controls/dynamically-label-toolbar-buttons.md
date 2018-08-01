@@ -40,7 +40,7 @@ LRESULT RelabelButton(HWND hWndToolbar)
     tbInfo.dwMask  = TBIF_TEXT;
     tbInfo.pszText = L"Save As";
     
-    return SendMessage(hWndToolbar, TB_SETBUTTONINFO, (WPARAM)IDM_SAVE, (LPARAM)&amp;tbInfo);
+    return SendMessage(hWndToolbar, TB_SETBUTTONINFO, (WPARAM)IDM_SAVE, (LPARAM)&tbInfo);
 }
 ```
 

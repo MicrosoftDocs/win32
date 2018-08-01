@@ -17,16 +17,16 @@ For example:
 
 
 ```
-pDevice->CreateRasterizerState( ..., &amp;pRasterizerState );
+pDevice->CreateRasterizerState( ..., &pRasterizerState );
 pDevice->RSSetState( pRasterizerState );
  
-pDevice->RSGetState( &amp;pCurRasterizerState );
+pDevice->RSGetState( &pCurRasterizerState );
 // pCurRasterizerState will be equal to pRasterizerState.
 pCurRasterizerState->Release();
  
 pRasterizerState->Release();
 // Following the final release, the object is unbound.
-pDevice->RSGetState( &amp;pCurRasterizerState );
+pDevice->RSGetState( &pCurRasterizerState );
 // pCurRasterizerState will be equal to NULL.
 ```
 

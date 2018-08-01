@@ -399,21 +399,21 @@ int __cdecl wmain()
     //        
     PredicateCount = 0;  
   
-    PayloadPredicateCreate(&amp;Predicates[PredicateCount++],  
+    PayloadPredicateCreate(&Predicates[PredicateCount++],  
                            L"Initiator",  
                            PAYLOADFIELD_IS,  
                            L"User");  
   
-    PayloadPredicateCreate(&amp;Predicates[PredicateCount++],  
+    PayloadPredicateCreate(&Predicates[PredicateCount++],  
                            L"Level",  
                            PAYLOADFIELD_BETWEEN,  
                            L"7,16");  
   
-    Status = TdhCreatePayloadFilter(&amp;EXAMPLE_PROVIDER,  
-                                    &amp;Example_Event_1,  
+    Status = TdhCreatePayloadFilter(&EXAMPLE_PROVIDER,  
+                                    &Example_Event_1,  
                                     FALSE,      // Match all predicates (AND)                                      PredicateCount,  
                                     Predicates,  
-                                    &amp;EventFilters[FilterCount++]);  
+                                    &EventFilters[FilterCount++]);  
     if (Status != ERROR_SUCCESS) {  
         wprintf(L"TdhCreatePayloadFilter() failed with %lu\n", Status);  
         goto Exit;  
@@ -427,26 +427,26 @@ int __cdecl wmain()
     //      Example_Event_2.ErrorCode != 0      //    
     PredicateCount = 0;  
   
-    PayloadPredicateCreate(&amp;Predicates[PredicateCount++],  
+    PayloadPredicateCreate(&Predicates[PredicateCount++],  
                            L"Title",  
                            PAYLOADFIELD_CONTAINS,  
                            L"UNI");  
   
-    PayloadPredicateCreate(&amp;Predicates[PredicateCount++],  
+    PayloadPredicateCreate(&Predicates[PredicateCount++],  
                            L"InstanceId",  
                            PAYLOADFIELD_IS,  
                            L" {0E95CFBC-58D4-44BA-BE40-E63A853536DF}");  
   
-    PayloadPredicateCreate(&amp;Predicates[PredicateCount++],  
+    PayloadPredicateCreate(&Predicates[PredicateCount++],  
                            L"ErrorCode",  
                            PAYLOADFIELD_NE,  
                            L"0");  
   
-    Status = TdhCreatePayloadFilter(&amp;EXAMPLE_PROVIDER,  
-                                    &amp;Example_Event_2,  
+    Status = TdhCreatePayloadFilter(&EXAMPLE_PROVIDER,  
+                                    &Example_Event_2,  
                                     FALSE,      // Match any predicates (OR)                                      PredicateCount,  
                                     Predicates,  
-                                    &amp;EventFilters[FilterCount++]);  
+                                    &EventFilters[FilterCount++]);  
     if (Status != ERROR_SUCCESS) {  
         wprintf(L"TdhCreatePayloadFilter() failed with %lu\n", Status);  
         goto Exit;  
@@ -458,7 +458,7 @@ int __cdecl wmain()
     Status = TdhAggregatePayloadFilters(FilterCount,  
                                         EventFilters,  
                                         NULL,  
-                                        &amp;FilterDescriptor);  
+                                        &FilterDescriptor);  
     if (Status != ERROR_SUCCESS) {  
         wprintf(L"TdhAggregatePayloadFilters() failed with %lu\n", Status);  
         goto Exit;  
@@ -469,7 +469,7 @@ int __cdecl wmain()
     //    
     for (i = 0; i < FilterCount; i++) {  
   
-        Status = TdhDeletePayloadFilter(&amp;EventFilters[i]);  
+        Status = TdhDeletePayloadFilter(&EventFilters[i]);  
         if (Status != ERROR_SUCCESS) {  
             wprintf(L"TdhDeletePayloadFilter() failed with %lu\n", Status);  
             goto Exit;  
@@ -499,7 +499,7 @@ int __cdecl wmain()
     TraceProperties->MinimumBuffers = 8;  
     TraceProperties->MaximumBuffers = 64;  
   
-    Status = StartTrace(&amp;SessionHandle, LoggerName, TraceProperties);  
+    Status = StartTrace(&SessionHandle, LoggerName, TraceProperties);  
     if (Status != ERROR_SUCCESS) {  
         wprintf(L"StartTrace() failed with %lu\n", Status);  
         goto Exit;  
@@ -511,19 +511,19 @@ int __cdecl wmain()
     // Enable the provider to a trace session with filtering enabled on the      
     // provider      
     //    
-    ZeroMemory(&amp;EnableParameters, sizeof(EnableParameters));  
+    ZeroMemory(&EnableParameters, sizeof(EnableParameters));  
     EnableParameters.Version = ENABLE_TRACE_PARAMETERS_VERSION_2;  
-    EnableParameters.EnableFilterDesc = &amp;FilterDescriptor;  
+    EnableParameters.EnableFilterDesc = &FilterDescriptor;  
     EnableParameters.FilterDescCount = 1;  
   
     Status = EnableTraceEx2(SessionHandle,  
-                            &amp;EXAMPLE_PROVIDER,  
+                            &EXAMPLE_PROVIDER,  
                             EVENT_CONTROL_CODE_ENABLE_PROVIDER,  
                             TRACE_LEVEL_VERBOSE,  
                             0,  
                             0,  
                             0,  
-                            &amp;EnableParameters);  
+                            &EnableParameters);  
     if (Status != ERROR_SUCCESS) {  
         wprintf(L"EnableTraceEx2() failed with %lu\n", Status);  
         goto Exit;  
@@ -532,7 +532,7 @@ int __cdecl wmain()
     //      
     // Clean up the payload descriptor      
     //    
-    Status = TdhCleanupPayloadEventFilterDescriptor(&amp;FilterDescriptor);  
+    Status = TdhCleanupPayloadEventFilterDescriptor(&FilterDescriptor);  
     if (Status != ERROR_SUCCESS) {  
         wprintf(L"TdhCleanupPayloadEventFilterDescriptor() failed with %lu\n", Status);  
         goto Exit;  

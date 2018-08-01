@@ -766,7 +766,7 @@ close (STDERR);
 my ($PrintJobset, $PrintJob);
 eval {$PrintJobset = Win32::OLE->GetObject("winmgmts:{impersonationLevel=impersonate}")->
  InstancesOf ("Win32_PrintJob") };
-if (!$@ &amp;&amp; defined $PrintJobset)
+if (!$@ && defined $PrintJobset)
 {
  if ($PrintJobset->{Count} == 0 ) 
  {

@@ -36,7 +36,7 @@ HRESULT AddSourceNode(
     IMFTopologyNode *pNode = NULL;
 
     // Create the node.
-    HRESULT hr = MFCreateTopologyNode(MF_TOPOLOGY_SOURCESTREAM_NODE, &amp;pNode);
+    HRESULT hr = MFCreateTopologyNode(MF_TOPOLOGY_SOURCESTREAM_NODE, &pNode);
     if (FAILED(hr))
     {
         goto done;
@@ -73,7 +73,7 @@ HRESULT AddSourceNode(
     (*ppNode)->AddRef();
 
 done:
-    SafeRelease(&amp;pNode);
+    SafeRelease(&pNode);
     return hr;
 }
 ```

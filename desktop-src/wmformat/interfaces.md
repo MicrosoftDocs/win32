@@ -242,7 +242,7 @@ The interface identifier for each of the interfaces in this SDK is the name of t
 ```C++
 IWMReaderAdvanced *pReaderAdvanced;
 hr = pReader->QueryInterface(IID_IWMReaderAdvanced,
-                             (LPVOID*) &amp;pReaderAdvanced);
+                             (LPVOID*) &pReaderAdvanced);
 
 ```
 

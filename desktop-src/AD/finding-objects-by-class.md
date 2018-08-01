@@ -23,7 +23,7 @@ A typical search queries for a specific object class. The following code example
 
 
 ```C++
-(&amp;(objectCategory=computer)(location=Building 7N))
+(&(objectCategory=computer)(location=Building 7N))
 ```
 
 
@@ -52,9 +52,9 @@ Be aware that there are some cases where a combination of **objectClass** and **
 
 
 ```C++
-(&amp;(objectClass=user)(objectCategory=person))
+(&(objectClass=user)(objectCategory=person))
  
-(&amp;(objectClass=contact)(objectCategory=person))
+(&(objectClass=contact)(objectCategory=person))
 ```
 
 

@@ -31,38 +31,38 @@ case WM_COMMAND:
            break; 
  
        case  IDM_STRETCHIMAGE:      // stretch destination RECT 3:2, 
-           MCIWndGetDest(g_hwndMCIWnd, &amp;rCurrent); // destination RECT 
+           MCIWndGetDest(g_hwndMCIWnd, &rCurrent); // destination RECT 
            rDest.top = rCurrent.top;               // new boundaries 
            rDest.right = rCurrent.right; 
            rDest.left = rCurrent.left + 
                ((rCurrent.left - rCurrent.right) * 3); 
            rDest.bottom = rCurrent.top + 
                ((rCurrent.bottom - rCurrent.top) * 2); 
-           MCIWndPutDest(g_hwndMCIWnd, &amp;rDest); // new destination 
+           MCIWndPutDest(g_hwndMCIWnd, &rDest); // new destination 
            break; 
        case IDM_MOVEDOWN:           // move toward bottom of image 
-           MCIWndGetDest(g_hwndMCIWnd, &amp;rCurrent); // destination RECT 
+           MCIWndGetDest(g_hwndMCIWnd, &rCurrent); // destination RECT 
            rCurrent.top -= 100;                    // new boundaries 
            rCurrent.bottom -= 100; 
-           MCIWndPutDest(g_hwndMCIWnd, &amp;rCurrent); // new destination
+           MCIWndPutDest(g_hwndMCIWnd, &rCurrent); // new destination
            break; 
        case IDM_MOVEUP:             // move toward top of image 
-           MCIWndGetDest(g_hwndMCIWnd, &amp;rCurrent); // destination RECT 
+           MCIWndGetDest(g_hwndMCIWnd, &rCurrent); // destination RECT 
            rCurrent.top += 100;                    // new boundaries 
            rCurrent.bottom += 100; 
-           MCIWndPutDest(g_hwndMCIWnd, &amp;rCurrent); // new destination 
+           MCIWndPutDest(g_hwndMCIWnd, &rCurrent); // new destination 
            break; 
        case IDM_MOVELEFT:           // move toward left edge of image
-           MCIWndGetDest(g_hwndMCIWnd, &amp;rCurrent); // destination RECT 
+           MCIWndGetDest(g_hwndMCIWnd, &rCurrent); // destination RECT 
            rCurrent.right += 100;                  // new boundaries 
            rCurrent.left += 100; 
-           MCIWndPutDest(g_hwndMCIWnd, &amp;rCurrent); // new destination 
+           MCIWndPutDest(g_hwndMCIWnd, &rCurrent); // new destination 
            break; 
        case  IDM_MOVERIGHT:         // move toward right edge of image
-           MCIWndGetDest(g_hwndMCIWnd, &amp;rCurrent); // destination RECT
+           MCIWndGetDest(g_hwndMCIWnd, &rCurrent); // destination RECT
            rCurrent.right -= 100;                  // new boundaries 
            rCurrent.left -= 100; 
-           MCIWndPutDest(g_hwndMCIWnd, &amp;rCurrent); // new destination 
+           MCIWndPutDest(g_hwndMCIWnd, &rCurrent); // new destination 
            break; 
    } 
    break; 

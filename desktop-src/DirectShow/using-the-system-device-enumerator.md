@@ -35,7 +35,7 @@ The following example shows how to enumerate the video compressors installed on 
 HRESULT hr;
 ICreateDevEnum *pSysDevEnum = NULL;
 hr = CoCreateInstance(CLSID_SystemDeviceEnum, NULL, CLSCTX_INPROC_SERVER,
-    IID_ICreateDevEnum, (void **)&amp;pSysDevEnum);
+    IID_ICreateDevEnum, (void **)&pSysDevEnum);
 if (FAILED(hr))
 {
     return hr;
@@ -43,34 +43,34 @@ if (FAILED(hr))
 
 // Obtain a class enumerator for the video compressor category.
 IEnumMoniker *pEnumCat = NULL;
-hr = pSysDevEnum->CreateClassEnumerator(CLSID_VideoCompressorCategory, &amp;pEnumCat, 0);
+hr = pSysDevEnum->CreateClassEnumerator(CLSID_VideoCompressorCategory, &pEnumCat, 0);
 
 if (hr == S_OK) 
 {
     // Enumerate the monikers.
     IMoniker *pMoniker = NULL;
     ULONG cFetched;
-    while(pEnumCat->Next(1, &amp;pMoniker, &amp;cFetched) == S_OK)
+    while(pEnumCat->Next(1, &pMoniker, &cFetched) == S_OK)
     {
         IPropertyBag *pPropBag;
         hr = pMoniker->BindToStorage(0, 0, IID_IPropertyBag, 
-            (void **)&amp;pPropBag);
+            (void **)&pPropBag);
         if (SUCCEEDED(hr))
         {
             // To retrieve the filter's friendly name, do the following:
             VARIANT varName;
-            VariantInit(&amp;varName);
-            hr = pPropBag->Read(L"FriendlyName", &amp;varName, 0);
+            VariantInit(&varName);
+            hr = pPropBag->Read(L"FriendlyName", &varName, 0);
             if (SUCCEEDED(hr))
             {
                 // Display the name in your UI somehow.
             }
-            VariantClear(&amp;varName);
+            VariantClear(&varName);
 
             // To create an instance of the filter, do the following:
             IBaseFilter *pFilter;
             hr = pMoniker->BindToObject(NULL, NULL, IID_IBaseFilter,
-                (void**)&amp;pFilter);
+                (void**)&pFilter);
             // Now add the filter to the graph. 
             //Remember to release pFilter later.
             pPropBag->Release();

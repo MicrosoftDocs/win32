@@ -65,7 +65,7 @@ HRESULT CreatePCMAudioType(
     UINT32 bytesPerSecond = blockAlign * sampleRate;
 
     // Create the empty media type.
-    hr = MFCreateMediaType(&amp;pType);
+    hr = MFCreateMediaType(&pType);
     if (FAILED(hr))
     {
         goto done;
@@ -125,7 +125,7 @@ HRESULT CreatePCMAudioType(
     (*ppType)->AddRef();
 
 done:
-    SafeRelease(&amp;pType);
+    SafeRelease(&pType);
     return hr;
 }
 ```
@@ -158,7 +158,7 @@ HRESULT ConvertAudioTypeToPCM(
     UINT32 samplesPerSec = 0;
     UINT32 bitsPerSample = 0;
 
-    hr = pType->GetMajorType(&amp;majortype);
+    hr = pType->GetMajorType(&majortype);
     if (FAILED(hr)) 
     { 
         return hr;
@@ -170,7 +170,7 @@ HRESULT ConvertAudioTypeToPCM(
     }
 
     // Get the audio subtype.
-    hr = pType->GetGUID(MF_MT_SUBTYPE, &amp;subtype);
+    hr = pType->GetGUID(MF_MT_SUBTYPE, &subtype);
     if (FAILED(hr)) 
     { 
         return hr;

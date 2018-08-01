@@ -62,20 +62,20 @@ Use the *ppmoniker* parameter to register your component in the ROT.
 >         {
 >             IMoniker* pmoniker;
 >             
->             hr = fct(CLSID_App, TEXT(&quot;VideoCameraArrival&quot;), &amp;pmoniker);
+>             hr = fct(CLSID_App, TEXT(&quot;VideoCameraArrival&quot;), &pmoniker);
 >
 >             if (SUCCEEDED(hr))
 >             {
 >                 IRunningObjectTable *prot;
 >                     
->                 if (SUCCEEDED(GetRunningObjectTable(0, &amp;prot)))
+>                 if (SUCCEEDED(GetRunningObjectTable(0, &prot)))
 >                 {
->                     hr = prot-&gt;Register(ROTFLAGS_ALLOWANYCLIENT | ROTFLAGS_REGISTRATIONKEEPSALIVE, punk, pmoniker, &amp;amp;_dwRegisterROT);
+>                     hr = prot-&gt;Register(ROTFLAGS_ALLOWANYCLIENT | ROTFLAGS_REGISTRATIONKEEPSALIVE, punk, pmoniker, &amp;_dwRegisterROT);
 >                     prot-&gt;Release();
 >                 }
 >                 pmoniker-&gt;Release();
 >             }
->             CoRegisterClassObject(CLSID_App, static_cast&amp;lt;IClassFactory *&amp;gt;(this), CLSCTX_LOCAL_SERVER, REGCLS_MULTIPLEUSE, &amp;amp;_dwRegisterClass;
+>             CoRegisterClassObject(CLSID_App, static_cast&lt;IClassFactory *&gt;(this), CLSCTX_LOCAL_SERVER, REGCLS_MULTIPLEUSE, &amp;_dwRegisterClass;
 >         }
 >         FreeLibrary(hinstShSvcs);
 >     }

@@ -45,7 +45,7 @@ HRESULT EnumGroupWithIDirectoryObject(LPCWSTR pwszGroupDN,
                         pwszPassword,
                         ADS_SECURE_AUTHENTICATION,
                         IID_IDirectoryObject, 
-                        (void**)&amp;pdo);
+                        (void**)&pdo);
 
     if(SUCCEEDED(hr))
     {
@@ -65,7 +65,7 @@ HRESULT EnumGroupWithIDirectoryObject(LPCWSTR pwszGroupDN,
         do
         {
             swprintf_s(wszAttr, L"member;range=%d-%d", dwLowRange, dwHighRange);
-            hr = pdo->GetObjectAttributes(rgAttrs, 1, &amp;pAttrInfo, &amp;dwRetrieved);        
+            hr = pdo->GetObjectAttributes(rgAttrs, 1, &pAttrInfo, &dwRetrieved);        
             if(SUCCEEDED(hr))
             {
                 DWORD i;

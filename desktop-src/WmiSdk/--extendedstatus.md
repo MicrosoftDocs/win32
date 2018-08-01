@@ -143,9 +143,9 @@ Sub sink_OnCompleted(HResult, oErr, oCtx)
     if HResult <> 0 Then  
     ' Determine the type of error. 
         If oErr.Path_.Class = "__ExtendedStatus" Then 
-            WScript.Echo "WMI Error: "&amp; oErr.Description             
+            WScript.Echo "WMI Error: "& oErr.Description             
         ElseIf ExtendedStatus.Path_.Class = "SMS_ExtendedStatus" Then 
-            WScript.Echo "Provider Error: "&amp; oErr.Description 
+            WScript.Echo "Provider Error: "& oErr.Description 
             WScript.Echo "Code: " & oErr.ErrorCode 
         End If 
     End If     

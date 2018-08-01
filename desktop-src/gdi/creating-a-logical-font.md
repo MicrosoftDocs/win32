@@ -26,7 +26,7 @@ HFONT FAR PASCAL MyCreateFont( void )
     cf.lStructSize = sizeof(CHOOSEFONT); 
     cf.hwndOwner = (HWND)NULL; 
     cf.hDC = (HDC)NULL; 
-    cf.lpLogFont = &amp;lf; 
+    cf.lpLogFont = &lf; 
     cf.iPointSize = 0; 
     cf.Flags = CF_SCREENFONTS; 
     cf.rgbColors = RGB(0,0,0); 
@@ -41,7 +41,7 @@ HFONT FAR PASCAL MyCreateFont( void )
  
     // Display the CHOOSEFONT common-dialog box.  
  
-    ChooseFont(&amp;cf); 
+    ChooseFont(&cf); 
  
     // Create a logical font based on the user's  
     // selection and return a handle identifying  

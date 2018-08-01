@@ -36,7 +36,7 @@ void CreateInstanceFromPropertyData(
   [in, optional] uint32              RecordClass = 1,
   [in, optional] uint32              TTL,
   [in]           string              NSHost,
-  [out, ref]     MicrosoftDNS_NSType &amp;RR
+  [out, ref]     MicrosoftDNS_NSType &RR
 );
 ```
 

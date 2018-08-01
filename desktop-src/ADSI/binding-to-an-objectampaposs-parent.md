@@ -42,7 +42,7 @@ HRESULT GetParentObject(IADs *pObject,   // Pointer to the object whose parent t
     BSTR bstr;
 
     // Get the ADsPath of the parent.
-    hr = pObject->get_Parent(&amp;bstr);
+    hr = pObject->get_Parent(&bstr);
     if(SUCCEEDED(hr))
     {
         // Bind to the parent.

@@ -147,7 +147,7 @@ srvDesc.Format = tex.Format;
 srvDesc.Texture2D.MipLevels = tex.MipLevels;
 srvDesc.Texture2D.MostDetailedMip = 0;
 srvDesc.Texture2D.ResourceMinLODClamp = 0.0f;
-m_device->CreateShaderResourceView(m_textures[i].Get(), &amp;srvDesc, cbvSrvHandle);
+m_device->CreateShaderResourceView(m_textures[i].Get(), &srvDesc, cbvSrvHandle);
 ```
 
 
@@ -173,7 +173,7 @@ For example,
 D3D12_CONSTANT_BUFFER_VIEW_DESC cbvDesc = {};
 cbvDesc.BufferLocation = m_constantBuffer->GetGPUVirtualAddress();
 cbvDesc.SizeInBytes = (sizeof(ConstantBuffer) + 255) & ~255;    // CB size is required to be 256-byte aligned.
-m_device->CreateConstantBufferView(&amp;cbvDesc, m_cbvHeap->GetCPUDescriptorHandleForHeapStart());
+m_device->CreateConstantBufferView(&cbvDesc, m_cbvHeap->GetCPUDescriptorHandleForHeapStart());
 ```
 
 
@@ -223,7 +223,7 @@ samplerDesc.MaxLOD = D3D12_FLOAT32_MAX;
 samplerDesc.MipLODBias = 0.0f;
 samplerDesc.MaxAnisotropy = 1;
 samplerDesc.ComparisonFunc = D3D12_COMPARISON_FUNC_ALWAYS;
-m_device->CreateSampler(&amp;samplerDesc, m_samplerHeap->GetCPUDescriptorHandleForHeapStart());
+m_device->CreateSampler(&samplerDesc, m_samplerHeap->GetCPUDescriptorHandleForHeapStart());
 ```
 
 
@@ -278,12 +278,12 @@ for (UINT frame = 0; frame < FrameCount; frame++)
     // for a single frame as well as a UAV counter.
     commandBufferDesc = CD3DX12_RESOURCE_DESC::Buffer(CommandBufferSizePerFrame + sizeof(UINT), D3D12_RESOURCE_FLAG_ALLOW_UNORDERED_ACCESS);
     ThrowIfFailed(m_device->CreateCommittedResource(
-        &amp;CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
+        &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
         D3D12_HEAP_FLAG_NONE,
-        &amp;commandBufferDesc,
+        &commandBufferDesc,
         D3D12_RESOURCE_STATE_COPY_DEST,
         nullptr,
-        IID_PPV_ARGS(&amp;m_processedCommandBuffers[frame])));
+        IID_PPV_ARGS(&m_processedCommandBuffers[frame])));
 
     D3D12_UNORDERED_ACCESS_VIEW_DESC uavDesc = {};
     uavDesc.Format = DXGI_FORMAT_UNKNOWN;
@@ -297,7 +297,7 @@ for (UINT frame = 0; frame < FrameCount; frame++)
     m_device->CreateUnorderedAccessView(            
         m_processedCommandBuffers[frame].Get(),
         m_processedCommandBuffers[frame].Get(),
-        &amp;uavDesc,
+        &uavDesc,
         processedCommandsHandle);
 
     processedCommandsHandle.Offset(CbvSrvUavDescriptorCountPerFrame, m_cbvSrvUavDescriptorSize);
@@ -305,17 +305,17 @@ for (UINT frame = 0; frame < FrameCount; frame++)
 
 // Allocate a buffer that can be used to reset the UAV counters and initialize it to 0.
 ThrowIfFailed(m_device->CreateCommittedResource(
-    &amp;CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_UPLOAD),
+    &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_UPLOAD),
     D3D12_HEAP_FLAG_NONE,
-    &amp;CD3DX12_RESOURCE_DESC::Buffer(sizeof(UINT)),
+    &CD3DX12_RESOURCE_DESC::Buffer(sizeof(UINT)),
     D3D12_RESOURCE_STATE_GENERIC_READ,
     
     nullptr,
-    IID_PPV_ARGS(&amp;m_processedCommandBufferCounterReset)));
+    IID_PPV_ARGS(&m_processedCommandBufferCounterReset)));
 
 UINT8* pMappedCounterReset = nullptr;
 CD3DX12_RANGE readRange(0, 0);        // We do not intend to read from this resource on the CPU.
-ThrowIfFailed(m_processedCommandBufferCounterReset->Map(0, &amp;readRange, reinterpret_cast<void**>(&amp;pMappedCounterReset)));
+ThrowIfFailed(m_processedCommandBufferCounterReset->Map(0, &readRange, reinterpret_cast<void**>(&pMappedCounterReset)));
 ZeroMemory(pMappedCounterReset, sizeof(UINT));
 m_processedCommandBufferCounterReset->Unmap(0, nullptr);
 ```
@@ -392,7 +392,7 @@ For example,
     rtvHeapDesc.NumDescriptors = FrameCount;
     rtvHeapDesc.Type = D3D12_DESCRIPTOR_HEAP_TYPE_RTV;
     rtvHeapDesc.Flags = D3D12_DESCRIPTOR_HEAP_FLAG_NONE;
-    ThrowIfFailed(m_device->CreateDescriptorHeap(&amp;rtvHeapDesc, IID_PPV_ARGS(&amp;m_rtvHeap)));
+    ThrowIfFailed(m_device->CreateDescriptorHeap(&rtvHeapDesc, IID_PPV_ARGS(&m_rtvHeap)));
 
     m_rtvDescriptorSize = m_device->GetDescriptorHandleIncrementSize(D3D12_DESCRIPTOR_HEAP_TYPE_RTV);
 }
@@ -404,7 +404,7 @@ For example,
     // Create a RTV for each frame.
     for (UINT n = 0; n < FrameCount; n++)
     {
-        ThrowIfFailed(m_swapChain->GetBuffer(n, IID_PPV_ARGS(&amp;m_renderTargets[n])));
+        ThrowIfFailed(m_swapChain->GetBuffer(n, IID_PPV_ARGS(&m_renderTargets[n])));
         m_device->CreateRenderTargetView(m_renderTargets[n].Get(), nullptr, rtvHandle);
         rtvHandle.Offset(1, m_rtvDescriptorSize);
     }
@@ -465,15 +465,15 @@ For example,
     depthOptimizedClearValue.DepthStencil.Stencil = 0;
 
     ThrowIfFailed(m_device->CreateCommittedResource(
-        &amp;CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
+        &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
         D3D12_HEAP_FLAG_NONE,
-        &amp;CD3DX12_RESOURCE_DESC::Tex2D(DXGI_FORMAT_D32_FLOAT, m_width, m_height, 1, 0, 1, 0, D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL),
+        &CD3DX12_RESOURCE_DESC::Tex2D(DXGI_FORMAT_D32_FLOAT, m_width, m_height, 1, 0, 1, 0, D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL),
         D3D12_RESOURCE_STATE_DEPTH_WRITE,
-        &amp;depthOptimizedClearValue,
-        IID_PPV_ARGS(&amp;m_depthStencil)
+        &depthOptimizedClearValue,
+        IID_PPV_ARGS(&m_depthStencil)
         ));
 
-    m_device->CreateDepthStencilView(m_depthStencil.Get(), &amp;depthStencilDesc, m_dsvHeap->GetCPUDescriptorHandleForHeapStart());
+    m_device->CreateDepthStencilView(m_depthStencil.Get(), &depthStencilDesc, m_dsvHeap->GetCPUDescriptorHandleForHeapStart());
 }
 ```
 

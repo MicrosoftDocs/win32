@@ -82,7 +82,7 @@ HRESULT CVideoText::GetStaticImage(long *pBufferSize,long *pDIBImage)
     // Call the base class helper method to do the work.
 
     HRESULT hr = CopyImage(pMediaSample,       // Buffer containing image
-                      &amp;m_pRenderer->m_mtIn,    // Type representing bitmap
+                      &m_pRenderer->m_mtIn,    // Type representing bitmap
                       pBufferSize,             // Size of buffer for DIB
                      (BYTE*) pDIBImage);       // Data buffer for output
 

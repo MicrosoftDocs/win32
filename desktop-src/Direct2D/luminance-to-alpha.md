@@ -41,17 +41,17 @@ This example shows the output of the luminance to alpha effect composited over a
 
 ```C++
 ComPtr<ID2D1Effect> luminanceToAlphaEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1LuminanceToAlpha, &amp;luminanceToAlphaEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1LuminanceToAlpha, &luminanceToAlphaEffect);
 
 luminanceToAlphaEffect->SetInput(0, bitmap);
 
 // LuminanceToAlpha result is composited on top of a white surface to show opacity.
 ComPtr<ID2D1Effect> floodEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Flood, &amp;floodEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Flood, &floodEffect);
 floodEffect->SetValue(D2D1_FLOOD_PROP_COLOR, D2D1::Vector4F(1.0f, 1.0f, 1.0f, 1.0f));
 
 ComPtr<ID2D1Effect> compositeEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Composite, &amp;compositeEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Composite, &compositeEffect);
 
 compositeEffect->SetInputEffect(0, floodEffect.Get());
 compositeEffect->SetInputEffect(1, luminanceToAlphaEffect.Get());

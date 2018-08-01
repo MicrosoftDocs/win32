@@ -70,7 +70,7 @@ HWND CreateToolTip(int toolID, HWND hDlg, PTSTR pszText)
     toolInfo.uFlags = TTF_IDISHWND | TTF_SUBCLASS;
     toolInfo.uId = (UINT_PTR)hwndTool;
     toolInfo.lpszText = pszText;
-    SendMessage(hwndTip, TTM_ADDTOOL, 0, (LPARAM)&amp;toolInfo);
+    SendMessage(hwndTip, TTM_ADDTOOL, 0, (LPARAM)&toolInfo);
 
     return hwndTip;
 }

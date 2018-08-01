@@ -50,7 +50,7 @@ LPWSTR GetLDAPSidBindStringFromVariantSID(VARIANT vSID)
         LPBYTE pByte;
         DWORD dwBytes = 0;
 
-        hr = VariantArrayToBytes(vSID, &amp;pByte, &amp;dwBytes);
+        hr = VariantArrayToBytes(vSID, &pByte, &dwBytes);
         if(S_OK == hr)
         {
             // Convert the BYTE array into a string of 
@@ -120,7 +120,7 @@ HRESULT VariantArrayToBytes(VARIANT Variant,
         return E_OUTOFMEMORY;
     }
 
-    hr = SafeArrayAccessData(pArrayVal, (void HUGEP * FAR *) &amp;pArray);
+    hr = SafeArrayAccessData(pArrayVal, (void HUGEP * FAR *) &pArray);
     if(SUCCEEDED(hr))
     {
         // Copy the bytes to the safe array.

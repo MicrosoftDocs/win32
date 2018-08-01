@@ -85,13 +85,13 @@ The media application must perform the following tasks.
        EndpointFormFactor  formfactor;
        BOOL                bResult = FALSE;
        HRESULT             hr = S_OK;
-       PropVariantInit(&amp;var);
+       PropVariantInit(&var);
        // Open endpoint properties
-       hr = pDevice->OpenPropertyStore(STGM_READ, &amp;pProperties);
+       hr = pDevice->OpenPropertyStore(STGM_READ, &pProperties);
        IF_FAILED_JUMP(hr, Exit);
 
        // get form factor 
-       hr = pProperties->GetValue(PKEY_AudioEndpoint_FormFactor, &amp;var);
+       hr = pProperties->GetValue(PKEY_AudioEndpoint_FormFactor, &var);
        IF_FAILED_JUMP(hr, Exit);
        formfactor = (EndpointFormFactor)var.uiVal;
        // DigitalAudioDisplayDevice is defined same as HDMI formfactor
@@ -101,7 +101,7 @@ The media application must perform the following tasks.
        }
 
     Exit:
-       PropVariantClear(&amp;var);
+       PropVariantClear(&var);
        SAFE_RELEASE(pProperties);
        return bResult;
     }
@@ -134,7 +134,7 @@ The media application must perform the following tasks.
            NULL,
            CLSCTX_ALL, 
            IID_IMMDeviceEnumerator,
-           (void**)&amp;pEnumerator));
+           (void**)&pEnumerator));
 
 
        EXIT_ON_ERROR(hr)
@@ -143,15 +143,15 @@ The media application must perform the following tasks.
        hr = pEnumerator->EnumAudioEndpoints (
            eRender,
            DEVICE_STATE_ACTIVE,
-           &amp;pEndpoints);
+           &pEndpoints);
        EXIT_ON_ERROR(hr)
 
-       hr = pEndpoints->GetCount(&amp;cEndpoints);
+       hr = pEndpoints->GetCount(&cEndpoints);
        EXIT_ON_ERROR(hr)
 
        for (UINT i = 0; i < cEndpoints; i++)
        {
-           hr = pEndpoints->Item(i, &amp;pDevice);
+           hr = pEndpoints->Item(i, &pDevice);
            IF_FAILED_JUMP(hr, Exit);
            {
                // Select the endpoint that meets the requirements.
@@ -188,7 +188,7 @@ The media application must perform the following tasks.
             hr = pDevice->Activate (
                               IID_IBaseFilter,
                               CLSCTX_INPROC_SERVER, NULL,
-                              reinterpret_cast<void **>(&amp;pDShowFilter));
+                              reinterpret_cast<void **>(&pDShowFilter));
             ```
 
             
@@ -202,7 +202,7 @@ The media application must perform the following tasks.
             hr = pDevice->Activate (
                               IID_IDirectSound8,
                               CLSCTX_INPROC_SERVER, NULL,
-                              reinterpret_cast<void **>(&amp;pDSSound8));
+                              reinterpret_cast<void **>(&pDSSound8));
             ```
 
             
@@ -216,7 +216,7 @@ The media application must perform the following tasks.
             hr = pDevice->Activate (
                               IID_IAudioClient,
                               CLSCTX_INPROC_SERVER, NULL,
-                              reinterpret_cast<void **>(&amp;pIAudioClient));
+                              reinterpret_cast<void **>(&pIAudioClient));
             ```
 
             
@@ -234,22 +234,22 @@ The media application must perform the following tasks.
         IMFTrustedOutput*       pTrustedOutput = NULL;
         hr = pIAudioClient>GetService(
                        __uuidof(IMFTrustedOutput),
-                       (void**)&amp; pTrustedOutput);
+                       (void**)& pTrustedOutput);
         ```
 
         
 
     2.  Get a count of the available OTA objects by calling [**IMFTrustedOutput::GetOutputTrustAuthorityCount**](https://msdn.microsoft.com/en-us/library/Bb970384(v=VS.85).aspx).
         ```
-        hr = pTrustedOutput->GetOutputTrustAuthorityCount(&amp;m_dwCountOTA);
+        hr = pTrustedOutput->GetOutputTrustAuthorityCount(&m_dwCountOTA);
         ```
 
         
 
     3.  Enumerate the OTA collection and get a reference to the OTA object that supports the action PEACTION\_PLAY. All OTAs expose the [**IMFOutputTrustAuthority**](https://msdn.microsoft.com/en-us/library/ms695254(v=VS.85).aspx) interface.
         ```
-        hr = pMFTrustedOutput->GetOutputTrustAuthorityByIndex(I, &amp;pMFOutputTrustAuthority);
-        hr = pMFOutputTrustAuthority->GetAction(&amp;action) 
+        hr = pMFTrustedOutput->GetOutputTrustAuthorityByIndex(I, &pMFOutputTrustAuthority);
+        hr = pMFOutputTrustAuthority->GetAction(&action) 
         ```
 
         
@@ -257,7 +257,7 @@ The media application must perform the following tasks.
     4.  Use the [**IMFTrustedOutput**](https://msdn.microsoft.com/en-us/library/ms694305(v=VS.85).aspx) interface to set the protection policy on the stream.
 
         ```
-        hr = pTrustedOutput ->SetPolicy(&amp;pPolicy, nPolicy, &amp;pbTicket, &amp;cbTicket);
+        hr = pTrustedOutput ->SetPolicy(&pPolicy, nPolicy, &pbTicket, &cbTicket);
         ```
 
         
@@ -336,14 +336,14 @@ BOOL IsDigitalEndpoint(IMMDevice *pDevice)
     EndpointFormFactor  formfactor;
     BOOL                bResult = FALSE;
     HRESULT             hr = S_OK;
-    PropVariantInit(&amp;var);
+    PropVariantInit(&var);
 
     // Open endpoint properties
-    hr = pDevice->OpenPropertyStore(STGM_READ, &amp;pProperties);
+    hr = pDevice->OpenPropertyStore(STGM_READ, &pProperties);
     IF_FAILED_JUMP(hr, Exit);
 
     // get form factor 
-    hr = pProperties->GetValue(PKEY_AudioEndpoint_FormFactor, &amp;var);
+    hr = pProperties->GetValue(PKEY_AudioEndpoint_FormFactor, &var);
     IF_FAILED_JUMP(hr, Exit);
 
     formfactor = (EndpointFormFactor)var.uiVal;
@@ -353,7 +353,7 @@ BOOL IsDigitalEndpoint(IMMDevice *pDevice)
     }
 
 Exit:
-    PropVariantClear(&amp;var);
+    PropVariantClear(&var);
     SAFE_RELEASE(pProperties);
 
     return bResult;
@@ -372,19 +372,19 @@ HRESULT GetDigitalAudioEndpoint(IMMDevice** ppDevice)
     // Get enumerator for audio endpoint devices.
     hr = CoCreateInstance(CLSID_MMDeviceEnumerator, NULL,
                           CLSCTX_ALL, IID_IMMDeviceEnumerator,
-                          (void**)&amp;pEnumerator);
+                          (void**)&pEnumerator);
     IF_FAILED_JUMP(hr, Exit);
 
     // Enumerate all active render endpoints, 
-    hr = pEnumerator->EnumAudioEndpoints(eRender, DEVICE_STATE_ACTIVE, &amp;pEndpoints);
+    hr = pEnumerator->EnumAudioEndpoints(eRender, DEVICE_STATE_ACTIVE, &pEndpoints);
     IF_FAILED_JUMP(hr, Exit);
 
-    hr = pEndpoints->GetCount(&amp;cEndpoints);
+    hr = pEndpoints->GetCount(&cEndpoints);
     IF_FAILED_JUMP(hr, Exit);
 
     for (UINT i = 0; i < cEndpoints; i++)
     {
-        hr = pEndpoints->Item(i, &amp;pDevice);
+        hr = pEndpoints->Item(i, &pDevice);
         IF_FAILED_JUMP(hr, Exit);
         // Select the endpoint that meets the requirements.
         // For example, SPDIF analog output or HDMI
@@ -436,7 +436,7 @@ int __cdecl wmain(int argc, char* argv[])
 
     printf("OTA test app for DSound\n");
 
-    hr = GetDigitalAudioEndpoint(&amp;pEndpoint);
+    hr = GetDigitalAudioEndpoint(&pEndpoint);
     IF_FAILED_JUMP(hr, Exit);
 
     if (pEndpoint)
@@ -446,14 +446,14 @@ int __cdecl wmain(int argc, char* argv[])
     //
     // Active DSound interface
     //
-    hr = pEndpoint->Activate(IID_IDirectSound8, CLSCTX_INPROC_SERVER, NULL, reinterpret_cast<void **>(&amp;DSSound8));
+    hr = pEndpoint->Activate(IID_IDirectSound8, CLSCTX_INPROC_SERVER, NULL, reinterpret_cast<void **>(&DSSound8));
     IF_FAILED_JUMP(hr, Exit);
 
     nChannels = 2;
     nSamplesPerSec = 48000;
     wBitsPerSample = 16;
 
-    ZeroMemory(&amp;wfext, sizeof(wfext));
+    ZeroMemory(&wfext, sizeof(wfext));
     wfext.Format.wFormatTag = WAVE_FORMAT_EXTENSIBLE;
     wfext.Format.nChannels = nChannels;
     wfext.Format.nSamplesPerSec = nSamplesPerSec;
@@ -468,17 +468,17 @@ int __cdecl wmain(int argc, char* argv[])
     wfext.SubFormat = KSDATAFORMAT_SUBTYPE_AC3;
 #endif
 
-    ZeroMemory(&amp;DSBufferDesc, sizeof(DSBufferDesc));
+    ZeroMemory(&DSBufferDesc, sizeof(DSBufferDesc));
     DSBufferDesc.dwSize = sizeof(DSBufferDesc);
     DSBufferDesc.dwFlags = DSBCAPS_GLOBALFOCUS | DSBCAPS_LOCSOFTWARE | DSBCAPS_GETCURRENTPOSITION2;
-    DSBufferDesc.lpwfxFormat = (WAVEFORMATEX *)&amp;wfext;
+    DSBufferDesc.lpwfxFormat = (WAVEFORMATEX *)&wfext;
     DSBufferDesc.dwBufferBytes = wfext.Format.nAvgBytesPerSec / 100;
 
     HWND hwnd = GetForegroundWindow();
     hr = DSSound8->SetCooperativeLevel(hwnd, DSSCL_PRIORITY);
     IF_FAILED_JUMP(hr, Exit);
 
-    hr = DSSound8->CreateSoundBuffer(&amp;DSBufferDesc, &amp;DSBuffer, NULL);
+    hr = DSSound8->CreateSoundBuffer(&DSBufferDesc, &DSBuffer, NULL);
     IF_FAILED_JUMP(hr, Exit);
 
     hr = DSBuffer->Play(0, 0, DSBPLAY_LOOPING);
@@ -496,7 +496,7 @@ int __cdecl wmain(int argc, char* argv[])
                                                               FALSE, /*_bCopyOK*/ 
                                                               1300 /*_dwDrmLevel*/);
 
-    hr = SetOTAPolicy(pEndpoint,dwConfigData, &amp;pMFTrustedOutput, &amp;pMFOutputTrustAuthority,&amp;pMFOutputPolicy); 
+    hr = SetOTAPolicy(pEndpoint,dwConfigData, &pMFTrustedOutput, &pMFOutputTrustAuthority,&pMFOutputPolicy); 
     IF_FAILED_JUMP(hr, Exit);
 
     //
@@ -522,7 +522,7 @@ int __cdecl wmain(int argc, char* argv[])
                                                               FALSE, /*_bCopyOK*/ 
                                                               1300 /*_dwDrmLevel*/);
 
-    hr = SetOTAPolicy(pEndpoint,dwConfigData, &amp;pMFTrustedOutput, &amp;pMFOutputTrustAuthority,&amp;pMFOutputPolicy); 
+    hr = SetOTAPolicy(pEndpoint,dwConfigData, &pMFTrustedOutput, &pMFOutputTrustAuthority,&pMFOutputPolicy); 
     IF_FAILED_JUMP(hr, Exit);
 
     // Clean up setting before leaving your streaming app.
@@ -585,7 +585,7 @@ private:
     GUID m_guidOriginator;
     IMFOutputSchema *m_pOutputSchema;
     
-    CTrustedAudioDriversOutputPolicy(DWORD dwConfigData, HRESULT &amp;hr);
+    CTrustedAudioDriversOutputPolicy(DWORD dwConfigData, HRESULT &hr);
     ~CTrustedAudioDriversOutputPolicy();
 
 public:
@@ -671,13 +671,13 @@ public:
 // Implementation for CTrustedAudioDriversOutputPolicy
 //--------------------------------------------------------------------------
 // constructor
-CTrustedAudioDriversOutputPolicy::CTrustedAudioDriversOutputPolicy(DWORD dwConfigData, HRESULT &amp;hr)
+CTrustedAudioDriversOutputPolicy::CTrustedAudioDriversOutputPolicy(DWORD dwConfigData, HRESULT &hr)
 : m_cRefCount(1), m_dwConfigData(dwConfigData), m_pOutputSchema(NULL)
 {
-    hr = CoCreateGuid(&amp;m_guidOriginator);
+    hr = CoCreateGuid(&m_guidOriginator);
     IF_FAILED_JUMP(hr, Exit);
 
-    hr = CreateTrustedAudioDriversOutputSchema(dwConfigData, m_guidOriginator, &amp;m_pOutputSchema);
+    hr = CreateTrustedAudioDriversOutputSchema(dwConfigData, m_guidOriginator, &m_pOutputSchema);
     IF_FAILED_JUMP(hr, Exit);
 
 Exit:
@@ -721,14 +721,14 @@ Exit:
 // IUnknown::AddRef
 ULONG STDMETHODCALLTYPE CTrustedAudioDriversOutputPolicy::AddRef() 
 {
-    ULONG uNewRefCount = InterlockedIncrement(&amp;m_cRefCount);
+    ULONG uNewRefCount = InterlockedIncrement(&m_cRefCount);
     return uNewRefCount;
 }
 
 // IUnknown::Release
 ULONG STDMETHODCALLTYPE CTrustedAudioDriversOutputPolicy::Release() 
 {
-    ULONG uNewRefCount = InterlockedDecrement(&amp;m_cRefCount);
+    ULONG uNewRefCount = InterlockedDecrement(&m_cRefCount);
     if (0 == uNewRefCount) 
     {
         delete this;
@@ -758,7 +758,7 @@ HRESULT STDMETHODCALLTYPE CTrustedAudioDriversOutputPolicy::GenerateRequiredSche
     IF_TRUE_ACTION_JUMP((NULL == ppRequiredProtectionSchemas), hr = E_POINTER, Exit); 
     *ppRequiredProtectionSchemas = NULL;
 
-    IF_TRUE_ACTION_JUMP((NULL == rgGuidProtectionSchemasSupported) &amp;&amp; (0 != cProtectionSchemasSupported), 
+    IF_TRUE_ACTION_JUMP((NULL == rgGuidProtectionSchemasSupported) && (0 != cProtectionSchemasSupported), 
                     hr = E_POINTER, Exit); 
 
     // log all the supported protection schemas
@@ -777,7 +777,7 @@ HRESULT STDMETHODCALLTYPE CTrustedAudioDriversOutputPolicy::GenerateRequiredSche
 
 
     // create the collection
-    hr = MFCreateCollection(&amp;pMFCollection);
+    hr = MFCreateCollection(&pMFCollection);
     if (FAILED(hr)) 
     {
         return hr;
@@ -854,14 +854,14 @@ Exit:
 // IUnknown::AddRef
 ULONG STDMETHODCALLTYPE CTrustedAudioDriversOutputSchema::AddRef() 
 {
-    ULONG uNewRefCount = InterlockedIncrement(&amp;m_cRefCount);
+    ULONG uNewRefCount = InterlockedIncrement(&m_cRefCount);
     return uNewRefCount;
 }
 
 // IUnknown::Release
 ULONG STDMETHODCALLTYPE CTrustedAudioDriversOutputSchema::Release() 
 {
-    ULONG uNewRefCount = InterlockedDecrement(&amp;m_cRefCount);
+    ULONG uNewRefCount = InterlockedDecrement(&m_cRefCount);
     if (0 == uNewRefCount) 
     {
         delete this;
@@ -968,7 +968,7 @@ HRESULT SetOTAPolicy(IMMDevice *_pMMDevice,
     IF_FAILED_JUMP(hr, Exit);
 
     // get count of Output Trust Authorities on this trusted output
-    hr = (*_ppMFTrustedOutput)->GetOutputTrustAuthorityCount(&amp;dwCountOfOTAs);
+    hr = (*_ppMFTrustedOutput)->GetOutputTrustAuthorityCount(&dwCountOfOTAs);
     IF_FAILED_JUMP(hr, Exit);
 
     // sanity check - fail on endpoints with no output trust authorities
@@ -987,7 +987,7 @@ HRESULT SetOTAPolicy(IMMDevice *_pMMDevice,
 
         // log the purpose of the output trust authority
         MFPOLICYMANAGER_ACTION action;
-        hr = (*ppMFOutputTrustAuthority)->GetAction(&amp;action);
+        hr = (*ppMFOutputTrustAuthority)->GetAction(&action);
         if (FAILED(hr)) 
         {
             return hr;
@@ -1008,7 +1008,7 @@ HRESULT SetOTAPolicy(IMMDevice *_pMMDevice,
         BYTE *pbTicket = NULL;
         DWORD cbTicket = 0;
         // audio ota does not support ticket, leaving it NULL is ok.
-        hr = (*ppMFOutputTrustAuthority)->SetPolicy(_ppMFOutputPolicy, 1, &amp;pbTicket, &amp;cbTicket);
+        hr = (*ppMFOutputTrustAuthority)->SetPolicy(_ppMFOutputPolicy, 1, &pbTicket, &cbTicket);
         IF_FAILED_JUMP(hr, Exit);
         printf("SetPolicy succeeded.\n");
 

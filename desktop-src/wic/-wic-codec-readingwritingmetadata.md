@@ -74,7 +74,7 @@ PROPVARIANT value;
 CoInitialize(NULL);
 
 // Initialize PROPVARIANT
-PropVariantInit(&amp;value);
+PropVariantInit(&value);
 
 //Create the COM imaging factory
 HRESULT hr = CoCreateInstance(
@@ -82,7 +82,7 @@ HRESULT hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     IID_IWICImagingFactory,
-    (LPVOID*)&amp;pFactory);
+    (LPVOID*)&pFactory);
 
 // Create the decoder
 if (SUCCEEDED(hr))
@@ -92,7 +92,7 @@ if (SUCCEEDED(hr))
         NULL,
         GENERIC_READ,
         WICDecodeMetadataCacheOnDemand,
-        &amp;pDecoder);
+        &pDecoder);
 }
 
 // Get a single frame from the image
@@ -100,7 +100,7 @@ if (SUCCEEDED(hr))
 {
     hr = pDecoder->GetFrame(
          0,  //JPEG has only one frame.
-         &amp;pFrameDecode); 
+         &pFrameDecode); 
 }
 ```
 
@@ -115,7 +115,7 @@ To obtain the frame's query reader, make a simple call to the frame's **GetMetad
 // Get the query reader
 if (SUCCEEDED(hr))
 {
-    hr = pFrameDecode->GetMetadataQueryReader(&amp;pQueryReader);
+    hr = pFrameDecode->GetMetadataQueryReader(&pQueryReader);
 }
 ```
 
@@ -136,12 +136,12 @@ To query for embedded metadata blocks or specific items by name, call the **GetM
 if (SUCCEEDED(hr))
 {
     // Get the nested IFD reader
-    hr = pQueryReader->GetMetadataByName(L"/app1/ifd", &amp;value);
+    hr = pQueryReader->GetMetadataByName(L"/app1/ifd", &value);
     if (value.vt == VT_UNKNOWN)
     {
-        hr = value.punkVal->QueryInterface(IID_IWICMetadataQueryReader, (void **)&amp;pEmbedReader);
+        hr = value.punkVal->QueryInterface(IID_IWICMetadataQueryReader, (void **)&pEmbedReader);
     }
-    PropVariantClear(&amp;value); // Clear value for new query
+    PropVariantClear(&value); // Clear value for new query
 }
 ```
 
@@ -155,8 +155,8 @@ The following code demonstrates a new query based on the new query reader relati
 ```
 if (SUCCEEDED(hr))
 {
-    hr = pEmbedReader->GetMetadataByName(L"/{ushort=18249}", &amp;value);
-    PropVariantClear(&amp;value); // Clear value for new query
+    hr = pEmbedReader->GetMetadataByName(L"/{ushort=18249}", &value);
+    PropVariantClear(&value); // Clear value for new query
 }
 ```
 
@@ -170,8 +170,8 @@ However, it is not necessary to obtain a nested block before querying for specif
 ```
 if (SUCCEEDED(hr))
 {
-    hr = pQueryReader->GetMetadataByName(L"/app1/ifd/{ushort=18249}", &amp;value);
-    PropVariantClear(&amp;value);
+    hr = pQueryReader->GetMetadataByName(L"/app1/ifd/{ushort=18249}", &value);
+    PropVariantClear(&value);
 }
 ```
 
@@ -185,7 +185,7 @@ IEnumString *metadataItems = NULL;
 
 if (SUCCEEDED(hr))
 {
-    hr = pEmbedReader->GetEnumerator(&amp;metadataItems);
+    hr = pEmbedReader->GetEnumerator(&metadataItems);
 }
 ```
 
@@ -205,7 +205,7 @@ With the embedded query reader, you can use **GetContainerFormat** to determine 
 
 if (SUCCEEDED(hr))
 {
-    hr = pEmbedReader->GetContainerFormat(&amp;containerGUID);
+    hr = pEmbedReader->GetContainerFormat(&containerGUID);
 }
 
 // Determine the query reader's location
@@ -213,7 +213,7 @@ if (SUCCEEDED(hr))
 {
     UINT length;
     WCHAR readerNamespace[100];
-    hr = pEmbedReader->GetLocation(100, readerNamespace, &amp;length);
+    hr = pEmbedReader->GetLocation(100, readerNamespace, &length);
 }
 ```
 
@@ -238,10 +238,10 @@ The most common query writer is for an individual frame of a bitmap. This query 
 
 
 ```
-IWICMetadataQueryWriter &amp;pFrameQWriter = NULL;
+IWICMetadataQueryWriter &pFrameQWriter = NULL;
 
 //Obtain a query writer from the frame.
-hr = pFrameEncode->GetMetadataQueryWriter(&amp;pFrameQWriter);
+hr = pFrameEncode->GetMetadataQueryWriter(&pFrameQWriter);
 ```
 
 
@@ -260,8 +260,8 @@ IWICMetadataQueryWriter *pXMPWriter = NULL;
 GUID vendor = GUID_VendorMicrosoft;
 hr = pFactory->CreateQueryWriter(
         GUID_MetadataFormatXMP,
-        &amp;vendor,
-        &amp;pXMPWriter);
+        &vendor,
+        &pXMPWriter);
 ```
 
 
@@ -272,18 +272,18 @@ In this example, the friendly name `GUID_MetadataFormatXMP` is used as the *guid
 
 
 ```
-hr = pFrameDecode->GetMetadataQueryReader(&amp;pFrameQReader);
+hr = pFrameDecode->GetMetadataQueryReader(&pFrameQReader);
 
 // Copy metadata using query readers
-if(SUCCEEDED(hr) &amp;&amp; pFrameQReader)
+if(SUCCEEDED(hr) && pFrameQReader)
 {
     IWICMetadataQueryWriter *pNewWriter = NULL;
 
     GUID vendor = GUID_VendorMicrosoft;
     hr = pFactory->CreateQueryWriterFromReader(
         pFrameQReader,
-        &amp;vendor,
-        &amp;pNewWriter);
+        &vendor,
+        &pNewWriter);
 ```
 
 
@@ -300,14 +300,14 @@ The following example demonstrates how to add a title by using the XMP query wri
 if (SUCCEEDED(hr))
 {
     PROPVARIANT value;
-    PropVariantInit(&amp;value);
+    PropVariantInit(&value);
 
     value.vt = VT_LPWSTR;
     value.pwszVal = L"Metadata Test Image.";
    
-    hr = pXMPWriter->SetMetadataByName(L"/dc:title", &amp;value);
+    hr = pXMPWriter->SetMetadataByName(L"/dc:title", &value);
 
-    PropVariantClear(&amp;value);
+    PropVariantClear(&value);
 }
 ```
 
@@ -322,21 +322,21 @@ Up to this point you haven't actually added any metadata to an image frame. You'
 // Get the frame's query writer and write the XMP query writer to it
 if (SUCCEEDED(hr))
 {
-    hr = pFrameEncode->GetMetadataQueryWriter(&amp;pFrameQWriter);
+    hr = pFrameEncode->GetMetadataQueryWriter(&pFrameQWriter);
 
     // Copy the metadata in the XMP query writer to the frame
     if (SUCCEEDED(hr))
     {
         PROPVARIANT value;
 
-        PropVariantInit(&amp;value);
+        PropVariantInit(&value);
         value.vt = VT_UNKNOWN;
         value.punkVal = pXMPWriter;
         value.punkVal->AddRef();
 
-        hr = pFrameQWriter->SetMetadataByName(L"/", &amp;value);
+        hr = pFrameQWriter->SetMetadataByName(L"/", &value);
 
-        PropVariantClear(&amp;value);
+        PropVariantClear(&value);
     }
 }
 ```
@@ -389,20 +389,20 @@ The preferred method to copy metadata is to initialize the new frame's block wri
 
 
 ```
-if (SUCCEEDED(hr) &amp;&amp; formatsEqual)
+if (SUCCEEDED(hr) && formatsEqual)
 {
     // Copy metadata using metadata block reader/writer
     if (SUCCEEDED(hr))
     {
         pFrameDecode->QueryInterface(
             IID_IWICMetadataBlockReader,
-            (void**)&amp;pBlockReader);
+            (void**)&pBlockReader);
     }
     if (SUCCEEDED(hr))
     {
         pFrameEncode->QueryInterface(
             IID_IWICMetadataBlockWriter,
-            (void**)&amp;pBlockWriter);
+            (void**)&pBlockWriter);
     }
     if (SUCCEEDED(hr))
     {
@@ -419,22 +419,22 @@ Another method to copy metadata is to write the metadata block referenced by the
 
 
 ```
-if (SUCCEEDED(hr) &amp;&amp; formatsEqual)
+if (SUCCEEDED(hr) && formatsEqual)
 {
-    hr = pFrameDecode->GetMetadataQueryReader(&amp;pFrameQReader);
+    hr = pFrameDecode->GetMetadataQueryReader(&pFrameQReader);
 
     // Copy metadata using query readers
     if(SUCCEEDED(hr))
     {
-        hr = pFrameEncode->GetMetadataQueryWriter(&amp;pFrameQWriter);
+        hr = pFrameEncode->GetMetadataQueryWriter(&pFrameQWriter);
         if (SUCCEEDED(hr))
         {
-            PropVariantClear(&amp;value);
+            PropVariantClear(&value);
             value.vt=VT_UNKNOWN;
             value.punkVal=pFrameQReader;
             value.punkVal->AddRef();
-            hr = pFrameQWriter->SetMetadataByName(L"/", &amp;value);
-            PropVariantClear(&amp;value);
+            hr = pFrameQWriter->SetMetadataByName(L"/", &value);
+            PropVariantClear(&value);
         }
     }
 }
@@ -453,13 +453,13 @@ IWICMetadataQueryWriter *pNewWriter = NULL;
 GUID vendor = GUID_VendorMicrosoft;
 hr = pFactory->CreateQueryWriterFromReader(
     pFrameQReader,
-    &amp;vendor,
-    &amp;pNewWriter);
+    &vendor,
+    &pNewWriter);
 
 if (SUCCEEDED(hr))
 {
     // Get the frame's query writer
-    hr = pFrameEncode->GetMetadataQueryWriter(&amp;pFrameQWriter);
+    hr = pFrameEncode->GetMetadataQueryWriter(&pFrameQWriter);
 }
 
 // Set the query writer to the frame.
@@ -467,11 +467,11 @@ if (SUCCEEDED(hr))
 {
     PROPVARIANT value;
 
-    PropVariantInit(&amp;value);
+    PropVariantInit(&value);
     value.vt = VT_UNKNOWN;
     value.punkVal = pNewWriter;
     value.punkVal->AddRef();
-    hr = pFrameQWriter->SetMetadataByName(L"/",&amp;value);
+    hr = pFrameQWriter->SetMetadataByName(L"/",&value);
 }
 ```
 
@@ -498,13 +498,13 @@ if (SUCCEEDED(hr))
     // Add metadata padding
     PROPVARIANT padding;
 
-    PropVariantInit(&amp;padding);
+    PropVariantInit(&padding);
     padding.vt = VT_UI4;
     padding.uiVal = 4096; // 4KB
 
-    hr = pFrameQWriter->SetMetadataByName(L"/app1/ifd/PaddingSchema:padding", &amp;padding);
+    hr = pFrameQWriter->SetMetadataByName(L"/app1/ifd/PaddingSchema:padding", &padding);
 
-    PropVariantClear(&amp;padding);
+    PropVariantClear(&padding);
 }
 ```
 
@@ -542,7 +542,7 @@ if (SUCCEEDED(hr))
 
     hr = pFactory->CreateFastMetadataEncoderFromFrameDecode(
         pFrameDecode, 
-        &amp;pFME);
+        &pFME);
 }
 ```
 
@@ -556,7 +556,7 @@ From the fast metadata encoder, you can obtain a query writer. This enables you 
 ```
     if (SUCCEEDED(hr))
     {
-        hr = pFME->GetMetadataQueryWriter(&amp;pFMEQW);
+        hr = pFME->GetMetadataQueryWriter(&pFMEQW);
     }
 
     if (SUCCEEDED(hr))
@@ -564,13 +564,13 @@ From the fast metadata encoder, you can obtain a query writer. This enables you 
         // Add additional metadata
         PROPVARIANT value;
 
-        PropVariantInit(&amp;value);
+        PropVariantInit(&value);
 
         value.vt = VT_UI4;
         value.uiVal = 99;
-        hr = pFMEQW->SetMetadataByName(L"/app1/ifd/{ushort=18249}", &amp;value);
+        hr = pFMEQW->SetMetadataByName(L"/app1/ifd/{ushort=18249}", &value);
 
-        PropVariantClear(&amp;value);
+        PropVariantClear(&value);
     }
 
     if (SUCCEEDED(hr))

@@ -18,7 +18,7 @@ The following example draws a line from (20, 10) to (300, 100). Assume **graphic
 
 ```
 Pen pen(Color(255, 0, 0, 0));
-graphics.DrawLine(&amp;pen, 20, 10, 300, 100);
+graphics.DrawLine(&pen, 20, 10, 300, 100);
 ```
 
 
@@ -30,7 +30,7 @@ The following example draws a rectangle with its upper-left corner at (10, 10). 
 
 ```
 Pen blackPen(Color(255, 0, 0, 0), 5);
-stat = graphics.DrawRectangle(&amp;blackPen, 10, 10, 100, 50);
+stat = graphics.DrawRectangle(&blackPen, 10, 10, 100, 50);
 ```
 
 

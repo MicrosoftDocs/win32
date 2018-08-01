@@ -25,7 +25,7 @@ In the preceding example, m\_hWnd is the HWND of the window to receive the messa
 
 
 ```C++
-while (SUCCEEDED(m_pIME->GetEvent(&amp;lEvent, &amp;lParam1, &amp;lParam2, lTimeOut)))
+while (SUCCEEDED(m_pIME->GetEvent(&lEvent, &lParam1, &lParam2, lTimeOut)))
 {
     HRESULT hr;
     switch (lEvent)
@@ -33,7 +33,7 @@ while (SUCCEEDED(m_pIME->GetEvent(&amp;lEvent, &amp;lParam1, &amp;lParam2, lTime
 
     case EC_DVD_CURRENT_HMSF_TIME:
         {
-            DVD_HMSF_TIMECODE *pTC = reinterpret_cast<DVD_HMSF_TIMECODE *>(&amp;lParam1);
+            DVD_HMSF_TIMECODE *pTC = reinterpret_cast<DVD_HMSF_TIMECODE *>(&lParam1);
             m_CurTime = *pTC;
             ...
         }

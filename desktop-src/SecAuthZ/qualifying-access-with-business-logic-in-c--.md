@@ -57,7 +57,7 @@ void CheckAccess(ULONGLONG hToken)
     void MyHandleError(char *s);
 
     VARIANT myVar;
-    VariantInit(&amp;myVar);
+    VariantInit(&myVar);
 
     //  Initialize COM.
     hr = CoInitializeEx(NULL, COINIT_MULTITHREADED);
@@ -72,7 +72,7 @@ void CheckAccess(ULONGLONG hToken)
          CLSCTX_ALL,
    /*"edbd9ca9-9b82-4f6a-9e8b-98301e450f14"*/
          __uuidof(IAzAuthorizationStore),
-         (void**)&amp;pStore);
+         (void**)&pStore);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create AzAuthorizationStore object.");
 
@@ -88,13 +88,13 @@ void CheckAccess(ULONGLONG hToken)
     //  Create an application object.
     if (!(appName = SysAllocString(L"Expense")))
         MyHandleError("Could not allocate application name string.");
-    hr = pStore->OpenApplication(appName, myVar, &amp;pApp);
+    hr = pStore->OpenApplication(appName, myVar, &pApp);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not open application.");
 
     //  Create a client context from a token handle.
     hr = pApp->InitializeClientContextFromToken(hToken, myVar,
-          &amp;pClientContext);
+          &pClientContext);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create client context.");
 
@@ -103,7 +103,7 @@ void CheckAccess(ULONGLONG hToken)
     //  Open the Submit Expense task.
     if(!(taskName = SysAllocString(L"Submit Expense")))
         MyHandleError("Could not allocate task name string.");
-    hr = pApp->OpenTask(taskName, myVar, &amp;pTask);
+    hr = pApp->OpenTask(taskName, myVar, &pTask);
 
     //  Assign a business rule to the task.
 
@@ -140,11 +140,11 @@ void CheckAccess(ULONGLONG hToken)
         MyHandleError("Could not allocate operation name string.");
 
     //  Get the ID of the operation to check.
-    hr = pApp->OpenOperation(operationName, myVar, &amp;pOperation);
+    hr = pApp->OpenOperation(operationName, myVar, &pOperation);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not open operation.");
 
-    hr = pOperation->get_OperationID(&amp;operationID);
+    hr = pOperation->get_OperationID(&operationID);
     if(!(SUCCEEDED(hr)))
         MyHandleError("Could not get operation ID.");
 
@@ -160,7 +160,7 @@ void CheckAccess(ULONGLONG hToken)
     varOperationId.lVal = operationID;
 
     hr = SafeArrayPutElement(varOperationIdArray.parray, index,
-          &amp;varOperationId);
+          &varOperationId);
     if(!(SUCCEEDED(hr)))
         MyHandleError("Could not put operation ID in array.");
     
@@ -174,14 +174,14 @@ void CheckAccess(ULONGLONG hToken)
     varParamName.vt = VT_ARRAY | VT_VARIANT;
     nameString.vt = VT_BSTR;
     nameString.bstrVal = SysAllocString(L"ExpAmount");
-    SafeArrayPutElement(varParamName.parray, index, &amp;nameString);
+    SafeArrayPutElement(varParamName.parray, index, &nameString);
 
     //  Create array of business rule parameter values.
     varParamValue.parray = SafeArrayCreateVector(VT_VARIANT, 0, 1);
     varParamValue.vt = VT_ARRAY | VT_VARIANT;
     expenseAmount.vt = VT_I4;
     expenseAmount.lVal = 100;  // access denied if 500 or more
-    SafeArrayPutElement(varParamValue.parray, index, &amp;expenseAmount);
+    SafeArrayPutElement(varParamValue.parray, index, &expenseAmount);
 
     if(!(objectName = SysAllocString(L"UseFormControl")))//used for audit
         MyHandleError("Could not allocate object name string.");
@@ -196,12 +196,12 @@ void CheckAccess(ULONGLONG hToken)
         myVar,
         myVar,
         myVar,
-        &amp;varResultsArray);
+        &varResultsArray);
 
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not complete access check.");
 
-    hr = SafeArrayGetElement(varResultsArray.parray, index, &amp;varResult);
+    hr = SafeArrayGetElement(varResultsArray.parray, index, &varResult);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not get result from array.");
 
@@ -224,15 +224,15 @@ void CheckAccess(ULONGLONG hToken)
     SysFreeString(taskName);
     SysFreeString(bizRule);
     SysFreeString(bizRuleLanguage);
-    VariantClear(&amp;myVar);
-    VariantClear(&amp;varOperationIdArray);
-    VariantClear(&amp;varOperationId);
-    VariantClear(&amp;varResultsArray);
-    VariantClear(&amp;varResult);
-    VariantClear(&amp;varParamName);
-    VariantClear(&amp;varParamValue);
-    VariantClear(&amp;nameString);
-    VariantClear(&amp;expenseAmount);
+    VariantClear(&myVar);
+    VariantClear(&varOperationIdArray);
+    VariantClear(&varOperationId);
+    VariantClear(&varResultsArray);
+    VariantClear(&varResult);
+    VariantClear(&varParamName);
+    VariantClear(&varParamValue);
+    VariantClear(&nameString);
+    VariantClear(&expenseAmount);
     CoUninitialize();
 }
 

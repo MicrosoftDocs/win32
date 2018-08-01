@@ -189,7 +189,7 @@ DWORD WINAPI ThreadFunc(VOID)
    for(i=0; i<THREADCOUNT; i++)
    {
       DWORD dwOut;
-      if(!GetData(&amp;dwOut))
+      if(!GetData(&dwOut))
          ErrorExit("GetData error");
       if( dwOut != GetCurrentThreadId())
          printf("thread %d: data is incorrect (%d)\n", GetCurrentThreadId(), dwOut);
@@ -223,7 +223,7 @@ int main(VOID)
          (LPTHREAD_START_ROUTINE) ThreadFunc, // thread function 
          NULL,                    // no thread function argument 
          0,                       // use default creation flags 
-         &amp;IDThread);              // returns thread identifier 
+         &IDThread);              // returns thread identifier 
  
    // Check the return value for success. 
       if (hThread[i] == NULL) 

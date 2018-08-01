@@ -101,7 +101,7 @@ if (SUCCEEDED(hr))
         sc_bitmapHeight,
         GUID_WICPixelFormat32bppBGR,
         WICBitmapCacheOnLoad,
-        &amp;pWICBitmap
+        &pWICBitmap
         );
 }
 
@@ -111,7 +111,7 @@ if (SUCCEEDED(hr))
     hr = pD2DFactory->CreateWicBitmapRenderTarget(
         pWICBitmap,
         D2D1::RenderTargetProperties(),
-        &amp;pRT
+        &pRT
         );
 }
 
@@ -129,18 +129,18 @@ if (SUCCEEDED(hr))
         DWRITE_FONT_STRETCH_NORMAL,
         sc_fontSize,
         L"", //locale
-        &amp;pTextFormat
+        &pTextFormat
         );
 }
 if (SUCCEEDED(hr))
 {
     pTextFormat->SetTextAlignment(DWRITE_TEXT_ALIGNMENT_CENTER);
     pTextFormat->SetParagraphAlignment(DWRITE_PARAGRAPH_ALIGNMENT_CENTER);
-    hr = pD2DFactory->CreatePathGeometry(&amp;pPathGeometry);
+    hr = pD2DFactory->CreatePathGeometry(&pPathGeometry);
 }
 if (SUCCEEDED(hr))
 {
-    hr = pPathGeometry->Open(&amp;pSink);
+    hr = pPathGeometry->Open(&pSink);
 }
 if (SUCCEEDED(hr))
 {
@@ -184,7 +184,7 @@ if (SUCCEEDED(hr))
     hr = pRT->CreateGradientStopCollection(
         stops,
         ARRAYSIZE(stops),
-        &amp;pGradientStops
+        &pGradientStops
         );
 }
 if (SUCCEEDED(hr))
@@ -195,14 +195,14 @@ if (SUCCEEDED(hr))
             D2D1::Point2F(100, 200)),
         D2D1::BrushProperties(),
         pGradientStops,
-        &amp;pLGBrush
+        &pLGBrush
         );
 }
 if (SUCCEEDED(hr))
 {
     hr = pRT->CreateSolidColorBrush(
         D2D1::ColorF(D2D1::ColorF::Black),
-        &amp;pBlackBrush
+        &pBlackBrush
         );
 }
 if (SUCCEEDED(hr))
@@ -241,7 +241,7 @@ if (SUCCEEDED(hr))
 if (SUCCEEDED(hr))
 {
     // Save the image to a file.
-    hr = pWICFactory->CreateStream(&amp;pStream);
+    hr = pWICFactory->CreateStream(&pStream);
 }
 
 WICPixelFormatGUID format = GUID_WICPixelFormatDontCare;
@@ -254,7 +254,7 @@ if (SUCCEEDED(hr))
 }
 if (SUCCEEDED(hr))
 {
-    hr = pWICFactory->CreateEncoder(GUID_ContainerFormatPng, NULL, &amp;pEncoder);
+    hr = pWICFactory->CreateEncoder(GUID_ContainerFormatPng, NULL, &pEncoder);
 }
 if (SUCCEEDED(hr))
 {
@@ -262,7 +262,7 @@ if (SUCCEEDED(hr))
 }
 if (SUCCEEDED(hr))
 {
-    hr = pEncoder->CreateNewFrame(&amp;pFrameEncode, NULL);
+    hr = pEncoder->CreateNewFrame(&pFrameEncode, NULL);
 }
 // Use IWICBitmapFrameEncode to encode the bitmap into the picture format you want.
 if (SUCCEEDED(hr))
@@ -275,7 +275,7 @@ if (SUCCEEDED(hr))
 }
 if (SUCCEEDED(hr))
 {
-    hr = pFrameEncode->SetPixelFormat(&amp;format);
+    hr = pFrameEncode->SetPixelFormat(&format);
 }
 if (SUCCEEDED(hr))
 {

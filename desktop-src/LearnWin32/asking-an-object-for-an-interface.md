@@ -43,7 +43,7 @@ Here is how you would call [**QueryInterface**](https://msdn.microsoft.com/libra
 
 ```C++
 hr = pFileOpen->QueryInterface(IID_IFileDialogCustomize, 
-    reinterpret_cast<void**>(&amp;pCustom));
+    reinterpret_cast<void**>(&pCustom));
 if (SUCCEEDED(hr))
 {
     // Use the interface. (Not shown.)

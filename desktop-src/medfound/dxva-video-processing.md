@@ -96,7 +96,7 @@ If you have a pointer to a Direct3D device, you can get an [**IDirectXVideoProce
 
 ```C++
     // Create the DXVA-2 Video Processor service.
-    hr = DXVA2CreateVideoService(g_pD3DD9, IID_PPV_ARGS(&amp;g_pDXVAVPS));
+    hr = DXVA2CreateVideoService(g_pD3DD9, IID_PPV_ARGS(&g_pDXVAVPS));
 ```
 
 
@@ -114,7 +114,7 @@ HRESULT GetVideoProcessorService(
 
     HANDLE hDevice;
 
-    HRESULT hr = pDeviceManager->OpenDeviceHandle(&amp;hDevice);
+    HRESULT hr = pDeviceManager->OpenDeviceHandle(&hDevice);
     if (SUCCEEDED(hr))
     {
         // Get the video processor service 
@@ -173,7 +173,7 @@ Consider an application that renders a video stream in YUY2 format, using the BT
     UINT count;
     GUID* guids = NULL;
 
-    hr = g_pDXVAVPS->GetVideoProcessorDeviceGuids(&amp;g_VideoDesc, &amp;count, &amp;guids);
+    hr = g_pDXVAVPS->GetVideoProcessorDeviceGuids(&g_VideoDesc, &count, &guids);
 ```
 
 
@@ -194,7 +194,7 @@ To get the list of render-target formats supported by the device, pass the devic
     D3DFORMAT* formats = NULL;
 
     HRESULT hr = g_pDXVAVPS->GetVideoProcessorRenderTargets(
-        guid, &amp;g_VideoDesc, &amp;count, &amp;formats);
+        guid, &g_VideoDesc, &count, &formats);
 
     if (FAILED(hr))
     {
@@ -232,7 +232,7 @@ The list of available formats for the substreams can vary depending on the rende
     formats = NULL;
 
     hr = g_pDXVAVPS->GetVideoProcessorSubStreamFormats(
-        guid, &amp;g_VideoDesc, VIDEO_RENDER_TARGET_FORMAT, &amp;count, &amp;formats);
+        guid, &g_VideoDesc, VIDEO_RENDER_TARGET_FORMAT, &count, &formats);
 
     if (FAILED(hr))
     {
@@ -270,7 +270,7 @@ To get the capabilities of a particular device, pass the device GUID, the format
     // Query video processor capabilities.
 
     hr = g_pDXVAVPS->GetVideoProcessorCaps(
-        guid, &amp;g_VideoDesc, VIDEO_RENDER_TARGET_FORMAT, &amp;g_VPCaps);
+        guid, &g_VideoDesc, VIDEO_RENDER_TARGET_FORMAT, &g_VPCaps);
 
     if (FAILED(hr))
     {
@@ -291,10 +291,10 @@ To create the video processing device, call [**IDirectXVideoProcessorService::Cr
 
     hr = g_pDXVAVPS->CreateVideoProcessor(
         guid,
-        &amp;g_VideoDesc,
+        &g_VideoDesc,
         VIDEO_RENDER_TARGET_FORMAT,
         SUB_STREAM_COUNT,
-        &amp;g_pDXVAVPD
+        &g_pDXVAVPD
         );
 ```
 

@@ -53,7 +53,7 @@ if (SUCCEEDED(hr)) {
         result = ReadFile(certFileHandle, 
             certEncoded, 
             CERTIFICATE_BUFFER_SIZE, 
-            &amp;certEncodedSize, 
+            &certEncodedSize, 
             NULL);
         if (!result) {
             // the read failed, return the error as an HRESULT

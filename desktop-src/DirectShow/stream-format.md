@@ -36,7 +36,7 @@ The following function sets the format based on the major type GUID.
 
 
 ```C++
-HRESULT SetStreamFormat(IAMStreamConfig *pConfig, const GUID&amp; majorType)
+HRESULT SetStreamFormat(IAMStreamConfig *pConfig, const GUID& majorType)
 {
     if (pConfig == NULL)
     {
@@ -45,7 +45,7 @@ HRESULT SetStreamFormat(IAMStreamConfig *pConfig, const GUID&amp; majorType)
 
     // Get the number of stream capabilities.
     int count = 0, size = 0;
-    HRESULT hr = pConfig->GetNumberOfCapabilities(&amp;count, &amp;size);
+    HRESULT hr = pConfig->GetNumberOfCapabilities(&count, &size);
     if (FAILED(hr))
     {
         return hr;
@@ -63,7 +63,7 @@ HRESULT SetStreamFormat(IAMStreamConfig *pConfig, const GUID&amp; majorType)
     for (int ix = 0; ix < count; ix++)
     {
         AM_MEDIA_TYPE *pmt;
-        hr = pConfig->GetStreamCaps(ix, &amp;pmt, pCaps);
+        hr = pConfig->GetStreamCaps(ix, &pmt, pCaps);
         if (FAILED(hr))
         {
             break;

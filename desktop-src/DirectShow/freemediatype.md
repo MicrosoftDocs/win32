@@ -30,7 +30,7 @@ The **FreeMediaType** function deletes the format block in an [**AM\_MEDIA\_TYPE
 
 ```C++
 void FreeMediaType(
-   AM_MEDIA_TYPE &amp;mt
+   AM_MEDIA_TYPE &mt
 );
 ```
 
@@ -61,7 +61,7 @@ This function is defined in the [DirectShow Base Classes](directshow-base-classe
 ```C++
 // Release the format block for a media type.
 
-void _FreeMediaType(AM_MEDIA_TYPE&amp; mt)
+void _FreeMediaType(AM_MEDIA_TYPE& mt)
 {
     if (mt.cbFormat != 0)
     {

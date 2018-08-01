@@ -58,14 +58,14 @@ The following C++ code example shows how to remove an event source from an Event
 DWORD GetSubscriptionProperty(EC_HANDLE hSubscription,  
     EC_SUBSCRIPTION_PROPERTY_ID propID, 
     DWORD flags, 
-    std::vector<BYTE>&amp; buffer, 
-    PEC_VARIANT&amp; vProperty);
+    std::vector<BYTE>& buffer, 
+    PEC_VARIANT& vProperty);
 DWORD GetEventSourceProperty(EC_OBJECT_ARRAY_PROPERTY_HANDLE hArray, 
     EC_SUBSCRIPTION_PROPERTY_ID propID, 
     DWORD arrayIndex, 
     DWORD flags, 
-    std::vector<BYTE>&amp; buffer, 
-    PEC_VARIANT&amp; vProper);
+    std::vector<BYTE>& buffer, 
+    PEC_VARIANT& vProper);
 
 
 
@@ -107,7 +107,7 @@ void __cdecl wmain()
     }
 
     // Ensure that a handle to the event sources array has been obtained.
-    if (vProperty->Type != EcVarTypeNull  &amp;&amp; 
+    if (vProperty->Type != EcVarTypeNull  && 
         vProperty->Type != EcVarObjectArrayPropertyHandle)
     {
         dwRetVal = ERROR_INVALID_DATA;
@@ -122,7 +122,7 @@ void __cdecl wmain()
         goto Cleanup;
     }
 
-    if (!EcGetObjectArraySize(hArray, &amp;dwEventSourceCount))
+    if (!EcGetObjectArraySize(hArray, &dwEventSourceCount))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -185,7 +185,7 @@ void __cdecl wmain()
                 NULL,
                 dwRetVal,
                 0,
-                (LPWSTR) &amp;lpwszBuffer,
+                (LPWSTR) &lpwszBuffer,
                 0,
                 NULL);
             
@@ -206,8 +206,8 @@ void __cdecl wmain()
 DWORD GetSubscriptionProperty(EC_HANDLE hSubscription, 
     EC_SUBSCRIPTION_PROPERTY_ID propID, 
     DWORD flags, 
-    std::vector<BYTE>&amp; buffer, 
-    PEC_VARIANT&amp; vProperty)
+    std::vector<BYTE>& buffer, 
+    PEC_VARIANT& vProperty)
 {
     DWORD  dwBufferSize, dwRetVal = ERROR_SUCCESS;
     buffer.resize(sizeof(EC_VARIANT));
@@ -220,8 +220,8 @@ DWORD GetSubscriptionProperty(EC_HANDLE hSubscription,
         propID,
         flags,
         (DWORD) buffer.size(),
-        (PEC_VARIANT)&amp;buffer[0],
-        &amp;dwBufferSize))
+        (PEC_VARIANT)&buffer[0],
+        &dwBufferSize))
     {
         dwRetVal = GetLastError();
 
@@ -234,8 +234,8 @@ DWORD GetSubscriptionProperty(EC_HANDLE hSubscription,
                 propID,
                 flags,
                 (DWORD) buffer.size(),
-                (PEC_VARIANT)&amp;buffer[0],
-                &amp;dwBufferSize))
+                (PEC_VARIANT)&buffer[0],
+                &dwBufferSize))
             {
                 dwRetVal = GetLastError();
             }
@@ -244,7 +244,7 @@ DWORD GetSubscriptionProperty(EC_HANDLE hSubscription,
 
     if (dwRetVal == ERROR_SUCCESS)
     {
-        vProperty = (PEC_VARIANT) &amp;buffer[0];
+        vProperty = (PEC_VARIANT) &buffer[0];
     }
     else
     {
@@ -258,8 +258,8 @@ DWORD GetEventSourceProperty(EC_OBJECT_ARRAY_PROPERTY_HANDLE hArray,
     EC_SUBSCRIPTION_PROPERTY_ID propID,
     DWORD arrayIndex,
     DWORD flags,
-    std::vector<BYTE>&amp; buffer,
-    PEC_VARIANT&amp; vProperty)
+    std::vector<BYTE>& buffer,
+    PEC_VARIANT& vProperty)
 {
     UNREFERENCED_PARAMETER(flags);
     UNREFERENCED_PARAMETER(propID);
@@ -276,8 +276,8 @@ DWORD GetEventSourceProperty(EC_OBJECT_ARRAY_PROPERTY_HANDLE hArray,
         arrayIndex,
         0, 
         (DWORD) buffer.size(), 
-        (PEC_VARIANT)&amp;buffer[0],
-        &amp;dwBufferSize))
+        (PEC_VARIANT)&buffer[0],
+        &dwBufferSize))
     {
         dwRetVal = GetLastError();
 
@@ -291,8 +291,8 @@ DWORD GetEventSourceProperty(EC_OBJECT_ARRAY_PROPERTY_HANDLE hArray,
                 arrayIndex,
                 0, 
                 (DWORD) buffer.size(),
-                (PEC_VARIANT)&amp;buffer[0],
-                &amp;dwBufferSize))
+                (PEC_VARIANT)&buffer[0],
+                &dwBufferSize))
             {
                 dwRetVal = GetLastError();
             }
@@ -301,7 +301,7 @@ DWORD GetEventSourceProperty(EC_OBJECT_ARRAY_PROPERTY_HANDLE hArray,
 
     if (dwRetVal == ERROR_SUCCESS)
     {
-        vProperty = (PEC_VARIANT) &amp;buffer[0];
+        vProperty = (PEC_VARIANT) &buffer[0];
     }
     else
     {

@@ -107,7 +107,7 @@ printf("The message length is %d bytes. \n", cbContent);
 // Get a handle to a cryptographic provider.
 
 if(CryptAcquireContext(
-            &amp;hCryptProv,        // Address for handle to be returned.
+            &hCryptProv,        // Address for handle to be returned.
             NULL,               // Use the current user's logon name.
             NULL,               // Use the default provider.
             PROV_RSA_FULL,      // Need to both encrypt and sign.
@@ -166,7 +166,7 @@ EncryptAlgSize = sizeof(EncryptAlgorithm);
 //-------------------------------------------------------------------
 // Initialize the structure to zero.
 
-memset(&amp;EncryptAlgorithm, 0, EncryptAlgSize);
+memset(&EncryptAlgorithm, 0, EncryptAlgSize);
 
 //-------------------------------------------------------------------
 // Set the necessary member.
@@ -177,7 +177,7 @@ EncryptAlgorithm.pszObjId = szOID_RSA_RC4;
 // Initialize the CRYPT_ENCRYPT_MESSAGE_PARA structure. 
 
 EncryptParamsSize = sizeof(EncryptParams);
-memset(&amp;EncryptParams, 0, EncryptParamsSize);
+memset(&EncryptParams, 0, EncryptParamsSize);
 EncryptParams.cbSize =  EncryptParamsSize;
 EncryptParams.dwMsgEncodingType = MY_ENCODING_TYPE;
 EncryptParams.hCryptProv = hCryptProv;
@@ -187,13 +187,13 @@ EncryptParams.ContentEncryptionAlgorithm = EncryptAlgorithm;
 // Call CryptEncryptMessage.
 
 if(CryptEncryptMessage(
-          &amp;EncryptParams,
+          &EncryptParams,
           1,
           RecipientCertArray,
           pbContent,
           cbContent,
           NULL,
-          &amp;cbEncryptedBlob))
+          &cbEncryptedBlob))
 {
     printf("The encrypted message is %d bytes. \n",cbEncryptedBlob);
 }
@@ -216,13 +216,13 @@ else
 // Call CryptEncryptMessage again to encrypt the content.
 
 if(CryptEncryptMessage(
-          &amp;EncryptParams,
+          &EncryptParams,
           1,
           RecipientCertArray,
           pbContent,
           cbContent,
           pbEncryptedBlob,
-          &amp;cbEncryptedBlob))
+          &cbEncryptedBlob))
 {
     printf( "Encryption succeeded. \n");
 }
@@ -335,7 +335,7 @@ printf("The encrypted string is: \n%s\n",EncryptedString);
 //-------------------------------------------------------------------
 //   Initialize the CRYPT_DECRYPT_MESSAGE_PARA structure.
 
-memset(&amp;DecryptParams, 0, DecryptParamsSize);
+memset(&DecryptParams, 0, DecryptParamsSize);
 DecryptParams.cbSize = DecryptParamsSize;
 DecryptParams.dwMsgAndCertEncodingType = MY_ENCODING_TYPE;
 DecryptParams.cCertStore = 1;
@@ -346,11 +346,11 @@ DecryptParams.rghCertStore = CertStoreArray;
 //  Call CryptDecryptMessage to get the returned data size.
 
 if(CryptDecryptMessage(
-          &amp;DecryptParams,
+          &DecryptParams,
           pbEncryptedBlob,
           cbEncryptedBlob,
           NULL,
-          &amp;cbDecryptedMessage,
+          &cbDecryptedMessage,
           NULL))
 {
     printf("The size for the decrypted message is: %d.\n",
@@ -377,11 +377,11 @@ else
 // Call CryptDecryptMessage to decrypt the data.
 
 if(CryptDecryptMessage(
-          &amp;DecryptParams,
+          &DecryptParams,
           pbEncryptedBlob,
           cbEncryptedBlob,
           pbDecryptedMessage,
-          &amp;cbDecryptedMessage,
+          &cbDecryptedMessage,
           NULL))
 {
     DecryptedString = (LPSTR) pbDecryptedMessage;
@@ -478,7 +478,7 @@ DWORD PropId = CERT_KEY_PROV_INFO_PROP_ID;
 // Find certificates in the store until the end of the store 
 // is reached or a certificate with an AT_KEYEXCHANGE key is found. 
 
-while(fMore &amp;&amp; (pCertContext= CertFindCertificateInStore( 
+while(fMore && (pCertContext= CertFindCertificateInStore( 
    hCertStore, // Handle of the store to be searched. 
    0,          // Encoding type. Not used for this search. 
    0,          // dwFindFlags. Special find criteria. 
@@ -488,7 +488,7 @@ while(fMore &amp;&amp; (pCertContext= CertFindCertificateInStore(
                // to be done. In this case, search for 
                // certificates that have a specific 
                // extended property. 
-   &amp;PropId,    // pvFindPara. Gives the specific 
+   &PropId,    // pvFindPara. Gives the specific 
                // value searched for, here the identifier 
                // of an extended property. 
    pCertContext))) 
@@ -512,7 +512,7 @@ while(fMore &amp;&amp; (pCertContext= CertFindCertificateInStore(
 if(!(CertGetCertificateContextProperty( 
      pCertContext, 
      CERT_KEY_PROV_INFO_PROP_ID, 
-     NULL, &amp;dwSize))) 
+     NULL, &dwSize))) 
 { 
      MyHandleError("Error getting key property."); 
 } 
@@ -534,7 +534,7 @@ if(!(CertGetCertificateContextProperty(
    pCertContext, 
    CERT_KEY_PROV_INFO_PROP_ID, 
    pKeyInfo, 
-   &amp;dwSize))) 
+   &dwSize))) 
 { 
     MyHandleError("The second call to the function failed."); 
 } 

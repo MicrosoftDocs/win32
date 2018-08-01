@@ -87,7 +87,7 @@ This text renderer implementation renders glyph runs by converting them to [Dire
     // Create the path geometry.
     ID2D1PathGeometry* pPathGeometry = NULL;
     hr = pD2DFactory_->CreatePathGeometry(
-            &amp;pPathGeometry
+            &pPathGeometry
             );
 
     // Write to the path geometry using the geometry sink.
@@ -95,7 +95,7 @@ This text renderer implementation renders glyph runs by converting them to [Dire
     if (SUCCEEDED(hr))
     {
         hr = pPathGeometry->Open(
-            &amp;pSink
+            &pSink
             );
     }
     ```
@@ -160,8 +160,8 @@ This text renderer implementation renders glyph runs by converting them to [Dire
     {
         hr = pD2DFactory_->CreateTransformedGeometry(
             pPathGeometry,
-            &amp;matrix,
-            &amp;pTransformedGeometry
+            &matrix,
+            &pTransformedGeometry
             );
     }
     ```
@@ -189,9 +189,9 @@ This text renderer implementation renders glyph runs by converting them to [Dire
 7.  Now that you are finished drawing, do not forget to clean up the objects that were created in this method.
 
     ```C++
-    SafeRelease(&amp;pPathGeometry);
-    SafeRelease(&amp;pSink);
-    SafeRelease(&amp;pTransformedGeometry);
+    SafeRelease(&pPathGeometry);
+    SafeRelease(&pSink);
+    SafeRelease(&pTransformedGeometry);
     ```
 
     
@@ -220,8 +220,8 @@ Drawing an underline by using [Direct2D](https://msdn.microsoft.com/en-us/librar
     ```C++
     ID2D1RectangleGeometry* pRectangleGeometry = NULL;
     hr = pD2DFactory_->CreateRectangleGeometry(
-            &amp;rect, 
-            &amp;pRectangleGeometry
+            &rect, 
+            &pRectangleGeometry
             );
     ```
 
@@ -242,8 +242,8 @@ Drawing an underline by using [Direct2D](https://msdn.microsoft.com/en-us/librar
     {
         hr = pD2DFactory_->CreateTransformedGeometry(
             pRectangleGeometry,
-            &amp;matrix,
-            &amp;pTransformedGeometry
+            &matrix,
+            &pTransformedGeometry
             );
     }
     ```
@@ -271,8 +271,8 @@ Drawing an underline by using [Direct2D](https://msdn.microsoft.com/en-us/librar
 5.  Now that you are finished drawing, do not forget to clean up the objects that were created in this method.
 
     ```C++
-    SafeRelease(&amp;pRectangleGeometry);
-    SafeRelease(&amp;pTransformedGeometry);
+    SafeRelease(&pRectangleGeometry);
+    SafeRelease(&pTransformedGeometry);
     ```
 
     
@@ -312,7 +312,7 @@ This method is called to get the number of pixels per Device Independent Pixel (
 ```C++
 float x, yUnused;
 
-pRT_->GetDpi(&amp;x, &amp;yUnused);
+pRT_->GetDpi(&x, &yUnused);
 *pixelsPerDip = x / 96;
 ```
 
@@ -330,10 +330,10 @@ It is important to release any pointers that were used by the custom text render
 ```C++
 CustomTextRenderer::~CustomTextRenderer()
 {
-    SafeRelease(&amp;pD2DFactory_);
-    SafeRelease(&amp;pRT_);
-    SafeRelease(&amp;pOutlineBrush_);
-    SafeRelease(&amp;pFillBrush_);
+    SafeRelease(&pD2DFactory_);
+    SafeRelease(&pRT_);
+    SafeRelease(&pOutlineBrush_);
+    SafeRelease(&pFillBrush_);
 }
 ```
 

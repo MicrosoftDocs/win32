@@ -56,7 +56,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -64,7 +64,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -104,19 +104,19 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     HINTERNET session = NULL;
     
     channelPropertyArray[0].id = WS_CHANNEL_PROPERTY_ADDRESSING_VERSION;
-    channelPropertyArray[0].value = &amp;addressingVersion;
+    channelPropertyArray[0].value = &addressingVersion;
     channelPropertyArray[0].valueSize = sizeof(addressingVersion);
     
     channelPropertyArray[1].id = WS_CHANNEL_PROPERTY_ENVELOPE_VERSION;
-    channelPropertyArray[1].value = &amp;envelopeVersion;
+    channelPropertyArray[1].value = &envelopeVersion;
     channelPropertyArray[1].valueSize = sizeof(envelopeVersion);
     
     channelPropertyArray[2].id = WS_CHANNEL_PROPERTY_HTTP_PROXY_SETTING_MODE;
-    channelPropertyArray[2].value = &amp;proxySettingMode;
+    channelPropertyArray[2].value = &proxySettingMode;
     channelPropertyArray[2].valueSize = sizeof(proxySettingMode);
     
     channelPropertyArray[3].id = WS_CHANNEL_PROPERTY_CUSTOM_HTTP_PROXY;
-    channelPropertyArray[3].value = &amp;customProxy;
+    channelPropertyArray[3].value = &customProxy;
     channelPropertyArray[3].valueSize = sizeof(customProxy);
     
     
@@ -136,8 +136,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     ULONG target = WS_HTTP_HEADER_AUTH_TARGET_PROXY;
     WS_SECURITY_BINDING_PROPERTY httpProxyAuthBindingProperties[2] =
     {
-        { WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_SCHEME, &amp;scheme, sizeof(scheme) },
-        { WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_TARGET, &amp;target, sizeof(target) }
+        { WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_SCHEME, &scheme, sizeof(scheme) },
+        { WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_TARGET, &target, sizeof(target) }
     };
     
     // declare and initialize an HTTP header authentication security binding for the HTTP proxy server
@@ -145,10 +145,10 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     httpProxyAuthBinding.binding.bindingType = WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TYPE; // set the binding type
     httpProxyAuthBinding.binding.properties = httpProxyAuthBindingProperties;
     httpProxyAuthBinding.binding.propertyCount = WsCountOf(httpProxyAuthBindingProperties);
-    httpProxyAuthBinding.clientCredential = &amp;windowsCredential.credential;
+    httpProxyAuthBinding.clientCredential = &windowsCredential.credential;
     
     // declare and initialize the array of all security bindings
-    WS_SECURITY_BINDING* securityBindings[1] = { &amp;httpProxyAuthBinding.binding };
+    WS_SECURITY_BINDING* securityBindings[1] = { &httpProxyAuthBinding.binding };
     
     // declare and initialize the security description
     WS_SECURITY_DESCRIPTION securityDescription = {}; // zero out the struct
@@ -159,7 +159,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -170,7 +170,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -195,8 +195,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     WinHttpGetProxyForUrl(
         session,
         serviceUrl.chars,
-        &amp;autoProxyOptions,
-        &amp;proxyInfo);
+        &autoProxyOptions,
+        &proxyInfo);
     
     if (proxyInfo.dwAccessType == WINHTTP_ACCESS_TYPE_NAMED_PROXY)
     {
@@ -215,12 +215,12 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateServiceProxy(
             WS_CHANNEL_TYPE_REQUEST, 
             WS_HTTP_CHANNEL_BINDING, 
-            &amp;securityDescription, 
+            &securityDescription, 
             NULL, 
             0,
             channelPropertyArray,
             WsCountOf(channelPropertyArray),
-            &amp;serviceProxy, 
+            &serviceProxy, 
             error);
     if (FAILED(hr))
     {
@@ -231,7 +231,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // Open channel to address
     hr = WsOpenServiceProxy(
             serviceProxy, 
-            &amp;address, 
+            &address, 
             NULL, 
             error);
     if (FAILED(hr))
@@ -244,8 +244,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         LonLatPt point = {10.0, 10.0};
         hr = TerraServiceSoap_ConvertLonLatPtToNearestPlace(
             serviceProxy,
-            &amp;point,
-            &amp;place,
+            &point,
+            &place,
             heap,
             NULL,
             0,

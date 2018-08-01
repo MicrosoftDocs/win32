@@ -94,7 +94,7 @@ HRESULT hr = CoCreateInstance(
     CLSID_WICImagingFactory,
     NULL,
     CLSCTX_INPROC_SERVER,
-    IID_PPV_ARGS(&amp;pFactory)
+    IID_PPV_ARGS(&pFactory)
 );
 ```
 

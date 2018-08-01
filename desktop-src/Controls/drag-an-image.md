@@ -54,14 +54,14 @@ BOOL StartDragging(HWND hwnd, POINT ptCur, HIMAGELIST himl)
 { 
     // Return if the cursor is not in the bounding rectangle of 
     // the image. 
-    if (!PtInRect(&amp;g_rcImage, ptCur)) 
+    if (!PtInRect(&g_rcImage, ptCur)) 
         return FALSE; 
  
     // Capture the mouse input. 
     SetCapture(hwnd); 
  
     // Erase the image from the client area. 
-    InvalidateRect(hwnd, &amp;g_rcImage, TRUE); 
+    InvalidateRect(hwnd, &g_rcImage, TRUE); 
     UpdateWindow(hwnd); 
  
     // Calculate the location of the hot spot, and save it. 

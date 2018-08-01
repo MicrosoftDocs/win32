@@ -35,7 +35,7 @@ The following steps register an object to handle engine events.
 2.  Use [**XAudio2Create**](/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create) to create an instance of the XAudio2 engine.
 
     ```
-    if ( FAILED(hr = XAudio2Create( &amp;pXAudio2, 0, XAUDIO2_DEFAULT_PROCESSOR ) ) )
+    if ( FAILED(hr = XAudio2Create( &pXAudio2, 0, XAUDIO2_DEFAULT_PROCESSOR ) ) )
         return hr;
     ```
 
@@ -44,7 +44,7 @@ The following steps register an object to handle engine events.
 3.  Use [**IXAudio2::RegisterForCallbacks**](https://msdn.microsoft.com/en-us/library/Ee418620(v=VS.85).aspx) to register the engine callback.
 
     ```
-    pXAudio2->RegisterForCallbacks( &amp;engineCallback );
+    pXAudio2->RegisterForCallbacks( &engineCallback );
     ```
 
     
@@ -52,7 +52,7 @@ The following steps register an object to handle engine events.
 4.  If you don't need the engine callback any more, call [**IXAudio2::UnregisterForCallbacks**](https://msdn.microsoft.com/en-us/library/Ee418630(v=VS.85).aspx).
 
     ```
-    pXAudio2->UnregisterForCallbacks( &amp;engineCallback );
+    pXAudio2->UnregisterForCallbacks( &engineCallback );
     ```
 
     

@@ -29,7 +29,7 @@ HRESULT AddFilterByCLSID(
     IBaseFilter *pFilter = NULL;
     
     HRESULT hr = CoCreateInstance(clsid, NULL, CLSCTX_INPROC_SERVER, 
-        IID_PPV_ARGS(&amp;pFilter));
+        IID_PPV_ARGS(&pFilter));
     if (FAILED(hr))
     {
         goto done;
@@ -45,7 +45,7 @@ HRESULT AddFilterByCLSID(
     (*ppF)->AddRef();
 
 done:
-    SafeRelease(&amp;pFilter);
+    SafeRelease(&pFilter);
     return hr;
 }
 ```
@@ -62,7 +62,7 @@ The function calls [**CoCreateInstance**](https://msdn.microsoft.com/library/win
 
 ```C++
 IBaseFilter *pMux;
-hr = AddFilterByCLSID(pGraph, CLSID_AviDest, L"AVI Mux", &amp;pMux, NULL); 
+hr = AddFilterByCLSID(pGraph, CLSID_AviDest, L"AVI Mux", &pMux, NULL); 
 if (SUCCEEDED(hr))
 {
     /* ... */

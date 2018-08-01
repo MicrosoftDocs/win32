@@ -2412,7 +2412,7 @@ close (STDERR);
 my ($NICSet, $NIC);  
 eval {$NICSet = Win32::OLE->GetObject("winmgmts:!\\\\.\\root\\cimv2")->
  ExecQuery("SELECT * FROM Win32_NetworkAdapterConfiguration WHERE IPEnabled=true"); };
-if (!$@ &amp;&amp; defined $NICSet)
+if (!$@ && defined $NICSet)
 {
  foreach $NIC (in $NICSet)
  {

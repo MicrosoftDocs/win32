@@ -44,14 +44,14 @@ IWICMetadataReader* pMetadataReader = NULL;
 IWICMetadataWriter** ppMetadataWriter = NULL;
 HRESULT hr;
 
-hr = m_pBlockReader->GetCount(&amp;blockCount);
+hr = m_pBlockReader->GetCount(&blockCount);
 ppMetadataWriter = IWICMetadataWriter*[blockCount];
 
 for (UINT x=0; x < blockCount; x++)
 {
-   hr = m_pBlockReader->GetReaderByIndex(&amp;pMetadataReader);
+   hr = m_pBlockReader->GetReaderByIndex(&pMetadataReader);
    hr = m_pComponentFactory->CreateMetadataWriterFromReader(
-         pMetadataReader, NULL, &amp;ppMetadataWriter[x]);
+         pMetadataReader, NULL, &ppMetadataWriter[x]);
 }
 ```
 

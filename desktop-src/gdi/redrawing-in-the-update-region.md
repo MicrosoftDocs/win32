@@ -26,24 +26,24 @@ POINT aptTriangle[4]  = {50,2, 98,86,  2,86, 50,2},
   . 
  
         case WM_PAINT: 
-            hdc = BeginPaint(hwnd, &amp;ps); 
-            SetRect(&amp;rc, 0, 0, 100, 100); 
+            hdc = BeginPaint(hwnd, &ps); 
+            SetRect(&rc, 0, 0, 100, 100); 
  
-            if (RectVisible(hdc, &amp;rc)) 
+            if (RectVisible(hdc, &rc)) 
                 Polyline(hdc, aptTriangle, 4); 
  
             SetViewportOrgEx(hdc, 100, 0, NULL); 
-            if (RectVisible(hdc, &amp;rc)) 
+            if (RectVisible(hdc, &rc)) 
                 Polyline(hdc, aptRectangle, 5); 
  
             SetViewportOrgEx(hdc, 0, 100, NULL); 
-            if (RectVisible(hdc, &amp;rc)) 
+            if (RectVisible(hdc, &rc)) 
                 Polyline(hdc, aptPentagon, 6); 
  
             SetViewportOrgEx(hdc, 100, 100, NULL); 
-            if (RectVisible(hdc, &amp;rc)) 
+            if (RectVisible(hdc, &rc)) 
                 Polyline(hdc, aptHexagon, 7); 
-            EndPaint(hwnd, &amp;ps); 
+            EndPaint(hwnd, &ps); 
             return 0L; 
  
   . 

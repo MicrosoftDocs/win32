@@ -30,7 +30,7 @@ VOID CommonFunc(VOID)
 // Retrieve a data pointer for the current thread. 
  
    lpvData = TlsGetValue(dwTlsIndex); 
-   if ((lpvData == 0) &amp;&amp; (GetLastError() != ERROR_SUCCESS)) 
+   if ((lpvData == 0) && (GetLastError() != ERROR_SUCCESS)) 
       ErrorExit("TlsGetValue error"); 
  
 // Use the data stored for the current thread. 
@@ -84,7 +84,7 @@ int main(VOID)
          (LPTHREAD_START_ROUTINE) ThreadFunc, // thread function 
          NULL,                    // no thread function argument 
          0,                       // use default creation flags 
-         &amp;IDThread);              // returns thread identifier 
+         &IDThread);              // returns thread identifier 
  
    // Check the return value for success. 
       if (hThread[i] == NULL) 

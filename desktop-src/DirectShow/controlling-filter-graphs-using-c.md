@@ -15,7 +15,7 @@ If you are writing a DirectShow application in C (rather than C++), you must use
 
 
 ```C++
-pGraph->lpVtbl->QueryInterface(pGraph, &amp;IID_IMediaEvent, (void **)&amp;pEvent);
+pGraph->lpVtbl->QueryInterface(pGraph, &IID_IMediaEvent, (void **)&pEvent);
 ```
 
 
@@ -24,7 +24,7 @@ The following shows the equivalent call in C++:
 
 
 ```C++
-pGraph->QueryInterface(IID_IMediaEvent, (void **)&amp;pEvent);
+pGraph->QueryInterface(IID_IMediaEvent, (void **)&pEvent);
 ```
 
 

@@ -32,7 +32,7 @@ The **Modify** method updates an IPv6 address (AAAA) Resource Record.
 void Modify(
   [in, optional] uint32                TTL,
   [in, optional] string                IPv6Address,
-  [out, ref]     MicrosoftDNS_AAAAType &amp;RR
+  [out, ref]     MicrosoftDNS_AAAAType &RR
 );
 ```
 

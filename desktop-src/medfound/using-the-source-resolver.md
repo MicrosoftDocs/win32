@@ -40,7 +40,7 @@ HRESULT CreateMediaSource(PCWSTR sURL, IMFMediaSource **ppSource)
     IUnknown* pSource = NULL;
 
     // Create the source resolver.
-    HRESULT hr = MFCreateSourceResolver(&amp;pSourceResolver);
+    HRESULT hr = MFCreateSourceResolver(&pSourceResolver);
     if (FAILED(hr))
     {
         goto done;
@@ -57,8 +57,8 @@ HRESULT CreateMediaSource(PCWSTR sURL, IMFMediaSource **ppSource)
         sURL,                       // URL of the source.
         MF_RESOLUTION_MEDIASOURCE,  // Create a source object.
         NULL,                       // Optional property store.
-        &amp;ObjectType,        // Receives the created object type. 
-        &amp;pSource            // Receives a pointer to the media source.
+        &ObjectType,        // Receives the created object type. 
+        &pSource            // Receives a pointer to the media source.
         );
     if (FAILED(hr))
     {
@@ -69,8 +69,8 @@ HRESULT CreateMediaSource(PCWSTR sURL, IMFMediaSource **ppSource)
     hr = pSource->QueryInterface(IID_PPV_ARGS(ppSource));
 
 done:
-    SafeRelease(&amp;pSourceResolver);
-    SafeRelease(&amp;pSource);
+    SafeRelease(&pSourceResolver);
+    SafeRelease(&pSource);
     return hr;
 }
 ```

@@ -55,14 +55,14 @@ The following procedure is used to execute the WMI application. Steps 1 through 
     BSTR ClassName = SysAllocString(L"Win32_Process");
 
     IWbemClassObject* pClass = NULL;
-    hres = pSvc->GetObject(ClassName, 0, NULL, &amp;pClass, NULL);
+    hres = pSvc->GetObject(ClassName, 0, NULL, &pClass, NULL);
 
     IWbemClassObject* pInParamsDefinition = NULL;
     hres = pClass->GetMethod(MethodName, 0, 
-        &amp;pInParamsDefinition, NULL);
+        &pInParamsDefinition, NULL);
 
     IWbemClassObject* pClassInstance = NULL;
-    hres = pInParamsDefinition->SpawnInstance(0, &amp;pClassInstance);
+    hres = pInParamsDefinition->SpawnInstance(0, &pClassInstance);
 
     // Create the values for the in-parameters
     VARIANT varCommand;
@@ -71,8 +71,8 @@ The following procedure is used to execute the WMI application. Steps 1 through 
 
     // Store the value for the in-parameters
     hres = pClassInstance->Put(L"CommandLine", 0,
-        &amp;varCommand, 0);
-    wprintf(L"The command is: %s\n", V_BSTR(&amp;varCommand));
+        &varCommand, 0);
+    wprintf(L"The command is: %s\n", V_BSTR(&varCommand));
     ```
 
     
@@ -83,11 +83,11 @@ The following procedure is used to execute the WMI application. Steps 1 through 
     // Execute Method
     IWbemClassObject* pOutParams = NULL;
     hres = pSvc->ExecMethod(ClassName, MethodName, 0,
-        NULL, pClassInstance, &amp;pOutParams, NULL);
+        NULL, pClassInstance, &pOutParams, NULL);
 
     VARIANT varReturnValue;
     hres = pOutParams->Get(_bstr_t(L"ReturnValue"), 0, 
-        &amp;varReturnValue, NULL, 0);
+        &varReturnValue, NULL, 0);
     ```
 
     
@@ -153,7 +153,7 @@ int main(int iArgCnt, char ** argv)
         CLSID_WbemLocator,
         0, 
         CLSCTX_INPROC_SERVER, 
-        IID_IWbemLocator, (LPVOID *) &amp;pLoc);
+        IID_IWbemLocator, (LPVOID *) &pLoc);
  
     if (FAILED(hres))
     {
@@ -179,7 +179,7 @@ int main(int iArgCnt, char ** argv)
         NULL, 
         0, 
         0, 
-        &amp;pSvc
+        &pSvc
     );
 
     if (FAILED(hres))
@@ -226,14 +226,14 @@ int main(int iArgCnt, char ** argv)
     BSTR ClassName = SysAllocString(L"Win32_Process");
 
     IWbemClassObject* pClass = NULL;
-    hres = pSvc->GetObject(ClassName, 0, NULL, &amp;pClass, NULL);
+    hres = pSvc->GetObject(ClassName, 0, NULL, &pClass, NULL);
 
     IWbemClassObject* pInParamsDefinition = NULL;
     hres = pClass->GetMethod(MethodName, 0, 
-        &amp;pInParamsDefinition, NULL);
+        &pInParamsDefinition, NULL);
 
     IWbemClassObject* pClassInstance = NULL;
-    hres = pInParamsDefinition->SpawnInstance(0, &amp;pClassInstance);
+    hres = pInParamsDefinition->SpawnInstance(0, &pClassInstance);
 
     // Create the values for the in parameters
     VARIANT varCommand;
@@ -242,19 +242,19 @@ int main(int iArgCnt, char ** argv)
 
     // Store the value for the in parameters
     hres = pClassInstance->Put(L"CommandLine", 0,
-        &amp;varCommand, 0);
-    wprintf(L"The command is: %s\n", V_BSTR(&amp;varCommand));
+        &varCommand, 0);
+    wprintf(L"The command is: %s\n", V_BSTR(&varCommand));
 
     // Execute Method
     IWbemClassObject* pOutParams = NULL;
     hres = pSvc->ExecMethod(ClassName, MethodName, 0,
-    NULL, pClassInstance, &amp;pOutParams, NULL);
+    NULL, pClassInstance, &pOutParams, NULL);
 
     if (FAILED(hres))
     {
         cout << "Could not execute method. Error code = 0x" 
              << hex << hres << endl;
-        VariantClear(&amp;varCommand);
+        VariantClear(&varCommand);
         SysFreeString(ClassName);
         SysFreeString(MethodName);
         pClass->Release();
@@ -269,16 +269,16 @@ int main(int iArgCnt, char ** argv)
 
     // To see what the method returned,
     // use the following code.  The return value will
-    // be in &amp;varReturnValue
+    // be in &varReturnValue
     VARIANT varReturnValue;
     hres = pOutParams->Get(_bstr_t(L"ReturnValue"), 0, 
-        &amp;varReturnValue, NULL, 0);
+        &varReturnValue, NULL, 0);
 
 
     // Clean up
     //--------------------------
-    VariantClear(&amp;varCommand);
-    VariantClear(&amp;varReturnValue);
+    VariantClear(&varCommand);
+    VariantClear(&varReturnValue);
     SysFreeString(ClassName);
     SysFreeString(MethodName);
     pClass->Release();

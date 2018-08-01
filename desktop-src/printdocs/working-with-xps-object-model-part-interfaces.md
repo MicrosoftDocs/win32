@@ -56,33 +56,33 @@ The following code example navigates to a document part and gets the part's name
     // package points to the IXpsOMPackage interface to walk.
 
     // get the fixed document sequence of the package
-    hr = package->GetDocumentSequence(&amp;docSeq);
+    hr = package->GetDocumentSequence(&docSeq);
 
     // get the fixed documents in the fixed document sequence
-    hr = docSeq->GetDocuments(&amp;docs);
+    hr = docSeq->GetDocuments(&docs);
 
     // walk the collection of documents;
-    hr = docs->GetCount(&amp;numDocs);
+    hr = docs->GetCount(&numDocs);
     thisDoc = 0;
     while (thisDoc < numDocs) {
-        hr = docs->GetAt(thisDoc, &amp;doc);
+        hr = docs->GetAt(thisDoc, &doc);
         
         // get the part name (URI) of this document
-        hr = doc->GetPartName ( &amp;thisDocPartUri );
+        hr = doc->GetPartName ( &thisDocPartUri );
 
         // get the doc contents
-        hr = doc->GetPageReferences(&amp;pages);
+        hr = doc->GetPageReferences(&pages);
         
         // walk the collection of page references
-        hr = pages->GetCount(&amp;numPageRefs);
+        hr = pages->GetCount(&numPageRefs);
         thisPageRef = 0;
         while (thisPageRef < numPageRefs) {
             // get this page reference
-            hr = pages->GetAt(thisPageRef, &amp;pageRef );
+            hr = pages->GetAt(thisPageRef, &pageRef );
 
             // get the part name (URI) of this page
-            hr = pageRef->GetPage (&amp;page);
-            hr = page->GetPartName ( &amp;thisPagePartUri );
+            hr = pageRef->GetPage (&page);
+            hr = page->GetPartName ( &thisPagePartUri );
 
             // do something with the part name
  
@@ -120,13 +120,13 @@ The following code example gets the lists of the different resources that are us
     IXpsOMRemoteDictionaryResourceCollection  *dictionaryResources; 
 
     // pageRef contains the current page reference 
-    hr = pageRef->CollectPartResources ( &amp;resources );
+    hr = pageRef->CollectPartResources ( &resources );
 
     // Get pointers to each type of resource
-    hr = resources->GetColorProfileResources( &amp;colorProfileResources );
-    hr = resources->GetFontResources( &amp;fontResources );
-    hr = resources->GetImageResources( &amp;imageResources );
-    hr = resources->GetRemoteDictionaryResources( &amp;dictionaryResources );
+    hr = resources->GetColorProfileResources( &colorProfileResources );
+    hr = resources->GetFontResources( &fontResources );
+    hr = resources->GetImageResources( &imageResources );
+    hr = resources->GetRemoteDictionaryResources( &dictionaryResources );
 
     // use resources
 

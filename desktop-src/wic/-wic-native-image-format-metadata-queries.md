@@ -62,18 +62,18 @@ IWICMetadataQueryReader *pIFDReader = NULL;
 // Get the query reader.
 if (SUCCEEDED(hr))
 {
-    hr = pFrameDecode->GetMetadataQueryReader(&amp;pQueryReader);
+    hr = pFrameDecode->GetMetadataQueryReader(&pQueryReader);
 }
 
 if (SUCCEEDED(hr))
 {
     // Get the nested IFD reader.
-    hr = pQueryReader->GetMetadataByName(L"/app1/ifd", &amp;value);
+    hr = pQueryReader->GetMetadataByName(L"/app1/ifd", &value);
     if (value.vt == VT_UNKNOWN)
     {
-        hr = value.punkVal->QueryInterface(IID_IWICMetadataQueryReader, (void **)&amp;pIFDReader);
+        hr = value.punkVal->QueryInterface(IID_IWICMetadataQueryReader, (void **)&pIFDReader);
     }
-    PropVariantClear(&amp;value); // Clear value for new query.
+    PropVariantClear(&value); // Clear value for new query.
 }
 ```
 

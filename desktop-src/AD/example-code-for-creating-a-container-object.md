@@ -52,14 +52,14 @@ void wmain( int argc, wchar_t *argv[ ])
 
 
         // Get rootDSE and the domain container DN.
-        hr = ADsGetObject(L"LDAP://rootDSE", IID_IADs, (void**)&amp;pObject);
+        hr = ADsGetObject(L"LDAP://rootDSE", IID_IADs, (void**)&pObject);
         if (FAILED(hr))
         {
                 wprintf(L"Not Found. Cannot bind to the domain.\n");
                 return hr;
         }
 
-        hr = pObject->Get(CComBSTR(L"defaultNamingContext"),&amp;var);
+        hr = pObject->Get(CComBSTR(L"defaultNamingContext"),&var);
         if (SUCCEEDED(hr))
         {
     // Build the ADsPath to the domain.
@@ -67,7 +67,7 @@ void wmain( int argc, wchar_t *argv[ ])
     szPath.AppendBSTR(var.bstrVal);
     var.Clear();
     // Bind to the current domain.
-    hr = ADsGetObject(szPath, IID_IADsContainer, (void**)&amp;pDomain);
+    hr = ADsGetObject(szPath, IID_IADsContainer, (void**)&pDomain);
     if (SUCCEEDED(hr))
     {
       // Create the container.
@@ -77,16 +77,16 @@ void wmain( int argc, wchar_t *argv[ ])
                               // ldapDisplayName of the class
                               // of the object to create.
                            szRelPath, // Relative path in RDN=value format.
-                            &amp;pDisp); // Return an IDispatch pointer to new object.
+                            &pDisp); // Return an IDispatch pointer to new object.
       if (SUCCEEDED(hr))
       {
         // Call the QueryInterface method for an IADs interface.
-        hr = pDisp->QueryInterface(&amp;pIADsObject);
+        hr = pDisp->QueryInterface(&pIADsObject);
                 pDisp->Release();
         // Commit the new object to the directory.
         hr = pIADsObject->SetInfo();
         // Call the QueryInterface method for an IADsContainer interface.
-        hr = pDisp->QueryInterface(&amp;pNewContainer);
+        hr = pDisp->QueryInterface(&pNewContainer);
         if (SUCCEEDED(hr))
         {
           // Create the new container object in the container.
@@ -94,24 +94,24 @@ void wmain( int argc, wchar_t *argv[ ])
           szRelPath += szNewObject;
                   hr = pNewContainer->Create(CComBSTR(L"container"), 
                                              szRelPath,
-                                             &amp;pDisp);
+                                             &pDisp);
           if (SUCCEEDED(hr))
           {
             // Get the DN of the new container object.
-            hr = pIADsObject->Get(CComBSTR(L"distinguishedName"), &amp;var);
+            hr = pIADsObject->Get(CComBSTR(L"distinguishedName"), &var);
             if (SUCCEEDED(hr))
             {
               szNewContainerDN = var.bstrVal;
               var.Clear();
               wprintf(L"Created new container with DN: %s\n",szNewContainerDN);
-              hr = pDisp->QueryInterface(&amp;pNewObject);
+              hr = pDisp->QueryInterface(&pNewObject);
                                 pDisp->Release();
               if (SUCCEEDED(hr))
               {
                 // Commit the new object to the directory.
                 hr = pNewObject->SetInfo();
                 // Get the DN for the new object.
-                hr = pNewObject->Get(CComBSTR(L"distinguishedName"), &amp;var);
+                hr = pNewObject->Get(CComBSTR(L"distinguishedName"), &var);
                 if (SUCCEEDED(hr))
                 {
                   wprintf(L"Created new child object with DN: %s\n",var.bstrVal);
@@ -143,11 +143,11 @@ void wmain( int argc, wchar_t *argv[ ])
                      szPath += L">";
                      wprintf(L"Bind with the following WKGUID binding string: %s\n",
                              szPath);
-                     hr = ADsGetObject(szPath,IID_IADs, (void**)&amp;pTestWKO1);
+                     hr = ADsGetObject(szPath,IID_IADs, (void**)&pTestWKO1);
                      if (SUCCEEDED(hr))
                      {
                          hr = pTestWKO1->Get(CComBSTR(L"distinguishedName"),
-                                                      &amp;vartest);
+                                                      &vartest);
                           if (SUCCEEDED(hr))
                           {
                               wprintf(L"Successfully bound to object. DN: %s\n",
@@ -161,8 +161,8 @@ void wmain( int argc, wchar_t *argv[ ])
                       // Bind again using the DN to get a regular ADsPath.
                       szPath = L"LDAP://";
                       szPath += var.bstrVal;
-                      hr = ADsGetObject(szPath, IID_IADs, (void**)&amp;pTestWKO1);
-                      hr = pTestWKO1->get_ADsPath(&amp;bstr);
+                      hr = ADsGetObject(szPath, IID_IADs, (void**)&pTestWKO1);
+                      hr = pTestWKO1->get_ADsPath(&bstr);
                       // Rename the WKO object.
                       hr = pNewContainer->MoveHere(bstr, szNewObjectRenameRDN,NULL);
                       pTestWKO1.Release();
@@ -177,11 +177,11 @@ void wmain( int argc, wchar_t *argv[ ])
                        L"Bind AGAIN with the following WKGUID binding string: %s\n",
                        szPath
                       );
-                      hr = ADsGetObject(szPath, IID_IADs, (void**)&amp;pTestWKO2);
+                      hr = ADsGetObject(szPath, IID_IADs, (void**)&pTestWKO2);
                       if (SUCCEEDED(hr))
                       {
                           hr = pTestWKO2->Get(CComBSTR(L"distinguishedName"),
-                                              &amp;vartest);
+                                              &vartest);
                           if (SUCCEEDED(hr))
                           {
                               wprintf(L"Successfully bound to object. ");
@@ -250,11 +250,11 @@ array STDMETHODIMP ConvertHexGuidToArray(PCWSTR hexGuid, LPSAFEARRAY *sa) throw(
         if (temp == NULL)
                 hr = E_OUTOFMEMORY;
         PBYTE dst ;
-        if (hr == S_OK) hr = SafeArrayAccessData(temp, (void**)&amp;dst);
+        if (hr == S_OK) hr = SafeArrayAccessData(temp, (void**)&dst);
         int dstLen = hexLen /2;
         if (hr == S_OK)
         {
-                AtlHexDecode(sHex, hexLen, dst, &amp;dstLen );
+                AtlHexDecode(sHex, hexLen, dst, &dstLen );
                 hr = SafeArrayUnaccessData(temp);
                 *sa = temp;
         }
@@ -280,16 +280,16 @@ HRESULT AddValueToOtherWKOProperty(IADs *pads,
 
         CComVariant v;
         v.vt = VT_UI1 | VT_ARRAY;
-        ConvertHexGuidToArray(pWKOGUID, &amp;v.parray);
+        ConvertHexGuidToArray(pWKOGUID, &v.parray);
         hr = pdnWithBin->put_DNString(szWKOObjectDN);
         hr = pdnWithBin->put_BinaryValue(v);
         v.Clear();
         v.vt = VT_DISPATCH;
-        pdnWithBin.QueryInterface(&amp;v.pdispVal);
+        pdnWithBin.QueryInterface(&v.pdispVal);
 
         SAFEARRAY *psa = SafeArrayCreateVector(VT_VARIANT, 0, 1);
         VARIANT *varray = (VARIANT*)psa->pvData;
-        VariantCopy(&amp;varray[0] ,&amp;v);
+        VariantCopy(&varray[0] ,&v);
         CComVariant v2;
         v2.vt = VT_VARIANT | VT_ARRAY;
         v2.parray = psa;

@@ -84,12 +84,12 @@ HRESULT GetDVDTextStrings()
 
     // Set up the DVD Navigator.
     CHECK_HR(hr = pFilter.CoCreateInstance(CLSID_DVDNavigator));
-    CHECK_HR(hr = pFilter.QueryInterface(&amp;pInfo));
-    CHECK_HR(hr = pFilter.QueryInterface(&amp;pControl));
+    CHECK_HR(hr = pFilter.QueryInterface(&pInfo));
+    CHECK_HR(hr = pFilter.QueryInterface(&pControl));
     CHECK_HR(hr = pControl->SetDVDDirectory(NULL));
 
     // Find the number of text-string languages.
-    CHECK_HR(hr = pInfo->GetDVDTextNumberOfLanguages(&amp;cLangs));
+    CHECK_HR(hr = pInfo->GetDVDTextNumberOfLanguages(&cLangs));
     if (cLangs == 0)
     {
         return S_FALSE; // No text strings.
@@ -97,7 +97,7 @@ HRESULT GetDVDTextStrings()
 
     // Get information about the 0'th language.
     CHECK_HR(hr = pInfo->GetDVDTextLanguageInfo(
-        0, &amp;cStrings, &amp;lcid, &amp;characterSet));
+        0, &cStrings, &lcid, &characterSet));
 
     // First check if this character set is compatible with the 
     // GetDVDTextStringAsUnicode method.
@@ -116,12 +116,12 @@ HRESULT GetDVDTextStrings()
                 i,            // String index.
                 NULL,         // Pass NULL pointer to get the buffer size.
                 0,            // Size of the buffer we are passing in.
-                &amp;cchBuffer,   // Receives the required buffer size.
-                &amp;stringType   // Receives the identifier code.
+                &cchBuffer,   // Receives the required buffer size.
+                &stringType   // Receives the identifier code.
                 ));
 
             // Skip structure identifiers (0x00 - 0x2F).
-            if ((cchBuffer > 0) &amp;&amp; (stringType >= 0x30))
+            if ((cchBuffer > 0) && (stringType >= 0x30))
             {
                 // Allocate a buffer and get the text string.
                 pszBuffer = new WCHAR[cchBuffer];
@@ -131,7 +131,7 @@ HRESULT GetDVDTextStrings()
                 }
 
                 CHECK_HR(hr = pInfo->GetDVDTextStringAsUnicode(
-                    0, i, pszBuffer, cchBuffer, &amp;cchActual, &amp;stringType));
+                    0, i, pszBuffer, cchBuffer, &cchActual, &stringType));
 
                 // TODO: Display the text string.
 

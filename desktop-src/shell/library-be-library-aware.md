@@ -109,7 +109,7 @@ To allow users to select folders when using the [**IFileOpenDialog**](https://ms
 ```C++
 FILEOPENDIALOGOPTIONS fileOptions;
 
-hr = fileOpenDialogBox->GetOptions(&amp;fileOptions);
+hr = fileOpenDialogBox->GetOptions(&fileOptions);
 fileOptions = fileOptions | FOS_PICKFOLDERS | ~FOS_FORCEFILESYSTEM;
 hr = fileOpenDialogBox->SetOptions(fileOptions);
 ```
@@ -123,7 +123,7 @@ To allow users to select folders when calling the SHBrowseForFolder function, in
 BROWSEINFO    browseInfo;
 browseInfo.ulFlags = BIF_USENEWUI | ~BIF_RETURNONLYFSDIRS;
 // Set other member values
-pidl = SHBrowseForFolder(&amp;browseInfo);
+pidl = SHBrowseForFolder(&browseInfo);
 ```
 
 
@@ -144,13 +144,13 @@ IShellLibrary *picturesLibrary;
 
 hr = SHLoadLibraryFromKnownFolder(FOLDERID_PicturesLibrary, 
                                   STGM_READ, 
-                                  IID_PPV_ARGS(&amp;picturesLibrary));
+                                  IID_PPV_ARGS(&picturesLibrary));
 
 // picturesLibrary now points to the user's picture library
     
 IShellItemArray *pictureFolders; 
 
-hr = pslLibrary->GetFolders(LFF_FORCEFILESYSTEM, IID_PPV_ARGS(&amp;pictureFolders));
+hr = pslLibrary->GetFolders(LFF_FORCEFILESYSTEM, IID_PPV_ARGS(&pictureFolders));
 
 // pictureFolders now contains an array of Shell items that
 // represent the folders found in the user's pictures library

@@ -40,20 +40,20 @@ HRESULT PrintGroupObjectMembers(IADsGroup * pADsGroup)
     ULONG           ulElementsFetched = NULL;     // Number of elements retrieved
  
     // Get an interface pointer to the IADsCollection of members.
-    hr = pADsGroup->Members(&amp;pADsMembers);
+    hr = pADsGroup->Members(&pADsMembers);
  
     if (SUCCEEDED(hr))
     {
  
         // Query the IADsCollection of members for a new ENUM Interface.
         // Be aware that the enum comes back as an IUnknown *
-        hr = pADsMembers->get__NewEnum(&amp;pUnknown);
+        hr = pADsMembers->get__NewEnum(&pUnknown);
  
         if (SUCCEEDED(hr))
         {
  
             // Call the QueryInterface method for the IUnknown * for a IEnumVARIANT interface.
-            hr = pUnknown->QueryInterface(IID_IEnumVARIANT, (void **)&amp;pEnumVariant);
+            hr = pUnknown->QueryInterface(IID_IEnumVARIANT, (void **)&pEnumVariant);
  
             if (SUCCEEDED(hr))
             {
@@ -64,9 +64,9 @@ HRESULT PrintGroupObjectMembers(IADsGroup * pADsGroup)
                    ulElementsFetched = 0;
  
                     // Get a "batch" number of group members - number of rows that FETCH_NUM specifies
-                    hr = ADsEnumerateNext(pEnumVariant, FETCH_NUM, VariantArray, &amp;ulElementsFetched);
+                    hr = ADsEnumerateNext(pEnumVariant, FETCH_NUM, VariantArray, &ulElementsFetched);
  
-                    if (ulElementsFetched )//SUCCEEDED(hr) &amp;&amp; hr != S_FALSE)
+                    if (ulElementsFetched )//SUCCEEDED(hr) && hr != S_FALSE)
                     {
  
                         // Loop through the current batch, printing 
@@ -86,13 +86,13 @@ HRESULT PrintGroupObjectMembers(IADsGroup * pADsGroup)
  
                             // Get the IADs interface for the "member" of this group.
                             hr = pDispatch->QueryInterface(IID_IADs,
-                                                           (VOID **) &amp;pIADsGroupMember) ;
+                                                           (VOID **) &pIADsGroupMember) ;
  
                             if (SUCCEEDED(hr))
                             {
  
                             // Get the ADsPath property for this member.
-                                hr = pIADsGroupMember->get_ADsPath(&amp;bstrPath) ;
+                                hr = pIADsGroupMember->get_ADsPath(&bstrPath) ;
  
                                 if (SUCCEEDED(hr))
                                 {

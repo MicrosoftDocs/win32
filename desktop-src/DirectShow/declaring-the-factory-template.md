@@ -20,10 +20,10 @@ The **m\_pAMovieSetup\_Filter** member of the factory template is a pointer to t
 CFactoryTemplate g_Templates[] = {
     {
         g_wszName,                      // Name.
-        &amp;CLSID_SomeFilter,              // CLSID.
+        &CLSID_SomeFilter,              // CLSID.
         CSomeFilter::CreateInstance,    // Creation function.
         NULL,
-        &amp;sudFilterReg                   // Pointer to filter information.
+        &sudFilterReg                   // Pointer to filter information.
     }
 };
 int g_cTemplates = sizeof(g_Templates) / sizeof(g_Templates[0]);

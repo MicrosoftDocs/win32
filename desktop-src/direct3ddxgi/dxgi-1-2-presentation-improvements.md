@@ -93,7 +93,7 @@ In this code snippet, a call to [**IntersectRect**](https://msdn.microsoft.com/e
 ```
 RECT dirtyRectPrev, dirtyRectCurrent, dirtyRectCopy;
  
-if (IntersectRect( &amp;dirtyRectCopy, &amp;dirtyRectPrev, &amp;dirtyRectCurrent ))
+if (IntersectRect( &dirtyRectCopy, &dirtyRectPrev, &dirtyRectCurrent ))
 {
        D3D11_BOX intersectBox;
        intersectBox.left    = dirtyRectCopy.left;
@@ -110,7 +110,7 @@ if (IntersectRect( &amp;dirtyRectCopy, &amp;dirtyRectPrev, &amp;dirtyRectCurrent
                                     0,
                                     pPrevBackbuffer,
                                     0,
-                                    &amp;intersectBox,
+                                    &intersectBox,
                                     0
                                     );
 }
@@ -213,7 +213,7 @@ if (bRegionsIntersect)
                                                       0,
                                                       pPrevBackbuffer,
                                                       0,
-                                                      &amp;intersectBox,
+                                                      &intersectBox,
                                                       0
                                                       );
               }

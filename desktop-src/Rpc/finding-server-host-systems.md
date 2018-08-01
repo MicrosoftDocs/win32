@@ -71,7 +71,7 @@ The client then calls [**RpcBindingFromStringBinding**](/windows/desktop/api/Rpc
 ```C++
 RPC_BINDING_HANDLE hBinding;
  
-status = RpcBindingFromStringBinding(pszString, &amp;hBinding);
+status = RpcBindingFromStringBinding(pszString, &hBinding);
 //...
 ```
 
@@ -89,11 +89,11 @@ status = RpcStringBindingCompose(
             pszNetworkAddress,
             pszEndpoint,
             pszOptions,
-            &amp;pszString);
+            &pszString);
 //...
 status = RpcBindingFromStringBinding(
             pszString,
-            &amp;hBinding);
+            &hBinding);
 //...
 ```
 
@@ -119,7 +119,7 @@ status = RpcNsBindingImportBegin(
     NULL,
     MyInterface_v1_0_c_ifspec,
     NULL,
-    &amp;hNameServiceHandle);
+    &hNameServiceHandle);
 ```
 
 
@@ -143,7 +143,7 @@ RPC_BINDING_HANDLE hBindingHandle;
 // The variable hNameServiceHandle is a valid name service search 
 // context handle obtained from the RpcNsBindingBegin function.
  
-status = RpcNsBindingImportNext(hNameServiceHandle, &amp;hBindingHandle);
+status = RpcNsBindingImportNext(hNameServiceHandle, &hBindingHandle);
 ```
 
 

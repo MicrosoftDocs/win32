@@ -57,7 +57,7 @@ hr = ADsOpenObject(TEXT("GC:"),
                 NULL,
                 ADS_SECURE_AUTHENTICATION, // Use Secure Authentication.
                 IID_IADsContainer,
-                (void**)&amp;pCont);
+                (void**)&pCont);
 if (FAILED(hr)) {
     _tprintf(TEXT("ADsOpenObject failed: 0x%x\n"), hr);
     goto cleanup;
@@ -65,23 +65,23 @@ if (FAILED(hr)) {
  
 // Get an enumeration interface for the GC container to enumerate the 
 // contents. The actual GC is the only child of the GC container.
-hr = ADsBuildEnumerator(pCont, &amp;pEnum);
+hr = ADsBuildEnumerator(pCont, &pEnum);
 if (FAILED(hr)) {
     _tprintf(TEXT("ADsBuildEnumerator failed: 0x%x\n"), hr);
     goto cleanup;
 } 
  
 // Now enumerate. There is only one child of the GC: object.
-hr = pEnum->Next(1, &amp;var, &amp;lFetch);
+hr = pEnum->Next(1, &var, &lFetch);
 if (FAILED(hr)) {
     _tprintf(TEXT("ADsEnumerateNext failed: 0x%x\n"), hr);
     goto cleanup;
 } 
  
 // Get the IDirectorySearch pointer.
-if (( hr == S_OK ) &amp;&amp; ( lFetch == 1 ) )     
+if (( hr == S_OK ) && ( lFetch == 1 ) )     
 {    
-    pDisp = V_DISPATCH(&amp;var);
+    pDisp = V_DISPATCH(&var);
     hr = pDisp->QueryInterface( IID_IDirectorySearch, (void**)ppDS); 
 }
  

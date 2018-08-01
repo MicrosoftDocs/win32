@@ -22,7 +22,7 @@ The following example draws a line with an arrowhead at one end and a round cap 
 Pen pen(Color(255, 0, 0, 255), 8);
 stat = pen.SetStartCap(LineCapArrowAnchor);
 stat = pen.SetEndCap(LineCapRoundAnchor);
-stat = graphics.DrawLine(&amp;pen, 20, 175, 300, 175);
+stat = graphics.DrawLine(&pen, 20, 175, 300, 175);
 ```
 
 

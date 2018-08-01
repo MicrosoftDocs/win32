@@ -59,13 +59,13 @@ public:
 
 
 ```C++
-    CHECK_HR(hr = MFCreateMediaType(&amp;pType));
+    CHECK_HR(hr = MFCreateMediaType(&pType));
     CHECK_HR(hr = pType->SetGUID(MF_MT_MAJOR_TYPE, MFMediaType_Audio));
     CHECK_HR(hr = pType->SetGUID(MF_MT_SUBTYPE, MFAudioFormat_PCM));
 
     // Create the sample grabber sink.
-    CHECK_HR(hr = SampleGrabberCB::CreateInstance(&amp;pCallback));
-    CHECK_HR(hr = MFCreateSampleGrabberSinkActivate(pType, pCallback, &amp;pSinkActivate));
+    CHECK_HR(hr = SampleGrabberCB::CreateInstance(&pCallback));
+    CHECK_HR(hr = MFCreateSampleGrabberSinkActivate(pType, pCallback, &pSinkActivate));
 
     // To run as fast as possible, set this attribute (requires Windows 7):
     CHECK_HR(hr = pSinkActivate->SetUINT32(MF_SAMPLEGRABBERSINK_IGNORE_CLOCK, TRUE));
@@ -90,9 +90,9 @@ HRESULT CreateTopology(IMFMediaSource *pSource, IMFActivate *pSinkActivate, IMFT
     HRESULT hr = S_OK;
     DWORD cStreams = 0;
 
-    CHECK_HR(hr = MFCreateTopology(&amp;pTopology));
-    CHECK_HR(hr = pSource->CreatePresentationDescriptor(&amp;pPD));
-    CHECK_HR(hr = pPD->GetStreamDescriptorCount(&amp;cStreams));
+    CHECK_HR(hr = MFCreateTopology(&pTopology));
+    CHECK_HR(hr = pSource->CreatePresentationDescriptor(&pPD));
+    CHECK_HR(hr = pPD->GetStreamDescriptorCount(&cStreams));
     
     for (DWORD i = 0; i < cStreams; i++)
     {
@@ -101,14 +101,14 @@ HRESULT CreateTopology(IMFMediaSource *pSource, IMFActivate *pSinkActivate, IMFT
         BOOL fSelected = FALSE;
         GUID majorType;
 
-        CHECK_HR(hr = pPD->GetStreamDescriptorByIndex(i, &amp;fSelected, &amp;pSD));
-        CHECK_HR(hr = pSD->GetMediaTypeHandler(&amp;pHandler));
-        CHECK_HR(hr = pHandler->GetMajorType(&amp;majorType));
+        CHECK_HR(hr = pPD->GetStreamDescriptorByIndex(i, &fSelected, &pSD));
+        CHECK_HR(hr = pSD->GetMediaTypeHandler(&pHandler));
+        CHECK_HR(hr = pHandler->GetMajorType(&majorType));
 
-        if (majorType == MFMediaType_Audio &amp;&amp; fSelected)
+        if (majorType == MFMediaType_Audio && fSelected)
         {
-            CHECK_HR(hr = AddSourceNode(pTopology, pSource, pPD, pSD, &amp;pNode1));
-            CHECK_HR(hr = AddOutputNode(pTopology, pSinkActivate, 0, &amp;pNode2));
+            CHECK_HR(hr = AddSourceNode(pTopology, pSource, pPD, pSD, &pNode1));
+            CHECK_HR(hr = AddOutputNode(pTopology, pSinkActivate, 0, &pNode2));
             CHECK_HR(hr = pNode1->ConnectOutput(0, pNode2, 0));
             break;
         }
@@ -116,20 +116,20 @@ HRESULT CreateTopology(IMFMediaSource *pSource, IMFActivate *pSinkActivate, IMFT
         {
             CHECK_HR(hr = pPD->DeselectStream(i));
         }
-        SafeRelease(&amp;pSD);
-        SafeRelease(&amp;pHandler);
+        SafeRelease(&pSD);
+        SafeRelease(&pHandler);
     }
 
     *ppTopo = pTopology;
     (*ppTopo)->AddRef();
 
 done:
-    SafeRelease(&amp;pTopology);
-    SafeRelease(&amp;pNode1);
-    SafeRelease(&amp;pNode2);
-    SafeRelease(&amp;pPD);
-    SafeRelease(&amp;pSD);
-    SafeRelease(&amp;pHandler);
+    SafeRelease(&pTopology);
+    SafeRelease(&pNode1);
+    SafeRelease(&pNode2);
+    SafeRelease(&pPD);
+    SafeRelease(&pSD);
+    SafeRelease(&pHandler);
     return hr;
 }
 ```
@@ -145,20 +145,20 @@ HRESULT RunSession(IMFMediaSession *pSession, IMFTopology *pTopology)
     IMFMediaEvent *pEvent = NULL;
 
     PROPVARIANT var;
-    PropVariantInit(&amp;var);
+    PropVariantInit(&var);
 
     HRESULT hr = S_OK;
     CHECK_HR(hr = pSession->SetTopology(0, pTopology));
-    CHECK_HR(hr = pSession->Start(&amp;GUID_NULL, &amp;var));
+    CHECK_HR(hr = pSession->Start(&GUID_NULL, &var));
 
     while (1)
     {
         HRESULT hrStatus = S_OK;
         MediaEventType met;
 
-        CHECK_HR(hr = pSession->GetEvent(0, &amp;pEvent));
-        CHECK_HR(hr = pEvent->GetStatus(&amp;hrStatus));
-        CHECK_HR(hr = pEvent->GetType(&amp;met));
+        CHECK_HR(hr = pSession->GetEvent(0, &pEvent));
+        CHECK_HR(hr = pEvent->GetStatus(&hrStatus));
+        CHECK_HR(hr = pEvent->GetType(&met));
 
         if (FAILED(hrStatus))
         {
@@ -170,11 +170,11 @@ HRESULT RunSession(IMFMediaSession *pSession, IMFTopology *pTopology)
         {
             break;
         }
-        SafeRelease(&amp;pEvent);
+        SafeRelease(&pEvent);
     }
 
 done:
-    SafeRelease(&amp;pEvent);
+    SafeRelease(&pEvent);
     return hr;
 }
 ```
@@ -257,26 +257,26 @@ HRESULT RunSampleGrabber(PCWSTR pszFileName)
     // Setting the major and subtype is usually enough for the topology loader
     // to resolve the topology.
 
-    CHECK_HR(hr = MFCreateMediaType(&amp;pType));
+    CHECK_HR(hr = MFCreateMediaType(&pType));
     CHECK_HR(hr = pType->SetGUID(MF_MT_MAJOR_TYPE, MFMediaType_Audio));
     CHECK_HR(hr = pType->SetGUID(MF_MT_SUBTYPE, MFAudioFormat_PCM));
 
     // Create the sample grabber sink.
-    CHECK_HR(hr = SampleGrabberCB::CreateInstance(&amp;pCallback));
-    CHECK_HR(hr = MFCreateSampleGrabberSinkActivate(pType, pCallback, &amp;pSinkActivate));
+    CHECK_HR(hr = SampleGrabberCB::CreateInstance(&pCallback));
+    CHECK_HR(hr = MFCreateSampleGrabberSinkActivate(pType, pCallback, &pSinkActivate));
 
     // To run as fast as possible, set this attribute (requires Windows 7):
     CHECK_HR(hr = pSinkActivate->SetUINT32(MF_SAMPLEGRABBERSINK_IGNORE_CLOCK, TRUE));
 
     // Create the Media Session.
     HRESULT hr = S_OK;
-    CHECK_HR(hr = MFCreateMediaSession(NULL, &amp;pSession));
+    CHECK_HR(hr = MFCreateMediaSession(NULL, &pSession));
 
     // Create the media source.
-    CHECK_HR(hr = CreateMediaSource(pszFileName, &amp;pSource));
+    CHECK_HR(hr = CreateMediaSource(pszFileName, &pSource));
 
     // Create the topology.
-    CHECK_HR(hr = CreateTopology(pSource, pSinkActivate, &amp;pTopology));
+    CHECK_HR(hr = CreateTopology(pSource, pSinkActivate, &pTopology));
 
     // Run the media session.
     CHECK_HR(hr = RunSession(pSession, pTopology));
@@ -292,12 +292,12 @@ done:
         pSession->Shutdown();
     }
 
-    SafeRelease(&amp;pSession);
-    SafeRelease(&amp;pSource);
-    SafeRelease(&amp;pCallback);
-    SafeRelease(&amp;pSinkActivate);
-    SafeRelease(&amp;pTopology);
-    SafeRelease(&amp;pType);
+    SafeRelease(&pSession);
+    SafeRelease(&pSource);
+    SafeRelease(&pCallback);
+    SafeRelease(&pSinkActivate);
+    SafeRelease(&pTopology);
+    SafeRelease(&pType);
     return hr;
 }
 
@@ -325,17 +325,17 @@ HRESULT CreateMediaSource(PCWSTR pszURL, IMFMediaSource **ppSource)
 
     // Create the source resolver.
     HRESULT hr = S_OK;
-    CHECK_HR(hr = MFCreateSourceResolver(&amp;pSourceResolver));
+    CHECK_HR(hr = MFCreateSourceResolver(&pSourceResolver));
 
     MF_OBJECT_TYPE ObjectType;
     CHECK_HR(hr = pSourceResolver->CreateObjectFromURL(pszURL,                     
-        MF_RESOLUTION_MEDIASOURCE, NULL, &amp;ObjectType, &amp;pSource));
+        MF_RESOLUTION_MEDIASOURCE, NULL, &ObjectType, &pSource));
 
     hr = pSource->QueryInterface(IID_PPV_ARGS(ppSource));
 
 done:
-    SafeRelease(&amp;pSourceResolver);
-    SafeRelease(&amp;pSource);
+    SafeRelease(&pSourceResolver);
+    SafeRelease(&pSource);
     return hr;
 }
 
@@ -351,7 +351,7 @@ HRESULT AddSourceNode(
     IMFTopologyNode *pNode = NULL;
 
     HRESULT hr = S_OK;
-    CHECK_HR(hr = MFCreateTopologyNode(MF_TOPOLOGY_SOURCESTREAM_NODE, &amp;pNode));
+    CHECK_HR(hr = MFCreateTopologyNode(MF_TOPOLOGY_SOURCESTREAM_NODE, &pNode));
     CHECK_HR(hr = pNode->SetUnknown(MF_TOPONODE_SOURCE, pSource));
     CHECK_HR(hr = pNode->SetUnknown(MF_TOPONODE_PRESENTATION_DESCRIPTOR, pPD));
     CHECK_HR(hr = pNode->SetUnknown(MF_TOPONODE_STREAM_DESCRIPTOR, pSD));
@@ -362,7 +362,7 @@ HRESULT AddSourceNode(
     (*ppNode)->AddRef();
 
 done:
-    SafeRelease(&amp;pNode);
+    SafeRelease(&pNode);
     return hr;
 }
 
@@ -376,7 +376,7 @@ HRESULT AddOutputNode(
     IMFTopologyNode *pNode = NULL;
 
     HRESULT hr = S_OK;
-    CHECK_HR(hr = MFCreateTopologyNode(MF_TOPOLOGY_OUTPUT_NODE, &amp;pNode));
+    CHECK_HR(hr = MFCreateTopologyNode(MF_TOPOLOGY_OUTPUT_NODE, &pNode));
     CHECK_HR(hr = pNode->SetObject(pActivate));
     CHECK_HR(hr = pNode->SetUINT32(MF_TOPONODE_STREAMID, dwId));
     CHECK_HR(hr = pNode->SetUINT32(MF_TOPONODE_NOSHUTDOWN_ON_REMOVE, FALSE));
@@ -387,7 +387,7 @@ HRESULT AddOutputNode(
     (*ppNode)->AddRef();
 
 done:
-    SafeRelease(&amp;pNode);
+    SafeRelease(&pNode);
     return hr;
 }
 
@@ -404,9 +404,9 @@ HRESULT CreateTopology(IMFMediaSource *pSource, IMFActivate *pSinkActivate, IMFT
     HRESULT hr = S_OK;
     DWORD cStreams = 0;
 
-    CHECK_HR(hr = MFCreateTopology(&amp;pTopology));
-    CHECK_HR(hr = pSource->CreatePresentationDescriptor(&amp;pPD));
-    CHECK_HR(hr = pPD->GetStreamDescriptorCount(&amp;cStreams));
+    CHECK_HR(hr = MFCreateTopology(&pTopology));
+    CHECK_HR(hr = pSource->CreatePresentationDescriptor(&pPD));
+    CHECK_HR(hr = pPD->GetStreamDescriptorCount(&cStreams));
     
     for (DWORD i = 0; i < cStreams; i++)
     {
@@ -415,14 +415,14 @@ HRESULT CreateTopology(IMFMediaSource *pSource, IMFActivate *pSinkActivate, IMFT
         BOOL fSelected = FALSE;
         GUID majorType;
 
-        CHECK_HR(hr = pPD->GetStreamDescriptorByIndex(i, &amp;fSelected, &amp;pSD));
-        CHECK_HR(hr = pSD->GetMediaTypeHandler(&amp;pHandler));
-        CHECK_HR(hr = pHandler->GetMajorType(&amp;majorType));
+        CHECK_HR(hr = pPD->GetStreamDescriptorByIndex(i, &fSelected, &pSD));
+        CHECK_HR(hr = pSD->GetMediaTypeHandler(&pHandler));
+        CHECK_HR(hr = pHandler->GetMajorType(&majorType));
 
-        if (majorType == MFMediaType_Audio &amp;&amp; fSelected)
+        if (majorType == MFMediaType_Audio && fSelected)
         {
-            CHECK_HR(hr = AddSourceNode(pTopology, pSource, pPD, pSD, &amp;pNode1));
-            CHECK_HR(hr = AddOutputNode(pTopology, pSinkActivate, 0, &amp;pNode2));
+            CHECK_HR(hr = AddSourceNode(pTopology, pSource, pPD, pSD, &pNode1));
+            CHECK_HR(hr = AddOutputNode(pTopology, pSinkActivate, 0, &pNode2));
             CHECK_HR(hr = pNode1->ConnectOutput(0, pNode2, 0));
             break;
         }
@@ -430,20 +430,20 @@ HRESULT CreateTopology(IMFMediaSource *pSource, IMFActivate *pSinkActivate, IMFT
         {
             CHECK_HR(hr = pPD->DeselectStream(i));
         }
-        SafeRelease(&amp;pSD);
-        SafeRelease(&amp;pHandler);
+        SafeRelease(&pSD);
+        SafeRelease(&pHandler);
     }
 
     *ppTopo = pTopology;
     (*ppTopo)->AddRef();
 
 done:
-    SafeRelease(&amp;pTopology);
-    SafeRelease(&amp;pNode1);
-    SafeRelease(&amp;pNode2);
-    SafeRelease(&amp;pPD);
-    SafeRelease(&amp;pSD);
-    SafeRelease(&amp;pHandler);
+    SafeRelease(&pTopology);
+    SafeRelease(&pNode1);
+    SafeRelease(&pNode2);
+    SafeRelease(&pPD);
+    SafeRelease(&pSD);
+    SafeRelease(&pHandler);
     return hr;
 }
 
@@ -452,20 +452,20 @@ HRESULT RunSession(IMFMediaSession *pSession, IMFTopology *pTopology)
     IMFMediaEvent *pEvent = NULL;
 
     PROPVARIANT var;
-    PropVariantInit(&amp;var);
+    PropVariantInit(&var);
 
     HRESULT hr = S_OK;
     CHECK_HR(hr = pSession->SetTopology(0, pTopology));
-    CHECK_HR(hr = pSession->Start(&amp;GUID_NULL, &amp;var));
+    CHECK_HR(hr = pSession->Start(&GUID_NULL, &var));
 
     while (1)
     {
         HRESULT hrStatus = S_OK;
         MediaEventType met;
 
-        CHECK_HR(hr = pSession->GetEvent(0, &amp;pEvent));
-        CHECK_HR(hr = pEvent->GetStatus(&amp;hrStatus));
-        CHECK_HR(hr = pEvent->GetType(&amp;met));
+        CHECK_HR(hr = pSession->GetEvent(0, &pEvent));
+        CHECK_HR(hr = pEvent->GetStatus(&hrStatus));
+        CHECK_HR(hr = pEvent->GetType(&met));
 
         if (FAILED(hrStatus))
         {
@@ -477,11 +477,11 @@ HRESULT RunSession(IMFMediaSession *pSession, IMFTopology *pTopology)
         {
             break;
         }
-        SafeRelease(&amp;pEvent);
+        SafeRelease(&pEvent);
     }
 
 done:
-    SafeRelease(&amp;pEvent);
+    SafeRelease(&pEvent);
     return hr;
 }
 
@@ -512,12 +512,12 @@ STDMETHODIMP SampleGrabberCB::QueryInterface(REFIID riid, void** ppv)
 
 STDMETHODIMP_(ULONG) SampleGrabberCB::AddRef()
 {
-    return InterlockedIncrement(&amp;m_cRef);
+    return InterlockedIncrement(&m_cRef);
 }
 
 STDMETHODIMP_(ULONG) SampleGrabberCB::Release()
 {
-    ULONG cRef = InterlockedDecrement(&amp;m_cRef);
+    ULONG cRef = InterlockedDecrement(&m_cRef);
     if (cRef == 0)
     {
         delete this;

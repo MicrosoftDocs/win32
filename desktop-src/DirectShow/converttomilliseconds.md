@@ -30,7 +30,7 @@ The `ConvertToMilliseconds` function converts a reference time to milliseconds.
 
 ```C++
 LONGLONG ConvertToMilliseconds(
-   const REFERENCE_TIME &amp;RT
+   const REFERENCE_TIME &RT
 );
 ```
 

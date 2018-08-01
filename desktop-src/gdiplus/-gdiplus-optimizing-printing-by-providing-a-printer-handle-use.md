@@ -32,23 +32,23 @@ INT main()
    // Initialize GDI+.
    GdiplusStartupInput gdiplusStartupInput;
    ULONG_PTR gdiplusToken;
-   GdiplusStartup(&amp;gdiplusToken, &amp;gdiplusStartupInput, NULL);
+   GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
 
    DWORD   size;
    HDC     hdcPrint;
    HANDLE  printerHandle;
 
    DOCINFO docInfo;
-   ZeroMemory(&amp;docInfo, sizeof(docInfo));
+   ZeroMemory(&docInfo, sizeof(docInfo));
    docInfo.cbSize = sizeof(docInfo);
    docInfo.lpszDocName = "GdiplusPrint";
 
    // Get the length of the printer name.
-   GetDefaultPrinter(NULL, &amp;size);
+   GetDefaultPrinter(NULL, &size);
    TCHAR* buffer = new TCHAR[size];
 
    // Get the printer name.
-   if(!GetDefaultPrinter(buffer, &amp;size))
+   if(!GetDefaultPrinter(buffer, &size))
    {
       printf("Failure");
    }
@@ -58,9 +58,9 @@ INT main()
       hdcPrint = CreateDC(NULL, buffer, NULL, NULL);
 
       // Get a printer handle.
-      OpenPrinter(buffer, &amp;printerHandle, NULL);
+      OpenPrinter(buffer, &printerHandle, NULL);
 
-      StartDoc(hdcPrint, &amp;docInfo);
+      StartDoc(hdcPrint, &docInfo);
       StartPage(hdcPrint);
          Graphics* graphics = new Graphics(hdcPrint, printerHandle);
          Pen* pen = new Pen(Color(255, 0, 0, 0));

@@ -81,7 +81,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -89,7 +89,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -116,19 +116,19 @@ HRESULT CALLBACK AuthorizationCallback(const WS_OPERATION_CONTEXT* context, BOOL
     WS_STRING usernameIdentity = {};
     *authorized = FALSE;
     
-    hr = WsGetOperationContextProperty(context, WS_OPERATION_CONTEXT_PROPERTY_INPUT_MESSAGE, &amp;message, sizeof(message), error);
+    hr = WsGetOperationContextProperty(context, WS_OPERATION_CONTEXT_PROPERTY_INPUT_MESSAGE, &message, sizeof(message), error);
     if (FAILED(hr))
     {
         return hr;
     }
     
-    hr = WsGetMessageProperty(message, WS_MESSAGE_PROPERTY_USERNAME, &amp;usernameIdentity, sizeof(usernameIdentity), error);
+    hr = WsGetMessageProperty(message, WS_MESSAGE_PROPERTY_USERNAME, &usernameIdentity, sizeof(usernameIdentity), error);
     if (FAILED(hr))
     {
         return hr;
     }
         
-    *authorized = CompareWsString(&amp;usernameIdentity, &amp;fixedUsername);
+    *authorized = CompareWsString(&usernameIdentity, &fixedUsername);
     return NOERROR;
 }
 
@@ -150,11 +150,11 @@ static HRESULT CALLBACK MyPasswordValidator(
 
     if (CompareWsString(
             username, 
-            &amp;fixedUsername) 
-        &amp;&amp; 
+            &fixedUsername) 
+        && 
         CompareWsString(
             password, 
-            &amp;fixedPassword))
+            &fixedPassword))
     {
         return S_OK;
     }
@@ -214,9 +214,9 @@ static const DefaultBinding_ICalculatorFunctionTable calculatorFunctions = {Add,
 // Method contract for the service
 static const WS_SERVICE_CONTRACT calculatorContract = 
 {
-    &amp;CalculatorService_wsdl.contracts.DefaultBinding_ICalculator, // comes from the generated header.
+    &CalculatorService_wsdl.contracts.DefaultBinding_ICalculator, // comes from the generated header.
     NULL, // for not specifying the default contract
-    &amp;calculatorFunctions // specified by the user
+    &calculatorFunctions // specified by the user
 };
 
 
@@ -230,7 +230,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     WS_SERVICE_HOST* host = NULL;
     WS_SERVICE_ENDPOINT serviceEndpoint = {};
     const WS_SERVICE_ENDPOINT* serviceEndpoints[1];
-    serviceEndpoints[0] = &amp;serviceEndpoint;
+    serviceEndpoints[0] = &serviceEndpoint;
     
     WS_ERROR* error = NULL;
     
@@ -249,7 +249,7 @@ $$RC_START_HIGHLIGHT
     // registered with http.sys using a tool such as httpcfg.exe.
     
     // declare and initialize the array of all security bindings
-    WS_SECURITY_BINDING* securityBindings[2] = { &amp;sslBinding.binding, &amp;usernameBinding.binding };
+    WS_SECURITY_BINDING* securityBindings[2] = { &sslBinding.binding, &usernameBinding.binding };
     
     // declare and initialize the security description
     WS_SECURITY_DESCRIPTION securityDescription = {}; // zero out the struct
@@ -259,7 +259,7 @@ $$RC_END_HIGHLIGHT
     WS_SERVICE_ENDPOINT_PROPERTY serviceEndpointProperties[1];
     WS_SERVICE_PROPERTY_CLOSE_CALLBACK closeCallbackProperty = {CloseChannelCallback};
     serviceEndpointProperties[0].id = WS_SERVICE_ENDPOINT_PROPERTY_CLOSE_CHANNEL_CALLBACK;
-    serviceEndpointProperties[0].value = &amp;closeCallbackProperty;
+    serviceEndpointProperties[0].value = &closeCallbackProperty;
     serviceEndpointProperties[0].valueSize = sizeof(closeCallbackProperty);
     
     
@@ -268,8 +268,8 @@ $$RC_END_HIGHLIGHT
     serviceEndpoint.address.url.length = (ULONG)wcslen(serviceEndpoint.address.url.chars);
     serviceEndpoint.channelBinding = WS_HTTP_CHANNEL_BINDING; // channel binding for the endpoint
     serviceEndpoint.channelType = WS_CHANNEL_TYPE_REPLY; // the channel type
-    serviceEndpoint.securityDescription = &amp;securityDescription; // security description
-    serviceEndpoint.contract = &amp;calculatorContract;  // the contract
+    serviceEndpoint.securityDescription = &securityDescription; // security description
+    serviceEndpoint.contract = &calculatorContract;  // the contract
     serviceEndpoint.properties = serviceEndpointProperties;
     serviceEndpoint.propertyCount = WsCountOf(serviceEndpointProperties);
     serviceEndpoint.authorizationCallback = AuthorizationCallback;
@@ -278,7 +278,7 @@ $$RC_END_HIGHLIGHT
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -300,7 +300,7 @@ $$RC_END_HIGHLIGHT
         1, 
         NULL, 
         0, 
-        &amp;host, 
+        &host, 
         error);
     if (FAILED(hr))
     {

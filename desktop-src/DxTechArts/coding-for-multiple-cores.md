@@ -206,18 +206,18 @@ The main disadvantage to mutexes is that they are relatively expensive to acquir
 and release. A faster alternative is a critical section.
 // Initialize
 CRITICAL_SECTION cs;
-InitializeCriticalSection( &amp;cs );
+InitializeCriticalSection( &cs );
 
 // Use
 void ManipulateSharedData()
 {
-    EnterCriticalSection( &amp;cs );
+    EnterCriticalSection( &cs );
     // Manipulate stuff...
-    LeaveCriticalSection( &amp;cs );
+    LeaveCriticalSection( &cs );
 }
 
 // Destroy
-DeleteCriticalSection( &amp;cs );
+DeleteCriticalSection( &cs );
 ```
 
 
@@ -313,7 +313,7 @@ void SetThreadName( DWORD dwThreadID, LPCSTR szThreadName )
     {
         RaiseException( 0x406D1388, 0,
                     sizeof(info) / sizeof(DWORD),
-            (DWORD*)&amp;info );
+            (DWORD*)&info );
     }
     __except( EXCEPTION_CONTINUE_EXECUTION ) {
     }

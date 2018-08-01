@@ -26,7 +26,7 @@ Pen pen(Color(255, 255, 0, 0), 0);
 graphics.ScaleTransform(1.75f, 0.5f);
 graphics.RotateTransform(28.0f, MatrixOrderAppend);
 graphics.TranslateTransform(150.0f, 150.0f, MatrixOrderAppend);
-graphics.DrawRectangle(&amp;pen, rect);
+graphics.DrawRectangle(&pen, rect);
 ```
 
 
@@ -40,7 +40,7 @@ Pen pen(Color(255, 255, 0, 0), 0);
 graphics.TranslateTransform(150.0f, 150.0f);
 graphics.RotateTransform(28.0f, MatrixOrderAppend);
 graphics.ScaleTransform(1.75f, 0.5f, MatrixOrderAppend);
-graphics.DrawRectangle(&amp;pen, rect);
+graphics.DrawRectangle(&pen, rect);
 ```
 
 
@@ -54,7 +54,7 @@ Pen pen(Color(255, 255, 0, 0), 0);
 graphics.TranslateTransform(150.0f, 150.0f,MatrixOrderPrepend);
 graphics.RotateTransform(28.0f, MatrixOrderPrepend);
 graphics.ScaleTransform(1.75f, 0.5f, MatrixOrderPrepend);
-graphics.DrawRectangle(&amp;pen, rect);
+graphics.DrawRectangle(&pen, rect);
 ```
 
 

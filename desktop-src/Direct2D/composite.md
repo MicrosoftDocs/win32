@@ -53,7 +53,7 @@ Here's another example using the default mode.
 
 ```C++
 ComPtr<ID2D1Effect> compositeEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Composite, &amp;compositeEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Composite, &compositeEffect);
 
 compositeEffect->SetInput(0, bitmap);
 compositeEffect->SetInput(1, bitmapTwo);

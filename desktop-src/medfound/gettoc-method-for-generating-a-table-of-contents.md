@@ -18,12 +18,12 @@ The following function is a helper function in an example program that is discus
 HRESULT GetToc(IDMOWrapperFilter* pWrap, IToc** ppToc)
 {
    IPropertyStore* pStore = NULL;
-   HRESULT  hr = pWrap->QueryInterface(IID_IPropertyStore, (VOID**)&amp;pStore);
+   HRESULT  hr = pWrap->QueryInterface(IID_IPropertyStore, (VOID**)&pStore);
 
    if(SUCCEEDED(hr))
    {
       PROPVARIANT pv;
-      PropVariantInit(&amp;pv);
+      PropVariantInit(&pv);
 
       pv.vt = VT_BOOL;
       pv.bVal = VARIANT_TRUE;                                                     
@@ -33,15 +33,15 @@ HRESULT GetToc(IDMOWrapperFilter* pWrap, IToc** ppToc)
       {
          for(LONG j = 0; j < 10; ++j)
          {
-            PropVariantClear(&amp;pv);
+            PropVariantClear(&pv);
             pv.vt = VT_BOOL;
-            hr = pStore->GetValue(MFPKEY_TOCGENERATOR_TOCREADY, &amp;pv);
+            hr = pStore->GetValue(MFPKEY_TOCGENERATOR_TOCREADY, &pv);
 
-            if(SUCCEEDED(hr) &amp;&amp; 1 == pv.bVal)  // Note: 1 is not equal to VARIANT_TRUE.
+            if(SUCCEEDED(hr) && 1 == pv.bVal)  // Note: 1 is not equal to VARIANT_TRUE.
             {
-               PropVariantClear(&amp;pv);
+               PropVariantClear(&pv);
                pv.vt = VT_UNKNOWN;
-               hr = pStore->GetValue(MFPKEY_TOCGENERATOR_TOCOBJECT, &amp;pv);
+               hr = pStore->GetValue(MFPKEY_TOCGENERATOR_TOCOBJECT, &pv);
 
                if(SUCCEEDED(hr))
                {

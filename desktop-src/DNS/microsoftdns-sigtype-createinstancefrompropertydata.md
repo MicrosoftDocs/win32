@@ -44,7 +44,7 @@ void CreateInstanceFromPropertyData(
   [in]           uint16               KeyTag,
   [in]           string               SignerName,
   [in]           string               Signature,
-  [out, ref]     MicrosoftDNS_SIGType &amp;RR
+  [out, ref]     MicrosoftDNS_SIGType &RR
 );
 ```
 

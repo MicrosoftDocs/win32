@@ -84,16 +84,16 @@ HRESULT CMyAccessibleMSAAControl::get_accParent(IDispatch **ppdispParent)
 
     IAccessibleWindowlessSite *pWindowlessSite = NULL;  
 
-    if (SUCCEEDED(m_pClientSite->QueryInterface(IID_PPV_ARGS(&amp;pWindowlessSite))))  
+    if (SUCCEEDED(m_pClientSite->QueryInterface(IID_PPV_ARGS(&pWindowlessSite))))  
     {  
         IAccessible *pParentAcc = NULL;
-        if (SUCCEEDED(pWindowlessSite->GetParentAccessible(&amp;pParentAcc)))
+        if (SUCCEEDED(pWindowlessSite->GetParentAccessible(&pParentAcc)))
         {
             hr = pParentAcc->QueryInterface(IID_PPV_ARGS(ppdispParent));  
         }
     }  
 
-    SafeRelease(&amp;pWindowlessSite);
+    SafeRelease(&pWindowlessSite);
     return hr;  
 }
 ```
@@ -111,16 +111,16 @@ This example shows how to acquire a range of object ID values from the control c
 IAccessibleWindowlessSite *pWindowlessSite = NULL;
 
 if (SUCCEEDED(m_pClientSite->QueryInterface(
-        IID_PPV_ARGS(&amp;pWindowlessSite))))  
+        IID_PPV_ARGS(&pWindowlessSite))))  
 {  
     if (FAILED(pWindowlessSite->AcquireObjectIdRange(100, this, 
-            &amp;m_idObjectBase)))  
+            &m_idObjectBase)))  
     {  
         m_idObjectBase = -1;  
     } 
 }
 
-SafeRelease(&amp;pWindowlessSite);
+SafeRelease(&pWindowlessSite);
 ```
 
 

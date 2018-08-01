@@ -75,19 +75,19 @@ HRESULT PnrpResolve(PWSTR pwzName, PWSTR pwzCloud, SOCKADDR_IN6* pAddr)
     pnrpInfo.enResolveCriteria = PNRP_RESOLVE_CRITERIA_NON_CURRENT_PROCESS_PEER_NAME;
 
     blPnrpData.cbSize = sizeof(pnrpInfo);
-    blPnrpData.pBlobData = (BYTE*)&amp;pnrpInfo;
+    blPnrpData.pBlobData = (BYTE*)&pnrpInfo;
 
     querySet.dwSize = sizeof(querySet);
     querySet.dwNameSpace = NS_PNRPNAME;
-    querySet.lpServiceClassId = (LPGUID)&amp;SVCID_PNRPNAME;
+    querySet.lpServiceClassId = (LPGUID)&SVCID_PNRPNAME;
     querySet.lpszServiceInstanceName = pwzName;
     querySet.lpszContext = pwzCloud;
-    querySet.lpBlob = &amp;blPnrpData;
+    querySet.lpBlob = &blPnrpData;
     // start resolve
     iRet = WSALookupServiceBegin(
-            &amp;querySet,
+            &querySet,
             LUP_RETURN_NAME | LUP_RETURN_ADDR | LUP_RETURN_COMMENT,
-            &amp;hLookup);
+            &hLookup);
 
 
     if (iRet != 0)
@@ -100,7 +100,7 @@ HRESULT PnrpResolve(PWSTR pwzName, PWSTR pwzCloud, SOCKADDR_IN6* pAddr)
         dwSize = sizeof(tempResultSet);
 
         // retrieve the required size
-        iRet = WSALookupServiceNext(hLookup, 0, &amp;dwSize, &amp;tempResultSet);
+        iRet = WSALookupServiceNext(hLookup, 0, &dwSize, &tempResultSet);
         dwError = WSAGetLastError();
 
         if (dwError == WSAEFAULT)
@@ -121,7 +121,7 @@ HRESULT PnrpResolve(PWSTR pwzName, PWSTR pwzCloud, SOCKADDR_IN6* pAddr)
     if (SUCCEEDED(hr))
     {
         // retrieve the addresses
-        iRet = WSALookupServiceNext(hLookup, 0, &amp;dwSize, pResults);
+        iRet = WSALookupServiceNext(hLookup, 0, &dwSize, pResults);
         if (iRet != 0)
         {
             hr = HRESULT_FROM_WIN32(WSAGetLastError());
@@ -133,7 +133,7 @@ HRESULT PnrpResolve(PWSTR pwzName, PWSTR pwzCloud, SOCKADDR_IN6* pAddr)
         // return the first IPv6 address found
         for (i = 0; i < pResults->dwNumberOfCsAddrs; i++)
         {
-            if (pResults->lpcsaBuffer[i].iProtocol == IPPROTO_TCP &amp;&amp;
+            if (pResults->lpcsaBuffer[i].iProtocol == IPPROTO_TCP &&
                 pResults->lpcsaBuffer[i].RemoteAddr.iSockaddrLength == sizeof(SOCKADDR_IN6))
             {
                 CopyMemory(pAddr, pResults->lpcsaBuffer[i].RemoteAddr.lpSockaddr, sizeof(SOCKADDR_IN6));

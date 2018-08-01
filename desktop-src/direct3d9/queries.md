@@ -68,7 +68,7 @@ This method returns a success code if a query can be created; otherwise it retur
 
 ```
 IDirect3DQuery9* pEventQuery;
-m_pd3dDevice->CreateQuery(D3DQUERYTYPE_EVENT, &amp;pEventQuery);
+m_pd3dDevice->CreateQuery(D3DQUERYTYPE_EVENT, &pEventQuery);
 ```
 
 
@@ -82,7 +82,7 @@ An application changes a query state by issuing a query. Here is an example of i
 
 ```
 IDirect3DQuery9* pEventQuery;
-m_pD3DDevice->CreateQuery(D3DQUERYTYPE_EVENT, &amp;pEventQuery);
+m_pD3DDevice->CreateQuery(D3DQUERYTYPE_EVENT, &pEventQuery);
 
 // Issue a Begin event
 pEventQuery->Issue(D3DISSUE_BEGIN);
@@ -169,7 +169,7 @@ The following is the corresponding sequence of code:
 IDirect3DQuery9* pOcclusionQuery;
 DWORD numberOfPixelsDrawn;
 
-m_pD3DDevice->CreateQuery(D3DQUERYTYPE_OCCLUSION, &amp;pOcclusionQuery);
+m_pD3DDevice->CreateQuery(D3DQUERYTYPE_OCCLUSION, &pOcclusionQuery);
 
 // Add an end marker to the command buffer queue.
 pOcclusionQuery->Issue(D3DISSUE_BEGIN);
@@ -184,7 +184,7 @@ pOcclusionQuery->Issue(D3DISSUE_END);
 
 // Force the driver to execute the commands from the command buffer.
 // Empty the command buffer and wait until the GPU is idle.
-while(S_FALSE == pOcclusionQuery->GetData( &amp;numberOfPixelsDrawn, 
+while(S_FALSE == pOcclusionQuery->GetData( &numberOfPixelsDrawn, 
                                   sizeof(DWORD), D3DGETDATA_FLUSH ))
     ;
 ```
@@ -217,7 +217,7 @@ An event query does not support a begin event.
 
 ```
 IDirect3DQuery9* pEventQuery = NULL;
-m_pD3DDevice->CreateQuery(D3DQUERYTYPE_EVENT, &amp;pEventQuery);
+m_pD3DDevice->CreateQuery(D3DQUERYTYPE_EVENT, &pEventQuery);
 
 // Add an end marker to the command buffer queue.
 pEventQuery->Issue(D3DISSUE_END);
@@ -250,7 +250,7 @@ The classic example of this is during Occlusion Culling. Instead of the **while*
 
 ```
 IDirect3DQuery9* pOcclusionQuery = NULL;
-m_pD3DDevice->CreateQuery( D3DQUERYTYPE_OCCLUSION, &amp;pOcclusionQuery );
+m_pD3DDevice->CreateQuery( D3DQUERYTYPE_OCCLUSION, &pOcclusionQuery );
 
 // Add a begin marker to the command buffer queue.
 pOcclusionQuery->Issue( D3DISSUE_BEGIN );
@@ -263,7 +263,7 @@ pOcclusionQuery->Issue( D3DISSUE_END );
 // Avoid flushing and letting the CPU go idle by not using a while loop.
 // Check if queries are finished:
 DWORD dwOccluded = 0;
-if( S_FALSE == pOcclusionQuery->GetData( &amp;dwOccluded, sizeof(DWORD), 0 ) )
+if( S_FALSE == pOcclusionQuery->GetData( &dwOccluded, sizeof(DWORD), 0 ) )
 {
     // Query is not done yet or object not occluded; avoid flushing/wait by continuing with worst-case scenario
     pSomeComplexMesh->Render();

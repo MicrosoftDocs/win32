@@ -27,25 +27,25 @@ LPWSTR pszAuxClass[]={L"vehicle"};
 LPWSTR pszVIN[]={L"df897dsfsa-0"};
 VARIANT var;
 
-VariantInit(&amp;var);
+VariantInit(&var);
 
 ADsOpenObject(L"cn=johnd,cn=users,dc=fabrikam,dc=com", 
     NULL, 
     NULL, 
     ADS_SECURE_AUTHENTICATION, 
     IID_IADs,  
-    (VOID**)&amp;pIADs);
+    (VOID**)&pIADs);
 
-ADsBuildVarArrayStr(pszAuxClass, 1, &amp;var);
+ADsBuildVarArrayStr(pszAuxClass, 1, &var);
 pIADs->PutEx(ADS_PROPERTY_APPEND, CComBSTR("objectClass"), var);
-ADsBuildVarArrayStr( pszVIN, 1, &amp;var);
+ADsBuildVarArrayStr( pszVIN, 1, &var);
 pIADs->Put(CComBSTR("vin"), var);
 pIADs->SetInfo();
 
 if(pIADs)
     pIADs->Release();
 
-VariantClear(&amp;var);
+VariantClear(&var);
 ```
 
 

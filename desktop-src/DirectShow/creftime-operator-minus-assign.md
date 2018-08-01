@@ -29,8 +29,8 @@ The -= operator subtracts one reference time from another.
 
 
 ```C++
-CRefTime&amp; operator-=(
-  [ref] const CRefTime &amp;rt
+CRefTime& operator-=(
+  [ref] const CRefTime &rt
 );
 ```
 

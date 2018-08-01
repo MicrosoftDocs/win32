@@ -42,7 +42,7 @@ The example here shows the input and output images of the hue rotate effect with
 
 ```C++
 ComPtr<ID2D1Effect> hueRotationEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1HueRotation, &amp;hueRotationEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1HueRotation, &hueRotationEffect);
 
 hueRotationEffect->SetInput(0, bitmap);
 hueRotationEffect->SetValue(D2D1_HUEROTATION_PROP_ANGLE, 270.0f);

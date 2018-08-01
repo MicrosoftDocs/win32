@@ -52,12 +52,12 @@ HRESULT ExtractServices(IUPnPDevice * pDevice)
     }
     // Get the list of services available on the device
     IUPnPServices * pServices = NULL;
-    HRESULT hr = pDevice->get_Services(&amp;pServices);
+    HRESULT hr = pDevice->get_Services(&pServices);
     if (SUCCEEDED(hr))
     {
         // Retrieve the service we are interested in
         IUPnPService * pAppService = NULL;
-        hr = pServices->get_Item(bstrServiceName, &amp;pAppService);
+        hr = pServices->get_Item(bstrServiceName, &pAppService);
         if (SUCCEEDED(hr))
         {
             // Do something interesting with the service object

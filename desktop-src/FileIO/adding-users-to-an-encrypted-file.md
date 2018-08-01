@@ -87,8 +87,8 @@ void __cdecl wmain(int argc, wchar_t *argv[])
     // Call LookupAccountName twice; first to find the size of the 
     // SID, and a second time to retrieve the SID.
     //
-    LookupAccountName(NULL,wszAccount,pSid,&amp;cbSid,
-                      wszDomain,&amp;cchDomain,&amp;SidType);
+    LookupAccountName(NULL,wszAccount,pSid,&cbSid,
+                      wszDomain,&cchDomain,&SidType);
     if(0 == cbSid)
     {
         ErrorExit(L"LookupAccountName did not return the SID size.",
@@ -104,8 +104,8 @@ void __cdecl wmain(int argc, wchar_t *argv[])
     {
         ErrorExit(L"Failed to allocate string.", GetLastError());
     }
-    if(!LookupAccountName(NULL,wszAccount,pSid,&amp;cbSid,
-                          wszDomain,&amp;cchDomain,&amp;SidType))
+    if(!LookupAccountName(NULL,wszAccount,pSid,&cbSid,
+                          wszDomain,&cchDomain,&SidType))
     {
         ErrorExit(L"LookupAccountName failed.", GetLastError());
     }
@@ -168,7 +168,7 @@ void __cdecl wmain(int argc, wchar_t *argv[])
         ErrorExit(L"Failed to allocate structure.", GetLastError());
     }
     pEfsEncryptionCertList->nUsers = 1;
-    pEfsEncryptionCertList->pUsers = &amp;pEfsEncryptionCert;
+    pEfsEncryptionCertList->pUsers = &pEfsEncryptionCert;
 
     // Call the API to add the user.
     //

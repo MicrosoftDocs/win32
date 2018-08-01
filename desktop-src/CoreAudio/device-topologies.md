@@ -108,26 +108,26 @@ HRESULT GetHardwareDeviceTopology(
 
     hr = pEndptDev->Activate(
                       IID_IDeviceTopology, CLSCTX_ALL,
-                      NULL, (void**)&amp;pDevTopoEndpt);
+                      NULL, (void**)&pDevTopoEndpt);
     EXIT_ON_ERROR(hr)
 
     // The device topology for an endpoint device always
     // contains just one connector (connector number 0).
 
-    hr = pDevTopoEndpt->GetConnector(0, &amp;pConnEndpt);
+    hr = pDevTopoEndpt->GetConnector(0, &pConnEndpt);
     EXIT_ON_ERROR(hr)
 
     // Use the connector in the endpoint device to get the
     // connector in the adapter device.
 
-    hr = pConnEndpt->GetConnectedTo(&amp;pConnHWDev);
+    hr = pConnEndpt->GetConnectedTo(&pConnHWDev);
     EXIT_ON_ERROR(hr)
 
     // Query the connector in the adapter device for
     // its IPart interface.
 
     hr = pConnHWDev->QueryInterface(
-                         IID_IPart, (void**)&amp;pPartConn);
+                         IID_IPart, (void**)&pPartConn);
     EXIT_ON_ERROR(hr)
 
     // Use the connector's IPart interface to get the
@@ -198,17 +198,17 @@ HRESULT SelectCaptureDevice(IMMDevice *pEndptDev)
     // Get the endpoint device's IDeviceTopology interface.
     hr = pEndptDev->Activate(
                       IID_IDeviceTopology, CLSCTX_ALL, NULL,
-                      (void**)&amp;pDeviceTopology);
+                      (void**)&pDeviceTopology);
     EXIT_ON_ERROR(hr)
 
     // The device topology for an endpoint device always
     // contains just one connector (connector number 0).
-    hr = pDeviceTopology->GetConnector(0, &amp;pConnFrom);
+    hr = pDeviceTopology->GetConnector(0, &pConnFrom);
     SAFE_RELEASE(pDeviceTopology)
     EXIT_ON_ERROR(hr)
 
     // Make sure that this is a capture device.
-    hr = pConnFrom->GetDataFlow(&amp;flow);
+    hr = pConnFrom->GetDataFlow(&flow);
     EXIT_ON_ERROR(hr)
 
     if (flow != Out)
@@ -223,7 +223,7 @@ HRESULT SelectCaptureDevice(IMMDevice *pEndptDev)
     while (TRUE)
     {
         BOOL bConnected;
-        hr = pConnFrom->IsConnected(&amp;bConnected);
+        hr = pConnFrom->IsConnected(&bConnected);
         EXIT_ON_ERROR(hr)
 
         // Does this connector connect to another device?
@@ -234,7 +234,7 @@ HRESULT SelectCaptureDevice(IMMDevice *pEndptDev)
             // system bus or external bus. Verify that
             // the connection type is Software_IO.
             ConnectorType  connType;
-            hr = pConnFrom->GetType(&amp;connType);
+            hr = pConnFrom->GetType(&connType);
             EXIT_ON_ERROR(hr)
 
             if (connType == Software_IO)
@@ -246,13 +246,13 @@ HRESULT SelectCaptureDevice(IMMDevice *pEndptDev)
 
         // Get the connector in the next device topology,
         // which lies on the other side of the connection.
-        hr = pConnFrom->GetConnectedTo(&amp;pConnTo);
+        hr = pConnFrom->GetConnectedTo(&pConnTo);
         EXIT_ON_ERROR(hr)
         SAFE_RELEASE(pConnFrom)
 
         // Get the connector's IPart interface.
         hr = pConnTo->QueryInterface(
-                        IID_IPart, (void**)&amp;pPartPrev);
+                        IID_IPart, (void**)&pPartPrev);
         EXIT_ON_ERROR(hr)
         SAFE_RELEASE(pConnTo)
 
@@ -265,14 +265,14 @@ HRESULT SelectCaptureDevice(IMMDevice *pEndptDev)
             IPartsList *pParts;
 
             // Follow downstream link to next part.
-            hr = pPartPrev->EnumPartsOutgoing(&amp;pParts);
+            hr = pPartPrev->EnumPartsOutgoing(&pParts);
             EXIT_ON_ERROR(hr)
 
-            hr = pParts->GetPart(0, &amp;pPartNext);
+            hr = pParts->GetPart(0, &pPartNext);
             pParts->Release();
             EXIT_ON_ERROR(hr)
 
-            hr = pPartNext->GetPartType(&amp;parttype);
+            hr = pPartNext->GetPartType(&parttype);
             EXIT_ON_ERROR(hr)
 
             if (parttype == Connector)
@@ -281,7 +281,7 @@ HRESULT SelectCaptureDevice(IMMDevice *pEndptDev)
                 // lies at the end of this device topology.
                 hr = pPartNext->QueryInterface(
                                   IID_IConnector,
-                                  (void**)&amp;pConnFrom);
+                                  (void**)&pConnFrom);
                 EXIT_ON_ERROR(hr)
 
                 SAFE_RELEASE(pPartPrev)
@@ -294,12 +294,12 @@ HRESULT SelectCaptureDevice(IMMDevice *pEndptDev)
             hr = pPartNext->Activate(
                               CLSCTX_ALL,
                               IID_IAudioInputSelector,
-                              (void**)&amp;pSelector);
+                              (void**)&pSelector);
             if (hr == S_OK)
             {
                 // We found a MUX (input selector), so select
                 // the input from our endpoint device.
-                hr = pPartPrev->GetLocalId(&amp;localId);
+                hr = pPartPrev->GetLocalId(&localId);
                 EXIT_ON_ERROR(hr)
 
                 hr = pSelector->SetSelection(localId, NULL);

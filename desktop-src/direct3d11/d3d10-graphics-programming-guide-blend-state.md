@@ -31,10 +31,10 @@ For instance, here is a very simple example of blend-state creation that disable
 ID3D11BlendState1* g_pBlendStateNoBlend = NULL;
 
 D3D11_BLEND_DESC1 BlendState;
-ZeroMemory(&amp;BlendState, sizeof(D3D11_BLEND_DESC1));
+ZeroMemory(&BlendState, sizeof(D3D11_BLEND_DESC1));
 BlendState.RenderTarget[0].BlendEnable = FALSE;
 BlendState.RenderTarget[0].RenderTargetWriteMask = D3D11_COLOR_WRITE_ENABLE_ALL;
-pd3dDevice->CreateBlendState1(&amp;BlendState, &amp;g_pBlendStateNoBlend);
+pd3dDevice->CreateBlendState1(&BlendState, &g_pBlendStateNoBlend);
 ```
 
 

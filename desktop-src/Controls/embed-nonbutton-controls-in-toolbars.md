@@ -88,7 +88,7 @@ HWND CreateToolbarWithEdit(HWND hWndParent)
 
     // Add buttons.
     SendMessage(hWndToolbar, TB_BUTTONSTRUCTSIZE, (WPARAM)sizeof(TBBUTTON), 0);
-    SendMessage(hWndToolbar, TB_ADDBUTTONS,       (WPARAM)numButtons,       (LPARAM)&amp;tbButtons);
+    SendMessage(hWndToolbar, TB_ADDBUTTONS,       (WPARAM)numButtons,       (LPARAM)&tbButtons);
 
     // Create the edit control child window.    
     HWND hWndEdit = CreateWindowEx(0L, L"Edit", NULL, 

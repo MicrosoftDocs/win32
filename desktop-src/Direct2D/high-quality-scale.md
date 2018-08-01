@@ -45,7 +45,7 @@ This example shows the scale effect zooming in 2 times the input and cropping to
 
 ```C++
 ComPtr<ID2D1Effect> scaleEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Scale, &amp;scaleEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Scale, &scaleEffect);
 
 scaleEffect->SetInput(0, bitmap);
 

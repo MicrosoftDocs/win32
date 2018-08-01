@@ -45,19 +45,19 @@ MSIHANDLE hInstall;
 TCHAR *szBuf;
 DWORD cch  = 0 ;
  
-if(MsiOpenPackage(_T("PathToPackage...."), &amp;hInstall) == ERROR_SUCCESS)
+if(MsiOpenPackage(_T("PathToPackage...."), &hInstall) == ERROR_SUCCESS)
 {
     if(MsiDoAction(hInstall, _T("CostInitialize"))==ERROR_SUCCESS  
-        &amp;&amp; MsiDoAction(hInstall, _T("FileCost"))==ERROR_SUCCESS  
-        &amp;&amp; MsiDoAction(hInstall, _T("CostFinalize"))==ERROR_SUCCESS)   
+        && MsiDoAction(hInstall, _T("FileCost"))==ERROR_SUCCESS  
+        && MsiDoAction(hInstall, _T("CostFinalize"))==ERROR_SUCCESS)   
     { 
-        if(MsiGetTargetPath(hInstall, _T("FolderName"), _T(""),&amp;cch)==ERROR_MORE_DATA)
+        if(MsiGetTargetPath(hInstall, _T("FolderName"), _T(""),&cch)==ERROR_MORE_DATA)
         { 
             cch++; // add 1 to include null terminator since MsiGetTargetPath does not include it on return 
             szBuf = (TCHAR *) malloc(cch*sizeof(TCHAR));
             if(szBuf)
             {
-                if(MsiGetTargetPath(hInstall, _T("FolderName"), szBuf,&amp;cch)==ERROR_SUCCESS)
+                if(MsiGetTargetPath(hInstall, _T("FolderName"), szBuf,&cch)==ERROR_SUCCESS)
                 {
                     // Add code to use szBuf here
                 }

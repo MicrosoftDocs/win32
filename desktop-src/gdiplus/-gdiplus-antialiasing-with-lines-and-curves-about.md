@@ -36,7 +36,7 @@ To draw lines and curves that use antialiasing, create a [**Graphics**](/windows
 
 ```
 myGraphics.SetSmoothingMode(SmoothingModeAntiAlias);
-myGraphics.DrawLine(&amp;myPen, 0, 0, 12, 8);
+myGraphics.DrawLine(&myPen, 0, 0, 12, 8);
 ```
 
 

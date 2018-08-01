@@ -26,7 +26,7 @@ The **ICM\_GETDEFAULTQUALITY** message queries a video compression driver to pro
 
 ```C++
 ICM_GETDEFAULTQUALITY 
-wParam = (DWORD_PTR) (LPVOID) &amp;dwICValue; 
+wParam = (DWORD_PTR) (LPVOID) &dwICValue; 
 lParam = 0; 
 ```
 

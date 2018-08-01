@@ -114,41 +114,41 @@ PROPVARIANT readerValue;
 IWICMetadataBlockReader *blockReader = NULL;
 IWICMetadataReader *reader = NULL;
 
-PropVariantInit(&amp;readerValue);
+PropVariantInit(&readerValue);
 
-hr = pFrameDecode->QueryInterface(IID_IWICMetadataBlockReader, (void**)&amp;blockReader);
+hr = pFrameDecode->QueryInterface(IID_IWICMetadataBlockReader, (void**)&blockReader);
 
 if (SUCCEEDED(hr))
 {
     // Retrieve the third block in the image. This is image specific and
     // ideally you should call this by retrieving the reader count
     // first.
-    hr = blockReader->GetReaderByIndex(2, &amp;reader);
+    hr = blockReader->GetReaderByIndex(2, &reader);
 }
 
 if (SUCCEEDED(hr))
 {
     UINT numValues = 0;
 
-    hr = reader->GetCount(&amp;numValues);
+    hr = reader->GetCount(&numValues);
 
     // Loop through each item and retrieve by index
-    for (UINT i = 0; SUCCEEDED(hr) &amp;&amp; i < numValues; i++)
+    for (UINT i = 0; SUCCEEDED(hr) && i < numValues; i++)
     {
         PROPVARIANT id, value;
 
-        PropVariantInit(&amp;id);
-        PropVariantInit(&amp;value);
+        PropVariantInit(&id);
+        PropVariantInit(&value);
 
-        hr = reader->GetValueByIndex(i, NULL, &amp;id, &amp;value);
+        hr = reader->GetValueByIndex(i, NULL, &id, &value);
 
         if (SUCCEEDED(hr))
         {
             // Do something with the metadata item.
             //...
         }
-        PropVariantClear(&amp;id);
-        PropVariantClear(&amp;value);
+        PropVariantClear(&id);
+        PropVariantClear(&value);
     }               
 }
 ```

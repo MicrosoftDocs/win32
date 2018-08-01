@@ -99,7 +99,7 @@ The following table provides a detailed overview of the Windows platform support
 <br/></td>
 </tr>
 <tr class="even">
-<td>Supported Windows versions (OS &amp; application support)</td>
+<td>Supported Windows versions (OS & application support)</td>
 <td><ul>
 <li>Windows Vista</li>
 </ul>

@@ -20,7 +20,7 @@ The following example uses the [**ICGetInfo**](/windows/desktop/api/Vfw/nf-vfw-i
 
 ```C++
 ICINFO ICInfo; 
-ICGetInfo(hIC, &amp;ICInfo, sizeof(ICInfo)); 
+ICGetInfo(hIC, &ICInfo, sizeof(ICInfo)); 
  
 ```
 

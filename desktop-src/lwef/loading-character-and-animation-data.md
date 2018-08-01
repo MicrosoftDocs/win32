@@ -21,18 +21,18 @@ After you have a pointer to the [**IAgentEx**](iagentex.md) interface, you can u
 
    const LPWSTR kpwszCharacter = L"merlin.acs";
 
-   VariantInit(&amp;vPath);
+   VariantInit(&vPath);
 
    vPath.vt = VT_BSTR;
    vPath.bstrVal = SysAllocString(kpwszCharacter);
 
    // Load the character
 
-   hRes = pAgentEx->Load(vPath, &amp;lCharID, &amp;lRequestID);
+   hRes = pAgentEx->Load(vPath, &lCharID, &lRequestID);
 
    // Get its IAgentCharacterEx interface
 
-   hRes = pAgentEx->GetCharacterEx(lCharID, &amp;pCharacterEx);
+   hRes = pAgentEx->GetCharacterEx(lCharID, &pCharacterEx);
 ```
 
 
@@ -44,13 +44,13 @@ You can use this interface to access the character's methods:
    // Show the character.  The first parameter tells Microsoft
    // Agent to show the character by playing an animation.
 
-   hRes = pCharacterEx->Show(FALSE, &amp;lRequestID);
+   hRes = pCharacterEx->Show(FALSE, &lRequestID);
 
    // Make the character speak
 
    bszSpeak = SysAllocString(L"Hello World!");
 
-   hRes = pCharacterEx->Speak(bszSpeak, NULL, &amp;lRequestID);
+   hRes = pCharacterEx->Speak(bszSpeak, NULL, &lRequestID);
 
    SysFreeString(bszSpeak);
 ```
@@ -80,7 +80,7 @@ if (pCharacterEx) {
 
 pAgentEx->Release();
 
-VariantClear(&amp;vPath);
+VariantClear(&vPath);
 ```
 
 

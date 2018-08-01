@@ -35,7 +35,7 @@ if (ICCompressBegin(hIC, lpbiIn, lpbiOut) == ICERR_OK)
     for ( lFrameNum = 0; lFrameNum < lNumFrames; lFrameNum++)
     { 
         if (ICCompress(hIC, 0, lpbiOut, lpOut, lpbiIn, lpIn, 
-            &amp;dwCkID, &amp;dwCompFlags, lFrameNum, 
+            &dwCkID, &dwCompFlags, lFrameNum, 
             0, dwQuality, NULL, NULL) == ICERR_OK)
         { 
             // Write compressed data to the AVI file. 

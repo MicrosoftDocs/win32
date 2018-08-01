@@ -29,7 +29,7 @@ The = operator assigns a new reference time.
 
 
 ```C++
-CRefTime&amp; operator=(
+CRefTime& operator=(
    const LONGLONG ll
 );
 ```

@@ -72,7 +72,7 @@ HRESULT CMyDevice::GetSerialNumber(
     {
         // Create the MAC handle.
         HMAC hMAC;
-        hr = g_pSecureChannelServer->MACInit(&amp;hMAC);
+        hr = g_pSecureChannelServer->MACInit(&hMAC);
         if(FAILED(hr))
             return hr;
 
@@ -104,7 +104,7 @@ If the receiver has not implemented the [**IWMDMOperation3**](/windows/desktop/a
 //
 WMDMID serialNumber;
 BYTE receivedMAC[WMDM_MAC_LENGTH];
-hr = pIWMDMDevice->GetSerialNumber(&amp;serialNumber, receivedMAC);
+hr = pIWMDMDevice->GetSerialNumber(&serialNumber, receivedMAC);
 
 // Check the MAC to guarantee the serial number has not been tampered with.
 if (hr == S_OK)
@@ -115,11 +115,11 @@ if (hr == S_OK)
     // m_pSAC is a global CSecureChannelClient object created earlier.
     HMAC hMAC;
     BYTE calculatedMAC[WMDM_MAC_LENGTH];
-    hr = m_pSAC->MACInit(&amp;hMAC);
+    hr = m_pSAC->MACInit(&hMAC);
     if(FAILED(hr))
         return hr;
 
-    hr = m_pSAC->MACUpdate(hMAC, (BYTE*)(&amp;serialNumber), sizeof(serialNumber));
+    hr = m_pSAC->MACUpdate(hMAC, (BYTE*)(&serialNumber), sizeof(serialNumber));
     if(FAILED(hr))
         return hr;
 

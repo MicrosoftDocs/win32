@@ -33,7 +33,7 @@ HRESULT GetEventObject(IMFMediaEvent *pEvent, Q **ppObject)
     *ppObject = NULL;   // zero output
 
     PROPVARIANT var;
-    HRESULT hr = pEvent->GetValue(&amp;var);
+    HRESULT hr = pEvent->GetValue(&var);
     if (SUCCEEDED(hr))
     {
         if (var.vt == VT_UNKNOWN)
@@ -44,7 +44,7 @@ HRESULT GetEventObject(IMFMediaEvent *pEvent, Q **ppObject)
         {
             hr = MF_E_INVALIDTYPE;
         }
-        PropVariantClear(&amp;var);
+        PropVariantClear(&var);
     }
     return hr;
 }
@@ -144,12 +144,12 @@ HRESULT CPlayer::QueryInterface(REFIID riid, void** ppv)
 
 ULONG CPlayer::AddRef()
 {
-    return InterlockedIncrement(&amp;m_nRefCount);
+    return InterlockedIncrement(&m_nRefCount);
 }
 
 ULONG CPlayer::Release()
 {
-    ULONG uCount = InterlockedDecrement(&amp;m_nRefCount);
+    ULONG uCount = InterlockedDecrement(&m_nRefCount);
     if (uCount == 0)
     {
         delete this;
@@ -177,21 +177,21 @@ HRESULT CPlayer::OpenURL(const WCHAR *sURL)
     }
 
     // Create the media source.
-    hr = CreateMediaSource(sURL, &amp;m_pSource);
+    hr = CreateMediaSource(sURL, &m_pSource);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Create the presentation descriptor for the media source.
-    hr = m_pSource->CreatePresentationDescriptor(&amp;pSourcePD);
+    hr = m_pSource->CreatePresentationDescriptor(&pSourcePD);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Create a partial topology.
-    hr = CreatePlaybackTopology(m_pSource, pSourcePD, m_hwndVideo, &amp;pTopology);
+    hr = CreatePlaybackTopology(m_pSource, pSourcePD, m_hwndVideo, &pTopology);
     if (FAILED(hr))
     {
         goto done;
@@ -215,8 +215,8 @@ done:
         m_state = Closed;
     }
 
-    SafeRelease(&amp;pSourcePD);
-    SafeRelease(&amp;pTopology);
+    SafeRelease(&pSourcePD);
+    SafeRelease(&pTopology);
     return hr;
 }
 
@@ -244,7 +244,7 @@ HRESULT CPlayer::Pause()
 // Stop playback.
 HRESULT CPlayer::Stop()
 {
-    if (m_state != Started &amp;&amp; m_state != Paused)
+    if (m_state != Started && m_state != Paused)
     {
         return MF_E_INVALIDREQUEST;
     }
@@ -288,7 +288,7 @@ HRESULT CPlayer::ResizeVideo(WORD width, WORD height)
 
         RECT rcDest = { 0, 0, width, height };
 
-        return m_pVideoDisplay->SetVideoPosition(NULL, &amp;rcDest);
+        return m_pVideoDisplay->SetVideoPosition(NULL, &rcDest);
     }
     else
     {
@@ -305,14 +305,14 @@ HRESULT CPlayer::Invoke(IMFAsyncResult *pResult)
     IMFMediaEvent *pEvent = NULL;
 
     // Get the event from the event queue.
-    HRESULT hr = m_pSession->EndGetEvent(pResult, &amp;pEvent);
+    HRESULT hr = m_pSession->EndGetEvent(pResult, &pEvent);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Get the event type. 
-    hr = pEvent->GetType(&amp;meType);
+    hr = pEvent->GetType(&meType);
     if (FAILED(hr))
     {
         goto done;
@@ -352,7 +352,7 @@ HRESULT CPlayer::Invoke(IMFAsyncResult *pResult)
     }
 
 done:
-    SafeRelease(&amp;pEvent);
+    SafeRelease(&pEvent);
     return S_OK;
 }
 
@@ -369,7 +369,7 @@ HRESULT CPlayer::HandleEvent(UINT_PTR pEventPtr)
     }
 
     // Get the event type.
-    HRESULT hr = pEvent->GetType(&amp;meType);
+    HRESULT hr = pEvent->GetType(&meType);
     if (FAILED(hr))
     {
         goto done;
@@ -377,10 +377,10 @@ HRESULT CPlayer::HandleEvent(UINT_PTR pEventPtr)
 
     // Get the event status. If the operation that triggered the event 
     // did not succeed, the status is a failure code.
-    hr = pEvent->GetStatus(&amp;hrStatus);
+    hr = pEvent->GetStatus(&hrStatus);
 
     // Check if the async operation succeeded.
-    if (SUCCEEDED(hr) &amp;&amp; FAILED(hrStatus)) 
+    if (SUCCEEDED(hr) && FAILED(hrStatus)) 
     {
         hr = hrStatus;
     }
@@ -409,7 +409,7 @@ HRESULT CPlayer::HandleEvent(UINT_PTR pEventPtr)
     }
 
 done:
-    SafeRelease(&amp;pEvent);
+    SafeRelease(&pEvent);
     return hr;
 }
 
@@ -437,16 +437,16 @@ HRESULT CPlayer::OnTopologyStatus(IMFMediaEvent *pEvent)
 {
     UINT32 status; 
 
-    HRESULT hr = pEvent->GetUINT32(MF_EVENT_TOPOLOGY_STATUS, &amp;status);
-    if (SUCCEEDED(hr) &amp;&amp; (status == MF_TOPOSTATUS_READY))
+    HRESULT hr = pEvent->GetUINT32(MF_EVENT_TOPOLOGY_STATUS, &status);
+    if (SUCCEEDED(hr) && (status == MF_TOPOSTATUS_READY))
     {
-        SafeRelease(&amp;m_pVideoDisplay);
+        SafeRelease(&m_pVideoDisplay);
 
         // Get the IMFVideoDisplayControl interface from EVR. This call is
         // expected to fail if the media file does not have a video stream.
 
         (void)MFGetService(m_pSession, MR_VIDEO_RENDER_SERVICE, 
-            IID_PPV_ARGS(&amp;m_pVideoDisplay));
+            IID_PPV_ARGS(&m_pVideoDisplay));
 
         hr = StartPlayback();
     }
@@ -473,14 +473,14 @@ HRESULT CPlayer::OnNewPresentation(IMFMediaEvent *pEvent)
     IMFTopology *pTopology = NULL;
 
     // Get the presentation descriptor from the event.
-    HRESULT hr = GetEventObject(pEvent, &amp;pPD);
+    HRESULT hr = GetEventObject(pEvent, &pPD);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Create a partial topology.
-    hr = CreatePlaybackTopology(m_pSource, pPD,  m_hwndVideo,&amp;pTopology);
+    hr = CreatePlaybackTopology(m_pSource, pPD,  m_hwndVideo,&pTopology);
     if (FAILED(hr))
     {
         goto done;
@@ -496,8 +496,8 @@ HRESULT CPlayer::OnNewPresentation(IMFMediaEvent *pEvent)
     m_state = OpenPending;
 
 done:
-    SafeRelease(&amp;pTopology);
-    SafeRelease(&amp;pPD);
+    SafeRelease(&pTopology);
+    SafeRelease(&pPD);
     return S_OK;
 }
 
@@ -514,7 +514,7 @@ HRESULT CPlayer::CreateSession()
     assert(m_state == Closed);
 
     // Create the media session.
-    hr = MFCreateMediaSession(NULL, &amp;m_pSession);
+    hr = MFCreateMediaSession(NULL, &m_pSession);
     if (FAILED(hr))
     {
         goto done;
@@ -544,7 +544,7 @@ HRESULT CPlayer::CloseSession()
 
     HRESULT hr = S_OK;
 
-    SafeRelease(&amp;m_pVideoDisplay);
+    SafeRelease(&m_pVideoDisplay);
 
     // First close the media session.
     if (m_pSession)
@@ -581,8 +581,8 @@ HRESULT CPlayer::CloseSession()
         }
     }
 
-    SafeRelease(&amp;m_pSource);
-    SafeRelease(&amp;m_pSession);
+    SafeRelease(&m_pSource);
+    SafeRelease(&m_pSession);
     m_state = Closed;
     return hr;
 }
@@ -593,9 +593,9 @@ HRESULT CPlayer::StartPlayback()
     assert(m_pSession != NULL);
 
     PROPVARIANT varStart;
-    PropVariantInit(&amp;varStart);
+    PropVariantInit(&varStart);
 
-    HRESULT hr = m_pSession->Start(&amp;GUID_NULL, &amp;varStart);
+    HRESULT hr = m_pSession->Start(&GUID_NULL, &varStart);
     if (SUCCEEDED(hr))
     {
         // Note: Start is an asynchronous operation. However, we
@@ -604,14 +604,14 @@ HRESULT CPlayer::StartPlayback()
         // an error code, and we will update our state then.
         m_state = Started;
     }
-    PropVariantClear(&amp;varStart);
+    PropVariantClear(&varStart);
     return hr;
 }
 
 //  Start playback from paused or stopped.
 HRESULT CPlayer::Play()
 {
-    if (m_state != Paused &amp;&amp; m_state != Stopped)
+    if (m_state != Paused && m_state != Stopped)
     {
         return MF_E_INVALIDREQUEST;
     }
@@ -632,7 +632,7 @@ HRESULT CreateMediaSource(PCWSTR sURL, IMFMediaSource **ppSource)
     IUnknown* pSource = NULL;
 
     // Create the source resolver.
-    HRESULT hr = MFCreateSourceResolver(&amp;pSourceResolver);
+    HRESULT hr = MFCreateSourceResolver(&pSourceResolver);
     if (FAILED(hr))
     {
         goto done;
@@ -649,8 +649,8 @@ HRESULT CreateMediaSource(PCWSTR sURL, IMFMediaSource **ppSource)
         sURL,                       // URL of the source.
         MF_RESOLUTION_MEDIASOURCE,  // Create a source object.
         NULL,                       // Optional property store.
-        &amp;ObjectType,        // Receives the created object type. 
-        &amp;pSource            // Receives a pointer to the media source.
+        &ObjectType,        // Receives the created object type. 
+        &pSource            // Receives a pointer to the media source.
         );
     if (FAILED(hr))
     {
@@ -661,8 +661,8 @@ HRESULT CreateMediaSource(PCWSTR sURL, IMFMediaSource **ppSource)
     hr = pSource->QueryInterface(IID_PPV_ARGS(ppSource));
 
 done:
-    SafeRelease(&amp;pSourceResolver);
-    SafeRelease(&amp;pSource);
+    SafeRelease(&pSourceResolver);
+    SafeRelease(&pSource);
     return hr;
 }
 
@@ -678,7 +678,7 @@ HRESULT CreateMediaSinkActivate(
     IMFActivate *pActivate = NULL;
 
     // Get the media type handler for the stream.
-    HRESULT hr = pSourceSD->GetMediaTypeHandler(&amp;pHandler);
+    HRESULT hr = pSourceSD->GetMediaTypeHandler(&pHandler);
     if (FAILED(hr))
     {
         goto done;
@@ -686,7 +686,7 @@ HRESULT CreateMediaSinkActivate(
 
     // Get the major media type.
     GUID guidMajorType;
-    hr = pHandler->GetMajorType(&amp;guidMajorType);
+    hr = pHandler->GetMajorType(&guidMajorType);
     if (FAILED(hr))
     {
         goto done;
@@ -696,12 +696,12 @@ HRESULT CreateMediaSinkActivate(
     if (MFMediaType_Audio == guidMajorType)
     {
         // Create the audio renderer.
-        hr = MFCreateAudioRendererActivate(&amp;pActivate);
+        hr = MFCreateAudioRendererActivate(&pActivate);
     }
     else if (MFMediaType_Video == guidMajorType)
     {
         // Create the video renderer.
-        hr = MFCreateVideoRendererActivate(hVideoWindow, &amp;pActivate);
+        hr = MFCreateVideoRendererActivate(hVideoWindow, &pActivate);
     }
     else
     {
@@ -719,8 +719,8 @@ HRESULT CreateMediaSinkActivate(
     (*ppActivate)->AddRef();
 
 done:
-    SafeRelease(&amp;pHandler);
-    SafeRelease(&amp;pActivate);
+    SafeRelease(&pHandler);
+    SafeRelease(&pActivate);
     return hr;
 }
 
@@ -735,7 +735,7 @@ HRESULT AddSourceNode(
     IMFTopologyNode *pNode = NULL;
 
     // Create the node.
-    HRESULT hr = MFCreateTopologyNode(MF_TOPOLOGY_SOURCESTREAM_NODE, &amp;pNode);
+    HRESULT hr = MFCreateTopologyNode(MF_TOPOLOGY_SOURCESTREAM_NODE, &pNode);
     if (FAILED(hr))
     {
         goto done;
@@ -772,7 +772,7 @@ HRESULT AddSourceNode(
     (*ppNode)->AddRef();
 
 done:
-    SafeRelease(&amp;pNode);
+    SafeRelease(&pNode);
     return hr;
 }
 
@@ -786,7 +786,7 @@ HRESULT AddOutputNode(
     IMFTopologyNode *pNode = NULL;
 
     // Create the node.
-    HRESULT hr = MFCreateTopologyNode(MF_TOPOLOGY_OUTPUT_NODE, &amp;pNode);
+    HRESULT hr = MFCreateTopologyNode(MF_TOPOLOGY_OUTPUT_NODE, &pNode);
     if (FAILED(hr))
     {
         goto done;
@@ -824,7 +824,7 @@ HRESULT AddOutputNode(
     (*ppNode)->AddRef();
 
 done:
-    SafeRelease(&amp;pNode);
+    SafeRelease(&pNode);
     return hr;
 }
 //</SnippetPlayer.cpp>
@@ -853,7 +853,7 @@ HRESULT AddBranchToPartialTopology(
 
     BOOL fSelected = FALSE;
 
-    HRESULT hr = pPD->GetStreamDescriptorByIndex(iStream, &amp;fSelected, &amp;pSD);
+    HRESULT hr = pPD->GetStreamDescriptorByIndex(iStream, &fSelected, &pSD);
     if (FAILED(hr))
     {
         goto done;
@@ -862,21 +862,21 @@ HRESULT AddBranchToPartialTopology(
     if (fSelected)
     {
         // Create the media sink activation object.
-        hr = CreateMediaSinkActivate(pSD, hVideoWnd, &amp;pSinkActivate);
+        hr = CreateMediaSinkActivate(pSD, hVideoWnd, &pSinkActivate);
         if (FAILED(hr))
         {
             goto done;
         }
 
         // Add a source node for this stream.
-        hr = AddSourceNode(pTopology, pSource, pPD, pSD, &amp;pSourceNode);
+        hr = AddSourceNode(pTopology, pSource, pPD, pSD, &pSourceNode);
         if (FAILED(hr))
         {
             goto done;
         }
 
         // Create the output node for the renderer.
-        hr = AddOutputNode(pTopology, pSinkActivate, 0, &amp;pOutputNode);
+        hr = AddOutputNode(pTopology, pSinkActivate, 0, &pOutputNode);
         if (FAILED(hr))
         {
             goto done;
@@ -888,10 +888,10 @@ HRESULT AddBranchToPartialTopology(
     // else: If not selected, don't add the branch. 
 
 done:
-    SafeRelease(&amp;pSD);
-    SafeRelease(&amp;pSinkActivate);
-    SafeRelease(&amp;pSourceNode);
-    SafeRelease(&amp;pOutputNode);
+    SafeRelease(&pSD);
+    SafeRelease(&pSinkActivate);
+    SafeRelease(&pSourceNode);
+    SafeRelease(&pOutputNode);
     return hr;
 }
 
@@ -906,7 +906,7 @@ HRESULT CreatePlaybackTopology(
     DWORD cSourceStreams = 0;
 
     // Create a new topology.
-    HRESULT hr = MFCreateTopology(&amp;pTopology);
+    HRESULT hr = MFCreateTopology(&pTopology);
     if (FAILED(hr))
     {
         goto done;
@@ -916,7 +916,7 @@ HRESULT CreatePlaybackTopology(
 
 
     // Get the number of streams in the media source.
-    hr = pPD->GetStreamDescriptorCount(&amp;cSourceStreams);
+    hr = pPD->GetStreamDescriptorCount(&cSourceStreams);
     if (FAILED(hr))
     {
         goto done;
@@ -937,7 +937,7 @@ HRESULT CreatePlaybackTopology(
     (*ppTopology)->AddRef();
 
 done:
-    SafeRelease(&amp;pTopology);
+    SafeRelease(&pTopology);
     return hr;
 }
 ```

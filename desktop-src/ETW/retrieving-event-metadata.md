@@ -54,25 +54,25 @@ void wmain(void)
 {
     ULONG status = ERROR_SUCCESS;
     EVENT_TRACE_LOGFILE trace;
-    TRACE_LOGFILE_HEADER* pHeader = &amp;trace.LogfileHeader;
+    TRACE_LOGFILE_HEADER* pHeader = &trace.LogfileHeader;
 
     // Identify the log file from which you want to consume events
     // and the callbacks used to process the events and buffers.
 
-    ZeroMemory(&amp;trace, sizeof(EVENT_TRACE_LOGFILE));
+    ZeroMemory(&trace, sizeof(EVENT_TRACE_LOGFILE));
     trace.LogFileName = (LPWSTR) LOGFILE_PATH;
     trace.EventRecordCallback = (PEVENT_RECORD_CALLBACK) (ProcessEvent);
     trace.ProcessTraceMode = PROCESS_TRACE_MODE_EVENT_RECORD;
 
-    g_hTrace = OpenTrace(&amp;trace);
+    g_hTrace = OpenTrace(&trace);
     if (INVALID_PROCESSTRACE_HANDLE == g_hTrace)
     {
         wprintf(L"OpenTrace failed with %lu\n", GetLastError());
         goto cleanup;
     }
 
-    status = ProcessTrace(&amp;g_hTrace, 1, 0, 0);
-    if (status != ERROR_SUCCESS &amp;&amp; status != ERROR_CANCELLED)
+    status = ProcessTrace(&g_hTrace, 1, 0, 0);
+    if (status != ERROR_SUCCESS && status != ERROR_CANCELLED)
     {
         wprintf(L"ProcessTrace failed with %lu\n", status);
         goto cleanup;
@@ -100,7 +100,7 @@ VOID WINAPI ProcessEvent(PEVENT_RECORD pEvent)
     // the EVENT_TRACE_LOGFILE.LogfileHeader member that you can access when you open 
     // the trace. 
 
-    if (IsEqualGUID(pEvent->EventHeader.ProviderId, EventTraceGuid) &amp;&amp;
+    if (IsEqualGUID(pEvent->EventHeader.ProviderId, EventTraceGuid) &&
         pEvent->EventHeader.EventDescriptor.Opcode == EVENT_TRACE_TYPE_INFO)
     {
         ; // Skip this event.
@@ -131,7 +131,7 @@ VOID WINAPI ProcessEvent(PEVENT_RECORD pEvent)
             wprintf(L"Provider name: %s\n", (LPWSTR)((PBYTE)(pInfo) + pInfo->ProviderNameOffset));
         }
 
-        hr = StringFromCLSID(pInfo->ProviderGuid, &amp;pStringGuid);
+        hr = StringFromCLSID(pInfo->ProviderGuid, &pStringGuid);
         if (FAILED(hr))
         {
             wprintf(L"StringFromCLSID(ProviderGuid) failed with 0x%x\n", hr);
@@ -145,7 +145,7 @@ VOID WINAPI ProcessEvent(PEVENT_RECORD pEvent)
 
         if (!IsEqualGUID(pInfo->EventGuid, GUID_NULL))
         {
-            hr = StringFromCLSID(pInfo->EventGuid, &amp;pStringGuid);
+            hr = StringFromCLSID(pInfo->EventGuid, &pStringGuid);
             if (FAILED(hr))
             {
                 wprintf(L"StringFromCLSID(EventGuid) failed with 0x%x\n", hr);
@@ -280,7 +280,7 @@ DWORD GetEventInformation(PEVENT_RECORD pEvent, PTRACE_EVENT_INFO & pInfo)
 
     // Retrieve the required buffer size for the event metadata.
 
-    status = TdhGetEventInformation(pEvent, 0, NULL, pInfo, &amp;BufferSize);
+    status = TdhGetEventInformation(pEvent, 0, NULL, pInfo, &BufferSize);
 
     if (ERROR_INSUFFICIENT_BUFFER == status)
     {
@@ -294,7 +294,7 @@ DWORD GetEventInformation(PEVENT_RECORD pEvent, PTRACE_EVENT_INFO & pInfo)
 
         // Retrieve the event metadata.
 
-        status = TdhGetEventInformation(pEvent, 0, NULL, pInfo, &amp;BufferSize);
+        status = TdhGetEventInformation(pEvent, 0, NULL, pInfo, &BufferSize);
     }
 
     if (ERROR_SUCCESS != status)

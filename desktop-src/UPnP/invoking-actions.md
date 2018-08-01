@@ -79,11 +79,11 @@ void InvokePlay(IUPnPService * pService)
             LONG    lStatus;
             VARIANT varInArgs;
 
-            VariantInit(&amp;varInArgs);
+            VariantInit(&varInArgs);
 
             varInArgs.vt = VT_VARIANT | VT_ARRAY;
 
-            V_ARRAY(&amp;varInArgs) = psa;
+            V_ARRAY(&varInArgs) = psa;
 
             hr = pService->InvokeAction(bstrActionName,
                                         varInArgs,
@@ -156,17 +156,17 @@ void InvokeGetTrackInfo(IUPnPService * pService)
             VARIANT varTrackNum;
 
             rgIndices[0] = 0;
-            VariantInit(&amp;varTrackNum);
+            VariantInit(&varTrackNum);
 
             varTrackNum.vt = VT_I4;
             // An arbitrary track is chosen (track 3)
-            V_I4(&amp;varTrackNum) = 3;
+            V_I4(&varTrackNum) = 3;
 
             hr = SafeArrayPutElement(psa,
                                      rgIndices,
-                                     (void *) &amp;varTrackNum);
+                                     (void *) &varTrackNum);
 
-            VariantClear(&amp;varTrackNum);
+            VariantClear(&varTrackNum);
 
             if (SUCCEEDED(hr))
             {            
@@ -175,39 +175,39 @@ void InvokeGetTrackInfo(IUPnPService * pService)
                 VARIANT varOutArgs;
                 VARIANT varReturnVal;
 
-                VariantInit(&amp;varInArgs);
-                VariantInit(&amp;varOutArgs);
-                VariantInit(&amp;varReturnVal);
+                VariantInit(&varInArgs);
+                VariantInit(&varOutArgs);
+                VariantInit(&varReturnVal);
 
                 varInArgs.vt = VT_VARIANT | VT_ARRAY;
 
-                V_ARRAY(&amp;varInArgs) = psa;
+                V_ARRAY(&varInArgs) = psa;
 
                 hr = pService->InvokeAction(bstrActionName,
                                             varInArgs,
-                                            &amp;varOutArgs,
-                                            &amp;varReturnVal);
+                                            &varOutArgs,
+                                            &varReturnVal);
 
                 if (SUCCEEDED(hr))
                 {
                     SAFEARRAY * psaOutArgs = NULL;
                     VARIANT   varTrackTitle;
 
-                    psaOutArgs = V_ARRAY(&amp;varOutArgs);
-                    VariantInit(&amp;varTrackTitle);
+                    psaOutArgs = V_ARRAY(&varOutArgs);
+                    VariantInit(&varTrackTitle);
 
                     rgIndices[0] = 0;
                     hr = SafeArrayGetElement(psaOutArgs,
                                              rgIndices,
-                                             (void *)&amp;varTrackTitle);                    
+                                             (void *)&varTrackTitle);                    
 
                     if (SUCCEEDED(hr))
                     {                    
                         wcout << L"Action invoked successfully\n"
                               << L"\tTrack Length == " 
-                              << V_I4(&amp;varReturnVal) << L"\n"
+                              << V_I4(&varReturnVal) << L"\n"
                               << L"\tTrack Title == " 
-                              << V_BSTR(&amp;varTrackTitle) << L"\n";
+                              << V_BSTR(&varTrackTitle) << L"\n";
                     }
                     else
                     {
@@ -217,9 +217,9 @@ void InvokeGetTrackInfo(IUPnPService * pService)
                               << hr << L"\n";                        
                     }
 
-                    VariantClear(&amp;varTrackTitle);
-                    VariantClear(&amp;varReturnVal);
-                    VariantClear(&amp;varOutArgs);
+                    VariantClear(&varTrackTitle);
+                    VariantClear(&varReturnVal);
+                    VariantClear(&varOutArgs);
                 }
                 else
                 {

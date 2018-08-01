@@ -33,15 +33,15 @@ case WM_COMMAND:
            break;    
  
        case IDM_RESIZEWINDOW: // destination RECT and playback area
-           GetWindowRect(g_hwndMCIWnd, &amp;rWin);     // window size 
-           MCIWndGetDest(g_hwndMCIWnd, &amp;rCurrent); // destination RECT
+           GetWindowRect(g_hwndMCIWnd, &rWin);     // window size 
+           MCIWndGetDest(g_hwndMCIWnd, &rCurrent); // destination RECT
            rDest.top = rCurrent.top;               // new boundaries 
            rDest.right = rCurrent.right; 
            rDest.left = rCurrent.left + 
                ((rCurrent.left - rCurrent.right) * 3); 
            rDest.bottom = rCurrent.top + 
                ((rCurrent.bottom - rCurrent.top) * 2); 
-           MCIWndPutDest(g_hwndMCIWnd, &amp;rDest); // new RECT
+           MCIWndPutDest(g_hwndMCIWnd, &rDest); // new RECT
            SetWindowPos(g_hwndMCIWnd,           // window to resize 
                NULL,                          // z-order: don't care 
                0, 0,                          // position: don't care

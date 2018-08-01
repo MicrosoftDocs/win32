@@ -23,7 +23,7 @@ HRESULT CGrayProp::OnConnect(IUnknown *pUnk)
     }
     ASSERT(m_pGray == NULL);
     return pUnk->QueryInterface(IID_ISaturation, 
-        reinterpret_cast<void**>(&amp;m_pGray));
+        reinterpret_cast<void**>(&m_pGray));
 }
 ```
 

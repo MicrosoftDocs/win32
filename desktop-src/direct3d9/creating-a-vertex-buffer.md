@@ -61,7 +61,7 @@ struct CUSTOMVERTEX {
 // structures
 
     if( FAILED( d3dDevice->CreateVertexBuffer( 3*sizeof(CUSTOMVERTEX),
-            0 /*Usage*/, D3DFVF_CUSTOMVERTEX, D3DPOOL_DEFAULT, &amp;g_pVB, NULL ) ) )
+            0 /*Usage*/, D3DFVF_CUSTOMVERTEX, D3DPOOL_DEFAULT, &g_pVB, NULL ) ) )
         return E_FAIL;
 ```
 

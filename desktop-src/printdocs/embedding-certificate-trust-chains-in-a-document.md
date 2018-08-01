@@ -44,7 +44,7 @@ CreateCertificateChain (
         certificate,
         NULL,
         certificateStore,
-        &amp;certificateChainParameters,
+        &certificateChainParameters,
         CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT,
         NULL,
         certificateChain);
@@ -79,14 +79,14 @@ EmbedCertificateChainInXpsPackage (
     hr = CreateCertificateChain(
         signingCertificate, 
         NULL, 
-        &amp;certificateChainContext);
+        &certificateChainContext);
 
     if (SUCCEEDED(hr))
     {
         // The signing options of an XPS document contain a pointer to 
         //  an IOpcCertificateSet interface that can be retrieved by 
         //  calling the GetCertificateSet method.
-        hr = signingOptions->GetCertificateSet(&amp;certificateSetToUpdate);
+        hr = signingOptions->GetCertificateSet(&certificateSetToUpdate);
     }
     if (SUCCEEDED(hr))
     {

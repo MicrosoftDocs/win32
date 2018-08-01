@@ -147,7 +147,7 @@ case WM_DRAWITEM:
         COLOR_HIGHLIGHT : COLOR_WINDOW));
 
     // Calculate the vertical and horizontal position.
-    GetTextMetrics(lpdis->hDC, &amp;tm);
+    GetTextMetrics(lpdis->hDC, &tm);
     y = (lpdis->rcItem.bottom + lpdis->rcItem.top - tm.tmHeight) / 2;
     x = LOWORD(GetDialogBaseUnits()) / 4;
 
@@ -155,14 +155,14 @@ case WM_DRAWITEM:
     SendMessage(lpdis->hwndItem, CB_GETLBTEXT,
         lpdis->itemID, (LPARAM) achTemp);
 
-    hr = StringCchLength(achTemp, 256, &amp;cch);
+    hr = StringCchLength(achTemp, 256, &cch);
     if (FAILED(hr))
     {
         // TODO: Write error handler.
     }
 
     ExtTextOut(lpdis->hDC, CX_BITMAP + 2 * x, y,
-        ETO_CLIPPED | ETO_OPAQUE, &amp;lpdis->rcItem,
+        ETO_CLIPPED | ETO_OPAQUE, &lpdis->rcItem,
         achTemp, (UINT)cch, NULL);
 
     // Restore the previous colors.
@@ -186,7 +186,7 @@ case WM_DRAWITEM:
   
     // If the item has the focus, draw the focus rectangle.
     if (lpdis->itemState & ODS_FOCUS)
-        DrawFocusRect(lpdis->hDC, &amp;lpdis->rcItem);
+        DrawFocusRect(lpdis->hDC, &lpdis->rcItem);
 
     break;
     }
@@ -348,15 +348,15 @@ INT_PTR CALLBACK FoodDlgProc(HWND hDlg, UINT message, WPARAM wParam,
 
         // The colors depend on whether the item is selected.
         clrForeground = SetTextColor(lpdis-&gt;hDC, 
-            GetSysColor(lpdis-&gt;itemState &amp; ODS_SELECTED ?
+            GetSysColor(lpdis-&gt;itemState & ODS_SELECTED ?
             COLOR_HIGHLIGHTTEXT : COLOR_WINDOWTEXT));
 
         clrBackground = SetBkColor(lpdis-&gt;hDC, 
-            GetSysColor(lpdis-&gt;itemState &amp; ODS_SELECTED ?
+            GetSysColor(lpdis-&gt;itemState & ODS_SELECTED ?
             COLOR_HIGHLIGHT : COLOR_WINDOW));
 
         // Calculate the vertical and horizontal position.
-        GetTextMetrics(lpdis-&gt;hDC, &amp;tm);
+        GetTextMetrics(lpdis-&gt;hDC, &tm);
         y = (lpdis-&gt;rcItem.bottom + lpdis-&gt;rcItem.top - tm.tmHeight) / 2;
         x = LOWORD(GetDialogBaseUnits()) / 4;
 
@@ -364,14 +364,14 @@ INT_PTR CALLBACK FoodDlgProc(HWND hDlg, UINT message, WPARAM wParam,
         SendMessage(lpdis-&gt;hwndItem, CB_GETLBTEXT,
             lpdis-&gt;itemID, (LPARAM) achTemp);
 
-        hr = StringCchLength(achTemp, 256, &amp;cch);
+        hr = StringCchLength(achTemp, 256, &cch);
         if (FAILED(hr))
         {
             // TODO: Write error handler.
         }
 
         ExtTextOut(lpdis-&gt;hDC, CX_BITMAP + 2 * x, y,
-            ETO_CLIPPED | ETO_OPAQUE, &amp;lpdis-&gt;rcItem,
+            ETO_CLIPPED | ETO_OPAQUE, &lpdis-&gt;rcItem,
             achTemp, (UINT)cch, NULL);
 
         // Restore the previous colors.
@@ -394,8 +394,8 @@ INT_PTR CALLBACK FoodDlgProc(HWND hDlg, UINT message, WPARAM wParam,
         DeleteDC(hdc); 
       
         // If the item has the focus, draw the focus rectangle.
-        if (lpdis-&gt;itemState &amp; ODS_FOCUS)
-            DrawFocusRect(lpdis-&gt;hDC, &amp;lpdis-&gt;rcItem);
+        if (lpdis-&gt;itemState & ODS_FOCUS)
+            DrawFocusRect(lpdis-&gt;hDC, &lpdis-&gt;rcItem);
 
         break;
         }

@@ -40,8 +40,8 @@ void PrintProcessNameAndID( DWORD processID )
         HMODULE hMod;
         DWORD cbNeeded;
 
-        if ( EnumProcessModules( hProcess, &amp;hMod, sizeof(hMod), 
-             &amp;cbNeeded) )
+        if ( EnumProcessModules( hProcess, &hMod, sizeof(hMod), 
+             &cbNeeded) )
         {
             GetModuleBaseName( hProcess, hMod, szProcessName, 
                                sizeof(szProcessName)/sizeof(TCHAR) );
@@ -64,7 +64,7 @@ int main( void )
     DWORD aProcesses[1024], cbNeeded, cProcesses;
     unsigned int i;
 
-    if ( !EnumProcesses( aProcesses, sizeof(aProcesses), &amp;cbNeeded ) )
+    if ( !EnumProcesses( aProcesses, sizeof(aProcesses), &cbNeeded ) )
     {
         return 1;
     }

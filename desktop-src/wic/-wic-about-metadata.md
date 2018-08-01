@@ -51,7 +51,7 @@ The primary way to read metadata is to use a metadata query reader ([**IWICMetad
 // Get the query reader
 if (SUCCEEDED(hr))
 {
-    hr = pFrameDecode->GetMetadataQueryReader(&amp;pQueryReader);
+    hr = pFrameDecode->GetMetadataQueryReader(&pQueryReader);
 }
 ```
 
@@ -62,13 +62,13 @@ A query reader provides methods to obtain information about specific metadata, a
 
 ```
 PROPVARIANT value;
-PropVariantInit(&amp;value);
+PropVariantInit(&value);
 
 LPCWSTR pwzRatingQuery = L"/app1/ifd/{ushort=18249}";
 
 if (SUCCEEDED(hr))
 {
-    hr = pQueryReader->GetMetadataByName(pwzRatingQuery, &amp;value);
+    hr = pQueryReader->GetMetadataByName(pwzRatingQuery, &value);
 }
 ```
 
@@ -89,7 +89,7 @@ The following code demonstrates how to obtain a query writer from an encoder fra
 // Get the frame's query writer
 if (SUCCEEDED(hr))
 {
-    hr = pFrameEncode->GetMetadataQueryWriter(&amp;pFrameQWriter);
+    hr = pFrameEncode->GetMetadataQueryWriter(&pFrameQWriter);
 }
 
 if (SUCCEEDED(hr))
@@ -113,11 +113,11 @@ if (SUCCEEDED(hr))
 
     hr = pFactory->CreateFastMetadataEncoderFromFrameDecode(
         pFrameDecode,
-        &amp;pFME);
+        &pFME);
 
     if (SUCCEEDED(hr))
     {
-        hr = pFME->GetMetadataQueryWriter(&amp;pFMEQW);
+        hr = pFME->GetMetadataQueryWriter(&pFMEQW);
     }
 
     if (SUCCEEDED(hr))
@@ -125,13 +125,13 @@ if (SUCCEEDED(hr))
         // Add additional metadata
         PROPVARIANT value;
 
-        PropVariantInit(&amp;value);
+        PropVariantInit(&value);
 
         value.vt = VT_UI4;
         value.uiVal = 99;
-        hr = pFMEQW->SetMetadataByName(L"/app1/ifd/{ushort=18249}", &amp;value);
+        hr = pFMEQW->SetMetadataByName(L"/app1/ifd/{ushort=18249}", &value);
 
-        PropVariantClear(&amp;value);
+        PropVariantClear(&value);
     }
 
     if (SUCCEEDED(hr))

@@ -30,7 +30,7 @@ Calls the vertex shader subobject callback of an object that implements this int
 
 ```C++
 void VSCb(
-  [ref] const D3D12_SHADER_BYTECODE &amp;VS
+  [ref] const D3D12_SHADER_BYTECODE &VS
 );
 ```
 

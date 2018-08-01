@@ -68,7 +68,7 @@ The next step is the retrieval of an **IPortableDeviceContent** object that the 
 ```C++
 if (SUCCEEDED(hr))
 {
-    hr = pDevice->Content(&amp;pContent);
+    hr = pDevice->Content(&pContent);
     if (FAILED(hr))
     {
         printf("! Failed to get IPortableDeviceContent from IPortableDevice, hr = 0x%lx\n",hr);
@@ -84,7 +84,7 @@ The next step is the retrieval of an **IPortableDeviceResources** object that th
 ```C++
 if (SUCCEEDED(hr))
 {
-    hr = pContent->Transfer(&amp;pResources);
+    hr = pContent->Transfer(&pResources);
     if (FAILED(hr))
     {
         printf("! Failed to get IPortableDeviceResources from IPortableDeviceContent, hr = 0x%lx\n",hr);
@@ -103,8 +103,8 @@ if (SUCCEEDED(hr))
     hr = pResources->GetStream(szSelection,             // Identifier of the object we want to transfer
                                WPD_RESOURCE_DEFAULT,    // We are transferring the default resource (which is the entire object's data)
                                STGM_READ,               // Opening a stream in READ mode, because we are reading data from the device.
-                               &amp;cbOptimalTransferSize,  // Driver supplied optimal transfer size
-                               &amp;pObjectDataStream);
+                               &cbOptimalTransferSize,  // Driver supplied optimal transfer size
+                               &pObjectDataStream);
     if (FAILED(hr))
     {
         printf("! Failed to get IStream (representing object data on the device) from IPortableDeviceResources, hr = 0x%lx\n",hr);
@@ -120,7 +120,7 @@ The next step is the retrieval of the object's file name on the device. This str
 ```C++
 if (SUCCEEDED(hr))
 {
-    hr = pContent->Properties(&amp;pProperties);
+    hr = pContent->Properties(&pProperties);
     if (SUCCEEDED(hr))
     {
         hr = GetStringValue(pProperties,
@@ -152,7 +152,7 @@ After this, the sample creates a destination IStream object.
 ```C++
 if (SUCCEEDED(hr))
 {
-    hr = SHCreateStreamOnFile(strOriginalFileName, STGM_CREATE|STGM_WRITE, &amp;pFinalFileStream);
+    hr = SHCreateStreamOnFile(strOriginalFileName, STGM_CREATE|STGM_WRITE, &pFinalFileStream);
     if (FAILED(hr))
     {
         printf("! Failed to create a temporary file named (%ws) to transfer object (%ws), hr = 0x%lx\n",(PWSTR)strOriginalFileName.GetString(), szSelection, hr);
@@ -175,7 +175,7 @@ if (SUCCEEDED(hr))
     hr = StreamCopy(pFinalFileStream,       // Destination (The Final File to transfer to)
                     pObjectDataStream,      // Source (The Object's data to transfer from)
                     cbOptimalTransferSize,  // The driver specified optimal transfer buffer size
-                    &amp;cbTotalBytesWritten);  // The total number of bytes transferred from device to the finished file
+                    &cbTotalBytesWritten);  // The total number of bytes transferred from device to the finished file
     if (FAILED(hr))
     {
         printf("! Failed to transfer object from device, hr = 0x%lx\n",hr);

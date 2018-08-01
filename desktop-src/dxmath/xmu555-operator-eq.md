@@ -39,7 +39,7 @@ Assigns vector component data to the current instance of [**XMU555**](https://ms
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMU555::operator = (const XMU555&amp;)</strong>](https://msdn.microsoft.com/en-us/library/Ee420409(v=VS.85).aspx)</td>
+<td style="text-align: left;">[<strong>XMU555::operator = (const XMU555&)</strong>](https://msdn.microsoft.com/en-us/library/Ee420409(v=VS.85).aspx)</td>
 <td style="text-align: left;">Assigns the vector component data from one instance of <code>XMU555</code> to the current instance of <code>XMU555</code>. <br/> This operator assigns the vector component data from one instance of [<strong>XMU555</strong>](https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx) to the current instance of <code>XMU555</code>. <br/></td>
 </tr>
 <tr class="even">

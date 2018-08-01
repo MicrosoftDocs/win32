@@ -59,7 +59,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -67,7 +67,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -99,19 +99,19 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     WS_ADDRESSING_VERSION addressingVersion = WS_ADDRESSING_VERSION_TRANSPORT;
     channelProperties[0].id = WS_CHANNEL_PROPERTY_ADDRESSING_VERSION;
-    channelProperties[0].value = &amp;addressingVersion;
+    channelProperties[0].value = &addressingVersion;
     channelProperties[0].valueSize = sizeof(addressingVersion);
     
     WS_ENVELOPE_VERSION envelopeVersion = WS_ENVELOPE_VERSION_SOAP_1_1;
     channelProperties[1].id = WS_CHANNEL_PROPERTY_ENVELOPE_VERSION;
-    channelProperties[1].value = &amp;envelopeVersion;
+    channelProperties[1].value = &envelopeVersion;
     channelProperties[1].valueSize = sizeof(envelopeVersion);
     
     // Create an error object for storing rich error information
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -122,7 +122,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -137,7 +137,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         0, 
         channelProperties,
         WsCountOf(channelProperties),
-        &amp;proxy, 
+        &proxy, 
         error);
     if (FAILED(hr))
     {
@@ -148,7 +148,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // Open channel to address
     hr = WsOpenServiceProxy(
         proxy, 
-        &amp;address, 
+        &address, 
         NULL, 
         error);
     if (FAILED(hr))
@@ -159,7 +159,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = BasicHttpBinding_IHelloWorldService_PersonalizedGreeting(
         proxy,
         L"Native Web Services",
-        &amp;greeting,
+        &greeting,
         heap,
         NULL,
         0,

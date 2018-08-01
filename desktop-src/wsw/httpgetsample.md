@@ -56,7 +56,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -64,7 +64,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -269,20 +269,20 @@ static const WS_STRING wsdlDocumentName = WS_STRING_VALUE(L"wsdl");
 static const WS_STRING xsdDocumentName = WS_STRING_VALUE(L"xsd");
 static const WS_SERVICE_METADATA_DOCUMENT wsdlDocument =
 {
-    (WS_XML_STRING*)&amp;wsdl,
-    (WS_STRING*)&amp;wsdlDocumentName
+    (WS_XML_STRING*)&wsdl,
+    (WS_STRING*)&wsdlDocumentName
 };
 
 static const WS_SERVICE_METADATA_DOCUMENT xsdDocument =
 {
-    (WS_XML_STRING*)&amp;xsd,
-    (WS_STRING*)&amp;xsdDocumentName
+    (WS_XML_STRING*)&xsd,
+    (WS_STRING*)&xsdDocumentName
 };
 
 static const WS_SERVICE_METADATA_DOCUMENT* metadataDocuments[] =
 {
-    &amp;wsdlDocument,
-    &amp;xsdDocument
+    &wsdlDocument,
+    &xsdDocument
 };
 
 static const WS_ELEMENT_DESCRIPTION bytesBodyDescription = 
@@ -296,7 +296,7 @@ static const WS_ELEMENT_DESCRIPTION bytesBodyDescription =
 static const WS_MESSAGE_DESCRIPTION bytesMessageDescription = 
 { 
     NULL,
-    const_cast<WS_ELEMENT_DESCRIPTION*>(&amp;bytesBodyDescription)
+    const_cast<WS_ELEMENT_DESCRIPTION*>(&bytesBodyDescription)
 };
 
 HRESULT SetStatus(
@@ -310,10 +310,10 @@ HRESULT SetStatus(
     // Add the status text to the message
     hr = WsAddMappedHeader(
         replyMessage,
-        &amp;statusTextName,
+        &statusTextName,
         WS_WSZ_TYPE,
         WS_WRITE_REQUIRED_POINTER,
-        &amp;statusText,
+        &statusText,
         sizeof(statusText),
         error);
     if (FAILED(hr))
@@ -324,10 +324,10 @@ HRESULT SetStatus(
     // Add the status code to the message
     hr = WsAddMappedHeader(
         replyMessage,
-        &amp;statusCodeName,
+        &statusCodeName,
         WS_UINT32_TYPE,
         WS_WRITE_REQUIRED_VALUE,
-        &amp;statusCode,
+        &statusCode,
         sizeof(statusCode),
         error);
     if (FAILED(hr))
@@ -363,7 +363,7 @@ HRESULT SendFailureMessage(
     hr = WsSendMessage(
         channel, 
         replyMessage, 
-        &amp;emptyMessageDescription, 
+        &emptyMessageDescription, 
         WS_WRITE_REQUIRED_VALUE,
         NULL,
         0,
@@ -395,7 +395,7 @@ HRESULT CALLBACK ProcessMessage(
     hr = WsGetOperationContextProperty(
         context, 
         WS_OPERATION_CONTEXT_PROPERTY_INPUT_MESSAGE, 
-        &amp;requestMessage, 
+        &requestMessage, 
         sizeof(requestMessage), 
         error);
     if (FAILED(hr))
@@ -407,7 +407,7 @@ HRESULT CALLBACK ProcessMessage(
     hr = WsGetOperationContextProperty(
         context, 
         WS_OPERATION_CONTEXT_PROPERTY_CHANNEL, 
-        &amp;channel, 
+        &channel, 
         sizeof(channel), 
         error);
     if (FAILED(hr))
@@ -419,7 +419,7 @@ HRESULT CALLBACK ProcessMessage(
     hr = WsGetOperationContextProperty(
         context, 
         WS_OPERATION_CONTEXT_PROPERTY_HEAP, 
-        &amp;heap, 
+        &heap, 
         sizeof(heap), 
         error);
     if (FAILED(hr))
@@ -432,7 +432,7 @@ HRESULT CALLBACK ProcessMessage(
         channel,
         NULL, 
         0, 
-        &amp;replyMessage, 
+        &replyMessage, 
         error);
     if (FAILED(hr))
     {
@@ -450,13 +450,13 @@ HRESULT CALLBACK ProcessMessage(
     WS_STRING verb;
     hr = WsGetMappedHeader(
         requestMessage, 
-        &amp;verbHeaderName, 
+        &verbHeaderName, 
         WS_SINGLETON_HEADER,
         0,
         WS_STRING_TYPE,
         WS_READ_REQUIRED_VALUE, 
         NULL, 
-        &amp;verb, 
+        &verb, 
         sizeof(verb), 
         error);
     if (FAILED(hr))
@@ -483,10 +483,10 @@ HRESULT CALLBACK ProcessMessage(
     // Set content type header of reply
     hr = WsAddMappedHeader(
         replyMessage,
-        &amp;contentTypeHeaderName, 
+        &contentTypeHeaderName, 
         WS_STRING_TYPE,
         WS_WRITE_REQUIRED_VALUE,
-        &amp;replyContentType,
+        &replyContentType,
         sizeof(replyContentType),
         error);
     if (FAILED(hr))
@@ -510,9 +510,9 @@ HRESULT CALLBACK ProcessMessage(
     hr = WsSendMessage(
         channel, 
         replyMessage, 
-        &amp;bytesMessageDescription, 
+        &bytesMessageDescription, 
         WS_WRITE_REQUIRED_VALUE,
-        &amp;body,
+        &body,
         sizeof(body),
         NULL, 
         error);
@@ -552,13 +552,13 @@ HRESULT CALLBACK PurchaseOrderImpl(
         productName.chars);
     fflush(stdout);
     
-    hr = WsGetOperationContextProperty(context, WS_OPERATION_CONTEXT_PROPERTY_HEAP, &amp;heap, sizeof(heap), error);
+    hr = WsGetOperationContextProperty(context, WS_OPERATION_CONTEXT_PROPERTY_HEAP, &heap, sizeof(heap), error);
     if (FAILED(hr))
     {
         return hr;
     }
     
-    hr = WsAlloc(heap, sizeof(ExpectedShipDate), (void**)&amp;expectedShipDate->chars, error);
+    hr = WsAlloc(heap, sizeof(ExpectedShipDate), (void**)&expectedShipDate->chars, error);
     if (FAILED(hr))
     {
         return hr;
@@ -591,13 +591,13 @@ HRESULT CALLBACK GetOrderStatusImpl(
     
     *orderID = *orderID;
     
-    hr = WsGetOperationContextProperty(context, WS_OPERATION_CONTEXT_PROPERTY_HEAP, &amp;heap, sizeof(heap), error);
+    hr = WsGetOperationContextProperty(context, WS_OPERATION_CONTEXT_PROPERTY_HEAP, &heap, sizeof(heap), error);
     if (FAILED(hr))
     {
         return hr;
     }
     
-    hr = WsAlloc(heap, sizeof(OrderStatusString), (void**)&amp;status->chars, error);
+    hr = WsAlloc(heap, sizeof(OrderStatusString), (void**)&status->chars, error);
     if (FAILED(hr))
     {
         return hr;
@@ -622,7 +622,7 @@ HRESULT CALLBACK CloseChannelCallback(
     UNREFERENCED_PARAMETER(context);
     UNREFERENCED_PARAMETER(asyncContext);
 
-    if (InterlockedIncrement(&amp;numberOfSession) == 6)
+    if (InterlockedIncrement(&numberOfSession) == 6)
     {
         SetEvent(closeServer);
     }
@@ -641,9 +641,9 @@ static const WS_SERVICE_CONTRACT messageContract =
 // Method contract for the service
 static const WS_SERVICE_CONTRACT purchaseOrderContract = 
 {
-    &amp;PurchaseOrder_wsdl.contracts.PurchaseOrderBinding, // comes from the generated header.
+    &PurchaseOrder_wsdl.contracts.PurchaseOrderBinding, // comes from the generated header.
     NULL, // for not specifying the default contract
-    &amp;purchaseOrderFunctions // specified by the user
+    &purchaseOrderFunctions // specified by the user
 };
 
 
@@ -657,7 +657,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     WS_SERVICE_HOST* host = NULL;
     WS_SERVICE_ENDPOINT typedHttpEndpoint = {};
     WS_SERVICE_ENDPOINT unTypedHttpEndpoint = {};
-    const WS_SERVICE_ENDPOINT* serviceEndpoints[] = {&amp;typedHttpEndpoint, &amp;unTypedHttpEndpoint};
+    const WS_SERVICE_ENDPOINT* serviceEndpoints[] = {&typedHttpEndpoint, &unTypedHttpEndpoint};
     WS_ERROR* error = NULL;
     WS_SERVICE_PROPERTY serviceProperties[1];
     WS_SERVICE_METADATA serviceMetadata = {};
@@ -669,45 +669,45 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     WS_METADATA_EXCHANGE_TYPE metadataExchangeTypeHttpGet = WS_METADATA_EXCHANGE_TYPE_HTTP_GET;
     
     // Configure Port on the endpoint for Mex
-    endpointMetadata.portName = &amp;portName;
-    endpointMetadata.bindingName = &amp;bindingName;
-    endpointMetadata.bindingNs = &amp;bindingNs;                    
+    endpointMetadata.portName = &portName;
+    endpointMetadata.bindingName = &bindingName;
+    endpointMetadata.bindingNs = &bindingNs;                    
     
     serviceEndpointPropertiesTypedContract[0].id = WS_SERVICE_ENDPOINT_PROPERTY_CLOSE_CHANNEL_CALLBACK;
-    serviceEndpointPropertiesTypedContract[0].value = &amp;closeCallbackProperty;
+    serviceEndpointPropertiesTypedContract[0].value = &closeCallbackProperty;
     serviceEndpointPropertiesTypedContract[0].valueSize = sizeof(closeCallbackProperty);
     
     // Specifying Port on the endpoint.
     serviceEndpointPropertiesTypedContract[1].id = WS_SERVICE_ENDPOINT_PROPERTY_METADATA;
-    serviceEndpointPropertiesTypedContract[1].value = &amp;endpointMetadata;
+    serviceEndpointPropertiesTypedContract[1].value = &endpointMetadata;
     serviceEndpointPropertiesTypedContract[1].valueSize = sizeof(endpointMetadata);
     
     // Marking the endpoint to service WS-MetadataExchnage Requests
     serviceEndpointPropertiesTypedContract[2].id = WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_TYPE;
-    serviceEndpointPropertiesTypedContract[2].value = &amp;metadataExchangeTypeMex;
+    serviceEndpointPropertiesTypedContract[2].value = &metadataExchangeTypeMex;
     serviceEndpointPropertiesTypedContract[2].valueSize = sizeof(metadataExchangeTypeMex);
     
     typedHttpEndpoint.address.url.chars = L"http://+:80/example"; // address given as uri
     typedHttpEndpoint.address.url.length = (ULONG)wcslen(typedHttpEndpoint.address.url.chars);
     typedHttpEndpoint.channelBinding = WS_HTTP_CHANNEL_BINDING; // channel binding for the endpoint
     typedHttpEndpoint.channelType = WS_CHANNEL_TYPE_REPLY; // the channel type
-    typedHttpEndpoint.contract = (WS_SERVICE_CONTRACT*)&amp;purchaseOrderContract;  // the contract
+    typedHttpEndpoint.contract = (WS_SERVICE_CONTRACT*)&purchaseOrderContract;  // the contract
     typedHttpEndpoint.properties = serviceEndpointPropertiesTypedContract;
     typedHttpEndpoint.propertyCount = WsCountOf(serviceEndpointPropertiesTypedContract);
     
     serviceEndpointPropertiesMetadata[0].id = WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_TYPE;
-    serviceEndpointPropertiesMetadata[0].value = &amp;metadataExchangeTypeHttpGet;
+    serviceEndpointPropertiesMetadata[0].value = &metadataExchangeTypeHttpGet;
     serviceEndpointPropertiesMetadata[0].valueSize = sizeof(metadataExchangeTypeHttpGet);
     
     serviceEndpointPropertiesMetadata[1].id = WS_SERVICE_ENDPOINT_PROPERTY_CLOSE_CHANNEL_CALLBACK;
-    serviceEndpointPropertiesMetadata[1].value = &amp;closeCallbackProperty;
+    serviceEndpointPropertiesMetadata[1].value = &closeCallbackProperty;
     serviceEndpointPropertiesMetadata[1].valueSize = sizeof(closeCallbackProperty);
     
     unTypedHttpEndpoint.address.url.chars = L"http://+:80/metadata"; // address given as uri
     unTypedHttpEndpoint.address.url.length = (ULONG)wcslen(unTypedHttpEndpoint.address.url.chars);
     unTypedHttpEndpoint.channelBinding = WS_HTTP_CHANNEL_BINDING; // channel binding for the endpoint
     unTypedHttpEndpoint.channelType = WS_CHANNEL_TYPE_REPLY; // the channel type
-    unTypedHttpEndpoint.contract = &amp;messageContract;
+    unTypedHttpEndpoint.contract = &messageContract;
     unTypedHttpEndpoint.properties = serviceEndpointPropertiesMetadata;
     unTypedHttpEndpoint.propertyCount = WsCountOf(serviceEndpointPropertiesMetadata);
     
@@ -717,14 +717,14 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     serviceMetadata.documents = (WS_SERVICE_METADATA_DOCUMENT**) metadataDocuments;
     
     // Initializing name of the service
-    serviceMetadata.serviceName = &amp;serviceName;
+    serviceMetadata.serviceName = &serviceName;
     
     // Note that this should concide be the target namespace of the wsdl document 
-    serviceMetadata.serviceNs = &amp;serviceNamespace;
+    serviceMetadata.serviceNs = &serviceNamespace;
     
     // Specifying metadata document
     serviceProperties[0].id = WS_SERVICE_PROPERTY_METADATA;
-    serviceProperties[0].value =  &amp;serviceMetadata;
+    serviceProperties[0].value =  &serviceMetadata;
     serviceProperties[0].valueSize = sizeof(serviceMetadata);
     
     
@@ -732,7 +732,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -751,7 +751,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     
     // Creating a service host
-    hr = WsCreateServiceHost(serviceEndpoints, WsCountOf(serviceEndpoints), serviceProperties, WsCountOf(serviceProperties), &amp;host, error);
+    hr = WsCreateServiceHost(serviceEndpoints, WsCountOf(serviceEndpoints), serviceProperties, WsCountOf(serviceProperties), &host, error);
     if (FAILED(hr))
     {
         goto Exit;

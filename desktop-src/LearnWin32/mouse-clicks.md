@@ -109,7 +109,7 @@ A window does not receive double-click notifications by default. To receive doub
 
     /* Set other structure members. */
 
-    RegisterClass(&amp;wc);
+    RegisterClass(&wc);
 
 ```
 

@@ -57,7 +57,7 @@ HRESULT CVideoText::IsDefaultTargetRect()
 
     VIDEOINFO *pVideoInfo = (VIDEOINFO *) m_pRenderer->m_mtIn.Format();
     BITMAPINFOHEADER *pHeader = HEADER(pVideoInfo);
-    m_pRenderer->m_DrawImage.GetTargetRect(&amp;TargetRect);
+    m_pRenderer->m_DrawImage.GetTargetRect(&TargetRect);
 
     // Check the destination that matches the initial client area.
 

@@ -32,13 +32,13 @@ The following C++ code example changes the scope of a group.
     CoInitialize(0);
  
     // Bind to the passed container. 
-    hr = ADsGetObject( pwszLDAPPath, IID_IADsGroup,(void **)&amp;pGroup);
+    hr = ADsGetObject( pwszLDAPPath, IID_IADsGroup,(void **)&pGroup);
  
     if (SUCCEEDED(hr))
     {
         VARIANT vValue;
         BSTR    bsValue = SysAllocString(L"groupType");
-        VariantInit(&amp;vValue);
+        VariantInit(&vValue);
     // Set a new GroupType Value.
         vValue.vt = VT_I4;
         vValue.lVal = ADS_GROUP_TYPE_GLOBAL_GROUP ;

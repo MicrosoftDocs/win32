@@ -30,7 +30,7 @@ This operator subtracts one reference time from another.
 
 ```C++
 COARefTime operator-(
-  [ref] const COARefTime &amp;rt
+  [ref] const COARefTime &rt
 );
 ```
 

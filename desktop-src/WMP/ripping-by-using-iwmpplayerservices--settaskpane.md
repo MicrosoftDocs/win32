@@ -53,7 +53,7 @@ HRESULT CMyApp::StartRip()
 
     ATLASSERT(m_spPlayer.p);
 
-    HRESULT hr = m_spPlayer->QueryInterface(&amp;spPlayerServices);
+    HRESULT hr = m_spPlayer->QueryInterface(&spPlayerServices);
 
     if(SUCCEEDED(hr))
     {
@@ -103,15 +103,15 @@ HRESULT CMyApp::GetCDPlaylist()
 
     ATLASSERT(m_spPlayer);
 
-    hr = m_spPlayer->get_cdromCollection(&amp;spCDDrives);
+    hr = m_spPlayer->get_cdromCollection(&spCDDrives);
 
     // Test to make sure there is at least one drive.
     if(SUCCEEDED(hr))
     {
-        hr = spCDDrives->get_count(&amp;lCount);
+        hr = spCDDrives->get_count(&lCount);
     }
 
-    if(SUCCEEDED(hr) &amp;&amp; lCount < 1)
+    if(SUCCEEDED(hr) && lCount < 1)
     {
         MessageBox(_T("No CD drive detected"), 
                    _T("CD Rip Error"), MB_OK);
@@ -121,13 +121,13 @@ HRESULT CMyApp::GetCDPlaylist()
     if(SUCCEEDED(hr))
     {
         // Retrieve the first drive.
-        hr = spCDDrives->item(0, &amp;spDrive);
+        hr = spCDDrives->item(0, &spDrive);
     }
     
     if(SUCCEEDED(hr))
     {
         // Get the playlist.
-        hr = spDrive->get_playlist(&amp;m_spCDPlaylist);
+        hr = spDrive->get_playlist(&m_spCDPlaylist);
     }
    
     return hr;
@@ -169,13 +169,13 @@ void CMyApp::MediaChange(IDispatch * Item)
     if(SUCCEEDED(hr))
     { 
         // Retrieve the IWMPMedia pointer from IDispatch.
-        hr = Item->QueryInterface(__uuidof(IWMPMedia),(void**)&amp;spMedia);
+        hr = Item->QueryInterface(__uuidof(IWMPMedia),(void**)&spMedia);
     }
 
     if(SUCCEEDED(hr))
     {
         // Get the value of the Status attribute.
-        hr = spMedia->getItemInfo(bstrName, &amp;bstrVal);
+        hr = spMedia->getItemInfo(bstrName, &bstrVal);
     }
 
     if(SUCCEEDED(hr))
@@ -191,7 +191,7 @@ void CMyApp::MediaChange(IDispatch * Item)
     if(SUCCEEDED(hr))
     {
         // Retrieve the count of items in the CD playlist.
-        hr = m_spCDPlaylist->get_count(&amp;lCount);
+        hr = m_spCDPlaylist->get_count(&lCount);
     }
 
     if(lCount < 1)
@@ -200,7 +200,7 @@ void CMyApp::MediaChange(IDispatch * Item)
         hr = E_PENDING;
     }    
 
-    if(SUCCEEDED(hr) &amp;&amp; spMedia)
+    if(SUCCEEDED(hr) && spMedia)
     {
         // Iterate through the playlist.
         // Compare the media item that raised the event
@@ -211,15 +211,15 @@ void CMyApp::MediaChange(IDispatch * Item)
             CComPtr<IWMPMedia> spTrack;
 
             // Retrieve the CD track as a media object.
-            hr = m_spCDPlaylist->get_item(i, &amp;spTrack);
+            hr = m_spCDPlaylist->get_item(i, &spTrack);
 
             if(SUCCEEDED(hr))
             {
                 // Do the comparison.
-                hr = spMedia->get_isIdentical(spTrack, &amp;vbIdentical);
+                hr = spMedia->get_isIdentical(spTrack, &vbIdentical);
             }
 
-            if(SUCCEEDED(hr) &amp;&amp; VARIANT_TRUE == vbIdentical)
+            if(SUCCEEDED(hr) && VARIANT_TRUE == vbIdentical)
             {
                  // spTrack represents a track with changed status.
                  // bstrVal contains a status string. For example:

@@ -125,7 +125,7 @@ hr = pISCardCmd->BuildCmd(0x00,   // Some cards prefer 0xC0
                           0x00,
                           0x00,
                           pIByteRequest,
-                          &amp;lLe);
+                          &lLe);
 if (FAILED(hr))
 {
     printf("Failed ISCardCmd::BuildCmd\n");

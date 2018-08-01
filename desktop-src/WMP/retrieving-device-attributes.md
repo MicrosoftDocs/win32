@@ -79,7 +79,7 @@ STDMETHODIMP CMainDlg::ShowDeviceAttributes(long lIndex)
     }
  
     // Status
-    spDevice->get_status(&amp;wmpDS);
+    spDevice->get_status(&wmpDS);
     bstrStatistics = "Status: ";
     bstrTemp = szDeviceStatus[wmpDS];
     bstrStatistics += bstrTemp;
@@ -87,7 +87,7 @@ STDMETHODIMP CMainDlg::ShowDeviceAttributes(long lIndex)
     bstrTemp.Empty();
     
     // Connected?
-    spDevice->get_connected(&amp;vbIsConnected);
+    spDevice->get_connected(&vbIsConnected);
     bstrStatistics = "Connected: ";
     bstrTemp = (vbIsConnected == VARIANT_TRUE)?"True":"False";
     bstrStatistics += bstrTemp;
@@ -95,7 +95,7 @@ STDMETHODIMP CMainDlg::ShowDeviceAttributes(long lIndex)
     bstrTemp.Empty();
     
     // Device ID
-    spDevice->get_deviceId(&amp;bstrTemp);
+    spDevice->get_deviceId(&bstrTemp);
     bstrStatistics = "Device ID: ";
     bstrStatistics += bstrTemp;
 
@@ -103,7 +103,7 @@ STDMETHODIMP CMainDlg::ShowDeviceAttributes(long lIndex)
     // This assumes Device ID is likely to be the longest string.
     HDC hDC = GetDC();
     SIZE sizeText = {0, 0};
-    GetTextExtentPoint32(hDC, (LPCTSTR)COLE2T(bstrStatistics), bstrStatistics.Length(), &amp;sizeText);
+    GetTextExtentPoint32(hDC, (LPCTSTR)COLE2T(bstrStatistics), bstrStatistics.Length(), &sizeText);
     ReleaseDC(hDC);
 
     SendMessage(hwndStats, LB_ADDSTRING, 0,(LPARAM)(LPCTSTR)COLE2T(bstrStatistics)); 
@@ -111,7 +111,7 @@ STDMETHODIMP CMainDlg::ShowDeviceAttributes(long lIndex)
     bstrTemp.Empty();
 
     // Friendly name
-    spDevice->get_friendlyName(&amp;bstrTemp);
+    spDevice->get_friendlyName(&bstrTemp);
     bstrStatistics = "Friendly name: ";
     bstrStatistics += bstrTemp;
     SendMessage(hwndStats, LB_ADDSTRING, 0,(LPARAM)(LPCTSTR)COLE2T(bstrStatistics)); 
@@ -131,7 +131,7 @@ STDMETHODIMP CMainDlg::ShowDeviceAttributes(long lIndex)
         CComBSTR bstrVal;
         CComBSTR bstrDisplayString;
        
-        hr = spDevice->getItemInfo(bstrName, &amp;bstrVal);
+        hr = spDevice->getItemInfo(bstrName, &bstrVal);
   
         if(FAILED(hr))
         {

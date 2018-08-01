@@ -31,7 +31,7 @@ INT main()
    // Initialize GDI+.
    GdiplusStartupInput gdiplusStartupInput;
    ULONG_PTR gdiplusToken;
-   GdiplusStartup(&amp;gdiplusToken, &amp;gdiplusStartupInput, NULL);
+   GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
 
    CLSID             encoderClsid;
    EncoderParameters encoderParameters;
@@ -42,7 +42,7 @@ INT main()
    Image* image = new Image(L"Shapes.bmp");
 
    // Get the CLSID of the JPEG encoder.
-   GetEncoderClsid(L"image/jpeg", &amp;encoderClsid);
+   GetEncoderClsid(L"image/jpeg", &encoderClsid);
 
    // Before we call Image::Save, we must initialize an
    // EncoderParameters object. The EncoderParameters object
@@ -59,8 +59,8 @@ INT main()
 
    // Save the image as a JPEG with quality level 0.
    quality = 0;
-   encoderParameters.Parameter[0].Value = &amp;quality;
-   stat = image->Save(L"Shapes001.jpg", &amp;encoderClsid, &amp;encoderParameters);
+   encoderParameters.Parameter[0].Value = &quality;
+   stat = image->Save(L"Shapes001.jpg", &encoderClsid, &encoderParameters);
 
    if(stat == Ok)
       wprintf(L"%s saved successfully.\n", L"Shapes001.jpg");
@@ -69,8 +69,8 @@ INT main()
 
    // Save the image as a JPEG with quality level 50.
    quality = 50;
-   encoderParameters.Parameter[0].Value = &amp;quality;
-   stat = image->Save(L"Shapes050.jpg", &amp;encoderClsid, &amp;encoderParameters);
+   encoderParameters.Parameter[0].Value = &quality;
+   stat = image->Save(L"Shapes050.jpg", &encoderClsid, &encoderParameters);
 
    if(stat == Ok)
       wprintf(L"%s saved successfully.\n", L"Shapes050.jpg");
@@ -79,8 +79,8 @@ INT main()
 
       // Save the image as a JPEG with quality level 100.
    quality = 100;
-   encoderParameters.Parameter[0].Value = &amp;quality;
-   stat = image->Save(L"Shapes100.jpg", &amp;encoderClsid, &amp;encoderParameters);
+   encoderParameters.Parameter[0].Value = &quality;
+   stat = image->Save(L"Shapes100.jpg", &encoderClsid, &encoderParameters);
 
    if(stat == Ok)
       wprintf(L"%s saved successfully.\n", L"Shapes100.jpg");

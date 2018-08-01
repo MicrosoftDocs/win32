@@ -47,7 +47,7 @@ The CLSID for this effect is CLSID\_D2D13DTransform.
 
 ```C++
 ComPtr<ID2D1Effect> D2D13DTransformEffect;
-m_d2dContext->CreateEffect(CLSID_D2D13DTransform, &amp;D2D13DTransformEffect);
+m_d2dContext->CreateEffect(CLSID_D2D13DTransform, &D2D13DTransformEffect);
 
 D2D13DTransformEffect->SetInput(0, bitmap);
 

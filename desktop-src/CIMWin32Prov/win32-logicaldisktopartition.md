@@ -227,7 +227,7 @@ BOOL wmi_run()
         CLSID_WbemLocator,             
         0, 
         CLSCTX_INPROC_SERVER, 
-        IID_IWbemLocator, (LPVOID *) &amp;pLoc);
+        IID_IWbemLocator, (LPVOID *) &pLoc);
 
     if (FAILED(hres))
     {
@@ -254,7 +254,7 @@ BOOL wmi_run()
          NULL,                    // Security flags.
          0,                       // Authority (e.g. Kerberos)
          0,                       // Context object 
-         &amp;pSvc                    // pointer to IWbemServices proxy
+         &pSvc                    // pointer to IWbemServices proxy
          );
 
     if (FAILED(hres))
@@ -312,7 +312,7 @@ BOOL wmi_getDriveLetters()
                     bstr_t("SELECT * FROM Win32_DiskDrive"),
                     WBEM_FLAG_FORWARD_ONLY | WBEM_FLAG_RETURN_IMMEDIATELY, 
                     NULL,
-                    &amp;pEnumerator);
+                    &pEnumerator);
 
     if (FAILED(hres)) {
         cout << "Query for processes failed. "
@@ -329,11 +329,11 @@ BOOL wmi_getDriveLetters()
         ULONG uReturn = 0;
         while (pEnumerator) {
            hres = pEnumerator->Next(WBEM_INFINITE, 1, 
-                                 &amp;pclsObj, &amp;uReturn);
+                                 &pclsObj, &uReturn);
            if(0 == uReturn) break;
 
            VARIANT vtProp;
-           hres = pclsObj->Get(_bstr_t(L"DeviceID"), 0, &amp;vtProp, 0, 0);
+           hres = pclsObj->Get(_bstr_t(L"DeviceID"), 0, &vtProp, 0, 0);
 
            // adjust string
            wstring tmp = vtProp.bstrVal;
@@ -350,7 +350,7 @@ BOOL wmi_getDriveLetters()
                              bstr_t( wstrQuery.c_str()),
                              WBEM_FLAG_FORWARD_ONLY | WBEM_FLAG_RETURN_IMMEDIATELY, 
                              NULL,
-                             &amp;pEnumerator1 );
+                             &pEnumerator1 );
 
            if ( FAILED(hres) ) {
             cout << "Query for processes failed. "
@@ -366,12 +366,12 @@ BOOL wmi_getDriveLetters()
                 ULONG uReturn1 = 0;
                 while( pEnumerator1 ) {
                      hres = pEnumerator1->Next( WBEM_INFINITE, 1, 
-                     &amp;pclsObj1, &amp;uReturn1 );
+                     &pclsObj1, &uReturn1 );
                      if(0 == uReturn1) break;
 
                      // reference logical drive to partition
                      VARIANT vtProp1;
-                     hres = pclsObj1->Get( _bstr_t(L"DeviceID"), 0, &amp;vtProp1, 0, 0 );
+                     hres = pclsObj1->Get( _bstr_t(L"DeviceID"), 0, &vtProp1, 0, 0 );
                      wstring wstrQuery = L"Associators of {Win32_DiskPartition.DeviceID='";
                      wstrQuery += vtProp1.bstrVal;
                      wstrQuery += L"'} where AssocClass=Win32_LogicalDiskToPartition";
@@ -384,7 +384,7 @@ BOOL wmi_getDriveLetters()
                                        bstr_t(wstrQuery.c_str()),
                                        WBEM_FLAG_FORWARD_ONLY | WBEM_FLAG_RETURN_IMMEDIATELY, 
                                        NULL,
-                                       &amp;pEnumerator2 );
+                                       &pEnumerator2 );
 
 
 
@@ -405,27 +405,27 @@ BOOL wmi_getDriveLetters()
                         ULONG uReturn2 = 0;
                         while( pEnumerator2 ) {
                             hres = pEnumerator2->Next( WBEM_INFINITE, 1, 
-                            &amp;pclsObj2, &amp;uReturn2 );
+                            &pclsObj2, &uReturn2 );
                             if(0 == uReturn2) break;
 
                             VARIANT vtProp2;
-                            hres = pclsObj2->Get( _bstr_t(L"DeviceID"), 0, &amp;vtProp2, 0, 0 );
+                            hres = pclsObj2->Get( _bstr_t(L"DeviceID"), 0, &vtProp2, 0, 0 );
 
 
   
                             // print result
                             printf("%ls : %ls\n", vtProp.bstrVal, vtProp2.bstrVal);
 
-                            VariantClear( &amp;vtProp2 );
+                            VariantClear( &vtProp2 );
                         }
                         pclsObj1->Release();
                     }
-                    VariantClear( &amp;vtProp1 );
+                    VariantClear( &vtProp1 );
                     pEnumerator2->Release();
                 }
                 pclsObj->Release();
             }
-            VariantClear( &amp;vtProp );
+            VariantClear( &vtProp );
             pEnumerator1->Release();
         }
      }

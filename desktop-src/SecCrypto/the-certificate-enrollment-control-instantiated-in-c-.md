@@ -43,14 +43,14 @@ HRESULT __cdecl main(void)
                            NULL,
                            CLSCTX_INPROC_SERVER,
                            __uuidof(ICEnroll4),
-                           (void **)&amp;pEnroll);
+                           (void **)&pEnroll);
     if ( FAILED( hr ) )
     {
         printf("Failed CoCreateInstance - pEnroll [0x%x]\n", hr);
         exit(hr);
     }
 
-    hr = pEnroll->get_MyStoreName(&amp;bstrStoreName);
+    hr = pEnroll->get_MyStoreName(&bstrStoreName);
     if (SUCCEEDED(hr))
     {
         printf("The value of MyStoreName is %ws\n", bstrStoreName);

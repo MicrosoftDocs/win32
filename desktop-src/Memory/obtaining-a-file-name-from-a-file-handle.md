@@ -32,9 +32,9 @@ BOOL GetFileNameFromHandle(HANDLE hFile)
 
   // Get the file size.
   DWORD dwFileSizeHi = 0;
-  DWORD dwFileSizeLo = GetFileSize(hFile, &amp;dwFileSizeHi); 
+  DWORD dwFileSizeLo = GetFileSize(hFile, &dwFileSizeHi); 
 
-  if( dwFileSizeLo == 0 &amp;&amp; dwFileSizeHi == 0 )
+  if( dwFileSizeLo == 0 && dwFileSizeHi == 0 )
   {
      _tprintf(TEXT("Cannot map a file with a length of zero.\n"));
      return FALSE;
@@ -85,7 +85,7 @@ BOOL GetFileNameFromHandle(HANDLE hFile)
               if (uNameLen < MAX_PATH) 
               {
                 bFound = _tcsnicmp(pszFilename, szName, uNameLen) == 0
-                         &amp;&amp; *(pszFilename + uNameLen) == _T('\\');
+                         && *(pszFilename + uNameLen) == _T('\\');
 
                 if (bFound) 
                 {
@@ -104,7 +104,7 @@ BOOL GetFileNameFromHandle(HANDLE hFile)
 
             // Go to the next NULL character.
             while (*p++);
-          } while (!bFound &amp;&amp; *p); // end of string
+          } while (!bFound && *p); // end of string
         }
       }
       bSuccess = TRUE;

@@ -137,9 +137,9 @@ HRESULT SampleProvider::Show(BOOL fShow)
 {
     //Ask the AC client if it is OK to show the Autocomplete list.
     BOOL fAllowShowing = FALSE;
-    m_spACClient->RequestShowUI(m_hWndList, &amp;fAllowShowing);
+    m_spACClient->RequestShowUI(m_hWndList, &fAllowShowing);
 
-    if (fShow &amp;&amp; fAllowingShowing)
+    if (fShow && fAllowingShowing)
         {
             // Create the parameters required to call PreferredRects
             RECT rcField = //Rectangle for app's text field
@@ -148,8 +148,8 @@ HRESULT SampleProvider::Show(BOOL fShow)
             BOOL fShowAbove = TRUE;
 
 //Ask the AC client to modify the position of the AC list
-m_spACClient->PreferredRects(&amp;rcACList, &amp;rcField,
-&amp;rcModifiedACList, &amp;fShowAbove);
+m_spACClient->PreferredRects(&rcACList, &rcField,
+&rcModifiedACList, &fShowAbove);
 
             //Show the Autocomplete UI at the modified preferred rectangle
             //from rcModifiedACList and the directional info provide by

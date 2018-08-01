@@ -47,10 +47,10 @@ void main()
                                      pszNetworkAddress,
                                      pszEndpoint,
                                      pszOptions,
-                                     &amp;pszStringBinding);
+                                     &pszStringBinding);
     if (status) exit(status);
 
-    status = RpcBindingFromStringBinding(pszStringBinding, &amp;hello_ClientIfHandle);
+    status = RpcBindingFromStringBinding(pszStringBinding, &hello_ClientIfHandle);
  
     if (status) exit(status);
  
@@ -66,11 +66,11 @@ void main()
     }
     RpcEndExcept
  
-    status = RpcStringFree(&amp;pszStringBinding); 
+    status = RpcStringFree(&pszStringBinding); 
  
     if (status) exit(status);
  
-    status = RpcBindingFree(&amp;hello_IfHandle);
+    status = RpcBindingFree(&hello_IfHandle);
  
     if (status) exit(status);
 

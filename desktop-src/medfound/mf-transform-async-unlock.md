@@ -41,7 +41,7 @@ HRESULT UnlockAsyncMFT(IMFTransform *pMFT)
 {
     IMFAttributes *pAttributes = NULL;
 
-    HRESULT hr = hr = pMFT->GetAttributes(&amp;pAttributes);
+    HRESULT hr = hr = pMFT->GetAttributes(&pAttributes);
 
     if (SUCCEEDED(hr))
     {

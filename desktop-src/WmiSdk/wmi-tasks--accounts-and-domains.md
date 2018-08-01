@@ -71,12 +71,12 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colSettings = objWMIService.ExecQuery(&quot;Select * from Win32_ComputerSystem&quot;)
 
 For Each objComputer in colSettings 
-    Wscript.Echo &quot;System Name: &quot; &amp; objComputer.Name
-    Wscript.Echo &quot;Domain: &quot; &amp; objComputer.Domain
+    Wscript.Echo &quot;System Name: &quot; & objComputer.Name
+    Wscript.Echo &quot;Domain: &quot; & objComputer.Domain
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -143,7 +143,7 @@ foreach (CimInstance cimObj in queryInstance)
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colComputers = objWMIService.ExecQuery(&quot;Select DomainRole from Win32_ComputerSystem&quot;)
 For Each objComputer in colComputers
     Select Case objComputer.DomainRole 
@@ -212,10 +212,10 @@ switch  ($computer.DomainRole) {
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colItems = objWMIService.ExecQuery(&quot;Select * from Win32_ComputerSystem&quot;)
 For Each objItem in colItems
-    Wscript.Echo &quot;Computer Name: &quot; &amp; objItem.Name
+    Wscript.Echo &quot;Computer Name: &quot; & objItem.Name
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -281,11 +281,11 @@ foreach (CimInstance cimObj in queryInstance)
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;) 
+Set objWMIService = GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;) 
 Set colComputer = objWMIService.ExecQuery(&quot;Select * from Win32_ComputerSystem&quot;)
  
 For Each objComputer in colComputer
-    Wscript.Echo &quot;User Name = &quot; &amp; objComputer.UserName &amp; VBNewLine &amp; &quot;Computer Name = &quot; &amp; objComputer.Name
+    Wscript.Echo &quot;User Name = &quot; & objComputer.UserName & VBNewLine & &quot;Computer Name = &quot; & objComputer.Name
 WScript.Echo objComputer.UserName
 Next</code></pre></td>
 </tr>
@@ -355,11 +355,11 @@ foreach (CimInstance cimObj in queryInstance)
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colComputers = objWMIService.ExecQuery(&quot;Select * from Win32_ComputerSystem&quot;)
 For Each objComputer in colComputers
     errReturn = ObjComputer.Rename(&quot;NewName&quot;)
-    WScript.Echo &quot;Computer name is now &quot; &amp; objComputer.Name
+    WScript.Echo &quot;Computer name is now &quot; & objComputer.Name
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -418,15 +418,15 @@ if ($return.ReturnValue -eq 0) {
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
 Set objWMIService = GetObject( _
-    &quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+    &quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colItems = objWMIService.ExecQuery _
     (&quot;Select * from Win32_Group  Where LocalAccount = True&quot;)
 For Each objItem in colItems
-    Wscript.Echo &quot;Local Account: &quot; &amp; objItem.LocalAccount &amp; VBNewLine _
-        &amp; &quot;Name: &quot; &amp; objItem.Name &amp; VBNewLine _
-        &amp; &quot;SID: &quot; &amp; objItem.SID &amp; VBNewLine _
-        &amp; &quot;SID Type: &quot; &amp; objItem.SIDType &amp; VBNewLine _
-        &amp; &quot;Status: &quot; &amp; objItem.Status &amp; VBNewLine
+    Wscript.Echo &quot;Local Account: &quot; & objItem.LocalAccount & VBNewLine _
+        & &quot;Name: &quot; & objItem.Name & VBNewLine _
+        & &quot;SID: &quot; & objItem.SID & VBNewLine _
+        & &quot;SID Type: &quot; & objItem.SIDType & VBNewLine _
+        & &quot;Status: &quot; & objItem.Status & VBNewLine
 Next</code></pre></td>
 </tr>
 </tbody>

@@ -41,7 +41,7 @@ DWORD dwRet;
 PDOMAIN_CONTROLLER_INFO pdcInfo;
 
 // Get a domain controller for the domain this computer is on.
-dwRet = DsGetDcName(NULL, NULL, NULL, NULL, 0, &amp;pdcInfo);
+dwRet = DsGetDcName(NULL, NULL, NULL, NULL, 0, &pdcInfo);
 if(ERROR_SUCCESS == dwRet)
 {
     HANDLE hGetDc;
@@ -53,7 +53,7 @@ if(ERROR_SUCCESS == dwRet)
                             NULL,
                             NULL,
                             0,
-                            &amp;hGetDc);
+                            &hGetDc);
     if(ERROR_SUCCESS == dwRet)
     {
         LPTSTR pszDnsHostName;
@@ -69,9 +69,9 @@ if(ERROR_SUCCESS == dwRet)
 
             dwRet = DsGetDcNext(
                 hGetDc, 
-                &amp;ulSocketCount, 
-                &amp;rgSocketAddresses, 
-                &amp;pszDnsHostName);
+                &ulSocketCount, 
+                &rgSocketAddresses, 
+                &pszDnsHostName);
             
             if(ERROR_SUCCESS == dwRet)
             {

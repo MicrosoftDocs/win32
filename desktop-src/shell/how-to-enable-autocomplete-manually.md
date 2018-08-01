@@ -27,7 +27,7 @@ The following steps show how to create and initialize a simple autocomplete obje
     HRESULT hr = CoCreateInstance(CLSID_AutoComplete, 
                                     NULL, 
                                   CLSCTX_INPROC_SERVER,
-                                  IID_PPV_ARGS(&amp;pac));
+                                  IID_PPV_ARGS(&pac));
     ```
 
     
@@ -42,7 +42,7 @@ The following steps show how to create and initialize a simple autocomplete obje
     hr = CoCreateInstance(CLSID_ACListISF, 
                           NULL, 
                           CLSCTX_INPROC_SERVER,
-                          IID_PPV_ARGS(&amp;punkSource));
+                          IID_PPV_ARGS(&punkSource));
     ```
 
     
@@ -52,7 +52,7 @@ The following steps show how to create and initialize a simple autocomplete obje
     ```C++
     CCustomAutoCompleteSource *pcacs = new CCustomAutoCompleteSource();
 
-    hr = pcacs->QueryInterface(IID_PPV_ARGS(&amp;punkSource));
+    hr = pcacs->QueryInterface(IID_PPV_ARGS(&punkSource));
     if(SUCCEEDED(hr))
     {
         // ...
@@ -70,7 +70,7 @@ The following steps show how to create and initialize a simple autocomplete obje
     ```C++
     IACList2 *pal2;
 
-    hr = punkSource->QueryInterface(IID_PPV_ARGS(&amp;pal2));
+    hr = punkSource->QueryInterface(IID_PPV_ARGS(&pal2));
     if (SUCCEEDED(hr))
     {
         hr = pal2->SetOptions(ACLO_FILESYSONLY);
@@ -97,7 +97,7 @@ The following steps show how to create and initialize a simple autocomplete obje
     ```C++
     IAutoComplete2 *pac2;
 
-    hr = pac->QueryInterface(IID_PPV_ARGS(&amp;pac2));
+    hr = pac->QueryInterface(IID_PPV_ARGS(&pac2));
 
     if (SUCCEEDED(hr))
     {
@@ -138,7 +138,7 @@ A compound autocomplete object matches against strings from multiple sources. Fo
     hr = CoCreateInstance(CLSID_ACLMulti, 
                           NULL, 
                           CLSCTX_INPROC_SERVER,
-                          IID_PPV_ARGS(&amp;pom));
+                          IID_PPV_ARGS(&pom));
     ```
 
     

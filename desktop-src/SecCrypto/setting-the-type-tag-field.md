@@ -39,7 +39,7 @@ BSTR bstr = NULL;
 SYSTEMTIME st;
 
 //Set the BSTR variant data type.
-VariantInit(&amp;vEMail);
+VariantInit(&vEMail);
 vEMail.vt = VT_BSTR;   
 vEMail.bstrVal = SysAllocString(L"someone@example.com");
 if (NULL == vEMail.bstrVal)
@@ -48,42 +48,42 @@ if (NULL == vEMail.bstrVal)
     //Handle error.   
 }
 //Use the variant.
-VariantClear(&amp;vEMail);  //when done
+VariantClear(&vEMail);  //when done
 
 
 //Set the BSTR|BYREF variant data type.
-VariantInit(&amp;vByRef);
+VariantInit(&vByRef);
 vByRef.vt = VT_BSTR | VT_BYREF;   
-vByRef.pbstrVal = &amp;bstr;
+vByRef.pbstrVal = &bstr;
 //Use the variant.
-VariantClear(&amp;vByRef);  //when done
+VariantClear(&vByRef);  //when done
 SysFreeString(bstr);
 
 
 //Set the DATE variant data type.
-memset(&amp;st, 0, sizeof(SYSTEMTIME));
+memset(&st, 0, sizeof(SYSTEMTIME));
 st.wYear = 2000;
 st.wMonth = 1;
 st.wDay = 1;
 st.wHour = 12;
 
-VariantInit(&amp;vNotBefore);
+VariantInit(&vNotBefore);
 vNotBefore.vt = VT_DATE;
-if (!SystemTimeToVariantTime(&amp;st, &amp;vNotBefore.date))
+if (!SystemTimeToVariantTime(&st, &vNotBefore.date))
 {
     hr = E_FAIL;
     //Handle error.
 }
 //Use the variant.
-VariantClear(&amp;vNotBefore);  //when done
+VariantClear(&vNotBefore);  //when done
 
 
 //Set the LONG variant data type.
-VariantInit(&amp;vCount);
+VariantInit(&vCount);
 vCount.vt = VT_I4;
 vCount.long = 123456;
 //Use the variant.
-VariantClear(&amp;vCount);  //when done
+VariantClear(&vCount);  //when done
 ```
 
 

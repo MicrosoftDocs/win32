@@ -37,21 +37,21 @@ HRESULT CPlayer::OpenURL(const WCHAR *sURL)
     }
 
     // Create the media source.
-    hr = CreateMediaSource(sURL, &amp;m_pSource);
+    hr = CreateMediaSource(sURL, &m_pSource);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Create the presentation descriptor for the media source.
-    hr = m_pSource->CreatePresentationDescriptor(&amp;pSourcePD);
+    hr = m_pSource->CreatePresentationDescriptor(&pSourcePD);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Create a partial topology.
-    hr = CreatePlaybackTopology(m_pSource, pSourcePD, m_hwndVideo, &amp;pTopology);
+    hr = CreatePlaybackTopology(m_pSource, pSourcePD, m_hwndVideo, &pTopology);
     if (FAILED(hr))
     {
         goto done;
@@ -75,8 +75,8 @@ done:
         m_state = Closed;
     }
 
-    SafeRelease(&amp;pSourcePD);
-    SafeRelease(&amp;pTopology);
+    SafeRelease(&pSourcePD);
+    SafeRelease(&pTopology);
     return hr;
 }
 ```

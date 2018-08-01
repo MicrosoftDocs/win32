@@ -83,13 +83,13 @@ This example transforms a plane by applying a non-uniform scale.
 ```
 D3DXPLANE   planeNew;
 D3DXPLANE   plane(0,1,1,0);
-D3DXPlaneNormalize(&amp;plane, &amp;plane);
+D3DXPlaneNormalize(&plane, &plane);
 
 D3DXMATRIX  matrix;
-D3DXMatrixScaling(&amp;matrix, 1.0f,2.0f,3.0f); 
-D3DXMatrixInverse(&amp;matrix, NULL, &amp;matrix);
-D3DXMatrixTranspose(&amp;matrix, &amp;matrix);
-D3DXPlaneTransform(&amp;planeNew, &amp;plane, &amp;matrix);
+D3DXMatrixScaling(&matrix, 1.0f,2.0f,3.0f); 
+D3DXMatrixInverse(&matrix, NULL, &matrix);
+D3DXMatrixTranspose(&matrix, &matrix);
+D3DXPlaneTransform(&planeNew, &plane, &matrix);
 ```
 
 

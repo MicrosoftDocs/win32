@@ -59,7 +59,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -67,7 +67,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -102,7 +102,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -114,7 +114,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -123,7 +123,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     WS_CHANNEL_PROPERTY channelPropertyArray[1];
     channelPropertyArray[0].id = WS_CHANNEL_PROPERTY_ENCODER;
-    channelPropertyArray[0].value = &amp;channelEncoder;
+    channelPropertyArray[0].value = &channelEncoder;
     channelPropertyArray[0].valueSize = sizeof(channelEncoder);
     
     // Create the proxy
@@ -135,7 +135,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         0, 
         channelPropertyArray,
         WsCountOf(channelPropertyArray),
-        &amp;proxy, 
+        &proxy, 
         error);
     if (FAILED(hr))
     {
@@ -146,7 +146,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     hr = WsOpenServiceProxy(
         proxy, 
-        &amp;address, 
+        &address, 
         NULL, 
         error);
     if (FAILED(hr))
@@ -158,7 +158,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         proxy, 
         1, 
         2, 
-        &amp;result, 
+        &result, 
         heap, 
         NULL, 
         0, 
@@ -389,14 +389,14 @@ HRESULT EncoderStart(
 
     HRESULT hr;
     Encoder* encoder = (Encoder*)encoderContext;
-    WS_BYTES bytes1 = { sizeof(encoder->contentTypeLength), (BYTE*)&amp;encoder->contentTypeLength };
-    hr = encoder->writeCallback(encoder->writeContext, &amp;bytes1, 1, NULL, error);
+    WS_BYTES bytes1 = { sizeof(encoder->contentTypeLength), (BYTE*)&encoder->contentTypeLength };
+    hr = encoder->writeCallback(encoder->writeContext, &bytes1, 1, NULL, error);
     if (FAILED(hr))
     {
         return hr;
     }
     WS_BYTES bytes2 = { encoder->contentTypeLength * sizeof(WCHAR), (BYTE*)encoder->contentType };
-    hr = encoder->writeCallback(encoder->writeContext, &amp;bytes2, 1, NULL, error);
+    hr = encoder->writeCallback(encoder->writeContext, &bytes2, 1, NULL, error);
     if (FAILED(hr))
     {
         return hr;
@@ -422,7 +422,7 @@ HRESULT EncoderEncode(
             encoder->buffer[i]++;
         }
         WS_BYTES newBytes = { encoder->bufferLength, encoder->buffer };
-        hr = encoder->writeCallback(encoder->writeContext, &amp;newBytes, 1, NULL, error);
+        hr = encoder->writeCallback(encoder->writeContext, &newBytes, 1, NULL, error);
         if (FAILED(hr))
         {
             return hr;
@@ -436,7 +436,7 @@ HRESULT EncoderEncode(
         encoder->buffer[i]++;
     }
     WS_BYTES newBytes = { bufferLength, encoder->buffer };
-    return encoder->writeCallback(encoder->writeContext, &amp;newBytes, 1, NULL, error);
+    return encoder->writeCallback(encoder->writeContext, &newBytes, 1, NULL, error);
 }
 
 HRESULT EncoderEncode(
@@ -513,7 +513,7 @@ HRESULT ReadBlock(
     while (length < maxLength)
     {
         ULONG actualLength;
-        hr = decoder->readCallback(decoder->readContext, &amp;((BYTE*)buffer)[length], maxLength - length, &amp;actualLength, NULL, error);
+        hr = decoder->readCallback(decoder->readContext, &((BYTE*)buffer)[length], maxLength - length, &actualLength, NULL, error);
         if (FAILED(hr))
         {
             return hr;
@@ -596,7 +596,7 @@ HRESULT DecoderStart(
     HRESULT hr;
     Decoder* decoder = (Decoder*)decoderContext;
 
-    hr = ReadBlock(decoder, &amp;decoder->contentTypeLength, sizeof(ULONG), NULL, NULL, error);
+    hr = ReadBlock(decoder, &decoder->contentTypeLength, sizeof(ULONG), NULL, NULL, error);
     if (FAILED(hr))
     {
         return hr;
@@ -605,7 +605,7 @@ HRESULT DecoderStart(
     {
         return E_FAIL;
     }
-    hr = ReadBlock(decoder, &amp;decoder->contentType, decoder->contentTypeLength * sizeof(WCHAR), NULL, NULL, error);
+    hr = ReadBlock(decoder, &decoder->contentType, decoder->contentTypeLength * sizeof(WCHAR), NULL, NULL, error);
     if (FAILED(hr))
     {
         return hr;
@@ -626,7 +626,7 @@ HRESULT DecoderDecode(
     HRESULT hr;
     Decoder* decoder = (Decoder*)decoderContext;
     ULONG length;
-    hr = ReadBlock(decoder, buffer, maxLength, &amp;length, NULL, error);
+    hr = ReadBlock(decoder, buffer, maxLength, &length, NULL, error);
     if (FAILED(hr))
     {
         return hr;

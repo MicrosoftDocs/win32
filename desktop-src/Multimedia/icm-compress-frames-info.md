@@ -26,7 +26,7 @@ The **ICM\_COMPRESS\_FRAMES\_INFO** message notifies a compression driver to set
 
 ```C++
 ICM_COMPRESS_FRAMES_INFO 
-wParam = (DWORD) (LPVOID) &amp;icf; 
+wParam = (DWORD) (LPVOID) &icf; 
 lParam = sizeof(ICCOMPRESSFRAMES); 
 ```
 

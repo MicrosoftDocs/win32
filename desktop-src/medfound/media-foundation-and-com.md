@@ -41,7 +41,7 @@ public:
         IMFSourceResolver* pResolver, 
         IPropertyStore* pSourceProps, 
         IMFAsyncCallback* pCompletionCallback, 
-        HRESULT&amp; hr
+        HRESULT& hr
         )
         : m_szURL(szURL), 
           m_pResolver(pResolver), 
@@ -50,30 +50,30 @@ public:
           m_cRef(1)
     {
         hr = CoCreateInstance(CLSID_StdGlobalInterfaceTable, NULL, 
-            CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&amp;m_pGIT));
+            CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&m_pGIT));
 
         if(SUCCEEDED(hr))
         {
             hr = m_pGIT->RegisterInterfaceInGlobal(
-                pSourceProps, IID_IPropertyStore, &amp;m_dwInterfaceCookie);
+                pSourceProps, IID_IPropertyStore, &m_dwInterfaceCookie);
         }
     }
     ~CCreateSourceMarshalCallback()
     {
-        SafeRelease(&amp;m_pResolver);
-        SafeRelease(&amp;m_pCompletionCallback);
-        SafeRelease(&amp;m_pGIT);
+        SafeRelease(&m_pResolver);
+        SafeRelease(&m_pCompletionCallback);
+        SafeRelease(&m_pGIT);
     }
 
 
     STDMETHOD_(ULONG, AddRef)()
     {
-        return InterlockedIncrement(&amp;m_cRef);
+        return InterlockedIncrement(&m_cRef);
     }
 
     STDMETHOD_(ULONG, Release)()
     {
-        LONG cRef = InterlockedDecrement(&amp;m_cRef);
+        LONG cRef = InterlockedDecrement(&m_cRef);
         if (0 == cRef)
         {
             delete this;
@@ -103,7 +103,7 @@ public:
 
         HRESULT hr = m_pGIT->GetInterfaceFromGlobal(
             m_dwInterfaceCookie, 
-            IID_PPV_ARGS(&amp;pSourceProps)
+            IID_PPV_ARGS(&pSourceProps)
             );
 
         if(SUCCEEDED(hr))
@@ -113,7 +113,7 @@ public:
                 m_pCompletionCallback, NULL);
         }
 
-        SafeRelease(&amp;pSourceProps);
+        SafeRelease(&pSourceProps);
         return hr;
     }
 

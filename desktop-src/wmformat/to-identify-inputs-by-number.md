@@ -39,18 +39,18 @@ HRESULT GetNamesForInputs(IWMWriter* pWriter)
     IWMInputMediaProps* pProps = NULL;
 
     // Get the total number of inputs for the file.
-    hr = pWriter->GetInputCount(&amp;cInputs);
+    hr = pWriter->GetInputCount(&cInputs);
     GOTO_EXIT_IF_FAILED(hr);
 
     // Loop through all supported inputs.
     for (DWORD inputIndex = 0; inputIndex < cInputs; inputIndex++)
     {
         // Get the input properties for the input.
-        hr = pWriter->GetInputProps(inputIndex, &amp;pProps);  
+        hr = pWriter->GetInputProps(inputIndex, &pProps);  
         GOTO_EXIT_IF_FAILED(hr);
 
         // Get the size of the connection name.
-        hr = pProps->GetConnectionName(0, &amp;cchName);
+        hr = pProps->GetConnectionName(0, &cchName);
         GOTO_EXIT_IF_FAILED(hr);
 
         if (cchName > 0)
@@ -64,7 +64,7 @@ HRESULT GetNamesForInputs(IWMWriter* pWriter)
             }
 
             // Get the connection name.
-            hr = pProps->GetConnectionName(pwszName, &amp;cchName);
+            hr = pProps->GetConnectionName(pwszName, &cchName);
             GOTO_EXIT_IF_FAILED(hr);
             
             // Display the name.

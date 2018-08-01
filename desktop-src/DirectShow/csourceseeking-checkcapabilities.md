@@ -74,10 +74,10 @@ STDMETHODIMP CheckCapabilities(DWORD *pCapabilities)
     CheckPointer(pCapabilities, E_POINTER)
 ;
     DWORD dwCaps;
-    HRESULT hr = GetCapabilities(&amp;dwCaps);
+    HRESULT hr = GetCapabilities(&dwCaps);
     if (SUCCEEDED(hr))
     {
-        dwCaps &amp;= *pCapabilities;
+        dwCaps &= *pCapabilities;
         if (dwCaps)
         {
             hr =  (dwCaps == *pCapabilities ? S_OK : S_FALSE );

@@ -37,7 +37,7 @@ For example, suppose you want users to click a link to navigate from **ServiceTa
 
 
 ```C++
-<A HREF = "javascript:window.external.NavigateTaskPaneURL('MSSampleMusic', 'ServiceTask2', 'From=Music&amp;To=2')">Video</A>
+<A HREF = "javascript:window.external.NavigateTaskPaneURL('MSSampleMusic', 'ServiceTask2', 'From=Music&To=2')">Video</A>
 
 ```
 
@@ -47,7 +47,7 @@ When the user clicks the Video link, Windows Media Player switches to **ServiceT
 
 
 ```C++
-?From=Music&amp;To=2
+?From=Music&To=2
 
 ```
 
@@ -69,7 +69,7 @@ The resulting URL, complete with query string, is shown in the following example
 
 
 ```C++
-http://www.proseware.com/service/html/navigate.asp?From=Music&amp;To=2
+http://www.proseware.com/service/html/navigate.asp?From=Music&To=2
 
 ```
 
@@ -108,7 +108,7 @@ The preceding code simply creates a URL and redirects the browser to it. First, 
 
 
 ```C++
-http://www.proseware.com/service/html/Video.asp?locale=409&amp;geoid=f4&amp;version=10.0.0.3600&amp;userlocale=409&amp;From=Music&amp;To=2
+http://www.proseware.com/service/html/Video.asp?locale=409&geoid=f4&version=10.0.0.3600&userlocale=409&From=Music&To=2
 
 ```
 

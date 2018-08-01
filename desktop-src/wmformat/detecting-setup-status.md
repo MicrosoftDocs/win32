@@ -59,7 +59,7 @@ int main( void )
         TEXT("Software\\Microsoft\\MediaPlayer\\Setup"), 
         0, 
         KEY_QUERY_VALUE, 
-        &amp;hKey 
+        &hKey 
         );
 
     if ( lResult == ERROR_SUCCESS )
@@ -72,9 +72,9 @@ int main( void )
             hKey, 
             TEXT("InstallResult"), 
             NULL, 
-            &amp;dwRegType, 
-            (LPBYTE)&amp;dwValue, 
-            &amp;cbValue
+            &dwRegType, 
+            (LPBYTE)&dwValue, 
+            &cbValue
             );
 
         if( lResult == ERROR_SUCCESS )

@@ -191,10 +191,10 @@ HRESULT CheckAttribute(LPOLESTR szAttribute, LPOLESTR szSyntax)
                         NULL,
                         ADS_SECURE_AUTHENTICATION, // Use Secure Authentication.
                         IID_IADsProperty,
-                        (void**)&amp;pObject);
+                        (void**)&pObject);
     if(SUCCEEDED(hr)) 
     {
-        hr = pObject->get_Syntax(&amp;bstr);
+        hr = pObject->get_Syntax(&bstr);
         if (SUCCEEDED(hr)) 
         {
             if (0==lstrcmpiW(bstr, szSyntax)) 
@@ -364,7 +364,7 @@ HRESULT GetLocalTimeZoneDifferential(LPOLESTR *pszDifferential)
     LONG lHours;
     LONG lMinutes;
     
-    dwReturn  = GetTimeZoneInformation(&amp;timezoneinfo);
+    dwReturn  = GetTimeZoneInformation(&timezoneinfo);
 
     switch (dwReturn)
     {

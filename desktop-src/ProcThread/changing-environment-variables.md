@@ -65,7 +65,7 @@ int _tmain()
 
     // Create the child process, specifying a new environment block. 
  
-    SecureZeroMemory(&amp;si, sizeof(STARTUPINFO));
+    SecureZeroMemory(&si, sizeof(STARTUPINFO));
     si.cb = sizeof(STARTUPINFO);
 
 #ifdef UNICODE
@@ -74,7 +74,7 @@ int _tmain()
 
     fSuccess = CreateProcess(szAppName, NULL, NULL, NULL, TRUE, dwFlags,
         (LPVOID) chNewEnv,   // new environment block
-        NULL, &amp;si, &amp;pi); 
+        NULL, &si, &pi); 
  
     if (! fSuccess) 
     {
@@ -166,7 +166,7 @@ int _tmain()
  
     // Create a child process. 
 
-    SecureZeroMemory(&amp;si, sizeof(STARTUPINFO));
+    SecureZeroMemory(&si, sizeof(STARTUPINFO));
     si.cb = sizeof(STARTUPINFO);
  
 #ifdef UNICODE
@@ -175,7 +175,7 @@ int _tmain()
 
     fSuccess = CreateProcess(szAppName, NULL, NULL, NULL, TRUE, dwFlags, 
         NULL,     // inherit parent's environment 
-        NULL, &amp;si, &amp;pi); 
+        NULL, &si, &pi); 
     if (! fSuccess) 
     {
         printf("CreateProcess failed (%d)\n", GetLastError()); 

@@ -94,7 +94,7 @@ HRESULT      hr;
 bstrCard = SysAllocString(L"GemSAFE");
 // Call the function for the specified card.
 hr = pISCDataBase->ListCardInterfaces(bstrCard,
-                                      &amp;pGuids);
+                                      &pGuids);
 if (FAILED(hr))
 {
    printf("Failed ListCardInterfaces\n");

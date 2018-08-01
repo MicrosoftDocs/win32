@@ -60,7 +60,7 @@ ADSI supports two types of query strings or dialects. The preceding code example
 
 ```VB
 oCommand1.CommandText = "<LDAP://DC=fabrikam,DC=COM>;" & _
-"(&amp;(objectCategory=Person)" & _
+"(&(objectCategory=Person)" & _
 "(objectClass=user)" & _
 "(title=ProgramManager)" & _
 "(department=101));" & _

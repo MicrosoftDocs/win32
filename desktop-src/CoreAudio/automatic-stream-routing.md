@@ -21,7 +21,7 @@ Starting with the Windows 10, version 1607, apps that use WASAPI can take advant
 
     ```C++
     PWSTR audioRenderGuidString;
-    StringFromIID(DEVINTERFACE_AUDIO_RENDER, &amp;audioRenderGuidString);
+    StringFromIID(DEVINTERFACE_AUDIO_RENDER, &audioRenderGuidString);
     ```
 
     

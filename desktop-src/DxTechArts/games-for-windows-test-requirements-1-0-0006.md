@@ -91,7 +91,7 @@ This section contains detailed notes on each of the test tools used to verify pa
 <td><ol>
 <li>After installing the game, open Games Explorer.</li>
 <li>Verify that the game icon displays in Games Explorer.</li>
-<li>Right-click the icon and test each application-defined play &amp; support task.</li>
+<li>Right-click the icon and test each application-defined play & support task.</li>
 <li>Click the icon and verify that the metadata (publisher, developer, genre, release date, version) at the bottom displays and is correct.</li>
 <li>Verify that the game icon displays Windows Experience Index (WEI) information in Games Explorer.</li>
 <li>Verify that game hyperlinks for metadata work correctly in Games Explorer. (If hyperlinks don't show up, then this is a possible sign that the exe isn't signed; see [section 2.3](#23-sign-files).)</li>

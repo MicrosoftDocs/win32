@@ -26,7 +26,7 @@ MCI_OPEN_PARMS mciOpenParms;
 mciOpenParms.lpstrDeviceType = "cdaudio";
 
 if (dwReturn = mciSendCommand(NULL, MCI_OPEN, MCI_OPEN_TYPE,
-    (DWORD)(LPVOID) &amp;mciOpenParms))
+    (DWORD)(LPVOID) &mciOpenParms))
 {
     
     // Error, unable to open device.

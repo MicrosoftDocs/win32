@@ -35,7 +35,7 @@ DWORD                        cbIoBufferLength;
 scRet = QueryContextAttributes(
        phContext,
        SECPKG_ATTR_STREAM_SIZES,
-       &amp;Sizes);
+       &Sizes);
 
 if(scRet != SEC_E_OK)
 {
@@ -74,7 +74,7 @@ Message.pBuffers        = Buffers;
 
 scRet = DecryptMessage(
      phContext, 
-     &amp;Message, 
+     &Message, 
      0, 
      NULL);
 
@@ -87,7 +87,7 @@ if(scRet == SEC_E_INCOMPLETE_MESSAGE)
      continue;
 }
 
-if(scRet != SEC_E_OK &amp;&amp; scRet != SEC_I_RENEGOTIATE)
+if(scRet != SEC_E_OK && scRet != SEC_I_RENEGOTIATE)
 {
     MyHandleError("Error returned by DecryptMessage");
 }
@@ -97,11 +97,11 @@ if(scRet != SEC_E_OK &amp;&amp; scRet != SEC_I_RENEGOTIATE)
 
 pDataBuffer  = NULL;
 pExtraBuffer = NULL;
-while(!pDataBuffer &amp;&amp; i < 4)
+while(!pDataBuffer && i < 4)
 {
     if(Buffers[i].BufferType == SECBUFFER_DATA)
     {
-        pDataBuffer = &amp;Buffers[i];
+        pDataBuffer = &Buffers[i];
     }
     i++;
 }

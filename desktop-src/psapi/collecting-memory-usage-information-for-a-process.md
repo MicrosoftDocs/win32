@@ -39,7 +39,7 @@ void PrintMemoryInfo( DWORD processID )
     if (NULL == hProcess)
         return;
 
-    if ( GetProcessMemoryInfo( hProcess, &amp;pmc, sizeof(pmc)) )
+    if ( GetProcessMemoryInfo( hProcess, &pmc, sizeof(pmc)) )
     {
         printf( "\tPageFaultCount: 0x%08X\n", pmc.PageFaultCount );
         printf( "\tPeakWorkingSetSize: 0x%08X\n", 
@@ -68,7 +68,7 @@ int main( void )
     DWORD aProcesses[1024], cbNeeded, cProcesses;
     unsigned int i;
 
-    if ( !EnumProcesses( aProcesses, sizeof(aProcesses), &amp;cbNeeded ) )
+    if ( !EnumProcesses( aProcesses, sizeof(aProcesses), &cbNeeded ) )
     {
         return 1;
     }

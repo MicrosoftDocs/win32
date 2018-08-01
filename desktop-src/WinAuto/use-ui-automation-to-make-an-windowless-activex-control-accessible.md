@@ -89,7 +89,7 @@ STDMETHODIMP CMyAccessibleUIAControl::Navigate(NavigateDirection direction,
         // Query the control container's windowless site 
         // for the parent.
          if (SUCCEEDED(m_pClientSite->QueryInterface(
-                IID_PPV_ARGS(&amp;pWindowlessSite))))  
+                IID_PPV_ARGS(&pWindowlessSite))))  
         {  
             hr =  pWindowlessSite->GetAdjacentFragment(direction, ppRetVal);  
         }  
@@ -107,7 +107,7 @@ STDMETHODIMP CMyAccessibleUIAControl::Navigate(NavigateDirection direction,
         hr = GetFragmentForChild(LAST, ppRetVal);  
     }  
 
-    SafeRelease(&amp;pWindowlessSite);
+    SafeRelease(&pWindowlessSite);
     return S_OK;   
 }
 ```
@@ -137,7 +137,7 @@ STDMETHODIMP CMyAccessibleUIAControl::GetRuntimeId(SAFEARRAY **ppRetVal)
     HRESULT hr = E_FAIL;
     IRawElementProviderWindowlessSite *pWindowlessSite = NULL;  
 
-    if (SUCCEEDED(m_pClientSite->QueryInterface(IID_PPV_ARGS(&amp;pWindowlessSite))))  
+    if (SUCCEEDED(m_pClientSite->QueryInterface(IID_PPV_ARGS(&pWindowlessSite))))  
     {  
         // Create a safe array to hold runtime ID.
         SAFEARRAY *psa = SafeArrayCreateVector(VT_I4, 1, 3);  
@@ -150,14 +150,14 @@ STDMETHODIMP CMyAccessibleUIAControl::GetRuntimeId(SAFEARRAY **ppRetVal)
         // consists of UiaAppendRuntimeId followed by the windowless site ID.
         if (SUCCEEDED(hr))
         {    
-            hr = pWindowlessSite->GetRuntimeIdPrefix(&amp;psa);  
+            hr = pWindowlessSite->GetRuntimeIdPrefix(&psa);  
         } 
 
         if (SUCCEEDED(hr))
         {
         // Append this fragment's ID to the retrieved runtime ID prefix.
             long i = 2;
-            hr = SafeArrayPutElement(psa, &amp;i, (void*)&amp;m_Id);        
+            hr = SafeArrayPutElement(psa, &i, (void*)&m_Id);        
         }
 
         if (SUCCEEDED(hr))
@@ -166,7 +166,7 @@ STDMETHODIMP CMyAccessibleUIAControl::GetRuntimeId(SAFEARRAY **ppRetVal)
         }
     }
 
-    SafeRelease(&amp;pWindowlessSite);
+    SafeRelease(&pWindowlessSite);
     return hr;  
 }
 ```

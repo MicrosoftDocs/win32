@@ -45,7 +45,7 @@ MCI_SET_PARMS mciSetParms;
 
 mciSetParms.dwTimeFormat = MCI_FORMAT_MILLISECONDS; 
 if( mciSendCommand(wDeviceID, MCI_SET, MCI_SET_TIME_FORMAT, 
-                  (DWORD) &amp;mciSetParms)) 
+                  (DWORD) &mciSetParms)) 
 {
     // Error, unable to set time format. 
     return FALSE; 

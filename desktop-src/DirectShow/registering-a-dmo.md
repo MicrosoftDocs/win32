@@ -33,9 +33,9 @@ STDAPI DllRegisterServer(void)
         DMOCATEGORY_AUDIO_EFFECT,  // Category
         0,                         // Flags 
         1,                         // Number of input types
-        &amp;mt,                       // Array of input types
+        &mt,                       // Array of input types
         1,                         // Number of output types
-        &amp;mt);                      // Array of output types
+        &mt);                      // Array of output types
 
     if (FAILED(hr)) return hr;
 

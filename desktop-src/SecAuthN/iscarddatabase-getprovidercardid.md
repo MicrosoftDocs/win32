@@ -92,7 +92,7 @@ LPGUID   pguidProvId = NULL;
 HRESULT  hr;
 
 bstrCard = SysAllocString(L"My Card");
-hr = pISCDataBase->GetProviderCardId(bstrCard,&amp;pguidProvId);
+hr = pISCDataBase->GetProviderCardId(bstrCard,&pguidProvId);
 if (FAILED(hr))
 {
    printf("Failed GetProviderCardId\n");

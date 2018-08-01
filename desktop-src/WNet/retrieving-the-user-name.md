@@ -24,7 +24,7 @@ DWORD dwResult, cchBuff = 80;
 //
 dwResult = WNetGetUser("z:", 
     (LPSTR) szUserName, 
-    &amp;cchBuff); 
+    &cchBuff); 
  
 // If the call succeeds, print the user name.
 //

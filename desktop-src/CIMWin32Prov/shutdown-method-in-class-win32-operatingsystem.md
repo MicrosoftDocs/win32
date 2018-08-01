@@ -107,7 +107,7 @@ my $OpSysSet;
 eval { $OpSysSet = Win32::OLE->GetObject("winmgmts:{(Shutdown)}//./root/cimv2")->
       ExecQuery("SELECT * FROM Win32_OperatingSystem WHERE Primary=true"); };
 
-if(!$@ &amp;&amp; defined $OpSysSet)
+if(!$@ && defined $OpSysSet)
 {
  close (STDERR);
  foreach my $OpSys (in $OpSysSet)

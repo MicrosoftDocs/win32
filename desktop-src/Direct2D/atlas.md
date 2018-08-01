@@ -38,7 +38,7 @@ The preceding image is the input to the effect. The code here creates an atlas e
 ComPtr<ID2D1Effect> atlasEffect;
 
 // Create the Atlas Effect.
-DX::ThrowIfFailed(m_d2dContext->CreateEffect(CLSID_D2D1Atlas, &amp;atlasEffect));
+DX::ThrowIfFailed(m_d2dContext->CreateEffect(CLSID_D2D1Atlas, &atlasEffect));
 
 // Set the input.
 atlasEffect->SetInputEffect(0, inputImage.Get());

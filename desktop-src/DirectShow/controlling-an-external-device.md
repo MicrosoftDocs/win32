@@ -39,7 +39,7 @@ if (hThreadEnd == NULL)
     // Handle error.
 }
 CRITICAL_SECTION csIssueCmd;
-InitializeCriticalSection(&amp;cdIssueCmd);
+InitializeCriticalSection(&cdIssueCmd);
 ```
 
 
@@ -49,7 +49,7 @@ After you create an instance of the capture filter, create the worker thread:
 
 ```C++
 DWORD ThreadId;
-hThread = CreateThread(NULL, 0, ThreadProc, 0, 0, &amp;ThreadId);
+hThread = CreateThread(NULL, 0, ThreadProc, 0, 0, &ThreadId);
 ```
 
 
@@ -60,7 +60,7 @@ In the worker thread, start by calling the [**IAMExtTransport::GetStatus**](/win
 ```C++
 // Get the handle to the notification event.
 HANDLE hEvent = NULL;
-hr = pTransport->GetStatus(ED_NOTIFY_HEVENT_GET, (long*)&amp;hNotify);
+hr = pTransport->GetStatus(ED_NOTIFY_HEVENT_GET, (long*)&hNotify);
 ```
 
 
@@ -70,7 +70,7 @@ Next, call **GetState** again and pass the value ED\_MODE\_CHANGE\_NOTIFY:
 
 ```C++
 LONG State;
-hr = pTransport->GetStatus(ED_MODE_CHANGE_NOTIFY, &amp;State);
+hr = pTransport->GetStatus(ED_MODE_CHANGE_NOTIFY, &State);
 ```
 
 
@@ -81,7 +81,7 @@ Before the worker thread exits, release the event handle by calling **GetStatus*
 
 
 ```C++
-hr = pTransport->GetStatus(ED_NOTIFY_HEVENT_RELEASE, (long*)&amp;hNotify)
+hr = pTransport->GetStatus(ED_NOTIFY_HEVENT_RELEASE, (long*)&hNotify)
 ```
 
 
@@ -100,14 +100,14 @@ DWORD WINAPI ThreadProc(void *pParam)
 
     // Get the notification event handle. This event will be signaled when
     // the next state-change operation completes.   
-    hr = pTransport->GetStatus(ED_NOTIFY_HEVENT_GET, (long*)&amp;hNotify);
+    hr = pTransport->GetStatus(ED_NOTIFY_HEVENT_GET, (long*)&hNotify);
 
-    while (hThread &amp;&amp; hNotify &amp;&amp; hThreadEnd) 
+    while (hThread && hNotify && hThreadEnd) 
     {
-        EnterCriticalSection(&amp;csIssueCmd);
+        EnterCriticalSection(&csIssueCmd);
         // Ask the device to notify us when the state changes.
-        hr = pTransport->GetStatus(ED_MODE_CHANGE_NOTIFY, &amp;State);
-        LeaveCriticalSection(&amp;csIssueCmd); 
+        hr = pTransport->GetStatus(ED_MODE_CHANGE_NOTIFY, &State);
+        LeaveCriticalSection(&csIssueCmd); 
 
         if(hr == E_PENDING)  // The device supports notification.
         {
@@ -118,10 +118,10 @@ DWORD WINAPI ThreadProc(void *pParam)
             if(WAIT_OBJECT_0 == WaitStatus) 
             {
                 // We got notified. Query for the new state.
-                EnterCriticalSection(&amp;csIssueCmd);  
+                EnterCriticalSection(&csIssueCmd);  
                 hr = m_pTransport->get_Mode(State);
                 UpdateTransportState(State);  // Update the UI.
-                LeaveCriticalSection(&amp;m_csIssueCmd);
+                LeaveCriticalSection(&m_csIssueCmd);
                 ResetEvent(hNotify);
             } 
             else {
@@ -135,7 +135,7 @@ DWORD WINAPI ThreadProc(void *pParam)
     } // while
 
     // Cancel notification. 
-    hr = pTransport->GetStatus(ED_NOTIFY_HEVENT_RELEASE, (long*)&amp;hNotify);
+    hr = pTransport->GetStatus(ED_NOTIFY_HEVENT_RELEASE, (long*)&hNotify);
     return 1; 
 }
 ```
@@ -147,12 +147,12 @@ Also use the critical section when you issue commands to the device, as follows:
 
 ```C++
 // Issue the "stop" command.
-EnterCriticalSection(&amp;csIssueCmd); 
+EnterCriticalSection(&csIssueCmd); 
 if (SUCCEEDED(hr = pTransport->put_Mode(ED_MODE_STOP)))
 {
     UpdateTransportState(ED_MODE_STOP);
 }
-LeaveCriticalSection(&amp;csIssueCmd); 
+LeaveCriticalSection(&csIssueCmd); 
 ```
 
 
@@ -188,12 +188,12 @@ DWORD WINAPI ThreadProc(void *pParam)
     LONG State;
     DWORD WaitStatus;
 
-    while (hThread &amp;&amp; hThreadEnd) 
+    while (hThread && hThreadEnd) 
     {
-        EnterCriticalSection(&amp;csIssueCmd);  
+        EnterCriticalSection(&csIssueCmd);  
         State = 0;
-        hr = pTransport->get_Mode(&amp;State);
-        LeaveCriticalSection(&amp;csIssueCmd); 
+        hr = pTransport->get_Mode(&State);
+        LeaveCriticalSection(&csIssueCmd); 
         UpdateTransportState(State);
 
         // Wait for a while, or until the thread ends. 

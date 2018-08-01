@@ -116,15 +116,15 @@ D3DXPLANE plane[ARRAYSIZE];
 for(int i = 0; i < ARRAYSIZE; i++)
 {
     plane = D3DXPLANE( 0.0f, 1.0f, 1.0f, 0.0f );
-    D3DXPlaneNormalize( &amp;plane[i], &amp;plane[i] );
+    D3DXPlaneNormalize( &plane[i], &plane[i] );
 }
 
 D3DXMATRIX  matrix;
-D3DXMatrixScaling( &amp;matrix, 1.0f, 2.0f, 3.0f ); 
-D3DXMatrixInverse( &amp;matrix, NULL, &amp;matrix );
-D3DXMatrixTranspose( &amp;matrix, &amp;matrix );
-D3DXPlaneTransformArray( &amp;planeNew, sizeof (D3DXPLANE), &amp;plane, 
-                         sizeof (D3DXPLANE), &amp;matrix, ARRAYSIZE );
+D3DXMatrixScaling( &matrix, 1.0f, 2.0f, 3.0f ); 
+D3DXMatrixInverse( &matrix, NULL, &matrix );
+D3DXMatrixTranspose( &matrix, &matrix );
+D3DXPlaneTransformArray( &planeNew, sizeof (D3DXPLANE), &plane, 
+                         sizeof (D3DXPLANE), &matrix, ARRAYSIZE );
 ```
 
 

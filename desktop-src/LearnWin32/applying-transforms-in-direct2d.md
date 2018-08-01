@@ -116,7 +116,7 @@ void Scene::RenderScene()
 <tr class="odd">
 <td><pre><code>    // Draw hands
     SYSTEMTIME time;
-    GetLocalTime(&amp;time);
+    GetLocalTime(&time);
 
     // 60 minutes = 30 degrees, 1 minute = 0.5 degree
     const float fHourAngle = (360.0f / 12) * (time.wHour) + (time.wMinute * 0.5f); 

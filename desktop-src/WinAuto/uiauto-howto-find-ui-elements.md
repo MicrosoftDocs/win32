@@ -42,17 +42,17 @@ IUIAutomationElement* GetTopLevelWindowByName(LPWSTR windowName)
     IUIAutomationElement* pFound = NULL;
 
     // Get the desktop element. 
-    HRESULT hr = g_pAutomation->GetRootElement(&amp;pRoot);
+    HRESULT hr = g_pAutomation->GetRootElement(&pRoot);
     if (FAILED(hr) || pRoot == NULL)
         goto cleanup;
 
     // Get a top-level element by name, such as "Program Manager"
     IUIAutomationCondition* pCondition;
-    hr = g_pAutomation->CreatePropertyCondition(UIA_NamePropertyId, varProp, &amp;pCondition);
+    hr = g_pAutomation->CreatePropertyCondition(UIA_NamePropertyId, varProp, &pCondition);
     if (FAILED(hr))
         goto cleanup;
 
-    pRoot->FindFirst(TreeScope_Children, pCondition, &amp;pFound);
+    pRoot->FindFirst(TreeScope_Children, pCondition, &pFound);
 
 cleanup:
     if (pRoot != NULL)
@@ -61,7 +61,7 @@ cleanup:
     if (pCondition != NULL)
         pCondition->Release();
 
-    VariantClear(&amp;varProp);
+    VariantClear(&varProp);
     return pFound;
 }
 ```
@@ -89,25 +89,25 @@ IUIAutomationElementArray* GetEnabledButtons(IUIAutomationElement* pParent)
     VARIANT varProp;
     varProp.vt = VT_I4;
     varProp.lVal = UIA_ButtonControlTypeId;
-    g_pAutomation->CreatePropertyCondition(UIA_ControlTypePropertyId, varProp, &amp;pButtonCondition);
+    g_pAutomation->CreatePropertyCondition(UIA_ControlTypePropertyId, varProp, &pButtonCondition);
     if (pButtonCondition == NULL)
         goto cleanup;
 
     // Create a property condition for the enabled property.
     varProp.vt = VT_BOOL;
     varProp.boolVal = VARIANT_TRUE;
-    g_pAutomation->CreatePropertyCondition(UIA_IsEnabledPropertyId, varProp, &amp;pEnabledCondition);
+    g_pAutomation->CreatePropertyCondition(UIA_IsEnabledPropertyId, varProp, &pEnabledCondition);
     if (pEnabledCondition == NULL)
         goto cleanup;
 
     // Combine the conditions.
-    g_pAutomation->CreateAndCondition(pButtonCondition, pEnabledCondition, &amp;pCombinedCondition);
+    g_pAutomation->CreateAndCondition(pButtonCondition, pEnabledCondition, &pCombinedCondition);
     if (pCombinedCondition == NULL)
         goto cleanup;
 
     // Find the matching elements. Note that if the scope is changed to TreeScope_Descendants, 
     // system buttons on the caption bar will be found as well.
-    pParent->FindAll(TreeScope_Children, pCombinedCondition, &amp;pFound);
+    pParent->FindAll(TreeScope_Children, pCombinedCondition, &pFound);
 
 cleanup:
     if (pButtonCondition != NULL)

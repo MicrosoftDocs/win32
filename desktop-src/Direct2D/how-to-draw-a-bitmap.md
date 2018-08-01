@@ -27,7 +27,7 @@ hr = LoadResourceBitmap(
     L"Image",
     200,
     0,
-    &amp;m_pBitmap
+    &m_pBitmap
     );
 ```
 

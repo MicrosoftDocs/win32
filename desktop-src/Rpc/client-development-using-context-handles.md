@@ -30,7 +30,7 @@ In this example, the client calls RemoteOpen to obtain a context handle that con
 ```C++
 // cxhndlc.c  (fragment of client side application)
 printf("Calling the remote procedure RemoteOpen\n");
-if (RemoteOpen(&amp;phContext, pszFileName) < 0) 
+if (RemoteOpen(&phContext, pszFileName) < 0) 
 {
     printf("Unable to open %s\n", pszFileName);
     Shutdown();
@@ -39,7 +39,7 @@ if (RemoteOpen(&amp;phContext, pszFileName) < 0)
  
 // Now the context handle also manages the binding.
 // The variable hBindingHandle is a valid binding handle.
-status = RpcBindingFree(&amp;hBindingHandle);
+status = RpcBindingFree(&hBindingHandle);
 printf("RpcBindingFree returned 0x%x\n", status);
 if (status) 
     exit(status);
@@ -55,14 +55,14 @@ printf("Calling the remote procedure RemoteRead\n");
 do 
 {
     cbRead = 1024; // Using a 1K buffer
-    RemoteRead(phContext, pbBuf, &amp;cbRead);
+    RemoteRead(phContext, pbBuf, &cbRead);
     // cbRead contains the number of bytes actually read.
     for (int i = 0; i < cbRead; i++)
         putchar(*(pbBuf+i));
 } while(cbRead);
  
 printf("Calling the remote procedure RemoteClose\n");
-if (RemoteClose(&amp;phContext) < 0 ) 
+if (RemoteClose(&phContext) < 0 ) 
 {
     printf("Close failed on %s\n", pszFileName);
     exit(2);

@@ -116,15 +116,15 @@ In this example, the object is colored using the scene specular light color and 
 
 ```
 D3DMATERIAL9 mtrl;
-ZeroMemory( &amp;mtrl, sizeof(mtrl) );
+ZeroMemory( &mtrl, sizeof(mtrl) );
 
 D3DLIGHT9 light;
-ZeroMemory( &amp;light, sizeof(light) );
+ZeroMemory( &light, sizeof(light) );
 light.Type = D3DLIGHT_DIRECTIONAL;
 
 D3DXVECTOR3 vecDir;
 vecDir = D3DXVECTOR3(0.5f, 0.0f, -0.5f);
-D3DXVec3Normalize( (D3DXVECTOR3*)&amp;light.Direction, &amp;vecDir );
+D3DXVec3Normalize( (D3DXVECTOR3*)&light.Direction, &vecDir );
 
 light.Specular.r = 1.0f;
 light.Specular.g = 1.0f;
@@ -136,7 +136,7 @@ light.Falloff = 0;
 light.Attenuation0 = 1;
 light.Attenuation1 = 0;
 light.Attenuation2 = 0;
-m_pd3dDevice->SetLight( 0, &amp;light );
+m_pd3dDevice->SetLight( 0, &light );
 m_pd3dDevice->LightEnable( 0, TRUE );
 m_pd3dDevice->SetRenderState( D3DRS_SPECULARENABLE, TRUE );
 
@@ -145,7 +145,7 @@ mtrl.Specular.g = 0.5f;
 mtrl.Specular.b = 0.5f;
 mtrl.Specular.a = 0.5f;
 mtrl.Power = 20;
-m_pd3dDevice->SetMaterial( &amp;mtrl );
+m_pd3dDevice->SetMaterial( &mtrl );
 m_pd3dDevice->SetRenderState(D3DRS_SPECULARMATERIALSOURCE, D3DMCS_MATERIAL);
 ```
 

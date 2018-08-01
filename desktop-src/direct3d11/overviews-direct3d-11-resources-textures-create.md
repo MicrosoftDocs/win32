@@ -35,7 +35,7 @@ desc.MiscFlags = 0;
 
 ID3D11Device *pd3dDevice; // Don't forget to initialize this
 ID3D11Texture2D *pTexture = NULL;
-pd3dDevice->CreateTexture2D( &amp;desc, NULL, &amp;pTexture );
+pd3dDevice->CreateTexture2D( &desc, NULL, &pTexture );
 ```
 
 

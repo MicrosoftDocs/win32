@@ -96,7 +96,7 @@ IWbemServices* pWbemSvcs = 0;
 
 BSTR Path = SysAllocString(L"ComPort=2");    
 IWbemClassObject *pComPort = 0;
-pWbemSvcs->GetObject(Path, 0, 0, &amp;pComPort, 0);
+pWbemSvcs->GetObject(Path, 0, 0, &pComPort, 0);
 ```
 
 

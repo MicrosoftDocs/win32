@@ -47,7 +47,7 @@ HRESULT GetFinalOutputType(DMO_MEDIA_TYPE* pMedia, IMediaObject* pDMO)
 
     // Get the private data interface.
     hr = pDMO->QueryInterface(IID_IWMCodecPrivateData,
-                              (void**)&amp;pPrivData);
+                              (void**)&pPrivData);
     GOTO_EXIT_IF_FAILED(hr);
 
     // Set the partial media type.
@@ -55,7 +55,7 @@ HRESULT GetFinalOutputType(DMO_MEDIA_TYPE* pMedia, IMediaObject* pDMO)
     GOTO_EXIT_IF_FAILED(hr);
 
     // Get the size of the private data.
-    hr = pPrivData->GetPrivateData(NULL, &amp;cbData);
+    hr = pPrivData->GetPrivateData(NULL, &cbData);
     GOTO_EXIT_IF_FAILED(hr);
 
     // Allocate memory for the private data.
@@ -67,7 +67,7 @@ HRESULT GetFinalOutputType(DMO_MEDIA_TYPE* pMedia, IMediaObject* pDMO)
     }
 
     // Get the private data.
-    hr = pPrivData->GetPrivateData(pbData, &amp;cbData);
+    hr = pPrivData->GetPrivateData(pbData, &cbData);
 
     // Allocate memory for the new VIDEOINFOHEADER.
     cbNewVidInf = pMedia->cbFormat + cbData;

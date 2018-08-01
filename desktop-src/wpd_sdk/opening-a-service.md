@@ -43,13 +43,13 @@ for (dwIndex = 0; dwIndex < cPnpDeviceIDs; dwIndex++)
     // First, pass NULL as the PWSTR array pointer to get the total number
     // of contacts services (SERVICE_Contacts) found on the device.
     // To find the total number of all services on the device, use GUID_DEVINTERFACE_WPD_SERVICE.
-    hr = pServiceManager->GetDeviceServices(pPnpDeviceIDs[dwIndex], SERVICE_Contacts, NULL, &amp;cPnpServiceIDs);
+    hr = pServiceManager->GetDeviceServices(pPnpDeviceIDs[dwIndex], SERVICE_Contacts, NULL, &cPnpServiceIDs);
     
-    if (SUCCEEDED(hr) &amp;&amp; (cPnpServiceIDs > 0))
+    if (SUCCEEDED(hr) && (cPnpServiceIDs > 0))
     {                               
         // For simplicity, we are only using the first contacts service on each device
         cPnpServiceIDs = 1;
-        hr = pServiceManager->GetDeviceServices(pPnpDeviceIDs[dwIndex], SERVICE_Contacts, &amp;pPnpServiceID, &amp;cPnpServiceIDs);
+        hr = pServiceManager->GetDeviceServices(pPnpDeviceIDs[dwIndex], SERVICE_Contacts, &pPnpServiceID, &cPnpServiceIDs);
 
         if (SUCCEEDED(hr))
         {
@@ -87,7 +87,7 @@ Applications that live in Single Threaded Apartments should use **CLSID\_Portabl
 hr = CoCreateInstance(CLSID_PortableDeviceServiceFTM,
                       NULL,
                       CLSCTX_INPROC_SERVER,
-                      IID_PPV_ARGS(&amp;pService));
+                      IID_PPV_ARGS(&pService));
 if (SUCCEEDED(hr))
 {
     hr = pService->Open(ContactsServicesArray[uiCurrentService], pClientInformation);

@@ -60,13 +60,13 @@ HRESULT CreateSystemMemoryBuffer(
     // Create the media buffer.
     hr = MFCreateMemoryBuffer(
         cbData,   // Amount of memory to allocate, in bytes.
-        &amp;pBuffer        
+        &pBuffer        
         );
 
     // Lock the buffer to get a pointer to the memory.
     if (SUCCEEDED(hr))
     {
-        hr = pBuffer->Lock(&amp;pData, NULL, NULL);
+        hr = pBuffer->Lock(&pData, NULL, NULL);
     }
 
     if (SUCCEEDED(hr))

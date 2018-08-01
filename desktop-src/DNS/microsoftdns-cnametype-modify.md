@@ -32,7 +32,7 @@ The **Modify** method updates a Canonical Name (CNAME) Resource Record.
 void Modify(
   [in, optional] uint32                 TTL,
   [in, optional] string                 PrimaryName,
-  [out, ref]     MicrosoftDNS_CNAMEType &amp;RR
+  [out, ref]     MicrosoftDNS_CNAMEType &RR
 );
 ```
 

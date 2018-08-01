@@ -603,9 +603,9 @@ This step of the tutorial uses a simplified text file mechanism to enable custom
         DWORD langCount = 0;
         // next commented out line of code could be used on Windows 7 and later
         // using SetProcessPreferredUILanguages is recomended for new applications (esp. multi-threaded applications)
-    //    if(!SetProcessPreferredUILanguages(MUI_LANGUAGE_NAME,userLanguagesMultiString,&amp;langCount) || langCount == 0)
+    //    if(!SetProcessPreferredUILanguages(MUI_LANGUAGE_NAME,userLanguagesMultiString,&langCount) || langCount == 0)
         // the following line of code is supported on Windows Vista and later
-        if(!SetThreadPreferredUILanguages(MUI_LANGUAGE_NAME,userLanguagesMultiString,&amp;langCount) || langCount == 0)
+        if(!SetThreadPreferredUILanguages(MUI_LANGUAGE_NAME,userLanguagesMultiString,&langCount) || langCount == 0)
         {
             swprintf_s(displayBuffer,SUFFICIENTLY_LARGE_ERROR_BUFFER,L"FAILURE: Unable to set the user defined languages, last error = %d.",GetLastError());
             MessageBoxW(NULL,displayBuffer,L"HelloMUI ERROR!",MB_OK | MB_ICONERROR);
@@ -668,7 +668,7 @@ This step of the tutorial uses a simplified text file mechanism to enable custom
         {
             // clear out the input variables
             DWORD bytesActuallyRead = 0;
-            if(ReadFile(langConfigFileHandle,langStr,langStrSize*sizeof(WCHAR),&amp;bytesActuallyRead,NULL) &amp;&amp; bytesActuallyRead > 0)
+            if(ReadFile(langConfigFileHandle,langStr,langStrSize*sizeof(WCHAR),&bytesActuallyRead,NULL) && bytesActuallyRead > 0)
             {
                 rtnVal = TRUE;
                 DWORD nullIndex = (bytesActuallyRead/sizeof(WCHAR) < langStrSize) ? bytesActuallyRead/sizeof(WCHAR) : langStrSize;
@@ -682,28 +682,28 @@ This step of the tutorial uses a simplified text file mechanism to enable custom
     {
         BOOL rtnVal = FALSE;
         size_t strLen = 0;
-        rtnVal = SUCCEEDED(StringCchLengthW(langStr,USER_CONFIGURATION_STRING_BUFFER*2,&amp;strLen));
-        if(rtnVal &amp;&amp; strLen > 0 &amp;&amp; langMultiStr &amp;&amp; langMultiStrSize > 0)
+        rtnVal = SUCCEEDED(StringCchLengthW(langStr,USER_CONFIGURATION_STRING_BUFFER*2,&strLen));
+        if(rtnVal && strLen > 0 && langMultiStr && langMultiStrSize > 0)
         {
             WCHAR * langMultiStrPtr = langMultiStr;
             WCHAR * last = langStr + (langStr[0] == 0xFEFF ? 1 : 0);
             WCHAR * context = last;
-            WCHAR * next = wcstok_s(last,L",; :",&amp;context);
-            while(next &amp;&amp; rtnVal)
+            WCHAR * next = wcstok_s(last,L",; :",&context);
+            while(next && rtnVal)
             {
                 // make sure you validate the user input
-                if(SUCCEEDED(StringCchLengthW(last,LOCALE_NAME_MAX_LENGTH,&amp;strLen)) &amp;&amp; 
+                if(SUCCEEDED(StringCchLengthW(last,LOCALE_NAME_MAX_LENGTH,&strLen)) && 
                     IsValidLocaleName(next))
                 {
                     langMultiStrPtr[0] = L'\0';
-                    rtnVal &amp;= SUCCEEDED(StringCchCatW(langMultiStrPtr,(langMultiStrSize - (langMultiStrPtr - langMultiStr)),next));
+                    rtnVal &= SUCCEEDED(StringCchCatW(langMultiStrPtr,(langMultiStrSize - (langMultiStrPtr - langMultiStr)),next));
                     langMultiStrPtr += strLen + 1;
                 }
-                next = wcstok_s(NULL,L",; :",&amp;context);
+                next = wcstok_s(NULL,L",; :",&context);
                 if(next)
                     last = next;
             }
-            if(rtnVal &amp;&amp; (langMultiStrSize - (langMultiStrPtr - langMultiStr))) // make sure there is a double null term for the multi-string
+            if(rtnVal && (langMultiStrSize - (langMultiStrPtr - langMultiStr))) // make sure there is a double null term for the multi-string
             {
                 langMultiStrPtr[0] = L'\0';
             }
@@ -845,14 +845,14 @@ Create a project that can use the localized resource modules on any version of W
             if( fp_SetPreferredUILanguages )
             {
                 // call SetProcessPreferredUILanguages if it is available in Kernel32.dll's export table - Windows 7 and later
-                setSuccess = fp_SetPreferredUILanguages(MUI_LANGUAGE_NAME,userLanguagesMultiString,&amp;setLangCount);
+                setSuccess = fp_SetPreferredUILanguages(MUI_LANGUAGE_NAME,userLanguagesMultiString,&setLangCount);
             }
             else
             {
                 fp_SetPreferredUILanguages = (SET_PREFERRED_UI_LANGUAGES_PROTOTYPE) GetProcAddress(hDLL,"SetThreadPreferredUILanguages");
                 // call SetThreadPreferredUILanguages if it is available in Kernel32.dll's export table - Windows Vista and later
                 if(fp_SetPreferredUILanguages)
-                    setSuccess = fp_SetPreferredUILanguages(MUI_LANGUAGE_NAME,userLanguagesMultiString,&amp;setLangCount);
+                    setSuccess = fp_SetPreferredUILanguages(MUI_LANGUAGE_NAME,userLanguagesMultiString,&setLangCount);
             }
         }
 
@@ -872,7 +872,7 @@ Create a project that can use the localized resource modules on any version of W
             // need to provide your own fallback mechanism such as the implementation below
             // in essence the application will iterate through the user configured language list
             WCHAR * next = userLanguagesMultiString;
-            while(!resContainer &amp;&amp; *next != L'\0')
+            while(!resContainer && *next != L'\0')
             {
                 // convert the language name to an appropriate LCID
                 // DownlevelLocaleNameToLCID is available via standalone download package 
@@ -882,7 +882,7 @@ Create a project that can use the localized resource modules on any version of W
                 resContainer = LoadMUILibraryW(HELLO_MODULE_CONTRIVED_FILE_PATH,MUI_LANGUAGE_NAME,(LANGID)nextLcid);
                 // increment to the next language name in our list
                 size_t nextStrLen = 0;
-                if(SUCCEEDED(StringCchLengthW(next,LOCALE_NAME_MAX_LENGTH,&amp;nextStrLen)))
+                if(SUCCEEDED(StringCchLengthW(next,LOCALE_NAME_MAX_LENGTH,&nextStrLen)))
                     next += (nextStrLen + 1);
                 else
                     break; // string is invalid - need to exit
@@ -934,7 +934,7 @@ Create a project that can use the localized resource modules on any version of W
         {
             // clear out the input variables
             DWORD bytesActuallyRead = 0;
-            if(ReadFile(langConfigFileHandle,langStr,langStrSize*sizeof(WCHAR),&amp;bytesActuallyRead,NULL) &amp;&amp; bytesActuallyRead > 0)
+            if(ReadFile(langConfigFileHandle,langStr,langStrSize*sizeof(WCHAR),&bytesActuallyRead,NULL) && bytesActuallyRead > 0)
             {
                 rtnVal = TRUE;
                 DWORD nullIndex = (bytesActuallyRead/sizeof(WCHAR) < langStrSize) ? bytesActuallyRead/sizeof(WCHAR) : langStrSize;
@@ -948,28 +948,28 @@ Create a project that can use the localized resource modules on any version of W
     {
         BOOL rtnVal = FALSE;
         size_t strLen = 0;
-        rtnVal = SUCCEEDED(StringCchLengthW(langStr,USER_CONFIGURATION_STRING_BUFFER*2,&amp;strLen));
-        if(rtnVal &amp;&amp; strLen > 0 &amp;&amp; langMultiStr &amp;&amp; langMultiStrSize > 0)
+        rtnVal = SUCCEEDED(StringCchLengthW(langStr,USER_CONFIGURATION_STRING_BUFFER*2,&strLen));
+        if(rtnVal && strLen > 0 && langMultiStr && langMultiStrSize > 0)
         {
             WCHAR * langMultiStrPtr = langMultiStr;
             WCHAR * last = langStr + (langStr[0] == 0xFEFF ? 1 : 0);
             WCHAR * context = last;
-            WCHAR * next = wcstok_s(last,L",; :",&amp;context);
-            while(next &amp;&amp; rtnVal)
+            WCHAR * next = wcstok_s(last,L",; :",&context);
+            while(next && rtnVal)
             {
                 // make sure you validate the user input
-                if(SUCCEEDED(StringCchLengthW(last,LOCALE_NAME_MAX_LENGTH,&amp;strLen)) 
-                    &amp;&amp; DownlevelLocaleNameToLCID(next,0) != 0)
+                if(SUCCEEDED(StringCchLengthW(last,LOCALE_NAME_MAX_LENGTH,&strLen)) 
+                    && DownlevelLocaleNameToLCID(next,0) != 0)
                 {
                     langMultiStrPtr[0] = L'\0';
-                    rtnVal &amp;= SUCCEEDED(StringCchCatW(langMultiStrPtr,(langMultiStrSize - (langMultiStrPtr - langMultiStr)),next));
+                    rtnVal &= SUCCEEDED(StringCchCatW(langMultiStrPtr,(langMultiStrSize - (langMultiStrPtr - langMultiStr)),next));
                     langMultiStrPtr += strLen + 1;
                 }
-                next = wcstok_s(NULL,L",; :",&amp;context);
+                next = wcstok_s(NULL,L",; :",&context);
                 if(next)
                     last = next;
             }
-            if(rtnVal &amp;&amp; (langMultiStrSize - (langMultiStrPtr - langMultiStr))) // make sure there is a double null term for the multi-string 
+            if(rtnVal && (langMultiStrSize - (langMultiStrPtr - langMultiStr))) // make sure there is a double null term for the multi-string 
             {
                 langMultiStrPtr[0] = L'\0';
             }

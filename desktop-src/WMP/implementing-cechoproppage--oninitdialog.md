@@ -41,8 +41,8 @@ The code should next attempt to retrieve the current property values from the Ec
 ```
 if (m_spEcho)
 {
-    m_spEcho->get_delay(&amp;dwDelayTime);
-    m_spEcho->get_wetmix(&amp;fWetmix);
+    m_spEcho->get_delay(&dwDelayTime);
+    m_spEcho->get_wetmix(&fWetmix);
     // Convert wet mix from double to DWORD.
     dwWetmix = (DWORD)(fWetmix * 100);
 }

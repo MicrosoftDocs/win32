@@ -76,7 +76,7 @@ void AsyncFunc(IN PRPC_ASYNC_STATE pAsync,
     }
  
     printf("\nCalling RpcAsyncCompleteCall\n");
-    status = RpcAsyncCompleteCall(pAsync, &amp;nReply);
+    status = RpcAsyncCompleteCall(pAsync, &nReply);
     printf("RpcAsyncCompleteCall returned 0x%x\n", status);
     if (status){
         exit(status);

@@ -48,7 +48,7 @@ HRESULT CreateVideoCaptureDevice(IMFMediaSource **ppSource)
     IMFActivate **ppDevices = NULL;
 
     // Create an attribute store to hold the search criteria.
-    HRESULT hr = MFCreateAttributes(&amp;pConfig, 1);
+    HRESULT hr = MFCreateAttributes(&pConfig, 1);
 
     // Request video capture devices.
     if (SUCCEEDED(hr))
@@ -62,7 +62,7 @@ HRESULT CreateVideoCaptureDevice(IMFMediaSource **ppSource)
     // Enumerate the devices,
     if (SUCCEEDED(hr))
     {
-        hr = MFEnumDeviceSources(pConfig, &amp;ppDevices, &amp;count);
+        hr = MFEnumDeviceSources(pConfig, &ppDevices, &count);
     }
 
     // Create a media source for the first device in the list.
@@ -110,7 +110,7 @@ void DebugShowDeviceNames(IMFActivate **ppDevices, UINT count)
         UINT32 cchName;
         hr = ppDevices[i]->GetAllocatedString(
             MF_DEVSOURCE_ATTRIBUTE_FRIENDLY_NAME,
-            &amp;szFriendlyName, &amp;cchName);
+            &szFriendlyName, &cchName);
 
         if (SUCCEEDED(hr))
         {
@@ -142,7 +142,7 @@ HRESULT CreateVideoCaptureDevice(PCWSTR *pszSymbolicLink, IMFMediaSource **ppSou
     IMFAttributes *pAttributes = NULL;
     IMFMediaSource *pSource = NULL;
 
-    HRESULT hr = MFCreateAttributes(&amp;pAttributes, 2);
+    HRESULT hr = MFCreateAttributes(&pAttributes, 2);
 
     // Set the device type to video.
     if (SUCCEEDED(hr))
@@ -168,7 +168,7 @@ HRESULT CreateVideoCaptureDevice(PCWSTR *pszSymbolicLink, IMFMediaSource **ppSou
         hr = MFCreateDeviceSource(pAttributes, ppSource);
     }
 
-    SafeRelease(&amp;pAttributes);
+    SafeRelease(&pAttributes);
     return hr;    
 }
 ```
@@ -193,7 +193,7 @@ HRESULT CreateAudioCaptureDevice(PCWSTR *pszEndPointID, IMFMediaSource **ppSourc
     IMFAttributes *pAttributes = NULL;
     IMFMediaSource *pSource = NULL;
 
-    HRESULT hr = MFCreateAttributes(&amp;pAttributes, 2);
+    HRESULT hr = MFCreateAttributes(&pAttributes, 2);
 
     // Set the device type to audio.
     if (SUCCEEDED(hr))
@@ -218,7 +218,7 @@ HRESULT CreateAudioCaptureDevice(PCWSTR *pszEndPointID, IMFMediaSource **ppSourc
         hr = MFCreateDeviceSource(pAttributes, ppSource);
     }
 
-    SafeRelease(&amp;pAttributes);
+    SafeRelease(&pAttributes);
     return hr;    
 }
 ```

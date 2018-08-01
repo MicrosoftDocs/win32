@@ -50,7 +50,7 @@ int __cdecl _tmain()
     //
     // Calculate the buffer size.
     //
-    Result = SIZETMult(NumberOfHeaps, sizeof(*aHeaps), &amp;BytesToAllocate);
+    Result = SIZETMult(NumberOfHeaps, sizeof(*aHeaps), &BytesToAllocate);
     if (Result != S_OK) {
         _tprintf(TEXT("SIZETMult failed with HR %d.\n"), Result);
         return 1;

@@ -31,7 +31,7 @@ The following code fragment illustrates how to use COM+ services between calls t
 ```C++
 // A CServiceConfig object was created as follows:
 // hr = CoCreateInstance(CLSID_CServiceConfig, NULL, CLSCTX_INPROC_SERVER, 
-//   IID_IUnknown, (void**)&amp;pUnknownCSC);
+//   IID_IUnknown, (void**)&pUnknownCSC);
 
 // Enter the Service Domain.
 HRESULT hr = CoEnterServiceDomain(pUnknownCSC);

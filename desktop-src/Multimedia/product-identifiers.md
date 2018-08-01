@@ -151,7 +151,7 @@ ms.date: 05/31/2018
 </ul></td>
 </tr>
 <tr class="even">
-<td>Ing. C. Olivetti &amp; C., S.p.A.</td>
+<td>Ing. C. Olivetti & C., S.p.A.</td>
 <td><ul>
 <li>MM_OLIVETTI_ACM_ADPCM</li>
 <li>MM_OLIVETTI_ACM_CELP</li>

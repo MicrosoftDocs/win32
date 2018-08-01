@@ -20,11 +20,11 @@ You can use the following code to view the contents of a media type while debugg
 
 #include <strsafe.h>
 
-LPCWSTR GetGUIDNameConst(const GUID&amp; guid);
-HRESULT GetGUIDName(const GUID&amp; guid, WCHAR **ppwsz);
+LPCWSTR GetGUIDNameConst(const GUID& guid);
+HRESULT GetGUIDName(const GUID& guid, WCHAR **ppwsz);
 
 HRESULT LogAttributeValueByIndex(IMFAttributes *pAttr, DWORD index);
-HRESULT SpecialCaseAttributeValue(GUID guid, const PROPVARIANT&amp; var);
+HRESULT SpecialCaseAttributeValue(GUID guid, const PROPVARIANT& var);
 
 void DBGMSG(PCWSTR format, ...);
 
@@ -32,7 +32,7 @@ HRESULT LogMediaType(IMFMediaType *pType)
 {
     UINT32 count = 0;
 
-    HRESULT hr = pType->GetCount(&amp;count);
+    HRESULT hr = pType->GetCount(&count);
     if (FAILED(hr))
     {
         return hr;
@@ -62,15 +62,15 @@ HRESULT LogAttributeValueByIndex(IMFAttributes *pAttr, DWORD index)
     GUID guid = { 0 };
 
     PROPVARIANT var;
-    PropVariantInit(&amp;var);
+    PropVariantInit(&var);
 
-    HRESULT hr = pAttr->GetItemByIndex(index, &amp;guid, &amp;var);
+    HRESULT hr = pAttr->GetItemByIndex(index, &guid, &var);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = GetGUIDName(guid, &amp;pGuidName);
+    hr = GetGUIDName(guid, &pGuidName);
     if (FAILED(hr))
     {
         goto done;
@@ -100,7 +100,7 @@ HRESULT LogAttributeValueByIndex(IMFAttributes *pAttr, DWORD index)
             break;
 
         case VT_CLSID:
-            hr = GetGUIDName(*var.puuid, &amp;pGuidValName);
+            hr = GetGUIDName(*var.puuid, &pGuidValName);
             if (SUCCEEDED(hr))
             {
                 DBGMSG(pGuidValName);
@@ -129,11 +129,11 @@ done:
     DBGMSG(L"\n");
     CoTaskMemFree(pGuidName);
     CoTaskMemFree(pGuidValName);
-    PropVariantClear(&amp;var);
+    PropVariantClear(&var);
     return hr;
 }
 
-HRESULT GetGUIDName(const GUID&amp; guid, WCHAR **ppwsz)
+HRESULT GetGUIDName(const GUID& guid, WCHAR **ppwsz)
 {
     HRESULT hr = S_OK;
     WCHAR *pName = NULL;
@@ -143,7 +143,7 @@ HRESULT GetGUIDName(const GUID&amp; guid, WCHAR **ppwsz)
     {
         size_t cchLength = 0;
     
-        hr = StringCchLength(pcwsz, STRSAFE_MAX_CCH, &amp;cchLength);
+        hr = StringCchLength(pcwsz, STRSAFE_MAX_CCH, &cchLength);
         if (FAILED(hr))
         {
             goto done;
@@ -165,7 +165,7 @@ HRESULT GetGUIDName(const GUID&amp; guid, WCHAR **ppwsz)
     }
     else
     {
-        hr = StringFromCLSID(guid, &amp;pName);
+        hr = StringFromCLSID(guid, &pName);
     }
 
 done:
@@ -181,19 +181,19 @@ done:
     return hr;
 }
 
-void LogUINT32AsUINT64(const PROPVARIANT&amp; var)
+void LogUINT32AsUINT64(const PROPVARIANT& var)
 {
     UINT32 uHigh = 0, uLow = 0;
-    Unpack2UINT32AsUINT64(var.uhVal.QuadPart, &amp;uHigh, &amp;uLow);
+    Unpack2UINT32AsUINT64(var.uhVal.QuadPart, &uHigh, &uLow);
     DBGMSG(L"%d x %d", uHigh, uLow);
 }
 
-float OffsetToFloat(const MFOffset&amp; offset)
+float OffsetToFloat(const MFOffset& offset)
 {
     return offset.value + (static_cast<float>(offset.fract) / 65536.0f);
 }
 
-HRESULT LogVideoArea(const PROPVARIANT&amp; var)
+HRESULT LogVideoArea(const PROPVARIANT& var)
 {
     if (var.caub.cElems < sizeof(MFVideoArea))
     {
@@ -208,7 +208,7 @@ HRESULT LogVideoArea(const PROPVARIANT&amp; var)
 }
 
 // Handle certain known special cases.
-HRESULT SpecialCaseAttributeValue(GUID guid, const PROPVARIANT&amp; var)
+HRESULT SpecialCaseAttributeValue(GUID guid, const PROPVARIANT& var)
 {
     if ((guid == MF_MT_FRAME_RATE) || (guid == MF_MT_FRAME_RATE_RANGE_MAX) ||
         (guid == MF_MT_FRAME_RATE_RANGE_MIN) || (guid == MF_MT_FRAME_SIZE) ||
@@ -248,7 +248,7 @@ void DBGMSG(PCWSTR format, ...)
 #define IF_EQUAL_RETURN(param, val) if(val == param) return L#val
 #endif
 
-LPCWSTR GetGUIDNameConst(const GUID&amp; guid)
+LPCWSTR GetGUIDNameConst(const GUID& guid)
 {
     IF_EQUAL_RETURN(guid, MF_MT_MAJOR_TYPE);
     IF_EQUAL_RETURN(guid, MF_MT_MAJOR_TYPE);

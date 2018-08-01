@@ -42,10 +42,10 @@ HANDLE OpenEventHandleSync()
   BOOL  bStatus;
   
   // Execute the initialization callback function 
-  bStatus = InitOnceExecuteOnce(&amp;g_InitOnce,          // One-time initialization structure
+  bStatus = InitOnceExecuteOnce(&g_InitOnce,          // One-time initialization structure
                                 InitHandleFunction,   // Pointer to initialization callback function
                                 NULL,                 // Optional parameter to callback function (not used)
-                                &amp;lpContext);          // Receives pointer to event object stored in g_InitOnce
+                                &lpContext);          // Receives pointer to event object stored in g_InitOnce
 
   // InitOnceExecuteOnce function succeeded. Return event object.
   if (bStatus)
@@ -117,10 +117,10 @@ HANDLE OpenEventHandleAsync()
   HANDLE hEvent;
   
   // Begin one-time initialization
-  fStatus = InitOnceBeginInitialize(&amp;g_InitOnce,       // Pointer to one-time initialization structure
+  fStatus = InitOnceBeginInitialize(&g_InitOnce,       // Pointer to one-time initialization structure
                                     INIT_ONCE_ASYNC,   // Asynchronous one-time initialization
-                                    &amp;fPending,         // Receives initialization status
-                                    &amp;lpContext);       // Receives pointer to data in g_InitOnce  
+                                    &fPending,         // Receives initialization status
+                                    &lpContext);       // Receives pointer to data in g_InitOnce  
 
   // InitOnceBeginInitialize function failed.
   if (!fStatus)
@@ -147,7 +147,7 @@ HANDLE OpenEventHandleAsync()
   }
 
   // Complete one-time initialization.
-  fStatus = InitOnceComplete(&amp;g_InitOnce,             // Pointer to one-time initialization structure
+  fStatus = InitOnceComplete(&g_InitOnce,             // Pointer to one-time initialization structure
                              INIT_ONCE_ASYNC,         // Asynchronous initialization
                              (PVOID)hEvent);          // Pointer to event object to be stored in g_InitOnce
 
@@ -162,13 +162,13 @@ HANDLE OpenEventHandleAsync()
 
 
   // Retrieve the final context data.
-  fStatus = InitOnceBeginInitialize(&amp;g_InitOnce,            // Pointer to one-time initialization structure
+  fStatus = InitOnceBeginInitialize(&g_InitOnce,            // Pointer to one-time initialization structure
                                     INIT_ONCE_CHECK_ONLY,   // Check whether initialization is complete
-                                    &amp;fPending,              // Receives initialization status
-                                    &amp;lpContext);            // Receives pointer to event object in g_InitOnce
+                                    &fPending,              // Receives initialization status
+                                    &lpContext);            // Receives pointer to event object in g_InitOnce
   
   // Initialization is complete. Return handle.
-  if (fStatus &amp;&amp; !fPending)
+  if (fStatus && !fPending)
   {
     return (HANDLE)lpContext;
   }

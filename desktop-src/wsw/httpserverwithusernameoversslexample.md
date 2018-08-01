@@ -80,7 +80,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -88,7 +88,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -123,11 +123,11 @@ static HRESULT CALLBACK MyPasswordValidator(
 
     if (CompareWsString(
             username, 
-            &amp;fixedUsername) 
-        &amp;&amp; 
+            &fixedUsername) 
+        && 
         CompareWsString(
             password, 
-            &amp;fixedPassword))
+            &fixedPassword))
     {
         return S_OK;
     }
@@ -150,8 +150,8 @@ static WS_ELEMENT_DESCRIPTION purchasingFaultElement =
 // The description of the fault message
 static WS_MESSAGE_DESCRIPTION purchasingFaultMessageDescription =
 {
-    &amp;purchasingFaultAction,
-    &amp;purchasingFaultElement,
+    &purchasingFaultAction,
+    &purchasingFaultElement,
 };
 
 // Main entry point
@@ -182,7 +182,7 @@ $$RC_START_HIGHLIGHT
     // registered with http.sys using a tool such as httpcfg.exe.
     
     // declare and initialize the array of all security bindings
-    WS_SECURITY_BINDING* securityBindings[2] = { &amp;sslBinding.binding, &amp;usernameBinding.binding };
+    WS_SECURITY_BINDING* securityBindings[2] = { &sslBinding.binding, &usernameBinding.binding };
     
     // declare and initialize the security description
     WS_SECURITY_DESCRIPTION securityDescription = {}; // zero out the struct
@@ -196,7 +196,7 @@ $$RC_END_HIGHLIGHT
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -208,7 +208,7 @@ $$RC_END_HIGHLIGHT
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -221,8 +221,8 @@ $$RC_START_HIGHLIGHT
         WS_CHANNEL_TYPE_REPLY, 
         WS_HTTP_CHANNEL_BINDING, 
         NULL, 0, 
-        &amp;securityDescription, 
-        &amp;listener, 
+        &securityDescription, 
+        &listener, 
         error);
     if (FAILED(hr))
     {
@@ -231,7 +231,7 @@ $$RC_START_HIGHLIGHT
 $$RC_END_HIGHLIGHT
     
     // Open listener 
-    hr = WsOpenListener(listener, &amp;uri, NULL, error);
+    hr = WsOpenListener(listener, &uri, NULL, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -241,7 +241,7 @@ $$RC_END_HIGHLIGHT
         listener, 
         NULL, 
         0, 
-        &amp;channel, 
+        &channel, 
         error);
     if (FAILED(hr))
     {
@@ -252,7 +252,7 @@ $$RC_END_HIGHLIGHT
         channel,
         NULL, 
         0, 
-        &amp;requestMessage, 
+        &requestMessage, 
         error);
     if (FAILED(hr))
     {
@@ -263,7 +263,7 @@ $$RC_END_HIGHLIGHT
         channel,
         NULL, 
         0, 
-        &amp;replyMessage, 
+        &replyMessage, 
         error);
     if (FAILED(hr))
     {
@@ -285,8 +285,8 @@ $$RC_END_HIGHLIGHT
         // or a request for order status.
         const WS_MESSAGE_DESCRIPTION* requestMessageDescriptions[] = 
         { 
-            &amp;PurchaseOrder_wsdl.messages.PurchaseOrder,   // contains a _PurchaseOrderType in the body
-            &amp;PurchaseOrder_wsdl.messages.GetOrderStatus,  // contains a GetOrderStatus in the body
+            &PurchaseOrder_wsdl.messages.PurchaseOrder,   // contains a _PurchaseOrderType in the body
+            &PurchaseOrder_wsdl.messages.GetOrderStatus,  // contains a GetOrderStatus in the body
         };
         
         // Receive the message and deserialize the element of the body into the appropriate
@@ -299,7 +299,7 @@ $$RC_END_HIGHLIGHT
         
         hr = WsReceiveMessage(channel, requestMessage, requestMessageDescriptions, WsCountOf(requestMessageDescriptions),
             WS_RECEIVE_REQUIRED_MESSAGE, WS_READ_REQUIRED_POINTER, heap, 
-            &amp;requestBodyPointer, sizeof(requestBodyPointer), &amp;indexOfMatchedMessageDescription, NULL, error);
+            &requestBodyPointer, sizeof(requestBodyPointer), &indexOfMatchedMessageDescription, NULL, error);
         
         // Process the request, and generate the reply
         const WS_MESSAGE_DESCRIPTION* replyMessageDescription = NULL;
@@ -313,7 +313,7 @@ $$RC_END_HIGHLIGHT
             // Get the message description that matched
             const WS_MESSAGE_DESCRIPTION* requestMessageDescription = requestMessageDescriptions[indexOfMatchedMessageDescription];
         
-            if (requestMessageDescription == &amp;PurchaseOrder_wsdl.messages.PurchaseOrder)
+            if (requestMessageDescription == &PurchaseOrder_wsdl.messages.PurchaseOrder)
             {
                 // The message was a purchase order.  Get the pointer to the deserialized value.
                 _PurchaseOrderType* purchaseOrder = (_PurchaseOrderType*)requestBodyPointer;
@@ -329,11 +329,11 @@ $$RC_END_HIGHLIGHT
                 orderConfirmation.orderID = 123;
         
                 // Setup up reply message
-                replyMessageDescription = &amp;PurchaseOrder_wsdl.messages.OrderConfirmation;
-                replyBodyPointer = &amp;orderConfirmation;
+                replyMessageDescription = &PurchaseOrder_wsdl.messages.OrderConfirmation;
+                replyBodyPointer = &orderConfirmation;
                 replyBodySize = sizeof(orderConfirmation);
             }
-            else if (requestMessageDescription == &amp;PurchaseOrder_wsdl.messages.GetOrderStatus)
+            else if (requestMessageDescription == &PurchaseOrder_wsdl.messages.GetOrderStatus)
             {
                 // The message was a order status request.  Get the pointer to the deserialized value.
                 _GetOrderStatusType* getOrderStatus = (_GetOrderStatusType*)requestBodyPointer;
@@ -349,15 +349,15 @@ $$RC_END_HIGHLIGHT
                     WS_XML_STRING _faultDetailName = WS_XML_STRING_VALUE("OrderNotFound");
                     WS_XML_STRING _faultDetailNs = WS_XML_STRING_VALUE("http://example.com");
                     WS_XML_STRING _faultAction = WS_XML_STRING_VALUE("http://example.com/fault");
-                    WS_ELEMENT_DESCRIPTION _faultElementDescription = { &amp;_faultDetailName, &amp;_faultDetailNs, WS_UINT32_TYPE, NULL };
-                    WS_FAULT_DETAIL_DESCRIPTION orderNotFoundFaultTypeDescription = { &amp;_faultAction, &amp;_faultElementDescription };
+                    WS_ELEMENT_DESCRIPTION _faultElementDescription = { &_faultDetailName, &_faultDetailNs, WS_UINT32_TYPE, NULL };
+                    WS_FAULT_DETAIL_DESCRIPTION orderNotFoundFaultTypeDescription = { &_faultAction, &_faultElementDescription };
                     
                     // Set fault detail information in the error object
                     hr = WsSetFaultErrorDetail(
                         error,
-                        &amp;orderNotFoundFaultTypeDescription,
+                        &orderNotFoundFaultTypeDescription,
                         WS_WRITE_REQUIRED_VALUE,
-                        &amp;orderNotFound,
+                        &orderNotFound,
                         sizeof(orderNotFound));
                     
                     if (FAILED(hr))
@@ -368,7 +368,7 @@ $$RC_END_HIGHLIGHT
                     // Add an error string to the error object.  This string will
                     // be included in the fault that is sent.
                     WS_STRING errorMessage = WS_STRING_VALUE(L"Invalid order ID");
-                    hr = WsAddErrorString(error, &amp;errorMessage);
+                    hr = WsAddErrorString(error, &errorMessage);
                     
                     if (FAILED(hr))
                     {
@@ -385,8 +385,8 @@ $$RC_END_HIGHLIGHT
                     getOrderStatusResponse.status = orderStatus;
         
                     // Specify which message description to use for reply
-                    replyMessageDescription = &amp;PurchaseOrder_wsdl.messages.GetOrderStatusResponse;
-                    replyBodyPointer = &amp;getOrderStatusResponse;
+                    replyMessageDescription = &PurchaseOrder_wsdl.messages.GetOrderStatusResponse;
+                    replyBodyPointer = &getOrderStatusResponse;
                     replyBodySize = sizeof(getOrderStatusResponse);
                 }
             }

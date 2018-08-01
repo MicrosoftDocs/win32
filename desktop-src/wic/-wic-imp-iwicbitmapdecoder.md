@@ -92,7 +92,7 @@ To implement [**GetContainerFormat**](/windows/desktop/api/Wincodec/nf-wincodec-
 IWICComponentInfo* pComponentInfo = NULL;
 HRESULT hr;
  
-hr = m_pImagingFactory->CreateComponentInfo(CLSID_This, &amp;pComponentInfo);
+hr = m_pImagingFactory->CreateComponentInfo(CLSID_This, &pComponentInfo);
 
 hr = pComponentInfo->QueryInterface(IID_IWICBitmapDecoderInfo, (void**)ppIDecoderInfo);
 
@@ -123,9 +123,9 @@ HRESULT hr;
 
 hr = m_pImagingFactory->CreateDecoderFromStream(
                                m_pStream, NULL, 
-                               WICDecodeMetadataCacheOnDemand, &amp;pPreviewDecoder);
+                               WICDecodeMetadataCacheOnDemand, &pPreviewDecoder);
 hr = pPreviewDecoder->GetFrame(0, pPreviewFrame);
-hr = pPreviewFrame->QueryInterface(IID_IWICBitmapSource, (void**)&amp;pPreview);
+hr = pPreviewFrame->QueryInterface(IID_IWICBitmapSource, (void**)&pPreview);
 
 ```
 

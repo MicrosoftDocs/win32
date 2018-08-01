@@ -63,7 +63,7 @@ d2dDevice->CreatePrintControl(
     wicFactory,
     documentTarget,
     printControlProperties,
-    &amp;d2dPrintControl
+    &d2dPrintControl
     );
 
 // Add Direct2D drawing commands encapsulated in a command list.

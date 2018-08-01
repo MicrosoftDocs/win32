@@ -31,7 +31,7 @@ The Capture Graph Builder's **RenderStream** method does not support the WST fil
 1.  Add the Overlay Mixer filter to the filter graph. The following code uses the AddFilterByCLSID function described in [Add a Filter by CLSID](add-a-filter-by-clsid.md). (AddFilterByCLSID is not a DirectShow API.)
     ```C++
     IBaseFilter *pOvMix = NULL;  // Pointer to the Overlay Mixer filter.
-    hr = AddFilterByCLSID(pGraph, CLSID_OverlayMixer, L"OVMix", &amp;pOvMix);
+    hr = AddFilterByCLSID(pGraph, CLSID_OverlayMixer, L"OVMix", &pOvMix);
     if (FAILED(hr)) 
     {
         // Handle the error ...
@@ -42,7 +42,7 @@ The Capture Graph Builder's **RenderStream** method does not support the WST fil
 
 2.  Connect the preview pin to the Video Renderer filter through the Overlay Mixer. You can use the **RenderStream** method, as follows:
     ```C++
-    hr = pBuild->RenderStream(&amp;PIN_CATEGORY_PREVIEW, &amp;MEDIATYPE_Video, 
+    hr = pBuild->RenderStream(&PIN_CATEGORY_PREVIEW, &MEDIATYPE_Video, 
         pCap, pOvMix, 0);
     ```
 
@@ -52,7 +52,7 @@ The Capture Graph Builder's **RenderStream** method does not support the WST fil
     ```C++
     IBaseFilter* pKernelTee = NULL;
     hr = CreateKernelFilter(AM_KSCATEGORY_SPLITTER, 
-        OLESTR("Tee/Sink-to-Sink Converter"), &amp;pKernelTee);
+        OLESTR("Tee/Sink-to-Sink Converter"), &pKernelTee);
     if (SUCCEEDED(hr))
     {
         hr = pGraph->AddFilter(pKernelTee, L"Kernel Tee");
@@ -65,7 +65,7 @@ The Capture Graph Builder's **RenderStream** method does not support the WST fil
     ```C++
     IBaseFilter* pWstCodec = NULL;
     hr = CreateKernelFilter(AM_KSCATEGORY_VBICODEC, 
-        OLESTR("WST Codec"), &amp;pWstCodec);
+        OLESTR("WST Codec"), &pWstCodec);
     if (SUCCEEDED(hr))
     {
         hr = pGraph->AddFilter(pWstCodec, L"WST Codec");
@@ -76,7 +76,7 @@ The Capture Graph Builder's **RenderStream** method does not support the WST fil
 
 5.  Call **RenderStream** to connect the capture filter's VBI pin to the Tee/Sink-to-Sink Converter, and the Tee/Sink-to-Sink Converter to the WST Codec filter:
     ```C++
-    hr = pBuild->RenderStream(&amp;PIN_CATEGORY_VBI, 0, pCap, 
+    hr = pBuild->RenderStream(&PIN_CATEGORY_VBI, 0, pCap, 
         pKernelTee, pWstCodec);
     ```
 
@@ -110,7 +110,7 @@ If the capture filter has a video port VBI pin (PIN\_CATEGPORY\_VIDEOPORT\_VBI),
 // Look for a video port VBI pin on the capture filter.
 IPin *pVPVBI = NULL;
 hr = FindPinByCategory(pCap, PINDIR_OUTPUT, 
-    PIN_CATEGORY_VIDEOPORT_VBI, &amp;pVPVBI);
+    PIN_CATEGORY_VIDEOPORT_VBI, &pVPVBI);
 if (FAILED(hr))
 {
     // No video port VBI pin; nothing else to do. OK to run the graph.
@@ -119,7 +119,7 @@ else
 {
     // Found one. Connect it to the VBI Surface Allocator.
     IBaseFilter *pSurf = NULL;
-    hr = AddFilterByCLSID(pGraph, CLSID_VBISurfaces, L"VBI Surf", &amp;pSurf);
+    hr = AddFilterByCLSID(pGraph, CLSID_VBISurfaces, L"VBI Surf", &pSurf);
     if (SUCCEEDED(hr))
     {
         hr = pBuild->RenderStream(NULL, NULL, pVPVBI, 0, pSurf);

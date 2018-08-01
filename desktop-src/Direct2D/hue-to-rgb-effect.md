@@ -31,7 +31,7 @@ To reverse the behavior of this effect, use the [RGB to Hue effect](rgb-to-hue-e
 
 ```C++
 ComPtr<ID2D1Effect> hueToRgbEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1HueToRgb, &amp;hueToRgbEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1HueToRgb, &hueToRgbEffect);
  
 hueToRgbEffect->SetInput(0, bitmap);
 hueToRgbEffect->SetValue(D2D1_HUETORGB_INPUT_COLOR_SPACE, D2D1_HUETORGB_INPUT_COLOR_SPACE_HUE_SATURATION_LIGHTNESS);

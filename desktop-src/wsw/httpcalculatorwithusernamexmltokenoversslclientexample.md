@@ -64,7 +64,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -72,7 +72,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -105,7 +105,7 @@ HRESULT CreateXmlSecurityToken(
     hr = WsCreateReader(
         NULL, 
         0, 
-        &amp;reader, 
+        &reader, 
         error);
 if (FAILED(hr))
 {
@@ -114,21 +114,21 @@ if (FAILED(hr))
 
     // define the input and encoding for the XML reader
     WS_XML_READER_BUFFER_INPUT readerInput;
-    ZeroMemory(&amp;readerInput, sizeof(readerInput));
+    ZeroMemory(&readerInput, sizeof(readerInput));
     readerInput.input.inputType = WS_XML_READER_INPUT_TYPE_BUFFER;
     readerInput.encodedData = securityTokenWireXmlForm;
     readerInput.encodedDataSize = (ULONG)strlen(securityTokenWireXmlForm);
 
     WS_XML_READER_TEXT_ENCODING readerEncoding;
-    ZeroMemory(&amp;readerEncoding, sizeof(readerEncoding));
+    ZeroMemory(&readerEncoding, sizeof(readerEncoding));
     readerEncoding.encoding.encodingType = WS_XML_READER_ENCODING_TYPE_TEXT;
     readerEncoding.charSet = WS_CHARSET_UTF8;
 
     // set the input and encoding for the XML reader
     hr = WsSetInput(
         reader, 
-        &amp;readerEncoding.encoding, 
-        &amp;readerInput.input, 
+        &readerEncoding.encoding, 
+        &readerInput.input, 
         NULL, 
         0, 
         error);
@@ -142,7 +142,7 @@ if (FAILED(hr))
         2048, 
         512, 
         NULL, 0, 
-        &amp;heap, 
+        &heap, 
         error);
 if (FAILED(hr))
 {
@@ -156,7 +156,7 @@ if (FAILED(hr))
         WS_XML_BUFFER_TYPE, NULL, 
         WS_READ_REQUIRED_POINTER, 
         heap, 
-        &amp;buffer, 
+        &buffer, 
         sizeof(buffer), 
         error);
 if (FAILED(hr))
@@ -220,7 +220,7 @@ $$RC_START_HIGHLIGHT
     sslBinding.binding.bindingType = WS_SSL_TRANSPORT_SECURITY_BINDING_TYPE; // set the binding type
     
     // declare and initialize the array of all security bindings
-    WS_SECURITY_BINDING* securityBindings[2] = { &amp;sslBinding.binding, &amp;xmlTokenBinding.binding };
+    WS_SECURITY_BINDING* securityBindings[2] = { &sslBinding.binding, &xmlTokenBinding.binding };
     
     // declare and initialize the security description
     WS_SECURITY_DESCRIPTION securityDescription = {}; // zero out the struct
@@ -237,7 +237,7 @@ $$RC_END_HIGHLIGHT
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -245,7 +245,7 @@ $$RC_END_HIGHLIGHT
     
 $$RC_START_HIGHLIGHT
     // create an XML security token and set it on the relevant security binding
-    hr = CreateXmlSecurityToken(&amp;securityToken, error);
+    hr = CreateXmlSecurityToken(&securityToken, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -259,7 +259,7 @@ $$RC_END_HIGHLIGHT
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -270,12 +270,12 @@ $$RC_END_HIGHLIGHT
     hr = WsCreateServiceProxy(
         WS_CHANNEL_TYPE_REQUEST, 
         WS_HTTP_CHANNEL_BINDING, 
-        &amp;securityDescription, 
+        &securityDescription, 
         NULL, 
         0, 
         NULL,
         0,
-        &amp;proxy, 
+        &proxy, 
         error);
     if (FAILED(hr))
     {
@@ -295,7 +295,7 @@ $$RC_END_HIGHLIGHT
     
     hr = WsOpenServiceProxy(
         proxy, 
-        &amp;address, 
+        &address, 
         NULL, 
         error);
     if (FAILED(hr))
@@ -307,7 +307,7 @@ $$RC_END_HIGHLIGHT
         proxy, 
         1, 
         2, 
-        &amp;result, 
+        &result, 
         heap, 
         NULL, 
         0, 

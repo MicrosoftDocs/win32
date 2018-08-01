@@ -75,7 +75,7 @@ int __cdecl wmain(int argc, wchar_t ** argv)
 
     iPort = _wtoi(argv[4]);
 
-    if (iFamily != AF_INET &amp;&amp; iFamily != AF_INET6) {
+    if (iFamily != AF_INET && iFamily != AF_INET6) {
         wprintf(L"Address family must be either AF_INET (2) or AF_INET6 (23)\n");
         return 1;
     }
@@ -85,7 +85,7 @@ int __cdecl wmain(int argc, wchar_t ** argv)
         return 1;
     }
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
     if (iResult != 0) {
         wprintf(L"WSAStartup failed with error: %d\n", iResult);
         return 1;
@@ -100,7 +100,7 @@ int __cdecl wmain(int argc, wchar_t ** argv)
     // Set the exclusive address option
     iOptval = 1;
     iResult = setsockopt(s, SOL_SOCKET, SO_EXCLUSIVEADDRUSE,
-                         (char *) &amp;iOptval, sizeof (iOptval));
+                         (char *) &iOptval, sizeof (iOptval));
     if (iResult == SOCKET_ERROR) {
         wprintf(L"setsockopt for SO_EXCLUSIVEADDRUSE failed with error: %ld\n",
                 WSAGetLastError());

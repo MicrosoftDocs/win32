@@ -65,7 +65,7 @@ LPITEMIDLIST PidlBrowse(HWND hwnd, int nCSIDL, LPSTR pszDisplayName)
 
     if(nCSIDL)
     {
-        SHGetFolderLocation(hwnd, nCSIDL, NULL, NULL, &amp;pidlRoot);
+        SHGetFolderLocation(hwnd, nCSIDL, NULL, NULL, &pidlRoot);
     }
 
     else
@@ -81,7 +81,7 @@ LPITEMIDLIST PidlBrowse(HWND hwnd, int nCSIDL, LPSTR pszDisplayName)
     bi.lpfn = NULL;
     bi.lParam = 0;
 
-    pidlSelected = SHBrowseForFolder(&amp;bi);
+    pidlSelected = SHBrowseForFolder(&bi);
 
     if(pidlRoot)
     {

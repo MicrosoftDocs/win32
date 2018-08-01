@@ -40,7 +40,7 @@ INT _cdecl wmain(INT argc, __in_ecount( argc ) WCHAR **argv)
     DWORD rc;
     HANDLE hFile;
 
-    rc = OpenDynamicChannel ( "DVC_Sample", &amp;hFile );
+    rc = OpenDynamicChannel ( "DVC_Sample", &hFile );
     if ( ERROR_SUCCESS != rc )
     {
         return 0;
@@ -53,7 +53,7 @@ INT _cdecl wmain(INT argc, __in_ecount( argc ) WCHAR **argv)
         ReadThread,
         hFile,
         0,
-        &amp;dwThreadId );
+        &dwThreadId );
 
     HANDLE hWriteThread = CreateThread(
         NULL,
@@ -61,7 +61,7 @@ INT _cdecl wmain(INT argc, __in_ecount( argc ) WCHAR **argv)
         WriteThread,
         hFile,
         0,
-        &amp;dwThreadId );
+        &dwThreadId );
 
     HANDLE ah[] = {hReadThread, hWriteThread};
     WaitForMultipleObjects(2, ah, TRUE, INFINITE );
@@ -100,8 +100,8 @@ DWORD OpenDynamicChannel(
     BOOL fSucc = WTSVirtualChannelQuery(
         hWTSHandle,
         WTSVirtualFileHandle,
-        &amp;vcFileHandlePtr,
-        &amp;len );
+        &vcFileHandlePtr,
+        &len );
     if ( !fSucc )
     {
         rc = GetLastError();
@@ -176,8 +176,8 @@ DWORD WINAPI WriteThread(PVOID param)
             hFile,
             WriteBuffer,
             msgSize,
-            &amp;dwWritten,
-            &amp;Overlapped );
+            &dwWritten,
+            &Overlapped );
         if ( !fSucc )
         {
             if ( GetLastError() == ERROR_IO_PENDING )
@@ -186,8 +186,8 @@ DWORD WINAPI WriteThread(PVOID param)
                 _ASSERT( WAIT_OBJECT_0 == dw );
                 fSucc = GetOverlappedResult(
                     hFile,
-                    &amp;Overlapped,
-                    &amp;dwWritten,
+                    &Overlapped,
+                    &dwWritten,
                     FALSE );
             }
         }
@@ -237,8 +237,8 @@ DWORD WINAPI ReadThread(PVOID param)
                 hFile,
                 ReadBuffer,
                 sizeof( ReadBuffer ),
-                &amp;dwRead,
-                &amp;Overlapped );
+                &dwRead,
+                &Overlapped );
             if ( !fSucc )
             {
                 if ( GetLastError() == ERROR_IO_PENDING )
@@ -247,8 +247,8 @@ DWORD WINAPI ReadThread(PVOID param)
                     _ASSERT( WAIT_OBJECT_0 == dw );
                     fSucc = GetOverlappedResult(
                         hFile,
-                        &amp;Overlapped,
-                        &amp;dwRead,
+                        &Overlapped,
+                        &dwRead,
                         FALSE );
                 }
             }

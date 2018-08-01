@@ -73,12 +73,12 @@ public:
 
     ULONG STDMETHODCALLTYPE AddRef()
     {
-        return InterlockedIncrement(&amp;_cRef);
+        return InterlockedIncrement(&_cRef);
     }
 
     ULONG STDMETHODCALLTYPE Release()
     {
-        ULONG ulRef = InterlockedDecrement(&amp;_cRef);
+        ULONG ulRef = InterlockedDecrement(&_cRef);
         if (0 == ulRef)
         {
             delete this;
@@ -115,7 +115,7 @@ public:
         {
             return E_INVALIDARG;
         }
-        if (g_hDlg != NULL &amp;&amp; pNotify->guidEventContext != g_guidMyContext)
+        if (g_hDlg != NULL && pNotify->guidEventContext != g_guidMyContext)
         {
             PostMessage(GetDlgItem(g_hDlg, IDC_CHECK_MUTE), BM_SETCHECK,
                         (pNotify->bMuted) ? BST_CHECKED : BST_UNCHECKED, 0);
@@ -191,26 +191,26 @@ int APIENTRY WinMain(HINSTANCE hInstance,
 
     CoInitialize(NULL);
 
-    hr = CoCreateGuid(&amp;g_guidMyContext);
+    hr = CoCreateGuid(&g_guidMyContext);
     EXIT_ON_ERROR(hr)
 
     // Get enumerator for audio endpoint devices.
     hr = CoCreateInstance(__uuidof(MMDeviceEnumerator),
                           NULL, CLSCTX_INPROC_SERVER,
                           __uuidof(IMMDeviceEnumerator),
-                          (void**)&amp;pEnumerator);
+                          (void**)&pEnumerator);
     EXIT_ON_ERROR(hr)
 
     // Get default audio-rendering device.
-    hr = pEnumerator->GetDefaultAudioEndpoint(eRender, eConsole, &amp;pDevice);
+    hr = pEnumerator->GetDefaultAudioEndpoint(eRender, eConsole, &pDevice);
     EXIT_ON_ERROR(hr)
 
     hr = pDevice->Activate(__uuidof(IAudioEndpointVolume),
-                           CLSCTX_ALL, NULL, (void**)&amp;g_pEndptVol);
+                           CLSCTX_ALL, NULL, (void**)&g_pEndptVol);
     EXIT_ON_ERROR(hr)
 
     hr = g_pEndptVol->RegisterControlChangeNotify(
-                     (IAudioEndpointVolumeCallback*)&amp;EPVolEvents);
+                     (IAudioEndpointVolumeCallback*)&EPVolEvents);
     EXIT_ON_ERROR(hr)
 
     InitCommonControls();
@@ -225,7 +225,7 @@ Exit:
     if (pEnumerator != NULL)
     {
         g_pEndptVol->UnregisterControlChangeNotify(
-                    (IAudioEndpointVolumeCallback*)&amp;EPVolEvents);
+                    (IAudioEndpointVolumeCallback*)&EPVolEvents);
     }
     SAFE_RELEASE(pEnumerator)
     SAFE_RELEASE(pDevice)
@@ -252,11 +252,11 @@ BOOL CALLBACK DlgProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
         g_hDlg = hDlg;
         SendDlgItemMessage(hDlg, IDC_SLIDER_VOLUME, TBM_SETRANGEMIN, FALSE, 0);
         SendDlgItemMessage(hDlg, IDC_SLIDER_VOLUME, TBM_SETRANGEMAX, FALSE, MAX_VOL);
-        hr = g_pEndptVol->GetMute(&amp;bMute);
+        hr = g_pEndptVol->GetMute(&bMute);
         ERROR_CANCEL(hr)
         SendDlgItemMessage(hDlg, IDC_CHECK_MUTE, BM_SETCHECK,
                            bMute ? BST_CHECKED : BST_UNCHECKED, 0);
-        hr = g_pEndptVol->GetMasterVolumeLevelScalar(&amp;fVolume);
+        hr = g_pEndptVol->GetMasterVolumeLevelScalar(&fVolume);
         ERROR_CANCEL(hr)
         nVolume = (int)(MAX_VOL*fVolume + 0.5);
         SendDlgItemMessage(hDlg, IDC_SLIDER_VOLUME, TBM_SETPOS, TRUE, nVolume);
@@ -275,11 +275,11 @@ BOOL CALLBACK DlgProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
         case SB_LEFT:
             // The user moved the volume slider in the dialog box.
             SendDlgItemMessage(hDlg, IDC_CHECK_MUTE, BM_SETCHECK, BST_UNCHECKED, 0);
-            hr = g_pEndptVol->SetMute(FALSE, &amp;g_guidMyContext);
+            hr = g_pEndptVol->SetMute(FALSE, &g_guidMyContext);
             ERROR_CANCEL(hr)
             nVolume = SendDlgItemMessage(hDlg, IDC_SLIDER_VOLUME, TBM_GETPOS, 0, 0);
             fVolume = (float)nVolume/MAX_VOL;
-            hr = g_pEndptVol->SetMasterVolumeLevelScalar(fVolume, &amp;g_guidMyContext);
+            hr = g_pEndptVol->SetMasterVolumeLevelScalar(fVolume, &g_guidMyContext);
             ERROR_CANCEL(hr)
             return TRUE;
         }
@@ -292,7 +292,7 @@ BOOL CALLBACK DlgProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
             // The user selected the Mute check box in the dialog box.
             nChecked = SendDlgItemMessage(hDlg, IDC_CHECK_MUTE, BM_GETCHECK, 0, 0);
             bMute = (BST_CHECKED == nChecked);
-            hr = g_pEndptVol->SetMute(bMute, &amp;g_guidMyContext);
+            hr = g_pEndptVol->SetMute(bMute, &g_guidMyContext);
             ERROR_CANCEL(hr)
             return TRUE;
         case IDCANCEL:

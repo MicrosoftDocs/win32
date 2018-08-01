@@ -360,7 +360,7 @@ STDMETHODIMP DropDownColorPickerHandler::UpdateProperty(
       rThemeColors[i] = RGB(0, 255, 0); 
     }
     hr = InitPropVariantFromUInt32Vector(
-           &amp;rThemeColors, ARRAYSIZE(rThemeColors), ppropvarNewValue);
+           &rThemeColors, ARRAYSIZE(rThemeColors), ppropvarNewValue);
   }
 
   else if (key == UI_PKEY_StandardColors)
@@ -372,7 +372,7 @@ STDMETHODIMP DropDownColorPickerHandler::UpdateProperty(
       rStandardColors[i] = RGB(255, 0, 0); 
     }
     hr = InitPropVariantFromUInt32Vector(
-           &amp;rStandardColors, ARRAYSIZE(rStandardColors),ppropvarNewValue);
+           &rStandardColors, ARRAYSIZE(rStandardColors),ppropvarNewValue);
   }
 
   else if (key == UI_PKEY_ThemeColorsTooltips)
@@ -383,7 +383,7 @@ STDMETHODIMP DropDownColorPickerHandler::UpdateProperty(
       // any constant character string
       rThemeTooltips[i] = L"Green"; 
     }
-    hr = InitPropVariantFromStringVector((PCWSTR *)&amp;rThemeTooltips, 50, ppropvarNewValue);
+    hr = InitPropVariantFromStringVector((PCWSTR *)&rThemeTooltips, 50, ppropvarNewValue);
   }
   else if (key == UI_PKEY_StandardColorsTooltips)
   {
@@ -394,7 +394,7 @@ STDMETHODIMP DropDownColorPickerHandler::UpdateProperty(
       rStandardTooltips[i] = L"Red"; 
     }
     hr = InitPropVariantFromStringVector(
-           (PCWSTR *)&amp;rStandardTooltips, 20, ppropvarNewValue);
+           (PCWSTR *)&rStandardTooltips, 20, ppropvarNewValue);
   }
   return hr;
 }
@@ -426,7 +426,7 @@ STDMETHODIMP DropDownColorPickerHandler::Execute(
     {
       case UI_SWATCHCOLORTYPE_RGB:
         PROPVARIANT var;
-        pCommandExecutionProperties->GetValue(UI_PKEY_Color, &amp;var);
+        pCommandExecutionProperties->GetValue(UI_PKEY_Color, &var);
         color = PropVariantToUInt32WithDefault(var, 0);
         break;
       case UI_SWATCHCOLORTYPE_AUTOMATIC:

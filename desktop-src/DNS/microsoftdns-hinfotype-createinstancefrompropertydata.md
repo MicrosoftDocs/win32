@@ -37,7 +37,7 @@ void CreateInstanceFromPropertyData(
   [in, optional] uint32                 TTL,
   [in, optional] string                 CPU,
   [in, optional] string                 OS,
-  [out, ref]     MicrosoftDNS_HINFOType &amp;RR
+  [out, ref]     MicrosoftDNS_HINFOType &RR
 );
 ```
 

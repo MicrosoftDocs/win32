@@ -47,11 +47,11 @@ ID3D10Device *pDevice = NULL;
 // Initialize D3D10 device...
 
 D3DX10_IMAGE_LOAD_INFO loadInfo;
-ZeroMemory( &amp;loadInfo, sizeof(D3DX10_IMAGE_LOAD_INFO) );
+ZeroMemory( &loadInfo, sizeof(D3DX10_IMAGE_LOAD_INFO) );
 loadInfo.BindFlags = D3D10_BIND_SHADER_RESOURCE;
 
 ID3D10Resource *pTexture = NULL;
-D3DX10CreateTextureFromFile( pDevice, L"sample.bmp", &amp;loadInfo, NULL, &amp;pTexture, NULL );
+D3DX10CreateTextureFromFile( pDevice, L"sample.bmp", &loadInfo, NULL, &pTexture, NULL );
 ```
 
 
@@ -64,7 +64,7 @@ The above example does not specify all of the loading parameters. In fact, it's 
 
 
 ```
-D3DX10CreateTextureFromFile( pDevice, L"sample.bmp", NULL, NULL, &amp;pTexture, NULL );
+D3DX10CreateTextureFromFile( pDevice, L"sample.bmp", NULL, NULL, &pTexture, NULL );
 ```
 
 
@@ -77,7 +77,7 @@ Now that a texture has been created, you need to create a shader-resource view s
 ```
 D3D10_SHADER_RESOURCE_VIEW_DESC srvDesc;
 D3D10_RESOURCE_DIMENSION type;
-pTexture->GetType( &amp;type );
+pTexture->GetType( &type );
 switch( type )
 {
     case D3D10_RESOURCE_DIMENSION_BUFFER:
@@ -90,7 +90,7 @@ switch( type )
     {
         D3D10_TEXTURE2D_DESC desc;
         ID3D10Texture2D *pTexture2D = (ID3D10Texture2D*)pTexture;
-        pTexture2D->GetDesc( &amp;desc );
+        pTexture2D->GetDesc( &desc );
         
         srvDesc.Format = desc.Format;
         srvDesc.ViewDimension = D3D10_SRV_DIMENSION_TEXTURE2D;
@@ -108,7 +108,7 @@ switch( type )
 }
 
 ID3D10ShaderResourceView *pSRView = NULL;
-pDevice->CreateShaderResourceView( pTexture, &amp;srvDesc, &amp;pSRView );
+pDevice->CreateShaderResourceView( pTexture, &srvDesc, &pSRView );
 ```
 
 
@@ -124,12 +124,12 @@ Direct3D 10 requires both a texture and a shader-resource view to read from a te
 
 ```
 D3DX10_IMAGE_LOAD_INFO loadInfo;
-ZeroMemory( &amp;loadInfo, sizeof(D3DX10_IMAGE_LOAD_INFO) );
+ZeroMemory( &loadInfo, sizeof(D3DX10_IMAGE_LOAD_INFO) );
 loadInfo.BindFlags = D3D10_BIND_SHADER_RESOURCE;
 loadInfo.Format = DXGI_FORMAT_BC1_UNORM;
 
 ID3D10ShaderResourceView *pSRView = NULL;
-D3DX10CreateShaderResourceViewFromFile( pDevice, L"sample.bmp", &amp;loadInfo, NULL, &amp;pSRView, NULL );
+D3DX10CreateShaderResourceViewFromFile( pDevice, L"sample.bmp", &loadInfo, NULL, &pSRView, NULL );
 ```
 
 
@@ -156,7 +156,7 @@ The following code sample creates an empty texture that the pipeline can render 
 ```
 // Create the render target texture
 D3D10_TEXTURE2D_DESC desc;
-ZeroMemory( &amp;desc, sizeof(desc) );
+ZeroMemory( &desc, sizeof(desc) );
 desc.Width = 256;
 desc.Height = 256;
 desc.MipLevels = 1;
@@ -167,7 +167,7 @@ desc.Usage = D3D10_USAGE_DEFAULT;
 desc.BindFlags = D3D10_BIND_RENDER_TARGET | D3D10_BIND_SHADER_RESOURCE;
 
 ID3D10Texture2D *pRenderTarget = NULL;
-pDevice->CreateTexture2D( &amp;desc, NULL, &amp;pRenderTarget );
+pDevice->CreateTexture2D( &desc, NULL, &pRenderTarget );
 ```
 
 
@@ -184,7 +184,7 @@ rtDesc.ViewDimension = D3D10_RTV_DIMENSION_TEXTURE2D;
 rtDesc.Texture2D.MipSlice = 0;
 
 ID3D10RenderTargetView *pRenderTargetView = NULL;
-pDevice->CreateRenderTargetView( pRenderTarget, &amp;rtDesc, &amp;pRenderTargetView );
+pDevice->CreateRenderTargetView( pRenderTarget, &rtDesc, &pRenderTargetView );
 ```
 
 
@@ -203,7 +203,7 @@ srDesc.Texture2D.MostDetailedMip = 0;
 srDesc.Texture2D.MipLevels = 1;
 
 ID3D10ShaderResourceView *pShaderResView = NULL;
-pDevice->CreateShaderResourceView( pRenderTarget, &amp;srDesc, &amp;pShaderResView );
+pDevice->CreateShaderResourceView( pRenderTarget, &srDesc, &pShaderResView );
 ```
 
 
@@ -226,7 +226,7 @@ desc.Usage = D3D10_USAGE_DYNAMIC;
 desc.BindFlags = D3D10_BIND_SHADER_RESOURCE;
 desc.CPUAccessFlags = D3D10_CPU_ACCESS_WRITE;
 ID3D10Texture2D *pTexture = NULL;
-pd3dDevice->CreateTexture2D( &amp;desc, NULL, &amp;pTexture );
+pd3dDevice->CreateTexture2D( &desc, NULL, &pTexture );
 ```
 
 
@@ -238,7 +238,7 @@ Calling [**Map**](/windows/desktop/api/D3D10/nf-d3d10-id3d10texture2d-map) enabl
 
 ```
 D3D10_MAPPED_TEXTURE2D mappedTex;
-pTexture->Map( D3D10CalcSubresource(0, 0, 1), D3D10_MAP_WRITE_DISCARD, 0, &amp;mappedTex );
+pTexture->Map( D3D10CalcSubresource(0, 0, 1), D3D10_MAP_WRITE_DISCARD, 0, &mappedTex );
 
 UCHAR* pTexels = (UCHAR*)mappedTex.pData;
 for( UINT row = 0; row < desc.Height; row++ )

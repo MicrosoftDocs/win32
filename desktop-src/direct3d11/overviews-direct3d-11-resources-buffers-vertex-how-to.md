@@ -63,7 +63,7 @@ InitData.SysMemPitch = 0;
 InitData.SysMemSlicePitch = 0;
 
 // Create the vertex buffer.
-hr = g_pd3dDevice->CreateBuffer( &amp;bufferDesc, &amp;InitData, &amp;g_pVertexBuffer );
+hr = g_pd3dDevice->CreateBuffer( &bufferDesc, &InitData, &g_pVertexBuffer );
     
 ```
 

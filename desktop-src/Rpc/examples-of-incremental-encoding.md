@@ -31,7 +31,7 @@ The following excerpt represents the relevant application fragments.
 
 ```C++
 if (MesEncodeIncrementalHandleCreate (State, AllocFn, WriteFn, 
-    &amp;Handle) == RPC_S_OK)
+    &Handle) == RPC_S_OK)
 {
 //...
 /* The serialize works from the beginning of the buffer because
@@ -51,7 +51,7 @@ if (MesIncrementalHandleReset (Handle, NULL, NULL, NULL, ReadFn,
 {
 /*The ReadFn is needed to reset the handle. The arguments
     that are NULL do not change. You can also call 
-    MesDecodeIncrementalHandleCreate (State, ReadFn, &amp;Handle);
+    MesDecodeIncrementalHandleCreate (State, ReadFn, &Handle);
     The Moo_Decode does the following:
     - calls Read with the appropriate size of data to read and
         receives a buffer with the data

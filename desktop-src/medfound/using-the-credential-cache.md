@@ -19,7 +19,7 @@ To create the default credential cache object, call the [**MFCreateCredentialCac
 ```C++
 HRESULT hr = S_OK;
 IMFNetCredentialCache *pCredentialCache = NULL;
-hr = MFCreateCredentialCache(&amp;pCredentialCache);
+hr = MFCreateCredentialCache(&pCredentialCache);
 ```
 
 
@@ -33,8 +33,8 @@ After the credential cache is created, the application can use the following met
             pszUrl,
             pszRealm,
             dwAuthenticationFlags,
-            &amp;pCredential,
-            &amp;dwRequirementsFlags);
+            &pCredential,
+            &dwRequirementsFlags);
     ```
 
     

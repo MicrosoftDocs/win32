@@ -36,11 +36,11 @@ void ReceiveLongs()
         (long *)malloc( sizeof(long) * PIPE_SIZE );
     
     pipeDataIndex = 0;
-    outputPipe.state =  (rpc_ss_pipe_state_t )&amp;pipeDataIndex;
+    outputPipe.state =  (rpc_ss_pipe_state_t )&pipeDataIndex;
     outputPipe.push  = PipePush;
     outputPipe.alloc = PipeAlloc;
  
-    OutPipe( &amp;outputPipe ); /* Make the rpc */
+    OutPipe( &outputPipe ); /* Make the rpc */
  
     free( (void *)globalPipeData );
  

@@ -140,7 +140,7 @@ The following steps describe in detail how to implement a simple Ribbon applicat
                 CLSID_UIRibbonFramework, 
                 NULL,
                 CLSCTX_INPROC_SERVER, 
-                IID_PPV_ARGS(&amp;pFramework));
+                IID_PPV_ARGS(&pFramework));
     if (FAILED(hr))
     {
       return hr;

@@ -46,7 +46,7 @@ Status = RtmCreateRouteEnum(RtmRegHandle,
                             0,
                             NULL,
                             0,
-                            &amp;EnumHandle2);
+                            &EnumHandle2);
 if (Status == NO_ERROR)
 {
     do
@@ -55,7 +55,7 @@ if (Status == NO_ERROR)
 
         Status = RtmGetEnumRoutes(RtmRegHandle
                                   EnumHandle2,
-                                  &amp;NumHandles,
+                                  &NumHandles,
                                   RouteHandles);
 
         for (k = 0; k < NumHandles; k++)

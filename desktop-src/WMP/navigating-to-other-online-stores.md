@@ -23,7 +23,7 @@ The following example code shows HTML that creates a link to switch from the Pro
 
 ```C++
 <A HREF = 
-"javascript:window.external.NavigateTaskPaneURL('SouthridgeVideo', 'ServiceTask2', 'From=Proseware&amp;To=2')"
+"javascript:window.external.NavigateTaskPaneURL('SouthridgeVideo', 'ServiceTask2', 'From=Proseware&To=2')"
 >Switch to Southridge Video</A>
 
 ```

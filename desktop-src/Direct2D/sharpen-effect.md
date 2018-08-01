@@ -30,7 +30,7 @@ The CLSID for this effect is CLSID\_D2D1Sharpen.
 
 ```C++
 ComPtr<ID2D1Effect> sharpenEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Sharpen, &amp;sharpenEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Sharpen, &sharpenEffect);
  
 sharpenEffect->SetInput(0, bitmap);
 sharpenEffect->SetValue(D2D1_SHARPEN_PROP_SHARPNESS, 1.0f);

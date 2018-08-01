@@ -109,12 +109,12 @@ public:
 
 ULONG QuerySink::AddRef()
 {
-    return InterlockedIncrement(&amp;m_lRef);
+    return InterlockedIncrement(&m_lRef);
 }
 
 ULONG QuerySink::Release()
 {
-    LONG lRef = InterlockedDecrement(&amp;m_lRef);
+    LONG lRef = InterlockedDecrement(&m_lRef);
     if(lRef == 0)
         delete this;
     return lRef;

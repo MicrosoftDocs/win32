@@ -40,7 +40,7 @@ HRESULT hr = CoCreateInstance(
      NULL,
      pBindOptions,
      IID_IUnknown,
-     (void**)&amp;pIUnknown);
+     (void**)&pIUnknown);
 if (FAILED(hr)) throw(hr);
 ```
 

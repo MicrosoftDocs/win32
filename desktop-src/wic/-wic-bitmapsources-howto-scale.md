@@ -23,7 +23,7 @@ To scale a bitmap source
         CLSID_WICImagingFactory,
         NULL,
         CLSCTX_INPROC_SERVER,
-        IID_PPV_ARGS(&amp;m_pIWICFactory)
+        IID_PPV_ARGS(&m_pIWICFactory)
         );
     ```
 
@@ -44,7 +44,7 @@ To scale a bitmap source
        NULL,                           // Do not prefer a particular vendor
        GENERIC_READ,                   // Desired read access to the file
        WICDecodeMetadataCacheOnDemand, // Cache metadata when needed
-       &amp;pIDecoder                      // Pointer to the decoder
+       &pIDecoder                      // Pointer to the decoder
        );
     ```
 
@@ -56,7 +56,7 @@ To scale a bitmap source
     // Retrieve the first bitmap frame.
     if (SUCCEEDED(hr))
     {
-       hr = pIDecoder->GetFrame(0, &amp;pIDecoderFrame);
+       hr = pIDecoder->GetFrame(0, &pIDecoderFrame);
     }
     ```
 
@@ -70,7 +70,7 @@ To scale a bitmap source
     // Create the scaler.
     if (SUCCEEDED(hr))
     {
-       hr = m_pIWICFactory->CreateBitmapScaler(&amp;pIScaler);
+       hr = m_pIWICFactory->CreateBitmapScaler(&pIScaler);
     }
     ```
 

@@ -34,7 +34,7 @@ The following code checks the device state:
 
 ```C++
 LONG State;
-hr = MyDevCap.pTransport->get_Mode(&amp;State);
+hr = MyDevCap.pTransport->get_Mode(&State);
 if (SUCCEEDED(hr))
 {
     switch (State)

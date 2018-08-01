@@ -39,7 +39,7 @@ void CreateInstanceFromPropertyData(
   [in]           uint32                 LookupTimeout,
   [in]           uint32                 CacheTimeout,
   [in]           string                 ResultDomain,
-  [out, ref]     MicrosoftDNS_WINSRType &amp;RR
+  [out, ref]     MicrosoftDNS_WINSRType &RR
 );
 ```
 

@@ -79,7 +79,7 @@ HRESULT SetDXVAHDStates(HWND hwnd, D3DFORMAT inputFormat)
         0,  // Stream index
         DXVAHD_STREAM_STATE_D3DFORMAT,
         sizeof(d3dformat),
-        &amp;d3dformat
+        &d3dformat
         );
 
     if (SUCCEEDED(hr))
@@ -92,7 +92,7 @@ HRESULT SetDXVAHDStates(HWND hwnd, D3DFORMAT inputFormat)
             0, // Stream index
             DXVAHD_STREAM_STATE_FRAME_FORMAT,
             sizeof(frame_format),
-            &amp;frame_format
+            &frame_format
             );
     }
 
@@ -101,10 +101,10 @@ HRESULT SetDXVAHDStates(HWND hwnd, D3DFORMAT inputFormat)
         // Compute the letterbox area.
 
         RECT rcDest;
-        GetClientRect(hwnd, &amp;rcDest);
+        GetClientRect(hwnd, &rcDest);
 
         RECT rcSrc;
-        SetRect(&amp;rcSrc, 0, 0, VIDEO_WIDTH, VIDEO_HEIGHT);
+        SetRect(&rcSrc, 0, 0, VIDEO_WIDTH, VIDEO_HEIGHT);
 
         rcDest = LetterBoxRect(rcSrc, rcDest);
 
@@ -118,7 +118,7 @@ HRESULT SetDXVAHDStates(HWND hwnd, D3DFORMAT inputFormat)
             0, // Stream index 
             DXVAHD_STREAM_STATE_DESTINATION_RECT,
             sizeof(DstRect),
-            &amp;DstRect
+            &DstRect
             );
     }
 
@@ -131,7 +131,7 @@ HRESULT SetDXVAHDStates(HWND hwnd, D3DFORMAT inputFormat)
         hr = g_pDXVAVP->SetVideoProcessBltState(
             DXVAHD_BLT_STATE_BACKGROUND_COLOR,
             sizeof (background),
-            &amp;background
+            &background
             );
     }
 

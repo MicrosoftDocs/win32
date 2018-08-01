@@ -44,7 +44,7 @@ HRESULT GetD3DSurfaceFromSample(IMFSample *pSample, IDirect3DSurface9 **ppSurfac
 
     IMFMediaBuffer *pBuffer = NULL;
 
-    HRESULT hr = pSample->GetBufferByIndex(0, &amp;pBuffer);
+    HRESULT hr = pSample->GetBufferByIndex(0, &pBuffer);
     if (SUCCEEDED(hr))
     {
         hr = MFGetService(pBuffer, MR_BUFFER_SERVICE, IID_PPV_ARGS(ppSurface));

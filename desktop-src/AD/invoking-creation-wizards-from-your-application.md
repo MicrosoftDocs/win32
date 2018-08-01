@@ -59,25 +59,25 @@ IADsContainer* GetUserContainer(void)
     IADs *pRoot;
 
     //  Bind to the rootDSE.
-    hr = ADsGetObject(L"LDAP://rootDSE", IID_IADs, (LPVOID*)&amp;pRoot);
+    hr = ADsGetObject(L"LDAP://rootDSE", IID_IADs, (LPVOID*)&pRoot);
 
     if(SUCCEEDED(hr))
     {
         VARIANT var;
-        VariantInit(&amp;var);
+        VariantInit(&var);
         CComBSTR sbstr(L"defaultNamingContext");
 
         //  Get the default naming context (domain) DN.
-        hr = pRoot->Get(sbstr, &amp;var);
-        if(SUCCEEDED(hr) &amp;&amp; (VT_BSTR == var.vt))
+        hr = pRoot->Get(sbstr, &var);
+        if(SUCCEEDED(hr) && (VT_BSTR == var.vt))
         {
             CStringW sstr(L"LDAP://CN=Users,");
             sstr += var.bstrVal;
 
             //  Bind to the User container.
-            hr = ADsGetObject(sstr, IID_IADsContainer, (LPVOID*)&amp;pUsers);
+            hr = ADsGetObject(sstr, IID_IADsContainer, (LPVOID*)&pUsers);
 
-            VariantClear(&amp;var);
+            VariantClear(&var);
         }
     }
 
@@ -100,7 +100,7 @@ HRESULT LaunchNewUserWizard(IADs** ppAdsOut)
                             NULL, 
                             CLSCTX_INPROC_SERVER,
                             IID_IDsAdminCreateObj,
-                            (void**)&amp;pCreateObj);
+                            (void**)&pCreateObj);
 
     if(SUCCEEDED(hr))
     {
@@ -137,8 +137,8 @@ int main(void)
 
     CoInitialize(NULL);
 
-    hr = LaunchNewUserWizard(&amp;pAds);
-    if((S_OK == hr) &amp;&amp; (NULL != pAds))
+    hr = LaunchNewUserWizard(&pAds);
+    if((S_OK == hr) && (NULL != pAds))
     {
         pAds->Release();
     }

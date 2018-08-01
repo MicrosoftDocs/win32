@@ -37,7 +37,7 @@ The flood effect has no input image.
 
 ```C++
 ComPtr<ID2D1Effect> floodEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Flood, &amp;floodEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Flood, &floodEffect);
 
 floodEffect->SetValue(D2D1_FLOOD_PROP_COLOR, D2D1::Vector4F(0.0f, 1.0f, 0.0f, 1.0f));
 

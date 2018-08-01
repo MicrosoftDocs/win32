@@ -43,10 +43,10 @@ void main()
     HKEY hkSub = NULL;
 
     // Create a well-known SID for the Everyone group.
-    if(!AllocateAndInitializeSid(&amp;SIDAuthWorld, 1,
+    if(!AllocateAndInitializeSid(&SIDAuthWorld, 1,
                      SECURITY_WORLD_RID,
                      0, 0, 0, 0, 0, 0, 0,
-                     &amp;pEveryoneSID))
+                     &pEveryoneSID))
     {
         _tprintf(_T("AllocateAndInitializeSid Error %u\n"), GetLastError());
         goto Cleanup;
@@ -54,7 +54,7 @@ void main()
 
     // Initialize an EXPLICIT_ACCESS structure for an ACE.
     // The ACE will allow Everyone read access to the key.
-    ZeroMemory(&amp;ea, 2 * sizeof(EXPLICIT_ACCESS));
+    ZeroMemory(&ea, 2 * sizeof(EXPLICIT_ACCESS));
     ea[0].grfAccessPermissions = KEY_READ;
     ea[0].grfAccessMode = SET_ACCESS;
     ea[0].grfInheritance= NO_INHERITANCE;
@@ -63,11 +63,11 @@ void main()
     ea[0].Trustee.ptstrName  = (LPTSTR) pEveryoneSID;
 
     // Create a SID for the BUILTIN\Administrators group.
-    if(! AllocateAndInitializeSid(&amp;SIDAuthNT, 2,
+    if(! AllocateAndInitializeSid(&SIDAuthNT, 2,
                      SECURITY_BUILTIN_DOMAIN_RID,
                      DOMAIN_ALIAS_RID_ADMINS,
                      0, 0, 0, 0, 0, 0,
-                     &amp;pAdminSID)) 
+                     &pAdminSID)) 
     {
         _tprintf(_T("AllocateAndInitializeSid Error %u\n"), GetLastError());
         goto Cleanup; 
@@ -84,7 +84,7 @@ void main()
     ea[1].Trustee.ptstrName  = (LPTSTR) pAdminSID;
 
     // Create a new ACL that contains the new ACEs.
-    dwRes = SetEntriesInAcl(2, ea, NULL, &amp;pACL);
+    dwRes = SetEntriesInAcl(2, ea, NULL, &pACL);
     if (ERROR_SUCCESS != dwRes) 
     {
         _tprintf(_T("SetEntriesInAcl Error %u\n"), GetLastError());
@@ -127,7 +127,7 @@ void main()
     // Use the security attributes to set the security descriptor 
     // when you create a key.
     lRes = RegCreateKeyEx(HKEY_CURRENT_USER, _T("mykey"), 0, _T(""), 0, 
-            KEY_READ | KEY_WRITE, &amp;sa, &amp;hkSub, &amp;dwDisposition); 
+            KEY_READ | KEY_WRITE, &sa, &hkSub, &dwDisposition); 
     _tprintf(_T("RegCreateKeyEx result %u\n"), lRes );
 
 Cleanup:

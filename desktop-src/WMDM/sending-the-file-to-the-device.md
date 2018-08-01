@@ -43,7 +43,7 @@ hr = pStgCtl3->Insert3(
     pProgress, // Interface to send simple progress notifications.
     pMetadata, // IWMDMMetaData interface previously created and filled.
     NULL, 
-    &amp;pNewStorage); // Out: handle to the new storage, if the method succeeds.
+    &pNewStorage); // Out: handle to the new storage, if the method succeeds.
 ```
 
 

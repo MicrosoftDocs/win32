@@ -103,7 +103,7 @@ HRESULT AppendToByteStream(IMFByteStream *pSrc, IMFByteStream *pDest)
     {
         ULONG cbRead;
 
-        hr = pSrc->Read(buffer, READ_SIZE, &amp;cbRead);
+        hr = pSrc->Read(buffer, READ_SIZE, &cbRead);
 
         if (FAILED(hr)) { break; }
 
@@ -112,7 +112,7 @@ HRESULT AppendToByteStream(IMFByteStream *pSrc, IMFByteStream *pDest)
             break;
         }
 
-        hr = pDest->Write(buffer, cbRead, &amp;cbRead);
+        hr = pDest->Write(buffer, cbRead, &cbRead);
 
         if (FAILED(hr)) { break; }
     }
@@ -142,11 +142,11 @@ HRESULT WriteBufferToByteStream(
     DWORD cbWritten = 0;
     BYTE *pMem = NULL;
 
-    hr = pBuffer->Lock(&amp;pMem, NULL, &amp;cbData);
+    hr = pBuffer->Lock(&pMem, NULL, &cbData);
 
     if (SUCCEEDED(hr))
     {
-        hr = pStream->Write(pMem, cbData, &amp;cbWritten);
+        hr = pStream->Write(pMem, cbData, &cbWritten);
     }
 
     if (SUCCEEDED(hr))
@@ -201,7 +201,7 @@ In this tutorial, the encoder is implemented in the `CWmaEncoder` class that pro
 ```C++
     CWmaEncoder* pEncoder = NULL; //Pointer to the Encoder object.
 
-    hr = OpenAudioFile(sInputFileName, &amp;pInputType);
+    hr = OpenAudioFile(sInputFileName, &pInputType);
     if (FAILED(hr))
     {
         goto done;
@@ -273,7 +273,7 @@ HRESULT CreateASFContentInfo(
 
     // Create the ASF profile object.
 
-    hr = MFCreateASFProfile(&amp;pProfile); 
+    hr = MFCreateASFProfile(&pProfile); 
     if (FAILED(hr))
     {
         goto done;
@@ -281,13 +281,13 @@ HRESULT CreateASFContentInfo(
 
     // Create a stream description for the encoded audio.
 
-    hr = pEncoder->GetOutputType(&amp;pMediaType); 
+    hr = pEncoder->GetOutputType(&pMediaType); 
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pProfile->CreateStream(pMediaType, &amp;pStream); 
+    hr = pProfile->CreateStream(pMediaType, &pStream); 
     if (FAILED(hr))
     {
         goto done;
@@ -303,7 +303,7 @@ HRESULT CreateASFContentInfo(
 
     LeakyBucket bucket;
 
-    hr = pEncoder->GetLeakyBucket1(&amp;bucket);
+    hr = pEncoder->GetLeakyBucket1(&bucket);
     if (FAILED(hr))
     {
         goto done;
@@ -311,7 +311,7 @@ HRESULT CreateASFContentInfo(
 
     hr = pStream->SetBlob(
         MF_ASFSTREAMCONFIG_LEAKYBUCKET1, 
-        (UINT8*)&amp;bucket, 
+        (UINT8*)&bucket, 
         sizeof(bucket)
         );
 
@@ -330,7 +330,7 @@ HRESULT CreateASFContentInfo(
 
     // Create the ASF ContentInfo object.
 
-    hr = MFCreateASFContentInfo(&amp;pContentInfo); 
+    hr = MFCreateASFContentInfo(&pContentInfo); 
     if (FAILED(hr))
     {
         goto done;
@@ -348,10 +348,10 @@ HRESULT CreateASFContentInfo(
     (*ppContentInfo)->AddRef();
 
 done:
-    SafeRelease(&amp;pProfile);
-    SafeRelease(&amp;pStream);
-    SafeRelease(&amp;pMediaType);
-    SafeRelease(&amp;pContentInfo);
+    SafeRelease(&pProfile);
+    SafeRelease(&pStream);
+    SafeRelease(&pMediaType);
+    SafeRelease(&pContentInfo);
     return hr;
 }
 ```
@@ -380,7 +380,7 @@ HRESULT CreateASFMux(
 
     // Create and initialize the ASF Multiplexer object.
 
-    hr = MFCreateASFMultiplexer(&amp;pMultiplexer);
+    hr = MFCreateASFMultiplexer(&pMultiplexer);
     if (FAILED(hr))
     {
         goto done;
@@ -404,7 +404,7 @@ HRESULT CreateASFMux(
     (*ppMultiplexer)->AddRef();
 
 done:
-    SafeRelease(&amp;pMultiplexer);
+    SafeRelease(&pMultiplexer);
     return hr;
 }
 ```
@@ -447,7 +447,7 @@ HRESULT EncodeData(
         MF_ACCESSMODE_READWRITE, 
         MF_OPENMODE_DELETE_IF_EXIST,
         MF_FILEFLAGS_NONE,
-        &amp;pStream
+        &pStream
         );
 
    if (FAILED(hr))
@@ -461,7 +461,7 @@ HRESULT EncodeData(
     {
         if (bNeedInput)
         {
-            hr = GetNextAudioSample(&amp;bEOF, &amp;pInputSample);
+            hr = GetNextAudioSample(&bEOF, &pInputSample);
             if (FAILED(hr))
             {
                 goto done;
@@ -487,7 +487,7 @@ HRESULT EncodeData(
         {
             // Get data from the encoder.
 
-            hr = pEncoder->ProcessOutput(&amp;pWmaSample);
+            hr = pEncoder->ProcessOutput(&pWmaSample);
             if (FAILED(hr))
             {
                 goto done;
@@ -516,8 +516,8 @@ HRESULT EncodeData(
             }
         }
         
-        SafeRelease(&amp;pInputSample);
-        SafeRelease(&amp;pWmaSample);
+        SafeRelease(&pInputSample);
+        SafeRelease(&pWmaSample);
     }
 
     // Drain the MFT and pull any remaining samples from the encoder.
@@ -530,7 +530,7 @@ HRESULT EncodeData(
 
     while (TRUE)
     {
-        hr = pEncoder->ProcessOutput(&amp;pWmaSample);
+        hr = pEncoder->ProcessOutput(&pWmaSample);
         if (FAILED(hr))
         {
             goto done;
@@ -554,7 +554,7 @@ HRESULT EncodeData(
             goto done;
         }
 
-        SafeRelease(&amp;pWmaSample);
+        SafeRelease(&pWmaSample);
     }
 
     // Flush the mux and get any pending ASF data packets.
@@ -582,9 +582,9 @@ HRESULT EncodeData(
     (*ppDataStream)->AddRef();
 
 done:
-    SafeRelease(&amp;pStream);
-    SafeRelease(&amp;pInputSample);
-    SafeRelease(&amp;pWmaSample);
+    SafeRelease(&pStream);
+    SafeRelease(&pInputSample);
+    SafeRelease(&pWmaSample);
     return hr;
 }
 ```
@@ -617,7 +617,7 @@ HRESULT WriteASFFile(
 
     //Create output file
     hr = MFCreateFile(MF_ACCESSMODE_WRITE, MF_OPENMODE_DELETE_IF_EXIST,
-        MF_FILEFLAGS_NONE, pszFile, &amp;pWmaStream);
+        MF_FILEFLAGS_NONE, pszFile, &pWmaStream);
 
     if (FAILED(hr))
     {
@@ -626,28 +626,28 @@ HRESULT WriteASFFile(
 
 
     // Get the size of the ASF Header Object.
-    hr = pContentInfo->GenerateHeader (NULL, &amp;cbHeaderSize);
+    hr = pContentInfo->GenerateHeader (NULL, &cbHeaderSize);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Create a media buffer.
-    hr = MFCreateMemoryBuffer(cbHeaderSize, &amp;pHeaderBuffer);
+    hr = MFCreateMemoryBuffer(cbHeaderSize, &pHeaderBuffer);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Populate the media buffer with the ASF Header Object.
-    hr = pContentInfo->GenerateHeader(pHeaderBuffer, &amp;cbHeaderSize);
+    hr = pContentInfo->GenerateHeader(pHeaderBuffer, &cbHeaderSize);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Write the ASF header to the output file.
-    hr = WriteBufferToByteStream(pWmaStream, pHeaderBuffer, &amp;cbWritten);
+    hr = WriteBufferToByteStream(pWmaStream, pHeaderBuffer, &cbWritten);
     if (FAILED(hr))
     {
         goto done;
@@ -664,8 +664,8 @@ HRESULT WriteASFFile(
     hr = AppendToByteStream(pDataStream, pWmaStream);
 
 done:
-    SafeRelease(&amp;pHeaderBuffer);
-    SafeRelease(&amp;pWmaStream);
+    SafeRelease(&pHeaderBuffer);
+    SafeRelease(&pWmaStream);
     return hr;
 }
 ```
@@ -716,7 +716,7 @@ int wmain(int argc, WCHAR* argv[])
 
     CWmaEncoder* pEncoder = NULL; //Pointer to the Encoder object.
 
-    hr = OpenAudioFile(sInputFileName, &amp;pInputType);
+    hr = OpenAudioFile(sInputFileName, &pInputType);
     if (FAILED(hr))
     {
         goto done;
@@ -750,20 +750,20 @@ int wmain(int argc, WCHAR* argv[])
     }
 
     // Create the WMContainer objects.
-    hr = CreateASFContentInfo(pEncoder, &amp;pContentInfo);
+    hr = CreateASFContentInfo(pEncoder, &pContentInfo);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = CreateASFMux(pContentInfo, &amp;pMux);
+    hr = CreateASFMux(pContentInfo, &pMux);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Convert uncompressed data to ASF format.
-    hr = EncodeData(pEncoder, pContentInfo, pMux, &amp;pDataStream);
+    hr = EncodeData(pEncoder, pContentInfo, pMux, &pDataStream);
     if (FAILED(hr))
     {
         goto done;
@@ -773,10 +773,10 @@ int wmain(int argc, WCHAR* argv[])
     hr = WriteASFFile(pContentInfo, pDataStream, sOutputFileName);
 
 done:
-    SafeRelease(&amp;pInputType);
-    SafeRelease(&amp;pContentInfo);
-    SafeRelease(&amp;pMux);
-    SafeRelease(&amp;pDataStream);
+    SafeRelease(&pInputType);
+    SafeRelease(&pContentInfo);
+    SafeRelease(&pMux);
+    SafeRelease(&pDataStream);
     delete pEncoder;
 
     MFShutdown();

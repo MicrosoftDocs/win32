@@ -236,36 +236,36 @@ IADs *pObj = NULL;
 VARIANT var;
 long valType = ADSTYPE_CASE_IGNORE_STRING;
  
-VariantInit(&amp;var);
+VariantInit(&var);
  
 // Bind to directory object.
 HRESULT hr = ADsGetObject(L"LDAP://dc01/DC=Fabrikam,DC=com",
                           IID_IADsPropertyList,
-                          (void**)&amp;pList);
+                          (void**)&pList);
 if(FAILED(hr)){return;}
  
 // Initialize the property cache.
-hr = pList->QueryInterface(IID_IADs,(void**)&amp;pObj);
+hr = pList->QueryInterface(IID_IADs,(void**)&pObj);
 if(FAILED(hr)){goto Cleanup;}
 pObj->GetInfo();
 pObj->Release();
  
 // Get a property entry.
-hr = pList->GetPropertyItem(CComBSTR("description"), valType, &amp;var);
+hr = pList->GetPropertyItem(CComBSTR("description"), valType, &var);
 pList->Release();
 if(FAILED(hr)){goto Cleanup;}
-hr = V_DISPATCH(&amp;var)->QueryInterface(IID_IADsPropertyEntry,
-                                      (void**)&amp;pEntry);
-VariantClear(&amp;var);
+hr = V_DISPATCH(&var)->QueryInterface(IID_IADsPropertyEntry,
+                                      (void**)&pEntry);
+VariantClear(&var);
 if(FAILED(hr)){goto Cleanup;}
  
 // Get the name and the type of the property entry.
 BSTR nm = NULL;
-hr = pEntry->get_Name(&amp;nm);
+hr = pEntry->get_Name(&nm);
 printf("Property name = %S\n",nm);
-VariantClear(&amp;var);
+VariantClear(&var);
 long at;
-hr = pEntry->get_ADsType(&amp;at);
+hr = pEntry->get_ADsType(&at);
 printf("Property type = %d\n",a);
 
 Cleanup:
@@ -281,7 +281,7 @@ Cleanup:
     if(pObj)
         pObj->Release();
 
-    VariantClear(&amp;var);
+    VariantClear(&var);
 ```
 
 

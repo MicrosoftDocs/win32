@@ -93,14 +93,14 @@ int main()
     TCHAR szDisplayName[MAX_PATH];
     HRESULT hr;
 
-    hr = SHGetFolderLocation(NULL, CSIDL_SYSTEM, NULL, NULL, &amp;pidlSystem);
+    hr = SHGetFolderLocation(NULL, CSIDL_SYSTEM, NULL, NULL, &pidlSystem);
 
-    hr = SHBindToParent(pidlSystem, IID_IShellFolder, (void **) &amp;psfParent, &amp;pidlRelative);
+    hr = SHBindToParent(pidlSystem, IID_IShellFolder, (void **) &psfParent, &pidlRelative);
 
     if(SUCCEEDED(hr))
     {
-        hr = psfParent->GetDisplayNameOf(pidlRelative, SHGDN_NORMAL, &amp;strDispName);
-        hr = StrRetToBuf(&amp;strDispName, pidlSystem, szDisplayName, sizeof(szDisplayName));
+        hr = psfParent->GetDisplayNameOf(pidlRelative, SHGDN_NORMAL, &strDispName);
+        hr = StrRetToBuf(&strDispName, pidlSystem, szDisplayName, sizeof(szDisplayName));
         cout << "SHGDN_NORMAL - " <<szDisplayName << '\n';
     }
 

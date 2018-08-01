@@ -53,7 +53,7 @@ The following C++ code example determines whether a device is a Windows Media DR
     // Find out first if the device is a WMDRM 10 device, and if so,
     // whether it requires clock updates.
     DWORD status = 0;
-    hr = pDRM->QueryDeviceStatus(pDevice, &amp;status);
+    hr = pDRM->QueryDeviceStatus(pDevice, &status);
 
     if (FAILED(hr)
        || (!(WMDRM_DEVICE_ISWMDRM & status)) // Device is not WMDRM 10. 
@@ -82,7 +82,7 @@ The following C++ example function attempts to update a DRM device.
 HRESULT UpdateDRM(DWORD status)
 {
     HRESULT hr = S_OK;
-    hr = pDRM->AcquireDeviceData(pDevice, this, status, &amp;result);
+    hr = pDRM->AcquireDeviceData(pDevice, this, status, &result);
     if (hr != S_OK || result != 0)
     {
             return E_FAIL;

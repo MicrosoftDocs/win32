@@ -55,7 +55,7 @@ CFactoryTemplate g_Templates[1] =
 {
     { 
       L"My Component",                // Name
-      &amp;CLSID_MyComponent,             // CLSID
+      &CLSID_MyComponent,             // CLSID
       CMyComponent::CreateInstance,   // Method to create an instance of MyComponent
       NULL,                           // Initialization function
       NULL                            // Set-up information (for filters)

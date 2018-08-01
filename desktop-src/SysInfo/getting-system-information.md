@@ -38,13 +38,13 @@ void main( )
  
   // Get and display the name of the computer. 
   bufCharCount = INFO_BUFFER_SIZE;
-  if( !GetComputerName( infoBuf, &amp;bufCharCount ) )
+  if( !GetComputerName( infoBuf, &bufCharCount ) )
     printError( TEXT("GetComputerName") ); 
   _tprintf( TEXT("\nComputer name:      %s"), infoBuf ); 
  
   // Get and display the user name. 
   bufCharCount = INFO_BUFFER_SIZE;
-  if( !GetUserName( infoBuf, &amp;bufCharCount ) )
+  if( !GetUserName( infoBuf, &bufCharCount ) )
     printError( TEXT("GetUserName") ); 
   _tprintf( TEXT("\nUser name:          %s"), infoBuf ); 
  
@@ -92,7 +92,7 @@ void printError( TCHAR* msg )
   p = sysMsg;
   while( ( *p > 31 ) || ( *p == 9 ) )
     ++p;
-  do { *p-- = 0; } while( ( p >= sysMsg ) &amp;&amp;
+  do { *p-- = 0; } while( ( p >= sysMsg ) &&
                           ( ( *p == '.' ) || ( *p < 33 ) ) );
 
   // Display the message

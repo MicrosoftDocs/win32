@@ -69,7 +69,7 @@ HRESULT AddDomainUserToLocalGroup(LPCWSTR pwszComputerName,
                         NULL, 
                         ADS_SECURE_AUTHENTICATION,
                         IID_IADsContainer, 
-                        (void**)&amp;spComputer);
+                        (void**)&spComputer);
 
     if(FAILED(hr))
     {
@@ -80,14 +80,14 @@ HRESULT AddDomainUserToLocalGroup(LPCWSTR pwszComputerName,
     CComPtr<IDispatch> spDisp;
     hr = spComputer->GetObject(CComBSTR("group"), 
                                CComBSTR(pwszGroupName), 
-                               &amp;spDisp);
+                               &spDisp);
     if(FAILED(hr))
     {
         return hr;
     }
 
     CComPtr<IADsGroup> spGroup;
-    hr = spDisp->QueryInterface(IID_IADs, (LPVOID*)&amp;spGroup);
+    hr = spDisp->QueryInterface(IID_IADs, (LPVOID*)&spGroup);
     if(FAILED(hr))
     {
         return hr;

@@ -290,8 +290,8 @@ class PointEraseAnalysisSample : Application
           return;
       }
 
-      if (_canvas.ActiveEditingMode == InkCanvasEditingMode.EraseByPoint &amp;&amp;
-          e.Added.Count == 1 &amp;&amp; e.Removed.Count == 1)
+      if (_canvas.ActiveEditingMode == InkCanvasEditingMode.EraseByPoint &&
+          e.Added.Count == 1 && e.Removed.Count == 1)
       {
           // set flag so we call BackgroundAnalyze in MouseUp
           _isPointErasing = true;

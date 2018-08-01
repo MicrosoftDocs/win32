@@ -36,7 +36,7 @@ void CreateZone(
   [in, optional] string            DataFileName,
   [in, optional] string            IpAddr[],
   [in, optional] string            AdminEmailName,
-  [out, ref]     MicrosoftDns_Zone &amp;RR
+  [out, ref]     MicrosoftDns_Zone &RR
 );
 ```
 

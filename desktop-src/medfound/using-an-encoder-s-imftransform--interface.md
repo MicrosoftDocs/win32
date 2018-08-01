@@ -41,7 +41,7 @@ The following code example shows how to create an audio or video encoder.
 
 ```C++
 HRESULT FindEncoder(
-    const GUID&amp; subtype, 
+    const GUID& subtype, 
     BOOL bAudio, 
     IMFTransform **ppEncoder
     )
@@ -60,13 +60,13 @@ HRESULT FindEncoder(
         bAudio ? MFT_CATEGORY_AUDIO_ENCODER : MFT_CATEGORY_VIDEO_ENCODER,
         0,          // Reserved
         NULL,       // Input type
-        &amp;info,      // Output type
+        &info,      // Output type
         NULL,       // Reserved
-        &amp;ppCLSIDs,
-        &amp;count
+        &ppCLSIDs,
+        &count
         );
 
-    if (SUCCEEDED(hr) &amp;&amp; count == 0)
+    if (SUCCEEDED(hr) && count == 0)
     {
         hr = MF_E_TOPO_CODEC_NOT_FOUND;
     }

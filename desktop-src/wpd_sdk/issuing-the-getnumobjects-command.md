@@ -35,7 +35,7 @@ HRESULT SendGetNumObjects(IPortableDevice* pDevice)
                               NULL,
                               CLSCTX_INPROC_SERVER,
                               IID_IPortableDeviceValues,
-                              (VOID**)&amp;spParameters);
+                              (VOID**)&spParameters);
     }
 
     // Use the WPD_COMMAND_MTP_EXT_EXECUTE_COMMAND_WITHOUT_DATA_PHASE command
@@ -68,7 +68,7 @@ HRESULT SendGetNumObjects(IPortableDevice* pDevice)
                                   NULL,
                                   CLSCTX_INPROC_SERVER,
                                   IID_IPortableDevicePropVariantCollection,
-                                  (VOID**)&amp;spMtpParams);
+                                  (VOID**)&spMtpParams);
     }
 
     PROPVARIANT pvParam = {0};
@@ -80,21 +80,21 @@ HRESULT SendGetNumObjects(IPortableDevice* pDevice)
     if (hr == S_OK)
     {
         pvParam.ulVal = 0x10001;
-        hr = spMtpParams->Add(&amp;pvParam);
+        hr = spMtpParams->Add(&pvParam);
     }
 
     // Specify object format code parameter. 0x0 can be specified to indicate this is unused 
     if (hr == S_OK)
     {
         pvParam.ulVal = 0x0;
-        hr = spMtpParams->Add(&amp;pvParam);
+        hr = spMtpParams->Add(&pvParam);
     }
 
     // Specify parent object handle parameter. 0x0 can be specified to indicate this is unused
     if (hr == S_OK)
     {
         pvParam.ulVal = 0x0;
-        hr = spMtpParams->Add(&amp;pvParam);
+        hr = spMtpParams->Add(&pvParam);
     }
 
     // Add MTP parameters collection to our main parameter list
@@ -115,7 +115,7 @@ After the parameters are set up, the application invokes the command.
     CComPtr<IPortableDeviceValues> spResults;
     if (hr == S_OK)
     {
-        hr = pDevice->SendCommand(0, spParameters, &amp;spResults);
+        hr = pDevice->SendCommand(0, spParameters, &spResults);
     } 
 ```
 
@@ -129,7 +129,7 @@ After the application invokes the command, it processes the response from the MT
     HRESULT hrCmd = S_OK;
     if (hr == S_OK)
     {
-         hr = spResults->GetErrorValue(WPD_PROPERTY_COMMON_HRESULT, &amp;hrCmd);
+         hr = spResults->GetErrorValue(WPD_PROPERTY_COMMON_HRESULT, &hrCmd);
     }
 
     if (hr == S_OK)
@@ -144,7 +144,7 @@ After the application invokes the command, it processes the response from the MT
     DWORD dwResponseCode;
     if (hr == S_OK)
     {
-        hr = spResults->GetUnsignedIntegerValue(WPD_PROPERTY_MTP_EXT_RESPONSE_CODE, &amp;dwResponseCode);
+        hr = spResults->GetUnsignedIntegerValue(WPD_PROPERTY_MTP_EXT_RESPONSE_CODE, &dwResponseCode);
     }
 
     if (hr == S_OK)
@@ -159,20 +159,20 @@ After the application invokes the command, it processes the response from the MT
     if (hr == S_OK)
     {
         hr = spResults->GetIPortableDevicePropVariantCollectionValue(WPD_PROPERTY_MTP_EXT_RESPONSE_PARAMS, 
-                                                                        &amp;spRespParams);
+                                                                        &spRespParams);
     }
 
     // The first response parameter contains the number of objects result
     PROPVARIANT pvResult = {0};
     if (hr == S_OK)
     {
-        hr = spRespParams->GetAt(0, &amp;pvResult);
+        hr = spRespParams->GetAt(0, &pvResult);
     }
    
     if (hr == S_OK)
     {
         printf("Reported number of objects: %d", pvResult.ulVal);
-        PropVariantClear(&amp;pvResult);    // Not really required, but use it for completeness
+        PropVariantClear(&pvResult);    // Not really required, but use it for completeness
     }
 
     return hr;

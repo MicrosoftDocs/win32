@@ -58,7 +58,7 @@ HRESULT DemoApp::CreateGeometryResources()
 
     hr = m_pD2DFactory->CreateEllipseGeometry(
         circle1,
-        &amp;m_pCircleGeometry1
+        &m_pCircleGeometry1
         );
 
     if (SUCCEEDED(hr))
@@ -70,7 +70,7 @@ HRESULT DemoApp::CreateGeometryResources()
             50.0f
             );
 
-        hr = m_pD2DFactory->CreateEllipseGeometry(circle2, &amp;m_pCircleGeometry2);
+        hr = m_pD2DFactory->CreateEllipseGeometry(circle2, &m_pCircleGeometry2);
     }
 
 
@@ -79,11 +79,11 @@ HRESULT DemoApp::CreateGeometryResources()
         //
         // Use D2D1_COMBINE_MODE_UNION to combine the geometries.
         //
-        hr = m_pD2DFactory->CreatePathGeometry(&amp;m_pPathGeometryUnion);
+        hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometryUnion);
 
         if (SUCCEEDED(hr))
         {
-            hr = m_pPathGeometryUnion->Open(&amp;pGeometrySink);
+            hr = m_pPathGeometryUnion->Open(&pGeometrySink);
 
             if (SUCCEEDED(hr))
             {
@@ -101,7 +101,7 @@ HRESULT DemoApp::CreateGeometryResources()
                 hr = pGeometrySink->Close();
             }
 
-            SafeRelease(&amp;pGeometrySink);
+            SafeRelease(&pGeometrySink);
         }
     }
 
@@ -110,11 +110,11 @@ HRESULT DemoApp::CreateGeometryResources()
         //
         // Use D2D1_COMBINE_MODE_INTERSECT to combine the geometries.
         //
-        hr = m_pD2DFactory->CreatePathGeometry(&amp;m_pPathGeometryIntersect);
+        hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometryIntersect);
 
         if (SUCCEEDED(hr))
         {
-            hr = m_pPathGeometryIntersect->Open(&amp;pGeometrySink);
+            hr = m_pPathGeometryIntersect->Open(&pGeometrySink);
 
             if (SUCCEEDED(hr))
             {
@@ -132,7 +132,7 @@ HRESULT DemoApp::CreateGeometryResources()
                 hr = pGeometrySink->Close();
             }
 
-            SafeRelease(&amp;pGeometrySink);
+            SafeRelease(&pGeometrySink);
         }
     }
 
@@ -141,11 +141,11 @@ HRESULT DemoApp::CreateGeometryResources()
         //
         // Use D2D1_COMBINE_MODE_XOR to combine the geometries.
         //
-        hr = m_pD2DFactory->CreatePathGeometry(&amp;m_pPathGeometryXOR);
+        hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometryXOR);
 
         if (SUCCEEDED(hr))
         {
-            hr = m_pPathGeometryXOR->Open(&amp;pGeometrySink);
+            hr = m_pPathGeometryXOR->Open(&pGeometrySink);
 
             if (SUCCEEDED(hr))
             {
@@ -163,7 +163,7 @@ HRESULT DemoApp::CreateGeometryResources()
                 hr = pGeometrySink->Close();
             }
 
-            SafeRelease(&amp;pGeometrySink);
+            SafeRelease(&pGeometrySink);
         }
     }
 
@@ -172,11 +172,11 @@ HRESULT DemoApp::CreateGeometryResources()
         //
         // Use D2D1_COMBINE_MODE_EXCLUDE to combine the geometries.
         //
-        hr = m_pD2DFactory->CreatePathGeometry(&amp;m_pPathGeometryExclude);
+        hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometryExclude);
 
         if (SUCCEEDED(hr))
         {
-            hr = m_pPathGeometryExclude->Open(&amp;pGeometrySink);
+            hr = m_pPathGeometryExclude->Open(&pGeometrySink);
 
             if (SUCCEEDED(hr))
             {
@@ -194,7 +194,7 @@ HRESULT DemoApp::CreateGeometryResources()
                 hr = pGeometrySink->Close();
             }
 
-            SafeRelease(&amp;pGeometrySink);
+            SafeRelease(&pGeometrySink);
         }
     }
 

@@ -152,7 +152,7 @@ void main (void)
     pbSignedAndEncryptedBlob = SignAndEncrypt(
         pbToBeSignedAndEncrypted,
         cbToBeSignedAndEncrypted,
-        &amp;cbSignedAndEncryptedBlob);
+        &cbSignedAndEncryptedBlob);
 
     _tprintf(TEXT("The following is the signed and encrypted ")
         TEXT("message.\n"));
@@ -300,8 +300,8 @@ BYTE* SignAndEncrypt(
         pSignerCertContext,
         0,
         NULL,
-        &amp;hCryptProv,
-        &amp;dwKeySpec,
+        &hCryptProv,
+        &dwKeySpec,
         NULL)))
     {
         MyHandleError(TEXT("CryptAcquireCertificatePrivateKey.\n"));
@@ -339,7 +339,7 @@ BYTE* SignAndEncrypt(
     }
 
     fread(
-        &amp;(Subject_Blob.cbData),
+        &(Subject_Blob.cbData),
         sizeof(DWORD),
         1,
         hToSave);
@@ -380,7 +380,7 @@ BYTE* SignAndEncrypt(
         MY_ENCODING_TYPE,
         0,
         CERT_FIND_SUBJECT_NAME,
-        &amp;Subject_Blob,
+        &Subject_Blob,
         NULL)))
     {
         MyHandleError(TEXT("Receiver certificate not found."));
@@ -418,7 +418,7 @@ BYTE* SignAndEncrypt(
     SignPara.HashAlgorithm.Parameters.cbData = 0;
     SignPara.pvHashAuxInfo = NULL;
     SignPara.cMsgCert = 1;
-    SignPara.rgpMsgCert = &amp;pSignerCertContext ;
+    SignPara.rgpMsgCert = &pSignerCertContext ;
     SignPara.cMsgCrl = 0;
     SignPara.rgpMsgCrl = NULL;
     SignPara.cAuthAttr = 0;
@@ -443,8 +443,8 @@ BYTE* SignAndEncrypt(
     pbSignedAndEncryptedBlob = NULL;
 
     if( CryptSignAndEncryptMessage(
-        &amp;SignPara,
-        &amp;EncryptPara,
+        &SignPara,
+        &EncryptPara,
         cRecipientCert,
         rgpRecipientCert,
         pbToBeSignedAndEncrypted,
@@ -474,8 +474,8 @@ BYTE* SignAndEncrypt(
     // encrypted message into the buffer.
 
     if( CryptSignAndEncryptMessage(
-        &amp;SignPara,
-        &amp;EncryptPara,
+        &SignPara,
+        &EncryptPara,
         cRecipientCert,
         rgpRecipientCert,
         pbToBeSignedAndEncrypted,
@@ -549,7 +549,7 @@ BYTE* DecryptAndVerify(
     DecryptPara.cbSize = sizeof(CRYPT_DECRYPT_MESSAGE_PARA);
     DecryptPara.dwMsgAndCertEncodingType = MY_ENCODING_TYPE;
     DecryptPara.cCertStore = 1;
-    DecryptPara.rghCertStore = &amp;hCertStore;
+    DecryptPara.rghCertStore = &hCertStore;
 
     VerifyPara.cbSize = sizeof(CRYPT_VERIFY_MESSAGE_PARA);
     VerifyPara.dwMsgAndCertEncodingType = MY_ENCODING_TYPE;
@@ -565,13 +565,13 @@ BYTE* DecryptAndVerify(
     // decrypted message.
 
     if(!(CryptDecryptAndVerifyMessageSignature(
-        &amp;DecryptPara,
-        &amp;VerifyPara,
+        &DecryptPara,
+        &VerifyPara,
         dwSignerIndex,
         pbSignedAndEncryptedBlob,
         cbSignedAndEncryptedBlob,
         NULL,           // pbDecrypted
-        &amp;cbDecrypted,
+        &cbDecrypted,
         NULL,
         NULL)))
     {
@@ -588,13 +588,13 @@ BYTE* DecryptAndVerify(
     }
 
     if(!(CryptDecryptAndVerifyMessageSignature(
-        &amp;DecryptPara,
-        &amp;VerifyPara,
+        &DecryptPara,
+        &VerifyPara,
         dwSignerIndex,
         pbSignedAndEncryptedBlob,
         cbSignedAndEncryptedBlob,
         pbDecrypted,
-        &amp;cbDecrypted,
+        &cbDecrypted,
         NULL,
         NULL)))
     {
@@ -638,7 +638,7 @@ void WriteSignedAndEncryptedBlob(
     }
 
     fwrite(
-        &amp;cbBlob,
+        &cbBlob,
         sizeof(DWORD),
         1,
         hOutputFile);

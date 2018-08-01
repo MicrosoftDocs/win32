@@ -107,12 +107,12 @@ An accelerator table works by translating key strokes into [**WM\_COMMAND**](htt
 
 ```C++
     MSG msg;
-    while (GetMessage(&amp;msg, NULL, 0, 0))
+    while (GetMessage(&msg, NULL, 0, 0))
     {
-        if (!TranslateAccelerator(win.Window(), hAccel, &amp;msg))
+        if (!TranslateAccelerator(win.Window(), hAccel, &msg))
         {
-            TranslateMessage(&amp;msg);
-            DispatchMessage(&amp;msg);
+            TranslateMessage(&msg);
+            DispatchMessage(&msg);
         }
     }
 ```

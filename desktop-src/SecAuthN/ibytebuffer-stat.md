@@ -72,7 +72,7 @@ STATSTRUCT  statstr;
 HRESULT     hr;
 
 // Retrieve the statistical information.
-hr = pIByteBuff->Stat(&amp;statstr,
+hr = pIByteBuff->Stat(&statstr,
                       STATFLAG_DEFAULT);
 if (FAILED(hr))
   printf("Failed IByteBuffer::Stat\n");

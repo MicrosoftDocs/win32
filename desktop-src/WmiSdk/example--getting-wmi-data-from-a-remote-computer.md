@@ -69,7 +69,7 @@ The following procedure shows how to execute the WMI application. Steps 1 throug
     VARIANT vtProp;
 
     // Get the value of the Name property
-    hr = pclsObj->Get(L"Name", 0, &amp;vtProp, 0, 0);
+    hr = pclsObj->Get(L"Name", 0, &vtProp, 0, 0);
     wcout << " OS Name : " << vtProp.bstrVal << endl;
     ```
 
@@ -81,7 +81,7 @@ The following procedure shows how to execute the WMI application. Steps 1 throug
 
     ```C++
     hr = pclsObj->Get(L"FreePhysicalMemory",
-        0, &amp;vtProp, 0, 0);
+        0, &vtProp, 0, 0);
     wcout << " Free physical memory (in kilobytes): "
         << vtProp.uintVal << endl;
     ```
@@ -156,7 +156,7 @@ int __cdecl main(int argc, char **argv)
         CLSID_WbemLocator,             
         0, 
         CLSCTX_INPROC_SERVER, 
-        IID_IWbemLocator, (LPVOID *) &amp;pLoc);
+        IID_IWbemLocator, (LPVOID *) &pLoc);
  
     if (FAILED(hres))
     {
@@ -184,7 +184,7 @@ int __cdecl main(int argc, char **argv)
     BOOL fSave;
     DWORD dwErr;
 
-    memset(&amp;cui,0,sizeof(CREDUI_INFO));
+    memset(&cui,0,sizeof(CREDUI_INFO));
     cui.cbSize = sizeof(CREDUI_INFO);
     cui.hwndParent = NULL;
     // Ensure that MessageText and CaptionText identify
@@ -195,7 +195,7 @@ int __cdecl main(int argc, char **argv)
     fSave = FALSE;
 
     dwErr = CredUIPromptForCredentials( 
-        &amp;cui,                             // CREDUI_INFO structure
+        &cui,                             // CREDUI_INFO structure
         TEXT(""),                         // Target for credentials
         NULL,                             // Reserved
         0,                                // Reason
@@ -203,7 +203,7 @@ int __cdecl main(int argc, char **argv)
         CREDUI_MAX_USERNAME_LENGTH+1,     // Max number for user name
         pszPwd,                           // Password
         CREDUI_MAX_PASSWORD_LENGTH+1,     // Max number for password
-        &amp;fSave,                           // State of save check box
+        &fSave,                           // State of save check box
         CREDUI_FLAGS_GENERIC_CREDENTIALS |// flags
         CREDUI_FLAGS_ALWAYS_SHOW_UI |
         CREDUI_FLAGS_DO_NOT_PERSIST);  
@@ -239,7 +239,7 @@ int __cdecl main(int argc, char **argv)
         NULL,                              // Security flags
         _bstr_t(useNTLM?NULL:pszAuthority),// Authority        
         NULL,                              // Context object 
-        &amp;pSvc                              // IWbemServices proxy
+        &pSvc                              // IWbemServices proxy
         );
     
     if (FAILED(hres))
@@ -262,7 +262,7 @@ int __cdecl main(int argc, char **argv)
 
     if( !useToken )
     {
-        memset(&amp;authIdent, 0, sizeof(COAUTHIDENTITY));
+        memset(&authIdent, 0, sizeof(COAUTHIDENTITY));
         authIdent.PasswordLength = wcslen (pszPwd);
         authIdent.Password = (USHORT*)pszPwd;
 
@@ -285,7 +285,7 @@ int __cdecl main(int argc, char **argv)
         authIdent.DomainLength = slash - pszName;
         authIdent.Flags = SEC_WINNT_AUTH_IDENTITY_UNICODE;
 
-        userAcct = &amp;authIdent;
+        userAcct = &authIdent;
 
     }
 
@@ -323,7 +323,7 @@ int __cdecl main(int argc, char **argv)
         bstr_t("Select * from Win32_OperatingSystem"),
         WBEM_FLAG_FORWARD_ONLY | WBEM_FLAG_RETURN_IMMEDIATELY, 
         NULL,
-        &amp;pEnumerator);
+        &pEnumerator);
     
     if (FAILED(hres))
     {
@@ -377,7 +377,7 @@ int __cdecl main(int argc, char **argv)
     while (pEnumerator)
     {
         HRESULT hr = pEnumerator->Next(WBEM_INFINITE, 1, 
-            &amp;pclsObj, &amp;uReturn);
+            &pclsObj, &uReturn);
 
         if(0 == uReturn)
         {
@@ -387,15 +387,15 @@ int __cdecl main(int argc, char **argv)
         VARIANT vtProp;
 
         // Get the value of the Name property
-        hr = pclsObj->Get(L"Name", 0, &amp;vtProp, 0, 0);
+        hr = pclsObj->Get(L"Name", 0, &vtProp, 0, 0);
         wcout << " OS Name : " << vtProp.bstrVal << endl;
 
         // Get the value of the FreePhysicalMemory property
         hr = pclsObj->Get(L"FreePhysicalMemory",
-            0, &amp;vtProp, 0, 0);
+            0, &vtProp, 0, 0);
         wcout << " Free physical memory (in kilobytes): "
             << vtProp.uintVal << endl;
-        VariantClear(&amp;vtProp);
+        VariantClear(&vtProp);
 
         pclsObj->Release();
         pclsObj = NULL;

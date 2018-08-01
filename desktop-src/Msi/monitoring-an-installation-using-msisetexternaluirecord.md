@@ -50,14 +50,14 @@ BOOL bMessage = (INSTALLMESSAGE_ERROR == iMessage);
 BOOL bFatalExit = (INSTALLMESSAGE_FATALEXIT == iMessage);
 BOOL bWarning = (INSTALLMESSAGE_WARNING == iMessage);
 
-if ((bMessage || bFatalExit || bWarning) &amp;&amp; hRecord &amp;&amp; pvContext)
+if ((bMessage || bFatalExit || bWarning) && hRecord && pvContext)
 {
 TCHAR rgchMessage[1024];
 DWORD dwMessage = sizeof(rgchMessage)/sizeof(TCHAR);
 LPTSTR pszMessage = rgchMessage;
 
 UINT uiRet = MsiFormatRecord(*(MSIHANDLE*)pvContext, 
-                                 hRecord, pszMessage, &amp;dwMessage);
+                                 hRecord, pszMessage, &dwMessage);
 if (ERROR_MORE_DATA == uiRet)
 {
 // Allocate a buffer to hold the string and terminating null.
@@ -68,7 +68,7 @@ if (!pszMessage)
 return -1;
 }
 uiRet = MsiFormatRecord(*(MSIHANDLE*)pvContext, 
-                                 hRecord, pszMessage, &amp;dwMessage);
+                                 hRecord, pszMessage, &dwMessage);
 if (ERROR_SUCCESS != uiRet)
 {
 // Return an error if an unexpected error occurs.
@@ -122,7 +122,7 @@ if (2 != argc)
 // ignore return value.
 MsiSetInternalUI(INSTALLUILEVEL_NONE, /* pWnd */ NULL);
 
-uiRet = MsiOpenPackage(argv[1], &amp;hProduct);
+uiRet = MsiOpenPackage(argv[1], &hProduct);
 if (ERROR_SUCCESS != uiRet)
 {
     _tprintf(TEXT("ERROR: Failed to open %s database.\n"), argv[1]);
@@ -139,7 +139,7 @@ DWORD dwMessageFilter = INSTALLLOGMODE_FATALEXIT
 // can use it to format the records we send to it.
 
 uiRet = MsiSetExternalUIRecord(UIHandler, 
-              dwMessageFilter, (LPVOID)&amp;hProduct, /* ppuiPrevHandle */ NULL);
+              dwMessageFilter, (LPVOID)&hProduct, /* ppuiPrevHandle */ NULL);
 
 if (ERROR_SUCCESS != uiRet)
 {

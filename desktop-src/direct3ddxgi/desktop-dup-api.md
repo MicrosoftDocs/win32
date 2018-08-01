@@ -44,10 +44,10 @@ HRESULT DUPLICATIONMANAGER::GetFrame(_Out_ FRAME_DATA* Data)
     DXGI_OUTDUPL_FRAME_INFO FrameInfo;
 
     //Get new frame
-    hr = DeskDupl->AcquireNextFrame(500, &amp;FrameInfo, &amp;DesktopResource);
+    hr = DeskDupl->AcquireNextFrame(500, &FrameInfo, &DesktopResource);
     if (FAILED(hr))
     {
-        if ((hr != DXGI_ERROR_ACCESS_LOST) &amp;&amp; (hr != DXGI_ERROR_WAIT_TIMEOUT))
+        if ((hr != DXGI_ERROR_ACCESS_LOST) && (hr != DXGI_ERROR_WAIT_TIMEOUT))
         {
             DisplayErr(L"Failed to acquire next frame in DUPLICATIONMANAGER", L"Error", hr);
         }
@@ -62,7 +62,7 @@ HRESULT DUPLICATIONMANAGER::GetFrame(_Out_ FRAME_DATA* Data)
     }
 
     // QI for IDXGIResource
-    hr = DesktopResource->QueryInterface(__uuidof(ID3D11Texture2D), reinterpret_cast<void **>(&amp;AcquiredDesktopImage));
+    hr = DesktopResource->QueryInterface(__uuidof(ID3D11Texture2D), reinterpret_cast<void **>(&AcquiredDesktopImage));
     DesktopResource->Release();
     DesktopResource = NULL;
     if (FAILED(hr))
@@ -97,7 +97,7 @@ HRESULT DUPLICATIONMANAGER::GetFrame(_Out_ FRAME_DATA* Data)
         UINT BufSize = FrameInfo.TotalMetadataBufferSize;
 
         // Get move rectangles
-        hr = DeskDupl->GetFrameMoveRects(BufSize, reinterpret_cast<DXGI_OUTDUPL_MOVE_RECT*>(MetaDataBuffer), &amp;BufSize);
+        hr = DeskDupl->GetFrameMoveRects(BufSize, reinterpret_cast<DXGI_OUTDUPL_MOVE_RECT*>(MetaDataBuffer), &BufSize);
         if (FAILED(hr))
         {
             if (hr != DXGI_ERROR_ACCESS_LOST)
@@ -114,7 +114,7 @@ HRESULT DUPLICATIONMANAGER::GetFrame(_Out_ FRAME_DATA* Data)
         BufSize = FrameInfo.TotalMetadataBufferSize - BufSize;
 
         // Get dirty rectangles
-        hr = DeskDupl->GetFrameDirtyRects(BufSize, reinterpret_cast<RECT*>(DirtyRects), &amp;BufSize);
+        hr = DeskDupl->GetFrameDirtyRects(BufSize, reinterpret_cast<RECT*>(DirtyRects), &BufSize);
         if (FAILED(hr))
         {
             if (hr != DXGI_ERROR_ACCESS_LOST)
@@ -219,13 +219,13 @@ HRESULT DUPLICATIONMANAGER::GetMouse(_Out_ PTR_INFO* PtrInfo, _In_ DXGI_OUTDUPL_
     // Make sure we don't update pointer position wrongly
     // If pointer is invisible, make sure we did not get an update from another output that the last time that said pointer
     // was visible, if so, don't set it to invisible or update.
-    if (!FrameInfo->PointerPosition.Visible &amp;&amp; (PtrInfo->WhoUpdatedPositionLast != OutputNumber))
+    if (!FrameInfo->PointerPosition.Visible && (PtrInfo->WhoUpdatedPositionLast != OutputNumber))
     {
         UpdatePosition = false;
     }
 
     // If two outputs both say they have a visible, only update if new update has newer timestamp
-    if (FrameInfo->PointerPosition.Visible &amp;&amp; PtrInfo->Visible &amp;&amp; (PtrInfo->WhoUpdatedPositionLast != OutputNumber) &amp;&amp; (PtrInfo->LastTimeStamp.QuadPart > FrameInfo->LastMouseUpdateTime.QuadPart))
+    if (FrameInfo->PointerPosition.Visible && PtrInfo->Visible && (PtrInfo->WhoUpdatedPositionLast != OutputNumber) && (PtrInfo->LastTimeStamp.QuadPart > FrameInfo->LastMouseUpdateTime.QuadPart))
     {
         UpdatePosition = false;
     }
@@ -268,7 +268,7 @@ HRESULT DUPLICATIONMANAGER::GetMouse(_Out_ PTR_INFO* PtrInfo, _In_ DXGI_OUTDUPL_
 
     UINT BufferSizeRequired;
     // Get shape
-    hr = DeskDupl->GetFramePointerShape(FrameInfo->PointerShapeBufferSize, reinterpret_cast<VOID*>(PtrInfo->PtrShapeBuffer), &amp;BufferSizeRequired, &amp;(PtrInfo->ShapeInfo));
+    hr = DeskDupl->GetFramePointerShape(FrameInfo->PointerShapeBufferSize, reinterpret_cast<VOID*>(PtrInfo->PtrShapeBuffer), &BufferSizeRequired, &(PtrInfo->ShapeInfo));
     if (FAILED(hr))
     {
         if (hr != DXGI_ERROR_ACCESS_LOST)

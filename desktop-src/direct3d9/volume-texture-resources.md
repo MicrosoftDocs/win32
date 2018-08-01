@@ -63,7 +63,7 @@ The next step is to use the [**IDirect3DDevice9::CreateVolumeTexture**](https://
 ```
 LPDIRECT3DVOLUMETEXTURE9 pVolumeTexture;
 d3dDevice->CreateVolumeTexture( 8, 4, 4, 1, 0, D3DFMT_R8G8B8,D3DPOOL_MANAGED, 
-                                &amp;pVolumeTexture );
+                                &pVolumeTexture );
 ```
 
 

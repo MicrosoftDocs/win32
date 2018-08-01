@@ -35,7 +35,7 @@ StringCchCopyWithAlloc (
     }
     size_t cchSize = 0;
 
-    HRESULT hr = StringCchLength(Src, cchMaxLen - 1, &amp;cchSize); 
+    HRESULT hr = StringCchLength(Src, cchMaxLen - 1, &cchSize); 
     if (FAILED(hr))
     {
         return hr;
@@ -70,7 +70,7 @@ HRESULT SimpleFileHelperClass::Initialize(
         if (wcscmp(rgAttributes[0].pwszName, L"filename")==0)
         {
             //copy the attribute to member variable
-            return StringCchCopyWithAlloc(&amp;m_pwszTestFile, MAX_PATH, 
+            return StringCchCopyWithAlloc(&m_pwszTestFile, MAX_PATH, 
                     rgAttributes[0].PWStr);
         } else {
             //the attribute isn't named as expected
@@ -113,7 +113,7 @@ HRESULT SimpleFileHelperClass::LowHealth(
     if(INVALID_HANDLE_VALUE == hFile)
     { 
         // alloc and set the diagnosis description and status
-        HRESULT hr = StringCchCopyWithAlloc(&amp;pwszDiagString, MAX_PATH, 
+        HRESULT hr = StringCchCopyWithAlloc(&pwszDiagString, MAX_PATH, 
                     L"The file was deleted.");
         if (FAILED(hr))
         {
@@ -156,14 +156,14 @@ SimpleFileHelperClass::GetRepairInfo(
     SecureZeroMemory(pRepair,sizeof(RepairInfo));
 
     // set the repair description and class name
-    hr = StringCchCopyWithAlloc(&amp;pRepair->pwszClassName, MAX_PATH,
+    hr = StringCchCopyWithAlloc(&pRepair->pwszClassName, MAX_PATH,
                 L"SimpleFileHelperClass");
     if (FAILED(hr))
     {
         goto Error;
     }
 
-    hr = StringCchCopyWithAlloc(&amp;pRepair->pwszDescription, MAX_PATH, 
+    hr = StringCchCopyWithAlloc(&pRepair->pwszDescription, MAX_PATH, 
                 L"Low Health Repair");
     if (FAILED(hr))
     {

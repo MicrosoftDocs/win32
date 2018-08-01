@@ -1502,10 +1502,10 @@ The following code example shows how to bind to a user account object and retrie
 IADsUser *GetUserObject(LPWSTR uPath)
 {
     IADsUser *pUser;
-    HRESULT hr = ADsGetObject(uPath,IID_IADsUser,(void**)&amp;pUser);
+    HRESULT hr = ADsGetObject(uPath,IID_IADsUser,(void**)&pUser);
     if (FAILED(hr)) {return NULL;}
     BSTR bstr;
-    hr = pUser->get_FullName(&amp;bstr);
+    hr = pUser->get_FullName(&bstr);
     printf("User: %S\n", bstr);
     SysFreeString(bstr);
     return pUser;

@@ -42,7 +42,7 @@ The following code example shows how to use **Widen** to widen the geometry by t
 
 ```C++
  ID2D1GeometrySink *pGeometrySink = NULL;
- hr = pPathGeometry->Open(&amp;pGeometrySink);
+ hr = pPathGeometry->Open(&pGeometrySink);
  if (SUCCEEDED(hr))
  {
      hr = pGeometry->Widen(
@@ -58,11 +58,11 @@ The following code example shows how to use **Widen** to widen the geometry by t
          if (SUCCEEDED(hr))
          {
              ID2D1Mesh *pMesh = NULL;
-             hr = m_pRT->CreateMesh(&amp;pMesh);
+             hr = m_pRT->CreateMesh(&pMesh);
              if (SUCCEEDED(hr))
              {
                  ID2D1TessellationSink *pSink = NULL;
-                 hr = pMesh->Open(&amp;pSink);
+                 hr = pMesh->Open(&pSink);
                  if (SUCCEEDED(hr))
                  {
                      hr = pPathGeometry->Tessellate(
@@ -74,7 +74,7 @@ The following code example shows how to use **Widen** to widen the geometry by t
                          hr = pSink->Close();
                          if (SUCCEEDED(hr))
                          {
-                             SafeReplace(&amp;m_pStrokeMesh, pMesh);
+                             SafeReplace(&m_pStrokeMesh, pMesh);
                          }
                      }
                      pSink->Release();

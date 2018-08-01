@@ -42,7 +42,7 @@ HRESULT SynchronousCreateLun(
     VDS_ASYNC_OUTPUT AsyncOut;
     IUnknown* pUnknown = NULL;
 
-    ZeroMemory( &amp;AsyncOut, sizeof(VDS_ASYNC_OUTPUT));
+    ZeroMemory( &AsyncOut, sizeof(VDS_ASYNC_OUTPUT));
 
     hResult = pSubsystem->CreateLun(
         type,
@@ -51,22 +51,22 @@ HRESULT SynchronousCreateLun(
         lNumberOfDrives,
         pwszUnmaskingList,
         pHints,
-        &amp;pAsync);
+        &pAsync);
 
-    if (SUCCEEDED(hResult) &amp;&amp; (!pAsync)) {
+    if (SUCCEEDED(hResult) && (!pAsync)) {
         hResult = E_UNEXPECTED; // Errant provider, returned S_OK 
                                 // with a NULL pointer.
     }
 
     if (SUCCEEDED(hResult)) {
         // Wait until the Async is done.
-        hResult2 = pAsync->Wait( &amp;hResult, &amp;AsyncOut);
-        if (SUCCEEDED(hResult) &amp;&amp; FAILED(hResult2)) {
+        hResult2 = pAsync->Wait( &hResult, &AsyncOut);
+        if (SUCCEEDED(hResult) && FAILED(hResult2)) {
             hResult = hResult2;
         }
     }
 
-    if (SUCCEEDED(hResult) &amp;&amp; (VDS_ASYNCOUT_CREATELUN != AsyncOut.type)) {
+    if (SUCCEEDED(hResult) && (VDS_ASYNCOUT_CREATELUN != AsyncOut.type)) {
         hResult = E_UNEXPECTED; // Errant provider, returned S_OK  
                                 // with an unexpected type.
     }

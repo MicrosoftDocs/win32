@@ -36,7 +36,7 @@ There are a few key interfaces and methods you should be aware of before you can
     // Create ISearchManager instance
     ISearchManager* pSearchManager;
 
-    hr = CoCreateInstance(CLSID_CSearchManager, NULL, CLSCTX_LOCAL_SERVER, IID_PPV_ARGS(&amp;pSearchManager));      
+    hr = CoCreateInstance(CLSID_CSearchManager, NULL, CLSCTX_LOCAL_SERVER, IID_PPV_ARGS(&pSearchManager));      
     ```
 
     
@@ -47,7 +47,7 @@ There are a few key interfaces and methods you should be aware of before you can
     ISearchCatalogManager* pSearchCatalogManager;
 
     // Call ISearchManager::GetCatalog for "SystemIndex" to access the catalog to the ISearchCatalogManager
-    hr = pSearchManager->GetCatalog(L"SystemIndex", &amp;pSearchCatalogManager);
+    hr = pSearchManager->GetCatalog(L"SystemIndex", &pSearchCatalogManager);
             
     ```
 
@@ -58,7 +58,7 @@ There are a few key interfaces and methods you should be aware of before you can
     // Call ISearchCatalogManager::GetQueryHelper to get the ISearchQueryHelper interface
     ISearchQueryHelper* pQueryHelper;
 
-    hr = pSearchCatalogManager->GetQueryHelper(&amp;pQueryHelper);
+    hr = pSearchCatalogManager->GetQueryHelper(&pQueryHelper);
             
     ```
 
@@ -69,7 +69,7 @@ There are a few key interfaces and methods you should be aware of before you can
     // Call get_ConnectionString to get the OLE DB connection string
     LPWSTR pszConnectionString=NULL;
 
-    hr = pQueryHelper->get_ConnectionString(&amp;pszConnectionString);
+    hr = pQueryHelper->get_ConnectionString(&pszConnectionString);
     // NOTE: YOU MUST call CoTaskMemFree() on the string
         
     ```

@@ -31,7 +31,7 @@ Before starting playback, query the Filter Graph Manager for the **IVideoWindow*
 
 ```C++
 IVideoWindow *pVidWin = NULL;
-pGraph->QueryInterface(IID_IVideoWindow, (void **)&amp;pVidWin);
+pGraph->QueryInterface(IID_IVideoWindow, (void **)&pVidWin);
 ```
 
 
@@ -67,7 +67,7 @@ To set the position of the video relative to the application window's client are
 
 ```C++
 RECT rc;
-GetClientRect(hwnd, &amp;rc);
+GetClientRect(hwnd, &rc);
 pVidWin->SetWindowPosition(0, 0, rc.right, rc.bottom);
 ```
 

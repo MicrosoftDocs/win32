@@ -81,10 +81,10 @@ HRESULT GetSidAccountName(PSID pSid, BSTR *pbstrAccountName)
         NULL, 
         pSid, 
         wszAccountName, 
-        &amp;dwAccountName, 
+        &dwAccountName, 
         wszDomainName, 
-        &amp;dwDomainName, 
-        &amp;SidNameUse);
+        &dwDomainName, 
+        &SidNameUse);
     if(fReturn)
     {
         CComBSTR sbstrReturn;
@@ -133,11 +133,11 @@ HRESULT GetSidAccountName_Everyone(BSTR *pbstrAccountName)
     // Create the SID for "Everyone".
     SID_IDENTIFIER_AUTHORITY SidAuth = SECURITY_WORLD_SID_AUTHORITY;
     fReturn = AllocateAndInitializeSid(
-        &amp;SidAuth, 
+        &SidAuth, 
         1, 
         SECURITY_WORLD_RID, 
         0, 0, 0, 0, 0, 0, 0, 
-        &amp;psidAlloc);
+        &psidAlloc);
     if(fReturn)
     {
         hr = GetSidAccountName(psidAlloc, pbstrAccountName);
@@ -168,11 +168,11 @@ HRESULT GetSidAccountName_Self(BSTR *pbstrAccountName)
     // Create the SID for "Everyone".
     SID_IDENTIFIER_AUTHORITY SidAuth = SECURITY_NT_AUTHORITY;
     fReturn = AllocateAndInitializeSid(
-        &amp;SidAuth, 
+        &SidAuth, 
         1, 
         SECURITY_PRINCIPAL_SELF_RID, 
         0, 0, 0, 0, 0, 0, 0, 
-        &amp;psidAlloc);
+        &psidAlloc);
     if(fReturn)
     {
         hr = GetSidAccountName(psidAlloc, pbstrAccountName);
@@ -220,7 +220,7 @@ HRESULT GetObjectACE(IADsAccessControlList* pACL,
                         
     HRESULT hr;
     IUnknown *pUnk;
-    hr = pACL->get__NewEnum(&amp;pUnk);
+    hr = pACL->get__NewEnum(&pUnk);
     if(FAILED(hr))
     {
         return hr;
@@ -228,7 +228,7 @@ HRESULT GetObjectACE(IADsAccessControlList* pACL,
 
     IEnumVARIANT *pEnum;
 
-    hr = pUnk->QueryInterface(IID_IEnumVARIANT, (LPVOID*)&amp;pEnum);
+    hr = pUnk->QueryInterface(IID_IEnumVARIANT, (LPVOID*)&pEnum);
     if(SUCCEEDED(hr)) 
     {
         ULONG ulFetched;
@@ -236,28 +236,28 @@ HRESULT GetObjectACE(IADsAccessControlList* pACL,
         BOOL fSelf = FALSE;
         CComVariant svarACE;
 
-        for(hr = pEnum->Next(1, &amp;svarACE, &amp;ulFetched); 
-            S_OK == hr &amp;&amp; 1 == ulFetched; 
-            hr = pEnum->Next(1, &amp;svarACE, &amp;ulFetched))
+        for(hr = pEnum->Next(1, &svarACE, &ulFetched); 
+            S_OK == hr && 1 == ulFetched; 
+            hr = pEnum->Next(1, &svarACE, &ulFetched))
         {
             if(VT_DISPATCH == svarACE.vt)
             {
                 IADsAccessControlEntry *pACE;
                 
-                hr = svarACE.pdispVal->QueryInterface(IID_IADsAccessControlEntry, (void**)&amp;pACE);
+                hr = svarACE.pdispVal->QueryInterface(IID_IADsAccessControlEntry, (void**)&pACE);
                 if(SUCCEEDED(hr))
                 {
                     CComBSTR sbstrObjectType;
 
-                    hr = pACE->get_ObjectType(&amp;sbstrObjectType);
+                    hr = pACE->get_ObjectType(&sbstrObjectType);
                     if(SUCCEEDED(hr))
                     {
                         if(0 == lstrcmpiW(pwszObject, sbstrObjectType))
                         {
                             CComBSTR sbstrTrustee;
 
-                            hr = pACE->get_Trustee(&amp;sbstrTrustee);
-                            if(SUCCEEDED(hr) &amp;&amp; (0 == lstrcmpiW(sbstrTrustee, pwszTrustee)))
+                            hr = pACE->get_Trustee(&sbstrTrustee);
+                            if(SUCCEEDED(hr) && (0 == lstrcmpiW(sbstrTrustee, pwszTrustee)))
                             {
                                 *ppACE = pACE;
                                 break;
@@ -311,14 +311,14 @@ HRESULT UserCannotChangePassword(LPCWSTR pwszUserDN,
     HRESULT hr;
 
     CComBSTR sbstrEveryone;
-    hr = GetSidAccountName_Everyone(&amp;sbstrEveryone);
+    hr = GetSidAccountName_Everyone(&sbstrEveryone);
     if(FAILED(hr))
     {
         return hr;
     }
 
     CComBSTR sbstrSelf;
-    hr = GetSidAccountName_Self(&amp;sbstrSelf);
+    hr = GetSidAccountName_Self(&sbstrSelf);
     if(FAILED(hr))
     {
         return hr;
@@ -337,28 +337,28 @@ HRESULT UserCannotChangePassword(LPCWSTR pwszUserDN,
                         pwszPassword,
                         ADS_SECURE_AUTHENTICATION,
                         IID_IADs, 
-                        (LPVOID*)&amp;pads);
+                        (LPVOID*)&pads);
 
     if(SUCCEEDED(hr))
     {
         CComVariant svar;
         
-        hr = pads->Get(CComBSTR("ntSecurityDescriptor"), &amp;svar);
+        hr = pads->Get(CComBSTR("ntSecurityDescriptor"), &svar);
         if(SUCCEEDED(hr))
         {
             IADsSecurityDescriptor *psd;
 
-            hr = svar.pdispVal->QueryInterface(IID_IADsSecurityDescriptor, (LPVOID*)&amp;psd);
+            hr = svar.pdispVal->QueryInterface(IID_IADsSecurityDescriptor, (LPVOID*)&psd);
             if(SUCCEEDED(hr))
             {
                 IDispatch *pDisp;
 
-                hr = psd->get_DiscretionaryAcl(&amp;pDisp);
+                hr = psd->get_DiscretionaryAcl(&pDisp);
                 if(SUCCEEDED(hr))
                 {
                     IADsAccessControlList *pACL;
 
-                    hr = pDisp->QueryInterface(IID_IADsAccessControlList, (void**)&amp;pACL);
+                    hr = pDisp->QueryInterface(IID_IADsAccessControlList, (void**)&pACL);
                     if(SUCCEEDED(hr)) 
                     {
                         BOOL fEveryone = FALSE;
@@ -367,29 +367,29 @@ HRESULT UserCannotChangePassword(LPCWSTR pwszUserDN,
                         IADsAccessControlEntry *pACESelf = NULL;
 
                         // Get the ACE for everyone.
-                        hr = GetObjectACE(pACL, CHANGE_PASSWORD_GUID_W, sbstrEveryone, &amp;pACEEveryone);
+                        hr = GetObjectACE(pACL, CHANGE_PASSWORD_GUID_W, sbstrEveryone, &pACEEveryone);
                         
                         // Get the ACE for self.
-                        hr = GetObjectACE(pACL, CHANGE_PASSWORD_GUID_W, sbstrSelf, &amp;pACESelf);
+                        hr = GetObjectACE(pACL, CHANGE_PASSWORD_GUID_W, sbstrSelf, &pACESelf);
                         
-                        if(pACEEveryone &amp;&amp; pACESelf)
+                        if(pACEEveryone && pACESelf)
                         {
                             LONG lAceType;
 
-                            hr = pACEEveryone->get_AceType(&amp;lAceType);
-                            if(SUCCEEDED(hr) &amp;&amp; (ADS_ACETYPE_ACCESS_DENIED_OBJECT == lAceType))
+                            hr = pACEEveryone->get_AceType(&lAceType);
+                            if(SUCCEEDED(hr) && (ADS_ACETYPE_ACCESS_DENIED_OBJECT == lAceType))
                             {
                                 fEveryone = TRUE;
                             }
 
-                            hr = pACESelf->get_AceType(&amp;lAceType);
-                            if(SUCCEEDED(hr) &amp;&amp; (ADS_ACETYPE_ACCESS_DENIED_OBJECT == lAceType))
+                            hr = pACESelf->get_AceType(&lAceType);
+                            if(SUCCEEDED(hr) && (ADS_ACETYPE_ACCESS_DENIED_OBJECT == lAceType))
                             {
                                 fSelf = TRUE;
                             }
                         }
 
-                        if(fEveryone &amp;&amp; fSelf)
+                        if(fEveryone && fSelf)
                         {
                             *pfCannotChangePassword = TRUE;
                         }
@@ -425,7 +425,7 @@ The following code example shows how to determine the User Cannot Change Passwor
 
 ```VB
 Const CHANGE_PASSWORD_GUID = "{AB721A53-1E2F-11D0-9819-00AA0040529B}"
-Const ADS_ACETYPE_ACCESS_DENIED_OBJECT = &amp;H6
+Const ADS_ACETYPE_ACCESS_DENIED_OBJECT = &H6
 
 Function UserCannotChangePassword(strUserDN As String, strUsername As String, strPassword As String) As Boolean
     UserCannotChangePassword = False

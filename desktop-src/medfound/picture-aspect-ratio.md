@@ -140,7 +140,7 @@ HRESULT GetVideoDisplayArea(IMFMediaType *pType, MFVideoArea *pArea)
 
         if (hr == MF_E_ATTRIBUTENOTFOUND)
         {
-            hr = MFGetAttributeSize(pType, MF_MT_FRAME_SIZE, &amp;width, &amp;height);
+            hr = MFGetAttributeSize(pType, MF_MT_FRAME_SIZE, &width, &height);
 
             if (SUCCEEDED(hr))
             {
@@ -196,7 +196,7 @@ The following code shows how to convert a rectangle from one pixel aspect ratio 
 // must be stretched to 720 x 540.
 //-----------------------------------------------------------------------------
 
-RECT CorrectAspectRatio(const RECT&amp; src, const MFRatio&amp; srcPAR, const MFRatio&amp; destPAR)
+RECT CorrectAspectRatio(const RECT& src, const MFRatio& srcPAR, const MFRatio& destPAR)
 {
     // Start with a rectangle the same size as src, but offset to (0,0).
     RECT rc = {0, 0, src.right - src.left, src.bottom - src.top};
@@ -250,7 +250,7 @@ The following code calculates the letterbox area, given a source and destination
 
 
 ```C++
-RECT LetterBoxRect(const RECT&amp; rcSrc, const RECT&amp; rcDst)
+RECT LetterBoxRect(const RECT& rcSrc, const RECT& rcDst)
 {
     // Compute source/destination ratios.
     int iSrcWidth  = rcSrc.right - rcSrc.left;
@@ -281,7 +281,7 @@ RECT LetterBoxRect(const RECT&amp; rcSrc, const RECT&amp; rcDst)
     LONG top = rcDst.top + ((iDstHeight - iDstLBHeight) / 2);
 
     RECT rc;
-    SetRect(&amp;rc, left, top, left + iDstLBWidth, top + iDstLBHeight);
+    SetRect(&rc, left, top, left + iDstLBWidth, top + iDstLBHeight);
     return rc;
 }
 ```

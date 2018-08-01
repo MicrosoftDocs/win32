@@ -257,7 +257,7 @@ int CMainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
         return -1;      // fail to create
 
     // Ribbon initialization
-    InitRibbon(this, &amp;m_spUIFramework);
+    InitRibbon(this, &m_spUIFramework);
 
     return 0;
 }
@@ -273,13 +273,13 @@ HRESULT InitRibbon(CMainFrame* pMainFrame, IUnknown** ppFramework)
 {
     // Create the IUIFramework instance.
     CComPtr<IUIFramework> spFramework;
-    HRESULT hr = ::CoCreateInstance(CLSID_UIRibbonFramework, NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&amp;spFramework));
+    HRESULT hr = ::CoCreateInstance(CLSID_UIRibbonFramework, NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&spFramework));
     if (FAILED(hr))
         return hr;
     
     // Instantiate the CApplication object.
     CComObject<CApplication>* pApplication;
-    hr = CComObject<CApplication>::CreateInstance(&amp;pApplication);   // Refcount is 0
+    hr = CComObject<CApplication>::CreateInstance(&pApplication);   // Refcount is 0
     
     // Call AddRef on the CApplication object. The smart pointer will release the refcount when it is out of scope.
     CComPtr< CComObject<CApplication> > spApplication(pApplication);
@@ -361,7 +361,7 @@ public:
 
             UINT ulRibbonHeight;
             // Get the Ribbon height.
-            hr = pRibbon->GetHeight(&amp;ulRibbonHeight);
+            hr = pRibbon->GetHeight(&ulRibbonHeight);
             if (FAILED(hr))
                 return hr;
 

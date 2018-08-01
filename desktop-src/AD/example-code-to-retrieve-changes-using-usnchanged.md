@@ -90,7 +90,7 @@ HRESULT DoUSNSyncSearch(
         return E_INVALIDARG;
     }
 
-    VariantInit(&amp;var);
+    VariantInit(&var);
 
     // Allocate the server path string buffer.
     pszServerPath = new WCHAR[7 + wcslen(pszDC) + 1 + 1];
@@ -131,7 +131,7 @@ HRESULT DoUSNSyncSearch(
                     NULL,
                     ADS_SECURE_AUTHENTICATION,
                     IID_IADs,
-                    (void**)&amp;pRootDSE);
+                    (void**)&pRootDSE);
     if (FAILED(hr))
     {
         wprintf(L"failed to bind to root: 0x%x\n", hr);
@@ -139,7 +139,7 @@ HRESULT DoUSNSyncSearch(
     }
 
     // Get the name of the DC connected to.
-    hr = pRootDSE->Get(CComBSTR("DnsHostName"), &amp;var);
+    hr = pRootDSE->Get(CComBSTR("DnsHostName"), &var);
     if (FAILED(hr))
     {
         wprintf(L"failed to get DnsHostName: 0x%x\n", hr);
@@ -174,8 +174,8 @@ HRESULT DoUSNSyncSearch(
     // Bind to the DC service object to get the invocationID.
     // The dsServiceName property of root DSE contains the distinguished
     // name of this DC service object.
-    VariantClear(&amp;var);
-    hr = pRootDSE->Get(CComBSTR("dsServiceName"), &amp;var);
+    VariantClear(&var);
+    hr = pRootDSE->Get(CComBSTR("dsServiceName"), &var);
     if (FAILED(hr))
     {
         wprintf(L"failed to get \"dsServiceName\"\n");
@@ -199,8 +199,8 @@ HRESULT DoUSNSyncSearch(
                     NULL,
                     ADS_SECURE_AUTHENTICATION,
                     IID_IADs,
-                    (void**)&amp;pDCService);
-    VariantClear(&amp;var);
+                    (void**)&pDCService);
+    VariantClear(&var);
     if (FAILED(hr))
     {
         wprintf(L"failed to bind to the DC service object: 0x%x\n", hr);
@@ -208,14 +208,14 @@ HRESULT DoUSNSyncSearch(
     }
 
     // Get the invocationID GUID from the service object.
-    hr = pDCService->Get(CComBSTR("invocationID"), &amp;var);
+    hr = pDCService->Get(CComBSTR("invocationID"), &var);
     if (FAILED(hr))
     {
         wprintf(L"failed to get \"invocationID\"\n");
         goto cleanup;
     }
 
-    hr = SafeArrayAccessData((SAFEARRAY*)(var.pparray), (void HUGEP* FAR*)&amp;pArray);
+    hr = SafeArrayAccessData((SAFEARRAY*)(var.pparray), (void HUGEP* FAR*)&pArray);
     if (FAILED(hr))
     {
         wprintf(L"failed to get hugep: 0x%x\n", hr);
@@ -223,7 +223,7 @@ HRESULT DoUSNSyncSearch(
     }
 
     BuildGUIDString(szGUID, (LPBYTE)pArray);
-    VariantClear(&amp;var);
+    VariantClear(&var);
 
     // Compare the invocationID GUID to the GUID string from the previous
     // synchronization. If not the same, this is a different DC or the DC
@@ -249,7 +249,7 @@ HRESULT DoUSNSyncSearch(
     }
 
     // Get and save the current high USN.
-    hr = pRootDSE->Get(CComBSTR("highestCommittedUSN"), &amp;var);
+    hr = pRootDSE->Get(CComBSTR("highestCommittedUSN"), &var);
     if (FAILED(hr))
     {
         wprintf(L"failed to get \"highestCommittedUSN\"\n");
@@ -258,7 +258,7 @@ HRESULT DoUSNSyncSearch(
 
     wcscpy_s(pszPrevHighUSN, var.bstrVal);
     wprintf(L"current highestCommittedUSN: %s\n", pszPrevHighUSN);
-    VariantClear(&amp;var);
+    VariantClear(&var);
 
     // Reallocate the DS path buffer.
     delete[] pszDSPath;
@@ -278,7 +278,7 @@ HRESULT DoUSNSyncSearch(
                     NULL,
                     ADS_SECURE_AUTHENTICATION,
                     IID_IDirectorySearch,
-                    (void**)&amp;pSearch);
+                    (void**)&pSearch);
     if (FAILED(hr))
     {
         wprintf(L"failed to get IDirectorySearch: 0x%x\n", hr);
@@ -305,12 +305,12 @@ HRESULT DoUSNSyncSearch(
     // and the USNChanged value to exceed.
     swprintf_s(szSearchFilter,
 
-L"(&amp;(objectClass=user)(objectCategory=person)(uSNChanged>=%I64d))",
+L"(&(objectClass=user)(objectCategory=person)(uSNChanged>=%I64d))",
             iLowerBoundUSN );
 
     // Search for the objects indicated by the search filter.
     hr = pSearch->ExecuteSearch(szSearchFilter,
-                        pAttributeNames, dwAttributes, &amp;hSearch );
+                        pAttributeNames, dwAttributes, &hSearch );
     if (FAILED(hr))
     {
         wprintf(L"failed to set execute search: 0x%x\n", hr);
@@ -320,52 +320,52 @@ L"(&amp;(objectClass=user)(objectCategory=person)(uSNChanged>=%I64d))",
     // Loop through the rows of the search result. Each row is an object
     // with USNChanged greater than or equal to the specified value.
     hr = pSearch->GetNextRow(hSearch);
-    while ( SUCCEEDED(hr) &amp;&amp; hr != S_ADS_NOMORE_ROWS )
+    while ( SUCCEEDED(hr) && hr != S_ADS_NOMORE_ROWS )
     {
-        ZeroMemory(&amp;userdata, sizeof(MYUSERDATA));
+        ZeroMemory(&userdata, sizeof(MYUSERDATA));
 
         // Get the distinguishedName.
-        hr = pSearch->GetColumn(hSearch, L"distinguishedName", &amp;col);
+        hr = pSearch->GetColumn(hSearch, L"distinguishedName", &col);
         if ( SUCCEEDED(hr) )
         {
-            if (col.dwADsType == ADSTYPE_DN_STRING &amp;&amp; col.pADsValues)
+            if (col.dwADsType == ADSTYPE_DN_STRING && col.pADsValues)
             {
                 wcscpy_s(userdata.distinguishedName,
 col.pADsValues->DNString);
             }
 
-            pSearch->FreeColumn( &amp;col );
+            pSearch->FreeColumn( &col );
         }
 
         // Get the telephone number.
-        hr = pSearch->GetColumn( hSearch, L"telephoneNumber", &amp;col );
+        hr = pSearch->GetColumn( hSearch, L"telephoneNumber", &col );
         if ( SUCCEEDED(hr) )
         {
-            if (col.dwADsType == ADSTYPE_CASE_IGNORE_STRING &amp;&amp;
+            if (col.dwADsType == ADSTYPE_CASE_IGNORE_STRING &&
 col.pADsValues)
             {
                 wcscpy_s(userdata.phoneNumber, col.pADsValues->CaseIgnoreString);
             }
 
-            pSearch->FreeColumn( &amp;col );
+            pSearch->FreeColumn( &col );
         }
 
         // Get the objectGUID.
-        hr = pSearch->GetColumn( hSearch, L"objectGUID", &amp;col );
+        hr = pSearch->GetColumn( hSearch, L"objectGUID", &col );
         if ( SUCCEEDED(hr) )
         {
-            if ((col.dwADsType == ADSTYPE_OCTET_STRING) &amp;&amp; col.pADsValues &amp;&amp;
+            if ((col.dwADsType == ADSTYPE_OCTET_STRING) && col.pADsValues &&
                 (col.pADsValues->OctetString.lpValue))
             {
                 BuildGUIDString(szGUID, (LPBYTE) col.pADsValues->OctetString.lpValue);
                 wcscpy_s(userdata.objectGUID, szGUID);
             }
 
-            pSearch->FreeColumn( &amp;col );
+            pSearch->FreeColumn( &col );
         }
 
         // Write the data from Active Directory to the secondary storage.
-        WriteObjectDataToStorage(&amp;userdata, bUpdate);
+        WriteObjectDataToStorage(&userdata, bUpdate);
         dwCount++;
         hr = pSearch->GetNextRow( hSearch);
     }
@@ -394,7 +394,7 @@ col.pADsValues)
     }
 
     // Bind to the Deleted Objects container.
-    hr = pRootDSE->Get(CComBSTR("defaultNamingContext"), &amp;var);
+    hr = pRootDSE->Get(CComBSTR("defaultNamingContext"), &var);
     if (FAILED(hr))
     {
         wprintf(L"failed to get \"defaultNamingContext\"\n");
@@ -421,14 +421,14 @@ col.pADsValues)
                 pszServerPath,
                 GUID_DELETED_OBJECTS_CONTAINER_W,
                 var.bstrVal);
-    VariantClear(&amp;var);
+    VariantClear(&var);
 
     hr = ADsOpenObject(pszDSPath,
                     NULL,
                     NULL,
                     ADS_SECURE_AUTHENTICATION | ADS_FAST_BIND,
                     IID_IDirectorySearch,
-                    (void**)&amp;pSearch);
+                    (void**)&pSearch);
     if (FAILED(hr))
     {
         wprintf(L"failed to get IDirectorySearch: 0x%x\n", hr);
@@ -457,12 +457,12 @@ col.pADsValues)
 
     // Set up the search filter.
     swprintf_s(szSearchFilter,
-            L"(&amp;(isDeleted=TRUE)(uSNChanged>=%I64d))",
+            L"(&(isDeleted=TRUE)(uSNChanged>=%I64d))",
             iLowerBoundUSN );
 
     // Execute the search.
     hr = pSearch->ExecuteSearch(szSearchFilter,
-                        pAttributeNames, dwAttributes, &amp;hSearch );
+                        pAttributeNames, dwAttributes, &hSearch );
     if (FAILED(hr))
     {
         wprintf(L"failed to set execute search: 0x%x\n", hr);
@@ -474,40 +474,40 @@ col.pADsValues)
     // Each row is an object deleted since the previous call.
     dwCount = 0;
     hr = pSearch->GetNextRow(hSearch);
-    while ( SUCCEEDED(hr) &amp;&amp; hr != S_ADS_NOMORE_ROWS )
+    while ( SUCCEEDED(hr) && hr != S_ADS_NOMORE_ROWS )
     {
-        ZeroMemory(&amp;userdata, sizeof(MYUSERDATA) );
+        ZeroMemory(&userdata, sizeof(MYUSERDATA) );
 
         // Get the distinguishedName.
-        hr = pSearch->GetColumn(hSearch, L"distinguishedName", &amp;col);
+        hr = pSearch->GetColumn(hSearch, L"distinguishedName", &col);
         if ( SUCCEEDED(hr) )
         {
-            if (col.dwADsType == ADSTYPE_DN_STRING &amp;&amp; col.pADsValues)
+            if (col.dwADsType == ADSTYPE_DN_STRING && col.pADsValues)
             {
                 wcscpy_s(userdata.distinguishedName,
 col.pADsValues->DNString);
             }
 
-            pSearch->FreeColumn( &amp;col );
+            pSearch->FreeColumn( &col );
         }
 
         // Get the objectGUID number.
-        hr = pSearch->GetColumn( hSearch, L"objectGUID", &amp;col );
+        hr = pSearch->GetColumn( hSearch, L"objectGUID", &col );
         if ( SUCCEEDED(hr) )
         {
-            if ((col.dwADsType == ADSTYPE_OCTET_STRING) &amp;&amp; col.pADsValues &amp;&amp;
+            if ((col.dwADsType == ADSTYPE_OCTET_STRING) && col.pADsValues &&
                 (col.pADsValues->OctetString.lpValue))
             {
                 BuildGUIDString(szGUID, (LPBYTE) col.pADsValues->OctetString.lpValue);
                 wcscpy_s(userdata.objectGUID, szGUID);
             }
 
-            pSearch->FreeColumn( &amp;col );
+            pSearch->FreeColumn( &col );
         }
 
         // If the objectGUID of a deleted object matches an objectGUID in
         // the secondary storage, delete the object from storage.
-        DeleteObjectDataFromStorage(&amp;userdata);
+        DeleteObjectDataFromStorage(&userdata);
         dwCount++;
         hr = pSearch->GetNextRow(hSearch);
     }
@@ -551,7 +551,7 @@ cleanup:
         pSearch->Release();
             pSearch = NULL;
       }
-    VariantClear(&amp;var);
+    VariantClear(&var);
 
     return hr;
 }
@@ -611,7 +611,7 @@ DWORD WriteSyncParamsToStorage(
         REG_OPTION_NON_VOLATILE,
         KEY_WRITE,
         NULL,
-        &amp;hReg,
+        &hReg,
         NULL);
     if (NO_ERROR == dwStat)
     {
@@ -666,7 +666,7 @@ DWORD GetSyncParamsFromStorage(
                 L"Software\\Microsoft\\Windows 2000 AD-Synchro-USN",
                 0,
                 KEY_QUERY_VALUE,
-                &amp;hReg);
+                &hReg);
     if (NO_ERROR == dwStat)
     {
         // Get the previous invocationID from the registry.
@@ -676,7 +676,7 @@ DWORD GetSyncParamsFromStorage(
             NULL,
             NULL,
             (LPBYTE)pszPrevInvocationID,
-            &amp;dwPrevInvocationSize);
+            &dwPrevInvocationSize);
         if (dwStat != NO_ERROR)
         {
             wprintf(L"RegQueryValueEx failed to get invocationID: 0x%x\n", dwStat);
@@ -689,7 +689,7 @@ DWORD GetSyncParamsFromStorage(
             NULL,
             NULL,
             (LPBYTE)pszPreviousHighUSN,
-            &amp;dwPrevHighUSNSize);
+            &dwPrevHighUSNSize);
         if (dwStat != NO_ERROR)
         {
             wprintf(L"RegQueryValueEx failed to get previous high USN:
@@ -703,7 +703,7 @@ DWORD GetSyncParamsFromStorage(
             NULL,
             NULL,
             (LPBYTE)pszDCName,
-            &amp;dwDCNameSize);
+            &dwDCNameSize);
         if (dwStat != NO_ERROR)
         {
             wprintf(L"RegQueryValueEx failed to get DC name: 0x%x\n", dwStat);

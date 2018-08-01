@@ -49,7 +49,7 @@ HRESULT ReadHeader(
         queryFlags,
         NULL,
         headerBuffer,
-        &amp;headerLength,
+        &headerLength,
         WINHTTP_NO_HEADER_INDEX))
     {
         hr = HRESULT_FROM_WIN32(GetLastError());
@@ -89,7 +89,7 @@ HRESULT ReadResponse(
 
     for (;;)
     {
-        if (!WinHttpReadData(requestHandle, buffer, sizeof(buffer), &amp;bytesRead))
+        if (!WinHttpReadData(requestHandle, buffer, sizeof(buffer), &bytesRead))
         {
             hr = HRESULT_FROM_WIN32(GetLastError());
             goto Exit;

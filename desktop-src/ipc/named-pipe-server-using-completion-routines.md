@@ -74,7 +74,7 @@ int _tmain(VOID)
 // Call a subroutine to create one instance, and wait for 
 // the client to connect. 
  
-   fPendingIO = CreateAndConnectInstance(&amp;oConnect); 
+   fPendingIO = CreateAndConnectInstance(&oConnect); 
  
    while (1) 
    { 
@@ -99,8 +99,8 @@ int _tmain(VOID)
          { 
             fSuccess = GetOverlappedResult( 
                hPipe,     // pipe handle 
-               &amp;oConnect, // OVERLAPPED structure 
-               &amp;cbRet,    // bytes transferred 
+               &oConnect, // OVERLAPPED structure 
+               &cbRet,    // bytes transferred 
                FALSE);    // does not wait 
             if (!fSuccess) 
             {
@@ -131,7 +131,7 @@ int _tmain(VOID)
          // Create new pipe instance for the next client. 
  
             fPendingIO = CreateAndConnectInstance( 
-               &amp;oConnect); 
+               &oConnect); 
             break; 
  
       // The wait is satisfied by a completed read or write 
@@ -171,7 +171,7 @@ VOID WINAPI CompletedWriteRoutine(DWORD dwErr, DWORD cbWritten,
 // The write operation has finished, so read the next request (if 
 // there is no error). 
  
-   if ((dwErr == 0) &amp;&amp; (cbWritten == lpPipeInst->cbToWrite)) 
+   if ((dwErr == 0) && (cbWritten == lpPipeInst->cbToWrite)) 
       fRead = ReadFileEx( 
          lpPipeInst->hPipeInst, 
          lpPipeInst->chRequest, 
@@ -202,7 +202,7 @@ VOID WINAPI CompletedReadRoutine(DWORD dwErr, DWORD cbBytesRead,
 // The read operation has finished, so write a response (if no 
 // error occurred). 
  
-   if ((dwErr == 0) &amp;&amp; (cbBytesRead != 0)) 
+   if ((dwErr == 0) && (cbBytesRead != 0)) 
    { 
       GetAnswerToRequest(lpPipeInst); 
  

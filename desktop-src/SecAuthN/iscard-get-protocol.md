@@ -76,7 +76,7 @@ SCARD_PROTOCOLS   scProtocol;
 HRESULT           hr;
 
 // Retrieve the protocol.
-hr = pISCard->get_Protocol(&amp;scProtocol);
+hr = pISCard->get_Protocol(&scProtocol);
 if (FAILED(hr))
 {
    printf("Failed get_Protocol\n");

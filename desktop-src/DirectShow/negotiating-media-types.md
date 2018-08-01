@@ -42,8 +42,8 @@ The following code is correct:
 
 
 ```C++
-if ((pmt->formattype == FORMAT_VideoInfo) &amp;&amp; 
-    (pmt->cbFormat > sizeof(VIDEOINFOHEADER) &amp;&amp;
+if ((pmt->formattype == FORMAT_VideoInfo) && 
+    (pmt->cbFormat > sizeof(VIDEOINFOHEADER) &&
     (pbFormat != NULL))
 {
     VIDEOINFOHEADER *pVIH = (VIDEOINFOHEADER*)pmt->pbFormat;

@@ -126,7 +126,7 @@ To process accelerators, an application's (or thread's) message loop must contai
 MSG msg;
 BOOL bRet;
 
-while ( (bRet = GetMessage(&amp;msg, (HWND) NULL, 0, 0)) != 0)
+while ( (bRet = GetMessage(&msg, (HWND) NULL, 0, 0)) != 0)
 {
     if (bRet == -1) 
     {
@@ -139,10 +139,10 @@ while ( (bRet = GetMessage(&amp;msg, (HWND) NULL, 0, 0)) != 0)
         if (!TranslateAccelerator( 
                 hwndMain,      // handle to receiving window 
                 haccel,        // handle to active accelerator table 
-                &amp;msg))         // message data 
+                &msg))         // message data 
         {
-            TranslateMessage(&amp;msg); 
-            DispatchMessage(&amp;msg); 
+            TranslateMessage(&msg); 
+            DispatchMessage(&msg); 
         } 
     } 
 }
@@ -180,12 +180,12 @@ The following portion of a resource-definition file defines the **Character** me
  
 MainMenu MENU 
 { 
-    POPUP   "&amp;Character" 
+    POPUP   "&Character" 
     { 
-        MENUITEM    "&amp;Regular\tF5",         IDM_REGULAR 
-        MENUITEM    "&amp;Bold\tCtrl+B",        IDM_BOLD 
-        MENUITEM    "&amp;Italic\tCtrl+I",      IDM_ITALIC 
-        MENUITEM    "&amp;Underline\tCtrl+U",   IDM_ULINE 
+        MENUITEM    "&Regular\tF5",         IDM_REGULAR 
+        MENUITEM    "&Bold\tCtrl+B",        IDM_BOLD 
+        MENUITEM    "&Italic\tCtrl+I",      IDM_ITALIC 
+        MENUITEM    "&Underline\tCtrl+U",   IDM_ULINE 
     }
 } 
  
@@ -241,7 +241,7 @@ int WINAPI WinMain(HINSTANCE hinst, HINSTANCE hinstPrev, LPSTR lpCmdLine, int nC
     // Get and dispatch messages until a WM_QUIT message is 
     // received. 
  
-    while ((bRet = GetMessage(&amp;msg, NULL, 0, 0)) != 0)
+    while ((bRet = GetMessage(&msg, NULL, 0, 0)) != 0)
     {
         if (bRet == -1)
         {
@@ -254,10 +254,10 @@ int WINAPI WinMain(HINSTANCE hinst, HINSTANCE hinstPrev, LPSTR lpCmdLine, int nC
             if (!TranslateAccelerator( 
                     hwndMain,  // handle to receiving window 
                     haccel,    // handle to active accelerator table 
-                    &amp;msg))         // message data 
+                    &msg))         // message data 
             {
-                TranslateMessage(&amp;msg); 
-                DispatchMessage(&amp;msg); 
+                TranslateMessage(&msg); 
+                DispatchMessage(&msg); 
             } 
         } 
     }
@@ -517,7 +517,7 @@ BOOL CALLBACK EdAccelProc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
             hmenu = GetSubMenu(GetMenu(hwndMain), 0); 
             cItems = GetMenuItemCount(hmenu); 
  
-            // Get the text of each item, strip out the '&amp;' and 
+            // Get the text of each item, strip out the '&' and 
             // the accelerator text, and add the text to the 
             // menu-item combo box. 
  
@@ -528,7 +528,7 @@ BOOL CALLBACK EdAccelProc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
                     continue; 
                 for (pch = szTemp, pch2 = szItem; *pch != '\0'; ) 
                 { 
-                    if (*pch != '&amp;') 
+                    if (*pch != '&') 
                     { 
                         if (*pch == '\t') 
                         { 

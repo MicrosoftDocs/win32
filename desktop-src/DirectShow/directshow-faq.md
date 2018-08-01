@@ -93,7 +93,7 @@ IGraphBuilder *pGraph;
 
 HRESULT hr = CoCreateInstance(CLSID_FilterGraph,
     NULL, CLSCTX_INPROC_SERVER,
-    IID_IGraphBuilder, (void **) &amp;pGraph);
+    IID_IGraphBuilder, (void **) &pGraph);
 ```
 
 

@@ -20,7 +20,7 @@ The following example creates an [**Image**](/windows/desktop/api/gdiplusheaders
 
 ```
 Image image(L"SampleMetafile.emf");
-graphics.DrawImage(&amp;image, 60, 10);
+graphics.DrawImage(&image, 60, 10);
 ```
 
 

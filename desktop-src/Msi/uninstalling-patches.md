@@ -126,7 +126,7 @@ UINT RemovePatchFromAllVisibleapplications(LPCWSTR wszPatchToRemove)
          dwapplicationSearchContext,
          dwIndex,
          wszapplicationCode,
-         &amp;dwInstallContext,
+         &dwInstallContext,
          /*szSid*/NULL,
          /*pcchSid*/NULL);
 

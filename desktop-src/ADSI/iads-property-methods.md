@@ -312,32 +312,32 @@ int main(int argc, char* argv[])
  
     hr=ADsGetObject(L"WinNT://Fabrikam/Administrator",
                 IID_IADsUser,
-                (void**) &amp;pADsUser);
+                (void**) &pADsUser);
     if (hr != S_OK) { goto Cleanup; }
  
-    hr = pADsUser->QueryInterface(IID_IADs, (void**) &amp;pADs);
+    hr = pADsUser->QueryInterface(IID_IADs, (void**) &pADs);
     if( hr !=S_OK) { goto Cleanup;}
  
     pADsUser->Release();
  
-    if( S_OK == pADs->get_Name(&amp;sbstr) ) {
+    if( S_OK == pADs->get_Name(&sbstr) ) {
         printf("Object Name: %S\n",sbstr);
     }
  
-    if( S_OK == pADs->get_ADsPath(&amp;sbstr) ) {
+    if( S_OK == pADs->get_ADsPath(&sbstr) ) {
         printf("Object path: %S\n",sbstr);
     }
  
-    if( S_OK == pADs->get_Class(&amp;sbstr) ) {
+    if( S_OK == pADs->get_Class(&sbstr) ) {
         printf("Object class: %S\n",sbstr);
     }
  
-    hr = pADs->get_Schema(&amp;sbstr);
+    hr = pADs->get_Schema(&sbstr);
     if ( hr != S_OK) {goto Cleanup;}
  
-    hr = ADsGetObject(sbstr,IID_IADsClass, (void**)&amp;pCls);
+    hr = ADsGetObject(sbstr,IID_IADsClass, (void**)&pCls);
     if ( hr != S_OK) {goto Cleanup;}
-    if( S_OK == pCls->get_Name(&amp;sbstr) ) {
+    if( S_OK == pCls->get_Name(&sbstr) ) {
         printf("Class name is %S\n", sbstr);
     }
  

@@ -16,7 +16,7 @@ To fill a shape with a solid color, create a [**SolidBrush**](/windows/desktop/a
 
 ```
 SolidBrush solidBrush(Color(255, 255, 0, 0));
-stat = graphics.FillEllipse(&amp;solidBrush, 0, 0, 100, 60);
+stat = graphics.FillEllipse(&solidBrush, 0, 0, 100, 60);
 ```
 
 

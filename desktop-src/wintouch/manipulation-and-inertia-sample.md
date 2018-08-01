@@ -201,7 +201,7 @@ switch (msg)
                   // Bring touch input info into client coordinates.
                   ptInputs.x = pInputs[i].x/100;    
                   ptInputs.y = pInputs[i].y/100;
-                  ScreenToClient(g_hWnd, &amp;ptInputs);
+                  ScreenToClient(g_hWnd, &ptInputs);
                    
                   pInputs[i].x = ptInputs.x;
                   pInputs[i].y = ptInputs.y;
@@ -238,11 +238,11 @@ After the data is extracted from the [**WM\_TOUCH**](wm-touchdown.md) messages b
 ```
 CoreObject* coCurrent = m_coHead;
     
-while(coCurrent!=NULL &amp;&amp; !bFoundObj)
+while(coCurrent!=NULL && !bFoundObj)
 {
     if(dwEvent & TOUCHEVENTF_DOWN)
     {
-        DownEvent(coCurrent, inData, &amp;bFoundObj);
+        DownEvent(coCurrent, inData, &bFoundObj);
     }
     else if(dwEvent & TOUCHEVENTF_MOVE)
     {
@@ -263,7 +263,7 @@ VOID CComTouchDriver::DownEvent(CoreObject* coRef, tagTOUCHINPUT inData, BOOL* b
 
     // Check that the user has touched within an object's region and fed to the object's manipulation processor.
 
-    if(coRef->doDrawing->InRegion(x, y) &amp;&amp;
+    if(coRef->doDrawing->InRegion(x, y) &&
         !HasCursor(coRef, dwPCursor))
     {
         ...
@@ -290,7 +290,7 @@ After the [**ManipulationCompleted**](/windows/desktop/api/manipulations/nf-mani
     int iVHeight      = GetSystemMetrics(SM_CYVIRTUALSCREEN);
 
     RECT rc;
-    GetClientRect(m_hWnd, &amp;rc);
+    GetClientRect(m_hWnd, &rc);
     FLOAT lCWidth     = (FLOAT)rc.right;
     FLOAT lCHeight    = (FLOAT)rc.bottom;
 
@@ -340,9 +340,9 @@ After the [**ManipulationCompleted**](/windows/desktop/api/manipulations/nf-mani
     FLOAT fVY;
     FLOAT fVR;
 
-    m_manip->GetVelocityX(&amp;fVX);
-    m_manip->GetVelocityY(&amp;fVY);
-    m_manip->GetAngularVelocity(&amp;fVR);
+    m_manip->GetVelocityX(&fVX);
+    m_manip->GetVelocityY(&fVY);
+    m_manip->GetAngularVelocity(&fVR);
 
     // Set initial velocities for inertia processor.
 

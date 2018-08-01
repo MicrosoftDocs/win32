@@ -28,7 +28,7 @@ The following code shows these steps:
 
 HRESULT CheckInputFormatSupport(
     IDXVAHD_Device          *pDXVAHD,
-    const DXVAHD_VPDEVCAPS&amp; caps,
+    const DXVAHD_VPDEVCAPS& caps,
     D3DFORMAT               d3dformat
     )
 {
@@ -86,7 +86,7 @@ The following code shows these steps:
 
 HRESULT CheckOutputFormatSupport(
     IDXVAHD_Device          *pDXVAHD,
-    const DXVAHD_VPDEVCAPS&amp; caps,
+    const DXVAHD_VPDEVCAPS& caps,
     D3DFORMAT               d3dformat
     )
 {

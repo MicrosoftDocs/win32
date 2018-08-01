@@ -75,26 +75,26 @@ AudioVolumeEvents::AudioVolumeEvents(EDataFlow flow, ERole role,
     _hrStatus = CoCreateInstance(__uuidof(MMDeviceEnumerator),
                                  NULL, CLSCTX_INPROC_SERVER,
                                  __uuidof(IMMDeviceEnumerator),
-                                 (void**)&amp;pEnumerator);
+                                 (void**)&pEnumerator);
     EXIT_ON_ERROR(_hrStatus)
 
     // Get the audio endpoint device with the specified data-flow
     // direction (eRender or eCapture) and device role.
     _hrStatus = pEnumerator->GetDefaultAudioEndpoint(flow, role,
-                                                     &amp;pDevice);
+                                                     &pDevice);
     EXIT_ON_ERROR(_hrStatus)
 
     // Get the session manager for the endpoint device.
     _hrStatus = pDevice->Activate(__uuidof(IAudioSessionManager),
                                   CLSCTX_INPROC_SERVER, NULL,
-                                  (void**)&amp;_pManager);
+                                  (void**)&_pManager);
     EXIT_ON_ERROR(_hrStatus)
 
     // Get the control interface for the process-specific audio
     // session with session GUID = GUID_NULL. This is the session
     // that an audio stream for a DirectSound, DirectShow, waveOut,
     // or PlaySound application stream belongs to by default.
-    _hrStatus = _pManager->GetAudioSessionControl(NULL, 0, &amp;_pControl);
+    _hrStatus = _pManager->GetAudioSessionControl(NULL, 0, &_pControl);
     EXIT_ON_ERROR(_hrStatus)
 
     _hrStatus = _pControl->RegisterAudioSessionNotification(_pAudioEvents);

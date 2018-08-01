@@ -38,7 +38,7 @@ Set SchemaContainer = GetObject("LDAP://Fabrikam/Schema")
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>hr = ADsGetObject(L&quot;LDAP://Fabrikam/Schema&quot;, IID_IADsContainer, (void**) &amp;pSchema );</code></pre></td>
+<td><pre><code>hr = ADsGetObject(L&quot;LDAP://Fabrikam/Schema&quot;, IID_IADsContainer, (void**) &pSchema );</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -85,7 +85,7 @@ Next
  CoInitialize(NULL);
 
  hr = ADsGetObject(L&quot;LDAP://Fabrikam/Schema&quot;, 
-                   IID_IADsContainer, (void**) &amp;pSchema );
+                   IID_IADsContainer, (void**) &pSchema );
 
  if ( !SUCCEEDED(hr) )
  {
@@ -94,7 +94,7 @@ Next
 
  // Enumerate schema objects
  IEnumVARIANT *pEnum = NULL;
- hr = ADsBuildEnumerator( pSchema, &amp;pEnum );
+ hr = ADsBuildEnumerator( pSchema, &pEnum );
  pSchema-&gt;Release(); // This is no longer needed, since we have the enumerator already.
     
  if ( SUCCEEDED(hr) )
@@ -102,18 +102,18 @@ Next
    VARIANT var;
    ULONG lFetch;
    IADs *pChild=NULL;
-   VariantInit(&amp;var);
+   VariantInit(&var);
         
-   while( SUCCEEDED(ADsEnumerateNext( pEnum, 1, &amp;var, &amp;lFetch )) &amp;&amp; lFetch == 1 )
+   while( SUCCEEDED(ADsEnumerateNext( pEnum, 1, &var, &lFetch )) && lFetch == 1 )
    {
-     hr = V_DISPATCH(&amp;var)-&gt;QueryInterface( IID_IADs, (void**) &amp;pChild );
+     hr = V_DISPATCH(&var)-&gt;QueryInterface( IID_IADs, (void**) &pChild );
      if ( SUCCEEDED(hr) )
      {
        BSTR bstrName;
        BSTR bstrClass;
        // Get more information on the child classes
-       pChild-&gt;get_Name(&amp;bstrName);
-       pChild-&gt;get_Class(&amp;bstrClass);
+       pChild-&gt;get_Name(&bstrName);
+       pChild-&gt;get_Class(&bstrClass);
                 
        printf(&quot;%S\t\t(%S)\n&quot;, bstrName, bstrClass );
                 
@@ -123,7 +123,7 @@ Next
                 
        pChild-&gt;Release();
      }
-     VariantClear(&amp;var);
+     VariantClear(&var);
    }
  }
 

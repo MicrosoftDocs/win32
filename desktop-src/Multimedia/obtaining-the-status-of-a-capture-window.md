@@ -20,7 +20,7 @@ The following example uses the [SetWindowPos](http://go.microsoft.com/fwlink/p/?
 ```C++
 CAPSTATUS CapStatus;
 
-capGetStatus(hWndC, &amp;CapStatus, sizeof (CAPSTATUS)); 
+capGetStatus(hWndC, &CapStatus, sizeof (CAPSTATUS)); 
 
 SetWindowPos(hWndC, NULL, 0, 0, CapStatus.uiImageWidth, 
     CapStatus.uiImageHeight, SWP_NOZORDER | SWP_NOMOVE); 

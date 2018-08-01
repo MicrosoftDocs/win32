@@ -67,7 +67,7 @@ void main()
     // Acquire a cryptographic provider context handle.
 
     if(CryptAcquireContext(
-       &amp;hCryptProv,
+       &hCryptProv,
        NULL,
        NULL,
        PROV_RSA_FULL,
@@ -87,7 +87,7 @@ void main()
        CALG_MD5,
        0,
        0,
-       &amp;hHash))
+       &hHash))
     {
         printf("An empty hash object has been created. \n");
     }
@@ -118,7 +118,7 @@ void main()
        CALG_RC2,
        hHash,
        CRYPT_EXPORTABLE,
-       &amp;hKey))
+       &hKey))
     {
         printf("The key has been derived. \n");
     }
@@ -186,12 +186,12 @@ void GetConsoleInput(char* strInput,
     ch = (char)_getch();
     while (ch != '\r')
     {
-        if (ch == '\b' &amp;&amp; strlen(strInput) > 0)
+        if (ch == '\b' && strlen(strInput) > 0)
         {
             strInput[strlen(strInput)-1]   = '\0';
             printf("\b \b");
         }
-        else if ((ch >= minChar) &amp;&amp; (strlen(strInput) < intMaxChars))
+        else if ((ch >= minChar) && (strlen(strInput) < intMaxChars))
         {
             strInput[strlen(strInput)+1] = '\0';
             strInput[strlen(strInput)]   = ch;

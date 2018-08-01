@@ -35,7 +35,7 @@ HRESULT hr = CoCreateInstance(
     CLSID_UIAnimationManager,
     NULL,
     CLSCTX_INPROC_SERVER,
-    IID_PPV_ARGS(&amp;m_pAnimationManager)
+    IID_PPV_ARGS(&m_pAnimationManager)
     );
 
 if (SUCCEEDED(hr))
@@ -46,7 +46,7 @@ if (SUCCEEDED(hr))
         CLSID_UIAnimationTimer,
         NULL,
         CLSCTX_INPROC_SERVER,
-        IID_PPV_ARGS(&amp;m_pAnimationTimer)
+        IID_PPV_ARGS(&m_pAnimationTimer)
         );
 
     if (SUCCEEDED(hr))
@@ -57,7 +57,7 @@ if (SUCCEEDED(hr))
             CLSID_UIAnimationTransitionLibrary,
             NULL,
             CLSCTX_INPROC_SERVER,
-            IID_PPV_ARGS(&amp;m_pTransitionLibrary)
+            IID_PPV_ARGS(&m_pTransitionLibrary)
             );
 
         ...

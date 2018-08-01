@@ -52,19 +52,19 @@ class PlayerSeeking
     public:
         CritSec()
         {
-            InitializeCriticalSection(&amp;m_criticalSection);
+            InitializeCriticalSection(&m_criticalSection);
         }
         ~CritSec()
         {
-            DeleteCriticalSection(&amp;m_criticalSection);
+            DeleteCriticalSection(&m_criticalSection);
         }
         void Lock()
         {
-            EnterCriticalSection(&amp;m_criticalSection);
+            EnterCriticalSection(&m_criticalSection);
         }
         void Unlock()
         {
-            LeaveCriticalSection(&amp;m_criticalSection);
+            LeaveCriticalSection(&m_criticalSection);
         }
     };
 
@@ -73,9 +73,9 @@ class PlayerSeeking
     private:
         CritSec *m_pCriticalSection;
     public:
-        AutoLock(CritSec&amp; crit)
+        AutoLock(CritSec& crit)
         {
-            m_pCriticalSection = &amp;crit;
+            m_pCriticalSection = &crit;
             m_pCriticalSection->Lock();
         }
         ~AutoLock()
@@ -122,7 +122,7 @@ private:
         CmdSeek,
     };
 
-    HRESULT SetPositionInternal(const MFTIME &amp;hnsPosition);
+    HRESULT SetPositionInternal(const MFTIME &hnsPosition);
     HRESULT CommitRateChange(float fRate, BOOL bThin);
     float   GetNominalRate();
 
@@ -206,7 +206,7 @@ HRESULT GetPresentationDescriptorFromTopology(
     IMFPresentationDescriptor *pPD = NULL;
 
     // Get the collection of source nodes from the topology.
-    hr = pTopology->GetSourceNodeCollection(&amp;pCollection);
+    hr = pTopology->GetSourceNodeCollection(&pCollection);
     if (FAILED(hr))
     {
         goto done;
@@ -215,13 +215,13 @@ HRESULT GetPresentationDescriptorFromTopology(
     // Any of the source nodes should have the PD, so take the first
     // object in the collection.
 
-    hr = pCollection->GetElement(0, &amp;pUnk);
+    hr = pCollection->GetElement(0, &pUnk);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pUnk->QueryInterface(IID_PPV_ARGS(&amp;pNode));
+    hr = pUnk->QueryInterface(IID_PPV_ARGS(&pNode));
     if (FAILED(hr))
     {
         goto done;
@@ -229,7 +229,7 @@ HRESULT GetPresentationDescriptorFromTopology(
 
     // Get the PD, which is stored as an attribute.
     hr = pNode->GetUnknown(
-        MF_TOPONODE_PRESENTATION_DESCRIPTOR, IID_PPV_ARGS(&amp;pPD));
+        MF_TOPONODE_PRESENTATION_DESCRIPTOR, IID_PPV_ARGS(&pPD));
     if (FAILED(hr))
     {
         goto done;
@@ -239,10 +239,10 @@ HRESULT GetPresentationDescriptorFromTopology(
     (*ppPD)->AddRef();
 
 done:
-    SafeRelease(&amp;pCollection);
-    SafeRelease(&amp;pUnk);
-    SafeRelease(&amp;pNode);
-    SafeRelease(&amp;pPD);
+    SafeRelease(&pCollection);
+    SafeRelease(&pUnk);
+    SafeRelease(&pNode);
+    SafeRelease(&pPD);
     return hr;
 }
 
@@ -259,10 +259,10 @@ PlayerSeeking::PlayerSeeking()
 
 PlayerSeeking::~PlayerSeeking()
 {
-    SafeRelease(&amp;m_pClock);
-    SafeRelease(&amp;m_pSession);
-    SafeRelease(&amp;m_pRate);
-    SafeRelease(&amp;m_pRateSupport);
+    SafeRelease(&m_pClock);
+    SafeRelease(&m_pSession);
+    SafeRelease(&m_pRate);
+    SafeRelease(&m_pRateSupport);
 }
 
 // Clears any resources for the current topology.
@@ -277,16 +277,16 @@ HRESULT PlayerSeeking::Clear()
 
     m_bPending = FALSE;
 
-    SafeRelease(&amp;m_pClock);
-    SafeRelease(&amp;m_pSession);
-    SafeRelease(&amp;m_pRate);
-    SafeRelease(&amp;m_pRateSupport);
+    SafeRelease(&m_pClock);
+    SafeRelease(&m_pSession);
+    SafeRelease(&m_pRate);
+    SafeRelease(&m_pRateSupport);
 
-    ZeroMemory(&amp;m_state, sizeof(m_state));
+    ZeroMemory(&m_state, sizeof(m_state));
     m_state.command = CmdStop;
     m_state.fRate = 1.0f;
 
-    ZeroMemory(&amp;m_request, sizeof(m_request));
+    ZeroMemory(&m_request, sizeof(m_request));
     m_request.command = CmdNone;
     m_request.fRate = 1.0f;
 
@@ -307,27 +307,27 @@ HRESULT PlayerSeeking::SetTopology(IMFMediaSession *pSession, IMFTopology *pTopo
     Clear();
 
     // Get the session capabilities.
-    hr = pSession->GetSessionCapabilities(&amp;m_caps);
+    hr = pSession->GetSessionCapabilities(&m_caps);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Get the presentation descriptor from the topology.
-    hr = GetPresentationDescriptorFromTopology(pTopology, &amp;pPD);
+    hr = GetPresentationDescriptorFromTopology(pTopology, &pPD);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Get the duration from the presentation descriptor (optional)
-    (void)pPD->GetUINT64(MF_PD_DURATION, (UINT64*)&amp;m_hnsDuration);
+    (void)pPD->GetUINT64(MF_PD_DURATION, (UINT64*)&m_hnsDuration);
 
     // Get the presentation clock (optional)
-    hrTmp = pSession->GetClock(&amp;pClock);
+    hrTmp = pSession->GetClock(&pClock);
     if (SUCCEEDED(hrTmp))
     {
-        hr = pClock->QueryInterface(IID_PPV_ARGS(&amp;m_pClock));
+        hr = pClock->QueryInterface(IID_PPV_ARGS(&m_pClock));
         if (FAILED(hr))
         {
             goto done;
@@ -336,13 +336,13 @@ HRESULT PlayerSeeking::SetTopology(IMFMediaSession *pSession, IMFTopology *pTopo
 
     // Get the rate control interface (optional)
     hrTmp = MFGetService(
-        pSession, MF_RATE_CONTROL_SERVICE, IID_PPV_ARGS(&amp;m_pRate));
+        pSession, MF_RATE_CONTROL_SERVICE, IID_PPV_ARGS(&m_pRate));
 
     // Get the rate support interface (optional)
     if (SUCCEEDED(hrTmp))
     {
         hrTmp = MFGetService(
-            pSession, MF_RATE_CONTROL_SERVICE, IID_PPV_ARGS(&amp;m_pRateSupport));
+            pSession, MF_RATE_CONTROL_SERVICE, IID_PPV_ARGS(&m_pRateSupport));
     }
     if (SUCCEEDED(hrTmp))
     {
@@ -362,8 +362,8 @@ HRESULT PlayerSeeking::SetTopology(IMFMediaSession *pSession, IMFTopology *pTopo
     m_pSession->AddRef();
 
 done:
-    SafeRelease(&amp;pPD);
-    SafeRelease(&amp;pClock);
+    SafeRelease(&pPD);
+    SafeRelease(&pClock);
     return hr;
 }
 
@@ -397,11 +397,11 @@ HRESULT PlayerSeeking::SessionEvent(
         // cached. If it failed, try to get the actual rate.
         if (FAILED(hrStatus))
         {
-            PropVariantInit(&amp;var);
+            PropVariantInit(&var);
 
-            hr = pEvent->GetValue(&amp;var);
+            hr = pEvent->GetValue(&var);
 
-            if (SUCCEEDED(hr) &amp;&amp; (var.vt == VT_R4))
+            if (SUCCEEDED(hr) && (var.vt == VT_R4))
             {
                 m_state.fRate = var.fltVal;
             }
@@ -438,9 +438,9 @@ HRESULT PlayerSeeking::Start()
     else
     {
         PROPVARIANT varStart;
-        PropVariantInit(&amp;varStart);
+        PropVariantInit(&varStart);
 
-        hr =  m_pSession->Start(NULL, &amp;varStart);
+        hr =  m_pSession->Start(NULL, &varStart);
 
         m_state.command = CmdStart;
         m_bPending = CMD_PENDING;
@@ -512,8 +512,8 @@ HRESULT PlayerSeeking::CanSeek(BOOL *pbCanSeek)
     // the valid range) and a presentation clock (to get the current position).
 
     *pbCanSeek = (
-        ((m_caps & MFSESSIONCAP_SEEK) == MFSESSIONCAP_SEEK) &amp;&amp;
-        (m_hnsDuration > 0) &amp;&amp;
+        ((m_caps & MFSESSIONCAP_SEEK) == MFSESSIONCAP_SEEK) &&
+        (m_hnsDuration > 0) &&
         (m_pClock != NULL)
         );
 
@@ -811,7 +811,7 @@ HRESULT PlayerSeeking::SetRate(float fRate)
 
 // Sets the playback position.
 
-HRESULT PlayerSeeking::SetPositionInternal(const MFTIME &amp;hnsPosition)
+HRESULT PlayerSeeking::SetPositionInternal(const MFTIME &hnsPosition)
 {
     assert (!m_bPending);
 
@@ -826,7 +826,7 @@ HRESULT PlayerSeeking::SetPositionInternal(const MFTIME &amp;hnsPosition)
     varStart.vt = VT_I8;
     varStart.hVal.QuadPart = hnsPosition;
 
-    hr =  m_pSession->Start(NULL, &amp;varStart);
+    hr =  m_pSession->Start(NULL, &varStart);
 
     if (SUCCEEDED(hr))
     {
@@ -863,19 +863,19 @@ HRESULT PlayerSeeking::CommitRateChange(float fRate, BOOL bThin)
     // Negative <-> zero:       Stopped
     // Postive <-> zero:        Paused or stopped
 
-    if ((fRate > 0 &amp;&amp; m_state.fRate <= 0) || (fRate < 0 &amp;&amp; m_state.fRate >= 0))
+    if ((fRate > 0 && m_state.fRate <= 0) || (fRate < 0 && m_state.fRate >= 0))
     {
         // Transition to stopped.
         if (cmdNow == CmdStart)
         {
             // Get the current clock position. This will be the restart time.
-            hr = m_pSession->GetClock(&amp;pClock);
+            hr = m_pSession->GetClock(&pClock);
             if (FAILED(hr))
             {
                 goto done;
             }
 
-            (void)pClock->GetCorrelatedTime(0, &amp;hnsClockTime, &amp;hnsSystemTime);
+            (void)pClock->GetCorrelatedTime(0, &hnsClockTime, &hnsSystemTime);
 
             assert(hnsSystemTime != 0);
 
@@ -902,7 +902,7 @@ HRESULT PlayerSeeking::CommitRateChange(float fRate, BOOL bThin)
             goto done;
         }
     }
-    else if (fRate == 0 &amp;&amp; m_state.fRate != 0)
+    else if (fRate == 0 && m_state.fRate != 0)
     {
         if (cmdNow != CmdPause)
         {
@@ -933,7 +933,7 @@ HRESULT PlayerSeeking::CommitRateChange(float fRate, BOOL bThin)
     m_request.fRate = m_state.fRate = fRate;
 
 done:
-    SafeRelease(&amp;pClock);
+    SafeRelease(&pClock);
     return hr;
 }
 
@@ -1029,11 +1029,11 @@ HRESULT PlayerSeeking::UpdatePendingCommands(Command cmd)
     HRESULT hr = S_OK;
 
     PROPVARIANT varStart;
-    PropVariantInit(&amp;varStart);
+    PropVariantInit(&varStart);
 
     AutoLock lock(m_critsec);
 
-    if (m_bPending &amp;&amp; m_state.command == cmd)
+    if (m_bPending && m_state.command == cmd)
     {
         m_bPending = FALSE;
 

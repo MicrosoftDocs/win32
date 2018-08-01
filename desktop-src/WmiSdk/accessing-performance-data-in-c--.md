@@ -82,8 +82,8 @@ The following procedure shows how to add an enumerator to a refresher.
         L"Win32_PerfRawData_PerfProc_Process", 
         0, 
         NULL,
-        &amp;pEnum, 
-        &amp;lID)))
+        &pEnum, 
+        &lID)))
     {
         goto CLEANUP;
     }
@@ -160,7 +160,7 @@ int __cdecl wmain(int argc, wchar_t* argv[])
         NULL,
         CLSCTX_INPROC_SERVER,
         IID_IWbemLocator,
-        (void**) &amp;pWbemLocator)))
+        (void**) &pWbemLocator)))
     {
         goto CLEANUP;
     }
@@ -180,7 +180,7 @@ int __cdecl wmain(int argc, wchar_t* argv[])
         0L,   // Security flags
         NULL, // Authority
         NULL, // Wbem context
-        &amp;pNameSpace)))
+        &pNameSpace)))
     {
         goto CLEANUP;
     }
@@ -194,14 +194,14 @@ int __cdecl wmain(int argc, wchar_t* argv[])
         NULL,
         CLSCTX_INPROC_SERVER,
         IID_IWbemRefresher, 
-        (void**) &amp;pRefresher)))
+        (void**) &pRefresher)))
     {
         goto CLEANUP;
     }
 
     if (FAILED (hr = pRefresher->QueryInterface(
         IID_IWbemConfigureRefresher,
-        (void **)&amp;pConfig)))
+        (void **)&pConfig)))
     {
         goto CLEANUP;
     }
@@ -212,8 +212,8 @@ int __cdecl wmain(int argc, wchar_t* argv[])
         L"Win32_PerfRawData_PerfProc_Process", 
         0, 
         NULL, 
-        &amp;pEnum, 
-        &amp;lID)))
+        &pEnum, 
+        &lID)))
     {
         goto CLEANUP;
     }
@@ -237,11 +237,11 @@ int __cdecl wmain(int argc, wchar_t* argv[])
         hr = pEnum->GetObjects(0L, 
             dwNumObjects, 
             apEnumAccess, 
-            &amp;dwNumReturned);
+            &dwNumReturned);
         // If the buffer was not big enough,
         // allocate a bigger buffer and retry.
         if (hr == WBEM_E_BUFFER_TOO_SMALL 
-            &amp;&amp; dwNumReturned > dwNumObjects)
+            && dwNumReturned > dwNumObjects)
         {
             apEnumAccess = new IWbemObjectAccess*[dwNumReturned];
             if (NULL == apEnumAccess)
@@ -256,7 +256,7 @@ int __cdecl wmain(int argc, wchar_t* argv[])
             if (FAILED (hr = pEnum->GetObjects(0L, 
                 dwNumObjects, 
                 apEnumAccess, 
-                &amp;dwNumReturned)))
+                &dwNumReturned)))
             {
                 goto CLEANUP;
             }
@@ -277,15 +277,15 @@ int __cdecl wmain(int argc, wchar_t* argv[])
             CIMTYPE ProcessHandleType;
             if (FAILED (hr = apEnumAccess[0]->GetPropertyHandle(
                 L"VirtualBytes",
-                &amp;VirtualBytesType,
-                &amp;lVirtualBytesHandle)))
+                &VirtualBytesType,
+                &lVirtualBytesHandle)))
             {
                 goto CLEANUP;
             }
             if (FAILED (hr = apEnumAccess[0]->GetPropertyHandle(
                 L"IDProcess",
-                &amp;ProcessHandleType,
-                &amp;lIDProcessHandle)))
+                &ProcessHandleType,
+                &lIDProcessHandle)))
             {
                 goto CLEANUP;
             }
@@ -295,13 +295,13 @@ int __cdecl wmain(int argc, wchar_t* argv[])
         {
             if (FAILED (hr = apEnumAccess[i]->ReadDWORD(
                 lVirtualBytesHandle,
-                &amp;dwVirtualBytes)))
+                &dwVirtualBytes)))
             {
                 goto CLEANUP;
             }
             if (FAILED (hr = apEnumAccess[i]->ReadDWORD(
                 lIDProcessHandle,
-                &amp;dwIDProcess)))
+                &dwIDProcess)))
             {
                 goto CLEANUP;
             }

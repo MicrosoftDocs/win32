@@ -59,12 +59,12 @@ In this example, the object is colored using the scene ambient light and a mater
 
 // create material
 D3DMATERIAL9 mtrl;
-ZeroMemory(&amp;mtrl, sizeof(mtrl));
+ZeroMemory(&mtrl, sizeof(mtrl));
 mtrl.Ambient.r = 0.75f;
 mtrl.Ambient.g = 0.0f;
 mtrl.Ambient.b = 0.0f;
 mtrl.Ambient.a = 0.0f;
-m_pd3dDevice->SetMaterial(&amp;mtrl);
+m_pd3dDevice->SetMaterial(&mtrl);
 m_pd3dDevice->SetRenderState(D3DRS_AMBIENT, GRAY_COLOR);
 ```
 

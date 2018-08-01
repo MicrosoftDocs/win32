@@ -166,7 +166,7 @@ ID3DBlob** ppShader;
 
 D3DCompile( pSrcData, sizeof( pSrcData ), 
   "Tutorial13.fx", NULL, NULL, "GS", "gs_4_0", 
-  dwShaderFlags, 0, &amp;ppShader, NULL );
+  dwShaderFlags, 0, &ppShader, NULL );
 ```
 
 
@@ -190,7 +190,7 @@ D3D11_SO_DECLARATION_ENTRY pDecl[] =
 };
 
 D3D11Device->CreateGeometryShaderWithStreamOut( pShaderBytecode, ShaderBytecodesize, pDecl, 
-    sizeof(pDecl), NULL, 0, 0, NULL, &amp;pStreamOutGS );
+    sizeof(pDecl), NULL, 0, 0, NULL, &pStreamOutGS );
 ```
 
 
@@ -226,7 +226,7 @@ D3D11_BUFFER_DESC bufferDesc =
     0,
     0
 };
-D3D11Device->CreateBuffer( &amp;bufferDesc, NULL, &amp;m_pBuffer );
+D3D11Device->CreateBuffer( &bufferDesc, NULL, &m_pBuffer );
 ```
 
 
@@ -238,7 +238,7 @@ Once the buffer is successfully created, set it to the current device by calling
 
 ```
 UINT offset[1] = 0;
-D3D11Device->SOSetTargets( 1, &amp;m_pBuffer, offset );
+D3D11Device->SOSetTargets( 1, &m_pBuffer, offset );
 ```
 
 

@@ -36,7 +36,7 @@ void CreateInstanceFromPropertyData(
   [in, optional] uint32               RecordClass = 1,
   [in, optional] uint32               TTL,
   [in]           string               PSDNAddress,
-  [out, ref]     MicrosoftDNS_X25Type &amp;RR
+  [out, ref]     MicrosoftDNS_X25Type &RR
 );
 ```
 

@@ -104,10 +104,10 @@ The following code shows how to get these values.
 ```C++
 // Create an IPropertyStore object.
     IPropertyStore *pProp = NULL;
-    hr = CreatePropertyStore(&amp;pProp);
+    hr = CreatePropertyStore(&pProp);
 
     PROPVARIANT var;
-    PropVariantInit(&amp;var);
+    PropVariantInit(&var);
 
 // Get the property store from the network source.
 // The network source is created by the source resolver. Not shown.
@@ -115,7 +115,7 @@ The following code shows how to get these values.
     {
         hr = pNetworkSource->QueryInterface 
                 (__uuidof(IPropertyStore), 
-                (void**)&amp;pProp);
+                (void**)&pProp);
     }
     if (SUCCEEDED(hr))
     {
@@ -123,12 +123,12 @@ The following code shows how to get these values.
         PROPERTYKEY key;
         // Get the MFNETSOURCE_PROTOCOL property value.
         key.fmtid = MFNETSOURCE_PROTOCOL;
-        hr = pProp->GetValue (key, &amp;var);
+        hr = pProp->GetValue (key, &var);
 
         // Get the MFNETSOURCE_TRANSPORT property value.
         key.fmtid = MFNETSOURCE_TRANSPORT;
         key.pid = 0;
-        hr = pProp->GetValue (key, &amp;var);
+        hr = pProp->GetValue (key, &var);
 
     }
 ```
@@ -143,7 +143,7 @@ Alternately, the application can get the same values by using the MFNETSOURCE\_S
 ```C++
 // Create an IPropertyStore object.
     IPropertyStore *pProp = NULL;
-    hr = CreatePropertyStore(&amp;pProp);
+    hr = CreatePropertyStore(&pProp);
 
     HRESULT hr = S_OK;
 
@@ -160,12 +160,12 @@ Alternately, the application can get the same values by using the MFNETSOURCE\_S
         // Get the property value.
         key.fmtid = MFNETSOURCE_STATISTICS;
         key.pid = MFNETSOURCE_PROTOCOL_ID;
-        hr = pProp->GetValue (key, &amp;var);
+        hr = pProp->GetValue (key, &var);
 
         // Get the transport value.
         key.fmtid = MFNETSOURCE_STATISTICS;
         key.pid = MFNETSOURCE_TRANSPORT_ID;
-        hr = pProp->GetValue (key, &amp;var);
+        hr = pProp->GetValue (key, &var);
 
     }
 ```

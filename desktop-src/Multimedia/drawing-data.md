@@ -27,7 +27,7 @@ DWORD    dwNumBuffers;
  
 // Find out how many buffers need filling before drawing starts.
 
-ICGetBuffersWanted(hIC, &amp;dwNumBuffers); 
+ICGetBuffersWanted(hIC, &dwNumBuffers); 
 for (dw = 0; dw < dwNumBuffers; dw++)
 { 
     ICDraw(hIC, 0, lpFormat, lpData, cbData, dw); // fill the pipeline

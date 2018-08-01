@@ -46,7 +46,7 @@ The following procedure describes how to create a connection to a WMI namespace.
         HRESULT hr;
 
         hr = CoCreateInstance(CLSID_WbemLocator, 0, 
-            CLSCTX_INPROC_SERVER, IID_IWbemLocator, (LPVOID *) &amp;pLoc);
+            CLSCTX_INPROC_SERVER, IID_IWbemLocator, (LPVOID *) &pLoc);
      
         if (FAILED(hr))
         {
@@ -77,7 +77,7 @@ The following procedure describes how to create a connection to a WMI namespace.
                     NULL,     // Security flags
                     0,         // Authority 
                     0,        // Context object 
-                    &amp;pSvc);   // IWbemServices proxy
+                    &pSvc);   // IWbemServices proxy
 
 
             if (FAILED(hr))

@@ -806,7 +806,7 @@ Set objSWbemServices = GetObject("winmgmts:" _
 Set colTimeZone = objSWbemServices.ExecQuery _
  ("SELECT * FROM Win32_TimeZone")
 For Each objTimeZone in colTimeZone
- Wscript.Echo "Offset: "&amp; objTimeZone.Bias
+ Wscript.Echo "Offset: "& objTimeZone.Bias
 Next
 ```
 

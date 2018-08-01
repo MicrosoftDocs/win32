@@ -62,19 +62,19 @@ BOOL TransformCopiesSampleAttributes(IMFTransform *pMFT)
 
     IPropertyStore *pProps = NULL;
 
-    HRESULT hr = pMFT->QueryInterface(IID_PPV_ARGS(&amp;pProps));
+    HRESULT hr = pMFT->QueryInterface(IID_PPV_ARGS(&pProps));
     
     if (SUCCEEDED(hr))
     {
         PROPVARIANT var;
-        hr = pProps->GetValue(MFPKEY_EXATTRIBUTE_SUPPORTED, &amp;var);
+        hr = pProps->GetValue(MFPKEY_EXATTRIBUTE_SUPPORTED, &var);
 
         if (SUCCEEDED(hr))
         {
             bCopiesAttributes = 
-                (var.vt == VT_BOOL &amp;&amp; var.boolVal == VARIANT_TRUE);
+                (var.vt == VT_BOOL && var.boolVal == VARIANT_TRUE);
 
-            PropVariantClear(&amp;var);
+            PropVariantClear(&var);
         }
         pProps->Release();
     }

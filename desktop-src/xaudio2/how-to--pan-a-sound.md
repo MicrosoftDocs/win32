@@ -19,7 +19,7 @@ This topic shows you how you can set the output matrix of a mono source voice th
 
     ```
     DWORD dwChannelMask;       
-    pMasteringVoice->GetChannelMask( &amp;dwChannelMask );       
+    pMasteringVoice->GetChannelMask( &dwChannelMask );       
     ```
 
     
@@ -87,10 +87,10 @@ This topic shows you how you can set the output matrix of a mono source voice th
     // Assuming pVoice sends to pMasteringVoice
 
     XAUDIO2_VOICE_DETAILS VoiceDetails;
-    pVoice->GetVoiceDetails(&amp;VoiceDetails);
+    pVoice->GetVoiceDetails(&VoiceDetails);
 
     XAUDIO2_VOICE_DETAILS MasterVoiceDetails;
-    pMasteringVoice->GetVoiceDetails(&amp;MasterVoiceDetails);
+    pMasteringVoice->GetVoiceDetails(&MasterVoiceDetails);
 
     pVoice->SetOutputMatrix( NULL, VoiceDetails.InputChannels, MasterVoiceDetails.InputChannels, outputMatrix );
     ```

@@ -59,7 +59,7 @@ IWbemLocator* pWbemLocator = 0;
           0L,             // Security flags
           bstrAuthority,  // Authority, server principal name
           NULL,           // WBEM context
-          &amp;g_pNameSpace   // Namespace
+          &g_pNameSpace   // Namespace
           );
 
   // Free memory resources.

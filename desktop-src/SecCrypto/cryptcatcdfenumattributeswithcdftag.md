@@ -111,7 +111,7 @@ The following example shows the correct sequence of assignments for the *pPrevAt
     while (pwszMemberTag = CryptCATCDFEnumMembersByCDFTagEx(pCDF,
                                                             pwszMemberTag,
                                                             NULL,
-                                                            &amp;pMember,
+                                                            &pMember,
                                                             FALSE,
                                                             NULL))
     {

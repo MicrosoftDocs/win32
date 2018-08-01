@@ -27,7 +27,7 @@ The following code shows a class template named `AsyncCallback`, which demonstra
 //  Usage:
 //  Add this class as a member variable. In the parent class constructor,
 //  initialize the AsyncCallback class like this:
-//      m_cb(this, &amp;CYourClass::OnInvoke)
+//      m_cb(this, &CYourClass::OnInvoke)
 //  where
 //      m_cb       = AsyncCallback object
 //      CYourClass = parent class
@@ -101,7 +101,7 @@ class CMyObject : public IUnknown
 {
 public:
 
-    CMyObject() : m_CB(this, &amp;CMyObject::OnInvoke)
+    CMyObject() : m_CB(this, &CMyObject::OnInvoke)
     {
         // Other initialization here.
     }

@@ -80,7 +80,7 @@ HRESULT DisplayKeyFrames(IMFByteStream *pStream, IMFASFSplitter *pSplitter)
     while (SUCCEEDED(hr))
     {
         // The parser must get a newly allocated buffer each time.
-        hr = MFCreateMemoryBuffer(cbReadSize, &amp;pBuffer);
+        hr = MFCreateMemoryBuffer(cbReadSize, &pBuffer);
         if (FAILED(hr))
         {
             break;
@@ -95,7 +95,7 @@ HRESULT DisplayKeyFrames(IMFByteStream *pStream, IMFASFSplitter *pSplitter)
 
         // Get the amound of data that was read.
         DWORD cbData;
-        hr = pBuffer->GetCurrentLength(&amp;cbData);
+        hr = pBuffer->GetCurrentLength(&cbData);
         if (FAILED(hr)) 
         { 
             break; 
@@ -108,7 +108,7 @@ HRESULT DisplayKeyFrames(IMFByteStream *pStream, IMFASFSplitter *pSplitter)
 
         // Send the data to the ASF splitter.
         hr = pSplitter->ParseData(pBuffer, 0, 0);
-        SafeRelease(&amp;pBuffer);
+        SafeRelease(&pBuffer);
         if (FAILED(hr)) 
         { 
             break; 
@@ -119,7 +119,7 @@ HRESULT DisplayKeyFrames(IMFByteStream *pStream, IMFASFSplitter *pSplitter)
         do
         {
             WORD streamID;
-            hr = pSplitter->GetNextSample(&amp;parsingStatus, &amp;streamID, &amp;pSample);
+            hr = pSplitter->GetNextSample(&parsingStatus, &streamID, &pSample);
             if (FAILED(hr)) 
             { 
                 break; 
@@ -133,12 +133,12 @@ HRESULT DisplayKeyFrames(IMFByteStream *pStream, IMFASFSplitter *pSplitter)
             {
                 DisplayKeyFrame(pSample);
             }
-            SafeRelease(&amp;pSample);
+            SafeRelease(&pSample);
             
         } while (parsingStatus & ASF_STATUSFLAGS_INCOMPLETE);
     }
-    SafeRelease(&amp;pSample);
-    SafeRelease(&amp;pBuffer);
+    SafeRelease(&pSample);
+    SafeRelease(&pBuffer);
     return hr;
 }
 ```

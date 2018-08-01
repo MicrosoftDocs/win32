@@ -70,7 +70,7 @@ void CJntlReaderMFCDlg::OnBnClickedButton1()
                                  OFN_FILEMUSTEXIST, szFilter, this);
 
   // Get the filename from the user via a File Open dialog
-  if (fileDialog != NULL &amp;&amp;
+  if (fileDialog != NULL &&
       fileDialog->DoModal() == IDOK)
   {
     CString strFileName = fileDialog->GetPathName();
@@ -99,14 +99,14 @@ void CJntlReaderMFCDlg::OnBnClickedButton1()
           DWORD dwRead;
 
           // Read the Journal file into the pData buffer
-          if (ReadFile(hFile, pData, dwFileSize, &amp;dwRead, NULL) &amp;&amp;
+          if (ReadFile(hFile, pData, dwFileSize, &dwRead, NULL) &&
               (dwRead == dwFileSize))
           {
             HRESULT hr;
             IStream* pJntStream;
 
             // Create an IStream that points to the buffer
-            hr = CreateStreamOnHGlobal(hGlobal, FALSE, &amp;pJntStream);
+            hr = CreateStreamOnHGlobal(hGlobal, FALSE, &pJntStream);
 
             if (SUCCEEDED(hr))
             {
@@ -114,14 +114,14 @@ void CJntlReaderMFCDlg::OnBnClickedButton1()
 
               // Create a JournalReader object
               hr = CoCreateInstance(CLSID_JournalReader, NULL, CLSCTX_ALL, 
-                          IID_IJournalReader, (void**)&amp;pJntReader);
+                          IID_IJournalReader, (void**)&pJntReader);
 
               if (SUCCEEDED(hr))
               {
                 IStream* pXmlStream;
 
                 // Read in the JNT file via the JournalReader
-                hr = pJntReader->ReadFromStream(pJntStream, &amp;pXmlStream);
+                hr = pJntReader->ReadFromStream(pJntStream, &pXmlStream);
 
                 if (SUCCEEDED(hr))
                 {

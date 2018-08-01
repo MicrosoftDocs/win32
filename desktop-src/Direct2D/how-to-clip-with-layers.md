@@ -32,13 +32,13 @@ To clip the drawing as shown in the preceding illustration, you create an [**ID2
 // Create the path geometry.
 if (SUCCEEDED(hr))
 {
-    hr = m_pD2DFactory->CreatePathGeometry(&amp;m_pPathGeometry);
+    hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometry);
 }
 
 // Write to the path geometry using the geometry sink to create a star.
 if (SUCCEEDED(hr))
 {
-    hr = m_pPathGeometry->Open(&amp;pSink);
+    hr = m_pPathGeometry->Open(&pSink);
 }
 if (SUCCEEDED(hr))
 {
@@ -53,7 +53,7 @@ if (SUCCEEDED(hr))
     hr = pSink->Close();
 }
 
-SafeRelease(&amp;pSink);
+SafeRelease(&pSink);
 ```
 
 
@@ -75,7 +75,7 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 
     // Create a layer.
     ID2D1Layer *pLayer = NULL;
-    hr = pRT->CreateLayer(NULL, &amp;pLayer);
+    hr = pRT->CreateLayer(NULL, &pLayer);
 
     if (SUCCEEDED(hr))
     {
@@ -100,7 +100,7 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
         pRT->PopLayer();
     }
 
-    SafeRelease(&amp;pLayer);
+    SafeRelease(&pLayer);
 
     return hr;
 }

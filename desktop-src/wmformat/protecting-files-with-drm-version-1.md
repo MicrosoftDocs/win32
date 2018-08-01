@@ -66,17 +66,17 @@ HRESULT hr = S_OK;
 hr = CoInitialize(NULL);
 
 // Create a writer object.
-hr = WMCreateWriter( NULL, &amp;pWMDRMWriter);
+hr = WMCreateWriter( NULL, &pWMDRMWriter);
 
 // Obtain the IWMHeaderInfo interface.
 hr = pWMDRMWriter -> QueryInterface(IID_IWMHeaderInfo, 
-                                   (void**) &amp;pWMHeaderInfo);
+                                   (void**) &pWMHeaderInfo);
 
 // Tell the SDK runtime to protect the file using DRM version 1.
 hr= pWMHeaderInfo-> SetAttribute(0,
                                  g_wszWMUse_DRM,
                                  WMT_TYPE_BOOL,
-                                 (BYTE*)&amp;fUseDRM,
+                                 (BYTE*)&fUseDRM,
                                  sizeof(BOOL));
 
 // Specify the rights that will be stored in the local license that is
@@ -84,14 +84,14 @@ hr= pWMHeaderInfo-> SetAttribute(0,
 hr= pWMHeaderInfo->SetAttribute( 0,
                                  g_wszWMDRM_Flags, 
                                  WMT_TYPE_DWORD,
-                                 (BYTE *)&amp;dwDRMFlags,
+                                 (BYTE *)&dwDRMFlags,
                                  sizeof(DWORD) );
 
 // Set the DRM_Level attribute in the file's DRM header.
 hr= pWMHeaderInfo->SetAttribute( 0,
                                  g_wszWMDRM_Level, 
                                  WMT_TYPE_DWORD,
-                                 (BYTE *)&amp;dwDRMLevel,
+                                 (BYTE *)&dwDRMLevel,
                                  sizeof(DWORD) );
 ```
 

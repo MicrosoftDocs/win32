@@ -58,7 +58,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -66,7 +66,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -106,7 +106,7 @@ HRESULT CALLBACK PurchaseOrderImpl(
     HRESULT hr = NOERROR;
     
     ZeroMemory(
-        &amp;outputSession,
+        &outputSession,
         sizeof(outputSession));
 
     wprintf(L"%ld, %.*s\n", 
@@ -118,7 +118,7 @@ HRESULT CALLBACK PurchaseOrderImpl(
     hr = WsGetOperationContextProperty(
         context, 
         WS_OPERATION_CONTEXT_PROPERTY_HEAP, 
-        &amp;heap, 
+        &heap, 
         sizeof(heap), 
         error);
     if (FAILED(hr))
@@ -129,7 +129,7 @@ HRESULT CALLBACK PurchaseOrderImpl(
     hr = WsGetOperationContextProperty(
         context, 
         WS_OPERATION_CONTEXT_PROPERTY_INPUT_MESSAGE, 
-        &amp;inputMessage, 
+        &inputMessage, 
         sizeof(inputMessage), 
         error);
     if (FAILED(hr))
@@ -140,7 +140,7 @@ HRESULT CALLBACK PurchaseOrderImpl(
     hr = WsGetOperationContextProperty(
         context, 
         WS_OPERATION_CONTEXT_PROPERTY_OUTPUT_MESSAGE, 
-        &amp;outputMessage, 
+        &outputMessage, 
         sizeof(outputMessage), 
         error);
     if (FAILED(hr))
@@ -150,12 +150,12 @@ HRESULT CALLBACK PurchaseOrderImpl(
     
     hr = WsGetCustomHeader(
         inputMessage, 
-        &amp;OrderSessionHeader_xsd.globalElements.OrderSession, 
+        &OrderSessionHeader_xsd.globalElements.OrderSession, 
         WS_SINGLETON_HEADER,
         0,
         WS_READ_REQUIRED_POINTER, 
         NULL, 
-        &amp;inputSession, 
+        &inputSession, 
         sizeof(inputSession), 
         NULL, 
         error);
@@ -174,9 +174,9 @@ HRESULT CALLBACK PurchaseOrderImpl(
     // Add reply sessionID
     hr = WsAddCustomHeader(
         outputMessage, 
-        &amp;OrderSessionHeader_xsd.globalElements.OrderSession, 
+        &OrderSessionHeader_xsd.globalElements.OrderSession, 
         WS_WRITE_REQUIRED_VALUE,
-        &amp;outputSession, 
+        &outputSession, 
         sizeof(outputSession), 
         0, 
         error);
@@ -188,7 +188,7 @@ HRESULT CALLBACK PurchaseOrderImpl(
     hr = WsAlloc(
         heap, 
         sizeof(ExpectedShipDate), 
-        (void**)&amp;expectedShipDate->chars, 
+        (void**)&expectedShipDate->chars, 
         error);
     if (FAILED(hr))
     {
@@ -225,13 +225,13 @@ HRESULT CALLBACK GetOrderStatusImpl(
     
     *orderID = *orderID;
     
-    hr = WsGetOperationContextProperty(context, WS_OPERATION_CONTEXT_PROPERTY_HEAP, &amp;heap, sizeof(heap), error);
+    hr = WsGetOperationContextProperty(context, WS_OPERATION_CONTEXT_PROPERTY_HEAP, &heap, sizeof(heap), error);
     if (FAILED(hr))
     {
         return hr;
     }
     
-    hr = WsAlloc(heap, sizeof(OrderStatusString), (void**)&amp;status->chars, error);
+    hr = WsAlloc(heap, sizeof(OrderStatusString), (void**)&status->chars, error);
     if (FAILED(hr))
     {
         return hr;
@@ -256,7 +256,7 @@ HRESULT CALLBACK CloseChannelCallback(
     UNREFERENCED_PARAMETER(context);
     UNREFERENCED_PARAMETER(asyncContext);
 
-    if (InterlockedIncrement(&amp;numberOfSession) == 100)
+    if (InterlockedIncrement(&numberOfSession) == 100)
     {
         SetEvent(closeServer);
     }
@@ -268,9 +268,9 @@ static const PurchaseOrderBindingFunctionTable purchaseOrderFunctions = {Purchas
 // Method contract for the service
 static const WS_SERVICE_CONTRACT purchaseOrderContract = 
 {
-    &amp;PurchaseOrder_wsdl.contracts.PurchaseOrderBinding, // comes from the generated header.
+    &PurchaseOrder_wsdl.contracts.PurchaseOrderBinding, // comes from the generated header.
     NULL, // for not specifying the default contract
-    &amp;purchaseOrderFunctions // specified by the user
+    &purchaseOrderFunctions // specified by the user
 };
 
 
@@ -285,20 +285,20 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     WS_SERVICE_ENDPOINT serviceEndpoint = {};
     const WS_SERVICE_ENDPOINT* serviceEndpoints[1];
     WS_ERROR* error = NULL;
-    serviceEndpoints[0] = &amp;serviceEndpoint;
+    serviceEndpoints[0] = &serviceEndpoint;
     
     WS_SERVICE_ENDPOINT_PROPERTY serviceEndpointProperties[1];
     WS_SERVICE_PROPERTY_CLOSE_CALLBACK closeCallbackProperty = {CloseChannelCallback};
     
     serviceEndpointProperties[0].id = WS_SERVICE_ENDPOINT_PROPERTY_CLOSE_CHANNEL_CALLBACK;
-    serviceEndpointProperties[0].value = &amp;closeCallbackProperty;
+    serviceEndpointProperties[0].value = &closeCallbackProperty;
     serviceEndpointProperties[0].valueSize = sizeof(closeCallbackProperty);
     
     serviceEndpoint.address.url.chars = L"http://+/example"; // address given as uri
     serviceEndpoint.address.url.length = (ULONG)wcslen(serviceEndpoint.address.url.chars);
     serviceEndpoint.channelBinding = WS_HTTP_CHANNEL_BINDING; // channel binding for the endpoint
     serviceEndpoint.channelType = WS_CHANNEL_TYPE_REPLY; // the channel type
-    serviceEndpoint.contract = (WS_SERVICE_CONTRACT*)&amp;purchaseOrderContract;  // the contract
+    serviceEndpoint.contract = (WS_SERVICE_CONTRACT*)&purchaseOrderContract;  // the contract
     serviceEndpoint.properties = serviceEndpointProperties;
     serviceEndpoint.propertyCount = WsCountOf(serviceEndpointProperties);
     
@@ -306,7 +306,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -328,7 +328,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         1, 
         NULL, 
         0, 
-        &amp;host, 
+        &host, 
         error);
     if (FAILED(hr))
     {

@@ -56,7 +56,7 @@ After [**AddIPAddress**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-addipaddress)
 3.  Call the [**AddIPAddress**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-addipaddress) function to add the IPv4 address. Check for errors and return the error value to the **DWORD** variable `dwRetVal` (for more extensive error checking).
     ```C++
     dwRetVal = AddIPAddress(iaIPAddress, iaIPMask, pIPAddrTable->table[0].dwIndex, 
-                                 &amp;NTEContext, &amp;NTEInstance);
+                                 &NTEContext, &NTEInstance);
     if (dwRetVal != NO_ERROR) {
         printf("AddIPAddress call failed with %d\n", dwRetVal);
     }

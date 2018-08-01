@@ -230,7 +230,7 @@ In this example, an arbitrary vendor-specific command (0xFF) is sent via pass-th
                              bufferLength,  
                              buffer,  
                              bufferLength,  
-                             &amp;returnedLength,  
+                             &returnedLength,  
                              NULL 
                              );  
 ```
@@ -357,7 +357,7 @@ In this example, the **Identify** request is sent to an NVMe drive. The followin
                              bufferLength,
                              buffer,
                              bufferLength,
-                             &amp;returnedLength,
+                             &returnedLength,
                              NULL
                              );
 
@@ -385,7 +385,7 @@ In this example, the **Identify** request is sent to an NVMe drive. The followin
                              bufferLength,  
                              buffer, 
                              bufferLength,  
-                             &amp;returnedLength,  
+                             &returnedLength,  
                              NULL  
                              );  
 
@@ -398,7 +398,7 @@ In this example, the **Identify** request is sent to an NVMe drive. The followin
         return;
     }
 
-    protocolData = &amp;protocolDataDescr->ProtocolSpecificData;
+    protocolData = &protocolDataDescr->ProtocolSpecificData;
 
     if ((protocolData->ProtocolDataOffset < sizeof(STORAGE_PROTOCOL_SPECIFIC_DATA)) ||
         (protocolData->ProtocolDataLength < NVME_MAX_LOG_SIZE)) {
@@ -459,7 +459,7 @@ In this example, based off of the previous one, the **Get Log Pages** request is
                              bufferLength,  
                              buffer, 
                              bufferLength,  
-                             &amp;returnedLength,  
+                             &returnedLength,  
                              NULL  
                              );  
 
@@ -477,7 +477,7 @@ In this example, based off of the previous one, the **Get Log Pages** request is
         return;
     }
 
-    protocolData = &amp;protocolDataDescr->ProtocolSpecificData;
+    protocolData = &protocolDataDescr->ProtocolSpecificData;
 
     if ((protocolData->ProtocolDataOffset < sizeof(STORAGE_PROTOCOL_SPECIFIC_DATA)) ||
         (protocolData->ProtocolDataLength < sizeof(NVME_HEALTH_INFO_LOG))) {
@@ -537,7 +537,7 @@ In this example, based off of the previous one, the **Get Features** request is 
                              bufferLength,  
                              buffer,  
                              bufferLength,  
-                             &amp;returnedLength,  
+                             &returnedLength,  
                              NULL  
                              );  
 
@@ -636,11 +636,11 @@ In this example, an NVMe drive's over-threshold temperature is set. The followin
 
     result = DeviceIoControl(DeviceList[DeviceIndex].Handle,  
                              IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD,  
-                             &amp;setThreshold,  
+                             &setThreshold,  
                              sizeof(STORAGE_TEMPERATURE_THRESHOLD),  
                              NULL,  
                              0,  
-                             &amp;returnedLength,  
+                             &returnedLength,  
                              NULL  
                              ); 
 

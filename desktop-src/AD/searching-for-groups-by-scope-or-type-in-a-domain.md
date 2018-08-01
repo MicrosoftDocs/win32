@@ -31,7 +31,7 @@ The following query string will search for security groups. This example uses "-
 
 
 ```C++
-(&amp;(objectCategory=group)(groupType:1.2.840.113556.1.4.803:=-2147483648))
+(&(objectCategory=group)(groupType:1.2.840.113556.1.4.803:=-2147483648))
 ```
 
 
@@ -40,7 +40,7 @@ The following query string will search for universal distribution groups; that i
 
 
 ```C++
-(&amp;(objectCategory=group)((&amp;(groupType:1.2.840.113556.1.4.803:=8)(!(groupType:1.2.840.113556.1.4.803:=-2147483648)))))
+(&(objectCategory=group)((&(groupType:1.2.840.113556.1.4.803:=8)(!(groupType:1.2.840.113556.1.4.803:=-2147483648)))))
 ```
 
 

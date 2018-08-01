@@ -25,14 +25,14 @@ Also, do not connect a pin unless the filter requires exactly one connected inst
 ```C++
 // Obtain the pin factory identifier.
 IKsPinFactory *pPinFactory;
-hr = pPin->QueryInterface(IID_IKsPinFactory, (void **)&amp;pPinFactory);
+hr = pPin->QueryInterface(IID_IKsPinFactory, (void **)&pPinFactory);
 
 ULONG ulFactoryId;
-hr = pPinFactory->KsPinFactory(&amp;ulFactoryId);
+hr = pPinFactory->KsPinFactory(&ulFactoryId);
 
 // Get the "instance" property from the filter.
 IKsControl *pKsControl;
-hr = pFilter->QueryInterface(IID_IKsControl, (void **)&amp;pKsControl);
+hr = pFilter->QueryInterface(IID_IKsControl, (void **)&pKsControl);
 
 KSP_PIN ksPin;
 ksPin.Property.Set = KSPROPSETID_Pin;
@@ -43,10 +43,10 @@ ksPin.Reserved = 0;
 
 KSPROPERTY ksProp;
 ULONG ulInstances, bytes;
-pKsControl->KsProperty((PKSPROPERTY)&amp;ksPin, sizeof(ksPin), 
-    &amp;ulInstances, sizeof(ULONG), &amp;bytes);
+pKsControl->KsProperty((PKSPROPERTY)&ksPin, sizeof(ksPin), 
+    &ulInstances, sizeof(ULONG), &bytes);
 
-if (hr == S_OK &amp;&amp; bytes == sizeof(ULONG)) 
+if (hr == S_OK && bytes == sizeof(ULONG)) 
 {
     if (ulInstances == 1) 
     {

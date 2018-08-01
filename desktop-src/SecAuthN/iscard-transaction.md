@@ -78,7 +78,7 @@ HRESULT    hr;
 // pISCard is a pointer to an instance of ISCard.
 // pISCardCmd is a pointer to an instance of ISCardCmd,
 // and ISCardCmd::BuildCmd has already been called.
-hr = pISCard->Transaction(&amp;pISCardCmd);
+hr = pISCard->Transaction(&pISCardCmd);
 if (FAILED(hr))
 {
     printf("Failed ISCard::Transaction\n");

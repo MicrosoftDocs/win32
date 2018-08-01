@@ -35,11 +35,11 @@ public:
 
     STDMETHODIMP_(ULONG) AddRef()
     {
-        return InterlockedIncrement(&amp;m_cRef);
+        return InterlockedIncrement(&m_cRef);
     }
     STDMETHODIMP_(ULONG) Release()
     {
-        long cRef = InterlockedDecrement(&amp;m_cRef);
+        long cRef = InterlockedDecrement(&m_cRef);
         if (cRef == 0)
         {
             delete this;
@@ -122,7 +122,7 @@ public:
 
     STDMETHODIMP Invoke(IMFAsyncResult* pResult)
     {
-        m_hrStatus = m_pStream->EndRead(pResult, &amp;m_cbRead);
+        m_hrStatus = m_pStream->EndRead(pResult, &m_cbRead);
 
         SetEvent(m_hEvent);
 

@@ -181,7 +181,7 @@ SIMD processing is most efficient when data is loaded into the SIMD registers an
 -   If multiple components of the vector are required to be extracted, consider storing the vector in a memory structure and reading it back. For example:
     ```
     XMFLOAT4A t;
-    XMStoreFloat4A( &amp;t, v );
+    XMStoreFloat4A( &t, v );
     // t.x, t.y, t.z, and t.w can be individually accessed now
     ```
 

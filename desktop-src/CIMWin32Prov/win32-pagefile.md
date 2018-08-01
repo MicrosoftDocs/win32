@@ -1026,7 +1026,7 @@ my $PageFileSet;
 
 eval { $PageFileSet = Win32::OLE->GetObject("winmgmts:{impersonationLevel=impersonate}!\\\\.\\root\\cimv2")->
  InstancesOf ("Win32_PageFile"); };
-if (!$@ &amp;&amp; defined $PageFileSet)
+if (!$@ && defined $PageFileSet)
 {
  foreach my $PageFileInst (in $PageFileSet)
  {

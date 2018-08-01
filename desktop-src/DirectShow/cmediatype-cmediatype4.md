@@ -30,7 +30,7 @@ Constructor method.
 
 ```C++
 CMediaType(
-  [ref] const CMediaType &amp;cmtype,
+  [ref] const CMediaType &cmtype,
               HRESULT    *phr = NULL
 );
 ```

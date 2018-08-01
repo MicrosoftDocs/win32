@@ -35,7 +35,7 @@ DWORD recordWAVEFile(DWORD dwMilliSeconds)
     mciOpenParms.lpstrElementName = "";
     if (dwReturn = mciSendCommand(0, MCI_OPEN,
         MCI_OPEN_ELEMENT | MCI_OPEN_TYPE, 
-        (DWORD)(LPVOID) &amp;mciOpenParms))
+        (DWORD)(LPVOID) &mciOpenParms))
     {
         // Failed to open device; don't close it, just return error.
         return (dwReturn);
@@ -50,7 +50,7 @@ DWORD recordWAVEFile(DWORD dwMilliSeconds)
     // (milliseconds).
     mciRecordParms.dwTo = dwMilliSeconds;
     if (dwReturn = mciSendCommand(wDeviceID, MCI_RECORD, 
-        MCI_TO | MCI_WAIT, (DWORD)(LPVOID) &amp;mciRecordParms))
+        MCI_TO | MCI_WAIT, (DWORD)(LPVOID) &mciRecordParms))
     {
         mciSendCommand(wDeviceID, MCI_CLOSE, 0, NULL);
         return (dwReturn);
@@ -59,7 +59,7 @@ DWORD recordWAVEFile(DWORD dwMilliSeconds)
     // Play the recording and query user to save the file.
     mciPlayParms.dwFrom = 0L;
     if (dwReturn = mciSendCommand(wDeviceID, MCI_PLAY,
-        MCI_FROM | MCI_WAIT, (DWORD)(LPVOID) &amp;mciPlayParms))
+        MCI_FROM | MCI_WAIT, (DWORD)(LPVOID) &mciPlayParms))
     {
         mciSendCommand(wDeviceID, MCI_CLOSE, 0, NULL);
         return (dwReturn);
@@ -75,7 +75,7 @@ DWORD recordWAVEFile(DWORD dwMilliSeconds)
     // the operation to complete before continuing.
     mciSaveParms.lpfilename = "tempfile.wav";
     if (dwReturn = mciSendCommand(wDeviceID, MCI_SAVE,
-        MCI_SAVE_FILE | MCI_WAIT, (DWORD)(LPVOID) &amp;mciSaveParms))
+        MCI_SAVE_FILE | MCI_WAIT, (DWORD)(LPVOID) &mciSaveParms))
     {
         mciSendCommand(wDeviceID, MCI_CLOSE, 0, NULL);
         return (dwReturn);

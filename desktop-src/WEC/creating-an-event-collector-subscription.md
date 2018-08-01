@@ -67,8 +67,8 @@ typedef struct _SUBSCRIPTION_COLLECTOR_INITIATED
 DWORD GetProperty(EC_HANDLE hSubscription,  
                   EC_SUBSCRIPTION_PROPERTY_ID propID, 
                   DWORD flags, 
-                  std::vector<BYTE>&amp; buffer, 
-                  PEC_VARIANT&amp; vProperty);
+                  std::vector<BYTE>& buffer, 
+                  PEC_VARIANT& vProperty);
 
 
 void __cdecl wmain()
@@ -137,7 +137,7 @@ void __cdecl wmain()
     if (!EcSetSubscriptionProperty(hSubscription,
         EcSubscriptionDescription,
         NULL,
-        &amp;vPropertyValue))
+        &vPropertyValue))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -149,7 +149,7 @@ void __cdecl wmain()
     if (!EcSetSubscriptionProperty(hSubscription,
         EcSubscriptionType,
         NULL,
-        &amp;vPropertyValue))
+        &vPropertyValue))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -161,7 +161,7 @@ void __cdecl wmain()
     if (!EcSetSubscriptionProperty(hSubscription,
         EcSubscriptionURI,
         NULL,
-        &amp;vPropertyValue))
+        &vPropertyValue))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -174,7 +174,7 @@ void __cdecl wmain()
     if (!EcSetSubscriptionProperty(hSubscription,
         EcSubscriptionQuery,
         NULL,
-        &amp;vPropertyValue))
+        &vPropertyValue))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -187,7 +187,7 @@ void __cdecl wmain()
     if (!EcSetSubscriptionProperty(hSubscription,
         EcSubscriptionLogFile,
         NULL,
-        &amp;vPropertyValue))
+        &vPropertyValue))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -200,7 +200,7 @@ void __cdecl wmain()
     if (!EcSetSubscriptionProperty(hSubscription,
         EcSubscriptionConfigurationMode,
         NULL,
-        &amp;vPropertyValue))
+        &vPropertyValue))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -217,7 +217,7 @@ void __cdecl wmain()
         if (!EcSetSubscriptionProperty(hSubscription,
             EcSubscriptionDeliveryMode,
             NULL,
-            &amp;vPropertyValue))
+            &vPropertyValue))
         {
             dwRetVal = GetLastError();
             goto Cleanup;
@@ -230,7 +230,7 @@ void __cdecl wmain()
         if (!EcSetSubscriptionProperty(hSubscription,
             EcSubscriptionDeliveryMaxItems,
             NULL,
-            &amp;vPropertyValue))
+            &vPropertyValue))
         {
             dwRetVal = GetLastError();
             goto Cleanup;
@@ -243,7 +243,7 @@ void __cdecl wmain()
         if (!EcSetSubscriptionProperty(hSubscription,
             EcSubscriptionHeartbeatInterval,
             NULL,
-            &amp;vPropertyValue))
+            &vPropertyValue))
         {
             dwRetVal = GetLastError();
             goto Cleanup;
@@ -256,7 +256,7 @@ void __cdecl wmain()
         if (!EcSetSubscriptionProperty(hSubscription,
             EcSubscriptionDeliveryMaxLatencyTime,
             NULL,
-            &amp;vPropertyValue))
+            &vPropertyValue))
         {
             dwRetVal = GetLastError();
             goto Cleanup;
@@ -269,7 +269,7 @@ void __cdecl wmain()
     if (!EcSetSubscriptionProperty(hSubscription,
         EcSubscriptionContentFormat,
         0,
-        &amp;vPropertyValue))
+        &vPropertyValue))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -282,7 +282,7 @@ void __cdecl wmain()
     if (!EcSetSubscriptionProperty(hSubscription,
         EcSubscriptionCredentialsType,
         0, 
-        &amp;vPropertyValue))
+        &vPropertyValue))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -295,7 +295,7 @@ void __cdecl wmain()
     if (!EcSetSubscriptionProperty(hSubscription,
         EcSubscriptionEnabled,
         0,
-        &amp;vPropertyValue))
+        &vPropertyValue))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -308,7 +308,7 @@ void __cdecl wmain()
     cout << "Enter password: " << endl;
 
     wchar_t c;
-    while( (c = _getwch()) &amp;&amp; c != '\n' &amp;&amp; c != '\r' &amp;&amp; sub.Password.length() < 512)
+    while( (c = _getwch()) && c != '\n' && c != '\r' && sub.Password.length() < 512)
     {sub.Password.append(1, c);}
 
     // Set the CommonUserName property that is used by the local and remote 
@@ -319,7 +319,7 @@ void __cdecl wmain()
     if (!EcSetSubscriptionProperty(hSubscription,
         EcSubscriptionCommonUserName,
         NULL,
-        &amp;vPropertyValue))
+        &vPropertyValue))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -333,7 +333,7 @@ void __cdecl wmain()
     if (!EcSetSubscriptionProperty(hSubscription,
         EcSubscriptionCommonPassword,
         NULL,
-        &amp;vPropertyValue))
+        &vPropertyValue))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -356,7 +356,7 @@ void __cdecl wmain()
         buffer, 
         vEventSource);
 
-    if (vEventSource->Type != EcVarTypeNull  &amp;&amp; 
+    if (vEventSource->Type != EcVarTypeNull  && 
         vEventSource->Type != EcVarObjectArrayPropertyHandle)
     {
         dwRetVal = ERROR_INVALID_DATA;
@@ -370,7 +370,7 @@ void __cdecl wmain()
         dwRetVal = ERROR_INVALID_DATA;
         goto Cleanup;
     }
-    if (!EcGetObjectArraySize(hArray, &amp;dwEventSourceCount))
+    if (!EcGetObjectArraySize(hArray, &dwEventSourceCount))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -394,7 +394,7 @@ void __cdecl wmain()
         EcSubscriptionEventSourceAddress,
         dwEventSourceCount,
         0,
-        &amp;vSourceProperty))
+        &vSourceProperty))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -408,7 +408,7 @@ void __cdecl wmain()
         EcSubscriptionEventSourceEnabled,
         dwEventSourceCount,
         0,
-        &amp;vSourceProperty))
+        &vSourceProperty))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -438,7 +438,7 @@ Cleanup:
             NULL,
             dwRetVal,
             0,
-            (LPWSTR) &amp;lpwszBuffer,
+            (LPWSTR) &lpwszBuffer,
             0,
             NULL);
 
@@ -459,8 +459,8 @@ Cleanup:
 DWORD GetProperty(EC_HANDLE hSubscription, 
                   EC_SUBSCRIPTION_PROPERTY_ID propID, 
                   DWORD flags, 
-                  std::vector<BYTE>&amp; buffer, 
-                  PEC_VARIANT&amp; vProperty)
+                  std::vector<BYTE>& buffer, 
+                  PEC_VARIANT& vProperty)
 {
     DWORD  dwBufferSize, dwRetVal = ERROR_SUCCESS;
     buffer.resize(sizeof(EC_VARIANT));
@@ -473,8 +473,8 @@ DWORD GetProperty(EC_HANDLE hSubscription,
         propID, 
         flags, 
         (DWORD) buffer.size(), 
-        (PEC_VARIANT)&amp;buffer[0], 
-        &amp;dwBufferSize) )
+        (PEC_VARIANT)&buffer[0], 
+        &dwBufferSize) )
     {
         dwRetVal = GetLastError();
 
@@ -487,8 +487,8 @@ DWORD GetProperty(EC_HANDLE hSubscription,
                 propID,
                 flags,
                 (DWORD) buffer.size(),
-                (PEC_VARIANT)&amp;buffer[0],
-                &amp;dwBufferSize))
+                (PEC_VARIANT)&buffer[0],
+                &dwBufferSize))
             {
                 dwRetVal = GetLastError();
             }
@@ -497,7 +497,7 @@ DWORD GetProperty(EC_HANDLE hSubscription,
 
     if (dwRetVal == ERROR_SUCCESS)
     {
-        vProperty = (PEC_VARIANT) &amp;buffer[0];
+        vProperty = (PEC_VARIANT) &buffer[0];
     }
     else
     {

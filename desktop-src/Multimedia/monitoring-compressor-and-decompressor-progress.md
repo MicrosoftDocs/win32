@@ -20,7 +20,7 @@ The following example shows how the [**ICSetStatusProc**](/windows/desktop/api/V
 
 ```C++
 ICSetStatusProc(compvars.hic, 0, (LPARAM) (UINT) hwndApp, 
-    &amp;PreviewStatusProc); 
+    &PreviewStatusProc); 
  
 ```
 
@@ -45,17 +45,17 @@ LONG CALLBACK export PreviewStatusProc(LPARAM lParam,
             ProSetBarPos((int) l); // sets status bar positions 
  
         // Watch for abort message 
-            while(PeekMessage(&amp;msg, NULL, 0, 0, PM_REMOVE)) 
+            while(PeekMessage(&msg, NULL, 0, 0, PM_REMOVE)) 
             { 
-                if (msg.message == WM_KEYDOWN &amp;&amp; msg.wParam == 
+                if (msg.message == WM_KEYDOWN && msg.wParam == 
                     VK_ESCAPE) 
                     return 1; 
-                if (msg.message == WM_SYSCOMMAND &amp;&amp; 
+                if (msg.message == WM_SYSCOMMAND && 
                     (msg.wParam & 0xFFF0) == SC_CLOSE) 
                     return 1; 
  
-                TranslateMessage(&amp;msg); 
-                DispatchMessage(&amp;msg); 
+                TranslateMessage(&msg); 
+                DispatchMessage(&msg); 
             } 
             break; 
         case ICSTATUS_END: 

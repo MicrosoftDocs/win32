@@ -53,7 +53,7 @@ void PrintError(
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -61,7 +61,7 @@ void PrintError(
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -101,8 +101,8 @@ int __cdecl wmain()
     // in default settings NTLM is used and it does not support server authentication.
     WS_SECURITY_BINDING_PROPERTY sspiBindingProperties[2] =
     {
-        { WS_SECURITY_BINDING_PROPERTY_ALLOWED_IMPERSONATION_LEVEL, &amp;impersonation, sizeof(impersonation) },
-        { WS_SECURITY_BINDING_PROPERTY_REQUIRE_SERVER_AUTH, &amp;requireServerAuth, sizeof(requireServerAuth) } 
+        { WS_SECURITY_BINDING_PROPERTY_ALLOWED_IMPERSONATION_LEVEL, &impersonation, sizeof(impersonation) },
+        { WS_SECURITY_BINDING_PROPERTY_REQUIRE_SERVER_AUTH, &requireServerAuth, sizeof(requireServerAuth) } 
     };
     
     // declare and initialize an Windows SSPI transport security binding
@@ -110,10 +110,10 @@ int __cdecl wmain()
     sspiBinding.binding.bindingType = WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING_TYPE; // set the binding type
     sspiBinding.binding.properties = sspiBindingProperties;
     sspiBinding.binding.propertyCount = WsCountOf(sspiBindingProperties);
-    sspiBinding.clientCredential = &amp;windowsCredential.credential;
+    sspiBinding.clientCredential = &windowsCredential.credential;
     
     // declare and initialize the array of all security bindings
-    WS_SECURITY_BINDING* securityBindings[1] = { &amp;sspiBinding.binding };
+    WS_SECURITY_BINDING* securityBindings[1] = { &sspiBinding.binding };
     
     // declare and initialize the security description
     WS_SECURITY_DESCRIPTION securityDescription = {}; // zero out the struct
@@ -124,7 +124,7 @@ int __cdecl wmain()
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -136,7 +136,7 @@ int __cdecl wmain()
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -151,8 +151,8 @@ int __cdecl wmain()
         WS_NAMEDPIPE_CHANNEL_BINDING, 
         NULL, 
         0, 
-        &amp;securityDescription, 
-        &amp;channel, 
+        &securityDescription, 
+        &channel, 
         error);
     if (FAILED(hr))
     {
@@ -170,7 +170,7 @@ int __cdecl wmain()
     // Open channel to address
     hr = WsOpenChannel(
         channel, 
-        &amp;address, 
+        &address, 
         NULL, 
         error);
     if (FAILED(hr))
@@ -182,7 +182,7 @@ int __cdecl wmain()
         channel,
         NULL, 
         0, 
-        &amp;requestMessage, 
+        &requestMessage, 
         error);
     if (FAILED(hr))
     {
@@ -193,7 +193,7 @@ int __cdecl wmain()
         channel,
         NULL, 
         0, 
-        &amp;replyMessage, 
+        &replyMessage, 
         error);
     if (FAILED(hr))
     {
@@ -215,15 +215,15 @@ int __cdecl wmain()
         hr = WsRequestReply(
             channel,
             requestMessage, 
-            &amp;PurchaseOrder_wsdl.messages.PurchaseOrder, 
+            &PurchaseOrder_wsdl.messages.PurchaseOrder, 
             WS_WRITE_REQUIRED_VALUE,
-            &amp;purchaseOrder,
+            &purchaseOrder,
             sizeof(purchaseOrder),
             replyMessage, 
-            &amp;PurchaseOrder_wsdl.messages.OrderConfirmation, 
+            &PurchaseOrder_wsdl.messages.OrderConfirmation, 
             WS_READ_REQUIRED_VALUE, 
             heap, 
-            &amp;orderConfirmation, 
+            &orderConfirmation, 
             sizeof(orderConfirmation), 
             NULL, 
             error);
@@ -262,15 +262,15 @@ int __cdecl wmain()
         hr = WsRequestReply(
             channel,
             requestMessage, 
-            &amp;PurchaseOrder_wsdl.messages.GetOrderStatus, 
+            &PurchaseOrder_wsdl.messages.GetOrderStatus, 
             WS_WRITE_REQUIRED_VALUE,
-            &amp;getOrderStatus,
+            &getOrderStatus,
             sizeof(getOrderStatus),
             replyMessage, 
-            &amp;PurchaseOrder_wsdl.messages.GetOrderStatusResponse, 
+            &PurchaseOrder_wsdl.messages.GetOrderStatusResponse, 
             WS_READ_REQUIRED_VALUE, 
             heap, 
-            &amp;getOrderStatusResponse, 
+            &getOrderStatusResponse, 
             sizeof(getOrderStatusResponse), 
             NULL, 
             error);
@@ -304,15 +304,15 @@ int __cdecl wmain()
         hr = WsRequestReply(
             channel,
             requestMessage, 
-            &amp;PurchaseOrder_wsdl.messages.GetOrderStatus, 
+            &PurchaseOrder_wsdl.messages.GetOrderStatus, 
             WS_WRITE_REQUIRED_VALUE,
-            &amp;getOrderStatus,
+            &getOrderStatus,
             sizeof(getOrderStatus),
             replyMessage, 
-            &amp;PurchaseOrder_wsdl.messages.GetOrderStatusResponse, 
+            &PurchaseOrder_wsdl.messages.GetOrderStatusResponse, 
             WS_READ_REQUIRED_VALUE, 
             heap, 
-            &amp;getOrderStatusResponse, 
+            &getOrderStatusResponse, 
             sizeof(getOrderStatusResponse), 
             NULL, 
             error);
@@ -328,25 +328,25 @@ int __cdecl wmain()
             static const WS_XML_STRING _faultAction = WS_XML_STRING_VALUE("http://example.com/fault");
             static const WS_ELEMENT_DESCRIPTION _faultElementDescription = 
             { 
-                (WS_XML_STRING*)&amp;_faultDetailName, 
-                (WS_XML_STRING*)&amp;_faultDetailNs, 
+                (WS_XML_STRING*)&_faultDetailName, 
+                (WS_XML_STRING*)&_faultDetailNs, 
                 WS_UINT32_TYPE, 
                 NULL 
             };
             static const WS_FAULT_DETAIL_DESCRIPTION orderNotFoundFaultTypeDescription = 
             { 
-                (WS_XML_STRING*)&amp;_faultAction, 
-                (WS_ELEMENT_DESCRIPTION*)&amp;_faultElementDescription 
+                (WS_XML_STRING*)&_faultAction, 
+                (WS_ELEMENT_DESCRIPTION*)&_faultElementDescription 
             };
         
             // Try to get the fault detail from the error object
             _OrderNotFoundFaultType* orderNotFound;
             hr = WsGetFaultErrorDetail(
                 error,
-                &amp;orderNotFoundFaultTypeDescription,
+                &orderNotFoundFaultTypeDescription,
                 WS_READ_OPTIONAL_POINTER,
                 heap,
-                &amp;orderNotFound,
+                &orderNotFound,
                 sizeof(orderNotFound));
                 
             if (FAILED(hr))

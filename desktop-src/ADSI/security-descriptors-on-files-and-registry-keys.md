@@ -93,48 +93,48 @@ The following example code provides the constant identifiers for file, file shar
 ```VB
 ' Identifiers for the IADsAccessControlEntry.AccessMask property for file,
 ' file share, and registry objects.
-Const DELETE = &amp;H10000
-Const READ_CONTROL = &amp;H20000
-Const WRITE_DAC = &amp;H40000
-Const WRITE_OWNER = &amp;H80000
-Const SYNCHRONIZE = &amp;H100000
+Const DELETE = &H10000
+Const READ_CONTROL = &H20000
+Const WRITE_DAC = &H40000
+Const WRITE_OWNER = &H80000
+Const SYNCHRONIZE = &H100000
 
-Const STANDARD_RIGHTS_REQUIRED = &amp;HF0000
+Const STANDARD_RIGHTS_REQUIRED = &HF0000
 
-Const STANDARD_RIGHTS_READ = &amp;H20000
-Const STANDARD_RIGHTS_WRITE = &amp;H20000
-Const STANDARD_RIGHTS_EXECUTE = &amp;H20000
+Const STANDARD_RIGHTS_READ = &H20000
+Const STANDARD_RIGHTS_WRITE = &H20000
+Const STANDARD_RIGHTS_EXECUTE = &H20000
 
-Const STANDARD_RIGHTS_ALL = &amp;H1F0000
+Const STANDARD_RIGHTS_ALL = &H1F0000
 
-Const SPECIFIC_RIGHTS_ALL = &amp;HFFFF
+Const SPECIFIC_RIGHTS_ALL = &HFFFF
 
 ' Identifiers for the IADsAccessControlEntry.AccessMask property for file and
 ' file share objects.
-Const FILE_READ_DATA = &amp;H1                  '  file & pipe
-Const FILE_LIST_DIRECTORY = &amp;H1             '  directory
+Const FILE_READ_DATA = &H1                  '  file & pipe
+Const FILE_LIST_DIRECTORY = &H1             '  directory
 
-Const FILE_WRITE_DATA = &amp;H2                 '  file & pipe
-Const FILE_ADD_FILE = &amp;H2                   '  directory
+Const FILE_WRITE_DATA = &H2                 '  file & pipe
+Const FILE_ADD_FILE = &H2                   '  directory
 
-Const FILE_APPEND_DATA = &amp;H4                '  file
-Const FILE_ADD_SUBDIRECTORY = &amp;H4           '  directory
-Const FILE_CREATE_PIPE_INSTANCE = &amp;H4       '  named pipe
+Const FILE_APPEND_DATA = &H4                '  file
+Const FILE_ADD_SUBDIRECTORY = &H4           '  directory
+Const FILE_CREATE_PIPE_INSTANCE = &H4       '  named pipe
 
-Const FILE_READ_EA = &amp;H8                    '  file & directory
+Const FILE_READ_EA = &H8                    '  file & directory
 
-Const FILE_WRITE_EA = &amp;H10                  '  file & directory
+Const FILE_WRITE_EA = &H10                  '  file & directory
 
-Const FILE_EXECUTE = &amp;H20                   '  file
-Const FILE_TRAVERSE = &amp;H20                  '  directory
+Const FILE_EXECUTE = &H20                   '  file
+Const FILE_TRAVERSE = &H20                  '  directory
 
-Const FILE_DELETE_CHILD = &amp;H40              '  directory
+Const FILE_DELETE_CHILD = &H40              '  directory
 
-Const FILE_READ_ATTRIBUTES = &amp;H80           '  all
+Const FILE_READ_ATTRIBUTES = &H80           '  all
 
-Const FILE_WRITE_ATTRIBUTES = &amp;H100         '  all
+Const FILE_WRITE_ATTRIBUTES = &H100         '  all
 
-Const FILE_ALL_ACCESS = STANDARD_RIGHTS_REQUIRED Or SYNCHRONIZE Or &amp;H1FF
+Const FILE_ALL_ACCESS = STANDARD_RIGHTS_REQUIRED Or SYNCHRONIZE Or &H1FF
 
 Const FILE_GENERIC_READ = STANDARD_RIGHTS_READ Or FILE_READ_DATA Or FILE_READ_ATTRIBUTES Or _
                           FILE_READ_EA Or SYNCHRONIZE
@@ -147,15 +147,15 @@ Const FILE_GENERIC_EXECUTE = STANDARD_RIGHTS_EXECUTE Or FILE_READ_ATTRIBUTES Or 
 
 ' Identifiers for the IADsAccessControlEntry.AccessMask property for registry
 ' objects.
-Const KEY_QUERY_VALUE = &amp;H1
-Const KEY_SET_VALUE = &amp;H2
-Const KEY_CREATE_SUB_KEY = &amp;H4
-Const KEY_ENUMERATE_SUB_KEYS = &amp;H8
-Const KEY_NOTIFY = &amp;H10
-Const KEY_CREATE_LINK = &amp;H20
-Const KEY_WOW64_32KEY = &amp;H200
-Const KEY_WOW64_64KEY = &amp;H100
-Const KEY_WOW64_RES = &amp;H300
+Const KEY_QUERY_VALUE = &H1
+Const KEY_SET_VALUE = &H2
+Const KEY_CREATE_SUB_KEY = &H4
+Const KEY_ENUMERATE_SUB_KEYS = &H8
+Const KEY_NOTIFY = &H10
+Const KEY_CREATE_LINK = &H20
+Const KEY_WOW64_32KEY = &H200
+Const KEY_WOW64_64KEY = &H100
+Const KEY_WOW64_RES = &H300
 
 Const KEY_READ = ((STANDARD_RIGHTS_READ Or KEY_QUERY_VALUE Or KEY_ENUMERATE_SUB_KEYS Or KEY_NOTIFY) And _
                   (Not SYNCHRONIZE))
@@ -170,11 +170,11 @@ Const KEY_ALL_ACCESS = ((STANDARD_RIGHTS_ALL Or KEY_QUERY_VALUE Or KEY_SET_VALUE
 
 ' Identifiers for the IADsAccessControlEntry.AceFlags property for file and
 ' file share objects.
-Const OBJECT_INHERIT_ACE = &amp;H1
-Const CONTAINER_INHERIT_ACE = &amp;H2
-Const NO_PROPAGATE_INHERIT_ACE = &amp;H4
-Const INHERIT_ONLY_ACE = &amp;H8
-Const INHERITED_ACE = &amp;H10
+Const OBJECT_INHERIT_ACE = &H1
+Const CONTAINER_INHERIT_ACE = &H2
+Const NO_PROPAGATE_INHERIT_ACE = &H4
+Const INHERIT_ONLY_ACE = &H8
+Const INHERITED_ACE = &H10
     
 
 ' Identifiers for the IADsAccessControlEntry.Flags property.

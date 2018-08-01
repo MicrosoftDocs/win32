@@ -25,7 +25,7 @@ HRESULT GetSourceDuration(IMFMediaSource *pSource, MFTIME *pDuration)
 
     IMFPresentationDescriptor *pPD = NULL;
 
-    HRESULT hr = pSource->CreatePresentationDescriptor(&amp;pPD);
+    HRESULT hr = pSource->CreatePresentationDescriptor(&pPD);
     if (SUCCEEDED(hr))
     {
         hr = pPD->GetUINT64(MF_PD_DURATION, (UINT64*)pDuration);

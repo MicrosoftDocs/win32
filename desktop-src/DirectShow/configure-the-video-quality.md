@@ -50,7 +50,7 @@ HWND hTrackbar; // Handle to the trackbar control.
 
 // Query the capture filter for the IAMVideoProcAmp interface.
 IAMVideoProcAmp *pProcAmp = 0;
-hr = pCap->QueryInterface(IID_IAMVideoProcAmp, (void**)&amp;pProcAmp);
+hr = pCap->QueryInterface(IID_IAMVideoProcAmp, (void**)&pProcAmp);
 if (FAILED(hr))
 {
     // The device does not support IAMVideoProcAmp, so disable the control.
@@ -61,12 +61,12 @@ else
     long Min, Max, Step, Default, Flags, Val;
 
     // Get the range and default value. 
-    hr = m_pProcAmp->GetRange(VideoProcAmp_Brightness, &amp;Min, &amp;Max, &amp;Step,
-        &amp;Default, &amp;Flags);
+    hr = m_pProcAmp->GetRange(VideoProcAmp_Brightness, &Min, &Max, &Step,
+        &Default, &Flags);
     if (SUCCEEDED(hr))
     {
         // Get the current value.
-        hr = m_pProcAmp->Get(VideoProcAmp_Brightness, &amp;Val, &amp;Flags);
+        hr = m_pProcAmp->Get(VideoProcAmp_Brightness, &Val, &Flags);
     }
     if (SUCCEEDED(hr))
     {

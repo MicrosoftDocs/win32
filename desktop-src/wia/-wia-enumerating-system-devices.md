@@ -35,7 +35,7 @@ The following code from the WiaSSamp sample application demonstrates how to crea
         // Get a device enumerator interface
         //
         IEnumWIA_DEV_INFO *pWiaEnumDevInfo = NULL;
-        HRESULT hr = pWiaDevMgr->EnumDeviceInfo( WIA_DEVINFO_ENUM_LOCAL, &amp;pWiaEnumDevInfo );
+        HRESULT hr = pWiaDevMgr->EnumDeviceInfo( WIA_DEVINFO_ENUM_LOCAL, &pWiaEnumDevInfo );
         if (SUCCEEDED(hr))
         {
             //
@@ -48,7 +48,7 @@ The following code from the WiaSSamp sample application demonstrates how to crea
                 // Get the next device's property storage interface pointer
                 //
                 IWiaPropertyStorage *pWiaPropertyStorage = NULL;
-                hr = pWiaEnumDevInfo->Next( 1, &amp;pWiaPropertyStorage, NULL );
+                hr = pWiaEnumDevInfo->Next( 1, &pWiaPropertyStorage, NULL );
 
                 //
                 // pWiaEnumDevInfo->Next will return S_FALSE when the list is

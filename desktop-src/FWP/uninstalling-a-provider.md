@@ -51,7 +51,7 @@ DWORD Uninstall(
    HANDLE engine = NULL;
    FWPM_SESSION0 session;
 
-   memset(&amp;session, 0, sizeof(session));
+   memset(&session, 0, sizeof(session));
    // The session name isn't required but may be useful for diagnostics.
    session.displayData.name = SESSION_NAME;
    // Set an infinite wait timeout, so we don't have to handle FWP_E_TIMEOUT
@@ -63,8 +63,8 @@ DWORD Uninstall(
                NULL,
                RPC_C_AUTHN_DEFAULT,
                NULL,
-               &amp;session,
-               &amp;engine
+               &session,
+               &engine
                );
    EXIT_ON_ERROR(FwpmEngineOpen0);
 

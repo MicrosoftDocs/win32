@@ -35,7 +35,7 @@ The CLSID for this effect is CLSID\_D2D1ChromaKey.
 
 ```C++
 ComPtr<ID2D1Effect> chromakeyEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1ChromaKey, &amp;chromakeyEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1ChromaKey, &chromakeyEffect);
  
 chromakeyEffect->SetInput(0, bitmap);
 chromaKeyEffect->SetValue(D2D1_CHROMAKEY_PROP_COLOR, {0.0f, 1.0f, 0.0f, 0.0f});

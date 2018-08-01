@@ -38,13 +38,13 @@ void SetWorkAreas1(HWND hWndListView)
     
     RECT  rcClient;
     
-    GetClientRect(hWndListView, &amp;rcClient);
+    GetClientRect(hWndListView, &rcClient);
     
     rcClient.left  +=  EMPTY_SPACE;
     rcClient.top   +=  EMPTY_SPACE;
     rcClient.right -= (EMPTY_SPACE * 2);
     
-    SendMessage(hWndListView, LVM_SETWORKAREAS, 1, (LPARAM)&amp;rcClient);
+    SendMessage(hWndListView, LVM_SETWORKAREAS, 1, (LPARAM)&rcClient);
 
     return;
 }
@@ -65,7 +65,7 @@ void SetWorkAreas2(HWND hWndListView)
     RECT  rcClient;
     RECT  rcWork[2];
     
-    GetClientRect(hWndListView, &amp;rcClient);
+    GetClientRect(hWndListView, &rcClient);
     
     rcWork[0].left   = rcClient.left +      EMPTY_SPACE;
     rcWork[0].top    = rcClient.top +       EMPTY_SPACE;
@@ -104,10 +104,10 @@ int GetItemWorkingArea(HWND hWndListView, int iItem)
     LPRECT   pRects;
     POINT    pt;
     
-    if(!ListView_GetItemPosition(hWndListView, iItem, &amp;pt))
+    if(!ListView_GetItemPosition(hWndListView, iItem, &pt))
         return nReturn;
     
-    ListView_GetNumberOfWorkAreas(hWndListView, &amp;uWorkAreas);
+    ListView_GetNumberOfWorkAreas(hWndListView, &uWorkAreas);
     
     if(uWorkAreas)
     {

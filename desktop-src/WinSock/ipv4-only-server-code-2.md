@@ -97,7 +97,7 @@ int main(int argc, char **argv) {
         }
     }
     
-    if ((retval = WSAStartup(0x202,&amp;wsaData)) != 0) {
+    if ((retval = WSAStartup(0x202,&wsaData)) != 0) {
         fprintf(stderr,"WSAStartup failed with error %d\n",retval);
         WSACleanup();
         return -1;
@@ -128,7 +128,7 @@ int main(int argc, char **argv) {
     // server that has a well-known port that clients know about in advance.
     //
 
-    if (bind(listen_socket,(struct sockaddr*)&amp;local,sizeof(local) ) 
+    if (bind(listen_socket,(struct sockaddr*)&local,sizeof(local) ) 
         == SOCKET_ERROR) {
         fprintf(stderr,"bind() failed with error %d\n",WSAGetLastError());
         WSACleanup();
@@ -158,7 +158,7 @@ int main(int argc, char **argv) {
         // accept() doesn't make sense on UDP, since we do not listen()
         //
         if (socket_type != SOCK_DGRAM) {
-            msgsock = accept(listen_socket,(struct sockaddr*)&amp;from, &amp;fromlen);
+            msgsock = accept(listen_socket,(struct sockaddr*)&from, &fromlen);
             if (msgsock == INVALID_SOCKET) {
                 fprintf(stderr,"accept() error %d\n",WSAGetLastError());
                 WSACleanup();
@@ -183,7 +183,7 @@ int main(int argc, char **argv) {
             retval = recv(msgsock,Buffer,sizeof (Buffer),0 );
         else {
             retval = recvfrom(msgsock,Buffer,sizeof (Buffer),0,
-                (struct sockaddr *)&amp;from,&amp;fromlen);
+                (struct sockaddr *)&from,&fromlen);
             printf("Received datagram from %s\n",inet_ntoa(from.sin_addr));
         }
             
@@ -204,7 +204,7 @@ int main(int argc, char **argv) {
             retval = send(msgsock,Buffer,sizeof(Buffer),0);
         else
             retval = sendto(msgsock,Buffer,sizeof (Buffer),0,
-                (struct sockaddr *)&amp;from,fromlen);
+                (struct sockaddr *)&from,fromlen);
         if (retval == SOCKET_ERROR) {
             fprintf(stderr,"send() failed: error %d\n",WSAGetLastError());
         }

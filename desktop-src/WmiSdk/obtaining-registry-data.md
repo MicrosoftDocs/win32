@@ -51,7 +51,7 @@ The following code example shows how to use the [**StdRegProv.EnumKey**](https:/
 
 
 ```VB
-const HKEY_LOCAL_MACHINE = &amp;H80000002
+const HKEY_LOCAL_MACHINE = &H80000002
 strComputer = "."
 
 Set objReg=GetObject("winmgmts:{impersonationLevel=impersonate}!\\" & strComputer & "\root\default:StdRegProv")
@@ -134,7 +134,7 @@ Note that the items in the multistring value are treated as a collection or arra
 
 
 ```VB
-const HKEY_LOCAL_MACHINE = &amp;H80000002
+const HKEY_LOCAL_MACHINE = &H80000002
 strComputer = "."
 
 Set objReg=GetObject("winmgmts:{impersonationLevel=impersonate}!\\" _ 

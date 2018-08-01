@@ -92,7 +92,7 @@ BYTE* DecryptAndVerify(DWORD cbBlob, BYTE *pbBlob)
     DecryptPara.cbSize = sizeof(CRYPT_DECRYPT_MESSAGE_PARA);
     DecryptPara.dwMsgAndCertEncodingType = MY_ENCODING_TYPE;
     DecryptPara.cCertStore = 1;
-    DecryptPara.rghCertStore = &amp;hCertStore;
+    DecryptPara.rghCertStore = &hCertStore;
 
     VerifyPara.cbSize = sizeof(CRYPT_VERIFY_MESSAGE_PARA);
     VerifyPara.dwMsgAndCertEncodingType = MY_ENCODING_TYPE;
@@ -111,13 +111,13 @@ BYTE* DecryptAndVerify(DWORD cbBlob, BYTE *pbBlob)
     //     decrypted message.
 
     if(!(CryptDecryptAndVerifyMessageSignature(
-        &amp;DecryptPara,
-        &amp;VerifyPara,
+        &DecryptPara,
+        &VerifyPara,
         dwSignerIndex,
         pbBlob,
         cbBlob,
         NULL,           
-        &amp;cbDecrypted,
+        &cbDecrypted,
         NULL,
         NULL)))
     {
@@ -134,13 +134,13 @@ BYTE* DecryptAndVerify(DWORD cbBlob, BYTE *pbBlob)
     }
 
     if(!(CryptDecryptAndVerifyMessageSignature(
-        &amp;DecryptPara,
-        &amp;VerifyPara,
+        &DecryptPara,
+        &VerifyPara,
         dwSignerIndex,
         pbBlob,
         cbBlob,
         pbDecrypted,
-        &amp;cbDecrypted,
+        &cbDecrypted,
         NULL,
         NULL)))
     {
@@ -227,7 +227,7 @@ void main()
     BYTE *pbBlob;
     DWORD cbBlob;
 
-    if((pbBlob = ReadBlob(&amp;cbBlob)) == NULL)
+    if((pbBlob = ReadBlob(&cbBlob)) == NULL)
     {
         MyHandleError(TEXT("Read BLOB did not return the BLOB. "));
     }

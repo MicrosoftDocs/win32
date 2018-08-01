@@ -116,7 +116,7 @@ The following example shows how to initialize an application to use the DDEML.
 DWORD idInst = 0; 
 HINSTANCE hinst; 
  
-DdeInitialize(&amp;idInst,         // receives instance identifier 
+DdeInitialize(&idInst,         // receives instance identifier 
     (PFNCALLBACK) DdeCallback, // pointer to callback function 
     CBF_FAIL_EXECUTES |        // filter XTYPE_EXECUTE 
     CBF_SKIP_ALLNOTIFICATIONS, // filter notifications 

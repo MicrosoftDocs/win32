@@ -72,7 +72,7 @@ The following table lists script examples that can be used to obtain various typ
 <tr class="odd">
 <td><pre><code>Const HIDDEN_WINDOW = 0
 strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set objStartup = objWMIService.Get(&quot;Win32_ProcessStartup&quot;)
 Set objConfig = objStartup.SpawnInstance_
 objConfig.ShowWindow = HIDDEN_WINDOW
@@ -118,13 +118,13 @@ $startup.Properties[&#39;ShowWindow&#39;].value=$False
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot; 
-Set objWMIService = GetObject(&quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\CIMV2&quot;) 
-Set colItems = objWMIService.ExecQuery(&quot;SELECT * FROM Win32_Process&quot; &amp; _
-           &quot; WHERE Name = &#39;cscript.exe&#39;&quot; &amp; &quot; OR Name = &#39;wscript.exe&#39;&quot;,,48) 
+Set objWMIService = GetObject(&quot;winmgmts:\\&quot; & strComputer & &quot;\root\CIMV2&quot;) 
+Set colItems = objWMIService.ExecQuery(&quot;SELECT * FROM Win32_Process&quot; & _
+           &quot; WHERE Name = &#39;cscript.exe&#39;&quot; & &quot; OR Name = &#39;wscript.exe&#39;&quot;,,48) 
 For Each objItem in colItems 
     Wscript.Echo &quot;-------------------------------------------&quot;
-    Wscript.Echo &quot;CommandLine: &quot; &amp; objItem.CommandLine
-    Wscript.Echo &quot;Name: &quot; &amp; objItem.Name
+    Wscript.Echo &quot;CommandLine: &quot; & objItem.CommandLine
+    Wscript.Echo &quot;Name: &quot; & objItem.Name
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -168,11 +168,11 @@ Get-WmiObject -Class &quot;Win32_Process&quot; -ComputerName &quot;.&quot; | `
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colProcessList = objWMIService.ExecQuery (&quot;Select * from Win32_Process&quot;)
 For Each objProcess in colProcessList
     colProperties = objProcess.GetOwner( strNameOfUser,strUserDomain)
-    Wscript.Echo &quot;Process &quot; &amp; objProcess.Name &amp; &quot; is owned by &quot; &amp; strUserDomain &amp; &quot;\&quot; &amp; strNameOfUser &amp; &quot;.&quot;
+    Wscript.Echo &quot;Process &quot; & objProcess.Name & &quot; is owned by &quot; & strUserDomain & &quot;\&quot; & strNameOfUser & &quot;.&quot;
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -214,7 +214,7 @@ Next</code></pre></td>
 <tr class="odd">
 <td><pre><code>Const ABOVE_NORMAL = 32768
 strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colProcesses = objWMIService.ExecQuery (&quot;Select * from Win32_Process Where Name = &#39;Notepad.exe&#39;&quot;)
 For Each objProcess in colProcesses
     objProcess.SetPriority(ABOVE_NORMAL) 
@@ -261,7 +261,7 @@ foreach ($objProcess in $colProcesses) { $objProcess.SetPriority($ABOVE_NORMAL) 
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colProcessList = objWMIService.ExecQuery (&quot;Select * from Win32_Process Where Name = &#39;Notepad.exe&#39;&quot;)
 For Each objProcess in colProcessList
     objProcess.Terminate()
@@ -307,17 +307,17 @@ foreach ($objProcess in $colProcesses) { $objProcess.Terminate() }</code></pre><
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colProcesses = objWMIService.ExecQuery(&quot;Select * from Win32_Process&quot;)
 For Each objProcess in colProcesses
 
-    Wscript.Echo &quot;Process: &quot; &amp; objProcess.Name
+    Wscript.Echo &quot;Process: &quot; & objProcess.Name
     sngProcessTime = (CSng(objProcess.KernelModeTime) + CSng(objProcess.UserModeTime)) / 10000000
-    Wscript.Echo &quot;Processor Time: &quot; &amp; sngProcessTime
-    Wscript.Echo &quot;Process ID: &quot; &amp; objProcess.ProcessID
-    Wscript.Echo &quot;Working Set Size: &quot; &amp; objProcess.WorkingSetSize
-    Wscript.Echo &quot;Page File Size: &quot; &amp; objProcess.PageFileUsage
-    Wscript.Echo &quot;Page Faults: &quot; &amp; objProcess.PageFaults
+    Wscript.Echo &quot;Processor Time: &quot; & sngProcessTime
+    Wscript.Echo &quot;Process ID: &quot; & objProcess.ProcessID
+    Wscript.Echo &quot;Working Set Size: &quot; & objProcess.WorkingSetSize
+    Wscript.Echo &quot;Page File Size: &quot; & objProcess.PageFileUsage
+    Wscript.Echo &quot;Page Faults: &quot; & objProcess.PageFaults
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -360,15 +360,15 @@ Get-WmiObject -Class &quot;Win32s_Process&quot; -ComputerName $strComputer | `
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;atl-dc-01&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colProcessList = objWMIService.ExecQuery (&quot;Select * from Win32_Process&quot;)
 For Each objProcess in colProcessList
-    Wscript.Echo &quot;Process: &quot; &amp; objProcess.Name 
-    Wscript.Echo &quot;Process ID: &quot; &amp; objProcess.ProcessID 
-    Wscript.Echo &quot;Thread Count: &quot; &amp; objProcess.ThreadCount 
-    Wscript.Echo &quot;Page File Size: &quot; &amp; objProcess.PageFileUsage 
-    Wscript.Echo &quot;Page Faults: &quot; &amp; objProcess.PageFaults 
-    Wscript.Echo &quot;Working Set Size: &quot; &amp; objProcess.WorkingSetSize 
+    Wscript.Echo &quot;Process: &quot; & objProcess.Name 
+    Wscript.Echo &quot;Process ID: &quot; & objProcess.ProcessID 
+    Wscript.Echo &quot;Thread Count: &quot; & objProcess.ThreadCount 
+    Wscript.Echo &quot;Page File Size: &quot; & objProcess.PageFileUsage 
+    Wscript.Echo &quot;Page Faults: &quot; & objProcess.PageFaults 
+    Wscript.Echo &quot;Working Set Size: &quot; & objProcess.WorkingSetSize 
 Next</code></pre></td>
 </tr>
 </tbody>

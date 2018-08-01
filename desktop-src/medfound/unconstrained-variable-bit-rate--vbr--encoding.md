@@ -53,10 +53,10 @@ HRESULT CEncoder::SetEncodingType(EncodeMode mode)
     IPropertyStore* pProp = NULL;
 
     PROPVARIANT var;
-    PropVariantInit(&amp;var);
+    PropVariantInit(&var);
 
     //Query the encoder for its property store
-    CHECK_HR(hr = m_pMFT->QueryInterface(__uuidof(IPropertyStore), (void**)&amp;pProp));
+    CHECK_HR(hr = m_pMFT->QueryInterface(__uuidof(IPropertyStore), (void**)&pProp));
     
     if (mode == EncodeMode_VBR_Unconstrained)
     {
@@ -64,17 +64,17 @@ HRESULT CEncoder::SetEncodingType(EncodeMode mode)
         var.vt = VT_BOOL;
         var.boolVal = TRUE;
         CHECK_HR(hr = pProp->SetValue(MFPKEY_VBRENABLED, var));
-        PropVariantClear(&amp;var);
+        PropVariantClear(&var);
 
         //Set number of passes
         var.vt = VT_I4;
         var.lVal  =2;
         CHECK_HR(hr = pProp->SetValue(MFPKEY_PASSESUSED, var));
-        PropVariantClear(&amp;var);
+        PropVariantClear(&var);
     }
 
 done:
-    PropVariantClear(&amp;var);
+    PropVariantClear(&var);
     SAFE_RELEASE (pProp);
     return hr;
     

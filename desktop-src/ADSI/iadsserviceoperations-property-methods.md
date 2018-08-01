@@ -258,16 +258,16 @@ long status = 0;
 
 HRESULT hr = S_OK;
 
-hr = ADsGetObject(adsPath,IID_IADsContainer,(void**)&amp;pCont);
+hr = ADsGetObject(adsPath,IID_IADsContainer,(void**)&pCont);
 if(FAILED(hr)) {goto Cleanup;}
 
-hr = pCont->GetObject(CComBSTR("Service"), CComBSTR("Fax"), &amp;pDisp);
+hr = pCont->GetObject(CComBSTR("Service"), CComBSTR("Fax"), &pDisp);
 if(FAILED(hr)) {goto Cleanup;}
 
-hr = pDisp->QueryInterface(IID_IADsServiceOperations,(void**)&amp;pSrvOp);
+hr = pDisp->QueryInterface(IID_IADsServiceOperations,(void**)&pSrvOp);
 if(FAILED(hr)) {goto Cleanup;}
 
-hr = pSrvOp->get_Status(&amp;status);
+hr = pSrvOp->get_Status(&status);
 switch (status) 
 {
     case ADS_SERVICE_STOPPED:

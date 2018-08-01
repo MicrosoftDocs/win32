@@ -172,7 +172,7 @@ For example, the following call sends a **msiMessageTypeError** message with the
 
 
 ```VB
-Session.Message &amp;H01000034, record
+Session.Message &H01000034, record
 ```
 
 

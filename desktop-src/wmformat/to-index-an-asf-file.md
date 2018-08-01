@@ -64,12 +64,12 @@ hr = CoInitialize(NULL);
 g_hEvent = CreateEvent(NULL, TRUE, FALSE, NULL);
 
 // Create an indexer.
-hr = WMCreateIndexer(&amp;pMyIndexer);
+hr = WMCreateIndexer(&pMyIndexer);
 
 // TODO: Configure the indexer if needed. See To Configure the Indexer.
 
 // Start the indexer.
-hr = pMyIndexer->StartIndexing(pwszFileName, &amp;MyCallback, NULL);
+hr = pMyIndexer->StartIndexing(pwszFileName, &MyCallback, NULL);
 
 // Wait for the indexer to finish.
 WaitForSingleObject(g_hEvent, INFINITE);

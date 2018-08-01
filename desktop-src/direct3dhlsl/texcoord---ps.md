@@ -91,9 +91,9 @@ Additional code is required to use this shader and an example scenario is shown 
 LPD3DXBUFFER        pCode;
 
 // Assemble the vertex shader from the file
-D3DXAssembleShaderFromFile(strPShaderPath, 0, NULL, &amp;pCode, NULL);
+D3DXAssembleShaderFromFile(strPShaderPath, 0, NULL, &pCode, NULL);
 m_pd3dDevice->CreatePixelShader((DWORD*)pCode->GetBufferPointer(),
-                   &amp;m_hPixelShader);
+                   &m_hPixelShader);
 pCode->Release();
 
 // This code defines the object vertex data

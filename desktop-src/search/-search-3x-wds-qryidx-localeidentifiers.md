@@ -22,7 +22,7 @@ This topic is organized as follows:
 
 
 ```
- search-ms:query=matthew&amp;inputlocale=2072&amp;keywordlocale=1033
+ search-ms:query=matthew&inputlocale=2072&keywordlocale=1033
 ```
 
 

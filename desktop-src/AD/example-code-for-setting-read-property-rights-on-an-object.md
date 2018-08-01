@@ -47,7 +47,7 @@ HRESULT CreateAceEffectiveReadAllProperties(LPWSTR pwszTrustee,
         NULL,
         CLSCTX_INPROC_SERVER,
         IID_IADsAccessControlEntry,
-        (void **)&amp;spACE);
+        (void **)&spACE);
     if (SUCCEEDED(hr))
     {
         // Set the properties of the new ACE.

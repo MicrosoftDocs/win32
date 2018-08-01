@@ -58,8 +58,8 @@ Set the reading direction by using the [**IDWriteTextFormat::SetReadingDirection
 ```C++
 // If either the WS_EX_LAYOUTRTL flag or the WS_EX_RLTREADING flag is present,
 // but NOT BOTH, set the reading direction to right to left.
-if ((bWSLayout &amp;&amp; !bWSReading)
-||  (!bWSLayout &amp;&amp; bWSReading))
+if ((bWSLayout && !bWSReading)
+||  (!bWSLayout && bWSReading))
 {
     pTextFormat_->SetReadingDirection(DWRITE_READING_DIRECTION_RIGHT_TO_LEFT);
 }

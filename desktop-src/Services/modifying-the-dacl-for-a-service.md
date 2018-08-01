@@ -74,9 +74,9 @@ VOID __stdcall DoUpdateSvcDacl()
 
     if (!QueryServiceObjectSecurity(schService,
         DACL_SECURITY_INFORMATION, 
-        &amp;psd,           // using NULL does not work on all versions
+        &psd,           // using NULL does not work on all versions
         0, 
-        &amp;dwBytesNeeded))
+        &dwBytesNeeded))
     {
         if (GetLastError() == ERROR_INSUFFICIENT_BUFFER)
         {
@@ -91,7 +91,7 @@ VOID __stdcall DoUpdateSvcDacl()
             }
   
             if (!QueryServiceObjectSecurity(schService,
-                DACL_SECURITY_INFORMATION, psd, dwSize, &amp;dwBytesNeeded))
+                DACL_SECURITY_INFORMATION, psd, dwSize, &dwBytesNeeded))
             {
                 printf("QueryServiceObjectSecurity failed (%d)\n", GetLastError());
                 goto dacl_cleanup;
@@ -106,8 +106,8 @@ VOID __stdcall DoUpdateSvcDacl()
 
     // Get the DACL.
 
-    if (!GetSecurityDescriptorDacl(psd, &amp;bDaclPresent, &amp;pacl,
-                                   &amp;bDaclDefaulted))
+    if (!GetSecurityDescriptorDacl(psd, &bDaclPresent, &pacl,
+                                   &bDaclDefaulted))
     {
         printf("GetSecurityDescriptorDacl failed(%d)\n", GetLastError());
         goto dacl_cleanup;
@@ -115,11 +115,11 @@ VOID __stdcall DoUpdateSvcDacl()
 
     // Build the ACE.
 
-    BuildExplicitAccessWithName(&amp;ea, TEXT("GUEST"),
+    BuildExplicitAccessWithName(&ea, TEXT("GUEST"),
         SERVICE_START | SERVICE_STOP | READ_CONTROL | DELETE,
         SET_ACCESS, NO_INHERITANCE);
 
-    dwError = SetEntriesInAcl(1, &amp;ea, pacl, &amp;pNewAcl);
+    dwError = SetEntriesInAcl(1, &ea, pacl, &pNewAcl);
     if (dwError != ERROR_SUCCESS)
     {
         printf("SetEntriesInAcl failed(%d)\n", dwError);
@@ -128,7 +128,7 @@ VOID __stdcall DoUpdateSvcDacl()
 
     // Initialize a new security descriptor.
 
-    if (!InitializeSecurityDescriptor(&amp;sd, 
+    if (!InitializeSecurityDescriptor(&sd, 
         SECURITY_DESCRIPTOR_REVISION))
     {
         printf("InitializeSecurityDescriptor failed(%d)\n", GetLastError());
@@ -137,7 +137,7 @@ VOID __stdcall DoUpdateSvcDacl()
 
     // Set the new DACL in the security descriptor.
 
-    if (!SetSecurityDescriptorDacl(&amp;sd, TRUE, pNewAcl, FALSE))
+    if (!SetSecurityDescriptorDacl(&sd, TRUE, pNewAcl, FALSE))
     {
         printf("SetSecurityDescriptorDacl failed(%d)\n", GetLastError());
         goto dacl_cleanup;
@@ -146,7 +146,7 @@ VOID __stdcall DoUpdateSvcDacl()
     // Set the new DACL for the service object.
 
     if (!SetServiceObjectSecurity(schService, 
-        DACL_SECURITY_INFORMATION, &amp;sd))
+        DACL_SECURITY_INFORMATION, &sd))
     {
         printf("SetServiceObjectSecurity failed(%d)\n", GetLastError());
         goto dacl_cleanup;

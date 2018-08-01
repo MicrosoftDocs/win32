@@ -94,7 +94,7 @@ Finally, the buttons are added to the toolbar control with a [**TB\_ADDBUTTONS**
     rgtb[4].iBitmap = MAKELONG(3, 1);
 
     // Add the five buttons to the toolbar control
-    SendMessage(hwndTB, TB_ADDBUTTONS, 5, (LPARAM)(&amp;rgtb);
+    SendMessage(hwndTB, TB_ADDBUTTONS, 5, (LPARAM)(&rgtb);
 ```
 
 

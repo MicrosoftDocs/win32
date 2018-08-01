@@ -109,7 +109,7 @@ HRESULT RegisterForEvents()
     }
     else
     {
-        hr = PeerGraphRegisterEvent(g_hGraph, g_hEvent, celems(regs), regs,  &amp;g_hPeerEvent);
+        hr = PeerGraphRegisterEvent(g_hGraph, g_hEvent, celems(regs), regs,  &g_hPeerEvent);
         if (FAILED(hr))
         {
            wprintf(L"PeerGraphRegisterEvent call failed.\n");
@@ -120,7 +120,7 @@ HRESULT RegisterForEvents()
 
     if (SUCCEEDED(hr))
     {
-        if (!RegisterWaitForSingleObject(&amp;g_hWait, g_hEvent, EventCallback, NULL, INFINITE, WT_EXECUTEDEFAULT))
+        if (!RegisterWaitForSingleObject(&g_hWait, g_hEvent, EventCallback, NULL, INFINITE, WT_EXECUTEDEFAULT))
         {
             hr = HRESULT_FROM_WIN32(GetLastError());
             wprintf(L"Could not set up event callback.\n");

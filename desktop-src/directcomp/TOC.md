@@ -448,7 +448,7 @@
 ###### [SetOpacity(IDCompositionAnimation) method](https://msdn.microsoft.com/en-us/library/Mt589909(v=VS.85).aspx)
 ##### [SetTransformMode method](https://msdn.microsoft.com/en-us/library/Dn904491(v=VS.85).aspx)
 ##### [SetTransform method](/windows/desktop/api/Dcomp/nf-dcomp-settransform)
-###### [SetTransform(D2D_MATRIX_4X4_F&amp;) method](https://msdn.microsoft.com/en-us/library/Dn904492(v=VS.85).aspx)
+###### [SetTransform(D2D_MATRIX_4X4_F&) method](https://msdn.microsoft.com/en-us/library/Dn904492(v=VS.85).aspx)
 ###### [SetTransform method(IDCompositionTransform3D*)](https://msdn.microsoft.com/en-us/library/Dn904493(v=VS.85).aspx)
 ##### [SetVisible method](https://msdn.microsoft.com/en-us/library/Mt589911(v=VS.85).aspx)
 #### [IDCompositionVisualDebug](https://msdn.microsoft.com/en-us/library/Dn280429(v=VS.85).aspx)

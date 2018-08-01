@@ -85,7 +85,7 @@ private void player_OpenStateChange(object sender, AxWMPLib._WMPOCXEvents_OpenSt
         videoSize.Clear();
 
         // Test whether an image is visible.
-        if (height != 0 &amp;&amp; width != 0)
+        if (height != 0 && width != 0)
         {
             // Display the image size information.
             videoSize.Text = (width.ToString() + " x " + height.ToString());

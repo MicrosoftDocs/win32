@@ -24,19 +24,19 @@ HRESULT LoadGraphFile(IGraphBuilder *pGraph, const WCHAR* wszName)
     }
     HRESULT hr = StgOpenStorage(wszName, 0, 
         STGM_TRANSACTED | STGM_READ | STGM_SHARE_DENY_WRITE, 
-        0, 0, &amp;pStorage);
+        0, 0, &pStorage);
     if (FAILED(hr))
     {
         return hr;
     }
     IPersistStream *pPersistStream = 0;
     hr = pGraph->QueryInterface(IID_IPersistStream,
-             reinterpret_cast<void**>(&amp;pPersistStream));
+             reinterpret_cast<void**>(&pPersistStream));
     if (SUCCEEDED(hr))
     {
         IStream *pStream = 0;
         hr = pStorage->OpenStream(L"ActiveMovieGraph", 0, 
-            STGM_READ | STGM_SHARE_EXCLUSIVE, 0, &amp;pStream);
+            STGM_READ | STGM_SHARE_EXCLUSIVE, 0, &pStream);
         if(SUCCEEDED(hr))
         {
             hr = pPersistStream->Load(pStream);

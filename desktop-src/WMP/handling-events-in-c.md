@@ -52,7 +52,7 @@ HRESULT  hr = S_OK;
 // Smart pointer to IConnectionPointContainer
 CComPtr<IConnectionPointContainer>  spConnectionContainer;
 
-hr = m_spWMPPlayer->QueryInterface(&amp;spConnectionContainer);
+hr = m_spWMPPlayer->QueryInterface(&spConnectionContainer);
 
 ```
 
@@ -65,11 +65,11 @@ Next, request the connection point for the event interface you want to use. The 
 // Test whether the control supports the IWMPEvents interface.
 if(SUCCEEDED(hr))
 {
-    hr = spConnectionContainer->FindConnectionPoint(__uuidof(IWMPEvents), &amp;m_spConnectionPoint);
+    hr = spConnectionContainer->FindConnectionPoint(__uuidof(IWMPEvents), &m_spConnectionPoint);
     if (FAILED(hr))
     {
         // If not, try the _WMPOCXEvents interface, which uses IDispatch.
-        hr = spConnectionContainer->FindConnectionPoint(__uuidof(_WMPOCXEvents), &amp;m_spConnectionPoint);
+        hr = spConnectionContainer->FindConnectionPoint(__uuidof(_WMPOCXEvents), &m_spConnectionPoint);
     }
 }
 
@@ -83,7 +83,7 @@ Finally, call **IConnectionPoint::Advise** to request events.
 ```C++
 if(SUCCEEDED(hr))
 {
-    hr = m_spConnectionPoint->Advise(this, &amp;m_dwAdviseCookie);
+    hr = m_spConnectionPoint->Advise(this, &m_dwAdviseCookie);
 }
 
 ```

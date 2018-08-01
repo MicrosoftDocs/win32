@@ -42,7 +42,7 @@ To display an ampersand in a tooltip, escape the special character designation w
 
 
 ```XML
-<Command.TooltipTitle>Tooltip title with &amp;amp;&amp;amp; for Save Command</Command.TooltipTitle>
+<Command.TooltipTitle>Tooltip title with &amp;&amp; for Save Command</Command.TooltipTitle>
 ```
 
 

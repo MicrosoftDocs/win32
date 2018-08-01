@@ -59,7 +59,7 @@ HWND DoCreateHeader(HWND hwndParent)
         icex.dwSize = sizeof(INITCOMMONCONTROLSEX);
         icex.dwICC = ICC_LISTVIEW_CLASSES;   //set dwICC member to ICC_LISTVIEW_CLASSES    
                                              // this loads list-view and header control classes.
-    InitCommonControlsEx(&amp;icex); 
+    InitCommonControlsEx(&icex); 
  
         if ((hwndHeader = CreateWindowEx(0, WC_HEADER, (LPCTSTR) NULL, 
                 WS_CHILD | WS_BORDER | HDS_BUTTONS | HDS_HORZ, 
@@ -70,11 +70,11 @@ HWND DoCreateHeader(HWND hwndParent)
         // Retrieve the bounding rectangle of the parent window's 
         // client area, and then request size and position values 
         // from the header control. 
-        GetClientRect(hwndParent, &amp;rcParent); 
+        GetClientRect(hwndParent, &rcParent); 
  
-        hdl.prc = &amp;rcParent; 
-        hdl.pwpos = &amp;wp; 
-        if (!SendMessage(hwndHeader, HDM_LAYOUT, 0, (LPARAM) &amp;hdl)) 
+        hdl.prc = &rcParent; 
+        hdl.pwpos = &wp; 
+        if (!SendMessage(hwndHeader, HDM_LAYOUT, 0, (LPARAM) &hdl)) 
             return (HWND) NULL; 
  
         // Set the size, position, and visibility of the header control. 

@@ -78,12 +78,12 @@ void PromptForCredentials(PWSTR pwTargetName)
         // Prompt for credentials from user using Negotiate security package.
         DWORD dwRet = SspiPromptForCredentials(
             pwTargetName,
-            &amp;creduiInfo,
+            &creduiInfo,
             0,
             L"Negotiate", 
             NULL,
-            &amp;pAuthIdentityEx2,
-            &amp;fSave,
+            &pAuthIdentityEx2,
+            &fSave,
             dwFlags
             );
 
@@ -106,9 +106,9 @@ void PromptForCredentials(PWSTR pwTargetName)
             // be passed to a BITS job.
             SECURITY_STATUS secStatus = SspiEncodeAuthIdentityAsStrings(
                 pAuthIdentityEx2,
-                &amp;pwUserName,
-                &amp;pwDomainName,
-                &amp;pwPassword
+                &pwUserName,
+                &pwDomainName,
+                &pwPassword
                 );
 
             if(SEC_E_OK != secStatus) 
@@ -146,7 +146,7 @@ void PromptForCredentials(PWSTR pwTargetName)
             hr = CoCreateInstance(__uuidof(BackgroundCopyManager), NULL,
                 CLSCTX_LOCAL_SERVER,
                 __uuidof(IBackgroundCopyManager),
-                (void**) &amp;pQueueMgr);
+                (void**) &pQueueMgr);
 
             if (FAILED(hr))
             {
@@ -158,8 +158,8 @@ void PromptForCredentials(PWSTR pwTargetName)
             hr = pQueueMgr->CreateJob(
                 L"EncodeSample", 
                 BG_JOB_TYPE_DOWNLOAD, 
-                &amp;guidJob, 
-                &amp;pJob
+                &guidJob, 
+                &pJob
                 );
 
             if(FAILED(hr))
@@ -169,7 +169,7 @@ void PromptForCredentials(PWSTR pwTargetName)
             }
 
             // Get IBackgroundCopyJob2 interface.
-            hr = pJob->QueryInterface(__uuidof(IBackgroundCopyJob2), (void**)&amp;pJob2);
+            hr = pJob->QueryInterface(__uuidof(IBackgroundCopyJob2), (void**)&pJob2);
             if (FAILED(hr)) 
             {
                 // Failed to get a reference to the IBackgroundCopyJob2 interface.
@@ -183,7 +183,7 @@ void PromptForCredentials(PWSTR pwTargetName)
             authCreds.Credentials.Basic.Password = (LPWSTR)pwPassword;
 
             // Set the credentials for the job.
-            hr = pJob2->SetCredentials(&amp;authCreds);
+            hr = pJob2->SetCredentials(&authCreds);
             if (FAILED(hr)) 
             {
                 // Failed to set credentials.
@@ -203,7 +203,7 @@ void PromptForCredentials(PWSTR pwTargetName)
             }
         }
     }
-    catch(std::bad_alloc &amp;)
+    catch(std::bad_alloc &)
     {
         wprintf(L"Memory allocation failed");
         if (pJob != NULL)
@@ -211,7 +211,7 @@ void PromptForCredentials(PWSTR pwTargetName)
             pJob->Cancel();
         }
     }
-    catch(MyException &amp;ex)
+    catch(MyException &ex)
     {
         wprintf(L"Error %x occurred during operation", ex.Error);
         if (pJob != NULL)

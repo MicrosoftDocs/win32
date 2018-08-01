@@ -26,11 +26,11 @@ The following example draws the string "Hello" at location (30, 10). The font fa
 
 ```
 FontFamily  fontFamily(L"Times New Roman");
-Font        font(&amp;fontFamily, 24, FontStyleRegular, UnitPixel);
+Font        font(&fontFamily, 24, FontStyleRegular, UnitPixel);
 PointF      pointF(30.0f, 10.0f);
 SolidBrush  solidBrush(Color(255, 0, 0, 255));
 
-graphics.DrawString(L"Hello", -1, &amp;font, pointF, &amp;solidBrush);
+graphics.DrawString(L"Hello", -1, &font, pointF, &solidBrush);
             
 ```
 
@@ -56,14 +56,14 @@ WCHAR string[] =
    L"Draw text in a rectangle by passing a RectF to the DrawString method.";
                        
 FontFamily   fontFamily(L"Arial");
-Font         font(&amp;fontFamily, 12, FontStyleBold, UnitPoint);
+Font         font(&fontFamily, 12, FontStyleBold, UnitPoint);
 RectF        rectF(30.0f, 10.0f, 100.0f, 122.0f);
 SolidBrush   solidBrush(Color(255, 0, 0, 255));
 
-graphics.DrawString(string, -1, &amp;font, rectF, NULL, &amp;solidBrush);
+graphics.DrawString(string, -1, &font, rectF, NULL, &solidBrush);
 
 Pen pen(Color(255, 0, 0, 0));
-graphics.DrawRectangle(&amp;pen, rectF);
+graphics.DrawRectangle(&pen, rectF);
             
 ```
 

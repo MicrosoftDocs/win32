@@ -60,7 +60,7 @@ void ListSupportedFormats(
 
     // Get an IPortableDeviceServiceCapabilities interface from the IPortableDeviceService interface to
     // access the service capabilities-specific methods.
-    hr = pService->Capabilities(&amp;pCapabilities);
+    hr = pService->Capabilities(&pCapabilities);
     if (FAILED(hr))
     {
         printf("! Failed to get IPortableDeviceServiceCapabilities from IPortableDeviceService, hr = 0x%lx\n",hr);
@@ -69,7 +69,7 @@ void ListSupportedFormats(
     // Get all formats supported by the service.
     if (SUCCEEDED(hr))
     {
-        hr = pCapabilities->GetSupportedFormats(&amp;pFormats);
+        hr = pCapabilities->GetSupportedFormats(&pFormats);
         if (FAILED(hr))
         {
             printf("! Failed to get supported formats from the service, hr = 0x%lx\n",hr);
@@ -79,7 +79,7 @@ void ListSupportedFormats(
     // Get the number of supported formats found on the service.
     if (SUCCEEDED(hr))
     {
-        hr = pFormats->GetCount(&amp;dwNumFormats);
+        hr = pFormats->GetCount(&dwNumFormats);
         if (FAILED(hr))
         {
             printf("! Failed to get number of supported formats, hr = 0x%lx\n",hr);
@@ -94,8 +94,8 @@ void ListSupportedFormats(
         for (DWORD dwIndex = 0; dwIndex < dwNumFormats; dwIndex++)
         {
             PROPVARIANT pv = {0};
-            PropVariantInit(&amp;pv);
-            hr = pFormats->GetAt(dwIndex, &amp;pv);
+            PropVariantInit(&pv);
+            hr = pFormats->GetAt(dwIndex, &pv);
 
             if (SUCCEEDED(hr))
             {
@@ -108,7 +108,7 @@ void ListSupportedFormats(
                 }
             }
 
-            PropVariantClear(&amp;pv);
+            PropVariantClear(&pv);
         }
     }
 }
@@ -131,12 +131,12 @@ void DisplayFormat(
 {
     CComPtr<IPortableDeviceValues> pAttributes;
 
-    HRESULT hr = pCapabilities->GetFormatAttributes(Format, &amp;pAttributes);
+    HRESULT hr = pCapabilities->GetFormatAttributes(Format, &pAttributes);
 
     if (SUCCEEDED(hr))
     {
         PWSTR pszFormatName = NULL;
-        hr = pAttributes->GetStringValue(WPD_FORMAT_ATTRIBUTE_NAME, &amp;pszFormatName);
+        hr = pAttributes->GetStringValue(WPD_FORMAT_ATTRIBUTE_NAME, &pszFormatName);
 
         // Display the name of the format if it is available, otherwise fall back to displaying the GUID.
         if (SUCCEEDED(hr))

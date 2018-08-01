@@ -77,7 +77,7 @@ HRESULT CreateApplicationPartitionIADs(LPCWSTR pwszDCADsPath,
                           ADS_FAST_BIND | 
                           ADS_USE_DELEGATION,
                         IID_IADsContainer, 
-                        (LPVOID*)&amp;padsDC);
+                        (LPVOID*)&padsDC);
 
     if(SUCCEEDED(hr))
     {
@@ -87,7 +87,7 @@ HRESULT CreateApplicationPartitionIADs(LPCWSTR pwszDCADsPath,
         // Create the domainDNS object.
         hr = padsDC->Create(CComBSTR("domainDNS"), 
                             sbstrPath, 
-                            &amp;pDisp);
+                            &pDisp);
 
         if(SUCCEEDED(hr))
         {
@@ -95,7 +95,7 @@ HRESULT CreateApplicationPartitionIADs(LPCWSTR pwszDCADsPath,
 
             // Get the IADs interface.
             hr = pDisp->QueryInterface(IID_IADs, 
-                                       (LPVOID*)&amp;padsPartition);
+                                       (LPVOID*)&padsPartition);
             if(SUCCEEDED(hr))
             {
                 CComVariant svar;

@@ -34,7 +34,7 @@ HRESULT DemoApp::CreateDeviceIndependentResources()
     HRESULT hr;
 
     // Create a Direct2D factory.
-    hr = D2D1CreateFactory(D2D1_FACTORY_TYPE_SINGLE_THREADED, &amp;m_pD2DFactory);
+    hr = D2D1CreateFactory(D2D1_FACTORY_TYPE_SINGLE_THREADED, &m_pD2DFactory);
 
     if (SUCCEEDED(hr))
     {
@@ -43,7 +43,7 @@ HRESULT DemoApp::CreateDeviceIndependentResources()
         hr = DWriteCreateFactory(
             DWRITE_FACTORY_TYPE_SHARED,
             __uuidof(m_pDWriteFactory),
-            reinterpret_cast<IUnknown **>(&amp;m_pDWriteFactory)
+            reinterpret_cast<IUnknown **>(&m_pDWriteFactory)
             );
     }
     if (SUCCEEDED(hr))
@@ -57,7 +57,7 @@ HRESULT DemoApp::CreateDeviceIndependentResources()
             DWRITE_FONT_STRETCH_NORMAL,
             msc_fontSize,
             L"", //locale
-            &amp;m_pTextFormat
+            &m_pTextFormat
             );
     }
     if (SUCCEEDED(hr))

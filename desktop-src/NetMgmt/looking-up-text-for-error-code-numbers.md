@@ -70,7 +70,7 @@ DisplayErrorText(
     //  load the message source.
     //
 
-    if(dwLastError >= NERR_BASE &amp;&amp; dwLastError <= MAX_NERR) {
+    if(dwLastError >= NERR_BASE && dwLastError <= MAX_NERR) {
         hModule = LoadLibraryEx(
             TEXT("netmsg.dll"),
             NULL,
@@ -92,7 +92,7 @@ DisplayErrorText(
         hModule, // module to get message from (NULL == system)
         dwLastError,
         MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), // default language
-        (LPSTR) &amp;MessageBuffer,
+        (LPSTR) &MessageBuffer,
         0,
         NULL
         ))
@@ -106,7 +106,7 @@ DisplayErrorText(
             GetStdHandle(STD_ERROR_HANDLE),
             MessageBuffer,
             dwBufferLength,
-            &amp;dwBytesWritten,
+            &dwBytesWritten,
             NULL
             );
 

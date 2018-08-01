@@ -45,7 +45,7 @@ BOOL GetFilterDescription
  
         // Initialize all unused members of the ACMFILTERTAGDETAILS 
         // structure to zero. 
-        memset(&amp;aftd, 0, sizeof(aftd)); 
+        memset(&aftd, 0, sizeof(aftd)); 
  
         // Fill in the required members of the ACMFILTERTAGDETAILS 
         // structure for the ACM_FILTERTAGDETAILSF_FILTERTAG query. 
@@ -54,7 +54,7 @@ BOOL GetFilterDescription
  
         // Ask the ACM to find the first available driver that 
         // supports the specified filter tag. 
-        mmr = acmFilterTagDetails(NULL, &amp;aftd, 
+        mmr = acmFilterTagDetails(NULL, &aftd, 
             ACM_FILTERTAGDETAILSF_FILTERTAG); 
         if (MMSYSERR_NOERROR != mmr) { 
             // No ACM driver is available that supports the 
@@ -79,7 +79,7 @@ BOOL GetFilterDescription
  
         // Initialize all unused members of the ACMFILTERDETAILS 
         // structure to zero. 
-        memset(&amp;afd, 0, sizeof(afd)); 
+        memset(&afd, 0, sizeof(afd)); 
  
         // Fill in the required members of the ACMFILTERDETAILS 
         // structure for the ACM_FILTERDETAILSF_FILTER query. 
@@ -90,7 +90,7 @@ BOOL GetFilterDescription
  
         // Ask the ACM to find the first available driver that 
         // supports the specified filter. 
-        mmr = acmFilterDetails(NULL, &amp;afd, ACM_FILTERDETAILSF_FILTER); 
+        mmr = acmFilterDetails(NULL, &afd, ACM_FILTERDETAILSF_FILTER); 
         if (MMSYSERR_NOERROR != mmr) { 
             // No ACM driver is available that supports the 
             // specified filter. 

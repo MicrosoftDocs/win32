@@ -79,7 +79,7 @@ LRESULT OnNotify(HWND hwnd, NMHDR* pnmhdr)
             }
 
             // Retrieve information for item at index iItem.
-            RetrieveItem( &amp;rndItem, plvdi->item.iItem );
+            RetrieveItem( &rndItem, plvdi->item.iItem );
 
             if(plvdi->item.mask & LVIF_STATE)
             {
@@ -208,10 +208,10 @@ void PrepCache(int iFrom, int iTo)
     BOOL   fOLTo = FALSE;
 
     // Check to see if this is the end cache.
-    if ((iTo == g_cCache - 1) &amp;&amp; ((iTo - iFrom) < 30))  // 30 entries wide.
+    if ((iTo == g_cCache - 1) && ((iTo - iFrom) < 30))  // 30 entries wide.
     {
         // Check to see if this is a portion of the current end cache.
-        if ((g_cCache) &amp;&amp; (iFrom >= g_iEndCache) &amp;&amp; (iFrom < g_iEndCache+g_cEndCache))
+        if ((g_cCache) && (iFrom >= g_iEndCache) && (iFrom < g_iEndCache+g_cEndCache))
             return;
             // If it is a part of current end cache, no loading is necessary.
 
@@ -244,16 +244,16 @@ void PrepCache(int iFrom, int iTo)
         // Try the primary cache instead.
 
         // Check to see if iFrom is within the primary cache.
-        if ((g_cCache) &amp;&amp; (iFrom >= g_iCache) &amp;&amp; (iFrom < g_iCache+g_cCache))
+        if ((g_cCache) && (iFrom >= g_iCache) && (iFrom < g_iCache+g_cCache))
             fOLFrom = TRUE;
 
         // Check to see if iTo is within the primary cache.
-        if ((g_cCache) &amp;&amp; (iTo >= g_iCache) &amp;&amp; (iTo <= g_iCache+g_cCache))
+        if ((g_cCache) && (iTo >= g_iCache) && (iTo <= g_iCache+g_cCache))
             fOLTo = TRUE;
 
         // do nothing if both iFrom and iTo are within the current cache.
 
-        if (fOLFrom &amp;&amp; fOLTo)
+        if (fOLFrom && fOLTo)
             return;
 
         // Enlarge the cache size rather than make it specific to this hint.
@@ -310,12 +310,12 @@ void RetrieveItem( RndItem * prndItem, int index )
     //
 
     // Check to see if the item is in the main cache.
-    if ((index >= g_iCache) &amp;&amp; (index < g_iCache + g_cCache))
+    if ((index >= g_iCache) && (index < g_iCache + g_cCache))
         *prndItem = g_priCache[index-g_iCache];
 
     // If it is not in the main cache, then check to see if
     // the item is in the end area cache.
-    else if ((index >= g_iEndCache) &amp;&amp; (index < g_iEndCache + g_cEndCache))
+    else if ((index >= g_iEndCache) && (index < g_iEndCache + g_cEndCache))
         *prndItem = g_priEndCache[index-g_iEndCache];
 
     else

@@ -42,7 +42,7 @@ The CLSID for this effect is CLSID\_D2D1DirectionalBlur.
 
 ```C++
 ComPtr<ID2D1Effect> directionalBlurEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1DirectionalBlur, &amp;directionalBlurEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1DirectionalBlur, &directionalBlurEffect);
 
 directionalBlurEffect->SetInput(0, bitmap);
 directionalBlurEffect->SetValue(D2D1_DIRECTIONALBLUR_PROP_STANDARD_DEVIATION, 7.0f);

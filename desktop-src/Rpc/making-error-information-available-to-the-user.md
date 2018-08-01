@@ -22,7 +22,7 @@ if (status)
     RPC_STATUS Status2;
     RPC_ERROR_ENUM_HANDLE EnumHandle;
 
-    Status2 = RpcErrorStartEnumeration(&amp;EnumHandle);
+    Status2 = RpcErrorStartEnumeration(&EnumHandle);
     if (Status2 == RPC_S_ENTRY_NOT_FOUND)
         {
         //...
@@ -52,7 +52,7 @@ if (status)
                 ErrorInfo.Flags |= EEInfoUseFileTime;
                 }
 
-            Status2 = RpcErrorGetNextRecord(&amp;EnumHandle, CopyStrings, &amp;ErrorInfo);
+            Status2 = RpcErrorGetNextRecord(&EnumHandle, CopyStrings, &ErrorInfo);
             if (Status2 == RPC_S_ENTRY_NOT_FOUND)
                 {
                 break;
@@ -78,13 +78,13 @@ if (status)
                 PrintToConsole("ProcessID is %d\n", ErrorInfo.ProcessID);
                 if (fUseFileTime)
                     {
-                    Result = FileTimeToSystemTime(&amp;ErrorInfo.u.FileTime, 
-                        &amp;SystemTimeBuffer);
+                    Result = FileTimeToSystemTime(&ErrorInfo.u.FileTime, 
+                        &SystemTimeBuffer);
                     ASSERT(Result);
-                    SystemTimeToUse = &amp;SystemTimeBuffer;
+                    SystemTimeToUse = &SystemTimeBuffer;
                     }
                 else
-                    SystemTimeToUse = &amp;ErrorInfo.u.SystemTime;
+                    SystemTimeToUse = &ErrorInfo.u.SystemTime;
 
                 PrintToConsole("System Time is: %d/%d/%d %d:%d:%d:%d\n", 
                     SystemTimeToUse->wMonth,
@@ -154,7 +154,7 @@ if (status)
                     }
                 }
             }
-        RpcErrorEndEnumeration(&amp;EnumHandle);
+        RpcErrorEndEnumeration(&EnumHandle);
         }
     }
 ```

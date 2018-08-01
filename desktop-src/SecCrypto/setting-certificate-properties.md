@@ -44,7 +44,7 @@ STDMETHODIMP CCertPolicy::VerifyRequest(
                            NULL,
                            CLSCTX_INPROC_SERVER,
                            IID_ICertServerPolicy,
-                           (void **) &amp;pServer );
+                           (void **) &pServer );
     if (FAILED( hr ))
     {
         printf("Failed CoCreateInstance for ICertServerPolicy "
@@ -72,7 +72,7 @@ STDMETHODIMP CCertPolicy::VerifyRequest(
         return hr;
     }
 
-    VariantInit( &amp;vPropValue );
+    VariantInit( &vPropValue );
     vPropValue.VT_BSTR;
     vPropValue.bstrVal = SysAllocString(L"someone@example.com");
     if ( NULL == vPropValue.bstrVal )
@@ -88,9 +88,9 @@ STDMETHODIMP CCertPolicy::VerifyRequest(
     // Set the subject property on the certificate.
     hr = pServer->SetCertificateProperty( bstrPropName,
                                           PROPTYPE_STRING,
-                                          &amp;vPropValue );
+                                          &vPropValue );
     SysFreeString(bstrPropName);
-    VariantClear(&amp;vPropValue);
+    VariantClear(&vPropValue);
     if (FAILED(hr))
     {
         printf("Failed SetCertificateProperty - %x\n", hr);
@@ -109,7 +109,7 @@ STDMETHODIMP CCertPolicy::VerifyRequest(
         return hr;
     }
 
-    VariantInit( &amp;vExtValue );
+    VariantInit( &vExtValue );
     vExtValue.VT_BSTR;
     vExtValue.bstrVal = SysAllocString
         (L"http://example.microsoft.com");
@@ -126,9 +126,9 @@ STDMETHODIMP CCertPolicy::VerifyRequest(
     hr = pServer->SetCertificateExtension( bstrExtName,
                                            PROPTYPE_STRING,
                                            EXTENSION_CRITICAL_FLAG,
-                                           &amp;vExtValue );
+                                           &vExtValue );
     SysFreeString(bstrExtName);
-    VariantClear(&amp;vExtValue);
+    VariantClear(&vExtValue);
     if (FAILED(hr))
     {
         printf("Failed SetCertificateExtension - %x\n", hr);

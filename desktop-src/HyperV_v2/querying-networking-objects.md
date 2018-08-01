@@ -212,7 +212,7 @@ namespace Microsoft.Samples.HyperV.Networking
         {
             string[] hostResource = (string[])portSettings["HostResource"];
 
-            if (hostResource != null &amp;&amp; hostResource.Length > 0)
+            if (hostResource != null && hostResource.Length > 0)
             {
                 ManagementPath hostResourcePath = new ManagementPath(hostResource[0]);
 
@@ -358,7 +358,7 @@ namespace Microsoft.Samples.HyperV.Networking
             // Based on the internal and/or external connections of our ports, we can determine
             // the switch's connection type.
             //
-            if (internallyConnected &amp;&amp; externallyConnected)
+            if (internallyConnected && externallyConnected)
             {
                 type = SwitchConnectionType.External;
             }
@@ -513,7 +513,7 @@ namespace Microsoft.Samples.HyperV.Networking
 
             foreach (PortInfo portInfo in portList)
             {
-                if (portInfo.Type == PortConnectionType.VirtualMachine &amp;&amp;
+                if (portInfo.Type == PortConnectionType.VirtualMachine &&
                     !string.IsNullOrEmpty(portInfo.ConnectedName))
                 {
                     virtualMachineNames.Add(portInfo.ConnectedName);

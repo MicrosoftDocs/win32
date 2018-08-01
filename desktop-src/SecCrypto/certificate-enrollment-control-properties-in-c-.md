@@ -33,7 +33,7 @@ For example, to retrieve the value for the **RootStoreType** property, you use t
 // Get the store type.
 // hr is an HRESULT.
 // bstrStoreType is a BSTR variable.
-hr = pEnroll->get_RootStoreType( &amp;bstrStoreType );
+hr = pEnroll->get_RootStoreType( &bstrStoreType );
 ```
 
 

@@ -64,10 +64,10 @@ DWORD FindRecentEvents(
    FWP_BYTE_BLOB* appBlob = NULL;
    HANDLE enumHandle = NULL;
 
-   memset(&amp;enumTempl, 0, sizeof(enumTempl));
+   memset(&enumTempl, 0, sizeof(enumTempl));
 
    // Use the current time as the end time of the window.
-   GetSystemTimeAsFileTime(&amp;(enumTempl.endTime));
+   GetSystemTimeAsFileTime(&(enumTempl.endTime));
 
    // Subtract the number of seconds specified by the caller to find the start
    // time.
@@ -79,12 +79,12 @@ DWORD FindRecentEvents(
 
    result = InitFilterConditions(
                appPath,
-               &amp;localAddr,
+               &localAddr,
                ipProtocol,
                ARRAYSIZE(conds),
                conds,
-               &amp;numConds,
-               &amp;appBlob
+               &numConds,
+               &appBlob
                );
    EXIT_ON_ERROR(result);
 
@@ -96,8 +96,8 @@ DWORD FindRecentEvents(
 
    result = FwpmNetEventCreateEnumHandle0(
                engine,
-               &amp;enumTempl,
-               &amp;enumHandle
+               &enumTempl,
+               &enumHandle
                );
    EXIT_ON_ERROR(result);
 
@@ -112,7 +112,7 @@ DWORD FindRecentEvents(
 
 CLEANUP:
    FwpmNetEventDestroyEnumHandle0(engine, enumHandle);
-   FwpmFreeMemory0((void**)&amp;appBlob);
+   FwpmFreeMemory0((void**)&appBlob);
    return result;
 }
 
@@ -141,10 +141,10 @@ DWORD wmain(int argc,
    //  - All objects associated with the dynamic session are deleted with one call.
    //  - Filtering policy objects are deleted even when the application crashes. 
    FWPM_SESSION0 session;
-   memset(&amp;session, 0, sizeof(session));
+   memset(&session, 0, sizeof(session));
    session.flags = FWPM_SESSION_FLAG_DYNAMIC;
 
-   DWORD result = FwpmEngineOpen0(NULL, RPC_C_AUTHN_WINNT, NULL, &amp;session, &amp;engineHandle);
+   DWORD result = FwpmEngineOpen0(NULL, RPC_C_AUTHN_WINNT, NULL, &session, &engineHandle);
    if (ERROR_SUCCESS == result)
    {
         result = FindRecentEvents(
@@ -153,8 +153,8 @@ DWORD wmain(int argc,
          0,
          0,
          100,
-         &amp;events,
-         &amp;numEvents
+         &events,
+         &numEvents
          );
    }
 
@@ -170,8 +170,8 @@ DWORD wmain(int argc,
       {
          event = events[i];
 
-         FileTimeToLocalFileTime(&amp;(event->header.timeStamp), &amp;ft);
-         FileTimeToSystemTime(&amp;ft, &amp;st);
+         FileTimeToLocalFileTime(&(event->header.timeStamp), &ft);
+         FileTimeToSystemTime(&ft, &st);
 
          type = (event->type < ARRAYSIZE(types)) ? types[event->type]
                                                  : "<unknown>";

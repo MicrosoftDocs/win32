@@ -87,7 +87,7 @@ CComPtr<IPortableDevicePropVariantCollection> pObjectsToMove;
 CComPtr<IPortableDevicePropVariantCollection> pObjectsFailedToMove;
 if (SUCCEEDED(hr))
 {
-    hr = pDevice->Content(&amp;pContent);
+    hr = pDevice->Content(&pContent);
     if (FAILED(hr))
     {
         printf("! Failed to get IPortableDeviceContent from IPortableDevice, hr = 0x%lx\n",hr);
@@ -117,13 +117,13 @@ if (SUCCEEDED(hr))
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_IPortableDevicePropVariantCollection,
-                          (VOID**) &amp;pObjectsToMove);
+                          (VOID**) &pObjectsToMove);
     if (SUCCEEDED(hr))
     {
         if (pObjectsToMove != NULL)
         {
             PROPVARIANT pv = {0};
-            PropVariantInit(&amp;pv);
+            PropVariantInit(&pv);
 
             // Initialize a PROPVARIANT structure with the object identifier string
             // that the user selected above. Notice we are allocating memory for the
@@ -135,7 +135,7 @@ if (SUCCEEDED(hr))
             {
                 // Add the object identifier to the objects-to-move list
                 // (We are only moving 1 in this example)
-                hr = pObjectsToMove->Add(&amp;pv);
+                hr = pObjectsToMove->Add(&pv);
                 if (SUCCEEDED(hr))
                 {
                     // Attempt to move the object on the device
@@ -175,7 +175,7 @@ if (SUCCEEDED(hr))
             }
 
             // Free any allocated values in the PROPVARIANT before exiting
-            PropVariantClear(&amp;pv);
+            PropVariantClear(&pv);
         }
         else
         {

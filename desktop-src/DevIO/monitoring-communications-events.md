@@ -75,7 +75,7 @@ void _tmain(
 
     assert(o.hEvent);
 
-    if (WaitCommEvent(hCom, &amp;dwEvtMask, &amp;o)) 
+    if (WaitCommEvent(hCom, &dwEvtMask, &o)) 
     {
         if (dwEvtMask & EV_DSR) 
         {

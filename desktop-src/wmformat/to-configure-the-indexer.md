@@ -34,10 +34,10 @@ HRESULT hr = S_OK;
 hr = CoInitialize(NULL);
 
 // Create an indexer.
-hr = WMCreateIndexer(&amp;pBaseIndexer);
+hr = WMCreateIndexer(&pBaseIndexer);
 
 // Retrieve an IWMIndexer2 interface pointer for the indexer just created.
-hr = pBaseIndexer->QueryInterface(IID_IWMIndexer2, (void**)&amp;pMyIndexer);
+hr = pBaseIndexer->QueryInterface(IID_IWMIndexer2, (void**)&pMyIndexer);
 
 // Release the base indexer.
 pBaseIndexer->Release();
@@ -49,7 +49,7 @@ dwInterval = 5;
 // Configure the indexer to create a frame-based index.
 hr = pMyIndexer->Configure(2,                    // Stream Number.
                            WMT_IT_FRAME_NUMBERS, // Indexer type.
-                           (void *)&amp;dwInterval,  // Index interval.
+                           (void *)&dwInterval,  // Index interval.
                            NULL;        // Index type, use default.
 
 // TODO: Index the file. See To Index an ASF File.

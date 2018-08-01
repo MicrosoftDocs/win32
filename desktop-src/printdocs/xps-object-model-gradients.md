@@ -41,23 +41,23 @@ The following code example adds a new stop to the gradient of a linear-gradient 
     // create a new gradient stop by setting the color and location 
     // this stop will be half way between the start and end point
     newStopOffset = 0.5f;
-    hr = xpsFactory->CreateGradientStop(&amp;xpsColorStop, NULL, newStopOffset, &amp;xpsNewGradientStop);
+    hr = xpsFactory->CreateGradientStop(&xpsColorStop, NULL, newStopOffset, &xpsNewGradientStop);
 
     // get the collection of gradient stops from the brush
-    hr = brush->GetGradientStops (&amp;stops);
+    hr = brush->GetGradientStops (&stops);
 
-    hr = stops->GetCount (&amp;numStops);
+    hr = stops->GetCount (&numStops);
     // there will never be less than two stops
     
     // insert the new stop so that the stops are sorted by offset
     // if an existing stop has the same offset as the new one,
     // overwrite the existing stop with the new stop.
     for (thisStopIdx = 0; thisStopIdx < (numStops-1); thisStopIdx++) {
-        hr = stops->GetAt(thisStopIdx, &amp;thisStop);
-        hr = stops->GetAt(thisStopIdx+1, &amp;nextStop);
+        hr = stops->GetAt(thisStopIdx, &thisStop);
+        hr = stops->GetAt(thisStopIdx+1, &nextStop);
     
-        hr = thisStop->GetOffset (&amp;thisStopOffset);
-        hr = nextStop->GetOffset (&amp;nextStopOffset);
+        hr = thisStop->GetOffset (&thisStopOffset);
+        hr = nextStop->GetOffset (&nextStopOffset);
 
         if (newStopOffset < thisStopOffset) {
             // insert at thisStopIdx
@@ -65,7 +65,7 @@ The following code example adds a new stop to the gradient of a linear-gradient 
             bUpdated = TRUE;
             break; // done, so leave loop
         } 
-        if ((newStopOffset > thisStopOffset) &amp;&amp; (newStopOffset < nextStopOffset)) {
+        if ((newStopOffset > thisStopOffset) && (newStopOffset < nextStopOffset)) {
             // the new stop goes in between them
             stops->InsertAt (thisStopIdx+1, xpsNewGradientStop);
             bUpdated = TRUE;
@@ -88,7 +88,7 @@ The following code example adds a new stop to the gradient of a linear-gradient 
 
         // on the last entry, see if this stop is greater than the last entry
         // in the collection. If so, append the new one to the end.
-        if ((thisStopIdx == (numStops-2)) &amp;&amp; (newStopOffset > nextStopOffset )) {
+        if ((thisStopIdx == (numStops-2)) && (newStopOffset > nextStopOffset )) {
             // then overwrite the old one
             stops->Append ( xpsNewGradientStop );
             bUpdated = TRUE;

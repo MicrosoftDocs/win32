@@ -37,7 +37,7 @@ Assigns vector component data to the current instance of [**XMCOLOR**](/windows/
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[XMCOLOR::operator = (const XMCOLOR&amp;)](https://msdn.microsoft.com/en-us/library/Ee419410(v=VS.85).aspx)</td>
+<td style="text-align: left;">[XMCOLOR::operator = (const XMCOLOR&)](https://msdn.microsoft.com/en-us/library/Ee419410(v=VS.85).aspx)</td>
 <td style="text-align: left;">This operator assigns the vector component data from one instance of [<strong>XMCOLOR</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor) to the current instance of <strong>XMCOLOR</strong>.<br/>
 <blockquote>
 [!Note]<br />

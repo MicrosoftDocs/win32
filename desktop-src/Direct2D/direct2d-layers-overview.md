@@ -107,7 +107,7 @@ The following example shows how to use [**CreateLayer**](/windows/desktop/api/d2
 ```C++
 // Create a layer.
 ID2D1Layer *pLayer = NULL;
-hr = pRT->CreateLayer(NULL, &amp;pLayer);
+hr = pRT->CreateLayer(NULL, &pLayer);
 
 if (SUCCEEDED(hr))
 {
@@ -143,7 +143,7 @@ if (SUCCEEDED(hr))
  
     pRT->PopLayer();
 }
-SafeRelease(&amp;pLayer);
+SafeRelease(&pLayer);
 ```
 
 
@@ -169,7 +169,7 @@ HRESULT DemoApp::RenderWithLayerWithContentBounds(ID2D1RenderTarget *pRT)
 
     // Create a layer.
     ID2D1Layer *pLayer = NULL;
-    hr = pRT->CreateLayer(NULL, &amp;pLayer);
+    hr = pRT->CreateLayer(NULL, &pLayer);
 
     if (SUCCEEDED(hr))
     {
@@ -185,7 +185,7 @@ HRESULT DemoApp::RenderWithLayerWithContentBounds(ID2D1RenderTarget *pRT)
         pRT->PopLayer();
     }
 
-    SafeRelease(&amp;pLayer);
+    SafeRelease(&pLayer);
 
     return hr;
     
@@ -214,13 +214,13 @@ The first example defines the geometry to be used as a mask.
 
 
 ```C++
-hr = m_pD2DFactory->CreatePathGeometry(&amp;m_pPathGeometry);
+hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometry);
     
 if(SUCCEEDED(hr))
 {
     ID2D1GeometrySink *pSink = NULL;
     // Write to the path geometry using the geometry sink.
-    hr = m_pPathGeometry->Open(&amp;pSink);
+    hr = m_pPathGeometry->Open(&pSink);
 
     if (SUCCEEDED(hr))
     {
@@ -244,7 +244,7 @@ if(SUCCEEDED(hr))
         pSink->EndFigure(D2D1_FIGURE_END_CLOSED);
         hr = pSink->Close();
     }
-    SafeRelease(&amp;pSink);
+    SafeRelease(&pSink);
        }
 ```
 
@@ -261,7 +261,7 @@ HRESULT DemoApp::RenderWithLayerWithGeometricMask(ID2D1RenderTarget *pRT)
 
     // Create a layer.
     ID2D1Layer *pLayer = NULL;
-    hr = pRT->CreateLayer(NULL, &amp;pLayer);
+    hr = pRT->CreateLayer(NULL, &pLayer);
 
     if (SUCCEEDED(hr))
     {
@@ -286,7 +286,7 @@ HRESULT DemoApp::RenderWithLayerWithGeometricMask(ID2D1RenderTarget *pRT)
         pRT->PopLayer();
     }
 
-    SafeRelease(&amp;pLayer);
+    SafeRelease(&pLayer);
 
     return hr;
     
@@ -324,7 +324,7 @@ HRESULT DemoApp::RenderWithLayerWithOpacityMask(ID2D1RenderTarget *pRT)
 
     // Create a layer.
     ID2D1Layer *pLayer = NULL;
-    hr = pRT->CreateLayer(NULL, &amp;pLayer);
+    hr = pRT->CreateLayer(NULL, &pLayer);
 
     if (SUCCEEDED(hr))
     {
@@ -360,7 +360,7 @@ HRESULT DemoApp::RenderWithLayerWithOpacityMask(ID2D1RenderTarget *pRT)
  
         pRT->PopLayer();
     }
-    SafeRelease(&amp;pLayer);
+    SafeRelease(&pLayer);
    
     return hr;
     
@@ -420,7 +420,7 @@ m_pRenderTarget->FillOpacityMask(
     m_pBitmapMask,
     m_pOriginalBitmapBrush,
     D2D1_OPACITY_MASK_CONTENT_GRAPHICS,
-    &amp;rcBrushRect,
+    &rcBrushRect,
     NULL
     );
 
@@ -439,7 +439,7 @@ float opacity = 0.9f;
 ID2D1SolidColorBrush *pBrush = NULL;
 hr = pCompatibleRenderTarget->CreateSolidColorBrush(
     D2D1::ColorF(D2D1::ColorF(0.93f, 0.94f, 0.96f, 1.0f * opacity)),
-    &amp;pBrush
+    &pBrush
     );
 
 m_pRenderTarget->FillRectangle(
@@ -483,7 +483,7 @@ m_d2dContext->CreateBitmap(size, nullptr, 0,
             DXGI_FORMAT_A8_UNORM,
             D2D1_ALPHA_MODE_PREMULTIPLIED),
         dpiX, dpiY),
-    &amp;opacityBitmap);
+    &opacityBitmap);
 
 m_d2dContext->SetTarget(opacityBitmap.Get());
 m_d2dContext->BeginDraw();
@@ -494,7 +494,7 @@ m_d2dContext->EndDraw();
 m_d2dContext->CreateBitmapBrush(opacityBitmap.Get(),
     D2D1::BitmapBrushProperties(),
     D2D1::BrushProperties(),
-    &amp;bitmapBrush);
+    &bitmapBrush);
 
 // Call the FillGeometry method and pass in the clip geometry and the opacity brush
 m_d2dContext->FillGeometry( 

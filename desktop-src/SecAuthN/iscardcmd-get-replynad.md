@@ -76,7 +76,7 @@ BYTE    byNad;
 HRESULT hr;
 
 // Get reply Nad.
-hr = pISCardCmd->get_ReplyNad(&amp;byNad);
+hr = pISCardCmd->get_ReplyNad(&byNad);
 if (FAILED(hr))
 {
   printf("Failed get_ReplyNad\n");

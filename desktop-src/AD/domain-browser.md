@@ -48,14 +48,14 @@ void main(void)
                                 NULL,
                                 CLSCTX_INPROC_SERVER,
                                 IID_IDsBrowseDomainTree,
-                                (void **)(&amp;pDsDomains));
+                                (void **)(&pDsDomains));
     
     if(SUCCEEDED(hr))
     {
         LPOLESTR    pstr;        
 
         hr = pDsDomains->BrowseTo(  GetDesktopWindow(),
-                                    &amp;pstr,
+                                    &pstr,
                                     0);
         
         if(S_OK == hr)
@@ -133,17 +133,17 @@ int main(void)
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_IDsBrowseDomainTree,
-                          (void**)&amp;pBrowseTree);
+                          (void**)&pBrowseTree);
 
     if(SUCCEEDED(hr))
     {
         DOMAINTREE  *pDomTreeStruct;
-        hr = pBrowseTree->GetDomains(&amp;pDomTreeStruct, 
+        hr = pBrowseTree->GetDomains(&pDomTreeStruct, 
                                      DBDTF_RETURNFQDN);
         if(SUCCEEDED(hr))
         {
-            WalkDomainTree(&amp;pDomTreeStruct->aDomains[0]);
-            hr = pBrowseTree->FreeDomains(&amp;pDomTreeStruct);
+            WalkDomainTree(&pDomTreeStruct->aDomains[0]);
+            hr = pBrowseTree->FreeDomains(&pDomTreeStruct);
         }
         pBrowseTree->Release();
     }

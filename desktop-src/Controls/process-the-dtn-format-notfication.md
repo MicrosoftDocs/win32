@@ -45,7 +45,7 @@ void WINAPI DoFormat(HWND hwndDP, LPNMDATETIMEFORMAT lpDTFormat)
 {
 HRESULT hr = StringCchPrintf(lpDTFormat->szDisplay,
                 sizeof(lpDTFormat->szDisplay)/sizeof(lpDTFormat->szDisplay[0]),
-                L"%d",GetDayNum(&amp;lpDTFormat->st));
+                L"%d",GetDayNum(&lpDTFormat->st));
 if(SUCCEEDED(hr))
  {
    // Insert code here to handle the case when the function succeeds.      
@@ -108,7 +108,7 @@ BOOL WINAPI IsLeapYr(int iYear)
     // If the year is evenly divisible by 4 and not by 100, but is 
     // divisible by 400, it is a leap year.
     if ((!(iYear % 4))             // each even fourth year
-            &amp;&amp; ((iYear % 100)      // not each even 100 year
+            && ((iYear % 100)      // not each even 100 year
             || (!(iYear % 400))))  // but each even 400 year
         fLeapYr = TRUE;
 

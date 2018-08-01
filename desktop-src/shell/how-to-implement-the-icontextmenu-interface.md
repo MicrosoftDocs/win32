@@ -107,7 +107,7 @@ STDMETHODIMP CShellExtension::InvokeCommand(LPCMINVOKECOMMANDINFO lpcmi)
         }
     }
 
-    if( !fUnicode &amp;&amp; HIWORD(lpcmi->lpVerb))
+    if( !fUnicode && HIWORD(lpcmi->lpVerb))
     {
         if(StrCmpIA(lpcmi->lpVerb, m_pszVerb))
         {
@@ -115,7 +115,7 @@ STDMETHODIMP CShellExtension::InvokeCommand(LPCMINVOKECOMMANDINFO lpcmi)
         }
     }
 
-    else if( fUnicode &amp;&amp; HIWORD(((CMINVOKECOMMANDINFOEX *) lpcmi)->lpVerbW))
+    else if( fUnicode && HIWORD(((CMINVOKECOMMANDINFOEX *) lpcmi)->lpVerbW))
     {
         if(StrCmpIW(((CMINVOKECOMMANDINFOEX *)lpcmi)->lpVerbW, m_pwszVerb))
         {
@@ -188,7 +188,7 @@ STDMETHODIMP CMenuExtension::QueryContextMenu(HMENU hMenu,
                    indexMenu, 
                    MF_STRING | MF_BYPOSITION, 
                    idCmdFirst + IDM_DISPLAY, 
-                   "&amp;Display File Name");
+                   "&Display File Name");
 
     
         

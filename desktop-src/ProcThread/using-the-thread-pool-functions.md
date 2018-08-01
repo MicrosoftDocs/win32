@@ -130,7 +130,7 @@ DemoCleanupPersistentWorkTimer()
     ULARGE_INTEGER ulDueTime;
     UINT rollback = 0;
 
-    InitializeThreadpoolEnvironment(&amp;CallBackEnviron);
+    InitializeThreadpoolEnvironment(&CallBackEnviron);
 
     //
     // Create a custom, dedicated thread pool.
@@ -175,14 +175,14 @@ DemoCleanupPersistentWorkTimer()
     //
     // Associate the callback environment with our thread pool.
     //
-    SetThreadpoolCallbackPool(&amp;CallBackEnviron, pool);
+    SetThreadpoolCallbackPool(&CallBackEnviron, pool);
 
     //
     // Associate the cleanup group with our thread pool.
     // Objects created with the same callback environment
     // as the cleanup group become members of the cleanup group.
     //
-    SetThreadpoolCallbackCleanupGroup(&amp;CallBackEnviron,
+    SetThreadpoolCallbackCleanupGroup(&CallBackEnviron,
                                       cleanupgroup,
                                       NULL);
 
@@ -191,7 +191,7 @@ DemoCleanupPersistentWorkTimer()
     //
     work = CreateThreadpoolWork(workcallback,
                                 NULL, 
-                                &amp;CallBackEnviron);
+                                &CallBackEnviron);
 
     if (NULL == work) {
         _tprintf(_T("CreateThreadpoolWork failed. LastError: %u\n"),
@@ -213,7 +213,7 @@ DemoCleanupPersistentWorkTimer()
     //
     timer = CreateThreadpoolTimer(timercallback,
                                   NULL,
-                                  &amp;CallBackEnviron);
+                                  &CallBackEnviron);
 
 
     if (NULL == timer) {
@@ -232,7 +232,7 @@ DemoCleanupPersistentWorkTimer()
     FileDueTime.dwLowDateTime  = ulDueTime.LowPart;
 
     SetThreadpoolTimer(timer,
-                       &amp;FileDueTime,
+                       &FileDueTime,
                        0,
                        0);
 

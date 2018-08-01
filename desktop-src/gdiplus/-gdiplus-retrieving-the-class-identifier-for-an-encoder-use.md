@@ -30,7 +30,7 @@ int GetEncoderClsid(const WCHAR* format, CLSID* pClsid)
 
    ImageCodecInfo* pImageCodecInfo = NULL;
 
-   GetImageEncodersSize(&amp;num, &amp;size);
+   GetImageEncodersSize(&num, &size);
    if(size == 0)
       return -1;  // Failure
 
@@ -73,13 +73,13 @@ INT main()
    // Initialize GDI+.
    GdiplusStartupInput gdiplusStartupInput;
    ULONG_PTR gdiplusToken;
-   GdiplusStartup(&amp;gdiplusToken, &amp;gdiplusStartupInput, NULL);
+   GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
 
    CLSID  encoderClsid;
    INT    result;
    WCHAR  strGuid[39];
 
-   result = GetEncoderClsid(L"image/png", &amp;encoderClsid);
+   result = GetEncoderClsid(L"image/png", &encoderClsid);
 
    if(result < 0)
    {

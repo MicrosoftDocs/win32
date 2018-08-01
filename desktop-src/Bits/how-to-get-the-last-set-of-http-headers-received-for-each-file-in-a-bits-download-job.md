@@ -52,7 +52,7 @@ if (SUCCEEDED(hr))
                        NULL,
                        CLSCTX_LOCAL_SERVER,
                        __uuidof(IBackgroundCopyManager),
-                       (void**) &amp;pManager);
+                       (void**) &pManager);
 }
 ```
 
@@ -69,8 +69,8 @@ IBackgroundCopyJob* pBackgroundCopyJob;
 
 hr = pManager->CreateJob(L"TransferPolicy",
                          BG_JOB_TYPE_DOWNLOAD,
-                         &amp;guidJob,
-                         (IBackgroundCopyJob **)&amp;pBackgroundCopyJob);
+                         &guidJob,
+                         (IBackgroundCopyJob **)&pBackgroundCopyJob);
 ```
 
 
@@ -138,13 +138,13 @@ HRESULT MonitorJobProgress(__in IBackgroundCopyJob* Job)
  int PreviousState = -1;
  bool Exit = false;
  int ProgressCounter = 0;
- hr = Job->GetDisplayName(&amp;JobName);
+ hr = Job->GetDisplayName(&JobName);
  printf("Progress report for download job '%ws'.\n", JobName);
 
  // Display the download progress.
  while (!Exit)
  {
-  hr = Job->GetState(&amp;State);
+  hr = Job->GetState(&State);
   if (State != PreviousState)
   {
    switch(State)
@@ -216,7 +216,7 @@ VOID DisplayProgress(__in IBackgroundCopyJob *Job)
 {
  HRESULT hr;
  BG_JOB_PROGRESS Progress;
- hr = Job->GetProgress(&amp;Progress);
+ hr = Job->GetProgress(&Progress);
  if (SUCCEEDED(hr))
  {
   printf("%llu of %llu bytes transferred (%lu of %lu files).\n",
@@ -240,27 +240,27 @@ HRESULT DisplayFileHeaders(__in IBackgroundCopyJob *Job)
  HRESULT hr;
  IEnumBackgroundCopyFiles *FileEnumerator;
  
- hr = Job->EnumFiles(&amp;FileEnumerator);
+ hr = Job->EnumFiles(&FileEnumerator);
  if (SUCCEEDED(hr))
  {
   ULONG Count;
 
-  hr = FileEnumerator->GetCount(&amp;Count);
+  hr = FileEnumerator->GetCount(&Count);
   if (SUCCEEDED(hr))
   {
    for (ULONG i=0; i < Count; ++i)
    {
     IBackgroundCopyFile *TempFile;
 
-    hr = FileEnumerator->Next(1, &amp;TempFile, NULL);
+    hr = FileEnumerator->Next(1, &TempFile, NULL);
     if (SUCCEEDED(hr))
     {
      IBackgroundCopyFile5 *File;
-     hr = TempFile->QueryInterface(__uuidof( IBackgroundCopyFile5 ), (void **) &amp;File);
+     hr = TempFile->QueryInterface(__uuidof( IBackgroundCopyFile5 ), (void **) &File);
      if (SUCCEEDED(hr))
      {
       LPWSTR RemoteFileName;
-      hr = File->GetRemoteName(&amp;RemoteFileName);
+      hr = File->GetRemoteName(&RemoteFileName);
       if (SUCCEEDED(hr))
       {
        printf("HTTP headers for remote file '%ws'\n", RemoteFileName );
@@ -269,8 +269,8 @@ HRESULT DisplayFileHeaders(__in IBackgroundCopyJob *Job)
       }
 
       BITS_FILE_PROPERTY_VALUE Value;
-      hr = File->GetProperty(BITS_FILE_PROPERTY_ID_HTTP_RESPONSE_HEADERS, &amp;Value);
-      if (SUCCEEDED(hr) &amp;&amp; Value.String)
+      hr = File->GetProperty(BITS_FILE_PROPERTY_ID_HTTP_RESPONSE_HEADERS, &Value);
+      if (SUCCEEDED(hr) && Value.String)
       {
        printf("Headers: %ws\n", Headers );
 
@@ -368,13 +368,13 @@ int _tmain(int argc, _TCHAR* argv[])
  IBackgroundCopyManager *Manager;
 
  // Get the BITS Background Copy Manager.
- hr = GetBackgroundCopyManager(&amp;Manager);
+ hr = GetBackgroundCopyManager(&Manager);
  if (SUCCEEDED(hr))
  {
   IBackgroundCopyJob *Job;
 
   // Create a new download job.
-  hr = CreateDownloadJob(L"MyJob", Manager, &amp;Job);
+  hr = CreateDownloadJob(L"MyJob", Manager, &Job);
   if (SUCCEEDED(hr))
   {
    // Add files to the job.
@@ -453,7 +453,7 @@ HRESULT GetBackgroundCopyManager(__out IBackgroundCopyManager **Manager)
 HRESULT CreateDownloadJob(__in LPCWSTR Name, __in IBackgroundCopyManager *Manager, __out IBackgroundCopyJob **Job)
 {
  GUID guid;
- return Manager->CreateJob(Name, BG_JOB_TYPE_DOWNLOAD, &amp;guid, Job);
+ return Manager->CreateJob(Name, BG_JOB_TYPE_DOWNLOAD, &guid, Job);
 }
 
 /**
@@ -472,13 +472,13 @@ HRESULT MonitorJobProgress(__in IBackgroundCopyJob *Job)
  bool Exit = false;
  int ProgressCounter = 0;
 
- hr = Job->GetDisplayName(&amp;JobName);
+ hr = Job->GetDisplayName(&JobName);
  printf("Progress report for download job '%ws'.\n", JobName);
 
  // Display the download progress.
  while (!Exit)
  {
-  hr = Job->GetState(&amp;State);
+  hr = Job->GetState(&State);
 
   if (State != PreviousState)
   {
@@ -566,7 +566,7 @@ HRESULT DisplayFileHeaders(__in IBackgroundCopyJob *Job)
 
  printf("Individual file information.\n");
 
- hr = Job->EnumFiles(&amp;FileEnumerator);
+ hr = Job->EnumFiles(&FileEnumerator);
  if (FAILED(hr))
  {
   printf( "WARNING: Unable to obtain an IEnumBackgroundCopyFiles interface.\n");
@@ -576,7 +576,7 @@ HRESULT DisplayFileHeaders(__in IBackgroundCopyJob *Job)
  {
   ULONG Count;
 
-  hr = FileEnumerator->GetCount(&amp;Count);
+  hr = FileEnumerator->GetCount(&Count);
   if (FAILED(hr))
   {
    printf("WARNING: Unable to obtain a count of the number of files in the job.\n" );
@@ -588,7 +588,7 @@ HRESULT DisplayFileHeaders(__in IBackgroundCopyJob *Job)
    {
     IBackgroundCopyFile *TempFile;
 
-    hr = FileEnumerator->Next(1, &amp;TempFile, NULL);
+    hr = FileEnumerator->Next(1, &TempFile, NULL);
     if (FAILED(hr))
     {
      printf("WARNING: Unable to obtain an IBackgroundCopyFile interface for the next file in the job.\n" );
@@ -597,7 +597,7 @@ HRESULT DisplayFileHeaders(__in IBackgroundCopyJob *Job)
     else
     {
      IBackgroundCopyFile5 *File;
-     hr = TempFile->QueryInterface( __uuidof( IBackgroundCopyFile5 ), (void **) &amp;File );
+     hr = TempFile->QueryInterface( __uuidof( IBackgroundCopyFile5 ), (void **) &File );
      if (FAILED(hr))
      {
       printf("WARNING: Unable to obtain an IBackgroundCopyFile5 interface for the file.\n" );
@@ -606,7 +606,7 @@ HRESULT DisplayFileHeaders(__in IBackgroundCopyJob *Job)
      else
      {
       LPWSTR RemoteFileName;
-      hr = File->GetRemoteName(&amp;RemoteFileName);
+      hr = File->GetRemoteName(&RemoteFileName);
       if (FAILED(hr))
       {
        printf("WARNING: Unable to obtain the remote file name for this file.\n");
@@ -619,7 +619,7 @@ HRESULT DisplayFileHeaders(__in IBackgroundCopyJob *Job)
      }
 
       BITS_FILE_PROPERTY_VALUE Value;
-      hr = File->GetProperty(BITS_FILE_PROPERTY_ID_HTTP_RESPONSE_HEADERS, &amp;Value);
+      hr = File->GetProperty(BITS_FILE_PROPERTY_ID_HTTP_RESPONSE_HEADERS, &Value);
       if (FAILED(hr))
       { 
        printf("WARNING: Unable to obtain the HTTP headers for this file.\n");
@@ -660,7 +660,7 @@ VOID DisplayProgress(__in IBackgroundCopyJob *Job)
  HRESULT hr;
  BG_JOB_PROGRESS Progress;
 
- hr = Job->GetProgress(&amp;Progress);
+ hr = Job->GetProgress(&Progress);
  if (SUCCEEDED(hr))
  {
   printf("%llu of %llu bytes transferred (%lu of %lu files).\n",
@@ -688,14 +688,14 @@ VOID DisplayError(__in IBackgroundCopyJob *Job)
  IBackgroundCopyError *Error;
  LPWSTR ErrorDescription;
 
- hr = Job->GetError(&amp;Error);
+ hr = Job->GetError(&Error);
  if (FAILED(hr))
  {
   printf( "WARNING: Error details are not available.\n");
  }
  else
  {
-  hr = Error->GetErrorDescription(LANGIDFROMLCID(GetThreadLocale()), &amp;ErrorDescription);
+  hr = Error->GetErrorDescription(LANGIDFROMLCID(GetThreadLocale()), &ErrorDescription);
   if (SUCCEEDED(hr))
   {
    printf("   Error details: %ws\n", ErrorDescription); 

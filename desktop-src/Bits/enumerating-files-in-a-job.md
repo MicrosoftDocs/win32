@@ -33,20 +33,20 @@ WCHAR* pLocalFileName = NULL;
 ULONG cFileCount = 0;
 ULONG idx = 0;
 
-hr = pJob->EnumFiles(&amp;pFiles);
+hr = pJob->EnumFiles(&pFiles);
 if (SUCCEEDED(hr))
 {
   //Get the count of files in the job. 
-  pFiles->GetCount(&amp;cFileCount);
+  pFiles->GetCount(&cFileCount);
 
   //Enumerate the files in the job.
   for (idx=0; idx<cFileCount; idx++)
   {
-    hr = pFiles->Next(1, &amp;pFile, NULL);
+    hr = pFiles->Next(1, &pFile, NULL);
     if (S_OK == hr)
     {
       // Query for the latest file interface.
-      hr = pFile->QueryInterface(__uuidof(IBackgroundCopyFile3), (void**)&amp;pFile3);
+      hr = pFile->QueryInterface(__uuidof(IBackgroundCopyFile3), (void**)&pFile3);
       pFile->Release();
       if (FAILED(hr))
       {
@@ -62,7 +62,7 @@ if (SUCCEEDED(hr))
       // the validation state of the file so it can be shared with peers.
 
       //Get the local name of the file.
-      hr = pFile3->GetLocalName(&amp;pLocalFileName);
+      hr = pFile3->GetLocalName(&pLocalFileName);
       if (SUCCEEDED(hr))
       {
         //Do something with the file information.

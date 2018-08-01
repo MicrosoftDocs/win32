@@ -83,7 +83,7 @@ BYTE     bySW2;
 HRESULT  hr;
 
 // Retrieve the reply status SW2 byte.
-hr = pISCardCmd->get_ReplyStatusSW2(&amp;bySW2);
+hr = pISCardCmd->get_ReplyStatusSW2(&bySW2);
 if (FAILED(hr))
 {
   printf("Failed get_ReplyStatusSW2\n");

@@ -35,7 +35,7 @@ void _cdecl main()
   SYSTEM_INFO sSysInfo;           // useful system information
   int PFNArraySize;               // memory to request for PFN array
 
-  GetSystemInfo(&amp;sSysInfo);  // fill the system information structure
+  GetSystemInfo(&sSysInfo);  // fill the system information structure
 
   _tprintf(_T("This computer has page size %d.\n"), sSysInfo.dwPageSize);
 
@@ -69,7 +69,7 @@ void _cdecl main()
 
   NumberOfPagesInitial = NumberOfPages;
   bResult = AllocateUserPhysicalPages( GetCurrentProcess(),
-                                       &amp;NumberOfPages,
+                                       &NumberOfPages,
                                        aPFNs );
     
   if( bResult != TRUE ) 
@@ -124,7 +124,7 @@ void _cdecl main()
   // Free the physical pages.
 
   bResult = FreeUserPhysicalPages( GetCurrentProcess(),
-                                   &amp;NumberOfPages,
+                                   &NumberOfPages,
                                    aPFNs );
 
   if( bResult != TRUE ) 
@@ -204,7 +204,7 @@ LoggedSetLockPagesPrivilege ( HANDLE hProcess,
 
   Result = LookupPrivilegeValue ( NULL,
                                   SE_LOCK_MEMORY_NAME,
-                                  &amp;(Info.Privilege[0].Luid));
+                                  &(Info.Privilege[0].Luid));
 
   if( Result != TRUE ) 
   {
@@ -215,7 +215,7 @@ LoggedSetLockPagesPrivilege ( HANDLE hProcess,
   // Adjust the privilege.
 
   Result = AdjustTokenPrivileges ( Token, FALSE,
-                                   (PTOKEN_PRIVILEGES) &amp;Info,
+                                   (PTOKEN_PRIVILEGES) &Info,
                                    0, NULL, NULL);
 
   // Check the result.

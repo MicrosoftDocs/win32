@@ -44,10 +44,10 @@ HRESULT GetSDFromIDirectoryObject(
     }
  
     // Get the nTSecurityDescriptor.
-    hr = pObject->GetObjectAttributes( &amp;pAttrName, 
+    hr = pObject->GetObjectAttributes( &pAttrName, 
                                        1, 
-                                       &amp;pAttrInfo, 
-                                       &amp;dwReturn );
+                                       &pAttrInfo, 
+                                       &dwReturn );
     if((FAILED(hr)) || (dwReturn != 1)) 
     {
         wprintf(L" failed: 0x%x\n", hr);
@@ -55,7 +55,7 @@ HRESULT GetSDFromIDirectoryObject(
     }
  
     // Check the attribute name and type.
-    if((_wcsicmp(pAttrInfo->pszAttrName,L"nTSecurityDescriptor") == 0) &amp;&amp;
+    if((_wcsicmp(pAttrInfo->pszAttrName,L"nTSecurityDescriptor") == 0) &&
      (pAttrInfo->dwADsType==ADSTYPE_NT_SECURITY_DESCRIPTOR))
     {
         // Get a pointer to the security descriptor.

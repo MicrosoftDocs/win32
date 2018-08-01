@@ -46,8 +46,8 @@ BOOL ReadSlot()
  
     fResult = GetMailslotInfo( hSlot, // mailslot handle 
         (LPDWORD) NULL,               // no maximum message size 
-        &amp;cbMessage,                   // size of next message 
-        &amp;cMessage,                    // number of messages 
+        &cbMessage,                   // size of next message 
+        &cMessage,                    // number of messages 
         (LPDWORD) NULL);              // no read time-out 
  
     if (!fResult) 
@@ -85,8 +85,8 @@ BOOL ReadSlot()
         fResult = ReadFile(hSlot, 
             lpszBuffer, 
             cbMessage, 
-            &amp;cbRead, 
-            &amp;ov); 
+            &cbRead, 
+            &ov); 
  
         if (!fResult) 
         { 
@@ -109,8 +109,8 @@ BOOL ReadSlot()
  
         fResult = GetMailslotInfo(hSlot,  // mailslot handle 
             (LPDWORD) NULL,               // no maximum message size 
-            &amp;cbMessage,                   // size of next message 
-            &amp;cMessage,                    // number of messages 
+            &cbMessage,                   // size of next message 
+            &cMessage,                    // number of messages 
             (LPDWORD) NULL);              // no read time-out 
  
         if (!fResult) 

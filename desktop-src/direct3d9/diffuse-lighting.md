@@ -55,22 +55,22 @@ In this example, the object is colored using the light diffuse color and a mater
 
 ```
 D3DMATERIAL9 mtrl;
-ZeroMemory( &amp;mtrl, sizeof(mtrl) );
+ZeroMemory( &mtrl, sizeof(mtrl) );
 
 D3DLIGHT9 light;
-ZeroMemory( &amp;light, sizeof(light) );
+ZeroMemory( &light, sizeof(light) );
 light.Type = D3DLIGHT_DIRECTIONAL;
 
 D3DXVECTOR3 vecDir;
 vecDir = D3DXVECTOR3(0.5f, 0.0f, -0.5f);
-D3DXVec3Normalize( (D3DXVECTOR3*)&amp;light.Direction, &amp;vecDir );
+D3DXVec3Normalize( (D3DXVECTOR3*)&light.Direction, &vecDir );
 
 // set directional light diffuse color
 light.Diffuse.r = 1.0f;
 light.Diffuse.g = 1.0f;
 light.Diffuse.b = 1.0f;
 light.Diffuse.a = 1.0f;
-m_pd3dDevice->SetLight( 0, &amp;light );
+m_pd3dDevice->SetLight( 0, &light );
 m_pd3dDevice->LightEnable( 0, TRUE );
 
 // if a material is used, SetRenderState must be used
@@ -79,7 +79,7 @@ mtrl.Diffuse.r = 0.75f;
 mtrl.Diffuse.g = 0.0f;
 mtrl.Diffuse.b = 0.0f;
 mtrl.Diffuse.a = 0.0f;
-m_pd3dDevice->SetMaterial( &amp;mtrl );
+m_pd3dDevice->SetMaterial( &mtrl );
 m_pd3dDevice->SetRenderState(D3DRS_DIFFUSEMATERIALSOURCE, D3DMCS_MATERIAL);
 ```
 

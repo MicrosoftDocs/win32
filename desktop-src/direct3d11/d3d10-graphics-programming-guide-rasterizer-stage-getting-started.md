@@ -97,7 +97,7 @@ Use [**ID3D11Device1::CreateRasterizerState1**](/windows/desktop/api/D3D11_1/nf-
     rasterizerState.MultisampleEnable = false;
     rasterizerState.AntialiasedLineEnable = false;
     rasterizerState.ForcedSampleCount = 0;
-    pd3dDevice->CreateRasterizerState1( &amp;rasterizerState, &amp;g_pRasterState );
+    pd3dDevice->CreateRasterizerState1( &rasterizerState, &g_pRasterState );
 ```
 
 

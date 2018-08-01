@@ -52,8 +52,8 @@ Then, the code obtains the [IPersistStream](https://msdn.microsoft.com/en-us/lib
 // Declare the IPersistStream to be used for retrieving the saved data from the text ink
 CComPtr<IPersistStream *> spIPersistStream = NULL;
 // Get the actual IPersistStream interface off of the TextInk
-HRESULT hr = pITextInk->QueryInterface(IID_IPersistStream, (void **)&amp;spIPersistStream);
-ASSERT(SUCCEEDED(hr) &amp;&amp; spIPersistStream);
+HRESULT hr = pITextInk->QueryInterface(IID_IPersistStream, (void **)&spIPersistStream);
+ASSERT(SUCCEEDED(hr) && spIPersistStream);
 ```
 
 
@@ -62,10 +62,10 @@ Then, the code uses the [IPersistStream](https://msdn.microsoft.com/en-us/librar
 
 
 ```C++
-if( SUCCEEDED(hr) &amp;&amp; pIPersistStream )
+if( SUCCEEDED(hr) && pIPersistStream )
 {
     // Create the stream 
-    if( SUCCEEDED(hr=CreateStreamOnHGlobal(NULL, TRUE, &amp;spStream)) &amp;&amp; spStream )
+    if( SUCCEEDED(hr=CreateStreamOnHGlobal(NULL, TRUE, &spStream)) && spStream )
     {
         // Save the TextInk through IPersistStream Interface to the IStream
         hr = spIPersistStream->Save(spStream, FALSE);
@@ -80,7 +80,7 @@ Then, the code creates an [**InkCollector**](inkcollector-class.md) object, crea
 
 ```C++
 // Now create an InkCollector object along with InkDisp Object
-if( SUCCEEDED(hr) &amp;&amp; spStream)
+if( SUCCEEDED(hr) && spStream)
 {
     CComPtr<IInkCollector *> spIInkCollector;
     CComPtr<IInkDisp *> spIInkDisp = NULL;
@@ -89,12 +89,12 @@ if( SUCCEEDED(hr) &amp;&amp; spStream)
     hr = CoCreateInstance(CLSID_InkCollector, 
         NULL, CLSCTX_INPROC_SERVER, 
         IID_IInkCollector, 
-        (void **) &amp;spIInkCollector);
+        (void **) &spIInkCollector);
     if (FAILED(hr)) 
         return -1;
 
     // Get a pointer to the Ink object
-    hr = spIInkCollector->get_Ink(&amp;spIInkDisp);
+    hr = spIInkCollector->get_Ink(&spIInkDisp);
     if (FAILED(hr)) 
         return -1;
 
@@ -120,19 +120,19 @@ Then, the code retrieves the size of the stream and creates a safe array to hold
     ULARGE_INTEGER uli = {0,0};
 
     // Find the size of the stream
-    hr = spStream->Seek(li0, STREAM_SEEK_END, &amp;uli);
+    hr = spStream->Seek(li0, STREAM_SEEK_END, &uli);
     ASSERT(0 == uli.HighPart);
     DWORD dwSize = uli.LowPart;
 
     // Set uli to point to the beginning of the stream.
-    hr=spStream->Seek(li0, STREAM_SEEK_SET, &amp;uli);
+    hr=spStream->Seek(li0, STREAM_SEEK_SET, &uli);
     ASSERT(SUCCEEDED(hr));
 
     // Create a safe array to hold the stream contents
     if( SUCCEEDED(hr) )
     {
         VARIANT vtData;
-        VariantInit(&amp;vtData);
+        VariantInit(&vtData);
         vtData.vt = VT_ARRAY | VT_UI1;
 
         vtData.parray = ::SafeArrayCreateVector(VT_UI1, 0, dwSize);
@@ -149,11 +149,11 @@ Finally, the code accesses the safe array and uses the [**InkDisp**](inkdisp-cla
             DWORD dwRead = 0;
             LPBYTE pbData = NULL; 
 
-            if (SUCCEEDED(::SafeArrayAccessData(vtData.parray, (void**)&amp;pbData)))
+            if (SUCCEEDED(::SafeArrayAccessData(vtData.parray, (void**)&pbData)))
             {
                 // Read the data from the stream to the varian data and load that into an InkDisp object
-                if (TRUE == spStream->Read(pbData, uli.LowPart, &amp;dwRead)
-                    &amp;&amp; SUCCEEDED(spIInkDisp->Load(vtData)))
+                if (TRUE == spStream->Read(pbData, uli.LowPart, &dwRead)
+                    && SUCCEEDED(spIInkDisp->Load(vtData)))
                 {
                     hr = S_OK;
                 }

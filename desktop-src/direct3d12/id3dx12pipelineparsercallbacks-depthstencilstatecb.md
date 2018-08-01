@@ -30,7 +30,7 @@ Calls the depth stencil state subobject callback of an object that implements th
 
 ```C++
 void DepthStencilStateCb(
-  [ref] const D3D12_DEPTH_STENCIL_DESC &amp;DepthStencilState
+  [ref] const D3D12_DEPTH_STENCIL_DESC &DepthStencilState
 );
 ```
 

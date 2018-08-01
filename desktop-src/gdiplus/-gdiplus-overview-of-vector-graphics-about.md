@@ -41,7 +41,7 @@ All the drawing methods of the [**Graphics**](/windows/desktop/api/gdiplusgraphi
 
 
 ```
-myGraphics.DrawRectangle(&amp;myPen, 20, 10, 100, 50);
+myGraphics.DrawRectangle(&myPen, 20, 10, 100, 50);
 ```
 
 

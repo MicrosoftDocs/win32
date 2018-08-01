@@ -78,7 +78,7 @@ At the end of this topic, you'll find the full example code. The topic describes
         initData.SysMemSlicePitch = static_cast<UINT>( imageSize );
 
         ID3D11Texture2D* tex = nullptr;
-        hr = d3dDevice->CreateTexture2D( &amp;desc, &amp;initData, &amp;tex );
+        hr = d3dDevice->CreateTexture2D( &desc, &initData, &tex );
     
     ```
 
@@ -86,17 +86,17 @@ At the end of this topic, you'll find the full example code. The topic describes
 
 8.  Call the [**ID3D11Device::CreateShaderResourceView**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-createshaderresourceview) method to initialize a shader-resource-view object. Pass either a **NULL** shader-resource-view description (to get a view with default parameters) or a non-**NULL** shader-resource-view description (to get a view with non-default parameters). If necessary, determine the texture type by calling [**ID3D11Resource::GetType**](/windows/desktop/api/D3D11/nf-d3d11-id3d11resource-gettype) and the texture format by calling [**ID3D11ShaderResourceView::GetDesc**](/windows/desktop/api/D3D11/nf-d3d11-id3d11shaderresourceview-getdesc).
     ```C++
-        if ( SUCCEEDED(hr) &amp;&amp; tex != 0 )
+        if ( SUCCEEDED(hr) && tex != 0 )
         {
             if (textureView != 0)
             {
                 D3D11_SHADER_RESOURCE_VIEW_DESC SRVDesc;
-                memset( &amp;SRVDesc, 0, sizeof( SRVDesc ) );
+                memset( &SRVDesc, 0, sizeof( SRVDesc ) );
                 SRVDesc.Format = format;
                 SRVDesc.ViewDimension = D3D11_SRV_DIMENSION_TEXTURE2D;
                 SRVDesc.Texture2D.MipLevels = 1;
 
-                hr = d3dDevice->CreateShaderResourceView( tex, &amp;SRVDesc, textureView );
+                hr = d3dDevice->CreateShaderResourceView( tex, &SRVDesc, textureView );
                 if ( FAILED(hr) )
                 {
                     tex->Release();
@@ -218,7 +218,7 @@ Here is the full source that you can use in your app. The source implements the 
 
 #include "WICTextureLoader.h"
 
-#if (_WIN32_WINNT >= 0x0602 /*_WIN32_WINNT_WIN8*/) &amp;&amp; !defined(DXGI_1_2_FORMATS)
+#if (_WIN32_WINNT >= 0x0602 /*_WIN32_WINNT_WIN8*/) && !defined(DXGI_1_2_FORMATS)
 #define DXGI_1_2_FORMATS
 #endif
 
@@ -238,17 +238,17 @@ public:
 
     bool IsNull() const { return (!_pointer); }
 
-    T&amp; operator*() { return *_pointer; }
+    T& operator*() { return *_pointer; }
     T* operator->() { return _pointer; }
-    T** operator&amp;() { return &amp;_pointer; }
+    T** operator&() { return &_pointer; }
 
     void Reset(T *p = 0) { if ( _pointer ) { _pointer->Release(); } _pointer = p; }
 
     T* Get() const { return _pointer; }
 
 private:
-    ScopedObject(const ScopedObject&amp;);
-    ScopedObject&amp; operator=(const ScopedObject&amp;);
+    ScopedObject(const ScopedObject&);
+    ScopedObject& operator=(const ScopedObject&);
         
     T* _pointer;
 };
@@ -389,7 +389,7 @@ static IWICImagingFactory* _GetWIC()
         nullptr,
         CLSCTX_INPROC_SERVER,
         __uuidof(IWICImagingFactory),
-        (LPVOID*)&amp;s_Factory
+        (LPVOID*)&s_Factory
         );
 
     if ( FAILED(hr) )
@@ -402,11 +402,11 @@ static IWICImagingFactory* _GetWIC()
 }
 
 //---------------------------------------------------------------------------------
-static DXGI_FORMAT _WICToDXGI( const GUID&amp; guid )
+static DXGI_FORMAT _WICToDXGI( const GUID& guid )
 {
     for( size_t i=0; i < _countof(g_WICFormats); ++i )
     {
-        if ( memcmp( &amp;g_WICFormats[i].wic, &amp;guid, sizeof(GUID) ) == 0 )
+        if ( memcmp( &g_WICFormats[i].wic, &guid, sizeof(GUID) ) == 0 )
             return g_WICFormats[i].format;
     }
 
@@ -421,22 +421,22 @@ static size_t _WICBitsPerPixel( REFGUID targetGuid )
         return 0;
  
     ScopedObject<IWICComponentInfo> cinfo;
-    if ( FAILED( pWIC->CreateComponentInfo( targetGuid, &amp;cinfo ) ) )
+    if ( FAILED( pWIC->CreateComponentInfo( targetGuid, &cinfo ) ) )
         return 0;
 
     WICComponentType type;
-    if ( FAILED( cinfo->GetComponentType( &amp;type ) ) )
+    if ( FAILED( cinfo->GetComponentType( &type ) ) )
         return 0;
 
     if ( type != WICPixelFormat )
         return 0;
 
     ScopedObject<IWICPixelFormatInfo> pfinfo;
-    if ( FAILED( cinfo->QueryInterface( __uuidof(IWICPixelFormatInfo), reinterpret_cast<void**>( &amp;pfinfo )  ) ) )
+    if ( FAILED( cinfo->QueryInterface( __uuidof(IWICPixelFormatInfo), reinterpret_cast<void**>( &pfinfo )  ) ) )
         return 0;
 
     UINT bpp;
-    if ( FAILED( pfinfo->GetBitsPerPixel( &amp;bpp ) ) )
+    if ( FAILED( pfinfo->GetBitsPerPixel( &bpp ) ) )
         return 0;
 
     return bpp;
@@ -451,11 +451,11 @@ static HRESULT CreateTextureFromWIC( _In_ ID3D11Device* d3dDevice,
                                      _In_ size_t maxsize )
 {
     UINT width, height;
-    HRESULT hr = frame->GetSize( &amp;width, &amp;height );
+    HRESULT hr = frame->GetSize( &width, &height );
     if ( FAILED(hr) )
         return hr;
 
-    assert( width > 0 &amp;&amp; height > 0 );
+    assert( width > 0 && height > 0 );
 
     if ( !maxsize )
     {
@@ -501,7 +501,7 @@ static HRESULT CreateTextureFromWIC( _In_ ID3D11Device* d3dDevice,
             theight = static_cast<UINT>( maxsize );
             twidth = static_cast<UINT>( static_cast<float>(maxsize) / ar );
         }
-        assert( twidth <= maxsize &amp;&amp; theight <= maxsize );
+        assert( twidth <= maxsize && theight <= maxsize );
     }
     else
     {
@@ -511,12 +511,12 @@ static HRESULT CreateTextureFromWIC( _In_ ID3D11Device* d3dDevice,
 
     // Determine format
     WICPixelFormatGUID pixelFormat;
-    hr = frame->GetPixelFormat( &amp;pixelFormat );
+    hr = frame->GetPixelFormat( &pixelFormat );
     if ( FAILED(hr) )
         return hr;
 
     WICPixelFormatGUID convertGUID;
-    memcpy( &amp;convertGUID, &amp;pixelFormat, sizeof(WICPixelFormatGUID) );
+    memcpy( &convertGUID, &pixelFormat, sizeof(WICPixelFormatGUID) );
 
     size_t bpp = 0;
 
@@ -525,9 +525,9 @@ static HRESULT CreateTextureFromWIC( _In_ ID3D11Device* d3dDevice,
     {
         for( size_t i=0; i < _countof(g_WICConvert); ++i )
         {
-            if ( memcmp( &amp;g_WICConvert[i].source, &amp;pixelFormat, sizeof(WICPixelFormatGUID) ) == 0 )
+            if ( memcmp( &g_WICConvert[i].source, &pixelFormat, sizeof(WICPixelFormatGUID) ) == 0 )
             {
-                memcpy( &amp;convertGUID, &amp;g_WICConvert[i].target, sizeof(WICPixelFormatGUID) );
+                memcpy( &convertGUID, &g_WICConvert[i].target, sizeof(WICPixelFormatGUID) );
 
                 format = _WICToDXGI( g_WICConvert[i].target );
                 assert( format != DXGI_FORMAT_UNKNOWN );
@@ -550,11 +550,11 @@ static HRESULT CreateTextureFromWIC( _In_ ID3D11Device* d3dDevice,
     // Verify our target format is supported by the current device
     // (handles WDDM 1.0 or WDDM 1.1 device driver cases as well as DirectX 11.0 Runtime without 16bpp format support)
     UINT support = 0;
-    hr = d3dDevice->CheckFormatSupport( format, &amp;support );
+    hr = d3dDevice->CheckFormatSupport( format, &support );
     if ( FAILED(hr) || !(support & D3D11_FORMAT_SUPPORT_TEXTURE2D) )
     {
         // Fallback to RGBA 32-bit format which is supported by all devices
-        memcpy( &amp;convertGUID, &amp;GUID_WICPixelFormat32bppRGBA, sizeof(WICPixelFormatGUID) );
+        memcpy( &convertGUID, &GUID_WICPixelFormat32bppRGBA, sizeof(WICPixelFormatGUID) );
         format = DXGI_FORMAT_R8G8B8A8_UNORM;
         bpp = 32;
     }
@@ -566,9 +566,9 @@ static HRESULT CreateTextureFromWIC( _In_ ID3D11Device* d3dDevice,
     std::unique_ptr<uint8_t[]> temp( new uint8_t[ imageSize ] );
 
     // Load image data
-    if ( memcmp( &amp;convertGUID, &amp;pixelFormat, sizeof(GUID) ) == 0
-         &amp;&amp; twidth == width
-         &amp;&amp; theight == height )
+    if ( memcmp( &convertGUID, &pixelFormat, sizeof(GUID) ) == 0
+         && twidth == width
+         && theight == height )
     {
         // No format conversion or resize needed
         hr = frame->CopyPixels( 0, static_cast<UINT>( rowPitch ), static_cast<UINT>( imageSize ), temp.get() );  
@@ -583,7 +583,7 @@ static HRESULT CreateTextureFromWIC( _In_ ID3D11Device* d3dDevice,
             return E_NOINTERFACE;
 
         ScopedObject<IWICBitmapScaler> scaler;
-        hr = pWIC->CreateBitmapScaler( &amp;scaler );
+        hr = pWIC->CreateBitmapScaler( &scaler );
         if ( FAILED(hr) )
             return hr;
 
@@ -592,11 +592,11 @@ static HRESULT CreateTextureFromWIC( _In_ ID3D11Device* d3dDevice,
             return hr;
 
         WICPixelFormatGUID pfScaler;
-        hr = scaler->GetPixelFormat( &amp;pfScaler );
+        hr = scaler->GetPixelFormat( &pfScaler );
         if ( FAILED(hr) )
             return hr;
 
-        if ( memcmp( &amp;convertGUID, &amp;pfScaler, sizeof(GUID) ) == 0 )
+        if ( memcmp( &convertGUID, &pfScaler, sizeof(GUID) ) == 0 )
         {
             // No format conversion needed
             hr = scaler->CopyPixels( 0, static_cast<UINT>( rowPitch ), static_cast<UINT>( imageSize ), temp.get() );  
@@ -606,7 +606,7 @@ static HRESULT CreateTextureFromWIC( _In_ ID3D11Device* d3dDevice,
         else
         {
             ScopedObject<IWICFormatConverter> FC;
-            hr = pWIC->CreateFormatConverter( &amp;FC );
+            hr = pWIC->CreateFormatConverter( &FC );
             if ( FAILED(hr) )
                 return hr;
 
@@ -627,7 +627,7 @@ static HRESULT CreateTextureFromWIC( _In_ ID3D11Device* d3dDevice,
             return E_NOINTERFACE;
 
         ScopedObject<IWICFormatConverter> FC;
-        hr = pWIC->CreateFormatConverter( &amp;FC );
+        hr = pWIC->CreateFormatConverter( &FC );
         if ( FAILED(hr) )
             return hr;
 
@@ -642,11 +642,11 @@ static HRESULT CreateTextureFromWIC( _In_ ID3D11Device* d3dDevice,
 
     // See if format is supported for auto-gen mipmaps (varies by feature level)
     bool autogen = false;
-    if ( d3dContext != 0 &amp;&amp; textureView != 0 ) // Must have context and shader-view to auto generate mipmaps
+    if ( d3dContext != 0 && textureView != 0 ) // Must have context and shader-view to auto generate mipmaps
     {
         UINT fmtSupport = 0;
-        hr = d3dDevice->CheckFormatSupport( format, &amp;fmtSupport );
-        if ( SUCCEEDED(hr) &amp;&amp; ( fmtSupport & D3D11_FORMAT_SUPPORT_MIP_AUTOGEN ) )
+        hr = d3dDevice->CheckFormatSupport( format, &fmtSupport );
+        if ( SUCCEEDED(hr) && ( fmtSupport & D3D11_FORMAT_SUPPORT_MIP_AUTOGEN ) )
         {
             autogen = true;
         }
@@ -672,18 +672,18 @@ static HRESULT CreateTextureFromWIC( _In_ ID3D11Device* d3dDevice,
     initData.SysMemSlicePitch = static_cast<UINT>( imageSize );
 
     ID3D11Texture2D* tex = nullptr;
-    hr = d3dDevice->CreateTexture2D( &amp;desc, (autogen) ? nullptr : &amp;initData, &amp;tex );
-    if ( SUCCEEDED(hr) &amp;&amp; tex != 0 )
+    hr = d3dDevice->CreateTexture2D( &desc, (autogen) ? nullptr : &initData, &tex );
+    if ( SUCCEEDED(hr) && tex != 0 )
     {
         if (textureView != 0)
         {
             D3D11_SHADER_RESOURCE_VIEW_DESC SRVDesc;
-            memset( &amp;SRVDesc, 0, sizeof( SRVDesc ) );
+            memset( &SRVDesc, 0, sizeof( SRVDesc ) );
             SRVDesc.Format = format;
             SRVDesc.ViewDimension = D3D11_SRV_DIMENSION_TEXTURE2D;
             SRVDesc.Texture2D.MipLevels = (autogen) ? -1 : 1;
 
-            hr = d3dDevice->CreateShaderResourceView( tex, &amp;SRVDesc, textureView );
+            hr = d3dDevice->CreateShaderResourceView( tex, &SRVDesc, textureView );
             if ( FAILED(hr) )
             {
                 tex->Release();
@@ -727,7 +727,7 @@ HRESULT CreateWICTextureFromMemory( _In_ ID3D11Device* d3dDevice,
                                     _In_ size_t maxsize
                                   )
 {
-    if (!d3dDevice || !wicData || (!texture &amp;&amp; !textureView))
+    if (!d3dDevice || !wicData || (!texture && !textureView))
     {
         return E_INVALIDARG;
     }
@@ -748,7 +748,7 @@ HRESULT CreateWICTextureFromMemory( _In_ ID3D11Device* d3dDevice,
 
     // Create input stream for memory
     ScopedObject<IWICStream> stream;
-    HRESULT hr = pWIC->CreateStream( &amp;stream );
+    HRESULT hr = pWIC->CreateStream( &stream );
     if ( FAILED(hr) )
         return hr;
 
@@ -758,12 +758,12 @@ HRESULT CreateWICTextureFromMemory( _In_ ID3D11Device* d3dDevice,
 
     // Initialize WIC
     ScopedObject<IWICBitmapDecoder> decoder;
-    hr = pWIC->CreateDecoderFromStream( stream.Get(), 0, WICDecodeMetadataCacheOnDemand, &amp;decoder );
+    hr = pWIC->CreateDecoderFromStream( stream.Get(), 0, WICDecodeMetadataCacheOnDemand, &decoder );
     if ( FAILED(hr) )
         return hr;
 
     ScopedObject<IWICBitmapFrameDecode> frame;
-    hr = decoder->GetFrame( 0, &amp;frame );
+    hr = decoder->GetFrame( 0, &frame );
     if ( FAILED(hr) )
         return hr;
 
@@ -772,7 +772,7 @@ HRESULT CreateWICTextureFromMemory( _In_ ID3D11Device* d3dDevice,
         return hr;
 
 #if defined(_DEBUG) || defined(PROFILE)
-    if (texture != 0 &amp;&amp; *texture != 0)
+    if (texture != 0 && *texture != 0)
     {
         (*texture)->SetPrivateData( WKPDID_D3DDebugObjectName,
                                     sizeof("WICTextureLoader")-1,
@@ -780,7 +780,7 @@ HRESULT CreateWICTextureFromMemory( _In_ ID3D11Device* d3dDevice,
                                   );
     }
 
-    if (textureView != 0 &amp;&amp; *textureView != 0)
+    if (textureView != 0 && *textureView != 0)
     {
         (*textureView)->SetPrivateData( WKPDID_D3DDebugObjectName,
                                         sizeof("WICTextureLoader")-1,
@@ -800,7 +800,7 @@ HRESULT CreateWICTextureFromFile( _In_ ID3D11Device* d3dDevice,
                                   _Out_opt_ ID3D11ShaderResourceView** textureView,
                                   _In_ size_t maxsize )
 {
-    if (!d3dDevice || !fileName || (!texture &amp;&amp; !textureView))
+    if (!d3dDevice || !fileName || (!texture && !textureView))
     {
         return E_INVALIDARG;
     }
@@ -811,12 +811,12 @@ HRESULT CreateWICTextureFromFile( _In_ ID3D11Device* d3dDevice,
 
     // Initialize WIC
     ScopedObject<IWICBitmapDecoder> decoder;
-    HRESULT hr = pWIC->CreateDecoderFromFilename( fileName, 0, GENERIC_READ, WICDecodeMetadataCacheOnDemand, &amp;decoder );
+    HRESULT hr = pWIC->CreateDecoderFromFilename( fileName, 0, GENERIC_READ, WICDecodeMetadataCacheOnDemand, &decoder );
     if ( FAILED(hr) )
         return hr;
 
     ScopedObject<IWICBitmapFrameDecode> frame;
-    hr = decoder->GetFrame( 0, &amp;frame );
+    hr = decoder->GetFrame( 0, &frame );
     if ( FAILED(hr) )
         return hr;
 
@@ -847,7 +847,7 @@ HRESULT CreateWICTextureFromFile( _In_ ID3D11Device* d3dDevice,
             pstrName++;
         }
 
-        if (texture != 0 &amp;&amp; *texture != 0)
+        if (texture != 0 && *texture != 0)
         {
             (*texture)->SetPrivateData( WKPDID_D3DDebugObjectName,
                                         static_cast<UINT>( strnlen_s(pstrName, MAX_PATH) ),
@@ -855,7 +855,7 @@ HRESULT CreateWICTextureFromFile( _In_ ID3D11Device* d3dDevice,
                                       );
         }
 
-        if (textureView != 0 &amp;&amp; *textureView != 0 )
+        if (textureView != 0 && *textureView != 0 )
         {
             (*textureView)->SetPrivateData( WKPDID_D3DDebugObjectName,
                                             static_cast<UINT>( strnlen_s(pstrName, MAX_PATH) ),

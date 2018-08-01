@@ -70,7 +70,7 @@ HRESULT GetTopologyConnections(
     )
 {
     DWORD count;
-    HRESULT hr = pTopo->get_NumConnections(&amp;count);
+    HRESULT hr = pTopo->get_NumConnections(&count);
     if (FAILED(hr))
     {
         return hr;
@@ -91,7 +91,7 @@ HRESULT GetTopologyConnections(
         // Fill the array.
         for (DWORD ix = 0; ix < count; ix++)
         {
-            hr = pTopo->get_ConnectionInfo(ix, &amp;pConnections[ix]);
+            hr = pTopo->get_ConnectionInfo(ix, &pConnections[ix]);
             if (FAILED(hr))
             {
                 break;
@@ -126,16 +126,16 @@ HRESULT GetTopologyConnections(
 
 HRESULT IsNodeDownstreamFromNode(
     IKsTopologyInfo *pTopo,
-    const TopologyConnections&amp; connectInfo, 
+    const TopologyConnections& connectInfo, 
     DWORD nodeID,
-    const GUID&amp; nodeType,
+    const GUID& nodeType,
     bool *pIsConnected
     )
 {
     *pIsConnected = false;
     // Base case for recursion: check the source node.
     GUID type;
-    HRESULT hr = pTopo->get_NodeType(nodeID, &amp;type);
+    HRESULT hr = pTopo->get_NodeType(nodeID, &type);
     if (FAILED(hr))
     {
         return hr;
@@ -149,11 +149,11 @@ HRESULT IsNodeDownstreamFromNode(
     // If the source node is a selector, get the input node.
     CComPtr<ISelector> pSelector;
     hr = pTopo->CreateNodeInstance(nodeID, __uuidof(ISelector), 
-        (void**)&amp;pSelector);
+        (void**)&pSelector);
     if (SUCCEEDED(hr))
     {
         DWORD sourceNodeID;
-        hr = pSelector->get_SourceNodeId(&amp;sourceNodeID);
+        hr = pSelector->get_SourceNodeId(&sourceNodeID);
         if (SUCCEEDED(hr))
         {
             // Recursive call with the selector's input node.
@@ -173,7 +173,7 @@ HRESULT IsNodeDownstreamFromNode(
     // Test all of the upstream connections on this pin. 
     for (DWORD ix = 0; ix < connectInfo.count; ix++)
     {
-        if ((connectInfo.connections[ix].ToNode == nodeID) &amp;&amp;
+        if ((connectInfo.connections[ix].ToNode == nodeID) &&
             (connectInfo.connections[ix].FromNode != KSFILTER_NODE))
         {
             // FromNode is connected to the source node.
@@ -182,7 +182,7 @@ HRESULT IsNodeDownstreamFromNode(
             // Recursive call with the upstream node.
             bool bIsConnected;
             hr = IsNodeDownstreamFromNode(pTopo, connectInfo, 
-                fromNode, nodeType, &amp;bIsConnected);
+                fromNode, nodeType, &bIsConnected);
             if (FAILED(hr))
             {
                 break;
@@ -209,7 +209,7 @@ HRESULT IsNodeDownstreamFromNode(
 /////////////////////////////////////////////////////////////////////
 
 HRESULT GetNodeUpstreamFromPin(
-    const TopologyConnections&amp; connectInfo, 
+    const TopologyConnections& connectInfo, 
     UINT nPinIndex, 
     DWORD *pNodeID
     )
@@ -217,7 +217,7 @@ HRESULT GetNodeUpstreamFromPin(
     bool bFound = false;
     for (DWORD ix = 0; ix < connectInfo.count; ix++)
     {
-        if ((connectInfo.connections[ix].ToNode == KSFILTER_NODE) &amp;&amp;
+        if ((connectInfo.connections[ix].ToNode == KSFILTER_NODE) &&
             (connectInfo.connections[ix].ToNodePin == nPinIndex))
         {
             *pNodeID = connectInfo.connections[ix].FromNode;
@@ -250,7 +250,7 @@ HRESULT GetNodeUpstreamFromPin(
 HRESULT IsPinDownstreamFromNode(
     IBaseFilter *pFilter, 
     UINT nPinIndex, 
-    const GUID&amp; nodeType,
+    const GUID& nodeType,
     bool *pIsConnected
     )
 {
@@ -262,7 +262,7 @@ HRESULT IsPinDownstreamFromNode(
 
     // Get the topology connection information.
     TopologyConnections connectionInfo;
-    HRESULT hr = GetTopologyConnections(pTopo, &amp;connectionInfo);
+    HRESULT hr = GetTopologyConnections(pTopo, &connectionInfo);
     if (FAILED(hr))
     {
         return hr;
@@ -270,12 +270,12 @@ HRESULT IsPinDownstreamFromNode(
 
     // Find the node upstream from this pin.
     DWORD nodeID;
-    hr = GetNodeUpstreamFromPin(connectionInfo, nPinIndex, &amp;nodeID);
+    hr = GetNodeUpstreamFromPin(connectionInfo, nPinIndex, &nodeID);
     if (SUCCEEDED(hr))
     {
         bool isConnected;
         hr = IsNodeDownstreamFromNode(pTopo, connectionInfo, 
-            nodeID, nodeType, &amp;isConnected);
+            nodeID, nodeType, &isConnected);
         if (SUCCEEDED(hr))
         {
             *pIsConnected = isConnected;

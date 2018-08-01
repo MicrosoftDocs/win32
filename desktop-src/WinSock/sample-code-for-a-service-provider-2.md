@@ -136,8 +136,8 @@ VOID UnpackHostEnt(struct hostent * hostent)
      {
          hostent->h_name = (PCHAR)((DWORD)hostent->h_name + pch);
      }
-     FixList(&amp;hostent->h_aliases, pch);
-     FixList(&amp;hostent->h_addr_list, pch);
+     FixList(&hostent->h_aliases, pch);
+     FixList(&hostent->h_addr_list, pch);
 }
 
 //
@@ -151,7 +151,7 @@ VOID UnpackServEnt(struct servent * servent)
 
     pch = (PCHAR)servent;
 
-    FixList(&amp;servent->s_aliases, pch);
+    FixList(&servent->s_aliases, pch);
     servent->s_name = (PCHAR)(DWORD(servent->s_name) + pch);
     servent->s_proto = (PCHAR)(DWORD(servent->s_proto) + pch);
 }
@@ -193,7 +193,7 @@ Returns:
     INT ErrorCode;
     PTHREAD Thread;
 
-    ErrorCode = PROLOG(&amp;Thread);
+    ErrorCode = PROLOG(&Thread);
     if(ErrorCode != NO_ERROR)
     {
         SetLastError(ErrorCode);
@@ -221,7 +221,7 @@ Returns:
     pBlob = getxyDataEnt(pResults,
                          RNR_BUFFER_SIZE,
                          qbuf,
-                         &amp;AddressGuid,
+                         &AddressGuid,
                          0);
     if(pBlob)
     {
@@ -281,7 +281,7 @@ Returns:
 
     PDTHREAD Thread;
 
-    ErrorCode = PROLOG(&amp;Thread);
+    ErrorCode = PROLOG(&Thread);
     if(ErrorCode != NO_ERROR)
     {
         SetLastError(ErrorCode);
@@ -307,18 +307,18 @@ Returns:
 
     pResults = localResults;
 
-    pBlob = getxyDataEnt( &amp;pResults,
+    pBlob = getxyDataEnt( &pResults,
                           RNR_BUFFER_SIZE,
                           pszName,
-                          &amp;HostAddrByNameGuid,
+                          &HostAddrByNameGuid,
                           0);
-    if(pBlob &amp;&amp;
+    if(pBlob &&
          ( !name || !*name ) )
     {
-        pBlob = getxyDataEnt( &amp;pResults,
+        pBlob = getxyDataEnt( &pResults,
                               RNR_BUFFER_SIZE,
                               NULL,
-                              &amp;HostAddrByNameGuid,
+                              &HostAddrByNameGuid,
                               0);
     }
          
@@ -373,7 +373,7 @@ Returns:
     INT ErrorCode;
     PDTHREAD Thread;
 
-    ErrorCode = PROLOG(&amp;Thread);
+    ErrorCode = PROLOG(&Thread);
     if(ErrorCode != NO_ERROR)
     {
         gSetLastError(ErrorCode);
@@ -385,8 +385,8 @@ Returns:
     if(getxyDataEnt(pResults, 
                     RNR_BUFFER_SIZE, 
                     NULL, 
-                    &amp;HostNameGuid, 
-                    &amp;lpName
+                    &HostNameGuid, 
+                    &lpName
                     ))
     {
         INT iSize = strlen(lpName) + 1;
@@ -448,7 +448,7 @@ Returns:
     INT ErrorCode;
     PDTHREAD Thread;
 
-    ErrorCode = PROLOG(&amp;Thread);
+    ErrorCode = PROLOG(&Thread);
     if(ErrorCode != NO_ERROR)
     {
         SetLastError(ErrorCode);
@@ -470,7 +470,7 @@ Returns:
     pBlob =  getxyDataEnt(pResults, 
                           RNR_BUFFER_SIZE, 
                           pszTemp, 
-                          &amp;IANAGuid,
+                          &IANAGuid,
                           0
                           );
     delete pszTemp;
@@ -535,7 +535,7 @@ Returns:
     INT ErrorCode;
     PDTHREAD Thread;
 
-    ErrorCode = PROLOG(&amp;Thread);
+    ErrorCode = PROLOG(&Thread);
     if(ErrorCode != NO_ERROR)
     {
         SetLastError(ErrorCode);
@@ -553,7 +553,7 @@ Returns:
     pBlob = getxyDataEnt(pResults,
                         RNR_BUFFER_SIZE, 
                         pszTemp, 
-                        &amp;IANAGuid, 
+                        &IANAGuid, 
                         0
                         );
     delete pszTemp;
@@ -638,11 +638,11 @@ getxyDataEnt(
     pwsaq->lpServiceClassId = lpType;
     pwsaq->dwNameSpace = NS_ALL;
     pwsaq->dwNumberOfProtocols = 2;
-    pwsaq->lpafpProtocols = &amp;afp[0];
+    pwsaq->lpafpProtocols = &afp[0];
 
     err = WSALookupServiceBeginA(pwsaq,
                                  LUP_RETURN_BLOB | LUP_RETURN_NAME,
-                                 &amp;hRnR);
+                                 &hRnR);
 
     if(err == NO_ERROR)
     {
@@ -652,7 +652,7 @@ getxyDataEnt(
         err = WSALookupServiceNextA(
                                 hRnR,
                                 0,
-                                &amp;dwLength,
+                                &dwLength,
                                 pwsaq);
         //
         // if NO_ERROR was returned and a BLOB is present, this

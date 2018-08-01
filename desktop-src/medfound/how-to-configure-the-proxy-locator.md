@@ -52,12 +52,12 @@ public:
 
     STDMETHODIMP_(ULONG) AddRef()
     {
-        return InterlockedIncrement(&amp;m_cRef);
+        return InterlockedIncrement(&m_cRef);
     }
 
     STDMETHODIMP_(ULONG) Release()
     {
-        LONG cRef = InterlockedDecrement(&amp;m_cRef);
+        LONG cRef = InterlockedDecrement(&m_cRef);
         if (cRef == 0)
         {
             delete this;
@@ -75,7 +75,7 @@ public:
         //Create the property store object
         IPropertyStore *pProp = NULL;
 
-        HRESULT hr = PSCreateMemoryPropertyStore(IID_PPV_ARGS(&amp;pProp));
+        HRESULT hr = PSCreateMemoryPropertyStore(IID_PPV_ARGS(&pProp));
 
         if(SUCCEEDED(hr))
         {
@@ -99,7 +99,7 @@ public:
             hr = MFCreateProxyLocator(pszProtocol, pProp, ppProxyLocator);
         }
 
-        SafeRelease(&amp;pProp);
+        SafeRelease(&pProp);
         return hr;
     }
 };
@@ -130,7 +130,7 @@ HRESULT CreateMediaSourceWithProxyLocator(
     }
 
     // Configure the property store.
-    HRESULT hr = PSCreateMemoryPropertyStore(IID_PPV_ARGS(&amp;pConfig));
+    HRESULT hr = PSCreateMemoryPropertyStore(IID_PPV_ARGS(&pConfig));
 
     if (SUCCEEDED(hr))
     {
@@ -151,7 +151,7 @@ HRESULT CreateMediaSourceWithProxyLocator(
         hr = CreateMediaSource(pszURL, pConfig, ppSource);
     }
 
-    SafeRelease(&amp;pConfig);
+    SafeRelease(&pConfig);
     return hr;
 }
 ```

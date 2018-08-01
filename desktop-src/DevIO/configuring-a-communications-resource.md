@@ -54,12 +54,12 @@ int _tmain( int argc, TCHAR *argv[] )
    }
 
    //  Initialize the DCB structure.
-   SecureZeroMemory(&amp;dcb, sizeof(DCB));
+   SecureZeroMemory(&dcb, sizeof(DCB));
    dcb.DCBlength = sizeof(DCB);
 
    //  Build on the current configuration by first retrieving all current
    //  settings.
-   fSuccess = GetCommState(hCom, &amp;dcb);
+   fSuccess = GetCommState(hCom, &dcb);
 
    if (!fSuccess) 
    {
@@ -77,7 +77,7 @@ int _tmain( int argc, TCHAR *argv[] )
    dcb.Parity   = NOPARITY;      //  parity bit
    dcb.StopBits = ONESTOPBIT;    //  stop bit
 
-   fSuccess = SetCommState(hCom, &amp;dcb);
+   fSuccess = SetCommState(hCom, &dcb);
 
    if (!fSuccess) 
    {
@@ -87,7 +87,7 @@ int _tmain( int argc, TCHAR *argv[] )
    }
 
    //  Get the comm config again.
-   fSuccess = GetCommState(hCom, &amp;dcb);
+   fSuccess = GetCommState(hCom, &dcb);
 
    if (!fSuccess) 
    {

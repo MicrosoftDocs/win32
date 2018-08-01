@@ -46,13 +46,13 @@ To render the arm, two rendering calls are made, as shown in the following code.
 
 ```
 // Render the upper arm.
-d3dDevice->SetTransform( D3DTS_WORLD, &amp;MyArm.matWorld_Upper );
+d3dDevice->SetTransform( D3DTS_WORLD, &MyArm.matWorld_Upper );
 d3dDevice->DrawPrimitive( D3DPT_TRIANGLELIST, 0, numFaces );
 
 // Render the lower arm, updating its world matrix to articulate
 // the arm by pi/4 radians (45 degrees) at the elbow.
 MyArm.matWorld_Lower = RotateMyArm(MyArm.matWorld, pi/4);
-d3dDevice->SetTransform( D3DTS_WORLD, &amp;MyArm.matWorld_Lower );
+d3dDevice->SetTransform( D3DTS_WORLD, &MyArm.matWorld_Lower );
 d3dDevice->DrawPrimitive( D3DPT_TRIANGLELIST, 0, numFaces );
 ```
 

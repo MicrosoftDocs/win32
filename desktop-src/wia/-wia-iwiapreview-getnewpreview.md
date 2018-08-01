@@ -147,7 +147,7 @@ DownloadPreviewImage(
 
    IWiaTransferCallback *pAppWiaTransferCallback = NULL;
 
-   hr = CheckImgFilter(pWiaFlatbedItem2, &amp;bHasImgFilter)
+   hr = CheckImgFilter(pWiaFlatbedItem2, &bHasImgFilter)
 
    if (SUCCEEDED(hr))
    {
@@ -182,7 +182,7 @@ DownloadPreviewImage(
          // the successful return of GetNewPreview.
          // The stream is passed into the segmentation filter
          // for region detection.
-         if (SUCCEEDED(hr) &amp;&amp; m_bUseSegmentationFilter)
+         if (SUCCEEDED(hr) && m_bUseSegmentationFilter)
          {
             DetectSubregions(m_FlatbedPreviewStream, pWiaFlatbedItem2);
          }

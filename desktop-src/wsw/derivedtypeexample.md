@@ -54,7 +54,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -62,7 +62,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -129,7 +129,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -141,7 +141,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -152,7 +152,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateReader(
         NULL,
         0, 
-        &amp;xmlReader, 
+        &xmlReader, 
         error);
     if (FAILED(hr))
     {
@@ -162,7 +162,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateWriter(
         NULL, 
         0, 
-        &amp;xmlWriter, 
+        &xmlWriter, 
         error);
     if (FAILED(hr))
     {
@@ -173,7 +173,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         heap, 
         NULL, 
         0, 
-        &amp;xmlBuffer, 
+        &xmlBuffer, 
         error);
     if (FAILED(hr))
     {
@@ -196,8 +196,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsWriteStartElement(
         xmlWriter,
         NULL,
-        &amp;dataElement,
-        &amp;emptyNamespace,
+        &dataElement,
+        &emptyNamespace,
         error);
     if (FAILED(hr))
     {
@@ -224,7 +224,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // indicating this is the base type.
     hr = WsWriteElement(
         xmlWriter,
-        &amp;DerivedType_xsd.globalElements.PayloadBase, 
+        &DerivedType_xsd.globalElements.PayloadBase, 
         WS_WRITE_REQUIRED_VALUE,
         baseType, 
         sizeof(PayloadBaseType), 
@@ -239,7 +239,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // indicating this is the derived type.
     hr = WsWriteElement(
         xmlWriter,
-        &amp;DerivedType_xsd.globalElements.PayloadBase, 
+        &DerivedType_xsd.globalElements.PayloadBase, 
         WS_WRITE_REQUIRED_VALUE,
         payload1Type, 
         sizeof(Payload1Type), 
@@ -274,8 +274,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // Read pass the wrapper element
     hr = WsReadToStartElement(
         xmlReader,
-        &amp;dataElement,
-        &amp;emptyNamespace,
+        &dataElement,
+        &emptyNamespace,
         NULL,
         error);
     if (FAILED(hr))
@@ -298,10 +298,10 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // type. The type of returning structure is that of that base type.
     hr = WsReadElement(
         xmlReader,
-        &amp;DerivedType_xsd.globalElements.PayloadBase, 
+        &DerivedType_xsd.globalElements.PayloadBase, 
         WS_READ_REQUIRED_POINTER,
         heap,
-        &amp;outBaseType,
+        &outBaseType,
         sizeof(PayloadBaseType*),
         error);
     if (FAILED(hr))
@@ -314,10 +314,10 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // type. The type of returning structure is that of the derived type.
     hr = WsReadElement(
         xmlReader,
-        &amp;DerivedType_xsd.globalElements.PayloadBase, 
+        &DerivedType_xsd.globalElements.PayloadBase, 
         WS_READ_REQUIRED_POINTER,
         heap,
-        &amp;outBaseType,
+        &outBaseType,
         sizeof(PayloadBaseType*),
         error);
     if (FAILED(hr))

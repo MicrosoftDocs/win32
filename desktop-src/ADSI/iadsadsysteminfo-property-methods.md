@@ -296,28 +296,28 @@ int main()
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_IADsADSystemInfo,
-                          (void**)&amp;pSys);
+                          (void**)&pSys);
  
    BSTR bstr;
-   hr = pSys->get_UserName(&amp;bstr);
+   hr = pSys->get_UserName(&bstr);
    if (SUCCEEDED(hr)) {
       printf("User: %S\n", bstr);
       SysFreeString(bstr);
    }
  
-   hr = pSys->get_ComputerName(&amp;bstr);
+   hr = pSys->get_ComputerName(&bstr);
    if (SUCCEEDED(hr)) {
       printf("Computer: %S\n", bstr);
       SysFreeString(bstr);
    }
  
-   hr = pSys->get_DomainDNSName(&amp;bstr);
+   hr = pSys->get_DomainDNSName(&bstr);
    if (SUCCEEDED(hr)) {
       printf("Domain: %S\n", bstr);
       SysFreeString(bstr);
    }
  
-   hr = pSys->get_PDCRoleOwner(&amp;bstr);
+   hr = pSys->get_PDCRoleOwner(&bstr);
    if (SUCCEEDED(hr)) {
       printf("PDC Role owner: %S\n", bstr);
       SysFreeString(bstr);

@@ -231,7 +231,7 @@ Thank you again for joining in our commitment to delivering great customer exper
 </tr>
 <tr class="even">
 <td>Compatibility and resiliency</td>
-<td>Crashes &amp; hangs are a major disruption to users and cause frustration. Apps are expected to be resilient and stable, eliminating such failures helps ensure that software is more predictable, maintainable, performant and trustworthy.<br/> User facing app entry point must be manifested for compatibility, as well as declaring the right GUID. <br/> User facing app entry points must be manifested for HIGH-DPI awareness and that the proper APIs are being called to support HIGH-DPI.<br/> For more information see:
+<td>Crashes & hangs are a major disruption to users and cause frustration. Apps are expected to be resilient and stable, eliminating such failures helps ensure that software is more predictable, maintainable, performant and trustworthy.<br/> User facing app entry point must be manifested for compatibility, as well as declaring the right GUID. <br/> User facing app entry points must be manifested for HIGH-DPI awareness and that the proper APIs are being called to support HIGH-DPI.<br/> For more information see:
 <ul>
 <li>[AppInit DLLs](https://support.microsoft.com/kb/197571)</li>
 <li>[App (executable) manifest](https://msdn.microsoft.com/library/hh848036.aspx)</li>

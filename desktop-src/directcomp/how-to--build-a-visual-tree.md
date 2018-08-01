@@ -88,12 +88,12 @@ Use the [**IDCompositionDevice::CreateVisual**](https://msdn.microsoft.com/en-us
     // Create a visual objects and set their content.   
     for (int i = 0; i &lt; NUM_VISUALS; i++)
     {
-        hr = m_pDevice-&gt;CreateVisual(&amp;pVisuals[i]); 
+        hr = m_pDevice-&gt;CreateVisual(&pVisuals[i]); 
         if (SUCCEEDED(hr))
         {
             // This application-defined function creates a DirectComposition
             // surface and renders a GDI bitmap onto the surface. 
-            hr = MyCreateGDIRenderedDCompSurface(m_hBitmaps[i], &amp;pSurface);
+            hr = MyCreateGDIRenderedDCompSurface(m_hBitmaps[i], &pSurface);
 
             if (SUCCEEDED(hr))
             {
@@ -101,7 +101,7 @@ Use the [**IDCompositionDevice::CreateVisual**](https://msdn.microsoft.com/en-us
                 hr = pVisuals[i]-&gt;SetContent(pSurface);
             }
 
-            SafeRelease(&amp;pSurface);
+            SafeRelease(&pSurface);
         }
 
         if (FAILED(hr))
@@ -146,7 +146,7 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap, IDCompositionS
     if (SUCCEEDED(hr))
     {
         // Get information about the bitmap.
-        bmpSize = GetObject(hBitmap, sizeof(BITMAP), &amp;bmp);
+        bmpSize = GetObject(hBitmap, sizeof(BITMAP), &bmp);
     }
 
     hr = bmpSize ? S_OK : E_FAIL;
@@ -166,12 +166,12 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap, IDCompositionS
     if (SUCCEEDED(hr)) 
     {
         hr = (*ppSurface)->BeginDraw(NULL, __uuidof(IDXGISurface1), 
-            reinterpret_cast<void**>(&amp;pDXGISurface), &amp;pointOffset);
+            reinterpret_cast<void**>(&pDXGISurface), &pointOffset);
     }
 
     if (SUCCEEDED(hr)) 
     {
-        pDXGISurface->GetDC(FALSE, &amp;hSurfaceDC);
+        pDXGISurface->GetDC(FALSE, &hSurfaceDC);
     }
 
     hr = hSurfaceDC ? S_OK : E_FAIL;
@@ -196,7 +196,7 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap, IDCompositionS
 
     (*ppSurface)->EndDraw();
 
-    SafeRelease(&amp;pDXGISurface);
+    SafeRelease(&pDXGISurface);
 
     return hr;
 }
@@ -262,7 +262,7 @@ Cleanup:
     // Free the visuals.
     for (int i = 0; i < NUM_VISUALS; i++) 
     {
-        SafeRelease(&amp;pVisuals[i]);
+        SafeRelease(&pVisuals[i]);
     }
 ```
 
@@ -272,9 +272,9 @@ Also, remember to free the device and composition target objects before your app
 
 
 ```C++
-    SafeRelease(&amp;m_pD3D11Device);
-    SafeRelease(&amp;m_pDevice);
-    SafeRelease(&amp;m_pCompTarget);
+    SafeRelease(&m_pD3D11Device);
+    SafeRelease(&m_pDevice);
+    SafeRelease(&m_pCompTarget);
 ```
 
 
@@ -345,7 +345,7 @@ SafeRelease(
 
 #ifndef HINST_THISCOMPONENT
 EXTERN_C IMAGE_DOS_HEADER __ImageBase;
-#define HINST_THISCOMPONENT ((HINSTANCE)&amp;__ImageBase)
+#define HINST_THISCOMPONENT ((HINSTANCE)&__ImageBase)
 #endif
 
 // Application-defined constants
@@ -379,7 +379,7 @@ private:
 
     HRESULT DemoApp::LoadResourceGDIBitmap(
         PCWSTR resourceName, 
-        HBITMAP &amp;hbmp
+        HBITMAP &hbmp
         );
     HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap, IDCompositionSurface **ppSurface);
 
@@ -485,9 +485,9 @@ DemoApp::DemoApp() :
 
 DemoApp::~DemoApp()
 {
-    SafeRelease(&amp;m_pD3D11Device);
-    SafeRelease(&amp;m_pDevice);
-    SafeRelease(&amp;m_pCompTarget);
+    SafeRelease(&m_pD3D11Device);
+    SafeRelease(&m_pDevice);
+    SafeRelease(&m_pCompTarget);
 }
 
 /*******************************************************************
@@ -512,7 +512,7 @@ HRESULT DemoApp::Initialize()
     wcex.hCursor       = LoadCursor(NULL, IDC_ARROW);
     wcex.lpszClassName = L&quot;DirectCompDemoApp&quot;;
 
-    RegisterClassEx(&amp;wcex);
+    RegisterClassEx(&wcex);
 
     // Create the application window.
     //
@@ -585,31 +585,31 @@ HRESULT DemoApp::InitializeDirectCompositionDevice()
         NULL,
         0,
         D3D11_SDK_VERSION,
-        &amp;m_pD3D11Device,
-        &amp;featureLevelSupported,
+        &m_pD3D11Device,
+        &featureLevelSupported,
         NULL);
 
     hr = (m_pD3D11Device == nullptr) ? E_UNEXPECTED : S_OK;
     if (SUCCEEDED(hr))
     {
         // Create the DXGI device used to create bitmap surfaces.
-        hr = m_pD3D11Device-&gt;QueryInterface(&amp;pDXGIDevice);
+        hr = m_pD3D11Device-&gt;QueryInterface(&pDXGIDevice);
     }
 
     if (SUCCEEDED(hr))
     {
         // Create the DirectComposition device object.
         hr = DCompositionCreateDevice(pDXGIDevice, __uuidof(IDCompositionDevice), 
-            reinterpret_cast&lt;void **&gt;(&amp;m_pDevice));
+            reinterpret_cast&lt;void **&gt;(&m_pDevice));
     }
 
     if (SUCCEEDED(hr))
     {
         // Create the composition target object.
-        hr = m_pDevice-&gt;CreateTargetForHwnd(m_hwnd, TRUE, &amp;m_pCompTarget);   
+        hr = m_pDevice-&gt;CreateTargetForHwnd(m_hwnd, TRUE, &m_pCompTarget);   
     }
 
-    SafeRelease(&amp;pDXGIDevice);
+    SafeRelease(&pDXGIDevice);
     return hr;
 }
 
@@ -657,10 +657,10 @@ void DemoApp::RunMessageLoop()
 {
     MSG msg;
 
-    while (GetMessage(&amp;msg, NULL, 0, 0))
+    while (GetMessage(&msg, NULL, 0, 0))
     {
-        TranslateMessage(&amp;msg);
-        DispatchMessage(&amp;msg);
+        TranslateMessage(&msg);
+        DispatchMessage(&msg);
     }
 }
 
@@ -681,12 +681,12 @@ HRESULT DemoApp::OnClientClick()
     // Create a visual objects and set their content.   
     for (int i = 0; i &lt; NUM_VISUALS; i++)
     {
-        hr = m_pDevice-&gt;CreateVisual(&amp;pVisuals[i]); 
+        hr = m_pDevice-&gt;CreateVisual(&pVisuals[i]); 
         if (SUCCEEDED(hr))
         {
             // This application-defined function creates a DirectComposition
             // surface and renders a GDI bitmap onto the surface. 
-            hr = MyCreateGDIRenderedDCompSurface(m_hBitmaps[i], &amp;pSurface);
+            hr = MyCreateGDIRenderedDCompSurface(m_hBitmaps[i], &pSurface);
 
             if (SUCCEEDED(hr))
             {
@@ -694,7 +694,7 @@ HRESULT DemoApp::OnClientClick()
                 hr = pVisuals[i]-&gt;SetContent(pSurface);
             }
 
-            SafeRelease(&amp;pSurface);
+            SafeRelease(&pSurface);
         }
 
         if (FAILED(hr))
@@ -737,7 +737,7 @@ Cleanup:
     // Free the visuals.
     for (int i = 0; i &lt; NUM_VISUALS; i++) 
     {
-        SafeRelease(&amp;pVisuals[i]);
+        SafeRelease(&pVisuals[i]);
     }
 
     return hr;
@@ -822,7 +822,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
 *                                                                 *
 ******************************************************************/
 
-HRESULT DemoApp::LoadResourceGDIBitmap(PCWSTR resourceName, HBITMAP &amp;hbmp)
+HRESULT DemoApp::LoadResourceGDIBitmap(PCWSTR resourceName, HBITMAP &hbmp)
 {
     // Load the bitmap from the application resources.
     hbmp = static_cast&lt;HBITMAP&gt;(LoadImageW(HINST_THISCOMPONENT, resourceName, 
@@ -858,7 +858,7 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap, IDCompositionS
     if (SUCCEEDED(hr))
     {
         // Get information about the bitmap.
-        bmpSize = GetObject(hBitmap, sizeof(BITMAP), &amp;bmp);
+        bmpSize = GetObject(hBitmap, sizeof(BITMAP), &bmp);
     }
 
     hr = bmpSize ? S_OK : E_FAIL;
@@ -878,12 +878,12 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap, IDCompositionS
     if (SUCCEEDED(hr)) 
     {
         hr = (*ppSurface)-&gt;BeginDraw(NULL, __uuidof(IDXGISurface1), 
-            reinterpret_cast&lt;void**&gt;(&amp;pDXGISurface), &amp;pointOffset);
+            reinterpret_cast&lt;void**&gt;(&pDXGISurface), &pointOffset);
     }
 
     if (SUCCEEDED(hr)) 
     {
-        pDXGISurface-&gt;GetDC(FALSE, &amp;hSurfaceDC);
+        pDXGISurface-&gt;GetDC(FALSE, &hSurfaceDC);
     }
 
     hr = hSurfaceDC ? S_OK : E_FAIL;
@@ -908,7 +908,7 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap, IDCompositionS
 
     (*ppSurface)-&gt;EndDraw();
 
-    SafeRelease(&amp;pDXGISurface);
+    SafeRelease(&pDXGISurface);
 
     return hr;
 }</code></pre></td>

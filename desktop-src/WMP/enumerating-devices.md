@@ -43,14 +43,14 @@ STDMETHODIMP CMainDlg::EnumDevices(BOOL bConnectedOnly)
     FreeDeviceArray();
 
     // Retrieve a pointer to IWMPSyncServices.
-    hr = m_spPlayer->QueryInterface(&amp;spSyncServices);
+    hr = m_spPlayer->QueryInterface(&spSyncServices);
 
-    if(SUCCEEDED(hr) &amp;&amp; spSyncServices.p)
+    if(SUCCEEDED(hr) && spSyncServices.p)
     {  
-        hr = spSyncServices->get_deviceCount(&amp;cAllDevices);
+        hr = spSyncServices->get_deviceCount(&cAllDevices);
     }
 
-    if(SUCCEEDED(hr) &amp;&amp; cAllDevices > 0)
+    if(SUCCEEDED(hr) && cAllDevices > 0)
     {
         if(bConnectedOnly)
         {
@@ -58,11 +58,11 @@ STDMETHODIMP CMainDlg::EnumDevices(BOOL bConnectedOnly)
             for(long i = 0; i < cAllDevices; i++)
             {     
                 spTempDevice.Release();
-                hr = spSyncServices->getDevice(i, &amp;spTempDevice);
+                hr = spSyncServices->getDevice(i, &spTempDevice);
 
-                if(SUCCEEDED(hr) &amp;&amp; spTempDevice.p)
+                if(SUCCEEDED(hr) && spTempDevice.p)
                 {
-                    spTempDevice->get_connected(&amp;vbIsConnected);
+                    spTempDevice->get_connected(&vbIsConnected);
 
                     if(vbIsConnected == VARIANT_TRUE)
                     {
@@ -98,16 +98,16 @@ STDMETHODIMP CMainDlg::EnumDevices(BOOL bConnectedOnly)
         for(long i = 0; i < cAllDevices; i++)
         {
             spTempDevice.Release();
-            hr = spSyncServices->getDevice(i, &amp;spTempDevice);
-            if(SUCCEEDED(hr) &amp;&amp; spTempDevice.p)
+            hr = spSyncServices->getDevice(i, &spTempDevice);
+            if(SUCCEEDED(hr) && spTempDevice.p)
             {
-                spTempDevice->get_connected(&amp;vbIsConnected);
+                spTempDevice->get_connected(&vbIsConnected);
 
-                if( (bConnectedOnly &amp;&amp; vbIsConnected == VARIANT_TRUE) ||
+                if( (bConnectedOnly && vbIsConnected == VARIANT_TRUE) ||
                      !bConnectedOnly )
                 {
                     // Add the device to the custom array.
-                    spTempDevice.CopyTo(&amp;m_ppWMPDevices[cDeviceIndex++]);
+                    spTempDevice.CopyTo(&m_ppWMPDevices[cDeviceIndex++]);
                 }
             }
         }

@@ -32,7 +32,7 @@ CComBSTR bstrItem;
 HRESULT hr = bstrItem.Append("Burn");
 if (SUCCEEDED(hr))
 {
-    hr = m_spCdromBurn->isAvailable(bstrItem, &amp;vbResult);
+    hr = m_spCdromBurn->isAvailable(bstrItem, &vbResult);
 }
 if (SUCCEEDED(hr))
 {

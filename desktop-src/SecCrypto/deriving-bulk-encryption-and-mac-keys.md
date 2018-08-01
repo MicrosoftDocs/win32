@@ -51,7 +51,7 @@ switch(<protocol being used>)
         CryptSetKeyParam(
                    hMasterKey, 
                    KP_CLEAR_KEY, 
-                   (PBYTE)&amp;Data, 
+                   (PBYTE)&Data, 
                    0);
 
 //------------------------------------------------------------
@@ -62,7 +62,7 @@ switch(<protocol being used>)
         CryptSetKeyParam(
                     hMasterKey, 
                     KP_CLIENT_RANDOM, 
-                    (PBYTE)&amp;Data, 
+                    (PBYTE)&Data, 
                     0);
 
 //------------------------------------------------------------
@@ -73,7 +73,7 @@ switch(<protocol being used>)
         CryptSetKeyParam(
                     hMasterKey, 
                     KP_SERVER_RANDOM, 
-                    (PBYTE)&amp;Data, 
+                    (PBYTE)&Data, 
                     0);
 
 //------------------------------------------------------------
@@ -83,7 +83,7 @@ switch(<protocol being used>)
         CryptSetKeyParam(
                     hMasterKey, 
                     KP_CERTIFICATE, 
-                    (PBYTE)&amp;Data, 
+                    (PBYTE)&Data, 
                     0);
         break;
 
@@ -97,7 +97,7 @@ switch(<protocol being used>)
         CryptSetKeyParam(
                  hMasterKey, 
                  KP_CLEAR_KEY, 
-                 (PBYTE)&amp;Data, 
+                 (PBYTE)&Data, 
                  0);
 
 //------------------------------------------------------------
@@ -108,7 +108,7 @@ switch(<protocol being used>)
         CryptSetKeyParam(
                  hMasterKey, 
                  KP_CLIENT_RANDOM,
-                 (BYTE*)&amp;Data, 
+                 (BYTE*)&Data, 
                  0);
 
 //------------------------------------------------------------
@@ -119,7 +119,7 @@ switch(<protocol being used>)
         CryptSetKeyParam(
                    hMasterKey, 
                    KP_SERVER_RANDOM,
-                   (BYTE*)&amp;Data, 
+                   (BYTE*)&Data, 
                    0);
         break;
 
@@ -135,7 +135,7 @@ case <TLS 1.0>:
         CryptSetKeyParam(
                 hMasterKey, 
                 KP_CLIENT_RANDOM, 
-                (PBYTE)&amp;Data, 
+                (PBYTE)&Data, 
                  0);
 
 //------------------------------------------------------------
@@ -146,7 +146,7 @@ case <TLS 1.0>:
         CryptSetKeyParam(
                   hMasterKey, 
                   KP_SERVER_RANDOM, 
-                  (PBYTE)&amp;Data, 
+                  (PBYTE)&Data, 
                   0);
 }
 
@@ -158,7 +158,7 @@ CryptCreateHash(
             CALG_SCHANNEL_MASTER_HASH,
             hMasterKey, 
             0, 
-            &amp;hMasterHash);
+            &hMasterHash);
 
 //------------------------------------------------------------
 // Derive read key from the master hash object.
@@ -167,7 +167,7 @@ CryptDeriveKey(hProv,
                CALG_SCHANNEL_ENC_KEY, 
                hMasterHash,
                fClient ? CRYPT_SERVER : 0,
-               &amp;hReadKey);
+               &hReadKey);
 
 //------------------------------------------------------------
 // Derive write key from the master hash object.
@@ -177,7 +177,7 @@ CryptDeriveKey(
            CALG_SCHANNEL_ENC_KEY,
            hMasterHash,
            fClient ? 0 : CRYPT_SERVER,
-           &amp;hWriteKey);
+           &hWriteKey);
 
 if(<protocol being used> != <SSL 2.0>)   // for SSL 2.0, the master 
                                          // key is also the MAC.
@@ -190,7 +190,7 @@ if(<protocol being used> != <SSL 2.0>)   // for SSL 2.0, the master
               CALG_SCHANNEL_MAC_KEY,
               hMasterHash,
               fClient ? CRYPT_SERVER : 0,
-              &amp;hReadMAC);
+              &hReadMAC);
 
 //------------------------------------------------------------
 // Derive write MAC from the master hash object.
@@ -200,7 +200,7 @@ if(<protocol being used> != <SSL 2.0>)   // for SSL 2.0, the master
              CALG_SCHANNEL_MAC_KEY,
              hMasterHash,
              fClient ? 0 : CRYPT_SERVER,
-             &amp;hWriteMAC);
+             &hWriteMAC);
 }
 
 CryptDestroyHash(hMasterHash);

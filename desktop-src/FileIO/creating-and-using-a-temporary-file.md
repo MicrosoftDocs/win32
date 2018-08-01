@@ -145,7 +145,7 @@ int _tmain(int argc, TCHAR *argv[])
     //  file. 
     do 
     {
-        if (ReadFile(hFile, chBuffer, BUFSIZE, &amp;dwBytesRead, NULL)) 
+        if (ReadFile(hFile, chBuffer, BUFSIZE, &dwBytesRead, NULL)) 
         {
             //  Replaces lower case letters with upper case
             //  in place (using the same buffer). The return
@@ -156,7 +156,7 @@ int _tmain(int argc, TCHAR *argv[])
             fSuccess = WriteFile(hTempFile, 
                                  chBuffer, 
                                  dwBytesRead,
-                                 &amp;dwBytesWritten, 
+                                 &dwBytesWritten, 
                                  NULL); 
             if (!fSuccess) 
             {
@@ -214,7 +214,7 @@ LPCTSTR ErrorMessage(DWORD error)
                   NULL,
                   error,
                   MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
-                  (LPTSTR) &amp;lpMsgBuf,
+                  (LPTSTR) &lpMsgBuf,
                   0,
                   NULL);
 

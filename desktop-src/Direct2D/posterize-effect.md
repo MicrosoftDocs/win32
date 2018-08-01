@@ -30,7 +30,7 @@ The CLSID for this effect is CLSID\_D2D1Posterize.
 
 ```C++
 ComPtr<ID2D1Effect> posterizeEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Posterize, &amp;posterizeEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Posterize, &posterizeEffect);
  
 posterizeEffect->SetInput(0, bitmap);
 posterizeEffect->SetValue(D2D1_POSTERIZE_PROP_RED_VALUE_COUNT, 4);

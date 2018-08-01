@@ -37,7 +37,7 @@ D3DXMATRIX out;
 D3DXVECTOR3 eye(2,3,3);
 D3DXVECTOR3 at(0,0,0);
 D3DXVECTOR3 up(0,1,0);
-D3DXMatrixLookAtLH(&amp;out, &amp;eye, &amp;at, &amp;up);
+D3DXMatrixLookAtLH(&out, &eye, &at, &up);
 ```
 
 

@@ -45,7 +45,7 @@ To add a text layout you must do the following:
     if (SUCCEEDED(hr))
     {
         RECT rect;
-        GetClientRect(hwnd_, &amp;rect); 
+        GetClientRect(hwnd_, &rect); 
         float width  = rect.right  / dpiScaleX_;
         float height = rect.bottom / dpiScaleY_;
 
@@ -55,7 +55,7 @@ To add a text layout you must do the following:
             pTextFormat_,  // The text format to apply to the string (contains font information, etc).
             width,         // The width of the layout box.
             height,        // The height of the layout box.
-            &amp;pTextLayout_  // The IDWriteTextLayout interface pointer.
+            &pTextLayout_  // The IDWriteTextLayout interface pointer.
             );
     }
     
@@ -150,9 +150,9 @@ Add the following to the **OnClick** method that you defined in Step 2.
     pTextLayout_->HitTestPoint(
                     (FLOAT)x, 
                     (FLOAT)y,
-                    &amp;isTrailingHit,
-                    &amp;isInside,
-                    &amp;hitTestMetrics
+                    &isTrailingHit,
+                    &isInside,
+                    &hitTestMetrics
                     );
     ```
 
@@ -170,7 +170,7 @@ if (isInside == TRUE)
 {
     BOOL underline;
 
-    pTextLayout_->GetUnderline(hitTestMetrics.textPosition, &amp;underline);
+    pTextLayout_->GetUnderline(hitTestMetrics.textPosition, &underline);
 
     DWRITE_TEXT_RANGE textRange = {hitTestMetrics.textPosition, 1};
 

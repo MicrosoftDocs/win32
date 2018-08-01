@@ -67,7 +67,7 @@ USER_INFO_1003 usriSetPassword;
 //
 usriSetPassword.usri1003_password = PASSWORD;
     
-netRet = NetUserSetInfo( SERVER, USERNAME, 1003, (LPBYTE)&amp;usriSetPassword, NULL );
+netRet = NetUserSetInfo( SERVER, USERNAME, 1003, (LPBYTE)&usriSetPassword, NULL );
 
 if( netRet == NERR_Success ) 
     printf("Success with level 1003!\n");
@@ -91,7 +91,7 @@ USER_INFO_1005 usriPriv;
 //
 usriPriv.usri1005_priv = USER_PRIV_USER;
 
-netRet = NetUserSetInfo( SERVER, USERNAME, 1005, (LPBYTE)&amp;usriPriv, NULL );
+netRet = NetUserSetInfo( SERVER, USERNAME, 1005, (LPBYTE)&usriPriv, NULL );
 
 if( netRet == NERR_Success ) 
     printf("Success with level 1005!\n");
@@ -116,7 +116,7 @@ USER_INFO_1006 usriHomeDir;
 //
 usriHomeDir.usri1006_home_dir = HOMEDIR;
 
-netRet = NetUserSetInfo( SERVER, USERNAME, 1006, (LPBYTE)&amp;usriHomeDir, NULL );
+netRet = NetUserSetInfo( SERVER, USERNAME, 1006, (LPBYTE)&usriHomeDir, NULL );
 
 if( netRet == NERR_Success ) 
     printf("Success with level 1006!\n");
@@ -141,7 +141,7 @@ USER_INFO_1007 usriComment;
 //
 usriComment.usri1007_comment = COMMENT;
 
-netRet = NetUserSetInfo( SERVER, USERNAME, 1007, (LPBYTE)&amp;usriComment, NULL );
+netRet = NetUserSetInfo( SERVER, USERNAME, 1007, (LPBYTE)&usriComment, NULL );
 
 if( netRet == NERR_Success )
     printf("Success with level 1007!\n");
@@ -167,7 +167,7 @@ USER_INFO_1008 usriFlags;
 // SERVER and USERNAME can be hard-coded strings or pointers to Unicode strings.
 //
 usriFlags.usri1008_flags = USR_FLAGS;
-netRet = NetUserSetInfo( SERVER, USERNAME, 1008, (LPBYTE)&amp;usriFlags, NULL );
+netRet = NetUserSetInfo( SERVER, USERNAME, 1008, (LPBYTE)&usriFlags, NULL );
 if( netRet == NERR_Success ) 
     printf("Success with level 1008!\n");
 else 
@@ -190,7 +190,7 @@ USER_INFO_1009 usriScrPath;
 // SERVER and USERNAME can be hard-coded strings or pointers to Unicode strings.
 //
 usriScrPath.usri1009_script_path = SCRIPT_PATH;
-netRet = NetUserSetInfo( SERVER, USERNAME, 1009, (LPBYTE)&amp;usriScrPath, NULL );
+netRet = NetUserSetInfo( SERVER, USERNAME, 1009, (LPBYTE)&usriScrPath, NULL );
 if( netRet == NERR_Success ) 
     printf("Success with level 1009!\n");
 else 
@@ -213,7 +213,7 @@ USER_INFO_1010 usriAuthFlags;
 // SERVER and USERNAME can be hard-coded strings or pointers to Unicode strings.
 //
 usriAuthFlags.usri1010_auth_flags = AUTHORITY_FLAGS;
-netRet = NetUserSetInfo( SERVER, USERNAME, 1010, (LPBYTE)&amp;usriAuthFlags, NULL);
+netRet = NetUserSetInfo( SERVER, USERNAME, 1010, (LPBYTE)&usriAuthFlags, NULL);
 if( netRet == NERR_Success )
     printf("Success with level 1010!\n");
 else
@@ -236,7 +236,7 @@ USER_INFO_1011 usriFullName;
 // SERVER and USERNAME can be hard-coded strings or pointers to Unicode strings.
 //
 usriFullName.usri1011_full_name = USER_FULL_NAME;
-netRet = NetUserSetInfo( SERVER, USERNAME, 1011, (LPBYTE)&amp;usriFullName, NULL);
+netRet = NetUserSetInfo( SERVER, USERNAME, 1011, (LPBYTE)&usriFullName, NULL);
 if( netRet == NERR_Success ) 
     printf("Success with level 1011!\n");
 else 

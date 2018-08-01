@@ -50,7 +50,7 @@ if(FAILED(hr))
 }
 IconData.uTimeout = 15000; // in milliseconds
 
-Shell_NotifyIcon(NIM_MODIFY, &amp;IconData);
+Shell_NotifyIcon(NIM_MODIFY, &IconData);
             
 ```
 

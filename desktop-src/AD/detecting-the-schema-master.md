@@ -71,10 +71,10 @@ hr = ADsOpenObject(L"LDAP://rootDSE",
          NULL,
          ADS_SECURE_AUTHENTICATION, // Use Secure Authentication.
          IID_IADs,
-         (void**)&amp;pObject);
+         (void**)&pObject);
 if (hr == S_OK)
 {
-  hr = pObject->Get(CComBSTR("schemaNamingContext"), &amp;var);
+  hr = pObject->Get(CComBSTR("schemaNamingContext"), &var);
   if (hr == S_OK)
   {
     wcscpy_s(szPath,L"LDAP://");
@@ -84,7 +84,7 @@ if (hr == S_OK)
              NULL,
              ADS_SECURE_AUTHENTICATION, // Use Secure Authentication.
              IID_IADs,
-             (void**)&amp;pTempSchema);
+             (void**)&pTempSchema);
  
     if (hr == S_OK)
     {
@@ -92,7 +92,7 @@ if (hr == S_OK)
       Read the fsmoRoleOwner attribute to identify which server is 
       the schema master.
       */  
-      hr = pTempSchema->Get(CComBSTR("fsmoRoleOwner"), &amp;varRole);
+      hr = pTempSchema->Get(CComBSTR("fsmoRoleOwner"), &varRole);
       if (hr == S_OK)
       {
         // The fsmoRoleOwner attribute returns the nTDSDSA object.
@@ -105,10 +105,10 @@ if (hr == S_OK)
              NULL,
              ADS_SECURE_AUTHENTICATION,
              IID_IADs,
-             (void**)&amp;pNTDS);
+             (void**)&pNTDS);
         if (hr == S_OK)
         {
-          hr = pNTDS->get_Parent(&amp;bstrParent);
+          hr = pNTDS->get_Parent(&bstrParent);
           if (hr == S_OK)
           {
             /*
@@ -121,12 +121,12 @@ if (hr == S_OK)
                NULL,
                ADS_SECURE_AUTHENTICATION,
                IID_IADs,
-               (void**)&amp;pServer);
+               (void**)&pServer);
             if (hr == S_OK)
             {
               // Get the dns name of the server.
               hr = pServer->Get(CComBSTR("dNSHostName"), 
-                  &amp;varComputer);
+                  &varComputer);
               if (hr == S_OK)
               {
                     wcscpy_s(szPath,L"LDAP://");
@@ -148,7 +148,7 @@ if (hr == S_OK)
                       }
                     }
               }
-              VariantClear(&amp;varComputer);
+              VariantClear(&varComputer);
             }
             if (pServer)
               pServer->Release();
@@ -158,12 +158,12 @@ if (hr == S_OK)
         if (pNTDS)
           pNTDS->Release();
       }
-      VariantClear(&amp;varRole);
+      VariantClear(&varRole);
     }
     if (pTempSchema)
       pTempSchema->Release();
   }
-  VariantClear(&amp;var);
+  VariantClear(&var);
 }
 if (pObject)
     pObject->Release();
@@ -237,7 +237,7 @@ sComputer = Server.Get("dNSHostName")
 ''''''''''''''''''''
 ' Display the DNS name for the computer.
 ''''''''''''''''''''
-strText = "Schema master has the following DNS name: "&amp; sComputer
+strText = "Schema master has the following DNS name: "& sComputer
 WScript.echo strText
  
  

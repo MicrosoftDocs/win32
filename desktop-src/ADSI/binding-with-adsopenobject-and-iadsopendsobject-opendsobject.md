@@ -72,7 +72,7 @@ hr = ADsOpenObject(L"LDAP://CN=jeffsmith,DC=fabrikam,DC=com",
     NULL,
     ADS_SECURE_AUTHENTICATION, 
     IID_IADs,
-    (void**)&amp;pObject);
+    (void**)&pObject);
 if(SUCCEEDED(hr))
 {
     // Use the object.
@@ -93,7 +93,7 @@ The following C++ code example shows how to use the [**IADsOpenDSObject**](/wind
 IADsOpenDSObject *pDSO;
 HRESULT hr;
  
-hr = ADsGetObject(L"LDAP:", IID_IADsOpenDSObject, (void**)&amp;pDSO);
+hr = ADsGetObject(L"LDAP:", IID_IADsOpenDSObject, (void**)&pDSO);
 if(SUCCEEDED(hr))
 {
     IDispatch *pDisp;
@@ -102,12 +102,12 @@ if(SUCCEEDED(hr))
         NULL,
         NULL,
         ADS_SECURE_AUTHENTICATION, 
-        &amp;pDisp);
+        &pDisp);
     if(SUCCEEDED(hr))
     {
         IADs *pObject;
 
-        hr = pDisp->QueryInterface(IID_IADs, (void**) &amp;pObject);
+        hr = pDisp->QueryInterface(IID_IADs, (void**) &pObject);
         if(SUCCEEDED(hr))
         {
             // Use the object.

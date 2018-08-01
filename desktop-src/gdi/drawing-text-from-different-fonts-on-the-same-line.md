@@ -60,7 +60,7 @@ hr = StringCchLength(lpszString1, 11, pcch);
         {
         // TODO: write error handler 
         } 
-GetTextExtentPoint32(hdc, lpszString1, *pcch, &amp;sz); 
+GetTextExtentPoint32(hdc, lpszString1, *pcch, &sz); 
 XIncrement += sz.cx; 
  
 // Retrieve the overhang value from the TEXTMETRIC  
@@ -68,14 +68,14 @@ XIncrement += sz.cx;
 // (This is only necessary for non-TrueType raster  
 // fonts.)  
  
-GetTextMetrics(hdc, &amp;tm); 
+GetTextMetrics(hdc, &tm); 
 XIncrement -= tm.tmOverhang; 
  
 // Select an italic font and draw the second string  
 // beginning at the point (XIncrement, YStart).  
  
 hfntBold = SelectObject(hdc, hfntItalic); 
-GetTextMetrics(hdc, &amp;tm); 
+GetTextMetrics(hdc, &tm); 
 XIncrement -= tm.tmOverhang;
 hr = StringCchLength(lpszString2, 8, pcch);
         if (FAILED(hr))
@@ -93,7 +93,7 @@ hr = StringCchLength(lpszString2, 8, pcch);
         {
         // TODO: write error handler 
         }  
-GetTextExtentPoint32(hdc, lpszString2, *pcch, &amp;sz); 
+GetTextExtentPoint32(hdc, lpszString2, *pcch, &sz); 
 XIncrement += sz.cx; 
  
 // Reselect the bold font and draw the third string  

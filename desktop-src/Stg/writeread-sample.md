@@ -70,12 +70,12 @@ EXTERN_C void wmain()
                                      // property sets
                    0, NULL, NULL,
                    IID_IPropertySetStorage,
-                   reinterpret_cast<void**>(&amp;pPropSetStg) );
+                   reinterpret_cast<void**>(&pPropSetStg) );
         if( FAILED(hr) ) throw L"Failed StgCreateStorageEx";
 
         hr = pPropSetStg->Create( fmtid, NULL, PROPSETFLAG_DEFAULT, 
                     STGM_CREATE|STGM_READWRITE|STGM_SHARE_EXCLUSIVE,
-                    &amp;pPropStg );
+                    &pPropStg );
         if( FAILED(hr) ) throw L"Failed IPropertySetStorage::Create";
 
         // Write a Unicode string property to the property set
@@ -86,7 +86,7 @@ EXTERN_C void wmain()
         propvarWrite.vt = VT_LPWSTR;
         propvarWrite.pwszVal = L"Property Value";
 
-        hr = pPropStg->WriteMultiple( 1, &amp;propspec, &amp;propvarWrite, 
+        hr = pPropStg->WriteMultiple( 1, &propspec, &propvarWrite, 
                                       PID_FIRST_USABLE );
         if( FAILED(hr) ) 
             throw L"Failed IPropertyStorage::WriteMultiple";
@@ -97,8 +97,8 @@ EXTERN_C void wmain()
         PROPID propidDictionary = PID_DICTIONARY;
         WCHAR *pwszFriendlyName = 
                      L"Write/Read Properties Sample Property Set";
-        hr = pPropStg->WritePropertyNames( 1, &amp;propidDictionary, 
-                                           &amp;pwszFriendlyName );
+        hr = pPropStg->WritePropertyNames( 1, &propidDictionary, 
+                                           &pwszFriendlyName );
         if( FAILED(hr) ) 
             throw L"Failed IPropertyStorage::WritePropertyNames";
 
@@ -123,18 +123,18 @@ EXTERN_C void wmain()
                              STGFMT_ANY,
                              0, NULL, NULL, 
                              IID_IPropertySetStorage,
-                             reinterpret_cast<void**>(&amp;pPropSetStg) );
+                             reinterpret_cast<void**>(&pPropSetStg) );
         if( FAILED(hr) ) 
             throw L"Failed StgOpenStorageEx";
 
         hr = pPropSetStg->Open( fmtid, STGM_READ|STGM_SHARE_EXCLUSIVE,
-                                &amp;pPropStg );
+                                &pPropStg );
         if( FAILED(hr) ) 
             throw L"Failed IPropertySetStorage::Open";
 
         // Read the property back and validate it
 
-        hr = pPropStg->ReadMultiple( 1, &amp;propspec, &amp;propvarRead );
+        hr = pPropStg->ReadMultiple( 1, &propspec, &propvarRead );
         if( FAILED(hr) ) 
             throw L"Failed IPropertyStorage::ReadMultiple";
 
@@ -157,7 +157,7 @@ EXTERN_C void wmain()
        wprintf( L"Error:  %s (hr=%08x)\n", pwszError, hr );
    }
 
-   PropVariantClear( &amp;propvarRead );
+   PropVariantClear( &propvarRead );
             if( pPropStg ) pPropStg->Release();
    if( pPropSetStg ) pPropSetStg->Release();
 

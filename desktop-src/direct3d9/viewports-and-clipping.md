@@ -112,7 +112,7 @@ After setting values in the [**D3DVIEWPORT9**](d3dviewport9.md) structure, apply
 ```
 HRESULT hr;
 
-hr = pd3dDevice->SetViewport(&amp;viewData);
+hr = pd3dDevice->SetViewport(&viewData);
 if(FAILED(hr))
     return hr;
 ```

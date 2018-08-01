@@ -74,7 +74,7 @@ To build the sample using Microsoft Visual Studio (preferred):
 > <tbody>
 > <tr class="odd">
 > <td><pre><code>LinkIncremental=&quot;1&quot;
-> AdditionalLibraryDirectories=&quot;&amp;quot;c:\Program Files\Microsoft SDKs\Windows\v6.0\Lib\x64&amp;quot;&quot;
+> AdditionalLibraryDirectories=&quot;&quot;c:\Program Files\Microsoft SDKs\Windows\v6.0\Lib\x64&quot;&quot;
 > ModuleDefinitionFile=&quot;ExplorerDataProvider.def&quot;
 > GenerateDebugInformation=&quot;true&quot;</code></pre></td>
 > </tr>

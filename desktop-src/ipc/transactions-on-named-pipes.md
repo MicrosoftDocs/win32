@@ -78,7 +78,7 @@ int _tmain(int argc, TCHAR *argv[])
    dwMode = PIPE_READMODE_MESSAGE; 
    fSuccess = SetNamedPipeHandleState( 
       hPipe,    // pipe handle 
-      &amp;dwMode,  // new pipe mode 
+      &dwMode,  // new pipe mode 
       NULL,     // don't set maximum bytes 
       NULL);    // don't set maximum time 
    if (!fSuccess) 
@@ -94,10 +94,10 @@ int _tmain(int argc, TCHAR *argv[])
       (lstrlen(lpszWrite)+1)*sizeof(TCHAR), // message length 
       chReadBuf,              // buffer to receive reply
       BUFSIZE*sizeof(TCHAR),  // size of read buffer
-      &amp;cbRead,                // bytes read
+      &cbRead,                // bytes read
       NULL);                  // not overlapped 
 
-   if (!fSuccess &amp;&amp; (GetLastError() != ERROR_MORE_DATA)) 
+   if (!fSuccess && (GetLastError() != ERROR_MORE_DATA)) 
    {
       printf("TransactNamedPipe failed.\n"); 
       return 0;
@@ -116,11 +116,11 @@ int _tmain(int argc, TCHAR *argv[])
          hPipe,      // pipe handle 
          chReadBuf,  // buffer to receive reply 
          BUFSIZE*sizeof(TCHAR),  // size of buffer 
-         &amp;cbRead,  // number of bytes read 
+         &cbRead,  // number of bytes read 
          NULL);    // not overlapped 
 
       // Exit if an error other than ERROR_MORE_DATA occurs.
-      if( !fSuccess &amp;&amp; (GetLastError() != ERROR_MORE_DATA)) 
+      if( !fSuccess && (GetLastError() != ERROR_MORE_DATA)) 
          break;
       else _tprintf( TEXT("%s\n"), chReadBuf); 
    }
@@ -165,7 +165,7 @@ int _tmain(int argc, TCHAR *argv[])
       (lstrlen(lpszWrite)+1)*sizeof(TCHAR), // message length 
       chReadBuf,              // buffer to receive reply 
       BUFSIZE*sizeof(TCHAR),  // size of read buffer 
-      &amp;cbRead,                // number of bytes read 
+      &cbRead,                // number of bytes read 
       20000);                 // waits for 20 seconds 
  
    if (fSuccess || GetLastError() == ERROR_MORE_DATA) 

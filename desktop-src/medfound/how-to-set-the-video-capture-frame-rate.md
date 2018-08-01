@@ -49,26 +49,26 @@ HRESULT SetMaxFrameRate(IMFMediaSource *pSource, DWORD dwTypeIndex)
     IMFMediaTypeHandler *pHandler = NULL;
     IMFMediaType *pType = NULL;
 
-    HRESULT hr = pSource->CreatePresentationDescriptor(&amp;pPD);
+    HRESULT hr = pSource->CreatePresentationDescriptor(&pPD);
     if (FAILED(hr))
     {
         goto done;
     }
 
     BOOL fSelected;
-    hr = pPD->GetStreamDescriptorByIndex(dwTypeIndex, &amp;fSelected, &amp;pSD);
+    hr = pPD->GetStreamDescriptorByIndex(dwTypeIndex, &fSelected, &pSD);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pSD->GetMediaTypeHandler(&amp;pHandler);
+    hr = pSD->GetMediaTypeHandler(&pHandler);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pHandler->GetCurrentMediaType(&amp;pType);
+    hr = pHandler->GetCurrentMediaType(&pType);
     if (FAILED(hr))
     {
         goto done;
@@ -80,11 +80,11 @@ HRESULT SetMaxFrameRate(IMFMediaSource *pSource, DWORD dwTypeIndex)
     // MF_MT_FRAME_RATE_RANGE_MIN attribute instead.
 
     PROPVARIANT var;
-    if (SUCCEEDED(pType->GetItem(MF_MT_FRAME_RATE_RANGE_MAX, &amp;var)))
+    if (SUCCEEDED(pType->GetItem(MF_MT_FRAME_RATE_RANGE_MAX, &var)))
     {
         hr = pType->SetItem(MF_MT_FRAME_RATE, var);
 
-        PropVariantClear(&amp;var);
+        PropVariantClear(&var);
 
         if (FAILED(hr))
         {
@@ -95,10 +95,10 @@ HRESULT SetMaxFrameRate(IMFMediaSource *pSource, DWORD dwTypeIndex)
     }
 
 done:
-    SafeRelease(&amp;pPD);
-    SafeRelease(&amp;pSD);
-    SafeRelease(&amp;pHandler);
-    SafeRelease(&amp;pType);
+    SafeRelease(&pPD);
+    SafeRelease(&pSD);
+    SafeRelease(&pHandler);
+    SafeRelease(&pType);
     return hr;
 }
 ```

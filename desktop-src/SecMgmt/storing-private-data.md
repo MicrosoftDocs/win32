@@ -36,12 +36,12 @@ BOOL CreatePrivateDataObject(LSA_HANDLE PolicyHandle)
   WCHAR wszPrivateData[] = L"Something secret.";
 
   // Initializing PLSA_UNICODE_STRING structures
-  if (!InitLsaString(&amp;lucKeyName, wszKeyName))
+  if (!InitLsaString(&lucKeyName, wszKeyName))
   {
          wprintf(L"Failed InitLsaString\n");
          return FALSE;
   }
-  if (!InitLsaString(&amp;lucPrivateData, wszPrivateData))
+  if (!InitLsaString(&lucPrivateData, wszPrivateData))
   {
          wprintf(L"Failed InitLsaString\n");
          return FALSE;
@@ -50,8 +50,8 @@ BOOL CreatePrivateDataObject(LSA_HANDLE PolicyHandle)
   // Store the private data.
   ntsResult = LsaStorePrivateData(
     PolicyHandle,   // handle to a Policy object
-    &amp;lucKeyName,    // key to identify the data
-    &amp;lucPrivateData // the private data
+    &lucKeyName,    // key to identify the data
+    &lucPrivateData // the private data
   );
   if (ntsResult != STATUS_SUCCESS)
   {

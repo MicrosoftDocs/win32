@@ -50,7 +50,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -58,7 +58,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -95,7 +95,7 @@ static const WS_ELEMENT_DESCRIPTION bytesBodyDescription =
 static const WS_MESSAGE_DESCRIPTION bytesMessageDescription = 
 { 
     NULL,
-    const_cast<WS_ELEMENT_DESCRIPTION*>(&amp;bytesBodyDescription)
+    const_cast<WS_ELEMENT_DESCRIPTION*>(&bytesBodyDescription)
 };
 
 static const WS_MESSAGE_DESCRIPTION emptyMessageDescription = 
@@ -112,12 +112,12 @@ static const WS_HTTP_HEADER_MAPPING contentTypeHeaderMapping =
 
 static const WS_HTTP_HEADER_MAPPING* const responseHeaderMappings[] =
 {
-    &amp;contentTypeHeaderMapping,
+    &contentTypeHeaderMapping,
 };
 
 static const WS_HTTP_HEADER_MAPPING* const requestHeaderMappings[] =
 {
-    &amp;contentTypeHeaderMapping,
+    &contentTypeHeaderMapping,
 };
 
 static const WS_HTTP_MESSAGE_MAPPING messageMapping = 
@@ -141,10 +141,10 @@ HRESULT SetStatus(
     // Add the status text to the message
     hr = WsAddMappedHeader(
         replyMessage,
-        &amp;statusTextName,
+        &statusTextName,
         WS_WSZ_TYPE,
         WS_WRITE_REQUIRED_POINTER,
-        &amp;statusText,
+        &statusText,
         sizeof(statusText),
         error);
     if (FAILED(hr))
@@ -155,10 +155,10 @@ HRESULT SetStatus(
     // Add the status code to the message
     hr = WsAddMappedHeader(
         replyMessage,
-        &amp;statusCodeName,
+        &statusCodeName,
         WS_UINT32_TYPE,
         WS_WRITE_REQUIRED_VALUE,
-        &amp;statusCode,
+        &statusCode,
         sizeof(statusCode),
         error);
     if (FAILED(hr))
@@ -194,7 +194,7 @@ HRESULT SendFailureMessage(
     hr = WsSendMessage(
         channel, 
         replyMessage, 
-        &amp;emptyMessageDescription, 
+        &emptyMessageDescription, 
         WS_WRITE_REQUIRED_VALUE,
         NULL,
         0,
@@ -226,7 +226,7 @@ HRESULT CALLBACK ProcessMessage(
     hr = WsGetOperationContextProperty(
         context, 
         WS_OPERATION_CONTEXT_PROPERTY_INPUT_MESSAGE, 
-        &amp;requestMessage, 
+        &requestMessage, 
         sizeof(requestMessage), 
         error);
     if (FAILED(hr))
@@ -238,7 +238,7 @@ HRESULT CALLBACK ProcessMessage(
     hr = WsGetOperationContextProperty(
         context, 
         WS_OPERATION_CONTEXT_PROPERTY_CHANNEL, 
-        &amp;channel, 
+        &channel, 
         sizeof(channel), 
         error);
     if (FAILED(hr))
@@ -250,7 +250,7 @@ HRESULT CALLBACK ProcessMessage(
     hr = WsGetOperationContextProperty(
         context, 
         WS_OPERATION_CONTEXT_PROPERTY_HEAP, 
-        &amp;heap, 
+        &heap, 
         sizeof(heap), 
         error);
     if (FAILED(hr))
@@ -263,7 +263,7 @@ HRESULT CALLBACK ProcessMessage(
         channel,
         NULL, 
         0, 
-        &amp;replyMessage, 
+        &replyMessage, 
         error);
     if (FAILED(hr))
     {
@@ -281,13 +281,13 @@ HRESULT CALLBACK ProcessMessage(
     WS_STRING verb;
     hr = WsGetMappedHeader(
         requestMessage, 
-        &amp;verbHeaderName, 
+        &verbHeaderName, 
         WS_SINGLETON_HEADER,
         0,
         WS_STRING_TYPE,
         WS_READ_REQUIRED_VALUE, 
         NULL, 
-        &amp;verb, 
+        &verb, 
         sizeof(verb), 
         error);
     if (FAILED(hr))
@@ -312,13 +312,13 @@ HRESULT CALLBACK ProcessMessage(
         WS_STRING contentType;
         hr = WsGetMappedHeader(
             requestMessage, 
-            &amp;contentTypeHeaderMapping.headerName, 
+            &contentTypeHeaderMapping.headerName, 
             WS_SINGLETON_HEADER,
             0,
             WS_STRING_TYPE,
             WS_READ_REQUIRED_VALUE, 
             NULL, 
-            &amp;contentType, 
+            &contentType, 
             sizeof(contentType), 
             error);
         if (FAILED(hr))
@@ -332,10 +332,10 @@ HRESULT CALLBACK ProcessMessage(
         WS_BYTES body;
         hr = WsReadBody(
             requestMessage,
-            &amp;bytesBodyDescription,
+            &bytesBodyDescription,
             WS_READ_REQUIRED_VALUE,
             heap,
-            &amp;body,
+            &body,
             sizeof(body),
             error);
     if (FAILED(hr))
@@ -381,10 +381,10 @@ HRESULT CALLBACK ProcessMessage(
     // Set content type header of reply
     hr = WsAddMappedHeader(
         replyMessage,
-        &amp;contentTypeHeaderMapping.headerName, 
+        &contentTypeHeaderMapping.headerName, 
         WS_STRING_TYPE,
         WS_WRITE_REQUIRED_VALUE,
-        &amp;replyContentType,
+        &replyContentType,
         sizeof(replyContentType),
         error);
     if (FAILED(hr))
@@ -408,9 +408,9 @@ HRESULT CALLBACK ProcessMessage(
     hr = WsSendMessage(
         channel, 
         replyMessage, 
-        &amp;bytesMessageDescription, 
+        &bytesMessageDescription, 
         WS_WRITE_REQUIRED_VALUE,
-        &amp;body,
+        &body,
         sizeof(body),
         NULL, 
         error);
@@ -437,7 +437,7 @@ UNREFERENCED_PARAMETER(asyncContext);
 
     static volatile ULONG messageCount = 0;
 
-    if (InterlockedIncrement(&amp;messageCount) == 2)
+    if (InterlockedIncrement(&messageCount) == 2)
     {
     SetEvent(closeServer);
     }
@@ -463,24 +463,24 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     const WS_SERVICE_ENDPOINT* serviceEndpoints[1];
     WS_ERROR* error = NULL;
     
-    serviceEndpoints[0] = &amp;serviceEndpoint;
+    serviceEndpoints[0] = &serviceEndpoint;
     
     // Specify that the HTTP channel should surface non-SOAP messages
     WS_CHANNEL_PROPERTY channelPropertyArray[2];
     WS_ENCODING rawEncoding = WS_ENCODING_RAW;
     channelPropertyArray[0].id = WS_CHANNEL_PROPERTY_ENCODING;
-    channelPropertyArray[0].value = &amp;rawEncoding;
+    channelPropertyArray[0].value = &rawEncoding;
     channelPropertyArray[0].valueSize = sizeof(rawEncoding);
     
     // Specify how HTTP requests and responses are mapped to the message object
     channelPropertyArray[1].id = WS_CHANNEL_PROPERTY_HTTP_MESSAGE_MAPPING;
-    channelPropertyArray[1].value = const_cast<WS_HTTP_MESSAGE_MAPPING*>(&amp;messageMapping);
+    channelPropertyArray[1].value = const_cast<WS_HTTP_MESSAGE_MAPPING*>(&messageMapping);
     channelPropertyArray[1].valueSize = sizeof(messageMapping);
     
     WS_SERVICE_ENDPOINT_PROPERTY serviceEndpointPropertyArray[1]; 
     WS_SERVICE_PROPERTY_CLOSE_CALLBACK closeCallbackProperty = {CloseChannelCallback};
     serviceEndpointPropertyArray[0].id = WS_SERVICE_ENDPOINT_PROPERTY_CLOSE_CHANNEL_CALLBACK;
-    serviceEndpointPropertyArray[0].value = &amp;closeCallbackProperty;
+    serviceEndpointPropertyArray[0].value = &closeCallbackProperty;
     serviceEndpointPropertyArray[0].valueSize = sizeof(closeCallbackProperty);
     
     
@@ -489,7 +489,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     serviceEndpoint.address.url.length = (ULONG)wcslen(serviceEndpoint.address.url.chars);
     serviceEndpoint.channelBinding = WS_HTTP_CHANNEL_BINDING; // channel binding for the endpoint
     serviceEndpoint.channelType = WS_CHANNEL_TYPE_REPLY; // the channel type
-    serviceEndpoint.contract = &amp;messageContract;  // the contract
+    serviceEndpoint.contract = &messageContract;  // the contract
     serviceEndpoint.properties = serviceEndpointPropertyArray;
     serviceEndpoint.propertyCount = WsCountOf(serviceEndpointPropertyArray);
     serviceEndpoint.channelProperties.properties = channelPropertyArray; // Channel properties
@@ -501,7 +501,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -523,7 +523,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         1, 
         NULL, 
         0, 
-        &amp;host, 
+        &host, 
         error);
     if (FAILED(hr))
     {

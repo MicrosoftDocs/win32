@@ -174,8 +174,8 @@ else
 //-------------------------------------------------------------------
 // Initialize Int1 and Int2. 
 
-Int1.pbData = (BYTE*)&amp;BLOB1data;
-Int2.pbData = (BYTE*)&amp;BLOB2data;
+Int1.pbData = (BYTE*)&BLOB1data;
+Int2.pbData = (BYTE*)&BLOB2data;
 
 //-------------------------------------------------------------------
 // Set the cbData members so that only 
@@ -187,8 +187,8 @@ Int1.cbData = 4;  // sizeof(BLOB1data);
 Int2.cbData = 2;  // sizeof(BLOB2data);
 
 if( CertCompareIntegerBlob(
-     &amp;Int1, 
-     &amp;Int2))
+     &Int1, 
+     &Int2))
 {
    printf("The first two bytes of the BLOBs are identical.\n");
 }
@@ -205,8 +205,8 @@ Int1.cbData=1;
 Int2.cbData=1;
 
 if( CertCompareIntegerBlob(
-       &amp;Int1, 
-       &amp;Int2))
+       &Int1, 
+       &Int2))
 {
     printf("The BLOBs of different length are identical.\n");
 }
@@ -224,8 +224,8 @@ Int1.pbData = BLOB3data;
 Int2.pbData = BLOB4data;
 
 if( CertCompareIntegerBlob(
-       &amp;Int1, 
-       &amp;Int2))
+       &Int1, 
+       &Int2))
 {
    printf("The BLOBs 3 and 4 are identical.\n");
 }
@@ -243,8 +243,8 @@ Int1.pbData = BLOB1data;
 Int2.pbData = BLOB3data;
 
 if( CertCompareIntegerBlob(
-       &amp;Int1, 
-       &amp;Int2))
+       &Int1, 
+       &Int2))
 {
    printf("BLOBs 1 and 3 are identical.\n");
 }
@@ -262,8 +262,8 @@ Int1.pbData = BLOB5data;
 Int2.pbData = BLOB3data;
 
 if( CertCompareIntegerBlob(
-       &amp;Int1, 
-       &amp;Int2))
+       &Int1, 
+       &Int2))
 {
    printf("BLOBs 5 and 3 are identical.\n");
 }
@@ -281,8 +281,8 @@ Int1.pbData = BLOB5data;
 Int2.pbData = BLOB3data;
 
 if( CertCompareIntegerBlob(
-       &amp;Int1, 
-       &amp;Int2))
+       &Int1, 
+       &Int2))
 {
    printf("The first two bytes of BLOBs 5 and 3 are identical.\n");
 }

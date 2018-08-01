@@ -91,28 +91,28 @@ HRESULT GetBassBoost(IMMDeviceEnumerator *pEnumerator,
 
     // Get the topology object for the adapter device that contains
     // the subunit represented by the IPart interface.
-    hr = pPart->GetTopologyObject(&amp;pTopology);
+    hr = pPart->GetTopologyObject(&pTopology);
     EXIT_ON_ERROR(hr)
 
     // Get the device ID string that identifies the adapter device.
-    hr = pTopology->GetDeviceId(&amp;pwszDeviceId);
+    hr = pTopology->GetDeviceId(&pwszDeviceId);
     EXIT_ON_ERROR(hr)
 
     // Get the IMMDevice interface of the adapter device object.
-    hr = pEnumerator->GetDevice(pwszDeviceId, &amp;pPnpDevice);
+    hr = pEnumerator->GetDevice(pwszDeviceId, &pPnpDevice);
     EXIT_ON_ERROR(hr)
 
     // Activate an IKsControl interface on the adapter device object.
-    hr = pPnpDevice->Activate(IID_IKsControl, CLSCTX_ALL, NULL, (void**)&amp;pKsControl);
+    hr = pPnpDevice->Activate(IID_IKsControl, CLSCTX_ALL, NULL, (void**)&pKsControl);
     EXIT_ON_ERROR(hr)
 
     // Get the local ID of the subunit (contains the KS node ID).
     UINT localId = 0;
-    hr = pPart->GetLocalId(&amp;localId);
+    hr = pPart->GetLocalId(&localId);
     EXIT_ON_ERROR(hr)
 
     KSNODEPROPERTY_AUDIO_CHANNEL ksprop;
-    ZeroMemory(&amp;ksprop, sizeof(ksprop));
+    ZeroMemory(&ksprop, sizeof(ksprop));
     ksprop.NodeProperty.Property.Set = KSPROPSETID_Audio;
     ksprop.NodeProperty.Property.Id = KSPROPERTY_AUDIO_BASS_BOOST;
     ksprop.NodeProperty.Property.Flags = KSPROPERTY_TYPE_GET | KSPROPERTY_TYPE_TOPOLOGY;
@@ -123,8 +123,8 @@ HRESULT GetBassBoost(IMMDeviceEnumerator *pEnumerator,
     BOOL bValue = FALSE;
     ULONG valueSize;
     hr = pKsControl->KsProperty(
-                         &amp;ksprop.NodeProperty.Property, sizeof(ksprop),
-                         &amp;bValue, sizeof(bValue), &amp;valueSize);
+                         &ksprop.NodeProperty.Property, sizeof(ksprop),
+                         &bValue, sizeof(bValue), &valueSize);
     EXIT_ON_ERROR(hr)
 
     *pbValue = bValue;

@@ -53,7 +53,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -61,7 +61,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -94,14 +94,14 @@ ColorDictionary colorDictionary =
             0x40a5,
             {0xa4, 0x92, 0x8b, 0xb4, 0x5b, 0x1e, 0x3a, 0x5f}
         },
-        &amp;colorDictionary.red,
+        &colorDictionary.red,
         4, 
         TRUE
     },
-    WS_XML_STRING_DICTIONARY_VALUE("red", &amp;colorDictionary.dictionary, 0),
-    WS_XML_STRING_DICTIONARY_VALUE("yellow", &amp;colorDictionary.dictionary, 1),
-    WS_XML_STRING_DICTIONARY_VALUE("blue", &amp;colorDictionary.dictionary, 2),
-    WS_XML_STRING_DICTIONARY_VALUE("green", &amp;colorDictionary.dictionary, 3),
+    WS_XML_STRING_DICTIONARY_VALUE("red", &colorDictionary.dictionary, 0),
+    WS_XML_STRING_DICTIONARY_VALUE("yellow", &colorDictionary.dictionary, 1),
+    WS_XML_STRING_DICTIONARY_VALUE("blue", &colorDictionary.dictionary, 2),
+    WS_XML_STRING_DICTIONARY_VALUE("green", &colorDictionary.dictionary, 3),
 };
 
 
@@ -122,13 +122,13 @@ ShapeDictionary shapeDictionary =
             0x418c,
             {0xb6, 0xd4, 0x26, 0xb2, 0xb9, 0x26, 0xea, 0xfe}
         },
-        &amp;colorDictionary.red,
+        &colorDictionary.red,
         3, 
         TRUE
     },
-    WS_XML_STRING_DICTIONARY_VALUE("circle", &amp;shapeDictionary.dictionary, 0),
-    WS_XML_STRING_DICTIONARY_VALUE("square", &amp;shapeDictionary.dictionary, 1),
-    WS_XML_STRING_DICTIONARY_VALUE("triangle", &amp;shapeDictionary.dictionary, 2),
+    WS_XML_STRING_DICTIONARY_VALUE("circle", &shapeDictionary.dictionary, 0),
+    WS_XML_STRING_DICTIONARY_VALUE("square", &shapeDictionary.dictionary, 1),
+    WS_XML_STRING_DICTIONARY_VALUE("triangle", &shapeDictionary.dictionary, 2),
 };
 
 
@@ -149,13 +149,13 @@ ObjectsDictionary objectsDictionary =
             0x417f,
             {0x96, 0xdc, 0xc4, 0x43, 0x6a, 0x05, 0x5b, 0xf1}
         },
-        &amp;objectsDictionary.objects,
+        &objectsDictionary.objects,
         3,
         TRUE
     },
-    WS_XML_STRING_DICTIONARY_VALUE("objects", &amp;objectsDictionary.dictionary, 0),
-    WS_XML_STRING_DICTIONARY_VALUE("color", &amp;objectsDictionary.dictionary, 1),
-    WS_XML_STRING_DICTIONARY_VALUE("ns", &amp;objectsDictionary.dictionary, 2),
+    WS_XML_STRING_DICTIONARY_VALUE("objects", &objectsDictionary.dictionary, 0),
+    WS_XML_STRING_DICTIONARY_VALUE("color", &objectsDictionary.dictionary, 1),
+    WS_XML_STRING_DICTIONARY_VALUE("ns", &objectsDictionary.dictionary, 2),
 };
 
 
@@ -187,12 +187,12 @@ HRESULT DynamicStringCallback(void* callbackState, const WS_XML_STRING* value, B
     UNREFERENCED_PARAMETER(error);
 
     // Only merge strings that are const
-    if (value->dictionary != NULL &amp;&amp; value->dictionary->isConst)
+    if (value->dictionary != NULL && value->dictionary->isConst)
     {
         // See if we've seen this string before
         for (ULONG i = 0; i < mergedDictionary.dictionary.stringCount; i++)
         {
-            if (value->length == mergedDictionary.strings[i].length &amp;&amp;
+            if (value->length == mergedDictionary.strings[i].length &&
                 memcmp(value->bytes, mergedDictionary.strings[i].bytes, value->length) == 0)
             {
                 (*found) = TRUE;
@@ -206,7 +206,7 @@ HRESULT DynamicStringCallback(void* callbackState, const WS_XML_STRING* value, B
             ULONG index = mergedDictionary.dictionary.stringCount;
             mergedDictionary.strings[index].bytes = value->bytes;
             mergedDictionary.strings[index].length = value->length;
-            mergedDictionary.strings[index].dictionary = &amp;mergedDictionary.dictionary;
+            mergedDictionary.strings[index].dictionary = &mergedDictionary.dictionary;
             mergedDictionary.strings[index].id = index;
             mergedDictionary.dictionary.stringCount++;
             (*id) = index;
@@ -234,7 +234,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -246,7 +246,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -257,7 +257,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateWriter(
         NULL, 
         0, 
-        &amp;writer, 
+        &writer, 
         error);
     if (FAILED(hr))
     {
@@ -266,22 +266,22 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     // Setup the output
     WS_XML_WRITER_BUFFER_OUTPUT bufferOutput;
-    ZeroMemory(&amp;bufferOutput, sizeof(bufferOutput));
+    ZeroMemory(&bufferOutput, sizeof(bufferOutput));
     bufferOutput.output.outputType = WS_XML_WRITER_OUTPUT_TYPE_BUFFER;
     
     // Setup the encoding
     WS_XML_WRITER_BINARY_ENCODING writerEncoding;
-    ZeroMemory(&amp;writerEncoding, sizeof(writerEncoding));
+    ZeroMemory(&writerEncoding, sizeof(writerEncoding));
     writerEncoding.encoding.encodingType = WS_XML_WRITER_ENCODING_TYPE_BINARY;
-    writerEncoding.staticDictionary = &amp;objectsDictionary.dictionary;
+    writerEncoding.staticDictionary = &objectsDictionary.dictionary;
     writerEncoding.dynamicStringCallback = (WS_DYNAMIC_STRING_CALLBACK)DynamicStringCallback;
     writerEncoding.dynamicStringCallbackState = NULL;
     
     // Setup the writer
     hr = WsSetOutput(
         writer, 
-        &amp;writerEncoding.encoding, 
-        &amp;bufferOutput.output, 
+        &writerEncoding.encoding, 
+        &bufferOutput.output, 
         NULL, 
         0, 
         error);
@@ -293,8 +293,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsWriteStartElement(
         writer, 
         NULL, 
-        &amp;objectsDictionary.objects, 
-        &amp;objectsDictionary.ns, 
+        &objectsDictionary.objects, 
+        &objectsDictionary.ns, 
         error);
     if (FAILED(hr))
     {
@@ -302,15 +302,15 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     }
     
     // Write some xml using strings from all the dictionaries
-    WS_XML_STRING* shapes[3] = { &amp;shapeDictionary.triangle, &amp;shapeDictionary.square, &amp;shapeDictionary.circle };
-    WS_XML_STRING* colors[3] = { &amp;colorDictionary.green, &amp;colorDictionary.blue, &amp;colorDictionary.red };
+    WS_XML_STRING* shapes[3] = { &shapeDictionary.triangle, &shapeDictionary.square, &shapeDictionary.circle };
+    WS_XML_STRING* colors[3] = { &colorDictionary.green, &colorDictionary.blue, &colorDictionary.red };
     for (ULONG i = 0; i < 3; i++)
     {
         hr = WsWriteStartElement(
             writer, 
             NULL, 
             shapes[i], 
-            &amp;objectsDictionary.ns, 
+            &objectsDictionary.ns, 
             error);
         if (FAILED(hr))
         {
@@ -320,8 +320,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         hr = WsWriteStartAttribute(
             writer, 
             NULL, 
-            &amp;objectsDictionary.color, 
-            &amp;objectsDictionary.ns, 
+            &objectsDictionary.color, 
+            &objectsDictionary.ns, 
             FALSE, 
             error);
         if (FAILED(hr))
@@ -371,7 +371,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsGetWriterProperty(
         writer, 
         WS_XML_WRITER_PROPERTY_BYTES, 
-        &amp;bytes, 
+        &bytes, 
         sizeof(bytes), 
         error);
     if (FAILED(hr))
@@ -383,7 +383,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateReader(
         NULL,
         0, 
-        &amp;reader, 
+        &reader, 
         error);
     if (FAILED(hr))
     {
@@ -392,7 +392,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     // Setup the input
     WS_XML_READER_BUFFER_INPUT bufferInput;
-    ZeroMemory(&amp;bufferInput, sizeof(bufferInput));
+    ZeroMemory(&bufferInput, sizeof(bufferInput));
     bufferInput.input.inputType = WS_XML_READER_INPUT_TYPE_BUFFER;
     bufferInput.encodedData = bytes.bytes;
     bufferInput.encodedDataSize = bytes.length;
@@ -400,18 +400,18 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // Setup the encoding
     WS_XML_READER_BINARY_ENCODING readerEncoding;
     ZeroMemory(
-        &amp;readerEncoding, 
+        &readerEncoding, 
         sizeof(readerEncoding));
     
     readerEncoding.encoding.encodingType = WS_XML_READER_ENCODING_TYPE_BINARY;
-    readerEncoding.staticDictionary = &amp;objectsDictionary.dictionary;
-    readerEncoding.dynamicDictionary = &amp;mergedDictionary.dictionary;
+    readerEncoding.staticDictionary = &objectsDictionary.dictionary;
+    readerEncoding.dynamicDictionary = &mergedDictionary.dictionary;
     
     // Setup the reader
     hr = WsSetInput(
         reader, 
-        &amp;readerEncoding.encoding, 
-        &amp;bufferInput.input, 
+        &readerEncoding.encoding, 
+        &bufferInput.input, 
         NULL, 
         0, 
         error);
@@ -422,8 +422,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     hr = WsReadToStartElement(
         reader, 
-        &amp;objectsDictionary.objects, 
-        &amp;objectsDictionary.ns, 
+        &objectsDictionary.objects, 
+        &objectsDictionary.ns, 
         NULL, 
         error);
     if (FAILED(hr))
@@ -445,7 +445,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
             reader, 
             NULL, 
             NULL, 
-            &amp;found, 
+            &found, 
             error);
         if (FAILED(hr))
         {
@@ -460,7 +460,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         const WS_XML_NODE* node;
         hr = WsGetReaderNode(
             reader, 
-            &amp;node, 
+            &node, 
             error);
         if (FAILED(hr))
         {
@@ -473,10 +473,10 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         ULONG index;
         hr = WsFindAttribute(
             reader, 
-            &amp;objectsDictionary.color, 
-            &amp;objectsDictionary.ns, 
+            &objectsDictionary.color, 
+            &objectsDictionary.ns, 
             TRUE, 
-            &amp;index, 
+            &index, 
             error);
         if (FAILED(hr))
         {
@@ -500,7 +500,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
             NULL, 
             WS_READ_REQUIRED_VALUE, 
             heap, 
-            &amp;color, 
+            &color, 
             sizeof(color), 
             error);
         if (FAILED(hr))

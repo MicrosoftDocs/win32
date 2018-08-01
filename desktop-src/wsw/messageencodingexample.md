@@ -55,7 +55,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -63,7 +63,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -103,7 +103,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -115,7 +115,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -126,7 +126,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateWriter(
         NULL, 
         0, 
-        &amp;xmlWriter, 
+        &xmlWriter, 
         error);
     if (FAILED(hr))
     {
@@ -137,7 +137,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateReader(
         NULL,
         0, 
-        &amp;xmlReader, 
+        &xmlReader, 
         error);
     if (FAILED(hr))
     {
@@ -150,7 +150,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         WS_ADDRESSING_VERSION_1_0, 
         NULL, 
         0, 
-        &amp;message, 
+        &message, 
         error);
     if (FAILED(hr))
     {
@@ -169,14 +169,14 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
         // Set the writer to buffer the output
         WS_XML_WRITER_BUFFER_OUTPUT writerOutput;
-        ZeroMemory(&amp;writerOutput, sizeof(writerOutput));
+        ZeroMemory(&writerOutput, sizeof(writerOutput));
         writerOutput.output.outputType = WS_XML_WRITER_OUTPUT_TYPE_BUFFER;
     
         WS_XML_WRITER_TEXT_ENCODING writerEncoding;
-        ZeroMemory(&amp;writerEncoding, sizeof(writerEncoding));
+        ZeroMemory(&writerEncoding, sizeof(writerEncoding));
         writerEncoding.encoding.encodingType = WS_XML_WRITER_ENCODING_TYPE_TEXT;
         writerEncoding.charSet = WS_CHARSET_UTF8;
-        hr = WsSetOutput(xmlWriter, &amp;writerEncoding.encoding, &amp;writerOutput.output, NULL, 0, error);
+        hr = WsSetOutput(xmlWriter, &writerEncoding.encoding, &writerOutput.output, NULL, 0, error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -198,9 +198,9 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         // Write purchase order as the body of the message
         hr = WsWriteBody(
             message, 
-            &amp;PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
+            &PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
             WS_WRITE_REQUIRED_VALUE,
-            &amp;purchaseOrderToWrite, 
+            &purchaseOrderToWrite, 
             sizeof(purchaseOrderToWrite), 
             error);
     
@@ -231,7 +231,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         }
     
         WS_BYTES buffer;
-        hr = WsGetWriterProperty(xmlWriter, WS_XML_WRITER_PROPERTY_BYTES, &amp;buffer, sizeof(buffer), error);
+        hr = WsGetWriterProperty(xmlWriter, WS_XML_WRITER_PROPERTY_BYTES, &buffer, sizeof(buffer), error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -239,7 +239,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
         // Set the reader input to be the encoded message
         WS_XML_READER_BUFFER_INPUT bufferInput;
-        ZeroMemory(&amp;bufferInput, sizeof(bufferInput));
+        ZeroMemory(&bufferInput, sizeof(bufferInput));
         bufferInput.input.inputType = WS_XML_READER_INPUT_TYPE_BUFFER;
         bufferInput.encodedData = buffer.bytes;
         bufferInput.encodedDataSize = buffer.length;
@@ -247,7 +247,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         WS_XML_READER_TEXT_ENCODING readerEncoding;
         readerEncoding.encoding.encodingType = WS_XML_READER_ENCODING_TYPE_TEXT;
         readerEncoding.charSet = WS_CHARSET_UTF8;
-        hr = WsSetInput(xmlReader, &amp;readerEncoding.encoding, &amp;bufferInput.input, NULL, 0, error);
+        hr = WsSetInput(xmlReader, &readerEncoding.encoding, &bufferInput.input, NULL, 0, error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -262,8 +262,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
         // Read the body of the message as a purchase order
         _PurchaseOrderType* purchaseOrder;
-        hr = WsReadBody(message, &amp;PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
-            WS_READ_REQUIRED_POINTER, heap, &amp;purchaseOrder, sizeof(purchaseOrder), error);
+        hr = WsReadBody(message, &PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
+            WS_READ_REQUIRED_POINTER, heap, &purchaseOrder, sizeof(purchaseOrder), error);
         if (FAILED(hr))
         {
             goto Exit;

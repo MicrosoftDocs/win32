@@ -122,7 +122,7 @@ nmh.hwndFrom = hwndControl;
 SendMessage(GetParent(hwndControl), 
     WM_NOTIFY, 
     (WPARAM)hwndControl, 
-    (LPARAM)&amp;nmh);
+    (LPARAM)&nmh);
 ```
 
 

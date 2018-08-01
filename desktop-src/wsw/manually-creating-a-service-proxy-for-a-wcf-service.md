@@ -31,7 +31,7 @@ hr = WsCreateServiceProxy(
         0, // proxy property count
         NULL, // channel properties
         0, // channel property count
-        &amp;proxy, 
+        &proxy, 
         error);
 ```
 
@@ -53,13 +53,13 @@ ULONG channelPropertyCount = 0; // Count of properties set
  
 WS_ENVELOPE_VERSION soapVersion = WS_ENVELOPE_VERSION_SOAP_1_1; // Set required SOAP version
 channelProperties[channelPropertyCount].id = WS_CHANNEL_PROPERTY_ENVELOPE_VERSION; // Type of first channel property
-channelProperties[channelPropertyCount].value = &amp;soapVersion; // Address of the SOAP version value
+channelProperties[channelPropertyCount].value = &soapVersion; // Address of the SOAP version value
 channelProperties[channelPropertyCount].valueSize = sizeof(soapVersion); // Size of the value
 channelPropertyCount++; // Increment property count
  
 WS_ADDRESSING_VERSION addressingVersion = WS_ADDRESSING_VERSION_TRANSPORT; // Set required WS-Addressing value
 channelProperties[channelPropertyCount].id = WS_CHANNEL_PROPERTY_ADDRESSING_VERSION; // Type of second channel property
-channelProperties[channelPropertyCount].value = &amp;addressingVersion ; // Address of the WS-Addressing value
+channelProperties[channelPropertyCount].value = &addressingVersion ; // Address of the WS-Addressing value
 channelProperties[channelPropertyCount].valueSize = sizeof(addressingVersion ); // Size of the value
 channelPropertyCount++; // Increment property count
  
@@ -83,7 +83,7 @@ hr = WsCreateServiceProxy(
         0, // proxy property count
         channelProperties, // channel properties
         channelPropertyCount, // channel property count
-        &amp;proxy, 
+        &proxy, 
         error);
 ```
 

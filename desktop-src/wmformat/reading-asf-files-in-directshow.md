@@ -73,15 +73,15 @@ void main(void)
 
     // Create the Filter Graph Manager and query for interfaces.
     hr = CoCreateInstance(CLSID_FilterGraph, NULL, CLSCTX_INPROC_SERVER, 
-                        IID_IGraphBuilder, (void **)&amp;pGraph);
+                        IID_IGraphBuilder, (void **)&pGraph);
     if (FAILED(hr))
     {
         printf("ERROR - Could not create the Filter Graph Manager.");
         return;
     }
 
-    hr = pGraph->QueryInterface(IID_IMediaControl, (void **)&amp;pControl);
-    hr = pGraph->QueryInterface(IID_IMediaEvent, (void **)&amp;pEvent);
+    hr = pGraph->QueryInterface(IID_IMediaControl, (void **)&pControl);
+    hr = pGraph->QueryInterface(IID_IMediaEvent, (void **)&pEvent);
 
     // Build the graph. IMPORTANT: Change this string to a file
     // on your system.
@@ -94,7 +94,7 @@ void main(void)
         {
             // Wait for completion.
             long evCode;
-            pEvent->WaitForCompletion(INFINITE, &amp;evCode);
+            pEvent->WaitForCompletion(INFINITE, &evCode);
 
             // Note: Do not use INFINITE in a real application, because it
             // can block indefinitely.

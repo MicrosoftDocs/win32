@@ -71,7 +71,7 @@ To host the Windows Media Player control using the **CAxWindow** class, follow t
 
 5.  Create the host window:
     ```C++
-    GetClientRect(&amp;rcClient);
+    GetClientRect(&rcClient);
     m_wndView.Create(m_hWnd, rcClient, NULL, WS_CHILD | WS_VISIBLE | WS_CLIPCHILDREN, WS_EX_CLIENTEDGE);
     
     ```
@@ -80,7 +80,7 @@ To host the Windows Media Player control using the **CAxWindow** class, follow t
 
 6.  Retrieve the host window interface pointer:
     ```C++
-    hr = m_wndView.QueryHost(&amp;spHost);
+    hr = m_wndView.QueryHost(&spHost);
     
     ```
 
@@ -96,7 +96,7 @@ To host the Windows Media Player control using the **CAxWindow** class, follow t
 
 8.  Retrieve the **IWMPPlayer** interface pointer:
     ```C++
-    hr = m_wndView.QueryControl(&amp;m_spWMPPlayer);
+    hr = m_wndView.QueryControl(&m_spWMPPlayer);
     
     ```
 

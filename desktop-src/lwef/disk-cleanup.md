@@ -241,7 +241,7 @@ In general, the name of the key holding a handler's particulars is named for the
 <tr class="even">
 <td>AdvancedButtonText</td>
 <td>REG_SZ</td>
-<td>Text for the optional button that users can click to display the handler's UI. The &amp; character can be placed before a character to assign a keyboard shortcut for the button. The AdvancedButtonText value is ignored by handlers exposing [<strong>IEmptyVolumeCache2::InitializeEx</strong>](/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex).</td>
+<td>Text for the optional button that users can click to display the handler's UI. The & character can be placed before a character to assign a keyboard shortcut for the button. The AdvancedButtonText value is ignored by handlers exposing [<strong>IEmptyVolumeCache2::InitializeEx</strong>](/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex).</td>
 </tr>
 <tr class="odd">
 <td>CleanupString</td>

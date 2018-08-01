@@ -48,11 +48,11 @@ BOOL  fSelected = FALSE;
 IMFPresentationDescriptor *pPresentation = NULL;
 IMFStreamDescriptor *pStreamDesc = NULL;
 
-hr = pSource->CreatePresentationDescriptor(&amp;pPresentation);
+hr = pSource->CreatePresentationDescriptor(&pPresentation);
 
 if (SUCCEEDED(hr))
 {
-    hr = pPresentation->GetStreamDescriptorCount(&amp;cStreams);
+    hr = pPresentation->GetStreamDescriptorCount(&cStreams);
 }
 
 if (SUCCEEDED(hr))
@@ -60,7 +60,7 @@ if (SUCCEEDED(hr))
     for (DWORD iStream = 0; iStream < cStreams; iStream++)
     {
         hr = pPresentation->GetStreamDescriptorByIndex(
-            iStream, &amp;fSelected, &amp;pStreamDesc);
+            iStream, &fSelected, &pStreamDesc);
 
         if (FAILED(hr))
         {
@@ -101,18 +101,18 @@ BOOL  bTypeOK = FALSE;
 IMFMediaTypeHandler *pHandler = NULL;
 IMFMediaType *pMediaType = NULL;
 
-hr = pStreamDesc->GetMediaTypeHandler(&amp;pHandler);
+hr = pStreamDesc->GetMediaTypeHandler(&pHandler);
 
 if (SUCCEEDED(hr))
 {
-    hr = pHandler->GetMediaTypeCount(&amp;cTypes);
+    hr = pHandler->GetMediaTypeCount(&cTypes);
 }
 
 if (SUCCEEDED(hr))
 {
     for (DWORD iType = 0; iType < cTypes; iType++)
     {   
-        hr = pHandler->GetMediaTypeByIndex(iType, &amp;pMediaType);
+        hr = pHandler->GetMediaTypeByIndex(iType, &pMediaType);
 
         if (FAILED(hr))
         {

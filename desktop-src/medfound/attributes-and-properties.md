@@ -48,7 +48,7 @@ HRESULT ShowCreateAttributeStore(IMFAttributes **ppAttributes)
     const UINT32 cElements = 10;  // Starting size.
 
     // Create the empty attribute store.
-    HRESULT hr = MFCreateAttributes(&amp;pAttributes, cElements);
+    HRESULT hr = MFCreateAttributes(&pAttributes, cElements);
 
     // Set the MY_ATTRIBUTE attribute with a string value.
     if (SUCCEEDED(hr))
@@ -78,15 +78,15 @@ HRESULT ShowGetAttributes()
     UINT32 cchLength = 0;
 
     // Create the attribute store.
-    HRESULT hr = ShowCreateAttributeStore(&amp;pAttributes);
+    HRESULT hr = ShowCreateAttributeStore(&pAttributes);
 
     // Get the attribute.
     if (SUCCEEDED(hr))
     {
         hr = pAttributes->GetAllocatedString(
             MY_ATTRIBUTE,
-            &amp;pwszValue,
-            &amp;cchLength
+            &pwszValue,
+            &cchLength
             );
     }
 
@@ -159,7 +159,7 @@ protected:
     // store, but the derived class must pass an HRESULT parameter 
     // to the constructor.
 
-    CBaseAttributes(HRESULT&amp; hr, UINT32 cInitialSize = 0) : m_pAttributes(NULL)
+    CBaseAttributes(HRESULT& hr, UINT32 cInitialSize = 0) : m_pAttributes(NULL)
     {
         hr = Initialize(cInitialSize);
     }
@@ -171,7 +171,7 @@ protected:
     // other object that implements IMFAttributes, rather than using 
     // MFCreateAttributes.)
 
-    CBaseAttributes(HRESULT&amp; hr, IUnknown *pUnk)
+    CBaseAttributes(HRESULT& hr, IUnknown *pUnk)
     {
         hr = Initialize(pUnk);
     }
@@ -189,7 +189,7 @@ protected:
     {
         if (m_pAttributes == NULL)
         {
-            return MFCreateAttributes(&amp;m_pAttributes, cInitialSize); 
+            return MFCreateAttributes(&m_pAttributes, cInitialSize); 
         }
         else
         {
@@ -208,7 +208,7 @@ protected:
         }
 
 
-        return pUnk->QueryInterface(IID_PPV_ARGS(&amp;m_pAttributes));
+        return pUnk->QueryInterface(IID_PPV_ARGS(&m_pAttributes));
     }
 
 public:
@@ -439,7 +439,7 @@ public:
         UINT32 cbSize = 0;
         BYTE *pBuffer = NULL;
 
-        HRESULT hr = MFGetAttributesAsBlobSize(m_pAttributes, &amp;cbSize);
+        HRESULT hr = MFGetAttributesAsBlobSize(m_pAttributes, &cbSize);
 
         if (FAILED(hr))
         {
@@ -530,12 +530,12 @@ public:
 
     STDMETHODIMP_(ULONG) MyObject::AddRef()
     {
-        return InterlockedIncrement(&amp;m_nRefCount);
+        return InterlockedIncrement(&m_nRefCount);
     }
 
     STDMETHODIMP_(ULONG) MyObject::Release()
     {
-        ULONG uCount = InterlockedDecrement(&amp;m_nRefCount);
+        ULONG uCount = InterlockedDecrement(&m_nRefCount);
         if (uCount == 0)
         {
             delete this;

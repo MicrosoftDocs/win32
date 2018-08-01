@@ -105,9 +105,9 @@ The following VBScript code example lists the printers attached to the local com
 
 
 ```VB
-SE_DACL_PRESENT = &amp;h4
-ACCESS_ALLOWED_ACE_TYPE = &amp;h0
-ACCESS_DENIED_ACE_TYPE  = &amp;h1
+SE_DACL_PRESENT = &h4
+ACCESS_ALLOWED_ACE_TYPE = &h0
+ACCESS_DENIED_ACE_TYPE  = &h1
 
 strComputer = "."
 Set objWMIService = GetObject("winmgmts:" _

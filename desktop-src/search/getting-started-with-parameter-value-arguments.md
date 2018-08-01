@@ -25,7 +25,7 @@ The search-ms protocol uses the following standard URL-encoded syntax:
 
 
 ```
-search-ms:parameter=value[&amp;parameter=value]&amp;
+search-ms:parameter=value[&parameter=value]&
 ```
 
 
@@ -55,10 +55,10 @@ For related information, see [Registering an Application to a URL Protocol](http
 
 
 ```
-search-ms:query=microsoft&amp;
-search-ms:query=vacation&amp;subquery=mydepartment.search-ms&amp;
-search-ms:query=seattle&amp;crumb=kind:pics&amp; 
-search-ms:query=seattle&amp;crumb=folder:C:\MyFolder&amp;
+search-ms:query=microsoft&
+search-ms:query=vacation&subquery=mydepartment.search-ms&
+search-ms:query=seattle&crumb=kind:pics& 
+search-ms:query=seattle&crumb=folder:C:\MyFolder&
 ```
 
 

@@ -28,7 +28,7 @@ The following code example shows how the application initates the command sequen
 #include <wpdmtpextensions.h>
 
 // We'll return the BatteryLevel in the BYREF parameter
-HRESULT GetBatteryLevel(IPortableDevice* pDevice, BYTE&amp; bBatteryLevel)
+HRESULT GetBatteryLevel(IPortableDevice* pDevice, BYTE& bBatteryLevel)
 {
     HRESULT hr = S_OK;
     const WORD PTP_OPCODE_GETDEVICEPROPVALUE = 0x1015; 
@@ -43,7 +43,7 @@ HRESULT GetBatteryLevel(IPortableDevice* pDevice, BYTE&amp; bBatteryLevel)
                               NULL,
                               CLSCTX_INPROC_SERVER,
                               IID_IPortableDeviceValues,
-                              (VOID**)&amp;spParameters);
+                              (VOID**)&spParameters);
     }
 
     // Use the WPD_COMMAND_MTP_EXT_EXECUTE_COMMAND_WITH_DATA_TO_READ command here
@@ -75,7 +75,7 @@ HRESULT GetBatteryLevel(IPortableDevice* pDevice, BYTE&amp; bBatteryLevel)
                                   NULL,
                                   CLSCTX_INPROC_SERVER,
                                   IID_IPortableDevicePropVariantCollection,
-                                  (VOID**)&amp;spMtpParams);
+                                  (VOID**)&spMtpParams);
     }
 
     PROPVARIANT pvParam = {0};
@@ -85,7 +85,7 @@ HRESULT GetBatteryLevel(IPortableDevice* pDevice, BYTE&amp; bBatteryLevel)
     if (hr == S_OK)
     {
         pvParam.ulVal = PTP_DEVICEPROPCODE_BATTERYLEVEL;
-        hr = spMtpParams->Add(&amp;pvParam);
+        hr = spMtpParams->Add(&pvParam);
     }
 
     // Add MTP parameters collection to our main parameter list
@@ -99,14 +99,14 @@ HRESULT GetBatteryLevel(IPortableDevice* pDevice, BYTE&amp; bBatteryLevel)
     CComPtr<IPortableDeviceValues> spResults;
     if (hr == S_OK)
     {
-        hr = pDevice->SendCommand(0, spParameters, &amp;spResults);
+        hr = pDevice->SendCommand(0, spParameters, &spResults);
     }
 
     // Check if the driver was able to send the command by interrogating WPD_PROPERTY_COMMON_HRESULT
     HRESULT hrCmd = S_OK;
     if (hr == S_OK)
     {
-         hr = spResults->GetErrorValue(WPD_PROPERTY_COMMON_HRESULT, &amp;hrCmd);
+         hr = spResults->GetErrorValue(WPD_PROPERTY_COMMON_HRESULT, &hrCmd);
     }
 
     if (hr == S_OK)
@@ -119,7 +119,7 @@ HRESULT GetBatteryLevel(IPortableDevice* pDevice, BYTE&amp; bBatteryLevel)
     LPWSTR pwszCookie = NULL;
     if (hr == S_OK)
     {
-         hr = spResults->GetStringValue(WPD_PROPERTY_MTP_EXT_TRANSFER_CONTEXT, &amp;pwszContext);
+         hr = spResults->GetStringValue(WPD_PROPERTY_MTP_EXT_TRANSFER_CONTEXT, &pwszContext);
     }
 
     // The driver indicates how many bytes will be transferred. This is important to
@@ -130,7 +130,7 @@ HRESULT GetBatteryLevel(IPortableDevice* pDevice, BYTE&amp; bBatteryLevel)
     if (hr == S_OK)
     {
         hr = pResults->GetUnsignedIntegerValue(WPD_PROPERTY_MTP_EXT_TRANSFER_TOTAL_DATA_SIZE, 
-                                               &amp;cbReportedDataSize);
+                                               &cbReportedDataSize);
     }
 
     // Note: The driver provides an additional property, WPD_PROPERTY_MTP_EXT_OPTIMAL_TRANSFER_BUFFER_SIZE,
@@ -148,7 +148,7 @@ The following code example shows how the application retrieves the property data
 ```
     // If no data will be transferred, skip reading in the data
     BOOL bSkipDataPhase = FALSE;
-    if (hr == S_OK &amp;&amp; cbReportedDataSize == 0)
+    if (hr == S_OK && cbReportedDataSize == 0)
     { 
         hr = S_FALSE;
         bSkipDataPhase = TRUE;
@@ -204,14 +204,14 @@ The following code example shows how the application retrieves the property data
     spResults = NULL;
     if (hr == S_OK)
     {
-        hr = pDevice->SendCommand(0, spParameters, &amp;spResults);
+        hr = pDevice->SendCommand(0, spParameters, &spResults);
     }
 
     // Check if the driver was able to transfer the data
     HRESULT hrCmd = S_OK;
     if (hr == S_OK)
     {
-         hr = spResults->GetErrorValue(WPD_PROPERTY_COMMON_HRESULT, &amp;hrCmd);
+         hr = spResults->GetErrorValue(WPD_PROPERTY_COMMON_HRESULT, &hrCmd);
     }
 
     if (hr == S_OK)
@@ -226,11 +226,11 @@ The following code example shows how the application retrieves the property data
     ULONG cbBytesRead = 0;
     if (hr == S_OK)
     {
-        hr = pResults->GetBufferValue(WPD_PROPERTY_MTP_EXT_TRANSFER_DATA, &amp;pbBufferOut, &amp;cbBytesRead);
+        hr = pResults->GetBufferValue(WPD_PROPERTY_MTP_EXT_TRANSFER_DATA, &pbBufferOut, &cbBytesRead);
     }
 
     // Reset hr to S_OK because we skipped the data phase
-    if (hr == S_FALSE &amp;&amp; bSkipDataPhase == TRUE)
+    if (hr == S_FALSE && bSkipDataPhase == TRUE)
     {
         hr = S_OK;
     }
@@ -266,13 +266,13 @@ The following code example shows how the application retrieves the device respon
     spResults = NULL;
     if (hr == S_OK)
     {
-        hr = pDevice->SendCommand(0, spParameters, &amp;spResults);
+        hr = pDevice->SendCommand(0, spParameters, &spResults);
     }
 
     // Check if the driver successfully ended the data transfer
     if (hr == S_OK)
     {
-         hr = spResults->GetErrorValue(WPD_PROPERTY_COMMON_HRESULT, &amp;hrCmd);
+         hr = spResults->GetErrorValue(WPD_PROPERTY_COMMON_HRESULT, &hrCmd);
     }
 
     if (hr == S_OK)
@@ -288,7 +288,7 @@ The following code example shows how the application retrieves the device respon
     DWORD dwResponseCode;
     if (hr == S_OK)
     {
-        hr = spResults->GetUnsignedIntegerValue(WPD_PROPERTY_MTP_EXT_RESPONSE_CODE, &amp;dwResponseCode);
+        hr = spResults->GetUnsignedIntegerValue(WPD_PROPERTY_MTP_EXT_RESPONSE_CODE, &dwResponseCode);
     }
 
     if (hr == S_OK)

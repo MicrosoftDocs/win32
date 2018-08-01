@@ -31,7 +31,7 @@ hRes = CoCreateInstance(CLSID_AgentServer,
                      NULL,
                      CLSCTX_SERVER,
                      IID_IAgentEx,
-                     (LPVOID *)&amp;amp;pAgentEx);
+                     (LPVOID *)&amp;pAgentEx);
 ```
 
 

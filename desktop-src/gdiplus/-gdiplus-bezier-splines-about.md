@@ -21,7 +21,7 @@ To draw a Bézier spline, you need a [**Graphics**](/windows/desktop/api/gdiplus
 
 
 ```
-myGraphics.DrawBezier(&amp;myPen, 0, 0, 40, 20, 80, 150, 100, 10);
+myGraphics.DrawBezier(&myPen, 0, 0, 40, 20, 80, 150, 100, 10);
 ```
 
 

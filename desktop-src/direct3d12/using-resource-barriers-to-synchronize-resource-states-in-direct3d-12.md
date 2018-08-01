@@ -198,12 +198,12 @@ Creating the depth stencil view, transitioning it to a writeable state.
     clearValue.DepthStencil.Stencil = 0;
 
     ThrowIfFailed(m_device->CreateCommittedResource(
-        &amp;CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
+        &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
         D3D12_HEAP_FLAG_NONE,
-        &amp;shadowTextureDesc,
+        &shadowTextureDesc,
         D3D12_RESOURCE_STATE_DEPTH_WRITE,
-        &amp;clearValue,
-        IID_PPV_ARGS(&amp;m_depthStencil)));
+        &clearValue,
+        IID_PPV_ARGS(&m_depthStencil)));
 
     // Create the depth stencil view.
     m_device->CreateDepthStencilView(m_depthStencil.Get(), nullptr, m_dsvHeap->GetCPUDescriptorHandleForHeapStart());
@@ -219,21 +219,21 @@ Creating the vertex buffer view, first changing it from a common state to a dest
 // Create the vertex buffer.
 {
     ThrowIfFailed(m_device->CreateCommittedResource(
-        &amp;CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
+        &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
         D3D12_HEAP_FLAG_NONE,
-        &amp;CD3DX12_RESOURCE_DESC::Buffer(SampleAssets::VertexDataSize),
+        &CD3DX12_RESOURCE_DESC::Buffer(SampleAssets::VertexDataSize),
         D3D12_RESOURCE_STATE_COPY_DEST,
         nullptr,
-        IID_PPV_ARGS(&amp;m_vertexBuffer)));
+        IID_PPV_ARGS(&m_vertexBuffer)));
 
     {
         ThrowIfFailed(m_device->CreateCommittedResource(
-            &amp;CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_UPLOAD),
+            &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_UPLOAD),
             D3D12_HEAP_FLAG_NONE,
-            &amp;CD3DX12_RESOURCE_DESC::Buffer(SampleAssets::VertexDataSize),
+            &CD3DX12_RESOURCE_DESC::Buffer(SampleAssets::VertexDataSize),
             D3D12_RESOURCE_STATE_GENERIC_READ,
             nullptr,
-            IID_PPV_ARGS(&amp;m_vertexBufferUpload)));
+            IID_PPV_ARGS(&m_vertexBufferUpload)));
 
         // Copy data to the upload heap and then schedule a copy 
         // from the upload heap to the vertex buffer.
@@ -244,8 +244,8 @@ Creating the vertex buffer view, first changing it from a common state to a dest
 
         PIXBeginEvent(commandList.Get(), 0, L"Copy vertex buffer data to default resource...");
 
-        UpdateSubresources<1>(commandList.Get(), m_vertexBuffer.Get(), m_vertexBufferUpload.Get(), 0, 0, 1, &amp;vertexData);
-        commandList->ResourceBarrier(1, &amp;CD3DX12_RESOURCE_BARRIER::Transition(m_vertexBuffer.Get(), D3D12_RESOURCE_STATE_COPY_DEST, D3D12_RESOURCE_STATE_VERTEX_AND_CONSTANT_BUFFER));
+        UpdateSubresources<1>(commandList.Get(), m_vertexBuffer.Get(), m_vertexBufferUpload.Get(), 0, 0, 1, &vertexData);
+        commandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_vertexBuffer.Get(), D3D12_RESOURCE_STATE_COPY_DEST, D3D12_RESOURCE_STATE_VERTEX_AND_CONSTANT_BUFFER));
 
         PIXEndEvent(commandList.Get());
     }
@@ -260,21 +260,21 @@ Creating the index buffer view, first changing it from a common state to a desti
 // Create the index buffer.
 {
     ThrowIfFailed(m_device->CreateCommittedResource(
-        &amp;CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
+        &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
         D3D12_HEAP_FLAG_NONE,
-        &amp;CD3DX12_RESOURCE_DESC::Buffer(SampleAssets::IndexDataSize),
+        &CD3DX12_RESOURCE_DESC::Buffer(SampleAssets::IndexDataSize),
         D3D12_RESOURCE_STATE_COPY_DEST,
         nullptr,
-        IID_PPV_ARGS(&amp;m_indexBuffer)));
+        IID_PPV_ARGS(&m_indexBuffer)));
 
     {
         ThrowIfFailed(m_device->CreateCommittedResource(
-            &amp;CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_UPLOAD),
+            &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_UPLOAD),
             D3D12_HEAP_FLAG_NONE,
-            &amp;CD3DX12_RESOURCE_DESC::Buffer(SampleAssets::IndexDataSize),
+            &CD3DX12_RESOURCE_DESC::Buffer(SampleAssets::IndexDataSize),
             D3D12_RESOURCE_STATE_GENERIC_READ,
             nullptr,
-            IID_PPV_ARGS(&amp;m_indexBufferUpload)));
+            IID_PPV_ARGS(&m_indexBufferUpload)));
 
         // Copy data to the upload heap and then schedule a copy 
         // from the upload heap to the index buffer.
@@ -285,8 +285,8 @@ Creating the index buffer view, first changing it from a common state to a desti
 
         PIXBeginEvent(commandList.Get(), 0, L"Copy index buffer data to default resource...");
 
-        UpdateSubresources<1>(commandList.Get(), m_indexBuffer.Get(), m_indexBufferUpload.Get(), 0, 0, 1, &amp;indexData);
-        commandList->ResourceBarrier(1, &amp;CD3DX12_RESOURCE_BARRIER::Transition(m_indexBuffer.Get(), D3D12_RESOURCE_STATE_COPY_DEST, D3D12_RESOURCE_STATE_INDEX_BUFFER));
+        UpdateSubresources<1>(commandList.Get(), m_indexBuffer.Get(), m_indexBufferUpload.Get(), 0, 0, 1, &indexData);
+        commandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_indexBuffer.Get(), D3D12_RESOURCE_STATE_COPY_DEST, D3D12_RESOURCE_STATE_INDEX_BUFFER));
 
         PIXEndEvent(commandList.Get());
     }
@@ -310,7 +310,7 @@ Creating textures and shader resource views. The texture is changed from a commo
     for (int i = 0; i < srvCount; i++)
     {
         // Describe and create a Texture2D.
-        const SampleAssets::TextureResource &amp;tex = SampleAssets::Textures[i];
+        const SampleAssets::TextureResource &tex = SampleAssets::Textures[i];
         CD3DX12_RESOURCE_DESC texDesc(
             D3D12_RESOURCE_DIMENSION_TEXTURE2D,
             0,
@@ -325,23 +325,23 @@ Creating textures and shader resource views. The texture is changed from a commo
             D3D12_RESOURCE_FLAG_NONE);
 
         ThrowIfFailed(m_device->CreateCommittedResource(
-            &amp;CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
+            &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
             D3D12_HEAP_FLAG_NONE,
-            &amp;texDesc,
+            &texDesc,
             D3D12_RESOURCE_STATE_COPY_DEST,
             nullptr,
-            IID_PPV_ARGS(&amp;m_textures[i])));
+            IID_PPV_ARGS(&m_textures[i])));
 
         {
             const UINT subresourceCount = texDesc.DepthOrArraySize * texDesc.MipLevels;
             UINT64 uploadBufferSize = GetRequiredIntermediateSize(m_textures[i].Get(), 0, subresourceCount);
             ThrowIfFailed(m_device->CreateCommittedResource(
-                &amp;CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_UPLOAD),
+                &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_UPLOAD),
                 D3D12_HEAP_FLAG_NONE,
-                &amp;CD3DX12_RESOURCE_DESC::Buffer(uploadBufferSize),
+                &CD3DX12_RESOURCE_DESC::Buffer(uploadBufferSize),
                 D3D12_RESOURCE_STATE_GENERIC_READ,
                 nullptr,
-                IID_PPV_ARGS(&amp;m_textureUploads[i])));
+                IID_PPV_ARGS(&m_textureUploads[i])));
 
             // Copy data to the intermediate upload heap and then schedule a copy 
             // from the upload heap to the Texture2D.
@@ -350,8 +350,8 @@ Creating textures and shader resource views. The texture is changed from a commo
             textureData.RowPitch = tex.Data->Pitch;
             textureData.SlicePitch = tex.Data->Size;
 
-            UpdateSubresources(commandList.Get(), m_textures[i].Get(), m_textureUploads[i].Get(), 0, 0, subresourceCount, &amp;textureData);
-            commandList->ResourceBarrier(1, &amp;CD3DX12_RESOURCE_BARRIER::Transition(m_textures[i].Get(), D3D12_RESOURCE_STATE_COPY_DEST, D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE));
+            UpdateSubresources(commandList.Get(), m_textures[i].Get(), m_textureUploads[i].Get(), 0, 0, subresourceCount, &textureData);
+            commandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_textures[i].Get(), D3D12_RESOURCE_STATE_COPY_DEST, D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE));
         }
 
         // Describe and create an SRV.
@@ -362,7 +362,7 @@ Creating textures and shader resource views. The texture is changed from a commo
         srvDesc.Texture2D.MipLevels = tex.MipLevels;
         srvDesc.Texture2D.MostDetailedMip = 0;
         srvDesc.Texture2D.ResourceMinLODClamp = 0.0f;
-        m_device->CreateShaderResourceView(m_textures[i].Get(), &amp;srvDesc, cbvSrvHandle);
+        m_device->CreateShaderResourceView(m_textures[i].Get(), &srvDesc, cbvSrvHandle);
 
         // Move to the next descriptor slot.
         cbvSrvHandle.Offset(cbvSrvDescriptorSize);
@@ -381,7 +381,7 @@ void D3D12Multithreading::BeginFrame()
     m_pCurrentFrameResource->Init();
 
     // Indicate that the back buffer will be used as a render target.
-    m_pCurrentFrameResource->m_commandLists[CommandListPre]->ResourceBarrier(1, &amp;CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_PRESENT, D3D12_RESOURCE_STATE_RENDER_TARGET));
+    m_pCurrentFrameResource->m_commandLists[CommandListPre]->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_PRESENT, D3D12_RESOURCE_STATE_RENDER_TARGET));
 
     // Clear the render target and depth stencil.
     const float clearColor[] = { 0.0f, 0.0f, 0.0f, 1.0f };
@@ -414,7 +414,7 @@ void D3D12Multithreading::EndFrame()
     m_pCurrentFrameResource->Finish();
 
     // Indicate that the back buffer will now be used to present.
-    m_pCurrentFrameResource->m_commandLists[CommandListPost]->ResourceBarrier(1, &amp;CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_RENDER_TARGET, D3D12_RESOURCE_STATE_PRESENT));
+    m_pCurrentFrameResource->m_commandLists[CommandListPost]->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_RENDER_TARGET, D3D12_RESOURCE_STATE_PRESENT));
 
     ThrowIfFailed(m_pCurrentFrameResource->m_commandLists[CommandListPost]->Close());
 }
@@ -459,7 +459,7 @@ Barriers are swapped mid-frame, transitioning the shadow map from writeable to r
 void FrameResource::SwapBarriers()
 {
     // Transition the shadow map from writeable to readable.
-    m_commandLists[CommandListMid]->ResourceBarrier(1, &amp;CD3DX12_RESOURCE_BARRIER::Transition(m_shadowTexture.Get(), D3D12_RESOURCE_STATE_DEPTH_WRITE, D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE));
+    m_commandLists[CommandListMid]->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_shadowTexture.Get(), D3D12_RESOURCE_STATE_DEPTH_WRITE, D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE));
 }
 ```
 
@@ -471,7 +471,7 @@ Finish is called when a frame is ended, transitioning the shadow map to a common
 ```C++
 void FrameResource::Finish()
 {
-    m_commandLists[CommandListPost]->ResourceBarrier(1, &amp;CD3DX12_RESOURCE_BARRIER::Transition(m_shadowTexture.Get(), D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE, D3D12_RESOURCE_STATE_DEPTH_WRITE));
+    m_commandLists[CommandListPost]->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_shadowTexture.Get(), D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE, D3D12_RESOURCE_STATE_DEPTH_WRITE));
 }
 ```
 

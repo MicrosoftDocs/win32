@@ -52,7 +52,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -60,7 +60,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -134,25 +134,25 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
     WS_XML_WRITER_BUFFER_OUTPUT streamOutput;
-    ZeroMemory(&amp;streamOutput, sizeof(streamOutput));
+    ZeroMemory(&streamOutput, sizeof(streamOutput));
     streamOutput.output.outputType = WS_XML_WRITER_OUTPUT_TYPE_BUFFER;
     
     WS_XML_WRITER_TEXT_ENCODING textWriterEncoding;
-    ZeroMemory(&amp;textWriterEncoding, sizeof(textWriterEncoding));
+    ZeroMemory(&textWriterEncoding, sizeof(textWriterEncoding));
     textWriterEncoding.encoding.encodingType = WS_XML_WRITER_ENCODING_TYPE_TEXT;
     textWriterEncoding.charSet = WS_CHARSET_UTF8;
     
     WS_XML_WRITER_MTOM_ENCODING mtomWriterEncoding;
-    ZeroMemory(&amp;mtomWriterEncoding, sizeof(mtomWriterEncoding));
+    ZeroMemory(&mtomWriterEncoding, sizeof(mtomWriterEncoding));
     mtomWriterEncoding.encoding.encodingType = WS_XML_WRITER_ENCODING_TYPE_MTOM;
-    mtomWriterEncoding.textEncoding = &amp;textWriterEncoding.encoding;
+    mtomWriterEncoding.textEncoding = &textWriterEncoding.encoding;
     mtomWriterEncoding.writeMimeHeader = TRUE;
     mtomWriterEncoding.boundary = boundary;
     mtomWriterEncoding.startInfo = startInfo;
@@ -163,20 +163,20 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateWriter(
         NULL, 
         0, 
-        &amp;xmlWriter, 
+        &xmlWriter, 
         error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
-    hr = WsSetOutput(xmlWriter, &amp;mtomWriterEncoding.encoding, &amp;streamOutput.output, NULL, 0, error);
+    hr = WsSetOutput(xmlWriter, &mtomWriterEncoding.encoding, &streamOutput.output, NULL, 0, error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
-    hr = WsWriteStartElement(xmlWriter, NULL, &amp;dataElement, &amp;emptyNamespace, error);
+    hr = WsWriteStartElement(xmlWriter, NULL, &dataElement, &emptyNamespace, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -184,7 +184,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     for (ULONG type = 0; type < 4; type++)
     {
-        hr = WsWriteStartElement(xmlWriter, NULL, &amp;bytesElement, &amp;emptyNamespace, error);
+        hr = WsWriteStartElement(xmlWriter, NULL, &bytesElement, &emptyNamespace, error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -215,7 +215,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
             case 2:
                 // Push the bytes into a MIME part.  In buffered mode, this is no more efficient than
                 // WsWriteBytes, but in streamed, it avoids a copy.
-                hr = WsPushBytes(xmlWriter, PushCallback, &amp;data3, error);
+                hr = WsPushBytes(xmlWriter, PushCallback, &data3, error);
                 if (FAILED(hr))
                 {
                     goto Exit;
@@ -224,7 +224,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
             case 3:
                 // Pull the bytes into a MIME part.  In streamed mode, this is no more efficient than
                 // WsWriteBytes, but in buffered, it avoids a copy.
-                hr = WsPullBytes(xmlWriter, PullCallback, &amp;data4, error);
+                hr = WsPullBytes(xmlWriter, PullCallback, &data4, error);
                 if (FAILED(hr))
                 {
                     goto Exit;
@@ -252,7 +252,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     }
     
     WS_BYTES buffer;
-    hr = WsGetWriterProperty(xmlWriter, WS_XML_WRITER_PROPERTY_BYTES, &amp;buffer, sizeof(buffer), error);
+    hr = WsGetWriterProperty(xmlWriter, WS_XML_WRITER_PROPERTY_BYTES, &buffer, sizeof(buffer), error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -264,36 +264,36 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     }
     
     WS_XML_READER_BUFFER_INPUT bufferInput;
-    ZeroMemory(&amp;bufferInput, sizeof(bufferInput));
+    ZeroMemory(&bufferInput, sizeof(bufferInput));
     bufferInput.input.inputType = WS_XML_READER_INPUT_TYPE_BUFFER;
     bufferInput.encodedData = buffer.bytes;
     bufferInput.encodedDataSize = buffer.length;
     
     WS_XML_READER_TEXT_ENCODING textReaderEncoding;
-    ZeroMemory(&amp;textReaderEncoding, sizeof(textReaderEncoding));
+    ZeroMemory(&textReaderEncoding, sizeof(textReaderEncoding));
     textReaderEncoding.encoding.encodingType = WS_XML_READER_ENCODING_TYPE_TEXT;
     textReaderEncoding.charSet = WS_CHARSET_AUTO;
     
     WS_XML_READER_MTOM_ENCODING mtomReaderEncoding;
-    ZeroMemory(&amp;mtomReaderEncoding, sizeof(mtomReaderEncoding));
+    ZeroMemory(&mtomReaderEncoding, sizeof(mtomReaderEncoding));
     mtomReaderEncoding.encoding.encodingType = WS_XML_READER_ENCODING_TYPE_MTOM;
-    mtomReaderEncoding.textEncoding = &amp;textReaderEncoding.encoding;
+    mtomReaderEncoding.textEncoding = &textReaderEncoding.encoding;
     mtomReaderEncoding.readMimeHeader = TRUE;
     
     // Create an XML reader
-    hr = WsCreateReader(NULL, 0, &amp;xmlReader, error);
+    hr = WsCreateReader(NULL, 0, &xmlReader, error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
-    hr = WsSetInput(xmlReader, &amp;mtomReaderEncoding.encoding, &amp;bufferInput.input, NULL, 0, error);
+    hr = WsSetInput(xmlReader, &mtomReaderEncoding.encoding, &bufferInput.input, NULL, 0, error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
-    hr = WsReadToStartElement(xmlReader, &amp;dataElement, &amp;emptyNamespace, NULL, error);
+    hr = WsReadToStartElement(xmlReader, &dataElement, &emptyNamespace, NULL, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -307,7 +307,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     for (ULONG type = 0; type < 4; type++)
     {
-        hr = WsReadToStartElement(xmlReader, &amp;bytesElement, &amp;emptyNamespace, NULL, error);
+        hr = WsReadToStartElement(xmlReader, &bytesElement, &emptyNamespace, NULL, error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -324,7 +324,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         {
             BYTE buffer[128];
             ULONG byteCount;
-            hr = WsReadBytes(xmlReader, buffer, sizeof(buffer), &amp;byteCount, error);
+            hr = WsReadBytes(xmlReader, buffer, sizeof(buffer), &byteCount, error);
             if (FAILED(hr))
             {
                 goto Exit;

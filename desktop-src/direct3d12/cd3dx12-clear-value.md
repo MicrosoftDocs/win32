@@ -29,10 +29,10 @@ A helper structure to enable easy initialization of a [**D3D12\_CLEAR\_VALUE**](
 ```C++
 struct CD3DX12_CLEAR_VALUE  : public D3D12_CLEAR_VALUE{
    CD3DX12_CLEAR_VALUE();
-   explicit CD3DX12_CLEAR_VALUE(const D3D12_CLEAR_VALUE &amp;o);
+   explicit CD3DX12_CLEAR_VALUE(const D3D12_CLEAR_VALUE &o);
    CD3DX12_CLEAR_VALUE(DXGI_FORMAT format, const FLOAT color[ 4 ]);
    CD3DX12_CLEAR_VALUE(DXGI_FORMAT format, FLOAT depth, UINT8 stencil);
-   operator const D3D12_CLEAR_VALUE&amp;() const;
+   operator const D3D12_CLEAR_VALUE&() const;
 };
 ```
 

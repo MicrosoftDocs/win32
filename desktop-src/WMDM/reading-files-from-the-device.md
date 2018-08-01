@@ -51,7 +51,7 @@ HRESULT myFileRead(IWMDMStorage pStorage, LPWSTR pwszDestName, IWMDMOperation* p
     // Check that the storage is readable.
     DWORD attributes = 0;
     UINT flags = 0;
-    hr = pStorage->GetAttributes(&amp;attributes, NULL); 
+    hr = pStorage->GetAttributes(&attributes, NULL); 
     if (FAILED(hr))
     {
         return hr;

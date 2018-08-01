@@ -50,7 +50,7 @@ The following example shows how to set edge UI behaviors.
 HRESULT SetTouchDisableProperty(HWND hwnd, BOOL fDisableTouch)
 {
     IPropertyStore* pPropStore;
-    HRESULT hrReturnValue = SHGetPropertyStoreForWindow(hwnd, IID_PPV_ARGS(&amp;pPropStore));
+    HRESULT hrReturnValue = SHGetPropertyStoreForWindow(hwnd, IID_PPV_ARGS(&pPropStore));
     if (SUCCEEDED(hrReturnValue))
     {
         PROPVARIANT var;

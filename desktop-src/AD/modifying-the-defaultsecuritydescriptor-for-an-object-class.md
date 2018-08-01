@@ -79,15 +79,15 @@ hr = ADsOpenObject(L"LDAP://rootDSE",
             NULL,
             ADS_SECURE_AUTHENTICATION, // Use Secure Authentication.
             IID_IADs,
-            (void**)&amp;pObject);
+            (void**)&pObject);
  
 if (SUCCEEDED(hr)) {
-    hr = pObject->Get(CComBSTR("schemaNamingContext"), &amp;var);
+    hr = pObject->Get(CComBSTR("schemaNamingContext"), &var);
     if (SUCCEEDED(hr)) {
         #ifdef _MBCS
         wcscat_s(szPath,var.bstrVal);
         #endif _MBCS
-        VariantClear(&amp;var);
+        VariantClear(&var);
         if (pObject) {
             pObject->Release();
             pObject = NULL;
@@ -97,7 +97,7 @@ if (SUCCEEDED(hr)) {
                NULL,
                ADS_SECURE_AUTHENTICATION, //  Use Secure Authentication.
                IID_IADs,
-               (void**)&amp;pObject);
+               (void**)&pObject);
     if (SUCCEEDED(hr)) {
         wprintf(L"Modify the default SD for the %s class\n", pszBuffer);
         hr = ModifyDefaultSecurityDescriptor( pObject );
@@ -144,7 +144,7 @@ DWORD dwRes;
  
 //  Get the default security descriptor. Type should be VT_BSTR.
  
-hr = pObject->Get(CComBSTR("defaultSecurityDescriptor"), &amp;var);
+hr = pObject->Get(CComBSTR("defaultSecurityDescriptor"), &var);
 if (FAILED(hr) || var.vt!=VT_BSTR ) {
     wprintf(L"Error getting default SD: 0x%x\n", hr );
     goto Cleanup;
@@ -155,7 +155,7 @@ wprintf(L"Old Default SD: %s\n", var.bstrVal);
 //  Convert the security descriptor string to a security descriptor.
  
 if ( ! ConvertStringSecurityDescriptorToSecurityDescriptor (
-           var.bstrVal, SDDL_REVISION_1, &amp;pSDCNV, NULL )) {
+           var.bstrVal, SDDL_REVISION_1, &pSDCNV, NULL )) {
     wprintf(L"Error converting string security descriptor: %d\n", 
            GetLastError() );
     goto Cleanup;
@@ -164,11 +164,11 @@ if ( ! ConvertStringSecurityDescriptorToSecurityDescriptor (
 //  Convert self-relative security descriptor to absolute.
 //  First, get the required buffer sizes.
  
-if (! MakeAbsoluteSD(pSDCNV, &amp;SD, &amp;dwSDSize, 
-           pDACL, &amp;dwDACLSize, 
-           pSACL, &amp;dwSACLSize, 
-           pOwnerSID, &amp;dwOwnerSIDSize, 
-           pGroupSID, &amp;dwGroupSIDSize) ) {
+if (! MakeAbsoluteSD(pSDCNV, &SD, &dwSDSize, 
+           pDACL, &dwDACLSize, 
+           pSACL, &dwSACLSize, 
+           pOwnerSID, &dwOwnerSIDSize, 
+           pGroupSID, &dwGroupSIDSize) ) {
  
   //  Allocate the buffers.
  
@@ -176,16 +176,16 @@ if (! MakeAbsoluteSD(pSDCNV, &amp;SD, &amp;dwSDSize,
   pSACL = (PACL) GlobalAlloc(GPTR, dwSACLSize);
   pOwnerSID = (PACL) GlobalAlloc(GPTR, dwOwnerSIDSize);
   pGroupSID = (PACL) GlobalAlloc(GPTR, dwGroupSIDSize);
-  if (! (pDACL &amp;&amp; pSACL &amp;&amp; pOwnerSID &amp;&amp; pGroupSID) ) {
+  if (! (pDACL && pSACL && pOwnerSID && pGroupSID) ) {
     wprintf(L"GlobalAlloc failed: %d\n", GetLastError() );
     goto Cleanup;
   }
  
   //  Perform the conversion.
  
-  if (! MakeAbsoluteSD(pSDCNV, &amp;SD, &amp;dwSDSize, pDACL, &amp;dwDACLSize, 
-           pSACL, &amp;dwSACLSize, pOwnerSID, &amp;dwOwnerSIDSize, 
-           pGroupSID, &amp;dwGroupSIDSize) ) {
+  if (! MakeAbsoluteSD(pSDCNV, &SD, &dwSDSize, pDACL, &dwDACLSize, 
+           pSACL, &dwSACLSize, pOwnerSID, &dwOwnerSIDSize, 
+           pGroupSID, &dwGroupSIDSize) ) {
     wprintf(L"MakeAbsoluteSD: %d\n", GetLastError() );
     goto Cleanup;
   }
@@ -193,8 +193,8 @@ if (! MakeAbsoluteSD(pSDCNV, &amp;SD, &amp;dwSDSize,
  
 //  Get the DACL from the security descriptor.
  
-if (! GetSecurityDescriptorDacl(&amp;SD, &amp;bDaclPresent, 
-                  &amp;pOldDACL, &amp;bDaclDefaulted) ) {
+if (! GetSecurityDescriptorDacl(&SD, &bDaclPresent, 
+                  &pOldDACL, &bDaclDefaulted) ) {
     wprintf(L"GetSecurityDescriptorDacl failed: %d\n", GetLastError() );
     goto Cleanup;
 } 
@@ -202,7 +202,7 @@ if (! GetSecurityDescriptorDacl(&amp;SD, &amp;bDaclPresent,
 //  Initialize an EXPLICIT_ACCESS structure for the new ACE.
 //  The ACE grants Everyone the right to read properties.
  
-ZeroMemory(&amp;ea, sizeof(EXPLICIT_ACCESS));
+ZeroMemory(&ea, sizeof(EXPLICIT_ACCESS));
 ea.grfAccessPermissions = ADS_RIGHT_DS_READ_PROP;
 ea.grfAccessMode = GRANT_ACCESS;
 ea.grfInheritance= 0;
@@ -211,7 +211,7 @@ ea.Trustee.ptstrName = TEXT("Everyone");
  
 //  Create a new ACL that merges the new ACE into the existing DACL.
  
-dwRes = SetEntriesInAcl(1, &amp;ea, pOldDACL, &amp;pNewDACL);
+dwRes = SetEntriesInAcl(1, &ea, pOldDACL, &pNewDACL);
 if (ERROR_SUCCESS != dwRes)  {
     wprintf(L"SetEntriesInAcl Error %u\n", dwRes );
     goto Cleanup;
@@ -219,7 +219,7 @@ if (ERROR_SUCCESS != dwRes)  {
  
 //  Put the modified DACL into the security descriptor.
  
-if (! SetSecurityDescriptorDacl(&amp;SD, TRUE, pNewDACL, FALSE) ) {
+if (! SetSecurityDescriptorDacl(&SD, TRUE, pNewDACL, FALSE) ) {
     wprintf(L"SetSecurityDescriptorOwner failed: %d\n", 
             GetLastError() );
     goto Cleanup;
@@ -227,19 +227,19 @@ if (! SetSecurityDescriptorDacl(&amp;SD, TRUE, pNewDACL, FALSE) ) {
  
 //  Convert the security descriptor back to string format.
  
-VariantClear(&amp;var);
+VariantClear(&var);
 if ( ! ConvertSecurityDescriptorToStringSecurityDescriptor (
-        &amp;SD, SDDL_REVISION_1, 
+        &SD, SDDL_REVISION_1, 
         GROUP_SECURITY_INFORMATION | OWNER_SECURITY_INFORMATION |
         DACL_SECURITY_INFORMATION | SACL_SECURITY_INFORMATION, 
-        &amp;var.bstrVal, &amp;ulLen )) {
+        &var.bstrVal, &ulLen )) {
     wprintf(L"Error converting security descriptor to string: %d\n", 
         GetLastError() );
     goto Cleanup;
 }
  
 wprintf(L"New default SD: %s\n", var.bstrVal);
-V_VT(&amp;var) = VT_BSTR;
+V_VT(&var) = VT_BSTR;
  
 //  Use Put and SetInfo to set the modified security descriptor.
  
@@ -257,7 +257,7 @@ if (FAILED(hr)) {
  
 Cleanup:
  
-VariantClear(&amp;var);
+VariantClear(&var);
 if (pSDCNV) 
     LocalFree(pSDCNV);
 if (pDACL) 

@@ -40,7 +40,7 @@ The CLSID for this effect is CLSID\_D2D1Crop.
 
 ```C++
 ComPtr<ID2D1Effect> cropEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Crop, &amp;cropEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Crop, &cropEffect);
 
 cropEffect->SetInput(0, bitmap);
 cropEffect->SetValue(D2D1_CROP_PROP_RECT, D2D1::RectF(0.0f, 0.0f, 256.0f, 192.0f));

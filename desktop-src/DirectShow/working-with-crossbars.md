@@ -21,19 +21,19 @@ To locate crossbar filters in the graph, you can use the [**ICaptureGraphBuilder
 ```C++
 // Search upstream for a crossbar.
 IAMCrossbar *pXBar1 = NULL;
-hr = pBuild->FindInterface(&amp;LOOK_UPSTREAM_ONLY, NULL, pSrc,
-        IID_IAMCrossbar, (void**)&amp;pXBar1);
+hr = pBuild->FindInterface(&LOOK_UPSTREAM_ONLY, NULL, pSrc,
+        IID_IAMCrossbar, (void**)&pXBar1);
 if (SUCCEEDED(hr)) 
 {
     // Found one crossbar. Get its IBaseFilter interface.
     IBaseFilter *pFilter = NULL;
-    hr = pXBar1->QueryInterface(IID_IBaseFilter, (void**)&amp;pFilter);
+    hr = pXBar1->QueryInterface(IID_IBaseFilter, (void**)&pFilter);
     if (SUCCEEDED(hr)) 
     {
         // Search upstream for another crossbar.
         IAMCrossbar *pXBar2 = NULL;
-        hr = pBuild->FindInterface(&amp;LOOK_UPSTREAM_ONLY, NULL, pFilter,
-                 IID_IAMCrossbar, (void**)&amp;pXBar2);
+        hr = pBuild->FindInterface(&LOOK_UPSTREAM_ONLY, NULL, pFilter,
+                 IID_IAMCrossbar, (void**)&pXBar2);
         pFilter->Release();
 
         if (SUCCEEDED(hr))
@@ -103,14 +103,14 @@ void DisplayCrossbarInfo(IAMCrossbar *pXBar)
 {
     HRESULT hr;
     long cOutput = -1, cInput = -1;
-    hr = pXBar->get_PinCounts(&amp;cOutput, &amp;cInput);
+    hr = pXBar->get_PinCounts(&cOutput, &cInput);
 
     for (long i = 0; i < cOutput; i++)
     {
         long lRelated = -1, lType = -1, lRouted = -1;
 
-        hr = pXBar->get_CrossbarPinInfo(FALSE, i, &amp;lRelated, &amp;lType);
-        hr = pXBar->get_IsRouted(i, &amp;lRouted);
+        hr = pXBar->get_CrossbarPinInfo(FALSE, i, &lRelated, &lType);
+        hr = pXBar->get_IsRouted(i, &lRouted);
 
         printf("Output pin %d: %s\n", i, GetPhysicalPinName(lType));
         printf("\tRelated out: %d, Routed in: %d\n", lRelated, lRouted);
@@ -128,7 +128,7 @@ void DisplayCrossbarInfo(IAMCrossbar *pXBar)
     {
         long lRelated = -1, lType = -1;
 
-        hr = pXBar->get_CrossbarPinInfo(TRUE, i, &amp;lRelated, &amp;lType);
+        hr = pXBar->get_CrossbarPinInfo(TRUE, i, &lRelated, &lType);
 
         printf("Input pin %d - %s\n", i, GetPhysicalPinName(lType));
         printf("\tRelated in: %d\n", lRelated);

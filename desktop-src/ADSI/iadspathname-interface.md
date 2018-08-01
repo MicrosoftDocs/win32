@@ -35,7 +35,7 @@ HRESULT GetServerName(BSTR adsPath, BSTR *adsServer)
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_IADsPathname,
-                          (void**) &amp;pIADsPathname);
+                          (void**) &pIADsPathname);
     if (FAILED(hr))
     {
         if (pIADsPathname)
@@ -68,7 +68,7 @@ HRESULT SetDistinguishedName(IADs *pIADs)
     IADsPathname *pIADsPathname = NULL;
  
     // Get the ADsPath for this object.
-    hr = pIADs->get_ADsPath(&amp;sbstrADsPath);
+    hr = pIADs->get_ADsPath(&sbstrADsPath);
     if (FAILED(hr))
         return (hr);
  
@@ -77,7 +77,7 @@ HRESULT SetDistinguishedName(IADs *pIADs)
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_IADsPathname,
-                          (void**) &amp;pIADsPathname);
+                          (void**) &pIADsPathname);
     if (FAILED(hr))
     {
         if (pIADsPathname)
@@ -92,17 +92,17 @@ HRESULT SetDistinguishedName(IADs *pIADs)
 
         // Convert the path to Distinguished Name format.
         hr = pIADsPathname->Retrieve(ADS_FORMAT_WINDOWS_DN,
-                                     &amp;sbstrDNPath);
+                                     &sbstrDNPath);
  
         if (SUCCEEDED(hr))
         {
             // Set the distinguished name property.
             VARIANT var;
-            VariantInit(&amp;var);
-            V_BSTR(&amp;var) = sbstrDNPath;
-            V_VT(&amp;var) = VT_BSTR;
+            VariantInit(&var);
+            V_BSTR(&var) = sbstrDNPath;
+            V_VT(&var) = VT_BSTR;
             hr = pIADs->Put(CComBSTR("distinguishedName"), var);
-            VariantClear(&amp;var);
+            VariantClear(&var);
         }
     }
  

@@ -26,7 +26,7 @@ The **ICM\_DRAW** message notifies a rendering driver to decompress a frame of d
 
 ```C++
 ICM_DRAW 
-wParam = (DWORD) (LPVOID) &amp;icdraw; 
+wParam = (DWORD) (LPVOID) &icdraw; 
 lParam = sizeof(ICDRAW); 
 ```
 

@@ -28,15 +28,15 @@ HRESULT GetPin(IBaseFilter *pFilter, PIN_DIRECTION PinDir, IPin **ppPin)
         return E_POINTER;
     }
 
-    hr = pFilter->EnumPins(&amp;pEnum);
+    hr = pFilter->EnumPins(&pEnum);
     if (FAILED(hr))
     {
         return hr;
     }
-    while(pEnum->Next(1, &amp;pPin, 0) == S_OK)
+    while(pEnum->Next(1, &pPin, 0) == S_OK)
     {
         PIN_DIRECTION PinDirThis;
-        hr = pPin->QueryDirection(&amp;PinDirThis);
+        hr = pPin->QueryDirection(&PinDirThis);
         if (FAILED(hr))
         {
             pPin->Release();

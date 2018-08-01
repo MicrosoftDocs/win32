@@ -42,9 +42,9 @@ void wmain(int argc, wchar_t* argv[])
     DWORD dwRecordId = 0;
     BOOL fIsRestart = FALSE;
 
-    GetRestartInfo(argc, argv, &amp;fIsRestart, &amp;dwRecordId);
+    GetRestartInfo(argc, argv, &fIsRestart, &dwRecordId);
 
-    if (FAILED(hr = InitApplication(fIsRestart, &amp;dwRecordId)))
+    if (FAILED(hr = InitApplication(fIsRestart, &dwRecordId)))
     {
         wprintf(L"Failed to initialize the application.\n");
         goto cleanup;
@@ -213,7 +213,7 @@ DWORD WINAPI Recover(PVOID pContext)
     // You must call the ApplicationRecoveryInProgress function within
     // the specified ping interval or the recovery callback exits.
     // Typically, you would do a block of work, call the function, and repeat.
-    hr = ApplicationRecoveryInProgress(&amp;bCanceled);
+    hr = ApplicationRecoveryInProgress(&bCanceled);
     if (bCanceled)  
     {
         wprintf(L"Recovery was canceled by the user.\n");

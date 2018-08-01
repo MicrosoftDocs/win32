@@ -52,7 +52,7 @@ void __cdecl wmain()
             NULL,
             dwRetVal,
             0,
-            (LPWSTR) &amp;lpwszBuffer,
+            (LPWSTR) &lpwszBuffer,
             0,
             NULL);
 

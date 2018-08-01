@@ -47,13 +47,13 @@ HRESULT GetPinMediaType(
     AM_MEDIA_TYPE *pmt = NULL;
     BOOL bFound = FALSE;
     
-    HRESULT hr = pPin->EnumMediaTypes(&amp;pEnum);
+    HRESULT hr = pPin->EnumMediaTypes(&pEnum);
     if (FAILED(hr))
     {
         return hr;
     }
 
-    while (hr = pEnum->Next(1, &amp;pmt, NULL), hr == S_OK)
+    while (hr = pEnum->Next(1, &pmt, NULL), hr == S_OK)
     {
         if ((majorType == GUID_NULL) || (majorType == pmt->majortype))
         {
@@ -79,7 +79,7 @@ HRESULT GetPinMediaType(
         _DeleteMediaType(pmt);
     }
 
-    SafeRelease(&amp;pEnum);
+    SafeRelease(&pEnum);
     if (SUCCEEDED(hr))
     {
         if (!bFound)

@@ -76,7 +76,7 @@ The following example shows retrieving the ATR string from the smart card.
 // Retrieve the ATR.
 // pISCard is a pointer to a previously instantiated ISCard.
 // pAtr is a pointer to a previously instantiated IByteBuffer.
-hr = pISCard->get_Atr(&amp;pAtr);
+hr = pISCard->get_Atr(&pAtr);
 if (FAILED(hr))
 {
     printf("Failed get_Atr\n");
@@ -86,7 +86,7 @@ if (FAILED(hr))
 BYTE  byAtr[32];
    long  lBytesRead, i;
    // Read the ATR string into a byte array.
-   hr = pAtr->Read(byAtr, 32, &amp;lBytesRead);
+   hr = pAtr->Read(byAtr, 32, &lBytesRead);
    // Use the ATR value. (This example merely displays the bytes.)
    for ( i = 0; i < lBytesRead; i++)
        printf("%c", *(byAtr + i));

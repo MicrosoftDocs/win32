@@ -24,32 +24,32 @@ You must build this graph one section at a time, but the RenderStream method can
 
 ```C++
 // Build the file-writing section of the graph.
-hr = pBuilder->SetOutputFileName(&amp;MEDIASUBTYPE_Avi, 
-    OLESTR("C:\\Example3.avi"), &amp;pMux, 0);
+hr = pBuilder->SetOutputFileName(&MEDIASUBTYPE_Avi, 
+    OLESTR("C:\\Example3.avi"), &pMux, 0);
 
 // MSDV to DV splitter.
 IBaseFilter *pDVSplit;  // Create the DV Splitter (CLSID_DVSplitter)
-hr = pBuilder->RenderStream(0, &amp;MEDIATYPE_Interleaved, pDV, 0, pDVSplit);
+hr = pBuilder->RenderStream(0, &MEDIATYPE_Interleaved, pDV, 0, pDVSplit);
 
 // Splitter to DV Decoder to Smart Tee.
 IBaseFilter *pDVDec; // Create the DV Decoder (CLSID_DVVideoCodec)
 IBaseFilter *pSmartTee; // Create the Smart Tee (CLSID_SmartTee)
-hr = pBuilder->RenderStream(0, &amp;MEDIATYPE_Video, pDVSplit, pDVDec,
+hr = pBuilder->RenderStream(0, &MEDIATYPE_Video, pDVSplit, pDVDec,
     pSmartTee);
 
 // Smart Tee (video) to Avi Mux.
 IPin *pPin1;
-hr = pBuilder->FindPin(pSmartTee, PINDIR_OUTPUT, 0, 0, TRUE, 0, &amp;pPin1);
+hr = pBuilder->FindPin(pSmartTee, PINDIR_OUTPUT, 0, 0, TRUE, 0, &pPin1);
 hr = pBuilder->RenderStream(0, 0, pPin1, 0, pMux);
 
 // Smart Tee to preview.
 IPin *pPin2;
-hr = pBuilder->FindPin(pSmartTee, PINDIR_OUTPUT, 0, 0, TRUE, 1, &amp;pPin2);
+hr = pBuilder->FindPin(pSmartTee, PINDIR_OUTPUT, 0, 0, TRUE, 1, &pPin2);
 hr = pBuilder->RenderStream(0, 0, pPin2, 0, pMux);
 
 // DV Splitter (audio) to Infinite Tee to Avi Mux.
 IBaseFilter *pTee; // Create the Infinite Pin Tee (CLSID_InfTee)
-hr = pBuilder->RenderStream(0, &amp;MEDIATYPE_Audio, pDVSplit, pTee, pMux);
+hr = pBuilder->RenderStream(0, &MEDIATYPE_Audio, pDVSplit, pTee, pMux);
 
 // Infinite Pin Tee to preview.
 hr = pBuilder->RenderStream(0, 0, pTee, 0, 0);

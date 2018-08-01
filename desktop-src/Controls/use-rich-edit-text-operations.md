@@ -42,7 +42,7 @@ BOOL FindTextInSelection(HWND hRich, WCHAR* target)
 {
     CHARRANGE selectionRange;
     
-    SendMessage(hRich, EM_EXGETSEL, 0, (LPARAM)&amp;selectionRange);
+    SendMessage(hRich, EM_EXGETSEL, 0, (LPARAM)&selectionRange);
     
     FINDTEXTEX ftex;
     
@@ -50,11 +50,11 @@ BOOL FindTextInSelection(HWND hRich, WCHAR* target)
     ftex.chrg.cpMin = selectionRange.cpMin;
     ftex.chrg.cpMax = selectionRange.cpMax;
     
-    LRESULT lr = SendMessage(hRich, EM_FINDTEXTEXW, (WPARAM)FR_DOWN, (LPARAM) &amp;ftex);
+    LRESULT lr = SendMessage(hRich, EM_FINDTEXTEXW, (WPARAM)FR_DOWN, (LPARAM) &ftex);
     
     if (lr >= 0)
     {
-        LRESULT lr1 = SendMessage(hRich, EM_EXSETSEL, 0, (LPARAM)&amp;ftex.chrgText);
+        LRESULT lr1 = SendMessage(hRich, EM_EXSETSEL, 0, (LPARAM)&ftex.chrgText);
         
         SendMessage(hRich, EM_HIDESELECTION, (LPARAM)FALSE, 0);
         

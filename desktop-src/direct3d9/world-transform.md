@@ -51,20 +51,20 @@ void C3DModel::MakeWorldMatrix( D3DXMATRIX* pMatWorld )
     // apply the translation to the object's world position
     // before applying the rotations.
     D3DXMatrixTranslation(pMatWorld, m_xPos, m_yPos, m_zPos);
-    D3DXMatrixIdentity(&amp;MatRot);
+    D3DXMatrixIdentity(&MatRot);
 
     // Now, apply the orientation variables to the world matrix
     if(m_fPitch || m_fYaw || m_fRoll) {
         // Produce and combine the rotation matrices.
-        D3DXMatrixRotationX(&amp;MatTemp, m_fPitch);         // Pitch
-        D3DXMatrixMultiply(&amp;MatRot, &amp;MatRot, &amp;MatTemp);
-        D3DXMatrixRotationY(&amp;MatTemp, m_fYaw);           // Yaw
-        D3DXMatrixMultiply(&amp;MatRot, &amp;MatRot, &amp;MatTemp);
-        D3DXMatrixRotationZ(&amp;MatTemp, m_fRoll);          // Roll
-        D3DXMatrixMultiply(&amp;MatRot, &amp;MatRot, &amp;MatTemp);
+        D3DXMatrixRotationX(&MatTemp, m_fPitch);         // Pitch
+        D3DXMatrixMultiply(&MatRot, &MatRot, &MatTemp);
+        D3DXMatrixRotationY(&MatTemp, m_fYaw);           // Yaw
+        D3DXMatrixMultiply(&MatRot, &MatRot, &MatTemp);
+        D3DXMatrixRotationZ(&MatTemp, m_fRoll);          // Roll
+        D3DXMatrixMultiply(&MatRot, &MatRot, &MatTemp);
  
         // Apply the rotation matrices to complete the world matrix.
-        D3DXMatrixMultiply(pMatWorld, &amp;MatRot, pMatWorld);
+        D3DXMatrixMultiply(pMatWorld, &MatRot, pMatWorld);
     }
 }
 ```

@@ -16,7 +16,7 @@ The `inputlocale` and `keywordlocale` identifiers help the search engine use the
 
 
 ```
-search:query=matthew&amp;inputlocale=2072&amp;keywordlocale=1033
+search:query=matthew&inputlocale=2072&keywordlocale=1033
 ```
 
 

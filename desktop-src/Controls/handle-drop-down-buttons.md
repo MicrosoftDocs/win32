@@ -54,10 +54,10 @@ BOOL DoNotify(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
         {
             // Get the coordinates of the button.
             RECT rc;
-            SendMessage(lpnmTB->hdr.hwndFrom, TB_GETRECT, (WPARAM)lpnmTB->iItem, (LPARAM)&amp;rc);
+            SendMessage(lpnmTB->hdr.hwndFrom, TB_GETRECT, (WPARAM)lpnmTB->iItem, (LPARAM)&rc);
 
             // Convert to screen coordinates.            
-            MapWindowPoints(lpnmTB->hdr.hwndFrom, HWND_DESKTOP, (LPPOINT)&amp;rc, 2);                         
+            MapWindowPoints(lpnmTB->hdr.hwndFrom, HWND_DESKTOP, (LPPOINT)&rc, 2);                         
         
             // Get the menu.
             HMENU hMenuLoaded = LoadMenu(g_hinst, MAKEINTRESOURCE(IDR_POPUP)); 
@@ -80,7 +80,7 @@ BOOL DoNotify(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
          
             TrackPopupMenuEx(hPopupMenu, 
                              TPM_LEFTALIGN | TPM_LEFTBUTTON | TPM_VERTICAL, 
-                             rc.left, rc.bottom, g_hwndMain, &amp;tpm);
+                             rc.left, rc.bottom, g_hwndMain, &tpm);
 
             DestroyMenu(hMenuLoaded);
          

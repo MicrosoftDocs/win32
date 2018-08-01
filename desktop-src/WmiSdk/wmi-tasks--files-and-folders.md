@@ -73,8 +73,8 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
-Set colFiles = objWMIService.ExecQuery (&quot;Select * from CIM_DataFile where Name = &quot; &amp; &quot;&#39;c:\\scripts\\toggle_service.vbs&#39;&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
+Set colFiles = objWMIService.ExecQuery (&quot;Select * from CIM_DataFile where Name = &quot; & &quot;&#39;c:\\scripts\\toggle_service.vbs&#39;&quot;)
 For Each objFile in colFiles
     errResult = objFile.Rename(&quot;c:\scripts\toggle_service.old&quot;)
 Next</code></pre></td>
@@ -116,11 +116,11 @@ Next</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colFiles = objWMIService.ExecQuery(&quot;Select * from CIM_DataFile where Extension = &#39;mp3&#39;&quot;)
 For Each objFile in colFiles
-    Wscript.Echo &quot;File Name: &quot; &amp; objFile.Name &amp; &quot;.&quot; &amp; objFile.Extension
-    Wscript.Echo &quot;Path: &quot; &amp; objFile.Path
+    Wscript.Echo &quot;File Name: &quot; & objFile.Name & &quot;.&quot; & objFile.Extension
+    Wscript.Echo &quot;Path: &quot; & objFile.Path
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -164,7 +164,7 @@ Next</code></pre></td>
 <td><pre><code>Const FILE_SHARE = 0
 Const MAXIMUM_CONNECTIONS = 25
 strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set objNewShare = objWMIService.Get(&quot;Win32_Share&quot;)
 errReturn = objNewShare.Create(&quot;C:\Finance&quot;, &quot;FinanceShare&quot;, FILE_SHARE, MAXIMUM_CONNECTIONS, &quot;Public share for the Finance group.&quot;)</code></pre></td>
 </tr>
@@ -211,7 +211,7 @@ $Shares= [WMICLASS]&quot;Win32_Share&quot;
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot; 
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;) 
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;) 
  
 Set colFolders = objWMIService.ExecQuery(&quot;Select * from Win32_Directory where Name = &#39;c:\\Scripts&#39;&quot;) 
  
@@ -258,7 +258,7 @@ Next </code></pre></td>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot; 
 Set objWMIService = GetObject(&quot;winmgmts:&quot; _ 
-    &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;) 
+    & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;) 
  
 Set colFolders = objWMIService.ExecQuery _ 
     (&quot;Select * from Win32_Directory where name = &#39;c:\\Scripts&#39;&quot;) 

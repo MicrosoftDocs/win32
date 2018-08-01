@@ -58,7 +58,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -66,7 +66,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -99,7 +99,7 @@ $$RC_START_HIGHLIGHT
     sslBinding.binding.bindingType = WS_SSL_TRANSPORT_SECURITY_BINDING_TYPE; // set the binding type
     
     // declare and initialize the array of all security bindings
-    WS_SECURITY_BINDING* securityBindings[1] = { &amp;sslBinding.binding };
+    WS_SECURITY_BINDING* securityBindings[1] = { &sslBinding.binding };
     
     // declare and initialize the security description
     WS_SECURITY_DESCRIPTION securityDescription = {}; // zero out the struct
@@ -118,7 +118,7 @@ $$RC_END_HIGHLIGHT
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -129,7 +129,7 @@ $$RC_END_HIGHLIGHT
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -138,12 +138,12 @@ $$RC_END_HIGHLIGHT
     hr = WsCreateServiceProxy(
         WS_CHANNEL_TYPE_REQUEST, 
         WS_HTTP_CHANNEL_BINDING, 
-        &amp;securityDescription, 
+        &securityDescription, 
         NULL, 
         0, 
         NULL, 
         0, 
-        &amp;serviceProxy, 
+        &serviceProxy, 
         error);
     if (FAILED(hr))
     {
@@ -153,7 +153,7 @@ $$RC_END_HIGHLIGHT
     
     hr = WsOpenServiceProxy(
         serviceProxy, 
-        &amp;address, 
+        &address, 
         NULL, 
         error);
     if (FAILED(hr))
@@ -172,8 +172,8 @@ $$RC_END_HIGHLIGHT
             serviceProxy, 
             100, 
             productName, 
-            &amp;orderID, 
-            &amp;expectedShipDate, 
+            &orderID, 
+            &expectedShipDate, 
             heap, 
             NULL, 
             0, 
@@ -196,8 +196,8 @@ $$RC_END_HIGHLIGHT
         // Get the current status of the order
         hr = PurchaseOrderBinding_OrderStatus(
             serviceProxy, 
-            &amp;orderID, 
-            &amp;orderStatus, 
+            &orderID, 
+            &orderStatus, 
             heap, 
             NULL, 
             0, 
@@ -223,8 +223,8 @@ $$RC_END_HIGHLIGHT
         orderID = 321;
         hr = PurchaseOrderBinding_OrderStatus(
             serviceProxy, 
-            &amp;orderID, 
-            &amp;orderStatus, 
+            &orderID, 
+            &orderStatus, 
             heap, 
             NULL, 
             0, 
@@ -241,17 +241,17 @@ $$RC_END_HIGHLIGHT
             WS_XML_STRING _faultDetailName = WS_XML_STRING_VALUE("OrderNotFound");
             WS_XML_STRING _faultDetailNs = WS_XML_STRING_VALUE("http://example.com");
             WS_XML_STRING _faultAction = WS_XML_STRING_VALUE("http://example.com/fault");
-            WS_ELEMENT_DESCRIPTION _faultElementDescription = { &amp;_faultDetailName, &amp;_faultDetailNs, WS_UINT32_TYPE, NULL };
-            WS_FAULT_DETAIL_DESCRIPTION orderNotFoundFaultTypeDescription = { &amp;_faultAction, &amp;_faultElementDescription };
+            WS_ELEMENT_DESCRIPTION _faultElementDescription = { &_faultDetailName, &_faultDetailNs, WS_UINT32_TYPE, NULL };
+            WS_FAULT_DETAIL_DESCRIPTION orderNotFoundFaultTypeDescription = { &_faultAction, &_faultElementDescription };
         
             // Try to get the fault detail from the error object
             _OrderNotFoundFaultType* orderNotFound;
             hr = WsGetFaultErrorDetail(
                 error,
-                &amp;orderNotFoundFaultTypeDescription,
+                &orderNotFoundFaultTypeDescription,
                 WS_READ_OPTIONAL_POINTER,
                 heap,
-                &amp;orderNotFound,
+                &orderNotFound,
                 sizeof(orderNotFound));
                 
             if (FAILED(hr))

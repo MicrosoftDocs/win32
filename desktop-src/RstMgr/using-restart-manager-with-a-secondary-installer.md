@@ -71,7 +71,7 @@ int _cdecl wmain()
     //
     // Start a Restart Manager Session
     //
-    dwErrCode = RmStartSession(&amp;dwSessionHandle, 0, sessKey);
+    dwErrCode = RmStartSession(&dwSessionHandle, 0, sessKey);
     if (ERROR_SUCCESS != dwErrCode)
     {
         goto RM_CLEANUP;
@@ -127,10 +127,10 @@ int _cdecl wmain()
     do
     {
         dwErrCode = RmGetList(dwSessionHandle,
-                              &amp;nProcInfoNeeded,
-                              &amp;nAffectedApps, 
+                              &nProcInfoNeeded,
+                              &nAffectedApps, 
                               rgAffectedApps, 
-                              (LPDWORD) &amp;dwRebootReasons);
+                              (LPDWORD) &dwRebootReasons);
         if (ERROR_SUCCESS == dwErrCode)
         {
             //
@@ -160,7 +160,7 @@ int _cdecl wmain()
         }
 
         rgAffectedApps = new RM_PROCESS_INFO[nAffectedApps];
-    } while ((ERROR_MORE_DATA == dwErrCode) &amp;&amp; (nRetry ++ < 3));
+    } while ((ERROR_MORE_DATA == dwErrCode) && (nRetry ++ < 3));
 
     if (ERROR_SUCCESS != dwErrCode)
     {
@@ -272,7 +272,7 @@ int _cdecl wmain()
     //
 
     // We assume the session key obtained is stored in sessKey
-    dwErrCode = RmJoinSession(&amp;dwSessionHandle, sessKey);
+    dwErrCode = RmJoinSession(&dwSessionHandle, sessKey);
     if (ERROR_SUCCESS != dwErrCode)
     {
         goto RM_CLEANUP;

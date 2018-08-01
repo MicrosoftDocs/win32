@@ -141,7 +141,7 @@ void wmain(void)
 
     // Get the required buffer size for the query.
 
-    status = EnumerateTraceGuidsEx(TraceGuidQueryList, NULL, 0, pGuids, GuidListSize, &amp;RequiredListSize);
+    status = EnumerateTraceGuidsEx(TraceGuidQueryList, NULL, 0, pGuids, GuidListSize, &RequiredListSize);
 
     // The number of registered providers could change between the 
     // time you called to get the buffer size and the time you called
@@ -165,7 +165,7 @@ void wmain(void)
 
         ZeroMemory(pGuids, GuidListSize);
 
-        status = EnumerateTraceGuidsEx(TraceGuidQueryList, NULL, 0, pGuids, GuidListSize, &amp;RequiredListSize);
+        status = EnumerateTraceGuidsEx(TraceGuidQueryList, NULL, 0, pGuids, GuidListSize, &RequiredListSize);
     }
 
     if (ERROR_SUCCESS == status)
@@ -293,7 +293,7 @@ DWORD GetProviderInfo(GUID ProviderGuid, PTRACE_GUID_INFO & pInfo)
     DWORD InfoListSize = 0;
     DWORD RequiredListSize = 0;
 
-    status = EnumerateTraceGuidsEx(TraceGuidQueryInfo, &amp;ProviderGuid, sizeof(GUID), pInfo, InfoListSize, &amp;RequiredListSize);
+    status = EnumerateTraceGuidsEx(TraceGuidQueryInfo, &ProviderGuid, sizeof(GUID), pInfo, InfoListSize, &RequiredListSize);
 
     while (ERROR_INSUFFICIENT_BUFFER == status)
     {
@@ -312,7 +312,7 @@ DWORD GetProviderInfo(GUID ProviderGuid, PTRACE_GUID_INFO & pInfo)
 
         ZeroMemory(pInfo, InfoListSize);
 
-        status = EnumerateTraceGuidsEx(TraceGuidQueryInfo, &amp;ProviderGuid, sizeof(GUID), pInfo, InfoListSize, &amp;RequiredListSize);
+        status = EnumerateTraceGuidsEx(TraceGuidQueryInfo, &ProviderGuid, sizeof(GUID), pInfo, InfoListSize, &RequiredListSize);
     }
 
     if (ERROR_SUCCESS != status)

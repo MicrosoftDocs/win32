@@ -209,7 +209,7 @@ IFACEMETHODIMP SampleEffect::Initialize(
 {
     HRESULT hr = pEffectContext->CreateOffsetTransform(
         D2D1::Point2L(100,100),  // Offsets the input by 100px in each axis.
-        &amp;m_pOffsetTransform
+        &m_pOffsetTransform
         );
 
     if (SUCCEEDED(hr))
@@ -257,12 +257,12 @@ IFACEMETHODIMP SampleEffect::Initialize(
     )
 {   
     // Create the shadow effect.
-    HRESULT hr = pEffectContext->CreateEffect(CLSID_D2D1Shadow, &amp;m_pShadowEffect);
+    HRESULT hr = pEffectContext->CreateEffect(CLSID_D2D1Shadow, &m_pShadowEffect);
 
     // Create the shadow transform from the shadow effect.
     if (SUCCEEDED(hr))
     {
-        hr = pEffectContext->CreateTransformNodeFromEffect(m_pShadowEffect, &amp;m_pShadowTransform);
+        hr = pEffectContext->CreateTransformNodeFromEffect(m_pShadowEffect, &m_pShadowTransform);
     }
 
     // Create the offset transform.
@@ -270,7 +270,7 @@ IFACEMETHODIMP SampleEffect::Initialize(
     {
         hr = pEffectContext->CreateOffsetTransform(
             D2D1::Point2L(0,0),
-            &amp;m_pOffsetTransform
+            &m_pOffsetTransform
             );
     }
 
@@ -404,8 +404,8 @@ const D2D1_PROPERTY_BINDING bindings[] =
 {
     D2D1_VALUE_TYPE_BINDING(
         L"Offset",      // The name of property. Must match name attribute in XML.
-        &amp;SetOffset,     // The setter method that is called on "SetValue".
-        &amp;GetOffset      // The getter method that is called on "GetValue".
+        &SetOffset,     // The setter method that is called on "SetValue".
+        &GetOffset      // The getter method that is called on "GetValue".
         )
 };
 ```
@@ -565,7 +565,7 @@ If a blur operation uses a 5 pixel radius, the size of the output rectangle must
 // Expand output image by 5 pixels.
 
 // Do not expand empty input rectangles.
-if (pInputRects[0].right  > pInputRects[0].left &amp;&amp;
+if (pInputRects[0].right  > pInputRects[0].left &&
     pInputRects[0].bottom > pInputRects[0].top
     )
 {

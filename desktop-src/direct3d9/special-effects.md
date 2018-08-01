@@ -85,7 +85,7 @@ This topic contains examples of special effects accomplished with texture coordi
     //      Uz  Vz  0  0 
     //      Uw  Vw  0  0 
 
-    SetTransform(D3DTS_TEXTURE0, &amp;M);
+    SetTransform(D3DTS_TEXTURE0, &M);
     ```
 
     

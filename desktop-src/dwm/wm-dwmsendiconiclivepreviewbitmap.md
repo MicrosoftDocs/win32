@@ -68,7 +68,7 @@ The following example demonstrates a response to the **WM\_DWMSENDICONICLIVEPREV
             // This window is being asked to provide a bitmap to show in Peek preview.
             // This indicates the thumbnail in the taskbar is being previewed.
             RECT rectWindow = {0, 0, 0, 0};
-            if (GetClientRect(hwnd, &amp;rectWindow))
+            if (GetClientRect(hwnd, &rectWindow))
             {
                 nWidth = rectWindow.right - rectWindow.left;
                 nHeight = rectWindow.bottom - rectWindow.top;

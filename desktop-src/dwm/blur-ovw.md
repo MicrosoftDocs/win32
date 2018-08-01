@@ -60,7 +60,7 @@ HRESULT EnableBlurBehind(HWND hwnd)
     bb.hRgnBlur = NULL;
 
     // Enable blur-behind.
-    hr = DwmEnableBlurBehindWindow(hwnd, &amp;bb);
+    hr = DwmEnableBlurBehindWindow(hwnd, &bb);
     if (SUCCEEDED(hr))
     {
         // ...
@@ -97,7 +97,7 @@ HRESULT ExtendIntoClientBottom(HWND hwnd)
     MARGINS margins = {0,0,0,25};
 
     // Extend the frame on the bottom of the client area.
-    hr = DwmExtendFrameIntoClientArea(hwnd,&amp;margins);
+    hr = DwmExtendFrameIntoClientArea(hwnd,&margins);
     if (SUCCEEDED(hr))
     {
         // ...
@@ -126,7 +126,7 @@ HRESULT ExtendIntoClientAll(HWND hwnd)
     MARGINS margins = {-1};
 
     // Extend the frame across the whole window.
-    hr = DwmExtendFrameIntoClientArea(hwnd,&amp;margins);
+    hr = DwmExtendFrameIntoClientArea(hwnd,&margins);
     if (SUCCEEDED(hr))
     {
         // ...

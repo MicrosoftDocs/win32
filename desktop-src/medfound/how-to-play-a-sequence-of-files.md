@@ -39,7 +39,7 @@ HRESULT OpenMediaFile(IMFPMediaPlayer *pPlayer, PCWSTR pwszURL)
         sURL, 
         TRUE,  // Blocking call
         0,     // User data.
-        &amp;pItem
+        &pItem
         );
 
     if (SUCCEEDED(hr))

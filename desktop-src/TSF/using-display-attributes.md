@@ -43,7 +43,7 @@ HRESULT GetDispAttrFromRange(   ITfContext *pContext,
                             NULL, 
                             CLSCTX_INPROC_SERVER, 
                             IID_ITfCategoryMgr, 
-                            (LPVOID*)&amp;pCategoryMgr);
+                            (LPVOID*)&pCategoryMgr);
     if(FAILED(hr))
     {
         return hr;
@@ -55,7 +55,7 @@ HRESULT GetDispAttrFromRange(   ITfContext *pContext,
                             NULL, 
                             CLSCTX_INPROC_SERVER, 
                             IID_ITfDisplayAttributeMgr, 
-                            (LPVOID*)&amp;pDispMgr);
+                            (LPVOID*)&pDispMgr);
     if(FAILED(hr))
     {
         pCategoryMgr->Release();
@@ -64,13 +64,13 @@ HRESULT GetDispAttrFromRange(   ITfContext *pContext,
     
     //Get the display attribute property. 
     ITfProperty *pProp;
-    hr = pContext->GetProperty(GUID_PROP_ATTRIBUTE, &amp;pProp);
+    hr = pContext->GetProperty(GUID_PROP_ATTRIBUTE, &pProp);
     if(SUCCEEDED(hr))
     {
         VARIANT var;
 
-        VariantInit(&amp;var);
-        hr = pProp->GetValue(ec, pRange, &amp;var);
+        VariantInit(&var);
+        hr = pProp->GetValue(ec, pRange, &var);
         if(S_OK == hr)  //Returns S_FALSE if the range is not completely covered by the property.  
         {
             if(VT_I4 == var.vt)
@@ -79,13 +79,13 @@ HRESULT GetDispAttrFromRange(   ITfContext *pContext,
                 GUID    guid;
 
                 //Convert the guidatom into a GUID. 
-                hr = pCategoryMgr->GetGUID((TfGuidAtom)var.lVal, &amp;guid);
+                hr = pCategoryMgr->GetGUID((TfGuidAtom)var.lVal, &guid);
                 if(SUCCEEDED(hr))
                 {
                     ITfDisplayAttributeInfo *pDispInfo;
 
                     //Get the display attribute info object for this attribute. 
-                    hr = pDispMgr->GetDisplayAttributeInfo(guid, &amp;pDispInfo, NULL);
+                    hr = pDispMgr->GetDisplayAttributeInfo(guid, &pDispInfo, NULL);
                     if(SUCCEEDED(hr))
                     {
                         //Get the display attribute info. 
@@ -100,7 +100,7 @@ HRESULT GetDispAttrFromRange(   ITfContext *pContext,
                 //An error occurred; GUID_PROP_ATTRIBUTE must always be VT_I4. 
                 hr = E_FAIL;
             }
-            VariantClear(&amp;var);
+            VariantClear(&var);
         }
     pProp->Release();
     }

@@ -137,12 +137,12 @@ public:
 
     IFACEMETHODIMP_(ULONG) AddRef()
     {
-        return InterlockedIncrement(&amp;m_cRef);
+        return InterlockedIncrement(&m_cRef);
     }
 
     IFACEMETHODIMP_(ULONG) Release()
     {
-        ULONG count = InterlockedDecrement(&amp;m_cRef);
+        ULONG count = InterlockedDecrement(&m_cRef);
         if (count == 0)
         {
             delete this;
@@ -205,7 +205,7 @@ HRESULT PlayMediaFile(HWND hwnd, PCWSTR pszURL)
             0,              // Flags
             g_pPlayerCB,    // Callback pointer
             hwnd,           // Video window
-            &amp;g_pPlayer
+            &g_pPlayer
             );
     }
 
@@ -238,7 +238,7 @@ void OnFileOpen(HWND hwnd)
 
     // Create the FileOpenDialog object.
     HRESULT hr = CoCreateInstance(__uuidof(FileOpenDialog), NULL,
-        CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&amp;pFileOpen));
+        CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&pFileOpen));
     if (SUCCEEDED(hr))
     {
         hr = pFileOpen->SetTitle(L"Select a File to Play");
@@ -253,19 +253,19 @@ void OnFileOpen(HWND hwnd)
     if (hr == HRESULT_FROM_WIN32(ERROR_CANCELLED))
     {
         // User canceled.
-        SafeRelease(&amp;pFileOpen);
+        SafeRelease(&pFileOpen);
         return;
     }
 
     // Get the file name from the dialog.
     if (SUCCEEDED(hr))
     {
-        hr = pFileOpen->GetResult(&amp;pItem);
+        hr = pFileOpen->GetResult(&pItem);
     }
 
     if (SUCCEEDED(hr))
     {
-       hr = pItem->GetDisplayName(SIGDN_URL, &amp;pwszFilePath);
+       hr = pItem->GetDisplayName(SIGDN_URL, &pwszFilePath);
     }
 
     // Open the media file.
@@ -281,8 +281,8 @@ void OnFileOpen(HWND hwnd)
 
     CoTaskMemFree(pwszFilePath);
 
-    SafeRelease(&amp;pItem);
-    SafeRelease(&amp;pFileOpen);
+    SafeRelease(&pItem);
+    SafeRelease(&pFileOpen);
 }
 ```
 
@@ -305,9 +305,9 @@ If there is no video, the application is responsible for painting the window. Fo
 void OnPaint(HWND hwnd)
 {
     PAINTSTRUCT ps;
-    HDC hdc = BeginPaint(hwnd, &amp;ps);
+    HDC hdc = BeginPaint(hwnd, &ps);
 
-    if (g_pPlayer &amp;&amp; g_bHasVideo)
+    if (g_pPlayer && g_bHasVideo)
     {
         // Playback has started and there is video.
 
@@ -321,10 +321,10 @@ void OnPaint(HWND hwnd)
         // There is no video stream, or playback has not started.
         // Paint the entire client area.
 
-        FillRect(hdc, &amp;ps.rcPaint, (HBRUSH) (COLOR_WINDOW+1));
+        FillRect(hdc, &ps.rcPaint, (HBRUSH) (COLOR_WINDOW+1));
     }
 
-    EndPaint(hwnd, &amp;ps);
+    EndPaint(hwnd, &ps);
 }
 ```
 
@@ -355,8 +355,8 @@ For the **WM\_CLOSE** message, release the [**IMFPMediaPlayer**](/windows/deskto
 ```C++
 void OnClose(HWND /*hwnd*/)
 {
-    SafeRelease(&amp;g_pPlayer);
-    SafeRelease(&amp;g_pPlayerCB);
+    SafeRelease(&g_pPlayer);
+    SafeRelease(&g_pPlayerCB);
     PostQuitMessage(0);
 }
 ```
@@ -423,10 +423,10 @@ void OnMediaItemCreated(MFP_MEDIAITEM_CREATED_EVENT *pEvent)
         BOOL    bIsSelected = FALSE;
 
         // Check if the media item contains video.
-        HRESULT hr = pEvent->pMediaItem->HasVideo(&amp;bHasVideo, &amp;bIsSelected);
+        HRESULT hr = pEvent->pMediaItem->HasVideo(&bHasVideo, &bIsSelected);
         if (SUCCEEDED(hr))
         {
-            g_bHasVideo = bHasVideo &amp;&amp; bIsSelected;
+            g_bHasVideo = bHasVideo && bIsSelected;
 
             // Set the media item on the player. This method completes
             // asynchronously.
@@ -502,7 +502,7 @@ BOOL InitializeWindow(HWND *pHwnd)
     wc.lpszClassName = CLASS_NAME;
     wc.lpszMenuName  = MAKEINTRESOURCE(IDR_MENU1);
 
-    RegisterClass(&amp;wc);
+    RegisterClass(&wc);
 
     HWND hwnd = CreateWindow(
         CLASS_NAME, WINDOW_NAME, WS_OVERLAPPEDWINDOW,
@@ -542,14 +542,14 @@ int WINAPI wWinMain(HINSTANCE, HINSTANCE, PWSTR, int)
     }
 
     HWND hwnd = NULL;
-    if (InitializeWindow(&amp;hwnd))
+    if (InitializeWindow(&hwnd))
     {
         // Message loop
         MSG msg = {};
-        while (GetMessage(&amp;msg, NULL, 0, 0))
+        while (GetMessage(&msg, NULL, 0, 0))
         {
-            TranslateMessage(&amp;msg);
-            DispatchMessage(&amp;msg);
+            TranslateMessage(&msg);
+            DispatchMessage(&msg);
         }
 
         DestroyWindow(hwnd);

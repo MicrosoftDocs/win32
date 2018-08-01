@@ -61,7 +61,7 @@ The second task accomplished by the `TransferContentToDevice` function is to cre
 ```C++
 if (SUCCEEDED(hr))
 {
-    hr = pDevice->Content(&amp;pContent);
+    hr = pDevice->Content(&pContent);
     if (FAILED(hr))
     {
         printf("! Failed to get IPortableDeviceContent from IPortableDevice, hr = 0x%lx\n",hr);
@@ -88,7 +88,7 @@ if (SUCCEEDED(hr))
     OpenFileNameInfo.Flags          = OFN_PATHMUSTEXIST | OFN_FILEMUSTEXIST;
     OpenFileNameInfo.lpstrDefExt    = pszDefaultFileExtension;
 
-    if (GetOpenFileName(&amp;OpenFileNameInfo) == FALSE)
+    if (GetOpenFileName(&OpenFileNameInfo) == FALSE)
     {
         printf("The transfer operation was canceled.\n");
         hr = E_ABORT;
@@ -108,7 +108,7 @@ if (SUCCEEDED(hr))
 {
     // Open the selected file as an IStream.  This will simplify reading the
     // data and writing to the device.
-    hr = SHCreateStreamOnFile(szFilePath, STGM_READ, &amp;pFileStream);
+    hr = SHCreateStreamOnFile(szFilePath, STGM_READ, &pFileStream);
     if (SUCCEEDED(hr))
     {
         // Get the required properties needed to properly describe the data being
@@ -117,7 +117,7 @@ if (SUCCEEDED(hr))
                                                  szSelection,              // Parent to transfer the data under
                                                  szFilePath,               // Full file path to the data file
                                                  pFileStream,               // Open IStream that contains the data
-                                                 &amp;pFinalObjectProperties);  // Returned properties describing the data
+                                                 &pFinalObjectProperties);  // Returned properties describing the data
         if (FAILED(hr))
         {
             printf("! Failed to get required properties needed to transfer a file to the device, hr = 0x%lx\n", hr);
@@ -155,8 +155,8 @@ The sample application uses the retrieved properties to create the new content o
 if (SUCCEEDED(hr))
 {
     hr = pContent->CreateObjectWithPropertiesAndData(pFinalObjectProperties,    // Properties describing the object data
-                                                     &amp;pTempStream,              // Returned object data stream (to transfer the data to)
-                                                     &amp;cbOptimalTransferSize,    // Returned optimal buffer size to use during transfer
+                                                     &pTempStream,              // Returned object data stream (to transfer the data to)
+                                                     &cbOptimalTransferSize,    // Returned optimal buffer size to use during transfer
                                                      NULL);
 
     // Once we have a the IStream returned from CreateObjectWithPropertiesAndData,
@@ -165,7 +165,7 @@ if (SUCCEEDED(hr))
     // identifier on the device)
     if (SUCCEEDED(hr))
     {
-        hr = pTempStream->QueryInterface(IID_PPV_ARGS(&amp;pFinalObjectDataStream));
+        hr = pTempStream->QueryInterface(IID_PPV_ARGS(&pFinalObjectDataStream));
         if (FAILED(hr))
         {
             printf("! Failed to QueryInterface for IPortableDeviceDataStream, hr = 0x%lx\n",hr);
@@ -181,7 +181,7 @@ if (SUCCEEDED(hr))
         hr = StreamCopy(pFinalObjectDataStream, // Destination (The Object to transfer to)
                         pFileStream,            // Source (The File data to transfer from)
                         cbOptimalTransferSize,  // The driver specified optimal transfer buffer size
-                        &amp;cbTotalBytesWritten);  // The total number of bytes transferred from file to the device
+                        &cbTotalBytesWritten);  // The total number of bytes transferred from file to the device
         if (FAILED(hr))
         {
             printf("! Failed to transfer object to device, hr = 0x%lx\n",hr);
@@ -210,7 +210,7 @@ if (SUCCEEDED(hr))
     if (SUCCEEDED(hr))
     {
         PWSTR pszNewlyCreatedObject = NULL;
-        hr = pFinalObjectDataStream->GetObjectID(&amp;pszNewlyCreatedObject);
+        hr = pFinalObjectDataStream->GetObjectID(&pszNewlyCreatedObject);
         if (SUCCEEDED(hr))
         {
             printf("The file '%ws' was transferred to the device.\nThe newly created object's ID is '%ws'\n",szFilePath ,pszNewlyCreatedObject);

@@ -80,11 +80,11 @@ int _tmain(int argc, _TCHAR* argv[])
     
     CRYPT_DATA_BLOB EncodedMessage;
 
-    if(SignMessage(&amp;EncodedMessage))
+    if(SignMessage(&EncodedMessage))
     {
         CRYPT_DATA_BLOB DecodedMessage;
 
-        if(VerifyCosignedMessage(&amp;EncodedMessage, &amp;DecodedMessage))
+        if(VerifyCosignedMessage(&EncodedMessage, &DecodedMessage))
         {
             free(DecodedMessage.pbData);
         }
@@ -182,7 +182,7 @@ bool SignMessage(CRYPT_DATA_BLOB *pEncodedMessageBlob)
     SigParams.HashAlgorithm.pszObjId = szOID_RSA_SHA1RSA;
     SigParams.HashAlgorithm.Parameters.cbData = NULL;
     SigParams.cMsgCert = 1;
-    SigParams.rgpMsgCert = &amp;pSignerCert;
+    SigParams.rgpMsgCert = &pSignerCert;
     SigParams.cAuthAttr = 0;
     SigParams.dwInnerContentType = 0;
     SigParams.cMsgCrl = 0;
@@ -193,13 +193,13 @@ bool SignMessage(CRYPT_DATA_BLOB *pEncodedMessageBlob)
 
     // First, get the size of the signed BLOB.
     if(CryptSignMessage(
-        &amp;SigParams,
+        &SigParams,
         FALSE,
         1,
         MessageArray,
         MessageSizeArray,
         NULL,
-        &amp;cbSignedMessageBlob))
+        &cbSignedMessageBlob))
     {
         _tprintf(TEXT("%d bytes needed for the encoded BLOB.\n"),
             cbSignedMessageBlob);
@@ -221,13 +221,13 @@ bool SignMessage(CRYPT_DATA_BLOB *pEncodedMessageBlob)
 
     // Get the signed message BLOB.
     if(CryptSignMessage(
-          &amp;SigParams,
+          &SigParams,
           FALSE,
           1,
           MessageArray,
           MessageSizeArray,
           pbSignedMessageBlob,
-          &amp;cbSignedMessageBlob))
+          &cbSignedMessageBlob))
     {
         _tprintf(TEXT("The message was signed successfully. \n"));
 
@@ -255,7 +255,7 @@ exit_SignMessage:
         hCertStore = NULL;
     }
 
-    if(pbSignedMessageBlob &amp;&amp; fReturn)
+    if(pbSignedMessageBlob && fReturn)
     {
         fReturn = false;
         CRYPT_DATA_BLOB SignedMessageBlob;
@@ -264,7 +264,7 @@ exit_SignMessage:
         SignedMessageBlob.cbData = cbSignedMessageBlob;
         SignedMessageBlob.pbData = pbSignedMessageBlob;
 
-        if(CosignMessage(&amp;SignedMessageBlob, &amp;CosignedMessageBlob))
+        if(CosignMessage(&SignedMessageBlob, &CosignedMessageBlob))
         {
             pEncodedMessageBlob->cbData = CosignedMessageBlob.cbData;
             pEncodedMessageBlob->pbData = CosignedMessageBlob.pbData;
@@ -336,8 +336,8 @@ bool CosignMessage(
         pCosignerCert,
         0,
         NULL,
-        &amp;hCryptProv,
-        &amp;dwKeySpec,
+        &hCryptProv,
+        &dwKeySpec,
         NULL)))
     {
         MyHandleError(
@@ -372,7 +372,7 @@ bool CosignMessage(
     // Initialize the CMSG_SIGNER_ENCODE_INFO structure for the 
     // cosigner.
     CMSG_SIGNER_ENCODE_INFO CosignerInfo;
-    memset(&amp;CosignerInfo, 0, sizeof(CMSG_SIGNER_ENCODE_INFO));
+    memset(&CosignerInfo, 0, sizeof(CMSG_SIGNER_ENCODE_INFO));
     CosignerInfo.cbSize = sizeof(CMSG_SIGNER_ENCODE_INFO);
     CosignerInfo.pCertInfo = pCosignerCert->pCertInfo;
     CosignerInfo.hCryptProv = hCryptProv;
@@ -384,7 +384,7 @@ bool CosignMessage(
         hMsg,
         0,
         CMSG_CTRL_ADD_SIGNER,
-        &amp;CosignerInfo))
+        &CosignerInfo))
     {
         _tprintf(TEXT("CMSG_CTRL_ADD_SIGNER succeeded. \n"));
     }
@@ -403,7 +403,7 @@ bool CosignMessage(
         hMsg,
         0,
         CMSG_CTRL_ADD_CERT,
-        &amp;CosignCertBlob))
+        &CosignCertBlob))
     {
         _tprintf(TEXT("CMSG_CTRL_ADD_CERT succeeded. \n"));
     }
@@ -419,7 +419,7 @@ bool CosignMessage(
         CMSG_ENCODED_MESSAGE,
         0,
         NULL,
-        &amp;cbCosignedMessageBlob))
+        &cbCosignedMessageBlob))
     {
         _tprintf(TEXT("The size for the encoded BLOB is %d.\n"), 
             cbCosignedMessageBlob);
@@ -445,7 +445,7 @@ bool CosignMessage(
         CMSG_ENCODED_MESSAGE,
         0,
         pbCosignedMessageBlob,
-        &amp;cbCosignedMessageBlob))
+        &cbCosignedMessageBlob))
     {
         _tprintf(TEXT("The message was cosigned successfully. \n"));
 
@@ -537,7 +537,7 @@ bool VerifyCosignedMessage(
     for(LONG i = 0; i < lSigners; i++)
     {
         if(!(CryptVerifyMessageSignature(
-            &amp;VerifyParams,
+            &VerifyParams,
             i,
             pCosignedMessageBlob->pbData,
             pCosignedMessageBlob->cbData,
@@ -558,12 +558,12 @@ bool VerifyCosignedMessage(
 
     // Get the size of the decoded message
     if(!(CryptVerifyMessageSignature(
-        &amp;VerifyParams,
+        &VerifyParams,
         0,
         pCosignedMessageBlob->pbData,
         pCosignedMessageBlob->cbData,
         NULL,
-        &amp;cbDecodedMessage,
+        &cbDecodedMessage,
         NULL)))
     {
         MyHandleError(TEXT("CryptVerifyMessageSignature failed."));
@@ -580,12 +580,12 @@ bool VerifyCosignedMessage(
     }
 
     if((CryptVerifyMessageSignature(
-        &amp;VerifyParams,
+        &VerifyParams,
         0,
         pCosignedMessageBlob->pbData,
         pCosignedMessageBlob->cbData,
         pbDecodedMessage,
-        &amp;cbDecodedMessage,
+        &cbDecodedMessage,
         NULL)))
     {
         fReturn  = true;

@@ -21,27 +21,27 @@ This topic includes code examples that create a user in a domain controlled by A
 
 
 ```VB
-Const ADS_UF_SCRIPT = &amp;H1
-Const ADS_UF_ACCOUNTDISABLE = &amp;H2
-Const ADS_UF_HOMEDIR_REQUIRED = &amp;H8
-Const ADS_UF_LOCKOUT = &amp;H10
-Const ADS_UF_PASSWD_NOTREQD = &amp;H20
-Const ADS_UF_PASSWD_CANT_CHANGE = &amp;H40
-Const ADS_UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED = &amp;H80
-Const ADS_UF_TEMP_DUPLICATE_ACCOUNT = &amp;H100
-Const ADS_UF_NORMAL_ACCOUNT = &amp;H200
-Const ADS_UF_INTERDOMAIN_TRUST_ACCOUNT = &amp;H800
-Const ADS_UF_WORKSTATION_TRUST_ACCOUNT = &amp;H1000
-Const ADS_UF_SERVER_TRUST_ACCOUNT = &amp;H2000
-Const ADS_UF_DONT_EXPIRE_PASSWD = &amp;H10000
-Const ADS_UF_MNS_LOGON_ACCOUNT = &amp;H20000
-Const ADS_UF_SMARTCARD_REQUIRED = &amp;H40000
-Const ADS_UF_TRUSTED_FOR_DELEGATION = &amp;H80000
-Const ADS_UF_NOT_DELEGATED = &amp;H100000
-Const ADS_UF_USE_DES_KEY_ONLY = &amp;H200000
-Const ADS_UF_DONT_REQUIRE_PREAUTH = &amp;H400000
-Const ADS_UF_PASSWORD_EXPIRED = &amp;H800000
-Const ADS_UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION = &amp;H1000000
+Const ADS_UF_SCRIPT = &H1
+Const ADS_UF_ACCOUNTDISABLE = &H2
+Const ADS_UF_HOMEDIR_REQUIRED = &H8
+Const ADS_UF_LOCKOUT = &H10
+Const ADS_UF_PASSWD_NOTREQD = &H20
+Const ADS_UF_PASSWD_CANT_CHANGE = &H40
+Const ADS_UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED = &H80
+Const ADS_UF_TEMP_DUPLICATE_ACCOUNT = &H100
+Const ADS_UF_NORMAL_ACCOUNT = &H200
+Const ADS_UF_INTERDOMAIN_TRUST_ACCOUNT = &H800
+Const ADS_UF_WORKSTATION_TRUST_ACCOUNT = &H1000
+Const ADS_UF_SERVER_TRUST_ACCOUNT = &H2000
+Const ADS_UF_DONT_EXPIRE_PASSWD = &H10000
+Const ADS_UF_MNS_LOGON_ACCOUNT = &H20000
+Const ADS_UF_SMARTCARD_REQUIRED = &H40000
+Const ADS_UF_TRUSTED_FOR_DELEGATION = &H80000
+Const ADS_UF_NOT_DELEGATED = &H100000
+Const ADS_UF_USE_DES_KEY_ONLY = &H200000
+Const ADS_UF_DONT_REQUIRE_PREAUTH = &H400000
+Const ADS_UF_PASSWORD_EXPIRED = &H800000
+Const ADS_UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION = &H1000000
 
 Public Sub CreateUser(strName As String, 
                       strSAMAccountName As String,
@@ -143,7 +143,7 @@ HRESULT CreateUserFromADs(LPCWSTR pwszContainerDN,
     // Bind to the container.
     hr = ADsGetObject(sbstrADsPath, 
                       IID_IADsContainer, 
-                      (LPVOID*)&amp;pUsers);
+                      (LPVOID*)&pUsers);
     if(SUCCEEDED(hr))
     {
         IDispatch *pDisp = NULL;
@@ -152,7 +152,7 @@ HRESULT CreateUserFromADs(LPCWSTR pwszContainerDN,
         sbstrName += pwszName;
         
         // Create the new object in the User folder.
-        hr = pUsers->Create(CComBSTR("user"), sbstrName, &amp;pDisp);
+        hr = pUsers->Create(CComBSTR("user"), sbstrName, &pDisp);
 
         if(SUCCEEDED(hr))
         { 
@@ -160,7 +160,7 @@ HRESULT CreateUserFromADs(LPCWSTR pwszContainerDN,
 
             // Get the IADs interface.
             hr = pDisp->QueryInterface(IID_IADsUser,
-                                       (void**) &amp;padsUser);
+                                       (void**) &padsUser);
 
             if(SUCCEEDED(hr))
             { 
@@ -206,7 +206,7 @@ HRESULT CreateUserFromADs(LPCWSTR pwszContainerDN,
                 */
                 svar.Clear();
                 sbstrProp = "userAccountControl";
-                hr = padsUser->Get(sbstrProp, &amp;svar);
+                hr = padsUser->Get(sbstrProp, &svar);
                 if(SUCCEEDED(hr))
                 {
                     svar = svar.lVal & ~(ADS_UF_ACCOUNTDISABLE | 
@@ -259,7 +259,7 @@ HRESULT CreateUserFromDirObject(LPCWSTR pwszContainerDN,
     // Bind to the container.
     hr = ADsGetObject(sbstrADsPath, 
                       IID_IDirectoryObject,
-                      (LPVOID*)&amp;pdoUsers);
+                      (LPVOID*)&pdoUsers);
     if(SUCCEEDED(hr))
     {
         IDispatch *pDisp;
@@ -272,7 +272,7 @@ HRESULT CreateUserFromDirObject(LPCWSTR pwszContainerDN,
         rgAttrInfo[0].pszAttrName = L"objectClass";
         rgAttrInfo[0].dwControlCode = ADS_ATTR_UPDATE;
         rgAttrInfo[0].dwADsType = ADSTYPE_CASE_IGNORE_STRING;
-        rgAttrInfo[0].pADsValues = &amp;classValue;
+        rgAttrInfo[0].pADsValues = &classValue;
         rgAttrInfo[0].dwNumValues = 1;
 
         /*
@@ -288,7 +288,7 @@ HRESULT CreateUserFromDirObject(LPCWSTR pwszContainerDN,
         rgAttrInfo[1].pszAttrName = L"sAMAccountName";
         rgAttrInfo[1].dwControlCode = ADS_ATTR_UPDATE;
         rgAttrInfo[1].dwADsType = ADSTYPE_CASE_IGNORE_STRING;
-        rgAttrInfo[1].pADsValues = &amp;sAMValue;
+        rgAttrInfo[1].pADsValues = &sAMValue;
         rgAttrInfo[1].dwNumValues = 1;
 
         /*
@@ -302,7 +302,7 @@ HRESULT CreateUserFromDirObject(LPCWSTR pwszContainerDN,
         rgAttrInfo[2].pszAttrName = L"userAccountControl";
         rgAttrInfo[2].dwControlCode = ADS_ATTR_UPDATE;
         rgAttrInfo[2].dwADsType = ADSTYPE_INTEGER;
-        rgAttrInfo[2].pADsValues = &amp;userAccountControlValue;
+        rgAttrInfo[2].pADsValues = &userAccountControlValue;
         rgAttrInfo[2].dwNumValues = 1;
 
         CComBSTR sbstrName = "CN=";
@@ -316,7 +316,7 @@ HRESULT CreateUserFromDirObject(LPCWSTR pwszContainerDN,
               sbstrName,  
               rgAttrInfo, 
               sizeof(rgAttrInfo)/sizeof(ADS_ATTR_INFO), 
-              &amp;pDisp
+              &pDisp
              );
 
         if(SUCCEEDED(hr))
@@ -324,7 +324,7 @@ HRESULT CreateUserFromDirObject(LPCWSTR pwszContainerDN,
             IDirectoryObject *pdoNewUser;
 
             hr = pDisp->QueryInterface(IID_IDirectoryObject, 
-                                       (LPVOID*)&amp;pdoNewUser);
+                                       (LPVOID*)&pdoNewUser);
             if(SUCCEEDED(hr))
             {
                 ADSVALUE adsValue;
@@ -335,7 +335,7 @@ HRESULT CreateUserFromDirObject(LPCWSTR pwszContainerDN,
                 */
                 IADsUser *padsUser;
                 hr = pdoNewUser->QueryInterface(IID_IADsUser, 
-                                                (LPVOID*)&amp;padsUser);
+                                                (LPVOID*)&padsUser);
                 if(SUCCEEDED(hr))
                 {
                   hr = 
@@ -353,11 +353,11 @@ HRESULT CreateUserFromDirObject(LPCWSTR pwszContainerDN,
                 rgAttrInfo[0].pszAttrName = L"pwdLastSet";
                 rgAttrInfo[0].dwControlCode = ADS_ATTR_UPDATE;
                 rgAttrInfo[0].dwADsType = ADSTYPE_LARGE_INTEGER;
-                rgAttrInfo[0].pADsValues = &amp;adsValue;
+                rgAttrInfo[0].pADsValues = &adsValue;
                 rgAttrInfo[0].dwNumValues = 1;
                 hr = pdoNewUser->SetObjectAttributes(rgAttrInfo,
                                                      1,
-                                                     &amp;dw);
+                                                     &dw);
 
                 pdoNewUser->Release();
             }

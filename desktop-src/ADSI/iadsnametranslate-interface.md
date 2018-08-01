@@ -34,7 +34,7 @@ HRESULT TranslateNTNameToLDAPName( BSTR * pNTName, BSTR * pLDAPName )
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_IADsNameTranslate,
-                          (void**) &amp;pTrans );
+                          (void**) &pTrans );
     if (FAILED(hr)) { return hr; }
 
     hr = pTrans->Init(ADS_NAME_INITTYPE_DOMAIN, 

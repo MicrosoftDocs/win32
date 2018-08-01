@@ -68,8 +68,8 @@ typedef struct _SUBSCRIPTION_SOURCE_INITIATED
 DWORD GetProperty(EC_HANDLE hSubscription,  
                   EC_SUBSCRIPTION_PROPERTY_ID propID, 
                   DWORD flags, 
-                  std::vector<BYTE>&amp; buffer, 
-                  PEC_VARIANT&amp; vProperty);
+                  std::vector<BYTE>& buffer, 
+                  PEC_VARIANT& vProperty);
 
 
 void __cdecl wmain()
@@ -127,7 +127,7 @@ void __cdecl wmain()
     if (!EcSetSubscriptionProperty(hSubscription,
         EcSubscriptionType,
         NULL,
-        &amp;vPropertyValue))
+        &vPropertyValue))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -140,7 +140,7 @@ void __cdecl wmain()
     if (!EcSetSubscriptionProperty(hSubscription,
         EcSubscriptionDescription,
         NULL,
-        &amp;vPropertyValue))
+        &vPropertyValue))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -152,7 +152,7 @@ void __cdecl wmain()
     if (!EcSetSubscriptionProperty(hSubscription,
         EcSubscriptionURI,
         NULL,
-        &amp;vPropertyValue))
+        &vPropertyValue))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -165,7 +165,7 @@ void __cdecl wmain()
     if (!EcSetSubscriptionProperty(hSubscription,
         EcSubscriptionQuery,
         NULL,
-        &amp;vPropertyValue))
+        &vPropertyValue))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -178,7 +178,7 @@ void __cdecl wmain()
     if (!EcSetSubscriptionProperty(hSubscription,
         EcSubscriptionLogFile,
         NULL,
-        &amp;vPropertyValue))
+        &vPropertyValue))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -191,7 +191,7 @@ void __cdecl wmain()
     if (!EcSetSubscriptionProperty(hSubscription,
         EcSubscriptionConfigurationMode,
         NULL,
-        &amp;vPropertyValue))
+        &vPropertyValue))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -208,7 +208,7 @@ void __cdecl wmain()
         if (!EcSetSubscriptionProperty(hSubscription,
             EcSubscriptionDeliveryMode,
             NULL,
-            &amp;vPropertyValue))
+            &vPropertyValue))
         {
             dwRetVal = GetLastError();
             goto Cleanup;
@@ -221,7 +221,7 @@ void __cdecl wmain()
         if (!EcSetSubscriptionProperty(hSubscription,
             EcSubscriptionDeliveryMaxItems,
             NULL,
-            &amp;vPropertyValue))
+            &vPropertyValue))
         {
             dwRetVal = GetLastError();
             goto Cleanup;
@@ -234,7 +234,7 @@ void __cdecl wmain()
         if (!EcSetSubscriptionProperty(hSubscription,
             EcSubscriptionHeartbeatInterval,
             NULL,
-            &amp;vPropertyValue))
+            &vPropertyValue))
         {
             dwRetVal = GetLastError();
             goto Cleanup;
@@ -247,7 +247,7 @@ void __cdecl wmain()
         if (!EcSetSubscriptionProperty(hSubscription,
             EcSubscriptionDeliveryMaxLatencyTime,
             NULL,
-            &amp;vPropertyValue))
+            &vPropertyValue))
         {
             dwRetVal = GetLastError();
             goto Cleanup;
@@ -260,7 +260,7 @@ void __cdecl wmain()
     if (!EcSetSubscriptionProperty(hSubscription,
         EcSubscriptionContentFormat,
         0,
-        &amp;vPropertyValue))
+        &vPropertyValue))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -273,7 +273,7 @@ void __cdecl wmain()
     if (!EcSetSubscriptionProperty(hSubscription,
         EcSubscriptionReadExistingEvents,
         0,
-        &amp;vPropertyValue))
+        &vPropertyValue))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -286,7 +286,7 @@ void __cdecl wmain()
     if (!EcSetSubscriptionProperty(hSubscription,
         EcSubscriptionEnabled,
         0,
-        &amp;vPropertyValue))
+        &vPropertyValue))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -299,7 +299,7 @@ void __cdecl wmain()
     if (!EcSetSubscriptionProperty(hSubscription,
         EcSubscriptionTransportName,
         0,
-        &amp;vPropertyValue))
+        &vPropertyValue))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -312,7 +312,7 @@ void __cdecl wmain()
     if (!EcSetSubscriptionProperty(hSubscription,
         EcSubscriptionAllowedSourceDomainComputers,
         0,
-        &amp;vPropertyValue))
+        &vPropertyValue))
     {
         dwRetVal = GetLastError();
         goto Cleanup;
@@ -340,7 +340,7 @@ Cleanup:
             NULL,
             dwRetVal,
             0,
-            (LPWSTR) &amp;lpwszBuffer,
+            (LPWSTR) &lpwszBuffer,
             0,
             NULL);
 
@@ -361,8 +361,8 @@ Cleanup:
 DWORD GetProperty(EC_HANDLE hSubscription, 
                   EC_SUBSCRIPTION_PROPERTY_ID propID, 
                   DWORD flags, 
-                  std::vector<BYTE>&amp; buffer, 
-                  PEC_VARIANT&amp; vProperty)
+                  std::vector<BYTE>& buffer, 
+                  PEC_VARIANT& vProperty)
 {
     DWORD  dwBufferSize, dwRetVal = ERROR_SUCCESS;
     buffer.resize(sizeof(EC_VARIANT));
@@ -375,8 +375,8 @@ DWORD GetProperty(EC_HANDLE hSubscription,
         propID, 
         flags, 
         (DWORD) buffer.size(), 
-        (PEC_VARIANT)&amp;buffer[0], 
-        &amp;dwBufferSize) )
+        (PEC_VARIANT)&buffer[0], 
+        &dwBufferSize) )
     {
         dwRetVal = GetLastError();
 
@@ -389,8 +389,8 @@ DWORD GetProperty(EC_HANDLE hSubscription,
                 propID,
                 flags,
                 (DWORD) buffer.size(),
-                (PEC_VARIANT)&amp;buffer[0],
-                &amp;dwBufferSize))
+                (PEC_VARIANT)&buffer[0],
+                &dwBufferSize))
             {
                 dwRetVal = GetLastError();
             }
@@ -399,7 +399,7 @@ DWORD GetProperty(EC_HANDLE hSubscription,
 
     if (dwRetVal == ERROR_SUCCESS)
     {
-        vProperty = (PEC_VARIANT) &amp;buffer[0];
+        vProperty = (PEC_VARIANT) &buffer[0];
     }
     else
     {

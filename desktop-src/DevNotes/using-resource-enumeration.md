@@ -76,10 +76,10 @@ Description:
         return 0;
     }
  
-    if ((HeapEnumCtx->AddressToSearch >= HeapAllocation->UserAllocation &amp;&amp;
+    if ((HeapEnumCtx->AddressToSearch >= HeapAllocation->UserAllocation &&
          HeapEnumCtx->AddressToSearch < (HeapAllocation->UserAllocation + 
                                          HeapAllocation->UserAllocationSize)) ||
-        (HeapEnumCtx->AddressToSearch >= HeapAllocation->Allocation &amp;&amp;
+        (HeapEnumCtx->AddressToSearch >= HeapAllocation->Allocation &&
          HeapEnumCtx->AddressToSearch < (HeapAllocation->Allocation + 
                                          HeapAllocation->AllocationSize)))
     {
@@ -231,7 +231,7 @@ Description:
     // discover the entry point VerifierEnumResource
     //
     VerifierEnumResourceFn VerifierEnumResource_;
-    *(FARPROC *)&amp;VerifierEnumResource_ = GetProcAddress(
+    *(FARPROC *)&VerifierEnumResource_ = GetProcAddress(
                                              hMod,
                                              "VerifierEnumerateResource"
                                          );
@@ -267,7 +267,7 @@ Description:
             0,
             AvrfResourceHeapAllocation,
             (AVRF_RESOURCE_ENUMERATE_CALLBACK)FindHeapAllocationCallback,
-            &amp;HeapEnumCtx
+            &HeapEnumCtx
         );
     
     } 
@@ -281,7 +281,7 @@ Description:
             0,
             AvrfResourceHandleTrace,
             (AVRF_RESOURCE_ENUMERATE_CALLBACK)FindHandleOperationCallback,
-            &amp;HandleEnumCtx
+            &HandleEnumCtx
         );
     
     } 

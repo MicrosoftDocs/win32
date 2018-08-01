@@ -91,7 +91,7 @@ HRESULT  hr;
 // byData is an array of 64 bytes.
 hr = pIByteBuff->Write(byData,
                        64,
-                       &amp;lWrite);
+                       &lWrite);
 if (FAILED(hr))
   printf("Failed IByteBuffer::Write\n");
 ```

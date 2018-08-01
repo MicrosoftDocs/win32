@@ -75,7 +75,7 @@ if (FAILED(hr))
 
 // Set IUnknown security
 IUnknown*    pUnk = NULL;
-pWbemServices->QueryInterface(IID_IUnknown, (void**) &amp;pUnk);
+pWbemServices->QueryInterface(IID_IUnknown, (void**) &pUnk);
 
 hr = CoSetProxyBlanket(pUnk, 
                        RPC_C_AUTHN_DEFAULT, 

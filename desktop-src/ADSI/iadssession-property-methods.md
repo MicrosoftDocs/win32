@@ -239,46 +239,46 @@ ULONG lFetch = 0;
 IDispatch *pDisp = NULL;
 IEnumVARIANT *pEnum = NULL;
 
-VariantInit(&amp;var);
+VariantInit(&var);
 
 LPWSTR adsPath = L"WinNT://aMachine/LanmanServer";
 
 hr = ADsGetObject(adsPath,IID_IADsFileServiceOperations,
-                  (void**)&amp;pFso);
+                  (void**)&pFso);
 
 if(FAILED(hr)) {goto Cleanup;}
 
-hr = pFso->Sessions(&amp;pColl);
+hr = pFso->Sessions(&pColl);
 
 // Enumerate sessions. 
-hr = pColl->get__NewEnum(&amp;pUnk);
+hr = pColl->get__NewEnum(&pUnk);
 if(FAILED(hr)) {goto Cleanup;}
 
-hr = pUnk->QueryInterface(IID_IEnumVARIANT,(void**)&amp;pEnum);
+hr = pUnk->QueryInterface(IID_IEnumVARIANT,(void**)&pEnum);
 if(FAILED(hr)) {goto Cleanup;}
 
 // Enumerate.
-hr = pEnum->Next(1, &amp;var, &amp;lFetch);
+hr = pEnum->Next(1, &var, &lFetch);
 while(hr == S_OK)
 {
     if (lFetch == 1)    
     {
-        pDisp = V_DISPATCH(&amp;var);
-        pDisp->QueryInterface(IID_IADsSession, (void**)&amp;pSes);
-        pSes->get_Computer(&amp;bstr);
+        pDisp = V_DISPATCH(&var);
+        pDisp->QueryInterface(IID_IADsSession, (void**)&pSes);
+        pSes->get_Computer(&bstr);
         printf("Session host: %S\n",bstr);
         SysFreeString(bstr);
 
-        pSes->get_User(&amp;bstr);
+        pSes->get_User(&bstr);
         printf("Session user: %S\n",bstr);
         SysFreeString(bstr);
 
         pRes->Release();
     }
 
-    VariantClear(&amp;var);
+    VariantClear(&var);
     pDisp=NULL;
-    hr = pEnum->Next(1, &amp;var, &amp;lFetch);
+    hr = pEnum->Next(1, &var, &lFetch);
 };
 
 Cleanup:

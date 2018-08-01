@@ -56,7 +56,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -64,7 +64,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -98,7 +98,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -110,7 +110,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -124,7 +124,7 @@ $$RC_START_HIGHLIGHT
         NULL,
         NULL,
         0,
-        &amp;serviceProxy, 
+        &serviceProxy, 
         error);
     if (FAILED(hr))
     {
@@ -134,12 +134,12 @@ $$RC_END_HIGHLIGHT
     
     
     
-    hr = WsOpenServiceProxy(serviceProxy, &amp;address, NULL, error);
+    hr = WsOpenServiceProxy(serviceProxy, &address, NULL, error);
     if (FAILED(hr))
     {
         goto Exit;
     }
-    hr = DefaultBinding_ICalculator_Add(serviceProxy, 1, 2, &amp;result, heap, NULL, 0, NULL, error);
+    hr = DefaultBinding_ICalculator_Add(serviceProxy, 1, 2, &result, heap, NULL, 0, NULL, error);
     if (FAILED(hr))
     {
         goto Exit;

@@ -57,7 +57,7 @@ void main(void)
     {
         // Get a provider from the list. If the buffer is not big enough
         // to contain the provider's name, reallocate the buffer to the required size.
-        if  (!EvtNextPublisherId(hProviders, dwBufferSize, pwcsProviderName, &amp;dwBufferUsed))
+        if  (!EvtNextPublisherId(hProviders, dwBufferSize, pwcsProviderName, &dwBufferUsed))
         {
             status = GetLastError();
             if (ERROR_NO_MORE_ITEMS == status)
@@ -72,7 +72,7 @@ void main(void)
                 {
                     pwcsProviderName = pTemp;
                     pTemp = NULL;
-                    EvtNextPublisherId(hProviders, dwBufferSize, pwcsProviderName, &amp;dwBufferUsed);
+                    EvtNextPublisherId(hProviders, dwBufferSize, pwcsProviderName, &dwBufferUsed);
                 }
                 else
                 {
@@ -201,19 +201,19 @@ cleanup:
         EvtClose(g_hMetadata);
 
     if (g_ChannelMessages.pMessage)
-        FreeMessages(&amp;g_ChannelMessages);
+        FreeMessages(&g_ChannelMessages);
 
     if (g_LevelMessages.pMessage)
-        FreeMessages(&amp;g_LevelMessages);
+        FreeMessages(&g_LevelMessages);
 
     if (g_TaskMessages.pMessage)
-        FreeMessages(&amp;g_TaskMessages);
+        FreeMessages(&g_TaskMessages);
 
     if (g_OpcodeMessages.pMessage)
-        FreeMessages(&amp;g_OpcodeMessages);
+        FreeMessages(&g_OpcodeMessages);
 
     if (g_KeywordMessages.pMessage)
-        FreeMessages(&amp;g_KeywordMessages);
+        FreeMessages(&g_KeywordMessages);
 }
 
 // Free the memory for each message string in the messages block
@@ -296,7 +296,7 @@ DWORD PrintEventProperties(EVT_HANDLE hEvent)
     for (int Id = 0; Id < EvtEventMetadataPropertyIdEND; Id++)
     {
         // Get the specified metadata property. If the pProperty buffer is not big enough, reallocate the buffer.
-        if  (!EvtGetEventMetadataProperty(hEvent, (EVT_EVENT_METADATA_PROPERTY_ID)Id, 0, dwBufferSize, pProperty, &amp;dwBufferUsed))
+        if  (!EvtGetEventMetadataProperty(hEvent, (EVT_EVENT_METADATA_PROPERTY_ID)Id, 0, dwBufferSize, pProperty, &dwBufferUsed))
         {
             status = GetLastError();
             if (ERROR_INSUFFICIENT_BUFFER == status)
@@ -307,7 +307,7 @@ DWORD PrintEventProperties(EVT_HANDLE hEvent)
                 {
                     pProperty = pTemp;
                     pTemp = NULL;
-                    EvtGetEventMetadataProperty(hEvent, (EVT_EVENT_METADATA_PROPERTY_ID)Id, 0, dwBufferSize, pProperty, &amp;dwBufferUsed);
+                    EvtGetEventMetadataProperty(hEvent, (EVT_EVENT_METADATA_PROPERTY_ID)Id, 0, dwBufferSize, pProperty, &dwBufferUsed);
                 }
                 else
                 {
@@ -363,7 +363,7 @@ DWORD PrintEventProperty(EVT_HANDLE hMetadata, int Id, PEVT_VARIANT pProperty)
         case EventMetadataEventChannel:
             if (pProperty->UInt32Val > 0)
             {
-                pName = GetPropertyName(hMetadata, &amp;g_ChannelMessages, pProperty->UInt32Val);
+                pName = GetPropertyName(hMetadata, &g_ChannelMessages, pProperty->UInt32Val);
                 wprintf(L"Channel: %s\n", pName);
             }
             else
@@ -378,7 +378,7 @@ DWORD PrintEventProperty(EVT_HANDLE hMetadata, int Id, PEVT_VARIANT pProperty)
         case EventMetadataEventLevel:
             if (pProperty->UInt32Val > 0)
             {
-                pName = GetPropertyName(hMetadata, &amp;g_LevelMessages, pProperty->UInt32Val);
+                pName = GetPropertyName(hMetadata, &g_LevelMessages, pProperty->UInt32Val);
                 wprintf(L"Level: %s\n", pName);
             }
             else
@@ -404,7 +404,7 @@ DWORD PrintEventProperty(EVT_HANDLE hMetadata, int Id, PEVT_VARIANT pProperty)
         case EventMetadataEventTask:
             if (pProperty->UInt32Val > 0)
             {
-                pName = GetPropertyName(hMetadata, &amp;g_TaskMessages, pProperty->UInt32Val);
+                pName = GetPropertyName(hMetadata, &g_TaskMessages, pProperty->UInt32Val);
                 wprintf(L"Task: %s\n", pName);
             }
             else
@@ -415,7 +415,7 @@ DWORD PrintEventProperty(EVT_HANDLE hMetadata, int Id, PEVT_VARIANT pProperty)
             // Now that we know the task, get the opcode string and print it.
             if (dwOpcode > 0)
             {
-                pName = GetOpcodeName(hMetadata, &amp;g_OpcodeMessages, dwOpcode, pProperty->UInt32Val);
+                pName = GetOpcodeName(hMetadata, &g_OpcodeMessages, dwOpcode, pProperty->UInt32Val);
                 wprintf(L"Opcode: %s\n", pName);
             }
             else
@@ -432,7 +432,7 @@ DWORD PrintEventProperty(EVT_HANDLE hMetadata, int Id, PEVT_VARIANT pProperty)
             // when checking to see if any keywords are set.
             if ((pProperty->UInt32Val & 0x00FFFFFFFFFFFFFF) > 0)
             {
-                pName = GetKeywordName(hMetadata, &amp;g_KeywordMessages, pProperty->UInt32Val);
+                pName = GetKeywordName(hMetadata, &g_KeywordMessages, pProperty->UInt32Val);
                 wprintf(L"Keyword: %s\n", pName);
                 if (pName)
                     free(pName);
@@ -604,7 +604,7 @@ DWORD PrintProviderProperties(EVT_HANDLE hMetadata)
     for (int Id = 0; Id < EvtPublisherMetadataPropertyIdEND; Id++)
     {
         // Get the metadata property. If the buffer is not big enough, reallocate the buffer.
-        if  (!EvtGetPublisherMetadataProperty(hMetadata, (EVT_PUBLISHER_METADATA_PROPERTY_ID)Id, 0, dwBufferSize, pProperty, &amp;dwBufferUsed))
+        if  (!EvtGetPublisherMetadataProperty(hMetadata, (EVT_PUBLISHER_METADATA_PROPERTY_ID)Id, 0, dwBufferSize, pProperty, &dwBufferUsed))
         {
             status = GetLastError();
             if (ERROR_INSUFFICIENT_BUFFER == status)
@@ -615,7 +615,7 @@ DWORD PrintProviderProperties(EVT_HANDLE hMetadata)
                 {
                     pProperty = pTemp;
                     pTemp = NULL;
-                    EvtGetPublisherMetadataProperty(hMetadata, (EVT_PUBLISHER_METADATA_PROPERTY_ID)Id, 0, dwBufferSize, pProperty, &amp;dwBufferUsed);
+                    EvtGetPublisherMetadataProperty(hMetadata, (EVT_PUBLISHER_METADATA_PROPERTY_ID)Id, 0, dwBufferSize, pProperty, &dwBufferUsed);
                 }
                 else
                 {
@@ -736,7 +736,7 @@ DWORD PrintProviderProperty(EVT_HANDLE hMetadata, int Id, PEVT_VARIANT pProperty
         // display names for the channel referenced in an event definition.
         case EvtPublisherMetadataChannelReferences:
             wprintf(L"Channels:\n");
-            if (EvtGetObjectArraySize(pProperty->EvtHandleVal, &amp;dwArraySize))
+            if (EvtGetObjectArraySize(pProperty->EvtHandleVal, &dwArraySize))
             {
                 // You always get a handle to the array but the array can be empty.
                 if (dwArraySize > 0)
@@ -751,7 +751,7 @@ DWORD PrintProviderProperty(EVT_HANDLE hMetadata, int Id, PEVT_VARIANT pProperty
                         // For each channel, print its metadata.
                         for (DWORD i = 0; i < dwArraySize; i++)
                         {
-                            if (status = DumpChannelProperties(pProperty->EvtHandleVal, i, &amp;g_ChannelMessages))
+                            if (status = DumpChannelProperties(pProperty->EvtHandleVal, i, &g_ChannelMessages))
                                 break;
                         }
                     }
@@ -788,7 +788,7 @@ DWORD PrintProviderProperty(EVT_HANDLE hMetadata, int Id, PEVT_VARIANT pProperty
         // the list.
         case EvtPublisherMetadataLevels:
             wprintf(L"Levels:\n");
-            if (EvtGetObjectArraySize(pProperty->EvtHandleVal, &amp;dwArraySize))
+            if (EvtGetObjectArraySize(pProperty->EvtHandleVal, &dwArraySize))
             {
                 // You always get a handle to the array but the array can be empty.
                 if (dwArraySize > 0)
@@ -803,7 +803,7 @@ DWORD PrintProviderProperty(EVT_HANDLE hMetadata, int Id, PEVT_VARIANT pProperty
                         // For each level, print its metadata.
                         for (DWORD i = 0; i < dwArraySize; i++)
                         {
-                            if (status = DumpLevelProperties(pProperty->EvtHandleVal, i, &amp;g_LevelMessages))
+                            if (status = DumpLevelProperties(pProperty->EvtHandleVal, i, &g_LevelMessages))
                                 break;
                         }
                     }
@@ -836,7 +836,7 @@ DWORD PrintProviderProperty(EVT_HANDLE hMetadata, int Id, PEVT_VARIANT pProperty
         // display names for the task referenced in an event definition.
         case EvtPublisherMetadataTasks:
             wprintf(L"Tasks:\n");
-            if (EvtGetObjectArraySize(pProperty->EvtHandleVal, &amp;dwArraySize))
+            if (EvtGetObjectArraySize(pProperty->EvtHandleVal, &dwArraySize))
             {
                 // You always get a handle to the array but the array can be empty.
                 if (dwArraySize > 0)
@@ -851,7 +851,7 @@ DWORD PrintProviderProperty(EVT_HANDLE hMetadata, int Id, PEVT_VARIANT pProperty
                         // For each task, print its metadata.
                         for (DWORD i = 0; i < dwArraySize; i++)
                         {
-                            if (status = DumpTaskProperties(pProperty->EvtHandleVal, i, &amp;g_TaskMessages))
+                            if (status = DumpTaskProperties(pProperty->EvtHandleVal, i, &g_TaskMessages))
                                 break;
                         }
                     }
@@ -885,7 +885,7 @@ DWORD PrintProviderProperty(EVT_HANDLE hMetadata, int Id, PEVT_VARIANT pProperty
         // display names for the opcode referenced in an event definition.
         case EvtPublisherMetadataOpcodes:
             wprintf(L"Opcodes:\n");
-            if (EvtGetObjectArraySize(pProperty->EvtHandleVal, &amp;dwArraySize))
+            if (EvtGetObjectArraySize(pProperty->EvtHandleVal, &dwArraySize))
             {
                 // You always get a handle to the array but the array can be empty.
                 if (dwArraySize > 0)
@@ -900,7 +900,7 @@ DWORD PrintProviderProperty(EVT_HANDLE hMetadata, int Id, PEVT_VARIANT pProperty
                         // For each opcode, print its metadata.
                         for (DWORD i = 0; i < dwArraySize; i++)
                         {
-                            if (status = DumpOpcodeProperties(pProperty->EvtHandleVal, i, &amp;g_OpcodeMessages))
+                            if (status = DumpOpcodeProperties(pProperty->EvtHandleVal, i, &g_OpcodeMessages))
                                 break;
                         }
                     }
@@ -933,7 +933,7 @@ DWORD PrintProviderProperty(EVT_HANDLE hMetadata, int Id, PEVT_VARIANT pProperty
         // display names for the keyword referenced in an event definition.
         case EvtPublisherMetadataKeywords:
             wprintf(L"Keywords:\n");
-            if (EvtGetObjectArraySize(pProperty->EvtHandleVal, &amp;dwArraySize))
+            if (EvtGetObjectArraySize(pProperty->EvtHandleVal, &dwArraySize))
             {
                 // You always get a handle to the array but the array can be empty.
                 if (dwArraySize > 0)
@@ -948,7 +948,7 @@ DWORD PrintProviderProperty(EVT_HANDLE hMetadata, int Id, PEVT_VARIANT pProperty
                         // For each keyword, print its metadata.
                         for (DWORD i = 0; i < dwArraySize; i++)
                         {
-                            if (status = DumpKeywordProperties(pProperty->EvtHandleVal, i, &amp;g_KeywordMessages))
+                            if (status = DumpKeywordProperties(pProperty->EvtHandleVal, i, &g_KeywordMessages))
                                 break;
                         }
                     }
@@ -1415,7 +1415,7 @@ PEVT_VARIANT GetProperty(EVT_HANDLE handle, DWORD dwIndex, EVT_PUBLISHER_METADAT
     DWORD dwBufferSize = 0;
     DWORD dwBufferUsed = 0;
 
-    if (!EvtGetObjectArrayProperty(handle, PropertyId, dwIndex, 0, dwBufferSize, pvBuffer, &amp;dwBufferUsed))
+    if (!EvtGetObjectArrayProperty(handle, PropertyId, dwIndex, 0, dwBufferSize, pvBuffer, &dwBufferUsed))
     {
         status = GetLastError();
         if (ERROR_INSUFFICIENT_BUFFER == status)
@@ -1424,7 +1424,7 @@ PEVT_VARIANT GetProperty(EVT_HANDLE handle, DWORD dwIndex, EVT_PUBLISHER_METADAT
             pvBuffer = (PEVT_VARIANT)malloc(dwBufferSize);
             if (pvBuffer)
             {
-                EvtGetObjectArrayProperty(handle, PropertyId, dwIndex, 0, dwBufferSize, pvBuffer, &amp;dwBufferUsed);
+                EvtGetObjectArrayProperty(handle, PropertyId, dwIndex, 0, dwBufferSize, pvBuffer, &dwBufferUsed);
             }
             else
             {
@@ -1454,7 +1454,7 @@ LPWSTR GetMessageString(EVT_HANDLE hMetadata, DWORD dwMessageId)
     DWORD dwBufferUsed = 0;
     DWORD status = 0;
 
-    if (!EvtFormatMessage(hMetadata, NULL, dwMessageId, 0, NULL, EvtFormatMessageId, dwBufferSize, pBuffer, &amp;dwBufferUsed))
+    if (!EvtFormatMessage(hMetadata, NULL, dwMessageId, 0, NULL, EvtFormatMessageId, dwBufferSize, pBuffer, &dwBufferUsed))
     {
         status = GetLastError();
         if (ERROR_INSUFFICIENT_BUFFER == status)
@@ -1464,7 +1464,7 @@ LPWSTR GetMessageString(EVT_HANDLE hMetadata, DWORD dwMessageId)
 
             if (pBuffer)
             {
-                EvtFormatMessage(hMetadata, NULL, dwMessageId, 0, NULL, EvtFormatMessageId, dwBufferSize, pBuffer, &amp;dwBufferUsed);
+                EvtFormatMessage(hMetadata, NULL, dwMessageId, 0, NULL, EvtFormatMessageId, dwBufferSize, pBuffer, &dwBufferUsed);
             }
             else
             {

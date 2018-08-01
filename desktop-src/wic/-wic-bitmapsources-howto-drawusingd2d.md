@@ -26,7 +26,7 @@ To draw a bitmap source by using Direct2D
            NULL,                            // Do not prefer a particular vendor
            GENERIC_READ,                    // Desired read access to the file
            WICDecodeMetadataCacheOnDemand,  // Cache metadata when needed
-           &amp;pDecoder                        // Pointer to the decoder
+           &pDecoder                        // Pointer to the decoder
            );
 
        // Retrieve the first frame of the image from the decoder
@@ -34,7 +34,7 @@ To draw a bitmap source by using Direct2D
 
        if (SUCCEEDED(hr))
        {
-           hr = pDecoder->GetFrame(0, &amp;pFrame);
+           hr = pDecoder->GetFrame(0, &pFrame);
        }
     ```
 
@@ -50,8 +50,8 @@ To draw a bitmap source by using Direct2D
        // Format convert the frame to 32bppPBGRA
        if (SUCCEEDED(hr))
        {
-           SafeRelease(&amp;m_pConvertedSourceBitmap);
-           hr = m_pIWICFactory->CreateFormatConverter(&amp;m_pConvertedSourceBitmap);
+           SafeRelease(&m_pConvertedSourceBitmap);
+           hr = m_pIWICFactory->CreateFormatConverter(&m_pConvertedSourceBitmap);
        }
 
        if (SUCCEEDED(hr))
@@ -86,7 +86,7 @@ To draw a bitmap source by using Direct2D
        hr = m_pD2DFactory->CreateHwndRenderTarget(
            renderTargetProperties,
            D2D1::HwndRenderTargetProperties(hWnd, size),
-           &amp;m_pRT
+           &m_pRT
            );
     ```
 
@@ -99,9 +99,9 @@ To draw a bitmap source by using Direct2D
     ```C++
         // D2DBitmap may have been released due to device loss. 
         // If so, re-create it from the source bitmap
-        if (m_pConvertedSourceBitmap &amp;&amp; !m_pD2DBitmap)
+        if (m_pConvertedSourceBitmap && !m_pD2DBitmap)
         {
-            m_pRT->CreateBitmapFromWicBitmap(m_pConvertedSourceBitmap, NULL, &amp;m_pD2DBitmap);
+            m_pRT->CreateBitmapFromWicBitmap(m_pConvertedSourceBitmap, NULL, &m_pD2DBitmap);
         }
     ```
 

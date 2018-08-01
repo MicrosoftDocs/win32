@@ -72,9 +72,9 @@ int _tmain(int argc, _TCHAR* argv[])
         dwIndex,
         NULL,
         0,
-        &amp;dwType,
+        &dwType,
         NULL,
-        &amp;cbName))
+        &cbName))
     {
         //-----------------------------------------------------------
         // cbName is the length of the name of the next provider 
@@ -92,9 +92,9 @@ int _tmain(int argc, _TCHAR* argv[])
             dwIndex++,
             NULL,
             NULL,
-            &amp;dwType,   
+            &dwType,   
             pszName,
-            &amp;cbName))     
+            &cbName))     
         {
             _tprintf (TEXT("     %4.0d        %s\n"), 
                 dwType, 
@@ -122,9 +122,9 @@ int _tmain(int argc, _TCHAR* argv[])
         dwIndex,
         NULL,
         0,
-        &amp;dwType,
+        &dwType,
         NULL,
-        &amp;cbName))
+        &cbName))
     {
         //-----------------------------------------------------------
         // cbName is the length of the name of the next provider.
@@ -140,9 +140,9 @@ int _tmain(int argc, _TCHAR* argv[])
             dwIndex++,
             NULL,
             0,
-            &amp;dwType,
+            &dwType,
             pszName,
-            &amp;cbName))
+            &cbName))
         {
             _tprintf (TEXT("     %4.0d        %s\n"), 
                 dwType, 
@@ -167,7 +167,7 @@ int _tmain(int argc, _TCHAR* argv[])
         NULL, 
         CRYPT_MACHINE_DEFAULT,
         NULL, 
-        &amp;cbProvName))) 
+        &cbProvName))) 
     { 
        MyHandleError(TEXT("Error getting the length of the ")
            TEXT("default provider name."));
@@ -190,7 +190,7 @@ int _tmain(int argc, _TCHAR* argv[])
         NULL, 
         CRYPT_MACHINE_DEFAULT,
         pbProvName,
-        &amp;cbProvName)) 
+        &cbProvName)) 
     {
         _tprintf(TEXT("\nThe default provider name is \"%s\"\n"), 
             pbProvName);
@@ -205,7 +205,7 @@ int _tmain(int argc, _TCHAR* argv[])
     //-----------------------------------------------------
     //  Acquire a cryptographic context.
     if(!CryptAcquireContext(
-        &amp;hProv, 
+        &hProv, 
         NULL,
         NULL,
         PROV_RSA_FULL, 
@@ -235,7 +235,7 @@ int _tmain(int argc, _TCHAR* argv[])
             hProv, 
             PP_ENUMALGS, 
             pbData, 
-            &amp;cbData, 
+            &cbData, 
             dwFlags))
         {       
             //-------------------------------------------------------

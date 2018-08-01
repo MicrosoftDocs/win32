@@ -31,7 +31,7 @@ The first step in the device enumeration process is the creation of a portable d
 HRESULT hr = CoCreateInstance(CLSID_PortableDeviceManager,
                               NULL,
                               CLSCTX_INPROC_SERVER,
-                              IID_PPV_ARGS(&amp;pPortableDeviceManager));
+                              IID_PPV_ARGS(&pPortableDeviceManager));
 if (FAILED(hr))
 {
     printf("! Failed to CoCreateInstance CLSID_PortableDeviceManager, hr = 0x%lx\n",hr);
@@ -46,7 +46,7 @@ Once you obtain an [**IPortableDeviceManager**](/windows/desktop/api/PortableDev
 ```C++
 if (SUCCEEDED(hr))
 {
-    hr = pPortableDeviceManager->GetDevices(NULL, &amp;cPnPDeviceIDs);
+    hr = pPortableDeviceManager->GetDevices(NULL, &cPnPDeviceIDs);
     if (FAILED(hr))
     {
         printf("! Failed to get number of devices on the system, hr = 0x%lx\n",hr);
@@ -67,14 +67,14 @@ The strings returned by this method are the Plug and Play names of the connected
 
 
 ```C++
-if (SUCCEEDED(hr) &amp;&amp; (cPnPDeviceIDs > 0))
+if (SUCCEEDED(hr) && (cPnPDeviceIDs > 0))
 {
     pPnpDeviceIDs = new (std::nothrow) PWSTR[cPnPDeviceIDs];
     if (pPnpDeviceIDs != NULL)
     {
         DWORD dwIndex = 0;
 
-        hr = pPortableDeviceManager->GetDevices(pPnpDeviceIDs, &amp;cPnPDeviceIDs);
+        hr = pPortableDeviceManager->GetDevices(pPnpDeviceIDs, &cPnPDeviceIDs);
         if (SUCCEEDED(hr))
         {
             // For each device found, display the devices friendly name,

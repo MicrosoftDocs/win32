@@ -83,9 +83,9 @@ UINT nGUIDLength = 0;
 // Get attributes for security descriptor and SID.
 hr = pObject->GetObjectAttributes( pAttrNames, 
                                   2, 
-                                  &amp;pAttrInfo, 
-                                  &amp;dwReturn );
-if ( (SUCCEEDED(hr)) &amp;&amp; (dwReturn>0) )
+                                  &pAttrInfo, 
+                                  &dwReturn );
+if ( (SUCCEEDED(hr)) && (dwReturn>0) )
 {
     for(DWORD idx=0; idx < dwReturn;idx++, pAttrInfo++ )
     {
@@ -115,7 +115,7 @@ if ( (SUCCEEDED(hr)) &amp;&amp; (dwReturn>0) )
     sObjectList.Level = ACCESS_OBJECT_GUID;
     sObjectList.Sbz = 0;
     
-    sObjectList.ObjectType = (GUID*)&amp;pclsid;
+    sObjectList.ObjectType = (GUID*)&pclsid;
     
     CHAR PrivilegeSetBuffer[256];
     PRIVILEGE_SET *PrivilegeSet = (PRIVILEGE_SET *)PrivilegeSetBuffer;
@@ -131,15 +131,15 @@ if ( (SUCCEEDED(hr)) &amp;&amp; (dwReturn>0) )
     if( ! MakeAbsoluteSD(
                       pSD,
                       (PSECURITY_DESCRIPTOR)pAbsoluteSD,
-                      &amp;AbsoluteSDSize,
+                      &AbsoluteSDSize,
                       (PACL)pDacl,
-                      &amp;DaclSize,
+                      &DaclSize,
                       (PACL)pSacl,
-                      &amp;SaclSize,
+                      &SaclSize,
                       (PSID)pOwner,
-                      &amp;OwnerSize,
+                      &OwnerSize,
                       (PSID)pGroup,
-                      &amp;GroupSize
+                      &GroupSize
                       ))
     {
         pAbsoluteSD = 
@@ -171,15 +171,15 @@ if ( (SUCCEEDED(hr)) &amp;&amp; (dwReturn>0) )
         if( ! MakeAbsoluteSD(
                           pSD,
                           (PSECURITY_DESCRIPTOR)pAbsoluteSD,
-                          &amp;AbsoluteSDSize,
+                          &AbsoluteSDSize,
                           (PACL)pDacl,
-                          &amp;DaclSize,
+                          &DaclSize,
                           (PACL)pSacl,
-                          &amp;SaclSize,
+                          &SaclSize,
                           (PSID)pOwner,
-                          &amp;OwnerSize,
+                          &OwnerSize,
                           (PSID)pGroup,
-                          &amp;GroupSize
+                          &GroupSize
                   ))
         {
             //
@@ -198,12 +198,12 @@ if ( (SUCCEEDED(hr)) &amp;&amp; (dwReturn>0) )
                pSID,           // SID of the verified object
                hToken,         // Handle to client access token
                DesiredAccess,  // Requested access rights 
-               &amp;sObjectList,   // An array of object types
+               &sObjectList,   // An array of object types
                1,              // Number of object type elements
-               &amp;GenericMapping,// Map generic to specific rights
+               &GenericMapping,// Map generic to specific rights
                PrivilegeSet,   // Receives privileges used
-               &amp;dwPrivSetSize, // Size of privilege-set buffer
-               &amp;GrantedAccess, // Retrieves mask of granted rights
+               &dwPrivSetSize, // Size of privilege-set buffer
+               &GrantedAccess, // Retrieves mask of granted rights
                dwAccess        // Retrieves results of 
                                // access verification
                );

@@ -38,7 +38,7 @@ HRESULT ShowAllAttributes(IWMHeaderInfo3* pHeaderInfo)
 
     // Get the total number of attributes in the file.
 
-    hr = pHeaderInfo->GetAttributeCountEx(0xFFFF, &amp;cAttributes);
+    hr = pHeaderInfo->GetAttributeCountEx(0xFFFF, &cAttributes);
     GOTO_EXIT_IF_FAILED(hr);
 
     // Loop through all the attributes, retrieving and displaying each.
@@ -50,11 +50,11 @@ HRESULT ShowAllAttributes(IWMHeaderInfo3* pHeaderInfo)
         hr = pHeaderInfo->GetAttributeByIndexEx(0xFFFF,
                                                 attIndex,
                                                 NULL,
-                                                &amp;cchName,
+                                                &cchName,
                                                 NULL,
                                                 NULL,
                                                 NULL,
-                                                &amp;cbValue);
+                                                &cbValue);
         GOTO_EXIT_IF_FAILED(hr);
 
         // Allocate the buffers.
@@ -78,11 +78,11 @@ HRESULT ShowAllAttributes(IWMHeaderInfo3* pHeaderInfo)
         hr = pHeaderInfo->GetAttributeByIndexEx(0xFFFF,
                                                 attIndex,
                                                 pwszName,
-                                                &amp;cchName,
-                                                &amp;attType,
-                                                &amp;langIndex,
+                                                &cchName,
+                                                &attType,
+                                                &langIndex,
                                                 pbValue,
-                                                &amp;cbValue);
+                                                &cbValue);
         GOTO_EXIT_IF_FAILED(hr);
 
         // Display the attribute global index and name.

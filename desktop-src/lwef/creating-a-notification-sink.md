@@ -25,7 +25,7 @@ pSinkEx->AddRef();
 
 // And register it with Microsoft Agent
 
-hRes = pAgentEx->Register((IUnknown *)pSinkEx, &amp;lNotifySinkID);
+hRes = pAgentEx->Register((IUnknown *)pSinkEx, &lNotifySinkID);
 ```
 
 

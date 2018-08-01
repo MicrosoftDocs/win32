@@ -30,7 +30,7 @@ This operator tests if one reference time is less than another.
 
 ```C++
 BOOL operator<(
-  [ref] const COARefTime &amp;rt
+  [ref] const COARefTime &rt
 );
 ```
 

@@ -178,16 +178,16 @@ The message loop for an application consists of the following statements.
 ```
 BOOL bRet;
 
-while ((bRet = GetMessage(&amp;msg, NULL, 0, 0)) != 0) 
+while ((bRet = GetMessage(&msg, NULL, 0, 0)) != 0) 
 { 
     if (bRet == -1)
     {
         // Handle the error and possibly exit
     }
-    else if (!IsWindow(hwndGoto) || !IsDialogMessage(hwndGoto, &amp;msg)) 
+    else if (!IsWindow(hwndGoto) || !IsDialogMessage(hwndGoto, &msg)) 
     { 
-        TranslateMessage(&amp;msg); 
-        DispatchMessage(&amp;msg); 
+        TranslateMessage(&msg); 
+        DispatchMessage(&msg); 
     } 
 } 
 ```
@@ -218,7 +218,7 @@ BOOL CALLBACK GoToProc(HWND hwndDlg, UINT message, WPARAM wParam, LPARAM lParam)
             { 
                 case IDOK: 
                     fRelative = IsDlgButtonChecked(hwndDlg, ID_ABSREL); 
-                    iLine = GetDlgItemInt(hwndDlg, ID_LINE, &amp;fError, fRelative); 
+                    iLine = GetDlgItemInt(hwndDlg, ID_LINE, &fError, fRelative); 
                     if (fError) 
                     { 
                         MessageBox(hwndDlg, SZINVALIDNUMBER, SZGOTOERR, MB_OK); 
@@ -270,17 +270,17 @@ case WM_INITDIALOG:
         hwndOwner = GetDesktopWindow(); 
     }
 
-    GetWindowRect(hwndOwner, &amp;rcOwner); 
-    GetWindowRect(hwndDlg, &amp;rcDlg); 
-    CopyRect(&amp;rc, &amp;rcOwner); 
+    GetWindowRect(hwndOwner, &rcOwner); 
+    GetWindowRect(hwndDlg, &rcDlg); 
+    CopyRect(&rc, &rcOwner); 
 
     // Offset the owner and dialog box rectangles so that right and bottom 
     // values represent the width and height, and then offset the owner again 
     // to discard space taken up by the dialog box. 
 
-    OffsetRect(&amp;rcDlg, -rcDlg.left, -rcDlg.top); 
-    OffsetRect(&amp;rc, -rc.left, -rc.top); 
-    OffsetRect(&amp;rc, -rcDlg.right, -rcDlg.bottom); 
+    OffsetRect(&rcDlg, -rcDlg.left, -rcDlg.top); 
+    OffsetRect(&rc, -rc.left, -rc.top); 
+    OffsetRect(&rc, -rcDlg.right, -rcDlg.bottom); 
 
     // The new position is the sum of half the remaining space and the owner's 
     // original position. 

@@ -24,24 +24,24 @@ The following code is used to implement this method:
 
 ```C++
 LRESULT OnPaint(UINT nMsg, WPARAM wParam, 
-                         LPARAM lParam, BOOL&amp; bHandled)
+                         LPARAM lParam, BOOL& bHandled)
 {
     PAINTSTRUCT ps;
 
-    HDC hDC = BeginPaint(&amp;ps);
+    HDC hDC = BeginPaint(&ps);
 
     RECT rc;
-    GetClientRect(&amp;rc);
+    GetClientRect(&rc);
 
     HBRUSH hNewBrush = ::CreateSolidBrush( RGB(0, 0, 0) );
 
     if (hNewBrush)
     {
-        ::FillRect(hDC, &amp;rc, hNewBrush );
+        ::FillRect(hDC, &rc, hNewBrush );
         ::DeleteObject( hNewBrush );
     }
 
-    EndPaint(&amp;ps);
+    EndPaint(&ps);
     return 0;
 }
 

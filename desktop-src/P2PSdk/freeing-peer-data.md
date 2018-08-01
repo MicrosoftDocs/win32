@@ -20,8 +20,8 @@ The following code snippet shows you how to retrieve the properties associated w
 
 ```C++
 PEER_GRAPH_PROPERTIES  * pGraphProperties = NULL;
-HRESULT hr = PeerGraphGetProperties(hGraph, &amp;pGraphProperties);
-if (SUCCEEDED(hr) &amp;&amp; (NULL != pGraphProperties))
+HRESULT hr = PeerGraphGetProperties(hGraph, &pGraphProperties);
+if (SUCCEEDED(hr) && (NULL != pGraphProperties))
 {
   // use pGraphProperties
   wprintf(L"%d\n", pGraphProperties->pwzGraphId);

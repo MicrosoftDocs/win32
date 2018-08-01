@@ -49,7 +49,7 @@ HWND WINAPI CreateComboEx(void)
     icex.dwSize = sizeof(INITCOMMONCONTROLSEX);
     icex.dwICC = ICC_USEREX_CLASSES;
 
-    InitCommonControlsEx(&amp;icex);
+    InitCommonControlsEx(&icex);
 
     hwnd = CreateWindowEx(0, WC_COMBOBOXEX, NULL,
                     WS_BORDER | WS_VISIBLE |

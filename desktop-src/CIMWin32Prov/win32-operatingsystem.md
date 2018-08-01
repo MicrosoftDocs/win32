@@ -3663,8 +3663,8 @@ On Error Resume Next
 For Each objOS in GetObject( _
     "winmgmts:").InstancesOf ("Win32_OperatingSystem")
 
-WScript.Echo "Name = " & objOS.Caption & "Version = " & objOS.Version &amp;VBCR _
-           & "Registered User = " & objOS.RegisteredUser &amp;VBCR _
+WScript.Echo "Name = " & objOS.Caption & "Version = " & objOS.Version &VBCR _
+           & "Registered User = " & objOS.RegisteredUser &VBCR _
            & "Manufacturer = " & objOS.Manufacturer      
 Next
 

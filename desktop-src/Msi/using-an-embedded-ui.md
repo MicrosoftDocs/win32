@@ -49,7 +49,7 @@ int __stdcall InitializeEmbeddedUI(MSIHANDLE hInstall,
     WCHAR szProductCode[cchGUID+1];
     DWORD cchProductCode = ARRAYSIZE(szProductCode);
     UINT uiStat =  MsiGetProperty(hInstall, L"ProductCode",
-             szProductCode, &amp;cchProductCode);
+             szProductCode, &cchProductCode);
     UNREFERENCED_PARAMETER(szResourcePath);
 
     if (ERROR_SUCCESS != uiStat)
@@ -61,7 +61,7 @@ int __stdcall InitializeEmbeddedUI(MSIHANDLE hInstall,
     WCHAR* szReinstall = NULL;
     DWORD cchReinstall = 0;
     uiStat = MsiGetProperty(hInstall, TEXT("REINSTALL"),  
-            szReinstall, &amp;cchReinstall);
+            szReinstall, &cchReinstall);
     if (ERROR_MORE_DATA == uiStat)
     {
         ++cchProductCode; // Add 1 for terminating null character.
@@ -69,7 +69,7 @@ int __stdcall InitializeEmbeddedUI(MSIHANDLE hInstall,
         if (szReinstall)
         {
         uiStat = MsiGetProperty(hInstall, L"REINSTALL", 
-                szReinstall, &amp;cchReinstall);
+                szReinstall, &cchReinstall);
         }
     }
     if (ERROR_SUCCESS != uiStat)
@@ -91,7 +91,7 @@ int __stdcall InitializeEmbeddedUI(MSIHANDLE hInstall,
             // Insert the custom UI used by full installation here.
         }
     }
-    else if (szReinstall &amp;&amp; szReinstall[0])
+    else if (szReinstall && szReinstall[0])
     {
         // Reinstall the UI sequence.
     }

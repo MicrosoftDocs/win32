@@ -43,7 +43,7 @@ HRESULT AddToRot(IUnknown *pUnkGraph, DWORD *pdwRegister)
     IMoniker * pMoniker = NULL;
     IRunningObjectTable *pROT = NULL;
 
-    if (FAILED(GetRunningObjectTable(0, &amp;pROT))) 
+    if (FAILED(GetRunningObjectTable(0, &pROT))) 
     {
         return E_FAIL;
     }
@@ -59,7 +59,7 @@ HRESULT AddToRot(IUnknown *pUnkGraph, DWORD *pdwRegister)
         GetCurrentProcessId()
         );
     
-    HRESULT hr = CreateItemMoniker(L"!", wsz, &amp;pMoniker);
+    HRESULT hr = CreateItemMoniker(L"!", wsz, &pMoniker);
     if (SUCCEEDED(hr)) 
     {
         hr = pROT->Register(ROTFLAGS_REGISTRATIONKEEPSALIVE, pUnkGraph,
@@ -81,7 +81,7 @@ This function creates a moniker and a new ROT entry for the filter graph. The fi
 void RemoveFromRot(DWORD pdwRegister)
 {
     IRunningObjectTable *pROT;
-    if (SUCCEEDED(GetRunningObjectTable(0, &amp;pROT))) {
+    if (SUCCEEDED(GetRunningObjectTable(0, &pROT))) {
         pROT->Revoke(pdwRegister);
         pROT->Release();
     }
@@ -99,9 +99,9 @@ DWORD dwRegister;
     
 // Create the filter graph manager.
 CoCreateInstance(CLSID_FilterGraph, NULL, CLSCTX_INPROC_SERVER,
-                        IID_IGraphBuilder, (void **)&amp;pGraph);
+                        IID_IGraphBuilder, (void **)&pGraph);
 #ifdef _DEBUG
-hr = AddToRot(pGraph, &amp;dwRegister);
+hr = AddToRot(pGraph, &dwRegister);
 #endif
 
 // Rest of the application (not shown).

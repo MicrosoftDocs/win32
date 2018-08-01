@@ -66,7 +66,7 @@ The examples here show the output of the border effect using each mode. The outp
 
 ```C++
 ComPtr<ID2D1Effect> borderEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Border, &amp;borderEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Border, &borderEffect);
 
 borderEffect->SetInput(0, bitmap);
 borderEffect->SetValue(D2D1_BORDER_PROP_EDGE_MODE_X, D2D1_BORDER_EDGE_MODE_MIRROR);

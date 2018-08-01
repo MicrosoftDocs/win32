@@ -159,7 +159,7 @@ void wmain(void)
     // for this snapshot. Then allocate memory for the block of structures
     // and the array of pointers.
 
-    status = EnumerateTraceGuids(pProviders, ProviderCount, &amp;RegisteredProviderCount);
+    status = EnumerateTraceGuids(pProviders, ProviderCount, &RegisteredProviderCount);
 
     if (ERROR_MORE_DATA == status)
     {
@@ -190,10 +190,10 @@ void wmain(void)
 
         for (USHORT i = 0; i < RegisteredProviderCount; i++)
         {
-            pProviders[i] = &amp;pProviderProperties[i];
+            pProviders[i] = &pProviderProperties[i];
         }
 
-        status = EnumerateTraceGuids(pProviders, ProviderCount, &amp;RegisteredProviderCount);
+        status = EnumerateTraceGuids(pProviders, ProviderCount, &RegisteredProviderCount);
 
         if (ERROR_SUCCESS == status || ERROR_MORE_DATA == status)
         {

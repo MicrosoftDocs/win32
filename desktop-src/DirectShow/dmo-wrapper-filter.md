@@ -78,13 +78,13 @@ IServiceProvider *pSp = NULL;
 IMediaSample2 *pSample2 = NULL;
 HRESULT hr = S_OK;
 
-hr = pBuffer->QueryInterface(IID_IServiceProvider, (void**)&amp;pSp);
+hr = pBuffer->QueryInterface(IID_IServiceProvider, (void**)&pSp);
 if (SUCCEEDED(hr))
 {
     hr = pSp->QueryService(
         IID_IMediaSample,  // Service identifier.
         IID_IMediaSample2, // Interface identifier.
-        (void**)&amp;pSample2
+        (void**)&pSample2
         );
     if (SUCCEEDED(hr))
     {

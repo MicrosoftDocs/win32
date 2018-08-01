@@ -56,7 +56,7 @@ The constants in the following table are defined in d3dx9effect.h.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><pre><code>g_pEffect-&gt;SetMatrix( &quot;g_mWorldViewProjection&quot;, &amp;mWorldViewProjection );</code></pre></td>
+<td><pre><code>g_pEffect-&gt;SetMatrix( &quot;g_mWorldViewProjection&quot;, &mWorldViewProjection );</code></pre></td>
 </tr>
 </tbody>
 </table>

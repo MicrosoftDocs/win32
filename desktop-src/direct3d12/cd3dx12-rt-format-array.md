@@ -29,9 +29,9 @@ A helper structure to enable easy initialization of a [**D3D12\_RT\_FORMAT\_ARRA
 ```C++
 struct CD3DX12_RT_FORMAT_ARRAY  : public D3D12_RT_FORMAT_ARRAY{
   CD3DX12_RT_FORMAT_ARRAY CD3DX12_RT_FORMAT_ARRAY();
-  CD3DX12_RT_FORMAT_ARRAY explicit CD3DX12_RT_FORMAT_ARRAY(const D3D12_RT_FORMAT_ARRAY&amp; o);
+  CD3DX12_RT_FORMAT_ARRAY explicit CD3DX12_RT_FORMAT_ARRAY(const D3D12_RT_FORMAT_ARRAY& o);
   CD3DX12_RT_FORMAT_ARRAY explicit CD3DX12_RT_FORMAT_ARRAY(const DXGI_FORMAT* pFormats, UINT NumFormats);
-                          operator const D3D12_RT_FORMAT_ARRAY&amp;() const;
+                          operator const D3D12_RT_FORMAT_ARRAY&() const;
 };
 ```
 

@@ -205,7 +205,7 @@ HRESULT AnnotateControlName(HWND hDlg, HWND hwndCtl)
     // Create an instance of the annotation manager and retrieve the 
     // IAccPropServices pointer.
     hr = CoCreateInstance(CLSID_AccPropServices, NULL, CLSCTX_SERVER, 
-        IID_IAccPropServices, (void **) &amp;pAccPropSvc);
+        IID_IAccPropServices, (void **) &pAccPropSvc);
 
     if (hr != S_OK || pAccPropSvc == NULL)
         return hr;
@@ -235,7 +235,7 @@ HRESULT RemoveAnnotatedNameFromControl(HWND hDlg, HWND hwndCtl)
     // Create an instance of the annotation manager and retrieve the 
     // IAccPropServices pointer.
     hr = CoCreateInstance(CLSID_AccPropServices, NULL, CLSCTX_SERVER, 
-        IID_IAccPropServices, (void **) &amp;pAccPropSvc);
+        IID_IAccPropServices, (void **) &pAccPropSvc);
 
     if (hr != S_OK || pAccPropSvc == NULL)
         return hr;
@@ -243,7 +243,7 @@ HRESULT RemoveAnnotatedNameFromControl(HWND hDlg, HWND hwndCtl)
     // Remove the annotated name from the Name property for the control.
     MSAAPROPID propid = PROPID_ACC_NAME;
     hr = pAccPropSvc->ClearHwndProps(hwndCtl, OBJID_CLIENT, CHILDID_SELF, 
-        &amp;propid, 1);
+        &propid, 1);
 
     // Release the annotation manager.
     pAccPropSvc->Release();

@@ -57,7 +57,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -65,7 +65,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -96,7 +96,7 @@ HRESULT DoAdd(int a, int b, int* result, WS_ERROR* error)
         // Add error information to error object  
         if (error != NULL)
         {
-            WsAddErrorString(error, &amp;errorString);
+            WsAddErrorString(error, &errorString);
         }
 
         hr = E_NOTIMPL;
@@ -214,14 +214,14 @@ void CallAddSync(int a, int b)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
     int sum;
-    hr = Add(a, b, &amp;sum, NULL, error);
+    hr = Add(a, b, &sum, NULL, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -283,7 +283,7 @@ void CallAddAsync(int a, int b)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -313,13 +313,13 @@ void CallAddAsync(int a, int b)
     // along with the state to pass to the callback (AddCompletion structure)
     WS_ASYNC_CONTEXT asyncContext;
     asyncContext.callback = OnAddComplete;
-    asyncContext.callbackState = &amp;addCompletion;
+    asyncContext.callbackState = &addCompletion;
     
     // Call the function asynchronously
-    hr = Add(a, b, sumPointer, &amp;asyncContext, error);
+    hr = Add(a, b, sumPointer, &asyncContext, error);
     
     // Zero out asyncContext to illustrate that async function should have copied it
-    ZeroMemory(&amp;asyncContext, sizeof(asyncContext));
+    ZeroMemory(&asyncContext, sizeof(asyncContext));
     
     if (hr == WS_S_ASYNC)
     {

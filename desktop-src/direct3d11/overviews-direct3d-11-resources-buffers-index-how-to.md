@@ -64,7 +64,7 @@ InitData.SysMemPitch = 0;
 InitData.SysMemSlicePitch = 0;
 
 // Create the buffer with the device.
-hr = g_pd3dDevice->CreateBuffer( &amp;bufferDesc, &amp;InitData, &amp;g_pIndexBuffer );
+hr = g_pd3dDevice->CreateBuffer( &bufferDesc, &InitData, &g_pIndexBuffer );
 if( FAILED( hr ) )
     return hr;
 

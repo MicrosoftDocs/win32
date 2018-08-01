@@ -33,7 +33,7 @@ void Modify(
   [in, optional] uint32                TTL,
   [in, optional] uint16                Format,
   [in, optional] string                ATMAddress,
-  [out, ref]     MicrosoftDNS_ATMAType &amp;RR
+  [out, ref]     MicrosoftDNS_ATMAType &RR
 );
 ```
 

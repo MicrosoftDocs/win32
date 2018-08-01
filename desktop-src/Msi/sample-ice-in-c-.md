@@ -50,7 +50,7 @@ UINT __stdcall ICE01(MSIHANDLE hInstall)
     DWORD cchValue = sizeof(szValue)/sizeof(TCHAR);
 
     // try to get the time of this call
-    if (MsiGetProperty(hInstall, TEXT("Time"), szValue, &amp;cchValue) != ERROR_SUCCESS)
+    if (MsiGetProperty(hInstall, TEXT("Time"), szValue, &cchValue) != ERROR_SUCCESS)
         StringCchCopy(szValue,  sizeof("(none)")/sizeof(TCHAR)+1, TEXT("none"));// no time available
 
     // setup the record to be sent as a message

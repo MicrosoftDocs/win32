@@ -21,7 +21,7 @@ After initialization, a **SOCKET** object must be instantiated for use by the cl
                     *ptr = NULL,
                     hints;
 
-    ZeroMemory( &amp;hints, sizeof(hints) );
+    ZeroMemory( &hints, sizeof(hints) );
     hints.ai_family = AF_UNSPEC;
     hints.ai_socktype = SOCK_STREAM;
     hints.ai_protocol = IPPROTO_TCP;
@@ -34,7 +34,7 @@ After initialization, a **SOCKET** object must be instantiated for use by the cl
     #define DEFAULT_PORT "27015"
 
     // Resolve the server address and port
-    iResult = getaddrinfo(argv[1], DEFAULT_PORT, &amp;hints, &amp;result);
+    iResult = getaddrinfo(argv[1], DEFAULT_PORT, &hints, &result);
     if (iResult != 0) {
         printf("getaddrinfo failed: %d\n", iResult);
         WSACleanup();

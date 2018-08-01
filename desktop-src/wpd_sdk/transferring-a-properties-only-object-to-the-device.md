@@ -57,7 +57,7 @@ The next step is the retrieval of contact properties, which will be used when th
 if (SUCCEEDED(hr))
 {
     hr = GetRequiredPropertiesForPropertiesOnlyContact(szSelection,              // Parent to transfer the data under
-                                                       &amp;pFinalObjectProperties);  // Returned properties describing the data
+                                                       &pFinalObjectProperties);  // Returned properties describing the data
     if (FAILED(hr))
     {
         printf("! Failed to get required properties needed to transfer an image file to the device, hr = 0x%lx\n", hr);
@@ -82,7 +82,7 @@ if (SUCCEEDED(hr))
 {
     PWSTR pszNewlyCreatedObject = NULL;
     hr = pContent->CreateObjectWithPropertiesOnly(pFinalObjectProperties,    // Properties describing the object data
-                                                  &amp;pszNewlyCreatedObject);
+                                                  &pszNewlyCreatedObject);
     if (SUCCEEDED(hr))
     {
         printf("The contact was transferred to the device.\nThe newly created object's ID is '%ws'\n",pszNewlyCreatedObject);

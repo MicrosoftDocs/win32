@@ -67,7 +67,7 @@ void WINAPI DoFormatQuery(
         GetTextExtentPoint32 (hdc,
                           L"366",  // widest date string
                           3,
-                          &amp;lpDTFQuery->szMax);
+                          &lpDTFQuery->szMax);
 
     // Reset the font in the device context; then release the context.
     SelectObject(hdc,hOrigFont);

@@ -27,7 +27,7 @@ BOOL CheckProductSuite ( WORD wSuite )
 
   // Initialize the OSVERSIONINFOEX structure.
 
-  ZeroMemory(&amp;osvi, sizeof(OSVERSIONINFOEX));
+  ZeroMemory(&osvi, sizeof(OSVERSIONINFOEX));
   osvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFOEX);
   osvi.wSuiteMask = wSuite;
 
@@ -39,7 +39,7 @@ BOOL CheckProductSuite ( WORD wSuite )
   // Perform the test.
 
   return VerifyVersionInfo(
-          &amp;osvi, 
+          &osvi, 
           VER_SUITENAME,
           dwlConditionMask);
 }

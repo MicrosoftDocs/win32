@@ -69,18 +69,18 @@ Use the [**IDCompositionDevice::CreateRotateTransform3D**](https://msdn.microsof
 <tbody>
 <tr class="odd">
 <td><pre><code>    // Create a 3D rotate transform object.
-    hr = m_pDevice-&gt;CreateRotateTransform3D(&amp;pRotate3D);
+    hr = m_pDevice-&gt;CreateRotateTransform3D(&pRotate3D);
 
     if (SUCCEEDED(hr))
     {
         // Create an effect group object.
-        hr = m_pDevice-&gt;CreateEffectGroup(&amp;pEffectGroup);
+        hr = m_pDevice-&gt;CreateEffectGroup(&pEffectGroup);
     }
     
     if (SUCCEEDED(hr))
     {
         // Create an animation object.
-        hr = m_pDevice-&gt;CreateAnimation(&amp;pAnimation);
+        hr = m_pDevice-&gt;CreateAnimation(&pAnimation);
     }</code></pre></td>
 </tr>
 </tbody>
@@ -210,9 +210,9 @@ Be sure to free the animation object, the 3D rotate transform object, and the ef
 
 ```C++
     // Release the DirectComposition objects.
-    SafeRelease(&amp;pAnimation);
-    SafeRelease(&amp;pRotate3D);
-    SafeRelease(&amp;pEffectGroup);
+    SafeRelease(&pAnimation);
+    SafeRelease(&pRotate3D);
+    SafeRelease(&pEffectGroup);
 ```
 
 
@@ -281,7 +281,7 @@ SafeRelease(
 
 #ifndef HINST_THISCOMPONENT
 EXTERN_C IMAGE_DOS_HEADER __ImageBase;
-#define HINST_THISCOMPONENT ((HINSTANCE)&amp;__ImageBase)
+#define HINST_THISCOMPONENT ((HINSTANCE)&__ImageBase)
 #endif
 
 /******************************************************************
@@ -312,7 +312,7 @@ private:
 
     HRESULT LoadResourceGDIBitmap(
         PCWSTR resourceName, 
-        HBITMAP &amp;hbmp
+        HBITMAP &hbmp
         );
 
     HRESULT MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap, 
@@ -433,10 +433,10 @@ DemoApp::DemoApp() :
 
 DemoApp::~DemoApp()
 {
-    SafeRelease(&amp;m_pDevice);
-    SafeRelease(&amp;m_pCompTarget);
-    SafeRelease(&amp;m_pD3D11Device);
-    SafeRelease(&amp;m_pVisual);
+    SafeRelease(&m_pDevice);
+    SafeRelease(&m_pCompTarget);
+    SafeRelease(&m_pD3D11Device);
+    SafeRelease(&m_pVisual);
 }
 
 /*******************************************************************
@@ -461,7 +461,7 @@ HRESULT DemoApp::Initialize()
     wcex.hCursor       = LoadCursor(NULL, IDC_ARROW);
     wcex.lpszClassName = L&quot;DirectCompDemoApp&quot;;
 
-    RegisterClassEx(&amp;wcex);
+    RegisterClassEx(&wcex);
 
     // Create the application window.
     //
@@ -537,8 +537,8 @@ HRESULT DemoApp::InitializeDirectCompositionDevice()
         NULL,
         0,
         D3D11_SDK_VERSION,
-        &amp;m_pD3D11Device,
-        &amp;featureLevelSupported,
+        &m_pD3D11Device,
+        &featureLevelSupported,
         NULL);
 
     IDXGIDevice *pDXGIDevice = nullptr;
@@ -547,7 +547,7 @@ HRESULT DemoApp::InitializeDirectCompositionDevice()
     if (SUCCEEDED(hr))
     {
         // Create the DXGI device used to create bitmap surfaces.
-        hr = m_pD3D11Device-&gt;QueryInterface(&amp;pDXGIDevice);
+        hr = m_pD3D11Device-&gt;QueryInterface(&pDXGIDevice);
     }
 
     if (SUCCEEDED(hr))
@@ -555,16 +555,16 @@ HRESULT DemoApp::InitializeDirectCompositionDevice()
         // Create the DirectComposition device object.
         hr = DCompositionCreateDevice(pDXGIDevice, 
                 __uuidof(IDCompositionDevice), 
-                reinterpret_cast&lt;void **&gt;(&amp;m_pDevice));
+                reinterpret_cast&lt;void **&gt;(&m_pDevice));
     }
 
     if (SUCCEEDED(hr))
     {
         // Create the composition target object.
-        hr = m_pDevice-&gt;CreateTargetForHwnd(m_hwnd, TRUE, &amp;m_pCompTarget);   
+        hr = m_pDevice-&gt;CreateTargetForHwnd(m_hwnd, TRUE, &m_pCompTarget);   
     }
 
-    SafeRelease(&amp;pDXGIDevice);
+    SafeRelease(&pDXGIDevice);
 
     return hr;
 }
@@ -606,10 +606,10 @@ void DemoApp::RunMessageLoop()
 {
     MSG msg;
 
-    while (GetMessage(&amp;msg, NULL, 0, 0))
+    while (GetMessage(&msg, NULL, 0, 0))
     {
-        TranslateMessage(&amp;msg);
-        DispatchMessage(&amp;msg);
+        TranslateMessage(&msg);
+        DispatchMessage(&msg);
     }
 }
 
@@ -627,13 +627,13 @@ HRESULT DemoApp::OnPaint()
     IDCompositionSurface *pSurface = nullptr;
 
     // Create a visual object.          
-    hr = m_pDevice-&gt;CreateVisual(&amp;m_pVisual);  
+    hr = m_pDevice-&gt;CreateVisual(&m_pVisual);  
 
     if (SUCCEEDED(hr))
     {
         // Create a composition surface and render a GDI bitmap 
         // to the surface.
-        hr = MyCreateGDIRenderedDCompSurface(m_hBitmap, &amp;pSurface);
+        hr = MyCreateGDIRenderedDCompSurface(m_hBitmap, &pSurface);
     }
 
     if (SUCCEEDED(hr))
@@ -681,8 +681,8 @@ HRESULT DemoApp::OnMouseMove(int xPos, int yPos)
     static BOOL fOverImage = FALSE;
 
     // Determine whether the cursor is over the visual.
-    if ((xPos &gt;= OFFSET_X &amp;&amp; xPos &lt;= (OFFSET_X + m_bitmapWidth))
-        &amp;&amp; (yPos &gt;= OFFSET_Y &amp;&amp; yPos &lt;= (OFFSET_Y + m_bitmapHeight)))
+    if ((xPos &gt;= OFFSET_X && xPos &lt;= (OFFSET_X + m_bitmapWidth))
+        && (yPos &gt;= OFFSET_Y && yPos &lt;= (OFFSET_Y + m_bitmapHeight)))
     {
         if (!fOverImage)
         {
@@ -720,7 +720,7 @@ HRESULT DemoApp::SetVisualOpacity(IDCompositionVisual *pVisual, float opacity)
         return E_INVALIDARG;
 
     // Create an effect group object.
-    hr = m_pDevice-&gt;CreateEffectGroup(&amp;pEffectGroup);
+    hr = m_pDevice-&gt;CreateEffectGroup(&pEffectGroup);
 
     if (SUCCEEDED(hr))
     {
@@ -741,7 +741,7 @@ HRESULT DemoApp::SetVisualOpacity(IDCompositionVisual *pVisual, float opacity)
     }
 
     // Free the effect group object.
-    SafeRelease(&amp;pEffectGroup);
+    SafeRelease(&pEffectGroup);
 
     return hr;
 }
@@ -762,8 +762,8 @@ HRESULT DemoApp::OnClientClick(int xPos, int yPos)
 
     // Determine whether the mouse cursor is over the visual. If so,
     // rotate the visual.
-    if ((xPos &gt;= OFFSET_X &amp;&amp; xPos &lt;= (OFFSET_X + m_bitmapWidth))
-        &amp;&amp; (yPos &gt;= OFFSET_Y &amp;&amp; yPos &lt;= (OFFSET_Y + m_bitmapHeight)))
+    if ((xPos &gt;= OFFSET_X && xPos &lt;= (OFFSET_X + m_bitmapWidth))
+        && (yPos &gt;= OFFSET_Y && yPos &lt;= (OFFSET_Y + m_bitmapHeight)))
     {
         hr = RotateVisual(m_pVisual, 360.0f);
     }
@@ -790,18 +790,18 @@ HRESULT DemoApp::RotateVisual(IDCompositionVisual *pVisual, float degrees)
         return E_INVALIDARG;
 
     // Create a 3D rotate transform object.
-    hr = m_pDevice-&gt;CreateRotateTransform3D(&amp;pRotate3D);
+    hr = m_pDevice-&gt;CreateRotateTransform3D(&pRotate3D);
 
     if (SUCCEEDED(hr))
     {
         // Create an effect group object.
-        hr = m_pDevice-&gt;CreateEffectGroup(&amp;pEffectGroup);
+        hr = m_pDevice-&gt;CreateEffectGroup(&pEffectGroup);
     }
     
     if (SUCCEEDED(hr))
     {
         // Create an animation object.
-        hr = m_pDevice-&gt;CreateAnimation(&amp;pAnimation);
+        hr = m_pDevice-&gt;CreateAnimation(&pAnimation);
     }
 
     if (SUCCEEDED(hr))
@@ -846,9 +846,9 @@ HRESULT DemoApp::RotateVisual(IDCompositionVisual *pVisual, float degrees)
     }
 
     // Release the DirectComposition objects.
-    SafeRelease(&amp;pAnimation);
-    SafeRelease(&amp;pRotate3D);
-    SafeRelease(&amp;pEffectGroup);
+    SafeRelease(&pAnimation);
+    SafeRelease(&pRotate3D);
+    SafeRelease(&pEffectGroup);
 
     return hr;
 }
@@ -954,7 +954,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message,
 *                                                                 *
 ******************************************************************/
 
-HRESULT DemoApp::LoadResourceGDIBitmap(PCWSTR resourceName, HBITMAP &amp;hbmp)
+HRESULT DemoApp::LoadResourceGDIBitmap(PCWSTR resourceName, HBITMAP &hbmp)
 {
     hbmp = static_cast&lt;HBITMAP&gt;(LoadImageW(HINST_THISCOMPONENT, resourceName, 
         IMAGE_BITMAP, 0, 0, LR_DEFAULTCOLOR));  
@@ -989,7 +989,7 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
     if (SUCCEEDED(hr))
     {
         // Get information about the bitmap.
-        bmpSize = GetObject(hBitmap, sizeof(BITMAP), &amp;bmp);
+        bmpSize = GetObject(hBitmap, sizeof(BITMAP), &bmp);
     }
 
     hr = bmpSize ? S_OK : E_FAIL;
@@ -1002,7 +1002,7 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
         // Create a DirectComposition-compatible surface that is the same size 
         // as the bitmap.
         hr = m_pDevice-&gt;CreateSurface(m_bitmapWidth, m_bitmapHeight, 
-            DXGI_FORMAT_B8G8R8A8_UNORM, DXGI_ALPHA_MODE_IGNORE, &amp;pDCSurface);
+            DXGI_FORMAT_B8G8R8A8_UNORM, DXGI_ALPHA_MODE_IGNORE, &pDCSurface);
     }
 
     hr = pDCSurface ? S_OK : E_FAIL;
@@ -1010,13 +1010,13 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
     {
         // Begin rendering to the surface.
         hr = pDCSurface-&gt;BeginDraw(NULL, __uuidof(IDXGISurface1), 
-            reinterpret_cast&lt;void**&gt;(&amp;pDXGISurface), &amp;pointOffset);
+            reinterpret_cast&lt;void**&gt;(&pDXGISurface), &pointOffset);
     }
 
     if (SUCCEEDED(hr)) 
     {
         // Get the device context (DC) for the surface.
-        pDXGISurface-&gt;GetDC(FALSE, &amp;hSurfaceDC);
+        pDXGISurface-&gt;GetDC(FALSE, &hSurfaceDC);
     }
 
     hr = hSurfaceDC ? S_OK : E_FAIL;
@@ -1045,7 +1045,7 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
     pDCSurface-&gt;EndDraw();
     *ppSurface = pDCSurface;
 
-    SafeRelease(&amp;pDXGISurface);
+    SafeRelease(&pDXGISurface);
 
     return hr;
 }</code></pre></td>

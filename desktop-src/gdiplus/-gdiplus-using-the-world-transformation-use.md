@@ -19,7 +19,7 @@ We start by creating a 50 by 50 rectangle and locating it at the origin (0, 0). 
 ```
 Rect rect(0, 0, 50, 50);
 Pen pen(Color(255, 255, 0, 0), 0);
-graphics.DrawRectangle(&amp;pen, rect);
+graphics.DrawRectangle(&pen, rect);
 ```
 
 
@@ -31,7 +31,7 @@ The following code applies a scaling transformation that expands the rectangle b
 Rect rect(0, 0, 50, 50);
 Pen pen(Color(255, 255, 0, 0), 0);
 graphics.ScaleTransform(1.75f, 0.5f);
-graphics.DrawRectangle(&amp;pen, rect);
+graphics.DrawRectangle(&pen, rect);
 ```
 
 
@@ -45,7 +45,7 @@ To rotate the rectangle instead of scaling it, use the following code instead of
 Rect rect(0, 0, 50, 50);
 Pen pen(Color(255, 255, 0, 0), 0);
 graphics.RotateTransform(28.0f);
-graphics.DrawRectangle(&amp;pen, rect);
+graphics.DrawRectangle(&pen, rect);
 ```
 
 
@@ -57,7 +57,7 @@ To translate the rectangle, use the following code:
 Rect rect(0, 0, 50, 50);
 Pen pen(Color(255, 255, 0, 0), 0);
 graphics.TranslateTransform(150.0f, 150.0f);
-graphics.DrawRectangle(&amp;pen, rect);
+graphics.DrawRectangle(&pen, rect);
 ```
 
 

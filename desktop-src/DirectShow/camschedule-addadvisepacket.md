@@ -30,8 +30,8 @@ The `AddAdvisePacket` method adds an advise request to the list of pending reque
 
 ```C++
 DWORD_PTR AddAdvisePacket(
-  [ref] const REFERENCE_TIME &amp;time1,
-  [ref] const REFERENCE_TIME &amp;time2,
+  [ref] const REFERENCE_TIME &time1,
+  [ref] const REFERENCE_TIME &time2,
               HANDLE         hNotify,
               BOOL           bPeriodic
 );

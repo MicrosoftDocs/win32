@@ -49,13 +49,13 @@ void main(void){
          CLSCTX_ALL,
    /*"edbd9ca9-9b82-4f6a-9e8b-98301e450f14"*/
          __uuidof(IAzAuthorizationStore),
-         (void**)&amp;pStore);
+         (void**)&pStore);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create AzAuthorizationStore object.");
     
     //  Create null VARIANT for parameters.
     VARIANT myVar; 
-    VariantInit(&amp;myVar);
+    VariantInit(&myVar);
 
     //  Allocate a string for the name of the store.
     if(!(storeName = SysAllocString(L"msxml://c:\\MyStore.xml")))
@@ -70,7 +70,7 @@ void main(void){
     //  Create an application object.
     if (!(appName = SysAllocString(L"Expense")))
          MyHandleError("Could not allocate application name string");
-    hr = pStore->CreateApplication(appName, myVar, &amp;pApp);
+    hr = pStore->CreateApplication(appName, myVar, &pApp);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create application.");
 
@@ -84,7 +84,7 @@ void main(void){
     pApp->Release();
     SysFreeString(storeName);
     SysFreeString(appName);
-    VariantClear(&amp;myVar);
+    VariantClear(&myVar);
     CoUninitialize();
 }
 

@@ -60,7 +60,7 @@ HRESULT IsSchemaUpdateEnabled(
     lReturn = RegConnectRegistry(
         pszPath, 
         HKEY_LOCAL_MACHINE, 
-        &amp;hKeyMachine);
+        &hKeyMachine);
     
     delete [] pszPath;
 
@@ -76,7 +76,7 @@ HRESULT IsSchemaUpdateEnabled(
             szKeyPath, 
             0, 
             KEY_READ, 
-            &amp;hKeyParameters);
+            &hKeyParameters);
         if (ERROR_SUCCESS == lReturn)
         {
             DWORD dwType;
@@ -88,9 +88,9 @@ HRESULT IsSchemaUpdateEnabled(
                 hKeyParameters, 
                 szValueName, 
                 0, 
-                &amp;dwType, 
-                (LPBYTE)&amp;dwValue, 
-                &amp;dwSize);
+                &dwType, 
+                (LPBYTE)&dwValue, 
+                &dwSize);
             if (ERROR_SUCCESS == lReturn)
             {
                 *pfEnabled = (0 != dwValue);
@@ -136,7 +136,7 @@ HRESULT EnableSchemaUpdate(
     lReturn = RegConnectRegistry(
         pszPath, 
         HKEY_LOCAL_MACHINE, 
-        &amp;hKeyMachine);
+        &hKeyMachine);
     
     delete [] pszPath;
 
@@ -152,7 +152,7 @@ HRESULT EnableSchemaUpdate(
             szRelKeyPath, 
             0, 
             KEY_SET_VALUE, 
-            &amp;hKeyParameters);
+            &hKeyParameters);
         if (ERROR_SUCCESS == lReturn)
         {
             DWORD dwValue;
@@ -173,7 +173,7 @@ HRESULT EnableSchemaUpdate(
                 szValueName, 
                 0L, 
                 REG_DWORD, 
-                (LPBYTE)&amp;dwValue, 
+                (LPBYTE)&dwValue, 
                 dwSize);
             if (ERROR_SUCCESS == lReturn)
             {

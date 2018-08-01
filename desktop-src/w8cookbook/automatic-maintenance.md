@@ -203,7 +203,7 @@ MainteanceTask( )
                            NULL,
                            CLSCTX_INPROC_SERVER,
                            IID_ITaskService,
-                           (void**)&amp;pService );  
+                           (void**)&pService );  
     if (FAILED(hr))
     {
         wprintf(L"\nFailed to create an instance of ITaskService: %x", hr);
@@ -221,7 +221,7 @@ MainteanceTask( )
     //  ------------------------------------------------------
     //  Get the pointer to the root task folder.  This folder will hold the
     //  new task that is registered.
-    hr = pService->GetFolder( _bstr_t( L"\\") , &amp;pRootFolder );
+    hr = pService->GetFolder( _bstr_t( L"\\") , &pRootFolder );
     if( FAILED(hr) )
     {
         wprintf(L"\nCannot get Root folder pointer: %x", hr );
@@ -232,7 +232,7 @@ MainteanceTask( )
     ( void ) pRootFolder->DeleteTask( _bstr_t(wszTaskName), 0  );
     
     //  Create the task definition object to create the task.
-    hr = pService->NewTask( 0, &amp;pTask );
+    hr = pService->NewTask( 0, &pTask );
     if (FAILED(hr))
     {
         wprintf(L"\nFailed to CoCreate an instance of the TaskService class: %x", hr);
@@ -241,7 +241,7 @@ MainteanceTask( )
         
     //  ------------------------------------------------------
     //  Get the registration info for setting the identification.
-    hr = pTask->get_RegistrationInfo( &amp;pRegInfo );
+    hr = pTask->get_RegistrationInfo( &pRegInfo );
     if( FAILED(hr) )
     {
         wprintf(L"\nCannot get identification pointer: %x", hr );
@@ -266,7 +266,7 @@ MainteanceTask( )
     //  ------------------------------------------------------
     //  Create the principal for the task - these credentials
     //  are overwritten with the credentials passed to RegisterTaskDefinition
-    hr = pTask->get_Principal( &amp;pPrincipal );
+    hr = pTask->get_Principal( &pPrincipal );
     if( FAILED(hr) )
     {
         wprintf(L"\nCannot get principal pointer: %x", hr );
@@ -283,14 +283,14 @@ MainteanceTask( )
 
     //  ------------------------------------------------------
     //  Create the settings for the task
-    hr = pTask->get_Settings( &amp;pSettings );
+    hr = pTask->get_Settings( &pSettings );
     if( FAILED(hr) )
     {
         wprintf(L"\nCannot get settings pointer: %x", hr );
         goto CleanUp;
     }
 
-    hr = pSettings->QueryInterface( __uuidof(ITaskSettings3), (void**) &amp;pSettings3 );
+    hr = pSettings->QueryInterface( __uuidof(ITaskSettings3), (void**) &pSettings3 );
     if( FAILED(hr) )
     {
         wprintf(L"\nCannot query ITaskSettings3 interface: %x", hr );
@@ -304,7 +304,7 @@ MainteanceTask( )
         goto CleanUp;
     }
 
-    hr = pSettings3->CreateMaintenanceSettings( &amp;pMaintenanceSettings );
+    hr = pSettings3->CreateMaintenanceSettings( &pMaintenanceSettings );
     if( FAILED(hr) )
     {
         wprintf(L"\nCannot CreateMaintenanceSettings: %x", hr );
@@ -328,7 +328,7 @@ MainteanceTask( )
     //  ------------------------------------------------------
     //  Add an action to the task. This task will execute notepad.exe.     
     //  Get the task action collection pointer.
-    hr = pTask->get_Actions( &amp;pActionCollection );
+    hr = pTask->get_Actions( &pActionCollection );
     if( FAILED(hr) )
     {
         wprintf(L"\nCannot get Task collection pointer: %x", hr );
@@ -336,7 +336,7 @@ MainteanceTask( )
     }
     
     //  Create the action, specifying that it is an executable action.
-    hr = pActionCollection->Create( TASK_ACTION_EXEC, &amp;pAction );
+    hr = pActionCollection->Create( TASK_ACTION_EXEC, &pAction );
     if( FAILED(hr) )
     {
         wprintf(L"\nCannot create the action: %x", hr );
@@ -344,7 +344,7 @@ MainteanceTask( )
     }
 
     //  QI for the executable task pointer.
-    hr = pAction->QueryInterface( IID_IExecAction, (void**) &amp;pExecAction );
+    hr = pAction->QueryInterface( IID_IExecAction, (void**) &pExecAction );
     if( FAILED(hr) )
     {
         wprintf(L"\nQueryInterface call failed for IExecAction: %x", hr );
@@ -369,7 +369,7 @@ MainteanceTask( )
             _variant_t(), 
             TASK_LOGON_INTERACTIVE_TOKEN,
             _variant_t(L""),
-            &amp;pRegisteredTask);
+            &pRegisteredTask);
     if( FAILED(hr) )
     {
         wprintf(L"\nError saving the Task : %x", hr );

@@ -17,7 +17,7 @@ In some cases, you may want to be able to display [DirectWrite](direct-write-por
 ```C++
 if (SUCCEEDED(hr))
 {
-    hr = g_pGdiInterop->CreateBitmapRenderTarget(hdc, r.right, r.bottom, &amp;g_pBitmapRenderTarget);
+    hr = g_pGdiInterop->CreateBitmapRenderTarget(hdc, r.right, r.bottom, &g_pBitmapRenderTarget);
 }
 ```
 
@@ -55,7 +55,7 @@ STDMETHODIMP GdiTextRenderer::DrawGlyphRun(
         glyphRun,
         pRenderingParams_,
         RGB(0,200,255),
-        &amp;dirtyRect
+        &dirtyRect
         );
     
 

@@ -45,7 +45,7 @@ HRESULT EnumerateDevices(REFGUID category, IEnumMoniker **ppEnum)
     // Create the System Device Enumerator.
     ICreateDevEnum *pDevEnum;
     HRESULT hr = CoCreateInstance(CLSID_SystemDeviceEnum, NULL,  
-        CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&amp;pDevEnum));
+        CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&pDevEnum));
 
     if (SUCCEEDED(hr))
     {
@@ -98,10 +98,10 @@ void DisplayDeviceInformation(IEnumMoniker *pEnum)
 {
     IMoniker *pMoniker = NULL;
 
-    while (pEnum->Next(1, &amp;pMoniker, NULL) == S_OK)
+    while (pEnum->Next(1, &pMoniker, NULL) == S_OK)
     {
         IPropertyBag *pPropBag;
-        HRESULT hr = pMoniker->BindToStorage(0, 0, IID_PPV_ARGS(&amp;pPropBag));
+        HRESULT hr = pMoniker->BindToStorage(0, 0, IID_PPV_ARGS(&pPropBag));
         if (FAILED(hr))
         {
             pMoniker->Release();
@@ -109,36 +109,36 @@ void DisplayDeviceInformation(IEnumMoniker *pEnum)
         } 
 
         VARIANT var;
-        VariantInit(&amp;var);
+        VariantInit(&var);
 
         // Get description or friendly name.
-        hr = pPropBag->Read(L"Description", &amp;var, 0);
+        hr = pPropBag->Read(L"Description", &var, 0);
         if (FAILED(hr))
         {
-            hr = pPropBag->Read(L"FriendlyName", &amp;var, 0);
+            hr = pPropBag->Read(L"FriendlyName", &var, 0);
         }
         if (SUCCEEDED(hr))
         {
             printf("%S\n", var.bstrVal);
-            VariantClear(&amp;var); 
+            VariantClear(&var); 
         }
 
-        hr = pPropBag->Write(L"FriendlyName", &amp;var);
+        hr = pPropBag->Write(L"FriendlyName", &var);
 
         // WaveInID applies only to audio capture devices.
-        hr = pPropBag->Read(L"WaveInID", &amp;var, 0);
+        hr = pPropBag->Read(L"WaveInID", &var, 0);
         if (SUCCEEDED(hr))
         {
             printf("WaveIn ID: %d\n", var.lVal);
-            VariantClear(&amp;var); 
+            VariantClear(&var); 
         }
 
-        hr = pPropBag->Read(L"DevicePath", &amp;var, 0);
+        hr = pPropBag->Read(L"DevicePath", &var, 0);
         if (SUCCEEDED(hr))
         {
             // The device path is not intended for display.
             printf("Device path: %S\n", var.bstrVal);
-            VariantClear(&amp;var); 
+            VariantClear(&var); 
         }
 
         pPropBag->Release();
@@ -153,13 +153,13 @@ void main()
     {
         IEnumMoniker *pEnum;
 
-        hr = EnumerateDevices(CLSID_VideoInputDeviceCategory, &amp;pEnum);
+        hr = EnumerateDevices(CLSID_VideoInputDeviceCategory, &pEnum);
         if (SUCCEEDED(hr))
         {
             DisplayDeviceInformation(pEnum);
             pEnum->Release();
         }
-        hr = EnumerateDevices(CLSID_AudioInputDeviceCategory, &amp;pEnum);
+        hr = EnumerateDevices(CLSID_AudioInputDeviceCategory, &pEnum);
         if (SUCCEEDED(hr))
         {
             DisplayDeviceInformation(pEnum);
@@ -177,7 +177,7 @@ To create a DirectShow capture filter for the device, call the [**IMoniker::Bind
 
 ```C++
 IBaseFilter *pCap = NULL;
-hr = pMoniker->BindToObject(0, 0, IID_IBaseFilter, (void**)&amp;pCap);
+hr = pMoniker->BindToObject(0, 0, IID_IBaseFilter, (void**)&pCap);
 if (SUCCEEDED(hr))
 {
     hr = m_pGraph->AddFilter(pCap, L"Capture Filter");

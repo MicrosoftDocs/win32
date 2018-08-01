@@ -65,9 +65,9 @@ case TTN_SHOW:
     {
         RECT rc;
         
-        GetMyItemRect(&amp;rc);
+        GetMyItemRect(&rc);
         
-        SendMessage(hwndToolTip, TTM_ADJUSTRECT, TRUE, (LPARAM)&amp;rc);
+        SendMessage(hwndToolTip, TTM_ADJUSTRECT, TRUE, (LPARAM)&rc);
         
         SetWindowPos(hwndToolTip, NULL, rc.left, rc.top, 0, 0, 
                      SWP_NOSIZE | SWP_NOZORDER | SWP_NOACTIVATE);

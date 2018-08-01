@@ -102,7 +102,7 @@ void wmain(int argc, wchar_t *argv[ ])
                        NULL,
                        ADS_SECURE_AUTHENTICATION, // Use Secure Authentication.
                        IID_IADs,
-                       (void**)&amp;pObject);
+                       (void**)&pObject);
     if (FAILED(hr))
     {
         wprintf(L"Cannot execute query. Cannot bind to LDAP://rootDSE.\n");
@@ -112,7 +112,7 @@ void wmain(int argc, wchar_t *argv[ ])
     }
     if (SUCCEEDED(hr))
     {
-        hr = pObject->Get(_bstr_t("defaultNamingContext"),&amp;var);
+        hr = pObject->Get(_bstr_t("defaultNamingContext"),&var);
         if (SUCCEEDED(hr))
         {
             //  Build path to the domain container.
@@ -123,7 +123,7 @@ void wmain(int argc, wchar_t *argv[ ])
                                NULL,
                                ADS_SECURE_AUTHENTICATION, //  Use Secure Authentication.
                                IID_IDirectorySearch,
-                               (void**)&amp;pContainerToSearch);
+                               (void**)&pContainerToSearch);
 
             if (SUCCEEDED(hr))
             {
@@ -149,7 +149,7 @@ void wmain(int argc, wchar_t *argv[ ])
             if (pContainerToSearch)
                 pContainerToSearch->Release();
         }
-        VariantClear(&amp;var);
+        VariantClear(&var);
     }
     if (pObject)
         pObject->Release();
@@ -178,7 +178,7 @@ HRESULT FindUsers(IDirectorySearch *pContainerToSearch,  //  IDirectorySearch po
     LPOLESTR pszSearchFilter = new OLECHAR[dwLength];
 
     //  Add the filter.
-    swprintf_s(pszSearchFilter, dwLength, L"(&amp;(objectClass=user)(objectCategory=person)%s)",szFilter);
+    swprintf_s(pszSearchFilter, dwLength, L"(&(objectClass=user)(objectCategory=person)%s)",szFilter);
 
     //  Specify subtree search.
     ADS_SEARCHPREF_INFO SearchPrefs;
@@ -200,7 +200,7 @@ HRESULT FindUsers(IDirectorySearch *pContainerToSearch,  //  IDirectorySearch po
     ADS_SEARCH_HANDLE hSearch = NULL;
 
     //  Set search preference.
-    hr = pContainerToSearch->SetSearchPreference(&amp;SearchPrefs, dwNumPrefs);
+    hr = pContainerToSearch->SetSearchPreference(&SearchPrefs, dwNumPrefs);
     if (FAILED(hr))
         return hr;
 
@@ -221,7 +221,7 @@ HRESULT FindUsers(IDirectorySearch *pContainerToSearch,  //  IDirectorySearch po
     LPOLESTR szName = new OLECHAR[MAX_PATH];
     LPOLESTR szDN = new OLECHAR[MAX_PATH];
 
-    VariantInit(&amp;varDate);
+    VariantInit(&varDate);
 
     int iCount = 0;
     DWORD x = 0L;
@@ -234,7 +234,7 @@ HRESULT FindUsers(IDirectorySearch *pContainerToSearch,  //  IDirectorySearch po
         hr = pContainerToSearch->ExecuteSearch(pszSearchFilter,
                                                pszNonVerboseList,
                                                sizeof(pszNonVerboseList)/sizeof(LPOLESTR),
-                                               &amp;hSearch
+                                               &hSearch
                                              );
     }
     else
@@ -245,7 +245,7 @@ HRESULT FindUsers(IDirectorySearch *pContainerToSearch,  //  IDirectorySearch po
             hr = pContainerToSearch->ExecuteSearch(pszSearchFilter,
                                                    NULL,
                                                    (DWORD)-1,
-                                                   &amp;hSearch
+                                                   &hSearch
                                                  );
         }
         else
@@ -256,7 +256,7 @@ HRESULT FindUsers(IDirectorySearch *pContainerToSearch,  //  IDirectorySearch po
             hr = pContainerToSearch->ExecuteSearch(pszSearchFilter,
                                                    pszPropertyList,
                                                    sizeof(pszPropertyList)/sizeof(LPOLESTR),
-                                                   &amp;hSearch
+                                                   &hSearch
                                                  );
         }
     }
@@ -275,9 +275,9 @@ HRESULT FindUsers(IDirectorySearch *pContainerToSearch,  //  IDirectorySearch po
                 //  Loop through the array of passed column names,
                 //  print the data for each column.
 
-                while(pContainerToSearch->GetNextColumnName(hSearch, &amp;pszColumn) != S_ADS_NOMORE_COLUMNS)
+                while(pContainerToSearch->GetNextColumnName(hSearch, &pszColumn) != S_ADS_NOMORE_COLUMNS)
                 {
-                    hr = pContainerToSearch->GetColumn(hSearch, pszColumn, &amp;col);
+                    hr = pContainerToSearch->GetColumn(hSearch, pszColumn, &col);
                     if (SUCCEEDED(hr))
                     {
                         //  Print the data for the column and free the column.
@@ -326,7 +326,7 @@ HRESULT FindUsers(IDirectorySearch *pContainerToSearch,  //  IDirectorySearch po
                                     {
                                         pObjectSID = (PSID)(col.pADsValues[x].OctetString.lpValue);
                                         //  Convert SID to string.
-                                        ConvertSidToStringSid(pObjectSID, &amp;szSID);
+                                        ConvertSidToStringSid(pObjectSID, &szSID);
                                         wprintf(L"  %s\r\n",szSID);
                                         LocalFree(szSID);
                                     }
@@ -350,15 +350,15 @@ HRESULT FindUsers(IDirectorySearch *pContainerToSearch,  //  IDirectorySearch po
                                 for (x = 0; x< col.dwNumValues; x++)
                                 {
                                     systemtime = col.pADsValues[x].UTCTime;
-                                    if (SystemTimeToVariantTime(&amp;systemtime,
-                                        &amp;date) != 0) 
+                                    if (SystemTimeToVariantTime(&systemtime,
+                                        &date) != 0) 
                                     {
                                         //  Pack in variant.vt.
                                         varDate.vt = VT_DATE;
                                         varDate.date = date;
-                                        VariantChangeType(&amp;varDate,&amp;varDate,VARIANT_NOVALUEPROP,VT_BSTR);
+                                        VariantChangeType(&varDate,&varDate,VARIANT_NOVALUEPROP,VT_BSTR);
                                         wprintf(L"  %s\r\n",varDate.bstrVal);
-                                        VariantClear(&amp;varDate);
+                                        VariantClear(&varDate);
                                     }
                                     else
                                         wprintf(L"  Could not convert UTC-Time.\n",pszColumn);
@@ -370,7 +370,7 @@ HRESULT FindUsers(IDirectorySearch *pContainerToSearch,  //  IDirectorySearch po
                                     liValue = col.pADsValues[x].LargeInteger;
                                     filetime.dwLowDateTime = liValue.LowPart;
                                     filetime.dwHighDateTime = liValue.HighPart;
-                                    if((filetime.dwHighDateTime==0) &amp;&amp; (filetime.dwLowDateTime==0))
+                                    if((filetime.dwHighDateTime==0) && (filetime.dwLowDateTime==0))
                                     {
                                         wprintf(L"  No value set.\n");
                                     }
@@ -393,20 +393,20 @@ HRESULT FindUsers(IDirectorySearch *pContainerToSearch,  //  IDirectorySearch po
                                             }
                                             else
                                             {
-                                                if (FileTimeToLocalFileTime(&amp;filetime, &amp;filetime) != 0) 
+                                                if (FileTimeToLocalFileTime(&filetime, &filetime) != 0) 
                                                 {
-                                                    if (FileTimeToSystemTime(&amp;filetime,
-                                                        &amp;systemtime) != 0)
+                                                    if (FileTimeToSystemTime(&filetime,
+                                                        &systemtime) != 0)
                                                     {
-                                                        if (SystemTimeToVariantTime(&amp;systemtime,
-                                                            &amp;date) != 0) 
+                                                        if (SystemTimeToVariantTime(&systemtime,
+                                                            &date) != 0) 
                                                         {
                                                             //  Pack in variant.vt.
                                                             varDate.vt = VT_DATE;
                                                             varDate.date = date;
-                                                            VariantChangeType(&amp;varDate,&amp;varDate,VARIANT_NOVALUEPROP,VT_BSTR);
+                                                            VariantChangeType(&varDate,&varDate,VARIANT_NOVALUEPROP,VT_BSTR);
                                                             wprintf(L"  %s\r\n",varDate.bstrVal);
-                                                            VariantClear(&amp;varDate);
+                                                            VariantClear(&varDate);
                                                         }
                                                         else
                                                         {
@@ -458,7 +458,7 @@ HRESULT FindUsers(IDirectorySearch *pContainerToSearch,  //  IDirectorySearch po
                             }
 #endif _MBCS
                         }
-                        pContainerToSearch->FreeColumn(&amp;col);
+                        pContainerToSearch->FreeColumn(&col);
                     }
                     FreeADsMem(pszColumn);
                 }
@@ -472,7 +472,7 @@ HRESULT FindUsers(IDirectorySearch *pContainerToSearch,  //  IDirectorySearch po
         //  Close the search handle to cleanup.
         pContainerToSearch->CloseSearchHandle(hSearch);
     } 
-    if (SUCCEEDED(hr) &amp;&amp; 0==iCount)
+    if (SUCCEEDED(hr) && 0==iCount)
         hr = S_FALSE;
 
     delete [] szName;
@@ -500,7 +500,7 @@ On Error Resume Next
 MAX_DISPLAY = 5
  
 ' Prompt for surname to search for.
-strName = InputBox("This routine searches in the current domain for users with the specified surname." & vbCrLf & vbCrLf &amp;"Specify the surname:")
+strName = InputBox("This routine searches in the current domain for users with the specified surname." & vbCrLf & vbCrLf &"Specify the surname:")
  
 If strName = "" Then
   msgbox "No surname was specified. The routine will search for all users."
@@ -550,9 +550,9 @@ sADsPath = "<" & domain.ADsPath & ">"
  
 ' Build the filter element of the commandtext
 If (strName = "") Then
-  sFilter = "(&amp;(objectCategory=person)(objectClass=user))"
+  sFilter = "(&(objectCategory=person)(objectClass=user))"
 Else
-  sFilter = "(&amp;(objectCategory=person)(objectClass=user)(sn=" & strName & "))"
+  sFilter = "(&(objectCategory=person)(objectClass=user)(sn=" & strName & "))"
 End If
  
 ' Build the returned attributes element of the commandtext.

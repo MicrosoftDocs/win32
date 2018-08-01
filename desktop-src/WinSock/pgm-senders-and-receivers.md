@@ -45,7 +45,7 @@ salocal.sin_family = AF_INET;
 salocal.sin_port   = htons (0);    // Port is ignored here
 salocal.sin_addr.s_addr = htonl (INADDR_ANY);
 
-bind (s, (SOCKADDR *)&amp;salocal, sizeof(salocal));
+bind (s, (SOCKADDR *)&salocal, sizeof(salocal));
 
 //
 // Set all relevant sender socket options here
@@ -62,7 +62,7 @@ sasession.sin_family = AF_INET;
 sasession.sin_port   = htons (dwSessionPort);
 sasession.sin_addr.s_addr = inet_addr ("234.5.6.7");
 
-connect (s, (SOCKADDR *)&amp;sasession, sizeof(sasession));
+connect (s, (SOCKADDR *)&sasession, sizeof(sasession));
 
 //
 // We're now ready to send data!
@@ -114,7 +114,7 @@ salocal.sin_family = AF_INET;
 salocal.sin_port   = htons (dwSessionPort);    
 salocal.sin_addr.s_addr = inet_addr ("234.5.6.7");
 
-bind (s, (SOCKADDR *)&amp;salocal, sizeof(salocal));
+bind (s, (SOCKADDR *)&salocal, sizeof(salocal));
 
 //
 // Set all relevant receiver socket options here
@@ -123,7 +123,7 @@ bind (s, (SOCKADDR *)&amp;salocal, sizeof(salocal));
 listen (s, 10);
 
 sasessionsz = sizeof(sasession);
-sclient = accept (s, (SOCKADDR *)&amp;sasession, &amp;sasessionsz);
+sclient = accept (s, (SOCKADDR *)&sasession, &sasessionsz);
 
 //
 // accept will return the client socket and we are now ready

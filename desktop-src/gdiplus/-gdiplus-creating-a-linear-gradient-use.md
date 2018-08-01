@@ -29,11 +29,11 @@ LinearGradientBrush linGrBrush(
    Color(255, 255, 0, 0),   // opaque red
    Color(255, 0, 0, 255));  // opaque blue
 
-Pen pen(&amp;linGrBrush);
+Pen pen(&linGrBrush);
 
-graphics.DrawLine(&amp;pen, 0, 10, 200, 10);
-graphics.FillEllipse(&amp;linGrBrush, 0, 30, 200, 100);
-graphics.FillRectangle(&amp;linGrBrush, 0, 155, 500, 30);
+graphics.DrawLine(&pen, 0, 10, 200, 10);
+graphics.FillEllipse(&linGrBrush, 0, 30, 200, 100);
+graphics.FillRectangle(&linGrBrush, 0, 155, 500, 30);
 ```
 
 
@@ -81,8 +81,8 @@ REAL relativePositions[]   = {0.0f, 0.2f, 1.0f};
 
 linGrBrush.SetBlend(relativeIntensities, relativePositions, 3);
 
-graphics.FillEllipse(&amp;linGrBrush, 0, 30, 200, 100);
-graphics.FillRectangle(&amp;linGrBrush, 0, 155, 500, 30);
+graphics.FillEllipse(&linGrBrush, 0, 30, 200, 100);
+graphics.FillRectangle(&linGrBrush, 0, 155, 500, 30);
 ```
 
 
@@ -103,10 +103,10 @@ LinearGradientBrush linGrBrush(
    Color(255, 0, 0, 255),   // opaque blue
    Color(255, 0, 255, 0));  // opaque green
 
-Pen pen(&amp;linGrBrush, 10);
+Pen pen(&linGrBrush, 10);
 
-graphics.DrawLine(&amp;pen, 0, 0, 600, 300);
-graphics.FillEllipse(&amp;linGrBrush, 10, 100, 200, 100);
+graphics.DrawLine(&pen, 0, 0, 600, 300);
+graphics.FillEllipse(&linGrBrush, 10, 100, 200, 100);
 ```
 
 

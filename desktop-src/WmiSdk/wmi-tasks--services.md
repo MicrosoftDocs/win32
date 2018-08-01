@@ -71,10 +71,10 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot; 
-Set objWMIService = GetObject(&quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\CIMV2&quot;) 
+Set objWMIService = GetObject(&quot;winmgmts:\\&quot; & strComputer & &quot;\root\CIMV2&quot;) 
 Set colItems = objWMIService.ExecQuery(&quot;SELECT * FROM Win32_Service&quot;,,48) 
 For Each objItem in colItems 
-    Wscript.Echo &quot;Service Name: &quot; &amp; objItem.Name &amp; VBNewLine &amp; &quot;State: &quot; &amp; objItem.State
+    Wscript.Echo &quot;Service Name: &quot; & objItem.Name & VBNewLine & &quot;State: &quot; & objItem.State
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -114,11 +114,11 @@ Next</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colServiceList = objWMIService.ExecQuery (&quot;Select * from Win32_Service where StartMode = &#39;Manual&#39;&quot;)
 For Each objService in colServiceList
     errReturnCode = objService.Change( , , , , &quot;Disabled&quot;)
-    WScript.Echo &quot;Changed manual service to disabled: &quot; &amp; objService.Name   
+    WScript.Echo &quot;Changed manual service to disabled: &quot; & objService.Name   
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -160,7 +160,7 @@ Next</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colListOfServices = objWMIService.ExecQuery (&quot;Select * from Win32_Service Where Name =&#39;Alerter&#39;&quot;)
 For Each objService in colListOfServices
     objService.StartService()
@@ -207,7 +207,7 @@ Next
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colServiceList = objWMIService.ExecQuery (&quot;Select * from Win32_Service&quot;)
 For Each objservice in colServiceList
     If objService.StartName = &quot;.\netsvc&quot; Then
@@ -237,7 +237,7 @@ Next</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colServices = objWMIService.ExecQuery (&quot;Select * from Win32_Service Where AcceptStop = True&quot;)
 For Each objService in colServices
     Wscript.Echo objService.DisplayName 
@@ -282,11 +282,11 @@ Next</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colServiceList = objWMIService.ExecQuery(&quot;Associators Of &quot; _ 
-    &amp; &quot;{Win32_Service.Name=&#39;dhcp&#39;} Where &quot; _
-    &amp; &quot;AssocClass=Win32_DependentService &quot; _
-    &amp; &quot;Role=Dependent&quot;) 
+    & &quot;{Win32_Service.Name=&#39;dhcp&#39;} Where &quot; _
+    & &quot;AssocClass=Win32_DependentService &quot; _
+    & &quot;Role=Dependent&quot;) 
 For Each objService in colServiceList
 Wscript.Echo objService.DisplayName 
 Next</code></pre></td>
@@ -330,14 +330,14 @@ Get-WmiObject -Query $query -Namespace &quot;root\cimv2&quot; | format-list Disp
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\ &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\ & strComputer & &quot;\root\cimv2&quot;)
 Set colServiceList = _
     objWMIService.ExecQuery(&quot;Associators of &quot; _
-    &amp; &quot;{Win32_Service.Name=&#39;winmgmt&#39;} Where &quot; _
-    &amp; &quot;AssocClass=Win32_DependentService &quot; _
-    &amp; &quot;Role=Antecedent&quot; )
+    & &quot;{Win32_Service.Name=&#39;winmgmt&#39;} Where &quot; _
+    & &quot;AssocClass=Win32_DependentService &quot; _
+    & &quot;Role=Antecedent&quot; )
 For Each objService in colServiceList
-Wscript.Echo &quot;Name: &quot; &amp; objService.Name &amp; VBTab &amp; &quot;Display Name: &quot; &amp; objService.DisplayName 
+Wscript.Echo &quot;Name: &quot; & objService.Name & VBTab & &quot;Display Name: &quot; & objService.DisplayName 
 Next</code></pre></td>
 </tr>
 </tbody>

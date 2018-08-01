@@ -200,7 +200,7 @@ static void onInstall()
     WINBIO_UUID databaseId = PRIVATE_POOL_DATABASE_ID;
     WINBIO_UUID dataFormat = {};
 
-    if (isDatabaseInstalled( &amp;databaseId, &amp;dataFormat))
+    if (isDatabaseInstalled( &databaseId, &dataFormat))
     {
         _tprintf(_T("*** Error - private database already installed.\n"));
         return;
@@ -210,8 +210,8 @@ static void onInstall()
     SIZE_T unitCount = 0;
     HRESULT hr = WinBioEnumBiometricUnits( 
                     WINBIO_TYPE_FINGERPRINT, 
-                    &amp;unitArray, 
-                    &amp;unitCount 
+                    &unitArray, 
+                    &unitCount 
                     );
     if (SUCCEEDED(hr))
     {
@@ -220,13 +220,13 @@ static void onInstall()
                 _T("Make templates compatible with the selected sensor"), 
                 unitArray, 
                 unitCount, 
-                &amp;selectedUnit
+                &selectedUnit
                 ))
         {
             BioHelper::POOL_CONFIGURATION derivedConfig = {};
             hr = BioHelper::CreateCompatibleConfiguration( 
-                    &amp;unitArray[selectedUnit], 
-                    &amp;derivedConfig 
+                    &unitArray[selectedUnit], 
+                    &derivedConfig 
                     );
             if (SUCCEEDED(hr))
             {
@@ -234,7 +234,7 @@ static void onInstall()
                 storageSchema.DatabaseId = PRIVATE_POOL_DATABASE_ID;
                 storageSchema.DataFormat = derivedConfig.DataFormat;
                 storageSchema.Attributes = derivedConfig.DatabaseAttributes;
-                hr = BioHelper::RegisterDatabase( &amp;storageSchema );
+                hr = BioHelper::RegisterDatabase( &storageSchema );
             }
         }
         else
@@ -265,7 +265,7 @@ static void onUninstall()
     WINBIO_UUID databaseId = PRIVATE_POOL_DATABASE_ID;
     WINBIO_UUID dataFormat = {};
 
-    if (!isDatabaseInstalled( &amp;databaseId, &amp;dataFormat))
+    if (!isDatabaseInstalled( &databaseId, &dataFormat))
     {
         _tprintf(_T("*** Error - private database not installed.\n"));
         return;
@@ -277,8 +277,8 @@ static void onUninstall()
 
     HRESULT hr = WinBioEnumBiometricUnits( 
                     WINBIO_TYPE_FINGERPRINT, 
-                    &amp;unitArray, 
-                    &amp;unitCount 
+                    &unitArray, 
+                    &unitCount 
                     );
     if (SUCCEEDED(hr))
     {
@@ -286,9 +286,9 @@ static void onUninstall()
         {
             bool configRemoved = false;
             hr = BioHelper::UnregisterPrivateConfiguration( 
-                                &amp;unitArray[i], 
-                                &amp;databaseId, 
-                                &amp;configRemoved 
+                                &unitArray[i], 
+                                &databaseId, 
+                                &configRemoved 
                                 );
             if (FAILED(hr))
             {
@@ -311,7 +311,7 @@ static void onUninstall()
     if (SUCCEEDED(hr))
     {
         // Remove the database.
-        hr = BioHelper::UnregisterDatabase( &amp;databaseId );
+        hr = BioHelper::UnregisterDatabase( &databaseId );
     }
     if (SUCCEEDED(hr))
     {
@@ -333,7 +333,7 @@ static void onAdd()
     WINBIO_UUID databaseId = PRIVATE_POOL_DATABASE_ID;
     WINBIO_UUID dataFormat = {};
 
-    if (!isDatabaseInstalled( &amp;databaseId, &amp;dataFormat))
+    if (!isDatabaseInstalled( &databaseId, &dataFormat))
     {
         _tprintf(_T("*** Error - private database not installed.\n"));
         return;
@@ -343,8 +343,8 @@ static void onAdd()
     SIZE_T unitCount = 0;
     HRESULT hr = WinBioEnumBiometricUnits( 
                     WINBIO_TYPE_FINGERPRINT, 
-                    &amp;unitArray, 
-                    &amp;unitCount 
+                    &unitArray, 
+                    &unitCount 
                     );
     if (SUCCEEDED(hr))
     {
@@ -353,20 +353,20 @@ static void onAdd()
                 _T("Choose a sensor to add to the private pool"), 
                 unitArray, 
                 unitCount, 
-                &amp;selectedUnit
+                &selectedUnit
                 ))
         {
             BioHelper::POOL_CONFIGURATION derivedConfig = {};
             hr = BioHelper::CreateCompatibleConfiguration( 
-                    &amp;unitArray[selectedUnit], 
-                    &amp;derivedConfig 
+                    &unitArray[selectedUnit], 
+                    &derivedConfig 
                     );
             if (SUCCEEDED(hr))
             {
                 derivedConfig.DatabaseId = PRIVATE_POOL_DATABASE_ID;
                 hr = BioHelper::RegisterPrivateConfiguration( 
-                                    &amp;unitArray[selectedUnit], 
-                                    &amp;derivedConfig 
+                                    &unitArray[selectedUnit], 
+                                    &derivedConfig 
                                     );
             }
         }
@@ -396,8 +396,8 @@ static void onRemove()
     SIZE_T unitCount = 0;
     HRESULT hr = WinBioEnumBiometricUnits( 
             WINBIO_TYPE_FINGERPRINT, 
-            &amp;unitArray, 
-            &amp;unitCount 
+            &unitArray, 
+            &unitCount 
             );
     if (SUCCEEDED(hr))
     {
@@ -406,14 +406,14 @@ static void onRemove()
                 _T("Choose a sensor to remove from the private pool"), 
                 unitArray, 
                 unitCount, 
-                &amp;selectedUnit
+                &selectedUnit
                 ))
         {
             WINBIO_UUID targetDatabase = PRIVATE_POOL_DATABASE_ID;
             hr = BioHelper::UnregisterPrivateConfiguration( 
-                                &amp;unitArray[selectedUnit], 
-                                &amp;targetDatabase,
-                                &amp;configRemoved
+                                &unitArray[selectedUnit], 
+                                &targetDatabase,
+                                &configRemoved
                                 );
         }
         WinBioFree( unitArray );
@@ -502,8 +502,8 @@ static bool isDatabaseInstalled(
     if (SUCCEEDED(
             WinBioEnumDatabases( 
                 WINBIO_TYPE_FINGERPRINT, 
-                &amp;storageArray, 
-                &amp;storageCount 
+                &storageArray, 
+                &storageCount 
                 )))
     {
         for (SIZE_T i = 0; i < storageCount; ++i)

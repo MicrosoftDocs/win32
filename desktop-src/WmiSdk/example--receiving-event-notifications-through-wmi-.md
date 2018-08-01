@@ -99,7 +99,7 @@ int main(int iArgCnt, char ** argv)
         CLSID_WbemLocator,             
         0, 
         CLSCTX_INPROC_SERVER, 
-        IID_IWbemLocator, (LPVOID *) &amp;pLoc);
+        IID_IWbemLocator, (LPVOID *) &pLoc);
  
     if (FAILED(hres))
     {
@@ -125,7 +125,7 @@ int main(int iArgCnt, char ** argv)
         NULL, 
         0, 
         0, 
-        &amp;pSvc
+        &pSvc
     );
      
     if (FAILED(hres))
@@ -172,17 +172,17 @@ int main(int iArgCnt, char ** argv)
 
     hres = CoCreateInstance(CLSID_UnsecuredApartment, NULL, 
         CLSCTX_LOCAL_SERVER, IID_IUnsecuredApartment, 
-        (void**)&amp;pUnsecApp);
+        (void**)&pUnsecApp);
  
     EventSink* pSink = new EventSink;
     pSink->AddRef();
 
     IUnknown* pStubUnk = NULL; 
-    pUnsecApp->CreateObjectStub(pSink, &amp;pStubUnk);
+    pUnsecApp->CreateObjectStub(pSink, &pStubUnk);
 
     IWbemObjectSink* pStubSink = NULL;
     pStubUnk->QueryInterface(IID_IWbemObjectSink,
-        (void **) &amp;pStubSink);
+        (void **) &pStubSink);
 
     // The ExecNotificationQueryAsync method will call
     // The EventQuery::Indicate method when an event occurs
@@ -290,12 +290,12 @@ The following example code is an implementation of the EventSink class.
 
 ULONG EventSink::AddRef()
 {
-    return InterlockedIncrement(&amp;m_lRef);
+    return InterlockedIncrement(&m_lRef);
 }
 
 ULONG EventSink::Release()
 {
-    LONG lRef = InterlockedDecrement(&amp;m_lRef);
+    LONG lRef = InterlockedDecrement(&m_lRef);
     if(lRef == 0)
         delete this;
     return lRef;

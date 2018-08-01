@@ -160,7 +160,7 @@ HRESULT CreateLink(LPCWSTR lpszPathObj, LPCSTR lpszPathLink, LPCWSTR lpszDesc)
  
     // Get a pointer to the IShellLink interface. It is assumed that CoInitialize
     // has already been called.
-    hres = CoCreateInstance(CLSID_ShellLink, NULL, CLSCTX_INPROC_SERVER, IID_IShellLink, (LPVOID*)&amp;psl); 
+    hres = CoCreateInstance(CLSID_ShellLink, NULL, CLSCTX_INPROC_SERVER, IID_IShellLink, (LPVOID*)&psl); 
     if (SUCCEEDED(hres)) 
     { 
         IPersistFile* ppf; 
@@ -171,7 +171,7 @@ HRESULT CreateLink(LPCWSTR lpszPathObj, LPCSTR lpszPathLink, LPCWSTR lpszDesc)
  
         // Query IShellLink for the IPersistFile interface, used for saving the 
         // shortcut in persistent storage. 
-        hres = psl->QueryInterface(IID_IPersistFile, (LPVOID*)&amp;ppf); 
+        hres = psl->QueryInterface(IID_IPersistFile, (LPVOID*)&ppf); 
  
         if (SUCCEEDED(hres)) 
         { 
@@ -239,13 +239,13 @@ HRESULT ResolveIt(HWND hwnd, LPCSTR lpszLinkFile, LPWSTR lpszPath, int iPathBuff
 
     // Get a pointer to the IShellLink interface. It is assumed that CoInitialize
     // has already been called. 
-    hres = CoCreateInstance(CLSID_ShellLink, NULL, CLSCTX_INPROC_SERVER, IID_IShellLink, (LPVOID*)&amp;psl); 
+    hres = CoCreateInstance(CLSID_ShellLink, NULL, CLSCTX_INPROC_SERVER, IID_IShellLink, (LPVOID*)&psl); 
     if (SUCCEEDED(hres)) 
     { 
         IPersistFile* ppf; 
  
         // Get a pointer to the IPersistFile interface. 
-        hres = psl->QueryInterface(IID_IPersistFile, (void**)&amp;ppf); 
+        hres = psl->QueryInterface(IID_IPersistFile, (void**)&ppf); 
         
         if (SUCCEEDED(hres)) 
         { 
@@ -268,7 +268,7 @@ HRESULT ResolveIt(HWND hwnd, LPCSTR lpszLinkFile, LPWSTR lpszPath, int iPathBuff
                 if (SUCCEEDED(hres)) 
                 { 
                     // Get the path to the link target. 
-                    hres = psl->GetPath(szGotPath, MAX_PATH, (WIN32_FIND_DATA*)&amp;wfd, SLGP_SHORTPATH); 
+                    hres = psl->GetPath(szGotPath, MAX_PATH, (WIN32_FIND_DATA*)&wfd, SLGP_SHORTPATH); 
 
                     if (SUCCEEDED(hres)) 
                     { 

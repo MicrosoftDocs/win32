@@ -98,12 +98,12 @@ HRESULT CreateHWOverlay(
     *ppDevice = NULL;
 
     D3DCAPS9                caps;
-    ZeroMemory(&amp;caps, sizeof(caps));
+    ZeroMemory(&caps, sizeof(caps));
 
     HRESULT hr = pD3D->GetDeviceCaps(
         D3DADAPTER_DEFAULT,
         D3DDEVTYPE_HAL,
-        &amp;caps
+        &caps
         );
 
     if (FAILED(hr))
@@ -123,7 +123,7 @@ HRESULT CreateHWOverlay(
     IDirect3D9ExOverlayExtension *pOverlay = NULL;
 
     // Check specific overlay capabilities.
-    hr = pD3D->QueryInterface(IID_PPV_ARGS(&amp;pOverlay));
+    hr = pD3D->QueryInterface(IID_PPV_ARGS(&pOverlay));
 
     if (SUCCEEDED(hr))
     {
@@ -135,7 +135,7 @@ HRESULT CreateHWOverlay(
             D3DFMT_X8R8G8B8,
             NULL,
             D3DDISPLAYROTATION_IDENTITY,
-            &amp;overlayCaps
+            &overlayCaps
             );
     }
 
@@ -161,7 +161,7 @@ HRESULT CreateHWOverlay(
         pp.PresentationInterval       = D3DPRESENT_INTERVAL_ONE;
 
         hr = pD3D->CreateDeviceEx(D3DADAPTER_DEFAULT, D3DDEVTYPE_HAL,
-            NULL, flags, &amp;pp, NULL, &amp;pDevice);
+            NULL, flags, &pp, NULL, &pDevice);
     }
 
     if (SUCCEEDED(hr))
@@ -170,9 +170,9 @@ HRESULT CreateHWOverlay(
         (*ppDevice)->AddRef();
     }
 
-    SafeRelease(&amp;pD3D);
-    SafeRelease(&amp;pDevice);
-    SafeRelease(&amp;pOverlay);
+    SafeRelease(&pD3D);
+    SafeRelease(&pDevice);
+    SafeRelease(&pOverlay);
     return hr;
 }
 ```

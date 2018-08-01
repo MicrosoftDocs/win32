@@ -36,7 +36,7 @@ int main()
     printf("Waiting for 10 seconds...\n");
 
     // Set a timer to wait for 10 seconds.
-    if (!SetWaitableTimer(hTimer, &amp;liDueTime, 0, NULL, NULL, 0))
+    if (!SetWaitableTimer(hTimer, &liDueTime, 0, NULL, NULL, 0))
     {
         printf("SetWaitableTimer failed (%d)\n", GetLastError());
         return 2;

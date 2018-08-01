@@ -66,12 +66,12 @@ void wmain(void)
     // Data to load into event descriptors
 
     USHORT Scores[3] = {45, 63, 21};
-    ULONG pImage = (ULONG)&amp;Scores;
+    ULONG pImage = (ULONG)&Scores;
     DWORD TransferType = Upload;
     DWORD Day = MONDAY | TUESDAY;
     LPWSTR Path = L"c:\\path\\folder\\file.ext";
     BYTE Cert[11] = {0x2, 0x4, 0x8, 0x10, 0x20, 0x30, 0x40, 0x50, 0x60, 0x0, 0x1};
-    PBYTE Guid = (PBYTE) &amp;ProviderGuid;
+    PBYTE Guid = (PBYTE) &ProviderGuid;
     USHORT ArraySize = MAX_NAMEDVALUES;
     BOOL IsLocal = TRUE;
     NAMEDVALUE NamedValues[MAX_NAMEDVALUES] = { 
@@ -83,10 +83,10 @@ void wmain(void)
         };
 
     status = EventRegister(
-        &amp;ProviderGuid,      // GUID that identifies the provider
+        &ProviderGuid,      // GUID that identifies the provider
         NULL,               // Callback not used
         NULL,               // Context noot used
-        &amp;RegistrationHandle // Used when calling EventWrite and EventUnregister
+        &RegistrationHandle // Used when calling EventWrite and EventUnregister
         );
 
     if (ERROR_SUCCESS != status)
@@ -99,13 +99,13 @@ void wmain(void)
     // Add the data to the array in the order of the <data> elements
     // defined in the event's template. 
    
-    EventDataDescCreate(&amp;Descriptors[i++], &amp;pImage, sizeof(ULONG));
-    EventDataDescCreate(&amp;Descriptors[i++], Scores, sizeof(Scores));
-    EventDataDescCreate(&amp;Descriptors[i++], Guid, sizeof(GUID));
-    EventDataDescCreate(&amp;Descriptors[i++], Cert, sizeof(Cert));
-    EventDataDescCreate(&amp;Descriptors[i++], &amp;IsLocal, sizeof(BOOL));
-    EventDataDescCreate(&amp;Descriptors[i++], Path, (ULONG)(wcslen(Path) + 1) * sizeof(WCHAR));
-    EventDataDescCreate(&amp;Descriptors[i++], &amp;ArraySize, sizeof(USHORT));
+    EventDataDescCreate(&Descriptors[i++], &pImage, sizeof(ULONG));
+    EventDataDescCreate(&Descriptors[i++], Scores, sizeof(Scores));
+    EventDataDescCreate(&Descriptors[i++], Guid, sizeof(GUID));
+    EventDataDescCreate(&Descriptors[i++], Cert, sizeof(Cert));
+    EventDataDescCreate(&Descriptors[i++], &IsLocal, sizeof(BOOL));
+    EventDataDescCreate(&Descriptors[i++], Path, (ULONG)(wcslen(Path) + 1) * sizeof(WCHAR));
+    EventDataDescCreate(&Descriptors[i++], &ArraySize, sizeof(USHORT));
 
     // If your event contains a structure, you should write each member
     // of the structure separately. If the structure contained integral data types
@@ -113,19 +113,19 @@ void wmain(void)
     // could use the following call to write the structure, however, you are 
     // encouraged to write the members separately.
     //
-    // EventDataDescCreate(&amp;EvtData, struct, sizeof(struct));
+    // EventDataDescCreate(&EvtData, struct, sizeof(struct));
     //
     // Because the array of structures in this example contains both strings 
     // and numbers, you must write each member of the structure separately.
 
     for (int j = 0; j < MAX_NAMEDVALUES; j++)
     {
-        EventDataDescCreate(&amp;Descriptors[i++], NamedValues[j].name, (ULONG)(wcslen(NamedValues[j].name)+1) * sizeof(WCHAR) );
-        EventDataDescCreate(&amp;Descriptors[i++], &amp;(NamedValues[j].value), sizeof(USHORT) );
+        EventDataDescCreate(&Descriptors[i++], NamedValues[j].name, (ULONG)(wcslen(NamedValues[j].name)+1) * sizeof(WCHAR) );
+        EventDataDescCreate(&Descriptors[i++], &(NamedValues[j].value), sizeof(USHORT) );
     }
 
-    EventDataDescCreate(&amp;Descriptors[i++], &amp;Day, sizeof(DWORD));
-    EventDataDescCreate(&amp;Descriptors[i++], &amp;TransferType, sizeof(DWORD));
+    EventDataDescCreate(&Descriptors[i++], &Day, sizeof(DWORD));
+    EventDataDescCreate(&Descriptors[i++], &TransferType, sizeof(DWORD));
 
     // Write the event. You do not have to verify if your provider is enabled before
     // writing the event. ETW will write the event to any session that enabled
@@ -138,9 +138,9 @@ void wmain(void)
 
     status = EventWrite(
         RegistrationHandle,              // From EventRegister
-        &amp;TransferEvent,                  // EVENT_DESCRIPTOR generated from the manifest
+        &TransferEvent,                  // EVENT_DESCRIPTOR generated from the manifest
         (ULONG)MAX_PAYLOAD_DESCRIPTORS,  // Size of the array of EVENT_DATA_DESCRIPTORs
-        &amp;Descriptors[0]                  // Array of descriptors that contain the event data
+        &Descriptors[0]                  // Array of descriptors that contain the event data
         );
 
     if (status != ERROR_SUCCESS) 

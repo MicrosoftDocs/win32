@@ -183,7 +183,7 @@ g\_pApplication is a reference to the [**IUIFramework**](https://msdn.microsoft.
 
 
 ```C++
-HRESULT ShowContextualUI(POINT&amp; ptLocation, HWND hWnd)
+HRESULT ShowContextualUI(POINT& ptLocation, HWND hWnd)
 {
   GetDisplayLocation(ptLocation, hWnd);
 
@@ -193,7 +193,7 @@ HRESULT ShowContextualUI(POINT&amp; ptLocation, HWND hWnd)
  
   if (SUCCEEDED(g_pFramework->GetView(
                                 g_pApplication->GetCurrentContext(), 
-                                IID_PPV_ARGS(&amp;pContextualUI))))
+                                IID_PPV_ARGS(&pContextualUI))))
   {
     hr = pContextualUI->ShowAtLocation(ptLocation.x, ptLocation.y);
     pContextualUI->Release();

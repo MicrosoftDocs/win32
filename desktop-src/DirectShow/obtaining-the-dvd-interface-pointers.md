@@ -21,32 +21,32 @@ hr = CoCreateInstance(CLSID_DvdGraphBuilder,
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_IDvdGraphBuilder,
-                          reinterpret_cast<void**>(&amp;m_pIDvdGB));
+                          reinterpret_cast<void**>(&m_pIDvdGB));
 
 // Build the DVD filter graph.
 AM_DVD_RENDERSTATUS buildStatus;
-hr = m_pIDvdGB->RenderDvdVideoVolume(pszwDiscPath, m_dwRenderFlags, &amp;buildStatus);
+hr = m_pIDvdGB->RenderDvdVideoVolume(pszwDiscPath, m_dwRenderFlags, &buildStatus);
 
 // Get the pointers to the DVD Navigator interfaces.
-hr = m_pIDvdGB->GetDvdInterface(IID_IDvdInfo2, reinterpret_cast<void**>(&amp;m_pIDvdI2));
-hr = m_pIDvdGB->GetDvdInterface(IID_IDvdControl2, reinterpret_cast<void**>(&amp;m_pIDvdC2));
+hr = m_pIDvdGB->GetDvdInterface(IID_IDvdInfo2, reinterpret_cast<void**>(&m_pIDvdI2));
+hr = m_pIDvdGB->GetDvdInterface(IID_IDvdControl2, reinterpret_cast<void**>(&m_pIDvdC2));
    ...    
 // Get a pointer to the filter graph manager.
-hr = m_pDvdGB->GetFiltergraph(&amp;m_pGraph);
+hr = m_pDvdGB->GetFiltergraph(&m_pGraph);
 ...   
 // Use the graph pointer to get a pointer to IMediaControl,
 // for controlling the filter graph as a whole.
-hr = m_pGraph->QueryInterface(IID_IMediaControl, reinterpret_cast<void**>(&amp;m_pIMC));
+hr = m_pGraph->QueryInterface(IID_IMediaControl, reinterpret_cast<void**>(&m_pIMC));
 ...   
 // Get a pointer to IMediaEventEx,
 // used for handling DVD and other filter graph events.
-hr = m_pGraph->QueryInterface(IID_IMediaEventEx, reinterpret_cast<void**>(&amp;m_pME)); 
+hr = m_pGraph->QueryInterface(IID_IMediaEventEx, reinterpret_cast<void**>(&m_pME)); 
 ...                
 // Use the graph builder pointer again to get the IVideoWindow interface,
 // to set the window style and message-handling behavior of the video renderer filter.
-hr = m_pIDvdGB->GetDvdInterface(IID_IVideoWindow, reinterpret_cast<void**>(&amp;m_pIVW));
+hr = m_pIDvdGB->GetDvdInterface(IID_IVideoWindow, reinterpret_cast<void**>(&m_pIVW));
   
-hr = m_pDvdGB->GetDvdInterface(IID_IAMLine21Decoder, reinterpret_cast<void**>(&amp;pL21Dec));
+hr = m_pDvdGB->GetDvdInterface(IID_IAMLine21Decoder, reinterpret_cast<void**>(&pL21Dec));
 ```
 
 

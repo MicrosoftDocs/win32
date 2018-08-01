@@ -82,8 +82,8 @@ BOOL BlockModeCompress(
     //  Create a LZMS compressor and set to Block mode.
     Success = CreateCompressor(
         COMPRESS_ALGORITHM_LZMS|COMPRESS_RAW,   //  Compression algorithm is LZMS
-        &amp;AllocationRoutines,                    //  Optional Memory allocation routines
-        &amp;Compressor);                           //  Handle
+        &AllocationRoutines,                    //  Optional Memory allocation routines
+        &Compressor);                           //  Handle
 
     if (!Success)
     {
@@ -94,7 +94,7 @@ BOOL BlockModeCompress(
     Success = SetCompressorInformation(
         Compressor,
         COMPRESS_INFORMATION_CLASS_BLOCK_SIZE,  //  Set block size for LZMS compressor
-        &amp;BlockSize,                             //  Block size information
+        &BlockSize,                             //  Block size information
         sizeof(DWORD));                         //  Information size
 
     if (!Success)
@@ -110,7 +110,7 @@ BOOL BlockModeCompress(
         BlockSize,                  //  Uncompressed block size
         NULL,                       //  Compressed Buffer
         0,                          //  Compressed Buffer size
-        &amp;CompressedBlockSize);      //  Compressed Data size
+        &CompressedBlockSize);      //  Compressed Data size
 
     if (!Success)
     {
@@ -160,7 +160,7 @@ BOOL BlockModeCompress(
             CurrentBlockSize,                               //  Uncompressed data size
             *OutputData + OutputSoFar + META_DATA_SIZE,     //  Start of compressed buffer
             OutputDataSize - OutputSoFar - META_DATA_SIZE,  //  Compressed block size
-            &amp;CompressedDataSize);                           //  Compressed data size
+            &CompressedDataSize);                           //  Compressed data size
 
         if (!Success) 
         {
@@ -224,7 +224,7 @@ void wmain(_In_ int argc, _In_ WCHAR *argv[])
     }
 
     //  Get input file size.
-    Success = GetFileSizeEx(InputFile, &amp;FileSize);
+    Success = GetFileSizeEx(InputFile, &FileSize);
     if ((!Success)||(FileSize.QuadPart > 0xFFFFFFFF))
     {
         wprintf(L"Cannot get input file size or file is larger than 4GB.\n");        
@@ -241,7 +241,7 @@ void wmain(_In_ int argc, _In_ WCHAR *argv[])
     }                              
 
     //  Read input file.
-    Success = ReadFile(InputFile, InputBuffer, InputFileSize, &amp;ByteRead, NULL);
+    Success = ReadFile(InputFile, InputBuffer, InputFileSize, &ByteRead, NULL);
     if ((!Success)||(ByteRead != InputFileSize))
     {
         wprintf(L"Cannot read from \t%s\n", argv[1]);
@@ -270,8 +270,8 @@ void wmain(_In_ int argc, _In_ WCHAR *argv[])
     Success = BlockModeCompress(        
         InputBuffer,            //  Input buffer, Uncompressed data
         InputFileSize,          //  Uncompressed data size
-        &amp;CompressedBuffer,      //  Compressed Buffer
-        &amp;CompressedDataSize);   //  Compressed Data size
+        &CompressedBuffer,      //  Compressed Buffer
+        &CompressedDataSize);   //  Compressed Data size
 
     if (!Success)
     {
@@ -288,7 +288,7 @@ void wmain(_In_ int argc, _In_ WCHAR *argv[])
         CompressedFile,     //  File handle
         CompressedBuffer,   //  Start of data to write
         CompressedDataSize, //  Number of byte to write
-        &amp;ByteWritten,       //  Number of byte written
+        &ByteWritten,       //  Number of byte written
         NULL);              //  No overlapping structure
 
     if ((ByteWritten != CompressedDataSize) || (!Success))
@@ -333,7 +333,7 @@ done:
             Success = SetFileInformationByHandle(
                 CompressedFile,
                 FileDispositionInfo,
-                &amp;fdi,
+                &fdi,
                 sizeof(FILE_DISPOSITION_INFO));    
             if (!Success) {
                 wprintf(L"Cannot delete corrupted compressed file.\n");
@@ -400,8 +400,8 @@ BOOL BlockModeDecompress(
     //  Create a LZMS decompressor and set to Block mode.
     Success = CreateDecompressor(
         COMPRESS_ALGORITHM_LZMS|COMPRESS_RAW,   //  Compression algorithm is LZMS
-        &amp;AllocationRoutines,                    //  Memory allocation routines
-        &amp;Decompressor);                         //  handle
+        &AllocationRoutines,                    //  Memory allocation routines
+        &Decompressor);                         //  handle
 
     if (!Success)
     {
@@ -516,7 +516,7 @@ void wmain(_In_ int argc, _In_ WCHAR *argv[])
     }
 
     //  Get compressed file size.
-    Success = GetFileSizeEx(InputFile, &amp;FileSize);
+    Success = GetFileSizeEx(InputFile, &FileSize);
     if ((!Success)||(FileSize.QuadPart > 0xFFFFFFFF))
     {
         wprintf(L"Cannot get input file size or file is larger than 4GB.\n");        
@@ -533,7 +533,7 @@ void wmain(_In_ int argc, _In_ WCHAR *argv[])
     }
 
     //  Read compressed content into buffer.
-    Success = ReadFile(InputFile, CompressedBuffer, InputFileSize, &amp;ByteRead, NULL);
+    Success = ReadFile(InputFile, CompressedBuffer, InputFileSize, &ByteRead, NULL);
     if ((!Success) || (ByteRead != InputFileSize))
     {
         wprintf(L"Cannot read from \t%s\n", argv[1]);
@@ -562,8 +562,8 @@ void wmain(_In_ int argc, _In_ WCHAR *argv[])
     Success = BlockModeDecompress(        
         CompressedBuffer,           //  Compressed data
         InputFileSize,              //  Compressed data size
-        &amp;DecompressedBuffer,        //  Decompressed buffer        
-        &amp;DecompressedDataSize);     //  Decompressed data size
+        &DecompressedBuffer,        //  Decompressed buffer        
+        &DecompressedDataSize);     //  Decompressed data size
 
     if (!Success)
     {
@@ -580,7 +580,7 @@ void wmain(_In_ int argc, _In_ WCHAR *argv[])
         DecompressedFile,       //  File handle
         DecompressedBuffer,     //  Start of data to write
         DecompressedDataSize,   //  Number of byte to write
-        &amp;ByteWritten,           //  Number of byte written
+        &ByteWritten,           //  Number of byte written
         NULL);                  //  No overlapping structure
     if ((ByteWritten != DecompressedDataSize) || (!Success))
     {
@@ -623,7 +623,7 @@ done:
             Success = SetFileInformationByHandle(
                 DecompressedFile,
                 FileDispositionInfo,
-                &amp;fdi,
+                &fdi,
                 sizeof(FILE_DISPOSITION_INFO));    
             if (!Success) {
                 wprintf(L"Cannot delete corrupted decompressed file.\n");

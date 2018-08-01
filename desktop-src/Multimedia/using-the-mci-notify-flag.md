@@ -24,7 +24,7 @@ DWORD dwFlags;
 mciPlay.dwCallback = MAKELONG(hwnd, 0); 
 dwFlags = MCI_NOTIFY; 
  
-mciSendCommand(wMCIDeviceID, MCI_PLAY, dwFlags, (DWORD)(LPSTR)&amp;mciPlay); 
+mciSendCommand(wMCIDeviceID, MCI_PLAY, dwFlags, (DWORD)(LPSTR)&mciPlay); 
 ```
 
 

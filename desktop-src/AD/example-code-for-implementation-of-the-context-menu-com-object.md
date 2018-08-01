@@ -54,7 +54,7 @@ STDMETHODIMP CContMenuExt::Initialize(  LPCITEMIDLIST pidlFolder,
     fe.dwAspect = DVASPECT_CONTENT;
     fe.lindex = -1;
     fe.tymed = TYMED_HGLOBAL;
-    hr = pDataObj->GetData(&amp;fe, &amp;stm);
+    hr = pDataObj->GetData(&fe, &stm);
     if(SUCCEEDED(hr))
     {
         LPDSOBJECTNAMES pdson = (LPDSOBJECTNAMES)GlobalLock(stm.hGlobal);
@@ -72,7 +72,7 @@ STDMETHODIMP CContMenuExt::Initialize(  LPCITEMIDLIST pidlFolder,
             GlobalUnlock(stm.hGlobal);
         }
         
-        ReleaseStgMedium(&amp;stm);
+        ReleaseStgMedium(&stm);
     }
 
     fe.cfFormat = RegisterClipboardFormat(CFSTR_DS_DISPLAY_SPEC_OPTIONS);
@@ -80,7 +80,7 @@ STDMETHODIMP CContMenuExt::Initialize(  LPCITEMIDLIST pidlFolder,
     fe.dwAspect = DVASPECT_CONTENT;
     fe.lindex = -1;
     fe.tymed = TYMED_HGLOBAL;
-    hr = pDataObj->GetData(&amp;fe, &amp;stm);
+    hr = pDataObj->GetData(&fe, &stm);
     if(SUCCEEDED(hr))
     {
         PDSDISPLAYSPECOPTIONS   pdso;
@@ -99,7 +99,7 @@ STDMETHODIMP CContMenuExt::Initialize(  LPCITEMIDLIST pidlFolder,
             GlobalUnlock(stm.hGlobal);
         }
 
-        ReleaseStgMedium(&amp;stm);
+        ReleaseStgMedium(&stm);
     }
 
     return hr;
@@ -132,7 +132,7 @@ STDMETHODIMP CContMenuExt::QueryContextMenu(    HMENU hMenu,
                                                 UINT idCmdLast,
                                                 UINT uFlags)
 {
-    if(m_pObjectNames &amp;&amp; !(CMF_DEFAULTONLY & uFlags))
+    if(m_pObjectNames && !(CMF_DEFAULTONLY & uFlags))
     {
         InsertMenu( hMenu, 
                     indexMenu, 

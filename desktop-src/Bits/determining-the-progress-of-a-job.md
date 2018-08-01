@@ -26,7 +26,7 @@ IBackgroundCopyJob* pJob;
 WCHAR szProgressComplete[PROGRESS_COMPLETE_LEN+1];
 BG_JOB_PROGRESS Progress;
 
-hr = pJob->GetProgress(&amp;Progress); 
+hr = pJob->GetProgress(&Progress); 
 if (FAILED(hr))
 {
   //Handle error
@@ -62,8 +62,8 @@ IBackgroundCopyJob2* pJob2 = NULL;
 WCHAR szReplyComplete[REPLY_COMPLETE_LEN+1];
 BG_JOB_REPLY_PROGRESS Progress;
 
-pJob->QueryInterface(__uuidof(IBackgroundCopyJob2), (void**)&amp;pJob2);
-hr = pJob2->GetReplyProgress(&amp;Progress); 
+pJob->QueryInterface(__uuidof(IBackgroundCopyJob2), (void**)&pJob2);
+hr = pJob2->GetReplyProgress(&Progress); 
 if (SUCCEEDED(hr))
 {
   if (0 == Progress.BytesTotal) //The job type is not BG_JOB_TYPE_UPLOAD_REPLY

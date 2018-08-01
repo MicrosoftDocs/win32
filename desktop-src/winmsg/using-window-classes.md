@@ -46,10 +46,10 @@ int WINAPI WinMain(HINSTANCE hinstance, HINSTANCE hPrevInstance,
         return FALSE; 
  
     BOOL fGotMessage;
-    while ((fGotMessage = GetMessage(&amp;msg, (HWND) NULL, 0, 0)) != 0 &amp;&amp; fGotMessage != -1) 
+    while ((fGotMessage = GetMessage(&msg, (HWND) NULL, 0, 0)) != 0 && fGotMessage != -1) 
     { 
-        TranslateMessage(&amp;msg); 
-        DispatchMessage(&amp;msg); 
+        TranslateMessage(&msg); 
+        DispatchMessage(&msg); 
     } 
     return msg.wParam; 
         UNREFERENCED_PARAMETER(lpCmdLine); 
@@ -86,7 +86,7 @@ BOOL InitApplication(HINSTANCE hinstance)
  
     // Register the window class. 
  
-    return RegisterClassEx(&amp;wcx); 
+    return RegisterClassEx(&wcx); 
 } 
  
 BOOL InitInstance(HINSTANCE hinstance, int nCmdShow) 

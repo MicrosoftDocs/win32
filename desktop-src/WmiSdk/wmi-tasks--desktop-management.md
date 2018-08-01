@@ -71,11 +71,11 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colSettings = objWMIService.ExecQuery (&quot;Select * from Win32_ComputerSystem&quot;)
 For Each objComputer in colSettings 
-    Wscript.Echo &quot;System Name: &quot; &amp; objComputer.Name
-    Wscript.Echo &quot;Registered owner: &quot; &amp; objComputer.PrimaryOwnerName
+    Wscript.Echo &quot;System Name: &quot; & objComputer.Name
+    Wscript.Echo &quot;Registered owner: &quot; & objComputer.PrimaryOwnerName
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -120,10 +120,10 @@ foreach ($objComputer in $colSettings)
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colItems = objWMIService.ExecQuery(&quot;Select * from Win32_Desktop&quot;)
 For Each objItem in colItems
-    Wscript.Echo &quot;Screen Saver Secure: &quot; &amp; objItem.ScreenSaverSecure
+    Wscript.Echo &quot;Screen Saver Secure: &quot; & objItem.ScreenSaverSecure
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -173,11 +173,11 @@ foreach ($desktop in $desktops) {
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
 Set objWMIService = GetObject(_
-    &quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+    &quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colItems = objWMIService.ExecQuery(&quot;Select * from Win32_DesktopMonitor&quot;)
 For Each objItem in colItems
-    Wscript.Echo &quot;Screen Height: &quot; &amp; objItem.ScreenHeight
-    Wscript.Echo &quot;Screen Width: &quot; &amp; objItem.ScreenWidth
+    Wscript.Echo &quot;Screen Height: &quot; & objItem.ScreenHeight
+    Wscript.Echo &quot;Screen Width: &quot; & objItem.ScreenWidth
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -233,7 +233,7 @@ foreach ($desktop in $desktops) {
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colOperatingSystems = objWMIService.ExecQuery (&quot;Select * from Win32_OperatingSystem&quot;)
  
 For Each objOS in colOperatingSystems
@@ -244,9 +244,9 @@ For Each objOS in colOperatingSystems
 Next
  
 Function WMIDateStringToDate(dtmBootup)
-    WMIDateStringToDate =  CDate(Mid(dtmBootup, 5, 2) &amp; &quot;/&quot; &amp; _
-        Mid(dtmBootup, 7, 2) &amp; &quot;/&quot; &amp; Left(dtmBootup, 4) &amp; &quot; &quot; &amp; Mid (dtmBootup, 9, 2) &amp; &quot;:&quot; &amp; _
-        Mid(dtmBootup, 11, 2) &amp; &quot;:&quot; &amp; Mid(dtmBootup, 13, 2))
+    WMIDateStringToDate =  CDate(Mid(dtmBootup, 5, 2) & &quot;/&quot; & _
+        Mid(dtmBootup, 7, 2) & &quot;/&quot; & Left(dtmBootup, 4) & &quot; &quot; & Mid (dtmBootup, 9, 2) & &quot;:&quot; & _
+        Mid(dtmBootup, 11, 2) & &quot;:&quot; & Mid(dtmBootup, 13, 2))
 End Function</code></pre></td>
 </tr>
 </tbody>
@@ -301,7 +301,7 @@ foreach ($system in $computers) {
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;atl-dc-01&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate,(Shutdown)}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate,(Shutdown)}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colOperatingSystems = objWMIService.ExecQuery (&quot;Select * from Win32_OperatingSystem&quot;)
 For Each objOperatingSystem in colOperatingSystems
     ObjOperatingSystem.Shutdown(1)
@@ -351,17 +351,17 @@ foreach ($objOperatingSystem in $colOperatingSystem)
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
 Set objWMIService = GetObject(&quot;winmgmts:&quot; _
-    &amp; &quot;{impersonationLevel=impersonate}!\\&quot; _
-    &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+    & &quot;{impersonationLevel=impersonate}!\\&quot; _
+    & strComputer & &quot;\root\cimv2&quot;)
 Set colStartupCommands = objWMIService.ExecQuery _
     (&quot;Select * from Win32_StartupCommand&quot;)
 For Each objStartupCommand in colStartupCommands
-    Wscript.Echo &quot;Command: &quot; &amp; objStartupCommand.Command &amp; VBNewLine _
-    &amp; &quot;Description: &quot; &amp; objStartupCommand.Description &amp; VBNewLine _
-    &amp; &quot;Location: &quot; &amp; objStartupCommand.Location &amp; VBNewLine _
-    &amp; &quot;Name: &quot; &amp; objStartupCommand.Name &amp; VBNewLine _
-    &amp; &quot;SettingID: &quot; &amp; objStartupCommand.SettingID &amp; VBNewLine _
-    &amp; &quot;User: &quot; &amp; objStartupCommand.User
+    Wscript.Echo &quot;Command: &quot; & objStartupCommand.Command & VBNewLine _
+    & &quot;Description: &quot; & objStartupCommand.Description & VBNewLine _
+    & &quot;Location: &quot; & objStartupCommand.Location & VBNewLine _
+    & &quot;Name: &quot; & objStartupCommand.Name & VBNewLine _
+    & &quot;SettingID: &quot; & objStartupCommand.SettingID & VBNewLine _
+    & &quot;User: &quot; & objStartupCommand.User
 Next</code></pre></td>
 </tr>
 </tbody>

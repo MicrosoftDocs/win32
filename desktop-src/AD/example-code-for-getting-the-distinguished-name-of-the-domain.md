@@ -49,15 +49,15 @@ The following C/C++ code example gets the distinguished name of the domain that 
 IADs *pads;
 hr = ADsGetObject(  L"LDAP://rootDSE",
                     IID_IADs, 
-                    (void**)&amp;pads);
+                    (void**)&pads);
 
 if(SUCCEEDED(hr))
 {
     VARIANT var;
 
-    VariantInit(&amp;var);
+    VariantInit(&var);
     
-    hr = pads->Get(CComBSTR("defaultNamingContext"), &amp;var);
+    hr = pads->Get(CComBSTR("defaultNamingContext"), &var);
     if(SUCCEEDED(hr))
     {
         if(VT_BSTR == var.vt)
@@ -65,7 +65,7 @@ if(SUCCEEDED(hr))
             wprintf(var.bstrVal);
         }
         
-        VariantClear(&amp;var);
+        VariantClear(&var);
     }
     
     pads->Release();

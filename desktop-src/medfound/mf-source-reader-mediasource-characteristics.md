@@ -34,23 +34,23 @@ HRESULT GetSourceFlags(IMFSourceReader *pReader, ULONG *pulFlags)
     ULONG flags = 0;
 
     PROPVARIANT var;
-    PropVariantInit(&amp;var);
+    PropVariantInit(&var);
 
     HRESULT hr = pReader->GetPresentationAttribute(
         MF_SOURCE_READER_MEDIASOURCE, 
         MF_SOURCE_READER_MEDIASOURCE_CHARACTERISTICS, 
-        &amp;var);
+        &var);
 
     if (SUCCEEDED(hr))
     {
-        hr = PropVariantToUInt32(var, &amp;flags);
+        hr = PropVariantToUInt32(var, &flags);
     }
     if (SUCCEEDED(hr))
     {
         *pulFlags = flags;
     }
 
-    PropVariantClear(&amp;var);
+    PropVariantClear(&var);
     return hr;
 }
 ```

@@ -34,7 +34,7 @@ STDMETHODIMP MyExtension::GetTypeInfoCount(UINT* pctinfo)
 {
     IDispatch *pDisp = NULL;
     HRESULT    hr = S_OK;
-    hr = m_pOuterUnknown->QueryInterface( IID_IDispatch, (void**) &amp;pDisp );
+    hr = m_pOuterUnknown->QueryInterface( IID_IDispatch, (void**) &pDisp );
     if ( SUCCEEDED(hr) )
     {
         hr = pDisp->GetTypeInfoCount( pctinfo );
@@ -48,7 +48,7 @@ STDMETHODIMP MyExtension::GetTypeInfo(UINT itinfo, LCID lcid, ITypeInfo** pptinf
 {
     IDispatch *pDisp = NULL;
     HRESULT    hr = S_OK;
-    hr = m_pOuterUnknown->QueryInterface( IID_IDispatch, (void**) &amp;pDisp );
+    hr = m_pOuterUnknown->QueryInterface( IID_IDispatch, (void**) &pDisp );
     if ( SUCCEEDED(hr) )
     {
         hr = pDisp->GetTypeInfo( itinfo, lcid, pptinfo );
@@ -62,7 +62,7 @@ STDMETHODIMP MyExtension::GetIDsOfNames(REFIID riid, LPOLESTR* rgszNames, UINT c
 {
     IDispatch *pDisp = NULL;
     HRESULT    hr = S_OK;
-    hr = m_pOuterUnknown->QueryInterface( IID_IDispatch, (void**) &amp;pDisp );
+    hr = m_pOuterUnknown->QueryInterface( IID_IDispatch, (void**) &pDisp );
     if ( SUCCEEDED(hr) )
     {
         hr = pDisp->GetIDsOfNames( riid, rgszNames, cNames, lcid, 
@@ -80,7 +80,7 @@ STDMETHODIMP MyExtension::Invoke(DISPID dispidMember, REFIID riid,
 {
     IDispatch *pDisp = NULL;
     HRESULT    hr = S_OK;
-    hr = m_pOuterUnknown->QueryInterface( IID_IDispatch, (void**) &amp;pDisp );
+    hr = m_pOuterUnknown->QueryInterface( IID_IDispatch, (void**) &pDisp );
     if ( SUCCEEDED(hr) )
     {
         hr = pDisp->Invoke( dispidMember, riid, lcid, wFlags, 

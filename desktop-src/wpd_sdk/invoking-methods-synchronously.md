@@ -53,7 +53,7 @@ void InvokeMethods(IPortableDeviceService* pService)
 
     // Get an IPortableDeviceServiceMethods interface from the IPortableDeviceService interface to
     // invoke methods.
-    hr = pService->Methods(&amp;pMethods);
+    hr = pService->Methods(&pMethods);
     if (FAILED(hr))
     {
         printf("! Failed to get IPortableDeviceServiceMethods from IPortableDeviceService, hr = 0x%lx\n",hr);

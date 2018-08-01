@@ -119,21 +119,21 @@ int main()
 
     CLSID           clsid;
 
-    VariantInit(&amp;varTrue);
-    V_VT(&amp;varTrue)   = VT_BOOL;
-    V_BOOL(&amp;varTrue) = VARIANT_TRUE;
+    VariantInit(&varTrue);
+    V_VT(&varTrue)   = VT_BOOL;
+    V_BOOL(&varTrue) = VARIANT_TRUE;
 
-    VariantInit(&amp;varEmpty);
-    V_VT(&amp;varEmpty) = VT_ERROR;
+    VariantInit(&varEmpty);
+    V_VT(&varEmpty) = VT_ERROR;
 
-    hr = CLSIDFromProgID(L"WinHttp.WinHttpRequest.5.1", &amp;clsid);
+    hr = CLSIDFromProgID(L"WinHttp.WinHttpRequest.5.1", &clsid);
 
     if (SUCCEEDED(hr))
     {
         hr = CoCreateInstance(clsid, NULL,
                               CLSCTX_INPROC_SERVER,
                               IID_IWinHttpRequest,
-                              (void **)&amp;pIWinHttpRequest);
+                              (void **)&pIWinHttpRequest);
     }
     if (SUCCEEDED(hr))
     {    // Open WinHttpRequest.
@@ -150,11 +150,11 @@ int main()
     if (SUCCEEDED(hr))
     {    // Wait for response.
         VARIANT_BOOL varResult;
-        hr = pIWinHttpRequest->WaitForResponse(varEmpty, &amp;varResult);
+        hr = pIWinHttpRequest->WaitForResponse(varEmpty, &varResult);
     }
     if (SUCCEEDED(hr))
     {    // Get Response text.
-        hr = pIWinHttpRequest->get_ResponseText(&amp;bstrResponse);
+        hr = pIWinHttpRequest->get_ResponseText(&bstrResponse);
     }
     if (SUCCEEDED(hr))
     {    // Print the response to a console.

@@ -94,10 +94,10 @@ HRESULT DemoApp::OnRender()
 
 
         // Draw a filled rectangle.
-        m_pRenderTarget->FillRectangle(&amp;rectangle1, m_pLightSlateGrayBrush);
+        m_pRenderTarget->FillRectangle(&rectangle1, m_pLightSlateGrayBrush);
 
         // Draw the outline of a rectangle.
-        m_pRenderTarget->DrawRectangle(&amp;rectangle2, m_pCornflowerBlueBrush);
+        m_pRenderTarget->DrawRectangle(&rectangle2, m_pCornflowerBlueBrush);
 
         hr = m_pRenderTarget->EndDraw();
     }

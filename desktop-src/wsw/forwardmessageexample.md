@@ -55,7 +55,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -63,7 +63,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -103,7 +103,7 @@ DWORD WINAPI SenderThread(void* parameter)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -111,7 +111,7 @@ DWORD WINAPI SenderThread(void* parameter)
     
     // Create a TCP duplex session channel
     hr = WsCreateChannel(WS_CHANNEL_TYPE_DUPLEX_SESSION,
-        WS_TCP_CHANNEL_BINDING, NULL, 0, NULL, &amp;sendChannel, error);
+        WS_TCP_CHANNEL_BINDING, NULL, 0, NULL, &sendChannel, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -125,7 +125,7 @@ DWORD WINAPI SenderThread(void* parameter)
     address.identity = NULL;
     
     // Open channel to address
-    hr = WsOpenChannel(sendChannel, &amp;address, NULL, error);
+    hr = WsOpenChannel(sendChannel, &address, NULL, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -135,7 +135,7 @@ DWORD WINAPI SenderThread(void* parameter)
         sendChannel,
         NULL, 
         0, 
-        &amp;sendMessage, 
+        &sendMessage, 
         error);
     if (FAILED(hr))
     {
@@ -182,9 +182,9 @@ DWORD WINAPI SenderThread(void* parameter)
         // Write purchase order as the body of the message
         hr = WsWriteBody(
             sendMessage, 
-            &amp;PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
+            &PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
             WS_WRITE_REQUIRED_VALUE,
-            &amp;purchaseOrderToWrite, 
+            &purchaseOrderToWrite, 
             sizeof(purchaseOrderToWrite), 
             error);
     
@@ -253,7 +253,7 @@ DWORD WINAPI ReceiverThread(void* parameter)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -265,7 +265,7 @@ DWORD WINAPI ReceiverThread(void* parameter)
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -273,21 +273,21 @@ DWORD WINAPI ReceiverThread(void* parameter)
     }
     
     // Create a listener
-    hr = WsCreateListener(WS_CHANNEL_TYPE_DUPLEX_SESSION, WS_TCP_CHANNEL_BINDING, NULL, 0, NULL, &amp;listener, error);
+    hr = WsCreateListener(WS_CHANNEL_TYPE_DUPLEX_SESSION, WS_TCP_CHANNEL_BINDING, NULL, 0, NULL, &listener, error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
     // Open listener using TCP duplex session
-    hr = WsOpenListener(listener, &amp;serviceUrl, NULL, error);
+    hr = WsOpenListener(listener, &serviceUrl, NULL, error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
     // Create a channel
-    hr = WsCreateChannelForListener(listener, NULL, 0, &amp;receiveChannel, error);
+    hr = WsCreateChannelForListener(listener, NULL, 0, &receiveChannel, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -308,7 +308,7 @@ DWORD WINAPI ReceiverThread(void* parameter)
         receiveChannel,
         NULL, 
         0, 
-        &amp;receiveMessage, 
+        &receiveMessage, 
         error);
     if (FAILED(hr))
     {
@@ -339,7 +339,7 @@ DWORD WINAPI ReceiverThread(void* parameter)
             WS_XML_STRING_TYPE,
             WS_READ_REQUIRED_VALUE, 
             NULL, 
-            &amp;receivedAction, 
+            &receivedAction, 
             sizeof(receivedAction), 
             error);
         if (FAILED(hr))
@@ -348,7 +348,7 @@ DWORD WINAPI ReceiverThread(void* parameter)
         }
     
         // Make sure action is what we expect
-        if (WsXmlStringEquals(&amp;receivedAction, PurchaseOrder_wsdl.messages.PurchaseOrder.action, error) != S_OK)
+        if (WsXmlStringEquals(&receivedAction, PurchaseOrder_wsdl.messages.PurchaseOrder.action, error) != S_OK)
         {
             hr = WS_E_ENDPOINT_ACTION_NOT_SUPPORTED;
             goto Exit;
@@ -356,8 +356,8 @@ DWORD WINAPI ReceiverThread(void* parameter)
     
         // Read the body of the message as a purchase order
         _PurchaseOrderType* purchaseOrder;
-        hr = WsReadBody(receiveMessage, &amp;PurchaseOrder_wsdl.globalElements.PurchaseOrderType,
-            WS_READ_REQUIRED_POINTER, heap, &amp;purchaseOrder, sizeof(purchaseOrder), error);
+        hr = WsReadBody(receiveMessage, &PurchaseOrder_wsdl.globalElements.PurchaseOrderType,
+            WS_READ_REQUIRED_POINTER, heap, &purchaseOrder, sizeof(purchaseOrder), error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -458,21 +458,21 @@ DWORD WINAPI RelayThread(void* parameter)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
     // Create a listener
-    hr = WsCreateListener(WS_CHANNEL_TYPE_DUPLEX_SESSION, WS_TCP_CHANNEL_BINDING, NULL, 0, NULL, &amp;listener, error);
+    hr = WsCreateListener(WS_CHANNEL_TYPE_DUPLEX_SESSION, WS_TCP_CHANNEL_BINDING, NULL, 0, NULL, &listener, error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
     // Open listener using TCP duplex session
-    hr = WsOpenListener(listener, &amp;relayUrl, NULL, error);
+    hr = WsOpenListener(listener, &relayUrl, NULL, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -480,7 +480,7 @@ DWORD WINAPI RelayThread(void* parameter)
     
     // Create a TCP duplex session channel
     hr = WsCreateChannel(WS_CHANNEL_TYPE_DUPLEX_SESSION,
-        WS_TCP_CHANNEL_BINDING, NULL, 0, NULL, &amp;sendChannel, error);
+        WS_TCP_CHANNEL_BINDING, NULL, 0, NULL, &sendChannel, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -494,14 +494,14 @@ DWORD WINAPI RelayThread(void* parameter)
     address.identity = NULL;
     
     // Open channel to address
-    hr = WsOpenChannel(sendChannel, &amp;address, NULL, error);
+    hr = WsOpenChannel(sendChannel, &address, NULL, error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
     // Create a channel
-    hr = WsCreateChannelForListener(listener, NULL, 0, &amp;receiveChannel, error);
+    hr = WsCreateChannelForListener(listener, NULL, 0, &receiveChannel, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -522,7 +522,7 @@ DWORD WINAPI RelayThread(void* parameter)
         receiveChannel,
         NULL, 
         0, 
-        &amp;receiveMessage, 
+        &receiveMessage, 
         error);
     if (FAILED(hr))
     {
@@ -533,7 +533,7 @@ DWORD WINAPI RelayThread(void* parameter)
         sendChannel,
         NULL, 
         0, 
-        &amp;sendMessage, 
+        &sendMessage, 
         error);
     if (FAILED(hr))
     {
@@ -572,7 +572,7 @@ DWORD WINAPI RelayThread(void* parameter)
     
         // Get reader for receive message
         WS_XML_READER* xmlReader;
-        hr = WsGetMessageProperty(receiveMessage, WS_MESSAGE_PROPERTY_BODY_READER, &amp;xmlReader, sizeof(xmlReader), error);
+        hr = WsGetMessageProperty(receiveMessage, WS_MESSAGE_PROPERTY_BODY_READER, &xmlReader, sizeof(xmlReader), error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -580,7 +580,7 @@ DWORD WINAPI RelayThread(void* parameter)
     
         // Get writer for send message
         WS_XML_WRITER* xmlWriter;
-        hr = WsGetMessageProperty(sendMessage, WS_MESSAGE_PROPERTY_BODY_WRITER, &amp;xmlWriter, sizeof(xmlWriter), error);
+        hr = WsGetMessageProperty(sendMessage, WS_MESSAGE_PROPERTY_BODY_WRITER, &xmlWriter, sizeof(xmlWriter), error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -590,7 +590,7 @@ DWORD WINAPI RelayThread(void* parameter)
         for (;;)
         {
             const WS_XML_NODE* node;
-            hr = WsGetReaderNode(xmlReader, &amp;node, error);
+            hr = WsGetReaderNode(xmlReader, &node, error);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -720,7 +720,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         goto Exit;
     }
     
-    receiverThreadHandle = CreateThread(NULL, 0, ReceiverThread, &amp;receiverThreadInfo, 0, NULL);
+    receiverThreadHandle = CreateThread(NULL, 0, ReceiverThread, &receiverThreadInfo, 0, NULL);
     if (receiverThreadHandle == NULL)
     {
         hr = HRESULT_FROM_WIN32(GetLastError());
@@ -743,7 +743,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         goto Exit;
     }
     
-    relayThreadHandle = CreateThread(NULL, 0, RelayThread, &amp;relayThreadInfo, 0, NULL);
+    relayThreadHandle = CreateThread(NULL, 0, RelayThread, &relayThreadInfo, 0, NULL);
     if (relayThreadHandle == NULL)
     {
         hr = HRESULT_FROM_WIN32(GetLastError());

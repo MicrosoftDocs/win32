@@ -44,7 +44,7 @@ int main(int argc, char **argv)
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_ITaskScheduler,
-                          (void **) &amp;pITS);
+                          (void **) &pITS);
     if (FAILED(hr))
     {
       CoUninitialize();
@@ -64,7 +64,7 @@ int main(int argc, char **argv)
   LPCWSTR lpcwszTaskName = L"Test Task";
   hr = pITS->Activate(lpcwszTaskName,
                       IID_ITask,
-                      (IUnknown**) &amp;pITask);
+                      (IUnknown**) &pITask);
   
   // Release the ITaskScheduler interface.
   pITS->Release();
@@ -88,11 +88,11 @@ int main(int argc, char **argv)
   LPSYSTEMTIME pstListBegin;
   WORD wCountOfRuns = 5;
   
-  GetSystemTime(&amp;stNow);
-  hr = pITask->GetRunTimes(&amp;stNow,
+  GetSystemTime(&stNow);
+  hr = pITask->GetRunTimes(&stNow,
                            NULL,
-                           &amp;wCountOfRuns,
-                           &amp;pstListBegin);
+                           &wCountOfRuns,
+                           &pstListBegin);
   pstListOfTimes = pstListBegin;
   
   // Release the ITask interface.

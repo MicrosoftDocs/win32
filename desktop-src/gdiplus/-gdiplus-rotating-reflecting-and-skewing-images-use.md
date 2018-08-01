@@ -41,9 +41,9 @@ Point destinationPoints[] = {
    Point(250, 30)};  // destination for lower-left point of original
 Image image(L"Stripes.bmp");
 // Draw the image unaltered with its upper-left corner at (0, 0).
-graphics.DrawImage(&amp;image, 0, 0);
+graphics.DrawImage(&image, 0, 0);
 // Draw the image mapped to the parallelogram.
-graphics.DrawImage(&amp;image, destinationPoints, 3); 
+graphics.DrawImage(&image, destinationPoints, 3); 
 ```
 
 

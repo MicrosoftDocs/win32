@@ -44,27 +44,27 @@ DWORD PrintLinkLocalClouds()
     DWORD           dwSize;
     WSAQUERYSETW    *pResults = NULL;
 
-    ZeroMemory(&amp;qset, sizeof(qset));
-    ZeroMemory(&amp;CloudInfo, sizeof(CloudInfo));
+    ZeroMemory(&qset, sizeof(qset));
+    ZeroMemory(&CloudInfo, sizeof(CloudInfo));
 
     CloudInfo.dwSize = sizeof(PNRPCLOUDINFO);
     CloudInfo.Cloud.Scope = PNRP_LINK_LOCAL_SCOPE;
 
     Blob.cbSize = sizeof(PNRPCLOUDINFO);
-    Blob.pBlobData = (LPBYTE)&amp;CloudInfo;
+    Blob.pBlobData = (LPBYTE)&CloudInfo;
 
     qset.dwSize = sizeof(WSAQUERYSET);
     qset.dwNameSpace = NS_PNRPCLOUD;
-    qset.lpServiceClassId = (LPGUID)&amp;SVCID_PNRPCLOUD;
-    qset.lpBlob = &amp;Blob;
+    qset.lpServiceClassId = (LPGUID)&SVCID_PNRPCLOUD;
+    qset.lpBlob = &Blob;
 
     //
     // Start enumeration
     //
     err = WSALookupServiceBegin(
-            &amp;qset,
+            &qset,
             LUP_RETURN_NAME,
-            &amp;hLookup);
+            &hLookup);
                 
     if(err !=0)
     {
@@ -78,15 +78,15 @@ DWORD PrintLinkLocalClouds()
         //
         // Get size
         //
-        ZeroMemory(&amp;qset, sizeof(qset));
+        ZeroMemory(&qset, sizeof(qset));
         dwSize = sizeof(qset);
 
-        pResults = &amp;qset;
+        pResults = &qset;
 
         err = WSALookupServiceNext(
                 hLookup,
                 0,
-                &amp;dwSize,
+                &dwSize,
                 pResults
                 );
         if(err != 0)
@@ -122,7 +122,7 @@ DWORD PrintLinkLocalClouds()
                 err = WSALookupServiceNext(
                         hLookup,
                         0,
-                        &amp;dwSize,
+                        &dwSize,
                         pResults
                         );
                 if(err == 0)

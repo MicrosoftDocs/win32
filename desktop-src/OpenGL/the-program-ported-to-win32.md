@@ -74,7 +74,7 @@ int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLin
     wndclass.lpszMenuName  = szAppName; 
     wndclass.lpszClassName = szAppName; 
  
-    if (!RegisterClass (&amp;wndclass) ) 
+    if (!RegisterClass (&wndclass) ) 
         return FALSE; 
  
     /* Create the frame */ 
@@ -105,12 +105,12 @@ int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLin
          *  Process all pending messages 
          */ 
  
-        while (PeekMessage(&amp;msg, NULL, 0, 0, PM_NOREMOVE) == TRUE) 
+        while (PeekMessage(&msg, NULL, 0, 0, PM_NOREMOVE) == TRUE) 
         { 
-            if (GetMessage(&amp;msg, NULL, 0, 0) ) 
+            if (GetMessage(&msg, NULL, 0, 0) ) 
             { 
-                TranslateMessage(&amp;msg); 
-                DispatchMessage(&amp;msg); 
+                TranslateMessage(&msg); 
+                DispatchMessage(&msg); 
             } else { 
                 return TRUE; 
             } 
@@ -139,17 +139,17 @@ LONG WINAPI MainWndProc (
  
         ghRC = wglCreateContext(ghDC); 
         wglMakeCurrent(ghDC, ghRC); 
-        GetClientRect(hWnd, &amp;rect); 
+        GetClientRect(hWnd, &rect); 
         initializeGL(rect.right, rect.bottom); 
         break; 
  
     case WM_PAINT: 
-        BeginPaint(hWnd, &amp;ps); 
-        EndPaint(hWnd, &amp;ps); 
+        BeginPaint(hWnd, &ps); 
+        EndPaint(hWnd, &ps); 
         break; 
  
     case WM_SIZE: 
-        GetClientRect(hWnd, &amp;rect); 
+        GetClientRect(hWnd, &rect); 
         resize(rect.right, rect.bottom); 
         break; 
  
@@ -202,7 +202,7 @@ BOOL bSetupPixelFormat(HDC hdc)
     PIXELFORMATDESCRIPTOR pfd, *ppfd; 
     int pixelformat; 
  
-    ppfd = &amp;pfd; 
+    ppfd = &pfd; 
  
     ppfd->nSize = sizeof(PIXELFORMATDESCRIPTOR); 
     ppfd->nVersion = 1; 

@@ -72,7 +72,7 @@ LRESULT CALLBACK MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
             // bitmap. The rectangle is slightly larger than the  
             // bitmap.  
  
-            SetRect(&amp;rcBmp, 1, 1, 34, 34); 
+            SetRect(&rcBmp, 1, 1, 34, 34); 
             return 0; 
  
         case WM_PAINT: 
@@ -83,14 +83,14 @@ LRESULT CALLBACK MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
             // coordinates of the bitmap rectangle, and subtracting 2  
             // from the right and bottom coordinates.  
  
-            BeginPaint(hwnd, &amp;ps); 
+            BeginPaint(hwnd, &ps); 
             Rectangle(ps.hdc, rcBmp.left, rcBmp.top, 
                 rcBmp.right, rcBmp.bottom); 
             StretchBlt(ps.hdc, rcBmp.left + 1, rcBmp.top + 1, 
                 (rcBmp.right - rcBmp.left) - 2, 
                 (rcBmp.bottom - rcBmp.top) - 2, hdcCompat, 
                 0, 0, 32, 32, SRCCOPY); 
-            EndPaint(hwnd, &amp;ps); 
+            EndPaint(hwnd, &ps); 
             break; 
  
         case WM_MOVE: 
@@ -101,14 +101,14 @@ LRESULT CALLBACK MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
             // rectangle. The rectangle is passed to the ClipCursor  
             // function during WM_LBUTTONDOWN processing.  
  
-            GetClientRect(hwnd, &amp;rcClient); 
+            GetClientRect(hwnd, &rcClient); 
             ptClientUL.x = rcClient.left; 
             ptClientUL.y = rcClient.top; 
             ptClientLR.x = rcClient.right; 
             ptClientLR.y = rcClient.bottom; 
-            ClientToScreen(hwnd, &amp;ptClientUL); 
-            ClientToScreen(hwnd, &amp;ptClientLR); 
-            SetRect(&amp;rcClient, ptClientUL.x, ptClientUL.y, 
+            ClientToScreen(hwnd, &ptClientUL); 
+            ClientToScreen(hwnd, &ptClientLR); 
+            SetRect(&rcClient, ptClientUL.x, ptClientUL.y, 
                 ptClientLR.x, ptClientLR.y); 
             return 0; 
  
@@ -118,7 +118,7 @@ LRESULT CALLBACK MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
             // ensures that the window receives a matching  
             // WM_LBUTTONUP message.  
  
-            ClipCursor(&amp;rcClient); 
+            ClipCursor(&rcClient); 
  
             // Save the coordinates of the mouse cursor.  
  
@@ -129,7 +129,7 @@ LRESULT CALLBACK MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
             // it using the dotted pen. Set the fDragRect flag to  
             // indicate that the user is about to drag the rectangle.  
  
-            if (PtInRect(&amp;rcBmp, pt)) 
+            if (PtInRect(&rcBmp, pt)) 
             { 
                 hdc = GetDC(hwnd); 
                 SelectObject(hdc, hpenDot); 
@@ -145,8 +145,8 @@ LRESULT CALLBACK MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
             // Draw a target rectangle or drag the bitmap rectangle,  
             // depending on the status of the fDragRect flag.  
  
-            if ((wParam &amp;&amp; MK_LBUTTON) 
-                    &amp;&amp; !fDragRect) 
+            if ((wParam && MK_LBUTTON) 
+                    && !fDragRect) 
             {
                 // Set the mix mode so that the pen color is the  
                 // inverse of the background color. The previous  
@@ -159,7 +159,7 @@ LRESULT CALLBACK MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
                 // If a previous target rectangle exists, erase  
                 // it by drawing another rectangle on top of it.  
  
-                if (!IsRectEmpty(&amp;rcTarget)) 
+                if (!IsRectEmpty(&rcTarget)) 
                 { 
                     Rectangle(hdc, rcTarget.left, rcTarget.top, 
                         rcTarget.right, rcTarget.bottom); 
@@ -171,27 +171,27 @@ LRESULT CALLBACK MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
                 // right coordinate, and that the value of the top 
                 // coordinate is lesser than the bottom coordinate. 
  
-                if ((pt.x < (LONG) LOWORD(lParam)) &amp;&amp; 
+                if ((pt.x < (LONG) LOWORD(lParam)) && 
                         (pt.y > (LONG) HIWORD(lParam))) 
                 {
-                    SetRect(&amp;rcTarget, pt.x, HIWORD(lParam), 
+                    SetRect(&rcTarget, pt.x, HIWORD(lParam), 
                         LOWORD(lParam), pt.y); 
                 }
-                else if ((pt.x > (LONG) LOWORD(lParam)) &amp;&amp; 
+                else if ((pt.x > (LONG) LOWORD(lParam)) && 
                         (pt.y > (LONG) HIWORD(lParam))) 
                 {
-                    SetRect(&amp;rcTarget, LOWORD(lParam), 
+                    SetRect(&rcTarget, LOWORD(lParam), 
                         HIWORD(lParam), pt.x, pt.y); 
                 }
-                else if ((pt.x > (LONG) LOWORD(lParam)) &amp;&amp; 
+                else if ((pt.x > (LONG) LOWORD(lParam)) && 
                         (pt.y < (LONG) HIWORD(lParam))) 
                 { 
-                    SetRect(&amp;rcTarget, LOWORD(lParam), pt.y, 
+                    SetRect(&rcTarget, LOWORD(lParam), pt.y, 
                         pt.x, HIWORD(lParam)); 
                 }
                 else 
                 {
-                    SetRect(&amp;rcTarget, pt.x, pt.y, LOWORD(lParam), 
+                    SetRect(&rcTarget, pt.x, pt.y, LOWORD(lParam), 
                         HIWORD(lParam)); 
                 }
  
@@ -201,8 +201,8 @@ LRESULT CALLBACK MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
                     rcTarget.right, rcTarget.bottom); 
                 ReleaseDC(hwnd, hdc); 
             } 
-            else if ((wParam &amp;&amp; MK_LBUTTON) 
-                    &amp;&amp; fDragRect) 
+            else if ((wParam && MK_LBUTTON) 
+                    && fDragRect) 
             {
  
                 // Set the mix mode so that the pen color is the  
@@ -222,7 +222,7 @@ LRESULT CALLBACK MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
                 // Set the new coordinates of the bitmap rectangle,  
                 // then redraw it.  
  
-                OffsetRect(&amp;rcBmp, LOWORD(lParam) - pt.x, 
+                OffsetRect(&rcBmp, LOWORD(lParam) - pt.x, 
                     HIWORD(lParam) - pt.y); 
                 Rectangle(hdc, rcBmp.left, rcBmp.top, 
                     rcBmp.right, rcBmp.bottom); 
@@ -242,14 +242,14 @@ LRESULT CALLBACK MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
             // rectangle. Otherwise, copy the bitmap into the  
             // rectangle bitmap at its new location.  
  
-            if (IntersectRect(&amp;rcTmp, &amp;rcBmp, &amp;rcTarget)) 
+            if (IntersectRect(&rcTmp, &rcBmp, &rcTarget)) 
             { 
  
                 // Erase the bitmap rectangle by filling it with  
                 // the background color.  
  
                 hdc = GetDC(hwnd); 
-                FillRect(hdc, &amp;rcBmp, hbrBkgnd); 
+                FillRect(hdc, &rcBmp, hbrBkgnd); 
  
                 // Redraw the target rectangle because the part  
                 // that intersected with the bitmap rectangle was  
@@ -269,8 +269,8 @@ LRESULT CALLBACK MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
                 // rectangle, set the coordinates of the target  
                 // rectangle to 0, then reset the fDragRect flag.  
  
-                CopyRect(&amp;rcBmp, &amp;rcTarget); 
-                SetRectEmpty(&amp;rcTarget); 
+                CopyRect(&rcBmp, &rcTarget); 
+                SetRectEmpty(&rcTarget); 
                 ReleaseDC(hwnd, hdc); 
                 fDragRect = FALSE; 
             } 

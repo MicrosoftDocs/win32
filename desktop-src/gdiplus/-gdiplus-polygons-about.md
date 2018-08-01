@@ -21,7 +21,7 @@ To draw a polygon, you need a [**Graphics**](/windows/desktop/api/gdiplusgraphic
 ```
 Point myPointArray[] =
    {Point(0, 0), Point(50, 30), Point(30, 60)};
-myGraphics.DrawPolygon(&amp;myPen, myPointArray, 3);
+myGraphics.DrawPolygon(&myPen, myPointArray, 3);
 ```
 
 

@@ -31,7 +31,7 @@ The following C++ code example shows how to build a query string to search for a
 LPWSTR pwszGuid = NULL;
 LPWSTR pwszFormat = L"(objectGUID=%s)";
 LPWSTR pwszSearch = NULL;
-hr = ADsEncodeBinaryData((LPBYTE)pguid, sizeof(GUID), &amp;pwszGuid);
+hr = ADsEncodeBinaryData((LPBYTE)pguid, sizeof(GUID), &pwszGuid);
 if(FAILED(hr))
 {
     goto cleanup;

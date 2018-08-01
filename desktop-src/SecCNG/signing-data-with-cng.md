@@ -100,7 +100,7 @@ void __cdecl wmain(
 
     //open an algorithm handle
     if(!NT_SUCCESS(status = BCryptOpenAlgorithmProvider(
-                                                &amp;hHashAlg,
+                                                &hHashAlg,
                                                 BCRYPT_SHA1_ALGORITHM,
                                                 NULL,
                                                 0)))
@@ -110,7 +110,7 @@ void __cdecl wmain(
     }
 
     if(!NT_SUCCESS(status = BCryptOpenAlgorithmProvider(
-                                                &amp;hSignAlg,
+                                                &hSignAlg,
                                                 BCRYPT_ECDSA_P256_ALGORITHM,
                                                 NULL,
                                                 0)))
@@ -123,9 +123,9 @@ void __cdecl wmain(
     if(!NT_SUCCESS(status = BCryptGetProperty(
                                         hHashAlg, 
                                         BCRYPT_OBJECT_LENGTH, 
-                                        (PBYTE)&amp;cbHashObject, 
+                                        (PBYTE)&cbHashObject, 
                                         sizeof(DWORD), 
-                                        &amp;cbData, 
+                                        &cbData, 
                                         0)))
     {
         wprintf(L"**** Error 0x%x returned by BCryptGetProperty\n", status);
@@ -144,9 +144,9 @@ void __cdecl wmain(
     if(!NT_SUCCESS(status = BCryptGetProperty(
                                         hHashAlg, 
                                         BCRYPT_HASH_LENGTH, 
-                                        (PBYTE)&amp;cbHash, 
+                                        (PBYTE)&cbHash, 
                                         sizeof(DWORD), 
-                                        &amp;cbData, 
+                                        &cbData, 
                                         0)))
     {
         wprintf(L"**** Error 0x%x returned by BCryptGetProperty\n", status);
@@ -164,7 +164,7 @@ void __cdecl wmain(
     //create a hash
     if(!NT_SUCCESS(status = BCryptCreateHash(
                                         hHashAlg, 
-                                        &amp;hHash, 
+                                        &hHash, 
                                         pbHashObject, 
                                         cbHashObject, 
                                         NULL, 
@@ -200,7 +200,7 @@ void __cdecl wmain(
 
     //open handle to KSP
     if(FAILED(secStatus = NCryptOpenStorageProvider(
-                                                &amp;hProv, 
+                                                &hProv, 
                                                 MS_KEY_STORAGE_PROVIDER, 
                                                 0)))
     {
@@ -211,7 +211,7 @@ void __cdecl wmain(
     //create a persisted key
     if(FAILED(secStatus = NCryptCreatePersistedKey(
                                                 hProv,
-                                                &amp;hKey,
+                                                &hKey,
                                                 NCRYPT_ECDSA_P256_ALGORITHM,
                                                 L"my ecc key",
                                                 0,
@@ -236,7 +236,7 @@ void __cdecl wmain(
                                     cbHash,
                                     NULL,
                                     0,
-                                    &amp;cbSignature,
+                                    &cbSignature,
                                     0)))
     {
         wprintf(L"**** Error 0x%x returned by NCryptSignHash\n", secStatus);
@@ -259,7 +259,7 @@ void __cdecl wmain(
                                     cbHash,
                                     pbSignature,
                                     cbSignature,
-                                    &amp;cbSignature,
+                                    &cbSignature,
                                     0)))
     {
         wprintf(L"**** Error 0x%x returned by NCryptSignHash\n", secStatus);
@@ -273,7 +273,7 @@ void __cdecl wmain(
                                         NULL,
                                         NULL,
                                         0,
-                                        &amp;cbBlob,
+                                        &cbBlob,
                                         0)))
     {
         wprintf(L"**** Error 0x%x returned by NCryptExportKey\n", secStatus);
@@ -294,7 +294,7 @@ void __cdecl wmain(
                                         NULL,
                                         pbBlob,
                                         cbBlob,
-                                        &amp;cbBlob,
+                                        &cbBlob,
                                         0)))
     {
         wprintf(L"**** Error 0x%x returned by NCryptExportKey\n", secStatus);
@@ -305,7 +305,7 @@ void __cdecl wmain(
                                             hSignAlg,
                                             NULL,
                                             BCRYPT_ECCPUBLIC_BLOB,
-                                            &amp;hTmpKey,
+                                            &hTmpKey,
                                             pbBlob,
                                             cbBlob,
                                             0)))

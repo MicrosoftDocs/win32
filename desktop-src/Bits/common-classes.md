@@ -94,8 +94,8 @@ public:
     HRESULT __stdcall JobModification(IBackgroundCopyJob* pJob, DWORD dwReserved);
 
 private:
-    CNotifyInterface(const CNotifyInterface&amp;);
-    CNotifyInterface&amp; operator=(const CNotifyInterface&amp;);
+    CNotifyInterface(const CNotifyInterface&);
+    CNotifyInterface& operator=(const CNotifyInterface&);
 };
 ```
 
@@ -131,13 +131,13 @@ HRESULT CNotifyInterface::QueryInterface(REFIID riid, LPVOID* ppvObj)
 
 ULONG CNotifyInterface::AddRef() 
 {
-    return InterlockedIncrement(&amp;m_lRefCount);
+    return InterlockedIncrement(&m_lRefCount);
 }
 
 ULONG CNotifyInterface::Release() 
 {
     // not thread safe
-    ULONG  ulCount = InterlockedDecrement(&amp;m_lRefCount);
+    ULONG  ulCount = InterlockedDecrement(&m_lRefCount);
 
     if(0 == ulCount) 
     {
@@ -182,18 +182,18 @@ HRESULT CNotifyInterface::JobError(IBackgroundCopyJob* pJob, IBackgroundCopyErro
     //to determine the context in which the job failed. 
 
     wprintf(L"Job entered error state...\n");
-    HRESULT hr = pJob->GetDisplayName(&amp;pszJobName);
+    HRESULT hr = pJob->GetDisplayName(&pszJobName);
     if (FAILED(hr))
     {
         wprintf(L"Unable to get job name\n");
     }
 
-    hr = pError->GetErrorDescription(GetUserDefaultUILanguage(), &amp;pszErrorDescription);
+    hr = pError->GetErrorDescription(GetUserDefaultUILanguage(), &pszErrorDescription);
     if (FAILED(hr))
     {
         wprintf(L"Unable to get error description\n");
     }
-    if (pszJobName &amp;&amp; pszErrorDescription)
+    if (pszJobName && pszErrorDescription)
     {
         wprintf(L"Job %s ",pszJobName);
         wprintf(L"encountered the following error:\n");
@@ -277,8 +277,8 @@ public:
     HRESULT __stdcall JobError(IBackgroundCopyJob* pJob, IBackgroundCopyError* pError);
     HRESULT __stdcall JobModification(IBackgroundCopyJob* pJob, DWORD dwReserved);
 private:
-    CNotifyInterface(const CNotifyInterface&amp;);
-    CNotifyInterface&amp; operator=(const CNotifyInterface&amp;);
+    CNotifyInterface(const CNotifyInterface&);
+    CNotifyInterface& operator=(const CNotifyInterface&);
 };
 ```
 
@@ -323,13 +323,13 @@ HRESULT CNotifyInterface::QueryInterface(REFIID riid, LPVOID* ppvObj)
 
 ULONG CNotifyInterface::AddRef() 
 {
-    return InterlockedIncrement(&amp;m_lRefCount);
+    return InterlockedIncrement(&m_lRefCount);
 }
 
 ULONG CNotifyInterface::Release() 
 {
     // not thread safe
-    ULONG  ulCount = InterlockedDecrement(&amp;m_lRefCount);
+    ULONG  ulCount = InterlockedDecrement(&m_lRefCount);
 
     if(0 == ulCount) 
     {
@@ -374,18 +374,18 @@ HRESULT CNotifyInterface::JobError(IBackgroundCopyJob* pJob, IBackgroundCopyErro
     //to determine the context in which the job failed.
 
     wprintf(L"Job entered error state...\n");
-    HRESULT hr = pJob->GetDisplayName(&amp;pszJobName);
+    HRESULT hr = pJob->GetDisplayName(&pszJobName);
     if (FAILED(hr))
     {
         wprintf(L"Unable to get job name\n");
     }
 
-    hr = pError->GetErrorDescription(GetUserDefaultUILanguage(), &amp;pszErrorDescription);
+    hr = pError->GetErrorDescription(GetUserDefaultUILanguage(), &pszErrorDescription);
     if (FAILED(hr))
     {
         wprintf(L"Unable to get error description\n");
     }
-    if (pszJobName &amp;&amp; pszErrorDescription)
+    if (pszJobName && pszErrorDescription)
     {
         wprintf(L"Job %s ",pszJobName);
         wprintf(L"encountered the following error:\n");

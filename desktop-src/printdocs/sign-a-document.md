@@ -46,7 +46,7 @@ The following code example illustrates how to use the preceding steps in a progr
     PCCERT_CONTEXT         certificate      = NULL;
     
     // Instantiate an IXpsSigningOptions interface.
-    hr = signatureManager->CreateSigningOptions (&amp;signingOptions);
+    hr = signatureManager->CreateSigningOptions (&signingOptions);
     
     if (SUCCEEDED(hr)) {
         // Set the signing policy to indicate the document parts 
@@ -74,7 +74,7 @@ The following code example illustrates how to use the preceding steps in a progr
 
     if (SUCCEEDED(hr)) {
         // Load a certificate from a certificate file
-        hr = LoadCertificateFromFile (signingCertificate, &amp;certificate);
+        hr = LoadCertificateFromFile (signingCertificate, &certificate);
     }
 
     if (SUCCEEDED(hr)) {
@@ -99,7 +99,7 @@ The following code example illustrates how to use the preceding steps in a progr
 
     if (SUCCEEDED(hr)) {
         // Sign the XPS document
-        hr = signatureManager->Sign (signingOptions, certificate, &amp;signature);
+        hr = signatureManager->Sign (signingOptions, certificate, &signature);
     }
 
  //<Free the certificate context

@@ -24,7 +24,7 @@ case WM_COMMAND:
     {
     case IDM_BITMAP:
         {
-            HRESULT hr = DoShowBitmap(hwnd, &amp;pbmi);
+            HRESULT hr = DoShowBitmap(hwnd, &pbmi);
             if (SUCCEEDED(hr))
             {
                 pBuffer = reinterpret_cast<BYTE*>(pbmi) + 
@@ -62,7 +62,7 @@ HRESULT DoShowBitmap(HWND hwnd, BITMAPINFOHEADER** ppbmih)
     OPENFILENAME ofn;       // common dialog box structure
     // Initialize OPENFILENAME (not shown).
     // Display the Open File dialog box.  
-    if (GetOpenFileName(&amp;ofn) != TRUE) // failed to open file
+    if (GetOpenFileName(&ofn) != TRUE) // failed to open file
     {
         return E_FAIL;
     }

@@ -147,14 +147,14 @@ The advantages of using [**QueryPerformanceCounter**](https://msdn.microsoft.com
     ...
     // Start profiling
     LARGE_INTEGER start, stop, freq;
-    QueryPerformanceCounter(&amp;start);
+    QueryPerformanceCounter(&start);
 
     SetTexture(...);
     DrawPrimitive(D3DPT_TRIANGLELIST, 0, 1); 
 
-    QueryPerformanceCounter(&amp;stop);
+    QueryPerformanceCounter(&stop);
     stop.QuadPart -= start.QuadPart;
-    QueryPerformanceFrequency(&amp;freq);
+    QueryPerformanceFrequency(&freq);
     // Stop profiling
     ...
   EndScene();
@@ -299,7 +299,7 @@ Here's the same render sequence using the query mechanism:
 ```
 // 1. Create an event query from the current device
 IDirect3DQuery9* pEvent;
-m_pD3DDevice->CreateQuery(D3DQUERYTYPE_EVENT, &amp;pEvent);
+m_pD3DDevice->CreateQuery(D3DQUERYTYPE_EVENT, &pEvent);
 
 // 2. Add an end marker to the command buffer queue.
 pEvent->Issue(D3DISSUE_END);
@@ -310,7 +310,7 @@ while(S_FALSE == pEvent->GetData( NULL, 0, D3DGETDATA_FLUSH ))
 
 // 4. Start profiling
 LARGE_INTEGER start, stop;
-QueryPerformanceCounter(&amp;start);
+QueryPerformanceCounter(&start);
 
 // 5. Invoke the API calls to be profiled.
 SetTexture(...);
@@ -325,7 +325,7 @@ while(S_FALSE == pEvent->GetData( NULL, 0, D3DGETDATA_FLUSH ))
     ;
     
 // 8. End profiling
-QueryPerformanceCounter(&amp;stop);
+QueryPerformanceCounter(&stop);
 ```
 
 
@@ -443,7 +443,7 @@ while(S_FALSE == pEvent->GetData( NULL, 0, D3DGETDATA_FLUSH ))
 
 LARGE_INTEGER start, stop;
 // Now start counting because the video card is ready
-QueryPerformanceCounter(&amp;start);
+QueryPerformanceCounter(&start);
 
 // Add a loop to the render sequence 
 for(int i = 0; i < 1500; i++)
@@ -456,7 +456,7 @@ pEvent->Issue(D3DISSUE_END);
 
 while(S_FALSE == pEvent->GetData( NULL, 0, D3DGETDATA_FLUSH ))
     ;
-QueryPerformanceCounter(&amp;stop);
+QueryPerformanceCounter(&stop);
 ```
 
 

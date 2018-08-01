@@ -22,7 +22,7 @@ struct DriveName
     TCHAR name[MAX_DRIVE_NAME];
 };
 BOOL DoesFileExist(LPTSTR pszFile);
-BOOL GetDriveLetter(IDvdInfo2 *pDvd, DriveName&amp; szDrive);
+BOOL GetDriveLetter(IDvdInfo2 *pDvd, DriveName& szDrive);
 
 #define ARRAY_SIZE(x) (sizeof(x)/sizeof(x[0]))
 
@@ -51,7 +51,7 @@ BOOL ChangeDVDRegion(HWND hWnd, IDvdInfo2 *pDvd)
     
     OSVERSIONINFO   ver;
     ver.dwOSVersionInfoSize = sizeof(OSVERSIONINFO);
-    GetVersionEx(&amp;ver);
+    GetVersionEx(&ver);
 
     if (VER_PLATFORM_WIN32_NT  == ver.dwPlatformId)
     {
@@ -111,7 +111,7 @@ BOOL ChangeDVDRegion(HWND hWnd, IDvdInfo2 *pDvd)
 //     pszDrive - Receives the first DVD drive with a valid DVD-V disc.
 // Returns TRUE if there is a DVD drive with a valid disc.
 /////////////////////////////////////////////////////////////////////
-BOOL GetDriveLetter(IDvdInfo2 *pDvd, DriveName&amp; pszDrive) 
+BOOL GetDriveLetter(IDvdInfo2 *pDvd, DriveName& pszDrive) 
 {
     WCHAR  szPathW[MAX_PATH];
     TCHAR  szPath[MAX_PATH];
@@ -120,7 +120,7 @@ BOOL GetDriveLetter(IDvdInfo2 *pDvd, DriveName&amp; pszDrive)
     pszDrive.name[0] = pszDrive.name[MAX_DRIVE_NAME - 1] = 0;
     
     // Get the current root directory
-    HRESULT hr = pDvd->GetDVDDirectory(szPathW, MAX_PATH, &amp;ulActualSize);
+    HRESULT hr = pDvd->GetDVDDirectory(szPathW, MAX_PATH, &ulActualSize);
 
     if (SUCCEEDED(hr))
     {
@@ -166,7 +166,7 @@ BOOL GetDriveLetter(IDvdInfo2 *pDvd, DriveName&amp; pszDrive)
           StringCchCat(szDVDPath2, ARRAY_SIZE(szDVDPath2), TEXT("Video_ts\\Vts_01_0.ifo"));
           
           // If the .ifo files exist on this drive then it has a valid DVD-V disc
-          if (DoesFileExist(szDVDPath1) &amp;&amp; DoesFileExist(szDVDPath2))    
+          if (DoesFileExist(szDVDPath1) && DoesFileExist(szDVDPath2))    
           {
               StringCchCopy(pszDrive.name, MAX_DRIVE_NAME, szTmp);
               return TRUE;   // return the first drive that has a valid DVD-V disc
@@ -174,7 +174,7 @@ BOOL GetDriveLetter(IDvdInfo2 *pDvd, DriveName&amp; pszDrive)
       }
 
       size_t len = 0;
-      StringCchLength(szTmp, STRSAFE_MAX_CCH, &amp;len);
+      StringCchLength(szTmp, STRSAFE_MAX_CCH, &len);
       dw += len + 1;
   }
 
@@ -196,7 +196,7 @@ BOOL DoesFileExist(LPTSTR pszFile)
 
     size_t len = 0;
 
-    if (FAILED(StringCchLength(pszFile, STRSAFE_MAX_CCH, &amp;len)))
+    if (FAILED(StringCchLength(pszFile, STRSAFE_MAX_CCH, &len)))
     {
         return FALSE;
     }

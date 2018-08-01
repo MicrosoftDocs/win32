@@ -78,14 +78,14 @@ HRESULT CopyMPeg2ToVideoInfoHeader2(CMediaSample* pInSample, CMediaSample* pOutS
     HRESULT hr = S_OK;
     // Check for a media type on the input sample.
     AM_MEDIA_TYPE* pInType;
-    if (pInSample->GetMediaType(&amp;pInType) == S_OK) 
+    if (pInSample->GetMediaType(&pInType) == S_OK) 
     {
         // Make sure it's an MPEG2 Video format.
-        if ((pInType->formattype == FORMAT_MPEG2_VIDEO) &amp;&amp;
+        if ((pInType->formattype == FORMAT_MPEG2_VIDEO) &&
             (pInType->cbFormat >= sizeof(MPEG2VIDEOINFO)))
         {
             hr = S_OK; // Initialize hr for the CMediaType constructor.
-            CMediaType outType(*pInType, &amp;hr);
+            CMediaType outType(*pInType, &hr);
             if (FAILED(hr))
             {
                 DeleteMediaType( pInType );
@@ -93,15 +93,15 @@ HRESULT CopyMPeg2ToVideoInfoHeader2(CMediaSample* pInSample, CMediaSample* pOutS
             }
 
             // Set the format type GUID.
-            outType.SetFormatType(&amp;FORMAT_VideoInfo2);
+            outType.SetFormatType(&FORMAT_VideoInfo2);
                 
             // Truncate the format block to include just the VIDEOINFOHEADER part.
             MPEG2VIDEOINFO *pMPeg2Header = (MPEG2VIDEOINFO*)pInType->pbFormat;
-            BYTE *pVIH = (BYTE*)&amp;pMPeg2Header->hdr;
+            BYTE *pVIH = (BYTE*)&pMPeg2Header->hdr;
             hr = (outType.SetFormat(pVIH, sizeof(VIDEOINFOHEADER2)) ? S_OK : E_OUTOFMEMORY);
             if (SUCCEEDED(hr))
             {
-                hr = pOutSample->SetMediaType(&amp;outType);
+                hr = pOutSample->SetMediaType(&outType);
             }
         } 
         else 

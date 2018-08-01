@@ -30,7 +30,7 @@ The CLSID for this effect is CLSID\_D2D1Emboss.
 
 ```C++
 ComPtr<ID2D1Effect> embossEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Emboss, &amp;embossEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Emboss, &embossEffect);
  
 embossEffect->SetInput(0, bitmap);
 embossEffect->SetValue(D2D1_EMBOSS_PROP_HEIGHT, 1.0f);

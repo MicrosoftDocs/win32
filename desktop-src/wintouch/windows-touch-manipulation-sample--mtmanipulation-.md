@@ -49,18 +49,18 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
     ASSERT(IsTouchWindow(hWnd, NULL));
 
     // Instantiate the ManipulationProcessor object
-    HRESULT hr = CoCreateInstance(__uuidof(ManipulationProcessor), NULL, CLSCTX_ALL, IID_PPV_ARGS(&amp;g_pIManipProc));
+    HRESULT hr = CoCreateInstance(__uuidof(ManipulationProcessor), NULL, CLSCTX_ALL, IID_PPV_ARGS(&g_pIManipProc));
     if (FAILED(hr))
     {
-        ASSERT(SUCCEEDED(hr) &amp;&amp; L"InitInstance: failed to instantiate the ManipulationProcessor object");
+        ASSERT(SUCCEEDED(hr) && L"InitInstance: failed to instantiate the ManipulationProcessor object");
         return FALSE;
     }
 
     // Instantiate the event sink with the manipulation processor and pointer to the rectangle object
-    g_pManipulationEventSink = new CManipulationEventSink(&amp;g_cRect);
+    g_pManipulationEventSink = new CManipulationEventSink(&g_cRect);
     if (g_pManipulationEventSink == NULL)
     {
-        ASSERT(g_pManipulationEventSink &amp;&amp; L"InitInstance: failed to instantiate the CManipulationEventSink class");
+        ASSERT(g_pManipulationEventSink && L"InitInstance: failed to instantiate the CManipulationEventSink class");
         g_pIManipProc->Release();
         g_pIManipProc = NULL;
         return FALSE;
@@ -69,7 +69,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
     // Establish the link between ManipulationEventSink and ManipulationProcessor
     if (!g_pManipulationEventSink->Connect(g_pIManipProc))
     {
-        ASSERT(FALSE &amp;&amp; L"InitInstance: failed to connect ManipulationEventSink and ManipulationProcessor");
+        ASSERT(FALSE && L"InitInstance: failed to connect ManipulationEventSink and ManipulationProcessor");
         g_pIManipProc->Release();
         g_pIManipProc = NULL;
         g_pManipulationEventSink->Release();
@@ -90,7 +90,7 @@ CManipulationEventSink::CManipulationEventSink(CDrawingObject* pcDrawingObject)
     m_dwCookie(0),
     m_pcDrawingObject(pcDrawingObject)
 {
-    ASSERT((pcDrawingObject != NULL) &amp;&amp; L"CManipulationEventSink constructor: incorrect argument");
+    ASSERT((pcDrawingObject != NULL) && L"CManipulationEventSink constructor: incorrect argument");
 }
 ```
 
@@ -105,31 +105,31 @@ bool CManipulationEventSink::Connect(IManipulationProcessor* pManipulationProces
     // Check input arguments
     if (pManipulationProcessor == NULL)
     {
-        ASSERT((pManipulationProcessor != NULL) &amp;&amp; L"CManipulationEventSink::Create : incorrect arguments");
+        ASSERT((pManipulationProcessor != NULL) && L"CManipulationEventSink::Create : incorrect arguments");
         return false;
     }
 
     // Check object state
     if ((m_dwCookie != 0) || (m_pConnection != NULL))
     {
-        ASSERT((m_dwCookie == 0) &amp;&amp; (m_pConnection == NULL) &amp;&amp; L"CManipulationEventSink::Connect : connection already established");
+        ASSERT((m_dwCookie == 0) && (m_pConnection == NULL) && L"CManipulationEventSink::Connect : connection already established");
         return false;
     }
 
     // Get the container with the connection points.
     IConnectionPointContainer* pConnectionContainer = NULL;
-    HRESULT hr = pManipulationProcessor->QueryInterface(&amp;pConnectionContainer);
+    HRESULT hr = pManipulationProcessor->QueryInterface(&pConnectionContainer);
     if (FAILED(hr))
     {
-        ASSERT(SUCCEEDED(hr) &amp;&amp; L"CManipulationEventSink::Connect : failed to get the container with the connection points");
+        ASSERT(SUCCEEDED(hr) && L"CManipulationEventSink::Connect : failed to get the container with the connection points");
         return false;
     }
 
     // Get a connection point.
-    hr = pConnectionContainer->FindConnectionPoint(__uuidof(_IManipulationEvents), &amp;m_pConnection);
+    hr = pConnectionContainer->FindConnectionPoint(__uuidof(_IManipulationEvents), &m_pConnection);
     if (FAILED(hr))
     {
-        ASSERT(SUCCEEDED(hr) &amp;&amp; L"CManipulationEventSink::Connect : failed to get a connection point");
+        ASSERT(SUCCEEDED(hr) && L"CManipulationEventSink::Connect : failed to get a connection point");
         pConnectionContainer->Release();
         return false;
     }
@@ -139,10 +139,10 @@ bool CManipulationEventSink::Connect(IManipulationProcessor* pManipulationProces
 
     // Advise. Establishes an advisory connection between the connection point and the 
     // caller's sink object. 
-    hr = m_pConnection->Advise(this, &amp;m_dwCookie);
+    hr = m_pConnection->Advise(this, &m_dwCookie);
     if (FAILED(hr))
     {
-        ASSERT(SUCCEEDED(hr) &amp;&amp; L"CManipulationEventSink::Connect : failed to Advise");
+        ASSERT(SUCCEEDED(hr) && L"CManipulationEventSink::Connect : failed to Advise");
         m_pConnection->Release();
         m_pConnection = NULL;
         return false;
@@ -202,14 +202,14 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             else
             {
                 // error handling, presumably out of memory
-                ASSERT(FALSE &amp;&amp; L"Error: failed to execute GetTouchInputInfo");
+                ASSERT(FALSE && L"Error: failed to execute GetTouchInputInfo");
                 delete [] pInputs;
                 break;
             }
             if (!CloseTouchInputHandle((HTOUCHINPUT)lParam))
             {
                 // error handling, presumably out of memory
-                ASSERT(FALSE &amp;&amp; L"Error: failed to execute CloseTouchInputHandle");
+                ASSERT(FALSE && L"Error: failed to execute CloseTouchInputHandle");
                 delete [] pInputs;
                 break;
             }

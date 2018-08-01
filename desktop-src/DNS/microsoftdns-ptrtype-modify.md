@@ -32,7 +32,7 @@ The **Modify** method updates a Pointer (PTR) Resource Record.
 void Modify(
   [in, optional] uint32               TTL,
   [in, optional] string               PTRDomainName,
-  [out, ref]     MicrosoftDNS_PTRType &amp;RR
+  [out, ref]     MicrosoftDNS_PTRType &RR
 );
 ```
 

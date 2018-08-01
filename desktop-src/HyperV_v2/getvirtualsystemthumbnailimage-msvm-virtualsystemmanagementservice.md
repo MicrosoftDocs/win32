@@ -297,7 +297,7 @@ Sub SaveThumbnailImage(thumbnailBytes)
     stream.Open
     Redim text(ubound(thumbnailBytes) \ 2)
     for i = lbound(thumbnailBytes) to ubound(thumbnailBytes) step 2
-        text(i\2) = ChrW(thumbnailBytes(i + 1) * &amp;HFF + thumbnailBytes(i))
+        text(i\2) = ChrW(thumbnailBytes(i + 1) * &HFF + thumbnailBytes(i))
     next
     stream.WriteText text
   

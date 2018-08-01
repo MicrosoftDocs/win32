@@ -39,7 +39,7 @@ The [**IDWriteGdiInterop**](https://msdn.microsoft.com/en-us/library/Dd371172(v=
 // Create a GDI interop interface.
 if (SUCCEEDED(hr))
 {
-    hr = g_pDWriteFactory->GetGdiInterop(&amp;g_pGdiInterop);
+    hr = g_pDWriteFactory->GetGdiInterop(&g_pGdiInterop);
 }
 ```
 
@@ -54,7 +54,7 @@ GDI uses the LOGFONT structure to store information about the font and style of 
 // Convert to a DirectWrite font.
 if (SUCCEEDED(hr))
 {
-    hr = g_pGdiInterop->CreateFontFromLOGFONT(&amp;lf, &amp;pFont);
+    hr = g_pGdiInterop->CreateFontFromLOGFONT(&lf, &pFont);
 }
 ```
 

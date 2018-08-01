@@ -110,7 +110,7 @@ void main(void)
                            NULL,
                            CLSCTX_INPROC_SERVER,
                            IID_ITaskService,
-                           (void**)&amp;pService );  
+                           (void**)&pService );  
     if (FAILED(hr))
     {
           printf("Failed to create an instance of ITaskService: %x", hr);
@@ -133,7 +133,7 @@ void main(void)
     //  Get the pointer to the root task folder.  
     //  This folder will hold the new task that is registered.
     ITaskFolder *pRootFolder = NULL;
-    hr = pService->GetFolder( _bstr_t( L"\\") , &amp;pRootFolder );
+    hr = pService->GetFolder( _bstr_t( L"\\") , &pRootFolder );
     if( FAILED(hr) )
     {
         printf("Cannot get Root Folder pointer: %x", hr );
@@ -147,7 +147,7 @@ void main(void)
     
     //  Create the task builder object to create the task.
     ITaskDefinition *pTask = NULL;
-    hr = pService->NewTask( 0, &amp;pTask );
+    hr = pService->NewTask( 0, &pTask );
     
     pService->Release();  // COM clean up.  Pointer is no longer used.
     if (FAILED(hr))
@@ -161,7 +161,7 @@ void main(void)
     //  ------------------------------------------------------
     //  Get the registration info for setting the identification.
     IRegistrationInfo *pRegInfo= NULL;
-    hr = pTask->get_RegistrationInfo( &amp;pRegInfo );
+    hr = pTask->get_RegistrationInfo( &pRegInfo );
     if( FAILED(hr) )
     {
         printf("\nCannot get identification pointer: %x", hr );
@@ -185,7 +185,7 @@ void main(void)
     //  ------------------------------------------------------
     //  Get the trigger collection to insert the weekly trigger.
     ITriggerCollection *pTriggerCollection = NULL;
-    hr = pTask->get_Triggers( &amp;pTriggerCollection );
+    hr = pTask->get_Triggers( &pTriggerCollection );
     if( FAILED(hr) )
     {
         printf("\nCannot get trigger collection: %x", hr );
@@ -196,7 +196,7 @@ void main(void)
     }
         
     ITrigger *pTrigger = NULL;
-    hr = pTriggerCollection->Create( TASK_TRIGGER_WEEKLY, &amp;pTrigger );     
+    hr = pTriggerCollection->Create( TASK_TRIGGER_WEEKLY, &pTrigger );     
     pTriggerCollection->Release();
     if( FAILED(hr) )
     {
@@ -209,7 +209,7 @@ void main(void)
 
     IWeeklyTrigger *pWeeklyTrigger = NULL;
     hr = pTrigger->QueryInterface( 
-            IID_IWeeklyTrigger, (void**) &amp;pWeeklyTrigger );
+            IID_IWeeklyTrigger, (void**) &pWeeklyTrigger );
     pTrigger->Release();
     if( FAILED(hr) )
     {
@@ -267,7 +267,7 @@ void main(void)
     IActionCollection *pActionCollection = NULL;
 
     //  Get the task action collection pointer.
-    hr = pTask->get_Actions( &amp;pActionCollection );
+    hr = pTask->get_Actions( &pActionCollection );
     if( FAILED(hr) )
     {
         printf("\nCannot get Task collection pointer: %x", hr );
@@ -279,7 +279,7 @@ void main(void)
         
     //  Create the action, specifying that it is an executable action.
     IAction *pAction = NULL;
-    hr = pActionCollection->Create( TASK_ACTION_EXEC, &amp;pAction );
+    hr = pActionCollection->Create( TASK_ACTION_EXEC, &pAction );
     pActionCollection->Release();
     if( FAILED(hr) )
     {
@@ -293,7 +293,7 @@ void main(void)
     IExecAction *pExecAction = NULL;
     //  QI for the executable task pointer.
     hr = pAction->QueryInterface( 
-        IID_IExecAction, (void**) &amp;pExecAction );
+        IID_IExecAction, (void**) &pExecAction );
     pAction->Release();
     if( FAILED(hr) )
     {
@@ -337,7 +337,7 @@ void main(void)
 
     //  Create the UI asking for the credentials.
     dwErr = CredUIPromptForCredentials(
-        &amp;cui,                             //  CREDUI_INFO structure
+        &cui,                             //  CREDUI_INFO structure
         TEXT(""),                         //  Target for credentials
         NULL,                             //  Reserved
         0,                                //  Reason
@@ -345,7 +345,7 @@ void main(void)
         CREDUI_MAX_USERNAME_LENGTH,       //  Max number for user name
         pszPwd,                           //  Password
         CREDUI_MAX_PASSWORD_LENGTH,       //  Max number for password
-        &amp;fSave,                           //  State of save check box
+        &fSave,                           //  State of save check box
         CREDUI_FLAGS_GENERIC_CREDENTIALS |  //  Flags
         CREDUI_FLAGS_ALWAYS_SHOW_UI |
         CREDUI_FLAGS_DO_NOT_PERSIST);  
@@ -369,7 +369,7 @@ void main(void)
             _variant_t(_bstr_t(pszPwd)), 
             TASK_LOGON_PASSWORD,
             _variant_t(L""),
-            &amp;pRegisteredTask);
+            &pRegisteredTask);
     if( FAILED(hr) )
     {
         printf("\nError saving the Task : %x", hr );

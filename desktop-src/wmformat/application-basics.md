@@ -60,14 +60,14 @@ void main(void)
     //  objects.
     if (SUCCEEDED(hr))
     {
-        hr = WMDRMCreateProvider(&amp;pProvider);
+        hr = WMDRMCreateProvider(&pProvider);
     }
 
     if(SUCCEEDED(hr))
     {
         hr = pProvider->CreateObject(
             IID_IWMDRMLicenseQuery, 
-            (void**)&amp;pLicenseQuery);
+            (void**)&pLicenseQuery);
     }
 
     // TODO: Use the methods of IWMDRMLicenseQuery as required.

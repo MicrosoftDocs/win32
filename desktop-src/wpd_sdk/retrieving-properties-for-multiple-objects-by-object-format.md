@@ -42,7 +42,7 @@ hr = pPropertiesBulk->QueueGetValuesByObjectFormat(WPD_OBJECT_FORMAT_WMA,
                                                    100,
                                                    pPropertiesToRead,
                                                    pCallback,
-                                                   &amp;guidContext);
+                                                   &guidContext);
 ```
 
 

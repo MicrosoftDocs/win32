@@ -65,7 +65,7 @@ To configure non-square mixing mode, the filter graph must be stopped and all in
 
 ```C++
 DWORD dwPrefs;
-pMixControl->GetMixingPrefs(&amp;dwPrefs);  
+pMixControl->GetMixingPrefs(&dwPrefs);  
 dwPrefs |= MixerPref9_NonSquareMixing;
 pMixControl->SetMixingPrefs(dwPrefs);
 ```

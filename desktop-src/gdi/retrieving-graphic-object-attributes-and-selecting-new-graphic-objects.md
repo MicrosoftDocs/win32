@@ -29,7 +29,7 @@ The following example shows how an application can retrieve the current brush at
     // Retrieve a LOGBRUSH structure that contains the  
     // current brush attributes.  
  
-    GetObject(hbrush, sizeof(LOGBRUSH), &amp;lb); 
+    GetObject(hbrush, sizeof(LOGBRUSH), &lb); 
  
     // If the current brush is not a solid-black brush,  
     // replace it with the solid-black stock brush.  

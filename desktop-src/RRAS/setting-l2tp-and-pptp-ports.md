@@ -31,7 +31,7 @@ int __cdecl main(){
     MPR_SERVER_HANDLE hMprServer = NULL;
 
     // Connect to the local RRAS server
-    dwRes = MprAdminServerConnect(NULL, &amp;hMprServer);
+    dwRes = MprAdminServerConnect(NULL, &hMprServer);
     if(dwRes != ERROR_SUCCESS){
         //
         //Handle errors here
@@ -40,7 +40,7 @@ int __cdecl main(){
     }
 
     // Collect L2TP and PPTP port information from local RRAS server
-    dwRes = MprAdminServerGetInfo(hMprServer, 1, (LPBYTE*)&amp;pMprServer);
+    dwRes = MprAdminServerGetInfo(hMprServer, 1, (LPBYTE*)&pMprServer);
     if(dwRes != ERROR_SUCCESS){
         //
         //Handle errors here
@@ -70,7 +70,7 @@ int __cdecl main(){
     pMprServer->dwL2tpPortFlags = FALSE;
     pMprServer->dwPptpPortFlags = FALSE;
     dwRes = MprAdminServerSetInfo(hMprServer, 1, (LPBYTE)pMprServer);
-    if(dwRes != ERROR_SUCCESS_REBOOT_REQUIRED &amp;&amp; dwRes != ERROR_SUCCESS){
+    if(dwRes != ERROR_SUCCESS_REBOOT_REQUIRED && dwRes != ERROR_SUCCESS){
         //
         // Handle errors here
         //

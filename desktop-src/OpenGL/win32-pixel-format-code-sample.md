@@ -24,7 +24,7 @@ BOOL bSetupPixelFormat(HDC hdc)
     PIXELFORMATDESCRIPTOR pfd, *ppfd; 
     int pixelformat; 
  
-    ppfd = &amp;pfd; 
+    ppfd = &pfd; 
  
     ppfd->nSize = sizeof(PIXELFORMATDESCRIPTOR); 
     ppfd->nVersion = 1; 

@@ -33,7 +33,7 @@ void Modify(
   [in, optional] uint32              TTL,
   [in, optional] uint16              Preference,
   [in, optional] string              MailExchange,
-  [out, ref]     MicrosoftDNS_MXType &amp;RR
+  [out, ref]     MicrosoftDNS_MXType &RR
 );
 ```
 

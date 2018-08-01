@@ -73,7 +73,7 @@ The following example creates a [**D2D1\_PIXEL\_FORMAT**](/windows/desktop/api/d
 
 ```C++
 RECT rc;
-GetClientRect(m_hwnd, &amp;rc);
+GetClientRect(m_hwnd, &rc);
 
 D2D1_SIZE_U size = D2D1::SizeU(
     rc.right - rc.left,
@@ -94,7 +94,7 @@ props.pixelFormat = pixelFormat;
 hr = m_pD2DFactory->CreateHwndRenderTarget(
     props,
     D2D1::HwndRenderTargetProperties(m_hwnd, size),
-    &amp;m_pRT
+    &m_pRT
     );
 
 ```

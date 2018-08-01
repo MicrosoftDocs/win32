@@ -64,7 +64,7 @@ IUPnPDevices *FindMediaPlayerDevices(IUPnPDeviceFinder *pDeviceFinder)
     {
         hr = pDeviceFinder->FindByType(bstrTypeURI, 
                                        0,
-                                       &amp;pFoundDevices);
+                                       &pFoundDevices);
 
         if (SUCCEEDED(hr))
         {

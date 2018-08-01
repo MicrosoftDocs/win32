@@ -26,7 +26,7 @@ The **ICM\_GETDEFAULTKEYFRAMERATE** message queries a video compression driver f
 
 ```C++
 ICM_GETDEFAULTKEYFRAMERATE 
-wParam = (DWORD_PTR) (LPVOID) &amp;dwICValue; 
+wParam = (DWORD_PTR) (LPVOID) &dwICValue; 
 lParam = 0; 
 ```
 

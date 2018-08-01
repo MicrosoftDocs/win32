@@ -60,10 +60,10 @@ SCESTATUS WINAPI SceSvcAttachmentConfig (
                                   SceSvcConfigurationInfo,
                                   NULL,
                                   FALSE,
-                                  (PVOID *)&amp;pConfigInfo,
-                                  &amp;EnumContext
+                                  (PVOID *)&pConfigInfo,
+                                  &EnumContext
                                  );
-            if (retCode == SCESTATUS_SUCCESS &amp;&amp; pConfigInfo != NULL)
+            if (retCode == SCESTATUS_SUCCESS && pConfigInfo != NULL)
             {
               ULONG i:
               //////////////////////////////////////////////////
@@ -83,7 +83,7 @@ SCESTATUS WINAPI SceSvcAttachmentConfig (
               (*(pSceCbInfo->pfFreeInfo)) ((PVOPID)pConfigInfo);
               pConfigInfo = NULL;
             }
-        } while (retCode == SCESTATUS_SUCCESS &amp;&amp; CountReturned > 0);
+        } while (retCode == SCESTATUS_SUCCESS && CountReturned > 0);
   
   
   ////////////////////////////////////////////////////

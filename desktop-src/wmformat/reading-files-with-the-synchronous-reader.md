@@ -78,7 +78,7 @@ HRESULT hr = S_OK;
 hr = CoInitialize(NULL);
 
 // Create a synchronous reader.
-hr = WMCreateSyncReader(NULL, WMT_RIGHT_PLAYBACK, &amp;pSyncReader);
+hr = WMCreateSyncReader(NULL, WMT_RIGHT_PLAYBACK, &pSyncReader);
 
 // Open an ASF file.
 hr = pSyncReader->Open(L"c:\\somefile.wmv");
@@ -96,11 +96,11 @@ do
 {
    // Get the next sample, regardless of its stream number.
    hr = pSyncReader->GetNextSample(0,
-                                   &amp;pMyBuffer,
-                                   &amp;cnsSampleTime,
-                                   &amp;cnsSampleDuration,
-                                   &amp;dwFlags,
-                                   &amp;dwOutputNumber,
+                                   &pMyBuffer,
+                                   &cnsSampleTime,
+                                   &cnsSampleDuration,
+                                   &dwFlags,
+                                   &dwOutputNumber,
                                    NULL);
 
    if(SUCCEEDED(hr))

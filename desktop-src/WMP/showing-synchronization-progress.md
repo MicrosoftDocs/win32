@@ -55,10 +55,10 @@ void CMainDlg::DeviceSyncStateChange( IWMPSyncDevice * pDevice, WMPSyncState New
     {
         // Test whether the device that raised the event is the same as 
         // the one the user selected.
-        hr = spDevice->isIdentical(spDeviceParam, &amp;vbIdentical);
+        hr = spDevice->isIdentical(spDeviceParam, &vbIdentical);
     }
 
-    if(SUCCEEDED(hr) &amp;&amp;
+    if(SUCCEEDED(hr) &&
         vbIdentical == VARIANT_TRUE)
     {    
         // Display the sync state.
@@ -109,7 +109,7 @@ STDMETHODIMP CMainDlg::ShowProgress(long lIndex)
 
     CComPtr<IWMPSyncDevice> spDevice(m_ppWMPDevices[lIndex]);
     
-    HRESULT hr = spDevice->get_progress(&amp;lProgress);
+    HRESULT hr = spDevice->get_progress(&lProgress);
 
     // Convert progress to a string and add the percent character.
     _ltow(lProgress, buffer, 10);

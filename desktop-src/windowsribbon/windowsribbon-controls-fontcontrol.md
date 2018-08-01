@@ -627,7 +627,7 @@ STDMETHODIMP CApplication::OnCreateUICommand(
 
   if (NULL == m_pCommandHandler)
   {
-    HRESULT hr = CCommandHandler::CreateInstance(&amp;m_pCommandHandler);
+    HRESULT hr = CCommandHandler::CreateInstance(&m_pCommandHandler);
     if (FAILED(hr))
     {
       return hr;
@@ -660,7 +660,7 @@ STDMETHODIMP CCommandHandler::Execute(
   UNREFERENCED_PARAMETER(nCmdID);
 
   HRESULT hr = E_NOTIMPL;
-  if ((key) &amp;&amp; (*key == UI_PKEY_FontProperties))
+  if ((key) && (*key == UI_PKEY_FontProperties))
   {
     // Font properties have changed.
     switch (verb)
@@ -672,18 +672,18 @@ STDMETHODIMP CCommandHandler::Execute(
         {
           // Get the changed properties.
           PROPVARIANT varChanges;
-          hr = pCommandExecutionProperties->GetValue(UI_PKEY_FontProperties_ChangedProperties, &amp;varChanges);
+          hr = pCommandExecutionProperties->GetValue(UI_PKEY_FontProperties_ChangedProperties, &varChanges);
           if (SUCCEEDED(hr))
           {
             IPropertyStore *pChanges;
-            hr = UIPropertyToInterface(UI_PKEY_FontProperties, varChanges, &amp;pChanges);
+            hr = UIPropertyToInterface(UI_PKEY_FontProperties, varChanges, &pChanges);
             if (SUCCEEDED(hr))
             {
               // Using the changed properties, set the new font on the selection on RichEdit control.
               g_pFCSampleAppManager->SetValues(pChanges);
               pChanges->Release();
             }
-            PropVariantClear(&amp;varChanges);
+            PropVariantClear(&varChanges);
           }
         }
         break;
@@ -695,18 +695,18 @@ STDMETHODIMP CCommandHandler::Execute(
         {
           // Get the changed properties for the preview event.
           PROPVARIANT varChanges;
-          hr = pCommandExecutionProperties->GetValue(UI_PKEY_FontProperties_ChangedProperties, &amp;varChanges);
+          hr = pCommandExecutionProperties->GetValue(UI_PKEY_FontProperties_ChangedProperties, &varChanges);
           if (SUCCEEDED(hr))
           {
             IPropertyStore *pChanges;
-            hr = UIPropertyToInterface(UI_PKEY_FontProperties, varChanges, &amp;pChanges);
+            hr = UIPropertyToInterface(UI_PKEY_FontProperties, varChanges, &pChanges);
             if (SUCCEEDED(hr))
             {
               // Set the previewed values on the RichEdit control.
               g_pFCSampleAppManager->SetPreviewValues(pChanges);
               pChanges->Release();
             }
-            PropVariantClear(&amp;varChanges);
+            PropVariantClear(&varChanges);
           }
         }
         break;
@@ -718,7 +718,7 @@ STDMETHODIMP CCommandHandler::Execute(
         {
           // Cancel the preview.
           IPropertyStore *pValues;
-          hr = UIPropertyToInterface(UI_PKEY_FontProperties, *ppropvarValue, &amp;pValues);
+          hr = UIPropertyToInterface(UI_PKEY_FontProperties, *ppropvarValue, &pValues);
           if (SUCCEEDED(hr))
           {   
             g_pFCSampleAppManager->CancelPreview(pValues);
@@ -767,7 +767,7 @@ STDMETHODIMP CCommandHandler::UpdateProperty(
     {
       // Get the font values for the selected text in the font control.
       IPropertyStore *pValues;
-      hr = UIPropertyToInterface(UI_PKEY_FontProperties, *ppropvarCurrentValue, &amp;pValues);
+      hr = UIPropertyToInterface(UI_PKEY_FontProperties, *ppropvarCurrentValue, &pValues);
       if (SUCCEEDED(hr))
       {
         g_pFCSampleAppManager->GetValues(pValues);

@@ -254,7 +254,7 @@ CreateCompatibleConfiguration(
 
     WINBIO_STORAGE_SCHEMA *storageArray = NULL;
     SIZE_T storageCount = 0;
-    hr = WinBioEnumDatabases( WINBIO_TYPE_FINGERPRINT, &amp;storageArray, &amp;storageCount );
+    hr = WinBioEnumDatabases( WINBIO_TYPE_FINGERPRINT, &storageArray, &storageCount );
     if (FAILED(hr))
     {
         return hr;
@@ -270,7 +270,7 @@ CreateCompatibleConfiguration(
                         regPath.c_str(), 
                         0, 
                         KEY_READ, 
-                        &amp;configListKey 
+                        &configListKey 
                         );
     if (regStatus != ERROR_SUCCESS)
     {
@@ -299,8 +299,8 @@ CreateCompatibleConfiguration(
         regStatus = RegEnumKeyExW( 
                         configListKey, 
                         subkeyIndex, 
-                        (LPWSTR)&amp;subkeyName, 
-                        &amp;subkeyNameLength, 
+                        (LPWSTR)&subkeyName, 
+                        &subkeyNameLength, 
                         NULL, 
                         NULL, 
                         NULL, 
@@ -331,7 +331,7 @@ CreateCompatibleConfiguration(
                             configKeyPath.c_str(), 
                             0, 
                             KEY_READ, 
-                            &amp;configKey 
+                            &configKey 
                             ));
             if (SUCCEEDED(hr))
             {
@@ -352,8 +352,8 @@ CreateCompatibleConfiguration(
                             L"SensorMode", 
                             RRF_RT_REG_DWORD, 
                             NULL, 
-                            &amp;sensorMode, 
-                            &amp;dataSize 
+                            &sensorMode, 
+                            &dataSize 
                             ));
                 if (SUCCEEDED(hr))
                 {
@@ -383,8 +383,8 @@ CreateCompatibleConfiguration(
                                 L"SystemSensor", 
                                 RRF_RT_REG_DWORD, 
                                 NULL, 
-                                &amp;systemSensor, 
-                                &amp;dataSize 
+                                &systemSensor, 
+                                &dataSize 
                                 ));
                 }
 
@@ -399,8 +399,8 @@ CreateCompatibleConfiguration(
                                 L"DatabaseId", 
                                 RRF_RT_REG_SZ, 
                                 NULL, 
-                                &amp;databaseIdString, 
-                                &amp;dataSize 
+                                &databaseIdString, 
+                                &dataSize 
                                 ));
                     if (SUCCEEDED(hr))
                     {
@@ -408,7 +408,7 @@ CreateCompatibleConfiguration(
                         // in database list; capture corresponding 
                         // data-format GUID
                         WINBIO_UUID databaseIdGuid;
-                        ConvertStringToUuid( databaseIdString, &amp;databaseIdGuid );
+                        ConvertStringToUuid( databaseIdString, &databaseIdGuid );
 
                         bool databaseFound = false;
                         for (SIZE_T i = 0; i < storageCount; ++i)
@@ -438,8 +438,8 @@ CreateCompatibleConfiguration(
                                 L"SensorAdapterBinary", 
                                 RRF_RT_REG_SZ, 
                                 NULL, 
-                                &amp;sensorAdapter, 
-                                &amp;dataSize 
+                                &sensorAdapter, 
+                                &dataSize 
                                 ));
                 }
 
@@ -453,8 +453,8 @@ CreateCompatibleConfiguration(
                                 L"EngineAdapterBinary", 
                                 RRF_RT_REG_SZ, 
                                 NULL, 
-                                &amp;engineAdapter, 
-                                &amp;dataSize 
+                                &engineAdapter, 
+                                &dataSize 
                                 ));
                 }
 
@@ -468,8 +468,8 @@ CreateCompatibleConfiguration(
                                 L"StorageAdapterBinary", 
                                 RRF_RT_REG_SZ, 
                                 NULL, 
-                                &amp;storageAdapter, 
-                                &amp;dataSize 
+                                &storageAdapter, 
+                                &dataSize 
                                 ));
                 }
 
@@ -541,7 +541,7 @@ RegisterDatabase(
 
     WCHAR databaseKeyName[MAX_PATH] = {};
     if (!ConvertUuidToString( 
-            &amp;StorageSchema->DatabaseId, 
+            &StorageSchema->DatabaseId, 
             databaseKeyName, 
             ARRAYSIZE(databaseKeyName), 
             true
@@ -552,7 +552,7 @@ RegisterDatabase(
 
     WCHAR dataFormat[MAX_PATH] = {};
     if (!ConvertUuidToString( 
-            &amp;StorageSchema->DataFormat, 
+            &StorageSchema->DataFormat, 
             dataFormat, 
             ARRAYSIZE(dataFormat), 
             false
@@ -568,7 +568,7 @@ RegisterDatabase(
                 L"System\\CurrentControlSet\\Services\\WbioSrvc\\Databases", 
                 0, 
                 KEY_WRITE,
-                &amp;databaseListKey 
+                &databaseListKey 
                 ));
     if (FAILED(hr))
     {
@@ -586,8 +586,8 @@ RegisterDatabase(
                 REG_OPTION_NON_VOLATILE, 
                 KEY_WRITE, 
                 NULL, 
-                &amp;newDatabaseKey,
-                &amp;keyDisposition
+                &newDatabaseKey,
+                &keyDisposition
                 ));
     if (SUCCEEDED(hr))
     {
@@ -604,7 +604,7 @@ RegisterDatabase(
                         L"Attributes", 
                         0, 
                         REG_DWORD, 
-                        (LPBYTE)&amp;StorageSchema->Attributes, 
+                        (LPBYTE)&StorageSchema->Attributes, 
                         sizeof(StorageSchema->Attributes)
                         ));
         }
@@ -618,7 +618,7 @@ RegisterDatabase(
                         L"AutoCreate", 
                         0, 
                         REG_DWORD, 
-                        (LPBYTE)&amp;autoCreate, 
+                        (LPBYTE)&autoCreate, 
                         sizeof(autoCreate)
                         ));
         }
@@ -632,7 +632,7 @@ RegisterDatabase(
                         L"AutoName", 
                         0, 
                         REG_DWORD, 
-                        (LPBYTE)&amp;autoName, 
+                        (LPBYTE)&autoName, 
                         sizeof(autoName)
                         ));
         }
@@ -646,7 +646,7 @@ RegisterDatabase(
                         L"BiometricType", 
                         0, 
                         REG_DWORD, 
-                        (LPBYTE)&amp;biometricType, 
+                        (LPBYTE)&biometricType, 
                         sizeof(biometricType)
                         ));
         }
@@ -701,7 +701,7 @@ RegisterDatabase(
                         L"InitialSize", 
                         0, 
                         REG_DWORD, 
-                        (LPBYTE)&amp;initialSize, 
+                        (LPBYTE)&initialSize, 
                         sizeof(initialSize)
                         ));
         }
@@ -742,7 +742,7 @@ UnregisterDatabase(
 
     WINBIO_STORAGE_SCHEMA *storageArray = NULL;
     SIZE_T storageCount = 0;
-    hr = WinBioEnumDatabases( WINBIO_TYPE_FINGERPRINT, &amp;storageArray, &amp;storageCount );
+    hr = WinBioEnumDatabases( WINBIO_TYPE_FINGERPRINT, &storageArray, &storageCount );
     if (SUCCEEDED(hr))
     {
         WINBIO_STORAGE_SCHEMA *storageSchema = NULL;
@@ -750,7 +750,7 @@ UnregisterDatabase(
         {
             if (storageArray[i].DatabaseId == *DatabaseId)
             {
-                storageSchema = &amp;storageArray[i];
+                storageSchema = &storageArray[i];
                 break;
             }
         }
@@ -768,7 +768,7 @@ UnregisterDatabase(
                         L"System\\CurrentControlSet\\Services\\WbioSrvc\\Databases", 
                         0, 
                         KEY_WRITE,
-                        &amp;databaseListKey 
+                        &databaseListKey 
                         ));
             if (SUCCEEDED(hr))
             {
@@ -779,7 +779,7 @@ UnregisterDatabase(
                             KEY_WOW64_64KEY,
                             0
                             ));
-                if (SUCCEEDED(hr) &amp;&amp;
+                if (SUCCEEDED(hr) &&
                     wcsnlen_s(storageSchema->FilePath, ARRAYSIZE(storageSchema->FilePath)) > 0)
                 {
                     // delete the database file
@@ -834,7 +834,7 @@ RegisterPrivateConfiguration(
 
     WCHAR databaseId[MAX_PATH];
     if (!ConvertUuidToString( 
-            &amp;Configuration->DatabaseId, 
+            &Configuration->DatabaseId, 
             databaseId, 
             ARRAYSIZE(databaseId), 
             false
@@ -853,7 +853,7 @@ RegisterPrivateConfiguration(
                         regPath.c_str(), 
                         0, 
                         KEY_READ | KEY_WRITE,
-                        &amp;configListKey 
+                        &configListKey 
                         );
     if (regStatus != ERROR_SUCCESS)
     {
@@ -871,8 +871,8 @@ RegisterPrivateConfiguration(
         regStatus = RegEnumKeyExW( 
                         configListKey, 
                         subkeyIndex, 
-                        (LPWSTR)&amp;subkeyName, 
-                        &amp;subkeyNameLength, 
+                        (LPWSTR)&subkeyName, 
+                        &subkeyNameLength, 
                         NULL, 
                         NULL, 
                         NULL, 
@@ -900,9 +900,9 @@ RegisterPrivateConfiguration(
                     configListKey,
                     subkeyName,
                     Configuration,
-                    &amp;collision
+                    &collision
                     );
-            if (SUCCEEDED(hr) &amp;&amp; collision)
+            if (SUCCEEDED(hr) && collision)
             {
                 hr = WINBIO_E_CONFIGURATION_FAILURE;
             }
@@ -936,8 +936,8 @@ RegisterPrivateConfiguration(
                     REG_OPTION_NON_VOLATILE, 
                     KEY_WRITE, 
                     NULL, 
-                    &amp;newConfigKey,
-                    &amp;keyDisposition
+                    &newConfigKey,
+                    &keyDisposition
                     ));
         if (SUCCEEDED(hr))
         {
@@ -956,7 +956,7 @@ RegisterPrivateConfiguration(
                         L"SensorMode", 
                         0, 
                         REG_DWORD, 
-                        (LPBYTE)&amp;sensorMode, 
+                        (LPBYTE)&sensorMode, 
                         sizeof(sensorMode)
                         ));
 
@@ -969,7 +969,7 @@ RegisterPrivateConfiguration(
                             L"SystemSensor", 
                             0, 
                             REG_DWORD, 
-                            (LPBYTE)&amp;sytemSensor, 
+                            (LPBYTE)&sytemSensor, 
                             sizeof(sytemSensor)
                             ));
             }
@@ -1084,7 +1084,7 @@ UnregisterPrivateConfiguration(
                 regPath.c_str(), 
                 0, 
                 KEY_READ | KEY_WRITE,
-                &amp;configListKey 
+                &configListKey 
                 ));
     if (FAILED(hr))
     {
@@ -1102,8 +1102,8 @@ UnregisterPrivateConfiguration(
         LONG regStatus = RegEnumKeyExW( 
                             configListKey, 
                             subkeyIndex, 
-                            (LPWSTR)&amp;configKeyName, 
-                            &amp;configKeyNameLength, 
+                            (LPWSTR)&configKeyName, 
+                            &configKeyNameLength, 
                             NULL, 
                             NULL, 
                             NULL, 
@@ -1133,10 +1133,10 @@ UnregisterPrivateConfiguration(
                         L"DatabaseId", 
                         RRF_RT_REG_SZ, 
                         NULL, 
-                        &amp;configDatabaseId, 
-                        &amp;dataSize 
+                        &configDatabaseId, 
+                        &dataSize 
                         ));
-            if (SUCCEEDED(hr) &amp;&amp;
+            if (SUCCEEDED(hr) &&
                 _wcsnicmp(configDatabaseId, targetDatabaseId, ARRAYSIZE(configDatabaseId)) == 0)
             {
                 hr = HRESULT_FROM_WIN32(
@@ -1193,7 +1193,7 @@ CompareConfiguration(
 
     WCHAR targetDatabaseId[40];
     if (!ConvertUuidToString( 
-            &amp;TargetConfig->DatabaseId, 
+            &TargetConfig->DatabaseId, 
             targetDatabaseId, 
             ARRAYSIZE(targetDatabaseId), 
             false
@@ -1209,7 +1209,7 @@ CompareConfiguration(
                         SourceConfigKey,
                         0,
                         KEY_READ,
-                        &amp;srcConfig
+                        &srcConfig
                         ));
     if (SUCCEEDED(hr))
     {
@@ -1224,10 +1224,10 @@ CompareConfiguration(
                     L"DatabaseId", 
                     RRF_RT_REG_SZ, 
                     NULL, 
-                    &amp;configDatabaseId, 
-                    &amp;dataSize 
+                    &configDatabaseId, 
+                    &dataSize 
                     ));
-        if (SUCCEEDED(hr) &amp;&amp;
+        if (SUCCEEDED(hr) &&
             _wcsnicmp(configDatabaseId, targetDatabaseId, ARRAYSIZE(configDatabaseId)) != 0)
         {
             isEqual = false;
@@ -1266,17 +1266,17 @@ ConvertStringToUuid(
     int conversionCount = swscanf_s(
         UuidString, 
         L"%8x-%4x-%4x-%2x%2x-%2x%2x%2x%2x%2x%2x",
-        &amp;data1,
-        &amp;data2,
-        &amp;data3,
-        &amp;data40,
-        &amp;data41,
-        &amp;data42,
-        &amp;data43,
-        &amp;data44,
-        &amp;data45,
-        &amp;data46,
-        &amp;data47
+        &data1,
+        &data2,
+        &data3,
+        &data40,
+        &data41,
+        &data42,
+        &data43,
+        &data44,
+        &data45,
+        &data46,
+        &data47
         );
 
     if (conversionCount != 11)
@@ -1426,9 +1426,9 @@ ConvertErrorCodeToString(
     UINT systemPathSize = 0;
     systemPathSize = GetSystemWindowsDirectory( NULL, 0);
     systemPath.resize(systemPathSize);
-    systemPathSize = GetSystemWindowsDirectory( (LPTSTR)&amp;systemPath[0], systemPathSize);
+    systemPathSize = GetSystemWindowsDirectory( (LPTSTR)&systemPath[0], systemPathSize);
 
-    TSTRING libraryPath = &amp;systemPath[0];
+    TSTRING libraryPath = &systemPath[0];
     libraryPath += _T("\\system32\\winbio.dll");
 
     HMODULE winbioLibrary = NULL;
@@ -1447,7 +1447,7 @@ ConvertErrorCodeToString(
                             winbioLibrary,
                             ErrorCode,
                             0,                      // LANGID
-                            (LPTSTR)&amp;messageBuffer,
+                            (LPTSTR)&messageBuffer,
                             0,                      // arg count
                             NULL                    // arg array
                             );

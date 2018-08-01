@@ -37,7 +37,7 @@ void CreateInstanceFromPropertyData(
   [in, optional] uint32              TTL,
   [in]           string              RPMailbox,
   [in]           string              TXTDomainName,
-  [out, ref]     MicrosoftDNS_RPType &amp;RR
+  [out, ref]     MicrosoftDNS_RPType &RR
 );
 ```
 

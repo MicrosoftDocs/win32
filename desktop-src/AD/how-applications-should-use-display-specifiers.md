@@ -81,16 +81,16 @@ HRESULT GetClassDisplaySpecifierContainer(LPWSTR pwszClass,
                         NULL,
                         ADS_SECURE_AUTHENTICATION,
                         IID_IADs,
-                        (void**)&amp;padsRoot);
+                        (void**)&padsRoot);
  
     if(SUCCEEDED(hr))
     {
         VARIANT var;
 
-        VariantInit(&amp;var);
+        VariantInit(&var);
 
         // Get the DN to the configuration container.
-        hr = padsRoot->Get(CComBSTR(L"configurationNamingContext"), &amp;var);
+        hr = padsRoot->Get(CComBSTR(L"configurationNamingContext"), &var);
         
         if(SUCCEEDED(hr))
         {
@@ -104,7 +104,7 @@ HRESULT GetClassDisplaySpecifierContainer(LPWSTR pwszClass,
                 locale, 
                 var.bstrVal);
 
-            VariantClear(&amp;var);
+            VariantClear(&var);
             
             // Bind to the container.
             hr = ADsOpenObject( wszPath,
@@ -141,15 +141,15 @@ HRESULT GetClassDisplayLabel(LPWSTR pwszClass,
     
     HRESULT hr;
     IADs *padsDispSpec;
-    hr = GetClassDisplaySpecifierContainer(pwszClass, locale, &amp;padsDispSpec);
+    hr = GetClassDisplaySpecifierContainer(pwszClass, locale, &padsDispSpec);
     if(SUCCEEDED(hr))
     {
         VARIANT var;
 
-        VariantInit(&amp;var);
+        VariantInit(&var);
 
         // Get the classDisplayName property value.
-        hr = padsDispSpec->Get(CComBSTR(L"classDisplayName"), &amp;var);
+        hr = padsDispSpec->Get(CComBSTR(L"classDisplayName"), &var);
         
         if(SUCCEEDED(hr))
         {
@@ -160,7 +160,7 @@ HRESULT GetClassDisplayLabel(LPWSTR pwszClass,
             }
             else
             {
-                VariantClear(&amp;var);
+                VariantClear(&var);
                 hr = E_FAIL;
             }
         }
@@ -193,15 +193,15 @@ HRESULT GetAttributeDisplayLabel(LPWSTR pwszClass,
     
     HRESULT hr;
     IADs *padsDispSpec;
-    hr = GetClassDisplaySpecifierContainer(pwszClass, locale, &amp;padsDispSpec);
+    hr = GetClassDisplaySpecifierContainer(pwszClass, locale, &padsDispSpec);
     if(SUCCEEDED(hr))
     {
         VARIANT var;
 
-        VariantInit(&amp;var);
+        VariantInit(&var);
 
         // Get the attributeDisplayNames property values
-        hr = padsDispSpec->GetEx(CComBSTR(L"attributeDisplayNames"), &amp;var);
+        hr = padsDispSpec->GetEx(CComBSTR(L"attributeDisplayNames"), &var);
         
         if(SUCCEEDED(hr))
         {
@@ -211,13 +211,13 @@ HRESULT GetAttributeDisplayLabel(LPWSTR pwszClass,
             SAFEARRAY   *psa;
             VARIANT     varItem;
 
-            VariantInit(&amp;varItem);
+            VariantInit(&varItem);
 
-            psa = V_ARRAY(&amp;var);
+            psa = V_ARRAY(&var);
 
             // Get the lower and upper bound.
-            hr = SafeArrayGetLBound(psa, 1, &amp;lStart);
-            hr = SafeArrayGetUBound(psa, 1, &amp;lEnd);
+            hr = SafeArrayGetLBound(psa, 1, &lStart);
+            hr = SafeArrayGetUBound(psa, 1, &lEnd);
 
             /*
             The attributeDisplayNames values take the form 
@@ -226,13 +226,13 @@ HRESULT GetAttributeDisplayLabel(LPWSTR pwszClass,
             */
             for(i = lStart; i <= lEnd; i++)
             {
-                hr = SafeArrayGetElement(psa, &amp;i, &amp;varItem);
+                hr = SafeArrayGetElement(psa, &i, &varItem);
                 if(SUCCEEDED(hr))
                 {
                     WCHAR   wszTemp[MAX_PATH];
 
                     wcsncpy_s(wszTemp, 
-                        V_BSTR(&amp;varItem), 
+                        V_BSTR(&varItem), 
                         lstrlenW(pwszAttribute) + 1);
                 
                     if(0 == lstrcmpiW(pwszAttribute, wszTemp))
@@ -244,7 +244,7 @@ HRESULT GetAttributeDisplayLabel(LPWSTR pwszClass,
                         for the first comma, which delimits the attribute name 
                         from the display name.
                         */
-                        for(    pwszDisplayLabel = V_BSTR(&amp;varItem); 
+                        for(    pwszDisplayLabel = V_BSTR(&varItem); 
                                 *pwszDisplayLabel; 
                                 pwszDisplayLabel = CharNextW(pwszDisplayLabel))
                         {
@@ -272,12 +272,12 @@ HRESULT GetAttributeDisplayLabel(LPWSTR pwszClass,
                         Release the item variant because the break prevents 
                         it from getting released by the VariantClear call below.
                         */
-                        VariantClear(&amp;varItem);
+                        VariantClear(&varItem);
 
                         break;
                     }
 
-                    VariantClear(&amp;varItem);
+                    VariantClear(&varItem);
                 }
             }
         }

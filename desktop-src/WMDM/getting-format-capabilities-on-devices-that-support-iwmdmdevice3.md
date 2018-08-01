@@ -49,7 +49,7 @@ HRESULT GetFormatCaps(WMDM_FORMATCODE formatCode, IWMDMDevice3* pDevice)
 
     // Get a list of supported configurations for the format.
     WMDM_FORMAT_CAPABILITY formatCapList;
-    hr = pDevice->GetFormatCapability(formatCode, &amp;formatCapList);
+    hr = pDevice->GetFormatCapability(formatCode, &formatCapList);
     if (FAILED(hr)) return E_FAIL;
 
     // TODO: Display the format name.
@@ -92,8 +92,8 @@ HRESULT GetFormatCaps(WMDM_FORMATCODE formatCode, IWMDMDevice3* pDevice)
                         {
                             pVal = list.pValues[iValue];
                             // TODO: Display each valid value.
-                            PropVariantClear(&amp;pVal);
-                            PropVariantInit(&amp;pVal);
+                            PropVariantClear(&pVal);
+                            PropVariantInit(&pVal);
                         }
                     }
 
@@ -134,14 +134,14 @@ void CWMDMController::FreeFormatCapability(WMDM_FORMAT_CAPABILITY formatCap)
                 case WMDM_ENUM_PROP_VALID_VALUES_ENUM:
                     for (UINT k=0; k < formatCap.pConfigs[i].pPropDesc[j].ValidValues.EnumeratedValidValues.cEnumValues; k++)
                     {
-                        PropVariantClear (&amp;(formatCap.pConfigs[i].pPropDesc[j].ValidValues.EnumeratedValidValues.pValues[k]));
+                        PropVariantClear (&(formatCap.pConfigs[i].pPropDesc[j].ValidValues.EnumeratedValidValues.pValues[k]));
                     }
                     CoTaskMemFree(formatCap.pConfigs[i].pPropDesc[j].ValidValues.EnumeratedValidValues.pValues);
                     break;
                 case WMDM_ENUM_PROP_VALID_VALUES_RANGE:
-                    PropVariantClear (&amp;(formatCap.pConfigs[i].pPropDesc[j].ValidValues.ValidValuesRange.rangeMin));
-                    PropVariantClear (&amp;(formatCap.pConfigs[i].pPropDesc[j].ValidValues.ValidValuesRange.rangeMax));
-                    PropVariantClear (&amp;(formatCap.pConfigs[i].pPropDesc[j].ValidValues.ValidValuesRange.rangeStep));
+                    PropVariantClear (&(formatCap.pConfigs[i].pPropDesc[j].ValidValues.ValidValuesRange.rangeMin));
+                    PropVariantClear (&(formatCap.pConfigs[i].pPropDesc[j].ValidValues.ValidValuesRange.rangeMax));
+                    PropVariantClear (&(formatCap.pConfigs[i].pPropDesc[j].ValidValues.ValidValuesRange.rangeStep));
                     break;
                 case WMDM_ENUM_PROP_VALID_VALUES_ANY:
                     // No dynamically allocated memory for this value.
@@ -188,8 +188,8 @@ HRESULT CWMDMController::GetCaps(IWMDMDevice3* pDevice)
 
     // Request the "formats supported" property to get a list of supported formats.
     PROPVARIANT pvFormatsSupported;
-    PropVariantInit(&amp;pvFormatsSupported);
-    hr = pDevice->GetProperty(g_wszWMDMFormatsSupported, &amp;pvFormatsSupported);
+    PropVariantInit(&pvFormatsSupported);
+    hr = pDevice->GetProperty(g_wszWMDMFormatsSupported, &pvFormatsSupported);
     HANDLE_HR(hr, "Got a property list in GetCaps", "Couldn't get a property list in GetCaps.");
 
     // Loop through the retrieved format list.
@@ -199,7 +199,7 @@ HRESULT CWMDMController::GetCaps(IWMDMDevice3* pDevice)
     for (LONG iCap = 0; iCap < formatList->rgsabound[0].cElements; iCap++)
     { 
         // Get a format from the SAFEARRAY of retrieved formats.
-        SafeArrayGetElement(formatList, &amp;iCap, &amp;formatCode);
+        SafeArrayGetElement(formatList, &iCap, &formatCode);
 
         // Call a custom function to request the format capabilities.
         if (formatCode != WMDM_FORMATCODE_NOTUSED)
@@ -208,7 +208,7 @@ HRESULT CWMDMController::GetCaps(IWMDMDevice3* pDevice)
 
 e_Exit:
     // Clear out the memory we used.
-    PropVariantClear(&amp;pvFormatsSupported);
+    PropVariantClear(&pvFormatsSupported);
     return hr;
 }
 ```

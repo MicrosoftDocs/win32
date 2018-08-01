@@ -62,7 +62,7 @@ DWORD dwData2;
     switch (uType) 
     { 
     case XTYP_ADVREQ: 
-        if ((hsz1 == hszTime &amp;&amp; hsz2 == hszNow) &amp;&amp; 
+        if ((hsz1 == hszTime && hsz2 == hszNow) && 
                 (uFmt == CF_TEXT)) 
         { 
             // Copy the formatted string to a buffer. 
@@ -87,7 +87,7 @@ DWORD dwData2;
             // TO DO: Write error handler.
                 return;
             }
-            itoa(tmTime.minute, &amp;szBuf[*pcch], 10);
+            itoa(tmTime.minute, &szBuf[*pcch], 10);
             hResult = StringCchCat(szBuf, 32/sizeof(TCHAR), ":"); 
             if (FAILED(hResult)
             {
@@ -107,7 +107,7 @@ DWORD dwData2;
             // TO DO: Write error handler.
                 return;
             }
-            itoa(tmTime.second, &amp;szBuf[*pcch], 10);
+            itoa(tmTime.second, &szBuf[*pcch], 10);
             hResult = StringCchLength(szBuf, 32/sizeof(TCHAR), pcch);
             if (FAILED(hResult))
             {
@@ -154,7 +154,7 @@ char szData[32];
  
 // 
 case XTYP_ADVDATA: 
-    lpszAdviseData = DdeAccessData(hdata, &amp;cbDataLen); 
+    lpszAdviseData = DdeAccessData(hdata, &cbDataLen); 
     for (i = 0; i < cbDataLen; i++) 
         szData[i] = *lpszAdviseData++; 
     DdeUnaccessData(hdata); 

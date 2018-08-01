@@ -53,7 +53,7 @@ The following example code prints the contents of a rich edit control to the spe
 //     PRINTDLG pd = { sizeof(pd) };
 //     pd.Flags = PD_RETURNDC | PD_RETURNDEFAULT;
 //
-//     if (PrintDlg(&amp;pd))
+//     if (PrintDlg(&pd))
 //     {
 //        HDC hdc = pd.hDC;
 //        ...
@@ -63,7 +63,7 @@ BOOL PrintRTF(HWND hwnd, HDC hdc)
 {
     DOCINFO di = { sizeof(di) };
     
-    if (!StartDoc(hdc, &amp;di))
+    if (!StartDoc(hdc, &di))
     {
         return FALSE;
     }
@@ -95,18 +95,18 @@ BOOL PrintRTF(HWND hwnd, HDC hdc)
     fr.rc.bottom = cyPhysOffset + cyPhys;
 
     SendMessage(hwnd, EM_SETSEL, 0, (LPARAM)-1);          // Select the entire contents.
-    SendMessage(hwnd, EM_EXGETSEL, 0, (LPARAM)&amp;fr.chrg);  // Get the selection into a CHARRANGE.
+    SendMessage(hwnd, EM_EXGETSEL, 0, (LPARAM)&fr.chrg);  // Get the selection into a CHARRANGE.
 
     BOOL fSuccess = TRUE;
 
     // Use GDI to print successive pages.
-    while (fr.chrg.cpMin < fr.chrg.cpMax &amp;&amp; fSuccess) 
+    while (fr.chrg.cpMin < fr.chrg.cpMax && fSuccess) 
     {
         fSuccess = StartPage(hdc) > 0;
         
         if (!fSuccess) break;
         
-        int cpMin = SendMessage(hwnd, EM_FORMATRANGE, TRUE, (LPARAM)&amp;fr);
+        int cpMin = SendMessage(hwnd, EM_FORMATRANGE, TRUE, (LPARAM)&fr);
         
         if (cpMin <= fr.chrg.cpMin) 
         {

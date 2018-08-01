@@ -23,7 +23,7 @@ The following code attaches to the local computer as an SDO computer.
    CComPtr<ISdoMachine> pSdoMachine;
    CLSID    clsid;
 
-   hr = CLSIDFromProgID(TEXT("IAS.SdoMachine"), &amp;clsid);
+   hr = CLSIDFromProgID(TEXT("IAS.SdoMachine"), &clsid);
    if (FAILED(hr))
    {
       return hr;
@@ -34,7 +34,7 @@ The following code attaches to the local computer as an SDO computer.
       NULL,
       CLSCTX_INPROC_SERVER,
       __uuidof(ISdoMachine),
-      (void**)&amp;pSdoMachine
+      (void**)&pSdoMachine
    );
    if (FAILED(hr))
    {

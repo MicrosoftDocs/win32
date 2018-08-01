@@ -67,7 +67,7 @@ ULONGLONG CreateDirectConnection(HGRAPH hGraph, PCWSTR pwzId)
 
     HPEERENUM hPeerEnum = NULL;
  
-    hr = PeerGraphEnumNodes(hGraph, pwzId, &amp;hPeerEnum);
+    hr = PeerGraphEnumNodes(hGraph, pwzId, &hPeerEnum);
 
     if (SUCCEEDED(hr))
     {
@@ -75,16 +75,16 @@ ULONGLONG CreateDirectConnection(HGRAPH hGraph, PCWSTR pwzId)
 
         PEER_NODE_INFO ** ppNodeInfo = NULL;
 
-        hr = PeerGraphGetNextItem(hPeerEnum, &amp;cItem, (PVOID**) &amp;ppNodeInfo);
+        hr = PeerGraphGetNextItem(hPeerEnum, &cItem, (PVOID**) &ppNodeInfo);
 
         if (SUCCEEDED(hr))
         {
-            if ((cItem > 0) &amp;&amp; (NULL != ppNodeInfo))
+            if ((cItem > 0) && (NULL != ppNodeInfo))
             {
                 if ((*ppNodeInfo)->cAddresses > 0)
                 {
                     hr = PeerGraphOpenDirectConnection(hGraph, pwzId,
-                            &amp;(*ppNodeInfo)->pAddresses[0], &amp;ullConnection);
+                            &(*ppNodeInfo)->pAddresses[0], &ullConnection);
                 }
                 PeerGraphFreeData(ppNodeInfo);
             }

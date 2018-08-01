@@ -59,9 +59,9 @@ if (hwndTooltip)
     ti.hinst    = NULL;
     ti.lpszText = LPSTR_TEXTCALLBACK;
 
-    GetClientRect(hwnd, &amp;ti.rect);
+    GetClientRect(hwnd, &ti.rect);
 
-    SendMessage(hwndToolTips, TTM_ADDTOOL, 0, (LPARAM) &amp;ti );
+    SendMessage(hwndToolTips, TTM_ADDTOOL, 0, (LPARAM) &ti );
 
 }
             

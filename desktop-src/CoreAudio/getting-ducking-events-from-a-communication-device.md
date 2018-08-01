@@ -57,12 +57,12 @@ HRESULT CMediaPlayer::DuckingOptOut(bool DuckingOptOutChecked)
     hr = CoCreateInstance(__uuidof(MMDeviceEnumerator), 
                           NULL, 
                           CLSCTX_INPROC_SERVER, 
-                          IID_PPV_ARGS(&amp;pDeviceEnumerator));
+                          IID_PPV_ARGS(&pDeviceEnumerator));
     
     if (SUCCEEDED(hr))
     {
         hr = pDeviceEnumerator>GetDefaultAudioEndpoint(
-              eRender, eConsole, &amp;pEndpoint);
+              eRender, eConsole, &pEndpoint);
 
         pDeviceEnumerator>Release();
         pDeviceEnumerator = NULL;
@@ -75,21 +75,21 @@ HRESULT CMediaPlayer::DuckingOptOut(bool DuckingOptOutChecked)
                                  CLSCTX_INPROC_SERVER,
                                  NULL, 
                                  reinterpret_cast<void **>
-                                 (&amp;pSessionManager2));
+                                 (&pSessionManager2));
         pEndpoint->Release();
         pEndpoint = NULL;
     }
     if (SUCCEEDED(hr))
     {
         hr = pSessionManager2->GetAudioSessionControl(
-                                  NULL, 0, &amp;pSessionControl);
+                                  NULL, 0, &pSessionControl);
         
     }
 
     if (SUCCEEDED(hr))
     {
         hr = pSessionControl->QueryInterface(
-                               IID_PPV_ARGS(&amp;pSessionControl2));
+                               IID_PPV_ARGS(&pSessionControl2));
                 
         pSessionControl->Release();
         pSessionControl = NULL;

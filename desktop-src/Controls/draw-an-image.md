@@ -63,7 +63,7 @@ BOOL DrawTheImage(HWND hwnd, HIMAGELIST himl, int cx, int cy)
         return FALSE; 
     ReleaseDC(hwnd, hdc); 
  
-    SetRect(&amp;g_rcImage, cx, cy, CX_IMAGE + cx, CY_IMAGE + cy); 
+    SetRect(&g_rcImage, cx, cy, CX_IMAGE + cx, CY_IMAGE + cy); 
  
     return TRUE; 
 } 

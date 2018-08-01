@@ -90,11 +90,11 @@ Steps 4 through 10 occur inside of **IPin::Connect**.
 
         unsigned long const * plguid;
         unsigned long const * plguidDXVA;
-        plguid = (unsigned long const *)&amp;pmt->subtype;
-        plguidDXVA = (unsigned long *)&amp;guidDXVA;
+        plguid = (unsigned long const *)&pmt->subtype;
+        plguidDXVA = (unsigned long *)&guidDXVA;
 
-        if( ( plguid[1] == plguidDXVA[1] ) &amp;&amp;
-            ( plguid[2] == plguidDXVA[2] ) &amp;&amp;
+        if( ( plguid[1] == plguidDXVA[1] ) &&
+            ( plguid[2] == plguidDXVA[2] ) &&
             ( plguid[3] == plguidDXVA[3] ) )
         {
             return true;

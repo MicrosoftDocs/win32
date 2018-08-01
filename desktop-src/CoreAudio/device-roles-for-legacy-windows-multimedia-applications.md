@@ -51,17 +51,17 @@ HRESULT GetWaveOutId(ERole role, int *pWaveOutId)
     hr = CoCreateInstance(__uuidof(MMDeviceEnumerator),
                           NULL, CLSCTX_INPROC_SERVER,
                           __uuidof(IMMDeviceEnumerator),
-                          (void**)&amp;pEnumerator);
+                          (void**)&pEnumerator);
     EXIT_ON_ERROR(hr)
 
     // Get the audio endpoint device that the user has
     // assigned to the specified device role.
     hr = pEnumerator->GetDefaultAudioEndpoint(eRender, role,
-                                              &amp;pDevice);
+                                              &pDevice);
     EXIT_ON_ERROR(hr)
 
     // Get the endpoint ID string of the audio endpoint device.
-    hr = pDevice->GetId(&amp;pstrEndpointIdKey);
+    hr = pDevice->GetId(&pstrEndpointIdKey);
     EXIT_ON_ERROR(hr)
 
     // Get the size of the endpoint ID string.
@@ -69,7 +69,7 @@ HRESULT GetWaveOutId(ERole role, int *pWaveOutId)
 
     hr = StringCbLength(pstrEndpointIdKey,
                         STRSAFE_MAX_CCH * sizeof(WCHAR),
-                        &amp;cbEndpointIdKey);
+                        &cbEndpointIdKey);
     EXIT_ON_ERROR(hr)
 
     // Include terminating null in string size.
@@ -99,7 +99,7 @@ HRESULT GetWaveOutId(ERole role, int *pWaveOutId)
         // the endpoint ID string of the waveOut device.
         mmr = waveOutMessage((HWAVEOUT)IntToPtr(waveOutId),
                              DRV_QUERYFUNCTIONINSTANCEIDSIZE,
-                             (DWORD_PTR)&amp;cbEndpointId, NULL);
+                             (DWORD_PTR)&cbEndpointId, NULL);
         if (mmr != MMSYSERR_NOERROR ||
             cbEndpointIdKey != cbEndpointId)  // do sizes match?
         {

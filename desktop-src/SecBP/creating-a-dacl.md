@@ -55,7 +55,7 @@ void main()
      // Call function to set the DACL. The DACL
      // is set in the SECURITY_ATTRIBUTES 
      // lpSecurityDescriptor member.
-     if (!CreateMyDACL(&amp;sa))
+     if (!CreateMyDACL(&sa))
      {
          // Error encountered; generate message and exit.
          printf("Failed CreateMyDACL\n");
@@ -66,7 +66,7 @@ void main()
      // security attributes for securable objects.
      // This example uses security attributes during
      // creation of a new directory.
-     if (0 == CreateDirectory(TEXT("C:\\MyFolder"), &amp;sa))
+     if (0 == CreateDirectory(TEXT("C:\\MyFolder"), &sa))
      {
          // Error encountered; generate message and exit.
          printf("Failed CreateDirectory\n");
@@ -132,7 +132,7 @@ BOOL CreateMyDACL(SECURITY_ATTRIBUTES * pSA)
      return ConvertStringSecurityDescriptorToSecurityDescriptor(
                 szSD,
                 SDDL_REVISION_1,
-                &amp;(pSA->lpSecurityDescriptor),
+                &(pSA->lpSecurityDescriptor),
                 NULL);
 }
 ```

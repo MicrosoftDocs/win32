@@ -32,11 +32,11 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     
     case WM_PAINT:
         {
-        hdc = BeginPaint(hWnd, &amp;ps);
+        hdc = BeginPaint(hWnd, &ps);
         
         // Fill the client area with a brush
-        GetClientRect(hWnd, &amp;clientRect);
-        bgRgn = CreateRectRgnIndirect(&amp;clientRect);
+        GetClientRect(hWnd, &clientRect);
+        bgRgn = CreateRectRgnIndirect(&clientRect);
         hBrush = CreateSolidBrush(RGB(200,200,200));
         FillRgn(hdc, bgRgn, hBrush);
 
@@ -48,8 +48,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         
         // Text caption
         SetBkColor(hdc, RGB(255,255,255));
-        SetRect(&amp;textRect, 10, 210, 200,200);
-        DrawText(hdc,TEXT("PS_DOT"),-1,&amp;textRect, DT_CENTER | DT_NOCLIP);
+        SetRect(&textRect, 10, 210, 200,200);
+        DrawText(hdc,TEXT("PS_DOT"),-1,&textRect, DT_CENTER | DT_NOCLIP);
 
         
         hPen = CreatePen(PS_DASHDOTDOT,1,RGB(0,255,255));
@@ -60,8 +60,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         
         // Text caption
         SetBkColor(hdc, RGB(255,200,200));
-        SetRect(&amp;textRect, 210, 210, 400,200);
-        DrawText(hdc,TEXT("PS_DASHDOTDOT"),-1,&amp;textRect, DT_CENTER | DT_NOCLIP);
+        SetRect(&textRect, 210, 210, 400,200);
+        DrawText(hdc,TEXT("PS_DASHDOTDOT"),-1,&textRect, DT_CENTER | DT_NOCLIP);
         
 
         hPen = CreatePen(PS_DASHDOT,1,RGB(255,0,0));
@@ -72,8 +72,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         
         // Text caption
         SetBkColor(hdc, RGB(200,255,200));
-        SetRect(&amp;textRect, 410, 210, 600,200);
-        DrawText(hdc,TEXT("PS_DASHDOT"),-1,&amp;textRect, DT_CENTER | DT_NOCLIP);
+        SetRect(&textRect, 410, 210, 600,200);
+        DrawText(hdc,TEXT("PS_DASHDOT"),-1,&textRect, DT_CENTER | DT_NOCLIP);
         
 
         // When fnPenStyle is PS_SOLID, nWidth may be more than 1.
@@ -89,8 +89,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         
         // Text caption
         SetBkColor(hdc, RGB(200,200,255));
-        SetRect(&amp;textRect, 10, 510, 200,500);
-        DrawText(hdc,TEXT("PS_SOLID"),-1,&amp;textRect, DT_CENTER | DT_NOCLIP);
+        SetRect(&textRect, 10, 510, 200,500);
+        DrawText(hdc,TEXT("PS_SOLID"),-1,&textRect, DT_CENTER | DT_NOCLIP);
     
         hPen = CreatePen(PS_DASH,1,RGB(0,255,0));
         SelectObject(hdc, hPen);
@@ -100,8 +100,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         
         // Text caption
         SetBkColor(hdc, RGB(255,255,200));
-        SetRect(&amp;textRect, 210, 510, 400,200);
-        DrawText(hdc,TEXT("PS_DASH"),-1,&amp;textRect, DT_CENTER | DT_NOCLIP);
+        SetRect(&textRect, 210, 510, 400,200);
+        DrawText(hdc,TEXT("PS_DASH"),-1,&textRect, DT_CENTER | DT_NOCLIP);
 
         hPen = CreatePen(PS_NULL,1,RGB(0,255,0));
         SelectObject(hdc, hPen);
@@ -113,8 +113,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         
         // Text caption
         SetBkColor(hdc, RGB(200,255,255));
-        SetRect(&amp;textRect, 410, 510, 600,500);
-        DrawText(hdc,TEXT("PS_NULL"),-1,&amp;textRect, DT_CENTER | DT_NOCLIP);
+        SetRect(&textRect, 410, 510, 600,500);
+        DrawText(hdc,TEXT("PS_NULL"),-1,&textRect, DT_CENTER | DT_NOCLIP);
         
         
         // Clean up
@@ -125,7 +125,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         GetStockObject(WHITE_BRUSH);
         GetStockObject(DC_PEN);
 
-        EndPaint(hWnd, &amp;ps);
+        EndPaint(hWnd, &ps);
         break;
         }
     

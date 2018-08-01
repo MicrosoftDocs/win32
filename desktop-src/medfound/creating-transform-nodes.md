@@ -43,7 +43,7 @@ HRESULT AddTransformNode(
     IMFTopologyNode *pNode = NULL;
     
     // Create the node.
-    HRESULT hr = MFCreateTopologyNode(MF_TOPOLOGY_TRANSFORM_NODE, &amp;pNode);
+    HRESULT hr = MFCreateTopologyNode(MF_TOPOLOGY_TRANSFORM_NODE, &pNode);
 
     // Set the object pointer.
     if (SUCCEEDED(hr))
@@ -64,7 +64,7 @@ HRESULT AddTransformNode(
         (*ppNode)->AddRef();
     }
 
-    SafeRelease(&amp;pNode);
+    SafeRelease(&pNode);
     return hr;
 }
 ```
@@ -86,7 +86,7 @@ The following example creates and initializes a transform node from a CLSID.
 ```C++
 HRESULT AddTransformNode(
     IMFTopology *pTopology,     // Topology.
-    const CLSID&amp; clsid,         // CLSID of the MFT.
+    const CLSID& clsid,         // CLSID of the MFT.
     IMFTopologyNode **ppNode    // Receives the node pointer.
     )
 {
@@ -95,7 +95,7 @@ HRESULT AddTransformNode(
     IMFTopologyNode *pNode = NULL;
     
     // Create the node.
-    HRESULT hr = MFCreateTopologyNode(MF_TOPOLOGY_TRANSFORM_NODE, &amp;pNode);
+    HRESULT hr = MFCreateTopologyNode(MF_TOPOLOGY_TRANSFORM_NODE, &pNode);
 
     // Set the CLSID attribute.
 
@@ -117,7 +117,7 @@ HRESULT AddTransformNode(
         (*ppNode)->AddRef();
     }
 
-    SafeRelease(&amp;pNode);
+    SafeRelease(&pNode);
     return hr;
 }
 ```
@@ -152,7 +152,7 @@ HRESULT AddTransformNode(
     IMFTopologyNode *pNode = NULL;
     
     // Create the node.
-    HRESULT hr = MFCreateTopologyNode(MF_TOPOLOGY_TRANSFORM_NODE, &amp;pNode);
+    HRESULT hr = MFCreateTopologyNode(MF_TOPOLOGY_TRANSFORM_NODE, &pNode);
 
     // Set the object pointer.
     if (SUCCEEDED(hr))
@@ -173,7 +173,7 @@ HRESULT AddTransformNode(
         (*ppNode)->AddRef();
     }
 
-    SafeRelease(&amp;pNode);
+    SafeRelease(&pNode);
     return hr;
 }
 ```

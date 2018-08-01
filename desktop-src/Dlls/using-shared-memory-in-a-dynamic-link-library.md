@@ -138,7 +138,7 @@ __declspec(dllexport) VOID __cdecl SetSharedMem(LPWSTR lpszBuf)
  
     // Copy the null-terminated string into shared memory
  
-    while (*lpszBuf &amp;&amp; dwCount<SHMEMSIZE) 
+    while (*lpszBuf && dwCount<SHMEMSIZE) 
     {
         *lpszTmp++ = *lpszBuf++; 
         dwCount++;
@@ -158,7 +158,7 @@ __declspec(dllexport) VOID __cdecl GetSharedMem(LPWSTR lpszBuf, DWORD cchSize)
  
     // Copy from shared memory into the caller's buffer
  
-    while (*lpszTmp &amp;&amp; --cchSize) 
+    while (*lpszTmp && --cchSize) 
         *lpszBuf++ = *lpszTmp++; 
     *lpszBuf = '\0'; 
 }
@@ -197,11 +197,11 @@ HANDLE CreateChildProcess(LPTSTR szCmdline)
  
 // Set up members of the PROCESS_INFORMATION structure. 
  
-   ZeroMemory( &amp;piProcInfo, sizeof(PROCESS_INFORMATION) );
+   ZeroMemory( &piProcInfo, sizeof(PROCESS_INFORMATION) );
  
 // Set up members of the STARTUPINFO structure. 
  
-   ZeroMemory( &amp;siStartInfo, sizeof(STARTUPINFO) );
+   ZeroMemory( &siStartInfo, sizeof(STARTUPINFO) );
    siStartInfo.cb = sizeof(STARTUPINFO); 
  
 // Create the child process. 
@@ -214,8 +214,8 @@ HANDLE CreateChildProcess(LPTSTR szCmdline)
       0,             // creation flags 
       NULL,          // use parent's environment 
       NULL,          // use parent's current directory 
-      &amp;siStartInfo,  // STARTUPINFO pointer 
-      &amp;piProcInfo);  // receives PROCESS_INFORMATION 
+      &siStartInfo,  // STARTUPINFO pointer 
+      &piProcInfo);  // receives PROCESS_INFORMATION 
    
    if (bFuncRetn == 0) 
    {

@@ -55,18 +55,18 @@ HRESULT SetUserMustChangePassword(LPCWSTR pwszUserADsPath,
                         pwszPassword,
                         ADS_SECURE_AUTHENTICATION,
                         IID_IADs,
-                        (void**)&amp;pUser);
+                        (void**)&pUser);
 
     if(SUCCEEDED(hr))
     {
         VARIANT var;
-        VariantInit(&amp;var);
-        V_I4(&amp;var) = 0;
-        V_VT(&amp;var) = VT_I4;
+        VariantInit(&var);
+        V_I4(&var) = 0;
+        V_VT(&var) = VT_I4;
         hr = pUser->Put(CComBSTR("pwdLastSet"), var);
         hr = pUser->SetInfo();
 
-        VariantClear(&amp;var);
+        VariantClear(&var);
         pUser->Release();
     }
 

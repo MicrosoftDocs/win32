@@ -70,7 +70,7 @@ IDCompositionTranslateTransform *pTranslateTransform = nullptr;
 IDCompositionTransform *pTransformGroup = nullptr;
 
 // Create the rotate transform.
-hr = pDevice->CreateRotateTransform(&amp;pRotateTransform);
+hr = pDevice->CreateRotateTransform(&pRotateTransform);
 
 if (SUCCEEDED(hr))
 {
@@ -91,7 +91,7 @@ if (SUCCEEDED(hr))
 
     // Create the scale transform.
     if (SUCCEEDED(hr)) {
-        hr = pDevice->CreateScaleTransform(&amp;pScaleTransform);
+        hr = pDevice->CreateScaleTransform(&pScaleTransform);
     }
 }
 
@@ -116,7 +116,7 @@ if (SUCCEEDED(hr))
 
     // Create the translate transform.
     if (SUCCEEDED(hr)) {
-        hr = pDevice->CreateTranslateTransform(&amp;pTranslateTransform);
+        hr = pDevice->CreateTranslateTransform(&pTranslateTransform);
     }
 }
 
@@ -144,7 +144,7 @@ Call the [**IDCompositionDevice::CreateTransformGroup**](https://msdn.microsoft.
 if (SUCCEEDED(hr))
 {
     // Create the transform group.
-    hr = pDevice->CreateTransformGroup(pTransforms, 3, &amp;pTransformGroup);
+    hr = pDevice->CreateTransformGroup(pTransforms, 3, &pTransformGroup);
 }
 ```
 
@@ -189,7 +189,7 @@ Be sure to free the group of 2D transform objects when you no longer need them. 
 // Release the transform objects.
 for (int i = 0; i < 3; i++)
 {
-    SafeRelease(&amp;pTransforms[i]);
+    SafeRelease(&pTransforms[i]);
 }
 ```
 
@@ -220,7 +220,7 @@ HRESULT DemoApp::ApplyTransformGroup(IDCompositionDevice *pDevice,
     IDCompositionTransform *pTransformGroup = nullptr;
 
     // Create the rotate transform.
-    hr = pDevice->CreateRotateTransform(&amp;pRotateTransform);
+    hr = pDevice->CreateRotateTransform(&pRotateTransform);
 
     if (SUCCEEDED(hr))
     {
@@ -241,7 +241,7 @@ HRESULT DemoApp::ApplyTransformGroup(IDCompositionDevice *pDevice,
 
         // Create the scale transform.
         if (SUCCEEDED(hr)) {
-            hr = pDevice->CreateScaleTransform(&amp;pScaleTransform);
+            hr = pDevice->CreateScaleTransform(&pScaleTransform);
         }
     }
 
@@ -266,7 +266,7 @@ HRESULT DemoApp::ApplyTransformGroup(IDCompositionDevice *pDevice,
 
         // Create the translate transform.
         if (SUCCEEDED(hr)) {
-            hr = pDevice->CreateTranslateTransform(&amp;pTranslateTransform);
+            hr = pDevice->CreateTranslateTransform(&pTranslateTransform);
         }
     }
 
@@ -285,7 +285,7 @@ HRESULT DemoApp::ApplyTransformGroup(IDCompositionDevice *pDevice,
     if (SUCCEEDED(hr))
     {
         // Create the transform group.
-        hr = pDevice->CreateTransformGroup(pTransforms, 3, &amp;pTransformGroup);
+        hr = pDevice->CreateTransformGroup(pTransforms, 3, &pTransformGroup);
     }
 
     if (SUCCEEDED(hr))
@@ -303,11 +303,11 @@ HRESULT DemoApp::ApplyTransformGroup(IDCompositionDevice *pDevice,
     // Release the transform objects.
     for (int i = 0; i < 3; i++)
     {
-        SafeRelease(&amp;pTransforms[i]);
+        SafeRelease(&pTransforms[i]);
     }
 
     // Release the transform group pointer.
-    SafeRelease(&amp;pTransformGroup);
+    SafeRelease(&pTransformGroup);
 
     return hr;
 }

@@ -38,7 +38,7 @@ STDMETHODIMP CSyncSettings::ShowMedia(long lIndex)
     long lCount = 0; // Count of items in the playlist.
 
     LVITEM lvI;
-    ZeroMemory(&amp;lvI, sizeof(LVITEM));
+    ZeroMemory(&lvI, sizeof(LVITEM));
     lvI.mask = LVIF_TEXT;
 
     CComPtr<IWMPMedia> spPlaylist; // Playlist the user selected.
@@ -53,31 +53,31 @@ STDMETHODIMP CSyncSettings::ShowMedia(long lIndex)
     ListView_DeleteAllItems(m_hMediaView);
 
     // Retrieve the playlist the user selected.
-    hr = m_spPlaylist->get_item(lIndex, &amp;spPlaylist);
+    hr = m_spPlaylist->get_item(lIndex, &spPlaylist);
   
-    if(SUCCEEDED(hr) &amp;&amp; spPlaylist)
+    if(SUCCEEDED(hr) && spPlaylist)
     {
          // Retrieve the source URL (the path).
-         hr = spPlaylist->get_sourceURL(&amp;bstrSourceURL);
+         hr = spPlaylist->get_sourceURL(&bstrSourceURL);
     }
 
-    if(SUCCEEDED(hr) &amp;&amp; bstrSourceURL.Length())
+    if(SUCCEEDED(hr) && bstrSourceURL.Length())
     {
         CComPtr<IWMPCore3> spCore3;
-        m_spPlayer.QueryInterface(&amp;spCore3);
+        m_spPlayer.QueryInterface(&spCore3);
 
         // Create a temporary IWMPPlaylist object from the IWMPMedia 
         // playlist object.
-        hr = spCore3->newPlaylist(CComBSTR("Temp"), bstrSourceURL, &amp;spNewPlaylist);
+        hr = spCore3->newPlaylist(CComBSTR("Temp"), bstrSourceURL, &spNewPlaylist);
     }
 
-    if(SUCCEEDED(hr) &amp;&amp; spNewPlaylist)
+    if(SUCCEEDED(hr) && spNewPlaylist)
     {        
-        hr = spNewPlaylist->get_count(&amp;lCount);
+        hr = spNewPlaylist->get_count(&lCount);
     }
 
     // Walk the playlist.
-    if(SUCCEEDED(hr) &amp;&amp; lCount > 0)
+    if(SUCCEEDED(hr) && lCount > 0)
     {
         for(long i = 0; i < lCount; i++)
         {
@@ -86,25 +86,25 @@ STDMETHODIMP CSyncSettings::ShowMedia(long lIndex)
             CComBSTR bstrOnDevice = "???";
             CComBSTR bstrFit = "???";  
 
-            hr = spNewPlaylist->get_item(i, &amp;spMedia);
+            hr = spNewPlaylist->get_item(i, &spMedia);
    
-            if(SUCCEEDED(hr) &amp;&amp; spMedia)
+            if(SUCCEEDED(hr) && spMedia)
             {
                 // Get the name.
-                hr = spMedia->get_name(&amp;bstrMediaName);                
+                hr = spMedia->get_name(&bstrMediaName);                
             }
 
-            if(SUCCEEDED(hr) &amp;&amp; bstrMediaName.Length())
+            if(SUCCEEDED(hr) && bstrMediaName.Length())
             {   
                 // Show the media name.
                 lvI.iItem = ListView_GetItemCount(m_hMediaView);
                 lvI.iSubItem = 0;
                 lvI.pszText = COLE2T(bstrMediaName);
-                ListView_InsertItem(m_hMediaView, &amp;lvI);
+                ListView_InsertItem(m_hMediaView, &lvI);
                 
                 // Retrieve the synchronization state information for 
                 // the digital media file.
-                hr = GetPartnershipSyncState(spMedia, m_lCurrentPSIndex, &amp;ulOnDevice, &amp;ulDidNotFit);
+                hr = GetPartnershipSyncState(spMedia, m_lCurrentPSIndex, &ulOnDevice, &ulDidNotFit);
             }
 
             if(SUCCEEDED(hr))
@@ -129,13 +129,13 @@ STDMETHODIMP CSyncSettings::ShowMedia(long lIndex)
         }
     } 
 
-    if(SUCCEEDED(hr) &amp;&amp; lCount == 0)
+    if(SUCCEEDED(hr) && lCount == 0)
     {
         // Empty playlist.
         lvI.iItem = ListView_GetItemCount(m_hMediaView);
         lvI.iSubItem = 0;
         lvI.pszText = COLE2T(CComBSTR("No items to display."));
-        ListView_InsertItem(m_hMediaView, &amp;lvI);
+        ListView_InsertItem(m_hMediaView, &lvI);
     }
     
     SetCursor(hCursorOld);

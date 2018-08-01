@@ -41,7 +41,7 @@ pControl->Stop(); // Stop the graph.
 
 // Query the capture filter for the IAMVfwCaptureDialogs interface.
 IAMVfwCaptureDialogs *pVfw = 0;
-hr = pCap->QueryInterface(IID_IAMVfwCaptureDialogs, (void**)&amp;pVfw);
+hr = pCap->QueryInterface(IID_IAMVfwCaptureDialogs, (void**)&pVfw);
 if (SUCCEEDED(hr))
 {
     // Check if the device supports this dialog box.

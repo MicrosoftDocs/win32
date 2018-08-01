@@ -20,13 +20,13 @@ The following example draws an image and then fills three ellipses that overlap 
 
 ```
 Image image(L"Texture1.jpg");
-graphics.DrawImage(&amp;image, 50, 50, image.GetWidth(), image.GetHeight());
+graphics.DrawImage(&image, 50, 50, image.GetWidth(), image.GetHeight());
 SolidBrush opaqueBrush(Color(255, 0, 0, 255));
 SolidBrush semiTransBrush(Color(128, 0, 0, 255));
-graphics.FillEllipse(&amp;opaqueBrush, 35, 45, 45, 30);
-graphics.FillEllipse(&amp;semiTransBrush, 86, 45, 45, 30);
+graphics.FillEllipse(&opaqueBrush, 35, 45, 45, 30);
+graphics.FillEllipse(&semiTransBrush, 86, 45, 45, 30);
 graphics.SetCompositingQuality(CompositingQualityGammaCorrected);
-graphics.FillEllipse(&amp;semiTransBrush, 40, 90, 86, 30);
+graphics.FillEllipse(&semiTransBrush, 40, 90, 86, 30);
 ```
 
 

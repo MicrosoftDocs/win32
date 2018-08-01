@@ -19,7 +19,7 @@ DWORD rc;
 PBLOB_TABLE pBlobTable;
 // Create the filter blob
 HBLOB hFilterBlob;
-if (NMERR_SUCCESS != (rc = CreateBlob(&amp;hFilterBlob)))
+if (NMERR_SUCCESS != (rc = CreateBlob(&hFilterBlob)))
     return FALSE;
 
 // Set test criteria
@@ -49,7 +49,7 @@ if (NMERR_SUCCESS != (rc = SetBoolInBlob(hBlob,
     return FALSE;
 
 // Make the call to the finder
-rc = GetNPPBlobTable( hFilterBlob, &amp;pBlobTable );
+rc = GetNPPBlobTable( hFilterBlob, &pBlobTable );
 
 // Did we get anything?
 if (rc != NMERR_SUCCESS)
@@ -59,7 +59,7 @@ if (rc != NMERR_SUCCESS)
 //  To obtain a "special" blob.
 //  Should have set
 //  the filter blob to include the TAG_INTERFACE_REMOTE
-//  interface &amp;#8211; then only a TAG_INTERFACE_REMOTE interface
+//  interface &#8211; then only a TAG_INTERFACE_REMOTE interface
 //  would return.
 
 HBLOB OurBlob = NULL;
@@ -72,7 +72,7 @@ for (index = 0; index < pBlobTable->dwNumBlobs; index++)
                                OWNER_NPP,
                                CATEGORY_FINDER,
                                TAG_DLL_FILENAME,
-                               &amp;DLLFileName)))
+                               &DLLFileName)))
     {
         // This is a special blob.
         // Check to see if it is supports the remote interface.
@@ -81,8 +81,8 @@ for (index = 0; index < pBlobTable->dwNumBlobs; index++)
                               OWNER_NPP,
                               CATEGORY_CONFIG,
                               TAG_INTERFACE_DELAYED_CAPTURE,
-                              &amp;bGoesRemote);
-        if (rc == NMERR_SUCCESS &amp;&amp; bGoesRemote)
+                              &bGoesRemote);
+        if (rc == NMERR_SUCCESS && bGoesRemote)
         {
             // This is the one we want. Save it off
             OurBlob = pBlobTable->Blobs[index];
@@ -103,7 +103,7 @@ rc = SetStringInBlob(OurBlob,
 
 PBLOB_TABLE pSecondBlobTable;
 // Call the finder again.
-rc = GetNPPBlobTable( OurBlob, &amp;pSecondBlobTable );
+rc = GetNPPBlobTable( OurBlob, &pSecondBlobTable );
 
 // Did we get anything?
 if (rc != NMERR_SUCCESS)

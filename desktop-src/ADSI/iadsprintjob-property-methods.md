@@ -419,55 +419,55 @@ IADsCollection *pColl = NULL;
 IUnknown *pUnk = NULL;
 LPWSTR adsPath =L"WinNT://aMachine/aPrinter";
 
-VariantInit(&amp;var);
+VariantInit(&var);
 
 hr = ADsGetObject(adsPath, 
                   IID_IADsPrintQueueOperations, 
-                  (void**)&amp;pqo);
+                  (void**)&pqo);
 if(FAILED(hr)){goto Cleanup;}
 
 
-hr = pqo->PrintJobs(&amp;pColl);
+hr = pqo->PrintJobs(&pColl);
 
 // Enumerate print jobs. Code omitted.
 
-hr = pColl->get__NewEnum(&amp;pUnk);
+hr = pColl->get__NewEnum(&pUnk);
 if(FAILED(hr)){goto Cleanup;}
 
 
 IEnumVARIANT *pEnum;
-hr = pUnk->QueryInterface(IID_IEnumVARIANT,(void**)&amp;pEnum);
+hr = pUnk->QueryInterface(IID_IEnumVARIANT,(void**)&pEnum);
 if(FAILED(hr)){goto Cleanup;}
 
 
 // Now Enumerate.
-hr = pEnum->Next(1, &amp;var, &amp;lFetch);
+hr = pEnum->Next(1, &var, &lFetch);
 if(FAILED(hr)){goto Cleanup;}
 
 while(hr == S_OK)
 {
     if (lFetch == 1)    
     {
-        pDisp = V_DISPATCH(&amp;var);
-        pDisp->QueryInterface(IID_IADsPrintJob, (void**)&amp;pJob);
+        pDisp = V_DISPATCH(&var);
+        pDisp->QueryInterface(IID_IADsPrintJob, (void**)&pJob);
 
-        pJob->get_HostPrintQueue(&amp;bstr);
+        pJob->get_HostPrintQueue(&bstr);
         printf("HostPrintQueue: %S\n",bstr);
         SysFreeString(bstr);
 
-        pJob->get_Description(&amp;bstr);
+        pJob->get_Description(&bstr);
         printf("Print job name: %S\n",bstr);
         SysFreeString(bstr);
 
-        pJob->get_User(&amp;bstr);
+        pJob->get_User(&bstr);
         printf("Requester: %S\n",bstr);
         SysFreeString(bstr);
 
         pJob->Release();
     }
     pDisp->Release();
-    VariantClear(&amp;var);
-    hr = pEnum->Next(1, &amp;var, &amp;lFetch);
+    VariantClear(&var);
+    hr = pEnum->Next(1, &var, &lFetch);
 };
 
 Cleanup:

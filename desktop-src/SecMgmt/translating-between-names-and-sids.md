@@ -31,7 +31,7 @@ void GetSIDInformation (LPWSTR AccountName,LSA_HANDLE PolicyHandle)
   PWCHAR DomainString = NULL;
 
   // Initialize an LSA_UNICODE_STRING with the name.
-  if (!InitLsaString(&amp;lucName, AccountName))
+  if (!InitLsaString(&lucName, AccountName))
   {
          wprintf(L"Failed InitLsaString\n");
          return;
@@ -40,9 +40,9 @@ void GetSIDInformation (LPWSTR AccountName,LSA_HANDLE PolicyHandle)
   ntsResult = LsaLookupNames(
      PolicyHandle,     // handle to a Policy object
      1,                // number of names to look up
-     &amp;lucName,         // pointer to an array of names
-     &amp;lrdlDomainList,  // receives domain information
-     &amp;ltsTranslatedSID // receives relative SIDs
+     &lucName,         // pointer to an array of names
+     &lrdlDomainList,  // receives domain information
+     &ltsTranslatedSID // receives relative SIDs
   );
   if (STATUS_SUCCESS != ntsResult) 
   {

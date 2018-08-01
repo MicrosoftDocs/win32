@@ -44,7 +44,7 @@ void DisplayVolumePaths(
         //  Obtain all of the paths
         //  for this volume.
         Success = GetVolumePathNamesForVolumeNameW(
-            VolumeName, Names, CharCount, &amp;CharCount
+            VolumeName, Names, CharCount, &CharCount
             );
 
         if ( Success ) 
@@ -130,7 +130,7 @@ void __cdecl wmain(void)
         //  so temporarily remove it.
         VolumeName[Index] = L'\0';
 
-        CharCount = QueryDosDeviceW(&amp;VolumeName[4], DeviceName, ARRAYSIZE(DeviceName)); 
+        CharCount = QueryDosDeviceW(&VolumeName[4], DeviceName, ARRAYSIZE(DeviceName)); 
 
         VolumeName[Index] = L'\\';
 

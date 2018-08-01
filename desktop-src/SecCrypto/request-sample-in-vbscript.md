@@ -52,8 +52,8 @@ Dim nDisp
 On Error Resume Next
 
 ' Declare constants used by CertRequest object.
-const CR_IN_BASE64 = &amp;H1
-const CR_IN_PKCS10 = &amp;H100
+const CR_IN_BASE64 = &H1
+const CR_IN_PKCS10 = &H100
 
 ' Build the DN.
 strDN =  "CN=UserName" _

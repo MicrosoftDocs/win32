@@ -98,12 +98,12 @@ wWinMain(
                     MAKEINTRESOURCE(IDC_PRINTSAMPLE));
 
     // Main message handling loop
-    while (GetMessage(&amp;msg, NULL, 0, 0))
+    while (GetMessage(&msg, NULL, 0, 0))
     {
-        if (!TranslateAccelerator(msg.hwnd, hAccelTable, &amp;msg))
+        if (!TranslateAccelerator(msg.hwnd, hAccelTable, &msg))
         {
-            TranslateMessage(&amp;msg);
-            DispatchMessage(&amp;msg);
+            TranslateMessage(&msg);
+            DispatchMessage(&msg);
         }
     }
 

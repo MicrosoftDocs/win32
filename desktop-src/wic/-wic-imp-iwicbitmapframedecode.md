@@ -67,7 +67,7 @@ HRESULT hr;
 
 hr = m_pComponentFactory->CreateQueryReaderFromBlockReader( 
   static_cast<IWICMetadataBlockWriter*>(this),
-  &amp;pQueryReader);
+  &pQueryReader);
 ```
 
 

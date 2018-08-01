@@ -220,11 +220,11 @@ HRESULT ParseCommandLine(int argc, __in_ecount(argc) wchar_t **argv, MESSAGE_ENC
                 return E_FAIL;
             }
 
-            *chunkSize = wcstoul(&amp;arg[7], NULL, 10);    
+            *chunkSize = wcstoul(&arg[7], NULL, 10);    
         }
         else if (!_wcsnicmp(arg, L"-connections:", 13) || !_wcsnicmp(arg, L"/connections:", 13))
         {
-            *maxConnections = wcstol(&amp;arg[13], NULL, 10);    
+            *maxConnections = wcstol(&arg[13], NULL, 10);    
         }
         else
         {
@@ -270,13 +270,13 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
 
     if (argc > 3)
     {        
-        if (FAILED(ParseCommandLine(argc - 3, &amp;argv[3], &amp;messageEncoding, &amp;chunkSize, &amp;maxConnections, &amp;reportingLevel, server)))
+        if (FAILED(ParseCommandLine(argc - 3, &argv[3], &messageEncoding, &chunkSize, &maxConnections, &reportingLevel, server)))
         {
             return -1;
         }
     }  
     
-    if (FAILED(ParseTransport( url, &amp;transport, &amp;securityMode)))
+    if (FAILED(ParseTransport( url, &transport, &securityMode)))
     {
         wprintf(L"Illegal protocol.\n");
         return -1;
@@ -317,7 +317,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     }
 
     ULONG urlSize;
-    if (FAILED(SizeTToULong(::wcslen(url),&amp;urlSize)))
+    if (FAILED(SizeTToULong(::wcslen(url),&urlSize)))
     {
         wprintf(L"url string too long. Exiting.\n");
         return -1;
@@ -430,7 +430,7 @@ public:
 
         static WS_HEAP_PROPERTY heapPropertyArray[] = 
         {
-            { WS_HEAP_PROPERTY_MAX_SIZE, &amp;heapSize, sizeof(heapSize) }
+            { WS_HEAP_PROPERTY_MAX_SIZE, &heapSize, sizeof(heapSize) }
         };
 
         static WS_HEAP_PROPERTIES heapProperties = 
@@ -440,7 +440,7 @@ public:
 
         WS_MESSAGE_PROPERTY ret;
         ret.id = WS_MESSAGE_PROPERTY_HEAP_PROPERTIES;
-        ret.value = &amp;heapProperties;
+        ret.value = &heapProperties;
         ret.valueSize = sizeof(heapProperties);
         return ret;
     }
@@ -752,17 +752,17 @@ CChannelManager::~CChannelManager()
 
 void CChannelManager::ChannelCreated() 
 {
-    InterlockedIncrement(&amp;idleChannels);
-    InterlockedIncrement(&amp;totalChannels);
+    InterlockedIncrement(&idleChannels);
+    InterlockedIncrement(&totalChannels);
 }
 
 // Channel is processing a request.
 void CChannelManager::ChannelInUse() 
 {
-    InterlockedIncrement(&amp;activeChannels); 
+    InterlockedIncrement(&activeChannels); 
 
     assert(idleChannels > 0);
-    InterlockedDecrement(&amp;idleChannels);    
+    InterlockedDecrement(&idleChannels);    
 
     // See if we fell below the threshold for available channels.
     // Ignore return value as the failure to create a new channel should not impact the existing channel.
@@ -773,10 +773,10 @@ void CChannelManager::ChannelInUse()
 void CChannelManager::ChannelFreed() 
 {
     assert(idleChannels > 0);
-    InterlockedDecrement(&amp;idleChannels);    
+    InterlockedDecrement(&idleChannels);    
 
     assert(totalChannels > 0);
-    long totalChannelsChannelFreed = InterlockedDecrement(&amp;totalChannels);
+    long totalChannelsChannelFreed = InterlockedDecrement(&totalChannels);
     
     if (0 == totalChannelsChannelFreed)
     {
@@ -791,9 +791,9 @@ void CChannelManager::ChannelFreed()
 void CChannelManager::ChannelIdle() 
 {
     assert(activeChannels > 0);
-    InterlockedDecrement(&amp;activeChannels);     
+    InterlockedDecrement(&activeChannels);     
 
-    InterlockedIncrement(&amp;idleChannels);    
+    InterlockedIncrement(&idleChannels);    
 }
 
 // Creates new channels if we are below the threshold for minimum available channels and if we are not at the channel cap.
@@ -897,8 +897,8 @@ void CChannelManager::CreateChannel(CRequest* request)
 
     // Start the message processing loop asynchronously. 
     // Use long callbacks since we are going to do significant work in there.
-    IfFailedExit(WsAsyncExecute(&amp;request->asyncState, CRequest::AcceptChannelCallback, WS_LONG_CALLBACK,
-        request, &amp;asyncContext, error));   
+    IfFailedExit(WsAsyncExecute(&request->asyncState, CRequest::AcceptChannelCallback, WS_LONG_CALLBACK,
+        request, &asyncContext, error));   
     
     // In the sync case, the cleanup callback is never called so we have to do it here.
     // We only get here after we are done with the channel for good so it is safe to do this.
@@ -1024,7 +1024,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -1032,7 +1032,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -1083,8 +1083,8 @@ HRESULT CFileRep::Start(__in_ecount(uriLength) const LPWSTR uri, DWORD uriLength
     DWORD newLength = 0;
     DWORD bytes = 0;
 
-    IfFailedExit(DWordAdd(uriLength, 1, &amp;newLength));
-    IfFailedExit(DWordMult(newLength, sizeof (WCHAR), &amp;bytes));        
+    IfFailedExit(DWordAdd(uriLength, 1, &newLength));
+    IfFailedExit(DWordMult(newLength, sizeof (WCHAR), &bytes));        
 
     // Make local copy of the URI.
     this->uri.chars = (LPWSTR)HeapAlloc(GetProcessHeap(), 0, bytes);
@@ -1261,36 +1261,36 @@ HRESULT CFileRep::InitializeListener()
     WS_LISTENER_PROPERTY listenerProperties[1];
     WS_CALLBACK_MODEL callbackModel = WS_LONG_CALLBACK;
     listenerProperties[0].id = WS_LISTENER_PROPERTY_ASYNC_CALLBACK_MODEL;
-    listenerProperties[0].value = &amp;callbackModel;
+    listenerProperties[0].value = &callbackModel;
     listenerProperties[0].valueSize = sizeof(callbackModel);
 
 
     assert(NULL == channelManager);
 
-    IfFailedExit(WsCreateError(NULL, 0, &amp;error));  
+    IfFailedExit(WsCreateError(NULL, 0, &error));  
    
     if (SSL_SECURITY == securityMode)
     {
         // Initialize a security description for SSL.
         transportSecurityBinding.binding.bindingType = WS_SSL_TRANSPORT_SECURITY_BINDING_TYPE;
-        securityBindings[0] = &amp;transportSecurityBinding.binding;
+        securityBindings[0] = &transportSecurityBinding.binding;
         securityDescription.securityBindings = securityBindings;
         securityDescription.securityBindingCount = WsCountOf(securityBindings);
-        pSecurityDescription = &amp;securityDescription;
+        pSecurityDescription = &securityDescription;
     }
 
     if (TCP_TRANSPORT == transportMode) // Create a TCP listener
     {   
         IfFailedExit(WsCreateListener(WS_CHANNEL_TYPE_DUPLEX_SESSION, WS_TCP_CHANNEL_BINDING, 
-            listenerProperties, WsCountOf(listenerProperties), pSecurityDescription, &amp;listener, error));
+            listenerProperties, WsCountOf(listenerProperties), pSecurityDescription, &listener, error));
     }
     else // Create an HTTP listener
     {        
         IfFailedExit(WsCreateListener(WS_CHANNEL_TYPE_REPLY, WS_HTTP_CHANNEL_BINDING, 
-            listenerProperties, WsCountOf(listenerProperties), pSecurityDescription, &amp;listener, error));
+            listenerProperties, WsCountOf(listenerProperties), pSecurityDescription, &listener, error));
     }        
     
-    IfFailedExit(WsOpenListener(listener, &amp;uri, NULL, error));    
+    IfFailedExit(WsOpenListener(listener, &uri, NULL, error));    
 
     // We put fixed values here to not overly complicate the command line. 
     long maxIdleChannels = 20;
@@ -1357,7 +1357,7 @@ void CleanupChannel(WS_CHANNEL* channel)
     {
         return;
     }        
-    (void)WsGetChannelProperty(channel, WS_CHANNEL_PROPERTY_STATE, &amp;state, sizeof(state), NULL);
+    (void)WsGetChannelProperty(channel, WS_CHANNEL_PROPERTY_STATE, &state, sizeof(state), NULL);
         
     if (WS_CHANNEL_STATE_OPEN == state || WS_CHANNEL_STATE_FAULTED == state)
     {
@@ -1397,14 +1397,14 @@ HRESULT CRequest::Initialize()
     WS_CHANNEL_PROPERTY encodingProperty;
     encodingProperty.id = WS_CHANNEL_PROPERTY_ENCODING;
     
-    server->GetEncoding(&amp;encoding, &amp;propertyCount);
-    encodingProperty.value = &amp;encoding;
+    server->GetEncoding(&encoding, &propertyCount);
+    encodingProperty.value = &encoding;
     encodingProperty.valueSize = sizeof(encoding);
     
-    IfFailedExit(WsCreateError(NULL, 0, &amp;error));
-    IfFailedExit(WsCreateChannelForListener(server->GetListener(), &amp;encodingProperty, propertyCount, &amp;channel, NULL));        
-    IfFailedExit(WsCreateMessageForChannel(channel, NULL, 0, &amp;requestMessage, NULL));    
-    IfFailedExit(WsCreateMessageForChannel(channel, NULL, 0, &amp;replyMessage, NULL));
+    IfFailedExit(WsCreateError(NULL, 0, &error));
+    IfFailedExit(WsCreateChannelForListener(server->GetListener(), &encodingProperty, propertyCount, &channel, NULL));        
+    IfFailedExit(WsCreateMessageForChannel(channel, NULL, 0, &requestMessage, NULL));    
+    IfFailedExit(WsCreateMessageForChannel(channel, NULL, 0, &replyMessage, NULL));
             
     EXIT   
 
@@ -1632,7 +1632,7 @@ HRESULT CRequest::ReadHeader(HRESULT hr, WS_ASYNC_OPERATION* next,
         WS_XML_STRING_TYPE,
         WS_READ_REQUIRED_POINTER,  
         NULL, 
-        &amp;receivedAction, 
+        &receivedAction, 
         sizeof(receivedAction), 
         error));
 
@@ -1791,10 +1791,10 @@ HRESULT CRequest::SendFault(FAULT_TYPE faultType)
     // We cannot use the existing error here as we are filling it with custom state.
     // This error could be cached and reused, but given that errors should be rare
     // we simply destroy and recreate it.
-    IfFailedExit(WsCreateError(NULL, 0, &amp;returnError));
+    IfFailedExit(WsCreateError(NULL, 0, &returnError));
     
     // Get the appropriate error string.
-    BOOL ret = GetModuleHandleEx(0, NULL, &amp;module);
+    BOOL ret = GetModuleHandleEx(0, NULL, &module);
     if (!ret)
     {
         hr = HRESULT_FROM_WIN32(GetLastError());
@@ -1814,13 +1814,13 @@ HRESULT CRequest::SendFault(FAULT_TYPE faultType)
     WS_STRING string;
     string.chars = errorString;
     string.length = lengthInCharacters;
-    IfFailedExit(WsAddErrorString(returnError, &amp;string));
+    IfFailedExit(WsAddErrorString(returnError, &string));
         
     FreeLibrary(module);
     module = NULL;
 
     WS_ELEMENT_DESCRIPTION elementDescription;
-    ZeroMemory(&amp;elementDescription, sizeof(elementDescription));
+    ZeroMemory(&elementDescription, sizeof(elementDescription));
     elementDescription.type = WS_FAULT_TYPE;
     
     IfFailedExit(WsResetMessage(replyMessage, error));
@@ -1830,15 +1830,15 @@ HRESULT CRequest::SendFault(FAULT_TYPE faultType)
         WS_ACTION_HEADER, 
         WS_XML_STRING_TYPE, 
         WS_WRITE_REQUIRED_VALUE, 
-        &amp;faultAction, 
+        &faultAction, 
         sizeof(faultAction), 
         error));
-    IfFailedExit(WsGetMessageProperty(replyMessage, WS_MESSAGE_PROPERTY_HEAP, &amp;heap, sizeof(heap), error));
+    IfFailedExit(WsGetMessageProperty(replyMessage, WS_MESSAGE_PROPERTY_HEAP, &heap, sizeof(heap), error));
 
     // We put it on the message heap so its cleaned up later when the heap is reset or freed.
-    IfFailedExit(WsCreateFaultFromError(returnError, E_FAIL, WS_FULL_FAULT_DISCLOSURE, heap, &amp;fault));
+    IfFailedExit(WsCreateFaultFromError(returnError, E_FAIL, WS_FULL_FAULT_DISCLOSURE, heap, &fault));
     IfFailedExit(WsWriteMessageStart(channel, replyMessage, NULL, error)); 
-    IfFailedExit(WsWriteBody(replyMessage, &amp;elementDescription, WS_WRITE_REQUIRED_VALUE, &amp;fault, sizeof(fault), error));
+    IfFailedExit(WsWriteBody(replyMessage, &elementDescription, WS_WRITE_REQUIRED_VALUE, &fault, sizeof(fault), error));
     
     WsWriteMessageEnd(channel, replyMessage, NULL, error);
 
@@ -1931,7 +1931,7 @@ HRESULT CFileRepClient::ProcessMessage(CRequest * request, const WS_XML_STRING* 
     WS_ERROR * error = request->GetError();    
 
      // Make sure action is what we expect
-    if (WsXmlStringEquals(receivedAction, &amp;faultAction, error) == S_OK)
+    if (WsXmlStringEquals(receivedAction, &faultAction, error) == S_OK)
     {        
         PrintInfo(L"Received fault message. Aborting.");
         
@@ -1940,7 +1940,7 @@ HRESULT CFileRepClient::ProcessMessage(CRequest * request, const WS_XML_STRING* 
     }
 
     // Make sure action is what we expect
-    if (WsXmlStringEquals(receivedAction, &amp;userRequestAction, error) != S_OK)
+    if (WsXmlStringEquals(receivedAction, &userRequestAction, error) != S_OK)
     {        
         PrintInfo(L"Received unexpected message");
         
@@ -1950,11 +1950,11 @@ HRESULT CFileRepClient::ProcessMessage(CRequest * request, const WS_XML_STRING* 
 
     // Get the heap of the message
     WS_HEAP* heap;
-    IfFailedExit(WsGetMessageProperty(requestMessage, WS_MESSAGE_PROPERTY_HEAP, &amp;heap, sizeof(heap), error));
+    IfFailedExit(WsGetMessageProperty(requestMessage, WS_MESSAGE_PROPERTY_HEAP, &heap, sizeof(heap), error));
 
     // Read user request
     UserRequest* userRequest = NULL;
-    IfFailedExit(WsReadBody(requestMessage, &amp;userRequestElement, WS_READ_REQUIRED_POINTER, heap, &amp;userRequest, sizeof(userRequest), error));
+    IfFailedExit(WsReadBody(requestMessage, &userRequestElement, WS_READ_REQUIRED_POINTER, heap, &userRequest, sizeof(userRequest), error));
 
     // Read end of message
     IfFailedExit(WsReadMessageEnd(channel, requestMessage, NULL, error));
@@ -2025,16 +2025,16 @@ HRESULT CFileRepClient::ProcessUserRequest(CRequest* request, __in const LPWSTR 
 
     heapProperty = CFileRepClient::CreateHeapProperty();
 
-    IfFailedExit(CreateServerChannel(encoding, transportMode, securityMode, error, &amp;serverChannel));        
-    IfFailedExit(WsCreateMessageForChannel(serverChannel, NULL, 0, &amp;serverRequestMessage, error));    
-    IfFailedExit(WsCreateMessageForChannel(serverChannel, &amp;heapProperty, 1, &amp;serverReplyMessage, error));
+    IfFailedExit(CreateServerChannel(encoding, transportMode, securityMode, error, &serverChannel));        
+    IfFailedExit(WsCreateMessageForChannel(serverChannel, NULL, 0, &serverRequestMessage, error));    
+    IfFailedExit(WsCreateMessageForChannel(serverChannel, &heapProperty, 1, &serverReplyMessage, error));
     
     // Initialize address of service
     address.url.chars = serverUri;
-    IfFailedExit(SizeTToULong(::wcslen(address.url.chars),&amp;address.url.length));  
+    IfFailedExit(SizeTToULong(::wcslen(address.url.chars),&address.url.length));  
     
     // Open channel to address
-    IfFailedExit(WsOpenChannel(serverChannel, &amp;address, NULL, error));
+    IfFailedExit(WsOpenChannel(serverChannel, &address, NULL, error));
     
      // Initialize file request
     FileRequest fileRequest;
@@ -2053,30 +2053,30 @@ HRESULT CFileRepClient::ProcessUserRequest(CRequest* request, __in const LPWSTR 
     statusMessage[strLen-1] = L'\0'; // Terminate string in case StringCchPrintfW fails.
     PrintInfo(statusMessage);    
     
-    IfFailedExit(WsCreateHeap(65536, 0, NULL, 0, &amp;heap, NULL));
+    IfFailedExit(WsCreateHeap(65536, 0, NULL, 0, &heap, NULL));
 
     WS_MESSAGE_DESCRIPTION fileRequestMessageDescription;
-    fileRequestMessageDescription.action = &amp;fileRequestAction;
-    fileRequestMessageDescription.bodyElementDescription = &amp;fileRequestElement;
+    fileRequestMessageDescription.action = &fileRequestAction;
+    fileRequestMessageDescription.bodyElementDescription = &fileRequestElement;
 
     WS_MESSAGE_DESCRIPTION fileInfoMessageDescription;
-    fileInfoMessageDescription.action = &amp;fileInfoAction;
-    fileInfoMessageDescription.bodyElementDescription = &amp;fileInfoElement;
+    fileInfoMessageDescription.action = &fileInfoAction;
+    fileInfoMessageDescription.bodyElementDescription = &fileInfoElement;
     
     // Send discovery request and get file info
     FileInfo* fileInfo;
     IfFailedExit(WsRequestReply(
         serverChannel, 
         serverRequestMessage, 
-        &amp;fileRequestMessageDescription, 
+        &fileRequestMessageDescription, 
         WS_WRITE_REQUIRED_VALUE,
-        &amp;fileRequest, 
+        &fileRequest, 
         sizeof(fileRequest),
         serverReplyMessage, 
-        &amp;fileInfoMessageDescription, 
+        &fileInfoMessageDescription, 
         WS_READ_REQUIRED_POINTER, 
         heap, 
-        &amp;fileInfo, 
+        &fileInfo, 
         sizeof(fileInfo), 
         NULL, 
         error));
@@ -2122,7 +2122,7 @@ HRESULT CFileRepClient::ProcessUserRequest(CRequest* request, __in const LPWSTR 
     while (fileRequest.filePosition < fileLength)
     {
         IfFailedExit(ProcessChunk(chunkSize , file, fileLength, serverRequestMessage, 
-            serverReplyMessage, serverChannel, error, &amp;fileRequest));                  
+            serverReplyMessage, serverChannel, error, &fileRequest));                  
     }
 
     transferTime = GetTickCount() - transferTime;
@@ -2214,7 +2214,7 @@ HRESULT CFileRepClient::CreateServerChannel(MESSAGE_ENCODING serverEncoding, TRA
     // very large messages to maximize throughput.
     ULONG maxMessageSize = MAXMESSAGESIZE;
     channelProperty[0].id = WS_CHANNEL_PROPERTY_MAX_BUFFERED_MESSAGE_SIZE;
-    channelProperty[0].value = &amp;maxMessageSize;
+    channelProperty[0].value = &maxMessageSize;
     channelProperty[0].valueSize = sizeof(maxMessageSize);
 
     WS_ENCODING messageEncoding;
@@ -2232,7 +2232,7 @@ HRESULT CFileRepClient::CreateServerChannel(MESSAGE_ENCODING serverEncoding, TRA
     }
 
     channelProperty[1].id = WS_CHANNEL_PROPERTY_ENCODING;
-    channelProperty[1].value = &amp;messageEncoding;
+    channelProperty[1].value = &messageEncoding;
     channelProperty[1].valueSize = sizeof(messageEncoding);
 
     ULONG propCount = 1;
@@ -2245,10 +2245,10 @@ HRESULT CFileRepClient::CreateServerChannel(MESSAGE_ENCODING serverEncoding, TRA
     {
         // Initialize a security description for SSL
         transportSecurityBinding.binding.bindingType = WS_SSL_TRANSPORT_SECURITY_BINDING_TYPE;
-        securityBindings[0] = &amp;transportSecurityBinding.binding;
+        securityBindings[0] = &transportSecurityBinding.binding;
         securityDescription.securityBindings = securityBindings;
         securityDescription.securityBindingCount = WsCountOf(securityBindings);
-        pSecurityDescription = &amp;securityDescription;
+        pSecurityDescription = &securityDescription;
     }
 
     // Create a channel
@@ -2313,13 +2313,13 @@ HRESULT CFileRepClient::ProcessChunk(long chunkSize, HANDLE file, LONGLONG fileL
     IfFailedExit(WsResetMessage(replyMessage, error));
 
     WS_MESSAGE_DESCRIPTION fileRequestMessageDescription;
-    fileRequestMessageDescription.action = &amp;fileRequestAction;
-    fileRequestMessageDescription.bodyElementDescription = &amp;fileRequestElement;
+    fileRequestMessageDescription.action = &fileRequestAction;
+    fileRequestMessageDescription.bodyElementDescription = &fileRequestElement;
      
     IfFailedExit(WsSendMessage(
         channel, 
         requestMessage, 
-        &amp;fileRequestMessageDescription, 
+        &fileRequestMessageDescription, 
         WS_WRITE_REQUIRED_VALUE,
         request, 
         sizeof(*request), 
@@ -2337,11 +2337,11 @@ HRESULT CFileRepClient::ProcessChunk(long chunkSize, HANDLE file, LONGLONG fileL
         WS_XML_STRING_TYPE,
         WS_READ_REQUIRED_POINTER,  
         NULL, 
-        &amp;receivedAction, 
+        &receivedAction, 
         sizeof(receivedAction), 
         error)); 
     // Make sure action is what we expect.
-    if (WsXmlStringEquals(receivedAction, &amp;fileReplyAction, error) != S_OK)
+    if (WsXmlStringEquals(receivedAction, &fileReplyAction, error) != S_OK)
     {
         hr = WS_E_ENDPOINT_ACTION_NOT_SUPPORTED;
         PrintInfo(L"Received unexpected message.\n");
@@ -2349,12 +2349,12 @@ HRESULT CFileRepClient::ProcessChunk(long chunkSize, HANDLE file, LONGLONG fileL
         EXIT_FUNCTION
     }                
 
-    IfFailedExit(DeserializeAndWriteMessage(replyMessage, chunkSize, &amp;chunkPosition, &amp;contentLength, file));
+    IfFailedExit(DeserializeAndWriteMessage(replyMessage, chunkSize, &chunkPosition, &contentLength, file));
 
     // Read end of message.
     IfFailedExit(WsReadMessageEnd(channel, replyMessage, NULL, error));
 
-    if (contentLength != chunkSize &amp;&amp; contentLength + pos != fileLength || pos != chunkPosition)
+    if (contentLength != chunkSize && contentLength + pos != fileLength || pos != chunkPosition)
     {
         PrintError(L"File message was corrupted. Aborting transfer\n", true);
         hr = E_FAIL;
@@ -2392,7 +2392,7 @@ HRESULT CFileRepClient::DeserializeAndWriteMessage(WS_MESSAGE *message, long chu
     WS_HEAP* heap = NULL;
 
     // Create a description for the error text field that we read later.
-    WS_ELEMENT_DESCRIPTION errorDescription = {&amp;errorLocalName, &amp;fileChunkNamespace, WS_WSZ_TYPE, NULL};
+    WS_ELEMENT_DESCRIPTION errorDescription = {&errorLocalName, &fileChunkNamespace, WS_WSZ_TYPE, NULL};
 
     // To avoid using too much memory we read and write the message in chunks. 
     long bytesToRead = FILE_CHUNK;
@@ -2408,10 +2408,10 @@ HRESULT CFileRepClient::DeserializeAndWriteMessage(WS_MESSAGE *message, long chu
     // The reason for that is that a failure here is likely due to a malformed message coming in, which
     // is probably a client issue and not an error condition for us. So the caller will print a simple status 
     // message if this fails and call it good.
-    IfFailedExit(WsGetMessageProperty(message, WS_MESSAGE_PROPERTY_BODY_READER, &amp;reader, sizeof(reader), NULL));
+    IfFailedExit(WsGetMessageProperty(message, WS_MESSAGE_PROPERTY_BODY_READER, &reader, sizeof(reader), NULL));
 
     // Read to FileChunk element
-    IfFailedExit(WsReadToStartElement(reader, &amp;fileChunkLocalName, &amp;fileChunkNamespace, NULL, NULL));
+    IfFailedExit(WsReadToStartElement(reader, &fileChunkLocalName, &fileChunkNamespace, NULL, NULL));
 
     // Read FileChunk start element
     IfFailedExit(WsReadStartElement(reader, NULL));
@@ -2421,7 +2421,7 @@ HRESULT CFileRepClient::DeserializeAndWriteMessage(WS_MESSAGE *message, long chu
     // For more complex type the serialization APIs should be used.
 
     // Read to chunkPosition element
-    IfFailedExit(WsReadToStartElement(reader, &amp;chunkPositionLocalName, &amp;fileChunkNamespace, NULL, NULL));
+    IfFailedExit(WsReadToStartElement(reader, &chunkPositionLocalName, &fileChunkNamespace, NULL, NULL));
 
     // Read chunk position start element
     IfFailedExit(WsReadStartElement(reader, NULL));
@@ -2433,7 +2433,7 @@ HRESULT CFileRepClient::DeserializeAndWriteMessage(WS_MESSAGE *message, long chu
     IfFailedExit(WsReadEndElement(reader, NULL));
       
     // Read to file content element
-    IfFailedExit(WsReadToStartElement(reader, &amp;fileContentLocalName, &amp;fileChunkNamespace, NULL, NULL));
+    IfFailedExit(WsReadToStartElement(reader, &fileContentLocalName, &fileChunkNamespace, NULL, NULL));
     
     // Read file content start element
     IfFailedExit(WsReadStartElement(reader, NULL));
@@ -2449,7 +2449,7 @@ HRESULT CFileRepClient::DeserializeAndWriteMessage(WS_MESSAGE *message, long chu
     {
         // Read next block of bytes.
         ULONG bytesRead = 0;
-        IfFailedExit(WsReadBytes(reader, buf, bytesToRead, &amp;bytesRead, NULL));
+        IfFailedExit(WsReadBytes(reader, buf, bytesToRead, &bytesRead, NULL));
   
         if (bytesRead == 0)
         {
@@ -2461,7 +2461,7 @@ HRESULT CFileRepClient::DeserializeAndWriteMessage(WS_MESSAGE *message, long chu
 
         ULONG count = 0;
 
-        if (!WriteFile(file, buf, bytesRead, &amp;count, NULL))
+        if (!WriteFile(file, buf, bytesRead, &count, NULL))
         {
             PrintError(L"File write error.", true);
             hr = HRESULT_FROM_WIN32(GetLastError());
@@ -2480,20 +2480,20 @@ HRESULT CFileRepClient::DeserializeAndWriteMessage(WS_MESSAGE *message, long chu
     IfFailedExit(WsReadEndElement(reader, NULL));
 
      // Read the error string and write it to a heap.
-    IfFailedExit(WsCreateHeap(/*maxSize*/ 1024, /*trimSize*/ 1024, NULL, 0, &amp;heap, NULL));
+    IfFailedExit(WsCreateHeap(/*maxSize*/ 1024, /*trimSize*/ 1024, NULL, 0, &heap, NULL));
 
     // Here it pays to use WsReadElementType instead of manually parsing the element since we require heap memory anyway.
     // This can fail if the error message does not fit on the relatively small heap created for it. The server is not
     // expected to use error messages that long. If we get back such a long message we talk to a buggy or rogue server
     // and failing is the right thing to do.
-    IfFailedExit(WsReadElement(reader, &amp;errorDescription, WS_READ_REQUIRED_POINTER, heap, 
-        &amp;errorString, sizeof(errorString), NULL));            
+    IfFailedExit(WsReadElement(reader, &errorDescription, WS_READ_REQUIRED_POINTER, heap, 
+        &errorString, sizeof(errorString), NULL));            
     // Read file data end element
     IfFailedExit(WsReadEndElement(reader, NULL));
 
     *contentLength = length;
 
-    if (lstrcmpW(errorString, &amp;GlobalStrings::noError[0]))
+    if (lstrcmpW(errorString, &GlobalStrings::noError[0]))
     {
         PrintInfo(L"Chunk transfer failed");
         if (errorString)
@@ -2543,15 +2543,15 @@ HRESULT CFileRepClient::SendUserResponse(CRequest* request, TRANSFER_RESULTS res
     userResponse.returnValue = result;
 
     WS_MESSAGE_DESCRIPTION userResponseMessageDescription;
-    userResponseMessageDescription.action = &amp;userResponseAction;
-    userResponseMessageDescription.bodyElementDescription = &amp;userResponseElement;
+    userResponseMessageDescription.action = &userResponseAction;
+    userResponseMessageDescription.bodyElementDescription = &userResponseElement;
 
     hr = WsSendReplyMessage(
         channel, 
         replyMessage, 
-        &amp;userResponseMessageDescription, 
+        &userResponseMessageDescription, 
         WS_WRITE_REQUIRED_VALUE,
-        &amp;userResponse, 
+        &userResponse, 
         sizeof(userResponse), 
         requestMessage, 
         NULL, error);
@@ -2592,7 +2592,7 @@ HRESULT CFileRepServer::ProcessMessage(CRequest* request, const WS_XML_STRING* r
     WS_ERROR* error = request->GetError();
 
     // Make sure action is what we expect
-    if (WsXmlStringEquals(receivedAction, &amp;fileRequestAction, error) != S_OK)
+    if (WsXmlStringEquals(receivedAction, &fileRequestAction, error) != S_OK)
     {        
         PrintInfo(L"Illegal action");
 
@@ -2603,10 +2603,10 @@ HRESULT CFileRepServer::ProcessMessage(CRequest* request, const WS_XML_STRING* r
         // Read file request
 
         WS_HEAP* heap;
-        IfFailedExit(WsGetMessageProperty(requestMessage, WS_MESSAGE_PROPERTY_HEAP, &amp;heap, sizeof(heap), error));
+        IfFailedExit(WsGetMessageProperty(requestMessage, WS_MESSAGE_PROPERTY_HEAP, &heap, sizeof(heap), error));
         
-        IfFailedExit(WsReadBody(requestMessage, &amp;fileRequestElement, WS_READ_REQUIRED_POINTER,
-            heap, &amp;fileRequest, sizeof(fileRequest), error));
+        IfFailedExit(WsReadBody(requestMessage, &fileRequestElement, WS_READ_REQUIRED_POINTER,
+            heap, &fileRequest, sizeof(fileRequest), error));
         IfFailedExit(WsReadMessageEnd(channel, requestMessage, NULL, error));
         
         IfFailedExit(ReadAndSendFile(request, fileRequest->fileName, fileRequest->filePosition, error));
@@ -2651,7 +2651,7 @@ HRESULT CFileRepServer::ReadAndSendFile(CRequest* request, __in const LPWSTR fil
 
     LARGE_INTEGER len;
 
-    if (!GetFileSizeEx(file, &amp;len))
+    if (!GetFileSizeEx(file, &len))
     {    
         hr = HRESULT_FROM_WIN32(GetLastError());
         PrintError(L"Unable to determine file length", true);
@@ -2747,15 +2747,15 @@ HRESULT CFileRepServer::SendFileInfo(CRequest* request, __in const LPWSTR fileNa
     fileInfo.chunkSize = chunkSize;
 
     WS_MESSAGE_DESCRIPTION fileInfoMessageDescription;
-    fileInfoMessageDescription.action = &amp;fileInfoAction;
-    fileInfoMessageDescription.bodyElementDescription = &amp;fileInfoElement;
+    fileInfoMessageDescription.action = &fileInfoAction;
+    fileInfoMessageDescription.bodyElementDescription = &fileInfoElement;
 
     hr = WsSendReplyMessage(
         channel, 
         replyMessage, 
-        &amp;fileInfoMessageDescription, 
+        &fileInfoMessageDescription, 
         WS_WRITE_REQUIRED_VALUE,
-        &amp;fileInfo, 
+        &fileInfo, 
         sizeof(fileInfo), 
         requestMessage, 
         NULL, 
@@ -2813,7 +2813,7 @@ HRESULT CFileRepServer::ReadAndSendChunk(CRequest* request, long chunkSize, LONG
         WS_ACTION_HEADER, 
         WS_XML_STRING_TYPE,
         WS_WRITE_REQUIRED_VALUE,
-        &amp;fileReplyAction, 
+        &fileReplyAction, 
         sizeof(fileReplyAction), 
         error));
    
@@ -2821,19 +2821,19 @@ HRESULT CFileRepServer::ReadAndSendChunk(CRequest* request, long chunkSize, LONG
     IfFailedExit(WsWriteMessageStart(channel, replyMessage, NULL, error));
 
     // Get writer to serialize message body    
-    IfFailedExit(WsGetMessageProperty(replyMessage, WS_MESSAGE_PROPERTY_BODY_WRITER, &amp;writer, sizeof(writer), error));
+    IfFailedExit(WsGetMessageProperty(replyMessage, WS_MESSAGE_PROPERTY_BODY_WRITER, &writer, sizeof(writer), error));
 
     // Write FileChunk start element.
     // This whole code block is the serialization equivalent of the desiralization code.
-    IfFailedExit(WsWriteStartElement(writer, NULL, &amp;fileChunkLocalName, &amp;fileChunkNamespace, error));
+    IfFailedExit(WsWriteStartElement(writer, NULL, &fileChunkLocalName, &fileChunkNamespace, error));
 
     // Write chunkPosition element
-    IfFailedExit(WsWriteStartElement(writer, NULL, &amp;chunkPositionLocalName, &amp;fileChunkNamespace, error));    
-    IfFailedExit(WsWriteValue(writer, WS_INT64_VALUE_TYPE, &amp;chunkPosition, sizeof(chunkPosition), error));  
+    IfFailedExit(WsWriteStartElement(writer, NULL, &chunkPositionLocalName, &fileChunkNamespace, error));    
+    IfFailedExit(WsWriteValue(writer, WS_INT64_VALUE_TYPE, &chunkPosition, sizeof(chunkPosition), error));  
     IfFailedExit(WsWriteEndElement(writer, error));
         
     // Write fileContent start element
-    IfFailedExit(WsWriteStartElement(writer, NULL, &amp;fileContentLocalName, &amp;fileChunkNamespace, error));    
+    IfFailedExit(WsWriteStartElement(writer, NULL, &fileContentLocalName, &fileChunkNamespace, error));    
 
     // Like in the deserialization code, we read the file in multiple steps to avoid
     // having to have everything in memory at once. The message could potentially be
@@ -2847,7 +2847,7 @@ HRESULT CFileRepServer::ReadAndSendChunk(CRequest* request, long chunkSize, LONG
             bytesToRead = chunkSize - length;
         }
         
-        if (!ReadFile(file, buf, bytesToRead, &amp;bytesRead, NULL))
+        if (!ReadFile(file, buf, bytesToRead, &bytesRead, NULL))
         {        
 
             PrintError(L"File read error.", true);
@@ -2877,7 +2877,7 @@ HRESULT CFileRepServer::ReadAndSendChunk(CRequest* request, long chunkSize, LONG
     IfFailedExit(WsWriteEndElement(writer, error));
 
     // Write error element
-    IfFailedExit(WsWriteStartElement(writer, NULL, &amp;errorLocalName, &amp;fileChunkNamespace, error));
+    IfFailedExit(WsWriteStartElement(writer, NULL, &errorLocalName, &fileChunkNamespace, error));
     const WCHAR* noError = GlobalStrings::noError;
     IfFailedExit(WsWriteType(
         writer, 
@@ -2885,7 +2885,7 @@ HRESULT CFileRepServer::ReadAndSendChunk(CRequest* request, long chunkSize, LONG
         WS_WSZ_TYPE, 
         NULL, 
         WS_WRITE_REQUIRED_POINTER, 
-        &amp;noError, 
+        &noError, 
         sizeof(noError), 
         error));
     
@@ -2934,16 +2934,16 @@ HRESULT CFileRepServer::SendError(CRequest* request, __in const WCHAR errorMessa
     fileChunk.error = (LPWSTR)errorMessage;
 
     WS_MESSAGE_DESCRIPTION fileReplyMessageDescription;
-    fileReplyMessageDescription.action = &amp;fileReplyAction;
-    fileReplyMessageDescription.bodyElementDescription = &amp;fileChunkElement;
+    fileReplyMessageDescription.action = &fileReplyAction;
+    fileReplyMessageDescription.bodyElementDescription = &fileChunkElement;
 
     // As there is no large payload we use the serializer here.
     hr = WsSendReplyMessage(
         channel, 
         replyMessage, 
-        &amp;fileReplyMessageDescription,
+        &fileReplyMessageDescription,
         WS_WRITE_REQUIRED_VALUE,
-        &amp;fileChunk, 
+        &fileChunk, 
         sizeof(fileChunk), 
         requestMessage, 
         NULL, 
@@ -3000,11 +3000,11 @@ extern WS_XML_DICTIONARY fileRequestDictionary;
 
 static WS_XML_STRING fileRequestDictionaryStrings[] =
 {
-    WS_XML_STRING_DICTIONARY_VALUE("FilePosition", &amp;fileRequestDictionary, 0),
-    WS_XML_STRING_DICTIONARY_VALUE("FileName", &amp;fileRequestDictionary, 1),
-    WS_XML_STRING_DICTIONARY_VALUE("FileRequest", &amp;fileRequestDictionary, 2),
-    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &amp;fileRequestDictionary, 3),
-    WS_XML_STRING_DICTIONARY_VALUE("FileRequest", &amp;fileRequestDictionary, 4),
+    WS_XML_STRING_DICTIONARY_VALUE("FilePosition", &fileRequestDictionary, 0),
+    WS_XML_STRING_DICTIONARY_VALUE("FileName", &fileRequestDictionary, 1),
+    WS_XML_STRING_DICTIONARY_VALUE("FileRequest", &fileRequestDictionary, 2),
+    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &fileRequestDictionary, 3),
+    WS_XML_STRING_DICTIONARY_VALUE("FileRequest", &fileRequestDictionary, 4),
 };
 
 static WS_XML_DICTIONARY fileRequestDictionary =
@@ -3029,8 +3029,8 @@ static WS_XML_DICTIONARY fileRequestDictionary =
 static WS_FIELD_DESCRIPTION filePositionField = 
 {
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;filePositionLocalName,
-    &amp;fileRequestNamespace,
+    &filePositionLocalName,
+    &fileRequestNamespace,
     WS_INT64_TYPE,
     NULL,
     WsOffsetOf(FileRequest, filePosition),
@@ -3039,8 +3039,8 @@ static WS_FIELD_DESCRIPTION filePositionField =
 static WS_FIELD_DESCRIPTION fileNameField = 
 { 
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;fileNameLocalName,
-    &amp;fileRequestNamespace,
+    &fileNameLocalName,
+    &fileRequestNamespace,
     WS_WSZ_TYPE,
     NULL,
     WsOffsetOf(FileRequest, fileName),
@@ -3048,8 +3048,8 @@ static WS_FIELD_DESCRIPTION fileNameField =
 
 static WS_FIELD_DESCRIPTION* fileRequestFields[] = 
 { 
-    &amp;filePositionField,
-    &amp;fileNameField,
+    &filePositionField,
+    &fileNameField,
 };
 
 static WS_STRUCT_DESCRIPTION fileRequestType =
@@ -3058,16 +3058,16 @@ static WS_STRUCT_DESCRIPTION fileRequestType =
     __alignof(FileRequest),
     fileRequestFields,
     WsCountOf(fileRequestFields),
-    &amp;fileRequestTypeName,
-    &amp;fileRequestNamespace,
+    &fileRequestTypeName,
+    &fileRequestNamespace,
 };
 
 static WS_ELEMENT_DESCRIPTION fileRequestElement = 
 {
-    &amp;fileRequestLocalName,
-    &amp;fileRequestNamespace,
+    &fileRequestLocalName,
+    &fileRequestNamespace,
     WS_STRUCT_TYPE,
-    &amp;fileRequestType,
+    &fileRequestType,
 };
 
 //
@@ -3085,12 +3085,12 @@ extern WS_XML_DICTIONARY fileInfoDictionary;
 
 static WS_XML_STRING fileInfoDictionaryStrings[] =
 {
-    WS_XML_STRING_DICTIONARY_VALUE("FileName", &amp;fileInfoDictionary, 0),
-    WS_XML_STRING_DICTIONARY_VALUE("FileLength", &amp;fileInfoDictionary, 1),
-    WS_XML_STRING_DICTIONARY_VALUE("ChunkSize", &amp;fileInfoDictionary, 2),
-    WS_XML_STRING_DICTIONARY_VALUE("FileInfo", &amp;fileInfoDictionary, 3),
-    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &amp;fileInfoDictionary, 4),
-    WS_XML_STRING_DICTIONARY_VALUE("FileInfo", &amp;fileInfoDictionary, 5),
+    WS_XML_STRING_DICTIONARY_VALUE("FileName", &fileInfoDictionary, 0),
+    WS_XML_STRING_DICTIONARY_VALUE("FileLength", &fileInfoDictionary, 1),
+    WS_XML_STRING_DICTIONARY_VALUE("ChunkSize", &fileInfoDictionary, 2),
+    WS_XML_STRING_DICTIONARY_VALUE("FileInfo", &fileInfoDictionary, 3),
+    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &fileInfoDictionary, 4),
+    WS_XML_STRING_DICTIONARY_VALUE("FileInfo", &fileInfoDictionary, 5),
 };
 
 static WS_XML_DICTIONARY fileInfoDictionary =
@@ -3116,8 +3116,8 @@ static WS_XML_DICTIONARY fileInfoDictionary =
 static WS_FIELD_DESCRIPTION fileNameInfoField = 
 {
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;fileNameInfoLocalName,
-    &amp;fileInfoNamespace,
+    &fileNameInfoLocalName,
+    &fileInfoNamespace,
     WS_WSZ_TYPE,
     NULL,
     WsOffsetOf(FileInfo, fileName),
@@ -3126,8 +3126,8 @@ static WS_FIELD_DESCRIPTION fileNameInfoField =
 static WS_FIELD_DESCRIPTION fileLengthField = 
 {
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;fileLengthLocalName,
-    &amp;fileInfoNamespace,
+    &fileLengthLocalName,
+    &fileInfoNamespace,
     WS_INT64_TYPE,
     NULL,
     WsOffsetOf(FileInfo, fileLength),
@@ -3136,8 +3136,8 @@ static WS_FIELD_DESCRIPTION fileLengthField =
 static WS_FIELD_DESCRIPTION chunkSizeField = 
 {
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;chunkSizeLocalName,
-    &amp;fileInfoNamespace,
+    &chunkSizeLocalName,
+    &fileInfoNamespace,
     WS_UINT32_TYPE,
     NULL,
     WsOffsetOf(FileInfo, chunkSize),
@@ -3145,9 +3145,9 @@ static WS_FIELD_DESCRIPTION chunkSizeField =
 
 static WS_FIELD_DESCRIPTION* fileInfoFields[] = 
 { 
-    &amp;fileNameInfoField,
-    &amp;fileLengthField,
-    &amp;chunkSizeField,
+    &fileNameInfoField,
+    &fileLengthField,
+    &chunkSizeField,
 };
 
 static WS_STRUCT_DESCRIPTION fileInfoType =
@@ -3156,16 +3156,16 @@ static WS_STRUCT_DESCRIPTION fileInfoType =
     __alignof(FileInfo),
     fileInfoFields,
     WsCountOf(fileInfoFields),
-    &amp;fileInfoElementName,
-    &amp;fileInfoNamespace,
+    &fileInfoElementName,
+    &fileInfoNamespace,
 };
 
 static WS_ELEMENT_DESCRIPTION fileInfoElement = 
 {
-    &amp;fileInfoLocalName,
-    &amp;fileInfoNamespace,
+    &fileInfoLocalName,
+    &fileInfoNamespace,
     WS_STRUCT_TYPE,
-    &amp;fileInfoType,
+    &fileInfoType,
 };
 
 
@@ -3186,12 +3186,12 @@ extern WS_XML_DICTIONARY fileChunkDictionary;
 
 static WS_XML_STRING fileChunkDictionaryStrings[] =
 {
-    WS_XML_STRING_DICTIONARY_VALUE("ChunkPosition", &amp;fileChunkDictionary, 0),
-    WS_XML_STRING_DICTIONARY_VALUE("FileContent", &amp;fileChunkDictionary, 1),
-    WS_XML_STRING_DICTIONARY_VALUE("Error", &amp;fileChunkDictionary, 2),
-    WS_XML_STRING_DICTIONARY_VALUE("FileChunk", &amp;fileChunkDictionary, 3),
-    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &amp;fileChunkDictionary, 4),
-    WS_XML_STRING_DICTIONARY_VALUE("FileChunk", &amp;fileChunkDictionary, 5),
+    WS_XML_STRING_DICTIONARY_VALUE("ChunkPosition", &fileChunkDictionary, 0),
+    WS_XML_STRING_DICTIONARY_VALUE("FileContent", &fileChunkDictionary, 1),
+    WS_XML_STRING_DICTIONARY_VALUE("Error", &fileChunkDictionary, 2),
+    WS_XML_STRING_DICTIONARY_VALUE("FileChunk", &fileChunkDictionary, 3),
+    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &fileChunkDictionary, 4),
+    WS_XML_STRING_DICTIONARY_VALUE("FileChunk", &fileChunkDictionary, 5),
 };
 
 static WS_XML_DICTIONARY fileChunkDictionary =
@@ -3217,8 +3217,8 @@ static WS_XML_DICTIONARY fileChunkDictionary =
 static WS_FIELD_DESCRIPTION chunkPositionField = 
 {
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;chunkPositionLocalName,
-    &amp;fileChunkNamespace,
+    &chunkPositionLocalName,
+    &fileChunkNamespace,
     WS_INT64_TYPE,
     NULL,
     WsOffsetOf(FileChunk, chunkPosition),
@@ -3228,8 +3228,8 @@ static WS_FIELD_DESCRIPTION chunkPositionField =
 static WS_FIELD_DESCRIPTION fileContentField = 
 {
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;fileContentLocalName,
-    &amp;fileChunkNamespace,
+    &fileContentLocalName,
+    &fileChunkNamespace,
     WS_BYTES_TYPE,
     NULL,
     WsOffsetOf(FileChunk, fileContent),
@@ -3238,8 +3238,8 @@ static WS_FIELD_DESCRIPTION fileContentField =
 static WS_FIELD_DESCRIPTION errorField = 
 {
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;errorLocalName,
-    &amp;fileChunkNamespace,
+    &errorLocalName,
+    &fileChunkNamespace,
     WS_WSZ_TYPE,
     NULL,
     WsOffsetOf(FileChunk, error),
@@ -3247,9 +3247,9 @@ static WS_FIELD_DESCRIPTION errorField =
 
 static WS_FIELD_DESCRIPTION* fileChunkFields[] = 
 { 
-    &amp;chunkPositionField,
-    &amp;fileContentField,
-    &amp;errorField,    
+    &chunkPositionField,
+    &fileContentField,
+    &errorField,    
 };
 
 static WS_STRUCT_DESCRIPTION fileChunkType =
@@ -3258,16 +3258,16 @@ static WS_STRUCT_DESCRIPTION fileChunkType =
     __alignof(FileChunk),
     fileChunkFields,
     WsCountOf(fileChunkFields),
-    &amp;fileChunkElementName,
-    &amp;fileChunkNamespace,
+    &fileChunkElementName,
+    &fileChunkNamespace,
 };
 
 static WS_ELEMENT_DESCRIPTION fileChunkElement = 
 {
-    &amp;fileChunkLocalName,
-    &amp;fileChunkNamespace,
+    &fileChunkLocalName,
+    &fileChunkNamespace,
     WS_STRUCT_TYPE,
-    &amp;fileChunkType,
+    &fileChunkType,
 };
 
 typedef enum
@@ -3314,16 +3314,16 @@ extern WS_XML_DICTIONARY userRequestDictionary;
 
 static WS_XML_STRING userRequestDictionaryStrings[] =
 {
-    WS_XML_STRING_DICTIONARY_VALUE("RequestType", &amp;userRequestDictionary, 0),
-    WS_XML_STRING_DICTIONARY_VALUE("ServerUri", &amp;userRequestDictionary, 1),
-    WS_XML_STRING_DICTIONARY_VALUE("ServerProtocol", &amp;userRequestDictionary, 2),
-    WS_XML_STRING_DICTIONARY_VALUE("SecurityMode", &amp;userRequestDictionary, 3),
-    WS_XML_STRING_DICTIONARY_VALUE("MessageEncoding", &amp;userRequestDictionary, 4),
-    WS_XML_STRING_DICTIONARY_VALUE("SourcePath", &amp;userRequestDictionary, 5),
-    WS_XML_STRING_DICTIONARY_VALUE("DestinationPath", &amp;userRequestDictionary, 6),
-    WS_XML_STRING_DICTIONARY_VALUE("UserRequest", &amp;userRequestDictionary, 7),
-    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &amp;userRequestDictionary, 8),
-    WS_XML_STRING_DICTIONARY_VALUE("UserRequest", &amp;userRequestDictionary, 9),
+    WS_XML_STRING_DICTIONARY_VALUE("RequestType", &userRequestDictionary, 0),
+    WS_XML_STRING_DICTIONARY_VALUE("ServerUri", &userRequestDictionary, 1),
+    WS_XML_STRING_DICTIONARY_VALUE("ServerProtocol", &userRequestDictionary, 2),
+    WS_XML_STRING_DICTIONARY_VALUE("SecurityMode", &userRequestDictionary, 3),
+    WS_XML_STRING_DICTIONARY_VALUE("MessageEncoding", &userRequestDictionary, 4),
+    WS_XML_STRING_DICTIONARY_VALUE("SourcePath", &userRequestDictionary, 5),
+    WS_XML_STRING_DICTIONARY_VALUE("DestinationPath", &userRequestDictionary, 6),
+    WS_XML_STRING_DICTIONARY_VALUE("UserRequest", &userRequestDictionary, 7),
+    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &userRequestDictionary, 8),
+    WS_XML_STRING_DICTIONARY_VALUE("UserRequest", &userRequestDictionary, 9),
 };
 
 static WS_XML_DICTIONARY userRequestDictionary =
@@ -3353,8 +3353,8 @@ static WS_XML_DICTIONARY userRequestDictionary =
 static WS_FIELD_DESCRIPTION requestTypeField = 
 {
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;requestTypeLocalName,
-    &amp;userRequestNamespace,
+    &requestTypeLocalName,
+    &userRequestNamespace,
     WS_INT32_TYPE,
     NULL,
     WsOffsetOf(UserRequest, requestType),
@@ -3363,8 +3363,8 @@ static WS_FIELD_DESCRIPTION requestTypeField =
 static WS_FIELD_DESCRIPTION serverUriField = 
 { 
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;serverUriLocalName,
-    &amp;userRequestNamespace,
+    &serverUriLocalName,
+    &userRequestNamespace,
     WS_WSZ_TYPE,
     NULL,
     WsOffsetOf(UserRequest, serverUri),
@@ -3373,8 +3373,8 @@ static WS_FIELD_DESCRIPTION serverUriField =
 static WS_FIELD_DESCRIPTION serverProtocolField = 
 { 
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;serverProtocolLocalName,
-    &amp;userRequestNamespace,
+    &serverProtocolLocalName,
+    &userRequestNamespace,
     WS_INT32_TYPE,
     NULL,
     WsOffsetOf(UserRequest, serverProtocol),
@@ -3383,8 +3383,8 @@ static WS_FIELD_DESCRIPTION serverProtocolField =
 static WS_FIELD_DESCRIPTION securityModeField = 
 { 
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;securityModeLocalName,
-    &amp;userRequestNamespace,
+    &securityModeLocalName,
+    &userRequestNamespace,
     WS_INT32_TYPE,
     NULL,
     WsOffsetOf(UserRequest, securityMode),
@@ -3393,8 +3393,8 @@ static WS_FIELD_DESCRIPTION securityModeField =
 static WS_FIELD_DESCRIPTION messageEncodingField = 
 { 
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;messageEncodingLocalName,
-    &amp;userRequestNamespace,
+    &messageEncodingLocalName,
+    &userRequestNamespace,
     WS_INT32_TYPE,
     NULL,
     WsOffsetOf(UserRequest, messageEncoding),
@@ -3403,8 +3403,8 @@ static WS_FIELD_DESCRIPTION messageEncodingField =
 static WS_FIELD_DESCRIPTION sourcePathField = 
 { 
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;sourcePathLocalName,
-    &amp;userRequestNamespace,
+    &sourcePathLocalName,
+    &userRequestNamespace,
     WS_WSZ_TYPE,
     NULL,
     WsOffsetOf(UserRequest, sourcePath),
@@ -3413,8 +3413,8 @@ static WS_FIELD_DESCRIPTION sourcePathField =
 static WS_FIELD_DESCRIPTION destinationPathField = 
 { 
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;destinationPathLocalName,
-    &amp;userRequestNamespace,
+    &destinationPathLocalName,
+    &userRequestNamespace,
     WS_WSZ_TYPE,
     NULL,
     WsOffsetOf(UserRequest, destinationPath),
@@ -3422,13 +3422,13 @@ static WS_FIELD_DESCRIPTION destinationPathField =
 
 static WS_FIELD_DESCRIPTION* userRequestFields[] = 
 { 
-    &amp;requestTypeField,
-    &amp;serverUriField,
-    &amp;serverProtocolField,
-    &amp;securityModeField,
-    &amp;messageEncodingField,
-    &amp;sourcePathField,
-    &amp;destinationPathField,
+    &requestTypeField,
+    &serverUriField,
+    &serverProtocolField,
+    &securityModeField,
+    &messageEncodingField,
+    &sourcePathField,
+    &destinationPathField,
 };
 
 static WS_STRUCT_DESCRIPTION userRequestType =
@@ -3437,16 +3437,16 @@ static WS_STRUCT_DESCRIPTION userRequestType =
     __alignof(UserRequest),
     userRequestFields,
     WsCountOf(userRequestFields),
-    &amp;userRequestTypeName,
-    &amp;userRequestNamespace,
+    &userRequestTypeName,
+    &userRequestNamespace,
 };
 
 static WS_ELEMENT_DESCRIPTION userRequestElement = 
 {
-    &amp;userRequestLocalName,
-    &amp;userRequestNamespace,
+    &userRequestLocalName,
+    &userRequestNamespace,
     WS_STRUCT_TYPE,
-    &amp;userRequestType,
+    &userRequestType,
 };
 
 
@@ -3469,10 +3469,10 @@ extern WS_XML_DICTIONARY userResponseDictionary;
 
 static WS_XML_STRING userResponseDictionaryStrings[] =
 {
-    WS_XML_STRING_DICTIONARY_VALUE("ReturnValue", &amp;userResponseDictionary, 0),
-    WS_XML_STRING_DICTIONARY_VALUE("UserResponse", &amp;userResponseDictionary, 1),
-    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &amp;userResponseDictionary, 2),
-    WS_XML_STRING_DICTIONARY_VALUE("UserResponse", &amp;userResponseDictionary, 3),
+    WS_XML_STRING_DICTIONARY_VALUE("ReturnValue", &userResponseDictionary, 0),
+    WS_XML_STRING_DICTIONARY_VALUE("UserResponse", &userResponseDictionary, 1),
+    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &userResponseDictionary, 2),
+    WS_XML_STRING_DICTIONARY_VALUE("UserResponse", &userResponseDictionary, 3),
 };
 
 static WS_XML_DICTIONARY userResponseDictionary =
@@ -3496,8 +3496,8 @@ static WS_XML_DICTIONARY userResponseDictionary =
 static WS_FIELD_DESCRIPTION returnValueField = 
 {
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;returnValueLocalName,
-    &amp;userResponseNamespace,
+    &returnValueLocalName,
+    &userResponseNamespace,
     WS_INT32_TYPE,
     NULL,
     WsOffsetOf(UserResponse, returnValue),
@@ -3506,7 +3506,7 @@ static WS_FIELD_DESCRIPTION returnValueField =
 
 static WS_FIELD_DESCRIPTION* userResponseFields[] = 
 { 
-    &amp;returnValueField,
+    &returnValueField,
 };
 
 static WS_STRUCT_DESCRIPTION userResponseType =
@@ -3515,16 +3515,16 @@ static WS_STRUCT_DESCRIPTION userResponseType =
     __alignof(UserResponse),
     userResponseFields,
     WsCountOf(userResponseFields),
-    &amp;userResponseTypeName,
-    &amp;userResponseNamespace,
+    &userResponseTypeName,
+    &userResponseNamespace,
 };
 
 static WS_ELEMENT_DESCRIPTION userResponseElement = 
 {
-    &amp;userResponseLocalName,
-    &amp;userResponseNamespace,
+    &userResponseLocalName,
+    &userResponseNamespace,
     WS_STRUCT_TYPE,
-    &amp;userResponseType,
+    &userResponseType,
 };
 
 

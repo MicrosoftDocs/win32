@@ -49,7 +49,7 @@ STDMETHODIMP CMyPin::NonDelegatingQueryInterface(REFIID riid, void **ppv)
         if (m_pPos == NULL) 
         {
             // We have not created the CPosPassThru object yet. Do so now.
-            hr = CreatePosPassThru(GetOwner(), FALSE, m_pInput, &amp;m_pPos);
+            hr = CreatePosPassThru(GetOwner(), FALSE, m_pInput, &m_pPos);
             if (FAILED(hr)) return hr;
         }
         return m_pPos->QueryInterface(riid, ppv);

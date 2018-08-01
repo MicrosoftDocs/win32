@@ -26,11 +26,11 @@ HRESULT CreateMediaSample(DWORD cbData, IMFSample **ppSample)
     IMFSample *pSample = NULL;
     IMFMediaBuffer *pBuffer = NULL;
 
-    hr = MFCreateSample(&amp;pSample);
+    hr = MFCreateSample(&pSample);
 
     if (SUCCEEDED(hr))
     {
-        hr = MFCreateMemoryBuffer(cbData, &amp;pBuffer);
+        hr = MFCreateMemoryBuffer(cbData, &pBuffer);
     }
 
     if (SUCCEEDED(hr))
@@ -44,8 +44,8 @@ HRESULT CreateMediaSample(DWORD cbData, IMFSample **ppSample)
         (*ppSample)->AddRef();
     }
 
-    SafeRelease(&amp;pSample);
-    SafeRelease(&amp;pBuffer);
+    SafeRelease(&pSample);
+    SafeRelease(&pBuffer);
     return hr;
 }
 ```
@@ -63,17 +63,17 @@ The following code shows how to iterate through the buffers in a sample.
 IMFMediaBuffer *pBuffer = NULL;
 DWORD cBuffers = 0;
 
-hr = pSample->GetBufferCount(&amp;cBuffers);
+hr = pSample->GetBufferCount(&cBuffers);
 
 if (SUCCEEDED(hr))
 {
     for (DWORD i = 0; i < cBuffers; i++)
     {
-        hr = pSample->GetBufferByIndex(i, &amp;pBuffer);
+        hr = pSample->GetBufferByIndex(i, &pBuffer);
 
         // Use buffer (not shown).
 
-        SafeRelease(&amp;pBuffer);
+        SafeRelease(&pBuffer);
 
         if (FAILED(hr))
         {

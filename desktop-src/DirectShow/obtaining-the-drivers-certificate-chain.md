@@ -20,8 +20,8 @@ After building the graph, query the VMR for the [**IAMCertifiedOutputProtection*
 GUID guidRandom;
 BYTE *pbCertificateChain = NULL;
 DWORD cbCertificateChainLen;   // Size of the certificate chain, in bytes.
-hr = pCOPP->KeyExchange(&amp;guidRandom, &amp;pbCertificateChain,
-         &amp;cbCertificateChainLen);
+hr = pCOPP->KeyExchange(&guidRandom, &pbCertificateChain,
+         &cbCertificateChainLen);
 if (SUCCEEDED(hr))
 {
     // TODO: Validate the certificate chain and get the driver's

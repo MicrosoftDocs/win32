@@ -118,7 +118,7 @@ HRESULT RestoreDeletedObject(LPCWSTR pwszDeletedDN, LPCWSTR pwszDestContainerDN)
         LPWSTR pwszChar;
         for(pwszChar = pwszNewDN; *pwszChar; pwszChar = CharNextW(pwszChar))
         {
-            if(('\\' == *pwszChar) &amp;&amp; ('0' == *(pwszChar + 1)) &amp;&amp; ('A' == *(pwszChar + 2)))
+            if(('\\' == *pwszChar) && ('0' == *(pwszChar + 1)) && ('A' == *(pwszChar + 2)))
             {
                 break;
             }
@@ -144,7 +144,7 @@ HRESULT RestoreDeletedObject(LPCWSTR pwszDeletedDN, LPCWSTR pwszDestContainerDN)
                 ULONG version = LDAP_VERSION3;
 
                 // Set the LDAP version.
-                ulRC = ldap_set_option(ld, LDAP_OPT_PROTOCOL_VERSION, (void*)&amp;version);
+                ulRC = ldap_set_option(ld, LDAP_OPT_PROTOCOL_VERSION, (void*)&version);
                 if(LDAP_SUCCESS == ulRC)
                 {
                     // Establish a connection with the server.
@@ -173,8 +173,8 @@ HRESULT RestoreDeletedObject(LPCWSTR pwszDeletedDN, LPCWSTR pwszDestContainerDN)
                             // Initialize the LDAPMod structure.
                             PLDAPModW ldapMods[] = 
                             {
-                                &amp;modIsDeleted,
-                                &amp;modDN,
+                                &modIsDeleted,
+                                &modDN,
                                 NULL
                             };
 
@@ -189,7 +189,7 @@ HRESULT RestoreDeletedObject(LPCWSTR pwszDeletedDN, LPCWSTR pwszDestContainerDN)
                             showDeletedControl.ldctl_iscritical = TRUE;
 
                             // Initialzie the LDAPControl structure
-                            PLDAPControlW ldapControls[] = { &amp;showDeletedControl, NULL };
+                            PLDAPControlW ldapControls[] = { &showDeletedControl, NULL };
 
                             /*
                             Modify the specified attributes. This must performed 

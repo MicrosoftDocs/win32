@@ -29,7 +29,7 @@ If you want to use a particular decoder, you might already know the CLSID of the
 ```C++
 // Returns the MFT decoder based on the major type GUID.
 
-HRESULT GetDecoderCategory(const GUID&amp; majorType, GUID *pCategory)
+HRESULT GetDecoderCategory(const GUID& majorType, GUID *pCategory)
 {
     if (majorType == MFMediaType_Video)
     {
@@ -67,28 +67,28 @@ HRESULT FindDecoderForStream(
     IMFMediaType *pMediaType = NULL;
 
     // Find the media type for the stream.
-    HRESULT hr = pSD->GetMediaTypeHandler(&amp;pHandler);
+    HRESULT hr = pSD->GetMediaTypeHandler(&pHandler);
 
     if (SUCCEEDED(hr))
     {
-        hr = pHandler->GetCurrentMediaType(&amp;pMediaType);
+        hr = pHandler->GetCurrentMediaType(&pMediaType);
     }
 
     // Get the major type and subtype.
     if (SUCCEEDED(hr))
     {
-        hr = pMediaType->GetMajorType(&amp;guidMajorType);
+        hr = pMediaType->GetMajorType(&guidMajorType);
     }
 
     if (SUCCEEDED(hr))
     {
-        hr = pMediaType->GetGUID(MF_MT_SUBTYPE, &amp;guidSubtype);
+        hr = pMediaType->GetGUID(MF_MT_SUBTYPE, &guidSubtype);
     }
 
     // Check whether the stream is compressed.
     if (SUCCEEDED(hr))
     {
-        hr = pMediaType->IsCompressedFormat(&amp;bIsCompressed);
+        hr = pMediaType->IsCompressedFormat(&bIsCompressed);
     }
 
 #if (WINVER < _WIN32_WINNT_WIN7)
@@ -99,7 +99,7 @@ HRESULT FindDecoderForStream(
 
     if (SUCCEEDED(hr))
     {
-        if (!bIsCompressed &amp;&amp; (guidMajorType == MFMediaType_Video))
+        if (!bIsCompressed && (guidMajorType == MFMediaType_Video))
         {
             hr = MF_E_INVALIDMEDIATYPE;
         }
@@ -112,7 +112,7 @@ HRESULT FindDecoderForStream(
         if (bIsCompressed)
         {
             // Select the decoder category from the major type (audio/video).
-            hr = GetDecoderCategory(guidMajorType, &amp;guidDecoderCategory);
+            hr = GetDecoderCategory(guidMajorType, &guidDecoderCategory);
 
             // Look for a decoder.
 
@@ -125,16 +125,16 @@ HRESULT FindDecoderForStream(
                 hr = MFTEnum(
                         guidDecoderCategory,
                         0,               // Reserved
-                        &amp;tinfo,          // Input type to match. (Encoded type.)
+                        &tinfo,          // Input type to match. (Encoded type.)
                         NULL,            // Output type to match. (Don't care.)
                         NULL,            // Attributes to match. (None.)
-                        &amp;pDecoderCLSIDs, // Receives a pointer to an array of CLSIDs.
-                        &amp;cDecoderCLSIDs  // Receives the size of the array.
+                        &pDecoderCLSIDs, // Receives a pointer to an array of CLSIDs.
+                        &cDecoderCLSIDs  // Receives the size of the array.
                         );
             }
 
             // MFTEnum can return zero matches.
-            if (SUCCEEDED(hr) &amp;&amp; (cDecoderCLSIDs == 0))
+            if (SUCCEEDED(hr) && (cDecoderCLSIDs == 0))
             {
                 hr = MF_E_TOPO_CODEC_NOT_FOUND;
             }
@@ -152,8 +152,8 @@ HRESULT FindDecoderForStream(
         }
     }
 
-    SafeRelease(&amp;pHandler);
-    SafeRelease(&amp;pMediaType);
+    SafeRelease(&pHandler);
+    SafeRelease(&pMediaType);
     CoTaskMemFree(pDecoderCLSIDs);
 
     return hr;
@@ -192,7 +192,7 @@ HRESULT AddBranchToPartialTopologyWithDecoder(
     CLSID clsidDecoder = GUID_NULL;
 
     // Get the stream descriptor.
-    HRESULT hr = pPD->GetStreamDescriptorByIndex(iStream, &amp;fSelected, &amp;pSD);
+    HRESULT hr = pPD->GetStreamDescriptorByIndex(iStream, &fSelected, &pSD);
     if (FAILED(hr))
     {
         return hr;
@@ -201,24 +201,24 @@ HRESULT AddBranchToPartialTopologyWithDecoder(
     if (fSelected)
     {
         // Add a source node for this stream.
-        hr = AddSourceNode(pTopology, pSource, pPD, pSD, &amp;pSourceNode);
+        hr = AddSourceNode(pTopology, pSource, pPD, pSD, &pSourceNode);
 
         // Create the media sink activation object.
         if (SUCCEEDED(hr))
         {
-            hr = CreateMediaSinkActivate(pSD, hVideoWnd, &amp;pSinkActivate);
+            hr = CreateMediaSinkActivate(pSD, hVideoWnd, &pSinkActivate);
         }
 
         // Create the output node for the renderer.
         if (SUCCEEDED(hr))
         {
-            hr = AddOutputNode(pTopology, pSinkActivate, 0, &amp;pOutputNode);
+            hr = AddOutputNode(pTopology, pSinkActivate, 0, &pOutputNode);
         }
 
         // Find a decoder.
         if (SUCCEEDED(hr))
         {
-            hr = FindDecoderForStream(pSD, &amp;clsidDecoder);
+            hr = FindDecoderForStream(pSD, &clsidDecoder);
         }
 
         if (SUCCEEDED(hr))
@@ -232,7 +232,7 @@ HRESULT AddBranchToPartialTopologyWithDecoder(
             else
             {
                 // Add a decoder node.
-                hr = AddTransformNode(pTopology, clsidDecoder, &amp;pDecoderNode);
+                hr = AddTransformNode(pTopology, clsidDecoder, &pDecoderNode);
 
                 // Connect the source node to the decoder node.
                 if (SUCCEEDED(hr))
@@ -268,11 +268,11 @@ HRESULT AddBranchToPartialTopologyWithDecoder(
     }
     // else: If not selected, don't add the branch. 
 
-    SafeRelease(&amp;pSD);
-    SafeRelease(&amp;pSinkActivate);
-    SafeRelease(&amp;pSourceNode);
-    SafeRelease(&amp;pOutputNode);
-    SafeRelease(&amp;pDecoderNode);
+    SafeRelease(&pSD);
+    SafeRelease(&pSinkActivate);
+    SafeRelease(&pSourceNode);
+    SafeRelease(&pOutputNode);
+    SafeRelease(&pDecoderNode);
 
     return hr;
 }
@@ -308,7 +308,7 @@ HRESULT FindDeviceManager(
 
     // Search all of the nodes in the topology.
     
-    hr = pTopology->GetNodeCount(&amp;cNodes);
+    hr = pTopology->GetNodeCount(&cNodes);
 
     if (FAILED(hr))
     {
@@ -320,12 +320,12 @@ HRESULT FindDeviceManager(
         // For each of the following calls, failure just means we 
         // did not find the node we're looking for, so keep looking. 
 
-        hr = pTopology->GetNode(i, &amp;pNode);
+        hr = pTopology->GetNode(i, &pNode);
 
         // Get the node's object pointer.
         if (SUCCEEDED(hr))
         {
-            hr = pNode->GetObject(&amp;pNodeObject);
+            hr = pNode->GetObject(&pNodeObject);
         }
 
         // Query the node object for the device manager service.
@@ -334,7 +334,7 @@ HRESULT FindDeviceManager(
             hr = MFGetService(
                 pNodeObject, 
                 MR_VIDEO_ACCELERATION_SERVICE, 
-                IID_PPV_ARGS(&amp;pD3DManager)
+                IID_PPV_ARGS(&pD3DManager)
                 );
         }
 
@@ -351,15 +351,15 @@ HRESULT FindDeviceManager(
             break;
         }
 
-        SafeRelease(&amp;pNodeObject);
-        SafeRelease(&amp;pD3DManager);
-        SafeRelease(&amp;pNode);
+        SafeRelease(&pNodeObject);
+        SafeRelease(&pD3DManager);
+        SafeRelease(&pNode);
 
     } // End of for loop.
 
-    SafeRelease(&amp;pNodeObject);
-    SafeRelease(&amp;pD3DManager);
-    SafeRelease(&amp;pNode);
+    SafeRelease(&pNodeObject);
+    SafeRelease(&pD3DManager);
+    SafeRelease(&pNode);
 
     return bFound ? S_OK : E_FAIL;
 }
@@ -386,7 +386,7 @@ HRESULT GetTransformFromNode(
     IMFAttributes *pAttributes = NULL;
 
     // Is this a transform node?
-    HRESULT hr = pNode->GetNodeType(&amp;type);
+    HRESULT hr = pNode->GetNodeType(&type);
 
     if (FAILED(hr))
     {
@@ -400,7 +400,7 @@ HRESULT GetTransformFromNode(
     }
 
     // Check whether the node has an object pointer.
-    hr = pNode->GetObject(&amp;pNodeObject);
+    hr = pNode->GetObject(&pNodeObject);
 
     if (SUCCEEDED(hr))
     {
@@ -409,17 +409,17 @@ HRESULT GetTransformFromNode(
         // 2. Pointer to an activation object.
 
         // Is it an MFT? Query for IMFTransform.
-        hr = pNodeObject->QueryInterface(IID_IMFTransform, (void**)&amp;pMFT);
+        hr = pNodeObject->QueryInterface(IID_IMFTransform, (void**)&pMFT);
         if (FAILED(hr))
         {
             // It is not an MFT, so it should be an activation object.
-            hr = pNodeObject->QueryInterface(IID_PPV_ARGS(&amp;pActivate));
+            hr = pNodeObject->QueryInterface(IID_PPV_ARGS(&pActivate));
 
             // Use the activation object to create the MFT.
 
             if (SUCCEEDED(hr))
             {
-                hr = pActivate->ActivateObject(IID_PPV_ARGS(&amp;pMFT));
+                hr = pActivate->ActivateObject(IID_PPV_ARGS(&pMFT));
             }
 
             // Replace the node's object pointer with the MFT.
@@ -447,7 +447,7 @@ HRESULT GetTransformFromNode(
         GUID clsidMFT;
 
         // The node does not have an object pointer. Look for a CLSID.
-        hr = pNode->GetGUID(MF_TOPONODE_TRANSFORM_OBJECTID, &amp;clsidMFT);
+        hr = pNode->GetGUID(MF_TOPONODE_TRANSFORM_OBJECTID, &clsidMFT);
        
         // Create the MFT.
         if (SUCCEEDED(hr))
@@ -455,7 +455,7 @@ HRESULT GetTransformFromNode(
             hr = CoCreateInstance(
                 clsidMFT, NULL,
                 CLSCTX_INPROC_SERVER, 
-                IID_PPV_ARGS(&amp;pMFT)
+                IID_PPV_ARGS(&pMFT)
                 );
         }
 
@@ -463,7 +463,7 @@ HRESULT GetTransformFromNode(
         // MFT attribute store. 
         if (SUCCEEDED(hr))
         {
-            if (SUCCEEDED(pMFT->GetAttributes(&amp;pAttributes)))
+            if (SUCCEEDED(pMFT->GetAttributes(&pAttributes)))
             {
                 // Copy from pNode to pAttributes.
                 hr = pNode->CopyAllItems(pAttributes); 
@@ -484,10 +484,10 @@ HRESULT GetTransformFromNode(
         (*ppMFT)->AddRef();
     }
 
-    SafeRelease(&amp;pNodeObject);
-    SafeRelease(&amp;pMFT);
-    SafeRelease(&amp;pActivate);
-    SafeRelease(&amp;pAttributes);
+    SafeRelease(&pNodeObject);
+    SafeRelease(&pMFT);
+    SafeRelease(&pActivate);
+    SafeRelease(&pAttributes);
     return hr;
 }
 ```
@@ -506,7 +506,7 @@ BOOL IsTransformD3DAware(IMFTransform *pMFT)
     
     IMFAttributes *pAttributes = NULL;
 
-    HRESULT hr = pMFT->GetAttributes(&amp;pAttributes);
+    HRESULT hr = pMFT->GetAttributes(&pAttributes);
     if (SUCCEEDED(hr))
     {
         bD3DAware = MFGetAttributeUINT32(pAttributes, MF_SA_D3D_AWARE, FALSE);
@@ -533,7 +533,7 @@ HRESULT EnableVideoAcceleration(IMFTopology *pTopology, BOOL bEnable)
 
     // Look for the node that supports the Direct3D Manager.
     
-    HRESULT hr = FindDeviceManager(pTopology, &amp;pD3DManager, &amp;pD3DManagerNode); 
+    HRESULT hr = FindDeviceManager(pTopology, &pD3DManager, &pD3DManagerNode); 
     if (FAILED(hr))
     {
         //  There is no Direct3D device manager in the topology.
@@ -544,12 +544,12 @@ HRESULT EnableVideoAcceleration(IMFTopology *pTopology, BOOL bEnable)
     DWORD dwOutputIndex = 0;
 
     // Get the node upstream from the device manager node.
-    hr = pD3DManagerNode->GetInput(0, &amp;pUpstreamNode, &amp;dwOutputIndex);
+    hr = pD3DManagerNode->GetInput(0, &pUpstreamNode, &dwOutputIndex);
 
     // Get the MFT from the upstream node.
     if (SUCCEEDED(hr))
     {
-        hr = GetTransformFromNode(pUpstreamNode, &amp;pMFT);
+        hr = GetTransformFromNode(pUpstreamNode, &pMFT);
     }
 
     // If the MFT is Direct3D-aware, notify the MFT of the device 
@@ -570,10 +570,10 @@ HRESULT EnableVideoAcceleration(IMFTopology *pTopology, BOOL bEnable)
         }
     }
 
-    SafeRelease(&amp;pD3DManagerNode);
-    SafeRelease(&amp;pUpstreamNode);
-    SafeRelease(&amp;pD3DManager);
-    SafeRelease(&amp;pMFT);
+    SafeRelease(&pD3DManagerNode);
+    SafeRelease(&pUpstreamNode);
+    SafeRelease(&pD3DManager);
+    SafeRelease(&pMFT);
     return hr;
 }
 ```

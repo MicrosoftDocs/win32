@@ -78,7 +78,7 @@ fe.ptd = NULL;
 fe.dwAspect = DVASPECT_CONTENT;
 fe.lindex = -1;
 fe.tymed = TYMED_HGLOBAL;
-hr = pDataObj->GetData(&amp;fe, &amp;stm);
+hr = pDataObj->GetData(&fe, &stm);
 if(SUCCEEDED(hr))
 {
     DSPROPERTYPAGEINFO *pPageInfo;
@@ -94,7 +94,7 @@ if(SUCCEEDED(hr))
         GlobalUnlock(stm.hGlobal);
     }
 
-    ReleaseStgMedium(&amp;stm);
+    ReleaseStgMedium(&stm);
 }
 ```
 
@@ -171,11 +171,11 @@ void wmain(int argc, wchar_t *argv[ ])
     //  Convert to GUID.
     hr = CLSIDFromString(
         szCLSID,  //  Pointer to the string representation of the CLSID.
-        &amp;clsid    //  Pointer to the CLSID.
+        &clsid    //  Pointer to the CLSID.
         );
 
     hr = AddPropertyPageToDisplaySpecifier(szClass, //  ldapDisplayName of the class.
-                                           &amp;clsid //  CLSID of property page COM object.
+                                           &clsid //  CLSID of property page COM object.
                                           );
     if (S_OK == hr)
         wprintf(L"Property page registered successfully\n");
@@ -209,8 +209,8 @@ HRESULT AddPropertyPageToDisplaySpecifier(LPOLESTR szClassName, //  ldapDisplayN
     //  so that it will be used when a computer is running with locale
     //  set to German and not the locale set on the
     //  computer where this application is running.
-    hr = BindToDisplaySpecifiersContainerByLocale(&amp;locale,
-                                                  &amp;pContainer
+    hr = BindToDisplaySpecifiersContainerByLocale(&locale,
+                                                  &pContainer
                                                  );
     //  Handle fail case where dispspec object
     //  is not found and give option to create one.
@@ -222,7 +222,7 @@ HRESULT AddPropertyPageToDisplaySpecifier(LPOLESTR szClassName, //  ldapDisplayN
 #ifdef _MBCS
         wcscpy_s(szDispSpec, szClassName);
         wcscat_s(szDispSpec, L"-Display");
-        hr = GetDisplaySpecifier(pContainer, szDispSpec, &amp;pObject);
+        hr = GetDisplaySpecifier(pContainer, szDispSpec, &pObject);
 #endif _MBCS#endif _MBCS
         if (SUCCEEDED(hr))
         {
@@ -231,23 +231,23 @@ HRESULT AddPropertyPageToDisplaySpecifier(LPOLESTR szClassName, //  ldapDisplayN
             ::StringFromGUID2(*pPropPageCLSID, szDSGUID, 39); 
 
             //  Get the adminPropertyPages property.
-            hr = pObject->GetEx(sbstrProperty, &amp;var);
+            hr = pObject->GetEx(sbstrProperty, &var);
             if (SUCCEEDED(hr))
             {
                 LONG lstart, lend;
-                SAFEARRAY *sa = V_ARRAY(&amp;var);
+                SAFEARRAY *sa = V_ARRAY(&var);
                 VARIANT varItem;
                 //  Get the lower and upper bound.
-                hr = SafeArrayGetLBound(sa, 1, &amp;lstart);
+                hr = SafeArrayGetLBound(sa, 1, &lstart);
                 if (SUCCEEDED(hr))
                 {
-                    hr = SafeArrayGetUBound(sa, 1, &amp;lend);
+                    hr = SafeArrayGetUBound(sa, 1, &lend);
                 }
                 if (SUCCEEDED(hr))
                 {
                     //  Iterate the values to verify if the prop page CLSID
                     //  is already registered.
-                    VariantInit(&amp;varItem);
+                    VariantInit(&varItem);
                     BOOL bExists = FALSE;
                     UINT uiLastItem = 0;
                     UINT uiTemp = 0;
@@ -257,7 +257,7 @@ HRESULT AddPropertyPageToDisplaySpecifier(LPOLESTR szClassName, //  ldapDisplayN
                     LPOLESTR szStr = NULL;
                     for (long idx=lstart; idx <= lend; idx++)
                     {
-                        hr = SafeArrayGetElement(sa, &amp;idx, &amp;varItem);
+                        hr = SafeArrayGetElement(sa, &idx, &varItem);
                         if (SUCCEEDED(hr))
                         {
 #ifdef _MBCS
@@ -273,7 +273,7 @@ HRESULT AddPropertyPageToDisplaySpecifier(LPOLESTR szClassName, //  ldapDisplayN
                             uiTemp = _wtoi(szItem);
                             if (uiTemp > uiLastItem)
                                 uiLastItem = uiTemp;
-                            VariantClear(&amp;varItem);
+                            VariantClear(&varItem);
 #endif _MBCS
                         }
                     }
@@ -296,7 +296,7 @@ HRESULT AddPropertyPageToDisplaySpecifier(LPOLESTR szClassName, //  ldapDisplayN
                         //  Only one value to add
                         LPOLESTR pszAddStr[1];
                         pszAddStr[0]=szValue;
-                        ADsBuildVarArrayStr(pszAddStr, 1, &amp;varAdd);
+                        ADsBuildVarArrayStr(pszAddStr, 1, &varAdd);
 
                         hr = pObject->PutEx(ADS_PROPERTY_APPEND, sbstrProperty, varAdd);
                         if (SUCCEEDED(hr))
@@ -309,7 +309,7 @@ HRESULT AddPropertyPageToDisplaySpecifier(LPOLESTR szClassName, //  ldapDisplayN
                         hr = S_FALSE;
                 }
             }
-            VariantClear(&amp;var);
+            VariantClear(&var);
         }
         if (pObject)
             pObject->Release();
@@ -351,12 +351,12 @@ HRESULT BindToDisplaySpecifiersContainerByLocale(LCID *locale,
                        NULL,
                        ADS_SECURE_AUTHENTICATION, // Use Secure Authentication.
                        IID_IADs,
-                       (void**)&amp;pObj);
+                       (void**)&pObj);
 
     if (SUCCEEDED(hr))
     {
         //  Get the DN to the config container.
-        hr = pObj->Get(CComBSTR("configurationNamingContext"), &amp;var);
+        hr = pObj->Get(CComBSTR("configurationNamingContext"), &var);
         if (SUCCEEDED(hr))
         {
 #ifdef _MBCS
@@ -383,7 +383,7 @@ HRESULT BindToDisplaySpecifiersContainerByLocale(LCID *locale,
         }
     }
     //   Cleanup.
-    VariantClear(&amp;var);
+    VariantClear(&var);
     if (pObj)
         pObj->Release();
 
@@ -413,7 +413,7 @@ HRESULT GetDisplaySpecifier(IADsContainer *pContainer, LPOLESTR szDispSpec, IADs
     //  Use child object binding with IADsContainer::GetObject.
     hr = pContainer->GetObject(CComBSTR("displaySpecifier"),
         sbstrDSPath,
-        &amp;pDisp);
+        &pDisp);
     if (SUCCEEDED(hr))
     {
         hr = pDisp->QueryInterface(IID_IADs, (void**)ppObject);

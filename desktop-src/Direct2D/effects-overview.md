@@ -68,7 +68,7 @@ You can use the Direct2D effects API to apply transforms to images.
     ```C++
         ComPtr<ID2D1Effect> bitmapSourceEffect;
 
-        DX::ThrowIfFailed(m_d2dContext->CreateEffect(CLSID_D2D1BitmapSource, &amp;bitmapSourceEffect));
+        DX::ThrowIfFailed(m_d2dContext->CreateEffect(CLSID_D2D1BitmapSource, &bitmapSourceEffect));
     ```
 
     
@@ -86,7 +86,7 @@ You can use the Direct2D effects API to apply transforms to images.
     ```C++
         ComPtr<ID2D1Effect> gaussianBlurEffect;
 
-        DX::ThrowIfFailed(m_d2dContext->CreateEffect(CLSID_D2D1GaussianBlur, &amp;gaussianBlurEffect));
+        DX::ThrowIfFailed(m_d2dContext->CreateEffect(CLSID_D2D1GaussianBlur, &gaussianBlurEffect));
     ```
 
     
@@ -130,7 +130,7 @@ Direct2D provides built-in effects that can transform images in 2D and 3D space,
 
 ```C++
 ComPtr<ID2D1Effect> affineTransformEffect;
-DX::ThrowIfFailed(m_d2dContext->CreateEffect(CLSID_D2D12DAffineTransform, &amp;affineTransformEffect));
+DX::ThrowIfFailed(m_d2dContext->CreateEffect(CLSID_D2D12DAffineTransform, &affineTransformEffect));
 
 affineTransformEffect->SetInput(0, bitmap.Get());
 
@@ -167,7 +167,7 @@ The built-in composite and arithmetic composite effects provide various modes, f
 
 ```C++
 ComPtr<ID2D1Effect> compositeEffect;
-DX::ThrowIfFailed(m_d2dContext->CreateEffect(CLSID_D2D1Composite, &amp;compositeEffect));
+DX::ThrowIfFailed(m_d2dContext->CreateEffect(CLSID_D2D1Composite, &compositeEffect));
 
 compositeEffect->SetInput(0, bitmap.Get());
 compositeEffect->SetInput(1, bitmapTwo.Get());
@@ -188,7 +188,7 @@ There are a few built-in Direct2D effects that allow you to alter the pixel data
 
 ```C++
 ComPtr<ID2D1Effect> colorMatrixEffect;
-DX::ThrowIfFailed(m_d2dContext->CreateEffect(CLSID_D2D1ColorMatrix, &amp;colorMatrixEffect));
+DX::ThrowIfFailed(m_d2dContext->CreateEffect(CLSID_D2D1ColorMatrix, &colorMatrixEffect));
 
 colorMatrixEffect->SetInput(0, bitmap.Get());
 
@@ -228,9 +228,9 @@ ComPtr<ID2D1Effect> shadowEffect;
 ComPtr<ID2D1Effect> affineTransformEffect;
 ComPtr<ID2D1Effect> compositeEffect;
 
-DX::ThrowIfFailed(m_d2dContext->CreateEffect(CLSID_D2D1Shadow, &amp;shadowEffect));
-DX::ThrowIfFailed(m_d2dContext->CreateEffect(CLSID_D2D12DAffineTransform, &amp;affineTransformEffect));
-DX::ThrowIfFailed(m_d2dContext->CreateEffect(CLSID_D2D1Composite, &amp;compositeEffect));
+DX::ThrowIfFailed(m_d2dContext->CreateEffect(CLSID_D2D1Shadow, &shadowEffect));
+DX::ThrowIfFailed(m_d2dContext->CreateEffect(CLSID_D2D12DAffineTransform, &affineTransformEffect));
+DX::ThrowIfFailed(m_d2dContext->CreateEffect(CLSID_D2D1Composite, &compositeEffect));
 
 shadowEffect->SetInput(0, bitmap.Get());
 affineTransformEffect->SetInputEffect(0, shadowEffect.Get());

@@ -171,7 +171,7 @@ HRESULT CAudioSessionVolume::Initialize()
         __uuidof(MMDeviceEnumerator),
         NULL,
         CLSCTX_INPROC_SERVER,
-        IID_PPV_ARGS(&amp;pDeviceEnumerator)
+        IID_PPV_ARGS(&pDeviceEnumerator)
         );
 
     if (FAILED(hr))
@@ -183,7 +183,7 @@ HRESULT CAudioSessionVolume::Initialize()
     hr = pDeviceEnumerator->GetDefaultAudioEndpoint(
         eRender,
         eConsole,   // The SAR uses 'eConsole' by default.
-        &amp;pDevice
+        &pDevice
         );
 
     if (FAILED(hr))
@@ -196,7 +196,7 @@ HRESULT CAudioSessionVolume::Initialize()
         __uuidof(IAudioSessionManager),
         CLSCTX_INPROC_SERVER,
         NULL,
-        (void**) &amp;pAudioSessionManager
+        (void**) &pAudioSessionManager
         );
 
     if (FAILED(hr))
@@ -206,9 +206,9 @@ HRESULT CAudioSessionVolume::Initialize()
 
     // Get the audio session.
     hr = pAudioSessionManager->GetAudioSessionControl(
-        &amp;GUID_NULL,     // Get the default audio session.
+        &GUID_NULL,     // Get the default audio session.
         FALSE,          // The session is not cross-process.
-        &amp;m_pAudioSession
+        &m_pAudioSession
         );
 
 
@@ -218,13 +218,13 @@ HRESULT CAudioSessionVolume::Initialize()
     }
 
     hr = pAudioSessionManager->GetSimpleAudioVolume(
-        &amp;GUID_NULL, 0, &amp;m_pSimpleAudioVolume
+        &GUID_NULL, 0, &m_pSimpleAudioVolume
         );
 
 done:
-    SafeRelease(&amp;pDeviceEnumerator);
-    SafeRelease(&amp;pDevice);
-    SafeRelease(&amp;pAudioSessionManager);
+    SafeRelease(&pDeviceEnumerator);
+    SafeRelease(&pDevice);
+    SafeRelease(&pAudioSessionManager);
     return hr;
 }
 ```
@@ -247,7 +247,7 @@ HRESULT CAudioSessionVolume::SetVolume(float flVolume)
     {
         return m_pSimpleAudioVolume->SetMasterVolume(
             flVolume,
-            &amp;AudioSessionVolumeCtx  // Event context.
+            &AudioSessionVolumeCtx  // Event context.
             );
     }
 }
@@ -282,8 +282,8 @@ CAudioSessionVolume::~CAudioSessionVolume()
 {
     EnableNotifications(FALSE);
 
-    SafeRelease(&amp;m_pAudioSession);
-    SafeRelease(&amp;m_pSimpleAudioVolume);
+    SafeRelease(&m_pAudioSession);
+    SafeRelease(&m_pSimpleAudioVolume);
 };
 
 
@@ -334,7 +334,7 @@ HRESULT CAudioSessionVolume::Initialize()
         __uuidof(MMDeviceEnumerator),
         NULL,
         CLSCTX_INPROC_SERVER,
-        IID_PPV_ARGS(&amp;pDeviceEnumerator)
+        IID_PPV_ARGS(&pDeviceEnumerator)
         );
 
     if (FAILED(hr))
@@ -346,7 +346,7 @@ HRESULT CAudioSessionVolume::Initialize()
     hr = pDeviceEnumerator->GetDefaultAudioEndpoint(
         eRender,
         eConsole,   // The SAR uses 'eConsole' by default.
-        &amp;pDevice
+        &pDevice
         );
 
     if (FAILED(hr))
@@ -359,7 +359,7 @@ HRESULT CAudioSessionVolume::Initialize()
         __uuidof(IAudioSessionManager),
         CLSCTX_INPROC_SERVER,
         NULL,
-        (void**) &amp;pAudioSessionManager
+        (void**) &pAudioSessionManager
         );
 
     if (FAILED(hr))
@@ -369,9 +369,9 @@ HRESULT CAudioSessionVolume::Initialize()
 
     // Get the audio session.
     hr = pAudioSessionManager->GetAudioSessionControl(
-        &amp;GUID_NULL,     // Get the default audio session.
+        &GUID_NULL,     // Get the default audio session.
         FALSE,          // The session is not cross-process.
-        &amp;m_pAudioSession
+        &m_pAudioSession
         );
 
 
@@ -381,13 +381,13 @@ HRESULT CAudioSessionVolume::Initialize()
     }
 
     hr = pAudioSessionManager->GetSimpleAudioVolume(
-        &amp;GUID_NULL, 0, &amp;m_pSimpleAudioVolume
+        &GUID_NULL, 0, &m_pSimpleAudioVolume
         );
 
 done:
-    SafeRelease(&amp;pDeviceEnumerator);
-    SafeRelease(&amp;pDevice);
-    SafeRelease(&amp;pAudioSessionManager);
+    SafeRelease(&pDeviceEnumerator);
+    SafeRelease(&pDevice);
+    SafeRelease(&pAudioSessionManager);
     return hr;
 }
 
@@ -403,12 +403,12 @@ STDMETHODIMP CAudioSessionVolume::QueryInterface(REFIID riid, void **ppv)
 
 STDMETHODIMP_(ULONG) CAudioSessionVolume::AddRef()
 {
-    return InterlockedIncrement(&amp;m_cRef);
+    return InterlockedIncrement(&m_cRef);
 }
 
 STDMETHODIMP_(ULONG) CAudioSessionVolume::Release()
 {
-    LONG cRef = InterlockedDecrement( &amp;m_cRef );
+    LONG cRef = InterlockedDecrement( &m_cRef );
     if (cRef == 0)
     {
         delete this;
@@ -482,7 +482,7 @@ HRESULT CAudioSessionVolume::SetVolume(float flVolume)
     {
         return m_pSimpleAudioVolume->SetMasterVolume(
             flVolume,
-            &amp;AudioSessionVolumeCtx  // Event context.
+            &AudioSessionVolumeCtx  // Event context.
             );
     }
 }
@@ -514,7 +514,7 @@ HRESULT CAudioSessionVolume::SetMute(BOOL bMute)
     {
         return m_pSimpleAudioVolume->SetMute(
             bMute,
-            &amp;AudioSessionVolumeCtx  // Event context.
+            &AudioSessionVolumeCtx  // Event context.
             );
     }
 }
@@ -545,8 +545,8 @@ HRESULT CAudioSessionVolume::OnSimpleVolumeChanged(
 {
     // Check if we should post a message to the application.
 
-    if ( m_bNotificationsEnabled &amp;&amp;
-        (*EventContext != AudioSessionVolumeCtx) &amp;&amp;
+    if ( m_bNotificationsEnabled &&
+        (*EventContext != AudioSessionVolumeCtx) &&
         (m_hwndNotification != NULL)
         )
     {
@@ -558,7 +558,7 @@ HRESULT CAudioSessionVolume::OnSimpleVolumeChanged(
         ::PostMessage(
             m_hwndNotification,
             m_uNotificationMessage,
-            *((WPARAM*)(&amp;NewVolume)),  // Coerce the float.
+            *((WPARAM*)(&NewVolume)),  // Coerce the float.
             (LPARAM)NewMute
             );
     }

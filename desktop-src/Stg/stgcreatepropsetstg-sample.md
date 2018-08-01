@@ -34,7 +34,7 @@ The StgCreatePropSetStg.cpp sample shows how the [**StgCreatePropSetStg**](/wind
 #pragma comment( lib, "ole32.lib" )
 
 IPropertyStorage*
-CreatePropertySetInStorage( IStorage *pStg, const FMTID &amp;fmtid )
+CreatePropertySetInStorage( IStorage *pStg, const FMTID &fmtid )
 {
     HRESULT hr = S_OK;
     IPropertySetStorage *pPropSetStg = NULL;
@@ -43,14 +43,14 @@ CreatePropertySetInStorage( IStorage *pStg, const FMTID &amp;fmtid )
     try
     {
         hr = StgCreatePropSetStg( pStg, 0 /*reserved*/, 
-                                  &amp;pPropSetStg );
+                                  &pPropSetStg );
         if( FAILED(hr) ) 
             throw L"Failed StgCreatePropSetStg (%08x)";
 
         hr = pPropSetStg->Create( fmtid, NULL,
             PROPSETFLAG_DEFAULT,
             STGM_CREATE | STGM_READWRITE | STGM_SHARE_EXCLUSIVE,
-            &amp;pPropStg );
+            &pPropStg );
         if( FAILED(hr) ) 
             throw L"Failed IPropertySetStorage::Create (%08x)";
 
@@ -90,7 +90,7 @@ extern "C" void wmain()
                                  STGFMT_STORAGE,
                                  0, NULL, NULL,
                                  IID_IStorage,
-                                 reinterpret_cast<void**>(&amp;pStg) );
+                                 reinterpret_cast<void**>(&pStg) );
         if( FAILED(hr) ) throw L"Failed StgCreateStorageEx";
 
         // Get and use an IPropertySetStorage that represents this 

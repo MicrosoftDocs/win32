@@ -23,7 +23,7 @@ To modify the pixels of a bitmap source
         CLSID_WICImagingFactory,
         NULL,
         CLSCTX_INPROC_SERVER,
-        IID_PPV_ARGS(&amp;m_pIWICFactory)
+        IID_PPV_ARGS(&m_pIWICFactory)
         );
     ```
 
@@ -42,7 +42,7 @@ To modify the pixels of a bitmap source
        NULL,                           // Do not prefer a particular vendor
        GENERIC_READ,                   // Desired read access to the file
        WICDecodeMetadataCacheOnDemand, // Cache metadata when needed
-       &amp;pIDecoder                      // Pointer to the decoder
+       &pIDecoder                      // Pointer to the decoder
        );
     ```
 
@@ -54,7 +54,7 @@ To modify the pixels of a bitmap source
     // Retrieve the first bitmap frame.
     if (SUCCEEDED(hr))
     {
-       hr = pIDecoder->GetFrame(0, &amp;pIDecoderFrame);
+       hr = pIDecoder->GetFrame(0, &pIDecoderFrame);
     }
     ```
 
@@ -79,7 +79,7 @@ To modify the pixels of a bitmap source
        hr = m_pIWICFactory->CreateBitmapFromSource(
           pIDecoderFrame,          // Create a bitmap from the image frame
           WICBitmapCacheOnDemand,  // Cache metadata when needed
-          &amp;pIBitmap);              // Pointer to the bitmap
+          &pIBitmap);              // Pointer to the bitmap
     }
     ```
 
@@ -93,7 +93,7 @@ To modify the pixels of a bitmap source
        // Obtain a bitmap lock for exclusive write.
        // The lock is for a 10x10 rectangle starting at the top left of the
        // bitmap.
-       hr = pIBitmap->Lock(&amp;rcLock, WICBitmapLockWrite, &amp;pILock);
+       hr = pIBitmap->Lock(&rcLock, WICBitmapLockWrite, &pILock);
     ```
 
     
@@ -109,14 +109,14 @@ To modify the pixels of a bitmap source
           // Retrieve a pointer to the pixel data.
           if (SUCCEEDED(hr))
           {
-             hr = pILock->GetDataPointer(&amp;cbBufferSize, &amp;pv);
+             hr = pILock->GetDataPointer(&cbBufferSize, &pv);
           }
           
           // Pixel manipulation using the image data pointer pv.
           // ...
 
           // Release the bitmap lock.
-          SafeRelease(&amp;pILock);
+          SafeRelease(&pILock);
        }
     }
     ```
@@ -128,9 +128,9 @@ To modify the pixels of a bitmap source
 7.  Clean up created objects.
 
     ```C++
-    SafeRelease(&amp;pIBitmap);
-    SafeRelease(&amp;pIDecoder);
-    SafeRelease(&amp;pIDecoderFrame);
+    SafeRelease(&pIBitmap);
+    SafeRelease(&pIDecoder);
+    SafeRelease(&pIDecoderFrame);
     ```
 
     

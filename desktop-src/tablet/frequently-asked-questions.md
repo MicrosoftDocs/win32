@@ -99,7 +99,7 @@ IInkCollector* pIInkCollector = NULL;
 HRESULT hr = CoCreateInstance(CLSID_InkCollector,
  NULL, CLSCTX_INPROC_SERVER, 
  IID_IInkCollector,
- (void **)&amp;pIInkCollector);
+ (void **)&pIInkCollector);
 if (SUCCEEDED(hr)) 
 { 
   /* InkCollector is usable. */ 

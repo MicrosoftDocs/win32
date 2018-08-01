@@ -25,7 +25,7 @@ MyInf = SetupOpenInfFile (
       szInfFileName,       //the filename of the inf file to open
       NULL,                //optional class information
       INF_STYLE_WIN4,      //the inf style
-      &amp;ErrorLine           //line number of the syntax error
+      &ErrorLine           //line number of the syntax error
 );
 ```
 

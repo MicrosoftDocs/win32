@@ -25,7 +25,7 @@ path.AddLine(Point(50, 200), Point(100, 200));
 path.AddLine(Point(100, 200), Point(100, 250));
 
 penJoin.SetLineJoin(LineJoinBevel);
-graphics.DrawPath(&amp;penJoin, &amp;path);
+graphics.DrawPath(&penJoin, &path);
 ```
 
 

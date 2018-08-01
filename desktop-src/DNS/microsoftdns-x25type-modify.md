@@ -32,7 +32,7 @@ The **Modify** method updates an X.25 (X25) Resource Record.
 void Modify(
   [in, optional] uint32               TTL,
   [in, optional] string               PSDNAddress,
-  [out, ref]     MicrosoftDNS_X25Type &amp;RR
+  [out, ref]     MicrosoftDNS_X25Type &RR
 );
 ```
 

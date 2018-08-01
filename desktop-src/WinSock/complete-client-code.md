@@ -54,19 +54,19 @@ int __cdecl main(int argc, char **argv)
     }
 
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2,2), &amp;wsaData);
+    iResult = WSAStartup(MAKEWORD(2,2), &wsaData);
     if (iResult != 0) {
         printf("WSAStartup failed with error: %d\n", iResult);
         return 1;
     }
 
-    ZeroMemory( &amp;hints, sizeof(hints) );
+    ZeroMemory( &hints, sizeof(hints) );
     hints.ai_family = AF_UNSPEC;
     hints.ai_socktype = SOCK_STREAM;
     hints.ai_protocol = IPPROTO_TCP;
 
     // Resolve the server address and port
-    iResult = getaddrinfo(argv[1], DEFAULT_PORT, &amp;hints, &amp;result);
+    iResult = getaddrinfo(argv[1], DEFAULT_PORT, &hints, &result);
     if ( iResult != 0 ) {
         printf("getaddrinfo failed with error: %d\n", iResult);
         WSACleanup();

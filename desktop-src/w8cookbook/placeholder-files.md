@@ -46,19 +46,19 @@ Use the shell data model for seamless behavior:
 ```
 #include <winnth> //for IO_REPARSE_TAG_FILE_PLACEHOLDER
 //  Helper that indicates this is a 
-bool IsFilePlaceholder(WIN32_FIND_DATA const &amp;findData)
+bool IsFilePlaceholder(WIN32_FIND_DATA const &findData)
 {
-  return (findData.dwFileAttributes & FILE_ATTRIBUTE_REPARSE_POINT) &amp;&amp;
+  return (findData.dwFileAttributes & FILE_ATTRIBUTE_REPARSE_POINT) &&
     (findData.dwReserved0 == IO_REPARSE_TAG_FILE_PLACEHOLDER);
 }
 bool IsFilePlaceholder(_In_PCWSTR filePath)
 {
   bool isPlaceholder = false;
   WIN32_FIND_DATA findData;
-  HANDLE hFind = FindFirstFile(filePath, &amp;findData);
+  HANDLE hFind = FindFirstFile(filePath, &findData);
   if (hFind ! = INVALID_HANDLE_VALUE)
   {
-    isPlaceholder = (findData.dwFileAttributes &    FILE_ATTRIBUTE_REPARSE_POINT) &amp;&amp;
+    isPlaceholder = (findData.dwFileAttributes &    FILE_ATTRIBUTE_REPARSE_POINT) &&
     (findData.dwReserved0 == IO_REPARSE_TAG_FILE_PLACEHOLDER);
     FindClose(hFind);
   }

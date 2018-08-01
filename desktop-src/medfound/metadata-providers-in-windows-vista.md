@@ -38,14 +38,14 @@ HRESULT GetMetadata(
     IMFPresentationDescriptor *pPD = NULL;
     IMFMetadataProvider *pProvider = NULL;
 
-    HRESULT hr = pSource->CreatePresentationDescriptor(&amp;pPD);
+    HRESULT hr = pSource->CreatePresentationDescriptor(&pPD);
     if (FAILED(hr))
     {
         goto done;
     }
 
     hr = MFGetService(
-        pSource, MF_METADATA_PROVIDER_SERVICE, IID_PPV_ARGS(&amp;pProvider));
+        pSource, MF_METADATA_PROVIDER_SERVICE, IID_PPV_ARGS(&pProvider));
 
     if (FAILED(hr))
     {
@@ -55,8 +55,8 @@ HRESULT GetMetadata(
     hr = pProvider->GetMFMetadata(pPD, dwStream, 0, ppMetadata);
 
 done:
-    SafeRelease(&amp;pPD);
-    SafeRelease(&amp;pProvider);
+    SafeRelease(&pPD);
+    SafeRelease(&pProvider);
     return hr;
 }
 ```
@@ -70,7 +70,7 @@ The following code shows steps 7–8. Assume that `DisplayProperty` is a functio
 HRESULT DisplayMetadata(IMFMetadata *pMetadata)
 {
     PROPVARIANT varNames;
-    HRESULT hr = pMetadata->GetAllPropertyNames(&amp;varNames);
+    HRESULT hr = pMetadata->GetAllPropertyNames(&varNames);
     if (FAILED(hr))
     {
         return hr;
@@ -81,15 +81,15 @@ HRESULT DisplayMetadata(IMFMetadata *pMetadata)
         wprintf(L"%s\n", varNames.calpwstr.pElems[i]);
 
         PROPVARIANT varValue;
-        hr = pMetadata->GetProperty( varNames.calpwstr.pElems[i], &amp;varValue );
+        hr = pMetadata->GetProperty( varNames.calpwstr.pElems[i], &varValue );
         if (SUCCEEDED(hr))
         {
             DisplayProperty(varValue);
-            PropVariantClear(&amp;varValue);
+            PropVariantClear(&varValue);
         }
     }
 
-    PropVariantClear(&amp;varNames);
+    PropVariantClear(&varNames);
     return hr;
 }
 ```

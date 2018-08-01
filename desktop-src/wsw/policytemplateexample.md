@@ -50,7 +50,7 @@ CalculatorBinding1_policies _calculatorBinding1 =
     {
         {
             WS_CHANNEL_PROPERTY_ENCODING,
-                &amp;_calculatorBinding1.encoding,
+                &_calculatorBinding1.encoding,
                 sizeof(_calculatorBinding1.encoding),
         },
     },
@@ -58,8 +58,8 @@ CalculatorBinding1_policies _calculatorBinding1 =
     { // securityPropertiesArray
         {
             WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL,
-                (void*)&amp;_calculatorBinding1.protectionLevel,
-                sizeof(&amp;_calculatorBinding1.protectionLevel),
+                (void*)&_calculatorBinding1.protectionLevel,
+                sizeof(&_calculatorBinding1.protectionLevel),
         },
     },
     {  // headerAuthBinding
@@ -67,8 +67,8 @@ CalculatorBinding1_policies _calculatorBinding1 =
         {  // security binding properties
             {
                 WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_SCHEME,
-                    (void*)&amp;_calculatorBinding1.headerAuthBinding.headerAuthentication,
-                    sizeof(&amp;_calculatorBinding1.headerAuthBinding.headerAuthentication),
+                    (void*)&_calculatorBinding1.headerAuthBinding.headerAuthentication,
+                    sizeof(&_calculatorBinding1.headerAuthBinding.headerAuthentication),
             },
         },  // security binding properties
     },  // headerAuthBinding
@@ -106,7 +106,7 @@ HRESULT CalculatorBinding1_CreateServiceProxy(
         WS_HTTP_HEADER_AUTH_BINDING_TEMPLATE_TYPE,
         templateValue,
         templateValue == NULL ? 0 : sizeof(WS_HTTP_HEADER_AUTH_BINDING_TEMPLATE),
-        &amp;_calculatorBinding1.policyTemplate,   // template description as generated in the stub file
+        &_calculatorBinding1.policyTemplate,   // template description as generated in the stub file
         sizeof(WS_HTTP_HEADER_AUTH_POLICY_DESCRIPTION),
         serviceProxy,   
         error);   
@@ -134,7 +134,7 @@ HRESULT CalculatorBinding1_CreateServiceEndpoint(
         WS_HTTP_HEADER_AUTH_BINDING_TEMPLATE_TYPE,
         templateValue,
         templateValue == NULL ? 0 : sizeof(WS_HTTP_HEADER_AUTH_BINDING_TEMPLATE),
-        &amp;_calculatorBinding1.policyTemplate,   // template description as generated in the stub file
+        &_calculatorBinding1.policyTemplate,   // template description as generated in the stub file
         sizeof(WS_HTTP_HEADER_AUTH_POLICY_DESCRIPTION),
         serviceEndpoint,
         error);
@@ -161,16 +161,16 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
 
     WS_CHANNEL_PROPERTY userChannelProperties[1];
     userChannelProperties[0].id = WS_CHANNEL_PROPERTY_RECEIVE_TIMEOUT;
-    userChannelProperties[0].value = &amp;receiveTimeout;
+    userChannelProperties[0].value = &receiveTimeout;
     userChannelProperties[0].valueSize = sizeof(receiveTimeout);
 
     WS_HTTP_HEADER_AUTH_BINDING_TEMPLATE templateStruct = {};
-    templateStruct.httpHeaderAuthSecurityBinding.clientCredential = &amp;windowsCredential.credential;
+    templateStruct.httpHeaderAuthSecurityBinding.clientCredential = &windowsCredential.credential;
     templateStruct.channelProperties.properties = userChannelProperties;
     templateStruct.channelProperties.propertyCount = WsCountOf(userChannelProperties);
 
     WS_ERROR* error = NULL;
-    hr = WsCreateError(NULL, 0, &amp;error);
+    hr = WsCreateError(NULL, 0, &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -179,8 +179,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = CalculatorBinding1_CreateServiceProxy(
         NULL,
         0,
-        &amp;templateStruct, 
-        &amp;proxy,
+        &templateStruct, 
+        &proxy,
         error);
     // do real work here.
     if (FAILED(hr))

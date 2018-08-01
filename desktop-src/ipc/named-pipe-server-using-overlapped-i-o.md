@@ -112,7 +112,7 @@ int _tmain(VOID)
  
       Pipe[i].fPendingIO = ConnectToNewClient( 
          Pipe[i].hPipeInst, 
-         &amp;Pipe[i].oOverlap); 
+         &Pipe[i].oOverlap); 
  
       Pipe[i].dwState = Pipe[i].fPendingIO ? 
          CONNECTING_STATE : // still connecting 
@@ -146,8 +146,8 @@ int _tmain(VOID)
       { 
          fSuccess = GetOverlappedResult( 
             Pipe[i].hPipeInst, // handle to pipe 
-            &amp;Pipe[i].oOverlap, // OVERLAPPED structure 
-            &amp;cbRet,            // bytes transferred 
+            &Pipe[i].oOverlap, // OVERLAPPED structure 
+            &cbRet,            // bytes transferred 
             FALSE);            // do not wait 
  
          switch (Pipe[i].dwState) 
@@ -204,12 +204,12 @@ int _tmain(VOID)
                Pipe[i].hPipeInst, 
                Pipe[i].chRequest, 
                BUFSIZE*sizeof(TCHAR), 
-               &amp;Pipe[i].cbRead, 
-               &amp;Pipe[i].oOverlap); 
+               &Pipe[i].cbRead, 
+               &Pipe[i].oOverlap); 
  
          // The read operation completed successfully. 
  
-            if (fSuccess &amp;&amp; Pipe[i].cbRead != 0) 
+            if (fSuccess && Pipe[i].cbRead != 0) 
             { 
                Pipe[i].fPendingIO = FALSE; 
                Pipe[i].dwState = WRITING_STATE; 
@@ -219,7 +219,7 @@ int _tmain(VOID)
          // The read operation is still pending. 
  
             dwErr = GetLastError(); 
-            if (! fSuccess &amp;&amp; (dwErr == ERROR_IO_PENDING)) 
+            if (! fSuccess && (dwErr == ERROR_IO_PENDING)) 
             { 
                Pipe[i].fPendingIO = TRUE; 
                continue; 
@@ -235,18 +235,18 @@ int _tmain(VOID)
       // Get the reply data and write it to the client. 
  
          case WRITING_STATE: 
-            GetAnswerToRequest(&amp;Pipe[i]); 
+            GetAnswerToRequest(&Pipe[i]); 
  
             fSuccess = WriteFile( 
                Pipe[i].hPipeInst, 
                Pipe[i].chReply, 
                Pipe[i].cbToWrite, 
-               &amp;cbRet, 
-               &amp;Pipe[i].oOverlap); 
+               &cbRet, 
+               &Pipe[i].oOverlap); 
  
          // The write operation completed successfully. 
  
-            if (fSuccess &amp;&amp; cbRet == Pipe[i].cbToWrite) 
+            if (fSuccess && cbRet == Pipe[i].cbToWrite) 
             { 
                Pipe[i].fPendingIO = FALSE; 
                Pipe[i].dwState = READING_STATE; 
@@ -256,7 +256,7 @@ int _tmain(VOID)
          // The write operation is still pending. 
  
             dwErr = GetLastError(); 
-            if (! fSuccess &amp;&amp; (dwErr == ERROR_IO_PENDING)) 
+            if (! fSuccess && (dwErr == ERROR_IO_PENDING)) 
             { 
                Pipe[i].fPendingIO = TRUE; 
                continue; 
@@ -297,7 +297,7 @@ VOID DisconnectAndReconnect(DWORD i)
  
    Pipe[i].fPendingIO = ConnectToNewClient( 
       Pipe[i].hPipeInst, 
-      &amp;Pipe[i].oOverlap); 
+      &Pipe[i].oOverlap); 
  
    Pipe[i].dwState = Pipe[i].fPendingIO ? 
       CONNECTING_STATE : // still connecting 

@@ -34,7 +34,7 @@ void StreamTypes(HWND hwnd)
  
 // Walk through all streams. 
     for (i = 0; i < gcpavi; i++) { 
-        AVIStreamInfo(gapavi[i], &amp;avis, sizeof(avis)); 
+        AVIStreamInfo(gapavi[i], &avis, sizeof(avis)); 
  
         if (avis.fccType == streamtypeVIDEO) { 
  

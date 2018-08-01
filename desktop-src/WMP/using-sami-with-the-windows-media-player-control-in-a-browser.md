@@ -72,7 +72,7 @@ The following example code demonstrates how to use closed captions with the Wind
   // The first time this event fires, the Player stops and the 
   // initialize function is called. This allows the user to 
   // select a language and style before viewing the file.
-  if (13 == NewState &amp;&amp; !initialized) {
+  if (13 == NewState && !initialized) {
     Player.controls.stop();
     initialize();
   }

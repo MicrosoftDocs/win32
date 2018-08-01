@@ -145,7 +145,7 @@ Below are ways to use dynamic buffers and the proper lock flags.
     
     // Lock the vertex buffer.
     BYTE* pBytes;
-    if( FAILED( m_pVertexBuffer->Lock( 0, 0, &amp;pBytes, dwLockFlags ) ) )
+    if( FAILED( m_pVertexBuffer->Lock( 0, 0, &pBytes, dwLockFlags ) ) )
         return false;
     
     // Copy the vertices into the vertex buffer.
@@ -182,7 +182,7 @@ Below are ways to use dynamic buffers and the proper lock flags.
     // Lock the vertex buffer.
     BYTE* pBytes;
     if( FAILED( m_pVertexBuffer->Lock( (UINT)m_nNextVertexData, nSizeOfData, 
-               &amp;pBytes, dwLockFlags ) ) )
+               &pBytes, dwLockFlags ) ) )
         return false;
     
     // Copy the vertices into the vertex buffer.

@@ -28,7 +28,7 @@ BYTE AvcCmd[] = { ... }; // Contains the AV/C command (not shown)
 long cbCmd = sizeof(AvcCmd);
 hr = pTransport->GetTransportBasicParameters(
     ED_RAW_EXT_DEV_CMD, 
-    &amp;cbCmd,
+    &cbCmd,
     (LPOLESTR*) AvcCmd);
 ```
 

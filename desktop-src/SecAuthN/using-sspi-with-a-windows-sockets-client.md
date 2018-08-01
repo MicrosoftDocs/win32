@@ -75,7 +75,7 @@ void main()
     //-------------------------------------------------------------------
     //  Initialize the socket and the SSP security package.
 
-    if(WSAStartup (0x0101, &amp;wsaData))
+    if(WSAStartup (0x0101, &wsaData))
     {
         MyHandleError("Could not initialize winsock ");
     }
@@ -84,9 +84,9 @@ void main()
     //  Connect to a server.
 
     if (!ConnectAuthSocket (
-        &amp;Client_Socket,
-        &amp;hCred,
-        &amp;hCtxt))
+        &Client_Socket,
+        &hCred,
+        &hCtxt))
     {
         MyHandleError("Authenticated server connection ");
     }
@@ -99,9 +99,9 @@ void main()
     //   trailer blocks for this SSP.
 
     ss = QueryContextAttributes(
-        &amp;hCtxt,
+        &hCtxt,
         SECPKG_ATTR_NEGOTIATION_INFO,
-        &amp;SecPkgNegInfo );
+        &SecPkgNegInfo );
 
     if (!SEC_SUCCESS(ss))  
     {
@@ -113,9 +113,9 @@ void main()
     }
 
     ss = QueryContextAttributes(
-        &amp;hCtxt,
+        &hCtxt,
         SECPKG_ATTR_SIZES,
-        &amp;SecPkgContextSizes );
+        &SecPkgContextSizes );
 
     if (!SEC_SUCCESS(ss))  
     {
@@ -134,7 +134,7 @@ void main()
         Client_Socket, 
         Data, 
         BIG_BUFF, 
-        &amp;cbRead))
+        &cbRead))
     {
         MyHandleError("No response from server ");
     }
@@ -146,8 +146,8 @@ void main()
 
     pMessage = (PCHAR) DecryptThis(
         Data, 
-        &amp;cbRead,
-        &amp;hCtxt,
+        &cbRead,
+        &hCtxt,
         cbSecurityTrailer);
 
     printf ("The message from the server is \n ->  %.*s \n",
@@ -156,8 +156,8 @@ void main()
     //--------------------------------------------------------------------
     //  Terminate socket and security package.
 
-    DeleteSecurityContext (&amp;hCtxt);
-    FreeCredentialHandle (&amp;hCred); 
+    DeleteSecurityContext (&hCtxt);
+    FreeCredentialHandle (&hCred); 
     shutdown (Client_Socket, 2);
     closesocket (Client_Socket);
     if (SOCKET_ERROR == WSACleanup ())
@@ -193,7 +193,7 @@ struct _SecHandle *hcText)
         {
             MyHandleError("Unable to resolve host name ");
         }
-        memcpy((char FAR *)&amp;ulAddress, pHost->h_addr, pHost->h_length);
+        memcpy((char FAR *)&ulAddress, pHost->h_addr, pHost->h_length);
     }
 
     //--------------------------------------------------------------------
@@ -220,7 +220,7 @@ struct _SecHandle *hcText)
     //--------------------------------------------------------------------
     //  Connect to the server.
 
-    if (connect (*s, (LPSOCKADDR) &amp;sin, sizeof (sin))) 
+    if (connect (*s, (LPSOCKADDR) &sin, sizeof (sin))) 
     {
         closesocket (*s);
         MyHandleError( "Connect failed ");
@@ -263,11 +263,11 @@ BOOL DoAuthentication (SOCKET s)
         NULL, 
         0, 
         pOutBuf,  
-        &amp;cbOut, 
-        &amp;fDone, 
+        &cbOut, 
+        &fDone, 
         TargetName,
-        &amp;hCred,
-        &amp;hcText
+        &hCred,
+        &hcText
         ))
     {
         return(FALSE);
@@ -284,7 +284,7 @@ BOOL DoAuthentication (SOCKET s)
             s, 
             pInBuf,  
             cbMaxMessage, 
-            &amp;cbIn))
+            &cbIn))
         {
             MyHandleError("Receive message failed ");
         }
@@ -295,11 +295,11 @@ BOOL DoAuthentication (SOCKET s)
             pInBuf,  
             cbIn, 
             pOutBuf, 
-            &amp;cbOut, 
-            &amp;fDone, 
+            &cbOut, 
+            &fDone, 
             TargetName,
-            &amp;hCred,
-            &amp;hcText))
+            &hCred,
+            &hcText))
         {
             MyHandleError("GenClientContext failed");
         }
@@ -348,7 +348,7 @@ struct _SecHandle *hcText)
             NULL, 
             NULL, 
             hCred,
-            &amp;Lifetime);
+            &Lifetime);
 
         if (!(SEC_SUCCESS (ss)))
         {
@@ -361,7 +361,7 @@ struct _SecHandle *hcText)
 
     OutBuffDesc.ulVersion = 0;
     OutBuffDesc.cBuffers  = 1;
-    OutBuffDesc.pBuffers  = &amp;OutSecBuff;
+    OutBuffDesc.pBuffers  = &OutSecBuff;
 
     OutSecBuff.cbBuffer   = *pcbOut;
     OutSecBuff.BufferType = SECBUFFER_TOKEN;
@@ -375,7 +375,7 @@ struct _SecHandle *hcText)
     {
         InBuffDesc.ulVersion = 0;
         InBuffDesc.cBuffers  = 1;
-        InBuffDesc.pBuffers  = &amp;InSecBuff;
+        InBuffDesc.pBuffers  = &InSecBuff;
 
         InSecBuff.cbBuffer   = cbIn;
         InSecBuff.BufferType = SECBUFFER_TOKEN;
@@ -388,12 +388,12 @@ struct _SecHandle *hcText)
             MessageAttribute, 
             0,
             SECURITY_NATIVE_DREP,
-            &amp;InBuffDesc,
+            &InBuffDesc,
             0, 
             hcText,
-            &amp;OutBuffDesc,
-            &amp;ContextAttributes,
-            &amp;Lifetime);
+            &OutBuffDesc,
+            &ContextAttributes,
+            &Lifetime);
     }
     else
     {
@@ -407,9 +407,9 @@ struct _SecHandle *hcText)
             NULL,
             0, 
             hcText,
-            &amp;OutBuffDesc,
-            &amp;ContextAttributes,
-            &amp;Lifetime);
+            &OutBuffDesc,
+            &ContextAttributes,
+            &Lifetime);
     }
 
     if (!SEC_SUCCESS (ss))  
@@ -423,7 +423,7 @@ struct _SecHandle *hcText)
     if ((SEC_I_COMPLETE_NEEDED == ss) 
         || (SEC_I_COMPLETE_AND_CONTINUE == ss))  
     {
-        ss = CompleteAuthToken (hcText, &amp;OutBuffDesc);
+        ss = CompleteAuthToken (hcText, &OutBuffDesc);
         if (!SEC_SUCCESS(ss))  
         {
             fprintf (stderr, "complete failed: 0x%08x\n", ss);
@@ -502,9 +502,9 @@ struct _SecHandle *hCtxt,
 
     ss = DecryptMessage(
         hCtxt,
-        &amp;BuffDesc,
+        &BuffDesc,
         0,
-        &amp;ulQop);
+        &ulQop);
 
     if (!SEC_SUCCESS(ss)) 
     {
@@ -571,9 +571,9 @@ struct _SecHandle *hCtxt,
 
     ss = VerifySignature(
         hCtxt,
-        &amp;BuffDesc,
+        &BuffDesc,
         0,
-        &amp;ulQop
+        &ulQop
         );
 
     if (!SEC_SUCCESS(ss)) 
@@ -657,7 +657,7 @@ BOOL SendMsg (
     //----------------------------------------------------------
     //  Send the size of the message.
 
-    if (!SendBytes (s, (PBYTE)&amp;cbBuf, sizeof (cbBuf)))
+    if (!SendBytes (s, (PBYTE)&cbBuf, sizeof (cbBuf)))
         return(FALSE);
 
     //----------------------------------------------------------
@@ -689,9 +689,9 @@ BOOL ReceiveMsg (
 
     if (!ReceiveBytes (
         s, 
-        (PBYTE)&amp;cbData, 
+        (PBYTE)&cbData, 
         sizeof (cbData), 
-        &amp;cbRead))
+        &cbRead))
     {
         return(FALSE);
     }
@@ -705,7 +705,7 @@ BOOL ReceiveMsg (
         s, 
         pBuf, 
         cbData, 
-        &amp;cbRead))
+        &cbRead))
     {
         return(FALSE);
     }

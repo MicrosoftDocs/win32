@@ -60,7 +60,7 @@ void polarView( GLdouble, GLdouble, GLdouble, GLdouble);
  
 static Bool WaitForMapNotify(Display *d, XEvent *e, char *arg) 
 { 
-    if ((e->type == MapNotify) &amp;&amp; (e->xmap.window == (Window)arg)) { 
+    if ((e->type == MapNotify) && (e->xmap.window == (Window)arg)) { 
     return GL_TRUE; 
     } 
     return GL_FALSE; 
@@ -83,7 +83,7 @@ main(int argc, char **argv)
         exit(1); 
     } 
  
-    if(!glXQueryExtension(dpy, &amp;dummy, &amp;dummy)){ 
+    if(!glXQueryExtension(dpy, &dummy, &dummy)){ 
         fprintf(stderr, "could not open display"); 
         exit(1); 
     } 
@@ -110,14 +110,14 @@ main(int argc, char **argv)
     swa.event_mask = ExposureMask | KeyPressMask | StructureNotifyMask; 
     glwin = XCreateWindow(dpy, RootWindow(dpy, vi->screen), 0, 0, WIDTH, 
                         HEIGHT, 0, vi->depth, InputOutput, vi->visual, 
-                        CWBorderPixel | CWColormap | CWEventMask, &amp;swa); 
+                        CWBorderPixel | CWColormap | CWEventMask, &swa); 
     XSetStandardProperties(dpy, glwin, "xogl", "xogl", None, argv,  
                                 argc, NULL); 
  
     glXMakeCurrent(dpy, glwin, cx); 
  
     XMapWindow(dpy, glwin); 
-    XIfEvent(dpy,  &amp;event,  WaitForMapNotify,  (char *)glwin); 
+    XIfEvent(dpy,  &event,  WaitForMapNotify,  (char *)glwin); 
      
     initializeGL(WIDTH, HEIGHT); 
     resize(WIDTH, HEIGHT); 
@@ -127,10 +127,10 @@ main(int argc, char **argv)
     KeySym key; 
  
     while (XPending(dpy)) { 
-        XNextEvent(dpy, &amp;event); 
+        XNextEvent(dpy, &event); 
         switch (event.type) { 
         case KeyPress: 
-                XLookupString((XKeyEvent *)&amp;event, NULL, 0, &amp;key, NULL); 
+                XLookupString((XKeyEvent *)&event, NULL, 0, &key, NULL); 
         switch (key) { 
         case XK_Left: 
             longinc += 0.5; 

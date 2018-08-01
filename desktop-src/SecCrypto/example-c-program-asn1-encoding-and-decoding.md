@@ -69,7 +69,7 @@ CERT_RDN_ATTR rgNameAttr =
 CERT_RDN rgRDN[] = 
 {
    1,               // the number of elements in the array
-   &amp;rgNameAttr      // pointer to the array
+   &rgNameAttr      // pointer to the array
 };
 
 //-------------------------------------------------------------------
@@ -118,11 +118,11 @@ else
 if( CryptEncodeObjectEx(
      MY_TYPE,        // the encoding/decoding type
      X509_NAME,    
-     &amp;CertName,
+     &CertName,
      0,                 
      NULL, 
      NULL,
-     &amp;cbEncoded))    // fill in the length needed for
+     &cbEncoded))    // fill in the length needed for
                      // the encoded buffer
 {
      printf("The number of bytes needed is %d \n",cbEncoded);
@@ -144,11 +144,11 @@ else
 if(CryptEncodeObjectEx(
      MY_TYPE,
      X509_NAME,
-     &amp;CertName,
+     &CertName,
      0,
      NULL, 
      pbEncoded,
-     &amp;cbEncoded))
+     &cbEncoded))
 {
      ByteToStr(cbEncoded, pbEncoded,sz);
      printf("The Encoded octets are \n%s\n",sz);
@@ -172,7 +172,7 @@ if(CryptDecodeObjectEx(
      CRYPT_DECODE_NOCOPY_FLAG,
      NULL, 
      NULL,
-     &amp;cbDecoded))
+     &cbDecoded))
 {
      printf("The needed buffer length is %d\n",cbDecoded);
 }
@@ -200,7 +200,7 @@ if(CryptDecodeObjectEx(
      CRYPT_DECODE_NOCOPY_FLAG,   
      NULL, 
      pbDecoded,
-     &amp;cbDecoded))
+     &cbDecoded))
 {
     pDecodeName = ( CERT_NAME_INFO     *)pbDecoded;
     printf("The cRDN is -> %d \n",pDecodeName->cRDN);

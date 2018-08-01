@@ -88,7 +88,7 @@ DWORD PrintResults(EVT_HANDLE hResults)
     // Enumerate the events in the result set after the bookmarked event.
     while (true)
     {
-        if (!EvtNext(hResults, ARRAY_SIZE, hEvents, INFINITE, 0, &amp;dwReturned))
+        if (!EvtNext(hResults, ARRAY_SIZE, hEvents, INFINITE, 0, &dwReturned))
         {
             if (ERROR_NO_MORE_ITEMS != (status = GetLastError()))
             {
@@ -167,7 +167,7 @@ DWORD SaveBookmark(EVT_HANDLE hResults)
         goto cleanup;
     }
 
-    if (!EvtNext(hResults, 1, &amp;hEvent, INFINITE, 0, &amp;dwReturned))
+    if (!EvtNext(hResults, 1, &hEvent, INFINITE, 0, &dwReturned))
     {
         wprintf(L"EvtNext failed with %lu\n", status = GetLastError());
         goto cleanup;
@@ -188,7 +188,7 @@ DWORD SaveBookmark(EVT_HANDLE hResults)
     }
 
     // Render the bookmark as an XML string that you can then persist.
-    if (!EvtRender(NULL, hBookmark, EvtRenderBookmark, dwBufferSize, pBookmarkXml, &amp;dwBufferUsed, &amp;dwPropertyCount))
+    if (!EvtRender(NULL, hBookmark, EvtRenderBookmark, dwBufferSize, pBookmarkXml, &dwBufferUsed, &dwPropertyCount))
     {
         if (ERROR_INSUFFICIENT_BUFFER == (status = GetLastError()))
         {
@@ -196,7 +196,7 @@ DWORD SaveBookmark(EVT_HANDLE hResults)
             pBookmarkXml = (LPWSTR)malloc(dwBufferSize);
             if (pBookmarkXml)
             {
-                EvtRender(NULL, hBookmark, EvtRenderBookmark, dwBufferSize, pBookmarkXml, &amp;dwBufferUsed, &amp;dwPropertyCount);
+                EvtRender(NULL, hBookmark, EvtRenderBookmark, dwBufferSize, pBookmarkXml, &dwBufferUsed, &dwPropertyCount);
             }
             else
             {
@@ -376,7 +376,7 @@ DWORD SaveBookmark(EVT_HANDLE hBookmark)
     DWORD dwPropertyCount = 0;
     LPWSTR pBookmarkXml = NULL;
 
-    if (!EvtRender(NULL, hBookmark, EvtRenderBookmark, dwBufferSize, pBookmarkXml, &amp;dwBufferUsed, &amp;dwPropertyCount))
+    if (!EvtRender(NULL, hBookmark, EvtRenderBookmark, dwBufferSize, pBookmarkXml, &dwBufferUsed, &dwPropertyCount))
     {
         if (ERROR_INSUFFICIENT_BUFFER == (status = GetLastError()))
         {
@@ -384,7 +384,7 @@ DWORD SaveBookmark(EVT_HANDLE hBookmark)
             pBookmarkXml = (LPWSTR)malloc(dwBufferSize);
             if (pBookmarkXml)
             {
-                EvtRender(NULL, hBookmark, EvtRenderBookmark, dwBufferSize, pBookmarkXml, &amp;dwBufferUsed, &amp;dwPropertyCount);
+                EvtRender(NULL, hBookmark, EvtRenderBookmark, dwBufferSize, pBookmarkXml, &dwBufferUsed, &dwPropertyCount);
             }
             else
             {
@@ -421,7 +421,7 @@ DWORD PrintEvent(EVT_HANDLE hEvent)
     DWORD dwPropertyCount = 0;
     LPWSTR pRenderedContent = NULL;
 
-    if (!EvtRender(NULL, hEvent, EvtRenderEventXml, dwBufferSize, pRenderedContent, &amp;dwBufferUsed, &amp;dwPropertyCount))
+    if (!EvtRender(NULL, hEvent, EvtRenderEventXml, dwBufferSize, pRenderedContent, &dwBufferUsed, &dwPropertyCount))
     {
         if (ERROR_INSUFFICIENT_BUFFER == (status = GetLastError()))
         {
@@ -429,7 +429,7 @@ DWORD PrintEvent(EVT_HANDLE hEvent)
             pRenderedContent = (LPWSTR)malloc(dwBufferSize);
             if (pRenderedContent)
             {
-                EvtRender(NULL, hEvent, EvtRenderEventXml, dwBufferSize, pRenderedContent, &amp;dwBufferUsed, &amp;dwPropertyCount);
+                EvtRender(NULL, hEvent, EvtRenderEventXml, dwBufferSize, pRenderedContent, &dwBufferUsed, &dwPropertyCount);
             }
             else
             {

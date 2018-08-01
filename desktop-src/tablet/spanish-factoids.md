@@ -47,7 +47,7 @@ The following table lists formats that are available for each factoid used in Sp
 <tr class="even">
 <td><strong>OneChar</strong></td>
 <td>A single American National Standards Institute (ANSI) character.<br/></td>
-<td>! &quot; # $ % &amp; ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~ € £ ¥ ° ¡ ¿ Á é Í Ñ Ó Ú Ü á é í ñ ó ú ü ª º<br/></td>
+<td>! &quot; # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~ € £ ¥ ° ¡ ¿ Á é Í Ñ Ó Ú Ü á é í ñ ó ú ü ª º<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>Percent</strong></td>

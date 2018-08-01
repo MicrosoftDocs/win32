@@ -60,7 +60,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -68,7 +68,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -104,7 +104,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -116,7 +116,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -126,7 +126,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     ULONG addressFamily = AF_INET6;
     // First see how much space is needed for adapter addresses
     ULONG adapterBufferSize = 0;
-    ULONG retVal = GetAdaptersAddresses(addressFamily, 0, NULL, NULL, &amp;adapterBufferSize);
+    ULONG retVal = GetAdaptersAddresses(addressFamily, 0, NULL, NULL, &adapterBufferSize);
     if (retVal != ERROR_BUFFER_OVERFLOW)
     {
         hr = HRESULT_FROM_WIN32(retVal);
@@ -144,7 +144,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // Get list of adapters
     retVal = GetAdaptersAddresses(
         AF_INET6,
-        0, NULL, adapterAddresses, &amp;adapterBufferSize);
+        0, NULL, adapterAddresses, &adapterBufferSize);
     if (retVal != 0)
     {
         hr = HRESULT_FROM_WIN32(retVal);
@@ -156,16 +156,16 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // Specify that the listener will be used with multicast addresses
     BOOL isMulticast = TRUE;
     properties[0].id = WS_LISTENER_PROPERTY_IS_MULTICAST;
-    properties[0].value = &amp;isMulticast;
+    properties[0].value = &isMulticast;
     properties[0].valueSize = sizeof(isMulticast);
     // Disable checking of the To header since it will differ from the transport address
     ULONG toHeaderMatchingOptions = 0;
     properties[1].id = WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS;
-    properties[1].value = &amp;toHeaderMatchingOptions;
+    properties[1].value = &toHeaderMatchingOptions;
     properties[1].valueSize = sizeof(toHeaderMatchingOptions);
     WS_IP_VERSION ipVersion6 = WS_IP_VERSION_6;
     properties[2].id = WS_LISTENER_PROPERTY_IP_VERSION;
-    properties[2].value = &amp;ipVersion6;
+    properties[2].value = &ipVersion6;
     properties[2].valueSize = sizeof(ipVersion6);
     
     // Create a listener
@@ -175,7 +175,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         properties, 
         WsCountOf(properties), 
         NULL, 
-        &amp;listener, 
+        &listener, 
         error);
     if (FAILED(hr))
     {
@@ -189,7 +189,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     hr = WsOpenListener(
         listener, 
-        &amp;uri, 
+        &uri, 
         NULL, 
         error);
     if (FAILED(hr))
@@ -213,7 +213,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
             // Specify that the listener should listen for multicast 
             // traffic on this interface.
             hr = WsSetListenerProperty(listener, WS_LISTENER_PROPERTY_MULTICAST_INTERFACES, 
-                &amp;interfaceIndex, sizeof(interfaceIndex), error);
+                &interfaceIndex, sizeof(interfaceIndex), error);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -236,7 +236,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         listener, 
         NULL, 
         0, 
-        &amp;channel, 
+        &channel, 
         error);
     if (FAILED(hr))
     {
@@ -247,7 +247,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         channel,
         NULL, 
         0, 
-        &amp;requestMessage, 
+        &requestMessage, 
         error);
     if (FAILED(hr))
     {
@@ -258,7 +258,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         channel,
         NULL, 
         0, 
-        &amp;replyMessage, 
+        &replyMessage, 
         error);
     if (FAILED(hr))
     {
@@ -316,7 +316,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
             WS_XML_STRING_TYPE,
             WS_READ_REQUIRED_VALUE, 
             NULL, 
-            &amp;receivedAction, 
+            &receivedAction, 
             sizeof(receivedAction), 
             error);
         if (FAILED(hr))
@@ -325,7 +325,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         }
         
         // Make sure action is what we expect
-        if (WsXmlStringEquals(&amp;receivedAction, PurchaseOrder_wsdl.messages.PurchaseOrder.action, error) != S_OK)
+        if (WsXmlStringEquals(&receivedAction, PurchaseOrder_wsdl.messages.PurchaseOrder.action, error) != S_OK)
         {
             hr = WS_E_ENDPOINT_ACTION_NOT_SUPPORTED;
             goto Exit;
@@ -333,8 +333,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         
         // Read purchase order
         _PurchaseOrderType* purchaseOrder;
-        hr = WsReadBody(requestMessage, &amp;PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
-            WS_READ_REQUIRED_POINTER, heap, &amp;purchaseOrder, sizeof(purchaseOrder), error);
+        hr = WsReadBody(requestMessage, &PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
+            WS_READ_REQUIRED_POINTER, heap, &purchaseOrder, sizeof(purchaseOrder), error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -358,7 +358,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         hr = WsGetChannelProperty(
             channel, 
             WS_CHANNEL_PROPERTY_REMOTE_ADDRESS, 
-            &amp;remoteAddress, 
+            &remoteAddress, 
             sizeof(remoteAddress), 
             error);
         if (FAILED(hr))
@@ -378,9 +378,9 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         hr = WsSendReplyMessage(
             channel, 
             replyMessage, 
-            &amp;PurchaseOrder_wsdl.messages.OrderConfirmation,
+            &PurchaseOrder_wsdl.messages.OrderConfirmation,
             WS_WRITE_REQUIRED_VALUE,
-            &amp;orderConfirmation, 
+            &orderConfirmation, 
             sizeof(orderConfirmation), 
             requestMessage, 
             NULL, 

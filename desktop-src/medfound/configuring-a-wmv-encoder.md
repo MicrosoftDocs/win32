@@ -105,7 +105,7 @@ HRESULT GetEncodedVideoType(
     IMFMediaType *pTypeOut = NULL;
 
     // Instantiate the encoder
-    hr = CreateVideoEncoder(subtype, mftEnumFlags, &amp;pMFT);
+    hr = CreateVideoEncoder(subtype, mftEnumFlags, &pMFT);
 
     // Copy the properties to the encoder.
 
@@ -113,7 +113,7 @@ HRESULT GetEncodedVideoType(
     {
         if (pEncoderProps)
         {
-            hr = pMFT->QueryInterface(IID_PPV_ARGS(&amp;pPropStore));
+            hr = pMFT->QueryInterface(IID_PPV_ARGS(&pPropStore));
 
             if (SUCCEEDED(hr))
             {
@@ -131,7 +131,7 @@ HRESULT GetEncodedVideoType(
     // Get the partial output type
     if (SUCCEEDED(hr))
     {
-        hr = pMFT->GetOutputAvailableType(0, 0, &amp;pTypeOut);
+        hr = pMFT->GetOutputAvailableType(0, 0, &pTypeOut);
     }
 
     // Set the bit rate.
@@ -158,9 +158,9 @@ HRESULT GetEncodedVideoType(
         (*ppEncodingType)->AddRef();
     }
 
-    SafeRelease(&amp;pMFT);
-    SafeRelease(&amp;pPropStore);
-    SafeRelease(&amp;pTypeOut);
+    SafeRelease(&pMFT);
+    SafeRelease(&pPropStore);
+    SafeRelease(&pTypeOut);
     return hr;
 }
 ```
@@ -196,9 +196,9 @@ HRESULT CreateVideoEncoder(
         MFT_CATEGORY_VIDEO_ENCODER,
         mftEnumFlags | MFT_ENUM_FLAG_SORTANDFILTER,
         NULL,
-        &amp;info,
-        &amp;ppActivates,
-        &amp;count
+        &info,
+        &ppActivates,
+        &count
         );
 
     if (count == 0)
@@ -210,7 +210,7 @@ HRESULT CreateVideoEncoder(
     {
         hr = ppActivates[0]->ActivateObject(
             __uuidof(IMFTransform),
-            (void**)&amp;pMFT
+            (void**)&pMFT
             );
     }
 
@@ -227,7 +227,7 @@ HRESULT CreateVideoEncoder(
         ppActivates[i]->Release();
     }
     CoTaskMemFree(ppActivates);
-    SafeRelease(&amp;pMFT);
+    SafeRelease(&pMFT);
     return hr;
 }
 ```
@@ -262,17 +262,17 @@ HRESULT AddPrivateData(IMFTransform *pMFT, IMFMediaType *pTypeOut)
     hr = MFInitAMMediaTypeFromMFMediaType(
         pTypeOut, 
         FORMAT_VideoInfo, 
-        (AM_MEDIA_TYPE*)&amp;mtOut
+        (AM_MEDIA_TYPE*)&mtOut
         );
     
     if (SUCCEEDED(hr))
     {
-        hr = pMFT->QueryInterface(IID_PPV_ARGS(&amp;pPrivData));
+        hr = pMFT->QueryInterface(IID_PPV_ARGS(&pPrivData));
     }
 
     if (SUCCEEDED(hr))
     {
-        hr = pPrivData->SetPartialOutputType(&amp;mtOut);
+        hr = pPrivData->SetPartialOutputType(&mtOut);
     }
 
     //
@@ -282,7 +282,7 @@ HRESULT AddPrivateData(IMFTransform *pMFT, IMFMediaType *pTypeOut)
     // First get the buffer size.
     if (SUCCEEDED(hr))
     {
-        hr = pPrivData->GetPrivateData(NULL, &amp;cbData);
+        hr = pPrivData->GetPrivateData(NULL, &cbData);
     }
 
     if (SUCCEEDED(hr))
@@ -298,7 +298,7 @@ HRESULT AddPrivateData(IMFTransform *pMFT, IMFMediaType *pTypeOut)
     // Now get the data.
     if (SUCCEEDED(hr))
     {
-        hr = pPrivData->GetPrivateData(pData, &amp;cbData);
+        hr = pPrivData->GetPrivateData(pData, &cbData);
     }
 
     // Add the data to the media type.
@@ -308,8 +308,8 @@ HRESULT AddPrivateData(IMFTransform *pMFT, IMFMediaType *pTypeOut)
     }
 
     delete [] pData;
-    MoFreeMediaType(&amp;mtOut);
-    SafeRelease(&amp;pPrivData);
+    MoFreeMediaType(&mtOut);
+    SafeRelease(&pPrivData);
     return hr;
 }
 ```
@@ -334,19 +334,19 @@ HRESULT CopyPropertyStore(IPropertyStore *pSrc, IPropertyStore *pDest)
     PROPERTYKEY key;
     PROPVARIANT var;
 
-    PropVariantInit(&amp;var);
+    PropVariantInit(&var);
 
-    hr = pSrc->GetCount(&amp;cProps);
+    hr = pSrc->GetCount(&cProps);
 
     if (SUCCEEDED(hr))
     {
         for (DWORD i = 0; i < cProps; i++)
         {
-            hr = pSrc->GetAt(i, &amp;key);
+            hr = pSrc->GetAt(i, &key);
 
             if (FAILED(hr)) { break; }
 
-            hr = pSrc->GetValue(key, &amp;var);
+            hr = pSrc->GetValue(key, &var);
 
             if (FAILED(hr)) { break; }
 
@@ -354,11 +354,11 @@ HRESULT CopyPropertyStore(IPropertyStore *pSrc, IPropertyStore *pDest)
 
             if (FAILED(hr)) { break; }
 
-            PropVariantClear(&amp;var);
+            PropVariantClear(&var);
         }
     }
 
-    PropVariantClear(&amp;var);
+    PropVariantClear(&var);
     return hr;
 }
 ```

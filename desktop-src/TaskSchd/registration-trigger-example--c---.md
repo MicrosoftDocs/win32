@@ -101,7 +101,7 @@ int __cdecl wmain()
                            NULL,
                            CLSCTX_INPROC_SERVER,
                            IID_ITaskService,
-                           (void**)&amp;pService );  
+                           (void**)&pService );  
     if (FAILED(hr))
     {
         printf("Failed to create an instance of ITaskService: %x", hr);
@@ -124,7 +124,7 @@ int __cdecl wmain()
     //  Get the pointer to the root task folder.  This folder will hold the
     //  new task that is registered.
     ITaskFolder *pRootFolder = NULL;
-    hr = pService->GetFolder( _bstr_t( L"\\") , &amp;pRootFolder );
+    hr = pService->GetFolder( _bstr_t( L"\\") , &pRootFolder );
     if( FAILED(hr) )
     {
         printf("Cannot get Root Folder pointer: %x", hr );
@@ -138,7 +138,7 @@ int __cdecl wmain()
     
     //  Create the task builder object to create the task.
     ITaskDefinition *pTask = NULL;
-    hr = pService->NewTask( 0, &amp;pTask );
+    hr = pService->NewTask( 0, &pTask );
 
     pService->Release();  // COM clean up.  Pointer is no longer used.
     if (FAILED(hr))
@@ -152,7 +152,7 @@ int __cdecl wmain()
     //  ------------------------------------------------------
     //  Get the registration info for setting the identification.
     IRegistrationInfo *pRegInfo= NULL;
-    hr = pTask->get_RegistrationInfo( &amp;pRegInfo );
+    hr = pTask->get_RegistrationInfo( &pRegInfo );
     if( FAILED(hr) )
     {
         printf("\nCannot get identification pointer: %x", hr );
@@ -176,7 +176,7 @@ int __cdecl wmain()
     //  ------------------------------------------------------
     //  Create the principal for the task
     IPrincipal *pPrincipal = NULL;
-    hr = pTask->get_Principal( &amp;pPrincipal );
+    hr = pTask->get_Principal( &pPrincipal );
     if( FAILED(hr) )
     {
         printf("\nCannot get principal pointer: %x", hr );
@@ -211,7 +211,7 @@ int __cdecl wmain()
     //  ------------------------------------------------------
     //  Create the settings for the task
     ITaskSettings *pSettings = NULL;
-    hr = pTask->get_Settings( &amp;pSettings );
+    hr = pTask->get_Settings( &pSettings );
     if( FAILED(hr) )
     {
         printf("\nCannot get settings pointer: %x", hr );
@@ -236,7 +236,7 @@ int __cdecl wmain()
     //  ------------------------------------------------------
     //  Get the trigger collection to insert the registration trigger.
     ITriggerCollection *pTriggerCollection = NULL;
-    hr = pTask->get_Triggers( &amp;pTriggerCollection );
+    hr = pTask->get_Triggers( &pTriggerCollection );
     if( FAILED(hr) )
     {
         printf("\nCannot get trigger collection: %x", hr );
@@ -248,7 +248,7 @@ int __cdecl wmain()
 
     //  Add the registration trigger to the task.
     ITrigger *pTrigger = NULL;    
-    hr = pTriggerCollection->Create( TASK_TRIGGER_REGISTRATION, &amp;pTrigger );
+    hr = pTriggerCollection->Create( TASK_TRIGGER_REGISTRATION, &pTrigger );
     pTriggerCollection->Release();
     if( FAILED(hr) )
     {
@@ -261,7 +261,7 @@ int __cdecl wmain()
     
     IRegistrationTrigger *pRegistrationTrigger = NULL;
     hr = pTrigger->QueryInterface( 
-        IID_IRegistrationTrigger, (void**) &amp;pRegistrationTrigger );
+        IID_IRegistrationTrigger, (void**) &pRegistrationTrigger );
     pTrigger->Release();
     if( FAILED(hr) )
     {
@@ -294,7 +294,7 @@ int __cdecl wmain()
     IActionCollection *pActionCollection = NULL;
 
     //  Get the task action collection pointer.
-    hr = pTask->get_Actions( &amp;pActionCollection );
+    hr = pTask->get_Actions( &pActionCollection );
     if( FAILED(hr) )
     {
         printf("\nCannot get Task collection pointer: %x", hr );
@@ -306,7 +306,7 @@ int __cdecl wmain()
     
     //  Create the action, specifying that it is an executable action.
     IAction *pAction = NULL;
-    hr = pActionCollection->Create( TASK_ACTION_EXEC, &amp;pAction );
+    hr = pActionCollection->Create( TASK_ACTION_EXEC, &pAction );
     pActionCollection->Release();
     if( FAILED(hr) )
     {
@@ -321,7 +321,7 @@ int __cdecl wmain()
 
     //  QI for the executable task pointer.
     hr = pAction->QueryInterface( 
-        IID_IExecAction, (void**) &amp;pExecAction );
+        IID_IExecAction, (void**) &pExecAction );
     pAction->Release();
     if( FAILED(hr) )
     {
@@ -356,7 +356,7 @@ int __cdecl wmain()
             _variant_t(), 
             TASK_LOGON_INTERACTIVE_TOKEN,
             _variant_t(L""),
-            &amp;pRegisteredTask);
+            &pRegisteredTask);
     if( FAILED(hr) )
     {
         printf("\nError saving the Task : %x", hr );

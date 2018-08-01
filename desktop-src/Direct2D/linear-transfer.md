@@ -39,7 +39,7 @@ The CLSID for this effect is CLSID\_D2D1LinearTransfer.
 
 ```C++
 ComPtr<ID2D1Effect> linearTransferEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1LinearTransfer, &amp;linearTransferEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1LinearTransfer, &linearTransferEffect);
 
 linearTransferEffect->SetInput(0, bitmap);
 

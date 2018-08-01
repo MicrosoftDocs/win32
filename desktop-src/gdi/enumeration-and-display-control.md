@@ -41,27 +41,27 @@ void DetachDisplay()
     DEVMODE   defaultMode;
 
     // initialize DisplayDevice
-    ZeroMemory(&amp;DisplayDevice, sizeof(DisplayDevice));
+    ZeroMemory(&DisplayDevice, sizeof(DisplayDevice));
     DisplayDevice.cb = sizeof(DisplayDevice);
 
     // get all display devices
-    while (EnumDisplayDevices(NULL, DispNum, &amp;DisplayDevice, 0))
+    while (EnumDisplayDevices(NULL, DispNum, &DisplayDevice, 0))
         {
-        ZeroMemory(&amp;defaultMode, sizeof(DEVMODE));
+        ZeroMemory(&defaultMode, sizeof(DEVMODE));
         defaultMode.dmSize = sizeof(DEVMODE);
-        if ( !EnumDisplaySettings((LPSTR)DisplayDevice.DeviceName, ENUM_REGISTRY_SETTINGS, &amp;defaultMode) )
+        if ( !EnumDisplaySettings((LPSTR)DisplayDevice.DeviceName, ENUM_REGISTRY_SETTINGS, &defaultMode) )
                   OutputDebugString("Store default failed\n");
 
-        if ((DisplayDevice.StateFlags & DISPLAY_DEVICE_ATTACHED_TO_DESKTOP) &amp;&amp;
+        if ((DisplayDevice.StateFlags & DISPLAY_DEVICE_ATTACHED_TO_DESKTOP) &&
             !(DisplayDevice.StateFlags & DISPLAY_DEVICE_PRIMARY_DEVICE))
             {
             DEVMODE    DevMode;
-            ZeroMemory(&amp;DevMode, sizeof(DevMode));
+            ZeroMemory(&DevMode, sizeof(DevMode));
             DevMode.dmSize = sizeof(DevMode);
             DevMode.dmFields = DM_PELSWIDTH | DM_PELSHEIGHT | DM_BITSPERPEL | DM_POSITION
                         | DM_DISPLAYFREQUENCY | DM_DISPLAYFLAGS ;
             Result = ChangeDisplaySettingsEx((LPSTR)DisplayDevice.DeviceName, 
-                                            &amp;DevMode,
+                                            &DevMode,
                                             NULL,
                                             CDS_UPDATEREGISTRY,
                                             NULL);
@@ -69,7 +69,7 @@ void DetachDisplay()
             //The code below shows how to re-attach the secondary displays to the desktop
 
             //ChangeDisplaySettingsEx((LPSTR)DisplayDevice.DeviceName,
-            //                       &amp;defaultMode,
+            //                       &defaultMode,
             //                       NULL,
             //                       CDS_UPDATEREGISTRY,
             //                       NULL);
@@ -78,7 +78,7 @@ void DetachDisplay()
 
         // Reinit DisplayDevice just to be extra clean
 
-        ZeroMemory(&amp;DisplayDevice, sizeof(DisplayDevice));
+        ZeroMemory(&DisplayDevice, sizeof(DisplayDevice));
         DisplayDevice.cb = sizeof(DisplayDevice);
         DispNum++;
         } // end while for all display devices

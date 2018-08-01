@@ -51,7 +51,7 @@ Return Value:
    
    printf("Successfully Started Transaction\n");
 
-   RtlZeroMemory(&amp;Filter, sizeof(FWPM_FILTER0));
+   RtlZeroMemory(&Filter, sizeof(FWPM_FILTER0));
 
    Filter.layerKey = FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6;
    Filter.displayData.name = L"Teredo Filter for Application Specific Permit";
@@ -91,7 +91,7 @@ Return Value:
    printf("Adding Recv Accept Application specific V6 Teredo Filter.\n");
 
    Result = FwpmFilterAdd0(engineHandle,
-                           &amp;Filter,
+                           &Filter,
                            NULL,
                            NULL);
 
@@ -132,7 +132,7 @@ Return Value:
    printf("Adding Recv Accept block all non-permitted V6 Teredo Filter.\n");
 
    Result = FwpmFilterAdd0(engineHandle,
-                           &amp;Filter,
+                           &Filter,
                            NULL,
                            NULL);
 

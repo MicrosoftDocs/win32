@@ -81,24 +81,24 @@ int main()
                       usrPass,
                       ADS_SECURE_AUTHENTICATION,
                       IID_IADsContainer,
-                      (void**)&amp;pCont);
+                      (void**)&pCont);
 
    IDispatch *pDisp;
-   hr = pCont->Create(CComBSTR("user"), CComBSTR("cn=Jeff Smith"), &amp;pDisp);
+   hr = pCont->Create(CComBSTR("user"), CComBSTR("cn=Jeff Smith"), &pDisp);
    pCont->Release();
 
-   hr = pDisp->QueryInterface(IID_IADsUser,(void**)&amp;pUser);
+   hr = pDisp->QueryInterface(IID_IADsUser,(void**)&pUser);
    pDisp->Release();
 
    VARIANT var;
-   VariantInit(&amp;var);
-   V_BSTR(&amp;var) = L"jeffsmith";
-   V_VT(&amp;var)=VT_BSTR;
+   VariantInit(&var);
+   V_BSTR(&var) = L"jeffsmith";
+   V_VT(&var)=VT_BSTR;
    hr = pUser->Put(CComBSTR("samAccountName"), var);
 
    hr = pUser->SetInfo();
 
-   VariantClear(&amp;var);
+   VariantClear(&var);
    pUser->Release();
 
    CoUninitialize();

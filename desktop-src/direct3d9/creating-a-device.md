@@ -21,7 +21,7 @@ LPDIRECT3DDEVICE9 pDevice = NULL;
 
 D3DPRESENT_PARAMETERS d3dpp; 
 
-ZeroMemory( &amp;d3dpp, sizeof(d3dpp) );
+ZeroMemory( &d3dpp, sizeof(d3dpp) );
 d3dpp.Windowed   = TRUE;
 d3dpp.SwapEffect = D3DSWAPEFFECT_COPY;
 ```
@@ -34,7 +34,7 @@ Next, create the Direct3D device. The following [**IDirect3D9::CreateDevice**](h
 ```
 if( FAILED( g_pD3D->CreateDevice( D3DADAPTER_DEFAULT, D3DDEVTYPE_HAL, hWnd,
                                     D3DCREATE_SOFTWARE_VERTEXPROCESSING,
-                                    &amp;d3dpp, &amp;d3dDevice ) ) )
+                                    &d3dpp, &d3dDevice ) ) )
     return E_FAIL;
 ```
 

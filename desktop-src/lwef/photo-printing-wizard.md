@@ -100,15 +100,15 @@ CComPtr<IDropTarget> spDropTarget;
 hr = CoCreateInstance(CLSID_PrintPhotosDropTarget,
                       NULL,
                       CLSCTX_INPROC_SERVER,
-                      IID_PPV_ARGS(&amp;spDropTarget));
+                      IID_PPV_ARGS(&spDropTarget));
 
 // Drop the data object onto the drop target.
 POINTL pt = {0};
 DWORD dwEffect = DROPEFFECT_LINK | DROPEFFECT_MOVE | DROPEFFECT_COPY;
 
-spDropTarget->DragEnter(pDataObject, MK_LBUTTON, pt, &amp;dwEffect);
+spDropTarget->DragEnter(pDataObject, MK_LBUTTON, pt, &dwEffect);
 
-spDropTarget->Drop(pDataObject, MK_LBUTTON, pt, &amp;dwEffect);}
+spDropTarget->Drop(pDataObject, MK_LBUTTON, pt, &dwEffect);}
 ```
 
 

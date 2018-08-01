@@ -35,13 +35,13 @@ HRESULT hr = S_OK;
 hr = CoInitialize(NULL);
 
 // Create a profile manager object.
-hr = WMCreateProfileManager(&amp;pProfileMgr);
+hr = WMCreateProfileManager(&pProfileMgr);
 
 // Create an empty profile.
-hr = pProfileMgr->CreateEmptyProfile(WMT_VER_9_0, &amp;pProfileTmp)
+hr = pProfileMgr->CreateEmptyProfile(WMT_VER_9_0, &pProfileTmp)
 
 // Get the IWMProfile3 for the new profile, then release the old one.
-hr = pProfileTmp->QueryInterface(IID_IWMProfile3, (void**)&amp;pProfile);
+hr = pProfileTmp->QueryInterface(IID_IWMProfile3, (void**)&pProfile);
 pProfileTmp->Release();
 pProfileTmp = NULL;
 
@@ -50,7 +50,7 @@ hr = pProfile->SetName(L"Prioritization_Example");
 hr = pProfile->SetDescription(L"Only for use with example code.");
 
 // Create the first stream.
-hr = pProfile->CreateNewStream(WMMEDIATYPE_Audio, &amp;pStream);
+hr = pProfile->CreateNewStream(WMMEDIATYPE_Audio, &pStream);
 
 // TODO: configure the stream as needed for the scenario.
 
@@ -68,7 +68,7 @@ pStream->Release();
 pStream = NULL;
 
 // Repeat for the other two streams.
-hr = pProfile->CreateNewStream(WMMEDIATYPE_Video, &amp;pStream);
+hr = pProfile->CreateNewStream(WMMEDIATYPE_Video, &pStream);
 
 // TODO: configure the stream as needed for the scenario.
 hr = pStream->SetStreamNumber(2);
@@ -77,7 +77,7 @@ hr = pProfile->AddStream(pStream);
 pStream->Release();
 pStream = NULL;
 
-hr = pProfile->CreateNewStream(WMMEDIATYPE_Video, &amp;pStream);
+hr = pProfile->CreateNewStream(WMMEDIATYPE_Video, &pStream);
 
 // TODO: configure the stream as needed for the scenario.
 hr = pStream->SetStreamNumber(3);
@@ -87,7 +87,7 @@ pStream->Release();
 pStream = NULL;
 
 // Create a stream prioritization object.
-hr = pProfile->CreateNewStreamPrioritization(&amp;pPriority);
+hr = pProfile->CreateNewStreamPrioritization(&pPriority);
 
 // Fill the array with data.
 StreamArray[0].wStreamNum = 1;

@@ -45,7 +45,7 @@ HRESULT CWMDMController::EnumDevices()
     
     // Get number of attached devices.
     DWORD iDevices = 0;
-    hr = m_IWMDMDeviceMgr->GetDeviceCount(&amp;iDevices);
+    hr = m_IWMDMDeviceMgr->GetDeviceCount(&iDevices);
     if (hr == S_OK)
     {
         // TODO: Display count of devices.
@@ -55,7 +55,7 @@ HRESULT CWMDMController::EnumDevices()
     // Get a device enumerator to enumerate devices.
     //
     CComPtr<IWMDeviceManager2> pDevMgr2;
-    hr = m_IWMDMDeviceMgr->QueryInterface (__uuidof(IWMDeviceManager2), (void**) &amp;pDevMgr2);
+    hr = m_IWMDMDeviceMgr->QueryInterface (__uuidof(IWMDeviceManager2), (void**) &pDevMgr2);
     if (hr == S_OK)
     {
         // TODO: Display message indicating that application obtained IWMDeviceManager2.
@@ -67,7 +67,7 @@ HRESULT CWMDMController::EnumDevices()
         return hr;
     }
    CComPtr<IWMDMEnumDevice> pEnumDevice;
-   hr = pDevMgr2->EnumDevices2(&amp;pEnumDevice);
+   hr = pDevMgr2->EnumDevices2(&pEnumDevice);
     if (hr != S_OK)
     {
         // TODO: Display messaging indicating that an error occurred 
@@ -84,7 +84,7 @@ HRESULT CWMDMController::EnumDevices()
         // Get a device handle.
         IWMDMDevice *pIWMDMDevice;
         ULONG ulFetched = 0;
-        hr = pEnumDevice->Next(1, &amp;pIWMDMDevice, &amp;ulFetched);
+        hr = pEnumDevice->Next(1, &pIWMDMDevice, &ulFetched);
         if ((hr != S_OK) || (ulFetched != 1))
         {
             break;
@@ -92,11 +92,11 @@ HRESULT CWMDMController::EnumDevices()
         
         // Get a display icon for the device.
         ULONG deviceIcon = 0;
-        hr = pIWMDMDevice->GetDeviceIcon(&amp;deviceIcon);
+        hr = pIWMDMDevice->GetDeviceIcon(&deviceIcon);
 
         // Print the device manufacturer.
         WCHAR manufacturer[MAX_CHARS];
-        hr = pIWMDMDevice->GetManufacturer((LPWSTR)&amp;manufacturer, MAX_CHARS);
+        hr = pIWMDMDevice->GetManufacturer((LPWSTR)&manufacturer, MAX_CHARS);
         if (hr == S_OK)
         {
             // TODO: Display manufacturer name.
@@ -104,7 +104,7 @@ HRESULT CWMDMController::EnumDevices()
 
         // Get the device name.
         WCHAR name[MAX_CHARS];
-        hr = pIWMDMDevice->GetName((LPWSTR)&amp;name, MAX_CHARS);
+        hr = pIWMDMDevice->GetName((LPWSTR)&name, MAX_CHARS);
         if (hr == S_OK)
         {
             // TODO: Display name.
@@ -131,8 +131,8 @@ HRESULT CWMDMController::EnumDevices()
         {
             // Find out what protocol is being used.
             PROPVARIANT val;
-            PropVariantInit(&amp;val);
-            hr = pIWMDMDevice3->GetProperty(g_wszWMDMDeviceProtocol, &amp;val);
+            PropVariantInit(&val);
+            hr = pIWMDMDevice3->GetProperty(g_wszWMDMDeviceProtocol, &val);
 
             if (hr == S_OK)
             {
@@ -153,7 +153,7 @@ HRESULT CWMDMController::EnumDevices()
                     // TODO: Display message indicating that the 
                     // application encountered an unknown protocol.
                 }
-                PropVariantClear(&amp;val);
+                PropVariantClear(&val);
             }
         }
 
@@ -163,7 +163,7 @@ HRESULT CWMDMController::EnumDevices()
         if (pDeviceControl != NULL)
         {
             DWORD caps = 0;
-            hr = pDeviceControl->GetCapabilities(&amp;caps);
+            hr = pDeviceControl->GetCapabilities(&caps);
             if (caps & WMDM_DEVICECAP_CANPLAY)
             {
                 // TODO: Display message indicating that the media 

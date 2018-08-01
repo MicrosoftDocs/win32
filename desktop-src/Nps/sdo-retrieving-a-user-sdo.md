@@ -26,7 +26,7 @@ The following code retrieves a Server Data Object (SDO) for the Administrator.
    hr = pSdoMachine->GetUserSDO(
       DATA_STORE_LOCAL,
       bstrUserName,
-      (IUnknown**) &amp;pUserUnknown
+      (IUnknown**) &pUserUnknown
    );
    if (FAILED(hr))
    {
@@ -36,7 +36,7 @@ The following code retrieves a Server Data Object (SDO) for the Administrator.
    CComPtr<ISdo> pUserSDO;
    hr = pUserUnknown->QueryInterface(
       __uuidof(ISdo),
-      (void**) &amp;pUserSDO
+      (void**) &pUserSDO
    );
    if (FAILED(hr))
    {

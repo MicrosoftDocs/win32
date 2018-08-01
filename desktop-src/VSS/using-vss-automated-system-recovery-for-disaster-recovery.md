@@ -244,8 +244,8 @@ HRESULT BuildRestoreOptionString
 
     ::ZeroMemory(pExtents, cbSize);
 
-    fIoRet = ::DeviceIoControl(hVolume, IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS, NULL, 0, pExtents, cbSize, &amp;cbSize, 0);
-    if ( !fIoRet &amp;&amp; GetLastError() == ERROR_MORE_DATA )
+    fIoRet = ::DeviceIoControl(hVolume, IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS, NULL, 0, pExtents, cbSize, &cbSize, 0);
+    if ( !fIoRet && GetLastError() == ERROR_MORE_DATA )
     {
         // Allocate more memory.
         cbSize = FIELD_OFFSET(VOLUME_DISK_EXTENTS, Extents) + pExtents->NumberOfDiskExtents * sizeof(DISK_EXTENT);
@@ -257,7 +257,7 @@ HRESULT BuildRestoreOptionString
         ::ZeroMemory(pExtents, cbSize);
 
         // Now the buffer should be big enough.
-        ::DeviceIoControl(hVolume, IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS, NULL, 0, pExtents, cbSize, &amp;cbSize, 0);
+        ::DeviceIoControl(hVolume, IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS, NULL, 0, pExtents, cbSize, &cbSize, 0);
         // Check whether the IOCTL succeeded.
     }
     // Check for errors; note that the IOCTL can fail for a reason other than insufficient memory.
@@ -265,7 +265,7 @@ HRESULT BuildRestoreOptionString
     // For each disk, mark it to be excluded in the Restore Option string.
     for (i = 0; i < pExtents->NumberOfDiskExtents; i++)
     {
-        pExtent = &amp;pExtents->Extents[i];
+        pExtent = &pExtents->Extents[i];
 
         *wszDest = L'\0';
         StringCchPrintf(wszDest, MAX_PATH, L"\"ExcludeDisk\"=\"%d\", ", pExtent->DiskNumber); // check errors

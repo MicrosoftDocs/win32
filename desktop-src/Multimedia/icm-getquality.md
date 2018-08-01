@@ -26,7 +26,7 @@ The **ICM\_GETQUALITY** message queries a video compression driver to return its
 
 ```C++
 ICM_GETQUALITY 
-wParam = (DWORD) (LPVOID) &amp;dwICValue; 
+wParam = (DWORD) (LPVOID) &dwICValue; 
 lParam = 0; 
 ```
 

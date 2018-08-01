@@ -23,15 +23,15 @@ DWORD cbLen = 0, dwSkip = 0, dwFlags = 0;
    cchModulus,  // Length of the string, not including the trailing NULL.
    CRYPT_STRING_BASE64,  // Base64 encoding.
    NULL,     // Do not convert yet. Just calculate the length.
-   &amp;cbLen,   // Receives the length of the buffer that is required.
-   &amp;dwSkip,  // Receives the number of skipped characters.
-   &amp;dwFlags  // Receives flags.
+   &cbLen,   // Receives the length of the buffer that is required.
+   &dwSkip,  // Receives the number of skipped characters.
+   &dwFlags  // Receives flags.
 );
 
 // Allocate a new buffer.
 BYTE *pbBuffer = new BYTE [cbLen];
 ::CryptStringToBinary(pszModulus, cchModulus, CRYPT_STRING_BASE64, 
-    pbBuffer, &amp;cbLen, &amp;dwSkip, &amp;dwFlags);
+    pbBuffer, &cbLen, &dwSkip, &dwFlags);
 
 // (Repeat these steps for the exponent.)
 ```
@@ -51,7 +51,7 @@ DWORD dwExponent;   // Exponent.
 
 // Create a new key container to hold the key. 
 ::CryptAcquireContext(
-    &amp;hCSP,         // Receives a handle to the CSP.
+    &hCSP,         // Receives a handle to the CSP.
     NULL,          // Use the default key container.
     NULL,          // Use the default CSP.
     PROV_RSA_AES,  // Use the AES provider (public-key algorithm).
@@ -83,7 +83,7 @@ CopyMemory(pKey, pModulus, cbModulus);
 
 // Now import the key.
 HCRYPTKEY hRSAKey;  // Receives a handle to the key.
-CryptImportKey(hCSP, pBlob, cbKeyBlob, 0, 0, &amp;hRSAKey) 
+CryptImportKey(hCSP, pBlob, cbKeyBlob, 0, 0, &hRSAKey) 
 ```
 
 

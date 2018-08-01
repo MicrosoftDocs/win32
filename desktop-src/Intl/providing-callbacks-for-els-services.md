@@ -46,15 +46,15 @@ int __cdecl main()
     DWORD                   dwServicesCount = 0;
     HRESULT                 hResult;
 
-    ZeroMemory(&amp;EnumOptions, sizeof (MAPPING_ENUM_OPTIONS));
+    ZeroMemory(&EnumOptions, sizeof (MAPPING_ENUM_OPTIONS));
     EnumOptions.Size = sizeof (MAPPING_ENUM_OPTIONS);
     // Using the Language Auto-Detection GUID to enumerate LAD only:
-    EnumOptions.pGuid = (GUID *)&amp;ELS_GUID_LANGUAGE_DETECTION;
-    hResult = MappingGetServices(&amp;EnumOptions, &amp;prgServices, &amp;dwServicesCount);
+    EnumOptions.pGuid = (GUID *)&ELS_GUID_LANGUAGE_DETECTION;
+    hResult = MappingGetServices(&EnumOptions, &prgServices, &dwServicesCount);
 
     if (SUCCEEDED(hResult))
     {
-        hResult = CallMappingRecognizeText(&amp;prgServices[0]);
+        hResult = CallMappingRecognizeText(&prgServices[0]);
         if (SUCCEEDED(hResult))
         {
             printf("Calling the service %ws has succeeded!\n",
@@ -87,20 +87,20 @@ HRESULT CallMappingRecognizeText(PMAPPING_SERVICE_INFO pService)
     }
     else
     {
-        ZeroMemory(&amp;bag, sizeof (MAPPING_PROPERTY_BAG));
+        ZeroMemory(&bag, sizeof (MAPPING_PROPERTY_BAG));
         bag.Size = sizeof (MAPPING_PROPERTY_BAG);
 
-        ZeroMemory(&amp;Options, sizeof (MAPPING_OPTIONS));
+        ZeroMemory(&Options, sizeof (MAPPING_OPTIONS));
         Options.Size = sizeof (MAPPING_OPTIONS);
         Options.pfnRecognizeCallback = (PFN_MAPPINGCALLBACKPROC)RecognizeCallback;
-        Options.pRecognizeCallerData = &amp;SyncEvent;
+        Options.pRecognizeCallerData = &SyncEvent;
         Options.dwRecognizeCallerDataSize = sizeof (HANDLE);
 
         // MappingRecognizeText's dwIndex parameter specifies the first
         // index inside the text from where the recognition should start.
         // We pass USER_TEXT_SKIP, thus skipping the "Skip " part
         // of the input string.
-        hResult = MappingRecognizeText(pService, USER_TEXT, wcslen(USER_TEXT), USER_TEXT_SKIP, &amp;Options, &amp;bag);
+        hResult = MappingRecognizeText(pService, USER_TEXT, wcslen(USER_TEXT), USER_TEXT_SKIP, &Options, &bag);
         if (SUCCEEDED(hResult))
         {
             // We are using an event to synchronize our waiting for the call to end,

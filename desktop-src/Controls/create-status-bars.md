@@ -75,7 +75,7 @@ HWND DoCreateStatusBar(HWND hwndParent, int idStatus, HINSTANCE
         NULL);                   // no window creation data
 
     // Get the coordinates of the parent window's client area.
-    GetClientRect(hwndParent, &amp;rcClient);
+    GetClientRect(hwndParent, &rcClient);
 
     // Allocate an array for holding the right edge coordinates.
     hloc = LocalAlloc(LHND, sizeof(int) * cParts);

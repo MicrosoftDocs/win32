@@ -38,7 +38,7 @@ The following example sets the source rectangle on the mixer.
 
 
 ```C++
-HRESULT SetMixerSourceRect(IMFTransform *pMixer, const MFVideoNormalizedRect&amp; nrcSource)
+HRESULT SetMixerSourceRect(IMFTransform *pMixer, const MFVideoNormalizedRect& nrcSource)
 {
     if (pMixer == NULL)
     {
@@ -47,10 +47,10 @@ HRESULT SetMixerSourceRect(IMFTransform *pMixer, const MFVideoNormalizedRect&amp
 
     IMFAttributes *pAttributes = NULL;
 
-    HRESULT hr = pMixer->GetAttributes(&amp;pAttributes);
+    HRESULT hr = pMixer->GetAttributes(&pAttributes);
     if (SUCCEEDED(hr))
     {
-        hr = pAttributes->SetBlob(VIDEO_ZOOM_RECT, (const UINT8*)&amp;nrcSource, sizeof(nrcSource));
+        hr = pAttributes->SetBlob(VIDEO_ZOOM_RECT, (const UINT8*)&nrcSource, sizeof(nrcSource));
         pAttributes->Release();
     }
     return hr;

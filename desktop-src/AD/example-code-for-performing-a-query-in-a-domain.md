@@ -40,7 +40,7 @@ HRESULT PrintGroupsInContainer(LPCWSTR pwszContainerDN, DWORD type)
 
     // Bind to the container.
     CComPtr<IDirectorySearch> spSearch;
-    hr = ADsGetObject(sbstrADsPath, IID_IDirectorySearch, (LPVOID*)&amp;spSearch);
+    hr = ADsGetObject(sbstrADsPath, IID_IDirectorySearch, (LPVOID*)&spSearch);
     if(SUCCEEDED(hr))
     {
         ADS_SEARCHPREF_INFO SearchPref[1];
@@ -66,7 +66,7 @@ HRESULT PrintGroupsInContainer(LPCWSTR pwszContainerDN, DWORD type)
 
         // Construct the search filter.
         CComBSTR sbstrSearchFilter;
-        sbstrSearchFilter = "(&amp;(objectClass=group)(groupType:";
+        sbstrSearchFilter = "(&(objectClass=group)(groupType:";
         sbstrSearchFilter += LDAP_MATCHING_RULE_BIT_AND;
         sbstrSearchFilter += ":=";
         sbstrSearchFilter += wszGroupType;
@@ -76,7 +76,7 @@ HRESULT PrintGroupsInContainer(LPCWSTR pwszContainerDN, DWORD type)
         hr = spSearch->ExecuteSearch(sbstrSearchFilter, 
             pwszAttributes, 
             sizeof(pwszAttributes)/sizeof(LPWSTR), 
-            &amp;hSearch);
+            &hSearch);
 
         if(FAILED(hr))
         {
@@ -90,7 +90,7 @@ HRESULT PrintGroupsInContainer(LPCWSTR pwszContainerDN, DWORD type)
             ADS_SEARCH_COLUMN col;
             
             // Get the distinguished name for the current result.
-            hr = spSearch->GetColumn(hSearch, pwszDN, &amp;col);
+            hr = spSearch->GetColumn(hSearch, pwszDN, &col);
             if(SUCCEEDED(hr))
             {
                 if(ADSTYPE_DN_STRING  == col.dwADsType)
@@ -100,7 +100,7 @@ HRESULT PrintGroupsInContainer(LPCWSTR pwszContainerDN, DWORD type)
                 }
                 
                 // Free the column.
-                spSearch->FreeColumn(&amp;col);
+                spSearch->FreeColumn(&col);
             }
             
             hr = spSearch->GetNextRow(hSearch);
@@ -132,7 +132,7 @@ Public Sub PrintGroupsInContainer(ContainerDN As String, GroupType As Long)
     Const ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP = 4
     Const ADS_GROUP_TYPE_LOCAL_GROUP = 4
     Const ADS_GROUP_TYPE_UNIVERSAL_GROUP = 8
-    Const ADS_GROUP_TYPE_SECURITY_ENABLED = &amp;H80000000
+    Const ADS_GROUP_TYPE_SECURITY_ENABLED = &H80000000
     
     Const ADS_SECURE_AUTHENTICATION = 1
     
@@ -148,7 +148,7 @@ Public Sub PrintGroupsInContainer(ContainerDN As String, GroupType As Long)
     oConn.Open
     oComm.ActiveConnection = oConn
     
-    oComm.CommandText = "<LDAP://" + ContainerDN + ">;(&amp;(objectClass=group)(groupType:" + LDAP_MATCHING_RULE_BIT_AND + ":=" + str(GroupType) + "));distinguishedName;subtree"
+    oComm.CommandText = "<LDAP://" + ContainerDN + ">;(&(objectClass=group)(groupType:" + LDAP_MATCHING_RULE_BIT_AND + ":=" + str(GroupType) + "));distinguishedName;subtree"
     
     ' Execute the query.
     Set oRS = oComm.Execute

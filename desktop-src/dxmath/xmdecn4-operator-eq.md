@@ -39,7 +39,7 @@ Assigns vector component data to the current instance of [**XMDECN4**](https://m
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMDECN4::operator = (const XMDECN4&amp;)</strong>](https://msdn.microsoft.com/en-us/library/Ee419446(v=VS.85).aspx)</td>
+<td style="text-align: left;">[<strong>XMDECN4::operator = (const XMDECN4&)</strong>](https://msdn.microsoft.com/en-us/library/Ee419446(v=VS.85).aspx)</td>
 <td style="text-align: left;">Assigns the vector component data from one instance of <code>XMDECN4</code> to the current instance of <code>XMDECN4</code>. <br/> This operator assigns the vector component data from one instance of [<strong>XMDECN4</strong>](https://msdn.microsoft.com/en-us/library/Ee419440(v=VS.85).aspx) to the current instance of <code>XMDECN4</code>. <br/>
 <blockquote>
 [!Note]<br />

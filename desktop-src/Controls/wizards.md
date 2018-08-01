@@ -143,13 +143,13 @@ PROPSHEETPAGE psp = { sizeof(psp) };
 
 psp.hInstance         = g_hInstance;
 psp.dwFlags           = PSP_USEHEADERTITLE | PSP_USEHEADERSUBTITLE;
-psp.lParam            = (LPARAM) &amp;wizdata;
+psp.lParam            = (LPARAM) &wizdata;
 psp.pszHeaderTitle    = MAKEINTRESOURCE(IDS_TITLE1);
 psp.pszHeaderSubTitle = MAKEINTRESOURCE(IDS_SUBTITLE1);
 psp.pszTemplate       = MAKEINTRESOURCE(IDD_INTERIOR1);
 psp.pfnDlgProc        = IntPage1DlgProc;
 
-ahpsp[1] = CreatePropertySheetPage(&amp;psp);
+ahpsp[1] = CreatePropertySheetPage(&psp);
 ```
 
 
@@ -188,7 +188,7 @@ psh.pszbmHeader    = MAKEINTRESOURCE(IDB_BANNER);
 psh.nStartPage     = 0;
 psh.nPages         = 4;
 
-PropertySheet(&amp;psh);
+PropertySheet(&psh);
 ```
 
 

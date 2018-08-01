@@ -32,7 +32,7 @@ The following code example shows how to set the password never expires option us
 
 
 ```VB
-Const ADS_UF_DONT_EXPIRE_PASSWD = &amp;H10000
+Const ADS_UF_DONT_EXPIRE_PASSWD = &H10000
 Dim usr as IADs
 
 Set usr = GetObject("WinNT://Fabrikam/JeffSmith")
@@ -54,22 +54,22 @@ The following code example shows how to set the password never expires option us
 
 IADsUser *pUser = NULL;
 VARIANT var;
-VariantInit(&amp;var);
+VariantInit(&var);
 
 HRESULT hr = S_OK;
 LPWSTR adsPath;
 adsPath = L"WinNT://Fabrikam/JeffSmith";
-hr = ADsGetObject(adsPath,IID_IADsUser, (void**)&amp;pUser);
+hr = ADsGetObject(adsPath,IID_IADsUser, (void**)&pUser);
 
 CComBSTR sbstrUserFlags = "UserFlags";
-hr = pUser->Get(sbstrUserFlags, &amp;var);
+hr = pUser->Get(sbstrUserFlags, &var);
 
-V_I4(&amp;var) |= ADS_UF_DONT_EXPIRE_PASSWD;
+V_I4(&var) |= ADS_UF_DONT_EXPIRE_PASSWD;
 hr = pUser->Put(sbstrUserFlags, var);
 
 hr = pUser->SetInfo();
 
-VariantClear(&amp;var);
+VariantClear(&var);
 
 pUser->Release();
 ```

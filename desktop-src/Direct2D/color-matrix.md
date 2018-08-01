@@ -51,7 +51,7 @@ The example here shows the input and output images of the color matrix effect th
 
 ```C++
 ComPtr<ID2D1Effect> colorMatrixEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1ColorMatrix, &amp;colorMatrixEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1ColorMatrix, &colorMatrixEffect);
 
 colorMatrixEffect->SetInput(0, bitmap);
 D2D1_MATRIX_5X4_F matrix = D2D1::Matrix5x4F(0, 0, 1, 0,   0, 1, 0, 0,   1, 0, 0, 0,   0, 0, 0, 1,   0, 0, 0, 0);

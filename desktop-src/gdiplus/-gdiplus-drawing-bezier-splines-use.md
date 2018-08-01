@@ -20,7 +20,7 @@ Point c1(100, 10);   // first control point
 Point c2(150, 150);  // second control point
 Point p2(200, 100);  // end point
 Pen pen(Color(255, 0, 0, 255));
-graphics.DrawBezier(&amp;pen, p1, c1, c2, p2);
+graphics.DrawBezier(&pen, p1, c1, c2, p2);
 ```
 
 
@@ -43,7 +43,7 @@ Point p[] = {
    Point(175, 200),  // second control point of second spline
    Point(200, 80)};  // end point of second spline
 Pen pen(Color(255, 0, 0, 255));
-graphics.DrawBeziers(&amp;pen, p, 7);
+graphics.DrawBeziers(&pen, p, 7);
 ```
 
 

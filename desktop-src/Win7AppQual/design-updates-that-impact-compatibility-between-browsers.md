@@ -62,7 +62,7 @@ This section and the following table show the four major areas of compatibility 
 </ul></td>
 <td><ul>
 <li>Better protection from malware</li>
-<li>DEP/NX &amp; XSS filter on by default</li>
+<li>DEP/NX & XSS filter on by default</li>
 <li>HTTP/HTTPS mixed mode</li>
 <li>AJAX more secure</li>
 </ul></td>

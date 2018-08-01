@@ -47,7 +47,7 @@ HRESULT BindOutputNode(IMFTopologyNode *pNode)
     IMFMediaSink *pSink = NULL;
 
     // Get the node's object pointer.
-    HRESULT hr = pNode->GetObject(&amp;pNodeObject);
+    HRESULT hr = pNode->GetObject(&pNodeObject);
     if (FAILED(hr))
     {
         return hr;
@@ -60,7 +60,7 @@ HRESULT BindOutputNode(IMFTopologyNode *pNode)
     // If it's #2, then we're already done.
 
     // First, check if it's an activation object.
-    hr = pNodeObject->QueryInterface(IID_PPV_ARGS(&amp;pActivate));
+    hr = pNodeObject->QueryInterface(IID_PPV_ARGS(&pActivate));
 
     if (SUCCEEDED(hr))
     {
@@ -69,7 +69,7 @@ HRESULT BindOutputNode(IMFTopologyNode *pNode)
         // The object pointer is an activation object. 
         
         // Try to create the media sink.
-        hr = pActivate->ActivateObject(IID_PPV_ARGS(&amp;pSink));
+        hr = pActivate->ActivateObject(IID_PPV_ARGS(&pSink));
 
         // Look up the stream ID. (Default to zero.)
 
@@ -84,11 +84,11 @@ HRESULT BindOutputNode(IMFTopologyNode *pNode)
 
         if (SUCCEEDED(hr))
         {
-            hr = pSink->GetStreamSinkById(dwStreamID, &amp;pStream);
+            hr = pSink->GetStreamSinkById(dwStreamID, &pStream);
             if (FAILED(hr))
             {
                 // Try to add a new stream sink.
-                hr = pSink->AddStreamSink(dwStreamID, NULL, &amp;pStream);
+                hr = pSink->AddStreamSink(dwStreamID, NULL, &pStream);
             }
         }
 
@@ -101,13 +101,13 @@ HRESULT BindOutputNode(IMFTopologyNode *pNode)
     else
     {
         // Not an activation object. Is it a stream sink?
-        hr = pNodeObject->QueryInterface(IID_PPV_ARGS(&amp;pStream));
+        hr = pNodeObject->QueryInterface(IID_PPV_ARGS(&pStream));
     }
 
-    SafeRelease(&amp;pNodeObject);
-    SafeRelease(&amp;pActivate);
-    SafeRelease(&amp;pStream);
-    SafeRelease(&amp;pSink);
+    SafeRelease(&pNodeObject);
+    SafeRelease(&pActivate);
+    SafeRelease(&pStream);
+    SafeRelease(&pSink);
     return hr;
 }
 ```
@@ -135,23 +135,23 @@ HRESULT BindOutputNodes(IMFTopology *pTopology)
     IMFTopologyNode *pNode = NULL;
 
     // Get the collection of output nodes. 
-    HRESULT hr = pTopology->GetOutputNodeCollection(&amp;pCol);
+    HRESULT hr = pTopology->GetOutputNodeCollection(&pCol);
     
     // Enumerate all of the nodes in the collection.
     if (SUCCEEDED(hr))
     {
-        hr = pCol->GetElementCount(&amp;cNodes);
+        hr = pCol->GetElementCount(&cNodes);
     }
 
     if (SUCCEEDED(hr))
     {
         for (DWORD i = 0; i < cNodes; i++)
         {
-            hr = pCol->GetElement(i, &amp;pUnk);
+            hr = pCol->GetElement(i, &pUnk);
 
             if (FAILED(hr)) { break; }
 
-            hr = pUnk->QueryInterface(IID_IMFTopologyNode, (void**)&amp;pNode);
+            hr = pUnk->QueryInterface(IID_IMFTopologyNode, (void**)&pNode);
 
             if (FAILED(hr)) { break; }
 
@@ -162,9 +162,9 @@ HRESULT BindOutputNodes(IMFTopology *pTopology)
         }
     }
 
-    SafeRelease(&amp;pCol);
-    SafeRelease(&amp;pUnk);
-    SafeRelease(&amp;pNode);
+    SafeRelease(&pCol);
+    SafeRelease(&pUnk);
+    SafeRelease(&pNode);
     return hr;
 }
 ```

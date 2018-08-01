@@ -85,7 +85,7 @@ After preparing the [**D3DMATERIAL9**](d3dmaterial9.md) structure, you apply the
 // the mat variable earlier in this topic. The pd3dDev is assumed
 // to be a valid pointer to an IDirect3DDevice9 interface.
 HRESULT hr;
-hr = pd3dDev->SetMaterial(&amp;mat);
+hr = pd3dDev->SetMaterial(&mat);
 if(FAILED(hr))
 {
     // Code to handle the error goes here.
@@ -121,7 +121,7 @@ You retrieve the material properties that the rendering device is currently usin
 HRESULT hr;
 D3DMATERIAL9 mat;
 
-hr = pd3dDev->GetMaterial(&amp;mat);
+hr = pd3dDev->GetMaterial(&mat);
 if(FAILED(hr))
 {
     // Code to handle the error goes here.

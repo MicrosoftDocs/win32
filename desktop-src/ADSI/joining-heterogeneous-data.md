@@ -63,7 +63,7 @@ With, SQL Server 7.0, ADSI, and the OLE DB Provider, it is possible to join data
 
     ```sql
     SELECT * FROM OPENQUERY(ADSI,
-        '<LDAP://DC=Fabrikam,DC=COM>;(&amp;(objectCategory=Person)(objectClass=user));name, adspath;subtree')
+        '<LDAP://DC=Fabrikam,DC=COM>;(&(objectCategory=Person)(objectClass=user));name, adspath;subtree')
     ```
 
     

@@ -46,13 +46,13 @@ The following code example moves the contents of a page to a canvas.
 
     // get the page's visual collection 
     // and how many objects it contains
-    hr = page->GetVisuals( &amp;pageVisuals );
-    hr = pageVisuals->GetCount ( &amp;numVisuals );
+    hr = page->GetVisuals( &pageVisuals );
+    hr = pageVisuals->GetCount ( &numVisuals );
 
     // create the new canvas object and 
     // its (empty) visual collection
-    hr = xpsFactory->CreateCanvas ( &amp;newPageCanvas );
-    hr = newPageCanvas->GetVisuals ( &amp;canvasVisuals );
+    hr = xpsFactory->CreateCanvas ( &newPageCanvas );
+    hr = newPageCanvas->GetVisuals ( &canvasVisuals );
     
     // go through the page's list of visual objects,
     //  move each one from the page's list to the canvas' list
@@ -60,13 +60,13 @@ The following code example moves the contents of a page to a canvas.
     //  remove it from the page's collection
     thisVisual = 0;
     while (thisVisual < numVisuals) {
-        hr = pageVisuals->GetAt (0, &amp;oneVisual);
+        hr = pageVisuals->GetAt (0, &oneVisual);
         hr = canvasVisuals->Append (oneVisual);
         hr = pageVisuals->RemoveAt (0);
         thisVisual++;
     }
     // the page's visual collection should be empty
-    hr = pageVisuals->GetCount (&amp;numVisuals);
+    hr = pageVisuals->GetCount (&numVisuals);
     _ASSERT (0 == numVisuals);
 
     // add the new canvas to the page's visual collection

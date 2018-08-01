@@ -61,7 +61,7 @@ DWORD dwBlobLen;
 // Acquire a cryptographic provider context handle.
 
 if(CryptAcquireContext(
-   &amp;hProv, 
+   &hProv, 
    NULL, 
    NULL, 
    PROV_RSA_FULL, 
@@ -83,7 +83,7 @@ else
 if(CryptGetUserKey(   
    hProv,    
    AT_SIGNATURE,    
-   &amp;hKey)) 
+   &hKey)) 
 {
     printf("The signature key has been acquired. \n");
 }
@@ -103,7 +103,7 @@ if(CryptExportKey(
    PUBLICKEYBLOB,
    0,    
    NULL, 
-   &amp;dwBlobLen)) 
+   &dwBlobLen)) 
 {
      printf("Size of the BLOB for the public key determined. \n");
 }
@@ -131,7 +131,7 @@ if(CryptExportKey(
    PUBLICKEYBLOB,    
    0,    
    pbKeyBlob,    
-   &amp;dwBlobLen))
+   &dwBlobLen))
 {
      printf("Contents have been written to the BLOB. \n");
 }
@@ -147,7 +147,7 @@ if(CryptCreateHash(
    CALG_MD5, 
    0, 
    0, 
-   &amp;hHash)) 
+   &hHash)) 
 {
      printf("Hash object created. \n");
 }
@@ -180,7 +180,7 @@ if(CryptSignHash(
    NULL, 
    0, 
    NULL, 
-   &amp;dwSigLen)) 
+   &dwSigLen)) 
 {
      printf("Signature length %d found.\n",dwSigLen);
 }
@@ -208,7 +208,7 @@ if(CryptSignHash(
    NULL, 
    0, 
    pbSignature, 
-   &amp;dwSigLen)) 
+   &dwSigLen)) 
 {
      printf("pbSignature is the hash signature.\n");
 }
@@ -249,7 +249,7 @@ if(CryptImportKey(
    dwBlobLen,
    0,
    0,
-   &amp;hPubKey))
+   &hPubKey))
 {
      printf("The key has been imported.\n");
 }
@@ -265,7 +265,7 @@ if(CryptCreateHash(
    CALG_MD5, 
    0, 
    0, 
-   &amp;hHash)) 
+   &hHash)) 
 {
      printf("The hash object has been recreated. \n");
 }

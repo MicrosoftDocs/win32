@@ -43,7 +43,7 @@ The CLSID for this effect is CLSID\_D2D12DAffineTransform.
 
 ```C++
 ComPtr<ID2D1Effect> affineTransformEffect;
-m_d2dContext->CreateEffect(CLSID_D2D12DAffineTransform, &amp;affineTransformEffect);
+m_d2dContext->CreateEffect(CLSID_D2D12DAffineTransform, &affineTransformEffect);
 
 affineTransformEffect->SetInput(0, bitmap);
 

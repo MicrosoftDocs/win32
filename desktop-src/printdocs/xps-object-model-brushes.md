@@ -53,9 +53,9 @@ The following code example creates a solid-color brush from a color value that i
     xpsColor.value.sRGB.blue = 0x00;
 
     hr = xpsFactory->CreateSolidColorBrush(
-       &amp;xpsColor, 
+       &xpsColor, 
        NULL, 
-       reinterpret_cast<IXpsOMSolidColorBrush**>(&amp;brush));
+       reinterpret_cast<IXpsOMSolidColorBrush**>(&brush));
     
     // use brush
 
@@ -85,9 +85,9 @@ The following code example creates a brush from a visual object.
     //
     // create the brush
     hr = xpsFactory->CreateVisualBrush (
-        &amp;viewBoxRect,
-        &amp;viewPortRect,
-        reinterpret_cast<IXpsOMVisualBrush**>(&amp;brush));
+        &viewBoxRect,
+        &viewPortRect,
+        reinterpret_cast<IXpsOMVisualBrush**>(&brush));
 
     // assign the visual object
     //   brushVisual points to a visual
@@ -130,10 +130,10 @@ The following code example creates a linear-gradient brush. The gradient has two
     // create a gradient stop by setting the color and location 
     // for the beginning of the gradient
     hr = xpsFactory->CreateGradientStop(
-        &amp;xpsColorStop, 
+        &xpsColorStop, 
         NULL, 
         0.0f,
-        &amp;xpsGradientStop1);
+        &xpsGradientStop1);
     startPoint.x = 375.75f;
     startPoint.y = 18.0f;
 
@@ -147,10 +147,10 @@ The following code example creates a linear-gradient brush. The gradient has two
     // create a gradient stop by setting the color and  location
     //  for the end of the gradient
     hr = xpsFactory->CreateGradientStop(
-        &amp;xpsColorStop,
+        &xpsColorStop,
         NULL, 
         1.0f, 
-        &amp;xpsGradientStop2);
+        &xpsGradientStop2);
     endPoint.x   = 375.75f;
     endPoint.y   = 134.6f;
 
@@ -158,9 +158,9 @@ The following code example creates a linear-gradient brush. The gradient has two
     hr = xpsFactory->CreateLinearGradientBrush(
         xpsGradientStop1, 
         xpsGradientStop2, 
-        &amp;startPoint, 
-        &amp;endPoint, 
-        &amp;brush);
+        &startPoint, 
+        &endPoint, 
+        &brush);
     // release gradient stops after creating brush
     xpsGradientStop1->Release();
     xpsGradientStop2->Release();

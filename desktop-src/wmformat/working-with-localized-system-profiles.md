@@ -31,7 +31,7 @@ HRESULT GetCurrentSystemProfileLanguage(IMWProfilManager* pProfileMgr)
 
     // Get the profile manager language interface.
     hr = pProfileMgr->QueryInterface(IID_IWMProfileManagerLanguage,
-                                     (void **) &amp;pProfileMgrLang);
+                                     (void **) &pProfileMgrLang);
     if(FAILED(hr))
     {
         printf("Couldn't get IWMProfileManagerLanguage.\n");
@@ -41,7 +41,7 @@ HRESULT GetCurrentSystemProfileLanguage(IMWProfilManager* pProfileMgr)
 
     // Retrieve the current language (as a LANGID value)
     WORD wLangID = 0;
-    hr = pProfileMgrLang->GetUserLanguageID(&amp;wLangID);
+    hr = pProfileMgrLang->GetUserLanguageID(&wLangID);
     if(FAILED(hr))
     {
         printf("Could not get the current language.\n");

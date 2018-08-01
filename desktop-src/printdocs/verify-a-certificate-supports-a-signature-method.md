@@ -147,7 +147,7 @@ SupportsSignatureAlgorithm (
         hr = CryptXmlEnumAlgorithmInfo(
             CRYPT_XML_GROUP_ID_SIGN,  // NOTE: CRYPT_XML_GROUP_ID_SIGN
             CRYPT_XML_FLAG_DISABLE_EXTENSIONS,
-            (void*)&amp;certificateAlgorithmData,
+            (void*)&certificateAlgorithmData,
             EnumSignatureMethodCallback);
         // when the enumeration has returned successfully, 
         //  certificateAlgorithmData.userSignatureAlgorithmSupported

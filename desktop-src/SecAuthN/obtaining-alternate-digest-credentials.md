@@ -68,7 +68,7 @@ void main()
     LPTSTR DomainName = TEXT("AnAuthenticatingDomain");
 
     // Initialize the memory.
-    ZeroMemory( &amp;ClientAuthID, sizeof(ClientAuthID) );
+    ZeroMemory( &ClientAuthID, sizeof(ClientAuthID) );
 
     // Specify string format for the ClientAuthID structure.
 
@@ -91,11 +91,11 @@ void main()
       WDIGEST_SP_NAME,       // The Digest SSP. 
       SECPKG_CRED_OUTBOUND,  // Client will use the credentials.
       NULL,                  // Do not specify LOGON id.
-      &amp;ClientAuthID,         // User information.
+      &ClientAuthID,         // User information.
       NULL,                  // Not used with Digest SSP.
       NULL,                  // Not used with Digest SSP.
-      &amp;hCred,                // Receives the credential handle.
-      &amp;tsLifetime            // Receives the credential time limit.
+      &hCred,                // Receives the credential handle.
+      &tsLifetime            // Receives the credential time limit.
     );
 }
 ```

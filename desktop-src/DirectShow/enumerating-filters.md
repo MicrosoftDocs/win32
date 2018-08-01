@@ -23,13 +23,13 @@ HRESULT EnumFilters (IFilterGraph *pGraph)
     IBaseFilter *pFilter;
     ULONG cFetched;
 
-    HRESULT hr = pGraph->EnumFilters(&amp;pEnum);
+    HRESULT hr = pGraph->EnumFilters(&pEnum);
     if (FAILED(hr)) return hr;
 
-    while(pEnum->Next(1, &amp;pFilter, &amp;cFetched) == S_OK)
+    while(pEnum->Next(1, &pFilter, &cFetched) == S_OK)
     {
         FILTER_INFO FilterInfo;
-        hr = pFilter->QueryFilterInfo(&amp;FilterInfo);
+        hr = pFilter->QueryFilterInfo(&FilterInfo);
         if (FAILED(hr))
         {
             MessageBox(NULL, TEXT("Could not get the filter info"),

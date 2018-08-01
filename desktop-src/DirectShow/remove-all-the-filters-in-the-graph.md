@@ -22,11 +22,11 @@ pControl->Stop();
 
 // Enumerate the filters in the graph.
 IEnumFilters *pEnum = NULL;
-HRESULT hr = pGraph->EnumFilters(&amp;pEnum);
+HRESULT hr = pGraph->EnumFilters(&pEnum);
 if (SUCCEEDED(hr))
 {
     IBaseFilter *pFilter = NULL;
-    while (S_OK == pEnum->Next(1, &amp;pFilter, NULL))
+    while (S_OK == pEnum->Next(1, &pFilter, NULL))
      {
          // Remove the filter.
          pGraph->RemoveFilter(pFilter);

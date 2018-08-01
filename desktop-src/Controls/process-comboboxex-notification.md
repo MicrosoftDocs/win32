@@ -49,8 +49,8 @@ LRESULT CALLBACK WndProc (HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
             return (DoCBEXNotify(hwnd, lParam));
 
         case WM_PAINT:
-            hdc = BeginPaint(hwnd, &amp;ps);
-            EndPaint(hwnd, &amp;ps);
+            hdc = BeginPaint(hwnd, &ps);
+            EndPaint(hwnd, &ps);
             break;
 
         case WM_DESTROY:

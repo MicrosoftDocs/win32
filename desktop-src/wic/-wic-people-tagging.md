@@ -55,14 +55,14 @@ IWICMetadataQueryReader *pQueryReader = NULL;
 // Get the query reader.
 if (SUCCEEDED(hr))
 {
-    hr = pFrameDecode->GetMetadataQueryReader(&amp;pQueryReader);
+    hr = pFrameDecode->GetMetadataQueryReader(&pQueryReader);
 }
 
 // Query for the System.Photo.PeopleNames property.
 if (SUCCEEDED(hr))
 {
     // Get the property metadata by property name.
-    hr = pQueryReader->GetMetadataByName(L"System.Photo.PeopleNames", &amp;value);
+    hr = pQueryReader->GetMetadataByName(L"System.Photo.PeopleNames", &value);
 }
 ```
 
@@ -83,7 +83,7 @@ IWICMetadataQueryWriter *pQueryWriter = NULL;
 // Get the query writer from the image frame.
 if (SUCCEEDED(hr))
 {
-    hr = pFrameEncode->GetMetadataQueryWriter(&amp;pQueryWriter);
+    hr = pFrameEncode->GetMetadataQueryWriter(&pQueryWriter);
 }
 
 // A query writer specifically for this person's XMP struct
@@ -93,12 +93,12 @@ IWICMetadataQueryWriter *pXMPStructQueryWriter = NULL;
 hr = pFactory->CreateQueryWriter(
     GUID_MetadataFormatXMPStruct,
     NULL,
-    &amp;pXMPStructQueryWriter
+    &pXMPStructQueryWriter
     );
 
 // Create a variant representing the structure created above
 PROPVARIANT xmpStruct;
-PropVariantInit(&amp;xmpStruct);
+PropVariantInit(&xmpStruct);
 
 // VT_UNKNOWN indicates that we're setting a COM object, in this case a XMPStruct
 // which will hold the name and rectangle
@@ -113,13 +113,13 @@ if(SUCCEEDED(hr))
     // {} could also be used to insert at the end of the bag.
     hr = pQueryWriter->SetMetadataByName(
         L"/xmp/<xmpstruct>MP:RegionInfo/<xmpbag>MPRI:Regions/{ulong=0}",
-        &amp;xmpStruct
+        &xmpStruct
         );
 }
 
 // Set up the PROPVARIANT with the name information
 PROPVARIANT personName;
-PropVariantInit(&amp;personName);
+PropVariantInit(&personName);
 personName.vt = VT_LPWSTR;
 personName.pwszVal = L"John Doe";
 
@@ -128,7 +128,7 @@ if(SUCCEEDED(hr))
     // Set the name metadata
     hr = pQueryWriter->SetMetadataByName(
         L"/xmp/MP:RegionInfo/MPRI:Regions/{ulong=0}/MPReg:PersonDisplayName",
-        &amp;personName
+        &personName
         );  
 }
 ```
@@ -149,7 +149,7 @@ The rectangle information that identifies individuals is written in the same way
 ```C++
 // Set up the PROPVARIANT with the rectangle information
 PROPVARIANT rectangle;
-PropVariantInit(&amp;rectangle);
+PropVariantInit(&rectangle);
 rectangle.vt = VT_LPWSTR;
 rectangle.pwszVal = L"0.0,0.0,0.25,0.25";
 
@@ -158,7 +158,7 @@ if(SUCCEEDED(hr))
     // Set the rectangle metadata
     hr = pQueryWriter->SetMetadataByName(
         L"/xmp/MP:RegionInfo/MPRI:Regions/{ulong=0}/MPReg:Rectangle",
-        &amp;rectangle
+        &rectangle
         );
 }
 ```

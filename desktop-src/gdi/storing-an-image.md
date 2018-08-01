@@ -26,7 +26,7 @@ PBITMAPINFO CreateBitmapInfoStruct(HWND hwnd, HBITMAP hBmp)
     WORD    cClrBits; 
 
     // Retrieve the bitmap color format, width, and height.  
-    if (!GetObject(hBmp, sizeof(BITMAP), (LPSTR)&amp;bmp)) 
+    if (!GetObject(hBmp, sizeof(BITMAP), (LPSTR)&bmp)) 
         errhandler("GetObject", hwnd); 
 
     // Convert the color format to a count of bits.  
@@ -140,8 +140,8 @@ void CreateBMPFile(HWND hwnd, LPTSTR pszFile, PBITMAPINFO pbi,
                     * sizeof (RGBQUAD); 
 
     // Copy the BITMAPFILEHEADER into the .BMP file.  
-    if (!WriteFile(hf, (LPVOID) &amp;hdr, sizeof(BITMAPFILEHEADER), 
-        (LPDWORD) &amp;dwTmp,  NULL)) 
+    if (!WriteFile(hf, (LPVOID) &hdr, sizeof(BITMAPFILEHEADER), 
+        (LPDWORD) &dwTmp,  NULL)) 
     {
        errhandler("WriteFile", hwnd); 
     }
@@ -149,13 +149,13 @@ void CreateBMPFile(HWND hwnd, LPTSTR pszFile, PBITMAPINFO pbi,
     // Copy the BITMAPINFOHEADER and RGBQUAD array into the file.  
     if (!WriteFile(hf, (LPVOID) pbih, sizeof(BITMAPINFOHEADER) 
                   + pbih->biClrUsed * sizeof (RGBQUAD), 
-                  (LPDWORD) &amp;dwTmp, ( NULL)))
+                  (LPDWORD) &dwTmp, ( NULL)))
         errhandler("WriteFile", hwnd); 
 
     // Copy the array of color indices into the .BMP file.  
     dwTotal = cb = pbih->biSizeImage; 
     hp = lpBits; 
-    if (!WriteFile(hf, (LPSTR) hp, (int) cb, (LPDWORD) &amp;dwTmp,NULL)) 
+    if (!WriteFile(hf, (LPSTR) hp, (int) cb, (LPDWORD) &dwTmp,NULL)) 
            errhandler("WriteFile", hwnd); 
 
     // Close the .BMP file.  

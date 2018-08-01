@@ -53,9 +53,9 @@ When sending this message, the *lParam* parameter contains the handle of the ite
 ```
 RECT rc;
 
-*(HTREEITEM*)&amp;rc = hTreeItem;
+*(HTREEITEM*)&rc = hTreeItem;
 
-SendMessage(hwndTreeView, TVM_GETITEMRECT, FALSE, (LPARAM)&amp;rc);
+SendMessage(hwndTreeView, TVM_GETITEMRECT, FALSE, (LPARAM)&rc);
 ```
 
 

@@ -22,7 +22,7 @@ The following code example demonstrates how to fill in the [**DXGI\_SWAP\_CHAIN\
 
 ```
 DXGI_SWAP_CHAIN_DESC sd;
-ZeroMemory( &amp;sd, sizeof( sd ) );
+ZeroMemory( &sd, sizeof( sd ) );
 sd.BufferCount = 1;
 sd.BufferDesc.Width = 640;
 sd.BufferDesc.Height = 480;
@@ -50,14 +50,14 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
                 D3D_DRIVER_TYPE_HARDWARE, 
                 NULL, 
                 0,
-                &amp;FeatureLevelsRequested, 
+                &FeatureLevelsRequested, 
                 numFeatureLevelsRequested, 
                 D3D11_SDK_VERSION, 
-                &amp;sd, 
-                &amp;g_pSwapChain, 
-                &amp;g_pd3dDevice, 
-                &amp;FeatureLevelsSupported,
-                &amp;g_pImmediateContext )))
+                &sd, 
+                &g_pSwapChain, 
+                &g_pd3dDevice, 
+                &FeatureLevelsSupported,
+                &g_pImmediateContext )))
 {
     return hr;
 }
@@ -86,10 +86,10 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 > #endif
 >
 > ID3D11Device* device = nullptr;
-> HRESULT hr = D3D11CreateDeviceAndSwapChain( nullptr, D3D_DRIVER_TYPE_HARDWARE, nullptr, createDeviceFlags, lvl, _countof(lvl), D3D11_SDK_VERSION, &amp;sd, &amp;g_pSwapChain, &amp;g_pd3ddevice, &amp;FeatureLevelsSupported, &amp;g_pImmediateContext );
+> HRESULT hr = D3D11CreateDeviceAndSwapChain( nullptr, D3D_DRIVER_TYPE_HARDWARE, nullptr, createDeviceFlags, lvl, _countof(lvl), D3D11_SDK_VERSION, &sd, &g_pSwapChain, &g_pd3ddevice, &FeatureLevelsSupported, &g_pImmediateContext );
 > if ( hr == E_INVALIDARG )
 > {
->     hr = D3D11CreateDeviceAndSwapChain( nullptr, D3D_DRIVER_TYPE_HARDWARE, nullptr, createDeviceFlags, &amp;lvl[1], _countof(lvl) - 1, D3D11_SDK_VERSION, &amp;sd, &amp;g_pSwapChain, &amp;g_pd3ddevice, &amp;FeatureLevelsSupported, &amp;g_pImmediateContext );
+>     hr = D3D11CreateDeviceAndSwapChain( nullptr, D3D_DRIVER_TYPE_HARDWARE, nullptr, createDeviceFlags, &lvl[1], _countof(lvl) - 1, D3D11_SDK_VERSION, &sd, &g_pSwapChain, &g_pd3ddevice, &FeatureLevelsSupported, &g_pImmediateContext );
 > }
 >
 > if (FAILED(hr))
@@ -116,14 +116,14 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 >
 > // Get a pointer to the back buffer
 > hr = g_pSwapChain-&gt;GetBuffer( 0, __uuidof( ID3D11Texture2D ), 
->                              ( LPVOID* )&amp;pBackBuffer );
+>                              ( LPVOID* )&pBackBuffer );
 >
 > // Create a render-target view
 > g_pd3dDevice-&gt;CreateRenderTargetView( pBackBuffer, NULL,
->                                       &amp;g_pRenderTargetView );
+>                                       &g_pRenderTargetView );
 >
 > // Bind the view
-> g_pImmediateContext-&gt;OMSetRenderTargets( 1, &amp;g_pRenderTargetView, NULL );</code></pre></td>
+> g_pImmediateContext-&gt;OMSetRenderTargets( 1, &g_pRenderTargetView, NULL );</code></pre></td>
 > </tr>
 > </tbody>
 > </table>
@@ -153,7 +153,7 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 >     vp.MaxDepth = 1.0f;
 >     vp.TopLeftX = 0;
 >     vp.TopLeftY = 0;
->     g_pImmediateContext-&gt;RSSetViewports( 1, &amp;vp );</code></pre></td>
+>     g_pImmediateContext-&gt;RSSetViewports( 1, &vp );</code></pre></td>
 > </tr>
 > </tbody>
 > </table>

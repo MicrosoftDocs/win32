@@ -168,16 +168,16 @@ main(int argc, char *argv[])
      
     for (i = 0; i < 256; i++) { 
         /* BGR: 2:3:3 */ 
-        rampmap[i].color.red = threeto8[(i&amp;7)]; 
-        rampmap[i].color.green = threeto8[((i>>3)&amp;7)]; 
-        rampmap[i].color.blue = twoto8[(i>>6)&amp;3]; 
+        rampmap[i].color.red = threeto8[(i&7)]; 
+        rampmap[i].color.green = threeto8[((i>>3)&7)]; 
+        rampmap[i].color.blue = twoto8[(i>>6)&3]; 
     } 
  
     /* Go through the default palette and find exact matches */ 
     for (i=0; i<20; i++) { 
         for(j=0; j<256; j++) { 
-            if ( (defaultpal[i].color.red == rampmap[j].color.red) &amp;&amp; 
-                 (defaultpal[i].color.green == rampmap[j].color.green) &amp;&amp; 
+            if ( (defaultpal[i].color.red == rampmap[j].color.red) && 
+                 (defaultpal[i].color.green == rampmap[j].color.green) && 
                  (defaultpal[i].color.blue == rampmap[j].color.blue)) { 
  
                 rampmap[j].flags = EXACTMATCH; 
@@ -221,7 +221,7 @@ main(int argc, char *argv[])
      
     printf("Standard 8-bit RGB color cube with gamma %.2f:\n", gamma); 
     for (i=0; i<256; i++) { 
-        pc = &amp;rampmap[i].color;  
+        pc = &rampmap[i].color;  
         printf("%3ld: (%3-D, %3-D, %3-D)\n", i, pc->red,  
                 pc->green, pc->blue); 
      
@@ -232,7 +232,7 @@ main(int argc, char *argv[])
  
     for (i=0; i<20; i++) { 
         if (defaultpal[i].flags == EXACTMATCH) { 
-            pc = &amp;defaultpal[i].color;  
+            pc = &defaultpal[i].color;  
             printf("Default entry %2ld exactly matched RGB ramp entry  
                       %3ld", i, defaultpal[i].rampindex); 
             printf(" (%3-D, %3-D, %3-D)\n", pc->red, pc->green, pc->blue); 
@@ -245,10 +245,10 @@ main(int argc, char *argv[])
      
     for (i=0; i<20; i++) { 
         if (defaultpal[i].flags != EXACTMATCH) { 
-            pc = &amp;defaultpal[i].color;  
+            pc = &defaultpal[i].color;  
             printf("Default entry %2ld (%3-D, %3-D, %3-D) is close to ", 
                 i, pc->red, pc->green, pc->blue); 
-            pc = &amp;rampmap[defaultpal[i].rampindex].color; 
+            pc = &rampmap[defaultpal[i].rampindex].color; 
             printf("RGB ramp entry %3ld (%3-D, %3-D, %3-D)\n", 
                 defaultpal[i].rampindex, pc->red, pc->green, pc->blue); 
         } 
@@ -270,9 +270,9 @@ main(int argc, char *argv[])
  
     for (i=0; i<256; i++) {  
         if (rampmap[i].flags == 0) 
-            pc = &amp;rampmap[i].color; 
+            pc = &rampmap[i].color; 
         else 
-            pc = &amp;defaultpal[rampmap[i].defaultindex].color; 
+            pc = &defaultpal[rampmap[i].defaultindex].color; 
          
         printf("    %3-D, %3-D, %3-D,   0,    /* %ld", 
                 pc->red, pc->green, pc->blue, i);  
@@ -287,7 +287,7 @@ main(int argc, char *argv[])
  
     printf("};\n"); 
     printf("\n    * * *\n\n"); 
-    printf("    hpal = CreatePalette((LOGPALETTE *)&amp;rgb8palette);\n"); 
+    printf("    hpal = CreatePalette((LOGPALETTE *)&rgb8palette);\n"); 
  
     return 0; 
 }

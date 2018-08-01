@@ -44,7 +44,7 @@ wmain(
 
 
     // Parse the command line arguments
-    Error = ParseArguments(argc, argv, &amp;Configuration);
+    Error = ParseArguments(argc, argv, &Configuration);
     if(Error != ERROR_SUCCESS)
     {
         ShowUsage();
@@ -84,8 +84,8 @@ wmain(
     
     // Initialize the ReqContext to be used in the asynchronous calls
     Error = AllocateAndInitializeRequestContext(SessionHandle,
-                                                &amp;Configuration,
-                                                &amp;ReqContext);
+                                                &Configuration,
+                                                &ReqContext);
     if (Error != ERROR_SUCCESS)
     {
         fprintf(stderr, "AllocateAndInitializeRequestContext failed with error %d\n", Error);
@@ -318,7 +318,7 @@ Return Value:
     ASYNC_ASSERT(ReqContext);
 
     
-    while(Error == ERROR_SUCCESS &amp;&amp; ReqContext->State != REQ_STATE_COMPLETE)
+    while(Error == ERROR_SUCCESS && ReqContext->State != REQ_STATE_COMPLETE)
     {
         
         switch(ReqContext->State)
@@ -347,7 +347,7 @@ Return Value:
             case REQ_STATE_POST_SEND_DATA:
                 
                 ReqContext->State = REQ_STATE_POST_GET_DATA;
-                Error = PostDataToServer(ReqContext, &amp;Eof);
+                Error = PostDataToServer(ReqContext, &Eof);
                 
                 if(Eof)
                 {
@@ -374,7 +374,7 @@ Return Value:
             case REQ_STATE_RESPONSE_WRITE_DATA:
 
                 ReqContext->State = REQ_STATE_RESPONSE_RECV_DATA;
-                Error = WriteResponseData(ReqContext, &amp;Eof);
+                Error = WriteResponseData(ReqContext, &Eof);
 
                 if(Eof)
                 {
@@ -493,7 +493,7 @@ Return Value:
     ASYNC_ASSERT(ReqContext->Method == METHOD_POST);
     
     //Prepare the Buffers to be passed to HttpSendRequestEx
-    ZeroMemory(&amp;BuffersIn, sizeof(INTERNET_BUFFERS));
+    ZeroMemory(&BuffersIn, sizeof(INTERNET_BUFFERS));
     BuffersIn.dwStructSize = sizeof(INTERNET_BUFFERS);
     BuffersIn.lpvBuffer = NULL;
     BuffersIn.dwBufferLength = 0;
@@ -508,7 +508,7 @@ Return Value:
     }
     
     Success = HttpSendRequestEx(ReqContext->RequestHandle,
-                                &amp;BuffersIn,
+                                &BuffersIn,
                                 NULL,                 // Do not use output buffers
                                 0,                    // dwFlags reserved
                                 (DWORD_PTR)ReqContext);
@@ -566,7 +566,7 @@ Return Value:
     Success = ReadFile(ReqContext->UploadFile,
                        ReqContext->OutputBuffer,
                        BUFFER_LEN,
-                       &amp;ReqContext->ReadBytes,
+                       &ReqContext->ReadBytes,
                        NULL);
     if(!Success)
     {
@@ -630,7 +630,7 @@ Return Value:
     Success = InternetWriteFile(ReqContext->RequestHandle,
                                 ReqContext->OutputBuffer,
                                 ReqContext->ReadBytes,
-                                &amp;ReqContext->WrittenBytes);
+                                &ReqContext->WrittenBytes);
     
 
     ReleaseRequestHandle(ReqContext);
@@ -760,7 +760,7 @@ Return Value:
     Success = InternetReadFile(ReqContext->RequestHandle,
                                ReqContext->OutputBuffer,
                                BUFFER_LEN,
-                               &amp;ReqContext->DownloadedBytes);
+                               &ReqContext->DownloadedBytes);
                                
     ReleaseRequestHandle(ReqContext);
     
@@ -836,7 +836,7 @@ Return Value:
     Success = WriteFile(ReqContext->DownloadFile,
                         ReqContext->OutputBuffer,
                         ReqContext->DownloadedBytes,
-                        &amp;BytesWritten,
+                        &BytesWritten,
                         NULL);
     
     if (!Success)
@@ -879,7 +879,7 @@ Return Value:
 {
     BOOL Close = FALSE;
     
-    EnterCriticalSection(&amp;ReqContext->CriticalSection);
+    EnterCriticalSection(&ReqContext->CriticalSection);
 
     //
     // Current implementation only supports the main thread
@@ -900,7 +900,7 @@ Return Value:
         Close = TRUE;
     }
 
-    LeaveCriticalSection(&amp;ReqContext->CriticalSection);
+    LeaveCriticalSection(&ReqContext->CriticalSection);
 
 
 
@@ -935,7 +935,7 @@ Return Value:
 {
     BOOL Success = TRUE;
 
-    EnterCriticalSection(&amp;ReqContext->CriticalSection);
+    EnterCriticalSection(&ReqContext->CriticalSection);
 
     if(ReqContext->Closing == TRUE)
     {
@@ -946,7 +946,7 @@ Return Value:
         ReqContext->HandleUsageCount++;
     }
 
-    LeaveCriticalSection(&amp;ReqContext->CriticalSection);
+    LeaveCriticalSection(&ReqContext->CriticalSection);
     
     return Success;
 }
@@ -969,19 +969,19 @@ Return Value:
 {
     BOOL Close = FALSE;
 
-    EnterCriticalSection(&amp;ReqContext->CriticalSection);
+    EnterCriticalSection(&ReqContext->CriticalSection);
 
     ASYNC_ASSERT(ReqContext->HandleUsageCount > 0);
     
     ReqContext->HandleUsageCount--;
     
-    if(ReqContext->Closing == TRUE &amp;&amp; ReqContext->HandleUsageCount == 0)
+    if(ReqContext->Closing == TRUE && ReqContext->HandleUsageCount == 0)
     {
         Close = TRUE;
 
     }
 
-    LeaveCriticalSection(&amp;ReqContext->CriticalSection);
+    LeaveCriticalSection(&ReqContext->CriticalSection);
 
 
     if(Close)
@@ -1056,7 +1056,7 @@ Return Value:
        
     // initialize critical section
 
-    Success = InitializeCriticalSectionAndSpinCount(&amp;LocalReqContext->CriticalSection, SPIN_COUNT);
+    Success = InitializeCriticalSectionAndSpinCount(&LocalReqContext->CriticalSection, SPIN_COUNT);
     
     if(!Success)
     {
@@ -1401,7 +1401,7 @@ Return Value:
     
     if(ReqContext->CritSecInitialized)
     {
-        DeleteCriticalSection(&amp;ReqContext->CriticalSection);
+        DeleteCriticalSection(&ReqContext->CriticalSection);
     }
     
     if(ReqContext->OutputBuffer)
@@ -1641,7 +1641,7 @@ Return Value:
 
     if(Error == ERROR_SUCCESS)
     {
-        if(Configuration->UseProxy &amp;&amp; Configuration->ProxyName == NULL)
+        if(Configuration->UseProxy && Configuration->ProxyName == NULL)
         {
             printf("No proxy server name provided!\n\n");
             Error = ERROR_INVALID_PARAMETER;
@@ -1672,7 +1672,7 @@ Return Value:
             Configuration->UserTimeout = DEFAULT_TIMEOUT;         
         }
 
-        if(Configuration->InputFileName == NULL &amp;&amp; Configuration->Method == METHOD_POST)
+        if(Configuration->InputFileName == NULL && Configuration->Method == METHOD_POST)
         {
             printf("Error: File to post not specified\n");
             Error = ERROR_INVALID_PARAMETER;
@@ -1752,7 +1752,7 @@ Return Value:
                            GetModuleHandle(L"wininet.dll"),
                            Err,
                            MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
-                           (LPWSTR)&amp;MsgBuffer,
+                           (LPWSTR)&MsgBuffer,
                            ERR_MSG_LEN,
                            NULL);
     
@@ -1800,7 +1800,7 @@ Return Value:
                            NULL,
                            Err,
                            MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
-                           (LPWSTR)&amp;MsgBuffer,
+                           (LPWSTR)&MsgBuffer,
                            ERR_MSG_LEN,
                            NULL);
     

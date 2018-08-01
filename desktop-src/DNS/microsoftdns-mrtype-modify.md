@@ -32,7 +32,7 @@ The **Modify** method updates a Mailbox Rename (MR) Resource Record.
 void Modify(
   [in, optional] uint32              TTL,
   [in]           string              MRMailbox,
-  [out, ref]     MicrosoftDNS_MRType &amp;RR
+  [out, ref]     MicrosoftDNS_MRType &RR
 );
 ```
 

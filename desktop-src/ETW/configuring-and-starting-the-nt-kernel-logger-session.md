@@ -75,7 +75,7 @@ void wmain(void)
 
     // Create the trace session.
 
-    status = StartTrace((PTRACEHANDLE)&amp;SessionHandle, KERNEL_LOGGER_NAME, pSessionProperties);
+    status = StartTrace((PTRACEHANDLE)&SessionHandle, KERNEL_LOGGER_NAME, pSessionProperties);
 
     if (ERROR_SUCCESS != status)
     {

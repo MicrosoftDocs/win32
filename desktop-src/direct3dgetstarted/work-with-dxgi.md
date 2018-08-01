@@ -55,7 +55,7 @@ wndClass.hbrBackground = (HBRUSH)GetStockObject(BLACK_BRUSH);
 wndClass.lpszMenuName = NULL;
 wndClass.lpszClassName = m_windowClassName.c_str();
 
-if(!RegisterClass(&amp;wndClass))
+if(!RegisterClass(&wndClass))
 {
     DWORD dwError = GetLastError();
     if(dwError != ERROR_CLASS_ALREADY_EXISTS)
@@ -79,9 +79,9 @@ m_hMenu = NULL;
 // This example uses a non-resizable 640 by 480 viewport for simplicity.
 int nDefaultWidth = 640;
 int nDefaultHeight = 480;
-SetRect(&amp;m_rc, 0, 0, nDefaultWidth, nDefaultHeight);        
+SetRect(&m_rc, 0, 0, nDefaultWidth, nDefaultHeight);        
 AdjustWindowRect(
-    &amp;m_rc,
+    &m_rc,
     WS_OVERLAPPEDWINDOW,
     (m_hMenu != NULL) ? true : false
     );
@@ -157,19 +157,19 @@ The main program loop itself needs to acknowledge Windows messages by allowing W
 bool bGotMsg;
 MSG  msg;
 msg.message = WM_NULL;
-PeekMessage(&amp;msg, NULL, 0U, 0U, PM_NOREMOVE);
+PeekMessage(&msg, NULL, 0U, 0U, PM_NOREMOVE);
 
 while (WM_QUIT != msg.message)
 {
     // Process window events.
     // Use PeekMessage() so we can use idle time to render the scene. 
-    bGotMsg = (PeekMessage(&amp;msg, NULL, 0U, 0U, PM_REMOVE) != 0);
+    bGotMsg = (PeekMessage(&msg, NULL, 0U, 0U, PM_REMOVE) != 0);
 
     if (bGotMsg)
     {
         // Translate and dispatch the message
-        TranslateMessage(&amp;msg);
-        DispatchMessage(&amp;msg);
+        TranslateMessage(&msg);
+        DispatchMessage(&msg);
     }
     else
     {
@@ -227,9 +227,9 @@ hr = D3D11CreateDevice(
     levels,                     // List of feature levels this app can support.
     ARRAYSIZE(levels),          // Size of the list above.
     D3D11_SDK_VERSION,          // Always set this to D3D11_SDK_VERSION for Windows Store apps.
-    &amp;device,                    // Returns the Direct3D device created.
-    &amp;m_featureLevel,            // Returns feature level of device created.
-    &amp;context                    // Returns the device immediate context.
+    &device,                    // Returns the Direct3D device created.
+    &m_featureLevel,            // Returns feature level of device created.
+    &context                    // Returns the device immediate context.
     );
 
 if (FAILED(hr))
@@ -240,8 +240,8 @@ if (FAILED(hr))
 }
 
 // Store pointers to the Direct3D 11.1 API device and immediate context.
-device.As(&amp;m_pd3dDevice);
-context.As(&amp;m_pd3dDeviceContext);
+device.As(&m_pd3dDevice);
+context.As(&m_pd3dDeviceContext);
 ```
 
 
@@ -268,7 +268,7 @@ Get the [**ID3D11Device**](https://msdn.microsoft.com/library/windows/desktop/dn
 
 ```C++
 DXGI_SWAP_CHAIN_DESC desc;
-ZeroMemory(&amp;desc, sizeof(DXGI_SWAP_CHAIN_DESC));
+ZeroMemory(&desc, sizeof(DXGI_SWAP_CHAIN_DESC));
 desc.Windowed = TRUE; // Sets the initial state of full-screen mode.
 desc.BufferCount = 2;
 desc.BufferDesc.Format = DXGI_FORMAT_B8G8R8A8_UNORM;
@@ -280,22 +280,22 @@ desc.OutputWindow = hWnd;
 
 // Create the DXGI device object to use in other factories, such as Direct2D.
 Microsoft::WRL::ComPtr<IDXGIDevice3> dxgiDevice;
-m_pd3dDevice.As(&amp;dxgiDevice);
+m_pd3dDevice.As(&dxgiDevice);
 
 // Create swap chain.
 Microsoft::WRL::ComPtr<IDXGIAdapter> adapter;
 Microsoft::WRL::ComPtr<IDXGIFactory> factory;
 
-hr = dxgiDevice->GetAdapter(&amp;adapter);
+hr = dxgiDevice->GetAdapter(&adapter);
 
 if (SUCCEEDED(hr))
 {
-    adapter->GetParent(IID_PPV_ARGS(&amp;factory));
+    adapter->GetParent(IID_PPV_ARGS(&factory));
 
     hr = factory->CreateSwapChain(
         m_pd3dDevice.Get(),
-        &amp;desc,
-        &amp;m_pDXGISwapChain
+        &desc,
+        &m_pDXGISwapChain
         );
 }
 ```
@@ -319,7 +319,7 @@ Let's look at the code for this. When you set DXGI\_USAGE\_RENDER\_TARGET\_OUTPU
 hr = m_pDXGISwapChain->GetBuffer(
     0,
     __uuidof(ID3D11Texture2D),
-    (void**) &amp;m_pBackBuffer);
+    (void**) &m_pBackBuffer);
 
 hr = m_pd3dDevice->CreateRenderTargetView(
     m_pBackBuffer.Get(),
@@ -327,7 +327,7 @@ hr = m_pd3dDevice->CreateRenderTargetView(
     m_pRenderTarget.GetAddressOf()
     );
 
-m_pBackBuffer->GetDesc(&amp;m_bbDesc);
+m_pBackBuffer->GetDesc(&m_bbDesc);
 ```
 
 
@@ -348,17 +348,17 @@ CD3D11_TEXTURE2D_DESC depthStencilDesc(
     );
 
 m_pd3dDevice->CreateTexture2D(
-    &amp;depthStencilDesc,
+    &depthStencilDesc,
     nullptr,
-    &amp;m_pDepthStencil
+    &m_pDepthStencil
     );
 
 CD3D11_DEPTH_STENCIL_VIEW_DESC depthStencilViewDesc(D3D11_DSV_DIMENSION_TEXTURE2D);
 
 m_pd3dDevice->CreateDepthStencilView(
     m_pDepthStencil.Get(),
-    &amp;depthStencilViewDesc,
-    &amp;m_pDepthStencilView
+    &depthStencilViewDesc,
+    &m_pDepthStencilView
     );
 ```
 
@@ -368,7 +368,7 @@ The last step is to create a viewport. This defines the visible rectangle of the
 
 
 ```C++
-ZeroMemory(&amp;m_viewport, sizeof(D3D11_VIEWPORT));
+ZeroMemory(&m_viewport, sizeof(D3D11_VIEWPORT));
 m_viewport.Height = (float) m_bbDesc.Height;
 m_viewport.Width = (float) m_bbDesc.Width;
 m_viewport.MinDepth = 0;
@@ -376,7 +376,7 @@ m_viewport.MaxDepth = 1;
 
 m_pd3dDeviceContext->RSSetViewports(
     1,
-    &amp;m_viewport
+    &m_viewport
     );
 ```
 

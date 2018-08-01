@@ -54,8 +54,8 @@ D2D1_POINT_2F tangent;
 hr = m_pPathGeometry->ComputePointAtLength(
     length, 
     NULL, 
-    &amp;point, 
-    &amp;tangent); 
+    &point, 
+    &tangent); 
 ```
 
 

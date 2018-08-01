@@ -49,15 +49,15 @@ HRESULT GetUsersContainer(IADsContainer **ppContainer)
                     NULL,
                     ADS_SECURE_AUTHENTICATION,
                     IID_IADs,
-                    (LPVOID*)&amp;pRoot);
+                    (LPVOID*)&pRoot);
     if(SUCCEEDED(hr))
     {
         VARIANT var;
         
-        VariantInit(&amp;var);
+        VariantInit(&var);
 
         // Get the current domain DN.
-        hr = pRoot->Get(CComBSTR("defaultNamingContext"), &amp;var);
+        hr = pRoot->Get(CComBSTR("defaultNamingContext"), &var);
         if(SUCCEEDED(hr))
         {
             // Build the binding string.
@@ -89,7 +89,7 @@ HRESULT GetUsersContainer(IADsContainer **ppContainer)
                 hr = E_OUTOFMEMORY;
             }
 
-            VariantClear(&amp;var);        
+            VariantClear(&var);        
         }
 
         pRoot->Release(); 

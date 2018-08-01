@@ -111,12 +111,12 @@ HRESULT MPEG1ByteStreamHandler::BeginCreateObject(
     MPEG1Source    *pSource = NULL;
 
     // Create an instance of the media source.
-    hr = MPEG1Source::CreateInstance(&amp;pSource);
+    hr = MPEG1Source::CreateInstance(&pSource);
 
     // Create a result object for the caller's async callback.
     if (SUCCEEDED(hr))
     {
-        hr = MFCreateAsyncResult(NULL, pCallback, punkState, &amp;pResult);
+        hr = MFCreateAsyncResult(NULL, pCallback, punkState, &pResult);
     }
 
     // Start opening the source. This is an async operation.
@@ -142,8 +142,8 @@ HRESULT MPEG1ByteStreamHandler::BeginCreateObject(
     }
 
 // cleanup
-    SafeRelease(&amp;pSource);
-    SafeRelease(&amp;pResult);
+    SafeRelease(&pSource);
+    SafeRelease(&pResult);
     return hr;
 }
 ```
@@ -194,8 +194,8 @@ HRESULT MPEG1ByteStreamHandler::EndCreateObject(
         hr = m_pSource->QueryInterface(IID_PPV_ARGS(ppObject));
     }
 
-    SafeRelease(&amp;m_pSource);
-    SafeRelease(&amp;m_pResult);
+    SafeRelease(&m_pSource);
+    SafeRelease(&m_pResult);
     return hr;
 }
 ```
@@ -279,7 +279,7 @@ HRESULT MPEG1Source::InitPresentationDescriptor()
     // Fill the array by getting the stream descriptors from the streams.
     for (DWORD i = 0; i < cStreams; i++)
     {
-        hr = m_streams[i]->GetStreamDescriptor(&amp;ppSD[i]);
+        hr = m_streams[i]->GetStreamDescriptor(&ppSD[i]);
         if (FAILED(hr))
         {
             goto done;
@@ -288,7 +288,7 @@ HRESULT MPEG1Source::InitPresentationDescriptor()
 
     // Create the presentation descriptor.
     hr = MFCreatePresentationDescriptor(cStreams, ppSD,
-        &amp;m_pPresentationDescriptor);
+        &m_pPresentationDescriptor);
 
     if (FAILED(hr))
     {
@@ -300,7 +300,7 @@ HRESULT MPEG1Source::InitPresentationDescriptor()
     {
         GUID majorType = GUID_NULL;
 
-        hr = GetStreamMajorType(ppSD[i], &amp;majorType);
+        hr = GetStreamMajorType(ppSD[i], &majorType);
         if (FAILED(hr))
         {
             goto done;
@@ -329,7 +329,7 @@ done:
     {
         for (DWORD i = 0; i < cStreams; i++)
         {
-            SafeRelease(&amp;ppSD[i]);
+            SafeRelease(&ppSD[i]);
         }
         delete [] ppSD;
     }
@@ -425,19 +425,19 @@ HRESULT MPEG1Source::Start(
     }
 
     // Check the time format.
-    if ((pguidTimeFormat != NULL) &amp;&amp; (*pguidTimeFormat != GUID_NULL))
+    if ((pguidTimeFormat != NULL) && (*pguidTimeFormat != GUID_NULL))
     {
         // Unrecognized time format GUID.
         return MF_E_UNSUPPORTED_TIME_FORMAT;
     }
 
     // Check the data type of the start position.
-    if ((pvarStartPos->vt != VT_I8) &amp;&amp; (pvarStartPos->vt != VT_EMPTY))
+    if ((pvarStartPos->vt != VT_I8) && (pvarStartPos->vt != VT_EMPTY))
     {
         return MF_E_UNSUPPORTED_TIME_FORMAT;
     }
 
-    EnterCriticalSection(&amp;m_critSec);
+    EnterCriticalSection(&m_critSec);
 
     // Check if this is a seek request. This sample does not support seeking.
 
@@ -475,7 +475,7 @@ HRESULT MPEG1Source::Start(
     }
 
     // The operation looks OK. Complete the operation asynchronously.
-    hr = SourceOp::CreateStartOp(pPresentationDescriptor, &amp;pAsyncOp);
+    hr = SourceOp::CreateStartOp(pPresentationDescriptor, &pAsyncOp);
     if (FAILED(hr))
     {
         goto done;
@@ -490,8 +490,8 @@ HRESULT MPEG1Source::Start(
     hr = QueueOperation(pAsyncOp);
 
 done:
-    SafeRelease(&amp;pAsyncOp);
-    LeaveCriticalSection(&amp;m_critSec);
+    SafeRelease(&pAsyncOp);
+    LeaveCriticalSection(&m_critSec);
     return hr;
 }
 ```
@@ -521,7 +521,7 @@ HRESULT MPEG1Source::DoStart(StartOp *pOp)
     // The PD has already been validated.
     if (SUCCEEDED(hr))
     {
-        hr = pOp->GetPresentationDescriptor(&amp;pPD);
+        hr = pOp->GetPresentationDescriptor(&pPD);
     }
 
     // Because this sample does not support seeking, the start
@@ -546,7 +546,7 @@ HRESULT MPEG1Source::DoStart(StartOp *pOp)
             MESourceStarted,
             GUID_NULL,
             S_OK,
-            &amp;pOp->Data()
+            &pOp->Data()
             );
     }
 
@@ -564,8 +564,8 @@ HRESULT MPEG1Source::DoStart(StartOp *pOp)
 
     CompleteAsyncOp(pOp);
 
-    SafeRelease(&amp;pEvent);
-    SafeRelease(&amp;pPD);
+    SafeRelease(&pEvent);
+    SafeRelease(&pPD);
     return hr;
 }
 ```
@@ -660,7 +660,7 @@ HRESULT MPEG1Stream::RequestSample(IUnknown* pToken)
         goto done;
     }
 
-    if (m_bEOS &amp;&amp; m_Samples.IsEmpty())
+    if (m_bEOS && m_Samples.IsEmpty())
     {
         // This stream has already reached the end of the stream, and the
         // sample queue is empty.
@@ -682,7 +682,7 @@ HRESULT MPEG1Stream::RequestSample(IUnknown* pToken)
     }
 
 done:
-    if (FAILED(hr) &amp;&amp; (m_state != STATE_SHUTDOWN))
+    if (FAILED(hr) && (m_state != STATE_SHUTDOWN))
     {
         // An error occurred. Send an MEError even from the source,
         // unless the source is already shut down.
@@ -717,17 +717,17 @@ HRESULT MPEG1Stream::DispatchSamples()
     IUnknown  *pToken = NULL;
 
     // Deliver as many samples as we can.
-    while (!m_Samples.IsEmpty() &amp;&amp; !m_Requests.IsEmpty())
+    while (!m_Samples.IsEmpty() && !m_Requests.IsEmpty())
     {
         // Pull the next sample from the queue.
-        hr = m_Samples.RemoveFront(&amp;pSample);
+        hr = m_Samples.RemoveFront(&pSample);
         if (FAILED(hr))
         {
             goto done;
         }
 
         // Pull the next request token from the queue. Tokens can be NULL.
-        hr = m_Requests.RemoveFront(&amp;pToken);
+        hr = m_Requests.RemoveFront(&pToken);
         if (FAILED(hr))
         {
             goto done;
@@ -752,11 +752,11 @@ HRESULT MPEG1Stream::DispatchSamples()
             goto done;
         }
 
-        SafeRelease(&amp;pSample);
-        SafeRelease(&amp;pToken);
+        SafeRelease(&pSample);
+        SafeRelease(&pToken);
     }
 
-    if (m_Samples.IsEmpty() &amp;&amp; m_bEOS)
+    if (m_Samples.IsEmpty() && m_bEOS)
     {
         // The sample queue is empty AND we have reached the end of the source
         // stream. Notify the pipeline by sending the end-of-stream event.
@@ -788,15 +788,15 @@ HRESULT MPEG1Stream::DispatchSamples()
     }
 
 done:
-    if (FAILED(hr) &amp;&amp; (m_state != STATE_SHUTDOWN))
+    if (FAILED(hr) && (m_state != STATE_SHUTDOWN))
     {
         // An error occurred. Send an MEError even from the source,
         // unless the source is already shut down.
         m_pSource->QueueEvent(MEError, GUID_NULL, hr, NULL);
     }
 
-    SafeRelease(&amp;pSample);
-    SafeRelease(&amp;pToken);
+    SafeRelease(&pSample);
+    SafeRelease(&pToken);
     return S_OK;
 }
 ```
@@ -861,10 +861,10 @@ public:
     SourceOp(Operation op);
     virtual ~SourceOp();
 
-    HRESULT SetData(const PROPVARIANT&amp; var);
+    HRESULT SetData(const PROPVARIANT& var);
 
     Operation Op() const { return m_op; }
-    const PROPVARIANT&amp; Data() { return m_data;}
+    const PROPVARIANT& Data() { return m_data;}
 
 protected:
     long        m_cRef;     // Reference count.
@@ -900,8 +900,8 @@ protected:
     virtual HRESULT DispatchOperation(OP_TYPE *pOp) = 0;
     virtual HRESULT ValidateOperation(OP_TYPE *pOp) = 0;
 
-    OpQueue(CRITICAL_SECTION&amp; critsec)
-        : m_OnProcessQueue(this, &amp;OpQueue::ProcessQueueAsync),
+    OpQueue(CRITICAL_SECTION& critsec)
+        : m_OnProcessQueue(this, &OpQueue::ProcessQueueAsync),
           m_critsec(critsec)
     {
     }
@@ -912,7 +912,7 @@ protected:
 
 protected:
     OpList                  m_OpQueue;         // Queue of operations.
-    CRITICAL_SECTION&amp;       m_critsec;         // Protects the queue state.
+    CRITICAL_SECTION&       m_critsec;         // Protects the queue state.
     AsyncCallback<OpQueue>  m_OnProcessQueue;  // ProcessQueueAsync callback.
 };
 ```
@@ -947,7 +947,7 @@ HRESULT OpQueue<OP_TYPE>::QueueOperation(OP_TYPE *pOp)
 {
     HRESULT hr = S_OK;
 
-    EnterCriticalSection(&amp;m_critsec);
+    EnterCriticalSection(&m_critsec);
 
     hr = m_OpQueue.InsertBack(pOp);
     if (SUCCEEDED(hr))
@@ -955,7 +955,7 @@ HRESULT OpQueue<OP_TYPE>::QueueOperation(OP_TYPE *pOp)
         hr = ProcessQueue();
     }
 
-    LeaveCriticalSection(&amp;m_critsec);
+    LeaveCriticalSection(&m_critsec);
     return hr;
 }
 ```
@@ -974,7 +974,7 @@ HRESULT OpQueue<OP_TYPE>::ProcessQueue()
     {
         hr = MFPutWorkItem(
             MFASYNC_CALLBACK_QUEUE_STANDARD,    // Use the standard work queue.
-            &amp;m_OnProcessQueue,                  // Callback method.
+            &m_OnProcessQueue,                  // Callback method.
             NULL                                // State object.
             );
     }
@@ -1016,13 +1016,13 @@ The DispatchOperation method switches on the operation type:
 
 HRESULT MPEG1Source::DispatchOperation(SourceOp *pOp)
 {
-    EnterCriticalSection(&amp;m_critSec);
+    EnterCriticalSection(&m_critSec);
 
     HRESULT hr = S_OK;
 
     if (m_state == STATE_SHUTDOWN)
     {
-        LeaveCriticalSection(&amp;m_critSec);
+        LeaveCriticalSection(&m_critSec);
 
         return S_OK; // Already shut down, ignore the request.
     }
@@ -1063,7 +1063,7 @@ HRESULT MPEG1Source::DispatchOperation(SourceOp *pOp)
         StreamingError(hr);
     }
 
-    LeaveCriticalSection(&amp;m_critSec);
+    LeaveCriticalSection(&m_critSec);
     return hr;
 }
 ```

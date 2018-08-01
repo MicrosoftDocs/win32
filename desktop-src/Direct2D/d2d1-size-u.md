@@ -35,7 +35,7 @@ The **D2D1\_SIZE\_U** structure provides a convenient way for you to store an or
     if (!m_pRenderTarget)
     {
         RECT rc;
-        GetClientRect(m_hwnd, &amp;rc);
+        GetClientRect(m_hwnd, &rc);
 
         D2D1_SIZE_U size = D2D1::SizeU(
             rc.right - rc.left,
@@ -46,7 +46,7 @@ The **D2D1\_SIZE\_U** structure provides a convenient way for you to store an or
         hr = m_pD2DFactory->CreateHwndRenderTarget(
             D2D1::RenderTargetProperties(),
             D2D1::HwndRenderTargetProperties(m_hwnd, size),
-            &amp;m_pRenderTarget
+            &m_pRenderTarget
             );
 ```
 

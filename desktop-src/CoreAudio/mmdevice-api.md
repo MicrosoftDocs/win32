@@ -24,7 +24,7 @@ The MMDevice API consists of several interfaces. The first of these is the [**IM
   hr = CoCreateInstance(
          CLSID_MMDeviceEnumerator, NULL,
          CLSCTX_ALL, IID_IMMDeviceEnumerator,
-         (void**)&amp;pEnumerator);
+         (void**)&pEnumerator);
 ```
 
 

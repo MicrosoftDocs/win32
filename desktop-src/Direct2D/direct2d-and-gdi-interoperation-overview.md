@@ -58,7 +58,7 @@ D2D1_RENDER_TARGET_PROPERTIES props = D2D1::RenderTargetProperties(
     D2D1_FEATURE_LEVEL_DEFAULT
     );
 
-hr = m_pD2DFactory->CreateDCRenderTarget(&amp;props, &amp;m_pDCRT);
+hr = m_pD2DFactory->CreateDCRenderTarget(&props, &m_pDCRT);
 ```
 
 
@@ -73,7 +73,7 @@ The following code binds a DC to a DC render target.
 
 
 ```C++
-HRESULT DemoApp::OnRender(const PAINTSTRUCT &amp;ps)
+HRESULT DemoApp::OnRender(const PAINTSTRUCT &ps)
 {
 ```
 
@@ -91,7 +91,7 @@ HRESULT DemoApp::OnRender(const PAINTSTRUCT &amp;ps)
 <tbody>
 <tr class="odd">
 <td><pre><code>// Get the dimensions of the client drawing area.
-GetClientRect(m_hwnd, &amp;rc);</code></pre></td>
+GetClientRect(m_hwnd, &rc);</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -110,7 +110,7 @@ GetClientRect(m_hwnd, &amp;rc);</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>// Bind the DC to the DC render target.
-hr = m_pDCRT-&gt;BindDC(ps.hdc, &amp;rc);</code></pre></td>
+hr = m_pDCRT-&gt;BindDC(ps.hdc, &rc);</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -121,14 +121,14 @@ After you associate the DC render target with a DC, you can use it to draw. The 
 
 
 ```C++
-HRESULT DemoApp::OnRender(const PAINTSTRUCT &amp;ps)
+HRESULT DemoApp::OnRender(const PAINTSTRUCT &ps)
 {
 
     HRESULT hr;
     RECT rc;
 
     // Get the dimensions of the client drawing area.
-    GetClientRect(m_hwnd, &amp;rc);
+    GetClientRect(m_hwnd, &rc);
 
     //
     // Draw the pie chart with Direct2D.
@@ -140,7 +140,7 @@ HRESULT DemoApp::OnRender(const PAINTSTRUCT &amp;ps)
     if (SUCCEEDED(hr))
     {
         // Bind the DC to the DC render target.
-        hr = m_pDCRT->BindDC(ps.hdc, &amp;rc);
+        hr = m_pDCRT->BindDC(ps.hdc, &rc);
 
         m_pDCRT->BeginDraw();
 
@@ -285,13 +285,13 @@ To render GDI content to a Direct2D GDI-compatible render target, use an [**ID2D
         hr = m_pD2DFactory->CreateHwndRenderTarget(
             rtProps,
             D2D1::HwndRenderTargetProperties(m_hwnd, size),
-            &amp;m_pRenderTarget
+            &m_pRenderTarget
             );
 
 
         if (SUCCEEDED(hr))
         {
-            hr = m_pRenderTarget->QueryInterface(__uuidof(ID2D1GdiInteropRenderTarget), (void**)&amp;m_pGDIRT); 
+            hr = m_pRenderTarget->QueryInterface(__uuidof(ID2D1GdiInteropRenderTarget), (void**)&m_pGDIRT); 
         }
 ```
 
@@ -308,7 +308,7 @@ The following example shows how to draw a pie chart (GDI content) to the Hwnd GD
 
 ```C++
         HDC hDC = NULL;
-        hr = m_pGDIRT->GetDC(D2D1_DC_INITIALIZE_MODE_COPY, &amp;hDC);
+        hr = m_pGDIRT->GetDC(D2D1_DC_INITIALIZE_MODE_COPY, &hDC);
 
         if (SUCCEEDED(hr))
         {

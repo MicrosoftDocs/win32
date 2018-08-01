@@ -19,31 +19,31 @@ The following example creates a [**Metafile**](/windows/desktop/api/gdiplusheade
 ```
 Metafile metafile(L"SampleMetafile.emf", hdc); 
 {
-   Graphics graphics(&amp;metafile);
+   Graphics graphics(&metafile);
    Pen greenPen(Color(255, 0, 255, 0));
    SolidBrush solidBrush(Color(255, 0, 0, 255));
 
    // Add a rectangle and an ellipse to the metafile.
-   graphics.DrawRectangle(&amp;greenPen, Rect(50, 10, 25, 75));
-   graphics.DrawEllipse(&amp;greenPen, Rect(100, 10, 25, 75));
+   graphics.DrawRectangle(&greenPen, Rect(50, 10, 25, 75));
+   graphics.DrawEllipse(&greenPen, Rect(100, 10, 25, 75));
 
    // Add an ellipse (drawn with antialiasing) to the metafile.
    graphics.SetSmoothingMode(SmoothingModeHighQuality);
-   graphics.DrawEllipse(&amp;greenPen, Rect(150, 10, 25, 75));
+   graphics.DrawEllipse(&greenPen, Rect(150, 10, 25, 75));
 
    // Add some text (drawn with antialiasing) to the metafile.
    FontFamily fontFamily(L"Arial");
-   Font font(&amp;fontFamily, 24, FontStyleRegular, UnitPixel);
+   Font font(&fontFamily, 24, FontStyleRegular, UnitPixel);
    
    graphics.SetTextRenderingHint(TextRenderingHintAntiAlias);
    graphics.RotateTransform(30.0f);
-   graphics.DrawString(L"Smooth Text", 11, &amp;font, 
-      PointF(50.0f, 50.0f), &amp;solidBrush);
+   graphics.DrawString(L"Smooth Text", 11, &font, 
+      PointF(50.0f, 50.0f), &solidBrush);
 } // End of recording metafile.
 
 // Play back the metafile.
 Graphics playbackGraphics(hdc);
-playbackGraphics.DrawImage(&amp;metafile, 200, 100);
+playbackGraphics.DrawImage(&metafile, 200, 100);
 ```
 
 
@@ -60,7 +60,7 @@ In the following example, assume that the smoothing mode was set to SmoothingMod
 
 ```
 graphics.SetSmoothingMode(SmoothingModeHighQuality);
-graphics.DrawImage(&amp;meta, 0, 0);
+graphics.DrawImage(&meta, 0, 0);
 ```
 
 

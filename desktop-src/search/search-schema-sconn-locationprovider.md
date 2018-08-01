@@ -76,7 +76,7 @@ File system and protocol handler based search connectors can use the [&lt;simple
 <locationProvider clsid="{48E277F6-4E74-4cd6-BA6F-FA4F42898223}">
     <propertyBag>
         <property name="OpenSearchShortName">MSDN</property>
-        <property name="OpenSearchQueryTemplate">http://social.msdn.microsoft.com/Search/Feed.aspx?locale=en-US&amp;Query={searchTerms}&amp;format=RSS&amp;StartIndex={startIndex}</property>
+        <property name="OpenSearchQueryTemplate">http://social.msdn.microsoft.com/Search/Feed.aspx?locale=en-US&Query={searchTerms}&format=RSS&StartIndex={startIndex}</property>
         <property name="MaximumResultCount" type="uint32">100</property>
     </propertyBag>
 </locationProvider>

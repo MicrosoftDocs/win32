@@ -68,7 +68,7 @@ HRESULT UnlockAccount(LPCWSTR pwszUserDN)
         NULL,
         ADS_SECURE_AUTHENTICATION,
         IID_IADsUser,
-        (void**)&amp;spADsUser);
+        (void**)&spADsUser);
     if(S_OK != hr)
     {
         return hr;
@@ -133,14 +133,14 @@ HRESULT IsAccountLocked(LPCWSTR pwszUserDN, BOOL *pfLocked)
         NULL,
         ADS_SECURE_AUTHENTICATION,
         IID_IADsUser,
-        (void**)&amp;spADsUser);
+        (void**)&spADsUser);
     if(S_OK != hr)
     {
         return hr;
     }
     
     VARIANT_BOOL vfLocked;
-    hr = spADsUser>get_IsAccountLocked(&amp;vfLocked);
+    hr = spADsUser>get_IsAccountLocked(&vfLocked);
     if(S_OK != hr)
     {
         return hr;

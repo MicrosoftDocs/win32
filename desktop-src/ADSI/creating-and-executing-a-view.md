@@ -24,7 +24,7 @@ The following code sample shows how to create a view.
 CREATE VIEW viewADUsers 
 AS
 SELECT * FROM OpenQuery( ADSI,
-    '<LDAP://DC=Fabrikam,DC=com>;(&amp;(objectCategory=Person)(objectClass=user));name, adspath, title;subtree')
+    '<LDAP://DC=Fabrikam,DC=com>;(&(objectCategory=Person)(objectClass=user));name, adspath, title;subtree')
 ```
 
 

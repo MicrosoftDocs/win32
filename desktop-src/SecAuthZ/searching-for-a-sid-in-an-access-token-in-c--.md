@@ -36,7 +36,7 @@ BOOL SearchTokenGroupsForSID (VOID)
        
     // Open a handle to the access token for the calling process.
 
-    if (!OpenProcessToken( GetCurrentProcess(), TOKEN_QUERY, &amp;hToken )) 
+    if (!OpenProcessToken( GetCurrentProcess(), TOKEN_QUERY, &hToken )) 
     {
         printf( "OpenProcessToken Error %u\n", GetLastError() );
         return FALSE;
@@ -44,7 +44,7 @@ BOOL SearchTokenGroupsForSID (VOID)
 
     // Call GetTokenInformation to get the buffer size.
 
-    if(!GetTokenInformation(hToken, TokenGroups, NULL, dwSize, &amp;dwSize)) 
+    if(!GetTokenInformation(hToken, TokenGroups, NULL, dwSize, &dwSize)) 
     {
         dwResult = GetLastError();
         if( dwResult != ERROR_INSUFFICIENT_BUFFER ) {
@@ -60,7 +60,7 @@ BOOL SearchTokenGroupsForSID (VOID)
     // Call GetTokenInformation again to get the group information.
 
     if(! GetTokenInformation(hToken, TokenGroups, pGroupInfo, 
-                            dwSize, &amp;dwSize ) ) 
+                            dwSize, &dwSize ) ) 
     {
         printf( "GetTokenInformation Error %u\n", GetLastError() );
         return FALSE;
@@ -68,11 +68,11 @@ BOOL SearchTokenGroupsForSID (VOID)
 
     // Create a SID for the BUILTIN\Administrators group.
 
-    if(! AllocateAndInitializeSid( &amp;SIDAuth, 2,
+    if(! AllocateAndInitializeSid( &SIDAuth, 2,
                      SECURITY_BUILTIN_DOMAIN_RID,
                      DOMAIN_ALIAS_RID_ADMINS,
                      0, 0, 0, 0, 0, 0,
-                     &amp;pSID) ) 
+                     &pSID) ) 
     {
         printf( "AllocateAndInitializeSid Error %u\n", GetLastError() );
         return FALSE;
@@ -89,8 +89,8 @@ BOOL SearchTokenGroupsForSID (VOID)
 
             dwSize = MAX_NAME;
             if( !LookupAccountSid( NULL, pGroupInfo->Groups[i].Sid,
-                                  lpName, &amp;dwSize, lpDomain, 
-                                  &amp;dwSize, &amp;SidType ) ) 
+                                  lpName, &dwSize, lpDomain, 
+                                  &dwSize, &SidType ) ) 
             {
                 dwResult = GetLastError();
                 if( dwResult == ERROR_NONE_MAPPED )

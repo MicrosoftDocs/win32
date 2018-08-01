@@ -68,7 +68,7 @@ DWORD ReservePortRangeForAdmins(
    conds[0].fieldKey = FWPM_CONDITION_IP_LOCAL_PORT;
    conds[0].matchType = FWP_MATCH_RANGE;
    conds[0].conditionValue.type = FWP_RANGE_TYPE;
-   conds[0].conditionValue.rangeValue = &amp;portRange;
+   conds[0].conditionValue.rangeValue = &portRange;
 
    //////////
    // The second condition matches any user who is a member of the built-in
@@ -81,7 +81,7 @@ DWORD ReservePortRangeForAdmins(
    success = ConvertStringSecurityDescriptorToSecurityDescriptorW(
                 L"D:(A;;0x1;;;BA)",
                 SDDL_REVISION_1,
-                &amp;sd,
+                &sd,
                 NULL
                 );
    EXIT_ON_LAST_ERROR(
@@ -101,10 +101,10 @@ DWORD ReservePortRangeForAdmins(
    conds[1].fieldKey = FWPM_CONDITION_ALE_USER_ID;
    conds[1].matchType = FWP_MATCH_EQUAL;
    conds[1].conditionValue.type = FWP_SECURITY_DESCRIPTOR_TYPE;
-   conds[1].conditionValue.sd = &amp;sdBlob;
+   conds[1].conditionValue.sd = &sdBlob;
 
    // Fill in the common fields shared by all our filters.
-   memset(&amp;filter, 0, sizeof(filter));
+   memset(&filter, 0, sizeof(filter));
    // For MUI compatibility, object names should be indirect strings. See
    // SHLoadIndirectString for details.
    filter.displayData.name = (PWSTR)filterName;
@@ -132,7 +132,7 @@ DWORD ReservePortRangeForAdmins(
    // the desired port range.
    filter.numFilterConditions = 1;
    filter.action.type = FWP_ACTION_BLOCK;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    // This filter permits Administrators for the port range. Since we're using
@@ -143,7 +143,7 @@ DWORD ReservePortRangeForAdmins(
    // block the bind.
    filter.numFilterConditions = 2;
    filter.action.type = FWP_ACTION_PERMIT;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    // Add the same filters for IPv6.
@@ -151,12 +151,12 @@ DWORD ReservePortRangeForAdmins(
 
    filter.numFilterConditions = 1;
    filter.action.type = FWP_ACTION_BLOCK;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    filter.numFilterConditions = 2;
    filter.action.type = FWP_ACTION_PERMIT;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    // Once all the adds have succeeded, we commit the transaction to atomically

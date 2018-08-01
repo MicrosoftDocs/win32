@@ -96,7 +96,7 @@ void DumpFWRulesInCollection(long Allprofiletypes, NetFwPublicTypeLib::INetFwRul
             break;
         }
 
-        if(FwRule->Protocol != NET_FW_IP_VERSION_V4 &amp;&amp; FwRule->Protocol != NET_FW_IP_VERSION_V6)
+        if(FwRule->Protocol != NET_FW_IP_VERSION_V4 && FwRule->Protocol != NET_FW_IP_VERSION_V6)
         {
             wprintf(L"Local Ports:      %s\n", (BSTR)FwRule->LocalPorts);
             wprintf(L"Remote Ports:     %s\n", (BSTR)FwRule->RemotePorts);
@@ -147,7 +147,7 @@ void DumpFWRulesInCollection(long Allprofiletypes, NetFwPublicTypeLib::INetFwRul
 
             for(long index= pSa->rgsabound->lLbound; index < (long)pSa->rgsabound->cElements; index++)
             {
-                SafeArrayGetElement(pSa, &amp;index, &amp;InterfaceString);
+                SafeArrayGetElement(pSa, &index, &InterfaceString);
                 wprintf(L"Interfaces:       %s\n", (BSTR)InterfaceString.bstrVal);
             }
         }
@@ -202,15 +202,15 @@ int __cdecl main()
 
         if(pEnumerator)
         {
-            hr = pEnumerator->QueryInterface(__uuidof(IEnumVARIANT), (void **) &amp;pVariant);
+            hr = pEnumerator->QueryInterface(__uuidof(IEnumVARIANT), (void **) &pVariant);
         }
 
-        while(SUCCEEDED(hr) &amp;&amp; hr != S_FALSE)
+        while(SUCCEEDED(hr) && hr != S_FALSE)
         {        
             NetFwPublicTypeLib::INetFwRulePtr sipFwRule;
 
             var.Clear();
-            hr = pVariant->Next(1, &amp;var, &amp;cFetched);
+            hr = pVariant->Next(1, &var, &cFetched);
             if (S_FALSE != hr)
             {
                 if (SUCCEEDED(hr))
@@ -219,7 +219,7 @@ int __cdecl main()
                 }
                 if (SUCCEEDED(hr))
                 {
-                    hr = (V_DISPATCH(&amp;var))->QueryInterface(__uuidof(INetFwRule), reinterpret_cast<void**>(&amp;sipFwRule));
+                    hr = (V_DISPATCH(&var))->QueryInterface(__uuidof(INetFwRule), reinterpret_cast<void**>(&sipFwRule));
                 }
 
                 if (SUCCEEDED(hr))
@@ -229,7 +229,7 @@ int __cdecl main()
             }
         }
     }
-    catch(_com_error&amp; e)
+    catch(_com_error& e)
     {
         printf ("Error. HRESULT message is: %s (0x%08lx)\n", e.ErrorMessage(), e.Error());
         if (e.ErrorInfo())

@@ -33,18 +33,18 @@ void ListDescendants(IUIAutomationElement* pParent, int indent)
     IUIAutomationTreeWalker* pControlWalker = NULL;
     IUIAutomationElement* pNode = NULL;
 
-    g_pAutomation->get_ControlViewWalker(&amp;pControlWalker);
+    g_pAutomation->get_ControlViewWalker(&pControlWalker);
     if (pControlWalker == NULL)
         goto cleanup;
 
-    pControlWalker->GetFirstChildElement(pParent, &amp;pNode);
+    pControlWalker->GetFirstChildElement(pParent, &pNode);
     if (pNode == NULL)
         goto cleanup;
 
     while (pNode)
     {
         BSTR desc;
-        pNode->get_CurrentLocalizedControlType(&amp;desc);
+        pNode->get_CurrentLocalizedControlType(&desc);
         for (int x = 0; x <= indent; x++)
         {
             std::wcout << L"   ";
@@ -54,7 +54,7 @@ void ListDescendants(IUIAutomationElement* pParent, int indent)
 
         ListDescendants(pNode, indent+1);
         IUIAutomationElement* pNext;
-        pControlWalker->GetNextSiblingElement(pNode, &amp;pNext);
+        pControlWalker->GetNextSiblingElement(pNode, &pNext);
         pNode->Release();
         pNode = pNext;
     }
@@ -85,12 +85,12 @@ IUIAutomationElement* GetContainingWindow(IUIAutomationElement* pChild)
         return NULL;
 
     IUIAutomationElement* pDesktop = NULL;
-    HRESULT hr = g_pAutomation->GetRootElement(&amp;pDesktop);
+    HRESULT hr = g_pAutomation->GetRootElement(&pDesktop);
     if (FAILED(hr))
         return NULL;
 
     BOOL same;
-    g_pAutomation->CompareElements(pChild, pDesktop, &amp;same);
+    g_pAutomation->CompareElements(pChild, pDesktop, &same);
     if (same)
     {
         pDesktop->Release();
@@ -102,19 +102,19 @@ IUIAutomationElement* GetContainingWindow(IUIAutomationElement* pChild)
 
     // Create the treewalker.
     IUIAutomationTreeWalker* pWalker = NULL;
-    g_pAutomation->get_ControlViewWalker(&amp;pWalker);
+    g_pAutomation->get_ControlViewWalker(&pWalker);
     if (pWalker == NULL)
         goto cleanup;
 
     // Walk up the tree.
     while (TRUE)
     {
-        hr = pWalker->GetParentElement(pNode, &amp;pParent);
+        hr = pWalker->GetParentElement(pNode, &pParent);
         if (FAILED(hr) || pParent == NULL)
         {
             break;
         }
-        g_pAutomation->CompareElements(pParent, pDesktop, &amp;same);
+        g_pAutomation->CompareElements(pParent, pDesktop, &same);
         if (same)
         {
             pDesktop->Release();
@@ -129,7 +129,7 @@ IUIAutomationElement* GetContainingWindow(IUIAutomationElement* pChild)
     }
 
 cleanup:
-    if ((pNode != NULL) &amp;&amp; (pNode != pChild)) 
+    if ((pNode != NULL) && (pNode != pChild)) 
         pNode->Release();
 
     if (pDesktop != NULL)

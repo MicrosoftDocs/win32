@@ -50,7 +50,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
     if(SUCCEEDED(hr))
     {
-        hr = spPlayer->get_versionInfo(&amp;bstrVersionInfo);
+        hr = spPlayer->get_versionInfo(&bstrVersionInfo);
     }
 
     if(SUCCEEDED(hr))

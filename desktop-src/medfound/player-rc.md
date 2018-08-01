@@ -40,12 +40,12 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 
 IDC_MFPLAYBACK MENU 
 BEGIN
-    POPUP "&amp;File"
+    POPUP "&File"
     BEGIN
-        MENUITEM "&amp;Open File",                  ID_FILE_OPENFILE
-        MENUITEM "Open &amp;Url",                   ID_FILE_OPENURL
+        MENUITEM "&Open File",                  ID_FILE_OPENFILE
+        MENUITEM "Open &Url",                   ID_FILE_OPENURL
         MENUITEM SEPARATOR
-        MENUITEM "E&amp;xit",                       IDM_EXIT
+        MENUITEM "E&xit",                       IDM_EXIT
     END
 END
 

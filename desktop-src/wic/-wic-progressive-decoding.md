@@ -132,7 +132,7 @@ IWICProgressiveLevelControl *pProgressive = NULL;
 
 HRESULT hr = (pBitmapFrame->QueryInterface(
    IID_IWICProgressiveLevelControl, 
-   (void**) &amp;pProgressive));
+   (void**) &pProgressive));
                 
 if (SUCCEEDED(hr))
 {

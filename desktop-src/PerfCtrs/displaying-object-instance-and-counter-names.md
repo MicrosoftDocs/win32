@@ -85,7 +85,7 @@ void wmain(void)
         goto cleanup;
     }
 
-    if (!GetCounterTextStrings(g_pCounterTextHead, g_pHelpTextHead, g_pTextOffsets, &amp;dwNumberOfOffsets))
+    if (!GetCounterTextStrings(g_pCounterTextHead, g_pHelpTextHead, g_pTextOffsets, &dwNumberOfOffsets))
     {
         wprintf(L"GetCounterTextStrings failed.\n");
         goto cleanup;
@@ -94,7 +94,7 @@ void wmain(void)
     dwNumberOfObjects = ((PERF_DATA_BLOCK*)g_pPerfDataHead)->NumObjectTypes;
 
     g_pObjects = LoadObjects(g_pPerfDataHead + ((PERF_DATA_BLOCK*)g_pPerfDataHead)->HeaderLength,
-                             &amp;dwNumberOfObjects,
+                             &dwNumberOfObjects,
                              g_pPerfDataHead + ((PERF_DATA_BLOCK*)g_pPerfDataHead)->TotalByteLength);
     
     if (NULL == g_pObjects)
@@ -143,7 +143,7 @@ LPBYTE GetPerformanceData(LPWSTR pwszSource, DWORD dwInitialBufferSize)
     pBuffer = (LPBYTE)malloc(dwBufferSize);
     if (pBuffer)
     {
-        while (ERROR_MORE_DATA == (status = RegQueryValueEx(HKEY_PERFORMANCE_DATA, pwszSource, NULL, NULL, pBuffer, &amp;dwSize)))
+        while (ERROR_MORE_DATA == (status = RegQueryValueEx(HKEY_PERFORMANCE_DATA, pwszSource, NULL, NULL, pBuffer, &dwSize)))
         {
             //Contents of dwSize is unpredictable if RegQueryValueEx fails, which is why
             //you need to increment dwBufferSize and use it to set dwSize.
@@ -204,7 +204,7 @@ BOOL GetCounterTextStrings(LPWSTR & pCounterTextHead, LPWSTR & pHelpTextHead, LP
         goto cleanup;
     }
 
-    if (!BuildTextTable(pCounterTextHead, pHelpTextHead, &amp;pTextOffsets, pdwNumberOfOffsets))
+    if (!BuildTextTable(pCounterTextHead, pHelpTextHead, &pTextOffsets, pdwNumberOfOffsets))
     {
         wprintf(L"BuildTextTable failed.\n");
         status = FALSE;
@@ -225,7 +225,7 @@ LPWSTR GetText(LPWSTR pwszSource)
     LONG status = ERROR_SUCCESS;
 
     // Query the size of the text data so you can allocate the buffer.
-    status = RegQueryValueEx(HKEY_PERFORMANCE_NLSTEXT, pwszSource, NULL, NULL, NULL, &amp;dwBufferSize);
+    status = RegQueryValueEx(HKEY_PERFORMANCE_NLSTEXT, pwszSource, NULL, NULL, NULL, &dwBufferSize);
     if (ERROR_SUCCESS != status)
     {
         wprintf(L"RegQueryValueEx failed getting required buffer size. Error is 0x%x.\n", status);
@@ -236,7 +236,7 @@ LPWSTR GetText(LPWSTR pwszSource)
     pBuffer = (LPWSTR)malloc(dwBufferSize);
     if (pBuffer)
     {
-        status = RegQueryValueEx(HKEY_PERFORMANCE_NLSTEXT, pwszSource, NULL, NULL, (LPBYTE)pBuffer, &amp;dwBufferSize);
+        status = RegQueryValueEx(HKEY_PERFORMANCE_NLSTEXT, pwszSource, NULL, NULL, (LPBYTE)pBuffer, &dwBufferSize);
         if (ERROR_SUCCESS != status)
         {
             wprintf(L"RegQueryValueEx failed with 0x%x.\n", status);
@@ -311,7 +311,7 @@ BOOL BuildTextTable(LPWSTR pCounterHead, LPWSTR pHelpHead, LPDWORD* pOffsetsHead
             //   6                    7
             //                        9   (skip because there is no matching Counter index)
             //   10                   11
-            while (*pwszHelpText &amp;&amp; dwHelpIndex < dwCounterIndex)
+            while (*pwszHelpText && dwHelpIndex < dwCounterIndex)
             {
                 pwszHelpText += (wcslen(pwszHelpText)+1);  // Skip past index value
                 pwszHelpText += (wcslen(pwszHelpText)+1);  // Skip past help text to the next index value
@@ -351,7 +351,7 @@ DWORD GetNumberOfTextEntries(LPWSTR pwszSource)
         L"SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Perflib",
         0,
         KEY_READ,
-        &amp;hkey);
+        &hkey);
     
     if (ERROR_SUCCESS != status)
     {
@@ -359,7 +359,7 @@ DWORD GetNumberOfTextEntries(LPWSTR pwszSource)
         goto cleanup;
     }
 
-    status = RegQueryValueEx(hkey, pwszSource, NULL, 0, (LPBYTE)&amp;dwEntries, &amp;dwSize);
+    status = RegQueryValueEx(hkey, pwszSource, NULL, 0, (LPBYTE)&dwEntries, &dwSize);
 
     if (ERROR_SUCCESS != status)
     {
@@ -400,9 +400,9 @@ PPERF_OBJECT LoadObjects(LPBYTE pPerfDataObject, DWORD* pdwNumberOfObjects, LPBY
 
         pObjects[i].dwNumberOfCounters = ((PERF_OBJECT_TYPE*)pPerfDataObject)->NumCounters;
 
-        fSuccess = LoadCounters(&amp;(pObjects[i].pdwCounterIndexes),
+        fSuccess = LoadCounters(&(pObjects[i].pdwCounterIndexes),
             pPerfDataObject + ((PERF_OBJECT_TYPE*)pPerfDataObject)->HeaderLength,  // Points to the first counter
-            &amp;(pObjects[i].dwNumberOfCounters));
+            &(pObjects[i].dwNumberOfCounters));
 
         if (FALSE == fSuccess)
         {
@@ -410,7 +410,7 @@ PPERF_OBJECT LoadObjects(LPBYTE pPerfDataObject, DWORD* pdwNumberOfObjects, LPBY
             goto cleanup;
         }
 
-        if ( ((PERF_OBJECT_TYPE*)pPerfDataObject)->NumInstances != 0 &amp;&amp; 
+        if ( ((PERF_OBJECT_TYPE*)pPerfDataObject)->NumInstances != 0 && 
              ((PERF_OBJECT_TYPE*)pPerfDataObject)->NumInstances != PERF_NO_INSTANCES )
         {
 
@@ -418,7 +418,7 @@ PPERF_OBJECT LoadObjects(LPBYTE pPerfDataObject, DWORD* pdwNumberOfObjects, LPBY
 
             pObjects[i].dwNumberofInstances = ((PERF_OBJECT_TYPE*)pPerfDataObject)->NumInstances;
 
-            fSuccess = LoadInstances(&amp;(pObjects[i].pInstanceNames),
+            fSuccess = LoadInstances(&(pObjects[i].pInstanceNames),
                 pPerfDataObject + ((PERF_OBJECT_TYPE*)pPerfDataObject)->DefinitionLength, // Points to the first instance
                 ((PERF_OBJECT_TYPE*)pPerfDataObject)->NumInstances,
                 ((PERF_OBJECT_TYPE*)pPerfDataObject)->CodePage);
@@ -748,7 +748,7 @@ void PrintObjectNames(DWORD dwNumberOfObjects, BOOL fIncludeCounters, BOOL fIncl
         // the instances, append a serial number to the name of duplicate instances
         // If the object contained three svchost names, the function prints them
         // as svchost, svchost#1, and svchost#2.
-        if (fIncludeInstances &amp;&amp; g_pObjects[i].dwNumberofInstances > 0)
+        if (fIncludeInstances && g_pObjects[i].dwNumberofInstances > 0)
         {
             dwSerialNo = 0;
 

@@ -23,7 +23,7 @@ The following code is used to implement this method:
 
 
 ```C++
-LRESULT OnCreate(UINT uMsg, WPARAM wParam, LPARAM lParam, BOOL&amp; bHandled)
+LRESULT OnCreate(UINT uMsg, WPARAM wParam, LPARAM lParam, BOOL& bHandled)
 {
     HWND hCtrl = ::CreateWindowEx(0L, _T("BUTTON"), _T("Search"),
         WS_CHILD | BS_PUSHBUTTON, 10, 10, 100, 30, m_hWnd, 

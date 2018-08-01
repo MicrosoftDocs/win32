@@ -26,7 +26,7 @@ The **ICM\_DECOMPRESSEX\_BEGIN** message notifies a video compression driver to 
 
 ```C++
 ICM_DECOMPRESSEX_BEGIN 
-wParam = (DWORD_PTR) (LPVOID) &amp;icdex; 
+wParam = (DWORD_PTR) (LPVOID) &icdex; 
 lParam = sizeof(ICDECOMPRESSEX); 
 ```
 

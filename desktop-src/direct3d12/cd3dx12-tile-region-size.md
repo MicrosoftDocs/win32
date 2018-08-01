@@ -29,9 +29,9 @@ A helper structure to enable easy initialization of a [**D3D12\_TILE\_REGION\_SI
 ```C++
 struct CD3DX12_TILE_REGION_SIZE  : public D3D12_TILE_REGION_SIZE{
    CD3DX12_TILE_REGION_SIZE();
-   explicit CD3DX12_TILE_REGION_SIZE(const D3D12_TILE_REGION_SIZE &amp;o);
+   explicit CD3DX12_TILE_REGION_SIZE(const D3D12_TILE_REGION_SIZE &o);
    CD3DX12_TILE_REGION_SIZE(UINT numTiles, BOOL useBox, UINT width, UINT16 height, UINT16 depth);
-   operator const D3D12_TILE_REGION_SIZE&amp;() const;
+   operator const D3D12_TILE_REGION_SIZE&() const;
 };
 ```
 

@@ -43,14 +43,14 @@ CryptGenKey(
       hProv, 
       CALG_DH_EPHEM, 
       ((cbP * 8) << 16)|CRYPT_PREGEN, 
-      &amp;hClientDHKey);
+      &hClientDHKey);
 
 Data.pbData = pbP;
 Data.cbData = cbP;
 CryptSetKeyParam(
          hClientDHKey, 
          KP_P, 
-         (BYTE*)&amp;Data, 
+         (BYTE*)&Data, 
          0);
 
 Data.pbData = pbG;
@@ -58,7 +58,7 @@ Data.cbData = cbG;
 CryptSetKeyParam(
           hClientDHKey, 
           KP_G, 
-          (BYTE*)&amp;Data, 
+          (BYTE*)&Data, 
           0);
 
 //--------------------------------------------------------------------
@@ -99,7 +99,7 @@ CryptImportKey(
         cbServerBlob, 
         hClientDHKey, 
         0, 
-        &amp;hMasterKey);
+        &hMasterKey);
 
 //--------------------------------------------------------------------
 // Select the master key type.
@@ -121,7 +121,7 @@ switch(<protocol being used>)
 CryptSetKeyParam(
         hMasterKey, 
         KP_ALGID, 
-        (BYTE*)&amp;Algid, 
+        (BYTE*)&Algid, 
         0);
 
 //--------------------------------------------------------------------

@@ -18,10 +18,10 @@ The following C++ example shows how to test for the end of a file during a synch
 
 ```C++
   // Attempt a synchronous read operation.
-  bResult = ReadFile(hFile, &amp;inBuffer, nBytesToRead, &amp;nBytesRead, NULL);
+  bResult = ReadFile(hFile, &inBuffer, nBytesToRead, &nBytesRead, NULL);
 
   // Check for eof.
-  if (bResult &amp;&amp;  nBytesRead == 0) 
+  if (bResult &&  nBytesRead == 0) 
    {
     // at the end of the file
    }
@@ -56,7 +56,7 @@ LPCTSTR ErrorMessage( DWORD error )
         NULL,
         error,
         MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
-        (LPTSTR) &amp;lpMsgBuf,
+        (LPTSTR) &lpMsgBuf,
         0, NULL );
 
     return((LPCTSTR)lpMsgBuf);
@@ -122,8 +122,8 @@ DWORD AsyncTestForEnd( HANDLE hEvent, HANDLE hFile )
         bResult = ReadFile(hFile,
                            inBuffer,
                            nBytesToRead,
-                           &amp;dwBytesRead,
-                           &amp;stOverlapped); 
+                           &dwBytesRead,
+                           &stOverlapped); 
      
         dwError = GetLastError();
 
@@ -159,8 +159,8 @@ DWORD AsyncTestForEnd( HANDLE hEvent, HANDLE hFile )
                         // Check the result of the asynchronous read
                         // without waiting (forth parameter FALSE). 
                         bResult = GetOverlappedResult(hFile,
-                                                      &amp;stOverlapped,
-                                                      &amp;dwBytesRead,
+                                                      &stOverlapped,
+                                                      &dwBytesRead,
                                                       FALSE) ; 
      
                         if (!bResult) 

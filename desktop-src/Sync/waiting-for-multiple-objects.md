@@ -54,7 +54,7 @@ int main( void )
                  (LPTHREAD_START_ROUTINE) ThreadProc, 
                  NULL,         // no thread function arguments
                  0,            // default creation flags
-                 &amp;dwThreadID); // receive thread identifier
+                 &dwThreadID); // receive thread identifier
 
     if( hThread == NULL )
     {

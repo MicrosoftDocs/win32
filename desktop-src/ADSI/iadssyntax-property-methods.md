@@ -133,47 +133,47 @@ IADsContainer *pCont = NULL;
  
 HRESULT hr = ADsGetObject(L"WinNT://myMachine,computer",
                           IID_IADs,
-                          (void**)&amp;pObj);
+                          (void**)&pObj);
 if(FAILED(hr)){goto Cleanup;}
 VARIANT var;
-VariantInit(&amp;var);
+VariantInit(&var);
 CComBSTR sbstr;
  
-pObj->get_Schema(&amp;sbstr);
+pObj->get_Schema(&sbstr);
 printf("Object schema: %S\n",sbstr);
  
-hr = ADsGetObject(sbstr, IID_IADsClass,(void**)&amp;pCls);
+hr = ADsGetObject(sbstr, IID_IADsClass,(void**)&pCls);
 if(FAILED(hr)){goto Cleanup;}
 
-pCls->get_Parent(&amp;sbstr);
+pCls->get_Parent(&sbstr);
 printf("Object class's container:  %S\n", sbstr);
  
-hr = ADsGetObject(sbstr, IID_IADsContainer, (void**)&amp;pCont);
+hr = ADsGetObject(sbstr, IID_IADsContainer, (void**)&pCont);
 if(FAILED(hr)){goto Cleanup;}
-pCont->QueryInterface(IID_IADs,(void**)&amp;pObj);
-pObj->get_ADsPath(&amp;sbstr);
+pCont->QueryInterface(IID_IADs,(void**)&pObj);
+pObj->get_ADsPath(&sbstr);
 printf("Container's AdsPath:  %S\n",sbstr);
  
 IDispatch *pDisp;
 hr = pCont->GetObject(CComBSTR("Property"),
                       CComBSTR("OperatingSystemVersion"),
-                      (IDispatch**)&amp;pDisp);
+                      (IDispatch**)&pDisp);
 if(FAILED(hr)){goto Cleanup;}
  
-hr = pDisp->QueryInterface(IID_IADsProperty, (void**)&amp;pProp);
+hr = pDisp->QueryInterface(IID_IADsProperty, (void**)&pProp);
 if(FAILED(hr)){goto Cleanup;}
  
-hr = pProp->get_Syntax(&amp;sbstr);
+hr = pProp->get_Syntax(&sbstr);
 if(FAILED(hr)){goto Cleanup;}
 printf("Property Syntax:  %S\n",sbstr);
  
 printf("ADsPath of the syntax object %S\n",sbstr);
  
-hr = ADsGetObject(sbstr, IID_IADsSyntax, (void**)&amp;pSyn);
+hr = ADsGetObject(sbstr, IID_IADsSyntax, (void**)&pSyn);
 if(FAILED(hr)){goto Cleanup;}
 
 long lType;
-pSyn->get_OleAutoDataType(&amp;lType);
+pSyn->get_OleAutoDataType(&lType);
 printf("Property syntax's OleAutoDataType: %d\n", lType);
 
 Cleanup:

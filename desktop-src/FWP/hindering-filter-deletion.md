@@ -57,9 +57,9 @@ DWORD HinderFilterDeletion(
    access.grfAccessPermissions = ( DELETE | WRITE_DAC | WRITE_OWNER );
    access.grfAccessMode = DENY_ACCESS;
    access.grfInheritance = 0;
-   BuildTrusteeWithSid(&amp;(access.Trustee), &amp;worldSid);
+   BuildTrusteeWithSid(&(access.Trustee), &worldSid);
 
-   result = SetEntriesInAcl(1, &amp;access, NULL, &amp;acl);
+   result = SetEntriesInAcl(1, &access, NULL, &acl);
    EXIT_ON_ERROR(SetEntriesInAcl);
 
    // We don't protect the new DACL because we still want the default ACEs to
@@ -96,24 +96,24 @@ DWORD wmain(int argc,
    //  - All objects associated with the dynamic session are deleted with one call.
    //  - Filtering policy objects are deleted even when the application crashes. 
    FWPM_SESSION0 session;
-   memset(&amp;session, 0, sizeof(session));
+   memset(&session, 0, sizeof(session));
    session.flags = FWPM_SESSION_FLAG_DYNAMIC;
 
-   DWORD result = FwpmEngineOpen0(NULL, RPC_C_AUTHN_WINNT, NULL, &amp;session, &amp;engineHandle);
+   DWORD result = FwpmEngineOpen0(NULL, RPC_C_AUTHN_WINNT, NULL, &session, &engineHandle);
    EXIT_ON_ERROR(FwpmEngineOpen0);      
    
    // Add a filter
    FWPM_FILTER0 filter;
-   memset(&amp;filter, 0, sizeof(filter));
+   memset(&filter, 0, sizeof(filter));
    filter.filterKey = guid;
    filter.displayData.name = L"MihaelaTestFilter";
    filter.action.type = FWP_ACTION_BLOCK;
    filter.layerKey = FWPM_LAYER_INBOUND_IPPACKET_V4;
-   result = FwpmFilterAdd0(engineHandle, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engineHandle, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);   
 
    // Block the removal of the filter    
-   result = HinderFilterDeletion(engineHandle, &amp;guid);
+   result = HinderFilterDeletion(engineHandle, &guid);
 
 CLEANUP:
    if (result != ERROR_SUCCESS)

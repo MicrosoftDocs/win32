@@ -78,7 +78,7 @@ The following example shows how to get the rectangles that define the area of th
 // Get the count and the rectangles.
 ULONG count = 0;
 RECT* rects = 0;
-region->GetRegionScans(&amp;count, &amp;rects);
+region->GetRegionScans(&count, &rects);
 
 // Use rects
 
@@ -86,7 +86,7 @@ region->GetRegionScans(&amp;count, &amp;rects);
 
 // GetRegionScans just gets the count and returns S_OK
 ULONG number = 0;
-region->GetRegionScans(&amp;number, NULL); 
+region->GetRegionScans(&number, NULL); 
 ```
 
 

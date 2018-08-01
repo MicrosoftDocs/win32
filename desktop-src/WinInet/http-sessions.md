@@ -121,7 +121,7 @@ int WINAPI Dumper(HWND hX, int intCtrlID, HINTERNET hResource)
     {
         // The call to InternetQueryDataAvailable determines the
         // amount of data available to download.
-        if (!InternetQueryDataAvailable(hResource,&amp;dwSize,0,0))
+        if (!InternetQueryDataAvailable(hResource,&dwSize,0,0))
         {
             printf("InternetQueryDataAvailable failed (%d)\n", GetLastError());
             SetCursor(LoadCursor(NULL,IDC_ARROW));
@@ -137,7 +137,7 @@ int WINAPI Dumper(HWND hX, int intCtrlID, HINTERNET hResource)
             if(!InternetReadFile(hResource,
                                  (LPVOID)lpszData,
                                  dwSize,
-                                 &amp;dwDownloaded))
+                                 &dwDownloaded))
             {
                 printf("InternetReadFile failed (%d)\n", GetLastError());
                 delete[] lpszData;

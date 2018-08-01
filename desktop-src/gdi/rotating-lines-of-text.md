@@ -27,7 +27,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     
     case WM_PAINT:
         {
-        hdc = BeginPaint(hWnd, &amp;ps);
+        hdc = BeginPaint(hWnd, &ps);
         RECT rc; 
         int angle; 
         HGDIOBJ hfnt, hfntPrev; 
@@ -52,7 +52,7 @@ plf->lfWeight = FW_NORMAL;
  
 // Retrieve the client-rectangle dimensions. 
  
-GetClientRect(hWnd, &amp;rc); 
+GetClientRect(hWnd, &rc); 
  
 // Set the background mode to transparent for the 
 // text-output operation. 
@@ -71,7 +71,7 @@ for (angle = 0; angle < 3600; angle += 100)
     //
     // The StringCchLength call is fitted to the lpszRotate string
     //
-    hr = StringCchLength(lpszRotate, 22, &amp;pcch);
+    hr = StringCchLength(lpszRotate, 22, &pcch);
     if (FAILED(hr))
     {
     // TODO: write error handler
@@ -89,7 +89,7 @@ SetBkMode(hdc, OPAQUE);
 // Free the memory allocated for the LOGFONT structure. 
  
 LocalFree((LOCALHANDLE) plf); 
-        EndPaint(hWnd, &amp;ps);
+        EndPaint(hWnd, &ps);
         break;
         }
     case WM_DESTROY:

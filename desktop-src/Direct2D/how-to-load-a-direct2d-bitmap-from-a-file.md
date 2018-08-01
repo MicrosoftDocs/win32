@@ -36,7 +36,7 @@ Direct2D uses the Windows Imaging Component (WIC) to load bitmaps. To load a bit
             NULL,
             GENERIC_READ,
             WICDecodeMetadataCacheOnLoad,
-            &amp;pDecoder
+            &pDecoder
             );
             
     ```
@@ -49,7 +49,7 @@ Direct2D uses the Windows Imaging Component (WIC) to load bitmaps. To load a bit
         if (SUCCEEDED(hr))
         {
             // Create the initial frame.
-            hr = pDecoder->GetFrame(0, &amp;pSource);
+            hr = pDecoder->GetFrame(0, &pSource);
         }
     ```
 
@@ -62,7 +62,7 @@ Direct2D uses the Windows Imaging Component (WIC) to load bitmaps. To load a bit
 
             // Convert the image format to 32bppPBGRA
             // (DXGI_FORMAT_B8G8R8A8_UNORM + D2D1_ALPHA_MODE_PREMULTIPLIED).
-            hr = pIWICFactory->CreateFormatConverter(&amp;pConverter);
+            hr = pIWICFactory->CreateFormatConverter(&pConverter);
 
         }
      
@@ -127,11 +127,11 @@ Direct2D uses the Windows Imaging Component (WIC) to load bitmaps. To load a bit
                 );
         }
 
-        SafeRelease(&amp;pDecoder);
-        SafeRelease(&amp;pSource);
-        SafeRelease(&amp;pStream);
-        SafeRelease(&amp;pConverter);
-        SafeRelease(&amp;pScaler);
+        SafeRelease(&pDecoder);
+        SafeRelease(&pSource);
+        SafeRelease(&pStream);
+        SafeRelease(&pConverter);
+        SafeRelease(&pScaler);
 
         return hr;
     }

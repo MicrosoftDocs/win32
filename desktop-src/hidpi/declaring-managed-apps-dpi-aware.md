@@ -129,7 +129,7 @@ In order to make an existing WPF application per-monitor DPI-aware the NativeHel
     if (m_perMonitorEnabled)
         {
         m_source = (HwndSource^) PresentationSource::FromVisual((Visual^) this);
-        HwndSourceHook^ hook = gcnew HwndSourceHook(this, &amp;PerMonitorDPIWindow::HandleMessages);
+        HwndSourceHook^ hook = gcnew HwndSourceHook(this, &PerMonitorDPIWindow::HandleMessages);
         m_source->AddHook(hook); 
                 
         //Calculate the DPI used by WPF.                    

@@ -76,7 +76,7 @@ HSCARD   hSC;
 HRESULT  hr;
 
 // Retrieve the card handle.
-hr = pISCard->get_CardHandle(&amp;hSC);
+hr = pISCard->get_CardHandle(&hSC);
 if (FAILED(hr))
 {
    printf("Failed get_CardHandle\n");

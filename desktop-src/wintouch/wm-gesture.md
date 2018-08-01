@@ -113,11 +113,11 @@ The following code illustrates how to obtain gesture-specific information associ
     // Create a structure to populate and retrieve the extra message info.
     GESTUREINFO gi;  
     
-    ZeroMemory(&amp;gi, sizeof(GESTUREINFO));
+    ZeroMemory(&gi, sizeof(GESTUREINFO));
     
     gi.cbSize = sizeof(GESTUREINFO);
 
-    BOOL bResult  = GetGestureInfo((HGESTUREINFO)lParam, &amp;gi);
+    BOOL bResult  = GetGestureInfo((HGESTUREINFO)lParam, &gi);
     BOOL bHandled = FALSE;
 
     if (bResult){

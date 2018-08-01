@@ -271,7 +271,7 @@ while(dwPropId = CertEnumCertificateContextProperties(
          pCertContext, 
          dwPropId , 
          NULL, 
-         &amp;cbData))
+         &cbData))
     {
     //  Continue.
     }
@@ -301,7 +301,7 @@ while(dwPropId = CertEnumCertificateContextProperties(
       pCertContext,
       dwPropId,
       pvData, 
-      &amp;cbData))
+      &cbData))
     {
     // The data has been retrieved. Continue.
     }

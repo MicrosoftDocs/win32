@@ -87,7 +87,7 @@ int main(INT argc, CHAR *argv[])
 
     //Determine whether the destination directory provided by the user exists
 
-    hFile = FindFirstFileA(pszDestinationDir, &amp;findFileData);
+    hFile = FindFirstFileA(pszDestinationDir, &findFileData);
 
     if ( hFile == INVALID_HANDLE_VALUE )
     {
@@ -140,7 +140,7 @@ BOOL ExtractCabinetFiles(
                      fnFileClose, //function to close a file
                      fnFileSeek,  //function to move the file pointer
               cpuUNKNOWN,  //only used by the 16-bit version of FDI
-                     &amp;erf);       //pointer the FDI error structure
+                     &erf);       //pointer the FDI error structure
 
     if ( hfdi == NULL )
     {

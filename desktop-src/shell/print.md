@@ -60,7 +60,7 @@ HINSTANCE PrintFile(LPCTSTR pszFileName)
     ShExecInfo.nShow = SW_MAXIMIZE;
     ShExecInfo.hInstApp = NULL;
 
-    hInst = ShellExecuteEx(&amp;ShExecInfo);
+    hInst = ShellExecuteEx(&ShExecInfo);
     
     return hInst;
 }

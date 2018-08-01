@@ -34,7 +34,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int nCmdShow
 
         // Create the FileOpenDialog object.
         hr = CoCreateInstance(CLSID_FileOpenDialog, NULL, CLSCTX_ALL, 
-                IID_IFileOpenDialog, reinterpret_cast<void**>(&amp;pFileOpen));
+                IID_IFileOpenDialog, reinterpret_cast<void**>(&pFileOpen));
 
         if (SUCCEEDED(hr))
         {
@@ -45,11 +45,11 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int nCmdShow
             if (SUCCEEDED(hr))
             {
                 IShellItem *pItem;
-                hr = pFileOpen->GetResult(&amp;pItem);
+                hr = pFileOpen->GetResult(&pItem);
                 if (SUCCEEDED(hr))
                 {
                     PWSTR pszFilePath;
-                    hr = pItem->GetDisplayName(SIGDN_FILESYSPATH, &amp;pszFilePath);
+                    hr = pItem->GetDisplayName(SIGDN_FILESYSPATH, &pszFilePath);
 
                     // Display the file name to the user.
                     if (SUCCEEDED(hr))

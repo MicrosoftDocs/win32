@@ -44,7 +44,7 @@ The [**Matrix**](/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix) con
 Matrix()
 {
    GpMatrix *matrix = NULL;
-   lastResult = DllExports::GdipCreateMatrix(&amp;matrix);
+   lastResult = DllExports::GdipCreateMatrix(&matrix);
    SetNativeMatrix(matrix);
 }
 
@@ -64,7 +64,7 @@ Matrix *Clone() const
 {
    GpMatrix *cloneMatrix = NULL;
    ...
-   GdipCloneMatrix(nativeMatrix, &amp;cloneMatrix));
+   GdipCloneMatrix(nativeMatrix, &cloneMatrix));
    ...
    return new Matrix(cloneMatrix);
  }
@@ -84,7 +84,7 @@ BOOL IsInvertible() const
 {
    BOOL result = FALSE;
    ...
-   GdipIsMatrixInvertible(nativeMatrix, &amp;result);
+   GdipIsMatrixInvertible(nativeMatrix, &result);
    return result;
 }
 ```
@@ -95,7 +95,7 @@ Another one of the wrappers is the [**Color**](/windows/desktop/api/gdipluscolor
 
 
 ```
-Status SetColor(IN const Color&amp; color)
+Status SetColor(IN const Color& color)
 {
    ...
    GdipSetPenColor(nativePen, color.GetValue());

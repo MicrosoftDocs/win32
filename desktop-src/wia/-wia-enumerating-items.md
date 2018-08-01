@@ -32,7 +32,7 @@ The following example shows a function that recursively enumerates all of the it
         // Get the item type for this item.
         //
         LONG lItemType = 0;
-        HRESULT hr = pWiaItem->GetItemType( &amp;lItemType );
+        HRESULT hr = pWiaItem->GetItemType( &lItemType );
         if (SUCCEEDED(hr))
         {
             //
@@ -46,7 +46,7 @@ The following example shows a function that recursively enumerates all of the it
                 IEnumWiaItem *pEnumWiaItem = NULL; //XP or earlier
                 IEnumWiaItem2 *pEnumWiaItem = NULL; //Vista or later
                 
-                hr = pWiaItem->EnumChildItems( &amp;pEnumWiaItem );
+                hr = pWiaItem->EnumChildItems( &pEnumWiaItem );
                 if (SUCCEEDED(hr))
                 {
                     //
@@ -61,7 +61,7 @@ The following example shows a function that recursively enumerates all of the it
                         IWiaItem *pChildWiaItem = NULL; //XP or earlier
                         IWiaItem2 *pChildWiaItem = NULL; //Vista or later
                         
-                        hr = pEnumWiaItem->Next( 1, &amp;pChildWiaItem, NULL );
+                        hr = pEnumWiaItem->Next( 1, &pChildWiaItem, NULL );
 
                         //
                         // pEnumWiaItem->Next will return S_FALSE when the list is

@@ -40,12 +40,12 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 ```
 HRESULT SetGeometricAperture(
     IMFMediaType *pMediaType, 
-    const MFVideoArea&amp; area
+    const MFVideoArea& area
     )
 {
     return pMediaType->SetBlob(
         MF_MT_GEOMETRIC_APERTURE, 
-        (UINT8*)&amp;area, 
+        (UINT8*)&area, 
         sizeof(MFVideoArea)
         );
 }

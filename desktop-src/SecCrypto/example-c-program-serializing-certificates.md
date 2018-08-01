@@ -126,7 +126,7 @@ if(CertSerializeCertificateStoreElement(
     pCertContext,      // The existing certificate.
     0,                 // Accept default for dwFlags, 
     NULL,              // NULL for the first function call.
-    &amp;cbElement))       // Address where the length of the 
+    &cbElement))       // Address where the length of the 
                        // serialized element will be placed.
 {
      printf("The length of the serialized string is %d.\n",
@@ -157,7 +157,7 @@ if(CertSerializeCertificateStoreElement(
     0,                   // dwFlags. Accept the default.
     pbElement,           // A pointer to where the new element will
                          // be stored.
-    &amp;cbElement))         // The length of the serialized element,
+    &cbElement))         // The length of the serialized element,
 {
      printf("The encoded element has been serialized. \n");
 }

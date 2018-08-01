@@ -57,7 +57,7 @@ void MyAsyncPipeFunc(
                                 (LPTHREAD_START_ROUTINE)   
                                 ThreadProcPipes,
                                 PipeCallCookie, 0,
-                                &amp;ThreadIdentifier);
+                                &ThreadIdentifier);
 }// endMyAsyncPipeFunc
  
 //Sending pipe data
@@ -93,7 +93,7 @@ void ThreadProcPipes(IN PIPE_CALL_COOKIE  *Cookie)
             Cookie->inpipe.state,
             (int *) Cookie->PipeBuffer,
             ASYNC_CHUNK_SIZE,
-            &amp;num_elements);
+            &num_elements);
         switch (Status)
         {
             case RPC_S_ASYNC_CALL_PENDING:
@@ -136,7 +136,7 @@ void ThreadProcPipes(IN PIPE_CALL_COOKIE  *Cookie)
     }
     // sending non pipe reply
     *(Cookie->b) = 10;
-    Status = RpcAsyncCompleteCall (Cookie->pAsync, &amp;retval);
+    Status = RpcAsyncCompleteCall (Cookie->pAsync, &retval);
 }
  
 void MyAsyncPipeAPCRoutine (

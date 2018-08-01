@@ -114,7 +114,7 @@ Return Value:
 
     if (!OpenProcessToken(GetCurrentProcess(),
                           TOKEN_ADJUST_PRIVILEGES | TOKEN_QUERY,
-                          &amp;TokenHandle))
+                          &TokenHandle))
     {
         printf("Could not get the process token");
         goto Cleanup;
@@ -124,7 +124,7 @@ Return Value:
 
     if (!LookupPrivilegeValue(NULL,
                               SE_DEBUG_NAME,
-                              &amp;TokenPrivileges.Privileges[0].Luid))
+                              &TokenPrivileges.Privileges[0].Luid))
     {
         printf("Couldn't lookup SeDebugPrivilege name");
         goto Cleanup;
@@ -134,7 +134,7 @@ Return Value:
 
     if (!AdjustTokenPrivileges(TokenHandle,
                                FALSE,
-                               &amp;TokenPrivileges,
+                               &TokenPrivileges,
                                sizeof(TokenPrivileges),
                                NULL,
                                NULL))
@@ -191,7 +191,7 @@ Return Value:
     }
 
     // Get a list of all processes currently running.
-    if (EnumProcesses(processes, sizeof(processes), &amp;numProcesses) == FALSE)
+    if (EnumProcesses(processes, sizeof(processes), &numProcesses) == FALSE)
     {
         printf("Could not enumerate processes");
         return FALSE;
@@ -252,7 +252,7 @@ Return Value:
                 thread.dwSize = sizeof(thread);
 
                 // Walk the thread list and print each wait chain
-                if (Thread32First(snapshot, &amp;thread))
+                if (Thread32First(snapshot, &thread))
                 {
                     do
                     {
@@ -266,7 +266,7 @@ Return Value:
                             {
                                 // Check whether the thread is still running
                                 DWORD exitCode;
-                                GetExitCodeThread(threadHandle, &amp;exitCode);
+                                GetExitCodeThread(threadHandle, &exitCode);
 
                                 if (exitCode == STILL_ACTIVE)
                                 {
@@ -277,7 +277,7 @@ Return Value:
                                 CloseHandle(threadHandle);
                             }
                         }
-                    } while (Thread32Next(snapshot, &amp;thread));
+                    } while (Thread32Next(snapshot, &thread));
                 }
                 CloseHandle(snapshot);
             }
@@ -323,9 +323,9 @@ Return Value:
                             NULL,
                             WCTP_GETINFO_ALL_FLAGS,
                             ThreadId,
-                            &amp;Count,
+                            &Count,
                             NodeInfoArray,
-                            &amp;IsCycle))
+                            &IsCycle))
     {
         printf("Error (0X%x)\n", GetLastError());
         return;

@@ -86,10 +86,10 @@ int main( void )
 
          bSuccess = SetWaitableTimer(
             hTimer,           // Handle to the timer object
-            &amp;liDueTime,       // When timer will become signaled
+            &liDueTime,       // When timer will become signaled
             2000,             // Periodic timer interval of 2 seconds
             TimerAPCProc,     // Completion routine
-            &amp;MyData,          // Argument to the completion routine
+            &MyData,          // Argument to the completion routine
             FALSE );          // Do not restore a suspended system
 
          if ( bSuccess ) 

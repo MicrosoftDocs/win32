@@ -26,7 +26,7 @@ The **ICM\_DECOMPRESS** message notifies a video decompression driver to decompr
 
 ```C++
 ICM_DECOMPRESS 
-wParam = (DWORD) (LPVOID) &amp;icd; 
+wParam = (DWORD) (LPVOID) &icd; 
 lParam = sizeof(ICDECOMPRESS); 
 ```
 

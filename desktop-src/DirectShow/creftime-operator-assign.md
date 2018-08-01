@@ -29,8 +29,8 @@ The = operator assigns a new reference time.
 
 
 ```C++
-CRefTime&amp; operator=(
-  [ref] const CRefTime &amp;rt
+CRefTime& operator=(
+  [ref] const CRefTime &rt
 );
 ```
 

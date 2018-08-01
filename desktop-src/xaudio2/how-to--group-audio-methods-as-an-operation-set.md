@@ -30,7 +30,7 @@ This topic shows you how you can group together XAudio2 methods so they take eff
     Each time you submit a new [operation set](operation-sets.md), the global counter should increment to ensure each set is unique.
 
     ```
-    UINT32 OperationID = UINT32(InterlockedIncrement(LPLONG(&amp;OperationSetCounter)));
+    UINT32 OperationID = UINT32(InterlockedIncrement(LPLONG(&OperationSetCounter)));
     ```
 
     

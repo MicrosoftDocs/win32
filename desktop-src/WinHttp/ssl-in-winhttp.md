@@ -96,8 +96,8 @@ void GetIssuerList(HINTERNET hRequest)
 
   if (WinHttpQueryOption(hRequest,
            WINHTTP_OPTION_CLIENT_CERT_ISSUER_LIST,
-           &amp;pIssuerList,
-           &amp;dwBufferSize) == TRUE)
+           &pIssuerList,
+           &dwBufferSize) == TRUE)
   {
     // Use the pIssuerList for cert store filtering.
     GlobalFree(pIssuerList); // Free the issuer list when done.
@@ -115,7 +115,7 @@ PCERT_CONTEXT pClientCert = NULL;
 PCCERT_CHAIN_CONTEXT pClientCertChain = NULL;
 
 CERT_CHAIN_FIND_BY_ISSUER_PARA SrchCriteria;
-::ZeroMemory(&amp;SrchCriteria, sizeof(CERT_CHAIN_FIND_BY_ISSUER_PARA));
+::ZeroMemory(&SrchCriteria, sizeof(CERT_CHAIN_FIND_BY_ISSUER_PARA));
 SrchCriteria.cbSize = sizeof(CERT_CHAIN_FIND_BY_ISSUER_PARA);
 
 SrchCriteria.cIssuer = pIssuerList->cIssuers;
@@ -130,7 +130,7 @@ pClientCertChain = CertFindChainInStore(
             // Do not search pCacheEntry->_ClientCertStore 
             // for issuer certs.
             CERT_CHAIN_FIND_BY_ISSUER,
-            &amp;SrchCriteria,
+            &SrchCriteria,
             NULL);
 
 if (pClientCertChain)

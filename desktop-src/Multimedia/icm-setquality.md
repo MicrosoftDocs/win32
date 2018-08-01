@@ -26,7 +26,7 @@ The **ICM\_SETQUALITY** message provides a video compression driver with a quali
 
 ```C++
 ICM_SETQUALITY 
-wParam = (DWORD) (LPVOID) &amp;dwICValue; 
+wParam = (DWORD) (LPVOID) &dwICValue; 
 lParam = 0; 
 ```
 

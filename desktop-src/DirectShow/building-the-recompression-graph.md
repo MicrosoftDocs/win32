@@ -28,7 +28,7 @@ Start by calling CoCreateInstance to create the Capture Graph Builder:
 ICaptureGraphBuilder2 *pBuild = NULL;
 hr = CoCreateInstance(CLSID_CaptureGraphBuilder2, 
                         NULL, CLSCTX_INPROC_SERVER,
-    IID_ICaptureGraphBuilder2, (void **)&amp;pBuild);
+    IID_ICaptureGraphBuilder2, (void **)&pBuild);
 ```
 
 
@@ -49,9 +49,9 @@ To build the rendering section of the graph, call the [**ICaptureGraphBuilder2::
 ```C++
 IBaseFilter *pMux = NULL;
 hr = pBuild->SetOutputFileName(
-        &amp;MEDIASUBTYPE_Avi, // File type. 
+        &MEDIASUBTYPE_Avi, // File type. 
         wszOutputFile,     // File name, as a wide-character string.
-        &amp;pMux,             // Receives a pointer to the multiplexer.
+        &pMux,             // Receives a pointer to the multiplexer.
         NULL);             // Receives a pointer to the file writer. 
 ```
 
@@ -75,7 +75,7 @@ The next step is to add the source and compression filters to the filter graph. 
 
 ```C++
 IGraphBuilder *pGraph = NULL;
-hr = pBuild->GetFiltergraph(&amp;pGraph);
+hr = pBuild->GetFiltergraph(&pGraph);
 ```
 
 
@@ -85,7 +85,7 @@ Now call the [**IGraphBuilder::AddSourceFilter**](/windows/desktop/api/Strmif/nf
 
 ```C++
 IBaseFilter *pSrc = NULL;
-hr = pGraph->AddSourceFilter(wszInputFile, L"Source Filter", &amp;pSrc);
+hr = pGraph->AddSourceFilter(wszInputFile, L"Source Filter", &pSrc);
 hr = pGraph->AddFilter(pVComp, L"Compressor");
 ```
 

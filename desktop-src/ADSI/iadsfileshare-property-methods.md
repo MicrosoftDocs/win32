@@ -243,10 +243,10 @@ IADsContainer *pCont = NULL;
 LPWSTR adsPath = L"WinNT://yourMachineName/LanmanServer";
 HRESULT hr = S_OK;
 
-hr = ADsGetObject(adsPath, IID_IADsContainer,(void**)&amp;pCont);
+hr = ADsGetObject(adsPath, IID_IADsContainer,(void**)&pCont);
 if(FAILED(hr)) {goto Cleanup;}
 
-hr = pCont->Create(CComBSTR("FileShare"), CComBSTR("Public"), (IDispatch**)&amp;pShare);
+hr = pCont->Create(CComBSTR("FileShare"), CComBSTR("Public"), (IDispatch**)&pShare);
 
 if(FAILED(hr)) {goto Cleanup;}
 

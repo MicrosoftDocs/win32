@@ -66,7 +66,7 @@ DWORD ForceFilterDeletion(__in const GUID* filterKey)
    success = OpenProcessToken(
                 GetCurrentProcess(),
                 ( TOKEN_ADJUST_PRIVILEGES | TOKEN_QUERY ),
-                &amp;token
+                &token
                 );
    EXIT_ON_LAST_ERROR(success, OpenProcessToken);
 
@@ -76,7 +76,7 @@ DWORD ForceFilterDeletion(__in const GUID* filterKey)
                 TokenUser,
                 NULL,
                 0,
-                &amp;userLen
+                &userLen
                 );
    result = success ? ERROR_INVALID_DATA : GetLastError();
    if (result != ERROR_INSUFFICIENT_BUFFER)
@@ -92,7 +92,7 @@ DWORD ForceFilterDeletion(__in const GUID* filterKey)
                 TokenUser,
                 user,
                 userLen,
-                &amp;userLen
+                &userLen
                 );
    EXIT_ON_LAST_ERROR(success, GetTokenInformation);
 
@@ -100,7 +100,7 @@ DWORD ForceFilterDeletion(__in const GUID* filterKey)
    success = LookupPrivilegeValueW(
                 NULL,
                 SE_TAKE_OWNERSHIP_NAME,
-                &amp;(newPriv.Privileges[0].Luid)
+                &(newPriv.Privileges[0].Luid)
                 );
    EXIT_ON_LAST_ERROR(success, LookupPrivilegeValueW);
    newPriv.Privileges[0].Attributes = SE_PRIVILEGE_ENABLED;
@@ -111,10 +111,10 @@ DWORD ForceFilterDeletion(__in const GUID* filterKey)
    success = AdjustTokenPrivileges(
                 token,
                 FALSE,
-                &amp;newPriv,
+                &newPriv,
                 sizeof(oldPriv),
-                &amp;oldPriv,
-                &amp;oldPrivLen
+                &oldPriv,
+                &oldPrivLen
                 );
    EXIT_ON_LAST_ERROR(success, AdjustTokenPrivileges);
 
@@ -131,7 +131,7 @@ DWORD ForceFilterDeletion(__in const GUID* filterKey)
                RPC_C_AUTHN_DEFAULT,
                NULL,
                NULL,
-               &amp;engine
+               &engine
                );
    EXIT_ON_ERROR(result);
 
@@ -151,9 +151,9 @@ DWORD ForceFilterDeletion(__in const GUID* filterKey)
    access.grfAccessPermissions = DELETE;
    access.grfAccessMode = GRANT_ACCESS;
    access.grfInheritance = 0;
-   BuildTrusteeWithSid(&amp;(access.Trustee), user->User.Sid);
+   BuildTrusteeWithSid(&(access.Trustee), user->User.Sid);
 
-   result = SetEntriesInAcl(1, &amp;access, NULL, &amp;acl);
+   result = SetEntriesInAcl(1, &access, NULL, &acl);
    EXIT_ON_ERROR(result);
 
    // Grant ourselves delete access. This will succeed since the owner
@@ -185,7 +185,7 @@ CLEANUP:
       AdjustTokenPrivileges(
          token,
          FALSE,
-         &amp;newPriv,
+         &newPriv,
          0,
          NULL,
          0
@@ -214,26 +214,26 @@ DWORD wmain(int argc,
    //  - All objects associated with the dynamic session are deleted with one call.
    //  - Filtering policy objects are deleted even when the application crashes. 
    FWPM_SESSION0 session;
-   memset(&amp;session, 0, sizeof(session));
+   memset(&session, 0, sizeof(session));
    session.flags = FWPM_SESSION_FLAG_DYNAMIC;
    session.sessionKey = guid;
 
-   DWORD result = FwpmEngineOpen0(NULL, RPC_C_AUTHN_WINNT, NULL, &amp;session, &amp;engineHandle);
+   DWORD result = FwpmEngineOpen0(NULL, RPC_C_AUTHN_WINNT, NULL, &session, &engineHandle);
    EXIT_ON_ERROR(result);   
    
    // Add a filter
    FWPM_FILTER0 filter;
-   memset(&amp;filter, 0, sizeof(filter));
+   memset(&filter, 0, sizeof(filter));
    filter.filterKey = guid;
    filter.displayData.name = L"MihaelaTestFilter";
    filter.action.type = FWP_ACTION_BLOCK;
    filter.layerKey = FWPM_LAYER_INBOUND_IPPACKET_V4;
    
-   result = FwpmFilterAdd0(engineHandle, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engineHandle, &filter, NULL, NULL);
    EXIT_ON_ERROR(result);   
 
    // Delete the newly added filter
-   result = ForceFilterDeletion(&amp;guid);
+   result = ForceFilterDeletion(&guid);
    EXIT_ON_ERROR(result);
 
    printf("Success.\n");

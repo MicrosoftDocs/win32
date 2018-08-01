@@ -39,10 +39,10 @@ hr = ADsOpenObject(szPath,
          NULL,
          ADS_SECURE_AUTHENTICATION, // Use Secure Authentication.
          IID_IADs,
-         (void**)&amp;pObject);
+         (void**)&pObject);
 if (SUCCEEDED(hr))
 {
-  VariantInit(&amp;var);
+  VariantInit(&var);
   var.vt = VT_I4;
   var.lVal = 1L;
   hr = pObject->Put(CComBSTR("schemaUpdateNow"), var);
@@ -78,10 +78,10 @@ hr = ADsOpenObject(L"LDAP://rootDSE",
          NULL,
          ADS_SECURE_AUTHENTICATION, // Use Secure Authentication.
          IID_IADs,
-         (void**)&amp;pObject);
+         (void**)&pObject);
 if (SUCCEEDED(hr))
 {
-  hr = pObject->Get(CComBSTR("schemaNamingContext"), &amp;var);
+  hr = pObject->Get(CComBSTR("schemaNamingContext"), &var);
   if (SUCCEEDED(hr))
   {
     wcscpy_s(szPath,L"LDAP://");
@@ -91,12 +91,12 @@ if (SUCCEEDED(hr))
              NULL,
              ADS_SECURE_AUTHENTICATION, // Use Secure Authentication.
              IID_IADs,
-             (void**)&amp;pTempSchema);
+             (void**)&pTempSchema);
  
     if (SUCCEEDED(hr))
     {
       // Read the fsmoRoleOwner attribute to see which server is the schema master.
-      hr = pTempSchema->Get(CComBSTR("fsmoRoleOwner"), &amp;varRole);
+      hr = pTempSchema->Get(CComBSTR("fsmoRoleOwner"), &varRole);
       if (SUCCEEDED(hr))
       {
         // fsmoRoleOwner attribute returns the nTDSDSA object.
@@ -109,10 +109,10 @@ if (SUCCEEDED(hr))
              NULL,
              ADS_SECURE_AUTHENTICATION, // Use Secure Authentication.
              IID_IADs,
-             (void**)&amp;pNTDS);
+             (void**)&pNTDS);
         if (SUCCEEDED(hr))
         {
-          hr = pNTDS->get_Parent(&amp;bstrParent);
+          hr = pNTDS->get_Parent(&bstrParent);
           if (SUCCEEDED(hr))
           {
             // Bind to server object
@@ -123,11 +123,11 @@ if (SUCCEEDED(hr))
                NULL,
                ADS_SECURE_AUTHENTICATION, // Use Secure Authentication.
                IID_IADs,
-               (void**)&amp;pServer);
+               (void**)&pServer);
             if (SUCCEEDED(hr))
             {
               // Get the dns name of the server.
-              hr = pServer->Get(CCOmBSTR("dNSHostName"), &amp;varComputer);
+              hr = pServer->Get(CCOmBSTR("dNSHostName"), &varComputer);
               if (SUCCEEDED(hr))
               {
                 *pszSchemaMasterDNSName = (OLECHAR *)CoTaskMemAlloc (sizeof(OLECHAR)*(wcslen(varComputer.bstrVal)+1));
@@ -140,7 +140,7 @@ if (SUCCEEDED(hr))
                   hr = E_OUTOFMEMORY;
                 }
               }
-              VariantClear(&amp;varComputer);
+              VariantClear(&varComputer);
             }
             if (pServer)
               pServer->Release();
@@ -150,12 +150,12 @@ if (SUCCEEDED(hr))
         if (pNTDS)
           pNTDS->Release();
       }
-      VariantClear(&amp;varRole);
+      VariantClear(&varRole);
     }
     if (pTempSchema)
       pTempSchema->Release();
   }
-  VariantClear(&amp;var);
+  VariantClear(&var);
 }
 if (pObject)
     pObject->Release();

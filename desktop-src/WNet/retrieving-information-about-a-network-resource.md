@@ -39,7 +39,7 @@ CheckServer( LPTSTR pszServer )
     // Set the block of memory to zero; then initialize
     // the NETRESOURCE structure. 
     //
-    ZeroMemory(&amp;nr, sizeof(nr));
+    ZeroMemory(&nr, sizeof(nr));
 
     nr.dwScope       = RESOURCE_GLOBALNET;
     nr.dwType        = RESOURCETYPE_ANY;
@@ -56,8 +56,8 @@ CheckServer( LPTSTR pszServer )
     if (lpBuffer == NULL) 
         return FALSE;
 
-    while ( WNetGetResourceInformation(&amp;nr, lpBuffer, &amp;dwBufferSize, 
-                &amp;pszSystem) == ERROR_MORE_DATA)
+    while ( WNetGetResourceInformation(&nr, lpBuffer, &dwBufferSize, 
+                &pszSystem) == ERROR_MORE_DATA)
     {
         lpBuffer = (LPBYTE) realloc(lpBuffer, dwBufferSize);
     }

@@ -40,7 +40,7 @@ The CLSID for this effect is CLSID\_D2D1GammaTransfer. To use this effect, add d
 
 ```C++
 ComPtr<ID2D1Effect> gammaTransferEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1GammaTransfer, &amp;gammaTransferEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1GammaTransfer, &gammaTransferEffect);
 
 gammaTransferEffect->SetInput(0, bitmap);
 

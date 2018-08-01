@@ -37,8 +37,8 @@ HRESULT GetTopologyFromEvent(IMFMediaEvent *pEvent, IMFTopology **ppTopology)
     HRESULT hr = S_OK;
     PROPVARIANT var;
 
-    PropVariantInit(&amp;var);
-    hr = pEvent->GetValue(&amp;var);
+    PropVariantInit(&var);
+    hr = pEvent->GetValue(&var);
     if (SUCCEEDED(hr))
     {
         if (var.vt != VT_UNKNOWN)
@@ -50,7 +50,7 @@ HRESULT GetTopologyFromEvent(IMFMediaEvent *pEvent, IMFTopology **ppTopology)
     {
         hr = var.punkVal->QueryInterface(__uuidof(IMFTopology), (void**)ppTopology);
     }
-    PropVariantClear(&amp;var);
+    PropVariantClear(&var);
     return hr;
 }
 ```

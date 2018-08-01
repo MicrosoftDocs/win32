@@ -163,7 +163,7 @@ public:
     HRESULT hr;
     hr = CoCreateInstance( CLSID_AccPropServices, NULL,
             CLSCTX_SERVER, IID_IAccPropServices, (void **) & pAccPropSvc ));
-    if( hr == S_OK &amp;&amp; pAccPropSvc )
+    if( hr == S_OK && pAccPropSvc )
     {
         CMyAccPropServer* pMyPropSrv = new CMyAccPropServer( pAccPropSvc );
         if( pMyPropSrv )

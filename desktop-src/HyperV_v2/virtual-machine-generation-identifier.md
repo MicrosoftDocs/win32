@@ -147,9 +147,9 @@ HRESULT GetVmCounter(bool fWaitForChange)
         IOCTL_VMGENCOUNTER_READ,
         NULL,
         0,
-        &amp;vmCounterOutput,
+        &vmCounterOutput,
         sizeof(vmCounterOutput),
-        &amp;size,
+        &size,
         NULL);
 
     if (!success)
@@ -177,11 +177,11 @@ HRESULT GetVmCounter(bool fWaitForChange)
         success = DeviceIoControl(
             handle,
             IOCTL_VMGENCOUNTER_READ,
-            &amp;vmCounterOutput,
+            &vmCounterOutput,
             sizeof(vmCounterOutput),
-            &amp;vmCounterOutput,
+            &vmCounterOutput,
             sizeof(vmCounterOutput),
-            &amp;size,
+            &size,
             NULL);
 
         if (!success)

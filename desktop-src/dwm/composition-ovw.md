@@ -104,7 +104,7 @@ HRESULT DisableNCRendering(HWND hwnd)
     DWMNCRENDERINGPOLICY ncrp = DWMNCRP_DISABLED;
 
     // Disable non-client area rendering on the window.
-    hr = DwmSetWindowAttribute(hwnd, DWMWA_NCRENDERING_POLICY, &amp;ncrp, sizeof(ncrp));
+    hr = DwmSetWindowAttribute(hwnd, DWMWA_NCRENDERING_POLICY, &ncrp, sizeof(ncrp));
     if (SUCCEEDED(hr))
     {
         // ...

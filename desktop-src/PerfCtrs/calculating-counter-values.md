@@ -30,7 +30,7 @@ BOOL DisplayCalculatedValue(RAW_DATA* pSample1, RAW_DATA* pSample2)
 
     // If the counter type contains the PERF_DELTA_COUNTER flag, you need
     // two samples to calculate the value. 
-    if (PERF_DELTA_COUNTER == (pSample1->CounterType & PERF_DELTA_COUNTER) &amp;&amp;
+    if (PERF_DELTA_COUNTER == (pSample1->CounterType & PERF_DELTA_COUNTER) &&
         NULL == pSample2)
     {
         wprintf(L"The counter type requires two samples but only one sample was passed.\n");
@@ -40,7 +40,7 @@ BOOL DisplayCalculatedValue(RAW_DATA* pSample1, RAW_DATA* pSample2)
     
     // Check for integer overflow or bad data from provider (the data from 
     // sample 2 must be greater than the data from sample 1).
-    if (pSample2 != NULL &amp;&amp; pSample1->Data > pSample2->Data)
+    if (pSample2 != NULL && pSample1->Data > pSample2->Data)
     {                     
         // You would probably just drop the older sample and continue.                
         wprintf(L"Sample1 (%I64u) is larger than sample2 (%I64u).\n", pSample1->Data, pSample2->Data);

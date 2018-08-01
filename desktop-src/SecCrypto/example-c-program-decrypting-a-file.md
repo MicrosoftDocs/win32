@@ -169,7 +169,7 @@ bool MyDecryptFile(
     //---------------------------------------------------------------
     // Get the handle to the default provider. 
     if(CryptAcquireContext(
-        &amp;hCryptProv, 
+        &hCryptProv, 
         NULL, 
         MS_ENHANCED_PROV, 
         PROV_RSA_FULL, 
@@ -199,9 +199,9 @@ bool MyDecryptFile(
         // Read the key BLOB length from the source file. 
         if(!ReadFile(
             hSourceFile, 
-            &amp;dwKeyBlobLen, 
+            &dwKeyBlobLen, 
             sizeof(DWORD), 
-            &amp;dwCount, 
+            &dwCount, 
             NULL))
         {
             MyHandleError(
@@ -224,7 +224,7 @@ bool MyDecryptFile(
             hSourceFile, 
             pbKeyBlob, 
             dwKeyBlobLen, 
-            &amp;dwCount, 
+            &dwCount, 
             NULL))
         {
             MyHandleError(
@@ -241,7 +241,7 @@ bool MyDecryptFile(
               dwKeyBlobLen, 
               0, 
               0, 
-              &amp;hKey))
+              &hKey))
         {
             MyHandleError(
                 TEXT("Error during CryptImportKey!/n"), 
@@ -267,7 +267,7 @@ bool MyDecryptFile(
                CALG_MD5, 
                0, 
                0, 
-               &amp;hHash))
+               &hHash))
         {
             MyHandleError(
                 TEXT("Error during CryptCreateHash!\n"), 
@@ -296,7 +296,7 @@ bool MyDecryptFile(
               ENCRYPT_ALGORITHM, 
               hHash, 
               KEYLENGTH, 
-              &amp;hKey))
+              &hKey))
         { 
             MyHandleError(
                 TEXT("Error during CryptDeriveKey!\n"), 
@@ -337,7 +337,7 @@ bool MyDecryptFile(
             hSourceFile, 
             pbBuffer, 
             dwBlockLen, 
-            &amp;dwCount, 
+            &dwCount, 
             NULL))
         {
             MyHandleError(
@@ -359,7 +359,7 @@ bool MyDecryptFile(
               fEOF, 
               0, 
               pbBuffer, 
-              &amp;dwCount))
+              &dwCount))
         {
             MyHandleError(
                 TEXT("Error during CryptDecrypt!\n"), 
@@ -373,7 +373,7 @@ bool MyDecryptFile(
             hDestinationFile, 
             pbBuffer, 
             dwCount,
-            &amp;dwCount,
+            &dwCount,
             NULL))
         { 
             MyHandleError(

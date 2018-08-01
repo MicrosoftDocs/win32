@@ -81,7 +81,7 @@ HTREEITEM AddItemToTree(HWND hwndTV, LPTSTR lpszItem, int nLevel)
 
     // Add the item to the tree-view control. 
     hPrev = (HTREEITEM)SendMessage(hwndTV, TVM_INSERTITEM, 
-        0, (LPARAM)(LPTVINSERTSTRUCT)&amp;tvins); 
+        0, (LPARAM)(LPTVINSERTSTRUCT)&tvins); 
 
     if (hPrev == NULL)
         return NULL;
@@ -101,7 +101,7 @@ HTREEITEM AddItemToTree(HWND hwndTV, LPTSTR lpszItem, int nLevel)
         tvi.hItem = hti; 
         tvi.iImage = g_nClosed; 
         tvi.iSelectedImage = g_nClosed; 
-        TreeView_SetItem(hwndTV, &amp;tvi); 
+        TreeView_SetItem(hwndTV, &tvi); 
     } 
 
     return hPrev; 

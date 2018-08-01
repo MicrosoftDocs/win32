@@ -69,12 +69,12 @@ The following example first creates two debug-enabled [**ID2D1Factory**](https:/
         hr = D2D1CreateFactory(
             D2D1_FACTORY_TYPE_SINGLE_THREADED,
             options,
-            &amp;m_pD2DFactory
+            &m_pD2DFactory
             );
 #else
         hr = D2D1CreateFactory(
             D2D1_FACTORY_TYPE_SINGLE_THREADED,
-            &amp;m_pD2DFactory
+            &m_pD2DFactory
             );
 #endif
 ```
@@ -97,13 +97,13 @@ The following example first creates two debug-enabled [**ID2D1Factory**](https:/
         hr = D2D1CreateFactory(
             D2D1_FACTORY_TYPE_SINGLE_THREADED,
             options,
-            &amp;m_pD2DFactory1
+            &m_pD2DFactory1
             );
 
         // Create a geometry from the second factory.
         hr = m_pD2DFactory1-&gt;CreateRectangleGeometry(
             D2D1::RectF(100, 50, 400, 160),
-            &amp;m_pRectangleGeometry
+            &m_pRectangleGeometry
             );</code></pre></td>
 </tr>
 </tbody>
@@ -126,7 +126,7 @@ The following example first creates two debug-enabled [**ID2D1Factory**](https:/
         hr = m_pD2DFactory-&gt;CreateHwndRenderTarget(
             D2D1::RenderTargetProperties(),
             D2D1::HwndRenderTargetProperties(m_hwnd, size),
-            &amp;m_pRenderTarget
+            &m_pRenderTarget
             );</code></pre></td>
 </tr>
 </tbody>
@@ -149,7 +149,7 @@ The following example first creates two debug-enabled [**ID2D1Factory**](https:/
         {
             hr = m_pRenderTarget-&gt;CreateSolidColorBrush(
                 D2D1::ColorF(D2D1::ColorF::Black, 1.0f),
-                &amp;m_pBlackBrush
+                &m_pBlackBrush
                 );
         }</code></pre></td>
 </tr>

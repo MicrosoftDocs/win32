@@ -73,11 +73,11 @@ To perform buffer reads in the streaming thread follow these steps:
 
         ```
         DWORD dwRead;
-        if( SUCCEEDED(hr) &amp;&amp; 0 == ReadFile( hFile, pData, dwDataSize, &amp;dwRead, pOverlapped ) )
+        if( SUCCEEDED(hr) && 0 == ReadFile( hFile, pData, dwDataSize, &dwRead, pOverlapped ) )
             hr = HRESULT_FROM_WIN32( GetLastError() );
             DWORD cbValid = min( STREAMING_BUFFER_SIZE, cbWaveSize - CurrentPosition );
             DWORD dwRead;
-            if( 0 == ReadFile( hFile, buffers[CurrentDiskReadBuffer], STREAMING_BUFFER_SIZE, &amp;dwRead, &amp;Overlapped ) )
+            if( 0 == ReadFile( hFile, buffers[CurrentDiskReadBuffer], STREAMING_BUFFER_SIZE, &dwRead, &Overlapped ) )
                 hr = HRESULT_FROM_WIN32( GetLastError() );
             Overlapped.Offset += cbValid;
 
@@ -91,7 +91,7 @@ To perform buffer reads in the streaming thread follow these steps:
 
         ```
         DWORD NumberBytesTransferred;
-        ::GetOverlappedResult(hFile,&amp;Overlapped,&amp;NumberBytesTransferred, TRUE);
+        ::GetOverlappedResult(hFile,&Overlapped,&NumberBytesTransferred, TRUE);
         ```
 
         
@@ -102,7 +102,7 @@ To perform buffer reads in the streaming thread follow these steps:
 
         ```
         XAUDIO2_VOICE_STATE state;
-        while( pSourceVoice->GetState( &amp;state ), state.BuffersQueued >= MAX_BUFFER_COUNT - 1)
+        while( pSourceVoice->GetState( &state ), state.BuffersQueued >= MAX_BUFFER_COUNT - 1)
         {
             WaitForSingleObject( Context.hBufferEndEvent, INFINITE );
         }
@@ -120,7 +120,7 @@ To perform buffer reads in the streaming thread follow these steps:
         {
             buf.Flags = XAUDIO2_END_OF_STREAM;
         }
-        pSourceVoice->SubmitSourceBuffer( &amp;buf );
+        pSourceVoice->SubmitSourceBuffer( &buf );
         ```
 
         
@@ -140,7 +140,7 @@ To perform buffer reads in the streaming thread follow these steps:
 
     ```
     XAUDIO2_VOICE_STATE state;
-    while( pSourceVoice->GetState( &amp;state ), state.BuffersQueued > 0 )
+    while( pSourceVoice->GetState( &state ), state.BuffersQueued > 0 )
     {
         WaitForSingleObjectEx( Context.hBufferEndEvent, INFINITE, TRUE );
     }

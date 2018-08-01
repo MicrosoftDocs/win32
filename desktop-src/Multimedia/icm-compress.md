@@ -26,7 +26,7 @@ The **ICM\_COMPRESS** message notifies a video compression driver to compress a 
 
 ```C++
 ICM_COMPRESS 
-wParam = (DWORD) (LPVOID) &amp;icc; 
+wParam = (DWORD) (LPVOID) &icc; 
 lParam = sizeof(ICCOMPRESS); 
 ```
 

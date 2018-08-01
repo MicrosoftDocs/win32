@@ -41,7 +41,7 @@ void wmain(void)
     // Create a query.
     //
 
-    Status = PdhOpenQuery(NULL, NULL, &amp;Query);
+    Status = PdhOpenQuery(NULL, NULL, &Query);
     if (Status != ERROR_SUCCESS) 
     {
        wprintf(L"\nPdhOpenQuery failed with status 0x%x.", Status);
@@ -52,8 +52,8 @@ void wmain(void)
     // Initialize the browser dialog window settings.
     //
 
-    ZeroMemory(&amp;CounterPathBuffer, sizeof(CounterPathBuffer));
-    ZeroMemory(&amp;BrowseDlgData, sizeof(PDH_BROWSE_DLG_CONFIG));
+    ZeroMemory(&CounterPathBuffer, sizeof(CounterPathBuffer));
+    ZeroMemory(&BrowseDlgData, sizeof(PDH_BROWSE_DLG_CONFIG));
 
     BrowseDlgData.bIncludeInstanceIndex = FALSE;
     BrowseDlgData.bSingleCounterPerAdd = TRUE;
@@ -79,7 +79,7 @@ void wmain(void)
     // to return a single selection from the counter list.
     //
 
-    Status = PdhBrowseCounters(&amp;BrowseDlgData);
+    Status = PdhBrowseCounters(&BrowseDlgData);
 
     if (Status != ERROR_SUCCESS) 
     {
@@ -107,7 +107,7 @@ void wmain(void)
     // Add the selected counter to the query.
     //
 
-    Status = PdhAddCounter(Query, CounterPathBuffer, 0, &amp;Counter);
+    Status = PdhAddCounter(Query, CounterPathBuffer, 0, &Counter);
     if (Status != ERROR_SUCCESS) 
     {
         wprintf(L"\nPdhAddCounter failed with status 0x%x.", Status);
@@ -138,7 +138,7 @@ void wmain(void)
     {
         Sleep(SAMPLE_INTERVAL_MS);
 
-        GetLocalTime(&amp;SampleTime);
+        GetLocalTime(&SampleTime);
 
         Status = PdhCollectQueryData(Query);
         if (Status != ERROR_SUCCESS) 
@@ -161,8 +161,8 @@ void wmain(void)
 
         Status = PdhGetFormattedCounterValue(Counter,
                                              PDH_FMT_DOUBLE,
-                                             &amp;CounterType,
-                                             &amp;DisplayValue);
+                                             &CounterType,
+                                             &DisplayValue);
         if (Status != ERROR_SUCCESS) 
         {
             wprintf(L"\nPdhGetFormattedCounterValue failed with status 0x%x.", Status);

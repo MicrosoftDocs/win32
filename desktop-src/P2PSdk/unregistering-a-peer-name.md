@@ -79,17 +79,17 @@ HRESULT PnrpUnregister(PWSTR pwzIdentity, PWSTR pwzName, PWSTR pwzCloud)
     pnrpInfo.lpwszIdentity = pwzIdentity;
 
     blPnrpData.cbSize = sizeof(pnrpInfo);
-    blPnrpData.pBlobData = (BYTE*)&amp;pnrpInfo;
+    blPnrpData.pBlobData = (BYTE*)&pnrpInfo;
 
     querySet.dwSize = sizeof(querySet);
     querySet.dwNameSpace = NS_PNRPNAME;
-    querySet.lpServiceClassId = (LPGUID)&amp;SVCID_PNRPNAME;
+    querySet.lpServiceClassId = (LPGUID)&SVCID_PNRPNAME;
     querySet.lpszServiceInstanceName = pwzName;
     querySet.lpszContext = pwzCloud;
-    querySet.lpBlob = &amp;blPnrpData;
+    querySet.lpBlob = &blPnrpData;
 
     // unregister the name with PNRP
-    iRet = WSASetService(&amp;querySet, RNRSERVICE_DELETE, 0);
+    iRet = WSASetService(&querySet, RNRSERVICE_DELETE, 0);
     if (iRet != 0)
     {
         hr = HRESULT_FROM_WIN32(WSAGetLastError());

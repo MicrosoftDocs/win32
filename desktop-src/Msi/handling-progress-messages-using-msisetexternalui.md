@@ -329,7 +329,7 @@ BOOL ParseCommonDataString(LPSTR sz)
 }
 
 //
-//  FUNCTION: FGetInteger(char*&amp; pch)
+//  FUNCTION: FGetInteger(char*& pch)
 //
 //  PURPOSE:  Converts the string (from current pos. to next whitespace or '\0')
 //            to an integer.
@@ -337,10 +337,10 @@ BOOL ParseCommonDataString(LPSTR sz)
 //  COMMENTS: Assumes correct syntax.  Ptr is updated to new position at whitespace
 //            or null terminator.
 //
-int FGetInteger(char*&amp; rpch)
+int FGetInteger(char*& rpch)
 {
     char* pchPrev = rpch; 
-    while (*rpch &amp;&amp; *rpch != ' ')
+    while (*rpch && *rpch != ' ')
         rpch++;
     *rpch = '\0';
     int i = atoi(pchPrev);

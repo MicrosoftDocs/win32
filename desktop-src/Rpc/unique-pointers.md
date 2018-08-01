@@ -19,7 +19,7 @@ int iAnInteger=50;
 
 // The next statement makes ipAnIntegerPointer an
 // alias for iAnInteger.
-int *ipAnIntegerPointer = &amp;iAnInteger;
+int *ipAnIntegerPointer = &iAnInteger;
 
 // This statement creates an alias for ipAnIntegerPointer.
 int *ipAnotherIntegerPointer = ipAnIntegerPointer;

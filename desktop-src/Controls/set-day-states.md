@@ -39,7 +39,7 @@ The following example code shows how to process the [MCN\_GETDAYSTATE](mcn-getda
 
 ```C++
     #define BOLDDAY(ds, iDay)  \
-        if (iDay > 0 &amp;&amp; iDay < 32)(ds) |= (0x00000001 << (iDay - 1))
+        if (iDay > 0 && iDay < 32)(ds) |= (0x00000001 << (iDay - 1))
 
     case WM_NOTIFY:
             if (((LPNMHDR)lParam)->code == MCN_GETDAYSTATE)

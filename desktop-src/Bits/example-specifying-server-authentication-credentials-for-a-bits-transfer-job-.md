@@ -93,7 +93,7 @@ This example uses the header and implementation defined in [Example: Common Clas
         {
             MSG msg;
 
-            while (PeekMessage(&amp;msg, NULL, 0, 0, PM_REMOVE)) 
+            while (PeekMessage(&msg, NULL, 0, 0, PM_REMOVE)) 
             { 
                 // If it is a quit message, exit.
                 if (msg.message == WM_QUIT) 
@@ -102,7 +102,7 @@ This example uses the header and implementation defined in [Example: Common Clas
                 }
 
                 // Otherwise, dispatch the message.
-                DispatchMessage(&amp;msg); 
+                DispatchMessage(&msg); 
             } // End of PeekMessage while loop
         }
     ```
@@ -170,7 +170,7 @@ bool GetScheme( LPCWSTR s, BG_AUTH_SCHEME *scheme )
     return false;
 }
 
-void ServerAuthentication(const LPWSTR &amp;remoteFile, const LPWSTR &amp;localFile, const LPWSTR &amp;scheme, const LPWSTR &amp;username, const LPWSTR &amp;password)
+void ServerAuthentication(const LPWSTR &remoteFile, const LPWSTR &localFile, const LPWSTR &scheme, const LPWSTR &username, const LPWSTR &password)
 {
 
  // If CoInitializeEx fails, the exception is unhandled and the program terminates  
@@ -178,8 +178,8 @@ void ServerAuthentication(const LPWSTR &amp;remoteFile, const LPWSTR &amp;localF
     
     // Prepare the credentials structure.
     BG_AUTH_CREDENTIALS cred;
-    ZeroMemory(&amp;cred, sizeof(cred));
-    if (!GetScheme(scheme,&amp;cred.Scheme))
+    ZeroMemory(&cred, sizeof(cred));
+    if (!GetScheme(scheme,&cred.Scheme))
     {
         wprintf(L"Invalid authentication scheme specified\n");
         return;
@@ -221,7 +221,7 @@ void ServerAuthentication(const LPWSTR &amp;remoteFile, const LPWSTR &amp;localF
         hr = CoCreateInstance(__uuidof(BackgroundCopyManager), NULL,
             CLSCTX_LOCAL_SERVER,
             __uuidof(IBackgroundCopyManager),
-            (void**)&amp;pQueueMgr);
+            (void**)&pQueueMgr);
 
         if (FAILED(hr))
         {
@@ -235,8 +235,8 @@ void ServerAuthentication(const LPWSTR &amp;remoteFile, const LPWSTR &amp;localF
         GUID guidJob;
         hr = pQueueMgr->CreateJob(L"BitsAuthSample",
             BG_JOB_TYPE_DOWNLOAD,
-            &amp;guidJob,
-            &amp;pJob);
+            &guidJob,
+            &pJob);
 
         if (FAILED(hr))
         {
@@ -264,14 +264,14 @@ void ServerAuthentication(const LPWSTR &amp;remoteFile, const LPWSTR &amp;localF
 
         // Set credentials.
         CComPtr<IBackgroundCopyJob2> job2;
-        hr = pJob.QueryInterface(&amp;job2);
+        hr = pJob.QueryInterface(&job2);
         if (FAILED(hr))
         {
             // Failed to connect.
             throw MyException(hr, L"QueryInterface");
         }
 
-        hr = job2->SetCredentials(&amp;cred);
+        hr = job2->SetCredentials(&cred);
         if (FAILED(hr))
         {
             // Failed to connect.
@@ -296,7 +296,7 @@ void ServerAuthentication(const LPWSTR &amp;remoteFile, const LPWSTR &amp;localF
             throw MyException(hr, L"Resume");
         }
     }
-    catch(const std::bad_alloc &amp;)
+    catch(const std::bad_alloc &)
     {
         wprintf(L"Memory allocation failed");
         if (pJob)
@@ -306,7 +306,7 @@ void ServerAuthentication(const LPWSTR &amp;remoteFile, const LPWSTR &amp;localF
 
         return;
     }
-    catch(const MyException &amp;ex)
+    catch(const MyException &ex)
     {
         wprintf(L"Error %x occurred during operation", ex.Error);
         if (pJob)
@@ -325,7 +325,7 @@ void ServerAuthentication(const LPWSTR &amp;remoteFile, const LPWSTR &amp;localF
     {
         MSG msg;
 
-        while (PeekMessage(&amp;msg, NULL, 0, 0, PM_REMOVE)) 
+        while (PeekMessage(&msg, NULL, 0, 0, PM_REMOVE)) 
         { 
             // If it is a quit message, exit.
             if (msg.message == WM_QUIT) 
@@ -334,7 +334,7 @@ void ServerAuthentication(const LPWSTR &amp;remoteFile, const LPWSTR &amp;localF
             }
 
             // Otherwise, dispatch the message.
-            DispatchMessage(&amp;msg); 
+            DispatchMessage(&msg); 
         } // End of PeekMessage while loop
     }
 

@@ -59,7 +59,7 @@ __declspec(dllexport) int __cdecl myPuts(LPWSTR lpszMsg)
  
     while (*lpszMsg != L'\0')
     {
-        fRet = WriteConsole(hConout, lpszMsg, 1, &amp;cchWritten, NULL);
+        fRet = WriteConsole(hConout, lpszMsg, 1, &cchWritten, NULL);
         if( (FALSE == fRet) || (1 != cchWritten) )
             return EOF;
         lpszMsg++;

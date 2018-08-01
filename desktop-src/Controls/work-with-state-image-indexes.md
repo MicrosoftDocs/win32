@@ -45,7 +45,7 @@ The following example demonstrates how to set a tree-view item's check state.
 
       tvItem.state = INDEXTOSTATEIMAGEMASK((fCheck ? 2 : 1));
 
-      return TreeView_SetItem(hwndTreeView, &amp;tvItem);
+      return TreeView_SetItem(hwndTreeView, &tvItem);
   }
 ```
 
@@ -67,7 +67,7 @@ The following example demonstrates how to retrieve a tree-view item's check stat
       tvItem.stateMask  = TVIS_STATEIMAGEMASK;
 
       // Request the information.
-      TreeView_GetItem(hwndTreeView, &amp;tvItem);
+      TreeView_GetItem(hwndTreeView, &tvItem);
 
       // Return zero if it's not checked, or nonzero otherwise.
       return ((BOOL)(tvItem.state >> 12) - 1);

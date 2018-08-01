@@ -42,9 +42,9 @@ The first section of the code example creates the [**IXpsOMSolidColorBrush**](/w
 
     // Use the object factory to create the brush.
     hr = xpsFactory->CreateSolidColorBrush( 
-        &amp;xpsColor,
+        &xpsColor,
         NULL,          // color profile resource
-        &amp;xpsFillBrush);
+        &xpsFillBrush);
     // The color profile resource parameter is NULL because
     //  this color type does not use a color profile resource.
 
@@ -57,9 +57,9 @@ The first section of the code example creates the [**IXpsOMSolidColorBrush**](/w
 
     // Use the object factory to create the brush.
     hr = xpsFactory->CreateSolidColorBrush( 
-            &amp;xpsColor,
+            &xpsColor,
             NULL, // This color type does not use a color profile resource.
-            &amp;xpsStrokeBrush);
+            &xpsStrokeBrush);
 
     // The brushes are released below after they have been used.
 ```
@@ -83,7 +83,7 @@ The second section of the code example creates the [**IXpsOMGeometry**](/windows
 
     // Define the start point and create an empty figure.
     XPS_POINT                           startPoint = {rect.x, rect.y};
-    hr = xpsFactory->CreateGeometryFigure( &amp;startPoint, &amp;rectFigure );
+    hr = xpsFactory->CreateGeometryFigure( &startPoint, &rectFigure );
     // Define the segments of the geometry figure.
     //  First, define the type of each segment.
     XPS_SEGMENT_TYPE segmentTypes[3] = {
@@ -120,10 +120,10 @@ The second section of the code example creates the [**IXpsOMGeometry**](/windows
     hr = rectFigure->SetIsFilled( TRUE );
  
     // Create the geometry object.
-    hr = xpsFactory->CreateGeometry( &amp;imageRectGeometry );
+    hr = xpsFactory->CreateGeometry( &imageRectGeometry );
     
     // Get a pointer to the figure collection interface of the geometry...
-    hr = imageRectGeometry->GetFigures( &amp;geomFigureCollection );
+    hr = imageRectGeometry->GetFigures( &geomFigureCollection );
 
     // ...and then add the figure created above to this geometry.
     hr = geomFigureCollection->Append( rectFigure );
@@ -154,7 +154,7 @@ The final section of this code example creates and configures the path object, t
     IXpsOMVisualCollection    *pageVisuals = NULL;
 
     // Create the new path object.
-    hr = xpsFactory->CreatePath( &amp;rectPath );
+    hr = xpsFactory->CreatePath( &rectPath );
 
     // Add the geometry to the path.
     //  imageRectGeometry is initialized outside of this example.
@@ -170,7 +170,7 @@ The final section of this code example creates and configures the path object, t
     hr = rectPath->SetStrokeBrushLocal( xpsStrokeBrush);
 
     // Get the visual collection of this page and add this path to it.
-    hr = xpsPage->GetVisuals( &amp;pageVisuals );
+    hr = xpsPage->GetVisuals( &pageVisuals );
     hr = pageVisuals->Append( rectPath );
     // If not needed for anything else, release the rectangle path.
     rectPath->Release();

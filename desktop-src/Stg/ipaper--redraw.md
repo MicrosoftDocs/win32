@@ -30,7 +30,7 @@ STDMETHODIMP COPaper::CImpIPaper::Redraw(
 
     if (OwnThis())
     {
-      if (m_bLocked &amp;&amp; m_cLockKey == nLockKey)
+      if (m_bLocked && m_cLockKey == nLockKey)
       {
         // Broadcast InkData notifications to all Sinks connected to
         // each connection point.
@@ -43,18 +43,18 @@ STDMETHODIMP COPaper::CImpIPaper::Redraw(
         if (NULL != pIConnectionPoint)
         {
           pIConnectionPoint->AddRef();
-          hr = pIConnectionPoint->EnumConnections(&amp;pIEnum);
+          hr = pIConnectionPoint->EnumConnections(&pIEnum);
           if (SUCCEEDED(hr))
           {
             // Loop through the connection point connections and if the
             // listening connection supports IPaperSink (ie, PaperSink
             // events) then send all the current Paper Ink Data to 
             // it.
-            while (NOERROR == pIEnum->Next(1, &amp;ConnData, NULL))
+            while (NOERROR == pIEnum->Next(1, &ConnData, NULL))
             {
               hr = ConnData.pUnk->QueryInterface(
                                     IID_IPaperSink,
-                                    (PPVOID)&amp;pIPaperSink);
+                                    (PPVOID)&pIPaperSink);
               if (SUCCEEDED(hr))
               {
                 // Loop through all the Ink Data and send it to this 

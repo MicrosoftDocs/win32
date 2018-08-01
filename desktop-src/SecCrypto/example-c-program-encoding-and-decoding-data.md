@@ -134,7 +134,7 @@ if(CryptMsgGetParam(
                CMSG_BARE_CONTENT_PARAM,   // parameter type
                0,                         // index
                pbEncodedBlob,             // pointer to the BLOB
-               &amp;cbEncodedBlob))           // size of the BLOB
+               &cbEncodedBlob))           // size of the BLOB
 {
     printf("Message encoded successfully. \n");
 }
@@ -207,7 +207,7 @@ if(CryptMsgGetParam(
                   0,                     // index
                   NULL,                  // address for returned 
                                          // information
-                  &amp;cbDecoded))           // size of the returned
+                  &cbDecoded))           // size of the returned
                                          // information
 {
     printf("The decoded message size is %d. \n", cbDecoded);
@@ -236,7 +236,7 @@ if(CryptMsgGetParam(
                   0,                     // index
                   pbDecoded,             // address for returned 
                                          // information
-                  &amp;cbDecoded))           // size of the returned 
+                  &cbDecoded))           // size of the returned 
                                          // information
 {
      printf("The message is %s.\n",(LPSTR)pbDecoded);

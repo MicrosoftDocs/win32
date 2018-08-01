@@ -58,13 +58,13 @@ void SetupPixelFog(DWORD Color, DWORD Mode)
     if( Mode == D3DFOG_LINEAR )
     {
         g_pDevice->SetRenderState(D3DRS_FOGTABLEMODE, Mode);
-        g_pDevice->SetRenderState(D3DRS_FOGSTART, *(DWORD *)(&amp;Start));
-        g_pDevice->SetRenderState(D3DRS_FOGEND,   *(DWORD *)(&amp;End));
+        g_pDevice->SetRenderState(D3DRS_FOGSTART, *(DWORD *)(&Start));
+        g_pDevice->SetRenderState(D3DRS_FOGEND,   *(DWORD *)(&End));
     }
     else
     {
         g_pDevice->SetRenderState(D3DRS_FOGTABLEMODE, Mode);
-        g_pDevice->SetRenderState(D3DRS_FOGDENSITY, *(DWORD *)(&amp;Density));
+        g_pDevice->SetRenderState(D3DRS_FOGDENSITY, *(DWORD *)(&Density));
     }
 ```
 

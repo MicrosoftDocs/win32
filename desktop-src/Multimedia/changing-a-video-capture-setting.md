@@ -21,11 +21,11 @@ The following example uses the [**capCaptureGetSetup**](/windows/desktop/api/Vfw
 CAPTUREPARMS CaptureParms;
 float FramesPerSec = 10.0;
 
-capCaptureGetSetup(hWndC, &amp;CaptureParms, sizeof(CAPTUREPARMS));
+capCaptureGetSetup(hWndC, &CaptureParms, sizeof(CAPTUREPARMS));
 
 CaptureParms.dwRequestMicroSecPerFrame = (DWORD) (1.0e6 / 
     FramesPerSec);
-capCaptureSetSetup(hWndC, &amp;CaptureParms, sizeof (CAPTUREPARMS)); 
+capCaptureSetSetup(hWndC, &CaptureParms, sizeof (CAPTUREPARMS)); 
  
 ```
 

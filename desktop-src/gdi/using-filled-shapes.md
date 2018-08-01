@@ -23,11 +23,11 @@ To enable the user to draw filled shapes, include the following popup menu in yo
 
 
 ```C++
-   POPUP "Filled &amp;Shapes"
+   POPUP "Filled &Shapes"
    {
-      MENUITEM "&amp;Ellipse",   IDM_ELLIPSE
-      MENUITEM "&amp;Rectangle", IDM_RECTANGLE
-      MENUITEM "R&amp;oundRect", IDM_ROUNDRECT
+      MENUITEM "&Ellipse",   IDM_ELLIPSE
+      MENUITEM "&Rectangle", IDM_RECTANGLE
+      MENUITEM "R&oundRect", IDM_ROUNDRECT
    }
 ```
 
@@ -105,7 +105,7 @@ BOOL CALLBACK MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam,
         case WM_PAINT: 
  
  
-            BeginPaint(hwnd, &amp;ps); 
+            BeginPaint(hwnd, &ps); 
  
             // Because the default brush is white, select  
             // a different brush into the device context  
@@ -144,7 +144,7 @@ BOOL CALLBACK MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam,
                 rcTarget.top = rcTarget.bottom = 0; 
             } 
  
-            EndPaint(hwnd, &amp;ps); 
+            EndPaint(hwnd, &ps); 
             break; 
  
         case WM_SIZE: 
@@ -154,14 +154,14 @@ BOOL CALLBACK MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam,
             // rectangle. The rectangle is passed to the ClipCursor  
             // function during WM_LBUTTONDOWN processing.  
  
-            GetClientRect(hwnd, &amp;rcClient); 
+            GetClientRect(hwnd, &rcClient); 
             ptClientUL.x = rcClient.left; 
             ptClientUL.y = rcClient.top; 
             ptClientLR.x = rcClient.right; 
             ptClientLR.y = rcClient.bottom; 
-            ClientToScreen(hwnd, &amp;ptClientUL); 
-            ClientToScreen(hwnd, &amp;ptClientLR); 
-            SetRect(&amp;rcClient, ptClientUL.x, ptClientUL.y, 
+            ClientToScreen(hwnd, &ptClientUL); 
+            ClientToScreen(hwnd, &ptClientLR); 
+            SetRect(&rcClient, ptClientUL.x, ptClientUL.y, 
                 ptClientLR.x, ptClientLR.y); 
             return 0; 
  
@@ -171,7 +171,7 @@ BOOL CALLBACK MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam,
             // This ensures that the window receives a matching  
             // WM_LBUTTONUP message.  
  
-            ClipCursor(&amp;rcClient); 
+            ClipCursor(&rcClient); 
  
             // Save the coordinates of the cursor.  
  
@@ -193,8 +193,8 @@ BOOL CALLBACK MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam,
             // the target rectangle as the user drags  
             // the mouse.  
  
-            if ((wParam &amp;&amp; MK_LBUTTON) 
-                    &amp;&amp; (fSizeEllipse || fSizeRectangle 
+            if ((wParam && MK_LBUTTON) 
+                    && (fSizeEllipse || fSizeRectangle 
                     || fSizeRoundRect)) 
             {  
  
@@ -209,7 +209,7 @@ BOOL CALLBACK MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam,
                 // If a previous target rectangle exists, erase  
                 // it by drawing another rectangle on top.  
  
-                if (!IsRectEmpty(&amp;rcTarget)) 
+                if (!IsRectEmpty(&rcTarget)) 
                 {
                     Rectangle(hdc, rcTarget.left, rcTarget.top, 
                         rcTarget.right, rcTarget.bottom); 
@@ -222,29 +222,29 @@ BOOL CALLBACK MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam,
                 // bottom coordinate is greater than that of  
                 // the top.  
  
-                if ((pt.x < (LONG) LOWORD(lParam)) &amp;&amp; 
+                if ((pt.x < (LONG) LOWORD(lParam)) && 
                         (pt.y > (LONG) HIWORD(lParam))) 
                 {
-                    SetRect(&amp;rcTarget, pt.x, HIWORD(lParam), 
+                    SetRect(&rcTarget, pt.x, HIWORD(lParam), 
                         LOWORD(lParam), pt.y); 
                 } 
  
-                else if ((pt.x > (LONG) LOWORD(lParam)) &amp;&amp; 
+                else if ((pt.x > (LONG) LOWORD(lParam)) && 
                         (pt.y > (LONG) HIWORD(lParam))) 
                 {
-                    SetRect(&amp;rcTarget, LOWORD(lParam), 
+                    SetRect(&rcTarget, LOWORD(lParam), 
                         HIWORD(lParam), pt.x, pt.y); 
                 }
  
-                else if ((pt.x > (LONG) LOWORD(lParam)) &amp;&amp; 
+                else if ((pt.x > (LONG) LOWORD(lParam)) && 
                         (pt.y < (LONG) HIWORD(lParam))) 
                 {
-                    SetRect(&amp;rcTarget, LOWORD(lParam), pt.y, 
+                    SetRect(&rcTarget, LOWORD(lParam), pt.y, 
                         pt.x, HIWORD(lParam)); 
                 }
                 else 
                 {
-                    SetRect(&amp;rcTarget, pt.x, pt.y, LOWORD(lParam), 
+                    SetRect(&rcTarget, pt.x, pt.y, LOWORD(lParam), 
                         HIWORD(lParam)); 
                 }
  
@@ -282,7 +282,7 @@ BOOL CALLBACK MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam,
  
             if (fDrawEllipse || fDrawRectangle || fDrawRoundRect) 
             { 
-                InvalidateRect(hwnd, &amp;rcTarget, TRUE); 
+                InvalidateRect(hwnd, &rcTarget, TRUE); 
                 UpdateWindow(hwnd); 
             } 
  

@@ -61,7 +61,7 @@ int main( void )
                      (LPTHREAD_START_ROUTINE) WriteToDatabase, 
                      NULL,       // no thread function arguments
                      0,          // default creation flags
-                     &amp;ThreadID); // receive thread identifier
+                     &ThreadID); // receive thread identifier
 
         if( aThread[i] == NULL )
         {

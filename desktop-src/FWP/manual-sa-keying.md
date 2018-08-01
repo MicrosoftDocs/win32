@@ -45,7 +45,7 @@ unsigned long inet_addrW(__in PCWSTR cp)
    char mbstr[sizeof("255.255.255.255")];
    errno_t cerr;
 
-   cerr = wcstombs_s(&amp;converted, mbstr, sizeof(mbstr), cp, wcslen(cp));
+   cerr = wcstombs_s(&converted, mbstr, sizeof(mbstr), cp, wcslen(cp));
 
    return (cerr == 0) ? inet_addr(mbstr) : INADDR_NONE;
 
@@ -136,7 +136,7 @@ DWORD AddInboundSa(
    conds[1].conditionValue.uint32 = remoteAddr;
 
    // Fill in the common fields shared by both filters.
-   memset(&amp;filter, 0, sizeof(filter));
+   memset(&filter, 0, sizeof(filter));
    // For MUI compatibility, object names should be indirect strings. See
    // SHLoadIndirectString for details.
    filter.displayData.name = (PWSTR)filterName;
@@ -152,9 +152,9 @@ DWORD AddInboundSa(
    filter.action.calloutKey = FWPM_CALLOUT_IPSEC_INBOUND_TRANSPORT_V4;
    result = FwpmFilterAdd0(
                engine,
-               &amp;filter,
+               &filter,
                NULL,
-               &amp;tmpInFilterId
+               &tmpInFilterId
                );
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
@@ -163,14 +163,14 @@ DWORD AddInboundSa(
    filter.action.calloutKey = FWPM_CALLOUT_IPSEC_OUTBOUND_TRANSPORT_V4;
    result = FwpmFilterAdd0(
                engine,
-               &amp;filter,
+               &filter,
                NULL,
-               &amp;tmpOutFilterId
+               &tmpOutFilterId
                );
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    // Create the SA context using the outbound traffic descriptor.
-   memset(&amp;outTraffic, 0, sizeof(outTraffic));
+   memset(&outTraffic, 0, sizeof(outTraffic));
    outTraffic.ipVersion = FWP_IP_VERSION_V4;
    outTraffic.localV4Address = localAddr;
    outTraffic.remoteV4Address = remoteAddr;
@@ -178,14 +178,14 @@ DWORD AddInboundSa(
    outTraffic.ipsecFilterId = tmpOutFilterId;
    result = IPsecSaContextCreate0(
                engine,
-               &amp;outTraffic,
+               &outTraffic,
                NULL,
-               &amp;tmpSaId
+               &tmpSaId
                );
    EXIT_ON_ERROR(IPsecSaContextCreate0);
 
    // Get the inbound SPI using the inbound traffic descriptor.
-   memset(&amp;getSpi, 0, sizeof(getSpi));
+   memset(&getSpi, 0, sizeof(getSpi));
    getSpi.inboundIpsecTraffic.ipVersion = FWP_IP_VERSION_V4;
    getSpi.inboundIpsecTraffic.localV4Address = localAddr;
    getSpi.inboundIpsecTraffic.remoteV4Address = remoteAddr;
@@ -195,7 +195,7 @@ DWORD AddInboundSa(
    result = IPsecSaContextGetSpi0(
                engine,
                tmpSaId,
-               &amp;getSpi,
+               &getSpi,
                spi
                );
    EXIT_ON_ERROR(result);
@@ -204,21 +204,21 @@ DWORD AddInboundSa(
    // Add the inbound SA using the authentication key supplied by the caller.
    /////////
 
-   memset(&amp;info, 0, sizeof(info));
+   memset(&info, 0, sizeof(info));
    info.authTransform.authTransformId = IPSEC_AUTH_TRANSFORM_ID_HMAC_SHA_1_96;
    info.authKey = *authKey;
 
-   memset(&amp;sa, 0, sizeof(sa));
+   memset(&sa, 0, sizeof(sa));
    sa.spi = *spi;
    sa.saTransformType = IPSEC_TRANSFORM_AH;
-   sa.ahInformation = &amp;info;
+   sa.ahInformation = &info;
 
-   memset(&amp;bundle, 0, sizeof(bundle));
+   memset(&bundle, 0, sizeof(bundle));
    bundle.numSAs = 1;
-   bundle.saList = &amp;sa;
+   bundle.saList = &sa;
    bundle.ipVersion = FWP_IP_VERSION_V4;
 
-   result = IPsecSaContextAddInbound0(engine, tmpSaId, &amp;bundle);
+   result = IPsecSaContextAddInbound0(engine, tmpSaId, &bundle);
    EXIT_ON_ERROR(IPsecSaContextAddInbound0);
 
    // Return the various LUIDs to the caller, so he can clean up.
@@ -257,21 +257,21 @@ DWORD AddOutboundSa(
    IPSEC_SA0 sa;
    IPSEC_SA_BUNDLE0 bundle;
 
-   memset(&amp;info, 0, sizeof(info));
+   memset(&info, 0, sizeof(info));
    info.authTransform.authTransformId = IPSEC_AUTH_TRANSFORM_ID_HMAC_SHA_1_96;
    info.authKey = *authKey;
 
-   memset(&amp;sa, 0, sizeof(sa));
+   memset(&sa, 0, sizeof(sa));
    sa.spi = spi;
    sa.saTransformType = IPSEC_TRANSFORM_AH;
-   sa.ahInformation = &amp;info;
+   sa.ahInformation = &info;
 
-   memset(&amp;bundle, 0, sizeof(bundle));
+   memset(&bundle, 0, sizeof(bundle));
    bundle.numSAs = 1;
-   bundle.saList = &amp;sa;
+   bundle.saList = &sa;
    bundle.ipVersion = FWP_IP_VERSION_V4;
 
-   result = IPsecSaContextAddOutbound0(engine, saId, &amp;bundle);
+   result = IPsecSaContextAddOutbound0(engine, saId, &bundle);
    EXIT_ON_ERROR(IPsecSaContextAddOutbound0);
 
 CLEANUP:

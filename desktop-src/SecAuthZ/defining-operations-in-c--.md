@@ -50,13 +50,13 @@ void main(void){
          CLSCTX_ALL,
    /*"edbd9ca9-9b82-4f6a-9e8b-98301e450f14"*/
          __uuidof(IAzAuthorizationStore),
-         (void**)&amp;pStore);
+         (void**)&pStore);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create AzAuthorizationStore object.");
     
     //  Create null VARIANT for parameters.
     VARIANT myVar; 
-    VariantInit(&amp;myVar);
+    VariantInit(&myVar);
 
     //  Allocate a string for the name of the store.
     if(!(storeName = SysAllocString(L"msxml://c:\\MyStore.xml")))
@@ -71,7 +71,7 @@ void main(void){
     //  Create an application object.
     if (!(appName = SysAllocString(L"Expense")))
         MyHandleError("Could not allocate application name string.");
-    hr = pStore->OpenApplication(appName, myVar, &amp;pApp);
+    hr = pStore->OpenApplication(appName, myVar, &pApp);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not open application.");
 
@@ -80,7 +80,7 @@ void main(void){
     //  Create first operation.
     if (!(opName = SysAllocString(L"RetrieveForm")))
         MyHandleError("Could not allocate operation name string.");
-    hr = pApp->CreateOperation(opName, myVar, &amp;pOp);
+    hr = pApp->CreateOperation(opName, myVar, &pOp);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create operation.");
     
@@ -98,7 +98,7 @@ void main(void){
     //  Create second operation.
     if (!(opName = SysAllocString(L"EnqueRequest")))
         MyHandleError("Could not allocate operation name string.");
-    hr = pApp->CreateOperation(opName, myVar, &amp;pOp);
+    hr = pApp->CreateOperation(opName, myVar, &pOp);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create operation.");
 
@@ -116,7 +116,7 @@ void main(void){
     //  Create third operation.
     if (!(opName = SysAllocString(L"DequeRequest")))
         MyHandleError("Could not allocate operation name string.");
-    hr = pApp->CreateOperation(opName, myVar, &amp;pOp);
+    hr = pApp->CreateOperation(opName, myVar, &pOp);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create operation.");
 
@@ -134,7 +134,7 @@ void main(void){
     //  Create fourth operation.
     if (!(opName = SysAllocString(L"UseFormControl")))
         MyHandleError("Could not allocate operation name string.");
-    hr = pApp->CreateOperation(opName, myVar, &amp;pOp);
+    hr = pApp->CreateOperation(opName, myVar, &pOp);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create operation.");
 
@@ -152,7 +152,7 @@ void main(void){
     //  Create fifth operation.
     if (!(opName = SysAllocString(L"MarkFormApproved")))
         MyHandleError("Could not allocate operation name string.");
-    hr = pApp->CreateOperation(opName, myVar, &amp;pOp);
+    hr = pApp->CreateOperation(opName, myVar, &pOp);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create operation.");
 
@@ -170,7 +170,7 @@ void main(void){
     //  Create sixth operation.
     if (!(opName = SysAllocString(L"SendApprovalNotify")))
         MyHandleError("Could not allocate operation name string.");
-    hr = pApp->CreateOperation(opName, myVar, &amp;pOp);
+    hr = pApp->CreateOperation(opName, myVar, &pOp);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create operation.");
 
@@ -191,7 +191,7 @@ void main(void){
     pOp->Release();
     SysFreeString(storeName);
     SysFreeString(appName);
-    VariantClear(&amp;myVar);
+    VariantClear(&myVar);
     CoUninitialize();
 }
 

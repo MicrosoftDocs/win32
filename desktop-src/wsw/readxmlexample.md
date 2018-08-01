@@ -53,7 +53,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -61,7 +61,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -136,7 +136,7 @@ void PrintText(const WS_XML_TEXT* text)
             {
                 const WS_XML_UTF8_TEXT* utf8Text = (const WS_XML_UTF8_TEXT*) text;
                 printf("WS_XML_TEXT_TYPE_UTF8(value='");
-                PrintString(&amp;utf8Text->value);
+                PrintString(&utf8Text->value);
                 printf("')");
             }
             break;
@@ -196,7 +196,7 @@ void PrintText(const WS_XML_TEXT* text)
         case WS_XML_TEXT_TYPE_DECIMAL:
             {
                 const WS_XML_DECIMAL_TEXT* decimalText = (const WS_XML_DECIMAL_TEXT*) text;
-                const DECIMAL* dec = &amp;decimalText->value;
+                const DECIMAL* dec = &decimalText->value;
                 printf("WS_XML_TEXT_TYPE_DECIMAL(value={%x %x %x, %I64x})", dec->wReserved, dec->signscale, dec->Hi32, dec->Lo64);
             }
             break;
@@ -204,10 +204,10 @@ void PrintText(const WS_XML_TEXT* text)
             {
                 WS_XML_GUID_TEXT* guidText = (WS_XML_GUID_TEXT*) text;
                 RPC_WSTR s;
-                if (UuidToString(&amp;guidText->value, &amp;s) == RPC_S_OK)
+                if (UuidToString(&guidText->value, &s) == RPC_S_OK)
                 {
                     printf("WS_XML_TEXT_TYPE_GUID(value='%ls')", s);
-                    RpcStringFree(&amp;s);
+                    RpcStringFree(&s);
                 }
                 else
                 {
@@ -219,10 +219,10 @@ void PrintText(const WS_XML_TEXT* text)
             {
                 WS_XML_UNIQUE_ID_TEXT* uniqueIdText = (WS_XML_UNIQUE_ID_TEXT*) text;
                 RPC_WSTR s;
-                if (UuidToString(&amp;uniqueIdText->value, &amp;s) == RPC_S_OK)
+                if (UuidToString(&uniqueIdText->value, &s) == RPC_S_OK)
                 {
                     printf("WS_XML_TEXT_TYPE_UNIQUEID(value='%ls')", s);
-                    RpcStringFree(&amp;s);
+                    RpcStringFree(&s);
                 }
                 else
                 {
@@ -287,7 +287,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -297,7 +297,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateReader(
         NULL,
         0, 
-        &amp;xmlReader, 
+        &xmlReader, 
         error);
     if (FAILED(hr))
     {
@@ -315,7 +315,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         "<!-- Order #2 -->"
         "<PurchaseOrder id='2'>"
             "<Quantity>5</Quantity>"
-            "<ProductName><![CDATA[Block&amp;Tackle]></ProductName>"
+            "<ProductName><![CDATA[Block&Tackle]></ProductName>"
         "</PurchaseOrder>"
     "</Orders>";
     BYTE* bytes = (BYTE*) xml;
@@ -323,26 +323,26 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     // Setup the source input
     WS_XML_READER_BUFFER_INPUT bufferInput;
-    ZeroMemory(&amp;bufferInput, sizeof(bufferInput));
+    ZeroMemory(&bufferInput, sizeof(bufferInput));
     bufferInput.input.inputType = WS_XML_READER_INPUT_TYPE_BUFFER;
     bufferInput.encodedData = bytes;
     bufferInput.encodedDataSize = byteCount;
     
     // Setup the source encoding
     WS_XML_READER_TEXT_ENCODING textEncoding;
-    ZeroMemory(&amp;textEncoding, sizeof(textEncoding));
+    ZeroMemory(&textEncoding, sizeof(textEncoding));
     textEncoding.encoding.encodingType = WS_XML_READER_ENCODING_TYPE_TEXT;
     textEncoding.charSet = WS_CHARSET_AUTO;
     
     // Setup the reader
-    hr = WsSetInput(xmlReader, &amp;textEncoding.encoding, &amp;bufferInput.input, NULL, 0, error);
+    hr = WsSetInput(xmlReader, &textEncoding.encoding, &bufferInput.input, NULL, 0, error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
     WS_CHARSET charSet;
-    hr = WsGetReaderProperty(xmlReader, WS_XML_READER_PROPERTY_CHARSET, &amp;charSet, sizeof(charSet), error);
+    hr = WsGetReaderProperty(xmlReader, WS_XML_READER_PROPERTY_CHARSET, &charSet, sizeof(charSet), error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -370,7 +370,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     {
         // Get the current node of the reader
         const WS_XML_NODE* node;
-        hr = WsGetReaderNode(xmlReader, &amp;node, error);
+        hr = WsGetReaderNode(xmlReader, &node, error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -448,7 +448,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
             {
                 const WS_XML_COMMENT_NODE* commentNode = (const WS_XML_COMMENT_NODE*) node;
                 printf("WS_XML_NODE_TYPE_COMMENT(value='");
-                PrintString(&amp;commentNode->value);
+                PrintString(&commentNode->value);
                 printf("')\n");
             }
             break;

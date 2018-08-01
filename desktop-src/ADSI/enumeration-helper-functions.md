@@ -62,7 +62,7 @@ TestEnumObject( LPWSTR pszADsPath )
     hr = ADsGetObject(
                 pszADsPath,
                 IID_IADsContainer,
-                (void **)&amp;pADsContainer
+                (void **)&pADsContainer
                 );
  
  
@@ -74,7 +74,7 @@ TestEnumObject( LPWSTR pszADsPath )
  
     hr = ADsBuildEnumerator(
             pADsContainer,
-            &amp;pEnumVariant
+            &pEnumVariant
             );
  
     if( FAILED( hr ) )
@@ -92,7 +92,7 @@ TestEnumObject( LPWSTR pszADsPath )
                     pEnumVariant,
                     MAX_ENUM,
                     VariantArray,
-                    &amp;cElementFetched
+                    &cElementFetched
                     );
 
         if ( FAILED( hr ) )
@@ -114,11 +114,11 @@ TestEnumObject( LPWSTR pszADsPath )
  
             pDispatch = VariantArray[i].pdispVal;
  
-            hr = V_DISPATCH( VariantArray + i )->QueryInterface(IID_IADs, (void **) &amp;pObject) ;
+            hr = V_DISPATCH( VariantArray + i )->QueryInterface(IID_IADs, (void **) &pObject) ;
  
             if( SUCCEEDED( hr ) )
             {
-               pObject->get_ADsPath( &amp;bstrADsPath );
+               pObject->get_ADsPath( &bstrADsPath );
                printf( "%S\n", bstrADsPath );
             }
             pObject->Release();

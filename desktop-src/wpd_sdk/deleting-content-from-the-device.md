@@ -57,7 +57,7 @@ void DeleteContentFromDevice(
     // access the content-specific methods.
     if (SUCCEEDED(hr))
     {
-        hr = pDevice->Content(&amp;pContent);
+        hr = pDevice->Content(&pContent);
         if (FAILED(hr))
         {
             printf("! Failed to get IPortableDeviceContent from IPortableDevice, hr = 0x%lx\n",hr);
@@ -74,13 +74,13 @@ void DeleteContentFromDevice(
         hr = CoCreateInstance(CLSID_PortableDevicePropVariantCollection,
                               NULL,
                               CLSCTX_INPROC_SERVER,
-                              IID_PPV_ARGS(&amp;pObjectsToDelete));
+                              IID_PPV_ARGS(&pObjectsToDelete));
         if (SUCCEEDED(hr))
         {
             if (pObjectsToDelete != NULL)
             {
                 PROPVARIANT pv = {0};
-                PropVariantInit(&amp;pv);
+                PropVariantInit(&pv);
 
                 // Initialize a PROPVARIANT structure with the object identifier string
                 // that the user selected above. Notice we are allocating memory for the
@@ -92,7 +92,7 @@ void DeleteContentFromDevice(
                 {
                     // Add the object identifier to the objects-to-delete list
                     // (We are only deleting 1 in this example)
-                    hr = pObjectsToDelete->Add(&amp;pv);
+                    hr = pObjectsToDelete->Add(&pv);
                     if (SUCCEEDED(hr))
                     {
                         // Attempt to delete the object from the device
@@ -132,7 +132,7 @@ void DeleteContentFromDevice(
                 }
 
                 // Free any allocated values in the PROPVARIANT before exiting
-                PropVariantClear(&amp;pv);
+                PropVariantClear(&pv);
             }
             else
             {

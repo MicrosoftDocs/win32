@@ -34,8 +34,8 @@ LRESULT APIENTRY WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
  
             // Calculate the starting point.  
  
-            GetClientRect(hwnd, &amp;rc); 
-            OffsetRect(&amp;rcCurrent, rc.right / 2, rc.bottom / 2); 
+            GetClientRect(hwnd, &rc); 
+            OffsetRect(&rcCurrent, rc.right / 2, rc.bottom / 2); 
  
             // Initialize the private DC.  
  
@@ -104,7 +104,7 @@ LRESULT APIENTRY WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
  
             // Bounce the star off a side if necessary.  
  
-            GetClientRect(hwnd, &amp;rc); 
+            GetClientRect(hwnd, &rc); 
             if (rcCurrent.left + X < rc.left || 
                 rcCurrent.right + X > rc.right) 
                 X = -X; 
@@ -114,7 +114,7 @@ LRESULT APIENTRY WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
  
             // Show the star in its new position.  
  
-            OffsetRect(&amp;rcCurrent, X, Y); 
+            OffsetRect(&rcCurrent, X, Y); 
             SetViewportOrgEx(hdc, rcCurrent.left, 
                 rcCurrent.top, NULL); 
             fVisible = Polyline(hdc, aptStar, 6); 
@@ -133,10 +133,10 @@ LRESULT APIENTRY WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
             // Show the star if it is not visible. Use BeginPaint  
             // to clear the update region.  
  
-            BeginPaint(hwnd, &amp;ps); 
+            BeginPaint(hwnd, &ps); 
             if (!fVisible) 
                 fVisible = Polyline(hdc, aptStar, 6); 
-            EndPaint(hwnd, &amp;ps); 
+            EndPaint(hwnd, &ps); 
             return 0L; 
     } 
     return DefWindowProc(hwnd, message, wParam, lParam); 

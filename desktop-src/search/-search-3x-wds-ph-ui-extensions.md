@@ -153,7 +153,7 @@ To create a custom preview handler:
 
         ```
         CComPtr<IQueryAssociations> spqa;
-        AssocCreate(CLSID_QueryAssociations, __uuidof(IQueryAssociations), &amp;spqa);
+        AssocCreate(CLSID_QueryAssociations, __uuidof(IQueryAssociations), &spqa);
         spqa->Init(0, L"Your_Object_Type", NULL, NULL);
         spqa->QueryInterface(riid, ppvReturn);
         ```

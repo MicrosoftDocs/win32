@@ -130,7 +130,7 @@ HRESULT GetPinCategory(IPin *pPin, GUID *pPinCategory)
 {
     IKsPropertySet *pKs = NULL;
 
-    HRESULT hr = pPin->QueryInterface(IID_PPV_ARGS(&amp;pKs));
+    HRESULT hr = pPin->QueryInterface(IID_PPV_ARGS(&pKs));
     if (FAILED(hr))
     {
         return hr;
@@ -139,11 +139,11 @@ HRESULT GetPinCategory(IPin *pPin, GUID *pPinCategory)
     // Try to retrieve the pin category.
     DWORD cbReturned = 0;
     hr = pKs->Get(AMPROPSETID_Pin, AMPROPERTY_PIN_CATEGORY, NULL, 0, 
-        pPinCategory, sizeof(GUID), &amp;cbReturned);
+        pPinCategory, sizeof(GUID), &cbReturned);
     
     // If this succeeded, pPinCategory now contains the category GUID.
 
-    SafeRelease(&amp;pKs);
+    SafeRelease(&pKs);
     return hr;
 }
 ```

@@ -39,7 +39,7 @@ void CreateInstanceFromPropertyData(
   [in]           uint16               Protocol,
   [in]           uint16               Algorithm,
   [in]           string               PublicKey,
-  [out, ref]     MicrosoftDNS_KEYType &amp;RR
+  [out, ref]     MicrosoftDNS_KEYType &RR
 );
 ```
 

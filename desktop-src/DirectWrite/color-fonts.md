@@ -145,7 +145,7 @@ HRESULT DrawGlyphRun(
         measuringMode, 
         nullptr, 
         0, 
-        &amp;glyphRunEnumerator // on return, may contain color glyph runs 
+        &glyphRunEnumerator // on return, may contain color glyph runs 
         ); 
 
     if (hr == DWRITE_E_NOCOLOR) 
@@ -163,7 +163,7 @@ HRESULT DrawGlyphRun(
         for (;;) 
         { 
             BOOL haveRun; 
-            DX::ThrowIfFailed(glyphRunEnumerator->MoveNext(&amp;haveRun)); 
+            DX::ThrowIfFailed(glyphRunEnumerator->MoveNext(&haveRun)); 
             if (!haveRun) 
             { 
                 break; 
@@ -171,7 +171,7 @@ HRESULT DrawGlyphRun(
 
             // Retrieve the color glyph run. 
             DWRITE_COLOR_GLYPH_RUN1 const* colorRun; 
-            DX::ThrowIfFailed(glyphRunEnumerator->GetCurrentRun(&amp;colorRun)); 
+            DX::ThrowIfFailed(glyphRunEnumerator->GetCurrentRun(&colorRun)); 
 
             // Draw the color glyph run depending on its format. 
             switch (colorRun->glyphImageFormat) 

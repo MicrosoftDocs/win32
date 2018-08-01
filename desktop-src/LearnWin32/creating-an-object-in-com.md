@@ -35,7 +35,7 @@ Given this function, you could create a new `Shape` object as follows.
 ```C++
 IDrawable *pShape;
 
-HRESULT hr = CreateShape(&amp;pShape);
+HRESULT hr = CreateShape(&pShape);
 if (SUCCEEDED(hr))
 {
     // Use the Shape object.
@@ -85,7 +85,7 @@ Given these values, you would create a new `Shape` instance as follows:
 ```C++
 IDrawable *pShape;
 hr = CoCreateInstance(CLSID_Shape, NULL, CLSCTX_INPROC_SERVER, IID_Drawable,
-     reinterpret_cast<void**>(&amp;pShape));
+     reinterpret_cast<void**>(&pShape));
 
 if (SUCCEEDED(hr))
 {

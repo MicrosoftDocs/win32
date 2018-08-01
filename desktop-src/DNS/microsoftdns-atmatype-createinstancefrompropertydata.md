@@ -37,7 +37,7 @@ void CreateInstanceFromPropertyData(
   [in, optional] uint32                TTL,
   [in]           uint16                Format,
   [in]           string                ATMAddress,
-  [out, ref]     MicrosoftDNS_ATMAType &amp;RR
+  [out, ref]     MicrosoftDNS_ATMAType &RR
 );
 ```
 

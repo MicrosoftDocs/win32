@@ -81,9 +81,9 @@ memcpy(wrap_bufs[1].pvBuffer, in_buf.pvBuffer, in_buf.cbBuffer);
 wrap_bufs[2].BufferType = SECBUFFER_PADDING;
 wrap_bufs[2].cbBuffer = sizes.cbBlockSize;
 wrap_bufs[2].pvBuffer = malloc(wrap_bufs[2].cbBuffer);
-maj_stat = EncryptMessage(&amp;context,
+maj_stat = EncryptMessage(&context,
 SignOnly ? KERB_WRAP_NO_ENCRYPT : 0,
-&amp;in_buf_desc, 0);
+&in_buf_desc, 0);
 
 // Send a message to the server.
 ```
@@ -95,9 +95,9 @@ In the GSSAPI server:
 
 ```C++
 // Received message is in recv_buf. 
-maj_stat = gss_unwrap(&amp;min_stat, context, &amp;recv_buf, &amp;msg_buf,
-    &amp;conf_state, (gss_qop_t *) NULL);
-(void) gss_release_buffer(&amp;min_stat, &amp;recv_buf);
+maj_stat = gss_unwrap(&min_stat, context, &recv_buf, &msg_buf,
+    &conf_state, (gss_qop_t *) NULL);
+(void) gss_release_buffer(&min_stat, &recv_buf);
 
 // Original message is in msg_buf.
 ```
@@ -115,8 +115,8 @@ send_buf.value = msg;
 send_buf.length = msglen;
 
 // If encrypt_flag = 1, privacy; encrypt_flag = 0, integrity.
-maj_stat = gss_wrap(&amp;min_stat, context, encrypt_flag,
-    GSS_C_QOP_DEFAULT, &amp;send_buf, &amp;state, &amp;msg_buf); 
+maj_stat = gss_wrap(&min_stat, context, encrypt_flag,
+    GSS_C_QOP_DEFAULT, &send_buf, &state, &msg_buf); 
 
 // The message to send is in msg_buf.
 ```
@@ -141,10 +141,10 @@ wrap_bufs[1].BufferType = SECBUFFER_DATA;
 wrap_bufs[1].cbBuffer = 0;
 wrap_bufs[1].pvBuffer = NULL;
 maj_stat = DecryptMessage(
-&amp;context,
-&amp;wrap_buf_desc,
+&context,
+&wrap_buf_desc,
 0, // no sequence number
-&amp;qop
+&qop
 );
 
 // This is where the data is.

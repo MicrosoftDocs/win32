@@ -140,7 +140,7 @@ The following example code demonstrates how to return the [PKEY\_Search\_UrlToIn
 // Parameters are assumed to be valid
 
 HRESULT GetPropVariantForUrlAndTime
-    (PCWSTR pszUrl, const FILETIME &amp;ftLastModified, PROPVARIANT **ppPropValue)
+    (PCWSTR pszUrl, const FILETIME &ftLastModified, PROPVARIANT **ppPropValue)
 {
     *ppPropValue = NULL;
 
@@ -166,7 +166,7 @@ HRESULT GetPropVariantForUrlAndTime
             (*ppPropValue)->capropvar.cElems = 2;
             (*ppPropValue)->capropvar.pElems = pVector;
             PWSTR pszUrlAlloc;
-            hr = SHStrDup(pszUrl, &amp;pszUrlAlloc);
+            hr = SHStrDup(pszUrl, &pszUrlAlloc);
 
             if (SUCCEEDED(hr))
             {

@@ -164,8 +164,8 @@ MyVertex destVertices[numVertices];
 
 //create bone matrices
 D3DXMATRIX boneMatrices[2];
-D3DXMatrixIdentity(&amp;boneMatrices[0]);
-D3DXMatrixRotationX(&amp;boneMatrices[1], 3.14159f / 180.0f);
+D3DXMatrixIdentity(&boneMatrices[0]);
+D3DXMatrixRotationX(&boneMatrices[1], 3.14159f / 180.0f);
 
 //create bone indices and weights
 UINT boneIndices[numVertices] = {...};
@@ -173,7 +173,7 @@ float boneWeights[2][numVertices] = {...};
 
 //create skin info, populate it with bones and vertices, and then map them to each other
 ID3DX10SkinInfo *pSkinInfo = NULL;
-D3DX10CreateSkinInfo(&amp;pSkinInfo);
+D3DX10CreateSkinInfo(&pSkinInfo);
 pSkinInfo->AddBones(2);
 pSkinInfo->AddVertices(numVertices);
 pSkinInfo->AddBoneInfluences(0, numVertices, boneIndices, boneWeights[0]);
@@ -190,7 +190,7 @@ pSkinInfo->DoSoftwareSkinning(0, numVertices,
                               vertices, sizeof(MyVertex), 
                               destVertices, sizeof(MyVertex), 
                               boneMatrices, NULL, 
-                              &amp;channelDesc, 1);
+                              &channelDesc, 1);
 ```
 
 

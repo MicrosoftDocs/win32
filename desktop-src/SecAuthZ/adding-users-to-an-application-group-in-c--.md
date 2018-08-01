@@ -56,13 +56,13 @@ void main(void){
          CLSCTX_ALL,
    /*"edbd9ca9-9b82-4f6a-9e8b-98301e450f14"*/
          __uuidof(IAzAuthorizationStore),
-         (void**)&amp;pStore);
+         (void**)&pStore);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create AzAuthorizationStore object.");
     
     //  Create null VARIANT for parameters.
     VARIANT myVar; 
-    VariantInit(&amp;myVar);
+    VariantInit(&myVar);
 
     //  Allocate a string for the name of the policy store.
     if(!(storeName = SysAllocString(L"msxml://c:\\MyStore.xml")))
@@ -77,7 +77,7 @@ void main(void){
     //  Create an application object.
     if (!(appName = SysAllocString(L"Expense")))
         MyHandleError("Could not allocate application name string.");
-    hr = pStore->OpenApplication(appName, myVar, &amp;pApp);
+    hr = pStore->OpenApplication(appName, myVar, &pApp);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not open application.");
 
@@ -86,7 +86,7 @@ void main(void){
         MyHandleError("Could not allocate group name string.");
 
     //  Create an IAzApplicationGroup object.
-    hr = pApp->CreateApplicationGroup(groupName, myVar, &amp;pAppGroup);
+    hr = pApp->CreateApplicationGroup(groupName, myVar, &pAppGroup);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create application group.");
 
@@ -108,7 +108,7 @@ void main(void){
     if (!(roleName = SysAllocString(L"Expense Administrator")))
         MyHandleError("Could not allocate role name string.");
 
-    hr = pApp->OpenRole(roleName, myVar, &amp;pRole);
+    hr = pApp->OpenRole(roleName, myVar, &pRole);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not open role object.");
 
@@ -133,7 +133,7 @@ void main(void){
     SysFreeString(groupName);
     SysFreeString(roleName);
     SysFreeString(userName);
-    VariantClear(&amp;myVar);
+    VariantClear(&myVar);
     CoUninitialize();
 }
 

@@ -33,7 +33,7 @@ DWORD playWAVEFile(HWND hWndNotify, LPSTR lpszWAVEFileName)
     mciOpenParms.lpstrElementName = lpszWAVEFileName;
     if (dwReturn = mciSendCommand(0, MCI_OPEN,
        MCI_OPEN_TYPE | MCI_OPEN_ELEMENT, 
-       (DWORD)(LPVOID) &amp;mciOpenParms))
+       (DWORD)(LPVOID) &mciOpenParms))
     {
         // Failed to open device. Don't close it; just return error.
         return (dwReturn);
@@ -49,7 +49,7 @@ DWORD playWAVEFile(HWND hWndNotify, LPSTR lpszWAVEFileName)
 
     mciPlayParms.dwCallback = (DWORD) hWndNotify;
     if (dwReturn = mciSendCommand(wDeviceID, MCI_PLAY, MCI_NOTIFY, 
-        (DWORD)(LPVOID) &amp;mciPlayParms))
+        (DWORD)(LPVOID) &mciPlayParms))
     {
         mciSendCommand(wDeviceID, MCI_CLOSE, 0, NULL);
         return (dwReturn);

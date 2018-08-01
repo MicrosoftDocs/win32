@@ -61,13 +61,13 @@ void main()
    {
       IGraphBuilder* pBuilder = NULL;
       hr = CoCreateInstance(CLSID_FilterGraph, NULL, CLSCTX_INPROC_SERVER, 
-         IID_IGraphBuilder, (VOID**)&amp;pBuilder);
+         IID_IGraphBuilder, (VOID**)&pBuilder);
 
       if(SUCCEEDED(hr))
       {
          IDMOWrapperFilter* pWrap = NULL;
          hr = CoCreateInstance(CLSID_DMOWrapperFilter, NULL, CLSCTX_INPROC, 
-            IID_IDMOWrapperFilter, (VOID**)&amp;pWrap);
+            IID_IDMOWrapperFilter, (VOID**)&pWrap);
 
          if(SUCCEEDED(hr))
          {
@@ -84,7 +84,7 @@ void main()
                   if(SUCCEEDED(hr))
                   {
                      IToc* pToc = NULL;
-                     hr = GetToc(pWrap, &amp;pToc);
+                     hr = GetToc(pWrap, &pToc);
 
                      if(SUCCEEDED(hr))
                      {

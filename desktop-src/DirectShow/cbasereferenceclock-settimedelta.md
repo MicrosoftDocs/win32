@@ -30,7 +30,7 @@ The `SetTimeDelta` method adjusts the internal clock time.
 
 ```C++
 HRESULT SetTimeDelta(
-  [ref] const REFERENCE_TIME &amp;TimeDelta
+  [ref] const REFERENCE_TIME &TimeDelta
 );
 ```
 

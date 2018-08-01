@@ -20,14 +20,14 @@ The following example creates a [**Bitmap**](/windows/desktop/api/gdiplusheaders
 Bitmap        bitmap(L"Texture.jpg");
 UINT          width = bitmap.GetWidth();
 UINT          height = bitmap.GetHeight();
-CachedBitmap  cBitmap(&amp;bitmap, &amp;graphics);
+CachedBitmap  cBitmap(&bitmap, &graphics);
 int           j, k;
 for(j = 0; j < 300; j += 10)
    for(k = 0; k < 1000; ++k)
-     graphics.DrawImage(&amp;bitmap, j, j / 2, width, height);
+     graphics.DrawImage(&bitmap, j, j / 2, width, height);
 for(j = 0; j < 300; j += 10)
    for(k = 0; k < 1000; ++k)
-      graphics.DrawCachedBitmap(&amp;cBitmap, j, 150 + j / 2 );
+      graphics.DrawCachedBitmap(&cBitmap, j, 150 + j / 2 );
 ```
 
 

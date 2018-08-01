@@ -33,7 +33,7 @@ void CreateInstanceFromTextRepresentation(
   [in]       string                      DnsServerName,
   [in]       string                      ContainerName,
   [in]       string                      TextRepresentation,
-  [out, ref] MicrosoftDNS_ResourceRecord &amp;RR
+  [out, ref] MicrosoftDNS_ResourceRecord &RR
 );
 ```
 

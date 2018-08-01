@@ -30,7 +30,7 @@ HRESULT CPlayer::CreateSession()
     assert(m_state == Closed);
 
     // Create the media session.
-    hr = MFCreateMediaSession(NULL, &amp;m_pSession);
+    hr = MFCreateMediaSession(NULL, &m_pSession);
     if (FAILED(hr))
     {
         goto done;

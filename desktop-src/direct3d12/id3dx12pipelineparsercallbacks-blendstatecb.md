@@ -30,7 +30,7 @@ Calls the blend state description subobject callback of an object that implement
 
 ```C++
 void BlendStateCb(
-  [ref] const D3D12_BLEND_DESC &amp;BlendState
+  [ref] const D3D12_BLEND_DESC &BlendState
 );
 ```
 

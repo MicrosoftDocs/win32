@@ -41,7 +41,7 @@ The example here shows the input and output images of the saturation effect with
 
 ```C++
 ComPtr<ID2D1Effect> saturationEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Saturation, &amp;saturationEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Saturation, &saturationEffect);
 
 saturationEffect->SetInput(0, bitmap);
 

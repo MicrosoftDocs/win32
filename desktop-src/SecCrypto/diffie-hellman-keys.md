@@ -157,7 +157,7 @@ int _tmain(int argc, _TCHAR* argv[])
     ************************/
     // Acquire a provider handle for party 1.
     fReturn = CryptAcquireContext(
-        &amp;hProvParty1, 
+        &hProvParty1, 
         NULL,
         MS_ENH_DSS_DH_PROV,
         PROV_DSS_DH, 
@@ -172,7 +172,7 @@ int _tmain(int argc, _TCHAR* argv[])
         hProvParty1, 
         CALG_DH_EPHEM, 
         DHKEYSIZE << 16 | CRYPT_EXPORTABLE | CRYPT_PREGEN,
-        &amp;hPrivateKey1);
+        &hPrivateKey1);
     if(!fReturn)
     {
         goto ErrorExit;
@@ -182,7 +182,7 @@ int _tmain(int argc, _TCHAR* argv[])
     fReturn = CryptSetKeyParam(
         hPrivateKey1,
         KP_P,
-        (PBYTE)&amp;P,
+        (PBYTE)&P,
         0);
     if(!fReturn)
     {
@@ -193,7 +193,7 @@ int _tmain(int argc, _TCHAR* argv[])
     fReturn = CryptSetKeyParam(
         hPrivateKey1,
         KP_G,
-        (PBYTE)&amp;G,
+        (PBYTE)&G,
         0);
     if(!fReturn)
     {
@@ -216,7 +216,7 @@ int _tmain(int argc, _TCHAR* argv[])
     ************************/
     // Acquire a provider handle for party 2.
     fReturn = CryptAcquireContext(
-        &amp;hProvParty2, 
+        &hProvParty2, 
         NULL,
         MS_ENH_DSS_DH_PROV,
         PROV_DSS_DH, 
@@ -231,7 +231,7 @@ int _tmain(int argc, _TCHAR* argv[])
         hProvParty2, 
         CALG_DH_EPHEM, 
         DHKEYSIZE << 16 | CRYPT_EXPORTABLE | CRYPT_PREGEN,
-        &amp;hPrivateKey2);
+        &hPrivateKey2);
     if(!fReturn)
     {
         goto ErrorExit;
@@ -241,7 +241,7 @@ int _tmain(int argc, _TCHAR* argv[])
     fReturn = CryptSetKeyParam(
         hPrivateKey2,
         KP_P,
-        (PBYTE)&amp;P,
+        (PBYTE)&P,
         0);
     if(!fReturn)
     {
@@ -252,7 +252,7 @@ int _tmain(int argc, _TCHAR* argv[])
     fReturn = CryptSetKeyParam(
         hPrivateKey2,
         KP_G,
-        (PBYTE)&amp;G,
+        (PBYTE)&G,
         0);
     if(!fReturn)
     {
@@ -283,7 +283,7 @@ int _tmain(int argc, _TCHAR* argv[])
         PUBLICKEYBLOB,
         0,
         NULL,
-        &amp;dwDataLen1);
+        &dwDataLen1);
     if(!fReturn)
     {
         goto ErrorExit;
@@ -302,7 +302,7 @@ int _tmain(int argc, _TCHAR* argv[])
         PUBLICKEYBLOB,
         0,
         pbKeyBlob1,
-        &amp;dwDataLen1);
+        &dwDataLen1);
     if(!fReturn)
     {
         goto ErrorExit;
@@ -321,7 +321,7 @@ int _tmain(int argc, _TCHAR* argv[])
         PUBLICKEYBLOB,
         0,
         NULL,
-        &amp;dwDataLen2);
+        &dwDataLen2);
     if(!fReturn)
     {
         goto ErrorExit;
@@ -340,7 +340,7 @@ int _tmain(int argc, _TCHAR* argv[])
         PUBLICKEYBLOB,
         0,
         pbKeyBlob2,
-        &amp;dwDataLen2);
+        &dwDataLen2);
     if(!fReturn)
     {
         goto ErrorExit;
@@ -357,7 +357,7 @@ int _tmain(int argc, _TCHAR* argv[])
         dwDataLen2,
         hPrivateKey1,
         0,
-        &amp;hSessionKey2);
+        &hSessionKey2);
     if(!fReturn)
     {
         goto ErrorExit;
@@ -374,7 +374,7 @@ int _tmain(int argc, _TCHAR* argv[])
         dwDataLen1,
         hPrivateKey2,
         0,
-        &amp;hSessionKey1);
+        &hSessionKey1);
     if(!fReturn)
     {
         goto ErrorExit;
@@ -391,7 +391,7 @@ int _tmain(int argc, _TCHAR* argv[])
     fReturn = CryptSetKeyParam(
         hSessionKey1,
         KP_ALGID,
-        (PBYTE)&amp;Algid,
+        (PBYTE)&Algid,
         0);
     if(!fReturn)
     {
@@ -403,7 +403,7 @@ int _tmain(int argc, _TCHAR* argv[])
     fReturn = CryptSetKeyParam(
         hSessionKey2,
         KP_ALGID,
-        (PBYTE)&amp;Algid,
+        (PBYTE)&Algid,
         0);
     if(!fReturn)
     {
@@ -421,7 +421,7 @@ int _tmain(int argc, _TCHAR* argv[])
         TRUE,
         0, 
         NULL, 
-        &amp;dwLength,
+        &dwLength,
         sizeof(g_rgbData));
     if(!fReturn)
     {
@@ -447,7 +447,7 @@ int _tmain(int argc, _TCHAR* argv[])
         TRUE,
         0, 
         pbData, 
-        &amp;dwLength,
+        &dwLength,
         sizeof(g_rgbData));
     if(!fReturn)
     {
@@ -464,7 +464,7 @@ int _tmain(int argc, _TCHAR* argv[])
         TRUE,
         0,
         pbData,
-        &amp;dwLength);
+        &dwLength);
     if(!fReturn)
     {
         goto ErrorExit;

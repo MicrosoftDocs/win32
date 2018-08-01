@@ -49,11 +49,11 @@ hr = D3D11CreateDevice(
     D3D_DRIVER_TYPE_HARDWARE,
     NULL, 
     0, 
-    &amp;FeatureLevels, 
+    &FeatureLevels, 
     ARRAYSIZE(FeatureLevels), 
     D3D11_SDK_VERSION, 
     NULL, 
-    &amp;MaxSupportedFeatureLevel, 
+    &MaxSupportedFeatureLevel, 
     NULL 
     );
 

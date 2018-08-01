@@ -25,8 +25,8 @@ SCRIPT_ITEM si[cMaxItems + 1];
 SCRIPT_ITEM *pItems = si;
 int cItems;
 
-ScriptGetProperties(&amp;g_ppScriptProperties,
-                    &amp;g_iMaxScript);
+ScriptGetProperties(&g_ppScriptProperties,
+                    &g_iMaxScript);
 
 HRESULT hResult = ScriptItemize(pwcInChars,
                                 cInChars,
@@ -34,7 +34,7 @@ HRESULT hResult = ScriptItemize(pwcInChars,
                                 NULL,
                                 NULL,
                                 pItems,
-                                &amp;cItems);
+                                &cItems);
 if (hResult == 0) {
     for (int i=0; i<cItems; i++) {
         if (g_ppScriptProperties[pItems[i].a.eScript]->fComplex) {

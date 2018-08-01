@@ -28,7 +28,7 @@ The following code illustrates the **EnumerateContactsServices** method.
 
 ```C++
 // Enumerates all Contacts Services, displaying the associated device of each service.
-void EumerateContactsServices(CAtlArray<PWSTR>&amp; ContactsServicePnpIDs)
+void EumerateContactsServices(CAtlArray<PWSTR>& ContactsServicePnpIDs)
 {
     HRESULT                                 hr              = S_OK;
     DWORD                                   cPnpDeviceIDs   = 0;
@@ -41,7 +41,7 @@ void EumerateContactsServices(CAtlArray<PWSTR>&amp; ContactsServicePnpIDs)
     hr = CoCreateInstance(CLSID_PortableDeviceManager,
                           NULL,
                           CLSCTX_INPROC_SERVER,
-                          IID_PPV_ARGS(&amp;pPortableDeviceManager));
+                          IID_PPV_ARGS(&pPortableDeviceManager));
 
     if (FAILED(hr))
     {
@@ -51,7 +51,7 @@ void EumerateContactsServices(CAtlArray<PWSTR>&amp; ContactsServicePnpIDs)
     // Retrieve the IPortableDeviceServiceManager interface to enumerate device services.
     if (SUCCEEDED(hr))
     {
-        hr = pPortableDeviceManager->QueryInterface(IID_PPV_ARGS(&amp;pServiceManager));
+        hr = pPortableDeviceManager->QueryInterface(IID_PPV_ARGS(&pServiceManager));
         if (FAILED(hr))
         {
             printf("! Failed to QueryInterface IID_IPortableDeviceServiceManager, hr = 0x%lx\n",hr);
@@ -62,14 +62,14 @@ void EumerateContactsServices(CAtlArray<PWSTR>&amp; ContactsServicePnpIDs)
     {
         // First, pass NULL as the PWSTR array pointer to get the total number
         // of devices found on the system.
-        hr = pPortableDeviceManager->GetDevices(NULL, &amp;cPnpDeviceIDs);
+        hr = pPortableDeviceManager->GetDevices(NULL, &cPnpDeviceIDs);
 
         if (FAILED(hr))
         {
             printf("! Failed to get number of devices on the system, hr = 0x%lx\n",hr);
         }
 
-        if (SUCCEEDED(hr) &amp;&amp; (cPnpDeviceIDs > 0))
+        if (SUCCEEDED(hr) && (cPnpDeviceIDs > 0))
         {
             // Second, allocate an array to hold the PnPDeviceID strings returned from
             // the IPortableDeviceManager::GetDevices method
@@ -79,7 +79,7 @@ void EumerateContactsServices(CAtlArray<PWSTR>&amp; ContactsServicePnpIDs)
             {
                 DWORD dwIndex = 0;
 
-                hr = pPortableDeviceManager->GetDevices(pPnpDeviceIDs, &amp;cPnpDeviceIDs);
+                hr = pPortableDeviceManager->GetDevices(pPnpDeviceIDs, &cPnpDeviceIDs);
                 if (SUCCEEDED(hr))
                 {   
                     // For each device found, find the contacts service
@@ -91,13 +91,13 @@ void EumerateContactsServices(CAtlArray<PWSTR>&amp; ContactsServicePnpIDs)
                         // First, pass NULL as the PWSTR array pointer to get the total number
                         // of contacts services (SERVICE_Contacts) found on the device.
                         // To find the total number of all services on the device, use GUID_DEVINTERFACE_WPD_SERVICE.
-                        hr = pServiceManager->GetDeviceServices(pPnpDeviceIDs[dwIndex], SERVICE_Contacts, NULL, &amp;cPnpServiceIDs);
+                        hr = pServiceManager->GetDeviceServices(pPnpDeviceIDs[dwIndex], SERVICE_Contacts, NULL, &cPnpServiceIDs);
                         
-                        if (SUCCEEDED(hr) &amp;&amp; (cPnpServiceIDs > 0))
+                        if (SUCCEEDED(hr) && (cPnpServiceIDs > 0))
                         {                               
                             // For simplicity, we are only using the first contacts service on each device
                             cPnpServiceIDs = 1;
-                            hr = pServiceManager->GetDeviceServices(pPnpDeviceIDs[dwIndex], SERVICE_Contacts, &amp;pPnpServiceID, &amp;cPnpServiceIDs);
+                            hr = pServiceManager->GetDeviceServices(pPnpDeviceIDs[dwIndex], SERVICE_Contacts, &pPnpServiceID, &cPnpServiceIDs);
 
                             if (SUCCEEDED(hr))
                             {

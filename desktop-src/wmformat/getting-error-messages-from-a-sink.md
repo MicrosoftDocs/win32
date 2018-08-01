@@ -38,27 +38,27 @@ HRESULT SetSinksForStatus (IWMWriter* pWriter, IWMStatusCallback* pStatus)
 
     // Get the advanced writer interface.
     hr = pWriter->QueryInterface(IID_IWMWriterAdvanced, 
-                                 (void**)&amp;pWriterAdvanced);
+                                 (void**)&pWriterAdvanced);
     GOTO_EXIT_IF_FAILED(hr);
 
     // Get the number of sinks that are added to the writer object.
-    hr = pWriterAdvanced->GetSinkCount(&amp;cSinks);
+    hr = pWriterAdvanced->GetSinkCount(&cSinks);
     GOTO_EXIT_IF_FAILED(hr);
 
     // Loop through all of the sinks.
     for(dwSinkIndex = 0; dwSinkIndex < cSinks; dwSinkIndex++)
     {
         // Get the base interface for the next sink.
-        hr = pWriterAdvanced->GetSink(dwSinkIndex, &amp;pSink);
+        hr = pWriterAdvanced->GetSink(dwSinkIndex, &pSink);
         GOTO_EXIT_IF_FAILED(hr);
 
         // Get the callback registration interface for the sink.
         hr = pSink->QueryInterface(IID_IWMRegisterCallback,
-                                   (void**)&amp;pRegisterCallbk);
+                                   (void**)&pRegisterCallbk);
         GOTO_EXIT_IF_FAILED(hr);
 
         // Register the OnStatus callback.
-        hr = pRegisterCallbk->Advise(pStatus, (void*) &amp;dwSinkIndex);
+        hr = pRegisterCallbk->Advise(pStatus, (void*) &dwSinkIndex);
         GOTO_EXIT_IF_FAILED(hr);
 
         // Release for the next iteration.

@@ -159,7 +159,7 @@ DWORD SeekToLastRecord(HANDLE hEventLog)
     DWORD dwLastRecordNumber = 0;
     PBYTE pRecord = NULL;  
 
-    status = GetLastRecordNumber(hEventLog, &amp;dwLastRecordNumber);
+    status = GetLastRecordNumber(hEventLog, &dwLastRecordNumber);
     if (ERROR_SUCCESS != status)
     {
         wprintf(L"GetLastRecordNumber failed.\n");
@@ -189,13 +189,13 @@ DWORD GetLastRecordNumber(HANDLE hEventLog, DWORD* pdwRecordNumber)
     DWORD OldestRecordNumber = 0;
     DWORD NumberOfRecords = 0;
 
-    if (!GetOldestEventLogRecord(hEventLog, &amp;OldestRecordNumber))
+    if (!GetOldestEventLogRecord(hEventLog, &OldestRecordNumber))
     {
         wprintf(L"GetOldestEventLogRecord failed with %lu.\n", status = GetLastError());
         goto cleanup;
     }
 
-    if (!GetNumberOfEventLogRecords(hEventLog, &amp;NumberOfRecords))
+    if (!GetNumberOfEventLogRecords(hEventLog, &NumberOfRecords))
     {
         wprintf(L"GetOldestEventLogRecord failed with %lu.\n", status = GetLastError());
         goto cleanup;
@@ -247,7 +247,7 @@ DWORD ReadRecord(HANDLE hEventLog, PBYTE & pBuffer, DWORD dwRecordNumber, DWORD 
     pBuffer= (PBYTE)malloc(sizeof(EVENTLOGRECORD));
 
     // Get the required buffer size, reallocate the buffer and then read the event record.
-    if (!ReadEventLog(hEventLog, dwFlags, dwRecordNumber, pBuffer, dwBytesToRead, &amp;dwBytesRead, &amp;dwMinimumBytesToRead))
+    if (!ReadEventLog(hEventLog, dwFlags, dwRecordNumber, pBuffer, dwBytesToRead, &dwBytesRead, &dwMinimumBytesToRead))
     {
         status = GetLastError();
         if (ERROR_INSUFFICIENT_BUFFER == status)
@@ -265,7 +265,7 @@ DWORD ReadRecord(HANDLE hEventLog, PBYTE & pBuffer, DWORD dwRecordNumber, DWORD 
 
             dwBytesToRead = dwMinimumBytesToRead;
 
-            if (!ReadEventLog(hEventLog, dwFlags, dwRecordNumber, pBuffer, dwBytesToRead, &amp;dwBytesRead, &amp;dwMinimumBytesToRead))
+            if (!ReadEventLog(hEventLog, dwFlags, dwRecordNumber, pBuffer, dwBytesToRead, &dwBytesRead, &dwMinimumBytesToRead))
             {
                 wprintf(L"Second ReadEventLog failed with %lu.\n", status = GetLastError());
                 goto cleanup;
@@ -300,7 +300,7 @@ DWORD DumpNewRecords(HANDLE hEventLog)
 
     // Read the first record to prime the loop.
     status = ReadRecord(hEventLog, pRecord, 0, EVENTLOG_SEQUENTIAL_READ | EVENTLOG_FORWARDS_READ);
-    if (ERROR_SUCCESS != status &amp;&amp; ERROR_HANDLE_EOF != status)
+    if (ERROR_SUCCESS != status && ERROR_HANDLE_EOF != status)
     {
         wprintf(L"ReadRecord (priming read) failed.\n");
         goto cleanup;
@@ -357,7 +357,7 @@ DWORD DumpNewRecords(HANDLE hEventLog)
 
         // Read sequentially through the records.
         status = ReadRecord(hEventLog, pRecord, 0, EVENTLOG_SEQUENTIAL_READ | EVENTLOG_FORWARDS_READ);
-        if (ERROR_SUCCESS != status &amp;&amp; ERROR_HANDLE_EOF != status)
+        if (ERROR_SUCCESS != status && ERROR_HANDLE_EOF != status)
         {
             wprintf(L"ReadRecord sequential failed.\n");
             goto cleanup;
@@ -440,7 +440,7 @@ LPWSTR GetMessageString(DWORD MessageId, DWORD argc, LPWSTR argv)
                        g_hResources,
                        MessageId,
                        0,  
-                       (LPWSTR)&amp;pMessage, 
+                       (LPWSTR)&pMessage, 
                        0, 
                        (va_list*)pArgs))
     {
@@ -649,7 +649,7 @@ BOOL IsKeyEvent(HANDLE hStdIn)
     DWORD dwRecordsRead = 0;
     BOOL fKeyPress = FALSE;
 
-    if (ReadConsoleInput(hStdIn, Record, 128, &amp;dwRecordsRead))
+    if (ReadConsoleInput(hStdIn, Record, 128, &dwRecordsRead))
     {
         for (DWORD i = 0; i < dwRecordsRead; i++)
         {

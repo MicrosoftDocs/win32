@@ -71,17 +71,17 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;) 
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;) 
 JobID = &quot;Test&quot;
 Set objNewJob = objWMIService.Get(&quot;Win32_ScheduledJob&quot;)
 errJobCreate = objNewJob.Create _
     (&quot;Notepad.exe&quot;, &quot;********143000.000000-420&quot;, True , 1 OR 4 OR 16, ,True, JobId) 
 If errJobCreate = 0 Then
-    WScript.Echo &quot;Job created successfully: &quot; &amp; VBNewLine _
-        &amp; &quot;Notepad.exe scheduled to run repeately at 14.30 (2:30 P.M.) PST&quot; &amp; VBNewLine _
-        &amp; &quot;on Mon, Wed, and Fri.&quot;
+    WScript.Echo &quot;Job created successfully: &quot; & VBNewLine _
+        & &quot;Notepad.exe scheduled to run repeately at 14.30 (2:30 P.M.) PST&quot; & VBNewLine _
+        & &quot;on Mon, Wed, and Fri.&quot;
 Else
-    WScript.Echo &quot;Job not created. Error code = &quot; &amp; errJobCreate
+    WScript.Echo &quot;Job not created. Error code = &quot; & errJobCreate
 End If</code></pre></td>
 </tr>
 </tbody>
@@ -107,27 +107,27 @@ End If</code></pre></td>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
 strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colScheduledJobs = objWMIService.ExecQuery (&quot;Select * from Win32_ScheduledJob&quot;)
 For Each objJob in colScheduledJobs
-    Wscript.Echo &quot;Command: &quot; &amp; objJob.Command &amp; VBNewLine _
-    &amp; &quot;Days Of Month: &quot; &amp; objJob.DaysOfMonth &amp; VBNewLine _
-    &amp; &quot;Days Of Week: &quot; &amp; objJob.DaysOfWeek &amp; VBNewLine _
-    &amp; &quot;Description: &quot; &amp; objJob.Description &amp; VBNewLine _
-    &amp; &quot;Elapsed Time: &quot; &amp; objJob.ElapsedTime &amp; VBNewLine _
-    &amp; &quot;Install Date: &quot; &amp; objJob.InstallDate &amp; VBNewLine _
-    &amp; &quot;Interact with Desktop: &quot; &amp; objJob.InteractWithDesktop &amp; VBNewLine _
-    &amp; &quot;Job ID: &quot; &amp; objJob.JobId &amp; VBNewLine _
-    &amp; &quot;Job Status: &quot; &amp; objJob.JobStatus &amp; VBNewLine _
-    &amp; &quot;Name: &quot; &amp; objJob.Name &amp; VBNewLine _
-    &amp; &quot;Notify: &quot; &amp; objJob.Notify &amp; VBNewLine _
-    &amp; &quot;Owner: &quot; &amp; objJob.Owner &amp; VBNewLine _
-    &amp; &quot;Priority: &quot; &amp; objJob.Priority &amp; VBNewLine _
-    &amp; &quot;Run Repeatedly: &quot; &amp; objJob.RunRepeatedly &amp; VBNewLine _
-    &amp; &quot;Start Time: &quot; &amp; objJob.StartTime &amp; VBNewLine _
-    &amp; &quot;Status: &quot; &amp; objJob.Status &amp; VBNewLine _
-    &amp; &quot;Time Submitted: &quot; &amp; objJob.TimeSubmitted &amp; VBNewLine _
-    &amp; &quot;Until Time: &quot; &amp; objJob.UntilTime
+    Wscript.Echo &quot;Command: &quot; & objJob.Command & VBNewLine _
+    & &quot;Days Of Month: &quot; & objJob.DaysOfMonth & VBNewLine _
+    & &quot;Days Of Week: &quot; & objJob.DaysOfWeek & VBNewLine _
+    & &quot;Description: &quot; & objJob.Description & VBNewLine _
+    & &quot;Elapsed Time: &quot; & objJob.ElapsedTime & VBNewLine _
+    & &quot;Install Date: &quot; & objJob.InstallDate & VBNewLine _
+    & &quot;Interact with Desktop: &quot; & objJob.InteractWithDesktop & VBNewLine _
+    & &quot;Job ID: &quot; & objJob.JobId & VBNewLine _
+    & &quot;Job Status: &quot; & objJob.JobStatus & VBNewLine _
+    & &quot;Name: &quot; & objJob.Name & VBNewLine _
+    & &quot;Notify: &quot; & objJob.Notify & VBNewLine _
+    & &quot;Owner: &quot; & objJob.Owner & VBNewLine _
+    & &quot;Priority: &quot; & objJob.Priority & VBNewLine _
+    & &quot;Run Repeatedly: &quot; & objJob.RunRepeatedly & VBNewLine _
+    & &quot;Start Time: &quot; & objJob.StartTime & VBNewLine _
+    & &quot;Status: &quot; & objJob.Status & VBNewLine _
+    & &quot;Time Submitted: &quot; & objJob.TimeSubmitted & VBNewLine _
+    & &quot;Until Time: &quot; & objJob.UntilTime
 Next</code></pre></td>
 </tr>
 </tbody>

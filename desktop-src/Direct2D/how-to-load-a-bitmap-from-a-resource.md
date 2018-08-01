@@ -96,7 +96,7 @@ As described in [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap
         if (SUCCEEDED(hr))
         {
               // Create a WIC stream to map onto the memory.
-            hr = pIWICFactory->CreateStream(&amp;pStream);
+            hr = pIWICFactory->CreateStream(&pStream);
         }
         if (SUCCEEDED(hr))
         {
@@ -120,7 +120,7 @@ As described in [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap
                 pStream,
                 NULL,
                 WICDecodeMetadataCacheOnLoad,
-                &amp;pDecoder
+                &pDecoder
                 );
         }
     ```
@@ -133,7 +133,7 @@ As described in [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap
         if (SUCCEEDED(hr))
         {
             // Create the initial frame.
-            hr = pDecoder->GetFrame(0, &amp;pSource);
+            hr = pDecoder->GetFrame(0, &pSource);
         }
     ```
 
@@ -145,7 +145,7 @@ As described in [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap
         {
             // Convert the image format to 32bppPBGRA
             // (DXGI_FORMAT_B8G8R8A8_UNORM + D2D1_ALPHA_MODE_PREMULTIPLIED).
-            hr = pIWICFactory->CreateFormatConverter(&amp;pConverter);
+            hr = pIWICFactory->CreateFormatConverter(&pConverter);
         }
     ```
 
@@ -224,11 +224,11 @@ As described in [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap
         
         }
 
-        SafeRelease(&amp;pDecoder);
-        SafeRelease(&amp;pSource);
-        SafeRelease(&amp;pStream);
-        SafeRelease(&amp;pConverter);
-        SafeRelease(&amp;pScaler);
+        SafeRelease(&pDecoder);
+        SafeRelease(&pSource);
+        SafeRelease(&pStream);
+        SafeRelease(&pConverter);
+        SafeRelease(&pScaler);
 
         return hr;
     }

@@ -58,7 +58,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -66,7 +66,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -130,14 +130,14 @@ $$RC_START_HIGHLIGHT
     WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING kerberosBinding = {}; // zero out the struct
     kerberosBinding.binding.bindingType = WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TYPE; // set the binding type
     kerberosBinding.bindingUsage = WS_SUPPORTING_MESSAGE_SECURITY_USAGE; // set the binding usage
-    kerberosBinding.clientCredential = &amp;windowsCredential.credential;
+    kerberosBinding.clientCredential = &windowsCredential.credential;
     
     // declare and initialize an SSL transport security binding
     WS_SSL_TRANSPORT_SECURITY_BINDING sslBinding = {}; // zero out the struct
     sslBinding.binding.bindingType = WS_SSL_TRANSPORT_SECURITY_BINDING_TYPE; // set the binding type
     
     // declare and initialize the array of all security bindings
-    WS_SECURITY_BINDING* securityBindings[2] = { &amp;sslBinding.binding, &amp;kerberosBinding.binding };
+    WS_SECURITY_BINDING* securityBindings[2] = { &sslBinding.binding, &kerberosBinding.binding };
     
     // declare and initialize the security description
     WS_SECURITY_DESCRIPTION securityDescription = {}; // zero out the struct
@@ -154,7 +154,7 @@ $$RC_END_HIGHLIGHT
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -166,7 +166,7 @@ $$RC_END_HIGHLIGHT
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -180,8 +180,8 @@ $$RC_START_HIGHLIGHT
         WS_HTTP_CHANNEL_BINDING, 
         NULL, 
         0, 
-        &amp;securityDescription, 
-        &amp;channel, 
+        &securityDescription, 
+        &channel, 
         error);
     if (FAILED(hr))
     {
@@ -193,7 +193,7 @@ $$RC_END_HIGHLIGHT
         channel,
         NULL, 
         0, 
-        &amp;requestMessage, 
+        &requestMessage, 
         error);
     if (FAILED(hr))
     {
@@ -204,7 +204,7 @@ $$RC_END_HIGHLIGHT
         channel,
         NULL, 
         0, 
-        &amp;replyMessage, 
+        &replyMessage, 
         error);
     if (FAILED(hr))
     {
@@ -216,10 +216,10 @@ $$RC_END_HIGHLIGHT
     address.url = serviceUrl;
     address.headers = NULL;
     address.extensions = NULL;
-    address.identity = &amp;serviceIdentity.identity;
+    address.identity = &serviceIdentity.identity;
     
     // Open channel to address
-    hr = WsOpenChannel(channel, &amp;address, NULL, error);
+    hr = WsOpenChannel(channel, &address, NULL, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -240,15 +240,15 @@ $$RC_END_HIGHLIGHT
         hr = WsRequestReply(
             channel,
             requestMessage, 
-            &amp;PurchaseOrder_wsdl.messages.PurchaseOrder, 
+            &PurchaseOrder_wsdl.messages.PurchaseOrder, 
             WS_WRITE_REQUIRED_VALUE,
-            &amp;purchaseOrder,
+            &purchaseOrder,
             sizeof(purchaseOrder),
             replyMessage, 
-            &amp;PurchaseOrder_wsdl.messages.OrderConfirmation, 
+            &PurchaseOrder_wsdl.messages.OrderConfirmation, 
             WS_READ_REQUIRED_VALUE, 
             heap, 
-            &amp;orderConfirmation, 
+            &orderConfirmation, 
             sizeof(orderConfirmation), 
             NULL, 
             error);
@@ -288,15 +288,15 @@ $$RC_END_HIGHLIGHT
         hr = WsRequestReply(
             channel,
             requestMessage, 
-            &amp;PurchaseOrder_wsdl.messages.GetOrderStatus, 
+            &PurchaseOrder_wsdl.messages.GetOrderStatus, 
             WS_WRITE_REQUIRED_VALUE,
-            &amp;getOrderStatus,
+            &getOrderStatus,
             sizeof(getOrderStatus),
             replyMessage, 
-            &amp;PurchaseOrder_wsdl.messages.GetOrderStatusResponse, 
+            &PurchaseOrder_wsdl.messages.GetOrderStatusResponse, 
             WS_READ_REQUIRED_VALUE, 
             heap, 
-            &amp;getOrderStatusResponse, 
+            &getOrderStatusResponse, 
             sizeof(getOrderStatusResponse), 
             NULL, 
             error);
@@ -331,15 +331,15 @@ $$RC_END_HIGHLIGHT
         hr = WsRequestReply(
             channel,
             requestMessage, 
-            &amp;PurchaseOrder_wsdl.messages.GetOrderStatus, 
+            &PurchaseOrder_wsdl.messages.GetOrderStatus, 
             WS_WRITE_REQUIRED_VALUE,
-            &amp;getOrderStatus,
+            &getOrderStatus,
             sizeof(getOrderStatus),
             replyMessage, 
-            &amp;PurchaseOrder_wsdl.messages.GetOrderStatusResponse, 
+            &PurchaseOrder_wsdl.messages.GetOrderStatusResponse, 
             WS_READ_REQUIRED_VALUE, 
             heap, 
-            &amp;getOrderStatusResponse, 
+            &getOrderStatusResponse, 
             sizeof(getOrderStatusResponse), 
             NULL, 
             error);
@@ -354,17 +354,17 @@ $$RC_END_HIGHLIGHT
             WS_XML_STRING _faultDetailName = WS_XML_STRING_VALUE("OrderNotFound");
             WS_XML_STRING _faultDetailNs = WS_XML_STRING_VALUE("http://example.com");
             WS_XML_STRING _faultAction = WS_XML_STRING_VALUE("http://example.com/fault");
-            WS_ELEMENT_DESCRIPTION _faultElementDescription = { &amp;_faultDetailName, &amp;_faultDetailNs, WS_UINT32_TYPE, NULL };
-            WS_FAULT_DETAIL_DESCRIPTION orderNotFoundFaultTypeDescription = { &amp;_faultAction, &amp;_faultElementDescription };
+            WS_ELEMENT_DESCRIPTION _faultElementDescription = { &_faultDetailName, &_faultDetailNs, WS_UINT32_TYPE, NULL };
+            WS_FAULT_DETAIL_DESCRIPTION orderNotFoundFaultTypeDescription = { &_faultAction, &_faultElementDescription };
         
             // Try to get the fault detail from the error object
             _OrderNotFoundFaultType* orderNotFound;
             hr = WsGetFaultErrorDetail(
                 error,
-                &amp;orderNotFoundFaultTypeDescription,
+                &orderNotFoundFaultTypeDescription,
                 WS_READ_OPTIONAL_POINTER,
                 heap,
-                &amp;orderNotFound,
+                &orderNotFound,
                 sizeof(orderNotFound));
                 
             if (FAILED(hr))

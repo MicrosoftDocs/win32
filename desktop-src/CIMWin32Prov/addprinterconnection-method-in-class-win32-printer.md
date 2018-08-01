@@ -102,7 +102,7 @@ Dim objWMIService, objPrinter AsObject
 objWMIService = GetObject(
 "winmgmts:" _
 
-&amp; 
+& 
 "{impersonationLevel=impersonate}!\\" & strComputer & "\root\cimv2")
 
 objPrinter = objWMIService.Get(

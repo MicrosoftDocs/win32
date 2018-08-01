@@ -27,7 +27,7 @@ dwStatus = DsMakeSpn(
     NULL,
     0,
     NULL,
-    &amp;pcSpnLength,
+    &pcSpnLength,
     pszSpn);
 
 rpcStatus = RpcServerRegisterAuthInfo (

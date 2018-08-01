@@ -45,7 +45,7 @@ BOOL RawDataToXpsPrinter (LPTSTR szPrinterName, LPBYTE lpData, DWORD dwCount)
     DWORD    dwBytesWritten = 0L;
 
     // Open a handle to the printer. 
-    bStatus = OpenPrinter (szPrinterName, &amp;hPrinter, NULL);
+    bStatus = OpenPrinter (szPrinterName, &hPrinter, NULL);
     
     if (bStatus) {
         // Fill in the structure with info about this "document." 
@@ -65,7 +65,7 @@ BOOL RawDataToXpsPrinter (LPTSTR szPrinterName, LPBYTE lpData, DWORD dwCount)
         dwPrtJob = StartDocPrinter (
                         hPrinter,
                         1,
-                        (LPBYTE)&amp;DocInfo);
+                        (LPBYTE)&DocInfo);
 
         if (dwPrtJob > 0) {
                 // Send the data to the printer. 
@@ -73,7 +73,7 @@ BOOL RawDataToXpsPrinter (LPTSTR szPrinterName, LPBYTE lpData, DWORD dwCount)
                 hPrinter,
                 lpData,
                 dwCount,
-                &amp;dwBytesWritten);
+                &dwBytesWritten);
         }
         
         EndDocPrinter (hPrinter);

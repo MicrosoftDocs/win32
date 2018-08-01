@@ -91,7 +91,7 @@ HRESULT  hr;
 // pAtr is a pointer to a previously instantiated IByteBuffer.
 // It was used in an earlier call by ISCard::get_Atr.
 // Use IByteBuffer::Read to access the retrieved ATR bytes.
-hr = pAtr->Read(byAtr, 32, &amp;lBytesRead);
+hr = pAtr->Read(byAtr, 32, &lBytesRead);
 // Use the ATR value. (This example merely displays the bytes.)
 for ( i = 0; i < lBytesRead; i++)
     printf("%c", *(byAtr + i));

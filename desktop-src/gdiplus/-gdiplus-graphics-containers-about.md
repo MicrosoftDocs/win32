@@ -21,10 +21,10 @@ myGraphics.TranslateTransform(200.0f, 0.0f);
 
 myGraphicsContainer = myGraphics.BeginContainer();
    myGraphics.TranslateTransform(0.0f, 100.0f);
-   myGraphics.DrawRectangle(&amp;myPen, 0, 0, 50, 50);
+   myGraphics.DrawRectangle(&myPen, 0, 0, 50, 50);
 myGraphics.EndContainer(myGraphicsContainer);
 
-myGraphics.DrawRectangle(&amp;myPen, 0, 0, 50, 50);
+myGraphics.DrawRectangle(&myPen, 0, 0, 50, 50);
 ```
 
 
@@ -44,7 +44,7 @@ container1 = myGraphics.BeginContainer();
 
    container2 = myGraphics.BeginContainer();
       myGraphics.ScaleTransform(2.0f, 1.0f);
-      myGraphics.DrawEllipse(&amp;myPen, -30, -20, 60, 40);
+      myGraphics.DrawEllipse(&myPen, -30, -20, 60, 40);
    myGraphics.EndContainer(container2);
 
 myGraphics.EndContainer(container1);
@@ -82,24 +82,24 @@ void DrawEye(Graphics* pGraphics)
       GraphicsPath myBottomPath;
       myBottomPath.AddEllipse(-30, -10, 60, 60);
 
-      Region myTopRegion(&amp;myTopPath);
-      Region myBottomRegion(&amp;myBottomPath);
+      Region myTopRegion(&myTopPath);
+      Region myBottomRegion(&myBottomPath);
 
       // Draw the outline of the eye.
       // The outline of the eye consists of two ellipses.
       // The top ellipse is clipped by the bottom ellipse, and
       // the bottom ellipse is clipped by the top ellipse.
-      pGraphics->SetClip(&amp;myTopRegion);
-      pGraphics->DrawPath(&amp;myBlackPen, &amp;myBottomPath);
-      pGraphics->SetClip(&amp;myBottomRegion);
-      pGraphics->DrawPath(&amp;myBlackPen, &amp;myTopPath);
+      pGraphics->SetClip(&myTopRegion);
+      pGraphics->DrawPath(&myBlackPen, &myBottomPath);
+      pGraphics->SetClip(&myBottomRegion);
+      pGraphics->DrawPath(&myBlackPen, &myTopPath);
 
       // Fill the iris.
       // The iris is clipped by the bottom ellipse.
-      pGraphics->FillEllipse(&amp;myGreenBrush, -10, -15, 20, 22);
+      pGraphics->FillEllipse(&myGreenBrush, -10, -15, 20, 22);
 
       // Fill the pupil.
-      pGraphics->FillEllipse(&amp;myBlackBrush, -3, -7, 6, 9);
+      pGraphics->FillEllipse(&myBlackBrush, -3, -7, 6, 9);
 
    pGraphics->EndContainer(eyeContainer);
 }
@@ -119,33 +119,33 @@ The following example draws three ellipses (faces), each with an eye inside.
 ```
 // Draw an ellipse with center at (100, 100).
 myGraphics.TranslateTransform(100.0f, 100.0f);
-myGraphics.DrawEllipse(&amp;myBlackPen, -40, -60, 80, 120);
+myGraphics.DrawEllipse(&myBlackPen, -40, -60, 80, 120);
 
 // Draw the eye at the center of the ellipse.
-DrawEye(&amp;myGraphics);
+DrawEye(&myGraphics);
 
 // Draw an ellipse with center at 200, 100.
 myGraphics.TranslateTransform(100.0f, 0.0f, MatrixOrderAppend);
-myGraphics.DrawEllipse(&amp;myBlackPen, -40, -60, 80, 120);
+myGraphics.DrawEllipse(&myBlackPen, -40, -60, 80, 120);
 
 // Rotate the eye 40 degrees, and draw it 30 units above
 // the center of the ellipse.
 myGraphicsContainer = myGraphics.BeginContainer();
    myGraphics.RotateTransform(-40.0f);
    myGraphics.TranslateTransform(0.0f, -30.0f, MatrixOrderAppend);
-   DrawEye(&amp;myGraphics);
+   DrawEye(&myGraphics);
 myGraphics.EndContainer(myGraphicsContainer);
 
 // Draw a ellipse with center at (300.0f, 100.0f).
 myGraphics.TranslateTransform(100.0f, 0.0f, MatrixOrderAppend);
-myGraphics.DrawEllipse(&amp;myBlackPen, -40, -60, 80, 120);
+myGraphics.DrawEllipse(&myBlackPen, -40, -60, 80, 120);
 
 // Stretch and rotate the eye, and draw it at the 
 // center of the ellipse.
 myGraphicsContainer = myGraphics.BeginContainer();
    myGraphics.ScaleTransform(2.0f, 1.5f);
    myGraphics.RotateTransform(45.0f, MatrixOrderAppend);
-   DrawEye(&amp;myGraphics);
+   DrawEye(&myGraphics);
 myGraphics.EndContainer(myGraphicsContainer);
 ```
 

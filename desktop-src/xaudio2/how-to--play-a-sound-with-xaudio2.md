@@ -25,14 +25,14 @@ This topic describes the minimum steps required to play previously-loaded audio 
 3.  Create a source voice by calling the [**IXAudio2::CreateSourceVoice**](https://msdn.microsoft.com/en-us/library/Ee418607(v=VS.85).aspx) method on an instance of the XAudio2 engine. The format of the voice is specified by the values set in a [**WAVEFORMATEX**](https://msdn.microsoft.com/en-us/library/Ff538799(v=VS.85).aspx) structure.
     ```
     IXAudio2SourceVoice* pSourceVoice;
-    if( FAILED(hr = pXAudio2->CreateSourceVoice( &amp;pSourceVoice, (WAVEFORMATEX*)&amp;wfx ) ) ) return hr;
+    if( FAILED(hr = pXAudio2->CreateSourceVoice( &pSourceVoice, (WAVEFORMATEX*)&wfx ) ) ) return hr;
     ```
 
     
 
 4.  Submit an [**XAUDIO2\_BUFFER**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer) to the source voice using the function [**SubmitSourceBuffer**](https://msdn.microsoft.com/en-us/library/Ee418473(v=VS.85).aspx).
     ```
-    if( FAILED(hr = pSourceVoice->SubmitSourceBuffer( &amp;buffer ) ) )
+    if( FAILED(hr = pSourceVoice->SubmitSourceBuffer( &buffer ) ) )
         return hr;
     ```
 
@@ -59,10 +59,10 @@ We recommend that you make use of a [smart pointer](https://msdn.microsoft.com/e
 ```
 Microsoft::WRL::ComPtr<IXAudio2SourceVoice> SourceVoice;
 HRESULT hr;
-if( FAILED(hr = pXAudio2->CreateSourceVoice( &amp;SourceVoice, (WAVEFORMATEX*)&amp;wfx ) ) )
+if( FAILED(hr = pXAudio2->CreateSourceVoice( &SourceVoice, (WAVEFORMATEX*)&wfx ) ) )
     throw Platform::Exception::CreateException(hr); 
 
-if( FAILED(hr = SourceVoice->SubmitSourceBuffer( &amp;buffer ) ) )
+if( FAILED(hr = SourceVoice->SubmitSourceBuffer( &buffer ) ) )
     throw Platform::Exception::CreateException(hr); 
 
 if ( FAILED(hr = SourceVoice->Start( 0 ) ) )

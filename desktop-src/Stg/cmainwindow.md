@@ -61,8 +61,8 @@ LRESULT CMainWindow::WindowProc(
         {
           PAINTSTRUCT ps;
 
-          if(BeginPaint(m_hWnd, &amp;ps))
-            EndPaint(m_hWnd, &amp;ps);
+          if(BeginPaint(m_hWnd, &ps))
+            EndPaint(m_hWnd, &ps);
 
           m_pGuiPaper->PaintWin();
         }

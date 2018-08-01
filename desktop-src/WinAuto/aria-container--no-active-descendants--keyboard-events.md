@@ -49,14 +49,14 @@ To fix this error, define a **keydown**, **keyup**, or **keypress** event handle
     var prev = itm.previousElementSibling;
     var next = itm.nextElementSibling;
 
-    if (e.keyCode == 38 &amp;&amp; prev) {
+    if (e.keyCode == 38 && prev) {
       // On arrow up move focus to the previous item.
       itm.setAttribute('tabindex', '-1');
       prev.setAttribute('tabindex','0');
       prev.focus();
     }
 
-    else if (e.keyCode == 40 &amp;&amp; next) {
+    else if (e.keyCode == 40 && next) {
       // On arrow down move focus to the next item.
       itm.setAttribute('tabindex', '-1');
       next.setAttribute('tabindex','0');

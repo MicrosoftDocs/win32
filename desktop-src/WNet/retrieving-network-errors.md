@@ -52,7 +52,7 @@ BOOL WINAPI NetErrorHandler(HWND hwnd,
  
     else 
     { 
-        dwWNetResult = WNetGetLastError(&amp;dwLastError, // error code
+        dwWNetResult = WNetGetLastError(&dwLastError, // error code
             (LPSTR) szDescription,  // buffer for error description 
             sizeof(szDescription),  // size of error buffer
             (LPSTR) szProvider,     // buffer for provider name 

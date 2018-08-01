@@ -58,13 +58,13 @@ HRESULT GetCRL(BYTE **ppBuffer, DWORD *pcbBuffer)
     DWORD cbCRL = 0;
 
     // Create the WMReader object.
-    hr = WMCreateReader(NULL, 0, &amp;pReader);
+    hr = WMCreateReader(NULL, 0, &pReader);
 
     // Query for the IWMDRMReader interface.
     if (SUCCEEDED(hr))
     {
         hr = pReader->QueryInterface(
-            IID_IWMDRMReader, (void**)&amp;pDrmReader);
+            IID_IWMDRMReader, (void**)&pDrmReader);
     }
 
     // Call GetDRMProperty once to find the size of the buffer.
@@ -72,9 +72,9 @@ HRESULT GetCRL(BYTE **ppBuffer, DWORD *pcbBuffer)
     {
         hr = pDrmReader->GetDRMProperty(
             g_wszWMDRMNET_Revocation,
-            &amp;type,
+            &type,
             NULL,
-            &amp;cbAttributeLength
+            &cbAttributeLength
             );
     }
 
@@ -93,9 +93,9 @@ HRESULT GetCRL(BYTE **ppBuffer, DWORD *pcbBuffer)
     {
         hr = pDrmReader->GetDRMProperty(
             g_wszWMDRMNET_Revocation,
-            &amp;type,
+            &type,
             pDataBase64,
-            &amp;cbAttributeLength
+            &cbAttributeLength
             );
     }
 
@@ -107,7 +107,7 @@ HRESULT GetCRL(BYTE **ppBuffer, DWORD *pcbBuffer)
             0,                      // Null-terminated.
             CRYPT_STRING_BASE64,    
             NULL,                   // Buffer (NULL).
-            &amp;cbCRL,                 // Receives the size of the buffer. 
+            &cbCRL,                 // Receives the size of the buffer. 
             NULL, NULL              // Optional.
             );
         if (!bResult)
@@ -134,7 +134,7 @@ HRESULT GetCRL(BYTE **ppBuffer, DWORD *pcbBuffer)
             0,                      // Null-terminated.
             CRYPT_STRING_BASE64,    
             pCRL,                   // Buffer.
-            &amp;cbCRL,                 // Receives the size of the buffer. 
+            &cbCRL,                 // Receives the size of the buffer. 
             NULL, NULL              // Optional.
             );
         if (!bResult)

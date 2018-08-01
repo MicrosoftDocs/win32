@@ -34,7 +34,7 @@ XPath Query: *[UserData/*/PrinterName="MyPrinter" and System/Level=1]
 
 // The following query selects all events from the channel or log file where the severity level is
 // less than or equal to 3 and the event occurred in the last 24 hour period.
-XPath Query: *[System[(Level &amp;lt;= 3) and TimeCreated[timediff(@SystemTime) &amp;lt;= 86400000]]]
+XPath Query: *[System[(Level &lt;= 3) and TimeCreated[timediff(@SystemTime) &lt;= 86400000]]]
 ```
 
 
@@ -50,15 +50,15 @@ The following shows a structured XML query that specifies a set of selectors and
 <QueryList>
   <Query Id="0">
     <Select Path="Application">
-        *[System[(Level &amp;lt;= 3) and 
-        TimeCreated[timediff(@SystemTime) &amp;lt;= 86400000]]]
+        *[System[(Level &lt;= 3) and 
+        TimeCreated[timediff(@SystemTime) &lt;= 86400000]]]
     </Select>
     <Suppress Path="Application">
         *[System[(Level = 2)]]
     </Suppress>
     <Select Path="System">
         *[System[(Level=1  or Level=2 or Level=3) and 
-        TimeCreated[timediff(@SystemTime) &amp;lt;= 86400000]]]
+        TimeCreated[timediff(@SystemTime) &lt;= 86400000]]]
     </Select>
   </Query>
 </QueryList>

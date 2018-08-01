@@ -79,7 +79,7 @@ The following example performs foreground ink analysis.
 ```C++
 // Perform synchronous ink analysis.
 IAnalysisStatus *pAnalysisStatus = NULL;
-hr = this->m_spIInkAnalyzer->Analyze(&amp;pAnalysisStatus);
+hr = this->m_spIInkAnalyzer->Analyze(&pAnalysisStatus);
 
 if (SUCCEEDED(hr))
 {

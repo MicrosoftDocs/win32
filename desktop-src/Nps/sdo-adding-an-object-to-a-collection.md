@@ -27,7 +27,7 @@ The following code adds a new policy to the IAS policies collection. The variabl
    // Check if the new client's name is unique
    //
 
-   hr = pClientsCollection->IsNameUnique(bstrClientName, &amp;vbNameUnique);
+   hr = pClientsCollection->IsNameUnique(bstrClientName, &vbNameUnique);
    if (FAILED(hr))
    {
       return hr;
@@ -46,7 +46,7 @@ The following code adds a new policy to the IAS policies collection. The variabl
    //
    CComPtr<IDispatch> pClientDispatch;
    pClientDispatch.p = NULL;
-   hr = pClientsCollection->Add(bstrClientName, &amp;pClientDispatch);
+   hr = pClientsCollection->Add(bstrClientName, &pClientDispatch);
    if (FAILED(hr))
    {
       return hr;
@@ -55,7 +55,7 @@ The following code adds a new policy to the IAS policies collection. The variabl
    CComPtr<ISdo> pClientSDO;
    hr = pClientDispatch->QueryInterface(
       __uuidof(ISdo),
-      (void**) &amp;pClientSDO
+      (void**) &pClientSDO
    );
    if (FAILED(hr))
    {
@@ -66,7 +66,7 @@ The following code adds a new policy to the IAS policies collection. The variabl
    // Set the address for the client
    //
    _variant_t  vtClientAddress = L"127.0.0.1";
-   hr = pClientSDO->PutProperty(PROPERTY_CLIENT_ADDRESS, &amp;vtClientAddress);
+   hr = pClientSDO->PutProperty(PROPERTY_CLIENT_ADDRESS, &vtClientAddress);
    if (FAILED(hr))
    {
       return hr;
@@ -76,7 +76,7 @@ The following code adds a new policy to the IAS policies collection. The variabl
    // Set the shared secret for the client
    //
    _variant_t  vtClientSecret = L">@U#'6cc='5Ly9O5QKEj2RTJr*fM";
-   hr = pClientSDO->PutProperty(PROPERTY_CLIENT_SHARED_SECRET, &amp;vtClientSecret);
+   hr = pClientSDO->PutProperty(PROPERTY_CLIENT_SHARED_SECRET, &vtClientSecret);
    if (FAILED(hr))
    {
       return hr;

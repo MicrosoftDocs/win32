@@ -20,10 +20,10 @@ VOID OnPaint(HDC hdc)
    Graphics    graphics(hdc);
    SolidBrush  brush(Color(255, 0, 0, 255));
    FontFamily  fontFamily(L"Times New Roman");
-   Font        font(&amp;fontFamily, 24, FontStyleRegular, UnitPixel);
+   Font        font(&fontFamily, 24, FontStyleRegular, UnitPixel);
    PointF      pointF(10.0f, 20.0f);
    
-   graphics.DrawString(L"Hello World!", -1, &amp;font, pointF, &amp;brush);
+   graphics.DrawString(L"Hello World!", -1, &font, pointF, &brush);
 }
 ```
 

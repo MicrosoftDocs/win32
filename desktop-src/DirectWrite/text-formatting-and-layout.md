@@ -55,7 +55,7 @@ The [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=
 if (SUCCEEDED(hr))
 {
     RECT rect;
-    GetClientRect(hwnd_, &amp;rect); 
+    GetClientRect(hwnd_, &rect); 
     float width  = rect.right  / dpiScaleX_;
     float height = rect.bottom / dpiScaleY_;
 
@@ -65,7 +65,7 @@ if (SUCCEEDED(hr))
         pTextFormat_,  // The text format to apply to the string (contains font information, etc).
         width,         // The width of the layout box.
         height,        // The height of the layout box.
-        &amp;pTextLayout_  // The IDWriteTextLayout interface pointer.
+        &pTextLayout_  // The IDWriteTextLayout interface pointer.
         );
 }
 

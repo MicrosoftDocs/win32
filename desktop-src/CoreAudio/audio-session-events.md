@@ -53,12 +53,12 @@ public:
 
     ULONG STDMETHODCALLTYPE AddRef()
     {
-        return InterlockedIncrement(&amp;_cRef);
+        return InterlockedIncrement(&_cRef);
     }
 
     ULONG STDMETHODCALLTYPE Release()
     {
-        ULONG ulRef = InterlockedDecrement(&amp;_cRef);
+        ULONG ulRef = InterlockedDecrement(&_cRef);
         if (0 == ulRef)
         {
             delete this;

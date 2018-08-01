@@ -57,13 +57,13 @@ void main(void){
          CLSCTX_ALL,
    /*"edbd9ca9-9b82-4f6a-9e8b-98301e450f14"*/
          __uuidof(IAzAuthorizationStore),
-         (void**)&amp;pStore);
+         (void**)&pStore);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create AzAuthorizationStore object.");
     
     //  Create a null VARIANT for function parameters.
     VARIANT myVar;
-    VariantInit(&amp;myVar);
+    VariantInit(&myVar);
 
     //  Allocate a string for the distinguished name of the
  //  Active Directory store.
@@ -84,7 +84,7 @@ void main(void){
 
     //  Clean up resources.
     pStore->Release();
-    VariantClear(&amp;myVar);
+    VariantClear(&myVar);
     SysFreeString(storeName);
     CoUninitialize();
 }
@@ -146,7 +146,7 @@ void main(void){
          CLSCTX_ALL,
    /*"edbd9ca9-9b82-4f6a-9e8b-98301e450f14"*/
          __uuidof(IAzAuthorizationStore),
-         (void**)&amp;pStore);
+         (void**)&pStore);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create AzAuthorizationStore object.");
     
@@ -227,7 +227,7 @@ void main(void){
          CLSCTX_ALL,
    /*"edbd9ca9-9b82-4f6a-9e8b-98301e450f14"*/
          __uuidof(IAzAuthorizationStore),
-         (void**)&amp;pStore);
+         (void**)&pStore);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create AzAuthorizationStore object.");
     

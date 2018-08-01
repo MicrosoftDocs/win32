@@ -167,7 +167,7 @@ hr = CoCreateInstance(CLSID_Pathname,
                       NULL,
                       CLSCTX_INPROC_SERVER,
                       IID_IADsPathname,
-                      (void**)&amp;pPathname);
+                      (void**)&pPathname);
  
 if(FAILED(hr)) 
 {
@@ -180,7 +180,7 @@ hr = pPathname->Set(CComBSTR("LDAP://CN=joy/ful\/*"),
                     ADS_SETTYPE_FULL); 
  
 hr = pPathname->put_EscapedMode(ADS_ESCAPEDMODE_OFF);
-hr = pPathname->Retrieve(ADS_FORMAT_WINDOWS_DN,&amp;bstr);
+hr = pPathname->Retrieve(ADS_FORMAT_WINDOWS_DN,&bstr);
 printf("Unescaped path: %S\n",bstr);   
 
 // Producing "LDAP://CN=joy/ful/*"
@@ -188,7 +188,7 @@ printf("Unescaped path: %S\n",bstr);
 SysFreeString(bstr);
  
 hr = pPathname->put_EscapedMode(ADS_ESCAPEDMODE_ON);
-hr = pPathname->Retrieve(ADS_FORMAT_WINDOWS_DN,&amp;bstr);
+hr = pPathname->Retrieve(ADS_FORMAT_WINDOWS_DN,&bstr);
 printf("Escaped path: %S\n",bstr);
 
 // Producing "LDAP://CN=joy/ful\/*"
@@ -200,7 +200,7 @@ SysFreeString(bstr);
 hr = pPathname->Set(CComBSTR("CN=joy/ful\/*"), ADS_SETTYPE_DN); 
  
 hr = pPathname->put_EscapedMode(ADS_ESCAPEDMODE_OFF);
-hr = pPathname->Retrieve(ADS_FORMAT_WINDOWS_DN,&amp;bstr);
+hr = pPathname->Retrieve(ADS_FORMAT_WINDOWS_DN,&bstr);
 printf("Unescaped path: %S\n",bstr);   
 
 // Producing "LDAP://CN=joy/ful/*"
@@ -208,7 +208,7 @@ printf("Unescaped path: %S\n",bstr);
 SysFreeString(bstr);
  
 hr = pPathname->put_EscapedMode(ADS_ESCAPEDMODE_ON);
-hr = pPathname->Retrieve(ADS_FORMAT_WINDOWS_DN,&amp;bstr);
+hr = pPathname->Retrieve(ADS_FORMAT_WINDOWS_DN,&bstr);
 printf("Escaped path: %S\n",bstr);
 
 // Producing "LDAP://CN=joy\/ful\/*"

@@ -128,23 +128,23 @@ STDMETHODIMP CCommandHandler::Execute(
                 {
                     IPropertyStore *pPropertyStore = NULL;
                     hr = g_pRibbon->QueryInterface(__uuidof(IPropertyStore), 
-                                                   (void**)&amp;pPropertyStore);
+                                                   (void**)&pPropertyStore);
                     if (SUCCEEDED(hr))
                     {
                         if (ppropvarValue != NULL)
                         {
                             // Is the ToggleButton state on or off?
                             BOOL fToggled;
-                            hr = UIPropertyToBoolean(*key, *ppropvarValue, &amp;fToggled);
+                            hr = UIPropertyToBoolean(*key, *ppropvarValue, &fToggled);
 
                             if (SUCCEEDED(hr))
                             {
                                 // Set the ribbon display state based on the toggle state.
                                 PROPVARIANT propvar;
-                                PropVariantInit(&amp;propvar);
+                                PropVariantInit(&propvar);
                                 UIInitPropertyFromBoolean(UI_PKEY_Minimized, 
                                                           fToggled, 
-                                                          &amp;propvar);
+                                                          &propvar);
                                 hr = pPropertyStore->SetValue(UI_PKEY_Minimized, 
                                                               propvar);
                                 pPropertyStore->Commit();

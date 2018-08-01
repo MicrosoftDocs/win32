@@ -45,7 +45,7 @@ STDMETHODIMP CSurrogateFactory::CreateInstance(
     void* pcf;
     HRESULT hr;
  
-    hr = CoGetClassObject(clsid, CLSCTX_INPROC_SERVER, NULL, IID_IClassFactory, &amp;pcf);
+    hr = CoGetClassObject(clsid, CLSCTX_INPROC_SERVER, NULL, IID_IClassFactory, &pcf);
     if ( FAILED(hr) )
         return hr;
     hr = ((IClassFactory*)pcf)->CreateInstance(pUnkOuter, iid, ppv);
@@ -71,7 +71,7 @@ STDMETHODIMP CSurrogateFactory::MarshalInterface(
     void * pCF = NULL;
     HRESULT hr;
  
-    hr = CoGetClassObject(clsid, CLSCTX_INPROC_SERVER, NULL, riid, &amp;pCF);
+    hr = CoGetClassObject(clsid, CLSCTX_INPROC_SERVER, NULL, riid, &pCF);
     if ( FAILED(hr) )
         return hr;   
     hr = CoMarshalInterface(pStm, riid, (IUnknown*)pCF, dwDestContext, pvDestContext,  mshlflags);

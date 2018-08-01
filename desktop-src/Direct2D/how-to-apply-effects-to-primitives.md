@@ -36,7 +36,7 @@ This effect graph consists of four [**ID2D1Effect**](https://msdn.microsoft.com/
     ```C++
     // Create the Gaussian Blur Effect
     DX::ThrowIfFailed(
-        m_d2dContext->CreateEffect(CLSID_D2D1GaussianBlur, &amp;gaussianBlurEffect)
+        m_d2dContext->CreateEffect(CLSID_D2D1GaussianBlur, &gaussianBlurEffect)
         );
 
     // Set the blur amount
@@ -54,7 +54,7 @@ This effect graph consists of four [**ID2D1Effect**](https://msdn.microsoft.com/
     ```C++
     // Create the Specular Lighting Effect
     DX::ThrowIfFailed(
-        m_d2dContext->CreateEffect(CLSID_D2D1PointSpecular, &amp;specularLightingEffect)
+        m_d2dContext->CreateEffect(CLSID_D2D1PointSpecular, &specularLightingEffect)
         );
 
     DX::ThrowIfFailed(
@@ -87,7 +87,7 @@ This effect graph consists of four [**ID2D1Effect**](https://msdn.microsoft.com/
     ```C++
     // Create the Composite Effects
     DX::ThrowIfFailed(
-        m_d2dContext->CreateEffect(CLSID_D2D1Composite, &amp;compositeEffect)
+        m_d2dContext->CreateEffect(CLSID_D2D1Composite, &compositeEffect)
         );
 
     DX::ThrowIfFailed(
@@ -95,7 +95,7 @@ This effect graph consists of four [**ID2D1Effect**](https://msdn.microsoft.com/
         );
 
     DX::ThrowIfFailed(
-        m_d2dContext->CreateEffect(CLSID_D2D1ArithmeticComposite, &amp;m_arithmeticCompositeEffect)
+        m_d2dContext->CreateEffect(CLSID_D2D1ArithmeticComposite, &m_arithmeticCompositeEffect)
         );
 
     DX::ThrowIfFailed(

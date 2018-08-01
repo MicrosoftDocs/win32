@@ -32,7 +32,7 @@ INT main()
    // Initialize GDI+
    GdiplusStartupInput gdiplusStartupInput;
    ULONG_PTR gdiplusToken;
-   GdiplusStartup(&amp;gdiplusToken, &amp;gdiplusStartupInput, NULL);
+   GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
 
    UINT  num;        // Number of image encoders
    UINT  size;       // Size of the image encoder array in bytes
@@ -41,7 +41,7 @@ INT main()
 
    // How many encoders are there?
    // How big (in bytes) is the array of all ImageCodecInfo objects?
-   GetImageEncodersSize(&amp;num, &amp;size);
+   GetImageEncodersSize(&num, &size);
 
    // Create a buffer large enough to hold the array of ImageCodecInfo
    // objects that will be returned by GetImageEncoders.
@@ -55,7 +55,7 @@ INT main()
    // For each ImageCodecInfo object in the array, show all parameters.
    for(UINT j = 0; j < num; ++j)
    { 
-      ShowAllEncoderParameters(&amp;(pImageCodecInfo[j]));
+      ShowAllEncoderParameters(&(pImageCodecInfo[j]));
    }
 
    GdiplusShutdown(gdiplusToken);
@@ -81,7 +81,7 @@ VOID ShowAllEncoderParameters(ImageCodecInfo* pImageCodecInfo)
 
    // How big (in bytes) is the encoder's parameter list?
    UINT listSize = 0; 
-   listSize = bitmap.GetEncoderParameterListSize(&amp;pImageCodecInfo->Clsid);
+   listSize = bitmap.GetEncoderParameterListSize(&pImageCodecInfo->Clsid);
    printf("  The parameter list requires %d bytes.\n", listSize);
 
    if(listSize == 0)
@@ -96,7 +96,7 @@ VOID ShowAllEncoderParameters(ImageCodecInfo* pImageCodecInfo)
 
    // Get the parameter list for the encoder.
    bitmap.GetEncoderParameterList(
-      &amp;pImageCodecInfo->Clsid, listSize, pEncoderParameters);
+      &pImageCodecInfo->Clsid, listSize, pEncoderParameters);
 
    // pEncoderParameters points to an EncoderParameters object, which
    // has a Count member and an array of EncoderParameter objects.

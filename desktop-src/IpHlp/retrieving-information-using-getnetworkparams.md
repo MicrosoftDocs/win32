@@ -46,7 +46,7 @@ The [**GetNetworkParams**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getnetworkp
      
 
     ```C++
-        if (GetNetworkParams(pFixedInfo, &amp;ulOutBufLen) == ERROR_BUFFER_OVERFLOW) {
+        if (GetNetworkParams(pFixedInfo, &ulOutBufLen) == ERROR_BUFFER_OVERFLOW) {
             free(pFixedInfo);
             pFixedInfo = (FIXED_INFO *) malloc(ulOutBufLen);
             if (pFixedInfo == NULL) {
@@ -59,7 +59,7 @@ The [**GetNetworkParams**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getnetworkp
 
 4.  Make a second call to [**GetNetworkParams**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getnetworkparams) using general error checking and returning its value to the **DWORD** variable *dwRetVal*; used for more advanced error checking.
     ```C++
-        if (dwRetVal = GetNetworkParams(pFixedInfo, &amp;ulOutBufLen) != NO_ERROR) {
+        if (dwRetVal = GetNetworkParams(pFixedInfo, &ulOutBufLen) != NO_ERROR) {
             printf("GetNetworkParams failed with error %d\n", dwRetVal);
             if (pFixedInfo) {
                 free(pFixedInfo);

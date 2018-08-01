@@ -46,7 +46,7 @@ Before you can copy image data or metadata to a new image file, you must first c
     {
         hr = CoCreateInstance(CLSID_WICImagingFactory,
         NULL, CLSCTX_INPROC_SERVER,
-        IID_PPV_ARGS(&amp;piFactory));
+        IID_PPV_ARGS(&piFactory));
     }
 
     // Create the decoder.
@@ -54,7 +54,7 @@ Before you can copy image data or metadata to a new image file, you must first c
     {
         hr = piFactory->CreateDecoderFromFilename(L"test.jpg", NULL, GENERIC_READ,
             WICDecodeMetadataCacheOnDemand, //For JPEG lossless decoding/encoding.
-            &amp;piDecoder);
+            &piDecoder);
     }
 ```
 
@@ -82,7 +82,7 @@ The following code demonstrates the creation of the encoder you will use to enco
     // Create a file stream.
     if (SUCCEEDED(hr))
     {
-        hr = piFactory->CreateStream(&amp;piFileStream);
+        hr = piFactory->CreateStream(&piFileStream);
     }
 
     // Initialize our new file stream.
@@ -94,7 +94,7 @@ The following code demonstrates the creation of the encoder you will use to enco
     // Create the encoder.
     if (SUCCEEDED(hr))
     {
-        hr = piFactory->CreateEncoder(GUID_ContainerFormatJpeg, NULL, &amp;piEncoder);
+        hr = piFactory->CreateEncoder(GUID_ContainerFormatJpeg, NULL, &piEncoder);
     }
     // Initialize the encoder
     if (SUCCEEDED(hr))
@@ -120,13 +120,13 @@ The following code copies each frame of an image to a new frame of the encoder. 
 ```C++
     if (SUCCEEDED(hr))
     {
-        hr = piDecoder->GetFrameCount(&amp;count);
+        hr = piDecoder->GetFrameCount(&count);
     }
 
     if (SUCCEEDED(hr))
     {
         // Process each frame of the image.
-        for (UINT i=0; i<count &amp;&amp; SUCCEEDED(hr); i++)
+        for (UINT i=0; i<count && SUCCEEDED(hr); i++)
         {
             // Frame variables.
             IWICBitmapFrameDecode *piFrameDecode = NULL;
@@ -137,11 +137,11 @@ The following code copies each frame of an image to a new frame of the encoder. 
             // Get and create the image frame.
             if (SUCCEEDED(hr))
             {
-                hr = piDecoder->GetFrame(i, &amp;piFrameDecode);
+                hr = piDecoder->GetFrame(i, &piFrameDecode);
             }
             if (SUCCEEDED(hr))
             {
-                hr = piEncoder->CreateNewFrame(&amp;piFrameEncode, NULL);
+                hr = piEncoder->CreateNewFrame(&piFrameEncode, NULL);
             }
 
             // Initialize the encoder.
@@ -152,7 +152,7 @@ The following code copies each frame of an image to a new frame of the encoder. 
             // Get and set the size.
             if (SUCCEEDED(hr))
             {
-                hr = piFrameDecode->GetSize(&amp;width, &amp;height);
+                hr = piFrameDecode->GetSize(&width, &height);
             }
             if (SUCCEEDED(hr))
             {
@@ -161,7 +161,7 @@ The following code copies each frame of an image to a new frame of the encoder. 
             // Get and set the resolution.
             if (SUCCEEDED(hr))
             {
-                piFrameDecode->GetResolution(&amp;dpiX, &amp;dpiY);
+                piFrameDecode->GetResolution(&dpiX, &dpiY);
             }
             if (SUCCEEDED(hr))
             {
@@ -170,11 +170,11 @@ The following code copies each frame of an image to a new frame of the encoder. 
             // Set the pixel format.
             if (SUCCEEDED(hr))
             {
-                piFrameDecode->GetPixelFormat(&amp;pixelFormat);
+                piFrameDecode->GetPixelFormat(&pixelFormat);
             }
             if (SUCCEEDED(hr))
             {
-                hr = piFrameEncode->SetPixelFormat(&amp;pixelFormat);
+                hr = piFrameEncode->SetPixelFormat(&pixelFormat);
             }
 ```
 
@@ -191,10 +191,10 @@ The following code performs a quick check to determine whether the source and de
                 GUID srcFormat;
                 GUID destFormat;
 
-                hr = piDecoder->GetContainerFormat(&amp;srcFormat);
+                hr = piDecoder->GetContainerFormat(&srcFormat);
                 if (SUCCEEDED(hr))
                 {
-                    hr = piEncoder->GetContainerFormat(&amp;destFormat);
+                    hr = piEncoder->GetContainerFormat(&destFormat);
                 }
                 if (SUCCEEDED(hr))
                 {
@@ -221,16 +221,16 @@ The preferred method for copying metadata is to initialize the new frame's block
 
 
 ```C++
-            if (SUCCEEDED(hr) &amp;&amp; formatsEqual)
+            if (SUCCEEDED(hr) && formatsEqual)
             {
                 // Copy metadata using metadata block reader/writer.
                 if (SUCCEEDED(hr))
                 {
-                    piFrameDecode->QueryInterface(IID_PPV_ARGS(&amp;piBlockReader));
+                    piFrameDecode->QueryInterface(IID_PPV_ARGS(&piBlockReader));
                 }
                 if (SUCCEEDED(hr))
                 {
-                    piFrameEncode->QueryInterface(IID_PPV_ARGS(&amp;piBlockWriter));
+                    piFrameEncode->QueryInterface(IID_PPV_ARGS(&piBlockWriter));
                 }
                 if (SUCCEEDED(hr))
                 {
@@ -253,7 +253,7 @@ The following example demonstrates how to add metadata to the destination image.
 ```C++
             if(SUCCEEDED(hr))
             {
-                hr = piFrameEncode->GetMetadataQueryWriter(&amp;piFrameQWriter);
+                hr = piFrameEncode->GetMetadataQueryWriter(&piFrameQWriter);
             }
             if (SUCCEEDED(hr))
             {
@@ -261,7 +261,7 @@ The following example demonstrates how to add metadata to the destination image.
                 PROPVARIANT    value;
                 value.vt = VT_LPWSTR;
                 value.pwszVal= L"Metadata Test Image.";
-                hr = piFrameQWriter->SetMetadataByName(L"/xmp/dc:title", &amp;value);
+                hr = piFrameQWriter->SetMetadataByName(L"/xmp/dc:title", &value);
             }
 ```
 
@@ -366,7 +366,7 @@ int main()
     {
         hr = CoCreateInstance(CLSID_WICImagingFactory,
         NULL, CLSCTX_INPROC_SERVER,
-        IID_PPV_ARGS(&amp;piFactory));
+        IID_PPV_ARGS(&piFactory));
     }
 
     // Create the decoder.
@@ -374,7 +374,7 @@ int main()
     {
         hr = piFactory->CreateDecoderFromFilename(L"test.jpg", NULL, GENERIC_READ,
             WICDecodeMetadataCacheOnDemand, //For JPEG lossless decoding/encoding.
-            &amp;piDecoder);
+            &piDecoder);
     }
 
     // Variables used for encoding.
@@ -391,7 +391,7 @@ int main()
     // Create a file stream.
     if (SUCCEEDED(hr))
     {
-        hr = piFactory->CreateStream(&amp;piFileStream);
+        hr = piFactory->CreateStream(&piFileStream);
     }
 
     // Initialize our new file stream.
@@ -403,7 +403,7 @@ int main()
     // Create the encoder.
     if (SUCCEEDED(hr))
     {
-        hr = piFactory->CreateEncoder(GUID_ContainerFormatJpeg, NULL, &amp;piEncoder);
+        hr = piFactory->CreateEncoder(GUID_ContainerFormatJpeg, NULL, &piEncoder);
     }
     // Initialize the encoder
     if (SUCCEEDED(hr))
@@ -413,13 +413,13 @@ int main()
 
     if (SUCCEEDED(hr))
     {
-        hr = piDecoder->GetFrameCount(&amp;count);
+        hr = piDecoder->GetFrameCount(&count);
     }
 
     if (SUCCEEDED(hr))
     {
         // Process each frame of the image.
-        for (UINT i=0; i<count &amp;&amp; SUCCEEDED(hr); i++)
+        for (UINT i=0; i<count && SUCCEEDED(hr); i++)
         {
             // Frame variables.
             IWICBitmapFrameDecode *piFrameDecode = NULL;
@@ -430,11 +430,11 @@ int main()
             // Get and create the image frame.
             if (SUCCEEDED(hr))
             {
-                hr = piDecoder->GetFrame(i, &amp;piFrameDecode);
+                hr = piDecoder->GetFrame(i, &piFrameDecode);
             }
             if (SUCCEEDED(hr))
             {
-                hr = piEncoder->CreateNewFrame(&amp;piFrameEncode, NULL);
+                hr = piEncoder->CreateNewFrame(&piFrameEncode, NULL);
             }
 
             // Initialize the encoder.
@@ -445,7 +445,7 @@ int main()
             // Get and set the size.
             if (SUCCEEDED(hr))
             {
-                hr = piFrameDecode->GetSize(&amp;width, &amp;height);
+                hr = piFrameDecode->GetSize(&width, &height);
             }
             if (SUCCEEDED(hr))
             {
@@ -454,7 +454,7 @@ int main()
             // Get and set the resolution.
             if (SUCCEEDED(hr))
             {
-                piFrameDecode->GetResolution(&amp;dpiX, &amp;dpiY);
+                piFrameDecode->GetResolution(&dpiX, &dpiY);
             }
             if (SUCCEEDED(hr))
             {
@@ -463,11 +463,11 @@ int main()
             // Set the pixel format.
             if (SUCCEEDED(hr))
             {
-                piFrameDecode->GetPixelFormat(&amp;pixelFormat);
+                piFrameDecode->GetPixelFormat(&pixelFormat);
             }
             if (SUCCEEDED(hr))
             {
-                hr = piFrameEncode->SetPixelFormat(&amp;pixelFormat);
+                hr = piFrameEncode->SetPixelFormat(&pixelFormat);
             }
 
             // Check that the destination format and source formats are the same.
@@ -477,10 +477,10 @@ int main()
                 GUID srcFormat;
                 GUID destFormat;
 
-                hr = piDecoder->GetContainerFormat(&amp;srcFormat);
+                hr = piDecoder->GetContainerFormat(&srcFormat);
                 if (SUCCEEDED(hr))
                 {
-                    hr = piEncoder->GetContainerFormat(&amp;destFormat);
+                    hr = piEncoder->GetContainerFormat(&destFormat);
                 }
                 if (SUCCEEDED(hr))
                 {
@@ -491,16 +491,16 @@ int main()
                 }
             }
 
-            if (SUCCEEDED(hr) &amp;&amp; formatsEqual)
+            if (SUCCEEDED(hr) && formatsEqual)
             {
                 // Copy metadata using metadata block reader/writer.
                 if (SUCCEEDED(hr))
                 {
-                    piFrameDecode->QueryInterface(IID_PPV_ARGS(&amp;piBlockReader));
+                    piFrameDecode->QueryInterface(IID_PPV_ARGS(&piBlockReader));
                 }
                 if (SUCCEEDED(hr))
                 {
-                    piFrameEncode->QueryInterface(IID_PPV_ARGS(&amp;piBlockWriter));
+                    piFrameEncode->QueryInterface(IID_PPV_ARGS(&piBlockWriter));
                 }
                 if (SUCCEEDED(hr))
                 {
@@ -510,7 +510,7 @@ int main()
 
             if(SUCCEEDED(hr))
             {
-                hr = piFrameEncode->GetMetadataQueryWriter(&amp;piFrameQWriter);
+                hr = piFrameEncode->GetMetadataQueryWriter(&piFrameQWriter);
             }
             if (SUCCEEDED(hr))
             {
@@ -518,7 +518,7 @@ int main()
                 PROPVARIANT    value;
                 value.vt = VT_LPWSTR;
                 value.pwszVal= L"Metadata Test Image.";
-                hr = piFrameQWriter->SetMetadataByName(L"/xmp/dc:title", &amp;value);
+                hr = piFrameQWriter->SetMetadataByName(L"/xmp/dc:title", &value);
             }
             if (SUCCEEDED(hr))
             {

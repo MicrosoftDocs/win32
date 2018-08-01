@@ -44,14 +44,14 @@ WCHAR szParameters[MAX_PARAMETER_LEN+1];
 GUID JobId;
 int rc;
 
-hr = pJob->GetId(&amp;JobId);
+hr = pJob->GetId(&JobId);
 if (SUCCEEDED(hr)
 {
   rc = StringFromGUID2(JobId, szJobId, sizeof(szJobId));
   if (rc)
   {
     StringCchPrintf(szParameters, MAX_PARAMETER_LEN+1, L"%s %s", pProgram, szJobId);
-    pJob->QueryInterface(__uuidof(IBackgroundCopyJob2), (void**)&amp;pJob2);
+    pJob->QueryInterface(__uuidof(IBackgroundCopyJob2), (void**)&pJob2);
     hr = pJob2->SetNotifyCmdLine(pProgram, szParameters);
     if (SUCCEEDED(hr))
     {
@@ -99,17 +99,17 @@ HRESULT wmain(int argc, wchar_t *argv[])
         NULL, EOAC_NONE, 0);
     hr = CoCreateInstance(__uuidof(BackgroundCopyManager), 
             NULL, CLSCTX_ANY,
-            __uuidof( IBackgroundCopyManager ), (void**) &amp;pManager);
+            __uuidof( IBackgroundCopyManager ), (void**) &pManager);
 
     if (pManager)
     {
-        hr = CLSIDFromString(argv[1], &amp;JobId);
+        hr = CLSIDFromString(argv[1], &JobId);
         if (SUCCEEDED(hr))
         {
-            hr = pManager->GetJob(JobId, &amp;pJob);
+            hr = pManager->GetJob(JobId, &pJob);
             if (SUCCEEDED(hr))
             {
-                hr = pJob->GetDisplayName(&amp;pDisplayName);
+                hr = pJob->GetDisplayName(&pDisplayName);
                 if (SUCCEEDED(hr))
                 {
                     pMessage = (WCHAR*)malloc((wcslen(pDisplayName) + 

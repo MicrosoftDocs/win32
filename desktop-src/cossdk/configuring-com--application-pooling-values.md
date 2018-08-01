@@ -125,16 +125,16 @@ try {
 
     // Create a COMAdminCatalog object and get its IUnknown.
     hr = CoCreateInstance(CLSID_COMAdminCatalog, NULL, 
-      CLSCTX_INPROC_SERVER, IID_IUnknown, (void**)&amp;pUnknown);
+      CLSCTX_INPROC_SERVER, IID_IUnknown, (void**)&pUnknown);
     if (FAILED (hr)) throw(hr);
 
     // Get the ICOMAdminCatalog interface.
    hr = pUnknown->QueryInterface(IID_ICOMAdminCatalog, 
-      (void**)&amp;pCatalog); 
+      (void**)&pCatalog); 
     if (FAILED (hr)) throw(hr);
 
     // Get an interface to the Applications collection.
-    hr = pCatalog->GetCollection(L"Applications", (IDispatch**)&amp;pAppColl);
+    hr = pCatalog->GetCollection(L"Applications", (IDispatch**)&pAppColl);
     if (FAILED (hr)) throw(hr);
 
     // Populate all of the Applications collection.
@@ -143,18 +143,18 @@ try {
 
     // Get the number of applications in the collection.
     LONG lCount = -1;
-    hr = pAppColl->get_Count(&amp;lCount);
+    hr = pAppColl->get_Count(&lCount);
     if (FAILED (hr)) throw(hr);
 
     // Iterate through each application in the collection.
     VARIANT varName;
-    VariantInit(&amp;varName);
+    VariantInit(&varName);
     for (LONG lIdx = 0; lIdx < lCount; lIdx++) {
-        hr = pAppColl->get_Item(lIdx, (IDispatch**)&amp;pApplication);
+        hr = pAppColl->get_Item(lIdx, (IDispatch**)&pApplication);
         if (FAILED (hr)) throw(hr);
 
         // Get the Name value of each application.
-       hr = pApplication->get_Name(&amp;varName);
+       hr = pApplication->get_Name(&varName);
         if (FAILED (hr)) throw(hr);
 
         // Compare the application name to bstrMyApp.
@@ -163,7 +163,7 @@ try {
         if (VARCMP_EQ == hr) {  // The strings are equal.
             // Set the new pooling value.
             VARIANT varPool;
-            VariantInit(&amp;varPool);
+            VariantInit(&varPool);
             varPool.vt = VT_I4;  // Tell the VARIANT it's holding a LONG.
             varPool.lVal = lPool;
             hr = pApplication->put_Value(L"ConcurrentApps", varPool);
@@ -173,7 +173,7 @@ try {
         }
     }
     LONG lNum;
-    hr = pAppColl->SaveChanges(&amp;lNum);
+    hr = pAppColl->SaveChanges(&lNum);
     if (FAILED (hr)) throw(hr);
 
     // Clean up.

@@ -39,9 +39,9 @@ IWMHeaderInfo     *pInfo = 0;
 
 // Create the metadata editor object.
 
-WMCreateEditor(&amp;pEdit);
+WMCreateEditor(&pEdit);
 pEdit->Open(L"C:\\example.wmv");
-pEdit->QueryInterface(IID_IWMHeaderInfo, (void**)&amp;pInfo);
+pEdit->QueryInterface(IID_IWMHeaderInfo, (void**)&pInfo);
 
 // Add the markers. Note that we add the last ones first. Do this when possible
 // for improved performance when writing the markers to the file.
@@ -67,7 +67,7 @@ To remove a marker, call [**IWMHeaderInfo::RemoveMarker**](/windows/desktop/api/
 
 ```C++
 WORD count = 0;
-pInfo->GetMarkerCount(&amp;count);
+pInfo->GetMarkerCount(&count);
 while (count--)
 {
     pInfo->RemoveMarker(0);
@@ -91,7 +91,7 @@ The following code loops through every marker in order and retrieves the name an
 
 ```C++
 WORD cMarkers = 0;
-HRESULT hr = pInfo->GetMarkerCount(&amp;cMarkers);
+HRESULT hr = pInfo->GetMarkerCount(&cMarkers);
 
 WCHAR *wszName = 0;
 WORD  len = 0;
@@ -99,7 +99,7 @@ for (WORD iMarker = 0; iMarker < cMarkers; ++iMarker)
 {
     QWORD rtTime = 0;
     WORD req_len = 0;
-    hr = pInfo->GetMarker(iMarker, 0, &amp;req_len, &amp;rtTime);
+    hr = pInfo->GetMarker(iMarker, 0, &req_len, &rtTime);
     
     // Reallocate if necessary.
     if (len < req_len)
@@ -108,7 +108,7 @@ for (WORD iMarker = 0; iMarker < cMarkers; ++iMarker)
         wszName = new WCHAR[req_len];
         len = req_len;
     }
-    hr = pInfo->GetMarker(iMarker, wszName, &amp;req_len, &amp;rtTime);
+    hr = pInfo->GetMarker(iMarker, wszName, &req_len, &rtTime);
     // Display the name...
 }
 delete[] wszName;
@@ -125,7 +125,7 @@ To start playback from a marker location, call the reader object's [**IWMReaderA
 ```C++
 IWMReaderAdvanced2 *pReader2 = 0
 WORD iMarkerIndex = 0;
-hr = pReader->QueryInterface(IID_IWMReaderAdvanced2, (void**)&amp;pReader2);
+hr = pReader->QueryInterface(IID_IWMReaderAdvanced2, (void**)&pReader2);
 if (SUCCEEDED(hr))
 {
     hr = pPlayer2->StartAtMarker(iMarkerIndex, 0, 1.0, 0);

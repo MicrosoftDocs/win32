@@ -54,7 +54,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -62,7 +62,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -93,7 +93,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -104,7 +104,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -118,7 +118,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         0, 
         NULL,
         0,
-        &amp;proxy, 
+        &proxy, 
         error);
     if (FAILED(hr))
     {
@@ -130,7 +130,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     address.url = serviceUrl;
     hr = WsOpenServiceProxy(
         proxy, 
-        &amp;address, 
+        &address, 
         NULL, 
         error);
     if (FAILED(hr))
@@ -216,7 +216,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         L"-5\n");
     hr = CalculatorBinding_Total(
         proxy,
-        &amp;result,
+        &result,
         heap,
         NULL,
         0,

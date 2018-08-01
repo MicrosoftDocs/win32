@@ -39,7 +39,7 @@ The script uses a [**SWbemMethod.InParameters**](swbemmethod-inparameters.md) ob
 
 ```VB
 ' Registry key value in hex
-Const hklm = &amp;h800000002  
+Const hklm = &h800000002  
 ' Subkey string 
 Const Subkey = "software\\microsoft\\wbem\\cimom" 
 ' Asynchronous access control

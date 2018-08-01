@@ -21,7 +21,7 @@ We saw an example of this pattern in the [Open dialog box example](example--the-
 
 ```C++
 PWSTR pszFilePath;
-hr = pItem->GetDisplayName(SIGDN_FILESYSPATH, &amp;pszFilePath);
+hr = pItem->GetDisplayName(SIGDN_FILESYSPATH, &pszFilePath);
 if (SUCCEEDED(hr))
 {
     // ...

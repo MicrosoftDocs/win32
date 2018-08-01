@@ -57,7 +57,7 @@ void TransformAndDraw(int iTransform, HWND hWnd)
             xForm.eM22 = (FLOAT) 0.5; 
             xForm.eDx  = (FLOAT) 0.0; 
             xForm.eDy  = (FLOAT) 0.0; 
-            SetWorldTransform(hDC, &amp;xForm); 
+            SetWorldTransform(hDC, &xForm); 
             break; 
  
         case TRANSLATE:   // Translate right by 3/4 inch.  
@@ -67,7 +67,7 @@ void TransformAndDraw(int iTransform, HWND hWnd)
             xForm.eM22 = (FLOAT) 1.0; 
             xForm.eDx  = (FLOAT) 75.0; 
             xForm.eDy  = (FLOAT) 0.0; 
-            SetWorldTransform(hDC, &amp;xForm); 
+            SetWorldTransform(hDC, &xForm); 
             break; 
  
         case ROTATE:      // Rotate 30 degrees counterclockwise.  
@@ -77,7 +77,7 @@ void TransformAndDraw(int iTransform, HWND hWnd)
             xForm.eM22 = (FLOAT) 0.8660; 
             xForm.eDx  = (FLOAT) 0.0; 
             xForm.eDy  = (FLOAT) 0.0; 
-            SetWorldTransform(hDC, &amp;xForm); 
+            SetWorldTransform(hDC, &xForm); 
             break; 
  
         case SHEAR:       // Shear along the x-axis with a  
@@ -88,7 +88,7 @@ void TransformAndDraw(int iTransform, HWND hWnd)
             xForm.eM22 = (FLOAT) 1.0; 
             xForm.eDx  = (FLOAT) 0.0; 
             xForm.eDy  = (FLOAT) 0.0; 
-            SetWorldTransform(hDC, &amp;xForm); 
+            SetWorldTransform(hDC, &xForm); 
             break; 
  
         case REFLECT:     // Reflect about a horizontal axis.  
@@ -98,7 +98,7 @@ void TransformAndDraw(int iTransform, HWND hWnd)
             xForm.eM22 = (FLOAT) -1.0; 
             xForm.eDx  = (FLOAT) 0.0; 
             xForm.eDy  = (FLOAT) 0.0; 
-            SetWorldTransform(hDC, &amp;xForm); 
+            SetWorldTransform(hDC, &xForm); 
             break; 
  
         case NORMAL:      // Set the unity transformation.  
@@ -108,15 +108,15 @@ void TransformAndDraw(int iTransform, HWND hWnd)
             xForm.eM22 = (FLOAT) 1.0; 
             xForm.eDx  = (FLOAT) 0.0; 
             xForm.eDy  = (FLOAT) 0.0; 
-            SetWorldTransform(hDC, &amp;xForm); 
+            SetWorldTransform(hDC, &xForm); 
             break; 
  
     } 
  
     // Find the midpoint of the client area.  
  
-    GetClientRect(hWnd, (LPRECT) &amp;rect); 
-    DPtoLP(hDC, (LPPOINT) &amp;rect, 2); 
+    GetClientRect(hWnd, (LPRECT) &rect); 
+    DPtoLP(hDC, (LPPOINT) &rect, 2); 
  
     // Select a hollow brush.  
  

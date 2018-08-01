@@ -64,7 +64,7 @@ The following example shows how to enable all gestures. For more examples, see [
     {
     case WM_GESTURENOTIFY:
         GESTURECONFIG gc = {0,GC_ALLGESTURES,0};
-        BOOL bResult = SetGestureConfig(hWnd,0,1,&amp;gc,sizeof(GESTURECONFIG));
+        BOOL bResult = SetGestureConfig(hWnd,0,1,&gc,sizeof(GESTURECONFIG));
             
         if(!bResult)
         {

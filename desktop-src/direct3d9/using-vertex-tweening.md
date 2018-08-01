@@ -20,7 +20,7 @@ To determine if Direct3D supports vertex tweening, check for the D3DVTXPCAPS\_TW
 //
 D3DCAPS9 d3dCaps;
 
-m_pD3DDevice->GetDeviceCaps( &amp;d3dCaps );
+m_pD3DDevice->GetDeviceCaps( &d3dCaps );
 if( 0 != (d3dCaps.VertexProcessingCaps & D3DVTXPCAPS_TWEENING) )
     // Vertex tweening is supported.
 ```

@@ -41,13 +41,13 @@ BYTE Set(row, col, bAlive)
 {
     SOCKET s = socket(...);
     BYTE byRet = 0;
-    setsockopt( s, SO_SNDBUF, &amp;Zero, sizeof(int) );
+    setsockopt( s, SO_SNDBUF, &Zero, sizeof(int) );
     bind( s, ... );
     connect( s, ... );
-    send( s, &amp;row, 1 );
-    send( s, &amp;col, 1 );
-    send( s, &amp;bAlive, 1 );
-    recv( s, &amp;byRet, 1 );
+    send( s, &row, 1 );
+    send( s, &col, 1 );
+    send( s, &bAlive, 1 );
+    recv( s, &byRet, 1 );
     closesocket( s );
     return byRet;
 }

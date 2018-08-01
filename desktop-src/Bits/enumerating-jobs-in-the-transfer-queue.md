@@ -40,16 +40,16 @@ ULONG idx = 0;
 //This example enumerates all jobs in the transfer queue. This call fails if the 
 //current user does not have administrator privileges. To enumerate jobs for only 
 //the current user, replace BG_JOB_ENUM_ALL_USERS with 0.
-hr = g_XferManager->EnumJobs(BG_JOB_ENUM_ALL_USERS, &amp;pJobs);
+hr = g_XferManager->EnumJobs(BG_JOB_ENUM_ALL_USERS, &pJobs);
 if (SUCCEEDED(hr))
 {
   //Get the count of jobs in the queue. 
-  pJobs->GetCount(&amp;cJobCount);
+  pJobs->GetCount(&cJobCount);
 
   //Enumerate the jobs in the queue.
   for (idx=0; idx<cJobCount; idx++)
   {
-    hr = pJobs->Next(1, &amp;pJob, NULL);
+    hr = pJobs->Next(1, &pJob, NULL);
     if (S_OK == hr)
     {
       //Retrieve or set job properties.

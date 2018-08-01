@@ -74,17 +74,17 @@ void wmain(void)
 {
     ULONG status = ERROR_SUCCESS;
     EVENT_TRACE_LOGFILE trace;
-    TRACE_LOGFILE_HEADER* pHeader = &amp;trace.LogfileHeader;
+    TRACE_LOGFILE_HEADER* pHeader = &trace.LogfileHeader;
 
     // Identify the log file from which you want to consume events
     // and the callbacks used to process the events and buffers.
 
-    ZeroMemory(&amp;trace, sizeof(EVENT_TRACE_LOGFILE));
+    ZeroMemory(&trace, sizeof(EVENT_TRACE_LOGFILE));
     trace.LogFileName = (LPWSTR) LOGFILE_PATH;
     trace.EventRecordCallback = (PEVENT_RECORD_CALLBACK) (ProcessEvent);
     trace.ProcessTraceMode = PROCESS_TRACE_MODE_EVENT_RECORD;
 
-    g_hTrace = OpenTrace(&amp;trace);
+    g_hTrace = OpenTrace(&trace);
     if (INVALID_PROCESSTRACE_HANDLE == g_hTrace)
     {
         wprintf(L"OpenTrace failed with %lu\n", GetLastError());
@@ -114,8 +114,8 @@ void wmain(void)
 
     wprintf(L"Number of buffers lost: %lu\n\n", pHeader->BuffersLost);
 
-    status = ProcessTrace(&amp;g_hTrace, 1, 0, 0);
-    if (status != ERROR_SUCCESS &amp;&amp; status != ERROR_CANCELLED)
+    status = ProcessTrace(&g_hTrace, 1, 0, 0);
+    if (status != ERROR_SUCCESS && status != ERROR_CANCELLED)
     {
         wprintf(L"ProcessTrace failed with %lu\n", status);
         goto cleanup;
@@ -149,7 +149,7 @@ VOID WINAPI ProcessEvent(PEVENT_RECORD pEvent)
     // the EVENT_TRACE_LOGFILE.LogfileHeader member that you can access when you open 
     // the trace. 
 
-    if (IsEqualGUID(pEvent->EventHeader.ProviderId, EventTraceGuid) &amp;&amp;
+    if (IsEqualGUID(pEvent->EventHeader.ProviderId, EventTraceGuid) &&
         pEvent->EventHeader.EventDescriptor.Opcode == EVENT_TRACE_TYPE_INFO)
     {
         ; // Skip this event.
@@ -173,7 +173,7 @@ VOID WINAPI ProcessEvent(PEVENT_RECORD pEvent)
 
         if (DecodingSourceWbem == pInfo->DecodingSource)  // MOF class
         {
-            HRESULT hr = StringFromCLSID(pInfo->EventGuid, &amp;pwsEventGuid);
+            HRESULT hr = StringFromCLSID(pInfo->EventGuid, &pwsEventGuid);
 
             if (FAILED(hr))
             {
@@ -203,8 +203,8 @@ VOID WINAPI ProcessEvent(PEVENT_RECORD pEvent)
         ft.dwHighDateTime = pEvent->EventHeader.TimeStamp.HighPart;
         ft.dwLowDateTime = pEvent->EventHeader.TimeStamp.LowPart;
 
-        FileTimeToSystemTime(&amp;ft, &amp;st);
-        SystemTimeToTzSpecificLocalTime(NULL, &amp;st, &amp;stLocal);
+        FileTimeToSystemTime(&ft, &st);
+        SystemTimeToTzSpecificLocalTime(NULL, &st, &stLocal);
 
         TimeStamp = pEvent->EventHeader.TimeStamp.QuadPart;
         Nanoseconds = (TimeStamp % 10000000) * 100;
@@ -282,7 +282,7 @@ DWORD PrintProperties(PEVENT_RECORD pEvent, PTRACE_EVENT_INFO pInfo, USHORT i, L
 
     // Get the size of the array if the property is an array.
 
-    status = GetArraySize(pEvent, pInfo, i, &amp;ArraySize);
+    status = GetArraySize(pEvent, pInfo, i, &ArraySize);
 
     for (USHORT k = 0; k < ArraySize; k++)
     {
@@ -309,7 +309,7 @@ DWORD PrintProperties(PEVENT_RECORD pEvent, PTRACE_EVENT_INFO pInfo, USHORT i, L
         }
         else
         {
-            ZeroMemory(&amp;DataDescriptors, sizeof(DataDescriptors));
+            ZeroMemory(&DataDescriptors, sizeof(DataDescriptors));
 
             // To retrieve a member of a structure, you need to specify an array of descriptors. 
             // The first descriptor in the array identifies the name of the structure and the second 
@@ -334,7 +334,7 @@ DWORD PrintProperties(PEVENT_RECORD pEvent, PTRACE_EVENT_INFO pInfo, USHORT i, L
             // you will not be able to consume the rest of the event. If you try to consume the
             // remainder of the event, you will get ERROR_EVT_INVALID_EVENT_DATA.
 
-            if (TDH_INTYPE_BINARY == pInfo->EventPropertyInfoArray[i].nonStructType.InType &amp;&amp;
+            if (TDH_INTYPE_BINARY == pInfo->EventPropertyInfoArray[i].nonStructType.InType &&
                 TDH_OUTTYPE_IPV6 == pInfo->EventPropertyInfoArray[i].nonStructType.OutType)
             {
                 wprintf(L"The event contains an IPv6 address. Skipping event.\n");
@@ -343,7 +343,7 @@ DWORD PrintProperties(PEVENT_RECORD pEvent, PTRACE_EVENT_INFO pInfo, USHORT i, L
             }
             else
             {
-                status = TdhGetPropertySize(pEvent, 0, NULL, DescriptorsCount, &amp;DataDescriptors[0], &amp;PropertySize);
+                status = TdhGetPropertySize(pEvent, 0, NULL, DescriptorsCount, &DataDescriptors[0], &PropertySize);
 
                 if (ERROR_SUCCESS != status)
                 {
@@ -360,7 +360,7 @@ DWORD PrintProperties(PEVENT_RECORD pEvent, PTRACE_EVENT_INFO pInfo, USHORT i, L
                     goto cleanup;
                 }
 
-                status = TdhGetProperty(pEvent, 0, NULL, DescriptorsCount, &amp;DataDescriptors[0], PropertySize, pData);
+                status = TdhGetProperty(pEvent, 0, NULL, DescriptorsCount, &DataDescriptors[0], PropertySize, pData);
 
                 // Get the name/value mapping if the property specifies a value map.
 
@@ -693,7 +693,7 @@ DWORD FormatAndPrintData(PEVENT_RECORD pEvent, USHORT InType, USHORT OutType, PB
             DWORD cchDomainSize = MAX_NAME;
             SID_NAME_USE eNameUse;
 
-            if (!LookupAccountSid(NULL, (PSID)pData, UserName, &amp;cchUserSize, DomainName, &amp;cchDomainSize, &amp;eNameUse))
+            if (!LookupAccountSid(NULL, (PSID)pData, UserName, &cchUserSize, DomainName, &cchDomainSize, &eNameUse))
             {
                 if (ERROR_NONE_MAPPED == status)
                 {
@@ -759,7 +759,7 @@ DWORD FormatAndPrintData(PEVENT_RECORD pEvent, USHORT InType, USHORT OutType, PB
 
                 pData += g_PointerSize * 2;
 
-                if (!LookupAccountSid(NULL, (PSID)pData, UserName, &amp;cchUserSize, DomainName, &amp;cchDomainSize, &amp;eNameUse))
+                if (!LookupAccountSid(NULL, (PSID)pData, UserName, &cchUserSize, DomainName, &cchDomainSize, &eNameUse))
                 {
                     if (ERROR_NONE_MAPPED == status)
                     {
@@ -797,7 +797,7 @@ void PrintMapString(PEVENT_MAP_INFO pMapInfo, PBYTE pData)
     BOOL MatchFound = FALSE;
 
     if ((pMapInfo->Flag & EVENTMAP_INFO_FLAG_MANIFEST_VALUEMAP) == EVENTMAP_INFO_FLAG_MANIFEST_VALUEMAP ||
-        ((pMapInfo->Flag & EVENTMAP_INFO_FLAG_WBEM_VALUEMAP) == EVENTMAP_INFO_FLAG_WBEM_VALUEMAP &amp;&amp;
+        ((pMapInfo->Flag & EVENTMAP_INFO_FLAG_WBEM_VALUEMAP) == EVENTMAP_INFO_FLAG_WBEM_VALUEMAP &&
         (pMapInfo->Flag & (~EVENTMAP_INFO_FLAG_WBEM_VALUEMAP)) != EVENTMAP_INFO_FLAG_WBEM_FLAG))
     {
         if ((pMapInfo->Flag & EVENTMAP_INFO_FLAG_WBEM_NO_MAP) == EVENTMAP_INFO_FLAG_WBEM_NO_MAP)
@@ -824,7 +824,7 @@ void PrintMapString(PEVENT_MAP_INFO pMapInfo, PBYTE pData)
     }
     else if ((pMapInfo->Flag & EVENTMAP_INFO_FLAG_MANIFEST_BITMAP) == EVENTMAP_INFO_FLAG_MANIFEST_BITMAP ||
         (pMapInfo->Flag & EVENTMAP_INFO_FLAG_WBEM_BITMAP) == EVENTMAP_INFO_FLAG_WBEM_BITMAP ||
-        ((pMapInfo->Flag & EVENTMAP_INFO_FLAG_WBEM_VALUEMAP) == EVENTMAP_INFO_FLAG_WBEM_VALUEMAP &amp;&amp;
+        ((pMapInfo->Flag & EVENTMAP_INFO_FLAG_WBEM_VALUEMAP) == EVENTMAP_INFO_FLAG_WBEM_VALUEMAP &&
         (pMapInfo->Flag & (~EVENTMAP_INFO_FLAG_WBEM_VALUEMAP)) == EVENTMAP_INFO_FLAG_WBEM_FLAG))
     {
         if ((pMapInfo->Flag & EVENTMAP_INFO_FLAG_WBEM_NO_MAP) == EVENTMAP_INFO_FLAG_WBEM_NO_MAP)
@@ -886,11 +886,11 @@ DWORD GetArraySize(PEVENT_RECORD pEvent, PTRACE_EVENT_INFO pInfo, USHORT i, PUSH
     {
         DWORD Count = 0;  // Expects the count to be defined by a UINT16 or UINT32
         DWORD j = pInfo->EventPropertyInfoArray[i].countPropertyIndex;
-        ZeroMemory(&amp;DataDescriptor, sizeof(PROPERTY_DATA_DESCRIPTOR));
+        ZeroMemory(&DataDescriptor, sizeof(PROPERTY_DATA_DESCRIPTOR));
         DataDescriptor.PropertyName = (ULONGLONG)((PBYTE)(pInfo) + pInfo->EventPropertyInfoArray[j].NameOffset);
         DataDescriptor.ArrayIndex = ULONG_MAX;
-        status = TdhGetPropertySize(pEvent, 0, NULL, 1, &amp;DataDescriptor, &amp;PropertySize);
-        status = TdhGetProperty(pEvent, 0, NULL, 1, &amp;DataDescriptor, PropertySize, (PBYTE)&amp;Count);
+        status = TdhGetPropertySize(pEvent, 0, NULL, 1, &DataDescriptor, &PropertySize);
+        status = TdhGetProperty(pEvent, 0, NULL, 1, &DataDescriptor, PropertySize, (PBYTE)&Count);
         *ArraySize = (USHORT)Count;
     }
     else
@@ -913,7 +913,7 @@ DWORD GetMapInfo(PEVENT_RECORD pEvent, LPWSTR pMapName, DWORD DecodingSource, PE
 
     // Retrieve the required buffer size for the map info.
 
-    status = TdhGetEventMapInformation(pEvent, pMapName, pMapInfo, &amp;MapSize);
+    status = TdhGetEventMapInformation(pEvent, pMapName, pMapInfo, &MapSize);
 
     if (ERROR_INSUFFICIENT_BUFFER == status)
     {
@@ -927,7 +927,7 @@ DWORD GetMapInfo(PEVENT_RECORD pEvent, LPWSTR pMapName, DWORD DecodingSource, PE
 
         // Retrieve the map info.
 
-        status = TdhGetEventMapInformation(pEvent, pMapName, pMapInfo, &amp;MapSize);
+        status = TdhGetEventMapInformation(pEvent, pMapName, pMapInfo, &MapSize);
     }
 
     if (ERROR_SUCCESS == status)
@@ -980,7 +980,7 @@ DWORD GetEventInformation(PEVENT_RECORD pEvent, PTRACE_EVENT_INFO & pInfo)
 
     // Retrieve the required buffer size for the event metadata.
 
-    status = TdhGetEventInformation(pEvent, 0, NULL, pInfo, &amp;BufferSize);
+    status = TdhGetEventInformation(pEvent, 0, NULL, pInfo, &BufferSize);
 
     if (ERROR_INSUFFICIENT_BUFFER == status)
     {
@@ -994,7 +994,7 @@ DWORD GetEventInformation(PEVENT_RECORD pEvent, PTRACE_EVENT_INFO & pInfo)
 
         // Retrieve the event metadata.
 
-        status = TdhGetEventInformation(pEvent, 0, NULL, pInfo, &amp;BufferSize);
+        status = TdhGetEventInformation(pEvent, 0, NULL, pInfo, &BufferSize);
     }
 
     if (ERROR_SUCCESS != status)

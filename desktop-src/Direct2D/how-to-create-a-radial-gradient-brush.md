@@ -43,7 +43,7 @@ The code produces the output shown in the following illustration.
         2,
         D2D1_GAMMA_2_2,
         D2D1_EXTEND_MODE_CLAMP,
-        &amp;pGradientStops
+        &pGradientStops
         );
     ```
 
@@ -68,7 +68,7 @@ The code produces the output shown in the following illustration.
                 75,
                 75),
             pGradientStops,
-            &amp;m_pRadialGradientBrush
+            &m_pRadialGradientBrush
             );
     }
     ```

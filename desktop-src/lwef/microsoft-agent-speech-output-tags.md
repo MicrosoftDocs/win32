@@ -40,7 +40,7 @@ For C, C++, and Java™ programming, precede backslashes and double quotes with 
 ```
 BSTR bszSpeak = SysAllocString(L"This is \\map=\"Spoken text\"=\"Balloon text\"\\");
 
-pCharacter-&amp;gt;Speak(bszSpeak, ......);
+pCharacter-&gt;Speak(bszSpeak, ......);
 ```
 
 

@@ -28,7 +28,7 @@ The following code example assumes that the initialization described in [Initial
     hr = xpsFactory->CreatePackageFromFile(
         xpsDocumentFilename,
         FALSE,
-        &amp;package);
+        &package);
 
     // package now contains a pointer to the IXpsOMPackage
     // object that has been populated with the contents

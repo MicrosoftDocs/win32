@@ -210,7 +210,7 @@ wc.lpszClassName = "GenericWClass"              // class name
  
 // Register the window class. 
  
-return RegisterClass(&amp;wc); 
+return RegisterClass(&wc); 
 ```
 
 
@@ -266,15 +266,15 @@ RECT rcOldClip;        // previous area for ClipCursor
  
 // Record the area in which the cursor can move. 
  
-GetClipCursor(&amp;rcOldClip); 
+GetClipCursor(&rcOldClip); 
  
 // Get the dimensions of the application's window. 
  
-GetWindowRect(hwnd, &amp;rcClip); 
+GetWindowRect(hwnd, &rcClip); 
  
 // Confine the cursor to the application's window. 
  
-ClipCursor(&amp;rcClip); 
+ClipCursor(&rcClip); 
  
    // 
    // Process input from the confined cursor. 
@@ -282,7 +282,7 @@ ClipCursor(&amp;rcClip);
  
 // Restore the cursor to its previous area. 
  
-ClipCursor(&amp;rcOldClip); 
+ClipCursor(&rcOldClip); 
 ```
 
 
@@ -424,7 +424,7 @@ wc.hCursor = LoadCursor(NULL, IDC_ARROW); // class cursor
  
 // Set a timer for the mousetrap. 
  
-GetCursorPos(&amp;ptOld); 
+GetCursorPos(&ptOld); 
  
 SetTimer(hwnd, IDT_CURSOR, 10000, (TIMERPROC) NULL); 
  
@@ -452,11 +452,11 @@ LONG APIENTRY MainWndProc(
  
             if (IsIconic(hwnd)) 
             { 
-                GetCursorPos(&amp;pt); 
+                GetCursorPos(&pt); 
  
-                if ((pt.x == ptOld.x) &amp;&amp; (pt.y == ptOld.y)) 
+                if ((pt.x == ptOld.x) && (pt.y == ptOld.y)) 
                 { 
-                    GetWindowRect(hwnd, &amp;rc); 
+                    GetWindowRect(hwnd, &rc); 
                     SetCursorPos(rc.left + 20, rc.top + 4); 
  
                     // Note that the additional constants 
@@ -522,17 +522,17 @@ switch (message)
  
     case WM_KEYDOWN: 
  
-        if (wParam != VK_LEFT &amp;&amp; wParam != VK_RIGHT &amp;&amp; 
-        wParam != VK_UP &amp;&amp; wParam != VK_DOWN) 
+        if (wParam != VK_LEFT && wParam != VK_RIGHT && 
+        wParam != VK_UP && wParam != VK_DOWN) 
         { 
             break; 
         } 
  
-        GetCursorPos(&amp;pt); 
+        GetCursorPos(&pt); 
  
         // Convert screen coordinates to client coordinates. 
  
-        ScreenToClient(hwnd, &amp;pt); 
+        ScreenToClient(hwnd, &pt); 
  
         switch (wParam) 
         { 
@@ -563,7 +563,7 @@ switch (message)
  
         // Keep the cursor in the client area. 
  
-        GetClientRect(hwnd, &amp;rc); 
+        GetClientRect(hwnd, &rc); 
  
         if (pt.x >= rc.right) 
         { 
@@ -585,7 +585,7 @@ switch (message)
  
         // Convert client coordinates to screen coordinates. 
  
-        ClientToScreen(hwnd, &amp;pt); 
+        ClientToScreen(hwnd, &pt); 
         SetCursorPos(pt.x, pt.y); 
         return 0; 
 

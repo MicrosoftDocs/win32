@@ -76,7 +76,7 @@ ProjectionMatrix(const float near_plane, // Distance to near clipping
     Q = far_plane/(far_plane - near_plane);
 
     D3DXMATRIX ret;
-    ZeroMemory(&amp;ret, sizeof(ret));
+    ZeroMemory(&ret, sizeof(ret));
 
     ret(0, 0) = w;
     ret(1, 1) = h;

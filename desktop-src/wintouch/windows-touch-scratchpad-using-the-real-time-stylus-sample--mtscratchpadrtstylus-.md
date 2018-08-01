@@ -32,16 +32,16 @@ IRealTimeStylus* CreateRealTimeStylus(HWND hWnd)
     // Check input argument
     if (hWnd == NULL)
     {
-        ASSERT(hWnd &amp;&amp; L"CreateRealTimeStylus: invalid argument hWnd");
+        ASSERT(hWnd && L"CreateRealTimeStylus: invalid argument hWnd");
         return NULL;
     }
 
     // Create RTS object
     IRealTimeStylus* pRealTimeStylus = NULL;
-    HRESULT hr = CoCreateInstance(CLSID_RealTimeStylus, NULL, CLSCTX_ALL, IID_PPV_ARGS(&amp;pRealTimeStylus));
+    HRESULT hr = CoCreateInstance(CLSID_RealTimeStylus, NULL, CLSCTX_ALL, IID_PPV_ARGS(&pRealTimeStylus));
     if (FAILED(hr))
     {
-        ASSERT(SUCCEEDED(hr) &amp;&amp; L"CreateRealTimeStylus: failed to CoCreateInstance of RealTimeStylus");
+        ASSERT(SUCCEEDED(hr) && L"CreateRealTimeStylus: failed to CoCreateInstance of RealTimeStylus");
         return NULL;
     }
 
@@ -49,24 +49,24 @@ IRealTimeStylus* CreateRealTimeStylus(HWND hWnd)
     hr = pRealTimeStylus->put_HWND((HANDLE_PTR)hWnd);
     if (FAILED(hr))
     {
-        ASSERT(SUCCEEDED(hr) &amp;&amp; L"CreateRealTimeStylus: failed to set window handle");
+        ASSERT(SUCCEEDED(hr) && L"CreateRealTimeStylus: failed to set window handle");
         pRealTimeStylus->Release();
         return NULL;
     }
 
     // Register RTS object for receiving multi-touch input.
     IRealTimeStylus3* pRealTimeStylus3 = NULL;
-    hr = pRealTimeStylus->QueryInterface(&amp;pRealTimeStylus3);
+    hr = pRealTimeStylus->QueryInterface(&pRealTimeStylus3);
     if (FAILED(hr))
     {
-        ASSERT(SUCCEEDED(hr) &amp;&amp; L"CreateRealTimeStylus: cannot access IRealTimeStylus3");
+        ASSERT(SUCCEEDED(hr) && L"CreateRealTimeStylus: cannot access IRealTimeStylus3");
         pRealTimeStylus->Release();
         return NULL;
     }
     hr = pRealTimeStylus3->put_MultiTouchEnabled(TRUE);
     if (FAILED(hr))
     {
-        ASSERT(SUCCEEDED(hr) &amp;&amp; L"CreateRealTimeStylus: failed to enable multi-touch");
+        ASSERT(SUCCEEDED(hr) && L"CreateRealTimeStylus: failed to enable multi-touch");
         pRealTimeStylus->Release();
         pRealTimeStylus3->Release();
         return NULL;
@@ -88,34 +88,34 @@ IDynamicRenderer* CreateDynamicRenderer(IRealTimeStylus* pRealTimeStylus)
     // Check input argument
     if (pRealTimeStylus == NULL)
     {
-        ASSERT(pRealTimeStylus &amp;&amp; L"CreateDynamicRenderer: invalid argument RealTimeStylus");
+        ASSERT(pRealTimeStylus && L"CreateDynamicRenderer: invalid argument RealTimeStylus");
         return NULL;
     }
 
     // Get window handle from RTS object
     HWND hWnd = NULL;
-    HRESULT hr = pRealTimeStylus->get_HWND((HANDLE_PTR*)&amp;hWnd);
+    HRESULT hr = pRealTimeStylus->get_HWND((HANDLE_PTR*)&hWnd);
     if (FAILED(hr))
     {
-        ASSERT(SUCCEEDED(hr) &amp;&amp; L"CreateDynamicRenderer: failed to get window handle");
+        ASSERT(SUCCEEDED(hr) && L"CreateDynamicRenderer: failed to get window handle");
         return NULL;
     }
 
     // Create DynamicRenderer object
     IDynamicRenderer* pDynamicRenderer = NULL;
-    hr = CoCreateInstance(CLSID_DynamicRenderer, NULL, CLSCTX_ALL, IID_PPV_ARGS(&amp;pDynamicRenderer));
+    hr = CoCreateInstance(CLSID_DynamicRenderer, NULL, CLSCTX_ALL, IID_PPV_ARGS(&pDynamicRenderer));
     if (FAILED(hr))
     {
-        ASSERT(SUCCEEDED(hr) &amp;&amp; L"CreateDynamicRenderer: failed to CoCreateInstance of DynamicRenderer");
+        ASSERT(SUCCEEDED(hr) && L"CreateDynamicRenderer: failed to CoCreateInstance of DynamicRenderer");
         return NULL;
     }
 
     // Add DynamicRenderer to the RTS object as a synchronous plugin
     IStylusSyncPlugin* pSyncDynamicRenderer = NULL;
-    hr = pDynamicRenderer->QueryInterface(&amp;pSyncDynamicRenderer);
+    hr = pDynamicRenderer->QueryInterface(&pSyncDynamicRenderer);
     if (FAILED(hr))
     {
-        ASSERT(SUCCEEDED(hr) &amp;&amp; L"CreateDynamicRenderer: failed to access IStylusSyncPlugin of DynamicRenderer");
+        ASSERT(SUCCEEDED(hr) && L"CreateDynamicRenderer: failed to access IStylusSyncPlugin of DynamicRenderer");
         pDynamicRenderer->Release();
         return NULL;
     }
@@ -125,7 +125,7 @@ IDynamicRenderer* CreateDynamicRenderer(IRealTimeStylus* pRealTimeStylus)
         pSyncDynamicRenderer);  // plugin to be inserted - DynamicRenderer
     if (FAILED(hr))
     {
-        ASSERT(SUCCEEDED(hr) &amp;&amp; L"CreateDynamicRenderer: failed to add DynamicRenderer to the RealTimeStylus plugins");
+        ASSERT(SUCCEEDED(hr) && L"CreateDynamicRenderer: failed to add DynamicRenderer to the RealTimeStylus plugins");
         pDynamicRenderer->Release();
         pSyncDynamicRenderer->Release();
         return NULL;
@@ -135,7 +135,7 @@ IDynamicRenderer* CreateDynamicRenderer(IRealTimeStylus* pRealTimeStylus)
     hr = pDynamicRenderer->put_HWND((HANDLE_PTR)hWnd);
     if (FAILED(hr))
     {
-        ASSERT(SUCCEEDED(hr) &amp;&amp; L"CreateDynamicRenderer: failed to set window handle");
+        ASSERT(SUCCEEDED(hr) && L"CreateDynamicRenderer: failed to set window handle");
         pDynamicRenderer->Release();
         pSyncDynamicRenderer->Release();
         return NULL;
@@ -162,10 +162,10 @@ HRESULT CSyncEventHandlerRTS::StylusDown(
 {
     // Get DrawingAttributes of DynamicRenderer
     IInkDrawingAttributes* pDrawingAttributesDynamicRenderer;
-    HRESULT hr = g_pDynamicRenderer->get_DrawingAttributes(&amp;pDrawingAttributesDynamicRenderer);
+    HRESULT hr = g_pDynamicRenderer->get_DrawingAttributes(&pDrawingAttributesDynamicRenderer);
     if (FAILED(hr))
     {
-        ASSERT(SUCCEEDED(hr) &amp;&amp; L"CSyncEventHandlerRTS::StylusDown: failed to get RTS's drawing attributes");        
+        ASSERT(SUCCEEDED(hr) && L"CSyncEventHandlerRTS::StylusDown: failed to get RTS's drawing attributes");        
         return hr;
     }
 
@@ -174,7 +174,7 @@ HRESULT CSyncEventHandlerRTS::StylusDown(
     hr = pDrawingAttributesDynamicRenderer->put_Color(GetTouchColor(m_nContacts == 0));
     if (FAILED(hr))
     {
-        ASSERT(SUCCEEDED(hr) &amp;&amp; L"CSyncEventHandlerRTS::StylusDown: failed to set color");
+        ASSERT(SUCCEEDED(hr) && L"CSyncEventHandlerRTS::StylusDown: failed to set color");
         pDrawingAttributesDynamicRenderer->Release();
         return hr;
     }

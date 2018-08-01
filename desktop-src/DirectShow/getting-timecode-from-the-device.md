@@ -26,7 +26,7 @@ if (MyDevCap.bHasTimecode)
     char szBuf[32];
 
     TimecodeSample.dwFlags = ED_DEVCAP_TIMECODE_READ;
-    if (hr = MyDevCap.pTimecode->GetTimecode(&amp;TimecodeSample),  SUCCEEDED(hr)) 
+    if (hr = MyDevCap.pTimecode->GetTimecode(&TimecodeSample),  SUCCEEDED(hr)) 
     {
         DWORD dwTime = TimecodeSample.timecode.dwFrames; // Packed BCD value.
         int hour  = ((dwTime & 0x0F000000) >> 24) + 
@@ -40,7 +40,7 @@ if (MyDevCap.bHasTimecode)
     }
 
     TimecodeSample.dwFlags = ED_DEVCAP_ATN_READ;
-    if (hr = MyDevCap.pTimecode->GetTimecode(&amp;TimecodeSample), SUCCEEDED(hr)) 
+    if (hr = MyDevCap.pTimecode->GetTimecode(&TimecodeSample), SUCCEEDED(hr)) 
     {
         DWORD dwTrackNumber = TimecodeSample.timecode.dwFrames;
     }

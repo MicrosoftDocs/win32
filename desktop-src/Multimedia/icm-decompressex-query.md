@@ -26,7 +26,7 @@ The **ICM\_DECOMPRESSEX\_QUERY** message queries a video compression driver to d
 
 ```C++
 ICM_DECOMPRESSEX_QUERY 
-wParam = (DWORD_PTR) (LPVOID) &amp;icdex; 
+wParam = (DWORD_PTR) (LPVOID) &icdex; 
 lParam = sizeof(ICDECOMPRESSEX); 
 ```
 

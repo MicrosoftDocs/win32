@@ -217,7 +217,7 @@ ConvertVarTypeToString( VARTYPE vt, WCHAR *pwszType, ULONG cchType )
 //+-------------------------------------------------------------------
 
 void
-ConvertValueToString( const PROPVARIANT &amp;propvar,
+ConvertValueToString( const PROPVARIANT &propvar,
                       WCHAR *pwszValue,
                       ULONG cchValue )
 {
@@ -320,8 +320,8 @@ ConvertValueToString( const PROPVARIANT &amp;propvar,
 //+-------------------------------------------------------------------
 
 void
-DisplayProperty( const PROPVARIANT &amp;propvar, 
-                 const STATPROPSTG &amp;statpropstg )
+DisplayProperty( const PROPVARIANT &propvar, 
+                 const STATPROPSTG &statpropstg )
 {
     WCHAR wsz[ MAX_PATH + 1 ];
 
@@ -368,8 +368,8 @@ DisplayPropertySet( FMTID fmtid,
     // For best practice, create a moderately longer string.
     WCHAR wszFMTID[ 64 ] = { L"" };
 
-    PropVariantInit( &amp;propvar );
-    memset( &amp;statpropstg, 0, sizeof(statpropstg) );
+    PropVariantInit( &propvar );
+    memset( &statpropstg, 0, sizeof(statpropstg) );
 
     try
     {
@@ -402,8 +402,8 @@ DisplayPropertySet( FMTID fmtid,
         propid = PID_DICTIONARY;
         pwszFriendlyName = NULL;
 
-        hr = pPropStg->ReadPropertyNames( 1, &amp;propid, 
-                                          &amp;pwszFriendlyName );
+        hr = pPropStg->ReadPropertyNames( 1, &propid, 
+                                          &pwszFriendlyName );
         if( S_OK == hr )
         {
             wprintf( L"   (Friendly name is \"%s\")\n\n", 
@@ -416,13 +416,13 @@ DisplayPropertySet( FMTID fmtid,
 
         // Get a property enumerator.
 
-        hr = pPropStg->Enum( &amp;penum );
+        hr = pPropStg->Enum( &penum );
         if( FAILED(hr) ) 
             throw L"Failed IPropertyStorage::Enum";
 
         // Get the first property in the enumeration.
 
-        hr = penum->Next( 1, &amp;statpropstg, NULL );
+        hr = penum->Next( 1, &statpropstg, NULL );
 
         // Loop through and display each property.  The 'Next'
         // call above, and at the bottom of the while loop,
@@ -435,11 +435,11 @@ DisplayPropertySet( FMTID fmtid,
 
             // Read the property out of the property set
 
-            PropVariantInit( &amp;propvar );
+            PropVariantInit( &propvar );
             propspec.ulKind = PRSPEC_PROPID;
             propspec.propid = statpropstg.propid;
 
-            hr = pPropStg->ReadMultiple( 1, &amp;propspec, &amp;propvar );
+            hr = pPropStg->ReadMultiple( 1, &propspec, &propvar );
             if( FAILED(hr) ) 
                 throw L"Failed IPropertyStorage::ReadMultiple";
 
@@ -450,13 +450,13 @@ DisplayPropertySet( FMTID fmtid,
             // Free buffers allocated during the read, and
             // by the enumerator.
 
-            PropVariantClear( &amp;propvar );
+            PropVariantClear( &propvar );
             CoTaskMemFree( statpropstg.lpwstrName );
             statpropstg.lpwstrName = NULL;
 
             // Move to the next property in the enumeration
 
-            hr = penum->Next( 1, &amp;statpropstg, NULL );
+            hr = penum->Next( 1, &statpropstg, NULL );
         }
         if( FAILED(hr) ) throw L"Failed IEnumSTATPROPSTG::Next";
     }
@@ -472,7 +472,7 @@ DisplayPropertySet( FMTID fmtid,
     if( NULL != statpropstg.lpwstrName )
         CoTaskMemFree( statpropstg.lpwstrName );
 
-    PropVariantClear( &amp;propvar );
+    PropVariantClear( &propvar );
 }
 
 
@@ -499,7 +499,7 @@ DisplayPropertySetsInStorage( const WCHAR *pwszStorageName,
         // the property sets at this level of the storage, not 
         // its child objects.
 
-        hr = pPropSetStg->Enum( &amp;penum );
+        hr = pPropSetStg->Enum( &penum );
         if( FAILED(hr) ) 
             throw L"failed IPropertySetStorage::Enum";
 
@@ -507,8 +507,8 @@ DisplayPropertySetsInStorage( const WCHAR *pwszStorageName,
         // (The field used to open the property set is
         // statpropsetstg.fmtid.
 
-        memset( &amp;statpropsetstg, 0, sizeof(statpropsetstg) );
-        hr = penum->Next( 1, &amp;statpropsetstg, NULL );
+        memset( &statpropsetstg, 0, sizeof(statpropsetstg) );
+        hr = penum->Next( 1, &statpropsetstg, NULL );
 
         // Loop through all the property sets.
 
@@ -518,7 +518,7 @@ DisplayPropertySetsInStorage( const WCHAR *pwszStorageName,
 
             hr = pPropSetStg->Open( statpropsetstg.fmtid,
                                     STGM_READ | STGM_SHARE_EXCLUSIVE,
-                                    &amp;pPropStg );
+                                    &pPropStg );
             if( FAILED(hr) ) 
                 throw L"failed IPropertySetStorage::Open";
 
@@ -534,7 +534,7 @@ DisplayPropertySetsInStorage( const WCHAR *pwszStorageName,
             // Get the FMTID of the next property set in the
             // enumeration.
 
-            hr = penum->Next( 1, &amp;statpropsetstg, NULL );
+            hr = penum->Next( 1, &statpropsetstg, NULL );
 
         }
         if( FAILED(hr) ) throw L"Failed IEnumSTATPROPSETSTG::Next";
@@ -550,7 +550,7 @@ DisplayPropertySetsInStorage( const WCHAR *pwszStorageName,
 
         hr = pPropSetStg->Open( FMTID_UserDefinedProperties,
                                 STGM_READ | STGM_SHARE_EXCLUSIVE,
-                                &amp;pPropStg );
+                                &pPropStg );
         if( SUCCEEDED(hr) )
         {
             DisplayPropertySet( FMTID_UserDefinedProperties,
@@ -594,14 +594,14 @@ DisplayStorageTree( const WCHAR *pwszStorageName, IStorage *pStg )
     HRESULT hr = S_OK;
     STATSTG statstg;
 
-    memset( &amp;statstg, 0, sizeof(statstg) );
+    memset( &statstg, 0, sizeof(statstg) );
 
     try
     {
         // Dump the property sets at this storage level
 
         hr = pStg->QueryInterface( IID_IPropertySetStorage,
-                             reinterpret_cast<void**>(&amp;pPropSetStg) );
+                             reinterpret_cast<void**>(&pPropSetStg) );
         if( FAILED(hr) )
           throw 
           L"Failed IStorage::QueryInterface(IID_IPropertySetStorage)";
@@ -610,7 +610,7 @@ DisplayStorageTree( const WCHAR *pwszStorageName, IStorage *pStg )
 
         // Get an enumerator for this storage.
 
-        hr = pStg->EnumElements( NULL, NULL, NULL, &amp;penum );
+        hr = pStg->EnumElements( NULL, NULL, NULL, &penum );
         if( FAILED(hr) ) throw L"failed IStorage::Enum";
 
         // Get the name of the first element (stream/storage)
@@ -619,7 +619,7 @@ DisplayStorageTree( const WCHAR *pwszStorageName, IStorage *pStg )
         // S_FALSE if there are no more elements, and an
         // error otherwise.
 
-        hr = penum->Next( 1, &amp;statstg, 0 );
+        hr = penum->Next( 1, &statstg, 0 );
 
         // Loop through all the child objects of this storage.
 
@@ -632,7 +632,7 @@ DisplayStorageTree( const WCHAR *pwszStorageName, IStorage *pStg )
             // set.
 
             if( STGTY_STORAGE == statstg.type
-                &amp;&amp;
+                &&
                 L'\005' != statstg.pwcsName[0] )
             {
                 // Indicates normal storage, not a propset.
@@ -644,7 +644,7 @@ DisplayStorageTree( const WCHAR *pwszStorageName, IStorage *pStg )
                                      NULL,
                                      STGM_READ | STGM_SHARE_EXCLUSIVE,
                                      NULL, 0,
-                                     &amp;pStgChild );
+                                     &pStgChild );
                 if( FAILED(hr) ) 
                     throw L"failed IStorage::OpenStorage";
 
@@ -700,7 +700,7 @@ DisplayStorageTree( const WCHAR *pwszStorageName, IStorage *pStg )
             CoTaskMemFree( statstg.pwcsName );
             statstg.pwcsName = NULL;
 
-            hr = penum->Next( 1, &amp;statstg, 0 );
+            hr = penum->Next( 1, &statstg, 0 );
         }
         if( FAILED(hr) ) throw L"failed IEnumSTATSTG::Next";
     }
@@ -765,7 +765,7 @@ extern "C" void wmain( int cArgs, WCHAR *rgwszArgs[] )
                            NULL,
                            NULL,
                            IID_IStorage,
-                           reinterpret_cast<void**>(&amp;pStg) );
+                           reinterpret_cast<void**>(&pStg) );
 
     // Dump all the properties in all the property sets within this
     // storage.

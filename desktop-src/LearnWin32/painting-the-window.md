@@ -53,13 +53,13 @@ In our first example program, the painting routine is very simple. It just fills
 <td><pre><code>    case WM_PAINT:
         {
             PAINTSTRUCT ps;
-            HDC hdc = BeginPaint(hwnd, &amp;ps);
+            HDC hdc = BeginPaint(hwnd, &ps);
 
             // All painting occurs here, between BeginPaint and EndPaint.
 
-            FillRect(hdc, &amp;ps.rcPaint, (HBRUSH) (COLOR_WINDOW+1));
+            FillRect(hdc, &ps.rcPaint, (HBRUSH) (COLOR_WINDOW+1));
 
-            EndPaint(hwnd, &amp;ps);
+            EndPaint(hwnd, &ps);
         }
         return 0;
 </code></pre></td>
@@ -102,7 +102,7 @@ The following line of code fills the update region with a single color, using th
 
 
 ```C++
-            FillRect(hdc, &amp;ps.rcPaint, (HBRUSH) (COLOR_WINDOW+1));
+            FillRect(hdc, &ps.rcPaint, (HBRUSH) (COLOR_WINDOW+1));
 ```
 
 

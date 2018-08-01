@@ -53,7 +53,7 @@ void _tmain(int argc, TCHAR* argv[])
  
 // Start searching for text files in the current directory. 
  
-   hSearch = FindFirstFile(TEXT("*.txt"), &amp;FileData); 
+   hSearch = FindFirstFile(TEXT("*.txt"), &FileData); 
    if (hSearch == INVALID_HANDLE_VALUE) 
    { 
       printf("No text files found.\n"); 
@@ -84,7 +84,7 @@ void _tmain(int argc, TCHAR* argv[])
          return;
       } 
  
-      if (!FindNextFile(hSearch, &amp;FileData)) 
+      if (!FindNextFile(hSearch, &FileData)) 
       {
          if (GetLastError() == ERROR_NO_MORE_FILES) 
          { 

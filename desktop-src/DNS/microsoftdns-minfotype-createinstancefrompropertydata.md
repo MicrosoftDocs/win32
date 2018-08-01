@@ -37,7 +37,7 @@ void CreateInstanceFromPropertyData(
   [in, optional] uint32                 TTL,
   [in]           string                 ResponsibleMailbox,
   [in]           string                 ErrorMailbox,
-  [out, ref]     MicrosoftDNS_MINFOType &amp;RR
+  [out, ref]     MicrosoftDNS_MINFOType &RR
 );
 ```
 

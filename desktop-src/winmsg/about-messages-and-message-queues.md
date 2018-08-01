@@ -172,7 +172,7 @@ A simple message loop consists of one function call to each of these three funct
 MSG msg;
 BOOL bRet;
 
-while( (bRet = GetMessage( &amp;msg, NULL, 0, 0 )) != 0)
+while( (bRet = GetMessage( &msg, NULL, 0, 0 )) != 0)
 { 
     if (bRet == -1)
     {
@@ -180,8 +180,8 @@ while( (bRet = GetMessage( &amp;msg, NULL, 0, 0 )) != 0)
     }
     else
     {
-        TranslateMessage(&amp;msg); 
-        DispatchMessage(&amp;msg); 
+        TranslateMessage(&msg); 
+        DispatchMessage(&msg); 
     }
 }
 ```

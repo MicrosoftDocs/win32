@@ -64,7 +64,7 @@ HRESULT SpnCompose(LPTSTR pszServiceName,
     // Get the defaultNamingContext for the local domain.
     hr = ADsGetObject(L"LDAP://RootDSE",
                       IID_IADs,
-                      (void**)&amp;spRoot);
+                      (void**)&spRoot);
     if(FAILED(hr))
     {
         return hr;
@@ -72,7 +72,7 @@ HRESULT SpnCompose(LPTSTR pszServiceName,
 
     // Get the distinguished name of the current domain.
     CComVariant svarDSRoot;
-    hr = spRoot->Get(CComBSTR("defaultNamingContext"), &amp;svarDSRoot);
+    hr = spRoot->Get(CComBSTR("defaultNamingContext"), &svarDSRoot);
      
     /*
     Compose the DN of the service's entry in the RpcServices 

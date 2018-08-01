@@ -56,7 +56,7 @@ HRESULT CVideoText::SetDefaultTargetRect()
     VIDEOINFO *pVideoInfo = (VIDEOINFO *) m_pRenderer->m_mtIn.Format();
     BITMAPINFOHEADER *pHeader = HEADER(pVideoInfo);
     RECT TargetRect = {0,0,m_Size.cx,m_Size.cy};
-    m_pRenderer->m_DrawImage.SetTargetRect(&amp;TargetRect);
+    m_pRenderer->m_DrawImage.SetTargetRect(&TargetRect);
     return NOERROR;
 }
 ```

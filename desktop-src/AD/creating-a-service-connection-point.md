@@ -79,14 +79,14 @@ ADS_ATTR_INFO   ScpAttribs[] =
         TEXT("cn"),
         ADS_ATTR_UPDATE,
         ADSTYPE_CASE_IGNORE_STRING,
-        &amp;cn,
+        &cn,
         1
     },
     {
         TEXT("objectClass"),
         ADS_ATTR_UPDATE,
         ADSTYPE_CASE_IGNORE_STRING,
-        &amp;objclass,
+        &objclass,
         1
     },
     {
@@ -100,28 +100,28 @@ ADS_ATTR_INFO   ScpAttribs[] =
          TEXT("serviceDnsName"),
          ADS_ATTR_UPDATE,
          ADSTYPE_CASE_IGNORE_STRING,
-         &amp;dnsname,
+         &dnsname,
          1
     },
     {
         TEXT("serviceDnsNameType"),
         ADS_ATTR_UPDATE,
         ADSTYPE_CASE_IGNORE_STRING,
-        &amp;nametype,
+        &nametype,
         1
     },
     {
         TEXT("serviceClassName"),
         ADS_ATTR_UPDATE,
         ADSTYPE_CASE_IGNORE_STRING,
-        &amp;classname,
+        &classname,
         1
     },
     {
         TEXT("serviceBindingInformation"),
         ADS_ATTR_UPDATE,
         ADSTYPE_CASE_IGNORE_STRING,
-        &amp;binding,
+        &binding,
         1
     },
 };
@@ -132,7 +132,7 @@ VARIANT var;
 
 // Get the DNS name of the local computer.
 dwLen = sizeof(szServer);
-if (!GetComputerNameEx(ComputerNameDnsFullyQualified,szServer,&amp;dwLen))
+if (!GetComputerNameEx(ComputerNameDnsFullyQualified,szServer,&dwLen))
     return GetLastError();
 _tprintf(TEXT("GetComputerNameEx: %s\n"), szServer);
     
@@ -168,7 +168,7 @@ Get the distinguished name of the computer object for the local
 computer.
 */
 dwLen = sizeof(szDn);
-if (!GetComputerObjectName(NameFullyQualifiedDN,szDn,&amp;dwLen))
+if (!GetComputerObjectName(NameFullyQualifiedDN,szDn,&dwLen))
     return GetLastError();
 _tprintf(TEXT("GetComputerObjectName: %s\n"), szDn);
 
@@ -178,7 +178,7 @@ computer.
 */
 _tcsncpy_s(szAdsPath,TEXT("LDAP://"),MAX_PATH);
 _tcsncat_s(szAdsPath,szDn,MAX_PATH - _tcslen(szAdsPath));
-hr = ADsGetObject(szAdsPath, IID_IDirectoryObject, (void **)&amp;pComp);
+hr = ADsGetObject(szAdsPath, IID_IDirectoryObject, (void **)&pComp);
 if (FAILED(hr)) {
     ReportError(TEXT("Failed to bind Computer Object."),hr);
     return hr;
@@ -193,7 +193,7 @@ dwAttr = sizeof(ScpAttribs)/sizeof(ADS_ATTR_INFO);
 
 // Complete the action.
 hr = pComp->CreateDSObject(TEXT("cn=SockAuthAD"),
-                           ScpAttribs, dwAttr, &amp;pDisp);
+                           ScpAttribs, dwAttr, &pDisp);
 if (FAILED(hr)) {
     ReportError(TEXT("Failed to create SCP:"), hr);
     pComp -> Release();
@@ -203,7 +203,7 @@ if (FAILED(hr)) {
 pComp -> Release();
 
 // Query for an IADs pointer on the SCP object.
-hr = pDisp->QueryInterface(IID_IADs,(void **)&amp;pIADsSCP);
+hr = pDisp->QueryInterface(IID_IADs,(void **)&pIADsSCP);
 if (FAILED(hr)) {
     ReportError(TEXT("Failed to QueryInterface for IADs:"),hr);
     pDisp->Release();
@@ -221,8 +221,8 @@ if (FAILED(hr)) {
 }
 
 // Get the distinguished name of the SCP.
-VariantInit(&amp;var); 
-hr = pIADsSCP->Get(CComBSTR("distinguishedName"), &amp;var); 
+VariantInit(&var); 
+hr = pIADsSCP->Get(CComBSTR("distinguishedName"), &var); 
 if (FAILED(hr)) {
     ReportError(TEXT("Failed to get distinguishedName:"), hr);
     pIADsSCP->Release();
@@ -237,7 +237,7 @@ _tprintf(TEXT("distinguishedName via IADs: %s\n"), var.bstrVal);
 _tcsncpy_s(pszDN, var.bstrVal, ccDN);
 
 // Retrieve the SCP objectGUID in format suitable for binding. 
-hr = pIADsSCP->get_GUID(&amp;bstrGuid); 
+hr = pIADsSCP->get_GUID(&bstrGuid); 
 if (FAILED(hr)) {
     ReportError(TEXT("Failed to get GUID:"), hr);
     pIADsSCP->Release();
@@ -268,8 +268,8 @@ dwStat = RegCreateKeyEx(HKEY_LOCAL_MACHINE,
             REG_OPTION_NON_VOLATILE,
             KEY_ALL_ACCESS,
             NULL,
-            &amp;hReg,
-            &amp;dwDisp);
+            &hReg,
+            &dwDisp);
 if (dwStat != NO_ERROR) {
     ReportError(TEXT("RegCreateKeyEx failed:"), dwStat);
     return dwStat;

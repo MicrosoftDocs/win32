@@ -66,13 +66,13 @@ HRESULT MyToolTipClass::OffsetTooltip(int xOffset, int yOffset)
         ti.hwnd   = m_hWndToolTipOwner;  
   
         // Get the current tooltip definition.          
-        if( SendMessage(m_hWndToolTip, TTM_GETTOOLINFO, 0, (LPARAM)&amp;ti))  
+        if( SendMessage(m_hWndToolTip, TTM_GETTOOLINFO, 0, (LPARAM)&ti))  
         {  
             // Offset the tooltip rectangle as specified.              
-            OffsetRect(&amp;ti.rect, xOffset, yOffset);  
+            OffsetRect(&ti.rect, xOffset, yOffset);  
   
             // Apply the new rectangle to the tooltip.
-            SendMessage(m_hWndToolTip, TTM_NEWTOOLRECT, 0, (LPARAM)&amp;ti);  
+            SendMessage(m_hWndToolTip, TTM_NEWTOOLRECT, 0, (LPARAM)&ti);  
         }  
         else  
         {  

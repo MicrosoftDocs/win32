@@ -42,12 +42,12 @@ HRESULT EnumTrustees(IADsAccessControlList *pACL)
     /*
     Get the enumerator from the access control list.
     */
-    hr = pACL->get__NewEnum(&amp;pUnk);
+    hr = pACL->get__NewEnum(&pUnk);
     if(SUCCEEDED(hr))
     {
         IEnumVARIANT *pEnum;
         
-        hr = pUnk->QueryInterface(IID_IEnumVARIANT, (LPVOID*)&amp;pEnum);
+        hr = pUnk->QueryInterface(IID_IEnumVARIANT, (LPVOID*)&pEnum);
         if(SUCCEEDED(hr))
         {
             VARIANT var;
@@ -55,22 +55,22 @@ HRESULT EnumTrustees(IADsAccessControlList *pACL)
             
             wprintf(L"Trustees:\n");
             
-            VariantInit(&amp;var);
+            VariantInit(&var);
 
             /*
             Enumerate the access control entries 
             in the access control list.
             */
-            while( SUCCEEDED(hr = pEnum->Next(1, &amp;var, &amp;ulFetched)) 
-                   &amp;&amp; (ulFetched > 0) )
+            while( SUCCEEDED(hr = pEnum->Next(1, &var, &ulFetched)) 
+                   && (ulFetched > 0) )
             {
                 IADsAccessControlEntry *pACE;
                 
                 /*
                 Get the access control entry.
                 */
-                hr = V_DISPATCH(&amp;var)->QueryInterface(IID_IADsAccessControlEntry, 
-                                                      (LPVOID*)&amp;pACE);
+                hr = V_DISPATCH(&var)->QueryInterface(IID_IADsAccessControlEntry, 
+                                                      (LPVOID*)&pACE);
                 if(SUCCEEDED(hr))
                 {
                     CComBSTR sbstrTrustee;
@@ -79,7 +79,7 @@ HRESULT EnumTrustees(IADsAccessControlList *pACL)
                     Get the Trustee for this ACE and print
                     it to the console window.
                     */
-                    hr = pACE->get_Trustee(&amp;sbstrTrustee);
+                    hr = pACE->get_Trustee(&sbstrTrustee);
                     if(SUCCEEDED(hr))
                     {
                         wprintf(L"\t");
@@ -90,7 +90,7 @@ HRESULT EnumTrustees(IADsAccessControlList *pACL)
                     pACE->Release();
                 }
                 
-                VariantClear(&amp;var);
+                VariantClear(&var);
             }
             
             pEnum->Release();
@@ -119,8 +119,8 @@ HRESULT EnumAccessInfo(IADs *pads)
     VARIANT var;
 
     // Get the ntSecurityDescriptor attribute
-    VariantInit(&amp;var);
-    hr = pads->Get(CComBSTR("ntSecurityDescriptor"), &amp;var);
+    VariantInit(&var);
+    hr = pads->Get(CComBSTR("ntSecurityDescriptor"), &var);
     if(SUCCEEDED(hr))
     {
         if(VT_DISPATCH == var.vt)
@@ -130,8 +130,8 @@ HRESULT EnumAccessInfo(IADs *pads)
             ntSecurityDescriptor attribute.
             */
             IADsSecurityDescriptor *pSD;
-            hr = V_DISPATCH(&amp;var)->QueryInterface(IID_IADsSecurityDescriptor,
-                                                  (LPVOID*)&amp;pSD);
+            hr = V_DISPATCH(&var)->QueryInterface(IID_IADsSecurityDescriptor,
+                                                  (LPVOID*)&pSD);
             if(SUCCEEDED(hr))
             {
                 IDispatch *pDisp;
@@ -139,13 +139,13 @@ HRESULT EnumAccessInfo(IADs *pads)
                 /*
                 Get the DACL from the security descriptor.
                 */
-                hr = pSD->get_DiscretionaryAcl(&amp;pDisp);
+                hr = pSD->get_DiscretionaryAcl(&pDisp);
                 if(SUCCEEDED(hr))
                 {
                     IADsAccessControlList *pACL;
 
                     hr = pDisp->QueryInterface(IID_IADsAccessControlList, 
-                                               (LPVOID*)&amp;pACL);
+                                               (LPVOID*)&pACL);
                     if(SUCCEEDED(hr))
                     {
                         /*
@@ -163,7 +163,7 @@ HRESULT EnumAccessInfo(IADs *pads)
             }
         }
 
-        VariantClear(&amp;var);
+        VariantClear(&var);
     }
 
     return hr;

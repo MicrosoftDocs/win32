@@ -236,7 +236,7 @@ BOOL DoWindowSize(VOID)
     HRESULT hr
     BOOL retval;
 
-    hr = StringCbLengthA(szWndName, STRSAFE_MAX_CCH, &amp;NameLength);
+    hr = StringCbLengthA(szWndName, STRSAFE_MAX_CCH, &NameLength);
     
     if (SUCCEEDED(hr))
     {

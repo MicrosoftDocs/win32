@@ -27,8 +27,8 @@ REFERENCE_TIME rtNow  = 2 * ONE_SECOND,
                rtStop = 5 * ONE_SECOND;
 
 hr = pSeek->SetPositions(
-    &amp;rtNow,  AM_SEEKING_AbsolutePositioning, 
-    &amp;rtStop, AM_SEEKING_AbsolutePositioning
+    &rtNow,  AM_SEEKING_AbsolutePositioning, 
+    &rtStop, AM_SEEKING_AbsolutePositioning
     );
 ```
 
@@ -47,7 +47,7 @@ To specify a position relative to the previous position value, use the AM\_SEEKI
 ```C++
 REFERENCE_TIME rtNow = 10 * ONE_SECOND;
 hr = pSeek->SetPositions(
-    &amp;rtNow, AM_SEEKING_RelativePositioning, 
+    &rtNow, AM_SEEKING_RelativePositioning, 
     NULL, AM_SEEKING_NoPositioning
     );
 ```

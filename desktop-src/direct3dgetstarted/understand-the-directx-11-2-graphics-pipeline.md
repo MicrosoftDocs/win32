@@ -115,13 +115,13 @@ size_t destSize = 4096;
 size_t bytesRead = 0;
 bytes = new BYTE[destSize];
 
-fopen_s(&amp;vShader, "CubeVertexShader.cso", "rb");
+fopen_s(&vShader, "CubeVertexShader.cso", "rb");
 bytesRead = fread_s(bytes, destSize, 1, 4096, vShader);
 hr = device->CreateVertexShader(
     bytes,
     bytesRead,
     nullptr,
-    &amp;m_pVertexShader
+    &m_pVertexShader
     );
 
 D3D11_INPUT_ELEMENT_DESC iaDesc [] =
@@ -138,7 +138,7 @@ hr = device->CreateInputLayout(
     ARRAYSIZE(iaDesc),
     bytes,
     bytesRead,
-    &amp;m_pInputLayout
+    &m_pInputLayout
     );
 
 delete bytes;
@@ -146,7 +146,7 @@ delete bytes;
 
 bytes = new BYTE[destSize];
 bytesRead = 0;
-fopen_s(&amp;pShader, "CubePixelShader.cso", "rb");
+fopen_s(&pShader, "CubePixelShader.cso", "rb");
 bytesRead = fread_s(bytes, destSize, 1, 4096, pShader);
 hr = device->CreatePixelShader(
     bytes,
@@ -163,7 +163,7 @@ CD3D11_BUFFER_DESC cbDesc(
     );
 
 hr = device->CreateBuffer(
-    &amp;cbDesc,
+    &cbDesc,
     nullptr,
     m_pConstantBuffer.GetAddressOf()
     );
@@ -207,15 +207,15 @@ HRESULT Renderer::CreateCube()
         );
 
     D3D11_SUBRESOURCE_DATA vData;
-    ZeroMemory(&amp;vData, sizeof(D3D11_SUBRESOURCE_DATA));
+    ZeroMemory(&vData, sizeof(D3D11_SUBRESOURCE_DATA));
     vData.pSysMem = CubeVertices;
     vData.SysMemPitch = 0;
     vData.SysMemSlicePitch = 0;
 
     hr = device->CreateBuffer(
-        &amp;vDesc,
-        &amp;vData,
-        &amp;m_pVertexBuffer
+        &vDesc,
+        &vData,
+        &m_pVertexBuffer
         );
 
     // Create index buffer:
@@ -248,15 +248,15 @@ HRESULT Renderer::CreateCube()
         );
 
     D3D11_SUBRESOURCE_DATA iData;
-    ZeroMemory(&amp;iData, sizeof(D3D11_SUBRESOURCE_DATA));
+    ZeroMemory(&iData, sizeof(D3D11_SUBRESOURCE_DATA));
     iData.pSysMem = CubeIndices;
     iData.SysMemPitch = 0;
     iData.SysMemSlicePitch = 0;
     
     hr = device->CreateBuffer(
-        &amp;iDesc,
-        &amp;iData,
-        &amp;m_pIndexBuffer
+        &iDesc,
+        &iData,
+        &m_pIndexBuffer
         );
 
     return hr;
@@ -290,7 +290,7 @@ void Renderer::CreateViewAndPerspective()
     DirectX::XMVECTOR up  = DirectX::XMVectorSet(0.0f, 1.0f, 0.0f, 0.f);
 
     DirectX::XMStoreFloat4x4(
-        &amp;m_constantBufferData.view,
+        &m_constantBufferData.view,
         DirectX::XMMatrixTranspose(
             DirectX::XMMatrixLookAtRH(
                 eye,
@@ -303,7 +303,7 @@ void Renderer::CreateViewAndPerspective()
     float aspectRatio = m_deviceResources->GetAspectRatio();
 
     DirectX::XMStoreFloat4x4(
-        &amp;m_constantBufferData.projection,
+        &m_constantBufferData.projection,
         DirectX::XMMatrixTranspose(
             DirectX::XMMatrixPerspectiveFovRH(
                 DirectX::XMConvertToRadians(70),
@@ -330,7 +330,7 @@ void Renderer::Update()
 {
     // Rotate the cube 1 degree per frame.
     DirectX::XMStoreFloat4x4(
-        &amp;m_constantBufferData.world,
+        &m_constantBufferData.world,
         DirectX::XMMatrixTranspose(
             DirectX::XMMatrixRotationY(
                 DirectX::XMConvertToRadians(
@@ -366,7 +366,7 @@ void Renderer::Render()
         m_pConstantBuffer.Get(),
         0,
         nullptr,
-        &amp;m_constantBufferData,
+        &m_constantBufferData,
         0,
         0
         );
@@ -386,7 +386,7 @@ void Renderer::Render()
     // Set the render target.
     context->OMSetRenderTargets(
         1,
-        &amp;renderTarget,
+        &renderTarget,
         depthStencil
         );
 
@@ -398,8 +398,8 @@ void Renderer::Render()
         0,
         1,
         m_pVertexBuffer.GetAddressOf(),
-        &amp;stride,
-        &amp;offset
+        &stride,
+        &offset
         );
 
     context->IASetIndexBuffer(

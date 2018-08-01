@@ -21,9 +21,9 @@ BOOL ProcessVideoFrame(HWND hwnd, UINT frameNumber)
     }
 
     RECT client;
-    GetClientRect(hwnd, &amp;client);
+    GetClientRect(hwnd, &client);
 
-    if (IsRectEmpty(&amp;client))
+    if (IsRectEmpty(&client))
     {
         return TRUE;
     }
@@ -52,7 +52,7 @@ BOOL ProcessVideoFrame(HWND hwnd, UINT frameNumber)
     DXVAHD_STREAM_DATA stream_data = { 0 };
 
     // Get the render-target surface.
-    hr = g_pD3DDevice->GetBackBuffer(0, 0, D3DBACKBUFFER_TYPE_MONO, &amp;pRT);
+    hr = g_pD3DDevice->GetBackBuffer(0, 0, D3DBACKBUFFER_TYPE_MONO, &pRT);
     if (FAILED(hr)) 
     { 
         goto done; 
@@ -71,7 +71,7 @@ BOOL ProcessVideoFrame(HWND hwnd, UINT frameNumber)
         pRT,
         frameNumber,
         1,
-        &amp;stream_data
+        &stream_data
         );
 
     if (FAILED(hr)) { 
@@ -82,7 +82,7 @@ BOOL ProcessVideoFrame(HWND hwnd, UINT frameNumber)
     hr = g_pD3DDevice->Present(NULL, NULL, NULL, NULL);
 
 done:
-    SafeRelease(&amp;pRT);
+    SafeRelease(&pRT);
     return SUCCEEDED(hr);
 }
 ```

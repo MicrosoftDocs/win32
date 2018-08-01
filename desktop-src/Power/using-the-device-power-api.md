@@ -64,12 +64,12 @@ int __cdecl main()
 
  pRetBuf = (LPWSTR)LocalAlloc(LPTR, bufSize);
 
- while (NULL != pRetBuf &amp;&amp; 
+ while (NULL != pRetBuf && 
         0 != (bRet = DevicePowerEnumDevices(uIndex,
            DEVICEPOWER_FILTER_DEVICES_PRESENT,
            PDCAP_WAKE_FROM_S1_SUPPORTED|PDCAP_WAKE_FROM_S2_SUPPORTED,
            (PBYTE)pRetBuf,
-           &amp;bufSize)))
+           &bufSize)))
   {
    printf("Device name: %S\n", pRetBuf);
 

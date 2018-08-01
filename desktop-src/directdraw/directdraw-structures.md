@@ -36,7 +36,7 @@ This section contains information about the following structures used with Direc
 ```
 DDCAPS ddcaps; // You cannot use this yet.
  
-ZeroMemory(&amp;ddcaps, sizeof(DDCAPS));
+ZeroMemory(&ddcaps, sizeof(DDCAPS));
 ddcaps.dwSize = sizeof(DDCAPS);
  
 // Now you can use the structure.

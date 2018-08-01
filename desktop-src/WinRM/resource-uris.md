@@ -81,7 +81,7 @@ For example, a script that obtains the **SECURITY\_DESCRIPTOR** property from an
 
 
 ```VB
-RResourceUri = "http://schemas.microsoft.com/wbem/wsman/1/"_&amp; "wmi/root/cimv2/Win32_Service?Name=winrm"
+RResourceUri = "http://schemas.microsoft.com/wbem/wsman/1/"_& "wmi/root/cimv2/Win32_Service?Name=winrm"
 Set WSMan = CreateObject("WSMan.Automation")
 Set Locator = WSMan.CreateResourceLocator(Resourceuri)
 Locator.FragmentPath = "/Win32_SERVICE/Name"

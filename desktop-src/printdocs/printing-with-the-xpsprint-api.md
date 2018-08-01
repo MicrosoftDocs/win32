@@ -79,8 +79,8 @@ Start an XPS print job by calling [**StartXpsPrintJob**](/windows/desktop/api/Xp
                     completionEvent,
                     NULL,
                     0,
-                    &amp;job,
-                    &amp;jobStream,
+                    &job,
+                    &jobStream,
                     NULL
                     )))
         {
@@ -105,7 +105,7 @@ Create an [**IXpsOMPackageWriter**](https://msdn.microsoft.com/en-us/library/Dd3
                 __uuidof(XpsOMObjectFactory), 
                 NULL,
                 CLSCTX_INPROC_SERVER, 
-                IID_PPV_ARGS(&amp;xpsFactory))))
+                IID_PPV_ARGS(&xpsFactory))))
         {
             fwprintf(
                 stderr, 
@@ -126,7 +126,7 @@ Create an [**IXpsOMPackageWriter**](https://msdn.microsoft.com/en-us/library/Dd3
     {
         if (FAILED(hr = xpsFactory->CreatePartUri(
                     L"/FixedDocumentSequence.fdseq", 
-                    &amp;partUri)))
+                    &partUri)))
         {
             fwprintf(stderr, 
                 L"ERROR: Could not create part URI: %08X\n", hr);
@@ -145,7 +145,7 @@ Create an [**IXpsOMPackageWriter**](https://msdn.microsoft.com/en-us/library/Dd3
                     NULL,
                     NULL,
                     NULL,
-                    &amp;packageWriter
+                    &packageWriter
                     )
                 )
            )
@@ -190,7 +190,7 @@ Start a new document in the package writer by calling [**IXpsOMPackageWriter::St
     {
         if (FAILED(hr = xpsFactory->CreatePartUri(
                     L"/Documents/1/FixedDocument.fdoc", 
-                    &amp;partUri)))
+                    &partUri)))
         {
             fwprintf(
                 stderr, 
@@ -245,7 +245,7 @@ Call [**IXpsOMPackageWriter::AddPage**](https://msdn.microsoft.com/en-us/library
         // Add the current page to the document.
         if (FAILED(hr = packageWriter->AddPage(
                     xpsPage,
-                    &amp;pageSize,
+                    &pageSize,
                     NULL,
                     NULL,
                     NULL,
@@ -342,7 +342,7 @@ After the completion event is signaled, call [**GetJobStatus**](/windows/desktop
 ```C++
     if (SUCCEEDED(hr))
     {
-        if (FAILED(hr = job->GetJobStatus(&amp;jobStatus)))
+        if (FAILED(hr = job->GetJobStatus(&jobStatus)))
         {
             fwprintf(
                 stderr, 

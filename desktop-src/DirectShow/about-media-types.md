@@ -50,8 +50,8 @@ HRESULT CheckMediaType(AM_MEDIA_TYPE *pmt)
     }
 
     // Check the format type and the size of the format block.
-    if ((pmt->formattype == FORMAT_VideoInfo) &amp;&amp;
-         (pmt->cbFormat >= sizeof(VIDEOINFOHEADER) &amp;&amp;
+    if ((pmt->formattype == FORMAT_VideoInfo) &&
+         (pmt->cbFormat >= sizeof(VIDEOINFOHEADER) &&
          (pmt->pbFormat != NULL))
     {
         // Now it's safe to coerce the format block pointer to the

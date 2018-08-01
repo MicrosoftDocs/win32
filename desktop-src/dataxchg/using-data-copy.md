@@ -55,16 +55,16 @@ BOOL CALLBACK InfoDlgProc( HWND, UINT, WPARAM, LPARAM );
 // 
    MyCDS.dwData = MYPRINT;          // function identifier
    MyCDS.cbData = sizeof( MyRec );  // size of data
-   MyCDS.lpData = &amp;MyRec;           // data structure
+   MyCDS.lpData = &MyRec;           // data structure
 //
-// Call function, passing data in &amp;MyCDS
+// Call function, passing data in &MyCDS
 //
    hwDispatch = FindWindow( "Disp32Class", "Hidden Window" );
    if( hwDispatch != NULL )
       SendMessage( hwDispatch,
                    WM_COPYDATA,
                    (WPARAM)(HWND) hWnd,
-                   (LPARAM) (LPVOID) &amp;MyCDS );
+                   (LPARAM) (LPVOID) &MyCDS );
    else
       MessageBox( hWnd, "Can't send WM_COPYDATA", "MyApp", MB_OK );
 ```

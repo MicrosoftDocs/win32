@@ -27,7 +27,7 @@ INT main()
    // Initialize GDI+.
    GdiplusStartupInput gdiplusStartupInput;
    ULONG_PTR gdiplusToken;
-   GdiplusStartup(&amp;gdiplusToken, &amp;gdiplusStartupInput, NULL);
+   GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
 
    UINT  num;        // number of image decoders
    UINT  size;       // size, in bytes, of the image decoder array
@@ -36,7 +36,7 @@ INT main()
 
    // How many decoders are there?
    // How big (in bytes) is the array of all ImageCodecInfo objects?
-   GetImageDecodersSize(&amp;num, &amp;size);
+   GetImageDecodersSize(&num, &size);
 
    // Create a buffer large enough to hold the array of ImageCodecInfo
    // objects that will be returned by GetImageDecoders.

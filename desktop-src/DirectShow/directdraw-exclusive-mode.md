@@ -29,7 +29,7 @@ The VMR has a special allocator-presenter that enables it to run in DirectDraw E
             NULL,
             CLSCTX_INPROC_SERVER,
             IID_IVMRImagePresenterExclModeConfig,
-            (void**)&amp;pExclModeConfig
+            (void**)&pExclModeConfig
             );
     ```
 

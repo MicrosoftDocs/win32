@@ -45,14 +45,14 @@ HRESULT CPlayer::Invoke(IMFAsyncResult *pResult)
     IMFMediaEvent *pEvent = NULL;
 
     // Get the event from the event queue.
-    HRESULT hr = m_pSession->EndGetEvent(pResult, &amp;pEvent);
+    HRESULT hr = m_pSession->EndGetEvent(pResult, &pEvent);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Get the event type. 
-    hr = pEvent->GetType(&amp;meType);
+    hr = pEvent->GetType(&meType);
     if (FAILED(hr))
     {
         goto done;
@@ -92,7 +92,7 @@ HRESULT CPlayer::Invoke(IMFAsyncResult *pResult)
     }
 
 done:
-    SafeRelease(&amp;pEvent);
+    SafeRelease(&pEvent);
     return S_OK;
 }
 ```
@@ -124,7 +124,7 @@ HRESULT CPlayer::HandleEvent(UINT_PTR pEventPtr)
     }
 
     // Get the event type.
-    HRESULT hr = pEvent->GetType(&amp;meType);
+    HRESULT hr = pEvent->GetType(&meType);
     if (FAILED(hr))
     {
         goto done;
@@ -132,10 +132,10 @@ HRESULT CPlayer::HandleEvent(UINT_PTR pEventPtr)
 
     // Get the event status. If the operation that triggered the event 
     // did not succeed, the status is a failure code.
-    hr = pEvent->GetStatus(&amp;hrStatus);
+    hr = pEvent->GetStatus(&hrStatus);
 
     // Check if the async operation succeeded.
-    if (SUCCEEDED(hr) &amp;&amp; FAILED(hrStatus)) 
+    if (SUCCEEDED(hr) && FAILED(hrStatus)) 
     {
         hr = hrStatus;
     }
@@ -164,7 +164,7 @@ HRESULT CPlayer::HandleEvent(UINT_PTR pEventPtr)
     }
 
 done:
-    SafeRelease(&amp;pEvent);
+    SafeRelease(&pEvent);
     return hr;
 }
 ```
@@ -183,16 +183,16 @@ HRESULT CPlayer::OnTopologyStatus(IMFMediaEvent *pEvent)
 {
     UINT32 status; 
 
-    HRESULT hr = pEvent->GetUINT32(MF_EVENT_TOPOLOGY_STATUS, &amp;status);
-    if (SUCCEEDED(hr) &amp;&amp; (status == MF_TOPOSTATUS_READY))
+    HRESULT hr = pEvent->GetUINT32(MF_EVENT_TOPOLOGY_STATUS, &status);
+    if (SUCCEEDED(hr) && (status == MF_TOPOSTATUS_READY))
     {
-        SafeRelease(&amp;m_pVideoDisplay);
+        SafeRelease(&m_pVideoDisplay);
 
         // Get the IMFVideoDisplayControl interface from EVR. This call is
         // expected to fail if the media file does not have a video stream.
 
         (void)MFGetService(m_pSession, MR_VIDEO_RENDER_SERVICE, 
-            IID_PPV_ARGS(&amp;m_pVideoDisplay));
+            IID_PPV_ARGS(&m_pVideoDisplay));
 
         hr = StartPlayback();
     }
@@ -242,14 +242,14 @@ HRESULT CPlayer::OnNewPresentation(IMFMediaEvent *pEvent)
     IMFTopology *pTopology = NULL;
 
     // Get the presentation descriptor from the event.
-    HRESULT hr = GetEventObject(pEvent, &amp;pPD);
+    HRESULT hr = GetEventObject(pEvent, &pPD);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Create a partial topology.
-    hr = CreatePlaybackTopology(m_pSource, pPD,  m_hwndVideo,&amp;pTopology);
+    hr = CreatePlaybackTopology(m_pSource, pPD,  m_hwndVideo,&pTopology);
     if (FAILED(hr))
     {
         goto done;
@@ -265,8 +265,8 @@ HRESULT CPlayer::OnNewPresentation(IMFMediaEvent *pEvent)
     m_state = OpenPending;
 
 done:
-    SafeRelease(&amp;pTopology);
-    SafeRelease(&amp;pPD);
+    SafeRelease(&pTopology);
+    SafeRelease(&pPD);
     return S_OK;
 }
 ```

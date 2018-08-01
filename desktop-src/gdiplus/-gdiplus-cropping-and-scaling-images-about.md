@@ -20,9 +20,9 @@ Rect expansionRect(80, 10, 2 * myBitmap.GetWidth(), myBitmap.GetHeight());
 Rect compressionRect(210, 10, myBitmap.GetWidth() / 2, 
    myBitmap.GetHeight() / 2);
 
-myGraphics.DrawImage(&amp;myBitmap, 10, 10);
-myGraphics.DrawImage(&amp;myBitmap, expansionRect);
-myGraphics.DrawImage(&amp;myBitmap, compressionRect);
+myGraphics.DrawImage(&myBitmap, 10, 10);
+myGraphics.DrawImage(&myBitmap, expansionRect);
+myGraphics.DrawImage(&myBitmap, compressionRect);
 ```
 
 
@@ -49,15 +49,15 @@ Rect destRect1(200, 10, 20, 16);
 Rect destRect2(200, 40, 200, 160);
 
 // Draw the original image at (0, 0).
-myGraphics.DrawImage(&amp;myBitmap, 0, 0);
+myGraphics.DrawImage(&myBitmap, 0, 0);
 
 // Draw the compressed hand.
 myGraphics.DrawImage(
-   &amp;myBitmap, destRect1, 80, 70, 80, 45, UnitPixel);
+   &myBitmap, destRect1, 80, 70, 80, 45, UnitPixel);
 
 // Draw the expanded hand. 
 myGraphics.DrawImage(
-   &amp;myBitmap, destRect2, 80, 70, 80, 45, UnitPixel);
+   &myBitmap, destRect2, 80, 70, 80, 45, UnitPixel);
 ```
 
 

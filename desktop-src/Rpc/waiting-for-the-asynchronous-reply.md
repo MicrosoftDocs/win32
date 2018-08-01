@@ -68,9 +68,9 @@ The next example demonstrates a client that uses an I/O completion port to wait 
 // RPC handle.
 if (!GetQueuedCompletionStatus(
          Async.u.IOC.hIOPort,
-         &amp;Async.u.IOC.dwNumberOfBytesTransferred,
-         &amp;Async.u.IOC.dwCompletionKey,
-         &amp;Async.u.IOC.lpOverlapped,
+         &Async.u.IOC.dwNumberOfBytesTransferred,
+         &Async.u.IOC.dwCompletionKey,
+         &Async.u.IOC.lpOverlapped,
          INFINITE))
 {
     RpcRaiseException(APP_ERROR);

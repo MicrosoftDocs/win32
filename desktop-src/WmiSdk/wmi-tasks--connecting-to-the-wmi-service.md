@@ -80,10 +80,10 @@ For more information, see [Connecting to WMI on a Remote Computer](connecting-to
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;atl-dc-01&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colProcessList = objWMIService.ExecQuery (&quot;Select * from Win32_Process&quot;)
 For Each objProcess in colProcessList
-    Wscript.Echo &quot;Process Name: &quot; &amp; objProcess.Name 
+    Wscript.Echo &quot;Process Name: &quot; & objProcess.Name 
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -128,7 +128,7 @@ Set objSWbemLocator = CreateObject(&quot;WbemScripting.SWbemLocator&quot;)
 Set objSWbemServices = objSWbemLocator.ConnectServer (strComputer, &quot;root\cimv2&quot;, &quot;fabrikam\administrator&quot;, &quot;password&quot;)
 Set colProcessList = objSWbemServices.ExecQuery(&quot;Select * From Win32_Process&quot;)
 For Each objProcess in colProcessList
-    Wscript.Echo &quot;Process Name: &quot; &amp; objProcess.Name 
+    Wscript.Echo &quot;Process Name: &quot; & objProcess.Name 
 Next</code></pre></td>
 </tr>
 </tbody>

@@ -75,9 +75,9 @@ STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
 CAPTION "Enter your name"
 FONT 8, "System", 0, 0, 0x0
 BEGIN
-    LTEXT           "&amp;First Name:",IDC_STATIC,8,16,43,8
+    LTEXT           "&First Name:",IDC_STATIC,8,16,43,8
     EDITTEXT        IDC_EDITFIRSTNAME,53,15,120,12,ES_AUTOHSCROLL
-    LTEXT           "&amp;Last Name:",IDC_STATIC,8,33,43,8
+    LTEXT           "&Last Name:",IDC_STATIC,8,33,43,8
     EDITTEXT        IDC_EDITLASTNAME,53,34,120,12,ES_AUTOHSCROLL
     DEFPUSHBUTTON   "OK",IDOK,179,35,30,11,WS_GROUP
 END
@@ -95,7 +95,7 @@ If you are using the Resource Editor in Microsoft Visual Studio .NET, you can s
 
 
 ```C++
-    LTEXT           "&amp;FullName:",IDC_STATIC,111,23,44,8,NOT WS_VISIBLE
+    LTEXT           "&FullName:",IDC_STATIC,111,23,44,8,NOT WS_VISIBLE
 ```
 
 

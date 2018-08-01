@@ -21,9 +21,9 @@ HRESULT         hr;
 IAMTimeline     *pTL = NULL;
 IXml2Dex        *pXML = NULL; 
 hr = CoCreateInstance(CLSID_AMTimeline, NULL, CLSCTX_INPROC_SERVER, 
-            IID_IAMTimeline, (void**)&amp;pTL);
+            IID_IAMTimeline, (void**)&pTL);
 hr = CoCreateInstance(CLSID_Xml2Dex, NULL, CLSCTX_INPROC_SERVER, 
-            IID_IXml2Dex, (void**)&amp;pXML);
+            IID_IXml2Dex, (void**)&pXML);
 BSTR bstrFile = SysAllocStringLen(OLESTR("C:\\example.xtl"), 15);
 hr = pXML->ReadXMLFile(pTL, bstrFile); 
 SysFreeString(bstrFile);

@@ -60,8 +60,8 @@ inline UINT64 GetRequiredIntermediateSize(
     UINT64 RequiredSize = 0;
     
     ID3D12Device* pDevice;
-    pDestinationResource->GetDevice(__uuidof(*pDevice), reinterpret_cast<void**>(&amp;pDevice));
-    pDevice->GetCopyableFootprints(&amp;Desc, FirstSubresource, NumSubresources, 0, nullptr, nullptr, nullptr, &amp;RequiredSize);
+    pDestinationResource->GetDevice(__uuidof(*pDevice), reinterpret_cast<void**>(&pDevice));
+    pDevice->GetCopyableFootprints(&Desc, FirstSubresource, NumSubresources, 0, nullptr, nullptr, nullptr, &RequiredSize);
     pDevice->Release();
     
     return RequiredSize;

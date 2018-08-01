@@ -71,10 +71,10 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colOperatingSystems = objWMIService.ExecQuery (&quot;Select * from Win32_OperatingSystem&quot;)
 For Each objOperatingSystem in colOperatingSystems
-    Wscript.Echo objOperatingSystem.ServicePackMajorVersion &amp; &quot;.&quot; &amp; objOperatingSystem.ServicePackMinorVersion
+    Wscript.Echo objOperatingSystem.ServicePackMajorVersion & &quot;.&quot; & objOperatingSystem.ServicePackMinorVersion
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -115,10 +115,10 @@ Next</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colOperatingSystems = objWMIService.ExecQuery (&quot;Select * from Win32_OperatingSystem&quot;)
 For Each objOperatingSystem in colOperatingSystems
-    Wscript.Echo &quot;Install Date: &quot; &amp; objOperatingSystem.InstallDate 
+    Wscript.Echo &quot;Install Date: &quot; & objOperatingSystem.InstallDate 
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -159,10 +159,10 @@ Next</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colOperatingSystems = objWMIService.ExecQuery (&quot;Select * from Win32_OperatingSystem&quot;)
 For Each objOperatingSystem in colOperatingSystems
-    Wscript.Echo objOperatingSystem.Caption &amp; &quot;  &quot; &amp; objOperatingSystem.Version
+    Wscript.Echo objOperatingSystem.Caption & &quot;  &quot; & objOperatingSystem.Version
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -203,10 +203,10 @@ Next</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colOperatingSystems = objWMIService.ExecQuery (&quot;Select * from Win32_OperatingSystem&quot;)
 For Each objOperatingSystem in colOperatingSystems
-    Wscript.Echo &quot;Windows Folder: &quot; &amp; objOperatingSystem.WindowsDirectory
+    Wscript.Echo &quot;Windows Folder: &quot; & objOperatingSystem.WindowsDirectory
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -247,11 +247,11 @@ Next</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colQuickFixes = objWMIService.ExecQuery (&quot;Select * from Win32_QuickFixEngineering&quot;)
 For Each objQuickFix in colQuickFixes
-    Wscript.Echo &quot;Description: &quot; &amp; objQuickFix.Description
-    Wscript.Echo &quot;Hotfix ID: &quot; &amp; objQuickFix.HotFixID
+    Wscript.Echo &quot;Description: &quot; & objQuickFix.Description
+    Wscript.Echo &quot;Hotfix ID: &quot; & objQuickFix.HotFixID
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -292,12 +292,12 @@ Next</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colWPA = objWMIService.ExecQuery (&quot;Select * from Win32_WindowsProductActivation&quot;)
 For Each objWPA in colWPA
-    Wscript.Echo &quot;Activation Required: &quot; &amp; objWPA.ActivationRequired
-    Wscript.Echo &quot;Remaining Evaluation Period: &quot; &amp; objWPA.RemainingEvaluationPeriod
-    Wscript.Echo &quot;Remaining Grace Period: &quot; &amp; objWPA.RemainingGracePeriod
+    Wscript.Echo &quot;Activation Required: &quot; & objWPA.ActivationRequired
+    Wscript.Echo &quot;Remaining Evaluation Period: &quot; & objWPA.RemainingEvaluationPeriod
+    Wscript.Echo &quot;Remaining Grace Period: &quot; & objWPA.RemainingGracePeriod
 Next</code></pre></td>
 </tr>
 </tbody>

@@ -60,7 +60,7 @@ IsSecureProcess(
 
    // Query for the process information  
    status = ZwQueryInformationProcess(
-                  ProcessHandle, ProcessBasicInformation, &amp;extendedInfo,
+                  ProcessHandle, ProcessBasicInformation, &extendedInfo,
                   sizeof(extendedInfo), NULL);
 
    if (NT_SUCCESS(status)) {

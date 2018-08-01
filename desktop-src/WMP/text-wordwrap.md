@@ -62,7 +62,7 @@ If **wordWrap** is set to true and **toolTip** is not specified, the ToolTip wil
       wordWrap = "true"
       backgroundColor = "blue"
       foregroundColor = "white"
-      value = "This is a test.&amp;#13;&amp;#13;It is only a test."
+      value = "This is a test.&#13;&#13;It is only a test."
     />
     <TEXT
       width = "50"

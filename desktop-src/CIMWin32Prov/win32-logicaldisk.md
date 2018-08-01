@@ -1934,7 +1934,7 @@ strComputer = "."
 Set objWMIService = GetObject("winmgmts:{impersonationLevel=impersonate}!\\" & strComputer & "\root\cimv2")
 Set colDisks = objWMIService.ExecQuery ("SELECT * FROM Win32_LogicalDisk")
 For Each objDisk in colDisks
- Wscript.Echo "DeviceID: "&amp; objDisk.DeviceID 
+ Wscript.Echo "DeviceID: "& objDisk.DeviceID 
  Select Case objDisk.DriveType
  Case 1
  Wscript.Echo "No root directory."
@@ -2068,8 +2068,8 @@ strComputer = "."
 Set objWMIService = GetObject("winmgmts:{impersonationLevel=impersonate}!\\" & strComputer & "\Root\CIMv2")
 Set colDisks = objWMIService.ExecQuery ("Select * from Win32_LogicalDisk")
 For Each objDisk in colDisks
-    Wscript.Echo "DeviceID: "&amp; vbTab &  objDisk.DeviceID  
-    Wscript.Echo "File System: "&amp; vbTab & objDisk.FileSystem
+    Wscript.Echo "DeviceID: "& vbTab &  objDisk.DeviceID  
+    Wscript.Echo "File System: "& vbTab & objDisk.FileSystem
 Next
 ```
 

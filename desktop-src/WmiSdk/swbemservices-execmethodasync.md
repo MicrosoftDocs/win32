@@ -242,8 +242,8 @@ wend
 ' Sink subroutines
 sub Sink_OnObjectReady(oOutParams, oContext)
     wscript.echo "Sink_OnObjectReady subroutine " _ 
-        &amp;VBCR & "ReturnValue = " _
-        & oOutParams.ReturnValue &amp;VBCR & _
+        &VBCR & "ReturnValue = " _
+        & oOutParams.ReturnValue &VBCR & _
         "ProcessId = " & oOutParams.ProcessId
 end sub
 

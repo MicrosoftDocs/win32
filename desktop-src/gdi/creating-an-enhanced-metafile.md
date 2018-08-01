@@ -41,7 +41,7 @@ iHeightPels = GetDeviceCaps(hdcRef, VERTRES);
 // Retrieve the coordinates of the client  
 // rectangle, in pixels.  
  
-GetClientRect(hWnd, &amp;rect); 
+GetClientRect(hWnd, &rect); 
  
 // Convert client coordinates to .01-mm units.  
 // Use iWidthMM, iWidthPels, iHeightMM, and  
@@ -92,7 +92,7 @@ Ofn.lpstrTitle = szTitle;
 // to the CreateEnhMetaFile function and used to  
 // store the metafile on disk.  
  
-GetSaveFileName(&amp;Ofn); 
+GetSaveFileName(&Ofn); 
  
 // Load the description from the string table.  
  
@@ -113,7 +113,7 @@ for (i=0; szDescription[i]!='\0'; i++)
  
 hdcMeta = CreateEnhMetaFile(hdcRef, 
           (LPTSTR) Ofn.lpstrFile, 
-          &amp;rect, (LPSTR)szDescription); 
+          &rect, (LPSTR)szDescription); 
  
 if (!hdcMeta) 
     errhandler("CreateEnhMetaFile", hWnd); 

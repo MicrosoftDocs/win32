@@ -28,7 +28,7 @@ BOOL WriteSlot(HANDLE hSlot, LPTSTR lpszMessage)
    fResult = WriteFile(hSlot, 
      lpszMessage, 
      (DWORD) (lstrlen(lpszMessage)+1)*sizeof(TCHAR),  
-     &amp;cbWritten, 
+     &cbWritten, 
      (LPOVERLAPPED) NULL); 
  
    if (!fResult) 

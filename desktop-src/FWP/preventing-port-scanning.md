@@ -41,7 +41,7 @@ DWORD BlockPortScanning(
    BOOL txnInProgress = FALSE;
 
    // Fill in the common fields shared by all our filters.
-   memset(&amp;filter, 0, sizeof(filter));
+   memset(&filter, 0, sizeof(filter));
    // For MUI compatibility, object names should be indirect strings. See
    // SHLoadIndirectString for details.
    filter.displayData.name = (PWSTR)filterName;
@@ -77,12 +77,12 @@ DWORD BlockPortScanning(
 
    // Add the IPv4 filter.
    filter.layerKey = FWPM_LAYER_OUTBOUND_ICMP_ERROR_V4;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    // Add the IPv6 filter.
    filter.layerKey = FWPM_LAYER_OUTBOUND_ICMP_ERROR_V6;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
 
@@ -102,13 +102,13 @@ DWORD BlockPortScanning(
    // Add the IPv4 filter.
    filter.layerKey = FWPM_LAYER_INBOUND_TRANSPORT_V4_DISCARD;
    filter.action.calloutKey = FWPM_CALLOUT_WFP_TRANSPORT_LAYER_V4_SILENT_DROP;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    // Add the IPv6 filter.
    filter.layerKey = FWPM_LAYER_INBOUND_TRANSPORT_V6_DISCARD;
    filter.action.calloutKey = FWPM_CALLOUT_WFP_TRANSPORT_LAYER_V6_SILENT_DROP;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    // Once all the adds have succeeded, we commit the transaction to atomically

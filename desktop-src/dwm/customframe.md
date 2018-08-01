@@ -70,7 +70,7 @@ if (message == WM_ACTIVATE)
     margins.cyBottomHeight = BOTTOMEXTENDWIDTH; // 20
     margins.cyTopHeight = TOPEXTENDWIDTH;       // 27
 
-    hr = DwmExtendFrameIntoClientArea(hWnd, &amp;margins);
+    hr = DwmExtendFrameIntoClientArea(hWnd, &margins);
 
     if (!SUCCEEDED(hr))
     {
@@ -110,7 +110,7 @@ The results of handling the [**WM\_NCCALCSIZE**](https://msdn.microsoft.com/libr
 if (message == WM_CREATE)
 {
     RECT rcClient;
-    GetWindowRect(hWnd, &amp;rcClient);
+    GetWindowRect(hWnd, &rcClient);
 
     // Inform the application of the frame change.
     SetWindowPos(hWnd, 
@@ -158,7 +158,7 @@ For frame resizing and moving, your application must provide the hit testing log
 
 ```
 // Handle hit testing in the NCA if not handled by DwmDefWindowProc.
-if ((message == WM_NCHITTEST) &amp;&amp; (lRet == 0))
+if ((message == WM_NCHITTEST) && (lRet == 0))
 {
     lRet = HitTestNCA(hWnd, wParam, lParam);
 
@@ -188,10 +188,10 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     HRESULT hr = S_OK;
 
     // Winproc worker for custom frame issues.
-    hr = DwmIsCompositionEnabled(&amp;fDwmEnabled)
+    hr = DwmIsCompositionEnabled(&fDwmEnabled)
     if (SUCCEEDED(hr))
     {
-        lRet = CustomCaptionProc(hWnd, message, wParam, lParam, &amp;fCallDWP);
+        lRet = CustomCaptionProc(hWnd, message, wParam, lParam, &fCallDWP);
     }
 
     // Winproc worker for the rest of the application.
@@ -211,13 +211,13 @@ LRESULT CustomCaptionProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam,
     HRESULT hr = S_OK;
     bool fCallDWP = true; // Pass on to DefWindowProc?
 
-    fCallDWP = !DwmDefWindowProc(hWnd, message, wParam, lParam, &amp;lRet);
+    fCallDWP = !DwmDefWindowProc(hWnd, message, wParam, lParam, &lRet);
 
     // Handle window creation.
     if (message == WM_CREATE)
     {
         RECT rcClient;
-        GetWindowRect(hWnd, &amp;rcClient);
+        GetWindowRect(hWnd, &rcClient);
 
         // Inform application of the frame change.
         SetWindowPos(hWnd, 
@@ -241,7 +241,7 @@ LRESULT CustomCaptionProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam,
         margins.cyBottomHeight = BOTTOMEXTENDWIDTH; // 20
         margins.cyTopHeight = TOPEXTENDWIDTH;       // 27
 
-        hr = DwmExtendFrameIntoClientArea(hWnd, &amp;margins);
+        hr = DwmExtendFrameIntoClientArea(hWnd, &margins);
 
         if (!SUCCEEDED(hr))
         {
@@ -256,9 +256,9 @@ LRESULT CustomCaptionProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam,
     {
         HDC hdc;
         {
-            hdc = BeginPaint(hWnd, &amp;ps);
+            hdc = BeginPaint(hWnd, &ps);
             PaintCustomCaption(hWnd, hdc);
-            EndPaint(hWnd, &amp;ps);
+            EndPaint(hWnd, &ps);
         }
 
         fCallDWP = true;
@@ -266,7 +266,7 @@ LRESULT CustomCaptionProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam,
     }
 
     // Handle the non-client size message.
-    if ((message == WM_NCCALCSIZE) &amp;&amp; (wParam == TRUE))
+    if ((message == WM_NCCALCSIZE) && (wParam == TRUE))
     {
         // Calculate new NCCALCSIZE_PARAMS based on custom NCA inset.
         NCCALCSIZE_PARAMS *pncsp = reinterpret_cast<NCCALCSIZE_PARAMS*>(lParam);
@@ -283,7 +283,7 @@ LRESULT CustomCaptionProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam,
     }
 
     // Handle hit testing in the NCA if not handled by DwmDefWindowProc.
-    if ((message == WM_NCHITTEST) &amp;&amp; (lRet == 0))
+    if ((message == WM_NCHITTEST) && (lRet == 0))
     {
         lRet = HitTestNCA(hWnd, wParam, lParam);
 
@@ -327,12 +327,12 @@ LRESULT AppWinProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             break;
         case WM_PAINT:
             {
-                hdc = BeginPaint(hWnd, &amp;ps);
+                hdc = BeginPaint(hWnd, &ps);
                 PaintCustomCaption(hWnd, hdc);
                 
                 // Add any drawing code here...
     
-                EndPaint(hWnd, &amp;ps);
+                EndPaint(hWnd, &ps);
             }
             break;
         case WM_DESTROY:
@@ -357,7 +357,7 @@ The following code demonstrates how to paint a caption title on the extended fra
 void PaintCustomCaption(HWND hWnd, HDC hdc)
 {
     RECT rcClient;
-    GetClientRect(hWnd, &amp;rcClient);
+    GetClientRect(hWnd, &rcClient);
 
     HTHEME hTheme = OpenThemeData(NULL, L"CompositedWindow::Window");
     if (hTheme)
@@ -380,7 +380,7 @@ void PaintCustomCaption(HWND hWnd, HDC hdc)
             dib.bmiHeader.biBitCount        = BIT_COUNT;
             dib.bmiHeader.biCompression     = BI_RGB;
 
-            HBITMAP hbm = CreateDIBSection(hdc, &amp;dib, DIB_RGB_COLORS, NULL, NULL, 0);
+            HBITMAP hbm = CreateDIBSection(hdc, &dib, DIB_RGB_COLORS, NULL, NULL, 0);
             if (hbm)
             {
                 HBITMAP hbmOld = (HBITMAP)SelectObject(hdcPaint, hbm);
@@ -393,9 +393,9 @@ void PaintCustomCaption(HWND hWnd, HDC hdc)
                 // Select a font.
                 LOGFONT lgFont;
                 HFONT hFontOld = NULL;
-                if (SUCCEEDED(GetThemeSysFont(hTheme, TMT_CAPTIONFONT, &amp;lgFont)))
+                if (SUCCEEDED(GetThemeSysFont(hTheme, TMT_CAPTIONFONT, &lgFont)))
                 {
-                    HFONT hFont = CreateFontIndirect(&amp;lgFont);
+                    HFONT hFont = CreateFontIndirect(&lgFont);
                     hFontOld = (HFONT) SelectObject(hdcPaint, hFont);
                 }
 
@@ -411,8 +411,8 @@ void PaintCustomCaption(HWND hWnd, HDC hdc)
                                 szTitle, 
                                 -1, 
                                 DT_LEFT | DT_WORD_ELLIPSIS, 
-                                &amp;rcPaint, 
-                                &amp;DttOpts);
+                                &rcPaint, 
+                                &DttOpts);
 
                 // Blit text to the frame.
                 BitBlt(hdc, 0, 0, cx, cy, hdcPaint, 0, 0, SRCCOPY);
@@ -447,11 +447,11 @@ LRESULT HitTestNCA(HWND hWnd, WPARAM wParam, LPARAM lParam)
 
     // Get the window rectangle.
     RECT rcWindow;
-    GetWindowRect(hWnd, &amp;rcWindow);
+    GetWindowRect(hWnd, &rcWindow);
 
     // Get the frame rectangle, adjusted for the style without a caption.
     RECT rcFrame = { 0 };
-    AdjustWindowRectEx(&amp;rcFrame, WS_OVERLAPPEDWINDOW & ~WS_CAPTION, FALSE, NULL);
+    AdjustWindowRectEx(&rcFrame, WS_OVERLAPPEDWINDOW & ~WS_CAPTION, FALSE, NULL);
 
     // Determine if the hit test is for resizing. Default middle (1,1).
     USHORT uRow = 1;
@@ -459,22 +459,22 @@ LRESULT HitTestNCA(HWND hWnd, WPARAM wParam, LPARAM lParam)
     bool fOnResizeBorder = false;
 
     // Determine if the point is at the top or bottom of the window.
-    if (ptMouse.y >= rcWindow.top &amp;&amp; ptMouse.y < rcWindow.top + TOPEXTENDWIDTH)
+    if (ptMouse.y >= rcWindow.top && ptMouse.y < rcWindow.top + TOPEXTENDWIDTH)
     {
         fOnResizeBorder = (ptMouse.y < (rcWindow.top - rcFrame.top));
         uRow = 0;
     }
-    else if (ptMouse.y < rcWindow.bottom &amp;&amp; ptMouse.y >= rcWindow.bottom - BOTTOMEXTENDWIDTH)
+    else if (ptMouse.y < rcWindow.bottom && ptMouse.y >= rcWindow.bottom - BOTTOMEXTENDWIDTH)
     {
         uRow = 2;
     }
 
     // Determine if the point is at the left or right of the window.
-    if (ptMouse.x >= rcWindow.left &amp;&amp; ptMouse.x < rcWindow.left + LEFTEXTENDWIDTH)
+    if (ptMouse.x >= rcWindow.left && ptMouse.x < rcWindow.left + LEFTEXTENDWIDTH)
     {
         uCol = 0; // left side
     }
-    else if (ptMouse.x < rcWindow.right &amp;&amp; ptMouse.x >= rcWindow.right - RIGHTEXTENDWIDTH)
+    else if (ptMouse.x < rcWindow.right && ptMouse.x >= rcWindow.right - RIGHTEXTENDWIDTH)
     {
         uCol = 2; // right side
     }

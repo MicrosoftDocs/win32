@@ -19,7 +19,7 @@ To get information about a single display monitor or all of the display monitors
 
 
 ```C++
-GetWindowRect(GetDesktopWindow(), &amp;rc);
+GetWindowRect(GetDesktopWindow(), &rc);
 ```
 
 

@@ -47,12 +47,12 @@ Get the number of streams, and loop through each stream checking the media type.
 ```C++
 long lStreams;
 bool bFound = false;
-hr = pDet->get_OutputStreams(&amp;lStreams);
+hr = pDet->get_OutputStreams(&lStreams);
 for (long i = 0; i < lStreams; i++)
 {
     GUID major_type;
     hr = pDet->put_CurrentStream(i);
-    hr = pDet->get_StreamType(&amp;major_type);
+    hr = pDet->get_StreamType(&major_type);
     if (major_type == MEDIATYPE_Video)  // Found a video stream.
     {
         bFound = true;
@@ -72,7 +72,7 @@ In the previous code, the [**IMediaDet::get\_StreamType**](imediadet-get-streamt
 ```C++
 long width = 0, height = 0; 
 AM_MEDIA_TYPE mt;
-hr = pDet->get_StreamMediaType(&amp;mt);
+hr = pDet->get_StreamMediaType(&mt);
 if (mt.formattype == FORMAT_VideoInfo) 
 {
     VIDEOINFOHEADER *pVih = (VIDEOINFOHEADER*)(mt.pbFormat);
@@ -97,7 +97,7 @@ Now you are ready to get the poster frame. First call the [**IMediaDet::GetBitma
 
 ```C++
 long lSize;
-hr = pDet->GetBitmapBits(0, &amp;lSize, NULL, width, height);
+hr = pDet->GetBitmapBits(0, &lSize, NULL, width, height);
 ```
 
 
@@ -138,7 +138,7 @@ HRESULT GetBitmap(LPTSTR pszFileName, BITMAPINFOHEADER** ppbmih)
 
     long lStreams;
     bool bFound = false;
-    hr = pDet->get_OutputStreams(&amp;lStreams);
+    hr = pDet->get_OutputStreams(&lStreams);
     if (FAILED(hr)) return hr;
 
     for (long i = 0; i < lStreams; i++)
@@ -147,7 +147,7 @@ HRESULT GetBitmap(LPTSTR pszFileName, BITMAPINFOHEADER** ppbmih)
         hr = pDet->put_CurrentStream(i);
         if (SUCCEEDED(hr))
         {
-            hr = pDet->get_StreamType(&amp;major_type);
+            hr = pDet->get_StreamType(&major_type);
         }
         if (FAILED(hr)) break;
 
@@ -161,10 +161,10 @@ HRESULT GetBitmap(LPTSTR pszFileName, BITMAPINFOHEADER** ppbmih)
 
     long width = 0, height = 0; 
     AM_MEDIA_TYPE mt;
-    hr = pDet->get_StreamMediaType(&amp;mt);
+    hr = pDet->get_StreamMediaType(&mt);
     if (SUCCEEDED(hr)) 
     {
-        if ((mt.formattype == FORMAT_VideoInfo) &amp;&amp; 
+        if ((mt.formattype == FORMAT_VideoInfo) && 
             (mt.cbFormat >= sizeof(VIDEOINFOHEADER)))
         {
             VIDEOINFOHEADER *pVih = (VIDEOINFOHEADER*)(mt.pbFormat);
@@ -184,7 +184,7 @@ HRESULT GetBitmap(LPTSTR pszFileName, BITMAPINFOHEADER** ppbmih)
     
     // Find the required buffer size.
     long size;
-    hr = pDet->GetBitmapBits(0, &amp;size, NULL, width, height);
+    hr = pDet->GetBitmapBits(0, &size, NULL, width, height);
     if (SUCCEEDED(hr)) 
     {
         char *pBuffer = new char[size];

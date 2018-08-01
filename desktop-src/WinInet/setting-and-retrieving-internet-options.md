@@ -193,7 +193,7 @@ The following example shows how to set the proxy user name and password on a spe
 // It contains the proxy user name.
 size_t cchMax = 80;
 size_t cchUserLength, cchPasswordLength;
-HRESULT hr = StringCchLength(strUsername, cchMax, &amp;cchUserLength);
+HRESULT hr = StringCchLength(strUsername, cchMax, &cchUserLength);
 
 if (SUCCEEDED(hr))
 {
@@ -207,7 +207,7 @@ else
 }
 
 // strPassword is the string buffer that contains the proxy password.
-hr = StringCchLength(strPassword, cchMax, &amp;cchPasswordLength);
+hr = StringCchLength(strPassword, cchMax, &cchPasswordLength);
 
 InternetSetOption(hOpen, INTERNET_OPTION_PROXY_PASSWORD,
     strPassword, DWORD(cchPasswordLength)+1);
@@ -225,7 +225,7 @@ Internet options can be retrieved using the [**InternetQueryOption**](/windows/d
 
     ```C++
     DWORD dwSize;
-    InternetQueryOption(NULL, INTERNET_OPTION_USER_AGENT, NULL, &amp;dwSize);
+    InternetQueryOption(NULL, INTERNET_OPTION_USER_AGENT, NULL, &dwSize);
     ```
 
     
@@ -244,7 +244,7 @@ Internet options can be retrieved using the [**InternetQueryOption**](/windows/d
     ```C++
     InternetQueryOption( NULL, 
                          INTERNET_OPTION_USER_AGENT,
-                         lpszData, &amp;dwSize );
+                         lpszData, &dwSize );
     ```
 
     
@@ -264,7 +264,7 @@ The following is the complete sample used in the previous section. This sample s
 ```C++
 // This call determines the required buffer size.
 DWORD dwSize;
-InternetQueryOption(NULL, INTERNET_OPTION_USER_AGENT, NULL, &amp;dwSize);
+InternetQueryOption(NULL, INTERNET_OPTION_USER_AGENT, NULL, &dwSize);
 
 // Allocate the necessary memory.
 char *lpszData;
@@ -273,7 +273,7 @@ lpszData = new char[dwSize];
 // Call InternetQueryOption again with the provided buffer.
 InternetQueryOption( NULL, 
                      INTERNET_OPTION_USER_AGENT,
-                     lpszData, &amp;dwSize );
+                     lpszData, &dwSize );
 
 // Insert code here to use the user agent string data.
 
@@ -334,7 +334,7 @@ BOOL SetConnectionOptions()
 
     // Set the options on the connection.
     bReturn = InternetSetOption(NULL,
-        INTERNET_OPTION_PER_CONNECTION_OPTION, &amp;list, dwBufSize);
+        INTERNET_OPTION_PER_CONNECTION_OPTION, &list, dwBufSize);
 
     // Free the allocated memory.
     delete [] list.pOptions;

@@ -67,12 +67,12 @@ HRESULT BytesToVariantArray(
  
     // Create the safe array for the octet string. unsigned char
     // elements;single dimension;aBound size.
-    pArrayVal = SafeArrayCreate(VT_UI1, 1, &amp;arrayBound);
+    pArrayVal = SafeArrayCreate(VT_UI1, 1, &arrayBound);
  
     if (!(NULL == pArrayVal))
     {
         hr = SafeArrayAccessData(pArrayVal,
-                                 (void HUGEP * FAR *) &amp;pArray);
+                                 (void HUGEP * FAR *) &pArray);
         if (SUCCEEDED(hr))
         {
             // Copy the bytes to the safe array.
@@ -214,7 +214,7 @@ HRESULT CreateAttribute(
 
     hr = ADsGetObject(L"LDAP://RootDSE",
                     IID_IADs,
-                    (void**)&amp;spRoot);
+                    (void**)&spRoot);
     if(FAILED(hr))
     {
         return hr;
@@ -223,7 +223,7 @@ HRESULT CreateAttribute(
     CComVariant svarSchema;
      
     // Get the disintguished name of the schema container.
-    hr = spRoot->Get(CComBSTR("schemaNamingContext"), &amp;svarSchema);
+    hr = spRoot->Get(CComBSTR("schemaNamingContext"), &svarSchema);
     if(FAILED(hr))
     {
         return hr;
@@ -236,7 +236,7 @@ HRESULT CreateAttribute(
                         NULL,
                         ADS_SECURE_AUTHENTICATION,
                         IID_IADs,
-                        (void**)&amp;spSchemaCont);
+                        (void**)&spSchemaCont);
     if(FAILED(hr))
     {
         return hr;
@@ -250,9 +250,9 @@ HRESULT CreateAttribute(
     // Create the object in the schema container.
     hr = spSchemaCont->Create(CComBSTR("attributeSchema"), 
                               sbstrAttribute, 
-                              &amp;spDisp);
+                              &spDisp);
     CComPtr<IADs> spNewAttribute;
-    hr = spDisp->QueryInterface(IID_IADs, (void**)&amp;spNewAttribute);
+    hr = spDisp->QueryInterface(IID_IADs, (void**)&spNewAttribute);
     if(FAILED(hr))
     {
         return hr;
@@ -300,7 +300,7 @@ HRESULT CreateAttribute(
         hr = BytesToVariantArray(
             (LPBYTE)pSchemaIDGUID,
             sizeof(GUID),
-            &amp;svar
+            &svar
             );
         if(FAILED(hr))
         {
@@ -395,7 +395,7 @@ HRESULT CreateAttribute(
     
     // Put rangeLower and rangeUpper.
     // If both are 0, let them default; that is do not set them.
-    if ((iLowerRange >= 0) &amp;&amp; (iUpperRange > 0))
+    if ((iLowerRange >= 0) && (iUpperRange > 0))
     {
         // Set rangeUpper.
         sbstrAttributeToSet = "rangeUpper";
@@ -448,12 +448,12 @@ HRESULT CreateAttribute(
         
     // Put omObjectClass.
     // Only set this if used to delineate omSyntax 127 attributes.
-    if (pbomObjectClass &amp;&amp; dwSizeomObjectClass) 
+    if (pbomObjectClass && dwSizeomObjectClass) 
     {
         hr = BytesToVariantArray(
             pbomObjectClass,
             dwSizeomObjectClass,
-            &amp;svar
+            &svar
             );
         if(FAILED(hr))
         {

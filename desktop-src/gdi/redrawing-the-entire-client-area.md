@@ -29,13 +29,13 @@ LRESULT APIENTRY WndProc(HWMD hwnd, UINT message, WPARAM wParam, LPARAM lParam)
     . 
  
         case WM_PAINT: 
-            hdc = BeginPaint(hwnd, &amp;ps); 
-            GetClientRect(hwnd, &amp;rc); 
+            hdc = BeginPaint(hwnd, &ps); 
+            GetClientRect(hwnd, &rc); 
             SetMapMode(hdc, MM_ANISOTROPIC); 
             SetWindowExtEx(hdc, 100, 100, NULL); 
             SetViewportExtEx(hdc, rc.right, rc.bottom, NULL); 
             Polyline(hdc, aptStar, 6); 
-            EndPaint(hwnd, &amp;ps); 
+            EndPaint(hwnd, &ps); 
             return 0L; 
  
         . 
@@ -59,7 +59,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
     . 
     . 
  
-        RegisterClass(&amp;wc); 
+        RegisterClass(&wc); 
  
     . 
     . 

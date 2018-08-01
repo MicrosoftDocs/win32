@@ -29,7 +29,7 @@ The following example creates a transition object:
 
 ```C++
 IAMTimelineObj *pTransObj = NULL;
-pTimeline->CreateEmptyNode(&amp;pTransObj, TIMELINE_MAJOR_TYPE_TRANSITION);
+pTimeline->CreateEmptyNode(&pTransObj, TIMELINE_MAJOR_TYPE_TRANSITION);
 ```
 
 
@@ -81,7 +81,7 @@ The following example adds the transition object to a track:
 
 ```C++
 IAMTimelineTransable *pTransable = NULL;
-hr = pTrack->QueryInterface(IID_IAMTimelineTransable, (void **)&amp;pTransable);
+hr = pTrack->QueryInterface(IID_IAMTimelineTransable, (void **)&pTransable);
 hr = pTransable->TransAdd(pTransObj);  
 pTransable->Release();
 ```
@@ -107,7 +107,7 @@ IAMTimelineTrack *pTrack;
 
 // Create the transition object. 
 IAMTimelineObj *pTransObj = NULL;
-hr = pTL->CreateEmptyNode(&amp;pTransObj, TIMELINE_MAJOR_TYPE_TRANSITION);
+hr = pTL->CreateEmptyNode(&pTransObj, TIMELINE_MAJOR_TYPE_TRANSITION);
 
 // Set the subobject. 
 hr = pTransObj->SetSubObjectGUID(CLSID_DxtJpeg);  // SMPTE Wipe
@@ -117,7 +117,7 @@ hr = pTransObj->SetStartStop(50000000, 100000000);
 
 // Insert the transition object into the timeline. 
 IAMTimelineTransable *pTransable = NULL;
-hr = pTrack->QueryInterface(IID_IAMTimelineTransable, (void **)&amp;pTransable);
+hr = pTrack->QueryInterface(IID_IAMTimelineTransable, (void **)&pTransable);
 hr = pTransable->TransAdd(pTransObj);  
 pTransable->Release();
 pTransObj->Release();

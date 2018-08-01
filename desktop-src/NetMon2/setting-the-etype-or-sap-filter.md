@@ -23,8 +23,8 @@ WORD Etype[] = { 0x8137 };
 rc = SetNPPEtypeSapFilter(m_hBlob, 
      2,      //  nSaps,
      1,      //  nEtypes,
-     &amp;Sap,   //  LPBYTE lpSapTable,
-     &amp;Etype, //  LPWORD lpEtypeTable,
+     &Sap,   //  LPBYTE lpSapTable,
+     &Etype, //  LPWORD lpEtypeTable,
      0,      //  DWORD  FilterFlags,
      NULL
 );

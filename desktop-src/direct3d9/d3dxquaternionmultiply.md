@@ -81,8 +81,8 @@ Transformations are concatenated in the same order for both the **D3DXQuaternion
 
 
 ```
-D3DXMatrixMultiply(&amp;m, &amp;mX, &amp;mY);
-D3DXQuaternionMultiply(&amp;q, &amp;qX, &amp;qY);
+D3DXMatrixMultiply(&m, &mX, &mY);
+D3DXQuaternionMultiply(&q, &qX, &qY);
 ```
 
 

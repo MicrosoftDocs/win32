@@ -60,7 +60,7 @@ CComPtr<IPortableDeviceCapabilities>          pCapabilities;
 CComPtr<IPortableDevicePropVariantCollection> pRenderingInfoObjects;
 CComPtr<IPortableDeviceValuesCollection>      pRenderingInfoProfiles;
 CAtlStringW                                   strRenderingInfoObjectID;
-hr = pDevice->Capabilities(&amp;pCapabilities);
+hr = pDevice->Capabilities(&pCapabilities);
 if (FAILED(hr))
 {
     printf("! Failed to get IPortableDeviceCapabilities from IPortableDevice, hr = 0x%lx\n",hr);
@@ -69,7 +69,7 @@ if (FAILED(hr))
 // Get the functional object identifier for the rendering information object
 if (SUCCEEDED(hr))
 {
-    hr = pCapabilities->GetFunctionalObjects(WPD_FUNCTIONAL_CATEGORY_RENDERING_INFORMATION, &amp;pRenderingInfoObjects);
+    hr = pCapabilities->GetFunctionalObjects(WPD_FUNCTIONAL_CATEGORY_RENDERING_INFORMATION, &pRenderingInfoObjects);
     if (FAILED(hr))
     {
         printf("! Failed to get functional objects, hr = 0x%lx\n", hr);
@@ -91,9 +91,9 @@ CAtlStringW                                   strRenderingInfoObjectID;
 if (SUCCEEDED(hr))
 {
     PROPVARIANT pv = {0};
-    PropVariantInit(&amp;pv);
-    hr = pRenderingInfoObjects->GetAt(0, &amp;pv);
-    if ((SUCCEEDED(hr))    &amp;&amp;
+    PropVariantInit(&pv);
+    hr = pRenderingInfoObjects->GetAt(0, &pv);
+    if ((SUCCEEDED(hr))    &&
         (pv.vt== VT_LPWSTR) )
     {
         strRenderingInfoObjectID = pv.pwszVal;
@@ -103,14 +103,14 @@ if (SUCCEEDED(hr))
         printf("! Failed to get first rendering object's identifier, hr = 0x%lx\n", hr);
     }
 
-    PropVariantClear(&amp;pv);
+    PropVariantClear(&pv);
 }
 
 if (SUCCEEDED(hr))
 {
     hr = ReadProfileInformationProperties(pDevice,
                                           strRenderingInfoObjectID,
-                                          &amp;pRenderingInfoProfiles);
+                                          &pRenderingInfoProfiles);
     // Error output statements are performed by the helper function, so they
     // are omitted here.
 }
@@ -130,7 +130,7 @@ CComPtr<IPortableDeviceKeyCollection>    pPropertiesToRead;
 CComPtr<IPortableDeviceValues>           pObjectProperties;
 if (SUCCEEDED(hr))
 {
-    hr = pDevice->Content(&amp;pContent);
+    hr = pDevice->Content(&pContent);
     if (FAILED(hr))
     {
         printf("! Failed to get IPortableDeviceContent from IPortableDevice, hr = 0x%lx\n",hr);
@@ -152,7 +152,7 @@ CComPtr<IPortableDeviceKeyCollection>    pPropertiesToRead;
 CComPtr<IPortableDeviceValues>           pObjectProperties;
 if (SUCCEEDED(hr))
 {
-    hr = pContent->Properties(&amp;pProperties);
+    hr = pContent->Properties(&pProperties);
     if (FAILED(hr))
     {
         printf("! Failed to get IPortableDeviceProperties from IPortableDevice, hr = 0x%lx\n",hr);
@@ -176,7 +176,7 @@ hr = CoCreateInstance(CLSID_PortableDeviceKeyCollection,
                       NULL,
                       CLSCTX_INPROC_SERVER,
                       IID_IPortableDeviceKeyCollection,
-                      (VOID**) &amp;pPropertiesToRead);
+                      (VOID**) &pPropertiesToRead);
 if (SUCCEEDED(hr))
 {
     // Populate the IPortableDeviceKeyCollection with the keys we wish to read.
@@ -210,7 +210,7 @@ if (SUCCEEDED(hr))
 {
     hr = pProperties->GetValues(wszFunctionalObjectID, // The object whose properties we are reading
                                 pPropertiesToRead,     // The properties we want to read
-                                &amp;pObjectProperties);   // Driver supplied property values for the specified object
+                                &pObjectProperties);   // Driver supplied property values for the specified object
     if (FAILED(hr))
     {
         printf("! Failed to get all properties for object '%ws', hr= 0x%lx\n", wszFunctionalObjectID, hr);
@@ -233,7 +233,7 @@ CComPtr<IPortableDeviceValues>           pObjectProperties;
 if (SUCCEEDED(hr))
 {
     hr = pObjectProperties->GetIPortableDeviceValuesCollectionValue(WPD_RENDERING_INFORMATION_PROFILES,
-                                                                    &amp;pRenderingInfoProfiles);
+                                                                    &pRenderingInfoProfiles);
     if (FAILED(hr))
     {
         printf("! Failed to get WPD_RENDERING_INFORMATION_PROFILES from rendering information, hr= 0x%lx\n",  hr);
@@ -274,7 +274,7 @@ void DisplayRenderingProfile(
         GUID  guidFormat        = WPD_OBJECT_FORMAT_UNSPECIFIED;
 
         // Display WPD_MEDIA_TOTAL_BITRATE
-        hr = pProfile->GetUnsignedIntegerValue(WPD_MEDIA_TOTAL_BITRATE, &amp;dwTotalBitrate);
+        hr = pProfile->GetUnsignedIntegerValue(WPD_MEDIA_TOTAL_BITRATE, &dwTotalBitrate);
         if (SUCCEEDED(hr))
         {
             printf("Total Bitrate: %d\n", dwTotalBitrate);
@@ -286,7 +286,7 @@ void DisplayRenderingProfile(
         if (hr == DISP_E_TYPEMISMATCH)
         {
             CComPtr<IPortableDeviceValues> pExpectedValues;
-            hr = pProfile->GetIPortableDeviceValuesValue(WPD_MEDIA_TOTAL_BITRATE, &amp;pExpectedValues);
+            hr = pProfile->GetIPortableDeviceValuesValue(WPD_MEDIA_TOTAL_BITRATE, &pExpectedValues);
             if (SUCCEEDED(hr))
             {
                 printf("Total Bitrate: ");
@@ -302,7 +302,7 @@ void DisplayRenderingProfile(
         }
 
         // Display WPD_AUDIO_CHANNEL_COUNT
-        hr = pProfile->GetUnsignedIntegerValue(WPD_AUDIO_CHANNEL_COUNT, &amp;dwChannelCount);
+        hr = pProfile->GetUnsignedIntegerValue(WPD_AUDIO_CHANNEL_COUNT, &dwChannelCount);
         if (SUCCEEDED(hr))
         {
             printf("Channel Count: %d\n", dwChannelCount);
@@ -313,7 +313,7 @@ void DisplayRenderingProfile(
         }
 
         // Display WPD_AUDIO_FORMAT_CODE
-        hr = pProfile->GetUnsignedIntegerValue(WPD_AUDIO_FORMAT_CODE,   &amp;dwAudioFormatCode);
+        hr = pProfile->GetUnsignedIntegerValue(WPD_AUDIO_FORMAT_CODE,   &dwAudioFormatCode);
         if (SUCCEEDED(hr))
         {
             printf("Audio Format Code: %d\n", dwAudioFormatCode);
@@ -324,7 +324,7 @@ void DisplayRenderingProfile(
         }
 
         // Display WPD_OBJECT_FORMAT
-        hr = pProfile->GetGuidValue(WPD_OBJECT_FORMAT, &amp;guidFormat);
+        hr = pProfile->GetGuidValue(WPD_OBJECT_FORMAT, &guidFormat);
         if (SUCCEEDED(hr))
         {
             printf("Object Format: %ws\n", (LPWSTR)CComBSTR(guidFormat));

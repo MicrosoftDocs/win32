@@ -34,7 +34,7 @@ The following procedure describes how to perform an asynchronous call with [**IU
 
     CoCreateInstance(CLSID_UnsecuredApartment, NULL, 
       CLSCTX_LOCAL_SERVER, IID_IUnsecuredApartment, 
-      (void**)&amp;pUnsecApp);
+      (void**)&pUnsecApp);
     ```
 
     
@@ -58,7 +58,7 @@ The following procedure describes how to perform an asynchronous call with [**IU
 
     ```C++
     IUnknown* pStubUnk = NULL; 
-    pUnsecApp->CreateObjectStub(pSink, &amp;pStubUnk);
+    pUnsecApp->CreateObjectStub(pSink, &pStubUnk);
     ```
 
     
@@ -69,7 +69,7 @@ The following procedure describes how to perform an asynchronous call with [**IU
 
     ```C++
     IWbemObjectSink* pStubSink = NULL;
-    pStubUnk->QueryInterface(IID_IWbemObjectSink, (void **)&amp;pStubSink); pStubUnk->Release();
+    pStubUnk->QueryInterface(IID_IWbemObjectSink, (void **)&pStubSink); pStubUnk->Release();
     ```
 
     

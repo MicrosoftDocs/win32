@@ -86,7 +86,7 @@ HRESULT hr;
 
 hr = m_piComponentFactory->CreateQueryWriterFromBlockWriter( 
       static_cast<IWICMetadataBlockWriter*>(this), 
-      &amp;piMetadataQueryWriter);
+      &piMetadataQueryWriter);
 
 ```
 
@@ -97,7 +97,7 @@ You can also create it from an existing [**IWICMetadataQueryReader**](/windows/d
 
 ```C++
 hr = m_piComponentFactory->CreateQueryWriterFromReader( 
-      piMetadataQueryReader, pguidVendor, &amp;piMetadataQueryWriter);
+      piMetadataQueryReader, pguidVendor, &piMetadataQueryWriter);
 ```
 
 
@@ -142,7 +142,7 @@ for (UINT x=0; x < m_blockCount; x++)
 {
     hr = GetWriterByIndex(x, & piMetadataWriter);
 hr = piMetadataWriter->QueryInterface(
-IID_IWICPersistStream,(void**)&amp;piPersistStream);
+IID_IWICPersistStream,(void**)&piPersistStream);
 
 hr = piPersistStream->Save(m_piStream, 
 WICPersistOptions.WicPersistOptionDefault, 

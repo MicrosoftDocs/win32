@@ -56,7 +56,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -64,7 +64,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -106,7 +106,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -117,13 +117,13 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
         goto Exit;
     }
-    hr = WsCreateServiceProxy(WS_CHANNEL_TYPE_DUPLEX_SESSION, WS_TCP_CHANNEL_BINDING, NULL, NULL, 0, NULL, 0, &amp;serviceProxy, error);
+    hr = WsCreateServiceProxy(WS_CHANNEL_TYPE_DUPLEX_SESSION, WS_TCP_CHANNEL_BINDING, NULL, NULL, 0, NULL, 0, &serviceProxy, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -132,14 +132,14 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     // Initialize address of service
     address.url = serviceUrl;                    
-    hr = WsOpenServiceProxy(serviceProxy, &amp;address, NULL, error);
+    hr = WsOpenServiceProxy(serviceProxy, &address, NULL, error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
     wprintf(L"Calling blocking method async\n");
-    hr = BlockServiceBinding_Block(serviceProxy, heap, NULL, 0, &amp;asyncContext, error);
+    hr = BlockServiceBinding_Block(serviceProxy, heap, NULL, 0, &asyncContext, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -153,7 +153,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         goto Exit;
     }
     wprintf(L"Now unblocking service\n");
-    hr = BlockServiceBinding_UnBlock(serviceProxy, heap, NULL, 0, &amp;asyncContext, error);
+    hr = BlockServiceBinding_UnBlock(serviceProxy, heap, NULL, 0, &asyncContext, error);
     if (FAILED(hr))
     {
         goto Exit;

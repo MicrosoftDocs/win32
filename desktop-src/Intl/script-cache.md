@@ -36,12 +36,12 @@ The following example applies to all functions that take a SCRIPT\_CACHE variabl
 
 
 ```C++
-hr = ScriptShape(NULL, &amp;sc,
+hr = ScriptShape(NULL, &sc,
                  pwcChars, cChars, cMaxGlyphs, psa, pwOutGlyphs, pwLogClust, psva, pcGlyphs);
 if (hr == E_PENDING)
 {
     // ... select font into hdc ...
-    hr = ScriptShape(hdc, &amp;sc,
+    hr = ScriptShape(hdc, &sc,
                  pwcChars, cChars, cMaxGlyphs, psa, pwOutGlyphs, pwLogClust, psva, pcGlyphs);
 }
 ```

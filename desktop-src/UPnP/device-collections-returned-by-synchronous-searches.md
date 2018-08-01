@@ -42,32 +42,32 @@ The following example shows the C++ code required to access the objects in a col
 HRESULT TraverseCollection(IUPnPDevices * pDevices)
 {
     IUnknown * pUnk = NULL;
-    HRESULT hr = pDevices->get__NewEnum(&amp;pUnk);
+    HRESULT hr = pDevices->get__NewEnum(&pUnk);
     if (SUCCEEDED(hr))
     {
         IEnumVARIANT * pEnumVar = NULL;
-        hr = pUnk->QueryInterface(IID_IEnumVARIANT, (void **) &amp;pEnumVar);
+        hr = pUnk->QueryInterface(IID_IEnumVARIANT, (void **) &pEnumVar);
         if (SUCCEEDED(hr))
         {
             VARIANT varCurDevice;
-            VariantInit(&amp;varCurDevice);
+            VariantInit(&varCurDevice);
             pEnumVar->Reset();
             // Loop through each device in the collection
-            while (S_OK == pEnumVar->Next(1, &amp;varCurDevice, NULL))
+            while (S_OK == pEnumVar->Next(1, &varCurDevice, NULL))
             {
                 IUPnPDevice * pDevice = NULL;
-                IDispatch * pdispDevice = V_DISPATCH(&amp;varCurDevice);
-                if (SUCCEEDED(pdispDevice->QueryInterface(IID_IUPnPDevice, (void **) &amp;pDevice)))
+                IDispatch * pdispDevice = V_DISPATCH(&varCurDevice);
+                if (SUCCEEDED(pdispDevice->QueryInterface(IID_IUPnPDevice, (void **) &pDevice)))
                 {
                     // Do something interesting with pDevice
                     BSTR bstrName = NULL;
-                    if (SUCCEEDED(pDevice->get_FriendlyName(&amp;bstrName)))
+                    if (SUCCEEDED(pDevice->get_FriendlyName(&bstrName)))
                     {
                         OutputDebugStringW(bstrName);
                         SysFreeString(bstrName);
                     }
                 }
-                VariantClear(&amp;varCurDevice);
+                VariantClear(&varCurDevice);
                 pDevice->Release();
             }
             pEnumVar->Release();

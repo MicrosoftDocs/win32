@@ -144,8 +144,8 @@ Now make a clone and a backup of this range:
 ITfRange *pClone;
 ITfRangeBackup *pBackup;
 
-pRange->Clone(&amp;pClone);
-pContext->CreateRangeBackup(ec, pRange, &amp;pBackup);
+pRange->Clone(&pClone);
+pContext->CreateRangeBackup(ec, pRange, &pBackup);
 ```
 
 
@@ -213,7 +213,7 @@ To restore the backup to a different range, pass a pointer to the range object w
 
 ```C++
 LONG lShifted;
-pRange->ShiftEnd(ec, -2, &amp;lShifted, NULL);
+pRange->ShiftEnd(ec, -2, &lShifted, NULL);
 ```
 
 

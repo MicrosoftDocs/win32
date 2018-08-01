@@ -65,19 +65,19 @@ HRESULT PlayAudioStream(MyAudioSource *pMySource)
     hr = CoCreateInstance(
            CLSID_MMDeviceEnumerator, NULL,
            CLSCTX_ALL, IID_IMMDeviceEnumerator,
-           (void**)&amp;pEnumerator);
+           (void**)&pEnumerator);
     EXIT_ON_ERROR(hr)
 
     hr = pEnumerator->GetDefaultAudioEndpoint(
-                        eRender, eConsole, &amp;pDevice);
+                        eRender, eConsole, &pDevice);
     EXIT_ON_ERROR(hr)
 
     hr = pDevice->Activate(
                     IID_IAudioClient, CLSCTX_ALL,
-                    NULL, (void**)&amp;pAudioClient);
+                    NULL, (void**)&pAudioClient);
     EXIT_ON_ERROR(hr)
 
-    hr = pAudioClient->GetMixFormat(&amp;pwfx);
+    hr = pAudioClient->GetMixFormat(&pwfx);
     EXIT_ON_ERROR(hr)
 
     hr = pAudioClient->Initialize(
@@ -94,20 +94,20 @@ HRESULT PlayAudioStream(MyAudioSource *pMySource)
     EXIT_ON_ERROR(hr)
 
     // Get the actual size of the allocated buffer.
-    hr = pAudioClient->GetBufferSize(&amp;bufferFrameCount);
+    hr = pAudioClient->GetBufferSize(&bufferFrameCount);
     EXIT_ON_ERROR(hr)
 
     hr = pAudioClient->GetService(
                          IID_IAudioRenderClient,
-                         (void**)&amp;pRenderClient);
+                         (void**)&pRenderClient);
     EXIT_ON_ERROR(hr)
 
     // Grab the entire buffer for the initial fill operation.
-    hr = pRenderClient->GetBuffer(bufferFrameCount, &amp;pData);
+    hr = pRenderClient->GetBuffer(bufferFrameCount, &pData);
     EXIT_ON_ERROR(hr)
 
     // Load the initial data into the shared buffer.
-    hr = pMySource->LoadData(bufferFrameCount, pData, &amp;flags);
+    hr = pMySource->LoadData(bufferFrameCount, pData, &flags);
     EXIT_ON_ERROR(hr)
 
     hr = pRenderClient->ReleaseBuffer(bufferFrameCount, flags);
@@ -127,17 +127,17 @@ HRESULT PlayAudioStream(MyAudioSource *pMySource)
         Sleep((DWORD)(hnsActualDuration/REFTIMES_PER_MILLISEC/2));
 
         // See how much buffer space is available.
-        hr = pAudioClient->GetCurrentPadding(&amp;numFramesPadding);
+        hr = pAudioClient->GetCurrentPadding(&numFramesPadding);
         EXIT_ON_ERROR(hr)
 
         numFramesAvailable = bufferFrameCount - numFramesPadding;
 
         // Grab all the available space in the shared buffer.
-        hr = pRenderClient->GetBuffer(numFramesAvailable, &amp;pData);
+        hr = pRenderClient->GetBuffer(numFramesAvailable, &pData);
         EXIT_ON_ERROR(hr)
 
         // Get next 1/2-second of data from the audio source.
-        hr = pMySource->LoadData(numFramesAvailable, pData, &amp;flags);
+        hr = pMySource->LoadData(numFramesAvailable, pData, &flags);
         EXIT_ON_ERROR(hr)
 
         hr = pRenderClient->ReleaseBuffer(numFramesAvailable, flags);

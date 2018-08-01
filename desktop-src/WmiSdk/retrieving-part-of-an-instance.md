@@ -146,7 +146,7 @@ void main(void)
 
     hr = CoCreateInstance(CLSID_WbemLocator, NULL, 
                           CLSCTX_INPROC_SERVER, IID_IWbemLocator, 
-                          (void**) &amp;pWbemLocator);
+                          (void**) &pWbemLocator);
     if( FAILED(hr) ) 
     {
         CoUninitialize();
@@ -156,7 +156,7 @@ void main(void)
     
     bstrNamespace = L"root\\cimv2";
     hr = pWbemLocator->ConnectServer(bstrNamespace, 
-              NULL, NULL, NULL, 0, NULL, NULL, &amp;pServices);
+              NULL, NULL, NULL, 0, NULL, NULL, &pServices);
     if( FAILED(hr) ) 
     {
         pWbemLocator->Release();
@@ -174,7 +174,7 @@ void main(void)
    // Perform a full-instance retrieval. 
    // *******************************************************//
     hr = pServices->GetObject(bstrPath,
-                              0,0, &amp;pDrive, 0);
+                              0,0, &pDrive, 0);
     if( FAILED(hr) )
     { 
         pServices->Release();
@@ -184,7 +184,7 @@ void main(void)
     }    
     // Display the object
     BSTR  bstrDriveObj;
-    hr = pDrive->GetObjectText(0, &amp;bstrDriveObj);
+    hr = pDrive->GetObjectText(0, &bstrDriveObj);
     printf("%S\n\n", bstrDriveObj);
 
     pDrive->Release();
@@ -197,7 +197,7 @@ void main(void)
     IWbemContext  *pctxDrive; // Create context object
     hr = CoCreateInstance(CLSID_WbemContext, NULL, 
                           CLSCTX_INPROC_SERVER, IID_IWbemContext, 
-                          (void**) &amp;pctxDrive);
+                          (void**) &pctxDrive);
     if (FAILED(hr))
     {
         pServices->Release();
@@ -216,43 +216,43 @@ void main(void)
     LONG  lArrayIndex = 0;
     
     // Add named values to the context object. 
-    VariantInit(&amp;vExtensions);
-    V_VT(&amp;vExtensions) = VT_BOOL;
-    V_BOOL(&amp;vExtensions) = VARIANT_TRUE;
+    VariantInit(&vExtensions);
+    V_VT(&vExtensions) = VT_BOOL;
+    V_BOOL(&vExtensions) = VARIANT_TRUE;
     hr = pctxDrive->SetValue(_bstr_t(L"__GET_EXTENSIONS"), 
-        0, &amp;vExtensions);
-    VariantClear(&amp;vExtensions);
+        0, &vExtensions);
+    VariantClear(&vExtensions);
 
-    VariantInit(&amp;vClient);
-    V_VT(&amp;vClient) = VT_BOOL;
-    V_BOOL(&amp;vClient) = VARIANT_TRUE;
+    VariantInit(&vClient);
+    V_VT(&vClient) = VT_BOOL;
+    V_BOOL(&vClient) = VARIANT_TRUE;
     hr = pctxDrive->SetValue(_bstr_t(L"__GET_EXT_CLIENT_REQUEST"), 
-       0, &amp;vClient);
-    VariantClear(&amp;vClient);
+       0, &vClient);
+    VariantClear(&vClient);
     // Create an array of properties to return.
     saBounds.cElements = 1;
     saBounds.lLbound = 0;
-    psaProperties = SafeArrayCreate(VT_BSTR, 1, &amp;saBounds);
+    psaProperties = SafeArrayCreate(VT_BSTR, 1, &saBounds);
 
     // Add the Caption property to the array.
-    VariantInit(&amp;vProperty);
-    V_VT(&amp;vProperty) = VT_BSTR;
-    V_BSTR(&amp;vProperty) = _bstr_t(L"Caption");
-    SafeArrayPutElement(psaProperties, &amp;lArrayIndex, 
-       V_BSTR(&amp;vProperty));
-    VariantClear(&amp;vProperty);
+    VariantInit(&vProperty);
+    V_VT(&vProperty) = VT_BSTR;
+    V_BSTR(&vProperty) = _bstr_t(L"Caption");
+    SafeArrayPutElement(psaProperties, &lArrayIndex, 
+       V_BSTR(&vProperty));
+    VariantClear(&vProperty);
     
-    VariantInit(&amp;vPropertyList);
-    V_VT(&amp;vPropertyList) = VT_ARRAY | VT_BSTR;
-    V_ARRAY(&amp;vPropertyList) = psaProperties;
+    VariantInit(&vPropertyList);
+    V_VT(&vPropertyList) = VT_ARRAY | VT_BSTR;
+    V_ARRAY(&vPropertyList) = psaProperties;
     // Put the array in the named value __GET_EXT_PROPERTIES.
     hr = pctxDrive->SetValue(_bstr_t(L"__GET_EXT_PROPERTIES"), 
-        0, &amp;vPropertyList);
-    VariantClear(&amp;vPropertyList);
+        0, &vPropertyList);
+    VariantClear(&vPropertyList);
     SafeArrayDestroy(psaProperties);
 
     // Pass the context object as the pCtx parameter of GetObject.
-    hr = pServices->GetObject(bstrPath, 0, pctxDrive, &amp;pDrive, 0);
+    hr = pServices->GetObject(bstrPath, 0, pctxDrive, &pDrive, 0);
     if( FAILED(hr) )
     { 
         pServices->Release();
@@ -261,7 +261,7 @@ void main(void)
         return;
     }    
     // Display the object
-    hr = pDrive->GetObjectText(0, &amp;bstrDriveObj);
+    hr = pDrive->GetObjectText(0, &bstrDriveObj);
     printf("%S\n\n", bstrDriveObj);
 
     SysFreeString(bstrPath);
@@ -272,7 +272,7 @@ void main(void)
     // the partial-instance retrieval succeeded.
 
     hr = pDrive->Get(_bstr_t(L"FileSystem"), 0,
-                       &amp;vFileSystem, NULL, NULL);
+                       &vFileSystem, NULL, NULL);
 
     if( FAILED(hr) )
     { 
@@ -283,12 +283,12 @@ void main(void)
         return;
     }    
  
-    if (V_VT(&amp;vFileSystem) == VT_NULL)
+    if (V_VT(&vFileSystem) == VT_NULL)
         printf("file system variable is null - expected\n");
     else
-        printf("FileSystem = %S\n", V_BSTR(&amp;vFileSystem));
+        printf("FileSystem = %S\n", V_BSTR(&vFileSystem));
     
-    VariantClear(&amp;vFileSystem);
+    VariantClear(&vFileSystem);
 
     pDrive->Release();    
     pctxDrive->Release();

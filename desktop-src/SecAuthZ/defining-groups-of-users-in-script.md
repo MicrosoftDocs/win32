@@ -83,7 +83,7 @@ Set appGroup = expenseApp.CreateApplicationGroup("LDAP Trusted Users")
 appGroup.Type = 2
 
 '  Add LDAP query for all users.
-appGroup.LdapQuery = ("&amp;(objectCategory=person)(objectClass=user)")
+appGroup.LdapQuery = ("&(objectCategory=person)(objectClass=user)")
 
 '  Save the application group to the store.
 appGroup.Submit

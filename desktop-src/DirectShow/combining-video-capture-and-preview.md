@@ -16,11 +16,11 @@ The previous sections describe how to capture video to various file formats. The
 
 ```C++
 // Render the preview stream to the video renderer.
-hr = pBuild->RenderStream(&amp;PIN_CATEGORY_PREVIEW, &amp;MEDIATYPE_Video, pCap, 
+hr = pBuild->RenderStream(&PIN_CATEGORY_PREVIEW, &MEDIATYPE_Video, pCap, 
     NULL, NULL);
 
 // Render the capture stream to the mux.
-hr = pBuild->RenderStream(&amp;PIN_CATEGORY_CAPTURE, &amp;MEDIATYPE_Video, pCap, 
+hr = pBuild->RenderStream(&PIN_CATEGORY_CAPTURE, &MEDIATYPE_Video, pCap, 
     NULL, pMux);
 ```
 

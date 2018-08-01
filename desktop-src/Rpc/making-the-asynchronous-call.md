@@ -36,7 +36,7 @@ RPC_ASYNC_STATE Async;
 RPC_STATUS status;
  
 // Initialize the handle.
-status = RpcAsyncInitializeHandle(&amp;Async, sizeof(RPC_ASYNC_STATE));
+status = RpcAsyncInitializeHandle(&Async, sizeof(RPC_ASYNC_STATE));
 if (status)
 {
     // Code to handle the error goes here.
@@ -54,7 +54,7 @@ if (Async.u.hEvent == 0)
 RpcTryExcept
 {
     printf("\nCalling the remote procedure 'AsyncFunc'\n");
-    AsyncFunc(&amp;Async, AsyncRPC_ClientIfHandle, nAsychDelay);
+    AsyncFunc(&Async, AsyncRPC_ClientIfHandle, nAsychDelay);
 }
 RpcExcept(1)
 {

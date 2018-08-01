@@ -170,7 +170,7 @@ If there is at least one [DivisionUnit](https://msdn.microsoft.com/library/ms837
 
 ```C++
 // If there is at least one unit, we construct the rectangles
-if((null != units) &amp;&amp; (0 < units.Count))
+if((null != units) && (0 < units.Count))
 {
     // We need to convert rectangles from ink units to
     // pixel units. For that, we need Graphics object

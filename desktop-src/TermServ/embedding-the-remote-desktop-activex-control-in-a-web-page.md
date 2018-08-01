@@ -138,7 +138,7 @@ function getQS ( sKey )
     end if
 
     iDelimPos = InStr ( iKeyPos, sURL, "=" )
-    iEndPos = InStr ( iDelimPos, sURL, "&amp;" )
+    iEndPos = InStr ( iDelimPos, sURL, "&" )
 
     if iEndPos = 0 then
         sRetVal = Mid ( sURL, iDelimPos + 1 )
@@ -315,19 +315,19 @@ Connection</id>
                     </td>
                     <!-- Column 2 spans 4 rows-->
                     <td valign="top" rowspan="4" align="left">
-                        &amp;nbsp;
+                        &nbsp;
                     </td>
                     <!-- Column 3 -->
                     <td style="width: 10%" id="ServerNameKeyWidth" valign="center">
                         <label accesskey="S" id="ServerNameKey" for="editServer">
                             <br>
-                            <p align="right">&amp;nbsp;<id id="ServerName"><U>S</U>erver:</id></p>
+                            <p align="right">&nbsp;<id id="ServerName"><U>S</U>erver:</id></p>
                         </label>
                     </td>
                     <!-- Column 4 -->
                     <td id="ServerKeyWidth" valign="bottom" width="40%">
                         <br>
-                        &amp;nbsp;&amp;nbsp;<input id="editServer" size="41" name="Server">
+                        &nbsp;&nbsp;<input id="editServer" size="41" name="Server">
                     </td>
                 </tr>
                 <!-- Row 2 -->
@@ -342,7 +342,7 @@ Connection</id>
                     </td>
                     <!-- Column 4 -->
                     <td valign="bottom">
-                        &amp;nbsp;&amp;nbsp;<select id="comboRes" class="topspace" size="1" name="comboResolution">
+                        &nbsp;&nbsp;<select id="comboRes" class="topspace" size="1" name="comboResolution">
                             <option selected value="1">
                                 <id id="option1">
                                 Full-screen</option>
@@ -384,11 +384,11 @@ Connection</id>
                 <tr>
                     <!-- Column 3 -->
                     <td height="215">
-                        &amp;nbsp;
+                        &nbsp;
                     </td>
                     <!-- Column 4 -->
                     <td>
-                        &amp;nbsp;
+                        &nbsp;
                     </td>
                 </tr>
             </tbody>
@@ -439,9 +439,9 @@ end sub
 
 sub MsRdpClient_OnDisconnected(disconnectCode)
    extendedDiscReason = MsRdpClient.ExtendedDisconnectReason
-   majorDiscReason = disconnectCode And &amp;hFF
+   majorDiscReason = disconnectCode And &hFF
 
-   if (disconnectCode = &amp;hB08 or majorDiscReason = 2 or majorDiscReason = 1) and not (extendedDiscReason = 5) then
+   if (disconnectCode = &hB08 or majorDiscReason = 2 or majorDiscReason = 1) and not (extendedDiscReason = 5) then
       'Switch back to login area
       ReturnToConnectPage
       exit sub

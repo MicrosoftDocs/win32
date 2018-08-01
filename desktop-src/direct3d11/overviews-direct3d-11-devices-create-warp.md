@@ -18,7 +18,7 @@ This topic shows how to create a WARP device that implements a high speed softwa
 1.  Define initial parameters for a swap chain.
     ```
         DXGI_SWAP_CHAIN_DESC sd;
-        ZeroMemory( &amp;sd, sizeof( sd ) );
+        ZeroMemory( &sd, sizeof( sd ) );
         sd.BufferCount = 1;
         sd.BufferDesc.Width = 640;
         sd.BufferDesc.Height = 480;
@@ -53,14 +53,14 @@ This topic shows how to create a WARP device that implements a high speed softwa
                     D3D_DRIVER_TYPE_WARP,
                     NULL, 
                     0,
-                    &amp;FeatureLevels, 
+                    &FeatureLevels, 
                     1, 
                     D3D11_SDK_VERSION, 
-                    &amp;sd, 
-                    &amp;g_pSwapChain, 
-                    &amp;g_pd3dDevice, 
-                    &amp;FeatureLevel,
-                    &amp;g_pImmediateContext )))
+                    &sd, 
+                    &g_pSwapChain, 
+                    &g_pd3dDevice, 
+                    &FeatureLevel,
+                    &g_pImmediateContext )))
     {
         return hr;
     }

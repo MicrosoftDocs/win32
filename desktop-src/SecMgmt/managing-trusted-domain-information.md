@@ -43,15 +43,15 @@ void EnumerateTrusts(LSA_HANDLE PolicyHandle)
   {
     Status = LsaEnumerateTrustedDomains(
        PolicyHandle,         // an open policy handle
-       &amp;hEnum,               // enumeration tracker
-       (PVOID*)&amp;TrustInfo,   // buffer to receive data
+       &hEnum,               // enumeration tracker
+       (PVOID*)&TrustInfo,   // buffer to receive data
        32000,                // recommended buffer size
-       &amp;ulReturned           // number of items returned in TrustInfo
+       &ulReturned           // number of items returned in TrustInfo
     );
 
     // Check the return status for errors.
-    if((Status != STATUS_SUCCESS) &amp;&amp;
-       (Status != STATUS_MORE_ENTRIES) &amp;&amp;
+    if((Status != STATUS_SUCCESS) &&
+       (Status != STATUS_MORE_ENTRIES) &&
      (Status != STATUS_NO_MORE_ENTRIES))
       {
         // Handle the error.

@@ -33,7 +33,7 @@ BOOL GetAccountDomainInfo(LSA_HANDLE PolicyHandle)
   ntsResult = LsaQueryInformationPolicy(
     PolicyHandle,                   // Open handle to a Policy object.
     PolicyAccountDomainInformation, // The information to get.
-    (PVOID *)&amp;pPADInfo              // Storage for the information.
+    (PVOID *)&pPADInfo              // Storage for the information.
   );
 
   if (ntsResult == STATUS_SUCCESS)

@@ -61,7 +61,7 @@ The following code example creates a geometry object that describes a closed rec
     };
 
     // create the geometry figure interface
-    hr = xpsFactory->CreateGeometryFigure( &amp;startPoint, &amp;xpsFigure );
+    hr = xpsFactory->CreateGeometryFigure( &startPoint, &xpsFigure );
 
     // close the figure so that the last segment point is
     // connected to the start point
@@ -79,10 +79,10 @@ The following code example creates a geometry object that describes a closed rec
         sidebarSegmentStrokes);
 
     // create a geometry using the figure just created
-    hr = xpsFactory->CreateGeometry(&amp;xpsGeometry);
+    hr = xpsFactory->CreateGeometry(&xpsGeometry);
 
     // get a pointer to the figure collection
-    hr = xpsGeometry->GetFigures(&amp;xpsFigureCollection);
+    hr = xpsGeometry->GetFigures(&xpsFigureCollection);
 
     // and add the figure of the rectangle to the geometry
     hr = xpsFigureCollection->Append(xpsFigure);

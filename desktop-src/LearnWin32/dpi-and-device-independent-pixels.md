@@ -126,7 +126,7 @@ void InitializeDPIScale(ID2D1Factory *pFactory)
 {
     FLOAT dpiX, dpiY;
 
-    pFactory->GetDesktopDpi(&amp;dpiX, &amp;dpiY);
+    pFactory->GetDesktopDpi(&dpiX, &dpiY);
 
     g_DPIScaleX = dpiX/96.0f;
     g_DPIScaleY = dpiY/96.0f;
@@ -173,7 +173,7 @@ void MainWindow::Resize()
     if (pRenderTarget != NULL)
     {
         RECT rc;
-        GetClientRect(m_hwnd, &amp;rc);
+        GetClientRect(m_hwnd, &rc);
 
         D2D1_SIZE_U size = D2D1::SizeU(rc.right, rc.bottom);
 

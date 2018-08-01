@@ -72,7 +72,7 @@ HWND CreateAHorizontalScrollBar(HWND hwndParent, int sbHeight)
     RECT rect;
 
     // Get the dimensions of the parent window's client area;
-    if (!GetClientRect(hwndParent, &amp;rect))
+    if (!GetClientRect(hwndParent, &rect))
         return NULL;
 
     // Create the scroll bar.

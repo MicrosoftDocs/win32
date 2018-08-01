@@ -78,7 +78,7 @@ HRESULT OnTabbedDialogInit(HWND hwndDlg)
     // Initialize common controls.
     iccex.dwSize = sizeof(INITCOMMONCONTROLSEX);
     iccex.dwICC = ICC_TAB_CLASSES;
-    InitCommonControlsEx(&amp;iccex); 
+    InitCommonControlsEx(&iccex); 
 
     // Allocate memory for the DLGHDR structure. Remember to 
     // free this memory before the dialog box is destroyed.
@@ -105,11 +105,11 @@ HRESULT OnTabbedDialogInit(HWND hwndDlg)
     tie.mask = TCIF_TEXT | TCIF_IMAGE; 
     tie.iImage = -1; 
     tie.pszText = L"First"; 
-    TabCtrl_InsertItem(pHdr->hwndTab, 0, &amp;tie); 
+    TabCtrl_InsertItem(pHdr->hwndTab, 0, &tie); 
     tie.pszText = L"Second"; 
-    TabCtrl_InsertItem(pHdr->hwndTab, 1, &amp;tie); 
+    TabCtrl_InsertItem(pHdr->hwndTab, 1, &tie); 
     tie.pszText = L"Third"; 
-    TabCtrl_InsertItem(pHdr->hwndTab, 2, &amp;tie); 
+    TabCtrl_InsertItem(pHdr->hwndTab, 2, &tie); 
 
     // Lock the resources for the three child dialog boxes. 
     pHdr->apRes[0] = DoLockDlgRes(MAKEINTRESOURCE(IDD_FIRSTDLG)); 
@@ -118,7 +118,7 @@ HRESULT OnTabbedDialogInit(HWND hwndDlg)
 
     // Determine a bounding rectangle that is large enough to 
     // contain the largest child dialog box. 
-    SetRectEmpty(&amp;rcTab); 
+    SetRectEmpty(&rcTab); 
     for (i = 0; i < C_PAGES; i++) 
     { 
         if (pHdr->apRes[i]->cx > rcTab.right) 
@@ -128,16 +128,16 @@ HRESULT OnTabbedDialogInit(HWND hwndDlg)
     }
 
     // Map the rectangle from dialog box units to pixels.
-    MapDialogRect(hwndDlg, &amp;rcTab);
+    MapDialogRect(hwndDlg, &rcTab);
     
     // Calculate how large to make the tab control, so 
     // the display area can accommodate all the child dialog boxes. 
-    TabCtrl_AdjustRect(pHdr->hwndTab, TRUE, &amp;rcTab); 
-    OffsetRect(&amp;rcTab, cxMargin - rcTab.left, cyMargin - rcTab.top); 
+    TabCtrl_AdjustRect(pHdr->hwndTab, TRUE, &rcTab); 
+    OffsetRect(&rcTab, cxMargin - rcTab.left, cyMargin - rcTab.top); 
  
     // Calculate the display rectangle. 
-    CopyRect(&amp;pHdr->rcDisplay, &amp;rcTab); 
-    TabCtrl_AdjustRect(pHdr->hwndTab, FALSE, &amp;pHdr->rcDisplay); 
+    CopyRect(&pHdr->rcDisplay, &rcTab); 
+    TabCtrl_AdjustRect(pHdr->hwndTab, FALSE, &pHdr->rcDisplay); 
  
     // Set the size and position of the tab control, buttons, 
     // and dialog box. 
@@ -152,7 +152,7 @@ HRESULT OnTabbedDialogInit(HWND hwndDlg)
             SWP_NOSIZE | SWP_NOZORDER); 
  
     // Determine the size of the button. 
-    GetWindowRect(hwndButton, &amp;rcButton); 
+    GetWindowRect(hwndButton, &rcButton); 
     rcButton.right -= rcButton.left; 
     rcButton.bottom -= rcButton.top; 
  

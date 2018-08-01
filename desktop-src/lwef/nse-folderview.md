@@ -216,19 +216,19 @@ tbadbm.hInst = g_hInstance;    // The module's instance handle
 tbadbm.nID = IDB_BUTTONIMAGE;  // The bitmap's resource ID
 
 psb->SendControlMsg(FCW_TOOLBAR, TB_ADDBITMAP, 1,
-                    reinterpret_cast<LPARAM>(&amp;tbadbm), &amp;iButtonIndex);
+                    reinterpret_cast<LPARAM>(&tbadbm), &iButtonIndex);
 
 psb->SendControlMsg(FCW_TOOLBAR, TB_ADDSTRING, NULL,
-                    reinterpret_cast<LPARAM>(szLabel), &amp;iStringIndex);
+                    reinterpret_cast<LPARAM>(szLabel), &iStringIndex);
 
-ZeroMemory(&amp;tbb, sizeof(TBBUTTON));
+ZeroMemory(&tbb, sizeof(TBBUTTON));
 tbb.iBitmap = iButtonIndex;
 tbb.iCommand = IDB_MYBUTTON;
 tbb.iString = iStringIndex;
 tbb.fsState = TBSTATE_ENABLED;
 tbb.fsStyle = TBSTYLE_BUTTON;
 
-psb->SetToolbarItems(&amp;tbb, 1, FCT_MERGE);
+psb->SetToolbarItems(&tbb, 1, FCT_MERGE);
 ```
 
 

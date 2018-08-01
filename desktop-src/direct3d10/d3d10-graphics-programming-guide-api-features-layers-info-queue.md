@@ -66,7 +66,7 @@ The following code is an example of setting up the [**ID3D10InfoQueue Interface*
 ```
   //retrieve the ID3D10InfoQueue from a Direct3D device created with the D3D10_CREATE_DEVICE_DEBUG flag
   ID3D10InfoQueue * pInfoQueue;
-    g_pd3dDevice->QueryInterface( __uuidof(ID3D10InfoQueue),  (void **)&amp;pInfoQueue );
+    g_pd3dDevice->QueryInterface( __uuidof(ID3D10InfoQueue),  (void **)&pInfoQueue );
     
   //set up the list of messages to filter
     D3D10_MESSAGE_ID messageIDs [] = { D3D10_MESSAGE_ID_DEVICE_DRAW_INDEX_BUFFER_TOO_SMALL };
@@ -77,7 +77,7 @@ The following code is an example of setting up the [**ID3D10InfoQueue Interface*
     filter.DenyList.pIDList = messageIDs;
     
   //apply the filter to the info queue
-    pInfoQueue->AddStorageFilterEntries( &amp;filter );  
+    pInfoQueue->AddStorageFilterEntries( &filter );  
 ```
 
 

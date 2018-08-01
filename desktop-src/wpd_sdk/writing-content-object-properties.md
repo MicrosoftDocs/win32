@@ -68,7 +68,7 @@ void WriteContentProperties(
  // access the content-specific methods.
  if (SUCCEEDED(hr))
  {
-  hr = pService->Content(&amp;pContent);
+  hr = pService->Content(&pContent);
   if (FAILED(hr))
   {
    printf("! Failed to get IPortableDeviceContent2 from IPortableDeviceService, hr = 0x%lx\n",hr);
@@ -79,7 +79,7 @@ void WriteContentProperties(
  // to access the property-specific methods.
  if (SUCCEEDED(hr))
  {
-  hr = pContent->Properties(&amp;pProperties);
+  hr = pContent->Properties(&pProperties);
   if (FAILED(hr))
   {
    printf("! Failed to get IPortableDeviceProperties from IPortableDeviceContent2, hr = 0x%lx\n",hr);
@@ -91,10 +91,10 @@ void WriteContentProperties(
  {
   hr = pProperties->GetPropertyAttributes(wszSelection,
             PKEY_GenericObj_Name,
-            &amp;pAttributes);
+            &pAttributes);
   if (SUCCEEDED(hr))
   {
-   hr = pAttributes->GetBoolValue(WPD_PROPERTY_ATTRIBUTE_CAN_WRITE, &amp;bCanWrite);
+   hr = pAttributes->GetBoolValue(WPD_PROPERTY_ATTRIBUTE_CAN_WRITE, &bCanWrite);
    if (SUCCEEDED(hr))
    {
     if (bCanWrite)
@@ -132,7 +132,7 @@ void WriteContentProperties(
           NULL,
           CLSCTX_INPROC_SERVER,
           IID_IPortableDeviceValues,
-          (VOID**) &amp;pObjectPropertiesToWrite);
+          (VOID**) &pObjectPropertiesToWrite);
    if (SUCCEEDED(hr))
    {
     if (pObjectPropertiesToWrite != NULL)
@@ -151,7 +151,7 @@ void WriteContentProperties(
   {
    hr = pProperties->SetValues(wszSelection,      // The object whose properties we are reading
           pObjectPropertiesToWrite,   // The properties we want to read
-          &amp;pPropertyWriteResults); // Driver supplied property result values for the property read operation
+          &pPropertyWriteResults); // Driver supplied property result values for the property read operation
    if (FAILED(hr))
    {
     printf("! Failed to set properties for object '%ws', hr= 0x%lx\n", wszSelection, hr);

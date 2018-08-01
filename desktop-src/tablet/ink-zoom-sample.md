@@ -176,14 +176,14 @@ vScrollBar.Visible = vScrollBar.LargeChange < vScrollBar.Maximum;
 
 // If the horizontal scroll bar value would run off of the drawing area, 
 // adjust it
-if(hScrollBar.Visible &amp;&amp; (hScrollBar.Value + hScrollBar.LargeChange > hScrollBar.Maximum)) 
+if(hScrollBar.Visible && (hScrollBar.Value + hScrollBar.LargeChange > hScrollBar.Maximum)) 
 {
     hScrollBar.Value = hScrollBar.Maximum - hScrollBar.LargeChange;
 }
 
 // If the vertical scroll bar value would run off of the drawing area, 
 // adjust it
-if(vScrollBar.Visible &amp;&amp; (vScrollBar.Value + vScrollBar.LargeChange > vScrollBar.Maximum))
+if(vScrollBar.Visible && (vScrollBar.Value + vScrollBar.LargeChange > vScrollBar.Maximum))
 {
     vScrollBar.Value = vScrollBar.Maximum - vScrollBar.LargeChange;
 }

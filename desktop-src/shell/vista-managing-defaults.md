@@ -145,7 +145,7 @@ int _tmain(int argc, WCHAR* argv[])
     OSVERSIONINFO version;
     version.dwOSVersionInfoSize = sizeof(version);
 
-    if (GetVersionEx(&amp;version))
+    if (GetVersionEx(&version))
     {
         PCWSTR pszCPLName = NULL;
 
@@ -154,7 +154,7 @@ int _tmain(int argc, WCHAR* argv[])
             // Windows Vista and later
             pszCPLName = L"Programs and Features";
         }
-        else if (version.dwMajorVersion == 5 &amp;&amp;
+        else if (version.dwMajorVersion == 5 &&
                  version.dwMinorVersion == 1)
         {
             // XP

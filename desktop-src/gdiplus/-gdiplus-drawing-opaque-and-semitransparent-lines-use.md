@@ -20,13 +20,13 @@ The following example draws an image and then draws three lines that use the ima
 
 ```
 Image image(L"Texture1.jpg");
-graphics.DrawImage(&amp;image, 10, 5, image.GetWidth(), image.GetHeight());
+graphics.DrawImage(&image, 10, 5, image.GetWidth(), image.GetHeight());
 Pen opaquePen(Color(255, 0, 0, 255), 15);
 Pen semiTransPen(Color(128, 0, 0, 255), 15);
-graphics.DrawLine(&amp;opaquePen, 0, 20, 100, 20);
-graphics.DrawLine(&amp;semiTransPen, 0, 40, 100, 40);
+graphics.DrawLine(&opaquePen, 0, 20, 100, 20);
+graphics.DrawLine(&semiTransPen, 0, 40, 100, 40);
 graphics.SetCompositingQuality(CompositingQualityGammaCorrected);
-graphics.DrawLine(&amp;semiTransPen, 0, 60, 100, 60);
+graphics.DrawLine(&semiTransPen, 0, 60, 100, 60);
 ```
 
 

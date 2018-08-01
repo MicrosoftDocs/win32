@@ -49,7 +49,7 @@ void main()
       ITocParser* pTocParser = NULL;
 
       hr = CoCreateInstance(CLSID_CTocParser, NULL, CLSCTX_INPROC_SERVER, 
-         IID_ITocParser, (VOID**)&amp;pTocParser);  
+         IID_ITocParser, (VOID**)&pTocParser);  
       
       if(SUCCEEDED(hr))
       {  
@@ -58,17 +58,17 @@ void main()
          if(SUCCEEDED(hr))
          {
             IToc* pToc = NULL;
-            hr = pTocParser->GetTocByIndex(TOC_POS_TOPLEVELOBJECT, 0, &amp;pToc);
+            hr = pTocParser->GetTocByIndex(TOC_POS_TOPLEVELOBJECT, 0, &pToc);
 
             if(SUCCEEDED(hr))
             {
                ITocEntryList* pEntryList = NULL;
-               hr = pToc->GetEntryListByIndex(0, &amp;pEntryList);
+               hr = pToc->GetEntryListByIndex(0, &pEntryList);
 
                if(SUCCEEDED(hr))
                {
                   ITocEntry* pEntry = NULL;
-                  hr = pEntryList->GetEntryByIndex(0, &amp;pEntry);
+                  hr = pEntryList->GetEntryByIndex(0, &pEntry);
 
                   if(SUCCEEDED(hr))
                   {
@@ -99,7 +99,7 @@ HRESULT ShowEntryInfo(ITocEntry* pEntry)
    HRESULT hr = E_FAIL;
 
    TOC_ENTRY_DESCRIPTOR entryDesc = {0};
-   hr = pEntry->GetDescriptor(&amp;entryDesc);
+   hr = pEntry->GetDescriptor(&entryDesc);
 
    if(SUCCEEDED(hr))
    {

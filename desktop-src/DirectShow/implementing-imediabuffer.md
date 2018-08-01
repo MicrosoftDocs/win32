@@ -32,7 +32,7 @@ private:
     BYTE         *m_pbData;
 
 
-    CMediaBuffer(DWORD cbMaxLength, HRESULT&amp; hr) :
+    CMediaBuffer(DWORD cbMaxLength, HRESULT& hr) :
         m_nRefCount(1),
         m_cbMaxLength(cbMaxLength),
         m_cbLength(0),
@@ -109,12 +109,12 @@ public:
 
     STDMETHODIMP_(ULONG) AddRef()
     {
-        return InterlockedIncrement(&amp;m_nRefCount);
+        return InterlockedIncrement(&m_nRefCount);
     }
 
     STDMETHODIMP_(ULONG) Release()
     {
-        LONG lRef = InterlockedDecrement(&amp;m_nRefCount);
+        LONG lRef = InterlockedDecrement(&m_nRefCount);
         if (lRef == 0) 
         {
             delete this;
@@ -147,7 +147,7 @@ public:
     STDMETHODIMP GetBufferAndLength(BYTE **ppbBuffer, DWORD *pcbLength)
     {
         // Either parameter can be NULL, but not both.
-        if (ppbBuffer == NULL &amp;&amp; pcbLength == NULL) 
+        if (ppbBuffer == NULL && pcbLength == NULL) 
         {
             return E_POINTER;
         }

@@ -89,11 +89,11 @@ The following code illustrates retrieving a [**ID3D11ShaderReflection**](https:/
 
 ```C++
 pd3dDevice->CreatePixelShader( pPixelShaderBuffer->GetBufferPointer(),
-                               pPixelShaderBuffer->GetBufferSize(), g_pPSClassLinkage, &amp;g_pPixelShader );
+                               pPixelShaderBuffer->GetBufferSize(), g_pPSClassLinkage, &g_pPixelShader );
 
 ID3D11ShaderReflection* pReflector = NULL; 
 D3DReflect( pPixelShaderBuffer->GetBufferPointer(), pPixelShaderBuffer->GetBufferSize(), 
-            IID_ID3D11ShaderReflection, (void**) &amp;pReflector);
+            IID_ID3D11ShaderReflection, (void**) &pReflector);
 ```
 
 

@@ -37,7 +37,7 @@ void CreateInstanceFromPropertyData(
   [in, optional] uint32              TTL,
   [in]           uint16              Preference,
   [in]           string              MailExchange,
-  [out, ref]     MicrosoftDNS_MXType &amp;RR
+  [out, ref]     MicrosoftDNS_MXType &RR
 );
 ```
 

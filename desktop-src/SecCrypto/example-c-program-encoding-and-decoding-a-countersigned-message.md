@@ -149,14 +149,14 @@ int _tmain(int argc, _TCHAR* argv[])
         pSignerCert,
         0,
         NULL,
-        &amp;hCryptProv,
-        &amp;dwKeySpec,
+        &hCryptProv,
+        &dwKeySpec,
         NULL)))
     {
         MyHandleError("CryptAcquireContext failed.");
     }
      
-    memset(&amp;SignerEncodeInfo, 0, sizeof(CMSG_SIGNER_ENCODE_INFO));
+    memset(&SignerEncodeInfo, 0, sizeof(CMSG_SIGNER_ENCODE_INFO));
     SignerEncodeInfo.cbSize = sizeof(CMSG_SIGNER_ENCODE_INFO);
     SignerEncodeInfo.pCertInfo = pSignerCert->pCertInfo;
     SignerEncodeInfo.hCryptProv = hCryptProv;
@@ -178,7 +178,7 @@ int _tmain(int argc, _TCHAR* argv[])
     //  Initialize the first element of an array of signer BLOBs.
     //  Note: In this program, only one signer BLOB is used.
     SignerCertBlobArray[0] = SignerCertBlob;
-    memset(&amp;SignedMsgEncodeInfo, 0, sizeof(CMSG_SIGNED_ENCODE_INFO));
+    memset(&SignedMsgEncodeInfo, 0, sizeof(CMSG_SIGNED_ENCODE_INFO));
     SignedMsgEncodeInfo.cbSize = sizeof(CMSG_SIGNED_ENCODE_INFO);
     SignedMsgEncodeInfo.cSigners = 1;
     SignedMsgEncodeInfo.rgSigners = SignerEncodeInfoArray;
@@ -191,7 +191,7 @@ int _tmain(int argc, _TCHAR* argv[])
         MY_ENCODING_TYPE,
         0,
         CMSG_SIGNED,
-        &amp;SignedMsgEncodeInfo,
+        &SignedMsgEncodeInfo,
         NULL,
         cbContent);
     if(!cbEncodedBlob)
@@ -213,7 +213,7 @@ int _tmain(int argc, _TCHAR* argv[])
         MY_ENCODING_TYPE,
         0,
         CMSG_SIGNED,
-        &amp;SignedMsgEncodeInfo,
+        &SignedMsgEncodeInfo,
         NULL,
         NULL);
     if(!hMsg)
@@ -239,7 +239,7 @@ int _tmain(int argc, _TCHAR* argv[])
         CMSG_CONTENT_PARAM,
         0,
         pbEncodedBlob,
-        &amp;cbEncodedBlob))
+        &cbEncodedBlob))
     {
         printf("Message successfully signed.\n");
     }
@@ -301,7 +301,7 @@ int _tmain(int argc, _TCHAR* argv[])
         CMSG_CONTENT_PARAM,
         0,
         NULL,
-        &amp;cbDecoded))
+        &cbDecoded))
     {
         printf("The message is %d bytes long.\n", cbDecoded);
     }
@@ -325,7 +325,7 @@ int _tmain(int argc, _TCHAR* argv[])
         CMSG_CONTENT_PARAM,
         0,
         pbDecoded,
-        &amp;cbDecoded))
+        &cbDecoded))
     {
         printf("The successfully decoded message is -> ");
         printf("%s\n", pbDecoded);
@@ -345,12 +345,12 @@ int _tmain(int argc, _TCHAR* argv[])
     VerifyParams.pvGetArg = NULL;
 
     if(!(CryptVerifyMessageSignature(
-        &amp;VerifyParams,
+        &VerifyParams,
         0,
         pbEncodedBlob,
         cbEncodedBlob,
         NULL,
-        &amp;cbDecodedMessageBlob,
+        &cbDecodedMessageBlob,
         NULL)))
     {
         printf("Getting the size of the verification message " \
@@ -364,12 +364,12 @@ int _tmain(int argc, _TCHAR* argv[])
     }
 
     if(CryptVerifyMessageSignature(
-        &amp;VerifyParams,
+        &VerifyParams,
         0,
         pbEncodedBlob,
         cbEncodedBlob,
         pbDecodedMessageBlob,
-        &amp;cbDecodedMessageBlob,
+        &cbDecodedMessageBlob,
         NULL))
     {
         printf("The Signature verified message is -> \n");
@@ -431,14 +431,14 @@ int _tmain(int argc, _TCHAR* argv[])
         pCntrSigCert,
         0,
         NULL,
-        &amp;hCryptProv,
-        &amp;dwKeySpec,
+        &hCryptProv,
+        &dwKeySpec,
         NULL)))
     {
         MyHandleError("CryptAcquireContext failed.");
     }
 
-    memset(&amp;CountersignerInfo, 0, sizeof(CMSG_SIGNER_ENCODE_INFO));
+    memset(&CountersignerInfo, 0, sizeof(CMSG_SIGNER_ENCODE_INFO));
     CountersignerInfo.cbSize = sizeof(CMSG_SIGNER_ENCODE_INFO);
     CountersignerInfo.pCertInfo = pCntrSigCert->pCertInfo;
     CountersignerInfo.hCryptProv = hCryptProv;
@@ -470,7 +470,7 @@ int _tmain(int argc, _TCHAR* argv[])
         CMSG_ENCODED_MESSAGE,
         0,
         NULL,
-        &amp;cbEncodedBlob))
+        &cbEncodedBlob))
     {
         printf("The size of the encoded BLOB is %d.\n",
            cbEncodedBlob);
@@ -499,7 +499,7 @@ int _tmain(int argc, _TCHAR* argv[])
         CMSG_ENCODED_MESSAGE,
         0,
         pbEncodedBlob,
-        &amp;cbEncodedBlob))
+        &cbEncodedBlob))
     {
         printf("The message is complete. \n");
     }
@@ -568,7 +568,7 @@ int _tmain(int argc, _TCHAR* argv[])
         CMSG_ENCODED_SIGNER,
         0,
         NULL,
-        &amp;cbSignerInfo))
+        &cbSignerInfo))
     {
         printf("Signer information is %d bytes.\n", cbSignerInfo);
     }
@@ -592,7 +592,7 @@ int _tmain(int argc, _TCHAR* argv[])
         CMSG_ENCODED_SIGNER,
         0,
         pbSignerInfo,
-        &amp;cbSignerInfo)))
+        &cbSignerInfo)))
     {
         MyHandleError("Getting pbSignerInfo failed.");
     }
@@ -605,7 +605,7 @@ int _tmain(int argc, _TCHAR* argv[])
         CMSG_SIGNER_UNAUTH_ATTR_PARAM,
         0,
         NULL,
-        &amp;cbCountersignerInfo))
+        &cbCountersignerInfo))
     {
         printf("Counter Signer information is %d bytes.\n", 
             cbCountersignerInfo);
@@ -631,7 +631,7 @@ int _tmain(int argc, _TCHAR* argv[])
         CMSG_SIGNER_UNAUTH_ATTR_PARAM,
         0,
         pCountersignerInfo,
-        &amp;cbCountersignerInfo)))
+        &cbCountersignerInfo)))
     {
         MyHandleError("Getting pbCountersignerInfo failed.");
     }

@@ -477,21 +477,21 @@ BSTR location = NULL;
 LPWSTR adsPath = L"WinNT://aMachine/aPrinter";
 hr = ADsGetObject(adsPath,
                   IID_IADsPrintQueue,
-                  (void**)&amp;pq);
+                  (void**)&pq);
 if(FAILED(hr)) {goto Cleanup;}
 
 
-hr = pq->QueryInterface(IID_IADsPrintQueueOperations,(void**)&amp;pqo);
+hr = pq->QueryInterface(IID_IADsPrintQueueOperations,(void**)&pqo);
 if(FAILED(hr)) {goto Cleanup;}
 
 long status;
-hr = pqo->get_Status(&amp;status);
+hr = pqo->get_Status(&status);
 if(FAILED(hr)) {goto Cleanup;}
 
-hr = pq->get_Model(&amp;model);
+hr = pq->get_Model(&model);
 if(FAILED(hr)) {goto Cleanup;}
 
-hr =pq->get_Location(&amp;location);
+hr =pq->get_Location(&location);
 if(FAILED(hr)) {goto Cleanup;}
 
 if(status == ADS_PRINTER_OFFLINE) 

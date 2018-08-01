@@ -120,11 +120,11 @@ try {
 
     // Create a MessageMover object and get its IUnknown.
     hr = CoCreateInstance(CLSID_MessageMover, NULL, 
-      CLSCTX_INPROC_SERVER, IID_IUnknown, (void**)&amp;pUnknown);
+      CLSCTX_INPROC_SERVER, IID_IUnknown, (void**)&pUnknown);
     if (FAILED (hr)) throw(hr);    
 
     // Get the IMessageMover interface.
-    hr = pUnknown->QueryInterface(IID_IMessageMover, (void**)&amp;pMover); 
+    hr = pUnknown->QueryInterface(IID_IMessageMover, (void**)&pMover); 
     if (FAILED (hr)) throw(hr);
 
     // Put the source and destination files.
@@ -135,7 +135,7 @@ try {
 
     // Move the messages.
     LONG lCount = -1;
-    hr = pMover->MoveMessages(&amp;lCount);
+    hr = pMover->MoveMessages(&lCount);
     if (FAILED (hr)) throw(hr);
     printf("%ld messages moved from %S to %S.\n", 
       lCount, bstrSource, bstrDest);

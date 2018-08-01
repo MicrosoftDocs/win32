@@ -66,7 +66,7 @@ To define a color, you can use the [**D2D1\_COLOR\_F**](d2d1-color-f.md) structu
     ```C++
     hr = m_pRenderTarget->CreateSolidColorBrush(
         D2D1::ColorF(D2D1::ColorF::Black, 1.0f),
-        &amp;m_pBlackBrush
+        &m_pBlackBrush
         );
     ```
 
@@ -80,7 +80,7 @@ To define a color, you can use the [**D2D1\_COLOR\_F**](d2d1-color-f.md) structu
     ID2D1SolidColorBrush *pGridBrush = NULL;
     hr = pCompatibleRenderTarget->CreateSolidColorBrush(
         D2D1::ColorF(D2D1::ColorF(0.93f, 0.94f, 0.96f, 1.0f)),
-        &amp;pGridBrush
+        &pGridBrush
         );
     ```
 
@@ -90,7 +90,7 @@ To define a color, you can use the [**D2D1\_COLOR\_F**](d2d1-color-f.md) structu
     ```C++
     hr = m_pRenderTarget->CreateSolidColorBrush(
         D2D1::ColorF(D2D1::ColorF(0x9ACD32, 1.0f)),  
-        &amp;m_pYellowGreenBrush
+        &m_pYellowGreenBrush
         );
     ```
 
@@ -122,7 +122,7 @@ if (SUCCEEDED(hr))
 {
     hr = m_pRenderTarget->CreateSolidColorBrush(
         D2D1::ColorF(D2D1::ColorF::Black, 1.0f),
-        &amp;m_pBlackBrush
+        &m_pBlackBrush
         );
 }
 
@@ -131,7 +131,7 @@ if (SUCCEEDED(hr))
 {
     hr = m_pRenderTarget->CreateSolidColorBrush(
         D2D1::ColorF(D2D1::ColorF(0x9ACD32, 1.0f)),  
-        &amp;m_pYellowGreenBrush
+        &m_pYellowGreenBrush
         );
 }
 ```
@@ -140,8 +140,8 @@ if (SUCCEEDED(hr))
 
 
 ```C++
-m_pRenderTarget->FillRectangle(&amp;rcBrushRect, m_pYellowGreenBrush);
-m_pRenderTarget->DrawRectangle(&amp;rcBrushRect, m_pBlackBrush, 1, NULL);
+m_pRenderTarget->FillRectangle(&rcBrushRect, m_pYellowGreenBrush);
+m_pRenderTarget->DrawRectangle(&rcBrushRect, m_pBlackBrush, 1, NULL);
 ```
 
 
@@ -186,7 +186,7 @@ To create the gradient shown in the preceding illustration, complete these steps
         2,
         D2D1_GAMMA_2_2,
         D2D1_EXTEND_MODE_CLAMP,
-        &amp;pGradientStops
+        &pGradientStops
         );
     ```
 
@@ -204,7 +204,7 @@ To create the gradient shown in the preceding illustration, complete these steps
                 D2D1::Point2F(0, 0),
                 D2D1::Point2F(150, 150)),
             pGradientStops,
-            &amp;m_pLinearGradientBrush
+            &m_pLinearGradientBrush
             );
     }
     ```
@@ -213,7 +213,7 @@ To create the gradient shown in the preceding illustration, complete these steps
 
 4.  Use the [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371488(v=VS.85).aspx). The next code example uses the brush to fille a rectangle.
     ```C++
-    m_pRenderTarget->FillRectangle(&amp;rcBrushRect, m_pLinearGradientBrush);
+    m_pRenderTarget->FillRectangle(&rcBrushRect, m_pLinearGradientBrush);
     ```
 
     
@@ -266,7 +266,7 @@ hr = m_pRenderTarget->CreateGradientStopCollection(
     2,
     D2D1_GAMMA_2_2,
     D2D1_EXTEND_MODE_CLAMP,
-    &amp;pGradientStops
+    &pGradientStops
     );
 ```
 
@@ -289,7 +289,7 @@ if (SUCCEEDED(hr))
             75,
             75),
         pGradientStops,
-        &amp;m_pRadialGradientBrush
+        &m_pRadialGradientBrush
         );
 }
 ```
@@ -334,7 +334,7 @@ if (SUCCEEDED(hr))
         m_pWICFactory,
         L"FERN",
         L"Image",
-        &amp;m_pBitmap
+        &m_pBitmap
         );
 }
 ```
@@ -349,7 +349,7 @@ if (SUCCEEDED(hr))
 {
     hr = m_pRenderTarget->CreateBitmapBrush(
         m_pBitmap,
-        &amp;m_pBitmapBrush
+        &m_pBitmapBrush
         );
 }
 ```
@@ -360,7 +360,7 @@ The next example uses the brush to fill a rectangle.
 
 
 ```C++
-m_pRenderTarget->FillRectangle(&amp;rcBrushRect, m_pBitmapBrush);
+m_pRenderTarget->FillRectangle(&rcBrushRect, m_pBitmapBrush);
 ```
 
 
@@ -417,7 +417,7 @@ if (SUCCEEDED(hr))
         m_pWICFactory,
         L"FERN",
         L"Image",
-        &amp;m_pBitmap
+        &m_pBitmap
         );
    
 }
@@ -431,7 +431,7 @@ if (SUCCEEDED(hr))
 {
     hr = m_pRenderTarget->CreateBitmapBrush(
         m_pBitmap,
-        &amp;m_pBitmapBrush
+        &m_pBitmapBrush
         );
 }
 ```
@@ -465,7 +465,7 @@ D2D1_RECT_F rcTransformedBrushRect = D2D1::RectF(100, 100, 200, 200);
  // To see the content of the rcTransformedBrushRect, comment
  // out this statement.
  m_pRenderTarget-&gt;FillRectangle(
-     &amp;rcTransformedBrushRect, 
+     &rcTransformedBrushRect, 
      m_pBitmapBrush
      );
 

@@ -77,8 +77,8 @@ This function must be called before the effect is compiled. Here is an example o
     
     hr = D3DXCreateEffectCompilerFromFile("shader.fx",
                                           NULL, NULL, 0,
-                                          &amp;pEffectCompiler, 
-                                          &amp;errors);
+                                          &pEffectCompiler, 
+                                          &errors);
     
     //In the fx file, literalInt is declared as an int.
     //By calling this function, the compiler will treat
@@ -92,7 +92,7 @@ This function must be called before the effect is compiled. Here is an example o
     {
         hr = pEffectCompiler->SetInt("literalInt", i);
     
-        hr = pEffectCompiler->CompileEffect(0, &amp;pEffects[i], &amp;pErrors);
+        hr = pEffectCompiler->CompileEffect(0, &pEffects[i], &pErrors);
     }
 ```
 

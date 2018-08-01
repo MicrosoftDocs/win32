@@ -36,7 +36,7 @@ HRESULT CreateSession_CustomTopoLoader(REFCLSID clsid, IMFMediaSession **ppSessi
     IMFAttributes *pConfig = NULL;
 
     // Create an attribute store to configure the media session.
-    HRESULT hr = MFCreateAttributes(&amp;pConfig, 1);
+    HRESULT hr = MFCreateAttributes(&pConfig, 1);
 
     // Set the CLSID of the custom topology loader.
     if (SUCCEEDED(hr))
@@ -47,7 +47,7 @@ HRESULT CreateSession_CustomTopoLoader(REFCLSID clsid, IMFMediaSession **ppSessi
     // Create the media session.
     if (SUCCEEDED(hr))
     {
-        hr = MFCreateMediaSession(pConfig, &amp;pSession);
+        hr = MFCreateMediaSession(pConfig, &pSession);
     }
 
     // Return the pointer to the caller.
@@ -57,8 +57,8 @@ HRESULT CreateSession_CustomTopoLoader(REFCLSID clsid, IMFMediaSession **ppSessi
         (*ppSession)->AddRef();
     }
 
-    SafeRelease(&amp;pSession);
-    SafeRelease(&amp;pConfig);
+    SafeRelease(&pSession);
+    SafeRelease(&pConfig);
 
     return hr;
 }
@@ -80,7 +80,7 @@ public:
     {
         HRESULT hr = S_OK;
 
-        CTopoLoader *pTopoLoader = new (std::nothrow) CTopoLoader(&amp;hr);
+        CTopoLoader *pTopoLoader = new (std::nothrow) CTopoLoader(&hr);
         
         if (pTopoLoader == NULL)
         {
@@ -92,7 +92,7 @@ public:
             hr = pTopoLoader->QueryInterface(iid, ppv);
         }
 
-        SafeRelease(&amp;pTopoLoader);
+        SafeRelease(&pTopoLoader);
         return hr;
     }
 
@@ -109,12 +109,12 @@ public:
 
     STDMETHODIMP_(ULONG) AddRef()
     {
-        return InterlockedIncrement(&amp;m_cRef);
+        return InterlockedIncrement(&m_cRef);
     }
 
     STDMETHODIMP_(ULONG) Release()
     {
-        long cRef = InterlockedDecrement(&amp;m_cRef);
+        long cRef = InterlockedDecrement(&m_cRef);
         if (cRef == 0)
         {
             delete this;
@@ -148,12 +148,12 @@ public:
 private:
     CTopoLoader(HRESULT *phr) : m_cRef(1), m_pTopoLoader(NULL)
     {
-        *phr = MFCreateTopoLoader(&amp;m_pTopoLoader);
+        *phr = MFCreateTopoLoader(&m_pTopoLoader);
     }
 
     virtual ~CTopoLoader()
     {
-        SafeRelease(&amp;m_pTopoLoader);
+        SafeRelease(&m_pTopoLoader);
     }
 
 private:

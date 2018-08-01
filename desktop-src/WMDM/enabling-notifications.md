@@ -55,12 +55,12 @@ HRESULT CWMDMController::RegisterForNotifications()
     if (SUCCEEDED (hr = m_IWMDMDeviceMgr->QueryInterface(IID_IConnectionPointContainer, (void**) & pConxnPointCont)))
     {
         // Get a connection point from the container.
-        if (SUCCEEDED (hr = pConxnPointCont->FindConnectionPoint(IID_IWMDMNotification, &amp;pIConnPoint)))
+        if (SUCCEEDED (hr = pConxnPointCont->FindConnectionPoint(IID_IWMDMNotification, &pIConnPoint)))
         {
             // Add ourselves as a callback handler for the connection point.
             // If we succeeded, indicate that by storing the connection point ID.
             DWORD dwCookie;
-            if (SUCCEEDED (hr = pIConnPoint->Advise((IUnknown*)((IWMDMNotification*)this), &amp;dwCookie)))
+            if (SUCCEEDED (hr = pIConnPoint->Advise((IUnknown*)((IWMDMNotification*)this), &dwCookie)))
             {
                 m_dwNotificationCookie = dwCookie;
             }
@@ -101,7 +101,7 @@ HRESULT CWMDMController::UnregisterForNotifications()
            (void**) & pConxnPointCont)))
         {
             // Get a connection point from the container.
-            if (SUCCEEDED (hr = pConxnPointCont->FindConnectionPoint(IID_IWMDMNotification, &amp;pIConnPoint)))
+            if (SUCCEEDED (hr = pConxnPointCont->FindConnectionPoint(IID_IWMDMNotification, &pIConnPoint)))
             {
                 // Remove ourselves as a callback from the connection point.
                 // If successful, reset the ID to a flag value.

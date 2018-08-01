@@ -58,7 +58,7 @@ HRESULT GetCrossRefDNFromPartitionDN(LPCWSTR pwszPartitionDN,
     LPWSTR pwszPartitionsDN;
 
     // Get the distinguished name of the Partitions container.
-    hr = GetPartitionsDN(&amp;pwszPartitionsDN);
+    hr = GetPartitionsDN(&pwszPartitionsDN);
     if(SUCCEEDED(hr))
     {
       /*
@@ -78,7 +78,7 @@ HRESULT GetCrossRefDNFromPartitionDN(LPCWSTR pwszPartitionDN,
                           pwszPassword,
                           ADS_SECURE_AUTHENTICATION,
                           IID_IDirectorySearch, 
-                          (LPVOID*)&amp;pdsPartitions);
+                          (LPVOID*)&pdsPartitions);
       if(SUCCEEDED(hr))
       {
         ADS_SEARCHPREF_INFO SearchPref[1];
@@ -98,7 +98,7 @@ HRESULT GetCrossRefDNFromPartitionDN(LPCWSTR pwszPartitionDN,
           LPWSTR pwszAttributes[1] = {L"distinguishedName"};
               
           CComBSTR sbstrSearchFilter;
-          sbstrSearchFilter = "(&amp;(objectClass=crossRef)(nCName=";
+          sbstrSearchFilter = "(&(objectClass=crossRef)(nCName=";
           sbstrSearchFilter += pwszPartitionDN;
           sbstrSearchFilter += "))";
 
@@ -107,7 +107,7 @@ HRESULT GetCrossRefDNFromPartitionDN(LPCWSTR pwszPartitionDN,
                 sbstrSearchFilter, 
                 pwszAttributes, 
                 sizeof(pwszAttributes)/sizeof(LPWSTR), 
-                &amp;hSearch
+                &hSearch
                );
           if(SUCCEEDED(hr))
           {
@@ -122,7 +122,7 @@ HRESULT GetCrossRefDNFromPartitionDN(LPCWSTR pwszPartitionDN,
               // attribute will be a string.
               hr = pdsPartitions->GetColumn(hSearch,
                                             pwszAttributes[0], 
-                                            &amp;col);
+                                            &col);
               if(SUCCEEDED(hr))
               {
                 // Allocate and copy the returned
@@ -146,7 +146,7 @@ HRESULT GetCrossRefDNFromPartitionDN(LPCWSTR pwszPartitionDN,
                 }
 
                 // Free the column.
-                pdsPartitions->FreeColumn(&amp;col);
+                pdsPartitions->FreeColumn(&col);
               }
             }
             else
@@ -187,7 +187,7 @@ HRESULT DeleteAppPartition( LPCWSTR pwszPartitionDN,
     hr = GetCrossRefDNFromPartitionDN(pwszPartitionDN, 
         pwszUsername, 
         pwszPassword, 
-        &amp;pwszCrossRefDN);
+        &pwszCrossRefDN);
 
     if(SUCCEEDED(hr))
     {
@@ -202,7 +202,7 @@ HRESULT DeleteAppPartition( LPCWSTR pwszPartitionDN,
                             NULL,
                             ADS_SECURE_AUTHENTICATION,
                             IID_IADsDeleteOps, 
-                            (LPVOID*)&amp;pDelete);
+                            (LPVOID*)&pDelete);
         if(SUCCEEDED(hr))
         {
             hr = pDelete->DeleteObject(0);
@@ -248,7 +248,7 @@ Function GetCrossRefDNFromPartitionDN(PartitionDN, Username, Password)
     
     partitionsDN = GetPartitionsDN()
     
-    commandString = "<LDAP://" + partitionsDN + ">;(&amp;(objectClass=crossRef)(nCName=" + PartitionDN + "));distinguishedName;onelevel"
+    commandString = "<LDAP://" + partitionsDN + ">;(&(objectClass=crossRef)(nCName=" + PartitionDN + "));distinguishedName;onelevel"
     
     Set oConn = CreateObject("ADODB.Connection")
     Set oComm = CreateObject("ADODB.Command")
@@ -360,7 +360,7 @@ static string GetCrossRefDNFromPartitionDN(
       new DirectorySearcher(PartitionsContainer);
     
     // Build the search filter.
-    PartitionsSearcher.Filter = "(&amp;(objectClass=crossRef)(nCName=";
+    PartitionsSearcher.Filter = "(&(objectClass=crossRef)(nCName=";
     PartitionsSearcher.Filter += PartitionPath;
     PartitionsSearcher.Filter += "))";
     
@@ -459,7 +459,7 @@ Function GetCrossRefDNFromPartitionDN(ByVal PartitionPath As String, _
         As New DirectorySearcher(PartitionsContainer)
 
     ' Set the search filter.
-    PartitionsSearcher.Filter = "(&amp;(objectClass=crossRef)(nCName="
+    PartitionsSearcher.Filter = "(&(objectClass=crossRef)(nCName="
     PartitionsSearcher.Filter += PartitionPath
     PartitionsSearcher.Filter += "))"
 

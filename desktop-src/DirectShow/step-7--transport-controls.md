@@ -19,7 +19,7 @@ The last step is to add transport controls (play, pause, and stop). To play the 
 ```C++
 HRESULT DShowPlayer::Play()
 {
-    if (m_state != STATE_PAUSED &amp;&amp; m_state != STATE_STOPPED)
+    if (m_state != STATE_PAUSED && m_state != STATE_STOPPED)
     {
         return VFW_E_WRONG_STATE;
     }
@@ -63,7 +63,7 @@ To stop, call [**IMediaControl::Stop**](/windows/desktop/api/Control/nf-control-
 ```C++
 HRESULT DShowPlayer::Stop()
 {
-    if (m_state != STATE_RUNNING &amp;&amp; m_state != STATE_PAUSED)
+    if (m_state != STATE_RUNNING && m_state != STATE_PAUSED)
     {
         return VFW_E_WRONG_STATE;
     }

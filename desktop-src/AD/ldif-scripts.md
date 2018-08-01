@@ -294,14 +294,14 @@ End If
 ' Display the DN for the computer object.
 '''''''''''''''''''''
 sComputerDNSName = Server.Get("DNSHostName")
-strText = "Schema Master has the following DNS Name: "&amp; sComputerDNSName
+strText = "Schema Master has the following DNS Name: "& sComputerDNSName
 WScript.echo strText
  
 sFile = "myschemaext1.ldf"
 sFromDN = sSchema
 sToDN = "CN=Schema,CN=Configuration,DC=myorg,DC=com"
 sAttrPrefix = "My-Test"
-sFilter = "(&amp;((cn=" & sAttrPrefix & "*)(|(objectCategory=classSchema)_
+sFilter = "(&((cn=" & sAttrPrefix & "*)(|(objectCategory=classSchema)_
 (objectCategory=attributeSchema))))"
 sRetAttr = "dn,adminDescription,adminDisplayName,governsID,cn,mayContain,_
 mustContain,systemMayContain,systemMustContain,lDAPDisplayName,_
@@ -406,8 +406,8 @@ sComputer = Server.Get("serverReference")
 ' Display the DN for the computer object.
 '''''''''''''''''''''
 sComputerDNSName = Server.Get("DNSHostName")
-' strText = "Schema Master has the following DN: "&amp; sComputer
-strText = "Schema Master has the following DNS Name: "&amp; sComputerDNSName
+' strText = "Schema Master has the following DN: "& sComputer
+strText = "Schema Master has the following DNS Name: "& sComputerDNSName
 WScript.echo strText
  
 sFile = "myschemaext.ldf"

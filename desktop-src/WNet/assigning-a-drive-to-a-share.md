@@ -54,7 +54,7 @@ nr.lpProvider = NULL;
 // Call the WNetAddConnection2 function to assign
 //   a drive letter to the share.
 //
-res = WNetAddConnection2(&amp;nr, szPassword, szUserName, FALSE);
+res = WNetAddConnection2(&nr, szPassword, szUserName, FALSE);
 //
 // If the call succeeds, inform the user; otherwise,
 //  print the error.

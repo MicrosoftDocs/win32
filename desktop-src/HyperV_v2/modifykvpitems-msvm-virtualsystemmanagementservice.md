@@ -186,7 +186,7 @@ namespace HyperVSamples
 
         static void Main(string[] args)
         {
-            if (args != null &amp;&amp; args.Length != 3)
+            if (args != null && args.Length != 3)
             {
                 Console.WriteLine("Usage: ModifyKvpItems vmName itemName itemValue");
                 return;

@@ -105,7 +105,7 @@ The following excerpt represents the relevant application fragments.
 
 ```C++
 if (MesEncodeFixedBufferHandleCreate (Buffer, BufferSize, 
-    pEncodedSize, &amp;Handle) == RPC_S_OK)
+    pEncodedSize, &Handle) == RPC_S_OK)
 {
     //...
     /* Manufacture a MyObject and a pMyObject */
@@ -114,7 +114,7 @@ if (MesEncodeFixedBufferHandleCreate (Buffer, BufferSize,
     //...
     MesHandleFree ();
 }
-if (MesDecodeBufferHandleCreate (Buffer, BufferSize, &amp;Handle) ==
+if (MesDecodeBufferHandleCreate (Buffer, BufferSize, &Handle) ==
     RPC_S_OK )
 {
     MooType_Decode (Handle, pMooObject);

@@ -56,7 +56,7 @@ Also, you will need to add an initializer for [**CSourceSeeking**](csourceseekin
 
 
 ```C++
-    CSourceSeeking(NAME("SeekBall"), (IPin*)this, phr, &amp;m_cSharedState),
+    CSourceSeeking(NAME("SeekBall"), (IPin*)this, phr, &m_cSharedState),
 ```
 
 
@@ -241,10 +241,10 @@ HRESULT CBallStream::FillBuffer(IMediaSample *pMediaSample)
 {
     BYTE *pData;
     long lDataLen;
-    pMediaSample->GetPointer(&amp;pData);
+    pMediaSample->GetPointer(&pData);
     lDataLen = pMediaSample->GetSize();
     {
-        CAutoLock cAutoLockShared(&amp;m_cSharedState);
+        CAutoLock cAutoLockShared(&m_cSharedState);
         if (m_rtBallPosition >= m_rtStop) 
         {
             // End of the stream.
@@ -261,7 +261,7 @@ HRESULT CBallStream::FillBuffer(IMediaSample *pMediaSample)
                       m_rtSampleTime / m_dRateSeeking);
         rtStop  = rtStart + static_cast<int>(
                       m_iRepeatTime / m_dRateSeeking);
-        pMediaSample->SetTime(&amp;rtStart, &amp;rtStop);
+        pMediaSample->SetTime(&rtStart, &rtStop);
 
         // Increment for the next loop.
         m_rtSampleTime += m_iRepeatTime;

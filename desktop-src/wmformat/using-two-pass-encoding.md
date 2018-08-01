@@ -41,11 +41,11 @@ HRESULT PreProcess(IWMWriter* pWriter, DWORD dwInputNum)
 
     // Get the writer preprocessor interface.
     hr = pWriter->QueryInterface(IID_IWMWriterPreprocess, 
-                                 (void**) &amp;pPreProc);
+                                 (void**) &pPreProc);
     GOTO_EXIT_IF_FAILED(hr);
 
     // Check that the input can be preprocessed.
-    hr = pPreProc->GetMaxPreprocessingPasses(dwInputNum,0, &amp;dwMaxPass);
+    hr = pPreProc->GetMaxPreprocessingPasses(dwInputNum,0, &dwMaxPass);
     GOTO_EXIT_IF_FAILED(hr);
 
     if(dwMaxPass == 0)

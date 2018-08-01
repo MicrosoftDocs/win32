@@ -28,7 +28,7 @@ mciOpenParms.lpstrDeviceType = "waveaudio";
 mciOpenParms.lpstrElementName = "timpani.wav";
 
 if (dwReturn = mciSendCommand(NULL, MCI_OPEN,
-    MCI_OPEN_TYPE | MCI_OPEN_ELEMENT, (DWORD)(LPVOID) &amp;mciOpenParms))
+    MCI_OPEN_TYPE | MCI_OPEN_ELEMENT, (DWORD)(LPVOID) &mciOpenParms))
 {
     
     // Error, unable to open device.

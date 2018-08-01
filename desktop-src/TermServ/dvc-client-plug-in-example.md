@@ -35,7 +35,7 @@ using namespace ATL;
 // CDVCSamplePlugin implements IWTSPlugin.
 class ATL_NO_VTABLE CDVCSamplePlugin :
     public CComObjectRootEx<CComMultiThreadModel>,
-    public CComCoClass<CDVCSamplePlugin, &amp;CLSID_DVCSamplePlugin>,
+    public CComCoClass<CDVCSamplePlugin, &CLSID_DVCSamplePlugin>,
     public IWTSPlugin
 {
 public:
@@ -155,7 +155,7 @@ HRESULT
     CComPtr<IWTSListener> ptrListener;
 
     // Create an instance of the CSampleListenerCallback object.
-    hr = CComObject<CSampleListenerCallback>::CreateInstance(&amp;pListenerCallback);
+    hr = CComObject<CSampleListenerCallback>::CreateInstance(&pListenerCallback);
     CHECK_QUIT_HR("CSampleListenerCallback::CreateInstance");
     ptrListenerCallback = pListenerCallback;
 
@@ -164,7 +164,7 @@ HRESULT
         "DVC_Sample", 
         0, 
         (CSampleListenerCallback*)ptrListenerCallback, 
-        &amp;ptrListener);
+        &ptrListener);
     CHECK_QUIT_HR("CreateListener");
 
     return hr;
@@ -187,7 +187,7 @@ HRESULT
 
     *pbAccept = FALSE;
 
-    hr = CComObject<CSampleChannelCallback>::CreateInstance(&amp;pCallback);
+    hr = CComObject<CSampleChannelCallback>::CreateInstance(&pCallback);
     CHECK_QUIT_HR("CSampleChannelCallback::CreateInstance");
     ptrCallback = pCallback;
 

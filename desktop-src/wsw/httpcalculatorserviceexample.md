@@ -56,7 +56,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -64,7 +64,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -134,9 +134,9 @@ static const DefaultBinding_ICalculatorFunctionTable calculatorFunctions = {Add,
 // Method contract for the service
 static const WS_SERVICE_CONTRACT calculatorContract = 
 {
-    &amp;CalculatorService_wsdl.contracts.DefaultBinding_ICalculator, // comes from the generated header.
+    &CalculatorService_wsdl.contracts.DefaultBinding_ICalculator, // comes from the generated header.
     NULL, // for not specifying the default contract
-    &amp;calculatorFunctions // specified by the user
+    &calculatorFunctions // specified by the user
 };
 
 
@@ -150,14 +150,14 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     WS_SERVICE_HOST* host = NULL;
     WS_SERVICE_ENDPOINT serviceEndpoint = {};
     const WS_SERVICE_ENDPOINT* serviceEndpoints[1];
-    serviceEndpoints[0] = &amp;serviceEndpoint;
+    serviceEndpoints[0] = &serviceEndpoint;
     
     WS_ERROR* error = NULL;
     
     WS_SERVICE_ENDPOINT_PROPERTY serviceEndpointProperties[1];
     WS_SERVICE_PROPERTY_CLOSE_CALLBACK closeCallbackProperty = {CloseChannelCallback};
     serviceEndpointProperties[0].id = WS_SERVICE_ENDPOINT_PROPERTY_CLOSE_CHANNEL_CALLBACK;
-    serviceEndpointProperties[0].value = &amp;closeCallbackProperty;
+    serviceEndpointProperties[0].value = &closeCallbackProperty;
     serviceEndpointProperties[0].valueSize = sizeof(closeCallbackProperty);
     
     
@@ -166,7 +166,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     serviceEndpoint.address.url.length = (ULONG)wcslen(serviceEndpoint.address.url.chars);
     serviceEndpoint.channelBinding = WS_HTTP_CHANNEL_BINDING; // channel binding for the endpoint
     serviceEndpoint.channelType = WS_CHANNEL_TYPE_REPLY; // the channel type
-    serviceEndpoint.contract = &amp;calculatorContract;  // the contract
+    serviceEndpoint.contract = &calculatorContract;  // the contract
     serviceEndpoint.properties = serviceEndpointProperties;
     serviceEndpoint.propertyCount = WsCountOf(serviceEndpointProperties);
     
@@ -174,7 +174,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -196,7 +196,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         1, 
         NULL, 
         0, 
-        &amp;host, 
+        &host, 
         error);
     if (FAILED(hr))
     {

@@ -20,7 +20,7 @@ The following example creates a path that has a single arc. The arc has a sweep 
 Pen pen(Color(255, 255, 0, 0));
 GraphicsPath path;
 path.AddArc(175, 50, 50, 50, 0, -180);
-graphics.DrawPath(&amp;pen, &amp;path);
+graphics.DrawPath(&pen, &path);
 ```
 
 
@@ -45,7 +45,7 @@ path.AddCurve(points, 3);
 path.AddLine(50, 150, 150, 180);
 path.CloseFigure();
 
-graphics.DrawPath(&amp;pen, &amp;path);
+graphics.DrawPath(&pen, &path);
 ```
 
 
@@ -63,8 +63,8 @@ path.AddLine(100, 60, 30, 60);
 path.AddRectangle(Rect(50, 35, 20, 40));
 path.AddEllipse(10, 75, 40, 30);
 
-graphics.DrawPath(&amp;pen, &amp;path);
-graphics.FillPath(&amp;brush, &amp;path);
+graphics.DrawPath(&pen, &path);
+graphics.FillPath(&brush, &path);
 ```
 
 

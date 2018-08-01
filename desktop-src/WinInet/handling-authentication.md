@@ -193,7 +193,7 @@ resend:
 HttpSendRequest(hResourceHandle, NULL, 0, NULL, 0);
 
 HttpQueryInfo(hResourceHandle, HTTP_QUERY_FLAG_NUMBER |
-              HTTP_QUERY_STATUS_CODE, &amp;dwStatus, &amp;dwStatusSize, NULL);
+              HTTP_QUERY_STATUS_CODE, &dwStatus, &dwStatusSize, NULL);
 
 switch (dwStatus)
 {

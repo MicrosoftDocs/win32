@@ -38,7 +38,7 @@ Typical BSD Style
 ```C++
 r = recv(...);
 if (r == -1
-    &amp;&amp; errno == EWOULDBLOCK)
+    && errno == EWOULDBLOCK)
     {...}
 ```
 
@@ -50,7 +50,7 @@ Preferred Style
 ```C++
 r = recv(...);
 if (r == -1       /* (but see below) */
-    &amp;&amp; WSAGetLastError() == EWOULDBLOCK)
+    && WSAGetLastError() == EWOULDBLOCK)
     {...}
 ```
 
@@ -62,7 +62,7 @@ Although error constants consistent with Berkeley Sockets 4.3 are provided for c
 ```C++
 r = recv(...);
 if (r == -1       /* (but see below) */
-    &amp;&amp; WSAGetLastError() == WSAEWOULDBLOCK)
+    && WSAGetLastError() == WSAEWOULDBLOCK)
     {...}
 ```
 

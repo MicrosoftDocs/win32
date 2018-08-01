@@ -55,9 +55,9 @@ STDMETHODIMP CheckFileSystem(
                                FSCTL_QUERY_FILE_SYSTEM_RECOGNITION, 
                                NULL, 
                                0, 
-                               &amp;FsRi, 
+                               &FsRi, 
                                sizeof(FsRi), 
-                               &amp;BytesReturned, 
+                               &BytesReturned, 
                                NULL );
     if( !fResult ) 
     {

@@ -46,30 +46,30 @@ void OnInitDialog(HWND hDlg)
 
     hr = CoCreateInstance(CLSID_SystemDeviceEnum, NULL, 
         CLSCTX_INPROC_SERVER, IID_ICreateDevEnum, 
-        (void**)&amp;pSysDevEnum);
+        (void**)&pSysDevEnum);
     if (FAILED(hr))
     {
         // Handle the error.
     }    
 
     hr = pSysDevEnum->CreateClassEnumerator(
-             CLSID_VideoCompressorCategory, &amp;pEnum, 0);
+             CLSID_VideoCompressorCategory, &pEnum, 0);
     if (hr == S_OK)  // S_FALSE means nothing in this category.
     {
-        while (S_OK == pEnum->Next(1, &amp;pMoniker, NULL))
+        while (S_OK == pEnum->Next(1, &pMoniker, NULL))
         {
             IPropertyBag *pPropBag = NULL;
             pMoniker->BindToStorage(0, 0, IID_IPropertyBag, 
-                (void **)&amp;pPropBag);
+                (void **)&pPropBag);
             VARIANT var;
-            VariantInit(&amp;var);
-            hr = pPropBag->Read(L"FriendlyName", &amp;var, 0);
+            VariantInit(&var);
+            hr = pPropBag->Read(L"FriendlyName", &var, 0);
             if (SUCCEEDED(hr))
             {
                 LRESULT iSel = AddString(GetDlgItem(hDlg, 
                     IDC_CODEC_LIST), var.bstrVal);
             }   
-            VariantClear(&amp;var); 
+            VariantClear(&var); 
             pPropBag->Release();
             pMoniker->Release();
         }
@@ -90,7 +90,7 @@ To create a filter instance from the moniker, call the **IMoniker::BindToObject*
 ```C++
 IBaseFilter *pFilter = NULL;
 hr = pMoniker->BindToObject(NULL, NULL, IID_IBaseFilter, 
-                                       (void**)&amp;pFilter);
+                                       (void**)&pFilter);
 if (SUCCEEDED(hr))
 {
     // Use the filter. 

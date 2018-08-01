@@ -45,7 +45,7 @@ HRESULT CreateASFIndexer(
     QWORD qwLength = 0, qwIndexOffset = 0, qwBytestreamLength = 0;
 
     // Create the indexer.
-    HRESULT hr = MFCreateASFIndexer(&amp;pIndexer);
+    HRESULT hr = MFCreateASFIndexer(&pIndexer);
     if (FAILED(hr))
     {
         goto done;
@@ -61,14 +61,14 @@ HRESULT CreateASFIndexer(
     //Check if the index exists. You can only do this after creating the indexer
 
     //Get byte stream length
-    hr = pContentByteStream->GetLength(&amp;qwLength);
+    hr = pContentByteStream->GetLength(&qwLength);
     if (FAILED(hr))
     {
         goto done;
     }
 
     //Get index offset
-    hr = pIndexer->GetIndexPosition(pContentInfo, &amp;qwIndexOffset);
+    hr = pIndexer->GetIndexPosition(pContentInfo, &qwIndexOffset);
     if (FAILED(hr))
     {
         goto done;
@@ -87,7 +87,7 @@ HRESULT CreateASFIndexer(
          hr = MFCreateASFIndexerByteStream(
              pContentByteStream,
              qwIndexOffset,
-             &amp;pIndexerByteStream
+             &pIndexerByteStream
              );
 
         if (FAILED(hr))
@@ -96,7 +96,7 @@ HRESULT CreateASFIndexer(
         }
    }
 
-    hr = pIndexer->SetIndexByteStreams(&amp;pIndexerByteStream, 1);
+    hr = pIndexer->SetIndexByteStreams(&pIndexerByteStream, 1);
     if (FAILED(hr))
     {
         goto done;
@@ -107,8 +107,8 @@ HRESULT CreateASFIndexer(
     (*ppIndexer)->AddRef();
 
 done:
-    SafeRelease(&amp;pIndexer);
-    SafeRelease(&amp;pIndexerByteStream);
+    SafeRelease(&pIndexer);
+    SafeRelease(&pIndexerByteStream);
     return hr;
 }
 ```
@@ -147,10 +147,10 @@ HRESULT GetSeekPositionWithIndexer(
     DWORD cbIndexDescriptor = sizeof(descriptor);
 
     HRESULT hr = pIndexer->GetIndexStatus(
-        &amp;IndexIdentifier,
-        &amp;fIsIndexed,
-        (BYTE*)&amp;descriptor,
-        &amp;cbIndexDescriptor
+        &IndexIdentifier,
+        &fIsIndexed,
+        (BYTE*)&descriptor,
+        &cbIndexDescriptor
         );
 
     if (hr == MF_E_BUFFERTOOSMALL)
@@ -185,8 +185,8 @@ HRESULT GetSeekPositionWithIndexer(
     var.hVal.QuadPart = hnsSeekTime;
 
     hr = pIndexer->GetSeekPositionForValue(
-        &amp;var,
-        &amp;IndexIdentifier,
+        &var,
+        &IndexIdentifier,
         pcbDataOffset,
         phnsApproxSeekTime,
         0

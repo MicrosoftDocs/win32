@@ -127,11 +127,11 @@ IADsGroup *pGroup;
 HRESULT hr = S_OK;
 
 LPWSTR grpPath = L"WinNT://myComputer/someGroup";
-hr = ADsGetObject(grpPath,IID_IADsGroup,(void**)&amp;pGroup);
+hr = ADsGetObject(grpPath,IID_IADsGroup,(void**)&pGroup);
 if(FAILED(hr)){goto Cleanup;}
 
 IADsMembers *pMembers;
-hr = pGroup->Members(&amp;pMembers);
+hr = pGroup->Members(&pMembers);
 if(FAILED(hr)){goto Cleanup;}
 
 hr = pGroup->Release();

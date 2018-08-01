@@ -46,13 +46,13 @@ If the device supports the level of multisampling that you want to use, the next
 */
 
 D3DPRESENT_PARAMETER d3dPP
-ZeroMemory( &amp;d3dPP, sizeof( d3dPP ) );
+ZeroMemory( &d3dPP, sizeof( d3dPP ) );
 d3dPP.Windowed        = FALSE
 d3dPP.SwapEffect      = D3DSWAPEFFECT_DISCARD;
 d3dPP.MultiSampleType = D3DMULTISAMPLE_2_SAMPLES;
 pD3D->CreateDevice(D3DADAPTER_DEFAULT, D3DDEVTYPE_HAL, hWnd,
                     D3DCREATE_SOFTWARE_VERTEXPROCESSING,
-                    &amp;d3dpp, &amp;d3dDevice)
+                    &d3dpp, &d3dDevice)
 ```
 
 

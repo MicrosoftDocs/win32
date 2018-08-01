@@ -53,7 +53,7 @@ The HDC for the default printer can be obtained as follows.
 ```
 PRINTDLG pd = { sizeof(pd) };
 pd.Flags = PD_RETURNDC | PD_RETURNDEFAULT;
-if (PrintDlg(&amp;pd))
+if (PrintDlg(&pd))
 {
     HDC hdc = pd.hDC;
     ...

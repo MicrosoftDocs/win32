@@ -68,7 +68,7 @@ The following code demonstrates the how to create a bitmap decoder using an imag
        NULL,                            // Do not prefer a particular vendor
        GENERIC_READ,                    // Desired read access to the file
        WICDecodeMetadataCacheOnDemand,  // Cache metadata when needed
-       &amp;pDecoder                        // Pointer to the decoder
+       &pDecoder                        // Pointer to the decoder
        );
 
    // Retrieve the first frame of the image from the decoder
@@ -76,7 +76,7 @@ The following code demonstrates the how to create a bitmap decoder using an imag
 
    if (SUCCEEDED(hr))
    {
-       hr = pDecoder->GetFrame(0, &amp;pFrame);
+       hr = pDecoder->GetFrame(0, &pFrame);
    }
 ```
 

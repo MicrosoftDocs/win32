@@ -32,7 +32,7 @@ The **Modify** method updates the TTL and IP address of a host Address (A) Resou
 void Modify(
   [in, optional] uint32             TTL,
   [in, optional] string             IPAddress,
-  [out, ref]     MicrosoftDNS_AType &amp;RR
+  [out, ref]     MicrosoftDNS_AType &RR
 );
 ```
 

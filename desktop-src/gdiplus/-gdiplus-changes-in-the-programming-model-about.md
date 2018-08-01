@@ -48,14 +48,14 @@ HDC          hdc;
 PAINTSTRUCT  ps;
 HPEN         hPen;
 HPEN         hPenOld;
-hdc = BeginPaint(hWnd, &amp;ps);
+hdc = BeginPaint(hWnd, &ps);
    hPen = CreatePen(PS_SOLID, 3, RGB(255, 0, 0));
    hPenOld = (HPEN)SelectObject(hdc, hPen);
    MoveToEx(hdc, 20, 10, NULL);
    LineTo(hdc, 200, 100);
    SelectObject(hdc, hPenOld);
    DeleteObject(hPen);
-EndPaint(hWnd, &amp;ps);
+EndPaint(hWnd, &ps);
 ```
 
 
@@ -70,13 +70,13 @@ HDC          hdc;
 PAINTSTRUCT  ps;
 Pen*         myPen;
 Graphics*    myGraphics;
-hdc = BeginPaint(hWnd, &amp;ps);
+hdc = BeginPaint(hWnd, &ps);
    myPen = new Pen(Color(255, 255, 0, 0), 3);
    myGraphics = new Graphics(hdc);
    myGraphics->DrawLine(myPen, 20, 10, 200, 100);
    delete myGraphics;
    delete myPen;
-EndPaint(hWnd, &amp;ps);
+EndPaint(hWnd, &ps);
 ```
 
 
@@ -97,8 +97,8 @@ Status DrawLine(IN const Pen* pen,
                 IN REAL x2,
                 IN REAL y2);
 Status DrawLine(IN const Pen* pen,
-                IN const PointF&amp; pt1,
-                IN const PointF&amp; pt2);
+                IN const PointF& pt1,
+                IN const PointF& pt2);
 Status DrawLine(IN const Pen* pen,
                 IN INT x1,
                 IN INT y1,
@@ -106,8 +106,8 @@ Status DrawLine(IN const Pen* pen,
                 IN INT y2);
     
 Status DrawLine(IN const Pen* pen,
-                IN const Point&amp; pt1,
-                IN const Point&amp; pt2);
+                IN const Point& pt1,
+                IN const Point& pt2);
 ```
 
 

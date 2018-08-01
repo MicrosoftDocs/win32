@@ -74,7 +74,7 @@ If you capture interlaced video from a television or a DV camera, you might wish
 ```C++
 // Set to WM_CT_TOP_FIELD_FIRST if that is your format.
 BYTE flag = WM_CT_INTERLACED | WM_CT_BOTTOM_FIELD_FIRST;
-            HRESULT hr = pNSSBuffer3->SetProperty(WM_SampleExtensionGUID_ContentType, (void*) &amp;flag, WM_SampleExtension_ContentType_Size);
+            HRESULT hr = pNSSBuffer3->SetProperty(WM_SampleExtensionGUID_ContentType, (void*) &flag, WM_SampleExtension_ContentType_Size);
            
 ```
 
@@ -101,17 +101,17 @@ hr = pWMStreamConfig2->AddDataUnitExtension( WM_SampleExtensionGUID_ContentType,
 CComPtr<IServiceProvider> pProvider;
   CComPtr<IWMWriterAdvanced2> pWMWA2;
   hr = pConfigAsfWriter2->QueryInterface( __uuidof(IServiceProvider),
-                                         (void**)&amp;pProvider);
+                                         (void**)&pProvider);
   if (SUCCEEDED(hr))
   {
       hr = pProvider->QueryService(IID_IWMWriterAdvanced2,
                     IID_IWMWriterAdvanced2,
-                    (void**)&amp;pWMWA2);
+                    (void**)&pWMWA2);
   }
   BOOL pValue = TRUE;
  // Set the first parameter to your actual input number.
  hr = pWMWA2->SetInputSetting(0, g_wszInterlacedCoding,
-              WMT_TYPE_BOOL, (BYTE*) &amp;pValue, sizeof(WMT_TYPE_BOOL));
+              WMT_TYPE_BOOL, (BYTE*) &pValue, sizeof(WMT_TYPE_BOOL));
             
 ```
 

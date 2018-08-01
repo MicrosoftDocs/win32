@@ -40,7 +40,7 @@ HRESULT CreateOutputGenerators(
     IMFASFMultiplexer *pMux = NULL;
 
     // Use the ASF profile to create the ContentInfo object.
-    HRESULT hr = MFCreateASFContentInfo(&amp;pContentInfo);
+    HRESULT hr = MFCreateASFContentInfo(&pContentInfo);
 
     if (SUCCEEDED(hr))
     {
@@ -50,7 +50,7 @@ HRESULT CreateOutputGenerators(
     // Create the ASF Multiplexer object.
     if (SUCCEEDED(hr))
     {
-        hr = MFCreateASFMultiplexer(&amp;pMux);
+        hr = MFCreateASFMultiplexer(&pMux);
     }
     
     // Initialize it using the new ContentInfo object.
@@ -69,8 +69,8 @@ HRESULT CreateOutputGenerators(
         (*ppMux)->AddRef();
     }
 
-    SafeRelease(&amp;pContentInfo);
-    SafeRelease(&amp;pMux);
+    SafeRelease(&pContentInfo);
+    SafeRelease(&pMux);
 
     return hr;
 }

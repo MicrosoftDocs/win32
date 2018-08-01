@@ -54,7 +54,7 @@ DWORD main()
     }
 
     // Get handle to the crypto provider
-    if (!CryptAcquireContext(&amp;hProv,
+    if (!CryptAcquireContext(&hProv,
         NULL,
         NULL,
         PROV_RSA_FULL,
@@ -66,7 +66,7 @@ DWORD main()
         return dwStatus;
     }
 
-    if (!CryptCreateHash(hProv, CALG_MD5, 0, 0, &amp;hHash))
+    if (!CryptCreateHash(hProv, CALG_MD5, 0, 0, &hHash))
     {
         dwStatus = GetLastError();
         printf("CryptAcquireContext failed: %d\n", dwStatus); 
@@ -76,7 +76,7 @@ DWORD main()
     }
 
     while (bResult = ReadFile(hFile, rgbFile, BUFSIZE, 
-        &amp;cbRead, NULL))
+        &cbRead, NULL))
     {
         if (0 == cbRead)
         {
@@ -105,7 +105,7 @@ DWORD main()
     }
 
     cbHash = MD5LEN;
-    if (CryptGetHashParam(hHash, HP_HASHVAL, rgbHash, &amp;cbHash, 0))
+    if (CryptGetHashParam(hHash, HP_HASHVAL, rgbHash, &cbHash, 0))
     {
         printf("MD5 hash of file %s is: ", filename);
         for (DWORD i = 0; i < cbHash; i++)

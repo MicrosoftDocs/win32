@@ -125,7 +125,7 @@ PrintThreadAvxState (
     Success = pfnInitializeContext(NULL,
                                    CONTEXT_ALL | CONTEXT_XSTATE,
                                    NULL,
-                                   &amp;ContextSize);
+                                   &ContextSize);
 
     if ((Success == TRUE) || (GetLastError() != ERROR_INSUFFICIENT_BUFFER))
     {
@@ -143,8 +143,8 @@ PrintThreadAvxState (
 
     Success = pfnInitializeContext(Buffer,
                                    CONTEXT_ALL | CONTEXT_XSTATE,
-                                   &amp;Context,
-                                   &amp;ContextSize);
+                                   &Context,
+                                   &ContextSize);
 
     if (Success == FALSE)
     {
@@ -169,7 +169,7 @@ PrintThreadAvxState (
         goto Cleanup;
     }
 
-    Success = pfnGetXStateFeaturesMask(Context, &amp;FeatureMask);
+    Success = pfnGetXStateFeaturesMask(Context, &FeatureMask);
     if (Success == FALSE)
     {
         _tprintf(_T("GetXStateFeatureMask failed (error == %d).\n"), GetLastError());
@@ -188,7 +188,7 @@ PrintThreadAvxState (
         goto Cleanup;
     }
 
-    Xmm = (PM128A)pfnLocateXStateFeature(Context, XSTATE_LEGACY_SSE, &amp;FeatureLength);
+    Xmm = (PM128A)pfnLocateXStateFeature(Context, XSTATE_LEGACY_SSE, &FeatureLength);
     Ymm = (PM128A)pfnLocateXStateFeature(Context, XSTATE_AVX, NULL);
 
     //

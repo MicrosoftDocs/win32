@@ -43,7 +43,7 @@ HRESULT DeleteADObject(LPOLESTR pwszAdsPath,
     {
         hr = ADsGetObject(  pwszAdsPath, 
                             IID_IADs,
-                            (void **)&amp; pIADsToDelete);
+                            (void **)& pIADsToDelete);
     }
     else
     {
@@ -60,15 +60,15 @@ HRESULT DeleteADObject(LPOLESTR pwszAdsPath,
         BSTR bsParentPath;
         
         // Get the parent path.
-        hr = pIADsToDelete->get_Parent(&amp;bsParentPath); 
+        hr = pIADsToDelete->get_Parent(&bsParentPath); 
         if(SUCCEEDED(hr))
         {
             VARIANT vCNToDelete;
      
-            VariantInit(&amp;vCNToDelete);
+            VariantInit(&vCNToDelete);
 
             // Get the CN property for the object to delete.
-            hr = pIADsToDelete->Get(CComBSTR("cn"), &amp;vCNToDelete);
+            hr = pIADsToDelete->Get(CComBSTR("cn"), &vCNToDelete);
             if (SUCCEEDED(hr))
             {
                 IDirectoryObject *pIDirObjectParent = NULL;
@@ -83,7 +83,7 @@ HRESULT DeleteADObject(LPOLESTR pwszAdsPath,
                 {
                     hr = ADsGetObject(bsParentPath, 
                                       IID_IDirectoryObject,
-                                      (void **)&amp;pIDirObjectParent);
+                                      (void **)&pIDirObjectParent);
                 }
                 else
                 {
@@ -92,7 +92,7 @@ HRESULT DeleteADObject(LPOLESTR pwszAdsPath,
                                        pwszPassword, 
                                        ADS_SECURE_AUTHENTICATION,
                                        IID_IDirectoryObject, 
-                                       (void**)&amp;pIDirObjectParent);
+                                       (void**)&pIDirObjectParent);
                 }
                 if (SUCCEEDED(hr))
                 {
@@ -125,7 +125,7 @@ HRESULT DeleteADObject(LPOLESTR pwszAdsPath,
                     pIDirObjectParent = NULL;
                 }
 
-                VariantClear(&amp;vCNToDelete);
+                VariantClear(&vCNToDelete);
             }
             
             SysFreeString(bsParentPath);
@@ -160,7 +160,7 @@ On Error Resume Next
  
 Set oArgs = WScript.Arguments
 If oArgs.Count < 2 Then
-    sComputer = InputBox("This script deletes a group from a member server or workstation." & vbCrLf & vbCrLf &amp;"Specify 
+    sComputer = InputBox("This script deletes a group from a member server or workstation." & vbCrLf & vbCrLf &"Specify 
  
 the computer name:")
     sGroup = InputBox("Specify the group name:")

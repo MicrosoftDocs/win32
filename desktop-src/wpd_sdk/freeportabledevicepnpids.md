@@ -68,7 +68,7 @@ The application is responsible for freeing the array of pointers that it allocat
     LPWSTR* pPnpDeviceIDs = new LPWSTR[cPnpDeviceIDs];
 if (pPnpDeviceIDs != NULL)
 {
-    hr = pPortableDeviceManager->;GetDevices(pPnpDeviceIDs, &amp;cPnpDeviceIDs);
+    hr = pPortableDeviceManager->;GetDevices(pPnpDeviceIDs, &cPnpDeviceIDs);
     if (SUCCEEDED(hr))
     {
         // Free all returned PnPDeviceID strings allocated by IPortableDeviceManager::GetDevices.

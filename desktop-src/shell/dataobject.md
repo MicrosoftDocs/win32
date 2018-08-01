@@ -145,7 +145,7 @@ STDAPI DataObj_SetDWORD(IDataObject *pdtobj, UINT cf, DWORD dw)
         medium.hGlobal = pdw;
         medium.pUnkForRelease = NULL;
 
-        hres = pdtobj->SetData(&amp;fmte, &amp;medium, TRUE);
+        hres = pdtobj->SetData(&fmte, &medium, TRUE);
  
         if (FAILED(hres))
             GlobalFree((HGLOBAL)pdw);
@@ -281,7 +281,7 @@ STDAPI DataObj_GetDWORD(IDataObject *pdtobj, UINT cf, DWORD *pdwOut)
 {    STGMEDIUM medium;
    FORMATETC fmte = {(CLIPFORMAT) cf, NULL, DVASPECT_CONTENT, -1, 
        TYMED_HGLOBAL};
-    HRESULT hres = pdtobj->GetData(&amp;fmte, &amp;medium);
+    HRESULT hres = pdtobj->GetData(&fmte, &medium);
     if (SUCCEEDED(hres))
    {
        DWORD *pdw = (DWORD *)GlobalLock(medium.hGlobal);
@@ -294,7 +294,7 @@ STDAPI DataObj_GetDWORD(IDataObject *pdtobj, UINT cf, DWORD *pdwOut)
        {
            hres = E_UNEXPECTED;
        }
-       ReleaseStgMedium(&amp;medium);
+       ReleaseStgMedium(&medium);
    }
    return hres;
 }

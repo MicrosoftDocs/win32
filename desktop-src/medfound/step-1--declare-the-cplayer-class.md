@@ -134,12 +134,12 @@ HRESULT CPlayer::QueryInterface(REFIID riid, void** ppv)
 
 ULONG CPlayer::AddRef()
 {
-    return InterlockedIncrement(&amp;m_nRefCount);
+    return InterlockedIncrement(&m_nRefCount);
 }
 
 ULONG CPlayer::Release()
 {
-    ULONG uCount = InterlockedDecrement(&amp;m_nRefCount);
+    ULONG uCount = InterlockedDecrement(&m_nRefCount);
     if (uCount == 0)
     {
         delete this;

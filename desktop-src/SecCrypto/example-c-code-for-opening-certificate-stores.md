@@ -93,7 +93,7 @@ sa.bInheritHandle = FALSE;
 // Call function to set the DACL. The DACL
 // is set in the SECURITY_ATTRIBUTES 
 // lpSecurityDescriptor member.
-// if CreateMyDACL(&amp;sa) fails, exit(1)
+// if CreateMyDACL(&sa) fails, exit(1)
 
 //  Obtain a file handle.
 hFile = CreateFile(
@@ -102,7 +102,7 @@ hFile = CreateFile(
                                    // read from and write to
                                    // this file
      0,                            // share mode
-     &amp;sa,                          // security 
+     &sa,                          // security 
      OPEN_ALWAYS,                  // how to create
      FILE_ATTRIBUTE_NORMAL,        // file attributes
      NULL);                        // template
@@ -348,7 +348,7 @@ if(CertSaveStore(
         PKCS_7_ASN_ENCODING | X509_ASN_ENCODING,
         CERT_STORE_SAVE_AS_PKCS7,
         CERT_STORE_SAVE_TO_MEMORY,
-        &amp;message_BLOB,
+        &message_BLOB,
         0))
 {
     printf("The length is %d \n",message_BLOB.cbData);
@@ -384,7 +384,7 @@ if(CertSaveStore(
         PKCS_7_ASN_ENCODING | X509_ASN_ENCODING,
         CERT_STORE_SAVE_AS_PKCS7,
         CERT_STORE_SAVE_TO_MEMORY,
-        &amp;message_BLOB,
+        &message_BLOB,
         0))
 {
    printf("Saved the store to a memory BLOB. \n");
@@ -402,7 +402,7 @@ if( hLastStore = CertOpenStore(
    PKCS_7_ASN_ENCODING | X509_ASN_ENCODING,
    NULL,
    0,
-   &amp;message_BLOB))
+   &message_BLOB))
 {
        printf("The function succeeded. \n");
 }

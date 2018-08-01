@@ -41,8 +41,8 @@ void main( int argc, char *argv[] )
 {
   DWORD cbBuff = 1000;    // Size of Buffer
   TCHAR szBuff[1000];    // Buffer to receive information
-  REMOTE_NAME_INFO  * prni = (REMOTE_NAME_INFO *)   &amp;szBuff;
-  UNIVERSAL_NAME_INFO * puni = (UNIVERSAL_NAME_INFO *) &amp;szBuff;
+  REMOTE_NAME_INFO  * prni = (REMOTE_NAME_INFO *)   &szBuff;
+  UNIVERSAL_NAME_INFO * puni = (UNIVERSAL_NAME_INFO *) &szBuff;
   DWORD res;
 
   if((argc < 2) | (lstrcmp(argv[1], "/?") == 0))
@@ -57,8 +57,8 @@ void main( int argc, char *argv[] )
   printf("Call WNetGetUniversalName using UNIVERSAL_NAME_INFO_LEVEL.\n");
   if((res = WNetGetUniversalName((LPTSTR)argv[1],
          UNIVERSAL_NAME_INFO_LEVEL, // The structure is written to this block of memory. 
-         (LPVOID) &amp;szBuff, 
-         &amp;cbBuff)) != NO_ERROR) 
+         (LPVOID) &szBuff, 
+         &cbBuff)) != NO_ERROR) 
     //
     // If the call fails, print the error; otherwise, print the location of the share, 
     //  using the pointer to UNIVERSAL_NAME_INFO_LEVEL.
@@ -74,8 +74,8 @@ void main( int argc, char *argv[] )
   printf("Call WNetGetUniversalName using REMOTE_NAME_INFO_LEVEL.\n");
   if((res = WNetGetUniversalName((LPTSTR)argv[1], 
          REMOTE_NAME_INFO_LEVEL, 
-         (LPVOID) &amp;szBuff,    //Structure is written to this block of memory
-         &amp;cbBuff)) != NO_ERROR) 
+         (LPVOID) &szBuff,    //Structure is written to this block of memory
+         &cbBuff)) != NO_ERROR) 
     //
     // If the call fails, print the error; otherwise, print
     //  the location of the share, using 

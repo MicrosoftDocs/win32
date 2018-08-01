@@ -68,7 +68,7 @@ HRESULT SearchGroupMembers(LPCWSTR pwszGroupDN)
         NULL,
         ADS_SECURE_AUTHENTICATION,
         IID_IDirectorySearch,
-        (void**)&amp;spSearch);
+        (void**)&spSearch);
     if(FAILED(hr))
     {
         return hr;
@@ -91,7 +91,7 @@ HRESULT SearchGroupMembers(LPCWSTR pwszGroupDN)
     ADS_SEARCH_HANDLE hSearch;
     
     // Create the search filter.
-    LPWSTR pwszSearchFilter = L"(&amp;(objectClass=user))";
+    LPWSTR pwszSearchFilter = L"(&(objectClass=user))";
  
     // Set attributes to return.
     LPWSTR rgpwszAttributes[] = {L"cn", L"distinguishedName"};
@@ -101,7 +101,7 @@ HRESULT SearchGroupMembers(LPCWSTR pwszGroupDN)
     hr = spSearch->ExecuteSearch(pwszSearchFilter,
         rgpwszAttributes,
         dwNumAttributes,
-        &amp;hSearch);
+        &hSearch);
     if(FAILED(hr))
     {
         return hr;
@@ -116,7 +116,7 @@ HRESULT SearchGroupMembers(LPCWSTR pwszGroupDN)
         // Enumerate the retrieved attributes.
         for(DWORD i = 0; i < dwNumAttributes; i++)
         {
-            hr = spSearch->GetColumn(hSearch, rgpwszAttributes[i], &amp;col);
+            hr = spSearch->GetColumn(hSearch, rgpwszAttributes[i], &col);
             if(SUCCEEDED(hr))
             {
                 switch(col.dwADsType)
@@ -134,7 +134,7 @@ HRESULT SearchGroupMembers(LPCWSTR pwszGroupDN)
                 }
                 
                 // Free the column.
-                spSearch->FreeColumn(&amp;col);
+                spSearch->FreeColumn(&col);
             }
         }
         

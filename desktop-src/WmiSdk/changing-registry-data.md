@@ -52,7 +52,7 @@ The following code examples show how to create a new registry key and a subkey.
 
 
 ```VB
-HKEY_LOCAL_MACHINE = &amp;H80000002
+HKEY_LOCAL_MACHINE = &H80000002
 strComputer = "."
 
 Set ObjRegistry = GetObject("winmgmts:{impersonationLevel = impersonate}!\\" & strComputer & "\root\default:StdRegProv")
@@ -102,7 +102,7 @@ The following code example shows how to create a named value called **MultiStrin
 
 
 ```VB
-const HKEY_LOCAL_MACHINE = &amp;H80000002 
+const HKEY_LOCAL_MACHINE = &H80000002 
 strComputer = "."
 
 Set objRegistry = _

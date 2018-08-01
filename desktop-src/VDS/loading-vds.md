@@ -60,14 +60,14 @@ void __cdecl main(void)
             NULL,
             CLSCTX_LOCAL_SERVER,
             IID_IVdsServiceLoader,
-            (void **) &amp;pLoader);
+            (void **) &pLoader);
 
         // 
         // And then load VDS on the local computer.
         //
         if (SUCCEEDED(hResult)) 
         {
-            hResult = pLoader->LoadService(NULL, &amp;pService);
+            hResult = pLoader->LoadService(NULL, &pService);
         }
 
         //

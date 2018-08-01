@@ -37,7 +37,7 @@ To create a bitmap brush, use the [**ID2D1RenderTarget::CreateBitmapBrush**](id2
             m_pWICFactory,
             L"FERN",
             L"Image",
-            &amp;m_pBitmap
+            &m_pBitmap
             );
     ```
 
@@ -47,7 +47,7 @@ To create a bitmap brush, use the [**ID2D1RenderTarget::CreateBitmapBrush**](id2
     ```C++
     hr = m_pRenderTarget->CreateBitmapBrush(
         m_pBitmap,
-        &amp;m_pBitmapBrush
+        &m_pBitmapBrush
         );
     ```
 

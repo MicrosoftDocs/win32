@@ -18,7 +18,7 @@ The following example constructs an [**Image**](/windows/desktop/api/gdiplushead
 
 ```
 Image myImage(L"Climber.jpg");
-myGraphics.DrawImage(&amp;myImage, 10, 10);
+myGraphics.DrawImage(&myImage, 10, 10);
 ```
 
 
@@ -40,12 +40,12 @@ Image myJPEG(L"Mango.jpg");
 Image myPNG(L"Flowers.png");
 Image myTIFF(L"MS.tif");
 
-myGraphics.DrawImage(&amp;myBMP, 10, 10);
-myGraphics.DrawImage(&amp;myEMF, 220, 10);
-myGraphics.DrawImage(&amp;myGIF, 320, 10);
-myGraphics.DrawImage(&amp;myJPEG, 380, 10);
-myGraphics.DrawImage(&amp;myPNG, 150, 200);
-myGraphics.DrawImage(&amp;myTIFF, 300, 200);
+myGraphics.DrawImage(&myBMP, 10, 10);
+myGraphics.DrawImage(&myEMF, 220, 10);
+myGraphics.DrawImage(&myGIF, 320, 10);
+myGraphics.DrawImage(&myJPEG, 380, 10);
+myGraphics.DrawImage(&myPNG, 150, 200);
+myGraphics.DrawImage(&myTIFF, 300, 200);
 ```
 
 

@@ -33,7 +33,7 @@ BOOL GetGroupsFromContext(AUTHZ_CLIENT_CONTEXT_HANDLE hClientContext)
     int i = 0;
 
     //Call the AuthzGetInformationFromContext function with a NULL output buffer to get the required buffer size.
-    AuthzGetInformationFromContext(hClientContext, AuthzContextInfoGroupsSids, 0, &amp;cbSize, NULL);
+    AuthzGetInformationFromContext(hClientContext, AuthzContextInfoGroupsSids, 0, &cbSize, NULL);
     
         
     
@@ -44,7 +44,7 @@ BOOL GetGroupsFromContext(AUTHZ_CLIENT_CONTEXT_HANDLE hClientContext)
         return FALSE;
 
     //Get the SIDs of groups associated with the client context. 
-    if(!AuthzGetInformationFromContext(hClientContext, AuthzContextInfoGroupsSids, cbSize, &amp;cbSize, pTokenGroups))
+    if(!AuthzGetInformationFromContext(hClientContext, AuthzContextInfoGroupsSids, cbSize, &cbSize, pTokenGroups))
     {    
         printf_s("AuthzGetInformationFromContext failed with %d\n", GetLastError);
         free(pTokenGroups);
@@ -57,7 +57,7 @@ BOOL GetGroupsFromContext(AUTHZ_CLIENT_CONTEXT_HANDLE hClientContext)
         //Convert a SID to a string.
         if(!ConvertSidToStringSid(
             pTokenGroups->Groups[i].Sid,
-            &amp;StringSid
+            &StringSid
             ))
         {
             LocalFree(StringSid);

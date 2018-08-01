@@ -48,7 +48,7 @@ DWORD ScpLocate (
     ADS_SEARCH_HANDLE hSearch = NULL;
 
     // Get an IDirectorySearch pointer for the Global Catalog. 
-    hr = GetGCSearch(&amp;pSearch);
+    hr = GetGCSearch(&pSearch);
     if (FAILED(hr)) 
     {
         fprintf(stderr,"GetGC failed 0x%x",hr);
@@ -85,7 +85,7 @@ DWORD ScpLocate (
     hr = pSearch->ExecuteSearch(    L"keywords=A762885A-AA44-11d2-81F1-00C04FB9624E",
                                     rgszDN,
                                     1,
-                                    &amp;hSearch);
+                                    &hSearch);
 
     fprintf (stderr, "ExecuteSearch: 0x%x\n", hr);
 
@@ -99,13 +99,13 @@ DWORD ScpLocate (
     // service identified by the product GUID.
     // Add logic to select from multiple service instances.
     hr = pSearch->GetNextRow(hSearch);
-    if (SUCCEEDED(hr) &amp;&amp; hr !=S_ADS_NOMORE_ROWS) 
+    if (SUCCEEDED(hr) && hr !=S_ADS_NOMORE_ROWS) 
     {
         ADS_SEARCH_COLUMN Col;
 
-        hr = pSearch->GetColumn(hSearch, L"distinguishedName", &amp;Col);
+        hr = pSearch->GetColumn(hSearch, L"distinguishedName", &Col);
         *ppszDN = AllocADsStr(Col.pADsValues->CaseIgnoreString);
-        pSearch->FreeColumn(&amp;Col);
+        pSearch->FreeColumn(&Col);
         hr = pSearch->GetNextRow(hSearch);
     }
 
@@ -126,7 +126,7 @@ DWORD ScpLocate (
 
     hr = ADsGetObject(  pwszSCPPath,
                         IID_IDirectoryObject,
-                        (void**)&amp;pSCP);
+                        (void**)&pSCP);
 
     // Free the string buffer
     delete pwszSCPPath;
@@ -146,8 +146,8 @@ DWORD ScpLocate (
         DWORD dwNumAttrGot;
         hr = pSCP->GetObjectAttributes( rgszAttribs,
                                         dwAttrs,
-                                        &amp;pPropEntries,
-                                        &amp;dwNumAttrGot);
+                                        &pPropEntries,
+                                        &dwNumAttrGot);
         if(FAILED(hr)) 
         {
             fprintf (stderr, "GetObjectAttributes Failed. hr:0x%x\n", hr);
@@ -158,25 +158,25 @@ DWORD ScpLocate (
         // and save the values in the appropriate buffers. 
         for (int i = 0; i < (LONG)dwAttrs; i++) 
         {
-            if ((wcscmp(L"serviceDNSName", pPropEntries[i].pszAttrName)==0) &amp;&amp;
+            if ((wcscmp(L"serviceDNSName", pPropEntries[i].pszAttrName)==0) &&
                 (pPropEntries[i].dwADsType == ADSTYPE_CASE_IGNORE_STRING)) 
             {
                 *ppszServiceDNSName = AllocADsStr(pPropEntries[i].pADsValues->CaseIgnoreString);
             }
 
-            if ((wcscmp(L"serviceDNSNameType", pPropEntries[i].pszAttrName)==0) &amp;&amp;
+            if ((wcscmp(L"serviceDNSNameType", pPropEntries[i].pszAttrName)==0) &&
                 (pPropEntries[i].dwADsType == ADSTYPE_CASE_IGNORE_STRING)) 
             {
                 *ppszServiceDNSNameType = AllocADsStr(pPropEntries[i].pADsValues->CaseIgnoreString);
             }
 
-            if ((wcscmp(L"serviceClassName", pPropEntries[i].pszAttrName)==0) &amp;&amp;
+            if ((wcscmp(L"serviceClassName", pPropEntries[i].pszAttrName)==0) &&
                 (pPropEntries[i].dwADsType == ADSTYPE_CASE_IGNORE_STRING)) 
             {
                 *ppszClass = AllocADsStr(pPropEntries[i].pADsValues->CaseIgnoreString);
             }
 
-            if ((wcscmp(L"serviceBindingInformation", pPropEntries[i].pszAttrName)==0) &amp;&amp;
+            if ((wcscmp(L"serviceBindingInformation", pPropEntries[i].pszAttrName)==0) &&
                 (pPropEntries[i].dwADsType == ADSTYPE_CASE_IGNORE_STRING)) 
             {
                 *pusPort=(USHORT)_wtoi(pPropEntries[i].pADsValues->CaseIgnoreString);
@@ -239,7 +239,7 @@ HRESULT GetGCSearch(IDirectorySearch **ppDS)
                         NULL,
                         ADS_SECURE_AUTHENTICATION, // Use Secure Authentication.
                         IID_IADsContainer,
-                        (void**)&amp;pCont);
+                        (void**)&pCont);
     if (FAILED(hr)) 
     {
         _tprintf(TEXT("ADsOpenObject failed: 0x%x\n"), hr);
@@ -247,7 +247,7 @@ HRESULT GetGCSearch(IDirectorySearch **ppDS)
     } 
 
     // Get an enumeration interface for the GC container. 
-    hr = ADsBuildEnumerator(pCont, &amp;pEnum);
+    hr = ADsBuildEnumerator(pCont, &pEnum);
     if (FAILED(hr)) 
     {
         _tprintf(TEXT("ADsBuildEnumerator failed: 0x%x\n"), hr);
@@ -255,16 +255,16 @@ HRESULT GetGCSearch(IDirectorySearch **ppDS)
     } 
 
     // Now enumerate. There is only one child of the GC: object.
-    hr = ADsEnumerateNext(pEnum, 1, &amp;var, &amp;lFetch);
+    hr = ADsEnumerateNext(pEnum, 1, &var, &lFetch);
     if (FAILED(hr)) 
     {
         _tprintf(TEXT("ADsEnumerateNext failed: 0x%x\n"), hr);
         goto cleanup;
     } 
 
-    if ((hr == S_OK) &amp;&amp; (lFetch == 1))
+    if ((hr == S_OK) && (lFetch == 1))
     {
-        pDisp = V_DISPATCH(&amp;var);
+        pDisp = V_DISPATCH(&var);
         hr = pDisp->QueryInterface( IID_IDirectorySearch, (void**)ppDS); 
     }
 

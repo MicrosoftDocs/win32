@@ -17,7 +17,7 @@ The following code example shows how to use the [**IDirect3DDevice9::GetDepthSte
 ```
 LPDIRECT3DSURFACE9 pZBuffer;
 
-m_d3dDevice->GetDepthStencilSurface( &amp;pZBuffer );
+m_d3dDevice->GetDepthStencilSurface( &pZBuffer );
 ```
 
 

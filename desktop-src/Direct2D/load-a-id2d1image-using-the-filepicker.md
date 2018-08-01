@@ -88,7 +88,7 @@ Use the [**CreateStreamOverRandomAccessStream**](https://msdn.microsoft.com/libr
     DX::ThrowIfFailed(
         CreateStreamOverRandomAccessStream(
         reinterpret_cast<IUnknown*>(fileStream),
-        IID_PPV_ARGS(&amp;istream)
+        IID_PPV_ARGS(&istream)
         )
     );
 ```
@@ -112,7 +112,7 @@ Create an [**IWICBitmapDecoder**](https://msdn.microsoft.com/library/windows/des
                     istream.Get(),
                     nullptr,
                     WICDecodeMetadataCacheOnDemand,
-                    &amp;decoder
+                    &decoder
                     )
           );
 ```
@@ -125,7 +125,7 @@ Get the first frame of the image from the decoder using the [**IWICBitmapDecoder
 ```C++
     ComPtr<IWICBitmapFrameDecode> frame;
     DX::ThrowIfFailed(
-        decoder->GetFrame(0, &amp;frame)
+        decoder->GetFrame(0, &frame)
         );
 ```
 
@@ -140,7 +140,7 @@ Convert the image to the BGRA color format using [WIC](https://msdn.microsoft.co
     ```C++
         ComPtr<IWICFormatConverter> converter;
         DX::ThrowIfFailed(
-            m_wicFactory->CreateFormatConverter(&amp;converter)
+            m_wicFactory->CreateFormatConverter(&converter)
             ); 
      
     ```
@@ -182,7 +182,7 @@ Use the [**ID2D1Effect::SetValue**](https://msdn.microsoft.com/en-us/library/Hh4
     ComPtr<ID2D1Effect> bitmapSourceEffect;
 
     DX::ThrowIfFailed(
-        m_d2dContext->CreateEffect(CLSID_D2D1BitmapSource, &amp;bitmapSourceEffect)
+        m_d2dContext->CreateEffect(CLSID_D2D1BitmapSource, &bitmapSourceEffect)
         );
 
     DX::ThrowIfFailed(
@@ -238,7 +238,7 @@ void OpenFile(Windows::Storage::Streams::IRandomAccessStream^ fileStream)
     DX::ThrowIfFailed(
         CreateStreamOverRandomAccessStream(
             reinterpret_cast<IUnknown*>(fileStream),
-            IID_PPV_ARGS(&amp;istream)
+            IID_PPV_ARGS(&istream)
             )
         );
 
@@ -248,18 +248,18 @@ void OpenFile(Windows::Storage::Streams::IRandomAccessStream^ fileStream)
                     istream.Get(),
                     nullptr,
                     WICDecodeMetadataCacheOnDemand,
-                    &amp;decoder
+                    &decoder
                     )
           );
 
     ComPtr<IWICBitmapFrameDecode> frame;
     DX::ThrowIfFailed(
-        decoder->GetFrame(0, &amp;frame)
+        decoder->GetFrame(0, &frame)
         );
 
     ComPtr<IWICFormatConverter> converter;
     DX::ThrowIfFailed(
-        m_wicFactory->CreateFormatConverter(&amp;converter)
+        m_wicFactory->CreateFormatConverter(&converter)
         );
 
     DX::ThrowIfFailed(
@@ -276,7 +276,7 @@ void OpenFile(Windows::Storage::Streams::IRandomAccessStream^ fileStream)
        ComPtr<ID2D1Effect> bitmapSourceEffect;
 
     DX::ThrowIfFailed(
-        m_d2dContext->CreateEffect(CLSID_D2D1BitmapSource, &amp;bitmapSourceEffect)
+        m_d2dContext->CreateEffect(CLSID_D2D1BitmapSource, &bitmapSourceEffect)
         );
 
     DX::ThrowIfFailed(

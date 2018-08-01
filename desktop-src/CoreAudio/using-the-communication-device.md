@@ -47,10 +47,10 @@ IMMDevice *defaultDevice = NULL;
 hr = CoCreateInstance(__uuidof(MMDeviceEnumerator), NULL,
             CLSCTX_INPROC_SERVER, 
             __uuidof(IMMDeviceEnumerator), 
-            (LPVOID *)&amp;deviceEnumerator);
+            (LPVOID *)&deviceEnumerator);
 
 hr = deviceEnumerator->GetDefaultAudioEndpoint(eRender, 
-            eCommunications, &amp;defaultDevice);
+            eCommunications, &defaultDevice);
 ```
 
 

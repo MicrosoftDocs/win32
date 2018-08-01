@@ -110,8 +110,8 @@ LONG APIENTRY MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
             // area, and enumerate the child windows. Pass the 
             // dimensions to the child windows during enumeration. 
  
-            GetClientRect(hwnd, &amp;rcClient); 
-            EnumChildWindows(hwnd, EnumChildProc, (LPARAM) &amp;rcClient); 
+            GetClientRect(hwnd, &rcClient); 
+            EnumChildWindows(hwnd, EnumChildProc, (LPARAM) &rcClient); 
             return 0; 
 
         // Process other messages. 

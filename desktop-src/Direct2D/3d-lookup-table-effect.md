@@ -69,7 +69,7 @@ The CLSID for this effect is CLSID\_D2D1LookupTable3D.
             for (UINT iB = 0; iB < extents[0]; iB++)
             {
                 T outputColor[3];
-                ApplyPipeline(iR * steps[2], iG * steps[1], iB * steps[0], &amp;outputColor);
+                ApplyPipeline(iR * steps[2], iG * steps[1], iB * steps[0], &outputColor);
  
                 pData[0] = outColor[0];
                 pData[1] = outColor[1];
@@ -86,8 +86,8 @@ The CLSID for this effect is CLSID\_D2D1LookupTable3D.
     
     // Compute the strides of the LUT data.
     UINT strides[2];
-    IFR(UIntMult(sizeof(T) * 4, extents[0], &amp;strides[0]));
-    IFR(UIntMult(strides[0], extents[1], &amp;strides[1]));
+    IFR(UIntMult(sizeof(T) * 4, extents[0], &strides[0]));
+    IFR(UIntMult(strides[0], extents[1], &strides[1]));
     
     D2D1_BUFFER_PRECISION precision = GetBufferPrecision<T>();
  
@@ -99,7 +99,7 @@ The CLSID for this effect is CLSID\_D2D1LookupTable3D.
         lutData.GetData(),
         lutData.GetCount(),
         strides,
-        &amp;sp3dLut
+        &sp3dLut
         )); 
  
     //
@@ -109,7 +109,7 @@ The CLSID for this effect is CLSID\_D2D1LookupTable3D.
  
     // Create a 3D LUT effect to render our LUT.
     CComPtr<ID2D1Effect> sp3dLutEffect;
-    IFR(pEffectContext->CreateEffect(CLSID_D2D1LookupTable3D, &amp;sp3dLutEffect)); 
+    IFR(pEffectContext->CreateEffect(CLSID_D2D1LookupTable3D, &sp3dLutEffect)); 
  
     // Set the LUT as a property on the effect.
     IFR(sp3dLutEffect->SetValue(D2D1_LOOKUPTABLE3D_PROP_LUT, _spLut));

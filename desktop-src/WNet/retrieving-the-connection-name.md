@@ -24,7 +24,7 @@ DWORD dwResult, cchBuff = sizeof(szDeviceName);
 //
 dwResult = WNetGetConnection(_T("z:"), 
     szDeviceName, 
-    &amp;cchBuff); 
+    &cchBuff); 
  
 switch (dwResult) 
 { 

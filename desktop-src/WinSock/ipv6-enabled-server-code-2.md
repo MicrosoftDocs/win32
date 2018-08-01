@@ -114,8 +114,8 @@ int main(int argc, char **argv)
     // Parse arguments
     if (argc > 1) {
         for (i = 1; i < argc; i++) {
-            if ((argv[i][0] == '-') || (argv[i][0] == '/') &amp;&amp;
-                (argv[i][1] != 0) &amp;&amp; (argv[i][2] == 0)) {
+            if ((argv[i][0] == '-') || (argv[i][0] == '/') &&
+                (argv[i][1] != 0) && (argv[i][2] == 0)) {
                 switch (tolower(argv[i][1])) {
                 case 'f':
                     if (!argv[i + 1])
@@ -172,7 +172,7 @@ int main(int argc, char **argv)
         }
     }
     // Ask for Winsock version 2.2.
-    if ((RetVal = WSAStartup(MAKEWORD(2, 2), &amp;wsaData)) != 0) {
+    if ((RetVal = WSAStartup(MAKEWORD(2, 2), &wsaData)) != 0) {
         fprintf(stderr, "WSAStartup failed with error %d: %s\n",
                 RetVal, PrintError(RetVal));
         WSACleanup();
@@ -190,11 +190,11 @@ int main(int argc, char **argv)
     // entry per allowed protocol family containing the unspecified address
     // for that family.
     //
-    memset(&amp;Hints, 0, sizeof (Hints));
+    memset(&Hints, 0, sizeof (Hints));
     Hints.ai_family = Family;
     Hints.ai_socktype = SocketType;
     Hints.ai_flags = AI_NUMERICHOST | AI_PASSIVE;
-    RetVal = getaddrinfo(Address, Port, &amp;Hints, &amp;AddrInfo);
+    RetVal = getaddrinfo(Address, Port, &Hints, &AddrInfo);
     if (RetVal != 0) {
         fprintf(stderr, "getaddrinfo failed with error %d: %s\n",
                 RetVal, gai_strerror(RetVal));
@@ -213,7 +213,7 @@ int main(int argc, char **argv)
             break;
         }
         // This example only supports PF_INET and PF_INET6.
-        if ((AI->ai_family != PF_INET) &amp;&amp; (AI->ai_family != PF_INET6))
+        if ((AI->ai_family != PF_INET) && (AI->ai_family != PF_INET6))
             continue;
 
         // Open a socket with the correct address family for this address.
@@ -224,8 +224,8 @@ int main(int argc, char **argv)
             continue;
         }
 
-        if ((AI->ai_family == PF_INET6) &amp;&amp;
-            IN6_IS_ADDR_LINKLOCAL((IN6_ADDR *) INETADDR_ADDRESS(AI->ai_addr)) &amp;&amp;
+        if ((AI->ai_family == PF_INET6) &&
+            IN6_IS_ADDR_LINKLOCAL((IN6_ADDR *) INETADDR_ADDRESS(AI->ai_addr)) &&
             (((SOCKADDR_IN6 *) (AI->ai_addr))->sin6_scope_id == 0)
             ) {
             fprintf(stderr,
@@ -279,7 +279,7 @@ int main(int argc, char **argv)
     // We now put the server into an eternal loop,
     // serving requests as they arrive.
     //
-    FD_ZERO(&amp;SockSet);
+    FD_ZERO(&SockSet);
     while (1) {
 
         FromLen = sizeof (From);
@@ -296,13 +296,13 @@ int main(int argc, char **argv)
         // to wait for a connection request or a datagram to arrive.
         //
         for (i = 0; i < NumSocks; i++) {
-            if (FD_ISSET(ServSock[i], &amp;SockSet))
+            if (FD_ISSET(ServSock[i], &SockSet))
                 break;
         }
         if (i == NumSocks) {
             for (i = 0; i < NumSocks; i++)
-                FD_SET(ServSock[i], &amp;SockSet);
-            if (select(NumSocks, &amp;SockSet, 0, 0, 0) == SOCKET_ERROR) {
+                FD_SET(ServSock[i], &SockSet);
+            if (select(NumSocks, &SockSet, 0, 0, 0) == SOCKET_ERROR) {
                 fprintf(stderr, "select() failed with error %d: %s\n",
                         WSAGetLastError(), PrintError(WSAGetLastError()));
                 WSACleanup();
@@ -310,8 +310,8 @@ int main(int argc, char **argv)
             }
         }
         for (i = 0; i < NumSocks; i++) {
-            if (FD_ISSET(ServSock[i], &amp;SockSet)) {
-                FD_CLR(ServSock[i], &amp;SockSet);
+            if (FD_ISSET(ServSock[i], &SockSet)) {
+                FD_CLR(ServSock[i], &SockSet);
                 break;
             }
         }
@@ -323,7 +323,7 @@ int main(int argc, char **argv)
             // Since this socket was returned by the select(), we know we
             // have a connection waiting and that this accept() won't block.
             //
-            ConnSock = accept(ServSock[i], (LPSOCKADDR) & From, &amp;FromLen);
+            ConnSock = accept(ServSock[i], (LPSOCKADDR) & From, &FromLen);
             if (ConnSock == INVALID_SOCKET) {
                 fprintf(stderr, "accept() failed with error %d: %s\n",
                         WSAGetLastError(), PrintError(WSAGetLastError()));
@@ -394,7 +394,7 @@ int main(int argc, char **argv)
             // data the client sent in the corresponding sendto().
             //
             AmountRead = recvfrom(ServSock[i], Buffer, sizeof (Buffer), 0,
-                                  (LPSOCKADDR) & From, &amp;FromLen);
+                                  (LPSOCKADDR) & From, &FromLen);
             if (AmountRead == SOCKET_ERROR) {
                 fprintf(stderr, "recvfrom() failed with error %d: %s\n",
                         WSAGetLastError(), PrintError(WSAGetLastError()));

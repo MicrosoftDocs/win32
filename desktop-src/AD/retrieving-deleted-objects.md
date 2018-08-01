@@ -85,15 +85,15 @@ HRESULT GetDeletedObjectsContainer(IADsContainer **ppContainer)
                     NULL,
                     ADS_SECURE_AUTHENTICATION,
                     IID_IADs,
-                    (LPVOID*)&amp;pRoot);
+                    (LPVOID*)&pRoot);
     if(SUCCEEDED(hr))
     {
         VARIANT var;
         
-        VariantInit(&amp;var);
+        VariantInit(&var);
 
         // Get the current domain DN.
-        hr = pRoot->Get(CComBSTR("defaultNamingContext"), &amp;var);
+        hr = pRoot->Get(CComBSTR("defaultNamingContext"), &var);
         if(SUCCEEDED(hr))
         {
             // Build the binding string.
@@ -120,7 +120,7 @@ HRESULT GetDeletedObjectsContainer(IADsContainer **ppContainer)
                 hr = E_OUTOFMEMORY;
             }
 
-            VariantClear(&amp;var);        
+            VariantClear(&var);        
         }
 
         pRoot->Release(); 
@@ -153,13 +153,13 @@ HRESULT EnumDeletedObjects()
     IADsContainer *pDeletedObjectsCont = NULL;
     IDirectorySearch *pSearch = NULL;
 
-    hr = GetDeletedObjectsContainer(&amp;pDeletedObjectsCont);
+    hr = GetDeletedObjectsContainer(&pDeletedObjectsCont);
     if(FAILED(hr))
     {
         goto cleanup;
     }
 
-    hr = pDeletedObjectsCont->QueryInterface(IID_IDirectorySearch, (LPVOID*)&amp;pSearch);    
+    hr = pDeletedObjectsCont->QueryInterface(IID_IDirectorySearch, (LPVOID*)&pSearch);    
     if(FAILED(hr))
     {
         goto cleanup;
@@ -200,7 +200,7 @@ HRESULT EnumDeletedObjects()
     hr = pSearch->ExecuteSearch(    pszSearch,
                                     rgAttributes,
                                     ARRAYSIZE(rgAttributes),
-                                    &amp;hSearch);
+                                    &hSearch);
     if(SUCCEEDED(hr))
     {    
         // Call IDirectorySearch::GetNextRow() to retrieve the next row of data
@@ -212,7 +212,7 @@ HRESULT EnumDeletedObjects()
             // Enumerate the retrieved attributes.
             for(i = 0; i < ARRAYSIZE(rgAttributes); i++)
             {
-                hr = pSearch->GetColumn(hSearch, rgAttributes[i], &amp;col);
+                hr = pSearch->GetColumn(hSearch, rgAttributes[i], &col);
                 if(SUCCEEDED(hr))
                 {
                     switch(col.dwADsType)
@@ -235,7 +235,7 @@ HRESULT EnumDeletedObjects()
                             break;
                     }
 
-                    pSearch->FreeColumn(&amp;col);
+                    pSearch->FreeColumn(&col);
                 }
             }
 
@@ -277,7 +277,7 @@ HRESULT FindDeletedObjectByGUID(IADs *padsDomain, GUID *pguid)
     IDirectorySearch *pSearch = NULL;
     LPWSTR pwszGuid = NULL;
 
-    hr = padsDomain->QueryInterface(IID_IDirectorySearch, (LPVOID*)&amp;pSearch);    
+    hr = padsDomain->QueryInterface(IID_IDirectorySearch, (LPVOID*)&pSearch);    
     if(FAILED(hr))
     {
         goto cleanup;
@@ -304,7 +304,7 @@ HRESULT FindDeletedObjectByGUID(IADs *padsDomain, GUID *pguid)
     }
 
     // Set the search filter.
-    hr = ADsEncodeBinaryData((LPBYTE)pguid, sizeof(GUID), &amp;pwszGuid);
+    hr = ADsEncodeBinaryData((LPBYTE)pguid, sizeof(GUID), &pwszGuid);
     if(FAILED(hr))
     {
         goto cleanup;
@@ -329,7 +329,7 @@ HRESULT FindDeletedObjectByGUID(IADs *padsDomain, GUID *pguid)
     hr = pSearch->ExecuteSearch(    pwszSearch,
                                     rgAttributes,
                                     3,
-                                    &amp;hSearch);
+                                    &hSearch);
     if(SUCCEEDED(hr))
     {    
         // Call IDirectorySearch::GetNextRow() to retrieve the next row of data.
@@ -341,7 +341,7 @@ HRESULT FindDeletedObjectByGUID(IADs *padsDomain, GUID *pguid)
             // Enumerate the retrieved attributes.
             for(i = 0; i < ARRAYSIZE(rgAttributes); i++)
             {
-                hr = pSearch->GetColumn(hSearch, rgAttributes[i], &amp;col);
+                hr = pSearch->GetColumn(hSearch, rgAttributes[i], &col);
                 if(SUCCEEDED(hr))
                 {
                     switch(col.dwADsType)
@@ -377,7 +377,7 @@ HRESULT FindDeletedObjectByGUID(IADs *padsDomain, GUID *pguid)
                                 pb += sizeof(guid.Data2);
                                 guid.Data3 = *((short*)pb);
                                 pb += sizeof(guid.Data3);
-                                CopyMemory(&amp;guid.Data4, pb, sizeof(guid.Data4));
+                                CopyMemory(&guid.Data4, pb, sizeof(guid.Data4));
 
                                 // Convert the GUID into a string.
                                 StringFromGUID2(guid, wszGUID, MAX_PATH);
@@ -407,7 +407,7 @@ HRESULT FindDeletedObjectByGUID(IADs *padsDomain, GUID *pguid)
 
                     }
 
-                    pSearch->FreeColumn(&amp;col);
+                    pSearch->FreeColumn(&col);
                 }
             }
 

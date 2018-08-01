@@ -37,7 +37,7 @@ STDMETHODIMP CMyInputPin::GetAllocator(IMemAllocator **ppAllocator)
     // No allocator yet, so propose our custom allocator. The exact code
     // here will depend on your custom allocator class definition.
     HRESULT hr = S_OK;
-    CMyAllocator *pAlloc = new CMyAllocator(&amp;hr);
+    CMyAllocator *pAlloc = new CMyAllocator(&hr);
     if (!pAlloc)
     {
         return E_OUTOFMEMORY;
@@ -66,7 +66,7 @@ To provide an allocator for an output pin, override the [**CBaseOutputPin::InitA
 HRESULT MyOutputPin::InitAllocator(IMemAllocator **ppAllocator)
 {
     HRESULT hr = S_OK;
-    CMyAllocator *pAlloc = new CMyAllocator(&amp;hr);
+    CMyAllocator *pAlloc = new CMyAllocator(&hr);
     if (!pAlloc)
     {
         return E_OUTOFMEMORY;

@@ -38,7 +38,7 @@ The search protocol uses the following standard URL-encoded syntax:
 
 
 ```C++
-search:parameter=value[&amp;parameter=value]&amp;
+search:parameter=value[&parameter=value]&
 ```
 
 
@@ -106,7 +106,7 @@ If a user enters "Microsoft" in the **Start** menu and clicks **Search Everywher
 
 
 ```C++
-search:query=microsoft&amp;
+search:query=microsoft&
 ```
 
 
@@ -115,7 +115,7 @@ If a user enters "Seattle" in Windows Explorer within C:\\MyFolder and then clic
 
 
 ```C++
-search:query=seattle&amp;crumb=location:C%3A%5CMyFolder
+search:query=seattle&crumb=location:C%3A%5CMyFolder
 ```
 
 

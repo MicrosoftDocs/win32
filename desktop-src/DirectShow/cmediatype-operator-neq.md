@@ -30,7 +30,7 @@ This operator tests for inequality between [**CMediaType**](cmediatype.md) objec
 
 ```C++
 BOOL CMediaType::operator!=(
-  [ref] const CMediaType &amp;rt
+  [ref] const CMediaType &rt
 );
 ```
 

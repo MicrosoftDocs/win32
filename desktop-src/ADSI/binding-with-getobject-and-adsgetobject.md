@@ -49,7 +49,7 @@ CoInitialize(NULL);
 
 hr = ADsGetObject(L"LDAP://CN=jeffsmith,DC=fabrikam,DC=com", 
         IID_IADs,
-        (void**) &amp;pObject);
+        (void**) &pObject);
 
 if(SUCCEEDED(hr))
 {

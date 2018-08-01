@@ -16,15 +16,15 @@ When an application specifies your file-handler DLL or stream handler, the syste
 
 ```C++
 // Main DLL entry point. 
-STDAPI DllGetClassObject(const CLSID FAR&amp; rclsid, 
-    const IID FAR&amp; riid, void FAR* FAR* ppv) 
+STDAPI DllGetClassObject(const CLSID FAR& rclsid, 
+    const IID FAR& riid, void FAR* FAR* ppv) 
 { 
     HRESULT hresult; 
     hresult = CAVIFileCF::Create(rclsid, riid, ppv); 
     return hresult; 
 } 
-HRESULT CAVIFileCF::Create(const CLSID FAR&amp;   rclsid, 
-    const IID FAR&amp; riid, void FAR* FAR*   ppv) 
+HRESULT CAVIFileCF::Create(const CLSID FAR&   rclsid, 
+    const IID FAR& riid, void FAR* FAR*   ppv) 
 { 
 // The following is the class factory creation and not an 
 // actual PAVIFile. 
@@ -33,7 +33,7 @@ HRESULT CAVIFileCF::Create(const CLSID FAR&amp;   rclsid,
     HRESULT hresult; 
  
 // Create the instance. 
-    pAVIFileCF = new FAR CAVIFileCF(rclsid, &amp;pUnknown); 
+    pAVIFileCF = new FAR CAVIFileCF(rclsid, &pUnknown); 
     if (pAVIFileCF == NULL) 
         return ResultFromScode(E_OUTOFMEMORY); 
  

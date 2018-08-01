@@ -31,7 +31,7 @@ if (FAILED(hr)) exit(0);  // Handle errors here.
 // Get interface pBindCtx.
 
 IBindCtx* pBindCtx;
-hr = CreateBindCtx(NULL, &amp;pBindCtx);
+hr = CreateBindCtx(NULL, &pBindCtx);
 if (FAILED(hr)) exit(0);  // Handle errors here.
 
 // Get moniker pMoniker.
@@ -42,8 +42,8 @@ ULONG ulParsed;
 IMoniker* pMoniker;
 hr = MkParseDisplayNameEx( pBindCtx,
                            string,
-                           &amp;ulParsed,
-                           &amp;pMoniker
+                           &ulParsed,
+                           &pMoniker
                           );
 if (FAILED(hr)) exit(0);  // Handle errors here.
 
@@ -53,7 +53,7 @@ IUnknown* pSessionTestFactory;
 hr = pMoniker->BindToObject( pBindCtx,
                              NULL,
                              IID_IUnknown,
-                             (void**)&amp;pSessionTestFactory
+                             (void**)&pSessionTestFactory
                             );
 if (FAILED(hr)) exit(0);  // Handle errors here.
 

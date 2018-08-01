@@ -51,7 +51,7 @@ int _tmain(int argc, _TCHAR* argv[])
     HCRYPTPROV hProv = 0;
 
    if(!GetHandleToCSP(
-        &amp;hProv,
+        &hProv,
         MY_CONTAINER_NAME, 
         CRYPT_MACHINE_KEYSET))
     {
@@ -144,7 +144,7 @@ BOOL GenPrivateKeys(
         hProv,
         AT_SIGNATURE,
         dwflagkey,
-        &amp;hSigKey))
+        &hSigKey))
     {
         printf("CryptGenKey failed with 0x%08x.\n",GetLastError());
         goto CommonReturn;
@@ -155,7 +155,7 @@ BOOL GenPrivateKeys(
         hProv,
         AT_KEYEXCHANGE,
         dwflagkey,
-        &amp;hExchKey))
+        &hExchKey))
     {
         printf("CryptGenKey failed with 0x%08x.\n",GetLastError());
         goto CommonReturn;
@@ -192,7 +192,7 @@ SECURITY_DESCRIPTOR* GetProvSecurityDesc(HCRYPTPROV hProv)
         hProv,
         PP_KEYSET_SEC_DESCR,
         0,
-        &amp;ulSize,
+        &ulSize,
         DACL_SECURITY_INFORMATION);
 
     int ret = GetLastError();
@@ -218,7 +218,7 @@ SECURITY_DESCRIPTOR* GetProvSecurityDesc(HCRYPTPROV hProv)
         hProv,
         PP_KEYSET_SEC_DESCR,
         (BYTE*)psd,
-        &amp;ulSize,
+        &ulSize,
         DACL_SECURITY_INFORMATION))
     {
         fprintf(
@@ -259,9 +259,9 @@ ACL* GetDacl(SECURITY_DESCRIPTOR *psd)
 
     if (!GetSecurityDescriptorDacl(
         psd, 
-        &amp;present, 
-        &amp;pACL, 
-        &amp;defaulted)) 
+        &present, 
+        &pACL, 
+        &defaulted)) 
     {
         fprintf(
             stderr, 
@@ -305,10 +305,10 @@ BOOL ModifyDacl(HCRYPTPROV hProv)
         NULL, 
         TEXT("LocalService"), 
         pSid, 
-        &amp;cbSid,
+        &cbSid,
         szDomainName, 
-        &amp;cbDomainName, 
-        &amp;SidType))
+        &cbDomainName, 
+        &SidType))
       {
          if (GetLastError() == ERROR_INSUFFICIENT_BUFFER)
          {
@@ -351,7 +351,7 @@ BOOL ModifyDacl(HCRYPTPROV hProv)
 
     // Initialize an EXPLICIT_ACCESS structure for an ACE.
     // The ACE will allow the user read access to the container.
-    ZeroMemory(&amp;ea, 1 * sizeof(EXPLICIT_ACCESS));
+    ZeroMemory(&ea, 1 * sizeof(EXPLICIT_ACCESS));
     ea[0].grfAccessPermissions = FILE_READ_DATA;
     ea[0].grfAccessMode = SET_ACCESS;
     ea[0].grfInheritance= NO_INHERITANCE;
@@ -361,7 +361,7 @@ BOOL ModifyDacl(HCRYPTPROV hProv)
 
     // Create a new ACL that contains the new ACEs as well as the 
     // old ones.
-    dwRes = SetEntriesInAcl(1, ea, pCurrentDACL, &amp;pNewACL);
+    dwRes = SetEntriesInAcl(1, ea, pCurrentDACL, &pNewACL);
     if (ERROR_SUCCESS != dwRes) 
     {
         printf("SetEntriesInAcl error: %u.\n", GetLastError());

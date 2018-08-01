@@ -49,7 +49,7 @@ PFNCALLBACK lpDdeProc;
 hInst = hInstance; 
  
 if (DdeInitialize( 
-        (LPDWORD) &amp;idInst,  // instance identifier 
+        (LPDWORD) &idInst,  // instance identifier 
         DDECallback,        // pointer to callback function 
         APPCLASS_MONITOR |  // this is a monitoring application 
         MF_CALLBACKS     |  // monitor callback functions 
@@ -110,7 +110,7 @@ DWORD dwData2;
         case XTYP_MONITOR: 
             // Obtain a pointer to the global memory object. 
  
-            if (lpData = DdeAccessData(hdata, &amp;cb)) 
+            if (lpData = DdeAccessData(hdata, &cb)) 
             { 
                 // Examine the monitor flag. 
  

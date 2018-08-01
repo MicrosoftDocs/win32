@@ -24,16 +24,16 @@ The following example draws text with two different quality settings:
 
 ```
 FontFamily  fontFamily(L"Times New Roman");
-Font        font(&amp;fontFamily, 32, FontStyleRegular, UnitPixel);
+Font        font(&fontFamily, 32, FontStyleRegular, UnitPixel);
 SolidBrush  solidBrush(Color(255, 0, 0, 255));
 WCHAR       string1[] = L"SingleBitPerPixel";
 WCHAR       string2[] = L"AntiAlias";
 
 graphics.SetTextRenderingHint(TextRenderingHintSingleBitPerPixel);
-graphics.DrawString(string1, -1, &amp;font, PointF(10.0f, 10.0f), &amp;solidBrush);
+graphics.DrawString(string1, -1, &font, PointF(10.0f, 10.0f), &solidBrush);
 
 graphics.SetTextRenderingHint(TextRenderingHintAntiAlias);
-graphics.DrawString(string2, -1, &amp;font, PointF(10.0f, 60.0f), &amp;solidBrush);
+graphics.DrawString(string2, -1, &font, PointF(10.0f, 60.0f), &solidBrush);
             
 ```
 

@@ -90,13 +90,13 @@ BOOL WINAPI InternetErrorOut(
   }
 
   StringCchLength( szMsgBoxBuffer, INET_ERR_OUT_MSG_BOX_BUFFER_SIZE,
-                (size_t*) &amp;dwBaseLength );
+                (size_t*) &dwBaseLength );
   // Adjust base-length value to count the number of bytes:
   dwBaseLength *= sizeof( TCHAR );
 
   if( dwError == ERROR_INTERNET_EXTENDED_ERROR )
   {
-    InternetGetLastResponseInfo( &amp;dwInetError, NULL, &amp;dwExtLength );
+    InternetGetLastResponseInfo( &dwInetError, NULL, &dwExtLength );
     // Adjust the extended-length value to a byte count 
     // that includes the terminating null:
     ++dwExtLength *= sizeof( TCHAR );
@@ -110,9 +110,9 @@ BOOL WINAPI InternetErrorOut(
       goto InetErrorOutError_1;
     }
 
-    if( !InternetGetLastResponseInfo( &amp;dwInetError, 
+    if( !InternetGetLastResponseInfo( &dwInetError, 
                                       szExtErrMsg, 
-                                      &amp;dwExtLength ) )
+                                      &dwExtLength ) )
     {
       StringCchCat( szMsgBoxBuffer, INET_ERR_OUT_MSG_BOX_BUFFER_SIZE, 
         TEXT( "\nCall to InternetGetLastResponseInfo( ) failed--" ) ); 
@@ -136,7 +136,7 @@ BOOL WINAPI InternetErrorOut(
 
   if( FAILED( StringCchCopy( szCombinedErrMsg, 
                 dwBaseLength, szMsgBoxBuffer ) ) ||
-      ( dwExtLength &amp;&amp; 
+      ( dwExtLength && 
         ( FAILED( StringCchCat( szCombinedErrMsg, 
                     dwBaseLength, szConnectiveText ) ) ||
           FAILED( StringCchCat( szCombinedErrMsg, 

@@ -90,17 +90,17 @@ HRESULT BasicFileOpen()
     HRESULT hr = CoCreateInstance(CLSID_FileOpenDialog, 
                       NULL, 
                       CLSCTX_INPROC_SERVER, 
-                      IID_PPV_ARGS(&amp;pfd));
+                      IID_PPV_ARGS(&pfd));
     if (SUCCEEDED(hr))
     {
         // Create an event handling object, and hook it up to the dialog.
         IFileDialogEvents *pfde = NULL;
-        hr = CDialogEventHandler_CreateInstance(IID_PPV_ARGS(&amp;pfde));
+        hr = CDialogEventHandler_CreateInstance(IID_PPV_ARGS(&pfde));
         if (SUCCEEDED(hr))
         {
             // Hook up the event handler.
             DWORD dwCookie;
-            hr = pfd->Advise(pfde, &amp;dwCookie);
+            hr = pfd->Advise(pfde, &dwCookie);
             if (SUCCEEDED(hr))
             {
                 // Set the options on the dialog.
@@ -108,7 +108,7 @@ HRESULT BasicFileOpen()
 
                 // Before setting, always get the options first in order 
                 // not to override existing options.
-                hr = pfd->GetOptions(&amp;dwFlags);
+                hr = pfd->GetOptions(&dwFlags);
                 if (SUCCEEDED(hr))
                 {
                     // In this case, get shell items only for file system items.
@@ -136,14 +136,14 @@ HRESULT BasicFileOpen()
                                         // the 'Open' button.
                                         // The result is an IShellItem object.
                                         IShellItem *psiResult;
-                                        hr = pfd->GetResult(&amp;psiResult);
+                                        hr = pfd->GetResult(&psiResult);
                                         if (SUCCEEDED(hr))
                                         {
                                             // We are just going to print out the 
                                             // name of the file for sample sake.
                                             PWSTR pszFilePath = NULL;
                                             hr = psiResult->GetDisplayName(SIGDN_FILESYSPATH, 
-                                                               &amp;pszFilePath);
+                                                               &pszFilePath);
                                             if (SUCCEEDED(hr))
                                             {
                                                 TaskDialog(NULL,
@@ -188,7 +188,7 @@ The following example, taken from above, demonstrates how to restrict results to
 
                 // Before setting, always get the options first in order 
                 // not to override existing options.
-                hr = pfd->GetOptions(&amp;dwFlags);
+                hr = pfd->GetOptions(&dwFlags);
                 if (SUCCEEDED(hr))
                 {
                     // In this case, get shell items only for file system items.
@@ -245,7 +245,7 @@ HRESULT AddItemsToCommonPlaces()
     HRESULT hr = CoCreateInstance(CLSID_FileOpenDialog, 
                       NULL, 
                       CLSCTX_INPROC_SERVER, 
-                      IID_PPV_ARGS(&amp;pfd));
+                      IID_PPV_ARGS(&pfd));
     if (SUCCEEDED(hr))
     {
         // Always use known folders instead of hard-coding physical file paths.
@@ -254,17 +254,17 @@ HRESULT AddItemsToCommonPlaces()
         hr = CoCreateInstance(CLSID_KnownFolderManager, 
                       NULL, 
                       CLSCTX_INPROC_SERVER, 
-                      IID_PPV_ARGS(&amp;pkfm));
+                      IID_PPV_ARGS(&pkfm));
         if (SUCCEEDED(hr))
         {
             // Get the known folder.
             IKnownFolder *pKnownFolder = NULL;
-            hr = pkfm->GetFolder(FOLDERID_PublicMusic, &amp;pKnownFolder);
+            hr = pkfm->GetFolder(FOLDERID_PublicMusic, &pKnownFolder);
             if (SUCCEEDED(hr))
             {
                 // File Dialog APIs need an IShellItem that represents the location.
                 IShellItem *psi = NULL;
-                hr = pKnownFolder->GetShellItem(0, IID_PPV_ARGS(&amp;psi));
+                hr = pKnownFolder->GetShellItem(0, IID_PPV_ARGS(&psi));
                 if (SUCCEEDED(hr))
                 {
                     // Add the place to the bottom of default list in Common File Dialog.
@@ -312,13 +312,13 @@ HRESULT MultiselectInvoke()
     HRESULT hr = CoCreateInstance(CLSID_FileOpenDialog, 
                                   NULL, 
                                   CLSCTX_INPROC_SERVER, 
-                                  IID_PPV_ARGS(&amp;pfd));
+                                  IID_PPV_ARGS(&pfd));
 
     if (SUCCEEDED(hr))
     {
         DWORD dwOptions;
         // Specify multiselect.
-        hr = pfd->GetOptions(&amp;dwOptions);
+        hr = pfd->GetOptions(&dwOptions);
         
         if (SUCCEEDED(hr))
         {
@@ -334,7 +334,7 @@ HRESULT MultiselectInvoke()
             {
                 // Obtain the result of the user interaction.
                 IShellItemArray *psiaResults;
-                hr = pfd->GetResults(&amp;psiaResults);
+                hr = pfd->GetResults(&psiaResults);
                 
                 if (SUCCEEDED(hr))
                 {
@@ -363,12 +363,12 @@ This is taken from the [Basic Usage](#basic-usage) sample.
 ```C++
         // Create an event handling object, and hook it up to the dialog.
         IFileDialogEvents *pfde = NULL;
-        hr = CDialogEventHandler_CreateInstance(IID_PPV_ARGS(&amp;pfde));
+        hr = CDialogEventHandler_CreateInstance(IID_PPV_ARGS(&pfde));
         if (SUCCEEDED(hr))
         {
             // Hook up the event handler.
             DWORD dwCookie;
-            hr = pfd->Advise(pfde, &amp;dwCookie);
+            hr = pfd->Advise(pfde, &dwCookie);
 ```
 
 
@@ -403,12 +403,12 @@ The calling process can use the window handle of the dialog itself as the parent
 HRESULT CDialogEventHandler::OnFileOk(IFileDialog *pfd) 
 { 
     IShellItem *psiResult;
-    HRESULT hr = pfd->GetResult(&amp;psiResult);
+    HRESULT hr = pfd->GetResult(&psiResult);
     
     if (SUCCEEDED(hr))
     {
         SFGAOF attributes;
-        hr = psiResult->GetAttributes(SFGAO_COMPRESSED, &amp;attributes);
+        hr = psiResult->GetAttributes(SFGAO_COMPRESSED, &attributes);
     
         if (SUCCEEDED(hr))
         {
@@ -433,12 +433,12 @@ HRESULT CDialogEventHandler::OnFileOk(IFileDialog *pfd)
 HRESULT CDialogEventHandler::_DisplayMessage(IFileDialog *pfd, PCWSTR pszMessage)
 {
     IOleWindow *pWindow;
-    HRESULT hr = pfd->QueryInterface(IID_PPV_ARGS(&amp;pWindow));
+    HRESULT hr = pfd->QueryInterface(IID_PPV_ARGS(&pWindow));
     
     if (SUCCEEDED(hr))
     {
         HWND hwndDialog;
-        hr = pWindow->GetWindow(&amp;hwndDialog);
+        hr = pWindow->GetWindow(&hwndDialog);
     
         if (SUCCEEDED(hr))
         {
@@ -496,22 +496,22 @@ HRESULT AddCustomControls()
     HRESULT hr = CoCreateInstance(CLSID_FileOpenDialog, 
                                   NULL, 
                                   CLSCTX_INPROC_SERVER, 
-                                  IID_PPV_ARGS(&amp;pfd));
+                                  IID_PPV_ARGS(&pfd));
     if (SUCCEEDED(hr))
     {
         // Create an event handling object, and hook it up to the dialog.
         IFileDialogEvents   *pfde       = NULL;
         DWORD               dwCookie    = 0;
-        hr = CDialogEventHandler_CreateInstance(IID_PPV_ARGS(&amp;pfde));
+        hr = CDialogEventHandler_CreateInstance(IID_PPV_ARGS(&pfde));
         if (SUCCEEDED(hr))
         {
             // Hook up the event handler.
-            hr = pfd-&gt;Advise(pfde, &amp;dwCookie);
+            hr = pfd-&gt;Advise(pfde, &dwCookie);
             if (SUCCEEDED(hr))
             {
                 // Set up a Customization.
                 IFileDialogCustomize *pfdc = NULL;
-                hr = pfd-&gt;QueryInterface(IID_PPV_ARGS(&amp;pfdc));
+                hr = pfd-&gt;QueryInterface(IID_PPV_ARGS(&pfdc));
                 if (SUCCEEDED(hr))
                 {
                     // Create a Visual Group.
@@ -616,34 +616,34 @@ Similarly, choices can be added to the **Open** or **Save** buttons, which are t
     HRESULT hr = CoCreateInstance(CLSID_FileOpenDialog, 
                       NULL, 
                       CLSCTX_INPROC_SERVER, 
-                      IID_PPV_ARGS(&amp;pfd));
+                      IID_PPV_ARGS(&pfd));
     if (SUCCEEDED(hr))
     {
         // Create an event handling object, and hook it up to the dialog.
         IFileDialogEvents   *pfde       = NULL;
         DWORD               dwCookie    = 0;
-        hr = CDialogEventHandler_CreateInstance(IID_PPV_ARGS(&amp;pfde));
+        hr = CDialogEventHandler_CreateInstance(IID_PPV_ARGS(&pfde));
         if (SUCCEEDED(hr))
         {
             // Hook up the event handler.
-            hr = pfd-&gt;Advise(pfde, &amp;dwCookie);
+            hr = pfd-&gt;Advise(pfde, &dwCookie);
             if (SUCCEEDED(hr))
             {
                 // Set up a Customization.
                 IFileDialogCustomize *pfdc = NULL;
-                hr = pfd-&gt;QueryInterface(IID_PPV_ARGS(&amp;pfdc));
+                hr = pfd-&gt;QueryInterface(IID_PPV_ARGS(&pfdc));
                 if (SUCCEEDED(hr))
                 {
                     hr = pfdc-&gt;EnableOpenDropDown(OPENCHOICES);
                     if (SUCCEEDED(hr))
                     {
-                        hr = pfdc-&gt;AddControlItem(OPENCHOICES, OPEN, L&quot;&amp;Open&quot;);
+                        hr = pfdc-&gt;AddControlItem(OPENCHOICES, OPEN, L&quot;&Open&quot;);
                     }                    
                     if (SUCCEEDED(hr))
                     {
                         hr = pfdc-&gt;AddControlItem(OPENCHOICES, 
                                                 OPEN_AS_READONLY, 
-                                                L&quot;Open as &amp;read-only&quot;);
+                                                L&quot;Open as &read-only&quot;);
                     }
                     if (SUCCEEDED(hr))
                     {

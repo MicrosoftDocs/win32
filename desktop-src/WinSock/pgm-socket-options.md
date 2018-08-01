@@ -50,7 +50,7 @@ ULONG       OptionData;    // This structure is option-dependent
 setsockopt (s,
             IPPROTO_RM,
             Socket_Option,
-            (char *) &amp;OptionData,
+            (char *) &OptionData,
             sizeof (OptionData));
 
 

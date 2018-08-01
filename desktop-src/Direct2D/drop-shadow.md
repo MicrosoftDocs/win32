@@ -43,18 +43,18 @@ The example here shows the output of the shadow effect translated down and right
 
 ```C++
 ComPtr<ID2D1Effect> shadowEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Shadow, &amp;shadowEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Shadow, &shadowEffect);
 
 shadowEffect->SetInput(0, bitmap);
 
 // Shadow is composited on top of a white surface to show opacity.
 ComPtr<ID2D1Effect> floodEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Flood, &amp;floodEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Flood, &floodEffect);
 
 floodEffect->SetValue(D2D1_FLOOD_PROP_COLOR, D2D1::Vector4F(1.0f, 1.0f, 1.0f, 1.0f));
 
 ComPtr<ID2D1Effect> affineTransformEffect;
-m_d2dContext->CreateEffect(CLSID_D2D12DAffineTransform, &amp;affineTransformEffect);
+m_d2dContext->CreateEffect(CLSID_D2D12DAffineTransform, &affineTransformEffect);
 
 affineTransformEffect->SetInputEffect(0, shadowEffect.Get());
 
@@ -63,7 +63,7 @@ D2D1_MATRIX_3X2_F matrix = D2D1::Matrix3x2F::Translation(20, 20));
 affineTransformEffect->SetValue(D2D1_2DAFFINETRANSFORM_PROP_TRANSFORM_MATRIX, matrix);
 
 ComPtr<ID2D1Effect> compositeEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Composite, &amp;compositeEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Composite, &compositeEffect);
 
 compositeEffect->SetInputEffect(0, floodEffect.Get());
 compositeEffect->SetInputEffect(1, affineTransformEffect.Get());

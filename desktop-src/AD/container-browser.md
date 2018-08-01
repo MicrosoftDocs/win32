@@ -134,14 +134,14 @@ int CALLBACK BrowseCallback(HWND hWnd,
                 IADs    *pads;
 
                 hr = ADsGetObject(pItem->pszADsPath , 
-                    IID_IADs, (LPVOID*)&amp;pads);
+                    IID_IADs, (LPVOID*)&pads);
                 if(SUCCEEDED(hr))
                 {
                     VARIANT var;
 
-                    VariantInit(&amp;var);
+                    VariantInit(&var);
                     hr = pads->Get(CComBSTR("distinguishedName"), 
-                        &amp;var);
+                        &var);
                     if(SUCCEEDED(hr))
                     {
                         if(VT_BSTR == var.vt)
@@ -153,7 +153,7 @@ int CALLBACK BrowseCallback(HWND hWnd,
                             fReturn = TRUE;
                         }
                         
-                        VariantClear(&amp;var);
+                        VariantClear(&var);
                     }
                     
                     pads->Release();
@@ -188,7 +188,7 @@ HRESULT BrowseForContainer(HWND hwndParent,
         return E_INVALIDARG;
     }
  
-    ZeroMemory(&amp;dsbi, sizeof(dsbi));
+    ZeroMemory(&dsbi, sizeof(dsbi));
     dsbi.hwndOwner = hwndParent;
     dsbi.cbStruct = sizeof (DSBROWSEINFO);
     dsbi.pszCaption = TEXT("Browse for a Container");
@@ -205,7 +205,7 @@ HRESULT BrowseForContainer(HWND hwndParent,
  
     // Display the browse dialog box.
     // Returns -1, 0, IDOK, or IDCANCEL.
-    result = DsBrowseForContainer(&amp;dsbi); 
+    result = DsBrowseForContainer(&dsbi); 
     if(IDOK == result)
     {
         // Allocate memory for the string.

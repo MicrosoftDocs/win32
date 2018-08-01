@@ -36,9 +36,9 @@ VerifyAllDigitalSignaturesAndAuthenticateCertificates(
     IXpsSignatureCollection       *signaturesInDocument           = NULL;
     UINT32                        numberOfSignaturesInDocument    = NULL;
 
-    hr = signatureManager->GetSignatures(&amp;signaturesInDocument);
+    hr = signatureManager->GetSignatures(&signaturesInDocument);
     if (SUCCEEDED(hr)) {
-        hr = signaturesInDocument->GetCount(&amp;numberOfSignaturesInDocument);
+        hr = signaturesInDocument->GetCount(&numberOfSignaturesInDocument);
     }
 
     if (SUCCEEDED(hr)) {
@@ -48,7 +48,7 @@ VerifyAllDigitalSignaturesAndAuthenticateCertificates(
         {
             // Get the signature in the current index of the 
             //  IXpsSignatureCollection object
-            hr = signaturesInDocument->GetAt(index, &amp;signature);
+            hr = signaturesInDocument->GetAt(index, &signature);
 
             if (SUCCEEDED(hr)) {
                 PCCERT_CONTEXT       signingCertificate = NULL;
@@ -59,8 +59,8 @@ VerifyAllDigitalSignaturesAndAuthenticateCertificates(
                 //  its signing certificate
                 hr = VerifySignatureAndCertificates (
                         signature,
-                        &amp;signingCertificate,
-                        &amp;signatureStatus);
+                        &signingCertificate,
+                        &signatureStatus);
                 if (FAILED(hr)) {
                     // If a FACILITY_SECURITY error code is returned then 
                     //  the current certificate was not the 
@@ -124,12 +124,12 @@ HRESULT VerifySignatureAndCertificates (
 
     // Create a certificate enumerator to store the certificates 
     //  that are associated with the current signature.
-    hr = signature->GetCertificateEnumerator(&amp;certificatesInSignature);
+    hr = signature->GetCertificateEnumerator(&certificatesInSignature);
 
     if (SUCCEEDED(hr))
     {
     // We need to call the MoveNext method to initialize the enumerator.
-        hr = certificatesInSignature->MoveNext(&amp;moreCertificates);
+        hr = certificatesInSignature->MoveNext(&moreCertificates);
     }
     if (SUCCEEDED(hr))
     {
@@ -140,7 +140,7 @@ HRESULT VerifySignatureAndCertificates (
         while (moreCertificates)
         {
             PCCERT_CONTEXT certificate  = NULL;
-            hr = certificatesInSignature->GetCurrent(&amp;certificate);
+            hr = certificatesInSignature->GetCurrent(&certificate);
             if (SUCCEEDED(hr))
             {
                 // got the next certificate so
@@ -162,7 +162,7 @@ HRESULT VerifySignatureAndCertificates (
             }
 
             // move to next certificate in set
-            if (FAILED(hr = certificatesInSignature->MoveNext(&amp;moreCertificates)))
+            if (FAILED(hr = certificatesInSignature->MoveNext(&moreCertificates)))
             {
                 // ERROR: could not move to the next certificate in the enumerator
                 break; // out of while loop
@@ -184,11 +184,11 @@ To verify the digital signature and the certificate used to sign the document, p
 
 ```C++
     // Reset the enumerator
-    hr = signature->GetCertificateEnumerator(&amp;certificatesInSignature);
+    hr = signature->GetCertificateEnumerator(&certificatesInSignature);
     if (SUCCEEDED (hr))
     {
         moreCertificates = FALSE;
-        hr = certificatesInSignature->MoveNext(&amp;moreCertificates);
+        hr = certificatesInSignature->MoveNext(&moreCertificates);
     }
     if (SUCCEEDED(hr))
     {
@@ -211,12 +211,12 @@ To verify the digital signature and the certificate used to sign the document, p
             PCCERT_CONTEXT certificate = NULL;
             DWORD certificateStatus = NULL;
 
-            if (FAILED(hr = certificatesInSignature->GetCurrent(&amp;certificate)))
+            if (FAILED(hr = certificatesInSignature->GetCurrent(&certificate)))
             {
                 // We will skip corrupted certificates
                 // free this one and move to the next
                 CertFreeCertificateContext (certificate);
-                hr = certificatesInSignature->MoveNext(&amp;moreCertificates);
+                hr = certificatesInSignature->MoveNext(&moreCertificates);
                 if (FAILED(hr))
                 {
                     // ERROR: could not move to the next 
@@ -228,7 +228,7 @@ To verify the digital signature and the certificate used to sign the document, p
             }
             
             // Verify that the signature conforms to the XPS signing policy.
-            hr = signature->Verify(certificate, &amp;localSignatureStatus);
+            hr = signature->Verify(certificate, &localSignatureStatus);
             if (FAILED(hr))
             {
                 // If a FACILITY_SECURITY error code is returned, then the
@@ -238,7 +238,7 @@ To verify the digital signature and the certificate used to sign the document, p
                 {
                     // free this one and move to the next
                     CertFreeCertificateContext (certificate);
-                    hr = certificatesInSignature->MoveNext(&amp;moreCertificates);
+                    hr = certificatesInSignature->MoveNext(&moreCertificates);
                     if (FAILED(hr))
                     {
                         // ERROR: could not move to the next certificate 
@@ -330,8 +330,8 @@ The next code example does not test for every possible certificate trust status.
                 //  authenticate the supplied certificate.
                 hr = GetCertificateTrustStatus (
                     *signingCertificate, 
-                    &amp;signatureCertificateStore,
-                    &amp;certificateStatus);
+                    &signatureCertificateStore,
+                    &certificateStatus);
                 if (FAILED(hr))
                 {
                     // ERROR: An attempt to authenticate the certificate 
@@ -420,14 +420,14 @@ The next code example does not test for every possible certificate trust status.
                 }
             }//End if
 
-            hr = certificatesInSignature->MoveNext(&amp;moreCertificates);
+            hr = certificatesInSignature->MoveNext(&moreCertificates);
             if (FAILED(hr))
             {
                 // ERROR: could not move to the next 
                 //  certificate in the enumerator
                 break; // out of do loop with failed hr
             }
-        } while((*signatureStatus != XPS_SIGNATURE_STATUS_VALID) &amp;&amp; 
+        } while((*signatureStatus != XPS_SIGNATURE_STATUS_VALID) && 
                     moreCertificates);
     } // end if successful
 
@@ -458,7 +458,7 @@ HRESULT GetCertificateTrustStatus(
     hr = CreateCertificateChain(
         certificate, 
         *certificateStore, 
-        &amp;certificateChain);
+        &certificateChain);
 
     if (SUCCEEDED(hr)) { 
         *certificateStatus = 
@@ -500,7 +500,7 @@ CreateCertificateChain (
         certificate,
         NULL,
         certificateStore,
-        &amp;certificateChainParameters,
+        &certificateChainParameters,
         CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT,
         NULL,
         certificateChain);

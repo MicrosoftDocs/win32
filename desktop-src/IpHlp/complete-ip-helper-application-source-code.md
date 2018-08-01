@@ -90,7 +90,7 @@ int main()
     }
     ulOutBufLen = sizeof (FIXED_INFO);
 
-    if (GetNetworkParams(pFixedInfo, &amp;ulOutBufLen) == ERROR_BUFFER_OVERFLOW) {
+    if (GetNetworkParams(pFixedInfo, &ulOutBufLen) == ERROR_BUFFER_OVERFLOW) {
         FREE(pFixedInfo);
         pFixedInfo = (FIXED_INFO *) MALLOC(ulOutBufLen);
         if (pFixedInfo == NULL) {
@@ -99,7 +99,7 @@ int main()
         }
     }
 
-    if (dwRetVal = GetNetworkParams(pFixedInfo, &amp;ulOutBufLen) != NO_ERROR) {
+    if (dwRetVal = GetNetworkParams(pFixedInfo, &ulOutBufLen) != NO_ERROR) {
         printf("GetNetworkParams failed with error %d\n", dwRetVal);
         if (pFixedInfo)
             FREE(pFixedInfo);
@@ -169,7 +169,7 @@ int main()
     }
     ulOutBufLen = sizeof (IP_ADAPTER_INFO);
 
-    if (GetAdaptersInfo(pAdapterInfo, &amp;ulOutBufLen) == ERROR_BUFFER_OVERFLOW) {
+    if (GetAdaptersInfo(pAdapterInfo, &ulOutBufLen) == ERROR_BUFFER_OVERFLOW) {
         FREE(pAdapterInfo);
         pAdapterInfo = (IP_ADAPTER_INFO *) MALLOC(ulOutBufLen);
         if (pAdapterInfo == NULL) {
@@ -178,7 +178,7 @@ int main()
         }
     }
 
-    if ((dwRetVal = GetAdaptersInfo(pAdapterInfo, &amp;ulOutBufLen)) != NO_ERROR) {
+    if ((dwRetVal = GetAdaptersInfo(pAdapterInfo, &ulOutBufLen)) != NO_ERROR) {
         printf("GetAdaptersInfo failed with error %d\n", dwRetVal);
         if (pAdapterInfo)
             FREE(pAdapterInfo);
@@ -210,13 +210,13 @@ int main()
 
             printf("\tLease Obtained: ");
             /* Display local time */
-            error = _localtime32_s(&amp;newtime, (__time32_t*) &amp;pAdapter->LeaseObtained);
+            error = _localtime32_s(&newtime, (__time32_t*) &pAdapter->LeaseObtained);
             if (error)
                 printf("\tInvalid Argument to _localtime32_s\n");
 
             else {
                 // Convert to an ASCII representation 
-                error = asctime_s(buffer, 32, &amp;newtime);
+                error = asctime_s(buffer, 32, &newtime);
                 if (error)
                     printf("Invalid Argument to asctime_s\n");
                 else
@@ -225,12 +225,12 @@ int main()
             }
 
             printf("\tLease Expires:  ");
-            error = _localtime32_s(&amp;newtime, (__time32_t*) &amp;pAdapter->LeaseExpires);
+            error = _localtime32_s(&newtime, (__time32_t*) &pAdapter->LeaseExpires);
             if (error)
                 printf("Invalid Argument to _localtime32_s\n");
             else {
                 // Convert to an ASCII representation 
-                error = asctime_s(buffer, 32, &amp;newtime);
+                error = asctime_s(buffer, 32, &newtime);
                 if (error)
                     printf("Invalid Argument to asctime_s\n");
                 else
@@ -263,7 +263,7 @@ int main()
         return 1;
     }
     ulOutBufLen = sizeof (IP_INTERFACE_INFO);
-    if (GetInterfaceInfo(pInterfaceInfo, &amp;ulOutBufLen) ==
+    if (GetInterfaceInfo(pInterfaceInfo, &ulOutBufLen) ==
         ERROR_INSUFFICIENT_BUFFER) {
         FREE(pInterfaceInfo);
         pInterfaceInfo = (IP_INTERFACE_INFO *) MALLOC(ulOutBufLen);
@@ -275,7 +275,7 @@ int main()
                ulOutBufLen);
     }
 
-    if ((dwRetVal = GetInterfaceInfo(pInterfaceInfo, &amp;ulOutBufLen)) == NO_ERROR) {
+    if ((dwRetVal = GetInterfaceInfo(pInterfaceInfo, &ulOutBufLen)) == NO_ERROR) {
         printf("\tNum Adapters: %ld\n\n", pInterfaceInfo->NumAdapters);
         for (i = 0; i < (unsigned int) pInterfaceInfo->NumAdapters; i++) {
             printf("\tAdapter Index[%d]: %ld\n", i,
@@ -296,14 +296,14 @@ int main()
 
     /* If DHCP enabled, release and renew the IP address */
     /* THIS WORKS BUT IT TAKES A LONG TIME AND INTERRUPTS NET CONNECTIONS */
-    if (pAdapterInfo->DhcpEnabled &amp;&amp; pInterfaceInfo->NumAdapters) {
+    if (pAdapterInfo->DhcpEnabled && pInterfaceInfo->NumAdapters) {
         printf("Calling IpReleaseAddress for Adapter[%d]\n", 0);
         if ((dwRetVal =
-             IpReleaseAddress(&amp;pInterfaceInfo->Adapter[0])) == NO_ERROR) {
+             IpReleaseAddress(&pInterfaceInfo->Adapter[0])) == NO_ERROR) {
             printf("Ip Release succeeded.\n");
         }
         if ((dwRetVal =
-             IpRenewAddress(&amp;pInterfaceInfo->Adapter[0])) == NO_ERROR) {
+             IpRenewAddress(&pInterfaceInfo->Adapter[0])) == NO_ERROR) {
             printf("Ip Renew succeeded.\n");
         }
     }
@@ -331,7 +331,7 @@ int main()
     IPAddr.S_un.S_addr = ntohl(pIPAddrTable->table[1].dwAddr);
     strIPAddr = inet_ntoa(IPAddr);
 
-    if (GetIpAddrTable(pIPAddrTable, &amp;dwSize, 0) == ERROR_INSUFFICIENT_BUFFER) {
+    if (GetIpAddrTable(pIPAddrTable, &dwSize, 0) == ERROR_INSUFFICIENT_BUFFER) {
         FREE(pIPAddrTable);
         pIPAddrTable = (MIB_IPADDRTABLE *) MALLOC(dwSize);
         if (pIPAddrTable == NULL) {
@@ -340,7 +340,7 @@ int main()
         }
     }
 
-    if ((dwRetVal = GetIpAddrTable(pIPAddrTable, &amp;dwSize, 0)) != NO_ERROR) {
+    if ((dwRetVal = GetIpAddrTable(pIPAddrTable, &dwSize, 0)) != NO_ERROR) {
         printf("GetIpAddrTable failed with error %d\n", dwRetVal);
         if (pIPAddrTable)
             FREE(pIPAddrTable);
@@ -386,7 +386,7 @@ int main()
                                  imIPMask,
                                  pIPAddrTable->table[0].
                                  dwIndex,
-                                 &amp;NTEContext, &amp;NTEInstance)) != NO_ERROR) {
+                                 &NTEContext, &NTEInstance)) != NO_ERROR) {
 
         LPVOID lpMsgBuf;
         printf("\tError adding IP address.\n");

@@ -29,7 +29,7 @@ The following query string searches for category 1 attributes (**attributeSchema
 
 
 ```C++
-(&amp;(objectCategory=attributeSchema)(systemFlags:1.2.840.113556.1.4.803:=16) )
+(&(objectCategory=attributeSchema)(systemFlags:1.2.840.113556.1.4.803:=16) )
 ```
 
 
@@ -42,7 +42,7 @@ The following query string searches for category 2 attributes (**attributeSchema
 
 
 ```C++
-(&amp;(objectCategory=attributeSchema)(!(systemFlags:1.2.840.113556.1.4.803:=16)))
+(&(objectCategory=attributeSchema)(!(systemFlags:1.2.840.113556.1.4.803:=16)))
 ```
 
 

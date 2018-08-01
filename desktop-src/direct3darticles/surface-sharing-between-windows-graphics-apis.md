@@ -73,14 +73,14 @@ HRESULT hr = D3D10CreateDeviceandSwapChain1(
                 featureLevel,
                 D3D10_1_SDK_VERSION,
                 pSwapChainDesc,
-                &amp;pSwapChain,
-                &amp;pDevice
+                &pSwapChain,
+                &pDevice
                 );
 
 hr = pSwapChain->GetBuffer(
         0,
         __uuidof(IDXGISurface),
-        (void **)&amp;pDXGIBackBuffer
+        (void **)&pDXGIBackBuffer
         ));
 
 // Direct3D 10.1 API rendering calls
@@ -88,13 +88,13 @@ hr = pSwapChain->GetBuffer(
 
 hr = D2D1CreateFactory(
         D2D1_FACTORY_TYPE_SINGLE_THREADED,
-        &amp;m_spD2DFactory
+        &m_spD2DFactory
         ));
 
 pD2DFactory->CreateDxgiSurfaceRenderTarget(
         pDXGIBackBuffer,
-        &amp;renderTargetProperties,
-        &amp;pD2DBackBufferRenderTarget
+        &renderTargetProperties,
+        &pD2DBackBufferRenderTarget
         ));
 ...
 
@@ -175,7 +175,7 @@ The example below illustrates sharing a surface between two Direct3D 10.1 device
 ```C++
 // Create Sync Shared Surface using Direct3D10.1 Device 1.
 D3D10_TEXTURE2D_DESC desc;
-ZeroMemory( &amp;desc, sizeof(desc) );
+ZeroMemory( &desc, sizeof(desc) );
 desc.Width = width;
 desc.Height = height;
 desc.MipLevels = 1;
@@ -188,21 +188,21 @@ desc.Usage = D3D10_USAGE_DEFAULT;
 desc.MiscFlags = D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX;
 desc.BindFlags = D3D10_BIND_RENDER_TARGET | D3D10_BIND_SHADER_RESOURCE;
 ID3D10Texture2D* g_pShared = NULL;
-g_pd3dDevice1->CreateTexture2D( &amp;desc, NULL, &amp;g_pShared );
+g_pd3dDevice1->CreateTexture2D( &desc, NULL, &g_pShared );
 
 // QI IDXGIResource interface to synchronized shared surface.
 IDXGIResource* pDXGIResource = NULL;
-g_pShared->QueryInterface(__uuidof(IDXGIResource), (LPVOID*) &amp;pDXGIResource);
+g_pShared->QueryInterface(__uuidof(IDXGIResource), (LPVOID*) &pDXGIResource);
 
 // obtain handle to IDXGIResource object.
-pDXGIResource->GetSharedHandle(&amp;g_hsharedHandle);
+pDXGIResource->GetSharedHandle(&g_hsharedHandle);
 pDXGIResource->Release();
 if ( !g_hsharedHandle )
     return E_FAIL;
 
 // QI IDXGIKeyedMutex interface of synchronized shared surface's resource handle.
 hr = g_pShared->QueryInterface( __uuidof(IDXGIKeyedMutex),
-    (LPVOID*)&amp;g_pDXGIKeyedMutex_dev1 );
+    (LPVOID*)&g_pDXGIKeyedMutex_dev1 );
 If ( FAILED( hr ) || ( g_pDXGIKeyedMutex_dev1 == NULL ) )
     return E_FAIL;
 ```
@@ -215,11 +215,11 @@ The same Direct3D10.1 device can obtain the synchronized shared surface for rend
 ```C++
 // Obtain handle to Sync Shared Surface created by Direct3D10.1 Device 1.
 hr = g_pd3dDevice2->OpenSharedResource( g_hsharedHandle,__uuidof(ID3D10Texture2D),
-                                        (LPVOID*) &amp;g_pdev2Shared);
+                                        (LPVOID*) &g_pdev2Shared);
 if (FAILED (hr))
     return hr;
 hr = g_pdev2Shared->QueryInterface( __uuidof(IDXGIKeyedMutex),
-                                    (LPVOID*) &amp;g_pDXGIKeyedMutex_dev2);
+                                    (LPVOID*) &g_pDXGIKeyedMutex_dev2);
 if( FAILED( hr ) || ( g_pDXGIKeyedMutex_dev2 == NULL ) )
     return E_FAIL;
 
@@ -653,7 +653,7 @@ The Root queue is initially full and all cloned queues are initially empty. This
     Desc.MetaDataSize = sizeof(UINT);
     Desc.Flags        = 0;
 
-    CreateSurfaceQueue(&amp;Desc, m_pD3D9Device, &amp;m_11to9Queue);
+    CreateSurfaceQueue(&Desc, m_pD3D9Device, &m_11to9Queue);
     ```
 
     
@@ -665,7 +665,7 @@ The Root queue is initially full and all cloned queues are initially empty. This
     Desc.MetaDataSize = 0;
     Desc.Flags        = 0;
 
-    m_11to9Queue->Clone(&amp;Desc, &amp;m_9to11Queue);
+    m_11to9Queue->Clone(&Desc, &m_9to11Queue);
     ```
 
     
@@ -674,12 +674,12 @@ The Root queue is initially full and all cloned queues are initially empty. This
     The application must perform this step before calling Enqueue and Dequeue. Opening a producer and consumer returns interfaces which contain the enqueue/dequeue APIs.  
     ```C++
     // Open for m_p9to11Queue.
-    m_p9to11Queue->OpenProducer(m_pD3D9Device, &amp;m_pD3D9Producer);
-    m_p9to11Queue->OpenConsumer(m_pD3D11Device, &amp;m_pD3D11Consumer);
+    m_p9to11Queue->OpenProducer(m_pD3D9Device, &m_pD3D9Producer);
+    m_p9to11Queue->OpenConsumer(m_pD3D11Device, &m_pD3D11Consumer);
 
     // Open for m_p11to9Queue.
-    m_p11to9Queue->OpenProducer(m_pD3D11Device, &amp;m_pD3D11Producer);
-    m_p11to9Queue->OpenConsumer(m_pD3D9Device, &amp;m_pD3D9Consumer);
+    m_p11to9Queue->OpenProducer(m_pD3D11Device, &m_pD3D11Producer);
+    m_p11to9Queue->OpenConsumer(m_pD3D9Device, &m_pD3D9Consumer);
     ```
 
     
@@ -697,8 +697,8 @@ UINT               metaDataSize;
 while (!done)
 {
     // Dequeue surface.
-    m_pD3D9Consumer->Dequeue(surfaceID9, (void**)&amp;pSurface9,
-                             &amp;metaData, &amp;metaDataSize, INFINITE);
+    m_pD3D9Consumer->Dequeue(surfaceID9, (void**)&pSurface9,
+                             &metaData, &metaDataSize, INFINITE);
 
     // Process the surface.
     ProcessD3D9(pSurface9);
@@ -747,7 +747,7 @@ Desc.NumSurfaces  = 2;
 Desc.MetaDataSize = sizeof(UINT);
 Desc.Flags        = SURFACE_QUEUE_FLAG_SINGLE_THREADED;
 
-CreateSurfaceQueue(&amp;Desc, m_pD3D9Device, &amp;m_11to9Queue);
+CreateSurfaceQueue(&Desc, m_pD3D9Device, &m_11to9Queue);
 ```
 
 
@@ -758,7 +758,7 @@ SURFACE_QUEUE_CLONE_DESC Desc;
 Desc.MetaDataSize = 0;
 Desc.Flags        = SURFACE_QUEUE_FLAG_SINGLE_THREADED;
 
-m_11to9Queue->Clone(&amp;Desc, &amp;m_9to11Queue);
+m_11to9Queue->Clone(&Desc, &m_9to11Queue);
 ```
 
 
@@ -781,16 +781,16 @@ while (!done)
 
     // Dequeue surface.
     hr = m_pD3D11Consumer->Dequeue(surfaceID11,
-                                   (void**)&amp;pSurface11,
+                                   (void**)&pSurface11,
                                    NULL, 0, 0);
     // Only continue if we got a surface.
     if (SUCCEEDED(hr))
     {
         // Process the surface and return some meta data.
-        ProcessD3D11(pSurface11, &amp;metaData);
+        ProcessD3D11(pSurface11, &metaData);
 
         // Enqueue surface.
-        m_pD3D11Producer->Enqueue(pSurface11, &amp;metaData,
+        m_pD3D11Producer->Enqueue(pSurface11, &metaData,
                                   sizeof(UINT),
                                   SURFACE_QUEUE_FLAG_DO_NOT_WAIT);
     }
@@ -803,9 +803,9 @@ while (!done)
 
     // Dequeue surface.
     hr = m_pD3D9Consumer->Dequeue(surfaceID9,
-                                  (void**)&amp;pSurface9,
-                                  &amp;metaData,
-                                  &amp;metaDataSize, 0);
+                                  (void**)&pSurface9,
+                                  &metaData,
+                                  &metaDataSize, 0);
     // Only continue if we got a surface.
     if (SUCCEEDED(hr)))
     {
@@ -848,9 +848,9 @@ SURFACE_QUEUE_CLONE_DESC Desc;
 Desc.MetaDataSize = 0;
 Desc.Flags        = 0;
 
-CreateSurfaceQueue(&amp;Desc, m_pD3D9Device, &amp;m_11to9Queue);
-m_11to9Queue->Clone(&amp;Desc, &amp;m_9to10Queue);
-m_11to9Queue->Clone(&amp;Desc, &amp;m_10to11Queue);
+CreateSurfaceQueue(&Desc, m_pD3D9Device, &m_11to9Queue);
+m_11to9Queue->Clone(&Desc, &m_9to10Queue);
+m_11to9Queue->Clone(&Desc, &m_10to11Queue);
 ```
 
 
@@ -860,16 +860,16 @@ As mentioned earlier, cloning works the same way, no matter which queue is clone
 
 ```C++
 // Open for m_p9to10Queue.
-m_p9to10Queue->OpenProducer(m_pD3D9Device, &amp;m_pD3D9Producer);
-m_p9to10Queue->OpenConsumer(m_pD3D10Device, &amp;m_pD3D10Consumer);
+m_p9to10Queue->OpenProducer(m_pD3D9Device, &m_pD3D9Producer);
+m_p9to10Queue->OpenConsumer(m_pD3D10Device, &m_pD3D10Consumer);
 
 // Open for m_p10to11Queue.
-m_p10to11Queue->OpenProducer(m_pD3D10Device, &amp;m_pD3D10Producer);
-m_p10to11Queue->OpenConsumer(m_pD3D11Device, &amp;m_pD3D11Consumer);
+m_p10to11Queue->OpenProducer(m_pD3D10Device, &m_pD3D10Producer);
+m_p10to11Queue->OpenConsumer(m_pD3D11Device, &m_pD3D11Consumer);
 
 // Open for m_p11to9Queue.
-m_p11to9Queue->OpenProducer(m_pD3D11Device, &amp;m_pD3D11Producer);
-m_p11to9Queue->OpenConsumer(m_pD3D9Device, &amp;m_pD3D9Consumer);
+m_p11to9Queue->OpenProducer(m_pD3D11Device, &m_pD3D11Producer);
+m_p11to9Queue->OpenConsumer(m_pD3D9Device, &m_pD3D9Consumer);
 ```
 
 

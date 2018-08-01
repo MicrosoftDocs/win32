@@ -34,7 +34,7 @@ The following example uses the [**mciSendCommand**](https://msdn.microsoft.com/e
 mciSendCommand(wDeviceID,            // device identifier 
     MCI_PLAY,                        // command message 
     0,                               // flags 
-    (DWORD)(LPVOID) &amp;mciPlayParms);  // parameter block 
+    (DWORD)(LPVOID) &mciPlayParms);  // parameter block 
 ```
 
 

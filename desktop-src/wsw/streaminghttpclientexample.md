@@ -55,7 +55,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -63,7 +63,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -100,7 +100,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -110,17 +110,17 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     WS_TRANSFER_MODE transferMode = WS_STREAMED_TRANSFER_MODE;
     WS_CHANNEL_PROPERTY transferModeProperty;
     transferModeProperty.id = WS_CHANNEL_PROPERTY_TRANSFER_MODE;
-    transferModeProperty.value = &amp;transferMode;
+    transferModeProperty.value = &transferMode;
     transferModeProperty.valueSize = sizeof(transferMode);
     
     // Create a HTTP request channel
     hr = WsCreateChannel(
         WS_CHANNEL_TYPE_REQUEST, 
         WS_HTTP_CHANNEL_BINDING, 
-        &amp;transferModeProperty, 
+        &transferModeProperty, 
         1, 
         NULL, 
-        &amp;channel, 
+        &channel, 
         error);
     if (FAILED(hr))
     {
@@ -163,7 +163,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // Open channel to address
     hr = WsOpenChannel(
         channel, 
-        &amp;address, 
+        &address, 
         NULL, 
         error);
     if (FAILED(hr))
@@ -175,7 +175,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         channel,
         NULL, 
         0, 
-        &amp;requestMessage, 
+        &requestMessage, 
         error);
     if (FAILED(hr))
     {
@@ -186,7 +186,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         channel,
         NULL, 
         0, 
-        &amp;replyMessage, 
+        &replyMessage, 
         error);
     if (FAILED(hr))
     {
@@ -199,7 +199,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -237,11 +237,11 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         // Generate a unique message ID that will be used for the request message
         WS_UNIQUE_ID messageID;
         ZeroMemory(
-            &amp;messageID, 
+            &messageID, 
             sizeof(messageID));
         
         DWORD status = UuidCreate(
-            &amp;messageID.guid);
+            &messageID.guid);
         if (status != RPC_S_OK)
         {
             hr = E_FAIL;
@@ -254,7 +254,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
             WS_MESSAGE_ID_HEADER, 
             WS_UNIQUE_ID_TYPE,
             WS_WRITE_REQUIRED_VALUE,
-            &amp;messageID, 
+            &messageID, 
             sizeof(messageID), 
             error);
     if (FAILED(hr))
@@ -284,9 +284,9 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
             // Serialize body data into message
             hr = WsWriteBody(
                 requestMessage, 
-                &amp;PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
+                &PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
                 WS_WRITE_REQUIRED_VALUE,
-                &amp;purchaseOrder, 
+                &purchaseOrder, 
                 sizeof(purchaseOrder),
                 error);
     if (FAILED(hr))
@@ -347,10 +347,10 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
             _OrderConfirmationType* orderConfirmation;
             hr = WsReadBody(
                     replyMessage, 
-                    &amp;PurchaseOrder_wsdl.globalElements.OrderConfirmationType,
+                    &PurchaseOrder_wsdl.globalElements.OrderConfirmationType,
                     WS_READ_OPTIONAL_POINTER, 
                     heap, 
-                    &amp;orderConfirmation, 
+                    &orderConfirmation, 
                     sizeof(orderConfirmation), 
                     error);
     if (FAILED(hr))

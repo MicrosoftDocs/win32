@@ -19,7 +19,7 @@ LPTSTR lpBuffer = NULL;
 CRITICAL_SECTION CriticalSection; 
 
 // EnterCriticalSection synchronizes code with other threads. 
-EnterCriticalSection(&amp;CriticalSection); 
+EnterCriticalSection(&CriticalSection); 
  
 __try 
 { 
@@ -33,7 +33,7 @@ __try
 __finally 
 { 
     // LeaveCriticalSection is called even if an exception occurred. 
-    LeaveCriticalSection(&amp;CriticalSection); 
+    LeaveCriticalSection(&CriticalSection); 
 }
 ```
 

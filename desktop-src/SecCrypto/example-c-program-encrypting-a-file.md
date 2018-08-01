@@ -173,7 +173,7 @@ bool MyEncryptFile(
     //---------------------------------------------------------------
     // Get the handle to the default provider. 
     if(CryptAcquireContext(
-        &amp;hCryptProv, 
+        &hCryptProv, 
         NULL, 
         MS_ENHANCED_PROV, 
         PROV_RSA_FULL, 
@@ -205,7 +205,7 @@ bool MyEncryptFile(
             hCryptProv, 
             ENCRYPT_ALGORITHM, 
             KEYLENGTH | CRYPT_EXPORTABLE, 
-            &amp;hKey))
+            &hKey))
         {
             _tprintf(TEXT("A session key has been created. \n"));
         } 
@@ -222,7 +222,7 @@ bool MyEncryptFile(
         if(CryptGetUserKey(
             hCryptProv, 
             AT_KEYEXCHANGE, 
-            &amp;hXchgKey))
+            &hXchgKey))
         {
             _tprintf(
                 TEXT("The user public key has been retrieved. \n"));
@@ -236,7 +236,7 @@ bool MyEncryptFile(
                     hCryptProv, 
                     AT_KEYEXCHANGE, 
                     CRYPT_EXPORTABLE, 
-                    &amp;hXchgKey))
+                    &hXchgKey))
                 {
                     MyHandleError(
                         TEXT("Could not create "
@@ -263,7 +263,7 @@ bool MyEncryptFile(
             SIMPLEBLOB, 
             0, 
             NULL, 
-            &amp;dwKeyBlobLen))
+            &dwKeyBlobLen))
         {
             _tprintf(
                 TEXT("The key BLOB is %d bytes long. \n"), 
@@ -297,7 +297,7 @@ bool MyEncryptFile(
             SIMPLEBLOB, 
             0, 
             pbKeyBlob, 
-            &amp;dwKeyBlobLen))
+            &dwKeyBlobLen))
         {
             _tprintf(TEXT("The key has been exported. \n"));
         } 
@@ -328,9 +328,9 @@ bool MyEncryptFile(
         // Write the size of the key BLOB to the destination file. 
         if(!WriteFile(
             hDestinationFile, 
-            &amp;dwKeyBlobLen, 
+            &dwKeyBlobLen, 
             sizeof(DWORD),
-            &amp;dwCount,
+            &dwCount,
             NULL))
         { 
             MyHandleError(
@@ -349,7 +349,7 @@ bool MyEncryptFile(
             hDestinationFile, 
             pbKeyBlob, 
             dwKeyBlobLen,
-            &amp;dwCount,
+            &dwCount,
             NULL))
         { 
             MyHandleError(
@@ -384,7 +384,7 @@ bool MyEncryptFile(
             CALG_MD5, 
             0, 
             0, 
-            &amp;hHash))
+            &hHash))
         {
             _tprintf(TEXT("A hash object has been created. \n"));
         }
@@ -422,7 +422,7 @@ bool MyEncryptFile(
             ENCRYPT_ALGORITHM, 
             hHash, 
             KEYLENGTH, 
-            &amp;hKey))
+            &hKey))
         {
             _tprintf(
                 TEXT("An encryption key is derived from the ")
@@ -485,7 +485,7 @@ bool MyEncryptFile(
             hSourceFile, 
             pbBuffer, 
             dwBlockLen, 
-            &amp;dwCount, 
+            &dwCount, 
             NULL))
         {
             MyHandleError(
@@ -507,7 +507,7 @@ bool MyEncryptFile(
             fEOF,
             0, 
             pbBuffer, 
-            &amp;dwCount, 
+            &dwCount, 
             dwBufferLen))
         { 
             MyHandleError(
@@ -522,7 +522,7 @@ bool MyEncryptFile(
             hDestinationFile, 
             pbBuffer, 
             dwCount,
-            &amp;dwCount,
+            &dwCount,
             NULL))
         { 
             MyHandleError(

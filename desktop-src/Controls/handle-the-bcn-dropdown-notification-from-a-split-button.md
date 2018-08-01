@@ -50,7 +50,7 @@ Use the [**ClientToScreen**](https://msdn.microsoft.com/library/windows/desktop/
 POINT pt;
 pt.x = pDropDown->rcButton.left;
 pt.y = pDropDown->rcButton.bottom;
-ClientToScreen(pDropDown->hdr.hwndFrom, &amp;pt);
+ClientToScreen(pDropDown->hdr.hwndFrom, &pt);
 ```
 
 
@@ -96,7 +96,7 @@ case WM_NOTIFY:
                 POINT pt;
                 pt.x = pDropDown->rcButton.left;
                 pt.y = pDropDown->rcButton.bottom;
-                ClientToScreen(pDropDown->hdr.hwndFrom, &amp;pt);
+                ClientToScreen(pDropDown->hdr.hwndFrom, &pt);
         
                 // Create a menu and add items.
                 HMENU hSplitMenu = CreatePopupMenu();

@@ -91,8 +91,8 @@ OnD3D11FrameRender()
     ...
     g_pLightDir->SetRawValue( vLightDir, 0, sizeof(D3DXVECTOR3)*MAX_LIGHTS );
     g_pLightDiffuse->SetFloatVectorArray( (float*)vLightDiffuse, 0, MAX_LIGHTS );
-    g_pmWorldViewProjection->SetMatrix( (float*)&amp;mWorldViewProjection );
-    g_pmWorld->SetMatrix( (float*)&amp;mWorld );
+    g_pmWorldViewProjection->SetMatrix( (float*)&mWorldViewProjection );
+    g_pmWorld->SetMatrix( (float*)&mWorld );
     g_pfTime->SetFloat( (float)fTime );
     g_pnNumLights->SetInt( g_nNumActiveLights );
 }
@@ -115,7 +115,7 @@ if( g_pEffect11 )
     l_pD3D11EffectVariable = g_pEffect11->GetVariableByName( "MeshTextureSampler" )->AsSampler();
     if( l_pD3D11EffectVariable->IsValid() )
         hr = (l_pD3D11EffectVariable->GetBackingStore( 0, 
-            &amp;sampler_desc );
+            &sampler_desc );
 }
 ```
 
@@ -134,9 +134,9 @@ if( g_pEffect11 )
     if( l_pD3D11EffectVariable->IsValid )
     {
         hr = l_pD3D11EffectVariable->GetSampler( 0, 
-            &amp;l_ppSamplerState );
+            &l_ppSamplerState );
         if( l_ppSamplerState )
-            l_ppSamplerState->GetDesc( &amp;sampler_desc );
+            l_ppSamplerState->GetDesc( &sampler_desc );
     }
 }
 ```

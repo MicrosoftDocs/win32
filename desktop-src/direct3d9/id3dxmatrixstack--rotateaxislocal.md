@@ -70,7 +70,7 @@ This method adds the rotation to the matrix stack with the computed rotation mat
 
 ```
 D3DXMATRIX tmp;
-D3DXMatrixRotationAxis( &amp;tmp, pV, angle );
+D3DXMatrixRotationAxis( &tmp, pV, angle );
 m_stack[m_currentPos] = tmp * m_stack[m_currentPos];
 ```
 

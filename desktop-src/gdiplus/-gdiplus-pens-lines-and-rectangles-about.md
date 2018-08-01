@@ -15,7 +15,7 @@ To draw lines with Windows GDI+ you need to create a [**Graphics**](/windows/des
 
 
 ```
-myGraphics.DrawLine(&amp;myPen, 4, 2, 12, 6);
+myGraphics.DrawLine(&myPen, 4, 2, 12, 6);
 ```
 
 
@@ -26,7 +26,7 @@ myGraphics.DrawLine(&amp;myPen, 4, 2, 12, 6);
 ```
 Point myStartPoint(4, 2);
 Point myEndPoint(12, 6);
-myGraphics.DrawLine(&amp;myPen, myStartPoint, myEndPoint);
+myGraphics.DrawLine(&myPen, myStartPoint, myEndPoint);
 ```
 
 
@@ -36,7 +36,7 @@ You can specify certain attributes when you construct a [**Pen**](/windows/deskt
 
 ```
 Pen myPen(Color(255, 0, 0, 255), 2);
-myGraphics.DrawLine(&amp;myPen, 0, 0, 60, 30);
+myGraphics.DrawLine(&myPen, 0, 0, 60, 30);
 ```
 
 
@@ -46,7 +46,7 @@ The [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) object also has
 
 ```
 myPen.SetDashStyle(DashStyleDash);
-myGraphics.DrawLine(&amp;myPen, 100, 50, 300, 80);
+myGraphics.DrawLine(&myPen, 100, 50, 300, 80);
 ```
 
 
@@ -59,7 +59,7 @@ Drawing rectangles with GDI+ is similar to drawing lines. To draw a rectangle, y
 
 
 ```
-myGraphics.DrawRectangle(&amp;myPen, 100, 50, 80, 40);
+myGraphics.DrawRectangle(&myPen, 100, 50, 80, 40);
 ```
 
 
@@ -69,7 +69,7 @@ myGraphics.DrawRectangle(&amp;myPen, 100, 50, 80, 40);
 
 ```
 Rect myRect(100, 50, 80, 40);
-myGraphics.DrawRectangle(&amp;myPen, myRect);
+myGraphics.DrawRectangle(&myPen, myRect);
 ```
 
 

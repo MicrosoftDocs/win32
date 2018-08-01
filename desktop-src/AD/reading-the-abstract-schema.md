@@ -27,7 +27,7 @@ Use the "LDAP://schema" binding string to bind to an [**IADsContainer**](https:/
 IADsContainer *pAbsSchema = NULL;
 hr = ADsGetObject(L"LDAP://schema",
                   IID_IADsContainer,
-                  (void**)&amp;pAbsSchema);
+                  (void**)&pAbsSchema);
 ```
 
 
@@ -49,7 +49,7 @@ Use a similar binding string, "LDAP://schema/&lt;object&gt;", to bind directly t
 IADsClass *pClass;
 hr = ADsGetObject(L"LDAP://schema/user",
                   IID_IADsClass,
-                  (void**)&amp;pClass);
+                  (void**)&pClass);
 ```
 
 

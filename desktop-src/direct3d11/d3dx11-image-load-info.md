@@ -243,7 +243,7 @@ D3DX11_IMAGE_LOAD_INFO LoadInfo;
     LoadInfo.Format = DXGI_FORMAT_R16G16B16A16_FLOAT;
 
     hr = D3DX11CreateShaderResourceViewFromFile( pd3dDevice, strPath, 
-        &amp;LoadInfo, NULL, &amp;pCubeRV, NULL );
+        &LoadInfo, NULL, &pCubeRV, NULL );
 ```
 
 

@@ -30,7 +30,7 @@ The CLSID for this effect is CLSID\_D2D1Sepia.
 
 ```C++
 ComPtr<ID2D1Effect> sepiaEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Sepia, &amp;sepiaEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Sepia, &sepiaEffect);
  
 sepiaEffect->SetInput(0, bitmap);
 sepiaEffect->SetValue(D2D1_SEPIA_PROP_INTENSITY, 0.75f);

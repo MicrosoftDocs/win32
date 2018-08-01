@@ -31,25 +31,25 @@ The **OleCreatePropertyFrame** function provides a simple way to display the pro
 IBaseFilter *pFilter;
 /* Obtain the filter's IBaseFilter interface. (Not shown) */
 ISpecifyPropertyPages *pProp;
-HRESULT hr = pFilter->QueryInterface(IID_ISpecifyPropertyPages, (void **)&amp;pProp);
+HRESULT hr = pFilter->QueryInterface(IID_ISpecifyPropertyPages, (void **)&pProp);
 if (SUCCEEDED(hr)) 
 {
     // Get the filter's name and IUnknown pointer.
     FILTER_INFO FilterInfo;
-    hr = pFilter->QueryFilterInfo(&amp;FilterInfo); 
+    hr = pFilter->QueryFilterInfo(&FilterInfo); 
     IUnknown *pFilterUnk;
-    pFilter->QueryInterface(IID_IUnknown, (void **)&amp;pFilterUnk);
+    pFilter->QueryInterface(IID_IUnknown, (void **)&pFilterUnk);
 
     // Show the page. 
     CAUUID caGUID;
-    pProp->GetPages(&amp;caGUID);
+    pProp->GetPages(&caGUID);
     pProp->Release();
     OleCreatePropertyFrame(
         hWnd,                   // Parent window
         0, 0,                   // Reserved
         FilterInfo.achName,     // Caption for the dialog box
         1,                      // Number of objects (just the filter)
-        &amp;pFilterUnk,            // Array of object pointers. 
+        &pFilterUnk,            // Array of object pointers. 
         caGUID.cElems,          // Number of property pages
         caGUID.pElems,          // Array of property page CLSIDs
         0,                      // Locale identifier

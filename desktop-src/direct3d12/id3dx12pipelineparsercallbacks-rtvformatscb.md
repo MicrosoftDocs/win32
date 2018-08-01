@@ -30,7 +30,7 @@ Calls the render target format array subobject callback of an object that implem
 
 ```C++
 void RTVFormatsCb(
-  [ref] const D3D12_RT_FORMAT_ARRAY &amp;RTVFormats
+  [ref] const D3D12_RT_FORMAT_ARRAY &RTVFormats
 );
 ```
 

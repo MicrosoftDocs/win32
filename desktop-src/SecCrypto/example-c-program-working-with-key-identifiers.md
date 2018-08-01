@@ -100,7 +100,7 @@ if(CryptCreateKeyIdentifierFromCSP(
    0,                 // dwFlags
    NULL,              // pvReserved
    pbHash,            // pbHash
-   &amp;cbHash            // pcbHash
+   &cbHash            // pcbHash
    ))
 {
    printf("Call to CryptCreateKeyIdentifierFromCSP succeeded.\n");
@@ -133,7 +133,7 @@ pData->dwKeySpec= AT_SIGNATURE;
 // Set a property on the created key identifier.
 
 if(CryptSetKeyIdentifierProperty(
-  &amp;KeyIdentifier,             // in- defined above
+  &KeyIdentifier,             // in- defined above
   CERT_KEY_PROV_INFO_PROP_ID, // in- dwPropId
   CRYPT_KEYID_MACHINE_FLAG,   // in- dwFlags- use local computer
   NULL,                       // in- pwszComputerName
@@ -154,13 +154,13 @@ else
 // of the property to be retrieved.
 
 if(CryptGetKeyIdentifierProperty(
-   &amp;KeyIdentifier,             // in- defined above
+   &KeyIdentifier,             // in- defined above
    CERT_KEY_PROV_INFO_PROP_ID, // in- dwPropId
    CRYPT_KEYID_MACHINE_FLAG,   // in- dwFlags
    NULL,                       // in, optional- pwszComputerName
    NULL,                       // in, optional- pvReserved
    NULL,                       // out- pvData
-   &amp;cbData                     // in, out- pcbData
+   &cbData                     // in, out- pcbData
    ))
 {
    printf("First call to get property succeeded.\n");
@@ -185,13 +185,13 @@ if(!(pData= (CRYPT_KEY_PROV_INFO*) malloc (cbData)))
 // To retrieve the property into the allocated buffer.
 
 if(CryptGetKeyIdentifierProperty(
-   &amp;KeyIdentifier,             // pKeyIdentifier
+   &KeyIdentifier,             // pKeyIdentifier
    CERT_KEY_PROV_INFO_PROP_ID, // dwPropId
    CRYPT_KEYID_MACHINE_FLAG,   // dwFlags
    NULL,                       // pwszComputerName
    NULL,                       // Reserved
    pData,                      // pData
-   &amp;cbData                     // pcbData
+   &cbData                     // pcbData
    ))
 {
    printf("The property has been retrieved.\n");
@@ -220,7 +220,7 @@ pvArg= pPubKeyStruc;
 
 printf("\nCalling CryptEnumKeyIdentifierProperties.\n");
 if(CryptEnumKeyIdentifierProperties(
-   &amp;KeyIdentifier,           // in- pKeyIdentifier-
+   &KeyIdentifier,           // in- pKeyIdentifier-
    0,                        // in- dwPropId
    CRYPT_KEYID_MACHINE_FLAG, // in- dwFlags, use LocalMachine.
    NULL,                     // in, optional- pwszComputerName set

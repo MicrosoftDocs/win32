@@ -29,7 +29,7 @@ HRESULT CGuiPaper::InkStart(
   {
     HRESULT hr = E_FAIL;
 
-    if (m_nLockKey || (!m_nLockKey &amp;&amp; !m_bInkSaving))
+    if (m_nLockKey || (!m_nLockKey && !m_bInkSaving))
     {
       // Start an ink drawing sequence only if one is not in progress.
       if (!m_bInking)
@@ -50,7 +50,7 @@ HRESULT CGuiPaper::InkStart(
 
         // Ask the Paper object to mark the start of the ink drawing
         // sequence in the current ink color.
-        if (m_pIPaper &amp;&amp; m_bInkSaving)
+        if (m_pIPaper && m_bInkSaving)
         {
           hr = m_pIPaper->InkStart(
                             m_nLockKey,

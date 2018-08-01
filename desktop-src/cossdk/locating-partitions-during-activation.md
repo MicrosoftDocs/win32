@@ -50,7 +50,7 @@ HRESULT CoGetObject(
   L"partition:partitionGUID/new:clsid",
   pBindOptions,
   IID_IUnknown,
-  (void**)&amp;pIUnknown);
+  (void**)&pIUnknown);
 ```
 
 
@@ -62,7 +62,7 @@ The following example shows a snippet of C++ code, in which a partition moniker 
 // Create CLSID1 configured in the Production partition.
 HRESULT hr = CoGetObject(
   L"partition:{35056070-D5B7-4b59-9FBF-0D23417F6937}/new:CLSID1",
-  pBindOptions, IID_IUnknown, (void**)&amp;pIUnknown);
+  pBindOptions, IID_IUnknown, (void**)&pIUnknown);
 ```
 
 

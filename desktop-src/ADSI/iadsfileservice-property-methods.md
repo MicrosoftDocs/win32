@@ -139,7 +139,7 @@ HRESULT CheckFileService()
     HRESULT hr = S_OK;
     long count = 0;
 
-    hr = ADsGetObject(adsPath, IID_IADsFileService, (void**)&amp;pFs)
+    hr = ADsGetObject(adsPath, IID_IADsFileService, (void**)&pFs)
     if(FAILED(hr)) {goto Cleanup;}
 
     hr = pFs->put_Description(CComBSTR("WinNT File Service"));
@@ -148,7 +148,7 @@ HRESULT CheckFileService()
     hr = pFs->SetInfo();
     if(FAILED(hr)) {goto Cleanup;}
 
-    hr = pFs->get_MaxUserCount(&amp;count);
+    hr = pFs->get_MaxUserCount(&count);
     if(FAILED(hr)) {goto Cleanup;}
 
     if(count == -1) {

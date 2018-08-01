@@ -45,7 +45,7 @@ The example here shows the input and output of the convolve matrix effect with a
 
 ```C++
 ComPtr<ID2D1Effect> convolveMatrixEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1ConvolveMatrix, &amp;convolveMatrixEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1ConvolveMatrix, &convolveMatrixEffect);
 
 convolveMatrixEffect->SetInput(0, bitmap);
 float matrix[9] = {-1, -1, -1, -1, 9, -1, -1, -1, -1};

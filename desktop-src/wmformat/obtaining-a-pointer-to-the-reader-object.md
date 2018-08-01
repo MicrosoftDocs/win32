@@ -39,38 +39,38 @@ HRESULT GetReaderAdvanced (IGraphBuilder *pGraph, IWMReaderAdvanced2** pReaderAd
   CComPtr<IBaseFilter> pFilter;
   ULONG cFetched;
 
-  HRESULT hr = pGraph->EnumFilters(&amp;pEnum);
+  HRESULT hr = pGraph->EnumFilters(&pEnum);
   if (FAILED(hr)) 
   {
     return hr;
   }
 
-  while(pEnum->Next(1, &amp;pFilter, &amp;cFetched) == S_OK)
+  while(pEnum->Next(1, &pFilter, &cFetched) == S_OK)
   {
     IWMHeaderInfo *pHI = NULL;
     // Only the WM ASF Reader will have interface. This filter should be
     // the first one returned in this loop.
-    hr = pFilter->QueryInterface(__uuidof(IWMHeaderInfo), (void**)&amp;pHI);
+    hr = pFilter->QueryInterface(__uuidof(IWMHeaderInfo), (void**)&pHI);
     if (SUCCEEDED(hr))
     {
       // We use the IWMDRMReader interface only as a way to get
       // a pointer to the Reader Object.
       CComPtr<IWMDRMReader> pWMDRMReader;
-      CComQIPtr<IServiceProvider, &amp;IID_IServiceProvider> pSP;
+      CComQIPtr<IServiceProvider, &IID_IServiceProvider> pSP;
 
-      hr = pHI->QueryInterface(__uuidof(IServiceProvider), (void**)&amp;pSP);
+      hr = pHI->QueryInterface(__uuidof(IServiceProvider), (void**)&pSP);
       if (!pSP)
       {
         return E_NOINTERFACE;
       }
       
-      hr = pSP->QueryService(IID_IWMDRMReader, IID_IWMDRMReader, (void **) &amp;pWMDRMReader);
+      hr = pSP->QueryService(IID_IWMDRMReader, IID_IWMDRMReader, (void **) &pWMDRMReader);
       if (FAILED(hr))
       {
         return hr;
       }
 
-      CComQIPtr<IWMReaderAdvanced2, &amp;IID_IWMReaderAdvanced2> pRA2(pWMDRMReader);
+      CComQIPtr<IWMReaderAdvanced2, &IID_IWMReaderAdvanced2> pRA2(pWMDRMReader);
       if (pRA2)
       {
         *pReaderAdvanced2 = pRA2.Detach();

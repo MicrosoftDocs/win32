@@ -45,11 +45,11 @@ HRESULT GetMachineCert( BYTE **ppbCert, DWORD *pcbCert )
     BYTE rgbVersion[4];
 
     // Create a provider object.
-    hr = WMDRMCreateProvider( &amp;pProvider );
+    hr = WMDRMCreateProvider( &pProvider );
     if( FAILED( hr ) ) goto EXIT;
 
     // Create a security object from a provider object.
-    hr = pProvider->CreateObject( IID_IWMDRMSecurity, (void**) &amp;pSecurity );
+    hr = pProvider->CreateObject( IID_IWMDRMSecurity, (void**) &pSecurity );
     if( FAILED( hr ) ) goto EXIT;
 
     // Query the security to get the machine certificate.

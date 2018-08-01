@@ -31,7 +31,7 @@ for(int i=0 ; i < ROWS ; ++i)
     tmp[1] = j;
     tmp[2] = Map[i][j];
     send( s, tmp, 3 );
-    recv( s, &amp;byRet, 1 );
+    recv( s, &byRet, 1 );
   }
 closesocket( s );
 ```

@@ -66,7 +66,7 @@ HWND CreateVerticalToolbar(HWND hWndParent)
 
     // Add them to the toolbar.
     SendMessage(hWndToolbar, TB_BUTTONSTRUCTSIZE,       (WPARAM)sizeof(TBBUTTON), 0);
-    SendMessage(hWndToolbar, TB_ADDBUTTONS, numButtons, (LPARAM)&amp;tbButtons3);
+    SendMessage(hWndToolbar, TB_ADDBUTTONS, numButtons, (LPARAM)&tbButtons3);
 
     return hWndToolbar;
 } 

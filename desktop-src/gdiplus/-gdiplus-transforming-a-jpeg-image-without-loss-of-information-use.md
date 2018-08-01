@@ -56,7 +56,7 @@ INT main()
    // Initialize GDI+.
    GdiplusStartupInput gdiplusStartupInput;
    ULONG_PTR gdiplusToken;
-   GdiplusStartup(&amp;gdiplusToken, &amp;gdiplusStartupInput, NULL);
+   GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
 
    CLSID             encoderClsid;
    EncoderParameters encoderParameters;
@@ -86,7 +86,7 @@ INT main()
       printf(", which is not a multiple of 16.\n");
 
    // Get the CLSID of the JPEG encoder.
-   GetEncoderClsid(L"image/jpeg", &amp;encoderClsid);
+   GetEncoderClsid(L"image/jpeg", &encoderClsid);
 
    // Before we call Image::Save, we must initialize an
    // EncoderParameters object. The EncoderParameters object
@@ -103,8 +103,8 @@ INT main()
 
    // Rotate and save the image.
    transformation = EncoderValueTransformRotate90;
-   encoderParameters.Parameter[0].Value = &amp;transformation;
-   stat = image->Save(L"ShapesR90.jpg", &amp;encoderClsid, &amp;encoderParameters);
+   encoderParameters.Parameter[0].Value = &transformation;
+   stat = image->Save(L"ShapesR90.jpg", &encoderClsid, &encoderParameters);
 
    if(stat == Ok)
       wprintf(L"%s saved successfully.\n", L"ShapesR90.jpg");

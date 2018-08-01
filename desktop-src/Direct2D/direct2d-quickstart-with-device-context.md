@@ -37,13 +37,13 @@ switch(message)
     case WM_PAINT:
         {
             PAINTSTRUCT ps;
-            BeginPaint(hwnd, &amp;ps);
+            BeginPaint(hwnd, &ps);
 
             // Obtain the size of the drawing area.
             RECT rc;
             GetClientRect(
                 hwnd,
-                &amp;rc
+                &rc
             );          
 
             // Save the original object
@@ -72,7 +72,7 @@ switch(message)
             // Restore the original object
             SelectObject(ps.hdc, original);
 
-            EndPaint(hwnd, &amp;ps);
+            EndPaint(hwnd, &ps);
         }
         return 0;
 
@@ -97,8 +97,8 @@ DX::ThrowIfFailed(
         D2D1CreateFactory(
             D2D1_FACTORY_TYPE_SINGLE_THREADED,
             __uuidof(ID2D1Factory1),
-            &amp;options,
-            &amp;m_d2dFactory
+            &options,
+            &m_d2dFactory
             )
         );
 ```
@@ -120,19 +120,19 @@ After you create a factory, use it to create a Direct2D device and then use the 
 
     // Obtain the underlying DXGI device of the Direct3D11.1 device.
     DX::ThrowIfFailed(
-        m_d3dDevice.As(&amp;dxgiDevice)
+        m_d3dDevice.As(&dxgiDevice)
         );
 
     // Obtain the Direct2D device for 2-D rendering.
     DX::ThrowIfFailed(
-        m_d2dFactory->CreateDevice(dxgiDevice.Get(), &amp;m_d2dDevice)
+        m_d2dFactory->CreateDevice(dxgiDevice.Get(), &m_d2dDevice)
         );
 
     // And get its corresponding device context object.
     DX::ThrowIfFailed(
         m_d2dDevice->CreateDeviceContext(
             D2D1_DEVICE_CONTEXT_OPTIONS_NONE,
-            &amp;m_d2dContext
+            &m_d2dContext
             )
         );
 ```
@@ -161,15 +161,15 @@ Once you have the Direct2D surface, use the [**ID2D1DeviceContext::SetTarget**](
     // Direct2D needs the dxgi version of the backbuffer surface pointer.
     ComPtr<IDXGISurface> dxgiBackBuffer;
     DX::ThrowIfFailed(
-        m_swapChain->GetBuffer(0, IID_PPV_ARGS(&amp;dxgiBackBuffer))
+        m_swapChain->GetBuffer(0, IID_PPV_ARGS(&dxgiBackBuffer))
         );
 
     // Get a D2D surface from the DXGI back buffer to use as the D2D render target.
     DX::ThrowIfFailed(
         m_d2dContext->CreateBitmapFromDxgiSurface(
             dxgiBackBuffer.Get(),
-            &amp;bitmapProperties,
-            &amp;m_d2dTargetBitmap
+            &bitmapProperties,
+            &m_d2dTargetBitmap
             )
         );
 
@@ -189,7 +189,7 @@ ComPtr<ID2D1SolidColorBrush> pBlackBrush;
 DX::ThrowIfFailed(
    m_d2dContext->CreateSolidColorBrush(
         D2D1::ColorF(D2D1::ColorF::Black),
-        &amp;pBlackBrush
+        &pBlackBrush
         )
 );
 ```
@@ -226,7 +226,7 @@ DX::ThrowIfFailed(
 );
 
 DX::ThrowIfFailed(
-    m_swapChain->Present1(1, 0, &amp;parameters);
+    m_swapChain->Present1(1, 0, &parameters);
 );
 ```
 

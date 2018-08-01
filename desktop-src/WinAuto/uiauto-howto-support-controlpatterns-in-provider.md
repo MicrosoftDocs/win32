@@ -62,7 +62,7 @@ IFACEMETHODIMP ListProvider::GetSelection(SAFEARRAY** pRetVal)
     if (pItem != NULL)
     {
         LONG i = 0;
-        SafeArrayPutElement(psa, &amp;i, pItem);
+        SafeArrayPutElement(psa, &i, pItem);
     }
     *pRetVal = psa;
     return S_OK;

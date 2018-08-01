@@ -81,8 +81,8 @@ You can also specify impersonation levels as part of a moniker. The following ex
 
 
 ```VB
-Set objinst = GetObject("WinMgmts:{impersonationLevel=impersonate,"&amp; _
-                         "authenticationLevel=pktPrivacy}"&amp; _
+Set objinst = GetObject("WinMgmts:{impersonationLevel=impersonate,"& _
+                         "authenticationLevel=pktPrivacy}"& _
                          "!root/cimv2:Win32_service='ALERTER'")
 ```
 

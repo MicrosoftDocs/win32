@@ -62,7 +62,7 @@ LRESULT CALLBACK LowLevelKeyboardProc( int nCode, WPARAM wParam, LPARAM lParam )
         case WM_KEYDOWN:  
         case WM_KEYUP:    
         {
-            bEatKeystroke = (g_bFullscreen &amp;&amp; g_bWindowActive &amp;&amp; ((p->vkCode == VK_LWIN) || (p->vkCode == VK_RWIN)));
+            bEatKeystroke = (g_bFullscreen && g_bWindowActive && ((p->vkCode == VK_LWIN) || (p->vkCode == VK_RWIN)));
             break;
         }
     }
@@ -124,9 +124,9 @@ FILTERKEYS g_StartupFilterKeys = {sizeof(FILTERKEYS), 0};
 INT WINAPI WinMain( HINSTANCE, HINSTANCE, LPSTR, int )
 {
     // Save the current sticky/toggle/filter key settings so they can be restored them later
-    SystemParametersInfo(SPI_GETSTICKYKEYS, sizeof(STICKYKEYS), &amp;g_StartupStickyKeys, 0);
-    SystemParametersInfo(SPI_GETTOGGLEKEYS, sizeof(TOGGLEKEYS), &amp;g_StartupToggleKeys, 0);
-    SystemParametersInfo(SPI_GETFILTERKEYS, sizeof(FILTERKEYS), &amp;g_StartupFilterKeys, 0);
+    SystemParametersInfo(SPI_GETSTICKYKEYS, sizeof(STICKYKEYS), &g_StartupStickyKeys, 0);
+    SystemParametersInfo(SPI_GETTOGGLEKEYS, sizeof(TOGGLEKEYS), &g_StartupToggleKeys, 0);
+    SystemParametersInfo(SPI_GETFILTERKEYS, sizeof(FILTERKEYS), &g_StartupFilterKeys, 0);
  
     // Disable when full screen
     AllowAccessibilityShortcutKeys( true );
@@ -145,9 +145,9 @@ void AllowAccessibilityShortcutKeys( bool bAllowKeys )
         TOGGLEKEYS tk = g_StartupToggleKeys;
         FILTERKEYS fk = g_StartupFilterKeys;
         
-        SystemParametersInfo(SPI_SETSTICKYKEYS, sizeof(STICKYKEYS), &amp;g_StartupStickyKeys, 0);
-        SystemParametersInfo(SPI_SETTOGGLEKEYS, sizeof(TOGGLEKEYS), &amp;g_StartupToggleKeys, 0);
-        SystemParametersInfo(SPI_SETFILTERKEYS, sizeof(FILTERKEYS), &amp;g_StartupFilterKeys, 0);
+        SystemParametersInfo(SPI_SETSTICKYKEYS, sizeof(STICKYKEYS), &g_StartupStickyKeys, 0);
+        SystemParametersInfo(SPI_SETTOGGLEKEYS, sizeof(TOGGLEKEYS), &g_StartupToggleKeys, 0);
+        SystemParametersInfo(SPI_SETFILTERKEYS, sizeof(FILTERKEYS), &g_StartupFilterKeys, 0);
     }
     else
     {
@@ -158,30 +158,30 @@ void AllowAccessibilityShortcutKeys( bool bAllowKeys )
         if( (skOff.dwFlags & SKF_STICKYKEYSON) == 0 )
         {
             // Disable the hotkey and the confirmation
-            skOff.dwFlags &amp;= ~SKF_HOTKEYACTIVE;
-            skOff.dwFlags &amp;= ~SKF_CONFIRMHOTKEY;
+            skOff.dwFlags &= ~SKF_HOTKEYACTIVE;
+            skOff.dwFlags &= ~SKF_CONFIRMHOTKEY;
  
-            SystemParametersInfo(SPI_SETSTICKYKEYS, sizeof(STICKYKEYS), &amp;skOff, 0);
+            SystemParametersInfo(SPI_SETSTICKYKEYS, sizeof(STICKYKEYS), &skOff, 0);
         }
  
         TOGGLEKEYS tkOff = g_StartupToggleKeys;
         if( (tkOff.dwFlags & TKF_TOGGLEKEYSON) == 0 )
         {
             // Disable the hotkey and the confirmation
-            tkOff.dwFlags &amp;= ~TKF_HOTKEYACTIVE;
-            tkOff.dwFlags &amp;= ~TKF_CONFIRMHOTKEY;
+            tkOff.dwFlags &= ~TKF_HOTKEYACTIVE;
+            tkOff.dwFlags &= ~TKF_CONFIRMHOTKEY;
  
-            SystemParametersInfo(SPI_SETTOGGLEKEYS, sizeof(TOGGLEKEYS), &amp;tkOff, 0);
+            SystemParametersInfo(SPI_SETTOGGLEKEYS, sizeof(TOGGLEKEYS), &tkOff, 0);
         }
  
         FILTERKEYS fkOff = g_StartupFilterKeys;
         if( (fkOff.dwFlags & FKF_FILTERKEYSON) == 0 )
         {
             // Disable the hotkey and the confirmation
-            fkOff.dwFlags &amp;= ~FKF_HOTKEYACTIVE;
-            fkOff.dwFlags &amp;= ~FKF_CONFIRMHOTKEY;
+            fkOff.dwFlags &= ~FKF_HOTKEYACTIVE;
+            fkOff.dwFlags &= ~FKF_CONFIRMHOTKEY;
  
-            SystemParametersInfo(SPI_SETFILTERKEYS, sizeof(FILTERKEYS), &amp;fkOff, 0);
+            SystemParametersInfo(SPI_SETFILTERKEYS, sizeof(FILTERKEYS), &fkOff, 0);
         }
     }
 }

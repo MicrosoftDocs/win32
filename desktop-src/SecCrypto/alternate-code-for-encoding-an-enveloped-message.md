@@ -98,7 +98,7 @@ printf("Example message:->%s\n", pbContent);
 // Get a handle to a cryptographic provider. 
 
 if(CryptAcquireContext(
-      &amp;hCryptProv,        // Address for handle to be returned
+      &hCryptProv,        // Address for handle to be returned
       NULL,               // Use the logon name for the current user
       NULL,               // Use the default provider
       PROV_RSA_FULL,      // Provider type
@@ -146,14 +146,14 @@ else
 // Initialize the algorithm identifier structure.
 
 HashAlgSize = sizeof(HashAlgorithm);
-memset(&amp;HashAlgorithm, 0, HashAlgSize);  // Initialize to zero,
+memset(&HashAlgorithm, 0, HashAlgSize);  // Initialize to zero,
 HashAlgorithm.pszObjId = szOID_RSA_MD5;  // then set the 
                                          // necessary member.
 
 //--------------------------------------------------------------------
 // Initialize the CMSG_SIGNER_ENCODE_INFO structure.
 
-memset(&amp;SignerEncodeInfo, 0, sizeof(CMSG_SIGNER_ENCODE_INFO));
+memset(&SignerEncodeInfo, 0, sizeof(CMSG_SIGNER_ENCODE_INFO));
 SignerEncodeInfo.cbSize = sizeof(CMSG_SIGNER_ENCODE_INFO);
 SignerEncodeInfo.pCertInfo = pSignerCert->pCertInfo;
 SignerEncodeInfo.hCryptProv = hCryptProv;
@@ -178,7 +178,7 @@ SignerCertBlob.pbData = pSignerCert->pbCertEncoded;
 //  Only one signer BLOB used.
 
 SignerCertBlobArray[0] = SignerCertBlob;
-memset(&amp;SignedMsgEncodeInfo, 0, sizeof(CMSG_SIGNED_ENCODE_INFO));
+memset(&SignedMsgEncodeInfo, 0, sizeof(CMSG_SIGNED_ENCODE_INFO));
 SignedMsgEncodeInfo.cbSize = sizeof(CMSG_SIGNED_ENCODE_INFO);
 SignedMsgEncodeInfo.cSigners = 1;
 SignedMsgEncodeInfo.rgSigners = SignerEncodeInfoArray;
@@ -193,7 +193,7 @@ if(cbEncodedBlob = CryptMsgCalculateEncodedLength(
        MY_ENCODING_TYPE,     // Message encoding type
        0,                    // Flags
        CMSG_SIGNED,          // Message type
-       &amp;SignedMsgEncodeInfo, // Pointer to structure
+       &SignedMsgEncodeInfo, // Pointer to structure
        NULL,                 // Inner content OID
        cbContent))           // Size of content
 {
@@ -221,7 +221,7 @@ if(hMsg = CryptMsgOpenToEncode(
          MY_ENCODING_TYPE,      // Encoding type
          0,                     // Flags
          CMSG_SIGNED,           // Message type
-         &amp;SignedMsgEncodeInfo,  // Pointer to structure
+         &SignedMsgEncodeInfo,  // Pointer to structure
          NULL,                  // Inner content OID
          NULL))                 // Stream information (not used)
 {
@@ -254,7 +254,7 @@ if(CryptMsgGetParam(
         CMSG_CONTENT_PARAM, // Parameter type
         0,                  // Index
         pbEncodedBlob,      // Pointer to the BLOB
-        &amp;cbEncodedBlob))    // Size of the BLOB
+        &cbEncodedBlob))    // Size of the BLOB
 {
    printf("Message successfully signed. \n");
 }
@@ -321,7 +321,7 @@ if(CryptMsgGetParam(
       0,                       // Index
       NULL,                    // Address for returned 
                                // information
-      &amp;cbDecoded))             // Size of the returned 
+      &cbDecoded))             // Size of the returned 
                                // information
 {
    printf("The message to be decoded is %d bytes long. \n", 
@@ -350,7 +350,7 @@ if(CryptMsgGetParam(
       CMSG_CONTENT_PARAM,  // Parameter type
       0,                   // Index
       pbDecoded,           // Address for returned information
-      &amp;cbDecoded))         // Size of the returned information
+      &cbDecoded))         // Size of the returned information
 {
     printf("The successfully decoded message is =>%s\n",pbDecoded);
 }
@@ -395,7 +395,7 @@ else
 //--------------------------------------------------------------------
 // Initialize the PCMSG_SIGNER_ENCODE_INFO structure.
 
-memset(&amp;CountersignerInfo, 0, sizeof(CMSG_SIGNER_ENCODE_INFO));
+memset(&CountersignerInfo, 0, sizeof(CMSG_SIGNER_ENCODE_INFO));
 CountersignerInfo.cbSize = sizeof(CMSG_SIGNER_ENCODE_INFO);
 CountersignerInfo.pCertInfo = pCntrSigCert->pCertInfo;
 CountersignerInfo.hCryptProv = hCryptProv;
@@ -428,7 +428,7 @@ if(CryptMsgGetParam(
       CMSG_ENCODED_MESSAGE,  // Parameter type
       0,                     // Index
       NULL,                  // Address for returned information
-      &amp;cbEncodedBlob))       // Size of the returned information
+      &cbEncodedBlob))       // Size of the returned information
 {
    printf("The size for the encoded BLOB is %d.\n",cbEncodedBlob);
 }
@@ -455,7 +455,7 @@ if(CryptMsgGetParam(
      CMSG_ENCODED_MESSAGE,   // Parameter type
      0,                      // Index
      pbEncodedBlob,          // Address for returned information
-     &amp;cbEncodedBlob))        // Size of the returned information
+     &cbEncodedBlob))        // Size of the returned information
 {
     printf("The message is complete. \n");
 }
@@ -525,7 +525,7 @@ if(CryptMsgGetParam(
       CMSG_ENCODED_SIGNER,   // Parameter type
       0,                     // Index
       NULL,                  // Address for returned information
-      &amp;cbSignerInfo))        // Size of the returned information
+      &cbSignerInfo))        // Size of the returned information
 {
    printf("The size of the signer information has been "
        "retrieved.\n");
@@ -554,7 +554,7 @@ if(CryptMsgGetParam(
       CMSG_ENCODED_SIGNER,  // Parameter type
       0,                    // Index
       pbSignerInfo,         // Address for returned information
-      &amp;cbSignerInfo))       // Size of the returned information
+      &cbSignerInfo))       // Size of the returned information
 {
    printf("The signer information is retrieved. \n");
 }
@@ -572,7 +572,7 @@ if(CryptMsgGetParam(
        0,                            // Index
        NULL,                         // Address for returned 
                                      // information
-       &amp;cbCountersignerInfo))        // Size of returned 
+       &cbCountersignerInfo))        // Size of returned 
                                      // information
 {
    printf("The length of the countersigner's information is "
@@ -603,7 +603,7 @@ if(CryptMsgGetParam(
      0,                              // Index
      pCountersignerInfo,             // Address for returned 
                                      // information
-     &amp;cbCountersignerInfo))          // Size of the returned 
+     &cbCountersignerInfo))          // Size of the returned 
                                      // information
 {
    printf("Countersigner information retrieved. \n");
@@ -680,7 +680,7 @@ DWORD                PropId = CERT_KEY_PROV_INFO_PROP_ID;
 // Find certificates in the store until the end of the store
 // is reached or a certificate with an AT_SIGNATURE key is found.
 
-while(fMore &amp;&amp; 
+while(fMore && 
   (pCertContext= CertFindCertificateInStore(
      hCertStore,           // Handle of the store to be searched.
      0,                    // Encoding type. Not used for this search.
@@ -690,7 +690,7 @@ while(fMore &amp;&amp;
                            // search to be done. In this case, search 
                            // for certificates that have a specific 
                            // extended property.
-     &amp;PropId,              // pvFindPara. Gives the specific 
+     &PropId,              // pvFindPara. Gives the specific 
                            // value searched for, here the identifier
                            // of an extended property.
      pCertContext)))       // pCertContext is NULL for the 
@@ -714,7 +714,7 @@ while(fMore &amp;&amp;
                  pCertContext,
                  CERT_KEY_PROV_INFO_PROP_ID,
                  NULL,
-                 &amp;dwSize)))
+                 &dwSize)))
    {
       MyHandleError("Error getting key property");
    }
@@ -734,7 +734,7 @@ while(fMore &amp;&amp;
        pCertContext,
        CERT_KEY_PROV_INFO_PROP_ID,
        pKeyInfo,
-       &amp;dwSize)))
+       &dwSize)))
    {
        MyHandleError("The second call to the function failed.");
    }

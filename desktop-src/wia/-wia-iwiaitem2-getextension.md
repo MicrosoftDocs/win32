@@ -127,7 +127,7 @@ CreateSegmentationFilter(
          hr = pWiaItem2->GetExtension(0,
                                       bstrFilterString,
                                       IID_IWiaSegmentationFilter,
-                                      (void**)&amp;pSegFilter);
+                                      (void**)&pSegFilter);
          SysFreeString(bstrFilterString);
          bstrFilterString = NULL;
       }

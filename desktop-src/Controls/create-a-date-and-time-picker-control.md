@@ -37,7 +37,7 @@ Register the window class by calling the [**InitCommonControlsEx**](/windows/des
  icex.dwSize = sizeof(icex);
  icex.dwICC = ICC_DATE_CLASSES;
 
- InitCommonControlsEx(&amp;icex);
+ InitCommonControlsEx(&icex);
 ```
 
 
@@ -90,7 +90,7 @@ HWND WINAPI CreateDatePick(HWND hwndMain)
     icex.dwSize = sizeof(icex);
     icex.dwICC = ICC_DATE_CLASSES;
 
-    InitCommonControlsEx(&amp;icex);
+    InitCommonControlsEx(&icex);
 
     hwndDlg = CreateDialog  (g_hinst,
                              MAKEINTRESOURCE(IDD_DIALOG1),

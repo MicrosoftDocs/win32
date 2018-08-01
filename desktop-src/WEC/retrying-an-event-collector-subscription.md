@@ -56,14 +56,14 @@ The following C++ code example shows how to retry an Event Collector subscriptio
 DWORD GetProperty(EC_HANDLE hSubscription,  
     EC_SUBSCRIPTION_PROPERTY_ID propID, 
     DWORD flags, 
-    std::vector<BYTE>&amp; buffer, 
-    PEC_VARIANT&amp; vProperty);
+    std::vector<BYTE>& buffer, 
+    PEC_VARIANT& vProperty);
 DWORD GetStatus(LPCWSTR subscriptionName, 
     LPCWSTR eventSource, 
     EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID statusInfoID, 
     DWORD flags, 
-    std::vector<BYTE>&amp; buffer, 
-    PEC_VARIANT&amp; vStatus);
+    std::vector<BYTE>& buffer, 
+    PEC_VARIANT& vStatus);
 
 
 void __cdecl wmain()
@@ -96,7 +96,7 @@ void __cdecl wmain()
         goto Cleanup;
     }
 
-    if( vProperty->Type != EcVarTypeNull &amp;&amp; vProperty->Type != EcVarTypeUInt32)
+    if( vProperty->Type != EcVarTypeNull && vProperty->Type != EcVarTypeUInt32)
     {
         dwRetVal = ERROR_INVALID_DATA;
         goto Cleanup;
@@ -126,7 +126,7 @@ void __cdecl wmain()
         }
 
         // Ensure that a handle to the event sources array has been obtained.
-        if (vEventSources->Type != EcVarTypeNull &amp;&amp; 
+        if (vEventSources->Type != EcVarTypeNull && 
             vEventSources->Type != (EcVarTypeString | EC_VARIANT_TYPE_ARRAY) )
         {
             dwRetVal = ERROR_INVALID_DATA;
@@ -163,7 +163,7 @@ void __cdecl wmain()
                 NULL,
                 dwRetVal,
                 0,
-                (LPWSTR) &amp;lpwszBuffer,
+                (LPWSTR) &lpwszBuffer,
                 0,
                 NULL);
             
@@ -184,8 +184,8 @@ void __cdecl wmain()
 DWORD GetProperty(EC_HANDLE hSubscription,
     EC_SUBSCRIPTION_PROPERTY_ID propID,
     DWORD flags,
-    std::vector<BYTE>&amp; buffer,
-    PEC_VARIANT&amp; vProperty)
+    std::vector<BYTE>& buffer,
+    PEC_VARIANT& vProperty)
 {
     DWORD  dwBufferSize, dwRetVal = ERROR_SUCCESS;
     buffer.resize(sizeof(EC_VARIANT));
@@ -198,8 +198,8 @@ DWORD GetProperty(EC_HANDLE hSubscription,
         propID,
         flags, 
         (DWORD) buffer.size(), 
-        (PEC_VARIANT)&amp;buffer[0], 
-        &amp;dwBufferSize))
+        (PEC_VARIANT)&buffer[0], 
+        &dwBufferSize))
     {
         dwRetVal = GetLastError();
         if (ERROR_INSUFFICIENT_BUFFER == dwRetVal)
@@ -211,8 +211,8 @@ DWORD GetProperty(EC_HANDLE hSubscription,
                 propID,
                 flags,
                 (DWORD) buffer.size(),
-                (PEC_VARIANT)&amp;buffer[0],
-                &amp;dwBufferSize))
+                (PEC_VARIANT)&buffer[0],
+                &dwBufferSize))
             {
                 dwRetVal = GetLastError();
             }
@@ -221,7 +221,7 @@ DWORD GetProperty(EC_HANDLE hSubscription,
 
     if (dwRetVal == ERROR_SUCCESS)
     {
-        vProperty = (PEC_VARIANT) &amp;buffer[0];
+        vProperty = (PEC_VARIANT) &buffer[0];
     }
     else
     {
@@ -236,8 +236,8 @@ DWORD GetStatus(LPCWSTR subscriptionName,
     LPCWSTR eventSource, 
     EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID statusInfoID, 
     DWORD flags, 
-    std::vector<BYTE>&amp; buffer, 
-    PEC_VARIANT&amp; vStatus)
+    std::vector<BYTE>& buffer, 
+    PEC_VARIANT& vStatus)
 {
     DWORD dwBufferSize, dwRetVal = ERROR_SUCCESS;
     buffer.clear();
@@ -248,8 +248,8 @@ DWORD GetStatus(LPCWSTR subscriptionName,
         eventSource,
         flags,
         (DWORD) buffer.size(),
-        (PEC_VARIANT) &amp;buffer[0],
-        &amp;dwBufferSize))
+        (PEC_VARIANT) &buffer[0],
+        &dwBufferSize))
     {
         dwRetVal = GetLastError();
 
@@ -262,8 +262,8 @@ DWORD GetStatus(LPCWSTR subscriptionName,
                 eventSource,
                 flags,
                 (DWORD) buffer.size(),
-                (PEC_VARIANT) &amp;buffer[0],
-                &amp;dwBufferSize))
+                (PEC_VARIANT) &buffer[0],
+                &dwBufferSize))
             {
                 dwRetVal = GetLastError();
             }
@@ -272,7 +272,7 @@ DWORD GetStatus(LPCWSTR subscriptionName,
 
     if ( ERROR_SUCCESS == dwRetVal)
     {
-        vStatus = (PEC_VARIANT) &amp;buffer[0];
+        vStatus = (PEC_VARIANT) &buffer[0];
     }
     else
     {

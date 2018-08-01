@@ -66,7 +66,7 @@ _tcsncpy_s(szAccountPath, TEXT("LDAP://"), MAX_PATH);
 _tcscat_s(szAccountPath, 
     szAccountDN, 
     MAX_PATH - _tcslen(szAccountPath));
-hr = ADsGetObject(szAccountPath, IID_IADsUser, (void**)&amp;pUser);
+hr = ADsGetObject(szAccountPath, IID_IADsUser, (void**)&pUser);
 if (FAILED(hr)) 
 {
     _tprintf(TEXT("Get IADsUser failed - 0x%x\n"), dwStatus = hr);

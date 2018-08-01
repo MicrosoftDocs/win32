@@ -62,8 +62,8 @@ case TTN_SHOW:
 if (MyStringIsTruncated) {
     RECT rc;
     
-    GetMyItemRect(&amp;rc);
-    SendMessage(hwndToolTip, TTM_ADJUSTRECT, TRUE, (LPARAM)&amp;rc);
+    GetMyItemRect(&rc);
+    SendMessage(hwndToolTip, TTM_ADJUSTRECT, TRUE, (LPARAM)&rc);
     SetWindowPos(hwndToolTip,
                  NULL,
                  rc.left, rc.top,

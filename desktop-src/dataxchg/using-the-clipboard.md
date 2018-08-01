@@ -94,7 +94,7 @@ void WINAPI InitMenu(HMENU hmenu)
                 if (pbox == NULL || !pbox->fSelected) 
                     fuFlags = MF_BYCOMMAND | MF_GRAYED; 
                 else if (pbox->fEdit) 
-                    fuFlags = (id != IDM_DELETE &amp;&amp; pbox->ichSel 
+                    fuFlags = (id != IDM_DELETE && pbox->ichSel 
                             == pbox->ichCaret) ? 
                         MF_BYCOMMAND | MF_GRAYED : 
                         MF_BYCOMMAND | MF_ENABLED; 
@@ -105,7 +105,7 @@ void WINAPI InitMenu(HMENU hmenu)
                 break; 
  
             case IDM_PASTE: 
-                if (pbox != NULL &amp;&amp; pbox->fEdit) 
+                if (pbox != NULL && pbox->fEdit) 
                     EnableMenuItem(hmenu, id, 
                         IsClipboardFormatAvailable(CF_TEXT) ? 
                             MF_BYCOMMAND | MF_ENABLED : 
@@ -256,7 +256,7 @@ BOOL WINAPI EditCopy(VOID)
         // Lock the handle and copy the text to the buffer. 
  
         lptstrCopy = GlobalLock(hglbCopy); 
-        memcpy(lptstrCopy, &amp;pbox->atchLabel[ich1], 
+        memcpy(lptstrCopy, &pbox->atchLabel[ich1], 
             cch * sizeof(TCHAR)); 
         lptstrCopy[cch] = (TCHAR) 0;    // null character 
         GlobalUnlock(hglbCopy); 
@@ -367,7 +367,7 @@ VOID WINAPI EditPaste(VOID)
     // If the application is in edit mode, 
     // get the clipboard text. 
  
-    if (pbox != NULL &amp;&amp; pbox->fEdit) 
+    if (pbox != NULL && pbox->fEdit) 
     { 
         if (!IsClipboardFormatAvailable(CF_TEXT)) 
             return; 
@@ -608,7 +608,7 @@ LPARAM lParam;
         case WM_PAINTCLIPBOARD: 
             // Determine the dimensions of the label. 
  
-            SetRect(&amp;rc, 0, 0, 
+            SetRect(&rc, 0, 0, 
                 pboxLocalClip->rcText.right + CX_MARGIN, 
                 pboxLocalClip->rcText.top * 2 + cyText 
             ); 
@@ -631,7 +631,7 @@ LPARAM lParam;
             // PaintLabel function. 
  
             lpps = (LPPAINTSTRUCT) GlobalLock((HGLOBAL) lParam); 
-            PaintLabel(lpps, pboxLocalClip, &amp;rc); 
+            PaintLabel(lpps, pboxLocalClip, &rc); 
             GlobalUnlock((HGLOBAL) lParam); 
             break; 
  
@@ -640,7 +640,7 @@ LPARAM lParam;
             // RECT structure. 
  
             lprc = (LPRECT) GlobalLock((HGLOBAL) lParam); 
-            memcpy(&amp;rcViewer, lprc, sizeof(RECT)); 
+            memcpy(&rcViewer, lprc, sizeof(RECT)); 
             GlobalUnlock((HGLOBAL) lParam); 
  
             // Set the scroll ranges to zero (thus eliminating 
@@ -796,7 +796,7 @@ LPARAM lParam;
     switch (uMsg) 
     { 
         case WM_PAINT: 
-            hdc = BeginPaint(hwnd, &amp;ps); 
+            hdc = BeginPaint(hwnd, &ps); 
  
             // Branch depending on the clipboard format. 
  
@@ -807,7 +807,7 @@ LPARAM lParam;
                     hglb = GlobalAlloc(GMEM_MOVEABLE, 
                         sizeof(PAINTSTRUCT)); 
                     lpps = GlobalLock(hglb);
-                    memcpy(lpps, &amp;ps, sizeof(PAINTSTRUCT)); 
+                    memcpy(lpps, &ps, sizeof(PAINTSTRUCT)); 
                     GlobalUnlock(hglb); 
  
                     SendMessage(hwndOwner, WM_PAINTCLIPBOARD, 
@@ -825,7 +825,7 @@ LPARAM lParam;
                             hbm = (HBITMAP) 
                                 GetClipboardData(uFormat); 
                             SelectObject(hdcMem, hbm); 
-                            GetClientRect(hwnd, &amp;rc); 
+                            GetClientRect(hwnd, &rc); 
  
                             BitBlt(hdc, 0, 0, rc.right, rc.bottom, 
                                 hdcMem, 0, 0, SRCCOPY); 
@@ -841,8 +841,8 @@ LPARAM lParam;
                         hglb = GetClipboardData(uFormat); 
                         lpstr = GlobalLock(hglb); 
  
-                        GetClientRect(hwnd, &amp;rc); 
-                        DrawText(hdc, lpstr, -1, &amp;rc, DT_LEFT); 
+                        GetClientRect(hwnd, &rc); 
+                        DrawText(hdc, lpstr, -1, &rc, DT_LEFT); 
  
                         GlobalUnlock(hglb); 
                         CloseClipboard(); 
@@ -853,26 +853,26 @@ LPARAM lParam;
                     if (OpenClipboard(hwnd)) 
                     { 
                         hemf = GetClipboardData(uFormat); 
-                        GetClientRect(hwnd, &amp;rc); 
-                        PlayEnhMetaFile(hdc, hemf, &amp;rc); 
+                        GetClientRect(hwnd, &rc); 
+                        PlayEnhMetaFile(hdc, hemf, &rc); 
                         CloseClipboard(); 
                     } 
                     break; 
  
                 case 0: 
-                    GetClientRect(hwnd, &amp;rc); 
+                    GetClientRect(hwnd, &rc); 
                     DrawText(hdc, "The clipboard is empty.", -1, 
-                        &amp;rc, DT_CENTER | DT_SINGLELINE | 
+                        &rc, DT_CENTER | DT_SINGLELINE | 
                         DT_VCENTER); 
                     break; 
  
                 default: 
-                    GetClientRect(hwnd, &amp;rc); 
+                    GetClientRect(hwnd, &rc); 
                     DrawText(hdc, "Unable to display format.", -1, 
-                        &amp;rc, DT_CENTER | DT_SINGLELINE | 
+                        &rc, DT_CENTER | DT_SINGLELINE | 
                         DT_VCENTER); 
             } 
-            EndPaint(hwnd, &amp;ps); 
+            EndPaint(hwnd, &ps); 
             break; 
  
         case WM_SIZE: 

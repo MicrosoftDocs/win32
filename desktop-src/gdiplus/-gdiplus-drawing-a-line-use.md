@@ -32,7 +32,7 @@ VOID OnPaint(HDC hdc)
 {
    Graphics graphics(hdc);
    Pen      pen(Color(255, 0, 0, 255));
-   graphics.DrawLine(&amp;pen, 0, 0, 200, 100);
+   graphics.DrawLine(&pen, 0, 0, 200, 100);
 }
 
 LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
@@ -46,7 +46,7 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, PSTR, INT iCmdShow)
    ULONG_PTR           gdiplusToken;
    
    // Initialize GDI+.
-   GdiplusStartup(&amp;gdiplusToken, &amp;gdiplusStartupInput, NULL);
+   GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
    
    wndClass.style          = CS_HREDRAW | CS_VREDRAW;
    wndClass.lpfnWndProc    = WndProc;
@@ -59,7 +59,7 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, PSTR, INT iCmdShow)
    wndClass.lpszMenuName   = NULL;
    wndClass.lpszClassName  = TEXT("GettingStarted");
    
-   RegisterClass(&amp;wndClass);
+   RegisterClass(&wndClass);
    
    hWnd = CreateWindow(
       TEXT("GettingStarted"),   // window class name
@@ -77,10 +77,10 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, PSTR, INT iCmdShow)
    ShowWindow(hWnd, iCmdShow);
    UpdateWindow(hWnd);
    
-   while(GetMessage(&amp;msg, NULL, 0, 0))
+   while(GetMessage(&msg, NULL, 0, 0))
    {
-      TranslateMessage(&amp;msg);
-      DispatchMessage(&amp;msg);
+      TranslateMessage(&msg);
+      DispatchMessage(&msg);
    }
    
    GdiplusShutdown(gdiplusToken);
@@ -96,9 +96,9 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message,
    switch(message)
    {
    case WM_PAINT:
-      hdc = BeginPaint(hWnd, &amp;ps);
+      hdc = BeginPaint(hWnd, &ps);
       OnPaint(hdc);
-      EndPaint(hWnd, &amp;ps);
+      EndPaint(hWnd, &ps);
       return 0;
    case WM_DESTROY:
       PostQuitMessage(0);

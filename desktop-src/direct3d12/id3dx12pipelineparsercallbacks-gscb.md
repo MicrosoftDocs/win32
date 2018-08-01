@@ -30,7 +30,7 @@ Calls the geometry shader subobject callback of an object that implements this i
 
 ```C++
 void GSCb(
-  [ref] const D3D12_SHADER_BYTECODE &amp;GS
+  [ref] const D3D12_SHADER_BYTECODE &GS
 );
 ```
 

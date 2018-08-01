@@ -77,7 +77,7 @@ The following example demonstrates the markup for a [**Command**](windowsribbon-
       <String.Symbol>strSave</String.Symbol>
     </String>
   </Command.LabelTitle>
-  <Command.TooltipTitle>Tooltip title with &amp;amp;&amp;amp; for Save Command</Command.TooltipTitle>
+  <Command.TooltipTitle>Tooltip title with &amp;&amp; for Save Command</Command.TooltipTitle>
   <Command.TooltipDescription>Tooltip description for Save Command.</Command.TooltipDescription>
   <Command.Keytip>s1</Command.Keytip>
 </Command>

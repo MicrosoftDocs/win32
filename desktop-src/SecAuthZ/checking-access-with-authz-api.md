@@ -46,7 +46,7 @@ BOOL CheckAccess(AUTHZ_CLIENT_CONTEXT_HANDLE hClientContext)
     DWORD                    AuthzError =0;
 
     //Allocate memory for the access request structure.
-    RtlZeroMemory(&amp;Request, sizeof(AUTHZ_ACCESS_REQUEST));
+    RtlZeroMemory(&Request, sizeof(AUTHZ_ACCESS_REQUEST));
 
     //Set up the access request structure.
     Request.DesiredAccess = READ_CONTROL;
@@ -64,7 +64,7 @@ BOOL CheckAccess(AUTHZ_CLIENT_CONTEXT_HANDLE hClientContext)
     if(!ConvertStringSecurityDescriptorToSecurityDescriptor(
         L"O:LAG:BAD:(A;;RC;;;BA)",
         SDDL_REVISION_1,
-        &amp;pSecurityDescriptor,
+        &pSecurityDescriptor,
         NULL))
     {
         printf_s("ConvertStringSecurityDescriptorToSecurityDescriptor failed with %d\n", GetLastError()); 
@@ -75,7 +75,7 @@ BOOL CheckAccess(AUTHZ_CLIENT_CONTEXT_HANDLE hClientContext)
     if(!AuthzAccessCheck(
         0,
         hClientContext,
-        &amp;Request,
+        &Request,
         NULL,
         pSecurityDescriptor,
         NULL,

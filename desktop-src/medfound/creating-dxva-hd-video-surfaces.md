@@ -30,7 +30,7 @@ The following code shows how to allocate a video surface, using [**CreateVideoSu
         0,  // Usage
         DXVAHD_SURFACE_TYPE_VIDEO_INPUT,
         1,      // Number of surfaces to create
-        &amp;pSurf, // Array of surface pointers
+        &pSurf, // Array of surface pointers
         NULL
         );
 ```

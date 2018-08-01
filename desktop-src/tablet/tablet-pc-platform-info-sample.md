@@ -28,7 +28,7 @@ HRESULT hr = CoCreateInstance(CLSID_InkRecognizers,
                               NULL, 
                               CLSCTX_INPROC_SERVER, 
                               IID_IInkRecognizers, 
-                              (void **)&amp;pIInkRecognizers);
+                              (void **)&pIInkRecognizers);
 if (SUCCEEDED(hr)) 
 {
   // use the component
@@ -47,7 +47,7 @@ The application finds out about the installed speech components by looking in th
 const WCHAR* gc_wszSpeechKey = L"Software\\Microsoft\\Speech\\Recognizers";
 //...
 if (RegOpenKeyExW(HKEY_LOCAL_MACHINE, gc_wszSpeechKey, 0, KEY_READ, 
-                  &amp;hkeySpeech) == ERROR_SUCCESS) 
+                  &hkeySpeech) == ERROR_SUCCESS) 
 ```
 
 
@@ -64,7 +64,7 @@ for (int i = 0, j = 0; i < NUM_CONTROLS; i++)
 {
     // Get the component info
     CLSID clsid;
-    if (SUCCEEDED(CLSIDFromProgID(gc_wszProgId[i], &amp;clsid)) &amp;&amp; GetComponentInfo(clsid, info) == TRUE)
+    if (SUCCEEDED(CLSIDFromProgID(gc_wszProgId[i], &clsid)) && GetComponentInfo(clsid, info) == TRUE)
     {
         SetDlgItemTextW(hwnd, gc_uiCtrlId[j][0], info.wchName);
         SetDlgItemTextW(hwnd, gc_uiCtrlId[j][1], info.wchVersion);
