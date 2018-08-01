@@ -33,7 +33,7 @@ Msftedit.dll exports an interface identifier (IID) called **IID\_ITextServices**
         goto errorHandler;
 
     // Create an instance of the text services object.
-    hr = CreateTextServices(NULL, pTextHost, &amp;pUnk);
+    hr = CreateTextServices(NULL, pTextHost, &pUnk);
     if (FAILED(hr))
         goto errorHandler;
         
@@ -45,7 +45,7 @@ Msftedit.dll exports an interface identifier (IID) called **IID\_ITextServices**
         "IID_ITextServices");
                
     // Retrieve the ITextServices interface.    
-    hr = pUnk->QueryInterface(*pIID_ITS, (void **)&amp;pTextServices);
+    hr = pUnk->QueryInterface(*pIID_ITS, (void **)&pTextServices);
     if (FAILED(hr))
         goto errorHandler;
      .

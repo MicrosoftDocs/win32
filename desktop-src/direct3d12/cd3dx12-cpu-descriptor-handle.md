@@ -29,19 +29,19 @@ A helper structure to enable easy initialization of a [**D3D12\_CPU\_DESCRIPTOR\
 ```C++
 struct CD3DX12_CPU_DESCRIPTOR_HANDLE  : public D3D12_CPU_DESCRIPTOR_HANDLE{
                                   CD3DX12_CPU_DESCRIPTOR_HANDLE();
-                                  explicit CD3DX12_CPU_DESCRIPTOR_HANDLE(const D3D12_CPU_DESCRIPTOR_HANDLE &amp;o);
+                                  explicit CD3DX12_CPU_DESCRIPTOR_HANDLE(const D3D12_CPU_DESCRIPTOR_HANDLE &o);
                                   CD3DX12_CPU_DESCRIPTOR_HANDLE(CD3DX12_DEFAULT);
-                                  CD3DX12_CPU_DESCRIPTOR_HANDLE(const D3D12_CPU_DESCRIPTOR_HANDLE &amp;other, INT offsetScaledByIncrementSize);
-                                  CD3DX12_CPU_DESCRIPTOR_HANDLE(const D3D12_CPU_DESCRIPTOR_HANDLE &amp;other, INT offsetInDescriptors, UINT descriptorIncrementSize);
-  CD3DX12_CPU_DESCRIPTOR_HANDLE&amp;  Offset(INT offsetInDescriptors, UINT descriptorIncrementSize);
-  CD3DX12_CPU_DESCRIPTOR_HANDLE&amp;  Offset(INT offsetScaledByIncrementSize);
-  bool                            operator==( _In_ const D3D12_CPU_DESCRIPTOR_HANDLE&amp; other) const;
-  bool                            operator!=(_In_ const D3D12_CPU_DESCRIPTOR_HANDLE&amp; other) const;
-  CD3DX12_CPU_DESCRIPTOR_HANDLE & operator=(const D3D12_CPU_DESCRIPTOR_HANDLE &amp;other);
-  void                            inline InitOffsetted(_In_ const D3D12_CPU_DESCRIPTOR_HANDLE &amp;base, INT offsetScaledByIncrementSize);
-  void                            inline InitOffsetted(_In_ const D3D12_CPU_DESCRIPTOR_HANDLE &amp;base, INT offsetInDescriptors, UINT descriptorIncrementSize);
-  void                            static inline InitOffsetted(_Out_ D3D12_CPU_DESCRIPTOR_HANDLE &amp;handle, _In_ const D3D12_CPU_DESCRIPTOR_HANDLE &amp;base, INT offsetScaledByIncrementSize);
-  void                            static inline InitOffsetted(_Out_ D3D12_CPU_DESCRIPTOR_HANDLE &amp;handle, _In_ const D3D12_CPU_DESCRIPTOR_HANDLE &amp;base, INT offsetInDescriptors, UINT descriptorIncrementSize);
+                                  CD3DX12_CPU_DESCRIPTOR_HANDLE(const D3D12_CPU_DESCRIPTOR_HANDLE &other, INT offsetScaledByIncrementSize);
+                                  CD3DX12_CPU_DESCRIPTOR_HANDLE(const D3D12_CPU_DESCRIPTOR_HANDLE &other, INT offsetInDescriptors, UINT descriptorIncrementSize);
+  CD3DX12_CPU_DESCRIPTOR_HANDLE&  Offset(INT offsetInDescriptors, UINT descriptorIncrementSize);
+  CD3DX12_CPU_DESCRIPTOR_HANDLE&  Offset(INT offsetScaledByIncrementSize);
+  bool                            operator==( _In_ const D3D12_CPU_DESCRIPTOR_HANDLE& other) const;
+  bool                            operator!=(_In_ const D3D12_CPU_DESCRIPTOR_HANDLE& other) const;
+  CD3DX12_CPU_DESCRIPTOR_HANDLE & operator=(const D3D12_CPU_DESCRIPTOR_HANDLE &other);
+  void                            inline InitOffsetted(_In_ const D3D12_CPU_DESCRIPTOR_HANDLE &base, INT offsetScaledByIncrementSize);
+  void                            inline InitOffsetted(_In_ const D3D12_CPU_DESCRIPTOR_HANDLE &base, INT offsetInDescriptors, UINT descriptorIncrementSize);
+  void                            static inline InitOffsetted(_Out_ D3D12_CPU_DESCRIPTOR_HANDLE &handle, _In_ const D3D12_CPU_DESCRIPTOR_HANDLE &base, INT offsetScaledByIncrementSize);
+  void                            static inline InitOffsetted(_Out_ D3D12_CPU_DESCRIPTOR_HANDLE &handle, _In_ const D3D12_CPU_DESCRIPTOR_HANDLE &base, INT offsetInDescriptors, UINT descriptorIncrementSize);
 };
 ```
 

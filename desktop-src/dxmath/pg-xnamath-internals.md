@@ -97,11 +97,11 @@ When you use \_\_fastcall:
 
 ```C++
 typedef const XMVECTOR  FXMVECTOR;
-typedef const XMVECTOR&amp; GXMVECTOR;
-typedef const XMVECTOR&amp; HXMVECTOR;
-typedef const XMVECTOR&amp; CXMVECTOR;
-typedef const XMMATRIX&amp; FXMMATRIX;
-typedef const XMMATRIX&amp; CXMMATRIX;
+typedef const XMVECTOR& GXMVECTOR;
+typedef const XMVECTOR& HXMVECTOR;
+typedef const XMVECTOR& CXMVECTOR;
+typedef const XMMATRIX& FXMMATRIX;
+typedef const XMMATRIX& CXMMATRIX;
 ```
 
 
@@ -113,9 +113,9 @@ When you use \_\_vectorcall:
 typedef const XMVECTOR  FXMVECTOR;
 typedef const XMVECTOR  GXMVECTOR;
 typedef const XMVECTOR  HXMVECTOR;
-typedef const XMVECTOR&amp; CXMVECTOR;
+typedef const XMVECTOR& CXMVECTOR;
 typedef const XMMATRIX  FXMMATRIX;
-typedef const XMMATRIX&amp; CXMMATRIX;
+typedef const XMMATRIX& CXMMATRIX;
 ```
 
 
@@ -126,12 +126,12 @@ When you use \_\_fastcall:
 
 
 ```C++
-typedef const XMVECTOR&amp; FXMVECTOR;
-typedef const XMVECTOR&amp; GXMVECTOR;
-typedef const XMVECTOR&amp; HXMVECTOR;
-typedef const XMVECTOR&amp; CXMVECTOR;
-typedef const XMMATRIX&amp; FXMMATRIX;
-typedef const XMMATRIX&amp; CXMMATRIX;
+typedef const XMVECTOR& FXMVECTOR;
+typedef const XMVECTOR& GXMVECTOR;
+typedef const XMVECTOR& HXMVECTOR;
+typedef const XMVECTOR& CXMVECTOR;
+typedef const XMMATRIX& FXMMATRIX;
+typedef const XMMATRIX& CXMMATRIX;
 ```
 
 
@@ -143,9 +143,9 @@ When you use \_\_vectorcall:
 typedef const XMVECTOR  FXMVECTOR;
 typedef const XMVECTOR  GXMVECTOR;
 typedef const XMVECTOR  HXMVECTOR;
-typedef const XMVECTOR&amp; CXMVECTOR;
+typedef const XMVECTOR& CXMVECTOR;
 typedef const XMMATRIX  FXMMATRIX;
-typedef const XMMATRIX&amp; CXMMATRIX;
+typedef const XMMATRIX& CXMMATRIX;
 ```
 
 
@@ -156,9 +156,9 @@ typedef const XMMATRIX&amp; CXMMATRIX;
 ```C++
 typedef const XMVECTOR  FXMVECTOR;
 typedef const XMVECTOR  GXMVECTOR;
-typedef const XMVECTOR&amp; CXMVECTOR;
-typedef const XMMATRIX&amp; FXMMATRIX;
-typedef const XMMATRIX&amp; CXMMATRIX;
+typedef const XMVECTOR& CXMVECTOR;
+typedef const XMMATRIX& FXMMATRIX;
+typedef const XMMATRIX& CXMMATRIX;
 ```
 
 

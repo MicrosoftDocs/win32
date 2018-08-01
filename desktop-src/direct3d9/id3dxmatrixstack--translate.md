@@ -80,7 +80,7 @@ This method right-multiplies the current matrix with the computed translation ma
 
 ```
 D3DXMATRIX tmp;
-D3DXMatrixTranslation( &amp;tmp, x, y, z );
+D3DXMatrixTranslation( &tmp, x, y, z );
 m_stack[m_currentPos] = m_stack[m_currentPos] * tmp;
 ```
 

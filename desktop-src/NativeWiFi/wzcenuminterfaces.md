@@ -202,7 +202,7 @@ int wmain()
                 wprintf(L"Num Entries: %lu\n", pIfList->dwNumIntfs);
 
                 for (i = 0; i < (int) pIfList->dwNumIntfs; i++) {
-                    pIfInfo = &amp;pIfList->pIntfs[i];
+                    pIfInfo = &pIfList->pIntfs[i];
                     if (pIfInfo->wszGuid == NULL)
                         wprintf(L"  InterfaceGUID[%d]: NULL\n",i);
                     else

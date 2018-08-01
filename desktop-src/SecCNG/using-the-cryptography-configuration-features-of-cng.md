@@ -41,7 +41,7 @@ You use the [**BCryptEnumRegisteredProviders**](/windows/desktop/api/Bcrypt/nf-b
         Get the providers, letting the BCryptEnumRegisteredProviders 
         function allocate the memory.
         */
-        status = BCryptEnumRegisteredProviders(&amp;cbBuffer, &amp;pBuffer);
+        status = BCryptEnumRegisteredProviders(&cbBuffer, &pBuffer);
 
         if (NT_SUCCESS(status))
         {
@@ -92,7 +92,7 @@ You use the [**BCryptEnumRegisteredProviders**](/windows/desktop/api/Bcrypt/nf-b
         ULONG cbBuffer = 0;
 
         // Get the required size of the buffer.
-        status = BCryptEnumRegisteredProviders(&amp;cbBuffer, NULL);
+        status = BCryptEnumRegisteredProviders(&cbBuffer, NULL);
 
         if (STATUS_BUFFER_TOO_SMALL == status)
         {
@@ -103,8 +103,8 @@ You use the [**BCryptEnumRegisteredProviders**](/windows/desktop/api/Bcrypt/nf-b
             {
                 // Get the providers in the buffer that was allocated.
                 status = BCryptEnumRegisteredProviders(
-                    &amp;cbBuffer, 
-                    &amp;pBuffer);
+                    &cbBuffer, 
+                    &pBuffer);
                 if (NT_SUCCESS(status))
                 {
                     for (ULONG i = 0; i < pBuffer->cProviders; i++)

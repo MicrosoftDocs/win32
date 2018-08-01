@@ -31,7 +31,7 @@ hr = CoCreateInstance(CLSID_WICImagingFactory, NULL,
   (LPVOID*) m_pImagingFactory);
 
 hr = m_pImagingFactory->QueryInterface(
-  IID_IWICComponentFactory, (void**)&amp;m_pComponentFactory);
+  IID_IWICComponentFactory, (void**)&m_pComponentFactory);
 ```
 
 

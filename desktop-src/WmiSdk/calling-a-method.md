@@ -50,7 +50,7 @@ Set colServices = objWMIService.ExecQuery ("Select * from Win32_Service where Na
 For Each objService in colServices
     Return = objService.StopService()
     If Return <> 0 Then
-        Wscript.Echo "Failed " &amp;VBNewLine & "Error code = " & Return 
+        Wscript.Echo "Failed " &VBNewLine & "Error code = " & Return 
     Else
        WScript.Echo "Succeeded"
     End If

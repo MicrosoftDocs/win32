@@ -71,7 +71,7 @@ HRESULT DemoApp::CreateDeviceIndependentResources()
     HRESULT hr = S_OK;
 
     // Create a Direct2D factory.
-    hr = D2D1CreateFactory(D2D1_FACTORY_TYPE_SINGLE_THREADED, &amp;m_pDirect2dFactory);
+    hr = D2D1CreateFactory(D2D1_FACTORY_TYPE_SINGLE_THREADED, &m_pDirect2dFactory);
 
     return hr;
 }

@@ -70,7 +70,7 @@ int main(void)
     memset(wszRecvBuf,0,sizeof(wszRecvBuf));
 
     //  Begin: Init Winsock2
-    status = WSAStartup(wVer,&amp;wsData);
+    status = WSAStartup(wVer,&wsData);
     if (status != NO_ERROR)
     {
         return -1;
@@ -87,17 +87,17 @@ int main(void)
 
     //  Disable non-blocking I/O for this example.
     icmd = 0;   
-    status = ioctlsocket(s,FIONBIO,&amp;icmd);
+    status = ioctlsocket(s,FIONBIO,&icmd);
 
     //  Bind the socket to a dynamically assigned port.
     sa.sa_family=AF_INET;
     memset(sa.sa_data,0,sizeof(sa.sa_data));
 
-    status = bind(s,&amp;sa,sizeof(sa));
+    status = bind(s,&sa,sizeof(sa));
 
     //  Convert the port to the local host byte order.
     ilen = sizeof(sa_in);
-    status = getsockname(s,(struct sockaddr *)&amp;sa_in,&amp;ilen);
+    status = getsockname(s,(struct sockaddr *)&sa_in,&ilen);
     if (status == NO_ERROR) 
     {
         printf("Server: Bound to port %d\n",ntohs(sa_in.sin_port));
@@ -108,7 +108,7 @@ int main(void)
     //  because gethostbyname does not recognize Unicode.
 
     ilen = sizeof(szName);
-    GetComputerNameA(szName,&amp;ulLen);
+    GetComputerNameA(szName,&ulLen);
     he = gethostbyname(szName);
 
     //  Put the address in the SOCKADDR structure.
@@ -126,8 +126,8 @@ int main(void)
     }
 
     //  Register this instance with RnR.
-    status = serverRegister((SOCKADDR *)&amp;sa_in, 
-        &amp;SVCID_EXAMPLE_SERVICE, 
+    status = serverRegister((SOCKADDR *)&sa_in, 
+        &SVCID_EXAMPLE_SERVICE, 
         pszServiceInstanceName, 
         pszServiceInstanceComment);
     if (status != NO_ERROR) 
@@ -143,7 +143,7 @@ int main(void)
     //  here to call AcceptEx here and process the connections through a
     //  completion port.  
     ilen = sizeof(sa);
-    newsock = accept(s,&amp;sa,&amp;ilen);
+    newsock = accept(s,&sa,&ilen);
     if (newsock == INVALID_SOCKET) 
     {
         printf("Failed to create socket: %d\n",WSAGetLastError());
@@ -162,8 +162,8 @@ int main(void)
 
     //  Unregister and end.
     printf("Unregistering and shutting down.\n");
-    status = serverUnregister((SOCKADDR *)&amp;sa_in, 
-        &amp;SVCID_EXAMPLE_SERVICE, 
+    status = serverUnregister((SOCKADDR *)&sa_in, 
+        &SVCID_EXAMPLE_SERVICE, 
         pszServiceInstanceName, 
         pszServiceInstanceComment);
 
@@ -184,9 +184,9 @@ INT serverUnregister(SOCKADDR *sa,
     CSADDR_INFO CSAddrInfo[1];
     SOCKADDR sa_local;
 
-    memset(&amp;QuerySet, 0, sizeof(QuerySet));
-    memset(&amp;CSAddrInfo, 0, sizeof(CSAddrInfo));
-    memset(&amp;sa_local, 0, sizeof(SOCKADDR));
+    memset(&QuerySet, 0, sizeof(QuerySet));
+    memset(&CSAddrInfo, 0, sizeof(CSAddrInfo));
+    memset(&sa_local, 0, sizeof(SOCKADDR));
     sa_local.sa_family = AF_INET;
 
     //  Build the CSAddrInfo structure to contain address
@@ -196,7 +196,7 @@ INT serverUnregister(SOCKADDR *sa,
     //  dynamically assigned port numbers are used.
     //
     CSAddrInfo[0].LocalAddr.iSockaddrLength = sizeof(SOCKADDR);
-    CSAddrInfo[0].LocalAddr.lpSockaddr = &amp;sa_local;
+    CSAddrInfo[0].LocalAddr.lpSockaddr = &sa_local;
     CSAddrInfo[0].RemoteAddr.iSockaddrLength = sizeof(SOCKADDR);
     CSAddrInfo[0].RemoteAddr.lpSockaddr = sa;
     CSAddrInfo[0].iSocketType = SOCK_STREAM;
@@ -206,14 +206,14 @@ INT serverUnregister(SOCKADDR *sa,
     QuerySet.lpServiceClassId = pServiceID;
     QuerySet.lpszServiceInstanceName = pszServiceInstanceName;
     QuerySet.lpszComment = pszServiceInstanceComment;
-    QuerySet.lpVersion = &amp;Version;
+    QuerySet.lpVersion = &Version;
     QuerySet.lpVersion->dwVersion = 2;
     QuerySet.lpVersion->ecHow = COMP_NOTLESS;
     QuerySet.dwNameSpace = NS_NTDS;
     QuerySet.dwNumberOfCsAddrs = 1;
     QuerySet.lpcsaBuffer = CSAddrInfo;
 
-    ret = WSASetService( &amp;QuerySet,
+    ret = WSASetService( &QuerySet,
                          RNRSERVICE_DEREGISTER,
                          SERVICE_MULTIPLE);
 
@@ -232,9 +232,9 @@ INT serverRegister(SOCKADDR * sa,
     CSADDR_INFO CSAddrInfo[1];
     SOCKADDR sa_local;
 
-    memset(&amp;QuerySet, 0, sizeof(QuerySet));
-    memset(&amp;CSAddrInfo, 0, sizeof(CSAddrInfo));
-    memset(&amp;sa_local, 0, sizeof(SOCKADDR));
+    memset(&QuerySet, 0, sizeof(QuerySet));
+    memset(&CSAddrInfo, 0, sizeof(CSAddrInfo));
+    memset(&sa_local, 0, sizeof(SOCKADDR));
     sa_local.sa_family = AF_INET;
 
     //  Build the CSAddrInfo structure to contain address
@@ -244,7 +244,7 @@ INT serverRegister(SOCKADDR * sa,
     //  assigned port numbers are used.
     //
     CSAddrInfo[0].LocalAddr.iSockaddrLength = sizeof(SOCKADDR);
-    CSAddrInfo[0].LocalAddr.lpSockaddr = &amp;sa_local;
+    CSAddrInfo[0].LocalAddr.lpSockaddr = &sa_local;
     CSAddrInfo[0].RemoteAddr.iSockaddrLength = sizeof(SOCKADDR);
     CSAddrInfo[0].RemoteAddr.lpSockaddr = sa;
     CSAddrInfo[0].iSocketType = SOCK_STREAM;
@@ -254,14 +254,14 @@ INT serverRegister(SOCKADDR * sa,
     QuerySet.lpServiceClassId = pServiceID;
     QuerySet.lpszServiceInstanceName = pszServiceInstanceName;
     QuerySet.lpszComment = pszServiceInstanceComment;
-    QuerySet.lpVersion = &amp;Version;
+    QuerySet.lpVersion = &Version;
     QuerySet.lpVersion->dwVersion = 2;
     QuerySet.lpVersion->ecHow = COMP_NOTLESS;
     QuerySet.dwNameSpace = NS_NTDS;
     QuerySet.dwNumberOfCsAddrs = 1;
     QuerySet.lpcsaBuffer = CSAddrInfo;
 
-    ret = WSASetService( &amp;QuerySet,
+    ret = WSASetService( &QuerySet,
                          RNRSERVICE_REGISTER,
                          SERVICE_MULTIPLE);
 

@@ -160,7 +160,7 @@ void MainWindow::OnMouseMove(int pixelX, int pixelY, DWORD flags)
     const float dipX = DPIScale::PixelsToDipsX(pixelX);
     const float dipY = DPIScale::PixelsToDipsY(pixelY);
 
-    if ((flags & MK_LBUTTON) &amp;&amp; Selection())
+    if ((flags & MK_LBUTTON) && Selection())
     { 
         if (mode == DrawMode)
         {
@@ -191,7 +191,7 @@ The logic to resize an ellipse was described previously, in the section [Example
 ```C++
 void MainWindow::OnLButtonUp()
 {
-    if ((mode == DrawMode) &amp;&amp; Selection())
+    if ((mode == DrawMode) && Selection())
     {
         ClearSelection();
         InvalidateRect(m_hwnd, NULL, FALSE);

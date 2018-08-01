@@ -30,8 +30,8 @@ cbData = sizeof(PROV_ENUMALGS_EX);
 while( CryptGetProvParam(
     hCryptProv,          // handle to an open cryptographic provider
     PP_ENUMALGS_EX, 
-    (BYTE *)&amp;EnumAlgs,  // information on the next algorithm
-    &amp;cbData,            // number of bytes in the PROV_ENUMALGS_EX
+    (BYTE *)&EnumAlgs,  // information on the next algorithm
+    &cbData,            // number of bytes in the PROV_ENUMALGS_EX
     dFlag))             // flag to indicate whether this is a first or
                         // subsequent algorithm supported by the
                         // CSP.

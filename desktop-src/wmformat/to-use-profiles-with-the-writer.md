@@ -40,7 +40,7 @@ HRESULT SetProfileExample()
 {
   HRESULT hr;
   IWMWriter *pWriter = NULL;
-  hr = WMCreateWriter(NULL, &amp;pWriter);
+  hr = WMCreateWriter(NULL, &pWriter);
   if (FAILED(hr)) return hr;
   hr = pWriter->SetProfileByID(WMProfile_V80_56Video);
   return hr;

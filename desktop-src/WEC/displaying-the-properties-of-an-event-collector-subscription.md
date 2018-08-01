@@ -67,14 +67,14 @@ void  PrintProperty(PEC_VARIANT vProperty,
 DWORD GetProperty(EC_HANDLE hSubscription,  
     EC_SUBSCRIPTION_PROPERTY_ID propID, 
     DWORD flags, 
-    std::vector<BYTE>&amp; buffer, 
-    PEC_VARIANT&amp; vProperty);
+    std::vector<BYTE>& buffer, 
+    PEC_VARIANT& vProperty);
 DWORD GetArrayProperty(EC_OBJECT_ARRAY_PROPERTY_HANDLE hArray, 
     EC_SUBSCRIPTION_PROPERTY_ID propID, 
     DWORD arrayIndex, 
     DWORD flags, 
-    std::vector<BYTE>&amp; buffer, 
-    PEC_VARIANT&amp; vProperty);
+    std::vector<BYTE>& buffer, 
+    PEC_VARIANT& vProperty);
 
 // Helpers - Conversion Functions
 std::wstring ConvertEcConfigurationMode(DWORD code);
@@ -393,7 +393,7 @@ void __cdecl wmain()
         if (ERROR_SUCCESS != dwRetVal)
             goto Cleanup;
 
-        if (vProperty->Type != EcVarTypeNull &amp;&amp; vProperty->Type != 
+        if (vProperty->Type != EcVarTypeNull && vProperty->Type != 
             EcVarObjectArrayPropertyHandle)
         {
             dwRetVal = ERROR_INVALID_DATA;
@@ -409,7 +409,7 @@ void __cdecl wmain()
         }
 
         // Get the size of the event sources array
-        if (!EcGetObjectArraySize(hArray, &amp;dwEventSourceCount))
+        if (!EcGetObjectArraySize(hArray, &dwEventSourceCount))
         {
             dwRetVal = GetLastError();
             goto Cleanup;
@@ -462,7 +462,7 @@ void __cdecl wmain()
 
             // By default, the password cannot be read. 
             // An ACCESS DENIED Error will be returned.
-            if (ERROR_SUCCESS != dwRetVal &amp;&amp; ERROR_ACCESS_DENIED != dwRetVal)
+            if (ERROR_SUCCESS != dwRetVal && ERROR_ACCESS_DENIED != dwRetVal)
             {
                 wprintf(L"Error Obtaining Data\n");
                 continue;
@@ -488,7 +488,7 @@ void __cdecl wmain()
                 NULL,
                 dwRetVal,
                 0,
-                (LPWSTR) &amp;lpwszBuffer,
+                (LPWSTR) &lpwszBuffer,
                 0,
                 NULL);
             
@@ -509,7 +509,7 @@ void __cdecl wmain()
 void  PrintProperty(PEC_VARIANT vProperty, EC_VARIANT_TYPE varType, SUB_TYPE subType)
 {
     if ((!vProperty ) || ((vProperty->Type!= (DWORD) EcVarTypeNull) 
-        &amp;&amp; (vProperty->Type != (DWORD) varType )))
+        && (vProperty->Type != (DWORD) varType )))
     {
         wprintf(L"Failed to Obtain Data\n");
         return;
@@ -564,8 +564,8 @@ void  PrintProperty(PEC_VARIANT vProperty, EC_VARIANT_TYPE varType, SUB_TYPE sub
 DWORD GetProperty(EC_HANDLE hSubscription, 
     EC_SUBSCRIPTION_PROPERTY_ID propID,
     DWORD flags,
-    std::vector<BYTE>&amp; buffer,
-    PEC_VARIANT&amp; vProperty)
+    std::vector<BYTE>& buffer,
+    PEC_VARIANT& vProperty)
 {
     DWORD  dwBufferSize, dwRetVal = ERROR_SUCCESS;
     buffer.resize(sizeof(EC_VARIANT));
@@ -578,8 +578,8 @@ DWORD GetProperty(EC_HANDLE hSubscription,
         propID,
         flags, 
         (DWORD) buffer.size(), 
-        (PEC_VARIANT)&amp;buffer[0], 
-        &amp;dwBufferSize))
+        (PEC_VARIANT)&buffer[0], 
+        &dwBufferSize))
     {
         dwRetVal = GetLastError();
         if (ERROR_INSUFFICIENT_BUFFER == dwRetVal)
@@ -591,8 +591,8 @@ DWORD GetProperty(EC_HANDLE hSubscription,
                 propID,
                 flags,
                 (DWORD) buffer.size(),
-                (PEC_VARIANT)&amp;buffer[0],
-                &amp;dwBufferSize))
+                (PEC_VARIANT)&buffer[0],
+                &dwBufferSize))
             {
                 dwRetVal = GetLastError();
             }
@@ -601,7 +601,7 @@ DWORD GetProperty(EC_HANDLE hSubscription,
 
     if (dwRetVal == ERROR_SUCCESS)
     {
-        vProperty = (PEC_VARIANT) &amp;buffer[0];
+        vProperty = (PEC_VARIANT) &buffer[0];
     }
     else
     {
@@ -615,8 +615,8 @@ DWORD GetArrayProperty(EC_OBJECT_ARRAY_PROPERTY_HANDLE hArray,
     EC_SUBSCRIPTION_PROPERTY_ID propID,
     DWORD arrayIndex,
     DWORD flags,
-    std::vector<BYTE>&amp; buffer,
-    PEC_VARIANT&amp; vProperty)
+    std::vector<BYTE>& buffer,
+    PEC_VARIANT& vProperty)
 {
     DWORD dwRetVal = ERROR_SUCCESS;
     DWORD dwBufferSizeUsed;
@@ -627,8 +627,8 @@ DWORD GetArrayProperty(EC_OBJECT_ARRAY_PROPERTY_HANDLE hArray,
         arrayIndex,
         flags,
         (DWORD) buffer.size(),
-        (PEC_VARIANT) &amp;buffer[0],
-        &amp;dwBufferSizeUsed))
+        (PEC_VARIANT) &buffer[0],
+        &dwBufferSizeUsed))
     {
         dwRetVal = GetLastError();
         if (ERROR_INSUFFICIENT_BUFFER == dwRetVal)
@@ -640,8 +640,8 @@ DWORD GetArrayProperty(EC_OBJECT_ARRAY_PROPERTY_HANDLE hArray,
                 arrayIndex,
                 flags,
                 (DWORD) buffer.size(),
-                (PEC_VARIANT) &amp;buffer[0],
-                &amp;dwBufferSizeUsed))
+                (PEC_VARIANT) &buffer[0],
+                &dwBufferSizeUsed))
             {
                 dwRetVal = GetLastError();
             }
@@ -650,7 +650,7 @@ DWORD GetArrayProperty(EC_OBJECT_ARRAY_PROPERTY_HANDLE hArray,
 
     if (dwRetVal == ERROR_SUCCESS)
     {
-        vProperty = (PEC_VARIANT) &amp;buffer[0];
+        vProperty = (PEC_VARIANT) &buffer[0];
     }
     else
     {
@@ -725,17 +725,17 @@ std::wstring ConvertEcDateTime(ULONGLONG code)
     ft.dwHighDateTime = (DWORD)((code >> 32) & 0xFFFFFFFF);
     ft.dwLowDateTime = (DWORD)(code & 0xFFFFFFFF);
 
-    if (!FileTimeToSystemTime(&amp;ft, &amp;utcTime))
+    if (!FileTimeToSystemTime(&ft, &utcTime))
     {
         return timeString;
     }
 
-    if (!SystemTimeToTzSpecificLocalTime(NULL, &amp;utcTime, &amp;localTime))
+    if (!SystemTimeToTzSpecificLocalTime(NULL, &utcTime, &localTime))
     {
         return timeString;
     }
 
-    HRESULT hr = StringCchPrintfW((LPWSTR) &amp;buffer[0],
+    HRESULT hr = StringCchPrintfW((LPWSTR) &buffer[0],
         buffer.size(),
         L"%4.4hd-%2.2hd-%2.2hdT%2.2hd:%2.2hd:%2.2hd.%3.3hdZ",
         localTime.wYear,
@@ -751,7 +751,7 @@ std::wstring ConvertEcDateTime(ULONGLONG code)
         return timeString;
     }
 
-    timeString = (LPWSTR) &amp;buffer[0];
+    timeString = (LPWSTR) &buffer[0];
 
     return timeString;
 }

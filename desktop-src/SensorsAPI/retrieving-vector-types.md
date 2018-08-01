@@ -20,10 +20,10 @@ The following example code shows how to cast the data retrieved in SENSOR\_PROPE
 
 ```C++
 PROPVARIANT pvCurve;
-PropVariantInit(&amp;pvCurve);
+PropVariantInit(&pvCurve);
 
 // Retrieve the property value.
-hr = pSensor->GetProperty(SENSOR_PROPERTY_LIGHT_RESPONSE_CURVE, &amp;pvCurve);
+hr = pSensor->GetProperty(SENSOR_PROPERTY_LIGHT_RESPONSE_CURVE, &pvCurve);
 if (SUCCEEDED(hr))
 {
     if ((VT_UI1|VT_VECTOR) == V_VT(pvCurve)) // Note actual type of UI1
@@ -40,7 +40,7 @@ if (SUCCEEDED(hr))
 }
 
 // Remember to free the PROPVARIANT when done.
-PropVariantClear(&amp;pvCurve);
+PropVariantClear(&pvCurve);
 ```
 
 

@@ -16,7 +16,7 @@ A subquery is a saved search file (\*.search-ms) that you can use as a filter fo
 
 
 ```
-search:query=vacation&amp;subquery=mydepartment.search-ms
+search:query=vacation&subquery=mydepartment.search-ms
 ```
 
 

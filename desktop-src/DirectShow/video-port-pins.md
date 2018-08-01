@@ -34,11 +34,11 @@ You can use the [**ICaptureGraphBuilder2::FindPin**](/windows/desktop/api/Strmif
 hr = pBuild->FindPin(
     pCap,                    // Pointer to the capture filter.
     PINDIR_OUTPUT,           // Look for an output pin.
-    &amp;PIN_CATEGORY_VIDEOPORT, // Look for a video port pin.
+    &PIN_CATEGORY_VIDEOPORT, // Look for a video port pin.
     NULL,                    // Any media type.
     FALSE,                   // Pin can be connected.
     0,                       // Retrieve the first matching pin.
-    &amp;pVPPin                  // Receives a pointer to the pin.
+    &pVPPin                  // Receives a pointer to the pin.
 );
 ```
 
@@ -48,7 +48,7 @@ After you add the Overlay Mixer to the graph, call **FindPin** again to find pin
 
 
 ```C++
-pBuild->FindPin(pOvMix, PINDIR_INPUT, NULL, NULL, TRUE, 0, &amp;pOVPin);
+pBuild->FindPin(pOvMix, PINDIR_INPUT, NULL, NULL, TRUE, 0, &pOVPin);
 ```
 
 

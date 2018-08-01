@@ -71,7 +71,7 @@ HRESULT hr = S_OK;
 
 
 ```C++
-hr = m_pDevice->CreateAnimation(&amp;m_pFadeInAnimation);
+hr = m_pDevice->CreateAnimation(&m_pFadeInAnimation);
 ```
 
 
@@ -110,7 +110,7 @@ IDCompositionEffectGroup *m_pEffectGroup;
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>hr = m_pDevice-&gt;CreateEffectGroup(&amp;m_pEffectGroup);</code></pre></td>
+<td><pre><code>hr = m_pDevice-&gt;CreateEffectGroup(&m_pEffectGroup);</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -173,7 +173,7 @@ Be sure to free the animation object when you no longer need it.
 
 
 ```C++
-SafeRelease(&amp;m_pFadeInAnimation);
+SafeRelease(&m_pFadeInAnimation);
 ```
 
 
@@ -249,7 +249,7 @@ SafeRelease(
 
 #ifndef HINST_THISCOMPONENT
 EXTERN_C IMAGE_DOS_HEADER __ImageBase;
-#define HINST_THISCOMPONENT ((HINSTANCE)&amp;__ImageBase)
+#define HINST_THISCOMPONENT ((HINSTANCE)&__ImageBase)
 #endif
 
 /******************************************************************
@@ -417,16 +417,16 @@ DemoApp::DemoApp() :
 
 DemoApp::~DemoApp()
 {
-    SafeRelease(&amp;m_pDevice);
-    SafeRelease(&amp;m_pCompTarget);
-    SafeRelease(&amp;m_pD3D11Device);
-    SafeRelease(&amp;m_pWICFactory);
-    SafeRelease(&amp;m_pD2DFactory);
-    SafeRelease(&amp;m_pSurface);
-    SafeRelease(&amp;m_pVisual);
-    SafeRelease(&amp;m_pFadeOutAnimation);
-    SafeRelease(&amp;m_pFadeInAnimation);
-    SafeRelease(&amp;m_pEffectGroup);
+    SafeRelease(&m_pDevice);
+    SafeRelease(&m_pCompTarget);
+    SafeRelease(&m_pD3D11Device);
+    SafeRelease(&m_pWICFactory);
+    SafeRelease(&m_pD2DFactory);
+    SafeRelease(&m_pSurface);
+    SafeRelease(&m_pVisual);
+    SafeRelease(&m_pFadeOutAnimation);
+    SafeRelease(&m_pFadeInAnimation);
+    SafeRelease(&m_pEffectGroup);
 }
 
 /*******************************************************************
@@ -459,7 +459,7 @@ HRESULT DemoApp::Initialize()
         wcex.hCursor       = LoadCursor(NULL, IDC_ARROW);
         wcex.lpszClassName = L&quot;DirectCompDemoApp&quot;;
 
-        RegisterClassEx(&amp;wcex);
+        RegisterClassEx(&wcex);
 
         // Create the application window.
         //
@@ -535,8 +535,8 @@ HRESULT DemoApp::InitializeDirectCompositionDevice()
         NULL,
         0,
         D3D11_SDK_VERSION,
-        &amp;m_pD3D11Device,
-        &amp;featureLevelSupported,
+        &m_pD3D11Device,
+        &featureLevelSupported,
         NULL);
 
     IDXGIDevice *pDXGIDevice = nullptr;
@@ -545,7 +545,7 @@ HRESULT DemoApp::InitializeDirectCompositionDevice()
     if (SUCCEEDED(hr))
     {
         // Create the DXGI device used to create bitmap surfaces.
-        hr = m_pD3D11Device-&gt;QueryInterface(&amp;pDXGIDevice);
+        hr = m_pD3D11Device-&gt;QueryInterface(&pDXGIDevice);
     }
 
     if (SUCCEEDED(hr))
@@ -553,19 +553,19 @@ HRESULT DemoApp::InitializeDirectCompositionDevice()
         // Create the DirectComposition device object.
         hr = DCompositionCreateDevice(pDXGIDevice, 
                 __uuidof(IDCompositionDevice), 
-                reinterpret_cast&lt;void **&gt;(&amp;m_pDevice));
+                reinterpret_cast&lt;void **&gt;(&m_pDevice));
     }
 
     if (SUCCEEDED(hr))
     {
         // Create the composition target object.
-        hr = m_pDevice-&gt;CreateTargetForHwnd(m_hwnd, TRUE, &amp;m_pCompTarget);   
+        hr = m_pDevice-&gt;CreateTargetForHwnd(m_hwnd, TRUE, &m_pCompTarget);   
     }
 
     if (SUCCEEDED(hr))
     {
         // Create a visual object.          
-        hr = m_pDevice-&gt;CreateVisual(&amp;m_pVisual);  
+        hr = m_pDevice-&gt;CreateVisual(&m_pVisual);  
     }
 
     if (SUCCEEDED(hr))
@@ -573,7 +573,7 @@ HRESULT DemoApp::InitializeDirectCompositionDevice()
         // Create a composition surface.
         hr = m_pDevice-&gt;CreateSurface(80, 80,//m_bitmapWidth, m_bitmapHeight, 
             DXGI_FORMAT_B8G8R8A8_UNORM, DXGI_ALPHA_MODE_PREMULTIPLIED, 
-            &amp;m_pSurface);
+            &m_pSurface);
     }
 
     if (SUCCEEDED(hr))
@@ -588,7 +588,7 @@ HRESULT DemoApp::InitializeDirectCompositionDevice()
 
     if (SUCCEEDED(hr))
     {
-        hr = m_pDevice-&gt;CreateAnimation(&amp;m_pFadeInAnimation);
+        hr = m_pDevice-&gt;CreateAnimation(&m_pFadeInAnimation);
     }
 
     m_pFadeInAnimation-&gt;AddCubic(0.0f, 0.0f, 0.5f, 0.0f, 0.0f);
@@ -596,7 +596,7 @@ HRESULT DemoApp::InitializeDirectCompositionDevice()
 
     if (SUCCEEDED(hr))
     {
-        hr = m_pDevice-&gt;CreateAnimation(&amp;m_pFadeOutAnimation);
+        hr = m_pDevice-&gt;CreateAnimation(&m_pFadeOutAnimation);
     }
 
     if (SUCCEEDED(hr))
@@ -607,7 +607,7 @@ HRESULT DemoApp::InitializeDirectCompositionDevice()
 
     if (SUCCEEDED(hr))
     {
-        hr = m_pDevice-&gt;CreateEffectGroup(&amp;m_pEffectGroup);
+        hr = m_pDevice-&gt;CreateEffectGroup(&m_pEffectGroup);
     }
 
     if (SUCCEEDED(hr))
@@ -615,7 +615,7 @@ HRESULT DemoApp::InitializeDirectCompositionDevice()
         hr = m_pEffectGroup-&gt;SetOpacity(m_pFadeInAnimation);
     }
 
-    SafeRelease(&amp;pDXGIDevice);
+    SafeRelease(&pDXGIDevice);
 
     return hr;
 }
@@ -635,7 +635,7 @@ HRESULT DemoApp::CreateDeviceIndependentResources()
         CLSID_WICImagingFactory,
         NULL,
         CLSCTX_INPROC_SERVER,
-        IID_PPV_ARGS(&amp;m_pWICFactory)
+        IID_PPV_ARGS(&m_pWICFactory)
         );
 
 
@@ -644,7 +644,7 @@ HRESULT DemoApp::CreateDeviceIndependentResources()
         // Create a Direct2D factory.
         hr = D2D1CreateFactory(
             D2D1_FACTORY_TYPE_SINGLE_THREADED,
-            &amp;m_pD2DFactory
+            &m_pD2DFactory
             );
     }
 
@@ -663,7 +663,7 @@ HRESULT DemoApp::CreateDeviceResources()
     HRESULT hr = S_OK;
 
     RECT rc;
-    GetClientRect(m_hwnd, &amp;rc);
+    GetClientRect(m_hwnd, &rc);
 
     D2D1_SIZE_U size = D2D1::SizeU(
         rc.right - rc.left,
@@ -674,7 +674,7 @@ HRESULT DemoApp::CreateDeviceResources()
     hr = m_pD2DFactory-&gt;CreateHwndRenderTarget(
         D2D1::RenderTargetProperties(),
         D2D1::HwndRenderTargetProperties(m_hwnd, size),
-        &amp;m_pRenderTarget
+        &m_pRenderTarget
         );
      
     // **********************************************
@@ -695,7 +695,7 @@ HRESULT DemoApp::CreateDeviceResources()
 
 void DemoApp::DiscardDeviceResources()
 {
-    SafeRelease(&amp;m_pRenderTarget);
+    SafeRelease(&m_pRenderTarget);
     delete [] m_pImageFileNames;
 }
 
@@ -710,10 +710,10 @@ void DemoApp::RunMessageLoop()
 {
     MSG msg;
 
-    while (GetMessage(&amp;msg, NULL, 0, 0))
+    while (GetMessage(&msg, NULL, 0, 0))
     {
-        TranslateMessage(&amp;msg);
-        DispatchMessage(&amp;msg);
+        TranslateMessage(&msg);
+        DispatchMessage(&msg);
     }
 }
 
@@ -744,7 +744,7 @@ HRESULT DemoApp::OnClick()
     }
 
 
-    hr = m_pSurface-&gt;BeginDraw(NULL, __uuidof(IDXGISurface), (void **)&amp;pDXGISurface, &amp;offset);
+    hr = m_pSurface-&gt;BeginDraw(NULL, __uuidof(IDXGISurface), (void **)&pDXGISurface, &offset);
 
     if (pDXGISurface)
     {
@@ -764,12 +764,12 @@ HRESULT DemoApp::OnClick()
         StringCbCopy((wchar_t *)pbuf, MAX_PATH,  L&quot;c:\\images\\&quot;);
         StringCchCat((wchar_t *)pbuf, MAX_PATH, m_pImageFileNames[i]);
 
-        hr = m_pD2DFactory-&gt;CreateDxgiSurfaceRenderTarget(pDXGISurface, &amp;props, &amp;pRenderTarget);
+        hr = m_pD2DFactory-&gt;CreateDxgiSurfaceRenderTarget(pDXGISurface, &props, &pRenderTarget);
 
         pRenderTarget-&gt;BeginDraw();
 
 
-        LoadJPEGImage(pRenderTarget, pbuf, &amp;pBitmap);
+        LoadJPEGImage(pRenderTarget, pbuf, &pBitmap);
 
         pRenderTarget-&gt;DrawBitmap(pBitmap, NULL, 1.0, 
             D2D1_BITMAP_INTERPOLATION_MODE_LINEAR, NULL);
@@ -786,9 +786,9 @@ HRESULT DemoApp::OnClick()
 
     i = (++i == 5) ? 0 : i;
 
-    SafeRelease(&amp;pRenderTarget);
-    SafeRelease(&amp;pDXGISurface);
-    SafeRelease(&amp;pBitmap);
+    SafeRelease(&pRenderTarget);
+    SafeRelease(&pDXGISurface);
+    SafeRelease(&pBitmap);
 
     return hr;
 }
@@ -810,7 +810,7 @@ HRESULT DemoApp::SetVisualOpacity(IDCompositionVisual *pVisual, float opacity)
         return E_INVALIDARG;
 
     // Create an effect group object.
-    hr = m_pDevice-&gt;CreateEffectGroup(&amp;pEffectGroup);
+    hr = m_pDevice-&gt;CreateEffectGroup(&pEffectGroup);
 
     if (SUCCEEDED(hr))
     {
@@ -831,7 +831,7 @@ HRESULT DemoApp::SetVisualOpacity(IDCompositionVisual *pVisual, float opacity)
     }
 
     // Free the effect group object.
-    SafeRelease(&amp;pEffectGroup);
+    SafeRelease(&pEffectGroup);
 
     return hr;
 }
@@ -942,7 +942,7 @@ HRESULT DemoApp::LoadJPEGImage(
         CLSID_WICImagingFactory,
         NULL,
         CLSCTX_INPROC_SERVER,
-        IID_PPV_ARGS(&amp;m_pWICFactory)
+        IID_PPV_ARGS(&m_pWICFactory)
         );
 
     hr = m_pWICFactory-&gt;CreateDecoderFromFilename(
@@ -950,20 +950,20 @@ HRESULT DemoApp::LoadJPEGImage(
         NULL,                           // Do not prefer a particular vendor
         GENERIC_READ,                   // Desired read access to the file
         WICDecodeMetadataCacheOnDemand, // Cache metadata when needed
-        &amp;pDecoder                       // Pointer to the decoder
+        &pDecoder                       // Pointer to the decoder
         );
 
     // Retrieve the first bitmap frame.
     if (SUCCEEDED(hr))
     {
-        hr = pDecoder-&gt;GetFrame(0, &amp;pDecoderFrame);
+        hr = pDecoder-&gt;GetFrame(0, &pDecoderFrame);
     }
 
     if (SUCCEEDED(hr))
     {
         // Convert the image format to 32bppPBGRA
         // (DXGI_FORMAT_B8G8R8A8_UNORM + D2D1_ALPHA_MODE_PREMULTIPLIED).
-        hr = m_pWICFactory-&gt;CreateFormatConverter(&amp;pConverter);
+        hr = m_pWICFactory-&gt;CreateFormatConverter(&pConverter);
     }
 
     if (SUCCEEDED(hr))
@@ -988,9 +988,9 @@ HRESULT DemoApp::LoadJPEGImage(
             );
     }
 
-    SafeRelease(&amp;pDecoder);
-    SafeRelease(&amp;pDecoderFrame);
-    SafeRelease(&amp;pConverter);
+    SafeRelease(&pDecoder);
+    SafeRelease(&pDecoderFrame);
+    SafeRelease(&pConverter);
 
     return hr;
 }
@@ -1005,7 +1005,7 @@ HRESULT DemoApp::GetImageFilenames(TCHAR szDir[MAX_PATH])
 
     int fileCount = 0;
 
-    hFind = FindFirstFile(szDir, &amp;ffd);
+    hFind = FindFirstFile(szDir, &ffd);
     hr = (hFind == INVALID_HANDLE_VALUE) ? E_HANDLE : S_OK;
 
     if (SUCCEEDED(hr))
@@ -1026,7 +1026,7 @@ HRESULT DemoApp::GetImageFilenames(TCHAR szDir[MAX_PATH])
                 break;
             }
         } 
-        while (FindNextFile(hFind, &amp;ffd) != 0);
+        while (FindNextFile(hFind, &ffd) != 0);
 
         FindClose(hFind);
     }

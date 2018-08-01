@@ -17,7 +17,7 @@ The input and output media types that are used by the codec DMOs are defined usi
 ```
     DMO_MEDIA_TYPE MediaType;
     WM_MEDIA_TYPE* pMedia = NULL;
-    pMedia = (WM_MEDIA_TYPE*)&amp;MediaType;
+    pMedia = (WM_MEDIA_TYPE*)&MediaType;
 ```
 
 

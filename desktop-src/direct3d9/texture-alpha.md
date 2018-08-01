@@ -19,13 +19,13 @@ LPDIRECT3DTEXTURE9 m_pTexture;
 
 // Create an alpha texture
 D3DXCreateTexture(m_d3dDevice, 128, 128, 0, D3DUSAGE_RENDERTARGET, 
-    D3DFMT_A8R8G8B8, D3DPOOL_MANAGED, &amp;m_pTexture);
+    D3DFMT_A8R8G8B8, D3DPOOL_MANAGED, &m_pTexture);
 
 // Initialize the alpha channel
 int  yGrad, xGrad;
 D3DLOCKED_RECT lockedRect;
 
-if(SUCCEEDED(pTexture->LockRect(0, &amp;lockedRect, NULL, D3DLOCK_DISCARD )))
+if(SUCCEEDED(pTexture->LockRect(0, &lockedRect, NULL, D3DLOCK_DISCARD )))
 {
     m_pRGBAData = new DWORD[128*128];
     if( m_pRGBAData != NULL )
@@ -49,7 +49,7 @@ if(SUCCEEDED(pTexture->LockRect(0, &amp;lockedRect, NULL, D3DLOCK_DISCARD )))
             }
         }
     }
-    pTexture->UnlockRect(&amp;lockedRect);
+    pTexture->UnlockRect(&lockedRect);
 }
 ```
 

@@ -104,7 +104,7 @@ HRESULT DXGISampleApp::CreateD3DDevice(
             flags,
             levelAttempts[level],
             D3D10_1_SDK_VERSION,
-            &amp;pDevice
+            &pDevice
             );
 
         if (SUCCEEDED(hr))
@@ -132,7 +132,7 @@ hr = CreateD3DDevice(
     NULL,
     D3D10_DRIVER_TYPE_HARDWARE,
     nDeviceFlags,
-    &amp;pDevice
+    &pDevice
     );
 
 if (FAILED(hr))
@@ -141,7 +141,7 @@ if (FAILED(hr))
         NULL,
         D3D10_DRIVER_TYPE_WARP,
         nDeviceFlags,
-        &amp;pDevice
+        &pDevice
         );
 }
 ```
@@ -169,24 +169,24 @@ The following steps describe how to create a DXGI surface render target and use 
     ```C++
     if (SUCCEEDED(hr))
     {
-        hr = pDevice->QueryInterface(&amp;m_pDevice);
+        hr = pDevice->QueryInterface(&m_pDevice);
     }
     if (SUCCEEDED(hr))
     {
-        hr = pDevice->QueryInterface(&amp;pDXGIDevice);
+        hr = pDevice->QueryInterface(&pDXGIDevice);
     }
     if (SUCCEEDED(hr))
     {
-        hr = pDXGIDevice->GetAdapter(&amp;pAdapter);
+        hr = pDXGIDevice->GetAdapter(&pAdapter);
     }
     if (SUCCEEDED(hr))
     {
-        hr = pAdapter->GetParent(IID_PPV_ARGS(&amp;pDXGIFactory));
+        hr = pAdapter->GetParent(IID_PPV_ARGS(&pDXGIFactory));
     }
     if (SUCCEEDED(hr))
     {
         DXGI_SWAP_CHAIN_DESC swapDesc;
-        ::ZeroMemory(&amp;swapDesc, sizeof(swapDesc));
+        ::ZeroMemory(&swapDesc, sizeof(swapDesc));
 
         swapDesc.BufferDesc.Width = nWidth;
         swapDesc.BufferDesc.Height = nHeight;
@@ -200,7 +200,7 @@ The following steps describe how to create a DXGI surface render target and use 
         swapDesc.OutputWindow = m_hwnd;
         swapDesc.Windowed = TRUE;
 
-        hr = pDXGIFactory->CreateSwapChain(m_pDevice, &amp;swapDesc, &amp;m_pSwapChain);
+        hr = pDXGIFactory->CreateSwapChain(m_pDevice, &swapDesc, &m_pSwapChain);
     }
     ```
 
@@ -212,7 +212,7 @@ The following steps describe how to create a DXGI surface render target and use 
     // Get a surface in the swap chain
     hr = m_pSwapChain->GetBuffer(
         0,
-        IID_PPV_ARGS(&amp;pBackBuffer)
+        IID_PPV_ARGS(&pBackBuffer)
         );
     ```
 
@@ -223,7 +223,7 @@ The following steps describe how to create a DXGI surface render target and use 
     // Create the DXGI Surface Render Target.
     FLOAT dpiX;
     FLOAT dpiY;
-    m_pD2DFactory->GetDesktopDpi(&amp;dpiX, &amp;dpiY);
+    m_pD2DFactory->GetDesktopDpi(&dpiX, &dpiY);
 
     D2D1_RENDER_TARGET_PROPERTIES props =
         D2D1::RenderTargetProperties(
@@ -250,8 +250,8 @@ The following steps describe how to create a DXGI surface render target and use 
     <tr class="odd">
     <td><pre><code>hr = m_pD2DFactory-&gt;CreateDxgiSurfaceRenderTarget(
         pBackBuffer,
-        &amp;props,
-        &amp;m_pBackBufferRT
+        &props,
+        &m_pBackBufferRT
         );
     </code></pre></td>
     </tr>
@@ -265,7 +265,7 @@ The following steps describe how to create a DXGI surface render target and use 
     ```C++
     // Swap chain will tell us how big the back buffer is
     DXGI_SWAP_CHAIN_DESC swapDesc;
-    hr = m_pSwapChain->GetDesc(&amp;swapDesc);
+    hr = m_pSwapChain->GetDesc(&swapDesc);
 
     if (SUCCEEDED(hr))
     {
@@ -301,7 +301,7 @@ The following steps describe how to create a DXGI surface render target and use 
             targetSize.height
             );
 
-        m_pBackBufferRT-&gt;FillRectangle(&amp;rect, m_pBackBufferGradientBrush);
+        m_pBackBufferRT-&gt;FillRectangle(&rect, m_pBackBufferGradientBrush);
 
         hr = m_pBackBufferRT-&gt;EndDraw();
     }</code></pre></td>
@@ -338,7 +338,7 @@ The following examples show how to create a DXGI surface render target that rend
     texDesc.SampleDesc.Quality = 0;
     texDesc.Usage = D3D10_USAGE_DEFAULT;
 
-    hr = m_pDevice->CreateTexture2D(&amp;texDesc, NULL, &amp;m_pOffscreenTexture);
+    hr = m_pDevice->CreateTexture2D(&texDesc, NULL, &m_pOffscreenTexture);
     ```
 
     
@@ -361,7 +361,7 @@ The following examples show how to create a DXGI surface render target that rend
     </thead>
     <tbody>
     <tr class="odd">
-    <td><pre><code>hr = m_pOffscreenTexture-&gt;QueryInterface(&amp;pDxgiSurface);</code></pre></td>
+    <td><pre><code>hr = m_pOffscreenTexture-&gt;QueryInterface(&pDxgiSurface);</code></pre></td>
     </tr>
     </tbody>
     </table>
@@ -399,8 +399,8 @@ The following examples show how to create a DXGI surface render target that rend
     <tr class="odd">
     <td><pre><code>    hr = m_pD2DFactory-&gt;CreateDxgiSurfaceRenderTarget(
             pDxgiSurface,
-            &amp;props,
-            &amp;m_pRenderTarget
+            &props,
+            &m_pRenderTarget
             );
     }</code></pre></td>
     </tr>

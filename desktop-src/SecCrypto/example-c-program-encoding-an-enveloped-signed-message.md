@@ -77,7 +77,7 @@ printf("The original message => %s\n",pbContent);
 // Acquire a cryptographic provider. 
 
 if(CryptAcquireContext(
-        &amp;hCryptProv,      // address for handle to be returned
+        &hCryptProv,      // address for handle to be returned
         NULL,             // use the current user's logon name
         NULL,             // use the default provider
         PROV_RSA_FULL,    // provider type
@@ -135,13 +135,13 @@ else
 // Initialize the algorithm identifier structure.
 
 HashAlgSize = sizeof(HashAlgorithm);
-memset(&amp;HashAlgorithm, 0, HashAlgSize);    // initialize to zero
+memset(&HashAlgorithm, 0, HashAlgSize);    // initialize to zero
 HashAlgorithm.pszObjId = szOID_RSA_MD5;    // initialize the 
                                            // necessary member
 //-------------------------------------------------------------------
 // Initialize the CMSG_SIGNER_ENCODE_INFO structure.
 
-memset(&amp;SignerEncodeInfo, 0, sizeof(CMSG_SIGNER_ENCODE_INFO));
+memset(&SignerEncodeInfo, 0, sizeof(CMSG_SIGNER_ENCODE_INFO));
 SignerEncodeInfo.cbSize = sizeof(CMSG_SIGNER_ENCODE_INFO);
 SignerEncodeInfo.pCertInfo = pSignerCert->pCertInfo;
 SignerEncodeInfo.hCryptProv = hCryptProv;
@@ -165,7 +165,7 @@ SignerCertBlob.pbData = pSignerCert->pbCertEncoded;
 // Initialize the array of one CertBlob.
 
 SignerCertBlobArray[0] = SignerCertBlob;
-memset(&amp;SignedMsgEncodeInfo, 0, sizeof(CMSG_SIGNED_ENCODE_INFO));
+memset(&SignedMsgEncodeInfo, 0, sizeof(CMSG_SIGNED_ENCODE_INFO));
 SignedMsgEncodeInfo.cbSize = sizeof(CMSG_SIGNED_ENCODE_INFO);
 SignedMsgEncodeInfo.cSigners = 1;
 SignedMsgEncodeInfo.rgSigners = SignerEncodeInfoArray;
@@ -180,7 +180,7 @@ if(cbSignedBlob = CryptMsgCalculateEncodedLength(
     MY_ENCODING_TYPE,       // message encoding type
     0,                      // flags
     CMSG_SIGNED,            // message type
-    &amp;SignedMsgEncodeInfo,   // pointer to structure
+    &SignedMsgEncodeInfo,   // pointer to structure
     NULL,                   // inner content OID
     cbContent))             // size of content
 {
@@ -216,7 +216,7 @@ if(hMsg = CryptMsgOpenToEncode(
     MY_ENCODING_TYPE,        // encoding type
     0,                       // flags
     CMSG_SIGNED,             // message type
-    &amp;SignedMsgEncodeInfo,    // pointer to structure
+    &SignedMsgEncodeInfo,    // pointer to structure
     NULL,                    // inner content OID
     NULL))                   // stream information (not used)
 {
@@ -249,7 +249,7 @@ if(CryptMsgGetParam(
     CMSG_CONTENT_PARAM,        // parameter type
     0,                         // index
     pbSignedBlob,              // pointer to the BLOB
-    &amp;cbSignedBlob))            // size of the BLOB
+    &cbSignedBlob))            // size of the BLOB
 {
     printf("Message encoded successfully. \n");
 }
@@ -300,7 +300,7 @@ RecipCertArray[0] = pRecipCert->pCertInfo;
 // structure.
 
 ContentEncryptAlgSize = sizeof(ContentEncryptAlgorithm);
-memset(&amp;ContentEncryptAlgorithm, 
+memset(&ContentEncryptAlgorithm, 
        0,
        ContentEncryptAlgSize);               // initialize to zero
 
@@ -314,7 +314,7 @@ ContentEncryptAlgorithm.pszObjId = szOID_RSA_RC4;
 //-------------------------------------------------------------------
 // Initialize the CMSG_ENVELOPED_ENCODE_INFO structure.
 
-memset(&amp;EnvelopedEncodeInfo, 
+memset(&EnvelopedEncodeInfo, 
        0,
        sizeof(CMSG_ENVELOPED_ENCODE_INFO));
 EnvelopedEncodeInfo.cbSize = sizeof(CMSG_ENVELOPED_ENCODE_INFO);
@@ -332,7 +332,7 @@ if(cbEncodedBlob = CryptMsgCalculateEncodedLength(
      MY_ENCODING_TYPE,        // message encoding type
      0,                       // flags
      CMSG_ENVELOPED,          // message type
-     &amp;EnvelopedEncodeInfo,    // pointer to structure
+     &EnvelopedEncodeInfo,    // pointer to structure
      szOID_RSA_signedData,    // inner content OID
      cbSignedBlob))           // size of content
 {
@@ -360,7 +360,7 @@ if(hMsg = CryptMsgOpenToEncode(
      MY_ENCODING_TYPE,        // encoding type
      0,                       // flags
      CMSG_ENVELOPED,          // message type
-     &amp;EnvelopedEncodeInfo,    // pointer to structure
+     &EnvelopedEncodeInfo,    // pointer to structure
      szOID_RSA_signedData,    // inner content OID
      NULL))                   // stream information (not used)
 {
@@ -394,7 +394,7 @@ if(CryptMsgGetParam(
      0,                     // index
      pbEncodedBlob,         // pointer to the enveloped,
                             // signed data BLOB
-     &amp;cbEncodedBlob))       // size of the BLOB
+     &cbEncodedBlob))       // size of the BLOB
 {
     printf("Enveloped message encoded successfully. \n");
 }

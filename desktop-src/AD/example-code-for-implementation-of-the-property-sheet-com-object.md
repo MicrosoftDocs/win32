@@ -44,7 +44,7 @@ STDMETHODIMP CPropSheetExt::Initialize( LPCITEMIDLIST pidlFolder,
         return E_INVALIDARG;
     }
 
-    hr = pDataObj->QueryInterface(IID_IDataObject, (LPVOID*)&amp;m_pdo);
+    hr = pDataObj->QueryInterface(IID_IDataObject, (LPVOID*)&m_pdo);
     if(FAILED(hr))
     {
         return hr;
@@ -55,7 +55,7 @@ STDMETHODIMP CPropSheetExt::Initialize( LPCITEMIDLIST pidlFolder,
     fe.dwAspect = DVASPECT_CONTENT;
     fe.lindex = -1;
     fe.tymed = TYMED_HGLOBAL;
-    hr = m_pdo->GetData(&amp;fe, &amp;stm);
+    hr = m_pdo->GetData(&fe, &stm);
     if(SUCCEEDED(hr))
     {
         LPDSOBJECTNAMES pdson = (LPDSOBJECTNAMES)GlobalLock(stm.hGlobal);
@@ -76,7 +76,7 @@ STDMETHODIMP CPropSheetExt::Initialize( LPCITEMIDLIST pidlFolder,
             GlobalUnlock(stm.hGlobal);
         }
         
-        ReleaseStgMedium(&amp;stm);
+        ReleaseStgMedium(&stm);
     }
 
     m_hwndNotifyObj = CreateADsNotificationObject(pDataObj);
@@ -85,7 +85,7 @@ STDMETHODIMP CPropSheetExt::Initialize( LPCITEMIDLIST pidlFolder,
     {
         ADSPROPINITPARAMS   InitParams;
         
-        hr = GetADsPageInfo(m_hwndNotifyObj, &amp;InitParams);
+        hr = GetADsPageInfo(m_hwndNotifyObj, &InitParams);
         if(SUCCEEDED(hr))
         {
             if(InitParams.pDsObj)
@@ -101,7 +101,7 @@ STDMETHODIMP CPropSheetExt::Initialize( LPCITEMIDLIST pidlFolder,
     fe.dwAspect = DVASPECT_CONTENT;
     fe.lindex = -1;
     fe.tymed = TYMED_HGLOBAL;
-    hr = pDataObj->GetData(&amp;fe, &amp;stm);
+    hr = pDataObj->GetData(&fe, &stm);
     if(SUCCEEDED(hr))
     {
         PDSDISPLAYSPECOPTIONS   pdso;
@@ -120,7 +120,7 @@ STDMETHODIMP CPropSheetExt::Initialize( LPCITEMIDLIST pidlFolder,
             GlobalUnlock(stm.hGlobal);
         }
 
-        ReleaseStgMedium(&amp;stm);
+        ReleaseStgMedium(&stm);
     }
 
     return hr;
@@ -160,7 +160,7 @@ STDMETHODIMP CPropSheetExt::AddPages(   LPFNADDPROPSHEETPAGE pfnAddPage,
     //pass the object pointer to the dialog box
     psp.lParam        = (LPARAM)this;
 
-    hPage = CreatePropertySheetPage(&amp;psp);
+    hPage = CreatePropertySheetPage(&psp);
                 
     if(hPage) 
     {
@@ -226,19 +226,19 @@ HWND CreateADsNotificationObject(IDataObject *pDataObject)
     fe.dwAspect = DVASPECT_CONTENT;
     fe.lindex = -1;
     fe.tymed = TYMED_HGLOBAL;
-    hr = pDataObject->GetData(&amp;fe, &amp;stm);
+    hr = pDataObject->GetData(&fe, &stm);
     if (SUCCEEDED(hr))
     {
         PWSTR pwzUniqueID = (LPWSTR)GlobalLock(stm.hGlobal);
 
         if (pwzUniqueID)
         {
-            hr = ADsPropCreateNotifyObj(pDataObject, pwzUniqueID, &amp;hwndNotifyObject);
+            hr = ADsPropCreateNotifyObj(pDataObject, pwzUniqueID, &hwndNotifyObject);
 
             GlobalUnlock(stm.hGlobal);
         }
             
-        ReleaseStgMedium(&amp;stm);
+        ReleaseStgMedium(&stm);
     }
     else
     {
@@ -247,7 +247,7 @@ HWND CreateADsNotificationObject(IDataObject *pDataObject)
         fe.dwAspect = DVASPECT_CONTENT;
         fe.lindex = -1;
         fe.tymed = TYMED_HGLOBAL;
-        hr = pDataObject->GetData(&amp;fe, &amp;stm);
+        hr = pDataObject->GetData(&fe, &stm);
         if(SUCCEEDED(hr))
         {
             LPDSOBJECTNAMES pdson = (LPDSOBJECTNAMES)GlobalLock(stm.hGlobal);
@@ -256,12 +256,12 @@ HWND CreateADsNotificationObject(IDataObject *pDataObject)
             {
                 LPWSTR  pwszName = (LPWSTR)((LPBYTE)pdson + pdson->aObjects[0].offsetName);
                 
-                hr = ADsPropCreateNotifyObj(pDataObject, pwszName, &amp;hwndNotifyObject);
+                hr = ADsPropCreateNotifyObj(pDataObject, pwszName, &hwndNotifyObject);
 
                 GlobalUnlock(stm.hGlobal);
             }
             
-            ReleaseStgMedium(&amp;stm);
+            ReleaseStgMedium(&stm);
         }
     }
 
@@ -284,7 +284,7 @@ HRESULT GetADsPageInfo(HWND hwndNotifyObject, ADSPROPINITPARAMS *pip)
     ADSPROPINITPARAMS   InitParams;
     
     InitParams.dwSize = sizeof(ADSPROPINITPARAMS);
-    if(ADsPropGetInitInfo(hwndNotifyObject, &amp;InitParams))
+    if(ADsPropGetInitInfo(hwndNotifyObject, &InitParams))
     {
         *pip = InitParams;
     

@@ -44,7 +44,7 @@ The following code example inserts a file object into a rich edit control. If a 
         HRESULT hr;
 
         LPRICHEDITOLE pRichEditOle;
-        SendMessage(hRichEdit, EM_GETOLEINTERFACE, 0, (LPARAM)&amp;pRichEditOle);
+        SendMessage(hRichEdit, EM_GETOLEINTERFACE, 0, (LPARAM)&pRichEditOle);
         
         ...
     ```
@@ -55,12 +55,12 @@ The following code example inserts a file object into a rich edit control. If a 
 
     ```
         LPLOCKBYTES pLockBytes = NULL;
-        hr = CreateILockBytesOnHGlobal(NULL, TRUE, &amp;pLockBytes);
+        hr = CreateILockBytesOnHGlobal(NULL, TRUE, &pLockBytes);
         
         LPSTORAGE pStorage;
         hr = StgCreateDocfileOnILockBytes(pLockBytes, 
                                           STGM_SHARE_EXCLUSIVE | STGM_CREATE | STGM_READWRITE, 
-                                          0, &amp;pStorage);
+                                          0, &pStorage);
         ...
     ```
 
@@ -86,7 +86,7 @@ The following code example inserts a file object into a rich edit control. If a 
 
     ```
         LPOLECLIENTSITE pClientSite;
-        hr = pRichEditOle->GetClientSite(&amp;pClientSite);
+        hr = pRichEditOle->GetClientSite(&pClientSite);
         
         ...
     ```
@@ -103,10 +103,10 @@ The following code example inserts a file object into a rich edit control. If a 
                                pszFileName, 
                                IID_IUnknown, 
                                OLERENDER_DRAW, 
-                               &amp;formatEtc, 
+                               &formatEtc, 
                                pClientSite, 
                                pStorage, 
-                               (void**)&amp;pUnk);
+                               (void**)&pUnk);
         
         pClientSite->Release();
                   
@@ -120,7 +120,7 @@ The following code example inserts a file object into a rich edit control. If a 
     ```
         LPOLEOBJECT pObject;
         
-        hr = pUnk->QueryInterface(IID_IOleObject, (void**)&amp;pObject);
+        hr = pUnk->QueryInterface(IID_IOleObject, (void**)&pObject);
         
         pUnk->Release();
 
@@ -144,7 +144,7 @@ The following code example inserts a file object into a rich edit control. If a 
     ```
         REOBJECT reobject = { sizeof(REOBJECT)};
         
-        hr = pObject->GetUserClassID(&amp;clsid);
+        hr = pObject->GetUserClassID(&clsid);
         
         reobject.clsid    = clsid;
         reobject.cp       = REO_CP_SELECTION;
@@ -170,7 +170,7 @@ The following code example inserts a file object into a rich edit control. If a 
         
         DWORD dwStart, dwEnd;
         
-        SendMessage(hRichEdit, EM_GETSEL, (WPARAM)&amp;dwStart, (LPARAM)&amp;dwEnd);
+        SendMessage(hRichEdit, EM_GETSEL, (WPARAM)&dwStart, (LPARAM)&dwEnd);
         SendMessage(hRichEdit, EM_SETSEL, dwEnd+1, dwEnd+1);
         SendMessage(hRichEdit, EM_REPLACESEL, TRUE, (WPARAM)L"\n"); 
 
@@ -182,7 +182,7 @@ The following code example inserts a file object into a rich edit control. If a 
 10. Insert the object.
 
     ```
-        hr = pRichEditOle->InsertObject(&amp;reobject);
+        hr = pRichEditOle->InsertObject(&reobject);
 
         ...
     ```
@@ -220,7 +220,7 @@ BOOL InsertObject(HWND hRichEdit, LPCTSTR pszFileName)
     HRESULT hr;
 
     LPRICHEDITOLE pRichEditOle;
-    SendMessage(hRichEdit, EM_GETOLEINTERFACE, 0, (LPARAM)&amp;pRichEditOle);
+    SendMessage(hRichEdit, EM_GETOLEINTERFACE, 0, (LPARAM)&pRichEditOle);
 
     if (pRichEditOle == NULL)
     {
@@ -228,7 +228,7 @@ BOOL InsertObject(HWND hRichEdit, LPCTSTR pszFileName)
     }
 
     LPLOCKBYTES pLockBytes = NULL;
-    hr = CreateILockBytesOnHGlobal(NULL, TRUE, &amp;pLockBytes);
+    hr = CreateILockBytesOnHGlobal(NULL, TRUE, &pLockBytes);
 
     if (FAILED(hr))
     {
@@ -238,7 +238,7 @@ BOOL InsertObject(HWND hRichEdit, LPCTSTR pszFileName)
     LPSTORAGE pStorage;
     hr = StgCreateDocfileOnILockBytes(pLockBytes, 
            STGM_SHARE_EXCLUSIVE | STGM_CREATE | STGM_READWRITE, 
-           0, &amp;pStorage);
+           0, &pStorage);
 
     if (FAILED(hr))
     {
@@ -253,7 +253,7 @@ BOOL InsertObject(HWND hRichEdit, LPCTSTR pszFileName)
     formatEtc.tymed = TYMED_NULL;
 
     LPOLECLIENTSITE pClientSite;
-    hr = pRichEditOle->GetClientSite(&amp;pClientSite);
+    hr = pRichEditOle->GetClientSite(&pClientSite);
 
     if (FAILED(hr))
     {
@@ -264,7 +264,7 @@ BOOL InsertObject(HWND hRichEdit, LPCTSTR pszFileName)
     CLSID clsid = CLSID_NULL;
 
     hr = OleCreateFromFile(clsid, pszFileName, IID_IUnknown, OLERENDER_DRAW, 
-           &amp;formatEtc, pClientSite, pStorage, (void**)&amp;pUnk);
+           &formatEtc, pClientSite, pStorage, (void**)&pUnk);
 
     pClientSite->Release();
 
@@ -274,7 +274,7 @@ BOOL InsertObject(HWND hRichEdit, LPCTSTR pszFileName)
     }
 
     LPOLEOBJECT pObject;
-    hr = pUnk->QueryInterface(IID_IOleObject, (void**)&amp;pObject);
+    hr = pUnk->QueryInterface(IID_IOleObject, (void**)&pObject);
     pUnk->Release();
 
     if (FAILED(hr))
@@ -284,7 +284,7 @@ BOOL InsertObject(HWND hRichEdit, LPCTSTR pszFileName)
 
     OleSetContainedObject(pObject, TRUE);
     REOBJECT reobject = { sizeof(REOBJECT)};
-    hr = pObject->GetUserClassID(&amp;clsid);
+    hr = pObject->GetUserClassID(&clsid);
 
     if (FAILED(hr))
     {
@@ -305,11 +305,11 @@ BOOL InsertObject(HWND hRichEdit, LPCTSTR pszFileName)
 
     SendMessage(hRichEdit, EM_SETSEL, 0, -1);
     DWORD dwStart, dwEnd;
-    SendMessage(hRichEdit, EM_GETSEL, (WPARAM)&amp;dwStart, (LPARAM)&amp;dwEnd);
+    SendMessage(hRichEdit, EM_GETSEL, (WPARAM)&dwStart, (LPARAM)&dwEnd);
     SendMessage(hRichEdit, EM_SETSEL, dwEnd+1, dwEnd+1);
     SendMessage(hRichEdit, EM_REPLACESEL, TRUE, (WPARAM)L"\n"); 
 
-    hr = pRichEditOle->InsertObject(&amp;reobject);
+    hr = pRichEditOle->InsertObject(&reobject);
     pObject->Release();
     pRichEditOle->Release();
 

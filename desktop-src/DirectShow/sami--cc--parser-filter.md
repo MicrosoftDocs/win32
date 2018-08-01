@@ -103,21 +103,21 @@ void __cdecl main()
     
     // Create the filter graph manager.
     CoCreateInstance(CLSID_FilterGraph, NULL, CLSCTX_INPROC, 
-                        IID_IGraphBuilder, (void **)&amp;pGraph);
-    pGraph->QueryInterface(IID_IMediaControl, (void **)&amp;pMediaControl);
-    pGraph->QueryInterface(IID_IMediaEventEx, (void**)&amp;pEv);
+                        IID_IGraphBuilder, (void **)&pGraph);
+    pGraph->QueryInterface(IID_IMediaControl, (void **)&pMediaControl);
+    pGraph->QueryInterface(IID_IMediaEventEx, (void**)&pEv);
 
     // Create the graph and find the SAMI parser.
     pGraph->RenderFile(L"C:\\Sami_test_file.sami", NULL);
-    hr = pGraph->FindFilterByName(L"SAMI (CC) Parser", &amp;pSAMI);
+    hr = pGraph->FindFilterByName(L"SAMI (CC) Parser", &pSAMI);
     if (SUCCEEDED(hr)) 
     {
         IAMStreamSelect *pStrm = NULL;
-        hr = pSAMI->QueryInterface(IID_IAMStreamSelect, (void**)&amp;pStrm);
+        hr = pSAMI->QueryInterface(IID_IAMStreamSelect, (void**)&pStrm);
         if (SUCCEEDED(hr)) 
         {
             DWORD dwStreams = 0;
-            pStrm->Count(&amp;dwStreams);
+            pStrm->Count(&dwStreams);
             printf("Stream count: %d\n", dwStreams);
 
             // Select French and "GreenText"
@@ -129,8 +129,8 @@ void __cdecl main()
             {
                 DWORD dwFlags;
                 WCHAR *wszName;
-                hr = pStrm->Info(index, NULL, &amp;dwFlags, NULL, NULL,
-                    &amp;wszName, NULL, NULL);
+                hr = pStrm->Info(index, NULL, &dwFlags, NULL, NULL,
+                    &wszName, NULL, NULL);
                 if (hr == S_OK)
                 {
                     wprintf(L"Stream %d: %s [%s]\n", index, wszName, 
@@ -148,7 +148,7 @@ void __cdecl main()
     while (1)
     {
         long evCode, lParam1, lParam2;
-        pEv->GetEvent(&amp;evCode, &amp;lParam1, &amp;lParam2, 100);
+        pEv->GetEvent(&evCode, &lParam1, &lParam2, 100);
         
         if (evCode == EC_OLE_EVENT) {
             wprintf(L"%s\n", (BSTR)lParam2);

@@ -131,8 +131,8 @@ hr = RegCreateKeyEx( HKEY_LOCAL_MACHINE,
  REG_OPTION_NON_VOLATILE,
  KEY_WRITE,
  NULL,
- &amp;hKey,
- &amp;dwDisposition );
+ &hKey,
+ &dwDisposition );
  
 ///////////////////////////
 // Register the Interface.

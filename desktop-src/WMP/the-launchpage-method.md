@@ -35,7 +35,7 @@ void LaunchPage(IWMPMedia *pMedia)
 
     // Get the name of the artist.
     bstrType = _T("artist");
-    hr = pMedia->getItemInfo(bstrType, &amp;bstrArtist);
+    hr = pMedia->getItemInfo(bstrType, &bstrArtist);
     if (SUCCEEDED(hr)) 
     {
         // Create the search URL.

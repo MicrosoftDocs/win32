@@ -23,9 +23,9 @@ case WM_GETOBJECT:
       // Get a new interface to the same object. 
       IAccessible *pAcc = NULL;
       // The following increments the reference count. 
-      m_pUIObj->QueryInterface(IID_IAccessible, (LPVOID*)&amp;pAcc); 
+      m_pUIObj->QueryInterface(IID_IAccessible, (LPVOID*)&pAcc); 
       LRESULT lAcc = LresultFromObject(IID_IAccessible, wParam, 
-            (LPUNKNOWN) &amp;pAcc); 
+            (LPUNKNOWN) &pAcc); 
       // Release our reference to the object.             
       pAcc->Release();               
       return lAcc;

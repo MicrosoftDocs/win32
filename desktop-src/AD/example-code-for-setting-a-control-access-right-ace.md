@@ -45,7 +45,7 @@ HRESULT SetExtendedRight(IADs *pObject,
         return E_INVALIDARG;
     }
     
-    if((lAccessType != ADS_ACETYPE_ACCESS_ALLOWED_OBJECT) &amp;&amp; 
+    if((lAccessType != ADS_ACETYPE_ACCESS_ALLOWED_OBJECT) && 
         (lAccessType != ADS_ACETYPE_ACCESS_DENIED_OBJECT))
     {
         return E_INVALIDARG;
@@ -56,7 +56,7 @@ HRESULT SetExtendedRight(IADs *pObject,
     // Get the nTSecurityDescriptor attribute.
     CComBSTR sbstrNTSecDesc = L"nTSecurityDescriptor";
     CComVariant svarSecDesc;
-    hr = pObject->Get(sbstrNTSecDesc, &amp;svarSecDesc);
+    hr = pObject->Get(sbstrNTSecDesc, &svarSecDesc);
     if(FAILED(hr))
     {
         return hr;
@@ -73,7 +73,7 @@ HRESULT SetExtendedRight(IADs *pObject,
 
     // Get the IADsSecurityDescriptor interface from the IDispatch pointer.
     CComPtr<IADsSecurityDescriptor> spSecDesc;
-    hr = svarSecDesc.pdispVal->QueryInterface(IID_IADsSecurityDescriptor, (void**)&amp;spSecDesc);
+    hr = svarSecDesc.pdispVal->QueryInterface(IID_IADsSecurityDescriptor, (void**)&spSecDesc);
     if(FAILED(hr))
     {
         return hr;
@@ -81,7 +81,7 @@ HRESULT SetExtendedRight(IADs *pObject,
 
     // Get the DACL object.
     CComPtr<IDispatch> spDispDACL;
-    hr = spSecDesc->get_DiscretionaryAcl(&amp;spDispDACL);
+    hr = spSecDesc->get_DiscretionaryAcl(&spDispDACL);
     if(FAILED(hr))
     {
         return hr;
@@ -89,7 +89,7 @@ HRESULT SetExtendedRight(IADs *pObject,
 
     // Get the IADsAccessControlList interface from the DACL object.
     CComPtr<IADsAccessControlList> spACL;
-    hr = spDispDACL->QueryInterface(IID_IADsAccessControlList, (void**)&amp;spACL);
+    hr = spDispDACL->QueryInterface(IID_IADsAccessControlList, (void**)&spACL);
     if(FAILED(hr))
     {
         return hr;
@@ -101,7 +101,7 @@ HRESULT SetExtendedRight(IADs *pObject,
         NULL,
         CLSCTX_INPROC_SERVER,
         IID_IADsAccessControlEntry,
-        (void **)&amp;spACE);
+        (void **)&spACE);
     if(FAILED(hr))
     {
         return hr;
@@ -183,7 +183,7 @@ HRESULT SetExtendedRight(IADs *pObject,
 
     // Get the IDispatch pointer for the ACE.
     CComPtr<IDispatch> spDispACE;
-    hr = spACE->QueryInterface(IID_IDispatch, (void**)&amp;spDispACE);
+    hr = spACE->QueryInterface(IID_IDispatch, (void**)&spDispACE);
     if(FAILED(hr))
     {
         return hr;

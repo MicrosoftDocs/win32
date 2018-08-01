@@ -121,7 +121,7 @@ int wmain(int argc, wchar_t* argv[])
     // Create the source reader to read the input file.
     if (SUCCEEDED(hr))
     {
-        hr = MFCreateSourceReaderFromURL(wszSourceFile, NULL, &amp;pReader);
+        hr = MFCreateSourceReaderFromURL(wszSourceFile, NULL, &pReader);
         if (FAILED(hr))
         {
             printf("Error opening input file: %S\n", wszSourceFile, hr);
@@ -158,7 +158,7 @@ int wmain(int argc, wchar_t* argv[])
         CloseHandle(hFile);
     }
 
-    SafeRelease(&amp;pReader);
+    SafeRelease(&pReader);
     MFShutdown();
     CoUninitialize();
 
@@ -208,12 +208,12 @@ HRESULT WriteWaveFile(
 
     // Configure the source reader to get uncompressed PCM audio from the source file.
 
-    hr = ConfigureAudioStream(pReader, &amp;pAudioType);
+    hr = ConfigureAudioStream(pReader, &pAudioType);
 
     // Write the WAVE file header.
     if (SUCCEEDED(hr))
     {
-        hr = WriteWaveHeader(hFile, pAudioType, &amp;cbHeader);
+        hr = WriteWaveHeader(hFile, pAudioType, &cbHeader);
     }
 
     // Calculate the maximum amount of audio to decode, in bytes.
@@ -222,7 +222,7 @@ HRESULT WriteWaveFile(
         cbMaxAudioData = CalculateMaxAudioDataSize(pAudioType, cbHeader, msecAudioData);
 
         // Decode audio data to the file.
-        hr = WriteWaveData(hFile, pReader, cbMaxAudioData, &amp;cbAudioData);
+        hr = WriteWaveData(hFile, pReader, cbMaxAudioData, &cbAudioData);
     }
 
     // Fix up the RIFF headers with the correct sizes.
@@ -231,7 +231,7 @@ HRESULT WriteWaveFile(
         hr = FixUpChunkSizes(hFile, cbHeader, cbAudioData);
     }
 
-    SafeRelease(&amp;pAudioType);
+    SafeRelease(&pAudioType);
     return hr;
 }
 ```
@@ -282,7 +282,7 @@ HRESULT ConfigureAudioStream(
     }
 
     // Create a partial media type that specifies uncompressed PCM audio.
-    hr = MFCreateMediaType(&amp;pPartialType);
+    hr = MFCreateMediaType(&pPartialType);
 
     if (SUCCEEDED(hr))
     {
@@ -308,7 +308,7 @@ HRESULT ConfigureAudioStream(
     {
         hr = pReader->GetCurrentMediaType(
             (DWORD)MF_SOURCE_READER_FIRST_AUDIO_STREAM,
-            &amp;pUncompressedAudioType);
+            &pUncompressedAudioType);
     }
 
     // Ensure the stream is selected.
@@ -326,8 +326,8 @@ HRESULT ConfigureAudioStream(
         (*ppPCMAudio)->AddRef();
     }
 
-    SafeRelease(&amp;pUncompressedAudioType);
-    SafeRelease(&amp;pPartialType);
+    SafeRelease(&pUncompressedAudioType);
+    SafeRelease(&pPartialType);
     return hr;
 }
 ```
@@ -376,7 +376,7 @@ HRESULT WriteWaveHeader(
     *pcbWritten = 0;
 
     // Convert the PCM audio format into a WAVEFORMATEX structure.
-    hr = MFCreateWaveFormatExFromMFMediaType(pMediaType, &amp;pWav, &amp;cbFormat);
+    hr = MFCreateWaveFormatExFromMFMediaType(pMediaType, &pWav, &cbFormat);
 
     // Write the 'RIFF' header and the start of the 'fmt ' chunk.
     if (SUCCEEDED(hr))
@@ -441,7 +441,7 @@ HRESULT WriteToFile(HANDLE hFile, void* p, DWORD cb)
     DWORD cbWritten = 0;
     HRESULT hr = S_OK;
 
-    BOOL bResult = WriteFile(hFile, p, cb, &amp;cbWritten, NULL);
+    BOOL bResult = WriteFile(hFile, p, cb, &cbWritten, NULL);
     if (!bResult)
     {
         hr = HRESULT_FROM_WIN32(GetLastError());
@@ -539,7 +539,7 @@ HRESULT WriteWaveData(
         // Read the next sample.
         hr = pReader->ReadSample(
             (DWORD)MF_SOURCE_READER_FIRST_AUDIO_STREAM,
-            0, NULL, &amp;dwFlags, NULL, &amp;pSample );
+            0, NULL, &dwFlags, NULL, &pSample );
 
         if (FAILED(hr)) { break; }
 
@@ -562,12 +562,12 @@ HRESULT WriteWaveData(
 
         // Get a pointer to the audio data in the sample.
 
-        hr = pSample->ConvertToContiguousBuffer(&amp;pBuffer);
+        hr = pSample->ConvertToContiguousBuffer(&pBuffer);
 
         if (FAILED(hr)) { break; }
 
 
-        hr = pBuffer->Lock(&amp;pAudioData, NULL, &amp;cbBuffer);
+        hr = pBuffer->Lock(&pAudioData, NULL, &cbBuffer);
 
         if (FAILED(hr)) { break; }
 
@@ -597,8 +597,8 @@ HRESULT WriteWaveData(
             break;
         }
 
-        SafeRelease(&amp;pSample);
-        SafeRelease(&amp;pBuffer);
+        SafeRelease(&pSample);
+        SafeRelease(&pBuffer);
     }
 
     if (SUCCEEDED(hr))
@@ -613,8 +613,8 @@ HRESULT WriteWaveData(
         pBuffer->Unlock();
     }
 
-    SafeRelease(&amp;pBuffer);
-    SafeRelease(&amp;pSample);
+    SafeRelease(&pBuffer);
+    SafeRelease(&pSample);
     return hr;
 }
 ```
@@ -674,7 +674,7 @@ HRESULT FixUpChunkSizes(
 
     if (SUCCEEDED(hr))
     {
-        hr = WriteToFile(hFile, &amp;cbAudioData, sizeof(cbAudioData));
+        hr = WriteToFile(hFile, &cbAudioData, sizeof(cbAudioData));
     }
 
     if (SUCCEEDED(hr))
@@ -696,7 +696,7 @@ HRESULT FixUpChunkSizes(
         // the first 8 bytes of the file. (That is, the size of the
         // data that appears after the size field.)
 
-        hr = WriteToFile(hFile, &amp;cbRiffFileSize, sizeof(cbRiffFileSize));
+        hr = WriteToFile(hFile, &cbRiffFileSize, sizeof(cbRiffFileSize));
     }
 
     return hr;

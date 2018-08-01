@@ -31,7 +31,7 @@ hr = MFGetService(
     pBuffer, 
     MR_BUFFER_SERVICE,
     __uuidof(IDirect3DSurface9), 
-    (void**)&amp;pSurface
+    (void**)&pSurface
     );
 
 if (SUCCEEDED(hr))
@@ -82,7 +82,7 @@ HRESULT GetDefaultStride(IMFMediaType *pType, LONG *plStride)
     LONG lStride = 0;
 
     // Try to get the default stride from the media type.
-    HRESULT hr = pType->GetUINT32(MF_MT_DEFAULT_STRIDE, (UINT32*)&amp;lStride);
+    HRESULT hr = pType->GetUINT32(MF_MT_DEFAULT_STRIDE, (UINT32*)&lStride);
     if (FAILED(hr))
     {
         // Attribute not set. Try to calculate the default stride.
@@ -93,19 +93,19 @@ HRESULT GetDefaultStride(IMFMediaType *pType, LONG *plStride)
         UINT32 height = 0;
 
         // Get the subtype and the image size.
-        hr = pType->GetGUID(MF_MT_SUBTYPE, &amp;subtype);
+        hr = pType->GetGUID(MF_MT_SUBTYPE, &subtype);
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = MFGetAttributeSize(pType, MF_MT_FRAME_SIZE, &amp;width, &amp;height);
+        hr = MFGetAttributeSize(pType, MF_MT_FRAME_SIZE, &width, &height);
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = MFGetStrideForBitmapInfoHeader(subtype.Data1, width, &amp;lStride);
+        hr = MFGetStrideForBitmapInfoHeader(subtype.Data1, width, &lStride);
         if (FAILED(hr))
         {
             goto done;
@@ -141,14 +141,14 @@ public:
         m_pBuffer = pBuffer;
         m_pBuffer->AddRef();
 
-        m_pBuffer->QueryInterface(IID_IMF2DBuffer, (void**)&amp;m_p2DBuffer);
+        m_pBuffer->QueryInterface(IID_IMF2DBuffer, (void**)&m_p2DBuffer);
     }
 
     ~CBufferLock()
     {
         UnlockBuffer();
-        SafeRelease(&amp;m_pBuffer);
-        SafeRelease(&amp;m_p2DBuffer);
+        SafeRelease(&m_pBuffer);
+        SafeRelease(&m_p2DBuffer);
     }
 
     HRESULT LockBuffer(
@@ -170,7 +170,7 @@ public:
             // Use non-2D version.
             BYTE *pData = NULL;
 
-            hr = m_pBuffer->Lock(&amp;pData, NULL, NULL);
+            hr = m_pBuffer->Lock(&pData, NULL, NULL);
             if (SUCCEEDED(hr))
             {
                 *plStride = lDefaultStride;

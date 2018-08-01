@@ -30,7 +30,7 @@ The CLSID for this effect is CLSID\_D2D1Exposure.
 
 ```C++
 ComPtr<ID2D1Effect> exposureEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Exposure, &amp;exposureEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Exposure, &exposureEffect);
  
 exposureEffect->SetInput(0, bitmap);
 exposureEffect->SetValue(D2D1_EXPOSURE_PROP_EXPOSURE_VALUE, 1.0f);

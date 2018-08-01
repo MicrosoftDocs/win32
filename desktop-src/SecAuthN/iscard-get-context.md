@@ -78,7 +78,7 @@ HSCARDCONTEXT  hCtx;
 HRESULT        hr;
 
 // Retrieve the smart card context.
-hr = pISCard->get_Context(&amp;hCtx);
+hr = pISCard->get_Context(&hCtx);
 if (FAILED(hr))
 {
    printf("Failed get_Context\n");

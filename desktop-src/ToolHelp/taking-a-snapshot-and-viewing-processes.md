@@ -53,7 +53,7 @@ BOOL GetProcessList( )
 
   // Retrieve information about the first process,
   // and exit if unsuccessful
-  if( !Process32First( hProcessSnap, &amp;pe32 ) )
+  if( !Process32First( hProcessSnap, &pe32 ) )
   {
     printError( TEXT("Process32First") ); // show cause of failure
     CloseHandle( hProcessSnap );          // clean the snapshot object
@@ -92,7 +92,7 @@ BOOL GetProcessList( )
     ListProcessModules( pe32.th32ProcessID );
     ListProcessThreads( pe32.th32ProcessID );
 
-  } while( Process32Next( hProcessSnap, &amp;pe32 ) );
+  } while( Process32Next( hProcessSnap, &pe32 ) );
 
   CloseHandle( hProcessSnap );
   return( TRUE );
@@ -117,7 +117,7 @@ BOOL ListProcessModules( DWORD dwPID )
 
   // Retrieve information about the first module,
   // and exit if unsuccessful
-  if( !Module32First( hModuleSnap, &amp;me32 ) )
+  if( !Module32First( hModuleSnap, &me32 ) )
   {
     printError( TEXT("Module32First") );  // show cause of failure
     CloseHandle( hModuleSnap );           // clean the snapshot object
@@ -136,7 +136,7 @@ BOOL ListProcessModules( DWORD dwPID )
     _tprintf( TEXT("\n     Base address   = 0x%08X"), (DWORD) me32.modBaseAddr );
     _tprintf( TEXT("\n     Base size      = %d"),             me32.modBaseSize );
 
-  } while( Module32Next( hModuleSnap, &amp;me32 ) );
+  } while( Module32Next( hModuleSnap, &me32 ) );
 
   CloseHandle( hModuleSnap );
   return( TRUE );
@@ -157,7 +157,7 @@ BOOL ListProcessThreads( DWORD dwOwnerPID )
  
   // Retrieve information about the first thread,
   // and exit if unsuccessful
-  if( !Thread32First( hThreadSnap, &amp;te32 ) ) 
+  if( !Thread32First( hThreadSnap, &te32 ) ) 
   {
     printError( TEXT("Thread32First") ); // show cause of failure
     CloseHandle( hThreadSnap );          // clean the snapshot object
@@ -176,7 +176,7 @@ BOOL ListProcessThreads( DWORD dwOwnerPID )
       _tprintf( TEXT("\n     Delta priority = %d"), te32.tpDeltaPri ); 
       _tprintf( TEXT("\n"));
     }
-  } while( Thread32Next(hThreadSnap, &amp;te32 ) ); 
+  } while( Thread32Next(hThreadSnap, &te32 ) ); 
 
   CloseHandle( hThreadSnap );
   return( TRUE );
@@ -198,7 +198,7 @@ void printError( TCHAR* msg )
   p = sysMsg;
   while( ( *p > 31 ) || ( *p == 9 ) )
     ++p;
-  do { *p-- = 0; } while( ( p >= sysMsg ) &amp;&amp;
+  do { *p-- = 0; } while( ( p >= sysMsg ) &&
                           ( ( *p == '.' ) || ( *p < 33 ) ) );
 
   // Display the message

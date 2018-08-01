@@ -46,7 +46,7 @@ CoInitialize(NULL);
 hr = ADsGetObject(
        L"LDAP://CN=Jeff Smith,OU=Users,DC=Fabrikam,DC=com",
        IID_IDirectoryObject, 
-       (void**)&amp;pDirObject);
+       (void**)&pDirObject);
 
 if(SUCCEEDED(hr))
 {
@@ -62,8 +62,8 @@ if(SUCCEEDED(hr))
   //////////////////////////////////////////////////
   hr = pDirObject->GetObjectAttributes(pAttrNames, 
                                        dwNumAttr, 
-                                       &amp;pAttrInfo, 
-                                       &amp;dwReturn);
+                                       &pAttrInfo, 
+                                       &dwReturn);
      
   if(SUCCEEDED(hr))
   {

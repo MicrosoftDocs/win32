@@ -43,7 +43,7 @@ HRESULT RemoveMemberFromGroup(IADsGroup * pGroup, IADs* pIADsNewMember)
     // Query the member for its AdsPath
     // This is a fully qualified LDAP path to the object to remove.
     BSTR bsNewMemberPath;
-    hr = pIADsNewMember->get_ADsPath(&amp;bsNewMemberPath); 
+    hr = pIADsNewMember->get_ADsPath(&bsNewMemberPath); 
     if (SUCCEEDED(hr))
     {
  

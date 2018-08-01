@@ -233,7 +233,7 @@ HRESULT EVRCustomPresenter::InitServicePointers(
     HRESULT             hr = S_OK;
     DWORD               dwObjectCount = 0;
 
-    EnterCriticalSection(&amp;m_ObjectLock);
+    EnterCriticalSection(&m_ObjectLock);
 
     // Do not allow initializing when playing or paused.
     if (IsActive())
@@ -242,9 +242,9 @@ HRESULT EVRCustomPresenter::InitServicePointers(
         goto done;
     }
 
-    SafeRelease(&amp;m_pClock);
-    SafeRelease(&amp;m_pMixer);
-    SafeRelease(&amp;m_pMediaEventSink);
+    SafeRelease(&m_pClock);
+    SafeRelease(&m_pMixer);
+    SafeRelease(&m_pMediaEventSink);
 
     // Ask for the clock. Optional, because the EVR might not have a clock.
     dwObjectCount = 1;
@@ -253,8 +253,8 @@ HRESULT EVRCustomPresenter::InitServicePointers(
         MF_SERVICE_LOOKUP_GLOBAL,   // Not used.
         0,                          // Reserved.
         MR_VIDEO_RENDER_SERVICE,    // Service to look up.
-        IID_PPV_ARGS(&amp;m_pClock),    // Interface to retrieve.
-        &amp;dwObjectCount              // Number of elements retrieved.
+        IID_PPV_ARGS(&m_pClock),    // Interface to retrieve.
+        &dwObjectCount              // Number of elements retrieved.
         );
 
     // Ask for the mixer. (Required.)
@@ -262,7 +262,7 @@ HRESULT EVRCustomPresenter::InitServicePointers(
 
     hr = pLookup->LookupService(
         MF_SERVICE_LOOKUP_GLOBAL, 0,
-        MR_VIDEO_MIXER_SERVICE, IID_PPV_ARGS(&amp;m_pMixer), &amp;dwObjectCount
+        MR_VIDEO_MIXER_SERVICE, IID_PPV_ARGS(&m_pMixer), &dwObjectCount
         );
 
     if (FAILED(hr))
@@ -282,8 +282,8 @@ HRESULT EVRCustomPresenter::InitServicePointers(
 
     hr = pLookup->LookupService(
         MF_SERVICE_LOOKUP_GLOBAL, 0,
-        MR_VIDEO_RENDER_SERVICE, IID_PPV_ARGS(&amp;m_pMediaEventSink),
-        &amp;dwObjectCount
+        MR_VIDEO_RENDER_SERVICE, IID_PPV_ARGS(&m_pMediaEventSink),
+        &dwObjectCount
         );
 
     if (FAILED(hr))
@@ -295,7 +295,7 @@ HRESULT EVRCustomPresenter::InitServicePointers(
     m_RenderState = RENDER_STATE_STOPPED;
 
 done:
-    LeaveCriticalSection(&amp;m_ObjectLock);
+    LeaveCriticalSection(&m_ObjectLock);
     return hr;
 }
 ```
@@ -309,11 +309,11 @@ When the interface pointers obtained from [**LookupService**](/windows/desktop/a
 HRESULT EVRCustomPresenter::ReleaseServicePointers()
 {
     // Enter the shut-down state.
-    EnterCriticalSection(&amp;m_ObjectLock);
+    EnterCriticalSection(&m_ObjectLock);
 
     m_RenderState = RENDER_STATE_SHUTDOWN;
 
-    LeaveCriticalSection(&amp;m_ObjectLock);
+    LeaveCriticalSection(&m_ObjectLock);
 
     // Flush any samples that were scheduled.
     Flush();
@@ -322,9 +322,9 @@ HRESULT EVRCustomPresenter::ReleaseServicePointers()
     SetMediaType(NULL);
 
     // Release all services that were acquired from InitServicePointers.
-    SafeRelease(&amp;m_pClock);
-    SafeRelease(&amp;m_pMixer);
-    SafeRelease(&amp;m_pMediaEventSink);
+    SafeRelease(&m_pClock);
+    SafeRelease(&m_pMixer);
+    SafeRelease(&m_pMediaEventSink);
 
     return S_OK;
 }
@@ -373,7 +373,7 @@ HRESULT EVRCustomPresenter::GetCurrentMediaType(
 
     *ppMediaType = NULL;
 
-    EnterCriticalSection(&amp;m_ObjectLock);
+    EnterCriticalSection(&m_ObjectLock);
 
     hr = CheckShutdown();
     if (FAILED(hr))
@@ -390,7 +390,7 @@ HRESULT EVRCustomPresenter::GetCurrentMediaType(
     hr = m_pMediaType->QueryInterface(IID_PPV_ARGS(ppMediaType));
 
 done:
-    LeaveCriticalSection(&amp;m_ObjectLock);
+    LeaveCriticalSection(&m_ObjectLock);
     return hr;
 }
 ```
@@ -501,12 +501,12 @@ float EVRCustomPresenter::GetMaxRate(BOOL bThin)
     MFRatio fps = { 0, 0 };
     UINT    MonitorRateHz = 0;
 
-    if (!bThin &amp;&amp; (m_pMediaType != NULL))
+    if (!bThin && (m_pMediaType != NULL))
     {
-        GetFrameRate(m_pMediaType, &amp;fps);
+        GetFrameRate(m_pMediaType, &fps);
         MonitorRateHz = m_pD3DPresentEngine->RefreshRate();
 
-        if (fps.Denominator &amp;&amp; fps.Numerator &amp;&amp; MonitorRateHz)
+        if (fps.Denominator && fps.Numerator && MonitorRateHz)
         {
             // Max Rate = Refresh Rate / Frame Rate
             fMaxRate = (float)MulDiv(
@@ -532,7 +532,7 @@ HRESULT EVRCustomPresenter::IsRateSupported(
     float *pfNearestSupportedRate
     )
 {
-    EnterCriticalSection(&amp;m_ObjectLock);
+    EnterCriticalSection(&m_ObjectLock);
 
     float   fMaxRate = 0.0f;
     float   fNearestRate = fRate;  // If we support fRate, that is the nearest.
@@ -568,7 +568,7 @@ HRESULT EVRCustomPresenter::IsRateSupported(
     }
 
 done:
-    LeaveCriticalSection(&amp;m_ObjectLock);
+    LeaveCriticalSection(&m_ObjectLock);
     return hr;
 }
 ```
@@ -732,13 +732,13 @@ HRESULT EVRCustomPresenter::RenegotiateMediaType()
 
     // Loop through all of the mixer's proposed output types.
     DWORD iTypeIndex = 0;
-    while (!bFoundMediaType &amp;&amp; (hr != MF_E_NO_MORE_TYPES))
+    while (!bFoundMediaType && (hr != MF_E_NO_MORE_TYPES))
     {
-        SafeRelease(&amp;pMixerType);
-        SafeRelease(&amp;pOptimalType);
+        SafeRelease(&pMixerType);
+        SafeRelease(&pOptimalType);
 
         // Step 1. Get the next media type supported by mixer.
-        hr = m_pMixer->GetOutputAvailableType(0, iTypeIndex++, &amp;pMixerType);
+        hr = m_pMixer->GetOutputAvailableType(0, iTypeIndex++, &pMixerType);
         if (FAILED(hr))
         {
             break;
@@ -758,7 +758,7 @@ HRESULT EVRCustomPresenter::RenegotiateMediaType()
         // Step 3. Adjust the mixer's type to match our requirements.
         if (SUCCEEDED(hr))
         {
-            hr = CreateOptimalVideoType(pMixerType, &amp;pOptimalType);
+            hr = CreateOptimalVideoType(pMixerType, &pOptimalType);
         }
 
         // Step 4. Check if the mixer will accept this media type.
@@ -793,9 +793,9 @@ HRESULT EVRCustomPresenter::RenegotiateMediaType()
         }
     }
 
-    SafeRelease(&amp;pMixerType);
-    SafeRelease(&amp;pOptimalType);
-    SafeRelease(&amp;pVideoType);
+    SafeRelease(&pMixerType);
+    SafeRelease(&pOptimalType);
+    SafeRelease(&pVideoType);
 
     return hr;
 }
@@ -871,14 +871,14 @@ HRESULT EVRCustomPresenter::TrackSample(IMFSample *pSample)
 {
     IMFTrackedSample *pTracked = NULL;
 
-    HRESULT hr = pSample->QueryInterface(IID_PPV_ARGS(&amp;pTracked));
+    HRESULT hr = pSample->QueryInterface(IID_PPV_ARGS(&pTracked));
 
     if (SUCCEEDED(hr))
     {
-        hr = pTracked->SetAllocator(&amp;m_SampleFreeCB, NULL);
+        hr = pTracked->SetAllocator(&m_SampleFreeCB, NULL);
     }
 
-    SafeRelease(&amp;pTracked);
+    SafeRelease(&pTracked);
     return hr;
 }
 ```
@@ -896,13 +896,13 @@ HRESULT EVRCustomPresenter::OnSampleFree(IMFAsyncResult *pResult)
     IUnknown *pUnk = NULL;
 
     // Get the sample from the async result object.
-    HRESULT hr = pResult->GetObject(&amp;pObject);
+    HRESULT hr = pResult->GetObject(&pObject);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pObject->QueryInterface(IID_PPV_ARGS(&amp;pSample));
+    hr = pObject->QueryInterface(IID_PPV_ARGS(&pSample));
     if (FAILED(hr))
     {
         goto done;
@@ -914,7 +914,7 @@ HRESULT EVRCustomPresenter::OnSampleFree(IMFAsyncResult *pResult)
     if (m_FrameStep.state == FRAMESTEP_SCHEDULED)
     {
         // Query the sample for IUnknown and compare it to our cached value.
-        hr = pSample->QueryInterface(IID_PPV_ARGS(&amp;pUnk));
+        hr = pSample->QueryInterface(IID_PPV_ARGS(&pUnk));
         if (FAILED(hr))
         {
             goto done;
@@ -938,7 +938,7 @@ HRESULT EVRCustomPresenter::OnSampleFree(IMFAsyncResult *pResult)
 
     /*** Begin lock ***/
 
-    EnterCriticalSection(&amp;m_ObjectLock);
+    EnterCriticalSection(&m_ObjectLock);
 
     UINT32 token = MFGetAttributeUINT32(
         pSample, MFSamplePresenter_SampleCounter, (UINT32)-1);
@@ -954,7 +954,7 @@ HRESULT EVRCustomPresenter::OnSampleFree(IMFAsyncResult *pResult)
         }
     }
 
-    LeaveCriticalSection(&amp;m_ObjectLock);
+    LeaveCriticalSection(&m_ObjectLock);
 
     /*** End lock ***/
 
@@ -963,9 +963,9 @@ done:
     {
         NotifyEvent(EC_ERRORABORT, hr, 0);
     }
-    SafeRelease(&amp;pObject);
-    SafeRelease(&amp;pSample);
-    SafeRelease(&amp;pUnk);
+    SafeRelease(&pObject);
+    SafeRelease(&pSample);
+    SafeRelease(&pUnk);
     return hr;
 }
 ```
@@ -1105,15 +1105,15 @@ HRESULT EVRCustomPresenter::ProcessOutput()
     BOOL        bRepaint = m_bRepaint; // Temporarily store this state flag.
 
     MFT_OUTPUT_DATA_BUFFER dataBuffer;
-    ZeroMemory(&amp;dataBuffer, sizeof(dataBuffer));
+    ZeroMemory(&dataBuffer, sizeof(dataBuffer));
 
     IMFSample *pSample = NULL;
 
     // If the clock is not running, we present the first sample,
     // and then don't present any more until the clock starts.
 
-    if ((m_RenderState != RENDER_STATE_STARTED) &amp;&amp;  // Not running.
-         !m_bRepaint &amp;&amp;             // Not a repaint request.
+    if ((m_RenderState != RENDER_STATE_STARTED) &&  // Not running.
+         !m_bRepaint &&             // Not a repaint request.
          m_bPrerolled               // At least one sample has been presented.
          )
     {
@@ -1127,7 +1127,7 @@ HRESULT EVRCustomPresenter::ProcessOutput()
     }
 
     // Try to get a free sample from the video sample pool.
-    hr = m_SamplePool.GetSample(&amp;pSample);
+    hr = m_SamplePool.GetSample(&pSample);
     if (hr == MF_E_SAMPLEALLOCATOR_EMPTY)
     {
         // No free samples. Try again when a sample is released.
@@ -1165,7 +1165,7 @@ HRESULT EVRCustomPresenter::ProcessOutput()
         if (m_pClock)
         {
             // Latency: Record the starting time for ProcessOutput.
-            (void)m_pClock->GetCorrelatedTime(0, &amp;mixerStartTime, &amp;systemTime);
+            (void)m_pClock->GetCorrelatedTime(0, &mixerStartTime, &systemTime);
         }
     }
 
@@ -1174,7 +1174,7 @@ HRESULT EVRCustomPresenter::ProcessOutput()
     dataBuffer.pSample = pSample;
     dataBuffer.dwStatus = 0;
 
-    hr = m_pMixer->ProcessOutput(0, 1, &amp;dataBuffer, &amp;dwStatus);
+    hr = m_pMixer->ProcessOutput(0, 1, &dataBuffer, &dwStatus);
 
     if (FAILED(hr))
     {
@@ -1207,15 +1207,15 @@ HRESULT EVRCustomPresenter::ProcessOutput()
     {
         // We got an output sample from the mixer.
 
-        if (m_pClock &amp;&amp; !bRepaint)
+        if (m_pClock && !bRepaint)
         {
             // Latency: Record the ending time for the ProcessOutput operation,
             // and notify the EVR of the latency.
 
-            (void)m_pClock->GetCorrelatedTime(0, &amp;mixerEndTime, &amp;systemTime);
+            (void)m_pClock->GetCorrelatedTime(0, &mixerEndTime, &systemTime);
 
             LONGLONG latencyTime = mixerEndTime - mixerStartTime;
-            NotifyEvent(EC_PROCESSING_LATENCY, (LONG_PTR)&amp;latencyTime, 0);
+            NotifyEvent(EC_PROCESSING_LATENCY, (LONG_PTR)&latencyTime, 0);
         }
 
         // Set up notification for when the sample is released.
@@ -1248,10 +1248,10 @@ HRESULT EVRCustomPresenter::ProcessOutput()
     }
 
 done:
-    SafeRelease(&amp;pSample);
+    SafeRelease(&pSample);
 
     // Important: Release any events returned from the ProcessOutput method.
-    SafeRelease(&amp;dataBuffer.pEvents);
+    SafeRelease(&dataBuffer.pEvents);
     return hr;
 }
 ```
@@ -1312,13 +1312,13 @@ The following example calculates how early or late a sample is, relative to the 
     {
         // Get the sample's time stamp. It is valid for a sample to
         // have no time stamp.
-        hr = pSample->GetSampleTime(&amp;hnsPresentationTime);
+        hr = pSample->GetSampleTime(&hnsPresentationTime);
 
         // Get the clock time. (But if the sample does not have a time stamp,
         // we don't need the clock time.)
         if (SUCCEEDED(hr))
         {
-            hr = m_pClock->GetCorrelatedTime(0, &amp;hnsTimeNow, &amp;hnsSystemTime);
+            hr = m_pClock->GetCorrelatedTime(0, &hnsTimeNow, &hnsSystemTime);
         }
 
         // Calculate the time until the sample's presentation time.
@@ -1368,14 +1368,14 @@ HRESULT D3DPresentEngine::PresentSample(IMFSample* pSample, LONGLONG llTarget)
     if (pSample)
     {
         // Get the buffer from the sample.
-        hr = pSample->GetBufferByIndex(0, &amp;pBuffer);
+        hr = pSample->GetBufferByIndex(0, &pBuffer);
         if (FAILED(hr))
         {
             goto done;
         }
 
         // Get the surface from the buffer.
-        hr = MFGetService(pBuffer, MR_BUFFER_SERVICE, IID_PPV_ARGS(&amp;pSurface));
+        hr = MFGetService(pBuffer, MR_BUFFER_SERVICE, IID_PPV_ARGS(&pSurface));
         if (FAILED(hr))
         {
             goto done;
@@ -1391,7 +1391,7 @@ HRESULT D3DPresentEngine::PresentSample(IMFSample* pSample, LONGLONG llTarget)
     if (pSurface)
     {
         // Get the swap chain from the surface.
-        hr = pSurface->GetContainer(IID_PPV_ARGS(&amp;pSwapChain));
+        hr = pSurface->GetContainer(IID_PPV_ARGS(&pSwapChain));
         if (FAILED(hr))
         {
             goto done;
@@ -1414,9 +1414,9 @@ HRESULT D3DPresentEngine::PresentSample(IMFSample* pSample, LONGLONG llTarget)
     }
 
 done:
-    SafeRelease(&amp;pSwapChain);
-    SafeRelease(&amp;pSurface);
-    SafeRelease(&amp;pBuffer);
+    SafeRelease(&pSwapChain);
+    SafeRelease(&pSurface);
+    SafeRelease(&pBuffer);
 
     if (FAILED(hr))
     {
@@ -1508,7 +1508,7 @@ HRESULT EVRCustomPresenter::ProcessMessage(
 {
     HRESULT hr = S_OK;
 
-    EnterCriticalSection(&amp;m_ObjectLock);
+    EnterCriticalSection(&m_ObjectLock);
 
     hr = CheckShutdown();
     if (FAILED(hr))
@@ -1567,7 +1567,7 @@ HRESULT EVRCustomPresenter::ProcessMessage(
     }
 
 done:
-    LeaveCriticalSection(&amp;m_ObjectLock);
+    LeaveCriticalSection(&m_ObjectLock);
     return hr;
 }
 ```

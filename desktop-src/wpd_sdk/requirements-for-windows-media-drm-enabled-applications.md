@@ -58,9 +58,9 @@ IWMDRMDeviceApp*       pWMDRMApp   = NULL;
 
 hr = pPortableDeviceContent->CreateObjectWithPropertiesAndData(pValues,
 
-                              &amp;pDataStream,
+                              &pDataStream,
 
-                              &amp;dwOptimalWriteBufferSize,
+                              &dwOptimalWriteBufferSize,
 
                               NULL);
 
@@ -68,7 +68,7 @@ hr = pPortableDeviceContent->CreateObjectWithPropertiesAndData(pValues,
 
 // ... Transfer the protected WMDRM content 
 
-pDataStream->Write(pData, cbData, &amp;cbWritten);
+pDataStream->Write(pData, cbData, &cbWritten);
 
  
 
@@ -78,7 +78,7 @@ pDataStream->Commit(0);
 
 hr = pDataStream->QueryInterface(IID_IWMDRMDeviceApp, 
 
-                                 (void**)&amp;pWMDRMApp);
+                                 (void**)&pWMDRMApp);
 
  
 
@@ -94,7 +94,7 @@ if (SUCCEEDED(hr))
 
    hr = pWMDRMApp->QueryDeviceStatus((IWMDMDevice *)WMDRMDEVICEAPP_USE_WPD_DEVICE_PTR, 
 
-                                     &amp;dwStatus);
+                                     &dwStatus);
 
 }
 

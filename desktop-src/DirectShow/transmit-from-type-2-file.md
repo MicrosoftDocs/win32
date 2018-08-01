@@ -24,13 +24,13 @@ Build this graph as follows:
 // Add the DV Mux filter to the graph.
 IBaseFilter *pDVMux;
 hr = CoCreateInstance(CLSID_DVMux, 0, CLSCTX_INPROC_SERVER
-    IID_IBaseFilter, reinterpret_cast<void**>)(&amp;pDVMux));
+    IID_IBaseFilter, reinterpret_cast<void**>)(&pDVMux));
 hr = pGraph->AddFilter(pDVMux, L"DV Mux");
 
 // Add the File Source filter to the graph.
 IBaseFilter *pFileSource;
 hr = pGraph->AddSourceFilter(L"C:\\Example2.avi", L"Source", 
-    &amp;pFileSource);
+    &pFileSource);
 
 hr = pBuilder->RenderStream(0, 0, pFileSource, 0, pDVMux);
 hr = pBuilder->RenderStream(0, 0, pFileSource, 0, pDVMux);
@@ -38,12 +38,12 @@ hr = pBuilder->RenderStream(0, 0, pFileSource, 0, pDVMux);
 // Add the Infinite Pin Tee filter to the graph.
 IBaseFilter *pTee;
 hr = CoCreateInstance(CLSID_InfTee, 0, CLSCTX_INPROC_SERVER
-    IID_IBaseFilter, reinterpret_cast<void**>)(&amp;pTee));
+    IID_IBaseFilter, reinterpret_cast<void**>)(&pTee));
 hr = pGraph->AddFilter(pTee, L"Tee");
 
 hr = pBuilder->RenderStream(0, 0, pDVMux, 0, pTee);
 hr = pBuilder->RenderStream(0, 0, pTee, 0, pDV);
-hr = pBuilder->RenderStream(0, &amp;MEDIATYPE_Interleaved, pTee, 0, 0);
+hr = pBuilder->RenderStream(0, &MEDIATYPE_Interleaved, pTee, 0, 0);
 ```
 
 

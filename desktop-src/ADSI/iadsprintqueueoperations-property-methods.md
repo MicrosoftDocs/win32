@@ -261,9 +261,9 @@ The following C++ code example verifies that a printer is jammed.
 IADsPrintQueueOperations *pqo;
 HRESULT hr = ADsGetObject(L"WinNT://aMachine/aPrinter",
 IID_IADsPrintQueueOperations,
-(void**)&amp;pqo)
+(void**)&pqo)
 long status;
-hr = pqo->get_Status(&amp;status);
+hr = pqo->get_Status(&status);
 if(status = ADS_PRINTER_PAPER_JAM) {
 printf("Your printer is jammed.\n");
 }

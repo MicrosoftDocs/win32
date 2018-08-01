@@ -16,8 +16,8 @@ Transform states 256-511 are reserved to store up to 256 matrices that can be in
 
 ```
 D3DMATRIX matBlend1;
-D3DXMatrixIdentity( &amp;matBlend1 );
-m_pD3DDevice->SetTransform( D3DTS_WORLDMATRIX(0), &amp;matBlend );
+D3DXMatrixIdentity( &matBlend1 );
+m_pD3DDevice->SetTransform( D3DTS_WORLDMATRIX(0), &matBlend );
 ```
 
 
@@ -48,7 +48,7 @@ To determine the maximum size for the indexed vertex blending matrix, check the 
 ```
 D3DCAPS9 d3dCaps;
     
-m_pD3DDevice->GetDeviceCaps( &amp;d3dCaps );
+m_pD3DDevice->GetDeviceCaps( &d3dCaps );
 IndexedMatrixMaxSize = d3dCaps.MaxVertexBlendMatrixIndex;
 ```
 

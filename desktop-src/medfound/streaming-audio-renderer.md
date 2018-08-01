@@ -72,30 +72,30 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_ALL, 
     __uuidof(IMMDeviceEnumerator), 
-    (void**)&amp;pEnum
+    (void**)&pEnum
     );
 
 // Enumerate the rendering devices.
 if (SUCCEEDED(hr))
 {
-    hr = pEnum->EnumAudioEndpoints(eRender, DEVICE_STATE_ACTIVE, &amp;pDevices);
+    hr = pEnum->EnumAudioEndpoints(eRender, DEVICE_STATE_ACTIVE, &pDevices);
 }
 
 // Get ID of the first device in the list.
 if (SUCCEEDED(hr))
 {
-    hr = pDevices->Item(0, &amp;pDevice);
+    hr = pDevices->Item(0, &pDevice);
 }
 
 if (SUCCEEDED(hr))
 {
-    hr = pDevice->GetId(&amp;wstrID);
+    hr = pDevice->GetId(&wstrID);
 }
 
 // Create an attribute store and set the device ID attribute.
 if (SUCCEEDED(hr))
 {
-    hr = MFCreateAttributes(&amp;pAttributes, 2);
+    hr = MFCreateAttributes(&pAttributes, 2);
 }
 
 if (SUCCEEDED(hr))
@@ -109,7 +109,7 @@ if (SUCCEEDED(hr))
 // Create the audio renderer.
 if (SUCCEEDED(hr))
 {
-    hr = MFCreateAudioRenderer(pAttributes, &amp;pSink);    
+    hr = MFCreateAudioRenderer(pAttributes, &pSink);    
 }
 
 SAFE_RELEASE(pEnum);
@@ -129,7 +129,7 @@ IMFActivate *pActivate = NULL;          // Activation object.
 
 if (SUCCEEDED(hr))
 {
-    hr = MFCreateAudioRendererActivate(&amp;pActivate);    
+    hr = MFCreateAudioRendererActivate(&pActivate);    
 }
 
 if (SUCCEEDED(hr))

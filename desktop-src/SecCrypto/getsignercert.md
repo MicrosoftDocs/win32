@@ -42,7 +42,7 @@ DWORD                PropId = CERT_KEY_PROV_INFO_PROP_ID;
 //  Find certificates in the store until the end of the store
 //  is reached or a certificate with an AT_SIGNATURE key is found.
 
-while(fMore &amp;&amp; 
+while(fMore && 
   (pCertContext= CertFindCertificateInStore(
      hCertStore,           // Handle of the store to be searched.
      0,                    // Encoding type. Not used for this search.
@@ -52,7 +52,7 @@ while(fMore &amp;&amp;
                            // search to do. In this case, search for 
                            // certificates that have a specific 
                            // extended property.
-     &amp;PropId,              // pvFindPara. Gives the specific 
+     &PropId,              // pvFindPara. Gives the specific 
                            // value searched for, here the identifier 
                            // of an extended property.
      pCertContext)))       // pCertContext is NULL for the 
@@ -76,7 +76,7 @@ while(fMore &amp;&amp;
                  pCertContext,
                  CERT_KEY_PROV_INFO_PROP_ID,
                  NULL,
-                 &amp;dwSize)))
+                 &dwSize)))
    {
       MyHandleError("Error Getting Key Property");
    }
@@ -98,7 +98,7 @@ while(fMore &amp;&amp;
        pCertContext,
        CERT_KEY_PROV_INFO_PROP_ID,
        pKeyInfo,
-       &amp;dwSize)))
+       &dwSize)))
    {
        MyHandleError("The second call to the function failed.");
    }

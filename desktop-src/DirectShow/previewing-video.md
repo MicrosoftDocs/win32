@@ -22,7 +22,7 @@ IBaseFilter *pCap; // Video capture filter.
 
 /* Initialize pCap and add it to the filter graph (not shown). */
 
-hr = pBuild->RenderStream(&amp;PIN_CATEGORY_PREVIEW, &amp;MEDIATYPE_Video, 
+hr = pBuild->RenderStream(&PIN_CATEGORY_PREVIEW, &MEDIATYPE_Video, 
     pCap, NULL, NULL);
 ```
 

@@ -19,7 +19,7 @@ To draw an ellipse, you need a [**Graphics**](/windows/desktop/api/gdiplusgraphi
 
 
 ```
-myGraphics.DrawEllipse(&amp;myPen, 100, 50, 160, 80);
+myGraphics.DrawEllipse(&myPen, 100, 50, 160, 80);
 ```
 
 
@@ -29,7 +29,7 @@ myGraphics.DrawEllipse(&amp;myPen, 100, 50, 160, 80);
 
 ```
 Rect myRect(100, 50, 160, 80);
-myGraphics.DrawEllipse(&amp;myPen, myRect);
+myGraphics.DrawEllipse(&myPen, myRect);
 ```
 
 
@@ -38,7 +38,7 @@ An arc is a portion of an ellipse. To draw an arc, you call the [DrawArc](https:
 
 
 ```
-myGraphics.DrawArc(&amp;myPen, 100, 50, 160, 80, 30, 180);
+myGraphics.DrawArc(&myPen, 100, 50, 160, 80, 30, 180);
 ```
 
 

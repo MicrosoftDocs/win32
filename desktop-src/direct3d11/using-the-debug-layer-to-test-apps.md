@@ -60,9 +60,9 @@ To enable the [debug layer](overviews-direct3d-11-devices-layers.md), specify th
                 featureLevels,
                 ARRAYSIZE(featureLevels),
                 D3D11_SDK_VERSION,          // always set this to D3D11_SDK_VERSION
-                &amp;d3dDevice,
+                &d3dDevice,
                 nullptr,
-                &amp;d3dDeviceContext
+                &d3dDeviceContext
                 )
             );
 ```

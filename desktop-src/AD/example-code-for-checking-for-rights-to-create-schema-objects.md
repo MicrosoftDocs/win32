@@ -40,28 +40,28 @@ BOOL bIsAddClassAllowed = FALSE;
 LPOLESTR pwszArray[] = {L"allowedChildClassesEffective"};
 DWORD dwArrayItems = sizeof(pwszArray)/sizeof(LPOLESTR);
 VARIANT vArray;
-VariantInit(&amp;vArray);
+VariantInit(&vArray);
 // Build a Variant of array type, using the specified string array.
-hr = ADsBuildVarArrayStr(pwszArray, dwArrayItems, &amp;vArray);
+hr = ADsBuildVarArrayStr(pwszArray, dwArrayItems, &vArray);
 if (SUCCEEDED(hr))
 {
   hr = pSchema->GetInfoEx(vArray,0L);
   if (SUCCEEDED(hr))
   {
     hr = pSchema->GetEx(CComBSTR("allowedChildClassesEffective"), 
-                        &amp;var);
+                        &var);
     if (SUCCEEDED(hr))
     {
        hr = SafeArrayAccessData((SAFEARRAY*)(var.pparray), 
-                                (void HUGEP* FAR*)&amp;pVar);
+                                (void HUGEP* FAR*)&pVar);
        long lLBound, lUBound;
        // One-dimensional array. Get the bounds for the array.
        hr = SafeArrayGetLBound((SAFEARRAY*)(var.pparray), 
                                1,
-                               &amp;lLBound);
+                               &lLBound);
        hr = SafeArrayGetUBound((SAFEARRAY*)(var.pparray), 
                                1, 
-                               &amp;lUBound);
+                               &lUBound);
        // Get the count of elements
        long cElements = lUBound-lLBound + 1;
        // Get the elements of the array.
@@ -79,13 +79,13 @@ if (SUCCEEDED(hr))
               bIsAddClassAllowed = TRUE;
           }
         }
-        if (bIsAddAttributeAllowed &amp;&amp; bIsAddClassAllowed)
+        if (bIsAddAttributeAllowed && bIsAddClassAllowed)
           hr = S_OK;
         else
           hr = S_FALSE;
        }
     }
-    VariantClear(&amp;var);
+    VariantClear(&var);
   }
 }
  

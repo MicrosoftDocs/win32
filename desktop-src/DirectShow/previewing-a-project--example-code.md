@@ -34,13 +34,13 @@ void PreviewTL(IAMTimeline *pTL, IRenderEngine *pRender)
     hr = pRender->RenderOutputPins( );
 
     // Run the graph.
-    hr = pRender->GetFilterGraph(&amp;pGraph);
-    pGraph->QueryInterface(IID_IMediaControl, (void **)&amp;pControl);
-    pGraph->QueryInterface(IID_IMediaEvent, (void **)&amp;pEvent);
+    hr = pRender->GetFilterGraph(&pGraph);
+    pGraph->QueryInterface(IID_IMediaControl, (void **)&pControl);
+    pGraph->QueryInterface(IID_IMediaEvent, (void **)&pEvent);
     hr = pControl->Run();
 
     long evCode;
-    hr = pEvent->WaitForCompletion(INFINITE, &amp;evCode);
+    hr = pEvent->WaitForCompletion(INFINITE, &evCode);
     pControl->Stop();
 
     // Clean up.
@@ -58,11 +58,11 @@ void main( void )
 
     CoInitialize(NULL);
     hr = CoCreateInstance(CLSID_AMTimeline, NULL, CLSCTX_INPROC_SERVER, 
-                IID_IAMTimeline, (void**)&amp;pTL);
+                IID_IAMTimeline, (void**)&pTL);
     hr = CoCreateInstance(CLSID_Xml2Dex, NULL, CLSCTX_INPROC_SERVER, 
-                IID_IXml2Dex, (void**)&amp;pXML);
+                IID_IXml2Dex, (void**)&pXML);
     hr = CoCreateInstance(CLSID_RenderEngine, NULL, CLSCTX_INPROC_SERVER,
-                IID_IRenderEngine, (void**)&amp;pRender);
+                IID_IRenderEngine, (void**)&pRender);
 
     // Load a project file.
     BSTR bstrFile = SysAllocStringLen(OLESTR("C:\\example.xtl"), 15);

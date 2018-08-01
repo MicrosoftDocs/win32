@@ -23,7 +23,7 @@ The minimum requirement for enabling XAudio2 to play audio data is an audio proc
 
     ```
     IXAudio2SourceVoice* pSourceVoice;
-    if( FAILED(hr = pXAudio2->CreateSourceVoice( &amp;pSourceVoice, (WAVEFORMATEX*)&amp;wfx,
+    if( FAILED(hr = pXAudio2->CreateSourceVoice( &pSourceVoice, (WAVEFORMATEX*)&wfx,
                   0, XAUDIO2_DEFAULT_FREQ_RATIO, NULL, NULL, NULL ) ) ) return hr;
     ```
 
@@ -38,7 +38,7 @@ The minimum requirement for enabling XAudio2 to play audio data is an audio proc
 4.  Use the function [**SubmitSourceBuffer**](https://msdn.microsoft.com/en-us/library/Ee418473(v=VS.85).aspx) to submit an [**XAUDIO2\_BUFFER**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer) to the source voice.
 
     ```
-    if( FAILED(hr = pSourceVoice->SubmitSourceBuffer( &amp;buffer ) ) )
+    if( FAILED(hr = pSourceVoice->SubmitSourceBuffer( &buffer ) ) )
         return hr;
     ```
 

@@ -72,7 +72,7 @@ void main(void)
     }
 
     // Get a single event from the result set.
-    if (!EvtNext(hResults, 1, &amp;hEvent, INFINITE, 0, &amp;dwReturned))
+    if (!EvtNext(hResults, 1, &hEvent, INFINITE, 0, &dwReturned))
     {
         wprintf(L"EvtNext failed with %lu\n", status);
         goto cleanup;
@@ -172,7 +172,7 @@ LPWSTR GetMessageString(EVT_HANDLE hMetadata, EVT_HANDLE hEvent, EVT_FORMAT_MESS
     DWORD dwBufferUsed = 0;
     DWORD status = 0;
 
-    if (!EvtFormatMessage(hMetadata, hEvent, 0, 0, NULL, FormatId, dwBufferSize, pBuffer, &amp;dwBufferUsed))
+    if (!EvtFormatMessage(hMetadata, hEvent, 0, 0, NULL, FormatId, dwBufferSize, pBuffer, &dwBufferUsed))
     {
         status = GetLastError();
         if (ERROR_INSUFFICIENT_BUFFER == status)
@@ -191,7 +191,7 @@ LPWSTR GetMessageString(EVT_HANDLE hMetadata, EVT_HANDLE hEvent, EVT_FORMAT_MESS
 
             if (pBuffer)
             {
-                EvtFormatMessage(hMetadata, hEvent, 0, 0, NULL, FormatId, dwBufferSize, pBuffer, &amp;dwBufferUsed);
+                EvtFormatMessage(hMetadata, hEvent, 0, 0, NULL, FormatId, dwBufferSize, pBuffer, &dwBufferUsed);
 
                 // Add the second null terminator character.
                 if ((EvtFormatMessageKeyword == FormatId))

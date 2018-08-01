@@ -46,7 +46,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT uMsg, WPARAM wParam,
     { 
         case WM_PAINT: 
         { 
-            GetClientRect(hWnd, &amp;rc); 
+            GetClientRect(hWnd, &rc); 
             rc.left += 10; 
             rc.top += 10; 
             rc.bottom -= 10; 
@@ -56,11 +56,11 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT uMsg, WPARAM wParam,
             lb.lbColor = RGB(255,0,0); 
             lb.lbHatch = 0; 
  
-            hdc = BeginPaint(hWnd, &amp;ps); 
+            hdc = BeginPaint(hWnd, &ps); 
             for (i = 0; i < 6; i++) 
             { 
                 hPen = ExtCreatePen(PS_COSMETIC | dwPenStyle[i], 
-                                    1, &amp;lb, 0, NULL); 
+                                    1, &lb, 0, NULL); 
                 hPenOld = SelectObject(hdc, hPen); 
                 MoveToEx(hdc, rc.left + (i * 20), rc.top, NULL); 
                 LineTo(hdc, rc.left + (i * 20), rc.bottom); 
@@ -74,14 +74,14 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT uMsg, WPARAM wParam,
                 lb.lbColor = RGB(0,0,255);     
                 lb.lbHatch = uHatch[i]; 
                 hPen = ExtCreatePen(PS_GEOMETRIC, 
-                                    5, &amp;lb, 0, NULL); 
+                                    5, &lb, 0, NULL); 
                 hPenOld = SelectObject(hdc, hPen); 
                 MoveToEx(hdc, rc.left + (i * 20), rc.top, NULL); 
                 LineTo(hdc, rc.left + (i * 20), rc.bottom); 
                 SelectObject(hdc, hPenOld); 
                 DeleteObject(hPen); 
             } 
-            EndPaint(hWnd, &amp;ps); 
+            EndPaint(hWnd, &ps); 
  
         } 
         break; 

@@ -23,9 +23,9 @@ LinearGradientBrush linGrBrush(
    Color(255, 255, 0, 0),   // Opaque red
    Color(255, 0, 0, 255));  // Opaque blue
 
-graphics.FillRectangle(&amp;linGrBrush, 0, 0, 200, 50);
+graphics.FillRectangle(&linGrBrush, 0, 0, 200, 50);
 linGrBrush.SetGammaCorrection(TRUE);
-graphics.FillRectangle(&amp;linGrBrush, 0, 60, 200, 50); 
+graphics.FillRectangle(&linGrBrush, 0, 60, 200, 50); 
 ```
 
 
@@ -50,7 +50,7 @@ GraphicsPath path;
 path.AddLines(points, 10);
 
 // Use the path to construct a path gradient brush.
-PathGradientBrush pthGrBrush(&amp;path);
+PathGradientBrush pthGrBrush(&path);
 
 // Set the color at the center of the path to red.
 pthGrBrush.SetCenterColor(Color(255, 255, 0, 0));
@@ -63,13 +63,13 @@ Color colors[] = {Color(255, 0, 0, 0),   Color(255, 0, 255, 0),
                   Color(255, 0, 0, 0),   Color(255, 0, 255, 0)};
 
 int count = 10;
-pthGrBrush.SetSurroundColors(colors, &amp;count);
+pthGrBrush.SetSurroundColors(colors, &count);
 
 // Fill the path with the path gradient brush.
-graphics.FillPath(&amp;pthGrBrush, &amp;path);
+graphics.FillPath(&pthGrBrush, &path);
 pthGrBrush.SetGammaCorrection(TRUE);
 graphics.TranslateTransform(200.0f, 0.0f);
-graphics.FillPath(&amp;pthGrBrush, &amp;path);
+graphics.FillPath(&pthGrBrush, &path);
 ```
 
 

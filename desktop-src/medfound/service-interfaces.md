@@ -82,14 +82,14 @@ HRESULT hr = S_OK;
 
 hr = pMediaSession->QueryInterface(
     IID_IMFGetService, 
-    (void**)&amp;pGetService);
+    (void**)&pGetService);
 
 if (SUCCEEDED(hr))
 {
     hr = pGetService->GetService(
         MF_RATE_CONTROL_SERVICE, 
         IID_IMFRateControl,
-        (void**)&amp;pRateControl);
+        (void**)&pRateControl);
 }
 if (SUCCEEDED(hr))
 {
@@ -114,7 +114,7 @@ hr = MFGetService(
     pMediaSession, 
     MF_RATE_CONTROL_SERVICE, 
     IID_IMFRateControl, 
-    (void**) &amp;pRateCtl 
+    (void**) &pRateCtl 
 ); 
 if (SUCCEEDED(hr))
 {

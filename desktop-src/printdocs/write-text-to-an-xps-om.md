@@ -58,19 +58,19 @@ WriteText_AddTextToPage(
     IXpsOMVisualCollection        *pageVisuals = NULL;
 
     // Create a new Glyphs object and set its properties.
-    hr = xpsFactory->CreateGlyphs(xpsFont, &amp;xpsGlyphs);
-    hr = xpsGlyphs->SetOrigin(&amp;glyphsOrigin);
+    hr = xpsFactory->CreateGlyphs(xpsFont, &xpsGlyphs);
+    hr = xpsGlyphs->SetOrigin(&glyphsOrigin);
     hr = xpsGlyphs->SetFontRenderingEmSize(fontEmSize);
     hr = xpsGlyphs->SetFillBrushLocal(xpsBrush);
 
     // Some properties are inter-dependent so they
     //    must be changed by using a GlyphsEditor.
-    hr = xpsGlyphs->GetGlyphsEditor(&amp;glyphsEditor);
+    hr = xpsGlyphs->GetGlyphsEditor(&glyphsEditor);
     hr = glyphsEditor->SetUnicodeString(unicodeString);
     hr = glyphsEditor->ApplyEdits();
 
     // Add the new Glyphs object to the page
-    hr = xpsPage->GetVisuals(&amp;pageVisuals);
+    hr = xpsPage->GetVisuals(&pageVisuals);
     hr = pageVisuals->Append(xpsGlyphs);
 
     // Release interface pointers.
@@ -110,10 +110,10 @@ Creation of an [**IXpsOMGlyphs**](/windows/desktop/api/xpsobjectmodel/nn-xpsobje
  
     // Create font stream.
     hr = xpsFactory->CreateReadOnlyStreamOnFile ( 
-        fontFileName, &amp;fontStream );
+        fontFileName, &fontStream );
     
     // Create new obfuscated part name for this resource using a GUID.
-    hr = CoCreateGuid( &amp;fontNameGuid );
+    hr = CoCreateGuid( &fontNameGuid );
     hr = StringFromGUID2( 
             fontNameGuid, 
             guidString, 
@@ -133,14 +133,14 @@ Creation of an [**IXpsOMGlyphs**](/windows/desktop/api/xpsobjectmodel/nn-xpsobje
     // Create the font URI interface.
     hr = xpsFactory->CreatePartUri(
         uriString,
-        &amp;fontUri);
+        &fontUri);
     // Create the font resource.
     hr = xpsFactory->CreateFontResource(
         fontStream,
         XPS_FONT_EMBEDDING_OBFUSCATED,
         fontUri,
         FALSE,     // isObfSourceStream
-        &amp;fontResource);
+        &fontResource);
     if (NULL != fontUri) fontUri->Release();
 
     // Create the brush to use for the font.
@@ -151,9 +151,9 @@ Creation of an [**IXpsOMGlyphs**](/windows/desktop/api/xpsobjectmodel/nn-xpsobje
     xpsColorBodyText.value.sRGB.blue = 0x00;
 
     hr = xpsFactory->CreateSolidColorBrush( 
-        &amp;xpsColorBodyText,
+        &xpsColorBodyText,
         NULL, // This color type does not use a color profile resource.             
-        &amp;xpsTextColor);
+        &xpsTextColor);
 
     // xpsTextColor is released after it has been used.
 ```
@@ -205,7 +205,7 @@ The final section of the code example creates the glyph runs for each run of sim
             fontResource,
             fontSize,
             xpsTextColor,
-            &amp;startPoints[thisRun],
+            &startPoints[thisRun],
             textRuns[thisRun],
             page);
         thisRun++;

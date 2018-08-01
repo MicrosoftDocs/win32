@@ -537,22 +537,22 @@ VARIANT var;
 hr = CoInitialize(NULL);
 hr = ADsGetObject(L"WinNT://myComputer,computer",
                   IID_IADs,
-                  (void**)&amp;pADs);
+                  (void**)&pADs);
 if (FAILED(hr)) {goto Cleanup;}
  
-hr = pADs->get_Schema(&amp;bstrSchema);
+hr = pADs->get_Schema(&bstrSchema);
 pADs->Release();
 if(FAILED(hr)) {goto Cleanup;}
  
-hr = ADsGetObject(bstrSchema, IID_IADsClass, (void**)&amp;pCls);
+hr = ADsGetObject(bstrSchema, IID_IADsClass, (void**)&pCls);
 if(FAILED(hr)) {goto Cleanup;}
  
-VariantInit(&amp;var);
+VariantInit(&var);
 VARIANT_BOOL bCont;
-pCls->get_Container(&amp;bCont);
+pCls->get_Container(&bCont);
 if(bCont != false) {
-    VariantClear(&amp;var);
-    pCls->get_Containment(&amp;var);
+    VariantClear(&var);
+    pCls->get_Containment(&var);
     hr = printVarArray(var);
 }
 

@@ -51,7 +51,7 @@ If a Command is exposed through a menu item and the value of [**Command.LabelTit
          Symbol="ID_FILE_NEW"
          Comment="New"
          Id="25001"
-         LabelTitle="&amp;amp;New"/>
+         LabelTitle="&amp;New"/>
 ```
 
 
@@ -64,7 +64,7 @@ To display an ampersand in a label, escape the special character designation wit
          Symbol="ID_FILE_OPEN"
          Comment="Open"
          Id="25002"
-         LabelTitle="&amp;amp;&amp;amp;Open"/>
+         LabelTitle="&amp;&amp;Open"/>
 ```
 
 

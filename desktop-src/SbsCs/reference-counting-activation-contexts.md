@@ -50,11 +50,11 @@ public:
     void DoWorkWithActCtx();
 };
 
-void Funct(CMyObject &amp;Target) 
+void Funct(CMyObject &Target) 
 {
     HANDLE hActCtx;
     ACTCTX actctx = { sizeof(ACTCTX) };
-    hActCtx = CreateActCtx(&amp;actctx);  //create activation context  
+    hActCtx = CreateActCtx(&actctx);  //create activation context  
     Target.SetActCtx(hActCtx);    //pass activation context to Target; 
     // actctx now has 1 more reference
     ReleaseActCtx(hActCtx);

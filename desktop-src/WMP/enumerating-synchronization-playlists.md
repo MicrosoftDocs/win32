@@ -57,32 +57,32 @@ STDMETHODIMP CSyncSettings::ShowPlaylists(long lPSIndex)
     if(SUCCEEDED(hr))
     {
         // Retrieve a pointer to IWMPMediaCollection.
-        hr = m_spPlayer->get_mediaCollection(&amp;spMediaCollection);
+        hr = m_spPlayer->get_mediaCollection(&spMediaCollection);
     }
 
-    if(SUCCEEDED(hr) &amp;&amp; spMediaCollection)
+    if(SUCCEEDED(hr) && spMediaCollection)
     {
         // Retrieve a playlist filled with IWMPMedia items.
         // Each IWMPMedia represents an individual playlist 
         // in the library.
-        hr = spMediaCollection->getByAttribute(CComBSTR("MediaType"), CComBSTR("playlist"), &amp;spPlaylist);
+        hr = spMediaCollection->getByAttribute(CComBSTR("MediaType"), CComBSTR("playlist"), &spPlaylist);
     }
  
-    if(SUCCEEDED(hr) &amp;&amp; spPlaylist)
+    if(SUCCEEDED(hr) && spPlaylist)
     {  
         // Get the sync attribute name for the current device.
         CComBSTR bstrAttribute(g_szSyncAttributeNames[lPSIndex]);
 
         // Sort the playlist.
         // lSyncItemCount is the count of synchronization playlists.
-        hr = SortPlaylist(spPlaylist, bstrAttribute, &amp;lSyncItemCount);
+        hr = SortPlaylist(spPlaylist, bstrAttribute, &lSyncItemCount);
      
         if(SUCCEEDED(hr))
         {
             m_spPlaylist = spPlaylist;  // Cache the playlist.
 
             long lCount = 0;
-            spPlaylist->get_count(&amp;lCount);
+            spPlaylist->get_count(&lCount);
              
             // Fill the ListView control.
             for(long i = 0; i < lCount; i++)
@@ -92,29 +92,29 @@ STDMETHODIMP CSyncSettings::ShowPlaylists(long lPSIndex)
                 CComBSTR bstrVal; // Value of the SyncXX attribute.
 
                 // Retrieve a playlist.
-                hr = spPlaylist->get_item(i, &amp;spMedia);
+                hr = spPlaylist->get_item(i, &spMedia);
 
-                if(SUCCEEDED(hr) &amp;&amp; spMedia)
+                if(SUCCEEDED(hr) && spMedia)
                 {
                     // Get the name.
-                    hr = spMedia->get_name(&amp;bstrPlaylistName);
+                    hr = spMedia->get_name(&bstrPlaylistName);
                 }  
-                if(SUCCEEDED(hr) &amp;&amp; spMedia)
+                if(SUCCEEDED(hr) && spMedia)
                 {      
                     // Get the SyncXX attribute value.
-                    hr = spMedia->getItemInfo(bstrAttribute, &amp;bstrVal);
+                    hr = spMedia->getItemInfo(bstrAttribute, &bstrVal);
                 }
 
-                if(SUCCEEDED(hr) &amp;&amp; bstrPlaylistName.Length())
+                if(SUCCEEDED(hr) && bstrPlaylistName.Length())
                 {
                     // Insert the item in the ListView control.
                     LVITEM lvI;
-                    ZeroMemory(&amp;lvI, sizeof(LVITEM));
+                    ZeroMemory(&lvI, sizeof(LVITEM));
                     lvI.mask = LVIF_TEXT; 
                     lvI.lParam = _wtol(bstrVal);
                     lvI.iItem = ListView_GetItemCount(m_hPlView);
                     lvI.pszText = "";
-                    ListView_InsertItem(m_hPlView, &amp;lvI);
+                    ListView_InsertItem(m_hPlView, &lvI);
 
                     // If this is a sync playlist, mark the check box.
                     if(i < lSyncItemCount)
@@ -125,7 +125,7 @@ STDMETHODIMP CSyncSettings::ShowPlaylists(long lPSIndex)
                     // Display the playlist name.
                     lvI.iSubItem = 1;
                     lvI.pszText = COLE2T(bstrPlaylistName);
-                    ListView_SetItem(m_hPlView, &amp;lvI);
+                    ListView_SetItem(m_hPlView, &lvI);
                 }
             }
         }        

@@ -49,7 +49,7 @@ arSearchPrefs[1].dwSearchPref = ADS_SEARCHPREF_SEARCH_SCOPE;
 arSearchPrefs[1].vValue.dwType = ADSTYPE_INTEGER; 
 arSearchPrefs[1].vValue.Integer = ADS_SCOPE_SUBTREE; 
  
-hr = pDSearch->SetSearchPreference(&amp;arSearchPrefs, 2);
+hr = pDSearch->SetSearchPreference(&arSearchPrefs, 2);
 ```
 
 

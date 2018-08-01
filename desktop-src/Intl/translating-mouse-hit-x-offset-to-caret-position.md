@@ -19,7 +19,7 @@ int iCharPos;
 int iCaretPos;
 int fTrailing;
 ScriptXtoCP(iMouseX, cChars, cGlyphs, pwLogClust, psva, piAdvance, psa,
-            &amp;iCharPos, &amp;fTrailing);
+            &iCharPos, &fTrailing);
 iCaretPos = iCharPos + fTrailing;
 ```
 

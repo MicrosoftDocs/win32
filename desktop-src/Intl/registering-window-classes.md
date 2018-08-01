@@ -34,7 +34,7 @@ AnsiWndCls.hbrBackground = NULL;
 AnsiWndCls.lpszMenuName  = NULL;
 AnsiWndCls.lpszClassName = "TestAnsi";
 
-RegisterClassA(&amp;AnsiWndCls);
+RegisterClassA(&AnsiWndCls);
 
 // Register a Unicode window class.
 
@@ -51,7 +51,7 @@ UnicodeWndCls.hbrBackground = NULL;
 UnicodeWndCls.lpszMenuName  = NULL;
 UnicodeWndCls.lpszClassName = L"TestUnicode";
 
-RegisterClassW(&amp;UnicodeWndCls);
+RegisterClassW(&UnicodeWndCls);
 ```
 
 

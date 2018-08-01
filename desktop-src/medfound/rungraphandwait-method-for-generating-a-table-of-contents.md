@@ -18,7 +18,7 @@ The following function is a helper function in an example program that is discus
 HRESULT RunGraphAndWait(IGraphBuilder* pGraph)
 {
    IMediaControl* pControl = NULL;
-   HRESULT hr = pGraph->QueryInterface(IID_IMediaControl, (VOID**)&amp;pControl);
+   HRESULT hr = pGraph->QueryInterface(IID_IMediaControl, (VOID**)&pControl);
 
    if(SUCCEEDED(hr))
    {
@@ -27,12 +27,12 @@ HRESULT RunGraphAndWait(IGraphBuilder* pGraph)
       if(SUCCEEDED(hr))
       {
          IMediaEvent* pEvent = NULL;
-         hr = pControl->QueryInterface(IID_IMediaEvent, (VOID**)&amp;pEvent);
+         hr = pControl->QueryInterface(IID_IMediaEvent, (VOID**)&pEvent);
 
          if(SUCCEEDED(hr))
          {
            long eventCode = 0;
-           hr = pEvent->WaitForCompletion(INFINITE, &amp;eventCode);
+           hr = pEvent->WaitForCompletion(INFINITE, &eventCode);
            pEvent->Release();
            pEvent = NULL;
          }

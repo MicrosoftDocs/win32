@@ -94,7 +94,7 @@ LONG     lNewPos;
 HRESULT  hr;
 
 // Change the seek pointer.
-hr = pIByteBuff->Seek(5, STREAM_SEEK_SET, &amp;lNewPos);
+hr = pIByteBuff->Seek(5, STREAM_SEEK_SET, &lNewPos);
 if (FAILED(hr))
   printf("Failed IByteBuffer::Seek\n");
 else

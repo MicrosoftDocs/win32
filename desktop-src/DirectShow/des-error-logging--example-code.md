@@ -46,14 +46,14 @@ void __cdecl main(void)
     CComPtr<IGraphBuilder> pGraph;
 
     hr = CoCreateInstance(CLSID_AMTimeline, NULL, CLSCTX_INPROC_SERVER, 
-                IID_IAMTimeline, (void**) &amp;pTL);
+                IID_IAMTimeline, (void**) &pTL);
     hr = CoCreateInstance(CLSID_Xml2Dex, NULL, CLSCTX_INPROC_SERVER, 
-                IID_IXml2Dex, (void**) &amp;pXML);
+                IID_IXml2Dex, (void**) &pXML);
     hr = CoCreateInstance(CLSID_RenderEngine, NULL, CLSCTX_INPROC_SERVER,
-                IID_IRenderEngine, (void**) &amp;pRenderEngine);
+                IID_IRenderEngine, (void**) &pRenderEngine);
 
     // Set the error log.
-    CComQIPtr<IAMSetErrorLog, &amp;IID_IAMSetErrorLog> pSetLog(pTL);
+    CComQIPtr<IAMSetErrorLog, &IID_IAMSetErrorLog> pSetLog(pTL);
     if (pSetLog)
     {
         IAMErrorLog *pLog = new CErrReporter;    
@@ -68,14 +68,14 @@ void __cdecl main(void)
         hr = pRenderEngine->SetTimelineObject(pTL);
         hr = pRenderEngine->ConnectFrontEnd( );
         hr = pRenderEngine->RenderOutputPins( );
-        hr = pRenderEngine->GetFilterGraph(&amp;pGraph);
+        hr = pRenderEngine->GetFilterGraph(&pGraph);
 
-        CComQIPtr<IMediaControl, &amp;IID_IMediaControl> pControl(pGraph);
-        CComQIPtr<IMediaEvent, &amp;IID_IMediaEvent> pEvent(pGraph);
+        CComQIPtr<IMediaControl, &IID_IMediaControl> pControl(pGraph);
+        CComQIPtr<IMediaEvent, &IID_IMediaEvent> pEvent(pGraph);
         pControl->Run();
 
         long evCode;
-        hr = pEvent->WaitForCompletion(INFINITE, &amp;evCode);
+        hr = pEvent->WaitForCompletion(INFINITE, &evCode);
         pControl->Stop();
     }
     // Clean up.

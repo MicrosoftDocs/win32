@@ -50,7 +50,7 @@ int iMicrophoneIndex = -1;
 // iMicrophone index (not shown).
 
 PROPVARIANT varDeviceIndexes;
-PropVariantInit(&amp;varDeviceIndexes);
+PropVariantInit(&varDeviceIndexes);
 varDeviceIndexes.vt = VT_I4;
 varDeviceIndexes.lVal = (unsigned long)(iSpeakerIndex << 16) + 
     (unsigned long)(0x0000ffff & iMicrophoneIndex);

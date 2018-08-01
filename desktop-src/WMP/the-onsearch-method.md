@@ -23,16 +23,16 @@ The following code is used to implement this method:
 
 
 ```C++
-LRESULT OnSearch(WORD wNotifyCode, WORD wID, HWND hwndCtl, BOOL&amp; fHandled)
+LRESULT OnSearch(WORD wNotifyCode, WORD wID, HWND hwndCtl, BOOL& fHandled)
 {
     HRESULT hr;
     CComPtr<IWMPMedia> spMedia;
 
-    if( m_pPlugin &amp;&amp; m_pPlugin->m_spCore )
+    if( m_pPlugin && m_pPlugin->m_spCore )
     {
         // Get a pointer to the current media item.
-        hr = m_pPlugin->m_spCore->get_currentMedia(&amp;spMedia);
-        if (SUCCEEDED(hr) &amp;&amp; spMedia)
+        hr = m_pPlugin->m_spCore->get_currentMedia(&spMedia);
+        if (SUCCEEDED(hr) && spMedia)
         {
             LaunchPage(spMedia);
         }

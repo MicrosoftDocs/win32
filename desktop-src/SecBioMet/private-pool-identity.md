@@ -154,8 +154,8 @@ static void onIdentifyOrDelete(
     SIZE_T unitSchemaCount = 0;
     HRESULT hr = WinBioEnumBiometricUnits( 
                     WINBIO_TYPE_FINGERPRINT, 
-                    &amp;unitSchemaArray, 
-                    &amp;unitSchemaCount 
+                    &unitSchemaArray, 
+                    &unitSchemaCount 
                     );
     if (SUCCEEDED(hr))
     {
@@ -164,7 +164,7 @@ static void onIdentifyOrDelete(
                 _T("Choose a sensor for the private pool"), 
                 unitSchemaArray, 
                 unitSchemaCount, 
-                &amp;selectedUnit
+                &selectedUnit
                 ))
         {
             // Build the array of unit IDs that will make up the private pool
@@ -189,8 +189,8 @@ static void onIdentifyOrDelete(
                 WINBIO_FLAG_BASIC, 
                 unitIdArray, 
                 unitIdCount, 
-                &amp;privateDatabaseId, 
-                &amp;sessionHandle 
+                &privateDatabaseId, 
+                &sessionHandle 
                 );
         if (SUCCEEDED(hr))
         {
@@ -203,10 +203,10 @@ static void onIdentifyOrDelete(
 
             hr = WinBioIdentify( 
                     sessionHandle, 
-                    &amp;unitId, 
-                    &amp;identity, 
-                    &amp;subFactor, 
-                    &amp;rejectDetail
+                    &unitId, 
+                    &identity, 
+                    &subFactor, 
+                    &rejectDetail
                     );
             _tprintf(_T("\n- Swipe processed - Unit ID: %d\n"), unitId);
             if (FAILED(hr))
@@ -229,7 +229,7 @@ static void onIdentifyOrDelete(
             else
             {
                 // Display identity
-                displayIdentity( &amp;identity, subFactor );
+                displayIdentity( &identity, subFactor );
 
                 // Delete identity
                 if (DeleteEnrollment)
@@ -238,7 +238,7 @@ static void onIdentifyOrDelete(
                     hr = WinBioDeleteTemplate( 
                             sessionHandle, 
                             unitId, 
-                            &amp;identity, 
+                            &identity, 
                             subFactor 
                             );
                     if (SUCCEEDED(hr))

@@ -58,7 +58,7 @@ BOOL InitApplication(HINSTANCE hinstance)
  
     // Register the window class and return the resulting code.  
  
-    return RegisterClass(&amp;wc); 
+    return RegisterClass(&wc); 
 } 
  
 LRESULT APIENTRY MainWndProc( 
@@ -77,11 +77,11 @@ LRESULT APIENTRY MainWndProc(
     switch (message) 
     { 
         case WM_PAINT: 
-              hdc = BeginPaint(hwnd, &amp;ps); 
+              hdc = BeginPaint(hwnd, &ps); 
  
         // Draw and paint using private DC. 
         
-                 EndPaint(hwnd, &amp;ps);
+                 EndPaint(hwnd, &ps);
               
         case WM_DESTROY:
                      PostQuitMessage(0);

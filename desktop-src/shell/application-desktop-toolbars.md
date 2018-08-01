@@ -118,7 +118,7 @@ BOOL RegisterAccessBar(HWND hwndAccessBar, BOOL fRegister)
         abd.uCallbackMessage = APPBAR_CALLBACK; 
 
         // Register the appbar. 
-        if (!SHAppBarMessage(ABM_NEW, &amp;abd)) 
+        if (!SHAppBarMessage(ABM_NEW, &abd)) 
             return FALSE; 
 
         g_uSide = ABE_TOP;       // default edge 
@@ -128,7 +128,7 @@ BOOL RegisterAccessBar(HWND hwndAccessBar, BOOL fRegister)
     else 
     { 
         // Unregister the appbar. 
-        SHAppBarMessage(ABM_REMOVE, &amp;abd); 
+        SHAppBarMessage(ABM_REMOVE, &abd); 
         g_fAppRegistered = FALSE; 
     } 
 
@@ -244,7 +244,7 @@ void AppBarCallback(HWND hwndAccessBar, UINT uNotifyMsg,
 
             // Check to see if the taskbar's always-on-top state has changed
             // and, if it has, change the appbar's state accordingly.
-            uState = SHAppBarMessage(ABM_GETSTATE, &amp;abd); 
+            uState = SHAppBarMessage(ABM_GETSTATE, &abd); 
 
             SetWindowPos(hwndAccessBar, 
                          (ABS_ALWAYSONTOP & uState) ? HWND_TOPMOST : HWND_BOTTOM, 
@@ -266,7 +266,7 @@ void AppBarCallback(HWND hwndAccessBar, UINT uNotifyMsg,
             } 
             else 
             { 
-                uState = SHAppBarMessage(ABM_GETSTATE, &amp;abd); 
+                uState = SHAppBarMessage(ABM_GETSTATE, &abd); 
 
                 if (uState & ABS_ALWAYSONTOP) 
                     SetWindowPos(hwndAccessBar, 
@@ -278,7 +278,7 @@ void AppBarCallback(HWND hwndAccessBar, UINT uNotifyMsg,
         case ABN_POSCHANGED: 
 
             // The taskbar or another appbar has changed its size or position.
-            AppBarPosChanged(&amp;abd); 
+            AppBarPosChanged(&abd); 
             break; 
     } 
 }
@@ -307,7 +307,7 @@ void PASCAL AppBarPosChanged(PAPPBARDATA pabd)
     rc.right = GetSystemMetrics(SM_CXSCREEN); 
     rc.bottom = GetSystemMetrics(SM_CYSCREEN); 
 
-    GetWindowRect(pabd->hWnd, &amp;rcWindow); 
+    GetWindowRect(pabd->hWnd, &rcWindow); 
 
     iHeight = rcWindow.bottom - rcWindow.top; 
     iWidth = rcWindow.right - rcWindow.left; 
@@ -331,7 +331,7 @@ void PASCAL AppBarPosChanged(PAPPBARDATA pabd)
             break; 
     } 
 
-    AppBarQuerySetPos(g_uSide, &amp;rc, pabd); 
+    AppBarQuerySetPos(g_uSide, &rc, pabd); 
 }
 ```
 

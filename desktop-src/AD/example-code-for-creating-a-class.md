@@ -89,7 +89,7 @@ HRESULT CreateClass(
     *ppNewClass = NULL;
     VARIANT var;
 
-    VariantInit(&amp;var);
+    VariantInit(&var);
 
     if (!pSchema)
     {
@@ -98,7 +98,7 @@ HRESULT CreateClass(
 
     hr = pSchema->Create(CComBSTR("classSchema"), 
                          CComBSTR(szBuffer), 
-                         &amp;pDisp);
+                         &pDisp);
     delete [] szBuffer;
 
     if (SUCCEEDED(hr))
@@ -111,7 +111,7 @@ HRESULT CreateClass(
             var.vt = VT_BSTR;
             var.bstrVal = SysAllocString(szClassName);
             hr = (*ppNewClass)->Put(CComBSTR("cn"), var);
-            VariantClear(&amp;var);
+            VariantClear(&var);
          
             // Put lDAPDisplayName.
             // If NULL, let it default; that is do not set it.
@@ -121,14 +121,14 @@ HRESULT CreateClass(
                 var.bstrVal = SysAllocString(szLDAPDisplayName);
                 hr = (*ppNewClass)->Put(CComBSTR("lDAPDisplayName"), 
                                         var);
-                VariantClear(&amp;var);
+                VariantClear(&var);
             }
          
             // Put attributeID.
             var.vt = VT_BSTR;
             var.bstrVal = SysAllocString(szClassOID);
             hr = (*ppNewClass)->Put(CComBSTR("governsID"), var);
-            VariantClear(&amp;var);
+            VariantClear(&var);
          
             // Put schemaIDGUID.
             // If NULL, let it default; that is do not set it.
@@ -138,7 +138,7 @@ HRESULT CreateClass(
                     (LPBYTE)pSchemaIDGUID, // Pointer to bytes to 
                                            // put in a variant array.
                     sizeof(GUID),       // Size, in bytes, of pValue.
-                    &amp;var // Return variant containing 
+                    &var // Return variant containing 
                          // octet string (VT_UI1|VT_ARRAY).
                     );
 
@@ -146,7 +146,7 @@ HRESULT CreateClass(
                 {
                     hr = (*ppNewClass)->Put(CComBSTR("schemaIDGUID"), 
                                             var);
-                    VariantClear(&amp;var);
+                    VariantClear(&var);
                 }
             }
          
@@ -155,7 +155,7 @@ HRESULT CreateClass(
             // Verify existence of the class.
             var.bstrVal = SysAllocString(szSubClassOf);
             hr = (*ppNewClass)->Put(CComBSTR("subClassOf"), var);
-            VariantClear(&amp;var);
+            VariantClear(&var);
          
             // Put defaultObjectCategory.
             // If NULL, do not set it.
@@ -166,7 +166,7 @@ HRESULT CreateClass(
                 var.bstrVal = SysAllocString(szDefaultObjectCategory);
                 hr = (*ppNewClass)->Put(CComBSTR("defaultObjectCategory"), 
                                                  var);
-                VariantClear(&amp;var);
+                VariantClear(&var);
             }
          
             // Put objectClassCategory.
@@ -174,7 +174,7 @@ HRESULT CreateClass(
             var.lVal = iObjectClassCategory;
             hr = (*ppNewClass)->Put(CComBSTR("objectClassCategory"), 
                                     var);
-            VariantClear(&amp;var);
+            VariantClear(&var);
          
             // Put defaultHidingValue.
             var.vt = VT_BOOL;
@@ -188,7 +188,7 @@ HRESULT CreateClass(
             }
             hr = (*ppNewClass)->Put(CComBSTR("defaultHidingValue"), 
                                     var);
-            VariantClear(&amp;var);
+            VariantClear(&var);
          
             // Put RDNAttrID.
             // If NULL, do not set it.
@@ -199,7 +199,7 @@ HRESULT CreateClass(
                 // Verify that it is a valid attribute.
                 var.bstrVal = SysAllocString(szRDNAttribute);
                 hr = (*ppNewClass)->Put(CComBSTR("rDNAttID"), var);
-                VariantClear(&amp;var);
+                VariantClear(&var);
             }
          
             // Put defaultSecurityDescriptor.
@@ -212,76 +212,76 @@ HRESULT CreateClass(
                 hr = 
                   (*ppNewClass)->Put(CComBSTR("defaultSecurityDescriptor"), 
                                      var);
-                VariantClear(&amp;var);
+                VariantClear(&var);
             }
          
-            if (arrayPossibleSuperiors &amp;&amp; 
+            if (arrayPossibleSuperiors && 
                 dwSizearrayPossibleSuperiors)
             {
                 // Build a Variant of array type, using the 
                 // specified string array.
                 hr = ADsBuildVarArrayStr(arrayPossibleSuperiors, 
                                          dwSizearrayPossibleSuperiors, 
-                                         &amp;var);
+                                         &var);
                 if (SUCCEEDED(hr))
                 {
                     // Verify that all the specified classes
                     // are valid.
                     hr = (*ppNewClass)->Put(CComBSTR("possSuperiors"), 
                                             var);
-                    VariantClear(&amp;var);
+                    VariantClear(&var);
                 }
             }
          
-            if (arrayMustContain &amp;&amp; dwSizearrayMustContain)
+            if (arrayMustContain && dwSizearrayMustContain)
             {
                 // Build a Variant of array type, 
                 // using the specified string array.
                 hr = ADsBuildVarArrayStr(arrayMustContain, 
                                          dwSizearrayMustContain,
-                                         &amp;var);
+                                         &var);
                 if (SUCCEEDED(hr))
                 {
                     // Verify that all the specified 
                     // attributes are valid.
                     hr = (*ppNewClass)->Put(CComBSTR("mustContain"), 
                                             var);
-                    VariantClear(&amp;var);
+                    VariantClear(&var);
                 }
             }
          
-            if (arrayMayContain &amp;&amp; dwSizearrayMayContain)
+            if (arrayMayContain && dwSizearrayMayContain)
             {
                 // Build a Variant of array type, 
                 // using the specified string array.
                 hr = ADsBuildVarArrayStr(arrayMayContain, 
                                          dwSizearrayMayContain, 
-                                         &amp;var);
+                                         &var);
                 if (SUCCEEDED(hr))
                 {
                     // Verify that all the specified 
                     // attributes are valid.
                     hr = (*ppNewClass)->Put(CComBSTR("mayContain"), 
                                             var);
-                    VariantClear(&amp;var);
+                    VariantClear(&var);
                 }
             }
          
-            if (arrayAuxiliaryClasses &amp;&amp; 
+            if (arrayAuxiliaryClasses && 
                 dwSizearrayAuxiliaryClasses)
             {
                 // Build a Variant of array type,
                 // using the specified string array.
                 hr = ADsBuildVarArrayStr(arrayAuxiliaryClasses, 
                                          dwSizearrayAuxiliaryClasses,
-                                         &amp;var);
+                                         &var);
                 if (SUCCEEDED(hr))
                 {
                     // Verify that all the 
                     // specified classes are valid.
                     hr = (*ppNewClass)->Put(CComBSTR("auxiliaryClass"),
                                             var);
-                    VariantClear(&amp;var);
+                    VariantClear(&var);
                 }
             }
          
@@ -290,7 +290,7 @@ HRESULT CreateClass(
             var.bstrVal = SysAllocString(szDescription);
             hr = (*ppNewClass)->Put(CComBSTR("description"), 
                                     var);
-            VariantClear(&amp;var);
+            VariantClear(&var);
          
          
             // Put adminDisplayName.
@@ -306,7 +306,7 @@ HRESULT CreateClass(
             }
             hr = (*ppNewClass)->Put(CComBSTR("adminDisplayName"), 
                                 var);
-            VariantClear(&amp;var);
+            VariantClear(&var);
          
             // End of properties to set.
             break;
@@ -354,12 +354,12 @@ HRESULT BytesToVariantArray(
  
     // Create the safe array for the octet string. 
     // unsigned char elements;single dimension;aBound size.
-    pArrayVal = SafeArrayCreate(VT_UI1, 1, &amp;arrayBound);
+    pArrayVal = SafeArrayCreate(VT_UI1, 1, &arrayBound);
  
     if (!(pArrayVal == NULL) )
     {
         hr = SafeArrayAccessData(pArrayVal, 
-                                (void HUGEP * FAR *) &amp;pArray );
+                                (void HUGEP * FAR *) &pArray );
         if (SUCCEEDED(hr))
         {
             // Copy bytes to the safe array.

@@ -26,7 +26,7 @@ case WM_CREATE:
     HRESULT hr;
     hr = CoCreateInstance(CLSID_InkRecognizerContext,
              NULL, CLSCTX_INPROC_SERVER, IID_IInkRecognizerContext,
-             (void **) &amp;g_pIInkRecoContext);
+             (void **) &g_pIInkRecoContext);
     if (FAILED(hr))
     {
         ::MessageBox(NULL, TEXT("There are no handwriting recognizers installed.\n"
@@ -54,7 +54,7 @@ The recognize command is received when the user clicks the Recognize! menu item.
       // Get a pointer to the ink stroke collection
       // This collection is a snapshot of the entire ink object
       IInkStrokes* pIInkStrokes = NULL;
-      HRESULT hr = g_pIInkDisp->get_Strokes(&amp;pIInkStrokes);
+      HRESULT hr = g_pIInkDisp->get_Strokes(&pIInkStrokes);
       if (SUCCEEDED(hr)) 
       {
           // Pass the stroke collection to the recognizer context
@@ -71,7 +71,7 @@ The code then calls the [**Recognize**](/windows/desktop/api/msinkaut/nf-msinkau
 ```C++
               // Recognize
               IInkRecognitionResult* pIInkRecoResult = NULL;
-              hr = g_pIInkRecoContext->Recognize(&amp;pIInkRecoResult);
+              hr = g_pIInkRecoContext->Recognize(&pIInkRecoResult);
               if (SUCCEEDED(hr)) 
               {
 ```
@@ -84,12 +84,12 @@ Finally, the code uses the [**IInkRecognitionResult**](/windows/desktop/api/msin
 ```C++
                   // Get the best result of the recognition 
                   BSTR bstrBestResult = NULL;
-                  hr = pIInkRecoResult->get_TopString(&amp;bstrBestResult);
+                  hr = pIInkRecoResult->get_TopString(&bstrBestResult);
                   pIInkRecoResult->Release();
                   pIInkRecoResult = NULL;
 
                   // Show the result string
-                  if (SUCCEEDED(hr) &amp;&amp; bstrBestResult)
+                  if (SUCCEEDED(hr) && bstrBestResult)
                   {
                       MessageBoxW(hwnd, bstrBestResult, 
                                   L"Recognition Results", MB_OK);

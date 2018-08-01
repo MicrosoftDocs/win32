@@ -99,7 +99,7 @@ int APIENTRY WinMain(
     wc.lpszMenuName =  "MainMenu"; 
     wc.lpszClassName = "MainWindowClass"; 
  
-    if (!RegisterClass(&amp;wc)) 
+    if (!RegisterClass(&wc)) 
        return FALSE; 
  
     // 

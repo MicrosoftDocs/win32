@@ -66,7 +66,7 @@ void ListSupportedMethods(IPortableDeviceService* pService)
 
     // Get an IPortableDeviceServiceCapabilities interface from the IPortableDeviceService interface to
     // access the service capabilities-specific methods.
-    hr = pService->Capabilities(&amp;pCapabilities);
+    hr = pService->Capabilities(&pCapabilities);
     if (FAILED(hr))
     {
         printf("! Failed to get IPortableDeviceServiceCapabilities from IPortableDeviceService, hr = 0x%lx\n",hr);
@@ -75,7 +75,7 @@ void ListSupportedMethods(IPortableDeviceService* pService)
     // Get all methods supported by the service.
     if (SUCCEEDED(hr))
     {
-        hr = pCapabilities->GetSupportedMethods(&amp;pMethods);
+        hr = pCapabilities->GetSupportedMethods(&pMethods);
         if (FAILED(hr))
         {
             printf("! Failed to get supported methods from the service, hr = 0x%lx\n",hr);
@@ -85,7 +85,7 @@ void ListSupportedMethods(IPortableDeviceService* pService)
     // Get the number of supported methods found on the service.
     if (SUCCEEDED(hr))
     {
-        hr = pMethods->GetCount(&amp;dwNumMethods);
+        hr = pMethods->GetCount(&dwNumMethods);
         if (FAILED(hr))
         {
             printf("! Failed to get number of supported methods, hr = 0x%lx\n",hr);
@@ -100,8 +100,8 @@ void ListSupportedMethods(IPortableDeviceService* pService)
         for (DWORD dwIndex = 0; dwIndex < dwNumMethods; dwIndex++)
         {
             PROPVARIANT pv = {0};
-            PropVariantInit(&amp;pv);
-            hr = pMethods->GetAt(dwIndex, &amp;pv);
+            PropVariantInit(&pv);
+            hr = pMethods->GetAt(dwIndex, &pv);
 
             if (SUCCEEDED(hr))
             {
@@ -114,7 +114,7 @@ void ListSupportedMethods(IPortableDeviceService* pService)
                 }
             }
 
-            PropVariantClear(&amp;pv);
+            PropVariantClear(&pv);
         }
     }    
 }
@@ -138,7 +138,7 @@ void DisplayMethod(
     CComPtr<IPortableDeviceValues> pAttributes;
 
     // Get the method attributes which describe the method
-    HRESULT hr = pCapabilities->GetMethodAttributes(Method, &amp;pAttributes);
+    HRESULT hr = pCapabilities->GetMethodAttributes(Method, &pAttributes);
     if (FAILED(hr))
     {
         printf("! Failed to get the method attributes, hr = 0x%lx\n",hr);
@@ -154,7 +154,7 @@ void DisplayMethod(
         CComPtr<IPortableDeviceKeyCollection>   pParameters;
 
         // Display the name of the method if available. Otherwise, fall back to displaying the GUID.
-        hr = pAttributes->GetStringValue(WPD_METHOD_ATTRIBUTE_NAME, &amp;pszMethodName);
+        hr = pAttributes->GetStringValue(WPD_METHOD_ATTRIBUTE_NAME, &pszMethodName);
         if (SUCCEEDED(hr))
         {
             printf("%ws", pszMethodName);
@@ -165,7 +165,7 @@ void DisplayMethod(
         }       
 
         // Display the method access if available, otherwise default to WPD_COMMAND_ACCESS_READ access
-        hr = pAttributes->GetUnsignedIntegerValue(WPD_METHOD_ATTRIBUTE_ACCESS, &amp;dwMethodAccess);
+        hr = pAttributes->GetUnsignedIntegerValue(WPD_METHOD_ATTRIBUTE_ACCESS, &dwMethodAccess);
         if (FAILED(hr))
         {
             dwMethodAccess = WPD_COMMAND_ACCESS_READ;
@@ -177,7 +177,7 @@ void DisplayMethod(
         // Display the associated format if specified.
         // Methods that have an associated format may only be supported for that format.
         // Methods that don't have associated formats generally apply to the entire service.
-        hr = pAttributes->GetGuidValue(WPD_METHOD_ATTRIBUTE_ASSOCIATED_FORMAT, &amp;guidFormat);
+        hr = pAttributes->GetGuidValue(WPD_METHOD_ATTRIBUTE_ASSOCIATED_FORMAT, &guidFormat);
         if (SUCCEEDED(hr))
         {
             printf("\n\tAssociated Format: ");
@@ -185,7 +185,7 @@ void DisplayMethod(
         }
 
         // Display the method parameters, if available
-        hr = pAttributes->GetIPortableDeviceKeyCollectionValue(WPD_METHOD_ATTRIBUTE_PARAMETERS, &amp;pParameters);
+        hr = pAttributes->GetIPortableDeviceKeyCollectionValue(WPD_METHOD_ATTRIBUTE_PARAMETERS, &pParameters);
         if (SUCCEEDED(hr))
         {
             DisplayMethodParameters(pCapabilities, Method, pParameters);
@@ -245,7 +245,7 @@ void DisplayMethodParameters(
     DWORD   dwNumParameters = 0;
 
     // Get the number of parameters for this event.
-    HRESULT hr = pParameters->GetCount(&amp;dwNumParameters);
+    HRESULT hr = pParameters->GetCount(&dwNumParameters);
     if (FAILED(hr))
     {
         printf("! Failed to get number of parameters, hr = 0x%lx\n",hr);
@@ -259,14 +259,14 @@ void DisplayMethodParameters(
         for (DWORD dwIndex = 0; dwIndex < dwNumParameters; dwIndex++)
         {
             PROPERTYKEY parameter;
-            hr = pParameters->GetAt(dwIndex, &amp;parameter);
+            hr = pParameters->GetAt(dwIndex, &parameter);
 
             if (SUCCEEDED(hr))
             {
                 CComPtr<IPortableDeviceValues> pAttributes;
 
                 // Display the parameter's Name, Usage, Vartype, and Form
-                hr = pCapabilities->GetMethodParameterAttributes(Method, parameter, &amp;pAttributes);
+                hr = pCapabilities->GetMethodParameterAttributes(Method, parameter, &pAttributes);
                 if (FAILED(hr))
                 {
                     printf("! Failed to get the method parameter attributes, hr = 0x%lx\n",hr);
@@ -279,7 +279,7 @@ void DisplayMethodParameters(
                     DWORD   dwAttributeForm     = WPD_PARAMETER_ATTRIBUTE_FORM_UNSPECIFIED;
                     DWORD   dwAttributeUsage    = (DWORD)-1;
 
-                    hr = pAttributes->GetStringValue(WPD_PARAMETER_ATTRIBUTE_NAME, &amp;pszParameterName);
+                    hr = pAttributes->GetStringValue(WPD_PARAMETER_ATTRIBUTE_NAME, &pszParameterName);
                     if (SUCCEEDED(hr))
                     {
                         printf("\t\tName: %ws\n", pszParameterName);
@@ -290,7 +290,7 @@ void DisplayMethodParameters(
                     }
 
                     // Read the WPD_PARAMETER_ATTRIBUTE_USAGE value, if specified. 
-                    hr = pAttributes->GetUnsignedIntegerValue(WPD_PARAMETER_ATTRIBUTE_USAGE, &amp;dwAttributeUsage);
+                    hr = pAttributes->GetUnsignedIntegerValue(WPD_PARAMETER_ATTRIBUTE_USAGE, &dwAttributeUsage);
                     if (SUCCEEDED(hr))
                     {
                         printf("\t\tUsage: ");
@@ -302,7 +302,7 @@ void DisplayMethodParameters(
                         printf("! Failed to get the method parameter usage, hr = 0x%lx\n",hr);
                     }
 
-                    hr = pAttributes->GetUnsignedIntegerValue(WPD_PARAMETER_ATTRIBUTE_VARTYPE, &amp;dwAttributeVarType);
+                    hr = pAttributes->GetUnsignedIntegerValue(WPD_PARAMETER_ATTRIBUTE_VARTYPE, &dwAttributeVarType);
                     if (SUCCEEDED(hr))
                     {
                         printf("\t\tVARTYPE: ");
@@ -315,7 +315,7 @@ void DisplayMethodParameters(
                     }
 
                     // Read the WPD_PARAMETER_ATTRIBUTE_FORM value.
-                    hr = pAttributes->GetUnsignedIntegerValue(WPD_PARAMETER_ATTRIBUTE_FORM, &amp;dwAttributeForm);
+                    hr = pAttributes->GetUnsignedIntegerValue(WPD_PARAMETER_ATTRIBUTE_FORM, &dwAttributeForm);
                     if (FAILED(hr))
                     {
                         // If the read fails, assume WPD_PARAMETER_ATTRIBUTE_FORM_UNSPECIFIED

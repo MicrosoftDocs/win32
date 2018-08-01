@@ -98,7 +98,7 @@ public:
     static void Initialize(ID2D1Factory *pFactory)
     {
         FLOAT dpiX, dpiY;
-        pFactory->GetDesktopDpi(&amp;dpiX, &amp;dpiY);
+        pFactory->GetDesktopDpi(&dpiX, &dpiY);
         scaleX = dpiX/96.0f;
         scaleY = dpiY/96.0f;
     }
@@ -122,7 +122,7 @@ Call `DPIScale::Initialize` in your [**WM\_CREATE**](https://msdn.microsoft.com/
 ```C++
     case WM_CREATE:
         if (FAILED(D2D1CreateFactory(
-                D2D1_FACTORY_TYPE_SINGLE_THREADED, &amp;pFactory)))
+                D2D1_FACTORY_TYPE_SINGLE_THREADED, &pFactory)))
         {
             return -1;  // Fail CreateWindowEx.
         }

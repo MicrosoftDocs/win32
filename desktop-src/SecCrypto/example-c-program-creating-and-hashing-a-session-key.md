@@ -55,7 +55,7 @@ void main()
     //---------------------------------------------------------------
     // Acquire a cryptographic provider context handle.
     if(CryptAcquireContext(
-        &amp;hCryptProv, 
+        &hCryptProv, 
         NULL, 
         NULL, 
         PROV_RSA_FULL, 
@@ -75,7 +75,7 @@ void main()
         CALG_MD5, 
         0, 
         0, 
-        &amp;hHash)) 
+        &hHash)) 
     {
         printf("An empty hash object has been created. \n");
     }
@@ -90,7 +90,7 @@ void main()
         hCryptProv, 
         CALG_RC2, 
         CRYPT_EXPORTABLE, 
-        &amp;hKey)) 
+        &hKey)) 
     {
         printf("A random session key has been created. \n");
     }

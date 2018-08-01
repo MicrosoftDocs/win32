@@ -63,7 +63,7 @@ DWORD FilterByUserAndApp(
       // condition evaluates to true. Likewise if it denies access, the
       // condition evaluates to false.
       BuildExplicitAccessWithNameW(
-         &amp;access,
+         &access,
          (PWSTR)userName,
          FWP_ACTRL_MATCH_FILTER,
          GRANT_ACCESS,
@@ -74,12 +74,12 @@ DWORD FilterByUserAndApp(
                   NULL,
                   NULL,
                   1,
-                  &amp;access,
+                  &access,
                   0,
                   NULL,
                   NULL,
-                  &amp;sdLen,
-                  &amp;sd
+                  &sdLen,
+                  &sd
                   );
       EXIT_ON_ERROR(BuildSecurityDescriptorW);
 
@@ -94,7 +94,7 @@ DWORD FilterByUserAndApp(
       conds[numConds].fieldKey = FWPM_CONDITION_ALE_USER_ID;
       conds[numConds].matchType = FWP_MATCH_EQUAL;
       conds[numConds].conditionValue.type = FWP_SECURITY_DESCRIPTOR_TYPE;
-      conds[numConds].conditionValue.sd = &amp;sdBlob;
+      conds[numConds].conditionValue.sd = &sdBlob;
       ++numConds;
    }
 
@@ -103,7 +103,7 @@ DWORD FilterByUserAndApp(
    {
       // appPath must be a fully-qualified file name, and the file must
       // exist on the local machine.
-      result = FwpmGetAppIdFromFileName0(appPath, &amp;appBlob);
+      result = FwpmGetAppIdFromFileName0(appPath, &appBlob);
       EXIT_ON_ERROR(FwpmGetAppIdFromFileName0);
 
       conds[numConds].fieldKey = FWPM_CONDITION_ALE_APP_ID;
@@ -113,7 +113,7 @@ DWORD FilterByUserAndApp(
       ++numConds;
    }
 
-   memset(&amp;filter, 0, sizeof(filter));
+   memset(&filter, 0, sizeof(filter));
    // For MUI compatibility, object names should be indirect strings. See
    // SHLoadIndirectString for details.
    filter.displayData.name = (PWSTR)filterName;
@@ -134,11 +134,11 @@ DWORD FilterByUserAndApp(
    }
    filter.action.type = actionType;
 
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, filterId);
+   result = FwpmFilterAdd0(engine, &filter, NULL, filterId);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
 CLEANUP:
-   FwpmFreeMemory0((void**)&amp;appBlob);
+   FwpmFreeMemory0((void**)&appBlob);
    LocalFree(sd);
    return result;
 }

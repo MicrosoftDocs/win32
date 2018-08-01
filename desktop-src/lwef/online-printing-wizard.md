@@ -78,15 +78,15 @@ CComPtr<IDropTarget> spDropTarget;
 hr = CoCreateInstance(CLSID_PublishDropTarget,
                       NULL,
                       CLSCTX_INPROC_SERVER,
-                      IID_PPV_ARGS(&amp;spDropTarget));
+                      IID_PPV_ARGS(&spDropTarget));
 
 // Drop the data object onto the drop target.
 POINTL pt = {0};
 DWORD dwEffect = DROPEFFECT_LINK | DROPEFFECT_MOVE | DROPEFFECT_COPY;
 
-spDropTarget->DragEnter(pDataObject, MK_LBUTTON, pt, &amp;dwEffect);
+spDropTarget->DragEnter(pDataObject, MK_LBUTTON, pt, &dwEffect);
 
-spDropTarget->Drop(pDataObject, MK_LBUTTON, pt, &amp;dwEffect);}
+spDropTarget->Drop(pDataObject, MK_LBUTTON, pt, &dwEffect);}
 ```
 
 
@@ -107,17 +107,17 @@ CComPtr<IDropTarget> spDropTarget;
 HRESULT hr = CoCreateInstance(CLSID_PublishDropTarget,
                               NULL,
                               CLSCTX_INPROC_SERVER,
-                              IID_PPV_ARGS(&amp;spDropTarget));
+                              IID_PPV_ARGS(&spDropTarget));
 
 // Get the Online Printing Wizard properties.
 CComPtr<IPropertyBag> spPropsBag;
 
-spDropTarget->QueryInterface(IID_PPV_ARGS(&amp;spPropsBag));
+spDropTarget->QueryInterface(IID_PPV_ARGS(&spPropsBag));
 
 // Read the icon index from the properties set. 
 CComVariant vtIcon;
 int nIndex;
-hr = spPropsBag->Read(L"OPWIcon", &amp;vtIcon, NULL);
+hr = spPropsBag->Read(L"OPWIcon", &vtIcon, NULL);
 
 if SUCCEEDED(hr)
 {
@@ -156,7 +156,7 @@ CComPtr<IDropTarget> spDropTarget;
 HRESULT hr = CoCreateInstance(CLSID_PublishDropTarget,
                               NULL,
                               CLSCTX_INPROC_SERVER,
-                              IID_PPV_ARGS(&amp;spDropTarget));
+                              IID_PPV_ARGS(&spDropTarget));
 
 // Set the UserMRU property to true to skip retailer selection and use 
 // the MRU retailer instead.    
@@ -166,16 +166,16 @@ if(spPropsBag)
     VARIANT varTrue = {0};
     varTrue.vt = VT_BOOL;
     varTrue.boolVal = VARIANT_TRUE;
-    spPropsBag->Write(L"UseMRU", &amp;varTrue);
+    spPropsBag->Write(L"UseMRU", &varTrue);
 }
 
 // Drop the data object onto the drop target.
 POINTL pt = {0};
 DWORD dwEffect = DROPEFFECT_LINK | DROPEFFECT_MOVE | DROPEFFECT_COPY;
 
-spDropTarget->DragEnter(pDataObject, MK_LBUTTON, pt, &amp;dwEffect);
+spDropTarget->DragEnter(pDataObject, MK_LBUTTON, pt, &dwEffect);
 
-spDropTarget->Drop(pDataObject, MK_LBUTTON, pt, &amp;dwEffect);
+spDropTarget->Drop(pDataObject, MK_LBUTTON, pt, &dwEffect);
 ```
 
 
@@ -190,25 +190,25 @@ CComPtr<IDropTarget> spDropTarget;
 HRESULT hr = CoCreateInstance(CLSID_PublishDropTarget,
                               NULL,
                               CLSCTX_INPROC_SERVER,
-                              IID_PPV_ARGS(&amp;spDropTarget));
+                              IID_PPV_ARGS(&spDropTarget));
 
 // Get the Online Printing Wizard properties.
 CComPtr<IPropertyBag> spPropsBag;
-spDropTarget->QueryInterface(IID_PPV_ARGS(&amp;spPropsBag));
+spDropTarget->QueryInterface(IID_PPV_ARGS(&spPropsBag));
 
 CComVariant vtMRUName, vtMRUIconIndex;
 CComBSTR bstrMRUName;
 int nMRUIconIndex;
 
 // Get the MRU name value.
-hr = spPropsBag->Read(L"MRUName", &amp;vtMRUName, NULL);
+hr = spPropsBag->Read(L"MRUName", &vtMRUName, NULL);
 if SUCCEEDED(hr) 
 {
     bstrMRUName = vtMRUName.bstrVal;
 }
 
 // Get the MRU icon index value.
-hr = spPropsBag->Read(L"MRUIcon", &amp;vtMRUIconIndex, NULL);
+hr = spPropsBag->Read(L"MRUIcon", &vtMRUIconIndex, NULL);
 if SUCCEEDED(hr)
 {
     nMRUIconIndex = vtMRUIconIndex.lVal;

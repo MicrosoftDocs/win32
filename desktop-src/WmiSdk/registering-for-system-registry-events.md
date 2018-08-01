@@ -75,7 +75,7 @@ While (True)
    Set TreeChange = colTreeChanges.NextEvent
    TreeChange.GetObjectText_()
    Wscript.Echo  "Hive = " & TreeChange.Hive & VBNewLine _
-      & "RootPath = "&amp; TreeChange.RootPath _
+      & "RootPath = "& TreeChange.RootPath _
       & TreeChange.GetObjectText_()      
 Wend
 ```

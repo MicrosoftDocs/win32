@@ -47,13 +47,13 @@ public:
     STDMETHODIMP GetSaturation(long *plSat)
     {
         if (!plSat) return E_POINTER;
-        CAutoLock lock(&amp;m_csShared);
+        CAutoLock lock(&m_csShared);
         *plSat = m_lSaturation;
         return S_OK;
     }
     STDMETHODIMP SetSaturation(long lSat)
     {
-        CAutoLock lock(&amp;m_csShared);
+        CAutoLock lock(&m_csShared);
         if (lSat < SATURATION_MIN || lSat > SATURATION_MAX)
         {
             return E_INVALIDARG;

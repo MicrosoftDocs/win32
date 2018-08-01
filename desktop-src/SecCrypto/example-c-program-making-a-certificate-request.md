@@ -97,7 +97,7 @@ CERT_RDN_ATTR rgNameAttr[] = {
 
 CERT_RDN rgRDN[] = {
          1,                 // rgRDN[0].cRDNAttr
-         &amp;rgNameAttr[0]};   // rgRDN[0].rgRDNAttr
+         &rgNameAttr[0]};   // rgRDN[0].rgRDNAttr
 
 //-------------------------------------------------------------------
 // Declare and initialize a CERT_NAME_INFO structure.
@@ -128,9 +128,9 @@ char*  pSignedEncodedCertReqBlob;
 if(CryptEncodeObject(
     MY_ENCODING_TYPE,     // Encoding type
     X509_NAME,            // Structure type
-    &amp;Name,                // Address of CERT_NAME_INFO structure
+    &Name,                // Address of CERT_NAME_INFO structure
     NULL,                 // pbEncoded
-    &amp;cbNameEncoded))      // pbEncoded size
+    &cbNameEncoded))      // pbEncoded size
 {
     printf("The first call to CryptEncodeObject succeeded. \n");
 }
@@ -151,9 +151,9 @@ if(!(pbNameEncoded = (BYTE*)malloc(cbNameEncoded)))
 if(CryptEncodeObject(
         MY_ENCODING_TYPE,    // Encoding type
         X509_NAME,           // Structure type
-        &amp;Name,               // Address of CERT_NAME_INFO structure
+        &Name,               // Address of CERT_NAME_INFO structure
         pbNameEncoded,       // pbEncoded
-        &amp;cbNameEncoded))     // pbEncoded size
+        &cbNameEncoded))     // pbEncoded size
 {
     printf("The object is encoded. \n");
 }
@@ -186,7 +186,7 @@ CertReqInfo.dwVersion = CERT_REQUEST_V1;
 //    First, get a cryptographic provider.
 
 if(CryptAcquireContext(
-    &amp;hCryptProv,        // Address for handle to be returned.
+    &hCryptProv,        // Address for handle to be returned.
     NULL,               // Use the current user's logon name.
     NULL,               // Use the default provider.
     PROV_RSA_FULL,      // Need to both encrypt and sign.
@@ -208,7 +208,7 @@ if(CryptExportPublicKeyInfo(
           AT_SIGNATURE,          // Key spec
           MY_ENCODING_TYPE,      // Encoding type
           NULL,                  // pbPublicKeyInfo
-          &amp;cbPublicKeyInfo))     // Size of PublicKeyInfo
+          &cbPublicKeyInfo))     // Size of PublicKeyInfo
 {
      printf("The keyinfo structure is %d bytes. \n",cbPublicKeyInfo);
 }
@@ -240,7 +240,7 @@ if(CryptExportPublicKeyInfo(
           AT_SIGNATURE,          // Key spec
           MY_ENCODING_TYPE,      // Encoding type
           pbPublicKeyInfo,       // pbPublicKeyInfo
-          &amp;cbPublicKeyInfo))     // Size of PublicKeyInfo
+          &cbPublicKeyInfo))     // Size of PublicKeyInfo
 {
      printf("The key has been exported. \n");
 }
@@ -257,7 +257,7 @@ else
 
 CertReqInfo.SubjectPublicKeyInfo = *pbPublicKeyInfo;
 
-memset(&amp;Parameters, 0, sizeof(Parameters));
+memset(&Parameters, 0, sizeof(Parameters));
 SigAlg.pszObjId = szOID_OIWSEC_sha1RSASign;
 SigAlg.Parameters = Parameters;
 
@@ -272,11 +272,11 @@ if(CryptSignAndEncodeCertificate(
           AT_KEYEXCHANGE,                  // Key spec
           MY_ENCODING_TYPE,                // Encoding type
           X509_CERT_REQUEST_TO_BE_SIGNED,  // Structure type
-          &amp;CertReqInfo,                    // Structure information
-          &amp;SigAlg,                         // Signature algorithm
+          &CertReqInfo,                    // Structure information
+          &SigAlg,                         // Signature algorithm
           NULL,                            // Not used
           NULL,                            // pbSignedEncodedCertReq
-          &amp;cbEncodedCertReqSize))          // Size of certificate 
+          &cbEncodedCertReqSize))          // Size of certificate 
                                            // required
 {
     printf("The size of the encoded certificate is set. \n");
@@ -309,11 +309,11 @@ if(CryptSignAndEncodeCertificate(
           AT_KEYEXCHANGE,                 // Key spec
           MY_ENCODING_TYPE,               // Encoding type
           X509_CERT_REQUEST_TO_BE_SIGNED, // Struct type
-          &amp;CertReqInfo,                   // Struct info        
-          &amp;SigAlg,                        // Signature algorithm
+          &CertReqInfo,                   // Struct info        
+          &SigAlg,                        // Signature algorithm
           NULL,                           // Not used
           pbSignedEncodedCertReq,         // Pointer
-          &amp;cbEncodedCertReqSize))         // Length of the message
+          &cbEncodedCertReqSize))         // Length of the message
 {
      printf("The message is encoded and signed. \n");
 }

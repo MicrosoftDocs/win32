@@ -56,7 +56,7 @@ BOOL InsertListViewItems(HWND hWndListView, int cItems)
         lvI.iImage = index;
     
         // Insert items into the list.
-        if (ListView_InsertItem(hWndListView, &amp;lvI) == -1)
+        if (ListView_InsertItem(hWndListView, &lvI) == -1)
             return FALSE;
     }
 

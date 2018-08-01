@@ -67,8 +67,8 @@ VOID GuidToPropertyStringName(GUID *pguid, WCHAR awcname[]) {
         ULONG i = *pb >> (CBIT_BYTE - cbitRemain);
         if (cbitRemain >= CBIT_CHARMASK) {
             *pwc = MapChar(i);
-            if (cbitRemain == CBIT_BYTE &amp;&amp; 
-                                    *pwc >= L'a' &amp;&amp; *pwc <= L'z')
+            if (cbitRemain == CBIT_BYTE && 
+                                    *pwc >= L'a' && *pwc <= L'z')
                 {
                 *pwc += (WCHAR) (L'A' - L'a');
                 }
@@ -151,8 +151,8 @@ ULONG PropertySetNameToGuid(
         //sizeof(wsz...) includes the trailing L'\0', but
         //the comparison excludes both the leading
         //WC_PROPSET0 and the trailing L'\0'.
-        if (cwcname == sizeof(wszSummary)/sizeof(WCHAR) &amp;&amp;
-            wcsnicmp(&amp;pwc[1], wszSummary, cwcname - 1) == 0)
+        if (cwcname == sizeof(wszSummary)/sizeof(WCHAR) &&
+            wcsnicmp(&pwc[1], wszSummary, cwcname - 1) == 0)
         {
             *pguid = guidSummary;
             return(NO_ERROR);

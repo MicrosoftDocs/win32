@@ -80,7 +80,7 @@ This method right-multiplies the current matrix with the computed scale matrix. 
 
 ```
 D3DXMATRIX tmp;
-D3DXMatrixScaling(&amp;tmp, x, y, z);
+D3DXMatrixScaling(&tmp, x, y, z);
 m_stack[m_currentPos] = m_stack[m_currentPos] * tmp;
 ```
 

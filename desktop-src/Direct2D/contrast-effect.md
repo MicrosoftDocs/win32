@@ -42,7 +42,7 @@ After
 
 ```C++
 ComPtr<ID2D1Effect> contrastEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Contrast, &amp;contrastEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Contrast, &contrastEffect);
  
 contrastEffect->SetInput(0, bitmap);
 contrastEffect->SetValue(D2D1_CONTRAST_PROP_CONTRAST, 0.5f);

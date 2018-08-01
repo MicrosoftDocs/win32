@@ -50,7 +50,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -58,7 +58,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -300,8 +300,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // Set up the set of security binding constraints
     WS_SECURITY_BINDING_CONSTRAINT* securityBindingConstraints[] =
     {
-        &amp;sslSecurityBindingConstraint.bindingConstraint,
-        &amp;issuedTokenSecurityBindingConstraint.bindingConstraint
+        &sslSecurityBindingConstraint.bindingConstraint,
+        &issuedTokenSecurityBindingConstraint.bindingConstraint
     };
     
     // Set up the security constraint structure
@@ -316,7 +316,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     policyConstraints.channelBinding = channelBinding;
     policyConstraints.channelPropertyConstraints = channelPropertyConstraints;
     policyConstraints.channelPropertyConstraintCount = WsCountOf(channelPropertyConstraints);
-    policyConstraints.securityConstraints = &amp;securityConstraints;
+    policyConstraints.securityConstraints = &securityConstraints;
     
     // Set up port type to match
     static const WS_XML_STRING desiredPortTypeName = WS_XML_STRING_VALUE("IPingService");
@@ -326,14 +326,14 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
     // Create object that will hold metadata documents
-    hr = WsCreateMetadata(NULL, 0, &amp;metadata, error);
+    hr = WsCreateMetadata(NULL, 0, &metadata, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -343,7 +343,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateReader(
         NULL,
         0, 
-        &amp;reader, 
+        &reader, 
         error);
     if (FAILED(hr))
     {
@@ -352,22 +352,22 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     // Set the input of the reader to the policy text
     WS_XML_READER_BUFFER_INPUT bufferInput;
-    ZeroMemory(&amp;bufferInput, sizeof(bufferInput));
+    ZeroMemory(&bufferInput, sizeof(bufferInput));
     bufferInput.input.inputType = WS_XML_READER_INPUT_TYPE_BUFFER;
     bufferInput.encodedData = wsdlXml.bytes;
     bufferInput.encodedDataSize = wsdlXml.length;
     WS_XML_READER_TEXT_ENCODING textEncoding;
-    ZeroMemory(&amp;textEncoding, sizeof(textEncoding));
+    ZeroMemory(&textEncoding, sizeof(textEncoding));
     textEncoding.encoding.encodingType = WS_XML_READER_ENCODING_TYPE_TEXT;
     textEncoding.charSet = WS_CHARSET_AUTO;
-    hr = WsSetInput(reader, &amp;textEncoding.encoding, &amp;bufferInput.input, NULL, 0, error);
+    hr = WsSetInput(reader, &textEncoding.encoding, &bufferInput.input, NULL, 0, error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
     // Read the metadata into the metadata object.
-    hr = WsReadMetadata(metadata, reader, &amp;wsdlUrl, error);
+    hr = WsReadMetadata(metadata, reader, &wsdlUrl, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -377,7 +377,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // to determine the address of any documents which have been referenced
     // but have not yet been added.
     WS_ENDPOINT_ADDRESS* missingAddress;
-    hr = WsGetMissingMetadataDocumentAddress(metadata, &amp;missingAddress, error);
+    hr = WsGetMissingMetadataDocumentAddress(metadata, &missingAddress, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -392,7 +392,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     // Get the endpoints from the metadata object
     WS_METADATA_ENDPOINTS endpoints;
-    hr = WsGetMetadataEndpoints(metadata, &amp;endpoints, error);
+    hr = WsGetMetadataEndpoints(metadata, &endpoints, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -405,10 +405,10 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     for (ULONG i = 0; i < endpoints.endpointCount; i++)
     {
         // Get the endpoint from the array of endpoints
-        endpoint = &amp;endpoints.endpoints[i];
+        endpoint = &endpoints.endpoints[i];
         
         // See if the port type name matches
-        hr = WsXmlStringEquals(endpoint->portTypeName, &amp;desiredPortTypeName, error);
+        hr = WsXmlStringEquals(endpoint->portTypeName, &desiredPortTypeName, error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -419,7 +419,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         }
         
         // See if the port type namespace matches
-        hr = WsXmlStringEquals(endpoint->portTypeNs, &amp;desiredPortTypeNs, error);
+        hr = WsXmlStringEquals(endpoint->portTypeNs, &desiredPortTypeNs, error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -448,7 +448,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     ULONG alternativeCount;
     hr = WsGetPolicyAlternativeCount(
         policy, 
-        &amp;alternativeCount, 
+        &alternativeCount, 
         error);
     if (FAILED(hr))
     {
@@ -456,7 +456,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     }
     
     // Create a heap used to allocate fields of initialized values
-    hr = WsCreateHeap(/* maxSize */ 16*1024, /* trimSize */ 2*1024, NULL, 0, &amp;heap, error);
+    hr = WsCreateHeap(/* maxSize */ 16*1024, /* trimSize */ 2*1024, NULL, 0, &heap, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -478,7 +478,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         hr = WsMatchPolicyAlternative(
             policy, 
             alternativeIndex, 
-            &amp;policyConstraints, 
+            &policyConstraints, 
             matchRequired,
             heap, 
             error);
@@ -513,7 +513,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // that is not part of policy.
     WS_TRANSFER_MODE transferMode = WS_BUFFERED_TRANSFER_MODE;
     channelProperties[3].id = WS_CHANNEL_PROPERTY_TRANSFER_MODE;
-    channelProperties[3].value = &amp;transferMode;
+    channelProperties[3].value = &transferMode;
     channelProperties[3].valueSize = sizeof(transferMode);
     
     // Initialize security properties based on values extracted from policy
@@ -522,7 +522,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     // Set up SSL security binding
     WS_SSL_TRANSPORT_SECURITY_BINDING sslSecurityBinding;
-    ZeroMemory(&amp;sslSecurityBinding, sizeof(sslSecurityBinding));
+    ZeroMemory(&sslSecurityBinding, sizeof(sslSecurityBinding));
     sslSecurityBinding.binding.bindingType = WS_SSL_TRANSPORT_SECURITY_BINDING_TYPE;
     if (sslSecurityBindingConstraint.out.clientCertCredentialRequired)
     {
@@ -537,7 +537,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     // Set up xml token security binding
     WS_XML_TOKEN_MESSAGE_SECURITY_BINDING xmlTokenSecurityBinding;
-    ZeroMemory(&amp;xmlTokenSecurityBinding, sizeof(xmlTokenSecurityBinding));
+    ZeroMemory(&xmlTokenSecurityBinding, sizeof(xmlTokenSecurityBinding));
     xmlTokenSecurityBinding.binding.bindingType = WS_XML_TOKEN_MESSAGE_SECURITY_BINDING_TYPE;
     xmlTokenSecurityBinding.bindingUsage = issuedTokenSecurityBindingConstraint.bindingUsage;
     
@@ -561,7 +561,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         WS_ENDPOINT_ADDRESS_EXTENSION_METADATA_ADDRESS,
         WS_READ_OPTIONAL_POINTER,
         heap,
-        &amp;issuerMetadataAddress,
+        &issuerMetadataAddress,
         sizeof(issuerMetadataAddress),
         NULL);
     if (FAILED(hr))
@@ -571,8 +571,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     // Set up security bindings
     WS_SECURITY_BINDING* securityBindings[2];
-    securityBindings[0] = &amp;sslSecurityBinding.binding;
-    securityBindings[1] = &amp;xmlTokenSecurityBinding.binding;
+    securityBindings[0] = &sslSecurityBinding.binding;
+    securityBindings[1] = &xmlTokenSecurityBinding.binding;
     
     // Set up security description
     WS_SECURITY_DESCRIPTION securityDescription;

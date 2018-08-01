@@ -70,13 +70,13 @@ The following table lists script examples that can be used to obtain various typ
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>const HKEY_CURRENT_USER = &amp;H80000001
+<td><pre><code>const HKEY_CURRENT_USER = &H80000001
 strComputer = &quot;.&quot;
-Set oReg=GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\default:StdRegProv&quot;)
+Set oReg=GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\default:StdRegProv&quot;)
 strKeyPath = &quot;Console&quot;
 strValueName = &quot;HistoryBufferSize&quot;
 oReg.GetDWORDValue HKEY_CURRENT_USER,strKeyPath,strValueName,dwValue
-WScript.Echo &quot;Current History Buffer Size: &quot; &amp; dwValue</code></pre></td>
+WScript.Echo &quot;Current History Buffer Size: &quot; & dwValue</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -120,9 +120,9 @@ $results = $reg.GetDWORDValue($HKEY_CURRENT_USER, $Key, $value)
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>const HKEY_LOCAL_MACHINE = &amp;H80000002
+<td><pre><code>const HKEY_LOCAL_MACHINE = &H80000002
 strComputer = &quot;.&quot;
-Set objReg=GetObject( &quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\default:StdRegProv&quot;)
+Set objReg=GetObject( &quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\default:StdRegProv&quot;)
 
 strKeyPath = &quot;SOFTWARE\NewKey&quot;
 objReg.CreateKey HKEY_LOCAL_MACHINE,strKeyPath
@@ -170,14 +170,14 @@ If ($results.Returnvalue -eq 0) {&quot;Key created&quot;} </code></pre></td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>Const HKEY_LOCAL_MACHINE = &amp;H80000002
+<td><pre><code>Const HKEY_LOCAL_MACHINE = &H80000002
 strKeyPath = &quot;SOFTWARE\NewKey&quot;
 strComputer = &quot;.&quot;
-Set objReg=GetObject( &quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\default:StdRegProv&quot;)
+Set objReg=GetObject( &quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\default:StdRegProv&quot;)
 strValueName = &quot;Example_Expanded_String_Value&quot;
 strValue = &quot;%PATHEXT%&quot;
 objReg.SetExpandedStringValue HKEY_LOCAL_MACHINE,strKeyPath,strValueName,strValue
-WScript.Echo &quot;Example expanded_String_Value at &quot; &amp; &quot;HKEY_LOCAL_MACHINE\SOFTWARE\NewKey&quot;</code></pre></td>
+WScript.Echo &quot;Example expanded_String_Value at &quot; & &quot;HKEY_LOCAL_MACHINE\SOFTWARE\NewKey&quot;</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -223,13 +223,13 @@ If ($results.Returnvalue -eq 0) {&quot;Value created&quot;}</code></pre></td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>Const HKEY_CURRENT_USER = &amp;H80000001
+<td><pre><code>Const HKEY_CURRENT_USER = &H80000001
 strComputer = &quot;.&quot;
-Set oReg=GetObject( &quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\default:StdRegProv&quot;) 
+Set oReg=GetObject( &quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\default:StdRegProv&quot;) 
 strKeyPath = &quot;Console&quot;
 strValueName = &quot;HistoryBufferSize&quot;
 oReg.GetDWORDValue HKEY_CURRENT_USER, strKeyPath, strValueName, dwValue
-Wscript.Echo &quot;Current History Buffer Size: &quot; &amp; dwValue</code></pre></td>
+Wscript.Echo &quot;Current History Buffer Size: &quot; & dwValue</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -256,11 +256,11 @@ Wscript.Echo &quot;Current History Buffer Size: &quot; &amp; dwValue</code></pre
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>const HKEY_LOCAL_MACHINE = &amp;H80000002
+<td><pre><code>const HKEY_LOCAL_MACHINE = &H80000002
 strKeyPath = &quot;SOFTWARE\NewKey&quot;
 strComputer = &quot;.&quot;
-iValues = Array(&amp;H01,&amp;Ha2,&amp;H10)
-Set oReg=GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\default:StdRegProv&quot;)
+iValues = Array(&H01,&Ha2,&H10)
+Set oReg=GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\default:StdRegProv&quot;)
 oReg.CreateKey HKEY_LOCAL_MACHINE,strKeyPath
 strKeyPath = &quot;SOFTWARE\NewKey&quot;
 BinaryValueName = &quot;Example Binary Value&quot;
@@ -285,12 +285,12 @@ oReg.SetBinaryValue HKEY_LOCAL_MACHINE,strKeyPath,BinaryValueName,iValues</code>
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>const HKEY_LOCAL_MACHINE = &amp;H80000002 
+<td><pre><code>const HKEY_LOCAL_MACHINE = &H80000002 
 strKeyPath = &quot;SOFTWARE\NewKey&quot;
 strValueName = &quot;Example Binary Value&quot;
 strComputer = &quot;.&quot;
 dim iValues(3)
-Set oReg=GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\default:StdRegProv&quot;)
+Set oReg=GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\default:StdRegProv&quot;)
 oReg.GetBinaryValue HKEY_LOCAL_MACHINE,strKeyPath,strValueName,iValues
 For i = lBound(iValues) to uBound(iValues)
 Wscript.Echo iValues(i)
@@ -340,12 +340,12 @@ Foreach ($byte in $results.uvalue) {&quot;{0}&quot; -f $byte.tostring(&quot;x&qu
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>const HKEY_LOCAL_MACHINE = &amp;H80000002
+<td><pre><code>const HKEY_LOCAL_MACHINE = &H80000002
 strKeyPath = &quot;SOFTWARE\NewKey&quot;
 MultValueName = &quot;Example Multistring Value&quot;
 strComputer = &quot;.&quot;
 iValues = Array(&quot;string1&quot;, &quot;string2&quot;)
-Set oReg=GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\default:StdRegProv&quot;)
+Set oReg=GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\default:StdRegProv&quot;)
 oReg.CreateKey HKEY_LOCAL_MACHINE,strKeyPath
 oReg.SetMultiStringValue HKEY_LOCAL_MACHINE,strKeyPath,MultValueName,iValues</code></pre></td>
 </tr>
@@ -391,11 +391,11 @@ If ($results.Returnvalue -eq 0) {&quot;Value Set&quot;} </code></pre></td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>const HKEY_LOCAL_MACHINE = &amp;H80000002
+<td><pre><code>const HKEY_LOCAL_MACHINE = &H80000002
 strKeyPath = &quot;SOFTWARE\NewKey&quot;
 strComputer = &quot;.&quot;
 iValues = Array(&quot;string1&quot;, &quot;string2&quot;)
-Set oReg=GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\default:StdRegProv&quot;)
+Set oReg=GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\default:StdRegProv&quot;)
 MultValueName = &quot;Example Multistring Value&quot;
 oReg.GetMultiStringValue HKEY_LOCAL_MACHINE,strKeyPath,MultValueName,iValues
 For Each strValue In iValues

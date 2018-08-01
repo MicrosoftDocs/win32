@@ -28,7 +28,7 @@ HRESULT CMyTextControl::SetAccessibleProperties()
 
   HRESULT hr = CoCreateInstance(CLSID_AccPropServices,
     NULL, CLSCTX_SERVER, IID_IAccPropServices, 
-    (void**)&amp;pAccPropServices);
+    (void**)&pAccPropServices);
 
   if (SUCCEEDED(hr))
   {

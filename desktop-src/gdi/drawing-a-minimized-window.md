@@ -24,13 +24,13 @@ POINT aptStar[6] = {50,2, 2,98, 98,33, 2,33, 98,98, 50,2};
   . 
  
 case WM_PAINT: 
-    hdc = BeginPaint(hwnd, &amp;ps); 
+    hdc = BeginPaint(hwnd, &ps); 
  
     // Determine whether the window is minimized.  
  
     if (IsIconic(hwnd)) 
     { 
-        GetClientRect(hwnd, &amp;rc); 
+        GetClientRect(hwnd, &rc); 
         SetMapMode(hdc, MM_ANISOTROPIC); 
         SetWindowExtEx(hdc, 100, 100, NULL); 
         SetViewportExtEx(hdc, rc.right, rc.bottom, NULL); 
@@ -40,7 +40,7 @@ case WM_PAINT:
     { 
         TextOut(hdc, 0,0, "Hello, Windows!", 15); 
     } 
-    EndPaint(hwnd, &amp;ps); 
+    EndPaint(hwnd, &ps); 
     return 0L; 
 ```
 

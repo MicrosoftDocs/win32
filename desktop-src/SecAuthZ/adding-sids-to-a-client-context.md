@@ -34,14 +34,14 @@ BOOL AddSidsToContext(AUTHZ_CLIENT_CONTEXT_HANDLE *phClientContext)
     DWORD                            RestrictedSidCount = 0;
 
     //Create a PSID from the "Everyone" well-known SID.
-    if(!ConvertStringSidToSid(L"S-1-1-0", &amp;pEveryoneSid))
+    if(!ConvertStringSidToSid(L"S-1-1-0", &pEveryoneSid))
     {
         printf_s("ConvertStringSidToSid failed with %d\n", GetLastError());
         return FALSE;
     }
 
     //Create a PSID from the "Local" well-known SID.
-    if(!ConvertStringSidToSid(L"S-1-2-0", &amp;pLocalSid))
+    if(!ConvertStringSidToSid(L"S-1-2-0", &pLocalSid))
     {
         printf_s("ConvertStringSidToSid failed with %d\n", GetLastError);
         return FALSE;
@@ -60,11 +60,11 @@ BOOL AddSidsToContext(AUTHZ_CLIENT_CONTEXT_HANDLE *phClientContext)
     //Create a new context with the new "Everyone" SID and "Local" restricting SID.
     if(!AuthzAddSidsToContext(
         *phClientContext,
-        &amp;Sids,
+        &Sids,
         1,
-        &amp;RestrictedSids,
+        &RestrictedSids,
         1,
-        &amp;NewContext))
+        &NewContext))
     {
         printf_s("AuthzAddSidsToContext failed with %d\n", GetLastError());
         if(pEveryoneSid)

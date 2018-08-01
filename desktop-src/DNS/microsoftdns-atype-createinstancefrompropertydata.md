@@ -36,7 +36,7 @@ void CreateInstanceFromPropertyData(
   [in, optional] uint32             RecordClass = 1,
   [in, optional] uint32             TTL,
   [in]           string             IPAddress,
-  [out, ref]     MicrosoftDNS_AType &amp;RR
+  [out, ref]     MicrosoftDNS_AType &RR
 );
 ```
 

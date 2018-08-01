@@ -28,7 +28,7 @@ Next the code prepares to draw on the screen by calling [BeginPaint](http://msdn
 // Create a blank bitmap.
 Bitmap bitmap(180, 100);
 // Create a Graphics object that can be used to draw on the bitmap.
-Graphics bitmapGraphics(&amp;bitmap);
+Graphics bitmapGraphics(&bitmap);
 // Create a red brush and a green brush, each with an alpha value of 160.
 SolidBrush redBrush(Color(210, 255, 0, 0));
 SolidBrush greenBrush(Color(210, 0, 255, 0));
@@ -36,29 +36,29 @@ SolidBrush greenBrush(Color(210, 0, 255, 0));
 // the colors of the ellipses are not blended.
 bitmapGraphics.SetCompositingMode(CompositingModeSourceCopy);
 // Fill an ellipse using a red brush that has an alpha value of 160.
-bitmapGraphics.FillEllipse(&amp;redBrush, 0, 0, 150, 70);
+bitmapGraphics.FillEllipse(&redBrush, 0, 0, 150, 70);
 // Fill a second ellipse using green brush that has an alpha value of 160. 
 // The green ellipse overlaps the red ellipse, but the green is not 
 // blended with the red.
-bitmapGraphics.FillEllipse(&amp;greenBrush, 30, 30, 150, 70);
+bitmapGraphics.FillEllipse(&greenBrush, 30, 30, 150, 70);
 // Prepare to draw on the screen.
-hdc = BeginPaint(hWnd, &amp;ps);
+hdc = BeginPaint(hWnd, &ps);
 Graphics* pGraphics = new Graphics(hdc);
 pGraphics->SetCompositingQuality(CompositingQualityGammaCorrected);
 // Draw a multicolored background.
 SolidBrush brush(Color((ARGB)Color::Aqua));
-pGraphics->FillRectangle(&amp;brush, 200, 0, 60, 100);
+pGraphics->FillRectangle(&brush, 200, 0, 60, 100);
 brush.SetColor(Color((ARGB)Color::Yellow));
-pGraphics->FillRectangle(&amp;brush, 260, 0, 60, 100);
+pGraphics->FillRectangle(&brush, 260, 0, 60, 100);
 brush.SetColor(Color((ARGB)Color::Fuchsia));
-pGraphics->FillRectangle(&amp;brush, 320, 0, 60, 100);
+pGraphics->FillRectangle(&brush, 320, 0, 60, 100);
    
 // Display the bitmap on a white background.
-pGraphics->DrawImage(&amp;bitmap, 0, 0);
+pGraphics->DrawImage(&bitmap, 0, 0);
 // Display the bitmap on a multicolored background.
-pGraphics->DrawImage(&amp;bitmap, 200, 0);
+pGraphics->DrawImage(&bitmap, 200, 0);
 delete pGraphics;
-EndPaint(hWnd, &amp;ps);
+EndPaint(hWnd, &ps);
 ```
 
 

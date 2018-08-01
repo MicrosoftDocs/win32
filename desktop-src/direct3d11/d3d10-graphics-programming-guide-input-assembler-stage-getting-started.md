@@ -91,9 +91,9 @@ UINT offset = 0;
 g_pd3dDevice->IASetVertexBuffers( 
     0,                // the first input slot for binding
     1,                // the number of buffers in the array
-    &amp;g_pVertexBuffer, // the array of vertex buffers
-    &amp;stride,          // array of stride values, one for each buffer
-    &amp;offset );        // array of offset values, one for each buffer
+    &g_pVertexBuffer, // the array of vertex buffers
+    &stride,          // array of stride values, one for each buffer
+    &offset );        // array of offset values, one for each buffer
 
 // Set the input layout
 g_pd3dDevice->IASetInputLayout( g_pVertexLayout );
@@ -115,9 +115,9 @@ UINT offsets[3] = { 0, 0, 0 };
 g_pd3dDevice->IASetVertexBuffers( 
     0,                 //first input slot for binding
     3,                 //number of buffers in the array
-    &amp;g_pVertexBuffers, //array of three vertex buffers
-    &amp;strides,          //array of stride values, one for each buffer
-    &amp;offsets );        //array of offset values, one for each buffer
+    &g_pVertexBuffers, //array of three vertex buffers
+    &strides,          //array of stride values, one for each buffer
+    &offsets );        //array of offset values, one for each buffer
 ```
 
 

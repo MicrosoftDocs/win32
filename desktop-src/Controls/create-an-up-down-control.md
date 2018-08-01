@@ -149,7 +149,7 @@ INT_PTR CALLBACK UpDownDialogProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM
     switch (message)
     {
         case WM_INITDIALOG:
-            GetClientRect(hDlg, &amp;rcClient);
+            GetClientRect(hDlg, &rcClient);
             
             cyVScroll = GetSystemMetrics(SM_CYVSCROLL);
 
@@ -202,7 +202,7 @@ The up-down control's buddy window is an edit control, and edit controls belong 
 HWND CreateUpDnBuddy(HWND hwndParent)
 {
     icex.dwICC = ICC_STANDARD_CLASSES;    // Set the Initialization Flag value.
-    InitCommonControlsEx(&amp;icex);          // Initialize the Common Controls Library to use 
+    InitCommonControlsEx(&icex);          // Initialize the Common Controls Library to use 
                                           // Buttons, Edit Controls, Static Controls, Listboxes, 
                                           // Comboboxes, and  Scroll Bars.
 
@@ -233,7 +233,7 @@ Up-down controls belong to the up-down class. To use an up-down control, call th
 HWND CreateUpDnCtl(HWND hwndParent)
 {
     icex.dwICC = ICC_UPDOWN_CLASS;    // Set the Initialization Flag value.
-    InitCommonControlsEx(&amp;icex);      // Initialize the Common Controls Library.
+    InitCommonControlsEx(&icex);      // Initialize the Common Controls Library.
 
     hControl = CreateWindowEx(WS_EX_LEFT | WS_EX_LTRREADING,
                               UPDOWN_CLASS,
@@ -332,12 +332,12 @@ int APIENTRY _tWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCm
 
     hAccelTable = LoadAccelerators(hInstance, MAKEINTRESOURCE(IDC_UPDOWN));
 
-    while (GetMessage(&amp;msg, NULL, 0, 0))
+    while (GetMessage(&msg, NULL, 0, 0))
     {
-        if (!TranslateAccelerator(msg.hwnd, hAccelTable, &amp;msg))
+        if (!TranslateAccelerator(msg.hwnd, hAccelTable, &msg))
         {
-            TranslateMessage(&amp;msg);
-            DispatchMessage(&amp;msg);
+            TranslateMessage(&msg);
+            DispatchMessage(&msg);
         }
     }
 
@@ -360,7 +360,7 @@ ATOM MyRegisterClass(HINSTANCE hInstance)
     wcex.lpszClassName = g_szWindowClass;
     wcex.hIconSm       = LoadIcon(wcex.hInstance, MAKEINTRESOURCE(IDI_UpDown));
 
-    return RegisterClassEx(&amp;wcex);
+    return RegisterClassEx(&wcex);
 }
 BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 {
@@ -416,9 +416,9 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             }
             break;
         case WM_PAINT:
-            hdc = BeginPaint(hWnd, &amp;ps);
+            hdc = BeginPaint(hWnd, &ps);
 
-            EndPaint(hWnd, &amp;ps);
+            EndPaint(hWnd, &ps);
             break;
 
         case WM_DESTROY:
@@ -440,7 +440,7 @@ INT_PTR CALLBACK UpDownDialogProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM
     switch (message)
     {
         case WM_INITDIALOG:
-            GetClientRect(hDlg, &amp;rcClient);
+            GetClientRect(hDlg, &rcClient);
             
             cyVScroll = GetSystemMetrics(SM_CYVSCROLL);
 
@@ -484,7 +484,7 @@ INT_PTR CALLBACK UpDownDialogProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM
 HWND CreateUpDnBuddy(HWND hwndParent)
 {
     icex.dwICC = ICC_STANDARD_CLASSES;    // Set the Initialization Flag value.
-    InitCommonControlsEx(&amp;icex);          // Initialize the Common Controls Library to use 
+    InitCommonControlsEx(&icex);          // Initialize the Common Controls Library to use 
                                           // Buttons, Edit Controls, Static Controls, Listboxes, 
                                           // Comboboxes, and  Scroll Bars.
 
@@ -506,7 +506,7 @@ HWND CreateUpDnBuddy(HWND hwndParent)
 HWND CreateUpDnCtl(HWND hwndParent)
 {
     icex.dwICC = ICC_UPDOWN_CLASS;    // Set the Initialization Flag value.
-    InitCommonControlsEx(&amp;icex);      // Initialize the Common Controls Library.
+    InitCommonControlsEx(&icex);      // Initialize the Common Controls Library.
 
     hControl = CreateWindowEx(WS_EX_LEFT | WS_EX_LTRREADING,
                               UPDOWN_CLASS,
@@ -558,7 +558,7 @@ HWND CreateGroupBox(HWND hwndParent)
 HWND CreateProgBar(HWND hwndParent)
 {
     icex.dwICC = ICC_PROGRESS_CLASS;    // Set the Initialization Flag value.
-    InitCommonControlsEx(&amp;icex);        // Initialize the Common Controls Library to use the Progress Bar control.
+    InitCommonControlsEx(&icex);        // Initialize the Common Controls Library to use the Progress Bar control.
 
     hControl = CreateWindowEx(WS_EX_STATICEDGE,
                               PROGRESS_CLASS,

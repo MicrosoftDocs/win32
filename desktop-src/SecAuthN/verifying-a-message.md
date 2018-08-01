@@ -45,7 +45,7 @@ void main()
          s,
          MessageBuffer,
          MaxMessageLength,
-         &amp;MessageBufferSize)))
+         &MessageBufferSize)))
     {
          MyHandleError("Error. Message not received.");
     }
@@ -57,7 +57,7 @@ void main()
          s,
          SignatureBuffer,
          MaxMessageLength,
-         &amp;SignatureBufferSize)))
+         &SignatureBufferSize)))
     {
          MyHandleError("Error. Signature not received.");
     }
@@ -87,10 +87,10 @@ void main()
     // Call VerifySignature. 
 
     SecStatus = VerifySignature(
-          &amp;phContext,
-          &amp;InputBufferDescriptor,  // input message descriptor
+          &phContext,
+          &InputBufferDescriptor,  // input message descriptor
           0,                       // no sequence number
-          &amp;fQOP                    // quality of protection
+          &fQOP                    // quality of protection
           );
     if(SecStatus == SEC_E_OK)
     {

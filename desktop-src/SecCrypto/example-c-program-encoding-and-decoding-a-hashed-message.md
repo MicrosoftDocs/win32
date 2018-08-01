@@ -87,7 +87,7 @@ printf("The starting message length is %d\n",cbContent);
 // Acquire a cryptographic provider context handle.
 
 if(CryptAcquireContext(
-               &amp;hCryptProv,     // Address for the handle. 
+               &hCryptProv,     // Address for the handle. 
                NULL,            // Use the current user's logon name.
                NULL,            // Use the default provider.
                PROV_RSA_FULL,   // Provider type.
@@ -107,14 +107,14 @@ else
 // Initialize the algorithm identifier structure.
 
 HashAlgSize = sizeof(HashAlgorithm);
-memset(&amp;HashAlgorithm, 0, HashAlgSize);   // Initialize to zero.
+memset(&HashAlgorithm, 0, HashAlgSize);   // Initialize to zero.
 HashAlgorithm.pszObjId = szOID_RSA_MD5;   // Then set the 
                                           //   necessary member.
 
 //-------------------------------------------------------------------
 // Initialize the CMSG_HASHED_ENCODE_INFO structure.
 
-memset(&amp;HashedEncodeInfo, 0, sizeof(CMSG_HASHED_ENCODE_INFO));
+memset(&HashedEncodeInfo, 0, sizeof(CMSG_HASHED_ENCODE_INFO));
 HashedEncodeInfo.cbSize = sizeof(CMSG_HASHED_ENCODE_INFO);
 HashedEncodeInfo.hCryptProv = hCryptProv;
 HashedEncodeInfo.HashAlgorithm = HashAlgorithm;
@@ -127,7 +127,7 @@ if(cbEncodedBlob = CryptMsgCalculateEncodedLength(
                      MY_ENCODING_TYPE,     // Message encoding type
                      0,                    // Flags
                      CMSG_HASHED,          // Message type
-                     &amp;HashedEncodeInfo,    // Pointer to structure
+                     &HashedEncodeInfo,    // Pointer to structure
                      NULL,                 // Inner content object ID
                      cbContent))           // Size of content
 {
@@ -156,7 +156,7 @@ if(hMsg = CryptMsgOpenToEncode(
             MY_ENCODING_TYPE,        // Encoding type
             0,                       // Flags
             CMSG_HASHED,             // Message type
-            &amp;HashedEncodeInfo,       // Pointer to structure
+            &HashedEncodeInfo,       // Pointer to structure
             NULL,                    // Inner content object ID
             NULL))                   // Stream information (not used)
 {
@@ -201,7 +201,7 @@ if(CryptMsgGetParam(
                CMSG_CONTENT_PARAM,       // Parameter type
                0,                        // Index
                pbEncodedBlob,            // Pointer to the BLOB
-               &amp;cbEncodedBlob))          // Size of the BLOB
+               &cbEncodedBlob))          // Size of the BLOB
 {
      printf("Message encoded successfully. \n");
 }
@@ -264,8 +264,8 @@ if(CryptMsgGetParam(
        hMsg,               // Handle to the message
        CMSG_TYPE_PARAM,    // Parameter type
        0,                  // Index
-       &amp;dwMsgType,         // Address for returned information
-       &amp;cbData))           // Size of the returned information
+       &dwMsgType,         // Address for returned information
+       &cbData))           // Size of the returned information
 {
     printf("The message type has been obtained. \n");
 }
@@ -295,7 +295,7 @@ if(CryptMsgGetParam(
                0,                      // Index
                NULL,                   // Address for returned 
                                        // information
-               &amp;cbDecoded))            // Size of the returned 
+               &cbDecoded))            // Size of the returned 
                                        // information
 {
     printf("The length %d of the message obtained. \n", cbDecoded);
@@ -324,7 +324,7 @@ if(CryptMsgGetParam(
             0,                       // Index
             pbDecoded,               // Address for returned 
                                      // information
-            &amp;cbDecoded))             // Size of the returned 
+            &cbDecoded))             // Size of the returned 
                                      // information
 {
     printf("Message decoded successfully \n");

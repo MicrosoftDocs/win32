@@ -63,7 +63,7 @@ The following procedure describes how to perform an asynchronous call with [**IW
                      NULL, 
                      CLSCTX_LOCAL_SERVER, 
                      IID_IWbemUnsecuredApartment, 
-                     (void**)&amp;pUnsecApp);
+                     (void**)&pUnsecApp);
     ```
 
     
@@ -93,7 +93,7 @@ The following procedure describes how to perform an asynchronous call with [**IW
     pUnsecApp->CreateSinkStub(pSink,
                               WBEM_FLAG_UNSECAPP_CHECK_ACCESS,  //Authenticate callbacks regardless of registry key
                               wszReserved,
-                              &amp;pStubSink);
+                              &pStubSink);
     ```
 
     

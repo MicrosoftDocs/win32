@@ -94,7 +94,7 @@ int __cdecl wmain()
                            NULL,
                            CLSCTX_INPROC_SERVER,
                            IID_ITaskService,
-                           (void**)&amp;pService );  
+                           (void**)&pService );  
     if (FAILED(hr))
     {
           printf("Failed to CoCreate an instance of the TaskService class: %x", hr);
@@ -116,7 +116,7 @@ int __cdecl wmain()
     //  ------------------------------------------------------
     //  Get the pointer to the root task folder.
     ITaskFolder *pRootFolder = NULL;
-    hr = pService->GetFolder( _bstr_t( L"\\") , &amp;pRootFolder );
+    hr = pService->GetFolder( _bstr_t( L"\\") , &pRootFolder );
     
     pService->Release();
     if( FAILED(hr) )
@@ -129,7 +129,7 @@ int __cdecl wmain()
     //  -------------------------------------------------------
     //  Get the registered tasks in the folder.
     IRegisteredTaskCollection* pTaskCollection = NULL;
-    hr = pRootFolder->GetTasks( NULL, &amp;pTaskCollection );
+    hr = pRootFolder->GetTasks( NULL, &pTaskCollection );
 
     pRootFolder->Release();
     if( FAILED(hr) )
@@ -140,7 +140,7 @@ int __cdecl wmain()
     }
 
     LONG numTasks = 0;
-    hr = pTaskCollection->get_Count(&amp;numTasks);
+    hr = pTaskCollection->get_Count(&numTasks);
 
     if( numTasks == 0 )
      {
@@ -157,18 +157,18 @@ int __cdecl wmain()
     for(LONG i=0; i < numTasks; i++)
     {
         IRegisteredTask* pRegisteredTask = NULL;
-        hr = pTaskCollection->get_Item( _variant_t(i+1), &amp;pRegisteredTask );
+        hr = pTaskCollection->get_Item( _variant_t(i+1), &pRegisteredTask );
         
         if( SUCCEEDED(hr) )
         {
             BSTR taskName = NULL;
-            hr = pRegisteredTask->get_Name(&amp;taskName);
+            hr = pRegisteredTask->get_Name(&taskName);
             if( SUCCEEDED(hr) )
             {
                 printf("\nTask Name: %S", taskName);
                 SysFreeString(taskName);
 
-                hr = pRegisteredTask->get_State(&amp;taskState);
+                hr = pRegisteredTask->get_State(&taskState);
                 if (SUCCEEDED (hr) )
                     printf("\n\tState: %d", taskState);
                 else 
@@ -269,7 +269,7 @@ int __cdecl wmain()
                            NULL,
                            CLSCTX_INPROC_SERVER,
                            IID_ITaskService,
-                           (void**)&amp;pService );  
+                           (void**)&pService );  
     if (FAILED(hr))
     {
           printf("Failed to CoCreate an instance of the TaskService class: %x", hr);
@@ -290,7 +290,7 @@ int __cdecl wmain()
 
        // Get the running tasks.
        IRunningTaskCollection* pRunningTasks = NULL;
-       hr = pService->GetRunningTasks(TASK_ENUM_HIDDEN, &amp;pRunningTasks);
+       hr = pService->GetRunningTasks(TASK_ENUM_HIDDEN, &pRunningTasks);
 
     pService->Release();
     if( FAILED(hr) )
@@ -301,7 +301,7 @@ int __cdecl wmain()
     }
         
     LONG numTasks = 0;
-    hr = pRunningTasks->get_Count(&amp;numTasks);
+    hr = pRunningTasks->get_Count(&numTasks);
 
     if( numTasks == 0 )
      {
@@ -318,18 +318,18 @@ int __cdecl wmain()
     for(LONG i=0; i < numTasks; i++)
     {
         IRunningTask* pRunningTask = NULL;
-        hr = pRunningTasks->get_Item( _variant_t(i+1), &amp;pRunningTask );
+        hr = pRunningTasks->get_Item( _variant_t(i+1), &pRunningTask );
         
         if( SUCCEEDED(hr) )
         {
             BSTR taskName = NULL;
-            hr = pRunningTask->get_Name(&amp;taskName);
+            hr = pRunningTask->get_Name(&taskName);
             if( SUCCEEDED(hr) )
             {
                 printf("\nTask Name: %S", taskName);
                 SysFreeString(taskName);
 
-                hr = pRunningTask->get_State(&amp;taskState);
+                hr = pRunningTask->get_State(&taskState);
                 if (SUCCEEDED (hr) )
                     printf("\n\tState: %d", taskState);
                 else 

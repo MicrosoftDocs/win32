@@ -46,7 +46,7 @@ The CLSID for this effect is CLSID\_D2D1GaussianBlur.
 
 ```C++
 ComPtr<ID2D1Effect> gaussianBlurEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1GaussianBlur, &amp;gaussianBlurEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1GaussianBlur, &gaussianBlurEffect);
 
 gaussianBlurEffect->SetInput(0, bitmap);
 gaussianBlurEffect->SetValue(D2D1_GAUSSIANBLUR_PROP_STANDARD_DEVIATION, 3.0f);

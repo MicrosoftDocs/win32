@@ -83,12 +83,12 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
     hAccelTable = LoadAccelerators(hInstance, MAKEINTRESOURCE(IDC_GDIBITMAPSCALING));
 
     // Main message loop:
-    while (GetMessage(&amp;msg, NULL, 0, 0))
+    while (GetMessage(&msg, NULL, 0, 0))
     {
-        if (!TranslateAccelerator(msg.hwnd, hAccelTable, &amp;msg))
+        if (!TranslateAccelerator(msg.hwnd, hAccelTable, &msg))
         {
-            TranslateMessage(&amp;msg);
-            DispatchMessage(&amp;msg);
+            TranslateMessage(&msg);
+            DispatchMessage(&msg);
         }
     }
 
@@ -128,7 +128,7 @@ ATOM MyRegisterClass(HINSTANCE hInstance)
     wcex.lpszClassName    = szWindowClass;
     wcex.hIconSm        = LoadIcon(wcex.hInstance, MAKEINTRESOURCE(IDI_SMALL));
 
-    return RegisterClassEx(&amp;wcex);
+    return RegisterClassEx(&wcex);
 }
 
 //
@@ -229,8 +229,8 @@ BOOL DIBInfo (HANDLE hbi, LPBITMAPINFOHEADER lpbih)
 VOID ReadPackedFileHeader(HFILE hFile, LPBITMAPFILEHEADER lpbmfhdr, LPDWORD lpdwOffset)
 {
     *lpdwOffset = _llseek(hFile, 0L, (UINT) SEEK_CUR);
-    _hread(hFile, (LPSTR) &amp;lpbmfhdr->bfType, sizeof(WORD)); /* read in bfType*/            
-    _hread(hFile, (LPSTR) &amp;lpbmfhdr->bfSize, sizeof(DWORD) * 3); /* read in last 3 dwords*/
+    _hread(hFile, (LPSTR) &lpbmfhdr->bfType, sizeof(WORD)); /* read in bfType*/            
+    _hread(hFile, (LPSTR) &lpbmfhdr->bfSize, sizeof(DWORD) * 3); /* read in last 3 dwords*/
 }
 
 
@@ -264,7 +264,7 @@ HANDLE ReadDIBBitmapInfo (INT hFile)
         return NULL;
 
     /* Read the bitmap file header */
-    ReadPackedFileHeader(hFile, &amp;bf, &amp;dwOffset);
+    ReadPackedFileHeader(hFile, &bf, &dwOffset);
 
     /* Do we have a RC HEADER? */
     if (!ISDIB (bf.bfType)) {    
@@ -272,10 +272,10 @@ HANDLE ReadDIBBitmapInfo (INT hFile)
         _llseek(hFile, dwOffset, (UINT)SEEK_SET); /* seek back to beginning of file */
     }
 
-    if (sizeof(bih) != _hread(hFile, (LPSTR)&amp;bih, (UINT)sizeof(bih)))
+    if (sizeof(bih) != _hread(hFile, (LPSTR)&bih, (UINT)sizeof(bih)))
       return FALSE;
 
-    nNumColors = DIBNumColors (&amp;bih);
+    nNumColors = DIBNumColors (&bih);
 
     /* Check the nature (BITMAPINFO or BITMAPCORE) of the info. block
      * and extract the field information accordingly. If a BITMAPCOREHEADER, 
@@ -287,7 +287,7 @@ HANDLE ReadDIBBitmapInfo (INT hFile)
 
         case sizeof (BITMAPCOREHEADER):
 
-            bch = *(LPBITMAPCOREHEADER)&amp;bih;
+            bch = *(LPBITMAPCOREHEADER)&bih;
 
             dwWidth   = (DWORD)bch.bcWidth;
             dwHeight  = (DWORD)bch.bcHeight;
@@ -319,7 +319,7 @@ HANDLE ReadDIBBitmapInfo (INT hFile)
         bih.biSizeImage = WIDTHBYTES((DWORD)bih.biWidth * bih.biBitCount) * bih.biHeight;
     }
     if (bih.biClrUsed == 0)
-        bih.biClrUsed = DIBNumColors(&amp;bih);
+        bih.biClrUsed = DIBNumColors(&bih);
 
     /* Allocate for the BITMAPINFO structure and the color table. */
     if ((bih.biBitCount == 16) || (bih.biBitCount == 32))
@@ -425,18 +425,18 @@ HANDLE OpenDIB (LPSTR szFilename)
     OFSTRUCT            of;
 
     /* Open the file and read the DIB information */
-    hFile = OpenFile(szFilename, &amp;of, (UINT)OF_READ);
+    hFile = OpenFile(szFilename, &of, (UINT)OF_READ);
     if (hFile == HFILE_ERROR)
         return NULL;
 
     hDIB = ReadDIBBitmapInfo(hFile);
     if (!hDIB)
         return NULL;
-    DIBInfo(hDIB, &amp;bih);
+    DIBInfo(hDIB, &bih);
 
     /* Calculate the memory needed to hold the DIB */
     dwBits = bih.biSizeImage;
-    dwLen  = bih.biSize + (DWORD)ColorTableSize (&amp;bih) + dwBits;
+    dwLen  = bih.biSize + (DWORD)ColorTableSize (&bih) + dwBits;
 
     /* Try to increase the size of the bitmap info. buffer to hold the DIB */
     hMem = GlobalReAlloc(hDIB, dwLen, GMEM_MOVEABLE);
@@ -529,7 +529,7 @@ BOOL DrawBitmap (HDC hDC, INT x, INT y, HBITMAP hBitmap, DWORD dwROP)
         return FALSE;
 
     hDCBits = CreateCompatibleDC(hDC);
-    GetObject(hBitmap, sizeof(BITMAP), (LPSTR)&amp;Bitmap);
+    GetObject(hBitmap, sizeof(BITMAP), (LPSTR)&Bitmap);
     SelectObject(hDCBits, hBitmap);
     bResult = BitBlt(hDC, x, y, Bitmap.bmWidth, Bitmap.bmHeight, hDCBits, 0, 0, dwROP);
     DeleteDC(hDCBits);
@@ -581,8 +581,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     case WM_CREATE:
         
         //Creates a font from the current theme's caption font
-        SystemParametersInfo(SPI_GETNONCLIENTMETRICS, NULL, &amp;ncm, NULL);
-        hFont = CreateFontIndirect(&amp;ncm.lfCaptionFont);
+        SystemParametersInfo(SPI_GETNONCLIENTMETRICS, NULL, &ncm, NULL);
+        hFont = CreateFontIndirect(&ncm.lfCaptionFont);
         
         //Gets the device context for the current window
         hDC = GetDC(hWnd);
@@ -619,14 +619,14 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         
         
         //if Load Bitmap button is pressed
-        if (wmId == ID_LOADBITMAP &amp;&amp; wmEvent == BN_CLICKED)
+        if (wmId == ID_LOADBITMAP && wmEvent == BN_CLICKED)
         {
                             
             //Get the current directory name, and store in szDirName 
             GetCurrentDirectoryA(MAX_PATH, szDirName);
             
             //Set all structure members to zero. 
-            ZeroMemory(&amp;ofn, sizeof(OPENFILENAMEA));
+            ZeroMemory(&ofn, sizeof(OPENFILENAMEA));
             
             //Initializing the OPENFILENAMEA structure 
             ofn.lStructSize = sizeof(OPENFILENAMEA);
@@ -640,7 +640,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
                             
 
-            if (GetOpenFileNameA(&amp;ofn)) {
+            if (GetOpenFileNameA(&ofn)) {
                hDIB = OpenDIB((LPSTR)szFilename);   
                if (!hDIB)
                   MessageBox(hWnd, TEXT("Unable to load file!"), TEXT("Oops"), MB_ICONSTOP);
@@ -681,14 +681,14 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             HFONT hFont;
 
             //Get the caption font that is currently in use
-            SystemParametersInfo(SPI_GETNONCLIENTMETRICS, NULL, &amp;ncm, NULL);
-            hFont = CreateFontIndirect(&amp;ncm.lfCaptionFont);
+            SystemParametersInfo(SPI_GETNONCLIENTMETRICS, NULL, &ncm, NULL);
+            hFont = CreateFontIndirect(&ncm.lfCaptionFont);
             
             //Begin drawing
-            hDC = BeginPaint(hWnd, &amp;ps);
+            hDC = BeginPaint(hWnd, &ps);
 
             //Draw and fill rectangles for the background
-            GetClientRect(hWnd, &amp;clientRect);
+            GetClientRect(hWnd, &clientRect);
             hRegion1 = CreateRectRgn(clientRect.left,clientRect.top,clientRect.right,clientRect.bottom);
             hBGBrush = CreateSolidBrush(RGB(255,255,255));
             FillRgn(hDC, hRegion1, hBGBrush);
@@ -749,7 +749,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             Polyline(hDC, pRect5, 5);
             
             FillRgn(hDC,hRegion2,hBGBrush);
-            EndPaint(hWnd, &amp;ps);
+            EndPaint(hWnd, &ps);
             
             break;
         }

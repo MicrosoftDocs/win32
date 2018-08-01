@@ -55,7 +55,7 @@ int DoInsertItem(HWND hwndHeader, int iInsertAfter,
     hdi.fmt = HDF_LEFT | HDF_STRING; 
  
     index = SendMessage(hwndHeader, HDM_INSERTITEM, 
-        (WPARAM) iInsertAfter, (LPARAM) &amp;hdi); 
+        (WPARAM) iInsertAfter, (LPARAM) &hdi); 
  
     return index; 
 }

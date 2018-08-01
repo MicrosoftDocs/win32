@@ -45,7 +45,7 @@ void wmain(int argc, WCHAR **argv)
 
     // Opens the log file that Writein Performance Data to a Log File 
     // example created.
-    status = PdhOpenQuery(argv[1], 0, &amp;hQuery);
+    status = PdhOpenQuery(argv[1], 0, &hQuery);
 
     if (ERROR_SUCCESS != status)
     {
@@ -54,7 +54,7 @@ void wmain(int argc, WCHAR **argv)
     }
    
     // Add the same counter used when writing the log file.
-    status = PdhAddCounter(hQuery, COUNTER_PATH, 0, &amp;hCounter);
+    status = PdhAddCounter(hQuery, COUNTER_PATH, 0, &hCounter);
    
     if (ERROR_SUCCESS != status)
     {
@@ -82,7 +82,7 @@ void wmain(int argc, WCHAR **argv)
             status = PdhGetFormattedCounterValue(hCounter,
                 dwFormat,
                 (LPDWORD)NULL,
-                &amp;ItemBuffer);
+                &ItemBuffer);
 
             if (ERROR_SUCCESS != status)
             {

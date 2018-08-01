@@ -115,7 +115,7 @@ private void EraseStrokes(Point pt, Stroke currentStroke)
 {
     Strokes strokesHit = myInkCollector.Ink.HitTest(pt, HitTestRadius);
 
-    if (null!=currentStroke &amp;&amp; strokesHit.Contains(currentStroke))
+    if (null!=currentStroke && strokesHit.Contains(currentStroke))
     {
         strokesHit.Remove(currentStroke);
     }

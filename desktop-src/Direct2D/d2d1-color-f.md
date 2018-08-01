@@ -36,7 +36,7 @@ The following example uses the [**ColorF**](https://msdn.microsoft.com/en-us/lib
 ```C++
 hr = m_pRenderTarget->CreateSolidColorBrush(
     D2D1::ColorF(D2D1::ColorF::Black, 1.0f),
-    &amp;m_pBlackBrush
+    &m_pBlackBrush
     );
 ```
 
@@ -49,7 +49,7 @@ The following example uses the [**ColorF**](https://msdn.microsoft.com/en-us/lib
 ID2D1SolidColorBrush *pGridBrush = NULL;
 hr = pCompatibleRenderTarget->CreateSolidColorBrush(
     D2D1::ColorF(D2D1::ColorF(0.93f, 0.94f, 0.96f, 1.0f)),
-    &amp;pGridBrush
+    &pGridBrush
     );
 ```
 

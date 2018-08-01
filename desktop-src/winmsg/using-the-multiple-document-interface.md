@@ -53,7 +53,7 @@ BOOL WINAPI InitializeApplication()
     wc.lpszMenuName  = IDMULTIPAD; 
     wc.lpszClassName = szFrame; 
  
-    if (!RegisterClass (&amp;wc) ) 
+    if (!RegisterClass (&wc) ) 
         return FALSE; 
  
     // Register the MDI child window class. 
@@ -64,7 +64,7 @@ BOOL WINAPI InitializeApplication()
     wc.cbWndExtra    = CBWNDEXTRA; 
     wc.lpszClassName = szChild; 
  
-    if (!RegisterClass(&amp;wc)) 
+    if (!RegisterClass(&wc)) 
         return FALSE; 
  
     return TRUE; 
@@ -108,7 +108,7 @@ case WM_CREATE:
  
         hwndMDIClient = CreateWindow( "MDICLIENT", (LPCTSTR) NULL, 
             WS_CHILD | WS_CLIPCHILDREN | WS_VSCROLL | WS_HSCROLL, 
-            0, 0, 0, 0, hwnd, (HMENU) 0xCAC, hInst, (LPSTR) &amp;ccs); 
+            0, 0, 0, 0, hwnd, (HMENU) 0xCAC, hInst, (LPSTR) &ccs); 
  
         ShowWindow(hwndMDIClient, SW_SHOW); 
     } 
@@ -132,7 +132,7 @@ The following example shows the message loop of a typical MDI application. Note 
 MSG msg;
 BOOL bRet;
 
-while ((bRet = GetMessage(&amp;msg, (HWND) NULL, 0, 0)) != 0)
+while ((bRet = GetMessage(&msg, (HWND) NULL, 0, 0)) != 0)
 {
     if (bRet == -1)
     {
@@ -140,11 +140,11 @@ while ((bRet = GetMessage(&amp;msg, (HWND) NULL, 0, 0)) != 0)
     }
     else 
     { 
-        if (!TranslateMDISysAccel(hwndMDIClient, &amp;msg) &amp;&amp; 
-                !TranslateAccelerator(hwndFrame, hAccel, &amp;msg))
+        if (!TranslateMDISysAccel(hwndMDIClient, &msg) && 
+                !TranslateAccelerator(hwndFrame, hAccel, &msg))
         { 
-            TranslateMessage(&amp;msg); 
-            DispatchMessage(&amp;msg); 
+            TranslateMessage(&msg); 
+            DispatchMessage(&msg); 
         } 
     } 
 }
@@ -248,7 +248,7 @@ TCHAR * pName;
     // Tell the MDI client window to create the child window. 
  
     hwnd = (HWND) SendMessage (hwndMDIClient, WM_MDICREATE, 0, 
-        (LONG) (LPMDICREATESTRUCT) &amp;mcs); 
+        (LONG) (LPMDICREATESTRUCT) &mcs); 
  
     // If the file is found, read its contents into the child 
     // window's client area. 

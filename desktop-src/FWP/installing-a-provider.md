@@ -53,7 +53,7 @@ DWORD Install(
    FWPM_PROVIDER0 provider;
    FWPM_SUBLAYER0 subLayer;
 
-   memset(&amp;session, 0, sizeof(session));
+   memset(&session, 0, sizeof(session));
    // The session name isn't required but may be useful for diagnostics.
    session.displayData.name = SESSION_NAME;
    // Set an infinite wait timeout, so we don't have to handle FWP_E_TIMEOUT
@@ -65,8 +65,8 @@ DWORD Install(
                NULL,
                RPC_C_AUTHN_DEFAULT,
                NULL,
-               &amp;session,
-               &amp;engine
+               &session,
+               &engine
                );
    EXIT_ON_ERROR(FwpmEngineOpen0);
 
@@ -75,7 +75,7 @@ DWORD Install(
    result = FwpmTransactionBegin0(engine, 0);
    EXIT_ON_ERROR(FwpmTransactionBegin0);
 
-   memset(&amp;provider, 0, sizeof(provider));
+   memset(&provider, 0, sizeof(provider));
    // The provider and sublayer keys are going to be used repeatedly when
    // adding filters and other objects. It's easiest to use well-known GUIDs
    // defined in a header somewhere, rather than having BFE generate the keys.
@@ -88,7 +88,7 @@ DWORD Install(
    // we could add non-persistent objects every time our service starts.
    provider.flags = FWPM_PROVIDER_FLAG_PERSISTENT;
 
-   result = FwpmProviderAdd0(engine, &amp;provider, NULL);
+   result = FwpmProviderAdd0(engine, &provider, NULL);
    // Ignore FWP_E_ALREADY_EXISTS. This allows install to be re-run as needed
    // to repair a broken configuration.
    if (result != FWP_E_ALREADY_EXISTS)
@@ -96,7 +96,7 @@ DWORD Install(
       EXIT_ON_ERROR(FwpmProviderAdd0);
    }
 
-   memset(&amp;subLayer, 0, sizeof(subLayer));
+   memset(&subLayer, 0, sizeof(subLayer));
    subLayer.subLayerKey = *subLayerKey;
    subLayer.displayData.name = (PWSTR)subLayerName;
    subLayer.flags = FWPM_SUBLAYER_FLAG_PERSISTENT;
@@ -107,7 +107,7 @@ DWORD Install(
    // middle and let BFE assign the closest available.
    subLayer.weight = 0x8000;
 
-   result = FwpmSubLayerAdd0(engine, &amp;subLayer, NULL);
+   result = FwpmSubLayerAdd0(engine, &subLayer, NULL);
    if (result != FWP_E_ALREADY_EXISTS)
    {
       EXIT_ON_ERROR(FwpmSubLayerAdd0);

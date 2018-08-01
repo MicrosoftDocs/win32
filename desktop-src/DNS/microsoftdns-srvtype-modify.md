@@ -35,7 +35,7 @@ void Modify(
   [in, optional] uint16               Weight,
   [in, optional] uint16               Port,
   [in, optional] string               SRVDomainName,
-  [out, ref]     MicrosoftDNS_SRVType &amp;RR
+  [out, ref]     MicrosoftDNS_SRVType &RR
 );
 ```
 

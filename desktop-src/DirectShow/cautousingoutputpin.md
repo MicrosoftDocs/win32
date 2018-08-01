@@ -52,7 +52,7 @@ HRESULT hr = S_OK;  // Important! Initialize to S_OK.
 // Scope for lock.
 {
     // Hold lock on pin.
-    CAutoUsingOutputPin UsingPin(pPin, &amp;hr)
+    CAutoUsingOutputPin UsingPin(pPin, &hr)
 
     if (SUCCEEDED(hr)) 
     {

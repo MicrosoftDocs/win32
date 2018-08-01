@@ -44,21 +44,21 @@ HRESULT CWmaEncoder::ProcessOutput(IMFSample **ppSample)
     MFT_OUTPUT_STREAM_INFO mftStreamInfo = { 0 };
     MFT_OUTPUT_DATA_BUFFER mftOutputData = { 0 };
 
-    HRESULT hr = m_pMFT->GetOutputStreamInfo(m_dwOutputID, &amp;mftStreamInfo);
+    HRESULT hr = m_pMFT->GetOutputStreamInfo(m_dwOutputID, &mftStreamInfo);
     if (FAILED(hr))
     {
         goto done;
     }
 
     //create a buffer for the output sample
-    hr = MFCreateMemoryBuffer(mftStreamInfo.cbSize, &amp;pBufferOut);
+    hr = MFCreateMemoryBuffer(mftStreamInfo.cbSize, &pBufferOut);
     if (FAILED(hr))
     {
         goto done;
     }
 
     //Create the output sample
-    hr = MFCreateSample(&amp;pSampleOut);
+    hr = MFCreateSample(&pSampleOut);
     if (FAILED(hr))
     {
         goto done;
@@ -78,7 +78,7 @@ HRESULT CWmaEncoder::ProcessOutput(IMFSample **ppSample)
     mftOutputData.dwStreamID = m_dwOutputID;
 
     //Generate the output sample
-    hr = m_pMFT->ProcessOutput(0, 1, &amp;mftOutputData, &amp;dwStatus);
+    hr = m_pMFT->ProcessOutput(0, 1, &mftOutputData, &dwStatus);
     if (hr == MF_E_TRANSFORM_NEED_MORE_INPUT)
     {
         hr = S_OK;
@@ -96,8 +96,8 @@ HRESULT CWmaEncoder::ProcessOutput(IMFSample **ppSample)
     (*ppSample)->AddRef();
 
 done:
-    SafeRelease(&amp;pBufferOut);
-    SafeRelease(&amp;pSampleOut);
+    SafeRelease(&pBufferOut);
+    SafeRelease(&pSampleOut);
     return hr;
 };
 ```

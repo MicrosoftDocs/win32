@@ -64,13 +64,13 @@ IADs *pUser;
 hr = ADsGetObject(
      L"LDAP://CN=Jeff Smith,CN=Users,DC=fabrikam,DC=com", 
      IID_IADs, 
-     (void**)&amp;pUser);
+     (void**)&pUser);
 if(SUCCEEDED(hr)) 
 {
     BSTR bstrName;
 
     // Get property.
-    hr = pUser->get_Name(&amp;bstrName);
+    hr = pUser->get_Name(&bstrName);
     if(SUCCEEDED(hr)) 
     {
         wprintf(bstrName);

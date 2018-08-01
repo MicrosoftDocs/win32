@@ -78,8 +78,8 @@ HRESULT CreateUncompressedVideoType(
     UINT32               width, 
     UINT32               height,
     MFVideoInterlaceMode interlaceMode,
-    const MFRatio&amp;       frameRate,
-    const MFRatio&amp;       par,
+    const MFRatio&       frameRate,
+    const MFRatio&       par,
     IMFMediaType         **ppType
     )
 {
@@ -97,7 +97,7 @@ HRESULT CreateUncompressedVideoType(
     // Set the subtype GUID from the FOURCC or D3DFORMAT value.
     subtype.Data1 = fccFormat;
 
-    HRESULT hr = MFCreateMediaType(&amp;pType);
+    HRESULT hr = MFCreateMediaType(&pType);
     if (FAILED(hr))
     {
         goto done;
@@ -135,7 +135,7 @@ HRESULT CreateUncompressedVideoType(
     }
 
     // Calculate the image size in bytes.
-    hr = MFCalculateImageSize(subtype, width, height, &amp;cbImage);
+    hr = MFCalculateImageSize(subtype, width, height, &cbImage);
     if (FAILED(hr))
     {
         goto done;
@@ -180,7 +180,7 @@ HRESULT CreateUncompressedVideoType(
     (*ppType)->AddRef();
 
 done:
-    SafeRelease(&amp;pType);
+    SafeRelease(&pType);
     return hr;
 }
 ```
@@ -193,7 +193,7 @@ The next example takes an encoded video format as input, and creates a matching 
 ```C++
 HRESULT ConvertVideoTypeToUncompressedType(
     IMFMediaType *pType,    // Pointer to an encoded video type.
-    const GUID&amp; subtype,    // Uncompressed subtype (eg, RGB-32, AYUV)
+    const GUID& subtype,    // Uncompressed subtype (eg, RGB-32, AYUV)
     IMFMediaType **ppType   // Receives a matching uncompressed video type.
     )
 {
@@ -203,7 +203,7 @@ HRESULT ConvertVideoTypeToUncompressedType(
     GUID majortype = { 0 };
     MFRatio par = { 0 };
 
-    hr = pType->GetMajorType(&amp;majortype);
+    hr = pType->GetMajorType(&majortype);
 
     if (majortype != MFMediaType_Video)
     {
@@ -215,7 +215,7 @@ HRESULT ConvertVideoTypeToUncompressedType(
 
     if (SUCCEEDED(hr))
     {
-        hr = MFCreateMediaType(&amp;pTypeUncomp);
+        hr = MFCreateMediaType(&pTypeUncomp);
     }
 
     if (SUCCEEDED(hr))
@@ -241,8 +241,8 @@ HRESULT ConvertVideoTypeToUncompressedType(
         hr = MFGetAttributeRatio(
             pTypeUncomp, 
             MF_MT_PIXEL_ASPECT_RATIO, 
-            (UINT32*)&amp;par.Numerator, 
-            (UINT32*)&amp;par.Denominator
+            (UINT32*)&par.Numerator, 
+            (UINT32*)&par.Denominator
             );
 
         // Default to square pixels.
@@ -262,7 +262,7 @@ HRESULT ConvertVideoTypeToUncompressedType(
         (*ppType)->AddRef();
     }
 
-    SafeRelease(&amp;pTypeUncomp);
+    SafeRelease(&pTypeUncomp);
     return hr;
 }
 ```

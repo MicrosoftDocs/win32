@@ -50,7 +50,7 @@ The following procedure and code examples show the steps for implementing script
 
     ```VB
     Sub MsRdpClient.OnChannelReceivedData(chanName,data)
-    Msgbox("received data:" &amp;data&amp; "on virtual channel:" &amp;chanName)
+    Msgbox("received data:" &data& "on virtual channel:" &chanName)
     End sub
     ```
 

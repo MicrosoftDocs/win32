@@ -69,15 +69,15 @@ int APIENTRY WinMain(HINSTANCE hInstance,
     hr = CoCreateInstance(__uuidof(MMDeviceEnumerator),
                           NULL, CLSCTX_INPROC_SERVER,
                           __uuidof(IMMDeviceEnumerator),
-                          (void**)&amp;pEnumerator);
+                          (void**)&pEnumerator);
     EXIT_ON_ERROR(hr)
 
     // Get peak meter for default audio-rendering device.
-    hr = pEnumerator->GetDefaultAudioEndpoint(eRender, eConsole, &amp;pDevice);
+    hr = pEnumerator->GetDefaultAudioEndpoint(eRender, eConsole, &pDevice);
     EXIT_ON_ERROR(hr)
 
     hr = pDevice->Activate(__uuidof(IAudioMeterInformation),
-                           CLSCTX_ALL, NULL, (void**)&amp;pMeterInfo);
+                           CLSCTX_ALL, NULL, (void**)&pMeterInfo);
     EXIT_ON_ERROR(hr)
 
     DialogBoxParam(hInstance, L"PEAKMETER", NULL, (DLGPROC)DlgProc, (LPARAM)pMeterInfo);
@@ -129,7 +129,7 @@ BOOL CALLBACK DlgProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
         {
         case ID_TIMER:
             // Update the peak meter in the dialog box.
-            hr = pMeterInfo->GetPeakValue(&amp;peak);
+            hr = pMeterInfo->GetPeakValue(&peak);
             if (FAILED(hr))
             {
                 MessageBox(hDlg, TEXT("The program will exit."),
@@ -161,15 +161,15 @@ void DrawPeakMeter(HWND hPeakMeter, float peak)
     HDC hdc;
     RECT rect;
 
-    GetClientRect(hPeakMeter, &amp;rect);
+    GetClientRect(hPeakMeter, &rect);
     hdc = GetDC(hPeakMeter);
-    FillRect(hdc, &amp;rect, (HBRUSH)(COLOR_3DSHADOW+1));
+    FillRect(hdc, &rect, (HBRUSH)(COLOR_3DSHADOW+1));
     rect.left++;
     rect.top++;
     rect.right = rect.left +
                  max(0, (LONG)(peak*(rect.right-rect.left)-1.5));
     rect.bottom--;
-    FillRect(hdc, &amp;rect, (HBRUSH)(COLOR_3DHIGHLIGHT+1));
+    FillRect(hdc, &rect, (HBRUSH)(COLOR_3DHIGHLIGHT+1));
     ReleaseDC(hPeakMeter, hdc);
 }
 ```

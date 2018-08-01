@@ -40,7 +40,7 @@ DWORD                       cbMessage;
 scRet = QueryContextAttributes(
             phContext,
             SECPKG_ATTR_STREAM_SIZES,
-            &amp;Sizes);
+            &Sizes);
 
 if(FAILED(scRet))
 {
@@ -94,7 +94,7 @@ Message.ulVersion       = SECBUFFER_VERSION;
 Message.cBuffers        = 4;
 Message.pBuffers        = Buffers;
 
-scRet = EncryptMessage(phContext, 0, &amp;Message, 0);
+scRet = EncryptMessage(phContext, 0, &Message, 0);
 
 if(FAILED(scRet))
 {

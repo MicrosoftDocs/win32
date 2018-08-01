@@ -19,11 +19,11 @@ int i = 0;
 hr = pBuild->FindPin(
     pFilter,               // Pointer to a filter to search.
     PINDIR_OUTPUT,         // Which pin direction?
-    &amp;PIN_CATEGORY_PREVIEW, // Which category? (NULL means "any category")
-    &amp;MEDIATYPE_Video,      // What media type? (NULL means "any type")
+    &PIN_CATEGORY_PREVIEW, // Which category? (NULL means "any category")
+    &MEDIATYPE_Video,      // What media type? (NULL means "any type")
     FALSE,                 // Must be connected?
     i,                     // Get the i'th matching pin (0 = first match)
-    &amp;pPin                  // Receives a pointer to the pin.
+    &pPin                  // Receives a pointer to the pin.
 );
 ```
 
@@ -44,14 +44,14 @@ BOOL PinMatchesCategory(IPin *pPin, REFGUID Category)
     BOOL bFound = FALSE;
 
     IKsPropertySet *pKs = NULL;
-    HRESULT hr = pPin->QueryInterface(IID_PPV_ARGS(&amp;pKs));
+    HRESULT hr = pPin->QueryInterface(IID_PPV_ARGS(&pKs));
     if (SUCCEEDED(hr))
     {
         GUID PinCategory;
         DWORD cbReturned;
         hr = pKs->Get(AMPROPSETID_Pin, AMPROPERTY_PIN_CATEGORY, NULL, 0, 
-            &amp;PinCategory, sizeof(GUID), &amp;cbReturned);
-        if (SUCCEEDED(hr) &amp;&amp; (cbReturned == sizeof(GUID)))
+            &PinCategory, sizeof(GUID), &cbReturned);
+        if (SUCCEEDED(hr) && (cbReturned == sizeof(GUID)))
         {
             bFound = (PinCategory == Category);
         }
@@ -83,21 +83,21 @@ HRESULT FindPinByCategory(
     IEnumPins *pEnum = 0;
     IPin *pPin = 0;
 
-    hr = pFilter->EnumPins(&amp;pEnum);
+    hr = pFilter->EnumPins(&pEnum);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    while (hr = pEnum->Next(1, &amp;pPin, 0), hr == S_OK)
+    while (hr = pEnum->Next(1, &pPin, 0), hr == S_OK)
     {
         PIN_DIRECTION ThisPinDir;
-        hr = pPin->QueryDirection(&amp;ThisPinDir);
+        hr = pPin->QueryDirection(&ThisPinDir);
         if (FAILED(hr))
         {
             goto done;
         }
-        if ((ThisPinDir == PinDir) &amp;&amp; 
+        if ((ThisPinDir == PinDir) && 
             PinMatchesCategory(pPin, Category))
         {
             *ppPin = pPin;
@@ -105,13 +105,13 @@ HRESULT FindPinByCategory(
             bFound = TRUE;
             break;
         }
-        SafeRelease(&amp;pPin);
+        SafeRelease(&pPin);
     }
 
 done:
-    SafeRelease(&amp;pPin);
-    SafeRelease(&amp;pEnum);
-    if (SUCCEEDED(hr) &amp;&amp; !bFound)
+    SafeRelease(&pPin);
+    SafeRelease(&pEnum);
+    if (SUCCEEDED(hr) && !bFound)
     {
         hr = E_FAIL;
     }
@@ -127,7 +127,7 @@ The following code uses the previous function to search for a video port pin on 
 ```C++
 IPin *pVP; 
 hr = FindPinByCategory(pFilter, PINDIR_OUTPUT, 
-    PIN_CATEGORY_VIDEOPORT, &amp;pVP);
+    PIN_CATEGORY_VIDEOPORT, &pVP);
 if (SUCCEEDED(hr))
 {
     // Use pVP ... 

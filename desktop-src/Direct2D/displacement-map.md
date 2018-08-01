@@ -41,7 +41,7 @@ The CLSID for this effect is CLSID\_D2D1DisplacementMap.
 
 ```C++
 ComPtr<ID2D1Effect> displacementMapEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1DisplacementMap, &amp;displacementMapEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1DisplacementMap, &displacementMapEffect);
 
 displacementMapEffect->SetInput(0, bitmap);
 displacementMapEffect->SetValue(D2D1_DISPLACEMENTMAP_PROP_SCALE, 100.0f);
@@ -49,7 +49,7 @@ displacementMapEffect->SetValue(D2D1_DISPLACEMENTMAP_PROP_SCALE, 100.0f);
 // The second input of the displacement effect determines how the input image is transformed.
 // For this example, we will use a turbulence effect as the second input to randomly distort the image.
 ComPtr<ID2D1Effect> turbulenceEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Turbulence, &amp;turbulenceEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Turbulence, &turbulenceEffect);
 displacementMapEffect->SetInputEffect(1, turbulenceEffect.Get());
 
 m_d2dContext->BeginDraw();

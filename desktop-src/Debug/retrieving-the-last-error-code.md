@@ -35,7 +35,7 @@ void ErrorExit(LPTSTR lpszFunction)
         NULL,
         dw,
         MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
-        (LPTSTR) &amp;lpMsgBuf,
+        (LPTSTR) &lpMsgBuf,
         0, NULL );
 
     // Display the error message and exit the process

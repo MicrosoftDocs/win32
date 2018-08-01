@@ -28,7 +28,7 @@ void getSchannelClientHandle(PCredHandle ppClientCred)
   CredHandle hCred;
   SCHANNEL_CRED credData;
 
-  ZeroMemory(&amp;credData, sizeof(credData));
+  ZeroMemory(&credData, sizeof(credData));
   credData.dwVersion = SCHANNEL_CRED_VERSION;
 
   //-------------------------------------------------------
@@ -40,11 +40,11 @@ void getSchannelClientHandle(PCredHandle ppClientCred)
        UNISP_NAME,            // name of the SSP
        SECPKG_CRED_OUTBOUND,  // client will use the credentials
        NULL,                  // use the current LOGON id
-       &amp;credData,             // protocol-specific data
+       &credData,             // protocol-specific data
        NULL,                  // default
        NULL,                  // default
-       &amp;hCred,                // receives the credential handle
-       &amp;Lifetime              // receives the credential time limit
+       &hCred,                // receives the credential handle
+       &Lifetime              // receives the credential time limit
   );
   printf("Client credentials status: 0x%x\n", SecStatus);
   // Return the handle to the caller.
@@ -72,7 +72,7 @@ The primary difference between the client-side and server-side request for crede
   if (! (serverCert = getServerCertificate())) return;
 
   // getServerCertificate is a placeholder function.
-  credData.paCred = &amp;serverCert;
+  credData.paCred = &serverCert;
 ```
 
 

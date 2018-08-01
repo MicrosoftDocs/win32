@@ -36,7 +36,7 @@ When the user opens a file, build a file-playback graph using **RenderFile**. Th
 
 ```C++
 IMediaSeeking *g_pSeek = 0;
-hr = pGraph->QueryInterface(IID_IMediaSeeking, (void**)&amp;g_pSeek);
+hr = pGraph->QueryInterface(IID_IMediaSeeking, (void**)&g_pSeek);
 ```
 
 
@@ -48,14 +48,14 @@ To determine whether the file is seekable, call either the [**IMediaSeeking::Che
 // Determine if the source is seekable.
 BOOL  bCanSeek = FALSE;
 DWORD caps = AM_SEEKING_CanSeekAbsolute | AM_SEEKING_CanGetDuration; 
-bCanSeek = (S_OK == pSeek->CheckCapabilities(&amp;caps));
+bCanSeek = (S_OK == pSeek->CheckCapabilities(&caps));
 if (bCanSeek)
 {
     // Enable the trackbar.
     EnableWindow(hScroll, TRUE);
 
     // Find the file duration.
-    pSeek->GetDuration(&amp;g_rtTotalTime);
+    pSeek->GetDuration(&g_rtTotalTime);
 }
 ```
 
@@ -104,7 +104,7 @@ case WM_TIMER:
         ASSERT(bCanSeek == TRUE);
 
         REFERENCE_TIME timeNow;
-        if (SUCCEEDED(pSeek->GetCurrentPosition(&amp;timeNow)))
+        if (SUCCEEDED(pSeek->GetCurrentPosition(&timeNow)))
         {
             long sliderTick = (long)((timeNow * 100) / g_rtTotalTime);
             SendMessage( hScroll, TBM_SETPOS, TRUE, sliderTick );
@@ -130,13 +130,13 @@ case WM_HSCROLL:
         // Pause when the scroll action begins.
         if (bStartOfScroll) 
         {
-            pControl->GetState(10, &amp;state);
+            pControl->GetState(10, &state);
             bStartOfScroll = FALSE;
             pControl->Pause();
         }
         // Update the position continuously.
         REFERENCE_TIME newTime = (g_rtTotalTime/100) * dwPosition;
-        pSeek->SetPositions(&amp;newTime, AM_SEEKING_AbsolutePositioning,
+        pSeek->SetPositions(&newTime, AM_SEEKING_AbsolutePositioning,
             NULL, AM_SEEKING_NoPositioning);
 
         // Restore the state at the end.

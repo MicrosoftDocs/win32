@@ -58,8 +58,8 @@ void main()
         CRYPT_LOCAL,
         L"SSL",
         NCRYPT_SCHANNEL_INTERFACE,
-        &amp;cbBuffer,
-        &amp;pBuffer);
+        &cbBuffer,
+        &pBuffer);
     if(FAILED(Status))
     {
         printf_s("\n**** Error 0x%x returned by BCryptEnumContextFunctions\n", Status);

@@ -24,7 +24,7 @@ The following code shows these steps:
 
 ```C++
 long lMin = 0, lMax = 0;
-hr = pTuner->ChannelMinMax(&amp;lMin, &amp;lMax);
+hr = pTuner->ChannelMinMax(&lMin, &lMax);
 if (SUCCEEDED(hr))
 {
     for (long i = lMin; i <= lMax; i++)
@@ -48,7 +48,7 @@ HRESULT MyAutoTune(IAMTVTuner *pTuner, long lIndex, long *plFoundSignal)
     HRESULT hr;
     hr = pTuner->put_Channel(lIndex, AMTUNER_SUBCHAN_DEFAULT, AMTUNER_SUBCHAN_DEFAULT);
     if (NOERROR == hr)
-        pTuner->SignalPresent(&amp;SignalStrength);
+        pTuner->SignalPresent(&SignalStrength);
     *plFoundSignal = (SignalStrength != AMTUNER_NOSIGNAL);
         return hr;
 }

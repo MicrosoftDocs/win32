@@ -30,11 +30,11 @@ The following example code is taken from Thumbnail.cpp in the Windows Animation 
 // Get the x-coordinate and y-coordinate animation variable values
 
 DOUBLE x=0;
-hr = m_pAnimationVariableX->GetValue(&amp;x);
+hr = m_pAnimationVariableX->GetValue(&x);
 if (SUCCEEDED(hr))
 {
     DOUBLE y=0;
-    hr = m_pAnimationVariableY->GetValue(&amp;y);
+    hr = m_pAnimationVariableY->GetValue(&y);
     if (SUCCEEDED(hr))
     {
         // Draw the object
@@ -55,19 +55,19 @@ The following example code is taken from MainWindow.cpp in the Windows Animation
 
 INT32 red;
 HRESULT hr = m_pAnimationVariableRed->GetIntegerValue(
-    &amp;red
+    &red
     );
 if (SUCCEEDED(hr))
 {
     INT32 green;
     hr = m_pAnimationVariableGreen->GetIntegerValue(
-        &amp;green
+        &green
         );
     if (SUCCEEDED(hr))
     {
         INT32 blue;
         hr = m_pAnimationVariableBlue->GetIntegerValue(
-            &amp;blue
+            &blue
             );
         if (SUCCEEDED(hr))
         {

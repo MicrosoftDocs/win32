@@ -125,7 +125,7 @@ The print processing thread runs until the PrintThreadProc function returns. The
                     (LPTHREAD_START_ROUTINE)PrintThreadProc,
                     (LPVOID)threadInfo, 
                     0L, 
-                    &amp;threadInfo->printThreadId);
+                    &threadInfo->printThreadId);
     ```
 
     
@@ -167,7 +167,7 @@ The following code example shows how the sample program checks the **quitEvent**
 // While no errors and the user hasn't clicked cancel...
 while (((waitStatus = WaitForSingleObject (
                         threadInfo->quitEvent, 
-                        stepDelay)) == WAIT_TIMEOUT) &amp;&amp;
+                        stepDelay)) == WAIT_TIMEOUT) &&
         SUCCEEDED(hr))
 {
     // ...print one page

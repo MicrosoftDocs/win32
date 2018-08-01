@@ -46,7 +46,7 @@ The **Print** common dialog box is displayed when the user starts a print job. T
 
     ```C++
     // Display the printer dialog and retrieve the printer DC
-    pdReturn = PrintDlg(&amp;pd);
+    pdReturn = PrintDlg(&pd);
     ```
 
     

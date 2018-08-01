@@ -128,7 +128,7 @@ switch (message)
  
     case WM_MOUSEMOVE: 
  
-    if (wParam & MK_LBUTTON &amp;&amp; fDefineRegion) 
+    if (wParam & MK_LBUTTON && fDefineRegion) 
     { 
  
         // Get a window DC.  

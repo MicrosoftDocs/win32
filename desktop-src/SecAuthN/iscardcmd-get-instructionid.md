@@ -81,7 +81,7 @@ BYTE  byInstructID;
 HRESULT hr;
 
 // Retrieve the instruction ID.
-hr = pISCardCmd->get_InstructionId(&amp;byInstructID);
+hr = pISCardCmd->get_InstructionId(&byInstructID);
 if (FAILED(hr))
 {
   printf("Failed get_InstructionId\n");

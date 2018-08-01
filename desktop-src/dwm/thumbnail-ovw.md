@@ -49,7 +49,7 @@ HRESULT hr = S_OK;
 HTHUMBNAIL thumbnail = NULL;
 
 // Register the thumbnail
-hr = DwmRegisterThumbnail(hwnd, FindWindow(_T("Progman"), NULL), &amp;thumbnail);
+hr = DwmRegisterThumbnail(hwnd, FindWindow(_T("Progman"), NULL), &thumbnail);
 if (SUCCEEDED(hr))
 {
     // Specify the destination rectangle size
@@ -64,7 +64,7 @@ if (SUCCEEDED(hr))
     dskThumbProps.rcDestination = dest;
 
     // Display the thumbnail
-    hr = DwmUpdateThumbnailProperties(thumbnail,&amp;dskThumbProps);
+    hr = DwmUpdateThumbnailProperties(thumbnail,&dskThumbProps);
     if (SUCCEEDED(hr))
     {
         // ...

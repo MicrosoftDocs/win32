@@ -39,21 +39,21 @@ HRESULT Individualize(IWMDRMSecurity* pSecurity)
     WM_INDIVIDUALIZE_STATUS IndivStatusStruct;
 
     // Intialize local variables.
-    ZeroMemory(&amp;IndivStatusStruct, sizeof(IndivStatusStruct));
-    PropVariantInit(&amp;EventValue);
+    ZeroMemory(&IndivStatusStruct, sizeof(IndivStatusStruct));
+    PropVariantInit(&EventValue);
 
     // Check input pointer.
     if (pSecurity == NULL) return E_POINTER;
     
     // Start the security update.
     hr = pSecurity->PerformSecurityUpdate(WMDRM_SECURITY_PERFORM_FORCE_INDIV,
-        &amp;pCancelCookie);
+        &pCancelCookie);
 
     // Get the EventGenerator from the Secrity interface; this 
     //  is not neccessary, merely illustrative. 
     if (SUCCEEDED(hr))
     {
-        hr = pSecurity->QueryInterface( IID_IWMDRMEventGenerator, (void**)&amp;pEventGenerator);
+        hr = pSecurity->QueryInterface( IID_IWMDRMEventGenerator, (void**)&pEventGenerator);
     }
 
     // Event loop.
@@ -67,7 +67,7 @@ HRESULT Individualize(IWMDRMSecurity* pSecurity)
 
             // Check for an event.
             hr = pEventGenerator->GetEvent(MF_EVENT_FLAG_NO_WAIT,
-                                           &amp;pEvent);
+                                           &pEvent);
 
             // If an event was not found, wait a half second and retry.
             if (FAILED(hr))
@@ -77,7 +77,7 @@ HRESULT Individualize(IWMDRMSecurity* pSecurity)
             }
 
             // Get the event type.
-            hr = pEvent->GetType(&amp;EventType);
+            hr = pEvent->GetType(&EventType);
             
             // 
             if (FAILED(hr))
@@ -94,7 +94,7 @@ HRESULT Individualize(IWMDRMSecurity* pSecurity)
                 printf("Received a progress event.\n");
                 
                 // Get the value of the event.
-                hr = pEvent->GetValue(&amp;EventValue);
+                hr = pEvent->GetValue(&EventValue);
                 if (!SUCCEEDED(hr))
                     break;
 
@@ -105,34 +105,34 @@ HRESULT Individualize(IWMDRMSecurity* pSecurity)
                     // All progress events should have a value of 
                     //  type VT_UNKNOWN. Note this and continue.
                     printf("Unexpected event value type.\n");
-                    PropVariantClear(&amp;EventValue);
+                    PropVariantClear(&EventValue);
                     break;
                 }
 
                 // Get the extended status interface.
                 hr = EventValue.punkVal->QueryInterface(
                     IID_IWMDRMIndividualizationStatus, 
-                    (void**)&amp;pIndivStatus);
+                    (void**)&pIndivStatus);
 
                 // If the interface can't be retrieved, print a
                 //  note and continue.
                 if (FAILED(hr))
                 {
                     printf("Unable to get the extended status interface.\n");
-                    PropVariantClear(&amp;EventValue);
+                    PropVariantClear(&EventValue);
                     break;
                 }
 
                 // Get the status structure from the newly
                 //  acquired interface.
-                hr = pIndivStatus->GetStatus(&amp;IndivStatusStruct);
+                hr = pIndivStatus->GetStatus(&IndivStatusStruct);
 
                 // If the structure can't be retrieved, make a
                 //  note and continue.
                 if (FAILED(hr))
                 {
                     printf("Unable to get the status structure.\n");
-                    PropVariantClear(&amp;EventValue);
+                    PropVariantClear(&EventValue);
                     break;
                 }
 
@@ -142,7 +142,7 @@ HRESULT Individualize(IWMDRMSecurity* pSecurity)
                 //
 
                 // Clear the event value for the next iteration.
-                PropVariantClear(&amp;EventValue);
+                PropVariantClear(&EventValue);
                 break;
             case MEWMDRMIndividualizationCompleted:
                 printf("Individualization completed.\n");

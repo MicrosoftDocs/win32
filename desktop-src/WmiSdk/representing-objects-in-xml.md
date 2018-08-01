@@ -91,7 +91,7 @@ The following procedure describes how to encode an object in XML using C or C++.
                            NULL, 
                            CLSCTX_INPROC_SERVER,
                            IID_IWbemContext, 
-                           (void**) &amp;pContext);
+                           (void**) &pContext);
     if (FAILED(hr))
     {
       printf("Create context failed with %x\n", hr);
@@ -99,25 +99,25 @@ The following procedure describes how to encode an object in XML using C or C++.
     }
 
     // Generate a <VALUE.OBJECTWITHLOCALPATH> element
-    VariantInit(&amp;vValue);
+    VariantInit(&vValue);
     vValue.vt = VT_I4;
     vValue.lVal = 2;
-    pContext->SetValue(L"PathLevel", 0, &amp;vValue);
-    VariantClear(&amp;vValue);
+    pContext->SetValue(L"PathLevel", 0, &vValue);
+    VariantClear(&vValue);
 
     // Include qualifiers
-    VariantInit(&amp;vValue);
+    VariantInit(&vValue);
     vValue.vt = VT_BOOL;
     vValue.boolVal = VARIANT_TRUE;
-    pContext->SetValue(L"IncludeQualifiers", 0, &amp;vValue);
-    VariantClear(&amp;vValue);
+    pContext->SetValue(L"IncludeQualifiers", 0, &vValue);
+    VariantClear(&vValue);
 
     // Exclude system properties
-    VariantInit(&amp;vValue);
+    VariantInit(&vValue);
     vValue.vt = VT_BOOL;
     vValue.boolVal = VARIANT_TRUE;
-    pContext->SetValue(L"ExcludeSystemProperties", 0, &amp;vValue);
-    VariantClear(&amp;vValue);
+    pContext->SetValue(L"ExcludeSystemProperties", 0, &vValue);
+    VariantClear(&vValue);
     ```
 
     
@@ -136,7 +136,7 @@ The following procedure describes how to encode an object in XML using C or C++.
     hr = pConnection->GetObject(strObj, 
                                 0, 
                                 NULL, 
-                                &amp;pClass, 
+                                &pClass, 
                                 NULL);
 
     SysFreeString(strObj);
@@ -163,7 +163,7 @@ The following procedure describes how to encode an object in XML using C or C++.
                            NULL,
                            CLSCTX_INPROC_SERVER,
                            IID_IWbemObjectTextSrc, 
-                           (void**) &amp;pSrc);
+                           (void**) &pSrc);
 
     if (FAILED(hr))
     {
@@ -187,7 +187,7 @@ The following procedure describes how to encode an object in XML using C or C++.
                        pClass, 
                        WMI_OBJ_TEXT_CIM_DTD_2_0,
                        pContext, 
-                       &amp;strText);
+                       &strText);
 
     // Perform a task with strText
     SysFreeString(strText);
@@ -220,24 +220,24 @@ void FillUpContext(IWbemContext *pContext)
   VARIANT vValue;
 
   // IncludeQualifiers
-  VariantInit(&amp;vValue);
+  VariantInit(&vValue);
   vValue.vt = VT_BOOL;
   vValue.boolVal = VARIANT_FALSE;
-  pContext->SetValue(L"IncludeQualifiers", 0, &amp;vValue);
-  VariantClear(&amp;vValue);
+  pContext->SetValue(L"IncludeQualifiers", 0, &vValue);
+  VariantClear(&vValue);
 
-  VariantInit(&amp;vValue);
+  VariantInit(&vValue);
   vValue.vt = VT_I4;
   vValue.lVal = 0;
-  pContext->SetValue(L"PathLevel", 0, &amp;vValue);
-  VariantClear(&amp;vValue);
+  pContext->SetValue(L"PathLevel", 0, &vValue);
+  VariantClear(&vValue);
 
   // ExcludeSystemProperties
-  VariantInit(&amp;vValue);
+  VariantInit(&vValue);
   vValue.vt = VT_BOOL;
   vValue.boolVal = VARIANT_TRUE;
-  pContext->SetValue(L"ExcludeSystemProperties", 0, &amp;vValue);
-  VariantClear(&amp;vValue);
+  pContext->SetValue(L"ExcludeSystemProperties", 0, &vValue);
+  VariantClear(&vValue);
 }
 
 // Main method ... drives the program
@@ -258,7 +258,7 @@ int _cdecl main(int argc, char * argv[])
                                       NULL, 
                                       CLSCTX_INPROC_SERVER,
                                       IID_IWbemLocator, 
-                                      (void**) &amp;pL)))
+                                      (void**) &pL)))
   {
     // Create a context object
     IWbemContext *pContext = NULL;
@@ -266,7 +266,7 @@ int _cdecl main(int argc, char * argv[])
                                         NULL, 
                                         CLSCTX_INPROC_SERVER,
                                         IID_IWbemContext, 
-                                        (void**) &amp;pContext)))
+                                        (void**) &pContext)))
     {
       FillUpContext(pContext);
       IWbemServices *pConnection = NULL;
@@ -279,7 +279,7 @@ int _cdecl main(int argc, char * argv[])
                                           0, 
                                           NULL, 
                                           NULL, 
-                                          &amp;pConnection)))
+                                          &pConnection)))
       {
         IWbemClassObject *pClass = NULL;
         strObj = SysAllocString(L"Win32_LogicalDisk");
@@ -288,20 +288,20 @@ int _cdecl main(int argc, char * argv[])
                                             NULL,
                                             CLSCTX_INPROC_SERVER,
                                             IID_IWbemObjectTextSrc, 
-                                            (void**) &amp;pSrc)))
+                                            (void**) &pSrc)))
         {
           // Test for GetObject
           if(SUCCEEDED(hr = pConnection->GetObject(strObj, 
                                                    0, 
                                                    NULL, 
-                                                   &amp;pClass, 
+                                                   &pClass, 
                                                    NULL)))
           {
             if(SUCCEEDED(hr = pSrc->GetText(0, 
                                             pClass, 
                                             WMI_OBJ_TEXT_CIM_DTD_2_0,
                                             pContext, 
-                                            &amp;strText)))
+                                            &strText)))
             {
               printf("GETOBJECT SUCCEEDED\n");
               printf("==========================================\n");

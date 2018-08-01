@@ -44,8 +44,8 @@ case WM_NOTIFY:
         char szBuf[FILE_LEN]; // Buffer for name of Help file
 
         // Display Help for the font properties page.
-        LoadString(g_hinst, IDS_HELPFILE, &amp;szBuf, sizeof(szBuf)/sizeof(szBuf[0]));
-        WinHelp(((NMHDR FAR *)lParam)->hwndFrom, &amp;szBuf, HELP_CONTEXT, IDH_FONT_PROPERTIES);                
+        LoadString(g_hinst, IDS_HELPFILE, &szBuf, sizeof(szBuf)/sizeof(szBuf[0]));
+        WinHelp(((NMHDR FAR *)lParam)->hwndFrom, &szBuf, HELP_CONTEXT, IDH_FONT_PROPERTIES);                
         
         break;
         

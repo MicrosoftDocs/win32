@@ -49,9 +49,9 @@ RTM_NEXTHOP_INFO NextHopInfo;
 // First, create and add a next hop to the caller's
 // next-hop tree (if it does not already exist)
 
-ZeroMemory(&amp;NextHopInfo, sizeof(RTM_NEXTHOP_INFO);
+ZeroMemory(&NextHopInfo, sizeof(RTM_NEXTHOP_INFO);
 
-RTM_IPV4_MAKE_NET_ADDRESS(&amp;NextHopInfo.NextHopAddress,
+RTM_IPV4_MAKE_NET_ADDRESS(&NextHopInfo.NextHopAddress,
                           nexthop, // Address of the next hop
                           32);
 
@@ -60,9 +60,9 @@ NextHopInfo.InterfaceIndex = interface;
 NextHopHandle = NULL;
 
 Status = RtmAddNextHop(RtmRegHandle,
-                       &amp;NextHopInfo,
-                       &amp;NextHopHandle,
-                       &amp;ChangeFlags);
+                       &NextHopInfo,
+                       &NextHopHandle,
+                       &ChangeFlags);
 
 if (Status == NO_ERROR)
 {
@@ -70,10 +70,10 @@ if (Status == NO_ERROR)
 
         // Fill in the route information for the route
     
-    ZeroMemory(&amp;RouteInfo, sizeof(RTM_ROUTE_INFO);
+    ZeroMemory(&RouteInfo, sizeof(RTM_ROUTE_INFO);
 
     // Fill in the destination network's address and mask values
-    RTM_IPV4_MAKE_NET_ADDRESS(&amp;NetAddress, addr, masklen);
+    RTM_IPV4_MAKE_NET_ADDRESS(&NetAddress, addr, masklen);
 
     // Assume 'neighbour learnt from' is the first next hop
     RouteInfo.Neighbour = NextHopHandle;
@@ -94,14 +94,14 @@ if (Status == NO_ERROR)
     ChangeFlags = 0;
 
     Status = RtmAddRouteToDest(RtmRegHandle,
-                               &amp;RouteHandle,     // Can be NULL if you do not need handle
-                               &amp;NetAddress,
-                               &amp;RouteInfo,
+                               &RouteHandle,     // Can be NULL if you do not need handle
+                               &NetAddress,
+                               &RouteInfo,
                                1000,             // Time out route after 1000 ms
                                RouteListHandle1, // Also add the route to this list
                                0,
                                NULL,
-                               &amp;ChangeFlags);
+                               &ChangeFlags);
 
     if (Status == NO_ERROR)
     {
@@ -120,11 +120,11 @@ if (Status == NO_ERROR)
         }
 
         // Release the route handle if you do not need it
-        RtmReleaseRoutes(RtmRegHandle, 1, &amp;RouteHandle);
+        RtmReleaseRoutes(RtmRegHandle, 1, &RouteHandle);
     }
 
     // Also release the next hop since it is no longer needed 
-    RtmReleaseNextHops(RtmRegHandle, 1, &amp;NextHopHandle);
+    RtmReleaseNextHops(RtmRegHandle, 1, &NextHopHandle);
 }
 ```
 

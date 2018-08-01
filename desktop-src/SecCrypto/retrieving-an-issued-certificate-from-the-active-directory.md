@@ -54,7 +54,7 @@ void __cdecl main()
     //  but this example will use GetUserNameEx.
     if (!GetUserNameEx(NameFullyQualifiedDN,
                        wszDN,
-                       &amp;cchDN))
+                       &cchDN))
     {
         printf("Failed GetUserNameEx: %x\n",
                GetLastError());

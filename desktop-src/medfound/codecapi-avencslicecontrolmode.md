@@ -55,11 +55,11 @@ This is a static API, which means the application won t change this while the en
 
 
 ```C++
-if (pCodecAPI->IsSupported(&amp;CODECAPI_AVEncSliceControlMode) == S_OK) {                
+if (pCodecAPI->IsSupported(&CODECAPI_AVEncSliceControlMode) == S_OK) {                
      VARIANT var;
      var.vt = VT_UI4;
      var.ulVal =ulSliceMode;
-     pCodecAPI->SetValue(&amp;CODECAPI_AVEncSliceControlMode, &amp;var);
+     pCodecAPI->SetValue(&CODECAPI_AVEncSliceControlMode, &var);
 }
 ```
 

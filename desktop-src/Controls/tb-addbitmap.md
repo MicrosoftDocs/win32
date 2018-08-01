@@ -59,7 +59,7 @@ DWORD backgroundColor = GetSysColor(COLOR_BTNFACE);
 COLORMAP colorMap;
 colorMap.from = RGB(0, 0, 0);
 colorMap.to = backgroundColor;
-HBITMAP hbm = CreateMappedBitmap(g_hInst, IDB_BITMAP1, 0, &amp;colorMap, 1);
+HBITMAP hbm = CreateMappedBitmap(g_hInst, IDB_BITMAP1, 0, &colorMap, 1);
 TBADDBITMAP tb;
 tb.hInst = NULL;
 tb.nID = (UINT_PTR)hbm;
@@ -67,7 +67,7 @@ tb.nID = (UINT_PTR)hbm;
 // hWndToolbar is the window handle of the toolbar.
 // Do not forget to send TB_BUTTONSTRUCTSIZE if the toolbar was 
 // created by using CreateWindowEx.
-int index = SendMessage (hWndToolbar, TB_ADDBITMAP, 0, (LPARAM)&amp;tb);
+int index = SendMessage (hWndToolbar, TB_ADDBITMAP, 0, (LPARAM)&tb);
 ```
 
 

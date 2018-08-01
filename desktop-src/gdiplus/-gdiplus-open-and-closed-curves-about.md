@@ -21,8 +21,8 @@ The [FillPie](https://msdn.microsoft.com/en-us/library/ms535769(v=VS.85).aspx) m
 
 
 ```
-myGraphics.FillPie(&amp;mySolidBrush, 0, 0, 140, 70, 0, 120);
-myGraphics.DrawArc(&amp;myPen, 0, 0, 140, 70, 0, 120);
+myGraphics.FillPie(&mySolidBrush, 0, 0, 140, 70, 0, 120);
+myGraphics.DrawArc(&myPen, 0, 0, 140, 70, 0, 120);
 ```
 
 
@@ -37,8 +37,8 @@ The [FillClosedCurve](https://msdn.microsoft.com/en-us/library/ms535765(v=VS.85)
 ```
 Point myPointArray[] =
    {Point(10, 10), Point(60, 20),Point(40, 50)};
-myGraphics.DrawClosedCurve(&amp;myPen, myPointArray, 3);
-myGraphics.FillClosedCurve(&amp;mySolidBrush, myPointArray, 3, FillModeAlternate)
+myGraphics.DrawClosedCurve(&myPen, myPointArray, 3);
+myGraphics.FillClosedCurve(&mySolidBrush, myPointArray, 3, FillModeAlternate)
 ```
 
 
@@ -47,8 +47,8 @@ A path can consist of several figures (subpaths). The [**Graphics::FillPath**](/
 
 
 ```
-myGraphics.FillPath(&amp;mySolidBrush, &amp;myGraphicsPath);
-myGraphics.DrawPath(&amp;myPen, &amp;myGraphicsPath);
+myGraphics.FillPath(&mySolidBrush, &myGraphicsPath);
+myGraphics.DrawPath(&myPen, &myGraphicsPath);
 ```
 
 

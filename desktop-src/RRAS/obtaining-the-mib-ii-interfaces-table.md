@@ -39,10 +39,10 @@ void main()
     dwResult = MprAdminMIBEntryGet ( _hMibSrv, 
                                     PID_IP, 
                                     IPRTRMGR_PID, 
-                                    (PVOID)&amp;MibOpaqueQuery, 
+                                    (PVOID)&MibOpaqueQuery, 
                                     dwInSize, 
-                                    (PVOID *)&amp;pMibOpaqueInfo, 
-                                    &amp;dwOutSize );
+                                    (PVOID *)&pMibOpaqueInfo, 
+                                    &dwOutSize );
 
     if ( dwResult != NO_ERROR )
         return;
@@ -84,14 +84,14 @@ int __cdecl main(){
     dwOutSize = 0; 
     
     // Connect to the MIB server to obtain the hMibSrv handle
-    dwRes = MprAdminMIBServerConnect(NULL, &amp;hMibSrv);    
+    dwRes = MprAdminMIBServerConnect(NULL, &hMibSrv);    
     if (dwRes != NO_ERROR){
         wprintf(L&quot;ERROR: Unable to connect to the MIB server specified.\n&quot;);
         return ERROR_SUCCESS;
     }
 
     // Retrieve the MIB interfaces table. The local RRAS service MUST be running or this call will fail.
-    dwRes = MprAdminMIBEntryGet(hMibSrv, PID_IP, IPRTRMGR_PID, (PVOID)&amp;MibOpaqueQuery, dwInSize, (PVOID*)&amp;pMibOpaqueInfo, &amp;dwOutSize);
+    dwRes = MprAdminMIBEntryGet(hMibSrv, PID_IP, IPRTRMGR_PID, (PVOID)&MibOpaqueQuery, dwInSize, (PVOID*)&pMibOpaqueInfo, &dwOutSize);
     if (dwRes != NO_ERROR){
         wprintf(L&quot;ERROR: Unable to retrieve the MIB interface table.\n&quot;);
         return ERROR_SUCCESS;

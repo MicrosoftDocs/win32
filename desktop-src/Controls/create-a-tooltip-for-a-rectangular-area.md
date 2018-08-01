@@ -56,10 +56,10 @@ void CreateToolTipForRect(HWND hwndParent)
     ti.hinst    = g_hInst;
     ti.lpszText = TEXT("This is your tooltip string.");;
     
-    GetClientRect (hwndParent, &amp;ti.rect);
+    GetClientRect (hwndParent, &ti.rect);
 
     // Associate the tooltip with the "tool" window.
-    SendMessage(hwndTT, TTM_ADDTOOL, 0, (LPARAM) (LPTOOLINFO) &amp;ti); 
+    SendMessage(hwndTT, TTM_ADDTOOL, 0, (LPARAM) (LPTOOLINFO) &ti); 
 } 
 ```
 

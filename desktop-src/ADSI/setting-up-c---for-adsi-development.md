@@ -51,7 +51,7 @@ Log on to a Windows domain. You must also have permission to modify data in Acti
 
         hr = ADsGetObject( L"LDAP://CN=users,DC=fabrikam,DC=com", 
                                    IID_IADsContainer, 
-                                   (void**) &amp;pCont );
+                                   (void**) &pCont );
         
         if ( !SUCCEEDED(hr) )
         {
@@ -62,7 +62,7 @@ Log on to a Windows domain. You must also have permission to modify data in Acti
         // Create a user
         //-----------------
         
-        hr = pCont->Create(CComBSTR("user"), CComBSTR("cn=jeffsmith"), &amp;pDisp );
+        hr = pCont->Create(CComBSTR("user"), CComBSTR("cn=jeffsmith"), &pDisp );
         
         // Release the container object.    
         pCont->Release();
@@ -72,7 +72,7 @@ Log on to a Windows domain. You must also have permission to modify data in Acti
             return 0;
         }
 
-        hr = pDisp->QueryInterface( IID_IADs, (void**) &amp;pUser );
+        hr = pDisp->QueryInterface( IID_IADs, (void**) &pUser );
 
         // Release the dispatch interface.
         pDisp->Release();

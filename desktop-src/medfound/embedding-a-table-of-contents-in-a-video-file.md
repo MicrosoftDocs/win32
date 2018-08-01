@@ -50,18 +50,18 @@ void main()
    {    
       ITocEntry* pEntry = NULL;
       hr = CoCreateInstance(CLSID_CTocEntry, NULL, 
-         CLSCTX_INPROC_SERVER, IID_ITocEntry, (VOID**)&amp;pEntry); 
+         CLSCTX_INPROC_SERVER, IID_ITocEntry, (VOID**)&pEntry); 
 
       if(SUCCEEDED(hr))
       {
          TOC_ENTRY_DESCRIPTOR tocDesc = {0};
          tocDesc.qwStartTime = 4; 
          tocDesc.qwEndTime = 8;
-         pEntry->SetDescriptor(&amp;tocDesc); // HRESULT ignored for simplicity.    
+         pEntry->SetDescriptor(&tocDesc); // HRESULT ignored for simplicity.    
     
          ITocEntryList* pEntryList = NULL;
          hr = CoCreateInstance(CLSID_CTocEntryList, NULL, 
-            CLSCTX_INPROC_SERVER, IID_ITocEntryList, (VOID**)&amp;pEntryList);
+            CLSCTX_INPROC_SERVER, IID_ITocEntryList, (VOID**)&pEntryList);
 
          if(SUCCEEDED(hr))
          {
@@ -69,7 +69,7 @@ void main()
       
             IToc* pToc = NULL;
             hr = CoCreateInstance(CLSID_CToc, NULL, 
-               CLSCTX_INPROC_SERVER, IID_IToc, (VOID**)&amp;pToc);
+               CLSCTX_INPROC_SERVER, IID_IToc, (VOID**)&pToc);
 
             if(SUCCEEDED(hr))
             {
@@ -87,7 +87,7 @@ HRESULT InitTocParserAndCommit(IToc* pToc)
 {
    ITocParser* pTocParser = NULL;
    HRESULT hr = CoCreateInstance(CLSID_CTocParser, NULL, 
-      CLSCTX_INPROC_SERVER, IID_ITocParser, (VOID**)&amp;pTocParser);
+      CLSCTX_INPROC_SERVER, IID_ITocParser, (VOID**)&pTocParser);
 
    if(SUCCEEDED(hr))
    {
@@ -96,7 +96,7 @@ HRESULT InitTocParserAndCommit(IToc* pToc)
       if(SUCCEEDED(hr))
       {
          DWORD tocIndex = 0;
-         hr = pTocParser->AddToc(TOC_POS_TOPLEVELOBJECT, pToc, &amp;tocIndex);
+         hr = pTocParser->AddToc(TOC_POS_TOPLEVELOBJECT, pToc, &tocIndex);
 
          if(SUCCEEDED(hr))
          {

@@ -37,14 +37,14 @@ If you are developing a C or C++ application, use [**CoGetCallContext**](https:/
 ISecurityCallContext* pSecCtx;
 VARIANT_BOOL bIsInRole;
 
-HRESULT hr = CoGetCallContext(IID_ISecurityCallContext, (void**)&amp;pSecCtx);
+HRESULT hr = CoGetCallContext(IID_ISecurityCallContext, (void**)&pSecCtx);
 if (FAILED(hr)) throw(hr);
 if (NULL == pSecCtx) { 
     // No security call context is available.
     // Display an error message and return.
     return E_FAIL;
 }
-hr = pSecCtx->IsCallerInRole(myRole, &amp;bIsInRole);
+hr = pSecCtx->IsCallerInRole(myRole, &bIsInRole);
 return hr;
 ```
 

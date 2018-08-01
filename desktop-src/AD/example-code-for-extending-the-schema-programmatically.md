@@ -169,32 +169,32 @@ void main(void)
     // stored in the DS.
  
     ADS_ATTR_INFO   attrArray[] = {
-        {L"cn", ADS_ATTR_UPDATE, ADSTYPE_CASE_IGNORE_STRING, &amp;cn, 1},
-        {L"isSingleValued", ADS_ATTR_UPDATE, ADSTYPE_BOOLEAN, &amp;singleValued, 1},
-        {L"objectClass", ADS_ATTR_UPDATE, ADSTYPE_CASE_IGNORE_STRING, &amp;objectClass, 1},
-        {L"attributeID", ADS_ATTR_UPDATE, ADSTYPE_CASE_IGNORE_STRING, &amp;oid, 1},
-        {L"attributeSyntax", ADS_ATTR_UPDATE, ADSTYPE_INTEGER, &amp;syntax, 1},
-        {L"oMSyntax", ADS_ATTR_UPDATE, ADSTYPE_INTEGER, &amp;omSyntax, 1},
-        {L"lDAPDisplayName", ADS_ATTR_UPDATE, ADSTYPE_CASE_IGNORE_STRING, &amp;ldapname, 1},
-        {L"schemaIdGUID", ADS_ATTR_UPDATE, ADSTYPE_OCTET_STRING, &amp;idGuid, 1},
+        {L"cn", ADS_ATTR_UPDATE, ADSTYPE_CASE_IGNORE_STRING, &cn, 1},
+        {L"isSingleValued", ADS_ATTR_UPDATE, ADSTYPE_BOOLEAN, &singleValued, 1},
+        {L"objectClass", ADS_ATTR_UPDATE, ADSTYPE_CASE_IGNORE_STRING, &objectClass, 1},
+        {L"attributeID", ADS_ATTR_UPDATE, ADSTYPE_CASE_IGNORE_STRING, &oid, 1},
+        {L"attributeSyntax", ADS_ATTR_UPDATE, ADSTYPE_INTEGER, &syntax, 1},
+        {L"oMSyntax", ADS_ATTR_UPDATE, ADSTYPE_INTEGER, &omSyntax, 1},
+        {L"lDAPDisplayName", ADS_ATTR_UPDATE, ADSTYPE_CASE_IGNORE_STRING, &ldapname, 1},
+        {L"schemaIdGUID", ADS_ATTR_UPDATE, ADSTYPE_OCTET_STRING, &idGuid, 1},
     };
  
     // ATTR_INFO for creating a classSchema object
  
     ADS_ATTR_INFO   classArray[] = {
-        {L"cn", ADS_ATTR_UPDATE, ADSTYPE_CASE_IGNORE_STRING, &amp;cn, 1},
-        {L"objectClass", ADS_ATTR_UPDATE, ADSTYPE_CASE_IGNORE_STRING, &amp;objectClass, 1},
-        {L"governsID", ADS_ATTR_UPDATE, ADSTYPE_CASE_IGNORE_STRING, &amp;oid, 1},
-        {L"objectClassCategory", ADS_ATTR_UPDATE, ADSTYPE_INTEGER, &amp;objectClassCategory, 1},
-        {L"schemaIdGUID", ADS_ATTR_UPDATE, ADSTYPE_OCTET_STRING, &amp;idGuid, 1},
-        {L"defaultSecurityDescriptor", ADS_ATTR_UPDATE, ADSTYPE_CASE_IGNORE_STRING, &amp;defaultSecurityDesc, 1},
-        {L"defaultHidingValue", ADS_ATTR_UPDATE, ADSTYPE_BOOLEAN, &amp;defaultHidingValue, 1},
-        {L"subClassOf", ADS_ATTR_UPDATE, ADSTYPE_CASE_IGNORE_STRING, &amp;subClassOf, 1},
-        {L"mayContain", ADS_ATTR_UPDATE, ADSTYPE_CASE_IGNORE_STRING, &amp;mayContain[0], 6},
+        {L"cn", ADS_ATTR_UPDATE, ADSTYPE_CASE_IGNORE_STRING, &cn, 1},
+        {L"objectClass", ADS_ATTR_UPDATE, ADSTYPE_CASE_IGNORE_STRING, &objectClass, 1},
+        {L"governsID", ADS_ATTR_UPDATE, ADSTYPE_CASE_IGNORE_STRING, &oid, 1},
+        {L"objectClassCategory", ADS_ATTR_UPDATE, ADSTYPE_INTEGER, &objectClassCategory, 1},
+        {L"schemaIdGUID", ADS_ATTR_UPDATE, ADSTYPE_OCTET_STRING, &idGuid, 1},
+        {L"defaultSecurityDescriptor", ADS_ATTR_UPDATE, ADSTYPE_CASE_IGNORE_STRING, &defaultSecurityDesc, 1},
+        {L"defaultHidingValue", ADS_ATTR_UPDATE, ADSTYPE_BOOLEAN, &defaultHidingValue, 1},
+        {L"subClassOf", ADS_ATTR_UPDATE, ADSTYPE_CASE_IGNORE_STRING, &subClassOf, 1},
+        {L"mayContain", ADS_ATTR_UPDATE, ADSTYPE_CASE_IGNORE_STRING, &mayContain[0], 6},
     };
  
     // ATTR_INFO for adding attributes to Group Policy Container
-    ADS_ATTR_INFO gpcUpdate[] = {{L"mayContain", ADS_ATTR_APPEND, ADSTYPE_CASE_IGNORE_STRING, &amp;mayContain[0], 2},};
+    ADS_ATTR_INFO gpcUpdate[] = {{L"mayContain", ADS_ATTR_APPEND, ADSTYPE_CASE_IGNORE_STRING, &mayContain[0], 2},};
  
  
     DWORD           dwAttrs;
@@ -210,7 +210,7 @@ void main(void)
 
     hr = ADsGetObject(L"LDAP://RootDSE",
                       IID_IADs,
-                      (void**)&amp;pRoot);
+                      (void**)&pRoot);
     if(FAILED(hr))
     {
         goto cleanup;
@@ -219,8 +219,8 @@ void main(void)
     // Get IDirectoryObject on the root DSE as well; use this for 
     // forcing a schema update later.
  
-    VariantInit(&amp;varDSRoot);
-    hr = pRoot->Get(CComBSTR("schemaNamingContext"), &amp;varDSRoot);
+    VariantInit(&varDSRoot);
+    hr = pRoot->Get(CComBSTR("schemaNamingContext"), &varDSRoot);
     if(FAILED(hr))
     {
         goto cleanup;
@@ -258,7 +258,7 @@ void main(void)
     // interface for it.
     hr = ADsGetObject(pwszDSPath,
                       IID_IDirectoryObject,
-                      (void**)&amp;pSchema);
+                      (void**)&pSchema);
     if(FAILED(hr))
     {
         goto cleanup;
@@ -306,12 +306,12 @@ void main(void)
     // write an Octet String to the DS.
     idGuid.dwType = ADSTYPE_OCTET_STRING;
     idGuid.OctetString.dwLength = sizeof(attrGuid6);
-    idGuid.OctetString.lpValue = (LPBYTE)&amp;attrGuid6;
+    idGuid.OctetString.lpValue = (LPBYTE)&attrGuid6;
  
     hr = pSchema->CreateDSObject(CONSISTENCY_CHILD_ATTR_RDN,
                                  attrArray,
                                  dwAttrs,
-                                 &amp;pDisp);
+                                 &pDisp);
     if (FAILED(hr)) 
     {
         ReportErrorW(L"CreateDSObject failed.", hr);
@@ -366,12 +366,12 @@ void main(void)
     // Octet String to the DS.
     idGuid.dwType = ADSTYPE_OCTET_STRING;
     idGuid.OctetString.dwLength = sizeof(attrGuid5);
-    idGuid.OctetString.lpValue = (LPBYTE)&amp;attrGuid5;
+    idGuid.OctetString.lpValue = (LPBYTE)&attrGuid5;
  
     hr = pSchema->CreateDSObject(CONSISTENCY_GUID_ATTR_RDN,
                                  attrArray,
                                  dwAttrs,
-                                 &amp;pDisp);
+                                 &pDisp);
     if (FAILED(hr)) 
     {
         ReportErrorW(L"CreateDSObject failed.", hr);
@@ -427,12 +427,12 @@ void main(void)
     // Octet String to the DS.
     idGuid.dwType = ADSTYPE_OCTET_STRING;
     idGuid.OctetString.dwLength = sizeof(attrGuid1);
-    idGuid.OctetString.lpValue = (LPBYTE)&amp;attrGuid1;
+    idGuid.OctetString.lpValue = (LPBYTE)&attrGuid1;
  
     hr = pSchema->CreateDSObject(COURSE_ATTR_RDN,
                                  attrArray,
                                  dwAttrs,
-                                 &amp;pDisp);
+                                 &pDisp);
     if (FAILED(hr)) 
     {
         ReportErrorW(L"CreateDSObject failed.", hr);
@@ -489,12 +489,12 @@ void main(void)
     // Octet String to the DS.
     idGuid.dwType = ADSTYPE_OCTET_STRING;
     idGuid.OctetString.dwLength = sizeof(attrGuid2);
-    idGuid.OctetString.lpValue = (LPBYTE)&amp;attrGuid2;
+    idGuid.OctetString.lpValue = (LPBYTE)&attrGuid2;
  
     hr = pSchema->CreateDSObject(SPEED_ATTR_RDN,
                                  attrArray,
                                  dwAttrs,
-                                 &amp;pDisp);
+                                 &pDisp);
     if (FAILED(hr)) 
     {
         ReportErrorW(L"CreateDSObject failed.", hr);
@@ -550,12 +550,12 @@ void main(void)
     // an Octet String to the DS.
     idGuid.dwType = ADSTYPE_OCTET_STRING;
     idGuid.OctetString.dwLength = sizeof(attrGuid3);
-    idGuid.OctetString.lpValue = (LPBYTE)&amp;attrGuid3;
+    idGuid.OctetString.lpValue = (LPBYTE)&attrGuid3;
  
     hr = pSchema->CreateDSObject(MAX_PAYLOAD_ATTR_RDN,
                                  attrArray,
                                  dwAttrs,
-                                 &amp;pDisp);
+                                 &pDisp);
     if (FAILED(hr)) 
     {
         ReportErrorW(L"CreateDSObject failed.", hr);
@@ -612,12 +612,12 @@ void main(void)
 
     idGuid.dwType = ADSTYPE_OCTET_STRING;
     idGuid.OctetString.dwLength = sizeof(attrGuid4);
-    idGuid.OctetString.lpValue = (LPBYTE)&amp;attrGuid4;
+    idGuid.OctetString.lpValue = (LPBYTE)&attrGuid4;
  
     hr = pSchema->CreateDSObject(ALLOWED_ATTR_RDN,
                                  attrArray,
                                  dwAttrs,
-                                 &amp;pDisp);
+                                 &pDisp);
     if (FAILED(hr)) 
     {
         ReportErrorW(L"CreateDSObject failed.", hr);
@@ -695,7 +695,7 @@ void main(void)
     hr = pSchema->CreateDSObject(TUGBOAT_CLASS_RDN,
                                  classArray,
                                  dwAttrs,
-                                 &amp;pDisp);
+                                 &pDisp);
     if (FAILED(hr)) 
     {
         ReportErrorW(L"CreateDSObject failed.", hr);
@@ -717,7 +717,7 @@ void main(void)
  
     hr = ADsGetObject(pwszGPCPath,
                       IID_IDirectoryObject,
-                      (void**)&amp;pGpc);
+                      (void**)&pGpc);
  
     if (FAILED(hr)) 
     {
@@ -736,7 +736,7 @@ void main(void)
                CONSISTENCY_CHILD_ATTR_LDAP_NAME;
         hr = pGpc->SetObjectAttributes(gpcUpdate,
                                        1,
-                                       &amp;iAttrsMod);
+                                       &iAttrsMod);
         if (FAILED(hr)) 
         {
             ReportErrorW(L"Update GPC Class object failed.", 
@@ -758,7 +758,7 @@ void main(void)
     //
     hr = ADsGetObject(pwszContPath,
                       IID_IDirectoryObject,
-                      (void**)&amp;pGpc);
+                      (void**)&pGpc);
  
     if (FAILED(hr)) 
     {
@@ -770,7 +770,7 @@ void main(void)
     {
         wprintf(L"\nRetrieved Container class object.\n");
  
-        hr = pGpc->SetObjectAttributes(gpcUpdate,1,&amp;iAttrsMod);
+        hr = pGpc->SetObjectAttributes(gpcUpdate,1,&iAttrsMod);
         if (FAILED(hr)) 
         {
             ReportErrorW(L"Update Container Class object failed.", 
@@ -797,8 +797,8 @@ void main(void)
     }
  
 cleanup:
-    VariantClear(&amp;varDSRoot);
-    VariantClear(&amp;varSchemaUpdate);
+    VariantClear(&varDSRoot);
+    VariantClear(&varSchemaUpdate);
 
     if(pwszDSPath)
     {
@@ -847,7 +847,7 @@ void ReportErrorW(LPCWSTR pwszDefaultMsg, DWORD dwErr)
                               NULL,
                               dwErr,
                               LANG_NEUTRAL,
-                              (LPWSTR)&amp;pwszMsg,
+                              (LPWSTR)&pwszMsg,
                               64,
                               NULL); 
     if (dwStatus != 0) 

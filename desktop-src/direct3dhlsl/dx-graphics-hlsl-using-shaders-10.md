@@ -50,7 +50,7 @@ The first step is to compile the shader, to check to see that you have coded the
         
     // Compile the vertex shader from the file
     D3D10CompileShader( strPath, strlen( strPath ), "HLSLWithoutFX.vsh", 
-        NULL, NULL, "Ripple", "vs_4_0", dwShaderFlags, &amp;pBlob, NULL );
+        NULL, NULL, "Ripple", "vs_4_0", dwShaderFlags, &pBlob, NULL );
 ```
 
 
@@ -93,7 +93,7 @@ Once the shader is compiled, call CreateVertexShader to create the shader object
 
     // Create the vertex shader
     hr = pd3dDevice->CreateVertexShader( (DWORD*)pBlob->GetBufferPointer(),
-        pBlob->GetBufferSize(), &amp;ppVertexShader );
+        pBlob->GetBufferSize(), &ppVertexShader );
 
     // Release the pointer to the compiled shader once you are done with it
     pBlob->Release();

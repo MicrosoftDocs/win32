@@ -35,12 +35,12 @@ To give an object the software key, query that object for the **IObjectWithSite*
 ```C++
 // Create your key provider, using an application-defined function:
 IServiceProvider *pKey;
-hr = MyCreateKeyProviderFunction(&amp;pKey);  
+hr = MyCreateKeyProviderFunction(&pKey);  
 
 // Query the Render Engine for IObjectWithSite.
 IObjectWithSite *pOWS;
 hr = pRenderEngine->QueryInterface(__uuidof(IObjectWithSite), 
-    reinterpret_cast<void**>(&amp;pOWS));
+    reinterpret_cast<void**>(&pOWS));
 if (SUCCEEDED(hr))
 {
     // Give it your key provider.

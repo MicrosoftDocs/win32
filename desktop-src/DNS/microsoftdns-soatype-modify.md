@@ -38,7 +38,7 @@ void Modify(
   [in, optional] uint32               RetryDelay,
   [in, optional] uint32               ExpireLimit,
   [in, optional] uint32               MinimumTTL,
-  [out, ref]     MicrosoftDNS_SOAType &amp;RR
+  [out, ref]     MicrosoftDNS_SOAType &RR
 );
 ```
 

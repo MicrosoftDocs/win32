@@ -32,7 +32,7 @@ The **Modify** method updates a Mail Agent for Domain (MD) Resource Record.
 void Modify(
   [in, optional] uint32              TTL,
   [in, optional] string              MDHost,
-  [out, ref]     MicrosoftDNS_MDType &amp;RR
+  [out, ref]     MicrosoftDNS_MDType &RR
 );
 ```
 

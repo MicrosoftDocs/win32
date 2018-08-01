@@ -25,7 +25,7 @@ If you are starting with uncompressed data, do the following:
 1.  Create the writer object by calling the [**WMCreateWriter**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatewriter) function. This function returns an **IWMWriter** pointer.
     ```C++
     IWMWriter *pWriter;
-    hr = WMCreateWriter(NULL, &amp;pWriter);
+    hr = WMCreateWriter(NULL, &pWriter);
     ```
 
     
@@ -33,7 +33,7 @@ If you are starting with uncompressed data, do the following:
 2.  Create the network sink object by calling the [**WMCreateWriterNetworkSink**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatewriternetworksink) function, which returns an **IWMWriterNetworkSink** pointer.
     ```C++
     IWMWriterNetworkSink *pNetSink;
-    hr = WMCreateWriterNetworkSink(&amp;pNetSink);
+    hr = WMCreateWriterNetworkSink(&pNetSink);
     ```
 
     
@@ -41,7 +41,7 @@ If you are starting with uncompressed data, do the following:
 3.  Call [**IWMWriterNetworkSink::Open**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-open) on the network sink and specify the port number to open; for example, 8080. Optionally, call [**IWMWriterNetworkSink::GetHostURL**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-gethosturl) to get the URL of the host. Clients will access the content from this URL. You can also call [**IWMWriterNetworkSink::SetMaximumClients**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-setmaximumclients) to restrict the number of clients.
     ```C++
     DWORD dwPortNum = 8080;
-    hr = pNetSink->Open( &amp;dwPortNum)
+    hr = pNetSink->Open( &dwPortNum)
     ```
 
     

@@ -33,7 +33,7 @@ The following incomplete example demonstrates how to encrypt a media sample usin
 ```C++
 QWORD GetNextSalt(QWORD qwSalt)
 {
-   return InterlockedIncrement64( (volatile LONGLONG*)&amp;qwSalt );
+   return InterlockedIncrement64( (volatile LONGLONG*)&qwSalt );
 }
 
 HRESULT EncryptSample( INSSBuffer *pSample )
@@ -44,10 +44,10 @@ HRESULT EncryptSample( INSSBuffer *pSample )
     BYTE *pbData = NULL;
     DWORD cbData = 0;
 
-    hr = pSample->QueryInterface( IID_INSSBuffer3, (void**)&amp;pNSSBuffer3 );
+    hr = pSample->QueryInterface( IID_INSSBuffer3, (void**)&pNSSBuffer3 );
     if( FAILED( hr ) ) goto EXIT;
 
-    hr = pSample->GetBufferAndLength( &amp;pbData, &amp;cbData );
+    hr = pSample->GetBufferAndLength( &pbData, &cbData );
     if( FAILED( hr ) ) goto EXIT;
 
     qwSalt = GetNextSalt(qwSalt);
@@ -57,7 +57,7 @@ HRESULT EncryptSample( INSSBuffer *pSample )
 
     hr = pNSSBuffer3->SetProperty( 
         WM_SampleExtensionGUID_SampleProtectionSalt, 
-        &amp;qwSalt, sizeof( qwSalt ) );
+        &qwSalt, sizeof( qwSalt ) );
     if( FAILED( hr ) ) goto EXIT;
 
 EXIT:

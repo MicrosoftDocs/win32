@@ -25,15 +25,15 @@ CFactoryTemplate g_Templates[] =
     // This entry is for the filter.
     {
         wszName,
-        &amp;CLSID_GrayFilter,
+        &CLSID_GrayFilter,
         CGrayFilter::CreateInstance,
         NULL,
-        &amp;FilterSetupData 
+        &FilterSetupData 
     },
     // This entry is for the property page.
     { 
         L"Saturation Props",
-        &amp;CLSID_SaturationProp,
+        &CLSID_SaturationProp,
         CGrayProp::CreateInstance, 
         NULL, NULL
     }

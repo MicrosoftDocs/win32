@@ -111,7 +111,7 @@ The following query string will search for all objects of type "computer" with a
 
 
 ```C++
-(&amp;(objectCategory=computer)(name=desktop*))
+(&(objectCategory=computer)(name=desktop*))
 ```
 
 
@@ -120,7 +120,7 @@ The following query string will search for all objects of type "computer" with a
 
 
 ```C++
-(&amp;(objectCategory=computer)(|(name=desktop*)(name=notebook*)))
+(&(objectCategory=computer)(|(name=desktop*)(name=notebook*)))
 ```
 
 
@@ -129,7 +129,7 @@ The following query string will search for all objects of type "user" that have 
 
 
 ```C++
-(&amp;(objectCategory=user)(homePhone=*))
+(&(objectCategory=user)(homePhone=*))
 ```
 
 

@@ -59,7 +59,7 @@ After determining through [**IRealTimeStylus3::MultiTouchEnabled**](/windows/des
 ```C++
 CComQIPtr<ITablet3> spITablet3 = g_spITablet3;
 VARIANT_BOOL b;
-spITablet3->get_IsMultiTouch(&amp;b);
+spITablet3->get_IsMultiTouch(&b);
 ```
 
 

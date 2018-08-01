@@ -53,11 +53,11 @@ HWND CreateListView (HWND hwndParent)
 {
     INITCOMMONCONTROLSEX icex;           // Structure for control initialization.
     icex.dwICC = ICC_LISTVIEW_CLASSES;
-    InitCommonControlsEx(&amp;icex);
+    InitCommonControlsEx(&icex);
 
     RECT rcClient;                       // The parent window's client area.
 
-    GetClientRect (hwndParent, &amp;rcClient); 
+    GetClientRect (hwndParent, &rcClient); 
 
     // Create the list-view window in report view with label editing enabled.
     HWND hWndListView = CreateWindow(WC_LISTVIEW, 

@@ -58,15 +58,15 @@ HRESULT D2DOutline(
 {
     HRESULT hr;
     ID2D1Factory *pFactory = NULL;
-    pGeometry->GetFactory(&amp;pFactory);
+    pGeometry->GetFactory(&pFactory);
 
     ID2D1PathGeometry *pPathGeometry = NULL;
-    hr = pFactory->CreatePathGeometry(&amp;pPathGeometry);
+    hr = pFactory->CreatePathGeometry(&pPathGeometry);
 
     if (SUCCEEDED(hr))
     {
         ID2D1GeometrySink *pSink = NULL;
-        hr = pPathGeometry->Open(&amp;pSink);
+        hr = pPathGeometry->Open(&pSink);
 
         if (SUCCEEDED(hr))
         {

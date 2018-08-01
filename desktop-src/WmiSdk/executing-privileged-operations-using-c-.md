@@ -78,7 +78,7 @@ bRes = GetTokenInformation(
   TokenPrivileges, 
   NULL, 
   0,
-  &amp;dwLen
+  &dwLen
 ); 
 
 BYTE* pBuffer = new BYTE[dwLen];
@@ -93,7 +93,7 @@ bRes = GetTokenInformation(
   TokenPrivileges, 
   pBuffer,     
   dwLen,        
-  &amp;dwLen
+  &dwLen
 );
 
 if (!bRes)

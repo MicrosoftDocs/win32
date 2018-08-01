@@ -57,7 +57,7 @@ if (NewState == 13){
    VideoSize.value = "";
 
    // Test whether an image is visible.
-   if (Height != 0 &amp;&amp; Width != 0)
+   if (Height != 0 && Width != 0)
 
       // Display the image size information.
       VideoSize.value = Width + " x " + Height;

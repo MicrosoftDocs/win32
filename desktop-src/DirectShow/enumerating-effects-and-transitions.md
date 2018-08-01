@@ -35,7 +35,7 @@ IEnumMoniker *pEnumMoniker = NULL;
 
 // Create the System Device Enumerator.
 HRESULT hr = CoCreateInstance(CLSID_SystemDeviceEnum, NULL, 
-    CLSCTX_INPROC_SERVER, IID_ICreateDevEnum, (void**)&amp;pCreateDevEnum);
+    CLSCTX_INPROC_SERVER, IID_ICreateDevEnum, (void**)&pCreateDevEnum);
 if (FAILED(hr))
 {
     // Error handling omitted for clarity.
@@ -44,7 +44,7 @@ if (FAILED(hr))
 // Create an enumerator for the video effects category.
 hr = pCreateDevEnum->CreateClassEnumerator(
     CLSID_VideoEffects1Category,  // Video effects category. 
-    &amp;pEnumMoniker, 0);               
+    &pEnumMoniker, 0);               
 
 // Note: Use CLSID_VideoEffects2Category for video transitions.
 
@@ -52,19 +52,19 @@ if (hr == S_OK)  // S_FALSE means the category is empty.
 {
     // Enumerate each video effect.
     IMoniker *pMoniker;
-    while (S_OK == pEnumMoniker->Next(1, &amp;pMoniker, NULL))
+    while (S_OK == pEnumMoniker->Next(1, &pMoniker, NULL))
     {
         IPropertyBag *pBag;
         hr = pMoniker->BindToStorage(0, 0, IID_IPropertyBag, 
-            (void **)&amp;pBag);
+            (void **)&pBag);
         if(FAILED(hr))
         {
             pMoniker->Release();
             continue; // Maybe the next one will work.
         }
         VARIANT var;
-        VariantInit(&amp;var);
-        hr = pBag->Read(OLESTR("FriendlyName"), &amp;var, NULL);
+        VariantInit(&var);
+        hr = pBag->Read(OLESTR("FriendlyName"), &var, NULL);
         if (SUCCEEDED(hr))
         {
             if ( ... )  // Check if var.bstrVal is the name you want.
@@ -72,13 +72,13 @@ if (hr == S_OK)  // S_FALSE means the category is empty.
                 VARIANT var2;
                 GUID guid;
                 var2.vt = VT_BSTR;
-                pBag->Read(OLESTR("guid"), &amp;var2, NULL);
-                CLSIDFromString(var2.bstrVal, &amp;guid);
-                VariantClear(&amp;var2);
+                pBag->Read(OLESTR("guid"), &var2, NULL);
+                CLSIDFromString(var2.bstrVal, &guid);
+                VariantClear(&var2);
                 // GUID is now the CLSID for the effect.
             }
         }
-        VariantClear(&amp;var);
+        VariantClear(&var);
         pBag->Release();
         pMoniker->Release();
     }

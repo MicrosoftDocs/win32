@@ -31,25 +31,25 @@ WAVEFORMATEX        wfxSelection;
 WAVEFORMATEX        wfxEnum; 
  
 // Initialize the ACMFORMATCHOOSE members. 
-memset(&amp;afc, 0, sizeof(afc)); 
+memset(&afc, 0, sizeof(afc)); 
  
 afc.cbStruct    = sizeof(afc); 
 afc.fdwStyle    = 0L;               // no special style flags 
 afc.hwndOwner   = hwnd;             // hwnd of parent window 
-afc.pwfx        = &amp;wfxSelection;    // wfx to receive selection 
+afc.pwfx        = &wfxSelection;    // wfx to receive selection 
 afc.cbwfx       = sizeof(wfxSelection); 
 afc.pszTitle    = TEXT("16 Bit PCM Selection"); 
  
 //  Request that all 16-bit PCM formats be displayed for the user 
 //  to select from. 
-memset(&amp;wfxEnum, 0, sizeof(wfxEnum)); 
+memset(&wfxEnum, 0, sizeof(wfxEnum)); 
 wfxEnum.wFormatTag = WAVE_FORMAT_PCM; 
 wfxEnum.wBitsPerSample = 16; 
 afc.fdwEnum = ACM_FORMATENUMF_WFORMATTAG | 
     ACM_FORMATENUMF_WBITSPERSAMPLE; 
-afc.pwfxEnum = &amp;wfxEnum; 
-mmr = acmFormatChoose(&amp;afc); 
-if ((MMSYSERR_NOERROR != mmr) &amp;&amp; (ACMERR_CANCELED != mmr)) 
+afc.pwfxEnum = &wfxEnum; 
+mmr = acmFormatChoose(&afc); 
+if ((MMSYSERR_NOERROR != mmr) && (ACMERR_CANCELED != mmr)) 
 { 
     // There was a fatal error in bringing up the list 
     // dialog box (probably invalid input parameters). 

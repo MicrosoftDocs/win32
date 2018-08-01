@@ -66,7 +66,7 @@ IsCurrentSessionRemoteable()
             TERMINAL_SERVER_KEY,
             0, // ulOptions
             KEY_READ,
-            &amp;hRegKey
+            &hRegKey
             );
 
         if (lResult == ERROR_SUCCESS)
@@ -79,16 +79,16 @@ IsCurrentSessionRemoteable()
                 hRegKey,
                 GLASS_SESSION_ID,
                 NULL, // lpReserved
-                &amp;dwType,
-                (BYTE*) &amp;dwGlassSessionId,
-                &amp;cbGlassSessionId
+                &dwType,
+                (BYTE*) &dwGlassSessionId,
+                &cbGlassSessionId
                 );
 
             if (lResult == ERROR_SUCCESS)
             {
                 DWORD dwCurrentSessionId;
 
-                if (ProcessIdToSessionId(GetCurrentProcessId(), &amp;dwCurrentSessionId))
+                if (ProcessIdToSessionId(GetCurrentProcessId(), &dwCurrentSessionId))
                 {
                     fIsRemoteable = (dwCurrentSessionId != dwGlassSessionId);
                 }

@@ -79,7 +79,7 @@ long CanReadSetDACL = ADS_SECURITY_INFO_DACL;
 
 CComPtr<IADsObjectOptions> spObjOps;
 
-hr = pads->QueryInterface(IID_IADsObjectOptions, (void**)&amp;spObjOps);
+hr = pads->QueryInterface(IID_IADsObjectOptions, (void**)&spObjOps);
 
 if(SUCCEEDED(hr))
 
@@ -153,7 +153,7 @@ IDispatch* CreateACE(BSTR bstrTrustee,
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_IADsAccessControlEntry,
-                          (void**)&amp;pACE);
+                          (void**)&pACE);
     if(SUCCEEDED(hr)) 
     {
         hr = pACE->put_Trustee(bstrTrustee); 
@@ -163,7 +163,7 @@ IDispatch* CreateACE(BSTR bstrTrustee,
         hr = pACE->put_AceFlags(lACEFlags);
         hr = pACE->put_Flags(lFlags);
 
-        hr = pACE->QueryInterface(IID_IDispatch, (LPVOID*)&amp;pDisp);
+        hr = pACE->QueryInterface(IID_IDispatch, (LPVOID*)&pDisp);
 
         pACE->Release();
     }
@@ -198,9 +198,9 @@ HRESULT ReorderACEs(LPCWSTR pwszDN)
                                         DACL_SECURITY_INFORMATION,
                                         NULL,
                                         NULL,
-                                        &amp;pdacl,
+                                        &pdacl,
                                         NULL,
-                                        &amp;psd);
+                                        &psd);
 
     if(ERROR_SUCCESS == dwResult)
     {
@@ -259,14 +259,14 @@ HRESULT SetUserCannotChangePassword(LPCWSTR pwszUserDN,
     HRESULT hr;
 
     CComBSTR sbstrEveryone;
-    hr = GetSidAccountName_Everyone(&amp;sbstrEveryone);
+    hr = GetSidAccountName_Everyone(&sbstrEveryone);
     if(FAILED(hr))
     {
         return hr;
     }
 
     CComBSTR sbstrSelf;
-    hr = GetSidAccountName_Self(&amp;sbstrSelf);
+    hr = GetSidAccountName_Self(&sbstrSelf);
     if(FAILED(hr))
     {
         return hr;
@@ -284,29 +284,29 @@ HRESULT SetUserCannotChangePassword(LPCWSTR pwszUserDN,
                         pwszPassword,
                         ADS_SECURE_AUTHENTICATION,
                         IID_IADs, 
-                        (LPVOID*)&amp;pads);
+                        (LPVOID*)&pads);
 
     if(SUCCEEDED(hr))
     {
         CComBSTR sbstrSecDesc = "ntSecurityDescriptor";
         CComVariant svar;
         
-        hr = pads->Get(sbstrSecDesc, &amp;svar);
+        hr = pads->Get(sbstrSecDesc, &svar);
         if(SUCCEEDED(hr))
         {
             IADsSecurityDescriptor *psd;
 
-            hr = svar.pdispVal->QueryInterface(IID_IADsSecurityDescriptor, (LPVOID*)&amp;psd);
+            hr = svar.pdispVal->QueryInterface(IID_IADsSecurityDescriptor, (LPVOID*)&psd);
             if(SUCCEEDED(hr))
             {
                 IDispatch *pDisp;
 
-                hr = psd->get_DiscretionaryAcl(&amp;pDisp);
+                hr = psd->get_DiscretionaryAcl(&pDisp);
                 if(SUCCEEDED(hr))
                 {
                     IADsAccessControlList *pACL;
 
-                    hr = pDisp->QueryInterface(IID_IADsAccessControlList, (void**)&amp;pACL);
+                    hr = pDisp->QueryInterface(IID_IADsAccessControlList, (void**)&pACL);
                     if(SUCCEEDED(hr)) 
                     {
                         BOOL fMustReorder = FALSE;
@@ -317,7 +317,7 @@ HRESULT SetUserCannotChangePassword(LPCWSTR pwszUserDN,
                         to the ACL.
                         */
                         IADsAccessControlEntry *pACEEveryone = NULL;
-                        hr = GetObjectACE(pACL, CHANGE_PASSWORD_GUID_W, sbstrEveryone, &amp;pACEEveryone);
+                        hr = GetObjectACE(pACL, CHANGE_PASSWORD_GUID_W, sbstrEveryone, &pACEEveryone);
                         if(pACEEveryone)
                         {
                             hr = pACEEveryone->put_AceType(fCannotChangePassword ? 
@@ -357,7 +357,7 @@ HRESULT SetUserCannotChangePassword(LPCWSTR pwszUserDN,
                         to the ACL.
                         */
                         IADsAccessControlEntry *pACESelf = NULL;
-                        hr = GetObjectACE(pACL, CHANGE_PASSWORD_GUID_W, sbstrSelf, &amp;pACESelf);
+                        hr = GetObjectACE(pACL, CHANGE_PASSWORD_GUID_W, sbstrSelf, &pACESelf);
                         if(pACESelf)
                         {
                             hr = pACESelf->put_AceType(fCannotChangePassword ? 

@@ -47,7 +47,7 @@ BOOL IsTransformAsync(IMFTransform *pMFT)
     BOOL bAsync = FALSE;
     IMFAttributes *pAttributes = NULL;
 
-    HRESULT hr = pMFT->GetAttributes(&amp;pAttributes);
+    HRESULT hr = pMFT->GetAttributes(&pAttributes);
     if (SUCCEEDED(hr))
     {
         bAsync = MFGetAttributeUINT32(pAttributes, MF_TRANSFORM_ASYNC, FALSE);

@@ -95,12 +95,12 @@ The following code gets the [**GESTUREINFO**](/windows/desktop/api/winuser/ns-wi
         // Get all the vertial scroll bar information
         si.cbSize = sizeof (si);
         si.fMask  = SIF_ALL;
-        GetScrollInfo (hWnd, SB_VERT, &amp;si);
+        GetScrollInfo (hWnd, SB_VERT, &si);
         yPos = si.nPos;
 
-        ZeroMemory(&amp;gi, sizeof(GESTUREINFO));
+        ZeroMemory(&gi, sizeof(GESTUREINFO));
         gi.cbSize = sizeof(GESTUREINFO);
-        bResult = GetGestureInfo((HGESTUREINFO)lParam, &amp;gi);
+        bResult = GetGestureInfo((HGESTUREINFO)lParam, &gi);
 
         if (bResult){
             // now interpret the gesture            
@@ -116,8 +116,8 @@ The following code gets the [**GESTUREINFO**](/windows/desktop/api/winuser/ns-wi
                     si.nPos -= (gi.ptsLocation.y - lastY) / scale;
 
                     si.fMask = SIF_POS;
-                    SetScrollInfo (hWnd, SB_VERT, &amp;si, TRUE);
-                    GetScrollInfo (hWnd, SB_VERT, &amp;si);                                                        
+                    SetScrollInfo (hWnd, SB_VERT, &si, TRUE);
+                    GetScrollInfo (hWnd, SB_VERT, &si);                                                        
                                                
                     yOverpan -= lastY - gi.ptsLocation.y;
                     lastY = gi.ptsLocation.y;
@@ -186,8 +186,8 @@ The pan gesture case is updated to trigger boundary feedback. The following code
                     si.nPos -= (gi.ptsLocation.y - lastY) / scale;
 
                     si.fMask = SIF_POS;
-                    SetScrollInfo (hWnd, SB_VERT, &amp;si, TRUE);
-                    GetScrollInfo (hWnd, SB_VERT, &amp;si);                                                        
+                    SetScrollInfo (hWnd, SB_VERT, &si, TRUE);
+                    GetScrollInfo (hWnd, SB_VERT, &si);                                                        
                                                
                     yOverpan -= lastY - gi.ptsLocation.y;
                     lastY = gi.ptsLocation.y;

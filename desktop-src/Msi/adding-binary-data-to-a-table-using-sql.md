@@ -32,13 +32,13 @@ PMSIHANDLE hDatabase = 0;
 PMSIHANDLE hView = 0;
 PMSIHANDLE hRec = 0;
 
-if (ERROR_SUCCESS == MsiOpenDatabase(_T("c:\\temp\\testdb.msi"), MSIDBOPEN_TRANSACT, &amp;hDatabase))
+if (ERROR_SUCCESS == MsiOpenDatabase(_T("c:\\temp\\testdb.msi"), MSIDBOPEN_TRANSACT, &hDatabase))
 {
     //
     // Open view on Binary table so that we can add a new row, must use '?' to represent Binary data
     //
 
-    if (ERROR_SUCCESS == MsiDatabaseOpenView(hDatabase, _T("INSERT INTO `Binary` (`Name`, `Data`) VALUES ('NewBlob', ?)"), &amp;hView))
+    if (ERROR_SUCCESS == MsiDatabaseOpenView(hDatabase, _T("INSERT INTO `Binary` (`Name`, `Data`) VALUES ('NewBlob', ?)"), &hView))
     {
 
         //
@@ -54,8 +54,8 @@ if (ERROR_SUCCESS == MsiOpenDatabase(_T("c:\\temp\\testdb.msi"), MSIDBOPEN_TRANS
             //
 
             if (ERROR_SUCCESS == MsiViewExecute(hView, hRec)
-              &amp;&amp; ERROR_SUCCESS == MsiViewClose(hView)
-              &amp;&amp; ERROR_SUCCESS == MsiDatabaseCommit(hDatabase))
+              && ERROR_SUCCESS == MsiViewClose(hView)
+              && ERROR_SUCCESS == MsiDatabaseCommit(hDatabase))
             {
                 //
                 // New binary data successfully committed to the database

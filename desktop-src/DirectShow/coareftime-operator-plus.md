@@ -30,7 +30,7 @@ This operator adds two reference times.
 
 ```C++
 COARefTime operator+(
-  [ref] const COARefTime &amp;rt
+  [ref] const COARefTime &rt
 );
 ```
 

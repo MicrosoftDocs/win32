@@ -82,9 +82,9 @@ DbgSetModuleLevel(LOG_LOCKING, 3);
 
 {
     CCritSec MyLock;
-    DbgLockTrace(&amp;MyLock, TRUE);
+    DbgLockTrace(&MyLock, TRUE);
     
-    CAutoLock cObjectLock(&amp;MyLock);
+    CAutoLock cObjectLock(&MyLock);
 
     // Protected section of code.    
     DbgOutString("This code is inside a critical section.\n");

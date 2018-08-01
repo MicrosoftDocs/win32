@@ -22,14 +22,14 @@ ICaptureGraphBuilder2 *pBuilder = NULL;
 
 // Create the Filter Graph Manager.
 HRESULT hr =  CoCreateInstance(CLSID_FilterGraph, NULL,
-    CLSCTX_INPROC_SERVER, IID_IGraphBuilder, (void **)&amp;pGraph);
+    CLSCTX_INPROC_SERVER, IID_IGraphBuilder, (void **)&pGraph);
 
 if (SUCCEEDED(hr))
 {
     // Create the Capture Graph Builder.
     hr = CoCreateInstance(CLSID_CaptureGraphBuilder2, NULL,
         CLSCTX_INPROC_SERVER, IID_ICaptureGraphBuilder2, 
-        (void **)&amp;pBuilder);
+        (void **)&pBuilder);
     if (SUCCEEDED(hr))
     {
         pBuilder->SetFiltergraph(pGraph);
@@ -83,9 +83,9 @@ The following example shows how to connect both streams:
 
 ```C++
 // Capture to file:
-pBuilder->RenderStream(&amp;PIN_CATEGORY_CAPTURE, NULL, pCapFilter, NULL, pMux);
+pBuilder->RenderStream(&PIN_CATEGORY_CAPTURE, NULL, pCapFilter, NULL, pMux);
 // Preview:
-pBuilder->RenderStream(&amp;PIN_CATEGORY_PREVIEW, NULL, pCapFilter, NULL, NULL);
+pBuilder->RenderStream(&PIN_CATEGORY_PREVIEW, NULL, pCapFilter, NULL, NULL);
 ```
 
 
@@ -95,9 +95,9 @@ Some capture filters also support closed captions, indicated by **PIN\_CATEGORY\
 
 ```C++
 // Capture to file:
-pBuilder->RenderStream(&amp;PIN_CATEGORY_VBI, NULL, pCapFilter, NULL, pMux);
+pBuilder->RenderStream(&PIN_CATEGORY_VBI, NULL, pCapFilter, NULL, pMux);
 // Preview on screen:
-pBuilder->RenderStream(&amp;PIN_CATEGORY_VBI, NULL, pCapFilter, NULL, NULL);
+pBuilder->RenderStream(&PIN_CATEGORY_VBI, NULL, pCapFilter, NULL, NULL);
 ```
 
 
@@ -122,11 +122,11 @@ The following example searches for the [**IAMStreamConfig**](/windows/desktop/ap
 ```C++
 IAMStreamConfig *pConfig = NULL;
 HRESULT hr = pBuild->FindInterface(
-    &amp;PIN_CATEGORY_PREVIEW, 
-    &amp;MEDIATYPE_Video,
+    &PIN_CATEGORY_PREVIEW, 
+    &MEDIATYPE_Video,
     pVCap, 
     IID_IAMStreamConfig, 
-    (void**)&amp;pConfig
+    (void**)&pConfig
 );
 if (SUCCESSFUL(hr))
 {
@@ -154,11 +154,11 @@ IPin *pPin = NULL;
 hr = pBuild->FindPin(
     pCap,                   // Pointer to the filter to search.
     PINDIR_OUTPUT,          // Search for an output pin.
-    &amp;PIN_CATEGORY_PREVIEW,  // Search for a preview pin.
-    &amp;MEDIATYPE_Video,       // Search for a video pin.
+    &PIN_CATEGORY_PREVIEW,  // Search for a preview pin.
+    &MEDIATYPE_Video,       // Search for a video pin.
     TRUE,                   // The pin must be unconnected. 
     0,                      // Return the first matching pin (index 0).
-    &amp;pPin);                 // This variable receives the IPin pointer.
+    &pPin);                 // This variable receives the IPin pointer.
 if (SUCCESSFUL(hr))
 {
     /* ... */

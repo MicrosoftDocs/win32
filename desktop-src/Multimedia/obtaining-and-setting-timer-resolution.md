@@ -31,7 +31,7 @@ The following example calls the [**timeGetDevCaps**](/windows/desktop/api/TimeAP
 TIMECAPS tc;
 UINT     wTimerRes;
 
-if (timeGetDevCaps(&amp;tc, sizeof(TIMECAPS)) != TIMERR_NOERROR) 
+if (timeGetDevCaps(&tc, sizeof(TIMECAPS)) != TIMERR_NOERROR) 
 {
     // Error; application can't continue.
 }

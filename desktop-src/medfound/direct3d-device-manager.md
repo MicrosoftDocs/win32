@@ -34,7 +34,7 @@ HRESULT CreateD3DDeviceManager(
 
     IDirect3DDeviceManager9 *pD3DManager = NULL;
 
-    HRESULT hr = DXVA2CreateDirect3DDeviceManager9(&amp;resetToken, &amp;pD3DManager);
+    HRESULT hr = DXVA2CreateDirect3DDeviceManager9(&resetToken, &pD3DManager);
 
     if (FAILED(hr))
     {
@@ -55,7 +55,7 @@ HRESULT CreateD3DDeviceManager(
 
 
 done:
-    SafeRelease(&amp;pD3DManager);
+    SafeRelease(&pD3DManager);
     return hr;
 }
 ```
@@ -93,7 +93,7 @@ HRESULT LockDevice(
 
     HANDLE hDevice = 0;
 
-    HRESULT hr = pDeviceManager->OpenDeviceHandle(&amp;hDevice);
+    HRESULT hr = pDeviceManager->OpenDeviceHandle(&hDevice);
 
     if (SUCCEEDED(hr))
     {
@@ -107,7 +107,7 @@ HRESULT LockDevice(
 
         if (SUCCEEDED(hr))
         {
-            hr = pDeviceManager->OpenDeviceHandle(&amp;hDevice);
+            hr = pDeviceManager->OpenDeviceHandle(&hDevice);
         }
 
         // Try to lock the device again.

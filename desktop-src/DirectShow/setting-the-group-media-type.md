@@ -52,7 +52,7 @@ mtGroup.bFixedSizeSamples = TRUE;
 mtGroup.lSampleSize = DIBSIZE(pVideoHeader->bmiHeader);
 
 // Now use this media type for the group.
-pGroup->SetMediaType(&amp;mtGroup);
+pGroup->SetMediaType(&mtGroup);
 
 // Clean up.
 CoTaskMemFree(mtGroup.pbFormat);
@@ -65,7 +65,7 @@ The next example specifies an audio group, by setting the group media type to 16
 
 ```C++
 AM_MEDIA_TYPE mt;  
-ZeroMemory(&amp;mt, sizeof(AM_MEDIA_TYPE));
+ZeroMemory(&mt, sizeof(AM_MEDIA_TYPE));
 
 mt.majortype = MEDIATYPE_Audio;
 mt.subtype = MEDIASUBTYPE_PCM;
@@ -89,7 +89,7 @@ wave->nBlockAlign = wave->nChannels * wave->wBitsPerSample/8;
 wave->nAvgBytesPerSec = wave->nSamplesPerSec * wave->nBlockAlign; 
 wave->cbSize = 0;
 
-hr = pGroup->SetMediaType(&amp;mt);
+hr = pGroup->SetMediaType(&mt);
 CoTaskMemFree(mt.pbFormat);
 ```
 

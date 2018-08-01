@@ -64,14 +64,14 @@ STDMETHODIMP CErrReporter::QueryInterface(REFIID riid, void **ppv)
 
 STDMETHODIMP_(ULONG) CErrReporter::AddRef()
 {
-    return InterlockedIncrement(&amp;m_lRef);
+    return InterlockedIncrement(&m_lRef);
 }
 
 STDMETHODIMP_(ULONG) CErrReporter::Release()
 {
     // Store the decremented count in a temporary
     // variable. 
-    ULONG uCount = InterlockedDecrement(&amp;m_lRef);
+    ULONG uCount = InterlockedDecrement(&m_lRef);
     if (uCount == 0)
     {
         delete this;

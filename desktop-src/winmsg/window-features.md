@@ -382,11 +382,11 @@ In mirroring, you should think in terms of "near" and "far" instead of "left" an
 // DO NOT USE THIS IF APPLICATION MIRRORS THE WINDOW
 
 // get coordinates of the window in screen coordinates
-GetWindowRect(hControl, (LPRECT) &amp;rControlRect);  
+GetWindowRect(hControl, (LPRECT) &rControlRect);  
 
 // map screen coordinates to client coordinates in dialog
-ScreenToClient(hDialog, (LPPOINT) &amp;rControlRect.left); 
-ScreenToClient(hDialog, (LPPOINT) &amp;rControlRect.right);
+ScreenToClient(hDialog, (LPPOINT) &rControlRect.left); 
+ScreenToClient(hDialog, (LPPOINT) &rControlRect.right);
 ```
 
 
@@ -397,8 +397,8 @@ This causes problems in mirroring because the left edge of the rectangle becomes
 ```
 // USE THIS FOR MIRRORING
 
-GetWindowRect(hControl, (LPRECT) &amp;rControlRect);
-MapWindowPoints(NULL, hDialog, (LPPOINT) &amp;rControlRect, 2)
+GetWindowRect(hControl, (LPRECT) &rControlRect);
+MapWindowPoints(NULL, hDialog, (LPPOINT) &rControlRect, 2)
 ```
 
 
@@ -416,8 +416,8 @@ RECT rdDialog;
 RECT rcControl;
 
 HWND hControl = GetDlgItem(hDlg, IDD_CONTROL);
-GetWindowRect(hDlg, &amp;rcDialog);             // gets rect in screen coordinates
-GetWindowRect(hControl, &amp;rcControl);
+GetWindowRect(hDlg, &rcDialog);             // gets rect in screen coordinates
+GetWindowRect(hControl, &rcControl);
 MoveWindow(hControl,
            rcControl.left - rcDialog.left,  // uses x position in client coords
            rcControl.top - rcDialog.top,
@@ -436,10 +436,10 @@ RECT rcDialog;
 RECT rcControl;
 
 HWND hControl - GetDlgItem(hDlg, IDD_CONTROL);
-GetWindowRect(hControl, &amp;rcControl);
+GetWindowRect(hControl, &rcControl);
 
 // MapWindowPoints works correctly in both mirrored and non-mirrored windows.
-MapWindowPoints(NULL, hDlg, (LPPOINT) &amp;rcControl, 2);
+MapWindowPoints(NULL, hDlg, (LPPOINT) &rcControl, 2);
 
 // Now rcControl is in client coordinates.
 MoveWindow(hControl, rcControl.left, rcControl.top, nWidth, nHeight, FALSE)

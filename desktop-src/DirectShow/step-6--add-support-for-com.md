@@ -82,7 +82,7 @@ CFactoryTemplate g_Templates[] =
 {
   { 
     g_wszName,
-    &amp;CLSID_RLEFilter,
+    &CLSID_RLEFilter,
     CRleFilter::CreateInstance,
     NULL,
     NULL
@@ -130,8 +130,8 @@ The following example registers the RLE encoder filter in the video compressor c
 ```C++
 // Declare media type information.
 FOURCCMap fccMap = FCC('MRLE'); 
-REGPINTYPES sudInputTypes = { &amp;MEDIATYPE_Video, &amp;GUID_NULL };
-REGPINTYPES sudOutputTypes = { &amp;MEDIATYPE_Video, (GUID*)&amp;fccMap };
+REGPINTYPES sudInputTypes = { &MEDIATYPE_Video, &GUID_NULL };
+REGPINTYPES sudOutputTypes = { &MEDIATYPE_Video, (GUID*)&fccMap };
 
 // Declare pin information.
 REGFILTERPINS sudPinReg[] = {
@@ -141,7 +141,7 @@ REGFILTERPINS sudPinReg[] = {
          FALSE, // Zero?
          FALSE, // Many?
          0, 0, 
-         1, &amp;sudInputTypes  // Media types.
+         1, &sudInputTypes  // Media types.
     },
     // Output pin.
     { 0, FALSE, // Rendered?
@@ -149,7 +149,7 @@ REGFILTERPINS sudPinReg[] = {
          FALSE, // Zero?
          FALSE, // Many?
          0, 0, 
-         1, &amp;sudOutputTypes      // Media types.
+         1, &sudOutputTypes      // Media types.
     }
 };
  
@@ -170,16 +170,16 @@ STDAPI DllRegisterServer(void)
     }
     IFilterMapper2 *pFM2 = NULL;
     hr = CoCreateInstance(CLSID_FilterMapper2, NULL, CLSCTX_INPROC_SERVER,
-            IID_IFilterMapper2, (void **)&amp;pFM2);
+            IID_IFilterMapper2, (void **)&pFM2);
     if (SUCCEEDED(hr))
     {
         hr = pFM2->RegisterFilter(
             CLSID_RLEFilter,                // Filter CLSID. 
             g_wszName,                       // Filter name.
             NULL,                            // Device moniker. 
-            &amp;CLSID_VideoCompressorCategory,  // Video compressor category.
+            &CLSID_VideoCompressorCategory,  // Video compressor category.
             g_wszName,                       // Instance data.
-            &amp;rf2FilterReg                    // Filter information.
+            &rf2FilterReg                    // Filter information.
             );
         pFM2->Release();
     }
@@ -195,10 +195,10 @@ STDAPI DllUnregisterServer()
     }
     IFilterMapper2 *pFM2 = NULL;
     hr = CoCreateInstance(CLSID_FilterMapper2, NULL, CLSCTX_INPROC_SERVER,
-            IID_IFilterMapper2, (void **)&amp;pFM2);
+            IID_IFilterMapper2, (void **)&pFM2);
     if (SUCCEEDED(hr))
     {
-        hr = pFM2->UnregisterFilter(&amp;CLSID_VideoCompressorCategory, 
+        hr = pFM2->UnregisterFilter(&CLSID_VideoCompressorCategory, 
             g_wszName, CLSID_RLEFilter);
         pFM2->Release();
     }
@@ -226,7 +226,7 @@ int main()
             return 1;
         }
         pF->QueryInterface(IID_IBaseFilter, 
-            reinterpret_cast<void**>(&amp;pFilter));
+            reinterpret_cast<void**>(&pFilter));
     }
     
     /* Now use pFilter as normal. */

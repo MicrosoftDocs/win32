@@ -134,7 +134,7 @@ DWORD PrintEvent(EVT_HANDLE hEvent)
     DWORD dwPropertyCount = 0;
     LPWSTR pRenderedContent = NULL;
 
-    if (!EvtRender(NULL, hEvent, EvtRenderEventXml, dwBufferSize, pRenderedContent, &amp;dwBufferUsed, &amp;dwPropertyCount))
+    if (!EvtRender(NULL, hEvent, EvtRenderEventXml, dwBufferSize, pRenderedContent, &dwBufferUsed, &dwPropertyCount))
     {
         if (ERROR_INSUFFICIENT_BUFFER == (status = GetLastError()))
         {
@@ -142,7 +142,7 @@ DWORD PrintEvent(EVT_HANDLE hEvent)
             pRenderedContent = (LPWSTR)malloc(dwBufferSize);
             if (pRenderedContent)
             {
-                EvtRender(NULL, hEvent, EvtRenderEventXml, dwBufferSize, pRenderedContent, &amp;dwBufferUsed, &amp;dwPropertyCount);
+                EvtRender(NULL, hEvent, EvtRenderEventXml, dwBufferSize, pRenderedContent, &dwBufferUsed, &dwPropertyCount);
             }
             else
             {
@@ -288,7 +288,7 @@ DWORD EnumerateResults(EVT_HANDLE hResults)
     while (true)
     {
         // Get a block of events from the result set.
-        if (!EvtNext(hResults, ARRAY_SIZE, hEvents, INFINITE, 0, &amp;dwReturned))
+        if (!EvtNext(hResults, ARRAY_SIZE, hEvents, INFINITE, 0, &dwReturned))
         {
             if (ERROR_NO_MORE_ITEMS != (status = GetLastError()))
             {
@@ -336,7 +336,7 @@ DWORD PrintEvent(EVT_HANDLE hEvent)
     LPWSTR pRenderedContent = NULL;
 
     // The EvtRenderEventXml flag tells EvtRender to render the event as an XML string.
-    if (!EvtRender(NULL, hEvent, EvtRenderEventXml, dwBufferSize, pRenderedContent, &amp;dwBufferUsed, &amp;dwPropertyCount))
+    if (!EvtRender(NULL, hEvent, EvtRenderEventXml, dwBufferSize, pRenderedContent, &dwBufferUsed, &dwPropertyCount))
     {
         if (ERROR_INSUFFICIENT_BUFFER == (status = GetLastError()))
         {
@@ -344,7 +344,7 @@ DWORD PrintEvent(EVT_HANDLE hEvent)
             pRenderedContent = (LPWSTR)malloc(dwBufferSize);
             if (pRenderedContent)
             {
-                EvtRender(NULL, hEvent, EvtRenderEventXml, dwBufferSize, pRenderedContent, &amp;dwBufferUsed, &amp;dwPropertyCount);
+                EvtRender(NULL, hEvent, EvtRenderEventXml, dwBufferSize, pRenderedContent, &dwBufferUsed, &dwPropertyCount);
             }
             else
             {
@@ -378,7 +378,7 @@ BOOL IsKeyEvent(HANDLE hStdIn)
     DWORD dwRecordsRead = 0;
     BOOL fKeyPress = FALSE;
 
-    if (ReadConsoleInput(hStdIn, Record, 128, &amp;dwRecordsRead))
+    if (ReadConsoleInput(hStdIn, Record, 128, &dwRecordsRead))
     {
         for (DWORD i = 0; i < dwRecordsRead; i++)
         {

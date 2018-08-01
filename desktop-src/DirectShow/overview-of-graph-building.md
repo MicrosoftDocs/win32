@@ -18,7 +18,7 @@ To create a filter graph, begin by creating an instance of the Filter Graph Mana
 IGraphBuilder* pIGB;
 HRESULT hr = CoCreateInstance(CLSID_FilterGraph,
     NULL, CLSCTX_INPROC_SERVER, IID_IGraphBuilder,
-    (void **)&amp;pIGB);
+    (void **)&pIGB);
 ```
 
 

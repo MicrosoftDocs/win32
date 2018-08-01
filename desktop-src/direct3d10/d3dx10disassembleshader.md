@@ -111,7 +111,7 @@ char* pDisassembly = NULL;
 if( pVSBuf )
 {
     D3D10DisassembleShader( (UINT*) pVSBuf->GetBufferPointer(), 
-        pVSBuf->GetBufferSize(), TRUE, commentString, &amp;pIDisassembly );
+        pVSBuf->GetBufferSize(), TRUE, commentString, &pIDisassembly );
     if( pIDisassembly )
     {
         FILE* pFile = fopen( "shader.htm", "w" );

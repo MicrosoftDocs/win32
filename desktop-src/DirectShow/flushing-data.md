@@ -36,7 +36,7 @@ HRESULT CMyInputPin::BeginFlush()
     // it finishes, by taking the streaming lock. (Not necessary if this 
     // is the last step.)
     { 
-        CAutoLock lock_2(&amp;m_csReceive);
+        CAutoLock lock_2(&m_csReceive);
 
         /* Now it's safe to do anything that would crash or hang 
            if Receive were executing. */

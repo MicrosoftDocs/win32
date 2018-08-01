@@ -210,22 +210,22 @@ Sub RasInfo(server,name)
     Set usr = mach.GetObject ("user",name)
     flags = Clng(usr.Get("UserFlags"))
 
-    ADS_UF_SCRIPT                           =  &amp;H0001&amp;
-    ADS_UF_ACCOUNTDISABLE                   =  &amp;H0002&amp;
-    ADS_UF_HOMEDIR_REQUIRED                 =  &amp;H0003&amp;
-    ADS_UF_LOCKOUT                          =  &amp;H0010&amp;
-    ADS_UF_PASSWD_NOTREQD                   =  &amp;H0020&amp;
-    ADS_UF_PASSWD_CANT_CHANGE               =  &amp;H0040&amp;
-    ADS_UF_TEMP_DUPLICATE_ACCOUNT           =  &amp;H0100&amp;
-    ADS_UF_NORMAL_ACCOUNT                   =  &amp;H0200&amp;
-    ADS_UF_INTERDOMAIN_TRUST_ACCOUNT        =  &amp;H0800&amp;
-    ADS_UF_WORKSTATION_TRUST_ACCOUNT        =  &amp;H1000&amp;
-    ADS_UF_SERVER_TRUST_ACCOUNT             =  &amp;H2000&amp;
-    ADS_UF_DONTEXPIREPASSWD                 =  &amp;H10000&amp;
-    ADS_UF_MNS_LOGON_ACCOUNT                =  &amp;H20000&amp;
-    ADS_UF_SMARTCARD_REQUIRED               =  &amp;H40000&amp;
-    ADS_UF_TRUSTED_FOR_DELEGATION           =  &amp;H80000&amp;
-    ADS_UF_NOT_DELEGATED                    =  &amp;H100000&amp;
+    ADS_UF_SCRIPT                           =  &H0001&
+    ADS_UF_ACCOUNTDISABLE                   =  &H0002&
+    ADS_UF_HOMEDIR_REQUIRED                 =  &H0003&
+    ADS_UF_LOCKOUT                          =  &H0010&
+    ADS_UF_PASSWD_NOTREQD                   =  &H0020&
+    ADS_UF_PASSWD_CANT_CHANGE               =  &H0040&
+    ADS_UF_TEMP_DUPLICATE_ACCOUNT           =  &H0100&
+    ADS_UF_NORMAL_ACCOUNT                   =  &H0200&
+    ADS_UF_INTERDOMAIN_TRUST_ACCOUNT        =  &H0800&
+    ADS_UF_WORKSTATION_TRUST_ACCOUNT        =  &H1000&
+    ADS_UF_SERVER_TRUST_ACCOUNT             =  &H2000&
+    ADS_UF_DONTEXPIREPASSWD                 =  &H10000&
+    ADS_UF_MNS_LOGON_ACCOUNT                =  &H20000&
+    ADS_UF_SMARTCARD_REQUIRED               =  &H40000&
+    ADS_UF_TRUSTED_FOR_DELEGATION           =  &H80000&
+    ADS_UF_NOT_DELEGATED                    =  &H100000&
 
     expired = usr.Get ("PasswordExpired")
     

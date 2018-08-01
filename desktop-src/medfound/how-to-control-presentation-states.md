@@ -57,7 +57,7 @@ The following table shows the valid presentation state transitions.
 -   Call the [**IMFMediaSession::Start**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-start) method to start playback or seek to a new position.
 
     ```C++
-    hr = pMediaSession->Start(NULL, &amp;var);
+    hr = pMediaSession->Start(NULL, &var);
     ```
 
     

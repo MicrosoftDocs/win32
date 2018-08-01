@@ -81,7 +81,7 @@ The following example OpenSearch Description (.osdx) file consists of `ShortName
 ```
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
         <ShortName>My web Service</ShortName>
-        <Url format="application/rss+xml" template="http://example.com/rss.php?query={searchTerms}&amp;amp;start={startIndex}&amp;amp;cnt={count}" />
+        <Url format="application/rss+xml" template="http://example.com/rss.php?query={searchTerms}&amp;start={startIndex}&amp;cnt={count}" />
         </OpenSearchDescription>
 ```
 

@@ -22,10 +22,10 @@ The [**WM\_CAP\_DRIVER\_GET\_CAPS**](wm-cap-driver-get-caps.md) message returns 
 CAPDRIVERCAPS CapDrvCaps; 
 
 SendMessage (hWndC, WM_CAP_DRIVER_GET_CAPS, 
-    sizeof (CAPDRIVERCAPS), (LONG) (LPVOID) &amp;CapDrvCaps); 
+    sizeof (CAPDRIVERCAPS), (LONG) (LPVOID) &CapDrvCaps); 
 
 // Or, use the macro to retrieve the driver capabilities. 
-// capDriverGetCaps(hWndC, &amp;CapDrvCaps, sizeof (CAPDRIVERCAPS)); 
+// capDriverGetCaps(hWndC, &CapDrvCaps, sizeof (CAPDRIVERCAPS)); 
 ```
 
 

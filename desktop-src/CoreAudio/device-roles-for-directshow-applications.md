@@ -61,11 +61,11 @@ HRESULT CreateAudioRenderer(ERole role, IBaseFilter** ppAudioRenderer)
     hr = CoCreateInstance(CLSID_MMDeviceEnumerator,
                           NULL, CLSCTX_INPROC_SERVER,
                           __uuidof(IMMDeviceEnumerator),
-                          (void**)&amp;pEnumerator);
+                          (void**)&pEnumerator);
     EXIT_ON_ERROR(hr)
 
     hr = pEnumerator->GetDefaultAudioEndpoint(eRender, role,
-                                              &amp;pDevice);
+                                              &pDevice);
     EXIT_ON_ERROR(hr)
 
     DIRECTX_AUDIO_ACTIVATION_PARAMS  daap;
@@ -74,14 +74,14 @@ HRESULT CreateAudioRenderer(ERole role, IBaseFilter** ppAudioRenderer)
     daap.dwAudioStreamFlags = AUDCLNT_STREAMFLAGS_CROSSPROCESS;
 
     PROPVARIANT  var;
-    PropVariantInit(&amp;var);
+    PropVariantInit(&var);
 
     var.vt = VT_BLOB;
     var.blob.cbSize = sizeof(daap);
-    var.blob.pBlobData = (BYTE*)&amp;daap;
+    var.blob.pBlobData = (BYTE*)&daap;
 
     hr = pDevice->Activate(__uuidof(IBaseFilter),
-                           CLSCTX_ALL, &amp;var,
+                           CLSCTX_ALL, &var,
                            (void**)ppAudioRenderer);
     EXIT_ON_ERROR(hr)
 

@@ -26,7 +26,7 @@ CAPINFOCHUNK cic;
 cic.fccInfoID = infotypeSMPTE_TIME;
 cic.lpData = "00:20:30:12"; 
 cic.cbData = strlen (cic.lpData) + 1;
-capFileSetInfoChunk (hwndC, &amp;cic); 
+capFileSetInfoChunk (hwndC, &cic); 
  
 ```
 

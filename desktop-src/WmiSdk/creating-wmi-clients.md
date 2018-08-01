@@ -78,10 +78,10 @@ Get-WmiObject Win32_ComputerSystem | Format-Table &quot;Name&quot;</code></pre><
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colItems = objWMIService.ExecQuery(&quot;Select * from Win32_ComputerSystem&quot;)
 For Each objItem in colItems
-    Wscript.Echo &quot;Computer Name: &quot; &amp; objItem.Name
+    Wscript.Echo &quot;Computer Name: &quot; & objItem.Name
 Next</code></pre></td>
 </tr>
 </tbody>

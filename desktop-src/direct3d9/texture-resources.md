@@ -30,7 +30,7 @@ The following code example uses [**D3DXCreateTextureFromFile**](d3dxcreatetextur
 
 LPDIRECT3DTEXTURE9 pTexture;
 
-D3DXCreateTextureFromFile( d3dDevice, "tiger.bmp", &amp;pTexture);
+D3DXCreateTextureFromFile( d3dDevice, "tiger.bmp", &pTexture);
 ```
 
 

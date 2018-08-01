@@ -76,7 +76,7 @@ HANDLE  hEvent;
 long    evCode, param1, param2;
 BOOLEAN bDone = FALSE;
 HRESULT hr = S_OK;
-hr = pEvent->GetEventHandle((OAEVENT*)&amp;hEvent);
+hr = pEvent->GetEventHandle((OAEVENT*)&hEvent);
 if (FAILED(hr))
 {
     /* Insert failure-handling code here. */
@@ -86,7 +86,7 @@ while(!bDone)
 {
     if (WAIT_OBJECT_0 == WaitForSingleObject(hEvent, 100))
     { 
-        while (S_OK == pEvent->GetEvent(&amp;evCode, &amp;param1, &amp;param2, 0)) 
+        while (S_OK == pEvent->GetEvent(&evCode, &param1, &param2, 0)) 
         {
             printf("Event code: %#04x\n Params: %d, %d\n", evCode, param1, param2);
             pEvent->FreeEventParams(evCode, param1, param2);

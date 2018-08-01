@@ -27,7 +27,7 @@ if (FAILED(hr))
     // Handle error.
 }
 
-hr = pCap->QueryInterface(IID_IAMVideoControl, (void**)&amp;pAMVidControl);
+hr = pCap->QueryInterface(IID_IAMVideoControl, (void**)&pAMVidControl);
 
 if (SUCCEEDED(hr))
 {
@@ -39,11 +39,11 @@ if (SUCCEEDED(hr))
     hr = pBuild->FindPin(
         pCap,                  // Filter.
         PINDIR_OUTPUT,         // Look for an output pin.
-        &amp;PIN_CATEGORY_STILL,   // Pin category.
+        &PIN_CATEGORY_STILL,   // Pin category.
         NULL,                  // Media type (don't care).
         FALSE,                 // Pin must be unconnected.
         0,                     // Get the 0'th pin.
-        &amp;pPin                  // Receives a pointer to thepin.
+        &pPin                  // Receives a pointer to thepin.
         );
 
     if (SUCCEEDED(hr))
@@ -97,7 +97,7 @@ hr = CoCreateInstance(
     NULL, 
     CLSCTX_INPROC_SERVER,
     IID_IBaseFilter, 
-    (void**)&amp;pSG_Filter
+    (void**)&pSG_Filter
     );
 
 hr = pGraph->AddFilter(pSG_Filter, L"SampleGrab");
@@ -110,7 +110,7 @@ hr = CoCreateInstance(
     NULL, 
     CLSCTX_INPROC_SERVER,
     IID_IBaseFilter, 
-    (void**)&amp;pNull
+    (void**)&pNull
     );
 
 hr = pGraph->AddFilter(pNull, L"NullRender");
@@ -123,8 +123,8 @@ You can use the [**ICaptureGraphBuilder2::RenderStream**](/windows/desktop/api/S
 
 ```C++
 hr = pBuild->RenderStream(
-    &amp;PIN_CATEGORY_STILL, // Connect this pin ...
-    &amp;MEDIATYPE_Video,    // with this media type ...
+    &PIN_CATEGORY_STILL, // Connect this pin ...
+    &MEDIATYPE_Video,    // with this media type ...
     pCap,                // on this filter ...
     pSG_Filter,          // to the Sample Grabber ...
     pNull);              // ... and finally to the Null Renderer.
@@ -139,7 +139,7 @@ Now use the [**ISampleGrabber**](isamplegrabber.md) interface to configure the S
 // Configure the Sample Grabber.
 ISampleGrabber *pSG = NULL;
 
-hr = pSG_Filter->QueryInterface(IID_ISampleGrabber, (void**)&amp;pSG);
+hr = pSG_Filter->QueryInterface(IID_ISampleGrabber, (void**)&pSG);
 if (SUCCEEDED(hr))
 {
     hr = pSG->SetOneShot(FALSE);
@@ -154,7 +154,7 @@ Set the callback interface with a pointer to your callback object:
 
 
 ```C++
-hr = pSG->SetCallback(&amp;g_StillCapCB, 0); // 0 = Use the SampleCB callback method.
+hr = pSG->SetCallback(&g_StillCapCB, 0); // 0 = Use the SampleCB callback method.
 ```
 
 
@@ -166,7 +166,7 @@ Get the media type that the still pin used to connect with the Sample Grabber:
 // Store the media type for later use.
 AM_MEDIA_TYPE g_StillMediaType;
 
-hr = pSG->GetConnectedMediaType(&amp;g_StillMediaType);
+hr = pSG->GetConnectedMediaType(&g_StillMediaType);
 pSG->Release();
 ```
 
@@ -236,16 +236,16 @@ public:
            (VIDEOINFOHEADER*)g_StillMediaType.pbFormat;
 
         BITMAPFILEHEADER bfh;
-        ZeroMemory(&amp;bfh, sizeof(bfh));
+        ZeroMemory(&bfh, sizeof(bfh));
         bfh.bfType = 'MB';  // Little-endian for "BM".
         bfh.bfSize = sizeof( bfh ) + BufferLen + cbBitmapInfoSize;
         bfh.bfOffBits = sizeof( BITMAPFILEHEADER ) + cbBitmapInfoSize;
         
         // Write the file header.
         DWORD dwWritten = 0;
-        WriteFile( hf, &amp;bfh, sizeof( bfh ), &amp;dwWritten, NULL );
-        WriteFile(hf, HEADER(pVideoHeader), cbBitmapInfoSize, &amp;dwWritten, NULL);        
-        WriteFile( hf, pBuffer, BufferLen, &amp;dwWritten, NULL );
+        WriteFile( hf, &bfh, sizeof( bfh ), &dwWritten, NULL );
+        WriteFile(hf, HEADER(pVideoHeader), cbBitmapInfoSize, &dwWritten, NULL);        
+        WriteFile( hf, pBuffer, BufferLen, &dwWritten, NULL );
         CloseHandle( hf );
         return S_OK;
 

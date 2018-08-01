@@ -33,7 +33,7 @@ DWORD playCDTrack(HWND hWndNotify, BYTE bTrack)
     // Open the CD audio device by specifying the device name.
     mciOpenParms.lpstrDeviceType = "cdaudio";
     if (dwReturn = mciSendCommand(NULL, MCI_OPEN,
-        MCI_OPEN_TYPE, (DWORD)(LPVOID) &amp;mciOpenParms))
+        MCI_OPEN_TYPE, (DWORD)(LPVOID) &mciOpenParms))
     {
         // Failed to open device. Don't close it; just return error.
         return (dwReturn);
@@ -45,7 +45,7 @@ DWORD playCDTrack(HWND hWndNotify, BYTE bTrack)
     // Set the time format to track/minute/second/frame (TMSF).
     mciSetParms.dwTimeFormat = MCI_FORMAT_TMSF;
     if (dwReturn = mciSendCommand(wDeviceID, MCI_SET, 
-        MCI_SET_TIME_FORMAT, (DWORD)(LPVOID) &amp;mciSetParms))
+        MCI_SET_TIME_FORMAT, (DWORD)(LPVOID) &mciSetParms))
     {
         mciSendCommand(wDeviceID, MCI_CLOSE, 0, NULL);
         return (dwReturn);
@@ -63,7 +63,7 @@ DWORD playCDTrack(HWND hWndNotify, BYTE bTrack)
     mciPlayParms.dwCallback = (DWORD) hWndNotify;
     if (dwReturn = mciSendCommand(wDeviceID, MCI_PLAY,
         MCI_FROM | MCI_TO | MCI_NOTIFY, 
-        (DWORD)(LPVOID) &amp;mciPlayParms))
+        (DWORD)(LPVOID) &mciPlayParms))
     {
         mciSendCommand(wDeviceID, MCI_CLOSE, 0, NULL);
         return (dwReturn);

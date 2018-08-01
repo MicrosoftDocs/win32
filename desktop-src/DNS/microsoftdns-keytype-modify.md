@@ -35,7 +35,7 @@ void Modify(
   [in, optional] uint16               Protocol,
   [in, optional] uint16               Algorithm,
   [in, optional] string               PublicKey,
-  [out, ref]     MicrosoftDNS_KEYType &amp;RR
+  [out, ref]     MicrosoftDNS_KEYType &RR
 );
 ```
 

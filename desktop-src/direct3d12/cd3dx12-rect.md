@@ -29,10 +29,10 @@ A helper structure to enable easy initialization of a [**D3D12\_RECT**](d3d12-re
 ```C++
 struct CD3DX12_RECT  : public D3D12_RECT{
    CD3DX12_RECT();
-   explicit CD3DX12_RECT(const D3D12_RECT&amp; o);
+   explicit CD3DX12_RECT(const D3D12_RECT& o);
    explicit CD3DX12_RECT(LONG Left, LONG Top, LONG Right, LONG Bottom);
    ~CD3DX12_RECT();
-   operator const D3D12_RECT&amp;() const;
+   operator const D3D12_RECT&() const;
 };
 ```
 

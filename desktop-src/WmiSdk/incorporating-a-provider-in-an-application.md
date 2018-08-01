@@ -98,12 +98,12 @@ The following procedure uses C++ code examples to describe how to incorporate a 
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_IWbemDecoupledRegistrar,
-                          (void**)&amp;myRegistrar);
+                          (void**)&myRegistrar);
     if (SUCCEEDED(hr))
     {
         IUnknown *pIUnknown = NULL;
         // CMyProv is the class added for WMI instance / event provider
-        HRESULT hr = CMyProv::CreateInstance(NULL,&amp;pIUnknown);
+        HRESULT hr = CMyProv::CreateInstance(NULL,&pIUnknown);
         if ( SUCCEEDED(hr))
         {
             hr = myRegistrar->Register(0,
@@ -141,7 +141,7 @@ The following procedure uses C++ code examples to describe how to incorporate a 
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_IWbemDecoupledBasicEventProvider,
-                          (void**)&amp;myEvtRegistrar);
+                          (void**)&myEvtRegistrar);
 
     if (SUCCEEDED(hr))
     {
@@ -155,11 +155,11 @@ The following procedure uses C++ code examples to describe how to incorporate a 
        if (SUCCEEDED(hr))
        {
           IWbemServices *pService = NULL;
-          hr = myEvtRegistrar->GetService (0, NULL, &amp;pService);
+          hr = myEvtRegistrar->GetService (0, NULL, &pService);
           if (SUCCEEDED(hr))
           {
              IWbemObjectSink *pSink = NULL;
-             hr = myEvtRegistrar->GetSink ( 0, NULL, &amp;pSink );
+             hr = myEvtRegistrar->GetSink ( 0, NULL, &pSink );
              if (SUCCEEDED(hr))
              {
                 // Provide events

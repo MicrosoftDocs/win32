@@ -46,14 +46,14 @@ To fix this error, set the **tabindex** attribute of one of the child elements t
     var prev = itm.previousElementSibling;
     var next = itm.nextElementSibling;
 
-    if (e.keyCode == 38 &amp;&amp; prev) {
+    if (e.keyCode == 38 && prev) {
       // Arrow up to move focus to the previous item.
       itm.setAttribute('tabindex', '-1');
       prev.setAttribute('tabindex','0');
       prev.focus();
     } 
 
-    else if (e.keyCode == 40 &amp;&amp; next) {
+    else if (e.keyCode == 40 && next) {
       // Arrow down to move focus to the next item.
       itm.setAttribute('tabindex', '-1');
       next.setAttribute('tabindex','0');

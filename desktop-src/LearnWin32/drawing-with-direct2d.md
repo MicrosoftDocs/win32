@@ -86,7 +86,7 @@ void MainWindow::OnPaint()
     if (SUCCEEDED(hr))
     {
         PAINTSTRUCT ps;
-        BeginPaint(m_hwnd, &amp;ps);
+        BeginPaint(m_hwnd, &ps);
      
         pRenderTarget->BeginDraw();
 
@@ -98,7 +98,7 @@ void MainWindow::OnPaint()
         {
             DiscardGraphicsResources();
         }
-        EndPaint(m_hwnd, &amp;ps);
+        EndPaint(m_hwnd, &ps);
     }
 }
 ```
@@ -126,8 +126,8 @@ To discard a resource, simply release the interface for that resource.
 ```C++
 void MainWindow::DiscardGraphicsResources()
 {
-    SafeRelease(&amp;pRenderTarget);
-    SafeRelease(&amp;pBrush);
+    SafeRelease(&pRenderTarget);
+    SafeRelease(&pBrush);
 }
 ```
 

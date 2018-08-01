@@ -40,26 +40,26 @@ This function enables you to enumerate the names of the animations for a charact
    VARIANT vAnimName;
    DWORD dwRetrieved;
 
-   hRes = punkEnum-&amp;gt;QueryInterface(IID_IEnumVARIANT, (LPVOID *)&amp;amp;pEnum);
+   hRes = punkEnum-&gt;QueryInterface(IID_IEnumVARIANT, (LPVOID *)&amp;pEnum);
 
    if (SUCCEEDED(hRes)) {
 
       while (TRUE) {
 
-         hRes = pEnum-&amp;gt;Next(1, &amp;amp;vAnimName, &amp;amp;dwRetrieved);
+         hRes = pEnum-&gt;Next(1, &amp;vAnimName, &amp;dwRetrieved);
 
          if (hRes != NOERROR)
             break;
 
          // vAnimName.bstrVal is the animation name
 
-         VariantClear(&amp;amp;vAnimName);
+         VariantClear(&amp;vAnimName);
       } 
 
-      pEnum-&amp;gt;Release();
+      pEnum-&gt;Release();
    }
 
-   punkEnum-&amp;gt;Release();
+   punkEnum-&gt;Release();
 ```
 
 

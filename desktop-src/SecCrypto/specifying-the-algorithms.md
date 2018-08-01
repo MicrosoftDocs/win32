@@ -55,7 +55,7 @@ Algorithm.cBits = 40;          // or 64, 128, 192, and so on
 if (!CryptSetKeyParam(
          hMasterKey, 
          KP_SCHANNEL_ALG, 
-         (PBYTE)&amp;Algorithm, 
+         (PBYTE)&Algorithm, 
          0))
 {
     printf("Failed called to CryptSetKeyParam\n");
@@ -70,7 +70,7 @@ Algorithm.cBits = 128;         // or 160...
 if (!CryptSetKeyParam(
           hMasterKey, 
           KP_SCHANNEL_ALG, 
-          (PBYTE)&amp;Algorithm, 
+          (PBYTE)&Algorithm, 
           0))
 {
     printf("Failed called to CryptSetKeyParam\n");

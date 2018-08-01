@@ -52,7 +52,7 @@ void PrintError(
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -60,7 +60,7 @@ void PrintError(
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -90,8 +90,8 @@ static const WS_ELEMENT_DESCRIPTION purchasingFaultElement =
 // The description of the fault message
 static const WS_MESSAGE_DESCRIPTION purchasingFaultMessageDescription =
 {
-    (WS_XML_STRING*)&amp;purchasingFaultAction,
-    (WS_ELEMENT_DESCRIPTION*)&amp;purchasingFaultElement,
+    (WS_XML_STRING*)&purchasingFaultAction,
+    (WS_ELEMENT_DESCRIPTION*)&purchasingFaultElement,
 };
 
 // Main entry point
@@ -110,7 +110,7 @@ int __cdecl wmain()
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -122,7 +122,7 @@ int __cdecl wmain()
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -136,7 +136,7 @@ int __cdecl wmain()
         NULL, 
         0, 
         NULL, 
-        &amp;listener, 
+        &listener, 
         error);
     if (FAILED(hr))
     {
@@ -148,7 +148,7 @@ int __cdecl wmain()
         listener, 
         NULL, 
         0, 
-        &amp;channel, 
+        &channel, 
         error);
     if (FAILED(hr))
     {
@@ -161,7 +161,7 @@ int __cdecl wmain()
     uri.length = (ULONG)::wcslen(uri.chars);
     hr = WsOpenListener(
         listener, 
-        &amp;uri, 
+        &uri, 
         NULL, 
         error);
     if (FAILED(hr))
@@ -181,7 +181,7 @@ int __cdecl wmain()
         channel,
         NULL, 
         0, 
-        &amp;requestMessage, 
+        &requestMessage, 
         error);
     if (FAILED(hr))
     {
@@ -192,7 +192,7 @@ int __cdecl wmain()
         channel,
         NULL, 
         0, 
-        &amp;replyMessage, 
+        &replyMessage, 
         error);
     if (FAILED(hr))
     {
@@ -206,8 +206,8 @@ int __cdecl wmain()
         // or a request for order status.
         const WS_MESSAGE_DESCRIPTION* requestMessageDescriptions[] = 
         { 
-            &amp;PurchaseOrder_wsdl.messages.PurchaseOrder,   // contains a _PurchaseOrderType in the body
-            &amp;PurchaseOrder_wsdl.messages.GetOrderStatus,  // contains a GetOrderStatus in the body
+            &PurchaseOrder_wsdl.messages.PurchaseOrder,   // contains a _PurchaseOrderType in the body
+            &PurchaseOrder_wsdl.messages.GetOrderStatus,  // contains a GetOrderStatus in the body
         };
         
         // Receive the message and deserialize the element of the body into the appropriate
@@ -218,7 +218,7 @@ int __cdecl wmain()
         
         hr = WsReceiveMessage(channel, requestMessage, requestMessageDescriptions, WsCountOf(requestMessageDescriptions),
             WS_RECEIVE_OPTIONAL_MESSAGE, WS_READ_REQUIRED_POINTER, heap, 
-            &amp;requestBodyPointer, sizeof(requestBodyPointer), &amp;indexOfMatchedMessageDescription, NULL, error);
+            &requestBodyPointer, sizeof(requestBodyPointer), &indexOfMatchedMessageDescription, NULL, error);
         
         if (hr == WS_S_END)
         {
@@ -238,7 +238,7 @@ int __cdecl wmain()
             // Get the message description that matched
             const WS_MESSAGE_DESCRIPTION* requestMessageDescription = requestMessageDescriptions[indexOfMatchedMessageDescription];
         
-            if (requestMessageDescription == &amp;PurchaseOrder_wsdl.messages.PurchaseOrder)
+            if (requestMessageDescription == &PurchaseOrder_wsdl.messages.PurchaseOrder)
             {
                 // The message was a purchase order.  Get the pointer to the deserialized value.
                 _PurchaseOrderType* purchaseOrder = (_PurchaseOrderType*)requestBodyPointer;
@@ -254,11 +254,11 @@ int __cdecl wmain()
                 orderConfirmation.orderID = 123;
         
                 // Setup up reply message
-                replyMessageDescription = &amp;PurchaseOrder_wsdl.messages.OrderConfirmation;
-                replyBodyPointer = &amp;orderConfirmation;
+                replyMessageDescription = &PurchaseOrder_wsdl.messages.OrderConfirmation;
+                replyBodyPointer = &orderConfirmation;
                 replyBodySize = sizeof(orderConfirmation);
             }
-            else if (requestMessageDescription == &amp;PurchaseOrder_wsdl.messages.GetOrderStatus)
+            else if (requestMessageDescription == &PurchaseOrder_wsdl.messages.GetOrderStatus)
             {
                 // The message was a order status request.  Get the pointer to the deserialized value.
                 _GetOrderStatusType* getOrderStatus = (_GetOrderStatusType*)requestBodyPointer;
@@ -275,23 +275,23 @@ int __cdecl wmain()
                     static const WS_XML_STRING _faultAction = WS_XML_STRING_VALUE("http://example.com/fault");
                     static const WS_ELEMENT_DESCRIPTION _faultElementDescription = 
                     { 
-                        (WS_XML_STRING*)&amp;_faultDetailName, 
-                        (WS_XML_STRING*)&amp;_faultDetailNs, 
+                        (WS_XML_STRING*)&_faultDetailName, 
+                        (WS_XML_STRING*)&_faultDetailNs, 
                         WS_UINT32_TYPE, 
                         NULL 
                     };
                     static const WS_FAULT_DETAIL_DESCRIPTION orderNotFoundFaultTypeDescription = 
                     { 
-                        (WS_XML_STRING*)&amp;_faultAction, 
-                        (WS_ELEMENT_DESCRIPTION*)&amp;_faultElementDescription 
+                        (WS_XML_STRING*)&_faultAction, 
+                        (WS_ELEMENT_DESCRIPTION*)&_faultElementDescription 
                     };
                     
                     // Set fault detail information in the error object
                     hr = WsSetFaultErrorDetail(
                         error,
-                        &amp;orderNotFoundFaultTypeDescription,
+                        &orderNotFoundFaultTypeDescription,
                         WS_WRITE_REQUIRED_VALUE,
-                        &amp;orderNotFound,
+                        &orderNotFound,
                         sizeof(orderNotFound));
                     
                     if (FAILED(hr))
@@ -302,7 +302,7 @@ int __cdecl wmain()
                     // Add an error string to the error object.  This string will
                     // be included in the fault that is sent.
                     static const WS_STRING errorMessage = WS_STRING_VALUE(L"Invalid order ID");
-                    hr = WsAddErrorString(error, &amp;errorMessage);
+                    hr = WsAddErrorString(error, &errorMessage);
                     
                     if (FAILED(hr))
                     {
@@ -320,8 +320,8 @@ int __cdecl wmain()
                     getOrderStatusResponse.status = status;
         
                     // Specify which message description to use for reply
-                    replyMessageDescription = &amp;PurchaseOrder_wsdl.messages.GetOrderStatusResponse;
-                    replyBodyPointer = &amp;getOrderStatusResponse;
+                    replyMessageDescription = &PurchaseOrder_wsdl.messages.GetOrderStatusResponse;
+                    replyBodyPointer = &getOrderStatusResponse;
                     replyBodySize = sizeof(getOrderStatusResponse);
                 }
             }

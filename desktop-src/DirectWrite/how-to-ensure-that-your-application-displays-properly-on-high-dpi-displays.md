@@ -45,7 +45,7 @@ The following code uses the [**GetDesktopDpi**](https://msdn.microsoft.com/libra
 
         // The factory returns the current system DPI. This is also the value it will use
         // to create its own windows.
-        m_pDirect2dFactory->GetDesktopDpi(&amp;dpiX, &amp;dpiY);
+        m_pDirect2dFactory->GetDesktopDpi(&dpiX, &dpiY);
 
 
         // Create the window.

@@ -68,7 +68,7 @@ if (SUCCEEDED(hr))
 {
     hr = m_pD2DFactory->CreateEllipseGeometry(
         D2D1::Ellipse(D2D1::Point2F(100.f, 60.f), 100.f, 50.f),
-        &amp;m_pEllipseGeometry
+        &m_pEllipseGeometry
         );
 }
 ```
@@ -116,7 +116,7 @@ hr = m_pD2DFactory->CreateGeometryGroup(
     D2D1_FILL_MODE_ALTERNATE,
     ppGeometries,
     ARRAYSIZE(ppGeometries),
-    &amp;m_pGeoGroup_AlternateFill
+    &m_pGeoGroup_AlternateFill
     );
 
 if (SUCCEEDED(hr))
@@ -125,7 +125,7 @@ if (SUCCEEDED(hr))
         D2D1_FILL_MODE_WINDING,
         ppGeometries,
         ARRAYSIZE(ppGeometries),
-        &amp;m_pGeoGroup_WindingFill
+        &m_pGeoGroup_WindingFill
         );
 }
 ```
@@ -155,7 +155,7 @@ The following example creates an [**ID2D1RectangleGeometry**](https://msdn.micro
 ```C++
 hr = m_pD2DFactory->CreateRectangleGeometry(
     D2D1::RectF(150.f, 150.f, 200.f, 200.f),
-    &amp;m_pRectangleGeometry
+    &m_pRectangleGeometry
     );
 ```
 
@@ -203,7 +203,7 @@ The next example uses the [**CreateTransformedGeometry**](/windows/desktop/api/d
      D2D1::Matrix3x2F::Scale(
          D2D1::SizeF(3.f, 3.f),
          D2D1::Point2F(175.f, 175.f)),
-     &amp;m_pTransformedGeometry
+     &m_pTransformedGeometry
      );
 ```
 
@@ -269,7 +269,7 @@ const D2D1_ELLIPSE circle1 = D2D1::Ellipse(
 
 hr = m_pD2DFactory->CreateEllipseGeometry(
     circle1,
-    &amp;m_pCircleGeometry1
+    &m_pCircleGeometry1
     );
 
 if (SUCCEEDED(hr))
@@ -281,7 +281,7 @@ if (SUCCEEDED(hr))
         50.0f
         );
 
-    hr = m_pD2DFactory->CreateEllipseGeometry(circle2, &amp;m_pCircleGeometry2);
+    hr = m_pD2DFactory->CreateEllipseGeometry(circle2, &m_pCircleGeometry2);
 }
 
 
@@ -290,11 +290,11 @@ if (SUCCEEDED(hr))
     //
     // Use D2D1_COMBINE_MODE_UNION to combine the geometries.
     //
-    hr = m_pD2DFactory->CreatePathGeometry(&amp;m_pPathGeometryUnion);
+    hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometryUnion);
 
     if (SUCCEEDED(hr))
     {
-        hr = m_pPathGeometryUnion->Open(&amp;pGeometrySink);
+        hr = m_pPathGeometryUnion->Open(&pGeometrySink);
 
         if (SUCCEEDED(hr))
         {
@@ -312,7 +312,7 @@ if (SUCCEEDED(hr))
             hr = pGeometrySink->Close();
         }
 
-        SafeRelease(&amp;pGeometrySink);
+        SafeRelease(&pGeometrySink);
     }
 }
 ```
@@ -332,7 +332,7 @@ The [**Widen**](id2d1geometry-widen.md) method generates a new geometry whose fi
 
 ```C++
 ID2D1GeometrySink *pGeometrySink = NULL;
-hr = pPathGeometry->Open(&amp;pGeometrySink);
+hr = pPathGeometry->Open(&pGeometrySink);
 if (SUCCEEDED(hr))
 {
     hr = pGeometry->Widen(
@@ -352,11 +352,11 @@ The [**Tessellate**](id2d1geometry-tessellate.md) method creates a set of clockw
 
 ```C++
 ID2D1Mesh *pMesh = NULL;
-hr = m_pRT->CreateMesh(&amp;pMesh);
+hr = m_pRT->CreateMesh(&pMesh);
 if (SUCCEEDED(hr))
 {
     ID2D1TessellationSink *pSink = NULL;
-    hr = pMesh->Open(&amp;pSink);
+    hr = pMesh->Open(&pSink);
     if (SUCCEEDED(hr))
     {
         hr = pPathGeometry->Tessellate(
@@ -368,7 +368,7 @@ if (SUCCEEDED(hr))
             hr = pSink->Close();
             if (SUCCEEDED(hr))
             {
-                SafeReplace(&amp;m_pStrokeMesh, pMesh);
+                SafeReplace(&m_pStrokeMesh, pMesh);
             }
         }
         pSink->Release();
@@ -389,7 +389,7 @@ BOOL containsPoint1;
 hr = m_pCircleGeometry1->FillContainsPoint(
     D2D1::Point2F(0,0),
     D2D1::Matrix3x2F::Identity(),
-    &amp;containsPoint1
+    &containsPoint1
     );
 
 if (SUCCEEDED(hr))
@@ -411,7 +411,7 @@ hr = m_pCircleGeometry1->StrokeContainsPoint(
     10,     // stroke width
     NULL,   // stroke style
     NULL,   // world transform
-    &amp;containsPoint
+    &containsPoint
     );
 
 if (SUCCEEDED(hr))
@@ -436,15 +436,15 @@ HRESULT D2DFlatten(
 {
     HRESULT hr;
     ID2D1Factory *pFactory = NULL;
-    pGeometry->GetFactory(&amp;pFactory);
+    pGeometry->GetFactory(&pFactory);
 
     ID2D1PathGeometry *pPathGeometry = NULL;
-    hr = pFactory->CreatePathGeometry(&amp;pPathGeometry);
+    hr = pFactory->CreatePathGeometry(&pPathGeometry);
 
     if (SUCCEEDED(hr))
     {
         ID2D1GeometrySink *pSink = NULL;
-        hr = pPathGeometry->Open(&amp;pSink);
+        hr = pPathGeometry->Open(&pSink);
 
         if (SUCCEEDED(hr))
         {
@@ -489,7 +489,7 @@ float length;
 // Compute the area of circle1
 hr = m_pCircleGeometry1->ComputeLength(
     D2D1::IdentityMatrix(),
-    &amp;length
+    &length
     );
 
 if (SUCCEEDED(hr))
@@ -509,7 +509,7 @@ float area;
 // Compute the area of circle1
 hr = m_pCircleGeometry1->ComputeArea(
     D2D1::IdentityMatrix(),
-    &amp;area
+    &area
     );
 ```
 
@@ -535,7 +535,7 @@ const D2D1_ELLIPSE circle1 = D2D1::Ellipse(
 
 hr = m_pD2DFactory->CreateEllipseGeometry(
     circle1,
-    &amp;m_pCircleGeometry1
+    &m_pCircleGeometry1
     );
 
 if (SUCCEEDED(hr))
@@ -547,7 +547,7 @@ if (SUCCEEDED(hr))
         50.0f
         );
 
-    hr = m_pD2DFactory->CreateEllipseGeometry(circle2, &amp;m_pCircleGeometry2);
+    hr = m_pD2DFactory->CreateEllipseGeometry(circle2, &m_pCircleGeometry2);
 }
 
 ```
@@ -563,7 +563,7 @@ hr = m_pCircleGeometry1->CompareWithGeometry(
     m_pCircleGeometry2,
     D2D1::IdentityMatrix(),
     0.1f,
-    &amp;result
+    &result
     );
 
 if (SUCCEEDED(hr))
@@ -598,15 +598,15 @@ HRESULT D2DOutline(
 {
     HRESULT hr;
     ID2D1Factory *pFactory = NULL;
-    pGeometry->GetFactory(&amp;pFactory);
+    pGeometry->GetFactory(&pFactory);
 
     ID2D1PathGeometry *pPathGeometry = NULL;
-    hr = pFactory->CreatePathGeometry(&amp;pPathGeometry);
+    hr = pFactory->CreatePathGeometry(&pPathGeometry);
 
     if (SUCCEEDED(hr))
     {
         ID2D1GeometrySink *pSink = NULL;
-        hr = pPathGeometry->Open(&amp;pSink);
+        hr = pPathGeometry->Open(&pSink);
 
         if (SUCCEEDED(hr))
         {
@@ -645,7 +645,7 @@ D2D1_RECT_F bounds;
 
 hr = m_pCircleGeometry1->GetBounds(
       D2D1::IdentityMatrix(),
-      &amp;bounds
+      &bounds
      );
 
 if (SUCCEEDED(hr))
@@ -674,7 +674,7 @@ m_pD2DFactory->CreateStrokeStyle(
         ),
      dashes,
      ARRAYSIZE(dashes)-1,
-     &amp;m_pStrokeStyle
+     &m_pStrokeStyle
      );
 ```
 
@@ -687,7 +687,7 @@ hr = m_pCircleGeometry1->GetWidenedBounds(
       5.0,
       m_pStrokeStyle,
       D2D1::IdentityMatrix(),
-      &amp;bounds1
+      &bounds1
      );
 if (SUCCEEDED(hr))
 {
@@ -709,8 +709,8 @@ D2D1_POINT_2F tangent;
 hr = m_pCircleGeometry1->ComputePointAtLength(
     10, 
     NULL, 
-    &amp;point, 
-    &amp;tangent); 
+    &point, 
+    &tangent); 
 ```
 
 

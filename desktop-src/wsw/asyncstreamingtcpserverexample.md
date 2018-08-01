@@ -55,7 +55,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -63,7 +63,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -122,7 +122,7 @@ HRESULT CALLBACK Receive1(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* sta
     }
 
     // Create a listener
-    hr = WsCreateListener(WS_CHANNEL_TYPE_DUPLEX_SESSION, WS_TCP_CHANNEL_BINDING, NULL, 0, NULL, &amp;receiveState->listener, error);
+    hr = WsCreateListener(WS_CHANNEL_TYPE_DUPLEX_SESSION, WS_TCP_CHANNEL_BINDING, NULL, 0, NULL, &receiveState->listener, error);
     if (FAILED(hr))
     {
         return hr;
@@ -131,7 +131,7 @@ HRESULT CALLBACK Receive1(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* sta
     // Open listener using TCP duplex session
     WS_STRING uri = WS_STRING_VALUE(L"net.tcp://localhost/example");
     next->function = Receive2;
-    return WsOpenListener(receiveState->listener, &amp;uri, asyncContext, error);
+    return WsOpenListener(receiveState->listener, &uri, asyncContext, error);
 }
 
 HRESULT CALLBACK Receive2(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* state, WS_ASYNC_OPERATION* next, const WS_ASYNC_CONTEXT* asyncContext, WS_ERROR* error)
@@ -155,7 +155,7 @@ HRESULT CALLBACK Receive2(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* sta
         goto Exit;
     }
 
-    hr = WsCreateChannelForListener(receiveState->listener, NULL, 0, &amp;receiveState->channel, error);
+    hr = WsCreateChannelForListener(receiveState->listener, NULL, 0, &receiveState->channel, error);
     if (FAILED(hr))
     {
         return hr;
@@ -178,7 +178,7 @@ HRESULT CALLBACK Receive3(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* sta
         return hr;
     }
 
-    hr = WsCreateMessageForChannel(receiveState->channel, NULL, 0, &amp;receiveState->message, error);
+    hr = WsCreateMessageForChannel(receiveState->channel, NULL, 0, &receiveState->message, error);
     if (FAILED(hr))
     {
         return hr;
@@ -229,7 +229,7 @@ HRESULT CALLBACK Receive5(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* sta
         WS_XML_STRING_TYPE,
         WS_READ_REQUIRED_VALUE, 
         NULL, 
-        &amp;receivedAction, 
+        &receivedAction, 
         sizeof(receivedAction), 
         error);
     if (FAILED(hr))
@@ -238,13 +238,13 @@ HRESULT CALLBACK Receive5(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* sta
     }
 
     // Make sure action is what we expect
-    if (WsXmlStringEquals(&amp;receivedAction, PurchaseOrder_wsdl.messages.PurchaseOrder.action, error) != S_OK)
+    if (WsXmlStringEquals(&receivedAction, PurchaseOrder_wsdl.messages.PurchaseOrder.action, error) != S_OK)
     {
         return WS_E_ENDPOINT_ACTION_NOT_SUPPORTED;
     }
 
     // Get the reader for the body
-    hr = WsGetMessageProperty(receiveState->message, WS_MESSAGE_PROPERTY_BODY_READER, &amp;receiveState->reader, sizeof(receiveState->reader), error);
+    hr = WsGetMessageProperty(receiveState->message, WS_MESSAGE_PROPERTY_BODY_READER, &receiveState->reader, sizeof(receiveState->reader), error);
     if (FAILED(hr))
     {
         return hr;
@@ -281,8 +281,8 @@ HRESULT CALLBACK Receive8(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* sta
 
     // Read purchase order into heap, if there are any more to read.
     _PurchaseOrderType* purchaseOrder;
-    hr = WsReadElement(receiveState->reader, &amp;PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
-        WS_READ_OPTIONAL_POINTER, receiveState->heap, &amp;purchaseOrder, sizeof(purchaseOrder), error);
+    hr = WsReadElement(receiveState->reader, &PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
+        WS_READ_OPTIONAL_POINTER, receiveState->heap, &purchaseOrder, sizeof(purchaseOrder), error);
     if (FAILED(hr))
     {
         return hr;
@@ -408,14 +408,14 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
     }
         
     // Create a heap to hold body data, with a max size to limit size of purchase order read
-    hr = WsCreateHeap(/*maxSize*/ 1024, /*trimSize*/ 1024, NULL, 0, &amp;receiveState.heap, error);
+    hr = WsCreateHeap(/*maxSize*/ 1024, /*trimSize*/ 1024, NULL, 0, &receiveState.heap, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -429,9 +429,9 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     WS_ASYNC_CONTEXT receiveComplete;
     receiveComplete.callback = OnReceiveComplete;
-    receiveComplete.callbackState = &amp;threadInfo;
+    receiveComplete.callbackState = &threadInfo;
     
-    hr = WsAsyncExecute(&amp;asyncState, Receive1, WS_LONG_CALLBACK, &amp;receiveState, &amp;receiveComplete, error);
+    hr = WsAsyncExecute(&asyncState, Receive1, WS_LONG_CALLBACK, &receiveState, &receiveComplete, error);
     if (FAILED(hr))
     {
         goto Exit;

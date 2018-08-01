@@ -25,9 +25,9 @@ LRESULT APIENTRY WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
     switch (message) 
     { 
         case WM_PAINT: 
-            hdc = BeginPaint(hwnd, &amp;ps); 
+            hdc = BeginPaint(hwnd, &ps); 
             TextOut(hdc, 0, 0, "Hello, Windows!", 15); 
-            EndPaint(hwnd, &amp;ps); 
+            EndPaint(hwnd, &ps); 
             return 0L; 
 
         // Process other messages.   

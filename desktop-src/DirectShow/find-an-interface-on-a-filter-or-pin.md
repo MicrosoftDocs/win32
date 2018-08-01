@@ -27,12 +27,12 @@ HRESULT FindFilterInterface(
     HRESULT hr = E_FAIL;
     IEnumFilters *pEnum = NULL;
     IBaseFilter *pF = NULL;
-    if (FAILED(pGraph->EnumFilters(&amp;pEnum)))
+    if (FAILED(pGraph->EnumFilters(&pEnum)))
     {
         return E_FAIL;
     }
     // Query every filter for the interface.
-    while (S_OK == pEnum->Next(1, &amp;pF, 0))
+    while (S_OK == pEnum->Next(1, &pF, 0))
     {
         hr = pF->QueryInterface(iid, ppUnk);
         pF->Release();
@@ -61,13 +61,13 @@ HRESULT FindPinInterface(
 
     HRESULT hr = E_FAIL;
     IEnumPins *pEnum = 0;
-    if (FAILED(pFilter->EnumPins(&amp;pEnum)))
+    if (FAILED(pFilter->EnumPins(&pEnum)))
     {
         return E_FAIL;
     }
     // Query every pin for the interface.
     IPin *pPin = 0;
-    while (S_OK == pEnum->Next(1, &amp;pPin, 0))
+    while (S_OK == pEnum->Next(1, &pPin, 0))
     {
         hr = pPin->QueryInterface(iid, ppUnk);
         pPin->Release();
@@ -95,13 +95,13 @@ HRESULT FindInterfaceAnywhere(
     if (!pGraph || !ppUnk) return E_POINTER;
     HRESULT hr = E_FAIL;
     IEnumFilters *pEnum = 0;
-    if (FAILED(pGraph->EnumFilters(&amp;pEnum)))
+    if (FAILED(pGraph->EnumFilters(&pEnum)))
     {
         return E_FAIL;
     }
     // Loop through every filter in the graph.
     IBaseFilter *pF = 0;
-    while (S_OK == pEnum->Next(1, &amp;pF, 0))
+    while (S_OK == pEnum->Next(1, &pF, 0))
     {
         hr = pF->QueryInterface(iid, ppUnk);
         if (FAILED(hr))

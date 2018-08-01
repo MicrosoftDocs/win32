@@ -31,7 +31,7 @@ int __cdecl main()
     DWORD                   i;
 
     // Get all installed ELS services.
-    Result = MappingGetServices(NULL, &amp;prgServices, &amp;dwServicesCount);
+    Result = MappingGetServices(NULL, &prgServices, &dwServicesCount);
 
     if (SUCCEEDED(Result))
     {
@@ -68,7 +68,7 @@ int __cdecl main()
     HRESULT                 Result;
     DWORD                   i;
 
-    ZeroMemory(&amp;EnumOptions, sizeof (MAPPING_ENUM_OPTIONS));
+    ZeroMemory(&EnumOptions, sizeof (MAPPING_ENUM_OPTIONS));
     EnumOptions.Size = sizeof (MAPPING_ENUM_OPTIONS);
 
     // Use the Language Auto-Detection category to enumerate
@@ -76,7 +76,7 @@ int __cdecl main()
     EnumOptions.pszCategory = L"Language Detection";
 
     // Execute the enumeration:
-    Result = MappingGetServices(&amp;EnumOptions, &amp;prgServices, &amp;dwServicesCount);
+    Result = MappingGetServices(&EnumOptions, &prgServices, &dwServicesCount);
 
     if (SUCCEEDED(Result))
     {

@@ -44,7 +44,7 @@ The following procedure describes how to create an instance of an existing class
 
     BSTR PathToClass = SysAllocString(L"Example");
     HRESULT hRes = pSvc->GetObject(PathToClass, 0, pCtx, 
-                  &amp;pExampleClass, &amp;pResult);
+                  &pExampleClass, &pResult);
     SysFreeString(PathToClass);
     ```
 
@@ -55,7 +55,7 @@ The following procedure describes how to create an instance of an existing class
     The following code example shows how to create a new instance and then release the class.
 
     ```C++
-    pExampleClass->SpawnInstance(0, &amp;pNewInstance);
+    pExampleClass->SpawnInstance(0, &pNewInstance);
     pExampleClass->Release();  // Don't need the class any more
     ```
 
@@ -71,15 +71,15 @@ The following procedure describes how to create an instance of an existing class
 
     ```C++
     VARIANT v;
-    VariantInit(&amp;v);
+    VariantInit(&v);
 
-    V_VT(&amp;v) = VT_BSTR;
-    V_BSTR(&amp;v) = SysAllocString(L"IX100");
+    V_VT(&v) = VT_BSTR;
+    V_BSTR(&v) = SysAllocString(L"IX100");
 
     BSTR KeyProp = SysAllocString(L"Index");
-    pNewInstance->Put(KeyProp, 0, &amp;v, 0);
+    pNewInstance->Put(KeyProp, 0, &v, 0);
     SysFreeString(KeyProp);
-    VariantClear(&amp;v);
+    VariantClear(&v);
     ```
 
     
@@ -97,7 +97,7 @@ The following procedure describes how to create an instance of an existing class
     The following code example shows how to save an instance.
 
     ```C++
-        hRes = pSvc->PutInstance(pNewInstance, 0, pCtx, &amp;pResult);
+        hRes = pSvc->PutInstance(pNewInstance, 0, pCtx, &pResult);
         pNewInstance->Release();
     ```
 
@@ -127,42 +127,42 @@ void CreateInstance (IWbemServices *pSvc)
     // Get the class definition.
     BSTR PathToClass = SysAllocString(L"Example");
     HRESULT hRes = pSvc->GetObject(PathToClass, 0, pCtx, 
-                 &amp;pExampleClass, &amp;pResult);
+                 &pExampleClass, &pResult);
     SysFreeString(PathToClass);
 
     if (hRes != 0)
        return;
 
     // Create a new instance.
-    pExampleClass->SpawnInstance(0, &amp;pNewInstance);
+    pExampleClass->SpawnInstance(0, &pNewInstance);
     pExampleClass->Release();  // Don't need the class any more
 
     VARIANT v;
-    VariantInit(&amp;v);
+    VariantInit(&v);
 
     // Set the Index property (the key).
-    V_VT(&amp;v) = VT_BSTR;
-    V_BSTR(&amp;v) = SysAllocString(L"IX100");
+    V_VT(&v) = VT_BSTR;
+    V_BSTR(&v) = SysAllocString(L"IX100");
 
     BSTR KeyProp = SysAllocString(L"Index");
-    pNewInstance->Put(KeyProp, 0, &amp;v, 0);
+    pNewInstance->Put(KeyProp, 0, &v, 0);
     SysFreeString(KeyProp);
-    VariantClear(&amp;v);
+    VariantClear(&v);
 
     // Set the IntVal property.
-    V_VT(&amp;v) = VT_I4;
-    V_I4(&amp;v) = 1001;  
+    V_VT(&v) = VT_I4;
+    V_I4(&v) = 1001;  
     
     BSTR Prop = SysAllocString(L"IntVal");
-    pNewInstance->Put(Prop, 0, &amp;v, 0);
+    pNewInstance->Put(Prop, 0, &v, 0);
     SysFreeString(Prop);
-    VariantClear(&amp;v);    
+    VariantClear(&v);    
     
     // Other properties acquire the 'default' value specified
     // in the class definition unless otherwise modified here.
 
     // Write the instance to WMI. 
-    hRes = pSvc->PutInstance(pNewInstance, 0, pCtx, &amp;pResult);
+    hRes = pSvc->PutInstance(pNewInstance, 0, pCtx, &pResult);
     pNewInstance->Release();
 }
 ```

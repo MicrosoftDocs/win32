@@ -66,7 +66,7 @@ HYPOTHESIS **Hypotheses)
     SecureZeroMemory(pAttr, sizeof(HELPER_ATTRIBUTE));
 
     //set the helper class name to hand off to
-    hr = StringCchCopyWithAlloc(&amp;pHypothesis->pwszClassName, MAX_PATH,
+    hr = StringCchCopyWithAlloc(&pHypothesis->pwszClassName, MAX_PATH,
                  L"SimpleFileHelperClass");
     if (FAILED(hr))
     {
@@ -75,7 +75,7 @@ HYPOTHESIS **Hypotheses)
 
     //populate the attribute
     //set the attribute name
-    hr = StringCchCopyWithAlloc(&amp;pAttr->pwszName, MAX_PATH, L"filename");
+    hr = StringCchCopyWithAlloc(&pAttr->pwszName, MAX_PATH, L"filename");
     if (FAILED(hr))
     {
         goto Error;  
@@ -83,7 +83,7 @@ HYPOTHESIS **Hypotheses)
 
     //set attribute data
     pAttr->type = AT_STRING;
-    hr = StringCchCopyWithAlloc(&amp;pAttr->PWStr, MAX_PATH, m_pwszTestFile);
+    hr = StringCchCopyWithAlloc(&pAttr->PWStr, MAX_PATH, m_pwszTestFile);
     if (FAILED(hr))
     {
         goto Error;

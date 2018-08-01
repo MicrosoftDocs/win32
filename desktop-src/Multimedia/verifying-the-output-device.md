@@ -26,7 +26,7 @@ MCI_STATUS_PARMS mciStatusParms;
 mciStatusParms.dwItem = MCI_SEQ_STATUS_PORT;
 
 if (dwReturn = mciSendCommand(wDeviceID, MCI_STATUS, MCI_STATUS_ITEM,
-    (DWORD)(LPVOID) &amp;mciStatusParms))
+    (DWORD)(LPVOID) &mciStatusParms))
 {
     
     // Error sending MCI_STATUS command. 

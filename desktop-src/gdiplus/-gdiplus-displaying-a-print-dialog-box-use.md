@@ -25,21 +25,21 @@ INT main()
    // Initialize GDI+.
    GdiplusStartupInput gdiplusStartupInput;
    ULONG_PTR gdiplusToken;
-   GdiplusStartup(&amp;gdiplusToken, &amp;gdiplusStartupInput, NULL);
+   GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
    
    DOCINFO docInfo;
-   ZeroMemory(&amp;docInfo, sizeof(docInfo));
+   ZeroMemory(&docInfo, sizeof(docInfo));
    docInfo.cbSize = sizeof(docInfo);
    docInfo.lpszDocName = "GdiplusPrint";
    
    // Create a PRINTDLG structure, and initialize the appropriate fields.
    PRINTDLG printDlg;
-   ZeroMemory(&amp;printDlg, sizeof(printDlg));
+   ZeroMemory(&printDlg, sizeof(printDlg));
    printDlg.lStructSize = sizeof(printDlg);
    printDlg.Flags = PD_RETURNDC;
    
    // Display a print dialog box.
-   if(!PrintDlg(&amp;printDlg))
+   if(!PrintDlg(&printDlg))
    {
       printf("Failure\n");
    }
@@ -48,7 +48,7 @@ INT main()
       // Now that PrintDlg has returned, a device context handle
       // for the chosen printer is in printDlg->hDC.
       
-      StartDoc(printDlg.hDC, &amp;docInfo);
+      StartDoc(printDlg.hDC, &docInfo);
       StartPage(printDlg.hDC);
          Graphics* graphics = new Graphics(printDlg.hDC);
          Pen* pen = new Pen(Color(255, 0, 0, 0));

@@ -100,7 +100,7 @@ BOOL CALLBACK MyFuncLocaleEx(LPWSTR pStr, DWORD dwFlags, LPARAM lparam)
     int i;
 
     // If specific locales were specified on the command line check for a match 
-    if (*argv &amp;&amp; argv[1])
+    if (*argv && argv[1])
     {
         // Check each argument to see if our locale matches 
         for (i = 1; argv[i] != 0; i++)
@@ -200,7 +200,7 @@ int __cdecl wmain(int argc, wchar_t* argv[])
     EnumSystemLocalesEx( MyFuncLocaleEx, LOCALE_ALL, (LPARAM)argv, NULL);
 
     // See which of the input locales are valid (if any) 
-    if (*argv &amp;&amp; argv[1])
+    if (*argv && argv[1])
     {
         // Check each argument to see if our locale matches 
         for (int i = 1; argv[i] != 0; i++)

@@ -32,7 +32,7 @@ fk.iBounceMSec = 0;
 // Call SystemParametersInfo with the SPI_SETFILTERKEYS flag.  
  
 bSuccess = SystemParametersInfo(SPI_SETFILTERKEYS, 0, (LPVOID)
-&amp;fk, 0); 
+&fk, 0); 
 ```
 
 

@@ -45,7 +45,7 @@ The following code shows these steps:
             0,          // Option flags.
             NULL,       // Callback interface.
             hwnd,
-            &amp;g_pPlayer
+            &g_pPlayer
             );
     }
 
@@ -55,7 +55,7 @@ The following code shows these steps:
             g_pSource,
             TRUE,       // Blocking call.
             0,          // User data.
-            &amp;pItem
+            &pItem
             );
     }
 
@@ -69,7 +69,7 @@ The following code shows these steps:
         hr = g_pPlayer->Play();
     }
 
-    SafeRelease(&amp;pItem);
+    SafeRelease(&pItem);
 ```
 
 

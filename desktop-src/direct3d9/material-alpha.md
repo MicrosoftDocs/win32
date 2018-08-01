@@ -28,7 +28,7 @@ D3DMATERIAL9 mtrl;
 mtrl.Diffuse = mtrl.Ambient = mtrl.Specular = mtrl.Emissive = 
     D3DCOLORVALUE(255,0,0,0.5f)
 
-m_pd3dDevice->SetMaterial(&amp;mtrl);     
+m_pd3dDevice->SetMaterial(&mtrl);     
 ```
 
 

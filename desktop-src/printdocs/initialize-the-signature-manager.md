@@ -38,7 +38,7 @@ hr = CoCreateInstance(
     NULL, 
     CLSCTX_INPROC_SERVER,
     __uuidof(IXpsSignatureManager),
-    reinterpret_cast<LPVOID*>(&amp;newInterface));
+    reinterpret_cast<LPVOID*>(&newInterface));
 
 // make sure that you got a pointer 
 // to the interface

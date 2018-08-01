@@ -30,7 +30,7 @@ Calls the sample description subobject callback of an object that implements thi
 
 ```C++
 void SampleDescCb(
-  [ref] const DXGI_SAMPLE_DESC &amp;SampleDesc
+  [ref] const DXGI_SAMPLE_DESC &SampleDesc
 );
 ```
 

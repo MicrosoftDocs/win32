@@ -64,7 +64,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR, int nCmdShow)
 
     MSG msg;
 
-    ZeroMemory(&amp;msg, sizeof(msg));
+    ZeroMemory(&msg, sizeof(msg));
 
     // Perform application initialization.
     if (!InitInstance(hInstance, nCmdShow))
@@ -75,17 +75,17 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR, int nCmdShow)
     }
 
     // Main message loop.
-    while (GetMessage(&amp;msg, NULL, 0, 0))
+    while (GetMessage(&msg, NULL, 0, 0))
     {
-        TranslateMessage(&amp;msg);
-        DispatchMessage(&amp;msg);
+        TranslateMessage(&msg);
+        DispatchMessage(&msg);
     }
 
     // Clean up.
     if (g_pPlayer)
     {
         g_pPlayer->Shutdown();
-        SafeRelease(&amp;g_pPlayer);
+        SafeRelease(&g_pPlayer);
     }
     return 0;
 }
@@ -99,7 +99,7 @@ BOOL InitInstance(HINSTANCE hInst, int nCmdShow)
     g_hInstance = hInst; // Store the instance handle.
 
     // Register the window class.
-    ZeroMemory(&amp;wcex, sizeof(WNDCLASSEX));
+    ZeroMemory(&wcex, sizeof(WNDCLASSEX));
     wcex.cbSize         = sizeof(WNDCLASSEX);
     wcex.style          = CS_HREDRAW | CS_VREDRAW;
     wcex.lpfnWndProc    = WndProc;
@@ -108,7 +108,7 @@ BOOL InitInstance(HINSTANCE hInst, int nCmdShow)
     wcex.lpszMenuName   = MAKEINTRESOURCE(IDC_MFPLAYBACK);
     wcex.lpszClassName  = szWindowClass;
 
-    if (RegisterClassEx(&amp;wcex) == 0)
+    if (RegisterClassEx(&wcex) == 0)
     {
         return FALSE;
     }
@@ -195,7 +195,7 @@ void OnFileOpen(HWND hwnd)
 
     // Create the FileOpenDialog object.
     HRESULT hr = CoCreateInstance(__uuidof(FileOpenDialog), NULL, 
-        CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&amp;pFileOpen));
+        CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&pFileOpen));
     if (FAILED(hr))
     {
         goto done;
@@ -215,13 +215,13 @@ void OnFileOpen(HWND hwnd)
     }
 
     // Get the file name from the dialog box.
-    hr = pFileOpen->GetResult(&amp;pItem);
+    hr = pFileOpen->GetResult(&pItem);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pItem->GetDisplayName(SIGDN_FILESYSPATH, &amp;pszFilePath);
+    hr = pItem->GetDisplayName(SIGDN_FILESYSPATH, &pszFilePath);
     if (FAILED(hr))
     {
         goto done;
@@ -241,8 +241,8 @@ done:
         UpdateUI(hwnd, Closed);
     }
     CoTaskMemFree(pszFilePath);
-    SafeRelease(&amp;pItem);
-    SafeRelease(&amp;pFileOpen);
+    SafeRelease(&pItem);
+    SafeRelease(&pFileOpen);
 }
 
 //  Open a media file from a URL.
@@ -255,11 +255,11 @@ void OnOpenURL(HWND hwnd)
     // the memory for the string. 
 
     OpenUrlDialogInfo url;
-    ZeroMemory(&amp;url, sizeof(&amp;url));
+    ZeroMemory(&url, sizeof(&url));
 
     // Show the Open URL dialog.
     if (IDOK == DialogBoxParam(g_hInstance, MAKEINTRESOURCE(IDD_OPENURL), hwnd,
-        OpenUrlDialogProc, (LPARAM)&amp;url))
+        OpenUrlDialogProc, (LPARAM)&url))
     {
         // Open the file with the playback object.
         hr = g_pPlayer->OpenURL(url.pszURL);
@@ -282,7 +282,7 @@ void OnOpenURL(HWND hwnd)
 LRESULT OnCreateWindow(HWND hwnd)
 {
     // Initialize the player object.
-    HRESULT hr = CPlayer::CreateInstance(hwnd, hwnd, &amp;g_pPlayer); 
+    HRESULT hr = CPlayer::CreateInstance(hwnd, hwnd, &g_pPlayer); 
     if (SUCCEEDED(hr))
     {
         UpdateUI(hwnd, Closed);
@@ -299,9 +299,9 @@ LRESULT OnCreateWindow(HWND hwnd)
 void OnPaint(HWND hwnd)
 {
     PAINTSTRUCT ps;
-    HDC hdc = BeginPaint(hwnd, &amp;ps);
+    HDC hdc = BeginPaint(hwnd, &ps);
 
-    if (g_pPlayer &amp;&amp; g_pPlayer->HasVideo())
+    if (g_pPlayer && g_pPlayer->HasVideo())
     {
         // Video is playing. Ask the player to repaint.
         g_pPlayer->Repaint();
@@ -310,10 +310,10 @@ void OnPaint(HWND hwnd)
     {
         // The video is not playing, so we must paint the application window.
         RECT rc;
-        GetClientRect(hwnd, &amp;rc);
-        FillRect(hdc, &amp;rc, (HBRUSH) COLOR_WINDOW);
+        GetClientRect(hwnd, &rc);
+        FillRect(hdc, &rc, (HBRUSH) COLOR_WINDOW);
     }
-    EndPaint(hwnd, &amp;ps);
+    EndPaint(hwnd, &ps);
 }
 
 //  Handler for WM_SIZE messages.
@@ -387,7 +387,7 @@ void UpdateUI(HWND hwnd, PlayerState state)
     EnableMenuItem(hMenu, ID_FILE_OPENFILE, uEnable);
     EnableMenuItem(hMenu, ID_FILE_OPENURL, uEnable);
 
-    if (bPlayback &amp;&amp; g_pPlayer->HasVideo())
+    if (bPlayback && g_pPlayer->HasVideo())
     {
         g_bRepaintClient = FALSE;
     }
@@ -435,7 +435,7 @@ INT_PTR CALLBACK OpenUrlDialogProc(HWND hDlg, UINT message, WPARAM wParam, LPARA
                 // Get the URL from the edit box in the dialog. This function 
                 // allocates memory. The caller must call CoTaskMemAlloc.
                 if (SUCCEEDED(AllocGetWindowText(GetDlgItem(hDlg, IDC_EDIT_URL), 
-                    &amp;pUrl->pszURL, &amp;pUrl->cch)))
+                    &pUrl->pszURL, &pUrl->cch)))
                 {
                     result = TRUE;
                 }

@@ -52,7 +52,7 @@ If you compile your .hlsl files into binary shader object files, your app needs 
                 vertexShaderBytecode->Data,
                 vertexShaderBytecode->Length,
                 nullptr,
-                &amp;vertexShader
+                &vertexShader
                 )
 ```
 
@@ -66,7 +66,7 @@ If you compile your .hlsl files into byte arrays that are defined in header file
 ```C++
 #       include "PixelShader.h"
         ComPtr<ID3D11PixelShader> m_pPixelShader;
-        hr = pDevice->CreatePixelShader(g_psshader, sizeof(g_psshader), nullptr, &amp;m_pPixelShader);
+        hr = pDevice->CreatePixelShader(g_psshader, sizeof(g_psshader), nullptr, &m_pPixelShader);
 ```
 
 

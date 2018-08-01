@@ -29,7 +29,7 @@ To draw the outline of an ellipse, you define a brush (such as a [**ID2D1SolidCo
 ```C++
 hr = m_pRenderTarget->CreateSolidColorBrush(
     D2D1::ColorF(D2D1::ColorF::Black),
-    &amp;m_pBlackBrush
+    &m_pBlackBrush
     );
 ```
 
@@ -68,7 +68,7 @@ D2D1_STROKE_STYLE_PROPERTIES strokeStyleProperties = D2D1::StrokeStyleProperties
     0.0f // The dash offset.
     );
 
-hr = m_pDirect2dFactory->CreateStrokeStyle(strokeStyleProperties, NULL, 0, &amp;m_pStrokeStyle);
+hr = m_pDirect2dFactory->CreateStrokeStyle(strokeStyleProperties, NULL, 0, &m_pStrokeStyle);
 
 ```
 

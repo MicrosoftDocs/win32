@@ -32,7 +32,7 @@ DWORD           cbwfltr;
  
 // Determine the maximum size required for any valid filter 
 // for which the ACM has a driver installed and enabled. 
-mmr = acmMetrics(NULL, ACM_METRIC_MAX_SIZE_FILTER, &amp;cbwfltr); 
+mmr = acmMetrics(NULL, ACM_METRIC_MAX_SIZE_FILTER, &cbwfltr); 
 if (MMSYSERR_NOERROR != mmr) { 
  
     // The ACM probably has no drivers installed and 
@@ -48,7 +48,7 @@ if (NULL == pwfltr) {
 } 
  
 // Initialize the ACMFILTERCHOOSE members. 
-memset(&amp;afc, 0, sizeof(afc)); 
+memset(&afc, 0, sizeof(afc)); 
  
 afc.cbStruct    = sizeof(afc); 
 afc.fdwStyle    = 0L;               // no special style flags 
@@ -58,7 +58,7 @@ afc.cbwfltr     = cbwfltr;          // size of wfltr buffer
 afc.pszTitle    = TEXT("Any Filter Selection"); 
  
 // Call the ACM to bring up the filter-selection dialog box. 
-mmr = acmFilterChoose(&amp;afc); 
+mmr = acmFilterChoose(&afc); 
 if (MMSYSERR_NOERROR == mmr) { 
     // The user selected a valid filter. The pwfltr buffer, 
     // allocated above, contains the complete filter description. 

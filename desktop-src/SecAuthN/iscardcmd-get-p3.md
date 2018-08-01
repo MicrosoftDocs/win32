@@ -83,7 +83,7 @@ BYTE  byP3;
 HRESULT  hr;
 
 // Retrieve the P3 byte.
-hr = pISCardCmd->get_P3(&amp;byP3);
+hr = pISCardCmd->get_P3(&byP3);
 if (FAILED(hr))
 {
   printf("Failed get_P3\n");

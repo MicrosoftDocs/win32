@@ -27,7 +27,7 @@ After you finish filling or reading the vertex data, call the [**IDirect3DVertex
 VOID* pVertices;
 
 if(FAILED(g_pVB->Lock(0, sizeof(g_Vertices), 
-        (BYTE**)&amp;pVertices, 0 ) ) ) 
+        (BYTE**)&pVertices, 0 ) ) ) 
     return E_FAIL;
 
 memcpy(pVertices, g_Vertices, sizeof(g_Vertices));

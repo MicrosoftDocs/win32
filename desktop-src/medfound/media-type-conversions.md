@@ -222,7 +222,7 @@ HRESULT GetBitmapInfoHeaderFromMFMediaType(
     BITMAPINFOHEADER *pBMIH = NULL;
 
     // Verify that this is a video type.
-    HRESULT hr = pType->GetMajorType(&amp;majorType);
+    HRESULT hr = pType->GetMajorType(&majorType);
     if (FAILED(hr))
     {
         goto done;
@@ -234,7 +234,7 @@ HRESULT GetBitmapInfoHeaderFromMFMediaType(
         goto done;
     }
 
-    hr = pType->GetRepresentation(AM_MEDIA_TYPE_REPRESENTATION, (void**)&amp;pmt);
+    hr = pType->GetRepresentation(AM_MEDIA_TYPE_REPRESENTATION, (void**)&pmt);
     if (FAILED(hr))
     {
         goto done;

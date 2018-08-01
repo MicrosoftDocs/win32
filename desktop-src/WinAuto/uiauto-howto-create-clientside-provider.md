@@ -31,22 +31,22 @@ HRESULT GetProxyTable()
     BSTR className;
     BSTR imageName;
 
-    HRESULT hr = g_pAutomation->get_ProxyFactoryMapping(&amp;pMap);
+    HRESULT hr = g_pAutomation->get_ProxyFactoryMapping(&pMap);
     if (SUCCEEDED(hr))
     {
-        if (SUCCEEDED(pMap->get_Count(&amp;count)))
+        if (SUCCEEDED(pMap->get_Count(&count)))
         {
             for (UINT x = 0; x < count; x++)
             {
-                if (SUCCEEDED(pMap->GetEntry(x, &amp;pEntry)))
+                if (SUCCEEDED(pMap->GetEntry(x, &pEntry)))
                 {
-                    pEntry->get_ClassName(&amp;className);
+                    pEntry->get_ClassName(&className);
                     if (className)
                     {
                         std::wcout << className << L"\t";
                         SysFreeString(className);
                     }
-                    if (SUCCEEDED(pEntry->get_ImageName(&amp;imageName)))
+                    if (SUCCEEDED(pEntry->get_ImageName(&imageName)))
                     {
                         if (imageName)
                         {
@@ -103,11 +103,11 @@ public:
     // IUnknown methods.
     IFACEMETHODIMP_(ULONG) AddRef() 
     { 
-        return InterlockedIncrement(&amp;_refCount);
+        return InterlockedIncrement(&_refCount);
     }
     IFACEMETHODIMP_(ULONG) Release()
     {
-        long val = InterlockedDecrement(&amp;_refCount);
+        long val = InterlockedDecrement(&_refCount);
         if(val == 0)
         {
             delete this;
@@ -187,11 +187,11 @@ public:
     // IUnknown methods.
     IFACEMETHODIMP_(ULONG) AddRef() 
     { 
-        return InterlockedIncrement(&amp;_refCount);
+        return InterlockedIncrement(&_refCount);
     }
     IFACEMETHODIMP_(ULONG) Release()
     {
-        long val = InterlockedDecrement(&amp;_refCount);
+        long val = InterlockedDecrement(&_refCount);
         if(val == 0)
         {
             delete this;
@@ -241,7 +241,7 @@ HRESULT CheckElement(IUIAutomation *uia, HWND hwnd)
     BSTR providerDescription = NULL;
 
     wprintf( L"Getting AutomationElement for the button...\n" );
-    HRESULT hr = uia->ElementFromHandle(hwnd, &amp;buttonEl);
+    HRESULT hr = uia->ElementFromHandle(hwnd, &buttonEl);
     if (FAILED(hr))
         goto cleanup;
     if (buttonEl == NULL)
@@ -250,11 +250,11 @@ HRESULT CheckElement(IUIAutomation *uia, HWND hwnd)
         goto cleanup;
     }
 
-    hr = buttonEl->get_CurrentName(&amp;name);
+    hr = buttonEl->get_CurrentName(&name);
     if (FAILED(hr))
         goto cleanup;
 
-    hr = buttonEl->get_CurrentProviderDescription(&amp;providerDescription);
+    hr = buttonEl->get_CurrentProviderDescription(&providerDescription);
     if (FAILED(hr))
         goto cleanup;
 
@@ -262,7 +262,7 @@ HRESULT CheckElement(IUIAutomation *uia, HWND hwnd)
 cleanup:
     SysFreeString(providerDescription);
     SysFreeString(name);
-    SafeRelease(&amp;buttonEl);
+    SafeRelease(&buttonEl);
 
     return hr;
 }
@@ -283,7 +283,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
     wprintf( L"CoCreating Automation Object...\n" );
     hr = CoCreateInstance(__uuidof(CUIAutomation), NULL, CLSCTX_INPROC_SERVER,
-        __uuidof(IUIAutomation), (void **)&amp;uia);
+        __uuidof(IUIAutomation), (void **)&uia);
     if (FAILED(hr))
         goto cleanup;
 
@@ -302,7 +302,7 @@ int _tmain(int argc, _TCHAR* argv[])
     CheckElement(uia, buttonHwnd);
 
     wprintf( L"Getting the Proxy Factory Mapping Object...\n" );
-    hr = uia->get_ProxyFactoryMapping(&amp;proxyMapping);
+    hr = uia->get_ProxyFactoryMapping(&proxyMapping);
     if (FAILED(hr))
         goto cleanup;
     if (proxyMapping == NULL)
@@ -314,7 +314,7 @@ int _tmain(int argc, _TCHAR* argv[])
         goto cleanup;
 
     wprintf( L"Creating the Proxy Factory Entry...\n" );
-    hr = uia->CreateProxyFactoryEntry(simpleFactory, &amp;simpleEntry);
+    hr = uia->CreateProxyFactoryEntry(simpleFactory, &simpleEntry);
     if (FAILED(hr))
         goto cleanup;
    bstrClassName = SysAllocString(L"BUTTON");
@@ -346,10 +346,10 @@ int _tmain(int argc, _TCHAR* argv[])
 
 cleanup:
 
-    SafeRelease(&amp;simpleEntry);
-    SafeRelease(&amp;simpleFactory);
-    SafeRelease(&amp;proxyMapping);
-    SafeRelease(&amp;uia);
+    SafeRelease(&simpleEntry);
+    SafeRelease(&simpleFactory);
+    SafeRelease(&proxyMapping);
+    SafeRelease(&uia);
     SysFreeString(bstrClassName);
     CoUninitialize();
 

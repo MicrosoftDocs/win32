@@ -40,7 +40,7 @@ IActiveDesktop *pActiveDesktop;
 
 //Create an instance of the Active Desktop
 hr = CoCreateInstance(CLSID_ActiveDesktop, NULL, CLSCTX_INPROC_SERVER,
-                      IID_IActiveDesktop, (void**)&amp;pActiveDesktop);
+                      IID_IActiveDesktop, (void**)&pActiveDesktop);
 
 //Insert code to call the IActiveDesktop methods
 
@@ -68,7 +68,7 @@ COMPONENT compDesktopItem;
 
 //Create an instance of the Active Desktop
 hr = CoCreateInstance(CLSID_ActiveDesktop, NULL, CLSCTX_INPROC_SERVER,
-                      IID_IActiveDesktop, (void**)&amp;pActiveDesktop);
+                      IID_IActiveDesktop, (void**)&pActiveDesktop);
 
 // Initialize the COMPONENT structure
 compDesktopItem.dwSize = sizeof(COMPONENT);
@@ -77,7 +77,7 @@ compDesktopItem.dwSize = sizeof(COMPONENT);
 // to the COMPONENT structure
 
 // Add the desktop item
-pActiveDesktop->AddDesktopItem(&amp;compDesktopItem,0);
+pActiveDesktop->AddDesktopItem(&compDesktopItem,0);
 
 // Save the changes to the registry
 pActiveDesktop->ApplyChanges(AD_APPLY_ALL);
@@ -101,16 +101,16 @@ int intIndex = 0;
 
 //Create an instance of the Active Desktop
 hr = CoCreateInstance(CLSID_ActiveDesktop, NULL, CLSCTX_INPROC_SERVER,
-                      IID_IActiveDesktop, (void**)&amp;pActiveDesktop);
+                      IID_IActiveDesktop, (void**)&pActiveDesktop);
 
-pActiveDesktop->GetDesktopItemCount(&amp;intCount,0);
+pActiveDesktop->GetDesktopItemCount(&intCount,0);
 
 compDesktopItem.dwSize = sizeof(COMPONENT);
 
 while(intIndex<=(intCount-1))
 {
     //get the COMPONENT structure for the current desktop item
-    pActiveDesktop->GetDesktopItem(intIndex, &amp;compDesktopItem,0);
+    pActiveDesktop->GetDesktopItem(intIndex, &compDesktopItem,0);
 
     //Insert code that processes the structure
 

@@ -23,7 +23,7 @@ NETRESOURCE nr;
 // Call the WNetAddConnection2 function to make the connection,
 //   specifying a persistent connection.
 //
-dwResult = WNetAddConnection2(&amp;nr, // NETRESOURCE from enumeration 
+dwResult = WNetAddConnection2(&nr, // NETRESOURCE from enumeration 
     (LPSTR) NULL,                  // no password 
     (LPSTR) NULL,                  // logged-in user 
     CONNECT_UPDATE_PROFILE);       // update profile with connect information 

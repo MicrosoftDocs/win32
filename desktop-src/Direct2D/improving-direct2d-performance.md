@@ -162,11 +162,11 @@ m_d2dContext->CreateBitmap(size, nullptr, 0,
             DXGI_FORMAT_B8G8R8A8_UNORM,
             D2D1_ALPHA_MODE_PREMULTIPLIED),
         dpiX, dpiY),
-    &amp;sceneBitmap);
+    &sceneBitmap);
 
 // Preserve the pre-existing target.
 ComPtr<ID2D1Image> oldTarget;
-m_d2dContext->GetTarget(&amp;oldTarget);
+m_d2dContext->GetTarget(&oldTarget);
 
 // Render static content to the sceneBitmap.
 m_d2dContext->SetTarget(sceneBitmap.Get());
@@ -199,11 +199,11 @@ m_d2dContext->CreateBitmap(size, nullptr, 0,
             DXGI_FORMAT_A8_UNORM,
             D2D1_ALPHA_MODE_PREMULTIPLIED),
         dpiX, dpiY),
-    &amp;opacityBitmap);
+    &opacityBitmap);
 
 // Preserve the pre-existing target.
 ComPtr<ID2D1Image> oldTarget;
-m_d2dContext->GetTarget(&amp;oldTarget);
+m_d2dContext->GetTarget(&oldTarget);
 
 // Render to the opacityBitmap.
 m_d2dContext->SetTarget(opacityBitmap.Get());
@@ -238,7 +238,7 @@ Here's an example:
     m_d2dDeviceContext1->CreateFilledGeometryRealization(
         geometry.Get(),
         flatteningTolerance,
-        &amp;geometryRealization
+        &geometryRealization
         );
 
     // In your app's rendering code, draw the geometry realization with a brush.
@@ -321,7 +321,7 @@ m_d2dContext->CreateBitmap(size, nullptr, 0,
             DXGI_FORMAT_A8_UNORM,
             D2D1_ALPHA_MODE_PREMULTIPLIED),
         dpiX, dpiY),
-    &amp;opacityBitmap);
+    &opacityBitmap);
 
 m_d2dContext->SetTarget(opacityBitmap.Get());
 m_d2dContext->BeginDraw();
@@ -332,7 +332,7 @@ m_d2dContext->EndDraw();
 m_d2dContext->CreateBitmapBrush(opacityBitmap.Get(),
     D2D1::BitmapBrushProperties(),
     D2D1::BrushProperties(),
-    &amp;bitmapBrush);
+    &bitmapBrush);
 
 // Call the FillGeometry method and pass in the clip geometry and the opacity brush
 m_d2dContext->FillGeometry( 

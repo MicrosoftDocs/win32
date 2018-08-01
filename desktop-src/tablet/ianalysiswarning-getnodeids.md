@@ -74,7 +74,7 @@ The following example shows how to get the [**IContextNode**](icontextnode.md) o
 // Get the count of the context nodes and their identifiers.
 ULONG count = 0;
 GUID* nodeIds = 0;
-warning->GetNodeIds(&amp;count, &amp;nodeIds);
+warning->GetNodeIds(&count, &nodeIds);
 
 // Use nodeIds
 
@@ -82,7 +82,7 @@ warning->GetNodeIds(&amp;count, &amp;nodeIds);
 
 // GetNodeIds just gets the count and returns S_OK
 ULONG number = 0;
-warning->GetNodeIds(&amp;number, NULL); 
+warning->GetNodeIds(&number, NULL); 
 ```
 
 

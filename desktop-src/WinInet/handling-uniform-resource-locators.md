@@ -174,14 +174,14 @@ BOOL WINAPI Cracker( HWND hDlg, int nURLtextBoxId, int nListBoxId )
    }
 
    if( FAILED( StringCchLength( URL_buffer, CRACKER_BUFFER_SIZE, 
-                                (size_t*) &amp;i ) ) )
+                                (size_t*) &i ) ) )
    {
        failedFunctionName = TEXT( "StringCchLength" );
        goto CrackerError_01;
    }
 
    if( !InternetCrackUrl( URL_buffer, (DWORD)_tcslen( URL_buffer ), 0, 
-                          &amp;URLparts ) )
+                          &URLparts ) )
    {
        failedFunctionName = TEXT( "InternetCrackUrl" );
        goto CrackerError_01;
@@ -190,11 +190,11 @@ BOOL WINAPI Cracker( HWND hDlg, int nURLtextBoxId, int nListBoxId )
    failedFunctionName = TEXT( "listURLpart" );
 
    i = URLparts.nScheme + 2;
-   if( ( i >= 0 ) &amp;&amp; ( i < CRACKER_SCHEME_TYPE_ARRAY_SIZE ) )
+   if( ( i >= 0 ) && ( i < CRACKER_SCHEME_TYPE_ARRAY_SIZE ) )
    {
        StringCchLength( schemeType[i], 
                         CRACKER_BUFFER_SIZE, 
-                        (size_t*) &amp;j );
+                        (size_t*) &j );
        if( !listURLpart( hDlg, nListBoxId, 
                          TEXT("Scheme type"), 
                          schemeType[i], j ))
@@ -246,13 +246,13 @@ BOOL listURLpart( HWND hDlg, int nListBoxId,
 
   if( FAILED( StringCchCopyEx( outputBuffer, 
                               (size_t) CRACKER_BUFFER_SIZE,
-                               szPartName, &amp;nextStart, 
-                               &amp;nextSize, 0 ) ) ||
+                               szPartName, &nextStart, 
+                               &nextSize, 0 ) ) ||
       FAILED( StringCchCopyEx( nextStart, nextSize, TEXT( ": " ), 
-                               &amp;nextStart, &amp;nextSize, 0 ) ) ||
+                               &nextStart, &nextSize, 0 ) ) ||
       FAILED( StringCchCopyNEx( nextStart, nextSize, part, 
                                 (size_t) partLength,
-                                &amp;nextStart, &amp;nextSize, 0 ) ) )
+                                &nextStart, &nextSize, 0 ) ) )
     return( FALSE );
 
   *nextStart = 0;

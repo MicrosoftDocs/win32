@@ -52,7 +52,7 @@ int __cdecl _tmain()
     _tprintf(TEXT("Walking heap %#p...\n\n"), hHeap);
 
     Entry.lpData = NULL;
-    while (HeapWalk(hHeap, &amp;Entry) != FALSE) {
+    while (HeapWalk(hHeap, &Entry) != FALSE) {
         if ((Entry.wFlags & PROCESS_HEAP_ENTRY_BUSY) != 0) {
             _tprintf(TEXT("Allocated block"));
 

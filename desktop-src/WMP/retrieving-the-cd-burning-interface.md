@@ -32,14 +32,14 @@ The following code example demonstrates how to retrieve an interface for burning
 
 
 ```C++
-HRESULT CMainDlg::GetCdromDriveCount (long &amp;lDriveCount)
+HRESULT CMainDlg::GetCdromDriveCount (long &lDriveCount)
 {
-    hr = m_spPlayer->get_cdromCollection(&amp;m_spCdromCollection);
+    hr = m_spPlayer->get_cdromCollection(&m_spCdromCollection);
 
     // Get the number of CDROM drives.
     if (SUCCEEDED(hr))
     {
-        hr = m_spCdromCollection->get_count(&amp;lDriveCount);
+        hr = m_spCdromCollection->get_count(&lDriveCount);
     }
 
     return hr;
@@ -52,12 +52,12 @@ HRESULT CMainDlg::GetCdromBurnInterface (long lIndex)
 {
     // Get the IWMPCdrom interface.
     m_spCdrom.Release();
-    HRESULT hr = m_spCdromCollection->item(lIndex, &amp;m_spCdrom);
+    HRESULT hr = m_spCdromCollection->item(lIndex, &m_spCdrom);
     if (SUCCEEDED(hr))
     {
         // Get the IWMPCdromBurn interface.
         m_spCdromBurn.Release();
-        hr = m_spCdrom->QueryInterface(&amp;m_spCdromBurn);
+        hr = m_spCdrom->QueryInterface(&m_spCdromBurn);
     }
 
     return hr;

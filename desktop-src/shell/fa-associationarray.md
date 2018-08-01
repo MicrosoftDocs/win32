@@ -52,13 +52,13 @@ The most common use of an association array is to query for a single value that 
 IQueryAssociations *pqa;
 
 // pShellItem is assumed to be an existing IShellItem object.
-hr = pShellItem->BindToHandler(NULL, BHID_AssociationArray, IID_PPV_ARGS(&amp;pqa));
+hr = pShellItem->BindToHandler(NULL, BHID_AssociationArray, IID_PPV_ARGS(&pqa));
 if (SUCCEEDED(hr))
 {
     wchar_t szValue[256];
     DWORD cbValue = sizeof(szValue);      // Count of bytes in the array
 
-    hr = pqa->GetData(0, ASSOCDATA_VALUE, L"InfoTip", szValue, &amp;cbValue);
+    hr = pqa->GetData(0, ASSOCDATA_VALUE, L"InfoTip", szValue, &cbValue);
     if (SUCCEEDED(hr))
     {
         // The "InfoTip" value is used to compute the infotip string from

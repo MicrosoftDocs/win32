@@ -46,9 +46,9 @@ INT serverUnregister(SOCKADDR *sa,
     CSADDR_INFO CSAddrInfo[1];
     SOCKADDR sa_local;
 
-    memset(&amp;QuerySet, 0, sizeof(QuerySet));
-    memset(&amp;CSAddrInfo, 0, sizeof(CSAddrInfo));
-    memset(&amp;sa_local, 0, sizeof(SOCKADDR));
+    memset(&QuerySet, 0, sizeof(QuerySet));
+    memset(&CSAddrInfo, 0, sizeof(CSAddrInfo));
+    memset(&sa_local, 0, sizeof(SOCKADDR));
     sa_local.sa_family = AF_INET;
 
     // Build the CSAddrInfo structure to contain address
@@ -58,7 +58,7 @@ INT serverUnregister(SOCKADDR *sa,
     // dynamically assigned port numbers are used.
     //
     CSAddrInfo[0].LocalAddr.iSockaddrLength = sizeof(SOCKADDR);
-    CSAddrInfo[0].LocalAddr.lpSockaddr = &amp;sa_local;
+    CSAddrInfo[0].LocalAddr.lpSockaddr = &sa_local;
     CSAddrInfo[0].RemoteAddr.iSockaddrLength = sizeof(SOCKADDR);
     CSAddrInfo[0].RemoteAddr.lpSockaddr = sa;
     CSAddrInfo[0].iSocketType = SOCK_STREAM;
@@ -68,14 +68,14 @@ INT serverUnregister(SOCKADDR *sa,
     QuerySet.lpServiceClassId = pServiceID;
     QuerySet.lpszServiceInstanceName = pszServiceInstanceName;
     QuerySet.lpszComment = pszServiceInstanceComment;
-    QuerySet.lpVersion = &amp;Version;
+    QuerySet.lpVersion = &Version;
     QuerySet.lpVersion->dwVersion = 2;
     QuerySet.lpVersion->ecHow = COMP_NOTLESS;
     QuerySet.dwNameSpace = NS_NTDS;
     QuerySet.dwNumberOfCsAddrs = 1;
     QuerySet.lpcsaBuffer = CSAddrInfo;
 
-    ret = WSASetService( &amp;QuerySet,
+    ret = WSASetService( &QuerySet,
                          RNRSERVICE_DEREGISTER,
                          SERVICE_MULTIPLE);
 

@@ -55,7 +55,7 @@ DWORD dwBlobLen;        // The length of the key BLOB
 // Acquire a cryptographic provider context handle.
 
 if(CryptAcquireContext(
-   &amp;hProv, 
+   &hProv, 
    NULL, 
    NULL, 
    PROV_RSA_FULL, 
@@ -75,7 +75,7 @@ else
 if(CryptGetUserKey(
    hProv, 
    AT_SIGNATURE, 
-   &amp;hSignKey)) 
+   &hSignKey)) 
 {
     printf("The signature key has been acquired. \n");
 }
@@ -91,7 +91,7 @@ else
 if(CryptGetUserKey(
    hProv, 
    AT_KEYEXCHANGE, 
-   &amp;hXchgKey)) 
+   &hXchgKey)) 
 {
     printf("The key exchange key has been acquired. \n");
 }
@@ -109,7 +109,7 @@ if (CryptGenKey(
     hProv,      
     CALG_RC4,      
     CRYPT_EXPORTABLE, 
-    &amp;hKey))
+    &hKey))
 {   
     printf("Original session key is created. \n");
 }
@@ -125,7 +125,7 @@ if(CryptExportKey(
    SIMPLEBLOB, 
    0, 
    NULL, 
-   &amp;dwBlobLen)) 
+   &dwBlobLen)) 
 {
      printf("Size of the BLOB for the session key determined. \n");
 }
@@ -151,7 +151,7 @@ if(CryptExportKey(
    SIMPLEBLOB, 
    0, 
    pbKeyBlob, 
-   &amp;dwBlobLen))
+   &dwBlobLen))
 {
      printf("Contents have been written to the BLOB. \n");
 }

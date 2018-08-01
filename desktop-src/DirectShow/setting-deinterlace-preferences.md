@@ -35,17 +35,17 @@ The following code shows these steps:
 VMR9VideoDesc VideoDesc; 
 DWORD dwNumModes = 0;
 // Fill in the VideoDesc structure (not shown).
-hr = pDeinterlace->GetNumberOfDeinterlaceModes(&amp;VideoDesc, 
-    &amp;dwNumModes, NULL);
-if (SUCCEEDED(hr) &amp;&amp; (dwNumModes != 0))
+hr = pDeinterlace->GetNumberOfDeinterlaceModes(&VideoDesc, 
+    &dwNumModes, NULL);
+if (SUCCEEDED(hr) && (dwNumModes != 0))
 {
     // Allocate an array for the GUIDs that identify the modes.
     GUID *pModes = new GUID[dwNumModes];
     if (pModes)
     {
         // Fill the array.
-        hr = pDeinterlace->GetNumberOfDeinterlaceModes(&amp;VideoDesc, 
-            &amp;dwNumModes, pModes);
+        hr = pDeinterlace->GetNumberOfDeinterlaceModes(&VideoDesc, 
+            &dwNumModes, pModes);
         if (SUCCEEDED(hr))
         {
             // Loop through each item and get the capabilities.
@@ -53,7 +53,7 @@ if (SUCCEEDED(hr) &amp;&amp; (dwNumModes != 0))
             {
                 VMR9DeinterlaceCaps Caps;
                 hr = pDeinterlace->GetDeinterlaceModeCaps(pModes + i, 
-                    &amp;VideoDesc, &amp;Caps);
+                    &VideoDesc, &Caps);
                 if (SUCCEEDED(hr))
                 {
                     // Examine the Caps structure.

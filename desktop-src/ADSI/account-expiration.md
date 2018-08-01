@@ -59,13 +59,13 @@ HRESULT SetUserAccountExpirationDate(IADsUser *pUser, DATE date)
     {
         // Account never expires. Set the accountExpires attribute to zero.
         VARIANT var;
-        VariantInit(&amp;var);
-        V_I4(&amp;var) = 0;
-        V_VT(&amp;var) = VT_I4;
+        VariantInit(&var);
+        V_I4(&var) = 0;
+        V_VT(&var) = VT_I4;
         
         hr = pUser->Put(CComBSTR("accountExpires"), var); 
 
-        VariantClear(&amp;var);
+        VariantClear(&var);
     }
     else 
     {

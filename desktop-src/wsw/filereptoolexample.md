@@ -60,10 +60,10 @@ void CleanupChannel(WS_CHANNEL* channel)
         return;
     }        
 #ifdef DBG
-    HRESULT hr = WsGetChannelProperty(channel, WS_CHANNEL_PROPERTY_STATE, &amp;state, sizeof(state), NULL);
+    HRESULT hr = WsGetChannelProperty(channel, WS_CHANNEL_PROPERTY_STATE, &state, sizeof(state), NULL);
     assert(SUCCEEDED(hr));
 #else
-    (void)WsGetChannelProperty(channel, WS_CHANNEL_PROPERTY_STATE, &amp;state, sizeof(state), NULL);
+    (void)WsGetChannelProperty(channel, WS_CHANNEL_PROPERTY_STATE, &state, sizeof(state), NULL);
 #endif
 
         
@@ -122,7 +122,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -130,7 +130,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -239,7 +239,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
 
     if (argc > 5)
     {        
-        hr = ParseCommandLine(argc - 5, &amp;argv[5], &amp;synchronous, &amp;messageEncoding);
+        hr = ParseCommandLine(argc - 5, &argv[5], &synchronous, &messageEncoding);
         if (FAILED(hr))
         {
             return -1;
@@ -271,7 +271,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         wprintf(L"Using MTOM encoding.\n");
     }
 
-    if (FAILED(ParseTransport(clientURL, &amp;clientTransport, &amp;clientSecurityMode)))
+    if (FAILED(ParseTransport(clientURL, &clientTransport, &clientSecurityMode)))
     {
         wprintf(L"Illegal protocol for communicating with the client service.\n");
         return -1;
@@ -294,7 +294,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         return -1;
     }
 
-    if (FAILED(ParseTransport(serverURL, &amp;serverTransport, &amp;serverSecurityMode)))
+    if (FAILED(ParseTransport(serverURL, &serverTransport, &serverSecurityMode)))
     {
         wprintf(L"Illegal protocol for communication between client and server service.\n");
         return -1;
@@ -306,31 +306,31 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     }
     
     // Create an error object for storing rich error information.
-    IfFailedExit(WsCreateError(NULL, 0, &amp;error));
+    IfFailedExit(WsCreateError(NULL, 0, &error));
 
     // Transferring a file could take a long time. Thus we use a long timeout of one hour.
     // If the user does not want to wait he or she should use the async mode.
     ULONG timeout = 1000*60*60*24;
     WS_CHANNEL_PROPERTY channelProperty[2];
     channelProperty[0].id = WS_CHANNEL_PROPERTY_RECEIVE_RESPONSE_TIMEOUT;
-    channelProperty[0].value = &amp;timeout;
+    channelProperty[0].value = &timeout;
     channelProperty[0].valueSize = sizeof(timeout);
 
     channelProperty[1].id = WS_CHANNEL_PROPERTY_RECEIVE_TIMEOUT;
-    channelProperty[1].value = &amp;timeout;
+    channelProperty[1].value = &timeout;
     channelProperty[1].valueSize = sizeof(timeout);
 
     IfFailedExit(WsCreateChannel(WS_CHANNEL_TYPE_REQUEST, 
-        WS_HTTP_CHANNEL_BINDING, channelProperty, 2, NULL, &amp;channel, error));
+        WS_HTTP_CHANNEL_BINDING, channelProperty, 2, NULL, &channel, error));
     
-    IfFailedExit(WsCreateMessageForChannel(channel, NULL, 0, &amp;requestMessage, error));   
-    IfFailedExit(WsCreateMessageForChannel(channel, NULL, 0, &amp;replyMessage, error));
+    IfFailedExit(WsCreateMessageForChannel(channel, NULL, 0, &requestMessage, error));   
+    IfFailedExit(WsCreateMessageForChannel(channel, NULL, 0, &replyMessage, error));
    
     // Initialize address of service
     address.url.chars = clientURL;
-    IfFailedExit(SizeTToULong(wcslen(address.url.chars), &amp;address.url.length));
+    IfFailedExit(SizeTToULong(wcslen(address.url.chars), &address.url.length));
     
-    IfFailedExit(WsOpenChannel(channel, &amp;address, NULL, error));    
+    IfFailedExit(WsOpenChannel(channel, &address, NULL, error));    
 
     if (synchronous)
     {
@@ -348,28 +348,28 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     userRequest.sourcePath = sourcePath;
     userRequest.destinationPath = destinationPath;
 
-    IfFailedExit(WsCreateHeap(65536, 0, NULL, 0, &amp;heap, NULL));
+    IfFailedExit(WsCreateHeap(65536, 0, NULL, 0, &heap, NULL));
 
     WS_MESSAGE_DESCRIPTION userRequestMessageDescription;
-    userRequestMessageDescription.action = &amp;userRequestAction;
-    userRequestMessageDescription.bodyElementDescription = &amp;userRequestElement;
+    userRequestMessageDescription.action = &userRequestAction;
+    userRequestMessageDescription.bodyElementDescription = &userRequestElement;
 
     WS_MESSAGE_DESCRIPTION userResponseMessageDescription;
-    userResponseMessageDescription.action = &amp;userResponseAction;
-    userResponseMessageDescription.bodyElementDescription = &amp;userResponseElement;
+    userResponseMessageDescription.action = &userResponseAction;
+    userResponseMessageDescription.bodyElementDescription = &userResponseElement;
       
     hr = WsRequestReply(
         channel, 
         requestMessage, 
-        &amp;userRequestMessageDescription,
+        &userRequestMessageDescription,
         WS_WRITE_REQUIRED_VALUE,
-        &amp;userRequest, 
+        &userRequest, 
         sizeof(userRequest), 
         replyMessage, 
-        &amp;userResponseMessageDescription, 
+        &userResponseMessageDescription, 
         WS_READ_REQUIRED_POINTER, 
         heap, 
-        &amp;userResponse, 
+        &userResponse, 
         sizeof(userResponse), 
         NULL, 
         error);
@@ -378,7 +378,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     {
         // We got a fault.
         WS_FAULT* fault;
-        IfFailedExit(WsGetFaultErrorProperty(error, WS_FAULT_ERROR_PROPERTY_FAULT, &amp;fault, sizeof(fault)));
+        IfFailedExit(WsGetFaultErrorProperty(error, WS_FAULT_ERROR_PROPERTY_FAULT, &fault, sizeof(fault)));
         wprintf(L"The server returned a fault:\n");
 
         for (ULONG i = 0; i < fault->reasonCount; i++)
@@ -411,7 +411,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         
     EXIT
    
-    if (FAILED(hr) &amp;&amp; WS_E_ENDPOINT_FAULT_RECEIVED != hr)
+    if (FAILED(hr) && WS_E_ENDPOINT_FAULT_RECEIVED != hr)
     {
         wprintf(L"Unexpected failure:\n");
         PrintError(hr, error);
@@ -483,11 +483,11 @@ extern WS_XML_DICTIONARY fileRequestDictionary;
 
 static WS_XML_STRING fileRequestDictionaryStrings[] =
 {
-    WS_XML_STRING_DICTIONARY_VALUE("FilePosition", &amp;fileRequestDictionary, 0),
-    WS_XML_STRING_DICTIONARY_VALUE("FileName", &amp;fileRequestDictionary, 1),
-    WS_XML_STRING_DICTIONARY_VALUE("FileRequest", &amp;fileRequestDictionary, 2),
-    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &amp;fileRequestDictionary, 3),
-    WS_XML_STRING_DICTIONARY_VALUE("FileRequest", &amp;fileRequestDictionary, 4),
+    WS_XML_STRING_DICTIONARY_VALUE("FilePosition", &fileRequestDictionary, 0),
+    WS_XML_STRING_DICTIONARY_VALUE("FileName", &fileRequestDictionary, 1),
+    WS_XML_STRING_DICTIONARY_VALUE("FileRequest", &fileRequestDictionary, 2),
+    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &fileRequestDictionary, 3),
+    WS_XML_STRING_DICTIONARY_VALUE("FileRequest", &fileRequestDictionary, 4),
 };
 
 static WS_XML_DICTIONARY fileRequestDictionary =
@@ -512,8 +512,8 @@ static WS_XML_DICTIONARY fileRequestDictionary =
 static WS_FIELD_DESCRIPTION filePositionField = 
 {
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;filePositionLocalName,
-    &amp;fileRequestNamespace,
+    &filePositionLocalName,
+    &fileRequestNamespace,
     WS_INT64_TYPE,
     NULL,
     WsOffsetOf(FileRequest, filePosition),
@@ -522,8 +522,8 @@ static WS_FIELD_DESCRIPTION filePositionField =
 static WS_FIELD_DESCRIPTION fileNameField = 
 { 
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;fileNameLocalName,
-    &amp;fileRequestNamespace,
+    &fileNameLocalName,
+    &fileRequestNamespace,
     WS_WSZ_TYPE,
     NULL,
     WsOffsetOf(FileRequest, fileName),
@@ -531,8 +531,8 @@ static WS_FIELD_DESCRIPTION fileNameField =
 
 static WS_FIELD_DESCRIPTION* fileRequestFields[] = 
 { 
-    &amp;filePositionField,
-    &amp;fileNameField,
+    &filePositionField,
+    &fileNameField,
 };
 
 static WS_STRUCT_DESCRIPTION fileRequestType =
@@ -541,16 +541,16 @@ static WS_STRUCT_DESCRIPTION fileRequestType =
     __alignof(FileRequest),
     fileRequestFields,
     WsCountOf(fileRequestFields),
-    &amp;fileRequestTypeName,
-    &amp;fileRequestNamespace,
+    &fileRequestTypeName,
+    &fileRequestNamespace,
 };
 
 static WS_ELEMENT_DESCRIPTION fileRequestElement = 
 {
-    &amp;fileRequestLocalName,
-    &amp;fileRequestNamespace,
+    &fileRequestLocalName,
+    &fileRequestNamespace,
     WS_STRUCT_TYPE,
-    &amp;fileRequestType,
+    &fileRequestType,
 };
 
 //
@@ -568,12 +568,12 @@ extern WS_XML_DICTIONARY fileInfoDictionary;
 
 static WS_XML_STRING fileInfoDictionaryStrings[] =
 {
-    WS_XML_STRING_DICTIONARY_VALUE("FileName", &amp;fileInfoDictionary, 0),
-    WS_XML_STRING_DICTIONARY_VALUE("FileLength", &amp;fileInfoDictionary, 1),
-    WS_XML_STRING_DICTIONARY_VALUE("ChunkSize", &amp;fileInfoDictionary, 2),
-    WS_XML_STRING_DICTIONARY_VALUE("FileInfo", &amp;fileInfoDictionary, 3),
-    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &amp;fileInfoDictionary, 4),
-    WS_XML_STRING_DICTIONARY_VALUE("FileInfo", &amp;fileInfoDictionary, 5),
+    WS_XML_STRING_DICTIONARY_VALUE("FileName", &fileInfoDictionary, 0),
+    WS_XML_STRING_DICTIONARY_VALUE("FileLength", &fileInfoDictionary, 1),
+    WS_XML_STRING_DICTIONARY_VALUE("ChunkSize", &fileInfoDictionary, 2),
+    WS_XML_STRING_DICTIONARY_VALUE("FileInfo", &fileInfoDictionary, 3),
+    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &fileInfoDictionary, 4),
+    WS_XML_STRING_DICTIONARY_VALUE("FileInfo", &fileInfoDictionary, 5),
 };
 
 static WS_XML_DICTIONARY fileInfoDictionary =
@@ -599,8 +599,8 @@ static WS_XML_DICTIONARY fileInfoDictionary =
 static WS_FIELD_DESCRIPTION fileNameInfoField = 
 {
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;fileNameInfoLocalName,
-    &amp;fileInfoNamespace,
+    &fileNameInfoLocalName,
+    &fileInfoNamespace,
     WS_WSZ_TYPE,
     NULL,
     WsOffsetOf(FileInfo, fileName),
@@ -609,8 +609,8 @@ static WS_FIELD_DESCRIPTION fileNameInfoField =
 static WS_FIELD_DESCRIPTION fileLengthField = 
 {
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;fileLengthLocalName,
-    &amp;fileInfoNamespace,
+    &fileLengthLocalName,
+    &fileInfoNamespace,
     WS_INT64_TYPE,
     NULL,
     WsOffsetOf(FileInfo, fileLength),
@@ -619,8 +619,8 @@ static WS_FIELD_DESCRIPTION fileLengthField =
 static WS_FIELD_DESCRIPTION chunkSizeField = 
 {
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;chunkSizeLocalName,
-    &amp;fileInfoNamespace,
+    &chunkSizeLocalName,
+    &fileInfoNamespace,
     WS_UINT32_TYPE,
     NULL,
     WsOffsetOf(FileInfo, chunkSize),
@@ -628,9 +628,9 @@ static WS_FIELD_DESCRIPTION chunkSizeField =
 
 static WS_FIELD_DESCRIPTION* fileInfoFields[] = 
 { 
-    &amp;fileNameInfoField,
-    &amp;fileLengthField,
-    &amp;chunkSizeField,
+    &fileNameInfoField,
+    &fileLengthField,
+    &chunkSizeField,
 };
 
 static WS_STRUCT_DESCRIPTION fileInfoType =
@@ -639,16 +639,16 @@ static WS_STRUCT_DESCRIPTION fileInfoType =
     __alignof(FileInfo),
     fileInfoFields,
     WsCountOf(fileInfoFields),
-    &amp;fileInfoElementName,
-    &amp;fileInfoNamespace,
+    &fileInfoElementName,
+    &fileInfoNamespace,
 };
 
 static WS_ELEMENT_DESCRIPTION fileInfoElement = 
 {
-    &amp;fileInfoLocalName,
-    &amp;fileInfoNamespace,
+    &fileInfoLocalName,
+    &fileInfoNamespace,
     WS_STRUCT_TYPE,
-    &amp;fileInfoType,
+    &fileInfoType,
 };
 
 
@@ -669,12 +669,12 @@ extern WS_XML_DICTIONARY fileChunkDictionary;
 
 static WS_XML_STRING fileChunkDictionaryStrings[] =
 {
-    WS_XML_STRING_DICTIONARY_VALUE("ChunkPosition", &amp;fileChunkDictionary, 0),
-    WS_XML_STRING_DICTIONARY_VALUE("FileContent", &amp;fileChunkDictionary, 1),
-    WS_XML_STRING_DICTIONARY_VALUE("Error", &amp;fileChunkDictionary, 2),
-    WS_XML_STRING_DICTIONARY_VALUE("FileChunk", &amp;fileChunkDictionary, 3),
-    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &amp;fileChunkDictionary, 4),
-    WS_XML_STRING_DICTIONARY_VALUE("FileChunk", &amp;fileChunkDictionary, 5),
+    WS_XML_STRING_DICTIONARY_VALUE("ChunkPosition", &fileChunkDictionary, 0),
+    WS_XML_STRING_DICTIONARY_VALUE("FileContent", &fileChunkDictionary, 1),
+    WS_XML_STRING_DICTIONARY_VALUE("Error", &fileChunkDictionary, 2),
+    WS_XML_STRING_DICTIONARY_VALUE("FileChunk", &fileChunkDictionary, 3),
+    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &fileChunkDictionary, 4),
+    WS_XML_STRING_DICTIONARY_VALUE("FileChunk", &fileChunkDictionary, 5),
 };
 
 static WS_XML_DICTIONARY fileChunkDictionary =
@@ -700,8 +700,8 @@ static WS_XML_DICTIONARY fileChunkDictionary =
 static WS_FIELD_DESCRIPTION chunkPositionField = 
 {
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;chunkPositionLocalName,
-    &amp;fileChunkNamespace,
+    &chunkPositionLocalName,
+    &fileChunkNamespace,
     WS_INT64_TYPE,
     NULL,
     WsOffsetOf(FileChunk, chunkPosition),
@@ -711,8 +711,8 @@ static WS_FIELD_DESCRIPTION chunkPositionField =
 static WS_FIELD_DESCRIPTION fileContentField = 
 {
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;fileContentLocalName,
-    &amp;fileChunkNamespace,
+    &fileContentLocalName,
+    &fileChunkNamespace,
     WS_BYTES_TYPE,
     NULL,
     WsOffsetOf(FileChunk, fileContent),
@@ -721,8 +721,8 @@ static WS_FIELD_DESCRIPTION fileContentField =
 static WS_FIELD_DESCRIPTION errorField = 
 {
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;errorLocalName,
-    &amp;fileChunkNamespace,
+    &errorLocalName,
+    &fileChunkNamespace,
     WS_WSZ_TYPE,
     NULL,
     WsOffsetOf(FileChunk, error),
@@ -730,9 +730,9 @@ static WS_FIELD_DESCRIPTION errorField =
 
 static WS_FIELD_DESCRIPTION* fileChunkFields[] = 
 { 
-    &amp;chunkPositionField,
-    &amp;fileContentField,
-    &amp;errorField,    
+    &chunkPositionField,
+    &fileContentField,
+    &errorField,    
 };
 
 static WS_STRUCT_DESCRIPTION fileChunkType =
@@ -741,16 +741,16 @@ static WS_STRUCT_DESCRIPTION fileChunkType =
     __alignof(FileChunk),
     fileChunkFields,
     WsCountOf(fileChunkFields),
-    &amp;fileChunkElementName,
-    &amp;fileChunkNamespace,
+    &fileChunkElementName,
+    &fileChunkNamespace,
 };
 
 static WS_ELEMENT_DESCRIPTION fileChunkElement = 
 {
-    &amp;fileChunkLocalName,
-    &amp;fileChunkNamespace,
+    &fileChunkLocalName,
+    &fileChunkNamespace,
     WS_STRUCT_TYPE,
-    &amp;fileChunkType,
+    &fileChunkType,
 };
 
 typedef enum
@@ -797,16 +797,16 @@ extern WS_XML_DICTIONARY userRequestDictionary;
 
 static WS_XML_STRING userRequestDictionaryStrings[] =
 {
-    WS_XML_STRING_DICTIONARY_VALUE("RequestType", &amp;userRequestDictionary, 0),
-    WS_XML_STRING_DICTIONARY_VALUE("ServerUri", &amp;userRequestDictionary, 1),
-    WS_XML_STRING_DICTIONARY_VALUE("ServerProtocol", &amp;userRequestDictionary, 2),
-    WS_XML_STRING_DICTIONARY_VALUE("SecurityMode", &amp;userRequestDictionary, 3),
-    WS_XML_STRING_DICTIONARY_VALUE("MessageEncoding", &amp;userRequestDictionary, 4),
-    WS_XML_STRING_DICTIONARY_VALUE("SourcePath", &amp;userRequestDictionary, 5),
-    WS_XML_STRING_DICTIONARY_VALUE("DestinationPath", &amp;userRequestDictionary, 6),
-    WS_XML_STRING_DICTIONARY_VALUE("UserRequest", &amp;userRequestDictionary, 7),
-    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &amp;userRequestDictionary, 8),
-    WS_XML_STRING_DICTIONARY_VALUE("UserRequest", &amp;userRequestDictionary, 9),
+    WS_XML_STRING_DICTIONARY_VALUE("RequestType", &userRequestDictionary, 0),
+    WS_XML_STRING_DICTIONARY_VALUE("ServerUri", &userRequestDictionary, 1),
+    WS_XML_STRING_DICTIONARY_VALUE("ServerProtocol", &userRequestDictionary, 2),
+    WS_XML_STRING_DICTIONARY_VALUE("SecurityMode", &userRequestDictionary, 3),
+    WS_XML_STRING_DICTIONARY_VALUE("MessageEncoding", &userRequestDictionary, 4),
+    WS_XML_STRING_DICTIONARY_VALUE("SourcePath", &userRequestDictionary, 5),
+    WS_XML_STRING_DICTIONARY_VALUE("DestinationPath", &userRequestDictionary, 6),
+    WS_XML_STRING_DICTIONARY_VALUE("UserRequest", &userRequestDictionary, 7),
+    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &userRequestDictionary, 8),
+    WS_XML_STRING_DICTIONARY_VALUE("UserRequest", &userRequestDictionary, 9),
 };
 
 static WS_XML_DICTIONARY userRequestDictionary =
@@ -836,8 +836,8 @@ static WS_XML_DICTIONARY userRequestDictionary =
 static WS_FIELD_DESCRIPTION requestTypeField = 
 {
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;requestTypeLocalName,
-    &amp;userRequestNamespace,
+    &requestTypeLocalName,
+    &userRequestNamespace,
     WS_INT32_TYPE,
     NULL,
     WsOffsetOf(UserRequest, requestType),
@@ -846,8 +846,8 @@ static WS_FIELD_DESCRIPTION requestTypeField =
 static WS_FIELD_DESCRIPTION serverUriField = 
 { 
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;serverUriLocalName,
-    &amp;userRequestNamespace,
+    &serverUriLocalName,
+    &userRequestNamespace,
     WS_WSZ_TYPE,
     NULL,
     WsOffsetOf(UserRequest, serverUri),
@@ -856,8 +856,8 @@ static WS_FIELD_DESCRIPTION serverUriField =
 static WS_FIELD_DESCRIPTION serverProtocolField = 
 { 
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;serverProtocolLocalName,
-    &amp;userRequestNamespace,
+    &serverProtocolLocalName,
+    &userRequestNamespace,
     WS_INT32_TYPE,
     NULL,
     WsOffsetOf(UserRequest, serverProtocol),
@@ -866,8 +866,8 @@ static WS_FIELD_DESCRIPTION serverProtocolField =
 static WS_FIELD_DESCRIPTION securityModeField = 
 { 
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;securityModeLocalName,
-    &amp;userRequestNamespace,
+    &securityModeLocalName,
+    &userRequestNamespace,
     WS_INT32_TYPE,
     NULL,
     WsOffsetOf(UserRequest, securityMode),
@@ -876,8 +876,8 @@ static WS_FIELD_DESCRIPTION securityModeField =
 static WS_FIELD_DESCRIPTION messageEncodingField = 
 { 
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;messageEncodingLocalName,
-    &amp;userRequestNamespace,
+    &messageEncodingLocalName,
+    &userRequestNamespace,
     WS_INT32_TYPE,
     NULL,
     WsOffsetOf(UserRequest, messageEncoding),
@@ -886,8 +886,8 @@ static WS_FIELD_DESCRIPTION messageEncodingField =
 static WS_FIELD_DESCRIPTION sourcePathField = 
 { 
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;sourcePathLocalName,
-    &amp;userRequestNamespace,
+    &sourcePathLocalName,
+    &userRequestNamespace,
     WS_WSZ_TYPE,
     NULL,
     WsOffsetOf(UserRequest, sourcePath),
@@ -896,8 +896,8 @@ static WS_FIELD_DESCRIPTION sourcePathField =
 static WS_FIELD_DESCRIPTION destinationPathField = 
 { 
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;destinationPathLocalName,
-    &amp;userRequestNamespace,
+    &destinationPathLocalName,
+    &userRequestNamespace,
     WS_WSZ_TYPE,
     NULL,
     WsOffsetOf(UserRequest, destinationPath),
@@ -905,13 +905,13 @@ static WS_FIELD_DESCRIPTION destinationPathField =
 
 static WS_FIELD_DESCRIPTION* userRequestFields[] = 
 { 
-    &amp;requestTypeField,
-    &amp;serverUriField,
-    &amp;serverProtocolField,
-    &amp;securityModeField,
-    &amp;messageEncodingField,
-    &amp;sourcePathField,
-    &amp;destinationPathField,
+    &requestTypeField,
+    &serverUriField,
+    &serverProtocolField,
+    &securityModeField,
+    &messageEncodingField,
+    &sourcePathField,
+    &destinationPathField,
 };
 
 static WS_STRUCT_DESCRIPTION userRequestType =
@@ -920,16 +920,16 @@ static WS_STRUCT_DESCRIPTION userRequestType =
     __alignof(UserRequest),
     userRequestFields,
     WsCountOf(userRequestFields),
-    &amp;userRequestTypeName,
-    &amp;userRequestNamespace,
+    &userRequestTypeName,
+    &userRequestNamespace,
 };
 
 static WS_ELEMENT_DESCRIPTION userRequestElement = 
 {
-    &amp;userRequestLocalName,
-    &amp;userRequestNamespace,
+    &userRequestLocalName,
+    &userRequestNamespace,
     WS_STRUCT_TYPE,
-    &amp;userRequestType,
+    &userRequestType,
 };
 
 
@@ -952,10 +952,10 @@ extern WS_XML_DICTIONARY userResponseDictionary;
 
 static WS_XML_STRING userResponseDictionaryStrings[] =
 {
-    WS_XML_STRING_DICTIONARY_VALUE("ReturnValue", &amp;userResponseDictionary, 0),
-    WS_XML_STRING_DICTIONARY_VALUE("UserResponse", &amp;userResponseDictionary, 1),
-    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &amp;userResponseDictionary, 2),
-    WS_XML_STRING_DICTIONARY_VALUE("UserResponse", &amp;userResponseDictionary, 3),
+    WS_XML_STRING_DICTIONARY_VALUE("ReturnValue", &userResponseDictionary, 0),
+    WS_XML_STRING_DICTIONARY_VALUE("UserResponse", &userResponseDictionary, 1),
+    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &userResponseDictionary, 2),
+    WS_XML_STRING_DICTIONARY_VALUE("UserResponse", &userResponseDictionary, 3),
 };
 
 static WS_XML_DICTIONARY userResponseDictionary =
@@ -979,8 +979,8 @@ static WS_XML_DICTIONARY userResponseDictionary =
 static WS_FIELD_DESCRIPTION returnValueField = 
 {
     WS_ELEMENT_FIELD_MAPPING,
-    &amp;returnValueLocalName,
-    &amp;userResponseNamespace,
+    &returnValueLocalName,
+    &userResponseNamespace,
     WS_INT32_TYPE,
     NULL,
     WsOffsetOf(UserResponse, returnValue),
@@ -989,7 +989,7 @@ static WS_FIELD_DESCRIPTION returnValueField =
 
 static WS_FIELD_DESCRIPTION* userResponseFields[] = 
 { 
-    &amp;returnValueField,
+    &returnValueField,
 };
 
 static WS_STRUCT_DESCRIPTION userResponseType =
@@ -998,16 +998,16 @@ static WS_STRUCT_DESCRIPTION userResponseType =
     __alignof(UserResponse),
     userResponseFields,
     WsCountOf(userResponseFields),
-    &amp;userResponseTypeName,
-    &amp;userResponseNamespace,
+    &userResponseTypeName,
+    &userResponseNamespace,
 };
 
 static WS_ELEMENT_DESCRIPTION userResponseElement = 
 {
-    &amp;userResponseLocalName,
-    &amp;userResponseNamespace,
+    &userResponseLocalName,
+    &userResponseNamespace,
     WS_STRUCT_TYPE,
-    &amp;userResponseType,
+    &userResponseType,
 };
 
 

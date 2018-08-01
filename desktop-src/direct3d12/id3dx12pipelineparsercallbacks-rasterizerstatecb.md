@@ -30,7 +30,7 @@ Calls the rasterizer state description subobject callback of an object that impl
 
 ```C++
 void RasterizerStateCb(
-  [ref] const D3D12_RASTERIZER_DESC &amp;RasterizerState
+  [ref] const D3D12_RASTERIZER_DESC &RasterizerState
 );
 ```
 

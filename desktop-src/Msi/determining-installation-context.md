@@ -67,7 +67,7 @@ UINT DetermineContextForAllProducts()
             // This indicates whether the product
             // instance is per-user or per-machine
             if (ERROR_SUCCESS == 
-                MsiGetProductInfo(wszProductCode,INSTALLPROPERTY_ASSIGNMENTTYPE,wszAssignmentType,&amp;cchAssignmentType))
+                MsiGetProductInfo(wszProductCode,INSTALLPROPERTY_ASSIGNMENTTYPE,wszAssignmentType,&cchAssignmentType))
             {
                 if (L'1' == wszAssignmentType[0])
                     fPerMachine = TRUE;
@@ -87,7 +87,7 @@ UINT DetermineContextForAllProducts()
             // If fManaged is FALSE, product installation operations
             // run as the user.
             if (ERROR_SUCCESS != MsiIsProductElevated(wszProductCode,
-                                         &amp;fManaged))
+                                         &fManaged))
             {
                 // This halts the enumeration and fails. Alternatively the error
                 // could be logged and enumeration continued for the
@@ -97,7 +97,7 @@ UINT DetermineContextForAllProducts()
             }
 
             // obtain the user friendly name of the product
-            UINT uiReturn = MsiGetProductInfo(wszProductCode,INSTALLPROPERTY_PRODUCTNAME,lpProductName,&amp;cchProductName);
+            UINT uiReturn = MsiGetProductInfo(wszProductCode,INSTALLPROPERTY_PRODUCTNAME,lpProductName,&cchProductName);
             if (ERROR_MORE_DATA == uiReturn)
             {
                 // try again, but with a larger product name buffer
@@ -114,7 +114,7 @@ UINT DetermineContextForAllProducts()
                     break;
                 }
 
-                uiReturn = MsiGetProductInfo(wszProductCode,INSTALLPROPERTY_PRODUCTNAME,lpProductName,&amp;cchProductName);
+                uiReturn = MsiGetProductInfo(wszProductCode,INSTALLPROPERTY_PRODUCTNAME,lpProductName,&cchProductName);
             }
 
             if (ERROR_SUCCESS != uiReturn)

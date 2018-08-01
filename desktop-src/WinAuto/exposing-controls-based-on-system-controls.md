@@ -44,7 +44,7 @@ HRESULT CAccCustomButton::Initialize( HWND hWnd, HINSTANCE hInst )
     hr = CreateStdAccessibleObject( m_hWnd, 
                                     OBJID_CLIENT, 
                                     IID_IAccessible, 
-                                    (void **) &amp;m__pAccDefaultButton );
+                                    (void **) &m__pAccDefaultButton );
 .
 .
 .

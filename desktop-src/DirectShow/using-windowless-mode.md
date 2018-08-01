@@ -66,7 +66,7 @@ HRESULT InitWindowlessVMR(
     IVMRWindowlessControl* pWc = NULL; 
     // Create the VMR. 
     HRESULT hr = CoCreateInstance(CLSID_VideoMixingRenderer, NULL, 
-        CLSCTX_INPROC, IID_IBaseFilter, (void**)&amp;pVmr); 
+        CLSCTX_INPROC, IID_IBaseFilter, (void**)&pVmr); 
     if (FAILED(hr))
     {
         return hr;
@@ -81,7 +81,7 @@ HRESULT InitWindowlessVMR(
     }
     // Set the rendering mode.  
     IVMRFilterConfig* pConfig; 
-    hr = pVmr->QueryInterface(IID_IVMRFilterConfig, (void**)&amp;pConfig); 
+    hr = pVmr->QueryInterface(IID_IVMRFilterConfig, (void**)&pConfig); 
     if (SUCCEEDED(hr)) 
     { 
         hr = pConfig->SetRenderingMode(VMRMode_Windowless); 
@@ -90,7 +90,7 @@ HRESULT InitWindowlessVMR(
     if (SUCCEEDED(hr))
     {
         // Set the window. 
-        hr = pVmr->QueryInterface(IID_IVMRWindowlessControl, (void**)&amp;pWc);
+        hr = pVmr->QueryInterface(IID_IVMRWindowlessControl, (void**)&pWc);
         if( SUCCEEDED(hr)) 
         { 
             hr = pWc->SetVideoClippingWindow(hwndApp); 
@@ -117,7 +117,7 @@ This function assumes that are displaying only one video stream and are not mixi
 
 ```C++
 IVMRWindowlessControl *pWc = NULL;
-hr = InitWindowlessVMR(hwnd, pGraph, &amp;g_pWc);
+hr = InitWindowlessVMR(hwnd, pGraph, &g_pWc);
 if (SUCCEEDED(hr))
 {
     // Build the graph. For example:
@@ -149,20 +149,20 @@ For example, the following code sets the source and destination rectangles for t
 ```C++
 // Find the native video size.
 long lWidth, lHeight; 
-HRESULT hr = g_pWc->GetNativeVideoSize(&amp;lWidth, &amp;lHeight, NULL, NULL); 
+HRESULT hr = g_pWc->GetNativeVideoSize(&lWidth, &lHeight, NULL, NULL); 
 if (SUCCEEDED(hr))
 {
     RECT rcSrc, rcDest; 
     // Set the source rectangle.
-    SetRect(&amp;rcSrc, 0, 0, lWidth, lHeight); 
+    SetRect(&rcSrc, 0, 0, lWidth, lHeight); 
     
     // Get the window client area.
-    GetClientRect(hwnd, &amp;rcDest); 
+    GetClientRect(hwnd, &rcDest); 
     // Set the destination rectangle.
-    SetRect(&amp;rcDest, 0, 0, rcDest.right, rcDest.bottom); 
+    SetRect(&rcDest, 0, 0, rcDest.right, rcDest.bottom); 
     
     // Set the video position.
-    hr = g_pWc->SetVideoPosition(&amp;rcSrc, &amp;rcDest); 
+    hr = g_pWc->SetVideoPosition(&rcSrc, &rcDest); 
 }
 ```
 
@@ -200,15 +200,15 @@ void OnPaint(HWND hwnd)
     PAINTSTRUCT ps; 
     HDC         hdc; 
     RECT        rcClient; 
-    GetClientRect(hwnd, &amp;rcClient); 
-    hdc = BeginPaint(hwnd, &amp;ps); 
+    GetClientRect(hwnd, &rcClient); 
+    hdc = BeginPaint(hwnd, &ps); 
     if (g_pWc != NULL) 
     { 
         // Find the region where the application can paint by subtracting 
         // the video destination rectangle from the client area.
         // (Assume that g_rcDest was calculated previously.)
-        HRGN rgnClient = CreateRectRgnIndirect(&amp;rcClient); 
-        HRGN rgnVideo  = CreateRectRgnIndirect(&amp;g_rcDest);  
+        HRGN rgnClient = CreateRectRgnIndirect(&rcClient); 
+        HRGN rgnVideo  = CreateRectRgnIndirect(&g_rcDest);  
         CombineRgn(rgnClient, rgnClient, rgnVideo, RGN_DIFF);  
         
         // Paint on window.
@@ -225,9 +225,9 @@ void OnPaint(HWND hwnd)
     } 
     else  // There is no video, so paint the whole client area. 
     { 
-        FillRect(hdc, &amp;rc2, (HBRUSH)(COLOR_BTNFACE + 1)); 
+        FillRect(hdc, &rc2, (HBRUSH)(COLOR_BTNFACE + 1)); 
     } 
-    EndPaint(hwnd, &amp;ps); 
+    EndPaint(hwnd, &ps); 
 } 
 ```
 

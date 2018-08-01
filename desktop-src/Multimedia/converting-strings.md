@@ -60,19 +60,19 @@ BOOL GetSourceRect(LPTSTR lpstrAlias, LPRECT lprc)
     TCHAR *context;
 
     // Left.
-    p = _tcstok_s(achRetBuff, TEXT(" "), &amp;context);
+    p = _tcstok_s(achRetBuff, TEXT(" "), &context);
     lprc->left = _tstoi(p);
 
     // Top.
-    p = _tcstok_s(NULL, TEXT(" "), &amp;context);
+    p = _tcstok_s(NULL, TEXT(" "), &context);
     lprc->top = _tstoi(p);
 
     // Right.
-    p = _tcstok_s(NULL, TEXT(" "), &amp;context);
+    p = _tcstok_s(NULL, TEXT(" "), &context);
     lprc->right = _tstoi(p);
     
     // Bottom.
-    p = _tcstok_s(NULL, TEXT(" "), &amp;context);
+    p = _tcstok_s(NULL, TEXT(" "), &context);
     lprc->bottom = _tstoi(p);
 
     return TRUE;

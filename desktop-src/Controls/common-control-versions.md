@@ -141,10 +141,10 @@ DWORD GetVersion(LPCTSTR lpszDllName)
             DLLVERSIONINFO dvi;
             HRESULT hr;
 
-            ZeroMemory(&amp;dvi, sizeof(dvi));
+            ZeroMemory(&dvi, sizeof(dvi));
             dvi.info1.cbSize = sizeof(dvi);
 
-            hr = (*pDllGetVersion)(&amp;dvi);
+            hr = (*pDllGetVersion)(&dvi);
 
             if(SUCCEEDED(hr))
             {

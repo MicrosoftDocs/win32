@@ -66,7 +66,7 @@ EVT_HANDLE ConnectToRemote(LPWSTR lpwszRemote)
     EVT_HANDLE hRemote = NULL;
     EVT_RPC_LOGIN Credentials;
 
-    RtlZeroMemory(&amp;Credentials, sizeof(EVT_RPC_LOGIN));
+    RtlZeroMemory(&Credentials, sizeof(EVT_RPC_LOGIN));
     Credentials.Server = lpwszRemote;
     Credentials.Domain = NULL; 
     Credentials.User = NULL; 
@@ -76,9 +76,9 @@ EVT_HANDLE ConnectToRemote(LPWSTR lpwszRemote)
     // This call creates a remote seesion context; it does not actually
     // create a connection to the remote computer. The connection to
     // the remote computer happens when you use the context.
-    hRemote = EvtOpenSession(EvtRpcLogin, &amp;Credentials, 0, 0);
+    hRemote = EvtOpenSession(EvtRpcLogin, &Credentials, 0, 0);
 
-    SecureZeroMemory(&amp;Credentials, sizeof(EVT_RPC_LOGIN));
+    SecureZeroMemory(&Credentials, sizeof(EVT_RPC_LOGIN));
 
     return hRemote;
 }
@@ -100,7 +100,7 @@ void EnumProviders(EVT_HANDLE hRemote)
 
     while (true)
     {
-        if (EvtNextPublisherId(hPublishers, sizeof(wszPublisherName)/sizeof(WCHAR), wszPublisherName, &amp;dwBufferUsed))
+        if (EvtNextPublisherId(hPublishers, sizeof(wszPublisherName)/sizeof(WCHAR), wszPublisherName, &dwBufferUsed))
         {
             wprintf(L"%s\n", wszPublisherName);
         }

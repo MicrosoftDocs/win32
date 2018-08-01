@@ -30,7 +30,7 @@ HRESULT ConnectToLogicalSensor(PCWSTR* wszHardwareID, GUID guidLogicalID)
     PROPVARIANT pv = {};
 
     // Create the property store.
-    hr = PSCreateMemoryPropertyStore(IID_PPV_ARGS(&amp;pStore));
+    hr = PSCreateMemoryPropertyStore(IID_PPV_ARGS(&pStore));
 
     if(SUCCEEDED(hr))
     {
@@ -38,13 +38,13 @@ HRESULT ConnectToLogicalSensor(PCWSTR* wszHardwareID, GUID guidLogicalID)
         hr = CoCreateInstance(CLSID_LogicalSensorManager, 
                                 NULL, 
                                 CLSCTX_INPROC_SERVER, 
-                                IID_PPV_ARGS(&amp;pLSM));
+                                IID_PPV_ARGS(&pLSM));
     }
 
     // Fill in the values.
     if(SUCCEEDED(hr))
     {
-        hr = InitPropVariantFromStringVector(wszHardwareID, 1, &amp;pv);
+        hr = InitPropVariantFromStringVector(wszHardwareID, 1, &pv);
     }
 
     if(SUCCEEDED(hr))
@@ -63,8 +63,8 @@ HRESULT ConnectToLogicalSensor(PCWSTR* wszHardwareID, GUID guidLogicalID)
         hr = pLSM->Connect(guidLogicalID, pStore);
     }
 
-    SafeRelease(&amp;pStore);
-    SafeRelease(&amp;pLSM);
+    SafeRelease(&pStore);
+    SafeRelease(&pLSM);
 
     return hr;
 }
@@ -92,7 +92,7 @@ HRESULT DisconnectFromLogicalSensor(GUID guidLogicalID)
         hr = CoCreateInstance(CLSID_LogicalSensorManager, 
                                 NULL, 
                                 CLSCTX_INPROC_SERVER, 
-                                IID_PPV_ARGS(&amp;pLSM));
+                                IID_PPV_ARGS(&pLSM));
     }
 
     if(SUCCEEDED(hr))
@@ -100,7 +100,7 @@ HRESULT DisconnectFromLogicalSensor(GUID guidLogicalID)
         hr = pLSM->Disconnect(guidLogicalID);
     }
 
-    SafeRelease(&amp;pLSM);
+    SafeRelease(&pLSM);
 
     return hr;
 }
@@ -126,14 +126,14 @@ HRESULT UninstallLogicalSensor(REFGUID guidLogicalID)
     hr = CoCreateInstance(CLSID_LogicalSensorManager, 
                             NULL, 
                             CLSCTX_INPROC_SERVER, 
-                            IID_PPV_ARGS(&amp;pLSM));
+                            IID_PPV_ARGS(&pLSM));
  
     if(SUCCEEDED(hr))
     {
         hr = pLSM->Uninstall(guidLogicalID);
     }
 
-    SafeRelease(&amp;pLSM);
+    SafeRelease(&pLSM);
 
     return hr;
 }

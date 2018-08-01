@@ -42,10 +42,10 @@ UINT64 ReplySize;
 
 //Need to query the IBackgroundCopyJob interface for an IBackgroundCopyJob2
 //interface pointer. The IBackgroundCopyJob2 interface contains the GetReplyData method.
-hr = pJob->QueryInterface(__uuidof(IBackgroundCopyJob2), (void**)&amp;pJob2);
+hr = pJob->QueryInterface(__uuidof(IBackgroundCopyJob2), (void**)&pJob2);
 if (SUCCEEDED(hr))
 {
-    hr = pJob2->GetReplyData(&amp;pReply, &amp;ReplySize);
+    hr = pJob2->GetReplyData(&pReply, &ReplySize);
     if (S_OK == hr))
     {
         if (pReply)
@@ -92,10 +92,10 @@ WCHAR* pszFileName = NULL;
 
 //Need to query the IBackgroundCopyJob interface for an IBackgroundCopyJob2
 //interface pointer. The IBackgroundCopyJob2 interface contains the GetReplyFileName method.
-hr = pJob->QueryInterface(__uuidof(IBackgroundCopyJob2), (void**)&amp;pJob2);
+hr = pJob->QueryInterface(__uuidof(IBackgroundCopyJob2), (void**)&pJob2);
 if (SUCCEEDED(hr))
 {
-    hr = pJob2->GetReplyFileName(&amp;pszFileName);
+    hr = pJob2->GetReplyFileName(&pszFileName);
     if (SUCCEEDED(hr))
     {
         //Calling the Complete method removes the job from the queue, 

@@ -37,7 +37,7 @@ void CreateInstanceFromPropertyData(
   [in, optional] uint32                TTL,
   [in]           string                ISDNNumber,
   [in]           string                SubAddress,
-  [out, ref]     MicrosoftDNS_ISDNType &amp;RR
+  [out, ref]     MicrosoftDNS_ISDNType &RR
 );
 ```
 

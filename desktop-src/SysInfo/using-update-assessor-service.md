@@ -43,10 +43,10 @@ void __cdecl main(int argc, char** argv)
                 NULL,                                   // pUnkOuter
                 CLSCTX_INPROC_SERVER,                   // dwClsContext
                 __uuidof(IWaaSAssessor),              // riid
-                (LPVOID*)&amp;assessment);                  // ppv
+                (LPVOID*)&assessment);                  // ppv
         if (SUCCEEDED(hr))
         {
-            hr = assessment->GetOSUpdateAssessment(&amp;result);
+            hr = assessment->GetOSUpdateAssessment(&result);
             if (SUCCEEDED(hr))
             {
                 wcout << L"End of Support:" << result.isEndOfSupport << endl;

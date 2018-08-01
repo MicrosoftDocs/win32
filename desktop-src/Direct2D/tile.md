@@ -34,7 +34,7 @@ The CLSID for this effect is CLSID\_D2D1Tile.
 
 ```C++
 ComPtr<ID2D1Effect> tileEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Tile, &amp;tileEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Tile, &tileEffect);
 
 tileEffect->SetInput(0, bitmap);
 

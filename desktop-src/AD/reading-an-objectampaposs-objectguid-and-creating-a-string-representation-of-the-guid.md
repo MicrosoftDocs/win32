@@ -124,11 +124,11 @@ void wmain(int argc, wchar_t *argv[])
     wprintf(L"\nBinding to %s\n", wszADsPathObject);
      
     // Bind to initial object.
-    hr = ADsGetObject(wszADsPathObject, IID_IADs, (void**)&amp;pIADsObject);
+    hr = ADsGetObject(wszADsPathObject, IID_IADs, (void**)&pIADsObject);
     if (SUCCEEDED(hr))
     {
         BSTR bstrGuid = NULL;
-        hr = pIADsObject->get_GUID(&amp;bstrGuid); 
+        hr = pIADsObject->get_GUID(&bstrGuid); 
         
         if (SUCCEEDED(hr))
         {
@@ -144,7 +144,7 @@ void wmain(int argc, wchar_t *argv[])
                 swprintf_s(pwszBindByGuidStr, wszFormat, bstrGuid);
          
                 // Bind BACK to the Same object using the GUID.
-                hr = ADsGetObject(pwszBindByGuidStr, IID_IADs, (void**)&amp;pIADsObjectByGuid);
+                hr = ADsGetObject(pwszBindByGuidStr, IID_IADs, (void**)&pIADsObjectByGuid);
                  
                 if (SUCCEEDED(hr))
                 {

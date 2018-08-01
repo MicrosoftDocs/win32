@@ -81,7 +81,7 @@ The following C++ code example creates an administrator-only security descriptor
      _ltow( lMask, wBuf, 16 );
  
 HRESULT hRes = pEventFilterInstance->Put( L"EventAccess", 0,
-    &amp;_variant_t( L"O:BAG:BAD:(A;;0x80;;;BA)" ), NULL );
+    &_variant_t( L"O:BAG:BAD:(A;;0x80;;;BA)" ), NULL );
 ```
 
 

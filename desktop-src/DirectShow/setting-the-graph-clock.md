@@ -23,18 +23,18 @@ IGraphBuilder *pGraph = 0;
 IReferenceClock *pClock = 0;
 
 CoCreateInstance(CLSID_FilterGraph, NULL, CLSCTX_INPROC_SERVER, 
-    IID_IGraphBuilder, (void **)&amp;pGraph);
+    IID_IGraphBuilder, (void **)&pGraph);
 
 // Build the graph.
 pGraph->RenderFile(L"C:\\Example.avi", 0);
 
 // Create your clock.
-hr = CreateMyPrivateClock(&amp;pClock);
+hr = CreateMyPrivateClock(&pClock);
 if (SUCCEEDED(hr))
 {
     // Set the graph clock.
     IMediaFilter *pMediaFilter = 0;
-    pGraph->QueryInterface(IID_IMediaFilter, (void**)&amp;pMediaFilter);
+    pGraph->QueryInterface(IID_IMediaFilter, (void**)&pMediaFilter);
     pMediaFilter->SetSyncSource(pClock);
     pClock->Release();
     pMediaFilter->Release();

@@ -67,13 +67,13 @@ The following example shows part of a stroke event handler, implemented in a sim
 
 ```C++
 IInkRectangle* bounds;
-CheckHResult(pStroke->GetBoundingBox(IBBM_Default, &amp;bounds), "IInkStrokeDisp::GetBoundingBox failed");
+CheckHResult(pStroke->GetBoundingBox(IBBM_Default, &bounds), "IInkStrokeDisp::GetBoundingBox failed");
 long top;
-CheckHResult(bounds->get_Top(&amp;top), "IInkRectangle::get_Top failed");
+CheckHResult(bounds->get_Top(&top), "IInkRectangle::get_Top failed");
 if (top > drawingMargin)
 {
     long strokeId;
-    CheckHResult(pStroke->get_ID(&amp;strokeId), "IInkStrokeDisp::get_ID failed");
+    CheckHResult(pStroke->get_ID(&strokeId), "IInkStrokeDisp::get_ID failed");
     m_pInkAnalyzer->SetStrokeType(strokeId, StrokeType_Drawing);
 }
 ```

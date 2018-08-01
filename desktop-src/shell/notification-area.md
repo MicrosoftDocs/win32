@@ -89,7 +89,7 @@ The icon can be added to the notification area without displaying a notification
 NOTIFYICONDATA nid = {};
 // Do NOT set the NIF_INFO flag.
 ...                    
-Shell_NotifyIcon(NIM_ADD, &amp;nid);
+Shell_NotifyIcon(NIM_ADD, &nid);
 ```
 
 
@@ -108,9 +108,9 @@ NOTIFYICONDATA nid = {};
 ... 
 nid.uVersion = NOTIFYICON_VERSION_4;
 // Add the icon
-Shell_NotifyIcon(NIM_ADD, &amp;nid);
+Shell_NotifyIcon(NIM_ADD, &nid);
 // Set the version
-Shell_NotifyIcon(NIM_SETVERSION, &amp;nid);
+Shell_NotifyIcon(NIM_SETVERSION, &nid);
 ```
 
 
@@ -158,7 +158,7 @@ Once you have set the [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shel
     ```
     NOTIFYICONDATA nid = {};
     ...                    
-    Shell_NotifyIcon(NIM_ADD, &amp;nid);
+    Shell_NotifyIcon(NIM_ADD, &nid);
     ```
 
     
@@ -167,7 +167,7 @@ Once you have set the [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shel
     ```
     NOTIFYICONDATA nid = {};
     ...                    
-    Shell_NotifyIcon(NIM_MODIFY, &amp;nid);
+    Shell_NotifyIcon(NIM_MODIFY, &nid);
     ```
 
     
@@ -197,10 +197,10 @@ The following code shows an example of setting [**NOTIFYICONDATA**](/windows/des
     StringCchCopy(nid.szTip, ARRAYSIZE(nid.szTip), L"Test application");
     
     // Load the icon for high DPI.
-    LoadIconMetric(hInst, MAKEINTRESOURCE(IDI_SMALL), LIM_SMALL, &amp;(nid.hIcon));
+    LoadIconMetric(hInst, MAKEINTRESOURCE(IDI_SMALL), LIM_SMALL, &(nid.hIcon));
     
     // Show the notification.
-    Shell_NotifyIcon(NIM_ADD, &amp;nid) ? S_OK : E_FAIL;
+    Shell_NotifyIcon(NIM_ADD, &nid) ? S_OK : E_FAIL;
 ```
 
 
@@ -213,7 +213,7 @@ To remove an icon—for instance, when you have only added the icon temporarily 
 ```
 NOTIFYICONDATA nid = {};
 ...                    
-Shell_NotifyIcon(NIM_DELETE, &amp;nid);
+Shell_NotifyIcon(NIM_DELETE, &nid);
 ```
 
 

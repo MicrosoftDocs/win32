@@ -86,7 +86,7 @@ If your app does not perform any scaling on the geometry realizations, then it i
 
 ```C++
     float dpiX, dpiY;
-    deviceContext->GetDpi(&amp;dpiX, &amp;dpiY);
+    deviceContext->GetDpi(&dpiX, &dpiY);
 
     float flatteningTolerance = D2D1::ComputeFlatteningTolerance(
         D2D1::Matrix3x2F::Identity(),   // apply no additional scaling transform
@@ -106,7 +106,7 @@ For example, suppose you know that your app will never scale a geometry realizat
 
 ```C++
     float dpiX, dpiY;
-    deviceContext->GetDpi(&amp;dpiX, &amp;dpiY);
+    deviceContext->GetDpi(&dpiX, &dpiY);
     
     float flatteningTolerance = D2D1::ComputeFlatteningTolerance(
         D2D1::Matrix3x2F::Identity(),   // apply no additional scaling transform

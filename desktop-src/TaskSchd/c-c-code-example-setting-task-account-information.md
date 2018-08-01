@@ -51,7 +51,7 @@ int main(int argc, char **argv)
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_ITaskScheduler,
-                          (void **) &amp;pITS);
+                          (void **) &pITS);
     if (FAILED(hr))
     {
       wprintf(L"Failed calling CoCreateInstance. ");
@@ -75,7 +75,7 @@ int main(int argc, char **argv)
   lpcwszTaskName = L"Test Task";
   hr = pITS->Activate(lpcwszTaskName,
                       IID_ITask,
-                      (IUnknown**) &amp;pITask);
+                      (IUnknown**) &pITask);
   
   // Release the ITaskScheduler interface.
   pITS->Release();  
@@ -107,7 +107,7 @@ int main(int argc, char **argv)
 
     //  Create the UI asking for the credentials.
     dwErr = CredUIPromptForCredentials(
-        &amp;cui,                             //  CREDUI_INFO structure
+        &cui,                             //  CREDUI_INFO structure
         TEXT(""),                         //  Target for credentials
         NULL,                             //  Reserved
         0,                                //  Reason
@@ -115,7 +115,7 @@ int main(int argc, char **argv)
         CREDUI_MAX_USERNAME_LENGTH,       //  Max number for user name
         pszPwd,                           //  Password
         CREDUI_MAX_PASSWORD_LENGTH,       //  Max number for password
-        &amp;fSave,                           //  State of save check box
+        &fSave,                           //  State of save check box
         CREDUI_FLAGS_GENERIC_CREDENTIALS |  //  Flags
         CREDUI_FLAGS_ALWAYS_SHOW_UI |
         CREDUI_FLAGS_DO_NOT_PERSIST);  
@@ -155,7 +155,7 @@ int main(int argc, char **argv)
   IPersistFile *pIPersistFile;
   
   hr = pITask->QueryInterface(IID_IPersistFile,
-                              (void **)&amp;pIPersistFile);
+                              (void **)&pIPersistFile);
   
   // Release the ITask interface.
   pITask->Release();  

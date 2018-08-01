@@ -69,30 +69,30 @@ The following example takes an [**IContextNode**](icontextnode.md) object, `m_pS
 // Find all first ancestor that contains links of type Enclose
 CArray<IContextNode*,IContextNode*> linkedToNodes = CArray<IContextNode*,IContextNode*>();
 IContextNode* pAncestor;
-CheckHResult(m_pSelectedNode->GetParentNode(&amp;pAncestor),
+CheckHResult(m_pSelectedNode->GetParentNode(&pAncestor),
     "IContextNode::GetParentNode failed");
 while (pAncestor != NULL)
 {
     // Get the links
     IContextLinks* pLinks;
-    CheckHResult(pAncestor->GetContextLinks(&amp;pLinks),
+    CheckHResult(pAncestor->GetContextLinks(&pLinks),
         "IContextNode::GetContextLinks failed");
     ULONG nLinks;
-    CheckHResult(pLinks->GetCount(&amp;nLinks), "IContextLinks::GetCount failed");
+    CheckHResult(pLinks->GetCount(&nLinks), "IContextLinks::GetCount failed");
     for (ULONG i = 0; i < nLinks; i++)
     {
         IContextLink* pLink;
-        CheckHResult(pLinks->GetContextLink(i, &amp;pLink),
+        CheckHResult(pLinks->GetContextLink(i, &pLink),
             "IContextLinks::GetContextLink failed");
         // Check link direction
         ContextLinkDirection linkDirection;
-        CheckHResult(pLink->GetContextLinkDirection(&amp;linkDirection),
+        CheckHResult(pLink->GetContextLinkDirection(&linkDirection),
             "IContextLink:GetContextLinkDirection failed");
         if (linkDirection == ContextLinkDirection_LinksTo)
         {
             // Get source node and add the array
             IContextNode* pSourceNode;
-            CheckHResult(pLink->GetSourceNode(&amp;pSourceNode),
+            CheckHResult(pLink->GetSourceNode(&pSourceNode),
                 "IContextLink::GetSourceNode failed");
             linkedToNodes.Add(pSourceNode);
         }
@@ -100,7 +100,7 @@ while (pAncestor != NULL)
             
     // Go up another level
     IContextNode* pNewAncestor;
-    CheckHResult(pAncestor->GetParentNode(&amp;pNewAncestor),
+    CheckHResult(pAncestor->GetParentNode(&pNewAncestor),
         "IContextNode::GetParentNode failed");
     pAncestor = pNewAncestor;
 }

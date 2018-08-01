@@ -56,7 +56,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int nCmdShow
     wc.hInstance     = hInstance;
     wc.lpszClassName = CLASS_NAME;
 
-    RegisterClass(&amp;wc);
+    RegisterClass(&wc);
 
     HWND hwnd = CreateWindowEx(0, CLASS_NAME, L"DirectShow Playback", 
         WS_OVERLAPPEDWINDOW, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, 
@@ -73,10 +73,10 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int nCmdShow
     // Run the message loop.
 
     MSG msg = { };
-    while (GetMessage(&amp;msg, NULL, 0, 0))
+    while (GetMessage(&msg, NULL, 0, 0))
     {
-        TranslateMessage(&amp;msg);
-        DispatchMessage(&amp;msg);
+        TranslateMessage(&msg);
+        DispatchMessage(&msg);
     }
     return 0;
 }
@@ -129,19 +129,19 @@ void OnPaint(HWND hwnd)
     PAINTSTRUCT ps;
     HDC hdc;
 
-    hdc = BeginPaint(hwnd, &amp;ps);
+    hdc = BeginPaint(hwnd, &ps);
 
-    if (g_pPlayer->State() != STATE_NO_GRAPH &amp;&amp; g_pPlayer->HasVideo())
+    if (g_pPlayer->State() != STATE_NO_GRAPH && g_pPlayer->HasVideo())
     {
         // The player has video, so ask the player to repaint. 
         g_pPlayer->Repaint(hdc);
     }
     else
     {
-        FillRect(hdc, &amp;ps.rcPaint, (HBRUSH) (COLOR_WINDOW+1));
+        FillRect(hdc, &ps.rcPaint, (HBRUSH) (COLOR_WINDOW+1));
     }
 
-    EndPaint(hwnd, &amp;ps);
+    EndPaint(hwnd, &ps);
 }
 
 void OnSize(HWND hwnd)
@@ -149,9 +149,9 @@ void OnSize(HWND hwnd)
     if (g_pPlayer)
     {
         RECT rc;
-        GetClientRect(hwnd, &amp;rc);
+        GetClientRect(hwnd, &rc);
 
-        g_pPlayer->UpdateVideoWindow(&amp;rc);
+        g_pPlayer->UpdateVideoWindow(&rc);
     }
 }
 
@@ -197,7 +197,7 @@ void OnChar(HWND hwnd, wchar_t c)
 void OnFileOpen(HWND hwnd)
 {
     OPENFILENAME ofn;
-    ZeroMemory(&amp;ofn, sizeof(ofn));
+    ZeroMemory(&ofn, sizeof(ofn));
 
     WCHAR szFileName[MAX_PATH];
     szFileName[0] = L'\0';
@@ -212,7 +212,7 @@ void OnFileOpen(HWND hwnd)
 
     HRESULT hr;
 
-    if (GetOpenFileName(&amp;ofn))
+    if (GetOpenFileName(&ofn))
     {
         hr = g_pPlayer->OpenFile(szFileName);
 

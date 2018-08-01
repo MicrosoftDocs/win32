@@ -155,8 +155,8 @@ int main(int argc, char **argv)
 
     if (argc > 1) {
         for (i = 1; i < argc; i++) {
-            if (((argv[i][0] == '-') || (argv[i][0] == '/')) &amp;&amp;
-                (argv[i][1] != 0) &amp;&amp; (argv[i][2] == 0)) {
+            if (((argv[i][0] == '-') || (argv[i][0] == '/')) &&
+                (argv[i][1] != 0) && (argv[i][2] == 0)) {
                 switch (tolower(argv[i][1])) {
                 case 'f':
                     if (!argv[i + 1])
@@ -243,7 +243,7 @@ int main(int argc, char **argv)
         }
     }
     // Ask for Winsock version 2.2.
-    if ((RetVal = WSAStartup(MAKEWORD(2, 2), &amp;wsaData)) != 0) {
+    if ((RetVal = WSAStartup(MAKEWORD(2, 2), &wsaData)) != 0) {
         fprintf(stderr, "WSAStartup failed with error %d: %s\n",
                 RetVal, PrintError(RetVal));
         WSACleanup();
@@ -257,10 +257,10 @@ int main(int argc, char **argv)
     // containing the loopback address for that family.
     //
 
-    memset(&amp;Hints, 0, sizeof (Hints));
+    memset(&Hints, 0, sizeof (Hints));
     Hints.ai_family = Family;
     Hints.ai_socktype = SocketType;
-    RetVal = getaddrinfo(Server, Port, &amp;Hints, &amp;AddrInfo);
+    RetVal = getaddrinfo(Server, Port, &Hints, &AddrInfo);
     if (RetVal != 0) {
         fprintf(stderr,
                 "Cannot resolve address [%s] and port [%s], error %d: %s\n",
@@ -324,7 +324,7 @@ int main(int argc, char **argv)
     // This demonstrates how to determine to where a socket is connected.
     //
     AddrLen = sizeof (Addr);
-    if (getpeername(ConnSocket, (LPSOCKADDR) & Addr, (int *) &amp;AddrLen) == SOCKET_ERROR) {
+    if (getpeername(ConnSocket, (LPSOCKADDR) & Addr, (int *) &AddrLen) == SOCKET_ERROR) {
         fprintf(stderr, "getpeername() failed with error %d: %s\n",
                 WSAGetLastError(), PrintError(WSAGetLastError()));
     } else {
@@ -332,7 +332,7 @@ int main(int argc, char **argv)
                         sizeof (AddrName), NULL, 0, NI_NUMERICHOST) != 0)
             strcpy_s(AddrName, sizeof (AddrName), UNKNOWN_NAME);
         printf("Connected to %s, port %d, protocol %s, protocol family %s\n",
-               AddrName, ntohs(SS_PORT(&amp;Addr)),
+               AddrName, ntohs(SS_PORT(&Addr)),
                (AI->ai_socktype == SOCK_STREAM) ? "TCP" : "UDP",
                (AI->ai_family == PF_INET) ? "PF_INET" : "PF_INET6");
     }
@@ -344,7 +344,7 @@ int main(int argc, char **argv)
     // Find out what local address and port the system picked for us.
     //
     AddrLen = sizeof (Addr);
-    if (getsockname(ConnSocket, (LPSOCKADDR) & Addr, &amp;AddrLen) == SOCKET_ERROR) {
+    if (getsockname(ConnSocket, (LPSOCKADDR) & Addr, &AddrLen) == SOCKET_ERROR) {
         fprintf(stderr, "getsockname() failed with error %d: %s\n",
                 WSAGetLastError(), PrintError(WSAGetLastError()));
     } else {
@@ -352,7 +352,7 @@ int main(int argc, char **argv)
                         sizeof (AddrName), NULL, 0, NI_NUMERICHOST) != 0)
             strcpy_s(AddrName, sizeof (AddrName), UNKNOWN_NAME);
         printf("Using local address %s, port %d\n",
-               AddrName, ntohs(SS_PORT(&amp;Addr)));
+               AddrName, ntohs(SS_PORT(&Addr)));
     }
 
     //

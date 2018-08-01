@@ -53,12 +53,12 @@ The following example enables the debug layer for a factory when the application
         hr = D2D1CreateFactory(
             D2D1_FACTORY_TYPE_SINGLE_THREADED,
             options,
-            &amp;m_pD2DFactory
+            &m_pD2DFactory
             );
 #else
         hr = D2D1CreateFactory(
             D2D1_FACTORY_TYPE_SINGLE_THREADED,
-            &amp;m_pD2DFactory
+            &m_pD2DFactory
             );
 #endif
 ```

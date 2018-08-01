@@ -29,14 +29,14 @@ The following code shows these steps:
 IBaseFilter *pFilter;
 HRESULT hr = CoCreateInstance(CLSID_DMOWrapperFilter, NULL, 
     CLSCTX_INPROC_SERVER, IID_IBaseFilter, 
-    reinterpret_cast<void**>(&amp;pFilter));
+    reinterpret_cast<void**>(&pFilter));
 
 if (SUCCEEDED(hr)) 
 {
     // Query for IDMOWrapperFilter.
     IDMOWrapperFilter *pDmoWrapper;
     hr = pFilter->QueryInterface(IID_IDMOWrapperFilter, 
-        reinterpret_cast<void**>(&amp;pDmoWrapper));
+        reinterpret_cast<void**>(&pDmoWrapper));
 
     if (SUCCEEDED(hr)) 
     {     

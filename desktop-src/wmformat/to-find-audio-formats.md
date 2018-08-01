@@ -52,30 +52,30 @@ HRESULT FindAudioFormat(GUID SubType,
     DWORD CodecIndex = INVALID_INDEX; 
 
     // Instantiate a profile manager object.
-    hr = WMCreateProfileManager(&amp;pProfileMgr);
+    hr = WMCreateProfileManager(&pProfileMgr);
     GOTO_EXIT_IF_FAILED(hr);
 
     // Get the codec information interface.
-    hr = pProfileMgr->QueryInterface(IID_IWMCodecInfo3, (void**)&amp;pCodecInfo);
+    hr = pProfileMgr->QueryInterface(IID_IWMCodecInfo3, (void**)&pCodecInfo);
     GOTO_EXIT_IF_FAILED(hr);
 
     // Get the number of audio codecs for which there is information.
-    hr = pCodecInfo->GetCodecInfoCount(WMMEDIATYPE_Audio, &amp;cEntries);
+    hr = pCodecInfo->GetCodecInfoCount(WMMEDIATYPE_Audio, &cEntries);
     GOTO_EXIT_IF_FAILED(hr);
 
     // Find the index of the codec corresponding to the requested subytpe.
     for(index = 0; index < cEntries; index++)
     {
         // Get the first format for each codec. 
-        hr = pCodecInfo->GetCodecFormat(WMMEDIATYPE_Audio, index, 0, &amp;pStreamConfig);
+        hr = pCodecInfo->GetCodecFormat(WMMEDIATYPE_Audio, index, 0, &pStreamConfig);
         GOTO_EXIT_IF_FAILED(hr);
 
         // Get the media properties interface.
-        hr = pStreamConfig->QueryInterface(IID_IWMMediaProps, (void**)&amp;pProps);
+        hr = pStreamConfig->QueryInterface(IID_IWMMediaProps, (void**)&pProps);
         GOTO_EXIT_IF_FAILED(hr);
 
         // Get the size required for the media type structure.
-        hr = pProps->GetMediaType(NULL, &amp;cbType);
+        hr = pProps->GetMediaType(NULL, &cbType);
         GOTO_EXIT_IF_FAILED(hr);
 
         // Allocate memory for the media type structure.
@@ -87,7 +87,7 @@ HRESULT FindAudioFormat(GUID SubType,
         }
 
         // Get the media type structure.
-        hr = pProps->GetMediaType(pType, &amp;cbType);
+        hr = pProps->GetMediaType(pType, &cbType);
         GOTO_EXIT_IF_FAILED(hr);
 
         // Check this codec against the one requested.
@@ -115,7 +115,7 @@ HRESULT FindAudioFormat(GUID SubType,
     // Get the number of formats supported for the codec.
     hr = pCodecInfo->GetCodecFormatCount(WMMEDIATYPE_Audio, 
                                          CodecIndex, 
-                                         &amp;cEntries);
+                                         &cEntries);
     GOTO_EXIT_IF_FAILED(hr);
 
     // Loop through the formats for the codec, looking for matches.
@@ -125,15 +125,15 @@ HRESULT FindAudioFormat(GUID SubType,
         hr = pCodecInfo->GetCodecFormat(WMMEDIATYPE_Audio, 
                                         CodecIndex, 
                                         index, 
-                                        &amp;pStreamConfig);
+                                        &pStreamConfig);
         GOTO_EXIT_IF_FAILED(hr);
 
         // Get the media properties interface.
-        hr = pStreamConfig->QueryInterface(IID_IWMMediaProps, (void**)&amp;pProps);
+        hr = pStreamConfig->QueryInterface(IID_IWMMediaProps, (void**)&pProps);
         GOTO_EXIT_IF_FAILED(hr);
 
         // Get the size required for the media type structure.
-        hr = pProps->GetMediaType(NULL, &amp;cbType);
+        hr = pProps->GetMediaType(NULL, &cbType);
         GOTO_EXIT_IF_FAILED(hr);
 
         // Allocate memory for the media type structure.
@@ -145,7 +145,7 @@ HRESULT FindAudioFormat(GUID SubType,
         }
 
         // Get the media type structure.
-        hr = pProps->GetMediaType(pType, &amp;cbType);
+        hr = pProps->GetMediaType(pType, &cbType);
         GOTO_EXIT_IF_FAILED(hr);
 
         // Check that the format data is present.
@@ -162,12 +162,12 @@ HRESULT FindAudioFormat(GUID SubType,
         // Start checking data.
 
         // Do not check particulars unless the bit rate is in range.
-        if((pWave->nAvgBytesPerSec * 8) > dwBestRate &amp;&amp;
+        if((pWave->nAvgBytesPerSec * 8) > dwBestRate &&
            (pWave->nAvgBytesPerSec * 8) <= dwMaxRate)
         {
             // Check the limits.
-            if((pWave->nChannels == pWaveLimits->nChannels) &amp;&amp;
-               (pWave->wBitsPerSample == pWaveLimits->wBitsPerSample) &amp;&amp;
+            if((pWave->nChannels == pWaveLimits->nChannels) &&
+               (pWave->wBitsPerSample == pWaveLimits->wBitsPerSample) &&
                (pWave->nSamplesPerSec == pWaveLimits->nSamplesPerSec))
             {
                 // If audio/video synchronization requested, check the number

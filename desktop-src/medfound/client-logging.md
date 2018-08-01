@@ -95,7 +95,7 @@ HRESULT CreateMediaSourceWithLogParams(
     IPropertyStore *pConfig = NULL;
 
     // Configure the property store.
-    HRESULT hr = PSCreateMemoryPropertyStore(IID_PPV_ARGS(&amp;pConfig));
+    HRESULT hr = PSCreateMemoryPropertyStore(IID_PPV_ARGS(&pConfig));
 
     if (SUCCEEDED(hr))
     {
@@ -116,7 +116,7 @@ HRESULT CreateMediaSourceWithLogParams(
         hr = CreateMediaSource(pszURL, pConfig, ppSource);
     }
 
-    SafeRelease(&amp;pConfig);
+    SafeRelease(&pConfig);
     return hr;
 }
 ```
@@ -142,7 +142,7 @@ HRESULT GetPacketsReceived(IMFMediaSession *pSession, DWORD *pcPackets)
     HRESULT hr = MFGetService(
         pSession, 
         MFNETSOURCE_STATISTICS_SERVICE, 
-        IID_PPV_ARGS(&amp;pProp)
+        IID_PPV_ARGS(&pProp)
         );
 
     // Get the number of packets received by the client.
@@ -153,7 +153,7 @@ HRESULT GetPacketsReceived(IMFMediaSession *pSession, DWORD *pcPackets)
         key.fmtid = MFNETSOURCE_STATISTICS;
         key.pid = MFNETSOURCE_RECVPACKETS_ID;
 
-        hr = pProp->GetValue(key, &amp;var);
+        hr = pProp->GetValue(key, &var);
     }
 
     if (SUCCEEDED(hr))
@@ -161,8 +161,8 @@ HRESULT GetPacketsReceived(IMFMediaSession *pSession, DWORD *pcPackets)
         *pcPackets = var.lVal;
     }
 
-    PropVariantClear(&amp;var);
-    SafeRelease(&amp;pProp);
+    PropVariantClear(&var);
+    SafeRelease(&pProp);
     return hr;
 }
 ```

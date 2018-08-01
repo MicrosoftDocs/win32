@@ -53,7 +53,7 @@ Here is another example using the exclusion mode.
 
 ```C++
 ComPtr<ID2D1Effect> blendEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Blend, &amp;blendEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Blend, &blendEffect);
 
 blendEffect->SetInput(0, bitmap);
 blendEffect->SetInput(1, bitmapTwo);

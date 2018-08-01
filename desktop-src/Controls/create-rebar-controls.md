@@ -46,7 +46,7 @@ HWND CreateRebar(HWND hwndOwner, HWND hwndToolbar, HWND hwndCombo)
     INITCOMMONCONTROLSEX icex;
     icex.dwSize = sizeof(INITCOMMONCONTROLSEX);
     icex.dwICC   = ICC_COOL_CLASSES | ICC_BAR_CLASSES;
-    InitCommonControlsEx(&amp;icex);
+    InitCommonControlsEx(&icex);
 
     // Create the rebar.
     HWND hwndRebar = CreateWindowEx(WS_EX_TOOLWINDOW,
@@ -89,11 +89,11 @@ HWND CreateRebar(HWND hwndOwner, HWND hwndToolbar, HWND hwndCombo)
     rbBand.cx = 0;
 
     // Add the band that has the toolbar.
-    SendMessage(hwndRebar, RB_INSERTBAND, (WPARAM)-1, (LPARAM)&amp;rbBand);
+    SendMessage(hwndRebar, RB_INSERTBAND, (WPARAM)-1, (LPARAM)&rbBand);
 
     // Set values unique to the band with the combo box.
     RECT rc;
-    GetWindowRect(hwndCombo, &amp;rc);
+    GetWindowRect(hwndCombo, &rc);
     rbBand.lpText = TEXT("Font");
     rbBand.hwndChild = hwndCombo;
     rbBand.cxMinChild = 0;
@@ -103,7 +103,7 @@ HWND CreateRebar(HWND hwndOwner, HWND hwndToolbar, HWND hwndCombo)
     rbBand.cx = 100;
 
     // Add the band that has the combo box.
-    SendMessage(hwndRebar, RB_INSERTBAND, (WPARAM)-1, (LPARAM)&amp;rbBand);
+    SendMessage(hwndRebar, RB_INSERTBAND, (WPARAM)-1, (LPARAM)&rbBand);
     
     return (hwndRebar);
 }

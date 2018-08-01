@@ -23,23 +23,23 @@ Then call the output pin's [**IMPEG2PIDMap::MapPID**](/windows/desktop/api/Bdaif
 ```C++
 // Query the demux filter for IMpeg2Demultiplexer.
 IMpeg2Demultiplexer *pDemux = NULL;
-hr = pFilter->QueryInterface(IID_IMpeg2Demultiplexer, (void**)&amp;pDemux);
+hr = pFilter->QueryInterface(IID_IMpeg2Demultiplexer, (void**)&pDemux);
 if (SUCCEEDED(hr))
 {
     // Define the media type.
     AM_MEDIA_TYPE mt;
-    ZeroMemory(&amp;mt, sizeof(AM_MEDIA_TYPE));
+    ZeroMemory(&mt, sizeof(AM_MEDIA_TYPE));
     mt.majortype = KSDATAFORMAT_TYPE_MPEG2_SECTIONS;
     mt.subtype = MEDIASUBTYPE_None;
 
     // Create a new output pin.
     IPin *pPin;
-    hr = pDemux->CreateOutputPin(&amp;mt, L"PSI Pin", &amp;pPin);
+    hr = pDemux->CreateOutputPin(&mt, L"PSI Pin", &pPin);
     if (SUCCEEDED(hr))
     {
         // Map the PID.
         IMPEG2PIDMap *pPidMap = NULL;
-        hr = pPin->QueryInterface(IID_IMPEG2PIDMap, (void**)&amp;pPidMap);
+        hr = pPin->QueryInterface(IID_IMPEG2PIDMap, (void**)&pPidMap);
         if (SUCCEEDED(hr))
         {
             ULONG Pid[] = { 0x00 }; // Map any desired PIDs. 

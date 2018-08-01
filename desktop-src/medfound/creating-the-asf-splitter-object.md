@@ -29,7 +29,7 @@ HRESULT CreateASFSplitter (IMFASFContentInfo* pContentInfo,
     IMFASFSplitter *pSplitter = NULL;
 
     // Create the splitter object.
-    HRESULT hr = MFCreateASFSplitter(&amp;pSplitter);
+    HRESULT hr = MFCreateASFSplitter(&pSplitter);
 
     // Initialize the splitter to work with specific ASF data.
     if (SUCCEEDED(hr))
@@ -42,7 +42,7 @@ HRESULT CreateASFSplitter (IMFASFContentInfo* pContentInfo,
         *ppSplitter = pSplitter;
         (*ppSplitter)->AddRef();
     }
-    SafeRelease(&amp;pSplitter);
+    SafeRelease(&pSplitter);
     return hr;
 }
 ```

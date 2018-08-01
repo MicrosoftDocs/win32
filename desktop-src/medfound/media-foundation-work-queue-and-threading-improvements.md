@@ -105,7 +105,7 @@ The following code creates a serializer queue over the platform multithreaded qu
 
 ```C++
 DWORD workQueueID;
-hr = MFAllocateSerialWorkQueue(MFASYNC_CALLBACK_QUEUE_MULTITHREADED, &amp;workQueueID); 
+hr = MFAllocateSerialWorkQueue(MFASYNC_CALLBACK_QUEUE_MULTITHREADED, &workQueueID); 
 ```
 
 

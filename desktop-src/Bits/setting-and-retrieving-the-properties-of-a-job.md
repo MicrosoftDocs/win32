@@ -32,7 +32,7 @@ IBackgroundCopyJob* pJob;
 IBackgroundCopyJob4* pJob4 = NULL;
 CNotifyInterface *pNotify = new CNotifyInterface();
 
-hr = pJob->QueryInterface(__uuidof(IBackgroundCopyJob4), (void**)&amp;pJob4);
+hr = pJob->QueryInterface(__uuidof(IBackgroundCopyJob4), (void**)&pJob4);
 pJob->Release();
 
 //The default priority level for a job is BG_JOB_PRIORITY_NORMAL. 
@@ -107,7 +107,7 @@ BG_JOB_STATE State;
 
 //Name of the job to use in the user interface. The name is set when you 
 //create the job. You can use the SetDisplayName method to change the name. 
-hr = pJob->GetDisplayName(&amp;pszJobName);
+hr = pJob->GetDisplayName(&pszJobName);
 if (SUCCEEDED(hr))
 {
   //Use the name in a user interface or output.
@@ -116,26 +116,26 @@ if (SUCCEEDED(hr))
 
 //The owner property contains the SID of the job's owner. The following code
 //shows how to get the domain and user names associated with the SID.
-hr = pJob->GetOwner(&amp;pszOwnerSID);
+hr = pJob->GetOwner(&pszOwnerSID);
 if (SUCCEEDED(hr))
 {
-  bResult = ConvertStringSidToSid(pszOwnerSid, &amp;pSid);
+  bResult = ConvertStringSidToSid(pszOwnerSid, &pSid);
   CoTaskMemFree(pszOwnerSid);
   if (bResult)
   {
     //Call LookupAccountSid twice. The first call retrieves the buffer size 
     //for name and domain and the second call retrieves the actual name and domain.
-    LookupAccountSid(NULL, pSid, NULL, &amp;cbNameSize, 
-                               NULL, &amp;cbDomainSize, &amp;eNameUse);
+    LookupAccountSid(NULL, pSid, NULL, &cbNameSize, 
+                               NULL, &cbDomainSize, &eNameUse);
     LastError = GetLastError();
     if (ERROR_INSUFFICIENT_BUFFER == LastError)
     {
       pszName = (WCHAR*)malloc(sizeof(WCHAR) * cbNameSize);
       pszDomain = (WCHAR*)malloc(sizeof(WCHAR) * cbDomainSize);
-      if (pszName &amp;&amp; pszDomain)
+      if (pszName && pszDomain)
       {
-        bResult = LookupAccountSid(NULL, pSid, pszName, &amp;cbNameSize, 
-                                   pszDomain, &amp;cbDomainSize, &amp;eNameUse);
+        bResult = LookupAccountSid(NULL, pSid, pszName, &cbNameSize, 
+                                   pszDomain, &cbDomainSize, &eNameUse);
         if (bResult)
         {
           pszFullName = (WCHAR*)malloc(sizeof(WCHAR)*(cbDomainSize+1+cbNameSize+1));
@@ -162,7 +162,7 @@ if (SUCCEEDED(hr))
 
 //The state property identifies the current state of the job. For example, the 
 //state of the job is BG_JOB_STATE_TRANSFERRING or BG_JOB_STATE_ERROR. 
-hr = pJob->GetState(&amp;State);
+hr = pJob->GetState(&State);
 if (SUCCEEDED(hr))
 {
   //Use JobStates[State] to set the text representation of the job's 
@@ -172,7 +172,7 @@ if (SUCCEEDED(hr))
 //Use the information contained in the BG_JOB_PROGRESS structure to determine the 
 //overall progress of the job. The structure contains information on the number of 
 //bytes and files transferred. 
-hr = pJob->GetProgress(&amp;Progress);
+hr = pJob->GetProgress(&Progress);
 if (SUCCEEDED(hr))
 {
   //Determine the progress of the job based on the number of files transferred.

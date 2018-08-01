@@ -36,11 +36,11 @@ tvItem.pszText = itemText;
 
 // This...
 tvItem.hItem = (HTREEITEM)SendMessage(hwnd, TVM_GETNEXTITEM, TVGN_CARET, NULL);
-fSuccess = SendMessage(hwnd, TVM_GETITEM, 0, (LPARAM)&amp;tvItem);
+fSuccess = SendMessage(hwnd, TVM_GETITEM, 0, (LPARAM)&tvItem);
 
 // ... is equivalent to this.
 tvItem.hItem = TreeView_GetSelection(hwnd);
-fSuccess = TreeView_GetItem(hwnd, &amp;tvItem);
+fSuccess = TreeView_GetItem(hwnd, &tvItem);
 ```
 
 

@@ -24,10 +24,10 @@ In a WDM device, the [**IAMStreamConfig**](/windows/desktop/api/Strmif/nn-strmif
 ```C++
 IAMStreamConfig *pConfig = NULL;
 hr = pBuild->FindInterface(
-    &amp;PIN_CATEGORY_PREVIEW, // Preview pin.
+    &PIN_CATEGORY_PREVIEW, // Preview pin.
     0,    // Any media type.
     pCap, // Pointer to the capture filter.
-    IID_IAMStreamConfig, (void**)&amp;pConfig);
+    IID_IAMStreamConfig, (void**)&pConfig);
 ```
 
 
@@ -46,7 +46,7 @@ To enumerate the media types, call the [**IAMStreamConfig::GetStreamCaps**](/win
 
 ```C++
 int iCount = 0, iSize = 0;
-hr = pConfig->GetNumberOfCapabilities(&amp;iCount, &amp;iSize);
+hr = pConfig->GetNumberOfCapabilities(&iCount, &iSize);
 
 // Check the size to make sure we pass in the correct structure.
 if (iSize == sizeof(VIDEO_STREAM_CONFIG_CAPS))
@@ -57,7 +57,7 @@ if (iSize == sizeof(VIDEO_STREAM_CONFIG_CAPS))
     {
         VIDEO_STREAM_CONFIG_CAPS scc;
         AM_MEDIA_TYPE *pmtConfig;
-        hr = pConfig->GetStreamCaps(iFormat, &amp;pmtConfig, (BYTE*)&amp;scc);
+        hr = pConfig->GetStreamCaps(iFormat, &pmtConfig, (BYTE*)&scc);
         if (SUCCEEDED(hr))
         {
             /* Examine the format, and possibly use it. */
@@ -89,10 +89,10 @@ For example, suppose that [**GetStreamCaps**](/windows/desktop/api/Strmif/nf-str
 
 
 ```C++
-if ((pmtConfig.majortype == MEDIATYPE_Video) &amp;&amp;
-    (pmtConfig.subtype == MEDIASUBTYPE_RGB24) &amp;&amp;
-    (pmtConfig.formattype == FORMAT_VideoInfo) &amp;&amp;
-    (pmtConfig.cbFormat >= sizeof (VIDEOINFOHEADER)) &amp;&amp;
+if ((pmtConfig.majortype == MEDIATYPE_Video) &&
+    (pmtConfig.subtype == MEDIASUBTYPE_RGB24) &&
+    (pmtConfig.formattype == FORMAT_VideoInfo) &&
+    (pmtConfig.cbFormat >= sizeof (VIDEOINFOHEADER)) &&
     (pmtConfig.pbFormat != NULL))
 {
     VIDEOINFOHEADER *pVih = (VIDEOINFOHEADER*)pmtConfig.pbFormat;

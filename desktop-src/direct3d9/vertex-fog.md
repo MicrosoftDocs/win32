@@ -71,13 +71,13 @@ void SetupVertexFog(DWORD Color, DWORD Mode, BOOL UseRange, FLOAT Density)
     if(D3DFOG_LINEAR == Mode)
     {
         g_pDevice->SetRenderState(D3DRS_FOGVERTEXMODE, Mode);
-        g_pDevice->SetRenderState(D3DRS_FOGSTART, *(DWORD *)(&amp;Start));
-        g_pDevice->SetRenderState(D3DRS_FOGEND,   *(DWORD *)(&amp;End));
+        g_pDevice->SetRenderState(D3DRS_FOGSTART, *(DWORD *)(&Start));
+        g_pDevice->SetRenderState(D3DRS_FOGEND,   *(DWORD *)(&End));
     }
     else
     {
         g_pDevice->SetRenderState(D3DRS_FOGVERTEXMODE, Mode);
-        g_pDevice->SetRenderState(D3DRS_FOGDENSITY, *(DWORD *)(&amp;Density));
+        g_pDevice->SetRenderState(D3DRS_FOGDENSITY, *(DWORD *)(&Density));
     }
 
     // Enable range-based fog if desired (only supported for

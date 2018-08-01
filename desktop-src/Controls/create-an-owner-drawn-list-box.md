@@ -151,7 +151,7 @@ INT_PTR CALLBACK DlgDrawProc(HWND hDlg, UINT message,
                         pdis->itemID, (LPARAM)achBuffer); 
  
                     // Get the metrics for the current font.
-                    GetTextMetrics(pdis->hDC, &amp;tm); 
+                    GetTextMetrics(pdis->hDC, &tm); 
 
                     // Calculate the vertical position for the item string 
                     // so that the string will be vertically centered in the 
@@ -160,7 +160,7 @@ INT_PTR CALLBACK DlgDrawProc(HWND hDlg, UINT message,
                         tm.tmHeight) / 2;
                         
                     // Get the character length of the item string.
-                    hr = StringCchLength(achBuffer, BUFFER, &amp;cch);
+                    hr = StringCchLength(achBuffer, BUFFER, &cch);
                     if (FAILED(hr))
                     {
                         // TODO: Handle error.
@@ -186,7 +186,7 @@ INT_PTR CALLBACK DlgDrawProc(HWND hDlg, UINT message,
  
                         // Draw a rectangle around bitmap to indicate 
                         // the selection. 
-                        DrawFocusRect(pdis->hDC, &amp;rcBitmap); 
+                        DrawFocusRect(pdis->hDC, &rcBitmap); 
                     } 
                     break; 
  

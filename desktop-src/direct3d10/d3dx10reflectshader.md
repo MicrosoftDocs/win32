@@ -90,10 +90,10 @@ which you can see in [HLSLWithoutFX10 Sample](https://msdn.microsoft.com/en-us/l
 ID3D10ShaderReflection1* pIShaderReflection1 = NULL;
 D3D10_SHADER_DESC desc;
 hr = D3D10ReflectShader( (void*) pVSBuf->GetBufferPointer(), pVSBuf->GetBufferSize(),
-    &amp;pIShaderReflection1 );
+    &pIShaderReflection1 );
 if( pIShaderReflection1 )
 {
-    pIShaderReflection1->GetDesc( &amp;desc );
+    pIShaderReflection1->GetDesc( &desc );
 }
 ```
 

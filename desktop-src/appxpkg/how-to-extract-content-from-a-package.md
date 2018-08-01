@@ -46,7 +46,7 @@ int wmain(
     {
         // Create a package reader using the file name in argv[1] 
         IAppxPackageReader* packageReader = NULL;
-        hr = GetPackageReader(argv[1], &amp;packageReader);
+        hr = GetPackageReader(argv[1], &packageReader);
 
         // Print information about all footprint files, and extract them to disk
         if (SUCCEEDED(hr))
@@ -85,7 +85,7 @@ HRESULT GetPackageReader(
             NULL,
             CLSCTX_INPROC_SERVER,
             __uuidof(IAppxFactory),
-            (LPVOID*)(&amp;appxFactory));
+            (LPVOID*)(&appxFactory));
 
     // Create a stream over the input app package
     if (SUCCEEDED(hr))
@@ -96,7 +96,7 @@ HRESULT GetPackageReader(
                 0, // default file attributes
                 FALSE, // do not create new file
                 NULL, // no template
-                &amp;inputStream);
+                &inputStream);
     }
 
     // Create a new package reader using the factory.  For 
@@ -163,11 +163,11 @@ HRESULT ExtractFootprintFiles(
     HRESULT hr = S_OK;
     wprintf(L"\nExtracting footprint files from the package...\n");
 
-    for (int i = 0; SUCCEEDED(hr) &amp;&amp; (i < FootprintFilesCount); i++)
+    for (int i = 0; SUCCEEDED(hr) && (i < FootprintFilesCount); i++)
     {
         IAppxFile* footprintFile = NULL;
 
-        hr = packageReader->GetFootprintFile(FootprintFilesType[i], &amp;footprintFile);
+        hr = packageReader->GetFootprintFile(FootprintFilesType[i], &footprintFile);
 
         if (hr == HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND))
         {
@@ -212,15 +212,15 @@ HRESULT ExtractFile(
     ULARGE_INTEGER fileSizeLargeInteger = {0};
 
     // Get basic info about the file
-    hr = file->GetName(&amp;fileName);
+    hr = file->GetName(&fileName);
 
     if (SUCCEEDED(hr))
     {
-        hr = file->GetContentType(&amp;contentType);
+        hr = file->GetContentType(&contentType);
     }
     if (SUCCEEDED(hr))
     {
-        hr = file->GetSize(&amp;fileSize);
+        hr = file->GetSize(&fileSize);
         fileSizeLargeInteger.QuadPart = fileSize;
     }
     if (SUCCEEDED(hr))
@@ -233,11 +233,11 @@ HRESULT ExtractFile(
     // Write the file to disk
     if (SUCCEEDED(hr))
     {
-        hr = file->GetStream(&amp;fileStream);
+        hr = file->GetStream(&fileStream);
     }
     if (SUCCEEDED(hr))
     {
-        hr = GetOutputStream(outputPath, fileName, &amp;outputStream);
+        hr = GetOutputStream(outputPath, fileName, &outputStream);
     }
     if (SUCCEEDED(hr))
     {
@@ -306,7 +306,7 @@ HRESULT GetOutputStream(
 
     // Search through fullFileName for the '\' character which denotes
     // subdirectory and create each subdirectory in order of depth.
-    for (int i = 0; SUCCEEDED(hr) &amp;&amp; (i < MaxFileNameLength); i++)
+    for (int i = 0; SUCCEEDED(hr) && (i < MaxFileNameLength); i++)
     {
         if (fullFileName[i] == L'\0')
         {
@@ -379,18 +379,18 @@ HRESULT ExtractPayloadFiles(
 
     // Get an enumerator of all payload files from the package reader and iterate
     // through all files.
-    hr = packageReader->GetPayloadFiles(&amp;payloadFiles);
+    hr = packageReader->GetPayloadFiles(&payloadFiles);
 
     if (SUCCEEDED(hr))
     {
         BOOL hasCurrent = FALSE;
-        hr = payloadFiles->GetHasCurrent(&amp;hasCurrent);
+        hr = payloadFiles->GetHasCurrent(&hasCurrent);
 
-        while (SUCCEEDED(hr) &amp;&amp; hasCurrent)
+        while (SUCCEEDED(hr) && hasCurrent)
         {
             IAppxFile* payloadFile = NULL;
 
-            hr = payloadFiles->GetCurrent(&amp;payloadFile);
+            hr = payloadFiles->GetCurrent(&payloadFile);
 
             if (SUCCEEDED(hr))
             {
@@ -398,7 +398,7 @@ HRESULT ExtractPayloadFiles(
             }
             if (SUCCEEDED(hr))
             {
-                hr = payloadFiles->MoveNext(&amp;hasCurrent);
+                hr = payloadFiles->MoveNext(&hasCurrent);
             }
 
             if (payloadFile != NULL)

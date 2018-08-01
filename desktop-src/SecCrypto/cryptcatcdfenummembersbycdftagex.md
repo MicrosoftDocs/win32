@@ -118,7 +118,7 @@ The following example shows the correct sequence of assignments for the *pwszPre
     while (pwszMemberTag = CryptCATCDFEnumMembersByCDFTagEx(pCDF,
                                                             pwszMemberTag,
                                                             NULL,
-                                                            &amp;pMember,
+                                                            &pMember,
                                                             FALSE,
                                                             NULL))
     {

@@ -58,13 +58,13 @@ void main(void){
          CLSCTX_ALL,
    /*"edbd9ca9-9b82-4f6a-9e8b-98301e450f14"*/
          __uuidof(IAzAuthorizationStore),
-         (void**)&amp;pStore);
+         (void**)&pStore);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create AzAuthorizationStore object.");
     
     //  Create null VARIANT for parameters.
     VARIANT myVar; 
-    VariantInit(&amp;myVar);
+    VariantInit(&myVar);
 
     //  Allocate a string for the name of the store.
     if(!(storeName = SysAllocString(L"msxml://c:\\MyStore.xml")))
@@ -79,7 +79,7 @@ void main(void){
     //  Create an application group object.
     if (!(groupName = SysAllocString(L"Trusted Users")))
         MyHandleError("Could not allocate group name string");
-    hr = pStore->CreateApplicationGroup(groupName, myVar, &amp;pAppGroup);
+    hr = pStore->CreateApplicationGroup(groupName, myVar, &pAppGroup);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create application group.");
 
@@ -99,7 +99,7 @@ void main(void){
     SysFreeString(storeName);
     SysFreeString(groupName);
     SysFreeString(sidString);
-    VariantClear(&amp;myVar);
+    VariantClear(&myVar);
     CoUninitialize();
 }
 
@@ -155,7 +155,7 @@ void main(void){
          CLSCTX_ALL,
    /*"edbd9ca9-9b82-4f6a-9e8b-98301e450f14"*/
          __uuidof(IAzAuthorizationStore),
-         (void**)&amp;pStore);
+         (void**)&pStore);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create AzAuthorizationStore object.");
     
@@ -175,7 +175,7 @@ void main(void){
     //  Create an application group object.
     if (!(groupName = SysAllocString(L"Trusted Users3")))
         MyHandleError("Could not allocate group name string");
-    hr = pStore->CreateApplicationGroup(groupName, myVar, &amp;pAppGroup);
+    hr = pStore->CreateApplicationGroup(groupName, myVar, &pAppGroup);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create application group.");
 
@@ -186,7 +186,7 @@ void main(void){
 
     //  Add LDAP query for all users.
     if (!(ldapString =
-   SysAllocString(L"(&amp;(objectCategory=person)(objectClass=user))")))
+   SysAllocString(L"(&(objectCategory=person)(objectClass=user))")))
         MyHandleError("Could not allocate LDAP query string");
     hr = pAppGroup->put_LdapQuery(ldapString);
     if (!(SUCCEEDED(hr)))

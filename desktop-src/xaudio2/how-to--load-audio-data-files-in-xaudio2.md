@@ -61,10 +61,10 @@ Audio files supported by XAudio2 use the Resource Interchange File Format (RIFF)
         while (hr == S_OK)
         {
             DWORD dwRead;
-            if( 0 == ReadFile( hFile, &amp;dwChunkType, sizeof(DWORD), &amp;dwRead, NULL ) )
+            if( 0 == ReadFile( hFile, &dwChunkType, sizeof(DWORD), &dwRead, NULL ) )
                 hr = HRESULT_FROM_WIN32( GetLastError() );
 
-            if( 0 == ReadFile( hFile, &amp;dwChunkDataSize, sizeof(DWORD), &amp;dwRead, NULL ) )
+            if( 0 == ReadFile( hFile, &dwChunkDataSize, sizeof(DWORD), &dwRead, NULL ) )
                 hr = HRESULT_FROM_WIN32( GetLastError() );
 
             switch (dwChunkType)
@@ -72,7 +72,7 @@ Audio files supported by XAudio2 use the Resource Interchange File Format (RIFF)
             case fourccRIFF:
                 dwRIFFDataSize = dwChunkDataSize;
                 dwChunkDataSize = 4;
-                if( 0 == ReadFile( hFile, &amp;dwFileType, sizeof(DWORD), &amp;dwRead, NULL ) )
+                if( 0 == ReadFile( hFile, &dwFileType, sizeof(DWORD), &dwRead, NULL ) )
                     hr = HRESULT_FROM_WIN32( GetLastError() );
                 break;
 
@@ -114,7 +114,7 @@ Audio files supported by XAudio2 use the Resource Interchange File Format (RIFF)
         if( INVALID_SET_FILE_POINTER == SetFilePointer( hFile, bufferoffset, NULL, FILE_BEGIN ) )
             return HRESULT_FROM_WIN32( GetLastError() );
         DWORD dwRead;
-        if( 0 == ReadFile( hFile, buffer, buffersize, &amp;dwRead, NULL ) )
+        if( 0 == ReadFile( hFile, buffer, buffersize, &dwRead, NULL ) )
             hr = HRESULT_FROM_WIN32( GetLastError() );
         return hr;
     }
@@ -171,7 +171,7 @@ The following steps illustrate using the functions described above to populate a
     //check the file type, should be fourccWAVE or 'XWMA'
     FindChunk(hFile,fourccRIFF,dwChunkSize, dwChunkPosition );
     DWORD filetype;
-    ReadChunkData(hFile,&amp;filetype,sizeof(DWORD),dwChunkPosition);
+    ReadChunkData(hFile,&filetype,sizeof(DWORD),dwChunkPosition);
     if (filetype != fourccWAVE)
         return S_FALSE;
     ```
@@ -181,7 +181,7 @@ The following steps illustrate using the functions described above to populate a
 4.  Locate the 'fmt ' chunk, and copy its contents into a **WAVEFORMATEXTENSIBLE** structure.
     ```
     FindChunk(hFile,fourccFMT, dwChunkSize, dwChunkPosition );
-    ReadChunkData(hFile, &amp;wfx, dwChunkSize, dwChunkPosition );
+    ReadChunkData(hFile, &wfx, dwChunkSize, dwChunkPosition );
     ```
 
     

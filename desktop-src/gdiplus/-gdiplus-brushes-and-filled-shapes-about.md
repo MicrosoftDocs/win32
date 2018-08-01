@@ -29,7 +29,7 @@ To fill a closed shape, you need a [**Graphics**](/windows/desktop/api/gdiplusgr
 
 ```
 SolidBrush mySolidBrush(Color(255, 255, 0, 0));
-myGraphics.FillEllipse(&amp;mySolidBrush, 0, 0, 60, 40);
+myGraphics.FillEllipse(&mySolidBrush, 0, 0, 60, 40);
 ```
 
 
@@ -67,8 +67,8 @@ The following example fills an ellipse by repeating the picture stored in MyText
 
 ```
 Image myImage(L"MyTexture.bmp");
-TextureBrush myTextureBrush(&amp;myImage);
-myGraphics.FillEllipse(&amp;myTextureBrush, 0, 0, 100, 50);
+TextureBrush myTextureBrush(&myImage);
+myGraphics.FillEllipse(&myTextureBrush, 0, 0, 100, 50);
 ```
 
 
@@ -90,7 +90,7 @@ LinearGradientBrush myLinearGradientBrush(
    Color(255, 0, 0, 255),
    Color(255, 0, 255, 0),
    LinearGradientModeHorizontal);
-myGraphics.FillEllipse(&amp;myLinearGradientBrush, myRect); 
+myGraphics.FillEllipse(&myLinearGradientBrush, myRect); 
 ```
 
 

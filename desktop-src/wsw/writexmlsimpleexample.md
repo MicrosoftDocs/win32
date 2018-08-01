@@ -53,7 +53,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -61,7 +61,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -93,7 +93,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -103,7 +103,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateWriter(
         NULL, 
         0, 
-        &amp;writer, 
+        &writer, 
         error);
     if (FAILED(hr))
     {
@@ -113,7 +113,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // Setup the output
     WS_XML_WRITER_BUFFER_OUTPUT bufferOutput;
     ZeroMemory(
-        &amp;bufferOutput, 
+        &bufferOutput, 
         sizeof(bufferOutput));
     
     bufferOutput.output.outputType = WS_XML_WRITER_OUTPUT_TYPE_BUFFER;
@@ -121,7 +121,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // Setup the encoding
     WS_XML_WRITER_TEXT_ENCODING textEncoding;
     ZeroMemory(
-        &amp;textEncoding, 
+        &textEncoding, 
         sizeof(textEncoding));
     
     textEncoding.encoding.encodingType = WS_XML_WRITER_ENCODING_TYPE_TEXT;
@@ -130,8 +130,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // Setup the writer
     hr = WsSetOutput(
         writer, 
-        &amp;textEncoding.encoding, 
-        &amp;bufferOutput.output, 
+        &textEncoding.encoding, 
+        &bufferOutput.output, 
         NULL, 
         0, 
         error);
@@ -142,8 +142,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsWriteStartElement(
         writer, 
         NULL, 
-        &amp;valueLocalName, 
-        &amp;valueNs, 
+        &valueLocalName, 
+        &valueNs, 
         error);
     if (FAILED(hr))
     {
@@ -170,7 +170,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsGetWriterProperty(
         writer, 
         WS_XML_WRITER_PROPERTY_BYTES, 
-        &amp;bytes, 
+        &bytes, 
         sizeof(bytes), 
         error);
     if (FAILED(hr))

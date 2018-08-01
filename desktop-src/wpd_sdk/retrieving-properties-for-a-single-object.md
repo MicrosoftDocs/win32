@@ -40,7 +40,7 @@ The following excerpt from the ReadContentProperties function demonstrates how t
 hr = CoCreateInstance(CLSID_PortableDeviceKeyCollection,
                       NULL,
                       CLSCTX_INPROC_SERVER,
-                      IID_PPV_ARGS(&amp;pPropertiesToRead));
+                      IID_PPV_ARGS(&pPropertiesToRead));
 if (SUCCEEDED(hr))
 {
     // 4) Populate the IPortableDeviceKeyCollection with the keys we wish to read.
@@ -92,7 +92,7 @@ if (SUCCEEDED(hr))
 {
     hr = pProperties->GetValues(szSelection,         // The object whose properties we are reading
                                 pPropertiesToRead,   // The properties we want to read
-                                &amp;pObjectProperties); // Driver supplied property values for the specified object
+                                &pObjectProperties); // Driver supplied property values for the specified object
     if (FAILED(hr))
     {
         printf("! Failed to get all properties for object '%ws', hr= 0x%lx\n", szSelection, hr);

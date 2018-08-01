@@ -24,7 +24,7 @@ for(INT iRow = 0; iRow < iHeight; iRow++)
 {
    for(INT iColumn = 0; iColumn < iWidth; iColumn++)
    {
-      bitmap.GetPixel(iColumn, iRow, &amp;color);
+      bitmap.GetPixel(iColumn, iRow, &color);
       colorTemp.SetValue(color.MakeARGB(
          (BYTE)(255 * iColumn / iWidth), 
          color.GetRed(),
@@ -35,9 +35,9 @@ for(INT iRow = 0; iRow < iHeight; iRow++)
 }
 // First draw a wide black line.
 Pen pen(Color(255, 0, 0, 0), 25);
-graphics.DrawLine(&amp;pen, 10, 35, 200, 35);
+graphics.DrawLine(&pen, 10, 35, 200, 35);
 // Now draw the modified bitmap.
-graphics.DrawImage(&amp;bitmap, 30, 0, iWidth, iHeight);
+graphics.DrawImage(&bitmap, 30, 0, iWidth, iHeight);
 ```
 
 

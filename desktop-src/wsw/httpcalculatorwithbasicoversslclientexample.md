@@ -59,7 +59,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -67,7 +67,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -107,7 +107,7 @@ $$RC_START_HIGHLIGHT
     ULONG scheme = WS_HTTP_HEADER_AUTH_SCHEME_BASIC;
     WS_SECURITY_BINDING_PROPERTY httpAuthBindingProperties[1] =
     {
-        { WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_SCHEME, &amp;scheme, sizeof(scheme) }
+        { WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_SCHEME, &scheme, sizeof(scheme) }
     };
     
     // declare and initialize an HTTP header authentication security binding
@@ -115,14 +115,14 @@ $$RC_START_HIGHLIGHT
     httpAuthBinding.binding.bindingType = WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TYPE; // set the binding type
     httpAuthBinding.binding.properties = httpAuthBindingProperties;
     httpAuthBinding.binding.propertyCount = WsCountOf(httpAuthBindingProperties);
-    httpAuthBinding.clientCredential = &amp;windowsCredential.credential;
+    httpAuthBinding.clientCredential = &windowsCredential.credential;
     
     // declare and initialize an SSL transport security binding
     WS_SSL_TRANSPORT_SECURITY_BINDING sslBinding = {}; // zero out the struct
     sslBinding.binding.bindingType = WS_SSL_TRANSPORT_SECURITY_BINDING_TYPE; // set the binding type
     
     // declare and initialize the array of all security bindings
-    WS_SECURITY_BINDING* securityBindings[2] = { &amp;sslBinding.binding, &amp;httpAuthBinding.binding };
+    WS_SECURITY_BINDING* securityBindings[2] = { &sslBinding.binding, &httpAuthBinding.binding };
     
     // declare and initialize the security description
     WS_SECURITY_DESCRIPTION securityDescription = {}; // zero out the struct
@@ -139,7 +139,7 @@ $$RC_END_HIGHLIGHT
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -151,7 +151,7 @@ $$RC_END_HIGHLIGHT
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -162,12 +162,12 @@ $$RC_END_HIGHLIGHT
     hr = WsCreateServiceProxy(
         WS_CHANNEL_TYPE_REQUEST, 
         WS_HTTP_CHANNEL_BINDING, 
-        &amp;securityDescription, 
+        &securityDescription, 
         NULL, 
         0, 
         NULL,
         0,
-        &amp;proxy, 
+        &proxy, 
         error);
     if (FAILED(hr))
     {
@@ -178,7 +178,7 @@ $$RC_END_HIGHLIGHT
     
     hr = WsOpenServiceProxy(
         proxy, 
-        &amp;address, 
+        &address, 
         NULL, 
         error);
     if (FAILED(hr))
@@ -190,7 +190,7 @@ $$RC_END_HIGHLIGHT
         proxy, 
         1, 
         2, 
-        &amp;result, 
+        &result, 
         heap, 
         NULL, 
         0, 

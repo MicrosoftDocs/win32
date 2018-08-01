@@ -51,10 +51,10 @@ HDC  hdc;
 int  iPixelFormat; 
  
 // get the device context's best, available pixel format match  
-iPixelFormat = ChoosePixelFormat(hdc, &amp;pfd); 
+iPixelFormat = ChoosePixelFormat(hdc, &pfd); 
  
 // make that match the device context's current pixel format  
-SetPixelFormat(hdc, iPixelFormat, &amp;pfd);
+SetPixelFormat(hdc, iPixelFormat, &pfd);
 ```
 
 

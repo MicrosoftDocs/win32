@@ -92,28 +92,28 @@ Here is a diagram of the method calls and the interfaces this code uses.
             featureLevels,              // list of feature levels this app can support
             ARRAYSIZE(featureLevels),   // number of possible feature levels
             D3D11_SDK_VERSION,          
-            &amp;device,                    // returns the Direct3D device created
-            &amp;m_featureLevel,            // returns feature level of device created
-            &amp;context                    // returns the device immediate context
+            &device,                    // returns the Direct3D device created
+            &m_featureLevel,            // returns feature level of device created
+            &context                    // returns the device immediate context
             )
         );
 
     ComPtr<IDXGIDevice> dxgiDevice;
     // Obtain the underlying DXGI device of the Direct3D11 device.
     DX::ThrowIfFailed(
-        device.As(&amp;dxgiDevice)
+        device.As(&dxgiDevice)
         );
 
     // Obtain the Direct2D device for 2-D rendering.
     DX::ThrowIfFailed(
-        m_d2dFactory->CreateDevice(dxgiDevice.Get(), &amp;m_d2dDevice)
+        m_d2dFactory->CreateDevice(dxgiDevice.Get(), &m_d2dDevice)
         );
 
     // Get Direct2D device's corresponding device context object.
     DX::ThrowIfFailed(
         m_d2dDevice->CreateDeviceContext(
             D2D1_DEVICE_CONTEXT_OPTIONS_NONE,
-            &amp;m_d2dContext
+            &m_d2dContext
             )
         );
 ```
@@ -160,13 +160,13 @@ The code here shows you how to get the [**2 dimensional Direct3D texture**](http
         // Identify the physical adapter (GPU or card) this device is runs on.
         ComPtr<IDXGIAdapter> dxgiAdapter;
         DX::ThrowIfFailed(
-            dxgiDevice->GetAdapter(&amp;dxgiAdapter)
+            dxgiDevice->GetAdapter(&dxgiAdapter)
             );
 
         // Get the factory object that created the DXGI device.
         ComPtr<IDXGIFactory2> dxgiFactory;
         DX::ThrowIfFailed(
-            dxgiAdapter->GetParent(IID_PPV_ARGS(&amp;dxgiFactory))
+            dxgiAdapter->GetParent(IID_PPV_ARGS(&dxgiFactory))
             );
 
         // Get the final swap chain for this window from the DXGI factory.
@@ -174,9 +174,9 @@ The code here shows you how to get the [**2 dimensional Direct3D texture**](http
             dxgiFactory->CreateSwapChainForCoreWindow(
                 device.Get(),
                 reinterpret_cast<IUnknown*>(m_window),
-                &amp;swapChainDesc,
+                &swapChainDesc,
                 nullptr,    // allow on all displays
-                &amp;m_swapChain
+                &m_swapChain
                 )
             );
 
@@ -188,7 +188,7 @@ The code here shows you how to get the [**2 dimensional Direct3D texture**](http
     // Get the backbuffer for this window which is be the final 3D render target.
     ComPtr<ID3D11Texture2D> backBuffer;
     DX::ThrowIfFailed(
-        m_swapChain->GetBuffer(0, IID_PPV_ARGS(&amp;backBuffer))
+        m_swapChain->GetBuffer(0, IID_PPV_ARGS(&backBuffer))
         );
 
     // Now we set up the Direct2D render target bitmap linked to the swapchain. 
@@ -205,15 +205,15 @@ The code here shows you how to get the [**2 dimensional Direct3D texture**](http
     // Direct2D needs the dxgi version of the backbuffer surface pointer.
     ComPtr<IDXGISurface> dxgiBackBuffer;
     DX::ThrowIfFailed(
-        m_swapChain->GetBuffer(0, IID_PPV_ARGS(&amp;dxgiBackBuffer))
+        m_swapChain->GetBuffer(0, IID_PPV_ARGS(&dxgiBackBuffer))
         );
 
     // Get a D2D surface from the DXGI back buffer to use as the D2D render target.
     DX::ThrowIfFailed(
         m_d2dContext->CreateBitmapFromDxgiSurface(
             dxgiBackBuffer.Get(),
-            &amp;bitmapProperties,
-            &amp;m_d2dTargetBitmap
+            &bitmapProperties,
+            &m_d2dTargetBitmap
             )
         );
 
@@ -257,7 +257,7 @@ ComPtr<ID2D1SolidColorBrush> pBlackBrush;
 DX::ThrowIfFailed(
    m_d2dContext->CreateSolidColorBrush(
         D2D1::ColorF(D2D1::ColorF::Black),
-        &amp;pBlackBrush
+        &pBlackBrush
         )
 );
 
@@ -276,7 +276,7 @@ DX::ThrowIfFailed(
 );
 
 DX::ThrowIfFailed(
-    m_swapChain->Present1(1, 0, &amp;parameters);
+    m_swapChain->Present1(1, 0, &parameters);
 );
 ```
 

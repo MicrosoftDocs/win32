@@ -44,7 +44,7 @@ void CheckAccess(ULONGLONG hToken)
     void MyHandleError(char *s);
 
     VARIANT myVar;
-    VariantInit(&amp;myVar);//.vt) = VT_NULL;
+    VariantInit(&myVar);//.vt) = VT_NULL;
 
     //  Initialize COM.
     hr = CoInitializeEx(NULL, COINIT_MULTITHREADED);
@@ -59,7 +59,7 @@ void CheckAccess(ULONGLONG hToken)
          CLSCTX_ALL,
    /*"edbd9ca9-9b82-4f6a-9e8b-98301e450f14"*/
          __uuidof(IAzAuthorizationStore),
-         (void**)&amp;pStore);
+         (void**)&pStore);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create AzAuthorizationStore object.");
 
@@ -75,13 +75,13 @@ void CheckAccess(ULONGLONG hToken)
     //  Create an application object.
     if (!(appName = SysAllocString(L"Expense")))
         MyHandleError("Could not allocate application name string.");
-    hr = pStore->OpenApplication(appName, myVar, &amp;pApp);
+    hr = pStore->OpenApplication(appName, myVar, &pApp);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not open application.");
 
     //  Create a client context from a token handle.
     hr = pApp->InitializeClientContextFromToken(hToken, myVar,
-   &amp;pClientContext);
+   &pClientContext);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create client context.");
 
@@ -92,11 +92,11 @@ void CheckAccess(ULONGLONG hToken)
         MyHandleError("Could not allocate operation name string.");
 
     //  Get the ID of the operation to check.
-    hr = pApp->OpenOperation(operationName, myVar, &amp;pOperation);
+    hr = pApp->OpenOperation(operationName, myVar, &pOperation);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not open operation.");
 
-    hr = pOperation->get_OperationID(&amp;operationID);
+    hr = pOperation->get_OperationID(&operationID);
     if(!(SUCCEEDED(hr)))
         MyHandleError("Could not get operation ID.");
 
@@ -115,7 +115,7 @@ void CheckAccess(ULONGLONG hToken)
     varOperationId.lVal = operationID;
 
     hr = SafeArrayPutElement(varOperationIdArray.parray, index,
-   &amp;varOperationId);
+   &varOperationId);
     if(!(SUCCEEDED(hr)))
         MyHandleError("Could not put operation ID in array.");
 
@@ -132,12 +132,12 @@ void CheckAccess(ULONGLONG hToken)
         myVar,
         myVar,
         myVar,
-        &amp;varResultsArray);
+        &varResultsArray);
 
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not complete access check.");
 
-    hr = SafeArrayGetElement(varResultsArray.parray, index, &amp;varResult);
+    hr = SafeArrayGetElement(varResultsArray.parray, index, &varResult);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not get result from array.");
 
@@ -156,11 +156,11 @@ void CheckAccess(ULONGLONG hToken)
     SysFreeString(appName);
     SysFreeString(operationName);
     SysFreeString(objectName);
-    VariantClear(&amp;myVar);
-    VariantClear(&amp;varOperationIdArray);
-    VariantClear(&amp;varOperationId);
-    VariantClear(&amp;varResultsArray);
-    VariantClear(&amp;varResult); 
+    VariantClear(&myVar);
+    VariantClear(&varOperationIdArray);
+    VariantClear(&varOperationId);
+    VariantClear(&varResultsArray);
+    VariantClear(&varResult); 
     CoUninitialize();
 }
 

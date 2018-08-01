@@ -32,7 +32,7 @@ The following code example shows these steps.
 ```C++
 IRenderEngine *pRender = NULL; 
 hr = CoCreateInstance(CLSID_RenderEngine, NULL, CLSCTX_INPROC,
-    IID_IRenderEngine, (void**) &amp;pRender);
+    IID_IRenderEngine, (void**) &pRender);
 
 hr = pRender->SetTimelineObject(pTL);
 hr = pRender->ConnectFrontEnd( );
@@ -51,17 +51,17 @@ The following code example shows these steps.
 
 ```C++
 CoCreateInstance(CLSID_CaptureGraphBuilder2, NULL, CLSCTX_INPROC, 
-    IID_ICaptureGraphBuilder2, (void **)&amp;pBuilder);
+    IID_ICaptureGraphBuilder2, (void **)&pBuilder);
 
 // Get a pointer to the graph front end.
 IGraphBuilder *pGraph;
-pRender->GetFilterGraph(&amp;pGraph);
+pRender->GetFilterGraph(&pGraph);
 pBuilder->SetFiltergraph(pGraph);
 
 // Create the file-writing section.
 IBaseFilter *pMux;
-pBuilder->SetOutputFileName(&amp;MEDIASUBTYPE_Avi, 
-    OLESTR("Output.avi"), &amp;pMux, NULL);
+pBuilder->SetOutputFileName(&MEDIASUBTYPE_Avi, 
+    OLESTR("Output.avi"), &pMux, NULL);
 ```
 
 
@@ -79,13 +79,13 @@ The following code example shows how to connect the output pins.
 
 ```C++
 long NumGroups;
-pTimeline->GetGroupCount(&amp;NumGroups);
+pTimeline->GetGroupCount(&NumGroups);
 
 // Loop through the groups and get the output pins.
 for (i = 0; i < NumGroups; i++)
 {
     IPin *pPin;
-    if (pRender->GetGroupOutputPin(i, &amp;pPin) == S_OK) 
+    if (pRender->GetGroupOutputPin(i, &pPin) == S_OK) 
     {
         IBaseFilter *pCompressor;
         // Create a compressor filter. (Not shown.)

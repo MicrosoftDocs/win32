@@ -31,7 +31,7 @@ The following code retrieves a Server Data Object (SDO) for the Network Policy S
    hr = pSdoMachine->GetServiceSDO(
       DATA_STORE_LOCAL,
       bstrServiceName,
-      (IUnknown**) &amp;pServiceUnknown
+      (IUnknown**) &pServiceUnknown
    );
    if (FAILED(hr))
    {
@@ -41,7 +41,7 @@ The following code retrieves a Server Data Object (SDO) for the Network Policy S
    CComPtr<ISdoServiceControl>  pSdoServiceControl;
    hr = pServiceUnknown->QueryInterface(
       __uuidof(ISdoServiceControl),
-      (void**) &amp;pSdoServiceControl
+      (void**) &pSdoServiceControl
    );
    if (FAILED(hr))
    {

@@ -47,7 +47,7 @@ The code produces the output shown in the following illustration.
         2,
         D2D1_GAMMA_2_2,
         D2D1_EXTEND_MODE_CLAMP,
-        &amp;pGradientStops
+        &pGradientStops
         );
     ```
 
@@ -65,7 +65,7 @@ The code produces the output shown in the following illustration.
                 D2D1::Point2F(0, 0),
                 D2D1::Point2F(150, 150)),
             pGradientStops,
-            &amp;m_pLinearGradientBrush
+            &m_pLinearGradientBrush
             );
     }
     ```
@@ -73,8 +73,8 @@ The code produces the output shown in the following illustration.
     
 
     ```C++
-    m_pRenderTarget->FillRectangle(&amp;rcBrushRect, m_pLinearGradientBrush);
-    m_pRenderTarget->DrawRectangle(&amp;rcBrushRect, m_pBlackBrush, 1, NULL);
+    m_pRenderTarget->FillRectangle(&rcBrushRect, m_pLinearGradientBrush);
+    m_pRenderTarget->DrawRectangle(&rcBrushRect, m_pBlackBrush, 1, NULL);
     ```
 
     

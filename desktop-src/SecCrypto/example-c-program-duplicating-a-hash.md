@@ -48,7 +48,7 @@ void main(void)
     //--------------------------------------------------------------------
     // Acquire a cryptographic provider context handle.
     if(CryptAcquireContext(
-       &amp;hCryptProv,
+       &hCryptProv,
        NULL,
        NULL,
        PROV_RSA_FULL,
@@ -68,7 +68,7 @@ void main(void)
         CALG_SHA1,
         0,
         0,
-        &amp;hOriginalHash))
+        &hOriginalHash))
     {
        printf("An empty hash object has been created. \n");
     }
@@ -97,7 +97,7 @@ void main(void)
        hOriginalHash,
        NULL,
        0,
-       &amp;hDuplicateHash))
+       &hDuplicateHash))
     {
        printf("The hash has been duplicated. \n");
     }
@@ -198,7 +198,7 @@ void Get_And_Print_Hash(HCRYPTHASH hOHash)
        hOHash,
        NULL,
        0,
-       &amp;hHash))
+       &hHash))
     {
         // It worked. Do nothing.
     }
@@ -210,8 +210,8 @@ void Get_And_Print_Hash(HCRYPTHASH hOHash)
     if(CryptGetHashParam(
        hHash,
        HP_HASHSIZE,
-       (BYTE *)&amp;dwHashLen,
-       &amp;dwHashLenSize,
+       (BYTE *)&dwHashLen,
+       &dwHashLenSize,
        0))
     {
         // It worked. Do nothing.
@@ -234,7 +234,7 @@ void Get_And_Print_Hash(HCRYPTHASH hOHash)
        hHash,
        HP_HASHVAL,
        pbHash,
-       &amp;dwHashLen,
+       &dwHashLen,
        0))
     {
         // Print the hash value.

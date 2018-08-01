@@ -17,7 +17,7 @@ Sets the position of an item in the Shell view. Used by [**SHShellFolderView\_Me
 
                 SFVM_SETITEMPOS 
 
-    lParam = (LPSFV_SETITEMPOS)&amp;sip;
+    lParam = (LPSFV_SETITEMPOS)&sip;
 
             
 ```

@@ -43,11 +43,11 @@ case MENU_DELETE:
     for (i = 0; i < gcpavi; i++) { 
         if (galSelStart[i] != -1) { 
             if (wParam == MENU_COPY) 
-                EditStreamCopy(gapavi[i], &amp;galSelStart[i], 
-                &amp;galSelLen[i], &amp;gapaviSel[gcpaviSel++]); 
+                EditStreamCopy(gapavi[i], &galSelStart[i], 
+                &galSelLen[i], &gapaviSel[gcpaviSel++]); 
             else { 
-                EditStreamCut(gapavi[i], &amp;galSelStart[i], 
-                &amp;galSelLen[i], &amp;gapaviSel[gcpaviSel++]); 
+                EditStreamCut(gapavi[i], &galSelStart[i], 
+                &galSelLen[i], &gapaviSel[gcpaviSel++]); 
             } 
         } 
     } 
@@ -56,7 +56,7 @@ case MENU_DELETE:
 . 
 . 
     // Put on the clipboard if segment is not deleted. 
-    if (gcpaviSel &amp;&amp; wParam != MENU_DELETE) { 
+    if (gcpaviSel && wParam != MENU_DELETE) { 
         PAVISTREAM   gapaviTemp[MAXNUMSTREAMS]; 
         int i; 
  
@@ -64,14 +64,14 @@ case MENU_DELETE:
         // more editing, the clipboard won't change. 
         for (i = 0; i < gcpaviSel; i++) { 
             gapaviTemp[i] = NULL; 
-            EditStreamClone(gapaviSel[i], &amp;gapaviTemp[i]); 
+            EditStreamClone(gapaviSel[i], &gapaviTemp[i]); 
             // 
             // Place error check here. 
             // 
         } 
  
         // Create a file from the streams and put on clipboard. 
-        AVIMakeFileFromStreams(&amp;pf, gcpaviSel, gapaviTemp); 
+        AVIMakeFileFromStreams(&pf, gcpaviSel, gapaviTemp); 
         AVIPutFileOnClipboard(pf); 
  
         // Release clone streams. 

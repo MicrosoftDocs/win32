@@ -50,7 +50,7 @@ if (FAILED(hr))
 CComQIPtr<IObjectWithSite> pSite(pGraph);
 if (pSite)
 {
-    hr = pSite->SetSite((IUnknown*)&amp;GraphCB);
+    hr = pSite->SetSite((IUnknown*)&GraphCB);
 }
 ```
 

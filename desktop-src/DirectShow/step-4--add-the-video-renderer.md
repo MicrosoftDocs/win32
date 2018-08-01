@@ -83,14 +83,14 @@ HRESULT CEVR::AddToGraph(IGraphBuilder *pGraph, HWND hwnd)
     IBaseFilter *pEVR = NULL;
 
     HRESULT hr = AddFilterByCLSID(pGraph, CLSID_EnhancedVideoRenderer, 
-        &amp;pEVR, L"EVR");
+        &pEVR, L"EVR");
 
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = InitializeEVR(pEVR, hwnd, &amp;m_pVideoDisplay);
+    hr = InitializeEVR(pEVR, hwnd, &m_pVideoDisplay);
     if (FAILED(hr))
     {
         goto done;
@@ -104,7 +104,7 @@ HRESULT CEVR::AddToGraph(IGraphBuilder *pGraph, HWND hwnd)
     m_pEVR->AddRef();
 
 done:
-    SafeRelease(&amp;pEVR);
+    SafeRelease(&pEVR);
     return hr;
 }
 ```
@@ -131,13 +131,13 @@ HRESULT InitializeEVR(
     IMFGetService *pGS = NULL;
     IMFVideoDisplayControl *pDisplay = NULL;
 
-    HRESULT hr = pEVR->QueryInterface(IID_PPV_ARGS(&amp;pGS)); 
+    HRESULT hr = pEVR->QueryInterface(IID_PPV_ARGS(&pGS)); 
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pGS->GetService(MR_VIDEO_RENDER_SERVICE, IID_PPV_ARGS(&amp;pDisplay));
+    hr = pGS->GetService(MR_VIDEO_RENDER_SERVICE, IID_PPV_ARGS(&pDisplay));
     if (FAILED(hr))
     {
         goto done;
@@ -162,8 +162,8 @@ HRESULT InitializeEVR(
     (*ppDisplayControl)->AddRef();
 
 done:
-    SafeRelease(&amp;pGS);
-    SafeRelease(&amp;pDisplay);
+    SafeRelease(&pGS);
+    SafeRelease(&pDisplay);
     return hr; 
 } 
 ```
@@ -182,11 +182,11 @@ HRESULT CEVR::FinalizeGraph(IGraphBuilder *pGraph)
     }
 
     BOOL bRemoved;
-    HRESULT hr = RemoveUnconnectedRenderer(pGraph, m_pEVR, &amp;bRemoved);
+    HRESULT hr = RemoveUnconnectedRenderer(pGraph, m_pEVR, &bRemoved);
     if (bRemoved)
     {
-        SafeRelease(&amp;m_pEVR);
-        SafeRelease(&amp;m_pVideoDisplay);
+        SafeRelease(&m_pEVR);
+        SafeRelease(&m_pVideoDisplay);
     }
     return hr;
 }
@@ -207,14 +207,14 @@ HRESULT CVMR9::AddToGraph(IGraphBuilder *pGraph, HWND hwnd)
     IBaseFilter *pVMR = NULL;
 
     HRESULT hr = AddFilterByCLSID(pGraph, CLSID_VideoMixingRenderer9, 
-        &amp;pVMR, L"VMR-9");
+        &pVMR, L"VMR-9");
     if (SUCCEEDED(hr))
     {
         // Set windowless mode on the VMR. This must be done before the VMR 
         // is connected.
-        hr = InitWindowlessVMR9(pVMR, hwnd, &amp;m_pWindowless);
+        hr = InitWindowlessVMR9(pVMR, hwnd, &m_pWindowless);
     }
-    SafeRelease(&amp;pVMR);
+    SafeRelease(&pVMR);
     return hr;
 }
 ```
@@ -244,7 +244,7 @@ HRESULT InitWindowlessVMR9(
     IVMRWindowlessControl9 *pWC = NULL;
 
     // Set the rendering mode.  
-    HRESULT hr = pVMR->QueryInterface(IID_PPV_ARGS(&amp;pConfig)); 
+    HRESULT hr = pVMR->QueryInterface(IID_PPV_ARGS(&pConfig)); 
     if (FAILED(hr))
     {
         goto done;
@@ -257,7 +257,7 @@ HRESULT InitWindowlessVMR9(
     }
 
     // Query for the windowless control interface.
-    hr = pVMR->QueryInterface(IID_PPV_ARGS(&amp;pWC));
+    hr = pVMR->QueryInterface(IID_PPV_ARGS(&pWC));
     if (FAILED(hr))
     {
         goto done;
@@ -282,8 +282,8 @@ HRESULT InitWindowlessVMR9(
     (*ppWC)->AddRef();
 
 done:
-    SafeRelease(&amp;pConfig);
-    SafeRelease(&amp;pWC);
+    SafeRelease(&pConfig);
+    SafeRelease(&pWC);
     return hr; 
 } 
 ```
@@ -303,24 +303,24 @@ HRESULT CVMR9::FinalizeGraph(IGraphBuilder *pGraph)
 
     IBaseFilter *pFilter = NULL;
 
-    HRESULT hr = m_pWindowless->QueryInterface(IID_PPV_ARGS(&amp;pFilter));
+    HRESULT hr = m_pWindowless->QueryInterface(IID_PPV_ARGS(&pFilter));
     if (FAILED(hr))
     {
         goto done;
     }
 
     BOOL bRemoved;
-    hr = RemoveUnconnectedRenderer(pGraph, pFilter, &amp;bRemoved);
+    hr = RemoveUnconnectedRenderer(pGraph, pFilter, &bRemoved);
 
     // If we removed the VMR, then we also need to release our 
     // pointer to the VMR's windowless control interface.
     if (bRemoved)
     {
-        SafeRelease(&amp;m_pWindowless);
+        SafeRelease(&m_pWindowless);
     }
 
 done:
-    SafeRelease(&amp;pFilter);
+    SafeRelease(&pFilter);
     return hr;
 }
 ```
@@ -338,15 +338,15 @@ HRESULT CVMR7::AddToGraph(IGraphBuilder *pGraph, HWND hwnd)
     IBaseFilter *pVMR = NULL;
 
     HRESULT hr = AddFilterByCLSID(pGraph, CLSID_VideoMixingRenderer, 
-        &amp;pVMR, L"VMR-7");
+        &pVMR, L"VMR-7");
 
     if (SUCCEEDED(hr))
     {
         // Set windowless mode on the VMR. This must be done before the VMR
         // is connected.
-        hr = InitWindowlessVMR(pVMR, hwnd, &amp;m_pWindowless);
+        hr = InitWindowlessVMR(pVMR, hwnd, &m_pWindowless);
     }
-    SafeRelease(&amp;pVMR);
+    SafeRelease(&pVMR);
     return hr;
 }
 ```
@@ -376,7 +376,7 @@ HRESULT InitWindowlessVMR(
     IVMRWindowlessControl *pWC = NULL;
 
     // Set the rendering mode.  
-    HRESULT hr = pVMR->QueryInterface(IID_PPV_ARGS(&amp;pConfig)); 
+    HRESULT hr = pVMR->QueryInterface(IID_PPV_ARGS(&pConfig)); 
     if (FAILED(hr))
     {
         goto done;
@@ -389,7 +389,7 @@ HRESULT InitWindowlessVMR(
     }
 
     // Query for the windowless control interface.
-    hr = pVMR->QueryInterface(IID_PPV_ARGS(&amp;pWC));
+    hr = pVMR->QueryInterface(IID_PPV_ARGS(&pWC));
     if (FAILED(hr))
     {
         goto done;
@@ -414,8 +414,8 @@ HRESULT InitWindowlessVMR(
     (*ppWC)->AddRef();
 
 done:
-    SafeRelease(&amp;pConfig);
-    SafeRelease(&amp;pWC);
+    SafeRelease(&pConfig);
+    SafeRelease(&pWC);
     return hr; 
 } 
 ```
@@ -435,24 +435,24 @@ HRESULT CVMR7::FinalizeGraph(IGraphBuilder *pGraph)
 
     IBaseFilter *pFilter = NULL;
 
-    HRESULT hr = m_pWindowless->QueryInterface(IID_PPV_ARGS(&amp;pFilter));
+    HRESULT hr = m_pWindowless->QueryInterface(IID_PPV_ARGS(&pFilter));
     if (FAILED(hr))
     {
         goto done;
     }
 
     BOOL bRemoved;
-    hr = RemoveUnconnectedRenderer(pGraph, pFilter, &amp;bRemoved);
+    hr = RemoveUnconnectedRenderer(pGraph, pFilter, &bRemoved);
 
     // If we removed the VMR, then we also need to release our 
     // pointer to the VMR's windowless control interface.
     if (bRemoved)
     {
-        SafeRelease(&amp;m_pWindowless);
+        SafeRelease(&m_pWindowless);
     }
 
 done:
-    SafeRelease(&amp;pFilter);
+    SafeRelease(&pFilter);
     return hr;
 }
 ```

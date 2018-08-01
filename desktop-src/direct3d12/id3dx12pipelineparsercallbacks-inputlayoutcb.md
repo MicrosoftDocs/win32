@@ -30,7 +30,7 @@ Calls the input layout subobject callback of an object that implements this inte
 
 ```C++
 void InputLayoutCb(
-  [ref] const D3D12_INPUT_LAYOUT_DESC &amp;InputLayout
+  [ref] const D3D12_INPUT_LAYOUT_DESC &InputLayout
 );
 ```
 

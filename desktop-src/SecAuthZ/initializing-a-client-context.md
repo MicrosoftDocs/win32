@@ -49,7 +49,7 @@ BOOL AuthzInitFromToken(AUTHZ_CLIENT_CONTEXT_HANDLE *phClientContext)
         NULL,
         NULL,
         L"My Resource Manager",
-        &amp;g_hResourceManager
+        &g_hResourceManager
         ))
     {
         printf_s("AuthzInitializeResourceManager failed with %d\n", GetLastError);
@@ -59,7 +59,7 @@ BOOL AuthzInitFromToken(AUTHZ_CLIENT_CONTEXT_HANDLE *phClientContext)
 
     //Get the current token.
 
-    if(!OpenProcessToken(GetCurrentProcess(), TOKEN_ALL_ACCESS, &amp;hToken))
+    if(!OpenProcessToken(GetCurrentProcess(), TOKEN_ALL_ACCESS, &hToken))
     {
         printf_s("OpenProcessToken failed with %d\n", GetLastError);
         return FALSE;

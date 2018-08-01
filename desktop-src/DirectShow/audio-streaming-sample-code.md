@@ -29,7 +29,7 @@ class CWaveBuffer {
     public:
         ~CWaveBuffer();
         BOOL Init(HWAVEOUT hWave, int Size);
-        BOOL Write(PBYTE pData, int nBytes, int&amp; BytesWritten);
+        BOOL Write(PBYTE pData, int nBytes, int& BytesWritten);
         void Flush();
     private:
         WAVEHDR      m_Hdr;
@@ -74,7 +74,7 @@ BOOL CWaveBuffer::Init(HWAVEOUT hWave, int Size)
     m_Hdr.reserved = 0;
 
     /*  Prepare it. */
-    waveOutPrepareHeader(hWave, &amp;m_Hdr, sizeof(WAVEHDR));
+    waveOutPrepareHeader(hWave, &m_Hdr, sizeof(WAVEHDR));
     return TRUE;
 }
 
@@ -82,7 +82,7 @@ CWaveBuffer::~CWaveBuffer()
 {
     if (m_Hdr.lpData) 
     {
-        waveOutUnprepareHeader(m_hWave, &amp;m_Hdr, sizeof(WAVEHDR));
+        waveOutUnprepareHeader(m_hWave, &m_Hdr, sizeof(WAVEHDR));
         LocalFree(m_Hdr.lpData);
     }
 }
@@ -91,10 +91,10 @@ void CWaveBuffer::Flush()
 {
     // ASSERT(m_nBytes != 0);
     m_nBytes = 0;
-    waveOutWrite(m_hWave, &amp;m_Hdr, sizeof(WAVEHDR));
+    waveOutWrite(m_hWave, &m_Hdr, sizeof(WAVEHDR));
 }
 
-BOOL CWaveBuffer::Write(PBYTE pData, int nBytes, int&amp; BytesWritten)
+BOOL CWaveBuffer::Write(PBYTE pData, int nBytes, int& BytesWritten)
 {
     // ASSERT((DWORD)m_nBytes != m_Hdr.dwBufferLength);
     BytesWritten = min((int)m_Hdr.dwBufferLength - m_nBytes, nBytes);
@@ -104,7 +104,7 @@ BOOL CWaveBuffer::Write(PBYTE pData, int nBytes, int&amp; BytesWritten)
     {
         /*  Write it! */
         m_nBytes = 0;
-        waveOutWrite(m_hWave, &amp;m_Hdr, sizeof(WAVEHDR));
+        waveOutWrite(m_hWave, &m_Hdr, sizeof(WAVEHDR));
         return TRUE;
     }
     return FALSE;
@@ -128,7 +128,7 @@ CWaveOut::CWaveOut(LPCWAVEFORMATEX Format, int nBuffers, int BufferSize) :
     m_hWave(NULL)
 {
     /*  Create wave device. */
-    waveOutOpen(&amp;m_hWave,
+    waveOutOpen(&m_hWave,
                 WAVE_MAPPER,
                 Format,
                 (DWORD)WaveCallback,
@@ -207,7 +207,7 @@ void CWaveOut::Wait()
         WaitForSingleObject(m_hSem, INFINITE);
     }
     LONG lPrevCount;
-    ReleaseSemaphore(m_hSem, m_nBuffers, &amp;lPrevCount);
+    ReleaseSemaphore(m_hSem, m_nBuffers, &lPrevCount);
 }
 
 HRESULT RenderStreamToDevice(IMultiMediaStream *pMMStream)
@@ -220,17 +220,17 @@ HRESULT RenderStreamToDevice(IMultiMediaStream *pMMStream)
     IAudioMediaStream   *pAudioStream = NULL;
     IAudioData          *pAudioData = NULL;
 
-    HRESULT hr = pMMStream->GetMediaStream(MSPID_PrimaryAudio, &amp;pStream);
+    HRESULT hr = pMMStream->GetMediaStream(MSPID_PrimaryAudio, &pStream);
     if (FAILED(hr))
     {
         return hr;
     }
 
-    pStream->QueryInterface(IID_IAudioMediaStream, (void **)&amp;pAudioStream);
+    pStream->QueryInterface(IID_IAudioMediaStream, (void **)&pAudioStream);
     pStream->Release();
 
     hr = CoCreateInstance(CLSID_AMAudioData, NULL, 
-        CLSCTX_INPROC_SERVER, IID_IAudioData, (void **)&amp;pAudioData);
+        CLSCTX_INPROC_SERVER, IID_IAudioData, (void **)&pAudioData);
     if (FAILED(hr))
     {
         pAudioStream->Release();
@@ -245,10 +245,10 @@ HRESULT RenderStreamToDevice(IMultiMediaStream *pMMStream)
         return E_OUTOFMEMORY;
     }
 
-    pAudioStream->GetFormat(&amp;wfx);
+    pAudioStream->GetFormat(&wfx);
     pAudioData->SetBuffer(DATA_SIZE, pBuffer, 0);
-    pAudioData->SetFormat(&amp;wfx);
-    hr = pAudioStream->CreateSample(pAudioData, 0, &amp;pSample);
+    pAudioData->SetFormat(&wfx);
+    hr = pAudioStream->CreateSample(pAudioData, 0, &pSample);
     pAudioStream->Release();
     if (FAILED(hr))
     {
@@ -258,7 +258,7 @@ HRESULT RenderStreamToDevice(IMultiMediaStream *pMMStream)
         return hr;
     }
 
-    CWaveOut WaveOut(&amp;wfx, 4, 2048);
+    CWaveOut WaveOut(&wfx, 4, 2048);
     HANDLE hEvent = CreateEvent(FALSE, NULL, NULL, FALSE);
     if (hEvent != 0)
     {
@@ -280,7 +280,7 @@ HRESULT RenderStreamToDevice(IMultiMediaStream *pMMStream)
                     break;
                 }
                 DWORD dwLength;
-                pAudioData->GetInfo(NULL, NULL, &amp;dwLength);
+                pAudioData->GetInfo(NULL, NULL, &dwLength);
                 WaveOut.Write(pBuffer, dwLength);
             }
             pMMStream->Seek(0);
@@ -305,7 +305,7 @@ HRESULT RenderFileToMMStream(
     IAMMultiMediaStream *pAMStream;
     HRESULT hr = CoCreateInstance(CLSID_AMMultiMediaStream, NULL, 
         CLSCTX_INPROC_SERVER, IID_IAMMultiMediaStream, 
-        (void **)&amp;pAMStream);
+        (void **)&pAMStream);
     if (FAILED(hr))
     { 
         return hr;
@@ -316,7 +316,7 @@ HRESULT RenderFileToMMStream(
         MAX_PATH + 1);
     
     pAMStream->Initialize(STREAMTYPE_READ, AMMSF_NOGRAPHTHREAD, NULL);
-    pAMStream->AddMediaStream(NULL, &amp;MSPID_PrimaryAudio, 0, NULL);
+    pAMStream->AddMediaStream(NULL, &MSPID_PrimaryAudio, 0, NULL);
     hr = pAMStream->OpenFile(wszName, AMMSF_RUN);
     {
         if (SUCCEEDED(hr))
@@ -339,7 +339,7 @@ int __cdecl main(int argc, char *argv[])
 
     IMultiMediaStream *pMMStream;
     CoInitialize(NULL);
-    HRESULT hr = RenderFileToMMStream(argv[1], &amp;pMMStream);
+    HRESULT hr = RenderFileToMMStream(argv[1], &pMMStream);
     if (SUCCEEDED(hr))
     {
         RenderStreamToDevice(pMMStream);

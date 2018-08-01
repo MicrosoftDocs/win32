@@ -28,7 +28,7 @@ The following example uses the [**mmioDescend**](https://msdn.microsoft.com/en-u
 // Find the format chunk (form type "FMT"); it should be 
 // a subchunk of the "RIFF" parent chunk. 
 mmckinfoSubchunk.ckid = mmioFOURCC('f', 'm', 't', ' '); 
-if (mmioDescend(hmmio, &amp;mmckinfoSubchunk, &amp;mmckinfoParent, 
+if (mmioDescend(hmmio, &mmckinfoSubchunk, &mmckinfoParent, 
     MMIO_FINDCHUNK)) 
     // Error, cannot find the "FMT" chunk. 
 else 

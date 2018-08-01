@@ -29,7 +29,7 @@ The procedures shown in this topic are explained in more detail in [Using Output
 
     ```C++
         OPM_RANDOM_NUMBER random;   // Random number from driver.
-        ZeroMemory(&amp;random, sizeof(random));
+        ZeroMemory(&random, sizeof(random));
 
         BYTE *pbCertificate = NULL; // Pointer to a buffer to hold the certificate.
         ULONG cbCertificate = 0;    // Size of the certificate in bytes.
@@ -38,9 +38,9 @@ The procedures shown in this topic are explained in more detail in [Using Output
 
         // Get the driver's certificate chain + random number
         hr = pVideoOutput->StartInitialization(
-            &amp;random, 
-            &amp;pbCertificate, 
-            &amp;cbCertificate
+            &random, 
+            &pbCertificate, 
+            &cbCertificate
             );
 
         if (FAILED(hr))
@@ -60,7 +60,7 @@ The procedures shown in this topic are explained in more detail in [Using Output
         hr = GetPublicKeyFromCertificate(
             pbCertificate,
             cbCertificate,
-            &amp;pKey
+            &pKey
             );
 
         if (FAILED(hr))
@@ -73,7 +73,7 @@ The procedures shown in this topic are explained in more detail in [Using Output
         BCRYPT_ALG_HANDLE hAlg = 0;
 
         hr = BCryptOpenAlgorithmProvider(
-            &amp;hAlg, 
+            &hAlg, 
             BCRYPT_RSA_ALGORITHM, 
             MS_PRIMITIVE_PROVIDER, 
             0
@@ -89,7 +89,7 @@ The procedures shown in this topic are explained in more detail in [Using Output
         BCRYPT_KEY_HANDLE hPublicKey = 0;
 
         // Import the RSA public key.
-        hr = ImportRsaPublicKey(hAlg, pKey, &amp;hPublicKey);
+        hr = ImportRsaPublicKey(hAlg, pKey, &hPublicKey);
 
         if (FAILED(hr))
         {
@@ -155,7 +155,7 @@ The procedures shown in this topic are explained in more detail in [Using Output
         BCRYPT_RSAKEY_BLOB *pRsaBlob;
         PBYTE pbCurrent;
 
-        hr = DWordAdd(cbModulus, sizeof(BCRYPT_RSAKEY_BLOB), &amp;cbKey);
+        hr = DWordAdd(cbModulus, sizeof(BCRYPT_RSAKEY_BLOB), &cbKey);
 
         if (FAILED(hr))
         {
@@ -185,7 +185,7 @@ The procedures shown in this topic are explained in more detail in [Using Output
         pbCurrent = (PBYTE)(pRsaBlob + 1);
         
         // Copy pubExp Big Endian 
-        ReverseMemCopy(pbCurrent, (PBYTE)&amp;dwExp, cbExp);
+        ReverseMemCopy(pbCurrent, (PBYTE)&dwExp, cbExp);
         pbCurrent += cbExp;
 
         // Copy Modulus Big Endian 
@@ -212,7 +212,7 @@ The procedures shown in this topic are explained in more detail in [Using Output
 
 4.  Next, prepare the buffer that contains the starting sequence numbers and the AES session key.
     ```C++
-    void CopyAndAdvancePtr(BYTE*&amp; pDest, const BYTE* pSrc, DWORD cb)
+    void CopyAndAdvancePtr(BYTE*& pDest, const BYTE* pSrc, DWORD cb)
     {
         memcpy(pDest, pSrc, cb);
         pDest += cb;
@@ -234,7 +234,7 @@ The procedures shown in this topic are explained in more detail in [Using Output
         // Generate the starting sequence number for queries.
         hr = BCryptGenRandom(
             NULL, 
-            (BYTE*)&amp;uStatusSeq, 
+            (BYTE*)&uStatusSeq, 
             sizeof(UINT), 
             BCRYPT_USE_SYSTEM_PREFERRED_RNG
             );
@@ -248,7 +248,7 @@ The procedures shown in this topic are explained in more detail in [Using Output
         // Generate the starting sequence number for commands.
         hr = BCryptGenRandom(
             NULL, 
-            (BYTE*)&amp;uCommandSeq, 
+            (BYTE*)&uCommandSeq, 
             sizeof(UINT), 
             BCRYPT_USE_SYSTEM_PREFERRED_RNG
             );
@@ -261,7 +261,7 @@ The procedures shown in this topic are explained in more detail in [Using Output
         // Generate the AES session key.
         hr = BCryptGenRandom(
             NULL, 
-            (BYTE*)&amp;AesKey, 
+            (BYTE*)&AesKey, 
             sizeof(AesKey), 
             BCRYPT_USE_SYSTEM_PREFERRED_RNG
             );
@@ -273,15 +273,15 @@ The procedures shown in this topic are explained in more detail in [Using Output
 
         // Fill in the initialization structure.
         OPM_ENCRYPTED_INITIALIZATION_PARAMETERS initParams;
-        ZeroMemory(&amp;initParams, sizeof(initParams));
+        ZeroMemory(&initParams, sizeof(initParams));
         
         // Use a temporary pointer for copying into the array.
-        BYTE *pBuffer = &amp;initParams.abEncryptedInitializationParameters[0];
+        BYTE *pBuffer = &initParams.abEncryptedInitializationParameters[0];
 
         CopyAndAdvancePtr(pBuffer, random.abRandomNumber, sizeof(random)); // Random number from the friver.
         CopyAndAdvancePtr(pBuffer, AesKey.abRandomNumber, sizeof(AesKey)); // Session key.
-        CopyAndAdvancePtr(pBuffer, (BYTE*)&amp;uStatusSeq, sizeof(uStatusSeq));
-        CopyAndAdvancePtr(pBuffer, (BYTE*)&amp;uCommandSeq, sizeof(uCommandSeq));
+        CopyAndAdvancePtr(pBuffer, (BYTE*)&uStatusSeq, sizeof(uStatusSeq));
+        CopyAndAdvancePtr(pBuffer, (BYTE*)&uCommandSeq, sizeof(uCommandSeq));
     ```
 
     
@@ -292,7 +292,7 @@ The procedures shown in this topic are explained in more detail in [Using Output
         // RSAES-OAEP encrypt the signature. Use SHA2 hashing algorithm.
         //--------------------------------------------------------------------
 
-        PBYTE pbDataIn = &amp;initParams.abEncryptedInitializationParameters[0];
+        PBYTE pbDataIn = &initParams.abEncryptedInitializationParameters[0];
         ULONG cbDataIn = (ULONG)(pBuffer - pbDataIn);  
 
         DWORD cbOutput = 0;
@@ -301,7 +301,7 @@ The procedures shown in this topic are explained in more detail in [Using Output
         BYTE *pbDataOut = NULL;
 
         BCRYPT_OAEP_PADDING_INFO paddingInfo;
-        ZeroMemory(&amp;paddingInfo, sizeof(paddingInfo));
+        ZeroMemory(&paddingInfo, sizeof(paddingInfo));
 
         paddingInfo.pszAlgId = BCRYPT_SHA512_ALGORITHM;
 
@@ -310,12 +310,12 @@ The procedures shown in this topic are explained in more detail in [Using Output
             hPublicKey,
             (PUCHAR)pbDataIn,
             cbDataIn,
-            &amp;paddingInfo,
+            &paddingInfo,
             NULL,
             0,
             NULL,
             0,
-            &amp;cbOutput,
+            &cbOutput,
             BCRYPT_PAD_OAEP
             );
 
@@ -336,12 +336,12 @@ The procedures shown in this topic are explained in more detail in [Using Output
             hPublicKey,
             (PUCHAR)pbDataIn,
             cbDataIn,
-            &amp;paddingInfo,
+            &paddingInfo,
             NULL,
             0,
             pbDataOut,
             cbOutput,
-            &amp;cbDataOut,
+            &cbDataOut,
             BCRYPT_PAD_OAEP
             );
 
@@ -381,12 +381,12 @@ The next example shows how to send the [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-c
         OPM_GET_INFO_PARAMETERS     StatusInput;
         OPM_REQUESTED_INFORMATION   StatusOutput;
 
-        ZeroMemory(&amp;StatusInput, sizeof(StatusInput));
-        ZeroMemory(&amp;StatusOutput, sizeof(StatusOutput));
+        ZeroMemory(&StatusInput, sizeof(StatusInput));
+        ZeroMemory(&StatusOutput, sizeof(StatusOutput));
 
         hr = BCryptGenRandom(
             NULL, 
-            (BYTE*)&amp;(StatusInput.rnRandomNumber), 
+            (BYTE*)&(StatusInput.rnRandomNumber), 
             OPM_128_BIT_RANDOM_NUMBER_SIZE, 
             BCRYPT_USE_SYSTEM_PREFERRED_RNG
             );
@@ -403,9 +403,9 @@ The next example shows how to send the [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-c
 
         hr = ComputeOMAC(
             AesKey,                                             // Session key.
-            (BYTE*)&amp;StatusInput + OPM_OMAC_SIZE,                // Data
+            (BYTE*)&StatusInput + OPM_OMAC_SIZE,                // Data
             sizeof(OPM_GET_INFO_PARAMETERS) - OPM_OMAC_SIZE,    // Size
-            &amp;StatusInput.omac                                   // Receives the OMAC
+            &StatusInput.omac                                   // Receives the OMAC
             );
 
         if (FAILED(hr))
@@ -420,7 +420,7 @@ The next example shows how to send the [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-c
 2.  The **omac** member of the [**OPM\_GET\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_get_info_parameters) structure is a one-key CBC MAC (OMAC) computed for the rest of the structure. The ComputeOMAC function (shown later) is declared as follows:
     ```C++
     HRESULT ComputeOMAC(
-        OPM_RANDOM_NUMBER&amp;  AesKey,     // Session key
+        OPM_RANDOM_NUMBER&  AesKey,     // Session key
         PUCHAR pb,                      // Data
         DWORD cb,                       // Size
         OPM_OMAC *pTag                  // Receives the OMAC
@@ -432,7 +432,7 @@ The next example shows how to send the [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-c
 3.  Call [**IOPMVideoOutput::GetInformation**](/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-getinformation) to send the status request.
     ```C++
         //  Send the status request.
-        hr = pVideoOutput->GetInformation(&amp;StatusInput, &amp;StatusOutput);
+        hr = pVideoOutput->GetInformation(&StatusInput, &StatusOutput);
 
         if (FAILED(hr))
         {
@@ -455,9 +455,9 @@ The next example shows how to send the [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-c
 
         hr = ComputeOMAC(
             AesKey,
-            (BYTE*)&amp;StatusOutput + OPM_OMAC_SIZE, 
+            (BYTE*)&StatusOutput + OPM_OMAC_SIZE, 
             sizeof(OPM_REQUESTED_INFORMATION) - OPM_OMAC_SIZE, 
-            &amp;rgbSignature
+            &rgbSignature
             );
 
         if (FAILED(hr))
@@ -484,20 +484,20 @@ The next example shows how to send the [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-c
         // The response data is an OPM_STANDARD_INFORMATION structure.
 
         OPM_STANDARD_INFORMATION StatusInfo;
-        ZeroMemory(&amp;StatusInfo, sizeof(StatusInfo));
+        ZeroMemory(&StatusInfo, sizeof(StatusInfo));
 
         ULONG cbLen = min(sizeof(OPM_STANDARD_INFORMATION), StatusOutput.cbRequestedInformationSize);    
 
         if (cbLen != 0)
         {
             // Copy the repinse into the array.
-            CopyMemory((BYTE*)&amp;StatusInfo, StatusOutput.abRequestedInformation, cbLen);
+            CopyMemory((BYTE*)&StatusInfo, StatusOutput.abRequestedInformation, cbLen);
         }
         
         //  Verify the random number.
         if (0!= memcmp(
-            (BYTE*)&amp;StatusInfo.rnRandomNumber, 
-            (BYTE*)&amp;StatusInput.rnRandomNumber, 
+            (BYTE*)&StatusInfo.rnRandomNumber, 
+            (BYTE*)&StatusInput.rnRandomNumber, 
             sizeof(OPM_RANDOM_NUMBER)) 
             ) 
         {
@@ -531,7 +531,7 @@ The next example shows how to enable High-Bandwidth Digital Content Protection (
         // Data specific to the OPM_SET_PROTECTION_LEVEL command.
         OPM_SET_PROTECTION_LEVEL_PARAMETERS CommandInput;
 
-        ZeroMemory(&amp;CommandInput, sizeof(CommandInput));
+        ZeroMemory(&CommandInput, sizeof(CommandInput));
 
         CommandInput.ulProtectionType = OPM_PROTECTION_TYPE_HDCP;   
         CommandInput.ulProtectionLevel = OPM_HDCP_ON;        
@@ -546,19 +546,19 @@ The next example shows how to enable High-Bandwidth Digital Content Protection (
     ```C++
         // Common command parameters
         OPM_CONFIGURE_PARAMETERS Command;
-        ZeroMemory(&amp;Command, sizeof(Command));
+        ZeroMemory(&Command, sizeof(Command));
 
         Command.guidSetting = OPM_SET_PROTECTION_LEVEL;
         Command.ulSequenceNumber = uCommandSeq;
         Command.cbParametersSize = sizeof(OPM_SET_PROTECTION_LEVEL_PARAMETERS);
-        CopyMemory(&amp;Command.abParameters[0], (BYTE*)&amp;CommandInput, Command.cbParametersSize);
+        CopyMemory(&Command.abParameters[0], (BYTE*)&CommandInput, Command.cbParametersSize);
 
         //  Sign the command structure, not including the omac field.
         hr = ComputeOMAC(
             AesKey,
-            (BYTE*)&amp;Command + OPM_OMAC_SIZE, 
+            (BYTE*)&Command + OPM_OMAC_SIZE, 
             sizeof(OPM_CONFIGURE_PARAMETERS) - OPM_OMAC_SIZE,
-            &amp;Command.omac
+            &Command.omac
             );
 
         if (FAILED(hr))
@@ -574,7 +574,7 @@ The next example shows how to enable High-Bandwidth Digital Content Protection (
     ```C++
         //  Send the command.
         hr = pVideoOutput->Configure(
-            &amp;Command, 
+            &Command, 
             0,      // Size of additional command data.
             NULL    // Additional command data.
             );
@@ -630,7 +630,7 @@ inline void LShift(const BYTE *lpbOpd, BYTE *lpbRes)
 //  Generate OMAC1 signature using AES128
 
 HRESULT ComputeOMAC(
-    OPM_RANDOM_NUMBER&amp;  AesKey,     // Session key
+    OPM_RANDOM_NUMBER&  AesKey,     // Session key
     PUCHAR pb,                      // Data
     DWORD cb,                       // Size of the data
     OPM_OMAC *pTag                  // Receives the OMAC
@@ -661,7 +661,7 @@ HRESULT ComputeOMAC(
     BYTE rBuffer[OPM_OMAC_SIZE];
 
     hr = BCryptOpenAlgorithmProvider(
-        &amp;hAlg, 
+        &hAlg, 
         BCRYPT_AES_ALGORITHM, 
         MS_PRIMITIVE_PROVIDER, 
         0
@@ -673,9 +673,9 @@ HRESULT ComputeOMAC(
         hr = BCryptGetProperty(
             hAlg, 
             BCRYPT_OBJECT_LENGTH, 
-            (PBYTE)&amp;cbKeyObject, 
+            (PBYTE)&cbKeyObject, 
             sizeof(DWORD), 
-            &amp;cbData, 
+            &cbData, 
             0
             );
     }
@@ -705,8 +705,8 @@ HRESULT ComputeOMAC(
     //  Set the key
     if (S_OK == hr) 
     {
-        hr = BCryptImportKey(hAlg, NULL, BCRYPT_KEY_DATA_BLOB, &amp;hKey, 
-            pbKeyObject, cbKeyObject, (PUCHAR)&amp;KeyBlob, sizeof(KeyBlob), 0);
+        hr = BCryptImportKey(hAlg, NULL, BCRYPT_KEY_DATA_BLOB, &hKey, 
+            pbKeyObject, cbKeyObject, (PUCHAR)&KeyBlob, sizeof(KeyBlob), 0);
     }
 
     //  Encrypt 0s
@@ -716,7 +716,7 @@ HRESULT ComputeOMAC(
         ZeroMemory(rBuffer, sizeof(rBuffer));
 
         hr = BCryptEncrypt(hKey, rBuffer, cbBuffer, NULL, NULL, 0, 
-            rBuffer, sizeof(rBuffer), &amp;cbBuffer, 0);
+            rBuffer, sizeof(rBuffer), &cbBuffer, 0);
     }
 
     //  Compute OMAC1 parameters
@@ -745,8 +745,8 @@ HRESULT ComputeOMAC(
         BCryptDestroyKey(hKey);
         hKey = NULL;
 
-        hr = BCryptImportKey(hAlg, NULL, BCRYPT_KEY_DATA_BLOB, &amp;hKey,
-            pbKeyObject, cbKeyObject, (PUCHAR)&amp;KeyBlob, sizeof(KeyBlob), 0);
+        hr = BCryptImportKey(hAlg, NULL, BCRYPT_KEY_DATA_BLOB, &hKey,
+            pbKeyObject, cbKeyObject, (PUCHAR)&KeyBlob, sizeof(KeyBlob), 0);
     }
 
     if (S_OK == hr) 
@@ -762,7 +762,7 @@ HRESULT ComputeOMAC(
                 CopyMemory( rBuffer, pbDataInCur, OPM_OMAC_SIZE );
 
                 hr = BCryptEncrypt(hKey, rBuffer, sizeof(rBuffer), NULL, 
-                    NULL, 0, rBuffer, sizeof(rBuffer), &amp;cbBuffer, 0);
+                    NULL, 0, rBuffer, sizeof(rBuffer), &cbBuffer, 0);
 
                 pbDataInCur += OPM_OMAC_SIZE;
                 cbData -= OPM_OMAC_SIZE;
@@ -784,12 +784,12 @@ HRESULT ComputeOMAC(
                 }
 
                 hr = BCryptEncrypt(hKey, rBuffer, sizeof(rBuffer), NULL, NULL, 
-                    0, (PUCHAR)pTag->abOMAC, OPM_OMAC_SIZE, &amp;cbBuffer, 0);
+                    0, (PUCHAR)pTag->abOMAC, OPM_OMAC_SIZE, &cbBuffer, 0);
 
                 cbData = 0;
             }
                 
-        } while( S_OK == hr &amp;&amp; cbData > 0 );
+        } while( S_OK == hr && cbData > 0 );
     }
 
     //  Clean up

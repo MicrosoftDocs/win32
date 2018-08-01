@@ -43,7 +43,7 @@ Use the [**RpcServerInqBindings**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserv
 RPC_STATUS status;
 RPC_BINDING_VECTOR *rpcBindingVector;
  
-status = RpcServerInqBindings(&amp;rpcBindingVector);
+status = RpcServerInqBindings(&rpcBindingVector);
 ```
 
 

@@ -202,7 +202,7 @@ BOOL MyTaskBarAddIcon(HWND hwnd, UINT uID, HICON hicon, LPSTR lpszTip)
     else 
         tnid.szTip[0] = (TCHAR)'\0'; 
  
-    res = Shell_NotifyIcon(NIM_ADD, &amp;tnid); 
+    res = Shell_NotifyIcon(NIM_ADD, &tnid); 
  
     if (hicon) 
         DestroyIcon(hicon); 
@@ -231,7 +231,7 @@ BOOL MyTaskBarDeleteIcon(HWND hwnd, UINT uID)
     tnid.hWnd = hwnd; 
     tnid.uID = uID; 
          
-    res = Shell_NotifyIcon(NIM_DELETE, &amp;tnid); 
+    res = Shell_NotifyIcon(NIM_DELETE, &tnid); 
     return res; 
 }
 ```

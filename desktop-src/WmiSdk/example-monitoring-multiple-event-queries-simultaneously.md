@@ -39,7 +39,7 @@ Private Sub ExecNoteAsync_Click()
     Set sink = New SWbemSink
     Set services = GetObject( _
         "winmgmts:{impersonationLevel=impersonate,(security)}")
-    strQuery = "SELECT * FROM __InstanceCreationEvent "&amp; _
+    strQuery = "SELECT * FROM __InstanceCreationEvent "& _
                 "WHERE TargetInstance ISA 'Win32_NTLogEvent'"
     Set cntxt = New SWbemNamedValueSet
     cntxt.Add "sinkname", "ExecNoteAsync"

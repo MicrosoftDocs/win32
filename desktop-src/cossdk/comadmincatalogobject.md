@@ -59,27 +59,27 @@ This is shown in the following example, where "TopCollection" must be replaced b
 // Convert ItemName to a BSTR.
 bstrItemName = SysAllocString(L"ItemName");
 HRESULT hr = CoCreateInstance(CLSID_COMAdminCatalog, NULL, 
-  CLSCTX_INPROC_SERVER, IID_IUnknown, (void**)&amp;pUnknown);
+  CLSCTX_INPROC_SERVER, IID_IUnknown, (void**)&pUnknown);
 if (FAILED(hr)) exit(0);  // Replace with specific error handling.
 hr = pUnknown->QueryInterface(IID_ICOMAdminCatalog, 
-  (void**)&amp;pCatalog); 
+  (void**)&pCatalog); 
 if (FAILED(hr)) exit(0);  // Replace with specific error handling.
 hr = pCatalog->GetCollection(L"TopCollection", 
-  (IDispatch**)&amp;pTopColl);
+  (IDispatch**)&pTopColl);
 if (FAILED(hr)) exit(0);  // Replace with specific error handling.
 // Populate the TopCollection collection.
 hr = pTopColl->Populate();
 if (FAILED(hr)) exit(0);  // Replace with specific error handling.
 // Get the number of items in the collection.
-hr = pTopColl->get_Count(&amp;lCount);
+hr = pTopColl->get_Count(&lCount);
 if (FAILED(hr)) exit(0);  // Replace with specific error handling.
 VARIANT varName;
-VariantInit(&amp;varName);
+VariantInit(&varName);
 // Iterate through each item in the collection.
 for (LONG lIdx = 0; lIdx < lCount; lIdx++) {
-    hr = pTopColl->get_Item(lIdx, (IDispatch**)&amp;pItem);
+    hr = pTopColl->get_Item(lIdx, (IDispatch**)&pItem);
     if (FAILED(hr)) exit(0);  // Replace with specific error handling.
-    hr = pItem->get_Name(&amp;varName);
+    hr = pItem->get_Name(&varName);
     if (FAILED(hr)) exit(0);  // Replace with specific error handling.
     // Compare the item name to bstrItemName.
     hr = VarBstrCmp(varName.bstrVal, bstrItemName, 1024L, NULL);
@@ -91,7 +91,7 @@ for (LONG lIdx = 0; lIdx < lCount; lIdx++) {
         break;  // Exit the iteration.
     }
 }
-hr = pTopColl->SaveChanges(&amp;lNum);
+hr = pTopColl->SaveChanges(&lNum);
 if (FAILED(hr)) exit(0);  // Replace with specific error handling.
 SysFreeString(bstrItemName);
 

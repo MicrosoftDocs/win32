@@ -22,7 +22,7 @@ This topic is organized as follows:
 
 
 ```
- search-ms:query=vacation&amp;subquery=mydepartment.search-ms
+ search-ms:query=vacation&subquery=mydepartment.search-ms
 ```
 
 

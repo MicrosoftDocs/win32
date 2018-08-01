@@ -105,7 +105,7 @@ private:
 
 HRESULT CSampleShellFolder::GetUrlFromIDL(
       const ITEMIDL * pidl,
-      CString &amp;strUrl)
+      CString &strUrl)
 {
     if (IsURLIDL(pidl) == NULL)
         return E_FAIL;
@@ -122,7 +122,7 @@ HRESULT CSampleShellFolder::GetUrlFromIDL(
 //------------------------------------------------------------
 
 HRESULT CSampleShellFolder::CreateIDL(
-      CString &amp;strUrl, 
+      CString &strUrl, 
       ITEMIDL** ppidl)
 {
     HRESULT hr = S_OK;
@@ -187,7 +187,7 @@ URLIDL *CSampleShellFolder::IsURLIDL(const ITEMIDL* pidl)
     // Check for the presence and length of a PIDL.
     // If the PIDL is present and of sufficient length,
     // compare it to the start URL.
-    if (pidl &amp;&amp; 
+    if (pidl && 
         (ILGetSize(pidl) > strSample.GetLength()*sizeof(WCHAR)) )
     {
         pURLIDL = (URLIDL *)pidl;
@@ -399,7 +399,7 @@ STDMETHODIMP CSampleShellFolder::GetAttributesOf(
         // SFGAO_FOLDER | SFGAO_CANLINK;
         dwAttrs |= SFGAO_NONENUMERATED|SFGAO_READONLY; 
 
-        *prgfInOut &amp;= dwAttrs;
+        *prgfInOut &= dwAttrs;
     }
     return S_OK;
 }

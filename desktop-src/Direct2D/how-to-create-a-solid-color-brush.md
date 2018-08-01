@@ -31,7 +31,7 @@ The following code shows how to create a solid yellow-green brush to fill a squa
     {
         hr = m_pRenderTarget->CreateSolidColorBrush(
             D2D1::ColorF(D2D1::ColorF::Black, 1.0f),
-            &amp;m_pBlackBrush
+            &m_pBlackBrush
             );
     }
 
@@ -40,7 +40,7 @@ The following code shows how to create a solid yellow-green brush to fill a squa
     {
         hr = m_pRenderTarget->CreateSolidColorBrush(
             D2D1::ColorF(D2D1::ColorF(0x9ACD32, 1.0f)),  
-            &amp;m_pYellowGreenBrush
+            &m_pYellowGreenBrush
             );
     }
     ```
@@ -49,8 +49,8 @@ The following code shows how to create a solid yellow-green brush to fill a squa
 
 3.  Call the [**FillRectangle**](https://msdn.microsoft.com/en-us/library/Dd371954(v=VS.85).aspx) method to paint the interior of the rectangle with the yellow green brush and the [**DrawRectangle**](https://msdn.microsoft.com/en-us/library/Dd371902(v=VS.85).aspx) method to paint the outline of the rectangle with the black brush:
     ```C++
-    m_pRenderTarget->FillRectangle(&amp;rcBrushRect, m_pYellowGreenBrush);
-    m_pRenderTarget->DrawRectangle(&amp;rcBrushRect, m_pBlackBrush, 1, NULL);
+    m_pRenderTarget->FillRectangle(&rcBrushRect, m_pYellowGreenBrush);
+    m_pRenderTarget->DrawRectangle(&rcBrushRect, m_pBlackBrush, 1, NULL);
     ```
 
     

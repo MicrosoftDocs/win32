@@ -42,7 +42,7 @@ The CLSID for this effect is CLSID\_D2D1Histogram.
 
 ```C++
 ComPtr<ID2D1Effect> histogramEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Histogram, &amp;histogramEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Histogram, &histogramEffect);
 
 histogramEffect->SetInputEffect(0, m_2DAffineTransformEffectRight.Get());
 histogramEffect->SetValue(D2D1_HISTOGRAM_PROP_CHANNEL_SELECT, D2D1_CHANNEL_SELECTOR_G);
@@ -54,7 +54,7 @@ m_d2dContext->EndDraw();
 // The histogram data is only available once the effect has been 'drawn'.
 int histogramBinCount;
 
-HRESULT hr = histogramEffect->GetValue(D2D1_HISTOGRAM_PROP_NUM_BINS, &amp;histogramBinCount);
+HRESULT hr = histogramEffect->GetValue(D2D1_HISTOGRAM_PROP_NUM_BINS, &histogramBinCount);
 
 float *histogramData = new float[histogramBinCount];
 hr = histogramEffect->GetValue(D2D1_HISTOGRAM_PROP_HISTOGRAM_OUTPUT, 

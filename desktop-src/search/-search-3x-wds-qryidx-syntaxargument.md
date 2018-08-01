@@ -22,7 +22,7 @@ This topic is organized as follows:
 
 
 ```
- search-ms:query=from:paolo&amp;syntax:AQS
+ search-ms:query=from:paolo&syntax:AQS
 ```
 
 

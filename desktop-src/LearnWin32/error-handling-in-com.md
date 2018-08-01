@@ -115,14 +115,14 @@ HRESULT ShowDialog()
     IFileOpenDialog *pFileOpen;
 
     HRESULT hr = CoCreateInstance(__uuidof(FileOpenDialog), NULL, 
-        CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&amp;pFileOpen));
+        CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&pFileOpen));
     if (SUCCEEDED(hr))
     {
         hr = pFileOpen->Show(NULL);
         if (SUCCEEDED(hr))
         {
             IShellItem *pItem;
-            hr = pFileOpen->GetResult(&amp;pItem);
+            hr = pFileOpen->GetResult(&pItem);
             if (SUCCEEDED(hr))
             {
                 // Use pItem (not shown). 
@@ -160,7 +160,7 @@ HRESULT ShowDialog()
     IShellItem *pItem = NULL;
 
     HRESULT hr = CoCreateInstance(__uuidof(FileOpenDialog), NULL, 
-        CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&amp;pFileOpen));
+        CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&pFileOpen));
 
     if (SUCCEEDED(hr))
     {
@@ -168,7 +168,7 @@ HRESULT ShowDialog()
     }
     if (SUCCEEDED(hr))
     {
-        hr = pFileOpen->GetResult(&amp;pItem);
+        hr = pFileOpen->GetResult(&pItem);
     }
     if (SUCCEEDED(hr))
     {
@@ -176,8 +176,8 @@ HRESULT ShowDialog()
     }
 
     // Clean up.
-    SafeRelease(&amp;pItem);
-    SafeRelease(&amp;pFileOpen);
+    SafeRelease(&pItem);
+    SafeRelease(&pFileOpen);
     return hr;
 }
 ```
@@ -213,7 +213,7 @@ HRESULT ShowDialog()
     IShellItem *pItem = NULL;
 
     HRESULT hr = CoCreateInstance(__uuidof(FileOpenDialog), NULL, 
-        CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&amp;pFileOpen));
+        CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&pFileOpen));
     if (FAILED(hr))
     {
         goto done;
@@ -225,7 +225,7 @@ HRESULT ShowDialog()
         goto done;
     }
 
-    hr = pFileOpen->GetResult(&amp;pItem);
+    hr = pFileOpen->GetResult(&pItem);
     if (FAILED(hr))
     {
         goto done;
@@ -235,8 +235,8 @@ HRESULT ShowDialog()
 
 done:
     // Clean up.
-    SafeRelease(&amp;pItem);
-    SafeRelease(&amp;pFileOpen);
+    SafeRelease(&pItem);
+    SafeRelease(&pFileOpen);
     return hr;
 }
 ```
@@ -277,12 +277,12 @@ void ShowDialog()
     {
         CComPtr<IFileOpenDialog> pFileOpen;
         throw_if_fail(CoCreateInstance(__uuidof(FileOpenDialog), NULL, 
-            CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&amp;pFileOpen)));
+            CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&pFileOpen)));
 
         throw_if_fail(pFileOpen->Show(NULL));
 
         CComPtr<IShellItem> pItem;
-        throw_if_fail(pFileOpen->GetResult(&amp;pItem));
+        throw_if_fail(pFileOpen->GetResult(&pItem));
 
         // Use pItem (not shown).
     }

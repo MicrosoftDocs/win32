@@ -30,7 +30,7 @@ case WM_COMMAND:
                 "sample.avi" ); 
             break; 
         case IDM_CROPIMAGE:                          // crops image 
-            MCIWndGetSource(g_hwndMCIWnd, &amp;rSource); // source rectangle
+            MCIWndGetSource(g_hwndMCIWnd, &rSource); // source rectangle
             rDest.left = rSource.left +              // new boundaries
                 ((rSource.right - rSource.left) / 4); 
             rDest.right = rSource.right - 
@@ -40,7 +40,7 @@ case WM_COMMAND:
             rDest.bottom = rSource.bottom - 
                 ((rSource.bottom - rSource.top) / 4); 
  
-            MCIWndPutSource(g_hwndMCIWnd, &amp;rDest);   // new source rectangle 
+            MCIWndPutSource(g_hwndMCIWnd, &rDest);   // new source rectangle 
     } 
     break; 
 

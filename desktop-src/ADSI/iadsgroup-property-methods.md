@@ -100,11 +100,11 @@ HRESULT hr = S_OK;
 LPWSTR adsPath = L"WinNT://localHost/Administrators";
 BSTR bstr;
 
-hr = ADsGetObject(adsPath,IID_IADsGroup,(void**)&amp;pGroup);
+hr = ADsGetObject(adsPath,IID_IADsGroup,(void**)&pGroup);
 
 if(FAILED(hr)) {goto Cleanup;}
 
-hr = pGroup->get_Description(&amp;bstr);
+hr = pGroup->get_Description(&bstr);
 if(FAILED(hr)) {goto Cleanup;}
 
 printf("Description: %S\n",bstr);

@@ -37,7 +37,7 @@ void DrawAlphaBlend (HWND hWnd, HDC hdcwnd)
     float fAlphaFactor;    // used to do premultiply 
             
     // get window dimensions 
-    GetClientRect(hWnd, &amp;rt);
+    GetClientRect(hWnd, &rt);
     
     // calculate window width/height 
     ulWindowWidth = rt.right - rt.left;  
@@ -54,7 +54,7 @@ void DrawAlphaBlend (HWND hWnd, HDC hdcwnd)
     hdc = CreateCompatibleDC(hdcwnd);
     
     // zero the memory for the bitmap info 
-    ZeroMemory(&amp;bmi, sizeof(BITMAPINFO));
+    ZeroMemory(&bmi, sizeof(BITMAPINFO));
 
     // setup bitmap info  
     // set the bitmap width and height to 60% of the width and height of each of the three horizontal areas. Later on, the blending will occur in the center of each of the three areas. 
@@ -67,7 +67,7 @@ void DrawAlphaBlend (HWND hWnd, HDC hdcwnd)
     bmi.bmiHeader.biSizeImage = ulBitmapWidth * ulBitmapHeight * 4;
 
     // create our DIB section and select the bitmap into the dc 
-    hbitmap = CreateDIBSection(hdc, &amp;bmi, DIB_RGB_COLORS, &amp;pvBits, NULL, 0x0);
+    hbitmap = CreateDIBSection(hdc, &bmi, DIB_RGB_COLORS, &pvBits, NULL, 0x0);
     SelectObject(hdc, hbitmap);
 
     // in top window area, constant alpha = 50%, but no source alpha 
@@ -91,8 +91,8 @@ void DrawAlphaBlend (HWND hWnd, HDC hdcwnd)
     // alpha is 0 in middle of bitmap and opaque in rest of bitmap  
     for (y = 0; y < ulBitmapHeight; y++)
         for (x = 0; x < ulBitmapWidth; x++)
-            if ((x > (int)(ulBitmapWidth/5)) &amp;&amp; (x < (ulBitmapWidth-ulBitmapWidth/5)) &amp;&amp;
-                (y > (int)(ulBitmapHeight/5)) &amp;&amp; (y < (ulBitmapHeight-ulBitmapHeight/5)))
+            if ((x > (int)(ulBitmapWidth/5)) && (x < (ulBitmapWidth-ulBitmapWidth/5)) &&
+                (y > (int)(ulBitmapHeight/5)) && (y < (ulBitmapHeight-ulBitmapHeight/5)))
                 //in middle of bitmap: source alpha = 0 (transparent). 
                 // This means multiply each color component by 0x00. 
                 // Thus, after AlphaBlend, we have a, 0x00 * r,  

@@ -27,13 +27,13 @@ HRESULT GetNextFilter(
 
     IEnumPins *pEnum = 0;
     IPin *pPin = 0;
-    HRESULT hr = pFilter->EnumPins(&amp;pEnum);
+    HRESULT hr = pFilter->EnumPins(&pEnum);
     if (FAILED(hr)) return hr;
-    while (S_OK == pEnum->Next(1, &amp;pPin, 0))
+    while (S_OK == pEnum->Next(1, &pPin, 0))
     {
         // See if this pin matches the specified direction.
         PIN_DIRECTION ThisPinDir;
-        hr = pPin->QueryDirection(&amp;ThisPinDir);
+        hr = pPin->QueryDirection(&ThisPinDir);
         if (FAILED(hr))
         {
             // Something strange happened.
@@ -45,12 +45,12 @@ HRESULT GetNextFilter(
         {
             // Check if the pin is connected to another pin.
             IPin *pPinNext = 0;
-            hr = pPin->ConnectedTo(&amp;pPinNext);
+            hr = pPin->ConnectedTo(&pPinNext);
             if (SUCCEEDED(hr))
             {
                 // Get the filter that owns that pin.
                 PIN_INFO PinInfo;
-                hr = pPinNext->QueryPinInfo(&amp;PinInfo);
+                hr = pPinNext->QueryPinInfo(&PinInfo);
                 pPinNext->Release();
                 pPin->Release();
                 pEnum->Release();
@@ -82,7 +82,7 @@ The following code shows how to call this function:
 ```C++
 IBaseFilter *pF; // Pointer to some filter.
 IBaseFilter *pUpstream = NULL;
-if (SUCCEEDED(GetNextFilter(pF, PINDIR_INPUT, &amp;pUpstream)))
+if (SUCCEEDED(GetNextFilter(pF, PINDIR_INPUT, &pUpstream)))
 {
     // Use pUpstream ...
     pUpstream->Release();
@@ -102,25 +102,25 @@ The following code shows one possible way to implement such a function. It uses 
 typedef CGenericList<IBaseFilter> CFilterList;
 
 // Forward declaration. Adds a filter to the list unless it's a duplicate.
-void AddFilterUnique(CFilterList &amp;FilterList, IBaseFilter *pNew);
+void AddFilterUnique(CFilterList &FilterList, IBaseFilter *pNew);
 
 // Find all the immediate upstream or downstream peers of a filter.
 HRESULT GetPeerFilters(
     IBaseFilter *pFilter, // Pointer to the starting filter
     PIN_DIRECTION Dir,    // Direction to search (upstream or downstream)
-    CFilterList &amp;FilterList)  // Collect the results in this list.
+    CFilterList &FilterList)  // Collect the results in this list.
 {
     if (!pFilter) return E_POINTER;
 
     IEnumPins *pEnum = 0;
     IPin *pPin = 0;
-    HRESULT hr = pFilter->EnumPins(&amp;pEnum);
+    HRESULT hr = pFilter->EnumPins(&pEnum);
     if (FAILED(hr)) return hr;
-    while (S_OK == pEnum->Next(1, &amp;pPin, 0))
+    while (S_OK == pEnum->Next(1, &pPin, 0))
     {
         // See if this pin matches the specified direction.
         PIN_DIRECTION ThisPinDir;
-        hr = pPin->QueryDirection(&amp;ThisPinDir);
+        hr = pPin->QueryDirection(&ThisPinDir);
         if (FAILED(hr))
         {
             // Something strange happened.
@@ -132,12 +132,12 @@ HRESULT GetPeerFilters(
         {
             // Check if the pin is connected to another pin.
             IPin *pPinNext = 0;
-            hr = pPin->ConnectedTo(&amp;pPinNext);
+            hr = pPin->ConnectedTo(&pPinNext);
             if (SUCCEEDED(hr))
             {
                 // Get the filter that owns that pin.
                 PIN_INFO PinInfo;
-                hr = pPinNext->QueryPinInfo(&amp;PinInfo);
+                hr = pPinNext->QueryPinInfo(&PinInfo);
                 pPinNext->Release();
                 if (FAILED(hr) || (PinInfo.pFilter == NULL))
                 {
@@ -156,7 +156,7 @@ HRESULT GetPeerFilters(
     pEnum->Release();
     return S_OK;
 }
-void AddFilterUnique(CFilterList &amp;FilterList, IBaseFilter *pNew)
+void AddFilterUnique(CFilterList &FilterList, IBaseFilter *pNew)
 {
     if (pNew == NULL) return;
 

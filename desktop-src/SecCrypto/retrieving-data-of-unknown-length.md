@@ -68,7 +68,7 @@ if(SomeFunction(
      pCrlContext, 
      dwPropId, 
      NULL, 
-     &amp;cbData))
+     &cbData))
 {
        printf("The function succeeded.\n");
 }
@@ -100,7 +100,7 @@ if(SomeFunction(
       pCrlContext, 
       dwPropId, 
       pbData, 
-      &amp;cbData))
+      &cbData))
 {
        printf("The function succeeded.\n");
 }

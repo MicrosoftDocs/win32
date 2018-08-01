@@ -547,7 +547,7 @@ public:
         for (int i = 0; i < count; i++)
         {
           CComObject<CItemProperties> * pItem;
-          CComObject<CItemProperties>::CreateInstance(&amp;pItem);
+          CComObject<CItemProperties>::CreateInstance(&pItem);
                     
           pItem->AddRef();
           pItem->Initialize(i);
@@ -577,7 +577,7 @@ public:
         for (int i = 0; i < count; i++)
         {
           CComObject<CItemProperties> * pItem;
-          CComObject<CItemProperties>::CreateInstance(&amp;pItem);
+          CComObject<CItemProperties>::CreateInstance(&pItem);
                     
           pItem->AddRef();
           pItem->InitializeAsCommand(commands[i]);
@@ -620,11 +620,11 @@ STDMETHOD(OnCreateUICommand)(UINT32 nCmdID,
     {
       case cmdComboBox:
         CComObject<CComboBoxCommandHandler> * pComboBoxCommandHandler;
-        CComObject<CComboBoxCommandHandler>::CreateInstance(&amp;pComboBoxCommandHandler);
+        CComObject<CComboBoxCommandHandler>::CreateInstance(&pComboBoxCommandHandler);
         return pComboBoxCommandHandler->QueryInterface(IID_PPV_ARGS(ppCommandHandler));
       default:
         CComObject<CGalleryCommandHandler> * pGalleryCommandHandler;
-        CComObject<CGalleryCommandHandler>::CreateInstance(&amp;pGalleryCommandHandler);
+        CComObject<CGalleryCommandHandler>::CreateInstance(&pGalleryCommandHandler);
         return pGalleryCommandHandler->QueryInterface(IID_PPV_ARGS(ppCommandHandler));
     }
     return E_NOTIMPL; // Command is not implemented, so do not pass a handler back.
@@ -678,7 +678,7 @@ class CItemProperties
     // _isCommandGallery is set on initialization.
     if (_isCommandGallery)
     {           
-      if(key == UI_PKEY_CommandId &amp;&amp; _isCommandGallery)
+      if(key == UI_PKEY_CommandId && _isCommandGallery)
       {
         // Return a pointer to the CommandId of the item.
         return InitPropVariantFromUInt32(_cmdID, ppropvar);
@@ -799,15 +799,15 @@ HRESULT CQATHandler::EnsureCollectionEventListener(__in IUICollection* pUICollec
   HRESULT hr = E_FAIL;
 
   // Create an IUICollectionChangedEvent listener.
-  hr = CreateInstanceWithRefCountOne(&amp;_spQATChangedEvent);
+  hr = CreateInstanceWithRefCountOne(&_spQATChangedEvent);
     
   if (SUCCEEDED(hr))
   {
     CComPtr<IUnknown> spUnknown;
-    _spQATChangedEvent->QueryInterface(IID_PPV_ARGS(&amp;spUnknown));
+    _spQATChangedEvent->QueryInterface(IID_PPV_ARGS(&spUnknown));
 
     // Create a connection between the collection connection point and the sink.
-    AtlAdvise(pUICollection, spUnknown, __uuidof(IUICollectionChangedEvent), &amp;_dwCookie);
+    AtlAdvise(pUICollection, spUnknown, __uuidof(IUICollectionChangedEvent), &_dwCookie);
     _spQATChangedEvent->Initialize(this);
   }
   return hr;
@@ -830,13 +830,13 @@ HRESULT CQATHandler::OnCollectionChanged(
         CComQIPtr<IUISimplePropertySet> spProperties(pNewItem);
                 
         PROPVARIANT var;
-        if (SUCCEEDED(spProperties->GetValue(UI_PKEY_CommandId, &amp;var)))
+        if (SUCCEEDED(spProperties->GetValue(UI_PKEY_CommandId, &var)))
         {
           UINT tcid;
-          if (SUCCEEDED(UIPropertyToUInt32(UI_PKEY_CommandId, var, &amp;tcid)))
+          if (SUCCEEDED(UIPropertyToUInt32(UI_PKEY_CommandId, var, &tcid)))
           {
             FireETWEvent(tcid, L"Added to QAT");
-            PropVariantClear(&amp;var);
+            PropVariantClear(&var);
           }
         }
       }
@@ -846,13 +846,13 @@ HRESULT CQATHandler::OnCollectionChanged(
         CComQIPtr<IUISimplePropertySet> spProperties(pOldItem);
                 
         PROPVARIANT var;
-        if (SUCCEEDED(spProperties->GetValue(UI_PKEY_CommandId, &amp;var)))
+        if (SUCCEEDED(spProperties->GetValue(UI_PKEY_CommandId, &var)))
         {
           UINT tcid;
-          if (SUCCEEDED(UIPropertyToUInt32(UI_PKEY_CommandId, var, &amp;tcid)))
+          if (SUCCEEDED(UIPropertyToUInt32(UI_PKEY_CommandId, var, &tcid)))
           {
             FireETWEvent(tcid, L"Removed from QAT");
-            PropVariantClear(&amp;var);
+            PropVariantClear(&var);
           }
         }
       }

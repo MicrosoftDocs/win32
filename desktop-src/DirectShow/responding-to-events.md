@@ -39,7 +39,7 @@ Next, query the Filter Graph Manager for the [**IMediaEventEx**](/windows/deskto
 
 ```C++
 IMediaEventEx *g_pEvent = NULL;
-g_pGraph->QueryInterface(IID_IMediaEventEx, (void **)&amp;g_pEvent);
+g_pGraph->QueryInterface(IID_IMediaEventEx, (void **)&g_pEvent);
 g_pEvent->SetNotifyWindow((OAHWND)g_hwnd, WM_GRAPHNOTIFY, 0);
 ```
 
@@ -75,7 +75,7 @@ void HandleGraphEvent()
     long evCode;
     LONG_PTR param1, param2;
     HRESULT hr;
-    while (SUCCEEDED(g_pEvent->GetEvent(&amp;evCode, &amp;param1, &amp;param2, 0)))
+    while (SUCCEEDED(g_pEvent->GetEvent(&evCode, &param1, &param2, 0)))
     {
         g_pEvent->FreeEventParams(evCode, param1, param2);
         switch (evCode)

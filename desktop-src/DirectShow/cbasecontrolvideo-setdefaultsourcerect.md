@@ -56,7 +56,7 @@ HRESULT CVideoText::SetDefaultSourceRect()
     VIDEOINFO *pVideoInfo = (VIDEOINFO *) m_pRenderer->m_mtIn.Format();
     BITMAPINFOHEADER *pHeader = HEADER(pVideoInfo);
     RECT SourceRect = {0,0,pHeader->biWidth,pHeader->biHeight};
-    m_pRenderer->m_DrawImage.SetSourceRect(&amp;SourceRect);
+    m_pRenderer->m_DrawImage.SetSourceRect(&SourceRect);
     return NOERROR;
 }
 ```

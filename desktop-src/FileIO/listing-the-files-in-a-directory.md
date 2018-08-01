@@ -44,7 +44,7 @@ int _tmain(int argc, TCHAR *argv[])
    // Check that the input path plus 3 is not longer than MAX_PATH.
    // Three characters are for the "\*" plus NULL appended below.
 
-   StringCchLength(argv[1], MAX_PATH, &amp;length_of_arg);
+   StringCchLength(argv[1], MAX_PATH, &length_of_arg);
 
    if (length_of_arg > (MAX_PATH - 3))
    {
@@ -62,7 +62,7 @@ int _tmain(int argc, TCHAR *argv[])
 
    // Find the first file in the directory.
 
-   hFind = FindFirstFile(szDir, &amp;ffd);
+   hFind = FindFirstFile(szDir, &ffd);
 
    if (INVALID_HANDLE_VALUE == hFind) 
    {
@@ -85,7 +85,7 @@ int _tmain(int argc, TCHAR *argv[])
          _tprintf(TEXT("  %s   %ld bytes\n"), ffd.cFileName, filesize.QuadPart);
       }
    }
-   while (FindNextFile(hFind, &amp;ffd) != 0);
+   while (FindNextFile(hFind, &ffd) != 0);
  
    dwError = GetLastError();
    if (dwError != ERROR_NO_MORE_FILES) 
@@ -113,7 +113,7 @@ void DisplayErrorBox(LPTSTR lpszFunction)
         NULL,
         dw,
         MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
-        (LPTSTR) &amp;lpMsgBuf,
+        (LPTSTR) &lpMsgBuf,
         0, NULL );
 
     // Display the error message and clean up

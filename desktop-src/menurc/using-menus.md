@@ -138,7 +138,7 @@ int APIENTRY WinMain(HINSTANCE hinstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
     wc.lpszMenuName =  MAKEINTRESOURCE(IDM_MYMENURESOURCE); 
     wc.lpszClassName = "MainWClass"; 
  
-    if (!RegisterClass(&amp;wc)) 
+    if (!RegisterClass(&wc)) 
         return FALSE; 
  
     hinst = hinstance; 
@@ -162,10 +162,10 @@ int APIENTRY WinMain(HINSTANCE hinstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
  
     // Start the main message loop. 
  
-    while (GetMessage(&amp;msg, NULL, 0, 0)) 
+    while (GetMessage(&msg, NULL, 0, 0)) 
     { 
-        TranslateMessage(&amp;msg); 
-        DispatchMessage(&amp;msg); 
+        TranslateMessage(&msg); 
+        DispatchMessage(&msg); 
     } 
     return msg.wParam; 
         UNREFERENCED_PARAMETER(hPrevInstance); 
@@ -255,18 +255,18 @@ BOOL WINAPI OnContextMenu(HWND hwnd, int x, int y)
  
     // Get the bounding rectangle of the client area. 
  
-    GetClientRect(hwnd, &amp;rc); 
+    GetClientRect(hwnd, &rc); 
  
     // Convert the mouse position to client coordinates. 
  
-    ScreenToClient(hwnd, &amp;pt); 
+    ScreenToClient(hwnd, &pt); 
  
     // If the position is in the client area, display a  
     // shortcut menu. 
  
-    if (PtInRect(&amp;rc, pt)) 
+    if (PtInRect(&rc, pt)) 
     { 
-        ClientToScreen(hwnd, &amp;pt); 
+        ClientToScreen(hwnd, &pt); 
         DisplayContextMenu(hwnd, pt); 
         return TRUE; 
     } 
@@ -339,7 +339,7 @@ LRESULT APIENTRY MenuWndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
  
             // Get the bounding rectangle of the client area. 
  
-            GetClientRect(hwnd, (LPRECT) &amp;rc); 
+            GetClientRect(hwnd, (LPRECT) &rc); 
  
             // Get the client coordinates for the mouse click.  
  
@@ -350,7 +350,7 @@ LRESULT APIENTRY MenuWndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
             // area, execute the application-defined function 
             // that displays the shortcut menu. 
  
-            if (PtInRect((LPRECT) &amp;rc, pt)) 
+            if (PtInRect((LPRECT) &rc, pt)) 
                 HandlePopupMenu(hwnd, pt); 
             break; 
         // Process other window messages.  
@@ -382,7 +382,7 @@ VOID APIENTRY HandlePopupMenu(HWND hwnd, POINT pt)
     // TrackPopup uses screen coordinates, so convert the 
     // coordinates of the mouse click to screen coordinates. 
  
-    ClientToScreen(hwnd, (LPPOINT) &amp;pt); 
+    ClientToScreen(hwnd, (LPPOINT) &pt); 
  
     // Draw and track the shortcut menu.  
  
@@ -615,7 +615,7 @@ VOID MakeLineMenu(HWND hwnd, HPEN phpen, HBITMAP phbmp)
     hmenu = GetMenu(hwnd); 
     hmenuLines = CreatePopupMenu(); 
     AppendMenu(hmenu, MF_STRING | MF_POPUP, 
-        (UINT) hmenuLines, "&amp;Lines"); 
+        (UINT) hmenuLines, "&Lines"); 
  
     // Create a brush for the menu-item background color.  
  
@@ -764,12 +764,12 @@ LRESULT CALLBACK MainWindowProc(
  
             AddBitmapMenu( 
                     hwnd,      // menu bar's owner window 
-                    "&amp;Chart",  // text of menu name on menu bar 
+                    "&Chart",  // text of menu name on menu bar 
                     IDM_PIE,   // ID of first item on menu 
                     aHbmChart, // array of bitmap handles 
                     C_CHARTS   // number of items on menu 
                     ); 
-            AddBitmapMenu(hwnd, "&amp;Lines", IDM_SOLID, 
+            AddBitmapMenu(hwnd, "&Lines", IDM_SOLID, 
                     aHbmLines, C_LINES); 
             break; 
  
@@ -896,8 +896,8 @@ VOID WINAPI AddBitmapMenu(
     { 
         mii.fMask = MIIM_ID | MIIM_BITMAP | MIIM_DATA; 
         mii.wID = uID + i; 
-        mii.hbmpItem = &amp;paHbm[i]; 
-        InsertMenuItem(hmenuPopup, i, TRUE, &amp;mii); 
+        mii.hbmpItem = &paHbm[i]; 
+        InsertMenuItem(hmenuPopup, i, TRUE, &mii); 
     } 
  
     // Add a menu name to the menu bar. 
@@ -907,7 +907,7 @@ VOID WINAPI AddBitmapMenu(
     mii.hSubMenu = hmenuPopup; 
     mii.dwTypeData = lpszText; 
     InsertMenuItem(hmenuBar, 
-        GetMenuItemCount(hmenuBar), TRUE, &amp;mii); 
+        GetMenuItemCount(hmenuBar), TRUE, &mii); 
 } 
 ```
 
@@ -1005,7 +1005,7 @@ Here is how the menu is defined in the resource-definition file. Note that the s
 ```
 MainMenu MENU 
 BEGIN 
-    POPUP   "&amp;Character" 
+    POPUP   "&Character" 
     BEGIN 
         MENUITEM    "",    IDM_REGULAR 
         MENUITEM SEPARATOR 
@@ -1074,14 +1074,14 @@ LRESULT APIENTRY MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
             hmenu = GetMenu(hwnd); 
             ModifyMenu(hmenu, IDM_REGULAR, MF_BYCOMMAND | 
                 MF_CHECKED | MF_OWNERDRAW, IDM_REGULAR, 
-                (LPTSTR) &amp;myitem[REGULAR]); 
+                (LPTSTR) &myitem[REGULAR]); 
             ModifyMenu(hmenu, IDM_BOLD, MF_BYCOMMAND | 
-                MF_OWNERDRAW, IDM_BOLD, (LPTSTR) &amp;myitem[BOLD]); 
+                MF_OWNERDRAW, IDM_BOLD, (LPTSTR) &myitem[BOLD]); 
             ModifyMenu(hmenu, IDM_ITALIC, MF_BYCOMMAND | 
                 MF_OWNERDRAW, IDM_ITALIC, 
-                (LPTSTR) &amp;myitem[ITALIC]); 
+                (LPTSTR) &myitem[ITALIC]); 
             ModifyMenu(hmenu, IDM_ULINE, MF_BYCOMMAND | 
-                MF_OWNERDRAW, IDM_ULINE, (LPTSTR) &amp;myitem[ULINE]); 
+                MF_OWNERDRAW, IDM_ULINE, (LPTSTR) &myitem[ULINE]); 
  
             // Retrieve each item's font handle and copy it into 
             // the hfont member of each item's MYITEM structure. 
@@ -1134,7 +1134,7 @@ LRESULT APIENTRY MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
             } 
  
             GetTextExtentPoint32(hdc, pmyitem->psz, 
-                *pcch, &amp;size); 
+                *pcch, &size); 
             lpmis->itemWidth = size.cx; 
             lpmis->itemHeight = size.cy; 
  
@@ -1187,7 +1187,7 @@ LRESULT APIENTRY MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
             } 
  
             ExtTextOut(lpdis->hDC, nTextX, nTextY, ETO_OPAQUE, 
-                &amp;lpdis->rcItem, pmyitem->psz, 
+                &lpdis->rcItem, pmyitem->psz, 
                 *pcch, NULL); 
  
             // Select the previous font back into the device 
@@ -1232,7 +1232,7 @@ HFONT GetAFont(int fnFont)
     // information about the font to a LOGFONT structure. 
  
     GetObject(GetStockObject(ANSI_FIXED_FONT), sizeof(LOGFONT), 
-        &amp;lf); 
+        &lf); 
  
     // Set the font attributes, as appropriate.  
  
@@ -1353,7 +1353,7 @@ BOOL WINAPI OnCreate(HWND hwnd)
     // Get a handle to the pop-up menu. 
  
     mii.fMask = MIIM_SUBMENU;     // information to get 
-    GetMenuItemInfo(hmenuBar, IDM_CHARACTER, FALSE, &amp;mii); 
+    GetMenuItemInfo(hmenuBar, IDM_CHARACTER, FALSE, &mii); 
     hmenuPopup = mii.hSubMenu; 
  
     // Modify each menu item. Assume that the IDs IDM_REGULAR 
@@ -1372,7 +1372,7 @@ BOOL WINAPI OnCreate(HWND hwnd)
         mii.fMask = MIIM_STRING; 
         mii.dwTypeData = pMyItem->szItemText; 
         mii.cch = CCH_MAXITEMTEXT; 
-        GetMenuItemInfo(hmenuPopup, uID, FALSE, &amp;mii); 
+        GetMenuItemInfo(hmenuPopup, uID, FALSE, &mii); 
         pMyItem->cchItemText = mii.cch; 
  
         // Reallocate the structure to the minimum required size. 
@@ -1390,7 +1390,7 @@ BOOL WINAPI OnCreate(HWND hwnd)
         mii.fMask = MIIM_FTYPE | MIIM_DATA; 
         mii.fType = MFT_OWNERDRAW; 
         mii.dwItemData = (ULONG_PTR) pMyItem; 
-        SetMenuItemInfo(hmenuPopup, uID, FALSE, &amp;mii); 
+        SetMenuItemInfo(hmenuPopup, uID, FALSE, &mii); 
     } 
     return TRUE; 
 } 
@@ -1400,7 +1400,7 @@ HFONT CreateMenuItemFont(UINT uID)
     LOGFONT lf;
     HRESULT hr; 
  
-    ZeroMemory(&amp;lf, sizeof(lf)); 
+    ZeroMemory(&lf, sizeof(lf)); 
     lf.lfHeight = 20; 
     hr = StringCchCopy(lf.lfFaceName, 32, "Times New Roman");
     if (FAILED(hr))
@@ -1422,7 +1422,7 @@ HFONT CreateMenuItemFont(UINT uID)
             lf.lfUnderline = TRUE; 
             break; 
     } 
-    return CreateFontIndirect(&amp;lf); 
+    return CreateFontIndirect(&lf); 
 } 
  
 VOID WINAPI OnDestroy(HWND hwnd) 
@@ -1436,7 +1436,7 @@ VOID WINAPI OnDestroy(HWND hwnd)
     // Get a handle to the menu. 
  
     mii.fMask = MIIM_SUBMENU;     // information to get  
-    GetMenuItemInfo(hmenuBar, IDM_CHARACTER, FALSE, &amp;mii); 
+    GetMenuItemInfo(hmenuBar, IDM_CHARACTER, FALSE, &mii); 
     hmenuPopup = mii.hSubMenu; 
  
     // Free resources associated with each menu item. 
@@ -1446,7 +1446,7 @@ VOID WINAPI OnDestroy(HWND hwnd)
         // Get the item data. 
  
         mii.fMask = MIIM_DATA; 
-        GetMenuItemInfo(hmenuPopup, uID, FALSE, &amp;mii); 
+        GetMenuItemInfo(hmenuPopup, uID, FALSE, &mii); 
         pMyItem = (MYITEM *) mii.dwItemData; 
  
         // Destroy the font and free the item structure. 
@@ -1464,7 +1464,7 @@ VOID WINAPI OnMeasureItem(HWND hwnd, LPMEASUREITEMSTRUCT lpmis)
     SIZE size; 
  
     GetTextExtentPoint32(hdc, pMyItem->szItemText, 
-            pMyItem->cchItemText, &amp;size); 
+            pMyItem->cchItemText, &size); 
  
     lpmis->itemWidth = size.cx; 
     lpmis->itemHeight = size.cy; 
@@ -1507,7 +1507,7 @@ VOID WINAPI OnDrawItem(HWND hwnd, LPDRAWITEMSTRUCT lpdis)
  
     hfntPrev = (HFONT)SelectObject(lpdis->hDC, pMyItem->hfont); 
     ExtTextOut(lpdis->hDC, x, y, ETO_OPAQUE, 
-            &amp;lpdis->rcItem, pMyItem->szItemText, 
+            &lpdis->rcItem, pMyItem->szItemText, 
             pMyItem->cchItemText, NULL); 
  
     // Restore the original font and colors. 
@@ -1588,13 +1588,13 @@ The following portion of a resource-definition file shows how the menu items in 
  
 MainMenu MENU 
 BEGIN 
-    POPUP   "&amp;Character" 
+    POPUP   "&Character" 
     BEGIN 
-        MENUITEM    "&amp;Regular",     IDM_REGULAR, CHECKED 
+        MENUITEM    "&Regular",     IDM_REGULAR, CHECKED 
         MENUITEM SEPARATOR 
-        MENUITEM    "&amp;Bold",        IDM_BOLD 
-        MENUITEM    "&amp;Italic",      IDM_ITALIC 
-        MENUITEM    "&amp;Underline",   IDM_ULINE 
+        MENUITEM    "&Bold",        IDM_BOLD 
+        MENUITEM    "&Italic",      IDM_ITALIC 
+        MENUITEM    "&Underline",   IDM_ULINE 
     END 
 END
 ```
@@ -1773,7 +1773,7 @@ HBITMAP GetMyCheckBitmaps(UINT fuCheck)
     // check box bitmaps, and then find the upper-left corner of 
     // the unchecked check box or the checked check box. 
  
-    GetObject(hbmpCheckboxes, sizeof(BITMAP), &amp;bmCheckbox); 
+    GetObject(hbmpCheckboxes, sizeof(BITMAP), &bmCheckbox); 
  
     if (fuCheck == UNCHECK) 
     { 
@@ -1886,7 +1886,7 @@ BYTE CheckOrUncheckMenuItem(BYTE bMenuItemID, HMENU hmenu)
             { 
                 CheckMenuItem(hmenu, IDM_REGULAR, 
                     MF_BYCOMMAND | MF_UNCHECKED); 
-                fbAttributes &amp;= (BYTE) ~IDM_REGULAR; 
+                fbAttributes &= (BYTE) ~IDM_REGULAR; 
             }
             else 
             { 
@@ -2008,18 +2008,18 @@ VOID WINAPI CheckCharacterItem(HWND hwnd, UINT uID)
     // Get a handle to the Character menu. 
  
     mii.fMask = MIIM_SUBMENU;  // information to get 
-    GetMenuItemInfo(hmenuBar, IDM_CHARACTER, FALSE, &amp;mii); 
+    GetMenuItemInfo(hmenuBar, IDM_CHARACTER, FALSE, &mii); 
     hmenuPopup = mii.hSubMenu; 
  
     // Get the state of the specified menu item. 
  
     mii.fMask = MIIM_STATE;    // information to get 
-    GetMenuItemInfo(hmenuPopup, uID, FALSE, &amp;mii); 
+    GetMenuItemInfo(hmenuPopup, uID, FALSE, &mii); 
  
     // Toggle the checked state. 
  
     mii.fState ^= MFS_CHECKED; 
-    SetMenuItemInfo(hmenuPopup, uID, FALSE, &amp;mii); 
+    SetMenuItemInfo(hmenuPopup, uID, FALSE, &mii); 
 } 
  
 VOID WINAPI CheckParagraphItem(HWND hwnd, UINT uID) 
@@ -2031,7 +2031,7 @@ VOID WINAPI CheckParagraphItem(HWND hwnd, UINT uID)
     // Get a handle to the Paragraph menu. 
  
     mii.fMask = MIIM_SUBMENU;  // information to get 
-    GetMenuItemInfo(hmenuBar, IDM_PARAGRAPH, FALSE, &amp;mii); 
+    GetMenuItemInfo(hmenuBar, IDM_PARAGRAPH, FALSE, &mii); 
     hmenuPopup = mii.hSubMenu; 
  
     // Check the specified item and uncheck all the others. 
@@ -2057,7 +2057,7 @@ BOOL WINAPI OnCreate(HWND hwnd)
     // Get a handle to the Character menu. 
  
     mii.fMask = MIIM_SUBMENU;     // information to get 
-    GetMenuItemInfo(hmenuBar, IDM_CHARACTER, FALSE, &amp;mii); 
+    GetMenuItemInfo(hmenuBar, IDM_CHARACTER, FALSE, &mii); 
     hmenuPopup = mii.hSubMenu; 
  
     // Create the checked and unchecked bitmaps. 
@@ -2076,7 +2076,7 @@ BOOL WINAPI OnCreate(HWND hwnd)
     // Get a handle to the Paragraph pop-up menu. 
  
     mii.fMask = MIIM_SUBMENU;     // information to get 
-    GetMenuItemInfo(hmenuBar, IDM_PARAGRAPH, FALSE, &amp;mii); 
+    GetMenuItemInfo(hmenuBar, IDM_PARAGRAPH, FALSE, &mii); 
     hmenuPopup = mii.hSubMenu; 
  
     // Create the checked and unchecked bitmaps. 
@@ -2177,26 +2177,26 @@ VOID WINAPI OnDestroy(HWND hwnd)
     // Get a handle to the Character menu. 
  
     mii.fMask = MIIM_SUBMENU;     // information to get 
-    GetMenuItemInfo(hmenuBar, IDM_CHARACTER, FALSE, &amp;mii); 
+    GetMenuItemInfo(hmenuBar, IDM_CHARACTER, FALSE, &mii); 
     hmenuPopup = mii.hSubMenu; 
  
     // Get the check-mark bitmaps and delete them. 
  
     mii.fMask = MIIM_CHECKMARKS; 
-    GetMenuItemInfo(hmenuPopup, IDM_BOLD, FALSE, &amp;mii); 
+    GetMenuItemInfo(hmenuPopup, IDM_BOLD, FALSE, &mii); 
     DeleteObject(mii.hbmpChecked); 
     DeleteObject(mii.hbmpUnchecked); 
  
     // Get a handle to the Paragraph menu. 
  
     mii.fMask = MIIM_SUBMENU;     // information to get 
-    GetMenuItemInfo(hmenuBar, IDM_PARAGRAPH, FALSE, &amp;mii); 
+    GetMenuItemInfo(hmenuBar, IDM_PARAGRAPH, FALSE, &mii); 
     hmenuPopup = mii.hSubMenu; 
  
     // Get the check-mark bitmaps and delete them. 
  
     mii.fMask = MIIM_CHECKMARKS; 
-    GetMenuItemInfo(hmenuPopup, IDM_LEFT, FALSE, &amp;mii); 
+    GetMenuItemInfo(hmenuPopup, IDM_LEFT, FALSE, &mii); 
     DeleteObject(mii.hbmpChecked); 
     DeleteObject(mii.hbmpUnchecked); 
 } 

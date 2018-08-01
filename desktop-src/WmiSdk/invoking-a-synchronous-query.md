@@ -104,7 +104,7 @@ The following procedure describes how to issue a synchronous data query using VB
     for each Service in _ 
         GetObject("winmgmts:").ExecQuery _
             ("Select * from Win32_Service where State='Stopped'")
-        WScript.Echo "  "&amp; Service.DisplayName & " [", Service.Name, "]"
+        WScript.Echo "  "& Service.DisplayName & " [", Service.Name, "]"
     next
     ```
 
@@ -149,7 +149,7 @@ The following procedure describes how to issue a synchronous data query using C+
             Query,
             WBEM_FLAG_FORWARD_ONLY,         // Flags
             0,                              // Context
-            &amp;pEnum
+            &pEnum
             );
 
         SysFreeString(Query);
@@ -172,8 +172,8 @@ The following procedure describes how to issue a synchronous data query using C+
             hRes = pEnum->Next(
                 0,                  // Time out
                 1,                  // One object
-                &amp;pObj,
-                &amp;uReturned
+                &pObj,
+                &uReturned
                 );
 
             uTotal += uReturned;

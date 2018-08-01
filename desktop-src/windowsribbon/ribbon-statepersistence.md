@@ -81,7 +81,7 @@ HRESULT CApplication::SaveRibbonStatusToStream(
   if (SUCCEEDED(hr = CreateStreamOnHGlobal(
                        NULL,  // Internally allocate a new shared memory.
                        FALSE, // Free hGlobal after IStream object released.
-                       &amp;pStream)))
+                       &pStream)))
   {
     if (SUCCEEDED(hr = pRibbon->SaveSettingsToStream(*ppStatusStream)))
     {                  
@@ -116,7 +116,7 @@ HRESULT CApplication::LoadRibbonStatusFromStream(
     // Set the stream position to the beginning first.
     LARGE_INTEGER liStart = {0, 0};
     ULARGE_INTEGER ulActual;
-    pStatusStream->Seek(liStart, STREAM_SEEK_SET, &amp;ulActual);
+    pStatusStream->Seek(liStart, STREAM_SEEK_SET, &ulActual);
     hr = pRibbon->LoadSettingsFromStream(pStatusStream);
   }
   return hr;
@@ -140,7 +140,7 @@ IFACEMETHODIMP CMyRibbonApplication::OnViewChanged(
   if (UI_VIEWVERB_CREATE == verb)
   {
     IUIRibbon* pRibbon = NULL;
-    hr = pView->QueryInterface(IID_PPV_ARGS(&amp;pRibbon));
+    hr = pView->QueryInterface(IID_PPV_ARGS(&pRibbon));
 
     if (SUCCEEDED(hr))
     {

@@ -26,9 +26,9 @@ void _tmain( int argc, TCHAR *argv[] )
     STARTUPINFO si;
     PROCESS_INFORMATION pi;
 
-    ZeroMemory( &amp;si, sizeof(si) );
+    ZeroMemory( &si, sizeof(si) );
     si.cb = sizeof(si);
-    ZeroMemory( &amp;pi, sizeof(pi) );
+    ZeroMemory( &pi, sizeof(pi) );
 
     if( argc != 2 )
     {
@@ -45,8 +45,8 @@ void _tmain( int argc, TCHAR *argv[] )
         0,              // No creation flags
         NULL,           // Use parent's environment block
         NULL,           // Use parent's starting directory 
-        &amp;si,            // Pointer to STARTUPINFO structure
-        &amp;pi )           // Pointer to PROCESS_INFORMATION structure
+        &si,            // Pointer to STARTUPINFO structure
+        &pi )           // Pointer to PROCESS_INFORMATION structure
     ) 
     {
         printf( "CreateProcess failed (%d).\n", GetLastError() );

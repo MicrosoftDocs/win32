@@ -52,7 +52,7 @@ The following example shows how your application can call the [**IDirect3DDevice
 
 IDirect3DTexture9 * pMipMap;
 m_pD3DDevice->CreateTexture(256, 256, 5, 0, D3DFMT_R8G8B8, 
-    D3DPOOL_MANAGED, &amp;pMipMap);
+    D3DPOOL_MANAGED, &pMipMap);
 ```
 
 
@@ -85,7 +85,7 @@ Your application can also manually traverse a chain of mipmap surfaces by using 
 IDirect3DSurface9 * pSurfaceLevel;
 for (int iLevel = 0; iLevel < pMipMap->GetLevelCount(); iLevel++)
 {
-    pMipMap->GetSurfaceLevel(iLevel, &amp;pSurfaceLevel);
+    pMipMap->GetSurfaceLevel(iLevel, &pSurfaceLevel);
     // Process this level
     pSurfaceLevel->Release();
 }

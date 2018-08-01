@@ -111,12 +111,12 @@ public:
     
     STDMETHODIMP_(ULONG) AddRef()
     {
-        return ::InterlockedIncrement(&amp;m_lRefCount);
+        return ::InterlockedIncrement(&m_lRefCount);
     };
     
     STDMETHODIMP_(ULONG) Release()
     {
-        LONG lRefCount = ::InterlockedDecrement(&amp;m_lRefCount);
+        LONG lRefCount = ::InterlockedDecrement(&m_lRefCount);
         if(0 == lRefCount)
         {
             delete this;
@@ -129,18 +129,18 @@ public:
     {
         HRESULT    hr = S_OK;
         BSTR ServiceId;
-        hr = pus->get_Id(&amp;ServiceId);
+        hr = pus->get_Id(&ServiceId);
         if (SUCCEEDED(hr))
         {
             VARIANT AlphaVariant;
-            VariantInit(&amp;AlphaVariant);
-            hr = VariantChangeType(&amp;AlphaVariant, &amp;varValue, VARIANT_ALPHABOOL, VT_BSTR);
+            VariantInit(&AlphaVariant);
+            hr = VariantChangeType(&AlphaVariant, &varValue, VARIANT_ALPHABOOL, VT_BSTR);
             if(SUCCEEDED(hr))
             {
                 printf("StateVariableChanged called for the %S service"
                        " for %S state variable with the value=%S.\n",
-                        ServiceId, pcwszStateVarName, V_BSTR(&amp;AlphaVariant));
-                VariantClear(&amp;AlphaVariant);
+                        ServiceId, pcwszStateVarName, V_BSTR(&AlphaVariant));
+                VariantClear(&AlphaVariant);
             }
             SysFreeString(ServiceId);
         }
@@ -151,7 +151,7 @@ public:
     {
         HRESULT hr = S_OK;
         BSTR ServiceType;
-        hr = pus->get_ServiceTypeIdentifier(&amp;ServiceType);
+        hr = pus->get_ServiceTypeIdentifier(&ServiceType);
         if(SUCCEEDED(hr))
         {
             printf("ServiceInstanceDied called for the %S service!\n", ServiceType);

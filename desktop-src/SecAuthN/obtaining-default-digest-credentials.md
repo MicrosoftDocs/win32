@@ -28,8 +28,8 @@ SecStatus = AcquireCredentialsHandle (
        NULL,                  // Default credentials.
        NULL,                  // Not used with Digest SSP.
        NULL,                  // Not used with Digest SSP.
-       &amp;hCred,                // Receives the credential handle.
-       &amp;tsLifetime            // Receives the credential time limit.
+       &hCred,                // Receives the credential handle.
+       &tsLifetime            // Receives the credential time limit.
 );
 ```
 

@@ -23,7 +23,7 @@ To retrieve the frames of an image
         CLSID_WICImagingFactory,
         NULL,
         CLSCTX_INPROC_SERVER,
-        IID_PPV_ARGS(&amp;m_pIWICFactory)
+        IID_PPV_ARGS(&m_pIWICFactory)
         );
     ```
 
@@ -45,7 +45,7 @@ To retrieve the frames of an image
        NULL,                           // Do not prefer a particular vendor
        GENERIC_READ,                   // Desired read access to the file
        WICDecodeMetadataCacheOnDemand, // Cache metadata when needed
-       &amp;pIDecoder                      // Pointer to the decoder
+       &pIDecoder                      // Pointer to the decoder
        );
     ```
 
@@ -57,7 +57,7 @@ To retrieve the frames of an image
     // Retrieve the frame count of the image.
     if (SUCCEEDED(hr))
     {
-       hr = pIDecoder->GetFrameCount(&amp;nFrameCount);
+       hr = pIDecoder->GetFrameCount(&nFrameCount);
     }
     ```
 
@@ -72,19 +72,19 @@ To retrieve the frames of an image
        // Retrieve the next bitmap frame.
        if (SUCCEEDED(hr))
        {
-          hr = pIDecoder->GetFrame(i, &amp;pIDecoderFrame);
+          hr = pIDecoder->GetFrame(i, &pIDecoderFrame);
        }
 
        // Retrieve the size of the bitmap frame.
        if (SUCCEEDED(hr))
        {
-          hr = pIDecoderFrame->GetSize(&amp;uiWidth, &amp;uiHeight);
+          hr = pIDecoderFrame->GetSize(&uiWidth, &uiHeight);
        }
 
        // Additional frame processing.
        // ...
 
-       SafeRelease(&amp;pIDecoderFrame);
+       SafeRelease(&pIDecoderFrame);
     }
     ```
 

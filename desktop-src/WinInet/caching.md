@@ -138,7 +138,7 @@ again:
 
     hCacheDir = FindFirstUrlCacheEntry(NULL,
                                        lpCacheEntry,
-                                       &amp;dwEntrySize);
+                                       &dwEntrySize);
     if (!hCacheDir)                                             
     {
         delete[]lpCacheEntry;
@@ -184,7 +184,7 @@ again:
 retry:
         if (!FindNextUrlCacheEntry(hCacheDir,
                                    lpCacheEntry, 
-                                   &amp;dwEntrySize))
+                                   &dwEntrySize))
         {
             delete[]lpCacheEntry;
             switch(GetLastError())
@@ -249,7 +249,7 @@ int WINAPI GetCacheEntryInfo(HWND hX,LPTSTR lpszUrl)
     LPINTERNET_CACHE_ENTRY_INFO lpCacheEntry;
 
     SetCursor(LoadCursor(NULL,IDC_WAIT));
-    if (!GetUrlCacheEntryInfo(lpszUrl,NULL,&amp;dwEntrySize))
+    if (!GetUrlCacheEntryInfo(lpszUrl,NULL,&dwEntrySize))
     {
         if (GetLastError()!=ERROR_INSUFFICIENT_BUFFER)
         {
@@ -265,7 +265,7 @@ int WINAPI GetCacheEntryInfo(HWND hX,LPTSTR lpszUrl)
         return FALSE; // should not be successful w/ NULL buffer
                       // and 0 size
 
-    if (!GetUrlCacheEntryInfo(lpszUrl,lpCacheEntry,&amp;dwEntrySize))
+    if (!GetUrlCacheEntryInfo(lpszUrl,lpCacheEntry,&dwEntrySize))
     {
         ErrorOut(hX,GetLastError(),TEXT("GetUrlCacheEntryInfo"));
         SetCursor(LoadCursor(NULL,IDC_ARROW));
@@ -388,7 +388,7 @@ int WINAPI CommitEntry(HWND hX)
     lpszData = new TCHAR[dwSize];
     GetDlgItemText(hX,IDC_CacheDump,lpszData,dwSize);
         
-     err = _tfopen_s(&amp;lpfCacheEntry,lpszFileName,_T("w"));
+     err = _tfopen_s(&lpfCacheEntry,lpszFileName,_T("w"));
      if (err)
         return FALSE;
     fprintf(lpfCacheEntry,"%s",lpszData);

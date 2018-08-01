@@ -49,7 +49,7 @@ HRESULT DoAdd(int a, int b, int* result, WS_ERROR* error)
         // Add error information to error object  
         if (error != NULL)
         {
-            WsAddErrorString(error, &amp;errorString);
+            WsAddErrorString(error, &errorString);
         }
 
         hr = E_NOTIMPL;
@@ -184,7 +184,7 @@ HRESULT CALLBACK Add1(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* state, 
     }
     // Set up the next function execute after Add completes
     next->function = Add2;
-    return Add(addState->a, addState->b, &amp;addState->sum, asyncContext, error);
+    return Add(addState->a, addState->b, &addState->sum, asyncContext, error);
 }
 
 HRESULT CALLBACK Add2(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* state, WS_ASYNC_OPERATION* next, const WS_ASYNC_CONTEXT* asyncContext, WS_ERROR* error)
@@ -198,7 +198,7 @@ HRESULT CALLBACK Add2(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* state, 
     }
     // Set up the next function execute after Add completes
     next->function = Add3;
-    return Add(addState->sum, addState->c, &amp;addState->sum, asyncContext, error);
+    return Add(addState->sum, addState->c, &addState->sum, asyncContext, error);
 }
 
 HRESULT CALLBACK Add3(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* state, WS_ASYNC_OPERATION* next, const WS_ASYNC_CONTEXT* asyncContext, WS_ERROR* error)
@@ -228,7 +228,7 @@ HRESULT CALLBACK AddThree(ADD_STATE* addState, int a, int b, int c, int* result,
     addState->sum = 0;
     addState->result = result;
     // Start the operation at Add1
-    return WsAsyncExecute(&amp;addState->asyncState, Add1, WS_SHORT_CALLBACK, addState, asyncContext, error);
+    return WsAsyncExecute(&addState->asyncState, Add1, WS_SHORT_CALLBACK, addState, asyncContext, error);
 }
 
 void CALLBACK AddThreeComplete(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* state)
@@ -291,12 +291,12 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
             else
             {
                 // Perform the addition asynchronously
-                asyncContext = &amp;addThreeComplete;
+                asyncContext = &addThreeComplete;
             }
     
             // Perform the addition
             int sum;
-            hr = AddThree(&amp;addState, ints[i], ints[i + 1], ints[i + 2], &amp;sum, asyncContext, NULL);
+            hr = AddThree(&addState, ints[i], ints[i + 1], ints[i + 2], &sum, asyncContext, NULL);
     
             if (hr == WS_S_ASYNC)
             {

@@ -48,11 +48,11 @@ RECT rc;
     case WM_LBUTTONDOWN: 
  
  
-        if (bCollectPoints &amp;&amp; index < 32)
+        if (bCollectPoints && index < 32)
         { 
             // Create the region from the client area.  
  
-            GetClientRect(hwnd, &amp;rc); 
+            GetClientRect(hwnd, &rc); 
             hrgn = CreateRectRgn(rc.left, rc.top, 
                 rc.right, rc.bottom); 
  

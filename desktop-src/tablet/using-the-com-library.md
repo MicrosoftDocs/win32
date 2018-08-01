@@ -31,18 +31,18 @@ In C++, use a `For...` loop to iterate through a collection by first obtaining t
 
 ```C++
 IInkStrokes* pStrokes;
-HRESULT result = pInk->get_Strokes(&amp;pStrokes);
+HRESULT result = pInk->get_Strokes(&pStrokes);
 if (SUCCEEDED(result))
 {
     // Loop over strokes
     long nStrokes;
-    result = pStrokes->get_Count(&amp;nStrokes);
+    result = pStrokes->get_Count(&nStrokes);
     if (SUCCEEDED(result))
     {
         for (int i =0; i < nStrokes; i++)
         {
             IInkStrokeDisp* pStroke;
-            result = pStrokes->Item(i, &amp;pStroke);
+            result = pStrokes->Item(i, &pStroke);
             if (SUCCEEDED(result))
             {
               // Code that uses pStroke
@@ -109,12 +109,12 @@ ptArray[1].x = 30;
 ptArray[1].y = 110;
 lSize = 2;   // two points
 
-VariantInit( &amp;var );
-VariantInit( &amp;varPK );
+VariantInit( &var );
+VariantInit( &varPK );
 SAFEARRAY* psa = SafeArrayCreateVector( VT_I4, 0, lSize*2 );
 if( psa )
 {
-  if( SUCCEEDED( hr = SafeArrayAccessData( psa, (void**)&amp;plongArray) ))
+  if( SUCCEEDED( hr = SafeArrayAccessData( psa, (void**)&plongArray) ))
    {
       for( long i = 0; i < lSize; i++ ) 
       {
@@ -130,12 +130,12 @@ if( psa )
 
         // varPK (packet description) is currently reserved, so it is
         // just empty variant for now.
-         pInk->CreateStroke( var, varPK, &amp;pInkStrokeDisp );   
+         pInk->CreateStroke( var, varPK, &pInkStrokeDisp );   
       }
    }
 }
-VariantClear( &amp;var );
-VariantClear( &amp;varPK );
+VariantClear( &var );
+VariantClear( &varPK );
 ```
 
 
@@ -154,7 +154,7 @@ IInkRecognizerContext* pRecognizerContext = NULL;
 result = CoCreateInstance(CLSID_InkRecognizerContext, 
     NULL, CLSCTX_INPROC_SERVER,
     IID_IInkRecognizerContext, 
-    (void **) &amp;pRecognizerContext);
+    (void **) &pRecognizerContext);
 if SUCCEEDED(result)
 {
     BSTR bstrFactoid = SysAllocString(FACTOID_DATE);

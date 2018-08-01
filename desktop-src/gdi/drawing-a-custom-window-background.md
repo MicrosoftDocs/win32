@@ -30,18 +30,18 @@ case WM_CREATE:
  
 case WM_ERASEBKGND: 
     hdc = (HDC) wParam; 
-    GetClientRect(hwnd, &amp;rc); 
+    GetClientRect(hwnd, &rc); 
     SetMapMode(hdc, MM_ANISOTROPIC); 
     SetWindowExtEx(hdc, 100, 100, NULL); 
     SetViewportExtEx(hdc, rc.right, rc.bottom, NULL); 
-    FillRect(hdc, &amp;rc, hbrWhite); 
+    FillRect(hdc, &rc, hbrWhite); 
  
     for (i = 0; i < 13; i++) 
     { 
         x = (i * 40) % 100; 
         y = ((i * 40) / 100) * 20; 
-        SetRect(&amp;rc, x, y, x + 20, y + 20); 
-        FillRect(hdc, &amp;rc, hbrGray); 
+        SetRect(&rc, x, y, x + 20, y + 20); 
+        FillRect(hdc, &rc, hbrGray); 
     } 
   return 1L; 
 ```

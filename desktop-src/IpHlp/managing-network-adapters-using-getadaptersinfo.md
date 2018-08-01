@@ -41,7 +41,7 @@ The [**GetAdaptersInfo**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getadaptersi
      
 
     ```C++
-    if (GetAdaptersInfo( pAdapterInfo, &amp;ulOutBufLen) != ERROR_SUCCESS) {
+    if (GetAdaptersInfo( pAdapterInfo, &ulOutBufLen) != ERROR_SUCCESS) {
         free (pAdapterInfo);
         pAdapterInfo = (IP_ADAPTER_INFO *) malloc ( ulOutBufLen );
     }
@@ -52,7 +52,7 @@ The [**GetAdaptersInfo**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getadaptersi
 
 4.  Make a second call to [**GetAdaptersInfo**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getadaptersinfo), passing *pAdapterInfo* and *ulOutBufLen* as parameters and doing general error checking. Return its value to the **DWORD** variable *dwRetVal* (for more extensive error checking).
     ```C++
-    if ((dwRetVal = GetAdaptersInfo( pAdapterInfo, &amp;ulOutBufLen)) != ERROR_SUCCESS) {
+    if ((dwRetVal = GetAdaptersInfo( pAdapterInfo, &ulOutBufLen)) != ERROR_SUCCESS) {
         printf("GetAdaptersInfo call failed with %d\n", dwRetVal);
     }
 

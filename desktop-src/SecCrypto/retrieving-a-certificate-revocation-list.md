@@ -36,7 +36,7 @@ The following example shows retrieving the current CRL.
                            NULL,
                            CLSCTX_INPROC_SERVER,
                            IID_ICertAdmin2,
-                           (void **)&amp;pCertAdmin2;);
+                           (void **)&pCertAdmin2;);
     if (FAILED(hr))
     {
         printf("Failed CoCreateInstance pCertAdmin2 [%x]\n", hr);
@@ -52,7 +52,7 @@ The following example shows retrieving the current CRL.
     }
 
     // Retrieve the CRL.
-    hr = pCertAdmin2->GetCRL( bstrCA, CR_OUT_BINARY, &amp;bstrCRL );
+    hr = pCertAdmin2->GetCRL( bstrCA, CR_OUT_BINARY, &bstrCRL );
     if (FAILED(hr))
     {
         printf("Failed GetCRL [%x]\n", hr);
@@ -90,14 +90,14 @@ The following example shows retrieving base and delta CRLs, including those for 
     LONG nCACertCount, nIndex, nCRLState;
     VARIANT    variant;
 
-    VariantInit(&amp;variant);
+    VariantInit(&variant);
     // Determine the number of CA certificates.
     hr = pCertAdmin2->GetCAProperty(bstrCA, 
                                 CR_PROP_CASIGCERTCOUNT,
                                 0,
                                 PROPTYPE_LONG, 
                                 CR_OUT_BINARY, 
-                                &amp;variant);
+                                &variant);
     if (FAILED(hr))
     {
         printf("Failed call to GetCAProperty - "
@@ -114,7 +114,7 @@ The following example shows retrieving base and delta CRLs, including those for 
                                nIndex, 
                                PROPTYPE_LONG, 
                                CR_OUT_BINARY, 
-                               &amp;variant);
+                               &variant);
         if (FAILED(hr))
         {
             printf("Failed call to GetCAProperty - "
@@ -133,7 +133,7 @@ The following example shows retrieving base and delta CRLs, including those for 
                                    nIndex, 
                                    PROPTYPE_BINARY,
                                    CR_OUT_BINARY, 
-                                   &amp;variant);
+                                   &variant);
            if (FAILED(hr))
            {
                printf("Failed call to GetCAProperty - "
@@ -150,7 +150,7 @@ The following example shows retrieving base and delta CRLs, including those for 
                                    nIndex, 
                                    PROPTYPE_BINARY, 
                                    CR_OUT_BINARY, 
-                                   &amp;variant);
+                                   &variant);
            if (FAILED(hr))
            {
                printf("Failed call to GetCAProperty - "
@@ -177,7 +177,7 @@ error:
         SysFreeString ( bstrCA );
 
     // Clear the variant.
-    VariantClear(&amp;variant);
+    VariantClear(&variant);
 ```
 
 

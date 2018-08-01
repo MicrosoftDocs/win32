@@ -36,7 +36,7 @@ Setting effect state is done by applying the effect state within the render loop
 
 ```
     D3D10_TECHNIQUE_DESC techDesc;
-    pRenderTechnique->GetDesc( &amp;techDesc );
+    pRenderTechnique->GetDesc( &techDesc );
     for( UINT p = 0; p < techDesc.Passes; ++p )
     {
         }

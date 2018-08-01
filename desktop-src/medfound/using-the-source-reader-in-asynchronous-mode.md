@@ -37,7 +37,7 @@ HRESULT CreateSourceReaderAsync(
     HRESULT hr = S_OK;
     IMFAttributes *pAttributes = NULL;
 
-    hr = MFCreateAttributes(&amp;pAttributes, 1);
+    hr = MFCreateAttributes(&pAttributes, 1);
     if (FAILED(hr))
     {
         goto done;
@@ -52,7 +52,7 @@ HRESULT CreateSourceReaderAsync(
     hr = MFCreateSourceReaderFromURL(pszURL, pAttributes, ppReader);
 
 done:
-    SafeRelease(&amp;pAttributes);
+    SafeRelease(&pAttributes);
     return hr;
 }
 ```
@@ -110,7 +110,7 @@ public:
     SourceReaderCB(HANDLE hEvent) : 
       m_nRefCount(1), m_hEvent(hEvent), m_bEOS(FALSE), m_hrStatus(S_OK)
     {
-        InitializeCriticalSection(&amp;m_critsec);
+        InitializeCriticalSection(&m_critsec);
     }
 
     // IUnknown methods
@@ -125,11 +125,11 @@ public:
     }
     STDMETHODIMP_(ULONG) AddRef()
     {
-        return InterlockedIncrement(&amp;m_nRefCount);
+        return InterlockedIncrement(&m_nRefCount);
     }
     STDMETHODIMP_(ULONG) Release()
     {
-        ULONG uCount = InterlockedDecrement(&amp;m_nRefCount);
+        ULONG uCount = InterlockedDecrement(&m_nRefCount);
         if (uCount == 0)
         {
             delete this;
@@ -208,7 +208,7 @@ HRESULT SourceReaderCB::OnReadSample(
     IMFSample *pSample      // Can be NULL
     )
 {
-    EnterCriticalSection(&amp;m_critsec);
+    EnterCriticalSection(&m_critsec);
 
     if (SUCCEEDED(hrStatus))
     {
@@ -231,7 +231,7 @@ HRESULT SourceReaderCB::OnReadSample(
     }
     m_hrStatus = hrStatus;
 
-    LeaveCriticalSection(&amp;m_critsec);
+    LeaveCriticalSection(&m_critsec);
     SetEvent(m_hEvent);
     return S_OK;
 }
@@ -266,7 +266,7 @@ HRESULT ReadMediaFile(PCWSTR pszURL)
     }
 
     // Create the Source Reader.
-    hr = CreateSourceReaderAsync(pszURL, pCallback, &amp;pReader);
+    hr = CreateSourceReaderAsync(pszURL, pCallback, &pReader);
     if (FAILED(hr))
     {
         goto done;
@@ -289,7 +289,7 @@ HRESULT ReadMediaFile(PCWSTR pszURL)
     while (SUCCEEDED(hr))
     {
         BOOL bEOS;
-        hr = pCallback->Wait(INFINITE, &amp;bEOS);
+        hr = pCallback->Wait(INFINITE, &bEOS);
         if (FAILED(hr) || bEOS)
         {
             break;
@@ -299,8 +299,8 @@ HRESULT ReadMediaFile(PCWSTR pszURL)
     }
 
 done:
-    SafeRelease(&amp;pReader);
-    SafeRelease(&amp;pCallback);
+    SafeRelease(&pReader);
+    SafeRelease(&pCallback);
     return hr;
 }
 ```

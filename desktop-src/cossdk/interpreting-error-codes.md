@@ -43,7 +43,7 @@ void ErrorDescription(HRESULT hr)
      if(FormatMessage( 
        FORMAT_MESSAGE_ALLOCATE_BUFFER|FORMAT_MESSAGE_FROM_SYSTEM, 
        NULL, hr, MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), 
-       (LPTSTR)&amp;szErrMsg, 0, NULL) != 0) 
+       (LPTSTR)&szErrMsg, 0, NULL) != 0) 
      { 
          _tprintf(TEXT("%s"), szErrMsg); 
          LocalFree(szErrMsg); 

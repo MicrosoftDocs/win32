@@ -150,7 +150,7 @@ namespace HyperVSamples
 
         static void Main(string[] args)
         {
-            if (args != null &amp;&amp; args.Length != 1)
+            if (args != null && args.Length != 1)
             {
                 Console.WriteLine("Usage: CreateVFD path");
                 return;

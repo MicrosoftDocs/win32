@@ -45,7 +45,7 @@ The CLSID for this effect is CLSID\_D2D13DPerspectiveTransform.
 
 ```C++
 ComPtr<ID2D1Effect> perspectiveTransformEffect;
-m_d2dContext->CreateEffect(CLSID_D2D13DPerspectiveTransform, &amp;perspectiveTransformEffect);
+m_d2dContext->CreateEffect(CLSID_D2D13DPerspectiveTransform, &perspectiveTransformEffect);
 
 perspectiveTransformEffect->SetInput(0, bitmap);
 

@@ -181,11 +181,11 @@ int CALLBACK RemoveContextHelpProc(HWND hwnd, UINT message, LPARAM lParam)
            0xFFFF)
            {
             ((LPDLGTEMPLATEEX)lParam)->style 
-            &amp;= ~DS_CONTEXTHELP;
+            &= ~DS_CONTEXTHELP;
         }
         else {
             ((LPDLGTEMPLATE)lParam)->style 
-            &amp;= ~DS_CONTEXTHELP;
+            &= ~DS_CONTEXTHELP;
         }
         return TRUE;
     }

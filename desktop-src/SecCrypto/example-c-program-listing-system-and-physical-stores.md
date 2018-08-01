@@ -92,27 +92,27 @@ HKEY hKeyBase = NULL;
 //-------------------------------------------------------------------
 //  Initialize data structure variables.
 
-memset(&amp;PhyStoreInfo, 0, sizeof(PhyStoreInfo));
+memset(&PhyStoreInfo, 0, sizeof(PhyStoreInfo));
 PhyStoreInfo.cbSize = sizeof(PhyStoreInfo);
 PhyStoreInfo.pszOpenStoreProvider = sz_CERT_STORE_PROV_SYSTEM_W;
 pszTestName = "Enum";  
 pvSystemName = pwszSystemName;
 pvStoreLocationPara = pwszStoreLocationPara;
 
-memset(&amp;EnumArg, 0, sizeof(EnumArg));
+memset(&EnumArg, 0, sizeof(EnumArg));
 EnumArg.dwFlags = dwFlags;
 EnumArg.hKeyBase = hKeyBase;
 
 EnumArg.pvStoreLocationPara = pvStoreLocationPara;
 EnumArg.fAll = TRUE;
-dwFlags &amp;= ~CERT_SYSTEM_STORE_LOCATION_MASK;
-dwFlags |= (dwLocationID << CERT_SYSTEM_STORE_LOCATION_SHIFT) &amp;
+dwFlags &= ~CERT_SYSTEM_STORE_LOCATION_MASK;
+dwFlags |= (dwLocationID << CERT_SYSTEM_STORE_LOCATION_SHIFT) &
     CERT_SYSTEM_STORE_LOCATION_MASK;
 
 printf("Begin enumeration of store locations. \n");
 if(CertEnumSystemStoreLocation(
     dwFlags,
-    &amp;EnumArg,
+    &EnumArg,
     EnumLocCallback
     ))
 {
@@ -127,7 +127,7 @@ printf("\nBegin enumeration of system stores. \n");
 if(CertEnumSystemStore(
     dwFlags,
     pvStoreLocationPara,
-    &amp;EnumArg,
+    &EnumArg,
     EnumSysCallback
     ))
 {
@@ -143,7 +143,7 @@ printf("\n\nEnumerate the physical stores "
 if(CertEnumPhysicalStore(
     L"MY",
     dwFlags,
-    &amp;EnumArg,
+    &EnumArg,
     EnumPhyCallback
     ))
 {
@@ -169,7 +169,7 @@ static BOOL GetSystemName(
 
 *ppwszSystemName = NULL;
 
-if (pEnumArg->hKeyBase &amp;&amp; 0 == (dwFlags & 
+if (pEnumArg->hKeyBase && 0 == (dwFlags & 
     CERT_SYSTEM_STORE_RELOCATE_FLAG)) 
 {
   printf("Failed => RELOCATE_FLAG not set in callback. \n");
@@ -223,7 +223,7 @@ if (GetSystemName(
        pvSystemStore, 
        dwFlags, 
        pEnumArg, 
-       &amp;pwszSystemStore))
+       &pwszSystemStore))
 {
 printf("    %S", pwszStoreName);
 }
@@ -231,7 +231,7 @@ else
 {
    MyHandleError("GetSystemName failed.");
 }
-if (pEnumArg->fVerbose &amp;&amp;
+if (pEnumArg->fVerbose &&
       (dwFlags & CERT_PHYSICAL_STORE_PREDEFINED_ENUM_FLAG))
       printf(" (implicitly created)");
 printf("\n"); 
@@ -265,14 +265,14 @@ char x;
 if(line_counter++ > 5)
 {
    printf("Enumeration of system store: Press Enter to continue.");
-   scanf_s("%c",&amp;x);
+   scanf_s("%c",&x);
    line_counter=0;
 }
 
 //-------------------------------------------------------------------
 //  Prepare and display the next detail line.
 
-if (GetSystemName(pvSystemStore, dwFlags, pEnumArg, &amp;pwszSystemStore))
+if (GetSystemName(pvSystemStore, dwFlags, pEnumArg, &pwszSystemStore))
 {
      printf("  %S\n", pwszSystemStore);
 }
@@ -282,7 +282,7 @@ else
 }
 if (pEnumArg->fAll || pEnumArg->fVerbose) 
 {
-    dwFlags &amp;= CERT_SYSTEM_STORE_MASK;
+    dwFlags &= CERT_SYSTEM_STORE_MASK;
     dwFlags |= pEnumArg->dwFlags & ~CERT_SYSTEM_STORE_MASK;
     if (!CertEnumPhysicalStore(
        pvSystemStore,
@@ -328,7 +328,7 @@ if(linecount++ > 5)
 {
    printf("Enumeration of store locations: "
        "Press Enter to continue.");
-   scanf_s("%c",&amp;x);
+   scanf_s("%c",&x);
    linecount=0;
 }
 
@@ -338,7 +338,7 @@ if(linecount++ > 5)
 printf("======   %S   ======\n", pwszStoreLocation);
 if (pEnumArg->fAll) 
 {
-    dwFlags &amp;= CERT_SYSTEM_STORE_MASK;
+    dwFlags &= CERT_SYSTEM_STORE_MASK;
     dwFlags |= pEnumArg->dwFlags & ~CERT_SYSTEM_STORE_LOCATION_MASK;
     CertEnumSystemStore(
          dwFlags,

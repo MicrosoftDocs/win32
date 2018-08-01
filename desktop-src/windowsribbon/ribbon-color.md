@@ -95,7 +95,7 @@ CComPtr<IPropertyStore> spPropertyStore;
 
 // _spFramework is a pointer to the IUIFramework interface that is assigned 
 // when the Ribbon is initialized.
-if (SUCCEEDED(_spFramework->QueryInterface(&amp;spPropertyStore)))
+if (SUCCEEDED(_spFramework->QueryInterface(&spPropertyStore)))
 {
   PROPVARIANT propvarBackground;
   PROPVARIANT propvarHighlight;
@@ -107,9 +107,9 @@ if (SUCCEEDED(_spFramework->QueryInterface(&amp;spPropertyStore)))
   UI_HSBCOLOR HighlightColor = UI_HSB(0x00, 0x36, 0x87);
   UI_HSBCOLOR TextColor = UI_HSB(0x2B, 0xD6, 0x00);
 
-  InitPropVariantFromUInt32(BackgroundColor, &amp;propvarBackground);
-  InitPropVariantFromUInt32(HighlightColor, &amp;propvarHighlight);
-  InitPropVariantFromUInt32(TextColor, &amp;propvarText);
+  InitPropVariantFromUInt32(BackgroundColor, &propvarBackground);
+  InitPropVariantFromUInt32(HighlightColor, &propvarHighlight);
+  InitPropVariantFromUInt32(TextColor, &propvarText);
  
   spPropertyStore->SetValue(UI_PKEY_GlobalBackgroundColor, propvarBackground);
   spPropertyStore->SetValue(UI_PKEY_GlobalTextColor, propvarText);

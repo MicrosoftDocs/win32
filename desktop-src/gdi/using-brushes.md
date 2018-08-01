@@ -97,8 +97,8 @@ BOOL CALLBACK BrushDlgProc( HWND hdlg, UINT message, LONG wParam,
             // Retrieve dimensions for the grid-window and pattern- 
             // brush controls.  
  
-            GetClientRect(hwndGrid, &amp;rctGrid); 
-            GetClientRect(hwndBrush, &amp;rctBrush); 
+            GetClientRect(hwndGrid, &rctGrid); 
+            GetClientRect(hwndBrush, &rctBrush); 
  
             // Determine the width and height of a single cell.  
  
@@ -109,7 +109,7 @@ BOOL CALLBACK BrushDlgProc( HWND hdlg, UINT message, LONG wParam,
  
             for (y=rctGrid.top, i=0; y < rctGrid.bottom; y += deltaY)
             { 
-                for(x=rctGrid.left; x < (rctGrid.right - 8) &amp;&amp; i < 64; 
+                for(x=rctGrid.left; x < (rctGrid.right - 8) && i < 64; 
                         x += deltaX, i++) 
                 { 
                     rect[i].left = x; rect[i].top = y; 

@@ -32,7 +32,7 @@ IBackgroundCopyJob* pJob = NULL;
 
 //To create an upload job, replace BG_JOB_TYPE_DOWNLOAD with 
 //BG_JOB_TYPE_UPLOAD or BG_JOB_TYPE_UPLOAD_REPLY.
-hr = g_pbcm->CreateJob(L"MyJobName", BG_JOB_TYPE_DOWNLOAD, &amp;JobId, &amp;pJob);
+hr = g_pbcm->CreateJob(L"MyJobName", BG_JOB_TYPE_DOWNLOAD, &JobId, &pJob);
 if (SUCCEEDED(hr))
 {
   //Save the JobId for later reference. 
@@ -52,7 +52,7 @@ To get the latest [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-iba
   IBackgroundCopyJob* pJob = NULL;
   IBackgroundCopyJob4* pJob4 = NULL;
 
-  hr = pJob->QueryInterface(__uuidof(IBackgroundCopyJob4), (void**)&amp;pJob4);
+  hr = pJob->QueryInterface(__uuidof(IBackgroundCopyJob4), (void**)&pJob4);
   pJob->Release();
   if (FAILED(hr))
   {

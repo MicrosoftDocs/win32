@@ -27,7 +27,7 @@ HRESULT CWPDContextMenu::_InitializePIDLArray(IDataObject *pDataObj)
     STGMEDIUM   medium;
     FORMATETC   fmte = {m_cfHIDA, NULL, DVASPECT_CONTENT, -1, TYMED_HGLOBAL};
 
-    HRESULT hr = pDataObj->GetData(&amp;fmte, &amp;medium);
+    HRESULT hr = pDataObj->GetData(&fmte, &medium);
     if (SUCCEEDED(hr))
     {
         SIZE_T cb = GlobalSize(medium.hGlobal);
@@ -51,7 +51,7 @@ HRESULT CWPDContextMenu::_InitializePIDLArray(IDataObject *pDataObj)
         {
             hr = E_OUTOFMEMORY;
         }
-        ReleaseStgMedium(&amp;medium);
+        ReleaseStgMedium(&medium);
     }
 
     return hr;
@@ -77,7 +77,7 @@ HRESULT CWPDContextMenu::_ExaminePIDLArray()
     pidl = GetPIDL(m_pida, index);
     if (pidl)
     {
-        hr = SHBindToParent(pidl, IID_PPV_ARGS(&amp;spParentFolder), NULL);
+        hr = SHBindToParent(pidl, IID_PPV_ARGS(&spParentFolder), NULL);
         IF_FAILED_JUMP(hr, Exit);
     }
 
@@ -89,10 +89,10 @@ HRESULT CWPDContextMenu::_ExaminePIDLArray()
         // Get the IpropertySetStorage interface for this PIDL. This method could also
         // be used to retrieve an IPortableDevice interface to allow more low-level interaction
         // with the WPD API.
-        hr = spParentFolder->BindToObject(ILFindLastID(pidl), NULL, IID_PPV_ARGS(&amp;spSetStorage));
+        hr = spParentFolder->BindToObject(ILFindLastID(pidl), NULL, IID_PPV_ARGS(&spSetStorage));
         if (SUCCEEDED(hr))
         {
-            hr = spSetStorage->Open(WPD_FUNCTIONAL_OBJECT_PROPERTIES_V1, STGM_READ, &amp;spPropStorage);
+            hr = spSetStorage->Open(WPD_FUNCTIONAL_OBJECT_PROPERTIES_V1, STGM_READ, &spPropStorage);
             if (SUCCEEDED(hr))
             {
                 PROPVARIANT PropVar = {0};
@@ -101,30 +101,30 @@ HRESULT CWPDContextMenu::_ExaminePIDLArray()
                 PropSpec.ulKind = PRSPEC_PROPID;
                 PropSpec.propid = 2; // WPD_FUNCTIONAL_OBJECT_CATEGORY
 
-                PropVariantInit(&amp;PropVar);
+                PropVariantInit(&PropVar);
 
-                hr = spPropStorage->ReadMultiple(1, &amp;PropSpec, &amp;PropVar);
-                if (SUCCEEDED(hr) &amp;&amp; PropVar.vt == VT_CLSID)
+                hr = spPropStorage->ReadMultiple(1, &PropSpec, &PropVar);
+                if (SUCCEEDED(hr) && PropVar.vt == VT_CLSID)
                 {
                     // The PIDL array contains a non-file object.
                     // This means we don't want to take over the
                     // default menu action.
                     m_bPIDAContainsOnlyFiles = FALSE;
-                    PropVariantClear(&amp;PropVar);
+                    PropVariantClear(&PropVar);
                     break;
                 }
                 else
                 {
                     CComPtr<IPropertyStorage>    spObjectProperties;
-                    hr = spSetStorage->Open(WPD_OBJECT_PROPERTIES_V1, STGM_READ, &amp;spObjectProperties);
+                    hr = spSetStorage->Open(WPD_OBJECT_PROPERTIES_V1, STGM_READ, &spObjectProperties);
                     if (SUCCEEDED(hr))
                     {
                         PropSpec.ulKind = PRSPEC_PROPID;
                         PropSpec.propid = 7; // WPD_OBJECT_CONTENT_TYPE
                         
-                        PropVariantClear(&amp;PropVar);
-                        hr = spObjectProperties->ReadMultiple(1, &amp;PropSpec, &amp;PropVar);
-                        if (SUCCEEDED(hr) &amp;&amp; PropVar.vt == VT_CLSID)
+                        PropVariantClear(&PropVar);
+                        hr = spObjectProperties->ReadMultiple(1, &PropSpec, &PropVar);
+                        if (SUCCEEDED(hr) && PropVar.vt == VT_CLSID)
                         {
                             if (IsEqualGUID(*PropVar.puuid, WPD_CONTENT_TYPE_FOLDER))
                             {
@@ -132,21 +132,21 @@ HRESULT CWPDContextMenu::_ExaminePIDLArray()
                                 // This means we don't want to take over the
                                 // default menu action.
                                 m_bPIDAContainsOnlyFiles = FALSE;
-                                PropVariantClear(&amp;PropVar);
+                                PropVariantClear(&PropVar);
                                 break;
                             }
                         }
                     }
                 }
 
-                PropVariantClear(&amp;PropVar);
+                PropVariantClear(&PropVar);
             }
         }
 
         UI_SAFE_ILFREE(pidl);
 
         pidl = GetPIDL(m_pida, ++index);
-    } while (pidl != NULL &amp;&amp; index < m_pida->cidl);
+    } while (pidl != NULL && index < m_pida->cidl);
 
 Exit:
     UI_SAFE_ILFREE(pidl);

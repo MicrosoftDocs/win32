@@ -61,11 +61,11 @@ dwRtnCode = GetSecurityInfo(
                   hFile,
                   SE_FILE_OBJECT,
                   OWNER_SECURITY_INFORMATION,
-                  &amp;pSidOwner,
+                  &pSidOwner,
                   NULL,
                   NULL,
                   NULL,
-                  &amp;pSD);
+                  &pSD);
 
 // Check GetLastError for GetSecurityInfo error condition.
 if (dwRtnCode != ERROR_SUCCESS) {
@@ -81,10 +81,10 @@ bRtnBool = LookupAccountSid(
                   NULL,           // local computer
                   pSidOwner,
                   AcctName,
-                  (LPDWORD)&amp;dwAcctName,
+                  (LPDWORD)&dwAcctName,
                   DomainName,
-                  (LPDWORD)&amp;dwDomainName,
-                  &amp;eUse);
+                  (LPDWORD)&dwDomainName,
+                  &eUse);
 
 // Reallocate memory for the buffers.
 AcctName = (LPTSTR)GlobalAlloc(
@@ -119,10 +119,10 @@ if (AcctName == NULL) {
           NULL,                   // name of local or remote computer
           pSidOwner,              // security identifier
           AcctName,               // account name buffer
-          (LPDWORD)&amp;dwAcctName,   // size of account name buffer 
+          (LPDWORD)&dwAcctName,   // size of account name buffer 
           DomainName,             // domain name
-          (LPDWORD)&amp;dwDomainName, // size of domain name buffer
-          &amp;eUse);                 // SID type
+          (LPDWORD)&dwDomainName, // size of domain name buffer
+          &eUse);                 // SID type
 
     // Check GetLastError for LookupAccountSid error condition.
     if (bRtnBool == FALSE) {

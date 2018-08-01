@@ -32,7 +32,7 @@ The crumb syntax is as follows:
 
 
 ```
-crumb=<column>:<value>[,<label>][,<column>:<value>[,<label>]]&amp; 
+crumb=<column>:<value>[,<label>][,<column>:<value>[,<label>]]& 
 ```
 
 
@@ -43,9 +43,9 @@ The &lt;column&gt; portion is any property in the property system, and the &lt;v
 
 
 ```
-crumb=System.Author:paolo&amp;
-crumb=store:mapi&amp;
-crumb=location:c%3a%5cMyVacationPix,Vacation&amp;
+crumb=System.Author:paolo&
+crumb=store:mapi&
+crumb=location:c%3a%5cMyVacationPix,Vacation&
 ```
 
 
@@ -91,11 +91,11 @@ Folder accessed via a known UNC protocol handler:
 
 
 ```
-search-ms:query=vacation&amp;crumb=location:shell%3aPersonal,include,recursive&amp;
+search-ms:query=vacation&crumb=location:shell%3aPersonal,include,recursive&
 
-search-ms:crumb=location:c%3a%5cPictures&amp;crumb=location:c%3a%5cPictures%5cDuplicates,,exclude&amp; 
+search-ms:crumb=location:c%3a%5cPictures&crumb=location:c%3a%5cPictures%5cDuplicates,,exclude& 
 
-search-ms:crumb=location:c%3a%5cDocuments&amp;crumb=kind:pics&amp;
+search-ms:crumb=location:c%3a%5cDocuments&crumb=kind:pics&
 ```
 
 
@@ -114,7 +114,7 @@ Use these locations with this syntax:
 
 
 ```
-crumb=location:shell%3a<LocationName>&amp;
+crumb=location:shell%3a<LocationName>&
 ```
 
 
@@ -134,8 +134,8 @@ For Windows Search on Windows XP (WDS 3.x), the AQS terms "kind" and "store" ha
 
 
 ```
-search-ms:query=from:john&amp;crumb=store:outlookexpress,OE%20Mail&amp;
-search-ms:query=from:john&amp;crumb=kind:communications&amp;
+search-ms:query=from:john&crumb=store:outlookexpress,OE%20Mail&
+search-ms:query=from:john&crumb=kind:communications&
 ```
 
 

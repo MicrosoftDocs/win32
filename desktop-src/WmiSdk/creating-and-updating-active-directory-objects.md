@@ -31,7 +31,7 @@ Const cComputerName = "LocalHost"
 Const cWMInamespace = "root/directory/LDAP"
 Const cWMIclass = "ds_user"
 
-Const ADS_UF_ACCOUNTDISABLE = &amp;h000002
+Const ADS_UF_ACCOUNTDISABLE = &h000002
 
 Set objWMILocator = _
     CreateObject("WbemScripting.SWbemLocator")

@@ -44,7 +44,7 @@ int PrintModules( DWORD processID )
 
    // Get a list of all the modules in this process.
 
-    if( EnumProcessModules(hProcess, hMods, sizeof(hMods), &amp;cbNeeded))
+    if( EnumProcessModules(hProcess, hMods, sizeof(hMods), &cbNeeded))
     {
         for ( i = 0; i < (cbNeeded / sizeof(HMODULE)); i++ )
         {
@@ -79,7 +79,7 @@ int main( void )
 
     // Get the list of process identifiers.
 
-    if ( !EnumProcesses( aProcesses, sizeof(aProcesses), &amp;cbNeeded ) )
+    if ( !EnumProcesses( aProcesses, sizeof(aProcesses), &cbNeeded ) )
         return 1;
 
     // Calculate how many process identifiers were returned.

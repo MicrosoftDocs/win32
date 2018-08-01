@@ -30,7 +30,7 @@ The CLSID for this effect is CLSID\_D2D1Straighten.
 
 ```C++
 ComPtr<ID2D1Effect> straightenEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Straighten, &amp;straightenEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Straighten, &straightenEffect);
  
 straightenEffect->SetInput(0, bitmap);
 straightenEffect->SetValue(D2D1_STRAIGHTEN_PROP_ANGLE, 12.0f);

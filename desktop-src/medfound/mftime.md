@@ -29,7 +29,7 @@ const LONG   ONE_MSEC = 1000;       // One millisecond
 
 // Convert 100-nanosecond units to milliseconds.
 
-inline LONG MFTimeToMsec(const LONGLONG&amp; time)
+inline LONG MFTimeToMsec(const LONGLONG& time)
 {
     return (LONG)(time / (ONE_SECOND / ONE_MSEC));
 }

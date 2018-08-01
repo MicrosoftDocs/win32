@@ -46,7 +46,7 @@ LPCWSTR pwszADsPath = L"LDAP://CN=Jeff Smith,OU=Sales,DC=Fabrikam,DC=com";
 IDirectoryObject *pDirObject = NULL;
 
 // Bind to the object.
-hr = ADsGetObject(pwszADsPath, IID_IDirectoryObject, (void**)&amp;pDirObject);
+hr = ADsGetObject(pwszADsPath, IID_IDirectoryObject, (void**)&pDirObject);
 if(SUCCEEDED(hr))
 { 
     ADSVALUE adsvFaxNumber;
@@ -70,7 +70,7 @@ if(SUCCEEDED(hr))
     attrInfo[0].pszAttrName = L"facsimileTelephoneNumber";
     attrInfo[0].dwControlCode = ADS_ATTR_UPDATE;
     attrInfo[0].dwADsType = adsvFaxNumber.dwType;
-    attrInfo[0].pADsValues = &amp;adsvFaxNumber;
+    attrInfo[0].pADsValues = &adsvFaxNumber;
     attrInfo[0].dwNumValues = 1;
 
     // Setup the otherTelephone attribute data.
@@ -85,7 +85,7 @@ if(SUCCEEDED(hr))
     // Set the new attribute values.
     hr = pDirObject->SetObjectAttributes(attrInfo, 
         sizeof(attrInfo)/sizeof(ADS_ATTR_INFO), 
-        &amp;dwReturn);
+        &dwReturn);
 
     pDirObject->Release();
 }

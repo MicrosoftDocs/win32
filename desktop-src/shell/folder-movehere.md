@@ -245,7 +245,7 @@ Visual Basic:
 
 
 ```VB
-Private Const FOF_NOCONFIRMATION = &amp;H10
+Private Const FOF_NOCONFIRMATION = &H10
 
 Private Sub btnMoveHere_Click()
     Dim objShell  As Shell

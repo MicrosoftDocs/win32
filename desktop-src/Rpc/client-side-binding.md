@@ -33,13 +33,13 @@ void main(int argc, char **argv)
     char * pszTime;
     ...
  
-    GetTime(&amp;t1);  // GetTime is a remote procedure
-    GetTime(&amp;t2);
+    GetTime(&t1);  // GetTime is a remote procedure
+    GetTime(&t2);
  
-    pszTime = ctime(&amp;t1);
+    pszTime = ctime(&t1);
     printf("time 1= %s\n", pszTime);
  
-    pszTime = ctime(&amp;t2);
+    pszTime = ctime(&t2);
     printf("time 2= %s\n", pszTime);
  
     Shutdown();    // Shutdown is a remote procedure

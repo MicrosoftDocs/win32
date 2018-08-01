@@ -39,7 +39,7 @@ Assigns vector component data to the current instance of [**XMDEC4**](https://ms
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMDEC4::operator = (const XMDEC4&amp;)</strong>](https://msdn.microsoft.com/en-us/library/Ee419436(v=VS.85).aspx)</td>
+<td style="text-align: left;">[<strong>XMDEC4::operator = (const XMDEC4&)</strong>](https://msdn.microsoft.com/en-us/library/Ee419436(v=VS.85).aspx)</td>
 <td style="text-align: left;">Assigns the vector component data from one instance of <code>XMDEC4</code> to the current instance of <code>XMDEC4</code>. <br/> This operator assigns the vector component data from one instance of [<strong>XMDEC4</strong>](https://msdn.microsoft.com/en-us/library/Ee419431(v=VS.85).aspx) to the current instance of <code>XMDEC4</code>. <br/>
 <blockquote>
 [!Note]<br />

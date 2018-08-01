@@ -27,7 +27,7 @@ The crumb syntax is as follows:
 
 
 ```
-crumb=<column>:<value>[,<label>][,<column>:<value>[,<label>]]&amp; 
+crumb=<column>:<value>[,<label>][,<column>:<value>[,<label>]]& 
 ```
 
 
@@ -38,9 +38,9 @@ The &lt;column&gt; portion is any property in the property system, and the &lt;v
 
 
 ```
-crumb=System.Author:paolo&amp;
-crumb=store:mapi&amp;
-crumb=location:c%3a%5cMyVacationPix,Vacation&amp;
+crumb=System.Author:paolo&
+crumb=store:mapi&
+crumb=location:c%3a%5cMyVacationPix,Vacation&
 ```
 
 
@@ -84,11 +84,11 @@ Folder accessed through a known Universal Naming Convention (UNC) protocol handl
 
 
 ```
-search:query=vacation&amp;crumb=location:shell%3aPersonal,include,recursive&amp;
+search:query=vacation&crumb=location:shell%3aPersonal,include,recursive&
     
-search:crumb=location:c%3a%5cPictures&amp;crumb=location:c%3a%5cPictures%5cDuplicates,,exclude&amp; 
+search:crumb=location:c%3a%5cPictures&crumb=location:c%3a%5cPictures%5cDuplicates,,exclude& 
     
-search:crumb=location:c%3a%5cDocuments&amp;crumb=kind:pics&amp;
+search:crumb=location:c%3a%5cDocuments&crumb=kind:pics&
 ```
 
 
@@ -107,7 +107,7 @@ Use these locations with this syntax:
 
 
 ```
-crumb=location:shell%3a<LocationName>&amp;
+crumb=location:shell%3a<LocationName>&
 ```
 
 

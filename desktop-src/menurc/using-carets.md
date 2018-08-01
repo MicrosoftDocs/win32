@@ -219,7 +219,7 @@ LONG APIENTRY MainWndProc(
             hdc = GetDC(hwnd); 
             SelectObject(hdc, 
                 GetStockObject(SYSTEM_FIXED_FONT)); 
-            GetTextMetrics(hdc, &amp;tm); 
+            GetTextMetrics(hdc, &tm); 
             ReleaseDC(hwnd, hdc); 
  
         // Save the avg. width and height of characters. 
@@ -332,7 +332,7 @@ LONG APIENTRY MainWndProc(
  
                     TextOut(hdc, nCaretPosX * nCharX, 
                         nCaretPosY * nCharY, 
-                        &amp;TEXTMATRIX(nCaretPosX, nCaretPosY), 
+                        &TEXTMATRIX(nCaretPosX, nCaretPosY), 
                         nWindowCharsX - nCaretPosX); 
  
                     ReleaseDC(hwnd, hdc); 
@@ -411,7 +411,7 @@ LONG APIENTRY MainWndProc(
  
                     TextOut(hdc, nCaretPosX * nCharX, 
                         nCaretPosY * nCharY, 
-                        &amp;TEXTMATRIX(nCaretPosX, nCaretPosY), 1); 
+                        &TEXTMATRIX(nCaretPosX, nCaretPosY), 1); 
  
                     ReleaseDC(hwnd, hdc); 
  
@@ -442,16 +442,16 @@ LONG APIENTRY MainWndProc(
         case WM_PAINT: 
         // Draw all the characters in the buffer, line by line. 
  
-            hdc = BeginPaint(hwnd, &amp;ps); 
+            hdc = BeginPaint(hwnd, &ps); 
  
             SelectObject(hdc, 
                 GetStockObject(SYSTEM_FIXED_FONT)); 
  
             for (y = 0; y < nWindowCharsY; y++) 
-                TextOut(hdc, 0, y * nCharY, &amp;TEXTMATRIX(0, y), 
+                TextOut(hdc, 0, y * nCharY, &TEXTMATRIX(0, y), 
                     nWindowCharsX); 
  
-            EndPaint(hwnd, &amp;ps); 
+            EndPaint(hwnd, &ps); 
  
         case WM_SETFOCUS: 
         // The window has the input focus. Load the 

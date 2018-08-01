@@ -57,7 +57,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -65,7 +65,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -93,7 +93,7 @@ HRESULT CALLBACK AddSessionHeader(
     // Add reply sessionID
     return WsAddCustomHeader(
         message, 
-        &amp;OrderSessionHeader_xsd.globalElements.OrderSession, 
+        &OrderSessionHeader_xsd.globalElements.OrderSession, 
         WS_WRITE_REQUIRED_VALUE,
         orderSession, 
         sizeof(*orderSession), 
@@ -114,12 +114,12 @@ HRESULT CALLBACK RetrieveSessionHeader(
 
     HRESULT hr = WsGetCustomHeader(
         message, 
-        &amp;OrderSessionHeader_xsd.globalElements.OrderSession, 
+        &OrderSessionHeader_xsd.globalElements.OrderSession, 
         WS_SINGLETON_HEADER,
         0,
         WS_READ_REQUIRED_POINTER, 
         NULL, 
-        &amp;outputOrderSession, 
+        &outputOrderSession, 
         sizeof(outputOrderSession), 
         NULL, 
         error);
@@ -165,7 +165,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -176,7 +176,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -191,7 +191,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
             0,
             NULL, 
             0, 
-            &amp;serviceProxy, 
+            &serviceProxy, 
             error);
     if (FAILED(hr))
     {
@@ -202,7 +202,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // Open channel to address
     hr = WsOpenServiceProxy(
             serviceProxy, 
-            &amp;address, 
+            &address, 
             NULL, 
             error);
     if (FAILED(hr))
@@ -211,16 +211,16 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     }
     
     inputMessageContext.callback = AddSessionHeader;
-    inputMessageContext.state = &amp;orderSession;
+    inputMessageContext.state = &orderSession;
     outputMessageContext.callback = RetrieveSessionHeader;
-    outputMessageContext.state = &amp;orderSession;
+    outputMessageContext.state = &orderSession;
     
     callProperties[0].id = WS_CALL_PROPERTY_SEND_MESSAGE_CONTEXT;
-    callProperties[0].value = &amp;inputMessageContext;
+    callProperties[0].value = &inputMessageContext;
     callProperties[0].valueSize = sizeof(inputMessageContext);
     
     callProperties[1].id = WS_CALL_PROPERTY_RECEIVE_MESSAGE_CONTEXT;
-    callProperties[1].value = &amp;outputMessageContext;
+    callProperties[1].value = &outputMessageContext;
     callProperties[1].valueSize = sizeof(outputMessageContext);
     
     for (int i = 0; i < 100; i++)
@@ -235,8 +235,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
             serviceProxy, 
             100, 
             productName, 
-            &amp;orderID, 
-            &amp;expectedShipDate, 
+            &orderID, 
+            &expectedShipDate, 
             heap, 
             callProperties, 
             WsCountOf(callProperties), 

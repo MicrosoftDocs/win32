@@ -16,7 +16,7 @@ A depth buffer is a property of the device. To create a depth buffer that is man
 
 ```
 D3DPRESENT_PARAMETERS d3dpp; 
-ZeroMemory( &amp;d3dpp, sizeof(d3dpp) );
+ZeroMemory( &d3dpp, sizeof(d3dpp) );
 d3dpp.Windowed               = TRUE;
 d3dpp.SwapEffect             = D3DSWAPEFFECT_COPY;
 d3dpp.EnableAutoDepthStencil = TRUE;
@@ -33,7 +33,7 @@ The following call to the [**IDirect3D9::CreateDevice**](https://msdn.microsoft.
 ```
 if( FAILED( g_pD3D->CreateDevice( D3DADAPTER_DEFAULT, D3DDEVTYPE_HAL, hWnd,
                                 D3DCREATE_SOFTWARE_VERTEXPROCESSING,
-                                &amp;d3dpp, &amp;d3dDevice ) ) )
+                                &d3dpp, &d3dDevice ) ) )
 return E_FAIL;
 ```
 

@@ -35,14 +35,14 @@ DWORD UpdateDefaultPassword(WCHAR * pwszSecret)
     DWORD dwRetCode = ERROR_SUCCESS;
 
     //  Object attributes are reserved, so initialize to zeros.
-    ZeroMemory(&amp;ObjectAttributes, sizeof(ObjectAttributes));
+    ZeroMemory(&ObjectAttributes, sizeof(ObjectAttributes));
 
     //  Get a handle to the Policy object.
     ntsResult = LsaOpenPolicy(
         NULL,    // local machine
-        &amp;ObjectAttributes, 
+        &ObjectAttributes, 
         POLICY_CREATE_SECRET,
-        &amp;LsaPolicyHandle);
+        &LsaPolicyHandle);
 
     if( STATUS_SUCCESS != ntsResult )
     {
@@ -66,7 +66,7 @@ DWORD UpdateDefaultPassword(WCHAR * pwszSecret)
         wprintf(L"Clearing the secret...\n");
         ntsResult = LsaStorePrivateData(
             LsaPolicyHandle,
-            &amp;lusSecretName,
+            &lusSecretName,
             NULL);
         dwRetCode = LsaNtStatusToWinError(ntsResult);
     }
@@ -82,8 +82,8 @@ DWORD UpdateDefaultPassword(WCHAR * pwszSecret)
             (SecretDataLength+1) * sizeof(WCHAR);
         ntsResult = LsaStorePrivateData(
             LsaPolicyHandle,
-            &amp;lusSecretName,
-            &amp;lusSecretData);
+            &lusSecretName,
+            &lusSecretData);
         dwRetCode = LsaNtStatusToWinError(ntsResult);
     }
 

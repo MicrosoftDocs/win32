@@ -27,7 +27,7 @@ LRESULT MyCodecFunction(DWORD dwID, HDRVR hDriver,
 // This function installs the MyCodecFunction as a compressor. 
 
 result = ICInstall ( ICTYPE_VIDEO, mmioFOURCC('s','a','m','p'), 
-    (LPARAM)(FARPROC)&amp;MyCodecFunction, NULL, ICINSTALL_FUNCTION); 
+    (LPARAM)(FARPROC)&MyCodecFunction, NULL, ICINSTALL_FUNCTION); 
  
 ```
 

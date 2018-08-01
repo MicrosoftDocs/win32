@@ -17,7 +17,7 @@ When the input pin receives an end-of-stream notification, it propagates the cal
 ```C++
 HRESULT CMyInputPin::EndOfStream()
 {
-    CAutoLock lock_it(&amp;m_csReceive);
+    CAutoLock lock_it(&m_csReceive);
 
     /* If the pin has not delivered all of the data in the stream 
        (based on what it received previously), do so now.  */

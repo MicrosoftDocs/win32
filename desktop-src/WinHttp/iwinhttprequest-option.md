@@ -121,17 +121,17 @@ int main()
 
     CLSID           clsid;
 
-    VariantInit(&amp;varFalse);
-    V_VT(&amp;varFalse)   = VT_BOOL;
-    V_BOOL(&amp;varFalse) = VARIANT_FALSE;
+    VariantInit(&varFalse);
+    V_VT(&varFalse)   = VT_BOOL;
+    V_BOOL(&varFalse) = VARIANT_FALSE;
 
-    VariantInit(&amp;varEmpty);
-    V_VT(&amp;varEmpty) = VT_ERROR;
+    VariantInit(&varEmpty);
+    V_VT(&varEmpty) = VT_ERROR;
 
     varUserAgent.vt = VT_BSTR;
     varUserAgent.bstrVal = NULL;
 
-    hr = CLSIDFromProgID(L"WinHttp.WinHttpRequest.5.1", &amp;clsid);
+    hr = CLSIDFromProgID(L"WinHttp.WinHttpRequest.5.1", &clsid);
 
     if (SUCCEEDED(hr))
     {
@@ -139,7 +139,7 @@ int main()
                               NULL,
                               CLSCTX_INPROC_SERVER,
                               IID_IWinHttpRequest,
-                              (void **)&amp;pIWinHttpRequest);
+                              (void **)&pIWinHttpRequest);
     }
     if (SUCCEEDED(hr))
     {
@@ -174,27 +174,27 @@ int main()
         // Get user agent string.
         hr = pIWinHttpRequest->get_Option(
                                  WinHttpRequestOption_UserAgentString,
-                                 &amp;varUserAgent);
+                                 &varUserAgent);
         // Print response to console.
         wprintf(L"%s\n\n", varUserAgent.bstrVal);
 
         // Get URL.
         hr = pIWinHttpRequest->get_Option(WinHttpRequestOption_URL,
-                                          &amp;varUserAgent);
+                                          &varUserAgent);
         // Print response to console.
         wprintf(L"%s\n\n", varUserAgent.bstrVal);
 
         // Get URL Code Page.
         hr = pIWinHttpRequest->get_Option(
                                      WinHttpRequestOption_URLCodePage,
-                                     &amp;varUserAgent);
+                                     &varUserAgent);
         // Print response to console.
         wprintf(L"%u\n\n", varUserAgent.lVal);
 
         // Convert percent symbols to escape sequences.
         hr = pIWinHttpRequest->get_Option(
                               WinHttpRequestOption_EscapePercentInURL,
-                              &amp;varUserAgent);
+                              &varUserAgent);
         // Print response to console.
         wprintf(L"%s\n", varUserAgent.boolVal?L"True":L"False");
     }

@@ -30,7 +30,7 @@ Calls the hull shader subobject callback of an object that implements this inter
 
 ```C++
 void HSCb(
-  [ref] const D3D12_SHADER_BYTECODE &amp;HS
+  [ref] const D3D12_SHADER_BYTECODE &HS
 );
 ```
 

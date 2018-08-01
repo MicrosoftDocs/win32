@@ -38,7 +38,7 @@ int __cdecl main(){
     EntityInfo.EntityId.EntityInstanceId = PROTOCOL_ID(PROTO_TYPE_UCAST, PROTO_VENDOR_ID, PROTO_IP_RIP);
 
     // Register the new entity
-    dwRet = RtmRegisterEntity(&amp;EntityInfo, NULL, NULL, FALSE, &amp;RegnProfile, &amp;RtmRegHandle);
+    dwRet = RtmRegisterEntity(&EntityInfo, NULL, NULL, FALSE, &RegnProfile, &RtmRegHandle);
     if (dwRet != ERROR_SUCCESS){
         // Registration failed - Log an Error and Quit
     }

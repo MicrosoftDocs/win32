@@ -39,30 +39,30 @@ HRESULT hr = S_OK;
 hr = CoInitialize(NULL);
 
 // Create a profile manager object.
-hr = WMCreateProfileManager(&amp;pProfileMgr);
+hr = WMCreateProfileManager(&pProfileMgr);
 
 // Create an empty profile.
-hr = pProfileMgr->CreateEmptyProfile(WMT_VER_9_0, &amp;pProfile);
+hr = pProfileMgr->CreateEmptyProfile(WMT_VER_9_0, &pProfile);
 
 // Give the new profile a name and description.
 hr = pProfile->SetName(L"MBR_Video_3_Stream_test");
 hr = pProfile->SetDescription(L"Only for use with example code.");
 
 // Create the first stream.
-hr = pProfile->CreateNewStream(WMMEDIATYPE_Video, &amp;pStream);
+hr = pProfile->CreateNewStream(WMMEDIATYPE_Video, &pStream);
 
 // Get the media properties interface for the new stream.
-hr = pStream->QueryInterface(IID_IWMMediaProps, (void**)&amp;pMediaProps);
+hr = pStream->QueryInterface(IID_IWMMediaProps, (void**)&pMediaProps);
 
 // Get the media-type structure.
 // First, get the size of the media-type structure.
-hr = pMediaProps->GetMediaType(NULL, &amp;cbMediaType);
+hr = pMediaProps->GetMediaType(NULL, &cbMediaType);
 
 // Allocate memory for the structure based on the retrieved size.
 pMediaType = (WM_MEDIA_TYPE*) new BYTE[cbMediaType];
 
 // Retrieve the media-type structure.
-hr = pMediaProps->GetMediaType(pMediaType, &amp;cbMediaType);
+hr = pMediaProps->GetMediaType(pMediaType, &cbMediaType);
 
 // Change the video size to 640 x 480.
 pMediaType->pbFormat->bmiHeader.biWidth  = 640;
@@ -94,7 +94,7 @@ pStream = NULL;
 // 320 x 240 <entity type="ndash"/>- just change the bit rates.
 
 // Repeat for a 100K stream.
-hr = pProfile->CreateNewStream(WMMEDIATYPE_Video, &amp;pStream);
+hr = pProfile->CreateNewStream(WMMEDIATYPE_Video, &pStream);
 hr = pStream->SetBitrate(100000);
 hr = pStream->SetStreamNumber(2);
 hr = pProfile->AddStream(pStream);
@@ -102,7 +102,7 @@ pStream->Release();
 pStream = NULL;
 
 // Repeat for a 56K stream.
-hr = pProfile->CreateNewStream(WMMEDIATYPE_Video, &amp;pStream);
+hr = pProfile->CreateNewStream(WMMEDIATYPE_Video, &pStream);
 hr = pStream->SetBitrate(56000);
 hr = pStream->SetStreamNumber(3);
 hr = pProfile->AddStream(pStream);
@@ -110,7 +110,7 @@ pStream->Release();
 pStream = NULL;
 
 // Now that we have three streams, create a mutual exclusion object.
-hr = pProfile->CreateNewMutualExclusion(&amp;pMutex);
+hr = pProfile->CreateNewMutualExclusion(&pMutex);
 
 // Add the three streams to the mutual exclusion.
 hr = pMutex->AddStream(1);

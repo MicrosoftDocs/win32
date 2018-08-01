@@ -29,7 +29,7 @@ The following code retrieves the clients collection for the Network Policy Serve
    CComPtr<ISdo>  pSdo;
    hr = pSdoServiceControl->QueryInterface(
       __uuidof(ISdo),
-      (void**) &amp;pSdo
+      (void**) &pSdo
    );
    if (FAILED(hr))
    {
@@ -42,7 +42,7 @@ The following code retrieves the clients collection for the Network Policy Serve
    _variant_t  vtProtocolsCollection;
    hr = pSdo->GetProperty(
       PROPERTY_IAS_PROTOCOLS_COLLECTION,
-      &amp;vtProtocolsCollection
+      &vtProtocolsCollection
    );
    if (FAILED(hr))
    {
@@ -56,7 +56,7 @@ The following code retrieves the clients collection for the Network Policy Serve
    CComPtr<ISdoCollection>  pProtocolsCollection;
    hr = vtProtocolsCollection.pdispVal->QueryInterface(
       __uuidof(ISdoCollection), 
-      (void **) &amp;pProtocolsCollection
+      (void **) &pProtocolsCollection
    );
    if (FAILED(hr))
    {
@@ -68,7 +68,7 @@ The following code retrieves the clients collection for the Network Policy Serve
    //
    CComPtr<IDispatch> pRadiusDispatch;
    _variant_t  vtProtocolName = L"Microsoft Radius Protocol";
-   hr = pProtocolsCollection->Item(&amp;vtProtocolName, &amp;pRadiusDispatch);
+   hr = pProtocolsCollection->Item(&vtProtocolName, &pRadiusDispatch);
    if (FAILED(hr))
    {
       return hr;
@@ -77,7 +77,7 @@ The following code retrieves the clients collection for the Network Policy Serve
    CComPtr<ISdo> pRadiusSdo;
    hr = pRadiusDispatch->QueryInterface(      
       __uuidof(ISdo), 
-      (void **) &amp;pRadiusSdo
+      (void **) &pRadiusSdo
    );
 
    if (FAILED(hr))
@@ -89,7 +89,7 @@ The following code retrieves the clients collection for the Network Policy Serve
    // Then retrieve the clients collection
    //
    _variant_t  vtClientsCollection;
-   hr = pRadiusSdo->GetProperty(PROPERTY_RADIUS_CLIENTS_COLLECTION, &amp;vtClientsCollection);
+   hr = pRadiusSdo->GetProperty(PROPERTY_RADIUS_CLIENTS_COLLECTION, &vtClientsCollection);
    if (FAILED(hr))
    {
       return hr;
@@ -98,7 +98,7 @@ The following code retrieves the clients collection for the Network Policy Serve
    CComPtr<ISdoCollection> pClientsCollection;
    hr = vtClientsCollection.pdispVal->QueryInterface(      
       __uuidof(ISdoCollection), 
-      (void **) &amp;pClientsCollection
+      (void **) &pClientsCollection
    );
 
    if (FAILED(hr))

@@ -69,7 +69,7 @@ HRESULT CreateMediaSource(
     IUnknown* pSource = NULL;
 
     // Create the source resolver.
-    HRESULT hr = MFCreateSourceResolver(&amp;pSourceResolver);
+    HRESULT hr = MFCreateSourceResolver(&pSourceResolver);
 
     // Use the source resolver to create the media source.
     if (SUCCEEDED(hr))
@@ -82,8 +82,8 @@ HRESULT CreateMediaSource(
             pszURL,                     
             MF_RESOLUTION_MEDIASOURCE,  // Create a media source.
             pConfig,                    // Configuration properties.
-            &amp;ObjectType,                // Receives the object type. 
-            &amp;pSource            
+            &ObjectType,                // Receives the object type. 
+            &pSource            
             );
 
         DbgLog(L"CreateObjectFromURL - FINISHED");
@@ -95,8 +95,8 @@ HRESULT CreateMediaSource(
         hr = pSource->QueryInterface(IID_PPV_ARGS(ppSource));
     }
 
-    SafeRelease(&amp;pSourceResolver);
-    SafeRelease(&amp;pSource);
+    SafeRelease(&pSourceResolver);
+    SafeRelease(&pSource);
     return hr;
 }
 ```

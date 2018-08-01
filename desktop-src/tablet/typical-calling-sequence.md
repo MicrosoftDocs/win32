@@ -30,11 +30,11 @@ The calling sequence is also illustrated in the following code outline:
 
 
 ```C++
-CreateRecognizer(CLSID, &amp;hrec);
+CreateRecognizer(CLSID, &hrec);
 while (more pieces of ink to recognize ... )
 {
   // Create a context, once per piece of ink to be recognized
-  hrc = CreateContext(hrec, &amp;hrc);
+  hrc = CreateContext(hrec, &hrc);
 
   // Functions to set up options and modes for this context
   SetGuide(hrc, pGuide, 0);
@@ -56,7 +56,7 @@ while (more pieces of ink to recognize ... )
   GetBestResultString(hrc, length, buffer);
 
   // If this is a complex application, it calls this for a complete answer
-  GetLatticePtr(hrc, &amp;pLattice);
+  GetLatticePtr(hrc, &pLattice);
 
   // Destroy the context
   DestroyContext(hrc);

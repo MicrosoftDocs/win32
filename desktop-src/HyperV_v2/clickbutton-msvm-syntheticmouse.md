@@ -245,7 +245,7 @@ namespace HyperVSamples
 
         static void Main(string[] args)
         {
-            if (args != null &amp;&amp; args.Length != 2)
+            if (args != null && args.Length != 2)
             {
                 Console.WriteLine("Usage: ClickButton vmName buttonIndex");
                 return;

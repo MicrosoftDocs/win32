@@ -17,7 +17,7 @@ The following pseudocode shows how to implement the **IMemInput::Receive** metho
 ```C++
 HRESULT CMyInputPin::Receive(IMediaSample *pSample)
 {
-    CAutoLock cObjectLock(&amp;m_csReceive);
+    CAutoLock cObjectLock(&m_csReceive);
 
     // Perhaps the filter needs to wait on something.
     WaitForSingleObject(m_hSomeEventThatReceiveNeedsToWaitOn, INFINITE);

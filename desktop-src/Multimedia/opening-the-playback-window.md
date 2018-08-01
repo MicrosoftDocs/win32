@@ -25,7 +25,7 @@ mciOpen.hWndParent = hWnd;             // Give a window handle.
  
 if (mciSendCommand(0, MCI_OPEN, 
    (DWORD)(MCI_OPEN_ELEMENT|MCI_DGV_OPEN_PARENT|MCI_DGV_OPEN), 
-   (DWORD)(LPSTR)&amp;mciOpen) == 0)
+   (DWORD)(LPSTR)&mciOpen) == 0)
 { 
     // Open operation is successful. Continue. 
 } 

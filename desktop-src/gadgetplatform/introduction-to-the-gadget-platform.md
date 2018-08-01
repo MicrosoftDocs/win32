@@ -178,7 +178,7 @@ The following is a sample manifest with the `<autoscaleDPI/>` node set to **true
                 <info url="msdn.microsoft.com" />
                 <logo src="logo.png" />
         </author>
-        <copyright>&amp;amp;#169; Microsoft Corporation.</copyright>
+        <copyright>&amp;#169; Microsoft Corporation.</copyright>
         <description>Sidebar gadget sample.</description>
         <icons>
                 <icon height="48" width="48" src="icon.png" />

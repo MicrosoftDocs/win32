@@ -57,7 +57,7 @@ CryptImportKey(
       cbClientBlob, 
       hServerDHKey, 
       0, 
-      &amp;hMasterKey);
+      &hMasterKey);
 
 //--------------------------------------------------------------------
 // Select the master key type.
@@ -79,7 +79,7 @@ switch(<protocol being used>)
 CryptSetKeyParam(
          hMasterKey, 
          KP_ALGID, 
-         (BYTE*)&amp;Algid, 
+         (BYTE*)&Algid, 
          0);
 ```
 

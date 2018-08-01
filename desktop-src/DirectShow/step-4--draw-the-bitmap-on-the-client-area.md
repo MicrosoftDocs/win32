@@ -22,7 +22,7 @@ The final step is to draw the bitmap onto the client area of the application win
 case WM_PAINT:
     {
         PAINTSTRUCT ps;
-        HDC hdc = BeginPaint(hwnd, &amp;ps);
+        HDC hdc = BeginPaint(hwnd, &ps);
         if (pbmi)
         {
             int result = SetDIBitsToDevice(hdc, 0, 0, 
@@ -34,7 +34,7 @@ case WM_PAINT:
                 reinterpret_cast<BITMAPINFO*>(pbmi),
                 DIB_RGB_COLORS);
         }
-        EndPaint(hwnd, &amp;ps);
+        EndPaint(hwnd, &ps);
     }
     break;
 ```

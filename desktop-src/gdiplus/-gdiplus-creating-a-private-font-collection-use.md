@@ -63,7 +63,7 @@ count = privateFontCollection.GetFamilyCount();
 pFontFamily = new FontFamily[count];
 
 // Get the array of FontFamily objects.
-privateFontCollection.GetFamilies(count, pFontFamily, &amp;found);
+privateFontCollection.GetFamilies(count, pFontFamily, &found);
 
 // Display the name of each font family in the private collection
 // along with the available styles for that font family.
@@ -79,9 +79,9 @@ for(INT j = 0; j < count; ++j)
       StringCchCatW(familyNameAndStyle, MAX_FACEANDSTYLE_SIZE, L" Regular");
 
       Font* pFont = new Font(
-         familyName, 16, FontStyleRegular, UnitPixel, &amp;privateFontCollection);
+         familyName, 16, FontStyleRegular, UnitPixel, &privateFontCollection);
 
-      graphics.DrawString(familyNameAndStyle, -1, pFont, pointF, &amp;solidBrush);
+      graphics.DrawString(familyNameAndStyle, -1, pFont, pointF, &solidBrush);
 
       pointF.Y += pFont->GetHeight(0.0f);
       delete(pFont);      
@@ -94,9 +94,9 @@ for(INT j = 0; j < count; ++j)
       StringCchCatW(familyNameAndStyle, MAX_FACEANDSTYLE_SIZE, L" Bold");
 
       Font* pFont = new Font(
-         familyName, 16, FontStyleBold, UnitPixel, &amp;privateFontCollection);
+         familyName, 16, FontStyleBold, UnitPixel, &privateFontCollection);
 
-      graphics.DrawString(familyNameAndStyle, -1, pFont, pointF, &amp;solidBrush);
+      graphics.DrawString(familyNameAndStyle, -1, pFont, pointF, &solidBrush);
 
       pointF.Y += pFont->GetHeight(0.0f);
       delete(pFont);
@@ -109,9 +109,9 @@ for(INT j = 0; j < count; ++j)
       StringCchCatW(familyNameAndStyle, MAX_FACEANDSTYLE_SIZE, L" Italic");
 
       Font* pFont = new Font(
-         familyName, 16, FontStyleItalic, UnitPixel, &amp;privateFontCollection);
+         familyName, 16, FontStyleItalic, UnitPixel, &privateFontCollection);
 
-      graphics.DrawString(familyNameAndStyle, -1, pFont, pointF, &amp;solidBrush);
+      graphics.DrawString(familyNameAndStyle, -1, pFont, pointF, &solidBrush);
 
       pointF.Y += pFont->GetHeight(0.0f);
       delete(pFont);
@@ -124,9 +124,9 @@ for(INT j = 0; j < count; ++j)
       StringCchCatW(familyNameAndStyle, MAX_FACEANDSTYLE_SIZE, L" BoldItalic");
 
       Font* pFont = new Font(familyName, 16, 
-         FontStyleBoldItalic, UnitPixel, &amp;privateFontCollection);
+         FontStyleBoldItalic, UnitPixel, &privateFontCollection);
 
-      graphics.DrawString(familyNameAndStyle, -1, pFont, pointF, &amp;solidBrush);
+      graphics.DrawString(familyNameAndStyle, -1, pFont, pointF, &solidBrush);
 
       pointF.Y += pFont->GetHeight(0.0f);
       delete(pFont);
@@ -139,9 +139,9 @@ for(INT j = 0; j < count; ++j)
       StringCchCatW(familyNameAndStyle, MAX_FACEANDSTYLE_SIZE, L" Underline");
 
       Font* pFont = new Font(familyName, 16, 
-         FontStyleUnderline, UnitPixel, &amp;privateFontCollection);
+         FontStyleUnderline, UnitPixel, &privateFontCollection);
 
-      graphics.DrawString(familyNameAndStyle, -1, pFont, pointF, &amp;solidBrush);
+      graphics.DrawString(familyNameAndStyle, -1, pFont, pointF, &solidBrush);
 
       pointF.Y += pFont->GetHeight(0.0);
       delete(pFont);
@@ -154,9 +154,9 @@ for(INT j = 0; j < count; ++j)
       StringCchCatW(familyNameAndStyle, MAX_FACEANDSTYLE_SIZE, L" Strikeout");
 
       Font* pFont = new Font(familyName, 16, 
-         FontStyleStrikeout, UnitPixel, &amp;privateFontCollection);
+         FontStyleStrikeout, UnitPixel, &privateFontCollection);
 
-      graphics.DrawString(familyNameAndStyle, -1, pFont, pointF, &amp;solidBrush);
+      graphics.DrawString(familyNameAndStyle, -1, pFont, pointF, &solidBrush);
 
       pointF.Y += pFont->GetHeight(0.0f);
       delete(pFont);

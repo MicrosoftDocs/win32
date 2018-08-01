@@ -17,11 +17,11 @@ The [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graph
 
 
 ```
-myGraphics.DrawEllipse(&amp;myPen, 0, 0, 100, 50);
+myGraphics.DrawEllipse(&myPen, 0, 0, 100, 50);
 myGraphics.ScaleTransform(1.0f, 0.5f);
 myGraphics.TranslateTransform(50.0f, 0.0f, MatrixOrderAppend);
 myGraphics.RotateTransform(30.0f, MatrixOrderAppend);
-myGraphics.DrawEllipse(&amp;myPen, 0, 0, 100, 50);
+myGraphics.DrawEllipse(&myPen, 0, 0, 100, 50);
 ```
 
 
@@ -46,9 +46,9 @@ A local transformation is a transformation that applies to a specific item to be
  
 Matrix myMatrix;
 myMatrix.Rotate(45.0f);
-myGraphicsPath.Transform(&amp;myMatrix);
-myGraphics.DrawRectangle(&amp;myPen, 10, 10, 100, 50);
-myGraphics.DrawPath(&amp;myPen, &amp;myGraphicsPath);
+myGraphicsPath.Transform(&myMatrix);
+myGraphics.DrawRectangle(&myPen, 10, 10, 100, 50);
+myGraphics.DrawPath(&myPen, &myGraphicsPath);
 ```
 
 
@@ -66,7 +66,7 @@ The following example establishes the coordinate system just described by settin
 
 ```
 Matrix myMatrix(1.0f, 0.0f, 0.0f, -1.0f, 0.0f, 0.0f);
-myGraphics.SetTransform(&amp;myMatrix);
+myGraphics.SetTransform(&myMatrix);
 myGraphics.TranslateTransform(200.0f, 150.0f, MatrixOrderAppend);
 ```
 
@@ -83,16 +83,16 @@ myGraphicsPath.AddRectangle(myRect);
 
 // Fill the path on the new coordinate system.
 // No local transformation
-myGraphics.FillPath(&amp;mySolidBrush1, &amp;myGraphicsPath);
+myGraphics.FillPath(&mySolidBrush1, &myGraphicsPath);
 
 // Transform the path.
 Matrix myPathMatrix;
 myPathMatrix.Scale(2, 1);
 myPathMatrix.Rotate(30, MatrixOrderAppend);
-myGraphicsPath.Transform(&amp;myPathMatrix);
+myGraphicsPath.Transform(&myPathMatrix);
 
 // Fill the transformed path on the new coordinate system.
-myGraphics.FillPath(&amp;mySolidBrush2, &amp;myGraphicsPath);
+myGraphics.FillPath(&mySolidBrush2, &myGraphicsPath);
 ```
 
 

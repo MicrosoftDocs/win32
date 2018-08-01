@@ -68,7 +68,7 @@ CComPtr<IPortableDeviceContent>     pContent;
 CComPtr<IPortableDeviceResources>   pResources;
 if (SUCCEEDED(hr))
 {
-    hr = pDevice->Content(&amp;pContent);
+    hr = pDevice->Content(&pContent);
     if (FAILED(hr))
     {
         printf("! Failed to get IPortableDeviceContent from IPortableDevice, hr = 0x%lx\n",hr);
@@ -81,7 +81,7 @@ if (SUCCEEDED(hr))
 
 if (SUCCEEDED(hr))
 {
-    hr = pContent->Transfer(&amp;pResources);
+    hr = pContent->Transfer(&pResources);
     if (FAILED(hr))
     {
         printf("! Failed to get IPortableDeviceResources from IPortableDeviceContent, hr = 0x%lx\n",hr);
@@ -117,7 +117,7 @@ if (SUCCEEDED(hr))
     OpenFileNameInfo.Flags          = OFN_PATHMUSTEXIST | OFN_FILEMUSTEXIST;
     OpenFileNameInfo.lpstrDefExt    = L"JPG";
 
-    if (GetOpenFileName(&amp;OpenFileNameInfo) == FALSE)
+    if (GetOpenFileName(&OpenFileNameInfo) == FALSE)
     {
         printf("The transfer operation was cancelled.\n");
         hr = E_ABORT;
@@ -147,7 +147,7 @@ if (SUCCEEDED(hr))
 {
     // Open the selected file as an IStream.  This will simplify reading the
     // data and writing to the device.
-    hr = SHCreateStreamOnFile(wszFilePath, STGM_READ, &amp;pFileStream);
+    hr = SHCreateStreamOnFile(wszFilePath, STGM_READ, &pFileStream);
     if (SUCCEEDED(hr))
     {
         // CoCreate the IPortableDeviceValues to hold the resource attributes
@@ -155,7 +155,7 @@ if (SUCCEEDED(hr))
                               NULL,
                               CLSCTX_INPROC_SERVER,
                               IID_IPortableDeviceValues,
-                              (VOID**) &amp;pResourceAttributes);
+                              (VOID**) &pResourceAttributes);
         if (SUCCEEDED(hr))
         {
             // Fill in the necessary information regarding this resource
@@ -182,7 +182,7 @@ if (SUCCEEDED(hr))
             if (SUCCEEDED(hr))
             {
                 STATSTG statstg = {0};
-                hr = pFileStream->Stat(&amp;statstg, STATFLAG_NONAME);
+                hr = pFileStream->Stat(&statstg, STATFLAG_NONAME);
                 if (SUCCEEDED(hr))
                 {
                     hr = pResourceAttributes->SetUnsignedLargeIntegerValue(WPD_RESOURCE_ATTRIBUTE_TOTAL_SIZE, statstg.cbSize.QuadPart);
@@ -240,8 +240,8 @@ CComPtr<IPortableDeviceResources>   pResources;
 if (SUCCEEDED(hr))
 {
     hr = pResources->CreateResource(pResourceAttributes,    // Properties describing this resource
-                                    &amp;pResourceStream,       // Returned resource data stream (to transfer the data to)
-                                    &amp;cbOptimalTransferSize, // Returned optimal buffer size to use during transfer
+                                    &pResourceStream,       // Returned resource data stream (to transfer the data to)
+                                    &cbOptimalTransferSize, // Returned optimal buffer size to use during transfer
                                     NULL);
 
 
@@ -254,7 +254,7 @@ if (SUCCEEDED(hr))
         hr = StreamCopy(pResourceStream,        // Destination (The resource to transfer to)
                         pFileStream,            // Source (The File data to transfer from)
                         cbOptimalTransferSize,  // The driver specified optimal transfer buffer size
-                        &amp;cbTotalBytesWritten);  // The total number of bytes transferred from file to the device
+                        &cbTotalBytesWritten);  // The total number of bytes transferred from file to the device
         if (FAILED(hr))
         {
             printf("! Failed to transfer object to device, hr = 0x%lx\n",hr);

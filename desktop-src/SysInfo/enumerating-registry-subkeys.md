@@ -49,16 +49,16 @@ void QueryKey(HKEY hKey)
     retCode = RegQueryInfoKey(
         hKey,                    // key handle 
         achClass,                // buffer for class name 
-        &amp;cchClassName,           // size of class string 
+        &cchClassName,           // size of class string 
         NULL,                    // reserved 
-        &amp;cSubKeys,               // number of subkeys 
-        &amp;cbMaxSubKey,            // longest subkey size 
-        &amp;cchMaxClass,            // longest class string 
-        &amp;cValues,                // number of values for this key 
-        &amp;cchMaxValue,            // longest value name 
-        &amp;cbMaxValueData,         // longest value data 
-        &amp;cbSecurityDescriptor,   // security descriptor 
-        &amp;ftLastWriteTime);       // last write time 
+        &cSubKeys,               // number of subkeys 
+        &cbMaxSubKey,            // longest subkey size 
+        &cchMaxClass,            // longest class string 
+        &cValues,                // number of values for this key 
+        &cchMaxValue,            // longest value name 
+        &cbMaxValueData,         // longest value data 
+        &cbSecurityDescriptor,   // security descriptor 
+        &ftLastWriteTime);       // last write time 
  
     // Enumerate the subkeys, until RegEnumKeyEx fails.
     
@@ -71,11 +71,11 @@ void QueryKey(HKEY hKey)
             cbName = MAX_KEY_LENGTH;
             retCode = RegEnumKeyEx(hKey, i,
                      achKey, 
-                     &amp;cbName, 
+                     &cbName, 
                      NULL, 
                      NULL, 
                      NULL, 
-                     &amp;ftLastWriteTime); 
+                     &ftLastWriteTime); 
             if (retCode == ERROR_SUCCESS) 
             {
                 _tprintf(TEXT("(%d) %s\n"), i+1, achKey);
@@ -95,7 +95,7 @@ void QueryKey(HKEY hKey)
             achValue[0] = '\0'; 
             retCode = RegEnumValue(hKey, i, 
                 achValue, 
-                &amp;cchValue, 
+                &cchValue, 
                 NULL, 
                 NULL,
                 NULL,
@@ -117,7 +117,7 @@ void __cdecl _tmain(void)
         TEXT("SOFTWARE\\Microsoft"),
         0,
         KEY_READ,
-        &amp;hTestKey) == ERROR_SUCCESS
+        &hTestKey) == ERROR_SUCCESS
       )
    {
       QueryKey(hTestKey);

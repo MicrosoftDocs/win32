@@ -48,11 +48,11 @@ BOOL TakeOwnership(LPTSTR lpszOwnFile)
 
     // Specify the DACL to use.
     // Create a SID for the Everyone group.
-    if (!AllocateAndInitializeSid(&amp;SIDAuthWorld, 1,
+    if (!AllocateAndInitializeSid(&SIDAuthWorld, 1,
                      SECURITY_WORLD_RID,
                      0,
                      0, 0, 0, 0, 0, 0,
-                     &amp;pSIDEveryone)) 
+                     &pSIDEveryone)) 
     {
         printf("AllocateAndInitializeSid (Everyone) error %u\n",
                 GetLastError());
@@ -60,18 +60,18 @@ BOOL TakeOwnership(LPTSTR lpszOwnFile)
     }
 
     // Create a SID for the BUILTIN\Administrators group.
-    if (!AllocateAndInitializeSid(&amp;SIDAuthNT, 2,
+    if (!AllocateAndInitializeSid(&SIDAuthNT, 2,
                      SECURITY_BUILTIN_DOMAIN_RID,
                      DOMAIN_ALIAS_RID_ADMINS,
                      0, 0, 0, 0, 0, 0,
-                     &amp;pSIDAdmin)) 
+                     &pSIDAdmin)) 
     {
         printf("AllocateAndInitializeSid (Admin) error %u\n",
                 GetLastError());
         goto Cleanup;
     }
 
-    ZeroMemory(&amp;ea, NUM_ACES * sizeof(EXPLICIT_ACCESS));
+    ZeroMemory(&ea, NUM_ACES * sizeof(EXPLICIT_ACCESS));
 
     // Set read access for Everyone.
     ea[0].grfAccessPermissions = GENERIC_READ;
@@ -92,7 +92,7 @@ BOOL TakeOwnership(LPTSTR lpszOwnFile)
     if (ERROR_SUCCESS != SetEntriesInAcl(NUM_ACES,
                                          ea,
                                          NULL,
-                                         &amp;pACL))
+                                         &pACL))
     {
         printf("Failed SetEntriesInAcl\n");
         goto Cleanup;
@@ -129,7 +129,7 @@ BOOL TakeOwnership(LPTSTR lpszOwnFile)
     // Open a handle to the access token for the calling process.
     if (!OpenProcessToken(GetCurrentProcess(), 
                           TOKEN_ADJUST_PRIVILEGES, 
-                          &amp;hToken)) 
+                          &hToken)) 
        {
           printf("OpenProcessToken failed: %u\n", GetLastError()); 
           goto Cleanup; 

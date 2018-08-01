@@ -26,7 +26,7 @@ if (iPixelFormat = GetPixelFormat(hdc)) {
  
     // obtain a detailed description of that pixel format  
     DescribePixelFormat(hdc, iPixelFormat, 
-                             sizeof(PIXELFORMATDESCRIPTOR), &amp;pfd); 
+                             sizeof(PIXELFORMATDESCRIPTOR), &pfd); 
     }
 ```
 

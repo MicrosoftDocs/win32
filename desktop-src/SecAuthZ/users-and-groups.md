@@ -37,7 +37,7 @@ For example, the following query finds everyone except Andy.
 
 
 ```C++
-(&amp;(objectCategory=person)(objectClass=user)(!cn=andy))
+(&(objectCategory=person)(objectClass=user)(!cn=andy))
 ```
 
 

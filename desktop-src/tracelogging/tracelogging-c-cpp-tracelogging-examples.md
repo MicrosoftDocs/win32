@@ -142,16 +142,16 @@ void TraceLoggingSample::BasicDataTypes()
     SID const sid1 = { SID_REVISION, 1, 5, { 6 } };
     static const GUID s_TestGuid = { 0x3970f9cf, 0x2c0c, 0x4f11, { 0xb1, 0xcc, 0xe3, 0xa1, 0xe9, 0x95, 0x88, 0x33 } };
 
-    GetSystemTime(&amp;st);
-    GetSystemTimeAsFileTime(&amp;ft);
+    GetSystemTime(&st);
+    GetSystemTimeAsFileTime(&ft);
 
     TraceLoggingWrite(
         g_hMyComponentProvider,
         "Other Types",
         TraceLoggingGuid(s_TestGuid, "GUID"),
         TraceLoggingSystemTime(st, "Current Time (FILETIME)"),
-        TraceLoggingPointer((LPCVOID)&amp;iptr, "void*"),
-        TraceLoggingSid(&amp;sid1, "SID")
+        TraceLoggingPointer((LPCVOID)&iptr, "void*"),
+        TraceLoggingSid(&sid1, "SID")
         TraceLoggingIntPtr(iptr, "INT_PTR"),
         TraceLoggingUIntPtr(uptr, "UINT_PTR")
         );
@@ -379,7 +379,7 @@ This example shows how to log structure event data.
 void TraceLoggingSample::Structs()
 {
     WIN32_FIND_DATA FindData;
-    HANDLE hFind = FindFirstFile(".", &amp;FindData);
+    HANDLE hFind = FindFirstFile(".", &FindData);
 
     VERIFY_IS_TRUE(hFind != INVALID_HANDLE_VALUE);
 

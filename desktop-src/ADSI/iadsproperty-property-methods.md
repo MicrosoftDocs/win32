@@ -237,54 +237,54 @@ short bval;
 HRESULT hr = CoInitialize(NULL);
  
 hr = ADsGetObject(L"WinNT://myMachine,computer",
-                  IID_IADs, (void**)&amp;pADs);
+                  IID_IADs, (void**)&pADs);
 if(FAILED(hr))
     goto Cleanup;
 
 BSTR bstr;
-hr = pADs->get_Schema(&amp;bstr);
+hr = pADs->get_Schema(&bstr);
 if(FAILED(hr))
     goto Cleanup;
 
-hr = ADsGetObject(bstr, IID_IADsClass, (void**)&amp;pCls);
-hr = pCls->get_Parent(&amp;bstr);
+hr = ADsGetObject(bstr, IID_IADsClass, (void**)&pCls);
+hr = pCls->get_Parent(&bstr);
 if(FAILED(hr))
     goto Cleanup;
 
-hr = ADsGetObject(bstr, IID_IADsContainer, (void**)&amp;pCont);
+hr = ADsGetObject(bstr, IID_IADsContainer, (void**)&pCont);
 if(FAILED(hr))
     goto Cleanup;
 SysFreeString(bstr);
 
-hr = pCont->GetObject(CComBSTR("Property"), CComBSTR("OperatingSystem"), (IDispatch**)&amp;pProp);
+hr = pCont->GetObject(CComBSTR("Property"), CComBSTR("OperatingSystem"), (IDispatch**)&pProp);
 if(FAILED(hr))
     goto Cleanup;
 
-hr = pProp->get_Name(&amp;bstr);
+hr = pProp->get_Name(&bstr);
 if(FAILED(hr))
     goto Cleanup;
 printf(" Name : %S\n",bstr);
 SysFreeString(bstr);
 
-hr = pProp->get_Syntax(&amp;bstr);
+hr = pProp->get_Syntax(&bstr);
 if(FAILED(hr))
     goto Cleanup;
 printf(" Syntax : %S\n",bstr);
 SysFreeString(bstr);
 
-hr = pProp->get_MaxRange(&amp;lval);
+hr = pProp->get_MaxRange(&lval);
 if(FAILED(hr))
     goto Cleanup;
 printf(" MaxRange : %d\n",lval);
 SysFreeString(bstr);
 
-hr = pProp->get_MinRange(&amp;lval);
+hr = pProp->get_MinRange(&lval);
 if(FAILED(hr))
     goto Cleanup;
 printf(" MinRange : %d\n", lval);
 SysFreeString(bstr);
 
-hr = pProp->get_Multivalued(&amp;bval);
+hr = pProp->get_Multivalued(&bval);
 if(FAILED(hr))
     goto Cleanup;
 printf(" MultiValued : %b\n",bval);

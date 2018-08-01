@@ -56,8 +56,8 @@ You can obtain the exact printer name string to pass to [**CreateDC**](https://m
                 1L,                // printer info level
                 (LPBYTE)NULL,
                 0L,
-                &amp;dwNeeded,
-                &amp;dwReturned);
+                &dwNeeded,
+                &dwReturned);
     
     if (dwNeeded > 0)
     {
@@ -74,8 +74,8 @@ You can obtain the exact printer name string to pass to [**CreateDC**](https://m
                 1L,                // printer info level
                 (LPBYTE)pInfo,
                 dwNeeded,
-                &amp;dwNeeded,
-                &amp;dwReturned);
+                &dwNeeded,
+                &dwReturned);
     }
 
     if (fnReturn)
@@ -148,7 +148,7 @@ printDlgInfo.Flags =
     | PD_NOSELECTION;
 
 // Display the printer dialog and retrieve the printer DC.
-printDlgReturn = PrintDlg(&amp;printDlgInfo);
+printDlgReturn = PrintDlg(&printDlgInfo);
 
 // Check the return value.
 if (TRUE == printDlgReturn)

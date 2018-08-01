@@ -80,7 +80,7 @@ class CTrace
 public:
     CTrace() : m_SessionLogger((TRACEHANDLE) INVALID_HANDLE_VALUE)
     {
-        ZeroMemory(&amp;m_LogInfo, sizeof(&amp;m_LogInfo));
+        ZeroMemory(&m_LogInfo, sizeof(&m_LogInfo));
     }
 
     // Start: Starts a trace session.
@@ -90,9 +90,9 @@ public:
         HRESULT hr = S_OK;
         ULONG result; 
 
-        ZeroMemory(&amp;m_LogInfo, sizeof(m_LogInfo));
+        ZeroMemory(&m_LogInfo, sizeof(m_LogInfo));
         
-        EVENT_TRACE_PROPERTIES&amp; prop = m_LogInfo.TraceProperties;
+        EVENT_TRACE_PROPERTIES& prop = m_LogInfo.TraceProperties;
 
         prop.Wnode.BufferSize = sizeof(m_LogInfo);  // Size of the structure.
         prop.Wnode.Flags = WNODE_FLAG_TRACED_GUID;  // Must be this value.
@@ -119,9 +119,9 @@ public:
 
         // Start the trace.
         result = StartTrace(
-            &amp;m_SessionLogger, 
+            &m_SessionLogger, 
             m_LogInfo.wcSessionName, 
-            &amp;m_LogInfo.TraceProperties
+            &m_LogInfo.TraceProperties
             );
 
         if (result == ERROR_SUCCESS)
@@ -130,7 +130,7 @@ public:
                 TRUE,                                   // Enable.
                 AUDIOBREAK_BIT | DXMPERF_VIDEOREND,     // Event classes.
                 TRACE_LEVEL_VERBOSE,                    // Trace level.
-                &amp;GUID_DSHOW_CTL,                        // Event provider.
+                &GUID_DSHOW_CTL,                        // Event provider.
                 m_SessionLogger                         // Session handle.
                 );
         }
@@ -150,13 +150,13 @@ public:
         {
             LONG result = 0;
 
-            result = EnableTrace(FALSE, 0, 0, &amp;GUID_DSHOW_CTL, m_SessionLogger);
+            result = EnableTrace(FALSE, 0, 0, &GUID_DSHOW_CTL, m_SessionLogger);
             if (result == ERROR_SUCCESS)
             {
                 result = StopTrace(
                     m_SessionLogger, 
                     m_LogInfo.wcSessionName, 
-                    &amp;m_LogInfo.TraceProperties);
+                    &m_LogInfo.TraceProperties);
             }
 
             m_SessionLogger = (TRACEHANDLE)INVALID_HANDLE_VALUE;
@@ -213,14 +213,14 @@ void ProcessTraceEvents(WCHAR *wszLogFile)
     ULONG result = 0;        
     EVENT_TRACE_LOGFILE logfile;
 
-    ZeroMemory(&amp;logfile, sizeof(logfile));
+    ZeroMemory(&logfile, sizeof(logfile));
     logfile.LogFileName = wszLogFile;
     logfile.EventCallback  = EventCallback;   
 
-    TRACEHANDLE handle = OpenTrace(&amp;logfile);
+    TRACEHANDLE handle = OpenTrace(&logfile);
     if (handle != (TRACEHANDLE)INVALID_HANDLE_VALUE)
     {
-        result = ProcessTrace(&amp;handle, 1, NULL, NULL);
+        result = ProcessTrace(&handle, 1, NULL, NULL);
         CloseTrace(handle);
     }
 }

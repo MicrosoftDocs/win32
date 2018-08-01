@@ -41,7 +41,7 @@ BOOL ImpersonateAndCheckAccess(
 // Get an impersonation token with the client's security context.
 
    if (! OpenThreadToken( GetCurrentThread(), TOKEN_ALL_ACCESS,
-         TRUE, &amp;hToken ))
+         TRUE, &hToken ))
    {
       goto Cleanup;
    }
@@ -49,7 +49,7 @@ BOOL ImpersonateAndCheckAccess(
 // Use the GENERIC_MAPPING structure to convert any 
 // generic access rights to object-specific access rights.
 
-   MapGenericMask( &amp;dwAccessDesired, pGeneric );
+   MapGenericMask( &dwAccessDesired, pGeneric );
 
 // Check the client's access rights.
 
@@ -58,10 +58,10 @@ BOOL ImpersonateAndCheckAccess(
       hToken,              // impersonation token
       dwAccessDesired,     // requested access rights
       pGeneric,            // pointer to GENERIC_MAPPING
-      &amp;PrivilegeSet,       // receives privileges used in check
-      &amp;dwPrivSetSize,      // size of PrivilegeSet buffer
+      &PrivilegeSet,       // receives privileges used in check
+      &dwPrivSetSize,      // size of PrivilegeSet buffer
       pdwAccessAllowed,    // receives mask of allowed access rights
-      &amp;fAccessGranted ))   // receives results of access check
+      &fAccessGranted ))   // receives results of access check
    {
       goto Cleanup;
    }

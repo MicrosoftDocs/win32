@@ -73,7 +73,7 @@ Here's another example image with code.
 
 ```C++
 ComPtr<ID2D1Effect> arithmeticCompositeEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1ArithmeticComposite, &amp;arithmeticCompositeEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1ArithmeticComposite, &arithmeticCompositeEffect);
 
 arithmeticCompositeEffect->SetInput(0, bitmap);
 arithmeticCompositeEffect->SetInput(1, bitmapTwo);

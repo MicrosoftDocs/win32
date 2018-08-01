@@ -22,7 +22,7 @@ The Capture Graph Builder is a helper object for building custom filter graphs. 
     ```C++
     IBaseFilter *pVmr = NULL;
     hr = CoCreateInstance(CLSID_VideoMixingRenderer9, 0, 
-        CLSCTX_INPROC_SERVER, IID_IBaseFilter, (void**)&amp;pVmr);
+        CLSCTX_INPROC_SERVER, IID_IBaseFilter, (void**)&pVmr);
     ```
 
     
@@ -37,7 +37,7 @@ The Capture Graph Builder is a helper object for building custom filter graphs. 
 4.  Call [**IGraphBuilder::AddSourceFilter**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-addsourcefilter) to add a source filter for the video file:
     ```C++
     IBaseFilter *pSource;
-    hr = pGraph->AddSourceFilter(L"C:\\Example.avi", L"Source1", &amp;pSource);
+    hr = pGraph->AddSourceFilter(L"C:\\Example.avi", L"Source1", &pSource);
     ```
 
     
@@ -51,7 +51,7 @@ The Capture Graph Builder is a helper object for building custom filter graphs. 
 
 6.  Optionally, call RenderStream again to render the audio stream:
     ```C++
-    hr = pBuild->RenderStream(0, &amp;MEDIATYPE_Audio, pSource, 0, NULL);
+    hr = pBuild->RenderStream(0, &MEDIATYPE_Audio, pSource, 0, NULL);
     ```
 
     

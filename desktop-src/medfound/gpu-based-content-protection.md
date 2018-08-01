@@ -173,12 +173,12 @@ DXVA2_DecodeExtensionData ExtensionExecute = {0};
     
 execParams.NumCompBuffers = 0;
 execParams.pCompressedBuffers = NULL;
-execParams.pExtensionData = &amp;ExtensionExecute;
+execParams.pExtensionData = &ExtensionExecute;
 
 ExtensionExecute.Function = DXVA2_DECODE_GET_DRIVER_HANDLE;
 ExtensionExecute.pPrivateInputData = NULL;
 ExtensionExecute.PrivateInputDataSize = 0;
-ExtensionExecute.pPrivateOutputData = &amp;hDecodeDeviceHandle;
+ExtensionExecute.pPrivateOutputData = &hDecodeDeviceHandle;
 ExtensionExecute.PrivateOutputDataSize = sizeof(HANDLE);
 ```
 

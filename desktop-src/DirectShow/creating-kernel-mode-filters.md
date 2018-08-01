@@ -24,7 +24,7 @@ The following code shows a function that performs these steps:
 
 ```C++
 HRESULT CreateKernelFilter(
-    const GUID &amp;guidCategory,  // Filter category.
+    const GUID &guidCategory,  // Filter category.
     LPCOLESTR szName,          // The name of the filter.
     IBaseFilter **ppFilter     // Receives a pointer to the filter.
 )
@@ -39,14 +39,14 @@ HRESULT CreateKernelFilter(
 
     // Create the system device enumerator.
     hr = CoCreateInstance(CLSID_SystemDeviceEnum, NULL, CLSCTX_INPROC,
-        IID_ICreateDevEnum, (void**)&amp;pDevEnum);
+        IID_ICreateDevEnum, (void**)&pDevEnum);
     if (FAILED(hr))
     {
         return hr;
     }
 
     // Create a class enumerator for the specified category.
-    hr = pDevEnum->CreateClassEnumerator(guidCategory, &amp;pEnum, 0);
+    hr = pDevEnum->CreateClassEnumerator(guidCategory, &pEnum, 0);
     pDevEnum->Release();
     if (hr != S_OK) // S_FALSE means the category is empty.
     {
@@ -56,10 +56,10 @@ HRESULT CreateKernelFilter(
     // Enumerate devices within this category.
     bool bFound = false;
     IMoniker *pMoniker;
-    while (!bFound &amp;&amp; (S_OK == pEnum->Next(1, &amp;pMoniker, 0)))
+    while (!bFound && (S_OK == pEnum->Next(1, &pMoniker, 0)))
     {
         IPropertyBag *pBag = NULL;
-        hr = pMoniker->BindToStorage(0, 0, IID_IPropertyBag, (void **)&amp;pBag);
+        hr = pMoniker->BindToStorage(0, 0, IID_IPropertyBag, (void **)&pBag);
         if (FAILED(hr))
         {
             pMoniker->Release();
@@ -67,16 +67,16 @@ HRESULT CreateKernelFilter(
         }
         // Check the friendly name.
         VARIANT var;
-        VariantInit(&amp;var);
-        hr = pBag->Read(L"FriendlyName", &amp;var, NULL);
-        if (SUCCEEDED(hr) &amp;&amp; (lstrcmpiW(var.bstrVal, szName) == 0))
+        VariantInit(&var);
+        hr = pBag->Read(L"FriendlyName", &var, NULL);
+        if (SUCCEEDED(hr) && (lstrcmpiW(var.bstrVal, szName) == 0))
         {
             // This is the right filter.
             hr = pMoniker->BindToObject(0, 0, IID_IBaseFilter,
                 (void**)ppFilter);
             bFound = true;
         }
-        VariantClear(&amp;var);
+        VariantClear(&var);
         pBag->Release();
         pMoniker->Release();
     }
@@ -93,7 +93,7 @@ The following code example uses this function to create the CC Decoder filter an
 ```C++
 IBaseFilter *pCC = NULL;
 hr = CreateKernelFilter(AM_KSCATEGORY_VBICODEC, 
-    OLESTR("CC Decoder"), &amp;pCC);
+    OLESTR("CC Decoder"), &pCC);
 if (SUCCEEDED(hr))
 {
     hr = pGraph->AddFilter(pCC, L"CC Decoder");

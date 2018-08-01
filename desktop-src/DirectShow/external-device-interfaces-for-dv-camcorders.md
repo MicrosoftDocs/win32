@@ -49,13 +49,13 @@ IBaseFilter *pDVCam;  // Pointer to the capture filter.
 
 // Create an instance of the capture filter (not shown).
 
-hr = pDVCam->QueryInterface(IID_IAMExtDevice, (void **)&amp;MyDevCap.pDevice);
+hr = pDVCam->QueryInterface(IID_IAMExtDevice, (void **)&MyDevCap.pDevice);
 MyDevCap.bHasDevice = (SUCCEEDED(hr));
 
-hr = pDVCam->QueryInterface(IID_IAMExtTransport, (void **)&amp;MyDevCap.pTransport);
+hr = pDVCam->QueryInterface(IID_IAMExtTransport, (void **)&MyDevCap.pTransport);
 MyDevCap.bHasTransport = (SUCCEEDED(hr));
 
-hr = pDVCam->QueryInterface(IID_IAMTimecodeReader, (void **)&amp;MyDevCap.pTimecode);
+hr = pDVCam->QueryInterface(IID_IAMTimecodeReader, (void **)&MyDevCap.pTimecode);
 MyDevCap.bHasTimecode = (SUCCEEDED(hr));
 ```
 

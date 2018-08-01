@@ -37,7 +37,7 @@ pcmWaveFormat.cbSize = 0;
  
 // See if format is supported by any device in system. 
  
-wReturn = IsFormatSupported(&amp;pcmWaveFormat, WAVE_MAPPER); 
+wReturn = IsFormatSupported(&pcmWaveFormat, WAVE_MAPPER); 
  
 // Report results. 
  
@@ -63,7 +63,7 @@ pcmWaveFormat.cbSize = 0;
  
 // See if format is supported by any device in the system. 
  
-wReturn = IsFormatSupported(&amp;pcmWaveFormat, WAVE_MAPPER); 
+wReturn = IsFormatSupported(&pcmWaveFormat, WAVE_MAPPER); 
  
 // Report results. 
  

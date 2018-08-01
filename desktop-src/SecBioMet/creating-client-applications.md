@@ -57,7 +57,7 @@ HRESULT EnrollSysPool(
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             NULL,                       // Database ID
-            &amp;sessionHandle              // [out] Session handle
+            &sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -68,7 +68,7 @@ HRESULT EnrollSysPool(
 
     // Locate a sensor.
     wprintf_s(L"\n Swipe your finger on the sensor...\n");
-    hr = WinBioLocateSensor( sessionHandle, &amp;unitId);
+    hr = WinBioLocateSensor( sessionHandle, &unitId);
     if (FAILED(hr))
     {
         wprintf_s(L"\n WinBioLocateSensor failed. hr = 0x%x\n", hr);
@@ -98,7 +98,7 @@ HRESULT EnrollSysPool(
 
         hr = WinBioEnrollCapture(
                 sessionHandle,  // Handle to open biometric session
-                &amp;rejectDetail   // [out] Failure information
+                &rejectDetail   // [out] Failure information
                 );
 
         wprintf_s(L"\n Sample %d captured from unit number %d.", 
@@ -148,8 +148,8 @@ HRESULT EnrollSysPool(
         wprintf_s(L"\n Committing enrollment...\n");
         hr = WinBioEnrollCommit( 
                 sessionHandle,      // Handle to open biometric session
-                &amp;identity,          // WINBIO_IDENTITY object for the user
-                &amp;isNewTemplate);    // Is this a new template
+                &identity,          // WINBIO_IDENTITY object for the user
+                &isNewTemplate);    // Is this a new template
 
         if (FAILED(hr))
         {
@@ -258,7 +258,7 @@ HRESULT EnrollSysPoolWithCallback(
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             NULL,                       // Database ID
-            &amp;sessionHandle              // [out] Session handle
+            &sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -269,7 +269,7 @@ HRESULT EnrollSysPoolWithCallback(
 
     // Locate the sensor.
     wprintf_s(L"\n Swipe your finger to locate the sensor...\n");
-    hr = WinBioLocateSensor( sessionHandle, &amp;unitId);
+    hr = WinBioLocateSensor( sessionHandle, &unitId);
     if (FAILED(hr))
     {
         wprintf_s(L"\n WinBioLocateSensor failed. hr = 0x%x\n", hr);
@@ -298,7 +298,7 @@ HRESULT EnrollSysPoolWithCallback(
     hr = WinBioEnrollCaptureWithCallback(
             sessionHandle,          // Handle to open biometric session
             EnrollCaptureCallback,  // Callback function
-            &amp;callbackContext        // Pointer to the custom context
+            &callbackContext        // Pointer to the custom context
             );
     if (FAILED(hr))
     {
@@ -349,8 +349,8 @@ HRESULT EnrollSysPoolWithCallback(
         wprintf_s(L"\n Committing enrollment...\n");
         hr = WinBioEnrollCommit( 
                 sessionHandle,      // Handle to open biometric session
-                &amp;identity,          // WINBIO_IDENTITY object for the user
-                &amp;isNewTemplate);    // Is this a new template
+                &identity,          // WINBIO_IDENTITY object for the user
+                &isNewTemplate);    // Is this a new template
 
         if (FAILED(hr))
         {
@@ -487,7 +487,7 @@ HRESULT LocateSensor( )
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             NULL,                       // Database ID
-            &amp;sessionHandle              // [out] Session handle
+            &sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -497,7 +497,7 @@ HRESULT LocateSensor( )
 
     // Locate the sensor.
     wprintf_s(L"\n Tap the sensor once...\n");
-    hr = WinBioLocateSensor( sessionHandle, &amp;unitId);
+    hr = WinBioLocateSensor( sessionHandle, &unitId);
     if (FAILED(hr))
     {
         wprintf_s(L"\n WinBioLocateSensor failed. hr = 0x%x\n", hr);
@@ -554,7 +554,7 @@ HRESULT LocateSensorWithCallback(BOOL bCancel)
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             NULL,                       // Database ID
-            &amp;sessionHandle              // [out] Session handle
+            &sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -679,7 +679,7 @@ HRESULT Verify(WINBIO_BIOMETRIC_SUBTYPE subFactor)
     BOOLEAN match = FALSE;
 
     // Find the identity of the user.
-    hr = GetCurrentUserIdentity( &amp;identity );
+    hr = GetCurrentUserIdentity( &identity );
     if (FAILED(hr))
     {
         wprintf_s(L"\n User identity not found. hr = 0x%x\n", hr);
@@ -694,7 +694,7 @@ HRESULT Verify(WINBIO_BIOMETRIC_SUBTYPE subFactor)
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             NULL,                       // Database ID
-            &amp;sessionHandle              // [out] Session handle
+            &sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -706,11 +706,11 @@ HRESULT Verify(WINBIO_BIOMETRIC_SUBTYPE subFactor)
     wprintf_s(L"\n Calling WinBioVerify - Swipe finger on sensor...\n");
     hr = WinBioVerify( 
             sessionHandle, 
-            &amp;identity, 
+            &identity, 
             subFactor, 
-            &amp;unitId, 
-            &amp;match,
-            &amp;rejectDetail
+            &unitId, 
+            &match,
+            &rejectDetail
             );
     wprintf_s(L"\n Swipe processed - Unit ID: %d\n", unitId);
     if (FAILED(hr))
@@ -770,7 +770,7 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
     if (!OpenProcessToken(
             GetCurrentProcess(),            // Process handle
             TOKEN_READ,                     // Read access only
-            &amp;tokenHandle))                  // Access token handle
+            &tokenHandle))                  // Access token handle
     {
         DWORD win32Status = GetLastError();
         wprintf_s(L"Cannot open token handle: %d\n", win32Status);
@@ -779,16 +779,16 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
     }
 
     // Zero the tokenInfoBuffer structure.
-    ZeroMemory(&amp;tokenInfoBuffer, sizeof(tokenInfoBuffer));
+    ZeroMemory(&tokenInfoBuffer, sizeof(tokenInfoBuffer));
 
     // Retrieve information about the access token. In this case,
     // retrieve a SID.
     if (!GetTokenInformation(
             tokenHandle,                    // Access token handle
             TokenUser,                      // User for the token
-            &amp;tokenInfoBuffer.tokenUser,     // Buffer to fill
+            &tokenInfoBuffer.tokenUser,     // Buffer to fill
             sizeof(tokenInfoBuffer),        // Size of the buffer
-            &amp;bytesReturned))                // Size needed
+            &bytesReturned))                // Size needed
     {
         DWORD win32Status = GetLastError();
         wprintf_s(L"Cannot query token information: %d\n", win32Status);
@@ -850,7 +850,7 @@ HRESULT VerifyWithCallback(BOOL bCancel, WINBIO_BIOMETRIC_SUBTYPE subFactor)
     WINBIO_IDENTITY identity = {0};
 
     // Find the identity of the user.
-    hr = GetCurrentUserIdentity( &amp;identity );
+    hr = GetCurrentUserIdentity( &identity );
     if (FAILED(hr))
     {
         wprintf_s(L"\n User identity not found. hr = 0x%x\n", hr);
@@ -865,7 +865,7 @@ HRESULT VerifyWithCallback(BOOL bCancel, WINBIO_BIOMETRIC_SUBTYPE subFactor)
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             NULL,                       // Database ID
-            &amp;sessionHandle              // [out] Session handle
+            &sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -877,7 +877,7 @@ HRESULT VerifyWithCallback(BOOL bCancel, WINBIO_BIOMETRIC_SUBTYPE subFactor)
     wprintf_s(L"\n Calling WinBioVerifyWithCallback.\n");
     hr = WinBioVerifyWithCallback(
             sessionHandle,              // Open session handle
-            &amp;identity,                  // User SID or GUID
+            &identity,                  // User SID or GUID
             subFactor,                  // Sample sub-factor
             VerifyCallback,             // Callback function
             NULL                        // Optional context
@@ -997,7 +997,7 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
     if (!OpenProcessToken(
             GetCurrentProcess(),            // Process handle
             TOKEN_READ,                     // Read access only
-            &amp;tokenHandle))                  // Access token handle
+            &tokenHandle))                  // Access token handle
     {
         DWORD win32Status = GetLastError();
         wprintf_s(L"Cannot open token handle: %d\n", win32Status);
@@ -1006,16 +1006,16 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
     }
 
     // Zero the tokenInfoBuffer structure.
-    ZeroMemory(&amp;tokenInfoBuffer, sizeof(tokenInfoBuffer));
+    ZeroMemory(&tokenInfoBuffer, sizeof(tokenInfoBuffer));
 
     // Retrieve information about the access token. In this case,
     // retrieve a SID.
     if (!GetTokenInformation(
             tokenHandle,                    // Access token handle
             TokenUser,                      // User for the token
-            &amp;tokenInfoBuffer.tokenUser,     // Buffer to fill
+            &tokenInfoBuffer.tokenUser,     // Buffer to fill
             sizeof(tokenInfoBuffer),        // Size of the buffer
-            &amp;bytesReturned))                // Size needed
+            &bytesReturned))                // Size needed
     {
         DWORD win32Status = GetLastError();
         wprintf_s(L"Cannot query token information: %d\n", win32Status);
@@ -1095,7 +1095,7 @@ HRESULT SetCredential()
 
     // Find the identity of the user.
     wprintf_s(L"\n Finding user identity.\n");
-    hr = GetCurrentUserIdentity( &amp;identity );
+    hr = GetCurrentUserIdentity( &identity );
     if (FAILED(hr))
     {
         wprintf_s(L"\n User identity not found. hr = 0x%x\n", hr);
@@ -1106,7 +1106,7 @@ HRESULT SetCredential()
     pSid = identity.Value.AccountSid.Data;
 
     // Retrieve a byte array that contains credential information.
-    hr = GetCredentials(pSid, &amp;pvAuthBlob, &amp;cbAuthBlob);
+    hr = GetCredentials(pSid, &pvAuthBlob, &cbAuthBlob);
     if (FAILED(hr))
     {
         wprintf_s(L"\n GetCredentials failed. hr = 0x%x\n", hr);
@@ -1187,10 +1187,10 @@ HRESULT GetCredentials(PSID pSid, PVOID* ppvAuthBlob, ULONG* pcbAuthBlob)
               NULL,             // Local computer
               pSid,             // Security identifier for user
               szUsername,       // User name
-              &amp;cchTmpUsername,  // Size of user name
+              &cchTmpUsername,  // Size of user name
               szDomain,         // Domain name
-              &amp;cchTmpDomain,    // Size of domain name
-              &amp;SidUse))         // Account type
+              &cchTmpDomain,    // Size of domain name
+              &SidUse))         // Account type
     {
         dwResult = GetLastError();
         hr = HRESULT_FROM_WIN32(dwResult);
@@ -1213,8 +1213,8 @@ HRESULT GetCredentials(PSID pSid, PVOID* ppvAuthBlob, ULONG* pcbAuthBlob)
               szDomainAndUser,  // Domain\User name
               szPassword,       // User Password
               NULL,             // Packed credentials
-              &amp;cbInAuthBlob)    // Size, in bytes, of credentials
-        &amp;&amp; GetLastError() != ERROR_INSUFFICIENT_BUFFER)
+              &cbInAuthBlob)    // Size, in bytes, of credentials
+        && GetLastError() != ERROR_INSUFFICIENT_BUFFER)
         {
             dwResult = GetLastError();
             hr = HRESULT_FROM_WIN32(dwResult);
@@ -1238,7 +1238,7 @@ HRESULT GetCredentials(PSID pSid, PVOID* ppvAuthBlob, ULONG* pcbAuthBlob)
               szDomainAndUser,
               szPassword,
               (PBYTE)pvInAuthBlob,
-              &amp;cbInAuthBlob))
+              &cbInAuthBlob))
     {
         dwResult = GetLastError();
         hr = HRESULT_FROM_WIN32(dwResult);
@@ -1255,14 +1255,14 @@ HRESULT GetCredentials(PSID pSid, PVOID* ppvAuthBlob, ULONG* pcbAuthBlob)
     ui.hbmBanner = NULL;
 
     dwResult = CredUIPromptForWindowsCredentialsW(
-                   &amp;ui,             // Customizing information
+                   &ui,             // Customizing information
                    0,               // Error code to display
-                   &amp;ulAuthPackage,  // Authorization package
+                   &ulAuthPackage,  // Authorization package
                    pvInAuthBlob,    // Credential byte array
                    cbInAuthBlob,    // Size of credential input buffer
-                   &amp;pvAuthBlob,     // Output credential byte array
-                   &amp;cbAuthBlob,     // Size of credential byte array
-                   &amp;fSave,          // Select the save check box.
+                   &pvAuthBlob,     // Output credential byte array
+                   &cbAuthBlob,     // Size of credential byte array
+                   &fSave,          // Select the save check box.
                    CREDUIWIN_IN_CRED_ONLY |
                    CREDUIWIN_ENUMERATE_CURRENT_USER
                    );
@@ -1315,7 +1315,7 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
     if (!OpenProcessToken(
             GetCurrentProcess(),            // Process handle
             TOKEN_READ,                     // Read access only
-            &amp;tokenHandle))                  // Access token handle
+            &tokenHandle))                  // Access token handle
     {
         DWORD win32Status = GetLastError();
         wprintf_s(L"Cannot open token handle: %d\n", win32Status);
@@ -1324,16 +1324,16 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
     }
 
     // Zero the tokenInfoBuffer structure.
-    ZeroMemory(&amp;tokenInfoBuffer, sizeof(tokenInfoBuffer));
+    ZeroMemory(&tokenInfoBuffer, sizeof(tokenInfoBuffer));
 
     // Retrieve information about the access token. In this case,
     // retrieve a SID.
     if (!GetTokenInformation(
             tokenHandle,                    // Access token handle
             TokenUser,                      // User for the token
-            &amp;tokenInfoBuffer.tokenUser,     // Buffer to fill
+            &tokenInfoBuffer.tokenUser,     // Buffer to fill
             sizeof(tokenInfoBuffer),        // Size of the buffer
-            &amp;bytesReturned))                // Size needed
+            &bytesReturned))                // Size needed
     {
         DWORD win32Status = GetLastError();
         wprintf_s(L"Cannot query token information: %d\n", win32Status);
@@ -1391,7 +1391,7 @@ HRESULT RemoveCredential()
 
     // Find the identity of the user.
     wprintf_s(L"\n Finding user identity.\n");
-    hr = GetCurrentUserIdentity( &amp;identity );
+    hr = GetCurrentUserIdentity( &identity );
     if (FAILED(hr))
     {
         wprintf(L"\n User identity not found. hr = 0x%x\n", hr);
@@ -1441,7 +1441,7 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
     if (!OpenProcessToken(
             GetCurrentProcess(),            // Process handle
             TOKEN_READ,                     // Read access only
-            &amp;tokenHandle))                  // Access token handle
+            &tokenHandle))                  // Access token handle
     {
         DWORD win32Status = GetLastError();
         wprintf_s(L"Cannot open token handle: %d\n", win32Status);
@@ -1450,16 +1450,16 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
     }
 
     // Zero the tokenInfoBuffer structure.
-    ZeroMemory(&amp;tokenInfoBuffer, sizeof(tokenInfoBuffer));
+    ZeroMemory(&tokenInfoBuffer, sizeof(tokenInfoBuffer));
 
     // Retrieve information about the access token. In this case,
     // retrieve a SID.
     if (!GetTokenInformation(
             tokenHandle,                    // Access token handle
             TokenUser,                      // User for the token
-            &amp;tokenInfoBuffer.tokenUser,     // Buffer to fill
+            &tokenInfoBuffer.tokenUser,     // Buffer to fill
             sizeof(tokenInfoBuffer),        // Size of the buffer
-            &amp;bytesReturned))                // Size needed
+            &bytesReturned))                // Size needed
     {
         DWORD win32Status = GetLastError();
         wprintf_s(L"Cannot query token information: %d\n", win32Status);

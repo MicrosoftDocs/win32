@@ -32,7 +32,7 @@ A compute shader is an Microsoft High Level Shader Language (HLSL) programmable 
         ID3DBlob* errorBlob = nullptr;
         HRESULT hr = D3DCompileFromFile( srcFile, defines, D3D_COMPILE_STANDARD_FILE_INCLUDE,
                                          entryPoint, profile,
-                                         flags, 0, &amp;shaderBlob, &amp;errorBlob );
+                                         flags, 0, &shaderBlob, &errorBlob );
     ```
 
     
@@ -42,7 +42,7 @@ A compute shader is an Microsoft High Level Shader Language (HLSL) programmable 
     ID3D11ComputeShader* g_pFinalPassCS = NULL;
     pd3dDevice->CreateComputeShader( pBlobFinalPassCS->GetBufferPointer(), 
                                            pBlobFinalPassCS->GetBufferSize(), 
-                                           NULL, &amp;g_pFinalPassCS );
+                                           NULL, &g_pFinalPassCS );
     ```
 
     
@@ -91,7 +91,7 @@ HRESULT CompileComputeShader( _In_ LPCWSTR srcFile, _In_ LPCSTR entryPoint,
     ID3DBlob* errorBlob = nullptr;
     HRESULT hr = D3DCompileFromFile( srcFile, defines, D3D_COMPILE_STANDARD_FILE_INCLUDE,
                                      entryPoint, profile,
-                                     flags, 0, &amp;shaderBlob, &amp;errorBlob );
+                                     flags, 0, &shaderBlob, &errorBlob );
     if ( FAILED(hr) )
     {
         if ( errorBlob )
@@ -124,12 +124,12 @@ int main()
 
     ID3D11Device* device = nullptr;
     HRESULT hr = D3D11CreateDevice( nullptr, D3D_DRIVER_TYPE_HARDWARE, nullptr, createDeviceFlags, lvl, _countof(lvl),
-                                    D3D11_SDK_VERSION, &amp;device, nullptr, nullptr );
+                                    D3D11_SDK_VERSION, &device, nullptr, nullptr );
     if ( hr == E_INVALIDARG )
     {
         // DirectX 11.0 Runtime doesn't recognize D3D_FEATURE_LEVEL_11_1 as a valid value
-        hr = D3D11CreateDevice( nullptr, D3D_DRIVER_TYPE_HARDWARE, nullptr, 0, &amp;lvl[1], _countof(lvl) - 1,
-                                D3D11_SDK_VERSION, &amp;device, nullptr, nullptr );
+        hr = D3D11CreateDevice( nullptr, D3D_DRIVER_TYPE_HARDWARE, nullptr, 0, &lvl[1], _countof(lvl) - 1,
+                                D3D11_SDK_VERSION, &device, nullptr, nullptr );
     }
 
     if ( FAILED(hr) )
@@ -142,7 +142,7 @@ int main()
     if ( device->GetFeatureLevel() < D3D_FEATURE_LEVEL_11_0 )
     {
         D3D11_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS hwopts = { 0 } ;
-        (void)device->CheckFeatureSupport( D3D11_FEATURE_D3D10_X_HARDWARE_OPTIONS, &amp;hwopts, sizeof(hwopts) );
+        (void)device->CheckFeatureSupport( D3D11_FEATURE_D3D10_X_HARDWARE_OPTIONS, &hwopts, sizeof(hwopts) );
         if ( !hwopts.ComputeShaders_Plus_RawAndStructuredBuffers_Via_Shader_4_x )
         {
             device->Release();
@@ -153,7 +153,7 @@ int main()
 
     // Compile shader
     ID3DBlob *csBlob = nullptr;
-    hr = CompileComputeShader( L"ExampleCompute.hlsl", "CSMain", device, &amp;csBlob );
+    hr = CompileComputeShader( L"ExampleCompute.hlsl", "CSMain", device, &csBlob );
     if ( FAILED(hr) )
     {
         device->Release();
@@ -163,7 +163,7 @@ int main()
 
     // Create shader
     ID3D11ComputeShader* computeShader = nullptr;
-    hr = device->CreateComputeShader( csBlob->GetBufferPointer(), csBlob->GetBufferSize(), nullptr, &amp;computeShader );
+    hr = device->CreateComputeShader( csBlob->GetBufferPointer(), csBlob->GetBufferSize(), nullptr, &computeShader );
 
     csBlob->Release();
 

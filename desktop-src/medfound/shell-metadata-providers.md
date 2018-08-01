@@ -32,7 +32,7 @@ HRESULT EnumerateMetadata(IMFMediaSource *pSource)
     IPropertyStore *pProps = NULL;
 
     HRESULT hr = MFGetService(
-        pSource, MF_PROPERTY_HANDLER_SERVICE, IID_PPV_ARGS(&amp;pProps));
+        pSource, MF_PROPERTY_HANDLER_SERVICE, IID_PPV_ARGS(&pProps));
 
     if (FAILED(hr))
     {
@@ -41,7 +41,7 @@ HRESULT EnumerateMetadata(IMFMediaSource *pSource)
 
     DWORD cProps;
 
-    hr = pProps->GetCount(&amp;cProps);
+    hr = pProps->GetCount(&cProps);
     if (FAILED(hr))
     {
         goto done;
@@ -50,7 +50,7 @@ HRESULT EnumerateMetadata(IMFMediaSource *pSource)
     for (DWORD i = 0; i < cProps; i++)
     {
         PROPERTYKEY key;
-        hr = pProps->GetAt(i, &amp;key);
+        hr = pProps->GetAt(i, &key);
         if (FAILED(hr))
         {
             goto done;
@@ -58,18 +58,18 @@ HRESULT EnumerateMetadata(IMFMediaSource *pSource)
 
         PROPVARIANT pv;
 
-        hr = pProps->GetValue(key, &amp;pv);
+        hr = pProps->GetValue(key, &pv);
         if (FAILED(hr))
         {
             goto done;
         }
 
         DisplayProperty(key, pv);
-        PropVariantClear(&amp;pv);
+        PropVariantClear(&pv);
     }
 
 done:
-    SafeRelease(&amp;pProps);
+    SafeRelease(&pProps);
     return hr;
 }
 ```

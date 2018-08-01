@@ -23,10 +23,10 @@ Adding and removing voices from an audio graph is very similar to adding or remo
 
     ```
     XAUDIO2_SEND_DESCRIPTOR send = {0, pNewVoice};
-    XAUDIO2_VOICE_SENDS sendlist = {1, &amp;send};
-    pParentVoice->SetOutputVoices(&amp;sendlist);
+    XAUDIO2_VOICE_SENDS sendlist = {1, &send};
+    pParentVoice->SetOutputVoices(&sendlist);
     send.pOutputVoice = pChildVoice;
-    pNewVoice->SetOutputVoices(&amp;sendlist);
+    pNewVoice->SetOutputVoices(&sendlist);
     ```
 
     
@@ -37,8 +37,8 @@ Adding and removing voices from an audio graph is very similar to adding or remo
 
     ```
     XAUDIO2_SEND_DESCRIPTOR send = {0, pChildVoice};
-    XAUDIO2_VOICE_SENDS sendlist = {1, &amp;send};
-    pParentVoice->SetOutputVoices(&amp;sendlist);
+    XAUDIO2_VOICE_SENDS sendlist = {1, &send};
+    pParentVoice->SetOutputVoices(&sendlist);
     ```
 
     

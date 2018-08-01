@@ -34,8 +34,8 @@ Declare the set-up structures as global variables within your DLL. The following
 static const WCHAR g_wszName[] = L"Some Filter";
 
 AMOVIESETUP_MEDIATYPE sudMediaTypes[] = {
-    { &amp;MEDIATYPE_Video, &amp;MEDIASUBTYPE_RGB24 },
-    { &amp;MEDIATYPE_Video, &amp;MEDIASUBTYPE_RGB32 },
+    { &MEDIATYPE_Video, &MEDIASUBTYPE_RGB24 },
+    { &MEDIATYPE_Video, &MEDIASUBTYPE_RGB32 },
 };
 
 AMOVIESETUP_PIN sudOutputPin = {
@@ -44,18 +44,18 @@ AMOVIESETUP_PIN sudOutputPin = {
     TRUE,           // Is it an output pin?
     FALSE,          // Can the filter create zero instances?
     FALSE,          // Does the filter create multiple instances?
-    &amp;GUID_NULL,     // Obsolete.
+    &GUID_NULL,     // Obsolete.
     NULL,           // Obsolete.
     2,              // Number of media types.
     sudMediaTypes   // Pointer to media types.
 };
 
 AMOVIESETUP_FILTER sudFilterReg = {
-    &amp;CLSID_SomeFilter,      // Filter CLSID.
+    &CLSID_SomeFilter,      // Filter CLSID.
     g_wszName,              // Filter name.
     MERIT_NORMAL,           // Merit.
     1,                      // Number of pin types.
-    &amp;sudOutputPin           // Pointer to pin information.
+    &sudOutputPin           // Pointer to pin information.
 };
 ```
 

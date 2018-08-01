@@ -204,7 +204,7 @@ HRESULT DemoApp::DrawHelloWorld(
     {
         hr = DWriteCreateFactory(DWRITE_FACTORY_TYPE_SHARED,
                 __uuidof(IDWriteFactory),
-                reinterpret_cast<IUnknown**>(&amp;pIDWriteFactory));
+                reinterpret_cast<IUnknown**>(&pIDWriteFactory));
     }
 
     if(SUCCEEDED(hr))
@@ -217,7 +217,7 @@ HRESULT DemoApp::DrawHelloWorld(
             DWRITE_FONT_STRETCH_NORMAL, 
             10.0f * 96.0f/72.0f, 
             L"en-US", 
-            &amp;pITextFormat
+            &pITextFormat
         );
     }
 
@@ -225,7 +225,7 @@ HRESULT DemoApp::DrawHelloWorld(
     {
         hr = pIRenderTarget->CreateSolidColorBrush(
             D2D1:: ColorF(D2D1::ColorF::Red),
-            &amp;pIRedBrush
+            &pIRedBrush
         );
     }
     
@@ -244,9 +244,9 @@ HRESULT DemoApp::DrawHelloWorld(
     }
 
     // Clean up.
-    SafeRelease(&amp;pIRedBrush);
-    SafeRelease(&amp;pITextFormat);
-    SafeRelease(&amp;pIDWriteFactory);
+    SafeRelease(&pIRedBrush);
+    SafeRelease(&pITextFormat);
+    SafeRelease(&pIDWriteFactory);
 
     return hr;
 }
@@ -317,7 +317,7 @@ void wmain()
     HRESULT hr = DWriteCreateFactory(
             DWRITE_FACTORY_TYPE_SHARED,
             __uuidof(IDWriteFactory),
-            reinterpret_cast<IUnknown**>(&amp;pDWriteFactory)
+            reinterpret_cast<IUnknown**>(&pDWriteFactory)
             );
 
     IDWriteFontCollection* pFontCollection = NULL;
@@ -325,7 +325,7 @@ void wmain()
     // Get the system font collection.
     if (SUCCEEDED(hr))
     {
-        hr = pDWriteFactory->GetSystemFontCollection(&amp;pFontCollection);
+        hr = pDWriteFactory->GetSystemFontCollection(&pFontCollection);
     }
 
     UINT32 familyCount = 0;
@@ -343,7 +343,7 @@ void wmain()
         // Get the font family.
         if (SUCCEEDED(hr))
         {
-            hr = pFontCollection->GetFontFamily(i, &amp;pFontFamily);
+            hr = pFontCollection->GetFontFamily(i, &pFontFamily);
         }
 
         IDWriteLocalizedStrings* pFamilyNames = NULL;
@@ -351,7 +351,7 @@ void wmain()
         // Get a list of localized strings for the family name.
         if (SUCCEEDED(hr))
         {
-            hr = pFontFamily->GetFamilyNames(&amp;pFamilyNames);
+            hr = pFontFamily->GetFamilyNames(&pFamilyNames);
         }
 
         UINT32 index = 0;
@@ -367,11 +367,11 @@ void wmain()
             // If the default locale is returned, find that locale name, otherwise use "en-us".
             if (defaultLocaleSuccess)
             {
-                hr = pFamilyNames->FindLocaleName(localeName, &amp;index, &amp;exists);
+                hr = pFamilyNames->FindLocaleName(localeName, &index, &exists);
             }
-            if (SUCCEEDED(hr) &amp;&amp; !exists) // if the above find did not find a match, retry with US English
+            if (SUCCEEDED(hr) && !exists) // if the above find did not find a match, retry with US English
             {
-                hr = pFamilyNames->FindLocaleName(L"en-us", &amp;index, &amp;exists);
+                hr = pFamilyNames->FindLocaleName(L"en-us", &index, &exists);
             }
         }
         
@@ -384,7 +384,7 @@ void wmain()
         // Get the string length.
         if (SUCCEEDED(hr))
         {
-            hr = pFamilyNames->GetStringLength(index, &amp;length);
+            hr = pFamilyNames->GetStringLength(index, &length);
         }
 
         // Allocate a string big enough to hold the name.
@@ -405,14 +405,14 @@ void wmain()
             wprintf(L"%s\n", name);
         }
 
-        SafeRelease(&amp;pFontFamily);
-        SafeRelease(&amp;pFamilyNames);
+        SafeRelease(&pFontFamily);
+        SafeRelease(&pFamilyNames);
 
         delete [] name;
     }
 
-    SafeRelease(&amp;pFontCollection);
-    SafeRelease(&amp;pDWriteFactory);
+    SafeRelease(&pFontCollection);
+    SafeRelease(&pDWriteFactory);
 }
 
 ```

@@ -40,10 +40,10 @@ HRESULT AddText(IWMHeaderInfo3* pHeaderInfo,
     // Add the attribute.
     hr = pHeaderInfo->AddAttribute(0, 
                                    g_wszWMText, 
-                                   &amp;wIndex, 
+                                   &wIndex, 
                                    WMT_TYPE_BINARY, 
                                    0, 
-                                   (BYTE*)&amp;textStruct, 
+                                   (BYTE*)&textStruct, 
                                    sizeof(WM_USER_TEXT));
 
     // Pass the index of the text attribute back to the caller.
@@ -74,11 +74,11 @@ HRESULT DisplayText(IWMHeaderInfo3* pHeaderInfo, WORD wIndex)
     hr = pHeaderInfo->GetAttributeByIndexEx(0, 
                                             wIndex, 
                                             NULL, 
-                                            &amp;cchName, 
+                                            &cchName, 
                                             NULL, 
                                             NULL, 
                                             NULL, 
-                                            &amp;cbValue);
+                                            &cbValue);
     GOTO_EXIT_IF_FAILED(hr);
 
     // Allocate memory for the name and value.
@@ -95,11 +95,11 @@ HRESULT DisplayText(IWMHeaderInfo3* pHeaderInfo, WORD wIndex)
     hr = pHeaderInfo->GetAttributeByIndexEx(0, 
                                             wIndex, 
                                             pwszName, 
-                                            &amp;cchName, 
-                                            &amp;AttType, 
-                                            &amp;Language, 
+                                            &cchName, 
+                                            &AttType, 
+                                            &Language, 
                                             pbValue, 
-                                            &amp;cbValue);
+                                            &cbValue);
     GOTO_EXIT_IF_FAILED(hr);
 
     // Make sure the attribute is WM/Text, as expected.

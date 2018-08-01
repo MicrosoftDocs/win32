@@ -29,7 +29,7 @@ For example, the [**IMFByteStream::BeginRead**](/windows/desktop/api/mfobjects/n
     BYTE data[DATA_SIZE];
     ULONG cbRead = 0;
 
-    CMyCallback *pCB = new (std::nothrow) CMyCallback(pStream, &amp;hr);
+    CMyCallback *pCB = new (std::nothrow) CMyCallback(pStream, &hr);
 
     if (pCB == NULL)
     {
@@ -53,7 +53,7 @@ For example, to complete the [**IMFByteStream::BeginRead**](/windows/desktop/api
 ```C++
     STDMETHODIMP Invoke(IMFAsyncResult* pResult)
     {
-        m_hrStatus = m_pStream->EndRead(pResult, &amp;m_cbRead);
+        m_hrStatus = m_pStream->EndRead(pResult, &m_cbRead);
 
         SetEvent(m_hEvent);
 

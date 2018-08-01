@@ -29,9 +29,9 @@ SecBufferDesc InputBufferDescriptor;
 SecBuffer InputSecurityToken[2];
 
 ss = QueryContextAttributes(
-    &amp;phContext,
+    &phContext,
     SECPKG_ATTR_SIZES,
-    &amp;ContextSizes
+    &ContextSizes
     );
 if(ContextSizes.cbMaxSignature == 0)
 {
@@ -74,9 +74,9 @@ InputSecurityToken[1].pvBuffer =
 // The quality of service parameter is ignored.
 
 Ss = MakeSignature(
-    &amp;phContext,
+    &phContext,
     0,                       // no quality of service
-    &amp;InputBufferDescriptor,  // input message descriptor
+    &InputBufferDescriptor,  // input message descriptor
     0                        // no sequence number
     );
 if (SEC_SUCCESS(ss))

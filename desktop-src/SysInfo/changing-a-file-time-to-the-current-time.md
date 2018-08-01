@@ -31,12 +31,12 @@ BOOL SetFileToCurrentTime(HANDLE hFile)
     SYSTEMTIME st;
     BOOL f;
 
-    GetSystemTime(&amp;st);              // Gets the current system time
-    SystemTimeToFileTime(&amp;st, &amp;ft);  // Converts the current system time to file time format
+    GetSystemTime(&st);              // Gets the current system time
+    SystemTimeToFileTime(&st, &ft);  // Converts the current system time to file time format
     f = SetFileTime(hFile,           // Sets last-write time of the file 
         (LPFILETIME) NULL,           // to the converted current system time 
         (LPFILETIME) NULL, 
-        &amp;ft);    
+        &ft);    
 
     return f;
 }

@@ -27,7 +27,7 @@ For general information about playback rates, see [About Rate Control](about-rat
            pMediaSession, 
            MF_RATE_CONTROL_SERVICE,
            IID_IMFRateControl, 
-           (void**) &amp;pRateControl );
+           (void**) &pRateControl );
     ```
 
     
@@ -39,7 +39,7 @@ For general information about playback rates, see [About Rate Control](about-rat
 2.  Call the [**IMFRateControl::GetRate**](/windows/desktop/api/mfidl/nf-mfidl-imfratecontrol-getrate) method to get the current playback rate.
 
     ```C++
-    hr = pRateControl->GetRate(&amp;bThin, &amp;rate);
+    hr = pRateControl->GetRate(&bThin, &rate);
     ```
 
     
@@ -56,7 +56,7 @@ For general information about playback rates, see [About Rate Control](about-rat
            pMediaSession, 
            MF_RATE_CONTROL_SERVICE,
            IID_IMFRateSupport, 
-           (void**) &amp;pRateSupport );
+           (void**) &pRateSupport );
     ```
 
     
@@ -71,7 +71,7 @@ For general information about playback rates, see [About Rate Control](about-rat
     hr = pRateSupport->IsRateSupported(
            TRUE, 
            rateRequested, 
-           &amp;actualRate );
+           &actualRate );
     ```
 
     
@@ -92,7 +92,7 @@ For general information about playback rates, see [About Rate Control](about-rat
            pMediaSession, 
            MF_RATE_CONTROL_SERVICE,
            IID_IMFRateSupport, 
-           (void**) &amp;pRateSupport );
+           (void**) &pRateSupport );
     ```
 
     
@@ -106,7 +106,7 @@ For general information about playback rates, see [About Rate Control](about-rat
     hr = pRateSupport->GetSlowestRate(
            MFRATE_REVERSE, 
            TRUE, 
-           &amp;slowestRate);
+           &slowestRate);
     ```
 
     

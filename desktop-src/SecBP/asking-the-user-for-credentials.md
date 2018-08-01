@@ -42,7 +42,7 @@ fSave = FALSE;
 SecureZeroMemory(pszName, sizeof(pszName));
 SecureZeroMemory(pszPwd, sizeof(pszPwd));
 dwErr = CredUIPromptForCredentials( 
-    &amp;cui,                         // CREDUI_INFO structure
+    &cui,                         // CREDUI_INFO structure
     TEXT("TheServer"),            // Target for credentials
                                   //   (usually a server)
     NULL,                         // Reserved
@@ -51,7 +51,7 @@ dwErr = CredUIPromptForCredentials(
     CREDUI_MAX_USERNAME_LENGTH+1, // Max number of char for user name
     pszPwd,                       // Password
     CREDUI_MAX_PASSWORD_LENGTH+1, // Max number of char for password
-    &amp;fSave,                       // State of save check box
+    &fSave,                       // State of save check box
     CREDUI_FLAGS_GENERIC_CREDENTIALS |  // flags
     CREDUI_FLAGS_ALWAYS_SHOW_UI |
     CREDUI_FLAGS_DO_NOT_PERSIST);  

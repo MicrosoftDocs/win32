@@ -76,7 +76,7 @@ SCARD_STATES    scState;
 HRESULT         hr;
 
 // Determine the current state of the smart card.
-hr = pISCard->get_Status(&amp;scState);
+hr = pISCard->get_Status(&scState);
 if (FAILED(hr))
 {
    printf("Failed get_Status\n");

@@ -102,7 +102,7 @@ INT GetChangeNotifications (LPWSTR szSearchBaseDN)
     //  Set the options on connection blocks to specify LDAP version 3.
     pldapConnection->ld_lberoptions = 0;    
 
-    ldap_set_option(pldapConnection, LDAP_OPT_VERSION, &amp;version);
+    ldap_set_option(pldapConnection, LDAP_OPT_VERSION, &version);
 
     //  Asynchronously authenticate a client to the LDAP server using the current credentials.
     err = ldap_bind_s(pldapConnection,        //  Connection handle
@@ -131,7 +131,7 @@ INT GetChangeNotifications (LPWSTR szSearchBaseDN)
     simpleControl.ldctl_value.bv_val = NULL;
 
     //  Initialize the control array values.
-    controlArray[0] = &amp;simpleControl;
+    controlArray[0] = &simpleControl;
     controlArray[1] = NULL;
 
     //  Start a persistent asynchronous search.
@@ -141,11 +141,11 @@ INT GetChangeNotifications (LPWSTR szSearchBaseDN)
                         L"ObjectClass=*",               //  The search filter.
                         szAttribs,                      //  Attributes to retrieve.
                         0,                              //  Retrieve attributes and values.
-                        (PLDAPControl *) &amp;controlArray, //  Server control.
+                        (PLDAPControl *) &controlArray, //  Server control.
                         NULL,                           //  Client controls.
                         0,                              //  No timeout. 
                         0,                              //  No size limit.
-                        (PULONG)&amp;msgId);                //  Receives identifier for results.
+                        (PULONG)&msgId);                //  Receives identifier for results.
 
     //  If the search function fails, show an error message and go to the error section.                     
     if (LDAP_SUCCESS != err)
@@ -166,7 +166,7 @@ INT GetChangeNotifications (LPWSTR szSearchBaseDN)
                         L"ObjectClass=*",           //  The search filter.
                         szAttribs,                  //  List of attributes to retrieve.
                         0,                          //  Retrieve attributes and values.
-                        &amp;presults);                   //  Receives the search results.
+                        &presults);                   //  Receives the search results.
 
     //  If the synchronous search function fails, show an error message and go to
     //  the error section.
@@ -187,7 +187,7 @@ INT GetChangeNotifications (LPWSTR szSearchBaseDN)
 
     while (pmessage != NULL) 
     {
-        bSuccess = ProcessResult(pldapConnection, pmessage, &amp;iUSNChanged);
+        bSuccess = ProcessResult(pldapConnection, pmessage, &iUSNChanged);
         pmessage = ldap_next_entry(pldapConnection, pmessage);
     }
 
@@ -210,7 +210,7 @@ INT GetChangeNotifications (LPWSTR szSearchBaseDN)
                           LDAP_RES_ANY,   //  Message identifier.
                           LDAP_MSG_ONE,   //  Retrieve one message at a time.
                           NULL,           //  No timeout.
-                          &amp;presults);       //  Receives the search results. 
+                          &presults);       //  Receives the search results. 
 
         if ((err == (ULONG) -1) || (presults) == NULL)
         {
@@ -228,7 +228,7 @@ INT GetChangeNotifications (LPWSTR szSearchBaseDN)
 
         while (pmessage != NULL) 
         {
-            bSuccess = ProcessResult(pldapConnection, pmessage, &amp;iUSNChanged);
+            bSuccess = ProcessResult(pldapConnection, pmessage, &iUSNChanged);
             pmessage = ldap_next_entry(pldapConnection, pmessage);
         }
 
@@ -351,7 +351,7 @@ BOOL ProcessResult(LDAP* pldapConnection,
     ldap_memfree(dn);
 
     //  Display the new values of the specified attributes
-    attribute = ldap_first_attribute(pldapConnection, pmessage, &amp;opaque);
+    attribute = ldap_first_attribute(pldapConnection, pmessage, &opaque);
 
     while (attribute != NULL) 
     {

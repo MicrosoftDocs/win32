@@ -47,12 +47,12 @@ The following code fragment illustrates how to create and configure a [**CServic
 ```C++
 // Create a CServiceConfig object.
 HRESULT hr = CoCreateInstance(CLSID_CServiceConfig, NULL, CLSCTX_INPROC_SERVER, 
-  IID_IUnknown, (void**)&amp;pUnknownCSC);
+  IID_IUnknown, (void**)&pUnknownCSC);
 if (FAILED(hr)) throw(hr);
 
 // Query for the IServiceInheritanceConfig interface.
 hr = pUnknownCSC->QueryInterface(IID_IServiceInheritanceConfig, 
-  (void**)&amp;pInheritanceConfig);
+  (void**)&pInheritanceConfig);
 if (FAILED(hr)) throw(hr);
 
 // Inherit the current context before using transactions.
@@ -61,7 +61,7 @@ if (FAILED(hr)) throw(hr);
 
 // Query for the IServiceTransactionConfig interface.
 hr = pUnknownCSC->QueryInterface(IID_IServiceTransactionConfig, 
-  (void**)&amp;pTransactionConfig);
+  (void**)&pTransactionConfig);
 if (FAILED(hr)) throw(hr);
 
 // Configure transactions to always create a new one.

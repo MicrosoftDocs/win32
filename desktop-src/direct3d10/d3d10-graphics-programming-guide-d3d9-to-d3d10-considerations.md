@@ -314,12 +314,12 @@ bool IsSignatureElementExpected(ID3D10ShaderReflection *pReflector, const LPCSTR
     Assert(pReflector);
     Assert(SemanticName);
 
-    pReflector->GetDesc(&amp;shaderDesc);
+    pReflector->GetDesc(&shaderDesc);
 
     for (UINT k=0; k<shaderDesc.InputParameters; k++)
     {
-        pReflector->GetInputParameterDesc( k, &amp;paramDesc);
-        if (wcscmp( SemanticName, paramDesc.SemanticName)==0 &amp;&amp; paramDesc.SemanticIndex == SemanticIndex) 
+        pReflector->GetInputParameterDesc( k, &paramDesc);
+        if (wcscmp( SemanticName, paramDesc.SemanticName)==0 && paramDesc.SemanticIndex == SemanticIndex) 
             return true;
     }
 

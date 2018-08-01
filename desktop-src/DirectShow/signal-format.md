@@ -23,7 +23,7 @@ The following code checks the signal format, and uses this value to calculates t
 ```C++
 LONG Mode, AvgTimePerFrame;
 hr = MyDevCap.pTransport->GetTransportBasicParameters(
-        ED_TRANSBASIC_INPUT_SIGNAL, &amp;Mode, NULL);
+        ED_TRANSBASIC_INPUT_SIGNAL, &Mode, NULL);
 if (SUCCEEDED(hr))
 {
     switch (Mode)

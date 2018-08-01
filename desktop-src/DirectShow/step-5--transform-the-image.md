@@ -28,12 +28,12 @@ HRESULT CRleFilter::Transform(IMediaSample *pSource, IMediaSample *pDest)
 {
     // Get pointers to the underlying buffers.
     BYTE *pBufferIn, *pBufferOut;
-    hr = pSource->GetPointer(&amp;pBufferIn);
+    hr = pSource->GetPointer(&pBufferIn);
     if (FAILED(hr))
     {
         return hr;
     }
-    hr = pDest->GetPointer(&amp;pBufferOut);
+    hr = pDest->GetPointer(&pBufferOut);
     if (FAILED(hr))
     {
         return hr;

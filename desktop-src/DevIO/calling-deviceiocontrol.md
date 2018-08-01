@@ -53,7 +53,7 @@ BOOL GetDriveGeometry(LPWSTR wszPath, DISK_GEOMETRY *pdg)
                             IOCTL_DISK_GET_DRIVE_GEOMETRY, // operation to perform
                             NULL, 0,                       // no input buffer
                             pdg, sizeof(*pdg),            // output buffer
-                            &amp;junk,                         // # bytes returned
+                            &junk,                         // # bytes returned
                             (LPOVERLAPPED) NULL);          // synchronous I/O
 
   CloseHandle(hDevice);
@@ -67,7 +67,7 @@ int wmain(int argc, wchar_t *argv[])
   BOOL bResult = FALSE;      // generic results flag
   ULONGLONG DiskSize = 0;    // size of the drive, in bytes
 
-  bResult = GetDriveGeometry (wszDrive, &amp;pdg);
+  bResult = GetDriveGeometry (wszDrive, &pdg);
 
   if (bResult) 
   {

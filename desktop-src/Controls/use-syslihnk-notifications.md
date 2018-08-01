@@ -45,7 +45,7 @@ case WM_NOTIFY:
             PNMLINK pNMLink = (PNMLINK)lParam;
             LITEM   item    = pNMLink->item;
             
-            if ((((LPNMHDR)lParam)->hwndFrom == g_hLink) &amp;&amp; (item.iLink == 0))
+            if ((((LPNMHDR)lParam)->hwndFrom == g_hLink) && (item.iLink == 0))
               {
                 ShellExecute(NULL, L"open", item.szUrl, NULL, NULL, SW_SHOW);
               }

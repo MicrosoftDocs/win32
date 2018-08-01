@@ -199,7 +199,7 @@ function getText2() {
                               HTTPREQUEST_SETCREDENTIALS_FOR_PROXY );
         break;
     }
-  } while( ( !Done ) &amp;&amp; ( Attempts < 3 ) );
+  } while( ( !Done ) && ( Attempts < 3 ) );
 
   // Display the results of the request.
   WScript.Echo( WinHttpReq.Status + "   " + WinHttpReq.StatusText );

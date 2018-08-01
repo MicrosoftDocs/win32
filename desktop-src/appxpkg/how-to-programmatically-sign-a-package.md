@@ -214,9 +214,9 @@ HRESULT SignAppxPackage(
  
     SIGNER_SUBJECT_INFO subjectInfo = {};
     subjectInfo.cbSize = sizeof(SIGNER_SUBJECT_INFO);
-    subjectInfo.pdwIndex = &amp;signerIndex;
+    subjectInfo.pdwIndex = &signerIndex;
     subjectInfo.dwSubjectChoice = SIGNER_SUBJECT_FILE;
-    subjectInfo.pSignerFileInfo = &amp;fileInfo;
+    subjectInfo.pSignerFileInfo = &fileInfo;
  
     SIGNER_CERT_STORE_INFO certStoreInfo = {};
     certStoreInfo.cbSize = sizeof(SIGNER_CERT_STORE_INFO);
@@ -226,7 +226,7 @@ HRESULT SignAppxPackage(
     SIGNER_CERT cert = {};
     cert.cbSize = sizeof(SIGNER_CERT);
     cert.dwCertChoice = SIGNER_CERT_STORE;
-    cert.pCertStoreInfo = &amp;certStoreInfo;
+    cert.pCertStoreInfo = &certStoreInfo;
  
     // The algidHash of the signature to be created must match the
     // hash algorithm used to create the app package
@@ -236,13 +236,13 @@ HRESULT SignAppxPackage(
     signatureInfo.dwAttrChoice = SIGNER_NO_ATTR;
  
     SIGNER_SIGN_EX2_PARAMS signerParams = {};
-    signerParams.pSubjectInfo = &amp;subjectInfo;
-    signerParams.pSigningCert = &amp;cert;
-    signerParams.pSignatureInfo = &amp;signatureInfo;
+    signerParams.pSubjectInfo = &subjectInfo;
+    signerParams.pSigningCert = &cert;
+    signerParams.pSignatureInfo = &signatureInfo;
  
     APPX_SIP_CLIENT_DATA sipClientData = {};
-    sipClientData.pSignerParams = &amp;signerParams;
-    signerParams.pSipData = &amp;sipClientData;
+    sipClientData.pSignerParams = &signerParams;
+    signerParams.pSipData = &sipClientData;
  
     // Type definition for invoking SignerSignEx2 via GetProcAddress
     typedef HRESULT (WINAPI *SignerSignEx2Function)(

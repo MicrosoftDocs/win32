@@ -164,7 +164,7 @@ STDMETHODIMP CShellExt::Initialize(LPCITEMIDLIST pIDFolder,
         FORMATETC   fe = {CF_HDROP, NULL, DVASPECT_CONTENT, -1, TYMED_HGLOBAL};
         UINT        uCount;
 
-        if(SUCCEEDED(m_pDataObj->GetData(&amp;fe, &amp;medium)))
+        if(SUCCEEDED(m_pDataObj->GetData(&fe, &medium)))
         {
             // Get the count of files dropped.
             uCount = DragQueryFile((HDROP)medium.hGlobal, (UINT)-1, NULL, 0);
@@ -174,7 +174,7 @@ STDMETHODIMP CShellExt::Initialize(LPCITEMIDLIST pIDFolder,
                 DragQueryFile((HDROP)medium.hGlobal, 0, m_szFile, 
                               sizeof(m_szFile)/sizeof(TCHAR));
 
-            ReleaseStgMedium(&amp;medium);
+            ReleaseStgMedium(&medium);
         }
     }
 
@@ -184,7 +184,7 @@ STDMETHODIMP CShellExt::Initialize(LPCITEMIDLIST pIDFolder,
                      NULL, 
                      0L, 
                      MAXIMUM_ALLOWED, 
-                     &amp;m_hRegKey); 
+                     &m_hRegKey); 
     return S_OK; 
 }
 ```

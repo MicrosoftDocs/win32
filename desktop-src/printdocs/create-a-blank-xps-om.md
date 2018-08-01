@@ -45,48 +45,48 @@ The following code example assumes that the initialization, described in [Initia
     XPS_SIZE pageSize = {width, height}; 
     
     // Create the package.
-    hr = xpsFactory->CreatePackage( &amp;xpsPackage );
+    hr = xpsFactory->CreatePackage( &xpsPackage );
 
     // Create the URI for the fixed document sequence part and then  
     //  create the fixed document sequence
     hr = xpsFactory->CreatePartUri( 
-        L"/FixedDocumentSequence.fdseq", &amp;opcPartUri );
-    hr = xpsFactory->CreateDocumentSequence( opcPartUri, &amp;xpsFDS );
+        L"/FixedDocumentSequence.fdseq", &opcPartUri );
+    hr = xpsFactory->CreateDocumentSequence( opcPartUri, &xpsFDS );
     // Release this URI to reuse the interface pointer.
     if (NULL != opcPartUri) {opcPartUri->Release(); opcPartUri = NULL;}
 
     // Create the URI for the document part and then create the document.
     hr = xpsFactory->CreatePartUri( 
-        L"/Documents/1/FixedDocument.fdoc", &amp;opcPartUri );
-    hr = xpsFactory->CreateDocument( opcPartUri, &amp;xpsFD );
+        L"/Documents/1/FixedDocument.fdoc", &opcPartUri );
+    hr = xpsFactory->CreateDocument( opcPartUri, &xpsFD );
     // Release this URI to reuse the interface pointer.
     if (NULL != opcPartUri) {opcPartUri->Release(); opcPartUri = NULL;}
 
     // Create a blank page.
     hr = xpsFactory->CreatePartUri( 
-        L"/Documents/1/Pages/1.fpage", &amp;opcPartUri );
+        L"/Documents/1/Pages/1.fpage", &opcPartUri );
     hr = xpsFactory->CreatePage(
-        &amp;pageSize,                  // Page size
+        &pageSize,                  // Page size
         L"en-US",                   // Page language
         opcPartUri,                 // Page part name
-        &amp;xpsPage);                
+        &xpsPage);                
     // Release this URI to reuse the interface pointer.
     if (NULL != opcPartUri) {opcPartUri->Release(); opcPartUri = NULL;}
 
     // Create a page reference for the page.
-    hr = xpsFactory->CreatePageReference( &amp;pageSize, &amp;xpsPageRef );
+    hr = xpsFactory->CreatePageReference( &pageSize, &xpsPageRef );
 
     // Add the fixed document sequence to the package.
     hr = xpsPackage->SetDocumentSequence( xpsFDS );
 
     // Get the document collection of the fixed document sequence
     //  and then add the document to the collection.
-    hr = xpsFDS->GetDocuments( &amp;fixedDocuments );
+    hr = xpsFDS->GetDocuments( &fixedDocuments );
     hr = fixedDocuments->Append( xpsFD );
 
     // Get the page reference collection from the document
     //  and add the page reference and blank page.
-    hr = xpsFD->GetPageReferences( &amp;pageRefs );
+    hr = xpsFD->GetPageReferences( &pageRefs );
     hr = pageRefs->Append( xpsPageRef );
     hr = xpsPageRef->SetPage( xpsPage );
 

@@ -25,7 +25,7 @@ You generally need to enumerate adapters for these reasons:
     ```
     IDXGIFactory * pFactory = NULL;
 
-    CreateDXGIFactory(__uuidof(IDXGIFactory) ,(void**)&amp;pFactory)
+    CreateDXGIFactory(__uuidof(IDXGIFactory) ,(void**)&pFactory)
     ```
 
     
@@ -36,7 +36,7 @@ You generally need to enumerate adapters for these reasons:
 
     ```
     for (UINT i = 0; 
-         pFactory->EnumAdapters(i, &amp;pAdapter) != DXGI_ERROR_NOT_FOUND; 
+         pFactory->EnumAdapters(i, &pAdapter) != DXGI_ERROR_NOT_FOUND; 
          ++i) 
     { ... }
     ```
@@ -60,14 +60,14 @@ std::vector <IDXGIAdapter*> EnumerateAdapters(void)
     
 
     // Create a DXGIFactory object.
-    if(FAILED(CreateDXGIFactory(__uuidof(IDXGIFactory) ,(void**)&amp;pFactory)))
+    if(FAILED(CreateDXGIFactory(__uuidof(IDXGIFactory) ,(void**)&pFactory)))
     {
         return vAdapters;
     }
 
 
     for ( UINT i = 0;
-          pFactory->EnumAdapters(i, &amp;pAdapter) != DXGI_ERROR_NOT_FOUND;
+          pFactory->EnumAdapters(i, &pAdapter) != DXGI_ERROR_NOT_FOUND;
           ++i )
     {
         vAdapters.push_back(pAdapter); 

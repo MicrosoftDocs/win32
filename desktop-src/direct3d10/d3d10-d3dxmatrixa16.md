@@ -73,7 +73,7 @@ typedef struct _D3DXMATRIXA16 : public D3DXMATRIX
 {
     _D3DXMATRIXA16();
     _D3DXMATRIXA16( CONST FLOAT * f);
-    _D3DXMATRIXA16( CONST D3DMATRIX&amp; m);
+    _D3DXMATRIXA16( CONST D3DMATRIX& m);
     _D3DXMATRIXA16( FLOAT _11, FLOAT _12, FLOAT _13, FLOAT _14,
                     FLOAT _21, FLOAT _22, FLOAT _23, FLOAT _24,
                     FLOAT _31, FLOAT _32, FLOAT _33, FLOAT _34,
@@ -86,7 +86,7 @@ typedef struct _D3DXMATRIXA16 : public D3DXMATRIX
     void operator delete(void* p);
     void operator delete[](void* p);
 
-    struct _D3DXMATRIXA16&amp; operator=(CONST D3DXMATRIX&amp; rhs);
+    struct _D3DXMATRIXA16& operator=(CONST D3DXMATRIX& rhs);
 } _D3DXMATRIXA16;
 
 typedef D3DX_ALIGN16 _D3DXMATRIXA16 D3DXMATRIXA16, *LPD3DXMATRIXA16;

@@ -32,7 +32,7 @@ bih.biSizeImage = 0;
 bih.biXPelsPerMeter = bih.biYPelsPerMeter = 0; 
 bih.biClrUsed = bih.biClrImportant = 256; 
  
-hIC = ICLocate (ICTYPE_VIDEO, 0L, (LPBITMAPINFOHEADER) &amp;bih, 
+hIC = ICLocate (ICTYPE_VIDEO, 0L, (LPBITMAPINFOHEADER) &bih, 
     NULL, ICMODE_COMPRESS); 
  
 ```
@@ -43,13 +43,13 @@ The following example enumerates the decompressors in the system to find one tha
 
 
 ```C++
-for (i=0; ICInfo(fccType, i, &amp;icinfo); i++) 
+for (i=0; ICInfo(fccType, i, &icinfo); i++) 
 { 
     hic = ICOpen(icinfo.fccType, icinfo.fccHandler, ICMODE_QUERY); 
     if (hic) 
     { 
         // Skip this compressor if it can't handle the format. 
-        if (fccType == ICTYPE_VIDEO &amp;&amp; pvIn != NULL &amp;&amp; 
+        if (fccType == ICTYPE_VIDEO && pvIn != NULL && 
             ICDecompressQuery(hic, pvIn, NULL) != ICERR_OK) 
         { 
             ICClose(hic); 
@@ -57,7 +57,7 @@ for (i=0; ICInfo(fccType, i, &amp;icinfo); i++)
         } 
  
         // Find out the compressor name. 
-        ICGetInfo(hic, &amp;icinfo, sizeof(icinfo)); 
+        ICGetInfo(hic, &icinfo, sizeof(icinfo)); 
  
         // Add it to the combo box. 
         n = ComboBox_AddString(hwndC,icinfo.szDescription); 
@@ -91,8 +91,8 @@ bihIn.biClrUsed = bih.biClrImportant =
     bihOut.biClrUsed = bihOut.biClrImportant = 256; 
 
 hIC = ICLocate (ICTYPE_VIDEO, 0L, 
-    (LPBITMAPINFOHEADER)&amp;bihIn, 
-    (LPBITMAPINFOHEADER)&amp;bihOut, ICMODE_COMPRESS); 
+    (LPBITMAPINFOHEADER)&bihIn, 
+    (LPBITMAPINFOHEADER)&bihOut, ICMODE_COMPRESS); 
  
 ```
 

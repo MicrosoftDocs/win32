@@ -66,7 +66,7 @@ typedef struct D3DXMATRIX : public D3DMATRIX
 public:
     D3DXMATRIX() {};
     D3DXMATRIX( CONST FLOAT * );
-    D3DXMATRIX( CONST D3DMATRIX&amp; );
+    D3DXMATRIX( CONST D3DMATRIX& );
     D3DXMATRIX( CONST D3DXFLOAT16 * );
     D3DXMATRIX( FLOAT _11, FLOAT _12, FLOAT _13, FLOAT _14,
                 FLOAT _21, FLOAT _22, FLOAT _23, FLOAT _24,
@@ -75,7 +75,7 @@ public:
 
 
     // access grants
-    FLOAT&amp; operator () ( UINT Row, UINT Col );
+    FLOAT& operator () ( UINT Row, UINT Col );
     FLOAT  operator () ( UINT Row, UINT Col ) const;
 
     // casting operators
@@ -83,27 +83,27 @@ public:
     operator CONST FLOAT* () const;
 
     // assignment operators
-    D3DXMATRIX&amp; operator *= ( CONST D3DXMATRIX&amp; );
-    D3DXMATRIX&amp; operator += ( CONST D3DXMATRIX&amp; );
-    D3DXMATRIX&amp; operator -= ( CONST D3DXMATRIX&amp; );
-    D3DXMATRIX&amp; operator *= ( FLOAT );
-    D3DXMATRIX&amp; operator /= ( FLOAT );
+    D3DXMATRIX& operator *= ( CONST D3DXMATRIX& );
+    D3DXMATRIX& operator += ( CONST D3DXMATRIX& );
+    D3DXMATRIX& operator -= ( CONST D3DXMATRIX& );
+    D3DXMATRIX& operator *= ( FLOAT );
+    D3DXMATRIX& operator /= ( FLOAT );
 
     // unary operators
     D3DXMATRIX operator + () const;
     D3DXMATRIX operator - () const;
 
     // binary operators
-    D3DXMATRIX operator * ( CONST D3DXMATRIX&amp; ) const;
-    D3DXMATRIX operator + ( CONST D3DXMATRIX&amp; ) const;
-    D3DXMATRIX operator - ( CONST D3DXMATRIX&amp; ) const;
+    D3DXMATRIX operator * ( CONST D3DXMATRIX& ) const;
+    D3DXMATRIX operator + ( CONST D3DXMATRIX& ) const;
+    D3DXMATRIX operator - ( CONST D3DXMATRIX& ) const;
     D3DXMATRIX operator * ( FLOAT ) const;
     D3DXMATRIX operator / ( FLOAT ) const;
 
-    friend D3DXMATRIX operator * ( FLOAT, CONST D3DXMATRIX&amp; );
+    friend D3DXMATRIX operator * ( FLOAT, CONST D3DXMATRIX& );
 
-    BOOL operator == ( CONST D3DXMATRIX&amp; ) const;
-    BOOL operator != ( CONST D3DXMATRIX&amp; ) const;
+    BOOL operator == ( CONST D3DXMATRIX& ) const;
+    BOOL operator != ( CONST D3DXMATRIX& ) const;
 
 } D3DXMATRIX, *LPD3DXMATRIX;
 

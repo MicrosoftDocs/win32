@@ -21,9 +21,9 @@ The easiest way to build this graph is by specifing MEDIASUBTYPE\_Asf in the [**
 ```C++
 IBaseFilter* pASFWriter = 0;
 hr = pBuild->SetOutputFileName(
-    &amp;MEDIASUBTYPE_Asf,   // Create a Windows Media file.
+    &MEDIASUBTYPE_Asf,   // Create a Windows Media file.
     L"C:\\VidCap.wmv",   // File name.
-    &amp;pASFWriter,         // Receives a pointer to the filter.
+    &pASFWriter,         // Receives a pointer to the filter.
     NULL);  // Receives an IFileSinkFilter interface pointer (optional).
 ```
 
@@ -45,7 +45,7 @@ Use the [**IConfigAsfWriter**](/windows/desktop/api/Dshowasf/nn-dshowasf-iconfig
 
 ```C++
 IConfigAsfWriter *pConfig = 0;
-hr = pASFWriter->QueryInterface(IID_IConfigAsfWriter, (void**)&amp;pConfig);
+hr = pASFWriter->QueryInterface(IID_IConfigAsfWriter, (void**)&pConfig);
 if (SUCCEEDED(hr))
 {
      // Configure the ASF Writer filter.
@@ -62,8 +62,8 @@ Call [**ICaptureGraphBuilder2::RenderStream**](/windows/desktop/api/Strmif/nf-st
 
 ```C++
 hr = pBuild->RenderStream(
-    &amp;PIN_CATEGORY_CAPTURE,   // Capture pin.
-    &amp;MEDIATYPE_Video,        // Video. Use MEDIATYPE_Audio for audio.
+    &PIN_CATEGORY_CAPTURE,   // Capture pin.
+    &MEDIATYPE_Video,        // Video. Use MEDIATYPE_Audio for audio.
     pCap,                    // Pointer to the capture filter. 
     0, 
     pASFWriter);             // Pointer to the sink filter (ASF Writer).

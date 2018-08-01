@@ -73,23 +73,23 @@ INT main()
    // Initialize GDI+.
    GdiplusStartupInput gdiplusStartupInput;
    ULONG_PTR gdiplusToken;
-   GdiplusStartup(&amp;gdiplusToken, &amp;gdiplusStartupInput, NULL);
+   GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
    // Create a Bitmap (inherited from Image) object so that we can call
    // GetParameterListSize and GetParameterList.
    Bitmap* bitmap = new Bitmap(1, 1);
    // Get the JPEG encoder CLSID.
    CLSID encoderClsid;
-   GetEncoderClsid(L"image/jpeg", &amp;encoderClsid);
+   GetEncoderClsid(L"image/jpeg", &encoderClsid);
    // How big (in bytes) is the JPEG encoder's parameter list?
    UINT listSize = 0; 
-   listSize = bitmap->GetEncoderParameterListSize(&amp;encoderClsid);
+   listSize = bitmap->GetEncoderParameterListSize(&encoderClsid);
    printf("The parameter list requires %d bytes.\n", listSize);
    // Allocate a buffer large enough to hold the parameter list.
    EncoderParameters* pEncoderParameters = NULL;
    pEncoderParameters = (EncoderParameters*)malloc(listSize);
    // Get the parameter list for the JPEG encoder.
    bitmap->GetEncoderParameterList(
-      &amp;encoderClsid, listSize, pEncoderParameters);
+      &encoderClsid, listSize, pEncoderParameters);
    // pEncoderParameters points to an EncoderParameters object, which
    // has a Count member and an array of EncoderParameter objects.
    // How many EncoderParameter objects are in the array?

@@ -45,7 +45,7 @@ if (Status != NO_ERROR)
 
 Status = RtmGetOpaqueInformationPointer(RtmRegHandle,
                                         DestHandle,
-                                        &amp;OpaqueInfoSlotPointer);
+                                        &OpaqueInfoSlotPointer);
 if (Status == NO_ERROR)
 {
     OpaqueInfoSlotInfo = * (PVOID *) OpaqueInfoSlotPointer;

@@ -82,7 +82,7 @@ class CSomeObject : public IUnknown
         static HRESULT Create(IUnknown* pUnkOuter, REFIID riid, void **ppv) 
         { 
             CSomeObject*        pObj; 
-            if (pUnkOuter != NULL &amp;&amp; riid != IID_IUnknown) 
+            if (pUnkOuter != NULL && riid != IID_IUnknown) 
                 return CLASS_E_NOAGGREGATION; 
             pObj = new CSomeObject(pUnkOuter); 
             if (pObj == NULL) 
@@ -108,7 +108,7 @@ class CSomeObject : public IUnknown
             if (riid == IID_IUnknown) 
                 *ppv=this; 
             if (riid == IID_ISomeInterface) 
-                *ppv=&amp;m_ImpSomeInterface; 
+                *ppv=&m_ImpSomeInterface; 
             if (NULL==*ppv) 
                 return ResultFromScode(E_NOINTERFACE); 
             ((IUnknown*)*ppv)->AddRef(); 
@@ -138,7 +138,7 @@ When developing an aggregable object, the following rules apply:
 -   The outer object must call its controlling [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown)Â [**Release**](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) method if it queries for a pointer to any of the inner object's interfaces. To free this pointer, the outer object calls its controlling **IUnknown**Â [**AddRef**](https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx) method, followed by **Release** on the inner object's pointer.
     ```C++
     // Obtaining inner object interface pointer 
-    pUnkInner->QueryInterface(IID_ISomeInterface, &amp;pISomeInterface); 
+    pUnkInner->QueryInterface(IID_ISomeInterface, &pISomeInterface); 
     pUnkOuter->Release(); 
      
     // Releasing inner object interface pointer 

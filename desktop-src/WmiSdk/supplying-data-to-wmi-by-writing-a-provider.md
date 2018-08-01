@@ -438,7 +438,7 @@ CInstPro::CInstPro(BSTR ObjectPath,
 {
     m_pNamespace = NULL;
     m_cRef=0;
-    InterlockedIncrement(&amp;g_cObj);
+    InterlockedIncrement(&g_cObj);
     return;
 }
 
@@ -446,7 +446,7 @@ CInstPro::~CInstPro(void)
 {
     if(m_pNamespace)
         m_pNamespace->Release();
-    InterlockedDecrement(&amp;g_cObj);
+    InterlockedDecrement(&g_cObj);
     return;
 }
 
@@ -492,7 +492,7 @@ STDMETHODIMP_(ULONG) CInstPro::AddRef(void)
 
 STDMETHODIMP_(ULONG) CInstPro::Release(void)
 {
-    ULONG nNewCount = InterlockedDecrement((long *)&amp;m_cRef);
+    ULONG nNewCount = InterlockedDecrement((long *)&m_cRef);
     if (0L == nNewCount)
         delete this;
     
@@ -583,14 +583,14 @@ SCODE CInstPro::CreateInstanceEnumAsync( const BSTR RefStr,
 
     for(iCnt=0; iCnt < glNumInst; iCnt++)
     {
-        sc = CreateInst(m_pNamespace,MyDefs[iCnt].pwcKey, MyDefs[iCnt].lValue, &amp;pNewInst, RefStr, pCtx);
+        sc = CreateInst(m_pNamespace,MyDefs[iCnt].pwcKey, MyDefs[iCnt].lValue, &pNewInst, RefStr, pCtx);
  
         if(sc != S_OK)
             break;
 
         // Send the object to the caller
 
-        pHandler->Indicate(1,&amp;pNewInst);
+        pHandler->Indicate(1,&pNewInst);
         pNewInst->Release();
     }
 
@@ -653,10 +653,10 @@ SCODE CInstPro::GetObjectAsync(const BSTR      ObjectPath,
 
     // do the get, pass the object on to the notify
     
-    sc = GetByPath(ObjectPath,&amp;pObj, pCtx);
+    sc = GetByPath(ObjectPath,&pObj, pCtx);
     if(sc == S_OK) 
     {
-        pHandler->Indicate(1,&amp;pObj);
+        pHandler->Indicate(1,&pObj);
         pObj->Release();
         bOK = TRUE;
     }
@@ -767,7 +767,7 @@ SCODE CreateInst(IWbemServices * pNamespace,
 {
     SCODE sc;
     IWbemClassObject * pClass = NULL;
-    sc = pNamespace->GetObject(pwcClassName, 0, pCtx, &amp;pClass, NULL);
+    sc = pNamespace->GetObject(pwcClassName, 0, pCtx, &pClass, NULL);
     if(sc != S_OK)
         return WBEM_E_FAILED;
     sc = pClass->SpawnInstance(0, pNewInst);
@@ -783,8 +783,8 @@ SCODE CreateInst(IWbemServices * pNamespace,
     if (!v.bstrVal)
         return WBEM_E_OUT_OF_MEMORY;
 
-    sc = (*pNewInst)->Put(L"MyKey", 0, &amp;v, 0);
-    VariantClear(&amp;v);
+    sc = (*pNewInst)->Put(L"MyKey", 0, &v, 0);
+    VariantClear(&v);
     if(FAILED(sc))
         return sc;
 
@@ -792,7 +792,7 @@ SCODE CreateInst(IWbemServices * pNamespace,
 
     v.vt = VT_I4;
     v.lVal = lVal;
-    sc = (*pNewInst)->Put(L"MyValue", 0, &amp;v, 0);
+    sc = (*pNewInst)->Put(L"MyValue", 0, &v, 0);
     return sc;
 }
 
@@ -808,7 +808,7 @@ DWORD GetCurrentImpersonationLevel ()
 {
     DWORD t_ImpersonationLevel = RPC_C_IMP_LEVEL_ANONYMOUS ;
     HANDLE t_ThreadToken = NULL ;
-    BOOL t_Status = OpenThreadToken(GetCurrentThread(),TOKEN_QUERY,TRUE,&amp;t_ThreadToken);
+    BOOL t_Status = OpenThreadToken(GetCurrentThread(),TOKEN_QUERY,TRUE,&t_ThreadToken);
 
     if ( t_Status )
     {
@@ -817,9 +817,9 @@ DWORD GetCurrentImpersonationLevel ()
 
         t_Status = GetTokenInformation( t_ThreadToken, 
                                         TokenImpersonationLevel, 
-                                        &amp;t_Level, 
+                                        &t_Level, 
                                         sizeof(SECURITY_IMPERSONATION_LEVEL),
-                                        &amp;t_Returned);
+                                        &t_Returned);
 
         CloseHandle ( t_ThreadToken ) ;
 
@@ -963,7 +963,7 @@ STDMETHODIMP_(ULONG) CProvFactory::AddRef(void)
 
 STDMETHODIMP_(ULONG) CProvFactory::Release(void)
 {
-    ULONG nNewCount = InterlockedDecrement((long *)&amp;m_cRef);
+    ULONG nNewCount = InterlockedDecrement((long *)&m_cRef);
     if (0L == nNewCount)
         delete this;
     
@@ -1038,9 +1038,9 @@ STDMETHODIMP CProvFactory::CreateInstance(LPUNKNOWN pUnkOuter, REFIID riid, PPVO
 STDMETHODIMP CProvFactory::LockServer(BOOL fLock)
 {
     if (fLock)
-        InterlockedIncrement(&amp;g_cLock);
+        InterlockedIncrement(&g_cLock);
     else
-        InterlockedDecrement(&amp;g_cLock);
+        InterlockedDecrement(&g_cLock);
     return NOERROR;
 }
 ```
@@ -1152,7 +1152,7 @@ STDAPI DllCanUnloadNow(void)
     //It is OK to unload if there are no objects or locks on the 
     // class factory.
     
-    sc=(0L==g_cObj &amp;&amp; 0L==g_cLock) ? S_OK : S_FALSE;
+    sc=(0L==g_cObj && 0L==g_cLock) ? S_OK : S_FALSE;
     return sc;
 }
 
@@ -1194,7 +1194,7 @@ STDAPI DllRegisterServer(void)
                                 REG_OPTION_NON_VOLATILE, 
                                 KEY_WRITE, 
                                 NULL, 
-                                &amp;hKey1, 
+                                &hKey1, 
                                 NULL );
     if (lRet != ERROR_SUCCESS)
     {
@@ -1208,14 +1208,14 @@ STDAPI DllRegisterServer(void)
         return E_FAIL;
     }
 
-    lRet = RegCreateKeyEx( hKey1, "InprocServer32", 0, NULL, REG_OPTION_NON_VOLATILE, KEY_WRITE, NULL, &amp;hKey2, NULL );
+    lRet = RegCreateKeyEx( hKey1, "InprocServer32", 0, NULL, REG_OPTION_NON_VOLATILE, KEY_WRITE, NULL, &hKey2, NULL );
     if (lRet != ERROR_SUCCESS)
     {
         RegCloseKey(hKey1);
         return E_FAIL;
     }
 
-    memset(&amp;szModule, NULL, sizeof(szModule));
+    memset(&szModule, NULL, sizeof(szModule));
     GetModuleFileName(ghModule, szModule, sizeof(szModule)/sizeof(TCHAR) - 1);
 
     lRet = RegSetValueEx(hKey2, NULL, 0, REG_SZ, (BYTE *)szModule, strlen(szModule)+1);
@@ -1266,14 +1266,14 @@ STDAPI DllUnregisterServer(void)
 
     // First delete the InProcServer subkey.
 
-    DWORD dwRet = RegOpenKeyEx(HKEY_LOCAL_MACHINE, szCLSID, 0, KEY_WRITE, &amp;hKey);
+    DWORD dwRet = RegOpenKeyEx(HKEY_LOCAL_MACHINE, szCLSID, 0, KEY_WRITE, &hKey);
     if(dwRet == NO_ERROR)
     {
         RegDeleteKey(hKey, "InProcServer32");
         RegCloseKey(hKey);
     }
 
-    dwRet = RegOpenKeyEx(HKEY_LOCAL_MACHINE, "Software\\classes\\CLSID", 0, KEY_WRITE, &amp;hKey);
+    dwRet = RegOpenKeyEx(HKEY_LOCAL_MACHINE, "Software\\classes\\CLSID", 0, KEY_WRITE, &hKey);
     if(dwRet == NO_ERROR)
     {
         RegDeleteKey(hKey,szID);

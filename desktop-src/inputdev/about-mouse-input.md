@@ -351,7 +351,7 @@ case WM_MOUSEWHEEL:
     }
 
     gcWheelDelta -= (short) HIWORD(wParam);
-    if (abs(gcWheelDelta) >= WHEEL_DELTA &amp;&amp; gucWheelScrollLines > 0) 
+    if (abs(gcWheelDelta) >= WHEEL_DELTA && gucWheelScrollLines > 0) 
     {
         int cLineScroll;
 

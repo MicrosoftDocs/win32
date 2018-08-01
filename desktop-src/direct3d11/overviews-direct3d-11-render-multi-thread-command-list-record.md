@@ -21,7 +21,7 @@ A [command list](overviews-direct3d-11-render-multi-thread-command-list.md) is a
     HRESULT hr;
     ID3D11DeviceContext* pDeferredContext = NULL;
 
-    hr = g_pd3dDevice->CreateDeferredContext(0, &amp;pDeferredContext);
+    hr = g_pd3dDevice->CreateDeferredContext(0, &pDeferredContext);
     ```
 
     
@@ -45,7 +45,7 @@ A [command list](overviews-direct3d-11-render-multi-thread-command-list.md) is a
     ```
     ID3D11CommandList* pd3dCommandList = NULL;
     HRESULT hr;
-    hr = pDeferredContext->FinishCommandList(FALSE, &amp;pd3dCommandList);
+    hr = pDeferredContext->FinishCommandList(FALSE, &pd3dCommandList);
     ```
 
     

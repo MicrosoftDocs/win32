@@ -33,16 +33,16 @@ BOOL CheckForSupportedDataFields(ISensor* pSensor)
     hr = CoCreateInstance(CLSID_PortableDeviceKeyCollection, 
                                 NULL, 
                                 CLSCTX_INPROC_SERVER, 
-                                IID_PPV_ARGS(&amp;pKeys));
+                                IID_PPV_ARGS(&pKeys));
 
     if(SUCCEEDED(hr))
     {
-        hr = pSensor->GetSupportedDataFields(&amp;pKeys);
+        hr = pSensor->GetSupportedDataFields(&pKeys);
     }
 
     if(SUCCEEDED(hr))
     {
-        hr = pKeys->GetCount(&amp;cKeys);
+        hr = pKeys->GetCount(&cKeys);
     }
 
     if(SUCCEEDED(hr))
@@ -52,7 +52,7 @@ BOOL CheckForSupportedDataFields(ISensor* pSensor)
 
         for (DWORD i = 0; i < cKeys; i++)
         {
-            hr = pKeys->GetAt(i, &amp;pk);
+            hr = pKeys->GetAt(i, &pk);
 
             if(SUCCEEDED(hr))
             {
@@ -75,10 +75,10 @@ BOOL CheckForSupportedDataFields(ISensor* pSensor)
         // Compute the return value.
         // If all three properties were found,
         // bRet will resolve to TRUE.
-        bRet = bHour &amp;&amp; bMinute &amp;&amp; bSecond;
+        bRet = bHour && bMinute && bSecond;
     }
 
-    SafeRelease(&amp;pKeys);
+    SafeRelease(&pKeys);
 
     return bRet;
 }

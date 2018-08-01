@@ -42,7 +42,7 @@ void main( )
     WriteFile( hFile,              // Handle
                "This is TestFile", // Data to be written
                16,                 // Size of data, in bytes
-               &amp;dwRet,             // Number of bytes written
+               &dwRet,             // Number of bytes written
                NULL );             // OVERLAPPED pointer
     CloseHandle( hFile );
     hFile = INVALID_HANDLE_VALUE;
@@ -62,7 +62,7 @@ void main( )
     WriteFile( hStream,                   // Handle
                "This is TestFile:Stream", // Data to be written
                23,                        // Size of data
-               &amp;dwRet,                    // Number of bytes written
+               &dwRet,                    // Number of bytes written
                NULL);                     // OVERLAPPED pointer
     CloseHandle( hStream );
     hStream = INVALID_HANDLE_VALUE;

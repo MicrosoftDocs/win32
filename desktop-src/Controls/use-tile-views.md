@@ -45,7 +45,7 @@ The following C++ code example sets the tile view info for a list-view control s
     tileViewInfo.cLines   = 2;
     tileViewInfo.sizeTile = size;
 
-    ListView_SetTileViewInfo(hWndListView, &amp;tileViewInfo);
+    ListView_SetTileViewInfo(hWndListView, &tileViewInfo);
 
 ```
 

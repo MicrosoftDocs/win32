@@ -54,7 +54,7 @@ HRESULT FindInputFormat(IWMWriter* pWriter,
     *ppProps = NULL;
 
     // Find the number of formats supported by this input.
-    HRESULT hr = pWriter->GetInputFormatCount(dwInput, &amp;cFormats);
+    HRESULT hr = pWriter->GetInputFormatCount(dwInput, &cFormats);
     if (FAILED(hr))
     {
         goto Exit;
@@ -63,13 +63,13 @@ HRESULT FindInputFormat(IWMWriter* pWriter,
     for (DWORD formatIndex = 0; formatIndex < cFormats; formatIndex++)
     {
         // Get the input media properties for the input format.
-        hr = pWriter->GetInputFormat(dwInput, formatIndex, &amp;pProps);
+        hr = pWriter->GetInputFormat(dwInput, formatIndex, &pProps);
         if (FAILED(hr))
         {
             goto Exit;
         }
         // Get the size of the media type structure.
-        hr = pProps->GetMediaType(NULL, &amp;cbSize);
+        hr = pProps->GetMediaType(NULL, &cbSize);
         if (FAILED(hr))
         {
             goto Exit;
@@ -83,7 +83,7 @@ HRESULT FindInputFormat(IWMWriter* pWriter,
         }
         
         // Get the media type structure.
-        hr = pProps->GetMediaType(pType, &amp;cbSize);
+        hr = pProps->GetMediaType(pType, &cbSize);
         if (FAILED(hr))
         {
             goto Exit;

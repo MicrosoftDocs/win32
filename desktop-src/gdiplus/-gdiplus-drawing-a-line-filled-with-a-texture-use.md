@@ -18,11 +18,11 @@ The following example creates an [**Image**](/windows/desktop/api/gdiplusheaders
 
 ```
 Image         image(L"Texture1.jpg");
-TextureBrush  tBrush(&amp;image);
-Pen           texturedPen(&amp;tBrush, 30);
+TextureBrush  tBrush(&image);
+Pen           texturedPen(&tBrush, 30);
 
-graphics.DrawImage(&amp;image, 0, 0, image.GetWidth(), image.GetHeight());
-graphics.DrawEllipse(&amp;texturedPen, 100, 20, 200, 100);
+graphics.DrawImage(&image, 0, 0, image.GetWidth(), image.GetHeight());
+graphics.DrawEllipse(&texturedPen, 100, 20, 200, 100);
 ```
 
 

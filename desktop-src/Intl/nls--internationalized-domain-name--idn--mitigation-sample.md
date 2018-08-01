@@ -68,7 +68,7 @@ void TestString(LPCWSTR strTest, LPCWSTR strLocale)
     }
     
     // Get the actual scripts.  We're expecting inherited and common characters (like ,:, etc.) 
-    if (GetStringScripts(0, strTest, -1, pStringScripts, 255) == 0 &amp;&amp;
+    if (GetStringScripts(0, strTest, -1, pStringScripts, 255) == 0 &&
         GetLastError() != ERROR_SUCCESS)
     {
         // Unexpected Error 
@@ -102,11 +102,11 @@ void TestString(LPCWSTR strTest, LPCWSTR strLocale)
 
 int __cdecl wmain(int argc, WCHAR* argv[])
 {
-    LPWSTR strLatin = L"This is an entirely Latn string, even with characters like these: &amp;#192;&amp;#228;&amp;#235;&amp;#234;&amp;#240;&amp;#261;&amp;#272;&amp;#317;&amp;#332;&amp;#326;&amp;#470;&amp;#510;&amp;#509;&amp;#7912;";
-    LPWSTR strMixed = L"This string has &amp;#1057;&amp;#1091;&amp;#1075;&amp;#1110;&amp;#1472;&amp;#1472;&amp;#1110;&amp;#1089;, Hebrew, and GR&amp;#917;&amp;#917;&amp;#922; &amp;#21313; Chinese &amp;#24037;&amp;#21475; and PUA &amp;#63705; characters.  Depending on font it may look like Latin";
-    LPWSTR strChinese = L"&amp;#39321;&amp;#28207;&amp;#29305;&amp;#21029;&amp;#34892;&amp;#25919;&amp;#21312;";
-    LPWSTR strCyrillic = L"&amp;#1088;&amp;#1091;&amp;#1089;&amp;#1089;&amp;#1082;&amp;#1080;&amp;#1081;";
-    LPWSTR strCyrlLatn = L"&amp;#1088;&amp;#1091;&amp;#1089;&amp;#1089;&amp;#1082;&amp;#1080;&amp;#1081; (Russian)";
+    LPWSTR strLatin = L"This is an entirely Latn string, even with characters like these: &#192;&#228;&#235;&#234;&#240;&#261;&#272;&#317;&#332;&#326;&#470;&#510;&#509;&#7912;";
+    LPWSTR strMixed = L"This string has &#1057;&#1091;&#1075;&#1110;&#1472;&#1472;&#1110;&#1089;, Hebrew, and GR&#917;&#917;&#922; &#21313; Chinese &#24037;&#21475; and PUA &#63705; characters.  Depending on font it may look like Latin";
+    LPWSTR strChinese = L"&#39321;&#28207;&#29305;&#21029;&#34892;&#25919;&#21312;";
+    LPWSTR strCyrillic = L"&#1088;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;";
+    LPWSTR strCyrlLatn = L"&#1088;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081; (Russian)";
 
     TestString(strLatin, L"en-US");
     TestString(strMixed, L"en-US");

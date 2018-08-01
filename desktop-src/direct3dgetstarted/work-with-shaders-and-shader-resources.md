@@ -135,7 +135,7 @@ hr = device->CreateInputLayout(
     ARRAYSIZE(iaDesc),
     bytes,
     bytesRead,
-    &amp;m_pInputLayout
+    &m_pInputLayout
     );
 ```
 
@@ -176,7 +176,7 @@ hr = device->CreateInputLayout(
     ARRAYSIZE(iaDesc),
     bytes,
     bytesRead,
-    &amp;m_pInputLayoutExtended
+    &m_pInputLayoutExtended
     );
 ```
 

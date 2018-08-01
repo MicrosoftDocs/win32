@@ -38,7 +38,7 @@ UINT  lineSpacing;            // font family line spacing in design units
 REAL  lineSpacingPixel;       // line spacing converted to pixels
                        
 FontFamily   fontFamily(L"Arial");
-Font         font(&amp;fontFamily, 16, FontStyleRegular, UnitPixel);
+Font         font(&fontFamily, 16, FontStyleRegular, UnitPixel);
 PointF       pointF(10.0f, 10.0f);
 SolidBrush   solidBrush(Color(255, 0, 0, 0));
 
@@ -49,7 +49,7 @@ StringCchPrintf(
    L"font.GetSize() returns %f.", font.GetSize());
 
 graphics.DrawString(
-   infoString, -1, &amp;font, pointF, &amp;solidBrush);
+   infoString, -1, &font, pointF, &solidBrush);
 
 // Move down one line.
 pointF.Y += font.GetHeight(0.0);
@@ -61,7 +61,7 @@ StringCchPrintf(
    L"fontFamily.GetEmHeight() returns %d.", 
    fontFamily.GetEmHeight(FontStyleRegular));
 
-graphics.DrawString(infoString, -1, &amp;font, pointF, &amp;solidBrush);
+graphics.DrawString(infoString, -1, &font, pointF, &solidBrush);
 
 // Move down two lines.
 pointF.Y += 2.0f * font.GetHeight(0.0f);
@@ -80,7 +80,7 @@ StringCchPrintf(
    ascent, 
    ascentPixel);
 
-graphics.DrawString(infoString, -1, &amp;font, pointF, &amp;solidBrush);
+graphics.DrawString(infoString, -1, &font, pointF, &solidBrush);
 
 // Move down one line.
 pointF.Y += font.GetHeight(0.0f);
@@ -99,7 +99,7 @@ StringCchPrintf(
    descent, 
    descentPixel);
 
-graphics.DrawString(infoString, -1, &amp;font, pointF, &amp;solidBrush);
+graphics.DrawString(infoString, -1, &font, pointF, &solidBrush);
 
 // Move down one line.
 pointF.Y += font.GetHeight(0.0f);
@@ -118,7 +118,7 @@ StringCchPrintf(
    lineSpacing, 
    lineSpacingPixel);
 
-graphics.DrawString(infoString, -1, &amp;font, pointF, &amp;solidBrush);
+graphics.DrawString(infoString, -1, &font, pointF, &solidBrush);
             
 ```
 

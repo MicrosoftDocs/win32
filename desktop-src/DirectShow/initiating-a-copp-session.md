@@ -29,7 +29,7 @@ CryptGenKey(
     hCSP,           // Handle to the CSP.
     CALG_AES_128,   // Use 128-bit AES block encryption algorithm.
     dwFlag,
-    &amp;m_hAESKey      // Receives a handle to the AES key.
+    &m_hAESKey      // Receives a handle to the AES key.
 );
 ```
 
@@ -51,11 +51,11 @@ array.
 DWORD cbData = 0; 
 BYTE *pData = NULL;
 // Get the size of the blob.
-CryptExportKey(hAESKey, 0, PLAINTEXTKEYBLOB, 0, NULL, &amp;cbData);  
+CryptExportKey(hAESKey, 0, PLAINTEXTKEYBLOB, 0, NULL, &cbData);  
 
 // Allocate the array and call again.
 pData = new BYTE[cbData];
-CryptExportKey(hAESKey, 0, PLAINTEXTKEYBLOB, 0, pData, &amp;cbData);  
+CryptExportKey(hAESKey, 0, PLAINTEXTKEYBLOB, 0, pData, &cbData);  
 ```
 
 
@@ -108,8 +108,8 @@ Next, generate a 32-bit random number to use as the starting sequence for COPP s
 ```C++
 UINT uStatusSeq;     // Status sequence number.
 UINT uCommandSeq;    // Command sequence number.
-CryptGenRandom(hCSP, sizeof(UINT), &amp;uStatusSeq);
-CryptGenRandom(hCSP, sizeof(UINT), &amp;uCommandSeq);
+CryptGenRandom(hCSP, sizeof(UINT), &uStatusSeq);
+CryptGenRandom(hCSP, sizeof(UINT), &uCommandSeq);
 ```
 
 
@@ -135,7 +135,7 @@ CoppSig
 
 ```C++
 AMCOPPSignature CoppSig;
-ZeroMemory(&amp;CoppSig, sizeof(CoppSig));
+ZeroMemory(&CoppSig, sizeof(CoppSig));
 // Copy the signature data into CoppSig. (Not shown.)
 
 // Encrypt the signature:
@@ -147,8 +147,8 @@ CryptEncrypt(
     NULL,     // No hash object.
     TRUE,     // Final block to encrypt.
     0,        // Reserved.
-    &amp;CoppSig, // COPP signature.
-    &amp;cbDataOut, 
+    &CoppSig, // COPP signature.
+    &cbDataOut, 
     cbDataIn
 );
 ```
@@ -159,7 +159,7 @@ Now pass the encrypted array to [**IAMCertifiedOutputProtection::SessionSequence
 
 
 ```C++
-hr = pCOPP->SessionSequenceStart(&amp;CoppSig);
+hr = pCOPP->SessionSequenceStart(&CoppSig);
 if (SUCCEEDED(hr))
 {
     // Ready to send COPP commands and status requests.

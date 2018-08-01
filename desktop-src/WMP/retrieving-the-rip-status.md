@@ -58,7 +58,7 @@ HRESULT CMainDlg::UpdateStatus (void)
     HRESULT hr = bstrItemName.Append("CurrentRipTrackIndex");
     if (SUCCEEDED(hr))
     {
-        hr = m_spPlaylist->getItemInfo(bstrItemName, &amp;bstrVal);
+        hr = m_spPlaylist->getItemInfo(bstrItemName, &bstrVal);
     }
 
     // Update the dialog text with the track number.
@@ -72,7 +72,7 @@ HRESULT CMainDlg::UpdateStatus (void)
     if (SUCCEEDED(hr))
     {
         long lIndex = _wtol(bstrVal.m_str);
-        hr = m_spPlaylist->get_item(lIndex, &amp;spMedia);
+        hr = m_spPlaylist->get_item(lIndex, &spMedia);
     }
 
     // Update the current track progress bar and progress text.
@@ -83,7 +83,7 @@ HRESULT CMainDlg::UpdateStatus (void)
     }
     if (SUCCEEDED(hr))
     {
-        hr = spMedia->getItemInfo(bstrItemName, &amp;bstrVal);
+        hr = spMedia->getItemInfo(bstrItemName, &bstrVal);
     }
 
     if (SUCCEEDED(hr))
@@ -103,7 +103,7 @@ HRESULT CMainDlg::UpdateStatus (void)
     long lTotalPosition = 0;
     if (SUCCEEDED(hr))
     {
-        hr = m_spCdromRip->get_ripProgress(&amp;lTotalPosition);
+        hr = m_spCdromRip->get_ripProgress(&lTotalPosition);
     }
     if (SUCCEEDED(hr))
     {
@@ -120,7 +120,7 @@ HRESULT CMainDlg::UpdateStatus (void)
     WMPRipState wmprs = wmprsUnknown;
     if (SUCCEEDED(hr))
     {
-        hr = m_spCdromRip->get_ripState(&amp;wmprs);
+        hr = m_spCdromRip->get_ripState(&wmprs);
     }
     if (SUCCEEDED(hr))
     {

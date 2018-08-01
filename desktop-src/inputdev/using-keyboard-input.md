@@ -114,7 +114,7 @@ In general, a thread's message loop should use the [**TranslateMessage**](https:
 MSG msg;
 BOOL bRet;
 
-while (( bRet = GetMessage(&amp;msg, (HWND) NULL, 0, 0)) != 0) 
+while (( bRet = GetMessage(&msg, (HWND) NULL, 0, 0)) != 0) 
 {
     if (bRet == -1);
     {
@@ -122,10 +122,10 @@ while (( bRet = GetMessage(&amp;msg, (HWND) NULL, 0, 0)) != 0)
     }
     else
     { 
-        if (TranslateAccelerator(hwndMain, haccl, &amp;msg) == 0) 
+        if (TranslateAccelerator(hwndMain, haccl, &msg) == 0) 
         { 
-            TranslateMessage(&amp;msg); 
-            DispatchMessage(&amp;msg); 
+            TranslateMessage(&msg); 
+            DispatchMessage(&msg); 
         } 
     } 
 }
@@ -253,7 +253,7 @@ LONG APIENTRY MainWndProc(HWND hwndMain, UINT uMsg, WPARAM wParam, LPARAM lParam
             // Get the metrics of the current font. 
  
             hdc = GetDC(hwndMain); 
-            GetTextMetrics(hdc, &amp;tm); 
+            GetTextMetrics(hdc, &tm); 
             ReleaseDC(hwndMain, hdc); 
  
             // Save the average character width and height. 
@@ -346,9 +346,9 @@ LONG APIENTRY MainWndProc(HWND hwndMain, UINT uMsg, WPARAM wParam, LPARAM lParam
  
                     hdc = GetDC(hwndMain); 
                     GetCharWidth32(hdc, (UINT) wParam, (UINT) wParam, 
-                        &amp;nCharWidth); 
+                        &nCharWidth); 
                     TextOut(hdc, nCaretPosX, nCaretPosY * dwCharY, 
-                        &amp;ch, 1); 
+                        &ch, 1); 
                     ReleaseDC(hwndMain, hdc); 
  
                     // Store the character in the buffer.
@@ -394,7 +394,7 @@ LONG APIENTRY MainWndProc(HWND hwndMain, UINT uMsg, WPARAM wParam, LPARAM lParam
  
                         ch = pchInputBuf[--nCurChar]; 
                         hdc = GetDC(hwndMain); 
-                        GetCharWidth32(hdc, ch, ch, &amp;nCharWidth); 
+                        GetCharWidth32(hdc, ch, ch, &nCharWidth); 
                         ReleaseDC(hwndMain, hdc); 
                         nCaretPosX = max(nCaretPosX - nCharWidth, 
                             0); 
@@ -441,7 +441,7 @@ LONG APIENTRY MainWndProc(HWND hwndMain, UINT uMsg, WPARAM wParam, LPARAM lParam
                                     RGB(0,0,0)); 
                                 TextOut(hdc, nCaretPosX, 
                                     nCaretPosY * dwCharY, 
-                                    &amp;ch, 1); 
+                                    &ch, 1); 
                                 SetTextColor(hdc, crPrevText); 
                                 SetBkColor(hdc, crPrevBk); 
                             } 
@@ -450,7 +450,7 @@ LONG APIENTRY MainWndProc(HWND hwndMain, UINT uMsg, WPARAM wParam, LPARAM lParam
                             // calculate the new horizontal 
                             // position of the caret. 
  
-                            GetCharWidth32(hdc, ch, ch, &amp;nCharWidth); 
+                            GetCharWidth32(hdc, ch, ch, &nCharWidth); 
                             ReleaseDC(hwndMain, hdc); 
                             nCaretPosX = nCaretPosX + nCharWidth; 
                         } 
@@ -510,7 +510,7 @@ LONG APIENTRY MainWndProc(HWND hwndMain, UINT uMsg, WPARAM wParam, LPARAM lParam
                     // TODO: write error handler
                     } 
                     GetTextExtentPoint32(hdc, szBuf, *pcch, 
-                        &amp;sz); 
+                        &sz); 
                     nCaretPosX = sz.cx; 
                     ReleaseDC(hwndMain, hdc); 
                     nCurChar = cch; 
@@ -526,17 +526,17 @@ LONG APIENTRY MainWndProc(HWND hwndMain, UINT uMsg, WPARAM wParam, LPARAM lParam
             if (cch == 0)       // nothing in input buffer 
                 break; 
  
-            hdc = BeginPaint(hwndMain, &amp;ps); 
+            hdc = BeginPaint(hwndMain, &ps); 
             HideCaret(hwndMain); 
  
             // Set the clipping rectangle, and then draw the text 
             // into it. 
  
-            SetRect(&amp;rc, 0, 0, dwLineLen, dwClientY); 
-            DrawText(hdc, pchInputBuf, -1, &amp;rc, DT_LEFT); 
+            SetRect(&rc, 0, 0, dwLineLen, dwClientY); 
+            DrawText(hdc, pchInputBuf, -1, &rc, DT_LEFT); 
  
             ShowCaret(hwndMain); 
-            EndPaint(hwndMain, &amp;ps); 
+            EndPaint(hwndMain, &ps); 
             break; 
         
         // Process other messages. 

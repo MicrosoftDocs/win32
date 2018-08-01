@@ -52,11 +52,11 @@ HRESULT DuckingOptOut(bool DuckingOptOutChecked)
     hr = CoCreateInstance(__uuidof(MMDeviceEnumerator), 
                           NULL, 
                           CLSCTX_INPROC_SERVER, 
-                          IID_PPV_ARGS(&amp;pDeviceEnumerator));
+                          IID_PPV_ARGS(&pDeviceEnumerator));
     
     if (SUCCEEDED(hr))
     {
-        hr = pDeviceEnumerator>GetDefaultAudioEndpoint(eRender, eConsole, &amp;pEndpoint);
+        hr = pDeviceEnumerator>GetDefaultAudioEndpoint(eRender, eConsole, &pEndpoint);
 
         pDeviceEnumerator>Release();
         pDeviceEnumerator = NULL;
@@ -68,13 +68,13 @@ HRESULT DuckingOptOut(bool DuckingOptOutChecked)
         hr = pEndpoint->Activate(__uuidof(IAudioSessionManager2), 
                                  CLSCTX_INPROC_SERVER,
                                  NULL, 
-                                 reinterpret_cast<void **>(&amp;pSessionManager2));
+                                 reinterpret_cast<void **>(&pSessionManager2));
         pEndpoint->Release();
         pEndpoint = NULL;
     }
     if (SUCCEEDED(hr))
     {
-        hr = pSessionManager2->GetAudioSessionControl(NULL, 0, &amp;pSessionControl);
+        hr = pSessionManager2->GetAudioSessionControl(NULL, 0, &pSessionControl);
         
         pSessionManager2->Release();
         pSessionManager2 = NULL;
@@ -84,7 +84,7 @@ HRESULT DuckingOptOut(bool DuckingOptOutChecked)
     {
         hr = pSessionControl->QueryInterface(
                   __uuidof(IAudioSessionControl2),
-                  (void**)&amp;pSessionControl2);
+                  (void**)&pSessionControl2);
                 
         pSessionControl->Release();
         pSessionControl = NULL;

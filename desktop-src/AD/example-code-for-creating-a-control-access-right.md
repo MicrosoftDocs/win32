@@ -48,7 +48,7 @@ ExRight.PutEx ADS_PROPERTY_UPDATE, "rightsGUID", _
                Array("64ad33ac-ea09-4ded-b798-a0585c50fd5a")
 
 ' Set validAccesses to indicate a control access right.
-ExRight.PutEx ADS_PROPERTY_UPDATE, "validAccesses", &amp;H100
+ExRight.PutEx ADS_PROPERTY_UPDATE, "validAccesses", &H100
 
 ExRight.SetInfo
 
@@ -116,14 +116,14 @@ hr = ADsOpenObject(L"LDAP://rootDSE",
                    NULL,
                    ADS_SECURE_AUTHENTICATION, // Use Secure Authentication.
                    IID_IADs,
-                   (void**)&amp;pRootDSE);
+                   (void**)&pRootDSE);
 if (FAILED(hr)) {
     wprintf(L"Bind to rootDSE failed: 0x%x\n", hr);
     return hr;
 }
  
 // Get the DN to the config container.
-hr = pRootDSE->Get(CComBSTR("configurationNamingContext"), &amp;var);
+hr = pRootDSE->Get(CComBSTR("configurationNamingContext"), &var);
 if (SUCCEEDED(hr))
 {
     // Determine the buffer size required to store the ADsPath string
@@ -147,7 +147,7 @@ if (SUCCEEDED(hr))
                NULL,
                ADS_SECURE_AUTHENTICATION, // Use Secure Authentication.
                IID_IDirectoryObject,
-               (void**)&amp;pExRights);
+               (void**)&pExRights);
 }
 if (FAILED (hr) ) {
     wprintf(L"Bind to Extended Rights Container failed: 0x%x\n", hr);
@@ -161,7 +161,7 @@ pAttributeEntries[0].dwADsType = ADSTYPE_CASE_IGNORE_STRING; // Attribute syntax
 // Fill in the ADSVALUE structure for the CN property
 adsvCN.CaseIgnoreString = pszCommonName;
 adsvCN.dwType = ADSTYPE_CASE_IGNORE_STRING;
-pAttributeEntries[0].pADsValues = &amp;adsvCN;
+pAttributeEntries[0].pADsValues = &adsvCN;
 pAttributeEntries[0].dwNumValues = 1;
  
 // Set second attribute: objectClass
@@ -171,7 +171,7 @@ pAttributeEntries[1].dwADsType = ADSTYPE_CASE_IGNORE_STRING; // Attribute syntax
 // Fill in the ADSVALUE structure for the objectClass property
 adsvObjectClass.CaseIgnoreString = L"controlAccessRight";    // objectClass is controlAccessRight
 adsvObjectClass.dwType = ADSTYPE_CASE_IGNORE_STRING;
-pAttributeEntries[1].pADsValues = &amp;adsvObjectClass;
+pAttributeEntries[1].pADsValues = &adsvObjectClass;
 pAttributeEntries[1].dwNumValues = 1;
  
 // Set third attribute: appliesTo
@@ -189,7 +189,7 @@ pAttributeEntries[3].dwADsType = ADSTYPE_CASE_IGNORE_STRING; // Attribute syntax
 // Fill in the ADSVALUE structure for the displayName property.
 adsvDisplayName.CaseIgnoreString = pszDisplayName;
 adsvDisplayName.dwType = ADSTYPE_CASE_IGNORE_STRING;
-pAttributeEntries[3].pADsValues = &amp;adsvDisplayName;
+pAttributeEntries[3].pADsValues = &adsvDisplayName;
 pAttributeEntries[3].dwNumValues = 1;
  
 // Set fifth attribute: rightsGUID
@@ -199,7 +199,7 @@ pAttributeEntries[4].dwADsType = ADSTYPE_CASE_IGNORE_STRING; // Attribute syntax
 // Fill in the ADSVALUE structure for the rightsGUID property.
 adsvRightsGUID.dwType = ADSTYPE_CASE_IGNORE_STRING;
 adsvRightsGUID.CaseIgnoreString = pszRightsGUID;
-pAttributeEntries[4].pADsValues = &amp;adsvRightsGUID;
+pAttributeEntries[4].pADsValues = &adsvRightsGUID;
 pAttributeEntries[4].dwNumValues = 1;
  
 // Set sixth attribute: validAccesses
@@ -209,7 +209,7 @@ pAttributeEntries[5].dwADsType = ADSTYPE_CASE_IGNORE_STRING; // Attribute syntax
 // Fill in the ADSVALUE structure for the rightsGUID property.
 adsvValidAccesses.dwType = ADSTYPE_INTEGER;
 adsvValidAccesses.Integer = ADS_RIGHT_DS_CONTROL_ACCESS;
-pAttributeEntries[5].pADsValues = &amp;adsvValidAccesses;
+pAttributeEntries[5].pADsValues = &adsvValidAccesses;
 pAttributeEntries[5].dwNumValues = 1;
  
 // Set up the relative distinguished name for the new object.
@@ -221,7 +221,7 @@ hr = pExRights->CreateDSObject(
                      pszRightRelPath,   // Relative path of new object
                      pAttributeEntries, // Attributes to be set
                      cAttributes,       // Number of attributes being set
-                     &amp;pNewObject        // receives IDispatch pointer to the new object
+                     &pNewObject        // receives IDispatch pointer to the new object
                      );
  
 cleanup:
@@ -235,7 +235,7 @@ if (pNewObject)
 if (szADsPath)
     delete [] szADsPath;
  
-VariantClear(&amp;var);
+VariantClear(&var);
 return hr;
 }
 ```
@@ -253,7 +253,7 @@ adsvAppliesTo.CaseIgnoreString = L"bf967aba-0de6-11d0-a285-00aa003049e2";
 
 hr = CreateExtendedRight(L"myexright", L"My Extended Right",
                      L"7587d479-441a-480b-9d5d-807b4d067db4",
-                     &amp;adsvAppliesTo,
+                     &adsvAppliesTo,
                      1);
 ```
 

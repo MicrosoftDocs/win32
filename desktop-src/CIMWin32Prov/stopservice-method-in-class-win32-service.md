@@ -275,7 +275,7 @@ eval { $ServiceSet =
  Win32::OLE->GetObject("winmgmts:{impersonationLevel=impersonate}!\\\\.\\root\\cimv2")->
  ExecQuery("SELECT * FROM Win32_Service WHERE Name='ClipSrv'"); };
 
-if (!$@ &amp;&amp; defined $ServiceSet)
+if (!$@ && defined $ServiceSet)
 {
  foreach my $ServiceInst (in $ServiceSet)
  {

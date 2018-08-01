@@ -23,7 +23,7 @@ MCI_DGV_RECT_PARMS mciRect;
 // Get the movie dimensions with MCI_WHERE. 
  
 mciSendCommand(wDeviceID, MCI_WHERE, MCI_DGV_WHERE_SOURCE, 
-    (DWORD)(LPSTR)&amp;mciRect); 
+    (DWORD)(LPSTR)&mciRect); 
  
 // Create the playback window. Make it bigger for the border. 
 // Note that the right and bottom members of RECT structures in MCI 
@@ -43,7 +43,7 @@ if (hwndMovie){
  
     mciWindow.hWnd = hwndMovie; 
     mciSendCommand(wDeviceID, MCI_WINDOW, MCI_DGV_WINDOW_HWND, 
-        (DWORD)(LPSTR)&amp;mciWindow); 
+        (DWORD)(LPSTR)&mciWindow); 
  
 } 
 ```

@@ -171,7 +171,7 @@ The Web view template controls what is displayed in a Web view and how. It uses 
 
             // tip?
             data = FileList.Folder.GetDetailsOf(FileList.FocusedItem, -1);
-            if (data != "" &amp;&amp; data != FileList.FocusedItem.Name)
+            if (data != "" && data != FileList.FocusedItem.Name)
                 text += "<br><br>" + data;
 
             TextBlock.innerHTML = text;
@@ -497,7 +497,7 @@ When a user selects an item, the FileList object fires a [SelectionChanged](#ret
 
     // Tip 
     data = FileList.Folder.GetDetailsOf(FileList.FocusedItem, -1);
-    if (data != "" &amp;&amp; data != FileList.FocusedItem.Name)
+    if (data != "" && data != FileList.FocusedItem.Name)
         text += "<br><br>" + data;
 
     TextBlock.innerHTML = text;

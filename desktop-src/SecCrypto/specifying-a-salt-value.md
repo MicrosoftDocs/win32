@@ -38,7 +38,7 @@ sSaltData.cbData = sizeof(rgbSalt);
 if (CryptSetKeyParam(
         hKey,    
         KP_SALT_EX,    
-        (BYTE*)&amp;sSaltData,    
+        (BYTE*)&sSaltData,    
         0))
 {
      printf("The salt value is set.\n");

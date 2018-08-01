@@ -120,25 +120,25 @@ int main(int argc, char* argv[])
     VARIANT         varEmpty;
     VARIANT            varResponse;
 
-    VariantInit(&amp;varResponse);
+    VariantInit(&varResponse);
     
     CLSID           clsid;
 
-    VariantInit(&amp;varFalse);
-    V_VT(&amp;varFalse)   = VT_BOOL;
-    V_BOOL(&amp;varFalse) = VARIANT_FALSE;
+    VariantInit(&varFalse);
+    V_VT(&varFalse)   = VT_BOOL;
+    V_BOOL(&varFalse) = VARIANT_FALSE;
 
-    VariantInit(&amp;varEmpty);
-    V_VT(&amp;varEmpty) = VT_ERROR;
+    VariantInit(&varEmpty);
+    V_VT(&varEmpty) = VT_ERROR;
 
-    hr = CLSIDFromProgID(L"WinHttp.WinHttpRequest.5.1", &amp;clsid);
+    hr = CLSIDFromProgID(L"WinHttp.WinHttpRequest.5.1", &clsid);
 
     if (SUCCEEDED(hr))
     {
         hr = CoCreateInstance(clsid, NULL, 
                               CLSCTX_INPROC_SERVER, 
                               IID_IWinHttpRequest, 
-                              (void **)&amp;pIWinHttpRequest);
+                              (void **)&pIWinHttpRequest);
     }
 
     // ==== Get binary (.gif) file and write it to disk. =========
@@ -157,7 +157,7 @@ int main(int argc, char* argv[])
     }
     if (SUCCEEDED(hr))
     {    // Get response body.
-        hr = pIWinHttpRequest->get_ResponseBody(&amp;varResponse);
+        hr = pIWinHttpRequest->get_ResponseBody(&varResponse);
     }
     if (SUCCEEDED(hr))
     {    // Print response to file temp1.gif.
@@ -171,13 +171,13 @@ int main(int argc, char* argv[])
             if (Dims == 1) {
                 // Get upper and lower array bounds.
                 SafeArrayGetLBound(varResponse.parray, 1, 
-                                   &amp;LowerBounds);
+                                   &LowerBounds);
                 SafeArrayGetUBound(varResponse.parray, 1, 
-                                   &amp;UpperBounds);
+                                   &UpperBounds);
                 UpperBounds++;
                 // Lock SAFEARRAY for access.
                 SafeArrayAccessData (varResponse.parray, 
-                                     (void**)&amp;buff);
+                                     (void**)&buff);
                 // Output array to file temp.gif.
                 HANDLE hFile; 
                 DWORD  dwBytesWritten;
@@ -197,7 +197,7 @@ int main(int argc, char* argv[])
                 else
                     {
                     WriteFile(hFile, buff, UpperBounds - LowerBounds, 
-                        &amp;dwBytesWritten, NULL); 
+                        &dwBytesWritten, NULL); 
                     }
                 CloseHandle(hFile);
                 SafeArrayUnaccessData (varResponse.parray);
@@ -222,7 +222,7 @@ int main(int argc, char* argv[])
     }
     if (SUCCEEDED(hr))
     {    // Get Response as an IStream.
-        hr = pIWinHttpRequest->get_ResponseStream(&amp;varResponse);
+        hr = pIWinHttpRequest->get_ResponseStream(&varResponse);
     }
     if (SUCCEEDED(hr))
     {    // Print response to file temp1.gif.
@@ -230,12 +230,12 @@ int main(int argc, char* argv[])
         BYTE        bBuffer[8192]; 
         DWORD       cb, cbRead, cbWritten; 
         // Check that an IStream was received.
-        if (VT_UNKNOWN == V_VT(&amp;varResponse) || 
-            VT_STREAM == V_VT(&amp;varResponse)) 
+        if (VT_UNKNOWN == V_VT(&varResponse) || 
+            VT_STREAM == V_VT(&varResponse)) 
         { 
             // Get IStream interface pStream.
-            hr = V_UNKNOWN(&amp;varResponse)->QueryInterface(IID_IStream, 
-                                 reinterpret_cast<void**>(&amp;pStream)); 
+            hr = V_UNKNOWN(&varResponse)->QueryInterface(IID_IStream, 
+                                 reinterpret_cast<void**>(&pStream)); 
             Check(hr, "QI for IStream"); 
         } 
         else 
@@ -261,22 +261,22 @@ int main(int argc, char* argv[])
             {
             // Copy data from the response stream to file. 
             cb = sizeof(bBuffer); 
-            hr = pStream->Read(bBuffer, cb, &amp;cbRead); 
-            while (SUCCEEDED(hr) &amp;&amp; 0 != cbRead) 
+            hr = pStream->Read(bBuffer, cb, &cbRead); 
+            while (SUCCEEDED(hr) && 0 != cbRead) 
                 { 
                 if (!WriteFile(hFile, bBuffer, 
-                               cbRead, &amp;cbWritten, NULL)) 
+                               cbRead, &cbWritten, NULL)) 
                     { 
                     TraceErr("WriteFile fails with 0x%08lx\n", 
                              HRESULT_FROM_WIN32(GetLastError())); 
                     return -1; 
                     } 
-                hr = pStream->Read(bBuffer, cb, &amp;cbRead); 
+                hr = pStream->Read(bBuffer, cb, &cbRead); 
                 } 
             }
         CloseHandle(hFile);
         pStream->Release(); 
-        VariantClear(&amp;varResponse); 
+        VariantClear(&varResponse); 
     }
     // Release memory.
     if (pIWinHttpRequest)

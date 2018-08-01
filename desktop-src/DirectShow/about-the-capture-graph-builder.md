@@ -37,12 +37,12 @@ HRESULT InitCaptureGraphBuilder(
 
     // Create the Capture Graph Builder.
     HRESULT hr = CoCreateInstance(CLSID_CaptureGraphBuilder2, NULL, 
-        CLSCTX_INPROC_SERVER, IID_ICaptureGraphBuilder2, (void**)&amp;pBuild );
+        CLSCTX_INPROC_SERVER, IID_ICaptureGraphBuilder2, (void**)&pBuild );
     if (SUCCEEDED(hr))
     {
         // Create the Filter Graph Manager.
         hr = CoCreateInstance(CLSID_FilterGraph, 0, CLSCTX_INPROC_SERVER,
-            IID_IGraphBuilder, (void**)&amp;pGraph);
+            IID_IGraphBuilder, (void**)&pGraph);
         if (SUCCEEDED(hr))
         {
             // Initialize the Capture Graph Builder.

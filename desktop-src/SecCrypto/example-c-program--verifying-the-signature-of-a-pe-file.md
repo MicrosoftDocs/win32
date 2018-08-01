@@ -44,7 +44,7 @@ BOOL VerifyEmbeddedSignature(LPCWSTR pwszSourceFile)
     // Initialize the WINTRUST_FILE_INFO structure.
 
     WINTRUST_FILE_INFO FileData;
-    memset(&amp;FileData, 0, sizeof(FileData));
+    memset(&FileData, 0, sizeof(FileData));
     FileData.cbStruct = sizeof(WINTRUST_FILE_INFO);
     FileData.pcwszFilePath = pwszSourceFile;
     FileData.hFile = NULL;
@@ -75,7 +75,7 @@ BOOL VerifyEmbeddedSignature(LPCWSTR pwszSourceFile)
     // Initialize the WinVerifyTrust input data structure.
 
     // Default all fields to 0.
-    memset(&amp;WinTrustData, 0, sizeof(WinTrustData));
+    memset(&WinTrustData, 0, sizeof(WinTrustData));
 
     WinTrustData.cbStruct = sizeof(WinTrustData);
     
@@ -109,14 +109,14 @@ BOOL VerifyEmbeddedSignature(LPCWSTR pwszSourceFile)
     WinTrustData.dwUIContext = 0;
 
     // Set pFile.
-    WinTrustData.pFile = &amp;FileData;
+    WinTrustData.pFile = &FileData;
 
     // WinVerifyTrust verifies signatures as specified by the GUID 
     // and Wintrust_Data.
     lStatus = WinVerifyTrust(
         NULL,
-        &amp;WVTPolicyGUID,
-        &amp;WinTrustData);
+        &WVTPolicyGUID,
+        &WinTrustData);
 
     switch (lStatus) 
     {
@@ -205,8 +205,8 @@ BOOL VerifyEmbeddedSignature(LPCWSTR pwszSourceFile)
 
     lStatus = WinVerifyTrust(
         NULL,
-        &amp;WVTPolicyGUID,
-        &amp;WinTrustData);
+        &WVTPolicyGUID,
+        &WinTrustData);
 
     return true;
 }

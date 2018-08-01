@@ -30,7 +30,7 @@ The `GetNextI` method retrieves the item at the specified position, and advances
 
 ```C++
 void* GetNextI(
-  [ref] POSITION &amp;rp
+  [ref] POSITION &rp
 );
 ```
 

@@ -83,7 +83,7 @@ int _tmain(int argc, TCHAR *argv[])
    dwMode = PIPE_READMODE_MESSAGE; 
    fSuccess = SetNamedPipeHandleState( 
       hPipe,    // pipe handle 
-      &amp;dwMode,  // new pipe mode 
+      &dwMode,  // new pipe mode 
       NULL,     // don't set maximum bytes 
       NULL);    // don't set maximum time 
    if ( ! fSuccess) 
@@ -101,7 +101,7 @@ int _tmain(int argc, TCHAR *argv[])
       hPipe,                  // pipe handle 
       lpvMessage,             // message 
       cbToWrite,              // message length 
-      &amp;cbWritten,             // bytes written 
+      &cbWritten,             // bytes written 
       NULL);                  // not overlapped 
 
    if ( ! fSuccess) 
@@ -120,10 +120,10 @@ int _tmain(int argc, TCHAR *argv[])
          hPipe,    // pipe handle 
          chBuf,    // buffer to receive reply 
          BUFSIZE*sizeof(TCHAR),  // size of buffer 
-         &amp;cbRead,  // number of bytes read 
+         &cbRead,  // number of bytes read 
          NULL);    // not overlapped 
  
-      if ( ! fSuccess &amp;&amp; GetLastError() != ERROR_MORE_DATA )
+      if ( ! fSuccess && GetLastError() != ERROR_MORE_DATA )
          break; 
  
       _tprintf( TEXT("\"%s\"\n"), chBuf ); 

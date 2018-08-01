@@ -35,14 +35,14 @@ HRESULT AddPlaybackEffect(REFGUID clsid, IMFPMediaPlayer *pPlayer)
     IMFTransform *pMFT = NULL;
 
     HRESULT hr = CoCreateInstance(clsid, NULL, CLSCTX_INPROC_SERVER, 
-        IID_PPV_ARGS(&amp;pMFT));
+        IID_PPV_ARGS(&pMFT));
 
     if (SUCCEEDED(hr))
     {
         hr = pPlayer->InsertEffect(pMFT, TRUE); // Set as optional.
     }
 
-    SafeRelease(&amp;pMFT);
+    SafeRelease(&pMFT);
     return hr;
 }
 ```

@@ -52,7 +52,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -60,7 +60,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -101,13 +101,13 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
-    hr = WsCreateHeap(/* maxSize */ 65536, /* trimSize */ 4096, NULL, 0, &amp;heap, error);
+    hr = WsCreateHeap(/* maxSize */ 65536, /* trimSize */ 4096, NULL, 0, &heap, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -117,7 +117,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateWriter(
         NULL, 
         0, 
-        &amp;xmlWriter, 
+        &xmlWriter, 
         error);
     if (FAILED(hr))
     {
@@ -129,7 +129,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         heap, 
         NULL, 
         0, 
-        &amp;xmlBuffer, 
+        &xmlBuffer, 
         error);
     if (FAILED(hr))
     {
@@ -149,7 +149,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     }
     
     // Write purchase order start element
-    hr = WsWriteStartElement(xmlWriter, NULL, &amp;purchaseOrderLocalName, &amp;purchaseOrderNamespace, error);
+    hr = WsWriteStartElement(xmlWriter, NULL, &purchaseOrderLocalName, &purchaseOrderNamespace, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -158,7 +158,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     for (ULONG i = 0; i < 4; i++)
     {
         // Write product name start element
-        hr = WsWriteStartElement(xmlWriter, NULL, &amp;productNameLocalName, &amp;purchaseOrderNamespace, error);
+        hr = WsWriteStartElement(xmlWriter, NULL, &productNameLocalName, &purchaseOrderNamespace, error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -197,7 +197,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateReader(
         NULL,
         0, 
-        &amp;xmlReader, 
+        &xmlReader, 
         error);
     if (FAILED(hr))
     {
@@ -233,7 +233,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         BOOL found;
     
         // Read to product name element
-        hr = WsReadToStartElement(xmlReader, &amp;productNameLocalName, &amp;purchaseOrderNamespace, &amp;found, error);
+        hr = WsReadToStartElement(xmlReader, &productNameLocalName, &purchaseOrderNamespace, &found, error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -251,7 +251,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         }
     
         // Record product position
-        hr = WsGetReaderPosition(xmlReader, &amp;productPositions[productCount], error);
+        hr = WsGetReaderPosition(xmlReader, &productPositions[productCount], error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -269,7 +269,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // Move to each product in reverse and print out the contents
     for (ULONG i = productCount; i > 0; i--)
     {
-        hr = WsSetReaderPosition(xmlReader, &amp;productPositions[i - 1], error);
+        hr = WsSetReaderPosition(xmlReader, &productPositions[i - 1], error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -289,7 +289,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         {
             // Read next block of chars
             ULONG charsRead;
-            hr = WsReadChars(xmlReader, &amp;productName[length], available, &amp;charsRead, error);
+            hr = WsReadChars(xmlReader, &productName[length], available, &charsRead, error);
             if (FAILED(hr))
             {
                 goto Exit;

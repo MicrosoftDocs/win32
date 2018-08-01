@@ -53,7 +53,7 @@ STDMETHODIMP CSyncSettings::SortPlaylist(IWMPPlaylist *pPlaylist, BSTR bstrSyncA
 
     // Get the count of playlist media items.
     long lCount = 0;
-    spPlaylist->get_count(&amp;lCount);
+    spPlaylist->get_count(&lCount);
 
     // Walk the playlist.
     for(long i = 0; i < lCount; i++)
@@ -62,15 +62,15 @@ STDMETHODIMP CSyncSettings::SortPlaylist(IWMPPlaylist *pPlaylist, BSTR bstrSyncA
         CComBSTR bstrVal;            
         long lPriority = 0;
         
-        hr = spPlaylist->get_item(i, &amp;spMedia);
+        hr = spPlaylist->get_item(i, &spMedia);
 
-        if(SUCCEEDED(hr) &amp;&amp; spMedia)
+        if(SUCCEEDED(hr) && spMedia)
         {      
             // Get the sync priority value as a string.
-            hr = spMedia->getItemInfo(bstrAttribute, &amp;bstrVal);
+            hr = spMedia->getItemInfo(bstrAttribute, &bstrVal);
         }
 
-        if(SUCCEEDED(hr) &amp;&amp; spMedia)
+        if(SUCCEEDED(hr) && spMedia)
         {
             // Convert sync priority to a long number.
             lPriority = _wtol(bstrVal);
@@ -91,13 +91,13 @@ STDMETHODIMP CSyncSettings::SortPlaylist(IWMPPlaylist *pPlaylist, BSTR bstrSyncA
                 CComBSTR bstrValCompare;
                 long lPriorityTest = 0;
 
-                hr = spPlaylist->get_item(j, &amp;spMediaCompare);
+                hr = spPlaylist->get_item(j, &spMediaCompare);
 
-                if(SUCCEEDED(hr) &amp;&amp; spMediaCompare.p)
+                if(SUCCEEDED(hr) && spMediaCompare.p)
                 {
-                    hr = spMediaCompare->getItemInfo(bstrAttribute, &amp;bstrValCompare);
+                    hr = spMediaCompare->getItemInfo(bstrAttribute, &bstrValCompare);
                 }
-                if(SUCCEEDED(hr) &amp;&amp; spMediaCompare.p)
+                if(SUCCEEDED(hr) && spMediaCompare.p)
                 {
                     lPriorityTest = _wtol(bstrValCompare);
                     

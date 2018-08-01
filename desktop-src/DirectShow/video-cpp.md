@@ -39,7 +39,7 @@ CVMR7::CVMR7() : m_pWindowless(NULL)
 
 CVMR7::~CVMR7()
 {
-    SafeRelease(&amp;m_pWindowless);
+    SafeRelease(&m_pWindowless);
 }
 
 BOOL CVMR7::HasVideo() const 
@@ -52,15 +52,15 @@ HRESULT CVMR7::AddToGraph(IGraphBuilder *pGraph, HWND hwnd)
     IBaseFilter *pVMR = NULL;
 
     HRESULT hr = AddFilterByCLSID(pGraph, CLSID_VideoMixingRenderer, 
-        &amp;pVMR, L"VMR-7");
+        &pVMR, L"VMR-7");
 
     if (SUCCEEDED(hr))
     {
         // Set windowless mode on the VMR. This must be done before the VMR
         // is connected.
-        hr = InitWindowlessVMR(pVMR, hwnd, &amp;m_pWindowless);
+        hr = InitWindowlessVMR(pVMR, hwnd, &m_pWindowless);
     }
-    SafeRelease(&amp;pVMR);
+    SafeRelease(&pVMR);
     return hr;
 }
 
@@ -73,24 +73,24 @@ HRESULT CVMR7::FinalizeGraph(IGraphBuilder *pGraph)
 
     IBaseFilter *pFilter = NULL;
 
-    HRESULT hr = m_pWindowless->QueryInterface(IID_PPV_ARGS(&amp;pFilter));
+    HRESULT hr = m_pWindowless->QueryInterface(IID_PPV_ARGS(&pFilter));
     if (FAILED(hr))
     {
         goto done;
     }
 
     BOOL bRemoved;
-    hr = RemoveUnconnectedRenderer(pGraph, pFilter, &amp;bRemoved);
+    hr = RemoveUnconnectedRenderer(pGraph, pFilter, &bRemoved);
 
     // If we removed the VMR, then we also need to release our 
     // pointer to the VMR's windowless control interface.
     if (bRemoved)
     {
-        SafeRelease(&amp;m_pWindowless);
+        SafeRelease(&m_pWindowless);
     }
 
 done:
-    SafeRelease(&amp;pFilter);
+    SafeRelease(&pFilter);
     return hr;
 }
 
@@ -108,8 +108,8 @@ HRESULT CVMR7::UpdateVideoWindow(HWND hwnd, const LPRECT prc)
     else
     {
         RECT rc;
-        GetClientRect(hwnd, &amp;rc);
-        return m_pWindowless->SetVideoPosition(NULL, &amp;rc);
+        GetClientRect(hwnd, &rc);
+        return m_pWindowless->SetVideoPosition(NULL, &rc);
     }
 }
 
@@ -151,7 +151,7 @@ HRESULT InitWindowlessVMR(
     IVMRWindowlessControl *pWC = NULL;
 
     // Set the rendering mode.  
-    HRESULT hr = pVMR->QueryInterface(IID_PPV_ARGS(&amp;pConfig)); 
+    HRESULT hr = pVMR->QueryInterface(IID_PPV_ARGS(&pConfig)); 
     if (FAILED(hr))
     {
         goto done;
@@ -164,7 +164,7 @@ HRESULT InitWindowlessVMR(
     }
 
     // Query for the windowless control interface.
-    hr = pVMR->QueryInterface(IID_PPV_ARGS(&amp;pWC));
+    hr = pVMR->QueryInterface(IID_PPV_ARGS(&pWC));
     if (FAILED(hr))
     {
         goto done;
@@ -189,8 +189,8 @@ HRESULT InitWindowlessVMR(
     (*ppWC)->AddRef();
 
 done:
-    SafeRelease(&amp;pConfig);
-    SafeRelease(&amp;pWC);
+    SafeRelease(&pConfig);
+    SafeRelease(&pWC);
     return hr; 
 } 
 
@@ -209,7 +209,7 @@ BOOL CVMR9::HasVideo() const
 
 CVMR9::~CVMR9()
 {
-    SafeRelease(&amp;m_pWindowless);
+    SafeRelease(&m_pWindowless);
 }
 
 HRESULT CVMR9::AddToGraph(IGraphBuilder *pGraph, HWND hwnd)
@@ -217,14 +217,14 @@ HRESULT CVMR9::AddToGraph(IGraphBuilder *pGraph, HWND hwnd)
     IBaseFilter *pVMR = NULL;
 
     HRESULT hr = AddFilterByCLSID(pGraph, CLSID_VideoMixingRenderer9, 
-        &amp;pVMR, L"VMR-9");
+        &pVMR, L"VMR-9");
     if (SUCCEEDED(hr))
     {
         // Set windowless mode on the VMR. This must be done before the VMR 
         // is connected.
-        hr = InitWindowlessVMR9(pVMR, hwnd, &amp;m_pWindowless);
+        hr = InitWindowlessVMR9(pVMR, hwnd, &m_pWindowless);
     }
-    SafeRelease(&amp;pVMR);
+    SafeRelease(&pVMR);
     return hr;
 }
 
@@ -237,24 +237,24 @@ HRESULT CVMR9::FinalizeGraph(IGraphBuilder *pGraph)
 
     IBaseFilter *pFilter = NULL;
 
-    HRESULT hr = m_pWindowless->QueryInterface(IID_PPV_ARGS(&amp;pFilter));
+    HRESULT hr = m_pWindowless->QueryInterface(IID_PPV_ARGS(&pFilter));
     if (FAILED(hr))
     {
         goto done;
     }
 
     BOOL bRemoved;
-    hr = RemoveUnconnectedRenderer(pGraph, pFilter, &amp;bRemoved);
+    hr = RemoveUnconnectedRenderer(pGraph, pFilter, &bRemoved);
 
     // If we removed the VMR, then we also need to release our 
     // pointer to the VMR's windowless control interface.
     if (bRemoved)
     {
-        SafeRelease(&amp;m_pWindowless);
+        SafeRelease(&m_pWindowless);
     }
 
 done:
-    SafeRelease(&amp;pFilter);
+    SafeRelease(&pFilter);
     return hr;
 }
 
@@ -274,8 +274,8 @@ HRESULT CVMR9::UpdateVideoWindow(HWND hwnd, const LPRECT prc)
     {
 
         RECT rc;
-        GetClientRect(hwnd, &amp;rc);
-        return m_pWindowless->SetVideoPosition(NULL, &amp;rc);
+        GetClientRect(hwnd, &rc);
+        return m_pWindowless->SetVideoPosition(NULL, &rc);
     }
 }
 
@@ -317,7 +317,7 @@ HRESULT InitWindowlessVMR9(
     IVMRWindowlessControl9 *pWC = NULL;
 
     // Set the rendering mode.  
-    HRESULT hr = pVMR->QueryInterface(IID_PPV_ARGS(&amp;pConfig)); 
+    HRESULT hr = pVMR->QueryInterface(IID_PPV_ARGS(&pConfig)); 
     if (FAILED(hr))
     {
         goto done;
@@ -330,7 +330,7 @@ HRESULT InitWindowlessVMR9(
     }
 
     // Query for the windowless control interface.
-    hr = pVMR->QueryInterface(IID_PPV_ARGS(&amp;pWC));
+    hr = pVMR->QueryInterface(IID_PPV_ARGS(&pWC));
     if (FAILED(hr))
     {
         goto done;
@@ -355,8 +355,8 @@ HRESULT InitWindowlessVMR9(
     (*ppWC)->AddRef();
 
 done:
-    SafeRelease(&amp;pConfig);
-    SafeRelease(&amp;pWC);
+    SafeRelease(&pConfig);
+    SafeRelease(&pWC);
     return hr; 
 } 
 
@@ -370,8 +370,8 @@ CEVR::CEVR() : m_pEVR(NULL), m_pVideoDisplay(NULL)
 
 CEVR::~CEVR()
 {
-    SafeRelease(&amp;m_pEVR);
-    SafeRelease(&amp;m_pVideoDisplay);
+    SafeRelease(&m_pEVR);
+    SafeRelease(&m_pVideoDisplay);
 }
 
 BOOL CEVR::HasVideo() const 
@@ -384,14 +384,14 @@ HRESULT CEVR::AddToGraph(IGraphBuilder *pGraph, HWND hwnd)
     IBaseFilter *pEVR = NULL;
 
     HRESULT hr = AddFilterByCLSID(pGraph, CLSID_EnhancedVideoRenderer, 
-        &amp;pEVR, L"EVR");
+        &pEVR, L"EVR");
 
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = InitializeEVR(pEVR, hwnd, &amp;m_pVideoDisplay);
+    hr = InitializeEVR(pEVR, hwnd, &m_pVideoDisplay);
     if (FAILED(hr))
     {
         goto done;
@@ -405,7 +405,7 @@ HRESULT CEVR::AddToGraph(IGraphBuilder *pGraph, HWND hwnd)
     m_pEVR->AddRef();
 
 done:
-    SafeRelease(&amp;pEVR);
+    SafeRelease(&pEVR);
     return hr;
 }
 
@@ -417,11 +417,11 @@ HRESULT CEVR::FinalizeGraph(IGraphBuilder *pGraph)
     }
 
     BOOL bRemoved;
-    HRESULT hr = RemoveUnconnectedRenderer(pGraph, m_pEVR, &amp;bRemoved);
+    HRESULT hr = RemoveUnconnectedRenderer(pGraph, m_pEVR, &bRemoved);
     if (bRemoved)
     {
-        SafeRelease(&amp;m_pEVR);
-        SafeRelease(&amp;m_pVideoDisplay);
+        SafeRelease(&m_pEVR);
+        SafeRelease(&m_pVideoDisplay);
     }
     return hr;
 }
@@ -441,8 +441,8 @@ HRESULT CEVR::UpdateVideoWindow(HWND hwnd, const LPRECT prc)
     {
 
         RECT rc;
-        GetClientRect(hwnd, &amp;rc);
-        return m_pVideoDisplay->SetVideoPosition(NULL, &amp;rc);
+        GetClientRect(hwnd, &rc);
+        return m_pVideoDisplay->SetVideoPosition(NULL, &rc);
     }
 }
 
@@ -476,13 +476,13 @@ HRESULT InitializeEVR(
     IMFGetService *pGS = NULL;
     IMFVideoDisplayControl *pDisplay = NULL;
 
-    HRESULT hr = pEVR->QueryInterface(IID_PPV_ARGS(&amp;pGS)); 
+    HRESULT hr = pEVR->QueryInterface(IID_PPV_ARGS(&pGS)); 
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pGS->GetService(MR_VIDEO_RENDER_SERVICE, IID_PPV_ARGS(&amp;pDisplay));
+    hr = pGS->GetService(MR_VIDEO_RENDER_SERVICE, IID_PPV_ARGS(&pDisplay));
     if (FAILED(hr))
     {
         goto done;
@@ -507,8 +507,8 @@ HRESULT InitializeEVR(
     (*ppDisplayControl)->AddRef();
 
 done:
-    SafeRelease(&amp;pGS);
-    SafeRelease(&amp;pDisplay);
+    SafeRelease(&pGS);
+    SafeRelease(&pDisplay);
     return hr; 
 } 
 
@@ -522,8 +522,8 @@ HRESULT RemoveUnconnectedRenderer(IGraphBuilder *pGraph, IBaseFilter *pRenderer,
 
     // Look for a connected input pin on the renderer.
 
-    HRESULT hr = FindConnectedPin(pRenderer, PINDIR_INPUT, &amp;pPin);
-    SafeRelease(&amp;pPin);
+    HRESULT hr = FindConnectedPin(pRenderer, PINDIR_INPUT, &pPin);
+    SafeRelease(&pPin);
 
     // If this function succeeds, the renderer is connected, so we don't remove it.
     // If it fails, it means the renderer is not connected to anything, so
@@ -541,7 +541,7 @@ HRESULT RemoveUnconnectedRenderer(IGraphBuilder *pGraph, IBaseFilter *pRenderer,
 HRESULT IsPinConnected(IPin *pPin, BOOL *pResult)
 {
     IPin *pTmp = NULL;
-    HRESULT hr = pPin->ConnectedTo(&amp;pTmp);
+    HRESULT hr = pPin->ConnectedTo(&pTmp);
     if (SUCCEEDED(hr))
     {
         *pResult = TRUE;
@@ -553,14 +553,14 @@ HRESULT IsPinConnected(IPin *pPin, BOOL *pResult)
         hr = S_OK;
     }
 
-    SafeRelease(&amp;pTmp);
+    SafeRelease(&pTmp);
     return hr;
 }
 
 HRESULT IsPinDirection(IPin *pPin, PIN_DIRECTION dir, BOOL *pResult)
 {
     PIN_DIRECTION pinDir;
-    HRESULT hr = pPin->QueryDirection(&amp;pinDir);
+    HRESULT hr = pPin->QueryDirection(&pinDir);
     if (SUCCEEDED(hr))
     {
         *pResult = (pinDir == dir);
@@ -576,22 +576,22 @@ HRESULT FindConnectedPin(IBaseFilter *pFilter, PIN_DIRECTION PinDir,
     IEnumPins *pEnum = NULL;
     IPin *pPin = NULL;
 
-    HRESULT hr = pFilter->EnumPins(&amp;pEnum);
+    HRESULT hr = pFilter->EnumPins(&pEnum);
     if (FAILED(hr))
     {
         return hr;
     }
 
     BOOL bFound = FALSE;
-    while (S_OK == pEnum->Next(1, &amp;pPin, NULL))
+    while (S_OK == pEnum->Next(1, &pPin, NULL))
     {
         BOOL bIsConnected;
-        hr = IsPinConnected(pPin, &amp;bIsConnected);
+        hr = IsPinConnected(pPin, &bIsConnected);
         if (SUCCEEDED(hr))
         {
             if (bIsConnected)
             {
-                hr = IsPinDirection(pPin, PinDir, &amp;bFound);
+                hr = IsPinDirection(pPin, PinDir, &bFound);
             }
         }
 
@@ -625,7 +625,7 @@ HRESULT AddFilterByCLSID(IGraphBuilder *pGraph, REFGUID clsid,
     IBaseFilter *pFilter = NULL;
     
     HRESULT hr = CoCreateInstance(clsid, NULL, CLSCTX_INPROC_SERVER, 
-        IID_PPV_ARGS(&amp;pFilter));
+        IID_PPV_ARGS(&pFilter));
     if (FAILED(hr))
     {
         goto done;
@@ -641,7 +641,7 @@ HRESULT AddFilterByCLSID(IGraphBuilder *pGraph, REFGUID clsid,
     (*ppF)->AddRef();
 
 done:
-    SafeRelease(&amp;pFilter);
+    SafeRelease(&pFilter);
     return hr;
 }
 ```

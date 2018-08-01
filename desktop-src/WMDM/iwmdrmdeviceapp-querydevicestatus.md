@@ -105,7 +105,7 @@ hr = pDRM.CoCreateInstance(CLSID_WMDRMDeviceApp, 0, CLSCTX_ALL);
 // Find out first if the device is a WMDRM 10 device, and if it requires
 // any clock updates.
 DWORD status = 0;
-hr = pDRM->QueryDeviceStatus(pDevice, &amp;status);
+hr = pDRM->QueryDeviceStatus(pDevice, &status);
 
 if (!(WMDRM_DEVICE_ISWMDRM & status)) // Device is not WMDRM 10. Nothing can be updated,
     return E_FAIL;                   // and metering cannot be performed.
@@ -117,7 +117,7 @@ else if (status & WMDRM_DEVICE_NEEDCLOCK ||
 {
     // Need to update device clock. 
     // Using custom function, which is synchronous.
-    hr = myAcquireDeviceData(pDRM, pDevice, this, status, &amp;result);
+    hr = myAcquireDeviceData(pDRM, pDevice, this, status, &result);
     if (hr != S_OK || result != 0)    // Couldn't perform the updates.
         return E_FAIL;    
 }

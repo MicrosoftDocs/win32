@@ -37,12 +37,12 @@ The caret can be positioned as shown in the following example:
 if (fAdvancing) {
     ScriptCPtoX(
         iCharPos - 1, TRUE, 
-        cChars, cGlyphs, &amp;wLogClust, &amp;sva, &amp;iAdvance, &amp;sa, &amp;iCaretX
+        cChars, cGlyphs, &wLogClust, &sva, &iAdvance, &sa, &iCaretX
         );
 } else {
     ScriptCPtoX(
         iCharPos, FALSE, 
-        cChars, cGlyphs, &amp;wLogClust, &amp;sva, &amp;iAdvance, &amp;sa, &amp;iCaretX
+        cChars, cGlyphs, &wLogClust, &sva, &iAdvance, &sa, &iCaretX
         );
 }
 ```
@@ -55,7 +55,7 @@ Positioning of the caret can be simpler, as shown below, given an *fAdvancing* v
 ```C++
 ScriptCPtoX(
     iCharPos - fAdvancing, fAdvancing, 
-    cChars, cGlyphs, &amp;wLogClust, &amp;sva, &amp;iAdvance, &amp;sa, &amp;iCaretX
+    cChars, cGlyphs, &wLogClust, &sva, &iAdvance, &sa, &iCaretX
     );
 ```
 

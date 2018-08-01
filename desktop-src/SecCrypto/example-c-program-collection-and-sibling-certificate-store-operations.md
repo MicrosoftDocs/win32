@@ -321,13 +321,13 @@ sa.bInheritHandle = FALSE;
 // Call function to set the DACL. The DACL
 // is set in the SECURITY_ATTRIBUTES 
 // lpSecurityDescriptor member.
-// if CreateMyDACL(&amp;sa) fails, call MyHandleError("CreateMyDACL failed.")
+// if CreateMyDACL(&sa) fails, call MyHandleError("CreateMyDACL failed.")
 
 if(hStoreFileHandle = CreateFile(
       pszFileName,             // File path
       GENERIC_WRITE,           // Access mode
       0,                       // Share mode
-      &amp;sa,                     // Security 
+      &sa,                     // Security 
       CREATE_ALWAYS,           // How to create the file
       FILE_ATTRIBUTE_NORMAL,   // File attributes
       NULL))                   // File template

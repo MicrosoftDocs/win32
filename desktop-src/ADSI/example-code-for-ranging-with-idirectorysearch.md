@@ -39,7 +39,7 @@ HRESULT EnumGroupWithIDirectorySearch(LPCWSTR pwszGroupDN,
                         pwszPassword,
                         ADS_SECURE_AUTHENTICATION,
                         IID_IDirectorySearch, 
-                        (void**)&amp;pSearch);
+                        (void**)&pSearch);
 
     if(SUCCEEDED(hr))
     {
@@ -95,7 +95,7 @@ HRESULT EnumGroupWithIDirectorySearch(LPCWSTR pwszGroupDN,
             LPWSTR rgAttributes[2] = {wszName, wszAttribute};
 
             // Execute the query.
-            hr = pSearch->ExecuteSearch(pszSearch, rgAttributes, 2, &amp;hSearch);
+            hr = pSearch->ExecuteSearch(pszSearch, rgAttributes, 2, &hSearch);
             if(SUCCEEDED(hr))
             {
                 // Enumerate the rows.
@@ -104,7 +104,7 @@ HRESULT EnumGroupWithIDirectorySearch(LPCWSTR pwszGroupDN,
                     if(S_OK == hr)
                     {
                         LPWSTR pwszColumnName;
-                        hr = pSearch->GetNextColumnName(hSearch, &amp;pwszColumnName);
+                        hr = pSearch->GetNextColumnName(hSearch, &pwszColumnName);
                         if(SUCCEEDED(hr))
                         {
                             /*
@@ -138,7 +138,7 @@ HRESULT EnumGroupWithIDirectorySearch(LPCWSTR pwszGroupDN,
                                 ADS_SEARCH_COLUMN col;
                                 
                                 // Get the column.
-                                hr = pSearch->GetColumn(hSearch, pwszColumnName, &amp;col);
+                                hr = pSearch->GetColumn(hSearch, pwszColumnName, &col);
                                 if(SUCCEEDED(hr))
                                 {
                                     DWORD i;
@@ -150,7 +150,7 @@ HRESULT EnumGroupWithIDirectorySearch(LPCWSTR pwszGroupDN,
                                     }
 
                                     // Free the column.
-                                    pSearch->FreeColumn(&amp;col);
+                                    pSearch->FreeColumn(&col);
                                 }
 
                                 FreeADsMem(pwszColumnName);
@@ -176,7 +176,7 @@ HRESULT EnumGroupWithIDirectorySearch(LPCWSTR pwszGroupDN,
                         WCHAR szError[512];
                         WCHAR szProvider[512];
                             
-                        ADsGetLastError(&amp;dwError, szError, 512, szProvider, 512);
+                        ADsGetLastError(&dwError, szError, 512, szProvider, 512);
                         if(ERROR_MORE_DATA != dwError)
                         {
                             break;

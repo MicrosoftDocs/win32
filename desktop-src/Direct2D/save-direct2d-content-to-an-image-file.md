@@ -85,7 +85,7 @@ Finally, use the [**CreateStreamOverRandomAccessStream**](https://msdn.microsoft
 ```C++
     ComPtr<IStream> stream;
     DX::ThrowIfFailed(
-        CreateStreamOverRandomAccessStream(randomAccessStream, IID_PPV_ARGS(&amp;stream))
+        CreateStreamOverRandomAccessStream(randomAccessStream, IID_PPV_ARGS(&stream))
         );
 ```
 
@@ -109,7 +109,7 @@ Create and initialize the encoder objects.
         wicFactory2->CreateEncoder(
             wicFormat,
             nullptr,    // No preferred codec vendor.
-            &amp;wicBitmapEncoder
+            &wicBitmapEncoder
             )
         );
 
@@ -123,7 +123,7 @@ Create and initialize the encoder objects.
     ComPtr<IWICBitmapFrameEncode> wicFrameEncode;
     DX::ThrowIfFailed(
         wicBitmapEncoder->CreateNewFrame(
-            &amp;wicFrameEncode,
+            &wicFrameEncode,
             nullptr     // No encoder options.
             )
         );
@@ -148,7 +148,7 @@ DX::ThrowIfFailed(
         CLSID_WICImagingFactory,
         nullptr,
         CLSCTX_INPROC_SERVER,
-        IID_PPV_ARGS(&amp;m_wicFactory)
+        IID_PPV_ARGS(&m_wicFactory)
         )
     );
 ```
@@ -163,7 +163,7 @@ Call [**IWICImagingFactory2::CreateImageEncoder**](https://msdn.microsoft.com/li
     DX::ThrowIfFailed(
         wicFactory2->CreateImageEncoder(
             d2dDevice.Get(),
-            &amp;imageEncoder
+            &imageEncoder
             )
        );
 ```
@@ -234,7 +234,7 @@ DX::ThrowIfFailed(
         CLSID_WICImagingFactory,
         nullptr,
         CLSCTX_INPROC_SERVER,
-        IID_PPV_ARGS(&amp;m_wicFactory)
+        IID_PPV_ARGS(&m_wicFactory)
         )
     );
 
@@ -277,7 +277,7 @@ void SaveAsImageFile::SaveBitmapToFile()
                 // Convert the RandomAccessStream to an IStream.
                 ComPtr<IStream> stream;
                 DX::ThrowIfFailed(
-                    CreateStreamOverRandomAccessStream(randomAccessStream, IID_PPV_ARGS(&amp;stream))
+                    CreateStreamOverRandomAccessStream(randomAccessStream, IID_PPV_ARGS(&stream))
                     );
 
                 SaveBitmapToStream(m_d2dTargetBitmap, m_wicFactory, m_d2dContext, wicFormat, stream.Get());
@@ -301,7 +301,7 @@ void SaveAsImageFile::SaveBitmapToStream(
         wicFactory2->CreateEncoder(
             wicFormat,
             nullptr,    // No preferred codec vendor.
-            &amp;wicBitmapEncoder
+            &wicBitmapEncoder
             )
         );
 
@@ -316,7 +316,7 @@ void SaveAsImageFile::SaveBitmapToStream(
     ComPtr<IWICBitmapFrameEncode> wicFrameEncode;
     DX::ThrowIfFailed(
         wicBitmapEncoder->CreateNewFrame(
-            &amp;wicFrameEncode,
+            &wicFrameEncode,
             nullptr     // No encoder options.
             )
         );
@@ -327,14 +327,14 @@ void SaveAsImageFile::SaveBitmapToStream(
 
     // Retrieve D2D Device.
     ComPtr<ID2D1Device> d2dDevice;
-    d2dContext->GetDevice(&amp;d2dDevice);
+    d2dContext->GetDevice(&d2dDevice);
 
     // Create IWICImageEncoder.
     ComPtr<IWICImageEncoder> imageEncoder;
     DX::ThrowIfFailed(
         wicFactory2->CreateImageEncoder(
             d2dDevice.Get(),
-            &amp;imageEncoder
+            &imageEncoder
             )
        );
 

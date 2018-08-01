@@ -21,10 +21,10 @@ To preview closed captions, call [**ICaptureGraphBuilder2::RenderStream**](/wind
 
 
 ```C++
-hr = pBuild->RenderStream(&amp;PIN_CATEGORY_VBI, 0, pCap, 0, 0);
+hr = pBuild->RenderStream(&PIN_CATEGORY_VBI, 0, pCap, 0, 0);
 if (FAILED(hr))
 {
-    hr = pBuild->RenderStream(&amp;PIN_CATEGORY_CC, 0, pCap, 0, 0);
+    hr = pBuild->RenderStream(&PIN_CATEGORY_CC, 0, pCap, 0, 0);
 }
 ```
 
@@ -65,10 +65,10 @@ To control the captioning display, use the [**IAMLine21Decoder**](/windows/deskt
 // Use the FindInterface method to find the interface.
 IAMLine21Decoder *pLine21 = NULL;
 hr = pBuild->FindInterface(
-    &amp;LOOK_DOWNSTREAM_ONLY, // Look downstream from pCap 
+    &LOOK_DOWNSTREAM_ONLY, // Look downstream from pCap 
     NULL,                  // No particular media type
     pCap,                  // Pointer to the capture filter.
-    IID_IAMLine21Decoder, (void**)&amp;pLine21);
+    IID_IAMLine21Decoder, (void**)&pLine21);
 if (SUCCEEDED(hr))
 {
     pLine21->SetServiceState(AM_L21_CCSTATE_Off);
@@ -87,10 +87,10 @@ You can capture the caption bitmaps into a file. To do so, add the file-writing 
 
 
 ```C++
-hr = pBuild->RenderStream(&amp;PIN_CATEGORY_VBI, 0, pCap, 0, pMux);
+hr = pBuild->RenderStream(&PIN_CATEGORY_VBI, 0, pCap, 0, pMux);
 if (FAILED(hr))
 {
-    hr = pBuild->RenderStream(&amp;PIN_CATEGORY_CC, 0, pCap, 0, pMux);
+    hr = pBuild->RenderStream(&PIN_CATEGORY_CC, 0, pCap, 0, pMux);
 }
 ```
 

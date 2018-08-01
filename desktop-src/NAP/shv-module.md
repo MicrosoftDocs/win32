@@ -41,13 +41,13 @@ HRESULT RegisterSdkShv()
     CComPtr<INapServerManagement> pSHVMgmt = NULL;
     
     NapComponentRegistrationInfo shvInfo;
-    ZeroMemory (&amp;shvInfo, sizeof(shvInfo));
+    ZeroMemory (&shvInfo, sizeof(shvInfo));
 
     hr = pSHVMgmt.CoCreateInstance(CLSID_NapServerManagement, NULL, CLSCTX_INPROC_SERVER);
-    hr = FillShvComponentRegistrationInfo(&amp;shvInfo);
-    hr = pSHVMgmt->RegisterSystemHealthValidator(&amp;shvInfo, (CLSID *)&amp;__uuidof(CSampleShv));
+    hr = FillShvComponentRegistrationInfo(&shvInfo);
+    hr = pSHVMgmt->RegisterSystemHealthValidator(&shvInfo, (CLSID *)&__uuidof(CSampleShv));
     
-    FreeComponentRegistration(&amp;shvInfo);
+    FreeComponentRegistration(&shvInfo);
     return hr;
 }
 
@@ -71,10 +71,10 @@ HRESULT FillShvComponentRegistrationInfo (NapComponentRegistrationInfo *shvInfo)
     //<Temporarily till implement the Info Class>
     shvInfo->infoClsid = GUID_NULL; 
 
-    hr = ConstructCountedString(friendlyName, sizeof(friendlyName), &amp;(shvInfo->friendlyName));
-    hr = ConstructCountedString(description, sizeof(description), &amp;(shvInfo->description));
-    hr = ConstructCountedString(version, sizeof(version), &amp;(shvInfo->version));
-    hr = ConstructCountedString(vendor, sizeof(vendor), &amp;(shvInfo->vendorName));
+    hr = ConstructCountedString(friendlyName, sizeof(friendlyName), &(shvInfo->friendlyName));
+    hr = ConstructCountedString(description, sizeof(description), &(shvInfo->description));
+    hr = ConstructCountedString(version, sizeof(version), &(shvInfo->version));
+    hr = ConstructCountedString(vendor, sizeof(vendor), &(shvInfo->vendorName));
     return hr;
 }
 

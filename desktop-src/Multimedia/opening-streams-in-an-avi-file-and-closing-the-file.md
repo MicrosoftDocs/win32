@@ -33,7 +33,7 @@ void InsertAVIFile(PAVIFILE pfile, HWND hwnd, LPSTR lpszFile)
     // Open the streams until a stream is not available. 
     for (i = gcpavi; i < MAXNUMSTREAMS; i++) { 
         gapavi[i] = NULL; 
-        if (AVIFileGetStream(pfile, &amp;gapavi[i], 0L, i - gcpavi) 
+        if (AVIFileGetStream(pfile, &gapavi[i], 0L, i - gcpavi) 
             != AVIERR_OK) 
         break; 
  

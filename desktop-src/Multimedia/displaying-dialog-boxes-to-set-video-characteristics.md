@@ -24,7 +24,7 @@ HWND hWndC = capCreateCaptureWindow(TEXT("My Capture Window"),
 CAPDRIVERCAPS CapDriverCaps = { }; 
 CAPSTATUS     CapStatus = { };
 
-capDriverGetCaps(hWndC, &amp;CapDriverCaps, sizeof(CAPDRIVERCAPS)); 
+capDriverGetCaps(hWndC, &CapDriverCaps, sizeof(CAPDRIVERCAPS)); 
  
 // Video source dialog box. 
 if (CapDriverCaps.fHasDlgVideoSource)
@@ -38,7 +38,7 @@ if (CapDriverCaps.fHasDlgVideoFormat)
     capDlgVideoFormat(hWndC); 
 
     // Are there new image dimensions?
-    capGetStatus(hWndC, &amp;CapStatus, sizeof (CAPSTATUS));
+    capGetStatus(hWndC, &CapStatus, sizeof (CAPSTATUS));
 
     // If so, notify the parent of a size change.
 } 

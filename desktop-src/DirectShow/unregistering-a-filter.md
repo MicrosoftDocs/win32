@@ -27,12 +27,12 @@ STDAPI DllUnregisterServer()
         return hr;
  
     hr = CoCreateInstance(CLSID_FilterMapper2, NULL, CLSCTX_INPROC_SERVER,
-            IID_IFilterMapper2, (void **)&amp;pFM2);
+            IID_IFilterMapper2, (void **)&pFM2);
 
     if (FAILED(hr))
         return hr;
 
-    hr = pFM2->UnregisterFilter(&amp;CLSID_VideoCompressorCategory, 
+    hr = pFM2->UnregisterFilter(&CLSID_VideoCompressorCategory, 
             g_wszName, CLSID_SomeFilter);
 
     pFM2->Release();

@@ -240,8 +240,8 @@ Upon receiving a [**WM\_DDE\_DATA**](wm-dde-data.md) message, the client process
 
 
 ```
-UnpackDDElParam(WM_DDE_DATA, lParam, (PUINT) &amp;hData, 
-    (PUINT) &amp;atomItem); 
+UnpackDDElParam(WM_DDE_DATA, lParam, (PUINT) &hData, 
+    (PUINT) &atomItem); 
 if (!(lpDDEData = (DDEDATA FAR*) GlobalLock(hData)) 
         || (lpDDEData->cfFormat != CF_TEXT)) 
 { 
@@ -357,8 +357,8 @@ If the server is able to accept the data-item value in the format rendered by th
 
 
 ```
-UnpackDDElParam(WM_DDE_POKE, lParam, (PUINT) &amp;hPokeData, 
-    (PUINT) &amp;atomItem); 
+UnpackDDElParam(WM_DDE_POKE, lParam, (PUINT) &hPokeData, 
+    (PUINT) &atomItem); 
 GlobalGetAtomName(atomItem, szItemName, ITEM_NAME_MAX_SIZE); 
 if (!(lpPokeData = (DDEPOKE *) GlobalLock(hPokeData)) 
         || lpPokeData->cfFormat != CF_TEXT 

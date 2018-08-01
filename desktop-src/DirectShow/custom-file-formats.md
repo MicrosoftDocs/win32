@@ -17,8 +17,8 @@ If you have a custom mux or file-writer filter that supports your own file forma
 ```C++
 IBaseFilter *pMux = 0;
 IFileSinkFilter *pSink = 0;
-hr = pBuild->SetOutputFileName(&amp;CLSID_MyCustomMuxFilter, 
-    L"C:\\VidCap.avi", &amp;pMux, &amp;pSink);
+hr = pBuild->SetOutputFileName(&CLSID_MyCustomMuxFilter, 
+    L"C:\\VidCap.avi", &pMux, &pSink);
 ```
 
 

@@ -48,7 +48,7 @@ This operator is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMXDECN4::operator = (const XMXDECN4&amp;)</strong>](https://msdn.microsoft.com/en-us/library/Ee421413(v=VS.85).aspx)</td>
+<td style="text-align: left;">[<strong>XMXDECN4::operator = (const XMXDECN4&)</strong>](https://msdn.microsoft.com/en-us/library/Ee421413(v=VS.85).aspx)</td>
 <td style="text-align: left;">Assigns the vector component data from one instance of <code>XMXDECN4</code> to the current instance of <code>XMXDECN4</code>. <br/>
 <blockquote>
 [!Note]<br />

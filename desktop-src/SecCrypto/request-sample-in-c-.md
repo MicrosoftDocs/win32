@@ -60,7 +60,7 @@ HRESULT __cdecl main()
                            NULL,
                            CLSCTX_INPROC_SERVER,
                            IID_ICEnroll4,
-                           (void **)&amp;pEnroll);
+                           (void **)&pEnroll);
     // Check status.
     if ( FAILED( hr ) )
     {
@@ -73,7 +73,7 @@ HRESULT __cdecl main()
                            NULL,
                            CLSCTX_INPROC_SERVER,
                            IID_ICertRequest2,
-                           (void **)&amp;pRequest);
+                           (void **)&pRequest);
     // Check status.
     if ( FAILED( hr ) )
     {
@@ -123,7 +123,7 @@ HRESULT __cdecl main()
     }
 
     // Create the PKCS #10.
-    hr = pEnroll->createPKCS10( bstrDN, bstrOID, &amp;bstrReq );
+    hr = pEnroll->createPKCS10( bstrDN, bstrOID, &bstrReq );
     // check status
     if ( FAILED( hr ) )
     {
@@ -136,7 +136,7 @@ HRESULT __cdecl main()
                            bstrReq,
                            bstrAttrib,
                            bstrCertAuth,
-                           &amp;nDisp );
+                           &nDisp );
     // Check status.
     if ( FAILED( hr ) )
     {

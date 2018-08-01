@@ -168,19 +168,19 @@ IADs *pADs;
  
 HRESULT hr = ADsGetObject(L"LDAP://OU=Sales,DC=Fabrikam,DC=COM",
                           IID_IADsContainer, 
-                          (void**)&amp;pCont);
+                          (void**)&pCont);
 
 if(FAILED(hr)){goto Cleanup;}
 
 LPWSTR pszArray[] = { L"adminDescription" };
 DWORD dwNumber = sizeof(pszArray)/sizeof(LPWSTR);
-hr = ADsBuildVarArrayStr( pszArray, dwNumber, &amp;var);
+hr = ADsBuildVarArrayStr( pszArray, dwNumber, &var);
 if(FAILED(hr)){goto Cleanup;}
 
 hr = pCont->put_Hints( var );
 if(FAILED(hr)){goto Cleanup;}
 
-VariantClear(&amp;var);
+VariantClear(&var);
  
 hr = pCont->QueryInterface(IID_IADs, (void**)pADs);
 if(FAILED(hr)){goto Cleanup;}
@@ -189,28 +189,28 @@ hr = pADs->Get(CComBSTR("adminDescription"), var);
  
 LPWSTR pszUsers = {L"user"};
 dwNumber = sizeof(pszUsers)/sizeof(LPWSTR);
-hr = ADsBuildVarArrayStr(pszUsers, dwNumber, &amp;var);
+hr = ADsBuildVarArrayStr(pszUsers, dwNumber, &var);
 hr = pCont->put_Filter( var );
-VariantClear(&amp;var);
+VariantClear(&var);
  
 // Enumerate user objects in the container.
 IEnumVARIANT *pEnum = NULL;
-hr = ADsBuildEnumerator(pCont, &amp;pEnum);
+hr = ADsBuildEnumerator(pCont, &pEnum);
 pCont->Release();    // Not required when users are enumerated.
  
 ULONG lFetch;
-VariantClear(&amp;var);
-while (SUCCEEDED(ADsEnumerateNext(pEnum, 1, &amp;var, &amp;lFetch)) &amp;&amp; 
+VariantClear(&var);
+while (SUCCEEDED(ADsEnumerateNext(pEnum, 1, &var, &lFetch)) && 
                       lFetch==1) {
-    hr = V_DISPATCH(&amp;var)->QueryInterface(IID_IADs, (void**)&amp;pChild)
+    hr = V_DISPATCH(&var)->QueryInterface(IID_IADs, (void**)&pChild)
     if(SUCCEEDED(hr)) {
         BSTR bstrName;
-        pChild->get_Name(&amp;bstrName);
+        pChild->get_Name(&bstrName);
         printf("  %S\n", bstrName);
         SysFreeString(bstrName);
         pChild->Release();
     }
-    VariantClear(&amp;var);
+    VariantClear(&var);
 }
 Cleanup:
     if(pADs)
@@ -222,7 +222,7 @@ Cleanup:
     if(pChild)
         pChild->Release();
 
-    VariantClear(&amp;var);
+    VariantClear(&var);
 ```
 
 

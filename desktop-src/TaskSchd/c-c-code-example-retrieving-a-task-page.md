@@ -39,7 +39,7 @@ int main(int argc, char **argv)
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_ITaskScheduler,
-                          (void **) &amp;pITS);
+                          (void **) &pITS);
     if (FAILED(hr))
     {
        CoUninitialize();
@@ -59,7 +59,7 @@ int main(int argc, char **argv)
   LPCWSTR lpcwszTaskName = L"Test Task";
   hr = pITS->Activate(lpcwszTaskName,
                       IID_ITask,
-                      (IUnknown**) &amp;pITask);
+                      (IUnknown**) &pITask);
   
   // Release the ITaskScheduler interface.
   pITS->Release();
@@ -84,7 +84,7 @@ int main(int argc, char **argv)
   
   IProvideTaskPage *pIProvTaskPage;
   hr = pITask->QueryInterface(IID_IProvideTaskPage,
-                              (void **)&amp;pIProvTaskPage);
+                              (void **)&pIProvTaskPage);
   // Release the ITask interface.
   pITask->Release();
   
@@ -98,7 +98,7 @@ int main(int argc, char **argv)
   
   hr = pIProvTaskPage->GetPage(tpType,
                                fPersistChanges,
-                               &amp;phPage);
+                               &phPage);
   
   // Release the IProvideTaskPage interface.
   pIProvTaskPage->Release();
@@ -117,13 +117,13 @@ int main(int argc, char **argv)
   //////////////////////////////////////////////////////////////////
   
   PROPSHEETHEADER psh;
-  ZeroMemory(&amp;psh, sizeof(PROPSHEETHEADER));
+  ZeroMemory(&psh, sizeof(PROPSHEETHEADER));
   psh.dwSize = sizeof(PROPSHEETHEADER);
   psh.dwFlags = PSH_DEFAULT | PSH_NOAPPLYNOW;
-  psh.phpage = &amp;phPage;
+  psh.phpage = &phPage;
   psh.nPages = 1;
 
-  int psResult = PropertySheet(&amp;psh);
+  int psResult = PropertySheet(&psh);
   if (psResult <= 0)
   {
     wprintf(L"Failed to create the property page: ");

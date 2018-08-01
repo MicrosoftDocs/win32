@@ -46,14 +46,14 @@ To fix this error, implement one of the keyboard event handlers.
     var prev = itm.previousElementSibling;
     var next = itm.nextElementSibling;
     
-    if ( e.keyCode  38 &amp;&amp; prev ) {
+    if ( e.keyCode  38 && prev ) {
       // Arrow up to move active descendant to the previous item
       itm.removeAttribute('class’);
       prev.setAttribute("class", "selected");
       this.setAttribute ('aria-activedescendant', prev.id)
     } 
 
-    else if ( e.keyCode == 40 &amp;&amp; next) {
+    else if ( e.keyCode == 40 && next) {
       // Arrow down to move focus to the next item
       itm.removeAttribute('class’);
       next.setAttribute("class", "selected");

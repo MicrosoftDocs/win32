@@ -122,7 +122,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -130,7 +130,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -151,9 +151,9 @@ static const BlockServiceBindingFunctionTable serviceFunctions = {Block, UnBlock
 // Method contract for the service
 static const WS_SERVICE_CONTRACT blockServiceContract = 
 {
-    &amp;BlockUnBlockService_wsdl.contracts.BlockServiceBinding, // comes from the generated header.
+    &BlockUnBlockService_wsdl.contracts.BlockServiceBinding, // comes from the generated header.
     NULL, // for not specifying the default contract
-    &amp;serviceFunctions // specified by the user
+    &serviceFunctions // specified by the user
 };
 
 
@@ -170,9 +170,9 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     WS_ERROR* error = NULL;
     WS_SERVICE_ENDPOINT_PROPERTY serviceProperties[1];
     const ULONG maxConcurrency = 100;
-    serviceEndpoints[0] = &amp;serviceEndpoint;
+    serviceEndpoints[0] = &serviceEndpoint;
     serviceProperties[0].id = WS_SERVICE_ENDPOINT_PROPERTY_MAX_CONCURRENCY;
-    serviceProperties[0].value = (void*)&amp;maxConcurrency;
+    serviceProperties[0].value = (void*)&maxConcurrency;
     serviceProperties[0].valueSize = sizeof(maxConcurrency);
     
     // Create Event object for closing the server
@@ -192,14 +192,14 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     serviceEndpoint.address.url.length = (ULONG)wcslen(serviceEndpoint.address.url.chars);
     serviceEndpoint.channelBinding = WS_TCP_CHANNEL_BINDING; // channel binding for the endpoint
     serviceEndpoint.channelType = WS_CHANNEL_TYPE_DUPLEX_SESSION; // the channel type
-    serviceEndpoint.contract = &amp;blockServiceContract;  // the contract
+    serviceEndpoint.contract = &blockServiceContract;  // the contract
     serviceEndpoint.properties = serviceProperties;
     serviceEndpoint.propertyCount = WsCountOf(serviceProperties);
     // Create an error object for storing rich error information
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -210,7 +210,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         1, 
         NULL, 
         0, 
-        &amp;host, 
+        &host, 
         error);
     if (FAILED(hr))
     {

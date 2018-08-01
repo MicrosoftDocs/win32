@@ -28,10 +28,10 @@ The following code sets the video capture stream to run for four seconds, starti
 REFERENCE_TIME rtStart = 10000000, rtStop = 50000000;
 const WORD wStartCookie = 1, wStopCookie = 2;  // Arbitrary values.
 hr = pBuild->ControlStream(
-    &amp;PIN_CATEGORY_CAPTURE, // Pin category.
-    &amp;MEDIATYPE_Video,      // Media type.
+    &PIN_CATEGORY_CAPTURE, // Pin category.
+    &MEDIATYPE_Video,      // Media type.
     pCap,                 // Capture filter.
-    &amp;rtStart, &amp;rtStop,     // Start and stop times.
+    &rtStart, &rtStop,     // Start and stop times.
     wStartCookie, wStopCookie  // Values for the start and stop events.
 );
 pControl->Run();
@@ -47,7 +47,7 @@ The last two parameters are used for getting event notifications when the stream
 
 
 ```C++
-while (hr = pEvent->GetEvent(&amp;evCode, &amp;param1, &amp;param2, 0), SUCCEEDED(hr))
+while (hr = pEvent->GetEvent(&evCode, &param1, &param2, 0), SUCCEEDED(hr))
 {
     switch (evCode)
     {
@@ -84,7 +84,7 @@ For example, the following code stops the capture stream immediately:
 
 
 ```C++
-pBuild->ControlStream(&amp;PIN_CATEGORY_CAPTURE, &amp;MEDIATYPE_Video, pCap,
+pBuild->ControlStream(&PIN_CATEGORY_CAPTURE, &MEDIATYPE_Video, pCap,
     0, 0,     // Start and stop times.
     wStartCookie, wStopCookie); 
 ```
@@ -99,7 +99,7 @@ To control the preview pin, call **ControlStream** but set the first parameter t
 
 
 ```C++
-pBuild->ControlStream(&amp;PIN_CATEGORY_PREVIEW, &amp;MEDIATYPE_Video, pCap,
+pBuild->ControlStream(&PIN_CATEGORY_PREVIEW, &MEDIATYPE_Video, pCap,
     NULL,    // Start now.
     0,       // (Don't care.)
     wStartCookie, wStopCookie); 
@@ -111,7 +111,7 @@ Use MAXLONGLONG to stop the preview stream:
 
 
 ```C++
-pBuild->ControlStream(&amp;PIN_CATEGORY_PREVIEW, &amp;MEDIATYPE_Video, pCap,
+pBuild->ControlStream(&PIN_CATEGORY_PREVIEW, &MEDIATYPE_Video, pCap,
     0,               // (Don't care.)
     MAXLONGLONG,     // Stop now.
     wStartCookie, wStopCookie); 
@@ -127,7 +127,7 @@ For video port pins, however, the method will fail. In that case, another approa
 ```C++
 // Hide the video window.
 IVideoWindow *pVidWin = 0;
-hr = pGraph->QueryInterface(IID_IVideoWindow, (void**)&amp;pVidWin);
+hr = pGraph->QueryInterface(IID_IVideoWindow, (void**)&pVidWin);
 if (SUCCEEDED(hr))
 {
     pVidWin->put_Visible(OAFALSE);
@@ -147,10 +147,10 @@ If you are capturing more than one stream and sending them to a mux filter — f
 
 
 ```C++
-pBuild->ControlStream(&amp;PIN_CATEGORY_CAPTURE, 
+pBuild->ControlStream(&PIN_CATEGORY_CAPTURE, 
     
 NULL, NULL,       // All capture streams.
-    &amp;rtStart, rtStop, 
+    &rtStart, rtStop, 
     wStartCookie, wStopCookie); 
 ```
 

@@ -49,7 +49,7 @@ HRESULT DoAdd(int a, int b, int* result, WS_ERROR* error)
         // Add error information to error object  
         if (error != NULL)
         {
-            WsAddErrorString(error, &amp;errorString);
+            WsAddErrorString(error, &errorString);
         }
 
         hr = E_NOTIMPL;
@@ -198,7 +198,7 @@ HRESULT CALLBACK Add1(HRESULT hr, WS_CALLBACK_MODEL callbackModel, ADD_STATE* ad
         WS_ASYNC_CONTEXT add2;
         add2.callback = Add2;
         add2.callbackState = addState;
-        hr = Add(addState->sum, addState->c, &amp;addState->sum, (addState->asyncContext.callback != NULL ? &amp;add2 : NULL), addState->error);
+        hr = Add(addState->sum, addState->c, &addState->sum, (addState->asyncContext.callback != NULL ? &add2 : NULL), addState->error);
         if (hr == WS_S_ASYNC)
         {
             // Add2 will get called asynchronously
@@ -241,7 +241,7 @@ HRESULT CALLBACK AddThree(ADD_STATE* addState, int a, int b, int c, int* result,
     WS_ASYNC_CONTEXT add1;
     add1.callback = Add1;
     add1.callbackState = addState;
-    hr = Add(a, b, &amp;addState->sum, (addState->asyncContext.callback != NULL ? &amp;add1 : NULL), error);
+    hr = Add(a, b, &addState->sum, (addState->asyncContext.callback != NULL ? &add1 : NULL), error);
     if (hr == WS_S_ASYNC)
     {
         // Add1 will get called asynchronously
@@ -311,12 +311,12 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
             else
             {
                 // Perform the addition asynchronously
-                asyncContext = &amp;addThreeComplete;
+                asyncContext = &addThreeComplete;
             }
     
             // Perform the addition
             int sum;
-            hr = AddThree(&amp;addState, ints[i], ints[i + 1], ints[i + 2], &amp;sum, asyncContext, NULL);
+            hr = AddThree(&addState, ints[i], ints[i + 1], ints[i + 2], &sum, asyncContext, NULL);
     
             if (hr == WS_S_ASYNC)
             {

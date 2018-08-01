@@ -22,7 +22,7 @@ Point points[] = {Point(0, 100),
                   Point(200, 100)};
 
 Pen pen(Color(255, 0, 0, 255));
-graphics.DrawCurve(&amp;pen, points, 5);
+graphics.DrawCurve(&pen, points, 5);
 ```
 
 
@@ -45,7 +45,7 @@ Point points[] = {Point(60, 60),
    Point(80, 160)};
 
 Pen pen(Color(255, 0, 0, 255));
-graphics.DrawClosedCurve(&amp;pen, points, 6);
+graphics.DrawClosedCurve(&pen, points, 6);
 ```
 
 
@@ -65,9 +65,9 @@ Point points[] = {Point(20, 50),
                   Point(400, 80)};
 
 Pen pen(Color(255, 0, 0, 255));
-graphics.DrawCurve(&amp;pen, points, 5, 0.0f);  // tension 0.0
-graphics.DrawCurve(&amp;pen, points, 5, 0.6f);  // tension 0.6
-graphics.DrawCurve(&amp;pen, points, 5, 1.0f);  // tension 1.0
+graphics.DrawCurve(&pen, points, 5, 0.0f);  // tension 0.0
+graphics.DrawCurve(&pen, points, 5, 0.6f);  // tension 0.6
+graphics.DrawCurve(&pen, points, 5, 1.0f);  // tension 1.0
 ```
 
 

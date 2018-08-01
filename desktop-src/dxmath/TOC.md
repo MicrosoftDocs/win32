@@ -426,7 +426,7 @@
 #### [DirectXMath Triangle Test Functions](ovw-xnamath-triangletests.md)
 ##### [ContainedBy](/windows/desktop/api/DirectXCollision/nf-directxcollision-boundingbox-containedby)
 ##### [Intersects(XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR)](https://msdn.microsoft.com/en-us/library/Hh855919(v=VS.85).aspx)
-##### [Intersects(XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR, float&amp;)](https://msdn.microsoft.com/en-us/library/Hh855922(v=VS.85).aspx)
+##### [Intersects(XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR, float&)](https://msdn.microsoft.com/en-us/library/Hh855922(v=VS.85).aspx)
 ##### [Intersects(XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR)](https://msdn.microsoft.com/en-us/library/Hh855933(v=VS.85).aspx)
 #### [DirectXMath Library Utility Functions](ovw-xnamath-utilities.md)
 ##### [XMComparisonAllFalse](/windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonallfalse)

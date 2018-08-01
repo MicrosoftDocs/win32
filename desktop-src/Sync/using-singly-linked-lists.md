@@ -58,7 +58,7 @@ int main( )
         }
         pProgramItem->Signature = Count;
         pFirstEntry = InterlockedPushEntrySList(pListHead, 
-                       &amp;(pProgramItem->ItemEntry)); 
+                       &(pProgramItem->ItemEntry)); 
     }
 
     // Remove 10 items from the list and display the signature.

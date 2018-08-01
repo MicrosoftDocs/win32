@@ -55,7 +55,7 @@ Ofn.nFileOffset = 0;
 Ofn.nFileExtension = 0; 
 Ofn.lpstrDefExt = szDefExt; 
  
-GetOpenFileName(&amp;Ofn); 
+GetOpenFileName(&Ofn); 
  
 // Open the metafile.  
  
@@ -67,11 +67,11 @@ HDC hDC = GetDC(hWnd);
  
 // Retrieve the client rectangle dimensions.  
  
-GetClientRect(hWnd, &amp;rct); 
+GetClientRect(hWnd, &rct); 
  
 // Draw the picture.  
  
-PlayEnhMetaFile(hDC, hemf, &amp;rct); 
+PlayEnhMetaFile(hDC, hemf, &rct); 
  
 // Release the metafile handle.  
  

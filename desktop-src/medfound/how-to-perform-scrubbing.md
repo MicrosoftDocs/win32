@@ -37,12 +37,12 @@ The following code example shows how to perform scrubbing.
 HRESULT SkipToPosition (MFTIME SeekTime, IMFMediaSession *pMediaSession)
 {
     PROPVARIANT var;
-    PropVariantInit(&amp;var);
+    PropVariantInit(&var);
 
     IMFRateControl *pRateControl = NULL;
 
     // Get the rate control service.
-    HRESULT hr = MFGetService(pMediaSession, MF_RATE_CONTROL_SERVICE, IID_PPV_ARGS(&amp;pRateControl));
+    HRESULT hr = MFGetService(pMediaSession, MF_RATE_CONTROL_SERVICE, IID_PPV_ARGS(&pRateControl));
 
     // Set the playback rate to zero without thinning.
     if(SUCCEEDED(hr))
@@ -64,12 +64,12 @@ HRESULT SkipToPosition (MFTIME SeekTime, IMFMediaSession *pMediaSession)
     // Start the Media Session.
     if(SUCCEEDED(hr))
     {
-        hr = pMediaSession->Start( NULL, &amp;var);
+        hr = pMediaSession->Start( NULL, &var);
     }
 
 // Clean up.
-    SafeRelease(&amp;pRateControl);
-    PropVariantClear(&amp;var)
+    SafeRelease(&pRateControl);
+    PropVariantClear(&var)
     return hr;
 }
 ```

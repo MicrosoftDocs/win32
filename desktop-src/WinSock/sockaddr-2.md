@@ -119,7 +119,7 @@ saServer.sin_port = htons(5150);
 
 // Bind the listening socket using the
 // information in the sockaddr structure
-bind( ListenSocket,(SOCKADDR*) &amp;saServer, sizeof(saServer) );
+bind( ListenSocket,(SOCKADDR*) &saServer, sizeof(saServer) );
 
 
 ```

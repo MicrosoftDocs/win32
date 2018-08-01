@@ -31,7 +31,7 @@ The following example code is taken from MainWindow.cpp in the Windows Animation
 
 UI_ANIMATION_SECONDS secondsNow;
 hr = m_pAnimationTimer->GetTime(
-    &amp;secondsNow
+    &secondsNow
     );
 if (SUCCEEDED(hr))
 {

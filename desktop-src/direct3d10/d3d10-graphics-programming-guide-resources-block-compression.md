@@ -448,7 +448,7 @@ To reinterpret ‘f’ as the type of ‘u’, use [memcpy](http://msdn.microsof
 
 
 ```
-    memcpy( &amp;u, &amp;f, sizeof( f ) ); // ‘u’ becomes equal to 0x3F800000.
+    memcpy( &u, &f, sizeof( f ) ); // ‘u’ becomes equal to 0x3F800000.
 ```
 
 

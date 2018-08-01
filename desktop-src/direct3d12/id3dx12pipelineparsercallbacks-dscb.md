@@ -30,7 +30,7 @@ Calls the domain shader subobject callback of an object that implements this int
 
 ```C++
 void DSCb(
-  [ref] const D3D12_SHADER_BYTECODE &amp;DS
+  [ref] const D3D12_SHADER_BYTECODE &DS
 );
 ```
 

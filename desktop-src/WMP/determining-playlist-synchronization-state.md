@@ -40,7 +40,7 @@ The information contained in the **SyncState** attribute is encoded in a bitwise
 STDMETHODIMP CSyncSettings::GetPartnershipSyncState(IWMPMedia* pMedia, long lPsIndex, ULONG *pulOnDevice, ULONG *pulDidNotFit)
 {
     ATLASSERT(pMedia); 
-    ATLASSERT(lPsIndex > 0 &amp;&amp; 
+    ATLASSERT(lPsIndex > 0 && 
               lPsIndex < 17);
     ATLASSERT(pulOnDevice);
     ATLASSERT(pulDidNotFit);
@@ -48,7 +48,7 @@ STDMETHODIMP CSyncSettings::GetPartnershipSyncState(IWMPMedia* pMedia, long lPsI
     CComVariant varSyncStateVal;   
     CComPtr<IWMPMedia> spMedia(pMedia); 
     CComPtr<IWMPMedia3> spMedia3;     
-    HRESULT hr = spMedia.QueryInterface(&amp;spMedia3); 
+    HRESULT hr = spMedia.QueryInterface(&spMedia3); 
     ULONG ulSyncState = 0; // Stores the ulVal member of varSyncStateVal. 
     ULONG lLSB = 0; // Represents least significant bit: Did the media fail to copy because it would not fit?
     ULONG lMSB = 0; // Represents most significant bit: Is the media on the device?
@@ -57,12 +57,12 @@ STDMETHODIMP CSyncSettings::GetPartnershipSyncState(IWMPMedia* pMedia, long lPsI
     // pair from the SyncState attribute.
     const int iRshift = (lPsIndex - 1) * 2;
 
-    if(SUCCEEDED(hr) &amp;&amp; spMedia3)
+    if(SUCCEEDED(hr) && spMedia3)
     {       
-        hr = spMedia3->getItemInfoByType(CComBSTR("SyncState"), CComBSTR(""), 0, &amp;varSyncStateVal);
+        hr = spMedia3->getItemInfoByType(CComBSTR("SyncState"), CComBSTR(""), 0, &varSyncStateVal);
     }
 
-    if(SUCCEEDED(hr) &amp;&amp; varSyncStateVal.vt == VT_UI4)
+    if(SUCCEEDED(hr) && varSyncStateVal.vt == VT_UI4)
     {   
         // Get the value.
         ulSyncState = varSyncStateVal.ulVal;
@@ -71,7 +71,7 @@ STDMETHODIMP CSyncSettings::GetPartnershipSyncState(IWMPMedia* pMedia, long lPsI
         ulSyncState >>= iRshift; 
 
         // Mask the rightmost bit pair.
-        ulSyncState &amp;= 3;
+        ulSyncState &= 3;
 
         // Get the LSB         
         lLSB = ulSyncState & ~2; // Sets the 2E1 bit to zero. 

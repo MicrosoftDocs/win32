@@ -157,7 +157,7 @@ var firstmedia = pl.item(0);
 WMP9.controls.playItem(firstmedia);
 
 // Test whether idx is within a valid range.
-   if (idx < pl.count &amp;&amp; idx >= 0){
+   if (idx < pl.count && idx >= 0){
 
      // Set the currentItem to the desired playlist item.
      WMP9.controls.currentItem = pl.item(idx);

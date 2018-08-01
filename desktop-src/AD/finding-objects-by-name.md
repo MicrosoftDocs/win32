@@ -38,7 +38,7 @@ The following query string finds all computer objects with a name that begins wi
 
 
 ```C++
-(&amp;(objectCategory=computer)(|(name=leased*)(name=corp*)))
+(&(objectCategory=computer)(|(name=leased*)(name=corp*)))
 ```
 
 
@@ -47,7 +47,7 @@ The following query string finds all users and with a name that begins with "Kar
 
 
 ```C++
-(&amp;(&amp;(objectClass=user)(objectCategory=person))(|(name=Karen*)(name=Jeff*)))
+(&(&(objectClass=user)(objectCategory=person))(|(name=Karen*)(name=Jeff*)))
 ```
 
 

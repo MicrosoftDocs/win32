@@ -55,7 +55,7 @@ The following example initializes a trackbar control. This example assumes that 
 HRESULT CMyProp::OnActivate(void)
 {
     ASSERT(m_pOwningFilter != NULL);
-    m_pOwningFilter->GetSomeProperty(&amp;m_lOldVal);
+    m_pOwningFilter->GetSomeProperty(&m_lOldVal);
     
     SendDlgItemMessage(m_Dlg, IDC_SLIDER1, TBM_SETRANGE, 0, MAKELONG(0, 100));
     SendDlgItemMessage(m_Dlg, IDC_SLIDER1, TBM_SETTICFREQ, 10, 0);

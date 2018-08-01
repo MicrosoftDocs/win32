@@ -34,7 +34,7 @@ void ResetSecondaries(
   [in]       uint32            SecureSecondaries,
   [in]       string            NotifyServers[],
   [in]       uint32            Notify,
-  [out, ref] MicrosoftDns_Zone &amp;RR
+  [out, ref] MicrosoftDns_Zone &RR
 );
 ```
 

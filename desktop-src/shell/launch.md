@@ -110,19 +110,19 @@ main()
     HRESULT hr;
     BOOL fBitmap = FALSE;
 
-    hr = SHGetFolderLocation(NULL, CSIDL_WINDOWS, NULL, NULL, &amp;pidlWinFiles);
+    hr = SHGetFolderLocation(NULL, CSIDL_WINDOWS, NULL, NULL, &pidlWinFiles);
 
-    hr = SHGetDesktopFolder(&amp;psfDeskTop);
+    hr = SHGetDesktopFolder(&psfDeskTop);
 
-    hr = psfDeskTop->BindToObject(pidlWinFiles, NULL, IID_IShellFolder, (LPVOID *) &amp;psfWinFiles);
+    hr = psfDeskTop->BindToObject(pidlWinFiles, NULL, IID_IShellFolder, (LPVOID *) &psfWinFiles);
     hr = psfDeskTop->Release();
 
-    hr = psfWinFiles->EnumObjects(NULL,SHCONTF_FOLDERS | SHCONTF_NONFOLDERS, &amp;ppenum);
+    hr = psfWinFiles->EnumObjects(NULL,SHCONTF_FOLDERS | SHCONTF_NONFOLDERS, &ppenum);
 
-    while( hr = ppenum->Next(1,&amp;pidlItems, &amp;celtFetched) == S_OK &amp;&amp; (celtFetched) == 1)
+    while( hr = ppenum->Next(1,&pidlItems, &celtFetched) == S_OK && (celtFetched) == 1)
     {
-        psfWinFiles->GetDisplayNameOf(pidlItems, SHGDN_FORPARSING, &amp;strDispName);
-        StrRetToBuf(&amp;strDispName, pidlItems, pszParseName, MAX_PATH);
+        psfWinFiles->GetDisplayNameOf(pidlItems, SHGDN_FORPARSING, &strDispName);
+        StrRetToBuf(&strDispName, pidlItems, pszParseName, MAX_PATH);
         CoTaskMemFree(pidlItems);
         if(StrCmpI(PathFindExtension(pszParseName), TEXT( ".bmp")) == 0)
         {
@@ -145,7 +145,7 @@ main()
         ShExecInfo.nShow = SW_MAXIMIZE;
         ShExecInfo.hInstApp = NULL;
 
-        ShellExecuteEx(&amp;ShExecInfo);
+        ShellExecuteEx(&ShExecInfo);
     }
 
     CoTaskMemFree(pidlWinFiles);

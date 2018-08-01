@@ -49,24 +49,24 @@ The following code snippets demonstrate these steps. (All error checking has bee
 
     // Get pointers to the two DMO Wrapper interfaces we need.
     // (Function bodies provided at the end of this snippet.)
-    hr = GetDMOWrapper(pGB, &amp;m_pDMOBaseFilter, &amp;m_pWrapper); 
+    hr = GetDMOWrapper(pGB, &m_pDMOBaseFilter, &m_pWrapper); 
 
     //Disconnect the DMO Wrapper from the Audio Renderer
     CComPtr<IPin> pDMOOut;
     CComPtr<IPin> pRendererIn;
-    hr = GetPin(m_pDMOBaseFilter, PINDIR_OUTPUT, &amp;pDMOOut);
-    hr = pDMOOut->ConnectedTo(&amp;pRendererIn);
+    hr = GetPin(m_pDMOBaseFilter, PINDIR_OUTPUT, &pDMOOut);
+    hr = pDMOOut->ConnectedTo(&pRendererIn);
     hr = pDMOOut->Disconnect();
     hr = pRendererIn->Disconnect();
 
     //Set the property on the DMO
     VARIANT varg;
-    ::VariantInit(&amp;varg);
+    ::VariantInit(&varg);
     varg.vt    = VT_BOOL;
     varg.boolVal = TRUE;
-    CComQIPtr<IMediaObject, &amp;IID_IMediaObject> pMediaObject(m_pWrapper);
-    CComQIPtr<IPropertyBag, &amp;IID_IPropertyBag> pPropertyBag(pMediaObject);
-    hr = pPropertyBag->Write(g_wszWMACHiResOutput, &amp;varg);
+    CComQIPtr<IMediaObject, &IID_IMediaObject> pMediaObject(m_pWrapper);
+    CComQIPtr<IPropertyBag, &IID_IPropertyBag> pPropertyBag(pMediaObject);
+    hr = pPropertyBag->Write(g_wszWMACHiResOutput, &varg);
 
     // Reconnect the DMO Wrapper and the Audio Renderer
     hr = pGB->Connect(pDMOOut, pRendererIn);
@@ -89,15 +89,15 @@ HRESULT GetDMOWrapper (IFilterGraph *pGraph, IBaseFilter** m_pDMOBaseFilter, IDM
     CComPtr<IBaseFilter> pFilter;
     ULONG cFetched;
 
-    HRESULT hr = pGraph->EnumFilters(&amp;pEnum);
+    HRESULT hr = pGraph->EnumFilters(&pEnum);
     if (FAILED(hr)) return hr;
 
-    while(pEnum->Next(1, &amp;pFilter, &amp;cFetched) == S_OK)
+    while(pEnum->Next(1, &pFilter, &cFetched) == S_OK)
     {
         // If we find the IDMOWrapperFilter interface, that means we 
         // have the DMO Wrapper filter. Store both interfaces for future use.
         CComPtr<IDMOWrapperFilter> pWrapper;
-        hr = pFilter->QueryInterface(IID_IDMOWrapperFilter, (void**) &amp;pWrapper);
+        hr = pFilter->QueryInterface(IID_IDMOWrapperFilter, (void**) &pWrapper);
         if (SUCCEEDED(hr))
         {
             *m_pWrapper = pWrapper.Detach();
@@ -116,15 +116,15 @@ HRESULT GetPin(IBaseFilter *pFilter, PIN_DIRECTION PinDir, IPin** ppPin)
     CComPtr<IEnumPins>  pEnum;
     CComPtr<IPin>       pPin;
 
-         HRESULT hr = pFilter->EnumPins(&amp;pEnum);
+         HRESULT hr = pFilter->EnumPins(&pEnum);
     if (FAILED(hr))
     {
         return hr;
     }
-    while(pEnum->Next(1, &amp;pPin, 0) == S_OK)
+    while(pEnum->Next(1, &pPin, 0) == S_OK)
     {
         PIN_DIRECTION PinDirThis;
-        pPin->QueryDirection(&amp;PinDirThis);
+        pPin->QueryDirection(&PinDirThis);
         if (PinDir == PinDirThis)
         {
             *ppPin = pPin.Detach();

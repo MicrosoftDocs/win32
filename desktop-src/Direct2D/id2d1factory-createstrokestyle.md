@@ -56,7 +56,7 @@ if (SUCCEEDED(hr))
             0.0f),
         dashes,
         ARRAYSIZE(dashes),
-        &amp;m_pStrokeStyleCustomOffsetZero
+        &m_pStrokeStyleCustomOffsetZero
         );
 }
 ```

@@ -39,7 +39,7 @@ A client-side script may have to extract the device description URL from the pre
 Dim QueryString
 QueryString = window.location.search
 Dim DescURLString
-DescURLString = Trim(Mid(QueryString,2,Instr(QueryString,"+")-2))&amp; vbCrLf
+DescURLString = Trim(Mid(QueryString,2,Instr(QueryString,"+")-2))& vbCrLf
 
     Dim LightDesc
     Set LightDesc = CreateObject("UPnP.DescriptionDocument.1")

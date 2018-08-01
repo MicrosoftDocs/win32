@@ -84,11 +84,11 @@ int _tmain(int argc, _TCHAR* argv[])
     
     CRYPT_DATA_BLOB SignedMessage;
 
-    if(SignMessage(&amp;SignedMessage))
+    if(SignMessage(&SignedMessage))
     {
         CRYPT_DATA_BLOB DecodedMessage;
 
-        if(VerifySignedMessage(&amp;SignedMessage, &amp;DecodedMessage))
+        if(VerifySignedMessage(&SignedMessage, &DecodedMessage))
         {
             free(DecodedMessage.pbData);
         }
@@ -184,7 +184,7 @@ bool SignMessage(CRYPT_DATA_BLOB *pSignedMessageBlob)
     SigParams.HashAlgorithm.pszObjId = szOID_RSA_SHA1RSA;
     SigParams.HashAlgorithm.Parameters.cbData = NULL;
     SigParams.cMsgCert = 1;
-    SigParams.rgpMsgCert = &amp;pSignerCert;
+    SigParams.rgpMsgCert = &pSignerCert;
     SigParams.cAuthAttr = 0;
     SigParams.dwInnerContentType = 0;
     SigParams.cMsgCrl = 0;
@@ -195,13 +195,13 @@ bool SignMessage(CRYPT_DATA_BLOB *pSignedMessageBlob)
 
     // First, get the size of the signed BLOB.
     if(CryptSignMessage(
-        &amp;SigParams,
+        &SigParams,
         FALSE,
         1,
         MessageArray,
         MessageSizeArray,
         NULL,
-        &amp;cbSignedMessageBlob))
+        &cbSignedMessageBlob))
     {
         _tprintf(TEXT("%d bytes needed for the encoded BLOB.\n"),
             cbSignedMessageBlob);
@@ -223,13 +223,13 @@ bool SignMessage(CRYPT_DATA_BLOB *pSignedMessageBlob)
 
     // Get the signed message BLOB.
     if(CryptSignMessage(
-          &amp;SigParams,
+          &SigParams,
           FALSE,
           1,
           MessageArray,
           MessageSizeArray,
           pbSignedMessageBlob,
-          &amp;cbSignedMessageBlob))
+          &cbSignedMessageBlob))
     {
         _tprintf(TEXT("The message was signed successfully. \n"));
 
@@ -303,12 +303,12 @@ bool VerifySignedMessage(
     // First, call CryptVerifyMessageSignature to get the length 
     // of the buffer needed to hold the decoded message.
     if(CryptVerifyMessageSignature(
-        &amp;VerifyParams,
+        &VerifyParams,
         0,
         pSignedMessageBlob->pbData,
         pSignedMessageBlob->cbData,
         NULL,
-        &amp;cbDecodedMessageBlob,
+        &cbDecodedMessageBlob,
         NULL))
     {
         _tprintf(TEXT("%d bytes needed for the decoded message.\n"),
@@ -337,12 +337,12 @@ bool VerifySignedMessage(
     // This will validate the signature against the certificate in 
     // the local store.
     if(CryptVerifyMessageSignature(
-        &amp;VerifyParams,
+        &VerifyParams,
         0,
         pSignedMessageBlob->pbData,
         pSignedMessageBlob->cbData,
         pbDecodedMessageBlob,
-        &amp;cbDecodedMessageBlob,
+        &cbDecodedMessageBlob,
         NULL))
     {
         _tprintf(TEXT("The verified message is \"%s\".\n"),

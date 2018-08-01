@@ -70,7 +70,7 @@ The `Init` method calls [CoCreateFreeThreadedMarshaler](https://msdn.microsoft.c
 // Init: set up free threaded marshaller.
 HRESULT Init()
 {
-    return CoCreateFreeThreadedMarshaler(this, &amp;m_punkFTM);
+    return CoCreateFreeThreadedMarshaler(this, &m_punkFTM);
 }
 ```
 
@@ -86,18 +86,18 @@ HRESULT AdviseInkCollector(
 {
     // Get the connection point container
     IConnectionPointContainer *pIConnectionPointContainer;
-    HRESULT hr = pIInkCollector->QueryInterface(IID_IConnectionPointContainer, (void **) &amp;pIConnectionPointContainer);
+    HRESULT hr = pIInkCollector->QueryInterface(IID_IConnectionPointContainer, (void **) &pIConnectionPointContainer);
         
     if (FAILED(hr))
         ...
     
     // Find the connection point for Ink Collector events
-    hr = pIConnectionPointContainer->FindConnectionPoint(__uuidof(_IInkCollectorEvents), &amp;m_pIConnectionPoint);
+    hr = pIConnectionPointContainer->FindConnectionPoint(__uuidof(_IInkCollectorEvents), &m_pIConnectionPoint);
         
     if (SUCCEEDED(hr))
     {
         // Hook up sink to connection point
-        hr = m_pIConnectionPoint->Advise(this, &amp;m_dwCookie);
+        hr = m_pIConnectionPoint->Advise(this, &m_dwCookie);
     }
     
     if (FAILED(hr))
@@ -182,7 +182,7 @@ HWND hWnd)
         ...
 
     // Create the ink collector
-    hr = CoCreateInstance(CLSID_InkCollector, NULL, CLSCTX_ALL, IID_IInkCollector, (void **) &amp;m_pInkCollector);
+    hr = CoCreateInstance(CLSID_InkCollector, NULL, CLSCTX_ALL, IID_IInkCollector, (void **) &m_pInkCollector);
 
     if (FAILED(hr))
         ...

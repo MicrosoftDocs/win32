@@ -43,11 +43,11 @@ AddSignatureRequestToDocument (
     IXpsSignatureRequest     *signatureRequest = NULL;
     
     // Create a new signature block and get a pointer to it
-    hr = signatureManager->AddSignatureBlock (NULL, 0, &amp;signatureDefinition);
+    hr = signatureManager->AddSignatureBlock (NULL, 0, &signatureDefinition);
     
     if (SUCCEEDED(hr)) {
         // Create a new signature request to use for this signature block
-        hr = signatureDefinition->CreateRequest(NULL, &amp;signatureRequest);
+        hr = signatureDefinition->CreateRequest(NULL, &signatureRequest);
     }
 
     if (SUCCEEDED(hr)) {

@@ -236,7 +236,7 @@ Implementations are permitted D3D<em>xx</em>_FLOAT32_TO_INTEGER_TOLERANCE_IN_ULP
 <tr class="even">
 <td>Fixed Point Integer</td>
 <td>FLOAT</td>
-<td>Assume that the specific fixed point representation being converted to float does not contain more than a total of 24 bits of information, no more than 23 bits of which is in the fractional component. Suppose a given fixed point number, fxp, is in i.f form (i bits integer, f bits fraction). The conversion to float is akin to the following pseudocode.<br/> float result = (float)(fxp &gt;&gt; f) + // extract integer<br/> <dl> ((float)(fxp &amp; (2<sup>f</sup> - 1)) / (2<sup>f</sup>)); // extract fraction<br />
+<td>Assume that the specific fixed point representation being converted to float does not contain more than a total of 24 bits of information, no more than 23 bits of which is in the fractional component. Suppose a given fixed point number, fxp, is in i.f form (i bits integer, f bits fraction). The conversion to float is akin to the following pseudocode.<br/> float result = (float)(fxp &gt;&gt; f) + // extract integer<br/> <dl> ((float)(fxp & (2<sup>f</sup> - 1)) / (2<sup>f</sup>)); // extract fraction<br />
 </dl></td>
 </tr>
 </tbody>

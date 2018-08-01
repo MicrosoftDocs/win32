@@ -42,7 +42,7 @@ HRESULT ModifyPrivilege(
     // Open the process token for this process.
     if (!OpenProcessToken(GetCurrentProcess(),
                           TOKEN_ADJUST_PRIVILEGES | TOKEN_QUERY,
-                          &amp;hToken ))
+                          &hToken ))
     {
         printf("Failed OpenProcessToken\n");
         return ERROR_FUNCTION_FAILED;
@@ -51,7 +51,7 @@ HRESULT ModifyPrivilege(
     // Get the local unique ID for the privilege.
     if ( !LookupPrivilegeValue( NULL,
                                 szPrivilege,
-                                &amp;luid ))
+                                &luid ))
     {
         CloseHandle( hToken );
         printf("Failed LookupPrivilegeValue\n");
@@ -67,7 +67,7 @@ HRESULT ModifyPrivilege(
     // Adjust the token privilege.
     if (!AdjustTokenPrivileges(hToken,
                                FALSE,
-                               &amp;NewState,
+                               &NewState,
                                0,
                                NULL,
                                NULL))

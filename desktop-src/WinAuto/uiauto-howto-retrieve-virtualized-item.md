@@ -38,22 +38,22 @@ HRESULT GetContainerItem (BSTR bstrItemName, IUIAutomationElement *pContainerEle
     // item is virtualized. Note: g_pAutomation is a global pointer to the IUIAutomation interface.
     varNameStr.vt = VT_BSTR;
     varNameStr.bstrVal = SysAllocString(bstrItemName);
-    hr = g_pAutomation->CreatePropertyCondition(UIA_NamePropertyId, varNameStr, &amp;pNamePropertyCond);
+    hr = g_pAutomation->CreatePropertyCondition(UIA_NamePropertyId, varNameStr, &pNamePropertyCond);
     if (pNamePropertyCond == NULL)
         goto cleanup;
 
-    hr = pContainerElement->FindFirst(TreeScope_Subtree, pNamePropertyCond, &amp;pFoundElement);
+    hr = pContainerElement->FindFirst(TreeScope_Subtree, pNamePropertyCond, &pFoundElement);
     if (pFoundElement == NULL) { 
 
         // The item is not in the UI Automation tree, so it may be virtualized. Try
         // using the ItemContainer control pattern to find the item.
         hr = pContainerElement->GetCurrentPatternAs(UIA_ItemContainerPatternId, 
                                                     __uuidof(IUIAutomationItemContainerPattern), 
-                                                    (void**)&amp;pItemContainer);
+                                                    (void**)&pItemContainer);
         if (pItemContainer == NULL)
             goto cleanup;
 
-        hr = pItemContainer->FindItemByProperty(NULL, UIA_NamePropertyId, varNameStr, &amp;pFoundElement);
+        hr = pItemContainer->FindItemByProperty(NULL, UIA_NamePropertyId, varNameStr, &pFoundElement);
         if (pFoundElement == NULL) // container has no item with the specified name
             goto cleanup;
     }
@@ -61,14 +61,14 @@ HRESULT GetContainerItem (BSTR bstrItemName, IUIAutomationElement *pContainerEle
     // Attempt to get the name property. The attempt will fail with 
     // UIA_E_ELEMENTNOTAVAILABLE if the item is virtualized. 
     BSTR bstrName; 
-    hr = pFoundElement->get_CurrentName(&amp;bstrName);
+    hr = pFoundElement->get_CurrentName(&bstrName);
     if (hr == UIA_E_ELEMENTNOTAVAILABLE) 
     {
         // The item might be virtualized. Use the VirtualizedItem control pattern to 
         // realize the item. 
         IUIAutomationVirtualizedItemPattern *pVirtualizedItem;
         hr = pFoundElement->GetCurrentPatternAs(UIA_VirtualizedItemPatternId, 
-                    __uuidof(IUIAutomationVirtualizedItemPattern), (void**)&amp;pVirtualizedItem);
+                    __uuidof(IUIAutomationVirtualizedItemPattern), (void**)&pVirtualizedItem);
         if (pVirtualizedItem == NULL)
             goto cleanup;
 
@@ -79,7 +79,7 @@ HRESULT GetContainerItem (BSTR bstrItemName, IUIAutomationElement *pContainerEle
             goto cleanup;
 
         // Try to get the name again. 
-        hr = pFoundElement->get_CurrentName(&amp;bstrName);
+        hr = pFoundElement->get_CurrentName(&bstrName);
     }    
 
     if (SUCCEEDED(hr))
@@ -94,7 +94,7 @@ HRESULT GetContainerItem (BSTR bstrItemName, IUIAutomationElement *pContainerEle
 
 
 cleanup:
-        VariantClear(&amp;varNameStr);
+        VariantClear(&varNameStr);
 
         if (pNamePropertyCond != NULL) pNamePropertyCond->Release();
         if (pFoundElement != NULL) pFoundElement->Release();

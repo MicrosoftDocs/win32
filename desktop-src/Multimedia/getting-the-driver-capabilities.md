@@ -23,8 +23,8 @@ BOOL bDev1Attached, bDev2Attached;
  
     if((wNumDevs = joyGetNumDevs()) == 0) 
         return ERR_NODRIVER; 
-    bDev1Attached = joyGetPos(JOYSTICKID1,&amp;joyinfo) != JOYERR_UNPLUGGED; 
-    bDev2Attached = wNumDevs == 2 &amp;&amp; joyGetPos(JOYSTICKID2,&amp;joyinfo) != 
+    bDev1Attached = joyGetPos(JOYSTICKID1,&joyinfo) != JOYERR_UNPLUGGED; 
+    bDev2Attached = wNumDevs == 2 && joyGetPos(JOYSTICKID2,&joyinfo) != 
         JOYERR_UNPLUGGED; 
     if(bDev1Attached || bDev2Attached)   // decide which joystick to use 
         wDeviceID = bDev1Attached ? JOYSTICKID1 : JOYSTICKID2; 

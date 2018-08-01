@@ -33,7 +33,7 @@ void Modify(
   [in, optional] uint32                TTL,
   [in, optional] string                ISDNNumber,
   [in, optional] string                SubAddress,
-  [out, ref]     MicrosoftDNS_ISDNType &amp;RR
+  [out, ref]     MicrosoftDNS_ISDNType &RR
 );
 ```
 

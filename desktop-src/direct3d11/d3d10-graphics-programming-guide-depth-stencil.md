@@ -38,7 +38,7 @@ descDepth.Usage = D3D11_USAGE_DEFAULT;
 descDepth.BindFlags = D3D11_BIND_DEPTH_STENCIL;
 descDepth.CPUAccessFlags = 0;
 descDepth.MiscFlags = 0;
-hr = pd3dDevice->CreateTexture2D( &amp;descDepth, NULL, &amp;pDepthStencil );
+hr = pd3dDevice->CreateTexture2D( &descDepth, NULL, &pDepthStencil );
 ```
 
 
@@ -75,7 +75,7 @@ dsDesc.BackFace.StencilFunc = D3D11_COMPARISON_ALWAYS;
 
 // Create depth stencil state
 ID3D11DepthStencilState * pDSState;
-pd3dDeviceContext->CreateDepthStencilState(&amp;dsDesc, &amp;pDSState);
+pd3dDeviceContext->CreateDepthStencilState(&dsDesc, &pDSState);
 ```
 
 
@@ -108,12 +108,12 @@ descDSV.Texture2D.MipSlice = 0;
 // Create the depth stencil view
 ID3D11DepthStencilView* pDSV;
 hr = pd3dDevice->CreateDepthStencilView( pDepthStencil, // Depth stencil texture
-                                         &amp;descDSV, // Depth stencil desc
-                                         &amp;pDSV );  // [out] Depth stencil view
+                                         &descDSV, // Depth stencil desc
+                                         &pDSV );  // [out] Depth stencil view
 
 // Bind the depth stencil view
 pd3dDeviceContext->OMSetRenderTargets( 1,          // One rendertarget view
-                                &amp;pRTV,      // Render target view, created earlier
+                                &pRTV,      // Render target view, created earlier
                                 pDSV );     // Depth stencil view for the render target
 ```
 

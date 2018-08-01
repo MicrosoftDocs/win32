@@ -86,7 +86,7 @@ If your application creates a timer without specifying a window handle, your app
 HWND hwndTimer;   // handle to window for timer messages 
 MSG msg;          // message structure 
  
-    while (GetMessage(&amp;msg, // message structure 
+    while (GetMessage(&msg, // message structure 
             NULL,           // handle to window to receive the message 
                0,           // lowest message to examine 
                0))          // highest message to examine 
@@ -99,8 +99,8 @@ MSG msg;          // message structure
             msg.hwnd = hwndTimer; 
         } 
  
-        TranslateMessage(&amp;msg); // translates virtual-key codes 
-        DispatchMessage(&amp;msg);  // dispatches message to window 
+        TranslateMessage(&msg); // translates virtual-key codes 
+        DispatchMessage(&msg);  // dispatches message to window 
     } 
 ```
 
@@ -143,7 +143,7 @@ wc.hCursor = LoadCursor(hinstance, MAKEINTRESOURCE(200));
  
 // Record the initial cursor position. 
  
-GetCursorPos(&amp;ptOld); 
+GetCursorPos(&ptOld); 
  
 // Set the timer for the mousetrap. 
  
@@ -182,11 +182,11 @@ LONG APIENTRY MainWndProc(
  
             if (IsIconic(hwnd)) 
             { 
-                GetCursorPos(&amp;pt); 
+                GetCursorPos(&pt); 
  
-                if ((pt.x == ptOld.x) &amp;&amp; (pt.y == ptOld.y)) 
+                if ((pt.x == ptOld.x) && (pt.y == ptOld.y)) 
                 { 
-                    GetWindowRect(hwnd, &amp;rc); 
+                    GetWindowRect(hwnd, &rc); 
                     SetCursorPos(rc.left, rc.top); 
                 } 
                 else 
@@ -233,7 +233,7 @@ wc.hCursor = LoadCursor(hinstance, MAKEINTRESOURCE(200));
  
 // Record the current cursor position. 
  
-GetCursorPos(&amp;ptOld); 
+GetCursorPos(&ptOld); 
  
 // Set the timer for the mousetrap. 
  
@@ -295,11 +295,11 @@ VOID CALLBACK MyTimerProc(
  
     if (IsIconic(hwnd)) 
     { 
-        GetCursorPos(&amp;pt); 
+        GetCursorPos(&pt); 
  
-        if ((pt.x == ptOld.x) &amp;&amp; (pt.y == ptOld.y)) 
+        if ((pt.x == ptOld.x) && (pt.y == ptOld.y)) 
         { 
-            GetWindowRect(hwnd, &amp;rc); 
+            GetWindowRect(hwnd, &rc); 
             SetCursorPos(rc.left, rc.top); 
         } 
         else 

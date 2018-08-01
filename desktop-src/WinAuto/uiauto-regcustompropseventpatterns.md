@@ -89,13 +89,13 @@ HRESULT RegisterProperty()
     // interface pointer. 
     IUIAutomationRegistrar * pUIARegistrar = NULL;
     CoCreateInstance(CLSID_CUIAutomationRegistrar, NULL, CLSCTX_INPROC_SERVER, 
-            IID_IUIAutomationRegistrar, (void **)&amp;pUIARegistrar);
+            IID_IUIAutomationRegistrar, (void **)&pUIARegistrar);
 
     if (pUIARegistrar == NULL)
         return E_NOINTERFACE;
 
     // Register the property and retrieve the property ID. 
-    HRESULT hr = pUIARegistrar->RegisterProperty(&amp;MyCustomPropertyInfo, &amp;g_MyCustomPropertyID);
+    HRESULT hr = pUIARegistrar->RegisterProperty(&MyCustomPropertyInfo, &g_MyCustomPropertyID);
     pUIARegistrar->Release();
 
     return hr;
@@ -357,7 +357,7 @@ public:
     STDMETHODIMP SetValue(LPCWSTR pValue)
     {
         UIAutomationParameter SetValueParams[] = 
-                { UIAutomationType_String, &amp;pValue };
+                { UIAutomationType_String, &pValue };
         return _pInstance->CallMethod(MyValue_SetValue,  SetValueParams, 
                 ARRAYSIZE(SetValueParams));
     }
@@ -462,7 +462,7 @@ UIAutomationPatternInfo g_ValuePatternInfo =
     ARRAYSIZE(g_MyValueProperties), g_MyValueProperties, // properties
     ARRAYSIZE(g_MyValueMethods), g_MyValueMethods,       // methods
     ARRAYSIZE(g_MyValueEvents), g_MyValueEvents,         // events 
-    &amp;g_MyValuePatternHandler
+    &g_MyValuePatternHandler
 };
 
 // Step 5: Register the custom control pattern and retrieve the control pattern and property 
@@ -482,7 +482,7 @@ HRESULT RegisterPattern()
     // Create the registrar object and get the IUIAutomationRegistrar interface pointer. 
     IUIAutomationRegistrar * pUIARegistrar;
     CoCreateInstance(CLSID_CUIAutomationRegistrar, NULL, CLSCTX_INPROC_SERVER, 
-            IID_IUIAutomationRegistrar, (void **)&amp;pUIARegistrar);
+            IID_IUIAutomationRegistrar, (void **)&pUIARegistrar);
 
     if (pUIARegistrar == NULL)
         return E_NOINTERFACE;
@@ -491,13 +491,13 @@ HRESULT RegisterPattern()
 
     // Register the control pattern.
     HRESULT hr = pUIARegistrar->RegisterPattern(
-        &amp;g_ValuePatternInfo,
-        &amp;g_MyValue_PatternID,
-        &amp;g_IsMyValuePatternAvailable_PropertyID,
+        &g_ValuePatternInfo,
+        &g_MyValue_PatternID,
+        &g_IsMyValuePatternAvailable_PropertyID,
         ARRAYSIZE(propIDs), 
         propIDs,
         1,
-        &amp;g_MyValueReset_EventID);
+        &g_MyValueReset_EventID);
             
     if (hr == S_OK)
     {

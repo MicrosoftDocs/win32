@@ -52,7 +52,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -60,7 +60,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -96,7 +96,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -106,7 +106,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateReader(
         NULL,
         0, 
-        &amp;reader, 
+        &reader, 
         error);
     if (FAILED(hr))
     {
@@ -116,7 +116,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // Setup the input
     WS_XML_READER_BUFFER_INPUT bufferInput;
     ZeroMemory(
-        &amp;bufferInput,
+        &bufferInput,
         sizeof(bufferInput));
     bufferInput.input.inputType = WS_XML_READER_INPUT_TYPE_BUFFER;
     bufferInput.encodedData = (BYTE*)xml;
@@ -125,7 +125,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // Setup the encoding
     WS_XML_READER_TEXT_ENCODING textEncoding;
     ZeroMemory(
-        &amp;textEncoding,
+        &textEncoding,
         sizeof(textEncoding));
     textEncoding.encoding.encodingType = WS_XML_READER_ENCODING_TYPE_TEXT;
     textEncoding.charSet = WS_CHARSET_AUTO;
@@ -134,8 +134,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // Setup the reader
     hr = WsSetInput(
         reader, 
-        &amp;textEncoding.encoding, 
-        &amp;bufferInput.input, 
+        &textEncoding.encoding, 
+        &bufferInput.input, 
         NULL, 
         0, 
         error);
@@ -146,8 +146,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     hr = WsReadToStartElement(
         reader, 
-        &amp;valueLocalName, 
-        &amp;valueNs, 
+        &valueLocalName, 
+        &valueNs, 
         NULL, 
         error);
     if (FAILED(hr))
@@ -171,7 +171,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
             reader,
             chars,
             128, 
-            &amp;charCount,
+            &charCount,
             error);
     if (FAILED(hr))
     {

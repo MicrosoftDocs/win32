@@ -53,7 +53,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -61,7 +61,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -94,18 +94,18 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
     WS_XML_WRITER_BUFFER_OUTPUT bufferOutput;
-    ZeroMemory(&amp;bufferOutput, sizeof(bufferOutput));
+    ZeroMemory(&bufferOutput, sizeof(bufferOutput));
     bufferOutput.output.outputType = WS_XML_WRITER_OUTPUT_TYPE_BUFFER;
     
     WS_XML_WRITER_TEXT_ENCODING writerTextEncoding;
-    ZeroMemory(&amp;writerTextEncoding, sizeof(writerTextEncoding));
+    ZeroMemory(&writerTextEncoding, sizeof(writerTextEncoding));
     writerTextEncoding.encoding.encodingType = WS_XML_WRITER_ENCODING_TYPE_TEXT;
     writerTextEncoding.charSet = WS_CHARSET_UTF8;
     
@@ -113,20 +113,20 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateWriter(
         NULL, 
         0, 
-        &amp;xmlWriter, 
+        &xmlWriter, 
         error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
-    hr = WsSetOutput(xmlWriter, &amp;writerTextEncoding.encoding, &amp;bufferOutput.output, NULL, 0, error);
+    hr = WsSetOutput(xmlWriter, &writerTextEncoding.encoding, &bufferOutput.output, NULL, 0, error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
-    hr = WsWriteStartElement(xmlWriter, NULL, &amp;arrayElement, &amp;emptyNamespace, error);
+    hr = WsWriteStartElement(xmlWriter, NULL, &arrayElement, &emptyNamespace, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -134,7 +134,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     ULONG data[] = { 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89 };
     hr = WsWriteArray(xmlWriter, 
-        &amp;itemElement, &amp;emptyNamespace, WS_UINT32_VALUE_TYPE, 
+        &itemElement, &emptyNamespace, WS_UINT32_VALUE_TYPE, 
         data, sizeof(data), 0, WsCountOf(data), error);
     if (FAILED(hr))
     {
@@ -148,37 +148,37 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     }
     
     WS_BYTES buffer;
-    hr = WsGetWriterProperty(xmlWriter, WS_XML_WRITER_PROPERTY_BYTES, &amp;buffer, sizeof(buffer), error);
+    hr = WsGetWriterProperty(xmlWriter, WS_XML_WRITER_PROPERTY_BYTES, &buffer, sizeof(buffer), error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
     WS_XML_READER_BUFFER_INPUT bufferInput;
-    ZeroMemory(&amp;bufferInput, sizeof(bufferInput));
+    ZeroMemory(&bufferInput, sizeof(bufferInput));
     bufferInput.input.inputType = WS_XML_READER_INPUT_TYPE_BUFFER;
     bufferInput.encodedData = buffer.bytes;
     bufferInput.encodedDataSize = buffer.length;
     
     WS_XML_READER_TEXT_ENCODING readerTextEncoding;
-    ZeroMemory(&amp;readerTextEncoding, sizeof(readerTextEncoding));
+    ZeroMemory(&readerTextEncoding, sizeof(readerTextEncoding));
     readerTextEncoding.encoding.encodingType = WS_XML_READER_ENCODING_TYPE_TEXT;
     readerTextEncoding.charSet = WS_CHARSET_AUTO;
     
     // Create an XML reader
-    hr = WsCreateReader(NULL, 0, &amp;xmlReader, error);
+    hr = WsCreateReader(NULL, 0, &xmlReader, error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
-    hr = WsSetInput(xmlReader, &amp;readerTextEncoding.encoding, &amp;bufferInput.input, NULL, 0, error);
+    hr = WsSetInput(xmlReader, &readerTextEncoding.encoding, &bufferInput.input, NULL, 0, error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
-    hr = WsReadToStartElement(xmlReader, &amp;arrayElement, &amp;emptyNamespace, NULL, error);
+    hr = WsReadToStartElement(xmlReader, &arrayElement, &emptyNamespace, NULL, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -196,8 +196,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     {
         ULONG actualCount;
         hr = WsReadArray(xmlReader, 
-            &amp;itemElement, &amp;emptyNamespace, WS_UINT32_VALUE_TYPE, 
-            items, sizeof(items), itemCount, WsCountOf(items) - itemCount, &amp;actualCount, error);
+            &itemElement, &emptyNamespace, WS_UINT32_VALUE_TYPE, 
+            items, sizeof(items), itemCount, WsCountOf(items) - itemCount, &actualCount, error);
         if (FAILED(hr))
         {
             goto Exit;

@@ -29,7 +29,7 @@ The `CurrentMediaType` method retrieves the media type for the current pin conne
 
 
 ```C++
-CMediaType&amp; CurrentMediaType();
+CMediaType& CurrentMediaType();
 ```
 
 

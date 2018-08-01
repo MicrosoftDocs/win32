@@ -99,7 +99,7 @@ for(iCnt=0;iCnt<MAX_ITEMS;iCnt++){
     
     // Tell the ComboBoxEx to add the item. Return FALSE if 
     // this fails.
-    if(SendMessage(hwndCB,CBEM_INSERTITEM,0,(LPARAM)&amp;cbei) == -1)
+    if(SendMessage(hwndCB,CBEM_INSERTITEM,0,(LPARAM)&cbei) == -1)
         return FALSE;
 ```
 
@@ -181,7 +181,7 @@ BOOL WINAPI AddItems(HWND hwndCB)
         
         // Tell the ComboBoxEx to add the item. Return FALSE if 
         // this fails.
-        if(SendMessage(hwndCB,CBEM_INSERTITEM,0,(LPARAM)&amp;cbei) == -1)
+        if(SendMessage(hwndCB,CBEM_INSERTITEM,0,(LPARAM)&cbei) == -1)
             return FALSE;
     }
     // Assign the existing image list to the ComboBoxEx control 

@@ -92,7 +92,7 @@ The following sample code demonstrates how to build the proper PID\_GTHR\_DIRLIN
 ```
 // params are assumed to be valid
 
-HRESULT GetPropVariantForUrlAndTime(PCWSTR pszUrl, const FILETIME &amp;ftLastModified, PROPVARIANT **ppPropValue)
+HRESULT GetPropVariantForUrlAndTime(PCWSTR pszUrl, const FILETIME &ftLastModified, PROPVARIANT **ppPropValue)
 {
     *ppPropValue = NULL;
 
@@ -116,7 +116,7 @@ HRESULT GetPropVariantForUrlAndTime(PCWSTR pszUrl, const FILETIME &amp;ftLastMod
             (*ppPropValue)->capropvar.cElems = 2;
             (*ppPropValue)->capropvar.pElems = pVector;
             PWSTR pszUrlAlloc;
-            hr = SHStrDup(pszUrl, &amp;pszUrlAlloc);
+            hr = SHStrDup(pszUrl, &pszUrlAlloc);
 
             if (SUCCEEDED(hr))
             {

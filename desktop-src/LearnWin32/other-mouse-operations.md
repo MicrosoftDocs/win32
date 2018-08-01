@@ -49,17 +49,17 @@ The following code confines the cursor to the client area of the window.
 ```C++
     // Get the window client area.
     RECT rc;
-    GetClientRect(m_hwnd, &amp;rc);
+    GetClientRect(m_hwnd, &rc);
 
     // Convert the client area to screen coordinates.
     POINT pt = { rc.left, rc.top };
     POINT pt2 = { rc.right, rc.bottom };
-    ClientToScreen(m_hwnd, &amp;pt);
-    ClientToScreen(m_hwnd, &amp;pt2);
-    SetRect(&amp;rc, pt.x, pt.y, pt2.x, pt2.y);
+    ClientToScreen(m_hwnd, &pt);
+    ClientToScreen(m_hwnd, &pt2);
+    SetRect(&rc, pt.x, pt.y, pt2.x, pt2.y);
 
     // Confine the cursor.
-    ClipCursor(&amp;rc);
+    ClipCursor(&rc);
 ```
 
 
@@ -91,7 +91,7 @@ To enable these messages, call the [**TrackMouseEvent**](https://msdn.microsoft.
     tme.hwndTrack = hwnd;
     tme.dwFlags = TME_HOVER | TME_LEAVE;
     tme.dwHoverTime = HOVER_DEFAULT;
-    TrackMouseEvent(&amp;tme);
+    TrackMouseEvent(&tme);
 ```
 
 
@@ -123,7 +123,7 @@ public:
             tme.hwndTrack = hwnd;
             tme.dwFlags = TME_HOVER | TME_LEAVE;
             tme.dwHoverTime = HOVER_DEFAULT;
-            TrackMouseEvent(&amp;tme);
+            TrackMouseEvent(&tme);
             m_bMouseTracking = true;
         }
     }
@@ -181,7 +181,7 @@ For completeness, here is a function that queries the system for the default hov
 UINT GetMouseHoverTime()
 {
     UINT msec; 
-    if (SystemParametersInfo(SPI_GETMOUSEHOVERTIME, 0, &amp;msec, 0))
+    if (SystemParametersInfo(SPI_GETMOUSEHOVERTIME, 0, &msec, 0))
     {   
         return msec;
     }

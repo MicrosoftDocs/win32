@@ -29,8 +29,8 @@ The += operator adds two reference times.
 
 
 ```C++
-CRefTime&amp; operator+=(
-  [ref] const CRefTime &amp;rt
+CRefTime& operator+=(
+  [ref] const CRefTime &rt
 );
 ```
 

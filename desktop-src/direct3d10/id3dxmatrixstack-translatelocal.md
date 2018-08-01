@@ -80,7 +80,7 @@ This method left-multiplies the current matrix with the computed translation mat
 
 ```
 D3DXMATRIX tmp;
-D3DXMatrixTranslation(&amp;tmp, x, y, z );
+D3DXMatrixTranslation(&tmp, x, y, z );
 m_stack[m_currentPos] = tmp * m_stack[m_currentPos];
 ```
 

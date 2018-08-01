@@ -36,7 +36,7 @@ join_source_group(int sd, u_int32 grpaddr,
    imr.imr_multiaddr.s_addr  = grpaddr;
    imr.imr_sourceaddr.s_addr = srcaddr;
    imr.imr_interface.s_addr  = iaddr;
-   return setsockopt(sd, IPPROTO_IP, IP_ADD_SOURCE_MEMBERSHIP, (char *) &amp;imr, sizeof(imr));  
+   return setsockopt(sd, IPPROTO_IP, IP_ADD_SOURCE_MEMBERSHIP, (char *) &imr, sizeof(imr));  
 }
 
 int
@@ -48,7 +48,7 @@ leave_source_group(int sd, u_int32 grpaddr,
    imr.imr_multiaddr.s_addr  = grpaddr;
    imr.imr_sourceaddr.s_addr = srcaddr;
    imr.imr_interface.s_addr  = iaddr;
-   return setsockopt(sd, IPPROTO_IP, IP_DROP_SOURCE_MEMBERSHIP, (char *) &amp;imr, sizeof(imr));
+   return setsockopt(sd, IPPROTO_IP, IP_DROP_SOURCE_MEMBERSHIP, (char *) &imr, sizeof(imr));
 }
 ```
 

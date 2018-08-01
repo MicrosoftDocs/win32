@@ -243,7 +243,7 @@ int main(int iArgCnt, char ** argv)
         CLSID_WbemLocator,             
         0, 
         CLSCTX_INPROC_SERVER, 
-        IID_IWbemLocator, (LPVOID *) &amp;pLoc);
+        IID_IWbemLocator, (LPVOID *) &pLoc);
  
     if (FAILED(hres))
     {
@@ -269,7 +269,7 @@ int main(int iArgCnt, char ** argv)
         NULL, 
         0, 
         0, 
-        &amp;pSvc
+        &pSvc
     );
      
     if (FAILED(hres))
@@ -326,12 +326,12 @@ int main(int iArgCnt, char ** argv)
     BSTR ParameterName = SysAllocString(L"Reason");
 
     IWbemClassObject* pClass = NULL;
-    hres = pSvc->GetObject(ClassName, 0, NULL, &amp;pClass, NULL);
+    hres = pSvc->GetObject(ClassName, 0, NULL, &pClass, NULL);
 
     IWbemClassObject* pInParamsDefinition = NULL;
     IWbemClassObject* pOutMethod = NULL;
     hres = pClass->GetMethod(MethodName, 0, 
-        &amp;pInParamsDefinition, &amp;pOutMethod);
+        &pInParamsDefinition, &pOutMethod);
 
     if (FAILED(hres))
     {
@@ -340,16 +340,16 @@ int main(int iArgCnt, char ** argv)
     }
 
     IWbemClassObject* pClassInstance = NULL;
-    hres = pInParamsDefinition->SpawnInstance(0, &amp;pClassInstance);
+    hres = pInParamsDefinition->SpawnInstance(0, &pClassInstance);
 
     // Create the values for the in parameters
     VARIANT pcVal;
-    VariantInit(&amp;pcVal);
-    V_VT(&amp;pcVal) = VT_I4;
+    VariantInit(&pcVal);
+    V_VT(&pcVal) = VT_I4;
 
     // Store the value for the in parameters
     hres = pClassInstance->Put(L"Reason", 0,
-        &amp;pcVal, 0);
+        &pcVal, 0);
 
     // Execute Method
     hres = pSvc->ExecMethod(ClassNameInstance, MethodName, 0,
@@ -359,7 +359,7 @@ int main(int iArgCnt, char ** argv)
     {
         cout << "Could not execute method. Error code = 0x" 
              << hex << hres << endl;
-        VariantClear(&amp;pcVal);
+        VariantClear(&pcVal);
         SysFreeString(ClassName);
         SysFreeString(MethodName);
         pClass->Release();
@@ -373,7 +373,7 @@ int main(int iArgCnt, char ** argv)
 
     // Clean up
     //--------------------------
-    VariantClear(&amp;pcVal);
+    VariantClear(&pcVal);
     SysFreeString(ClassName);
     SysFreeString(MethodName);
     pClass->Release();

@@ -30,12 +30,12 @@ HRESULT GetPlaybackDuration(IMFPMediaItem *pItem, ULONGLONG *phnsDuration)
 {
     PROPVARIANT var;
 
-    HRESULT hr = pItem->GetDuration(MFP_POSITIONTYPE_100NS, &amp;var);
+    HRESULT hr = pItem->GetDuration(MFP_POSITIONTYPE_100NS, &var);
 
     if (SUCCEEDED(hr))
     {
         hr = PropVariantToUInt64(var, phnsDuration);
-        PropVariantClear(&amp;var);
+        PropVariantClear(&var);
     }
 
     return hr;

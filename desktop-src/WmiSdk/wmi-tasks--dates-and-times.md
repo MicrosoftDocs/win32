@@ -70,7 +70,7 @@ The following table lists script examples that can be used to obtain various typ
 <tr class="odd">
 <td><pre><code>Set dtmInstallDate = CreateObject(&quot;WbemScripting.SWbemDateTime&quot;)
 strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set objOS = objWMIService.ExecQuery(&quot;Select * from Win32_OperatingSystem&quot;)
 For Each strOS in objOS
     dtmInstallDate.Value = strOS.InstallDate
@@ -95,9 +95,9 @@ Next</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>Function WMIDateStringToDate(dtmInstallDate) 
-    WMIDateStringToDate = CDate(Mid(dtmInstallDate, 5, 2) &amp; &quot;/&quot; &amp; Mid(dtmInstallDate, 7, 2) _
-                        &amp; &quot;/&quot; &amp; Left(dtmInstallDate, 4) &amp; &quot; &quot; &amp; Mid (dtmInstallDate, 9, 2) &amp; &quot;:&quot; _
-                        &amp; Mid(dtmInstallDate, 11, 2) &amp; &quot;:&quot; &amp; Mid(dtmInstallDate,13, 2)) 
+    WMIDateStringToDate = CDate(Mid(dtmInstallDate, 5, 2) & &quot;/&quot; & Mid(dtmInstallDate, 7, 2) _
+                        & &quot;/&quot; & Left(dtmInstallDate, 4) & &quot; &quot; & Mid (dtmInstallDate, 9, 2) & &quot;:&quot; _
+                        & Mid(dtmInstallDate, 11, 2) & &quot;:&quot; & Mid(dtmInstallDate,13, 2)) 
 End Function </code></pre></td>
 </tr>
 </tbody>
@@ -122,18 +122,18 @@ End Function </code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colItems = objWMIService.ExecQuery(&quot;Select * from Win32_LocalTime&quot;)
 For Each objItem in colItems
-    Wscript.Echo &quot;Day:           &quot; &amp; objItem.Day &amp; VBNewLine _
-               &amp; &quot;Day Of Week:   &quot; &amp; objItem.DayOfWeek &amp; VBNewLine _
-               &amp; &quot;Hour:          &quot; &amp; objItem.Hour &amp; VBNewLine _
-               &amp; &quot;Minute:        &quot; &amp; objItem.Minute &amp; VBNewLine _
-               &amp; &quot;Month:         &quot; &amp; objItem.Month &amp; VBNewLine _
-               &amp; &quot;Quarter:       &quot; &amp; objItem.Quarter &amp; VBNewLine _
-               &amp; &quot;Second:        &quot; &amp; objItem.Second &amp; VBNewLine _
-               &amp; &quot;Week In Month: &quot; &amp; objItem.WeekInMonth &amp; VBNewLine _
-               &amp; &quot;Year:          &quot; &amp; objItem.Year 
+    Wscript.Echo &quot;Day:           &quot; & objItem.Day & VBNewLine _
+               & &quot;Day Of Week:   &quot; & objItem.DayOfWeek & VBNewLine _
+               & &quot;Hour:          &quot; & objItem.Hour & VBNewLine _
+               & &quot;Minute:        &quot; & objItem.Minute & VBNewLine _
+               & &quot;Month:         &quot; & objItem.Month & VBNewLine _
+               & &quot;Quarter:       &quot; & objItem.Quarter & VBNewLine _
+               & &quot;Second:        &quot; & objItem.Second & VBNewLine _
+               & &quot;Week In Month: &quot; & objItem.WeekInMonth & VBNewLine _
+               & &quot;Year:          &quot; & objItem.Year 
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -193,12 +193,12 @@ Foreach ($time in $times) {
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colItems = objWMIService.ExecQuery(&quot;Select * from Win32_TimeZone&quot;)
 For Each objItem in colItems
-    Wscript.Echo &quot;Description:   &quot; &amp; objItem.Description
-    Wscript.Echo &quot;Daylight Name: &quot; &amp; objItem.DaylightName
-    Wscript.Echo &quot;Standard Name: &quot; &amp; objItem.StandardName
+    Wscript.Echo &quot;Description:   &quot; & objItem.Description
+    Wscript.Echo &quot;Daylight Name: &quot; & objItem.DaylightName
+    Wscript.Echo &quot;Standard Name: &quot; & objItem.StandardName
     Wscript.Echo
 Next</code></pre></td>
 </tr>

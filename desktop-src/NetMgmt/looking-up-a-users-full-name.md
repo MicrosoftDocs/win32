@@ -51,12 +51,12 @@ BOOL GetFullName( char *UserName, char *Domain, char *dest )
 
 // Get the computer name of a DC for the domain.
 
-    NetGetDCName( NULL, wszDomain, &amp;ComputerName );
+    NetGetDCName( NULL, wszDomain, &ComputerName );
 
 // Look up the user on the DC.
 
     if( NetUserGetInfo( (LPWSTR) ComputerName,
-        (LPWSTR) &amp;wszUserName, 2, (LPBYTE *) &amp;ui ) )
+        (LPWSTR) &wszUserName, 2, (LPBYTE *) &ui ) )
     {
         wprintf( L"Error getting user information.\n" );
         return( FALSE );

@@ -21,7 +21,7 @@ This topic shows you how to use one of the effects included in XAPOFX in an XAud
 
     ```
     IUnknown * pXAPO;
-    CreateFX(__uuidof(FXReverb),&amp;pXAPO);
+    CreateFX(__uuidof(FXReverb),&pXAPO);
     ```
 
     
@@ -42,7 +42,7 @@ This topic shows you how to use one of the effects included in XAPOFX in an XAud
     ```
     XAUDIO2_EFFECT_CHAIN chain;
     chain.EffectCount = 1;
-    chain.pEffectDescriptors = &amp;descriptor;
+    chain.pEffectDescriptors = &descriptor;
     ```
 
     
@@ -50,7 +50,7 @@ This topic shows you how to use one of the effects included in XAPOFX in an XAud
 4.  Apply the effect chain to an XAudio2 voice with the [**SetEffectChain**](https://msdn.microsoft.com/en-us/library/Ee418594(v=VS.85).aspx) function.
 
     ```
-    pVoice->SetEffectChain(&amp;chain);
+    pVoice->SetEffectChain(&chain);
     ```
 
     
@@ -83,7 +83,7 @@ This topic shows you how to use one of the effects included in XAPOFX in an XAud
 7.  Pass the effect parameter structure to the effect by calling the [**SetEffectParameters**](https://msdn.microsoft.com/en-us/library/Ee418595(v=VS.85).aspx) function on the voice to which the effect is attached.
 
     ```
-    hr = pVoice->SetEffectParameters( 0, &amp;XAPOParameters, sizeof( FXREVERB_PARAMETERS ) );
+    hr = pVoice->SetEffectParameters( 0, &XAPOParameters, sizeof( FXREVERB_PARAMETERS ) );
     ```
 
     

@@ -30,7 +30,7 @@ This operator tests for equality between two reference times.
 
 ```C++
 BOOL operator==(
-  [ref] const COARefTime &amp;rt
+  [ref] const COARefTime &rt
 );
 ```
 

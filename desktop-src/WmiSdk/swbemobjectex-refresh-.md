@@ -119,7 +119,7 @@ set PerfCooked = GetObject( _
 
 ' Display some properties in a loop
 for I = 1 to 5
-    Wscript.Echo "HandleCount = "&amp; PerfRaw.HandleCount & _
+    Wscript.Echo "HandleCount = "& PerfRaw.HandleCount & _
          " Raw ThreadCount = " & PerfRaw.ThreadCount & _
         " Cooked ThreadCount = " & PerfCooked.ThreadCount
     

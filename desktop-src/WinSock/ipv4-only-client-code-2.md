@@ -112,7 +112,7 @@ int main(int argc, char **argv) {
         }
     }
     
-    if ((retval = WSAStartup(0x202,&amp;wsaData)) != 0) {
+    if ((retval = WSAStartup(0x202,&wsaData)) != 0) {
         fprintf(stderr,"WSAStartup failed with error %d\n",retval);
         WSACleanup();
         return -1;
@@ -131,7 +131,7 @@ int main(int argc, char **argv) {
     }
     else  { /* Convert nnn.nnn address to a usable one */
         addr = inet_addr(server_name);
-        hp = gethostbyaddr((char *)&amp;addr,4,AF_INET);
+        hp = gethostbyaddr((char *)&addr,4,AF_INET);
     }
     if (hp == NULL ) {
         fprintf(stderr,"Client: Cannot resolve address [%s]: Error %d\n",
@@ -143,8 +143,8 @@ int main(int argc, char **argv) {
     //
     // Copy the resolved information into the sockaddr_in structure
     //
-    memset(&amp;server,0,sizeof(server));
-    memcpy(&amp;(server.sin_addr),hp->h_addr,hp->h_length);
+    memset(&server,0,sizeof(server));
+    memcpy(&(server.sin_addr),hp->h_addr,hp->h_length);
     server.sin_family = hp->h_addrtype;
     server.sin_port = htons(port);
 
@@ -169,7 +169,7 @@ int main(int argc, char **argv) {
 
 
     printf("Client connecting to: %s\n",hp->h_name);
-    if (connect(conn_socket,(struct sockaddr*)&amp;server,sizeof(server))
+    if (connect(conn_socket,(struct sockaddr*)&server,sizeof(server))
         == SOCKET_ERROR) {
         fprintf(stderr,"connect() failed: %d\n",WSAGetLastError());
         WSACleanup();
@@ -211,7 +211,7 @@ int main(int argc, char **argv) {
             break;
         }
         else {
-            if ( (loopcount >= maxloop) &amp;&amp; (maxloop >0) )
+            if ( (loopcount >= maxloop) && (maxloop >0) )
                 break;
         }
     }

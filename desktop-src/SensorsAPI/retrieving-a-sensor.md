@@ -20,7 +20,7 @@ The following example code creates an instance of the sensor manager.
 // Create the sensor manager.
 hr = CoCreateInstance(CLSID_SensorManager, 
                         NULL, CLSCTX_INPROC_SERVER,
-                        IID_PPV_ARGS(&amp;pSensorManager));
+                        IID_PPV_ARGS(&pSensorManager));
 
 if(hr == HRESULT_FROM_WIN32(ERROR_ACCESS_DISABLED_BY_POLICY))
 {
@@ -38,7 +38,7 @@ The following example code retrieves a collection of sensors that belong to the 
 
 ```C++
 // Get the sensor collection.
-hr = pSensorManager->GetSensorsByCategory(SAMPLE_SENSOR_CATEGORY_DATE_TIME, &amp;pSensorColl);
+hr = pSensorManager->GetSensorsByCategory(SAMPLE_SENSOR_CATEGORY_DATE_TIME, &pSensorColl);
   
 if(SUCCEEDED(hr))
 {
@@ -46,7 +46,7 @@ if(SUCCEEDED(hr))
 
     // Verify that the collection contains
     // at least one sensor.
-    hr = pSensorColl->GetCount(&amp;ulCount);
+    hr = pSensorColl->GetCount(&ulCount);
 
     if(SUCCEEDED(hr))
     {
@@ -61,7 +61,7 @@ if(SUCCEEDED(hr))
 if(SUCCEEDED(hr))
 {
     // Get the first available sensor.
-    hr = pSensorColl->GetAt(0, &amp;pSensor);
+    hr = pSensorColl->GetAt(0, &pSensor);
 }
 ```
 
@@ -76,7 +76,7 @@ The following example code retrieves a collection of sensors of the type named S
 
 ```C++
 // Get the sensor collection.
-hr = pSensorManager->GetSensorsByType(SAMPLE_SENSOR_TYPE_TIME, &amp;pSensorColl);
+hr = pSensorManager->GetSensorsByType(SAMPLE_SENSOR_TYPE_TIME, &pSensorColl);
   
 if(SUCCEEDED(hr))
 {
@@ -84,7 +84,7 @@ if(SUCCEEDED(hr))
 
     // Verify that the collection contains
     // at least one sensor.
-    hr = pSensorColl->GetCount(&amp;ulCount);
+    hr = pSensorColl->GetCount(&ulCount);
 
     if(SUCCEEDED(hr))
     {
@@ -99,7 +99,7 @@ if(SUCCEEDED(hr))
 if(SUCCEEDED(hr))
 {
     // Get the first available sensor.
-    hr = pSensorColl->GetAt(0, &amp;pSensor);
+    hr = pSensorColl->GetAt(0, &pSensor);
 }
 ```
 
@@ -114,7 +114,7 @@ The following example code shows how to retrieve a sensor by using its ID.
 ISensor* pSensor = NULL;
 
 // Get the sensor collection.
-hr = pSensorManager->GetSensorByID(SAMPLE_SENSOR_TIME_ID, &amp;pSensor);
+hr = pSensorManager->GetSensorByID(SAMPLE_SENSOR_TIME_ID, &pSensor);
 
 ```
 

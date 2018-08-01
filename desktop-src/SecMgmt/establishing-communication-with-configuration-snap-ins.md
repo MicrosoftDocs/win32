@@ -32,13 +32,13 @@ After your attachment snap-in extension has added itself to the Services node, i
 
         HRESULT hr = ((LPSCESVCATTACHMENTPERSISTINFO)this)->
                 QueryInterface(IID_ISceSvcAttachmentPersistInfo,
-                (void**)&amp;pSceInfo);
+                (void**)&pSceInfo);
 
         if ( SUCCEEDED(hr) )
         {
 
             hr = m_pSceData->Initialize(strServiceName, TemplateName,
-                    pSceInfo, &amp;ThisHandle);
+                    pSceInfo, &ThisHandle);
             // Continue processing (not shown).
         }
     ```

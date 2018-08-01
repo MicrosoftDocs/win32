@@ -56,13 +56,13 @@ extern "C" DWORD APIENTRY OpenPerfData(LPWSTR pContext)
     // your offset values (see Adding Counter Names and Descriptions to the Registry)
     // to these index values to determine your actual object and counter index values.
 
-    rc = RegOpenKeyEx(HKEY_LOCAL_MACHINE, PERFORMANCE_REGISTRY_PATH, 0, KEY_READ, &amp;hkey);
+    rc = RegOpenKeyEx(HKEY_LOCAL_MACHINE, PERFORMANCE_REGISTRY_PATH, 0, KEY_READ, &hkey);
     if (ERROR_SUCCESS == rc)
     {
-        rc = RegQueryValueEx(hkey, L"First Counter", NULL, NULL, (LPBYTE)&amp;FirstCounterIndex, &amp;DataSize);
+        rc = RegQueryValueEx(hkey, L"First Counter", NULL, NULL, (LPBYTE)&FirstCounterIndex, &DataSize);
         if (ERROR_SUCCESS == rc)
         {
-            rc = RegQueryValueEx(hkey, L"First Help", NULL, NULL, (LPBYTE)&amp;FirstHelpIndex, &amp;DataSize);        
+            rc = RegQueryValueEx(hkey, L"First Help", NULL, NULL, (LPBYTE)&FirstHelpIndex, &DataSize);        
         }
 
         RegCloseKey(hkey);
@@ -83,7 +83,7 @@ extern "C" DWORD APIENTRY OpenPerfData(LPWSTR pContext)
     // Initialize the Transfer object. This is a single instance object, so you can
     // initialize each member of the object and its counters.
 
-    ZeroMemory(&amp;g_Transfer, TransferSize);
+    ZeroMemory(&g_Transfer, TransferSize);
     g_Transfer.Object.TotalByteLength = TransferSize;
     g_Transfer.Object.DefinitionLength = sizeof(PERF_OBJECT_TYPE) + 
         sizeof(PERF_COUNTER_DEFINITION) * NumberOfTransferCounters;
@@ -133,7 +133,7 @@ extern "C" DWORD APIENTRY OpenPerfData(LPWSTR pContext)
     // many instances there will be until the object data is queried. You set 
     // the TotalByteLength and NumInstances members in the CollectPerfData function.
 
-    ZeroMemory(&amp;g_Peer, sizeof(PEER));
+    ZeroMemory(&g_Peer, sizeof(PEER));
     g_Peer.Object.DefinitionLength = sizeof(PERF_OBJECT_TYPE) + 
         sizeof(PERF_COUNTER_DEFINITION) * NumberOfPeerCounters;
     g_Peer.Object.HeaderLength = sizeof(PERF_OBJECT_TYPE);
@@ -154,7 +154,7 @@ extern "C" DWORD APIENTRY OpenPerfData(LPWSTR pContext)
     g_Peer.BytesServedCounter.CounterSize = sizeof(DWORD);
     g_Peer.BytesServedCounter.CounterOffset = BytesServedOffset;
 
-    InterlockedIncrement(&amp;g_OpenCount);  // Decremented in ClosePerfData
+    InterlockedIncrement(&g_OpenCount);  // Decremented in ClosePerfData
 
 cleanup:
     
@@ -274,7 +274,7 @@ extern "C" DWORD APIENTRY ClosePerfData(void)
 {
     if (g_OpenCount > 0)
     {
-        InterlockedDecrement(&amp;g_OpenCount);
+        InterlockedDecrement(&g_OpenCount);
     }
 
     return ERROR_SUCCESS;

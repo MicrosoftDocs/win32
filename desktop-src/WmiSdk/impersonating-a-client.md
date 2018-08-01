@@ -173,7 +173,7 @@ bRes = OpenThreadToken(
     GetCurrentThread(),
     TOKEN_QUERY,
     TRUE,
-    &amp;hThreadTok
+    &hThreadTok
 );
 
 if (bRes == FALSE)
@@ -185,9 +185,9 @@ if (bRes == FALSE)
 bRes = GetTokenInformation(
     hThreadTok,
     TokenImpersonationLevel, 
-    &amp;dwImp,
+    &dwImp,
     sizeof(DWORD),
-    &amp;dwBytesReturned
+    &dwBytesReturned
 );
 
 if (!bRes)

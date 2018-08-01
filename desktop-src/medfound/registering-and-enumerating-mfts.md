@@ -54,14 +54,14 @@ UINT32 unFlags = MFT_ENUM_FLAG_SYNCMFT  |
 hr = MFTEnumEx(
     MFT_CATEGORY_VIDEO_DECODER,
     unFlags,
-    &amp;info,      // Input type
+    &info,      // Input type
     NULL,       // Output type
-    &amp;ppActivate,
-    &amp;count
+    &ppActivate,
+    &count
     );
 
 
-if (SUCCEEDED(hr) &amp;&amp; count == 0)
+if (SUCCEEDED(hr) && count == 0)
 {
     hr = MF_E_TOPO_CODEC_NOT_FOUND;
 }
@@ -70,7 +70,7 @@ if (SUCCEEDED(hr) &amp;&amp; count == 0)
 
 if (SUCCEEDED(hr))
 {
-    hr = ppActivate[0]->ActivateObject(IID_PPV_ARGS(&amp;pDecoder));
+    hr = ppActivate[0]->ActivateObject(IID_PPV_ARGS(&pDecoder));
 }
 
 for (UINT32 i = 0; i < count; i++)
@@ -93,10 +93,10 @@ UINT32 unFlags = MFT_ENUM_FLAG_HARDWARE |
 hr = MFTEnumEx(
     MFT_CATEGORY_VIDEO_DECODER,
     unFlags,
-    &amp;info,      // Input type
+    &info,      // Input type
     NULL,       // Output type
-    &amp;ppActivate,
-    &amp;count
+    &ppActivate,
+    &count
     );
 ```
 

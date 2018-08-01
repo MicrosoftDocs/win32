@@ -58,15 +58,15 @@ The following code snippet requires a reference to Microsoft ActiveX Data Object
         lowRange = 0
         highRange = lowRange + rangeStep
 
-        commandPrefix = "<LDAP://" & strGroupDN > "&amp;gt;;(objectClass=*);member;range="
+        commandPrefix = "<LDAP://" & strGroupDN > "&gt;;(objectClass=*);member;range="
         commandSuffix = ";base"
 
         Do
             If lastLoop Then
-                ' Perform this query with the "range=&amp;lt;lowRange&amp;gt;-*" range.
+                ' Perform this query with the "range=&lt;lowRange&gt;-*" range.
                 oComm.CommandText = commandPrefix & lowRange & "-*" & commandSuffix
             Else
-                ' Perform this query with the "range=&amp;lt;lowRange&amp;gt;-&amp;lt;highRange&amp;gt;" range.
+                ' Perform this query with the "range=&lt;lowRange&gt;-&lt;highRange&gt;" range.
                 oComm.CommandText = commandPrefix & lowRange & "-" & highRange & commandSuffix
             End If
             Debug.Print("Current search command: " & oComm.CommandText)

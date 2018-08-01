@@ -65,8 +65,8 @@ To print a complete XPS OM:
                 completionEvent,
                 NULL,
                 0,
-                &amp;job,
-                &amp;jobStream,
+                &job,
+                &jobStream,
                 NULL);
 
     // Write package to print job stream
@@ -84,7 +84,7 @@ To print a complete XPS OM:
             //  Note that without waiting for a completion event, 
             //  the print job may not be complete when the status is queried.
             XPS_JOB_STATUS jobStatus;
-            hr = job->GetJobStatus(&amp;jobStatus);
+            hr = job->GetJobStatus(&jobStatus);
 
             // Evaluate the job status returned.
             switch (jobStatus.completion)
@@ -183,8 +183,8 @@ Start each document new, then add pages to it. After passing all document compon
                 completionEvent,
                 NULL,
                 0,
-                &amp;job,
-                &amp;jobStream,
+                &job,
+                &jobStream,
                 NULL);
 
     // Note the implicit requirement that CoInitializeEx 
@@ -195,13 +195,13 @@ Start each document new, then add pages to it. After passing all document compon
                 NULL,
                 CLSCTX_INPROC_SERVER,
                 __uuidof(IXpsOMObjectFactory),
-                reinterpret_cast<void**>(&amp;xpsFactory)
+                reinterpret_cast<void**>(&xpsFactory)
                 );
     // Create part URI for FixedDocumentSequence part
     //  This can use a static string because there is only one
     //  FixedDocumentSequence part in the print job.
     IOpcPartUri *partUri = NULL;
-    hr = xpsFactory->CreatePartUri(L"/FixedDocumentSequence.fdseq", &amp;partUri);
+    hr = xpsFactory->CreatePartUri(L"/FixedDocumentSequence.fdseq", &partUri);
 
     // Create the package writer on the print job stream
     //  Note that the interleaving parameter set to 
@@ -220,7 +220,7 @@ Start each document new, then add pages to it. After passing all document compon
             NULL,
             NULL,
             NULL,
-            &amp;packageWriter);
+            &packageWriter);
     // release partUri after it's been used to create new doc. seq.
     if (partUri)
     {
@@ -236,7 +236,7 @@ Start each document new, then add pages to it. After passing all document compon
         // Create a unique part URI for the current document.
         WCHAR DocPartUri[MAX_PATH];
         hr = MakeDocumentPartUri (docNumber, MAX_PATH, DocPartUri);
-        hr = xpsFactory->CreatePartUri(DocPartUri, &amp;partUri);
+        hr = xpsFactory->CreatePartUri(DocPartUri, &partUri);
         
         // Initialize the new document in the package writer.
         hr = packageWriter->StartNewDocument(partUri, NULL, NULL, NULL, NULL);
@@ -260,16 +260,16 @@ Start each document new, then add pages to it. After passing all document compon
                 pageNumber, 
                 MAX_PATH, 
                 PagePartUri);
-            hr = xpsFactory->CreatePartUri(PagePartUri, &amp;partUri);
+            hr = xpsFactory->CreatePartUri(PagePartUri, &partUri);
 
             // create page in OM
             XPS_SIZE pageSize = {816, 1056};
             IXpsOMPage *xpsPage = NULL;
             hr = xpsFactory->CreatePage(
-                &amp;pageSize, 
+                &pageSize, 
                 L"en-US", 
                 partUri, 
-                &amp;xpsPage);
+                &xpsPage);
 
             // release pagePartUri after it's been used to create the page
             if (partUri)
@@ -285,7 +285,7 @@ Start each document new, then add pages to it. After passing all document compon
             // add page to document
             hr = packageWriter->AddPage(
                         xpsPage,
-                        &amp;pageSize,
+                        &pageSize,
                         NULL,
                         NULL,
                         NULL,
@@ -325,7 +325,7 @@ Start each document new, then add pages to it. After passing all document compon
                 //  Note that without waiting for a completion event, 
                 //  the print job may not be complete when the status is queried.
                 XPS_JOB_STATUS jobStatus;
-                hr = job->GetJobStatus(&amp;jobStatus);
+                hr = job->GetJobStatus(&jobStatus);
 
                 // Evaluate the job status returned.
                 switch (jobStatus.completion)

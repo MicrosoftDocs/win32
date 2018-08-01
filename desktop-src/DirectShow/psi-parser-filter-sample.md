@@ -48,17 +48,17 @@ Next, create an output pin on the demux for the PSI data. Map PID 0x00, which is
 ```C++
 // Set the media type to MPEG-2 table sections.
 AM_MEDIA_TYPE mt;
-ZeroMemory(&amp;mt, sizeof(AM_MEDIA_TYPE));
+ZeroMemory(&mt, sizeof(AM_MEDIA_TYPE));
 mt.majortype = KSDATAFORMAT_TYPE_MPEG2_SECTIONS;
 
 // Create the pin.
 IPin *pPsiPin;
-hr = pDemux->CreateOutputPin(&amp;mt, L"PSI", &amp;pPsiPin);
+hr = pDemux->CreateOutputPin(&mt, L"PSI", &pPsiPin);
 if (SUCCEEDED(hr))
 {
     // Map to PID 0.
     ULONG Pid = 0x00;
-    hr = pPid->MapPID(1, &amp;Pid, MEDIA_MPEG2_PSI);
+    hr = pPid->MapPID(1, &Pid, MEDIA_MPEG2_PSI);
 }
 ```
 
@@ -73,7 +73,7 @@ To get the number of programs, use the [**IMpeg2PsiParser::GetCountOfPrograms**]
 
 ```C++
 int NumProgs = 0;
-hr = pPsi->GetCountOfPrograms(&amp;NumProgs);
+hr = pPsi->GetCountOfPrograms(&NumProgs);
 ```
 
 
@@ -85,7 +85,7 @@ To get the program number for a specific program, use the [**IMpeg2PsiParser::Ge
 WORD ProgNum = 0;
 for (int i = 0; i < NumProgs; i++)
 {
-    hr = pPsi->GetRecordProgramNumber(i, &amp;ProgNum);
+    hr = pPsi->GetRecordProgramNumber(i, &ProgNum);
     ...
 }
 ```
@@ -97,7 +97,7 @@ The program number is used to obtain the PMT entries for individual programs. To
 
 ```C++
 WORD cElemStreams = 0;
-hr = pPsi->GetCountOfElementaryStreams(ProgNum, &amp;cElemStreams);
+hr = pPsi->GetCountOfElementaryStreams(ProgNum, &cElemStreams);
 ```
 
 
@@ -110,8 +110,8 @@ BYTE ESType = 0;
 WORD ESPid = 0;
 for (WORD j = 0; j < cElemStreams; j++)
 {
-    hr = pPsi->GetRecordElementaryPid(ProgNum, j, &amp;ESPid);
-    hr = pPsi->GetRecordStreamType(ProgNum, j, &amp;ESType);
+    hr = pPsi->GetRecordElementaryPid(ProgNum, j, &ESPid);
+    hr = pPsi->GetRecordStreamType(ProgNum, j, &ESType);
 }
 ```
 

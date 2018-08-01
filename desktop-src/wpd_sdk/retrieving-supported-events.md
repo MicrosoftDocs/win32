@@ -58,7 +58,7 @@ void ListSupportedEvents(
 
     // Get an IPortableDeviceServiceCapabilities interface from the IPortableDeviceService interface to
     // access the service capabilities-specific methods.
-    hr = pService->Capabilities(&amp;pCapabilities);
+    hr = pService->Capabilities(&pCapabilities);
     if (FAILED(hr))
     {
         printf("! Failed to get IPortableDeviceServiceCapabilities from IPortableDeviceService, hr = 0x%lx\n",hr);
@@ -67,7 +67,7 @@ void ListSupportedEvents(
     // Get all events supported by the service.
     if (SUCCEEDED(hr))
     {
-        hr = pCapabilities->GetSupportedEvents(&amp;pEvents);
+        hr = pCapabilities->GetSupportedEvents(&pEvents);
         if (FAILED(hr))
         {
             printf("! Failed to get supported events from the service, hr = 0x%lx\n",hr);
@@ -77,7 +77,7 @@ void ListSupportedEvents(
     // Get the number of supported events found on the service.
     if (SUCCEEDED(hr))
     {
-        hr = pEvents->GetCount(&amp;dwNumEvents);
+        hr = pEvents->GetCount(&dwNumEvents);
         if (FAILED(hr))
         {
             printf("! Failed to get number of supported events, hr = 0x%lx\n",hr);
@@ -92,8 +92,8 @@ void ListSupportedEvents(
         for (DWORD dwIndex = 0; dwIndex < dwNumEvents; dwIndex++)
         {
             PROPVARIANT pv = {0};
-            PropVariantInit(&amp;pv);
-            hr = pEvents->GetAt(dwIndex, &amp;pv);
+            PropVariantInit(&pv);
+            hr = pEvents->GetAt(dwIndex, &pv);
 
             if (SUCCEEDED(hr))
             {
@@ -106,7 +106,7 @@ void ListSupportedEvents(
                 }
             }
 
-            PropVariantClear(&amp;pv);
+            PropVariantClear(&pv);
         }
     }
 }
@@ -130,7 +130,7 @@ void DisplayEvent(
     CComPtr<IPortableDeviceValues> pAttributes;
 
     // Get the event attributes which describe the event
-    HRESULT hr = pCapabilities->GetEventAttributes(Event, &amp;pAttributes);
+    HRESULT hr = pCapabilities->GetEventAttributes(Event, &pAttributes);
     if (FAILED(hr))
     {
         printf("! Failed to get the event attributes, hr = 0x%lx\n",hr);
@@ -143,7 +143,7 @@ void DisplayEvent(
         CComPtr<IPortableDeviceKeyCollection>   pParameters;
 
         // Display the name of the event if it is available. Otherwise, fall back to displaying the GUID.
-        hr = pAttributes->GetStringValue(WPD_EVENT_ATTRIBUTE_NAME, &amp;pszFormatName);
+        hr = pAttributes->GetStringValue(WPD_EVENT_ATTRIBUTE_NAME, &pszFormatName);
         if (SUCCEEDED(hr))
         {
             printf("%ws\n", pszFormatName);
@@ -154,7 +154,7 @@ void DisplayEvent(
         }       
 
         // Display the event options
-        hr = pAttributes->GetIPortableDeviceValuesValue(WPD_EVENT_ATTRIBUTE_OPTIONS, &amp;pOptions);
+        hr = pAttributes->GetIPortableDeviceValuesValue(WPD_EVENT_ATTRIBUTE_OPTIONS, &pOptions);
         if (SUCCEEDED(hr))
         {
             DisplayEventOptions(pOptions);
@@ -165,7 +165,7 @@ void DisplayEvent(
         }       
 
         // Display the event parameters
-        hr = pAttributes->GetIPortableDeviceKeyCollectionValue(WPD_EVENT_ATTRIBUTE_PARAMETERS, &amp;pParameters);
+        hr = pAttributes->GetIPortableDeviceKeyCollectionValue(WPD_EVENT_ATTRIBUTE_PARAMETERS, &pParameters);
         if (SUCCEEDED(hr))
         {
             DisplayEventParameters(pCapabilities, Event, pParameters);
@@ -195,7 +195,7 @@ void DisplayEventOptions(
     // Read the WPD_EVENT_OPTION_IS_BROADCAST_EVENT value to see if the event is
     // a broadcast event. If the read fails, assume FALSE
     BOOL  bIsBroadcastEvent = FALSE;
-    pOptions->GetBoolValue(WPD_EVENT_OPTION_IS_BROADCAST_EVENT, &amp;bIsBroadcastEvent);
+    pOptions->GetBoolValue(WPD_EVENT_OPTION_IS_BROADCAST_EVENT, &bIsBroadcastEvent);
     printf("\tWPD_EVENT_OPTION_IS_BROADCAST_EVENT = %ws\n",bIsBroadcastEvent ? L"TRUE" : L"FALSE");
 }
 ```

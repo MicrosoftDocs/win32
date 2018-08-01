@@ -22,7 +22,7 @@ To enable the password never expires option using the LDAP provider, set the [**
 
 
 ```VB
-Const ADS_UF_DONT_EXPIRE_PASSWD = &amp;H10000
+Const ADS_UF_DONT_EXPIRE_PASSWD = &H10000
 
 Set usr = GetObject("LDAP://CN=jeffsmith,OU=Sales,DC=Fabrikam,DC=Com")
 flag = usr.Get("userAccountControl")
@@ -39,19 +39,19 @@ usr.SetInfo
 
 IADsUser *pUser;
 VARIANT var;
-VariantInit(&amp;var);
+VariantInit(&var);
 
 HRESULT hr = S_OK;
 LPWSTR adsPath = L"LDAP://serv1/cn=Jeff Smith,cn=Users,dc=Fabrikam,dc=com";
-hr = ADsGetObject(adsPath, IID_IADsUser, (void**)&amp;pUser);
+hr = ADsGetObject(adsPath, IID_IADsUser, (void**)&pUser);
 
-hr = pUser->Get(_bstr_t("userAccountControl"), &amp;var);
+hr = pUser->Get(_bstr_t("userAccountControl"), &var);
 
-V_I4(&amp;var) |= ADS_UF_DONT_EXPIRE_PASSWD;
+V_I4(&var) |= ADS_UF_DONT_EXPIRE_PASSWD;
 hr = pUser->Put(_bstr_t("userAccountControl"), var);
 
 hr = pUser->SetInfo();
-VariantClear(&amp;var);
+VariantClear(&var);
 hr = pUser->Release();
 ```
 

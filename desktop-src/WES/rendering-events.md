@@ -28,7 +28,7 @@ DWORD PrintEvent(EVT_HANDLE hEvent)
     LPWSTR pRenderedContent = NULL;
 
     // The EvtRenderEventXml flag tells EvtRender to render the event as an XML string.
-    if (!EvtRender(NULL, hEvent, EvtRenderEventXml, dwBufferSize, pRenderedContent, &amp;dwBufferUsed, &amp;dwPropertyCount))
+    if (!EvtRender(NULL, hEvent, EvtRenderEventXml, dwBufferSize, pRenderedContent, &dwBufferUsed, &dwPropertyCount))
     {
         if (ERROR_INSUFFICIENT_BUFFER == (status = GetLastError()))
         {
@@ -36,7 +36,7 @@ DWORD PrintEvent(EVT_HANDLE hEvent)
             pRenderedContent = (LPWSTR)malloc(dwBufferSize);
             if (pRenderedContent)
             {
-                EvtRender(NULL, hEvent, EvtRenderEventXml, dwBufferSize, pRenderedContent, &amp;dwBufferUsed, &amp;dwPropertyCount);
+                EvtRender(NULL, hEvent, EvtRenderEventXml, dwBufferSize, pRenderedContent, &dwBufferUsed, &dwPropertyCount);
             }
             else
             {
@@ -100,7 +100,7 @@ DWORD PrintEventSystemData(EVT_HANDLE hEvent)
     // or event data, the values are returned in the same order as the elements are 
     // defined in the event. For system data, the values are returned in the order defined
     // in the EVT_SYSTEM_PROPERTY_ID enumeration.
-    if (!EvtRender(hContext, hEvent, EvtRenderEventValues, dwBufferSize, pRenderedValues, &amp;dwBufferUsed, &amp;dwPropertyCount))
+    if (!EvtRender(hContext, hEvent, EvtRenderEventValues, dwBufferSize, pRenderedValues, &dwBufferUsed, &dwPropertyCount))
     {
         if (ERROR_INSUFFICIENT_BUFFER == (status = GetLastError()))
         {
@@ -108,7 +108,7 @@ DWORD PrintEventSystemData(EVT_HANDLE hEvent)
             pRenderedValues = (PEVT_VARIANT)malloc(dwBufferSize);
             if (pRenderedValues)
             {
-                EvtRender(hContext, hEvent, EvtRenderEventValues, dwBufferSize, pRenderedValues, &amp;dwBufferUsed, &amp;dwPropertyCount);
+                EvtRender(hContext, hEvent, EvtRenderEventValues, dwBufferSize, pRenderedValues, &dwBufferUsed, &dwPropertyCount);
             }
             else
             {
@@ -155,7 +155,7 @@ DWORD PrintEventSystemData(EVT_HANDLE hEvent)
     ft.dwHighDateTime = (DWORD)((ullTimeStamp >> 32) & 0xFFFFFFFF);
     ft.dwLowDateTime = (DWORD)(ullTimeStamp & 0xFFFFFFFF);
     
-    FileTimeToSystemTime(&amp;ft, &amp;st);
+    FileTimeToSystemTime(&ft, &st);
     ullNanoseconds = (ullTimeStamp % 10000000) * 100; // Display nanoseconds instead of milliseconds for higher resolution
     wprintf(L"TimeCreated SystemTime: %02d/%02d/%02d %02d:%02d:%02d.%I64u)\n", 
         st.wMonth, st.wDay, st.wYear, st.wHour, st.wMinute, st.wSecond, ullNanoseconds);
@@ -181,7 +181,7 @@ DWORD PrintEventSystemData(EVT_HANDLE hEvent)
 
     if (EvtVarTypeNull != pRenderedValues[EvtSystemUserID].Type)
     {
-        if (ConvertSidToStringSid(pRenderedValues[EvtSystemUserID].SidVal, &amp;pwsSid))
+        if (ConvertSidToStringSid(pRenderedValues[EvtSystemUserID].SidVal, &pwsSid))
         {
             wprintf(L"Security UserID: %s\n", pwsSid);
             LocalFree(pwsSid);
@@ -231,7 +231,7 @@ DWORD PrintEventValues(EVT_HANDLE hEvent)
     // The function returns an array of variant values for each element or attribute that
     // you want to retrieve from the event. The values are returned in the same order as 
     // you requested them.
-    if (!EvtRender(hContext, hEvent, EvtRenderEventValues, dwBufferSize, pRenderedValues, &amp;dwBufferUsed, &amp;dwPropertyCount))
+    if (!EvtRender(hContext, hEvent, EvtRenderEventValues, dwBufferSize, pRenderedValues, &dwBufferUsed, &dwPropertyCount))
     {
         if (ERROR_INSUFFICIENT_BUFFER == (status = GetLastError()))
         {
@@ -239,7 +239,7 @@ DWORD PrintEventValues(EVT_HANDLE hEvent)
             pRenderedValues = (PEVT_VARIANT)malloc(dwBufferSize);
             if (pRenderedValues)
             {
-                EvtRender(hContext, hEvent, EvtRenderEventValues, dwBufferSize, pRenderedValues, &amp;dwBufferUsed, &amp;dwPropertyCount);
+                EvtRender(hContext, hEvent, EvtRenderEventValues, dwBufferSize, pRenderedValues, &dwBufferUsed, &dwPropertyCount);
             }
             else
             {

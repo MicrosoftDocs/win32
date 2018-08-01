@@ -22,7 +22,7 @@ To get the current mode on an IEEE 1394 device, call the [**IAMExtDevice::GetCap
 if (MyDevCap.bHasDevice) 
 {
     LONG lDeviceType = 0;
-    MyDevCap.pDevice->GetCapability(ED_DEVCAP_DEVICE_TYPE, &amp;lDeviceType, 0);
+    MyDevCap.pDevice->GetCapability(ED_DEVCAP_DEVICE_TYPE, &lDeviceType, 0);
 
     if (lDeviceType == ED_DEVTYPE_VCR) 
     {

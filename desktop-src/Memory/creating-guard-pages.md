@@ -50,7 +50,7 @@ int main()
   BOOL bLocked;                 // address of the guarded memory
   SYSTEM_INFO sSysInfo;         // useful information about the system
 
-  GetSystemInfo(&amp;sSysInfo);     // initialize the structure
+  GetSystemInfo(&sSysInfo);     // initialize the structure
 
   _tprintf(TEXT("This computer has page size %d.\n"), sSysInfo.dwPageSize);
 

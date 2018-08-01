@@ -43,7 +43,7 @@ HRESULT FindCrossbarPin(
 
     // Find out how many pins the crossbar has.
     long cOut, cIn;
-    HRESULT hr = pXBar->get_PinCounts(&amp;cOut, &amp;cIn);
+    HRESULT hr = pXBar->get_PinCounts(&cOut, &cIn);
     if (FAILED(hr)) return hr;
     // Enumerate pins and look for a matching pin.
     long count = (bInput ? cIn : cOut);
@@ -51,9 +51,9 @@ HRESULT FindCrossbarPin(
     {
         long iRelated = 0;
         long ThisPhysicalType = 0;
-        hr = pXBar->get_CrossbarPinInfo(bInput, i, &amp;iRelated,
-            &amp;ThisPhysicalType);
-        if (SUCCEEDED(hr) &amp;&amp; ThisPhysicalType == PhysicalType)
+        hr = pXBar->get_CrossbarPinInfo(bInput, i, &iRelated,
+            &ThisPhysicalType);
+        if (SUCCEEDED(hr) && ThisPhysicalType == PhysicalType)
         {
             // Found a match, return the index.
             *pIndex = i;
@@ -76,7 +76,7 @@ HRESULT ConnectAudio(IAMCrossbar *pXBar, BOOL bActivate)
     // Look for the Audio Decoder output pin.
     long i = 0;
     HRESULT hr = FindCrossbarPin(pXBar, PhysConn_Audio_AudioDecoder,
-        PINDIR_OUTPUT, &amp;i);
+        PINDIR_OUTPUT, &i);
     if (SUCCEEDED(hr))
     {
         if (bActivate)  // Activate the audio. 
@@ -84,7 +84,7 @@ HRESULT ConnectAudio(IAMCrossbar *pXBar, BOOL bActivate)
             // Look for the Audio Tuner input pin.
             long j = 0;
             hr = FindCrossbarPin(pXBar, PhysConn_Audio_Tuner, 
-                PINDIR_INPUT, &amp;j);
+                PINDIR_INPUT, &j);
             if (SUCCEEDED(hr))
             {
                 return pXBar->Route(i, j);
@@ -110,8 +110,8 @@ HRESULT ActivateAudio(ICaptureGraphBuilder2 *pBuild, IBaseFilter *pSrc,
 {
     // Search upstream for a crossbar.
     IAMCrossbar *pXBar1 = NULL;
-    HRESULT hr = pBuild->FindInterface(&amp;LOOK_UPSTREAM_ONLY, NULL, pSrc,
-        IID_IAMCrossbar, (void**)&amp;pXBar1);
+    HRESULT hr = pBuild->FindInterface(&LOOK_UPSTREAM_ONLY, NULL, pSrc,
+        IID_IAMCrossbar, (void**)&pXBar1);
     if (SUCCEEDED(hr)) 
     {
         hr = ConnectAudio(pXBar1, bActivate);
@@ -119,13 +119,13 @@ HRESULT ActivateAudio(ICaptureGraphBuilder2 *pBuild, IBaseFilter *pSrc,
         {
             // Look for another crossbar.
             IBaseFilter *pF = NULL;
-            hr = pXBar1->QueryInterface(IID_IBaseFilter, (void**)&amp;pF);
+            hr = pXBar1->QueryInterface(IID_IBaseFilter, (void**)&pF);
             if (SUCCEEDED(hr)) 
             {
                 // Search upstream for another one.
                 IAMCrossbar *pXBar2 = NULL;
-                hr = pBuild->FindInterface(&amp;LOOK_UPSTREAM_ONLY, NULL, pF,
-                    IID_IAMCrossbar, (void**)&amp;pXBar2);
+                hr = pBuild->FindInterface(&LOOK_UPSTREAM_ONLY, NULL, pF,
+                    IID_IAMCrossbar, (void**)&pXBar2);
                 pF->Release();
                 if (SUCCEEDED(hr))
                 {

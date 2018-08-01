@@ -67,7 +67,7 @@ public:
 
     ULONG __stdcall AddRef()
     {
-        InterlockedIncrement((long*) &amp;m_cRef);
+        InterlockedIncrement((long*) &m_cRef);
         return m_cRef;
     }
 
@@ -75,7 +75,7 @@ public:
     {
         ULONG ulRefCount = m_cRef - 1;
 
-        if (InterlockedDecrement((long*) &amp;m_cRef) == 0)
+        if (InterlockedDecrement((long*) &m_cRef) == 0)
         {
             delete this;
             return 0;
@@ -145,7 +145,7 @@ void RegisterForEventNotifications(IPortableDevice* pDevice)
     // Call Advise to register the callback and receive events.
     if (hr == S_OK)
     {
-        hr = pDevice->Advise(0, pCallback, NULL, &amp;wszEventCookie);
+        hr = pDevice->Advise(0, pCallback, NULL, &wszEventCookie);
         if (FAILED(hr))
         {
             printf("! Failed to register for device events, hr = 0x%lx\n",hr);

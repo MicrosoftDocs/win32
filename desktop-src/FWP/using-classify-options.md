@@ -58,12 +58,12 @@ DWORD EnableLooseSourceMapping(
    option.value.uint32 = FWP_OPTION_VALUE_ENABLE_LOOSE_SOURCE;
 
    options.numOptions = 1;
-   options.options = &amp;option;
+   options.options = &option;
 
-   memset(&amp;provCtxt, 0, sizeof(provCtxt));
+   memset(&provCtxt, 0, sizeof(provCtxt));
    // You have to assign the key yourself since you'll need it when adding 
    // the filters that reference this provider context.
-   result = UuidCreate(&amp;(provCtxt.providerContextKey));
+   result = UuidCreate(&(provCtxt.providerContextKey));
    EXIT_ON_ERROR(UuidCreate);
    // For MUI compatibility, object names should be indirect strings. See
    // SHLoadIndirectString for details.
@@ -72,7 +72,7 @@ DWORD EnableLooseSourceMapping(
    // installed on a computer, this makes it easy to determine who added what.
    provCtxt.providerKey = (GUID*)providerKey;
    provCtxt.type = FWPM_CLASSIFY_OPTIONS_CONTEXT;
-   provCtxt.classifyOptions = &amp;options;
+   provCtxt.classifyOptions = &options;
 
    // Add all the objects from within a single transaction to make it easy
    // to clean up partial results in error paths.
@@ -80,7 +80,7 @@ DWORD EnableLooseSourceMapping(
    EXIT_ON_ERROR(FwpmTransactionBegin0);
    txnInProgress = TRUE;
 
-   result = FwpmProviderContextAdd0(engine, &amp;provCtxt, NULL, NULL);
+   result = FwpmProviderContextAdd0(engine, &provCtxt, NULL, NULL);
    EXIT_ON_ERROR(FwpmProviderContextAdd0);
 
    //////////
@@ -101,7 +101,7 @@ DWORD EnableLooseSourceMapping(
    conds[1].conditionValue.uint16 = port;
 
    // Fill in the common fields shared by all filters.
-   memset(&amp;filter, 0, sizeof(filter));
+   memset(&filter, 0, sizeof(filter));
    filter.displayData.name = (PWSTR)filterName;
    // Filters can have either a raw context (which is a UINT64) or a
    // provider context. If using the latter, you have to set the
@@ -127,13 +127,13 @@ DWORD EnableLooseSourceMapping(
    // Add the IPv4 filter.
    filter.layerKey = FWPM_LAYER_ALE_AUTH_CONNECT_V4;
    filter.action.calloutKey = FWPM_CALLOUT_SET_OPTIONS_AUTH_CONNECT_LAYER_V4;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    // Add the IPv6 filter.
    filter.layerKey = FWPM_LAYER_ALE_AUTH_CONNECT_V6;
    filter.action.calloutKey = FWPM_CALLOUT_SET_OPTIONS_AUTH_CONNECT_LAYER_V6;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    // Once all the adds have succeeded, commit the transaction to atomically
@@ -196,7 +196,7 @@ DWORD ConfigureALEFlowTimeouts(
    result = FwpmTransactionBegin0(engineHandle, 0);
    EXIT_ON_ERROR(FwpmTransactionBegin0);
    
-   RtlZeroMemory(&amp;option, sizeof(option));
+   RtlZeroMemory(&option, sizeof(option));
    
    option[0].type = FWP_CLASSIFY_OPTION_MCAST_BCAST_LIFETIME;
    option[0].value.type = FWP_UINT32;
@@ -206,23 +206,23 @@ DWORD ConfigureALEFlowTimeouts(
    option[1].value.type = FWP_UINT32;
    option[1].value.uint32 = 90; // 1.5 minutes
    
-   RtlZeroMemory(&amp;options, sizeof(FWPM_CLASSIFY_OPTIONS0));
+   RtlZeroMemory(&options, sizeof(FWPM_CLASSIFY_OPTIONS0));
    options.numOptions = 2;
    options.options = option;
    
-   RtlZeroMemory(&amp;configureTimeouts, sizeof(FWPM_PROVIDER_CONTEXT0));
+   RtlZeroMemory(&configureTimeouts, sizeof(FWPM_PROVIDER_CONTEXT0));
    
    configureTimeouts.providerContextKey = CONFIGURE_TIMEOUT_PROVIDER_CONTEXT;
    configureTimeouts.type = FWPM_CLASSIFY_OPTIONS_CONTEXT;
    configureTimeouts.displayData.name = L"Classify Options";
    configureTimeouts.displayData.description = L"Sets options ALE connect layers";
-   configureTimeouts.classifyOptions = &amp;options;
+   configureTimeouts.classifyOptions = &options;
 
    // Add Provider Context for V4 connections.
-   result = FwpmProviderContextAdd0(engineHandle, &amp;configureTimeouts, NULL, NULL);
+   result = FwpmProviderContextAdd0(engineHandle, &configureTimeouts, NULL, NULL);
    EXIT_ON_ERROR(FwpmProviderContextAdd0);
    
-   RtlZeroMemory(&amp;filter, sizeof(FWPM_FILTER0));
+   RtlZeroMemory(&filter, sizeof(FWPM_FILTER0));
 
    filter.layerKey = FWPM_LAYER_ALE_AUTH_CONNECT_V4;
    filter.displayData.name = L"Implement Configure Timeouts for V4";
@@ -246,7 +246,7 @@ DWORD ConfigureALEFlowTimeouts(
    filterConditions[0].conditionValue.uint8 = IPPROTO_UDP;
 
    // Add Connect V4 Configure Timeouts filter.
-   result = FwpmFilterAdd0(engineHandle, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engineHandle, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    // Commit transaction.
@@ -274,10 +274,10 @@ DWORD wmain(int argc,
    //  - All objects associated with the dynamic session are deleted with one call.
    //  - Filtering policy objects are deleted even when the application crashes. 
    FWPM_SESSION0 session;
-   memset(&amp;session, 0, sizeof(session));
+   memset(&session, 0, sizeof(session));
    session.flags = FWPM_SESSION_FLAG_DYNAMIC;
 
-   DWORD result = FwpmEngineOpen0(NULL, RPC_C_AUTHN_WINNT, NULL, &amp;session, &amp;engineHandle);
+   DWORD result = FwpmEngineOpen0(NULL, RPC_C_AUTHN_WINNT, NULL, &session, &engineHandle);
    if (ERROR_SUCCESS == result)
    {
         result = ConfigureALEFlowTimeouts(engineHandle);

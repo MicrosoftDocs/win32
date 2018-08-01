@@ -24,14 +24,14 @@ The following example code retrieves a sensor data report, and then retrieves th
 if(SUCCEEDED(hr))
 {
     // Get the data report.
-    hr = pSensor->GetData(&amp;pReport);
+    hr = pSensor->GetData(&pReport);
 }
   
 if(SUCCEEDED(hr))
 {
     PROPVARIANT var = {};
 
-    hr = pReport->GetSensorValue(SAMPLE_SENSOR_DATA_TYPE_HOUR, &amp;var);
+    hr = pReport->GetSensorValue(SAMPLE_SENSOR_DATA_TYPE_HOUR, &var);
 
     if(SUCCEEDED(hr))
     {
@@ -42,9 +42,9 @@ if(SUCCEEDED(hr))
         }
     }
 
-    PropVariantClear(&amp;var);
+    PropVariantClear(&var);
 
-    hr = pReport->GetSensorValue(SAMPLE_SENSOR_DATA_TYPE_MINUTE, &amp;var);
+    hr = pReport->GetSensorValue(SAMPLE_SENSOR_DATA_TYPE_MINUTE, &var);
 
     if(SUCCEEDED(hr))
     {
@@ -55,9 +55,9 @@ if(SUCCEEDED(hr))
         }
     }
 
-    PropVariantClear(&amp;var);
+    PropVariantClear(&var);
 
-    hr = pReport->GetSensorValue(SAMPLE_SENSOR_DATA_TYPE_SECOND, &amp;var);
+    hr = pReport->GetSensorValue(SAMPLE_SENSOR_DATA_TYPE_SECOND, &var);
 
     if(SUCCEEDED(hr))
     {
@@ -68,7 +68,7 @@ if(SUCCEEDED(hr))
         }
     }
 
-    PropVariantClear(&amp;var);        
+    PropVariantClear(&var);        
 
     if(SUCCEEDED(hr))
     {
@@ -107,7 +107,7 @@ STDMETHODIMP OnDataUpdated(
 
     PROPVARIANT var = {};
 
-    hr = pNewData->GetSensorValue(SAMPLE_SENSOR_DATA_TYPE_HOUR, &amp;var);
+    hr = pNewData->GetSensorValue(SAMPLE_SENSOR_DATA_TYPE_HOUR, &var);
 
     if(SUCCEEDED(hr))
     {
@@ -118,11 +118,11 @@ STDMETHODIMP OnDataUpdated(
         }
     }
 
-    PropVariantClear(&amp;var);
+    PropVariantClear(&var);
 
     if(SUCCEEDED(hr))
     {
-        hr = pNewData->GetSensorValue(SAMPLE_SENSOR_DATA_TYPE_MINUTE, &amp;var);
+        hr = pNewData->GetSensorValue(SAMPLE_SENSOR_DATA_TYPE_MINUTE, &var);
     }
 
     if(SUCCEEDED(hr))
@@ -134,11 +134,11 @@ STDMETHODIMP OnDataUpdated(
         }
     }
 
-    PropVariantClear(&amp;var);
+    PropVariantClear(&var);
 
     if(SUCCEEDED(hr))
     {
-        hr = pNewData->GetSensorValue(SAMPLE_SENSOR_DATA_TYPE_SECOND, &amp;var);
+        hr = pNewData->GetSensorValue(SAMPLE_SENSOR_DATA_TYPE_SECOND, &var);
     }
 
     if(SUCCEEDED(hr))
@@ -150,7 +150,7 @@ STDMETHODIMP OnDataUpdated(
         }
     }
 
-    PropVariantClear(&amp;var);
+    PropVariantClear(&var);
 
     if(SUCCEEDED(hr))
     {

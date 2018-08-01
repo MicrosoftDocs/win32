@@ -68,7 +68,7 @@ int GenerateDump(EXCEPTION_POINTERS* pExceptionPointers)
     SYSTEMTIME stLocalTime;
     MINIDUMP_EXCEPTION_INFORMATION ExpParam;
 
-    GetLocalTime( &amp;stLocalTime );
+    GetLocalTime( &stLocalTime );
     GetTempPath( dwBufferSize, szPath );
 
     StringCchPrintf( szFileName, MAX_PATH, L"%s%s", szPath, szAppName );
@@ -87,7 +87,7 @@ int GenerateDump(EXCEPTION_POINTERS* pExceptionPointers)
     ExpParam.ClientPointers = TRUE;
 
     bMiniDumpSuccessful = MiniDumpWriteDump(GetCurrentProcess(), GetCurrentProcessId(), 
-                    hDumpFile, MiniDumpWithDataSegs, &amp;ExpParam, NULL, NULL);
+                    hDumpFile, MiniDumpWithDataSegs, &ExpParam, NULL, NULL);
 
     return EXCEPTION_EXECUTE_HANDLER;
 }

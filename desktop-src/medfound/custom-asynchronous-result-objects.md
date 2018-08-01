@@ -51,7 +51,7 @@ protected:
         m_bLockPlatform = TRUE;
 
         // Initialize the MFASYNCRESULT members.
-        ZeroMemory(&amp;this->overlapped, sizeof(OVERLAPPED));
+        ZeroMemory(&this->overlapped, sizeof(OVERLAPPED));
         hrStatusResult = S_OK;
         dwBytesTransferred = 0;
         hEvent = NULL;
@@ -70,9 +70,9 @@ protected:
 
     virtual ~CMyAsyncResult()
     {
-        SafeRelease(&amp;pCallback);
-        SafeRelease(&amp;m_pState);
-        SafeRelease(&amp;m_pObject);
+        SafeRelease(&pCallback);
+        SafeRelease(&m_pState);
+        SafeRelease(&m_pObject);
 
         if (m_bLockPlatform)
         {
@@ -93,7 +93,7 @@ public:
         *ppResult = NULL;
 
         CMyAsyncResult *pResult = 
-            new (std::nothrow) CMyAsyncResult(pCallback, pState, &amp;hr);
+            new (std::nothrow) CMyAsyncResult(pCallback, pState, &hr);
 
         if (pResult == NULL)
         {
@@ -130,7 +130,7 @@ public:
     // (This method is not part of the interface.)
     HRESULT SetObject(IUnknown *pObject)
     {
-        SafeRelease(&amp;m_pObject);
+        SafeRelease(&m_pObject);
         m_pObject = pObject;
         if (pObject)
         {
@@ -152,12 +152,12 @@ public:
 
     STDMETHODIMP_(ULONG) AddRef()
     {
-        return InterlockedIncrement(&amp;m_cRef);
+        return InterlockedIncrement(&m_cRef);
     }
 
     STDMETHODIMP_(ULONG) Release()
     {
-        LONG cRef = InterlockedDecrement(&amp;m_cRef);
+        LONG cRef = InterlockedDecrement(&m_cRef);
         if (cRef == 0)
         {
             delete this;

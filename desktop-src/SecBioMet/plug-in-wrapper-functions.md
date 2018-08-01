@@ -24,8 +24,8 @@ WbioEngineSetHashAlgorithm(
     __in PUCHAR AlgorithmBuffer
     )
 {
-    if (ARGUMENT_PRESENT(Pipeline) &amp;&amp;
-        ARGUMENT_PRESENT(Pipeline->EngineInterface) &amp;&amp;
+    if (ARGUMENT_PRESENT(Pipeline) &&
+        ARGUMENT_PRESENT(Pipeline->EngineInterface) &&
         ARGUMENT_PRESENT(Pipeline->EngineInterface->SetHashAlgorithm))
     {
         return Pipeline->EngineInterface->SetHashAlgorithm(

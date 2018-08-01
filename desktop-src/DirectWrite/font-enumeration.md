@@ -36,7 +36,7 @@ IDWriteFontCollection* pFontCollection = NULL;
 // Get the system font collection.
 if (SUCCEEDED(hr))
 {
-    hr = pDWriteFactory->GetSystemFontCollection(&amp;pFontCollection);
+    hr = pDWriteFactory->GetSystemFontCollection(&pFontCollection);
 }
 ```
 
@@ -81,7 +81,7 @@ IDWriteFontFamily* pFontFamily = NULL;
 // Get the font family.
 if (SUCCEEDED(hr))
 {
-    hr = pFontCollection->GetFontFamily(i, &amp;pFontFamily);
+    hr = pFontCollection->GetFontFamily(i, &pFontFamily);
 }
 ```
 
@@ -98,7 +98,7 @@ IDWriteLocalizedStrings* pFamilyNames = NULL;
 // Get a list of localized strings for the family name.
 if (SUCCEEDED(hr))
 {
-    hr = pFontFamily->GetFamilyNames(&amp;pFamilyNames);
+    hr = pFontFamily->GetFamilyNames(&pFamilyNames);
 }
 ```
 
@@ -123,11 +123,11 @@ if (SUCCEEDED(hr))
     // If the default locale is returned, find that locale name, otherwise use "en-us".
     if (defaultLocaleSuccess)
     {
-        hr = pFamilyNames->FindLocaleName(localeName, &amp;index, &amp;exists);
+        hr = pFamilyNames->FindLocaleName(localeName, &index, &exists);
     }
-    if (SUCCEEDED(hr) &amp;&amp; !exists) // if the above find did not find a match, retry with US English
+    if (SUCCEEDED(hr) && !exists) // if the above find did not find a match, retry with US English
     {
-        hr = pFamilyNames->FindLocaleName(L"en-us", &amp;index, &amp;exists);
+        hr = pFamilyNames->FindLocaleName(L"en-us", &index, &exists);
     }
 }
 
@@ -149,7 +149,7 @@ UINT32 length = 0;
 // Get the string length.
 if (SUCCEEDED(hr))
 {
-    hr = pFamilyNames->GetStringLength(index, &amp;length);
+    hr = pFamilyNames->GetStringLength(index, &length);
 }
 
 // Allocate a string big enough to hold the name.

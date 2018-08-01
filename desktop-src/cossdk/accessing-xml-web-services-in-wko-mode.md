@@ -43,7 +43,7 @@ HRESULT hr = CoGetObject(
      L"soap:wsdl=http://servername/vroot/progID.soap?WSDL",
      pBindOptions,
      IID_IUnknown,
-     (void**)&amp;pIUnknown);
+     (void**)&pIUnknown);
 if (FAILED(hr)) throw(hr); 
 ```
 

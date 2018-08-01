@@ -87,7 +87,7 @@ INT_PTR CALLBACK PasswordProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM lPa
 
         case WM_COMMAND: 
             // Set the default push button to "OK" when the user enters text. 
-            if(HIWORD (wParam) == EN_CHANGE &amp;&amp; 
+            if(HIWORD (wParam) == EN_CHANGE && 
                                 LOWORD(wParam) == IDE_PASSWORDEDIT) 
             {
                 SendMessage(hDlg, 

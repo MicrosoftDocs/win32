@@ -34,7 +34,7 @@ DWORD GetBatteryState()
   // enumerate the batteries and ask each one for information.
 
   HDEVINFO hdev =
-            SetupDiGetClassDevs(&amp;GUID_DEVCLASS_BATTERY, 
+            SetupDiGetClassDevs(&GUID_DEVCLASS_BATTERY, 
                                 0, 
                                 0, 
                                 DIGCF_PRESENT | DIGCF_DEVICEINTERFACE);
@@ -48,17 +48,17 @@ DWORD GetBatteryState()
 
       if (SetupDiEnumDeviceInterfaces(hdev,
                                       0,
-                                      &amp;GUID_DEVCLASS_BATTERY,
+                                      &GUID_DEVCLASS_BATTERY,
                                       idev,
-                                      &amp;did))
+                                      &did))
        {
         DWORD cbRequired = 0;
 
         SetupDiGetDeviceInterfaceDetail(hdev,
-                                        &amp;did,
+                                        &did,
                                         0,
                                         0,
-                                        &amp;cbRequired,
+                                        &cbRequired,
                                         0);
         if (ERROR_INSUFFICIENT_BUFFER == GetLastError())
          {
@@ -69,10 +69,10 @@ DWORD GetBatteryState()
            {
             pdidd->cbSize = sizeof(*pdidd);
             if (SetupDiGetDeviceInterfaceDetail(hdev,
-                                                &amp;did,
+                                                &did,
                                                 pdidd,
                                                 cbRequired,
-                                                &amp;cbRequired,
+                                                &cbRequired,
                                                 0))
              {
               // Enumerated a battery.  Ask it for information.
@@ -94,13 +94,13 @@ DWORD GetBatteryState()
 
                 if (DeviceIoControl(hBattery,
                                     IOCTL_BATTERY_QUERY_TAG,
-                                    &amp;dwWait,
+                                    &dwWait,
                                     sizeof(dwWait),
-                                    &amp;bqi.BatteryTag,
+                                    &bqi.BatteryTag,
                                     sizeof(bqi.BatteryTag),
-                                    &amp;dwOut,
+                                    &dwOut,
                                     NULL)
-                    &amp;&amp; bqi.BatteryTag)
+                    && bqi.BatteryTag)
                  {
                   // With the tag, you can query the battery info.
                   BATTERY_INFORMATION bi = {0};
@@ -108,11 +108,11 @@ DWORD GetBatteryState()
 
                   if (DeviceIoControl(hBattery,
                                       IOCTL_BATTERY_QUERY_INFORMATION,
-                                      &amp;bqi,
+                                      &bqi,
                                       sizeof(bqi),
-                                      &amp;bi,
+                                      &bi,
                                       sizeof(bi),
-                                      &amp;dwOut,
+                                      &dwOut,
                                       NULL))
                    {
                     // Only non-UPS system batteries count
@@ -130,16 +130,16 @@ DWORD GetBatteryState()
                       BATTERY_STATUS bs;
                       if (DeviceIoControl(hBattery,
                                           IOCTL_BATTERY_QUERY_STATUS,
-                                          &amp;bws,
+                                          &bws,
                                           sizeof(bws),
-                                          &amp;bs,
+                                          &bs,
                                           sizeof(bs),
-                                          &amp;dwOut,
+                                          &dwOut,
                                           NULL))
                        {
                         if (bs.PowerState & BATTERY_POWER_ON_LINE)
                          {
-                          dwResult &amp;= ~GBS_ONBATTERY;
+                          dwResult &= ~GBS_ONBATTERY;
                          }
                        }
                      }
@@ -164,7 +164,7 @@ DWORD GetBatteryState()
   //  are on AC power.
 
   if (!(dwResult & GBS_HASBATTERY))
-    dwResult &amp;= ~GBS_ONBATTERY;
+    dwResult &= ~GBS_ONBATTERY;
 
   return dwResult;
  }

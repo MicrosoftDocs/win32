@@ -32,7 +32,7 @@ The following example constructs a regular style Arial font with a size of 16 pi
 
 ```
 FontFamily fontFamily(L"Arial");
-Font font(&amp;fontFamily, 16, FontStyleRegular, UnitPixel);
+Font font(&fontFamily, 16, FontStyleRegular, UnitPixel);
             
 ```
 

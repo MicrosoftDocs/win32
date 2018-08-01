@@ -67,12 +67,12 @@ hr = ADsOpenObject(L"LDAP://rootDSE",
                      NULL,
                      ADS_SECURE_AUTHENTICATION,
                      IID_IADs,
-                     (void**)&amp;pObj);
+                     (void**)&pObj);
  
 if (SUCCEEDED(hr))
 {
     // Get the DN to the configuration container.
-    hr = pObj->Get(CComBSTR("configurationNamingContext"), &amp;var);
+    hr = pObj->Get(CComBSTR("configurationNamingContext"), &var);
     if (SUCCEEDED(hr))
     {
         // Build the string to bind to the container for the
@@ -104,7 +104,7 @@ if (SUCCEEDED(hr))
 }
  
 // Cleanup.
-VariantClear(&amp;var);
+VariantClear(&var);
 if (pObj)
     pObj->Release();
  

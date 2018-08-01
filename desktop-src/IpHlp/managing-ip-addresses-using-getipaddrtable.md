@@ -45,7 +45,7 @@ The [**GetIpAddrTable**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getipaddrtabl
      
 
     ```C++
-    if (GetIpAddrTable(pIPAddrTable, &amp;dwSize, 0) == ERROR_INSUFFICIENT_BUFFER) {
+    if (GetIpAddrTable(pIPAddrTable, &dwSize, 0) == ERROR_INSUFFICIENT_BUFFER) {
         free( pIPAddrTable );
         pIPAddrTable = (MIB_IPADDRTABLE *) malloc ( dwSize );
     }
@@ -56,7 +56,7 @@ The [**GetIpAddrTable**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getipaddrtabl
 
 4.  Make a second call to [**GetIpAddrTable**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getipaddrtable) with general error checking and return its value to the **DWORD** variable *dwRetVal* (for more advanced error checking).
     ```C++
-    if ( (dwRetVal = GetIpAddrTable( pIPAddrTable, &amp;dwSize, 0 )) != NO_ERROR ) { 
+    if ( (dwRetVal = GetIpAddrTable( pIPAddrTable, &dwSize, 0 )) != NO_ERROR ) { 
         printf("GetIpAddrTable call failed with %d\n", dwRetVal);
     }
     

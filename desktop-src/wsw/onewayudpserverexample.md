@@ -55,7 +55,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -63,7 +63,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -97,7 +97,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -109,7 +109,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -123,7 +123,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         NULL, 
         0, 
         NULL, 
-        &amp;listener, 
+        &listener, 
         error);
     if (FAILED(hr))
     {
@@ -137,7 +137,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     hr = WsOpenListener(
         listener, 
-        &amp;uri, 
+        &uri, 
         NULL, 
         error);
     if (FAILED(hr))
@@ -149,7 +149,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         listener, 
         NULL, 
         0, 
-        &amp;channel, 
+        &channel, 
         error);
     if (FAILED(hr))
     {
@@ -160,7 +160,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         channel,
         NULL, 
         0, 
-        &amp;message, 
+        &message, 
         error);
     if (FAILED(hr))
     {
@@ -202,7 +202,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         }
         
         // Set up the descriptions of the expected messages.  In this case, we only expect purchase orders.
-        const WS_MESSAGE_DESCRIPTION* messageDescriptions[] = {&amp;PurchaseOrder_wsdl.messages.PurchaseOrder};
+        const WS_MESSAGE_DESCRIPTION* messageDescriptions[] = {&PurchaseOrder_wsdl.messages.PurchaseOrder};
         
         // Receive the message and deserialize the element of the body into a _PurchaseOrderType structure.
         // The values of the fields of the _PurchaseOrderType structure are allocated in the specified
@@ -211,7 +211,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         hr = WsReceiveMessage(channel, message, 
             messageDescriptions, WsCountOf(messageDescriptions),
             WS_RECEIVE_OPTIONAL_MESSAGE, WS_READ_REQUIRED_VALUE, heap, 
-            &amp;purchaseOrder, sizeof(purchaseOrder), NULL, NULL, error);
+            &purchaseOrder, sizeof(purchaseOrder), NULL, NULL, error);
         
         if (hr == WS_S_END)
         {

@@ -54,7 +54,7 @@ HRESULT SetDateTime(IPortableDevice* pDevice, LPCWSTR pwszDateTime)
                               NULL,
                               CLSCTX_INPROC_SERVER,
                               IID_IPortableDeviceValues,
-                              (VOID**)&amp;spParameters);
+                              (VOID**)&spParameters);
     }
 
     // Use WPD_COMMAND_MTP_EXT_EXECUTE_COMMAND_WITH_DATA_TO_WRITE
@@ -86,7 +86,7 @@ HRESULT SetDateTime(IPortableDevice* pDevice, LPCWSTR pwszDateTime)
                                   NULL,
                                   CLSCTX_INPROC_SERVER,
                                   IID_IPortableDevicePropVariantCollection,
-                                  (VOID**)&amp;spMtpParams);
+                                  (VOID**)&spMtpParams);
     }
 
     PROPVARIANT pvParam = {0};
@@ -96,7 +96,7 @@ HRESULT SetDateTime(IPortableDevice* pDevice, LPCWSTR pwszDateTime)
     if (hr == S_OK)
     {
         pvParam.ulVal = PTP_DEVICEPROPCODE_DATETIME;
-        hr = spMtpParams->Add(&amp;pvParam);
+        hr = spMtpParams->Add(&pvParam);
     }
 
     // Add MTP parameters collection to our main parameter list
@@ -111,28 +111,28 @@ HRESULT SetDateTime(IPortableDevice* pDevice, LPCWSTR pwszDateTime)
     DWORD cbBufferSize = 0;
     if (hr == S_OK)
     {
-        hr = PackString(pwszDateTime, &amp;pbBuffer, &amp;cbBufferSize);
+        hr = PackString(pwszDateTime, &pbBuffer, &cbBufferSize);
     }
 
     // Inform the device how much data will arrive - this is a required parameter
     if (hr == S_OK)
     {
         hr = spParameters->SetUnsignedLargeIntegerValue(WPD_PROPERTY_MTP_EXT_TRANSFER_TOTAL_DATA_SIZE, 
-                                                        &amp;cbBufferSize);
+                                                        &cbBufferSize);
     }
 
     // Send the command to initiate the transfer
     CComPtr<IPortableDeviceValues> spResults;
     if (hr == S_OK)
     {
-        hr = pDevice->SendCommand(0, spParameters, &amp;spResults);
+        hr = pDevice->SendCommand(0, spParameters, &spResults);
     }
 
     // Check if the driver was able to send the command by interrogating WPD_PROPERTY_COMMON_HRESULT
     HRESULT hrCmd = S_OK;
     if (hr == S_OK)
     {
-         hr = spResults->GetErrorValue(WPD_PROPERTY_COMMON_HRESULT, &amp;hrCmd);
+         hr = spResults->GetErrorValue(WPD_PROPERTY_COMMON_HRESULT, &hrCmd);
     }
 
     if (hr == S_OK)
@@ -145,7 +145,7 @@ HRESULT SetDateTime(IPortableDevice* pDevice, LPCWSTR pwszDateTime)
     LPWSTR pwszCookie = NULL;
     if (hr == S_OK)
     {
-         hr = spResults->GetStringValue(WPD_PROPERTY_MTP_EXT_TRANSFER_CONTEXT, &amp;pwszContext);
+         hr = spResults->GetStringValue(WPD_PROPERTY_MTP_EXT_TRANSFER_CONTEXT, &pwszContext);
     }
 ```
 
@@ -193,13 +193,13 @@ The following code example shows how a WPD application transmits the data after 
     spResults = NULL;
     if (hr == S_OK)
     {
-        hr = pDevice->SendCommand(0, spParameters, &amp;spResults);
+        hr = pDevice->SendCommand(0, spParameters, &spResults);
     }
 
     // Check if the data was sent successfully by interrogating COMMON_HRESULT
     if (hr == S_OK)
     {
-         hr = spResults->GetErrorValue(WPD_PROPERTY_COMMON_HRESULT, &amp;hrCmd);
+         hr = spResults->GetErrorValue(WPD_PROPERTY_COMMON_HRESULT, &hrCmd);
     }
 
     if (hr == S_OK)
@@ -214,7 +214,7 @@ The following code example shows how a WPD application transmits the data after 
     if (hr == S_OK)
     {
         hr = spResults->GetUnsignedIntegerValue(WPD_PROPERTY_MTP_EXT_TRANSFER_NUM_BYTES_WRITTEN, 
-                                                &amp;cbBytesWritten);
+                                                &cbBytesWritten);
     }
 ```
 
@@ -248,13 +248,13 @@ The following code example shows how an application retrieves a response code fr
     spResults = NULL;
     if (hr == S_OK)
     {
-        hr = pDevice->SendCommand(0, spParameters, &amp;spResults);
+        hr = pDevice->SendCommand(0, spParameters, &spResults);
     }
 
     // Check if the driver successfully ended the data transfer
     if (hr == S_OK)
     {
-         hr = spResults->GetErrorValue(WPD_PROPERTY_COMMON_HRESULT, &amp;hrCmd);
+         hr = spResults->GetErrorValue(WPD_PROPERTY_COMMON_HRESULT, &hrCmd);
     }
 
     if (hr == S_OK)
@@ -270,7 +270,7 @@ The following code example shows how an application retrieves a response code fr
     DWORD dwResponseCode;
     if (hr == S_OK)
     {
-        hr = spResults->GetUnsignedIntegerValue(WPD_PROPERTY_MTP_EXT_RESPONSE_CODE, &amp;dwResponseCode);
+        hr = spResults->GetUnsignedIntegerValue(WPD_PROPERTY_MTP_EXT_RESPONSE_CODE, &dwResponseCode);
     }
 
     if (hr == S_OK)

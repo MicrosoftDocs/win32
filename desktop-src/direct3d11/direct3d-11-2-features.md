@@ -53,16 +53,16 @@ HRESULT hr = D3D11CreateDevice(
     featureLevels,              // List of feature levels this app can support.
     ARRAYSIZE(featureLevels),   // Size of the list above.
     D3D11_SDK_VERSION,          // Always set this to D3D11_SDK_VERSION for Windows Store apps.
-    &amp;device,                    // Returns the Direct3D device created.
-    &amp;m_d3dFeatureLevel,         // Returns feature level of device created.
-    &amp;context                    // Returns the device immediate context.
+    &device,                    // Returns the Direct3D device created.
+    &m_d3dFeatureLevel,         // Returns feature level of device created.
+    &context                    // Returns the device immediate context.
     );
 
 if (SUCCEEDED(hr))
 {
     D3D11_FEATURE_DATA_D3D11_OPTIONS1 featureData;
     DX::ThrowIfFailed(
-        device->CheckFeatureSupport(D3D11_FEATURE_D3D11_OPTIONS1, &amp;featureData, sizeof(featureData))
+        device->CheckFeatureSupport(D3D11_FEATURE_D3D11_OPTIONS1, &featureData, sizeof(featureData))
         );
 
     m_tiledResourcesTier = featureData.TiledResourcesTier;

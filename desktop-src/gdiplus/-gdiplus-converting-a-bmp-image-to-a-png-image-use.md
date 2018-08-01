@@ -27,16 +27,16 @@ INT main()
    // Initialize GDI+.
    GdiplusStartupInput gdiplusStartupInput;
    ULONG_PTR gdiplusToken;
-   GdiplusStartup(&amp;gdiplusToken, &amp;gdiplusStartupInput, NULL);
+   GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
 
    CLSID   encoderClsid;
    Status  stat;
    Image*   image = new Image(L"Bird.bmp");
 
    // Get the CLSID of the PNG encoder.
-   GetEncoderClsid(L"image/png", &amp;encoderClsid);
+   GetEncoderClsid(L"image/png", &encoderClsid);
 
-   stat = image->Save(L"Bird.png", &amp;encoderClsid, NULL);
+   stat = image->Save(L"Bird.png", &encoderClsid, NULL);
 
    if(stat == Ok)
       printf("Bird.png was saved successfully\n");

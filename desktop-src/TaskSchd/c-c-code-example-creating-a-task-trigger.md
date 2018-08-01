@@ -41,7 +41,7 @@ int main(int argc, char **argv)
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_ITaskScheduler,
-                          (void **) &amp;pITS);
+                          (void **) &pITS);
     if (FAILED(hr))
     {
       CoUninitialize();
@@ -63,7 +63,7 @@ int main(int argc, char **argv)
   lpcwszTaskName = L"Test Task";
   hr = pITS->Activate(lpcwszTaskName,
                       IID_ITask,
-                      (IUnknown**) &amp;pITask);
+                      (IUnknown**) &pITask);
   pITS->Release();
 
   if (FAILED(hr))
@@ -82,8 +82,8 @@ int main(int argc, char **argv)
   
   ITaskTrigger *pITaskTrigger;
   WORD piNewTrigger;
-  hr = pITask->CreateTrigger(&amp;piNewTrigger,
-                             &amp;pITaskTrigger);
+  hr = pITask->CreateTrigger(&piNewTrigger,
+                             &pITaskTrigger);
   if (FAILED(hr))
   {
     wprintf(L"Failed calling ITask::CreatTrigger: ");
@@ -101,7 +101,7 @@ int main(int argc, char **argv)
   //////////////////////////////////////////////////////
   
   TASK_TRIGGER pTrigger;
-  ZeroMemory(&amp;pTrigger, sizeof (TASK_TRIGGER));
+  ZeroMemory(&pTrigger, sizeof (TASK_TRIGGER));
   
   // Add code to set trigger structure?
   pTrigger.wBeginDay =1;                  // Required
@@ -117,7 +117,7 @@ int main(int argc, char **argv)
   // Call ITaskTrigger::SetTrigger to set trigger criteria.
   ///////////////////////////////////////////////////////////////////
   
-  hr = pITaskTrigger->SetTrigger (&amp;pTrigger);
+  hr = pITaskTrigger->SetTrigger (&pTrigger);
   if (FAILED(hr))
   {
     wprintf(L"Failed calling ITaskTrigger::SetTrigger: ");
@@ -135,7 +135,7 @@ int main(int argc, char **argv)
   
   IPersistFile *pIPersistFile;
   hr = pITask->QueryInterface(IID_IPersistFile,
-                              (void **)&amp;pIPersistFile);
+                              (void **)&pIPersistFile);
   hr = pIPersistFile->Save(NULL,
                            TRUE);
 

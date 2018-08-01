@@ -20,7 +20,7 @@ To create any type of object in the timeline, call the [**IAMTimeline::CreateEmp
 
 ```C++
 IAMTimelineObj *pGroupObj = NULL;
-pTL->CreateEmptyNode(&amp;pGroupObj, TIMELINE_MAJOR_TYPE_GROUP);
+pTL->CreateEmptyNode(&pGroupObj, TIMELINE_MAJOR_TYPE_GROUP);
 ```
 
 

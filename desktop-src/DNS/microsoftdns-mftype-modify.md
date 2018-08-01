@@ -32,7 +32,7 @@ The **Modify** method updates a Mail Forwarding Agent for Domain (MF) Resource R
 void Modify(
   [in, optional] uint32              TTL,
   [in, optional] string              MFHost,
-  [out, ref]     MicrosoftDNS_MFType &amp;RR
+  [out, ref]     MicrosoftDNS_MFType &RR
 );
 ```
 

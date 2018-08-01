@@ -64,7 +64,7 @@ BYTE* pbKeyBlob;
 // Acquire a handle to the CSP.
 
 if(!CryptAcquireContext(
-   &amp;hProv,
+   &hProv,
    NULL,
    MS_ENHANCED_PROV,
    PROV_RSA_FULL,
@@ -76,7 +76,7 @@ if(!CryptAcquireContext(
       if(NTE_BAD_KEYSET == GetLastError())
       {
          if(!CryptAcquireContext(
-            &amp;hProv,
+            &hProv,
             L"mytestcontainer",
             MS_ENHANCED_PROV,
             PROV_RSA_FULL,
@@ -105,7 +105,7 @@ if(!CryptAcquireContext(
        sizeof(DesKeyBlob),
        0,
        CRYPT_EXPORTABLE,
-       &amp;hKey ) )
+       &hKey ) )
    {
       printf("Error 0x%08x in importing the Des key \n",
          GetLastError());
@@ -124,7 +124,7 @@ if(!CryptAcquireContext(
       PLAINTEXTKEYBLOB,
       0,    
       NULL, 
-      &amp;dwBlobLen)) 
+      &dwBlobLen)) 
       {
          printf("Error 0x%08x computing BLOB length.\n",
             GetLastError());
@@ -147,7 +147,7 @@ if(!CryptAcquireContext(
       PLAINTEXTKEYBLOB,    
       0,    
       pbKeyBlob,    
-      &amp;dwBlobLen))
+      &dwBlobLen))
       {
          printf("Error 0x%08x exporting key.\n", GetLastError());
          return 1;

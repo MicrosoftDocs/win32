@@ -30,7 +30,7 @@ Calls the compute shader subobject callback of an object that implements this in
 
 ```C++
 void CSCb(
-  [ref] const D3D12_SHADER_BYTECODE &amp;CS
+  [ref] const D3D12_SHADER_BYTECODE &CS
 );
 ```
 

@@ -87,7 +87,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam){
     case WM_TABLET_QUERYSYSTEMGESTURESTATUS:
         int x = GET_X_LPARAM(lParam);
         int y = GET_Y_LPARAM(lParam);
-        if (x < xThreashold &amp;&amp; y < yThreshold){
+        if (x < xThreashold && y < yThreshold){
             // no flicks in the region specified by the threashold
             return TABLET_DISABLE_FLICKS;
         }

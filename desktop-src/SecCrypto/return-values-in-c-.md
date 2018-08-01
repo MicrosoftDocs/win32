@@ -19,7 +19,7 @@ BSTR      bstrPropName = NULL;
 VARIANT   varProp;
 HRESULT   hr;
 
-VariantInit(&amp;varProp);
+VariantInit(&varProp);
 
 bstrPropName = SysAllocString(L"RequestID");
 if (NULL == bstrPropName)
@@ -34,7 +34,7 @@ if (NULL == bstrPropName)
 // instantiated ICertServerPolicy object.
 hr = pCertServerPolicy->GetRequestProperty(bstrPropName,
                                            PROPTYPE_LONG,
-                                           &amp;varProp);
+                                           &varProp);
 if (S_OK != hr)
 {
     printf("Failed GetRequestProperty [%x]\n", hr);
@@ -48,7 +48,7 @@ else
 }
 
 // Done processing.
-VariantClear(&amp;varProp);
+VariantClear(&varProp);
 if (NULL != bstrPropName)
     SysFreeString(bstrPropName);
 ```

@@ -56,7 +56,7 @@ int PASCAL WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
         wc.lpszMenuName =  "MainMenu"; 
         wc.lpszClassName = "MainWndClass"; 
  
-        if (!RegisterClass(&amp;wc)) 
+        if (!RegisterClass(&wc)) 
             return FALSE; 
     } 
  
@@ -82,7 +82,7 @@ int PASCAL WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
  
     // Start the message loop. 
  
-    while( (bRet = GetMessage( &amp;msg, NULL, 0, 0 )) != 0)
+    while( (bRet = GetMessage( &msg, NULL, 0, 0 )) != 0)
     { 
         if (bRet == -1)
         {
@@ -90,8 +90,8 @@ int PASCAL WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
         }
         else
         {
-            TranslateMessage(&amp;msg); 
-            DispatchMessage(&amp;msg); 
+            TranslateMessage(&msg); 
+            DispatchMessage(&msg); 
         }
     } 
  
@@ -116,7 +116,7 @@ HACCEL haccel;
 // Perform initialization and create a main window. 
 // 
  
-while( (bRet = GetMessage( &amp;msg, NULL, 0, 0 )) != 0)
+while( (bRet = GetMessage( &msg, NULL, 0, 0 )) != 0)
 { 
     if (bRet == -1)
     {
@@ -125,12 +125,12 @@ while( (bRet = GetMessage( &amp;msg, NULL, 0, 0 )) != 0)
     else
     {
         if (hwndDlgModeless == (HWND) NULL || 
-                !IsDialogMessage(hwndDlgModeless, &amp;msg) &amp;&amp; 
+                !IsDialogMessage(hwndDlgModeless, &msg) && 
                 !TranslateAccelerator(hwndMain, haccel, 
-                    &amp;msg)) 
+                    &msg)) 
         { 
-            TranslateMessage(&amp;msg); 
-            DispatchMessage(&amp;msg); 
+            TranslateMessage(&msg); 
+            DispatchMessage(&msg); 
         }
     } 
 } 
@@ -164,7 +164,7 @@ while (!fDone)
     // queue contains any mouse or keyboard 
     // messages, end the operation. 
  
-    while (PeekMessage(&amp;msg, hwnd,  0, 0, PM_REMOVE)) 
+    while (PeekMessage(&msg, hwnd,  0, 0, PM_REMOVE)) 
     { 
         switch(msg.message) 
         { 

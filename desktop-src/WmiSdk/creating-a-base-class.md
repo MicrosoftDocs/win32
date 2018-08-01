@@ -141,7 +141,7 @@ You can create a new base class programmatically using the [COM API for WMI](com
     IWbemContext* pCtx = 0;
     IWbemClassObject* pNewClass = 0;
     IWbemCallResult* pResult = 0;
-    HRESULT hRes = pSvc->GetObject(0, 0, pCtx, &amp;pNewClass, &amp;pResult);
+    HRESULT hRes = pSvc->GetObject(0, 0, pCtx, &pNewClass, &pResult);
     ```
 
     
@@ -152,14 +152,14 @@ You can create a new base class programmatically using the [COM API for WMI](com
 
     ```C++
     VARIANT v;
-    VariantInit(&amp;v);
-    V_VT(&amp;v) = VT_BSTR;
+    VariantInit(&v);
+    V_VT(&v) = VT_BSTR;
 
-    V_BSTR(&amp;v) = SysAllocString(L"Example");
+    V_BSTR(&v) = SysAllocString(L"Example");
     BSTR Class = SysAllocString(L"__CLASS");
-    pNewClass->Put(Class, 0, &amp;v, 0);
+    pNewClass->Put(Class, 0, &v, 0);
     SysFreeString(Class);
-    VariantClear(&amp;v);
+    VariantClear(&v);
     ```
 
     
@@ -181,19 +181,19 @@ You can create a new base class programmatically using the [COM API for WMI](com
 
     ```C++
       IWbemQualifierSet *pQual = 0;
-      pNewClass->GetPropertyQualifierSet(KeyProp, &amp;pQual);
+      pNewClass->GetPropertyQualifierSet(KeyProp, &pQual);
       SysFreeString(KeyProp);
 
-      V_VT(&amp;v) = VT_BOOL;
-      V_BOOL(&amp;v) = VARIANT_TRUE;
+      V_VT(&v) = VT_BOOL;
+      V_BOOL(&v) = VARIANT_TRUE;
       BSTR Key = SysAllocString(L"Key");
 
-      pQual->Put(Key, &amp;v, 0);   // Flavors not required for Key 
+      pQual->Put(Key, &v, 0);   // Flavors not required for Key 
       SysFreeString(Key);
 
       // No longer need the qualifier set for "Index"
       pQual->Release();   
-      VariantClear(&amp;v);
+      VariantClear(&v);
     ```
 
     
@@ -203,12 +203,12 @@ You can create a new base class programmatically using the [COM API for WMI](com
     The following code example describes how to create additional properties.
 
     ```C++
-      V_VT(&amp;v) = VT_BSTR;
-      V_BSTR(&amp;v) = SysAllocString(L"<default>");
+      V_VT(&v) = VT_BSTR;
+      V_BSTR(&v) = SysAllocString(L"<default>");
       BSTR OtherProp = SysAllocString(L"OtherInfo");
-      pNewClass->Put(OtherProp, 0, &amp;v, CIM_STRING);
+      pNewClass->Put(OtherProp, 0, &v, CIM_STRING);
       SysFreeString(OtherProp);
-      VariantClear(&amp;v);
+      VariantClear(&v);
 
       OtherProp = SysAllocString(L"IntVal");
       pNewClass->Put(OtherProp, 0, NULL, CIM_SINT32); // NULL is default
@@ -224,7 +224,7 @@ You can create a new base class programmatically using the [COM API for WMI](com
     The following code example describes how to register a new class.
 
     ```C++
-      hRes = pSvc->PutClass(pNewClass, 0, pCtx, &amp;pResult);
+      hRes = pSvc->PutClass(pNewClass, 0, pCtx, &pResult);
       pNewClass->Release();
     ```
 
@@ -242,18 +242,18 @@ void CreateClass(IWbemServices *pSvc)
 
   // Get a class definition. 
   // ============================
-  HRESULT hRes = pSvc->GetObject(0, 0, pCtx, &amp;pNewClass, &amp;pResult);
+  HRESULT hRes = pSvc->GetObject(0, 0, pCtx, &pNewClass, &pResult);
   VARIANT v;
-  VariantInit(&amp;v);
+  VariantInit(&v);
 
   // Create the class name.
   // ============================
-  V_VT(&amp;v) = VT_BSTR;
-  V_BSTR(&amp;v) = SysAllocString(L"Example");
+  V_VT(&v) = VT_BSTR;
+  V_BSTR(&v) = SysAllocString(L"Example");
   BSTR Class = SysAllocString(L"__CLASS");
-  pNewClass->Put(Class, 0, &amp;v, 0);
+  pNewClass->Put(Class, 0, &v, 0);
   SysFreeString(Class);
-  VariantClear(&amp;v);
+  VariantClear(&v);
 
   // Create the key property. 
   // ============================
@@ -263,28 +263,28 @@ void CreateClass(IWbemServices *pSvc)
   // Attach Key qualifier to mark the "Index" property as the key.
   // ============================
   IWbemQualifierSet *pQual = 0;
-  pNewClass->GetPropertyQualifierSet(KeyProp, &amp;pQual);
+  pNewClass->GetPropertyQualifierSet(KeyProp, &pQual);
   SysFreeString(KeyProp);
 
-  V_VT(&amp;v) = VT_BOOL;
-  V_BOOL(&amp;v) = VARIANT_TRUE;
+  V_VT(&v) = VT_BOOL;
+  V_BOOL(&v) = VARIANT_TRUE;
   BSTR Key = SysAllocString(L"Key");
 
-  pQual->Put(Key, &amp;v, 0);   // Flavors not required for Key 
+  pQual->Put(Key, &v, 0);   // Flavors not required for Key 
   SysFreeString(Key);
 
   // No longer need the qualifier set for "Index"
   pQual->Release();     
-  VariantClear(&amp;v);
+  VariantClear(&v);
 
   // Create other properties.
   // ============================
-  V_VT(&amp;v) = VT_BSTR;
-  V_BSTR(&amp;v) = SysAllocString(L"<default>");
+  V_VT(&v) = VT_BSTR;
+  V_BSTR(&v) = SysAllocString(L"<default>");
   BSTR OtherProp = SysAllocString(L"OtherInfo");
-  pNewClass->Put(OtherProp, 0, &amp;v, CIM_STRING);
+  pNewClass->Put(OtherProp, 0, &v, CIM_STRING);
   SysFreeString(OtherProp);
-  VariantClear(&amp;v);
+  VariantClear(&v);
 
   OtherProp = SysAllocString(L"IntVal");
   pNewClass->Put(OtherProp, 0, NULL, CIM_SINT32); // NULL is default
@@ -292,7 +292,7 @@ void CreateClass(IWbemServices *pSvc)
   
   // Register the class with WMI
   // ============================
-  hRes = pSvc->PutClass(pNewClass, 0, pCtx, &amp;pResult);
+  hRes = pSvc->PutClass(pNewClass, 0, pCtx, &pResult);
   pNewClass->Release();
 }
 ```

@@ -32,7 +32,7 @@ static const int MATHINPUTCONTROL_SINK_ID = 1 ;
 
 template <class T>
 class ATL_NO_VTABLE CMathInputControlEventHandler :
-    public IDispEventSimpleImpl<MATHINPUTCONTROL_SINK_ID, CMathInputControlEventHandler<T>, &amp;__uuidof(_IMathInputControlEvents)>
+    public IDispEventSimpleImpl<MATHINPUTCONTROL_SINK_ID, CMathInputControlEventHandler<T>, &__uuidof(_IMathInputControlEvents)>
 {
 private:
     IUnknown    *m_pUnknown;
@@ -58,8 +58,8 @@ public:
     static const _ATL_FUNC_INFO OnMICCloseInfo;  // = {CC_STDCALL, VT_I4, 0, {VT_EMPTY}};
 
     BEGIN_SINK_MAP(CMathInputControlEventHandler)
-        SINK_ENTRY_INFO(MATHINPUTCONTROL_SINK_ID, __uuidof(_IMathInputControlEvents), DISPID_MICInsert, OnMICInsert, const_cast<_ATL_FUNC_INFO*>(&amp;OnMICInsertInfo))
-        SINK_ENTRY_INFO(MATHINPUTCONTROL_SINK_ID, __uuidof(_IMathInputControlEvents), DISPID_MICClose, OnMICClose, const_cast<_ATL_FUNC_INFO*>(&amp;OnMICCloseInfo))  
+        SINK_ENTRY_INFO(MATHINPUTCONTROL_SINK_ID, __uuidof(_IMathInputControlEvents), DISPID_MICInsert, OnMICInsert, const_cast<_ATL_FUNC_INFO*>(&OnMICInsertInfo))
+        SINK_ENTRY_INFO(MATHINPUTCONTROL_SINK_ID, __uuidof(_IMathInputControlEvents), DISPID_MICClose, OnMICClose, const_cast<_ATL_FUNC_INFO*>(&OnMICCloseInfo))  
     END_SINK_MAP()
 ```
 
@@ -106,7 +106,7 @@ Once you have set up the event sinks, you will need to create your implementatio
     HRESULT __stdcall OnMICClose()
     {
         CComPtr<IMathInputControl> spMIC;
-        HRESULT hr = m_pUnknown->QueryInterface<IMathInputControl>(&amp;spMIC);
+        HRESULT hr = m_pUnknown->QueryInterface<IMathInputControl>(&spMIC);
         if (SUCCEEDED(hr))
         {           
             hr = spMIC->Hide();

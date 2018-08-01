@@ -167,7 +167,7 @@ If your accessibility application is configured to run in a job, your applicatio
 
 ```C++
 BOOL fAlreadyInJob;
-BOOL fSuccess = IsProcessInJob(GetCurrentProcess(), NULL, &amp;fAlreadyInJob); 
+BOOL fSuccess = IsProcessInJob(GetCurrentProcess(), NULL, &fAlreadyInJob); 
 ```
 
 

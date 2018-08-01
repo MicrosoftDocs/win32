@@ -50,7 +50,7 @@ HWND CreateATreeView(HWND hwndParent)
 
     // Get the dimensions of the parent window's client area, and create 
     // the tree-view control. 
-    GetClientRect(hwndParent, &amp;rcClient); 
+    GetClientRect(hwndParent, &rcClient); 
     hwndTV = CreateWindowEx(0,
                             WC_TREEVIEW,
                             TEXT("Tree View"),

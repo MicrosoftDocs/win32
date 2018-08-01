@@ -70,11 +70,11 @@ HWND CreateTrackingToolTip(int toolID, HWND hDlg, WCHAR* pText)
     g_toolItem.lpszText = pText;
     g_toolItem.uId      = (UINT_PTR)hDlg;
     
-    GetClientRect (hDlg, &amp;g_toolItem.rect);
+    GetClientRect (hDlg, &g_toolItem.rect);
 
     // Associate the tooltip with the tool window.
     
-    SendMessage(hwndTT, TTM_ADDTOOL, 0, (LPARAM) (LPTOOLINFO) &amp;g_toolItem); 
+    SendMessage(hwndTT, TTM_ADDTOOL, 0, (LPARAM) (LPTOOLINFO) &g_toolItem); 
     
     return hwndTT;
 }
@@ -103,7 +103,7 @@ case WM_INITDIALOG:
 
 case WM_MOUSELEAVE: // The mouse pointer has left our window. Deactivate the tooltip.
     
-    SendMessage(g_hwndTrackingTT, TTM_TRACKACTIVATE, (WPARAM)FALSE, (LPARAM)&amp;g_toolItem);
+    SendMessage(g_hwndTrackingTT, TTM_TRACKACTIVATE, (WPARAM)FALSE, (LPARAM)&g_toolItem);
     g_TrackingMouse = FALSE;
     return FALSE;
 
@@ -119,10 +119,10 @@ case WM_MOUSEMOVE:
         tme.hwndTrack       = hDlg;
         tme.dwFlags         = TME_LEAVE;
         
-        TrackMouseEvent(&amp;tme);
+        TrackMouseEvent(&tme);
 
         // Activate the tooltip.
-        SendMessage(g_hwndTrackingTT, TTM_TRACKACTIVATE, (WPARAM)TRUE, (LPARAM)&amp;g_toolItem);
+        SendMessage(g_hwndTrackingTT, TTM_TRACKACTIVATE, (WPARAM)TRUE, (LPARAM)&g_toolItem);
         
         g_TrackingMouse = TRUE;
     }
@@ -143,12 +143,12 @@ case WM_MOUSEMOVE:
         swprintf_s(coords, ARRAYSIZE(coords), L"%d, %d", newX, newY);
         
         g_toolItem.lpszText = coords;
-        SendMessage(g_hwndTrackingTT, TTM_SETTOOLINFO, 0, (LPARAM)&amp;g_toolItem);
+        SendMessage(g_hwndTrackingTT, TTM_SETTOOLINFO, 0, (LPARAM)&g_toolItem);
 
         // Position the tooltip. The coordinates are adjusted so that the tooltip does not overlap the mouse pointer.
         
         POINT pt = { newX, newY }; 
-        ClientToScreen(hDlg, &amp;pt);
+        ClientToScreen(hDlg, &pt);
         SendMessage(g_hwndTrackingTT, TTM_TRACKPOSITION, 0, (LPARAM)MAKELONG(pt.x + 10, pt.y - 20));
     }
     return FALSE;

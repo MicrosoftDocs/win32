@@ -38,13 +38,13 @@ void PreviewTL(IAMTimeline *pTL, IRenderEngine *pRender)
     pRender->RenderOutputPins( );
 
     // Run the graph.
-    pRender->GetFilterGraph(&amp;pGraph);
-    pGraph->QueryInterface(IID_IMediaControl, (void **)&amp;pControl);
-    pGraph->QueryInterface(IID_IMediaEvent, (void **)&amp;pEvent);
+    pRender->GetFilterGraph(&pGraph);
+    pGraph->QueryInterface(IID_IMediaControl, (void **)&pControl);
+    pGraph->QueryInterface(IID_IMediaEvent, (void **)&pEvent);
     pControl->Run();
 
     long evCode;
-    pEvent->WaitForCompletion(INFINITE, &amp;evCode);
+    pEvent->WaitForCompletion(INFINITE, &evCode);
     pControl->Stop();
 
     // Clean up.
@@ -60,22 +60,22 @@ void main( void )
     IAMTimeline    *pTL = NULL;
     CoInitialize(NULL);
     CoCreateInstance(CLSID_AMTimeline, NULL, CLSCTX_INPROC_SERVER, 
-        IID_IAMTimeline, (void**)&amp;pTL);
+        IID_IAMTimeline, (void**)&pTL);
 
     // GROUP: Add a video group to the timeline. 
 
     IAMTimelineGroup    *pGroup = NULL;
     IAMTimelineObj      *pGroupObj = NULL;
-    pTL->CreateEmptyNode(&amp;pGroupObj, TIMELINE_MAJOR_TYPE_GROUP);
-    pGroupObj->QueryInterface(IID_IAMTimelineGroup, (void **)&amp;pGroup);
+    pTL->CreateEmptyNode(&pGroupObj, TIMELINE_MAJOR_TYPE_GROUP);
+    pGroupObj->QueryInterface(IID_IAMTimelineGroup, (void **)&pGroup);
 
     // Set the group media type. This example sets the type to "video" and
     // lets DES pick the default settings. For a more detailed example,
     // see "Setting the Group Media Type."
     AM_MEDIA_TYPE mtGroup;  
-    ZeroMemory(&amp;mtGroup, sizeof(AM_MEDIA_TYPE));
+    ZeroMemory(&mtGroup, sizeof(AM_MEDIA_TYPE));
     mtGroup.majortype = MEDIATYPE_Video;
-    pGroup->SetMediaType(&amp;mtGroup);
+    pGroup->SetMediaType(&mtGroup);
     pTL->AddGroup(pGroupObj);
     pGroupObj->Release();
 
@@ -85,10 +85,10 @@ void main( void )
     IAMTimelineTrack    *pTrack;
     IAMTimelineComp     *pComp = NULL;
 
-    pTL->CreateEmptyNode(&amp;pTrackObj, TIMELINE_MAJOR_TYPE_TRACK);
-    pGroup->QueryInterface(IID_IAMTimelineComp, (void **)&amp;pComp);
+    pTL->CreateEmptyNode(&pTrackObj, TIMELINE_MAJOR_TYPE_TRACK);
+    pGroup->QueryInterface(IID_IAMTimelineComp, (void **)&pComp);
     pComp->VTrackInsBefore(pTrackObj, 0);
-    pTrackObj->QueryInterface(IID_IAMTimelineTrack, (void **)&amp;pTrack);
+    pTrackObj->QueryInterface(IID_IAMTimelineTrack, (void **)&pTrack);
 
     pTrackObj->Release();
     pComp->Release();    
@@ -98,8 +98,8 @@ void main( void )
 
     IAMTimelineSrc *pSource = NULL;
     IAMTimelineObj *pSourceObj;
-    pTL->CreateEmptyNode(&amp;pSourceObj, TIMELINE_MAJOR_TYPE_SOURCE);
-    pSourceObj->QueryInterface(IID_IAMTimelineSrc, (void **)&amp;pSource);
+    pTL->CreateEmptyNode(&pSourceObj, TIMELINE_MAJOR_TYPE_SOURCE);
+    pSourceObj->QueryInterface(IID_IAMTimelineSrc, (void **)&pSource);
 
     // Set the times and the file name.
     pSourceObj->SetStartStop(0, 50000000);
@@ -116,7 +116,7 @@ void main( void )
     // Preview the timeline.
     IRenderEngine *pRenderEngine = NULL;
     CoCreateInstance(CLSID_RenderEngine, NULL, CLSCTX_INPROC_SERVER,
-        IID_IRenderEngine, (void**) &amp;pRenderEngine);
+        IID_IRenderEngine, (void**) &pRenderEngine);
     PreviewTL(pTL, pRenderEngine);
 
     // Clean up.

@@ -20,7 +20,7 @@ BSTR          bstrProvider = NULL;
 HRESULT       hr;
 
 // pEnroll is previously instantiated CEnroll interface pointer
-hr = pEnroll->enumProviders(ucEnumProvIndex, 0, &amp;bstrProvider);
+hr = pEnroll->enumProviders(ucEnumProvIndex, 0, &bstrProvider);
 ```
 
 
@@ -37,7 +37,7 @@ HRESULT  hr;
 // pEnroll is previously instantiated CEnroll interface pointer
 
 // get the storename
-hr = pEnroll->get_CAStoreName( &amp;bstrStoreName );
+hr = pEnroll->get_CAStoreName( &bstrStoreName );
 
 // (When done using bstrStoreName, free it by calling SysFreeString).
 ```

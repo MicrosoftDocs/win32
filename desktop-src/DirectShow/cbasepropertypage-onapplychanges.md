@@ -53,7 +53,7 @@ The [**CBasePropertyPage::Apply**](cbasepropertypage-apply.md) method calls `OnA
 HRESULT CMyProp::OnApplyChanges(void)
 {
     ASSERT(m_pOwningFilter != NULL);
-    return m_pOwningFilter->SetSomeProperty(&amp;m_lNewVal);
+    return m_pOwningFilter->SetSomeProperty(&m_lNewVal);
 }
 ```
 

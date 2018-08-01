@@ -35,7 +35,7 @@ void DisplayError(TCHAR* pszAPI, DWORD dwError)
                   FORMAT_MESSAGE_IGNORE_INSERTS,
                   NULL, dwError,
                   MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
-                  (LPTSTR)&amp;lpvMessageBuffer, 0, NULL);
+                  (LPTSTR)&lpvMessageBuffer, 0, NULL);
 
     //... now display this string
     _tprintf(TEXT("ERROR: API        = %s\n"), pszAPI);
@@ -56,11 +56,11 @@ void Privilege(TCHAR* pszPrivilege, BOOL bEnable)
     DWORD            error;
 
     // open process token
-    if (!OpenProcessToken(GetCurrentProcess(), TOKEN_ADJUST_PRIVILEGES | TOKEN_QUERY, &amp;hToken))
+    if (!OpenProcessToken(GetCurrentProcess(), TOKEN_ADJUST_PRIVILEGES | TOKEN_QUERY, &hToken))
         DisplayError(TEXT("OpenProcessToken"), GetLastError());
 
     // get the luid
-    if (!LookupPrivilegeValue(NULL, pszPrivilege, &amp;tp.Privileges[0].Luid))
+    if (!LookupPrivilegeValue(NULL, pszPrivilege, &tp.Privileges[0].Luid))
         DisplayError(TEXT("LookupPrivilegeValue"), GetLastError());
 
     tp.PrivilegeCount = 1;
@@ -72,7 +72,7 @@ void Privilege(TCHAR* pszPrivilege, BOOL bEnable)
         tp.Privileges[0].Attributes = 0;
 
     // enable or disable privilege
-    status = AdjustTokenPrivileges(hToken, FALSE, &amp;tp, 0, (PTOKEN_PRIVILEGES)NULL, 0);
+    status = AdjustTokenPrivileges(hToken, FALSE, &tp, 0, (PTOKEN_PRIVILEGES)NULL, 0);
 
     // It is possible for AdjustTokenPrivileges to return TRUE and still not succeed.
     // So always check for the last error value.

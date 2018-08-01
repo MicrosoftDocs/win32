@@ -23,8 +23,8 @@ The method has the following syntax:
 
 
 ```C++
-hr = pCompress->GetInfo(pszVersion, &amp;cbVersion, pszDesc, &amp;cbDesc, 
-         &amp;lKeyFrame, &amp;lPFrame, &amp;dblQuality, &amp;lCap);
+hr = pCompress->GetInfo(pszVersion, &cbVersion, pszDesc, &cbDesc, 
+         &lKeyFrame, &lPFrame, &dblQuality, &lCap);
 ```
 
 
@@ -36,7 +36,7 @@ Any of these parameters can be **NULL**, in which case the method ignores that p
 
 ```C++
 int cbVersion, cbDesc; // Size in bytes, not characters!
-hr = pCompress->GetInfo(0, &amp;cbVersion, 0, &amp;cbDesc, 0, 0, 0, 0);
+hr = pCompress->GetInfo(0, &cbVersion, 0, &cbDesc, 0, 0, 0, 0);
 if (SUCCEEDED(hr))
 {
     WCHAR *pszVersion = new WCHAR[cbVersion/2]; // Wide character = 2 bytes
@@ -53,7 +53,7 @@ The value of *lCap* indicates which of the other **IAMVideoCompression** methods
 ```C++
 if (lCap & CompressionCaps_CanKeyFrame)
 {
-    hr = pCompress->get_KeyFrameRate(&amp;lKeyFrame);
+    hr = pCompress->get_KeyFrameRate(&lKeyFrame);
     if (FAILED(hr) || lKeyFrame < 0)
     {
         lKeyFrame = lDefaultKeyFrame; // From GetInfo.
@@ -73,10 +73,10 @@ IPin *pPin = NULL;
 IAMVideoCompression *pCompress = NULL;
 
 // Find the pin that supports IAMVideoCompression (if any).
-pFilter->EnumPins(&amp;pEnum);
-while (S_OK == pEnum->Next(1, &amp;pPin, NULL))
+pFilter->EnumPins(&pEnum);
+while (S_OK == pEnum->Next(1, &pPin, NULL))
 {
-    hr = pPin->QueryInterface(IID_IAMVideoCompression, (void**)&amp;pCompress);
+    hr = pPin->QueryInterface(IID_IAMVideoCompression, (void**)&pCompress);
     pPin->Release();
     if (SUCCEEDED(hr)) // Found the interface.
     {
@@ -92,26 +92,26 @@ if (SUCCEEDED(hr))
     double QualityDef;
     
     // Get default values and capabilities.
-    hr = pCompress->GetInfo(0, 0, 0, 0, &amp;KeyFrameDef, &amp;lPFrameDef,
-             &amp;QualityDef, &amp;lCap);
+    hr = pCompress->GetInfo(0, 0, 0, 0, &KeyFrameDef, &lPFrameDef,
+             &QualityDef, &lCap);
     if (SUCCEEDED(hr))
     {
         // Get actual values where possible.
         if (lCap & CompressionCaps_CanKeyFrame)
         {
-            hr = pCompress->get_KeyFrameRate(&amp;lKeyFrame);
+            hr = pCompress->get_KeyFrameRate(&lKeyFrame);
             if (FAILED(hr) || lKeyFrame < 0)
                 lKeyFrame = lKeyFrameDef;
         }
         if (lCap & CompressionCaps_CanBFrame)
         {
-            hr = pCompress->get_PFramesPerKeyFrame(&amp;lPFrame);
+            hr = pCompress->get_PFramesPerKeyFrame(&lPFrame);
             if (FAILED(hr) || lPFrame < 0)
                 lPFrame = lPFrameDef;
         }
         if (lCap & CompressionCaps_CanQuality)
         {
-            hr = pCompress->get_Quality(&amp;Quality);
+            hr = pCompress->get_Quality(&Quality);
             if (FAILED(hr) || Quality < 0)
                 Quality = QualityDef;
         }

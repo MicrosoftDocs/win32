@@ -76,7 +76,7 @@ BYTE     byAltClassID;
 HRESULT  hr;
 
 // Retrieve the alternate class ID.
-hr = pISCardCmd->get_AlternateClassId(&amp;byAltClassID);
+hr = pISCardCmd->get_AlternateClassId(&byAltClassID);
 if (FAILED(hr))
 {
   printf("Failed get_AltClassId\n");

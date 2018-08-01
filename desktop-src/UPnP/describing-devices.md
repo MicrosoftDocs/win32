@@ -88,7 +88,7 @@ int GetDeviceDocumentUrl ()
               NULL,
               CLSCTX_INPROC_SERVER,
               IID_IUPnPDeviceFinder,
-              (LPVOID *) &amp;pDevFinder); 
+              (LPVOID *) &pDevFinder); 
 
   if(!SUCCEEDED(hr)){
     printf("\nERROR: CoCreateInstance on IUPnPDeviceFinder returned HRESULT %x",hr);
@@ -98,7 +98,7 @@ int GetDeviceDocumentUrl ()
   printf("\nGot a pointer to the IUPnPDeviceFinder Interface");
 
   printf("\n Finding the device of given UDN\n");
-  hr =pDevFinder->FindByUDN(bstrDeviceUDN, &amp;pDevice);
+  hr =pDevFinder->FindByUDN(bstrDeviceUDN, &pDevice);
   if(hr!=S_OK)
   {
     printf("\nERROR: FindByUDN for %S returned HRESULT %x", bstrDeviceUDN, hr);
@@ -107,11 +107,11 @@ int GetDeviceDocumentUrl ()
 
   printf("\n\tFindByUDN for device of UDN %S succeeded", bstrDeviceUDN);
   //Now query pDevice for IUPnPDeviceDocumentAccess
-  hr = pDevice->QueryInterface(IID_IUPnPDeviceDocumentAccess, (VOID **)&amp;pDeviceDocument);
+  hr = pDevice->QueryInterface(IID_IUPnPDeviceDocumentAccess, (VOID **)&pDeviceDocument);
   if(SUCCEEDED(hr)){
     // We have got a pointer to the IUPnPDeviceDocumentAccess interface.
     // GetDocumentURL is available only in Windows XP. 
-    hr = pDeviceDocument->GetDocumentURL(&amp;bstrDeviceDocumentURL);
+    hr = pDeviceDocument->GetDocumentURL(&bstrDeviceDocumentURL);
     if(SUCCEEDED(hr))
       printf("\nThe Device Document URL is %S \n", bstrDeviceDocumentURL);
   }

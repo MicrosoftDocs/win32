@@ -18,7 +18,7 @@ The following example lists the names of all the font families installed on the 
 
 ```
 FontFamily   fontFamily(L"Arial");
-Font         font(&amp;fontFamily, 8, FontStyleRegular, UnitPoint);
+Font         font(&fontFamily, 8, FontStyleRegular, UnitPoint);
 RectF        rectF(10.0f, 10.0f, 500.0f, 500.0f);
 SolidBrush   solidBrush(Color(255, 0, 0, 0));
 
@@ -38,7 +38,7 @@ count = installedFontCollection.GetFamilyCount();
 pFontFamily = new FontFamily[count];
 
 // Get the array of FontFamily objects.
-installedFontCollection.GetFamilies(count, pFontFamily, &amp;found);
+installedFontCollection.GetFamilies(count, pFontFamily, &found);
 
 // The loop below creates a large string that is a comma-separated
 // list of all font family names.
@@ -55,7 +55,7 @@ for(INT j = 0; j < count; ++j)
 
 // Draw the large string (list of all families) in a rectangle.
 graphics.DrawString(
-   familyList, -1, &amp;font, rectF, NULL, &amp;solidBrush);
+   familyList, -1, &font, rectF, NULL, &solidBrush);
 
 delete [] pFontFamily;
 delete [] familyList;

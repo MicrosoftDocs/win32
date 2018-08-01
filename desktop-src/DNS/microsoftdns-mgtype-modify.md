@@ -32,7 +32,7 @@ The **Modify** method updates a Mail Group (MG) Resource Record.
 void Modify(
   [in, optional] uint32              TTL,
   [in, optional] string              MGMailbox,
-  [out, ref]     MicrosoftDNS_MGType &amp;RR
+  [out, ref]     MicrosoftDNS_MGType &RR
 );
 ```
 

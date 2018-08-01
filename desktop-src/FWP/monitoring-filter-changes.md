@@ -109,12 +109,12 @@ DWORD MonitorMatchingFilters(
                ipProtocol,
                ARRAYSIZE(conds),
                conds,
-               &amp;numConds,
-               &amp;appBlob
+               &numConds,
+               &appBlob
                );
    EXIT_ON_ERROR(InitFilterConditions);
 
-   memset(&amp;enumTempl, 0, sizeof(enumTempl));
+   memset(&enumTempl, 0, sizeof(enumTempl));
    enumTempl.layerKey = *layerKey;
    enumTempl.numFilterConditions = numConds;
    if (numConds > 0)
@@ -124,8 +124,8 @@ DWORD MonitorMatchingFilters(
    // We want to see all filters regardless of action.
    enumTempl.actionMask = 0xFFFFFFFF;
 
-   memset(&amp;sub, 0, sizeof(sub));
-   sub.enumTemplate = &amp;enumTempl;
+   memset(&sub, 0, sizeof(sub));
+   sub.enumTemplate = &enumTempl;
    // We want to see both adds and deletes.
    sub.flags = ( FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_ADD |
                  FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_DELETE );
@@ -134,7 +134,7 @@ DWORD MonitorMatchingFilters(
    // every matching add and delete until we call FwpmFilterUnsubscribeChanges0.
    result = FwpmFilterSubscribeChanges0(
                engine,
-               &amp;sub,
+               &sub,
                callback,
                context,
                changeHandle
@@ -142,7 +142,7 @@ DWORD MonitorMatchingFilters(
    EXIT_ON_ERROR(result);
 
 CLEANUP:
-   FwpmFreeMemory0((void**)&amp;appBlob);
+   FwpmFreeMemory0((void**)&appBlob);
    return result;
 }
 
@@ -161,23 +161,23 @@ DWORD wmain(int argc,
    //  - All objects associated with the dynamic session are deleted with one call.
    //  - Filtering policy objects are deleted even when the application crashes. 
    FWPM_SESSION0 session;
-   memset(&amp;session, 0, sizeof(session));
+   memset(&session, 0, sizeof(session));
    session.flags = FWPM_SESSION_FLAG_DYNAMIC;
 
-   DWORD result = FwpmEngineOpen0(NULL, RPC_C_AUTHN_WINNT, NULL, &amp;session, &amp;engineHandle);
+   DWORD result = FwpmEngineOpen0(NULL, RPC_C_AUTHN_WINNT, NULL, &session, &engineHandle);
    EXIT_ON_ERROR(FwpmEngineOpen0);      
  
    HANDLE changeHandle = 0;
    FWPM_FILTER_CHANGE_CALLBACK0 callback = (FWPM_FILTER_CHANGE_CALLBACK0)FilterChangeCallback;
    result = MonitorMatchingFilters(
          engineHandle,
-         &amp;FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4,
+         &FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4,
          0,
          0,
          0,
          callback,
          0,
-         &amp;changeHandle
+         &changeHandle
          );
 
 CLEANUP:  

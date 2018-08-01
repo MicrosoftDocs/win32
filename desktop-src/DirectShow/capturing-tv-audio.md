@@ -18,8 +18,8 @@ Connect the audio capture output pin to the mux filter:
 
 ```C++
 hr = pBuild->RenderStream(
-   &amp;PIN_CATEGORY_CAPTURE, // Capture pin.
-   &amp;MEDIATYPE_Audio,      // Audio media type.
+   &PIN_CATEGORY_CAPTURE, // Capture pin.
+   &MEDIATYPE_Audio,      // Audio media type.
    pAudioCap,             // Pointer to the audio capture filter.
    NULL,                  // Optional audio compressor filter.
    pMux);                 // Pointer to the mux filter.
@@ -32,14 +32,14 @@ The input pins do not have to be connected to anything. Each input pin represent
 
 ```C++
 IEnumPins *pEnum = NULL;
-hr = pAudioCap->EnumPins(&amp;pEnum);
+hr = pAudioCap->EnumPins(&pEnum);
 if (SUCCEEDED(hr))
 {
     IPin *pPin = NULL;
-    while (S_OK == pEnum->Next(1, &amp;pPin, NULL))
+    while (S_OK == pEnum->Next(1, &pPin, NULL))
     {
         IAMAudioInputMixer *pMix;
-        hr = pPin->QueryInterface(IID_IAMAudioInputMixer, (void**)&amp;pMix);
+        hr = pPin->QueryInterface(IID_IAMAudioInputMixer, (void**)&pMix);
         if (SUCCEEDED(hr))
         {
             // Use IPin::QueryPinInfo to get the pin name.

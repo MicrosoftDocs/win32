@@ -20,7 +20,7 @@ To draw a custom dashed line, put the lengths of the dashes and spaces in an arr
 REAL dashValues[4] = {5, 2, 15, 4};
 Pen blackPen(Color(255, 0, 0, 0), 5);
 blackPen.SetDashPattern(dashValues, 4);
-stat = graphics.DrawLine(&amp;blackPen, Point(5, 5), Point(405, 5));
+stat = graphics.DrawLine(&blackPen, Point(5, 5), Point(405, 5));
 ```
 
 

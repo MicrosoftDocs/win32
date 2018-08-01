@@ -159,7 +159,7 @@ STDMETHODIMP CCommandHandler::UpdateProperty(
         {
             ZeroMemory(ppropvarNewValue, sizeof(*ppropvarNewValue));
             ppropvarNewValue->vt = VT_DECIMAL;
-            VarDecFromR8(-10.0, &amp;ppropvarNewValue->decVal);
+            VarDecFromR8(-10.0, &ppropvarNewValue->decVal);
             hr = S_OK;
         }
 
@@ -168,7 +168,7 @@ STDMETHODIMP CCommandHandler::UpdateProperty(
         {
             ZeroMemory(ppropvarNewValue, sizeof(*ppropvarNewValue));
             ppropvarNewValue->vt = VT_DECIMAL;
-            VarDecFromR8(10.0, &amp;ppropvarNewValue->decVal);
+            VarDecFromR8(10.0, &ppropvarNewValue->decVal);
             hr = S_OK;
         }
 
@@ -177,7 +177,7 @@ STDMETHODIMP CCommandHandler::UpdateProperty(
         {
             ZeroMemory(ppropvarNewValue, sizeof(*ppropvarNewValue));
             ppropvarNewValue->vt = VT_DECIMAL;
-            VarDecFromR8(2.0, &amp;ppropvarNewValue->decVal);
+            VarDecFromR8(2.0, &ppropvarNewValue->decVal);
             hr = S_OK;
         }
 
@@ -240,7 +240,7 @@ STDMETHODIMP CCommandHandler::Execute(
     if (verb == UI_EXECUTIONVERB_EXECUTE)
     {
         RenderParam param;
-        g_renderer.GetRenderParam(&amp;param);
+        g_renderer.GetRenderParam(&param);
 
         if (nCmdID == IDR_CMD_SPINNER_RESIZE)
         {
@@ -256,18 +256,18 @@ STDMETHODIMP CCommandHandler::Execute(
                 {
                     // Initialize a new PROPVARIANT structure.
                     PROPVARIANT m_varNewVal;
-                    PropVariantInit(&amp;m_varNewVal);
+                    PropVariantInit(&m_varNewVal);
 
                     // The replacement DECIMAL value.
                     DECIMAL m_dVal;
-                    hr = VarDecFromI4(0, &amp;m_dVal);
+                    hr = VarDecFromI4(0, &m_dVal);
                     if (FAILED(hr))
                     {
                         return hr;
                     }
                     
                     // Initialize the new DECIMAL value.
-                    UIInitPropertyFromDecimal(UI_PKEY_DecimalValue, m_dVal, &amp;m_varNewVal);
+                    UIInitPropertyFromDecimal(UI_PKEY_DecimalValue, m_dVal, &m_varNewVal);
 
                     // Set the UI_PKEY_DecimalValue to the new DECIMAL value.
                     hr = g_pFramework->SetUICommandProperty(nCmdID, UI_PKEY_DecimalValue, m_varNewVal);

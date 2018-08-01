@@ -53,7 +53,7 @@ IAMTimelineObj      *pTransObj;  // Transition object
 // Create an SMPTE Wipe transition object. (Not shown)
 
 hr = CoCreateInstance(CLSID_PropertySetter, NULL, CLSCTX_INPROC_SERVER,
-    IID_IPropertySetter, (void**) &amp;pProp);
+    IID_IPropertySetter, (void**) &pProp);
 
 // Error checking is omitted for clarity...
 
@@ -75,7 +75,7 @@ pProp->AddProp(param, pValue);
 
 // Free allocated resources.
 SysFreeString(param.Name);
-VariantClear(&amp;(pValue->v));
+VariantClear(&(pValue->v));
 CoTaskMemFree(pValue);
 
 // Set the property on the transition.

@@ -52,27 +52,27 @@ main()
    
     CoInitialize( NULL );
     
-    hr = SHGetFolderLocation(NULL, CSIDL_PROGRAM_FILES, NULL, NULL, &amp;pidlProgFiles);
+    hr = SHGetFolderLocation(NULL, CSIDL_PROGRAM_FILES, NULL, NULL, &pidlProgFiles);
 
-    hr = SHGetDesktopFolder(&amp;psfDeskTop);
+    hr = SHGetDesktopFolder(&psfDeskTop);
 
-    hr = psfDeskTop->BindToObject(pidlProgFiles, NULL, IID_IShellFolder, (LPVOID *) &amp;psfProgFiles);
+    hr = psfDeskTop->BindToObject(pidlProgFiles, NULL, IID_IShellFolder, (LPVOID *) &psfProgFiles);
     psfDeskTop->Release();
 
-    hr = psfProgFiles->EnumObjects(NULL,SHCONTF_FOLDERS | SHCONTF_NONFOLDERS, &amp;ppenum);
+    hr = psfProgFiles->EnumObjects(NULL,SHCONTF_FOLDERS | SHCONTF_NONFOLDERS, &ppenum);
 
-    while( hr = ppenum->Next(1,&amp;pidlItems, &amp;celtFetched) == S_OK &amp;&amp; (celtFetched) == 1)
+    while( hr = ppenum->Next(1,&pidlItems, &celtFetched) == S_OK && (celtFetched) == 1)
     {
-        psfProgFiles->GetDisplayNameOf(pidlItems, SHGDN_INFOLDER, &amp;strDispName);
-        StrRetToBuf(&amp;strDispName, pidlItems, pszDisplayName, MAX_PATH);
+        psfProgFiles->GetDisplayNameOf(pidlItems, SHGDN_INFOLDER, &strDispName);
+        StrRetToBuf(&strDispName, pidlItems, pszDisplayName, MAX_PATH);
         cout << pszDisplayName << '\n';
         if(!psfFirstFolder)
         {
             uAttr = SFGAO_FOLDER;
-            psfProgFiles->GetAttributesOf(1, (LPCITEMIDLIST *) &amp;pidlItems, &amp;uAttr);
+            psfProgFiles->GetAttributesOf(1, (LPCITEMIDLIST *) &pidlItems, &uAttr);
             if(uAttr & SFGAO_FOLDER)
             {
-                hr = psfProgFiles->BindToObject(pidlItems, NULL, IID_IShellFolder, (LPVOID *) &amp;psfFirstFolder);
+                hr = psfProgFiles->BindToObject(pidlItems, NULL, IID_IShellFolder, (LPVOID *) &psfFirstFolder);
             }
         }
         CoTaskMemFree(pidlItems);
@@ -84,12 +84,12 @@ main()
 
     if(psfFirstFolder)
     {
-        hr = psfFirstFolder->EnumObjects(NULL,SHCONTF_FOLDERS | SHCONTF_NONFOLDERS, &amp;ppenum);
+        hr = psfFirstFolder->EnumObjects(NULL,SHCONTF_FOLDERS | SHCONTF_NONFOLDERS, &ppenum);
 
-        while( hr = ppenum->Next(1,&amp;pidlItems, &amp;celtFetched) == S_OK &amp;&amp; (celtFetched) == 1)
+        while( hr = ppenum->Next(1,&pidlItems, &celtFetched) == S_OK && (celtFetched) == 1)
         {
-            psfFirstFolder->GetDisplayNameOf(pidlItems, SHGDN_INFOLDER, &amp;strDispName);
-            StrRetToBuf(&amp;strDispName, pidlItems, pszDisplayName, MAX_PATH);
+            psfFirstFolder->GetDisplayNameOf(pidlItems, SHGDN_INFOLDER, &strDispName);
+            StrRetToBuf(&strDispName, pidlItems, pszDisplayName, MAX_PATH);
             cout << pszDisplayName << '\n';
             CoTaskMemFree(pidlItems);
         }

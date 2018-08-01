@@ -112,8 +112,8 @@ else
 
 if(CertCompareCertificateName(
    MY_ENCODING_TYPE,
-   &amp;(pCertContext->pCertInfo->Issuer),
-   &amp;(pCertContext->pCertInfo->Subject)))
+   &(pCertContext->pCertInfo->Issuer),
+   &(pCertContext->pCertInfo->Subject)))
 {
      printf("The certificate subject and issuer are the same.\n");
 }
@@ -126,7 +126,7 @@ else
 // Determine whether this certificate's public key matches 
 // the public key of the last certificate.
 
-pNewPubKey = &amp;(pCertContext->pCertInfo->SubjectPublicKeyInfo);
+pNewPubKey = &(pCertContext->pCertInfo->SubjectPublicKeyInfo);
 if(pOldPubKey)
    if(CertComparePublicKeyInfo(
        MY_ENCODING_TYPE,

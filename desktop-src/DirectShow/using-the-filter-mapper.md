@@ -24,7 +24,7 @@ IEnumMoniker *pEnum = NULL;
 
 hr = CoCreateInstance(CLSID_FilterMapper2, 
     NULL, CLSCTX_INPROC, IID_IFilterMapper2, 
-    (void **) &amp;pMapper);
+    (void **) &pMapper);
 
 if (FAILED(hr))
 {
@@ -36,7 +36,7 @@ arrayInTypes[0] = MEDIATYPE_Video;
 arrayInTypes[1] = MEDIASUBTYPE_dvsd;
 
 hr = pMapper->EnumMatchingFilters(
-        &amp;pEnum,
+        &pEnum,
         0,                  // Reserved.
         TRUE,               // Use exact match?
         MERIT_DO_NOT_USE+1, // Minimum merit.
@@ -55,27 +55,27 @@ hr = pMapper->EnumMatchingFilters(
 // Enumerate the monikers.
 IMoniker *pMoniker;
 ULONG cFetched;
-while (pEnum->Next(1, &amp;pMoniker, &amp;cFetched) == S_OK)
+while (pEnum->Next(1, &pMoniker, &cFetched) == S_OK)
 {
     IPropertyBag *pPropBag = NULL;
     hr = pMoniker->BindToStorage(0, 0, IID_IPropertyBag, 
-       (void **)&amp;pPropBag);
+       (void **)&pPropBag);
 
     if (SUCCEEDED(hr))
     {
         // To retrieve the friendly name of the filter, do the following:
         VARIANT varName;
-        VariantInit(&amp;varName);
-        hr = pPropBag->Read(L"FriendlyName", &amp;varName, 0);
+        VariantInit(&varName);
+        hr = pPropBag->Read(L"FriendlyName", &varName, 0);
         if (SUCCEEDED(hr))
         {
             // Display the name in your UI somehow.
         }
-        VariantClear(&amp;varName);
+        VariantClear(&varName);
 
         // To create an instance of the filter, do the following:
         IBaseFilter *pFilter;
-        hr = pMoniker->BindToObject(NULL, NULL, IID_IBaseFilter, (void**)&amp;pFilter);
+        hr = pMoniker->BindToObject(NULL, NULL, IID_IBaseFilter, (void**)&pFilter);
         // Now add the filter to the graph. Remember to release pFilter later.
     
         // Clean up.

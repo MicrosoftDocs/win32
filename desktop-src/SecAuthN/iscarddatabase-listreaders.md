@@ -92,7 +92,7 @@ HRESULT     hr;
 
 // Determine the reader groups.
 hr = pISCDataBase->ListReaders(0x0409,  // English (US)
-                               &amp;pReaders);
+                               &pReaders);
 if (FAILED(hr))
 {
    printf("Failed ListReaders\n");

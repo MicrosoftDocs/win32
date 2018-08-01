@@ -75,16 +75,16 @@ CManipulationEventSink::CManipulationEventSink(IManipulationProcessor *pManip, I
     
     hr = pManip->QueryInterface(
       IID_IConnectionPointContainer, 
-          (LPVOID*) &amp;spConnectionContainer
+          (LPVOID*) &spConnectionContainer
         );
-    //hr = manip->QueryInterface(&amp;spConnectionContainer);
+    //hr = manip->QueryInterface(&spConnectionContainer);
     if (spConnectionContainer == NULL){
         // something went wrong, try to gracefully quit
         
     }
 
     //Get a connection point.
-    hr = spConnectionContainer->FindConnectionPoint(__uuidof(_IManipulationEvents), &amp;m_pConnPoint);
+    hr = spConnectionContainer->FindConnectionPoint(__uuidof(_IManipulationEvents), &m_pConnPoint);
     if (m_pConnPoint == NULL){
         // something went wrong, try to gracefully quit
     }
@@ -92,7 +92,7 @@ CManipulationEventSink::CManipulationEventSink(IManipulationProcessor *pManip, I
     DWORD dwCookie;
 
     //Advise.
-    hr = m_pConnPoint->Advise(this, &amp;dwCookie);
+    hr = m_pConnPoint->Advise(this, &dwCookie);
 }
 ```
 
@@ -123,22 +123,22 @@ CManipulationEventSink::CManipulationEventSink(IInertiaProcessor *pInert, HWND h
     
     hr = pInert->QueryInterface(
       IID_IConnectionPointContainer, 
-          (LPVOID*) &amp;spConnectionContainer
+          (LPVOID*) &spConnectionContainer
         );
-    //hr = manip->QueryInterface(&amp;spConnectionContainer);
+    //hr = manip->QueryInterface(&spConnectionContainer);
     if (spConnectionContainer == NULL){
         // something went wrong, try to gracefully quit        
     }
 
     //Get a connection point.
-    hr = spConnectionContainer->FindConnectionPoint(__uuidof(_IManipulationEvents), &amp;m_pConnPoint);
+    hr = spConnectionContainer->FindConnectionPoint(__uuidof(_IManipulationEvents), &m_pConnPoint);
     if (m_pConnPoint == NULL){
         // something went wrong, try to gracefully quit
     }
     DWORD dwCookie;
 
     //Advise.
-    hr = m_pConnPoint->Advise(this, &amp;dwCookie);
+    hr = m_pConnPoint->Advise(this, &dwCookie);
 }   
 ```
 
@@ -173,7 +173,7 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationStarted(
     RECT screenRect;
 
     HWND desktop = GetDesktopWindow();
-    GetClientRect(desktop, &amp;screenRect);
+    GetClientRect(desktop, &screenRect);
 
     // physics settings
     // deceleration is units per square millisecond
@@ -224,7 +224,7 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationDelta(
         
     RECT rect;
             
-    GetWindowRect(m_hWnd, &amp;rect);
+    GetWindowRect(m_hWnd, &rect);
         
     int oldWidth =  rect.right-rect.left;
     int oldHeight = rect.bottom-rect.top;            
@@ -271,9 +271,9 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationCompleted(
         float vX = 0.0f;
         float vY = 0.0f;
         float vA = 0.0f;
-        m_pManip->GetVelocityX(&amp;vX);
-        m_pManip->GetVelocityY(&amp;vY);
-        m_pManip->GetAngularVelocity(&amp;vA);
+        m_pManip->GetVelocityX(&vX);
+        m_pManip->GetVelocityY(&vY);
+        m_pManip->GetAngularVelocity(&vA);
 
         // complete any previous processing
         m_pInert->Complete();
@@ -306,7 +306,7 @@ The following code shows how you could interpret **WM\_TIMER** messages in **Wnd
 case WM_TIMER:       
   if (g_pIInertProc){
     BOOL b;       
-    g_pIInertProc->Process(&amp;b);        
+    g_pIInertProc->Process(&b);        
   }
   break;
 ```
@@ -342,14 +342,14 @@ The following code example shows how to instantiate your interfaces.
        NULL,
        CLSCTX_INPROC_SERVER,
        IID_IUnknown,
-       (VOID**)(&amp;g_pIManipProc)
+       (VOID**)(&g_pIManipProc)
    );
    
    hr = CoCreateInstance(CLSID_InertiaProcessor,
        NULL,
        CLSCTX_INPROC_SERVER,
        IID_IUnknown,
-       (VOID**)(&amp;g_pIInertProc)
+       (VOID**)(&g_pIInertProc)
    );
 ```
 

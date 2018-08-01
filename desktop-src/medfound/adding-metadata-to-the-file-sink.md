@@ -48,23 +48,23 @@ HRESULT ListASFProperties(IMFASFContentInfo *pContentInfo)
     HRESULT hr = S_OK;
     
     PROPVARIANT varNames;
-    PropVariantInit(&amp;varNames);
+    PropVariantInit(&varNames);
 
     PROPVARIANT varValue;
-    PropVariantInit(&amp;varValue);
+    PropVariantInit(&varValue);
 
     IMFMetadataProvider* pProvider = NULL;
     IMFMetadata* pMetadata = NULL;
 
     // Query the ContentInfo object for IMFMetadataProvider.
     CHECK_HR(hr = pContentInfo->QueryInterface(IID_IMFMetadataProvider,
-        (void**)&amp;pProvider));
+        (void**)&pProvider));
 
     // Get a pointer to IMFMetadata for file-wide metadata.
-    CHECK_HR(hr = pProvider->GetMFMetadata(NULL, 0, 0, &amp;pMetadata));
+    CHECK_HR(hr = pProvider->GetMFMetadata(NULL, 0, 0, &pMetadata));
 
     // Get the property names that are stored in the metadata object.
-    CHECK_HR(hr = pMetadata->GetAllPropertyNames(&amp;varNames));
+    CHECK_HR(hr = pMetadata->GetAllPropertyNames(&varNames));
 
     // Loop through the properties and get their values.
     if (varNames.vt == (VT_VECTOR | VT_LPWSTR))
@@ -73,14 +73,14 @@ HRESULT ListASFProperties(IMFASFContentInfo *pContentInfo)
         for (ULONG i = 0; i < cElements; i++)
         {
             const WCHAR* sName = varNames.calpwstr.pElems[i];
-            CHECK_HR(hr = pMetadata->GetProperty(sName, &amp;varValue));
+            CHECK_HR(hr = pMetadata->GetProperty(sName, &varValue));
             //Use the property values. Not shown.
-            PropVariantClear(&amp;varValue);
+            PropVariantClear(&varValue);
         }
     }
 done:
-    PropVariantClear(&amp;varNames);
-    PropVariantClear(&amp;varValue);
+    PropVariantClear(&varNames);
+    PropVariantClear(&varValue);
     SAFE_RELEASE (pMetaData);
     SAFE_RELEASE (pProvider);
     return hr;

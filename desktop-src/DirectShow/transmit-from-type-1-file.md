@@ -34,7 +34,7 @@ IBaseFilter           *pDV;       // DV capture filter (MSDV)
 // Add the Infinite Pin Tee filter to the graph.
 IBaseFilter *pTee;
 hr = CoCreateInstance(CLSID_InfTee, 0, CLSCTX_INPROC_SERVER
-    IID_IBaseFilter, reinterpret_cast<void**>)(&amp;pTee));
+    IID_IBaseFilter, reinterpret_cast<void**>)(&pTee));
 hr = pGraph->AddFilter(pTee, L"Tee");
 
 // Add the File Source filter to the graph.
@@ -42,12 +42,12 @@ IBaseFilter *pFileSource;
 hr = pGraph->AddSourceFilter(
     L"C:\\YourFileNameHere.avi",
     L"Source", 
-    &amp;pFileSource);
+    &pFileSource);
 
 // Add the AVI Splitter filter to the graph.
 IBaseFilter *pAviSplit;
 hr = CoCreateInstance(CLSID_AviSplitter, 0, CLSCTX_INPROC_SERVER
-    IID_IBaseFilter, reinterpret_cast<void**>)(&amp;pAviSplit));
+    IID_IBaseFilter, reinterpret_cast<void**>)(&pAviSplit));
 hr = pGraph->AddFilter(pAviSplit, L"AVI Splitter");
 
 // Connect the file source to the AVI Splitter.
@@ -58,7 +58,7 @@ if (FAILED(hr))
 }
 
 // Connect the file source to the Infinite Pin Tee.
-hr = pBuilder->RenderStream(0, &amp;MEDIATYPE_Interleaved, pAviSplit, 0, pTee);
+hr = pBuilder->RenderStream(0, &MEDIATYPE_Interleaved, pAviSplit, 0, pTee);
 if (FAILED(hr))
 {
     // This is not a type-1 DV file.
@@ -84,7 +84,7 @@ If you do not want preview, simply connect the file source to the MSDV filter:
 
 
 ```C++
-hr = pBuilder->RenderStream(0, &amp;MEDIATYPE_Interleaved, pFileSource, 0, pDV);
+hr = pBuilder->RenderStream(0, &MEDIATYPE_Interleaved, pFileSource, 0, pDV);
 ```
 
 

@@ -125,7 +125,7 @@ namespace HyperVSamples
 
         static void Main(string[] args)
         {
-            if (args != null &amp;&amp; args.Length != 2)
+            if (args != null && args.Length != 2)
             {
                 Console.WriteLine("Usage: ExportSystemDefinitionSnapshots vmName exportDirectory");
                 return;
@@ -173,7 +173,7 @@ Sub Main()
     
     set fileSystem = Wscript.CreateObject(&quot;Scripting.FileSystemObject&quot;)
     computer = &quot;.&quot;
-    set objWMIService = GetObject(&quot;winmgmts:\\&quot; &amp; computer &amp; &quot;\root\virtualization\v2&quot;)
+    set objWMIService = GetObject(&quot;winmgmts:\\&quot; & computer & &quot;\root\virtualization\v2&quot;)
     set managementService = objWMIService.ExecQuery(&quot;select * from Msvm_VirtualSystemManagementService&quot;).ItemIndex(0)
     
     set objArgs = WScript.Arguments

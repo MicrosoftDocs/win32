@@ -72,7 +72,7 @@ LRESULT APIENTRY MainWndProc(HWND hwndMain, UINT uMsg, WPARAM wParam, LPARAM lPa
             // Retrieve the screen coordinates of the client area, 
             // and convert them into client coordinates. 
  
-            GetClientRect(hwndMain, &amp;rcClient); 
+            GetClientRect(hwndMain, &rcClient); 
             ptClientUL.x = rcClient.left; 
             ptClientUL.y = rcClient.top; 
  
@@ -82,17 +82,17 @@ LRESULT APIENTRY MainWndProc(HWND hwndMain, UINT uMsg, WPARAM wParam, LPARAM lPa
  
             ptClientLR.x = rcClient.right + 1; 
             ptClientLR.y = rcClient.bottom + 1; 
-            ClientToScreen(hwndMain, &amp;ptClientUL); 
-            ClientToScreen(hwndMain, &amp;ptClientLR); 
+            ClientToScreen(hwndMain, &ptClientUL); 
+            ClientToScreen(hwndMain, &ptClientLR); 
  
             // Copy the client coordinates of the client area 
             // to the rcClient structure. Confine the mouse cursor 
             // to the client area by passing the rcClient structure 
             // to the ClipCursor function. 
  
-            SetRect(&amp;rcClient, ptClientUL.x, ptClientUL.y, 
+            SetRect(&rcClient, ptClientUL.x, ptClientUL.y, 
                 ptClientLR.x, ptClientLR.y); 
-            ClipCursor(&amp;rcClient); 
+            ClipCursor(&rcClient); 
  
             // Convert the cursor coordinates into a POINTS 
             // structure, which defines the beginning point of the 
@@ -188,7 +188,7 @@ BOOL InitApplication(HINSTANCE hInstance)
     wc.lpszMenuName = "MainMenu"; 
     wc.lpszClassName = "MainWClass"; 
  
-    return RegisterClass(&amp;wc); 
+    return RegisterClass(&wc); 
 } 
 ```
 
@@ -233,7 +233,7 @@ LRESULT APIENTRY MainWndProc(HWND hwndMain, UINT uMsg, WPARAM wParam, LPARAM lPa
             // Get the metrics of the current font. 
  
             hdc = GetDC(hwndMain); 
-            GetTextMetrics(hdc, &amp;tm); 
+            GetTextMetrics(hdc, &tm); 
             ReleaseDC(hwndMain, hdc); 
  
             // Save the average character width and height. 
@@ -285,9 +285,9 @@ LRESULT APIENTRY MainWndProc(HWND hwndMain, UINT uMsg, WPARAM wParam, LPARAM lPa
  
                     hdc = GetDC(hwndMain); 
                     GetCharWidth32(hdc, (UINT) wParam, (UINT) wParam, 
-                        &amp;nCharWidth); 
+                        &nCharWidth); 
                     TextOut(hdc, nCaretPosX, 
-                        nCurrentLine * dwLineHeight, &amp;ch, 1); 
+                        nCurrentLine * dwLineHeight, &ch, 1); 
                     ReleaseDC(hwndMain, hdc); 
  
                     // Store the character in the buffer. 
@@ -363,7 +363,7 @@ LRESULT APIENTRY MainWndProc(HWND hwndMain, UINT uMsg, WPARAM wParam, LPARAM lPa
             nBegLine = 0; 
             if (nCurrentLine != 0) 
             { 
-                for (i = 0; (i < cch) &amp;&amp; 
+                for (i = 0; (i < cch) && 
                         (cCR < nCurrentLine); i++) 
                 { 
                     if (pchInputBuf[i] == 0x0D) 
@@ -381,10 +381,10 @@ LRESULT APIENTRY MainWndProc(HWND hwndMain, UINT uMsg, WPARAM wParam, LPARAM lPa
             hdc = GetDC(hwndMain); 
             nCaretPosX = 0; 
             for (i = nBegLine; 
-                (pchInputBuf[i] != 0x0D) &amp;&amp; (i < cch); i++) 
+                (pchInputBuf[i] != 0x0D) && (i < cch); i++) 
             { 
                 ch = pchInputBuf[i]; 
-                GetCharWidth32(hdc, (int) ch, (int) ch, &amp;nCharWidth); 
+                GetCharWidth32(hdc, (int) ch, (int) ch, &nCharWidth); 
                 if ((nCaretPosX + nCharWidth) > ptsCursor.x) break; 
                 else nCaretPosX += nCharWidth; 
             } 
@@ -399,7 +399,7 @@ LRESULT APIENTRY MainWndProc(HWND hwndMain, UINT uMsg, WPARAM wParam, LPARAM lPa
  
             // Copy the selected line of text to a buffer. 
  
-            for (i = nBegLine, j = 0; (pchInputBuf[i] != 0x0D) &amp;&amp; 
+            for (i = nBegLine, j = 0; (pchInputBuf[i] != 0x0D) && 
                     (i < cch); i++) 
             {
                 szHilite[j++] = pchInputBuf[i]; 
@@ -509,7 +509,7 @@ INT WINAPI WinMain(
         return msg.wParam;
     }
     
-    while (( bRet = GetMessage(&amp;msg, NULL, 0, 0)) != 0)
+    while (( bRet = GetMessage(&msg, NULL, 0, 0)) != 0)
     {
         if (bRet == -1)
         {
@@ -519,10 +519,10 @@ INT WINAPI WinMain(
         {
             if (!TranslateAccelerator(ghwndApp,
                                       ghaccelTable,
-                                      &amp;msg))
+                                      &msg))
             {
-                TranslateMessage(&amp;msg);
-                DispatchMessage(&amp;msg);
+                TranslateMessage(&msg);
+                DispatchMessage(&msg);
             }
         }
     }
@@ -615,12 +615,12 @@ UINT GetNumScrollLines(void)
    UINT uiMsh_MsgScrollLines;
    
 
-   memset(&amp;osversion, 0, sizeof(osversion));
+   memset(&osversion, 0, sizeof(osversion));
    osversion.dwOSVersionInfoSize =sizeof(osversion);
-   GetVersionEx(&amp;osversion);
+   GetVersionEx(&osversion);
 
    if ((osversion.dwPlatformId == VER_PLATFORM_WIN32_WINDOWS) ||
-       ( (osversion.dwPlatformId == VER_PLATFORM_WIN32_NT) &amp;&amp; 
+       ( (osversion.dwPlatformId == VER_PLATFORM_WIN32_NT) && 
          (osversion.dwMajorVersion < 4) )   )
    {
         hdlMsWheel = FindWindow(MSH_WHEELMODULE_CLASS, 
@@ -637,12 +637,12 @@ UINT GetNumScrollLines(void)
         }
    }
    else if ( (osversion.dwPlatformId ==
-                         VER_PLATFORM_WIN32_NT) &amp;&amp;
+                         VER_PLATFORM_WIN32_NT) &&
              (osversion.dwMajorVersion >= 4) )
    {
       SystemParametersInfo(SPI_GETWHEELSCROLLLINES,
                                           0,
-                                    &amp;ucNumLines, 0);
+                                    &ucNumLines, 0);
    }
    return(ucNumLines);
 }

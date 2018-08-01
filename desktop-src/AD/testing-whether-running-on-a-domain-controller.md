@@ -25,7 +25,7 @@ BOOL Is_Win2000_DomainController ()
    DWORDLONG dwlConditionMask = 0;
  
    // Initialize the OSVERSIONINFOEX structure.
-   ZeroMemory(&amp;osvi, sizeof(OSVERSIONINFOEX));
+   ZeroMemory(&osvi, sizeof(OSVERSIONINFOEX));
    osvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFOEX);
    osvi.dwMajorVersion = 5;
    osvi.wProductType = VER_NT_DOMAIN_CONTROLLER;
@@ -38,7 +38,7 @@ BOOL Is_Win2000_DomainController ()
  
    // Perform the test.
    return VerifyVersionInfo(
-      &amp;osvi, 
+      &osvi, 
       VER_MAJORVERSION | VER_PRODUCT_TYPE,
       dwlConditionMask);
 }

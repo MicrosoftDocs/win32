@@ -50,14 +50,14 @@ HRESULT SetSPDIF(DWORD dwOutputNum, IWMReader* pReader)
 
     // Get the advanced reader interface.
     hr = pReader->QueryInterface(IID_IWMReaderAdvanced2,
-                                 (void**)&amp;pReaderAdv);
+                                 (void**)&pReaderAdv);
     GOTO_EXIT_IF_FAILED(hr);
 
     // Set S/PDIF output.
     hr = pReaderAdv->SetOutputSetting(dwOutputNum, 
                                       g_wszEnableWMAProSPDIFOutput, 
                                       WMT_TYPE_BOOL, 
-                                      (BYTE*)&amp;fValue, 
+                                      (BYTE*)&fValue, 
                                       sizeof(BOOL));
     GOTO_EXIT_IF_FAILED(hr);
 
@@ -65,7 +65,7 @@ HRESULT SetSPDIF(DWORD dwOutputNum, IWMReader* pReader)
     // NOTE: You could also enumerate the available output formats
     // and pick one to use.
 
-    hr = pReader->GetOutputFormat(dwOutputNum, 0, &amp;pOutputProps);
+    hr = pReader->GetOutputFormat(dwOutputNum, 0, &pOutputProps);
     GOTO_EXIT_IF_FAILED(hr);
 
     // Set the output properties back on the reader.

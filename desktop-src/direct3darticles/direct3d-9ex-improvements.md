@@ -289,14 +289,14 @@ A sample application that takes advantage of Direct3D 9Ex Flip Model and associa
 
 ```C++
     OSVERSIONINFO version;
-    ZeroMemory(&amp;version, sizeof(version));
+    ZeroMemory(&version, sizeof(version));
     version.dwOSVersionInfoSize = sizeof(version);
-    GetVersionEx(&amp;version);
+    GetVersionEx(&version);
     
     // Sample would run only on Win7 or higher
     // Flip Model present and its associated present statistics behavior are only available on Windows 7 or higher operating system
     bool bIsWin7 = (version.dwMajorVersion > 6) || 
-        ((version.dwMajorVersion == 6) &amp;&amp; (version.dwMinorVersion >= 1));
+        ((version.dwMajorVersion == 6) && (version.dwMinorVersion >= 1));
 
     if (!bIsWin7)
     {
@@ -315,7 +315,7 @@ A sample application that takes advantage of Direct3D 9Ex Flip Model and associa
 ```C++
     // Set up the structure used to create the D3DDevice
     D3DPRESENT_PARAMETERS d3dpp;
-    ZeroMemory(&amp;d3dpp, sizeof(d3dpp));
+    ZeroMemory(&d3dpp, sizeof(d3dpp));
 
     d3dpp.Windowed = TRUE;
     d3dpp.SwapEffect = D3DSWAPEFFECT_FLIPEX;        // Opts into Flip Model present for D3D9Ex swapchain
@@ -331,7 +331,7 @@ A sample application that takes advantage of Direct3D 9Ex Flip Model and associa
     // Create the D3DDevice with present statistics enabled - set D3DCREATE_ENABLE_PRESENTSTATS for behaviorFlags parameter
     if(FAILED(g_pD3D->CreateDeviceEx(D3DADAPTER_DEFAULT, D3DDEVTYPE_HAL, hWnd,
                                       D3DCREATE_HARDWARE_VERTEXPROCESSING | D3DCREATE_ENABLE_PRESENTSTATS,
-                                      &amp;d3dpp, NULL, &amp;g_pd3dDevice)))
+                                      &d3dpp, NULL, &g_pd3dDevice)))
     {
         return E_FAIL;
     }
@@ -390,7 +390,7 @@ VOID Render()
     g_pd3dDevice->EndScene();
 
     // Performs glitch recovery if glitch was detected
-    if (g_bGlitchRecovery &amp;&amp; (g_iImmediates > 0))
+    if (g_bGlitchRecovery && (g_iImmediates > 0))
     {
         // If we have present immediates queued as a result of glitch detected, issue forceimmediate Presents for glitch recovery 
         g_pd3dDevice->PresentEx(NULL, NULL, NULL, NULL, D3DPRESENT_FORCEIMMEDIATE);
@@ -405,7 +405,7 @@ VOID Render()
 
     // Add to helper Present queue: PresentID + expected present refresh count of last submitted Present
     UINT PresentCount;
-    g_pd3dSwapChain->GetLastPresentCount(&amp;PresentCount);
+    g_pd3dSwapChain->GetLastPresentCount(&PresentCount);
     g_Queue.QueueFrame(PresentCount, g_TargetRefreshCount);
     
     // QueueDelay specifies # Present calls to be processed before another glitch recovery attempt
@@ -438,7 +438,7 @@ VOID Render()
                 g_pd3dDevice->PresentEx(NULL, NULL, NULL, NULL, D3DPRESENT_DONOTFLIP);
             }
             UINT PresentCount;
-            g_pd3dSwapChain->GetLastPresentCount(&amp;PresentCount);
+            g_pd3dSwapChain->GetLastPresentCount(&PresentCount);
             g_Queue.QueueFrame(PresentCount, g_TargetRefreshCount);
 
             if (g_iQueueDelay > 0)
@@ -452,13 +452,13 @@ VOID Render()
     D3DPRESENTSTATS PresentStats;
 
     // Obtain present statistics information for successfully displayed presents
-    HRESULT hr = g_pd3dSwapChain->GetPresentStats(&amp;PresentStats);
+    HRESULT hr = g_pd3dSwapChain->GetPresentStats(&PresentStats);
 
     if (SUCCEEDED(hr))
     {
         // Time-based update
         g_LastSyncRefreshCount = PresentStats.SyncRefreshCount;
-        if ((g_SyncRefreshCount == -1) &amp;&amp; (PresentStats.PresentCount != 0))
+        if ((g_SyncRefreshCount == -1) && (PresentStats.PresentCount != 0))
         {
             // First time SyncRefreshCount is reported, use it as base
             g_SyncRefreshCount = PresentStats.SyncRefreshCount;

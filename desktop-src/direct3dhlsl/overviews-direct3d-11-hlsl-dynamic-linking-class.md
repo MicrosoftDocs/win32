@@ -156,7 +156,7 @@ To create a dynamic linkage array use the following steps
 1.  Create a class linkage object using CreatClassLinkage.
     ```
     ID3D11ClassLinkage* g_pPSClassLinkage = NULL;            
-    pd3dDevice->CreateClassLinkage( &amp;g_pPSClassLinkage );
+    pd3dDevice->CreateClassLinkage( &g_pPSClassLinkage );
               
     ```
 
@@ -165,7 +165,7 @@ To create a dynamic linkage array use the following steps
 2.  Create the shader that will be using dynamic class linking, passing the class linkage object as a parameter to the shader's create function.
     ```
     pd3dDevice->CreatePixelShader( pPixelShaderBuffer->GetBufferPointer(),
-        pPixelShaderBuffer->GetBufferSize(), g_pPSClassLinkage, &amp;g_pPixelShader ) );            
+        pPixelShaderBuffer->GetBufferSize(), g_pPSClassLinkage, &g_pPixelShader ) );            
               
     ```
 
@@ -176,7 +176,7 @@ To create a dynamic linkage array use the following steps
     ID3D11ShaderReflection* pReflector = NULL; 
     D3DReflect( pPixelShaderBuffer->GetBufferPointer(),                  
         pPixelShaderBuffer->GetBufferSize(), 
-        IID_ID3D11ShaderReflection, (void**) &amp;pReflector) );            
+        IID_ID3D11ShaderReflection, (void**) &pReflector) );            
               
     ```
 
@@ -213,7 +213,7 @@ To create a dynamic linkage array use the following steps
 7.  Get a class instance for each class object derived from an interface in the shader using [**ID3D11ClassLinkage::GetClassInstance**](https://msdn.microsoft.com/library/windows/desktop/ff476360).
     ```
     g_pPSClassLinkage->GetClassInstance( "g_hemiAmbientLight", 0, 
-        &amp;g_pHemiAmbientLightClass );            
+        &g_pHemiAmbientLightClass );            
               
     ```
 

@@ -108,7 +108,7 @@ switch (uMsg)
         hdc = GetDC (hwnd); 
  
         // Extract font dimensions from the text metrics. 
-        GetTextMetrics (hdc, &amp;tm); 
+        GetTextMetrics (hdc, &tm); 
         xChar = tm.tmAveCharWidth; 
         xUpper = (tm.tmPitchAndFamily & 1 ? 3 : 2) * xChar/2; 
         yChar = tm.tmHeight + tm.tmExternalLeading; 
@@ -135,7 +135,7 @@ switch (uMsg)
         si.nMin   = 0; 
         si.nMax   = LINES - 1; 
         si.nPage  = yClient / yChar; 
-        SetScrollInfo(hwnd, SB_VERT, &amp;si, TRUE); 
+        SetScrollInfo(hwnd, SB_VERT, &si, TRUE); 
  
         // Set the horizontal scrolling range and page size. 
         si.cbSize = sizeof(si); 
@@ -143,7 +143,7 @@ switch (uMsg)
         si.nMin   = 0; 
         si.nMax   = 2 + xClientMax / xChar; 
         si.nPage  = xClient / xChar; 
-        SetScrollInfo(hwnd, SB_HORZ, &amp;si, TRUE); 
+        SetScrollInfo(hwnd, SB_HORZ, &si, TRUE); 
  
         return 0; 
     case WM_HSCROLL:
@@ -152,7 +152,7 @@ switch (uMsg)
         si.fMask  = SIF_ALL;
 
         // Save the position for comparison later on.
-        GetScrollInfo (hwnd, SB_HORZ, &amp;si);
+        GetScrollInfo (hwnd, SB_HORZ, &si);
         xPos = si.nPos;
         switch (LOWORD (wParam))
         {
@@ -188,8 +188,8 @@ switch (uMsg)
         // Set the position and then retrieve it.  Due to adjustments
         // by Windows it may not be the same as the value set.
         si.fMask = SIF_POS;
-        SetScrollInfo (hwnd, SB_HORZ, &amp;si, TRUE);
-        GetScrollInfo (hwnd, SB_HORZ, &amp;si);
+        SetScrollInfo (hwnd, SB_HORZ, &si, TRUE);
+        GetScrollInfo (hwnd, SB_HORZ, &si);
          
         // If the position has changed, scroll the window.
         if (si.nPos != xPos)
@@ -203,7 +203,7 @@ switch (uMsg)
         // Get all the vertial scroll bar information.
         si.cbSize = sizeof (si);
         si.fMask  = SIF_ALL;
-        GetScrollInfo (hwnd, SB_VERT, &amp;si);
+        GetScrollInfo (hwnd, SB_VERT, &si);
 
         // Save the position for comparison later on.
         yPos = si.nPos;
@@ -252,8 +252,8 @@ switch (uMsg)
         // Set the position and then retrieve it.  Due to adjustments
         // by Windows it may not be the same as the value set.
         si.fMask = SIF_POS;
-        SetScrollInfo (hwnd, SB_VERT, &amp;si, TRUE);
-        GetScrollInfo (hwnd, SB_VERT, &amp;si);
+        SetScrollInfo (hwnd, SB_VERT, &si, TRUE);
+        GetScrollInfo (hwnd, SB_VERT, &si);
 
         // If the position has changed, scroll window and update it.
         if (si.nPos != yPos)
@@ -266,16 +266,16 @@ switch (uMsg)
          
     case WM_PAINT :
         // Prepare the window for painting.
-        hdc = BeginPaint (hwnd, &amp;ps);
+        hdc = BeginPaint (hwnd, &ps);
 
         // Get vertical scroll bar position.
         si.cbSize = sizeof (si);
         si.fMask  = SIF_POS;
-        GetScrollInfo (hwnd, SB_VERT, &amp;si);
+        GetScrollInfo (hwnd, SB_VERT, &si);
         yPos = si.nPos;
 
         // Get horizontal scroll bar position.
-        GetScrollInfo (hwnd, SB_HORZ, &amp;si);
+        GetScrollInfo (hwnd, SB_HORZ, &si);
         xPos = si.nPos;
 
         // Find painting limits.
@@ -290,7 +290,7 @@ switch (uMsg)
             // Note that "55" in the following depends on the 
             // maximum size of an abc[] item. Also, you must include
             // strsafe.h to use the StringCchLength function.
-            hr = StringCchLength(abc[i], 55, &amp;abcLength);
+            hr = StringCchLength(abc[i], 55, &abcLength);
             if ((FAILED(hr))|(abcLength == NULL))
             {
                 //
@@ -303,7 +303,7 @@ switch (uMsg)
         }
 
         // Indicate that painting is finished.
-        EndPaint (hwnd, &amp;ps);
+        EndPaint (hwnd, &ps);
         return 0;
          
     case WM_DESTROY :

@@ -207,7 +207,7 @@ void WinHttpAuthSample( IN SWinHttpSampleGet *pGetRequest )
 
     // Resend the request in case of 
     // ERROR_WINHTTP_RESEND_REQUEST error.
-    if( !bResults &amp;&amp; GetLastError( ) == ERROR_WINHTTP_RESEND_REQUEST)
+    if( !bResults && GetLastError( ) == ERROR_WINHTTP_RESEND_REQUEST)
         continue;
 
     // Check the status code.
@@ -216,8 +216,8 @@ void WinHttpAuthSample( IN SWinHttpSampleGet *pGetRequest )
                                       WINHTTP_QUERY_STATUS_CODE |
                                       WINHTTP_QUERY_FLAG_NUMBER,
                                       NULL, 
-                                      &amp;dwStatusCode, 
-                                      &amp;dwSize, 
+                                      &dwStatusCode, 
+                                      &dwSize, 
                                       NULL );
 
     if( bResults )
@@ -238,9 +238,9 @@ void WinHttpAuthSample( IN SWinHttpSampleGet *pGetRequest )
 
           // Obtain the supported and preferred schemes.
           bResults = WinHttpQueryAuthSchemes( hRequest, 
-                                              &amp;dwSupportedSchemes, 
-                                              &amp;dwFirstScheme, 
-                                              &amp;dwTarget );
+                                              &dwSupportedSchemes, 
+                                              &dwFirstScheme, 
+                                              &dwTarget );
 
           // Set the credentials before resending the request.
           if( bResults )
@@ -272,9 +272,9 @@ void WinHttpAuthSample( IN SWinHttpSampleGet *pGetRequest )
 
           // Obtain the supported and preferred schemes.
           bResults = WinHttpQueryAuthSchemes( hRequest, 
-                                              &amp;dwSupportedSchemes, 
-                                              &amp;dwFirstScheme, 
-                                              &amp;dwTarget );
+                                              &dwSupportedSchemes, 
+                                              &dwFirstScheme, 
+                                              &dwTarget );
 
           // Set the credentials before resending the request.
           if( bResults )

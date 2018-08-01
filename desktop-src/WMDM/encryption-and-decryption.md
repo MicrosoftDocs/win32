@@ -90,7 +90,7 @@ HRESULT CMyStorage::Read(
         return E_OUTOFMEMORY;
 
     // Read data into the temporary buffer.
-    if(ReadFile(m_hFile,(LPVOID)pTmpData,dwToRead,&amp;dwRead,NULL)) 
+    if(ReadFile(m_hFile,(LPVOID)pTmpData,dwToRead,&dwRead,NULL)) 
     { 
         *pdwSize = dwRead; 
 
@@ -101,7 +101,7 @@ HRESULT CMyStorage::Read(
             // MAC consists of data and size of data.
             HMAC hMAC;
             
-            CORg(g_pAppSCServer->MACInit(&amp;hMAC));
+            CORg(g_pAppSCServer->MACInit(&hMAC));
             CORg(g_pAppSCServer->MACUpdate(hMAC, (BYTE*)(pTmpData), dwRead));
             CORg(g_pAppSCServer->MACUpdate(hMAC, (BYTE*)(pdwSize), sizeof(DWORD)));
             CORg(g_pAppSCServer->MACFinal(hMAC, abMac));
@@ -173,7 +173,7 @@ HRESULT CMyStorage::Write(BYTE *pData, DWORD *pdwSize,
     // the data and data size parameters.
     // CORg is a macro that goes to the Error label on failure.
     HMAC hMAC;
-    CORg(g_pAppSCServer->MACInit(&amp;hMAC));
+    CORg(g_pAppSCServer->MACInit(&hMAC));
     CORg(g_pAppSCServer->MACUpdate(hMAC, (BYTE*)(pTmpData), *pdwSize));
     CORg(g_pAppSCServer->MACUpdate(hMAC, (BYTE*)(pdwSize), sizeof(*pdwSize)));
     CORg(g_pAppSCServer->MACFinal(hMAC, pTempMac));
@@ -186,7 +186,7 @@ HRESULT CMyStorage::Write(BYTE *pData, DWORD *pdwSize,
     }
 
     // The MAC values matched, so write the decrypted data to a local file.
-    if( WriteFile(m_hFile,pTmpData,*pdwSize,&amp;dwWritten,NULL) ) 
+    if( WriteFile(m_hFile,pTmpData,*pdwSize,&dwWritten,NULL) ) 
     {
         hr = S_OK;
     }

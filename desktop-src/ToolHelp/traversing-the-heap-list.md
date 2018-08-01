@@ -33,15 +33,15 @@ int main( void )
       return 1;
    }
    
-   if( Heap32ListFirst( hHeapSnap, &amp;hl ) )
+   if( Heap32ListFirst( hHeapSnap, &hl ) )
    {
       do
       {
          HEAPENTRY32 he;
-         ZeroMemory(&amp;he, sizeof(HEAPENTRY32));
+         ZeroMemory(&he, sizeof(HEAPENTRY32));
          he.dwSize = sizeof(HEAPENTRY32);
 
-         if( Heap32First( &amp;he, GetCurrentProcessId(), hl.th32HeapID ) )
+         if( Heap32First( &he, GetCurrentProcessId(), hl.th32HeapID ) )
          {
             printf( "\nHeap ID: %d\n", hl.th32HeapID );
             do
@@ -49,10 +49,10 @@ int main( void )
                printf( "Block size: %d\n", he.dwBlockSize );
                
                he.dwSize = sizeof(HEAPENTRY32);
-            } while( Heap32Next(&amp;he) );
+            } while( Heap32Next(&he) );
          }
          hl.dwSize = sizeof(HEAPLIST32);
-      } while (Heap32ListNext( hHeapSnap, &amp;hl ));
+      } while (Heap32ListNext( hHeapSnap, &hl ));
    }
    else printf ("Cannot list first heap (%d)\n", GetLastError());
    

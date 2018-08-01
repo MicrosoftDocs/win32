@@ -29,9 +29,9 @@ A helper structure to enable easy initialization of a [**D3D12\_RANGE\_UINT64**]
 ```C++
 struct CD3DX12_RANGE_UINT64  : public D3D12_RANGE_UINT64{
   CD3DX12_RANGE_UINT64 CD3DX12_RANGE_UINT64();
-  CD3DX12_RANGE_UINT64 explicit CD3DX12_RANGE_UINT64(const D3D12_RANGE_UINT64 &amp;o);
+  CD3DX12_RANGE_UINT64 explicit CD3DX12_RANGE_UINT64(const D3D12_RANGE_UINT64 &o);
   CD3DX12_RANGE_UINT64 CD3DX12_RANGE_UINT64(UINT64 begin, UINT64 end);
-                       operator const D3D12_RANGE_UINT64&amp;() const;
+                       operator const D3D12_RANGE_UINT64&() const;
 };
 ```
 

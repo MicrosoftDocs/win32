@@ -115,11 +115,11 @@ HRESULT CoCreateInstanceAsAdmin(HWND hwnd, REFCLSID rclsid, REFIID riid, __out v
     HRESULT hr = StringCchPrintf(wszMonikerName, sizeof(wszMonikerName)/sizeof(wszMonikerName[0]), L"Elevation:Administrator!new:%s", wszCLSID);
     if (FAILED(hr))
         return hr;
-    memset(&amp;bo, 0, sizeof(bo));
+    memset(&bo, 0, sizeof(bo));
     bo.cbStruct = sizeof(bo);
     bo.hwnd = hwnd;
     bo.dwClassContext  = CLSCTX_LOCAL_SERVER;
-    return CoGetObject(wszMonikerName, &amp;bo, riid, ppv);
+    return CoGetObject(wszMonikerName, &bo, riid, ppv);
 }
 ```
 
@@ -201,15 +201,15 @@ DWORD AbsGroupSize = 0;
 MakeAbsoluteSD (
     pSD,
     pAbsSD,
-    &amp;AbsSdSize,
+    &AbsSdSize,
     pAbsAcl,
-    &amp;AbsAclSize,
+    &AbsAclSize,
     pAbsSacl,
-    &amp;AbsSaclSize,
+    &AbsSaclSize,
     pAbsOwner,
-    &amp;AbsOwnerSize,
+    &AbsOwnerSize,
     pAbsGroup,
-    &amp;AbsGroupSize
+    &AbsGroupSize
 );
 
 if (ERROR_INSUFFICIENT_BUFFER == GetLastError())
@@ -220,7 +220,7 @@ if (ERROR_INSUFFICIENT_BUFFER == GetLastError())
     pAbsOwner = (PSID)LocalAlloc(LMEM_FIXED, AbsOwnerSize);
     pAbsGroup = (PSID)LocalAlloc(LMEM_FIXED, AbsGroupSize);
 
-    if ( ! (pAbsSD &amp;&amp; pAbsAcl &amp;&amp; pAbsSacl &amp;&amp; pAbsOwner &amp;&amp; pAbsGroup))
+    if ( ! (pAbsSD && pAbsAcl && pAbsSacl && pAbsOwner && pAbsGroup))
     {
         hr = E_OUTOFMEMORY;
         goto Cleanup;
@@ -228,15 +228,15 @@ if (ERROR_INSUFFICIENT_BUFFER == GetLastError())
     if ( ! MakeAbsoluteSD(
         pSD,
         pAbsSD,
-        &amp;AbsSdSize,
+        &AbsSdSize,
         pAbsAcl,
-        &amp;AbsAclSize,
+        &AbsAclSize,
         pAbsSacl,
-        &amp;AbsSaclSize,
+        &AbsSaclSize,
         pAbsOwner,
-        &amp;AbsOwnerSize,
+        &AbsOwnerSize,
         pAbsGroup,
-        &amp;AbsGroupSize
+        &AbsGroupSize
         ))
     {
         hr = HRESULT_FROM_WIN32(GetLastError());
@@ -268,7 +268,7 @@ BOOL GetLaunchActPermissionsWithIL (SECURITY_DESCRIPTOR **ppSD)
 {
 // Allow World Local Launch/Activation permissions. Label the SD for LOW IL Execute UP
     LPWSTR lpszSDDL = L"O:BAG:BAD:(A;;0xb;;;WD)S:(ML;;NX;;;LW)";
-    if (ConvertStringSecurityDescriptorToSecurityDescriptorW(lpszSDDL, SDDL_REVISION_1, (PSECURITY_DESCRIPTOR *)&amp;pSD, NULL))
+    if (ConvertStringSecurityDescriptorToSecurityDescriptorW(lpszSDDL, SDDL_REVISION_1, (PSECURITY_DESCRIPTOR *)&pSD, NULL))
     {
         *ppSD = pSD;
         return TRUE;

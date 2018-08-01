@@ -66,16 +66,16 @@ DWORD FindMatchingFilters(
 
    result = InitFilterConditions(
                appPath,
-               &amp;localAddr,
+               &localAddr,
                ipProtocol,
                ARRAYSIZE(conds),
                conds,
-               &amp;numConds,
-               &amp;appBlob
+               &numConds,
+               &appBlob
                );
    EXIT_ON_ERROR(InitFilterConditions);
 
-   memset(&amp;enumTempl, 0, sizeof(enumTempl));
+   memset(&enumTempl, 0, sizeof(enumTempl));
    enumTempl.layerKey = *layerKey;
    enumTempl.numFilterConditions = numConds;
    if (numConds > 0)
@@ -87,8 +87,8 @@ DWORD FindMatchingFilters(
 
    result = FwpmFilterCreateEnumHandle0(
                engine,
-               &amp;enumTempl,
-               &amp;enumHandle
+               &enumTempl,
+               &enumHandle
                );
    EXIT_ON_ERROR(FwpmFilterCreateEnumHandle0);
 
@@ -103,7 +103,7 @@ DWORD FindMatchingFilters(
 
 CLEANUP:
    FwpmFilterDestroyEnumHandle0(engine, enumHandle);
-   FwpmFreeMemory0((void**)&amp;appBlob);
+   FwpmFreeMemory0((void**)&appBlob);
    return result;
 }
 
@@ -120,22 +120,22 @@ DWORD wmain(int argc,
    //  - All objects associated with the dynamic session are deleted with one call.
    //  - Filtering policy objects are deleted even when the application crashes. 
    FWPM_SESSION0 session;
-   memset(&amp;session, 0, sizeof(session));
+   memset(&session, 0, sizeof(session));
    session.flags = FWPM_SESSION_FLAG_DYNAMIC;
 
    UINT32 numFilters = 0;
    FWPM_FILTER0** filters = 0;
-   DWORD result = FwpmEngineOpen0(NULL, RPC_C_AUTHN_WINNT, NULL, &amp;session, &amp;engineHandle);
+   DWORD result = FwpmEngineOpen0(NULL, RPC_C_AUTHN_WINNT, NULL, &session, &engineHandle);
    EXIT_ON_ERROR(FwpmEngineOpen0);
 
    result = FindMatchingFilters(
          engineHandle,
-         &amp;FWPM_LAYER_ALE_AUTH_LISTEN_V4,
+         &FWPM_LAYER_ALE_AUTH_LISTEN_V4,
          0,
          0,
          0,
-         &amp;filters,
-         &amp;numFilters
+         &filters,
+         &numFilters
          );
 
 CLEANUP:  

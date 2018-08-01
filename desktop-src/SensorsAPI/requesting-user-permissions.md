@@ -20,7 +20,7 @@ The following example code simply requests permissions for all sensors retrieved
 
 ```C++
 // Get the sensor collection.
-hr = pSensorManager->GetSensorsByType(SAMPLE_SENSOR_TYPE_TIME, &amp;pSensorColl);
+hr = pSensorManager->GetSensorsByType(SAMPLE_SENSOR_TYPE_TIME, &pSensorColl);
 
 if(SUCCEEDED(hr))
 {
@@ -42,7 +42,7 @@ if(SUCCEEDED(hr))
    // Check the current sensor state.
    SensorState state = SENSOR_STATE_NOT_AVAILABLE;
 
-   hr = pSensor->GetState(&amp;state);
+   hr = pSensor->GetState(&state);
 
    if(SUCCEEDED(hr))
    {
@@ -65,7 +65,7 @@ if(SUCCEEDED(hr))
 if(SUCCEEDED(hr))
 {
     // Get the data report.
-    hr = pSensor->GetData(&amp;pReport);
+    hr = pSensor->GetData(&pReport);
 }
 ```
 
@@ -78,7 +78,7 @@ The following example code prompts the user for sensor permissions if an attempt
 if(SUCCEEDED(hr))
 {
     // Get the data report.
-    hr = pSensor->GetData(&amp;pReport);
+    hr = pSensor->GetData(&pReport);
 
     if(E_ACCESSDENIED == hr)
     {

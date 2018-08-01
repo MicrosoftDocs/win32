@@ -27,7 +27,7 @@ STDMETHODIMP COPaper::CImpIPaper::Save(
 
     if (OwnThis())
     {
-      if (m_bLocked &amp;&amp; m_cLockKey == nLockKey &amp;&amp; NULL != pIStorage)
+      if (m_bLocked && m_cLockKey == nLockKey && NULL != pIStorage)
       {
         // Use the COM service to mark this compound file as one 
         // that is handled by our server component, DllPaper.
@@ -45,7 +45,7 @@ STDMETHODIMP COPaper::CImpIPaper::Save(
         STGM_CREATE | STGM_WRITE | STGM_DIRECT | STGM_SHARE_EXCLUSIVE,
                0,
                0,
-               &amp;pIStream);
+               &pIStream);
         if (SUCCEEDED(hr))
         {
           // Obtained a stream. Write data to it.
@@ -55,17 +55,17 @@ STDMETHODIMP COPaper::CImpIPaper::Save(
           m_PaperProperties.WinRect.right = m_WinRect.right;
           m_PaperProperties.WinRect.bottom = m_WinRect.bottom;
           ulToWrite = sizeof(PAPER_PROPERTIES);
-          hr = pIStream->Write(&amp;m_Paper_Properties, ulToWrite, 
-                               &amp;ulWritten);
-          if (SUCCEEDED(hr) &amp;&amp; ulToWrite != ulWritten)
+          hr = pIStream->Write(&m_Paper_Properties, ulToWrite, 
+                               &ulWritten);
+          if (SUCCEEDED(hr) && ulToWrite != ulWritten)
             hr = STG_E_CANTSAVE;
           if (SUCCEEDED(hr))
           {
             // Now, write the complete array of Ink Data.
             ulToWrite = m_PaperProperties.lInkArraySize * 
                                                      sizeof(INKDATA);
-            hr = pIStream->Write(m_paInkData, ulToWrite, &amp;ulWritten);
-            if (SUCCEEDED(hr) &amp;&amp; ulToWrite != ulWritten)
+            hr = pIStream->Write(m_paInkData, ulToWrite, &ulWritten);
+            if (SUCCEEDED(hr) && ulToWrite != ulWritten)
               hr = STG_E_CANTSAVE;
           }
 
@@ -115,8 +115,8 @@ Saving the entire array of ink data into the stream is simple.
 ```C++
 // Now write the complete array of Ink Data.
   ulToWrite = m_PaperProperties.lInkArraySize * sizeof(INKDATA);
-  hr = pIStream->Write(m_paInkData, ulToWrite, &amp;ulWritten);
-  if (SUCCEEDED(hr) &amp;&amp; ulToWrite != ulWritten)
+  hr = pIStream->Write(m_paInkData, ulToWrite, &ulWritten);
+  if (SUCCEEDED(hr) && ulToWrite != ulWritten)
     hr = STG_E_CANTSAVE;
 ```
 

@@ -82,7 +82,7 @@ The following example code takes a file name and returns a pointer to a byte str
 ```C++
         // Open the file.
         hr = MFCreateFile(MF_ACCESSMODE_READ, MF_OPENMODE_FAIL_IF_NOT_EXIST, 
-            MF_FILEFLAGS_NONE, pszFileName, &amp;pStream);
+            MF_FILEFLAGS_NONE, pszFileName, &pStream);
 ```
 
 
@@ -120,13 +120,13 @@ HRESULT CreateContentInfo(IMFByteStream *pStream,
     IMFMediaBuffer *pBuffer = NULL;
 
     // Create the ASF ContentInfo object.
-    HRESULT hr = MFCreateASFContentInfo(&amp;pContentInfo);
+    HRESULT hr = MFCreateASFContentInfo(&pContentInfo);
     
     // Read the first 30 bytes to find the total header size.
 
     if (SUCCEEDED(hr))
     {
-        hr = MFCreateMemoryBuffer(MIN_ASF_HEADER_SIZE, &amp;pBuffer);
+        hr = MFCreateMemoryBuffer(MIN_ASF_HEADER_SIZE, &pBuffer);
     }
     if (SUCCEEDED(hr))
     {
@@ -134,7 +134,7 @@ HRESULT CreateContentInfo(IMFByteStream *pStream,
     }
     if (SUCCEEDED(hr))
     {
-        hr = pContentInfo->GetHeaderSize(pBuffer, &amp;cbHeader);
+        hr = pContentInfo->GetHeaderSize(pBuffer, &cbHeader);
     }
 
     // Pass the first 30 bytes to the ContentInfo object.
@@ -143,13 +143,13 @@ HRESULT CreateContentInfo(IMFByteStream *pStream,
         hr = pContentInfo->ParseHeader(pBuffer, 0);
     }
 
-    SafeRelease(&amp;pBuffer);
+    SafeRelease(&pBuffer);
 
     if (SUCCEEDED(hr))
     {
         cbBuffer = (DWORD)(cbHeader - MIN_ASF_HEADER_SIZE);
 
-        hr = MFCreateMemoryBuffer(cbBuffer, &amp;pBuffer);
+        hr = MFCreateMemoryBuffer(cbBuffer, &pBuffer);
     }
 
     // Read the rest of the header and finish parsing the header.
@@ -167,8 +167,8 @@ HRESULT CreateContentInfo(IMFByteStream *pStream,
         *ppContentInfo = pContentInfo;
         (*ppContentInfo)->AddRef();
     }
-    SafeRelease(&amp;pBuffer);
-    SafeRelease(&amp;pContentInfo);
+    SafeRelease(&pBuffer);
+    SafeRelease(&pContentInfo);
     return hr;
 } 
 ```
@@ -197,7 +197,7 @@ HRESULT ReadFromByteStream(
     DWORD cbRead = 0;
     BYTE *pData= NULL;
 
-    HRESULT hr = pBuffer->Lock(&amp;pData, &amp;cbBufferMax, NULL);
+    HRESULT hr = pBuffer->Lock(&pData, &cbBufferMax, NULL);
 
     // Do not exceed the maximum size of the buffer.
     if (SUCCEEDED(hr))
@@ -208,7 +208,7 @@ HRESULT ReadFromByteStream(
         }
 
         // Read up to cbMax bytes.
-        hr = pStream->Read(pData, cbMax, &amp;cbRead);
+        hr = pStream->Read(pData, cbMax, &cbRead);
     }
 
     // Update the size of the valid data in the buffer.
@@ -245,7 +245,7 @@ HRESULT CreateASFSplitter (IMFASFContentInfo* pContentInfo,
     IMFASFSplitter *pSplitter = NULL;
 
     // Create the splitter object.
-    HRESULT hr = MFCreateASFSplitter(&amp;pSplitter);
+    HRESULT hr = MFCreateASFSplitter(&pSplitter);
 
     // Initialize the splitter to work with specific ASF data.
     if (SUCCEEDED(hr))
@@ -258,7 +258,7 @@ HRESULT CreateASFSplitter (IMFASFContentInfo* pContentInfo,
         *ppSplitter = pSplitter;
         (*ppSplitter)->AddRef();
     }
-    SafeRelease(&amp;pSplitter);
+    SafeRelease(&pSplitter);
     return hr;
 }
 ```
@@ -293,12 +293,12 @@ HRESULT SelectVideoStream(IMFASFContentInfo *pContentInfo,
     IMFASFStreamConfig *pStream = NULL;
 
     // Get the ASF profile from the ContentInfo object.
-    HRESULT hr = pContentInfo->GetProfile(&amp;pProfile);
+    HRESULT hr = pContentInfo->GetProfile(&pProfile);
 
     // Loop through all of the streams in the profile.
     if (SUCCEEDED(hr))
     {
-        hr = pProfile->GetStreamCount(&amp;cStreams);
+        hr = pProfile->GetStreamCount(&cStreams);
     }
 
     if (SUCCEEDED(hr))
@@ -308,13 +308,13 @@ HRESULT SelectVideoStream(IMFASFContentInfo *pContentInfo,
             GUID    streamType = GUID_NULL;
 
             // Get the stream type and stream identifier.
-            hr = pProfile->GetStream(i, &amp;wStreamID, &amp;pStream);
+            hr = pProfile->GetStream(i, &wStreamID, &pStream);
             if (FAILED(hr)) 
             {
                 break;
             }
 
-            hr = pStream->GetStreamType(&amp;streamType);
+            hr = pStream->GetStreamType(&streamType);
             if (FAILED(hr)) 
             {
                 break;
@@ -325,7 +325,7 @@ HRESULT SelectVideoStream(IMFASFContentInfo *pContentInfo,
                 *pbHasVideo = TRUE;
                 break;
             }
-            SafeRelease(&amp;pStream);
+            SafeRelease(&pStream);
         }
     }
 
@@ -335,11 +335,11 @@ HRESULT SelectVideoStream(IMFASFContentInfo *pContentInfo,
         if (*pbHasVideo)
         {
             // SelectStreams takes an array of stream identifiers.
-            hr = pSplitter->SelectStreams(&amp;wStreamID, 1);
+            hr = pSplitter->SelectStreams(&wStreamID, 1);
         }
     }
-    SafeRelease(&amp;pStream);
-    SafeRelease(&amp;pProfile);
+    SafeRelease(&pStream);
+    SafeRelease(&pProfile);
     return hr;
 }
 ```
@@ -385,7 +385,7 @@ HRESULT DisplayKeyFrames(IMFByteStream *pStream, IMFASFSplitter *pSplitter)
     while (SUCCEEDED(hr))
     {
         // The parser must get a newly allocated buffer each time.
-        hr = MFCreateMemoryBuffer(cbReadSize, &amp;pBuffer);
+        hr = MFCreateMemoryBuffer(cbReadSize, &pBuffer);
         if (FAILED(hr))
         {
             break;
@@ -400,7 +400,7 @@ HRESULT DisplayKeyFrames(IMFByteStream *pStream, IMFASFSplitter *pSplitter)
 
         // Get the amound of data that was read.
         DWORD cbData;
-        hr = pBuffer->GetCurrentLength(&amp;cbData);
+        hr = pBuffer->GetCurrentLength(&cbData);
         if (FAILED(hr)) 
         { 
             break; 
@@ -413,7 +413,7 @@ HRESULT DisplayKeyFrames(IMFByteStream *pStream, IMFASFSplitter *pSplitter)
 
         // Send the data to the ASF splitter.
         hr = pSplitter->ParseData(pBuffer, 0, 0);
-        SafeRelease(&amp;pBuffer);
+        SafeRelease(&pBuffer);
         if (FAILED(hr)) 
         { 
             break; 
@@ -424,7 +424,7 @@ HRESULT DisplayKeyFrames(IMFByteStream *pStream, IMFASFSplitter *pSplitter)
         do
         {
             WORD streamID;
-            hr = pSplitter->GetNextSample(&amp;parsingStatus, &amp;streamID, &amp;pSample);
+            hr = pSplitter->GetNextSample(&parsingStatus, &streamID, &pSample);
             if (FAILED(hr)) 
             { 
                 break; 
@@ -438,12 +438,12 @@ HRESULT DisplayKeyFrames(IMFByteStream *pStream, IMFASFSplitter *pSplitter)
             {
                 DisplayKeyFrame(pSample);
             }
-            SafeRelease(&amp;pSample);
+            SafeRelease(&pSample);
             
         } while (parsingStatus & ASF_STATUSFLAGS_INCOMPLETE);
     }
-    SafeRelease(&amp;pSample);
-    SafeRelease(&amp;pBuffer);
+    SafeRelease(&pSample);
+    SafeRelease(&pBuffer);
     return hr;
 }
 ```
@@ -474,15 +474,15 @@ void DisplayKeyFrame(IMFSample *pSample)
     MFTIME  hnsTime = 0;            // Time stamp
 
     // Print various information about the key frame.
-    if (SUCCEEDED(pSample->GetBufferCount(&amp;cBuffers)))
+    if (SUCCEEDED(pSample->GetBufferCount(&cBuffers)))
     {
         wprintf_s(L"Buffer count: %d\n", cBuffers);
     }
-    if (SUCCEEDED(pSample->GetTotalLength(&amp;cbTotalLength)))
+    if (SUCCEEDED(pSample->GetTotalLength(&cbTotalLength)))
     {
         wprintf_s(L"Length: %d bytes\n", cbTotalLength);
     }
-    if (SUCCEEDED(pSample->GetSampleTime(&amp;hnsTime)))
+    if (SUCCEEDED(pSample->GetSampleTime(&hnsTime)))
     {
         // Convert the time stamp to seconds.
         double sec = static_cast<double>(hnsTime / 10000) / 1000;
@@ -523,24 +523,24 @@ int wmain(int argc, WCHAR* argv[])
 
         // Open the file.
         hr = MFCreateFile(MF_ACCESSMODE_READ, MF_OPENMODE_FAIL_IF_NOT_EXIST, 
-            MF_FILEFLAGS_NONE, pszFileName, &amp;pStream);
+            MF_FILEFLAGS_NONE, pszFileName, &pStream);
 
         // Read the ASF header.
         if (SUCCEEDED(hr))
         {
-            hr = CreateContentInfo(pStream, &amp;pContentInfo);
+            hr = CreateContentInfo(pStream, &pContentInfo);
         }
 
         // Create the ASF splitter.
         if (SUCCEEDED(hr))
         {
-            hr = CreateASFSplitter(pContentInfo, &amp;pSplitter);
+            hr = CreateASFSplitter(pContentInfo, &pSplitter);
         }
 
         // Select the first video stream.
         if (SUCCEEDED(hr))
         {
-            hr = SelectVideoStream(pContentInfo, pSplitter, &amp;bHasVideo);
+            hr = SelectVideoStream(pContentInfo, pSplitter, &bHasVideo);
         }
 
         // Parse the ASF file.
@@ -555,9 +555,9 @@ int wmain(int argc, WCHAR* argv[])
                 wprintf_s(L"No video stream.\n");
             }
         }
-        SafeRelease(&amp;pSplitter);
-        SafeRelease(&amp;pContentInfo);
-        SafeRelease(&amp;pStream);
+        SafeRelease(&pSplitter);
+        SafeRelease(&pContentInfo);
+        SafeRelease(&pStream);
     
         // Shut down the Media Foundation platform.
         MFShutdown();
@@ -615,7 +615,7 @@ HRESULT ReadFromByteStream(
     DWORD cbRead = 0;
     BYTE *pData= NULL;
 
-    HRESULT hr = pBuffer->Lock(&amp;pData, &amp;cbBufferMax, NULL);
+    HRESULT hr = pBuffer->Lock(&pData, &cbBufferMax, NULL);
 
     // Do not exceed the maximum size of the buffer.
     if (SUCCEEDED(hr))
@@ -626,7 +626,7 @@ HRESULT ReadFromByteStream(
         }
 
         // Read up to cbMax bytes.
-        hr = pStream->Read(pData, cbMax, &amp;cbRead);
+        hr = pStream->Read(pData, cbMax, &cbRead);
     }
 
     // Update the size of the valid data in the buffer.
@@ -660,13 +660,13 @@ HRESULT CreateContentInfo(IMFByteStream *pStream,
     IMFMediaBuffer *pBuffer = NULL;
 
     // Create the ASF ContentInfo object.
-    HRESULT hr = MFCreateASFContentInfo(&amp;pContentInfo);
+    HRESULT hr = MFCreateASFContentInfo(&pContentInfo);
     
     // Read the first 30 bytes to find the total header size.
 
     if (SUCCEEDED(hr))
     {
-        hr = MFCreateMemoryBuffer(MIN_ASF_HEADER_SIZE, &amp;pBuffer);
+        hr = MFCreateMemoryBuffer(MIN_ASF_HEADER_SIZE, &pBuffer);
     }
     if (SUCCEEDED(hr))
     {
@@ -674,7 +674,7 @@ HRESULT CreateContentInfo(IMFByteStream *pStream,
     }
     if (SUCCEEDED(hr))
     {
-        hr = pContentInfo->GetHeaderSize(pBuffer, &amp;cbHeader);
+        hr = pContentInfo->GetHeaderSize(pBuffer, &cbHeader);
     }
 
     // Pass the first 30 bytes to the ContentInfo object.
@@ -683,13 +683,13 @@ HRESULT CreateContentInfo(IMFByteStream *pStream,
         hr = pContentInfo->ParseHeader(pBuffer, 0);
     }
 
-    SafeRelease(&amp;pBuffer);
+    SafeRelease(&pBuffer);
 
     if (SUCCEEDED(hr))
     {
         cbBuffer = (DWORD)(cbHeader - MIN_ASF_HEADER_SIZE);
 
-        hr = MFCreateMemoryBuffer(cbBuffer, &amp;pBuffer);
+        hr = MFCreateMemoryBuffer(cbBuffer, &pBuffer);
     }
 
     // Read the rest of the header and finish parsing the header.
@@ -707,8 +707,8 @@ HRESULT CreateContentInfo(IMFByteStream *pStream,
         *ppContentInfo = pContentInfo;
         (*ppContentInfo)->AddRef();
     }
-    SafeRelease(&amp;pBuffer);
-    SafeRelease(&amp;pContentInfo);
+    SafeRelease(&pBuffer);
+    SafeRelease(&pContentInfo);
     return hr;
 } 
 
@@ -720,7 +720,7 @@ HRESULT CreateASFSplitter (IMFASFContentInfo* pContentInfo,
     IMFASFSplitter *pSplitter = NULL;
 
     // Create the splitter object.
-    HRESULT hr = MFCreateASFSplitter(&amp;pSplitter);
+    HRESULT hr = MFCreateASFSplitter(&pSplitter);
 
     // Initialize the splitter to work with specific ASF data.
     if (SUCCEEDED(hr))
@@ -733,7 +733,7 @@ HRESULT CreateASFSplitter (IMFASFContentInfo* pContentInfo,
         *ppSplitter = pSplitter;
         (*ppSplitter)->AddRef();
     }
-    SafeRelease(&amp;pSplitter);
+    SafeRelease(&pSplitter);
     return hr;
 }
 
@@ -750,12 +750,12 @@ HRESULT SelectVideoStream(IMFASFContentInfo *pContentInfo,
     IMFASFStreamConfig *pStream = NULL;
 
     // Get the ASF profile from the ContentInfo object.
-    HRESULT hr = pContentInfo->GetProfile(&amp;pProfile);
+    HRESULT hr = pContentInfo->GetProfile(&pProfile);
 
     // Loop through all of the streams in the profile.
     if (SUCCEEDED(hr))
     {
-        hr = pProfile->GetStreamCount(&amp;cStreams);
+        hr = pProfile->GetStreamCount(&cStreams);
     }
 
     if (SUCCEEDED(hr))
@@ -765,13 +765,13 @@ HRESULT SelectVideoStream(IMFASFContentInfo *pContentInfo,
             GUID    streamType = GUID_NULL;
 
             // Get the stream type and stream identifier.
-            hr = pProfile->GetStream(i, &amp;wStreamID, &amp;pStream);
+            hr = pProfile->GetStream(i, &wStreamID, &pStream);
             if (FAILED(hr)) 
             {
                 break;
             }
 
-            hr = pStream->GetStreamType(&amp;streamType);
+            hr = pStream->GetStreamType(&streamType);
             if (FAILED(hr)) 
             {
                 break;
@@ -782,7 +782,7 @@ HRESULT SelectVideoStream(IMFASFContentInfo *pContentInfo,
                 *pbHasVideo = TRUE;
                 break;
             }
-            SafeRelease(&amp;pStream);
+            SafeRelease(&pStream);
         }
     }
 
@@ -792,11 +792,11 @@ HRESULT SelectVideoStream(IMFASFContentInfo *pContentInfo,
         if (*pbHasVideo)
         {
             // SelectStreams takes an array of stream identifiers.
-            hr = pSplitter->SelectStreams(&amp;wStreamID, 1);
+            hr = pSplitter->SelectStreams(&wStreamID, 1);
         }
     }
-    SafeRelease(&amp;pStream);
-    SafeRelease(&amp;pProfile);
+    SafeRelease(&pStream);
+    SafeRelease(&pProfile);
     return hr;
 }
 
@@ -813,15 +813,15 @@ void DisplayKeyFrame(IMFSample *pSample)
     MFTIME  hnsTime = 0;            // Time stamp
 
     // Print various information about the key frame.
-    if (SUCCEEDED(pSample->GetBufferCount(&amp;cBuffers)))
+    if (SUCCEEDED(pSample->GetBufferCount(&cBuffers)))
     {
         wprintf_s(L"Buffer count: %d\n", cBuffers);
     }
-    if (SUCCEEDED(pSample->GetTotalLength(&amp;cbTotalLength)))
+    if (SUCCEEDED(pSample->GetTotalLength(&cbTotalLength)))
     {
         wprintf_s(L"Length: %d bytes\n", cbTotalLength);
     }
-    if (SUCCEEDED(pSample->GetSampleTime(&amp;hnsTime)))
+    if (SUCCEEDED(pSample->GetSampleTime(&hnsTime)))
     {
         // Convert the time stamp to seconds.
         double sec = static_cast<double>(hnsTime / 10000) / 1000;
@@ -847,7 +847,7 @@ HRESULT DisplayKeyFrames(IMFByteStream *pStream, IMFASFSplitter *pSplitter)
     while (SUCCEEDED(hr))
     {
         // The parser must get a newly allocated buffer each time.
-        hr = MFCreateMemoryBuffer(cbReadSize, &amp;pBuffer);
+        hr = MFCreateMemoryBuffer(cbReadSize, &pBuffer);
         if (FAILED(hr))
         {
             break;
@@ -862,7 +862,7 @@ HRESULT DisplayKeyFrames(IMFByteStream *pStream, IMFASFSplitter *pSplitter)
 
         // Get the amound of data that was read.
         DWORD cbData;
-        hr = pBuffer->GetCurrentLength(&amp;cbData);
+        hr = pBuffer->GetCurrentLength(&cbData);
         if (FAILED(hr)) 
         { 
             break; 
@@ -875,7 +875,7 @@ HRESULT DisplayKeyFrames(IMFByteStream *pStream, IMFASFSplitter *pSplitter)
 
         // Send the data to the ASF splitter.
         hr = pSplitter->ParseData(pBuffer, 0, 0);
-        SafeRelease(&amp;pBuffer);
+        SafeRelease(&pBuffer);
         if (FAILED(hr)) 
         { 
             break; 
@@ -886,7 +886,7 @@ HRESULT DisplayKeyFrames(IMFByteStream *pStream, IMFASFSplitter *pSplitter)
         do
         {
             WORD streamID;
-            hr = pSplitter->GetNextSample(&amp;parsingStatus, &amp;streamID, &amp;pSample);
+            hr = pSplitter->GetNextSample(&parsingStatus, &streamID, &pSample);
             if (FAILED(hr)) 
             { 
                 break; 
@@ -900,12 +900,12 @@ HRESULT DisplayKeyFrames(IMFByteStream *pStream, IMFASFSplitter *pSplitter)
             {
                 DisplayKeyFrame(pSample);
             }
-            SafeRelease(&amp;pSample);
+            SafeRelease(&pSample);
             
         } while (parsingStatus & ASF_STATUSFLAGS_INCOMPLETE);
     }
-    SafeRelease(&amp;pSample);
-    SafeRelease(&amp;pBuffer);
+    SafeRelease(&pSample);
+    SafeRelease(&pBuffer);
     return hr;
 }
 
@@ -930,24 +930,24 @@ int wmain(int argc, WCHAR* argv[])
 
         // Open the file.
         hr = MFCreateFile(MF_ACCESSMODE_READ, MF_OPENMODE_FAIL_IF_NOT_EXIST, 
-            MF_FILEFLAGS_NONE, pszFileName, &amp;pStream);
+            MF_FILEFLAGS_NONE, pszFileName, &pStream);
 
         // Read the ASF header.
         if (SUCCEEDED(hr))
         {
-            hr = CreateContentInfo(pStream, &amp;pContentInfo);
+            hr = CreateContentInfo(pStream, &pContentInfo);
         }
 
         // Create the ASF splitter.
         if (SUCCEEDED(hr))
         {
-            hr = CreateASFSplitter(pContentInfo, &amp;pSplitter);
+            hr = CreateASFSplitter(pContentInfo, &pSplitter);
         }
 
         // Select the first video stream.
         if (SUCCEEDED(hr))
         {
-            hr = SelectVideoStream(pContentInfo, pSplitter, &amp;bHasVideo);
+            hr = SelectVideoStream(pContentInfo, pSplitter, &bHasVideo);
         }
 
         // Parse the ASF file.
@@ -962,9 +962,9 @@ int wmain(int argc, WCHAR* argv[])
                 wprintf_s(L"No video stream.\n");
             }
         }
-        SafeRelease(&amp;pSplitter);
-        SafeRelease(&amp;pContentInfo);
-        SafeRelease(&amp;pStream);
+        SafeRelease(&pSplitter);
+        SafeRelease(&pContentInfo);
+        SafeRelease(&pStream);
     
         // Shut down the Media Foundation platform.
         MFShutdown();

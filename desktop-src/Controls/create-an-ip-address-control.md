@@ -51,7 +51,7 @@ HWND CreateIPAddressFld (HWND hwndParent, int xcoord, int ycoord)
     // Ensure that the common control DLL is loaded. 
     icex.dwSize = sizeof(INITCOMMONCONTROLSEX);
     icex.dwICC  = ICC_INTERNET_CLASSES ;
-    InitCommonControlsEx(&amp;icex); 
+    InitCommonControlsEx(&icex); 
     
     // Create the IPAddress control.        
     HWND hWndIPAddressFld = CreateWindow(WC_IPADDRESS, 

@@ -32,7 +32,7 @@ UINT width = image.GetWidth();
 UINT height = image.GetHeight();
 // Draw the image with no shrinking or stretching.
 graphics.DrawImage(
-   &amp;image,
+   &image,
    Rect(10, 10, width, height),  // destination rectangle  
    0, 0,        // upper-left corner of source rectangle
    width,       // width of source rectangle
@@ -41,7 +41,7 @@ graphics.DrawImage(
 // Shrink the image using low-quality interpolation. 
 graphics.SetInterpolationMode(InterpolationModeNearestNeighbor);
 graphics.DrawImage(
-   &amp;image,
+   &image,
    Rect(10, 250, 0.6*width, 0.6*height),  // destination rectangle 
    0, 0,        // upper-left corner of source rectangle
    width,       // width of source rectangle
@@ -50,7 +50,7 @@ graphics.DrawImage(
 // Shrink the image using medium-quality interpolation.
 graphics.SetInterpolationMode(InterpolationModeHighQualityBilinear);
 graphics.DrawImage(
-   &amp;image,
+   &image,
    Rect(150, 250, 0.6 * width, 0.6 * height),  // destination rectangle 
    0, 0,        // upper-left corner of source rectangle
    width,       // width of source rectangle
@@ -59,7 +59,7 @@ graphics.DrawImage(
 // Shrink the image using high-quality interpolation.
 graphics.SetInterpolationMode(InterpolationModeHighQualityBicubic);
 graphics.DrawImage(
-   &amp;image,
+   &image,
    Rect(290, 250, 0.6 * width, 0.6 * height),  // destination rectangle 
    0, 0,        // upper-left corner of source rectangle
    width,       // width of source rectangle

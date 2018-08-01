@@ -31,7 +31,7 @@ Following this Visual Basic code example are several code examples that show how
 
 
 ```VB
-Const ACL_REVISION_DS = &amp;H4
+Const ACL_REVISION_DS = &H4
 
 Public Function SetRight(objectDN As String, _
                accessrights As Long, _
@@ -69,12 +69,12 @@ lflags = 0
 
 If Not objectGUID = vbNullString Then
    newace.ObjectType = objectGUID
-   lflags = lflags Or &amp;H1 'ADS_FLAG_OBJECT_TYPE_PRESENT
+   lflags = lflags Or &H1 'ADS_FLAG_OBJECT_TYPE_PRESENT
 End If
 
 If Not inheritedObjectGUID = vbNullString Then
    newace.InheritedObjectType = inheritedObjectGUID
-   lflags = lflags Or &amp;H2 'ADS_FLAG_INHERITED_OBJECT_TYPE_PRESENT
+   lflags = lflags Or &H2 'ADS_FLAG_INHERITED_OBJECT_TYPE_PRESENT
 End If
 
 If Not (lflags = 0) Then newace.Flags = lflags
@@ -130,26 +130,26 @@ long lFlags = 0L;
 if (!szTrustee || !pObject)
     return E_INVALIDARG;
  
-VariantInit(&amp;varSD);
+VariantInit(&varSD);
  
 // Get the nTSecurityDescriptor.
 // Type should be VT_DISPATCH - an IDispatch pointer to the security descriptor object.
-hr = pObject->Get(_bstr_t("nTSecurityDescriptor"), &amp;varSD);
+hr = pObject->Get(_bstr_t("nTSecurityDescriptor"), &varSD);
 if ( FAILED(hr) || varSD.vt != VT_DISPATCH ) {
     wprintf(L"get nTSecurityDescriptor failed: 0x%x\n", hr);
     return hr;
 }
  
-hr = V_DISPATCH( &amp;varSD )->QueryInterface(IID_IADsSecurityDescriptor,(void**)&amp;pSD);
+hr = V_DISPATCH( &varSD )->QueryInterface(IID_IADsSecurityDescriptor,(void**)&pSD);
 if ( FAILED(hr) ) {
     wprintf(L"QueryInterface for IADsSecurityDescriptor failed: 0x%x\n", hr);
     goto cleanup;
 }
  
 // Get the DACL.
-hr = pSD->get_DiscretionaryAcl(&amp;pDispDACL);
+hr = pSD->get_DiscretionaryAcl(&pDispDACL);
 if (SUCCEEDED(hr)) 
-    hr = pDispDACL->QueryInterface(IID_IADsAccessControlList,(void**)&amp;pACL);
+    hr = pDispDACL->QueryInterface(IID_IADsAccessControlList,(void**)&pACL);
 if ( FAILED(hr) ) {
     wprintf(L"Could not get DACL: 0x%x\n", hr);
     goto cleanup;
@@ -161,7 +161,7 @@ hr  = CoCreateInstance(
                NULL,
                CLSCTX_INPROC_SERVER,
                IID_IADsAccessControlEntry,
-               (void **)&amp;pACE
+               (void **)&pACE
                );
 if ( FAILED(hr) ) {
     wprintf(L"Could not create ACE object: 0x%x\n", hr);
@@ -204,7 +204,7 @@ if (lFlags)
  
 // Add the ACE to the ACL to the SD to the cache to the object.
 // Call the QueryInterface method for the IDispatch pointer to pass to the AddAce method.
-hr = pACE->QueryInterface(IID_IDispatch, (void**)&amp;pDispACE);
+hr = pACE->QueryInterface(IID_IDispatch, (void**)&pDispACE);
 if (SUCCEEDED(hr))
 {
     // Set the ACL revision.
@@ -241,7 +241,7 @@ if (pDispDACL)
 if (pSD)
     pSD->Release();
  
-VariantClear(&amp;varSD);
+VariantClear(&varSD);
 return hr;
 }
 ```
@@ -257,8 +257,8 @@ The following Visual Basic code example builds a binding string for the Users co
 Dim rootDSE As IADs
 Dim objectDN As String
 Dim bResult As Boolean
-Const ADS_RIGHT_READ_PROP = &amp;H10
-Const ADS_RIGHT_WRITE_PROP = &amp;H20
+Const ADS_RIGHT_READ_PROP = &H10
+Const ADS_RIGHT_WRITE_PROP = &H20
  
 ' Bind to the Users container in the local domain.
 Set rootDSE = GetObject("LDAP://rootDSE")

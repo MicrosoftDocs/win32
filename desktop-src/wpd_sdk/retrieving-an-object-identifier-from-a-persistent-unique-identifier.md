@@ -51,7 +51,7 @@ After this, the sample application retrieves an [**IPortableDeviceContent**](/wi
 ```C++
 if (SUCCEEDED(hr))
 {
-    hr = pDevice->Content(&amp;pContent);
+    hr = pDevice->Content(&pContent);
     if (FAILED(hr))
     {
         printf("! Failed to get IPortableDeviceContent from IPortableDevice, hr = 0x%lx\n",hr);
@@ -68,7 +68,7 @@ Next, it creates an [**IPortableDevicePropVariantCollection**](iportabledevicepr
 hr = CoCreateInstance(CLSID_PortableDevicePropVariantCollection,
                       NULL,
                       CLSCTX_INPROC_SERVER,
-                      IID_PPV_ARGS(&amp;pPersistentUniqueIDs));
+                      IID_PPV_ARGS(&pPersistentUniqueIDs));
 ```
 
 
@@ -82,7 +82,7 @@ if (SUCCEEDED(hr))
     if (pPersistentUniqueIDs != NULL)
     {
         PROPVARIANT pv = {0};
-        PropVariantInit(&amp;pv);
+        PropVariantInit(&pv);
 
         // Initialize a PROPVARIANT structure with the object identifier string
         // that the user selected above. Notice we are allocating memory for the
@@ -94,16 +94,16 @@ if (SUCCEEDED(hr))
         {
             // Add the object identifier to the objects-to-delete list
             // (We are only deleting 1 in this example)
-            hr = pPersistentUniqueIDs->Add(&amp;pv);
+            hr = pPersistentUniqueIDs->Add(&pv);
             if (SUCCEEDED(hr))
             {
                 // 3) Attempt to get the unique idenifier for the object from the device
                 hr = pContent->GetObjectIDsFromPersistentUniqueIDs(pPersistentUniqueIDs,
-                                                                   &amp;pObjectIDs);
+                                                                   &pObjectIDs);
                 if (SUCCEEDED(hr))
                 {
                     PROPVARIANT pvId = {0};
-                    hr = pObjectIDs->GetAt(0, &amp;pvId);
+                    hr = pObjectIDs->GetAt(0, &pvId);
                     if (SUCCEEDED(hr))
                     {
                         printf("The persistent unique identifier '%ws' relates to object identifier '%ws' on the device.\n", szSelection, pvId.pwszVal);
@@ -114,7 +114,7 @@ if (SUCCEEDED(hr))
                     }
 
                     // Free the returned allocated string from the GetAt() call
-                    PropVariantClear(&amp;pvId);
+                    PropVariantClear(&pvId);
                 }
                 else
                 {
@@ -133,7 +133,7 @@ if (SUCCEEDED(hr))
         }
 
         // Free any allocated values in the PROPVARIANT before exiting
-        PropVariantClear(&amp;pv);
+        PropVariantClear(&pv);
     }
 }
 ```

@@ -69,20 +69,20 @@ int wmain(int argc, WCHAR* argv[])
         DWORD dwClasses = 0, dwAttributes = 0, dwUnknownClass = 0;
 
         //  Bind to rootDSE to get the schemaNamingContext property.
-        hr = ADsGetObject(L"LDAP://rootDSE", IID_IADs, (void**)&amp;pRootDSE);
+        hr = ADsGetObject(L"LDAP://rootDSE", IID_IADs, (void**)&pRootDSE);
         if (FAILED(hr)) 
         {
             wprintf(L"ADsGetObject failed: 0x%x\n", hr);
             goto cleanup;
         }
 
-        hr = pRootDSE->Get(CComBSTR("schemaNamingContext"), &amp;svar);
+        hr = pRootDSE->Get(CComBSTR("schemaNamingContext"), &svar);
         sbstrDSPath = "LDAP://";
         sbstrDSPath += svar.bstrVal;
 
         //  Bind to the actual schema container.
         wprintf(L"Binding to %s\n", sbstrDSPath);
-        hr = ADsGetObject(sbstrDSPath, IID_IADsContainer, (void**) &amp;pSchema);
+        hr = ADsGetObject(sbstrDSPath, IID_IADsContainer, (void**) &pSchema);
         if (FAILED(hr)) 
         {
             wprintf(L"ADsGetObject to schema failed: 0x%x\n", hr);
@@ -90,24 +90,24 @@ int wmain(int argc, WCHAR* argv[])
         }
 
         //  Enumerate the attribute and class objects in the schema container.
-        hr = ADsBuildEnumerator(pSchema, &amp;pEnum);
+        hr = ADsBuildEnumerator(pSchema, &pEnum);
         if (FAILED(hr)) 
         {
             wprintf(L"ADsBuildEnumerator failed: 0x%x\n", hr);
             goto cleanup;
         }
 
-        hr = ADsEnumerateNext(pEnum, 1, &amp;svar, &amp;lFetch);
-        while(S_OK == hr &amp;&amp; 1 == lFetch)
+        hr = ADsEnumerateNext(pEnum, 1, &svar, &lFetch);
+        while(S_OK == hr && 1 == lFetch)
         {
             IADs *pChild = NULL;
 
             //  Get an IADs pointer on the child object.
-            hr = V_DISPATCH(&amp;svar)->QueryInterface(IID_IADs, (void**) &amp;pChild);
+            hr = V_DISPATCH(&svar)->QueryInterface(IID_IADs, (void**) &pChild);
             if (SUCCEEDED(hr)) 
             {
                 //  Verify that this is a class, attribute, or subSchema object.
-                hr = pChild->get_Class(&amp;sbstrClass);
+                hr = pChild->get_Class(&sbstrClass);
                 if (SUCCEEDED(hr)) 
                 {
                     //  Get data. This depends on type of schema element.
@@ -139,7 +139,7 @@ int wmain(int argc, WCHAR* argv[])
                 pChild->Release();
             }
 
-            hr = ADsEnumerateNext(pEnum, 1, &amp;svar, &amp;lFetch);
+            hr = ADsEnumerateNext(pEnum, 1, &svar, &lFetch);
         }
 
         wprintf(L"Classes: %u\nAttributes: %u\nUnknown: %u\n", dwClasses, dwAttributes, dwUnknownClass);
@@ -179,7 +179,7 @@ void PrintGUIDFromVariant(VARIANT varGUID)
 
     DWORD dwLen = sizeof(GUID);
 
-    hr = SafeArrayAccessData(V_ARRAY(&amp;varGUID), &amp;pArray);
+    hr = SafeArrayAccessData(V_ARRAY(&varGUID), &pArray);
     if(SUCCEEDED(hr))
     {
         pGUID = (LPGUID)pArray;
@@ -190,7 +190,7 @@ void PrintGUIDFromVariant(VARIANT varGUID)
         //  Print GUID.
         wprintf(L",%s",szGUID);
 
-        SafeArrayUnaccessData(V_ARRAY(&amp;varGUID));
+        SafeArrayUnaccessData(V_ARRAY(&varGUID));
     }
 }
 
@@ -238,22 +238,22 @@ void ProcessAttribute(IADs *pChild)
 
     //  Get the attribute Common-Name (cn) property. 
     sbstrPropName = "cn";
-    hr = pChild->Get(sbstrPropName, &amp;svar);
+    hr = pChild->Get(sbstrPropName, &svar);
     PrintADSPropertyValue(svar, sbstrPropName, hr);
 
     //  Get the attribute lDAPDisplayName.
     sbstrPropName = "lDAPDisplayName";
-    hr = pChild->Get(sbstrPropName, &amp;svar);
+    hr = pChild->Get(sbstrPropName, &svar);
     PrintADSPropertyValue(svar, sbstrPropName, hr);
 
     //  Get the class linkID. 
     sbstrPropName = "linkID";
-    hr = pChild->Get(sbstrPropName, &amp;svar);
+    hr = pChild->Get(sbstrPropName, &svar);
     PrintADSPropertyValue(svar, sbstrPropName, hr);
 
     //  Get the attribute schemaIDGUID. 
     sbstrPropName = "schemaIDGUID";
-    hr = pChild->Get(sbstrPropName, &amp;svar);
+    hr = pChild->Get(sbstrPropName, &svar);
     if (E_ADS_PROPERTY_NOT_FOUND == hr)
     {
         wprintf(L"-- not set --\n");
@@ -265,7 +265,7 @@ void ProcessAttribute(IADs *pChild)
 
     //  Get the attribute attributeSecurityGUID. 
     sbstrPropName = "attributeSecurityGUID";
-    hr = pChild->Get(sbstrPropName, &amp;svar);
+    hr = pChild->Get(sbstrPropName, &svar);
     if (E_ADS_PROPERTY_NOT_FOUND == hr)
     {
         wprintf(L"-- not set --\n");
@@ -277,12 +277,12 @@ void ProcessAttribute(IADs *pChild)
 
     //  Get the attribute attributeSyntax property. 
     sbstrPropName = "attributeSyntax";
-    hr = pChild->Get(sbstrPropName, &amp;svar);
+    hr = pChild->Get(sbstrPropName, &svar);
     PrintADSPropertyValue(svar, sbstrPropName, hr);
 
     //  Get the attribute's oMSyntax property. 
     sbstrPropName = "oMSyntax";
-    hr = pChild->Get(sbstrPropName, &amp;svar);
+    hr = pChild->Get(sbstrPropName, &svar);
     PrintADSPropertyValue(svar, sbstrPropName, hr);
 }
 
@@ -297,17 +297,17 @@ void ProcessClass(IADs *pChild)
 
     //  Get the class cn.
     sbstrPropName = "cn";
-    hr = pChild->Get(sbstrPropName, &amp;svar);
+    hr = pChild->Get(sbstrPropName, &svar);
     PrintADSPropertyValue(svar, sbstrPropName, hr);
 
     //  Get the class lDAPDisplayName.
     sbstrPropName = "lDAPDisplayName";
-    hr = pChild->Get(sbstrPropName, &amp;svar);
+    hr = pChild->Get(sbstrPropName, &svar);
     PrintADSPropertyValue(svar, sbstrPropName, hr);
 
     //  Get the class schemaIDGUID. 
     sbstrPropName = "schemaIDGUID";
-    hr = pChild->Get(sbstrPropName, &amp;svar);
+    hr = pChild->Get(sbstrPropName, &svar);
     if (FAILED(hr))
     {
         wprintf(L",get schemaIDGUID failed: 0x%x", hr);
@@ -319,37 +319,37 @@ void ProcessClass(IADs *pChild)
 
     //  Get the class adminDescription property. 
     sbstrPropName = "adminDescription";
-    hr = pChild->Get(sbstrPropName, &amp;svar);
+    hr = pChild->Get(sbstrPropName, &svar);
     PrintADSPropertyValue(svar, sbstrPropName, hr);
 
     //  Get the class adminDisplayName property. 
     sbstrPropName = "adminDisplayName";
-    hr = pChild->Get(sbstrPropName, &amp;svar);
+    hr = pChild->Get(sbstrPropName, &svar);
     PrintADSPropertyValue(svar, sbstrPropName, hr);
 
     //  Get the class rDNAttID. 
     sbstrPropName = "rDNAttID";
-    hr = pChild->Get(sbstrPropName, &amp;svar);
+    hr = pChild->Get(sbstrPropName, &svar);
     PrintADSPropertyValue(svar, sbstrPropName, hr);
 
     //  Get the class defaultHidingValue. 
     sbstrPropName = "defaultHidingValue";
-    hr = pChild->Get(sbstrPropName, &amp;svar);
+    hr = pChild->Get(sbstrPropName, &svar);
     PrintADSPropertyValue(svar, sbstrPropName, hr);
 
     //  Get the class defaultObjectCategory. 
     sbstrPropName = "defaultObjectCategory";
-    hr = pChild->Get(sbstrPropName, &amp;svar);
+    hr = pChild->Get(sbstrPropName, &svar);
     PrintADSPropertyValue(svar, sbstrPropName, hr);
 
     //  Get the class systemOnly value.
     sbstrPropName = "systemOnly";
-    hr = pChild->Get(sbstrPropName, &amp;svar);
+    hr = pChild->Get(sbstrPropName, &svar);
     PrintADSPropertyValue(svar, sbstrPropName, hr);
 
     //  Get the class defaultSecurityDescriptor.
     sbstrPropName = "defaultSecurityDescriptor";
-    hr = pChild->Get(sbstrPropName, &amp;svar);
+    hr = pChild->Get(sbstrPropName, &svar);
     PrintADSPropertyValue(svar, sbstrPropName, hr);
 }
 ```

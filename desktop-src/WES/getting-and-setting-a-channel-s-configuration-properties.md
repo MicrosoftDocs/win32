@@ -60,7 +60,7 @@ void main(void)
     // a channel, call the EvtOpenChannelConfig function.
     while (true)
     {
-        if (!EvtNextChannelPath(hChannels, dwBufferSize, pBuffer, &amp;dwBufferUsed))
+        if (!EvtNextChannelPath(hChannels, dwBufferSize, pBuffer, &dwBufferUsed))
         {
             status = GetLastError();
 
@@ -76,7 +76,7 @@ void main(void)
                 {
                     pBuffer = pTemp;
                     pTemp = NULL;
-                    EvtNextChannelPath(hChannels, dwBufferSize, pBuffer, &amp;dwBufferUsed);
+                    EvtNextChannelPath(hChannels, dwBufferSize, pBuffer, &dwBufferUsed);
                 }
                 else
                 {
@@ -161,7 +161,7 @@ DWORD PrintChannelProperties(EVT_HANDLE hChannel)
     for (int Id = 0; Id < EvtChannelConfigPropertyIdEND; Id++)
     {
         // Get the specified property. If the buffer is too small, reallocate it.
-        if  (!EvtGetChannelConfigProperty(hChannel, (EVT_CHANNEL_CONFIG_PROPERTY_ID)Id, 0, dwBufferSize, pProperty, &amp;dwBufferUsed))
+        if  (!EvtGetChannelConfigProperty(hChannel, (EVT_CHANNEL_CONFIG_PROPERTY_ID)Id, 0, dwBufferSize, pProperty, &dwBufferUsed))
         {
             status = GetLastError();
             if (ERROR_INSUFFICIENT_BUFFER == status)
@@ -172,7 +172,7 @@ DWORD PrintChannelProperties(EVT_HANDLE hChannel)
                 {
                     pProperty = pTemp;
                     pTemp = NULL;
-                    EvtGetChannelConfigProperty(hChannel, (EVT_CHANNEL_CONFIG_PROPERTY_ID)Id, 0, dwBufferSize, pProperty, &amp;dwBufferUsed);
+                    EvtGetChannelConfigProperty(hChannel, (EVT_CHANNEL_CONFIG_PROPERTY_ID)Id, 0, dwBufferSize, pProperty, &dwBufferUsed);
                 }
                 else
                 {
@@ -365,37 +365,37 @@ void main(void)
         goto cleanup;
     }
 
-    RtlZeroMemory(&amp;ChannelProperty, dwBufferSize);
+    RtlZeroMemory(&ChannelProperty, dwBufferSize);
     ChannelProperty.Type = EvtVarTypeBoolean;
     ChannelProperty.BooleanVal = FALSE;
-    if  (!EvtSetChannelConfigProperty(hChannel, EvtChannelConfigEnabled, 0, &amp;ChannelProperty))
+    if  (!EvtSetChannelConfigProperty(hChannel, EvtChannelConfigEnabled, 0, &ChannelProperty))
     {
         wprintf(L"EvtSetChannelConfigProperty for Enabled property failed with %lu\n", GetLastError());
         goto cleanup;
     }
 
-    RtlZeroMemory(&amp;ChannelProperty, dwBufferSize);
+    RtlZeroMemory(&ChannelProperty, dwBufferSize);
     ChannelProperty.Type = EvtVarTypeUInt32;
     ChannelProperty.UInt32Val = WINEVENT_LEVEL_WARNING;  // Found in winmeta.h
-    if  (!EvtSetChannelConfigProperty(hChannel, EvtChannelPublishingConfigLevel, 0, &amp;ChannelProperty))
+    if  (!EvtSetChannelConfigProperty(hChannel, EvtChannelPublishingConfigLevel, 0, &ChannelProperty))
     {
         wprintf(L"EvtSetChannelConfigProperty for Level failed with %lu\n", GetLastError());
         goto cleanup;
     }
 
-    RtlZeroMemory(&amp;ChannelProperty, dwBufferSize);
+    RtlZeroMemory(&ChannelProperty, dwBufferSize);
     ChannelProperty.Type = EvtVarTypeUInt64;
     ChannelProperty.UInt64Val = READ_KEYWORD | WRITE_KEYWORD;
-    if  (!EvtSetChannelConfigProperty(hChannel, EvtChannelPublishingConfigKeywords, 0, &amp;ChannelProperty))
+    if  (!EvtSetChannelConfigProperty(hChannel, EvtChannelPublishingConfigKeywords, 0, &ChannelProperty))
     {
         wprintf(L"EvtSetChannelConfigProperty for Keywords failed with %lu\n", GetLastError());
         goto cleanup;
     }
 
-    RtlZeroMemory(&amp;ChannelProperty, dwBufferSize);
+    RtlZeroMemory(&ChannelProperty, dwBufferSize);
     ChannelProperty.Type = EvtVarTypeBoolean;
     ChannelProperty.BooleanVal = TRUE;
-    if  (!EvtSetChannelConfigProperty(hChannel, EvtChannelConfigEnabled, 0, &amp;ChannelProperty))
+    if  (!EvtSetChannelConfigProperty(hChannel, EvtChannelConfigEnabled, 0, &ChannelProperty))
     {
         wprintf(L"EvtSetChannelConfigProperty for Enabled property failed with %lu\n", GetLastError());
         goto cleanup;

@@ -39,7 +39,7 @@ OBJECTS_AND_SID ObjectsAndSID;
 // Initialize an OBJECTS_AND_SID structure with object type GUIDs and 
 // the SID of the trustee for the new ACE. 
 
-ZeroMemory(&amp;ObjectsAndSID, sizeof(OBJECTS_AND_SID));
+ZeroMemory(&ObjectsAndSID, sizeof(OBJECTS_AND_SID));
 ObjectsAndSID.ObjectsPresent = ACE_OBJECT_TYPE_PRESENT;
 ObjectsAndSID.ObjectTypeGuid = guidChildObjectType;
 ObjectsAndSID.InheritedObjectTypeGuid  = GUID_NULL;
@@ -47,17 +47,17 @@ ObjectsAndSID.pSid = (SID *)pTrusteeSID;
 
 // Initialize an EXPLICIT_ACCESS structure for the new ACE. 
 
-ZeroMemory(&amp;ea, sizeof(EXPLICIT_ACCESS));
+ZeroMemory(&ea, sizeof(EXPLICIT_ACCESS));
 ea.grfAccessPermissions = ADS_RIGHT_DS_CREATE_CHILD;
 ea.grfAccessMode = GRANT_ACCESS;
 ea.grfInheritance= NO_INHERITANCE;
 ea.Trustee.TrusteeForm = TRUSTEE_IS_OBJECTS_AND_SID;
-ea.Trustee.ptstrName = (LPTSTR) &amp;ObjectsAndSID;
+ea.Trustee.ptstrName = (LPTSTR) &ObjectsAndSID;
 
 // Create a new ACL that merges the new ACE
 // into the existing DACL.
 
-dwRes = SetEntriesInAcl(1, &amp;ea, pOldDACL, &amp;pNewDACL);
+dwRes = SetEntriesInAcl(1, &ea, pOldDACL, &pNewDACL);
 ```
 
 

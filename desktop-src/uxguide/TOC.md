@@ -7,7 +7,7 @@
 ### [Check Boxes](ctrl-check-boxes.md)
 ### [Command Buttons](ctrl-command-buttons.md)
 ### [Command Links](ctrl-command-links.md)
-### [Drop-down Lists &amp; Combo Boxes](ctrl-drop.md)
+### [Drop-down Lists & Combo Boxes](ctrl-drop.md)
 ### [Group Boxes](ctrl-group-boxes.md)
 ### [Links](ctrl-links.md)
 ### [List Boxes](ctrl-list-boxes.md)

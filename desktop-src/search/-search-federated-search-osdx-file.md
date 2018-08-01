@@ -54,7 +54,7 @@ The following example .osdx file consists of **ShortName** and `Url` elements, w
     <ShortName>My web Service</ShortName>
     <Url format="application/rss+xml" 
         template="http://example.com/rss.php?query=
-        {searchTerms}&amp;amp;start={startIndex}&amp;amp;cnt={count}" />
+        {searchTerms}&amp;start={startIndex}&amp;cnt={count}" />
 </OpenSearchDescription>
 ```
 
@@ -108,7 +108,7 @@ The .osdx file must include one **Url format** element and **template** attribut
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
    ...
         <Url format="application/rss+xml" template="http://example.com/rss.php?query=
-            {searchTerms}&amp;amp;start={startIndex}&amp;amp;cnt={count}" />
+            {searchTerms}&amp;start={startIndex}&amp;cnt={count}" />
 </OpenSearchDescription>
 ```
 
@@ -170,7 +170,7 @@ An item index identifies the first result item in a page of results. If you want
 
 ```
 <Url format="application/rss+xml" 
-    template="http://example.com/rss.php?query={searchTerms}&amp;amp;start={startIndex}" />
+    template="http://example.com/rss.php?query={searchTerms}&amp;start={startIndex}" />
 ```
 
 
@@ -179,7 +179,7 @@ The [OpenSearch](http://go.microsoft.com/fwlink/p/?linkid=147911) provider then 
 
 
 ```
-http://example.com/rss.php?query=frogs&amp;start=1
+http://example.com/rss.php?query=frogs&start=1
 ```
 
 
@@ -198,7 +198,7 @@ A page index identifies the specified page of results. If you want clients to se
 
 ```
 <Url format="application/rss+xml" 
-    template="http://example.com/rss.php?query={searchTerms}&amp;amp;page={startPage}" />
+    template="http://example.com/rss.php?query={searchTerms}&amp;page={startPage}" />
 ```
 
 
@@ -207,7 +207,7 @@ The OpenSearch provider then replaces the token in the URL with a page number pa
 
 
 ```
-http://example.com/rss.php?query=frogs&amp;page=1
+http://example.com/rss.php?query=frogs&page=1
 ```
 
 
@@ -224,7 +224,7 @@ You may want to configure your web service to permit a request to specify the si
 
 ```
 <Url format="application/rss+xml" 
-    template="http://example.com/rss.php?query={searchTerms}&amp;amp;start={startIndex}&amp;amp;cnt={count}" />
+    template="http://example.com/rss.php?query={searchTerms}&amp;start={startIndex}&amp;cnt={count}" />
 ```
 
 
@@ -233,7 +233,7 @@ The [OpenSearch](http://go.microsoft.com/fwlink/p/?linkid=147911) provider can t
 
 
 ```
-http://example.com/rss.php?query=frogs&amp;start=1&amp;cnt=50
+http://example.com/rss.php?query=frogs&start=1&cnt=50
 ```
 
 

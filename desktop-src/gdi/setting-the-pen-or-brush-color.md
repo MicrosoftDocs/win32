@@ -42,7 +42,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     case WM_PAINT:
         
         {    
-            hdc = BeginPaint(hWnd, &amp;ps);
+            hdc = BeginPaint(hWnd, &ps);
         //    Initializing original object
             HGDIOBJ original = NULL;
         

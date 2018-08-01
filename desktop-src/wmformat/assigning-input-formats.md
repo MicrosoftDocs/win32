@@ -41,14 +41,14 @@ HRESULT ConfigureVideoInput(IWMWriter* pWriter,
     BITMAPINFOHEADER*   pbmi    = NULL;
 
     // Get the base input format for the required subtype.
-    HRESULT hr = FindInputFormat(pWriter, dwInput, guidSubType, &amp;pProps);
+    HRESULT hr = FindInputFormat(pWriter, dwInput, guidSubType, &pProps);
     if (FAILED(hr))
     {
         goto Exit;
     }
 
     // Get the size of the media type structure.
-    hr = pProps->GetMediaType(NULL, &amp;cbSize);
+    hr = pProps->GetMediaType(NULL, &cbSize);
     if (FAILED(hr))
     {
         goto Exit;
@@ -63,7 +63,7 @@ HRESULT ConfigureVideoInput(IWMWriter* pWriter,
     }
     
     // Get the media type structure.
-    hr = pProps->GetMediaType(pType, &amp;cbSize);
+    hr = pProps->GetMediaType(pType, &cbSize);
     if (FAILED(hr))
     {
         goto Exit;
@@ -73,7 +73,7 @@ HRESULT ConfigureVideoInput(IWMWriter* pWriter,
 
     // First set pointers to the video structures.
     pVidHdr = (WMVIDEOINFOHEADER*) pType->pbFormat;
-    pbmi  = &amp;(pVidHdr->bmiHeader);
+    pbmi  = &(pVidHdr->bmiHeader);
         
     pbmi->biWidth  = lFrameWidth;  
     pbmi->biHeight = lFrameHeight;

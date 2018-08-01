@@ -52,7 +52,7 @@ HRESULT EnumGroupWithGetInfoEx(LPCWSTR pwszGroupDN,
                         pwszPassword,
                         ADS_SECURE_AUTHENTICATION,
                         IID_IADs, 
-                        (void**)&amp;pads);
+                        (void**)&pads);
 
     if(SUCCEEDED(hr))
     {
@@ -74,16 +74,16 @@ HRESULT EnumGroupWithGetInfoEx(LPCWSTR pwszGroupDN,
             // Perform this query with the "range=<lowRange>-<highRange>" range.
             swprintf_s(wszAttr, L"member;range=%d-%d", dwLowRange, dwHighRange);
     
-            hr = ADsBuildVarArrayStr(rgAttrs, 1, &amp;var);
+            hr = ADsBuildVarArrayStr(rgAttrs, 1, &var);
             if(SUCCEEDED(hr))
             {
                 hr = pads->GetInfoEx(var, 0);
                 
-                VariantClear(&amp;var);
+                VariantClear(&var);
 
                 if(SUCCEEDED(hr))
                 {
-                    hr = pads->Get(CComBSTR("member"), &amp;var);
+                    hr = pads->Get(CComBSTR("member"), &var);
                     if(SUCCEEDED(hr))
                     {
                         if(var.vt == (VT_VARIANT | VT_ARRAY))
@@ -92,12 +92,12 @@ HRESULT EnumGroupWithGetInfoEx(LPCWSTR pwszGroupDN,
                             long lLBound, lUBound;
 
                             // Get the array of VARIANTs.
-                            hr = SafeArrayAccessData((SAFEARRAY*)(var.pparray), (void HUGEP* FAR*)&amp;pVar);
+                            hr = SafeArrayAccessData((SAFEARRAY*)(var.pparray), (void HUGEP* FAR*)&pVar);
                             if(SUCCEEDED(hr))
                             {
                                 // Get the bounds for the array.
-                                hr = SafeArrayGetLBound((SAFEARRAY*)(var.pparray), 1, &amp;lLBound);
-                                hr = SafeArrayGetUBound((SAFEARRAY*)(var.pparray), 1, &amp;lUBound);
+                                hr = SafeArrayGetLBound((SAFEARRAY*)(var.pparray), 1, &lLBound);
+                                hr = SafeArrayGetUBound((SAFEARRAY*)(var.pparray), 1, &lUBound);
 
                                 // Get the number of elements.
                                 long cElements = lUBound - lLBound + 1;
@@ -125,7 +125,7 @@ HRESULT EnumGroupWithGetInfoEx(LPCWSTR pwszGroupDN,
                             wprintf(L"\n"); 
                         }
 
-                        VariantClear(&amp;var);
+                        VariantClear(&var);
                     }
 
                     // Increment the high and low ranges to query for the next block of objects.

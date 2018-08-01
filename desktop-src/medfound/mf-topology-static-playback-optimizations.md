@@ -59,11 +59,11 @@ HRESULT SetPlaybackOptimizations(IMFTopology *pTopology, HWND hwnd)
         MONITORINFO MonitorInfo = {0};
         MonitorInfo.cbSize = sizeof(MONITORINFO);
 
-        BOOL fSucceeded = GetMonitorInfo(hCurrentMon, &amp;MonitorInfo);
+        BOOL fSucceeded = GetMonitorInfo(hCurrentMon, &MonitorInfo);
 
         if (fSucceeded )
         {
-            const RECT&amp; rcMonitor = MonitorInfo.rcMonitor;
+            const RECT& rcMonitor = MonitorInfo.rcMonitor;
 
             LONG width = rcMonitor.right - rcMonitor.left;
             LONG height = rcMonitor.bottom - rcMonitor.top;

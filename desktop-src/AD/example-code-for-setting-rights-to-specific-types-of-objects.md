@@ -42,7 +42,7 @@ HRESULT CreateAceNoEffectiveInheritObject(
                             NULL,
                             CLSCTX_INPROC_SERVER,
                             IID_IADsAccessControlEntry,
-                            (void **)&amp;pACE);
+                            (void **)&pACE);
     if (SUCCEEDED(hr))
     {
         // Set the properties of the new ACE.

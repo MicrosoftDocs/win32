@@ -39,7 +39,7 @@ The [**IpReleaseAddress**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-ipreleasead
      
 
     ```C++
-    if ((dwRetVal = IpReleaseAddress(&amp;pInfo->Adapter[0])) == NO_ERROR) {
+    if ((dwRetVal = IpReleaseAddress(&pInfo->Adapter[0])) == NO_ERROR) {
         printf("Ip Release succeeded.\n");
     }
     
@@ -64,7 +64,7 @@ The [**IpReleaseAddress**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-ipreleasead
 
 2.  Call the [**IpRenewAddress**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-iprenewaddress) function, passing the [**IP\_ADAPTER\_INDEX\_MAP**](/windows/desktop/api/Ipexport/ns-ipexport-_ip_adapter_index_map) variable `Adapter` as its parameter. Check for general errors and return its value to the **DWORD** variable `dwRetVal` (for more extensive error checking).
     ```C++
-    if ((dwRetVal = IpRenewAddress(&amp;pInfo->Adapter[0])) == NO_ERROR) {
+    if ((dwRetVal = IpRenewAddress(&pInfo->Adapter[0])) == NO_ERROR) {
         printf("Ip Renew succeeded.\n");
     }
     ```

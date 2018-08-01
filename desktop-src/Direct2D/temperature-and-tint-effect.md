@@ -23,7 +23,7 @@ The CLSID for this effect is CLSID\_D2D1TemperatureTint.
 
 ```C++
 ComPtr<ID2D1Effect> temperatureTintEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1TemperatureTint, &amp;temperatureTintEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1TemperatureTint, &temperatureTintEffect);
  
 temperatureTintEffect->SetInput(0, bitmap);
 temperatureTintEffect->SetValue(D2D1_TEMPERATUREANDTINT_PROP_TEMPERATURE, 0.5f);

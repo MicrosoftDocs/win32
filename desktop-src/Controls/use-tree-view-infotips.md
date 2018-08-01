@@ -48,7 +48,7 @@ The following example code shows how an application might respond to the notific
           TCHAR temp[1024];
           tvitem.pszText    = infoTipBuf;
           tvitem.cchTextMax = sizeof(temp) / sizeof(TCHAR);
-          TreeView_GetItem(hTree, &amp;tvitem);
+          TreeView_GetItem(hTree, &tvitem);
 
           // Copy the text to the infotip.
           wcscpy_s(pTip->pszText, pTip->cchTextMax, tvitem.pszText);

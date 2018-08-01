@@ -50,7 +50,7 @@ DWORD           dwYellow = 0xFFFF00;
 IAMTimelineObj  *pSource = NULL;
 
 // Create the source.
-HRESULT hr = pTimeline->CreateEmptyNode(&amp;pSource, TIMELINE_MAJOR_TYPE_SOURCE);
+HRESULT hr = pTimeline->CreateEmptyNode(&pSource, TIMELINE_MAJOR_TYPE_SOURCE);
 if (SUCCEEDED(hr))
 {
     hr = pSource->SetStartStop(0, 50000000);
@@ -67,7 +67,7 @@ if (SUCCEEDED(hr))
     IPropertySetter *pProp = NULL;
     
     hr = CoCreateInstance(CLSID_PropertySetter, NULL, CLSCTX_INPROC_SERVER, 
-        IID_PPV_ARGS(&amp;pProp));
+        IID_PPV_ARGS(&pProp));
 
     if SUCCEEDED(hr))
     {
@@ -90,7 +90,7 @@ if (SUCCEEDED(hr))
             val.rt = 0;  // Time must be zero.
             val.dwInterp = DEXTERF_JUMP;
 
-            hr = pProp->AddProp(param, &amp;val);
+            hr = pProp->AddProp(param, &val);
             
             SysFreeString(param.Name);
         }

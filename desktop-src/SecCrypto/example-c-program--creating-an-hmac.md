@@ -60,14 +60,14 @@ HMAC_INFO   HmacInfo;
 // Zero the HMAC_INFO structure and use the SHA1 algorithm for
 // hashing.
 
-ZeroMemory(&amp;HmacInfo, sizeof(HmacInfo));
+ZeroMemory(&HmacInfo, sizeof(HmacInfo));
 HmacInfo.HashAlgid = CALG_SHA1;
 
 //--------------------------------------------------------------------
 // Acquire a handle to the default RSA cryptographic service provider.
 
 if (!CryptAcquireContext(
-    &amp;hProv,                   // handle of the CSP
+    &hProv,                   // handle of the CSP
     NULL,                     // key container name
     NULL,                     // CSP name
     PROV_RSA_FULL,            // provider type
@@ -93,7 +93,7 @@ if (!CryptCreateHash(
     CALG_SHA1,                // hash algorithm to use
     0,                        // hash key
     0,                        // reserved
-    &amp;hHash))                  // address of hash object handle
+    &hHash))                  // address of hash object handle
 {
    printf("Error in CryptCreateHash 0x%08x \n",
           GetLastError());
@@ -116,7 +116,7 @@ if (!CryptDeriveKey(
     CALG_RC4,                 // algorithm ID
     hHash,                    // handle to the hash object
     0,                        // flags
-    &amp;hKey))                   // address of the key handle
+    &hKey))                   // address of the key handle
 {
    printf("Error in CryptDeriveKey 0x%08x \n", 
           GetLastError());
@@ -140,7 +140,7 @@ if (!CryptCreateHash(
     CALG_HMAC,                // HMAC hash algorithm ID
     hKey,                     // key for the hash (see above)
     0,                        // reserved
-    &amp;hHmacHash))              // address of the hash handle
+    &hHmacHash))              // address of the hash handle
 {
    printf("Error in CryptCreateHash 0x%08x \n", 
           GetLastError());
@@ -150,7 +150,7 @@ if (!CryptCreateHash(
 if (!CryptSetHashParam(
     hHmacHash,                // handle of the HMAC hash object
     HP_HMAC_INFO,             // setting an HMAC_INFO object
-    (BYTE*)&amp;HmacInfo,         // the HMAC_INFO object
+    (BYTE*)&HmacInfo,         // the HMAC_INFO object
     0))                       // reserved
 {
    printf("Error in CryptSetHashParam 0x%08x \n", 
@@ -178,7 +178,7 @@ if (!CryptGetHashParam(
     hHmacHash,                // handle of the HMAC hash object
     HP_HASHVAL,               // query on the hash value
     NULL,                     // filled on second call
-    &amp;dwDataLen,               // length, in bytes, of the hash
+    &dwDataLen,               // length, in bytes, of the hash
     0))
 {
    printf("Error in CryptGetHashParam 0x%08x \n", 
@@ -197,7 +197,7 @@ if (!CryptGetHashParam(
     hHmacHash,                 // handle of the HMAC hash object
     HP_HASHVAL,                // query on the hash value
     pbHash,                    // pointer to the HMAC hash value
-    &amp;dwDataLen,                // length, in bytes, of the hash
+    &dwDataLen,                // length, in bytes, of the hash
     0))
 {
    printf("Error in CryptGetHashParam 0x%08x \n", GetLastError());

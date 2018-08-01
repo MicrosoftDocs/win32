@@ -30,7 +30,7 @@ The `GetNext` method retrieves the item at the specified position, and advances 
 
 ```C++
 OBJECT* GetNext(
-  [ref] POSITION &amp;rp
+  [ref] POSITION &rp
 );
 ```
 

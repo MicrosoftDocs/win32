@@ -55,13 +55,13 @@ void main(void){
          CLSCTX_ALL,
    /*"edbd9ca9-9b82-4f6a-9e8b-98301e450f14"*/
          __uuidof(IAzAuthorizationStore),
-         (void**)&amp;pStore);
+         (void**)&pStore);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create AzAuthorizationStore object.");
     
     //  Create null VARIANT for parameters.
     VARIANT myVar; 
-    VariantInit(&amp;myVar);
+    VariantInit(&myVar);
 
     //  Allocate a string for the name of the policy store.
     storeName = SysAllocString(L"msxml://c:\\myStore.xml");
@@ -77,7 +77,7 @@ void main(void){
     appName = SysAllocString(L"Expense");
     if (!appName)
         MyHandleError("Could not allocate application name string.");
-    hr = pStore->OpenApplication(appName, myVar, &amp;pApp);
+    hr = pStore->OpenApplication(appName, myVar, &pApp);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not open application.");
 
@@ -94,7 +94,7 @@ void main(void){
     roleDefName = SysAllocString(L"Expense Admin");
     if (!roleDefName)
         MyHandleError("Could not allocate role definition name.");
-    hr = pApp->CreateTask(roleDefName, myVar, &amp;pTaskRoleDef);
+    hr = pApp->CreateTask(roleDefName, myVar, &pTaskRoleDef);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create role definition.");
 
@@ -120,7 +120,7 @@ void main(void){
     roleName = SysAllocString(L"Expense Administrator");
     if (!roleName)
         MyHandleError("Could not allocate role name.");
-    hr = pApp->CreateRole(roleName, myVar, &amp;pRole);
+    hr = pApp->CreateRole(roleName, myVar, &pRole);
     if (!(SUCCEEDED(hr)))
         MyHandleError("Could not create a role object.");
 
@@ -145,7 +145,7 @@ void main(void){
     SysFreeString(taskNameApprove);
     SysFreeString(roleDefName);
     SysFreeString(roleName);
-    VariantClear(&amp;myVar);
+    VariantClear(&myVar);
     CoUninitialize();
 }
 

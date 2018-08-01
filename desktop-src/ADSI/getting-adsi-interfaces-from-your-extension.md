@@ -25,18 +25,18 @@ An extension often needs to get data from the directory object it binds to. For 
 HRESULT hr;
 IADs *pADs; ' ADSI Interface to get/set attributes.
  
-hr = m_pOuterUnk->QueryInterface(IID_IADs,(void**)&amp;pADs);
+hr = m_pOuterUnk->QueryInterface(IID_IADs,(void**)&pADs);
  
 if ( SUCCEEDED(hr) )
 {
     VARIANT var;
-    VariantInit(&amp;var);
-    hr  = pADs ->Get(_bstr_t("dnsHostName"), &amp;var);
+    VariantInit(&var);
+    hr  = pADs ->Get(_bstr_t("dnsHostName"), &var);
     if ( SUCCEEDED(hr) )
     { 
-        printf("%S\n", V_BSTR(&amp;var));
+        printf("%S\n", V_BSTR(&var));
     }
-    VariantClear(&amp;var);
+    VariantClear(&var);
     pADs->Release();
 }
 ```

@@ -33,12 +33,12 @@ BOOL GetLastWriteTime(HANDLE hFile, LPTSTR lpszString, DWORD dwSize)
     DWORD dwRet;
 
     // Retrieve the file times for the file.
-    if (!GetFileTime(hFile, &amp;ftCreate, &amp;ftAccess, &amp;ftWrite))
+    if (!GetFileTime(hFile, &ftCreate, &ftAccess, &ftWrite))
         return FALSE;
 
     // Convert the last-write time to local time.
-    FileTimeToSystemTime(&amp;ftWrite, &amp;stUTC);
-    SystemTimeToTzSpecificLocalTime(NULL, &amp;stUTC, &amp;stLocal);
+    FileTimeToSystemTime(&ftWrite, &stUTC);
+    SystemTimeToTzSpecificLocalTime(NULL, &stUTC, &stLocal);
 
     // Build a string showing the date and time.
     dwRet = StringCchPrintf(lpszString, dwSize, 

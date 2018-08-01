@@ -30,7 +30,7 @@ Calls the pixel shader subobject callback of an object that implements this inte
 
 ```C++
 void PSCb(
-  [ref] const D3D12_SHADER_BYTECODE &amp;PS
+  [ref] const D3D12_SHADER_BYTECODE &PS
 );
 ```
 

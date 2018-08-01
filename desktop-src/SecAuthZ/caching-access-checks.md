@@ -39,7 +39,7 @@ BOOL CheckCachedAccess(AUTHZ_CLIENT_CONTEXT_HANDLE hClientContext)
     AUTHZ_ACCESS_CHECK_RESULTS_HANDLE    hCached;
 
     //Allocate memory for the access request structure.
-    RtlZeroMemory(&amp;Request, sizeof(AUTHZ_ACCESS_REQUEST));
+    RtlZeroMemory(&Request, sizeof(AUTHZ_ACCESS_REQUEST));
 
     //Set up the access request structure.
     Request.DesiredAccess = READ_CONTROL;
@@ -66,7 +66,7 @@ BOOL CheckCachedAccess(AUTHZ_CLIENT_CONTEXT_HANDLE hClientContext)
     if(!ConvertStringSecurityDescriptorToSecurityDescriptor(
         L"O:LAG:BAD:(A;;RC;;;BA)",
         SDDL_REVISION_1,
-        &amp;pSecurityDescriptor,
+        &pSecurityDescriptor,
         NULL))
     {
         printf_s("ConvertStringSecurityDescriptorToSecurityDescriptor failed with %d\n", GetLastError()); 
@@ -77,13 +77,13 @@ BOOL CheckCachedAccess(AUTHZ_CLIENT_CONTEXT_HANDLE hClientContext)
     if(!AuthzAccessCheck(
         0,
         hClientContext,
-        &amp;Request,
+        &Request,
         NULL,
         pSecurityDescriptor,
         NULL,
         0,
         pReply,
-        &amp;hCached))
+        &hCached))
     {
         printf_s("AuthzAccessCheck failed with %d\n", GetLastError());
         
@@ -96,7 +96,7 @@ BOOL CheckCachedAccess(AUTHZ_CLIENT_CONTEXT_HANDLE hClientContext)
     if(!AuthzCachedAccessCheck(
         0,
         hCached,
-        &amp;Request,
+        &Request,
         NULL,
         pCachedReply))
     {

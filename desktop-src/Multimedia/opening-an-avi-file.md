@@ -30,7 +30,7 @@ VOID LoadAVIFile(LPCSTR szFile, HWND hwnd)
  
     AVIFileInit();          // opens AVIFile library 
  
-    hr = AVIFileOpen(&amp;pfile, szFile, OF_SHARE_DENY_WRITE, 0L); 
+    hr = AVIFileOpen(&pfile, szFile, OF_SHARE_DENY_WRITE, 0L); 
     if (hr != 0){ 
         // Handle failure.
         return; 

@@ -128,7 +128,7 @@ Next, implement the application logic for configuring the text calculations for 
         hdc = GetDC (hWnd); 
  
         // Extract font dimensions from the text metrics. 
-        GetTextMetrics (hdc, &amp;tm); 
+        GetTextMetrics (hdc, &tm); 
         xChar = tm.tmAveCharWidth; 
         xUpper = (tm.tmPitchAndFamily & 1 ? 3 : 2) * xChar/2; 
         yChar = tm.tmHeight + tm.tmExternalLeading; 
@@ -162,7 +162,7 @@ Next, implement the application logic for recalculation of the text block when t
         si.nMin   = 0; 
         si.nMax   = LINES - 1; 
         si.nPage  = yClient / yChar; 
-        SetScrollInfo(hWnd, SB_VERT, &amp;si, TRUE); 
+        SetScrollInfo(hWnd, SB_VERT, &si, TRUE); 
  
         // Set the horizontal scrolling range and page size. 
         si.cbSize = sizeof(si); 
@@ -170,7 +170,7 @@ Next, implement the application logic for recalculation of the text block when t
         si.nMin   = 0; 
         si.nMax   = 2 + xClientMax / xChar; 
         si.nPage  = xClient / xChar; 
-        SetScrollInfo(hWnd, SB_HORZ, &amp;si, TRUE);            
+        SetScrollInfo(hWnd, SB_HORZ, &si, TRUE);            
         return 0;
 ```
 
@@ -184,7 +184,7 @@ Next, implement the application logic for vertical scroll messages. The followin
          // Get all the vertical scroll bar information
          si.cbSize = sizeof (si);
          si.fMask  = SIF_ALL;
-         GetScrollInfo (hWnd, SB_VERT, &amp;si);
+         GetScrollInfo (hWnd, SB_VERT, &si);
          // Save the position for comparison later on
          yPos = si.nPos;
          switch (LOWORD (wParam))
@@ -236,8 +236,8 @@ Next, implement the application logic for vertical scroll messages. The followin
          // Set the position and then retrieve it.  Due to adjustments
          //   by Windows it may not be the same as the value set.
          si.fMask = SIF_POS;
-         SetScrollInfo (hWnd, SB_VERT, &amp;si, TRUE);
-         GetScrollInfo (hWnd, SB_VERT, &amp;si);
+         SetScrollInfo (hWnd, SB_VERT, &si, TRUE);
+         GetScrollInfo (hWnd, SB_VERT, &si);
          // If the position has changed, scroll window and update it
          if (si.nPos != yPos)
          {                    
@@ -255,14 +255,14 @@ Next, update the code to redraw the window. The following code should replace th
 ```C++
     case WM_PAINT:
          // Prepare the window for painting
-         hdc = BeginPaint (hWnd, &amp;ps);
+         hdc = BeginPaint (hWnd, &ps);
          // Get vertical scroll bar position
          si.cbSize = sizeof (si);
          si.fMask  = SIF_POS;
-         GetScrollInfo (hWnd, SB_VERT, &amp;si);
+         GetScrollInfo (hWnd, SB_VERT, &si);
          yPos = si.nPos;
          // Get horizontal scroll bar position
-         GetScrollInfo (hWnd, SB_HORZ, &amp;si);
+         GetScrollInfo (hWnd, SB_HORZ, &si);
          xPos = si.nPos;
          // Find painting limits
          FirstLine = max (0, yPos + ps.rcPaint.top / yChar);
@@ -289,7 +289,7 @@ Next, update the code to redraw the window. The following code should replace th
               
          }
          // Indicate that painting is finished
-         EndPaint (hWnd, &amp;ps);
+         EndPaint (hWnd, &ps);
          return 0;
 ```
 

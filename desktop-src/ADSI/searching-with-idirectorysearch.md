@@ -73,7 +73,7 @@ szUsername,
 szPassword,
 ADS_SECURE_AUTHENTICATION,
 IID_IDirectorySearch,
-(void **)&amp;pDSSearch);
+(void **)&pDSSearch);
 ```
 
 
@@ -99,7 +99,7 @@ Now, call the [**ExecuteSearch**](/windows/desktop/api/Iads/nf-iads-idirectoryse
 
 ```C++
 // Search for all objects with the 'cn' property that start with c.
-hr = pDSSearch->ExecuteSearch(L"(cn=c*)",pszAttr ,dwAttrNameSize,&amp;hSearch );
+hr = pDSSearch->ExecuteSearch(L"(cn=c*)",pszAttr ,dwAttrNameSize,&hSearch );
 ```
 
 
@@ -112,14 +112,14 @@ LPWSTR pszColumn;
     while( pDSSearch->GetNextRow( hSearch) != S_ADS_NOMORE_ROWS )
     {
         // Get the property.
-        hr = pDSSearch->GetColumn( hSearch, L"description", &amp;col );
+        hr = pDSSearch->GetColumn( hSearch, L"description", &col );
  
         // If this object supports this attribute, display it.
         if ( SUCCEEDED(hr) )
         { 
            if (col.dwADsType == ADSTYPE_CASE_IGNORE_STRING)
               wprintf(L"The description property:%s\r\n", col.pADsValues->CaseIgnoreString); 
-           pDSSearch->FreeColumn( &amp;col );
+           pDSSearch->FreeColumn( &col );
         }
         else
             puts("description property NOT available");
@@ -149,7 +149,7 @@ szUsername,
 szPassword, 
 ADS_SECURE_AUTHENTICATION,
 IID_IDirectorySearch,
-(void **)&amp;pDSSearch);
+(void **)&pDSSearch);
 ```
 
 

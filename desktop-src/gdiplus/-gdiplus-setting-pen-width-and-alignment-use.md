@@ -22,10 +22,10 @@ Pen greenPen(Color(255, 0, 255, 0), 10);
 stat = greenPen.SetAlignment(PenAlignmentCenter);
 
 // Draw the line with the wide green pen.
-stat = graphics.DrawLine(&amp;greenPen, 10, 100, 100, 50);
+stat = graphics.DrawLine(&greenPen, 10, 100, 100, 50);
 
 // Draw the same line with the thin black pen.
-stat = graphics.DrawLine(&amp;blackPen, 10, 100, 100, 50);
+stat = graphics.DrawLine(&blackPen, 10, 100, 100, 50);
 ```
 
 
@@ -43,10 +43,10 @@ Pen greenPen(Color(255, 0, 255, 0), 10);
 stat = greenPen.SetAlignment(PenAlignmentCenter);
 
 // Draw the rectangle with the wide green pen.
-stat = graphics.DrawRectangle(&amp;greenPen, 10, 100, 50, 50);
+stat = graphics.DrawRectangle(&greenPen, 10, 100, 50, 50);
 
 // Draw the same rectangle with the thin black pen.
-stat = graphics.DrawRectangle(&amp;blackPen, 10, 100, 50, 50);
+stat = graphics.DrawRectangle(&blackPen, 10, 100, 50, 50);
 ```
 
 

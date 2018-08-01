@@ -60,7 +60,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -68,7 +68,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -102,7 +102,7 @@ DWORD WINAPI ReceiverThread(void* parameter)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -114,7 +114,7 @@ DWORD WINAPI ReceiverThread(void* parameter)
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -125,7 +125,7 @@ DWORD WINAPI ReceiverThread(void* parameter)
         channel,
         NULL, 
         0, 
-        &amp;message, 
+        &message, 
         error);
     if (FAILED(hr))
     {
@@ -152,7 +152,7 @@ DWORD WINAPI ReceiverThread(void* parameter)
             WS_XML_STRING_TYPE,
             WS_READ_REQUIRED_VALUE, 
             NULL, 
-            &amp;receivedAction, 
+            &receivedAction, 
             sizeof(receivedAction), 
             error);
         if (FAILED(hr))
@@ -161,7 +161,7 @@ DWORD WINAPI ReceiverThread(void* parameter)
         }
     
         // Make sure action is what we expect
-        if (WsXmlStringEquals(&amp;receivedAction, PurchaseOrder_wsdl.messages.OrderConfirmation.action, error) != S_OK)
+        if (WsXmlStringEquals(&receivedAction, PurchaseOrder_wsdl.messages.OrderConfirmation.action, error) != S_OK)
         {
             hr = WS_E_ENDPOINT_ACTION_NOT_SUPPORTED;
             goto Exit;
@@ -169,8 +169,8 @@ DWORD WINAPI ReceiverThread(void* parameter)
     
         // Read the order confirmation from the body
         _OrderConfirmationType* orderConfirmation;
-        hr = WsReadBody(message, &amp;PurchaseOrder_wsdl.globalElements.OrderConfirmationType, 
-            WS_READ_REQUIRED_POINTER, heap, &amp;orderConfirmation, sizeof(orderConfirmation), error);
+        hr = WsReadBody(message, &PurchaseOrder_wsdl.globalElements.OrderConfirmationType, 
+            WS_READ_REQUIRED_POINTER, heap, &orderConfirmation, sizeof(orderConfirmation), error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -205,7 +205,7 @@ DWORD WINAPI ReceiverThread(void* parameter)
 Exit:
     // Print out the error.  Ignore aborted errors, which are
     // caused by the client thread aborting the channel.
-    if (FAILED(hr) &amp;&amp; hr != WS_E_OPERATION_ABORTED)
+    if (FAILED(hr) && hr != WS_E_OPERATION_ABORTED)
     {
         PrintError(hr, error);
     }
@@ -245,7 +245,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -254,7 +254,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     ULONG addressFamily = AF_INET;
     // First see how much space is needed for adapter addresses
     ULONG adapterBufferSize = 0;
-    ULONG retVal = GetAdaptersAddresses(addressFamily, 0, NULL, NULL, &amp;adapterBufferSize);
+    ULONG retVal = GetAdaptersAddresses(addressFamily, 0, NULL, NULL, &adapterBufferSize);
     if (retVal != ERROR_BUFFER_OVERFLOW)
     {
         hr = HRESULT_FROM_WIN32(retVal);
@@ -270,7 +270,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     }
     
     // Get list of adapters
-    retVal = GetAdaptersAddresses(AF_INET, 0, NULL, adapterAddresses, &amp;adapterBufferSize);
+    retVal = GetAdaptersAddresses(AF_INET, 0, NULL, adapterAddresses, &adapterBufferSize);
     if (retVal != 0)
     {
         hr = HRESULT_FROM_WIN32(retVal);
@@ -285,7 +285,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         NULL, 
         0, 
         NULL, 
-        &amp;channel, 
+        &channel, 
         error);
     if (FAILED(hr))
     {
@@ -330,7 +330,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     address.identity = NULL;
     
     // Open channel to address
-    hr = WsOpenChannel(channel, &amp;address, NULL, error);
+    hr = WsOpenChannel(channel, &address, NULL, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -338,8 +338,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     // Generate a unique message ID that will be used for all messages
     WS_UNIQUE_ID messageID;
-    ZeroMemory(&amp;messageID, sizeof(messageID));
-    if (UuidCreate(&amp;messageID.guid) != RPC_S_OK)
+    ZeroMemory(&messageID, sizeof(messageID));
+    if (UuidCreate(&messageID.guid) != RPC_S_OK)
     {
         hr = E_FAIL;
         goto Exit;
@@ -348,7 +348,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // Create a thread that will receive messages
     THREAD_INFO receiverThreadInfo;
     receiverThreadInfo.channel = channel;
-    receiverThreadHandle = CreateThread(NULL, 0, ReceiverThread, &amp;receiverThreadInfo, 0, NULL);
+    receiverThreadHandle = CreateThread(NULL, 0, ReceiverThread, &receiverThreadInfo, 0, NULL);
     if (receiverThreadHandle == NULL)
     {
         hr = HRESULT_FROM_WIN32(GetLastError());
@@ -359,7 +359,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         channel,
         NULL, 
         0, 
-        &amp;message, 
+        &message, 
         error);
     if (FAILED(hr))
     {
@@ -390,7 +390,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
             // Set property on channel which controls which multicast adapater address
             // is used when sending to a multicast address.
             hr = WsSetChannelProperty(channel, WS_CHANNEL_PROPERTY_MULTICAST_INTERFACE, 
-                &amp;interfaceIndex, sizeof(interfaceIndex), error);
+                &interfaceIndex, sizeof(interfaceIndex), error);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -424,7 +424,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
                 WS_MESSAGE_ID_HEADER, 
                 WS_UNIQUE_ID_TYPE,
                 WS_WRITE_REQUIRED_VALUE,
-                &amp;messageID, 
+                &messageID, 
                 sizeof(messageID), 
                 error);
         
@@ -436,14 +436,14 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
             // Set the reply to address to be a anonymous URI (modeled as a 0 length URI), which 
             // indicates to the receiver that they should reply using the source IP address.
             WS_ENDPOINT_ADDRESS replyTo;
-            ZeroMemory(&amp;replyTo, sizeof(replyTo));
+            ZeroMemory(&replyTo, sizeof(replyTo));
         
             hr = WsSetHeader(
                 message, 
                 WS_REPLY_TO_HEADER, 
                 WS_ENDPOINT_ADDRESS_TYPE,
                 WS_WRITE_REQUIRED_VALUE,
-                &amp;replyTo, 
+                &replyTo, 
                 sizeof(replyTo),
                 error);
         
@@ -458,10 +458,10 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
             // to determine the value of the To header).  In this case, the message is
             // addressed to a stable address.
             WS_ENDPOINT_ADDRESS to;
-            ZeroMemory(&amp;to, sizeof(to));
+            ZeroMemory(&to, sizeof(to));
             to.url = toUrl;
         
-            hr = WsAddressMessage(message, &amp;to, error);
+            hr = WsAddressMessage(message, &to, error);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -477,9 +477,9 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
             // Write the body data
             hr = WsWriteBody(
                 message, 
-                &amp;PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
+                &PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
                 WS_WRITE_REQUIRED_VALUE,
-                &amp;purchaseOrder, 
+                &purchaseOrder, 
                 sizeof(purchaseOrder),
                 error);
         

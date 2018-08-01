@@ -89,11 +89,11 @@ STDMETHODIMP CShellPropSheetExt::AddPages(LPFNADDPROPSHEETPAGE, lpfnAddPage, LPA
     psp.hIcon         = 0;
     psp.pszTitle      = TEXT("Extension Page");
     psp.pfnDlgProc    = (DLGPROC)PageDlgProc;
-    psp.pcRefParent   = &amp;g_DllRefCount;
+    psp.pcRefParent   = &g_DllRefCount;
     psp.pfnCallback   = PageCallbackProc;
     psp.lParam        = (LPARAM)this;
 
-    hPage = CreatePropertySheetPage(&amp;psp);
+    hPage = CreatePropertySheetPage(&psp);
             
     if(hPage) 
     {

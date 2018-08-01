@@ -30,7 +30,7 @@ HRESULT GetPlayDuration(
 {
     IMFPresentationDescriptor* pPD = NULL;
 
-    HRESULT hr = pContentInfo->GeneratePresentationDescriptor(&amp;pPD);
+    HRESULT hr = pContentInfo->GeneratePresentationDescriptor(&pPD);
     if (SUCCEEDED(hr))
     {
         hr = pPD->GetUINT64(MF_PD_ASF_FILEPROPERTIES_PLAY_DURATION, pcbPlayDuration);

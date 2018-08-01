@@ -80,7 +80,7 @@ This method adds the rotation to the matrix stack with the computed rotation mat
 
 ```
 D3DXMATRIX tmp;
-D3DXMatrixRotationYawPitchRoll( &amp;tmp, yaw, pitch, roll );
+D3DXMatrixRotationYawPitchRoll( &tmp, yaw, pitch, roll );
 m_stack[m_currentPos] = tmp * m_stack[m_currentPos];
 ```
 

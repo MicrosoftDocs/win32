@@ -92,10 +92,10 @@ int APIENTRY wWinMain(
     ShowWindow(g_hwnd, nCmdShow);
     UpdateWindow(g_hwnd);
 
-    while (GetMessage(&amp;msg, NULL, 0, 0))
+    while (GetMessage(&msg, NULL, 0, 0))
     {
-        TranslateMessage(&amp;msg);
-        DispatchMessage(&amp;msg);
+        TranslateMessage(&msg);
+        DispatchMessage(&msg);
     }
 
     return (int)msg.wParam;
@@ -122,7 +122,7 @@ BOOL InitInstance(LPWSTR pwsCommandLine)
             fIsRestart = TRUE;
 
             pch = pwsCommandLine + len;
-            while (*--pch != ':' &amp;&amp; pch >= pwsCommandLine)
+            while (*--pch != ':' && pch >= pwsCommandLine)
                 ;
 
             g_dwRecordId = _wtoi(pch+1);
@@ -184,7 +184,7 @@ BOOL CreateWindows(void)
     INITCOMMONCONTROLSEX initctrls;
     RECT rc;
 
-    ZeroMemory(&amp;wc, sizeof(wc));
+    ZeroMemory(&wc, sizeof(wc));
     wc.cbSize = sizeof(wc);
     wc.lpfnWndProc = WndProc;
     wc.hInstance = g_hinst;
@@ -193,7 +193,7 @@ BOOL CreateWindows(void)
     wc.hCursor = LoadCursor(NULL, IDC_ARROW);
     wc.lpszMenuName    = MAKEINTRESOURCE(IDC_RECOVER);
 
-    atom = RegisterClassEx(&amp;wc);
+    atom = RegisterClassEx(&wc);
     g_hwnd = CreateWindowEx(0,
         L"MainWClass",
         L"Testing Application Restart and Recovery",
@@ -213,9 +213,9 @@ BOOL CreateWindows(void)
 
     initctrls.dwSize = sizeof(initctrls);
     initctrls.dwICC = ICC_BAR_CLASSES;
-    InitCommonControlsEx(&amp;initctrls);
+    InitCommonControlsEx(&initctrls);
 
-    GetClientRect(g_hwnd, &amp;rc);
+    GetClientRect(g_hwnd, &rc);
 
     g_hwndStatus = CreateWindowEx(0, STATUSCLASSNAME, NULL,
         WS_CHILD | WS_BORDER | WS_VISIBLE,
@@ -272,16 +272,16 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
                     hMenu = GetMenu(hWnd);
                     if (hMenu)
                     {
-                        RtlZeroMemory(&amp;miInfo, sizeof(MENUITEMINFO));
+                        RtlZeroMemory(&miInfo, sizeof(MENUITEMINFO));
                         miInfo.cbSize = sizeof(MENUITEMINFO);
                         miInfo.fMask = MIIM_STATE;
 
-                        if (GetMenuItemInfo(hMenu, ID_FILE_RESTART, FALSE, &amp;miInfo))
+                        if (GetMenuItemInfo(hMenu, ID_FILE_RESTART, FALSE, &miInfo))
                         {
                             // Toggling Restart to unchecked. Remove restart registration.
                             if ((miInfo.fState & MFS_CHECKED) == MFS_CHECKED)
                             {
-                                miInfo.fState &amp;= ~MFS_CHECKED;
+                                miInfo.fState &= ~MFS_CHECKED;
                                 miInfo.fState |= MFS_UNCHECKED;
 
                                 hr = UnregisterApplicationRestart();
@@ -292,7 +292,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
                             }
                             else // Toggling Restart to checked. Register for restart.
                             {
-                                miInfo.fState &amp;= ~MFS_UNCHECKED;
+                                miInfo.fState &= ~MFS_UNCHECKED;
                                 miInfo.fState |= MFS_CHECKED;
 
                                 // Register for restart. The command line is updated in the recovery callback,
@@ -313,7 +313,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
                                     MB_OK | MB_ICONINFORMATION);
                             }
 
-                            if (!SetMenuItemInfo(hMenu, ID_FILE_RESTART, FALSE, &amp;miInfo))
+                            if (!SetMenuItemInfo(hMenu, ID_FILE_RESTART, FALSE, &miInfo))
                             {
                                 // Handle error; call GetLastError() to get the error.
                             }
@@ -332,15 +332,15 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
                     hMenu = GetMenu(hWnd);
                     if (hMenu)
                     {
-                        RtlZeroMemory(&amp;miInfo, sizeof(MENUITEMINFO));
+                        RtlZeroMemory(&miInfo, sizeof(MENUITEMINFO));
                         miInfo.cbSize = sizeof(MENUITEMINFO);
                         miInfo.fMask = MIIM_STATE;
 
-                        if (GetMenuItemInfo(hMenu, ID_FILE_RECOVER, FALSE, &amp;miInfo))
+                        if (GetMenuItemInfo(hMenu, ID_FILE_RECOVER, FALSE, &miInfo))
                         {
                             if ((miInfo.fState & MFS_CHECKED) == MFS_CHECKED)
                             {
-                                miInfo.fState &amp;= ~MFS_CHECKED;
+                                miInfo.fState &= ~MFS_CHECKED;
                                 miInfo.fState |= MFS_UNCHECKED;
 
                                 hr = UnregisterApplicationRecoveryCallback();
@@ -351,17 +351,17 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
                             }
                             else
                             {
-                                miInfo.fState &amp;= ~MFS_UNCHECKED;
+                                miInfo.fState &= ~MFS_UNCHECKED;
                                 miInfo.fState |= MFS_CHECKED;
 
-                                hr = RegisterApplicationRecoveryCallback(Recover, &amp;g_dwRecordId, RECOVERY_DEFAULT_PING_INTERVAL, 0);
+                                hr = RegisterApplicationRecoveryCallback(Recover, &g_dwRecordId, RECOVERY_DEFAULT_PING_INTERVAL, 0);
                                 if (FAILED(hr))
                                 {
                                     // Not failing because the registration failed.
                                 }
                             }
 
-                            if (!SetMenuItemInfo(hMenu, ID_FILE_RECOVER, FALSE, &amp;miInfo))
+                            if (!SetMenuItemInfo(hMenu, ID_FILE_RECOVER, FALSE, &miInfo))
                             {
                                 // Handle the error; call GetLastError() to get the error.
                             }
@@ -385,9 +385,9 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             break;
 
         case WM_PAINT:
-            hdc = BeginPaint(hWnd, &amp;ps);
+            hdc = BeginPaint(hWnd, &ps);
             // TODO: Add any drawing code here...
-            EndPaint(hWnd, &amp;ps);
+            EndPaint(hWnd, &ps);
             break;
 
         case WM_DESTROY:
@@ -514,7 +514,7 @@ DWORD WINAPI Recover(PVOID pContext)
     // You must call the ApplicationRecoveryInProgress function within
     // the specified ping interval or the recovery callback exits.
     // Typically, you would do a block of work, call the function, and repeat.
-    ApplicationRecoveryInProgress(&amp;bCanceled);
+    ApplicationRecoveryInProgress(&bCanceled);
     if (bCanceled)  
     {
         wprintf(L"Recovery was canceled by the user.\n");
@@ -537,11 +537,11 @@ BOOL IsRestartSelected()
     hMenu = GetMenu(g_hwnd);
     if (hMenu)
     {
-        RtlZeroMemory(&amp;miInfo, sizeof(MENUITEMINFO));
+        RtlZeroMemory(&miInfo, sizeof(MENUITEMINFO));
         miInfo.cbSize = sizeof(MENUITEMINFO);
         miInfo.fMask = MIIM_STATE;
 
-        if (GetMenuItemInfo(hMenu, ID_FILE_RESTART, FALSE, &amp;miInfo))
+        if (GetMenuItemInfo(hMenu, ID_FILE_RESTART, FALSE, &miInfo))
         {
             if ((miInfo.fState & MFS_CHECKED) == MFS_CHECKED)
                 fSelected = TRUE;
@@ -602,12 +602,12 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 
 IDC_RECOVER MENU 
 BEGIN
-    POPUP "&amp;File"
+    POPUP "&File"
     BEGIN
-        MENUITEM "C&amp;rash",                      ID_FILE_CRASH
-        MENUITEM "&amp;Restart",                    ID_FILE_RESTART
-        MENUITEM "Re&amp;cover",                    ID_FILE_RECOVER
-        MENUITEM "E&amp;xit",                       IDM_EXIT
+        MENUITEM "C&rash",                      ID_FILE_CRASH
+        MENUITEM "&Restart",                    ID_FILE_RESTART
+        MENUITEM "Re&cover",                    ID_FILE_RECOVER
+        MENUITEM "E&xit",                       IDM_EXIT
     END
 END
 

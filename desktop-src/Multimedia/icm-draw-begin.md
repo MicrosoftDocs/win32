@@ -26,7 +26,7 @@ The **ICM\_DRAW\_BEGIN** message notifies a rendering driver to prepare to draw 
 
 ```C++
 ICM_DRAW_BEGIN 
-wParam = (DWORD) (LPVOID) &amp;icdrwBgn; 
+wParam = (DWORD) (LPVOID) &icdrwBgn; 
 lParam = sizeof(ICDRAW); 
 ```
 

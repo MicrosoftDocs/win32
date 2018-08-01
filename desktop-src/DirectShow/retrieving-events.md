@@ -28,7 +28,7 @@ The following code example provides an outline of how to retrieve events from th
 long evCode;
 LONG_PTR param1, param2;
 HRESULT hr;
-while (hr = pEvent->GetEvent(&amp;evCode, &amp;param1, &amp;param2, 0), SUCCEEDED(hr))
+while (hr = pEvent->GetEvent(&evCode, &param1, &param2, 0), SUCCEEDED(hr))
 {
     switch(evCode) 
     { 

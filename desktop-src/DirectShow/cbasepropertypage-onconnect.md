@@ -67,7 +67,7 @@ HRESULT CMyProp::OnConnect(IUnknown *pUnk)
     HRESULT hr;
     // Query pUnk for the filter's custom interface.
     hr = pUnk->QueryInterface(IID_ISomeCustomInterface,
-             reinterpret_cast<void**>(&amp;m_pOwningFilter));
+             reinterpret_cast<void**>(&m_pOwningFilter));
     return hr;
 }
 ```

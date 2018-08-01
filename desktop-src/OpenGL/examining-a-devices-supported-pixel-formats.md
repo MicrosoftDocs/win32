@@ -28,7 +28,7 @@ iPixelFormat = 1;
 // keep obtaining and examining pixel format data...  
 do { 
     // try to obtain some pixel format data  
-    iMax = DescribePixelFormat(hdc, iPixelFormat, sizeof(pfd), &amp;pfd); 
+    iMax = DescribePixelFormat(hdc, iPixelFormat, sizeof(pfd), &pfd); 
  
     // if there was some problem with that...   
     if (iMax == 0) 
@@ -39,7 +39,7 @@ do {
     // we have successfully obtained pixel format data  
  
     // let's examine the pixel format data...  
-    myPixelFormatExaminer (&amp;pfd); 
+    myPixelFormatExaminer (&pfd); 
     }  
  
 // ...until we've looked at all the device context's pixel formats  

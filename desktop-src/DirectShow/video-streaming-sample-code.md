@@ -36,21 +36,21 @@ HRESULT RenderStreamToSurface(IDirectDrawSurface *pSurface,
     DDSURFACEDESC ddsd;
 
     HRESULT hr;
-    hr = pMMStream->GetMediaStream(MSPID_PrimaryVideo, &amp;pPrimaryVidStream);
+    hr = pMMStream->GetMediaStream(MSPID_PrimaryVideo, &pPrimaryVidStream);
     if (FAILED(hr))
     {
         return hr;
     }
-    pPrimaryVidStream->QueryInterface(IID_IDirectDrawMediaStream, (void **)&amp;pDDStream);
+    pPrimaryVidStream->QueryInterface(IID_IDirectDrawMediaStream, (void **)&pDDStream);
 
     ddsd.dwSize = sizeof(ddsd);
-    hr = pDDStream->GetFormat(&amp;ddsd, NULL, NULL, NULL);
+    hr = pDDStream->GetFormat(&ddsd, NULL, NULL, NULL);
     if (SUCCEEDED(hr))
     {
         rect.top = rect.left = 0;
         rect.bottom = ddsd.dwHeight;
         rect.right = ddsd.dwWidth;
-        hr = pDDStream->CreateSample(pSurface, &amp;rect, 0, &amp;pSample);
+        hr = pDDStream->CreateSample(pSurface, &rect, 0, &pSample);
         if (SUCCEEDED(hr))
         {
             pMMStream->SetState(STREAMSTATE_RUN);
@@ -80,7 +80,7 @@ HRESULT RenderFileToMMStream(
     IAMMultiMediaStream *pAMStream;
     HRESULT hr = CoCreateInstance(CLSID_AMMultiMediaStream, NULL, 
         CLSCTX_INPROC_SERVER, IID_IAMMultiMediaStream, 
-        (void **)&amp;pAMStream);
+        (void **)&pAMStream);
     if (FAILED(hr))
     {
         return hr;
@@ -90,8 +90,8 @@ HRESULT RenderFileToMMStream(
     MultiByteToWideChar(CP_ACP, 0, szFileName, -1, wPath, MAX_PATH + 1);
 
     pAMStream->Initialize(STREAMTYPE_READ, AMMSF_NOGRAPHTHREAD, NULL);
-    pAMStream->AddMediaStream(pDD, &amp;MSPID_PrimaryVideo, 0, NULL);
-    pAMStream->AddMediaStream(NULL, &amp;MSPID_PrimaryAudio, AMMSF_ADDDEFAULTRENDERER, NULL);
+    pAMStream->AddMediaStream(pDD, &MSPID_PrimaryVideo, 0, NULL);
+    pAMStream->AddMediaStream(NULL, &MSPID_PrimaryAudio, AMMSF_ADDDEFAULTRENDERER, NULL);
     hr = pAMStream->OpenFile(wPath, 0);
     if (SUCCEEDED(hr))
     {
@@ -117,15 +117,15 @@ int __cdecl main(int argc, char *argv[])
 
     CoInitialize(NULL);
 
-    DirectDrawCreate(NULL, &amp;pDD, NULL);
+    DirectDrawCreate(NULL, &pDD, NULL);
     pDD->SetCooperativeLevel(GetDesktopWindow(), DDSCL_NORMAL);
 
     ddsd.dwSize = sizeof(ddsd);
     ddsd.dwFlags = DDSD_CAPS;
     ddsd.ddsCaps.dwCaps = DDSCAPS_PRIMARYSURFACE;
-    pDD->CreateSurface(&amp;ddsd, &amp;pPrimarySurface, NULL);
+    pDD->CreateSurface(&ddsd, &pPrimarySurface, NULL);
 
-    HRESULT hr = RenderFileToMMStream(argv[1], &amp;pMMStream, pDD);
+    HRESULT hr = RenderFileToMMStream(argv[1], &pMMStream, pDD);
     if (SUCCEEDED(hr))
     {
         RenderStreamToSurface(pPrimarySurface, pMMStream);    

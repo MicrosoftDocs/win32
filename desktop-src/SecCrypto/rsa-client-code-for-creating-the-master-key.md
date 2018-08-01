@@ -67,7 +67,7 @@ CryptGenKey(
          hProv, 
          Algid, 
          dwGenFlags, 
-          &amp;hMasterKey);
+          &hMasterKey);
 
 //--------------------------------------------------------------------
 // Export the master key.
@@ -79,7 +79,7 @@ CryptExportKey(
          SIMPLEBLOB,
          dwExportFlags, 
          rgbBlob, 
-         &amp;cbBlob);
+         &cbBlob);
 ```
 
 

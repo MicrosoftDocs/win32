@@ -79,7 +79,7 @@ void Main_OnBeginDrag(HWND hwndTV, LPNMTREEVIEW lpnmtv)
     himl = TreeView_CreateDragImage(hwndTV, lpnmtv->itemNew.hItem); 
 
     // Get the bounding rectangle of the item being dragged. 
-    TreeView_GetItemRect(hwndTV, lpnmtv->itemNew.hItem, &amp;rcItem, TRUE); 
+    TreeView_GetItemRect(hwndTV, lpnmtv->itemNew.hItem, &rcItem, TRUE); 
 
     // Start the drag operation. 
     ImageList_BeginDrag(himl, 0, 0, 0);
@@ -125,8 +125,8 @@ void Main_OnMouseMove(HWND hwndParent, HWND hwndTV, LONG xCur, LONG yCur)
        POINT point;
        point.x = xCur;
        point.y = yCur;
-       ClientToScreen(hwndParent, &amp;point);
-       ScreenToClient(hwndTV, &amp;point);
+       ClientToScreen(hwndParent, &point);
+       ScreenToClient(hwndTV, &point);
        ImageList_DragMove(point.x, point.y);
        // Turn off the dragged image so the background can be refreshed.
        ImageList_DragShowNolock(FALSE); 
@@ -135,7 +135,7 @@ void Main_OnMouseMove(HWND hwndParent, HWND hwndTV, LONG xCur, LONG yCur)
         // highlight the item as a drop target. 
         tvht.pt.x = point.x; 
         tvht.pt.y = point.y; 
-        if ((htiTarget = TreeView_HitTest(hwndTV, &amp;tvht)) != NULL) 
+        if ((htiTarget = TreeView_HitTest(hwndTV, &tvht)) != NULL) 
         { 
             TreeView_SelectDropTarget(hwndTV, htiTarget); 
         } 

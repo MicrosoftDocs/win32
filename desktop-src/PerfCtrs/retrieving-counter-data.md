@@ -74,7 +74,7 @@ void wmain(void)
     }
 
     // Then, sample the "% Processor Time" counter for instance "0" of the Processor object.
-    fSuccess = GetCounterValues(238, 6, L"0", &amp;Sample1);
+    fSuccess = GetCounterValues(238, 6, L"0", &Sample1);
     if (FALSE == fSuccess)
     {
         wprintf(L"GetCounterValues failed.\n");
@@ -94,7 +94,7 @@ void wmain(void)
             goto cleanup;
         }
 
-        fSuccess = GetCounterValues(238, 6, L"0", &amp;Sample2);
+        fSuccess = GetCounterValues(238, 6, L"0", &Sample2);
         if (FALSE == fSuccess)
         {
             wprintf(L"GetCounterValues failed.\n");
@@ -104,7 +104,7 @@ void wmain(void)
         // Calculate the value based on the two samples. For counter
         // types that do not use two samples, set the second parameter
         // to NULL.
-        fSuccess = DisplayCalculatedValue(&amp;Sample1, &amp;Sample2);
+        fSuccess = DisplayCalculatedValue(&Sample1, &Sample2);
         if (FALSE == fSuccess)
         {
             wprintf(L"DisplayCalculatedValue failed.\n");
@@ -112,7 +112,7 @@ void wmain(void)
         }
 
         // Sample2 becomes Sample1 for the next iteration.
-        memcpy(&amp;Sample1, &amp;Sample2, sizeof(RAW_DATA));
+        memcpy(&Sample1, &Sample2, sizeof(RAW_DATA));
     }
 
 cleanup:
@@ -142,7 +142,7 @@ LPBYTE GetPerformanceData(LPWSTR pwszSource, DWORD dwInitialBufferSize)
     pBuffer = (LPBYTE)malloc(dwBufferSize);
     if (pBuffer)
     {
-        while (ERROR_MORE_DATA == (status = RegQueryValueEx(HKEY_PERFORMANCE_DATA, pwszSource, NULL, NULL, pBuffer, &amp;dwSize)))
+        while (ERROR_MORE_DATA == (status = RegQueryValueEx(HKEY_PERFORMANCE_DATA, pwszSource, NULL, NULL, pBuffer, &dwSize)))
         {
             //Contents of dwSize is unpredictable if RegQueryValueEx fails, which is why
             //you need to increment dwBufferSize and use it to set dwSize.
@@ -284,7 +284,7 @@ PERF_COUNTER_BLOCK* GetCounterBlock(PERF_OBJECT_TYPE* pObject, LPWSTR pInstanceN
     {                                
         pBlock = (PERF_COUNTER_BLOCK*)((LPBYTE)pObject + pObject->DefinitionLength);
     }
-    else if (pObject->NumInstances > 0 &amp;&amp; pInstanceName)  // Find the instance. The block follows the instance
+    else if (pObject->NumInstances > 0 && pInstanceName)  // Find the instance. The block follows the instance
     {                                                     // structure and instance name.
         pInstance = GetObjectInstance(pObject, pInstanceName);
         if (pInstance)

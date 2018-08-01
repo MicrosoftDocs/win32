@@ -52,7 +52,7 @@ The following procedure describes how to implement a physical consumer for a per
     IWbemLocator *pLoc = 0;
 
     DWORD dwRes = CoCreateInstance(CLSID_WbemAdministrativeLocator, 0, 
-        CLSCTX_INPROC_SERVER, IID_IWbemLocator, (LPVOID *) &amp;pLoc);
+        CLSCTX_INPROC_SERVER, IID_IWbemLocator, (LPVOID *) &pLoc);
     ```
 
     

@@ -48,7 +48,7 @@ IMFAttributes *pAttributes = NULL;
 IMFMediaSession *pSession = NULL;
 
 // Create the attribute store.
-hr = MFCreateAttributes(&amp;pAttributes, 1);
+hr = MFCreateAttributes(&pAttributes, 1);
 
 // Set the IMFContentProtectionManager pointer.
 if (SUCCEEDED(hr))
@@ -65,7 +65,7 @@ if (SUCCEEDED(hr))
     hr = MFCreatePMPMediaSession(
         0,
         pAttributes, 
-        &amp;pSession,
+        &pSession,
         NULL
     );
 }
@@ -89,7 +89,7 @@ To create the content enabler, call [**IMFActivate::ActivateObject**](/windows/d
 IMFContentEnabler *pEnabler = NULL;
 hr = pEnablerActivate->ActivateObject(
     IID_IMFContentEnabler, 
-    (void**)&amp;pEnabler
+    (void**)&pEnabler
     );
 ```
 
@@ -133,7 +133,7 @@ DWORD   cbPostDataSize = 0; // Size of the buffer, in bytes.
 HRESULT hr = S_OK;
 
 // Get the URL. 
-hr = m_pEnabler->GetEnableURL(&amp;sURL, &amp;cchURL, &amp;trustStatus);
+hr = m_pEnabler->GetEnableURL(&sURL, &cchURL, &trustStatus);
 
 if (SUCCEEDED(hr))
 {
@@ -153,7 +153,7 @@ if (SUCCEEDED(hr))
 // Get the HTTP POST data.
 if (SUCCEEDED(hr))
 {
-    hr = m_pEnabler->GetEnableData(&amp;pPostData, &amp;cbPostDataSize);
+    hr = m_pEnabler->GetEnableData(&pPostData, &cbPostDataSize);
 }
 
 // Open the URL and send the HTTP POST data. (Not shown.)
@@ -182,7 +182,7 @@ The following code shows how to create the asynchronous result and invoke the ca
 IMFAsyncResult  *pResult = NULL;
 
 // Create the asynchronous result object.
-hr = MFCreateAsyncResult(NULL, pCallback, punkState, &amp;pResult);
+hr = MFCreateAsyncResult(NULL, pCallback, punkState, &pResult);
 
 // Invoke the callback.
 if (SUCCEEDED(hr))

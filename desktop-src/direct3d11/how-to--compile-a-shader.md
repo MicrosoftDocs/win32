@@ -32,7 +32,7 @@ You typically use the [fxc.exe](https://msdn.microsoft.com/library/windows/deskt
         ID3DBlob* errorBlob = nullptr;
         HRESULT hr = D3DCompileFromFile( srcFile, defines, D3D_COMPILE_STANDARD_FILE_INCLUDE,
                                          entryPoint, profile,
-                                         flags, 0, &amp;shaderBlob, &amp;errorBlob );
+                                         flags, 0, &shaderBlob, &errorBlob );
     ```
 
     
@@ -75,7 +75,7 @@ HRESULT CompileShader( _In_ LPCWSTR srcFile, _In_ LPCSTR entryPoint, _In_ LPCSTR
     ID3DBlob* errorBlob = nullptr;
     HRESULT hr = D3DCompileFromFile( srcFile, defines, D3D_COMPILE_STANDARD_FILE_INCLUDE,
                                      entryPoint, profile,
-                                     flags, 0, &amp;shaderBlob, &amp;errorBlob );
+                                     flags, 0, &shaderBlob, &errorBlob );
     if ( FAILED(hr) )
     {
         if ( errorBlob )
@@ -99,7 +99,7 @@ int main()
 {
     // Compile vertex shader shader
     ID3DBlob *vsBlob = nullptr;
-    HRESULT hr = CompileShader( L"BasicHLSL11_VS.hlsl", "VSMain", "vs_4_0_level_9_1", &amp;vsBlob );
+    HRESULT hr = CompileShader( L"BasicHLSL11_VS.hlsl", "VSMain", "vs_4_0_level_9_1", &vsBlob );
     if ( FAILED(hr) )
     {
         printf("Failed compiling vertex shader %08X\n", hr );
@@ -108,7 +108,7 @@ int main()
 
     // Compile pixel shader shader
     ID3DBlob *psBlob = nullptr;
-    hr = CompileShader( L"BasicHLSL11_PS.hlsl", "PSMain", "ps_4_0_level_9_1", &amp;psBlob );
+    hr = CompileShader( L"BasicHLSL11_PS.hlsl", "PSMain", "ps_4_0_level_9_1", &psBlob );
     if ( FAILED(hr) )
     {
         vsBlob->Release();

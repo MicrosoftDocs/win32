@@ -61,27 +61,27 @@ if (pSearch == NULL)
     // be obtained through enumeration.
     hr = ADsGetObject(L"GC:", 
         IID_IADsContainer, 
-        (void**) &amp;pCont );
+        (void**) &pCont );
     if (FAILED(hr)) {
         _tprintf(TEXT("ADsGetObject(GC) failed: 0x%x\n"), hr);
         goto Cleanup;
     }
  
     // Obtain an enumeration interface for the GC container. 
-    hr = ADsBuildEnumerator(pCont,&amp;pEnum);
+    hr = ADsBuildEnumerator(pCont,&pEnum);
     if (FAILED(hr)) {
         _tprintf(TEXT("ADsBuildEnumerator failed: 0x%x\n"), hr);
         goto Cleanup;
     }
  
     // Enumerate. There is only one child of the GC: object.
-    hr = ADsEnumerateNext(pEnum,1,&amp;var,&amp;lFetch);
-    if (( hr == S_OK ) &amp;&amp; ( lFetch == 1 ) ) 
+    hr = ADsEnumerateNext(pEnum,1,&var,&lFetch);
+    if (( hr == S_OK ) && ( lFetch == 1 ) ) 
     {
-        pDisp = V_DISPATCH(&amp;var);
-        hr = pDisp->QueryInterface( IID_IADs, (void**)&amp;pADs);
+        pDisp = V_DISPATCH(&var);
+        hr = pDisp->QueryInterface( IID_IADs, (void**)&pADs);
         if (hr == S_OK) 
-            hr = pADs->get_ADsPath(&amp;bstrPath);
+            hr = pADs->get_ADsPath(&bstrPath);
     }
     if (FAILED(hr)) {
         _tprintf(TEXT("Enumeration failed: 0x%x\n"), hr);
@@ -92,7 +92,7 @@ if (pSearch == NULL)
     // Bind the GC to get the search interface.
     hr = ADsGetObject(bstrPath, 
                       IID_IDirectorySearch, 
-                      (void**)&amp;pSearch);
+                      (void**)&pSearch);
     if (FAILED(hr)) {
         _tprintf(TEXT("Failed to bind search root: 0x%x\n"), hr);
         goto Cleanup;
@@ -119,7 +119,7 @@ if (pSearch == NULL)
     // Execute the search. From the GC, get the distinguished name 
     // of the SCP. Use the DN to bind to the SCP and get the other 
     // properties.
-    hr = pSearch->ExecuteSearch(szQuery, pszAttribs, 1, &amp;hSearch);
+    hr = pSearch->ExecuteSearch(szQuery, pszAttribs, 1, &hSearch);
     if (FAILED(hr)) {
         _tprintf(TEXT("ExecuteSearch failed: 0x%x\n"), hr);
         goto Cleanup;
@@ -130,10 +130,10 @@ if (pSearch == NULL)
 hr = pSearch->GetNextRow(hSearch);
  
 // Process the row.
-if (SUCCEEDED(hr) &amp;&amp; hr !=S_ADS_NOMORE_ROWS) 
+if (SUCCEEDED(hr) && hr !=S_ADS_NOMORE_ROWS) 
 {
     // Get the distinguished name of the object in this row.
-    hr = pSearch->GetColumn(hSearch, L"distinguishedName", &amp;Col);
+    hr = pSearch->GetColumn(hSearch, L"distinguishedName", &Col);
     if FAILED(hr) { 
         _tprintf(TEXT("GetColumn failed: 0x%x\n"), hr);
         goto Cleanup;
@@ -147,7 +147,7 @@ if (SUCCEEDED(hr) &amp;&amp; hr !=S_ADS_NOMORE_ROWS)
         wcscat_s(szSCPPath, Col.pADsValues->CaseIgnoreString);
         hr = ADsGetObject(szSCPPath, 
                           IID_IDirectoryObject,
-                          (void**)&amp;pSCP);
+                          (void**)&pSCP);
         delete szSCPPath;
         if (SUCCEEDED(hr)) 
         {
@@ -159,7 +159,7 @@ if (SUCCEEDED(hr) &amp;&amp; hr !=S_ADS_NOMORE_ROWS)
             }
         }
     }
-    pSearch->FreeColumn(&amp;Col);}
+    pSearch->FreeColumn(&Col);}
  
 Cleanup:
 if (bstrPath)

@@ -139,9 +139,9 @@ void EncodeAndDecodeMessage(LPWSTR pwszSignerName)
 {
     CRYPT_DATA_BLOB EncodedBlob;
 
-    if(EncodeMessage(&amp;EncodedBlob, pwszSignerName))
+    if(EncodeMessage(&EncodedBlob, pwszSignerName))
     {
-        DecodeMessage(&amp;EncodedBlob, pwszSignerName);
+        DecodeMessage(&EncodedBlob, pwszSignerName);
     }
 }
 
@@ -263,13 +263,13 @@ BOOL EncodeMessage(PCRYPT_DATA_BLOB pEncodedBlob,
     all members that must be nonzero.
     ---------------------------------------------------------------*/
 
-    memset(&amp;SignMessagePara, 0, sizeof(CRYPT_SIGN_MESSAGE_PARA));
+    memset(&SignMessagePara, 0, sizeof(CRYPT_SIGN_MESSAGE_PARA));
     SignMessagePara.cbSize = sizeof(CRYPT_SIGN_MESSAGE_PARA);
     SignMessagePara.HashAlgorithm.pszObjId = szOID_RSA_MD2;
     SignMessagePara.pSigningCert = pSignerCert;
     SignMessagePara.dwMsgEncodingType = MY_ENCODING_TYPE;
     SignMessagePara.cMsgCert = 1;
-    SignMessagePara.rgpMsgCert = &amp;pSignerCert;
+    SignMessagePara.rgpMsgCert = &pSignerCert;
 
     /*---------------------------------------------------------------
         In two steps, sign and encode the message. First, get the 
@@ -278,13 +278,13 @@ BOOL EncodeMessage(PCRYPT_DATA_BLOB pEncodedBlob,
     ---------------------------------------------------------------*/
 
     if( CryptSignMessage(
-            &amp;SignMessagePara,
+            &SignMessagePara,
             FALSE,
             1,
             rgpbToBeSigned,
             rgcbToBeSigned,
             NULL,
-            &amp;pEncodedBlob->cbData))
+            &pEncodedBlob->cbData))
     {
         printf("The needed length is %d \n", pEncodedBlob->cbData);
     }
@@ -306,13 +306,13 @@ BOOL EncodeMessage(PCRYPT_DATA_BLOB pEncodedBlob,
     //   copy the signed and encoded message to the buffer.
 
     if( CryptSignMessage(
-        &amp;SignMessagePara,
+        &SignMessagePara,
         FALSE,
         1,
         rgpbToBeSigned,
         rgcbToBeSigned,
         pEncodedBlob->pbData,
-        &amp;pEncodedBlob->cbData))
+        &pEncodedBlob->cbData))
     {
         printf("Signing worked \n");
     }
@@ -411,7 +411,7 @@ void DecodeMessage(PCRYPT_DATA_BLOB pEncodedBlob,
         CMSG_CONTENT_PARAM,    // parameter type
         0,                     // index
         NULL,                  
-        &amp;cbDecoded))           // size of the returned information
+        &cbDecoded))           // size of the returned information
     {
         printf("The message parameter has been acquired. \n");
     }
@@ -435,7 +435,7 @@ void DecodeMessage(PCRYPT_DATA_BLOB pEncodedBlob,
         CMSG_CONTENT_PARAM,   // parameter type
         0,                    // index
         pbDecoded,            // address for returned information
-        &amp;cbDecoded))          // size of the returned information
+        &cbDecoded))          // size of the returned information
     {
         printf("The decoded message is =>\n%s\n\n",
             (LPSTR)pbDecoded);
@@ -457,7 +457,7 @@ void DecodeMessage(PCRYPT_DATA_BLOB pEncodedBlob,
         CMSG_SIGNER_CERT_INFO_PARAM,  // parameter type
         0,                            // index
         NULL,   
-        &amp;cbSignerCertInfo))           // size of the returned 
+        &cbSignerCertInfo))           // size of the returned 
                                       // information
     {
         printf("%d bytes needed for the buffer.\n", 
@@ -486,7 +486,7 @@ void DecodeMessage(PCRYPT_DATA_BLOB pEncodedBlob,
         0,                            // index
         pSignerCertInfo,              // address for returned 
                                       // information
-        &amp;cbSignerCertInfo)))          // size of the returned 
+        &cbSignerCertInfo)))          // size of the returned 
                                       // information
     {
         MyHandleError("Verify SIGNER_CERT_INFO #2 failed");

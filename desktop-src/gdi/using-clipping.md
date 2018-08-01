@@ -41,8 +41,8 @@ BOOL DoClipPath(LPLOGFONT lplf, LPSTR lpsz)
  
     // Erase the current window contents.  
  
-    GetClientRect(hwnd, &amp;rc); 
-    FillRect(hdc, &amp;rc, GetStockObject(WHITE_BRUSH)); 
+    GetClientRect(hwnd, &rc); 
+    FillRect(hdc, &rc, GetStockObject(WHITE_BRUSH)); 
  
     // Use the specified font to create a logical font and select it  
     // into the DC.  
@@ -68,7 +68,7 @@ BOOL DoClipPath(LPLOGFONT lplf, LPSTR lpsz)
     // Retrieve the dimensions of the rectangle surrounding  
     // the text.  
  
-    GetTextExtentPoint32(hdc, lpsz, nStrLen, &amp;sz); 
+    GetTextExtentPoint32(hdc, lpsz, nStrLen, &sz); 
  
     // Draw horizontal lines through the clip path.  
  

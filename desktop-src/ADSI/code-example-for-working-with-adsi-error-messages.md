@@ -50,7 +50,7 @@ CString GetErrorMessage( HRESULT hr )
                              NULL,  hr,
                              MAKELANGID(LANG_NEUTRAL, 
                              SUBLANG_SYS_DEFAULT),
-                             (LPTSTR) &amp;lpBuffer, 0, NULL);
+                             (LPTSTR) &lpBuffer, 0, NULL);
  
         if ( !bRet )
         {
@@ -82,11 +82,11 @@ CString GetErrorMessage( HRESULT hr )
     DWORD dwError;
     
  
-    hr = ADsGetLastError( &amp;dwError, szBuffer, (sizeof(szBuffer)/sizeof(WCHAR))-1,
+    hr = ADsGetLastError( &dwError, szBuffer, (sizeof(szBuffer)/sizeof(WCHAR))-1,
                           szName, (sizeof(szName)/sizeof(WCHAR))-1 );
  
     
-    if ( SUCCEEDED(hr) &amp;&amp; dwError != ERROR_INVALID_DATA  &amp;&amp; 
+    if ( SUCCEEDED(hr) && dwError != ERROR_INVALID_DATA  && 
                                      wcslen(szBuffer))
     {
         USES_CONVERSION;

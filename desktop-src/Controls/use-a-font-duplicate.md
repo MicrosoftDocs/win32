@@ -38,11 +38,11 @@ void ChangeFontNameSizeBold(ITextSelection *pSel)
     ITextFont *FontDuplicate = NULL;
     
     // Get ITextFont version of non-duplicated font.
-    if (FAILED(pSel->GetFont( &amp;pFontSel))
+    if (FAILED(pSel->GetFont( &pFontSel))
         return;
 
     // Duplicate the font.
-    pFontSel->GetValue(&amp;pFontDuplicate);
+    pFontSel->GetValue(&pFontDuplicate);
     pFontSel->Release();
     
     if(!pFontDuplicate)

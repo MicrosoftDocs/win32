@@ -175,9 +175,9 @@ The following procedure describes how to call a provider method using C++.
                 NULL); 
         hr = CoCreateInstance(CLSID_WbemLocator, 0, 
                 CLSCTX_INPROC_SERVER,
-                IID_IWbemLocator, (LPVOID *) &amp;pLocator);
+                IID_IWbemLocator, (LPVOID *) &pLocator);
         hr = pLocator->ConnectServer(path, NULL, NULL, 
-                NULL, 0, NULL, NULL, &amp;pNamespace);
+                NULL, 0, NULL, NULL, &pNamespace);
     ```
 
     
@@ -187,7 +187,7 @@ The following procedure describes how to call a provider method using C++.
     The [**GetObject**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobject) method returns an [**IWbemClassObject**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemclassobject) pointer that points to the class definition.
 
     ```C++
-    hr = pNamespace->GetObject(ClassPath, 0, NULL, &amp;pClass, NULL);
+    hr = pNamespace->GetObject(ClassPath, 0, NULL, &pClass, NULL);
     ```
 
     
@@ -197,7 +197,7 @@ The following procedure describes how to call a provider method using C++.
     [**GetMethod**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-getmethod) returns an [**IWbemClassObject**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemclassobject) pointer that points to the input parameter class.
 
     ```C++
-    hr = pClass->GetMethod(MethodName, 0, &amp;pInClass, NULL);
+    hr = pClass->GetMethod(MethodName, 0, &pInClass, NULL);
     ```
 
     
@@ -205,7 +205,7 @@ The following procedure describes how to call a provider method using C++.
 4.  Generate an instance of the input parameter class with a call to the [**IWbemClassObject::SpawnInstance**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-spawninstance) method.
 
     ```C++
-    hr = pInClass->SpawnInstance(0, &amp;pInInst);
+    hr = pInClass->SpawnInstance(0, &pInInst);
     ```
 
     
@@ -216,8 +216,8 @@ The following procedure describes how to call a provider method using C++.
     VARIANT var;
     var.vt = VT_BSTR;
     var.bstrVal= SysAllocString(L"hello");
-    hr = pInInst->Put(ArgName, 0, &amp;var, 0);
-    VariantClear(&amp;var);
+    hr = pInInst->Put(ArgName, 0, &var, 0);
+    VariantClear(&var);
     ```
 
     
@@ -227,7 +227,7 @@ The following procedure describes how to call a provider method using C++.
     For [**ExecMethod**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execmethod), WMI returns any output parameters in the call. For [**ExecMethodAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execmethodasync), WMI returns any output parameters through a call to [**IWbemObjectSink**](iwbemobjectsink.md). For more information, see [Calling a Method](calling-a-method.md).
 
     ```C++
-    hr = pNamespace->ExecMethod(ClassPath, MethodName, 0, NULL, pInInst, &amp;pOutInst, NULL);
+    hr = pNamespace->ExecMethod(ClassPath, MethodName, 0, NULL, pInInst, &pOutInst, NULL);
     ```
 
     
@@ -263,37 +263,37 @@ int main(int iArgCnt, char ** argv)
     hr  =  CoInitializeSecurity(NULL, -1, NULL, NULL,RPC_C_AUTHN_LEVEL_DEFAULT, 
                                 RPC_C_IMP_LEVEL_IMPERSONATE, NULL, EOAC_NONE, NULL); 
     hr = CoCreateInstance(CLSID_WbemLocator, 0, CLSCTX_INPROC_SERVER,
-                          IID_IWbemLocator, (LPVOID *) &amp;pLocator);
-    hr = pLocator->ConnectServer(path, NULL, NULL, NULL, 0, NULL, NULL, &amp;pNamespace);
+                          IID_IWbemLocator, (LPVOID *) &pLocator);
+    hr = pLocator->ConnectServer(path, NULL, NULL, NULL, 0, NULL, NULL, &pNamespace);
 
     // Get the class object for the method definition.
 
-    hr = pNamespace->GetObject(ClassPath, 0, NULL, &amp;pClass, NULL);
+    hr = pNamespace->GetObject(ClassPath, 0, NULL, &pClass, NULL);
 
     // Get the input-argument class object and 
     // create an instance.
 
-    hr = pClass->GetMethod(MethodName, 0, &amp;pInClass, NULL); 
-    hr = pInClass->SpawnInstance(0, &amp;pInInst);
+    hr = pClass->GetMethod(MethodName, 0, &pInClass, NULL); 
+    hr = pInClass->SpawnInstance(0, &pInInst);
 
     // Set the property.
 
     VARIANT var;
     var.vt = VT_BSTR;
     var.bstrVal= SysAllocString(L"hello");
-    hr = pInInst->Put(ArgName, 0, &amp;var, 0);
-    VariantClear(&amp;var);
+    hr = pInInst->Put(ArgName, 0, &var, 0);
+    VariantClear(&var);
 
     // Call the method.
 
-    hr = pNamespace->ExecMethod(ClassPath, MethodName, 0, NULL, pInInst, &amp;pOutInst, NULL);
+    hr = pNamespace->ExecMethod(ClassPath, MethodName, 0, NULL, pInInst, &pOutInst, NULL);
     
     // Display the results. Note that the return 
     // value is in the property "ReturnValue"
     // and the returned string is in the 
     // property "sOutArg".
 
-    hr = pOutInst->GetObjectText(0, &amp;Text);
+    hr = pOutInst->GetObjectText(0, &Text);
     printf("\nThe object text is:\n%S", Text);
 
     // Free up resources.

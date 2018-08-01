@@ -312,7 +312,7 @@ WbioQueryEngineInterface(
     __out PWINBIO_ENGINE_INTERFACE *EngineInterface
     )
 {
-    *EngineInterface = &amp;g_EngineInterface;
+    *EngineInterface = &g_EngineInterface;
     return S_OK;
 }
 //////////////////////////////////////////////////////////////////////////////////////////

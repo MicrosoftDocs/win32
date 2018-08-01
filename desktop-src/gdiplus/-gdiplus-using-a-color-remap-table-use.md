@@ -32,16 +32,16 @@ colorMap[0].newColor = Color(255, 0, 0, 255);  // opaque blue
 
 imageAttributes.SetRemapTable(1, colorMap, ColorAdjustTypeBitmap);
 
-graphics.DrawImage(&amp;image, 10, 10, width, height);
+graphics.DrawImage(&image, 10, 10, width, height);
 
 graphics.DrawImage(
-   &amp;image, 
+   &image, 
    Rect(150, 10, width, height),  // destination rectangle 
    0, 0,        // upper-left corner of source rectangle 
    width,       // width of source rectangle
    height,      // height of source rectangle
    UnitPixel,
-   &amp;imageAttributes);
+   &imageAttributes);
 ```
 
 

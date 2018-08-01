@@ -61,8 +61,8 @@ HRESULT EnumeratePropertyValue(IADsPropertyEntry *pEntry)
     ULONG dwSLBound;
     ULONG dwSUBound;
 
-    VariantInit(&amp;var);
-    hr = pEntry->get_Values(&amp;var);
+    VariantInit(&var);
+    hr = pEntry->get_Values(&var);
     if (SUCCEEDED(hr))
     {
         //  Should be a safe array that contains variants
@@ -71,11 +71,11 @@ HRESULT EnumeratePropertyValue(IADsPropertyEntry *pEntry)
             VARIANT *pVar;
             long lLBound, lUBound;
 
-            hr = SafeArrayAccessData((SAFEARRAY*)(var.pparray), (void HUGEP* FAR*)&amp;pVar);
+            hr = SafeArrayAccessData((SAFEARRAY*)(var.pparray), (void HUGEP* FAR*)&pVar);
 
             //  One-dimensional array. Get the bounds for the array.
-            hr = SafeArrayGetLBound((SAFEARRAY*)(var.pparray), 1, &amp;lLBound);
-            hr = SafeArrayGetUBound((SAFEARRAY*)(var.pparray), 1, &amp;lUBound);
+            hr = SafeArrayGetLBound((SAFEARRAY*)(var.pparray), 1, &lLBound);
+            hr = SafeArrayGetUBound((SAFEARRAY*)(var.pparray), 1, &lUBound);
 
             //  Get the count of elements.
             long cElements = lUBound-lLBound + 1;
@@ -92,32 +92,32 @@ HRESULT EnumeratePropertyValue(IADsPropertyEntry *pEntry)
                         break;
 
                     case VT_DISPATCH:
-                        hr = V_DISPATCH(&amp;pVar[i])->QueryInterface(IID_IADsPropertyValue, (void**)&amp;pValue);
+                        hr = V_DISPATCH(&pVar[i])->QueryInterface(IID_IADsPropertyValue, (void**)&pValue);
                         if (SUCCEEDED(hr))
                         {
-                            hr = pValue->get_ADsType(&amp;lType);
+                            hr = pValue->get_ADsType(&lType);
                             switch (lType)
                             {
                             case ADSTYPE_DN_STRING:
-                                hr = pValue->get_DNString(&amp;bstr);
+                                hr = pValue->get_DNString(&bstr);
                                 wprintf(L"%s ",bstr);
                                 SysFreeString(bstr);
                                 break;
 
                             case ADSTYPE_CASE_IGNORE_STRING:
-                                hr = pValue->get_CaseIgnoreString(&amp;bstr);
+                                hr = pValue->get_CaseIgnoreString(&bstr);
                                 wprintf(L"%s ",bstr);
                                 SysFreeString(bstr);
                                 break;
 
                             case ADSTYPE_BOOLEAN:
-                                hr = pValue->get_Boolean(&amp;lValue);
+                                hr = pValue->get_Boolean(&lValue);
                                 pszBOOL = lValue ? "TRUE" : "FALSE";
                                 wprintf(L"%s ",pszBOOL);
                                 break;
 
                             case ADSTYPE_INTEGER:
-                                hr = pValue->get_Integer(&amp;lValue);
+                                hr = pValue->get_Integer(&lValue);
                                 wprintf(L"%d ",lValue);
                                 break;
 
@@ -125,27 +125,27 @@ HRESULT EnumeratePropertyValue(IADsPropertyEntry *pEntry)
                                 {
                                     VARIANT varOS;
 
-                                    VariantInit(&amp;varOS);
+                                    VariantInit(&varOS);
 
                                     //  Get the name of the property to handle
                                     //  the required properties.
-                                    pEntry->get_Name(&amp;szString);
-                                    hr = pValue->get_OctetString(&amp;varOS);
+                                    pEntry->get_Name(&szString);
+                                    hr = pValue->get_OctetString(&varOS);
 
                                     //  Get a pointer to the bytes in the octet string.
                                     if (SUCCEEDED(hr))
                                     {
-                                        hr = SafeArrayGetLBound( V_ARRAY(&amp;varOS),
+                                        hr = SafeArrayGetLBound( V_ARRAY(&varOS),
                                             1,
-                                            (long FAR *) &amp;dwSLBound );
+                                            (long FAR *) &dwSLBound );
 
-                                        hr = SafeArrayGetUBound( V_ARRAY(&amp;varOS),
+                                        hr = SafeArrayGetUBound( V_ARRAY(&varOS),
                                             1,
-                                            (long FAR *) &amp;dwSUBound );
+                                            (long FAR *) &dwSUBound );
 
                                         if (SUCCEEDED(hr))
                                         {
-                                            hr = SafeArrayAccessData( V_ARRAY(&amp;varOS), &amp;pArray );
+                                            hr = SafeArrayAccessData( V_ARRAY(&varOS), &pArray );
                                         }
 
                                         if (0==wcscmp(L"objectGUID", szString))
@@ -166,7 +166,7 @@ HRESULT EnumeratePropertyValue(IADsPropertyEntry *pEntry)
                                             PSID pObjectSID = (PSID)pArray;
                                             //  Convert SID to string.
                                             LPOLESTR szSID = NULL;
-                                            ConvertSidToStringSid(pObjectSID, &amp;szSID);
+                                            ConvertSidToStringSid(pObjectSID, &szSID);
                                             wprintf(L"%s ",szSID);
                                             LocalFree(szSID);
                                         }
@@ -174,8 +174,8 @@ HRESULT EnumeratePropertyValue(IADsPropertyEntry *pEntry)
                                         {
                                             wprintf(L"Value of type Octet String. No Conversion.");
                                         }
-                                        SafeArrayUnaccessData( V_ARRAY(&amp;varOS) );
-                                        VariantClear(&amp;varOS);
+                                        SafeArrayUnaccessData( V_ARRAY(&varOS) );
+                                        VariantClear(&varOS);
                                     }
 
                                     SysFreeString(szString);
@@ -184,7 +184,7 @@ HRESULT EnumeratePropertyValue(IADsPropertyEntry *pEntry)
 
                             case ADSTYPE_UTC_TIME:
                                 //  wprintf(L"Value of type UTC_TIME\n");
-                                hr = pValue->get_UTCTime(&amp;date);
+                                hr = pValue->get_UTCTime(&date);
                                 if (SUCCEEDED(hr)) 
                                 {
                                     VARIANT varDate;
@@ -193,9 +193,9 @@ HRESULT EnumeratePropertyValue(IADsPropertyEntry *pEntry)
                                     varDate.vt = VT_DATE;
                                     varDate.date = date;
 
-                                    VariantChangeType(&amp;varDate, &amp;varDate, VARIANT_NOVALUEPROP, VT_BSTR);
+                                    VariantChangeType(&varDate, &varDate, VARIANT_NOVALUEPROP, VT_BSTR);
                                     wprintf(L"%s ",varDate.bstrVal);
-                                    VariantClear(&amp;varDate);
+                                    VariantClear(&varDate);
                                 }
                                 break;
 
@@ -203,16 +203,16 @@ HRESULT EnumeratePropertyValue(IADsPropertyEntry *pEntry)
                                 //  wprintf(L"Value of type Large Integer\n");
                                 //  Get the name of the property to handle
                                 //  the required properties.
-                                pEntry->get_Name(&amp;szString);
-                                hr = pValue->get_LargeInteger(&amp;pDisp);
+                                pEntry->get_Name(&szString);
+                                hr = pValue->get_LargeInteger(&pDisp);
                                 if (SUCCEEDED(hr))
                                 {
-                                    hr = pDisp->QueryInterface(IID_IADsLargeInteger, (void**)&amp;pLargeInt);
+                                    hr = pDisp->QueryInterface(IID_IADsLargeInteger, (void**)&pLargeInt);
                                     if (SUCCEEDED(hr))
                                     {
-                                        hr = pLargeInt->get_HighPart((long*)&amp;filetime.dwHighDateTime);
-                                        hr = pLargeInt->get_LowPart((long*)&amp;filetime.dwLowDateTime);
-                                        if((filetime.dwHighDateTime==0) &amp;&amp; (filetime.dwLowDateTime==0))
+                                        hr = pLargeInt->get_HighPart((long*)&filetime.dwHighDateTime);
+                                        hr = pLargeInt->get_LowPart((long*)&filetime.dwLowDateTime);
+                                        if((filetime.dwHighDateTime==0) && (filetime.dwLowDateTime==0))
                                         {
                                             wprintf(L"No Value ");
                                         }
@@ -235,11 +235,11 @@ HRESULT EnumeratePropertyValue(IADsPropertyEntry *pEntry)
                                                 }
                                                 else
                                                 {
-                                                    if (FileTimeToLocalFileTime(&amp;filetime, &amp;filetime) != 0) 
+                                                    if (FileTimeToLocalFileTime(&filetime, &filetime) != 0) 
                                                     {
-                                                        if (FileTimeToSystemTime(&amp;filetime, &amp;systemtime) != 0)
+                                                        if (FileTimeToSystemTime(&filetime, &systemtime) != 0)
                                                         {
-                                                            if (SystemTimeToVariantTime(&amp;systemtime, &amp;date) != 0) 
+                                                            if (SystemTimeToVariantTime(&systemtime, &date) != 0) 
                                                             {
                                                                 VARIANT varDate;
 
@@ -247,11 +247,11 @@ HRESULT EnumeratePropertyValue(IADsPropertyEntry *pEntry)
                                                                 varDate.vt = VT_DATE;
                                                                 varDate.date = date;
 
-                                                                VariantChangeType(&amp;varDate, &amp;varDate, VARIANT_NOVALUEPROP, VT_BSTR);
+                                                                VariantChangeType(&varDate, &varDate, VARIANT_NOVALUEPROP, VT_BSTR);
 
                                                                 wprintf(L"%s ",varDate.bstrVal);
 
-                                                                VariantClear(&amp;varDate);
+                                                                VariantClear(&varDate);
                                                             }
                                                             else
                                                             {
@@ -326,7 +326,7 @@ HRESULT EnumeratePropertyValue(IADsPropertyEntry *pEntry)
             SafeArrayUnaccessData((SAFEARRAY*)(var.pparray));
         }
 
-        VariantClear(&amp;var);
+        VariantClear(&var);
     }
 
     return hr;
@@ -354,17 +354,17 @@ HRESULT GetUserProperties(IADs *pObj)
         IADsPropertyList *pObjProps = NULL;
 
         //  QueryInterface for an IADsPropertyList pointer.
-        hr = pObj->QueryInterface(IID_IADsPropertyList, (void**)&amp;pObjProps);
+        hr = pObj->QueryInterface(IID_IADsPropertyList, (void**)&pObjProps);
         if (SUCCEEDED(hr))
         {
             VARIANT var;
 
             //  Enumerate the properties of the object.
-            hr = pObjProps->get_PropertyCount(&amp;lCountTotal);
+            hr = pObjProps->get_PropertyCount(&lCountTotal);
             wprintf(L"Property Count: %d\n",lCountTotal);
 
-            VariantInit(&amp;var);
-            hr = pObjProps->Next(&amp;var);
+            VariantInit(&var);
+            hr = pObjProps->Next(&var);
             if (SUCCEEDED(hr))
             {
                 lCount = 1L;
@@ -374,16 +374,16 @@ HRESULT GetUserProperties(IADs *pObj)
                     {
                         IADsPropertyEntry *pEntry = NULL;
 
-                        hr = V_DISPATCH(&amp;var)->QueryInterface(IID_IADsPropertyEntry, (void**)&amp;pEntry);
+                        hr = V_DISPATCH(&var)->QueryInterface(IID_IADsPropertyEntry, (void**)&pEntry);
                         if (SUCCEEDED(hr))
                         {
                             BSTR bstrString;
 
-                            hr = pEntry->get_Name(&amp;bstrString);
+                            hr = pEntry->get_Name(&bstrString);
                             wprintf(L"%s: ", bstrString);
                             SysFreeString(bstrString);
 
-                            hr = pEntry->get_ADsType(&amp;lPType);
+                            hr = pEntry->get_ADsType(&lPType);
                             if (lPType != ADSTYPE_INVALID)
                             {
                                 hr = EnumeratePropertyValue(pEntry);
@@ -412,8 +412,8 @@ HRESULT GetUserProperties(IADs *pObj)
                     {
                         printf("Unexpected returned type for VARIANT: %d",var.vt);
                     }
-                    VariantClear(&amp;var);
-                    hr = pObjProps->Next(&amp;var);
+                    VariantClear(&var);
+                    hr = pObjProps->Next(&var);
                     if (SUCCEEDED(hr))
                     {
                         lCount++;
@@ -464,14 +464,14 @@ HRESULT FindUserByName(IDirectorySearch *pSearchBase, //  Container to search.
 
     //  Set the search preference.
     DWORD dwNumPrefs = 1;
-    hr = pSearchBase->SetSearchPreference(&amp;SearchPrefs, dwNumPrefs);
+    hr = pSearchBase->SetSearchPreference(&SearchPrefs, dwNumPrefs);
     if (FAILED(hr))
     {
         return hr;
     }
 
     //  Create search filter.
-    LPWSTR pszFormat = L"(&amp;(objectCategory=person)(objectClass=user)(cn=%s))";
+    LPWSTR pszFormat = L"(&(objectCategory=person)(objectClass=user)(cn=%s))";
     LPWSTR pszSearchFilter = new WCHAR[wcslen(pszFormat) + wcslen(szFindUser) + 1];
     if(NULL == pszSearchFilter)
     {
@@ -489,7 +489,7 @@ HRESULT FindUserByName(IDirectorySearch *pSearchBase, //  Container to search.
     hr = pSearchBase->ExecuteSearch(pszSearchFilter,
                                     pszAttribute,
                                     NUM_ATTRIBUTES,
-                                    &amp;hSearch);
+                                    &hSearch);
     if (SUCCEEDED(hr))
     {    
         //  Call IDirectorySearch::GetNextRow() to retrieve the next row of data.
@@ -500,7 +500,7 @@ HRESULT FindUserByName(IDirectorySearch *pSearchBase, //  Container to search.
             for (DWORD x = 0; x < NUM_ATTRIBUTES; x++)
             {
                 //  Get the data for this column.
-                hr = pSearchBase->GetColumn(hSearch, pszAttribute[x], &amp;col);
+                hr = pSearchBase->GetColumn(hSearch, pszAttribute[x], &col);
                 if (SUCCEEDED(hr))
                 {
                     //  Print the data for the column and free the column.
@@ -521,7 +521,7 @@ HRESULT FindUserByName(IDirectorySearch *pSearchBase, //  Container to search.
                         }
                     }
 
-                    pSearchBase->FreeColumn( &amp;col );
+                    pSearchBase->FreeColumn( &col );
                 }
                 else
                 {
@@ -583,18 +583,18 @@ void wmain(int argc, wchar_t *argv[])
         NULL,
         ADS_SECURE_AUTHENTICATION, //  Use Secure Authentication.
         IID_IADs,
-        (void**)&amp;pObject);
+        (void**)&pObject);
     if(SUCCEEDED(hr))
     {
         VARIANT var;
-        VariantInit(&amp;var);
-        hr = pObject->Get(CComBSTR(L"defaultNamingContext"), &amp;var);
+        VariantInit(&var);
+        hr = pObject->Get(CComBSTR(L"defaultNamingContext"), &var);
         if (SUCCEEDED(hr))
         {
 #ifdef _MBCS
             wcscpy_s(szPath, L"LDAP://");
             wcscat_s(szPath, var.bstrVal);
-            VariantClear(&amp;var);
+            VariantClear(&var);
 #endif _MBCS
             if (pObject)
             {
@@ -608,12 +608,12 @@ void wmain(int argc, wchar_t *argv[])
                 NULL,
                 ADS_SECURE_AUTHENTICATION, //  Use Secure Authentication.
                 IID_IDirectorySearch,
-                (void**)&amp;pDS);
+                (void**)&pDS);
             if (SUCCEEDED(hr))
             {
                 hr =  FindUserByName(pDS, //  Container to search
                     szBuffer,   //  Name of user to find
-                    &amp;pObject); //  Return a pointer to the user
+                    &pObject); //  Return a pointer to the user
                 if (SUCCEEDED(hr))
                 {
                     wprintf (L"----------------------------------------------\n");
@@ -652,8 +652,8 @@ Const ADS_SCOPE_ONELEVEL = 1
 Const ADS_SCOPE_SUBTREE = 2
 
 Const ADS_CHASE_REFERRALS_NEVER = 0
-Const ADS_CHASE_REFERRALS_SUBORDINATE = &amp;H20
-Const ADS_CHASE_REFERRALS_EXTERNAL = &amp;H40
+Const ADS_CHASE_REFERRALS_SUBORDINATE = &H20
+Const ADS_CHASE_REFERRALS_EXTERNAL = &H40
 Const ADS_CHASE_REFERRALS_ALWAYS = ADS_CHASE_REFERRALS_SUBORDINATE Or ADS_CHASE_REFERRALS_EXTERNAL
 
 Dim sUserName As String

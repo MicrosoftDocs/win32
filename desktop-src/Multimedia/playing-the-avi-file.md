@@ -36,7 +36,7 @@ DWORD PlayMovie(WORD wDevID, DWORD dwFrom, DWORD dwTo)
  
     // Send the MCI_PLAY command and return the result. 
     return mciSendCommand(wDevID, MCI_PLAY, dwFlags, 
-       (DWORD)(LPVOID)&amp;mciPlay); 
+       (DWORD)(LPVOID)&mciPlay); 
 } 
 ```
 

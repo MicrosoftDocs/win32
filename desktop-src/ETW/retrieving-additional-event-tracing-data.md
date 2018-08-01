@@ -30,7 +30,7 @@ The following procedure describes how to use the [**TraceSetInformation**](trace
     Win32Error error = TraceSetInformation(
         m_sessionHandle,
         TraceProviderBinaryTracking,
-        &amp;enabled,
+        &enabled,
         sizeof(enabled));
     ```
 

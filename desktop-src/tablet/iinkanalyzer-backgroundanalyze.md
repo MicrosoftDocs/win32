@@ -71,12 +71,12 @@ The following example checks the ink analyzer's dirty region, and then initiates
 ```C++
 // Check that the ink analyzer's dirty region is not empty.
 IAnalysisRegion *pDirtyRegion;
-hr = this->m_spIInkAnalyzer->GetDirtyRegion(&amp;pDirtyRegion);
+hr = this->m_spIInkAnalyzer->GetDirtyRegion(&pDirtyRegion);
 
 if (SUCCEEDED(hr))
 {
     VARIANT_BOOL bIsEmpty;
-    hr = pDirtyRegion->IsEmpty(&amp;bIsEmpty);
+    hr = pDirtyRegion->IsEmpty(&bIsEmpty);
 
     if (SUCCEEDED(hr))
     {

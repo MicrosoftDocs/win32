@@ -24,27 +24,27 @@ CLSID  encoderClsid;
 Image  multi(L"Multiframe.tif");
 
 // Get the CLSID of the PNG encoder.
-GetEncoderClsid(L"image/png", &amp;encoderClsid);
+GetEncoderClsid(L"image/png", &encoderClsid);
 
 // Display and save the first page (index 0).
-multi.SelectActiveFrame(&amp;pageGuid, 0);
-graphics.DrawImage(&amp;multi, 10, 10);
-multi.Save(L"Page0.png", &amp;encoderClsid, NULL);
+multi.SelectActiveFrame(&pageGuid, 0);
+graphics.DrawImage(&multi, 10, 10);
+multi.Save(L"Page0.png", &encoderClsid, NULL);
 
 // Display and save the second page.
-multi.SelectActiveFrame(&amp;pageGuid, 1);
-graphics.DrawImage(&amp;multi, 200, 10);
-multi.Save(L"Page1.png", &amp;encoderClsid, NULL);
+multi.SelectActiveFrame(&pageGuid, 1);
+graphics.DrawImage(&multi, 200, 10);
+multi.Save(L"Page1.png", &encoderClsid, NULL);
 
 // Display and save the third page.
-multi.SelectActiveFrame(&amp;pageGuid, 2);
-graphics.DrawImage(&amp;multi, 10, 150);
-multi.Save(L"Page2.png", &amp;encoderClsid, NULL);
+multi.SelectActiveFrame(&pageGuid, 2);
+graphics.DrawImage(&multi, 10, 150);
+multi.Save(L"Page2.png", &encoderClsid, NULL);
 
 // Display and save the fourth page.
-multi.SelectActiveFrame(&amp;pageGuid, 3);
-graphics.DrawImage(&amp;multi, 200, 150);
-multi.Save(L"Page3.png", &amp;encoderClsid, NULL);
+multi.SelectActiveFrame(&pageGuid, 3);
+graphics.DrawImage(&multi, 200, 150);
+multi.Save(L"Page3.png", &encoderClsid, NULL);
 ```
 
 

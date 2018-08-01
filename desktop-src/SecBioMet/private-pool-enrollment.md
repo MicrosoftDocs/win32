@@ -161,8 +161,8 @@ static void onEnrollOrPractice(
     SIZE_T unitSchemaCount = 0;
     HRESULT hr = WinBioEnumBiometricUnits( 
                     WINBIO_TYPE_FINGERPRINT, 
-                    &amp;unitSchemaArray, 
-                    &amp;unitSchemaCount 
+                    &unitSchemaArray, 
+                    &unitSchemaCount 
                     );
     if (SUCCEEDED(hr))
     {
@@ -171,7 +171,7 @@ static void onEnrollOrPractice(
                 _T("Choose a sensor for the private pool"), 
                 unitSchemaArray, 
                 unitSchemaCount, 
-                &amp;selectedUnit
+                &selectedUnit
                 ))
         {
             // Build the array of Unit IDs that will make
@@ -197,14 +197,14 @@ static void onEnrollOrPractice(
                 WINBIO_FLAG_BASIC, 
                 unitIdArray, 
                 unitIdCount, 
-                &amp;privateDatabaseId, 
-                &amp;sessionHandle 
+                &privateDatabaseId, 
+                &sessionHandle 
                 );
         if (SUCCEEDED(hr))
         {
             WINBIO_BIOMETRIC_SUBTYPE subFactor = WINBIO_SUBTYPE_NO_INFORMATION;
-            if (selectSubFactorMenu( &amp;subFactor ) &amp;&amp;
-                subFactor != WINBIO_SUBTYPE_NO_INFORMATION &amp;&amp;
+            if (selectSubFactorMenu( &subFactor ) &&
+                subFactor != WINBIO_SUBTYPE_NO_INFORMATION &&
                 subFactor != WINBIO_SUBTYPE_ANY)
             {
                 //
@@ -212,7 +212,7 @@ static void onEnrollOrPractice(
                 //
                 _tprintf(_T("\nTap the sensor once when you're ready to begin enrolling...\n\n"));
                 WINBIO_UNIT_ID unitId = 0;
-                hr = WinBioLocateSensor( sessionHandle, &amp;unitId);
+                hr = WinBioLocateSensor( sessionHandle, &unitId);
                 if (SUCCEEDED(hr))
                 {
                     //
@@ -237,7 +237,7 @@ static void onEnrollOrPractice(
                             WINBIO_REJECT_DETAIL rejectDetail = 0;
                             hr = WinBioEnrollCapture(
                                     sessionHandle,
-                                    &amp;rejectDetail
+                                    &rejectDetail
                                     );
                             _tprintf(_T("   Sample %d captured from unit number %d.\n"), swipeCount, unitId);
                             if (hr == WINBIO_I_MORE_DATA)
@@ -278,11 +278,11 @@ static void onEnrollOrPractice(
                                 BOOLEAN isNewTemplate = FALSE;
 
                                 _tprintf(_T("Committing enrollment...\n"));
-                                hr = WinBioEnrollCommit( sessionHandle, &amp;identity, &amp;isNewTemplate);
+                                hr = WinBioEnrollCommit( sessionHandle, &identity, &isNewTemplate);
                                 if (SUCCEEDED(hr))
                                 {
                                     _tprintf(_T("Enrollment committed to database\n"));
-                                    displayIdentity( &amp;identity, subFactor );
+                                    displayIdentity( &identity, subFactor );
                                 }
                             }
                             else
@@ -388,7 +388,7 @@ static bool selectSubFactorMenu(
     }
 
     ULONG chosen = 0;
-    if (getUlongValue( &amp;chosen ) &amp;&amp;
+    if (getUlongValue( &chosen ) &&
         (chosen - 1) < ARRAYSIZE(subFactors))
     {
         *SubFactor = subFactors[chosen - 1];
@@ -405,7 +405,7 @@ static bool getUlongValue(
     ULONG value = 0;
 
     _tprintf( _T("\n- Enter a number: "));
-    if (_tscanf_s(_T("%u"), &amp;value) != 0)
+    if (_tscanf_s(_T("%u"), &value) != 0)
     {
         *Value = value;
         return true;

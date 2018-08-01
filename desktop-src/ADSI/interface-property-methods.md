@@ -32,7 +32,7 @@ The following code example shows the invocation of the property methods that fol
 ```C++
 IADs *pADs;
 BSTR bstrName;
-pADs->get_Name(&amp;bstrName);
+pADs->get_Name(&bstrName);
 ```
 
 

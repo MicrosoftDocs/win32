@@ -40,17 +40,17 @@ The following code example obtains a pointer to the [**IXpsOMDocumentSequence**]
     UINT32  thisDoc = 0;
 
     // get the fixed document sequence of the package
-    hr = xpsPackage->GetDocumentSequence(&amp;docSeq);
+    hr = xpsPackage->GetDocumentSequence(&docSeq);
 
     // get the collection of fixed documents in 
     //  the fixed document sequence
-    hr = docSeq->GetDocuments(&amp;docs);
+    hr = docSeq->GetDocuments(&docs);
 
     // walk the collection of documents;
-    hr = docs->GetCount(&amp;numDocs);
+    hr = docs->GetCount(&numDocs);
     thisDoc = 0;
     while (thisDoc < numDocs) {
-        hr = docs->GetAt(thisDoc, &amp;doc);
+        hr = docs->GetAt(thisDoc, &doc);
  
         // use this doc for something
 

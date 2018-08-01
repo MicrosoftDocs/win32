@@ -56,7 +56,7 @@ void wmain (int argc, WCHAR ** argv)
 
    wprintf (L"List of protected files:\n\n", argv[1]);
 
-   while (FALSE != (fResult = SfcGetNextProtectedFile (NULL, &amp;pfd)))
+   while (FALSE != (fResult = SfcGetNextProtectedFile (NULL, &pfd)))
    {
       wprintf (L"   %lu   %s\n", pfd.FileNumber, pfd.FileName);
    }

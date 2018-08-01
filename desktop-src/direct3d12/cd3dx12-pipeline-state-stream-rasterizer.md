@@ -29,8 +29,8 @@ A helper structure used to describe a rasterizer description as a single object 
 ```C++
 struct CD3DX12_PIPELINE_STATE_STREAM_RASTERIZER {
                                            CD3DX12_PIPELINE_STATE_STREAM_RASTERIZER;
-                                           CD3DX12_PIPELINE_STATE_STREAM_RASTERIZER(CD3DX12_RASTERIZER_DESC const &amp;i);
-  CD3DX12_PIPELINE_STATE_STREAM_RASTERIZER operator=(CD3DX12_RASTERIZER_DESC const&amp; i);
+                                           CD3DX12_PIPELINE_STATE_STREAM_RASTERIZER(CD3DX12_RASTERIZER_DESC const &i);
+  CD3DX12_PIPELINE_STATE_STREAM_RASTERIZER operator=(CD3DX12_RASTERIZER_DESC const& i);
                                            operator CD3DX12_RASTERIZER_DESC() const;
 };
 ```

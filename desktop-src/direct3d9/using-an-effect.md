@@ -47,7 +47,7 @@ DWORD dwShaderFlags = 0;
         NULL, // LPD3DXINCLUDE pInclude,
         dwShaderFlags, 
         NULL, // LPD3DXEFFECTPOOL pPool,
-        &amp;g_pEffect, 
+        &g_pEffect, 
         NULL );
 ```
 
@@ -87,7 +87,7 @@ Effect render code is also simpler than the corresponding render code without an
 
 ```
 // Apply the technique contained in the effect 
-g_pEffect->Begin(&amp;cPasses, 0);
+g_pEffect->Begin(&cPasses, 0);
 
 for (iPass = 0; iPass < cPasses; iPass++)
 {
@@ -200,7 +200,7 @@ An effect pool contains shared effect parameters. The pool is created by calling
 ```
 ID3DXEffectPool* g_pEffectPool = NULL;   // Effect pool for sharing parameters
 
-    D3DXCreateEffectPool( &amp;g_pEffectPool );
+    D3DXCreateEffectPool( &g_pEffectPool );
 ```
 
 
@@ -569,7 +569,7 @@ Parameter blocks are blocks of effect state changes. A parameter block can recor
 
     m_pEffect->BeginParameterBlock();
     D3DXVECTOR4 v4( Diffuse.r, Diffuse.g, Diffuse.b, Diffuse.a );
-    m_pEffect->SetVector( "g_vDiffuse", &amp;v4 );
+    m_pEffect->SetVector( "g_vDiffuse", &v4 );
     m_pEffect->SetFloat( "g_fReflectivity", fReflectivity );
     m_pEffect->SetFloat( "g_fAnimSpeed", fAnimSpeed );
     m_pEffect->SetFloat( "g_fSizeMul", fSize );
@@ -600,7 +600,7 @@ CObj g_aObj[NUM_OBJS];       // Object instances
 
             ...
 
-            pEffect->Begin( &amp;cPasses, 0 );
+            pEffect->Begin( &cPasses, 0 );
             for( iPass = 0; iPass < cPasses; iPass++ )
             {
               ...

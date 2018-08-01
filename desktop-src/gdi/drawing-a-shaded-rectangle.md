@@ -40,7 +40,7 @@ gRect.UpperLeft  = 0;
 gRect.LowerRight = 1;
 
 // Draw a shaded rectangle. 
-GradientFill(hdc, vertex, 2, &amp;gRect, 1, GRADIENT_FILL_RECT_H);
+GradientFill(hdc, vertex, 2, &gRect, 1, GRADIENT_FILL_RECT_H);
 ```
 
 

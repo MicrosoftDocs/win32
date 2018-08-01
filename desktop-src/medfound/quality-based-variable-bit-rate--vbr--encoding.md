@@ -65,7 +65,7 @@ HRESULT SetEncodingProperties (const GUID guidMT, IPropertyStore* pProps)
     {
         case CBR:
             // Set VBR to false.
-            hr = InitPropVariantFromBoolean(FALSE, &amp;var);
+            hr = InitPropVariantFromBoolean(FALSE, &var);
             if (FAILED(hr))
             {
                 goto done;
@@ -80,7 +80,7 @@ HRESULT SetEncodingProperties (const GUID guidMT, IPropertyStore* pProps)
             // Set the video buffer window.
             if (guidMT == MFMediaType_Video)
             {
-                hr = InitPropVariantFromInt32(VIDEO_WINDOW_MSEC, &amp;var);
+                hr = InitPropVariantFromInt32(VIDEO_WINDOW_MSEC, &var);
                 if (FAILED(hr))
                 {
                     goto done;
@@ -96,7 +96,7 @@ HRESULT SetEncodingProperties (const GUID guidMT, IPropertyStore* pProps)
 
         case VBR:
             //Set VBR to true.
-            hr = InitPropVariantFromBoolean(TRUE, &amp;var);
+            hr = InitPropVariantFromBoolean(TRUE, &var);
             if (FAILED(hr))
             {
                 goto done;
@@ -110,7 +110,7 @@ HRESULT SetEncodingProperties (const GUID guidMT, IPropertyStore* pProps)
 
             // Number of encoding passes is 1.
 
-            hr = InitPropVariantFromInt32(1, &amp;var);
+            hr = InitPropVariantFromInt32(1, &var);
             if (FAILED(hr))
             {
                 goto done;
@@ -126,7 +126,7 @@ HRESULT SetEncodingProperties (const GUID guidMT, IPropertyStore* pProps)
 
             if (guidMT == MFMediaType_Audio)
             {
-                hr = InitPropVariantFromUInt32(98, &amp;var);
+                hr = InitPropVariantFromUInt32(98, &var);
                 if (FAILED(hr))
                 {
                     goto done;
@@ -140,7 +140,7 @@ HRESULT SetEncodingProperties (const GUID guidMT, IPropertyStore* pProps)
             }
             else if (guidMT == MFMediaType_Video)
             {
-                hr = InitPropVariantFromUInt32(95, &amp;var);
+                hr = InitPropVariantFromUInt32(95, &var);
                 if (FAILED(hr))
                 {
                     goto done;
@@ -160,7 +160,7 @@ HRESULT SetEncodingProperties (const GUID guidMT, IPropertyStore* pProps)
     }    
 
 done:
-    PropVariantClear(&amp;var);
+    PropVariantClear(&var);
     return hr;
 }
 ```

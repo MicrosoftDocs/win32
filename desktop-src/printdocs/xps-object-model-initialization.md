@@ -36,7 +36,7 @@ The following example creates the object factory that will be used to create XPS
         NULL, 
         CLSCTX_INPROC_SERVER,
         __uuidof(IXpsOMObjectFactory),
-        reinterpret_cast<LPVOID*>(&amp;xpsFactory));
+        reinterpret_cast<LPVOID*>(&xpsFactory));
 
     if (SUCCEEDED(hr))
     {

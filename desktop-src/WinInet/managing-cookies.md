@@ -52,7 +52,7 @@ retry:
 
 // The first call to InternetGetCookie will get the required
 // buffer size needed to download the cookie data.
-if (!InternetGetCookie(szURL, NULL, lpszData, &amp;dwSize))
+if (!InternetGetCookie(szURL, NULL, lpszData, &dwSize))
 {
     // Check for an insufficient buffer error.
     if (GetLastError()== ERROR_INSUFFICIENT_BUFFER)

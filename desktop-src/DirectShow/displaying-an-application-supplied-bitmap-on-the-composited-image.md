@@ -33,7 +33,7 @@ HRESULT BlendApplicationImage(
 {
     LONG cx, cy;
     HRESULT hr;
-    hr = pWc->GetNativeVideoSize(&amp;cx, &amp;cy, NULL, NULL);
+    hr = pWc->GetNativeVideoSize(&cx, &cy, NULL, NULL);
     if (FAILED(hr))
         return hr;
     
@@ -52,7 +52,7 @@ HRESULT BlendApplicationImage(
     }
     
     BITMAP bm;
-    if (0 == GetObject(hbm, sizeof(bm), &amp;bm))
+    if (0 == GetObject(hbm, sizeof(bm), &bm))
     {
         DeleteDC(hdcBmp);
         return E_FAIL;
@@ -66,12 +66,12 @@ HRESULT BlendApplicationImage(
     }
     
     VMRALPHABITMAP bmpInfo;
-    ZeroMemory(&amp;bmpInfo, sizeof(bmpInfo) );
+    ZeroMemory(&bmpInfo, sizeof(bmpInfo) );
     bmpInfo.dwFlags = VMRBITMAP_HDC;
     bmpInfo.hdc = hdcBmp;
     
     // Show the entire bitmap in the top-left corner of the video image.
-    SetRect(&amp;bmpInfo.rSrc, 0, 0, bm.bmWidth, bm.bmHeight);
+    SetRect(&bmpInfo.rSrc, 0, 0, bm.bmWidth, bm.bmHeight);
     bmpInfo.rDest.left = 0.f;
     bmpInfo.rDest.top = 0.f;
     bmpInfo.rDest.right = (float)bm.bmWidth / (float)cx;
@@ -81,10 +81,10 @@ HRESULT BlendApplicationImage(
     bmpInfo.fAlpha = 0.2f;
     
     IVMRMixerBitmap* pBmp;
-    hr = pWc->QueryInterface(IID_IVMRMixerBitmap, (LPVOID *)&amp;pBmp);
+    hr = pWc->QueryInterface(IID_IVMRMixerBitmap, (LPVOID *)&pBmp);
     if (SUCCEEDED(hr)) 
     {
-        pBmp->SetAlphaBitmap(&amp;bmpInfo);
+        pBmp->SetAlphaBitmap(&bmpInfo);
         pBmp->Release();
     }
     

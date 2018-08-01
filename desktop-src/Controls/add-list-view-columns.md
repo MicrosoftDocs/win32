@@ -67,7 +67,7 @@ BOOL InitListViewColumns(HWND hWndListView)
                    sizeof(szText)/sizeof(szText[0]));
 
         // Insert the columns into the list view.
-        if (ListView_InsertColumn(hWndListView, iCol, &amp;lvc) == -1)
+        if (ListView_InsertColumn(hWndListView, iCol, &lvc) == -1)
             return FALSE;
     }
     

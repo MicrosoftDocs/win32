@@ -84,17 +84,17 @@ SOCKET OpenAndConnect(LPWSTR NodeName, LPWSTR PortName)
     }
 
     iResult = setsockopt(ConnSocket, IPPROTO_IPV6,
-        IPV6_V6ONLY, (char*)&amp;ipv6only, sizeof(ipv6only) );
+        IPV6_V6ONLY, (char*)&ipv6only, sizeof(ipv6only) );
     if (iResult == SOCKET_ERROR){
         closesocket(ConnSocket);
         return INVALID_SOCKET;       
     }
 
     bSuccess = WSAConnectByName(ConnSocket, NodeName, 
-            PortName, &amp;dwLocalAddr,
-            (SOCKADDR*)&amp;LocalAddr,
-            &amp;dwRemoteAddr,
-            (SOCKADDR*)&amp;RemoteAddr,
+            PortName, &dwLocalAddr,
+            (SOCKADDR*)&LocalAddr,
+            &dwRemoteAddr,
+            (SOCKADDR*)&RemoteAddr,
             NULL,
             NULL);
     if (bSuccess){
@@ -154,7 +154,7 @@ SOCKET OpenAndConnect(SOCKET_ADDRESS_LIST *AddressList)
     }
 
     iResult = setsockopt(ConnSocket, IPPROTO_IPV6,
-        IPV6_V6ONLY, (char*)&amp;ipv6only, sizeof(ipv6only) );
+        IPV6_V6ONLY, (char*)&ipv6only, sizeof(ipv6only) );
     if (iResult == SOCKET_ERROR){
         closesocket(ConnSocket);
         return INVALID_SOCKET;       
@@ -163,10 +163,10 @@ SOCKET OpenAndConnect(SOCKET_ADDRESS_LIST *AddressList)
     // AddressList may contain IPv6 and/or IPv4Mapped addresses
     bSuccess = WSAConnectByList(ConnSocket,
             AddressList,
-            &amp;dwLocalAddr,
-            (SOCKADDR*)&amp;LocalAddr,
-            &amp;dwRemoteAddr,
-            (SOCKADDR*)&amp;RemoteAddr,
+            &dwLocalAddr,
+            (SOCKADDR*)&LocalAddr,
+            &dwRemoteAddr,
+            (SOCKADDR*)&RemoteAddr,
             NULL,
             NULL);
     if (bSuccess){
@@ -205,7 +205,7 @@ SOCKET OpenAndConnect(char *ServerName, char *PortName, int SocketType)
     SOCKET ConnSocket;
     ADDRINFO *AI;
 
-    if (getaddrinfo(ServerName, PortName, NULL, &amp;AI) != 0) {
+    if (getaddrinfo(ServerName, PortName, NULL, &AI) != 0) {
         return INVALID_SOCKET;
     }
 
@@ -255,7 +255,7 @@ SOCKET OpenAndConnect(char *ServerName, unsigned short Port, int SocketType)
         return INVALID_SOCKET;
     }
 
-    memset(&amp;ServerAddr, 0, sizeof(ServerAddr));
+    memset(&ServerAddr, 0, sizeof(ServerAddr));
     ServerAddr.sin_family = AF_INET;
     ServerAddr.sin_port = htons(Port);
 
@@ -269,7 +269,7 @@ SOCKET OpenAndConnect(char *ServerName, unsigned short Port, int SocketType)
         ServerAddr.sin_addr.s_addr = inet_addr(ServerName);
     } 
 
-    if (connect(ConnSocket, (LPSOCKADDR)&amp;ServerAddr, 
+    if (connect(ConnSocket, (LPSOCKADDR)&ServerAddr, 
         sizeof(ServerAddr)) == SOCKET_ERROR)
     {
         closesocket(ConnSocket);
@@ -324,11 +324,11 @@ SOCKET OpenAndConnect(char *Server, char *PortName, int Family, int SocketType)
 
     char *AddrName = NULL;
 
-    memset(&amp;Hints, 0, sizeof (Hints));
+    memset(&Hints, 0, sizeof (Hints));
     Hints.ai_family = Family;
     Hints.ai_socktype = SocketType;
 
-    iResult = getaddrinfo(Server, PortName, &amp;Hints, &amp;AddrInfo);
+    iResult = getaddrinfo(Server, PortName, &Hints, &AddrInfo);
     if (iResult != 0) {
         printf("Cannot resolve address [%s] and port [%s], error %d: %s\n",
                Server, PortName, WSAGetLastError(), gai_strerror(iResult));
@@ -419,10 +419,10 @@ int ResolveName(char *Server, char *PortName, int Family, int SocketType)
     // containing the loopback address for that family.
     //
     
-    memset(&amp;Hints, 0, sizeof(Hints));
+    memset(&Hints, 0, sizeof(Hints));
     Hints.ai_family = Family;
     Hints.ai_socktype = SocketType;
-    iResult = getaddrinfo(Server, PortName, &amp;Hints, &amp;AddrInfo);
+    iResult = getaddrinfo(Server, PortName, &Hints, &AddrInfo);
     if (iResult != 0) {
         printf("Cannot resolve address [%s] and port [%s], error %d: %s\n",
                Server, PortName, WSAGetLastError(), gai_strerror(iResult));

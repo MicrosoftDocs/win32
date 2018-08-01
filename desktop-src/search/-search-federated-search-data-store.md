@@ -36,7 +36,7 @@ The [OpenSearch](http://go.microsoft.com/fwlink/p/?linkid=147911) web service yo
     The following example shows how a search term can be embedded in a URL.
 
     ```
-    http://example.com/search.aspx?query=terms&amp;param=mysearchword
+    http://example.com/search.aspx?query=terms&param=mysearchword
     ```
 
     
@@ -194,8 +194,8 @@ However, there are alternatives that can avoid barriers to enabling a data store
       <ShortName>Windows Help</ShortName>
       <Description>Search Windows Help using the live.com search engine</Description>
       <Language></Language>
-      <Url type="text/html" template="http://windowshelp.microsoft.com/windows/en-us/search.aspx?=&amp;amp;qu={searchTerms}"/>
-      <Url type="application/rss+xml" template="http://api.search.live.com/rss.aspx?source=web&amp;amp;query={searchTerms} site:windowshelp.microsoft.com&amp;amp;web.count=50"/>
+      <Url type="text/html" template="http://windowshelp.microsoft.com/windows/en-us/search.aspx?=&amp;qu={searchTerms}"/>
+      <Url type="application/rss+xml" template="http://api.search.live.com/rss.aspx?source=web&amp;query={searchTerms} site:windowshelp.microsoft.com&amp;web.count=50"/>
     </OpenSearchDescription>
     ```
 

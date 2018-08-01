@@ -71,12 +71,12 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colQuotas = objWMIService.ExecQuery (&quot;Select * from Win32_DiskQuota&quot;)
 For each objQuota in colQuotas
-    Wscript.Echo &quot;Volume: &quot;&amp; vbTab &amp;  objQuota.QuotaVolume
-    Wscript.Echo &quot;User: &quot;&amp; vbTab &amp;  objQuota.User      
-    Wscript.Echo &quot;Disk Space Used: &quot; &amp; vbTab &amp;  objQuota.DiskSpaceUsed
+    Wscript.Echo &quot;Volume: &quot;& vbTab &  objQuota.QuotaVolume
+    Wscript.Echo &quot;User: &quot;& vbTab &  objQuota.User      
+    Wscript.Echo &quot;Disk Space Used: &quot; & vbTab &  objQuota.DiskSpaceUsed
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -123,7 +123,7 @@ foreach ($objQuota in $colItems)
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colMonitoredEvents = objWMIService. ExecNotificationQuery( &quot;Select * from Win32_VolumeChangeEvent&quot;)
 Do
     Set objLatestEvent = colMonitoredEvents.NextEvent
@@ -154,11 +154,11 @@ Loop</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colItems = objWMIService.ExecQuery( &quot;Select * from Win32_CDROMDrive&quot;)
 For Each objItem in colItems
-    Wscript.Echo &quot;Device ID: &quot; &amp; objItem.DeviceID
-    Wscript.Echo &quot;Media Loaded: &quot; &amp; objItem.MediaLoaded
+    Wscript.Echo &quot;Device ID: &quot; & objItem.DeviceID
+    Wscript.Echo &quot;Media Loaded: &quot; & objItem.MediaLoaded
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -205,7 +205,7 @@ foreach ($objItem in $colItems)
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject( &quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject( &quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colItems = objWMIService.ExecQuery (&quot;Select * From Win32_LogicalDisk Where DeviceID = &#39;A:&#39;&quot;)
 
 For Each objItem in colItems
@@ -265,28 +265,28 @@ foreach ($objItem in $colItems)
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
 Set objWMIService = GetObject(&quot;winmgmts:&quot; _
-    &amp; &quot;{impersonationLevel=impersonate}!\\&quot; _
-    &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+    & &quot;{impersonationLevel=impersonate}!\\&quot; _
+    & strComputer & &quot;\root\cimv2&quot;)
 Set colDisks = objWMIService.ExecQuery _
     (&quot;Select * from Win32_LogicalDisk&quot;)
 For Each objDisk in colDisks
-    Wscript.Echo &quot;DeviceID: &quot;&amp; vbTab _
-        &amp;  objDisk.DeviceID       
+    Wscript.Echo &quot;DeviceID: &quot;& vbTab _
+        &  objDisk.DeviceID       
     Select Case objDisk.DriveType
         Case 1
-            Wscript.Echo &quot;No root directory. &quot; &amp; &quot;Drive type could not be &quot; &amp; &quot;determined.&quot;
+            Wscript.Echo &quot;No root directory. &quot; & &quot;Drive type could not be &quot; & &quot;determined.&quot;
         Case 2
-            Wscript.Echo &quot;DriveType: &quot;&amp; vbTab &amp;  &quot;Removable drive.&quot;
+            Wscript.Echo &quot;DriveType: &quot;& vbTab &  &quot;Removable drive.&quot;
         Case 3
-            Wscript.Echo &quot;DriveType: &quot;&amp; vbTab &amp;  &quot;Local hard disk.&quot;
+            Wscript.Echo &quot;DriveType: &quot;& vbTab &  &quot;Local hard disk.&quot;
         Case 4
-            Wscript.Echo &quot;DriveType: &quot;&amp; vbTab &amp;  &quot;Network disk.&quot;      
+            Wscript.Echo &quot;DriveType: &quot;& vbTab &  &quot;Network disk.&quot;      
         Case 5
-            Wscript.Echo &quot;DriveType: &quot;&amp; vbTab &amp;  &quot;Compact disk.&quot;      
+            Wscript.Echo &quot;DriveType: &quot;& vbTab &  &quot;Compact disk.&quot;      
         Case 6
-            Wscript.Echo &quot;DriveType: &quot;&amp; vbTab &amp;  &quot;RAM disk.&quot;   
+            Wscript.Echo &quot;DriveType: &quot;& vbTab &  &quot;RAM disk.&quot;   
         Case Else
-            Wscript.Echo &quot;Drive type could not be&quot; &amp; &quot; determined.&quot;
+            Wscript.Echo &quot;Drive type could not be&quot; & &quot; determined.&quot;
     End Select
 Next</code></pre></td>
 </tr>
@@ -345,11 +345,11 @@ foreach ($objDisk in $colDisks)
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colDisks = objWMIService.ExecQuery (&quot;Select * from Win32_LogicalDisk&quot;)
 For Each objDisk in colDisks
-    Wscript.Echo &quot;DeviceID: &quot; &amp; objDisk.DeviceID       
-    Wscript.Echo &quot;File System: &quot; &amp; objDisk.FileSystem
+    Wscript.Echo &quot;DeviceID: &quot; & objDisk.DeviceID       
+    Wscript.Echo &quot;File System: &quot; & objDisk.FileSystem
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -374,11 +374,11 @@ Next</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colDisks = objWMIService.ExecQuery (&quot;Select * from Win32_LogicalDisk&quot;)
 For Each objDisk in colDisks
-    Wscript.Echo &quot;DeviceID: &quot; &amp; objDisk.DeviceID       
-    Wscript.Echo &quot;Free Disk Space: &quot; &amp; objDisk.FreeSpace
+    Wscript.Echo &quot;DeviceID: &quot; & objDisk.DeviceID       
+    Wscript.Echo &quot;Free Disk Space: &quot; & objDisk.FreeSpace
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -403,11 +403,11 @@ Next</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colDisks = objWMIService.ExecQuery (&quot;Select * from Win32_LogicalDisk&quot;)
 For Each objDisk in colDisks
-    Wscript.Echo &quot;DeviceID: &quot; &amp; objDisk.DeviceID       
-    Wscript.Echo &quot;Disk Size: &quot; &amp; objDisk.Size
+    Wscript.Echo &quot;DeviceID: &quot; & objDisk.DeviceID       
+    Wscript.Echo &quot;Disk Size: &quot; & objDisk.Size
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -432,13 +432,13 @@ Next</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colDisks = objWMIService. ExecQuery(&quot;Select * from Win32_MappedLogicalDisk&quot;)
 For Each objDisk in colDisks
-    Wscript.Echo &quot;Device ID: &quot; &amp; objDisk.DeviceID
-    Wscript.Echo &quot;Name: &quot; &amp; objDisk.Name
-    Wscript.Echo &quot;Free Space: &quot; &amp; objDisk.FreeSpace
-    Wscript.Echo &quot;Size: &quot; &amp; objDisk.Size
+    Wscript.Echo &quot;Device ID: &quot; & objDisk.DeviceID
+    Wscript.Echo &quot;Name: &quot; & objDisk.Name
+    Wscript.Echo &quot;Free Space: &quot; & objDisk.FreeSpace
+    Wscript.Echo &quot;Size: &quot; & objDisk.Size
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -463,7 +463,7 @@ Next</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colVolumes = objWMIService.ExecQuery (&quot;Select * from Win32_Volume Where Name = &#39;K:\\&#39;&quot;)
 For Each objVolume in colVolumes
      errResult = objVolume.Defrag()
@@ -496,34 +496,34 @@ Next</code></pre></td>
 <tr class="odd">
 <td><pre><code>ComputerName = &quot;.&quot;
 Set wmiServices  = GetObject ( _
-    &quot;winmgmts:{impersonationLevel=Impersonate}!//&quot; &amp; ComputerName)
+    &quot;winmgmts:{impersonationLevel=Impersonate}!//&quot; & ComputerName)
 &#39; Get physical disk drive
 Set wmiDiskDrives =  wmiServices.ExecQuery ( &quot;SELECT Caption, DeviceID FROM Win32_DiskDrive&quot;)
 
 For Each wmiDiskDrive In wmiDiskDrives
-    WScript.Echo &quot;Disk drive Caption: &quot; &amp; wmiDiskDrive.Caption &amp; VbNewLine &amp; &quot;DeviceID: &quot; &amp; &quot; (&quot; &amp; wmiDiskDrive.DeviceID &amp; &quot;)&quot;
+    WScript.Echo &quot;Disk drive Caption: &quot; & wmiDiskDrive.Caption & VbNewLine & &quot;DeviceID: &quot; & &quot; (&quot; & wmiDiskDrive.DeviceID & &quot;)&quot;
 
     &#39;Use the disk drive device id to
     &#39; find associated partition
     query = &quot;ASSOCIATORS OF {Win32_DiskDrive.DeviceID=&#39;&quot; _
-        &amp; wmiDiskDrive.DeviceID &amp; &quot;&#39;} WHERE AssocClass = Win32_DiskDriveToDiskPartition&quot;    
+        & wmiDiskDrive.DeviceID & &quot;&#39;} WHERE AssocClass = Win32_DiskDriveToDiskPartition&quot;    
     Set wmiDiskPartitions = wmiServices.ExecQuery(query)
 
     For Each wmiDiskPartition In wmiDiskPartitions
         &#39;Use partition device id to find logical disk
         Set wmiLogicalDisks = wmiServices.ExecQuery _
             (&quot;ASSOCIATORS OF {Win32_DiskPartition.DeviceID=&#39;&quot; _
-             &amp; wmiDiskPartition.DeviceID &amp; &quot;&#39;} WHERE AssocClass = Win32_LogicalDiskToPartition&quot;) 
+             & wmiDiskPartition.DeviceID & &quot;&#39;} WHERE AssocClass = Win32_LogicalDiskToPartition&quot;) 
 
         For Each wmiLogicalDisk In wmiLogicalDisks
             WScript.Echo &quot;Drive letter associated&quot; _
-                &amp; &quot; with disk drive = &quot; _ 
-                &amp; wmiDiskDrive.Caption _
-                &amp; wmiDiskDrive.DeviceID _
-                &amp; VbNewLine &amp; &quot; Partition = &quot; _
-                &amp; wmiDiskPartition.DeviceID _
-                &amp; VbNewLine &amp; &quot; is &quot; _
-                &amp; wmiLogicalDisk.DeviceID
+                & &quot; with disk drive = &quot; _ 
+                & wmiDiskDrive.Caption _
+                & wmiDiskDrive.DeviceID _
+                & VbNewLine & &quot; Partition = &quot; _
+                & wmiDiskPartition.DeviceID _
+                & VbNewLine & &quot; is &quot; _
+                & wmiLogicalDisk.DeviceID
         Next      
     Next
 Next</code></pre></td>

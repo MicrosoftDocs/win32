@@ -25,8 +25,8 @@ Region region1(Rect(50, 0, 50, 150));
 Region region2(Rect(0, 50, 150, 50));
 // Create a plus-shaped region by forming the union of region1 and region2.
 // The union replaces region1.
-region1.Union(&amp;region2);
-if(region1.IsVisible(point, &amp;graphics))
+region1.Union(&region2);
+if(region1.IsVisible(point, &graphics))
 {
    // The point is in the region. Use an opaque brush.
    solidBrush.SetColor(Color(255, 255, 0, 0));
@@ -36,7 +36,7 @@ else
    // The point is not in the region. Use a semitransparent brush.
    solidBrush.SetColor(Color(64, 255, 0, 0));
 }
-graphics.FillRegion(&amp;solidBrush, &amp;region1);
+graphics.FillRegion(&solidBrush, &region1);
 ```
 
 

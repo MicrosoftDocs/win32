@@ -68,7 +68,7 @@ HRESULT DisplaySAMIStyleNames(IMFPresentationDescriptor *pPD)
     UINT8 *pBuf = NULL;
     UINT32 cbBuf = 0;
 
-    HRESULT hr = pPD->GetAllocatedBlob(MF_PD_SAMI_STYLELIST, &amp;pBuf, &amp;cbBuf);
+    HRESULT hr = pPD->GetAllocatedBlob(MF_PD_SAMI_STYLELIST, &pBuf, &cbBuf);
 
     if (SUCCEEDED(hr))
     {

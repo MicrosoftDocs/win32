@@ -92,7 +92,7 @@ ADORecordset *prs = NULL;
                             L"DocTitle,DocFormat", 
                             L"PrimaryDate DESC", 
                             L"Contains('text')", 
-                            &amp;prs);
+                            &prs);
     if (SUCCEEDED(hr))
         prs->Release();
     return hr;
@@ -103,7 +103,7 @@ HRESULT TestExecuteSQLQuery(ISearchDesktop *psd)
     ADORecordset *prs = NULL;
     HRESULT hr;
 
-    hr = psd->ExecuteSQLQuery(L"select DocTitle from MyIndex..Scope() where contains('text')", &amp;prs);
+    hr = psd->ExecuteSQLQuery(L"select DocTitle from MyIndex..Scope() where contains('text')", &prs);
 
     if (SUCCEEDED(hr))
       prs->Release();
@@ -117,7 +117,7 @@ extern "C" int __cdecl wmain( int argc, WCHAR * argv[] )
     HRESULT         hr;
      
     if (SUCCEEDED(hr = CoCreateInstance(__uuidof(SearchDesktop), NULL, CLSCTX_INPROC_SERVER, 
-                                        __uuidof(ISearchDesktop), (void**)&amp;psd)))
+                                        __uuidof(ISearchDesktop), (void**)&psd)))
           {
              TestExecuteSQLQuery(psd);
              TestExecuteQuery(psd);

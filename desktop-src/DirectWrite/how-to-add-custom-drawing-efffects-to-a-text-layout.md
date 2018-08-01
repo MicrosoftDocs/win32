@@ -56,7 +56,7 @@ To add a text layout you must do the following:
     if (SUCCEEDED(hr))
     {
         RECT rect;
-        GetClientRect(hwnd_, &amp;rect); 
+        GetClientRect(hwnd_, &rect); 
         float width  = rect.right  / dpiScaleX_;
         float height = rect.bottom / dpiScaleY_;
 
@@ -66,7 +66,7 @@ To add a text layout you must do the following:
             pTextFormat_,  // The text format to apply to the string (contains font information, etc).
             width,         // The width of the layout box.
             height,        // The height of the layout box.
-            &amp;pTextLayout_  // The IDWriteTextLayout interface pointer.
+            &pTextLayout_  // The IDWriteTextLayout interface pointer.
             );
     }
     
@@ -76,7 +76,7 @@ To add a text layout you must do the following:
 
 3.  Finally, remember to release the text layout in the destructor.
     ```C++
-    SafeRelease(&amp;pTextLayout_);
+    SafeRelease(&pTextLayout_);
     ```
 
     
@@ -128,7 +128,7 @@ HRESULT hr = S_OK;
 // Create the path geometry.
 ID2D1PathGeometry* pPathGeometry = NULL;
 hr = pD2DFactory_->CreatePathGeometry(
-        &amp;pPathGeometry
+        &pPathGeometry
         );
 
 // Write to the path geometry using the geometry sink.
@@ -136,7 +136,7 @@ ID2D1GeometrySink* pSink = NULL;
 if (SUCCEEDED(hr))
 {
     hr = pPathGeometry->Open(
-        &amp;pSink
+        &pSink
         );
 }
 
@@ -175,8 +175,8 @@ if (SUCCEEDED(hr))
 {
     hr = pD2DFactory_->CreateTransformedGeometry(
         pPathGeometry,
-        &amp;matrix,
-        &amp;pTransformedGeometry
+        &matrix,
+        &pTransformedGeometry
         );
 }
 ```
@@ -206,22 +206,22 @@ if (clientDrawingEffect != NULL)
     // Go from IUnknown to ColorDrawingEffect.
     ColorDrawingEffect *colorDrawingEffect;
 
-    clientDrawingEffect->QueryInterface(__uuidof(ColorDrawingEffect), reinterpret_cast<void**>(&amp;colorDrawingEffect));
+    clientDrawingEffect->QueryInterface(__uuidof(ColorDrawingEffect), reinterpret_cast<void**>(&colorDrawingEffect));
 
     // Get the color from the ColorDrawingEffect object.
     D2D1_COLOR_F color;
 
-    colorDrawingEffect->GetColor(&amp;color);
+    colorDrawingEffect->GetColor(&color);
 
     // Create the brush using the color pecified by our ColorDrawingEffect object.
     if (SUCCEEDED(hr))
     {
         hr = pRT_->CreateSolidColorBrush(
             color,
-            &amp;pBrush);
+            &pBrush);
     }
 
-    SafeRelease(&amp;colorDrawingEffect);
+    SafeRelease(&colorDrawingEffect);
 }
 else
 {
@@ -232,7 +232,7 @@ else
             D2D1::ColorF(
             D2D1::ColorF::Black
             ),
-            &amp;pBrush);
+            &pBrush);
     }
 }
 ```
@@ -269,8 +269,8 @@ Don't forget to release the [Direct2D](https://msdn.microsoft.com/en-us/library/
 ```C++
 CustomTextRenderer::~CustomTextRenderer()
 {
-    SafeRelease(&amp;pD2DFactory_);
-    SafeRelease(&amp;pRT_);
+    SafeRelease(&pD2DFactory_);
+    SafeRelease(&pRT_);
 }
 ```
 
@@ -390,7 +390,7 @@ In the DemoApp destructor, release the custom text renderer.
 
 
 ```C++
-SafeRelease(&amp;pTextRenderer_);
+SafeRelease(&pTextRenderer_);
 ```
 
 
@@ -399,9 +399,9 @@ After that, add code to release the client drawing effect classes.
 
 
 ```C++
-SafeRelease(&amp;redDrawingEffect_);
-SafeRelease(&amp;blueDrawingEffect_);
-SafeRelease(&amp;greenDrawingEffect_);
+SafeRelease(&redDrawingEffect_);
+SafeRelease(&blueDrawingEffect_);
+SafeRelease(&greenDrawingEffect_);
 ```
 
 

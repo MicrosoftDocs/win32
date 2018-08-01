@@ -44,7 +44,7 @@ HRESULT GetDirectSoundGuid(EDataFlow flow, ERole role, GUID* pDevGuid)
     IPropertyStore *pProps = NULL;
 
     PROPVARIANT var;
-    PropVariantInit(&amp;var);
+    PropVariantInit(&var);
 
     if (pDevGuid == NULL)
     {
@@ -56,21 +56,21 @@ HRESULT GetDirectSoundGuid(EDataFlow flow, ERole role, GUID* pDevGuid)
     hr = CoCreateInstance(__uuidof(MMDeviceEnumerator),
                           NULL, CLSCTX_INPROC_SERVER,
                           __uuidof(IMMDeviceEnumerator),
-                          (void**)&amp;pEnumerator);
+                          (void**)&pEnumerator);
     EXIT_ON_ERROR(hr)
 
     // Get the endpoint device with the specified dataflow
     // direction (eRender or eCapture) and device role.
     hr = pEnumerator->GetDefaultAudioEndpoint(flow, role,
-                                              &amp;pDevice);
+                                              &pDevice);
     EXIT_ON_ERROR(hr)
 
-    hr = pDevice->OpenPropertyStore(STGM_READ, &amp;pProps);
+    hr = pDevice->OpenPropertyStore(STGM_READ, &pProps);
     EXIT_ON_ERROR(hr)
 
     // Get the DirectSound or DirectSoundCapture device GUID
     // (in WCHAR string format) for the endpoint device.
-    hr = pProps->GetValue(PKEY_AudioEndpoint_GUID, &amp;var);
+    hr = pProps->GetValue(PKEY_AudioEndpoint_GUID, &var);
     EXIT_ON_ERROR(hr)
 
     // Convert the WCHAR string to a GUID structure.
@@ -78,7 +78,7 @@ HRESULT GetDirectSoundGuid(EDataFlow flow, ERole role, GUID* pDevGuid)
     EXIT_ON_ERROR(hr)
 
 Exit:
-    PropVariantClear(&amp;var);
+    PropVariantClear(&var);
     SAFE_RELEASE(pEnumerator);
     SAFE_RELEASE(pDevice);
     SAFE_RELEASE(pProps);

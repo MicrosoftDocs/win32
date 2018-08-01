@@ -43,7 +43,7 @@ int main(int argc, char **argv)
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_ITaskScheduler,
-                          (void **) &amp;pITS);
+                          (void **) &pITS);
     if (FAILED(hr))
     {
       CoUninitialize();
@@ -65,7 +65,7 @@ int main(int argc, char **argv)
   lpcwszTaskName = L"Test Task";
   hr = pITS->Activate(lpcwszTaskName,
                       IID_ITask,
-                      (IUnknown**) &amp;pITask);
+                      (IUnknown**) &pITask);
   
   // Release the ITaskScheduler interface.
   pITS->Release();  
@@ -103,7 +103,7 @@ int main(int argc, char **argv)
   IPersistFile *pIPersistFile;
   
   hr = pITask->QueryInterface(IID_IPersistFile,
-                              (void **)&amp;pIPersistFile);
+                              (void **)&pIPersistFile);
   
   // Release the ITask interface.
   pITask->Release();  

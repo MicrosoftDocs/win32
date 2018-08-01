@@ -58,7 +58,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -66,7 +66,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -98,7 +98,7 @@ $$RC_START_HIGHLIGHT
     sslBinding.binding.bindingType = WS_SSL_TRANSPORT_SECURITY_BINDING_TYPE; // set the binding type
     
     // declare and initialize the array of all security bindings
-    WS_SECURITY_BINDING* securityBindings[1] = { &amp;sslBinding.binding };
+    WS_SECURITY_BINDING* securityBindings[1] = { &sslBinding.binding };
     
     // declare and initialize the security description
     WS_SECURITY_DESCRIPTION securityDescription = {}; // zero out the struct
@@ -115,7 +115,7 @@ $$RC_END_HIGHLIGHT
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -127,7 +127,7 @@ $$RC_END_HIGHLIGHT
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -138,12 +138,12 @@ $$RC_END_HIGHLIGHT
     hr = WsCreateServiceProxy(
         WS_CHANNEL_TYPE_REQUEST, 
         WS_HTTP_CHANNEL_BINDING, 
-        &amp;securityDescription, 
+        &securityDescription, 
         NULL, 
         0, 
         NULL,
         0,
-        &amp;proxy, 
+        &proxy, 
         error);
     if (FAILED(hr))
     {
@@ -154,7 +154,7 @@ $$RC_END_HIGHLIGHT
     
     hr = WsOpenServiceProxy(
         proxy, 
-        &amp;address, 
+        &address, 
         NULL, 
         error);
     if (FAILED(hr))
@@ -166,7 +166,7 @@ $$RC_END_HIGHLIGHT
         proxy, 
         1, 
         2, 
-        &amp;result, 
+        &result, 
         heap, 
         NULL, 
         0, 

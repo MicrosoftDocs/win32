@@ -19,7 +19,7 @@ Typical BSD Style (will not work on Windows)
 ```C++
         r = recv(ClientSocket, recvbuf, recvbuflen, 0);
         if (r == -1     /* or r < 0 */
-            &amp;&amp; errno == EWOULDBLOCK) {
+            && errno == EWOULDBLOCK) {
             printf("recv failed with error: EWOULDBLOCK\n");
         }    
 ```

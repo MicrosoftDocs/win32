@@ -160,7 +160,7 @@ class CQATCommandHandler
         CComQIPtr<IUICollection> spCollection(ppropvarCurrentValue->punkVal);
 
         UINT nCount;
-        if (SUCCEEDED(hr = spCollection->GetCount(&amp;nCount)))
+        if (SUCCEEDED(hr = spCollection->GetCount(&nCount)))
         {
           if (nCount == 0)
           {
@@ -173,16 +173,16 @@ class CQATCommandHandler
             {
               PROPERTYKEY keys[1] = {UI_PKEY_CommandId};
               CComObject<CItemProperties> *pItem = NULL;
-              if (SUCCEEDED(CComObject<CItemProperties>::CreateInstance(&amp;pItem)))
+              if (SUCCEEDED(CComObject<CItemProperties>::CreateInstance(&pItem)))
               {
                 PROPVARIANT vars[1];
 
-                InitPropVariantFromUInt32(commands[i], &amp;vars[0]);
+                InitPropVariantFromUInt32(commands[i], &vars[0]);
 
                 pItem->Initialize(NULL, _countof(vars), keys, vars);
 
                 CComPtr<IUnknown> spUnknown;
-                pItem->QueryInterface(&amp;spUnknown);
+                pItem->QueryInterface(&spUnknown);
                 spCollection->Add(spUnknown);
                             
                 FreePropVariantArray(_countof(vars), vars);

@@ -29,7 +29,7 @@ DXUTFindDXSDKMediaFileCch( str, MAX_PATH, L"BasicHLSL10.fx" );
 
 hr = D3DX10CompileEffectFromFile( str, NULL, NULL, "fx_4_0", 
     D3D10_SHADER_ENABLE_STRICTNESS, 0, pd3dDevice, NULL, NULL, 
-    &amp;l_pBlob_Effect, &amp;l_pBlob_Errors, NULL );
+    &l_pBlob_Effect, &l_pBlob_Errors, NULL );
 ```
 
 
@@ -70,7 +70,7 @@ Lastly, modify the compile effect call to take a pointer to the macros.
 ```
 D3DX10CreateEffectFromFile( str, Shader_Macros, NULL, 
     D3D10_SHADER_ENABLE_STRICTNESS, 0, pd3dDevice, NULL, NULL, 
-    &amp;g_pEffect10, NULL );
+    &g_pEffect10, NULL );
 ```
 
 
@@ -125,7 +125,7 @@ ID3D10Blob* l_pBlob_Errors = NULL;
 hr = DXUTFindDXSDKMediaFileCch( str, MAX_PATH, L"BasicHLSL10.fx" );
 hr = D3DX10CompileEffectFromFile( str, NULL, NULL, 
     D3D10_SHADER_ENABLE_STRICTNESS, 0, NULL, 
-    &amp;l_pBlob_Effect, &amp;l_pBlob_Errors );
+    &l_pBlob_Effect, &l_pBlob_Errors );
 
 LPVOID l_pError = NULL;
 if( l_pBlob_Errors )

@@ -29,8 +29,8 @@ A templated helper structure used to encapsulate subobject type and subobject da
 ```C++
 struct CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT {
                                           CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT;
-                                          CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT(InnerStructType const &amp;i);
-  CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT operator=(InnerStructType const&amp; i);
+                                          CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT(InnerStructType const &i);
+  CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT operator=(InnerStructType const& i);
                                           operator InnerStructType() const;
 };
 ```
@@ -83,8 +83,8 @@ private:
     InnerStructType _Inner;
 public:
     CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT() : _Type(Type), _Inner(DefaultArg()) {}
-    CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT(InnerStructType const&amp; i) : _Type(Type), _Inner(i) {}
-    CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT&amp; operator=(InnerStructType const&amp; i) { _Inner = i; return *this; }
+    CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT(InnerStructType const& i) : _Type(Type), _Inner(i) {}
+    CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT& operator=(InnerStructType const& i) { _Inner = i; return *this; }
     operator InnerStructType() const { return _Inner; }
 };  
           

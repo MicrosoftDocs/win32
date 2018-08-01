@@ -184,40 +184,40 @@ IDispatch *pDisp = NULL;
 HRESULT hr = S_OK;
 
 LPWSTR adsPath =L"WinNT://aMachine/LanmanServer";
-hr = ADsGetObject(adsPath, IID_IADsFileServiceOperations,(void**)&amp;pFso);
+hr = ADsGetObject(adsPath, IID_IADsFileServiceOperations,(void**)&pFso);
 if(FAILED(hr)) {goto Cleanup;}
 
-hr = pFso->Resources(&amp;pColl);
+hr = pFso->Resources(&pColl);
 if(FAILED(hr)) {goto Cleanup;}
 
 
 // Enumerate print jobs. Code omitted.
-hr = pColl->get__NewEnum(&amp;pUnk);
+hr = pColl->get__NewEnum(&pUnk);
 if(FAILED(hr)) {goto Cleanup;}
 
-hr = pUnk->QueryInterface(IID_IEnumVARIANT,(void**)&amp;pEnum);
+hr = pUnk->QueryInterface(IID_IEnumVARIANT,(void**)&pEnum);
 if(FAILED(hr)) {goto Cleanup;}
 
 // Enumerate.
-VariantInit(&amp;var);
-hr = pEnum->Next(1, &amp;var, &amp;lFetch);
+VariantInit(&var);
+hr = pEnum->Next(1, &var, &lFetch);
 while(hr == S_OK)
 {
     if (lFetch == 1)    
     {
-        pDisp = V_DISPATCH(&amp;var);
-        pDisp->QueryInterface(IID_IADsResource, (void**)&amp;pRes);
-        pRes->get_Name(&amp;bstr);
+        pDisp = V_DISPATCH(&var);
+        pDisp->QueryInterface(IID_IADsResource, (void**)&pRes);
+        pRes->get_Name(&bstr);
         printf("Resource name: %S\n",bstr);
         SysFreeString(bstr);
-        pRes->get_Path(&amp;bstr);
+        pRes->get_Path(&bstr);
         printf("Resource path: %S\n",bstr);
         SysFreeString(bstr);
         pRes->Release();
     }
     pDisp->Release();
-    VariantClear(&amp;var);
-    hr = pEnum->Next(1, &amp;var, &amp;lFetch);
+    VariantClear(&var);
+    hr = pEnum->Next(1, &var, &lFetch);
 };
 
 Cleanup:

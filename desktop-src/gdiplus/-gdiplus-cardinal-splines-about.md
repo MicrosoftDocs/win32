@@ -27,7 +27,7 @@ To draw a cardinal spline, you need a [**Graphics**](/windows/desktop/api/gdiplu
 
 
 ```
-myGraphics.DrawCurve(&amp;myPen, myPointArray, 3, 1.5f);
+myGraphics.DrawCurve(&myPen, myPointArray, 3, 1.5f);
 ```
 
 

@@ -79,7 +79,7 @@ int WINAPI Dumper(HWND hX, int intCtrlID, HINTERNET hResource)
     {
         // The call to InternetQueryDataAvailable determines the
         // amount of data available to download.
-        if (!InternetQueryDataAvailable(hResource,&amp;dwSize,0,0))
+        if (!InternetQueryDataAvailable(hResource,&dwSize,0,0))
         {
             ErrorOut(hX,GetLastError(),TEXT("InternetReadFile"));
             SetCursor(LoadCursor(NULL,IDC_ARROW));
@@ -93,7 +93,7 @@ int WINAPI Dumper(HWND hX, int intCtrlID, HINTERNET hResource)
 
             // Read the data from the HINTERNET handle.
             if(!InternetReadFile(hResource,(LPVOID)lpszData,
-                                 dwSize,&amp;dwDownloaded))
+                                 dwSize,&dwDownloaded))
             {
                 ErrorOut(hX,GetLastError(),TEXT("InternetReadFile"));
                 delete[] lpszData;
@@ -135,8 +135,8 @@ int WINAPI Dumper(HWND hX, int intCtrlID, HINTERNET hResource)
 
                 // Add the new data to the holding buffer.
                 HRESULT hr = StringCchCatEx(lpszHolding, cchDest, 
-                                            lpszData, &amp;pszDestEnd, 
-                                            &amp;cchRemaining, 
+                                            lpszData, &pszDestEnd, 
+                                            &cchRemaining, 
                                             STRSAFE_NO_TRUNCATION);
                 if(SUCCEEDED(hr))
                 {
@@ -208,7 +208,7 @@ int WINAPI Dump(HWND hX, int intCtrlID, HINTERNET hResource)
           // Read the data.
           if(!InternetReadFile(hResource,
                               (LPVOID)lpszData,
-                              BigSize,&amp;dwSize))
+                              BigSize,&dwSize))
           {
                ErrorOut(hX,GetLastError(),TEXT("InternetReadFile"));
                delete []lpszData;
@@ -319,7 +319,7 @@ bool WINAPI DisplayDir( HWND hX,
 
      // Find the first file.
      hDir = FtpFindFirstFile (hConnect, TEXT ("*.*"), 
-                              &amp;pDirInfo, dwFlag, 0);
+                              &pDirInfo, dwFlag, 0);
      if (!hDir)                                     
      {
           // Check if the error was because there were no files.
@@ -374,7 +374,7 @@ bool WINAPI DisplayDir( HWND hX,
      do
      {
           // Find the next file.
-          if (!InternetFindNextFile (hDir, &amp;pDirInfo))
+          if (!InternetFindNextFile (hDir, &pDirInfo))
           {
                // Check if there are no more files left. 
                if ( GetLastError() == ERROR_NO_MORE_FILES ) 

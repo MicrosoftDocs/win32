@@ -58,7 +58,7 @@ HRESULT PlayVideo(HWND hwnd, const WCHAR* sURL)
         0,      // Flags.
         NULL,   // Callback pointer.
         hwnd,
-        &amp;g_pPlayer
+        &g_pPlayer
         );
 }
 ```
@@ -81,8 +81,8 @@ Before the application shuts down, be sure to release the [**IMFPMediaPlayer**](
 ```C++
 void OnClose(HWND /*hwnd*/)
 {
-    SafeRelease(&amp;g_pPlayer);
-    SafeRelease(&amp;g_pPlayerCB);
+    SafeRelease(&g_pPlayer);
+    SafeRelease(&g_pPlayerCB);
     PostQuitMessage(0);
 }
 ```
@@ -127,7 +127,7 @@ void OnKeyDown(HWND hwnd, UINT vk, BOOL fDown, int cRepeat, UINT flags)
         {
             MFP_MEDIAPLAYER_STATE state = MFP_MEDIAPLAYER_STATE_EMPTY;
             
-            g_pPlayer->GetState(&amp;state);
+            g_pPlayer->GetState(&state);
 
             if (state == MFP_MEDIAPLAYER_STATE_PAUSED ||  
                 state == MFP_MEDIAPLAYER_STATE_STOPPED)
@@ -166,7 +166,7 @@ IMFPMediaPlayer *g_pPlayer = NULL;
 IMFPMediaPlayerCallback *g_pCallback = NULL;
 
 // Call an application-defined function to create the callback object.
-hr = CreateMyCallback(&amp;g_pCallback);
+hr = CreateMyCallback(&g_pCallback);
 
 // Create the player object and play a video file.
 
@@ -180,7 +180,7 @@ if (SUCCEEDED(hr))
         0,           // Flags.
         g_pCallback, // Callback pointer.
         hwnd,
-        &amp;g_pPlayer
+        &g_pPlayer
         );
 }
 ```
@@ -240,10 +240,10 @@ IMFPMediaItem *pItem;
 BOOL bHasVideo = FALSE;
 BOOL bIsSelected = FALSE;
 
-hr = g_pPlayer->GetMediaItem(TRUE, &amp;pItem);
+hr = g_pPlayer->GetMediaItem(TRUE, &pItem);
 if (SUCCEEDED(hr))
 {
-    hr = pItem->HasVideo(&amp;bHasVideo, &amp;bIsSelected);
+    hr = pItem->HasVideo(&bHasVideo, &bIsSelected);
     pItem->Release();
 }
 ```
@@ -275,11 +275,11 @@ void OnSize(HWND hwnd, UINT state, int cx, int cy)
     HDC hdc;
     PAINTSTRUCT ps;
 
-    if (g_pPlayer &amp;&amp; (state == SIZE_RESTORED))
+    if (g_pPlayer && (state == SIZE_RESTORED))
     {
-        hdc = BeginPaint(hwnd, &amp;ps);
+        hdc = BeginPaint(hwnd, &ps);
         g_pPlayer->UpdateVideo();
-         EndPaint(hwnd, &amp;ps);
+         EndPaint(hwnd, &ps);
     }
 }
 
@@ -288,12 +288,12 @@ void OnPaint(HWND hwnd)
     HDC hdc;
     PAINTSTRUCT ps;
 
-    hdc = BeginPaint(hwnd, &amp;ps);
+    hdc = BeginPaint(hwnd, &ps);
     if (g_pPlayer)
     {
         g_pPlayer->UpdateVideo();
     }
-      EndPaint(hwnd, &amp;ps);
+      EndPaint(hwnd, &ps);
 }
 ```
 

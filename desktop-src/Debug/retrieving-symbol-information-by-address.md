@@ -24,7 +24,7 @@ PSYMBOL_INFO pSymbol = (PSYMBOL_INFO)buffer;
 pSymbol->SizeOfStruct = sizeof(SYMBOL_INFO);
 pSymbol->MaxNameLen = MAX_SYM_NAME;
 
-if (SymFromAddr(hProcess, dwAddress, &amp;dwDisplacement, pSymbol))
+if (SymFromAddr(hProcess, dwAddress, &dwDisplacement, pSymbol))
 {
     // SymFromAddr returned success
 }
@@ -51,7 +51,7 @@ SymSetOptions(SYMOPT_LOAD_LINES);
 line.SizeOfStruct = sizeof(IMAGEHLP_LINE64);
 dwAddress = 0x1000000; // Address you want to check on.
 
-if (SymGetLineFromAddr64(hProcess, dwAddress, &amp;dwDisplacement, &amp;line))
+if (SymGetLineFromAddr64(hProcess, dwAddress, &dwDisplacement, &line))
 {
     // SymGetLineFromAddr64 returned success
 }

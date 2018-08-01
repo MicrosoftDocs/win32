@@ -68,19 +68,19 @@ cbDesc.StructureByteStride = 0;
 
 // Fill in the subresource data.
 D3D11_SUBRESOURCE_DATA InitData;
-InitData.pSysMem = &amp;VsConstData;
+InitData.pSysMem = &VsConstData;
 InitData.SysMemPitch = 0;
 InitData.SysMemSlicePitch = 0;
 
 // Create the buffer.
-hr = g_pd3dDevice->CreateBuffer( &amp;cbDesc, &amp;InitData, 
-                                 &amp;g_pConstantBuffer11 );
+hr = g_pd3dDevice->CreateBuffer( &cbDesc, &InitData, 
+                                 &g_pConstantBuffer11 );
 
 if( FAILED( hr ) )
    return hr;
 
 // Set the buffer.
-g_pd3dContext->VSSetConstantBuffers( 0, 1, &amp;g_pConstantBuffer11 );
+g_pd3dContext->VSSetConstantBuffers( 0, 1, &g_pConstantBuffer11 );
     
 ```
 

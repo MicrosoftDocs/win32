@@ -173,7 +173,7 @@ Below is a code example demonstrating the recommended checks. This example was t
 bool DirectXSampleRenderer::DoesWicSupportRequestedYCbCr()
 {
     ComPtr<IWICPlanarBitmapSourceTransform> wicPlanarSource;
-    HRESULT hr = m_wicScaler.As(&amp;wicPlanarSource);
+    HRESULT hr = m_wicScaler.As(&wicPlanarSource);
     if (SUCCEEDED(hr))
     {
         BOOL isTransformSupported;
@@ -181,21 +181,21 @@ bool DirectXSampleRenderer::DoesWicSupportRequestedYCbCr()
         uint32 supportedHeight = m_cachedBitmapPixelHeight;
         DX::ThrowIfFailed(
             wicPlanarSource->DoesSupportTransform(
-                &amp;supportedWidth,
-                &amp;supportedHeight,
+                &supportedWidth,
+                &supportedHeight,
                 WICBitmapTransformRotate0,
                 WICPlanarOptionsDefault,
                 SampleConstants::WicYCbCrFormats,
                 m_planeDescriptions,
                 SampleConstants::NumPlanes,
-                &amp;isTransformSupported
+                &isTransformSupported
                 )
             );
 
         // The returned width and height may be larger if IWICPlanarBitmapSourceTransform does not
         // exactly support what is requested.
-        if ((isTransformSupported == TRUE) &amp;&amp;
-            (supportedWidth == m_cachedBitmapPixelWidth) &amp;&amp;
+        if ((isTransformSupported == TRUE) &&
+            (supportedWidth == m_cachedBitmapPixelWidth) &&
             (supportedHeight == m_cachedBitmapPixelHeight))
         {
             return true;
@@ -209,7 +209,7 @@ bool DirectXSampleRenderer::DoesDriverSupportYCbCr()
 {
     auto d2dContext = m_deviceResources->GetD2DDeviceContext();
 
-    return (d2dContext->IsDxgiFormatSupported(DXGI_FORMAT_R8_UNORM)) &amp;&amp;
+    return (d2dContext->IsDxgiFormatSupported(DXGI_FORMAT_R8_UNORM)) &&
         (d2dContext->IsDxgiFormatSupported(DXGI_FORMAT_R8G8_UNORM));
 }
 ```
@@ -237,7 +237,7 @@ void DirectXSampleRenderer::CreateYCbCrDeviceResources()
 
     ComPtr<IWICPlanarBitmapSourceTransform> wicPlanarSource;
     DX::ThrowIfFailed(
-        m_wicScaler.As(&amp;wicPlanarSource)
+        m_wicScaler.As(&wicPlanarSource)
         );
 
     ComPtr<IWICBitmap> bitmaps[SampleConstants::NumPlanes];
@@ -252,11 +252,11 @@ void DirectXSampleRenderer::CreateYCbCrDeviceResources()
                 m_planeDescriptions[i].Height,
                 m_planeDescriptions[i].Format,
                 WICBitmapCacheOnLoad,
-                &amp;bitmaps[i]
+                &bitmaps[i]
                 )
             );
 
-        LockBitmap(bitmaps[i].Get(), WICBitmapLockWrite, nullptr, &amp;locks[i], &amp;planes[i]);
+        LockBitmap(bitmaps[i].Get(), WICBitmapLockWrite, nullptr, &locks[i], &planes[i]);
     }
 
     DX::ThrowIfFailed(
@@ -271,7 +271,7 @@ void DirectXSampleRenderer::CreateYCbCrDeviceResources()
             )
         );
 
-    DX::ThrowIfFailed(d2dContext->CreateEffect(CLSID_D2D1YCbCr, &amp;m_d2dYCbCrEffect));
+    DX::ThrowIfFailed(d2dContext->CreateEffect(CLSID_D2D1YCbCr, &m_d2dYCbCrEffect));
 
     ComPtr<ID2D1Bitmap1> d2dBitmaps[SampleConstants::NumPlanes];
     for (uint32 i = 0; i < SampleConstants::NumPlanes; i++)
@@ -280,7 +280,7 @@ void DirectXSampleRenderer::CreateYCbCrDeviceResources()
         locks[i] = nullptr;
 
         // First ID2D1Bitmap1 is DXGI_FORMAT_R8 (Y), second is DXGI_FORMAT_R8G8 (CbCr).
-        DX::ThrowIfFailed(d2dContext->CreateBitmapFromWicBitmap(bitmaps[i].Get(), &amp;d2dBitmaps[i]));
+        DX::ThrowIfFailed(d2dContext->CreateBitmapFromWicBitmap(bitmaps[i].Get(), &d2dBitmaps[i]));
         m_d2dYCbCrEffect->SetInput(i, d2dBitmaps[i].Get());
     }
 }
@@ -295,10 +295,10 @@ void DirectXSampleRenderer::LockBitmap(
 {
     // ComPtr guarantees the IWICBitmapLock is released if an exception is thrown.
     ComPtr<IWICBitmapLock> lock;
-    DX::ThrowIfFailed(pBitmap->Lock(prcSource, bitmapLockFlags, &amp;lock));
-    DX::ThrowIfFailed(lock->GetStride(&amp;pPlane->cbStride));
-    DX::ThrowIfFailed(lock->GetDataPointer(&amp;pPlane->cbBufferSize, &amp;pPlane->pbBuffer));
-    DX::ThrowIfFailed(lock->GetPixelFormat(&amp;pPlane->Format));
+    DX::ThrowIfFailed(pBitmap->Lock(prcSource, bitmapLockFlags, &lock));
+    DX::ThrowIfFailed(lock->GetStride(&pPlane->cbStride));
+    DX::ThrowIfFailed(lock->GetDataPointer(&pPlane->cbBufferSize, &pPlane->pbBuffer));
+    DX::ThrowIfFailed(lock->GetPixelFormat(&pPlane->Format));
     *ppBitmapLock = lock.Detach();
 }
 ```

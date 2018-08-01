@@ -41,7 +41,7 @@ The following example uses **currentPosition** to seek to a position provided by
 <INPUT TYPE = "BUTTON"  ID = "Set"  NAME = "Set"  VALUE = "Set Position"
 
     /* Check to be sure the TEXT element contains a valid value. */
-    if (!isNaN(setPosition.value) &amp;&amp; (setPosition.value != '))
+    if (!isNaN(setPosition.value) && (setPosition.value != '))
 
     /* Set the current position when the user clicks the button. */
     onClick = "Player.controls.currentPosition = setPosition.value;

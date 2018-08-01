@@ -88,7 +88,7 @@ int main(int argc, char *argv[])
         fSuccess = WriteFile(hFile,
                              TestData[i],
                              TESTSTRLEN,
-                             &amp;dwNumBytesWritten,
+                             &dwNumBytesWritten,
                              NULL);  // sync operation.
         if (!fSuccess) 
         {
@@ -115,7 +115,7 @@ int main(int argc, char *argv[])
                           0,             // reserved, must be zero
                           TESTSTRLEN,    // number of bytes to lock
                           0,
-                          &amp;sOverlapped); // contains the file offset
+                          &sOverlapped); // contains the file offset
     if (!fSuccess) 
     {
        // Handle the error.
@@ -134,7 +134,7 @@ int main(int argc, char *argv[])
                             0,             // reserved, must be zero
                             TESTSTRLEN,    // num. of bytes to unlock
                             0,
-                            &amp;sOverlapped); // contains the file offset
+                            &sOverlapped); // contains the file offset
     if (!fSuccess) 
     {
        // Handle the error.
@@ -305,7 +305,7 @@ BOOL IoRecord(HANDLE hFile, ULONG RecNumber, PIO_PARAM pIoParam)
     DWORD NumBytes;
 
     //  Initialize Overlapped.
-    SecureZeroMemory(&amp;Overlapped, sizeof(OVERLAPPED));
+    SecureZeroMemory(&Overlapped, sizeof(OVERLAPPED));
     Overlapped.hEvent = CreateEvent(NULL,
         FALSE,
         FALSE,
@@ -333,28 +333,28 @@ BOOL IoRecord(HANDLE hFile, ULONG RecNumber, PIO_PARAM pIoParam)
             0,
             RECORD_SIZE,
             0,
-            &amp;Overlapped);
+            &Overlapped);
         break;
     case IoUnlock:
         Result = UnlockFileEx(hFile,
             0,
             RECORD_SIZE,
             0,
-            &amp;Overlapped);
+            &Overlapped);
         break;
     case IoRead:
         Result = ReadFile(hFile,
             pIoParam->Params.IoInfo.Data,
             pIoParam->Params.IoInfo.RecSize,
             NULL,
-            &amp;Overlapped);
+            &Overlapped);
         break;
     case IoWrite:
         Result = WriteFile(hFile,
             pIoParam->Params.IoInfo.Data,
             pIoParam->Params.IoInfo.RecSize,
             NULL,
-            &amp;Overlapped);
+            &Overlapped);
         break;
     default:
         Result = FALSE;
@@ -367,8 +367,8 @@ BOOL IoRecord(HANDLE hFile, ULONG RecNumber, PIO_PARAM pIoParam)
         {
             //  Wait until the operation finishes.
             if (GetOverlappedResult(hFile,
-                &amp;Overlapped,
-                &amp;NumBytes,
+                &Overlapped,
+                &NumBytes,
                 TRUE) == FALSE) 
             {
                 MSG_PRINTF(L"GetOverlappedResult for Overlapped.hEvent failed with error 0x%08x.\n", 
@@ -399,7 +399,7 @@ BOOL ReadRecord(HANDLE hFile, ULONG RecNumber, PVOID Record, ULONG RecSize)
     IoParam.Params.IoInfo.Data    = Record;
     IoParam.Params.IoInfo.RecSize = RecSize;
 
-    return IoRecord(hFile, RecNumber, &amp;IoParam);
+    return IoRecord(hFile, RecNumber, &IoParam);
 }
 
 
@@ -411,7 +411,7 @@ BOOL WriteRecord(HANDLE hFile, ULONG RecNumber, PVOID Record, ULONG RecSize)
     IoParam.Params.IoInfo.Data    = Record;
     IoParam.Params.IoInfo.RecSize = RecSize;
 
-    return IoRecord(hFile, RecNumber, &amp;IoParam);
+    return IoRecord(hFile, RecNumber, &IoParam);
 }
 
 
@@ -422,7 +422,7 @@ BOOL LockRecord(HANDLE hFile, ULONG RecNumber, BOOL Exclusive)
     IoParam.Type                      = IoLock;
     IoParam.Params.LockInfo.Exclusive = Exclusive;
 
-    return IoRecord(hFile, RecNumber, &amp;IoParam);
+    return IoRecord(hFile, RecNumber, &IoParam);
 }
 
 
@@ -432,7 +432,7 @@ BOOL UnlockRecord(HANDLE hFile, ULONG RecNumber)
 
     IoParam.Type = IoUnlock;
 
-    return IoRecord(hFile, RecNumber, &amp;IoParam);
+    return IoRecord(hFile, RecNumber, &IoParam);
 }
 
 
@@ -501,7 +501,7 @@ void ClearBit(BYTE* Bitmap, ULONG Bit)
 
     Bit = Bit % 8;
 
-    Bitmap[Byte] &amp;= ~(1 << Bit);
+    Bitmap[Byte] &= ~(1 << Bit);
 }
 
 
@@ -631,7 +631,7 @@ BOOL OperateOnRecord(HANDLE hFile, PULONG RecNumber, OPERATION Operation)
     DATA_RECORD*  Record;
 
     //  Fail operations on Master Record.
-    if ((Operation != CreateRecord) &amp;&amp; (*RecNumber == 0)) 
+    if ((Operation != CreateRecord) && (*RecNumber == 0)) 
     {
         MSG_PRINTF(L"Cannot operate on Master Record.\n");
         return FALSE;
@@ -650,7 +650,7 @@ BOOL OperateOnRecord(HANDLE hFile, PULONG RecNumber, OPERATION Operation)
     }
 
     //  Read in Master Record.
-    Result = ReadRecord(hFile, 0, (PVOID)&amp;MasterRecord, sizeof(MASTER_RECORD));
+    Result = ReadRecord(hFile, 0, (PVOID)&MasterRecord, sizeof(MASTER_RECORD));
     if (!Result) 
     {
         MSG_PRINTF(L"ReadRecord (MasterRecord) for OperateOnRecord failed with error 0x%08x.\n", 
@@ -673,7 +673,7 @@ BOOL OperateOnRecord(HANDLE hFile, PULONG RecNumber, OPERATION Operation)
         Exists = TestBit(MasterRecord.Bitmap, *RecNumber);
 
         //  Clear the bit if we are deleting the record.
-        if ((Operation == DeleteRecord) &amp;&amp; Exists) 
+        if ((Operation == DeleteRecord) && Exists) 
         {
             ClearBit(MasterRecord.Bitmap, *RecNumber);
         }
@@ -695,13 +695,13 @@ BOOL OperateOnRecord(HANDLE hFile, PULONG RecNumber, OPERATION Operation)
     DBG_PRINTF(L"MasterRecord bitmap (after): ");
     PrintBitmap(MasterRecord.Bitmap);
 
-    if ((Operation != ModifyRecord) &amp;&amp; Exists) 
+    if ((Operation != ModifyRecord) && Exists) 
     {
         //  Update the Master Record's sequence number.
         MasterRecord.Header.SeqNumber++;
 
         //  Write Master Record down.
-        Result = WriteRecord(hFile, 0, (PVOID)&amp;MasterRecord, sizeof(MASTER_RECORD));
+        Result = WriteRecord(hFile, 0, (PVOID)&MasterRecord, sizeof(MASTER_RECORD));
         if (!Result) 
         {
             MSG_PRINTF(L"WriteRecord (MasterRecord) for CreateRecord failed with error 0x%08x.\n", 
@@ -803,7 +803,7 @@ ULONG RandomOption(ULONG NumOpts)
     UINT Random;
     errno_t err;
 
-    err = rand_s(&amp;Random);
+    err = rand_s(&Random);
     if (err != 0) 
     {
         MSG_PRINTF(L"rand_s for RandomOption failed with error 0x%08x\n", 
@@ -873,7 +873,7 @@ DWORD WINAPI WorkerThread(PVOID data)
 
         //  Perform the actual operation and handle the result, 
         //  then loop again until done.
-        Result = OperateOnRecord(hFile, &amp;RecNumber, Operation);
+        Result = OperateOnRecord(hFile, &RecNumber, Operation);
 
         if (Result) 
         {
@@ -946,12 +946,12 @@ BOOL InitNewFile(LPCWSTR FileName)
     } //  The implied "else" is that the handle is a good one.
 
 
-    InitRecord((RECORD_HEADER*)&amp;MasterRecord, TRUE, 0);
+    InitRecord((RECORD_HEADER*)&MasterRecord, TRUE, 0);
 
     Result = WriteFile(hFile,
-        &amp;MasterRecord,
+        &MasterRecord,
         sizeof(MASTER_RECORD),
-        &amp;BytesWritten,
+        &BytesWritten,
         NULL);
 
     if (!Result) 
@@ -1000,7 +1000,7 @@ int __cdecl wmain(int argc, LPCWSTR argv[])
             (LPTHREAD_START_ROUTINE)WorkerThread,
             (PVOID)FileName,
             0,
-            &amp;IdThread);
+            &IdThread);
     }
 
     wprintf(L"Main thread waiting for worker threads to exit...\n");

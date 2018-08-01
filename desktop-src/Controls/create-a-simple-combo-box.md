@@ -77,7 +77,7 @@ TCHAR Planets[9][10] =
 TCHAR A[16]; 
 int  k = 0; 
 
-memset(&amp;A,0,sizeof(A));       
+memset(&A,0,sizeof(A));       
 for (k = 0; k <= 8; k += 1)
 {
     wcscpy_s(A, sizeof(A)/sizeof(TCHAR),  (TCHAR*)Planets[k]);
@@ -172,7 +172,7 @@ SafeRelease(
 
 #ifndef HINST_THISCOMPONENT
 EXTERN_C IMAGE_DOS_HEADER __ImageBase;
-#define HINST_THISCOMPONENT ((HINSTANCE)&amp;__ImageBase)
+#define HINST_THISCOMPONENT ((HINSTANCE)&__ImageBase)
 #endif
 
 /******************************************************************
@@ -301,7 +301,7 @@ HRESULT DemoApp::Initialize()
     wcex.hCursor       = LoadCursor(NULL, IDC_ARROW);
     wcex.lpszClassName = TEXT(&quot;DemoApp&quot;);
 
-    RegisterClassEx(&amp;wcex);
+    RegisterClassEx(&wcex);
 
     // Create the application window.
     //
@@ -371,7 +371,7 @@ HRESULT DemoApp::Initialize()
     TCHAR A[16]; 
     int  k = 0; 
 
-    memset(&amp;A,0,sizeof(A));       
+    memset(&A,0,sizeof(A));       
     for (k = 0; k &lt;= 8; k += 1)
     {
         wcscpy_s(A, sizeof(A)/sizeof(TCHAR),  (TCHAR*)Planets[k]);
@@ -398,10 +398,10 @@ void DemoApp::RunMessageLoop()
 {
     MSG msg;
 
-    while (GetMessage(&amp;msg, NULL, 0, 0))
+    while (GetMessage(&msg, NULL, 0, 0))
     {
-        TranslateMessage(&amp;msg);
-        DispatchMessage(&amp;msg);
+        TranslateMessage(&msg);
+        DispatchMessage(&msg);
     }
 }
 

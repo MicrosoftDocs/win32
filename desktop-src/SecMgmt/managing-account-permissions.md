@@ -34,7 +34,7 @@ void AddPrivileges(PSID AccountSID, LSA_HANDLE PolicyHandle)
   NTSTATUS ntsResult;
 
   // Create an LSA_UNICODE_STRING for the privilege names.
-  if (!InitLsaString(&amp;lucPrivilege, L"SeServiceLogonRight"))
+  if (!InitLsaString(&lucPrivilege, L"SeServiceLogonRight"))
   {
          wprintf(L"Failed InitLsaString\n");
          return;
@@ -43,7 +43,7 @@ void AddPrivileges(PSID AccountSID, LSA_HANDLE PolicyHandle)
   ntsResult = LsaAddAccountRights(
     PolicyHandle,  // An open policy handle.
     AccountSID,    // The target SID.
-    &amp;lucPrivilege, // The privileges.
+    &lucPrivilege, // The privileges.
     1              // Number of privileges.
   );                
   if (ntsResult == STATUS_SUCCESS) 

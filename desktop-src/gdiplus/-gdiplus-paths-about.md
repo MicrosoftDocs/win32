@@ -36,7 +36,7 @@ To draw a path, you need a [**Graphics**](/windows/desktop/api/gdiplusgraphics/n
 myGraphicsPath.AddLine(0, 0, 30, 20);
 myGraphicsPath.AddEllipse(20, 20, 20, 40);
 myGraphicsPath.AddBezier(30, 60, 70, 60, 50, 30, 100, 10);
-myGraphics.DrawPath(&amp;myPen, &amp;myGraphicsPath);
+myGraphics.DrawPath(&myPen, &myGraphicsPath);
 ```
 
 
@@ -49,8 +49,8 @@ In addition to adding lines, rectangles, and curves to a path, you can add paths
 
 
 ```
-myGraphicsPath.AddPath(&amp;graphicsPath1, FALSE);
-myGraphicsPath.AddPath(&amp;graphicsPath2, TRUE);
+myGraphicsPath.AddPath(&graphicsPath1, FALSE);
+myGraphicsPath.AddPath(&graphicsPath2, TRUE);
 ```
 
 
@@ -61,10 +61,10 @@ There are two other items you can add to a path: strings and pies. A pie is a po
 ```
 myGraphicsPath.AddArc(0, 0, 30, 20, -90, 180);
 myGraphicsPath.AddCurve(myPointArray, 3);
-myGraphicsPath.AddString(L"a string in a path", 18, &amp;myFontFamily, 
-   0, 24, myPointF, &amp;myStringFormat);
+myGraphicsPath.AddString(L"a string in a path", 18, &myFontFamily, 
+   0, 24, myPointF, &myStringFormat);
 myGraphicsPath.AddPie(230, 10, 40, 40, 40, 110);
-myGraphics.DrawPath(&amp;myPen, &amp;myGraphicsPath);
+myGraphics.DrawPath(&myPen, &myGraphicsPath);
 ```
 
 

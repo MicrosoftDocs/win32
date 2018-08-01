@@ -97,7 +97,7 @@ A valid HTTP URL:
 
 
 ```XML
-http://www.proseware.com/some/arbitrary/path/My_WMS_Logging_Page.asp?PubPoint=FooPubPoint&amp;AnotherName=AnotherValue
+http://www.proseware.com/some/arbitrary/path/My_WMS_Logging_Page.asp?PubPoint=FooPubPoint&AnotherName=AnotherValue
 ```
 
 

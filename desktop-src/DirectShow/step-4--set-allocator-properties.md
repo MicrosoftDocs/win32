@@ -39,7 +39,7 @@ HRESULT CRleFilter::DecideBufferSize(
     IMemAllocator *pAlloc, ALLOCATOR_PROPERTIES *pProp)
 {
     AM_MEDIA_TYPE mt;
-    HRESULT hr = m_pOutput->ConnectionMediaType(&amp;mt);
+    HRESULT hr = m_pOutput->ConnectionMediaType(&mt);
     if (FAILED(hr))
     {
         return hr;
@@ -61,7 +61,7 @@ HRESULT CRleFilter::DecideBufferSize(
 
     // Set allocator properties.
     ALLOCATOR_PROPERTIES Actual;
-    hr = pAlloc->SetProperties(pProp, &amp;Actual);
+    hr = pAlloc->SetProperties(pProp, &Actual);
     if (FAILED(hr)) 
     {
         return hr;

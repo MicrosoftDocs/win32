@@ -34,7 +34,7 @@ Use an array of [**D3D11\_PARAMETER\_DESC**](https://msdn.microsoft.com/library/
 
 ```C++
             ComPtr<ID3D11FunctionLinkingGraph> vertexShaderGraph;
-            DX::ThrowIfFailed(D3DCreateFunctionLinkingGraph(0, &amp;vertexShaderGraph));
+            DX::ThrowIfFailed(D3DCreateFunctionLinkingGraph(0, &vertexShaderGraph));
 
             // Define the main input node which will be fed by the Input Assembler pipeline stage.
             static const D3D11_PARAMETER_DESC vertexShaderInputParameters[] =
@@ -45,7 +45,7 @@ Use an array of [**D3D11\_PARAMETER\_DESC**](https://msdn.microsoft.com/library/
             };
             ComPtr<ID3D11LinkingNode> vertexShaderInputNode;
             LinkingThrowIfFailed(vertexShaderGraph->SetInputSignature(vertexShaderInputParameters, ARRAYSIZE(vertexShaderInputParameters), 
-                &amp;vertexShaderInputNode), vertexShaderGraph.Get());
+                &vertexShaderInputNode), vertexShaderGraph.Get());
 ```
 
 
@@ -56,7 +56,7 @@ Call the [**ID3D11FunctionLinkingGraph::CallFunction**](https://msdn.microsoft.c
 ```C++
             // Create a node for the main VertexFunction call using the output of the helper functions.
             ComPtr<ID3D11LinkingNode> vertexFunctionCallNode;
-            LinkingThrowIfFailed(vertexShaderGraph->CallFunction("", shaderLibrary.Get(), "VertexFunction", &amp;vertexFunctionCallNode), 
+            LinkingThrowIfFailed(vertexShaderGraph->CallFunction("", shaderLibrary.Get(), "VertexFunction", &vertexFunctionCallNode), 
                 vertexShaderGraph.Get());
 
             // Define the graph edges from the input node and helper function nodes.
@@ -83,7 +83,7 @@ Use an array of [**D3D11\_PARAMETER\_DESC**](https://msdn.microsoft.com/library/
             };
             ComPtr<ID3D11LinkingNode> vertexShaderOutputNode;
             LinkingThrowIfFailed(vertexShaderGraph->SetOutputSignature(vertexShaderOutputParameters, ARRAYSIZE(vertexShaderOutputParameters), 
-                &amp;vertexShaderOutputNode), vertexShaderGraph.Get());
+                &vertexShaderOutputNode), vertexShaderGraph.Get());
 ```
 
 
@@ -108,7 +108,7 @@ Call the [**ID3D11FunctionLinkingGraph::CreateModuleInstance**](https://msdn.mic
 ```C++
             // Finalize the vertex shader graph.
             ComPtr<ID3D11ModuleInstance> vertexShaderGraphInstance;
-            LinkingThrowIfFailed(vertexShaderGraph->CreateModuleInstance(&amp;vertexShaderGraphInstance, nullptr), vertexShaderGraph.Get());
+            LinkingThrowIfFailed(vertexShaderGraph->CreateModuleInstance(&vertexShaderGraphInstance, nullptr), vertexShaderGraph.Get());
 ```
 
 
@@ -121,13 +121,13 @@ Call the [**D3DCreateLinker**](/windows/desktop/api/D3Dcompiler/nf-d3dcompiler-d
 ```C++
             // Create a linker and hook up the module instance.
             ComPtr<ID3D11Linker> linker;
-            DX::ThrowIfFailed(D3DCreateLinker(&amp;linker));
+            DX::ThrowIfFailed(D3DCreateLinker(&linker));
             DX::ThrowIfFailed(linker->UseLibrary(shaderLibraryInstance.Get()));
 
             // Link the vertex shader.
             ComPtr<ID3DBlob> errorBlob;
-            if (FAILED(linker->Link(vertexShaderGraphInstance.Get(), "main", ("vs" + m_shaderModelSuffix).c_str(), 0, &amp;vertexShaderBlob, 
-                &amp;errorBlob)))
+            if (FAILED(linker->Link(vertexShaderGraphInstance.Get(), "main", ("vs" + m_shaderModelSuffix).c_str(), 0, &vertexShaderBlob, 
+                &errorBlob)))
             {
                 throw errorBlob;
             }
@@ -139,7 +139,7 @@ Call the [**D3DCreateLinker**](/windows/desktop/api/D3Dcompiler/nf-d3dcompiler-d
             vertexShaderBlob->GetBufferPointer(),
             vertexShaderBlob->GetBufferSize(),
             nullptr,
-            &amp;vertexShader
+            &vertexShader
             )
         );
     context->VSSetShader(vertexShader.Get(), nullptr, 0);
@@ -150,7 +150,7 @@ Call the [**D3DCreateLinker**](/windows/desktop/api/D3Dcompiler/nf-d3dcompiler-d
         { "NORMAL",   0, DXGI_FORMAT_R32G32B32_FLOAT, 0, 20, D3D11_INPUT_PER_VERTEX_DATA, 0 }
     };
     ComPtr<ID3D11InputLayout> inputLayout;
-    DX::ThrowIfFailed(device->CreateInputLayout(inputLayoutDesc, ARRAYSIZE(inputLayoutDesc), vertexShaderBlob->GetBufferPointer(), vertexShaderBlob->GetBufferSize(), &amp;inputLayout));
+    DX::ThrowIfFailed(device->CreateInputLayout(inputLayoutDesc, ARRAYSIZE(inputLayoutDesc), vertexShaderBlob->GetBufferPointer(), vertexShaderBlob->GetBufferSize(), &inputLayout));
     context->IASetInputLayout(inputLayout.Get());
 ```
 
@@ -165,7 +165,7 @@ Use an array of [**D3D11\_PARAMETER\_DESC**](https://msdn.microsoft.com/library/
 
 ```C++
             ComPtr<ID3D11FunctionLinkingGraph> pixelShaderGraph;
-            DX::ThrowIfFailed(D3DCreateFunctionLinkingGraph(0, &amp;pixelShaderGraph));
+            DX::ThrowIfFailed(D3DCreateFunctionLinkingGraph(0, &pixelShaderGraph));
 
             // Define the main input node which will be fed by the vertex shader pipeline stage.
             static const D3D11_PARAMETER_DESC pixelShaderInputParameters[] =
@@ -176,7 +176,7 @@ Use an array of [**D3D11\_PARAMETER\_DESC**](https://msdn.microsoft.com/library/
             };
             ComPtr<ID3D11LinkingNode> pixelShaderInputNode;
             LinkingThrowIfFailed(pixelShaderGraph->SetInputSignature(pixelShaderInputParameters, ARRAYSIZE(pixelShaderInputParameters), 
-                &amp;pixelShaderInputNode), pixelShaderGraph.Get());
+                &pixelShaderInputNode), pixelShaderGraph.Get());
 ```
 
 
@@ -187,7 +187,7 @@ Call the [**ID3D11FunctionLinkingGraph::CallFunction**](https://msdn.microsoft.c
 ```C++
             // Create a node for the main ColorFunction call and connect it to the pixel shader inputs.
             ComPtr<ID3D11LinkingNode> colorValueNode;
-            LinkingThrowIfFailed(pixelShaderGraph->CallFunction("", shaderLibrary.Get(), "ColorFunction", &amp;colorValueNode), 
+            LinkingThrowIfFailed(pixelShaderGraph->CallFunction("", shaderLibrary.Get(), "ColorFunction", &colorValueNode), 
                 pixelShaderGraph.Get());
 
             // Define the graph edges from the input node.
@@ -210,7 +210,7 @@ Use an array of [**D3D11\_PARAMETER\_DESC**](https://msdn.microsoft.com/library/
             };
             ComPtr<ID3D11LinkingNode> pixelShaderOutputNode;
             LinkingThrowIfFailed(pixelShaderGraph->SetOutputSignature(pixelShaderOutputParameters, ARRAYSIZE(pixelShaderOutputParameters), 
-                &amp;pixelShaderOutputNode), pixelShaderGraph.Get());
+                &pixelShaderOutputNode), pixelShaderGraph.Get());
             LinkingThrowIfFailed(pixelShaderGraph->PassValue(fillAlphaCallNode.Get(), D3D_RETURN_PARAMETER_INDEX, pixelShaderOutputNode.Get(), 0), 
                 pixelShaderGraph.Get());
 ```
@@ -223,7 +223,7 @@ Call the [**ID3D11FunctionLinkingGraph::CreateModuleInstance**](https://msdn.mic
 ```C++
             // Finalize the pixel shader graph.
             ComPtr<ID3D11ModuleInstance> pixelShaderGraphInstance;
-            LinkingThrowIfFailed(pixelShaderGraph->CreateModuleInstance(&amp;pixelShaderGraphInstance, nullptr), pixelShaderGraph.Get());
+            LinkingThrowIfFailed(pixelShaderGraph->CreateModuleInstance(&pixelShaderGraphInstance, nullptr), pixelShaderGraph.Get());
 ```
 
 
@@ -236,12 +236,12 @@ Call the [**D3DCreateLinker**](/windows/desktop/api/D3Dcompiler/nf-d3dcompiler-d
 ```C++
             // Create a linker and hook up the module instance.
             ComPtr<ID3D11Linker> linker;
-            DX::ThrowIfFailed(D3DCreateLinker(&amp;linker));
+            DX::ThrowIfFailed(D3DCreateLinker(&linker));
             DX::ThrowIfFailed(linker->UseLibrary(shaderLibraryInstance.Get()));
 
             // Link the pixel shader.
             ComPtr<ID3DBlob> errorBlob;
-            if (FAILED(linker->Link(pixelShaderGraphInstance.Get(), "main", ("ps" + m_shaderModelSuffix).c_str(), 0, &amp;pixelShaderBlob, &amp;errorBlob)))
+            if (FAILED(linker->Link(pixelShaderGraphInstance.Get(), "main", ("ps" + m_shaderModelSuffix).c_str(), 0, &pixelShaderBlob, &errorBlob)))
             {
                 throw errorBlob;
             }
@@ -253,7 +253,7 @@ Call the [**D3DCreateLinker**](/windows/desktop/api/D3Dcompiler/nf-d3dcompiler-d
             pixelShaderBlob->GetBufferPointer(),
             pixelShaderBlob->GetBufferSize(),
             nullptr,
-            &amp;pixelShader
+            &pixelShader
             )
         );
     context->PSSetShader(pixelShader.Get(), nullptr, 0);

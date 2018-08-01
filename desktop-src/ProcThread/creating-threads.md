@@ -74,7 +74,7 @@ int _tmain()
             MyThreadFunction,       // thread function name
             pDataArray[i],          // argument to thread function 
             0,                      // use default creation flags 
-            &amp;dwThreadIdArray[i]);   // returns the thread identifier 
+            &dwThreadIdArray[i]);   // returns the thread identifier 
 
 
         // Check the return value for success.
@@ -133,8 +133,8 @@ DWORD WINAPI MyThreadFunction( LPVOID lpParam )
 
     StringCchPrintf(msgBuf, BUF_SIZE, TEXT("Parameters = %d, %d\n"), 
         pDataArray->val1, pDataArray->val2); 
-    StringCchLength(msgBuf, BUF_SIZE, &amp;cchStringSize);
-    WriteConsole(hStdout, msgBuf, (DWORD)cchStringSize, &amp;dwChars, NULL);
+    StringCchLength(msgBuf, BUF_SIZE, &cchStringSize);
+    WriteConsole(hStdout, msgBuf, (DWORD)cchStringSize, &dwChars, NULL);
 
     return 0; 
 } 
@@ -156,7 +156,7 @@ void ErrorHandler(LPTSTR lpszFunction)
         NULL,
         dw,
         MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
-        (LPTSTR) &amp;lpMsgBuf,
+        (LPTSTR) &lpMsgBuf,
         0, NULL );
 
     // Display the error message.

@@ -100,7 +100,7 @@ HRESULT CPlaylist::CreateInstance(HWND hwnd, CPlaylist **ppPlayer)
 
     HRESULT hr = S_OK;
 
-    CPlaylist *pPlayer = new (std::nothrow) CPlaylist(hwnd, &amp;hr);
+    CPlaylist *pPlayer = new (std::nothrow) CPlaylist(hwnd, &hr);
     if (pPlayer == NULL)
     {
         return E_OUTOFMEMORY;
@@ -133,28 +133,28 @@ HRESULT CPlaylist::Initialize()
     }
 
     // Create an instance of the sequencer Source.
-    hr = MFCreateSequencerSource(NULL, &amp;m_pSequencerSource);
+    hr = MFCreateSequencerSource(NULL, &m_pSequencerSource);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = m_pSequencerSource->QueryInterface(IID_PPV_ARGS(&amp;m_pSource));
+    hr = m_pSequencerSource->QueryInterface(IID_PPV_ARGS(&m_pSource));
     if (FAILED(hr))
     {
         goto done;
     }
     
     // Get the presentation clock.
-    hr = m_pSession->GetClock(&amp;pClock);
+    hr = m_pSession->GetClock(&pClock);
     if (FAILED(hr))
     {
         goto done;
     }
-    hr = pClock->QueryInterface(IID_PPV_ARGS(&amp;m_pPresentationClock));
+    hr = pClock->QueryInterface(IID_PPV_ARGS(&m_pPresentationClock));
 
 done:
-    SafeRelease(&amp;pClock);
+    SafeRelease(&pClock);
     return hr;
 }
 
@@ -171,8 +171,8 @@ CPlaylist::CPlaylist(HWND hWnd, HRESULT *phr)
 
 CPlaylist::~CPlaylist()
 {
-    SafeRelease(&amp;m_pSequencerSource);
-    SafeRelease(&amp;m_pPresentationClock);
+    SafeRelease(&m_pSequencerSource);
+    SafeRelease(&m_pPresentationClock);
 }
 ```
 
@@ -202,19 +202,19 @@ HRESULT CPlaylist::AddSegment(PCWSTR pszURL)
     MFSequencerElementId SegmentId;
     TOPOID TopologyID = 0;
     
-    HRESULT hr = CreateMediaSource(pszURL, &amp;pMediaSource);
+    HRESULT hr = CreateMediaSource(pszURL, &pMediaSource);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pMediaSource->CreatePresentationDescriptor(&amp;pPD);
+    hr = pMediaSource->CreatePresentationDescriptor(&pPD);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = CreatePlaybackTopology(pMediaSource, pPD, m_hwndVideo, &amp;pTopology);
+    hr = CreatePlaybackTopology(pMediaSource, pPD, m_hwndVideo, &pTopology);
     if (FAILED(hr))
     {
         goto done;
@@ -223,7 +223,7 @@ HRESULT CPlaylist::AddSegment(PCWSTR pszURL)
     hr = m_pSequencerSource->AppendTopology(
         pTopology, 
         SequencerTopologyFlags_Last, 
-        &amp;SegmentId
+        &SegmentId
         );
 
     if (FAILED(hr))
@@ -231,7 +231,7 @@ HRESULT CPlaylist::AddSegment(PCWSTR pszURL)
         goto done;
     }
 
-    hr = pTopology->GetTopologyID(&amp;TopologyID);
+    hr = pTopology->GetTopologyID(&TopologyID);
     if (FAILED(hr))
     {
         goto done;
@@ -250,9 +250,9 @@ HRESULT CPlaylist::AddSegment(PCWSTR pszURL)
     m_count++;
 
 done:
-    SafeRelease(&amp;pMediaSource);
-    SafeRelease(&amp;pTopology);
-    SafeRelease(&amp;pPD);
+    SafeRelease(&pMediaSource);
+    SafeRelease(&pTopology);
+    SafeRelease(&pPD);
     return hr;
 }
 ```
@@ -298,7 +298,7 @@ HRESULT CPlaylist::AddToPlaylist(PCWSTR pszURL)
     // If this is the first segment, queue it on the session.
     if (bFirstSegment)
     {
-        hr = m_pSource->CreatePresentationDescriptor(&amp;pPD);
+        hr = m_pSource->CreatePresentationDescriptor(&pPD);
         if (FAILED(hr))
         {
             goto done;
@@ -317,7 +317,7 @@ HRESULT CPlaylist::AddToPlaylist(PCWSTR pszURL)
     }
 
 done:
-    SafeRelease(&amp;pPD);
+    SafeRelease(&pPD);
     return hr;
 }
 ```
@@ -342,13 +342,13 @@ HRESULT CPlaylist::QueueNextSegment(IMFPresentationDescriptor *pPD)
     IMFTopology *pTopology = NULL;
 
     //Get the topology for the presentation descriptor
-    HRESULT hr = m_pSequencerSource->QueryInterface(IID_PPV_ARGS(&amp;pTopoProvider));
+    HRESULT hr = m_pSequencerSource->QueryInterface(IID_PPV_ARGS(&pTopoProvider));
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pTopoProvider->GetMediaSourceTopology(pPD, &amp;pTopology);
+    hr = pTopoProvider->GetMediaSourceTopology(pPD, &pTopology);
     if (FAILED(hr))
     {
         goto done;
@@ -358,8 +358,8 @@ HRESULT CPlaylist::QueueNextSegment(IMFPresentationDescriptor *pPD)
     m_pSession->SetTopology(NULL, pTopology);
 
 done:
-    SafeRelease(&amp;pTopoProvider);
-    SafeRelease(&amp;pTopology);
+    SafeRelease(&pTopoProvider);
+    SafeRelease(&pTopology);
     return hr;
 }
 ```
@@ -432,7 +432,7 @@ HRESULT CPlaylist::OnTopologyStatus(IMFMediaEvent *pEvent)
     DWORD  SegmentIndex;
     TOPOID TopoID;
 
-    HRESULT hr = pEvent->GetUINT32(MF_EVENT_TOPOLOGY_STATUS, &amp;value);
+    HRESULT hr = pEvent->GetUINT32(MF_EVENT_TOPOLOGY_STATUS, &value);
     if (FAILED(hr))
     {
         goto done;
@@ -443,27 +443,27 @@ HRESULT CPlaylist::OnTopologyStatus(IMFMediaEvent *pEvent)
     case MF_TOPOSTATUS_STARTED_SOURCE:
 
         // Get information about the new segment
-        hr = GetEventObject(pEvent, &amp;pTopology);
+        hr = GetEventObject(pEvent, &pTopology);
         if (FAILED(hr))
         {
             hr = S_OK;
             goto done;
         }
 
-        hr = pTopology->GetTopologyID(&amp;TopoID);
+        hr = pTopology->GetTopologyID(&TopoID);
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = LookupTopoID(TopoID, &amp;SegmentIndex);
+        hr = LookupTopoID(TopoID, &SegmentIndex);
         if (FAILED(hr))
         {
             goto done;
         }
 
         m_ActiveSegment = SegmentIndex;
-        hr = GetDurationFromTopology(pTopology, &amp;m_hnsSegmentDuration);
+        hr = GetDurationFromTopology(pTopology, &m_hnsSegmentDuration);
         break;
 
     case MF_TOPOSTATUS_ENDED:
@@ -479,7 +479,7 @@ HRESULT CPlaylist::OnTopologyStatus(IMFMediaEvent *pEvent)
     }
 
 done:
-    SafeRelease(&amp;pTopology);
+    SafeRelease(&pTopology);
     return hr;
 }
 ```
@@ -532,7 +532,7 @@ HRESULT CPlaylist::OnNewPresentation(IMFMediaEvent *pEvent)
 {
     IMFPresentationDescriptor *pPD = NULL;
 
-    HRESULT hr = GetEventObject(pEvent, &amp;pPD);
+    HRESULT hr = GetEventObject(pEvent, &pPD);
 
     if (SUCCEEDED(hr))
     {
@@ -540,7 +540,7 @@ HRESULT CPlaylist::OnNewPresentation(IMFMediaEvent *pEvent)
         hr = QueueNextSegment(pPD);
     }
 
-    SafeRelease(&amp;pPD);
+    SafeRelease(&pPD);
     return hr;
 }
 ```
@@ -562,12 +562,12 @@ HRESULT CPlaylist::SkipTo(DWORD index)
 
     PROPVARIANT var;
 
-    HRESULT hr = MFCreateSequencerSegmentOffset(ID, NULL, &amp;var);
+    HRESULT hr = MFCreateSequencerSegmentOffset(ID, NULL, &var);
     
     if (SUCCEEDED(hr))
     {
-        hr = m_pSession->Start(&amp;MF_TIME_FORMAT_SEGMENT_OFFSET, &amp;var);
-        PropVariantClear(&amp;var);
+        hr = m_pSession->Start(&MF_TIME_FORMAT_SEGMENT_OFFSET, &var);
+        PropVariantClear(&var);
     }
     return hr;
 }
@@ -585,19 +585,19 @@ HRESULT GetDurationFromTopology(IMFTopology *pTopology, LONGLONG *phnsDuration)
     IMFTopologyNode *pNode = NULL;
     IMFPresentationDescriptor *pPD = NULL;
 
-    HRESULT hr = pTopology->GetSourceNodeCollection(&amp;pSourceNodes);
+    HRESULT hr = pTopology->GetSourceNodeCollection(&pSourceNodes);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = GetCollectionObject(pSourceNodes, 0, &amp;pNode);
+    hr = GetCollectionObject(pSourceNodes, 0, &pNode);
     if (FAILED(hr))
     {
         goto done;
     }
     
-    hr = pNode->GetUnknown(MF_TOPONODE_PRESENTATION_DESCRIPTOR, IID_PPV_ARGS(&amp;pPD));
+    hr = pNode->GetUnknown(MF_TOPONODE_PRESENTATION_DESCRIPTOR, IID_PPV_ARGS(&pPD));
     if (FAILED(hr))
     {
         goto done;
@@ -606,9 +606,9 @@ HRESULT GetDurationFromTopology(IMFTopology *pTopology, LONGLONG *phnsDuration)
     *phnsDuration = MFGetAttributeUINT64(pPD, MF_PD_DURATION, 0);
 
 done:
-    SafeRelease(&amp;pSourceNodes);
-    SafeRelease(&amp;pNode);
-    SafeRelease(&amp;pPD);
+    SafeRelease(&pSourceNodes);
+    SafeRelease(&pNode);
+    SafeRelease(&pPD);
     return hr;
 }
 ```

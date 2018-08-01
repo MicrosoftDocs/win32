@@ -23,20 +23,20 @@ Point polyPoints[] = {Point(10, 10), Point(150, 10),
 GraphicsPath path;
 path.AddPolygon(polyPoints, 4);
 // Construct a region based on the path.
-Region region(&amp;path);
+Region region(&path);
 // Draw the outline of the region.
 Pen pen(Color(255, 0, 0, 0));
-graphics.DrawPath(&amp;pen, &amp;path);
+graphics.DrawPath(&pen, &path);
 // Set the clipping region of the Graphics object.
-graphics.SetClip(&amp;region);
+graphics.SetClip(&region);
 // Draw some clipped strings.
 FontFamily fontFamily(L"Arial");
-Font font(&amp;fontFamily, 36, FontStyleBold, UnitPixel);
+Font font(&fontFamily, 36, FontStyleBold, UnitPixel);
 SolidBrush solidBrush(Color(255, 255, 0, 0));
-graphics.DrawString(L"A Clipping Region", 20, &amp;font, 
-   PointF(15, 25), &amp;solidBrush);
-graphics.DrawString(L"A Clipping Region", 20, &amp;font, 
-   PointF(15, 68), &amp;solidBrush);
+graphics.DrawString(L"A Clipping Region", 20, &font, 
+   PointF(15, 25), &solidBrush);
+graphics.DrawString(L"A Clipping Region", 20, &font, 
+   PointF(15, 68), &solidBrush);
 ```
 
 

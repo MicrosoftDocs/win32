@@ -32,7 +32,7 @@ The **Modify** method updates a Name Server (NS) Resource Record.
 void Modify(
   [in, optional] uint32              TTL,
   [in, optional] string              NSHost,
-  [out, ref]     MicrosoftDNS_NSType &amp;RR
+  [out, ref]     MicrosoftDNS_NSType &RR
 );
 ```
 

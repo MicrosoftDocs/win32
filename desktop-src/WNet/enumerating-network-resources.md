@@ -66,7 +66,7 @@ BOOL WINAPI EnumerateFunc(LPNETRESOURCE lpnr)
                             RESOURCETYPE_ANY,   // all resources
                             0,  // enumerate all resources
                             lpnr,       // NULL first time the function is called
-                            &amp;hEnum);    // handle to the resource
+                            &hEnum);    // handle to the resource
 
     if (dwResult != NO_ERROR) {
         printf("WnetOpenEnum failed with error %d\n", dwResult);
@@ -92,9 +92,9 @@ BOOL WINAPI EnumerateFunc(LPNETRESOURCE lpnr)
         //  the enumeration.
         //
         dwResultEnum = WNetEnumResource(hEnum,  // resource handle
-                                        &amp;cEntries,      // defined locally as -1
+                                        &cEntries,      // defined locally as -1
                                         lpnrLocal,      // LPNETRESOURCE
-                                        &amp;cbBuffer);     // buffer size
+                                        &cbBuffer);     // buffer size
         //
         // If the call succeeds, loop through the structures.
         //
@@ -103,15 +103,15 @@ BOOL WINAPI EnumerateFunc(LPNETRESOURCE lpnr)
                 // Call an application-defined function to
                 //  display the contents of the NETRESOURCE structures.
                 //
-                DisplayStruct(i, &amp;lpnrLocal[i]);
+                DisplayStruct(i, &lpnrLocal[i]);
 
                 // If the NETRESOURCE structure represents a container resource, 
                 //  call the EnumerateFunc function recursively.
 
                 if (RESOURCEUSAGE_CONTAINER == (lpnrLocal[i].dwUsage
                                                 & RESOURCEUSAGE_CONTAINER))
-//          if(!EnumerateFunc(hwnd, hdc, &amp;lpnrLocal[i]))
-                    if (!EnumerateFunc(&amp;lpnrLocal[i]))
+//          if(!EnumerateFunc(hwnd, hdc, &lpnrLocal[i]))
+                    if (!EnumerateFunc(&lpnrLocal[i]))
                         printf("EnumerateFunc returned FALSE\n");
 //            TextOut(hdc, 10, 10, "EnumerateFunc returned FALSE.", 29);
             }

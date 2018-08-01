@@ -123,7 +123,7 @@ D3DVERTEXELEMENT9 decl[] = {
 };
     
 // Create a gutter helper with the new parameterization
-hr = D3DXCreateTextureGutterHelper(width, height, pMesh, 1, &amp;pGutterHelper);  
+hr = D3DXCreateTextureGutterHelper(width, height, pMesh, 1, &pGutterHelper);  
     
 // Resample the texture
 hr = pGutterHelper->ResampleTex(pOriginalTex, pMesh, D3DDECLUSAGE_TEXCOORD, 

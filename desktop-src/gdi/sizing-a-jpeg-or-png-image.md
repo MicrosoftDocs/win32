@@ -36,12 +36,12 @@ if (
     // Check if CHECKJPEGFORMAT exists: 
 
     (ExtEscape(hdc, QUERYESCSUPPORT,
-               sizeof(ul), &amp;ul, 0, 0) > 0) &amp;&amp;
+               sizeof(ul), &ul, 0, 0) > 0) &&
 
     // Check if CHECKJPEGFORMAT executed without error: 
 
     (ExtEscape(hdc, CHECKJPEGFORMAT,
-               nJpgImageSize, pvJpgImage, sizeof(ul), &amp;ul) > 0) &amp;&amp;
+               nJpgImageSize, pvJpgImage, sizeof(ul), &ul) > 0) &&
 
     // Check status code returned by CHECKJPEGFORMAT: 
 
@@ -52,7 +52,7 @@ if (
     // Initialize the BITMAPINFO. 
     // 
 
-    memset(&amp;bmi, 0, sizeof(bmi));
+    memset(&bmi, 0, sizeof(bmi));
     bmi.bmiHeader.biSize        = sizeof(BITMAPINFOHEADER);
     bmi.bmiHeader.biWidth       = ulJpgWidth;
     bmi.bmiHeader.biHeight      = -ulJpgHeight; // top-down image 
@@ -71,7 +71,7 @@ if (
                          // source rectangle 
                          0, 0, ulJpgWidth, ulJpgHeight,
                          pvJpgImage,
-                         &amp;bmi,
+                         &bmi,
                          DIB_RGB_COLORS,
                          SRCCOPY);
 

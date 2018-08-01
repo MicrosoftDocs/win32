@@ -41,12 +41,12 @@ int wmain(
         IAppxManifestReader* manifestReader = NULL;
 
         // Create a package reader using the file name given in command line
-        hr = GetPackageReader(argv[1], &amp;packageReader);
+        hr = GetPackageReader(argv[1], &packageReader);
 
         // Get manifest reader for the package and read from the manifest
         if (SUCCEEDED(hr))
         {
-            hr = packageReader->GetManifest(&amp;manifestReader);
+            hr = packageReader->GetManifest(&manifestReader);
         }
         if (SUCCEEDED(hr))
         {
@@ -78,7 +78,7 @@ HRESULT GetPackageReader(
             NULL,
             CLSCTX_INPROC_SERVER,
             __uuidof(IAppxFactory),
-            (LPVOID*)(&amp;appxFactory));
+            (LPVOID*)(&appxFactory));
 
     // Create a stream over the input app package
     if (SUCCEEDED(hr))
@@ -89,7 +89,7 @@ HRESULT GetPackageReader(
                 0, // default file attributes
                 FALSE, // do not create new file
                 NULL, // no template
-                &amp;inputStream);
+                &inputStream);
     }
 
     // Create a new package reader using the factory.  For 
@@ -138,22 +138,22 @@ HRESULT ReadManifestPackageId(
     IAppxManifestPackageId* packageId = NULL;
 
     // Get elements and attributes from the manifest reader
-    hr = manifestReader->GetPackageId(&amp;packageId);
+    hr = manifestReader->GetPackageId(&packageId);
     if (SUCCEEDED(hr))
     {
         LPWSTR packageFullName = NULL;
         LPWSTR packageName = NULL;
         UINT64 packageVersion = 0;
 
-        hr = packageId->GetPackageFullName(&amp;packageFullName);
+        hr = packageId->GetPackageFullName(&packageFullName);
 
         if (SUCCEEDED(hr))
         {
-            hr = packageId->GetName(&amp;packageName);
+            hr = packageId->GetName(&packageName);
         }
         if (SUCCEEDED(hr))
         {
-            hr = packageId->GetVersion(&amp;packageVersion);
+            hr = packageId->GetVersion(&packageVersion);
         }
         if (SUCCEEDED(hr))
         {
@@ -208,17 +208,17 @@ HRESULT ReadManifestProperties(
     IAppxManifestProperties* properties = NULL;
 
     // Get elements and attributes from the manifest reader
-    hr = manifestReader->GetProperties(&amp;properties);
+    hr = manifestReader->GetProperties(&properties);
     if (SUCCEEDED(hr))
     {
         LPWSTR displayName = NULL;
         LPWSTR description = NULL;
 
-        hr = properties->GetStringValue(L"DisplayName", &amp;displayName);
+        hr = properties->GetStringValue(L"DisplayName", &displayName);
 
         if (SUCCEEDED(hr))
         {
-            hr = properties->GetStringValue(L"Description", &amp;description);
+            hr = properties->GetStringValue(L"Description", &description);
         }
         if (SUCCEEDED(hr))
         {
@@ -265,20 +265,20 @@ HRESULT ReadManifestApplications(
     IAppxManifestApplicationsEnumerator* applications = NULL;
 
     // Get elements and attributes from the manifest reader
-    hr = manifestReader->GetApplications(&amp;applications);
+    hr = manifestReader->GetApplications(&applications);
     if (SUCCEEDED(hr))
     {
-        hr = applications->GetHasCurrent(&amp;hasCurrent);
+        hr = applications->GetHasCurrent(&hasCurrent);
 
-        while (SUCCEEDED(hr) &amp;&amp; hasCurrent)
+        while (SUCCEEDED(hr) && hasCurrent)
         {
             IAppxManifestApplication* application = NULL;
             LPWSTR applicationName = NULL;
 
-            hr = applications->GetCurrent(&amp;application);
+            hr = applications->GetCurrent(&application);
             if (SUCCEEDED(hr))
             {
-                application->GetStringValue(L"DisplayName", &amp;applicationName);
+                application->GetStringValue(L"DisplayName", &applicationName);
             }
             if (SUCCEEDED(hr))
             {
@@ -288,7 +288,7 @@ HRESULT ReadManifestApplications(
 
             if (SUCCEEDED(hr))
             {
-                hr = applications->MoveNext(&amp;hasCurrent);
+                hr = applications->MoveNext(&hasCurrent);
             }
             if (application != NULL)
             {

@@ -107,7 +107,7 @@ objRefresher.Refresh
 ' Item.IsSet checks for whether the item is an enumerator.
 for each RefreshableItem in objRefresher
  if RefreshableItem.IsSet then  
-    MsgBox "Item with index " & RefreshableItem.Index &amp;_
+    MsgBox "Item with index " & RefreshableItem.Index &_
     " is an enumerator containing "_
     & RefreshableItem.ObjectSet.Count & " processes"
  else  

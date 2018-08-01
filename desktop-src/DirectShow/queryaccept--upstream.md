@@ -61,7 +61,7 @@ HRESULT CMyTransform::CheckTransform(
 {
     if (mtOut is a YUV or RGB type that you support)
     {
-        if ((mtIn has the same video dimensions as mtOut) &amp;&amp;
+        if ((mtIn has the same video dimensions as mtOut) &&
             (you support the mtIn-to-mtOut transform))
         {
             return S_OK;
@@ -107,7 +107,7 @@ HRESULT CMyTransform::Transform(
 {
     // Look for format changes from downstream.
     CMediaType *pMT = NULL;
-    HRESULT hr = pDest->GetMediaType((AM_MEDIA_TYPE**)&amp;pMT);
+    HRESULT hr = pDest->GetMediaType((AM_MEDIA_TYPE**)&pMT);
     if (hr == S_OK)
     {
         hr = m_pOutput->CheckMediaType(pMT);

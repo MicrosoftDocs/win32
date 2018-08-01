@@ -36,11 +36,11 @@ INT main()
    // Initialize <tla rid="tla_gdiplus"/>.
    GdiplusStartupInput gdiplusStartupInput;
    ULONG_PTR gdiplusToken;
-   GdiplusStartup(&amp;gdiplusToken, &amp;gdiplusStartupInput, NULL);
+   GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
    UINT    size = 0;
    UINT    count = 0;
    Bitmap* bitmap = new Bitmap(L"FakePhoto.jpg");
-   bitmap->GetPropertySize(&amp;size, &amp;count);
+   bitmap->GetPropertySize(&size, &count);
    printf("There are %d pieces of metadata in the file.\n", count);
    printf("The total size of the metadata is %d bytes.\n", size);
  
@@ -93,7 +93,7 @@ INT main()
    // Initialize GDI+
    GdiplusStartupInput gdiplusStartupInput;
    ULONG_PTR gdiplusToken;
-   GdiplusStartup(&amp;gdiplusToken, &amp;gdiplusStartupInput, NULL);
+   GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
 
    UINT  size = 0;
    UINT  count = 0;
@@ -103,7 +103,7 @@ INT main()
 
    Bitmap* bitmap = new Bitmap(L"FakePhoto.jpg");
 
-   bitmap->GetPropertySize(&amp;size, &amp;count);
+   bitmap->GetPropertySize(&size, &count);
    printf("There are %d pieces of metadata in the file.\n\n", count);
 
    // GetAllPropertyItems returns an array of PropertyItem objects.
@@ -259,20 +259,20 @@ INT main()
    // Initialize <tla rid="tla_gdiplus"/>.
    GdiplusStartupInput gdiplusStartupInput;
    ULONG_PTR gdiplusToken;
-   GdiplusStartup(&amp;gdiplusToken, &amp;gdiplusStartupInput, NULL);
+   GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
    Status stat;
    CLSID  clsid;
    char   propertyValue[] = "Fake Photograph";
    Bitmap* bitmap = new Bitmap(L"FakePhoto.jpg");
    PropertyItem* propertyItem = new PropertyItem;
    // Get the CLSID of the JPEG encoder.
-   GetEncoderClsid(L"image/jpeg", &amp;clsid);
+   GetEncoderClsid(L"image/jpeg", &clsid);
    propertyItem->id = PropertyTagImageTitle;
    propertyItem->length = 16;  // string length including NULL terminator
    propertyItem->type = PropertyTagTypeASCII; 
    propertyItem->value = propertyValue;
    bitmap->SetPropertyItem(propertyItem);
-   stat = bitmap->Save(L"FakePhoto2.jpg", &amp;clsid, NULL);
+   stat = bitmap->Save(L"FakePhoto2.jpg", &clsid, NULL);
    if(stat == Ok)
       printf("FakePhoto2.jpg saved successfully.\n");
    

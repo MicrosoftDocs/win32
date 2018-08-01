@@ -71,7 +71,7 @@ LPCWSTR g_SliderValueMap =
     hr = CoCreateInstance( CLSID_AccPropServices, NULL,
 CLSCTX_SERVER, IID_IAccPropServices, (void **) & pAccPropSvc )
 );
-    if( hr == S_OK &amp;&amp; pAccPropSvc )
+    if( hr == S_OK && pAccPropSvc )
     {
         /*  TODO
          *  For a listview or treeview, both role and state

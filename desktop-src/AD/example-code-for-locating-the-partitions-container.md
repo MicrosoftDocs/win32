@@ -54,14 +54,14 @@ HRESULT GetPartitionsDNSearch(LPWSTR *ppwszPartitionsDN)
                         NULL,
                         ADS_SECURE_AUTHENTICATION,
                         IID_IADs, 
-                        (LPVOID*)&amp;padsRootDSE);
+                        (LPVOID*)&padsRootDSE);
 
     if(SUCCEEDED(hr))
     {
         CComVariant svar;
 
         // Get the configurationNamingContext property.
-        hr = padsRootDSE->Get(CComBSTR("configurationNamingContext"), &amp;svar);
+        hr = padsRootDSE->Get(CComBSTR("configurationNamingContext"), &svar);
         if(SUCCEEDED(hr))
         {
             IDirectorySearch *pConfigSearch;
@@ -75,7 +75,7 @@ HRESULT GetPartitionsDNSearch(LPWSTR *ppwszPartitionsDN)
                                 NULL,
                                 ADS_SECURE_AUTHENTICATION,
                                 IID_IDirectorySearch, 
-                                (LPVOID*)&amp;pConfigSearch);
+                                (LPVOID*)&pConfigSearch);
 
             if(SUCCEEDED(hr))
             {
@@ -92,13 +92,13 @@ HRESULT GetPartitionsDNSearch(LPWSTR *ppwszPartitionsDN)
                 {
                     ADS_SEARCH_HANDLE hSearch = NULL;
                     LPWSTR pwszAttributes[1] = {L"distinguishedName"};
-                    LPWSTR pwszSearchFilter = L"(&amp;(objectClass=crossRefContainer))";
+                    LPWSTR pwszSearchFilter = L"(&(objectClass=crossRefContainer))";
                     
                     // Execute the search.
                     hr = pConfigSearch->ExecuteSearch(pwszSearchFilter, 
                         pwszAttributes, 
                         sizeof(pwszAttributes)/sizeof(LPWSTR), 
-                        &amp;hSearch);
+                        &hSearch);
                     if(SUCCEEDED(hr))
                     {
                         // Get the first result row. There should never be more than one match.
@@ -108,7 +108,7 @@ HRESULT GetPartitionsDNSearch(LPWSTR *ppwszPartitionsDN)
                             ADS_SEARCH_COLUMN col;
 
                             // Get the search result. The distinguishedName attribute will be a string.
-                            hr = pConfigSearch->GetColumn(hSearch, pwszAttributes[0], &amp;col);
+                            hr = pConfigSearch->GetColumn(hSearch, pwszAttributes[0], &col);
                             if(SUCCEEDED(hr))
                             {
                                 // col.pADsValues[0].DNString;
@@ -125,7 +125,7 @@ HRESULT GetPartitionsDNSearch(LPWSTR *ppwszPartitionsDN)
                                     hr = E_OUTOFMEMORY;
                                 }
 
-                                pConfigSearch->FreeColumn(&amp;col);
+                                pConfigSearch->FreeColumn(&col);
                             }
                         }
                         else
@@ -178,7 +178,7 @@ Function GetPartitionsDNSearch()
     oConn.Open
     oComm.ActiveConnection = oConn
     
-    oComm.CommandText = "<LDAP://" + oRootDSE.Get("configurationNamingContext") + ">;(&amp;(objectClass=crossRefContainer));distinguishedName;onelevel"
+    oComm.CommandText = "<LDAP://" + oRootDSE.Get("configurationNamingContext") + ">;(&(objectClass=crossRefContainer));distinguishedName;onelevel"
     
     ' WScript.Echo oComm.CommandText
     
@@ -228,14 +228,14 @@ HRESULT GetPartitionsDNManual(LPWSTR *ppwszPartitionsDN)
                         NULL,
                         ADS_SECURE_AUTHENTICATION,
                         IID_IADs, 
-                        (LPVOID*)&amp;padsRootDSE);
+                        (LPVOID*)&padsRootDSE);
 
     if(SUCCEEDED(hr))
     {
         CComVariant svar;
 
         // Get the configurationNamingContext property.
-        hr = padsRootDSE->Get(CComBSTR("configurationNamingContext"), &amp;svar);
+        hr = padsRootDSE->Get(CComBSTR("configurationNamingContext"), &svar);
         if(SUCCEEDED(hr))
         {
             CComBSTR sbstrDN = "CN=Partitions,";
@@ -306,7 +306,7 @@ static string GetPartitionsDN()
 
     // Search for an object that is of type crossRefContainer.
     DirectorySearcher ConfigSearcher = new DirectorySearcher(ConfigContainer);
-    ConfigSearcher.Filter = "(&amp;(objectClass=crossRefContainer))";
+    ConfigSearcher.Filter = "(&(objectClass=crossRefContainer))";
     ConfigSearcher.PropertiesToLoad.Add("distinguishedName");
     ConfigSearcher.SearchScope = SearchScope.OneLevel;
 
@@ -342,7 +342,7 @@ Function GetPartitionsDN() As String
 
     ' Search for an object that is of type crossRefContainer.
     Dim ConfigSearcher As New DirectorySearcher(ConfigContainer)
-    ConfigSearcher.Filter = "(&amp;(objectClass=crossRefContainer))"
+    ConfigSearcher.Filter = "(&(objectClass=crossRefContainer))"
     ConfigSearcher.SearchScope = SearchScope.OneLevel
 
     Dim result As SearchResult = ConfigSearcher.FindOne()

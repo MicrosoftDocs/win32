@@ -57,12 +57,12 @@ if(s==INVALID_SOCKET)
 // to the client. Repeat until complete.
 do 
 {
-    if (!ReceiveMsg (s, g_pInBuf, g_cbMaxMessage, &amp;cbIn))
+    if (!ReceiveMsg (s, g_pInBuf, g_cbMaxMessage, &cbIn))
         return(FALSE);
  
     cbOut = g_cbMaxMessage;
     if (!GenServerContext (s, g_pInBuf, cbIn, g_pOutBuf, 
-                               &amp;cbOut, &amp;done))
+                               &cbOut, &done))
         return(FALSE);
  
     if (!SendMsg (s, g_pOutBuf, cbOut))
@@ -102,13 +102,13 @@ SecBuffer        InSecBuff;
 ULONG            ContextAttributes = 0;
 PAUTH_SEQ        pAS = null;
 
-if((pIn==NULL &amp;&amp; cbIn>0) || (pOut==NULL) || (pcbOut==NULL) || (pfDone==NULL))
+if((pIn==NULL && cbIn>0) || (pOut==NULL) || (pcbOut==NULL) || (pfDone==NULL))
 {
     return(FALSE);
 }
  
 // Get a structure that contains the state of the authentication sequence.
-if (!GetEntry (dwKey, (PVOID*) &amp;pAS))
+if (!GetEntry (dwKey, (PVOID*) &pAS))
     return(FALSE);
  
 if (pAS->_fNewConversation)  
@@ -121,8 +121,8 @@ if (pAS->_fNewConversation)
                         NULL,    // authentication data
                         NULL,    // get key function
                         NULL,    // get key argument
-                        &amp;pAS->_hcred,
-                        &amp;Lifetime
+                        &pAS->_hcred,
+                        &Lifetime
                         );
     if (SEC_SUCCESS (ssStatus))
         pAS->_fHaveCredHandle = TRUE;
@@ -137,7 +137,7 @@ if (pAS->_fNewConversation)
 // Prepare the output buffer.
 OutBuffDesc.ulVersion = 0;
 OutBuffDesc.cBuffers  = 1;
-OutBuffDesc.pBuffers  = &amp;OutSecBuff;
+OutBuffDesc.pBuffers  = &OutSecBuff;
  
 OutSecBuff.cbBuffer   = *pcbOut;
 OutSecBuff.BufferType = SECBUFFER_TOKEN;
@@ -146,29 +146,29 @@ OutSecBuff.pvBuffer   = pOut;
 // Prepare the input buffer.
 InBuffDesc.ulVersion  = 0;
 InBuffDesc.cBuffers   = 1;
-InBuffDesc.pBuffers   = &amp;InSecBuff;
+InBuffDesc.pBuffers   = &InSecBuff;
  
 InSecBuff.cbBuffer    = cbIn;
 InSecBuff.BufferType  = SECBUFFER_TOKEN;
 InSecBuff.pvBuffer    = pIn;
  
 ssStatus = g_pFuncs->AcceptSecurityContext (
-                    &amp;pAS->_hcred,
-                    pAS->_fNewConversation ? NULL : &amp;pAS->_hctxt,
-                    &amp;InBuffDesc,
+                    &pAS->_hcred,
+                    pAS->_fNewConversation ? NULL : &pAS->_hctxt,
+                    &InBuffDesc,
                     ASC_REQ_MUTUAL_AUTH,  // Context requirements.
                     SECURITY_NATIVE_DREP,
-                    &amp;pAS->_hctxt,
-                    &amp;OutBuffDesc,
-                    &amp;ContextAttributes,
-                    &amp;Lifetime
+                    &pAS->_hctxt,
+                    &OutBuffDesc,
+                    &ContextAttributes,
+                    &Lifetime
                     );
 if (!SEC_SUCCESS (ssStatus))  
 {
     fprintf (stderr, "AcceptSecurityContext failed: %u\n", ssStatus);
     return FALSE;
 }
-if (!(ContextAttributes &amp;&amp; ASC_RET_MUTUAL_AUTH)) 
+if (!(ContextAttributes && ASC_RET_MUTUAL_AUTH)) 
     _tprintf(TEXT("Mutual Auth not set in returned context.\n"));
  
 pAS->_fHaveCtxtHandle = TRUE;
@@ -179,8 +179,8 @@ if ((SEC_I_COMPLETE_NEEDED == ssStatus) ||
 {
     if (g_pFuncs->CompleteAuthToken) 
     {
-        ssStatus = g_pFuncs->CompleteAuthToken (&amp;pAS->_hctxt, 
-                                                &amp;OutBuffDesc);
+        ssStatus = g_pFuncs->CompleteAuthToken (&pAS->_hctxt, 
+                                                &OutBuffDesc);
         if (!SEC_SUCCESS(ssStatus)) 
         {
             fprintf (stderr, "complete failed: %u\n", ssStatus);

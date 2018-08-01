@@ -51,8 +51,8 @@ There is usually no need for an application to know which user is logged in or w
 hr = psfDeskTop->ParseDisplayName(NULL, 
                                   NULL, 
                                   L"::{450d8fba-ad25-11d0-98a8-0800361b1103}", 
-                                  &amp;chEaten, 
-                                  &amp;pidlDocFiles, 
+                                  &chEaten, 
+                                  &pidlDocFiles, 
                                   NULL);
 ```
 
@@ -175,25 +175,25 @@ int main(void)
     
 
     szSourceFiles[0] = '\0';
-    hr = SHGetDesktopFolder(&amp;psfDeskTop);
+    hr = SHGetDesktopFolder(&psfDeskTop);
 
     hr = psfDeskTop->ParseDisplayName(NULL, NULL, L"c:\\My_Docs", 
-         &amp;chEaten, &amp;pidlDocFiles, NULL);
+         &chEaten, &pidlDocFiles, NULL);
     hr = psfDeskTop->BindToObject(pidlDocFiles, NULL, IID_IShellFolder, 
-         (LPVOID *) &amp;psfDocFiles);
+         (LPVOID *) &psfDocFiles);
     hr = psfDeskTop->Release();
 
     hr = psfDocFiles->EnumObjects(NULL,SHCONTF_FOLDERS | SHCONTF_NONFOLDERS, 
-         &amp;ppenum);
+         &ppenum);
 
-    while( (hr = ppenum->Next(1,&amp;pidlItems, &amp;celtFetched)) == S_OK 
-       &amp;&amp; (celtFetched) == 1)
+    while( (hr = ppenum->Next(1,&pidlItems, &celtFetched)) == S_OK 
+       && (celtFetched) == 1)
     {
         psfDocFiles->GetDisplayNameOf(pidlItems, SHGDN_FORPARSING, 
-            &amp;strDispName);
-        StrRetToBuf(&amp;strDispName, pidlItems, szParseName, MAX_PATH);
+            &strDispName);
+        StrRetToBuf(&strDispName, pidlItems, szParseName, MAX_PATH);
         
-        hr = StringCchLength(szParseName, MAX_PATH, &amp;ParseNameSize);
+        hr = StringCchLength(szParseName, MAX_PATH, &ParseNameSize);
         
         if (SUCCEEDED(hr))
         {
@@ -214,7 +214,7 @@ int main(void)
     sfo.pTo = "c:\\My_Docs2\0";
     sfo.fFlags = FOF_SILENT | FOF_NOCONFIRMATION | FOF_NOCONFIRMMKDIR;
 
-    hr = SHFileOperation(&amp;sfo);
+    hr = SHFileOperation(&sfo);
     
     SHChangeNotify(SHCNE_UPDATEDIR, SHCNF_PATH, (LPCVOID) "c:\\My_Docs2", 0);
 

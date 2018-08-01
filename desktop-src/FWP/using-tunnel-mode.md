@@ -124,13 +124,13 @@ DWORD ConfigureIPsecTunnelMode(
    mmProposals[0].maxLifetimeSeconds = 8 * 60 * 60;
    mmProposals[0].dhGroup = IKEEXT_DH_GROUP_2;
 
-   memset(&amp;mmPolicy, 0, sizeof(mmPolicy));
+   memset(&mmPolicy, 0, sizeof(mmPolicy));
    mmPolicy.numAuthenticationMethods = ARRAYSIZE(mmAuthMethods);
    mmPolicy.authenticationMethods = mmAuthMethods;
    mmPolicy.numIkeProposals = ARRAYSIZE(mmProposals);
    mmPolicy.ikeProposals = mmProposals;
 
-   memset(&amp;mmProvCtxt, 0, sizeof(mmProvCtxt));
+   memset(&mmProvCtxt, 0, sizeof(mmProvCtxt));
    // For MUI compatibility, object names should be indirect strings. 
    // See SHLoadIndirectString for details.
    mmProvCtxt.displayData.name = (PWSTR)policyName;
@@ -138,10 +138,10 @@ DWORD ConfigureIPsecTunnelMode(
    // installed on a computer, this makes it easy to determine who added what.
    mmProvCtxt.providerKey = (GUID*)providerKey;
    mmProvCtxt.type = FWPM_IPSEC_IKE_MM_CONTEXT;
-   mmProvCtxt.authIpMmPolicy = &amp;mmPolicy;
+   mmProvCtxt.authIpMmPolicy = &mmPolicy;
 
    // For quick mode use ESP authentication and cipher.
-   memset(&amp;qmTransform00, 0, sizeof(qmTransform00));
+   memset(&qmTransform00, 0, sizeof(qmTransform00));
    qmTransform00.authTransform.authTransformId =
       IPSEC_AUTH_TRANSFORM_ID_HMAC_SHA_1_96;
    qmTransform00.cipherTransform.cipherTransformId =
@@ -149,31 +149,31 @@ DWORD ConfigureIPsecTunnelMode(
 
    memset(qmTransforms0, 0, sizeof(qmTransforms0));
    qmTransforms0[0].ipsecTransformType = IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER;
-   qmTransforms0[0].espAuthAndCipherTransform = &amp;qmTransform00;
+   qmTransforms0[0].espAuthAndCipherTransform = &qmTransform00;
 
    memset(qmProposals, 0, sizeof(qmProposals));
    qmProposals[0].lifetime = qmLifetime;
    qmProposals[0].numSaTransforms = ARRAYSIZE(qmTransforms0);
    qmProposals[0].saTransforms = qmTransforms0;
 
-   memset(&amp;qmPolicy, 0, sizeof(qmPolicy));
+   memset(&qmPolicy, 0, sizeof(qmPolicy));
    qmPolicy.numIpsecProposals = ARRAYSIZE(qmProposals);
    qmPolicy.ipsecProposals = qmProposals;
    qmPolicy.tunnelEndpoints = endpoints;
    qmPolicy.saIdleTimeout.idleTimeoutSeconds = 300;
    qmPolicy.saIdleTimeout.idleTimeoutSecondsFailOver = 60;
 
-   memset(&amp;qmProvCtxt, 0, sizeof(qmProvCtxt));
+   memset(&qmProvCtxt, 0, sizeof(qmProvCtxt));
    qmProvCtxt.displayData.name = (PWSTR)policyName;
    qmProvCtxt.providerKey = (GUID*)providerKey;
    qmProvCtxt.type = FWPM_IPSEC_IKE_QM_TUNNEL_CONTEXT;
-   qmProvCtxt.ikeQmTunnelPolicy = &amp;qmPolicy;
+   qmProvCtxt.ikeQmTunnelPolicy = &qmPolicy;
 
    result = FwpmIPsecTunnelAdd0(
                engine,
                FWPM_TUNNEL_FLAG_POINT_TO_POINT,
-               &amp;mmProvCtxt,
-               &amp;qmProvCtxt,
+               &mmProvCtxt,
+               &qmProvCtxt,
                ARRAYSIZE(filterConditions),
                filterConditions,
                NULL

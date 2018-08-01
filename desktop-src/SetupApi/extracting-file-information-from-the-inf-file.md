@@ -61,7 +61,7 @@ test = SetupGetSourceInfo (
      SRCINFO_DESCRIPTION, //which information to retrieve     
      Buffer, //a pointer to the buffer to receive the information                     
      MaxBufSize,  //the size allocated for the buffer 
-     &amp;BufSize    //buffer size actually needed
+     &BufSize    //buffer size actually needed
 );
   
 return 0;

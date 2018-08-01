@@ -71,7 +71,7 @@ The following C++ code example shows what creating an index buffer might look li
 
 if( FAILED( d3dDevice->CreateIndexBuffer( 16384 *sizeof(WORD),
            D3DUSAGE_WRITEONLY, D3DFMT_INDEX16, D3DPOOL_DEFAULT, 
-           &amp;g_IB, NULL ) ) )
+           &g_IB, NULL ) ) )
     return E_FAIL;
 ```
 
@@ -100,7 +100,7 @@ VOID* pIndices;
 if( FAILED( m_pIndexBuffer->Lock( 
       0,                 // Fill from start of the buffer
       sizeof(g_Indices), // Size of the data to load
-      BYTE**)&amp;pIndices,  // Returned index data
+      BYTE**)&pIndices,  // Returned index data
       0 ) ) )            // Send default flags to the lock
 {
     SAFE_RELEASE(m_pIndexBuffer);

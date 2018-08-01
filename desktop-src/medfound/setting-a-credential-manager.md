@@ -45,7 +45,7 @@ HRESULT CreateMediaSourceWithCredentialManager(
     }
 
     // Configure the property store.
-    HRESULT hr = PSCreateMemoryPropertyStore(IID_PPV_ARGS(&amp;pConfig));
+    HRESULT hr = PSCreateMemoryPropertyStore(IID_PPV_ARGS(&pConfig));
 
     if (SUCCEEDED(hr))
     {
@@ -55,11 +55,11 @@ HRESULT CreateMediaSourceWithCredentialManager(
 
         PROPVARIANT var;
         var.vt = VT_UNKNOWN;
-        pCredentials->QueryInterface(IID_PPV_ARGS(&amp;var.punkVal));
+        pCredentials->QueryInterface(IID_PPV_ARGS(&var.punkVal));
 
         hr = pConfig->SetValue(key, var);
 
-        PropVariantClear(&amp;var);
+        PropVariantClear(&var);
     }
 
     // Create the source media source.
@@ -68,8 +68,8 @@ HRESULT CreateMediaSourceWithCredentialManager(
         hr = CreateMediaSource(pszURL, pConfig, ppSource);
     }
 
-    SafeRelease(&amp;pConfig);
-    SafeRelease(&amp;pCredentials);
+    SafeRelease(&pConfig);
+    SafeRelease(&pCredentials);
 
     return hr;
 }

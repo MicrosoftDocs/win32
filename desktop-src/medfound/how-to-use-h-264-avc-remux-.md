@@ -51,7 +51,7 @@ hr = CoCreateInstance(
             NULL,
             CLSCTX_INPROC_SERVER,
             IID_IMFTransform,
-            (void**) &amp;pIMFTransform
+            (void**) &pIMFTransform
             );
 ```
 
@@ -69,7 +69,7 @@ hr = MFCreateFile(
     MF_OPENMODE_DELETE_IF_EXIST,
     MF_FILEFLAGS_NONE,
     m_pszOutputFile,
-    &amp;pMFBSOutputFile);
+    &pMFBSOutputFile);
 if(FAILED(hr))
 {
     Log(L"ERROR>> Failed to create output file for MP4 Sink (hr=0x%x)", hr);
@@ -80,13 +80,13 @@ hr = MFCreateMPEG4MediaSink(
     pMFBSOutputFile,
     (guidMajorType == MFMediaType_Video) ? pMediaType : NULL,  // pMediaType comes from the output type of the remux MFT
     (guidMajorType == MFMediaType_Audio) ? pMediaType : NULL,
-    &amp;m_pMediaSink);
+    &m_pMediaSink);
 if(FAILED(hr))
 {
     Log(L"ERROR>> Failed to create MP4 Sink (hr=0x%x)", hr);
     break;
 }
-hr = m_pMediaSink->GetStreamSinkByIndex(0, &amp;pStream);
+hr = m_pMediaSink->GetStreamSinkByIndex(0, &pStream);
 ```
 
 

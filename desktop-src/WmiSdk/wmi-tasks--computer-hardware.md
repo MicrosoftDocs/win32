@@ -69,10 +69,10 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colSettings = objWMIService.ExecQuery(&quot;Select * from Win32_OperatingSystem&quot;)
 For Each objOperatingSystem in colSettings 
-    Wscript.Echo &quot;Available Physical Memory: &quot; &amp; objOperatingSystem.FreePhysicalMemory
+    Wscript.Echo &quot;Available Physical Memory: &quot; & objOperatingSystem.FreePhysicalMemory
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -114,12 +114,12 @@ Next</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject( &quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject( &quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colItems = objWMIService.ExecQuery(&quot;Select * from Win32_CDROMDrive&quot;)
 For Each objItem in colItems
-    Wscript.Echo &quot;Device ID: &quot; &amp; objItem.DeviceID
-    Wscript.Echo &quot;Description: &quot; &amp; objItem.Description
-    Wscript.Echo &quot;Name: &quot; &amp; objItem.Name 
+    Wscript.Echo &quot;Device ID: &quot; & objItem.DeviceID
+    Wscript.Echo &quot;Description: &quot; & objItem.Description
+    Wscript.Echo &quot;Name: &quot; & objItem.Name 
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -161,11 +161,11 @@ $drives | Format-Table DeviceID, Description, Name -autosize</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colSettings = objWMIService.ExecQuery(&quot;Select * from Win32_ComputerSystem&quot;)
 For Each objComputer in colSettings 
-    Wscript.Echo &quot;System Name: &quot; &amp; objComputer.Name
-    Wscript.Echo &quot;Total Physical Memory: &quot; &amp; objComputer.TotalPhysicalMemory
+    Wscript.Echo &quot;System Name: &quot; & objComputer.Name
+    Wscript.Echo &quot;Total Physical Memory: &quot; & objComputer.TotalPhysicalMemory
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -206,11 +206,11 @@ Next</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colSettings = objWMIService.ExecQuery(&quot;Select * from Win32_ComputerSystem&quot;)
 For Each objComputer in colSettings 
-    Wscript.Echo &quot;System Name: &quot; &amp; objComputer.Name
-    Wscript.Echo &quot;Number of Processors: &quot; &amp; objComputer.NumberOfProcessors
+    Wscript.Echo &quot;System Name: &quot; & objComputer.Name
+    Wscript.Echo &quot;Number of Processors: &quot; & objComputer.NumberOfProcessors
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -252,9 +252,9 @@ Next</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colItems = objWMIService.ExecQuery(&quot;Select * from Win32_PCMCIAController&quot;)
-Wscript.Echo &quot;Number of PCMCIA slots: &quot; &amp; colItems.Count</code></pre></td>
+Wscript.Echo &quot;Number of PCMCIA slots: &quot; & colItems.Count</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -300,16 +300,16 @@ if (!$pcmcia.count) {
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colItems = objWMIService.ExecQuery(&quot;Select * from Win32_PnPEntity WHERE ConfigManagerErrorCode &lt;&gt; 0&quot;)
 For Each objItem in colItems
-    Wscript.Echo &quot;Class GUID: &quot; &amp; objItem.ClassGuid
-    Wscript.Echo &quot;Description: &quot; &amp; objItem.Description
-    Wscript.Echo &quot;Device ID: &quot; &amp; objItem.DeviceID
-    Wscript.Echo &quot;Manufacturer: &quot; &amp; objItem.Manufacturer
-    Wscript.Echo &quot;Name: &quot; &amp; objItem.Name
-    Wscript.Echo &quot;PNP Device ID: &quot; &amp; objItem.PNPDeviceID
-    Wscript.Echo &quot;Service: &quot; &amp; objItem.Service
+    Wscript.Echo &quot;Class GUID: &quot; & objItem.ClassGuid
+    Wscript.Echo &quot;Description: &quot; & objItem.Description
+    Wscript.Echo &quot;Device ID: &quot; & objItem.DeviceID
+    Wscript.Echo &quot;Manufacturer: &quot; & objItem.Manufacturer
+    Wscript.Echo &quot;Name: &quot; & objItem.Name
+    Wscript.Echo &quot;PNP Device ID: &quot; & objItem.PNPDeviceID
+    Wscript.Echo &quot;Service: &quot; & objItem.Service
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -361,26 +361,26 @@ foreach ($device in $baddevices) {
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colItems = objWMIService.ExecQuery(&quot;Select * from Win32_PointingDevice&quot;)
 For Each objItem in colItems
-    Wscript.Echo &quot;Description: &quot; &amp; objItem.Description
-    Wscript.Echo &quot;Device ID: &quot; &amp; objItem.DeviceID
-    Wscript.Echo &quot;Device Interface: &quot; &amp; objItem.DeviceInterface
-    Wscript.Echo &quot;Double Speed Threshold: &quot; &amp; objItem.DoubleSpeedThreshold
-    Wscript.Echo &quot;Handedness: &quot; &amp; objItem.Handedness
-    Wscript.Echo &quot;Hardware Type: &quot; &amp; objItem.HardwareType
-    Wscript.Echo &quot;INF File Name: &quot; &amp; objItem.InfFileName
-    Wscript.Echo &quot;INF Section: &quot; &amp; objItem.InfSection
-    Wscript.Echo &quot;Manufacturer: &quot; &amp; objItem.Manufacturer
-    Wscript.Echo &quot;Name: &quot; &amp; objItem.Name
-    Wscript.Echo &quot;Number Of Buttons: &quot; &amp; objItem.NumberOfButtons
-    Wscript.Echo &quot;PNP Device ID: &quot; &amp; objItem.PNPDeviceID
-    Wscript.Echo &quot;Pointing Type: &quot; &amp; objItem.PointingType
-    Wscript.Echo &quot;Quad Speed Threshold: &quot; &amp; objItem.QuadSpeedThreshold
-    Wscript.Echo &quot;Resolution: &quot; &amp; objItem.Resolution
-    Wscript.Echo &quot;Sample Rate: &quot; &amp; objItem.SampleRate
-    Wscript.Echo &quot;Synch: &quot; &amp; objItem.Synch
+    Wscript.Echo &quot;Description: &quot; & objItem.Description
+    Wscript.Echo &quot;Device ID: &quot; & objItem.DeviceID
+    Wscript.Echo &quot;Device Interface: &quot; & objItem.DeviceInterface
+    Wscript.Echo &quot;Double Speed Threshold: &quot; & objItem.DoubleSpeedThreshold
+    Wscript.Echo &quot;Handedness: &quot; & objItem.Handedness
+    Wscript.Echo &quot;Hardware Type: &quot; & objItem.HardwareType
+    Wscript.Echo &quot;INF File Name: &quot; & objItem.InfFileName
+    Wscript.Echo &quot;INF Section: &quot; & objItem.InfSection
+    Wscript.Echo &quot;Manufacturer: &quot; & objItem.Manufacturer
+    Wscript.Echo &quot;Name: &quot; & objItem.Name
+    Wscript.Echo &quot;Number Of Buttons: &quot; & objItem.NumberOfButtons
+    Wscript.Echo &quot;PNP Device ID: &quot; & objItem.PNPDeviceID
+    Wscript.Echo &quot;Pointing Type: &quot; & objItem.PointingType
+    Wscript.Echo &quot;Quad Speed Threshold: &quot; & objItem.QuadSpeedThreshold
+    Wscript.Echo &quot;Resolution: &quot; & objItem.Resolution
+    Wscript.Echo &quot;Sample Rate: &quot; & objItem.SampleRate
+    Wscript.Echo &quot;Synch: &quot; & objItem.Synch
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -489,11 +489,11 @@ param ($value)
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colItems = objWMIService.ExecQuery(&quot;Select * from Win32_Processor&quot;)
 For Each objItem in colItems
-    Wscript.Echo &quot;Processor Id: &quot; &amp; objItem.ProcessorId
-    Wscript.Echo &quot;Maximum Clock Speed: &quot; &amp; objItem.MaxClockSpeed
+    Wscript.Echo &quot;Processor Id: &quot; & objItem.ProcessorId
+    Wscript.Echo &quot;Maximum Clock Speed: &quot; & objItem.MaxClockSpeed
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -518,11 +518,11 @@ Next</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colChassis = objWMIService.ExecQuery(&quot;Select * from Win32_SystemEnclosure&quot;)
 For Each objChassis in colChassis
     For Each objItem in objChassis.ChassisTypes
-        Wscript.Echo &quot;Chassis Type: &quot; &amp; objItem
+        Wscript.Echo &quot;Chassis Type: &quot; & objItem
     Next
 Next</code></pre></td>
 </tr>
@@ -569,12 +569,12 @@ foreach ($proc in $processors)
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colSMBIOS = objWMIService.ExecQuery(&quot;Select * from Win32_SystemEnclosure&quot;)
 For Each objSMBIOS in colSMBIOS
-    Wscript.Echo &quot;Part Number: &quot; &amp; objSMBIOS.PartNumber
-    Wscript.Echo &quot;Serial Number: &quot; &amp; objSMBIOS.SerialNumber
-    Wscript.Echo &quot;Asset Tag: &quot; &amp; objSMBIOS.SMBIOSAssetTag
+    Wscript.Echo &quot;Part Number: &quot; & objSMBIOS.PartNumber
+    Wscript.Echo &quot;Serial Number: &quot; & objSMBIOS.SerialNumber
+    Wscript.Echo &quot;Asset Tag: &quot; & objSMBIOS.SMBIOSAssetTag
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -622,12 +622,12 @@ foreach ($objSMBIOS in $colSMBIOS)
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colItems = objWMIService.ExecQuery(&quot;Select * from Win32_USBHub&quot;)
 For Each objItem in colItems
-    Wscript.Echo &quot;Device ID: &quot; &amp; objItem.DeviceID
-    Wscript.Echo &quot;PNP Device ID: &quot; &amp; objItem.PNPDeviceID
-    Wscript.Echo &quot;Description: &quot; &amp; objItem.Description
+    Wscript.Echo &quot;Device ID: &quot; & objItem.DeviceID
+    Wscript.Echo &quot;PNP Device ID: &quot; & objItem.PNPDeviceID
+    Wscript.Echo &quot;Description: &quot; & objItem.Description
     Wscript.Echo
 Next</code></pre></td>
 </tr>
@@ -676,9 +676,9 @@ foreach ($objItem in $colItems)
 <tbody>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
-Set objWMIService = GetObject(&quot;winmgmts:&quot; &amp; &quot;{impersonationLevel=impersonate}!\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colItems = objWMIService.ExecQuery(&quot;Select * from Win32_TapeDrive&quot;)
-Wscript.Echo &quot;Number of tape drives: &quot; &amp; colItems.Count</code></pre></td>
+Wscript.Echo &quot;Number of tape drives: &quot; & colItems.Count</code></pre></td>
 </tr>
 </tbody>
 </table>

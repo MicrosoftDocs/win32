@@ -30,7 +30,7 @@ This operator tests for equality between [**CMediaType**](cmediatype.md) objects
 
 ```C++
 BOOL CMediaType::operator==(
-  [ref] const CMediaType &amp;rt
+  [ref] const CMediaType &rt
 );
 ```
 

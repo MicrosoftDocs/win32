@@ -158,7 +158,7 @@ my $wbemPrivilegeDebug = 20;
 
 eval { $locator = new Win32::OLE 'WbemScripting.SWbemLocator';};
 
-if (!$@ &amp;&amp; defined $locator)
+if (!$@ && defined $locator)
 {
  # Add a single privilege using SWbemPrivilegeSet.Add
  $locator->{Security_}->{Privileges}->Add($wbemPrivilegeSecurity);

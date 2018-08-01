@@ -36,7 +36,7 @@ void main()
     DWORD dwLen = sizeof(DWORD);
     // Copyright (C) Microsoft.  All rights reserved.
     // Acquire a cryptographic context.
-    if (!CryptAcquireContext(&amp;hProv,
+    if (!CryptAcquireContext(&hProv,
                               NULL,
                               NULL,
                               PROV_RSA_FULL,
@@ -51,7 +51,7 @@ void main()
                 hProv,    
                 CALG_RC2,    
                 0,    
-                &amp;hKey))
+                &hKey))
     {
         printf("CryptGenKey failed.\n");
         goto Cleanup;
@@ -61,8 +61,8 @@ void main()
     if (!CryptGetKeyParam(
             hKey,    
             KP_KEYLEN,    
-            (BYTE*)&amp;dwKeyLength,
-            &amp;dwLen,    
+            (BYTE*)&dwKeyLength,
+            &dwLen,    
             0))
     {
         printf("CryptGetKeyParam failed.\n");

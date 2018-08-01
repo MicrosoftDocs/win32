@@ -68,8 +68,8 @@ BOOL
             REG_OPTION_NON_VOLATILE,
             rsAccessMask | rsSamViewFlag,
             NULL,
-            &amp;hKey,
-            &amp;dwDisposition);
+            &hKey,
+            &dwDisposition);
 
     if (dwRet != ERROR_SUCCESS)
     {
@@ -119,7 +119,7 @@ BOOL
             KeyName,
             0,
             rsAccessMask | rsSamViewFlag,
-            &amp;hKey);
+            &hKey);
 
     if (dwRet != ERROR_SUCCESS)
     {
@@ -132,9 +132,9 @@ BOOL
                 hKey,
                 NULL,
                 0,
-                &amp;dwType,
+                &dwType,
                 (PBYTE)Buffer,
-                &amp;dwSize))
+                &dwSize))
     {
         printf("Could not read registry value.\n");
         RegCloseKey(hKey);

@@ -155,7 +155,7 @@ Return Value:
     // Send some data securely
     wsaBuf.len = (ULONG) strlen(dataBuf);
     wsaBuf.buf = dataBuf;
-    sockErr = WSASend(sock, &amp;wsaBuf, 1, &amp;bytesSent, 0, NULL, NULL);
+    sockErr = WSASend(sock, &wsaBuf, 1, &bytesSent, 0, NULL, NULL);
     if (sockErr == SOCKET_ERROR) {
         iResult = WSAGetLastError();
         wprintf(L"WSASend returned error %ld\n", iResult);
@@ -167,7 +167,7 @@ Return Value:
     // Receive server's response securely
     wsaBuf.len = RECV_DATA_BUF_SIZE;
     wsaBuf.buf = recvBuf;
-    sockErr = WSARecv(sock, &amp;wsaBuf, 1, &amp;bytesRecvd, &amp;flags, NULL, NULL);
+    sockErr = WSARecv(sock, &wsaBuf, 1, &bytesRecvd, &flags, NULL, NULL);
     if (sockErr == SOCKET_ERROR) {
         iResult = WSAGetLastError();
         wprintf(L"WSARecv returned error %ld\n", iResult);
@@ -229,9 +229,9 @@ int QueryTcpSocketSecurity(IN SOCKET sock)
     ULONG infoLength = 0;
 
     //First query the number of bytes to allocate
-    iResult = WSAQuerySocketSecurity(sock, NULL, NULL, NULL, &amp;infoLength, NULL, NULL);
+    iResult = WSAQuerySocketSecurity(sock, NULL, NULL, NULL, &infoLength, NULL, NULL);
 
-    if ((iResult == SOCKET_ERROR) &amp;&amp; (WSAGetLastError() == WSAEFAULT)) {
+    if ((iResult == SOCKET_ERROR) && (WSAGetLastError() == WSAEFAULT)) {
         //Allocate the space
         queryInfo = (SOCKET_SECURITY_QUERY_INFO *) MALLOC(infoLength);
         if (!queryInfo) {
@@ -244,7 +244,7 @@ int QueryTcpSocketSecurity(IN SOCKET sock)
     }
 
     //Get the IPsec info
-    iResult = WSAQuerySocketSecurity(sock, NULL, NULL, queryInfo, &amp;infoLength, NULL, NULL);
+    iResult = WSAQuerySocketSecurity(sock, NULL, NULL, queryInfo, &infoLength, NULL, NULL);
 
     if (iResult) {
         wprintf(L"WSAQuerySocketSecurity failed with %u\n", WSAGetLastError());

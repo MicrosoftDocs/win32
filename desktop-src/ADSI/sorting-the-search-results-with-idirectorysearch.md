@@ -39,7 +39,7 @@ ADS_SEARCHPREF_INFO SearchPref;
 SearchPref.dwSearchPref = ADS_SEARCHPREF_SORT_ON;
 SearchPref.vValue.dwType = ADSTYPE_PROV_SPECIFIC;
 SearchPref.vValue.ProviderSpecific.dwLength = sizeof(SortKey);
-SearchPref.vValue.ProviderSpecific.lpValue = (LPBYTE)&amp;SortKey;
+SearchPref.vValue.ProviderSpecific.lpValue = (LPBYTE)&SortKey;
 ```
 
 

@@ -22,7 +22,7 @@ The following code example shows how your C++ application might create a simple 
 LPDIRECT3DCUBETEXTURE9 m_pCubeMap;
 
 m_d3dDevice->CreateCubeTexture(256, 1, D3DUSAGE_RENDERTARGET, D3DFMT_R8G8B8,
-                                D3DPOOL_DEFAULT, &amp;m_pCubeMap);
+                                D3DPOOL_DEFAULT, &m_pCubeMap);
 ```
 
 
@@ -38,7 +38,7 @@ The following code example uses [**GetCubeMapSurface**](https://msdn.microsoft.c
 // Init m_pCubeMap to point to an IDirect3DCubeTexture9 interface
 
 LPDIRECT3DSURFACE9 pFace2;
-m_pCubeMap->GetCubeMapSurface(D3DCUBEMAP_FACE_POSITIVE_Y, 0, &amp;pFace2);
+m_pCubeMap->GetCubeMapSurface(D3DCUBEMAP_FACE_POSITIVE_Y, 0, &pFace2);
 ```
 
 
@@ -66,13 +66,13 @@ void RenderFaces()
 {
     // Save transformation matrices of the device
     D3DXMATRIX matProjSave, matViewSave;
-    d3dDevice->GetTransform(D3DTS_VIEW,       &amp;matViewSave ;
-    d3dDevice->GetTransform(D3DTS_PROJECTION, &amp;matProjSave);
+    d3dDevice->GetTransform(D3DTS_VIEW,       &matViewSave ;
+    d3dDevice->GetTransform(D3DTS_PROJECTION, &matProjSave);
 
     // Store the current back buffer and z-buffer
     LPDIRECT3DSURFACE9 pBackBuffer, pZBuffer;
-    d3dDevice->GetRenderTarget(&amp;pBackBuffer);
-    d3dDevice->GetDepthStencilSurface(&amp;pZBuffer);
+    d3dDevice->GetRenderTarget(&pBackBuffer);
+    d3dDevice->GetDepthStencilSurface(&pZBuffer);
 ```
 
 
@@ -86,7 +86,7 @@ This code example creates and sets a projection matrix for the most common case.
     // Use 90-degree field of view in the projection
     D3DMATRIX matProj;
     D3DXMatrixPerspectiveFovLH(matProj, D3DX_PI/2, 1.0f, 0.5f, 1000.0f);
-    d3dDevice->SetTransform(D3DTS_PROJECTION, &amp;matProj);
+    d3dDevice->SetTransform(D3DTS_PROJECTION, &matProj);
 
     // Loop through the six faces of the cube map
     for(DWORD i=0; i<6; i++)
@@ -125,7 +125,7 @@ This code example creates and sets a projection matrix for the most common case.
 
          D3DMATRIX matView;
          D3DXMatrixLookAtLH(matView, vEnvEyePt, vLookatPt, vUpVec);
-         d3dDevice->SetTransform(D3DTS_VIEW, &amp;matView);
+         d3dDevice->SetTransform(D3DTS_VIEW, &matView);
 ```
 
 
@@ -136,7 +136,7 @@ When the camera is in position and the projection matrix set, you can render the
 ```
         // Get pointer to surface in order to render to it
         LPDIRECT3DSURFACE9 pFace;
-        pCubeMap->GetCubeMapSurface((D3DCUBEMAP_FACES)i, 0, &amp;pFace);
+        pCubeMap->GetCubeMapSurface((D3DCUBEMAP_FACES)i, 0, &pFace);
         d3dDevice->SetRenderTarget (pFace , pZBuffer);
         SAFE_RELEASE(pFace);
 
@@ -152,8 +152,8 @@ When the camera is in position and the projection matrix set, you can render the
     SAFE_RELEASE(pZBuffer);
 
     // Restore the original transformation matrices
-    d3dDevice->SetTransform(D3DTS_VIEW,       &amp;matViewSave);
-    d3dDevice->SetTransform(D3DTS_PROJECTION, &amp;matProjSave);
+    d3dDevice->SetTransform(D3DTS_VIEW,       &matViewSave);
+    d3dDevice->SetTransform(D3DTS_PROJECTION, &matProjSave);
 }
 ```
 

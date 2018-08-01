@@ -54,7 +54,7 @@ HRESULT MoveObject(IADs *padsToMove, IADs *padsDestination)
  
     // Get the ADsPath of the object to move.
     CComBSTR sbstrPathToMove;
-    hr = padsToMove->get_ADsPath(&amp;sbstrPathToMove); 
+    hr = padsToMove->get_ADsPath(&sbstrPathToMove); 
     if(FAILED(hr))
     {
         return hr;
@@ -62,7 +62,7 @@ HRESULT MoveObject(IADs *padsToMove, IADs *padsDestination)
     
     // Get an IADsContainer instance from the destination.
     CComPtr<IADsContainer> spContainerDestination;
-    hr = padsDestination->QueryInterface(IID_IADsContainer, (void**)&amp;spContainerDestination);
+    hr = padsDestination->QueryInterface(IID_IADsContainer, (void**)&spContainerDestination);
     if(FAILED(hr))
     {
         return hr;
@@ -70,7 +70,7 @@ HRESULT MoveObject(IADs *padsToMove, IADs *padsDestination)
 
     // Move the object.
     CComPtr<IDispatch> spDispNewObject;
-    hr = spContainerDestination->MoveHere(sbstrPathToMove, NULL, &amp;spDispNewObject);
+    hr = spContainerDestination->MoveHere(sbstrPathToMove, NULL, &spDispNewObject);
 
     return hr;
 }

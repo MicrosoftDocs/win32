@@ -29,7 +29,7 @@ WCHAR string[] =
    L"Use StringFormat and RectF objects to center text in a rectangle.";
                        
 FontFamily   fontFamily(L"Arial");
-Font         font(&amp;fontFamily, 12, FontStyleBold, UnitPoint);
+Font         font(&fontFamily, 12, FontStyleBold, UnitPoint);
 RectF        rectF(30.0f, 10.0f, 120.0f, 140.0f);
 StringFormat stringFormat;
 SolidBrush   solidBrush(Color(255, 0, 0, 255));
@@ -40,10 +40,10 @@ stringFormat.SetAlignment(StringAlignmentCenter);
 // Center the block of text (top to bottom) in the rectangle.
 stringFormat.SetLineAlignment(StringAlignmentCenter);
 
-graphics.DrawString(string, -1, &amp;font, rectF, &amp;stringFormat, &amp;solidBrush);
+graphics.DrawString(string, -1, &font, rectF, &stringFormat, &solidBrush);
 
 Pen pen(Color(255, 0, 0, 0));
-graphics.DrawRectangle(&amp;pen, rectF);
+graphics.DrawRectangle(&pen, rectF);
             
 ```
 
@@ -74,7 +74,7 @@ StringCchCatW(string, 150, L"Sam\t42\t76\t98\n");
 StringCchCatW(string, 150, L"Jane\t65\t73\t92\n");
                        
 FontFamily   fontFamily(L"Courier New");
-Font         font(&amp;fontFamily, 12, FontStyleRegular, UnitPoint);
+Font         font(&fontFamily, 12, FontStyleRegular, UnitPoint);
 RectF        rectF(10.0f, 10.0f, 450.0f, 100.0f);
 StringFormat stringFormat;
 SolidBrush   solidBrush(Color(255, 0, 0, 255));
@@ -82,10 +82,10 @@ REAL         tabs[] = {150.0f, 100.0f, 100.0f};
 
 stringFormat.SetTabStops(0.0f, 3, tabs);
 
-graphics.DrawString(string, -1, &amp;font, rectF, &amp;stringFormat, &amp;solidBrush);
+graphics.DrawString(string, -1, &font, rectF, &stringFormat, &solidBrush);
 
 Pen pen(Color(255, 0, 0, 0));
-graphics.DrawRectangle(&amp;pen, rectF);
+graphics.DrawRectangle(&pen, rectF);
             
 ```
 
@@ -108,14 +108,14 @@ The following example passes the value [****StringFormatFlagsDirectionVertical**
 WCHAR string[] = L"Vertical text";
                      
 FontFamily   fontFamily(L"Lucida Console");
-Font         font(&amp;fontFamily, 14, FontStyleRegular, UnitPoint);
+Font         font(&fontFamily, 14, FontStyleRegular, UnitPoint);
 PointF       pointF(40.0f, 10.0f);
 StringFormat stringFormat;
 SolidBrush   solidBrush(Color(255, 0, 0, 255));
 
 stringFormat.SetFormatFlags(StringFormatFlagsDirectionVertical);
 
-graphics.DrawString(string, -1, &amp;font, pointF, &amp;stringFormat, &amp;solidBrush);
+graphics.DrawString(string, -1, &font, pointF, &stringFormat, &solidBrush);
             
 ```
 

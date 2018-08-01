@@ -72,10 +72,10 @@ The following table lists script examples that can be used to obtain various typ
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
 Set objWMIService = GetObject( _
-    &quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+    &quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colNetCards = objWMIService.ExecQuery _
     (&quot;Select * From Win32_NetworkAdapterConfiguration &quot; _
-        &amp; &quot;Where IPEnabled = True&quot;)
+        & &quot;Where IPEnabled = True&quot;)
 For Each objNetCard in colNetCards
     objNetCard.ReleaseDHCPLease()
 Next</code></pre></td>
@@ -128,10 +128,10 @@ foreach ($NetCard in $netenabled) {
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
 Set objWMIService = GetObject(_
-    &quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+    &quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colItems = objWMIService.ExecQuery _
     (&quot;Select * From Win32_NetworkAdapter &quot; _
-        &amp; &quot;Where NetConnectionID = &quot; &amp; _
+        & &quot;Where NetConnectionID = &quot; & _
         &quot;&#39;Local Area Connection 2&#39;&quot;)
 
 For Each objItem in colItems
@@ -144,7 +144,7 @@ Set colItems = objWMIService.ExecQuery _
 For Each objItem in colItems
     If objItem.MACAddress = strMACAddress Then
         For Each strIPAddress in objItem.IPAddress
-            Wscript.Echo &quot;IP Address: &quot; &amp;  strIPAddress
+            Wscript.Echo &quot;IP Address: &quot; &  strIPAddress
         Next
     End If
 Next</code></pre></td>
@@ -168,21 +168,21 @@ Next</code></pre></td>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
 Set objWMIService = GetObject( _
-    &quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+    &quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colNics = objWMIService.ExecQuery _
     (&quot;Select * From Win32_NetworkAdapter &quot; _
-        &amp; &quot;Where NetConnectionID = &quot; &amp; _
+        & &quot;Where NetConnectionID = &quot; & _
         &quot;&#39;Local Area Connection&#39;&quot;)
  
 For Each objNic in colNics
     Set colNicConfigs = objWMIService.ExecQuery _
       (&quot;ASSOCIATORS OF &quot; _
-          &amp; &quot;{Win32_NetworkAdapter.DeviceID=&#39;&quot; &amp; _
-      objNic.DeviceID &amp; &quot;&#39;}&quot; &amp; _
+          & &quot;{Win32_NetworkAdapter.DeviceID=&#39;&quot; & _
+      objNic.DeviceID & &quot;&#39;}&quot; & _
       &quot; WHERE AssocClass=Win32_NetworkAdapterSetting&quot;)
     For Each objNicConfig In colNicConfigs
         For Each strIPAddress in objNicConfig.IPAddress
-            Wscript.Echo &quot;IP Address: &quot; &amp;  strIPAddress
+            Wscript.Echo &quot;IP Address: &quot; &  strIPAddress
         Next
     Next
 Next</code></pre></td>
@@ -214,7 +214,7 @@ Next</code></pre></td>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
 Set objWMIService = GetObject( _ 
-    &quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+    &quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set IPConfigSet = objWMIService.ExecQuery _
     (&quot;Select IPAddress from Win32_NetworkAdapterConfiguration &quot;)
  
@@ -280,10 +280,10 @@ else {&quot;$Count IP addresses found on this system&quot;}</code></pre></td>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
 Set objWMIService = GetObject(_
-    &quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+    &quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colNetAdapters = objWMIService.ExecQuery _
     (&quot;Select * from Win32_NetworkAdapterConfiguration &quot; _
-        &amp; &quot;where IPEnabled=TRUE&quot;)
+        & &quot;where IPEnabled=TRUE&quot;)
  
 For Each objNetAdapter In colNetAdapters
     errEnable = objNetAdapter.EnableDHCP()
@@ -312,10 +312,10 @@ Next</code></pre></td>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
 Set objWMIService = GetObject( _
-    &quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+    &quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colNetAdapters = objWMIService.ExecQuery _
     (&quot;Select * from Win32_NetworkAdapterConfiguration &quot; _
-        &amp; &quot;where IPEnabled=TRUE&quot;)
+        & &quot;where IPEnabled=TRUE&quot;)
 strIPAddress = Array(&quot;192.168.1.141&quot;)
 strSubnetMask = Array(&quot;255.255.255.0&quot;)
 strGateway = Array(&quot;192.168.1.100&quot;)
@@ -351,10 +351,10 @@ Next</code></pre></td>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
 Set objWMIService = GetObject( _
-    &quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+    &quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set IPConfigSet = objWMIService.ExecQuery _
     (&quot;Select IPAddress from Win32_NetworkAdapterConfiguration&quot; _
-        &amp; &quot; where IPEnabled=TRUE&quot;)
+        & &quot; where IPEnabled=TRUE&quot;)
  
 For Each IPConfig in IPConfigSet
     If Not IsNull(IPConfig.IPAddress) Then 
@@ -389,7 +389,7 @@ Next</code></pre></td>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
 Set objWMIService = GetObject(_ 
-    &quot;winmgmts:\\&quot; &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+    &quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colPings = objWMIService.ExecQuery _
     (&quot;Select * From Win32_PingStatus where Address = &#39;192.168.1.1&#39;&quot;)
 
@@ -422,16 +422,16 @@ Next</code></pre></td>
 <td><pre><code>strComputer = &quot;client1&quot;
 Set objShell = CreateObject(&quot;WScript.Shell&quot;)
 Set objScriptExec = objShell.Exec( _
-    &quot;ping -n 2 -w 1000 &quot; &amp; strComputer)
+    &quot;ping -n 2 -w 1000 &quot; & strComputer)
 strPingResults = LCase(objScriptExec.StdOut.ReadAll)
 If InStr(strPingResults, &quot;reply from&quot;) Then
     If InStr(strPingResults, &quot;destination net unreachable&quot;) Then
-        WScript.Echo strComputer &amp; &quot;did not respond to ping.&quot;
+        WScript.Echo strComputer & &quot;did not respond to ping.&quot;
     Else
-        WScript.Echo strComputer &amp; &quot; responded to ping.&quot;
+        WScript.Echo strComputer & &quot; responded to ping.&quot;
     End If 
 Else
-    WScript.Echo strComputer &amp; &quot; did not respond to ping.&quot;
+    WScript.Echo strComputer & &quot; did not respond to ping.&quot;
 End If
   </code></pre></td>
 </tr>

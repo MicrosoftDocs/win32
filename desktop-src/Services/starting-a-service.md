@@ -67,9 +67,9 @@ VOID __stdcall DoStartSvc()
     if (!QueryServiceStatusEx( 
             schService,                     // handle to service 
             SC_STATUS_PROCESS_INFO,         // information level
-            (LPBYTE) &amp;ssStatus,             // address of structure
+            (LPBYTE) &ssStatus,             // address of structure
             sizeof(SERVICE_STATUS_PROCESS), // size of structure
-            &amp;dwBytesNeeded ) )              // size needed if buffer is too small
+            &dwBytesNeeded ) )              // size needed if buffer is too small
     {
         printf("QueryServiceStatusEx failed (%d)\n", GetLastError());
         CloseServiceHandle(schService); 
@@ -80,7 +80,7 @@ VOID __stdcall DoStartSvc()
     // Check if the service is already running. It would be possible 
     // to stop the service here, but for simplicity this example just returns. 
 
-    if(ssStatus.dwCurrentState != SERVICE_STOPPED &amp;&amp; ssStatus.dwCurrentState != SERVICE_STOP_PENDING)
+    if(ssStatus.dwCurrentState != SERVICE_STOPPED && ssStatus.dwCurrentState != SERVICE_STOP_PENDING)
     {
         printf("Cannot start the service because it is already running\n");
         CloseServiceHandle(schService); 
@@ -115,9 +115,9 @@ VOID __stdcall DoStartSvc()
         if (!QueryServiceStatusEx( 
                 schService,                     // handle to service 
                 SC_STATUS_PROCESS_INFO,         // information level
-                (LPBYTE) &amp;ssStatus,             // address of structure
+                (LPBYTE) &ssStatus,             // address of structure
                 sizeof(SERVICE_STATUS_PROCESS), // size of structure
-                &amp;dwBytesNeeded ) )              // size needed if buffer is too small
+                &dwBytesNeeded ) )              // size needed if buffer is too small
         {
             printf("QueryServiceStatusEx failed (%d)\n", GetLastError());
             CloseServiceHandle(schService); 
@@ -163,9 +163,9 @@ VOID __stdcall DoStartSvc()
     if (!QueryServiceStatusEx( 
             schService,                     // handle to service 
             SC_STATUS_PROCESS_INFO,         // info level
-            (LPBYTE) &amp;ssStatus,             // address of structure
+            (LPBYTE) &ssStatus,             // address of structure
             sizeof(SERVICE_STATUS_PROCESS), // size of structure
-            &amp;dwBytesNeeded ) )              // if buffer too small
+            &dwBytesNeeded ) )              // if buffer too small
     {
         printf("QueryServiceStatusEx failed (%d)\n", GetLastError());
         CloseServiceHandle(schService); 
@@ -198,9 +198,9 @@ VOID __stdcall DoStartSvc()
         if (!QueryServiceStatusEx( 
             schService,             // handle to service 
             SC_STATUS_PROCESS_INFO, // info level
-            (LPBYTE) &amp;ssStatus,             // address of structure
+            (LPBYTE) &ssStatus,             // address of structure
             sizeof(SERVICE_STATUS_PROCESS), // size of structure
-            &amp;dwBytesNeeded ) )              // if buffer too small
+            &dwBytesNeeded ) )              // if buffer too small
         {
             printf("QueryServiceStatusEx failed (%d)\n", GetLastError());
             break; 

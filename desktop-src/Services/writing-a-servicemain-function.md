@@ -170,7 +170,7 @@ VOID ReportSvcStatus( DWORD dwCurrentState,
     else gSvcStatus.dwCheckPoint = dwCheckPoint++;
 
     // Report the status of the service to the SCM.
-    SetServiceStatus( gSvcStatusHandle, &amp;gSvcStatus );
+    SetServiceStatus( gSvcStatusHandle, &gSvcStatus );
 }
 
 ```

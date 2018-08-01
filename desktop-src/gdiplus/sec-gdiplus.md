@@ -77,7 +77,7 @@ The following example shows how to create an [**Image**](/windows/desktop/api/gd
 UINT count = 0;
 UINT size = 0;
 Image myImage(L"FakePhoto.jpg");
-myImage.GetPropertySize(&amp;size, &amp;count);
+myImage.GetPropertySize(&size, &count);
 
 // GetAllPropertyItems returns an array of PropertyItem objects
 // along with additional data. Allocate a buffer large enough to 
@@ -124,7 +124,7 @@ Status GdipExample(HDC hdc)
    if(Ok != status)
       return status;
 
-   TextureBrush brush(&amp;image);
+   TextureBrush brush(&image);
    status = brush.GetLastStatus();
    if(Ok != status)
       return status;
@@ -157,7 +157,7 @@ Status GdipExample(HDC hdc)
   
    if(Ok == status)
    {
-      status = graphics.FillPath(&amp;brush, &amp;path);
+      status = graphics.FillPath(&brush, &path);
    }
    
    if(Ok == status)
@@ -165,7 +165,7 @@ Status GdipExample(HDC hdc)
       for(int j = 0; j < count; ++j)
       {
          status = graphics.FillEllipse(
-         &amp;brush, points[j].X - 5, points[j].Y - 5, 10, 10);
+         &brush, points[j].X - 5, points[j].Y - 5, 10, 10);
       }
    }
 

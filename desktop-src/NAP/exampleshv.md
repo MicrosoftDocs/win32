@@ -98,7 +98,7 @@ HRESULT CSampleShv::QShvCreateThread()
 
     // Windows API to create a thread.
     threadHandle = (HANDLE) CreateThread( NULL, 0, AsyncThreadHandler, (LPVOID) this, 
-                                          0, &amp;threadId );
+                                          0, &threadId );
     //
     // SDK Note:
     //
@@ -162,7 +162,7 @@ HRESULT CSampleShv::HandleRequestSoH(INapSystemHealthValidationRequest* pShvRequ
     BOOL napAgentGenerated = FALSE;
 
     // Obtain the client's SoH data from the SHV Host.
-    hr = pShvRequest->GetSoHRequest(&amp;pSohRequest, &amp;napAgentGenerated);
+    hr = pShvRequest->GetSoHRequest(&pSohRequest, &napAgentGenerated);
      
     // Wrap it inside an INapSoHProcessor object.
     hr = CreateInputSoHProcessor(pSohProcessor, systemHealthId, SOH_REQUEST, pSohRequest);
@@ -235,7 +235,7 @@ HRESULT CSampleShv::HandleResponseSoH(HRESULT validationResult,
     hr = FillResponseSoH(validationResult, pSohConstructor);
 
     // Get portable SoH interface.
-    hr = pSohConstructor->GetSoH(&amp;pSohResponse);
+    hr = pSohConstructor->GetSoH(&pSohResponse);
     if (! pSohResponse){
         hr = E_POINTER; 
     }
@@ -254,7 +254,7 @@ HRESULT CSampleShv::HandleResponseSoH(HRESULT validationResult,
 
 // Fill the specified response SoH object, given the current client's health state.
 HRESULT CSampleShv::FillResponseSoH(HRESULT validationResult, 
-                                    INapSoHConstructor* &amp;pSohResponse) throw()
+                                    INapSoHConstructor* &pSohResponse) throw()
 {
     HRESULT hr = S_OK;
     SoHAttributeValue value = {0};
@@ -269,9 +269,9 @@ HRESULT CSampleShv::FillResponseSoH(HRESULT validationResult,
     // Here we assume there is no such failure.
 
     value.codesVal.count = 1;
-    value.codesVal.results = &amp;validationResult;
-    hr = pSohResponse->AppendAttribute(sohAttributeTypeComplianceResultCodes, &amp;value);
-    ZeroMemory(&amp;value, sizeof(value));
+    value.codesVal.results = &validationResult;
+    hr = pSohResponse->AppendAttribute(sohAttributeTypeComplianceResultCodes, &value);
+    ZeroMemory(&value, sizeof(value));
 
     //
     // Append any optional attributes.

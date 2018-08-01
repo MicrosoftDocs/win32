@@ -45,7 +45,7 @@ BOOL RegisterTextService(CLSID clsidTextService)
                             NULL, 
                             CLSCTX_INPROC_SERVER,
                             IID_ITfInputProcessorProfiles, 
-                            (LPVOID*)&amp;pInputProcessProfiles);
+                            (LPVOID*)&pInputProcessProfiles);
 
     if (hr != S_OK)
     {

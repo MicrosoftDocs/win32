@@ -25,7 +25,7 @@ The **IMediaSeeking** interface defines a set of flags, [**AM\_SEEKING\_SEEKING\
 
 ```C++
 DWORD dwCap = 0;
-HRESULT hr = pSeek->GetCapabilities(&amp;dwCap);
+HRESULT hr = pSeek->GetCapabilities(&dwCap);
 if (AM_SEEKING_CanSeekAbsolute & dwCap)
 {
     // Graph can seek to absolute positions.

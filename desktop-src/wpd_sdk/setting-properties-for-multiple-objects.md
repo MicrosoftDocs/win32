@@ -45,7 +45,7 @@ CComPtr<IPortableDevicePropVariantCollection> pObjectIDs;
 DWORD                                         cObjectIDs        = 0;
 if (SUCCEEDED(hr))
 {
-    hr = pDevice->Content(&amp;pContent);
+    hr = pDevice->Content(&pContent);
     if (FAILED(hr))
     {
         printf("! Failed to get IPortableDeviceContent from IPortableDevice, hr = 0x%lx\n",hr);
@@ -56,7 +56,7 @@ if (SUCCEEDED(hr))
 
 if (SUCCEEDED(hr))
 {
-    hr = pContent->Properties(&amp;pProperties);
+    hr = pContent->Properties(&pProperties);
     if (FAILED(hr))
     {
         printf("! Failed to get IPortableDeviceProperties from IPortableDevice, hr = 0x%lx\n",hr);
@@ -67,7 +67,7 @@ if (SUCCEEDED(hr))
 
 if (SUCCEEDED(hr))
 {
-    hr = pProperties->QueryInterface(IID_PPV_ARGS(&amp;pPropertiesBulk));
+    hr = pProperties->QueryInterface(IID_PPV_ARGS(&pPropertiesBulk));
     if (FAILED(hr))
     {
         printf("This driver does not support BULK property operations.\n");
@@ -97,7 +97,7 @@ if (SUCCEEDED(hr))
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_IPortableDeviceValuesCollection,
-                          (VOID**) &amp;pPropertiesToWrite);
+                          (VOID**) &pPropertiesToWrite);
     if (FAILED(hr))
     {
         printf("! Failed to CoCreate IPortableDeviceValuesCollection for bulk property values, hr = 0x%lx\n", hr);
@@ -145,7 +145,7 @@ if (SUCCEEDED(hr))
 {
     hr = CreateIPortableDevicePropVariantCollectionWithAllObjectIDs(pDevice,
                                                                     pContent,
-                                                                    &amp;pObjectIDs);
+                                                                    &pObjectIDs);
 }
 ```
 
@@ -171,7 +171,7 @@ CComPtr<IPortableDevicePropVariantCollection> pObjectIDs;
 DWORD                                         cObjectIDs        = 0;
 if (SUCCEEDED(hr))
 {
-    hr = pObjectIDs->GetCount(&amp;cObjectIDs);
+    hr = pObjectIDs->GetCount(&cObjectIDs);
     if (FAILED(hr))
     {
         printf("! Failed to get number of objectIDs from IPortableDevicePropVariantCollection, hr = 0x%lx\n", hr);
@@ -181,17 +181,17 @@ if (SUCCEEDED(hr))
 
 if (SUCCEEDED(hr))
 {
-    for(DWORD dwIndex = 0; (dwIndex < cObjectIDs) &amp;&amp; (hr == S_OK); dwIndex++)
+    for(DWORD dwIndex = 0; (dwIndex < cObjectIDs) && (hr == S_OK); dwIndex++)
     {
         CComPtr<IPortableDeviceValues>  pValues;
         PROPVARIANT                     pv = {0};
 
-        PropVariantInit(&amp;pv);
+        PropVariantInit(&pv);
         hr = CoCreateInstance(CLSID_PortableDeviceValues,
                               NULL,
                               CLSCTX_INPROC_SERVER,
                               IID_IPortableDeviceValues,
-                              (VOID**) &amp;pValues);
+                              (VOID**) &pValues);
         if (FAILED(hr))
         {
             printf("! Failed to CoCreate CLSID_PortableDeviceValues, hr = 0x%lx\n", hr);
@@ -200,7 +200,7 @@ if (SUCCEEDED(hr))
         // Get the Object ID whose properties we will set
         if (hr == S_OK)
         {
-            hr = pObjectIDs->GetAt(dwIndex, &amp;pv);
+            hr = pObjectIDs->GetAt(dwIndex, &pv);
             if (FAILED(hr))
             {
                 printf("! Failed to get next Object ID from list, hr = 0x%lx\n", hr);
@@ -239,7 +239,7 @@ if (SUCCEEDED(hr))
                 printf("! Failed to add values to collection, hr = 0x%lx\n", hr);
             }
         }
-        PropVariantClear(&amp;pv);
+        PropVariantClear(&pv);
     }
 }
 ```
@@ -266,7 +266,7 @@ The asynchronous write operation begins when the sample calls the [**IPortableDe
    {
        hr = pPropertiesBulk->QueueSetValuesByObjectList(pPropertiesToWrite,
                                                         pCallback,
-                                                        &amp;guidContext);
+                                                        &guidContext);
 
 
        if(SUCCEEDED(hr))

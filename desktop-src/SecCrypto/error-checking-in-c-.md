@@ -29,7 +29,7 @@ if(!(strAttributeName = SysAllocString(L"TheAttribute")))
 
 hr = pICertServerPolicy->GetRequestAttribute(
                                 strAttributeName,
-                                &amp;strAttributeValue);
+                                &strAttributeValue);
 if(S_OK != hr)          // Check to determine whether method failed
 {
     if (E_INVALIDARG == hr)

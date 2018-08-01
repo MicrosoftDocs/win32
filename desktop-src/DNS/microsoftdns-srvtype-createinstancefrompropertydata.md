@@ -39,7 +39,7 @@ void CreateInstanceFromPropertyData(
   [in]           uint16               Weight,
   [in]           uint16               Port,
   [in]           string               SRVDomainName,
-  [out, ref]     MicrosoftDNS_SRVType &amp;RR
+  [out, ref]     MicrosoftDNS_SRVType &RR
 );
 ```
 

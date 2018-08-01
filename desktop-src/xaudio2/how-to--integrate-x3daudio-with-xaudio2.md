@@ -21,7 +21,7 @@ This topic shows how to integrate X3DAudio with XAudio2. You can use X3DAudio to
 
     ```
     DWORD dwChannelMask;       
-    pMasteringVoice->GetChannelMask( &amp;dwChannelMask );       
+    pMasteringVoice->GetChannelMask( &dwChannelMask );       
 
     X3DAUDIO_HANDLE X3DInstance;
     X3DAudioInitialize( dwChannelMask, X3DAUDIO_SPEED_OF_SOUND, X3DInstance );
@@ -87,9 +87,9 @@ Perform these steps once every two to three frames to calculate new settings and
     The parameters for [**X3DAudioCalculate**](/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate) will be the updated [**X3DAUDIO\_LISTENER**](/windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_listener) and [**X3DAUDIO\_EMITTER**](/windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_emitter) structures. The flags will indicate what values **X3DAudioCalculate** should calculate, and which [**X3DAUDIO\_DSP\_SETTINGS**](/windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_dsp_settings) structure will hold the results of the calculations performed.
 
     ```
-    X3DAudioCalculate(X3DInstance, &amp;Listener, &amp;Emitter,
+    X3DAudioCalculate(X3DInstance, &Listener, &Emitter,
         X3DAUDIO_CALCULATE_MATRIX | X3DAUDIO_CALCULATE_DOPPLER | X3DAUDIO_CALCULATE_LPF_DIRECT | X3DAUDIO_CALCULATE_REVERB,
-        &amp;DSPSettings );
+        &DSPSettings );
     ```
 
     
@@ -106,7 +106,7 @@ Perform these steps once every two to three frames to calculate new settings and
 4.  Use [**IXAudio2Voice::SetOutputMatrix**](https://msdn.microsoft.com/en-us/library/Ee418598(v=VS.85).aspx) to apply the calculated reverb level to the submix voice.
 
     ```
-    pSFXSourceVoice->SetOutputMatrix(pSubmixVoice, 1, 1, &amp;DSPSettings.ReverbLevel);
+    pSFXSourceVoice->SetOutputMatrix(pSubmixVoice, 1, 1, &DSPSettings.ReverbLevel);
     ```
 
     
@@ -115,7 +115,7 @@ Perform these steps once every two to three frames to calculate new settings and
 
     ```
     XAUDIO2_FILTER_PARAMETERS FilterParameters = { LowPassFilter, 2.0f * sinf(X3DAUDIO_PI/6.0f * DSPSettings.LPFDirectCoefficient), 1.0f };
-    pSFXSourceVoice->SetFilterParameters(&amp;FilterParameters);
+    pSFXSourceVoice->SetFilterParameters(&FilterParameters);
     ```
 
     

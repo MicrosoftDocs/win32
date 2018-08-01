@@ -45,17 +45,17 @@ The following code example gets a pointer to the [**IXpsOMPageReferenceCollectio
     UINT32  thisPageRef = 0;
 
     // get the doc contents
-    hr = doc->GetPageReferences(&amp;pages);
+    hr = doc->GetPageReferences(&pages);
         
     // walk the collection of page references
-    hr = pages->GetCount(&amp;numPageRefs);
+    hr = pages->GetCount(&numPageRefs);
     thisPageRef = 0;
     while (thisPageRef < numPageRefs) {
         // get this page reference
-        hr = pages->GetAt(thisPageRef, &amp;pageRef);
+        hr = pages->GetAt(thisPageRef, &pageRef);
 
         // get the page content of this page reference
-        hr = pageRef->GetPage (&amp;page);
+        hr = pageRef->GetPage (&page);
 
         // use the page
 
@@ -83,9 +83,9 @@ The following code example gets the resource that contains the document structur
 
     // doc is passed in as an argument
     // get the doc contents
-    hr = doc->GetDocumentStructureResource(&amp;docStruct);
+    hr = doc->GetDocumentStructureResource(&docStruct);
    
-    hr = docStruct->GetStream ( &amp;docStructResStream );
+    hr = docStruct->GetStream ( &docStructResStream );
 
     // access the document structure resource 
     //  contents by reading from the stream

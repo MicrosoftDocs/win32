@@ -139,7 +139,7 @@ The following sample code shows how to download a resource with secure transacti
     {
       // Check for available data.
       dwSize = 0;
-      if( !WinHttpQueryDataAvailable( hRequest, &amp;dwSize ) )
+      if( !WinHttpQueryDataAvailable( hRequest, &dwSize ) )
         printf( "Error %u in WinHttpQueryDataAvailable.\n",
                 GetLastError( ) );
 
@@ -156,7 +156,7 @@ The following sample code shows how to download a resource with secure transacti
         ZeroMemory( pszOutBuffer, dwSize+1 );
 
         if( !WinHttpReadData( hRequest, (LPVOID)pszOutBuffer, 
-                              dwSize, &amp;dwDownloaded ) )
+                              dwSize, &dwDownloaded ) )
           printf( "Error %u in WinHttpReadData.\n", GetLastError( ) );
         else
           printf( "%s", pszOutBuffer );

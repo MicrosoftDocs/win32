@@ -40,7 +40,7 @@ The CLSID for this effect is CLSID\_D2D1Brightness.
 
 ```C++
 ComPtr<ID2D1Effect> brightnessEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Brightness, &amp;brightnessEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Brightness, &brightnessEffect);
 
 brightnessEffect->SetValue(D2D1_BRIGHTNESS_PROP_BLACK_POINT, D2D1::Vector2F(0.0f, 0.2f));
 

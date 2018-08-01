@@ -74,13 +74,13 @@ if(SUCCEEDED(hr))
          {
             IMFMediaType* pOutputType = NULL;     
             hrAvailableType = pIMFT->GetOutputAvailableType(
-               0, j, &amp;pOutputType);
+               0, j, &pOutputType);
 
             if(SUCCEEDED(hrAvailableType))
             {
                AM_MEDIA_TYPE* pTypeRep = NULL;
                hr = pOutputType->GetRepresentation(
-                  AM_MEDIA_TYPE_REPRESENTATION, (VOID**)&amp;pTypeRep); 
+                  AM_MEDIA_TYPE_REPRESENTATION, (VOID**)&pTypeRep); 
                      
                if(SUCCEEDED(hr))
                {

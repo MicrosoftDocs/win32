@@ -51,7 +51,7 @@ A windowed application performs a similar set of tasks.
     // Use the current display mode.
     D3DDISPLAYMODE mode;
 
-    if(FAILED(m_pD3D->GetAdapterDisplayMode(Device.m_uAdapter , &amp;mode)))
+    if(FAILED(m_pD3D->GetAdapterDisplayMode(Device.m_uAdapter , &mode)))
         return E_FAIL;
 
     Params.BackBufferFormat = mode.Format;

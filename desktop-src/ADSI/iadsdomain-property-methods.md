@@ -358,10 +358,10 @@ LPWSTR adsPath = L"WinNT://myDomain";
 LONG nPasswordHistoryLength = 0;
 
 // Bind to the domain object.
-hr = ADsGetObject(adsPath,IID_IADsDomain,(void**)&amp;pDomain);
+hr = ADsGetObject(adsPath,IID_IADsDomain,(void**)&pDomain);
 if(FAILED(hr)) {goto Cleanup;}
 
-hr = pDomain->get_PasswordHistoryLength(&amp;nPasswordHistoryLength);
+hr = pDomain->get_PasswordHistoryLength(&nPasswordHistoryLength);
 if(FAILED(hr)) {goto Cleanup;}
 printf("Password history length: %d",nPasswordHistoryLength);
 

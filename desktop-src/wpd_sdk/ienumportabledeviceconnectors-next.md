@@ -84,7 +84,7 @@ The following example demonstrates the use of this method to enumerate paired MT
 ```C++
 IEnumPortableDeviceConnectors* pEnum = NULL;
     HRESULT hrEnum = S_OK;
- HRESULT hr = CoCreateInstance(CLSID_EnumBthMtpConnectors, NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&amp;pEnum));
+ HRESULT hr = CoCreateInstance(CLSID_EnumBthMtpConnectors, NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&pEnum));
     if (SUCCEEDED(hr))
 {
   while (S_OK == hrEnum)
@@ -92,8 +92,8 @@ IEnumPortableDeviceConnectors* pEnum = NULL;
        UINT32  uFetched        = 0;
        LPWSTR  wszDevicePnPID  = NULL;
        IPortableDeviceConnector* pDevice = NULL;
-       hrEnum = pEnum->Next(1, &amp;spDevice, &amp;uFetched);
-       if (hrEnum == S_OK &amp;&amp; uFetched == 1)
+       hrEnum = pEnum->Next(1, &spDevice, &uFetched);
+       if (hrEnum == S_OK && uFetched == 1)
         {
           // Send an asynchronous connect request.  
           hr = pDevice ->Connect(NULL);

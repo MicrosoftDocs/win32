@@ -64,7 +64,7 @@ The following code example adds a helper token to a BITS transfer job.
 #include "CommonCode.h"
 
 
-void HelperToken(const LPWSTR &amp;remoteFile, const LPWSTR &amp;localFile, const LPWSTR &amp;domain, const LPWSTR &amp;username, const LPWSTR &amp;password)
+void HelperToken(const LPWSTR &remoteFile, const LPWSTR &localFile, const LPWSTR &domain, const LPWSTR &username, const LPWSTR &password)
 {
 // If CoInitializeEx fails, the exception is unhandled and the program terminates   
 CCoInitializer coInitializer(COINIT_APARTMENTTHREADED);
@@ -96,7 +96,7 @@ CComPtr<IBackgroundCopyJob> pJob;
         hr = CoCreateInstance(__uuidof(BackgroundCopyManager), NULL,
             CLSCTX_LOCAL_SERVER,
             __uuidof(IBackgroundCopyManager),
-            (void **)&amp;pQueueMgr);
+            (void **)&pQueueMgr);
 
         if (FAILED(hr))
         {
@@ -110,8 +110,8 @@ CComPtr<IBackgroundCopyJob> pJob;
         GUID guidJob;
         hr = pQueueMgr->CreateJob(L"HelperTokenSample",
             BG_JOB_TYPE_DOWNLOAD,
-            &amp;guidJob,
-            &amp;pJob);
+            &guidJob,
+            &pJob);
 
 
         if(FAILED(hr))
@@ -140,7 +140,7 @@ CComPtr<IBackgroundCopyJob> pJob;
 
         //Retrieve the IBitsTokenOptions interface pointer from the BITS transfer job.
         CComPtr<IBitsTokenOptions> pTokenOptions;
-        hr = pJob->QueryInterface(__uuidof(IBitsTokenOptions), (void** ) &amp;pTokenOptions);
+        hr = pJob->QueryInterface(__uuidof(IBitsTokenOptions), (void** ) &pTokenOptions);
 
         if (FAILED(hr))
         {
@@ -152,7 +152,7 @@ CComPtr<IBackgroundCopyJob> pJob;
         wprintf(L"Credentials for helper token %s\\%s %s\n", domain, username, password);
 
         HANDLE hImpersonation = INVALID_HANDLE_VALUE;
-        if(LogonUser(username, domain, password, LOGON32_LOGON_INTERACTIVE, LOGON32_PROVIDER_DEFAULT, &amp;hImpersonation))
+        if(LogonUser(username, domain, password, LOGON32_LOGON_INTERACTIVE, LOGON32_PROVIDER_DEFAULT, &hImpersonation))
         {
             // Impersonate the logged-on user.
             if(ImpersonateLoggedOnUser(hImpersonation))
@@ -201,7 +201,7 @@ CComPtr<IBackgroundCopyJob> pJob;
             throw MyException(hr, L"Resume");
         }    
     }
-    catch(const std::bad_alloc &amp;)
+    catch(const std::bad_alloc &)
     {
         wprintf(L"Memory allocation failed");
         if (pJob)
@@ -211,7 +211,7 @@ CComPtr<IBackgroundCopyJob> pJob;
 
         return;
     }
-    catch(const MyException &amp;ex)
+    catch(const MyException &ex)
     {
         wprintf(L"Error 0x%x occurred during operation", ex.Error);
         if (pJob)
@@ -230,7 +230,7 @@ CComPtr<IBackgroundCopyJob> pJob;
     {
         MSG msg;
 
-        while (PeekMessage(&amp;msg, NULL, 0, 0, PM_REMOVE)) 
+        while (PeekMessage(&msg, NULL, 0, 0, PM_REMOVE)) 
         { 
             // If it is a quit message, exit.
             if (msg.message == WM_QUIT) 
@@ -239,7 +239,7 @@ CComPtr<IBackgroundCopyJob> pJob;
             }
 
             // Otherwise, dispatch the message.
-            DispatchMessage(&amp;msg); 
+            DispatchMessage(&msg); 
         } // End of PeekMessage while loop
     }
 

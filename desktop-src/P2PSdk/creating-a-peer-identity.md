@@ -49,7 +49,7 @@ HRESULT CreateIdentity(PWSTR pwzFriendlyName)
     PWSTR       pwzClassifier   = L"GroupMember";
     PWSTR       pwzIdentity     = NULL;
 
-    hr = PeerIdentityCreate(pwzClassifier, pwzFriendlyName, 0, &amp;pwzIdentity);
+    hr = PeerIdentityCreate(pwzClassifier, pwzFriendlyName, 0, &pwzIdentity);
     if (FAILED(hr))
     {            
         printf("Failed to create identity.");

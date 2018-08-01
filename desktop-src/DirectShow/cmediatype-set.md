@@ -30,7 +30,7 @@ The `Set` method sets the media type from another media type.
 
 ```C++
 HRESULT Set(
-  [ref] const CMediaType &amp;cmtype
+  [ref] const CMediaType &cmtype
 );
 ```
 

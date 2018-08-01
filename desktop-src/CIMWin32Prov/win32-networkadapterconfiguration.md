@@ -1552,7 +1552,7 @@ sub appendCollection(msg, colctn, nm)
 
     i=0
     for each t in colctn
-        msg = msg & "nic." & nm & "["&amp;i&amp;"]: " & t & vbCRLF
+        msg = msg & "nic." & nm & "["&i&"]: " & t & vbCRLF
         i = i + 1
     next
 end sub
@@ -1620,7 +1620,7 @@ Function PrintOnlyEnabled_NICAdapter_information()
         & "nic.WINSPrimaryServer: " & nic.WINSPrimaryServer & vbCRLF _
         & "nic.WINSScopeID: " & nic.WINSScopeID & vbCRLF _
         & "nic.WINSSecondaryServer: " & nic.WINSSecondaryServer & vbCRLF _
-        '&amp; "nic.InterfaceIndex: " & "|"&amp;nic.InterfaceIndex & vbCRLF _
+        '& "nic.InterfaceIndex: " & "|"&nic.InterfaceIndex & vbCRLF _
 
 
         appendCollection msg, nic.DefaultIPGateway, "DefaultIPGateway"

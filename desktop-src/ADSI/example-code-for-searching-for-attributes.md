@@ -37,7 +37,7 @@ hr = m_pSearch->SetSearchPreference(prefInfo, 1);
 // Execute the search.
 hr = m_pSearch->ExecuteSearch(
                 L"(|(objectCategory=domainDNS)(objectCategory=organizationalUnit))", 
-                NULL, -1, &amp;hSearch );
+                NULL, -1, &hSearch );
 
 if(FAILED(hr))
 {
@@ -52,7 +52,7 @@ if(FAILED(hr))
    return;
 }
     
-while( m_pSearch->GetNextColumnName( hSearch, &amp;pszColumn ) != S_ADS_NOMORE_COLUMNS )
+while( m_pSearch->GetNextColumnName( hSearch, &pszColumn ) != S_ADS_NOMORE_COLUMNS )
 {
    wprintf(L"%S ", pszColumn );
    FreeADsMem( pszColumn );

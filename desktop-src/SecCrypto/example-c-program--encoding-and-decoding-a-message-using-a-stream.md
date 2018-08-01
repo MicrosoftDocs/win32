@@ -82,7 +82,7 @@ EncodeCallback(
             hFileToWrite,
             pbData,
             cbData,
-            &amp;dwWrittenBytes,
+            &dwWrittenBytes,
             NULL) ||
         (dwWrittenBytes != cbData))
     {
@@ -103,7 +103,7 @@ DecodeCallback(
     DWORD cbData,
     BOOL fFinal)
 {
-    if (pbData != NULL &amp;&amp; cbData > 0)
+    if (pbData != NULL && cbData > 0)
     {
         *(pbData+cbData) = 0;
         printf("%s", (char*)pbData);
@@ -200,8 +200,8 @@ void EncodeMessageWithStream(LPWSTR pwszSignerName)
         pSignerCert,
         0,
         NULL,
-        &amp;hCryptProv,
-        &amp;dwKeySpec,
+        &hCryptProv,
+        &dwKeySpec,
         NULL)))
     {
         DWORD dwError = GetLastError();
@@ -213,7 +213,7 @@ void EncodeMessageWithStream(LPWSTR pwszSignerName)
         MyHandleError(L"CryptAcquireContext failed");
     }
      
-    memset(&amp;SignerEncodeInfo, 0, sizeof(CMSG_SIGNER_ENCODE_INFO));
+    memset(&SignerEncodeInfo, 0, sizeof(CMSG_SIGNER_ENCODE_INFO));
     SignerEncodeInfo.cbSize = sizeof(CMSG_SIGNER_ENCODE_INFO);
     SignerEncodeInfo.pCertInfo = pSignerCert->pCertInfo;
     SignerEncodeInfo.hCryptProv = hCryptProv;
@@ -238,7 +238,7 @@ void EncodeMessageWithStream(LPWSTR pwszSignerName)
     //  Note: In this program, there is only one signer BLOB used.
 
     SignerCertBlobArray[0] = SignerCertBlob;
-    memset(&amp;SignedMsgEncodeInfo, 0, sizeof(CMSG_SIGNED_ENCODE_INFO));
+    memset(&SignedMsgEncodeInfo, 0, sizeof(CMSG_SIGNED_ENCODE_INFO));
     SignedMsgEncodeInfo.cbSize = sizeof(CMSG_SIGNED_ENCODE_INFO);
     SignedMsgEncodeInfo.cSigners = 1;
     SignedMsgEncodeInfo.rgSigners = SignerEncodeInfoArray;
@@ -268,7 +268,7 @@ void EncodeMessageWithStream(LPWSTR pwszSignerName)
         MyHandleError(L"CreateFile (OUT MSG)");
     }
 
-    stStreamInfo.pvArg = &amp;hOutMsgFile; 
+    stStreamInfo.pvArg = &hOutMsgFile; 
 
     //---------------------------------------------------------------
     // Open a message to encode.
@@ -277,9 +277,9 @@ void EncodeMessageWithStream(LPWSTR pwszSignerName)
         MY_ENCODING_TYPE,      // encoding type
         0,                     // flags
         CMSG_SIGNED,           // message type
-        &amp;SignedMsgEncodeInfo,  // pointer to structure
+        &SignedMsgEncodeInfo,  // pointer to structure
         NULL,                  // inner content OID
-        &amp;stStreamInfo)))       // stream information
+        &stStreamInfo)))       // stream information
     {
         MyHandleError(L"OpenToEncode failed");
     }
@@ -336,7 +336,7 @@ void DecodeMessageWithStream()
         NULL,               // cryptographic provider
                             // use NULL for the default provider
         NULL,               // recipient information
-        &amp;stStreamInfo2)))   // stream information
+        &stStreamInfo2)))   // stream information
     {
         MyHandleError(L"OpenToDecode failed.");
     }
@@ -364,7 +364,7 @@ void DecodeMessageWithStream()
         hInMsgFile,
         pbEncodedBlob,
         cbBytesToRead,
-        &amp;cbBytesRead,
+        &cbBytesRead,
         NULL))
     {
         if (cbBytesRead < cbBytesToRead)

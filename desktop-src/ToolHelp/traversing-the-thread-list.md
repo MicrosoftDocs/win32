@@ -44,7 +44,7 @@ BOOL ListProcessThreads( DWORD dwOwnerPID )
  
   // Retrieve information about the first thread,
   // and exit if unsuccessful
-  if( !Thread32First( hThreadSnap, &amp;te32 ) ) 
+  if( !Thread32First( hThreadSnap, &te32 ) ) 
   {
     printError( TEXT("Thread32First") );  // Show cause of failure
     CloseHandle( hThreadSnap );     // Must clean up the snapshot object!
@@ -62,7 +62,7 @@ BOOL ListProcessThreads( DWORD dwOwnerPID )
       _tprintf( TEXT("\n     base priority  = %d"), te32.tpBasePri ); 
       _tprintf( TEXT("\n     delta priority = %d"), te32.tpDeltaPri ); 
     }
-  } while( Thread32Next(hThreadSnap, &amp;te32 ) );
+  } while( Thread32Next(hThreadSnap, &te32 ) );
 
   _tprintf( TEXT("\n"));
 
@@ -87,7 +87,7 @@ void printError( TCHAR* msg )
   p = sysMsg;
   while( ( *p > 31 ) || ( *p == 9 ) )
     ++p;
-  do { *p-- = 0; } while( ( p >= sysMsg ) &amp;&amp;
+  do { *p-- = 0; } while( ( p >= sysMsg ) &&
                           ( ( *p == '.' ) || ( *p < 33 ) ) );
 
   // Display the message

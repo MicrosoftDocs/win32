@@ -62,7 +62,7 @@ void GetObjSemiSync(IWbemServices *pSvc)
     IWbemClassObject *pObj = 0;
     
     HRESULT hRes = pSvc->GetObject(_bstr_t(L"MyClass=\"AAA\""), 0,
-        0, 0, &amp;pCallRes
+        0, 0, &pCallRes
         );
         
     if (hRes || pCallRes == 0)
@@ -71,14 +71,14 @@ void GetObjSemiSync(IWbemServices *pSvc)
     while (true)
     {
         LONG lStatus = 0;
-        HRESULT hRes = pCallRes->GetCallStatus(5000, &amp;lStatus);
+        HRESULT hRes = pCallRes->GetCallStatus(5000, &lStatus);
         if ( hRes == WBEM_S_NO_ERROR || hRes != WBEM_S_TIMEDOUT )
             break;
 
         // Do another task
     }
 
-    hRes = pCallRes->GetResultObject(5000, &amp;pObj);
+    hRes = pCallRes->GetResultObject(5000, &pObj);
     if (hRes)
     {
         pCallRes->Release();

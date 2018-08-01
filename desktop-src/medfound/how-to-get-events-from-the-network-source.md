@@ -55,12 +55,12 @@ public:
 
     STDMETHODIMP_(ULONG) AddRef()
     {
-        return InterlockedIncrement(&amp;m_cRef);
+        return InterlockedIncrement(&m_cRef);
     }
 
     STDMETHODIMP_(ULONG) Release()
     {
-        LONG cRef = InterlockedDecrement(&amp;m_cRef);
+        LONG cRef = InterlockedDecrement(&m_cRef);
         if (cRef == 0)
         {
             delete this;
@@ -76,13 +76,13 @@ public:
         HRESULT hrStatus = S_OK;                // Event status
 
         // Get the event type.
-        HRESULT hr = pEvent->GetType(&amp;eventType);
+        HRESULT hr = pEvent->GetType(&eventType);
 
         // Get the event status. If the operation that triggered the event
         // did not succeed, the status is a failure code.
         if (SUCCEEDED(hr))
         {
-            hr = pEvent->GetStatus(&amp;hrStatus);
+            hr = pEvent->GetStatus(&hrStatus);
         }
 
         if (FAILED(hrStatus))
@@ -139,17 +139,17 @@ HRESULT CreateMediaSourceWithSourceOpenMonitor(
     }
 
     // Configure the property store.
-    HRESULT hr = PSCreateMemoryPropertyStore(IID_PPV_ARGS(&amp;pConfig));
+    HRESULT hr = PSCreateMemoryPropertyStore(IID_PPV_ARGS(&pConfig));
 
     if (SUCCEEDED(hr))
     {
         PROPVARIANT var;
         var.vt = VT_UNKNOWN;
-        pMonitor->QueryInterface(IID_PPV_ARGS(&amp;var.punkVal));
+        pMonitor->QueryInterface(IID_PPV_ARGS(&var.punkVal));
 
         hr = pConfig->SetValue(MFPKEY_SourceOpenMonitor, var);
 
-        PropVariantClear(&amp;var);
+        PropVariantClear(&var);
     }
 
     // Create the source media source.
@@ -158,8 +158,8 @@ HRESULT CreateMediaSourceWithSourceOpenMonitor(
         hr = CreateMediaSource(pszURL, pConfig, ppSource);
     }
 
-    SafeRelease(&amp;pConfig);
-    SafeRelease(&amp;pMonitor);
+    SafeRelease(&pConfig);
+    SafeRelease(&pMonitor);
 
     return hr;
 }

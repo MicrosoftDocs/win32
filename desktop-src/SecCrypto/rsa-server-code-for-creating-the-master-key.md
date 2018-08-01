@@ -78,7 +78,7 @@ switch(<protocol being used>)
 CryptGetUserKey(
          hProv, 
          AT_KEYEXCHANGE, 
-         &amp;hPublicKey);
+         &hPublicKey);
 
 CryptImportKey(
           hProv, 
@@ -86,7 +86,7 @@ CryptImportKey(
           cbBlob, 
           hPublicKey, 
           dwFlags, 
-          &amp;hMasterKey);
+          &hMasterKey);
 
 CryptDestroyKey(hPublicKey);
 ```

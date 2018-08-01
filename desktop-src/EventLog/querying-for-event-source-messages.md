@@ -86,8 +86,8 @@ void wmain(void)
             0, 
             pBuffer,
             dwBytesToRead,
-            &amp;dwBytesRead,
-            &amp;dwMinimumBytesToRead))
+            &dwBytesRead,
+            &dwMinimumBytesToRead))
         {
             status = GetLastError();
             if (ERROR_INSUFFICIENT_BUFFER == status)
@@ -286,7 +286,7 @@ LPWSTR GetMessageString(DWORD MessageId, DWORD argc, LPWSTR argv)
                        g_hResources,
                        MessageId,
                        0,  
-                       (LPWSTR)&amp;pMessage, 
+                       (LPWSTR)&pMessage, 
                        0, 
                        (va_list*)pArgs))
     {
@@ -496,8 +496,8 @@ void GetTimestamp(const DWORD Time, WCHAR DisplayString[])
     ft.dwHighDateTime = (DWORD)((ullTimeStamp >> 32) & 0xFFFFFFFF);
     ft.dwLowDateTime = (DWORD)(ullTimeStamp & 0xFFFFFFFF);
     
-    FileTimeToLocalFileTime(&amp;ft, &amp;ftLocal);
-    FileTimeToSystemTime(&amp;ftLocal, &amp;st);
+    FileTimeToLocalFileTime(&ft, &ftLocal);
+    FileTimeToSystemTime(&ftLocal, &st);
     StringCchPrintf(DisplayString, MAX_TIMESTAMP_LEN, L"%d/%d/%d %.2d:%.2d:%.2d", 
         st.wMonth, st.wDay, st.wYear, st.wHour, st.wMinute, st.wSecond);
 }

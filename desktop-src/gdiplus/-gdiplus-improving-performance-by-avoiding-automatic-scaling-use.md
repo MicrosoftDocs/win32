@@ -17,7 +17,7 @@ The following call to the **DrawImage** method specifies an upper-left corner of
 
 
 ```
-graphics.DrawImage(&amp;image, 50, 30);  // upper-left corner at (50, 30)
+graphics.DrawImage(&image, 50, 30);  // upper-left corner at (50, 30)
 ```
 
 
@@ -29,8 +29,8 @@ If you want to prevent such scaling, pass the width and height of a destination 
 
 ```
 Image image(L"Texture.jpg");
-graphics.DrawImage(&amp;image, 10, 10);
-graphics.DrawImage(&amp;image, 120, 10, image.GetWidth(), image.GetHeight());
+graphics.DrawImage(&image, 10, 10);
+graphics.DrawImage(&image, 120, 10, image.GetWidth(), image.GetHeight());
 ```
 
 

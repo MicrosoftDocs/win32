@@ -52,7 +52,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -60,7 +60,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -103,7 +103,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -115,7 +115,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -126,7 +126,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateWriter(
         NULL, 
         0, 
-        &amp;writer, 
+        &writer, 
         error);
     if (FAILED(hr))
     {
@@ -136,7 +136,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateReader(
         NULL,
         0, 
-        &amp;reader, 
+        &reader, 
         error);
     if (FAILED(hr))
     {
@@ -147,7 +147,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         heap, 
         NULL, 
         0, 
-        &amp;buffer, 
+        &buffer, 
         error);
     if (FAILED(hr))
     {
@@ -167,21 +167,21 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     }
     
     // Write the envelope element
-    hr = WsWriteStartElement(writer, NULL, &amp;envelope, &amp;soapNs, error);
+    hr = WsWriteStartElement(writer, NULL, &envelope, &soapNs, error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
     // Write the header element
-    hr = WsWriteStartElement(writer, NULL, &amp;header, &amp;soapNs, error);
+    hr = WsWriteStartElement(writer, NULL, &header, &soapNs, error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
     // Write the security element
-    hr = WsWriteStartElement(writer, NULL, &amp;security, &amp;wsseNs, error);
+    hr = WsWriteStartElement(writer, NULL, &security, &wsseNs, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -195,7 +195,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         goto Exit;
     }
     
-    hr = WsGetWriterPosition(writer, &amp;securityEndElementPosition, error);
+    hr = WsGetWriterPosition(writer, &securityEndElementPosition, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -223,14 +223,14 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     }
     
     // Move the write back
-    hr = WsSetWriterPosition(writer, &amp;securityEndElementPosition, error);
+    hr = WsSetWriterPosition(writer, &securityEndElementPosition, error);
     if (FAILED(hr))
     {
         goto Exit;
     }
     
     // Write the "signature" element
-    hr = WsWriteStartElement(writer, NULL, &amp;signature, &amp;dsNs, error);
+    hr = WsWriteStartElement(writer, NULL, &signature, &dsNs, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -247,9 +247,9 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     ULONG indent = 4;
     WS_XML_WRITER_PROPERTY properties[1];
     properties[0].id = WS_XML_WRITER_PROPERTY_INDENT;
-    properties[0].value = &amp;indent;
+    properties[0].value = &indent;
     properties[0].valueSize = sizeof(indent);
-    hr = WsWriteXmlBufferToBytes(writer, buffer, NULL, properties, WsCountOf(properties), heap, &amp;xml, &amp;xmlLength, error);
+    hr = WsWriteXmlBufferToBytes(writer, buffer, NULL, properties, WsCountOf(properties), heap, &xml, &xmlLength, error);
     if (FAILED(hr))
     {
         goto Exit;

@@ -24,19 +24,19 @@ MCI_DGV_STATUS_PARMS mciStatus;
 mciSet.dwTimeFormat = MCI_FORMAT_FRAMES; 
 mciSendCommand(wDeviceID, MCI_SET, 
     MCI_SET_TIME_FORMAT, 
-    (DWORD)(LPSTR)&amp;mciSet); 
+    (DWORD)(LPSTR)&mciSet); 
  
 mciStatus.dwItem = MCI_STATUS_MODE; 
 mciSendCommand(wDeviceID, MCI_STATUS, 
     MCI_STATUS_ITEM, 
-    (DWORD)(LPSTR)&amp;mciStatus); 
+    (DWORD)(LPSTR)&mciStatus); 
  
 // If device is playing, get the position. 
 if (mciStatus.dwReturn == MCI_MODE_PLAY)
 { 
     mciStatus.dwItem = MCI_STATUS_POSITION; 
     mciSendCommand(wDeviceID, MCI_STATUS, MCI_STATUS_ITEM, 
-        (DWORD)(LPSTR)&amp;mciStatus); 
+        (DWORD)(LPSTR)&mciStatus); 
  
     // Update the position from mciStatus.dwReturn. 
 } 

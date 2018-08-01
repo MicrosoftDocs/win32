@@ -38,7 +38,7 @@ void CreateInstanceFromPropertyData(
   [in]           string               InternetAddress,
   [in]           string               IPProtocol,
   [in]           string               Services,
-  [out, ref]     MicrosoftDNS_WKSType &amp;RR
+  [out, ref]     MicrosoftDNS_WKSType &RR
 );
 ```
 

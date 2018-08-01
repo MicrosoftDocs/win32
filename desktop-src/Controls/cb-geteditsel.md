@@ -55,7 +55,7 @@ DWORD start, end;
 
 // Get the range from [out] parameters.
 // hwnd is the handle of the combo box control.
-SendMessage(hwnd, CB_GETEDITSEL, (WPARAM)&amp;start, (LPARAM)&amp;end;
+SendMessage(hwnd, CB_GETEDITSEL, (WPARAM)&start, (LPARAM)&end;
 
 // Get the range from the return value.
 DWORD range = SendMessage(hwnd, CB_GETEDITSEL, NULL, NULL);

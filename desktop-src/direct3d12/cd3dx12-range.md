@@ -29,9 +29,9 @@ A helper structure to enable easy initialization of a [**D3D12\_RANGE**](/window
 ```C++
 struct CD3DX12_RANGE  : public D3D12_RANGE{
    CD3DX12_RANGE();
-   explicit CD3DX12_RANGE(const D3D12_RANGE &amp;o);
+   explicit CD3DX12_RANGE(const D3D12_RANGE &o);
    CD3DX12_RANGE(SIZE_T begin, SIZE_T end);
-   operator const D3D12_RANGE&amp;() const;
+   operator const D3D12_RANGE&() const;
 };
 ```
 

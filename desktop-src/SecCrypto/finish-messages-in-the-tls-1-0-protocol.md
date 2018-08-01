@@ -32,14 +32,14 @@ CryptCreateHash(
          CALG_TLS1PRF, 
          hMasterKey, 
          0, 
-         &amp;hFinishHash);
+         &hFinishHash);
 
 Data.pbData = (BYTE*)"client finished";
 Data.cbData = 15;
 CryptSetHashParam(
          hFinishHash, 
          HP_TLS1PRF_LABEL, 
-         (BYTE*)&amp;Data, 
+         (BYTE*)&Data, 
          0);
 
 Data.pbData = rgbCliHashOfHandshakes;
@@ -47,7 +47,7 @@ Data.cbData = sizeof(rgbCliHashOfHandshakes);
 CryptSetHashParam(
           hFinishHash, 
           HP_TLS1PRF_SEED, 
-          (BYTE*)&amp;Data, 
+          (BYTE*)&Data, 
           0);
 
 cbFinishPRF = sizeof(rgbFinishPRF);
@@ -55,7 +55,7 @@ CryptGetHashParam(
           hFinishHash, 
           HP_HASHVAL, 
           rgbFinishPRF, 
-          &amp;cbFinishPRF, 
+          &cbFinishPRF, 
           0);
 
 CryptDestroyHash(hFinishHash);

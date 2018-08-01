@@ -19,7 +19,7 @@ The timeline exposes the [**IAMTimeline**](iamtimeline.md) interface. This inter
 ```C++
 IAMTimeline *pTL = NULL;
 hr = CoCreateInstance(CLSID_AMTimeline, NULL, CLSCTX_INPROC_SERVER, 
-        IID_IAMTimeline, (void**)&amp;pTL);
+        IID_IAMTimeline, (void**)&pTL);
 ```
 
 

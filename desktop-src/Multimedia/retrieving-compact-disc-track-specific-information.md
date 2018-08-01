@@ -37,7 +37,7 @@ DWORD DisplayCDTrackStartTimes(HWND hMainWnd)
     // Open the device by specifying the device name.
     mciOpenParms.lpstrDeviceType = TEXT("cdaudio");
     if (dwReturn = mciSendCommand(NULL, MCI_OPEN,
-        MCI_OPEN_TYPE, (DWORD_PTR)(LPVOID) &amp;mciOpenParms))
+        MCI_OPEN_TYPE, (DWORD_PTR)(LPVOID) &mciOpenParms))
     {
         // Failed to open device. 
         // Don't close device; just return error.
@@ -51,7 +51,7 @@ DWORD DisplayCDTrackStartTimes(HWND hMainWnd)
     mciSetParms.dwTimeFormat = MCI_FORMAT_MSF;
     if (dwReturn = mciSendCommand(wDeviceID, MCI_SET, 
         MCI_SET_TIME_FORMAT, 
-        (DWORD_PTR)(LPVOID) &amp;mciSetParms)) 
+        (DWORD_PTR)(LPVOID) &mciSetParms)) 
     {
         mciSendCommand(wDeviceID, MCI_CLOSE, 0, NULL);
         return (dwReturn);
@@ -61,7 +61,7 @@ DWORD DisplayCDTrackStartTimes(HWND hMainWnd)
     // limit it to the number that can be displayed (20).
     mciStatusParms.dwItem = MCI_STATUS_NUMBER_OF_TRACKS;
     if (dwReturn = mciSendCommand(wDeviceID, MCI_STATUS, 
-        MCI_STATUS_ITEM, (DWORD_PTR)(LPVOID) &amp;mciStatusParms)) 
+        MCI_STATUS_ITEM, (DWORD_PTR)(LPVOID) &mciStatusParms)) 
     {
         mciSendCommand(wDeviceID, MCI_CLOSE, 0, NULL);
         return (dwReturn);
@@ -86,7 +86,7 @@ DWORD DisplayCDTrackStartTimes(HWND hMainWnd)
         mciStatusParms.dwTrack = i;
         if (dwReturn = mciSendCommand(wDeviceID, 
             MCI_STATUS, MCI_STATUS_ITEM | MCI_TRACK, 
-            (DWORD_PTR)(LPVOID) &amp;mciStatusParms)) 
+            (DWORD_PTR)(LPVOID) &mciStatusParms)) 
         {
             mciSendCommand(wDeviceID, MCI_CLOSE, 0, NULL);
             return (dwReturn);

@@ -52,29 +52,29 @@ int wmain(int argc, WCHAR* argv[])
     //  Bind to the abstract schema.
     hr = ADsGetObject(L"LDAP://schema",
                       IID_IADsContainer,
-                      (void**)&amp;pAbsSchema);
+                      (void**)&pAbsSchema);
     if (FAILED(hr)) 
         goto cleanup;
 
     //  Enumerate the attribute and class entries in the abstract schema.
-    hr = ADsBuildEnumerator(pAbsSchema, &amp;pEnum);
+    hr = ADsBuildEnumerator(pAbsSchema, &pEnum);
     if (FAILED(hr)) 
         goto cleanup;
 
-    VariantInit(&amp;var);
-    hr = ADsEnumerateNext(pEnum, 1, &amp;var, &amp;lFetch);
-    while( hr == S_OK &amp;&amp; lFetch == 1)
+    VariantInit(&var);
+    hr = ADsEnumerateNext(pEnum, 1, &var, &lFetch);
+    while( hr == S_OK && lFetch == 1)
     {
         //  Identify whether this is a class, attribute, or syntax.
-        hr = V_DISPATCH(&amp;var)->QueryInterface(IID_IADs, 
-                                             (void**) &amp;pChild);
+        hr = V_DISPATCH(&var)->QueryInterface(IID_IADs, 
+                                             (void**) &pChild);
         if (FAILED(hr)) 
             goto cleanuploop;
-        hr = pChild->get_Class(&amp;bstrClass);
+        hr = pChild->get_Class(&bstrClass);
         if (FAILED(hr)) 
             goto cleanuploop;
         wprintf(L"%s", bstrClass );
-        hr = pChild->get_Name(&amp;bstrName);
+        hr = pChild->get_Name(&bstrName);
         if (FAILED(hr)) 
             goto cleanuploop;
         wprintf(L",%s", bstrName);
@@ -83,11 +83,11 @@ int wmain(int argc, WCHAR* argv[])
         if (_wcsicmp(L"Class", bstrClass)==0)
         {
             hr = pChild->QueryInterface(IID_IADsClass, 
-                                        (void**) &amp;pClass);
+                                        (void**) &pClass);
             if (FAILED(hr)) 
                 goto cleanuploop;
-            pClass->get_Abstract(&amp;bAbstract);
-            pClass->get_Auxiliary(&amp;bAux);
+            pClass->get_Abstract(&bAbstract);
+            pClass->get_Auxiliary(&bAux);
             if (bAbstract)
                 wprintf(L",Abstract");
             else if (bAux)
@@ -97,7 +97,7 @@ int wmain(int argc, WCHAR* argv[])
 
             //  Retrieve the primary ADSI 
             //  interface to use with this class.
-            pClass->get_PrimaryInterface(&amp;bstrPI);
+            pClass->get_PrimaryInterface(&bstrPI);
             if (_wcsicmp(L"{FD8256D0-FD15-11CE-ABC4-02608C9E7553}", 
                 bstrPI)==0)
                 wprintf(L",IID_IADS,%s", bstrPI);
@@ -124,19 +124,19 @@ int wmain(int argc, WCHAR* argv[])
         else if (_wcsicmp(L"Property",bstrClass)==0)
         {
             hr = pChild->QueryInterface(IID_IADsProperty, 
-                (void**) &amp;pProp);
+                (void**) &pProp);
             if (FAILED(hr)) 
                 goto cleanuploop;
-            pProp->get_MultiValued(&amp;bMulti);
+            pProp->get_MultiValued(&bMulti);
             wprintf(L",%s", bMulti ? L"Multi-Valued" : L"Single-Valued");
         }
         else if (_wcsicmp(L"Syntax", bstrClass)==0)
         {
             hr = pChild->QueryInterface(IID_IADsSyntax, 
-                (void**) &amp;pSyntax);
+                (void**) &pSyntax);
             if ( FAILED(hr) ) 
                 goto cleanuploop;
-            pSyntax->get_OleAutoDataType (&amp;lVarType);
+            pSyntax->get_OleAutoDataType (&lVarType);
             wprintf(L",%u", lVarType);
         }
         else
@@ -147,9 +147,9 @@ cleanuploop:
         SysFreeString(bstrClass);
         SysFreeString(bstrName);
         pChild->Release();
-        VariantClear(&amp;var);
+        VariantClear(&var);
         if (SUCCEEDED(hr))
-            hr = ADsEnumerateNext( pEnum, 1, &amp;var, &amp;lFetch );
+            hr = ADsEnumerateNext( pEnum, 1, &var, &lFetch );
     }
 
     wprintf(L"dwUnknownClass: %u\n", dwUnknownClass);
@@ -158,7 +158,7 @@ cleanup:
         pAbsSchema->Release();
     if (pEnum)
         pEnum->Release();
-    VariantClear(&amp;var);
+    VariantClear(&var);
     CoUninitialize();
 
     return hr;

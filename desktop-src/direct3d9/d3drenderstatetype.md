@@ -294,7 +294,7 @@ Values for this render state are floating-point values. Because the [**IDirect3D
 
 ```
 pDevice9->SetRenderState(D3DRS_FOGSTART, 
-                         *((DWORD*) (&amp;fFogStart)));
+                         *((DWORD*) (&fFogStart)));
 ```
 
 
@@ -310,7 +310,7 @@ Values for this render state are floating-point values. Because the [**IDirect3D
 
 
 ```
-m_pDevice9->SetRenderState(D3DRS_FOGEND, *((DWORD*) (&amp;fFogEnd)));
+m_pDevice9->SetRenderState(D3DRS_FOGEND, *((DWORD*) (&fFogEnd)));
 ```
 
 
@@ -326,7 +326,7 @@ Values for this render state are floating-point values. Because the [**IDirect3D
 
 
 ```
-    m_pDevice9->SetRenderState(D3DRS_FOGDENSITY, *((DWORD*) (&amp;fFogDensity)));
+    m_pDevice9->SetRenderState(D3DRS_FOGDENSITY, *((DWORD*) (&fFogDensity)));
 ```
 
 
@@ -574,7 +574,7 @@ A float value that specifies the size to use for point size computation in cases
 
 
 ```
-m_pDevice9->SetRenderState(D3DRS_POINTSIZE, *((DWORD*)&amp;pointSize));
+m_pDevice9->SetRenderState(D3DRS_POINTSIZE, *((DWORD*)&pointSize));
 ```
 
 
@@ -588,7 +588,7 @@ A float value that specifies the minimum size of point primitives. Point primiti
 
 
 ```
-m_pDevice9->SetRenderState(D3DRS_POINTSIZE_MIN, *((DWORD*)&amp;pointSizeMin));
+m_pDevice9->SetRenderState(D3DRS_POINTSIZE_MIN, *((DWORD*)&pointSizeMin));
 ```
 
 
@@ -616,7 +616,7 @@ A float value that controls for distance-based size attenuation for point primit
 
 
 ```
-m_pDevice9->SetRenderState(D3DRS_POINTSCALE_A, *((DWORD*)&amp;pointScaleA));
+m_pDevice9->SetRenderState(D3DRS_POINTSCALE_A, *((DWORD*)&pointScaleA));
 ```
 
 
@@ -630,7 +630,7 @@ A float value that controls for distance-based size attenuation for point primit
 
 
 ```
-m_pDevice9->SetRenderState(D3DRS_POINTSCALE_B, *((DWORD*)&amp;pointScaleB));
+m_pDevice9->SetRenderState(D3DRS_POINTSCALE_B, *((DWORD*)&pointScaleB));
 ```
 
 
@@ -644,7 +644,7 @@ A float value that controls for distance-based size attenuation for point primit
 
 
 ```
-m_pDevice9->SetRenderState(D3DRS_POINTSCALE_C, *((DWORD*)&amp;pointScaleC));
+m_pDevice9->SetRenderState(D3DRS_POINTSCALE_C, *((DWORD*)&pointScaleC));
 ```
 
 
@@ -692,7 +692,7 @@ A float value that specifies the maximum size to which point sprites will be cla
 
 
 ```
-m_pDevice9->SetRenderState(D3DRS_PONTSIZE_MAX, *((DWORD*)&amp;pointSizeMax));
+m_pDevice9->SetRenderState(D3DRS_PONTSIZE_MAX, *((DWORD*)&pointSizeMax));
 ```
 
 
@@ -722,7 +722,7 @@ A float value that controls the tween factor. The default value is 0.0f. Because
 
 
 ```
-m_pDevice9->SetRenderState(D3DRS_TWEENFACTOR, *((DWORD*)&amp;TweenFactor));
+m_pDevice9->SetRenderState(D3DRS_TWEENFACTOR, *((DWORD*)&TweenFactor));
 ```
 
 

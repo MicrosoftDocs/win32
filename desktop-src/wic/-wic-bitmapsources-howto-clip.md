@@ -23,7 +23,7 @@ To clip a bitmap source
         CLSID_WICImagingFactory,
         NULL,
         CLSCTX_INPROC_SERVER,
-        IID_PPV_ARGS(&amp;m_pIWICFactory)
+        IID_PPV_ARGS(&m_pIWICFactory)
         );
     ```
 
@@ -42,7 +42,7 @@ To clip a bitmap source
        NULL,                           // Do not prefer a particular vendor
        GENERIC_READ,                   // Desired read access to the file
        WICDecodeMetadataCacheOnDemand, // Cache metadata when needed
-       &amp;pIDecoder                      // Pointer to the decoder
+       &pIDecoder                      // Pointer to the decoder
        );
     ```
 
@@ -54,7 +54,7 @@ To clip a bitmap source
     // Retrieve the first bitmap frame.
     if (SUCCEEDED(hr))
     {
-       hr = pIDecoder->GetFrame(0, &amp;pIDecoderFrame);
+       hr = pIDecoder->GetFrame(0, &pIDecoderFrame);
     }
     ```
 
@@ -69,7 +69,7 @@ To clip a bitmap source
 
     if (SUCCEEDED(hr))
     {
-       hr = m_pIWICFactory->CreateBitmapClipper(&amp;pIClipper);
+       hr = m_pIWICFactory->CreateBitmapClipper(&pIClipper);
     }
     ```
 
@@ -84,7 +84,7 @@ To clip a bitmap source
     // Initialize the clipper with the given rectangle of the frame's image data.
     if (SUCCEEDED(hr))
     {
-       hr = pIClipper->Initialize(pIDecoderFrame, &amp;rcClip);
+       hr = pIClipper->Initialize(pIDecoderFrame, &rcClip);
     }
     ```
 

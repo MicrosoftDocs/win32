@@ -71,9 +71,9 @@ Here is an example of creating a dynamic vertex buffer:
 
     DX::ThrowIfFailed(
         m_d3dDevice->CreateBuffer(
-        &amp;vertexBufferDesc,
-        &amp;vertexBufferData,
-        &amp;vertexBuffer2
+        &vertexBufferDesc,
+        &vertexBufferData,
+        &vertexBuffer2
         )
         );
 
@@ -100,7 +100,7 @@ Here is an example of changing a dynamic vertex buffer:
 void TriangleRenderer::MapDoubleVertices()
 {
     D3D11_MAPPED_SUBRESOURCE mappedResource;
-    ZeroMemory(&amp;mappedResource, sizeof(D3D11_MAPPED_SUBRESOURCE));
+    ZeroMemory(&mappedResource, sizeof(D3D11_MAPPED_SUBRESOURCE));
     float2 vertices[] =
     {
         float2(-1.0f, -1.0f),
@@ -109,7 +109,7 @@ void TriangleRenderer::MapDoubleVertices()
     };
     //  Disable GPU access to the vertex buffer data.
     auto m_d3dContext = m_deviceResources->GetD3DDeviceContext();
-    m_d3dContext->Map(vertexBuffer2.Get(), 0, D3D11_MAP_WRITE_DISCARD, 0, &amp;mappedResource);
+    m_d3dContext->Map(vertexBuffer2.Get(), 0, D3D11_MAP_WRITE_DISCARD, 0, &mappedResource);
     //  Update the vertex buffer here.
     memcpy(mappedResource.pData, vertices, sizeof(vertices));
     //  Reenable GPU access to the vertex buffer data.

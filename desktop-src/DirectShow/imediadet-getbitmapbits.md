@@ -126,7 +126,7 @@ The following code uses the `GetBitmapBits` method to create a device-independen
 
 ```C++
 long size;
-hr = pDet->GetBitmapBits(0, &amp;size, 0, width, height);
+hr = pDet->GetBitmapBits(0, &size, 0, width, height);
 if (SUCCEEDED(hr)) 
 {
     char *pBuffer = new char[size];
@@ -153,10 +153,10 @@ if (SUCCEEDED(hr))
         // always returns an RGB-24 image with no extra color information.
         
         BITMAPINFO bmi;
-        ZeroMemory(&amp;bmi, sizeof(BITMAPINFO));
-        CopyMemory(&amp;(bmi.bmiHeader), bmih, sizeof(BITMAPINFOHEADER));
+        ZeroMemory(&bmi, sizeof(BITMAPINFO));
+        CopyMemory(&(bmi.bmiHeader), bmih, sizeof(BITMAPINFOHEADER));
         HBITMAP hBitmap = CreateDIBitmap(hdcDest, bmih, CBM_INIT, 
-            pData, &amp;bmi, DIB_RGB_COLORS);
+            pData, &bmi, DIB_RGB_COLORS);
     }
     delete[] pBuffer;
 }

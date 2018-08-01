@@ -34,10 +34,10 @@ The following example code shows the initialization of an ASF\_INDEX\_DESCRIPTOR
 
 ```
 ASF_INDEX_DESCRIPTOR IndexerType;
-ZeroMemory(&amp;IndexerType, sizeof(ASF_INDEX_DESCRIPTOR));
+ZeroMemory(&IndexerType, sizeof(ASF_INDEX_DESCRIPTOR));
 
 ASF_INDEX_IDENTIFIER IndexIdentifier;
-ZeroMemory(&amp;IndexIdentifier, sizeof(ASF_INDEX_IDENTIFIER));
+ZeroMemory(&IndexIdentifier, sizeof(ASF_INDEX_IDENTIFIER));
 
 IndexIdentifier.guidIndexType = GUID_NULL;
 IndexIdentifier.wStreamNumber = 1;
@@ -46,7 +46,7 @@ IndexerType.Identifier = IndexIdentifier;
 IndexerType.cPerEntryBytes  = MFASFINDEXER_PER_ENTRY_BYTES_DYNAMIC;
 IndexerType.dwInterval  = MFASFINDEXER_NO_FIXED_INTERVAL;
 
-hr = pIndexer->SetIndexStatus((BYTE*)&amp;IndexerType, sizeof(ASF_INDEX_DESCRIPTOR), TRUE);
+hr = pIndexer->SetIndexStatus((BYTE*)&IndexerType, sizeof(ASF_INDEX_DESCRIPTOR), TRUE);
 ```
 
 
@@ -86,7 +86,7 @@ HRESULT SendSampleToMux(
 
     while (dwMuxStatus & ASF_STATUSFLAGS_INCOMPLETE)
     {
-        hr = pMux->GetNextPacket(&amp;dwMuxStatus, &amp;pOutputSample);
+        hr = pMux->GetNextPacket(&dwMuxStatus, &pOutputSample);
         if (FAILED(hr))
         {
             goto done;
@@ -102,7 +102,7 @@ HRESULT SendSampleToMux(
             }
 
             // Convert the sample to a contiguous buffer.
-            hr = pOutputSample->ConvertToContiguousBuffer(&amp;pDataPacket);
+            hr = pOutputSample->ConvertToContiguousBuffer(&pDataPacket);
             if (FAILED(hr))
             {
                 goto done;
@@ -116,13 +116,13 @@ HRESULT SendSampleToMux(
             }
         }
 
-        SafeRelease(&amp;pOutputSample);
-        SafeRelease(&amp;pDataPacket);
+        SafeRelease(&pOutputSample);
+        SafeRelease(&pDataPacket);
     }
 
 done:
-    SafeRelease(&amp;pOutputSample);
-    SafeRelease(&amp;pDataPacket);
+    SafeRelease(&pOutputSample);
+    SafeRelease(&pDataPacket);
     return hr;
 }
 ```
@@ -160,13 +160,13 @@ HRESULT WriteASFIndex(IMFASFIndexer *pIndex,IMFByteStream *pStream)
     QWORD cbIndex = 0;
     DWORD cbIndexWritten = 0;
 
-    HRESULT hr = pIndex->GetIndexWriteSpace(&amp;cbIndex);
+    HRESULT hr = pIndex->GetIndexWriteSpace(&cbIndex);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = MFCreateMemoryBuffer(cbChunkSize, &amp;pBuffer);
+    hr = MFCreateMemoryBuffer(cbChunkSize, &pBuffer);
     if (FAILED(hr))
     {
         goto done;
@@ -184,13 +184,13 @@ HRESULT WriteASFIndex(IMFASFIndexer *pIndex,IMFByteStream *pStream)
             goto done;
         }
 
-        hr = pBuffer->Lock(&amp;pData, NULL, &amp;cbData);
+        hr = pBuffer->Lock(&pData, NULL, &cbData);
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = pStream->Write(pData, cbData, &amp;cbWritten);
+        hr = pStream->Write(pData, cbData, &cbWritten);
 
         (void)pBuffer->Unlock();
 
@@ -203,7 +203,7 @@ HRESULT WriteASFIndex(IMFASFIndexer *pIndex,IMFByteStream *pStream)
     }
 
 done:
-    SafeRelease(&amp;pBuffer);
+    SafeRelease(&pBuffer);
     return hr;
 };
 ```

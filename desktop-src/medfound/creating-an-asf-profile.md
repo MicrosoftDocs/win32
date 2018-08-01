@@ -55,7 +55,7 @@ HRESULT GetASFProfile(PCWSTR pszFileName, IMFASFProfile** ppProfile)
     IMFPresentationDescriptor* pPD = NULL;
 
     // Create the source resolver.
-    HRESULT hr = MFCreateSourceResolver(&amp;pResolver);
+    HRESULT hr = MFCreateSourceResolver(&pResolver);
 
     // Use the source resolver to create the media source.
     if (SUCCEEDED(hr))
@@ -66,21 +66,21 @@ HRESULT GetASFProfile(PCWSTR pszFileName, IMFASFProfile** ppProfile)
                 pszFileName,
                 MF_RESOLUTION_MEDIASOURCE, 
                 NULL,                      
-                &amp;ObjectType,               
-                &amp;pSourceUnk   
+                &ObjectType,               
+                &pSourceUnk   
             );
     }
 
     // Get the IMFMediaSource interface from the media source.
     if (SUCCEEDED(hr))
     {
-        hr = pSourceUnk->QueryInterface(IID_PPV_ARGS(&amp;pSource));
+        hr = pSourceUnk->QueryInterface(IID_PPV_ARGS(&pSource));
     }
 
     // Get the presentation desccriptor.
     if (SUCCEEDED(hr))
     {
-        hr = pSource->CreatePresentationDescriptor(&amp;pPD);
+        hr = pSource->CreatePresentationDescriptor(&pPD);
     }
 
     // Get the profile from the presentation descriptor.
@@ -89,10 +89,10 @@ HRESULT GetASFProfile(PCWSTR pszFileName, IMFASFProfile** ppProfile)
         hr = MFCreateASFProfileFromPresentationDescriptor(pPD, ppProfile);
     }
 
-    SafeRelease(&amp;pResolver);
-    SafeRelease(&amp;pSourceUnk);
-    SafeRelease(&amp;pSource);
-    SafeRelease(&amp;pPD);
+    SafeRelease(&pResolver);
+    SafeRelease(&pSourceUnk);
+    SafeRelease(&pSource);
+    SafeRelease(&pPD);
     return hr;
 }
 ```

@@ -76,10 +76,10 @@ VOID DoPropertySheet(HWND hwndOwner)
     psh.pszCaption  = (LPSTR) "Cell Properties";
     psh.nPages      = sizeof(psp) / sizeof(PROPSHEETPAGE);
     psh.nStartPage  = 0;
-    psh.ppsp        = (LPCPROPSHEETPAGE) &amp;psp;
+    psh.ppsp        = (LPCPROPSHEETPAGE) &psp;
     psh.pfnCallback = NULL;
     
-    PropertySheet(&amp;psh);
+    PropertySheet(&psh);
     
     return;
 }

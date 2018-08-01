@@ -53,7 +53,7 @@ DWORD AppPartitionDNToDNS(LPCTSTR pszDN, LPTSTR *ppszDNS)
         DS_CANONICAL_NAME,
         1,
         rgpszNames,
-        &amp;pResults);
+        &pResults);
 
     if(NO_ERROR == dwRet)
     {
@@ -99,7 +99,7 @@ DWORD PrintDCFromAppPartition(LPCTSTR pszAppPartitionDN)
     the DNS name can be passed to DsGetDcName.
     */
     LPTSTR pszDNS;
-    dwRet = AppPartitionDNToDNS(pszAppPartitionDN, &amp;pszDNS);
+    dwRet = AppPartitionDNToDNS(pszAppPartitionDN, &pszDNS);
     if(NO_ERROR == dwRet)
     {
         PDOMAIN_CONTROLLER_INFO pdci;
@@ -113,7 +113,7 @@ DWORD PrintDCFromAppPartition(LPCTSTR pszAppPartitionDN)
             NULL, 
             NULL, 
             DS_ONLY_LDAP_NEEDED, 
-            &amp;pdci);
+            &pdci);
 
         if(NO_ERROR == dwRet)
         {

@@ -99,7 +99,7 @@ DEXTER_PARAM *pParam;
 DEXTER_VALUE *pValue;
 LONG count;
 
-hr = pSetter->GetProps(&amp;count, &amp;pParam, &amp;pValue);
+hr = pSetter->GetProps(&count, &pParam, &pValue);
 
 LONG num = 0;
 for (LONG i = 0; i < count; i++)

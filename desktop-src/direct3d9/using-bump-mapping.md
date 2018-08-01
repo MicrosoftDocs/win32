@@ -25,7 +25,7 @@ BOOL SupportsBumpMapping()
 {
     D3DCAPS9 d3dCaps;
 
-    d3dDevice->GetDeviceCaps( &amp;d3dCaps );
+    d3dDevice->GetDeviceCaps( &d3dCaps );
 
     // Does this device support the two bump mapping blend operations?
     if ( 0 == d3dCaps.TextureOpCaps & ( D3DTEXOPCAPS_BUMPENVMAP |
@@ -106,7 +106,7 @@ When the blending operations and arguments are set, the following code example s
 // Set the bump mapping matrix.
 //
 // Note  These calls rely on the following inline shortcut function:
-//   inline DWORD F2DW( FLOAT f ) { return *((DWORD*)&amp;f); }
+//   inline DWORD F2DW( FLOAT f ) { return *((DWORD*)&f); }
 d3dDevice->SetTextureStageState( 1, D3DTSS_BUMPENVMAT00, F2DW(1.0f) );
 d3dDevice->SetTextureStageState( 1, D3DTSS_BUMPENVMAT01, F2DW(0.0f) );
 d3dDevice->SetTextureStageState( 1, D3DTSS_BUMPENVMAT10, F2DW(0.0f) );
@@ -125,7 +125,7 @@ If you set the bump mapping operation to include luminance (D3DTOP\_BUMPENVMAPLU
 // being used.
 //
 // Note  These calls rely on the following inline shortcut function:
-//   inline DWORD F2DW( FLOAT f ) { return *((DWORD*)&amp;f); }
+//   inline DWORD F2DW( FLOAT f ) { return *((DWORD*)&f); }
 d3dDevice->SetTextureStageState( 1, D3DTSS_BUMPENVLSCALE, F2DW(0.5f) );
 d3dDevice->SetTextureStageState( 1, D3DTSS_BUMPENVLOFFSET, F2DW(0.0f) );
 ```

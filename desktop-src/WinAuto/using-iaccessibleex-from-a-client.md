@@ -47,7 +47,7 @@ HRESULT GetIAccessibleExFromIAccessible(IAccessible * pAcc, long idChild,
     // Next, get the IAccessibleEx for the parent object.
     IAccessibleEx * paex = NULL;
     hr = pSp->QueryService(__uuidof(IAccessibleEx), __uuidof(IAccessibleEx),
-                                                                 (void **)&amp;paex);
+                                                                 (void **)&paex);
     pSp->Release();
     if(FAILED(hr))
         return hr;
@@ -65,7 +65,7 @@ HRESULT GetIAccessibleExFromIAccessible(IAccessible * pAcc, long idChild,
     {
         // Get the IAccessibleEx for the specified child.
         IAccessibleEx * paexChild = NULL;
-        hr = paex->GetObjectForChild(idChild, &amp;paexChild);
+        hr = paex->GetObjectForChild(idChild, &paexChild);
         paex->Release();
         if(FAILED(hr))
             return hr;
@@ -92,7 +92,7 @@ HRESULT GetIRawElementProviderFromIAccessible(IAccessible * pAcc, long idChild,
 
     // First, get the IAccessibleEx for the IAccessible and child ID pair.
     IAccessibleEx * paex;
-    HRESULT hr = GetIAccessibleExFromIAccessible( pAcc, idChild, &amp;paex );
+    HRESULT hr = GetIAccessibleExFromIAccessible( pAcc, idChild, &paex );
     if(FAILED(hr))
         return hr;
 
@@ -118,7 +118,7 @@ HRESULT GetPatternFromIAccessible(IAccessible * pAcc, long idChild,
 {
     // First, get the IAccesibleEx for this IAccessible and child ID pair.
     IRawElementProviderSimple * pel;
-    HRESULT hr = GetIRawElementProviderSimpleFromIAccessible(pAcc, idChild, &amp;pel);
+    HRESULT hr = GetIRawElementProviderSimpleFromIAccessible(pAcc, idChild, &pel);
     if(FAILED(hr))
         return hr;
     if(pel == NULL)
@@ -126,7 +126,7 @@ HRESULT GetPatternFromIAccessible(IAccessible * pAcc, long idChild,
 
     // Now get the pattern object.
     IUnknown * pPatternObject = NULL;
-    hr = pel->GetPatternProvider(patternId, &amp;pPatternObject);
+    hr = pel->GetPatternProvider(patternId, &pPatternObject);
     pel->Release();
     if(FAILED(hr))
         return hr;
@@ -146,7 +146,7 @@ HRESULT CallInvokePatternMethod(IAccessible * pAcc, long idChild)
     IInvokeProvider * pPattern;
     HRESULT hr = GetPatternFromIAccessible(pAcc, varChild,
                                   UIA_InvokePatternId, __uuidof(IInvokeProvider),
-                                  (void **)&amp;pPattern);
+                                  (void **)&pPattern);
     if(FAILED(hr))
         return hr;
 
@@ -174,20 +174,20 @@ VARIANT varValue;
 
 // Get AutomationId property:
 varValue.vt = VT_EMPTY;
-HRESULT hr = pEl->GetPropertyValue(UIA_AutomationIdPropertyId, &amp;varValue);
+HRESULT hr = pEl->GetPropertyValue(UIA_AutomationIdPropertyId, &varValue);
 if(SUCCEEDED(hr))
 {
     if(varValue.vt == VT_BSTR)
     {
         // AutomationId is varValue.bstrVal.
     }
-    VariantClear(&amp;varValue);
+    VariantClear(&varValue);
 }
 
 
 // Get LabeledBy property:
 varValue.vt = VT_EMPTY;
-hr = pEl->GetPropertyValue(UIA_LabeledByPropertyId, &amp;varValue);
+hr = pEl->GetPropertyValue(UIA_LabeledByPropertyId, &varValue);
 if(SUCCEEDED(hr))
 {
     if(varValue.vt == VT_UNKNOWN || varValue.punkVal != NULL)
@@ -195,7 +195,7 @@ if(SUCCEEDED(hr))
         // Use QueryInterface to get IRawElementProviderSimple.
         IRawElementProviderSimple * pElLabel = NULL;
         hr = varValue.punkVal->QueryInterface(__uuidof(IRawElementProviderSimple),
-                                              (void**)&amp; pElLabel);
+                                              (void**)& pElLabel);
         if (SUCCEEDED(hr))
         {
             if(pElLabel != NULL)
@@ -205,7 +205,7 @@ if(SUCCEEDED(hr))
             }
         }
     }
-    VariantClear(&amp;varValue);
+    VariantClear(&varValue);
 }
 ```
 
@@ -235,7 +235,7 @@ long idChild;
 
 // First, try to use QueryInterface to get the IAccessibleEx interface.
 IAccessibleEx * pAccEx;
-HRESULT hr = pVal->QueryInterface(__uuidof(IAccessibleEx), (void**)&amp;pAccEx);
+HRESULT hr = pVal->QueryInterface(__uuidof(IAccessibleEx), (void**)&pAccEx);
 if (SUCCEEDED(hr)
 {
     if (!pAccEx)
@@ -246,14 +246,14 @@ if (SUCCEEDED(hr)
               // IAccessibleEx::ConvertReturnedValue method of the
         // originating element.
 
-        pAccExOrig->ConvertReturnedElement(pVal, &amp;pAccEx);
+        pAccExOrig->ConvertReturnedElement(pVal, &pAccEx);
     }
 
     if (pAccEx)
     {
         // Call GetIAccessiblePair to get an IAccessible interface and 
               // child ID.
-        pAccEx->GetIAccessiblePair(&amp;pAcc, &amp;idChild);
+        pAccEx->GetIAccessiblePair(&pAcc, &idChild);
     }
 
     // Finally, use the IAccessible interface and child ID.

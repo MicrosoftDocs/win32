@@ -68,8 +68,8 @@ DWORD GetStatus(LPCWSTR subscriptionName,
     LPCWSTR eventSource, 
     EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID statusInfoID, 
     DWORD flags, 
-    std::vector<BYTE>&amp; buffer, 
-    PEC_VARIANT&amp; vStatus);
+    std::vector<BYTE>& buffer, 
+    PEC_VARIANT& vStatus);
 
 std::wstring ConvertEcDateTime( ULONGLONG code );
 
@@ -153,7 +153,7 @@ void __cdecl wmain()
     }
 
     // Ensure that a handle to the event sources array has been obtained.
-    if (vEventSources->Type != EcVarTypeNull &amp;&amp; 
+    if (vEventSources->Type != EcVarTypeNull && 
         vEventSources->Type != (EcVarTypeString | EC_VARIANT_TYPE_ARRAY) )
     {
         dwRetVal = ERROR_INVALID_DATA;
@@ -235,7 +235,7 @@ void __cdecl wmain()
         {
             goto Cleanup;
         }
-        if (vStatus->Type != EcVarTypeNull &amp;&amp; vStatus->Type != EcVarTypeString)
+        if (vStatus->Type != EcVarTypeNull && vStatus->Type != EcVarTypeString)
         {
             dwRetVal = ERROR_INVALID_DATA;
             goto Cleanup;
@@ -263,7 +263,7 @@ void __cdecl wmain()
             goto Cleanup;
         }
          
-        if (vStatus->Type != EcVarTypeNull &amp;&amp; vStatus->Type != EcVarTypeDateTime)
+        if (vStatus->Type != EcVarTypeNull && vStatus->Type != EcVarTypeDateTime)
         {
             dwRetVal = ERROR_INVALID_DATA;
             goto Cleanup;
@@ -308,7 +308,7 @@ void __cdecl wmain()
                 NULL,
                 dwRetVal,
                 0,
-                (LPWSTR) &amp;lpwszBuffer,
+                (LPWSTR) &lpwszBuffer,
                 0,
                 NULL);
             
@@ -331,8 +331,8 @@ DWORD GetStatus(LPCWSTR subscriptionName,
     LPCWSTR eventSource, 
     EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID statusInfoID, 
     DWORD flags, 
-    std::vector<BYTE>&amp; buffer, 
-    PEC_VARIANT&amp; vStatus)
+    std::vector<BYTE>& buffer, 
+    PEC_VARIANT& vStatus)
 {
     DWORD dwBufferSize, dwRetVal = ERROR_SUCCESS;
     buffer.clear();
@@ -343,8 +343,8 @@ DWORD GetStatus(LPCWSTR subscriptionName,
         eventSource,
         flags,
         (DWORD) buffer.size(),
-        (PEC_VARIANT) &amp;buffer[0],
-        &amp;dwBufferSize))
+        (PEC_VARIANT) &buffer[0],
+        &dwBufferSize))
     {
         dwRetVal = GetLastError();
 
@@ -357,8 +357,8 @@ DWORD GetStatus(LPCWSTR subscriptionName,
                 eventSource,
                 flags,
                 (DWORD) buffer.size(),
-                (PEC_VARIANT) &amp;buffer[0],
-                &amp;dwBufferSize))
+                (PEC_VARIANT) &buffer[0],
+                &dwBufferSize))
             {
                 dwRetVal = GetLastError();
             }
@@ -367,7 +367,7 @@ DWORD GetStatus(LPCWSTR subscriptionName,
 
     if ( ERROR_SUCCESS == dwRetVal)
     {
-        vStatus = (PEC_VARIANT) &amp;buffer[0];
+        vStatus = (PEC_VARIANT) &buffer[0];
     }
     else
     {
@@ -390,17 +390,17 @@ std::wstring ConvertEcDateTime( ULONGLONG code )
     ft.dwHighDateTime = (DWORD)((code >> 32) & 0xFFFFFFFF);
     ft.dwLowDateTime = (DWORD)(code & 0xFFFFFFFF);
 
-    if( !FileTimeToSystemTime( &amp;ft, &amp;utcTime) )
+    if( !FileTimeToSystemTime( &ft, &utcTime) )
     {
         return timeString;
     }
 
-    if(!SystemTimeToTzSpecificLocalTime(NULL, &amp;utcTime, &amp;localTime))
+    if(!SystemTimeToTzSpecificLocalTime(NULL, &utcTime, &localTime))
     {
         return timeString;
     }
 
-    HRESULT hr = StringCchPrintfW((LPWSTR) &amp;buffer[0], 
+    HRESULT hr = StringCchPrintfW((LPWSTR) &buffer[0], 
         buffer.size(), 
         L"%4.4hd-%2.2hd-%2.2hdT%2.2hd:%2.2hd:%2.2hd.%3.3hdZ",
         localTime.wYear,
@@ -416,7 +416,7 @@ std::wstring ConvertEcDateTime( ULONGLONG code )
         return timeString;
     }
 
-    timeString = (LPWSTR) &amp;buffer[0];
+    timeString = (LPWSTR) &buffer[0];
 
     return timeString;
 }

@@ -43,7 +43,7 @@ The following example shows how to create a group with a header and add it to a 
     group.pszHeader = TEXT("Dogs");
     group.iGroupId  = 1;
 
-    ListView_InsertGroup(hWndListView, -1, &amp;group);
+    ListView_InsertGroup(hWndListView, -1, &group);
 
 ```
 

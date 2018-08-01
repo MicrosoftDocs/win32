@@ -35,7 +35,7 @@ if (pGuid == NULL)
 CryptGenRandom(hCSP, sizeof(GUID), (BYTE*)pGuid);  
 
 // Copy the random number into the command structure.
-memcpy(&amp;input.rApp, pGuid, sizeof(GUID));
+memcpy(&input.rApp, pGuid, sizeof(GUID));
 
 // Fill in the other data.
 input.guidStatusRequestID = DXVA_COPPQueryProtectionType; // Request type.
@@ -43,7 +43,7 @@ input.dwSequence = uStatusSeq;  // Status sequence number.
 input.cbSizeData = 0            // No other data for this query.
 
 // Send the request.
-hr = pCOPP->ProtectionStatus(&amp;input, &amp;output);
+hr = pCOPP->ProtectionStatus(&input, &output);
 
 // Increment the sequence number each time.
 ++uStatusSeq;

@@ -59,7 +59,7 @@ In the parameter string, *width* and *height* are the width and height of the wi
 
 
 ```C++
-http://proseware.com/AltLogin.htm?DlgX=800&amp;DlgY=400
+http://proseware.com/AltLogin.htm?DlgX=800&DlgY=400
 ```
 
 

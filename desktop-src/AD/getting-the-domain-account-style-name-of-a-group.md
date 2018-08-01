@@ -65,7 +65,7 @@ if (!szDomainName)
                 NULL,
                 NULL,
                 DS_DIRECTORY_SERVICE_REQUIRED,
-                &amp;DomainControllerInfo
+                &DomainControllerInfo
     );
     if (dReturn==NO_ERROR)
     {
@@ -93,7 +93,7 @@ if (SUCCEEDED(hr))
                                 NULL,
                                 CLSCTX_INPROC_SERVER,
                                 IID_IADsNameTranslate,
-                                (void **)&amp;pNameTr
+                                (void **)&pNameTr
                           );
     if (SUCCEEDED(hr))
     {
@@ -105,7 +105,7 @@ if (SUCCEEDED(hr))
             CComBSTR sbstrNameTr;
 
             hr = pNameTr->Set(ADS_NAME_TYPE_1779, CComBSTR(szDN));
-            hr = pNameTr->Get(ADS_NAME_TYPE_NT4, &amp;sbstrNameTr);
+            hr = pNameTr->Get(ADS_NAME_TYPE_NT4, &sbstrNameTr);
             if (SUCCEEDED(hr))
             {
                 *ppNameString = (OLECHAR *)CoTaskMemAlloc (sizeof(OLECHAR)*(sbstrNameTr.Length() + 1));

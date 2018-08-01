@@ -175,7 +175,7 @@ void wmain(void)
         goto cleanup;
     }
 
-    status = QueryAllTraces(pSessions, (ULONG)MAX_SESSIONS, &amp;SessionCount);
+    status = QueryAllTraces(pSessions, (ULONG)MAX_SESSIONS, &SessionCount);
 
     if (ERROR_SUCCESS == status || ERROR_MORE_DATA == status)
     {

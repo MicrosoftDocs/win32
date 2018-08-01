@@ -45,32 +45,32 @@ HRESULT BuildGraph(IGraphBuilder *pGraph, const WCHAR *wFileName)
     // (Function bodies provided at the end of this snippet.)
     if (SUCCEEDED(hr))
     {
-        hr = GetDMOWrapper(pGraph, &amp;pDmoWrapper); 
+        hr = GetDMOWrapper(pGraph, &pDmoWrapper); 
     }
 
     //Disconnect the DMO Wrapper from the Audio Renderer.
     if (SUCCEEDED(hr))
     {
-        hr = GetPin(pDmoWrapper, PINDIR_OUTPUT, &amp;pDmoOut);
+        hr = GetPin(pDmoWrapper, PINDIR_OUTPUT, &pDmoOut);
     }
     if (SUCCEEDED(hr))
     {
-        hr = DisconnectPin(pGraph, pDmoOut, &amp;pRendererIn);
+        hr = DisconnectPin(pGraph, pDmoOut, &pRendererIn);
     }
 
     //Set the property on the DMO.
     VARIANT varg;
-    ::VariantInit(&amp;varg);
+    ::VariantInit(&varg);
     varg.vt    = VT_BOOL;
     varg.boolVal = TRUE;
 
     if (SUCCEEDED(hr))
     {
-        hr = pDmoWrapper->QueryInterface(IID_IPropertyBag, (void**)&amp;pPropBag);
+        hr = pDmoWrapper->QueryInterface(IID_IPropertyBag, (void**)&pPropBag);
     }
     if (SUCCEEDED(hr))
     {
-        hr = pPropBag->Write(g_wszWMACHiResOutput, &amp;varg);
+        hr = pPropBag->Write(g_wszWMACHiResOutput, &varg);
     }
 
     // Reconnect the DMO Wrapper and the Audio Renderer
@@ -101,14 +101,14 @@ HRESULT GetDMOWrapper (IFilterGraph *pGraph, IBaseFilter** ppFilter)
     IBaseFilter *pFilter = NULL;
     IDMOWrapperFilter *pWrapper = NULL;
 
-    HRESULT hr = pGraph->EnumFilters(&amp;pEnum);
+    HRESULT hr = pGraph->EnumFilters(&pEnum);
     if (SUCCEEDED(hr))
     {
-        while(pEnum->Next(1, &amp;pFilter, NULL) == S_OK)
+        while(pEnum->Next(1, &pFilter, NULL) == S_OK)
         {
             // If we find the IDMOWrapperFilter interface, that means we 
             // have the DMO Wrapper filter. 
-            hr = pFilter->QueryInterface(IID_IDMOWrapperFilter, (void**) &amp;pWrapper);
+            hr = pFilter->QueryInterface(IID_IDMOWrapperFilter, (void**) &pWrapper);
             if (SUCCEEDED(hr))
             {
                 bFound = TRUE;
@@ -140,13 +140,13 @@ HRESULT GetPin(IBaseFilter *pFilter, PIN_DIRECTION PinDir, IPin** ppPin)
     IEnumPins *pEnum = NULL;
     IPin *pPin = NULL;
 
-    HRESULT hr = pFilter->EnumPins(&amp;pEnum);
+    HRESULT hr = pFilter->EnumPins(&pEnum);
     if (SUCCEEDED(hr))
     {
-        while(pEnum->Next(1, &amp;pPin, 0) == S_OK)
+        while(pEnum->Next(1, &pPin, 0) == S_OK)
         {
             PIN_DIRECTION PinDirThis;
-            hr = pPin->QueryDirection(&amp;PinDirThis);
+            hr = pPin->QueryDirection(&PinDirThis);
             if (FAILED(hr))
             {
                 break;
@@ -179,7 +179,7 @@ HRESULT DisconnectPin(IGraphBuilder *pGraph, IPin *pPin, IPin **ppConnected)
 {
     IPin *pConnected = NULL;
 
-    HRESULT hr = pPin->ConnectedTo(&amp;pConnected);
+    HRESULT hr = pPin->ConnectedTo(&pConnected);
     if (SUCCEEDED(hr))
     {
         hr = pGraph->Disconnect(pPin);

@@ -50,7 +50,7 @@ The following example uses the [**IWiaVideo**](/windows/desktop/api/Wiavideo/nn-
                           NULL,
                           CLSCTX_LOCAL_SERVER,
                           IID_IWiaDevMgr,
-                          (void**)&amp;pIWiaDevMgr);
+                          (void**)&pIWiaDevMgr);
 
     //
     // Create the WIA Video object.  Use this to display video and capture 
@@ -63,7 +63,7 @@ The following example uses the [**IWiaVideo**](/windows/desktop/api/Wiavideo/nn-
                               NULL,
                               CLSCTX_INPROC_SERVER,
                               IID_IWiaVideo,
-                              (LPVOID *) &amp;pWiaVideo);
+                              (LPVOID *) &pWiaVideo);
     }
 
     //
@@ -78,7 +78,7 @@ The following example uses the [**IWiaVideo**](/windows/desktop/api/Wiavideo/nn-
         //
 
         hr = pIWiaDevMgr->EnumDeviceInfo(WIA_DEVINFO_ENUM_LOCAL,
-                                         &amp;pWiaEnumDevInfo);
+                                         &pWiaEnumDevInfo);
     }
 
     //
@@ -93,7 +93,7 @@ The following example uses the [**IWiaVideo**](/windows/desktop/api/Wiavideo/nn-
         hr = pWiaEnumDevInfo->Reset();
     }
 
-    while ((SUCCEEDED(hr)) &amp;&amp; (!bFound))
+    while ((SUCCEEDED(hr)) && (!bFound))
     {
         IWiaPropertyStorage *pIWiaPropStg = NULL;
 
@@ -102,8 +102,8 @@ The following example uses the [**IWiaVideo**](/windows/desktop/api/Wiavideo/nn-
         //
 
         hr = pWiaEnumDevInfo->Next(1,
-                                   &amp;pIWiaPropStg,
-                                   &amp;ulFetched);
+                                   &pIWiaPropStg,
+                                   &ulFetched);
 
         if (hr == S_OK)
         {
@@ -169,7 +169,7 @@ The following example uses the [**IWiaVideo**](/windows/desktop/api/Wiavideo/nn-
         //
 
         hr = pIWiaDevMgr->CreateDevice(DeviceID,
-                                       &amp;pRootItem);
+                                       &pRootItem);
 
         //
         // Device has been created; now get its property storage interface.
@@ -177,7 +177,7 @@ The following example uses the [**IWiaVideo**](/windows/desktop/api/Wiavideo/nn-
         if (SUCCEEDED(hr))
         {
             hr = pRootItem->QueryInterface(IID_IWiaPropertyStorage,
-                                           &amp;pIWiaPropStorage);
+                                           &pIWiaPropStorage);
         }
     }
 
@@ -239,7 +239,7 @@ The following example uses the [**IWiaVideo**](/windows/desktop/api/Wiavideo/nn-
     //
     if (SUCCEEDED(hr))
     {
-        hr = pWiaVideo->TakePicture(&amp;FileName);
+        hr = pWiaVideo->TakePicture(&FileName);
     }
 
     //

@@ -77,7 +77,7 @@ HRESULT AllowAccessToScpProperties(
         return E_INVALIDARG;
     }
     
-    VariantInit(&amp;varSD);
+    VariantInit(&varSD);
      
     /*
     If no service account is specified, service runs under 
@@ -96,7 +96,7 @@ HRESULT AllowAccessToScpProperties(
         // Get the size required for the SAM account name.
         dwLen = 0;
         GetComputerObjectNameW(NameSamCompatible, 
-            NULL, &amp;dwLen);
+            NULL, &dwLen);
         
         pwszComputerName = new WCHAR[dwLen + 1];
         if(NULL == pwszComputerName)
@@ -110,7 +110,7 @@ HRESULT AllowAccessToScpProperties(
         the server.
         */
         if(!GetComputerObjectNameW(NameSamCompatible,
-            pwszComputerName, &amp;dwLen))
+            pwszComputerName, &dwLen))
         {
             delete pwszComputerName;
             
@@ -124,7 +124,7 @@ HRESULT AllowAccessToScpProperties(
     } 
 
     // Get the nTSecurityDescriptor.
-    hr = pSCPObject->Get(sbstrSecurityDescriptor, &amp;varSD);
+    hr = pSCPObject->Get(sbstrSecurityDescriptor, &varSD);
     if (FAILED(hr) || (varSD.vt != VT_DISPATCH)) 
     {
         _tprintf(TEXT("Get nTSecurityDescriptor failed: 0x%x\n"), hr);
@@ -136,9 +136,9 @@ HRESULT AllowAccessToScpProperties(
     VARIANT structure and QueryInterface for an 
     IADsSecurityDescriptor pointer.
     */
-    hr = V_DISPATCH( &amp;varSD )->QueryInterface(
+    hr = V_DISPATCH( &varSD )->QueryInterface(
         IID_IADsSecurityDescriptor,
-        (void**)&amp;pSD);
+        (void**)&pSD);
     if (FAILED(hr)) 
     {
         _tprintf(
@@ -151,12 +151,12 @@ HRESULT AllowAccessToScpProperties(
     Get an IADsAccessControlList pointer to the security 
     descriptor's DACL.
     */
-    hr = pSD->get_DiscretionaryAcl(&amp;pDisp);
+    hr = pSD->get_DiscretionaryAcl(&pDisp);
     if (SUCCEEDED(hr))
     {
         hr = pDisp->QueryInterface(
             IID_IADsAccessControlList,
-            (void**)&amp;pACL);
+            (void**)&pACL);
     }
     if (FAILED(hr)) 
     {
@@ -169,7 +169,7 @@ HRESULT AllowAccessToScpProperties(
                         NULL,
                         CLSCTX_INPROC_SERVER,
                         IID_IADsAccessControlEntry,
-                        (void **)&amp;pACE1);
+                        (void **)&pACE1);
      
     // Create the COM object for the second ACE.
     if (SUCCEEDED(hr))
@@ -178,7 +178,7 @@ HRESULT AllowAccessToScpProperties(
                         NULL,
                         CLSCTX_INPROC_SERVER,
                         IID_IADsAccessControlEntry,
-                        (void **)&amp;pACE2);
+                        (void **)&pACE2);
     }
     if (FAILED(hr)) 
     {
@@ -223,7 +223,7 @@ HRESULT AllowAccessToScpProperties(
     Add the ACEs to the DACL. Need an IDispatch pointer for 
     each ACE to pass to the AddAce method.
     */
-    hr = pACE1->QueryInterface(IID_IDispatch,(void**)&amp;pDispACE);
+    hr = pACE1->QueryInterface(IID_IDispatch,(void**)&pDispACE);
     if (SUCCEEDED(hr))
     {
         hr = pACL->AddAce(pDispACE);
@@ -242,7 +242,7 @@ HRESULT AllowAccessToScpProperties(
     }
      
     // Repeat for the second ACE.
-    hr = pACE2->QueryInterface(IID_IDispatch, (void**)&amp;pDispACE);
+    hr = pACE2->QueryInterface(IID_IDispatch, (void**)&pDispACE);
     if (SUCCEEDED(hr))
     {
         hr = pACL->AddAce(pDispACE);
@@ -288,7 +288,7 @@ HRESULT AllowAccessToScpProperties(
     if (pSD)
         pSD->Release();
  
-    VariantClear(&amp;varSD);
+    VariantClear(&varSD);
  
     return hr;
 }

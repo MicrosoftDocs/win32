@@ -135,7 +135,7 @@ void wmain(void)
     MY_EVENT MyEvent; 
     TRACEHANDLE RegistrationHandle = 0; 
     TRACE_GUID_REGISTRATION EventClassGuids[] = {
-        (LPGUID)&amp;MyCategoryGuid, NULL
+        (LPGUID)&MyCategoryGuid, NULL
         };
 
     // Register the provider and specify the control callback function
@@ -144,12 +144,12 @@ void wmain(void)
     status = RegisterTraceGuids(
         (WMIDPREQUEST)ControlCallback,
         NULL,
-        (LPGUID)&amp;ProviderGuid,
+        (LPGUID)&ProviderGuid,
         sizeof(EventClassGuids)/sizeof(TRACE_GUID_REGISTRATION),
         EventClassGuids,
         NULL,
         NULL,
-        &amp;RegistrationHandle
+        &RegistrationHandle
         );
 
     if (ERROR_SUCCESS != status)
@@ -174,11 +174,11 @@ void wmain(void)
     // If your provider generates more than one class of events, you
     // would also need to check g_EnableFlags.
 
-    if (g_TraceOn &amp;&amp; (0 == g_EnableLevel || TRACE_LEVEL_ERROR <= g_EnableLevel))
+    if (g_TraceOn && (0 == g_EnableLevel || TRACE_LEVEL_ERROR <= g_EnableLevel))
     {
         // Initialize the event data structure.
 
-        ZeroMemory(&amp;MyEvent, sizeof(MY_EVENT));
+        ZeroMemory(&MyEvent, sizeof(MY_EVENT));
         MyEvent.Header.Size = sizeof(EVENT_TRACE_HEADER) + (sizeof(MOF_FIELD) * EVENT_DATA_FIELDS_CNT);
         MyEvent.Header.Flags = WNODE_FLAG_TRACED_GUID | WNODE_FLAG_USE_MOF_PTR;
         MyEvent.Header.Guid = MyCategoryGuid;
@@ -188,24 +188,24 @@ void wmain(void)
 
         // Load the event data. You can also use the DEFINE_TRACE_MOF_FIELD
         // macro defined in evntrace.h to set the MOF_FIELD members. For example,
-        // DEFINE_TRACE_MOF_FIELD(&amp;EventData.Data[0], &amp;EventData.Cost, sizeof(EventData.Cost), 0);
+        // DEFINE_TRACE_MOF_FIELD(&EventData.Data[0], &EventData.Cost, sizeof(EventData.Cost), 0);
 
-        MyEvent.Data[0].DataPtr = (ULONG64) &amp;(EventData.Cost);
+        MyEvent.Data[0].DataPtr = (ULONG64) &(EventData.Cost);
         MyEvent.Data[0].Length = sizeof(EventData.Cost);
-        MyEvent.Data[1].DataPtr = (ULONG64) &amp;(EventData.Indices);
+        MyEvent.Data[1].DataPtr = (ULONG64) &(EventData.Indices);
         MyEvent.Data[1].Length = sizeof(EventData.Indices);
-        MyEvent.Data[2].DataPtr = (ULONG64) &amp;(EventData.Signature);
+        MyEvent.Data[2].DataPtr = (ULONG64) &(EventData.Signature);
         MyEvent.Data[2].Length = (ULONG)(wcslen(EventData.Signature) + 1) * sizeof(WCHAR);
-        MyEvent.Data[3].DataPtr = (ULONG64) &amp;(EventData.IsComplete);
+        MyEvent.Data[3].DataPtr = (ULONG64) &(EventData.IsComplete);
         MyEvent.Data[3].Length = sizeof(EventData.IsComplete);
-        MyEvent.Data[4].DataPtr = (ULONG64) &amp;(EventData.ID);
+        MyEvent.Data[4].DataPtr = (ULONG64) &(EventData.ID);
         MyEvent.Data[4].Length = sizeof(EventData.ID);
-        MyEvent.Data[5].DataPtr = (ULONG64) &amp;(EventData.Size);
+        MyEvent.Data[5].DataPtr = (ULONG64) &(EventData.Size);
         MyEvent.Data[5].Length = sizeof(EventData.Size);
 
         // Write the event.
 
-        status = TraceEvent(g_SessionHandle, &amp;(MyEvent.Header));
+        status = TraceEvent(g_SessionHandle, &(MyEvent.Header));
 
         if (ERROR_SUCCESS != status)
         {

@@ -30,7 +30,7 @@ STDMETHODIMP CClassProv::GetObjectAsync (BSTR ObjectPath,
   IWbemClassObject *pclObj = NULL;
   IWbemServices* m_pNamespace;
   HRESULT hr = m_pNamespace->GetObject(
-      _bstr_t(L"AClass"), 0, pCtx, &amp;pclObj, 
+      _bstr_t(L"AClass"), 0, pCtx, &pclObj, 
       NULL );
   pclObj->Release();
   return pHandler->SetStatus(0, hr, NULL, NULL);

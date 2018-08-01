@@ -82,7 +82,7 @@ In the following, assume that **pal** is a pointer to the [**IACList**](https://
     ```C++
     IPersistFolder *ppf;
 
-    hr = pal2->QueryInterface(IID_PPV_ARGS(&amp;ppf));   
+    hr = pal2->QueryInterface(IID_PPV_ARGS(&ppf));   
     if (SUCCEEDED(hr))
     {
         hr = ppf->Initialize(pidlCurrentDirectory);
@@ -100,7 +100,7 @@ In the following, assume that **pal** is a pointer to the [**IACList**](https://
     WCHAR pwszDirectory[MAX_PATH] = L"C:\\Program Files";
     ICurrentWorkingDirectory *pcwd;
 
-    hr = pal2->QueryInterface(IID_PPV_ARGS(&amp;pcwd));    
+    hr = pal2->QueryInterface(IID_PPV_ARGS(&pcwd));    
     if (SUCCEEDED(hr))
     {
         hr = pcwd->SetDirectory(pwszDirectory);

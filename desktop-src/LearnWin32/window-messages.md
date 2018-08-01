@@ -40,7 +40,7 @@ For each thread that creates a window, the operating system creates a queue for 
 
 ```C++
 MSG msg;
-GetMessage(&amp;msg, NULL, 0, 0);
+GetMessage(&msg, NULL, 0, 0);
 ```
 
 
@@ -53,8 +53,8 @@ Although the [**MSG**](https://msdn.microsoft.com/library/windows/desktop/ms6449
 
 
 ```C++
-TranslateMessage(&amp;msg); 
-DispatchMessage(&amp;msg);
+TranslateMessage(&msg); 
+DispatchMessage(&msg);
 ```
 
 
@@ -80,9 +80,9 @@ When the window procedure returns, it returns back to [**DispatchMessage**](http
 
 while (1)      
 {
-    GetMessage(&amp;msg, NULL, 0,  0);
-    TranslateMessage(&amp;msg); 
-    DispatchMessage(&amp;msg);
+    GetMessage(&msg, NULL, 0,  0);
+    TranslateMessage(&msg); 
+    DispatchMessage(&msg);
 }
 ```
 

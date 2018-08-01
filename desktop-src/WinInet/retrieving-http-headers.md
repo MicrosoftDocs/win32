@@ -48,7 +48,7 @@ retry:
    // This call will fail on the first pass, because
    // no buffer is allocated.
    if(!HttpQueryInfo(hHttp,HTTP_QUERY_RAW_HEADERS_CRLF,
-      (LPVOID)lpOutBuffer,&amp;dwSize,NULL))
+      (LPVOID)lpOutBuffer,&dwSize,NULL))
    {
       if (GetLastError()==ERROR_HTTP_HEADER_NOT_FOUND)
       {
@@ -115,7 +115,7 @@ BOOL SampleCodeTwo(HINTERNET hHttp)
 retry:
 
     if(!HttpQueryInfo(hHttp,HTTP_QUERY_CUSTOM,
-        (LPVOID)lpOutBuffer,&amp;dwSize,NULL))
+        (LPVOID)lpOutBuffer,&dwSize,NULL))
     {
         if (GetLastError()==ERROR_HTTP_HEADER_NOT_FOUND)
         {

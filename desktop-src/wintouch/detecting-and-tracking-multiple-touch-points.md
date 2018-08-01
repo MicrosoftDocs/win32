@@ -152,11 +152,11 @@ case WM_TOUCH:
       for (int i=0; i < static_cast<INT>(cInputs); i++){
         TOUCHINPUT ti = pInputs[i];
         index = GetContactIndex(ti.dwID);
-        if (ti.dwID != 0 &amp;&amp; index < MAXPOINTS){                            
+        if (ti.dwID != 0 && index < MAXPOINTS){                            
           // Do something with your touch input handle
           ptInput.x = TOUCH_COORD_TO_PIXEL(ti.x);
           ptInput.y = TOUCH_COORD_TO_PIXEL(ti.y);
-          ScreenToClient(hWnd, &amp;ptInput);
+          ScreenToClient(hWnd, &ptInput);
           
           if (ti.dwFlags & TOUCHEVENTF_UP){                      
             points[index][0] = -1;
@@ -234,9 +234,9 @@ The memory display context *memDC* is used for storing a temporary graphics cont
 
 ```C++
   case WM_PAINT:
-    hdc = BeginPaint(hWnd, &amp;ps);    
+    hdc = BeginPaint(hWnd, &ps);    
     RECT client;
-    GetClientRect(hWnd, &amp;client);        
+    GetClientRect(hWnd, &client);        
   
     // start double buffering
     if (!memDC){
@@ -245,21 +245,21 @@ The memory display context *memDC* is used for storing a temporary graphics cont
     hMemBmp = CreateCompatibleBitmap(hdc, client.right, client.bottom);
     hOldBmp = (HBITMAP)SelectObject(memDC, hMemBmp);          
   
-    FillRect(memDC, &amp;client, CreateSolidBrush(RGB(255,255,255)));
+    FillRect(memDC, &client, CreateSolidBrush(RGB(255,255,255)));
      
     //Draw Touched Points                
     for (i=0; i < MAXPOINTS; i++){        
       SelectObject( memDC, CreateSolidBrush(colors[i]));           
       x = points[i][0];
       y = points[i][1];
-      if  (x >0 &amp;&amp; y>0){              
+      if  (x >0 && y>0){              
         Ellipse(memDC, x - radius, y - radius, x+ radius, y + radius);
       }
     }
   
     BitBlt(hdc, 0,0, client.right, client.bottom, memDC, 0,0, SRCCOPY);      
 
-    EndPaint(hWnd, &amp;ps);
+    EndPaint(hWnd, &ps);
     break;
 ```
 

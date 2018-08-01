@@ -20,7 +20,7 @@ ID3D10Effect* g_pEffect10 = NULL;
 // Read the effect file 
 D3DX10CreateEffectFromFile( "BasicHLSL10.fx", NULL, NULL,
   D3D10_SHADER_ENABLE_STRICTNESS, 0, pd3dDevice, NULL, NULL, 
-  &amp;g_pEffect10, NULL );
+  &g_pEffect10, NULL );
 ```
 
 

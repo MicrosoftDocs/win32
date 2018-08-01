@@ -46,7 +46,7 @@ BOOL RawDataToPrinter(LPTSTR szPrinterName, LPBYTE lpData, DWORD dwCount)
     DWORD      dwBytesWritten = 0L;
 
     // Open a handle to the printer. 
-    bStatus = OpenPrinter( szPrinterName, &amp;hPrinter, NULL );
+    bStatus = OpenPrinter( szPrinterName, &hPrinter, NULL );
     if (bStatus) {
         // Fill in the structure with info about this "document." 
         DocInfo.pDocName = (LPTSTR)_T("My Document");
@@ -54,13 +54,13 @@ BOOL RawDataToPrinter(LPTSTR szPrinterName, LPBYTE lpData, DWORD dwCount)
         DocInfo.pDatatype = (LPTSTR)_T("RAW");
 
         // Inform the spooler the document is beginning. 
-        dwJob = StartDocPrinter( hPrinter, 1, (LPBYTE)&amp;DocInfo );
+        dwJob = StartDocPrinter( hPrinter, 1, (LPBYTE)&DocInfo );
         if (dwJob > 0) {
             // Start a page. 
             bStatus = StartPagePrinter( hPrinter );
             if (bStatus) {
                 // Send the data to the printer. 
-                bStatus = WritePrinter( hPrinter, lpData, dwCount, &amp;dwBytesWritten);
+                bStatus = WritePrinter( hPrinter, lpData, dwCount, &dwBytesWritten);
                 EndPagePrinter (hPrinter);
             }
             // Inform the spooler that the document is ending. 

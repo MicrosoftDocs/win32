@@ -76,8 +76,8 @@ The following table lists script examples that can be used to obtain various typ
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
 Set objWMIService = GetObject(&quot;winmgmts:&quot; _
-    &amp; &quot;{impersonationLevel=impersonate}!\\&quot; _
-    &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+    & &quot;{impersonationLevel=impersonate}!\\&quot; _
+    & strComputer & &quot;\root\cimv2&quot;)
 set PerfProcess = objWMIService.Get(_
     &quot;Win32_PerfFormattedData_PerfProc_Process.Name=&#39;Idle&#39;&quot;)
 
@@ -110,8 +110,8 @@ Wend</code></pre></td>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
 Set objWMIService = GetObject(&quot;winmgmts:&quot; _
-    &amp; &quot;{impersonationLevel=impersonate}!\\&quot; _
-    &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+    & &quot;{impersonationLevel=impersonate}!\\&quot; _
+    & strComputer & &quot;\root\cimv2&quot;)
 set objRefresher = CreateObject(&quot;WbemScripting.Swbemrefresher&quot;)
 Set objProcessor = objRefresher.AddEnum _
     (objWMIService, _
@@ -151,8 +151,8 @@ Wend</code></pre></td>
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
 Set objWMIService = GetObject(&quot;winmgmts:&quot; _
-    &amp; &quot;{impersonationLevel=impersonate}!\\&quot; _
-    &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+    & &quot;{impersonationLevel=impersonate}!\\&quot; _
+    & strComputer & &quot;\root\cimv2&quot;)
 
 While (True)
     Set object1 = objWMIService.Get( _

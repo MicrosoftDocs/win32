@@ -123,7 +123,7 @@ SupportsDigestAlgorithm (
     hr = CryptXmlEnumAlgorithmInfo(
         CRYPT_XML_GROUP_ID_HASH,       // NOTE: CRYPT_XML_GROUP_ID_HASH
         CRYPT_XML_FLAG_DISABLE_EXTENSIONS,
-        (void*)&amp;certificateAlgorithmData,
+        (void*)&certificateAlgorithmData,
         EnumDigestMethodCallback);
 
     return certificateAlgorithmData.userDigestAlgorithmSupported;

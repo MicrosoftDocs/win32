@@ -22,7 +22,7 @@ DWORD rc;
 // Call CreateBlob to create a filter blob.
 ///////////////////////////////////////////
 HBLOB hFilterBlob;
-rc = CreateBlob(&amp;hFilterBlob);
+rc = CreateBlob(&hFilterBlob);
 if (FAILED (rc));
 {
   // Failed creating filter BLOB. Add appropriate error handling.
@@ -33,7 +33,7 @@ if (FAILED (rc));
 //////////////////////////////////////////////////
 rc = GetNPPBlobFromUI(hwnd,
                       hFilterBlob,
-                      &amp;hBlob);
+                      &hBlob);
 if (FAILED (rc));
 {
   // Failed retrieving NPP BLOB. Add appropriate error handling.

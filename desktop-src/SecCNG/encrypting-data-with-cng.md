@@ -132,7 +132,7 @@ void __cdecl wmain(
 
     // Open an algorithm handle.
     if(!NT_SUCCESS(status = BCryptOpenAlgorithmProvider(
-                                                &amp;hAesAlg,
+                                                &hAesAlg,
                                                 BCRYPT_AES_ALGORITHM,
                                                 NULL,
                                                 0)))
@@ -145,9 +145,9 @@ void __cdecl wmain(
     if(!NT_SUCCESS(status = BCryptGetProperty(
                                         hAesAlg, 
                                         BCRYPT_OBJECT_LENGTH, 
-                                        (PBYTE)&amp;cbKeyObject, 
+                                        (PBYTE)&cbKeyObject, 
                                         sizeof(DWORD), 
-                                        &amp;cbData, 
+                                        &cbData, 
                                         0)))
     {
         wprintf(L"**** Error 0x%x returned by BCryptGetProperty\n", status);
@@ -166,9 +166,9 @@ void __cdecl wmain(
     if(!NT_SUCCESS(status = BCryptGetProperty(
                                         hAesAlg, 
                                         BCRYPT_BLOCK_LENGTH, 
-                                        (PBYTE)&amp;cbBlockLen, 
+                                        (PBYTE)&cbBlockLen, 
                                         sizeof(DWORD), 
-                                        &amp;cbData, 
+                                        &cbData, 
                                         0)))
     {
         wprintf(L"**** Error 0x%x returned by BCryptGetProperty\n", status);
@@ -209,7 +209,7 @@ void __cdecl wmain(
      // Generate the key from supplied input key bytes.
     if(!NT_SUCCESS(status = BCryptGenerateSymmetricKey(
                                         hAesAlg, 
-                                        &amp;hKey, 
+                                        &hKey, 
                                         pbKeyObject, 
                                         cbKeyObject, 
                                         (PBYTE)rgbAES128Key, 
@@ -228,7 +228,7 @@ void __cdecl wmain(
                                         BCRYPT_OPAQUE_KEY_BLOB,
                                         NULL,
                                         0,
-                                        &amp;cbBlob,
+                                        &cbBlob,
                                         0)))
     {
         wprintf(L"**** Error 0x%x returned by BCryptExportKey\n", status);
@@ -250,7 +250,7 @@ void __cdecl wmain(
                                         BCRYPT_OPAQUE_KEY_BLOB,
                                         pbBlob, 
                                         cbBlob, 
-                                        &amp;cbBlob, 
+                                        &cbBlob, 
                                         0)))
     {
         wprintf(L"**** Error 0x%x returned by BCryptExportKey\n", status);
@@ -279,7 +279,7 @@ void __cdecl wmain(
                                         cbBlockLen,
                                         NULL, 
                                         0, 
-                                        &amp;cbCipherText, 
+                                        &cbCipherText, 
                                         BCRYPT_BLOCK_PADDING)))
     {
         wprintf(L"**** Error 0x%x returned by BCryptEncrypt\n", status);
@@ -304,7 +304,7 @@ void __cdecl wmain(
                                         cbBlockLen, 
                                         pbCipherText, 
                                         cbCipherText, 
-                                        &amp;cbData, 
+                                        &cbData, 
                                         BCRYPT_BLOCK_PADDING)))
     {
         wprintf(L"**** Error 0x%x returned by BCryptEncrypt\n", status);
@@ -338,7 +338,7 @@ void __cdecl wmain(
                                         hAesAlg,
                                         NULL,
                                         BCRYPT_OPAQUE_KEY_BLOB,
-                                        &amp;hKey,
+                                        &hKey,
                                         pbKeyObject,
                                         cbKeyObject,
                                         pbBlob,
@@ -362,7 +362,7 @@ void __cdecl wmain(
                                     cbBlockLen,
                                     NULL, 
                                     0, 
-                                    &amp;cbPlainText, 
+                                    &cbPlainText, 
                                     BCRYPT_BLOCK_PADDING)))
     {
         wprintf(L"**** Error 0x%x returned by BCryptDecrypt\n", status);
@@ -385,7 +385,7 @@ void __cdecl wmain(
                                     cbBlockLen,
                                     pbPlainText, 
                                     cbPlainText, 
-                                    &amp;cbPlainText, 
+                                    &cbPlainText, 
                                     BCRYPT_BLOCK_PADDING)))
     {
         wprintf(L"**** Error 0x%x returned by BCryptDecrypt\n", status);

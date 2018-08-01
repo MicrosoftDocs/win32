@@ -55,7 +55,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -63,7 +63,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -98,7 +98,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -110,7 +110,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -124,7 +124,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         NULL, 
         0, 
         NULL, 
-        &amp;channel, 
+        &channel, 
         error);
     if (FAILED(hr))
     {
@@ -135,7 +135,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         channel,
         NULL, 
         0, 
-        &amp;requestMessage, 
+        &requestMessage, 
         error);
     if (FAILED(hr))
     {
@@ -146,7 +146,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         channel,
         NULL, 
         0, 
-        &amp;replyMessage, 
+        &replyMessage, 
         error);
     if (FAILED(hr))
     {
@@ -190,7 +190,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     address.identity = NULL;
     
     // Open channel to address
-    hr = WsOpenChannel(channel, &amp;address, NULL, error);
+    hr = WsOpenChannel(channel, &address, NULL, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -211,15 +211,15 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         hr = WsRequestReply(
             channel,
             requestMessage, 
-            &amp;PurchaseOrder_wsdl.messages.PurchaseOrder, 
+            &PurchaseOrder_wsdl.messages.PurchaseOrder, 
             WS_WRITE_REQUIRED_VALUE,
-            &amp;purchaseOrder,
+            &purchaseOrder,
             sizeof(purchaseOrder),
             replyMessage, 
-            &amp;PurchaseOrder_wsdl.messages.OrderConfirmation, 
+            &PurchaseOrder_wsdl.messages.OrderConfirmation, 
             WS_READ_REQUIRED_VALUE, 
             heap, 
-            &amp;orderConfirmation, 
+            &orderConfirmation, 
             sizeof(orderConfirmation), 
             NULL, 
             error);
@@ -259,15 +259,15 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         hr = WsRequestReply(
             channel,
             requestMessage, 
-            &amp;PurchaseOrder_wsdl.messages.GetOrderStatus, 
+            &PurchaseOrder_wsdl.messages.GetOrderStatus, 
             WS_WRITE_REQUIRED_VALUE,
-            &amp;getOrderStatus,
+            &getOrderStatus,
             sizeof(getOrderStatus),
             replyMessage, 
-            &amp;PurchaseOrder_wsdl.messages.GetOrderStatusResponse, 
+            &PurchaseOrder_wsdl.messages.GetOrderStatusResponse, 
             WS_READ_REQUIRED_VALUE, 
             heap, 
-            &amp;getOrderStatusResponse, 
+            &getOrderStatusResponse, 
             sizeof(getOrderStatusResponse), 
             NULL, 
             error);
@@ -302,15 +302,15 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         hr = WsRequestReply(
             channel,
             requestMessage, 
-            &amp;PurchaseOrder_wsdl.messages.GetOrderStatus, 
+            &PurchaseOrder_wsdl.messages.GetOrderStatus, 
             WS_WRITE_REQUIRED_VALUE,
-            &amp;getOrderStatus,
+            &getOrderStatus,
             sizeof(getOrderStatus),
             replyMessage, 
-            &amp;PurchaseOrder_wsdl.messages.GetOrderStatusResponse, 
+            &PurchaseOrder_wsdl.messages.GetOrderStatusResponse, 
             WS_READ_REQUIRED_VALUE, 
             heap, 
-            &amp;getOrderStatusResponse, 
+            &getOrderStatusResponse, 
             sizeof(getOrderStatusResponse), 
             NULL, 
             error);
@@ -325,17 +325,17 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
             WS_XML_STRING _faultDetailName = WS_XML_STRING_VALUE("OrderNotFound");
             WS_XML_STRING _faultDetailNs = WS_XML_STRING_VALUE("http://example.com");
             WS_XML_STRING _faultAction = WS_XML_STRING_VALUE("http://example.com/fault");
-            WS_ELEMENT_DESCRIPTION _faultElementDescription = { &amp;_faultDetailName, &amp;_faultDetailNs, WS_UINT32_TYPE, NULL };
-            WS_FAULT_DETAIL_DESCRIPTION orderNotFoundFaultTypeDescription = { &amp;_faultAction, &amp;_faultElementDescription };
+            WS_ELEMENT_DESCRIPTION _faultElementDescription = { &_faultDetailName, &_faultDetailNs, WS_UINT32_TYPE, NULL };
+            WS_FAULT_DETAIL_DESCRIPTION orderNotFoundFaultTypeDescription = { &_faultAction, &_faultElementDescription };
         
             // Try to get the fault detail from the error object
             _OrderNotFoundFaultType* orderNotFound;
             hr = WsGetFaultErrorDetail(
                 error,
-                &amp;orderNotFoundFaultTypeDescription,
+                &orderNotFoundFaultTypeDescription,
                 WS_READ_OPTIONAL_POINTER,
                 heap,
-                &amp;orderNotFound,
+                &orderNotFound,
                 sizeof(orderNotFound));
                 
             if (FAILED(hr))

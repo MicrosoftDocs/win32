@@ -62,21 +62,21 @@ HRESULT ReadExtendedRight(IADs *pObject,
     CComVariant svar;
      
     // Get the nTSecurityDescriptor.
-    hr = pObject->Get(CComBSTR("nTSecurityDescriptor"), &amp;svar);
-    if(SUCCEEDED(hr) &amp;&amp; (VT_DISPATCH == svar.vt))
+    hr = pObject->Get(CComBSTR("nTSecurityDescriptor"), &svar);
+    if(SUCCEEDED(hr) && (VT_DISPATCH == svar.vt))
     {
       CComPtr<IADsSecurityDescriptor> spSD;
         
       // Call the QueryInterface method for the 
       // IADsSecurityDescriptor pointer.
       hr = svar.pdispVal->QueryInterface(IID_IADsSecurityDescriptor,
-                                         (void**)&amp;spSD);
+                                         (void**)&spSD);
         if (SUCCEEDED(hr))
         {
           CComPtr<IDispatch> spDisp;
 
           // Get the DACL.
-          hr = spSD->get_DiscretionaryAcl(&amp;spDisp);
+          hr = spSD->get_DiscretionaryAcl(&spDisp);
           if (SUCCEEDED(hr))
           {
             CComPtr<IADsAccessControlList> spACL;
@@ -84,28 +84,28 @@ HRESULT ReadExtendedRight(IADs *pObject,
             // Call the QueryInterface method for the
             // IADsAccessControlList interface.
             hr = spDisp->QueryInterface(IID_IADsAccessControlList,
-                                        (void**)&amp;spACL);
+                                        (void**)&spACL);
             if (SUCCEEDED(hr))
             {
               CComPtr<IUnknown> spUnk;
               // Enumerate the ACEs in the ACL.
-              hr = spACL->get__NewEnum(&amp;spUnk);
+              hr = spACL->get__NewEnum(&spUnk);
               if (SUCCEEDED(hr))
               {
                 CComPtr<IEnumVARIANT> spEnum;
                 hr = spUnk->QueryInterface(IID_IEnumVARIANT,
-                                           (void**) &amp;spEnum);
+                                           (void**) &spEnum);
                 if (SUCCEEDED(hr))
                 {
                    CComVariant svarACE;
                    ULONG lFetch;
-                   hr = spEnum->Next(1, &amp;svarACE, &amp;lFetch);
+                   hr = spEnum->Next(1, &svarACE, &lFetch);
                    // Loop to read all ACEs on the object.
                    while(S_OK == hr)
                    {
                      // Verify that 1 item is returned and 
                      // returned item is an IDispatch pointer.
-                     if ((lFetch == 1) &amp;&amp; 
+                     if ((lFetch == 1) && 
                          (VT_DISPATCH == svarACE.vt))
                      {
                         CComPtr<IADsAccessControlEntry> spACE;
@@ -114,11 +114,11 @@ HRESULT ReadExtendedRight(IADs *pObject,
                         // read the ACE.
                         hr = 
                           svarACE.pdispVal->QueryInterface(IID_IADsAccessControlEntry,
-                                                           (void**)&amp;spACE);
+                                                           (void**)&spACE);
                         if (SUCCEEDED(hr))
                         {
                           long lAccessMask;
-                          hr = spACE->get_AccessMask(&amp;lAccessMask);
+                          hr = spACE->get_AccessMask(&lAccessMask);
                           // Verify the control access 
                           // right flag as an ACE for
                           // a control access right.
@@ -126,7 +126,7 @@ HRESULT ReadExtendedRight(IADs *pObject,
                               ADS_RIGHT_DS_CONTROL_ACCESS)
                           {
                             long lTypeFlag;
-                            spACE->get_Flags(&amp;lTypeFlag);
+                            spACE->get_Flags(&lTypeFlag);
                             // Verify that this ACE 
                             // applies to an object.
                             if (lTypeFlag & 
@@ -135,7 +135,7 @@ HRESULT ReadExtendedRight(IADs *pObject,
                                CComBSTR sbstrObjectType;
                                // Get the object type 
                                // GUID and print it.
-                               spACE->get_ObjectType(&amp;sbstrObjectType);
+                               spACE->get_ObjectType(&sbstrObjectType);
                                if ( _wcsicmp(sbstrObjectType,
                                              pszRightsGUID) == 0 )
                                {
@@ -147,7 +147,7 @@ HRESULT ReadExtendedRight(IADs *pObject,
                                  wprintf(L"\nObjectType: %S\n", 
                                          sbstrObjectType);
 
-                                 spACE->get_AceType(&amp;lAceType);
+                                 spACE->get_AceType(&lAceType);
                                  if (lAceType == 
                                       ADS_ACETYPE_ACCESS_ALLOWED_OBJECT)
                                  {
@@ -160,7 +160,7 @@ HRESULT ReadExtendedRight(IADs *pObject,
 
                                  // Get the trustee, who the 
                                  // right applies to, and print it.
-                                 spACE->get_Trustee(&amp;sbstrTrustee);
+                                 spACE->get_Trustee(&sbstrTrustee);
                                  wprintf(L"Trustee: %S\n", sbstrTrustee);
                                }
                              }
@@ -169,7 +169,7 @@ HRESULT ReadExtendedRight(IADs *pObject,
                        }
 
                        // Get the next ACE.
-                       hr = spEnum->Next(1, &amp;svarACE, &amp;lFetch);
+                       hr = spEnum->Next(1, &svarACE, &lFetch);
                      }// End of While loop.
                    }
                  }

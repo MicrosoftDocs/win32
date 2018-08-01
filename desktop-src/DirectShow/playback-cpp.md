@@ -57,7 +57,7 @@ HRESULT DShowPlayer::OpenFile(PCWSTR pszFileName)
     }
     
     // Add the source filter to the graph.
-    hr = m_pGraph->AddSourceFilter(pszFileName, NULL, &amp;pSource);
+    hr = m_pGraph->AddSourceFilter(pszFileName, NULL, &pSource);
     if (FAILED(hr))
     {
         goto done;
@@ -71,7 +71,7 @@ done:
     {
         TearDownGraph();
     }
-    SafeRelease(&amp;pSource);
+    SafeRelease(&pSource);
     return hr;
 }
 
@@ -96,7 +96,7 @@ HRESULT DShowPlayer::HandleGraphEvent(GraphEventFN pfnOnGraphEvent)
     HRESULT hr = S_OK;
 
     // Get the events from the queue.
-    while (SUCCEEDED(m_pEvent->GetEvent(&amp;evCode, &amp;param1, &amp;param2, 0)))
+    while (SUCCEEDED(m_pEvent->GetEvent(&evCode, &param1, &param2, 0)))
     {
         // Invoke the callback.
         pfnOnGraphEvent(m_hwnd, evCode, param1, param2);
@@ -113,7 +113,7 @@ HRESULT DShowPlayer::HandleGraphEvent(GraphEventFN pfnOnGraphEvent)
 
 HRESULT DShowPlayer::Play()
 {
-    if (m_state != STATE_PAUSED &amp;&amp; m_state != STATE_STOPPED)
+    if (m_state != STATE_PAUSED && m_state != STATE_STOPPED)
     {
         return VFW_E_WRONG_STATE;
     }
@@ -143,7 +143,7 @@ HRESULT DShowPlayer::Pause()
 
 HRESULT DShowPlayer::Stop()
 {
-    if (m_state != STATE_RUNNING &amp;&amp; m_state != STATE_PAUSED)
+    if (m_state != STATE_RUNNING && m_state != STATE_PAUSED)
     {
         return VFW_E_WRONG_STATE;
     }
@@ -161,7 +161,7 @@ HRESULT DShowPlayer::Stop()
 
 BOOL DShowPlayer::HasVideo() const 
 { 
-    return (m_pVideo &amp;&amp; m_pVideo->HasVideo()); 
+    return (m_pVideo && m_pVideo->HasVideo()); 
 }
 
 // Sets the destination rectangle for the video.
@@ -219,19 +219,19 @@ HRESULT DShowPlayer::InitializeGraph()
 
     // Create the Filter Graph Manager.
     HRESULT hr = CoCreateInstance(CLSID_FilterGraph, NULL, 
-        CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&amp;m_pGraph));
+        CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&m_pGraph));
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = m_pGraph->QueryInterface(IID_PPV_ARGS(&amp;m_pControl));
+    hr = m_pGraph->QueryInterface(IID_PPV_ARGS(&m_pControl));
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = m_pGraph->QueryInterface(IID_PPV_ARGS(&amp;m_pEvent));
+    hr = m_pGraph->QueryInterface(IID_PPV_ARGS(&m_pEvent));
     if (FAILED(hr))
     {
         goto done;
@@ -258,9 +258,9 @@ void DShowPlayer::TearDownGraph()
         m_pEvent->SetNotifyWindow((OAHWND)NULL, NULL, NULL);
     }
 
-    SafeRelease(&amp;m_pGraph);
-    SafeRelease(&amp;m_pControl);
-    SafeRelease(&amp;m_pEvent);
+    SafeRelease(&m_pGraph);
+    SafeRelease(&m_pControl);
+    SafeRelease(&m_pEvent);
 
     delete m_pVideo;
     m_pVideo = NULL;
@@ -320,7 +320,7 @@ HRESULT DShowPlayer::RenderStreams(IBaseFilter *pSource)
     IFilterGraph2 *pGraph2 = NULL;
     IEnumPins *pEnum = NULL;
     IBaseFilter *pAudioRenderer = NULL;
-    HRESULT hr = m_pGraph->QueryInterface(IID_PPV_ARGS(&amp;pGraph2));
+    HRESULT hr = m_pGraph->QueryInterface(IID_PPV_ARGS(&pGraph2));
     if (FAILED(hr))
     {
         goto done;
@@ -335,14 +335,14 @@ HRESULT DShowPlayer::RenderStreams(IBaseFilter *pSource)
 
     // Add the DSound Renderer to the graph.
     hr = AddFilterByCLSID(m_pGraph, CLSID_DSoundRender, 
-        &amp;pAudioRenderer, L"Audio Renderer");
+        &pAudioRenderer, L"Audio Renderer");
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Enumerate the pins on the source filter.
-    hr = pSource->EnumPins(&amp;pEnum);
+    hr = pSource->EnumPins(&pEnum);
     if (FAILED(hr))
     {
         goto done;
@@ -350,7 +350,7 @@ HRESULT DShowPlayer::RenderStreams(IBaseFilter *pSource)
 
     // Loop through all the pins
     IPin *pPin;
-    while (S_OK == pEnum->Next(1, &amp;pPin, NULL))
+    while (S_OK == pEnum->Next(1, &pPin, NULL))
     {           
         // Try to render this pin. 
         // It's OK if we fail some pins, if at least one pin renders.
@@ -371,12 +371,12 @@ HRESULT DShowPlayer::RenderStreams(IBaseFilter *pSource)
 
     // Remove the audio renderer, if not used.
     BOOL bRemoved;
-    hr = RemoveUnconnectedRenderer(m_pGraph, pAudioRenderer, &amp;bRemoved);
+    hr = RemoveUnconnectedRenderer(m_pGraph, pAudioRenderer, &bRemoved);
 
 done:
-    SafeRelease(&amp;pEnum);
-    SafeRelease(&amp;pAudioRenderer);
-    SafeRelease(&amp;pGraph2);
+    SafeRelease(&pEnum);
+    SafeRelease(&pAudioRenderer);
+    SafeRelease(&pGraph2);
 
     // If we succeeded to this point, make sure we rendered at least one 
     // stream.

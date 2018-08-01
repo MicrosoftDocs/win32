@@ -71,7 +71,7 @@ LONG     lLe;
 HRESULT  hr;
 
 // Retrieve the Le field value.
-hr = pISCardCmd->get_LeField(&amp;lLe);
+hr = pISCardCmd->get_LeField(&lLe);
 if (FAILED(hr))
 {
     printf("Failed get_LeField\n");

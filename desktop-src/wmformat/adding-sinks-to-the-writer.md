@@ -38,11 +38,11 @@ HRESULT AddFileSink(IWMWriterFileSink** ppFileSink, IWMWriter* pWriter)
     GOTO_EXIT_IF_FAILED(hr);
 
     hr = *ppFileSink->QueryInterface(IID_IWMWriterSink, 
-                                     (void**) &amp;pSinkBase);
+                                     (void**) &pSinkBase);
     GOTO_EXIT_IF_FAILED(hr);
 
     hr = pWriter->QueryInterface(IID_IWMWriterAdvanced,
-                                 (void**) &amp;pWriterAdvanced);
+                                 (void**) &pWriterAdvanced);
     GOTO_EXIT_IF_FAILED(hr);
 
     hr = pWriterAdvanced->AddSink(pSinkBase);

@@ -72,7 +72,7 @@ HRESULT InitializeWindowlessVMR(
 
     // Create the VMR and add it to the filter graph.
     HRESULT hr = CoCreateInstance(CLSID_VideoMixingRenderer, NULL,
-       CLSCTX_INPROC, IID_IBaseFilter, (void**)&amp;pVmr);
+       CLSCTX_INPROC, IID_IBaseFilter, (void**)&pVmr);
     if (FAILED(hr))
     {
         return hr;
@@ -86,7 +86,7 @@ HRESULT InitializeWindowlessVMR(
 
     // Set the rendering mode and number of streams.  
     IVMRFilterConfig* pConfig;
-    hr = pVmr->QueryInterface(IID_IVMRFilterConfig, (void**)&amp;pConfig);
+    hr = pVmr->QueryInterface(IID_IVMRFilterConfig, (void**)&pConfig);
     if (SUCCEEDED(hr)) 
     {
         pConfig->SetRenderingMode(VMRMode_Windowless);
@@ -100,7 +100,7 @@ HRESULT InitializeWindowlessVMR(
         }
         pConfig->Release();
 
-        hr = pVmr->QueryInterface(IID_IVMRWindowlessControl, (void**)&amp;pWc);
+        hr = pVmr->QueryInterface(IID_IVMRWindowlessControl, (void**)&pWc);
         if (SUCCEEDED(hr)) 
         {
             pWc->SetVideoClippingWindow(hwndApp);

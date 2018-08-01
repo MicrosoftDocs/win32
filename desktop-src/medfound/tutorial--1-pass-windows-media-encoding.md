@@ -178,7 +178,7 @@ HRESULT CreateMediaSource(PCWSTR sURL, IMFMediaSource **ppSource)
     IUnknown* pSource = NULL;
 
     // Create the source resolver.
-    HRESULT hr = MFCreateSourceResolver(&amp;pSourceResolver);
+    HRESULT hr = MFCreateSourceResolver(&pSourceResolver);
     if (FAILED(hr))
     {
         goto done;
@@ -195,8 +195,8 @@ HRESULT CreateMediaSource(PCWSTR sURL, IMFMediaSource **ppSource)
         sURL,                       // URL of the source.
         MF_RESOLUTION_MEDIASOURCE,  // Create a source object.
         NULL,                       // Optional property store.
-        &amp;ObjectType,        // Receives the created object type. 
-        &amp;pSource            // Receives a pointer to the media source.
+        &ObjectType,        // Receives the created object type. 
+        &pSource            // Receives a pointer to the media source.
         );
     if (FAILED(hr))
     {
@@ -207,8 +207,8 @@ HRESULT CreateMediaSource(PCWSTR sURL, IMFMediaSource **ppSource)
     hr = pSource->QueryInterface(IID_PPV_ARGS(ppSource));
 
 done:
-    SafeRelease(&amp;pSourceResolver);
-    SafeRelease(&amp;pSource);
+    SafeRelease(&pSourceResolver);
+    SafeRelease(&pSource);
     return hr;
 }
 ```
@@ -291,14 +291,14 @@ The following steps describe the process of creating the ASF profile and the tar
         IMFASFStreamConfig* pAudioStream = NULL;
         
         //Create an output type from the encoder
-        HRESULT hr = GetOutputTypeFromWMAEncoder(&amp;pAudioType);
+        HRESULT hr = GetOutputTypeFromWMAEncoder(&pAudioType);
         if (FAILED(hr))
         {
             goto done;
         }
         
         //Create a new stream with the audio type
-        hr = pProfile->CreateStream(pAudioType, &amp;pAudioStream);
+        hr = pProfile->CreateStream(pAudioType, &pAudioStream);
         if (FAILED(hr))
         {
             goto done;
@@ -321,8 +321,8 @@ The following steps describe the process of creating the ASF profile and the tar
         wprintf_s(L"Audio Stream created. Stream Number: %d.\n", wStreamNumber);
 
     done:
-        SafeRelease(&amp;pAudioStream);
-        SafeRelease(&amp;pAudioType);
+        SafeRelease(&pAudioStream);
+        SafeRelease(&pAudioType);
         return hr;
     }
     ```
@@ -361,14 +361,14 @@ The following steps describe the process of creating the ASF profile and the tar
         UINT32 dwBitRate = 0;
             
         //Create a new video type from the source type
-        hr = CreateCompressedVideoType(pType, &amp;pVideoType);
+        hr = CreateCompressedVideoType(pType, &pVideoType);
         if (FAILED(hr))
         {
             goto done;
         }
 
         //Create a new stream with the video type
-        hr = pProfile->CreateStream(pVideoType, &amp;pVideoStream);
+        hr = pProfile->CreateStream(pVideoType, &pVideoStream);
         if (FAILED(hr))
         {
             goto done;
@@ -393,8 +393,8 @@ The following steps describe the process of creating the ASF profile and the tar
 
     done:
 
-        SafeRelease(&amp;pVideoStream);
-        SafeRelease(&amp;pVideoType);
+        SafeRelease(&pVideoStream);
+        SafeRelease(&pVideoType);
 
         return hr;
     }
@@ -410,7 +410,7 @@ The following code example creates output streams depending on the streams in th
     for (DWORD iStream = 0; iStream < dwSrcStream; iStream++)
     {
         hr = pPD->GetStreamDescriptorByIndex(
-            iStream, &amp;fSelected, &amp;pStreamDesc);
+            iStream, &fSelected, &pStreamDesc);
         if (FAILED(hr))
         {
             goto done;
@@ -422,21 +422,21 @@ The following code example creates output streams depending on the streams in th
         }
 
         //Get the media type handler
-        hr = pStreamDesc->GetMediaTypeHandler(&amp;pHandler);
+        hr = pStreamDesc->GetMediaTypeHandler(&pHandler);
         if (FAILED(hr))
         {
             goto done;
         }
 
         //Get the first media type 
-        hr = pHandler->GetMediaTypeByIndex(0, &amp;pMediaType);
+        hr = pHandler->GetMediaTypeByIndex(0, &pMediaType);
         if (FAILED(hr))
         {
             goto done;
         }
 
         //Get the major type
-        hr = pMediaType->GetMajorType(&amp;guidMajor);
+        hr = pMediaType->GetMajorType(&guidMajor);
         if (FAILED(hr))
         {
             goto done;
@@ -467,7 +467,7 @@ The following code example creates output streams depending on the streams in th
         }
 
         //Get stream's encoding property
-        hr = pContentInfo->GetEncodingConfigurationPropertyStore(wStreamID, &amp;pContentInfoProps);
+        hr = pContentInfo->GetEncodingConfigurationPropertyStore(wStreamID, &pContentInfoProps);
         if (FAILED(hr))
         {
             goto done;
@@ -481,9 +481,9 @@ The following code example creates output streams depending on the streams in th
         }
 
 
-        SafeRelease(&amp;pMediaType);
-        SafeRelease(&amp;pStreamDesc);
-        SafeRelease(&amp;pContentInfoProps);
+        SafeRelease(&pMediaType);
+        SafeRelease(&pStreamDesc);
+        SafeRelease(&pContentInfoProps);
         wStreamID++;
     }
 ```
@@ -545,10 +545,10 @@ HRESULT GetOutputTypeFromWMAEncoder(IMFMediaType** ppAudioType)
         MFT_CATEGORY_AUDIO_ENCODER,
         0,                  // Reserved
         NULL,                // Input type to match. None.
-        &amp;tinfo,             // WMV encoded type.
+        &tinfo,             // WMV encoded type.
         NULL,               // Attributes to match. (None.)
-        &amp;pMFTCLSIDs,        // Receives a pointer to an array of CLSIDs.
-        &amp;cCLSID             // Receives the size of the array.
+        &pMFTCLSIDs,        // Receives a pointer to an array of CLSIDs.
+        &cCLSID             // Receives the size of the array.
         );
     if (FAILED(hr))
     {
@@ -565,7 +565,7 @@ HRESULT GetOutputTypeFromWMAEncoder(IMFMediaType** ppAudioType)
     {
         // Create the MFT decoder
         hr = CoCreateInstance(pMFTCLSIDs[0], NULL,
-            CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&amp;pMFT));
+            CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&pMFT));
 
         if (FAILED(hr))
         {
@@ -576,7 +576,7 @@ HRESULT GetOutputTypeFromWMAEncoder(IMFMediaType** ppAudioType)
 
     // Get the encoder's property store
 
-    hr = pMFT->QueryInterface(IID_PPV_ARGS(&amp;pProps));
+    hr = pMFT->QueryInterface(IID_PPV_ARGS(&pProps));
     if (FAILED(hr))
     {
         goto done;
@@ -592,7 +592,7 @@ HRESULT GetOutputTypeFromWMAEncoder(IMFMediaType** ppAudioType)
     //Get the first output type
     //You can loop through the available output types to choose 
     //the one that meets your target requirements
-    hr = pMFT->GetOutputAvailableType(0, 0, &amp;pType);
+    hr = pMFT->GetOutputAvailableType(0, 0, &pType);
     if (FAILED(hr))
     {
         goto done;
@@ -603,9 +603,9 @@ HRESULT GetOutputTypeFromWMAEncoder(IMFMediaType** ppAudioType)
     (*ppAudioType)->AddRef();
     
 done:
-    SafeRelease(&amp;pProps);
-    SafeRelease(&amp;pType);
-    SafeRelease(&amp;pMFT);
+    SafeRelease(&pProps);
+    SafeRelease(&pType);
+    SafeRelease(&pMFT);
     CoTaskMemFree(pMFTCLSIDs);
     return hr;
 }
@@ -668,7 +668,7 @@ There are two ways you can create a complete video media type.
 
         GUID guidMajor = GUID_NULL;
 
-        hr = pType->GetMajorType(&amp;guidMajor);
+        hr = pType->GetMajorType(&guidMajor);
         if (FAILED(hr))
         {
             goto done;
@@ -680,7 +680,7 @@ There are two ways you can create a complete video media type.
             goto done;
         }
 
-        hr = MFCreateMediaType(&amp;pMediaType);
+        hr = MFCreateMediaType(&pMediaType);
         if (FAILED(hr))
         {
             goto done;
@@ -694,7 +694,7 @@ There are two ways you can create a complete video media type.
 
         //Fill the missing attributes
         //1. Frame rate
-        hr = MFGetAttributeRatio(pMediaType, MF_MT_FRAME_RATE, (UINT32*)&amp;fps.Numerator, (UINT32*)&amp;fps.Denominator);
+        hr = MFGetAttributeRatio(pMediaType, MF_MT_FRAME_RATE, (UINT32*)&fps.Numerator, (UINT32*)&fps.Denominator);
         if (hr == MF_E_ATTRIBUTENOTFOUND)
         {
             fps.Numerator = 30000;
@@ -708,7 +708,7 @@ There are two ways you can create a complete video media type.
         }
 
         ////2. Frame size
-        hr = MFGetAttributeSize(pMediaType, MF_MT_FRAME_SIZE, &amp;width, &amp;height);
+        hr = MFGetAttributeSize(pMediaType, MF_MT_FRAME_SIZE, &width, &height);
         if (hr == MF_E_ATTRIBUTENOTFOUND)
         {
             width = 1280;
@@ -723,7 +723,7 @@ There are two ways you can create a complete video media type.
 
         ////3. Interlace mode
         
-        if (FAILED(pMediaType->GetUINT32(MF_MT_INTERLACE_MODE, &amp;interlace)))
+        if (FAILED(pMediaType->GetUINT32(MF_MT_INTERLACE_MODE, &interlace)))
         {
             hr = pMediaType->SetUINT32(MF_MT_INTERLACE_MODE, MFVideoInterlace_Progressive);
             if (FAILED(hr))
@@ -734,7 +734,7 @@ There are two ways you can create a complete video media type.
         }
 
         ////4. Pixel aspect Ratio
-        hr = MFGetAttributeRatio(pMediaType, MF_MT_PIXEL_ASPECT_RATIO, (UINT32*)&amp;par.Numerator, (UINT32*)&amp;par.Denominator);
+        hr = MFGetAttributeRatio(pMediaType, MF_MT_PIXEL_ASPECT_RATIO, (UINT32*)&par.Numerator, (UINT32*)&par.Denominator);
         if (hr == MF_E_ATTRIBUTENOTFOUND)
         {
             par.Numerator = par.Denominator = 1;
@@ -747,7 +747,7 @@ There are two ways you can create a complete video media type.
         }
 
         //6. bit rate
-        if (FAILED(pMediaType->GetUINT32(MF_MT_AVG_BITRATE, &amp;cBitrate)))
+        if (FAILED(pMediaType->GetUINT32(MF_MT_AVG_BITRATE, &cBitrate)))
         {
             hr = pMediaType->SetUINT32(MF_MT_AVG_BITRATE, 1000000);
             if (FAILED(hr))
@@ -769,7 +769,7 @@ There are two ways you can create a complete video media type.
 
 
     done:
-        SafeRelease(&amp;pMediaType);
+        SafeRelease(&pMediaType);
         return hr;
     }
     
@@ -826,10 +826,10 @@ There are two ways you can create a complete video media type.
             MFT_CATEGORY_VIDEO_ENCODER,
             0,                  // Reserved
             NULL,               // Input type to match. None.
-            &amp;tinfo,             // WMV encoded type.
+            &tinfo,             // WMV encoded type.
             NULL,               // Attributes to match. (None.)
-            &amp;pMFTCLSIDs,        // Receives a pointer to an array of CLSIDs.
-            &amp;cCLSID             // Receives the size of the array.
+            &pMFTCLSIDs,        // Receives a pointer to an array of CLSIDs.
+            &cCLSID             // Receives the size of the array.
             );
         if (FAILED(hr))
         {
@@ -846,7 +846,7 @@ There are two ways you can create a complete video media type.
         {
             //Create the MFT decoder
             hr = CoCreateInstance(pMFTCLSIDs[0], NULL,
-                CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&amp;pMFT));
+                CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&pMFT));
             if (FAILED(hr))
             {
                 goto done;
@@ -855,7 +855,7 @@ There are two ways you can create a complete video media type.
         }
         
         //Get the video encoder property store
-        hr = pMFT->QueryInterface(IID_PPV_ARGS(&amp;pProps));
+        hr = pMFT->QueryInterface(IID_PPV_ARGS(&pProps));
         if (FAILED(hr))
         {
             goto done;
@@ -868,7 +868,7 @@ There are two ways you can create a complete video media type.
             goto done;
         }
 
-        hr = CreateUncompressedVideoType(pType, &amp;pInputType);
+        hr = CreateUncompressedVideoType(pType, &pInputType);
         if (FAILED(hr))
         {
             goto done;
@@ -879,13 +879,13 @@ There are two ways you can create a complete video media type.
         //Get the first output type
         //You can loop through the available output types to choose 
         //the one that meets your target requirements
-        hr =  pMFT->GetOutputAvailableType(0, 0, &amp;pOutputType);
+        hr =  pMFT->GetOutputAvailableType(0, 0, &pOutputType);
         if (FAILED(hr))
         {
             goto done;
         }
         
-        hr = pType->GetUINT32(MF_MT_AVG_BITRATE, &amp;cBitrate);
+        hr = pType->GetUINT32(MF_MT_AVG_BITRATE, &cBitrate);
         if (FAILED(hr))
         {
             goto done;
@@ -909,10 +909,10 @@ There are two ways you can create a complete video media type.
         (*ppVideoType)->AddRef();
         
     done:
-        SafeRelease(&amp;pProps);
-        SafeRelease(&amp;pOutputType);
-        SafeRelease(&amp;pInputType);
-        SafeRelease(&amp;pMFT);
+        SafeRelease(&pProps);
+        SafeRelease(&pOutputType);
+        SafeRelease(&pInputType);
+        SafeRelease(&pMFT);
         CoTaskMemFree(pMFTCLSIDs);
         return hr;
     }
@@ -952,7 +952,7 @@ There are two ways you can create a complete video media type.
 
         GUID guidMajor = GUID_NULL;
 
-        HRESULT hr = pType->GetMajorType(&amp;guidMajor);
+        HRESULT hr = pType->GetMajorType(&guidMajor);
         if (FAILED(hr))
         {
             goto done;
@@ -964,14 +964,14 @@ There are two ways you can create a complete video media type.
             goto done;
         }
 
-        hr = MFGetAttributeRatio(pType, MF_MT_FRAME_RATE, (UINT32*)&amp;fps.Numerator, (UINT32*)&amp;fps.Denominator);
+        hr = MFGetAttributeRatio(pType, MF_MT_FRAME_RATE, (UINT32*)&fps.Numerator, (UINT32*)&fps.Denominator);
         if (hr == MF_E_ATTRIBUTENOTFOUND)
         {
             fps.Numerator = 30000;
             fps.Denominator = 1001;
 
         }
-        hr = MFGetAttributeSize(pType, MF_MT_FRAME_SIZE, &amp;width, &amp;height);
+        hr = MFGetAttributeSize(pType, MF_MT_FRAME_SIZE, &width, &height);
         if (hr == MF_E_ATTRIBUTENOTFOUND)
         {
             width = 1280;
@@ -981,7 +981,7 @@ There are two ways you can create a complete video media type.
 
         interlace = MFGetAttributeUINT32(pType, MF_MT_INTERLACE_MODE, MFVideoInterlace_Progressive);
 
-        hr = MFGetAttributeRatio(pType, MF_MT_PIXEL_ASPECT_RATIO, (UINT32*)&amp;par.Numerator, (UINT32*)&amp;par.Denominator);
+        hr = MFGetAttributeRatio(pType, MF_MT_PIXEL_ASPECT_RATIO, (UINT32*)&par.Numerator, (UINT32*)&par.Denominator);
         if (FAILED(hr))
         {
             par.Numerator = par.Denominator = 1;
@@ -989,7 +989,7 @@ There are two ways you can create a complete video media type.
 
         cBitrate = MFGetAttributeUINT32(pType, MF_MT_AVG_BITRATE, 1000000);
 
-        hr = MFCreateMediaType(&amp;pMediaType);
+        hr = MFCreateMediaType(&pMediaType);
         if (FAILED(hr))
         {
             goto done;
@@ -1038,7 +1038,7 @@ There are two ways you can create a complete video media type.
 
 
     done:
-        SafeRelease(&amp;pMediaType);
+        SafeRelease(&pMediaType);
         return hr;
     }
     ```
@@ -1072,17 +1072,17 @@ There are two ways you can create a complete video media type.
         hr = MFInitAMMediaTypeFromMFMediaType(
             pTypeOut, 
             FORMAT_VideoInfo, 
-            (AM_MEDIA_TYPE*)&amp;mtOut
+            (AM_MEDIA_TYPE*)&mtOut
             );
         
         if (SUCCEEDED(hr))
         {
-            hr = pMFT->QueryInterface(IID_PPV_ARGS(&amp;pPrivData));
+            hr = pMFT->QueryInterface(IID_PPV_ARGS(&pPrivData));
         }
 
         if (SUCCEEDED(hr))
         {
-            hr = pPrivData->SetPartialOutputType(&amp;mtOut);
+            hr = pPrivData->SetPartialOutputType(&mtOut);
         }
 
         //
@@ -1092,7 +1092,7 @@ There are two ways you can create a complete video media type.
         // First get the buffer size.
         if (SUCCEEDED(hr))
         {
-            hr = pPrivData->GetPrivateData(NULL, &amp;cbData);
+            hr = pPrivData->GetPrivateData(NULL, &cbData);
         }
 
         if (SUCCEEDED(hr))
@@ -1108,7 +1108,7 @@ There are two ways you can create a complete video media type.
         // Now get the data.
         if (SUCCEEDED(hr))
         {
-            hr = pPrivData->GetPrivateData(pData, &amp;cbData);
+            hr = pPrivData->GetPrivateData(pData, &cbData);
         }
 
         // Add the data to the media type.
@@ -1118,8 +1118,8 @@ There are two ways you can create a complete video media type.
         }
 
         delete [] pData;
-        MoFreeMediaType(&amp;mtOut);
-        SafeRelease(&amp;pPrivData);
+        MoFreeMediaType(&mtOut);
+        SafeRelease(&pPrivData);
         return hr;
     }
     ```
@@ -1136,7 +1136,7 @@ The ASF ContentInfo object is a WMContainer level component that is primarily de
 
     ```C++
         // Create an empty ContentInfo object
-        hr = MFCreateASFContentInfo(&amp;pContentInfo);
+        hr = MFCreateASFContentInfo(&pContentInfo);
         if (FAILED(hr))
         {
             goto done;
@@ -1153,7 +1153,7 @@ The ASF ContentInfo object is a WMContainer level component that is primarily de
 
     ```C++
             //Get stream's encoding property
-            hr = pContentInfo->GetEncodingConfigurationPropertyStore(wStreamID, &amp;pContentInfoProps);
+            hr = pContentInfo->GetEncodingConfigurationPropertyStore(wStreamID, &pContentInfoProps);
             if (FAILED(hr))
             {
                 goto done;
@@ -1203,7 +1203,7 @@ The ASF ContentInfo object is a WMContainer level component that is primarily de
         {
             case CBR:
                 // Set VBR to false.
-                hr = InitPropVariantFromBoolean(FALSE, &amp;var);
+                hr = InitPropVariantFromBoolean(FALSE, &var);
                 if (FAILED(hr))
                 {
                     goto done;
@@ -1218,7 +1218,7 @@ The ASF ContentInfo object is a WMContainer level component that is primarily de
                 // Set the video buffer window.
                 if (guidMT == MFMediaType_Video)
                 {
-                    hr = InitPropVariantFromInt32(VIDEO_WINDOW_MSEC, &amp;var);
+                    hr = InitPropVariantFromInt32(VIDEO_WINDOW_MSEC, &var);
                     if (FAILED(hr))
                     {
                         goto done;
@@ -1234,7 +1234,7 @@ The ASF ContentInfo object is a WMContainer level component that is primarily de
 
             case VBR:
                 //Set VBR to true.
-                hr = InitPropVariantFromBoolean(TRUE, &amp;var);
+                hr = InitPropVariantFromBoolean(TRUE, &var);
                 if (FAILED(hr))
                 {
                     goto done;
@@ -1248,7 +1248,7 @@ The ASF ContentInfo object is a WMContainer level component that is primarily de
 
                 // Number of encoding passes is 1.
 
-                hr = InitPropVariantFromInt32(1, &amp;var);
+                hr = InitPropVariantFromInt32(1, &var);
                 if (FAILED(hr))
                 {
                     goto done;
@@ -1264,7 +1264,7 @@ The ASF ContentInfo object is a WMContainer level component that is primarily de
 
                 if (guidMT == MFMediaType_Audio)
                 {
-                    hr = InitPropVariantFromUInt32(98, &amp;var);
+                    hr = InitPropVariantFromUInt32(98, &var);
                     if (FAILED(hr))
                     {
                         goto done;
@@ -1278,7 +1278,7 @@ The ASF ContentInfo object is a WMContainer level component that is primarily de
                 }
                 else if (guidMT == MFMediaType_Video)
                 {
-                    hr = InitPropVariantFromUInt32(95, &amp;var);
+                    hr = InitPropVariantFromUInt32(95, &var);
                     if (FAILED(hr))
                     {
                         goto done;
@@ -1298,7 +1298,7 @@ The ASF ContentInfo object is a WMContainer level component that is primarily de
         }    
 
     done:
-        PropVariantClear(&amp;var);
+        PropVariantClear(&var);
         return hr;
     }
     ```
@@ -1312,7 +1312,7 @@ The ASF ContentInfo object is a WMContainer level component that is primarily de
 
     ```C++
         //Now we need to set global properties that will be set on the media sink
-        hr = pContentInfo->GetEncodingConfigurationPropertyStore(0, &amp;pContentInfoProps);
+        hr = pContentInfo->GetEncodingConfigurationPropertyStore(0, &pContentInfoProps);
         if (FAILED(hr))
         {
             goto done;
@@ -1352,7 +1352,7 @@ The following code example creates the activation object for the file sink.
 
 ```C++
     //Create the activation object for the  file sink
-    hr = MFCreateASFMediaSinkActivate(sURL, pContentInfo, &amp;pActivate);
+    hr = MFCreateASFMediaSinkActivate(sURL, pContentInfo, &pActivate);
     if (FAILED(hr))
     {
         goto done;
@@ -1426,20 +1426,20 @@ HRESULT BuildPartialTopology(
 
 
     //Create the topology that represents the encoding pipeline
-    hr = MFCreateTopology (&amp;pTopology);
+    hr = MFCreateTopology (&pTopology);
     if (FAILED(hr))
     {
         goto done;
     }
 
         
-    hr = pSource->CreatePresentationDescriptor(&amp;pPD);
+    hr = pSource->CreatePresentationDescriptor(&pPD);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pPD->GetStreamDescriptorCount(&amp;dwSrcStream);
+    hr = pPD->GetStreamDescriptorCount(&dwSrcStream);
     if (FAILED(hr))
     {
         goto done;
@@ -1448,7 +1448,7 @@ HRESULT BuildPartialTopology(
     for (DWORD iStream = 0; iStream < dwSrcStream; iStream++)
     {
         hr = pPD->GetStreamDescriptorByIndex(
-            iStream, &amp;fSelected, &amp;pStreamDesc);
+            iStream, &fSelected, &pStreamDesc);
         if (FAILED(hr))
         {
             goto done;
@@ -1459,37 +1459,37 @@ HRESULT BuildPartialTopology(
             continue;
         }
 
-        hr = AddSourceNode(pTopology, pSource, pPD, pStreamDesc, &amp;pSrcNode);
+        hr = AddSourceNode(pTopology, pSource, pPD, pStreamDesc, &pSrcNode);
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = pStreamDesc->GetMediaTypeHandler (&amp;pMediaTypeHandler);
+        hr = pStreamDesc->GetMediaTypeHandler (&pMediaTypeHandler);
         if (FAILED(hr))
         {
             goto done;
         }
         
-        hr = pStreamDesc->GetStreamIdentifier(&amp;StreamID);
+        hr = pStreamDesc->GetStreamIdentifier(&StreamID);
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = pMediaTypeHandler->GetMediaTypeByIndex(0, &amp;pSrcType);
+        hr = pMediaTypeHandler->GetMediaTypeByIndex(0, &pSrcType);
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = pSrcType->GetMajorType(&amp;guidMajor);
+        hr = pSrcType->GetMajorType(&guidMajor);
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = AddTransformOutputNodes(pTopology, pSinkActivate, pSrcType, &amp;pEncoderNode);
+        hr = AddTransformOutputNodes(pTopology, pSinkActivate, pSrcType, &pEncoderNode);
         if (FAILED(hr))
         {
             goto done;
@@ -1503,11 +1503,11 @@ HRESULT BuildPartialTopology(
         }
                 
 
-        SafeRelease(&amp;pStreamDesc);
-        SafeRelease(&amp;pMediaTypeHandler);
-        SafeRelease(&amp;pSrcType);
-        SafeRelease(&amp;pEncoderNode);
-        SafeRelease(&amp;pOutputNode);
+        SafeRelease(&pStreamDesc);
+        SafeRelease(&pMediaTypeHandler);
+        SafeRelease(&pSrcType);
+        SafeRelease(&pEncoderNode);
+        SafeRelease(&pOutputNode);
         guidMajor = GUID_NULL;
     }
 
@@ -1518,12 +1518,12 @@ HRESULT BuildPartialTopology(
     wprintf_s(L"Partial Topology Built.\n");
 
 done:
-    SafeRelease(&amp;pStreamDesc);
-    SafeRelease(&amp;pMediaTypeHandler);
-    SafeRelease(&amp;pSrcType);
-    SafeRelease(&amp;pEncoderNode);
-    SafeRelease(&amp;pOutputNode);
-    SafeRelease(&amp;pTopology);
+    SafeRelease(&pStreamDesc);
+    SafeRelease(&pMediaTypeHandler);
+    SafeRelease(&pSrcType);
+    SafeRelease(&pEncoderNode);
+    SafeRelease(&pOutputNode);
+    SafeRelease(&pTopology);
 
     return hr;
 }
@@ -1546,7 +1546,7 @@ HRESULT AddSourceNode(
     IMFTopologyNode *pNode = NULL;
 
     // Create the node.
-    HRESULT hr = MFCreateTopologyNode(MF_TOPOLOGY_SOURCESTREAM_NODE, &amp;pNode);
+    HRESULT hr = MFCreateTopologyNode(MF_TOPOLOGY_SOURCESTREAM_NODE, &pNode);
     if (FAILED(hr))
     {
         goto done;
@@ -1583,7 +1583,7 @@ HRESULT AddSourceNode(
     (*ppNode)->AddRef();
 
 done:
-    SafeRelease(&amp;pNode);
+    SafeRelease(&pNode);
     return hr;
 }
 ```
@@ -1683,41 +1683,41 @@ HRESULT AddTransformOutputNodes(
 
     HRESULT hr = S_OK;
         
-    hr = pSourceType->GetMajorType(&amp;guidMajor);
+    hr = pSourceType->GetMajorType(&guidMajor);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Create the node.
-    hr = MFCreateTopologyNode(MF_TOPOLOGY_TRANSFORM_NODE, &amp;pEncNode);
+    hr = MFCreateTopologyNode(MF_TOPOLOGY_TRANSFORM_NODE, &pEncNode);
     if (FAILED(hr))
     {
         goto done;
     }
     
     //Activate the sink
-    hr = pSinkActivate->ActivateObject(__uuidof(IMFMediaSink), (void**)&amp;pSink);
+    hr = pSinkActivate->ActivateObject(__uuidof(IMFMediaSink), (void**)&pSink);
     if (FAILED(hr))
     {
         goto done;
     }
     //find the media type in the sink
     //Get content info from the sink
-    hr = pSink->QueryInterface(__uuidof(IMFASFContentInfo), (void**)&amp;pContentInfo);
+    hr = pSink->QueryInterface(__uuidof(IMFASFContentInfo), (void**)&pContentInfo);
     if (FAILED(hr))
     {
         goto done;
     }
     
 
-    hr = pContentInfo->GetProfile(&amp;pProfile);
+    hr = pContentInfo->GetProfile(&pProfile);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pProfile->GetStreamCount(&amp;cStreams);
+    hr = pProfile->GetStreamCount(&cStreams);
     if (FAILED(hr))
     {
         goto done;
@@ -1725,31 +1725,31 @@ HRESULT AddTransformOutputNodes(
 
     for(DWORD index = 0; index < cStreams ; index++)
     {
-        hr = pProfile->GetStream(index, &amp;wStreamNumber, &amp;pStream);
+        hr = pProfile->GetStream(index, &wStreamNumber, &pStream);
         if (FAILED(hr))
         {
             goto done;
         }
-        hr = pStream->GetMediaType(&amp;pMediaType);
+        hr = pStream->GetMediaType(&pMediaType);
         if (FAILED(hr))
         {
             goto done;
         }
-        hr = pMediaType->GetMajorType(&amp;guidMT);
+        hr = pMediaType->GetMajorType(&guidMT);
         if (FAILED(hr))
         {
             goto done;
         }
         if (guidMT!=guidMajor)
         {
-            SafeRelease(&amp;pStream);
-            SafeRelease(&amp;pMediaType);
+            SafeRelease(&pStream);
+            SafeRelease(&pMediaType);
             guidMT = GUID_NULL;
 
             continue;
         }
         //We need to activate the encoder
-        hr = pContentInfo->GetEncodingConfigurationPropertyStore(wStreamNumber, &amp;pProps);
+        hr = pContentInfo->GetEncodingConfigurationPropertyStore(wStreamNumber, &pProps);
         if (FAILED(hr))
         {
             goto done;
@@ -1757,7 +1757,7 @@ HRESULT AddTransformOutputNodes(
 
         if (guidMT == MFMediaType_Audio)
         {
-             hr = MFCreateWMAEncoderActivate(pMediaType, pProps, &amp;pEncoderActivate);
+             hr = MFCreateWMAEncoderActivate(pMediaType, pProps, &pEncoderActivate);
             if (FAILED(hr))
             {
                 goto done;
@@ -1768,7 +1768,7 @@ HRESULT AddTransformOutputNodes(
         }
         if (guidMT == MFMediaType_Video)
         {
-            hr = MFCreateWMVEncoderActivate(pMediaType, pProps, &amp;pEncoderActivate);
+            hr = MFCreateWMVEncoderActivate(pMediaType, pProps, &pEncoderActivate);
             if (FAILED(hr))
             {
                 goto done;
@@ -1794,7 +1794,7 @@ HRESULT AddTransformOutputNodes(
     }
 
     //Add the output node to this node.
-    hr = AddOutputNode(pTopology, pSinkActivate, wStreamNumber, &amp;pOutputNode);
+    hr = AddOutputNode(pTopology, pSinkActivate, wStreamNumber, &pOutputNode);
     if (FAILED(hr))
     {
         goto done;
@@ -1813,15 +1813,15 @@ HRESULT AddTransformOutputNodes(
 
 
 done:
-    SafeRelease(&amp;pEncNode);
-    SafeRelease(&amp;pOutputNode);
-    SafeRelease(&amp;pEncoderActivate);
-    SafeRelease(&amp;pMediaType);
-    SafeRelease(&amp;pProps);
-    SafeRelease(&amp;pStream);
-    SafeRelease(&amp;pProfile);
-    SafeRelease(&amp;pContentInfo);
-    SafeRelease(&amp;pSink);
+    SafeRelease(&pEncNode);
+    SafeRelease(&pOutputNode);
+    SafeRelease(&pEncoderActivate);
+    SafeRelease(&pMediaType);
+    SafeRelease(&pProps);
+    SafeRelease(&pStream);
+    SafeRelease(&pProfile);
+    SafeRelease(&pContentInfo);
+    SafeRelease(&pSink);
     return hr;
 }
 ```
@@ -1855,7 +1855,7 @@ HRESULT AddOutputNode(
     IMFTopologyNode *pNode = NULL;
 
     // Create the node.
-    HRESULT hr = MFCreateTopologyNode(MF_TOPOLOGY_OUTPUT_NODE, &amp;pNode);
+    HRESULT hr = MFCreateTopologyNode(MF_TOPOLOGY_OUTPUT_NODE, &pNode);
     if (FAILED(hr))
     {
         goto done;
@@ -1893,7 +1893,7 @@ HRESULT AddOutputNode(
     (*ppNode)->AddRef();
 
 done:
-    SafeRelease(&amp;pNode);
+    SafeRelease(&pNode);
     return hr;
 }
 ```
@@ -1920,7 +1920,7 @@ HRESULT EnumerateStreamSinks (IMFMediaSink* pSink)
     IMFStreamSink* pStreamSink = NULL;
     DWORD cStreamSinks = 0;
 
-    HRESULT hr = pSink->GetStreamSinkCount(&amp;cStreamSinks);
+    HRESULT hr = pSink->GetStreamSinkCount(&cStreamSinks);
     if (FAILED(hr))
     {
         goto done;
@@ -1928,7 +1928,7 @@ HRESULT EnumerateStreamSinks (IMFMediaSink* pSink)
 
     for(DWORD index = 0; index < cStreamSinks; index++)
     {
-        hr = pSink->GetStreamSinkByIndex (index, &amp;pStreamSink);
+        hr = pSink->GetStreamSinkByIndex (index, &pStreamSink);
         if (FAILED(hr))
         {
             goto done;
@@ -1938,7 +1938,7 @@ HRESULT EnumerateStreamSinks (IMFMediaSink* pSink)
         //Not shown.
     }
 done:
-    SafeRelease(&amp;pStreamSink);
+    SafeRelease(&pStreamSink);
 
     return hr;
 }
@@ -1998,7 +1998,7 @@ HRESULT Encode(IMFTopology *pTopology)
     MF_TOPOSTATUS TopoStatus = MF_TOPOSTATUS_INVALID; // Used with MESessionTopologyStatus event.    
         
 
-    hr = MFCreateMediaSession(NULL, &amp;pSession);
+    hr = MFCreateMediaSession(NULL, &pSession);
     if (FAILED(hr))
     {
         goto done;
@@ -2013,19 +2013,19 @@ HRESULT Encode(IMFTopology *pTopology)
     //Get media session events synchronously
     while (1)
     {
-        hr = pSession->GetEvent(0, &amp;pEvent);
+        hr = pSession->GetEvent(0, &pEvent);
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = pEvent->GetType(&amp;meType);
+        hr = pEvent->GetType(&meType);
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = pEvent->GetStatus(&amp;hrStatus);
+        hr = pEvent->GetStatus(&hrStatus);
         if (FAILED(hr))
         {
             goto done;
@@ -2047,10 +2047,10 @@ HRESULT Encode(IMFTopology *pTopology)
                     if (status == MF_TOPOSTATUS_READY)
                     {
                         PROPVARIANT var;
-                        PropVariantInit(&amp;var);
+                        PropVariantInit(&var);
                         wprintf_s(L"Topology resolved and set on the media session.\n");
 
-                        hr = pSession->Start(NULL, &amp;var);
+                        hr = pSession->Start(NULL, &var);
                         if (FAILED(hr))
                         {
                             goto done;
@@ -2090,7 +2090,7 @@ HRESULT Encode(IMFTopology *pTopology)
                 {
                     if (EncodingMode == VBR)
                     {
-                        hr = pSession->GetFullTopology(MFSESSION_GETFULLTOPOLOGY_CURRENT, 0, &amp;pFullTopology);
+                        hr = pSession->GetFullTopology(MFSESSION_GETFULLTOPOLOGY_CURRENT, 0, &pFullTopology);
                         if (FAILED(hr))
                         {
                             goto done;
@@ -2116,14 +2116,14 @@ HRESULT Encode(IMFTopology *pTopology)
             goto done;
         }
 
-        SafeRelease(&amp;pEvent);
+        SafeRelease(&pEvent);
 
     }
 done:
-    SafeRelease(&amp;pEvent);
-    SafeRelease(&amp;pSession);
-    SafeRelease(&amp;pFullTopology);
-    SafeRelease(&amp;pTopoUnk);
+    SafeRelease(&pEvent);
+    SafeRelease(&pSession);
+    SafeRelease(&pFullTopology);
+    SafeRelease(&pTopoUnk);
     return hr;
 }
 ```
@@ -2201,18 +2201,18 @@ HRESULT PostEncodingUpdate(IMFTopology *pTopology)
     GUID guidMajorType = GUID_NULL;
 
     PROPVARIANT var;
-    PropVariantInit( &amp;var );
+    PropVariantInit( &var );
 
     DWORD cElements = 0;
 
-    hr = pTopology->GetOutputNodeCollection( &amp;pOutputColl);
+    hr = pTopology->GetOutputNodeCollection( &pOutputColl);
     if (FAILED(hr))
     {
         goto done;
     }
 
 
-    hr = pOutputColl->GetElementCount(&amp;cElements);
+    hr = pOutputColl->GetElementCount(&cElements);
     if (FAILED(hr))
     {
         goto done;
@@ -2221,67 +2221,67 @@ HRESULT PostEncodingUpdate(IMFTopology *pTopology)
 
     for(DWORD index = 0; index < cElements; index++)
     {
-        hr = pOutputColl->GetElement(index, &amp;pNodeUnk);
+        hr = pOutputColl->GetElement(index, &pNodeUnk);
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = pNodeUnk->QueryInterface(IID_IMFTopologyNode, (void**)&amp;pNode);
+        hr = pNodeUnk->QueryInterface(IID_IMFTopologyNode, (void**)&pNode);
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = pNode->GetInputPrefType(0, &amp;pType);
+        hr = pNode->GetInputPrefType(0, &pType);
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = pType->GetMajorType( &amp;guidMajorType );
+        hr = pType->GetMajorType( &guidMajorType );
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = pNode->GetObject(&amp;pSinkUnk);
+        hr = pNode->GetObject(&pSinkUnk);
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = pSinkUnk->QueryInterface(IID_IMFStreamSink, (void**)&amp;pStreamSink);
+        hr = pSinkUnk->QueryInterface(IID_IMFStreamSink, (void**)&pStreamSink);
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = pNode->GetInput( 0, &amp;pEncoderNode, NULL );
+        hr = pNode->GetInput( 0, &pEncoderNode, NULL );
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = pEncoderNode->GetObject(&amp;pEncoderUnk);
+        hr = pEncoderNode->GetObject(&pEncoderUnk);
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = pEncoderUnk->QueryInterface(IID_IMFTransform, (void**)&amp;pEncoder);
+        hr = pEncoderUnk->QueryInterface(IID_IMFTransform, (void**)&pEncoder);
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = pStreamSink->QueryInterface(IID_IPropertyStore, (void**)&amp;pStreamSinkProps);
+        hr = pStreamSink->QueryInterface(IID_IPropertyStore, (void**)&pStreamSinkProps);
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = pEncoder->QueryInterface(IID_IPropertyStore, (void**)&amp;pEncoderProps);
+        hr = pEncoder->QueryInterface(IID_IPropertyStore, (void**)&pEncoderProps);
         if (FAILED(hr))
         {
             goto done;
@@ -2289,7 +2289,7 @@ HRESULT PostEncodingUpdate(IMFTopology *pTopology)
 
         if( guidMajorType == MFMediaType_Video )
         {            
-            hr = pEncoderProps->GetValue( MFPKEY_BAVG, &amp;var );
+            hr = pEncoderProps->GetValue( MFPKEY_BAVG, &var );
             if (FAILED(hr))
             {
                 goto done;
@@ -2300,8 +2300,8 @@ HRESULT PostEncodingUpdate(IMFTopology *pTopology)
                 goto done;
             }
 
-            PropVariantClear( &amp;var );
-            hr = pEncoderProps->GetValue( MFPKEY_RAVG, &amp;var );
+            PropVariantClear( &var );
+            hr = pEncoderProps->GetValue( MFPKEY_RAVG, &var );
             if (FAILED(hr))
             {
                 goto done;
@@ -2312,8 +2312,8 @@ HRESULT PostEncodingUpdate(IMFTopology *pTopology)
                 goto done;
             }
 
-            PropVariantClear( &amp;var );
-            hr = pEncoderProps->GetValue( MFPKEY_BMAX, &amp;var );
+            PropVariantClear( &var );
+            hr = pEncoderProps->GetValue( MFPKEY_BMAX, &var );
             if (FAILED(hr))
             {
                 goto done;
@@ -2324,8 +2324,8 @@ HRESULT PostEncodingUpdate(IMFTopology *pTopology)
                 goto done;
             }
 
-            PropVariantClear( &amp;var );
-            hr = pEncoderProps->GetValue( MFPKEY_RMAX, &amp;var );
+            PropVariantClear( &var );
+            hr = pEncoderProps->GetValue( MFPKEY_RMAX, &var );
             if (FAILED(hr))
             {
                 goto done;
@@ -2338,7 +2338,7 @@ HRESULT PostEncodingUpdate(IMFTopology *pTopology)
         }
         else if( guidMajorType == MFMediaType_Audio )
         {      
-            hr = pEncoderProps->GetValue( MFPKEY_STAT_BAVG, &amp;var );
+            hr = pEncoderProps->GetValue( MFPKEY_STAT_BAVG, &var );
             if (FAILED(hr))
             {
                 goto done;
@@ -2349,8 +2349,8 @@ HRESULT PostEncodingUpdate(IMFTopology *pTopology)
                 goto done;
             }
             
-            PropVariantClear( &amp;var );
-            hr = pEncoderProps->GetValue( MFPKEY_STAT_RAVG, &amp;var );
+            PropVariantClear( &var );
+            hr = pEncoderProps->GetValue( MFPKEY_STAT_RAVG, &var );
             if (FAILED(hr))
             {
                 goto done;
@@ -2361,8 +2361,8 @@ HRESULT PostEncodingUpdate(IMFTopology *pTopology)
                 goto done;
             }
             
-            PropVariantClear( &amp;var );
-            hr = pEncoderProps->GetValue( MFPKEY_STAT_BMAX, &amp;var);
+            PropVariantClear( &var );
+            hr = pEncoderProps->GetValue( MFPKEY_STAT_BMAX, &var);
             if (FAILED(hr))
             {
                 goto done;
@@ -2373,8 +2373,8 @@ HRESULT PostEncodingUpdate(IMFTopology *pTopology)
                 goto done;
             }
 
-            PropVariantClear( &amp;var );
-            hr = pEncoderProps->GetValue( MFPKEY_STAT_RMAX, &amp;var );
+            PropVariantClear( &var );
+            hr = pEncoderProps->GetValue( MFPKEY_STAT_RMAX, &var );
             if (FAILED(hr))
             {
                 goto done;
@@ -2385,8 +2385,8 @@ HRESULT PostEncodingUpdate(IMFTopology *pTopology)
                 goto done;
             }
 
-            PropVariantClear( &amp;var );
-            hr = pEncoderProps->GetValue( MFPKEY_WMAENC_AVGBYTESPERSEC, &amp;var );
+            PropVariantClear( &var );
+            hr = pEncoderProps->GetValue( MFPKEY_WMAENC_AVGBYTESPERSEC, &var );
             if (FAILED(hr))
             {
                 goto done;
@@ -2397,20 +2397,20 @@ HRESULT PostEncodingUpdate(IMFTopology *pTopology)
                 goto done;
             }
         } 
-        PropVariantClear( &amp;var ); 
+        PropVariantClear( &var ); 
    }
 done:
-    SafeRelease (&amp;pOutputColl);
-    SafeRelease (&amp;pNodeUnk);
-    SafeRelease (&amp;pType);
-    SafeRelease (&amp;pNode);
-    SafeRelease (&amp;pSinkUnk);
-    SafeRelease (&amp;pStreamSink);
-    SafeRelease (&amp;pEncoderNode);
-    SafeRelease (&amp;pEncoderUnk);
-    SafeRelease (&amp;pEncoder);
-    SafeRelease (&amp;pStreamSinkProps);
-    SafeRelease (&amp;pEncoderProps);
+    SafeRelease (&pOutputColl);
+    SafeRelease (&pNodeUnk);
+    SafeRelease (&pType);
+    SafeRelease (&pNode);
+    SafeRelease (&pSinkUnk);
+    SafeRelease (&pStreamSink);
+    SafeRelease (&pEncoderNode);
+    SafeRelease (&pEncoderUnk);
+    SafeRelease (&pEncoder);
+    SafeRelease (&pStreamSinkProps);
+    SafeRelease (&pEncoderProps);
 
     return hr;
    
@@ -2470,21 +2470,21 @@ int wmain(int argc, wchar_t* argv[])
     }
 
     //Create the media source
-    hr = CreateMediaSource(argv[1], &amp;pSource);
+    hr = CreateMediaSource(argv[1], &pSource);
     if (FAILED(hr))
     {
         goto done;
     }
 
     //Create the file sink activate
-    hr = CreateMediaSink(argv[2], pSource, &amp;pFileSinkActivate);
+    hr = CreateMediaSink(argv[2], pSource, &pFileSinkActivate);
     if (FAILED(hr))
     {
         goto done;
     }
 
     //Build the encoding topology.
-    hr = BuildPartialTopology(pSource, pFileSinkActivate, &amp;pTopology);
+    hr = BuildPartialTopology(pSource, pFileSinkActivate, &pTopology);
     if (FAILED(hr))
     {
         goto done;
@@ -2500,9 +2500,9 @@ int wmain(int argc, wchar_t* argv[])
 
 done:
     // Clean up.
-    SafeRelease(&amp;pSource);
-    SafeRelease(&amp;pTopology);
-    SafeRelease(&amp;pFileSinkActivate);
+    SafeRelease(&pSource);
+    SafeRelease(&pTopology);
+    SafeRelease(&pFileSinkActivate);
 
     MFShutdown();
     CoUninitialize();

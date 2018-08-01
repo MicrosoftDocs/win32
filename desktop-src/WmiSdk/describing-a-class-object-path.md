@@ -78,7 +78,7 @@ You can retrieve a class definition in C++ by specifying only the class name and
 
     BSTR Path = SysAllocString(L"Win32_LogicalDisk");
     IWbemClassObject *pDiskClass = 0;
-    pSvcs->GetObject(Path, 0, 0, &amp;pDiskClass, 0);
+    pSvcs->GetObject(Path, 0, 0, &pDiskClass, 0);
     ```
 
     

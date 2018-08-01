@@ -19,7 +19,7 @@ The following example uses the [**capDriverGetCaps**](/windows/desktop/api/Vfw/n
 ```C++
 CAPDRIVERCAPS CapDrvCaps; 
 
-capDriverGetCaps(hWndC, &amp;CapDrvCaps, sizeof (CAPDRIVERCAPS)); 
+capDriverGetCaps(hWndC, &CapDrvCaps, sizeof (CAPDRIVERCAPS)); 
 
 if (CapDrvCaps.fHasOverlay) 
     capOverlay(hWndC, TRUE);

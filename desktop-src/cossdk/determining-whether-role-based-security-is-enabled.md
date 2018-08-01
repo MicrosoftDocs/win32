@@ -33,14 +33,14 @@ Microsoft Visual C++ developers can call [**ISecurityCallContext::IsSecurityEnab
 ISecurityCallContext* pSecCtx;
 VARIANT_BOOL bIsEnabled;
 
-HRESULT hr1 = CoGetCallContext(IID_ISecurityCallContext, (void**)&amp;pSecCtx);
+HRESULT hr1 = CoGetCallContext(IID_ISecurityCallContext, (void**)&pSecCtx);
 if (FAILED(hr1)) throw(hr1);
 if (NULL == pSecCtx) {
     // Display error message.
     return E_FAIL;
 }
 
-HRESULT hr2 = pSecCtx->IsSecurityEnabled(&amp;bIsEnabled);
+HRESULT hr2 = pSecCtx->IsSecurityEnabled(&bIsEnabled);
 return hr2;
 ```
 

@@ -57,7 +57,7 @@ The following procedure is used to execute the WMI application. Steps 1 through 
     VARIANT vtProp;
 
     // Get the value of the Name property
-    hr = pclsObj->Get(L"Name", 0, &amp;vtProp, 0, 0);
+    hr = pclsObj->Get(L"Name", 0, &vtProp, 0, 0);
     ```
 
     
@@ -126,7 +126,7 @@ int main(int argc, char **argv)
         CLSID_WbemLocator,             
         0, 
         CLSCTX_INPROC_SERVER, 
-        IID_IWbemLocator, (LPVOID *) &amp;pLoc);
+        IID_IWbemLocator, (LPVOID *) &pLoc);
  
     if (FAILED(hres))
     {
@@ -153,7 +153,7 @@ int main(int argc, char **argv)
          NULL,                    // Security flags.
          0,                       // Authority (for example, Kerberos)
          0,                       // Context object 
-         &amp;pSvc                    // pointer to IWbemServices proxy
+         &pSvc                    // pointer to IWbemServices proxy
          );
     
     if (FAILED(hres))
@@ -202,7 +202,7 @@ int main(int argc, char **argv)
         bstr_t("SELECT * FROM Win32_OperatingSystem"),
         WBEM_FLAG_FORWARD_ONLY | WBEM_FLAG_RETURN_IMMEDIATELY, 
         NULL,
-        &amp;pEnumerator);
+        &pEnumerator);
     
     if (FAILED(hres))
     {
@@ -224,7 +224,7 @@ int main(int argc, char **argv)
     while (pEnumerator)
     {
         HRESULT hr = pEnumerator->Next(WBEM_INFINITE, 1, 
-            &amp;pclsObj, &amp;uReturn);
+            &pclsObj, &uReturn);
 
         if(0 == uReturn)
         {
@@ -234,9 +234,9 @@ int main(int argc, char **argv)
         VARIANT vtProp;
 
         // Get the value of the Name property
-        hr = pclsObj->Get(L"Name", 0, &amp;vtProp, 0, 0);
+        hr = pclsObj->Get(L"Name", 0, &vtProp, 0, 0);
         wcout << " OS Name : " << vtProp.bstrVal << endl;
-        VariantClear(&amp;vtProp);
+        VariantClear(&vtProp);
 
         pclsObj->Release();
     }

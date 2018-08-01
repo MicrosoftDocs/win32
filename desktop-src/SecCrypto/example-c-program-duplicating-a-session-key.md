@@ -61,7 +61,7 @@ printf("key. Finally, both keys are destroyed. \n\n");
 // Acquire a cryptographic provider context handle.
 
 if(CryptAcquireContext(    
-   &amp;hCryptProv,
+   &hCryptProv,
    NULL,
    NULL,
    PROV_RSA_FULL,
@@ -79,7 +79,7 @@ if (CryptGenKey(
      hCryptProv, 
      CALG_RC4, 
      0, 
-     &amp;hOriginalKey))
+     &hOriginalKey))
 {
    printf("Original session key is created. \n");
 }
@@ -94,7 +94,7 @@ if (CryptDuplicateKey(
      hOriginalKey, 
      NULL, 
      0, 
-     &amp;hDuplicateKey))
+     &hDuplicateKey))
 {
    printf("The session key has been duplicated. \n");
 }
@@ -110,7 +110,7 @@ dwMode = CRYPT_MODE_ECB;
 if(CryptSetKeyParam(
    hOriginalKey, 
    KP_MODE, 
-   (BYTE*)&amp;dwMode, 
+   (BYTE*)&dwMode, 
    0)) 
 {
      printf("Key Parameters set. \n");

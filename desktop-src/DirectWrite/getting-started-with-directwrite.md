@@ -134,7 +134,7 @@ Some of the resources that are used have to be created only one time and are not
     ```C++
     hr = D2D1CreateFactory(
         D2D1_FACTORY_TYPE_SINGLE_THREADED,
-        &amp;pD2DFactory_
+        &pD2DFactory_
         );
     
     ```
@@ -148,7 +148,7 @@ Some of the resources that are used have to be created only one time and are not
         hr = DWriteCreateFactory(
             DWRITE_FACTORY_TYPE_SHARED,
             __uuidof(IDWriteFactory),
-            reinterpret_cast<IUnknown**>(&amp;pDWriteFactory_)
+            reinterpret_cast<IUnknown**>(&pDWriteFactory_)
             );
     }
     
@@ -178,7 +178,7 @@ Some of the resources that are used have to be created only one time and are not
             DWRITE_FONT_STRETCH_NORMAL,
             72.0f,
             L"en-us",
-            &amp;pTextFormat_
+            &pTextFormat_
             );
     }
     
@@ -218,7 +218,7 @@ Both the [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/library/windows/
 1.  Inside the SimpleText::CreateDeviceResources method, check whether the render target pointer is **NULL**. If it is, retrieve the size of the render area and create an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/library/windows/desktop/dd371461) of that size. Use the **ID2D1HwndRenderTarget** to create an [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/library/windows/desktop/dd372207).
     ```C++
     RECT rc;
-    GetClientRect(hwnd_, &amp;rc);
+    GetClientRect(hwnd_, &rc);
 
     D2D1_SIZE_U size = D2D1::SizeU(rc.right - rc.left, rc.bottom - rc.top);
 
@@ -231,7 +231,7 @@ Both the [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/library/windows/
                     hwnd_,
                     size
                     ),
-                &amp;pRT_
+                &pRT_
                 );
 
         // Create a black brush.
@@ -239,7 +239,7 @@ Both the [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/library/windows/
         {
             hr = pRT_->CreateSolidColorBrush(
                 D2D1::ColorF(D2D1::ColorF::Black),
-                &amp;pBlackBrush_
+                &pBlackBrush_
                 );
         }
     }
@@ -250,8 +250,8 @@ Both the [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/library/windows/
 
 2.  In the SimpleText::DiscardDeviceResources method, release both the brush and render target.
     ```C++
-    SafeRelease(&amp;pRT_);
-    SafeRelease(&amp;pBlackBrush_);
+    SafeRelease(&pRT_);
+    SafeRelease(&pBlackBrush_);
     
     ```
 
@@ -367,7 +367,7 @@ The [**IDWriteTypography**](https://msdn.microsoft.com/en-us/library/Dd371541(v=
     if (SUCCEEDED(hr))
     {
         RECT rect;
-        GetClientRect(hwnd_, &amp;rect); 
+        GetClientRect(hwnd_, &rect); 
         float width  = rect.right  / dpiScaleX_;
         float height = rect.bottom / dpiScaleY_;
 
@@ -377,7 +377,7 @@ The [**IDWriteTypography**](https://msdn.microsoft.com/en-us/library/Dd371541(v=
             pTextFormat_,  // The text format to apply to the string (contains font information, etc).
             width,         // The width of the layout box.
             height,        // The height of the layout box.
-            &amp;pTextLayout_  // The IDWriteTextLayout interface pointer.
+            &pTextLayout_  // The IDWriteTextLayout interface pointer.
             );
     }
     
@@ -439,7 +439,7 @@ Formatting, such as the font size, weight, and underlining, can be applied to su
     // Create a typography interface object.
     if (SUCCEEDED(hr))
     {
-        hr = pDWriteFactory_->CreateTypography(&amp;pTypography);
+        hr = pDWriteFactory_->CreateTypography(&pTypography);
     }
     
     ```

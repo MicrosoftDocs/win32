@@ -57,15 +57,15 @@ hr = m_spIInkRecognizers.CoCreateInstance(CLSID_InkRecognizers);
     // the languages supported by the recognizer - there is not
     // any if it is a gesture or object recognizer.
     CComVariant vLanguages;
-    if (SUCCEEDED(spIInkRecognizer->get_Languages(&amp;vLanguages)))
+    if (SUCCEEDED(spIInkRecognizer->get_Languages(&vLanguages)))
     {
         if ((VT_ARRAY == (VT_ARRAY & vLanguages.vt))           // it should be an array
-            &amp;&amp; (NULL != vLanguages.parray)
-            &amp;&amp; (0 < vLanguages.parray->rgsabound[0].cElements)) // with at least one element
+            && (NULL != vLanguages.parray)
+            && (0 < vLanguages.parray->rgsabound[0].cElements)) // with at least one element
         {
             // This is a language recognizer. Add its name to the menu.
             CComBSTR bstrName;
-            if (SUCCEEDED(spIInkRecognizer->get_Name(&amp;bstrName)))
+            if (SUCCEEDED(spIInkRecognizer->get_Name(&bstrName)))
                 ...
         }
     }
@@ -100,7 +100,7 @@ The application's CreateRecoContext method creates and initializes a new recogni
 ```C++
 // Create a recognizer context
 CComPtr<IInkRecognizerContext2> spNewContext;
-if (FAILED(pIInkRecognizer2->CreateRecognizerContext(&amp;spNewContext)))
+if (FAILED(pIInkRecognizer2->CreateRecognizerContext(&spNewContext)))
     return false;
 
 // Replace the current context with the new one
@@ -118,7 +118,7 @@ if (FAILED(IInkRecognitionEventsImpl<CMultiRecoApp>::DispEventAdvise(m_spIInkRec
 // Set the guide if it's supported by the recognizer and has been created 
 int cRows = 0, cColumns = 0;
 InkRecognizerCapabilities dwCapabilities = IRC_DontCare;
-if (SUCCEEDED(pIInkRecognizer->get_Capabilities(&amp;dwCapabilities)))
+if (SUCCEEDED(pIInkRecognizer->get_Capabilities(&dwCapabilities)))
     ...
 ```
 
@@ -182,7 +182,7 @@ m_spIInkDisp->DeleteStrokes(NULL);
 // Get a new stroke collection from the ink object
 ...
 // Ask for an empty collection by passing an empty variant 
-if (SUCCEEDED(m_spIInkDisp->CreateStrokes(v, &amp;m_spIInkStrokes)))
+if (SUCCEEDED(m_spIInkDisp->CreateStrokes(v, &m_spIInkStrokes)))
 {
     // Attach it to the recognizer context
     if (FAILED(m_spIInkRecoContext->putref_Strokes(m_spIInkStrokes)))
@@ -221,7 +221,7 @@ if (wID != m_nCmdRecognizer)
     CComPtr<IInkRecognizer> spIInkRecognizer;
     if ((m_spIInkRecognizers == NULL)
         || FAILED(m_spIInkRecognizers->Item(wID - ID_RECOGNIZER_FIRST,
-                                             &amp;spIInkRecognizer))
+                                             &spIInkRecognizer))
         || (false == CreateRecoContext(spIInkRecognizer)))
     {
         // restore the cursor
@@ -231,7 +231,7 @@ if (wID != m_nCmdRecognizer)
 
     // Update the status bar
     m_bstrCurRecoName.Empty();
-    spIInkRecognizer->get_Name(&amp;m_bstrCurRecoName);
+    spIInkRecognizer->get_Name(&m_bstrCurRecoName);
     UpdateStatusBar();
 
     // Store the selected recognizer's command id
@@ -251,16 +251,16 @@ The application's `SaveStrokeCollection` method checks for an existing recognize
 ```C++
 if (m_spIInkRecoContext != NULL)
 {
-    if (SUCCEEDED(m_spIInkStrokes->get_Count(&amp;lCount)) &amp;&amp; 0 != lCount)
+    if (SUCCEEDED(m_spIInkStrokes->get_Count(&lCount)) && 0 != lCount)
     {
         CComPtr<IInkRecognitionResult> spIInkRecoResult;
         InkRecognitionStatus RecognitionStatus;
-        if (SUCCEEDED(m_spIInkRecoContext->Recognize(&amp;RecognitionStatus, &amp;spIInkRecoResult)))
+        if (SUCCEEDED(m_spIInkRecoContext->Recognize(&RecognitionStatus, &spIInkRecoResult)))
         {
             if (SUCCEEDED(spIInkRecoResult->SetResultOnStrokes()))
             {
                 CComBSTR bstr;
-                spIInkRecoResult->get_TopString(&amp;bstr);
+                spIInkRecoResult->get_TopString(&bstr);
                 m_wndResults.UpdateString(bstr);
             }
             ...
@@ -273,12 +273,12 @@ if (m_spIInkRecoContext != NULL)
 // Now add it to the ink's custom strokes collection
 // Each item (stroke collection) of the custom strokes must be identified
 // by a unique string. Here we generate a GUID for this.
-if ((0 != lCount) &amp;&amp; (m_spIInkCustomStrokes != NULL))
+if ((0 != lCount) && (m_spIInkCustomStrokes != NULL))
 {
     GUID guid;
     WCHAR szGuid[40]; // format: "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"
-    if (SUCCEEDED(::CoCreateGuid(&amp;guid)) 
-        &amp;&amp; (::StringFromGUID2(guid, szGuid, countof(szGuid)) != 0))
+    if (SUCCEEDED(::CoCreateGuid(&guid)) 
+        && (::StringFromGUID2(guid, szGuid, countof(szGuid)) != 0))
     {
         CComBSTR bstrGuid(szGuid);
         if (FAILED(m_spIInkCustomStrokes->Add(bstrGuid, m_spIInkStrokes)))

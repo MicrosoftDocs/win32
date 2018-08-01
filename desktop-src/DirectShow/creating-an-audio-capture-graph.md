@@ -59,7 +59,7 @@ IGraphBuilder *pGraph;
 
 // Create the Filter Graph Manager.
 hr = CoCreateInstance(CLSID_FilterGraph, NULL, CLSCTX_INPROC_SERVER,
-    IID_IGraphBuilder, (void**)&amp;pGraph);
+    IID_IGraphBuilder, (void**)&pGraph);
 
 // This example omits error handling.
 
@@ -70,11 +70,11 @@ hr = CoCreateInstance(CLSID_FilterGraph, NULL, CLSCTX_INPROC_SERVER,
 hr = pGraph->AddFilter(pSrc, L"Capture");
 
 // Add the WavDest and the File Writer.
-hr = AddFilterByCLSID(pGraph, CLSID_WavDest, L"WavDest", &amp;pWaveDest);
-hr = AddFilterByCLSID(pGraph, CLSID_FileWriter, L"File Writer", &amp;pWriter);
+hr = AddFilterByCLSID(pGraph, CLSID_WavDest, L"WavDest", &pWaveDest);
+hr = AddFilterByCLSID(pGraph, CLSID_FileWriter, L"File Writer", &pWriter);
 
 // Set the file name.
-hr = pWriter->QueryInterface(IID_IFileSinkFilter, (void**)&amp;pSink);
+hr = pWriter->QueryInterface(IID_IFileSinkFilter, (void**)&pSink);
 hr = pSink->SetFileName(L"C:\\MyWavFile.wav", NULL);
 
 // Connect the filters.

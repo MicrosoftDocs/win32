@@ -42,7 +42,7 @@ INT main()
    // Initialize GDI+.
    GdiplusStartupInput gdiplusStartupInput;
    ULONG_PTR gdiplusToken;
-   GdiplusStartup(&amp;gdiplusToken, &amp;gdiplusStartupInput, NULL);
+   GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
 
    EncoderParameters encoderParameters;
    ULONG             parameterValue;
@@ -57,11 +57,11 @@ INT main()
    encoderParameters.Parameter[0].Guid = EncoderSaveFlag;
    encoderParameters.Parameter[0].Type = EncoderParameterValueTypeLong;
    encoderParameters.Parameter[0].NumberOfValues = 1;
-   encoderParameters.Parameter[0].Value = &amp;parameterValue;
+   encoderParameters.Parameter[0].Value = &parameterValue;
 
    // Get the CLSID of the TIFF encoder.
    CLSID encoderClsid;
-   GetEncoderClsid(L"image/tiff", &amp;encoderClsid);
+   GetEncoderClsid(L"image/tiff", &encoderClsid);
 
    // Create four image objects.
    Image* multi = new Image(L"Shapes.bmp");
@@ -71,31 +71,31 @@ INT main()
 
    // Save the first page (frame).
    parameterValue = EncoderValueMultiFrame;
-   stat = multi->Save(L"MultiFrame.tif", &amp;encoderClsid, &amp;encoderParameters);
+   stat = multi->Save(L"MultiFrame.tif", &encoderClsid, &encoderParameters);
    if(stat == Ok)
       printf("Page 1 saved successfully.\n");
 
    // Save the second page (frame).
    parameterValue = EncoderValueFrameDimensionPage;
-   stat = multi->SaveAdd(page2, &amp;encoderParameters);
+   stat = multi->SaveAdd(page2, &encoderParameters);
    if(stat == Ok)
       printf("Page 2 saved successfully.\n");
 
    // Save the third page (frame).
    parameterValue = EncoderValueFrameDimensionPage;
-   stat = multi->SaveAdd(page3, &amp;encoderParameters);
+   stat = multi->SaveAdd(page3, &encoderParameters);
    if(stat == Ok)
       printf("Page 3 saved successfully.\n");
 
    // Save the fourth page (frame).
    parameterValue = EncoderValueFrameDimensionPage;
-   stat = multi->SaveAdd(page4, &amp;encoderParameters);
+   stat = multi->SaveAdd(page4, &encoderParameters);
    if(stat == Ok)
       printf("Page 4 saved successfully.\n");
 
    // Close the multiframe file.
    parameterValue = EncoderValueFlush;
-   stat = multi->SaveAdd(&amp;encoderParameters);
+   stat = multi->SaveAdd(&encoderParameters);
    if(stat == Ok)
       printf("File closed successfully.\n");
 

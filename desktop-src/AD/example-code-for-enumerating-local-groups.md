@@ -48,7 +48,7 @@ HRESULT ListMembersWithWinNtProvider(LPWSTR pwszComputer,LPWSTR pwszClass, LPWST
     swprintf_s(pwszBindingString,L"WinNT://%s,computer",pwszComputer);
  
     // Ensure either no user is passed - or both user and password are passed.
-    assert(!pwszUSER || (pwszUSER &amp;&amp; pwszPASS));
+    assert(!pwszUSER || (pwszUSER && pwszPASS));
  
     // Bind to the container passed.
     // If USER and PASS passed in, use ADsOpenObject()
@@ -58,18 +58,18 @@ HRESULT ListMembersWithWinNtProvider(LPWSTR pwszComputer,LPWSTR pwszClass, LPWST
                             pwszPASS, 
                             ADS_SECURE_AUTHENTICATION,
                             IID_IADsContainer, 
-                            (void**) &amp;pIADsCont);
+                            (void**) &pIADsCont);
     else
-        hr = ADsGetObject( pwszBindingString, IID_IADsContainer,(void **)&amp;pIADsCont);
+        hr = ADsGetObject( pwszBindingString, IID_IADsContainer,(void **)&pIADsCont);
  
     if (SUCCEEDED(hr))
     {
         VARIANT vFilter;
-        VariantInit(&amp;vFilter);
+        VariantInit(&vFilter);
         LPWSTR pwszFilter = pwszClass;
  
         // Build a Variant of array type, using the filter passed.
-        hr = ADsBuildVarArrayStr(&amp;pwszFilter, 1, &amp;vFilter);
+        hr = ADsBuildVarArrayStr(&pwszFilter, 1, &vFilter);
  
         if (SUCCEEDED(hr))
         {
@@ -84,13 +84,13 @@ HRESULT ListMembersWithWinNtProvider(LPWSTR pwszComputer,LPWSTR pwszClass, LPWST
  
                 // Builds an enumerator interface - this will be used
                 // to enumerate the objects contained in the IADsContainer. 
-                hr = ADsBuildEnumerator(pIADsCont,&amp;pEnumVariant);
+                hr = ADsBuildEnumerator(pIADsCont,&pEnumVariant);
                 // While no errors, loop through and print the data.
-                while (SUCCEEDED(hr) &amp;&amp; hr != S_FALSE) 
+                while (SUCCEEDED(hr) && hr != S_FALSE) 
                 {
  
                     // Object comes back as a VARIANT holding an IDispatch *
-                    hr = ADsEnumerateNext(pEnumVariant,1,&amp;Variant,&amp;ulElementsFetched);
+                    hr = ADsEnumerateNext(pEnumVariant,1,&Variant,&ulElementsFetched);
  
                     if (hr != S_FALSE) 
                     { 
@@ -101,19 +101,19 @@ HRESULT ListMembersWithWinNtProvider(LPWSTR pwszComputer,LPWSTR pwszClass, LPWST
                         pDispatch = Variant.pdispVal;
  
                         // Call the QueryInterface method for the Variant IDispatch * for the IADs interface.
-                        hr = pDispatch->QueryInterface(IID_IADs,(VOID **) &amp;pIADs) ;
+                        hr = pDispatch->QueryInterface(IID_IADs,(VOID **) &pIADs) ;
  
                         if (SUCCEEDED(hr))
                         {
                             // Print data about the object.
                             BSTR bsResult;
  
-                            pIADs->get_Name(&amp;bsResult); 
+                            pIADs->get_Name(&bsResult); 
                             wprintf(L" NAME: %s\n",(LPOLESTR) bsResult);
                             SysFreeString(bsResult);
  
  
-                            pIADs->get_ADsPath(&amp;bsResult); 
+                            pIADs->get_ADsPath(&bsResult); 
                             wprintf(L" ADSPATH: %s\n",(LPOLESTR) bsResult);
                             SysFreeString(bsResult);
  
@@ -131,10 +131,10 @@ HRESULT ListMembersWithWinNtProvider(LPWSTR pwszComputer,LPWSTR pwszClass, LPWST
                     pEnumVariant->Release();
                     pEnumVariant = NULL;
                 }
-                VariantClear(&amp;Variant);
+                VariantClear(&Variant);
             }
         }
-        VariantClear(&amp;vFilter);
+        VariantClear(&vFilter);
     }
  
     delete [] pwszBindingString;

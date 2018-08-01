@@ -53,7 +53,7 @@ REGFILTER2 rf2FilterReg = {
     1,              // Version 1 (no pin mediums or pin category).
     MERIT_NORMAL,   // Merit.
     1,              // Number of pins.
-    &amp;sudPins        // Pointer to pin information.
+    &sudPins        // Pointer to pin information.
 };
 
 STDAPI DllRegisterServer(void)
@@ -66,7 +66,7 @@ STDAPI DllRegisterServer(void)
         return hr;
 
     hr = CoCreateInstance(CLSID_FilterMapper2, NULL, CLSCTX_INPROC_SERVER,
-            IID_IFilterMapper2, (void **)&amp;pFM2);
+            IID_IFilterMapper2, (void **)&pFM2);
 
     if (FAILED(hr))
         return hr;
@@ -75,9 +75,9 @@ STDAPI DllRegisterServer(void)
         CLSID_SomeFilter,                // Filter CLSID. 
         g_wszName,                       // Filter name.
         NULL,                            // Device moniker. 
-        &amp;CLSID_VideoCompressorCategory,  // Video compressor category.
+        &CLSID_VideoCompressorCategory,  // Video compressor category.
         g_wszName,                       // Instance data.
-        &amp;rf2FilterReg                    // Pointer to filter information.
+        &rf2FilterReg                    // Pointer to filter information.
     );
     pFM2->Release();
     return hr;

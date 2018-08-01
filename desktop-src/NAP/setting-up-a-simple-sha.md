@@ -58,10 +58,10 @@ HRESULT FillShaComponentRegistrationInfo(NapComponentRegistrationInfo *agentInfo
     HRESULT hr = S_OK;
     agentInfo->id = NapSystemHealthId;
     agentInfo->infoClsid = infoClsid;
-    hr = ConstructCountedString(SHA_FRIENDLY_NAME, sizeof(SHA_FRIENDLY_NAME), &amp;(agentInfo->friendlyName));
-    hr = ConstructCountedString(SHA_DESCRIPTION, sizeof(SHA_DESCRIPTION), &amp;(agentInfo->description));
-    hr = ConstructCountedString(SHA_VERSION, sizeof(SHA_VERSION), &amp;(agentInfo->version));
-    hr = ConstructCountedString(SHA_VENDOR_NAME, sizeof(SHA_VENDOR_NAME), &amp;(agentInfo->vendorName));
+    hr = ConstructCountedString(SHA_FRIENDLY_NAME, sizeof(SHA_FRIENDLY_NAME), &(agentInfo->friendlyName));
+    hr = ConstructCountedString(SHA_DESCRIPTION, sizeof(SHA_DESCRIPTION), &(agentInfo->description));
+    hr = ConstructCountedString(SHA_VERSION, sizeof(SHA_VERSION), &(agentInfo->version));
+    hr = ConstructCountedString(SHA_VENDOR_NAME, sizeof(SHA_VENDOR_NAME), &(agentInfo->vendorName));
     return hr;
 }
 
@@ -85,7 +85,7 @@ HRESULT CsdkShaModule::RegisterSha()
     // Registration Information
     NapComponentRegistrationInfo m_shaInfo;
     
-    ZeroMemory (&amp;m_shaInfo, sizeof(m_shaInfo));
+    ZeroMemory (&m_shaInfo, sizeof(m_shaInfo));
     hr = m_pNAPClientMgmt.CoCreateInstance(CLSID_NapClientManagement, NULL, CLSCTX_INPROC_SERVER);
 
     if (FAILED(hr))
@@ -94,14 +94,14 @@ HRESULT CsdkShaModule::RegisterSha()
        goto Cleanup;
     }
 
-    hr = FillShaComponentRegistrationInfo(&amp;m_shaInfo);
+    hr = FillShaComponentRegistrationInfo(&m_shaInfo);
     if(FAILED(hr))
     {
        DebugPrintfW(L"RegisterSdkSha:: FillShaComponentRegistrationInfo Failed with %#x",hr);
        goto Cleanup;
     }
 
-    hr = m_pNAPClientMgmt->RegisterSystemHealthAgent(&amp;m_shaInfo);
+    hr = m_pNAPClientMgmt->RegisterSystemHealthAgent(&m_shaInfo);
     if (FAILED(hr))
     {
        DebugPrintfW(L"RegisterSdkSha:: RegisterSystemHealthAgent failed %#x", hr);
@@ -109,7 +109,7 @@ HRESULT CsdkShaModule::RegisterSha()
     }
  
     Cleanup:
-       FreeComponentRegistration(&amp;m_shaInfo);
+       FreeComponentRegistration(&m_shaInfo);
        return hr;
 }
 

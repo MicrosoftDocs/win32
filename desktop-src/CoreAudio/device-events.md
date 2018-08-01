@@ -71,12 +71,12 @@ public:
 
     ULONG STDMETHODCALLTYPE AddRef()
     {
-        return InterlockedIncrement(&amp;_cRef);
+        return InterlockedIncrement(&_cRef);
     }
 
     ULONG STDMETHODCALLTYPE Release()
     {
-        ULONG ulRef = InterlockedDecrement(&amp;_cRef);
+        ULONG ulRef = InterlockedDecrement(&_cRef);
         if (0 == ulRef)
         {
             delete this;
@@ -217,7 +217,7 @@ HRESULT CMMNotificationClient::_PrintDeviceName(LPCWSTR pwstrId)
     PROPVARIANT varString;
 
     CoInitialize(NULL);
-    PropVariantInit(&amp;varString);
+    PropVariantInit(&varString);
 
     if (_pEnumerator == NULL)
     {
@@ -225,27 +225,27 @@ HRESULT CMMNotificationClient::_PrintDeviceName(LPCWSTR pwstrId)
         hr = CoCreateInstance(__uuidof(MMDeviceEnumerator),
                               NULL, CLSCTX_INPROC_SERVER,
                               __uuidof(IMMDeviceEnumerator),
-                              (void**)&amp;_pEnumerator);
+                              (void**)&_pEnumerator);
     }
     if (hr == S_OK)
     {
-        hr = _pEnumerator->GetDevice(pwstrId, &amp;pDevice);
+        hr = _pEnumerator->GetDevice(pwstrId, &pDevice);
     }
     if (hr == S_OK)
     {
-        hr = pDevice->OpenPropertyStore(STGM_READ, &amp;pProps);
+        hr = pDevice->OpenPropertyStore(STGM_READ, &pProps);
     }
     if (hr == S_OK)
     {
         // Get the endpoint device's friendly-name property.
-        hr = pProps->GetValue(PKEY_Device_FriendlyName, &amp;varString);
+        hr = pProps->GetValue(PKEY_Device_FriendlyName, &varString);
     }
     printf("----------------------\nDevice name: \"%S\"\n"
            "  Endpoint ID string: \"%S\"\n",
            (hr == S_OK) ? varString.pwszVal : L"null device",
            (pwstrId != NULL) ? pwstrId : L"null ID");
 
-    PropVariantClear(&amp;varString);
+    PropVariantClear(&varString);
 
     SAFE_RELEASE(pProps)
     SAFE_RELEASE(pDevice)

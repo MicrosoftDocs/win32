@@ -49,7 +49,7 @@ To add a text layout you must do the following:
     if (SUCCEEDED(hr))
     {
         RECT rect;
-        GetClientRect(hwnd_, &amp;rect); 
+        GetClientRect(hwnd_, &rect); 
         float width  = rect.right  / dpiScaleX_;
         float height = rect.bottom / dpiScaleY_;
 
@@ -59,7 +59,7 @@ To add a text layout you must do the following:
             pTextFormat_,  // The text format to apply to the string (contains font information, etc).
             width,         // The width of the layout box.
             height,        // The height of the layout box.
-            &amp;pTextLayout_  // The IDWriteTextLayout interface pointer.
+            &pTextLayout_  // The IDWriteTextLayout interface pointer.
             );
     }
     
@@ -116,7 +116,7 @@ InlineImage::InlineImage(
         pRenderTarget,
         pIWICFactory,
         uri,
-        &amp;pBitmap_
+        &pBitmap_
         );
 }
 ```
@@ -248,7 +248,7 @@ Since the InlineImage class is dependent on the [**ID2D1RenderTarget**](https://
 
 
 ```C++
-SafeRelease(&amp;pInlineImage_);
+SafeRelease(&pInlineImage_);
 ```
 
 

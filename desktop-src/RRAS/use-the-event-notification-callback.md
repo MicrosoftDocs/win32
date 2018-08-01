@@ -127,7 +127,7 @@ EntityEventCallback (
 
             Status = RtmGetChangedDests(RtmRegHandle,
                                         NotifyHandle,
-                                        &amp;NumDests,
+                                        &NumDests,
                                         DestInfos);
 
             ASSERT((Status == NO_ERROR) || (Status == ERROR_NO_MORE_ITEMS));
@@ -198,12 +198,12 @@ EntityEventCallback (
                                              NULL,
                                              0,
                                              NULL,
-                                             &amp;ChangeFlags);
+                                             &ChangeFlags);
             ASSERT(Status == NO_ERROR);
         }
 
         // If ERROR_NOT_SUPPORTED not returned, release the handle
-        RtmReleaseRoutes(RtmRegHandle, 1, &amp;RouteHandle);
+        RtmReleaseRoutes(RtmRegHandle, 1, &RouteHandle);
 
         Status = NO_ERROR;
         break;

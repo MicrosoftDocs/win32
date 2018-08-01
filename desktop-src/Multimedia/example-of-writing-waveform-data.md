@@ -38,7 +38,7 @@ void WriteWaveData(void)
 
     // Open a waveform device for output using window callback. 
 
-    if (waveOutOpen((LPHWAVEOUT)&amp;hWaveOut, WAVE_MAPPER, 
+    if (waveOutOpen((LPHWAVEOUT)&hWaveOut, WAVE_MAPPER, 
                     (LPWAVEFORMAT)pFormat, 
                     (LONG)hwndApp, 0L, CALLBACK_WINDOW)) 
     { 

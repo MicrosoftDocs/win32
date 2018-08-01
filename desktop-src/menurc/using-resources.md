@@ -189,7 +189,7 @@ if (FAILED(hResult))
     return;
 }
 
-hResult = StringCchLength(szBuffer, sizeof(szBuffer)/sizeof(TCHAR), &amp;cbString);
+hResult = StringCchLength(szBuffer, sizeof(szBuffer)/sizeof(TCHAR), &cbString);
 if (FAILED(hResult))
 {
     // Add code to fail as securely as possible.
@@ -199,7 +199,7 @@ if (FAILED(hResult))
 WriteFile(g_hFile,       // file to hold resource info
     szBuffer,            // what to write to the file
     (DWORD) cbString,    // number of bytes in szBuffer
-    &amp;cbWritten,          // number of bytes written
+    &cbWritten,          // number of bytes written
     NULL);               // no overlapped I/O
 
 EnumResourceTypes(hExe,              // module handle
@@ -253,14 +253,14 @@ BOOL EnumTypesFunc(
         }
     }
 
-    hResult = StringCchLength(szBuffer, sizeof(szBuffer)/sizeof(TCHAR), &amp;cbString);
+    hResult = StringCchLength(szBuffer, sizeof(szBuffer)/sizeof(TCHAR), &cbString);
     if (FAILED(hResult))
     {
         // Add code to fail as securely as possible.
         return FALSE;
     }
 
-    WriteFile(g_hFile, szBuffer, (DWORD) cbString, &amp;cbWritten, NULL);
+    WriteFile(g_hFile, szBuffer, (DWORD) cbString, &cbWritten, NULL);
     // Find the names of all resources of type lpType.
     EnumResourceNames(hModule,
         lpType,
@@ -307,14 +307,14 @@ BOOL EnumNamesFunc(
         }
     }
 
-    hResult = StringCchLength(szBuffer, sizeof(szBuffer)/sizeof(TCHAR), &amp;cbString);
+    hResult = StringCchLength(szBuffer, sizeof(szBuffer)/sizeof(TCHAR), &cbString);
     if (FAILED(hResult))
     {
         // Add code to fail as securely as possible.
         return FALSE;
     }
    
-    WriteFile(g_hFile, szBuffer, (DWORD) cbString, &amp;cbWritten, NULL);
+    WriteFile(g_hFile, szBuffer, (DWORD) cbString, &cbWritten, NULL);
     // Find the languages of all resources of type
     // lpType and name lpName.
     EnumResourceLanguages(hModule,
@@ -352,14 +352,14 @@ BOOL EnumLangsFunc(
         return FALSE;
     }
 
-    hResult = StringCchLength(szBuffer, sizeof(szBuffer)/sizeof(TCHAR), &amp;cbString);
+    hResult = StringCchLength(szBuffer, sizeof(szBuffer)/sizeof(TCHAR), &cbString);
     if (FAILED(hResult))
     {
         // Add code to fail as securely as possible.
         return FALSE;
     }
 
-    WriteFile(g_hFile, szBuffer, (DWORD) cbString, &amp;cbWritten, NULL); 
+    WriteFile(g_hFile, szBuffer, (DWORD) cbString, &cbWritten, NULL); 
     // Write the resource handle and size to buffer.
     hResult = StringCchPrintf(szBuffer,
         sizeof(szBuffer)/sizeof(TCHAR),
@@ -372,14 +372,14 @@ BOOL EnumLangsFunc(
         return FALSE;
     }
 
-    hResult = StringCchLength(szBuffer, sizeof(szBuffer)/sizeof(TCHAR), &amp;cbString);
+    hResult = StringCchLength(szBuffer, sizeof(szBuffer)/sizeof(TCHAR), &cbString);
     if (FAILED(hResult))
     {
         // Add code to fail as securely as possible.
         return FALSE;
     }
 
-    WriteFile(g_hFile, szBuffer, (DWORD)cbString, &amp;cbWritten, NULL);
+    WriteFile(g_hFile, szBuffer, (DWORD)cbString, &cbWritten, NULL);
     return TRUE;
 }
 ```

@@ -147,7 +147,7 @@ my ($process, $outParam, $processid, $inParam, $objMethod);
 eval { $process = 
  Win32::OLE->GetObject("winmgmts:{impersonationLevel=impersonate}!\\\\.\\root\\cimv2:Win32_Process"); };
 
-if (!$@ &amp;&amp; defined $process)
+if (!$@ && defined $process)
 {
  $objMethod = $process->Methods_("Create");
 

@@ -76,15 +76,15 @@ public:
     D3DXVECTOR2_16F() {};
     D3DXVECTOR2_16F( CONST FLOAT * );
     D3DXVECTOR2_16F( CONST D3DXFLOAT16 * );
-    D3DXVECTOR2_16F( CONST D3DXFLOAT16 &amp;x, CONST D3DXFLOAT16 &amp;y );
+    D3DXVECTOR2_16F( CONST D3DXFLOAT16 &x, CONST D3DXFLOAT16 &y );
 
     // casting
     operator D3DXFLOAT16* ();
     operator CONST D3DXFLOAT16* () const;
 
     // binary operators
-    BOOL operator == ( CONST D3DXVECTOR2_16F&amp; ) const;
-    BOOL operator != ( CONST D3DXVECTOR2_16F&amp; ) const;
+    BOOL operator == ( CONST D3DXVECTOR2_16F& ) const;
+    BOOL operator != ( CONST D3DXVECTOR2_16F& ) const;
 
 public:
 #endif //__cplusplus

@@ -30,7 +30,7 @@ Calls the cached PSO (Pipeline State Object) subobject callback of an object tha
 
 ```C++
 void CachedPSOCb(
-  [ref] const D3D12_CACHED_PIPELINE_STATE &amp;CachedPSO
+  [ref] const D3D12_CACHED_PIPELINE_STATE &CachedPSO
 );
 ```
 

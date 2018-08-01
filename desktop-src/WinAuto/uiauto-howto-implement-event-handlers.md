@@ -48,13 +48,13 @@ public:
     // IUnknown methods.
     ULONG STDMETHODCALLTYPE AddRef() 
     {
-        ULONG ret = InterlockedIncrement(&amp;_refCount);
+        ULONG ret = InterlockedIncrement(&_refCount);
         return ret;
     }
 
     ULONG STDMETHODCALLTYPE Release() 
     {
-        ULONG ret = InterlockedDecrement(&amp;_refCount);
+        ULONG ret = InterlockedDecrement(&_refCount);
         if (ret == 0) 
         {
             delete this;
@@ -113,14 +113,14 @@ int main(int argc, char* argv[])
 
     CoInitializeEx(NULL,COINIT_MULTITHREADED);
     IUIAutomation* pAutomation = NULL;
-    hr = CoCreateInstance(__uuidof(CUIAutomation), NULL,CLSCTX_INPROC_SERVER, __uuidof(IUIAutomation), (void**)&amp;pAutomation);
+    hr = CoCreateInstance(__uuidof(CUIAutomation), NULL,CLSCTX_INPROC_SERVER, __uuidof(IUIAutomation), (void**)&pAutomation);
     if(FAILED(hr) || pAutomation==NULL) 
     {
         ret = 1;
         goto cleanup;
     }
     // Use root element for listening to window and tooltip creation and destruction.
-    hr = pAutomation->GetRootElement(&amp;pTargetElement);
+    hr = pAutomation->GetRootElement(&pTargetElement);
     if (FAILED(hr) || pTargetElement==NULL) 
     {
         ret = 1;
@@ -217,13 +217,13 @@ public:
     //IUnknown methods.
     ULONG STDMETHODCALLTYPE AddRef() 
     {
-        ULONG ret = InterlockedIncrement(&amp;_refCount);
+        ULONG ret = InterlockedIncrement(&_refCount);
         return ret;
     }
 
     ULONG STDMETHODCALLTYPE Release() 
     {
-        ULONG ret = InterlockedDecrement(&amp;_refCount);
+        ULONG ret = InterlockedDecrement(&_refCount);
         if (ret == 0) 
         {
             delete this;
@@ -264,7 +264,7 @@ int main(int argc, char* argv[])
 
     CoInitializeEx(NULL,COINIT_MULTITHREADED);
     IUIAutomation* pAutomation = NULL;
-    hr = CoCreateInstance(__uuidof(CUIAutomation), NULL,CLSCTX_INPROC_SERVER, __uuidof(IUIAutomation), (void**)&amp;pAutomation);
+    hr = CoCreateInstance(__uuidof(CUIAutomation), NULL,CLSCTX_INPROC_SERVER, __uuidof(IUIAutomation), (void**)&pAutomation);
     if (FAILED(hr) || pAutomation == NULL)
     {
         ret = 1;
@@ -341,13 +341,13 @@ public:
     //IUnknown methods.
     ULONG STDMETHODCALLTYPE AddRef() 
     {
-        ULONG ret = InterlockedIncrement(&amp;_refCount);
+        ULONG ret = InterlockedIncrement(&_refCount);
         return ret;
     }
 
     ULONG STDMETHODCALLTYPE Release() 
     {
-        ULONG ret = InterlockedDecrement(&amp;_refCount);
+        ULONG ret = InterlockedDecrement(&_refCount);
         if (ret == 0) 
         {
             delete this;
@@ -398,7 +398,7 @@ int main(int argc, char* argv[])
     CoInitializeEx(NULL,COINIT_MULTITHREADED);
 
     IUIAutomation* pAutomation = NULL;
-    hr = CoCreateInstance(__uuidof(CUIAutomation), NULL, CLSCTX_INPROC_SERVER, __uuidof(IUIAutomation), (void**)&amp;pAutomation);
+    hr = CoCreateInstance(__uuidof(CUIAutomation), NULL, CLSCTX_INPROC_SERVER, __uuidof(IUIAutomation), (void**)&pAutomation);
     if (FAILED(hr) || pAutomation==NULL) 
     {
         ret = 1;
@@ -413,8 +413,8 @@ int main(int argc, char* argv[])
 
     // Get mouse cursor position and get element from point.
     POINT pt;
-    GetPhysicalCursorPos(&amp;pt);
-    hr = pAutomation->ElementFromPoint(pt, &amp;pTargetElement);
+    GetPhysicalCursorPos(&pt);
+    hr = pAutomation->ElementFromPoint(pt, &pTargetElement);
     if (FAILED(hr) || pTargetElement==NULL) 
     {
         ret = 1;
@@ -496,13 +496,13 @@ public:
     // IUnknown methods.
     ULONG STDMETHODCALLTYPE AddRef() 
     {
-        ULONG ret = InterlockedIncrement(&amp;_refCount);
+        ULONG ret = InterlockedIncrement(&_refCount);
         return ret;
     }
 
     ULONG STDMETHODCALLTYPE Release() 
     {
-        ULONG ret = InterlockedDecrement(&amp;_refCount);
+        ULONG ret = InterlockedDecrement(&_refCount);
         if (ret == 0) 
         {
             delete this;
@@ -564,7 +564,7 @@ int main(int argc, char* argv[])
     CoInitializeEx(NULL,COINIT_MULTITHREADED);
 
     IUIAutomation* pAutomation=NULL;
-    hr = CoCreateInstance(__uuidof(CUIAutomation), NULL, CLSCTX_INPROC_SERVER, __uuidof(IUIAutomation), (void**)&amp;pAutomation);
+    hr = CoCreateInstance(__uuidof(CUIAutomation), NULL, CLSCTX_INPROC_SERVER, __uuidof(IUIAutomation), (void**)&pAutomation);
     if (FAILED(hr) || pAutomation == NULL) 
     {
         ret = 1;
@@ -579,8 +579,8 @@ int main(int argc, char* argv[])
 
     // Get mouse cursor position and get element from point.
     POINT pt;
-    GetPhysicalCursorPos(&amp;pt);
-    hr = pAutomation->ElementFromPoint(pt, &amp;pTargetElement);
+    GetPhysicalCursorPos(&pt);
+    hr = pAutomation->ElementFromPoint(pt, &pTargetElement);
     if (FAILED(hr) || pTargetElement == NULL) 
     {
         ret = 1;

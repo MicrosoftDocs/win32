@@ -42,7 +42,7 @@ int main(int argc, char **argv)
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_ITaskScheduler,
-                          (void **) &amp;pITS);
+                          (void **) &pITS);
     if (FAILED(hr))
     {
       CoUninitialize();
@@ -58,7 +58,7 @@ int main(int argc, char **argv)
   // Call ITaskScheduler::Enum to get an enumeration object.
   /////////////////////////////////////////////////////////////////
   IEnumWorkItems *pIEnum;
-  hr = pITS->Enum(&amp;pIEnum);
+  hr = pITS->Enum(&pIEnum);
   pITS->Release();
   if (FAILED(hr))
   {
@@ -73,9 +73,9 @@ int main(int argc, char **argv)
   LPWSTR *lpwszNames;
   DWORD dwFetchedTasks = 0;
   while (SUCCEEDED(pIEnum->Next(TASKS_TO_RETRIEVE,
-                                &amp;lpwszNames,
-                                &amp;dwFetchedTasks))
-                  &amp;&amp; (dwFetchedTasks != 0))
+                                &lpwszNames,
+                                &dwFetchedTasks))
+                  && (dwFetchedTasks != 0))
   {
     ///////////////////////////////////////////////////////////////
     // Process each task. Note that this example prints the 

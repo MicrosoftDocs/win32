@@ -17,11 +17,11 @@ After you have captured some video to a file, you can switch to a new file by st
 ```C++
 IBaseFilter *pMux;
 IFileSinkFilter *pSink
-hr = pBuild->SetOutputFileName(&amp;MEDIASUBTYPE_Avi, L"C:\\YourFileName.avi", 
-    &amp;pMux, &amp;pSink);
+hr = pBuild->SetOutputFileName(&MEDIASUBTYPE_Avi, L"C:\\YourFileName.avi", 
+    &pMux, &pSink);
 if (SUCCEEDED(hr))
 {
-    hr = pBuild->RenderStream(&amp;PIN_CATEGORY_CAPTURE, &amp;MEDIATYPE_Video, 
+    hr = pBuild->RenderStream(&PIN_CATEGORY_CAPTURE, &MEDIATYPE_Video, 
         pCap, NULL, pMux);
 
     if (SUCCEEDED(hr))

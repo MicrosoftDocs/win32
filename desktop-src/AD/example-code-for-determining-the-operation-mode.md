@@ -29,10 +29,10 @@ HRESULT hr = E_FAIL;
 VARIANT var;
 if (pDomain)
 {
-    VariantClear(&amp;var);
+    VariantClear(&var);
  
     // Get the ntMixedDomain attribute.
-    hr = pDomain->Get(CComBSTR("ntMixedDomain"), &amp;var);
+    hr = pDomain->Get(CComBSTR("ntMixedDomain"), &var);
     if (SUCCEEDED(hr))
     {
  
@@ -51,7 +51,7 @@ if (pDomain)
                 hr=E_FAIL;
         }
     }
-    VariantClear(&amp;var);
+    VariantClear(&var);
 }
 return hr;
  

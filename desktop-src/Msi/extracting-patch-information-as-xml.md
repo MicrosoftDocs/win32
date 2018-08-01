@@ -66,14 +66,14 @@ void main()
 
     // Determine size of XML blob buffer.
     if (ERROR_SUCCESS == (uiStatus = MsiExtractPatchXMLData(szPatchPath, 
-         /*dwReserved: must be 0*/ 0, szXMLData, &amp;cchXMLData)))
+         /*dwReserved: must be 0*/ 0, szXMLData, &cchXMLData)))
     {
         // cchXMLData now includes size of szXMLData in characters not including terminating NULL
         ++cchXMLData;
 
         szXMLData = new TCHAR[cchXMLData];
         if (ERROR_SUCCESS == (uiStatus = MsiExtractPatchXMLData(szPatchPath, 
-            /*dwReserved: must be 0*/ 0, szXMLData, &amp;cchXMLData)))
+            /*dwReserved: must be 0*/ 0, szXMLData, &cchXMLData)))
         {
             //
             // szXMLData now contains the XML patch applicability blob. This could be

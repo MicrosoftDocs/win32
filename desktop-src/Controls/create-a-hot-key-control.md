@@ -59,7 +59,7 @@ HWND WINAPI InitializeHotkey(HWND hwndDlg)
     icex.dwSize = sizeof(INITCOMMONCONTROLSEX);
     icex.dwICC = ICC_HOTKEY_CLASS;   //set dwICC member to ICC_HOTKEY_CLASS    
                                      // this loads the Hot Key control class.
-    InitCommonControlsEx(&amp;icex);  
+    InitCommonControlsEx(&icex);  
  
     hwndHot = CreateWindowEx(0,                        // no extended styles 
                              HOTKEY_CLASS,             // class name 

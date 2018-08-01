@@ -54,37 +54,37 @@ void __cdecl wmain()
             // Get the next subscription.
             bRetVal = EcEnumNextSubscription(hEnumerator, 
                 (DWORD) buffer.size(),
-                (LPWSTR) &amp;buffer[0],
-                &amp;dwBufferSizeUsed);
+                (LPWSTR) &buffer[0],
+                &dwBufferSizeUsed);
             dwError = GetLastError();
 
             // If the buffer is not large enough, resize it to accommodate the
             // subscription information.
-            if (!bRetVal &amp;&amp; ERROR_INSUFFICIENT_BUFFER == dwError)
+            if (!bRetVal && ERROR_INSUFFICIENT_BUFFER == dwError)
             {
                 dwError = ERROR_SUCCESS;
                 buffer.resize(dwBufferSizeUsed);
 
                 bRetVal = EcEnumNextSubscription(hEnumerator,
                     (DWORD) buffer.size(),
-                    (LPWSTR) &amp;buffer[0],
-                    &amp;dwBufferSizeUsed);
+                    (LPWSTR) &buffer[0],
+                    &dwBufferSizeUsed);
                 dwError = GetLastError();
             }
 
-            if (!bRetVal &amp;&amp; ERROR_NO_MORE_ITEMS == dwError)
+            if (!bRetVal && ERROR_NO_MORE_ITEMS == dwError)
             {
                 dwError = ERROR_SUCCESS;
                 break;
             }
 
-            if (bRetVal &amp;&amp; ERROR_SUCCESS != dwError)
+            if (bRetVal && ERROR_SUCCESS != dwError)
             {
                 break;
             }
             
             // Output the subscription name.
-            wprintf(L"%s\n", (LPCWSTR) &amp;buffer[0]);    
+            wprintf(L"%s\n", (LPCWSTR) &buffer[0]);    
         }
     }
     else
@@ -96,7 +96,7 @@ void __cdecl wmain()
             NULL,
             dwRetVal,
             0,
-            (LPWSTR) &amp;lpwszBuffer,
+            (LPWSTR) &lpwszBuffer,
             0,
             NULL);
 

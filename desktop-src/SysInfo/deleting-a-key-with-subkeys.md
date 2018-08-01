@@ -56,7 +56,7 @@ BOOL RegDelnodeRecurse (HKEY hKeyRoot, LPTSTR lpSubKey)
     if (lResult == ERROR_SUCCESS) 
         return TRUE;
 
-    lResult = RegOpenKeyEx (hKeyRoot, lpSubKey, 0, KEY_READ, &amp;hKey);
+    lResult = RegOpenKeyEx (hKeyRoot, lpSubKey, 0, KEY_READ, &hKey);
 
     if (lResult != ERROR_SUCCESS) 
     {
@@ -84,8 +84,8 @@ BOOL RegDelnodeRecurse (HKEY hKeyRoot, LPTSTR lpSubKey)
     // Enumerate the keys
 
     dwSize = MAX_PATH;
-    lResult = RegEnumKeyEx(hKey, 0, szName, &amp;dwSize, NULL,
-                           NULL, NULL, &amp;ftWrite);
+    lResult = RegEnumKeyEx(hKey, 0, szName, &dwSize, NULL,
+                           NULL, NULL, &ftWrite);
 
     if (lResult == ERROR_SUCCESS) 
     {
@@ -100,8 +100,8 @@ BOOL RegDelnodeRecurse (HKEY hKeyRoot, LPTSTR lpSubKey)
 
             dwSize = MAX_PATH;
 
-            lResult = RegEnumKeyEx(hKey, 0, szName, &amp;dwSize, NULL,
-                                   NULL, NULL, &amp;ftWrite);
+            lResult = RegEnumKeyEx(hKey, 0, szName, &dwSize, NULL,
+                                   NULL, NULL, &ftWrite);
 
         } while (lResult == ERROR_SUCCESS);
     }

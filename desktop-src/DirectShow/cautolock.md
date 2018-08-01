@@ -33,7 +33,7 @@ The following code example shows how to use this class:
 ```
 CCritSec csMyLock;  // Critical section is not locked yet.
 {
-    CAutoLock cObjectLock(&amp;csMyLock);  // Lock the critical section.
+    CAutoLock cObjectLock(&csMyLock);  // Lock the critical section.
 
     // Protected section of code.     
 

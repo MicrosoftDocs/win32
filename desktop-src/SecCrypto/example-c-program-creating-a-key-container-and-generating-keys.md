@@ -75,7 +75,7 @@ void main(void)
     // Begin processing. Attempt to acquire a context by using the 
     // specified key container.
     if(CryptAcquireContext(
-        &amp;hCryptProv,
+        &hCryptProv,
         pszContainerName,
         NULL,
         PROV_RSA_FULL,
@@ -95,7 +95,7 @@ void main(void)
         if(GetLastError() == NTE_BAD_KEYSET)
         {
             if(CryptAcquireContext(
-                &amp;hCryptProv, 
+                &hCryptProv, 
                 pszContainerName, 
                 NULL, 
                 PROV_RSA_FULL, 
@@ -126,7 +126,7 @@ void main(void)
     if(CryptGetUserKey(
         hCryptProv,
         AT_SIGNATURE,
-        &amp;hKey))
+        &hKey))
     {
         _tprintf(TEXT("A signature key is available.\n"));
     }
@@ -145,7 +145,7 @@ void main(void)
                 hCryptProv,
                 AT_SIGNATURE,
                 0,
-                &amp;hKey)) 
+                &hKey)) 
             {
                 _tprintf(TEXT("Created a signature key pair.\n"));
             }
@@ -180,7 +180,7 @@ void main(void)
     if(CryptGetUserKey(
         hCryptProv,
         AT_KEYEXCHANGE,
-        &amp;hKey)) 
+        &hKey)) 
     {
         _tprintf(TEXT("An exchange key exists.\n"));
     }
@@ -200,7 +200,7 @@ void main(void)
                 hCryptProv,
                 AT_KEYEXCHANGE,
                 0,
-                &amp;hKey)) 
+                &hKey)) 
             {
                 _tprintf(TEXT("Exchange key pair created.\n"));
             }

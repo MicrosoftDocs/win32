@@ -46,7 +46,7 @@ From an existing XPS document whose file name is stored in *xpsDocumentFilename*
     hr = xpsFactory->CreatePackageFromFile(
         xpsDocumentFilename,
         FALSE,
-        &amp;xpsPackage);
+        &xpsPackage);
 
     // xpsPackage now contains a pointer to the IXpsOMPackage
     // object that has been populated with the contents
@@ -83,11 +83,11 @@ The following code example obtains a pointer to the [**IXpsOMDocumentSequence**]
     IXpsOMDocumentCollection        *docs;
 
     // get the fixed document sequence of the package
-    hr = xpsPackage->GetDocumentSequence(&amp;docSeq);
+    hr = xpsPackage->GetDocumentSequence(&docSeq);
 
     // get the collection of fixed documents in 
     //  the fixed document sequence
-    hr = docSeq->GetDocuments(&amp;docs);
+    hr = docSeq->GetDocuments(&docs);
 ```
 
 
@@ -103,10 +103,10 @@ The following is code example obtains a pointer to the [**IXpsOMCoreProperties**
     LPWSTR                          title;
 
     // get the fixed document sequence of the package
-    hr = xpsPackage->GetCoreProperties(&amp;coreProps);
+    hr = xpsPackage->GetCoreProperties(&coreProps);
 
     // get the title property 
-    hr = coreProps->GetTitle(&amp;title);
+    hr = coreProps->GetTitle(&title);
 
     // do something with the title property here...
 

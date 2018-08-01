@@ -59,31 +59,31 @@ HRESULT WriteASFFile(
         MF_OPENMODE_DELETE_IF_EXIST,
         MF_FILEFLAGS_NONE,
         pszFile,
-        &amp;pWmaStream
+        &pWmaStream
         );
 
     // Get the size of the ASF Header Object.
     if (SUCCEEDED(hr))
     {
-        hr = pContentInfo->GenerateHeader(NULL, &amp;cbHeaderSize);
+        hr = pContentInfo->GenerateHeader(NULL, &cbHeaderSize);
     }
 
     // Create a media buffer.
     if (SUCCEEDED(hr))
     {
-        hr = MFCreateMemoryBuffer(cbHeaderSize, &amp;pHeaderBuffer);
+        hr = MFCreateMemoryBuffer(cbHeaderSize, &pHeaderBuffer);
     }
 
     // Populate the media buffer with the ASF Header Object.
     if (SUCCEEDED(hr))
     {
-        hr = pContentInfo->GenerateHeader(pHeaderBuffer, &amp;cbHeaderSize);
+        hr = pContentInfo->GenerateHeader(pHeaderBuffer, &cbHeaderSize);
     }
  
     // Write the header contents to the byte stream for the output file.
     if (SUCCEEDED(hr))
     {
-        hr = WriteBufferToByteStream(pWmaStream, pHeaderBuffer, &amp;cbWritten);
+        hr = WriteBufferToByteStream(pWmaStream, pHeaderBuffer, &cbWritten);
     }
 
     if (SUCCEEDED(hr))
@@ -98,8 +98,8 @@ HRESULT WriteASFFile(
         hr = AppendToByteStream(pDataStream, pWmaStream);
     }
 
-    SafeRelease(&amp;pHeaderBuffer);
-    SafeRelease(&amp;pWmaStream);
+    SafeRelease(&pHeaderBuffer);
+    SafeRelease(&pWmaStream);
 
     return hr;
 }

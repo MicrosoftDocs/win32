@@ -22,7 +22,7 @@ DVD playback also requires an MPEG-2 decoder. Hardware and software MPEG-2 decod
 ```C++
 IDvdGraphBuilder *pBuild = NULL;
 hr = CoCreateInstance(CLSID_DvdGraphBuilder, NULL, 
-    CLSCTX_INPROC_SERVER, IID_IDvdGraphBuilder, (void **)&amp;pBuild);
+    CLSCTX_INPROC_SERVER, IID_IDvdGraphBuilder, (void **)&pBuild);
 ```
 
 
@@ -32,7 +32,7 @@ At this point, you can select and configure the video renderer before you build 
 
 ```C++
 AM_DVD_RENDERSTATUS buildStatus;
-hr = pBuild->RenderDvdVideoVolume(L"Z:\\video_ts", 0, &amp;buildStatus);
+hr = pBuild->RenderDvdVideoVolume(L"Z:\\video_ts", 0, &buildStatus);
 ```
 
 
@@ -48,7 +48,7 @@ Next, get a pointer to the Filter Graph Manager by calling [**IDvdGraphBuilder::
 
 ```C++
 IGraphBuilder *pGraph = NULL;
-hr =  pBuild->GetFiltergraph(&amp;m_pGraph);
+hr =  pBuild->GetFiltergraph(&m_pGraph);
 ```
 
 
@@ -65,7 +65,7 @@ For example, the following code returns the [**IDvdControl2**](/windows/desktop/
 
 ```C++
 IDvdControl2 *pDvdControl = NULL;
-hr = pBuild->GetDvdInterface(IID_IDvdControl2, (void**)&amp;pDvdControl);
+hr = pBuild->GetDvdInterface(IID_IDvdControl2, (void**)&pDvdControl);
 ```
 
 

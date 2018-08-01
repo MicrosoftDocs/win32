@@ -20,7 +20,7 @@ After you implement the error logging class, create a new instance of the class.
 IAMSetErrorLog  *pSetLog = NULL;
 IAMErrorLog     *pLog = new CErrReporter();
 
-pTL->QueryInterface(IID_IAMSetErrorLog, (void **)&amp;pSetLog);
+pTL->QueryInterface(IID_IAMSetErrorLog, (void **)&pSetLog);
 pSetLog->put_ErrorLog(pLog);
 pSetLog->Release();
 ```

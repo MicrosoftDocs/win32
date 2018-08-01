@@ -29,7 +29,7 @@ HRESULT GetCollectionObject(IMFCollection *pCollection, DWORD dwIndex, Q **ppObj
     *ppObject = NULL;   // zero output
 
     IUnknown *pUnk = NULL;
-    HRESULT hr = pCollection->GetElement(dwIndex, &amp;pUnk);
+    HRESULT hr = pCollection->GetElement(dwIndex, &pUnk);
     if (SUCCEEDED(hr))
     {
         hr = pUnk->QueryInterface(IID_PPV_ARGS(ppObject));
@@ -38,22 +38,22 @@ HRESULT GetCollectionObject(IMFCollection *pCollection, DWORD dwIndex, Q **ppObj
     return hr;
 }
 
-HRESULT SetMediaStop(IMFTopology *pTopology, const LONGLONG&amp; stop)
+HRESULT SetMediaStop(IMFTopology *pTopology, const LONGLONG& stop)
 {
     IMFCollection *pCol = NULL;
     DWORD cNodes;
 
-    HRESULT hr = pTopology->GetSourceNodeCollection(&amp;pCol);
+    HRESULT hr = pTopology->GetSourceNodeCollection(&pCol);
     if (SUCCEEDED(hr))
     {
-        hr = pCol->GetElementCount(&amp;cNodes);
+        hr = pCol->GetElementCount(&cNodes);
     }
     if (SUCCEEDED(hr))
     {
         for (DWORD i = 0; i < cNodes; i++)
         {
             IMFTopologyNode *pNode;
-            hr = GetCollectionObject(pCol, i, &amp;pNode);
+            hr = GetCollectionObject(pCol, i, &pNode);
             if (SUCCEEDED(hr))
             {
                 pNode->SetUINT64(MF_TOPONODE_MEDIASTOP, stop);
@@ -61,7 +61,7 @@ HRESULT SetMediaStop(IMFTopology *pTopology, const LONGLONG&amp; stop)
             pNode->Release();
         }
     }
-    SafeRelease(&amp;pCol);
+    SafeRelease(&pCol);
     return hr;
 }
 ```
@@ -100,7 +100,7 @@ The following code shows these steps.
 
 
 ```C++
-HRESULT SetMediaStopDynamic(IMFMediaSession *pSession, IMFTopology *pTopology, const LONGLONG&amp; stop)
+HRESULT SetMediaStopDynamic(IMFMediaSession *pSession, IMFTopology *pTopology, const LONGLONG& stop)
 {
     if (stop > MAXUINT32)
     {
@@ -111,27 +111,27 @@ HRESULT SetMediaStopDynamic(IMFMediaSession *pSession, IMFTopology *pTopology, c
     IMFCollection *pCol = NULL;
     IMFTopologyNode *pNode = NULL;
 
-    HRESULT hr = MFGetService(pSession, MF_TOPONODE_ATTRIBUTE_EDITOR_SERVICE, IID_PPV_ARGS(&amp;pAttr));
+    HRESULT hr = MFGetService(pSession, MF_TOPONODE_ATTRIBUTE_EDITOR_SERVICE, IID_PPV_ARGS(&pAttr));
     if (FAILED(hr))
     {
         goto done;
     }
 
     TOPOID id;
-    hr = pTopology->GetTopologyID(&amp;id);
+    hr = pTopology->GetTopologyID(&id);
     if (FAILED(hr))
     {
         goto done;
     }
 
     DWORD cNodes;
-    hr = pTopology->GetSourceNodeCollection(&amp;pCol);
+    hr = pTopology->GetSourceNodeCollection(&pCol);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pCol->GetElementCount(&amp;cNodes);
+    hr = pCol->GetElementCount(&cNodes);
     if (FAILED(hr))
     {
         goto done;
@@ -140,14 +140,14 @@ HRESULT SetMediaStopDynamic(IMFMediaSession *pSession, IMFTopology *pTopology, c
     for (DWORD i = 0; i < cNodes; i++)
     {
         IMFTopologyNode *pNode;
-        hr = GetCollectionObject(pCol, i, &amp;pNode);
+        hr = GetCollectionObject(pCol, i, &pNode);
         if (FAILED(hr))
         {
             goto done;
         }
 
         TOPOID nodeID;
-        hr = pNode->GetTopoNodeID(&amp;nodeID);
+        hr = pNode->GetTopoNodeID(&nodeID);
         if (FAILED(hr))
         {
             goto done;
@@ -159,18 +159,18 @@ HRESULT SetMediaStopDynamic(IMFMediaSession *pSession, IMFTopology *pTopology, c
         update.attrType = MF_ATTRIBUTE_UINT64;
         update.u64 = (UINT32)stop;
 
-        hr = pAttr->UpdateNodeAttributes(id, 1, &amp;update);
+        hr = pAttr->UpdateNodeAttributes(id, 1, &update);
         if (FAILED(hr))
         {
             goto done;
         }
-        SafeRelease(&amp;pNode);
+        SafeRelease(&pNode);
     }
 
 done:
-    SafeRelease(&amp;pNode);
-    SafeRelease(&amp;pCol);
-    SafeRelease(&amp;pAttr);
+    SafeRelease(&pNode);
+    SafeRelease(&pCol);
+    SafeRelease(&pAttr);
     return hr;
 }
 ```

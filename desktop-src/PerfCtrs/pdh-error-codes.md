@@ -43,7 +43,7 @@ void main(void)
                        hPdhLibrary, 
                        dwErrorCode,
                        0,  
-                       (LPWSTR)&amp;pMessage, 
+                       (LPWSTR)&pMessage, 
                        0, 
                        //NULL))
                        (va_list*)pArgs))

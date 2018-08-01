@@ -48,7 +48,7 @@ int main()
             NULL, 
             CLSCTX_ALL, 
             IID_IMbnInterfaceManager, 
-            (void**)&amp;g_InterfaceMgr);
+            (void**)&g_InterfaceMgr);
         if (FAILED(hr))
         {
             returnVal = hr; 
@@ -58,7 +58,7 @@ int main()
         SAFEARRAY *psa = NULL;
 
         //Do the below each time(do not cache functional objects)
-        hr = g_InterfaceMgr->GetInterfaces(&amp;psa);
+        hr = g_InterfaceMgr->GetInterfaces(&psa);
         if (FAILED(hr))
         {
             returnVal = hr; 
@@ -68,14 +68,14 @@ int main()
         LONG lLower;
         LONG lUpper;
 
-        hr = SafeArrayGetLBound(psa, 1, &amp;lLower);
+        hr = SafeArrayGetLBound(psa, 1, &lLower);
         if (FAILED(hr))
         {
             returnVal = hr; 
             break;
         }
 
-        hr = SafeArrayGetUBound(psa, 1, &amp;lUpper);
+        hr = SafeArrayGetUBound(psa, 1, &lUpper);
         if (FAILED(hr))
         {
             returnVal = hr; 
@@ -87,14 +87,14 @@ int main()
 
         for (LONG l = lLower; l <= lUpper; l++)
         {
-            hr = SafeArrayGetElement(psa, &amp;l, (void*)(&amp;pInf));
+            hr = SafeArrayGetElement(psa, &l, (void*)(&pInf));
             if (FAILED(hr))
             {
                 returnVal = hr; 
                 break;
             }
 
-            hr = pInf->GetReadyState(&amp;readyState);
+            hr = pInf->GetReadyState(&readyState);
             if (FAILED(hr))
             {
                 returnVal = hr; 
@@ -167,7 +167,7 @@ void CreateVisibleProviderList(LPCWSTR interfaceID)
             NULL, 
             CLSCTX_ALL, 
             IID_IMbnInterfaceManager, 
-            (void**)&amp;g_InterfaceMgr);
+            (void**)&g_InterfaceMgr);
     
     if (FAILED(hr))
     {
@@ -182,19 +182,19 @@ void CreateVisibleProviderList(LPCWSTR interfaceID)
 
     ULONG age;
 
-    hr = pInterface->GetVisibleProviders(&amp;age, &amp;visibleProviders);
+    hr = pInterface->GetVisibleProviders(&age, &visibleProviders);
     if (FAILED(hr)) 
     {
         goto ERROR_0;
     }
 
-    hr = SafeArrayGetLBound(visibleProviders, 1, &amp;visibleLower);
+    hr = SafeArrayGetLBound(visibleProviders, 1, &visibleLower);
     if (FAILED(hr)) 
     {
         goto ERROR_0;
     }
 
-    hr = SafeArrayGetUBound(visibleProviders, 1, &amp;visibleUpper);
+    hr = SafeArrayGetUBound(visibleProviders, 1, &visibleUpper);
     if (FAILED(hr)) 
     {
         goto ERROR_0;
@@ -222,7 +222,7 @@ void CreateVisibleProviderList(LPCWSTR interfaceID)
     {
         //use zeromemory before accessing any elements in a safearray
         ZeroMemory(pProvider, sizeof(MBN_PROVIDER));
-        hr = SafeArrayGetElement(visibleProviders, &amp;vIndex, (void *)pProvider);
+        hr = SafeArrayGetElement(visibleProviders, &vIndex, (void *)pProvider);
         if (FAILED(hr)) 
         {
             continue;

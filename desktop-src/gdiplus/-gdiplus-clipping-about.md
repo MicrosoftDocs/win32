@@ -24,9 +24,9 @@ To draw with clipping, create a [**Graphics**](/windows/desktop/api/gdiplusgraph
 
 ```
 Region myRegion(Rect(20, 30, 100, 50));
-myGraphics.DrawRectangle(&amp;myPen, 20, 30, 100, 50);  
-myGraphics.SetClip(&amp;myRegion, CombineModeReplace);
-myGraphics.DrawLine(&amp;myPen, 0, 0, 200, 200);
+myGraphics.DrawRectangle(&myPen, 20, 30, 100, 50);  
+myGraphics.SetClip(&myRegion, CombineModeReplace);
+myGraphics.DrawLine(&myPen, 0, 0, 200, 200);
 ```
 
 

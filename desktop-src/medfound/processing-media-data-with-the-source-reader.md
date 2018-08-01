@@ -76,7 +76,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) PCWSTR* argv)
         {
             // Create the source reader.
             IMFSourceReader *pReader;
-            hr = MFCreateSourceReaderFromURL(pszURL, NULL, &amp;pReader);
+            hr = MFCreateSourceReaderFromURL(pszURL, NULL, &pReader);
             if (SUCCEEDED(hr))
             {
                 ReadMediaFile(pReader);
@@ -112,7 +112,7 @@ HRESULT EnumerateTypesForStream(IMFSourceReader *pReader, DWORD dwStreamIndex)
     while (SUCCEEDED(hr))
     {
         IMFMediaType *pType = NULL;
-        hr = pReader->GetNativeMediaType(dwStreamIndex, dwMediaTypeIndex, &amp;pType);
+        hr = pReader->GetNativeMediaType(dwStreamIndex, dwMediaTypeIndex, &pType);
         if (hr == MF_E_NO_MORE_TYPES)
         {
             hr = S_OK;
@@ -144,7 +144,7 @@ HRESULT EnumerateTypesForStream(IMFSourceReader *pReader, DWORD dwStreamIndex)
     while (SUCCEEDED(hr))
     {
         IMFMediaType *pType = NULL;
-        hr = pReader->GetNativeMediaType(dwStreamIndex, dwMediaTypeIndex, &amp;pType);
+        hr = pReader->GetNativeMediaType(dwStreamIndex, dwMediaTypeIndex, &pType);
         if (hr == MF_E_NO_MORE_TYPES)
         {
             hr = S_OK;
@@ -196,7 +196,7 @@ HRESULT ConfigureDecoder(IMFSourceReader *pReader, DWORD dwStreamIndex)
     IMFMediaType *pType = NULL;
 
     // Find the native format of the stream.
-    HRESULT hr = pReader->GetNativeMediaType(dwStreamIndex, 0, &amp;pNativeType);
+    HRESULT hr = pReader->GetNativeMediaType(dwStreamIndex, 0, &pNativeType);
     if (FAILED(hr))
     {
         return hr;
@@ -205,14 +205,14 @@ HRESULT ConfigureDecoder(IMFSourceReader *pReader, DWORD dwStreamIndex)
     GUID majorType, subtype;
 
     // Find the major type.
-    hr = pNativeType->GetGUID(MF_MT_MAJOR_TYPE, &amp;majorType);
+    hr = pNativeType->GetGUID(MF_MT_MAJOR_TYPE, &majorType);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Define the output type.
-    hr = MFCreateMediaType(&amp;pType);
+    hr = MFCreateMediaType(&pType);
     if (FAILED(hr))
     {
         goto done;
@@ -253,8 +253,8 @@ HRESULT ConfigureDecoder(IMFSourceReader *pReader, DWORD dwStreamIndex)
     }
 
 done:
-    SafeRelease(&amp;pNativeType);
-    SafeRelease(&amp;pType);
+    SafeRelease(&pNativeType);
+    SafeRelease(&pType);
     return hr;
 }
 ```
@@ -273,10 +273,10 @@ To get media data from the source, call the [**IMFSourceReader::ReadSample**](/w
         hr = pReader->ReadSample(
             MF_SOURCE_READER_ANY_STREAM,    // Stream index.
             0,                              // Flags.
-            &amp;streamIndex,                   // Receives the actual stream index. 
-            &amp;flags,                         // Receives status flags.
-            &amp;llTimeStamp,                   // Receives the time stamp.
-            &amp;pSample                        // Receives the sample or NULL.
+            &streamIndex,                   // Receives the actual stream index. 
+            &flags,                         // Receives status flags.
+            &llTimeStamp,                   // Receives the time stamp.
+            &pSample                        // Receives the sample or NULL.
             );
 ```
 
@@ -313,10 +313,10 @@ HRESULT ProcessSamples(IMFSourceReader *pReader)
         hr = pReader->ReadSample(
             MF_SOURCE_READER_ANY_STREAM,    // Stream index.
             0,                              // Flags.
-            &amp;streamIndex,                   // Receives the actual stream index. 
-            &amp;flags,                         // Receives status flags.
-            &amp;llTimeStamp,                   // Receives the time stamp.
-            &amp;pSample                        // Receives the sample or NULL.
+            &streamIndex,                   // Receives the actual stream index. 
+            &flags,                         // Receives status flags.
+            &llTimeStamp,                   // Receives the time stamp.
+            &pSample                        // Receives the sample or NULL.
             );
 
         if (FAILED(hr))
@@ -362,7 +362,7 @@ HRESULT ProcessSamples(IMFSourceReader *pReader)
             ++cSamples;
         }
 
-        SafeRelease(&amp;pSample);
+        SafeRelease(&pSample);
     }
 
     if (FAILED(hr))
@@ -373,7 +373,7 @@ HRESULT ProcessSamples(IMFSourceReader *pReader)
     {
         wprintf(L"Processed %d samples\n", cSamples);
     }
-    SafeRelease(&amp;pSample);
+    SafeRelease(&pSample);
     return hr;
 }
 ```
@@ -400,11 +400,11 @@ HRESULT GetDuration(IMFSourceReader *pReader, LONGLONG *phnsDuration)
 {
     PROPVARIANT var;
     HRESULT hr = pReader->GetPresentationAttribute(MF_SOURCE_READER_MEDIASOURCE, 
-        MF_PD_DURATION, &amp;var);
+        MF_PD_DURATION, &var);
     if (SUCCEEDED(hr))
     {
         hr = PropVariantToInt64(var, phnsDuration);
-        PropVariantClear(&amp;var);
+        PropVariantClear(&var);
     }
     return hr;
 }
@@ -427,23 +427,23 @@ HRESULT GetSourceFlags(IMFSourceReader *pReader, ULONG *pulFlags)
     ULONG flags = 0;
 
     PROPVARIANT var;
-    PropVariantInit(&amp;var);
+    PropVariantInit(&var);
 
     HRESULT hr = pReader->GetPresentationAttribute(
         MF_SOURCE_READER_MEDIASOURCE, 
         MF_SOURCE_READER_MEDIASOURCE_CHARACTERISTICS, 
-        &amp;var);
+        &var);
 
     if (SUCCEEDED(hr))
     {
-        hr = PropVariantToUInt32(var, &amp;flags);
+        hr = PropVariantToUInt32(var, &flags);
     }
     if (SUCCEEDED(hr))
     {
         *pulFlags = flags;
     }
 
-    PropVariantClear(&amp;var);
+    PropVariantClear(&var);
     return hr;
 }
 ```
@@ -471,7 +471,7 @@ BOOL SourceCanSeek(IMFSourceReader *pReader)
 {
     BOOL bCanSeek = FALSE;
     ULONG flags;
-    if (SUCCEEDED(GetSourceFlags(pReader, &amp;flags)))
+    if (SUCCEEDED(GetSourceFlags(pReader, &flags)))
     {
         bCanSeek = ((flags & MFMEDIASOURCE_CAN_SEEK) == MFMEDIASOURCE_CAN_SEEK);
     }
@@ -485,14 +485,14 @@ To seek, call the [**IMFSourceReader::SetCurrentPosition**](/windows/desktop/api
 
 
 ```C++
-HRESULT SetPosition(IMFSourceReader *pReader, const LONGLONG&amp; hnsPosition)
+HRESULT SetPosition(IMFSourceReader *pReader, const LONGLONG& hnsPosition)
 {
     PROPVARIANT var;
-    HRESULT hr = InitPropVariantFromInt64(hnsPosition, &amp;var);
+    HRESULT hr = InitPropVariantFromInt64(hnsPosition, &var);
     if (SUCCEEDED(hr))
     {
         hr = pReader->SetCurrentPosition(GUID_NULL, var);
-        PropVariantClear(&amp;var);
+        PropVariantClear(&var);
     }
     return hr;
 }

@@ -32,7 +32,7 @@ MMCKINFO mmckinfo;
 . 
 . 
 mmckinfo.fccType = mmioFOURCC('R', 'D', 'I', 'B'); 
-mmioCreateChunk(hmmio, &amp;mmckinfo, MMIO_CREATERIFF); 
+mmioCreateChunk(hmmio, &mmckinfo, MMIO_CREATERIFF); 
 ```
 
 

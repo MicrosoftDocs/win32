@@ -29,7 +29,7 @@ The following code example demonstrates how to determine whether a track is sele
 
 
 ```C++
-HRESULT CMainDlg::IsTrackSelected(long lIndex, bool &amp;bSelected)
+HRESULT CMainDlg::IsTrackSelected(long lIndex, bool &bSelected)
 {
     // The track is selected unless the
     // "SelectedForRip" attribute is true.
@@ -41,7 +41,7 @@ HRESULT CMainDlg::IsTrackSelected(long lIndex, bool &amp;bSelected)
 
     // Get an IWMPMedia from the Playlist.
     CComPtr<IWMPMedia> spMedia;
-    HRESULT hr = m_spPlaylist->get_item(lIndex, &amp;spMedia);
+    HRESULT hr = m_spPlaylist->get_item(lIndex, &spMedia);
 
     // Check whether it is selected for ripping.
     if (SUCCEEDED(hr))
@@ -52,7 +52,7 @@ HRESULT CMainDlg::IsTrackSelected(long lIndex, bool &amp;bSelected)
     {
         hr = spMedia->getItemInfo(
             bstrItemName,
-            &amp;bstrVal);
+            &bstrVal);
     }
     if (SUCCEEDED(hr))
     {
@@ -81,7 +81,7 @@ HRESULT CMainDlg::SelectTrack (long lIndex, bool bSelected)
 
     // Get an IWMPMedia from the Playlist.
     CComPtr<IWMPMedia> spMedia;
-    HRESULT hr = m_spPlaylist->get_item(lIndex, &amp;spMedia);
+    HRESULT hr = m_spPlaylist->get_item(lIndex, &spMedia);
 
     // Select the track for ripping.
     if (SUCCEEDED(hr))

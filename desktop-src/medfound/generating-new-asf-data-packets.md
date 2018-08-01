@@ -78,7 +78,7 @@ HRESULT GenerateASFDataPackets(
 
     while (dwMuxStatus & ASF_STATUSFLAGS_INCOMPLETE)
     {
-        hr = pMux->GetNextPacket(&amp;dwMuxStatus, &amp;pOutputSample);
+        hr = pMux->GetNextPacket(&dwMuxStatus, &pOutputSample);
 
         if (FAILED(hr))
         {
@@ -88,7 +88,7 @@ HRESULT GenerateASFDataPackets(
         if (pOutputSample)
         {
             //Convert to contiguous buffer
-            hr = pOutputSample->ConvertToContiguousBuffer(&amp;pDataPacketBuffer);
+            hr = pOutputSample->ConvertToContiguousBuffer(&pDataPacketBuffer);
             
             if (FAILED(hr))
             {
@@ -104,12 +104,12 @@ HRESULT GenerateASFDataPackets(
             }
         }
 
-        SafeRelease(&amp;pDataPacketBuffer);
-        SafeRelease(&amp;pOutputSample);
+        SafeRelease(&pDataPacketBuffer);
+        SafeRelease(&pOutputSample);
     }
 
-    SafeRelease(&amp;pOutputSample);
-    SafeRelease(&amp;pDataPacketBuffer);
+    SafeRelease(&pOutputSample);
+    SafeRelease(&pDataPacketBuffer);
     return hr;
 }
 ```

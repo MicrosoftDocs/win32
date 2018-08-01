@@ -66,7 +66,7 @@ hr = CoCreateInstance( CLSID_CEnroll,
                        NULL,
                        CLSCTX_INPROC_SERVER,
                        IID_ICEnroll4,
-                       (void **)&amp;pEnroll);
+                       (void **)&pEnroll);
 if ( FAILED( hr ) )
 {
     printf("Failed CoCreateInstance - pEnroll [%x]\n", hr);
@@ -78,7 +78,7 @@ hr = CoCreateInstance( CLSID_CCertRequest,
                        NULL,
                        CLSCTX_INPROC_SERVER,
                        IID_ICertRequest2,
-                       (void **)&amp;pRequest);
+                       (void **)&pRequest);
 if ( FAILED( hr ) )
 {
     printf("Failed CoCreateInstance - pRequest [%x]\n", hr);
@@ -98,7 +98,7 @@ if (NULL == bstrCertAuth)
 hr = pRequest->GetCACertificate(TRUE,
                                 bstrCertAuth,
                                 CR_OUT_BASE64HEADER,
-                                &amp;bstrCACert);
+                                &bstrCACert);
 if (FAILED(hr))
 {
     printf("Failed GetCACertificate [%x]\n", hr);
@@ -133,7 +133,7 @@ if (NULL == bstrDN)
 hr = pEnroll->createRequest( XECR_CMC,
                              bstrDN, 
                              NULL,
-                             &amp;bstrReq );
+                             &bstrReq );
 if ( FAILED( hr ) )
 {
     printf("Failed createRequest - [%x]\n", hr);
@@ -145,7 +145,7 @@ hr = pRequest->Submit( CR_IN_CMC,
                        bstrReq,
                        NULL,
                        bstrCertAuth,
-                       &amp;lDisp );
+                       &lDisp );
 if ( FAILED( hr ) )
 {
     
@@ -175,7 +175,7 @@ switch (lDisp)
 }
 
 // Retrieve the request ID.
-hr = pRequest->GetRequestId(&amp;lRequestID);
+hr = pRequest->GetRequestId(&lRequestID);
 if ( FAILED(hr) )
 {
     printf("Failed GetRequestId - [%x]\n", hr);  
@@ -189,7 +189,7 @@ if (CR_DISP_ISSUED != lDisp)
     // was not issued.
     
     // Retrieve the last status.
-    hr = pRequest->GetLastStatus(&amp;lStatus);
+    hr = pRequest->GetLastStatus(&lStatus);
     if ( FAILED(hr) )
     {
         printf("Failed GetLastStatus - [%x]\n", hr);  
@@ -197,7 +197,7 @@ if (CR_DISP_ISSUED != lDisp)
     }
 
     // Retrieve the disposition message.
-    hr = pRequest->GetDispositionMessage(&amp;bstrDispMsg);
+    hr = pRequest->GetDispositionMessage(&bstrDispMsg);
     if ( FAILED(hr) )
     {
         printf("Failed GetDispositionMessage - [%x]\n", hr);  
@@ -207,7 +207,7 @@ if (CR_DISP_ISSUED != lDisp)
     // Retrieve the error message.
     hr = pRequest->GetErrorMessageText(lStatus,
                                        CR_GEMT_HRESULT_STRING,
-                                       &amp;bstrErrorMsg);
+                                       &bstrErrorMsg);
     if ( FAILED(hr) )
     {
         printf("Failed GetErrorMessageText - [%x]\n", hr);  
@@ -223,12 +223,12 @@ if (CR_DISP_ISSUED != lDisp)
 }
 
 // Retrieve the full response.
-VariantInit(&amp;varFullResp);
+VariantInit(&varFullResp);
 hr = pRequest->GetFullResponseProperty( FR_PROP_FULLRESPONSE,
                                         0,
                                         PROPTYPE_BINARY,
                                         CR_OUT_BASE64,
-                                        &amp;varFullResp );
+                                        &varFullResp );
 if ( FAILED( hr ) )
 {
     printf("Failed GetFullResponseProperty - [%x]\n", hr);
@@ -271,7 +271,7 @@ if ( NULL != bstrErrorMsg )
     SysFreeString ( bstrErrorMsg );
 
 // Clear VARIANTS.
-VariantClear(&amp;varFullResp);
+VariantClear(&varFullResp);
 
 // Free COM resources.
 CoUninitialize();

@@ -39,11 +39,11 @@ do
 {
    // Get the next sample.
    hr = pSyncReader->GetNextSample(0,
-                                   &amp;pMyBuffer,
-                                   &amp;cnsSampleTime,
-                                   &amp;cnsSampleDuration,
-                                   &amp;dwFlags,
-                                   &amp;dwOutputNumber,
+                                   &pMyBuffer,
+                                   &cnsSampleTime,
+                                   &cnsSampleDuration,
+                                   &dwFlags,
+                                   &dwOutputNumber,
                                    NULL);
 
    if(SUCCEEDED(hr))

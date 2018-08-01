@@ -45,15 +45,15 @@ HRESULT hr;
 
 hr=ADsGetObject(L"WinNT://Fabrikam/jeffsmith,user",
                 IID_IADsUser,
-                (void**)&amp;pUser);
+                (void**)&pUser);
 VARIANT var;
-VariantInit(&amp;var);
-V_I4(&amp;var)=1;
-V_VT(&amp;var)=VT_I4;
+VariantInit(&var);
+V_I4(&var)=1;
+V_VT(&var)=VT_I4;
 hr = pUser->Put(_bstr_t("PasswordExpired"),var); // User must change password.
 hr = pUser->SetInfo();
 
-VariantClear(&amp;var);
+VariantClear(&var);
 pUser->Release();
 ```
 

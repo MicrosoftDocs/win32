@@ -41,14 +41,14 @@ HRESULT UpdateToolbar(ITextSelection *pSel)
     long tbt;            // tab type
     long tbp;
 
-    hr = pSel->GetPara(&amp;pPara);
+    hr = pSel->GetPara(&pPara);
     
     if (FAILED(hr))
         goto cleanup;    // Paragraph properties are not supported
     
     f = (float) -1.0;    // Start at beginning
     
-    while (pPara->GetTab(tbgoNext, &amp;f, &amp;tbt, NULL) == S_OK)
+    while (pPara->GetTab(tbgoNext, &f, &tbt, NULL) == S_OK)
     {
             // Do something like draw tab icon on toolbar here
             // DrawTabPicture(f, tbt);
@@ -82,7 +82,7 @@ HRESULT CopyOnlyTabs(ITextPara *pParaFrom, ITextPara *pParaTo)
     
     f = (float) -1.0;
     
-    while (pParaFrom->GetTab(tbgoNext, &amp;f, &amp;tbt, &amp;style) == S_OK)
+    while (pParaFrom->GetTab(tbgoNext, &f, &tbt, &style) == S_OK)
         pParaTo->AddTab(f, tbt, style);
         
     return S_OK;                

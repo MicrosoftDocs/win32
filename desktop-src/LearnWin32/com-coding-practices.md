@@ -30,7 +30,7 @@ This error means that a GUID constant was declared with external linkage (**exte
 ```C++
 IFileOpenDialog *pFileOpen;
 hr = CoCreateInstance(__uuidof(FileOpenDialog), NULL, CLSCTX_ALL, 
-    __uuidof(pFileOpen), reinterpret_cast<void**>(&amp;pFileOpen));
+    __uuidof(pFileOpen), reinterpret_cast<void**>(&pFileOpen));
 ```
 
 
@@ -57,7 +57,7 @@ hr = CoCreateInstance(
     NULL, 
     CLSCTX_ALL, 
     __uuidof(IFileDialogCustomize),       // The IID does not match the pointer type!
-    reinterpret_cast<void**>(&amp;pFileOpen)  // Coerce to void**.
+    reinterpret_cast<void**>(&pFileOpen)  // Coerce to void**.
     );
 ```
 
@@ -74,7 +74,7 @@ The [**IID\_PPV\_ARGS**](https://msdn.microsoft.com/library/windows/desktop/ee33
 
 
 ```C++
-__uuidof(IFileDialogCustomize), reinterpret_cast<void**>(&amp;pFileOpen)
+__uuidof(IFileDialogCustomize), reinterpret_cast<void**>(&pFileOpen)
 ```
 
 
@@ -83,7 +83,7 @@ with this:
 
 
 ```C++
-IID_PPV_ARGS(&amp;pFileOpen)
+IID_PPV_ARGS(&pFileOpen)
 ```
 
 
@@ -95,7 +95,7 @@ The macro automatically inserts `__uuidof(IFileOpenDialog)` for the interface id
 // Right.
 IFileOpenDialog *pFileOpen;
 hr = CoCreateInstance(__uuidof(FileOpenDialog), NULL, CLSCTX_ALL, 
-    IID_PPV_ARGS(&amp;pFileOpen));
+    IID_PPV_ARGS(&pFileOpen));
 ```
 
 
@@ -105,7 +105,7 @@ You can use the same macro with [**QueryInterface**](https://msdn.microsoft.com/
 
 ```C++
 IFileDialogCustomize *pCustom;
-hr = pFileOpen->QueryInterface(IID_PPV_ARGS(&amp;pCustom));
+hr = pFileOpen->QueryInterface(IID_PPV_ARGS(&pCustom));
 ```
 
 
@@ -149,12 +149,12 @@ void UseSafeRelease()
     IFileOpenDialog *pFileOpen = NULL;
 
     HRESULT hr = CoCreateInstance(__uuidof(FileOpenDialog), NULL, 
-        CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&amp;pFileOpen));
+        CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&pFileOpen));
     if (SUCCEEDED(hr))
     {
         // Use the object.
     }
-    SafeRelease(&amp;pFileOpen);
+    SafeRelease(&pFileOpen);
 }
 ```
 
@@ -167,8 +167,8 @@ It is also safe to call `SafeRelease` more than once on the same pointer, as sho
 
 ```C++
 // Redundant, but OK.
-SafeRelease(&amp;pFileOpen);
-SafeRelease(&amp;pFileOpen);
+SafeRelease(&pFileOpen);
+SafeRelease(&pFileOpen);
 ```
 
 
@@ -231,11 +231,11 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int nCmdShow
             if (SUCCEEDED(hr))
             {
                 CComPtr<IShellItem> pItem;
-                hr = pFileOpen->GetResult(&amp;pItem);
+                hr = pFileOpen->GetResult(&pItem);
                 if (SUCCEEDED(hr))
                 {
                     PWSTR pszFilePath;
-                    hr = pItem->GetDisplayName(SIGDN_FILESYSPATH, &amp;pszFilePath);
+                    hr = pItem->GetDisplayName(SIGDN_FILESYSPATH, &pszFilePath);
 
                     // Display the file name to the user.
                     if (SUCCEEDED(hr))

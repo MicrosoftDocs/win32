@@ -17,10 +17,10 @@ Tuning is controlled by the TV Tuner filter, through the [**IAMTVTuner**](/windo
 ```C++
 IAMTVTuner *pTuner = NULL;
 hr = pBuild->FindInterface(
-    &amp;LOOK_UPSTREAM_ONLY,  // Look upstream from pCap.
+    &LOOK_UPSTREAM_ONLY,  // Look upstream from pCap.
     NULL,                 // No particular media type.
     pCap,                 // Pointer to the capture filter.
-    IID_IAMTVTuner, (void**)&amp;pTuner);
+    IID_IAMTVTuner, (void**)&pTuner);
 if (SUCCEEDED(hr))
 {
     // Use pTuner ...
@@ -48,8 +48,8 @@ If the tuner supports multiple reception modes, such as television and FM radio,
 ```C++
 // Check whether the mode is supported.
 long lModes = 0;
-hr = m_pTuner->GetAvailableModes(&amp;lModes);
-if (SUCCEEDED(hr) &amp;&amp; (lModes & AMTUNER_MODE_FM_RADIO))
+hr = m_pTuner->GetAvailableModes(&lModes);
+if (SUCCEEDED(hr) && (lModes & AMTUNER_MODE_FM_RADIO))
 {
     // Set the mode.
     hr = pTuner->put_Mode(AMTUNER_MODE_FM_RADIO);

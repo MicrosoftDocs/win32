@@ -91,7 +91,7 @@ The following example shows how to query events from a channel using a structure
     L"</QueryList>"
 
 DWORD PrintQueryStatuses(EVT_HANDLE hResults);
-DWORD GetQueryStatusProperty(EVT_QUERY_PROPERTY_ID Id, EVT_HANDLE hResults, PEVT_VARIANT&amp; pProperty);
+DWORD GetQueryStatusProperty(EVT_QUERY_PROPERTY_ID Id, EVT_HANDLE hResults, PEVT_VARIANT& pProperty);
 DWORD PrintResults(EVT_HANDLE hResults);
 DWORD PrintEvent(EVT_HANDLE hEvent);  // Shown in the Rendering Events topic
 
@@ -166,13 +166,13 @@ cleanup:
 
 // Get the list of paths specified in the query or the list of status values 
 // for each path.
-DWORD GetQueryStatusProperty(EVT_QUERY_PROPERTY_ID Id, EVT_HANDLE hResults, PEVT_VARIANT&amp; pProperty)
+DWORD GetQueryStatusProperty(EVT_QUERY_PROPERTY_ID Id, EVT_HANDLE hResults, PEVT_VARIANT& pProperty)
 {
     DWORD status = ERROR_SUCCESS;
     DWORD dwBufferSize = 0;
     DWORD dwBufferUsed = 0;
 
-    if  (!EvtGetQueryInfo(hResults, Id, dwBufferSize, pProperty, &amp;dwBufferUsed))
+    if  (!EvtGetQueryInfo(hResults, Id, dwBufferSize, pProperty, &dwBufferUsed))
     {
         status = GetLastError();
         if (ERROR_INSUFFICIENT_BUFFER == status)
@@ -181,7 +181,7 @@ DWORD GetQueryStatusProperty(EVT_QUERY_PROPERTY_ID Id, EVT_HANDLE hResults, PEVT
             pProperty = (PEVT_VARIANT)malloc(dwBufferSize);
             if (pProperty)
             {
-                EvtGetQueryInfo(hResults, Id, dwBufferSize, pProperty, &amp;dwBufferUsed);
+                EvtGetQueryInfo(hResults, Id, dwBufferSize, pProperty, &dwBufferUsed);
             }
             else
             {
@@ -224,7 +224,7 @@ DWORD PrintResults(EVT_HANDLE hResults)
     while (true)
     {
         // Get a block of events from the result set.
-        if (!EvtNext(hResults, ARRAY_SIZE, hEvents, INFINITE, 0, &amp;dwReturned))
+        if (!EvtNext(hResults, ARRAY_SIZE, hEvents, INFINITE, 0, &dwReturned))
         {
             if (ERROR_NO_MORE_ITEMS != (status = GetLastError()))
             {

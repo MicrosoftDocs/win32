@@ -49,7 +49,7 @@ To create the Direct2D factory object, call the [**D2D1CreateFactory**](https://
 ```C++
 ID2D1Factory *pFactory = NULL;
 
-HRESULT hr = D2D1CreateFactory(D2D1_FACTORY_TYPE_SINGLE_THREADED, &amp;pFactory);
+HRESULT hr = D2D1CreateFactory(D2D1_FACTORY_TYPE_SINGLE_THREADED, &pFactory);
 ```
 
 
@@ -64,7 +64,7 @@ You should create the Direct2D factory object before the first [**WM\_PAINT**](h
 ```C++
     case WM_CREATE:
         if (FAILED(D2D1CreateFactory(
-                D2D1_FACTORY_TYPE_SINGLE_THREADED, &amp;pFactory)))
+                D2D1_FACTORY_TYPE_SINGLE_THREADED, &pFactory)))
         {
             return -1;  // Fail CreateWindowEx.
         }
@@ -105,19 +105,19 @@ HRESULT MainWindow::CreateGraphicsResources()
     if (pRenderTarget == NULL)
     {
         RECT rc;
-        GetClientRect(m_hwnd, &amp;rc);
+        GetClientRect(m_hwnd, &rc);
 
         D2D1_SIZE_U size = D2D1::SizeU(rc.right, rc.bottom);
 
         hr = pFactory->CreateHwndRenderTarget(
             D2D1::RenderTargetProperties(),
             D2D1::HwndRenderTargetProperties(m_hwnd, size),
-            &amp;pRenderTarget);
+            &pRenderTarget);
 
         if (SUCCEEDED(hr))
         {
             const D2D1_COLOR_F color = D2D1::ColorF(1.0f, 1.0f, 0);
-            hr = pRenderTarget->CreateSolidColorBrush(color, &amp;pBrush);
+            hr = pRenderTarget->CreateSolidColorBrush(color, &pBrush);
 
             if (SUCCEEDED(hr))
             {

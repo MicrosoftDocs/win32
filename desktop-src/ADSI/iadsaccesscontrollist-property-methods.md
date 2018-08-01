@@ -132,22 +132,22 @@ HRESULT ShowACEInACL(LPWSTR guestPath,LPWSTR user,LPWSTR passwd)
   HRESULT hr = S_OK;
   VARIANT var;
 
-  VariantInit(&amp;var);
+  VariantInit(&var);
 
   hr = ADsOpenObject(guestPath,user,passwd,ADS_SECURE_AUTHENTICATION,
-                     IID_IADs,(void**)&amp;pObj);
+                     IID_IADs,(void**)&pObj);
   if(FAILED(hr)) {
       printf("hr = %x\n",hr);
       return hr;
   }
   else {
       BSTR bstr = NULL;
-      pObj->get_Class(&amp;bstr);
+      pObj->get_Class(&bstr);
       printf("Object class: %S\n",bstr);
       SysFreeString(bstr);
   }
 
-  hr = pObj->Get(CComBSTR("ntSecurityDescriptor"), &amp;var);
+  hr = pObj->Get(CComBSTR("ntSecurityDescriptor"), &var);
   pObj->Release();
 
   if(FAILED(hr)) {
@@ -155,18 +155,18 @@ HRESULT ShowACEInACL(LPWSTR guestPath,LPWSTR user,LPWSTR passwd)
       return hr;
   }
 
-  hr = V_DISPATCH(&amp;var)->QueryInterface(IID_IADsSecurityDescriptor,
-                                        (void**)&amp;psd);
+  hr = V_DISPATCH(&var)->QueryInterface(IID_IADsSecurityDescriptor,
+                                        (void**)&psd);
 
   if(FAILED(hr)) {
       printf("DISP: hr = %x\n",hr);
-      VariantClear(&amp;var);
+      VariantClear(&var);
       return hr;
   }
 
   IDispatch *pDisp = NULL;
-  hr = psd->get_DiscretionaryAcl(&amp;pDisp);
-  VariantClear(&amp;var);
+  hr = psd->get_DiscretionaryAcl(&pDisp);
+  VariantClear(&var);
 
   if(FAILED(hr)) {
       printf("get_DACL : hr = %x\n",hr);
@@ -174,7 +174,7 @@ HRESULT ShowACEInACL(LPWSTR guestPath,LPWSTR user,LPWSTR passwd)
   }
 
   IADsAccessControlList *pAcl = NULL;
-  hr = pDisp->QueryInterface(IID_IADsAccessControlList,(void**)&amp;pAcl);
+  hr = pDisp->QueryInterface(IID_IADsAccessControlList,(void**)&pAcl);
   pDisp->Release();
 
   if(FAILED(hr)) {
@@ -183,7 +183,7 @@ HRESULT ShowACEInACL(LPWSTR guestPath,LPWSTR user,LPWSTR passwd)
   }
 
   long count = 0;
-  hr = pAcl->get_AceCount(&amp;count);
+  hr = pAcl->get_AceCount(&count);
   pAcl->Release();
   if(FAILED(hr)) {
       printf("Count: hr = %x\n",hr);

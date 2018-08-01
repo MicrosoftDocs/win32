@@ -20,13 +20,13 @@ The following example constructs a [**Graphics**](/windows/desktop/api/gdiplusgr
 HDC          hdc;
 PAINTSTRUCT  ps;
 
-hdc = BeginPaint(hWnd, &amp;ps);
+hdc = BeginPaint(hWnd, &ps);
 {
    Graphics graphics(hdc);
    Pen pen(Color(255, 0, 0, 255));  // opaque blue
-   graphics.DrawRectangle(&amp;pen, 10, 10, 200, 100);
+   graphics.DrawRectangle(&pen, 10, 10, 200, 100);
 }
-EndPaint(hWnd, &amp;ps);
+EndPaint(hWnd, &ps);
 ```
 
 
@@ -58,9 +58,9 @@ Graphics graphics(hdc);
 Pen pen(Color(255, 0, 255, 0));  // opaque green
 
 graphics.SetSmoothingMode(SmoothingModeAntiAlias);
-graphics.DrawEllipse(&amp;pen, 0, 0, 200, 100);
+graphics.DrawEllipse(&pen, 0, 0, 200, 100);
 graphics.SetSmoothingMode(SmoothingModeHighSpeed);
-graphics.DrawEllipse(&amp;pen, 0, 150, 200, 100);
+graphics.DrawEllipse(&pen, 0, 150, 200, 100);
 ```
 
 
@@ -78,9 +78,9 @@ Pen pen(Color(255, 255, 0, 0));
 
 graphics.ResetTransform();
 graphics.RotateTransform(30.0f);            // World transformation
-graphics.DrawEllipse(&amp;pen, 30, 0, 50, 25);
+graphics.DrawEllipse(&pen, 30, 0, 50, 25);
 graphics.SetPageUnit(UnitMillimeter);       // Page transformation
-graphics.DrawEllipse(&amp;pen, 30, 0, 50, 25);
+graphics.DrawEllipse(&pen, 30, 0, 50, 25);
 ```
 
 
@@ -106,14 +106,14 @@ SolidBrush brush(Color(255, 180, 255, 255));  // opaque aqua
 // Create a plus-shaped region by forming the union of two rectangles.
 Region region(Rect(50, 0, 50, 150));
 region.Union(Rect(0, 50, 150, 50));
-graphics.FillRegion(&amp;brush, &amp;region);
+graphics.FillRegion(&brush, &region);
 
 // Set the clipping region.
-graphics.SetClip(&amp;region);
+graphics.SetClip(&region);
 
 // Draw two clipped lines.
-graphics.DrawLine(&amp;pen, 0, 30, 150, 160);
-graphics.DrawLine(&amp;pen, 40, 20, 190, 150);
+graphics.DrawLine(&pen, 0, 30, 150, 160);
+graphics.DrawLine(&pen, 40, 20, 190, 150);
 ```
 
 

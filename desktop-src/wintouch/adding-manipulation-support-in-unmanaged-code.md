@@ -153,16 +153,16 @@ CManipulationEventSink::CManipulationEventSink(IManipulationProcessor *manip, HW
     
     hr = manip->QueryInterface(
       IID_IConnectionPointContainer, 
-          (LPVOID*) &amp;spConnectionContainer
+          (LPVOID*) &spConnectionContainer
         );
-    //hr = manip->QueryInterface(&amp;spConnectionContainer);
+    //hr = manip->QueryInterface(&spConnectionContainer);
     if (spConnectionContainer == NULL){
         // something went wrong, try to gracefully quit
         
     }
 
     //Get a connection point.
-    hr = spConnectionContainer->FindConnectionPoint(__uuidof(_IManipulationEvents), &amp;m_pConnPoint);
+    hr = spConnectionContainer->FindConnectionPoint(__uuidof(_IManipulationEvents), &m_pConnPoint);
     if (m_pConnPoint == NULL){
         // something went wrong, try to gracefully quit
     }
@@ -170,7 +170,7 @@ CManipulationEventSink::CManipulationEventSink(IManipulationProcessor *manip, HW
     DWORD dwCookie;
 
     //Advise.
-    hr = m_pConnPoint->Advise(this, &amp;dwCookie);
+    hr = m_pConnPoint->Advise(this, &dwCookie);
 }
 
 int CManipulationEventSink::GetStartedEventCount()
@@ -234,7 +234,7 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationDelta(
     
     RECT rect;
         
-    GetWindowRect(m_hWnd, &amp;rect);
+    GetWindowRect(m_hWnd, &rect);
     
     int oldWidth =  rect.right-rect.left;
     int oldHeight = rect.bottom-rect.top;            
@@ -335,7 +335,7 @@ After you have your variable for the manipulation processor and you have include
        NULL,
        CLSCTX_INPROC_SERVER,
        IID_IUnknown,
-       (VOID**)(&amp;g_pIManipProc)
+       (VOID**)(&g_pIManipProc)
    );
 ```
 
@@ -464,9 +464,9 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     case WM_TOUCH:
         return OnTouch(hWnd, wParam, lParam);
     case WM_PAINT:
-        hdc = BeginPaint(hWnd, &amp;ps);
+        hdc = BeginPaint(hWnd, &ps);
         // TODO: Add any drawing code here...
-        EndPaint(hWnd, &amp;ps);
+        EndPaint(hWnd, &ps);
         break;
     case WM_DESTROY:
         PostQuitMessage(0);

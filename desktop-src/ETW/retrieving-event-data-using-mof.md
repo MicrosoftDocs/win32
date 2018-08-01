@@ -95,19 +95,19 @@ void wmain(void)
 {
     ULONG status = ERROR_SUCCESS;
     EVENT_TRACE_LOGFILE trace;
-    TRACE_LOGFILE_HEADER* pHeader = &amp;trace.LogfileHeader;
+    TRACE_LOGFILE_HEADER* pHeader = &trace.LogfileHeader;
     TRACEHANDLE hTrace = 0;  
     HRESULT hr = S_OK;
 
     // Identify the log file from which you want to consume events
     // and the callbacks used to process the events and buffers.
 
-    ZeroMemory(&amp;trace, sizeof(EVENT_TRACE_LOGFILE));
+    ZeroMemory(&trace, sizeof(EVENT_TRACE_LOGFILE));
     trace.LogFileName = (LPWSTR) LOGFILE_PATH;
     trace.BufferCallback = (PEVENT_TRACE_BUFFER_CALLBACK) (ProcessBuffer);
     trace.EventCallback = (PEVENT_CALLBACK) (ProcessEvent);
 
-    hTrace = OpenTrace(&amp;trace);
+    hTrace = OpenTrace(&trace);
     if ((TRACEHANDLE)INVALID_HANDLE_VALUE == hTrace)
     {
         wprintf(L"OpenTrace failed with %lu\n", GetLastError());
@@ -145,8 +145,8 @@ void wmain(void)
         goto cleanup;
     }
 
-    status = ProcessTrace(&amp;hTrace, 1, 0, 0);
-    if (status != ERROR_SUCCESS &amp;&amp; status != ERROR_CANCELLED)
+    status = ProcessTrace(&hTrace, 1, 0, 0);
+    if (status != ERROR_SUCCESS && status != ERROR_CANCELLED)
     {
         wprintf(L"ProcessTrace failed with %lu\n", status);
         goto cleanup;
@@ -191,7 +191,7 @@ VOID WINAPI ProcessEvent(PEVENT_TRACE pEvent)
     // the EVENT_TRACE_LOGFILE.LogfileHeader member that you can access when you open 
     // the trace. 
 
-    if (IsEqualGUID(pEvent->Header.Guid, EventTraceGuid) &amp;&amp;
+    if (IsEqualGUID(pEvent->Header.Guid, EventTraceGuid) &&
         pEvent->Header.Class.Type == EVENT_TRACE_TYPE_INFO)
     {
         ; // Skip this event.
@@ -217,8 +217,8 @@ VOID WINAPI ProcessEvent(PEVENT_TRACE pEvent)
         ft.dwHighDateTime = pEvent->Header.TimeStamp.HighPart;
         ft.dwLowDateTime = pEvent->Header.TimeStamp.LowPart;
 
-        FileTimeToSystemTime(&amp;ft, &amp;st);
-        SystemTimeToTzSpecificLocalTime(NULL, &amp;st, &amp;stLocal);
+        FileTimeToSystemTime(&ft, &st);
+        SystemTimeToTzSpecificLocalTime(NULL, &st, &stLocal);
 
         TimeStamp = pEvent->Header.TimeStamp.QuadPart;
         Nanoseconds = (TimeStamp % 10000000) * 100;
@@ -245,7 +245,7 @@ VOID WINAPI ProcessEvent(PEVENT_TRACE pEvent)
                 {
                     // Enumerate the properties and retrieve the event data.
 
-                    if (TRUE == GetPropertyList(pEventClass, &amp;pProperties, &amp;PropertyCount, &amp;pPropertyIndex))
+                    if (TRUE == GetPropertyList(pEventClass, &pProperties, &PropertyCount, &pPropertyIndex))
                     {
                         // Print the property name and value.
 
@@ -313,7 +313,7 @@ HRESULT ConnectToETWNamespace(BSTR bstrNamespace)
         0,
         CLSCTX_INPROC_SERVER,
         __uuidof(IWbemLocator),
-        (LPVOID*) &amp;pLocator);
+        (LPVOID*) &pLocator);
 
     if (FAILED(hr))
     {
@@ -324,7 +324,7 @@ HRESULT ConnectToETWNamespace(BSTR bstrNamespace)
     hr = pLocator->ConnectServer(bstrNamespace,
         NULL, NULL, NULL,
         0L, NULL, NULL,
-        &amp;g_pServices);
+        &g_pServices);
 
     if (FAILED(hr))
     {
@@ -371,7 +371,7 @@ IWbemClassObject* GetEventCategoryClass(BSTR bstrClassGuid, int Version)
 
     hr = g_pServices->CreateClassEnum(_bstr_t(L"EventTrace"), 
         WBEM_FLAG_DEEP | WBEM_FLAG_FORWARD_ONLY | WBEM_FLAG_USE_AMENDED_QUALIFIERS,
-        NULL, &amp;pClasses);
+        NULL, &pClasses);
 
     if (FAILED(hr))
     {
@@ -381,7 +381,7 @@ IWbemClassObject* GetEventCategoryClass(BSTR bstrClassGuid, int Version)
 
     while (S_OK == hr)
     {
-        hr = pClasses->Next(WBEM_INFINITE, 1, &amp;pClass, &amp;cnt);
+        hr = pClasses->Next(WBEM_INFINITE, 1, &pClass, &cnt);
 
         if (FAILED(hr))
         {
@@ -391,11 +391,11 @@ IWbemClassObject* GetEventCategoryClass(BSTR bstrClassGuid, int Version)
 
         // Get all the qualifiers for the class and search for the Guid qualifier. 
 
-        hrQualifier = pClass->GetQualifierSet(&amp;pQualifiers);
+        hrQualifier = pClass->GetQualifierSet(&pQualifiers);
 
         if (pQualifiers)
         {
-            hrQualifier = pQualifiers->Get(L"Guid", 0, &amp;varGuid, NULL);
+            hrQualifier = pQualifiers->Get(L"Guid", 0, &varGuid, NULL);
 
             if (SUCCEEDED(hrQualifier))
             {
@@ -407,7 +407,7 @@ IWbemClassObject* GetEventCategoryClass(BSTR bstrClassGuid, int Version)
                     // The version is correct if the class does not contain the EventVersion
                     // qualifier or the class version matches the version from the event.
 
-                    hrQualifier = pQualifiers->Get(L"EventVersion", 0, &amp;varVersion, NULL);
+                    hrQualifier = pQualifiers->Get(L"EventVersion", 0, &varVersion, NULL);
 
                     if (SUCCEEDED(hrQualifier))
                     {
@@ -416,7 +416,7 @@ IWbemClassObject* GetEventCategoryClass(BSTR bstrClassGuid, int Version)
                             break; //found class
                         }
 
-                        VariantClear(&amp;varVersion);
+                        VariantClear(&varVersion);
                     }
                     else if (WBEM_E_NOT_FOUND == hrQualifier) 
                     {
@@ -424,7 +424,7 @@ IWbemClassObject* GetEventCategoryClass(BSTR bstrClassGuid, int Version)
                     }
                 }
 
-                VariantClear(&amp;varGuid);
+                VariantClear(&varGuid);
             }
 
             pQualifiers->Release();
@@ -449,8 +449,8 @@ cleanup:
         pQualifiers = NULL;
     }
 
-    VariantClear(&amp;varVersion);
-    VariantClear(&amp;varGuid);
+    VariantClear(&varVersion);
+    VariantClear(&varGuid);
 
     return pClass;
 }
@@ -470,7 +470,7 @@ IWbemClassObject* GetEventClass(IWbemClassObject* pEventCategoryClass, int Event
 
     // Get the name of the event category class so you can enumerate its children classes.
 
-    hr = pEventCategoryClass->Get(L"__RELPATH", 0, &amp;varClassName, NULL, NULL);
+    hr = pEventCategoryClass->Get(L"__RELPATH", 0, &varClassName, NULL, NULL);
 
     if (FAILED(hr))
     {
@@ -480,7 +480,7 @@ IWbemClassObject* GetEventClass(IWbemClassObject* pEventCategoryClass, int Event
 
     hr = g_pServices->CreateClassEnum(varClassName.bstrVal, 
         WBEM_FLAG_SHALLOW | WBEM_FLAG_FORWARD_ONLY | WBEM_FLAG_USE_AMENDED_QUALIFIERS,
-        NULL, &amp;pClasses);
+        NULL, &pClasses);
 
     if (FAILED(hr))
     {
@@ -494,7 +494,7 @@ IWbemClassObject* GetEventClass(IWbemClassObject* pEventCategoryClass, int Event
 
     while (S_OK == hr)
     {
-        hr = pClasses->Next(WBEM_INFINITE, 1, &amp;pClass, &amp;cnt);
+        hr = pClasses->Next(WBEM_INFINITE, 1, &pClass, &cnt);
         
         if (FAILED(hr))
         {
@@ -504,7 +504,7 @@ IWbemClassObject* GetEventClass(IWbemClassObject* pEventCategoryClass, int Event
 
         // Get all the qualifiers for the class and search for the EventType qualifier. 
 
-        hrQualifier = pClass->GetQualifierSet(&amp;pQualifiers);
+        hrQualifier = pClass->GetQualifierSet(&pQualifiers);
 
         if (FAILED(hrQualifier))
         {
@@ -514,7 +514,7 @@ IWbemClassObject* GetEventClass(IWbemClassObject* pEventCategoryClass, int Event
             goto cleanup;
         }
 
-        hrQualifier = pQualifiers->Get(L"EventType", 0, &amp;varEventType, NULL);
+        hrQualifier = pQualifiers->Get(L"EventType", 0, &varEventType, NULL);
 
         if (FAILED(hrQualifier))
         {
@@ -535,7 +535,7 @@ IWbemClassObject* GetEventClass(IWbemClassObject* pEventCategoryClass, int Event
 
             for (LONG i=0; (ULONG)i < pEventTypes->rgsabound->cElements; i++)
             {
-                hrSafe = SafeArrayGetElement(pEventTypes, &amp;i, &amp;ClassEventType);
+                hrSafe = SafeArrayGetElement(pEventTypes, &i, &ClassEventType);
 
                 if (ClassEventType == EventType)
                 {
@@ -552,7 +552,7 @@ IWbemClassObject* GetEventClass(IWbemClassObject* pEventCategoryClass, int Event
             }
         }
 
-        VariantClear(&amp;varEventType);
+        VariantClear(&varEventType);
 
         if (TRUE == FoundEventClass)
         {
@@ -577,8 +577,8 @@ cleanup:
         pQualifiers = NULL;
     }
 
-    VariantClear(&amp;varClassName);
-    VariantClear(&amp;varEventType);
+    VariantClear(&varClassName);
+    VariantClear(&varEventType);
 
     return pClass;
 }
@@ -598,7 +598,7 @@ BOOL GetPropertyList(IWbemClassObject* pClass, PROPERTY_LIST** ppProperties, DWO
 
     // Retrieve the property names.
 
-    hr = pClass->GetNames(NULL, WBEM_FLAG_LOCAL_ONLY, NULL, &amp;pNames);
+    hr = pClass->GetNames(NULL, WBEM_FLAG_LOCAL_ONLY, NULL, &pNames);
     if (pNames)
     {
         *pPropertyCount = pNames->rgsabound->cElements;
@@ -627,7 +627,7 @@ BOOL GetPropertyList(IWbemClassObject* pClass, PROPERTY_LIST** ppProperties, DWO
         {
             //Save the name of the property.
 
-            hr = SafeArrayGetElement(pNames, &amp;i, &amp;((*ppProperties+i)->Name));
+            hr = SafeArrayGetElement(pNames, &i, &((*ppProperties+i)->Name));
             if (FAILED(hr))
             {
                 goto cleanup;
@@ -635,7 +635,7 @@ BOOL GetPropertyList(IWbemClassObject* pClass, PROPERTY_LIST** ppProperties, DWO
 
             //Save the qualifiers. Used latter to help determine how to read the event data.
 
-            hr = pClass->GetPropertyQualifierSet((*ppProperties+i)->Name, &amp;((*ppProperties+i)->pQualifiers));
+            hr = pClass->GetPropertyQualifierSet((*ppProperties+i)->Name, &((*ppProperties+i)->pQualifiers));
             if (FAILED(hr))
             {
                 goto cleanup;
@@ -646,11 +646,11 @@ BOOL GetPropertyList(IWbemClassObject* pClass, PROPERTY_LIST** ppProperties, DWO
             // Index[1] points to the property list element that contains WmiDataId("2"),
             // and so on. 
 
-            hr = (*ppProperties+i)->pQualifiers->Get(L"WmiDataId", 0, &amp;var, NULL);
+            hr = (*ppProperties+i)->pQualifiers->Get(L"WmiDataId", 0, &var, NULL);
             if (SUCCEEDED(hr))
             {
                 j = var.intVal - 1;
-                VariantClear(&amp;var);
+                VariantClear(&var);
                 *(*ppPropertyIndex+j) = i;
             }
             else
@@ -660,7 +660,7 @@ BOOL GetPropertyList(IWbemClassObject* pClass, PROPERTY_LIST** ppProperties, DWO
 
             // Save the data type of the property.
 
-            hr = pClass->Get((*ppProperties+i)->Name, 0, NULL, &amp;((*ppProperties+i)->CimType), NULL);    
+            hr = pClass->Get((*ppProperties+i)->Name, 0, NULL, &((*ppProperties+i)->CimType), NULL);    
             if (FAILED(hr))
             {
                 goto cleanup;
@@ -721,9 +721,9 @@ void PrintPropertyName(PROPERTY_LIST* pProperty)
     // should contain a printable display name for the property. If the qualifier is
     // not found, print the property name.
 
-    hr = pProperty->pQualifiers->Get(L"Description", 0, &amp;varDisplayName, NULL);
+    hr = pProperty->pQualifiers->Get(L"Description", 0, &varDisplayName, NULL);
     wprintf(L"%s: ", (SUCCEEDED(hr)) ? varDisplayName.bstrVal : pProperty->Name);
-    VariantClear(&amp;varDisplayName);
+    VariantClear(&varDisplayName);
 }
 
 
@@ -752,14 +752,14 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
         {
             ULONG temp = 0;
 
-            CopyMemory(&amp;temp, pEventData, sizeof(ULONG));
+            CopyMemory(&temp, pEventData, sizeof(ULONG));
             wprintf(L"0x%x\n", temp);
         }
         else
         {
             ULONGLONG temp = 0;
 
-            CopyMemory(&amp;temp, pEventData, sizeof(ULONGLONG));
+            CopyMemory(&temp, pEventData, sizeof(ULONGLONG));
             wprintf(L"0x%x\n", temp);
         }
 
@@ -775,11 +775,11 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
 
         if (pProperty->CimType & CIM_FLAG_ARRAY)
         {
-            hr = pProperty->pQualifiers->Get(L"MAX", 0, &amp;varQualifier, NULL);
+            hr = pProperty->pQualifiers->Get(L"MAX", 0, &varQualifier, NULL);
             if (SUCCEEDED(hr))
             {
                 ArraySize = varQualifier.intVal;
-                VariantClear(&amp;varQualifier);
+                VariantClear(&varQualifier);
             }
             else
             {
@@ -798,7 +798,7 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
 
                 for (ULONG i=0; i < ArraySize; i++)
                 {
-                    CopyMemory(&amp;temp, pEventData, sizeof(LONG));
+                    CopyMemory(&temp, pEventData, sizeof(LONG));
                     wprintf(L"%d\n", temp);
                     pEventData += sizeof(LONG);
                 }
@@ -810,7 +810,7 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
             {
                 ULONG temp = 0;
 
-                hr = pProperty->pQualifiers->Get(L"Extension", 0, &amp;varQualifier, NULL);
+                hr = pProperty->pQualifiers->Get(L"Extension", 0, &varQualifier, NULL);
                 if (SUCCEEDED(hr))
                 {
                     // Some kernel events pack an IP address into a UINT32.
@@ -823,7 +823,7 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
                         PrintAsIPAddress = TRUE;
                     }
 
-                    VariantClear(&amp;varQualifier);
+                    VariantClear(&varQualifier);
                 }
                 else
                 {
@@ -836,7 +836,7 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
 
                 for (ULONG i = 0; i < ArraySize; i++)
                 {
-                    CopyMemory(&amp;temp, pEventData, sizeof(ULONG));
+                    CopyMemory(&temp, pEventData, sizeof(ULONG));
 
                     if (PrintAsIPAddress)
                     {
@@ -866,7 +866,7 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
 
                 for (ULONG i=0; i < ArraySize; i++)
                 {
-                    CopyMemory(&amp;temp, pEventData, sizeof(LONGLONG));
+                    CopyMemory(&temp, pEventData, sizeof(LONGLONG));
                     wprintf(L"%I64d\n", temp);
                     pEventData += sizeof(LONGLONG);
                 }
@@ -880,7 +880,7 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
 
                 for (ULONG i=0; i < ArraySize; i++)
                 {
-                    CopyMemory(&amp;temp, pEventData, sizeof(ULONGLONG));
+                    CopyMemory(&temp, pEventData, sizeof(ULONGLONG));
                     wprintf(L"%I64u\n", temp);
                     pEventData += sizeof(ULONGLONG);
                 }
@@ -900,7 +900,7 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
                     IsWideString = TRUE;
                 }
 
-                hr = pProperty->pQualifiers->Get(L"StringTermination", 0, &amp;varQualifier, NULL);
+                hr = pProperty->pQualifiers->Get(L"StringTermination", 0, &varQualifier, NULL);
                 if (FAILED(hr) || (_wcsicmp(varQualifier.bstrVal, L"NullTerminated") == 0))
                 {
                     IsNullTerminated = TRUE;
@@ -909,7 +909,7 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
                 {
                     // First two bytes of the string contain its length.
 
-                    CopyMemory(&amp;StringLength, pEventData, sizeof(USHORT));
+                    CopyMemory(&StringLength, pEventData, sizeof(USHORT));
                     pEventData += sizeof(USHORT);
                 }
                 else if (_wcsicmp(varQualifier.bstrVal, L"ReverseCounted") == 0)
@@ -917,7 +917,7 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
                     // First two bytes of the string contain its length.
                     // Count is in big-endian; convert to little-endian.
 
-                    CopyMemory(&amp;temp, pEventData, sizeof(USHORT));
+                    CopyMemory(&temp, pEventData, sizeof(USHORT));
                     StringLength = MAKEWORD(HIBYTE(temp), LOBYTE(temp));
                     pEventData += sizeof(USHORT);
                 }
@@ -930,7 +930,7 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
                     StringLength = RemainingBytes;
                 }
 
-                VariantClear(&amp;varQualifier);
+                VariantClear(&varQualifier);
 
                 for (ULONG i = 0; i < ArraySize; i++)
                 {
@@ -999,7 +999,7 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
 
                 for (ULONG i=0; i < ArraySize; i++)
                 {
-                    CopyMemory(&amp;temp, pEventData, sizeof(BOOL));
+                    CopyMemory(&temp, pEventData, sizeof(BOOL));
                     wprintf(L"%s\n", (temp) ? L"TRUE" : L"FALSE");
                     pEventData += sizeof(BOOL);
                 }
@@ -1010,7 +1010,7 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
             case CIM_SINT8:
             case CIM_UINT8:
             {
-                hr = pProperty->pQualifiers->Get(L"Extension", 0, &amp;varQualifier, NULL);
+                hr = pProperty->pQualifiers->Get(L"Extension", 0, &varQualifier, NULL);
                 if (SUCCEEDED(hr))
                 {
                     // This is here to support legacy event classes; the Guid extension 
@@ -1021,12 +1021,12 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
                         WCHAR szGuid[50];
                         GUID Guid;
 
-                        CopyMemory(&amp;Guid, (GUID*)pEventData, sizeof(GUID));
+                        CopyMemory(&Guid, (GUID*)pEventData, sizeof(GUID));
                         StringFromGUID2(Guid, szGuid, sizeof(szGuid)-1);
                         wprintf(L"%s\n", szGuid);
                     }
 
-                    VariantClear(&amp;varQualifier);
+                    VariantClear(&varQualifier);
                     pEventData += sizeof(GUID);
                 }
                 else 
@@ -1059,7 +1059,7 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
 
                 for (ULONG i = 0; i < ArraySize; i++)
                 {
-                    CopyMemory(&amp;temp, pEventData, sizeof(WCHAR));
+                    CopyMemory(&temp, pEventData, sizeof(WCHAR));
                     wprintf(L"%c", temp);
                     pEventData += sizeof(WCHAR);
                 }
@@ -1075,7 +1075,7 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
 
                 for (ULONG i = 0; i < ArraySize; i++)
                 {
-                    CopyMemory(&amp;temp, pEventData, sizeof(SHORT));
+                    CopyMemory(&temp, pEventData, sizeof(SHORT));
                     wprintf(L"%hd\n", temp);
                     pEventData += sizeof(SHORT);
                 }
@@ -1092,7 +1092,7 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
                 // This is here to support legacy event classes; the Port extension 
                 // should only be used on properties whose CIM type is object.
 
-                hr = pProperty->pQualifiers->Get(L"Extension", 0, &amp;varQualifier, NULL);
+                hr = pProperty->pQualifiers->Get(L"Extension", 0, &varQualifier, NULL);
                 if (SUCCEEDED(hr))
                 {
                     if (_wcsicmp(L"Port", varQualifier.bstrVal) == 0)
@@ -1100,12 +1100,12 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
                         PrintAsPort = TRUE;
                     }
 
-                    VariantClear(&amp;varQualifier);
+                    VariantClear(&varQualifier);
                 }
 
                 for (ULONG i = 0; i < ArraySize; i++)
                 {
-                    CopyMemory(&amp;temp, pEventData, sizeof(USHORT));
+                    CopyMemory(&temp, pEventData, sizeof(USHORT));
 
                     if (PrintAsPort)
                     {
@@ -1126,12 +1126,12 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
             {
                 // An object data type has to include the Extension qualifier.
 
-                hr = pProperty->pQualifiers->Get(L"Extension", 0, &amp;varQualifier, NULL);
+                hr = pProperty->pQualifiers->Get(L"Extension", 0, &varQualifier, NULL);
                 if (SUCCEEDED(hr))
                 {
                     if (_wcsicmp(L"SizeT", varQualifier.bstrVal) == 0)
                     {
-                        VariantClear(&amp;varQualifier);
+                        VariantClear(&varQualifier);
 
                         // You do not need to know the data type of the property, you just 
                         // retrieve either 4 bytes or 8 bytes depending on the pointer's size.
@@ -1142,14 +1142,14 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
                             {
                                 ULONG temp = 0;
 
-                                CopyMemory(&amp;temp, pEventData, sizeof(ULONG));
+                                CopyMemory(&temp, pEventData, sizeof(ULONG));
                                 wprintf(L"0x%x\n", temp);
                             }
                             else
                             {
                                 ULONGLONG temp = 0;
 
-                                CopyMemory(&amp;temp, pEventData, sizeof(ULONGLONG));
+                                CopyMemory(&temp, pEventData, sizeof(ULONGLONG));
                                 wprintf(L"0x%x\n", temp);
                             }
 
@@ -1162,11 +1162,11 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
                     {
                         USHORT temp = 0;
 
-                        VariantClear(&amp;varQualifier);
+                        VariantClear(&varQualifier);
 
                         for (ULONG i = 0; i < ArraySize; i++)
                         {
-                            CopyMemory(&amp;temp, pEventData, sizeof(USHORT));
+                            CopyMemory(&temp, pEventData, sizeof(USHORT));
                             wprintf(L"%hu\n", ntohs(temp));
                             pEventData += sizeof(USHORT);
                         }
@@ -1178,11 +1178,11 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
                     {
                         ULONG temp = 0;
 
-                        VariantClear(&amp;varQualifier);
+                        VariantClear(&varQualifier);
 
                         for (ULONG i = 0; i < ArraySize; i++)
                         {
-                            CopyMemory(&amp;temp, pEventData, sizeof(ULONG));
+                            CopyMemory(&temp, pEventData, sizeof(ULONG));
 
                             wprintf(L"%d.%d.%d.%d\n", (temp >>  0) & 0xff,
                                                       (temp >>  8) & 0xff,
@@ -1200,7 +1200,7 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
                         IN6_ADDR IPv6Address;
                         PIPV6ADDRTOSTRING fnRtlIpv6AddressToString;
 
-                        VariantClear(&amp;varQualifier);
+                        VariantClear(&varQualifier);
 
                         fnRtlIpv6AddressToString = (PIPV6ADDRTOSTRING)GetProcAddress(
                             GetModuleHandle(L"ntdll"), "RtlIpv6AddressToStringW");
@@ -1213,9 +1213,9 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
 
                         for (ULONG i = 0; i < ArraySize; i++)
                         {
-                            CopyMemory(&amp;IPv6Address, pEventData, sizeof(IN6_ADDR));
+                            CopyMemory(&IPv6Address, pEventData, sizeof(IN6_ADDR));
 
-                            fnRtlIpv6AddressToString(&amp;IPv6Address, IPv6AddressAsString);
+                            fnRtlIpv6AddressToString(&IPv6Address, IPv6AddressAsString);
 
                             wprintf(L"%s\n", IPv6AddressAsString);
 
@@ -1229,11 +1229,11 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
                         WCHAR szGuid[50];
                         GUID Guid;
 
-                        VariantClear(&amp;varQualifier);
+                        VariantClear(&varQualifier);
 
                         for (ULONG i = 0; i < ArraySize; i++)
                         {
-                            CopyMemory(&amp;Guid, (GUID*)pEventData, sizeof(GUID));
+                            CopyMemory(&Guid, (GUID*)pEventData, sizeof(GUID));
                             
                             StringFromGUID2(Guid, szGuid, sizeof(szGuid)-1);
                             wprintf(L"%s\n", szGuid);
@@ -1259,11 +1259,11 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
                         USHORT CopyLength = 0;
                         BYTE buffer[SECURITY_MAX_SID_SIZE];
 
-                        VariantClear(&amp;varQualifier);
+                        VariantClear(&varQualifier);
 
                         for (ULONG i = 0; i < ArraySize; i++)
                         {
-                            CopyMemory(&amp;temp, pEventData, sizeof(ULONG));
+                            CopyMemory(&temp, pEventData, sizeof(ULONG));
 
                             if (temp > 0)
                             {
@@ -1289,10 +1289,10 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
                                     CopyLength = RemainingBytes - BytesToSid;
                                 }
 
-                                CopyMemory(&amp;buffer, pEventData, CopyLength);
-                                psid = (SID*)&amp;buffer;
+                                CopyMemory(&buffer, pEventData, CopyLength);
+                                psid = (SID*)&buffer;
 
-                                LookupAccountSid(NULL, psid, pUser, &amp;cchUserSize, pDomain, &amp;cchDomainSize, &amp;eNameUse);
+                                LookupAccountSid(NULL, psid, pUser, &cchUserSize, pDomain, &cchDomainSize, &eNameUse);
 
                                 status = GetLastError();
                                 if (ERROR_INSUFFICIENT_BUFFER == status)
@@ -1300,9 +1300,9 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
                                     pUser = (WCHAR*)malloc(cchUserSize * sizeof(WCHAR));
                                     pDomain = (WCHAR*)malloc(cchDomainSize * sizeof(WCHAR));
 
-                                    if (pUser &amp;&amp; pDomain)
+                                    if (pUser && pDomain)
                                     {
-                                        if (LookupAccountSid(NULL, psid, pUser, &amp;cchUserSize, pDomain, &amp;cchDomainSize, &amp;eNameUse))
+                                        if (LookupAccountSid(NULL, psid, pUser, &cchUserSize, pDomain, &cchDomainSize, &eNameUse))
                                         {
                                             wprintf(L"%s\\%s\n", pDomain, pUser);
                                         }
@@ -1353,7 +1353,7 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
                     else
                     {
                         wprintf(L"Extension, %s, not supported.\n", varQualifier.bstrVal);
-                        VariantClear(&amp;varQualifier);
+                        VariantClear(&varQualifier);
                         return NULL;
                     }
                 }

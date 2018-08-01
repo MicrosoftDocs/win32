@@ -77,11 +77,11 @@ The following table lists script examples that can be used to obtain various typ
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
 Set objWMIService = GetObject(&quot;winmgmts:&quot; _
-    &amp; &quot;{impersonationLevel=impersonate}!\\&quot; _
-    &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+    & &quot;{impersonationLevel=impersonate}!\\&quot; _
+    & strComputer & &quot;\root\cimv2&quot;)
 Set colSoftware = objWMIService.ExecQuery _
     (&quot;Select * from Win32_Product &quot; _
-        &amp; &quot;Where Name = &#39;Personnel database&#39;&quot;)
+        & &quot;Where Name = &#39;Personnel database&#39;&quot;)
 For Each objSoftware in colSoftware
     objSoftware.Uninstall()
 Next</code></pre></td>
@@ -129,14 +129,14 @@ foreach ($colItem in $colSoftware)
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
 Set objWMIService = GetObject(&quot;winmgmts:&quot; _
-    &amp; &quot;{impersonationLevel=impersonate}!\\&quot; _
-    &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+    & &quot;{impersonationLevel=impersonate}!\\&quot; _
+    & strComputer & &quot;\root\cimv2&quot;)
 Set colSoftware = objWMIService.ExecQuery _
     (&quot;Select * from Win32_Product&quot;)
 
 For Each objSoftware in colSoftware
-    Wscript.Echo &quot;Name: &quot; &amp; objSoftware.Name
-    Wscript.Echo &quot;Version: &quot; &amp; objSoftware.Version
+    Wscript.Echo &quot;Name: &quot; & objSoftware.Name
+    Wscript.Echo &quot;Version: &quot; & objSoftware.Version
 Next</code></pre></td>
 </tr>
 </tbody>
@@ -184,15 +184,15 @@ foreach ($colItem in $colSoftware)
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
 Set objWMIService = GetObject(&quot;winmgmts:&quot; _
-    &amp; &quot;{impersonationLevel=impersonate}!\\&quot; _
-    &amp; strComputer &amp; &quot;\root\cimv2&quot;)
+    & &quot;{impersonationLevel=impersonate}!\\&quot; _
+    & strComputer & &quot;\root\cimv2&quot;)
 Set colSoftware = objWMIService.ExecQuery(_
-    &quot;Select * from Win32_Product &quot; &amp; _
+    &quot;Select * from Win32_Product &quot; & _
     &quot;Where IdentifyingNumber =&quot; _
-        &amp; &quot; &#39;{90280409-6000-11D3-8CFE-0050048383C9}&#39;&quot;)
+        & &quot; &#39;{90280409-6000-11D3-8CFE-0050048383C9}&#39;&quot;)
 For Each objItem in colSoftware
-    Wscript.Echo &quot;Name: &quot; &amp; objItem.Name
-    Wscript.Echo &quot;Version: &quot; &amp; objItem.Version
+    Wscript.Echo &quot;Name: &quot; & objItem.Name
+    Wscript.Echo &quot;Version: &quot; & objItem.Version
 Next</code></pre></td>
 </tr>
 </tbody>

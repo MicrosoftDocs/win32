@@ -56,8 +56,8 @@ To create a DXVA-HD video processor:
 
 2.  Call [**DXVAHD\_CreateDevice**](/windows/desktop/api/dxvahd/nf-dxvahd-dxvahd_createdevice) to create the DXVA-HD device. This function returns a pointer to the [**IDXVAHD\_Device**](/windows/desktop/api/dxvahd/nn-dxvahd-idxvahd_device) interface.
     ```C++
-        hr = DXVAHD_CreateDevice(g_pD3DDevice, &amp;desc, DXVAHD_DEVICE_USAGE_PLAYBACK_NORMAL,
-            NULL, &amp;pDXVAHD);
+        hr = DXVAHD_CreateDevice(g_pD3DDevice, &desc, DXVAHD_DEVICE_USAGE_PLAYBACK_NORMAL,
+            NULL, &pDXVAHD);
     ```
 
     
@@ -66,7 +66,7 @@ To create a DXVA-HD video processor:
     ```C++
         DXVAHD_VPDEVCAPS caps;
 
-        hr = pDXVAHD->GetVideoProcessorDeviceCaps(&amp;caps);
+        hr = pDXVAHD->GetVideoProcessorDeviceCaps(&caps);
     ```
 
     
@@ -142,11 +142,11 @@ HRESULT InitializeDXVAHD()
 
     PDXVAHDSW_Plugin pSWPlugin = (PDXVAHDSW_Plugin)GetProcAddress(hSWPlugin, "DXVAHDSW_Plugin");
 
-    hr = DXVAHD_CreateDevice(g_pD3DDevice, &amp;desc,DXVAHD_DEVICE_USAGE_PLAYBACK_NORMAL,
-        pSWPlugin, &amp;pDXVAHD);
+    hr = DXVAHD_CreateDevice(g_pD3DDevice, &desc,DXVAHD_DEVICE_USAGE_PLAYBACK_NORMAL,
+        pSWPlugin, &pDXVAHD);
 #else
-    hr = DXVAHD_CreateDevice(g_pD3DDevice, &amp;desc, DXVAHD_DEVICE_USAGE_PLAYBACK_NORMAL,
-        NULL, &amp;pDXVAHD);
+    hr = DXVAHD_CreateDevice(g_pD3DDevice, &desc, DXVAHD_DEVICE_USAGE_PLAYBACK_NORMAL,
+        NULL, &pDXVAHD);
 #endif
     if (FAILED(hr))
     {
@@ -155,7 +155,7 @@ HRESULT InitializeDXVAHD()
 
     DXVAHD_VPDEVCAPS caps;
 
-    hr = pDXVAHD->GetVideoProcessorDeviceCaps(&amp;caps);
+    hr = pDXVAHD->GetVideoProcessorDeviceCaps(&caps);
     if (FAILED(hr))
     {
         goto done;
@@ -176,7 +176,7 @@ HRESULT InitializeDXVAHD()
     }
 
     // Create the VP device.
-    hr = CreateVPDevice(pDXVAHD, caps, &amp;pDXVAVP);
+    hr = CreateVPDevice(pDXVAHD, caps, &pDXVAVP);
     if (FAILED(hr))
     {
         goto done;
@@ -191,7 +191,7 @@ HRESULT InitializeDXVAHD()
         0,  // Usage
         DXVAHD_SURFACE_TYPE_VIDEO_INPUT,
         1,      // Number of surfaces to create
-        &amp;pSurf, // Array of surface pointers
+        &pSurf, // Array of surface pointers
         NULL
         );
 
@@ -211,9 +211,9 @@ HRESULT InitializeDXVAHD()
     g_pSurface->AddRef();
 
 done:
-    SafeRelease(&amp;pDXVAHD);
-    SafeRelease(&amp;pDXVAVP);
-    SafeRelease(&amp;pSurf);
+    SafeRelease(&pDXVAHD);
+    SafeRelease(&pDXVAVP);
+    SafeRelease(&pSurf);
     return hr;
 }
 ```
@@ -228,7 +228,7 @@ The CreateVPDevice function show in this example creates the video processor (st
 
 HRESULT CreateVPDevice(
     IDXVAHD_Device          *pDXVAHD,
-    const DXVAHD_VPDEVCAPS&amp; caps,
+    const DXVAHD_VPDEVCAPS& caps,
     IDXVAHD_VideoProcessor  **ppDXVAVP
     )
 {
@@ -254,7 +254,7 @@ HRESULT CreateVPDevice(
         // The VPGuid member contains the GUID that identifies the video 
         // processor.
 
-        hr = pDXVAHD->CreateVideoProcessor(&amp;pVPCaps[0].VPGuid, ppDXVAVP);
+        hr = pDXVAHD->CreateVideoProcessor(&pVPCaps[0].VPGuid, ppDXVAVP);
     }
 
     delete [] pVPCaps;

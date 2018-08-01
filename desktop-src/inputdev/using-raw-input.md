@@ -101,7 +101,7 @@ case WM_INPUT:
 {
     UINT dwSize;
 
-    GetRawInputData((HRAWINPUT)lParam, RID_INPUT, NULL, &amp;dwSize, 
+    GetRawInputData((HRAWINPUT)lParam, RID_INPUT, NULL, &dwSize, 
                     sizeof(RAWINPUTHEADER));
     LPBYTE lpb = new BYTE[dwSize];
     if (lpb == NULL) 
@@ -109,7 +109,7 @@ case WM_INPUT:
         return 0;
     } 
 
-    if (GetRawInputData((HRAWINPUT)lParam, RID_INPUT, lpb, &amp;dwSize, 
+    if (GetRawInputData((HRAWINPUT)lParam, RID_INPUT, lpb, &dwSize, 
          sizeof(RAWINPUTHEADER)) != dwSize )
          OutputDebugString (TEXT("GetRawInputData does not return correct size !\n")); 
 
@@ -167,7 +167,7 @@ case MSG_GETRIUFFER: // Private message
     UINT cbSize; 
     Sleep(1000); 
 
-    VERIFY(GetRawInputBuffer(NULL, &amp;cbSize, /*0, 
+    VERIFY(GetRawInputBuffer(NULL, &cbSize, /*0, 
             */sizeof(RAWINPUTHEADER)) == 0);
     cbSize *= 16;            // this is a wild guess
     Log(_T("Allocating %d bytes"), cbSize); 
@@ -180,7 +180,7 @@ case MSG_GETRIUFFER: // Private message
     for (;;) 
     {
         UINT cbSizeT = cbSize;
-        UINT nInput = GetRawInputBuffer(pRawInput, &amp;cbSizeT, /*0, 
+        UINT nInput = GetRawInputBuffer(pRawInput, &cbSizeT, /*0, 
                       */sizeof(RAWINPUTHEADER));
         Log(_T("nInput = %d"), nInput);
         if (nInput == 0) 

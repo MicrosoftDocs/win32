@@ -30,7 +30,7 @@ The CLSID for this effect is CLSID\_D2D1Vignette.
 
 ```C++
 ComPtr<ID2D1Effect> vignetteEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1Vignette, &amp;vignetteEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1Vignette, &vignetteEffect);
  
 vignetteEffect->SetInput(0, bitmap);
 vignetteEffect->SetValue(D2D1_VIGNETTE_PROP_COLOR, );

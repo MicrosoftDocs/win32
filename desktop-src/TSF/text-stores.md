@@ -58,7 +58,7 @@ An application initializes a text store by completing the following steps:
 1.  Create a thread manager object based on the [ITfThreadMgr](/windows/desktop/api/Msctf/nn-msctf-itfthreadmgr) interface by calling the [CoCreateInstance](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) function with a pointer to a thread manager object. The following is a code example of implementing a thread manager object.
     ```C++
     hr = CoCreateInstance (CLSID_TF_ThreadMgr, NULL, CLSCTX_INPROC_SERVER, 
-                            IID_ITfThreadMgr, (void**)&amp;pThreadMgr);
+                            IID_ITfThreadMgr, (void**)&pThreadMgr);
     ```
 
     
@@ -68,7 +68,7 @@ An application initializes a text store by completing the following steps:
 4.  Create a context object from the document manager by calling the [ITfDocumentMgr::CreateContext](/windows/desktop/api/Msctf/nf-msctf-itfdocumentmgr-createcontext) method with the pointer to the text store object and a pointer to the client identifier from activating the thread manager. The following is an example of creating a context object:
     ```C++
     hr = pDocumentMgr->CreateContext(m_ClientID, 0, (ITextStoreACP*)this, 
-                                    &amp;pContext, pEditCookie);
+                                    &pContext, pEditCookie);
     ```
 
     

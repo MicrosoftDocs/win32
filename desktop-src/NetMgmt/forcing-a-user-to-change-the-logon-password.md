@@ -41,7 +41,7 @@ void main( void )
  // necessary to prevent resetting other user information when 
  // the NetUserSetInfo call is made.
  //
-   netRet = NetUserGetInfo( SERVER, USERNAME, 3, (LPBYTE *)&amp;pUsr);
+   netRet = NetUserGetInfo( SERVER, USERNAME, 3, (LPBYTE *)&pUsr);
 
    if( netRet == NERR_Success )
    {
@@ -50,7 +50,7 @@ void main( void )
      // a nonzero value. Call the NetUserSetInfo function.
      //
         pUsr->usri3_password_expired = TRUE;
-        netRet = NetUserSetInfo( SERVER, USERNAME, 3, (LPBYTE)pUsr, &amp;dwParmError);
+        netRet = NetUserSetInfo( SERVER, USERNAME, 3, (LPBYTE)pUsr, &dwParmError);
     //
     // A zero return indicates success. 
     // If the return value is ERROR_INVALID_PARAMETER, 

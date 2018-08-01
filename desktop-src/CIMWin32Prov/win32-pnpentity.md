@@ -1351,19 +1351,19 @@ arrComputers = Array("Computer1","Computer2","Computer3")
 For Each strComputer In arrComputers
     WScript.Echo
     WScript.Echo "===================================="
-    WScript.Echo "Computer: "&amp; strComputer
+    WScript.Echo "Computer: "& strComputer
     WScript.Echo "===================================="
 
     Set objWMIService = GetObject("winmgmts:\\" _
-        & strComputer&amp; "\root\CIMV2") 
+        & strComputer& "\root\CIMV2") 
     Set colItems = objWMIService.ExecQuery( _
         "SELECT * FROM Win32_PnPEntity",,48) 
     For Each objItem in colItems 
         Wscript.Echo "-----------------------------------"
         Wscript.Echo "Win32_PnPEntity instance"
         Wscript.Echo "-----------------------------------"
-        Wscript.Echo "Name: "&amp; objItem.Name
-        Wscript.Echo "Status: "&amp; objItem.Status
+        Wscript.Echo "Name: "& objItem.Name
+        Wscript.Echo "Status: "& objItem.Status
     Next
 Next
 ```

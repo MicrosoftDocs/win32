@@ -58,12 +58,12 @@ The following code snippet shows you how to enumerate through available identiti
 HRESULT EnumIdentities(void)
 {
     HPEERENUM hPeerEnum = NULL;
-    HRESULT hr = PeerEnumIdentities(&amp;hPeerEnum);
+    HRESULT hr = PeerEnumIdentities(&hPeerEnum);
 
     if (SUCCEEDED(hr))
     {
         ULONG cIdentities = 0;
-        hr = PeerGetItemCount(hPeerEnum, &amp;cIdentities);
+        hr = PeerGetItemCount(hPeerEnum, &cIdentities);
 
         if (SUCCEEDED(hr))
         {
@@ -74,9 +74,9 @@ HRESULT EnumIdentities(void)
                 ULONG cItem = 1; // process one result at a time
                 PEER_NAME_PAIR ** ppNamePair = NULL; // pointer to an array of pointers
 
-                hr = PeerGetNextItem(hPeerEnum, &amp;cItem, (PVOID**) &amp;ppNamePair);
+                hr = PeerGetNextItem(hPeerEnum, &cItem, (PVOID**) &ppNamePair);
 
-                if (SUCCEEDED(hr) &amp;&amp; (1 == cItem))
+                if (SUCCEEDED(hr) && (1 == cItem))
                 {
                     wprintf(L"%s [%s]\r\n", (*ppNamePair)->pwzFriendlyName, (*ppNamePair)->pwzPeerName);
                     PeerFreeData(ppNamePair);

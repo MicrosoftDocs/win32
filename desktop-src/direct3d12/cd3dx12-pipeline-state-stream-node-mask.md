@@ -29,8 +29,8 @@ A helper structure used to describe a node mask as a single object suitable for 
 ```C++
 struct CD3DX12_PIPELINE_STATE_STREAM_NODE_MASK {
                                           CD3DX12_PIPELINE_STATE_STREAM_NODE_MASK;
-                                          CD3DX12_PIPELINE_STATE_STREAM_NODE_MASK(UINT const &amp;i);
-  CD3DX12_PIPELINE_STATE_STREAM_NODE_MASK operator=(UINT const&amp; i);
+                                          CD3DX12_PIPELINE_STATE_STREAM_NODE_MASK(UINT const &i);
+  CD3DX12_PIPELINE_STATE_STREAM_NODE_MASK operator=(UINT const& i);
                                           operator UINT() const;
 };
 ```

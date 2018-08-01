@@ -17,7 +17,7 @@ When the application creates a new instance of the Filter Graph Manager, the app
 
 
 ```C++
-    hr = m_pGraph->QueryInterface(IID_PPV_ARGS(&amp;m_pEvent));
+    hr = m_pGraph->QueryInterface(IID_PPV_ARGS(&m_pEvent));
     if (FAILED(hr))
     {
         goto done;
@@ -72,7 +72,7 @@ HRESULT DShowPlayer::HandleGraphEvent(GraphEventFN pfnOnGraphEvent)
     HRESULT hr = S_OK;
 
     // Get the events from the queue.
-    while (SUCCEEDED(m_pEvent->GetEvent(&amp;evCode, &amp;param1, &amp;param2, 0)))
+    while (SUCCEEDED(m_pEvent->GetEvent(&evCode, &param1, &param2, 0)))
     {
         // Invoke the callback.
         pfnOnGraphEvent(m_hwnd, evCode, param1, param2);

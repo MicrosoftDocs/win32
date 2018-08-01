@@ -43,8 +43,8 @@ Compile your shader code with one of the compile functions. For example, the [HL
         ("lib" + m_shaderModelSuffix).c_str(),
         D3DCOMPILE_OPTIMIZATION_LEVEL3,
         0,
-        &amp;codeBlob,
-        &amp;errorBlob
+        &codeBlob,
+        &errorBlob
         );
 ```
 
@@ -60,7 +60,7 @@ Call the [**D3DLoadModule**](/windows/desktop/api/D3Dcompiler/nf-d3dcompiler-d3d
 ```C++
     // Load the compiled library code into a module object.
     ComPtr<ID3D11Module> shaderLibrary;
-    DX::ThrowIfFailed(D3DLoadModule(codeBlob->GetBufferPointer(), codeBlob->GetBufferSize(), &amp;shaderLibrary));
+    DX::ThrowIfFailed(D3DLoadModule(codeBlob->GetBufferPointer(), codeBlob->GetBufferSize(), &shaderLibrary));
 ```
 
 
@@ -76,7 +76,7 @@ Call the bind methods of [**ID3D11ModuleInstance**](https://msdn.microsoft.com/l
     // Create an instance of the library and define resource bindings for it.
     // In this sample we use the same slots as the source library however this is not required.
     ComPtr<ID3D11ModuleInstance> shaderLibraryInstance;
-    DX::ThrowIfFailed(shaderLibrary->CreateInstance("", &amp;shaderLibraryInstance));
+    DX::ThrowIfFailed(shaderLibrary->CreateInstance("", &shaderLibraryInstance));
     // HRESULTs for Bind methods are intentionally ignored as compiler optimizations may eliminate the source
     // bindings. In these cases, the Bind operation will fail, but the final shader will function normally.
     shaderLibraryInstance->BindResource(0, 0, 1);

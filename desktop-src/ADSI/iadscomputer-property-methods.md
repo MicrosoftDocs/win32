@@ -591,16 +591,16 @@ LPWSTR adspath = L"WinNT://jeffsmith1,computer";
 HRESULT hr = S_OK;
 BSTR bstr = NULL;
 
-hr = ADsGetObject(adspath,IID_IADsComputer,(void**)&amp;pComp);
+hr = ADsGetObject(adspath,IID_IADsComputer,(void**)&pComp);
 if(FAILED(hr)) {goto Cleanup;}
 
-hr = pComp->get_Owner(&amp;bstr);
+hr = pComp->get_Owner(&bstr);
 if(FAILED(hr)) {goto Cleanup;}
 
 printf("Computer owner: %S\n",bstr);
 SysFreeString(bstr);
 
-hr = pComp->get_OperatingSystem(&amp;bstr);
+hr = pComp->get_OperatingSystem(&bstr);
 if(FAILED(hr)) {goto Cleanup;}
 printf("Operating System: %S\n",bstr);
 SysFreeString(bstr);

@@ -29,9 +29,9 @@ A helper structure to enable easy initialization of a [**D3D12\_SUBRESOURCE\_TIL
 ```C++
 struct CD3DX12_SUBRESOURCE_TILING  : public D3D12_SUBRESOURCE_TILING{
    CD3DX12_SUBRESOURCE_TILING();
-   explicit CD3DX12_SUBRESOURCE_TILING(const D3D12_SUBRESOURCE_TILING &amp;o);
+   explicit CD3DX12_SUBRESOURCE_TILING(const D3D12_SUBRESOURCE_TILING &o);
    CD3DX12_SUBRESOURCE_TILING(UINT widthInTiles, UINT16 heightInTiles, UINT16 depthInTiles, UINT startTileIndexInOverallResource);
-   operator const D3D12_SUBRESOURCE_TILING&amp;() const;
+   operator const D3D12_SUBRESOURCE_TILING&() const;
 };
 ```
 

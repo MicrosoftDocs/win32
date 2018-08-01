@@ -37,38 +37,38 @@ HRESULT GetGCServerName(VARIANT *vGCServer)
     VARIANT var;
     ULONG lFetch = 0;
 
-    VariantInit(&amp;var);
+    VariantInit(&var);
  
     // Bind to the global catalog using a serverless bind.
     hr = ADsOpenObject(L"GC:", NULL, NULL,
                        ADS_SECURE_AUTHENTICATION,
-                       IID_IADsContainer, (void**) &amp;pContainer );
+                       IID_IADsContainer, (void**) &pContainer );
     if (FAILED(hr))
         return (hr);
  
-    hr = pContainer->get__NewEnum(&amp;pUnk);
+    hr = pContainer->get__NewEnum(&pUnk);
     if (SUCCEEDED(hr))
     {
-        hr = pUnk->QueryInterface(IID_IEnumVARIANT, (void**) &amp;pEnum);
+        hr = pUnk->QueryInterface(IID_IEnumVARIANT, (void**) &pEnum);
         if (SUCCEEDED(hr))
         {
             // Enumerate.
-            hr = pEnum->Next(1, &amp;var, &amp;lFetch);
+            hr = pEnum->Next(1, &var, &lFetch);
             if (SUCCEEDED(hr))
             {
                 while (SUCCEEDED(hr))
                 {
                     if (lFetch == 1)
                     {
-                        pDisp = V_DISPATCH(&amp;var);
+                        pDisp = V_DISPATCH(&var);
                         hre = pDisp->QueryInterface(
                                           IID_IADsObjectOptions,
-                                          (void**)&amp;pOpt);
+                                          (void**)&pOpt);
                         if (pDisp)
                             pDisp->Release();
                     }
-                    VariantClear(&amp;var);
-                    hr = pEnum->Next(1, &amp;var, &amp;lFetch);
+                    VariantClear(&var);
+                    hr = pEnum->Next(1, &var, &lFetch);
                 }
                 // S_FALSE indicates that the row was read properly.
                 if (hr == S_FALSE)
@@ -85,7 +85,7 @@ HRESULT GetGCServerName(VARIANT *vGCServer)
     }
  
 // Cleanup.
-    VariantClear(&amp;var);
+    VariantClear(&var);
     if (pOpt)
         pOpt->Release();
     if (pEnum)

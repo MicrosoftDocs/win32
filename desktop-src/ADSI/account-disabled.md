@@ -50,7 +50,7 @@ IADsUser *pUser = NULL;
 HRESULT hr = S_OK;
 LPWSTR adsPath;
 adsPath=L"LDAP://serv1/cn=Jeff Smith,cn=Users, dc=Fabrikam, dc=com";
-hr = ADsGetObject(adsPath,IID_IADsUser,(void**)&amp;pUser);
+hr = ADsGetObject(adsPath,IID_IADsUser,(void**)&pUser);
 
 if(FAILED(hr)){return;}
 

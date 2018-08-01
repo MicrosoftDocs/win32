@@ -104,7 +104,7 @@ The following example query string searches for group objects that have the **AD
 
 
 ```C++
-(&amp;(objectCategory=group)(groupType:1.2.840.113556.1.4.803:=2147483648))
+(&(objectCategory=group)(groupType:1.2.840.113556.1.4.803:=2147483648))
 ```
 
 
@@ -166,7 +166,7 @@ Get all users with an email attribute:
 
 
 ```C++
-(&amp;(objectClass=user)(email=*))
+(&(objectClass=user)(email=*))
 ```
 
 
@@ -175,7 +175,7 @@ Get all user entries with an email attribute and a surname equal to "smith":
 
 
 ```C++
-(&amp;(sn=smith)(objectClass=user)(email=*))
+(&(sn=smith)(objectClass=user)(email=*))
 ```
 
 
@@ -184,7 +184,7 @@ Get all user entries with a common name that starts with "andy", "steve", or "ma
 
 
 ```C++
-(&amp;(objectClass=user)(| (cn=andy*)(cn=steve*)(cn=margaret*)))
+(&(objectClass=user)(| (cn=andy*)(cn=steve*)(cn=margaret*)))
 ```
 
 
@@ -203,7 +203,7 @@ The formal definition of the search filter is as follows (from RFC 1960):
 
 ```C++
 <filter> ::= '(' <filtercomp> ')'
-<filtercomp> ::= <and> | <or> | <not> | <item><and> ::= '&amp;' <filterlist>
+<filtercomp> ::= <and> | <or> | <not> | <item><and> ::= '&' <filterlist>
 <or> ::= '|' <filterlist>
 <not> ::= '!' <filter>
 <filterlist> ::= <filter> | <filter> <filterlist>

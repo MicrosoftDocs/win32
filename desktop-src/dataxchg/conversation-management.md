@@ -133,7 +133,7 @@ if (uType == XTYP_WILDCONNECT)
  
     return DdeCreateDataHandle( 
         idInst,          // instance identifier 
-        (LPBYTE) &amp;ahszp, // pointer to HSZPAIR array 
+        (LPBYTE) &ahszp, // pointer to HSZPAIR array 
         sizeof(HSZ) * j, // length of the array 
         0,               // start at the beginning 
         (HSZ) NULL,      // no item name string 
@@ -187,7 +187,7 @@ aHsz = (HSZ *) LocalAlloc(LMEM_FIXED, cConv * sizeof(HSZ));
 pHsz = aHsz; 
 while ((hconv = DdeQueryNextServer(hconvList, hconv)) != NULL) 
 { 
-    DdeQueryConvInfo(hconv, QID_SYNC, (PCONVINFO) &amp;ci); 
+    DdeQueryConvInfo(hconv, QID_SYNC, (PCONVINFO) &ci); 
     DdeKeepStringHandle(idInst, ci.hszSvcPartner); 
     *pHsz++ = ci.hszSvcPartner; 
 } 

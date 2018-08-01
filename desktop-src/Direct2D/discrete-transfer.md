@@ -41,7 +41,7 @@ The image here shows the input and output of the discrete transfer effect.
 
 ```C++
 ComPtr<ID2D1Effect> discreteTransferEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1DiscreteTransfer, &amp;discreteTransferEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1DiscreteTransfer, &discreteTransferEffect);
 
 discreteTransferEffect->SetInput(0, bitmap);
 

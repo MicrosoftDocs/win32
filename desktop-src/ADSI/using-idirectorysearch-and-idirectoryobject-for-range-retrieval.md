@@ -34,7 +34,7 @@ LPWSTR pszAttrs[2];
 pszAttrs[0] = L"Name";
 pszAttrs[1] = L"member;range=0-100";
 
-hr = pdo->GetObjectAttributes(pszAttrs, 2, &amp;pAttrInfo, &amp;dwRetrieved);
+hr = pdo->GetObjectAttributes(pszAttrs, 2, &pAttrInfo, &dwRetrieved);
 ```
 
 
@@ -53,7 +53,7 @@ LPWSTR pszAttrs[2];
 pszAttrs[0] = L"Name";
 pszAttrs[1] = L"member;range=0-100";
 
-hr = pdo->ExecuteSearch(L"(objectClass=user)", pszAttrs, 2, &amp;hSearch);
+hr = pdo->ExecuteSearch(L"(objectClass=user)", pszAttrs, 2, &hSearch);
 ```
 
 

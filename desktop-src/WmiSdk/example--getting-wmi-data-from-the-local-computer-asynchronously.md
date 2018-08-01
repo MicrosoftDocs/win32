@@ -100,7 +100,7 @@ int main(int argc, char **argv)
         CLSID_WbemLocator,             
         0, 
         CLSCTX_INPROC_SERVER, 
-        IID_IWbemLocator, (LPVOID *) &amp;pLoc);
+        IID_IWbemLocator, (LPVOID *) &pLoc);
  
     if (FAILED(hres))
     {
@@ -125,7 +125,7 @@ int main(int argc, char **argv)
                                NULL,
                                0,
                                0, 
-                               &amp;pSvc);
+                               &pSvc);
     
     if (FAILED(hres))
     {
@@ -230,9 +230,9 @@ class QuerySink : public IWbemObjectSink
 
 public:
     QuerySink() { m_lRef = 0; bDone = false; 
-     InitializeCriticalSection(&amp;threadLock); }
+     InitializeCriticalSection(&threadLock); }
     ~QuerySink() { bDone = true;
-        DeleteCriticalSection(&amp;threadLock); }
+        DeleteCriticalSection(&threadLock); }
 
     virtual ULONG STDMETHODCALLTYPE AddRef();
     virtual ULONG STDMETHODCALLTYPE Release();        
@@ -268,12 +268,12 @@ The following code example is an implementation of the QuerySink class.
 
 ULONG QuerySink::AddRef()
 {
-    return InterlockedIncrement(&amp;m_lRef);
+    return InterlockedIncrement(&m_lRef);
 }
 
 ULONG QuerySink::Release()
 {
-    LONG lRef = InterlockedDecrement(&amp;m_lRef);
+    LONG lRef = InterlockedDecrement(&m_lRef);
     if(lRef == 0)
         delete this;
     return lRef;
@@ -300,7 +300,7 @@ HRESULT QuerySink::Indicate(long lObjectCount,
     {
         VARIANT varName;
         hres = apObjArray[i]->Get(_bstr_t(L"Name"),
-            0, &amp;varName, 0, 0);
+            0, &varName, 0, 0);
 
         if (FAILED(hres))
         {
@@ -310,7 +310,7 @@ HRESULT QuerySink::Indicate(long lObjectCount,
             return WBEM_E_FAILED;       // Program has failed.
         }
 
-        printf("Name: %ls\n", V_BSTR(&amp;varName));
+        printf("Name: %ls\n", V_BSTR(&varName));
     }
 
     return WBEM_S_NO_ERROR;
@@ -327,9 +327,9 @@ HRESULT QuerySink::SetStatus(
  {
   printf("Call complete.\n");
 
-  EnterCriticalSection(&amp;threadLock);
+  EnterCriticalSection(&threadLock);
   bDone = true;
-  LeaveCriticalSection(&amp;threadLock);
+  LeaveCriticalSection(&threadLock);
  }
  else if(lFlags == WBEM_STATUS_PROGRESS)
  {
@@ -344,9 +344,9 @@ bool QuerySink::IsDone()
 {
     bool done = true;
 
- EnterCriticalSection(&amp;threadLock);
+ EnterCriticalSection(&threadLock);
  done = bDone;
- LeaveCriticalSection(&amp;threadLock);
+ LeaveCriticalSection(&threadLock);
 
     return done;
 }    // end of QuerySink.cpp

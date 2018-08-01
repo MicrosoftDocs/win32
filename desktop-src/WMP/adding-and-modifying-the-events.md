@@ -34,7 +34,7 @@ You need to change the name of the existing event handler that the plug-in wizar
 
 2.  In EchoPropPage.h, change the name in the line that prototypes the OnChangeScale function:
     ```C++
-    LRESULT (OnChangeDelay)(WORD wNotifyCode, WORD wID, HWND hWndCtl, BOOL&amp; bHandled);
+    LRESULT (OnChangeDelay)(WORD wNotifyCode, WORD wID, HWND hWndCtl, BOOL& bHandled);
     
     ```
 
@@ -42,7 +42,7 @@ You need to change the name of the existing event handler that the plug-in wizar
 
 3.  In EchoPropPage.cpp, change the name in the function header:
     ```C++
-    LRESULT CEchoPropPage::OnChangeDelay(WORD wNotifyCode, WORD wID, HWND hWndCtl, BOOL&amp; bHandled)
+    LRESULT CEchoPropPage::OnChangeDelay(WORD wNotifyCode, WORD wID, HWND hWndCtl, BOOL& bHandled)
     
     ```
 

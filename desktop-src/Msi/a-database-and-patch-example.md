@@ -20,7 +20,7 @@ The following example opens a database, sample.msi, for reading only. [**MsiOpen
 
 ```C++
 PMSIHANDLE hDbReadOnly = 0;
-UINT uiStatus1 = MsiOpenDatabase(TEXT("c:\\test\\sample.msi"), MSIDBOPEN_READONLY, &amp;hDbReadOnly);
+UINT uiStatus1 = MsiOpenDatabase(TEXT("c:\\test\\sample.msi"), MSIDBOPEN_READONLY, &hDbReadOnly);
 if (ERROR_SUCCESS != uiStatus1)
 {
     // process error
@@ -35,7 +35,7 @@ The following example opens the database for reading and writing. If the applica
 
 ```C++
 PMSIHANDLE hDbTransact = 0;
-UINT uiStatus2 = MsiOpenDatabase(TEXT("c:\\test\\example.msi"), MSIDBOPEN_TRANSACT, &amp;hDbTransact);
+UINT uiStatus2 = MsiOpenDatabase(TEXT("c:\\test\\example.msi"), MSIDBOPEN_TRANSACT, &hDbTransact);
 if (ERROR_SUCCESS != uiStatus2)
 {
     // process error
@@ -50,7 +50,7 @@ The following example takes an existing database, text.msi, and creates a new da
 
 ```C++
 PMSIHANDLE hDbOutput = 0;
-UINT uiStatus3 = MsiOpenDatabase(TEXT("c:\\test\\test.msi"), TEXT("c:\\test\\newtest.msi"), &amp;hDbOutput);
+UINT uiStatus3 = MsiOpenDatabase(TEXT("c:\\test\\test.msi"), TEXT("c:\\test\\newtest.msi"), &hDbOutput);
 if (ERROR_SUCCESS != uiStatus3)
 {
     // process error
@@ -68,7 +68,7 @@ The following example opens a Windows Installer patch package (.msp file) for re
 ```C++
 PMSIHANDLE hDbPatch = 0;
 LPCTSTR szPersistMode = MSIDBOPEN_READONLY + MSIDBOPEN_PATCHFILE;
-UINT uiStatus4 = MsiOpenDatabase(TEXT("c:\\test\\sample.msp"), szPersistMode, &amp;hDbPatch);
+UINT uiStatus4 = MsiOpenDatabase(TEXT("c:\\test\\sample.msp"), szPersistMode, &hDbPatch);
 if (ERROR_SUCCESS != uiStatus4)
 {
     // process error

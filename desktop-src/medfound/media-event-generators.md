@@ -74,18 +74,18 @@ private:
     }
 
 public:
-    MyObject(HRESULT &amp;hr) : m_nRefCount(0), m_pQueue(NULL), m_bShutdown(FALSE)
+    MyObject(HRESULT &hr) : m_nRefCount(0), m_pQueue(NULL), m_bShutdown(FALSE)
     {
-        InitializeCriticalSection(&amp;m_critSec);
+        InitializeCriticalSection(&m_critSec);
         
         // Create the event queue.
-        hr = MFCreateEventQueue(&amp;m_pQueue);
+        hr = MFCreateEventQueue(&m_pQueue);
     }
 
     // Shutdown: Shuts down this object.
     HRESULT Shutdown()
     {
-        EnterCriticalSection(&amp;m_critSec);
+        EnterCriticalSection(&m_critSec);
 
         HRESULT hr = CheckShutdown();
         if (SUCCEEDED(hr))
@@ -104,7 +104,7 @@ public:
             m_bShutdown = TRUE;
         }
 
-        LeaveCriticalSection(&amp;m_critSec);
+        LeaveCriticalSection(&m_critSec);
         return hr;
     }
 
@@ -116,7 +116,7 @@ public:
     // IMFMediaEventGenerator::BeginGetEvent
     STDMETHODIMP BeginGetEvent(IMFAsyncCallback* pCallback, IUnknown* pState)
     {
-        EnterCriticalSection(&amp;m_critSec);
+        EnterCriticalSection(&m_critSec);
 
         HRESULT hr = CheckShutdown();
         if (SUCCEEDED(hr))
@@ -124,14 +124,14 @@ public:
             hr = m_pQueue->BeginGetEvent(pCallback, pState);
         }
 
-        LeaveCriticalSection(&amp;m_critSec);
+        LeaveCriticalSection(&m_critSec);
         return hr;    
     }
 
     // IMFMediaEventGenerator::EndGetEvent
     STDMETHODIMP EndGetEvent(IMFAsyncResult* pResult, IMFMediaEvent** ppEvent)
     {
-        EnterCriticalSection(&amp;m_critSec);
+        EnterCriticalSection(&m_critSec);
 
         HRESULT hr = CheckShutdown();
         if (SUCCEEDED(hr))
@@ -139,7 +139,7 @@ public:
             hr = m_pQueue->EndGetEvent(pResult, ppEvent);
         }
 
-        LeaveCriticalSection(&amp;m_critSec);
+        LeaveCriticalSection(&m_critSec);
         return hr;    
     }
 
@@ -151,7 +151,7 @@ public:
         IMFMediaEventQueue *pQueue = NULL;
 
         // Hold lock.
-        EnterCriticalSection(&amp;m_critSec);
+        EnterCriticalSection(&m_critSec);
 
         // Check shutdown
         HRESULT hr = CheckShutdown();
@@ -165,7 +165,7 @@ public:
         }
 
         // Release the lock.
-        LeaveCriticalSection(&amp;m_critSec);
+        LeaveCriticalSection(&m_critSec);
 
         if (SUCCEEDED(hr))
         {
@@ -181,7 +181,7 @@ public:
         MediaEventType met, REFGUID extendedType, 
         HRESULT hrStatus, const PROPVARIANT* pvValue)
     {
-        EnterCriticalSection(&amp;m_critSec);
+        EnterCriticalSection(&m_critSec);
 
         HRESULT hr = CheckShutdown();
         if (SUCCEEDED(hr))
@@ -190,7 +190,7 @@ public:
                 met, extendedType, hrStatus, pvValue);
         }
 
-        LeaveCriticalSection(&amp;m_critSec);
+        LeaveCriticalSection(&m_critSec);
         return hr;
     }
 

@@ -71,7 +71,7 @@ The second tag value. See [**SetTags**](https://msdn.microsoft.com/en-us/library
                     DXGI_FORMAT_A8_UNORM, 
                     D2D1_ALPHA_MODE_PREMULTIPLIED
                     )),
-                &amp;m_pBitmap
+                &m_pBitmap
                 );                    
         }
 ```
@@ -93,7 +93,7 @@ The second tag value. See [**SetTags**](https://msdn.microsoft.com/en-us/library
             m_pBitmapMask,
             m_pFernBitmapBrush,
             D2D1_OPACITY_MASK_CONTENT_GRAPHICS,
-            &amp;rcBrushRect
+            &rcBrushRect
             );
 
         hr = m_pRenderTarget-&gt;Flush();

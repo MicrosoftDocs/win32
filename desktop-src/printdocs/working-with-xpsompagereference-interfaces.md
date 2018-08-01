@@ -47,7 +47,7 @@ The following code example gets a pointer to the [**IXpsOMPage**](/windows/deskt
     // and is passed in as a parameter
 
     // get the page content of this page reference
-    hr = pageRef->GetPage (&amp;page);
+    hr = pageRef->GetPage (&page);
 ```
 
 
@@ -71,10 +71,10 @@ The following code example gets a pointer to the [**IXpsOMNameCollection**](/win
     // if the page hasn't been loaded yet, for example, if the XPS OM 
     //  was loaded from an XPS document, CollectLinkTargets obtains the
     //  list of link targets from the <PageContent.LinkTargets> markup
-    hr = pageRef->CollectLinkTargets(&amp;linkTargets);
+    hr = pageRef->CollectLinkTargets(&linkTargets);
 
     // get the page content of this page reference
-    hr = pageRef->GetPage (&amp;page);
+    hr = pageRef->GetPage (&page);
 
     // after the page object has been loaded and calling GetPage or 
     //  by creating a page in the XPS OM, CollectLinkTargets will now check
@@ -82,13 +82,13 @@ The following code example gets a pointer to the [**IXpsOMNameCollection**](/win
     //  CollectLinkTargets might take longer to return than the previous
     //  call above if the XPS OM was created from a file
     linkTargets->Release(); // release previous collection
-    hr = pageRef->CollectLinkTargets(&amp;linkTargets);
+    hr = pageRef->CollectLinkTargets(&linkTargets);
     
     // walk the list of link targets returned
-    hr = linkTargets->GetCount( &amp;numTargets );
+    hr = linkTargets->GetCount( &numTargets );
     thisTarget = 0;
     while (thisTarget < numTargets) {
-        hr = linkTargets->GetAt (thisTarget, &amp;thisTargetName);
+        hr = linkTargets->GetAt (thisTarget, &thisTargetName);
         printf ("%s\n", thisTargetName);
         // release the target string returned to prevent memory leaks
         CoTaskMemFree (thisTargetName);
@@ -117,13 +117,13 @@ The following code example gets the lists of the different resources that are us
     IXpsOMRemoteDictionaryResourceCollection  *dictionaryResources; 
 
     // pageRef contains the current page reference 
-    hr = pageRef->CollectPartResources ( &amp;resources );
+    hr = pageRef->CollectPartResources ( &resources );
 
     // Get pointers to each type of resource
-    hr = resources->GetColorProfileResources( &amp;colorProfileResources );
-    hr = resources->GetFontResources( &amp;fontResources );
-    hr = resources->GetImageResources( &amp;imageResources );
-    hr = resources->GetRemoteDictionaryResources( &amp;dictionaryResources );
+    hr = resources->GetColorProfileResources( &colorProfileResources );
+    hr = resources->GetFontResources( &fontResources );
+    hr = resources->GetImageResources( &imageResources );
+    hr = resources->GetRemoteDictionaryResources( &dictionaryResources );
 ```
 
 

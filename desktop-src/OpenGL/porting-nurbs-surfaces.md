@@ -84,7 +84,7 @@ void init_surface(void)
             ctlpoints[u][v][0] = 2.0*((GLfloat)u - 1.5); 
             ctlpoints[u][v][1] = 2.0*((GLfloat)v - 1.5); 
  
-            if ( (u == 1 || u == 2) &amp;&amp; (v == 1 || v == 2)) 
+            if ( (u == 1 || u == 2) && (v == 1 || v == 2)) 
                 ctlpoints[u][v][2] = 3.0; 
             else 
                 ctlpoints[u][v][2] = -3.0; 
@@ -143,17 +143,17 @@ void display(void)
             8, knots, 
             4 * 3, 
             3, 
-            &amp;ctlpoints[0][0][0], 
+            &ctlpoints[0][0][0], 
             4, 4, 
             GL_MAP2_VERTEX_3); 
     gluBeginTrim (theNurb); 
-        gluPwlCurve (theNurb, 5, &amp;edgePt[0][0], 2, 
+        gluPwlCurve (theNurb, 5, &edgePt[0][0], 2, 
                      GLU_MAP1_TRIM_2); 
     gluEndTrim (theNurb); 
     gluBeginTrim (theNurb); 
         gluNurbsCurve (theNurb, 8, curveKnots, 2, 
-                &amp;curvePt[0][0], 4, GLU_MAP1_TRIM_2); 
-        gluPwlCurve (theNurb, 3, &amp;pwlPt[0][0], 2, 
+                &curvePt[0][0], 4, GLU_MAP1_TRIM_2); 
+        gluPwlCurve (theNurb, 3, &pwlPt[0][0], 2, 
                      GLU_MAP1_TRIM_2); 
     gluEndTrim (theNurb); 
     gluEndSurface(theNurb); 

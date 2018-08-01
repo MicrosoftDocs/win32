@@ -27,12 +27,12 @@ The following code shows how to create an hour glass, transform the hour glass, 
 // Create a path geometry.
 if (SUCCEEDED(hr))
 {
-    hr = m_pD2DFactory->CreatePathGeometry(&amp;m_pPathGeometry);
+    hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometry);
 
     if (SUCCEEDED(hr))
     {
         // Write to the path geometry using the geometry sink.
-        hr = m_pPathGeometry->Open(&amp;pSink);
+        hr = m_pPathGeometry->Open(&pSink);
 
         if (SUCCEEDED(hr))
         {
@@ -63,7 +63,7 @@ if (SUCCEEDED(hr))
 
             hr = pSink->Close();
         }
-        SafeRelease(&amp;pSink);
+        SafeRelease(&pSink);
     }
 }
 
@@ -75,7 +75,7 @@ if (SUCCEEDED(hr))
         D2D1::Matrix3x2F::Rotation(
             45.f,
             D2D1::Point2F(100, 100)),
-        &amp;m_pTransformedGeometry
+        &m_pTransformedGeometry
         );
 }
 ```

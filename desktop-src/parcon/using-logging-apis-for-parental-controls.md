@@ -30,7 +30,7 @@ void main()
     REGHANDLE hWpc = 0;
 
     // Register
-    ULONG res = EventRegister(&amp;WPCPROV, NULL, NULL, &amp;hWpc);
+    ULONG res = EventRegister(&WPCPROV, NULL, NULL, &hWpc);
 
     // Log an event
     PCWSTR pcszAppName = L"SuperIM";
@@ -45,37 +45,37 @@ void main()
 
     EVENT_DATA_DESCRIPTOR eventData[WPC_ARGS_CONVERSATIONINITEVENT_CARGS];
 
-    EventDataDescCreate(&amp;eventData[WPC_ARGS_CONVERSATIONINITEVENT_APPNAME],
+    EventDataDescCreate(&eventData[WPC_ARGS_CONVERSATIONINITEVENT_APPNAME],
         (const PVOID)pcszAppName, (ULONG)BYTELEN(pcszAppName));
 
-    EventDataDescCreate(&amp;eventData[WPC_ARGS_CONVERSATIONINITEVENT_APPVERSION],
+    EventDataDescCreate(&eventData[WPC_ARGS_CONVERSATIONINITEVENT_APPVERSION],
         (const PVOID)pcszAppVersion,(ULONG)BYTELEN(pcszAppVersion));
 
     EventDataDescCreate(
-        &amp;eventData[WPC_ARGS_CONVERSATIONINITEVENT_ACCOUNTNAME], 
+        &eventData[WPC_ARGS_CONVERSATIONINITEVENT_ACCOUNTNAME], 
         (const PVOID)pcszAccountName, (ULONG)BYTELEN(pcszAccountName));
 
-    EventDataDescCreate(&amp;eventData[WPC_ARGS_CONVERSATIONINITEVENT_CONVID], 
+    EventDataDescCreate(&eventData[WPC_ARGS_CONVERSATIONINITEVENT_CONVID], 
         (const PVOID)pcszConvID, (ULONG)BYTELEN(pcszConvID));
 
     EventDataDescCreate(
-        &amp;eventData[WPC_ARGS_CONVERSATIONINITEVENT_REQUESTINGIP], 
+        &eventData[WPC_ARGS_CONVERSATIONINITEVENT_REQUESTINGIP], 
         (const PVOID)pcszRequestingIP, (ULONG)BYTELEN(pcszRequestingIP));
 
-    EventDataDescCreate(&amp;eventData[WPC_ARGS_CONVERSATIONINITEVENT_SENDER],
+    EventDataDescCreate(&eventData[WPC_ARGS_CONVERSATIONINITEVENT_SENDER],
         (const PVOID)pcszSender, (ULONG)BYTELEN(pcszSender));
 
-    EventDataDescCreate(&amp;eventData[WPC_ARGS_CONVERSATIONINITEVENT_REASON],
-        (const PVOID)&amp;dwReason, sizeof(dwReason));
+    EventDataDescCreate(&eventData[WPC_ARGS_CONVERSATIONINITEVENT_REASON],
+        (const PVOID)&dwReason, sizeof(dwReason));
 
-    EventDataDescCreate(&amp;eventData[WPC_ARGS_CONVERSATIONINITEVENT_RECIPCOUNT],
-        (const PVOID)&amp;dwRecipCount, sizeof(dwRecipCount));
+    EventDataDescCreate(&eventData[WPC_ARGS_CONVERSATIONINITEVENT_RECIPCOUNT],
+        (const PVOID)&dwRecipCount, sizeof(dwRecipCount));
 
-    EventDataDescCreate(&amp;eventData[WPC_ARGS_CONVERSATIONINITEVENT_RECIPIENT],
+    EventDataDescCreate(&eventData[WPC_ARGS_CONVERSATIONINITEVENT_RECIPIENT],
         (const PVOID)pcszRecipient, (ULONG)BYTELEN(pcszRecipient));
 
 
-    ULONG lRet = EventWrite(hWpc, &amp;WPCEVENT_IM_INVITATION, ARRAYSIZE(eventData), eventData);
+    ULONG lRet = EventWrite(hWpc, &WPCEVENT_IM_INVITATION, ARRAYSIZE(eventData), eventData);
 
     // Unregister
     EventUnregister(hWpc);

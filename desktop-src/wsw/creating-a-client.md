@@ -45,7 +45,7 @@ hr = BasicHttpBinding_ICalculator_CreateServiceProxy(
             NULL,
             NULL,
             0,
-            &amp;serviceProxy,
+            &serviceProxy,
             error);
 ```
 

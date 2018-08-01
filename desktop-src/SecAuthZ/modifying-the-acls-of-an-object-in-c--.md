@@ -48,7 +48,7 @@ DWORD AddAceToObjectsSecurityDescriptor (
 
     dwRes = GetNamedSecurityInfo(pszObjName, ObjectType, 
           DACL_SECURITY_INFORMATION,
-          NULL, NULL, &amp;pOldDACL, NULL, &amp;pSD);
+          NULL, NULL, &pOldDACL, NULL, &pSD);
     if (ERROR_SUCCESS != dwRes) {
         printf( "GetNamedSecurityInfo Error %u\n", dwRes );
         goto Cleanup; 
@@ -56,7 +56,7 @@ DWORD AddAceToObjectsSecurityDescriptor (
 
     // Initialize an EXPLICIT_ACCESS structure for the new ACE. 
 
-    ZeroMemory(&amp;ea, sizeof(EXPLICIT_ACCESS));
+    ZeroMemory(&ea, sizeof(EXPLICIT_ACCESS));
     ea.grfAccessPermissions = dwAccessRights;
     ea.grfAccessMode = AccessMode;
     ea.grfInheritance= dwInheritance;
@@ -66,7 +66,7 @@ DWORD AddAceToObjectsSecurityDescriptor (
     // Create a new ACL that merges the new ACE
     // into the existing DACL.
 
-    dwRes = SetEntriesInAcl(1, &amp;ea, pOldDACL, &amp;pNewDACL);
+    dwRes = SetEntriesInAcl(1, &ea, pOldDACL, &pNewDACL);
     if (ERROR_SUCCESS != dwRes)  {
         printf( "SetEntriesInAcl Error %u\n", dwRes );
         goto Cleanup; 

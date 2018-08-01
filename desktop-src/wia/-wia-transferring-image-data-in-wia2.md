@@ -27,7 +27,7 @@ Applications must query an image item to obtain a pointer to its [**IWiaTransfer
     // Get the IWiaTransfer interface
     //
     IWiaTransfer *pWiaTransfer = NULL;
-    hr = pIWiaItem2->QueryInterface(IID_IWiaTransfer,(void**)&amp;pWiaTransfer);
+    hr = pIWiaItem2->QueryInterface(IID_IWiaTransfer,(void**)&pWiaTransfer);
 ```
 
 
@@ -63,14 +63,14 @@ Uploading:
 ```
     //Create child item which eventually will be the uploaded image 
     IWiaItem2* pWiaItemChild = NULL;
-    HRESULT hr = pIWiaItem2->CreateChildItem(WiaItemTypeImage|WiaItemTypeFile,0,bzUploadFileName,&amp;pWiaItemChild);
+    HRESULT hr = pIWiaItem2->CreateChildItem(WiaItemTypeImage|WiaItemTypeFile,0,bzUploadFileName,&pWiaItemChild);
     
     if(SUCCEEDED(hr))
     {
                 
         //Set the format for the child item as BMP 
         IWiaPropertyStorage* pWiaChildPropertyStorage = NULL;
-        hr = pWiaItemChild->QueryInterface( IID_IWiaPropertyStorage, (void**)&amp;pWiaChildPropertyStorage );
+        hr = pWiaItemChild->QueryInterface( IID_IWiaPropertyStorage, (void**)&pWiaChildPropertyStorage );
         if(SUCCEEDED(hr))
         {
             WritePropertyGuid(pWiaChildPropertyStorage,WIA_IPA_FORMAT,WiaImgFmt_BMP );
@@ -83,12 +83,12 @@ Uploading:
 
         //Get the IWiaTransfer interface of the child
         IWiaTransfer* pWiaTransferChild = NULL;
-        hr = pWiaItemChild->QueryInterface( IID_IWiaTransfer, (void**)&amp;pWiaTransferChild );
+        hr = pWiaItemChild->QueryInterface( IID_IWiaTransfer, (void**)&pWiaTransferChild );
         if(SUCCEEDED(hr)){
             IStream* pUploadStream = NULL;
                                         
             //Create stream on test.BMP file
-            hr = SHCreateStreamOnFile(L"test.BMP",STGM_READ, &amp;pUploadStream);
+            hr = SHCreateStreamOnFile(L"test.BMP",STGM_READ, &pUploadStream);
             if(SUCCEEDED(hr)){
                 pWiaTransferChild->Upload(0,pUploadStream,pWiaClassCallback);
                 
@@ -115,7 +115,7 @@ HRESULT TransferWiaItem( IWiaItem2 *pIWiaItem2)
     
     // Get the IWiaTransfer interface
     IWiaTransfer *pWiaTransfer = NULL;
-    HRESULT hr = pIWiaItem2->QueryInterface( IID_IWiaTransfer, (void**)&amp;pWiaTransfer );
+    HRESULT hr = pIWiaItem2->QueryInterface( IID_IWiaTransfer, (void**)&pWiaTransfer );
     if (SUCCEEDED(hr))
     {
         // Create our callback class
@@ -124,7 +124,7 @@ HRESULT TransferWiaItem( IWiaItem2 *pIWiaItem2)
         {
             
               LONG lItemType = 0;
-              hr = pIWiaItem2->GetItemType( &amp;lItemType );
+              hr = pIWiaItem2->GetItemType( &lItemType );
 
               //download all items which have WiaItemTypeTransfer flag set
               if(lItemType & WiaItemTypeTransfer)

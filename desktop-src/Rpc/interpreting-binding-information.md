@@ -32,31 +32,31 @@ UCHAR *NetworkOptions;
  
 // The variable hBindingHandle is a valid binding handle.
  
-status = RpcBindingToStringBinding(hBindingHandle,&amp;lpzStringBinding);
+status = RpcBindingToStringBinding(hBindingHandle,&lpzStringBinding);
 // Code to check the status goes here.
  
 status = RpcStringBindingParse(
     lpzStringBinding,
     NULL,
-    &amp;lpzProtocolSequence;
-    &amp;lpzNetworkAddress;
-    &amp;lpzEndpoint;
-    &amp;NetworkOptions);
+    &lpzProtocolSequence;
+    &lpzNetworkAddress;
+    &lpzEndpoint;
+    &NetworkOptions);
 // Code to check the status goes here.
  
 // Code to analyze and alter the binding information in the strings
 // goes here.
  
-status = RpcStringFree(&amp;lpzStringBinding);
+status = RpcStringFree(&lpzStringBinding);
 // Code to check the status goes here.
  
-status = RpcStringFree(&amp;lpzProtocolSequence);
+status = RpcStringFree(&lpzProtocolSequence);
 // Code to check the status goes here.
  
-status = RpcStringFree(&amp;lpzNetworkAddress);
+status = RpcStringFree(&lpzNetworkAddress);
 // Code to check the status goes here.
  
-status = RpcStringFree(&amp;NetworkOptions);
+status = RpcStringFree(&NetworkOptions);
 // Code to check the status goes here.
 ```
 

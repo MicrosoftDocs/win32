@@ -50,7 +50,7 @@ void InterruptTimeTest()
         // on the hardware platform. The interrupt time value retrieved by 
         // QueryInterruptTime is accurate within a system clock tick.
 
-    QueryInterruptTime(&amp;InterruptTime);
+    QueryInterruptTime(&InterruptTime);
     printf("Interrupt time: %.7f seconds\n", 
             (double)InterruptTime/(double)10000000);
 
@@ -58,7 +58,7 @@ void InterruptTimeTest()
         // QueryInterruptTime reports because the functions that report  
         // precise interrupt time read the timer hardware directly.
 
-    QueryInterruptTimePrecise(&amp;PreciseInterruptTime);
+    QueryInterruptTimePrecise(&PreciseInterruptTime);
     printf("Precise interrupt time: %.7f seconds\n", 
             (double)PreciseInterruptTime/(double)10000000);
 
@@ -66,7 +66,7 @@ void InterruptTimeTest()
         // the working state is counted. Therefore, the interrupt-time count 
         // is not biased by time the system spends in sleep or hibernation.
 
-    QueryUnbiasedInterruptTime(&amp;UnbiasedInterruptTime);
+    QueryUnbiasedInterruptTime(&UnbiasedInterruptTime);
     printf("Unbiased interrupt time: %.7f seconds\n", 
             (double)UnbiasedInterruptTime/(double)10000000);
 
@@ -74,7 +74,7 @@ void InterruptTimeTest()
         // that is both unbiased and precise, as defined in the comments
         // included earlier in this example.
 
-    QueryUnbiasedInterruptTimePrecise(&amp;PreciseUnbiasedInterruptTime);
+    QueryUnbiasedInterruptTimePrecise(&PreciseUnbiasedInterruptTime);
     printf("Precise unbiased interrupt time: %.7f seconds\n", 
             (double)PreciseUnbiasedInterruptTime/(double)10000000);
 

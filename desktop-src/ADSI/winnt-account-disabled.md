@@ -54,7 +54,7 @@ IADsUser *pUser;
 HRESULT hr = S_OK;
 LPWSTR adsPath;
 adsPath=L"WinNT://Fabrikam/JeffSmith";
-hr = ADsGetObject(adsPath, IID_IADsUser, (void**)&amp;pUser);
+hr = ADsGetObject(adsPath, IID_IADsUser, (void**)&pUser);
 
 hr = pUser->put_AccountDisabled(TRUE);
 hr = pUser->SetInfo();

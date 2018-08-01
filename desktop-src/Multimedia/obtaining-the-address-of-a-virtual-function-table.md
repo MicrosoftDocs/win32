@@ -21,7 +21,7 @@ PAVISTREAM WINAPI NewBall(VOID)
     pball = (PAVIBALL) GlobalAllocPtr(GHND, sizeof(AVIBALL)); 
     if (!pball) 
         return 0; 
-    pball->lpvtbl = &amp;AVIBallHandler; 
+    pball->lpvtbl = &AVIBallHandler; 
     pball->lpvtbl->Create((PAVISTREAM) pball, 0, 0); 
     return (PAVISTREAM) pball; 
 } 

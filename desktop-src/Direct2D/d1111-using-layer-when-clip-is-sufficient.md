@@ -48,7 +48,7 @@ The following code uses the [**PushLayer**](https://msdn.microsoft.com/en-us/lib
 ```C++
         ID2D1Layer *m_pLayer;
 
-        hr = m_pRenderTarget->CreateLayer(D2D1::SizeF(100, 100), &amp;m_pLayer);
+        hr = m_pRenderTarget->CreateLayer(D2D1::SizeF(100, 100), &m_pLayer);
         m_pRenderTarget->PushLayer(D2D1::LayerParameters(), m_pLayer);
         m_pRenderTarget->FillRectangle(D2D1::RectF(100, 50, 400, 160), m_pBlackBrush);
         m_pRenderTarget->PopLayer();

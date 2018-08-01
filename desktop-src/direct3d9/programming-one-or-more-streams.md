@@ -126,7 +126,7 @@ Now create the vertex declaration object and set it as shown:
 
 ```
 LPDIRECT3DVERTEXDECLARATION9 m_pVertexDeclaration;
-g_d3dDevice->CreateVertexDeclaration(dwDecl3, &amp;m_pVertexDeclaration);
+g_d3dDevice->CreateVertexDeclaration(dwDecl3, &m_pVertexDeclaration);
 
 m_pd3dDevice->SetVertexDeclaration(m_pVertexDeclaration);
 ```

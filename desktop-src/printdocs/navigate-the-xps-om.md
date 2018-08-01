@@ -81,41 +81,41 @@ The following code example assumes the existence of an initialized XPS OM, and *
     // package points to the IXpsOMPackage interface to walk.
 
     // Get the fixed document sequence of the package.
-    hr = package->GetDocumentSequence(&amp;docSeq);
+    hr = package->GetDocumentSequence(&docSeq);
 
     // Get the fixed documents in the fixed document sequence.
-    hr = docSeq->GetDocuments(&amp;docs);
+    hr = docSeq->GetDocuments(&docs);
 
     // Walk the collection of documents.
-    hr = docs->GetCount(&amp;numDocs);
+    hr = docs->GetCount(&numDocs);
     thisDoc = 0;
     while (thisDoc < numDocs) {
-        hr = docs->GetAt(thisDoc, &amp;doc);
+        hr = docs->GetAt(thisDoc, &doc);
         
         // Get the doc contents.
-        hr = doc->GetPageReferences(&amp;pages);
+        hr = doc->GetPageReferences(&pages);
         
         // Walk the collection of page references
-        hr = pages->GetCount(&amp;numPageRefs);
+        hr = pages->GetCount(&numPageRefs);
         thisPageRef = 0;
         while (thisPageRef < numPageRefs) {
             // Get this page reference.
-            hr = pages->GetAt(thisPageRef, &amp;pageRef);
+            hr = pages->GetAt(thisPageRef, &pageRef);
 
             // Get the page content of this page reference.
             {
-                hr = pageRef->GetPage (&amp;page);
+                hr = pageRef->GetPage (&page);
 
                 // Get the visual tree of this page.
-                hr = page->GetVisuals (&amp;visuals);
+                hr = page->GetVisuals (&visuals);
                 
                 // Walk the visuals.
-                hr = visuals->GetCount (&amp;numVisuals);
+                hr = visuals->GetCount (&numVisuals);
                 thisVisual = 0;
                 while (thisVisual < numVisuals) {
-                    hr = visuals->GetAt (thisVisual, &amp;visual);
+                    hr = visuals->GetAt (thisVisual, &visual);
                     // Get visual type.
-                    hr = visual->GetType( &amp;visualType );
+                    hr = visual->GetType( &visualType );
                     
                     // Do other stuff with the visual.
 
@@ -127,17 +127,17 @@ The following code example assumes the existence of an initialized XPS OM, and *
                 if (NULL != page) {page->Release(); page = NULL;}
             }
             // Get the part resources used by this page.
-            hr = pageRef->CollectPartResources (&amp;pageParts);
+            hr = pageRef->CollectPartResources (&pageParts);
 
             // Get the font resources.
             {
-                hr = pageParts->GetFontResources (&amp;fonts);
+                hr = pageParts->GetFontResources (&fonts);
                 
                 // Walk the fonts.
-                hr = fonts->GetCount (&amp;numFonts);
+                hr = fonts->GetCount (&numFonts);
                 thisFont = 0;
                 while (thisFont < numFonts) {
-                    hr = fonts->GetAt(thisFont, &amp;font);
+                    hr = fonts->GetAt(thisFont, &font);
                     if (NULL != font) {font->Release(); font = NULL;}
 
                     thisFont++; // Get the next font in collection.
@@ -147,13 +147,13 @@ The following code example assumes the existence of an initialized XPS OM, and *
 
             // Get the image resources.
             {
-                hr = pageParts->GetImageResources (&amp;images);
+                hr = pageParts->GetImageResources (&images);
 
                 // walk the images
-                hr = images->GetCount (&amp;numImages);
+                hr = images->GetCount (&numImages);
                 thisImage = 0;
                 while (thisImage < numImages) {
-                    hr = images->GetAt(thisImage, &amp;image);
+                    hr = images->GetAt(thisImage, &image);
                     thisImage++;
                     if (NULL != image) {image->Release(); image = NULL;}
                 }

@@ -54,7 +54,7 @@ int _tmain(int argc, TCHAR *argv[])
 
 // Create a pipe for the child process's STDOUT. 
  
-   if ( ! CreatePipe(&amp;g_hChildStd_OUT_Rd, &amp;g_hChildStd_OUT_Wr, &amp;saAttr, 0) ) 
+   if ( ! CreatePipe(&g_hChildStd_OUT_Rd, &g_hChildStd_OUT_Wr, &saAttr, 0) ) 
       ErrorExit(TEXT("StdoutRd CreatePipe")); 
 
 // Ensure the read handle to the pipe for STDOUT is not inherited.
@@ -64,7 +64,7 @@ int _tmain(int argc, TCHAR *argv[])
 
 // Create a pipe for the child process's STDIN. 
  
-   if (! CreatePipe(&amp;g_hChildStd_IN_Rd, &amp;g_hChildStd_IN_Wr, &amp;saAttr, 0)) 
+   if (! CreatePipe(&g_hChildStd_IN_Rd, &g_hChildStd_IN_Wr, &saAttr, 0)) 
       ErrorExit(TEXT("Stdin CreatePipe")); 
 
 // Ensure the write handle to the pipe for STDIN is not inherited. 
@@ -124,12 +124,12 @@ void CreateChildProcess()
  
 // Set up members of the PROCESS_INFORMATION structure. 
  
-   ZeroMemory( &amp;piProcInfo, sizeof(PROCESS_INFORMATION) );
+   ZeroMemory( &piProcInfo, sizeof(PROCESS_INFORMATION) );
  
 // Set up members of the STARTUPINFO structure. 
 // This structure specifies the STDIN and STDOUT handles for redirection.
  
-   ZeroMemory( &amp;siStartInfo, sizeof(STARTUPINFO) );
+   ZeroMemory( &siStartInfo, sizeof(STARTUPINFO) );
    siStartInfo.cb = sizeof(STARTUPINFO); 
    siStartInfo.hStdError = g_hChildStd_OUT_Wr;
    siStartInfo.hStdOutput = g_hChildStd_OUT_Wr;
@@ -146,8 +146,8 @@ void CreateChildProcess()
       0,             // creation flags 
       NULL,          // use parent's environment 
       NULL,          // use parent's current directory 
-      &amp;siStartInfo,  // STARTUPINFO pointer 
-      &amp;piProcInfo);  // receives PROCESS_INFORMATION 
+      &siStartInfo,  // STARTUPINFO pointer 
+      &piProcInfo);  // receives PROCESS_INFORMATION 
    
    // If an error occurs, exit the application. 
    if ( ! bSuccess ) 
@@ -174,10 +174,10 @@ void WriteToPipe(void)
  
    for (;;) 
    { 
-      bSuccess = ReadFile(g_hInputFile, chBuf, BUFSIZE, &amp;dwRead, NULL);
+      bSuccess = ReadFile(g_hInputFile, chBuf, BUFSIZE, &dwRead, NULL);
       if ( ! bSuccess || dwRead == 0 ) break; 
       
-      bSuccess = WriteFile(g_hChildStd_IN_Wr, chBuf, dwRead, &amp;dwWritten, NULL);
+      bSuccess = WriteFile(g_hChildStd_IN_Wr, chBuf, dwRead, &dwWritten, NULL);
       if ( ! bSuccess ) break; 
    } 
  
@@ -200,11 +200,11 @@ void ReadFromPipe(void)
 
    for (;;) 
    { 
-      bSuccess = ReadFile( g_hChildStd_OUT_Rd, chBuf, BUFSIZE, &amp;dwRead, NULL);
+      bSuccess = ReadFile( g_hChildStd_OUT_Rd, chBuf, BUFSIZE, &dwRead, NULL);
       if( ! bSuccess || dwRead == 0 ) break; 
 
       bSuccess = WriteFile(hParentStdOut, chBuf, 
-                           dwRead, &amp;dwWritten, NULL);
+                           dwRead, &dwWritten, NULL);
       if (! bSuccess ) break; 
    } 
 } 
@@ -225,7 +225,7 @@ void ErrorExit(PTSTR lpszFunction)
         NULL,
         dw,
         MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
-        (LPTSTR) &amp;lpMsgBuf,
+        (LPTSTR) &lpMsgBuf,
         0, NULL );
 
     lpDisplayBuf = (LPVOID)LocalAlloc(LMEM_ZEROINIT, 
@@ -278,13 +278,13 @@ int main(void)
    for (;;) 
    { 
    // Read from standard input and stop on error or no data.
-      bSuccess = ReadFile(hStdin, chBuf, BUFSIZE, &amp;dwRead, NULL); 
+      bSuccess = ReadFile(hStdin, chBuf, BUFSIZE, &dwRead, NULL); 
       
       if (! bSuccess || dwRead == 0) 
          break; 
  
    // Write to standard output and stop on error.
-      bSuccess = WriteFile(hStdout, chBuf, dwRead, &amp;dwWritten, NULL); 
+      bSuccess = WriteFile(hStdout, chBuf, dwRead, &dwWritten, NULL); 
       
       if (! bSuccess) 
          break; 

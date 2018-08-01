@@ -47,12 +47,12 @@ STDMETHODIMP CALSEventSink::OnDataUpdated(
 
     // Declare and initialize the PROPVARIANT
     PROPVARIANT lightLevel;
-    PropVariantInit(&amp;lightLevel);
+    PropVariantInit(&lightLevel);
 
     // Get the sensor reading from the ISensorDataReport object
     hr = pNewData->GetSensorValue(
         SENSOR_DATA_TYPE_LIGHT_LEVEL_LUX, 
-        &amp;lightLevel);
+        &lightLevel);
 
     if(SUCCEEDED(hr))
     {
@@ -72,7 +72,7 @@ STDMETHODIMP CALSEventSink::OnDataUpdated(
     }
 
     // Release the variant.     
-    PropVariantClear(&amp;lightLevel);
+    PropVariantClear(&lightLevel);
 
     return hr;
 }

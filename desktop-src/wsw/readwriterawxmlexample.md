@@ -52,7 +52,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -60,7 +60,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -121,7 +121,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -131,7 +131,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateReader(
         NULL,
         0, 
-        &amp;xmlReader, 
+        &xmlReader, 
         error);
     if (FAILED(hr))
     {
@@ -141,7 +141,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateWriter(
         NULL, 
         0, 
-        &amp;xmlWriter, 
+        &xmlWriter, 
         error);
     if (FAILED(hr))
     {
@@ -164,8 +164,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         };
         hr = WsSetInput(
             xmlReader, 
-            &amp;rawEncoding.encoding, 
-            &amp;bufferInput.input, 
+            &rawEncoding.encoding, 
+            &bufferInput.input, 
             NULL, 
             0, 
             error);
@@ -194,13 +194,13 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         BOOL allowFragment = TRUE;
         WS_XML_READER_PROPERTY properties[1];
         properties[0].id = WS_XML_READER_PROPERTY_ALLOW_FRAGMENT;
-        properties[0].value = &amp;allowFragment;
+        properties[0].value = &allowFragment;
         properties[0].valueSize = sizeof(allowFragment);
     
         hr = WsSetInput(
             xmlReader, 
-            &amp;textEncoding.encoding, 
-            &amp;bufferInput.input, 
+            &textEncoding.encoding, 
+            &bufferInput.input, 
             properties,
             WsCountOf(properties),
             error);
@@ -224,8 +224,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         };
         hr = WsSetOutput(
             xmlWriter, 
-            &amp;rawEncoding.encoding, 
-            &amp;bufferOutput.output, 
+            &rawEncoding.encoding, 
+            &bufferOutput.output, 
             NULL, 
             0, 
             error);
@@ -251,13 +251,13 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         BOOL allowFragment = TRUE;
         WS_XML_WRITER_PROPERTY properties[1];
         properties[0].id = WS_XML_WRITER_PROPERTY_ALLOW_FRAGMENT;
-        properties[0].value = &amp;allowFragment;
+        properties[0].value = &allowFragment;
         properties[0].valueSize = sizeof(allowFragment);
     
         hr = WsSetOutput(
             xmlWriter, 
-            &amp;textEncoding.encoding, 
-            &amp;bufferOutput.output, 
+            &textEncoding.encoding, 
+            &bufferOutput.output, 
             properties, 
             WsCountOf(properties),
             error);
@@ -278,7 +278,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsGetWriterProperty(
         xmlWriter, 
         WS_XML_WRITER_PROPERTY_BYTES, 
-        &amp;bytes, 
+        &bytes, 
         sizeof(bytes), 
         error);
     

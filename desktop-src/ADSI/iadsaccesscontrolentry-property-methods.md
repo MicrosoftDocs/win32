@@ -330,30 +330,30 @@ IADsSecurityDescriptor *pSD = NULL;
 VARIANT var;
 HRESULT hr = S_OK;
  
-VariantInit(&amp;var);
+VariantInit(&var);
 
 hr = ADsOpenObject(L"LDAP://OU=Sales, DC=Fabrikam,DC=com",NULL,NULL,
-                   ADS_SECURE_AUTHENTICATION, IID_IADs,(void**)&amp;pADs);
+                   ADS_SECURE_AUTHENTICATION, IID_IADs,(void**)&pADs);
 if(FAILED(hr)) {goto Cleanup;}
 
-hr = pADs->Get(CComBSTR("ntSecurityDescriptor"),&amp;var);
+hr = pADs->Get(CComBSTR("ntSecurityDescriptor"),&var);
 if(FAILED(hr)) {goto Cleanup;}
 
-pDisp = V_DISPATCH(&amp;var);
+pDisp = V_DISPATCH(&var);
 
-hr = pDisp->QueryInterface(IID_IADsSecurityDescriptor,(void**)&amp;pSD);
+hr = pDisp->QueryInterface(IID_IADsSecurityDescriptor,(void**)&pSD);
 if(FAILED(hr)) {goto Cleanup;}
 pDisp->Release();
 
 
-pSD->get_DiscretionaryAcl(&amp;pDisp);
+pSD->get_DiscretionaryAcl(&pDisp);
 
-hr = pDisp->QueryInterface(IID_IADsAccessControlList,(void**)&amp;pACL);
+hr = pDisp->QueryInterface(IID_IADsAccessControlList,(void**)&pACL);
 if(FAILED(hr)) {goto Cleanup;}
 
 hr = DisplayAccessInfo(pSD);
 if(FAILED(hr)) {goto Cleanup;}
-VariantClear(&amp;var);
+VariantClear(&var);
 
 Cleanup:
     if(pADs) pADs->Release();
@@ -379,37 +379,37 @@ HRESULT DisplayAccessInfo(IADsSecurityDescriptor *pSD)
     LPWSTR lpszMask = NULL;
     size_t nLength = 0;
     
-    VariantInit(&amp;var);
+    VariantInit(&var);
     
-    hr = pSD->get_DiscretionaryAcl(&amp;pDisp);
+    hr = pSD->get_DiscretionaryAcl(&pDisp);
     if(FAILED(hr)){goto Cleanup;}
-    hr = pDisp->QueryInterface(IID_IADsAccessControlList,(void**)&amp;pACL);
-    if(FAILED(hr)){goto Cleanup;}
-    
-    hr = pACL->get__NewEnum(&amp;pUnk);
+    hr = pDisp->QueryInterface(IID_IADsAccessControlList,(void**)&pACL);
     if(FAILED(hr)){goto Cleanup;}
     
-    hr = pUnk->QueryInterface(IID_IEnumVARIANT,(void**)&amp;pEnum);
+    hr = pACL->get__NewEnum(&pUnk);
+    if(FAILED(hr)){goto Cleanup;}
+    
+    hr = pUnk->QueryInterface(IID_IEnumVARIANT,(void**)&pEnum);
     
     if(FAILED(hr)){goto Cleanup;}
-    hr = pEnum->Next(1,&amp;var,&amp;nFetch);
+    hr = pEnum->Next(1,&var,&nFetch);
     
     while(hr == S_OK)
     {
         if(nFetch==1)
         {
-            if(VT_DISPATCH != V_VT(&amp;var))
+            if(VT_DISPATCH != V_VT(&var))
             {
                 goto Cleanup;
             }
             
-            pDisp = V_DISPATCH(&amp;var);
-            hr = pDisp->QueryInterface(IID_IADsAccessControlEntry,(void**)&amp;pACE);
+            pDisp = V_DISPATCH(&var);
+            hr = pDisp->QueryInterface(IID_IADsAccessControlEntry,(void**)&pACE);
             
             if(SUCCEEDED(hr))
             {
                 lpszMask = L"Trustee: %s";
-                hr = pACE->get_Trustee(&amp;bstrValue);
+                hr = pACE->get_Trustee(&bstrValue);
                 nLength = wcslen(lpszMask) + wcslen(bstrValue) + 1;
                 lpszOutput = new WCHAR[nLength];
                 swprintf_s(lpszOutput,lpszMask,bstrValue);
@@ -423,9 +423,9 @@ HRESULT DisplayAccessInfo(IADsSecurityDescriptor *pSD)
                 pDisp = NULL;
             }       
             
-            VariantClear(&amp;var);
+            VariantClear(&var);
         }       
-        hr = pEnum->Next(1,&amp;var,&amp;nFetch);
+        hr = pEnum->Next(1,&var,&nFetch);
     }
     
 Cleanup:

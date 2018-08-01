@@ -41,7 +41,7 @@ int main(int argc, char **argv)
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_ITaskScheduler,
-                          (void **) &amp;pITS);
+                          (void **) &pITS);
     if (FAILED(hr))
     {
       CoUninitialize();
@@ -62,7 +62,7 @@ int main(int argc, char **argv)
   LPCWSTR lpcwszTaskName = L"Test Task";
   hr = pITS->Activate(lpcwszTaskName,
                       IID_ITask,
-                      (IUnknown**) &amp;pITask);
+                      (IUnknown**) &pITask);
   
   pITS->Release();
   if (FAILED(hr))
@@ -80,7 +80,7 @@ int main(int argc, char **argv)
   ///////////////////////////////////////////////////////////////////
   
   WORD plTriggerCount;
-  hr = pITask->GetTriggerCount (&amp;plTriggerCount);
+  hr = pITask->GetTriggerCount (&plTriggerCount);
   if (FAILED(hr))
   {
     wprintf(L"Failed calling ITask::GetTriggerCount: ");
@@ -105,7 +105,7 @@ int main(int argc, char **argv)
   for (CurrentTrigger=0; CurrentTrigger<plTriggerCount; CurrentTrigger++)
   {  
     pITask->GetTriggerString (CurrentTrigger,
-                              &amp;ppwszTrigger); 
+                              &ppwszTrigger); 
     if (FAILED(hr))
     {
       wprintf(L"Failed calling ITask::GetTriggerString: ");

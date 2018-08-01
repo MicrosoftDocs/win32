@@ -60,13 +60,13 @@ BYTE * GetSid(LPWSTR pwcUserName)
       NULL,            // system name
       pwcUserName,     // account name
       NULL,            // security identifier
-      &amp;dwSidSize,      // size of security identifier
+      &dwSidSize,      // size of security identifier
       NULL,            // domain name
-      &amp;dwDomainSize,   // size of domain name
-      &amp;use             // SID-type indicator
+      &dwDomainSize,   // size of domain name
+      &use             // SID-type indicator
       );    
 
-    if(bRet == FALSE &amp;&amp; ERROR_INSUFFICIENT_BUFFER 
+    if(bRet == FALSE && ERROR_INSUFFICIENT_BUFFER 
         != GetLastError())\
         return NULL;
 
@@ -90,10 +90,10 @@ BYTE * GetSid(LPWSTR pwcUserName)
       NULL,           // system name
       pwcUserName,    // account name
       buff,           // security identifier
-      &amp;dwSidSize,     // size of security identifier
+      &dwSidSize,     // size of security identifier
       pwcDomain,      // domain name
-      &amp;dwDomainSize,  // size of domain name
-      &amp;use            // SID-type indicator
+      &dwDomainSize,  // size of domain name
+      &use            // SID-type indicator
       );    
 
     delete [] pwcDomain;
@@ -125,7 +125,7 @@ BOOL IsAllowed(LPWSTR pwsExpectedDomain,
         return FALSE;
 
     BOOL bRet = GetUserNameExW(NameSamCompatible, 
-       wCallerName, &amp;nSize);
+       wCallerName, &nSize);
 
     CoRevertToSelf();
 

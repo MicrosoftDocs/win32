@@ -32,14 +32,14 @@ void main()
     // Enumerate all destinations in the subtree (0 / 0)
     // (basically the whole tree; you can
     // also achieve this by using RTM_ENUM_START)
-    RTM_IPV4_MAKE_NET_ADDRESS(&amp;NetAddress,0x00000000,0);
+    RTM_IPV4_MAKE_NET_ADDRESS(&NetAddress,0x00000000,0);
 
-    Status = RtmCreateDestEnum(RtmRegHandle, RTM_VIEW_MASK_UCAST | RTM_VIEW_MASK_MCAST, RTM_ENUM_RANGE, &amp;NetAddress, RTM_BEST_PROTOCOL, &amp;EnumHandle1);
+    Status = RtmCreateDestEnum(RtmRegHandle, RTM_VIEW_MASK_UCAST | RTM_VIEW_MASK_MCAST, RTM_ENUM_RANGE, &NetAddress, RTM_BEST_PROTOCOL, &EnumHandle1);
     if (Status == NO_ERROR)
     {
         do {
             NumInfos = MaxHandles;
-            Status = RtmGetEnumDests(RtmRegHandle, EnumHandle1, &amp;NumInfos, DestInfos);
+            Status = RtmGetEnumDests(RtmRegHandle, EnumHandle1, &NumInfos, DestInfos);
             for (i = 0; i < NumInfos; i++)
             {
                 DestInfo = (PRTM_DEST_INFO) ((PUCHAR)DestInfos+(i*DestInfoSize));

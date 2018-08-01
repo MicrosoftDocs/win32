@@ -43,7 +43,7 @@ int main(void)
     }
 
     // Create a profile manager object.
-    hr = WMCreateProfileManager(&amp;pProfileMgr);
+    hr = WMCreateProfileManager(&pProfileMgr);
     if(FAILED(hr))
     {
         printf("Could not create a profile manager object.");
@@ -52,7 +52,7 @@ int main(void)
 
     // Get the IWMProfileManager2 interface.
     hr = pProfileMgr->QueryInterface(IID_IWMProfileManager2, 
-                                     (void**) &amp;pProfileMgr2);
+                                     (void**) &pProfileMgr2);
     if(FAILED(hr))
     {
         printf("Could not get the IWMProfileManager2 interface.");
@@ -64,7 +64,7 @@ int main(void)
     SAFE_RELEASE(pProfileMgr);
 
     // Get the current system profile version.
-    hr = pProfileMgr2->GetSystemProfileVersion(&amp;profileVersion);
+    hr = pProfileMgr2->GetSystemProfileVersion(&profileVersion);
     if(FAILED(hr))
     {
         printf("Could not retrieve profile version.");

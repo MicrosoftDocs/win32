@@ -356,7 +356,7 @@ The following sample Autorun.inf fragment associates the *readit* verb with the 
 
 ```
 shell\readit\command=notepad abc\readme.txt 
-shell\readit=Read &amp;Me
+shell\readit=Read &Me
 ```
 
 

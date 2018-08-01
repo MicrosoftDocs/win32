@@ -82,7 +82,7 @@ You can manually create a translation matrix in C++. The following example shows
 D3DXMATRIX Translate(const float dx, const float dy, const float dz) {
     D3DXMATRIX ret;
 
-    D3DXMatrixIdentity(&amp;ret);
+    D3DXMatrixIdentity(&ret);
     ret(3, 0) = dx;
     ret(3, 1) = dy;
     ret(3, 2) = dz;
@@ -131,7 +131,7 @@ D3DXMATRIX* WINAPI D3DXMatrixRotationX
 #endif
 
     float sin, cos;
-    sincosf(angle, &amp;sin, &amp;cos);  // Determine sin and cos of angle
+    sincosf(angle, &sin, &cos);  // Determine sin and cos of angle
 
     pOut->_11 = 1.0f; pOut->_12 =  0.0f;   pOut->_13 = 0.0f; pOut->_14 = 0.0f;
     pOut->_21 = 0.0f; pOut->_22 =  cos;    pOut->_23 = sin;  pOut->_24 = 0.0f;

@@ -44,8 +44,8 @@ BOOL AddMachineAccount(
     //
     // Ensure a valid computer account type was passed.
     //
-    if (AccountType != UF_WORKSTATION_TRUST_ACCOUNT &amp;&amp;
-        AccountType != UF_SERVER_TRUST_ACCOUNT &amp;&amp;
+    if (AccountType != UF_WORKSTATION_TRUST_ACCOUNT &&
+        AccountType != UF_SERVER_TRUST_ACCOUNT &&
         AccountType != UF_INTERDOMAIN_TRUST_ACCOUNT
         ) 
     {
@@ -106,7 +106,7 @@ BOOL AddMachineAccount(
     //
     // Initialize the USER_INFO_1 structure.
     //
-    ZeroMemory(&amp;ui, sizeof(ui));
+    ZeroMemory(&ui, sizeof(ui));
 
     ui.usri1_name = wAccount;
     ui.usri1_password = wPassword;
@@ -117,7 +117,7 @@ BOOL AddMachineAccount(
     dwError=NetUserAdd(
                 wTargetComputer,    // target computer name
                 1,                  // info level
-                (LPBYTE) &amp;ui,       // buffer
+                (LPBYTE) &ui,       // buffer
                 NULL
                 );
 

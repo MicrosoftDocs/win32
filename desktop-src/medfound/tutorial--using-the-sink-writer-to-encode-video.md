@@ -95,12 +95,12 @@ HRESULT InitializeSinkWriter(IMFSinkWriter **ppWriter, DWORD *pStreamIndex)
     IMFMediaType    *pMediaTypeIn = NULL;   
     DWORD           streamIndex;     
 
-    HRESULT hr = MFCreateSinkWriterFromURL(L"output.wmv", NULL, NULL, &amp;pSinkWriter);
+    HRESULT hr = MFCreateSinkWriterFromURL(L"output.wmv", NULL, NULL, &pSinkWriter);
 
     // Set the output media type.
     if (SUCCEEDED(hr))
     {
-        hr = MFCreateMediaType(&amp;pMediaTypeOut);   
+        hr = MFCreateMediaType(&pMediaTypeOut);   
     }
     if (SUCCEEDED(hr))
     {
@@ -132,13 +132,13 @@ HRESULT InitializeSinkWriter(IMFSinkWriter **ppWriter, DWORD *pStreamIndex)
     }
     if (SUCCEEDED(hr))
     {
-        hr = pSinkWriter->AddStream(pMediaTypeOut, &amp;streamIndex);   
+        hr = pSinkWriter->AddStream(pMediaTypeOut, &streamIndex);   
     }
 
     // Set the input media type.
     if (SUCCEEDED(hr))
     {
-        hr = MFCreateMediaType(&amp;pMediaTypeIn);   
+        hr = MFCreateMediaType(&pMediaTypeIn);   
     }
     if (SUCCEEDED(hr))
     {
@@ -183,9 +183,9 @@ HRESULT InitializeSinkWriter(IMFSinkWriter **ppWriter, DWORD *pStreamIndex)
         *pStreamIndex = streamIndex;
     }
 
-    SafeRelease(&amp;pSinkWriter);
-    SafeRelease(&amp;pMediaTypeOut);
-    SafeRelease(&amp;pMediaTypeIn);
+    SafeRelease(&pSinkWriter);
+    SafeRelease(&pMediaTypeOut);
+    SafeRelease(&pMediaTypeIn);
     return hr;
 }
 ```
@@ -208,7 +208,7 @@ Depending on your application, you might get the media samples from the [Source 
 HRESULT WriteFrame(
     IMFSinkWriter *pWriter, 
     DWORD streamIndex, 
-    const LONGLONG&amp; rtStart        // Time stamp.
+    const LONGLONG& rtStart        // Time stamp.
     )
 {
     IMFSample *pSample = NULL;
@@ -220,12 +220,12 @@ HRESULT WriteFrame(
     BYTE *pData = NULL;
 
     // Create a new memory buffer.
-    HRESULT hr = MFCreateMemoryBuffer(cbBuffer, &amp;pBuffer);
+    HRESULT hr = MFCreateMemoryBuffer(cbBuffer, &pBuffer);
 
     // Lock the buffer and copy the video frame to the buffer.
     if (SUCCEEDED(hr))
     {
-        hr = pBuffer->Lock(&amp;pData, NULL, NULL);
+        hr = pBuffer->Lock(&pData, NULL, NULL);
     }
     if (SUCCEEDED(hr))
     {
@@ -252,7 +252,7 @@ HRESULT WriteFrame(
     // Create a media sample and add the buffer to the sample.
     if (SUCCEEDED(hr))
     {
-        hr = MFCreateSample(&amp;pSample);
+        hr = MFCreateSample(&pSample);
     }
     if (SUCCEEDED(hr))
     {
@@ -275,8 +275,8 @@ HRESULT WriteFrame(
         hr = pWriter->WriteSample(streamIndex, pSample);
     }
 
-    SafeRelease(&amp;pSample);
-    SafeRelease(&amp;pBuffer);
+    SafeRelease(&pSample);
+    SafeRelease(&pBuffer);
     return hr;
 }
 ```
@@ -333,7 +333,7 @@ void main()
             IMFSinkWriter *pSinkWriter = NULL;
             DWORD stream;
 
-            hr = InitializeSinkWriter(&amp;pSinkWriter, &amp;stream);
+            hr = InitializeSinkWriter(&pSinkWriter, &stream);
             if (SUCCEEDED(hr))
             {
                 // Send frames to the sink writer.
@@ -354,7 +354,7 @@ void main()
             {
                 hr = pSinkWriter->Finalize();
             }
-            SafeRelease(&amp;pSinkWriter);
+            SafeRelease(&pSinkWriter);
             MFShutdown();
         }
         CoUninitialize();
@@ -413,12 +413,12 @@ HRESULT InitializeSinkWriter(IMFSinkWriter **ppWriter, DWORD *pStreamIndex)
     IMFMediaType    *pMediaTypeIn = NULL;   
     DWORD           streamIndex;     
 
-    HRESULT hr = MFCreateSinkWriterFromURL(L"output.wmv", NULL, NULL, &amp;pSinkWriter);
+    HRESULT hr = MFCreateSinkWriterFromURL(L"output.wmv", NULL, NULL, &pSinkWriter);
 
     // Set the output media type.
     if (SUCCEEDED(hr))
     {
-        hr = MFCreateMediaType(&amp;pMediaTypeOut);   
+        hr = MFCreateMediaType(&pMediaTypeOut);   
     }
     if (SUCCEEDED(hr))
     {
@@ -450,13 +450,13 @@ HRESULT InitializeSinkWriter(IMFSinkWriter **ppWriter, DWORD *pStreamIndex)
     }
     if (SUCCEEDED(hr))
     {
-        hr = pSinkWriter->AddStream(pMediaTypeOut, &amp;streamIndex);   
+        hr = pSinkWriter->AddStream(pMediaTypeOut, &streamIndex);   
     }
 
     // Set the input media type.
     if (SUCCEEDED(hr))
     {
-        hr = MFCreateMediaType(&amp;pMediaTypeIn);   
+        hr = MFCreateMediaType(&pMediaTypeIn);   
     }
     if (SUCCEEDED(hr))
     {
@@ -501,16 +501,16 @@ HRESULT InitializeSinkWriter(IMFSinkWriter **ppWriter, DWORD *pStreamIndex)
         *pStreamIndex = streamIndex;
     }
 
-    SafeRelease(&amp;pSinkWriter);
-    SafeRelease(&amp;pMediaTypeOut);
-    SafeRelease(&amp;pMediaTypeIn);
+    SafeRelease(&pSinkWriter);
+    SafeRelease(&pMediaTypeOut);
+    SafeRelease(&pMediaTypeIn);
     return hr;
 }
 
 HRESULT WriteFrame(
     IMFSinkWriter *pWriter, 
     DWORD streamIndex, 
-    const LONGLONG&amp; rtStart        // Time stamp.
+    const LONGLONG& rtStart        // Time stamp.
     )
 {
     IMFSample *pSample = NULL;
@@ -522,12 +522,12 @@ HRESULT WriteFrame(
     BYTE *pData = NULL;
 
     // Create a new memory buffer.
-    HRESULT hr = MFCreateMemoryBuffer(cbBuffer, &amp;pBuffer);
+    HRESULT hr = MFCreateMemoryBuffer(cbBuffer, &pBuffer);
 
     // Lock the buffer and copy the video frame to the buffer.
     if (SUCCEEDED(hr))
     {
-        hr = pBuffer->Lock(&amp;pData, NULL, NULL);
+        hr = pBuffer->Lock(&pData, NULL, NULL);
     }
     if (SUCCEEDED(hr))
     {
@@ -554,7 +554,7 @@ HRESULT WriteFrame(
     // Create a media sample and add the buffer to the sample.
     if (SUCCEEDED(hr))
     {
-        hr = MFCreateSample(&amp;pSample);
+        hr = MFCreateSample(&pSample);
     }
     if (SUCCEEDED(hr))
     {
@@ -577,8 +577,8 @@ HRESULT WriteFrame(
         hr = pWriter->WriteSample(streamIndex, pSample);
     }
 
-    SafeRelease(&amp;pSample);
-    SafeRelease(&amp;pBuffer);
+    SafeRelease(&pSample);
+    SafeRelease(&pBuffer);
     return hr;
 }
 
@@ -599,7 +599,7 @@ void main()
             IMFSinkWriter *pSinkWriter = NULL;
             DWORD stream;
 
-            hr = InitializeSinkWriter(&amp;pSinkWriter, &amp;stream);
+            hr = InitializeSinkWriter(&pSinkWriter, &stream);
             if (SUCCEEDED(hr))
             {
                 // Send frames to the sink writer.
@@ -620,7 +620,7 @@ void main()
             {
                 hr = pSinkWriter->Finalize();
             }
-            SafeRelease(&amp;pSinkWriter);
+            SafeRelease(&pSinkWriter);
             MFShutdown();
         }
         CoUninitialize();

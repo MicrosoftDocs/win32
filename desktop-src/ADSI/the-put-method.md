@@ -66,7 +66,7 @@ On Error GoTo CleanUp
 
 sUserName = InputBox("Enter your user name:")
  
-Set x = GetObject("LDAP://CN="&amp; sUserName &amp;",CN=Users,DC=Fabrikam, DC=Com") 
+Set x = GetObject("LDAP://CN="& sUserName &",CN=Users,DC=Fabrikam, DC=Com") 
 
 sFull = InputBox ("Enter your full name:")
 x.Put "name", sFull
@@ -129,7 +129,7 @@ int main(int argc, char* argv[], LPWSTR pszADsPath)
 
    hr = ADsGetObject(pszADsPath,
                      IID_IADs, 
-                    (void**) &amp;pADs );
+                    (void**) &pADs );
 
    if (!SUCCEEDED(hr) )
    {
@@ -139,25 +139,25 @@ int main(int argc, char* argv[], LPWSTR pszADsPath)
    VARIANT var;
  
    // Using Put with a single value for the first name
-   VariantInit(&amp;var);
-   V_BSTR(&amp;var) = SysAllocString(L"Janet");
-   V_VT(&amp;var) = VT_BSTR;
+   VariantInit(&var);
+   V_BSTR(&var) = SysAllocString(L"Janet");
+   V_VT(&var) = VT_BSTR;
    hr = pADs->Put( L"givenName", var );
 
    // Using Put with a single value for the last name
-   VariantClear(&amp;var);
-   V_BSTR(&amp;var) = SysAllocString(L"Johns");
-   V_VT(&amp;var) = VT_BSTR;
+   VariantClear(&var);
+   V_BSTR(&var) = SysAllocString(L"Johns");
+   V_VT(&var) = VT_BSTR;
    hr = pADs->Put( L"sn", var ); 
-   VariantClear(&amp;var);
+   VariantClear(&var);
 
    // Using Put with multiple values for other telephones
    LPWSTR pszPhones[] = { L"425 844 1234", L"425 924 4321" };
    DWORD dwNumber = sizeof( pszPhones ) /sizeof(LPWSTR);
 
-   hr = ADsBuildVarArrayStr( pszPhones, dwNumber, &amp;var );
+   hr = ADsBuildVarArrayStr( pszPhones, dwNumber, &var );
    hr = pADs->Put( L"otherTelephone", var ); 
-   VariantClear(&amp;var);
+   VariantClear(&var);
 
    hr = pADs->SetInfo();
    pADs->Release();

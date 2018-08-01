@@ -290,7 +290,7 @@ The Boolean math operators are: &&, \|\|, ?:
 ```
 bool b1 = true;
 bool b2 = false;
-bool b3 = b1 &amp;&amp; b2 // b3 = true AND false = false
+bool b3 = b1 && b2 // b3 = true AND false = false
 b3 = b1 || b2                // b3 = true OR false = true
 ```
 
@@ -371,7 +371,7 @@ if( dot(lightDirection, normalVector)  >  0 )
 
 
 ```
-if( dot(lightDirection, normalVector) &amp;< 0 )
+if( dot(lightDirection, normalVector) &< 0 )
    // Do nothing; the face is backwards
 ```
 
@@ -402,7 +402,7 @@ if( position.z >= oldPosition.z )
 
 
 ```
-if( currentValue &amp;<= someInitialCondition )
+if( currentValue &<= someInitialCondition )
    // Reset the current value to its initial condition
 ```
 

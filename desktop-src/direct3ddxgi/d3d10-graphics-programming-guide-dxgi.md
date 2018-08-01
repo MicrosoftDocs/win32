@@ -158,11 +158,11 @@ After you create the swap chain, you will typically want to render images into i
 ```
 ID3D11Resource * pBB;
 ThrowFailure( pSwapChain->GetBuffer(0, __uuidof(pBB),    
-  reinterpret_cast<void**>(&amp;pBB)), "Couldn't get back buffer");
+  reinterpret_cast<void**>(&pBB)), "Couldn't get back buffer");
 ID3D11RenderTargetView * pView;
-ThrowFailure( pD3D11Device->CreateRenderTargetView(pBB, NULL, &amp;pView), 
+ThrowFailure( pD3D11Device->CreateRenderTargetView(pBB, NULL, &pView), 
   "Couldn't create view" );
-pD3D11DeviceContext->OMSetRenderTargets(1, &amp;pView, 0);
+pD3D11DeviceContext->OMSetRenderTargets(1, &pView, 0);
         
 ```
 
@@ -215,15 +215,15 @@ The following example code shows how to call [**ResizeBuffers**](/windows/deskto
             // Get buffer and create a render-target-view.
             ID3D11Texture2D* pBuffer;
             hr = g_pSwapChain->GetBuffer(0, __uuidof( ID3D11Texture2D),
-                                         (void**) &amp;pBuffer );
+                                         (void**) &pBuffer );
             // Perform error handling here!
 
             hr = g_pd3dDevice->CreateRenderTargetView(pBuffer, NULL,
-                                                     &amp;g_pRenderTargetView);
+                                                     &g_pRenderTargetView);
             // Perform error handling here!
             pBuffer->Release();
 
-            g_pd3dDeviceContext->OMSetRenderTargets(1, &amp;g_pRenderTargetView, NULL );
+            g_pd3dDeviceContext->OMSetRenderTargets(1, &g_pRenderTargetView, NULL );
 
             // Set up the viewport.
             D3D11_VIEWPORT vp;
@@ -233,7 +233,7 @@ The following example code shows how to call [**ResizeBuffers**](/windows/deskto
             vp.MaxDepth = 1.0f;
             vp.TopLeftX = 0;
             vp.TopLeftY = 0;
-            g_pd3dDeviceContext->RSSetViewports( 1, &amp;vp );
+            g_pd3dDeviceContext->RSSetViewports( 1, &vp );
         }
         return 1;
 ```

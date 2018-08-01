@@ -35,7 +35,7 @@ LSA_HANDLE GetPolicyHandle()
   LSA_HANDLE lsahPolicyHandle;
 
   // Object attributes are reserved, so initialize to zeros.
-  ZeroMemory(&amp;ObjectAttributes, sizeof(ObjectAttributes));
+  ZeroMemory(&ObjectAttributes, sizeof(ObjectAttributes));
 
   //Initialize an LSA_UNICODE_STRING to the server name.
   SystemNameLength = wcslen(SystemName);
@@ -45,10 +45,10 @@ LSA_HANDLE GetPolicyHandle()
 
   // Get a handle to the Policy object.
   ntsResult = LsaOpenPolicy(
-        &amp;lusSystemName,    //Name of the target system.
-        &amp;ObjectAttributes, //Object attributes.
+        &lusSystemName,    //Name of the target system.
+        &ObjectAttributes, //Object attributes.
         POLICY_ALL_ACCESS, //Desired access permissions.
-        &amp;lsahPolicyHandle  //Receives the policy handle.
+        &lsahPolicyHandle  //Receives the policy handle.
     );
 
   if (ntsResult != STATUS_SUCCESS)

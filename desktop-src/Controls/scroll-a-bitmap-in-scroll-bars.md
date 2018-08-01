@@ -99,7 +99,7 @@ LRESULT CALLBACK MyBitmapWindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM 
             bmp.bmHeight = GetDeviceCaps(hdcScreen, VERTRES); 
  
             // The width must be byte-aligned. 
-            bmp.bmWidthBytes = ((bmp.bmWidth + 15) &amp;~15)/8; 
+            bmp.bmWidthBytes = ((bmp.bmWidth + 15) &~15)/8; 
  
             // Create a bitmap for the compatible DC. 
             hbmpCompat = CreateBitmap(bmp.bmWidth, bmp.bmHeight, 
@@ -147,7 +147,7 @@ LRESULT CALLBACK MyBitmapWindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM 
             si.nMax   = bmp.bmWidth; 
             si.nPage  = xNewSize; 
             si.nPos   = xCurrentScroll; 
-            SetScrollInfo(hwnd, SB_HORZ, &amp;si, TRUE); 
+            SetScrollInfo(hwnd, SB_HORZ, &si, TRUE); 
  
             // The vertical scrolling range is defined by 
             // (bitmap_height) - (client_height). The current vertical 
@@ -160,7 +160,7 @@ LRESULT CALLBACK MyBitmapWindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM 
             si.nMax   = bmp.bmHeight; 
             si.nPage  = yNewSize; 
             si.nPos   = yCurrentScroll; 
-            SetScrollInfo(hwnd, SB_VERT, &amp;si, TRUE); 
+            SetScrollInfo(hwnd, SB_VERT, &si, TRUE); 
 
             break; 
         } 
@@ -169,7 +169,7 @@ LRESULT CALLBACK MyBitmapWindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM 
         { 
             PRECT prect; 
  
-            hdc = BeginPaint(hwnd, &amp;ps); 
+            hdc = BeginPaint(hwnd, &ps); 
  
             // If the window has been resized and the user has 
             // captured the screen, use the following call to 
@@ -198,7 +198,7 @@ LRESULT CALLBACK MyBitmapWindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM 
             // order to map the correct pixels from the source bitmap. 
              if (fScroll) 
             { 
-                prect = &amp;ps.rcPaint; 
+                prect = &ps.rcPaint; 
  
                 BitBlt(ps.hdc, 
                     prect->left, prect->top, 
@@ -212,7 +212,7 @@ LRESULT CALLBACK MyBitmapWindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM 
                 fScroll = FALSE; 
             } 
  
-            EndPaint(hwnd, &amp;ps); 
+            EndPaint(hwnd, &ps); 
 
             break; 
         } 
@@ -284,7 +284,7 @@ LRESULT CALLBACK MyBitmapWindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM 
             si.cbSize = sizeof(si); 
             si.fMask  = SIF_POS; 
             si.nPos   = xCurrentScroll; 
-            SetScrollInfo(hwnd, SB_HORZ, &amp;si, TRUE); 
+            SetScrollInfo(hwnd, SB_HORZ, &si, TRUE); 
  
             break; 
         } 
@@ -356,7 +356,7 @@ LRESULT CALLBACK MyBitmapWindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM 
             si.cbSize = sizeof(si); 
             si.fMask  = SIF_POS; 
             si.nPos   = yCurrentScroll; 
-            SetScrollInfo(hwnd, SB_VERT, &amp;si, TRUE); 
+            SetScrollInfo(hwnd, SB_VERT, &si, TRUE); 
 
             break; 
         } 
@@ -368,8 +368,8 @@ LRESULT CALLBACK MyBitmapWindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM 
 
             // Fill the client area to remove any existing contents. 
             RECT rect;
-            GetClientRect(hwnd, &amp;rect);
-            FillRect(hdcWin, &amp;rect, (HBRUSH)(COLOR_WINDOW+1));
+            GetClientRect(hwnd, &rect);
+            FillRect(hdcWin, &rect, (HBRUSH)(COLOR_WINDOW+1));
  
             // Copy the contents of the current screen 
             // into the compatible DC. 

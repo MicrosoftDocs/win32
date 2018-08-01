@@ -69,12 +69,12 @@ COPPSupport IsDriverCoppEnabled(const WCHAR *wszTestFile)
    
     // Create the Filter Graph Manager.
     CHECK_HR(hr = CoCreateInstance(CLSID_FilterGraph, NULL, 
-        CLSCTX_INPROC_SERVER, IID_IGraphBuilder, (void**)&amp;pGB));
+        CLSCTX_INPROC_SERVER, IID_IGraphBuilder, (void**)&pGB));
 
     // Create the VMR-9. 
     hr = CoCreateInstance(CLSID_VideoMixingRenderer9,
         NULL, CLSCTX_INPROC_SERVER, IID_IBaseFilter, 
-        (void**)&amp;pRenderer
+        (void**)&pRenderer
         ));
 
     if (FAILED(hr))
@@ -82,7 +82,7 @@ COPPSupport IsDriverCoppEnabled(const WCHAR *wszTestFile)
         // Try the VMR-7 instead.
         CHECK_HR(hr = CoCreateInstance(CLSID_VideoMixingRenderer,
                 NULL, CLSCTX_INPROC, IID_IBaseFilter, 
-                (void**)&amp;pRenderer
+                (void**)&pRenderer
                 ));
     }
 
@@ -94,11 +94,11 @@ COPPSupport IsDriverCoppEnabled(const WCHAR *wszTestFile)
 
     // Query for IAMCertifiedOutputProtection.
     CHECK_HR(hr = pRenderer->QueryInterface(IID_IAMCertifiedOutputProtection,
-            (void**)&amp;pCOPPDevice));
+            (void**)&pCOPPDevice));
 
     // Get the driver's COPP certificate.
-    hr = pCOPPDevice->KeyExchange(&amp;RandomValue, &amp;pbCertificate,
-        &amp;cbCertificateLength);
+    hr = pCOPPDevice->KeyExchange(&RandomValue, &pbCertificate,
+        &cbCertificateLength);
 
     if (SUCCEEDED(hr))
     {

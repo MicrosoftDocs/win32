@@ -58,7 +58,7 @@ nmh.hwndFrom = m_controlHwnd;
 SendMessage(GetParent(m_controlHwnd), 
     WM_NOTIFY, 
     nmh.idFrom, 
-    (LPARAM)&amp;nmh);
+    (LPARAM)&nmh);
 ```
 
 

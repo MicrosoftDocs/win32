@@ -43,14 +43,14 @@ HBRUSH hbrush;                  // brush handle
 static DWORD rgbCurrent;        // initial color selection
 
 // Initialize CHOOSECOLOR 
-ZeroMemory(&amp;cc, sizeof(cc));
+ZeroMemory(&cc, sizeof(cc));
 cc.lStructSize = sizeof(cc);
 cc.hwndOwner = hwnd;
 cc.lpCustColors = (LPDWORD) acrCustClr;
 cc.rgbResult = rgbCurrent;
 cc.Flags = CC_FULLOPEN | CC_RGBINIT;
  
-if (ChooseColor(&amp;cc)==TRUE) 
+if (ChooseColor(&cc)==TRUE) 
 {
     hbrush = CreateSolidBrush(cc.rgbResult);
     rgbCurrent = cc.rgbResult; 
@@ -79,14 +79,14 @@ HFONT hfont, hfontPrev;
 DWORD rgbPrev;
 
 // Initialize CHOOSEFONT
-ZeroMemory(&amp;cf, sizeof(cf));
+ZeroMemory(&cf, sizeof(cf));
 cf.lStructSize = sizeof (cf);
 cf.hwndOwner = hwnd;
-cf.lpLogFont = &amp;lf;
+cf.lpLogFont = &lf;
 cf.rgbColors = rgbCurrent;
 cf.Flags = CF_SCREENFONTS | CF_EFFECTS;
 
-if (ChooseFont(&amp;cf)==TRUE)
+if (ChooseFont(&cf)==TRUE)
 {
     hfont = CreateFontIndirect(cf.lpLogFont);
     hfontPrev = SelectObject(hdc, hfont);
@@ -130,7 +130,7 @@ HWND hwnd;              // owner window
 HANDLE hf;              // file handle
 
 // Initialize OPENFILENAME
-ZeroMemory(&amp;ofn, sizeof(ofn));
+ZeroMemory(&ofn, sizeof(ofn));
 ofn.lStructSize = sizeof(ofn);
 ofn.hwndOwner = hwnd;
 ofn.lpstrFile = szFile;
@@ -147,7 +147,7 @@ ofn.Flags = OFN_PATHMUSTEXIST | OFN_FILEMUSTEXIST;
 
 // Display the Open dialog box. 
 
-if (GetOpenFileName(&amp;ofn)==TRUE) 
+if (GetOpenFileName(&ofn)==TRUE) 
     hf = CreateFile(ofn.lpstrFile, 
                     GENERIC_READ,
                     0,
@@ -173,7 +173,7 @@ PRINTDLG pd;
 HWND hwnd;
 
 // Initialize PRINTDLG
-ZeroMemory(&amp;pd, sizeof(pd));
+ZeroMemory(&pd, sizeof(pd));
 pd.lStructSize = sizeof(pd);
 pd.hwndOwner   = hwnd;
 pd.hDevMode    = NULL;     // Don't forget to free or store hDevMode.
@@ -185,7 +185,7 @@ pd.nToPage     = 0xFFFF;
 pd.nMinPage    = 1; 
 pd.nMaxPage    = 0xFFFF; 
 
-if (PrintDlg(&amp;pd)==TRUE) 
+if (PrintDlg(&pd)==TRUE) 
 {
     // GDI calls to render output. 
 
@@ -245,9 +245,9 @@ HRESULT DisplayPrintPropertySheet(HWND hWnd)
     
     //  Invoke the Print property sheet.
     
-    hResult = PrintDlgEx(&amp;pdx);
+    hResult = PrintDlgEx(&pdx);
 
-    if ((hResult == S_OK) &amp;&amp; pdx.dwResultAction == PD_RESULT_PRINT) 
+    if ((hResult == S_OK) && pdx.dwResultAction == PD_RESULT_PRINT) 
     {
         // User clicked the Print button, so use the DC and other information returned in the 
         // PRINTDLGEX structure to print the document.
@@ -285,7 +285,7 @@ PAGESETUPDLG psd;    // common dialog box structure
 HWND hwnd;           // owner window
 
 // Initialize PAGESETUPDLG
-ZeroMemory(&amp;psd, sizeof(psd));
+ZeroMemory(&psd, sizeof(psd));
 psd.lStructSize = sizeof(psd);
 psd.hwndOwner   = hwnd;
 psd.hDevMode    = NULL; // Don't forget to free or store hDevMode.
@@ -298,7 +298,7 @@ psd.rtMargin.right = 1250;
 psd.rtMargin.bottom = 1000;
 psd.lpfnPagePaintHook = PaintHook;
 
-if (PageSetupDlg(&amp;psd)==TRUE)
+if (PageSetupDlg(&psd)==TRUE)
 {
     // check paper size and margin values here.
 }
@@ -379,14 +379,14 @@ CHAR szFindWhat[80];  // buffer receiving string
 HWND hdlg = NULL;     // handle to Find dialog box
 
 // Initialize FINDREPLACE
-ZeroMemory(&amp;fr, sizeof(fr));
+ZeroMemory(&fr, sizeof(fr));
 fr.lStructSize = sizeof(fr);
 fr.hwndOwner = hwnd;
 fr.lpstrFindWhat = szFindWhat;
 fr.wFindWhatLen = 80;
 fr.Flags = 0;
 
-hdlg = FindText(&amp;fr);
+hdlg = FindText(&fr);
 ```
 
 

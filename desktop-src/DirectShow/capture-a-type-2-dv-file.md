@@ -31,23 +31,23 @@ IBaseFilter           *pDVSplit;  // DV Splitter
 
 // Create the DV Splitter and add it to the filter graph.
 hr = CoCreateInstance(CLSID_DVSplitter, 0, CLSCTX_INPROC_SERVER,
-    IID_IBaseFilter, reinterpret_cast<void**>)(&amp;pDVSplit));
+    IID_IBaseFilter, reinterpret_cast<void**>)(&pDVSplit));
 hr = pGraph->AddFilter(pDVSplit, L"DV Splitter");
 
 // Create the file-writing section of the graph.
-hr = pBuilder->SetOutputFileName(&amp;MEDIASUBTYPE_Avi,
-    OLESTR("C:\\Example2.avi"), &amp;pAviMux, 0);
+hr = pBuilder->SetOutputFileName(&MEDIASUBTYPE_Avi,
+    OLESTR("C:\\Example2.avi"), &pAviMux, 0);
 
 // Connect the capture pin to the DV Splitter, and render one stream from
 // the DV Splitter to the AVI Mux. 
-hr = pBuilder->RenderStream(&amp;PIN_CATEGORY_CAPTURE, &amp;MEDIATYPE_Interleaved, 
+hr = pBuilder->RenderStream(&PIN_CATEGORY_CAPTURE, &MEDIATYPE_Interleaved, 
     pDV, pDVSplit, pAviMux);
 
 // Render the other stream from the DV splitter to the AVI Mux.
 hr = pBuilder->RenderStream(0, 0, pDVSplit, 0, pAviMux);
 
 // Render the preview stream.
-hr = pBuilder->RenderStream(&amp;PIN_CATEGORY_PREVIEW, &amp;MEDIATYPE_Interleaved, 
+hr = pBuilder->RenderStream(&PIN_CATEGORY_PREVIEW, &MEDIATYPE_Interleaved, 
     pDV, 0, 0);
 
 // Remember to release all interfaces.

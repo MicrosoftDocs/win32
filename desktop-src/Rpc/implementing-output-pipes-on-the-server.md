@@ -41,7 +41,7 @@ void OutPipe(LONG_PIPE *outputPipe )
         }
                     
         outputPipe->push( outputPipe->state,
-                          &amp;(outputPipeData[index]),
+                          &(outputPipeData[index]),
                           elementsToSend ); 
         index += elementsToSend;
  

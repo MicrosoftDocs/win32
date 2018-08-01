@@ -43,7 +43,7 @@ dwRes = DsMakeSpn(
      szServer,   // DNS name of the server on which service is running.
      0,          // No port component in SPN.
      NULL,       // No referrer.
-     &amp;dwLen,     // Size of szSpn buffer.
+     &dwLen,     // Size of szSpn buffer.
      szSpn);     // Buffer to receive the SPN.
 
 if (!DoAuthentication (sockServer, szSpn)) {
@@ -100,7 +100,7 @@ DWORD cbOut, cbIn;
 // authentication data to send to the service.
 cbOut = g_cbMaxMessage;
 if (!GenClientContext (s, NULL, 0, g_pOutBuf, 
-                       &amp;cbOut, &amp;done, szSpn))
+                       &cbOut, &done, szSpn))
     return(FALSE);
     
 if (!SendMsg (s, g_pOutBuf, cbOut))
@@ -110,12 +110,12 @@ if (!SendMsg (s, g_pOutBuf, cbOut))
 // the package's output back to the service. Repeat until complete.
 while (!done) 
 {
-    if (!ReceiveMsg (s, g_pInBuf, g_cbMaxMessage, &amp;cbIn))
+    if (!ReceiveMsg (s, g_pInBuf, g_cbMaxMessage, &cbIn))
         return(FALSE);
  
     cbOut = g_cbMaxMessage;
     if (!GenClientContext (s, g_pInBuf, cbIn, g_pOutBuf, 
-                           &amp;cbOut, &amp;done, szSpn))
+                           &cbOut, &done, szSpn))
         return(FALSE);
  
     if (!SendMsg (s, g_pOutBuf, cbOut))
@@ -157,7 +157,7 @@ ULONG            ContextAttributes;
 PAUTH_SEQ        pAS; // Structure to store state of authentication.
  
 // Get structure that contains the state of the authentication sequence.
-if (!GetEntry (dwKey, (PVOID*) &amp;pAS))
+if (!GetEntry (dwKey, (PVOID*) &pAS))
     return(FALSE);
  
 if (pAS->_fNewConversation)
@@ -170,8 +170,8 @@ if (pAS->_fNewConversation)
             NULL,    // Authentication data
             NULL,    // Get key function.
             NULL,    // Get key argument.
-            &amp;pAS->_hcred,
-            &amp;Lifetime
+            &pAS->_hcred,
+            &Lifetime
             );
     if (SEC_SUCCESS (ssStatus))
         pAS->_fHaveCredHandle = TRUE;
@@ -186,7 +186,7 @@ if (pAS->_fNewConversation)
 // Prepare output buffer.
 OutBuffDesc.ulVersion = 0;
 OutBuffDesc.cBuffers = 1;
-OutBuffDesc.pBuffers = &amp;OutSecBuff;
+OutBuffDesc.pBuffers = &OutSecBuff;
  
 OutSecBuff.cbBuffer = *pcbOut;
 OutSecBuff.BufferType = SECBUFFER_TOKEN;
@@ -197,7 +197,7 @@ if (!pAS->_fNewConversation)
 {
     InBuffDesc.ulVersion = 0;
     InBuffDesc.cBuffers = 1;
-    InBuffDesc.pBuffers = &amp;InSecBuff;
+    InBuffDesc.pBuffers = &InSecBuff;
  
     InSecBuff.cbBuffer = cbIn;
     InSecBuff.BufferType = SECBUFFER_TOKEN;
@@ -207,18 +207,18 @@ if (!pAS->_fNewConversation)
 _tprintf(TEXT("InitializeSecurityContext: pszTarget=%s\n"),szSpn);
  
 ssStatus = g_pFuncs->InitializeSecurityContext (
-                     &amp;pAS->_hcred,
-                     pAS->_fNewConversation ? NULL : &amp;pAS->_hctxt,
+                     &pAS->_hcred,
+                     pAS->_fNewConversation ? NULL : &pAS->_hctxt,
                      szSpn,
                      ISC_REQ_MUTUAL_AUTH,      // Context requirements
                      0,                        // Reserved1
                      SECURITY_NATIVE_DREP,
-                     pAS->_fNewConversation ? NULL : &amp;InBuffDesc,
+                     pAS->_fNewConversation ? NULL : &InBuffDesc,
                      0,                        // Reserved2
-                     &amp;pAS->_hctxt,
-                     &amp;OutBuffDesc,
-                     &amp;ContextAttributes,
-                     &amp;Lifetime
+                     &pAS->_hctxt,
+                     &OutBuffDesc,
+                     &ContextAttributes,
+                     &Lifetime
                      );
 if (!SEC_SUCCESS (ssStatus)) 
 {
@@ -234,8 +234,8 @@ if ( (SEC_I_COMPLETE_NEEDED == ssStatus) ||
 {
     if (g_pFuncs->CompleteAuthToken) 
     {
-        ssStatus = g_pFuncs->CompleteAuthToken (&amp;pAS->_hctxt, 
-                                                &amp;OutBuffDesc);
+        ssStatus = g_pFuncs->CompleteAuthToken (&pAS->_hctxt, 
+                                                &OutBuffDesc);
         if (!SEC_SUCCESS(ssStatus)) 
         {
             fprintf (stderr, "complete failed: %u\n", ssStatus);
@@ -258,7 +258,7 @@ if (pAS->_fNewConversation)
  
 // Check the ISC_RET_MUTUAL_AUTH flag to verify that 
 // mutual authentication was performed.
-if (*pfDone &amp;&amp; !(ContextAttributes &amp;&amp; ISC_RET_MUTUAL_AUTH) )
+if (*pfDone && !(ContextAttributes && ISC_RET_MUTUAL_AUTH) )
     _tprintf(TEXT("Mutual Auth not set in returned context.\n"));
  
 return TRUE;

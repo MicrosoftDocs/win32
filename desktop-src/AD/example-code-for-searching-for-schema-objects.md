@@ -85,13 +85,13 @@ HRESULT PrintAttributesByType(IDirectorySearch *pSchemaNC,
     CComBSTR sbstrSearchFilter;
     if (bIsExactMatch)
     {
-        sbstrSearchFilter = "(&amp;(objectCategory=attributeSchema)(systemFlags=";
+        sbstrSearchFilter = "(&(objectCategory=attributeSchema)(systemFlags=";
         sbstrSearchFilter += wszAttributeType;
         sbstrSearchFilter += "))";
     }
     else
     {
-        sbstrSearchFilter = "(&amp;(objectCategory=attributeSchema)(systemFlags:";
+        sbstrSearchFilter = "(&(objectCategory=attributeSchema)(systemFlags:";
         sbstrSearchFilter += LDAP_MATCHING_RULE_BIT_AND;
         sbstrSearchFilter += ":=";
         sbstrSearchFilter += wszAttributeType;
@@ -102,7 +102,7 @@ HRESULT PrintAttributesByType(IDirectorySearch *pSchemaNC,
     hr = pSchemaNC->ExecuteSearch(sbstrSearchFilter,
                                   rgpwszAttributes,
                                   dwAttributes,
-                                  &amp;hSearch);
+                                  &hSearch);
     if(SUCCEEDED(hr))
     {
         // Get the first row of results.
@@ -115,7 +115,7 @@ HRESULT PrintAttributesByType(IDirectorySearch *pSchemaNC,
             // Print each column.
             for(DWORD i = 0; i < dwAttributes; i++)
             {
-                hr = pSchemaNC->GetColumn(hSearch, rgpwszAttributes[i], &amp;col);
+                hr = pSchemaNC->GetColumn(hSearch, rgpwszAttributes[i], &col);
                 if(SUCCEEDED(hr))
                 {
                     // Print the data for the column and free the column.
@@ -135,7 +135,7 @@ HRESULT PrintAttributesByType(IDirectorySearch *pSchemaNC,
                     }
                     
                     // Free the column.
-                    pSchemaNC->FreeColumn(&amp;col);
+                    pSchemaNC->FreeColumn(&col);
                 }
             }
 
@@ -204,13 +204,13 @@ HRESULT PrintGCAttributes(IDirectorySearch *pSchemaNC)
     DWORD dwAttributes = sizeof(rgpwszAttributes)/sizeof(LPWSTR);
 
     // Create the search filter.
-    LPWSTR pwszSearchFilter = L"(&amp;(objectCategory=attributeSchema)(isMemberOfPartialAttributeSet=TRUE))";
+    LPWSTR pwszSearchFilter = L"(&(objectCategory=attributeSchema)(isMemberOfPartialAttributeSet=TRUE))";
  
     // Execute the search.
     hr = pSchemaNC->ExecuteSearch(pwszSearchFilter,
                                   rgpwszAttributes,
                                   dwAttributes,
-                                  &amp;hSearch);
+                                  &hSearch);
     if(SUCCEEDED(hr))
     {
         // Get the first row of results.
@@ -223,7 +223,7 @@ HRESULT PrintGCAttributes(IDirectorySearch *pSchemaNC)
             // Print each column.
             for(DWORD i = 0; i < dwAttributes; i++)
             {
-                hr = pSchemaNC->GetColumn(hSearch, rgpwszAttributes[i], &amp;col);
+                hr = pSchemaNC->GetColumn(hSearch, rgpwszAttributes[i], &col);
                 if(SUCCEEDED(hr))
                 {
                     // Print the data for the column and free the column.
@@ -243,7 +243,7 @@ HRESULT PrintGCAttributes(IDirectorySearch *pSchemaNC)
                     }
                     
                     // Free the column.
-                    pSchemaNC->FreeColumn(&amp;col);
+                    pSchemaNC->FreeColumn(&col);
                 }
             }
 
@@ -315,7 +315,7 @@ HRESULT PrintIndexedAttributes(IDirectorySearch *pSchemaNC)
     of the searchFlags attribute set to 1.
     */
     CComBSTR sbstrSearchFilter;    
-    sbstrSearchFilter = "(&amp;(objectCategory=attributeSchema)(searchFlags:";
+    sbstrSearchFilter = "(&(objectCategory=attributeSchema)(searchFlags:";
     sbstrSearchFilter += LDAP_MATCHING_RULE_BIT_AND;
     sbstrSearchFilter += ":=1))";
  
@@ -323,7 +323,7 @@ HRESULT PrintIndexedAttributes(IDirectorySearch *pSchemaNC)
     hr = pSchemaNC->ExecuteSearch(sbstrSearchFilter,
                                   rgpwszAttributes,
                                   dwAttributes,
-                                  &amp;hSearch);
+                                  &hSearch);
     if(SUCCEEDED(hr))
     {
         // Get the first row of results.
@@ -336,7 +336,7 @@ HRESULT PrintIndexedAttributes(IDirectorySearch *pSchemaNC)
             // Print each column.
             for(DWORD i = 0; i < dwAttributes; i++)
             {
-                hr = pSchemaNC->GetColumn(hSearch, rgpwszAttributes[i], &amp;col);
+                hr = pSchemaNC->GetColumn(hSearch, rgpwszAttributes[i], &col);
                 if(SUCCEEDED(hr))
                 {
                     // Print the data for the column and free the column.
@@ -356,7 +356,7 @@ HRESULT PrintIndexedAttributes(IDirectorySearch *pSchemaNC)
                     }
                     
                     // Free the column.
-                    pSchemaNC->FreeColumn(&amp;col);
+                    pSchemaNC->FreeColumn(&col);
                 }
             }
 

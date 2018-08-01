@@ -137,9 +137,9 @@ VOID __stdcall DoStartSvc()
     if (!QueryServiceStatusEx( 
             schService,                     // handle to service 
             SC_STATUS_PROCESS_INFO,         // information level
-            (LPBYTE) &amp;ssStatus,             // address of structure
+            (LPBYTE) &ssStatus,             // address of structure
             sizeof(SERVICE_STATUS_PROCESS), // size of structure
-            &amp;dwBytesNeeded ) )              // size needed if buffer is too small
+            &dwBytesNeeded ) )              // size needed if buffer is too small
     {
         printf("QueryServiceStatusEx failed (%d)\n", GetLastError());
         CloseServiceHandle(schService); 
@@ -150,7 +150,7 @@ VOID __stdcall DoStartSvc()
     // Check if the service is already running. It would be possible 
     // to stop the service here, but for simplicity this example just returns. 
 
-    if(ssStatus.dwCurrentState != SERVICE_STOPPED &amp;&amp; ssStatus.dwCurrentState != SERVICE_STOP_PENDING)
+    if(ssStatus.dwCurrentState != SERVICE_STOPPED && ssStatus.dwCurrentState != SERVICE_STOP_PENDING)
     {
         printf("Cannot start the service because it is already running\n");
         CloseServiceHandle(schService); 
@@ -185,9 +185,9 @@ VOID __stdcall DoStartSvc()
         if (!QueryServiceStatusEx( 
                 schService,                     // handle to service 
                 SC_STATUS_PROCESS_INFO,         // information level
-                (LPBYTE) &amp;ssStatus,             // address of structure
+                (LPBYTE) &ssStatus,             // address of structure
                 sizeof(SERVICE_STATUS_PROCESS), // size of structure
-                &amp;dwBytesNeeded ) )              // size needed if buffer is too small
+                &dwBytesNeeded ) )              // size needed if buffer is too small
         {
             printf("QueryServiceStatusEx failed (%d)\n", GetLastError());
             CloseServiceHandle(schService); 
@@ -233,9 +233,9 @@ VOID __stdcall DoStartSvc()
     if (!QueryServiceStatusEx( 
             schService,                     // handle to service 
             SC_STATUS_PROCESS_INFO,         // info level
-            (LPBYTE) &amp;ssStatus,             // address of structure
+            (LPBYTE) &ssStatus,             // address of structure
             sizeof(SERVICE_STATUS_PROCESS), // size of structure
-            &amp;dwBytesNeeded ) )              // if buffer too small
+            &dwBytesNeeded ) )              // if buffer too small
     {
         printf("QueryServiceStatusEx failed (%d)\n", GetLastError());
         CloseServiceHandle(schService); 
@@ -268,9 +268,9 @@ VOID __stdcall DoStartSvc()
         if (!QueryServiceStatusEx( 
             schService,             // handle to service 
             SC_STATUS_PROCESS_INFO, // info level
-            (LPBYTE) &amp;ssStatus,             // address of structure
+            (LPBYTE) &ssStatus,             // address of structure
             sizeof(SERVICE_STATUS_PROCESS), // size of structure
-            &amp;dwBytesNeeded ) )              // if buffer too small
+            &dwBytesNeeded ) )              // if buffer too small
         {
             printf("QueryServiceStatusEx failed (%d)\n", GetLastError());
             break; 
@@ -367,9 +367,9 @@ VOID __stdcall DoUpdateSvcDacl()
 
     if (!QueryServiceObjectSecurity(schService,
         DACL_SECURITY_INFORMATION, 
-        &amp;psd,           // using NULL does not work on all versions
+        &psd,           // using NULL does not work on all versions
         0, 
-        &amp;dwBytesNeeded))
+        &dwBytesNeeded))
     {
         if (GetLastError() == ERROR_INSUFFICIENT_BUFFER)
         {
@@ -384,7 +384,7 @@ VOID __stdcall DoUpdateSvcDacl()
             }
   
             if (!QueryServiceObjectSecurity(schService,
-                DACL_SECURITY_INFORMATION, psd, dwSize, &amp;dwBytesNeeded))
+                DACL_SECURITY_INFORMATION, psd, dwSize, &dwBytesNeeded))
             {
                 printf("QueryServiceObjectSecurity failed (%d)\n", GetLastError());
                 goto dacl_cleanup;
@@ -399,8 +399,8 @@ VOID __stdcall DoUpdateSvcDacl()
 
     // Get the DACL.
 
-    if (!GetSecurityDescriptorDacl(psd, &amp;bDaclPresent, &amp;pacl,
-                                   &amp;bDaclDefaulted))
+    if (!GetSecurityDescriptorDacl(psd, &bDaclPresent, &pacl,
+                                   &bDaclDefaulted))
     {
         printf("GetSecurityDescriptorDacl failed(%d)\n", GetLastError());
         goto dacl_cleanup;
@@ -408,11 +408,11 @@ VOID __stdcall DoUpdateSvcDacl()
 
     // Build the ACE.
 
-    BuildExplicitAccessWithName(&amp;ea, TEXT("GUEST"),
+    BuildExplicitAccessWithName(&ea, TEXT("GUEST"),
         SERVICE_START | SERVICE_STOP | READ_CONTROL | DELETE,
         SET_ACCESS, NO_INHERITANCE);
 
-    dwError = SetEntriesInAcl(1, &amp;ea, pacl, &amp;pNewAcl);
+    dwError = SetEntriesInAcl(1, &ea, pacl, &pNewAcl);
     if (dwError != ERROR_SUCCESS)
     {
         printf("SetEntriesInAcl failed(%d)\n", dwError);
@@ -421,7 +421,7 @@ VOID __stdcall DoUpdateSvcDacl()
 
     // Initialize a new security descriptor.
 
-    if (!InitializeSecurityDescriptor(&amp;sd, 
+    if (!InitializeSecurityDescriptor(&sd, 
         SECURITY_DESCRIPTOR_REVISION))
     {
         printf("InitializeSecurityDescriptor failed(%d)\n", GetLastError());
@@ -430,7 +430,7 @@ VOID __stdcall DoUpdateSvcDacl()
 
     // Set the new DACL in the security descriptor.
 
-    if (!SetSecurityDescriptorDacl(&amp;sd, TRUE, pNewAcl, FALSE))
+    if (!SetSecurityDescriptorDacl(&sd, TRUE, pNewAcl, FALSE))
     {
         printf("SetSecurityDescriptorDacl failed(%d)\n", GetLastError());
         goto dacl_cleanup;
@@ -439,7 +439,7 @@ VOID __stdcall DoUpdateSvcDacl()
     // Set the new DACL for the service object.
 
     if (!SetServiceObjectSecurity(schService, 
-        DACL_SECURITY_INFORMATION, &amp;sd))
+        DACL_SECURITY_INFORMATION, &sd))
     {
         printf("SetServiceObjectSecurity failed(%d)\n", GetLastError());
         goto dacl_cleanup;
@@ -508,9 +508,9 @@ VOID __stdcall DoStopSvc()
     if ( !QueryServiceStatusEx( 
             schService, 
             SC_STATUS_PROCESS_INFO,
-            (LPBYTE)&amp;ssp, 
+            (LPBYTE)&ssp, 
             sizeof(SERVICE_STATUS_PROCESS),
-            &amp;dwBytesNeeded ) )
+            &dwBytesNeeded ) )
     {
         printf("QueryServiceStatusEx failed (%d)\n", GetLastError()); 
         goto stop_cleanup;
@@ -544,9 +544,9 @@ VOID __stdcall DoStopSvc()
         if ( !QueryServiceStatusEx( 
                  schService, 
                  SC_STATUS_PROCESS_INFO,
-                 (LPBYTE)&amp;ssp, 
+                 (LPBYTE)&ssp, 
                  sizeof(SERVICE_STATUS_PROCESS),
-                 &amp;dwBytesNeeded ) )
+                 &dwBytesNeeded ) )
         {
             printf("QueryServiceStatusEx failed (%d)\n", GetLastError()); 
             goto stop_cleanup;
@@ -574,7 +574,7 @@ VOID __stdcall DoStopSvc()
     if ( !ControlService( 
             schService, 
             SERVICE_CONTROL_STOP, 
-            (LPSERVICE_STATUS) &amp;ssp ) )
+            (LPSERVICE_STATUS) &ssp ) )
     {
         printf( "ControlService failed (%d)\n", GetLastError() );
         goto stop_cleanup;
@@ -588,9 +588,9 @@ VOID __stdcall DoStopSvc()
         if ( !QueryServiceStatusEx( 
                 schService, 
                 SC_STATUS_PROCESS_INFO,
-                (LPBYTE)&amp;ssp, 
+                (LPBYTE)&ssp, 
                 sizeof(SERVICE_STATUS_PROCESS),
-                &amp;dwBytesNeeded ) )
+                &dwBytesNeeded ) )
         {
             printf( "QueryServiceStatusEx failed (%d)\n", GetLastError() );
             goto stop_cleanup;
@@ -628,7 +628,7 @@ BOOL __stdcall StopDependentServices()
 
     // Pass a zero-length buffer to get the required buffer size.
     if ( EnumDependentServices( schService, SERVICE_ACTIVE, 
-         lpDependencies, 0, &amp;dwBytesNeeded, &amp;dwCount ) ) 
+         lpDependencies, 0, &dwBytesNeeded, &dwCount ) ) 
     {
          // If the Enum call succeeds, then there are no dependent
          // services, so do nothing.
@@ -649,8 +649,8 @@ BOOL __stdcall StopDependentServices()
         __try {
             // Enumerate the dependencies.
             if ( !EnumDependentServices( schService, SERVICE_ACTIVE, 
-                lpDependencies, dwBytesNeeded, &amp;dwBytesNeeded,
-                &amp;dwCount ) )
+                lpDependencies, dwBytesNeeded, &dwBytesNeeded,
+                &dwCount ) )
             return FALSE;
 
             for ( i = 0; i < dwCount; i++ ) 
@@ -668,7 +668,7 @@ BOOL __stdcall StopDependentServices()
                     // Send a stop code.
                     if ( !ControlService( hDepService, 
                             SERVICE_CONTROL_STOP,
-                            (LPSERVICE_STATUS) &amp;ssp ) )
+                            (LPSERVICE_STATUS) &ssp ) )
                     return FALSE;
 
                     // Wait for the service to stop.
@@ -678,9 +678,9 @@ BOOL __stdcall StopDependentServices()
                         if ( !QueryServiceStatusEx( 
                                 hDepService, 
                                 SC_STATUS_PROCESS_INFO,
-                                (LPBYTE)&amp;ssp, 
+                                (LPBYTE)&ssp, 
                                 sizeof(SERVICE_STATUS_PROCESS),
-                                &amp;dwBytesNeeded ) )
+                                &dwBytesNeeded ) )
                         return FALSE;
 
                         if ( ssp.dwCurrentState == SERVICE_STOPPED )

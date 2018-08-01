@@ -41,7 +41,7 @@ HRESULT MyOutputPin::CheckMediaType(const CMediaType *pmtOut)
     // Now do the normal check for this media type.
     HRESULT hr;
     hr = m_pFilter->CheckTransform(
-        &amp;m_pFilter->m_pInput->CurrentMediaType(),  // The input type.
+        &m_pFilter->m_pInput->CurrentMediaType(),  // The input type.
         pmtOut  // The proposed output type.
     );
     if (hr == S_OK)
@@ -58,12 +58,12 @@ HRESULT MyOutputPin::CheckMediaType(const CMediaType *pmtOut)
     CMediaType *pmtEnum;
     BOOL fFound = FALSE;
     IEnumMediaTypes *pEnum;
-    hr = m_pFilter->m_pInput->GetConnected()->EnumMediaTypes(&amp;pEnum);
+    hr = m_pFilter->m_pInput->GetConnected()->EnumMediaTypes(&pEnum);
     if (hr != S_OK)
     {
         return E_FAIL;
     }
-    while (hr = pEnum->Next(1, (AM_MEDIA_TYPE **)&amp;pmtEnum, NULL), hr == S_OK)
+    while (hr = pEnum->Next(1, (AM_MEDIA_TYPE **)&pmtEnum, NULL), hr == S_OK)
     {
         // Check this input type against the proposed output type.
         hr = m_pFilter->CheckTransform(pmtEnum, pmtOut);
@@ -107,7 +107,7 @@ HRESULT MyOutputPin::SetFormat(AM_MEDIA_TYPE *pmt)
 
     // Hold the filter state lock, to make sure that streaming isn't 
     // in the middle of starting or stopping:
-    CAutoLock cObjectLock(&amp;m_pFilter->m_csFilter);
+    CAutoLock cObjectLock(&m_pFilter->m_csFilter);
 
     // Cannot set the format unless the filter is stopped.
     if (m_pFilter->m_State != State_Stopped)
@@ -123,7 +123,7 @@ HRESULT MyOutputPin::SetFormat(AM_MEDIA_TYPE *pmt)
     }
 
     // If the pin is already using this format, there's nothing to do.
-    if (IsConnected() &amp;&amp; CurrentMediaType() == *pmt)
+    if (IsConnected() && CurrentMediaType() == *pmt)
     {
         return S_OK;
     }
@@ -170,12 +170,12 @@ HRESULT MyFilter::SetMediaType(
     {
         // Before we set the output type, we might need to reconnect 
         // the input pin with a new type.
-        if (m_pInput &amp;&amp; m_pInput->IsConnected()) 
+        if (m_pInput && m_pInput->IsConnected()) 
         {
             // Check if the current input type is compatible.
             hr = CheckTransform(
-                    &amp;m_pInput->CurrentMediaType(),
-                    &amp;m_pOutput->CurrentMediaType());
+                    &m_pInput->CurrentMediaType(),
+                    &m_pOutput->CurrentMediaType());
             if (SUCCEEDED(hr))
             {
                 return S_OK;

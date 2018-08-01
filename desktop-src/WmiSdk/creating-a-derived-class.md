@@ -86,7 +86,7 @@ The following procedure describes how to create a derived class using C++.
     IWbemCallResult *pResult = 0;
 
     BSTR PathToClass = SysAllocString(L"Example");
-    HRESULT hRes = pSvc->GetObject(PathToClass, 0, pCtx, &amp;pExampleClass, &amp;pResult);
+    HRESULT hRes = pSvc->GetObject(PathToClass, 0, pCtx, &pExampleClass, &pResult);
     SysFreeString(PathToClass);
     ```
 
@@ -97,7 +97,7 @@ The following procedure describes how to create a derived class using C++.
     The following code example shows how to create a derived class object.
 
     ```C++
-    pExampleClass->SpawnDerivedClass(0, &amp;pNewDerivedClass);
+    pExampleClass->SpawnDerivedClass(0, &pNewDerivedClass);
     pExampleClass->Release();  // Don't need the parent class any more
     ```
 
@@ -109,14 +109,14 @@ The following procedure describes how to create a derived class using C++.
 
     ```C++
     VARIANT v;
-    VariantInit(&amp;v);
+    VariantInit(&v);
 
-    V_VT(&amp;v) = VT_BSTR;
-    V_BSTR(&amp;v) = SysAllocString(L"Example2");
+    V_VT(&v) = VT_BSTR;
+    V_BSTR(&v) = SysAllocString(L"Example2");
     BSTR Class = SysAllocString(L"__CLASS");
-    pNewDerivedClass->Put(Class, 0, &amp;v, 0);
+    pNewDerivedClass->Put(Class, 0, &v, 0);
     SysFreeString(Class);
-    VariantClear(&amp;v);
+    VariantClear(&v);
     ```
 
     
@@ -138,7 +138,7 @@ The following procedure describes how to create a derived class using C++.
     The following code example shows how to save the new derived class.
 
     ```C++
-    hRes = pSvc->PutClass(pNewDerivedClass, 0, pCtx, &amp;pResult);
+    hRes = pSvc->PutClass(pNewDerivedClass, 0, pCtx, &pResult);
     pNewDerivedClass->Release();
     ```
 
@@ -157,27 +157,27 @@ void CreateDerivedClass(IWbemServices *pSvc)
 
   BSTR PathToClass = SysAllocString(L"Example");
   HRESULT hRes = pSvc->GetObject(PathToClass, 0, pCtx, 
-    &amp;pExampleClass, &amp;pResult);
+    &pExampleClass, &pResult);
   SysFreeString(PathToClass);
 
   if (hRes != 0)
     return;
 
-  pExampleClass->SpawnDerivedClass(0, &amp;pNewDerivedClass);
+  pExampleClass->SpawnDerivedClass(0, &pNewDerivedClass);
   pExampleClass->Release();  // The parent class is no longer needed
 
   VARIANT v;
-  VariantInit(&amp;v);
+  VariantInit(&v);
 
   // Create the class name.
   // =====================
 
-  V_VT(&amp;v) = VT_BSTR;
-  V_BSTR(&amp;v) = SysAllocString(L"Example2");
+  V_VT(&v) = VT_BSTR;
+  V_BSTR(&v) = SysAllocString(L"Example2");
   BSTR Class = SysAllocString(L"__CLASS");
-  pNewDerivedClass->Put(Class, 0, &amp;v, 0);
+  pNewDerivedClass->Put(Class, 0, &v, 0);
   SysFreeString(Class);
-  VariantClear(&amp;v);
+  VariantClear(&v);
 
   // Create another property.
   // =======================
@@ -188,7 +188,7 @@ void CreateDerivedClass(IWbemServices *pSvc)
   
   // Register the class with WMI. 
   // ============================
-  hRes = pSvc->PutClass(pNewDerivedClass, 0, pCtx, &amp;pResult);
+  hRes = pSvc->PutClass(pNewDerivedClass, 0, pCtx, &pResult);
   pNewDerivedClass->Release();
 }
 ```

@@ -81,7 +81,7 @@ void TryNormalization(NORM_FORM form, LPWSTR strInput)
                 // Normalize the string 
                 int iActualSize = NormalizeString(form, strInput, -1, pBuffer, iSizeGuess);
                 iSizeGuess = 0;
-                if (iActualSize <= 0 &amp;&amp; GetLastError() != ERROR_SUCCESS)
+                if (iActualSize <= 0 && GetLastError() != ERROR_SUCCESS)
                 {
                     // Error during normalization 
                     wprintf(L"Error %d during normalization\n", GetLastError());

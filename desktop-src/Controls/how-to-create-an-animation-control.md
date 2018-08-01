@@ -49,7 +49,7 @@ Get the screen coordinates of the specified control button.
 
 ```C++
 // nIDCtl - identifier of the control below which the animation control is to be positioned.
-GetWindowRect(GetDlgItem(hwndDlg, nIDCtl), &amp;rc); 
+GetWindowRect(GetDlgItem(hwndDlg, nIDCtl), &rc); 
 ```
 
 
@@ -61,7 +61,7 @@ Convert the coordinates of the lower-left corner to client coordinates.
 POINT pt;
 pt.x = rc.left; 
 pt.y = rc.bottom; 
-ScreenToClient(hwndDlg, &amp;pt); 
+ScreenToClient(hwndDlg, &pt); 
 ```
 
 
@@ -120,14 +120,14 @@ HWND CreateAnimationCtrl(HWND hwndDlg, int nIDCtl)
 
     // Get the screen coordinates of the specified control button.
     // nIDCtl - identifier of the control below which the animation control is to be positioned.
-    GetWindowRect(GetDlgItem(hwndDlg, nIDCtl), &amp;rc); 
+    GetWindowRect(GetDlgItem(hwndDlg, nIDCtl), &rc); 
 
     // Convert the coordinates of the lower-left corner to 
     // client coordinates.
     POINT pt;
     pt.x = rc.left; 
     pt.y = rc.bottom; 
-    ScreenToClient(hwndDlg, &amp;pt); 
+    ScreenToClient(hwndDlg, &pt); 
 
     // Position the animation control below the Stop button.
     // CX_FRAME, CY_FRAME - width and height of the frames in the AVI clip.      

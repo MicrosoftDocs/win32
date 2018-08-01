@@ -38,7 +38,7 @@ void SendLongs()
         globalPipeData[i] = IN_VALUE;
  
     pipeDataIndex = 0;
-    inPipe.state =  (rpc_ss_pipe_state_t )&amp;pipeDataIndex;
+    inPipe.state =  (rpc_ss_pipe_state_t )&pipeDataIndex;
     inPipe.pull  = PipePull;
     inPipe.alloc = PipeAlloc;
  

@@ -43,7 +43,7 @@ HRESULT AddOutputNode(
     HRESULT hr = S_OK;
     
     // Create the node.
-    hr = MFCreateTopologyNode(MF_TOPOLOGY_OUTPUT_NODE, &amp;pNode);
+    hr = MFCreateTopologyNode(MF_TOPOLOGY_OUTPUT_NODE, &pNode);
 
     // Set the object pointer.
     if (SUCCEEDED(hr))
@@ -108,7 +108,7 @@ HRESULT AddOutputNode(
     IMFTopologyNode *pNode = NULL;
 
     // Create the node.
-    HRESULT hr = MFCreateTopologyNode(MF_TOPOLOGY_OUTPUT_NODE, &amp;pNode);
+    HRESULT hr = MFCreateTopologyNode(MF_TOPOLOGY_OUTPUT_NODE, &pNode);
     if (FAILED(hr))
     {
         goto done;
@@ -146,7 +146,7 @@ HRESULT AddOutputNode(
     (*ppNode)->AddRef();
 
 done:
-    SafeRelease(&amp;pNode);
+    SafeRelease(&pNode);
     return hr;
 }
 ```

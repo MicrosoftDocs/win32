@@ -60,7 +60,7 @@ The following script gets back data from the provider that matches the bit width
 
 ```VB
 strComputer = "."
-Const HKLM = &amp;h80000002
+Const HKLM = &h80000002
 Set objReg = Getobject("winmgmts:" _
     & "{impersonationLevel=impersonate}!\\" & strComputer _
     & "\root\default:stdregprov")
@@ -96,7 +96,7 @@ The following modified example of the default script uses the **\_\_ProviderArch
 
 ```VB
 strComputer = "."
-Const HKLM = &amp;h80000002
+Const HKLM = &h80000002
 Set objCtx = CreateObject("WbemScripting.SWbemNamedValueSet")
 objCtx.Add "__ProviderArchitecture", 32
 Set objLocator = CreateObject("Wbemscripting.SWbemLocator")
@@ -123,7 +123,7 @@ The following modification of the script above by adding the **\_\_ProviderArchi
 
 ```VB
 strComputer = "."
-Const HKLM = &amp;h80000002
+Const HKLM = &h80000002
 Set objCtx = CreateObject("WbemScripting.SWbemNamedValueSet")
 objCtx.Add "__ProviderArchitecture", 32
 objCtx.Add "__RequiredArchitecture", TRUE

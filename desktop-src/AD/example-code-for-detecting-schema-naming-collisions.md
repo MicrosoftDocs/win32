@@ -57,7 +57,7 @@ HRESULT FindCollidingAttributesOrClasses(
         
     hr = ADsEncodeBinaryData((LPBYTE)pSchemaIDGUID, 
                              sizeof(GUID), 
-                             &amp;szBuffer);
+                             &szBuffer);
     if (SUCCEEDED(hr))
     {
         LPWSTR pwszFormatLinkID = L"(|(cn=%s)(lDAPDisplayName=%s)(attributeID=%s)(governsID=%s)(schemaIDGUID=%s)(linkID=%d))";
@@ -132,7 +132,7 @@ HRESULT FindCollidingAttributesOrClasses(
                 hr = pSchemaNC->ExecuteSearch(szFilter,
                                 pszAttribs,
                                 sizeof(pszAttribs)/sizeof(LPWSTR),
-                                &amp;hSearch);
+                                &hSearch);
                 if (SUCCEEDED(hr))
                 {
                     // Call IDirectorySearch::GetNextRow() 

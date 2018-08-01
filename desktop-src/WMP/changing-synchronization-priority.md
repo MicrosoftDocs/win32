@@ -37,9 +37,9 @@ void CSyncSettings::SetPriorities()
     long lPriorityCount = 0; // Tracks the next priority value to be assigned.
     long lNewPriority = 0; // Contains the new priority value for the playlist.
 
-    HRESULT hr = m_spPlaylist->get_count(&amp;lCount);
+    HRESULT hr = m_spPlaylist->get_count(&lCount);
 
-    if(SUCCEEDED(hr) &amp;&amp; lCount > 0)
+    if(SUCCEEDED(hr) && lCount > 0)
     {
         HCURSOR hCursor = LoadCursor(NULL, IDC_WAIT);
         HCURSOR hCursorOld = SetCursor(hCursor);
@@ -62,7 +62,7 @@ void CSyncSettings::SetPriorities()
             }
 
             // Set the attribute on the playlist.
-            hr = m_spPlaylist->get_item(i, &amp;spMedia);
+            hr = m_spPlaylist->get_item(i, &spMedia);
 
             if(SUCCEEDED(hr))
             {     

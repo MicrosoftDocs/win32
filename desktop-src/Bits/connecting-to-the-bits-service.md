@@ -31,7 +31,7 @@ if (SUCCEEDED(hr))
   hr = CoCreateInstance(__uuidof(BackgroundCopyManager), NULL,
                         CLSCTX_LOCAL_SERVER,
                         __uuidof(IBackgroundCopyManager),
-                        (void**) &amp;g_pbcm);
+                        (void**) &g_pbcm);
   if (SUCCEEDED(hr))
   {
     //Use g_pbcm to create, enumerate, or retrieve jobs from the queue.
@@ -56,7 +56,7 @@ The following example shows how to use one of the symbolic class identifiers.
   hr = CoCreateInstance(CLSID_BackgroundCopyManager2_0, NULL,
                         CLSCTX_LOCAL_SERVER,
                         IID_IBackgroundCopyManager,
-                        (void**) &amp;g_pbcm);
+                        (void**) &g_pbcm);
   if (SUCCEEDED(hr))
   {
     //BITS 2.0 is installed.
@@ -75,7 +75,7 @@ To retrieve a pointer to the [**IBitsPeerCacheAdministration**](/windows/desktop
   IBackgroundCopyManager* pbcm = NULL;
   IBitsPeerCacheAdministration* pCacheAdmin = NULL;
 
-  hr = pbcm>QueryInterface(__uuidof(IBitsPeerCacheAdministration), (void**)&amp;pCacheAdmin);
+  hr = pbcm>QueryInterface(__uuidof(IBitsPeerCacheAdministration), (void**)&pCacheAdmin);
   pbcm->Release();
   if (FAILED(hr))
   {

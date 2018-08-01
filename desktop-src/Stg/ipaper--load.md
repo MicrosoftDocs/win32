@@ -32,7 +32,7 @@ STDMETHODIMP COPaper::CImpIPaper::Load(
 
     if (OwnThis())
     {
-      if (m_bLocked &amp;&amp; m_cLockKey == nLockKey &amp;&amp; NULL != pIStorage)
+      if (m_bLocked && m_cLockKey == nLockKey && NULL != pIStorage)
       {
        // Open the "PAPERDATA" stream where the paper data is stored.
         hr = pIStorage->OpenStream(
@@ -40,16 +40,16 @@ STDMETHODIMP COPaper::CImpIPaper::Load(
                0,
                STGM_READ | STGM_DIRECT | STGM_SHARE_EXCLUSIVE,
                0,
-               &amp;pIStream);
+               &pIStream);
         if (SUCCEEDED(hr))
         {
           // Obtained paper data stream. Read the Paper Properties.
           ulToRead = sizeof(PAPER_PROPERTIES);
           hr = pIStream->Read(
-                           &amp;NewProps,
+                           &NewProps,
                            ulToRead,
-                           &amp;ulReadIn);
-          if (SUCCEEDED(hr) &amp;&amp; ulToRead != ulReadIn)
+                           &ulReadIn);
+          if (SUCCEEDED(hr) && ulToRead != ulReadIn)
             hr = E_FAIL;
           if (SUCCEEDED(hr))
           {
@@ -73,8 +73,8 @@ STDMETHODIMP COPaper::CImpIPaper::Load(
                   // Read the complete array of Ink Data.
                   ulToRead = NewProps.lInkArraySize * sizeof(INKDATA);
                   hr = pIStream->Read(m_paInkData, 
-                                      ulToRead, &amp;ulReadIn);
-                  if (SUCCEEDED(hr) &amp;&amp; ulToRead != ulReadIn)
+                                      ulToRead, &ulReadIn);
+                  if (SUCCEEDED(hr) && ulToRead != ulReadIn)
                     hr = E_FAIL;
                   if (SUCCEEDED(hr))
                   {
@@ -88,8 +88,8 @@ STDMETHODIMP COPaper::CImpIPaper::Load(
                     // Copy the new properties into current 
                     // properties.
                     memcpy(
-                      &amp;m_PaperProperties,
-                      &amp;NewProps,
+                      &m_PaperProperties,
+                      &NewProps,
                       sizeof(PAPER_PROPERTIES));
                   }
                 }

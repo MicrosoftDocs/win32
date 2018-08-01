@@ -51,13 +51,13 @@ You cannot directly create a **COMAdminCatalogCollection** object. To use the me
 
 ```C++
     HRESULT hr = CoCreateInstance(CLSID_COMAdminCatalog, NULL, 
-      CLSCTX_INPROC_SERVER, IID_IUnknown, (void**)&amp;pUnknown);
+      CLSCTX_INPROC_SERVER, IID_IUnknown, (void**)&pUnknown);
     if (FAILED (hr)) exit(0);  // Replace with specific error handling.
     hr = pUnknown->QueryInterface(IID_ICOMAdminCatalog, 
-      (void**)&amp;pCatalog); 
+      (void**)&pCatalog); 
     if (FAILED (hr)) exit(0);  // Replace with specific error handling.
     hr = pCatalog->GetCollection(L"TopCollection", 
-      (IDispatch**)&amp;pTopColl);
+      (IDispatch**)&pTopColl);
     if (FAILED (hr)) exit(0);  // Replace with specific error handling.
 ```
 

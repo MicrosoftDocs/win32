@@ -16,7 +16,7 @@ Before a DMO can process any data, the client must set the media type for each s
 
 ```C++
 DWORD cInput = 0, cOutput = 0;
-pDMO->GetStreamCount(&amp;cInput, &amp;cOutput);
+pDMO->GetStreamCount(&cInput, &cOutput);
 ```
 
 
@@ -30,14 +30,14 @@ For every stream, the DMO assigns a list of possible media types, in order of pr
 
 ```C++
 DMO_MEDIA_TYPE mt
-hr = pDMO->GetInputType(0, 0, &amp;mt)
+hr = pDMO->GetInputType(0, 0, &mt)
 if (SUCCEEDED(hr))
 {
     // Examine this media type (not shown).
     /* ... */
 
     // Free the format block.
-    MoFreeMediaType(&amp;mt);
+    MoFreeMediaType(&mt);
 }
 ```
 
@@ -49,13 +49,13 @@ To enumerate all of the preferred media types on a given stream, use a loop that
 ```C++
 DMO_MEDIA_TYPE mt;
 DWORD dwType = 0;
-while (hr = pDMO->GetInputType(0, dwType, &amp;mt), SUCCEEDED(hr))
+while (hr = pDMO->GetInputType(0, dwType, &mt), SUCCEEDED(hr))
 {
     // Examine this media type (not shown).
     /* ... */
 
     // Free the format block.
-    MoFreeMediaType(&amp;mt);
+    MoFreeMediaType(&mt);
     ++dwType;
 }
 ```
@@ -79,9 +79,9 @@ Use the [**IMediaObject::SetInputType**](/windows/desktop/api/Mediaobj/nf-mediao
 
 ```C++
 DMO_MEDIA_TYPE mt;
-ZeroMemory(&amp;mt, sizeof(DMO_MEDIA_TYPE));
+ZeroMemory(&mt, sizeof(DMO_MEDIA_TYPE));
 // Allocate memory for the format block.
-HRESULT hr = MoInitMediaType(&amp;mt, sizeof(WAVEFORMATEX));
+HRESULT hr = MoInitMediaType(&mt, sizeof(WAVEFORMATEX));
 if (SUCCEEDED(hr))
 {
     // Set the type GUIDs.
@@ -100,10 +100,10 @@ if (SUCCEEDED(hr))
     pWave->cbSize = 0;
 
     // Set the media type.
-    hr = pDMO->SetInputType(0, &amp;mt, 0); 
+    hr = pDMO->SetInputType(0, &mt, 0); 
 
     // Release the format block.
-    MoFreeMediaType(&amp;mt);
+    MoFreeMediaType(&mt);
 }
 ```
 
@@ -113,7 +113,7 @@ To test a media type without setting it, call **SetInputType** or **SetOutputTyp
 
 
 ```C++
-if (S_OK == pDMO->SetInputType(0, &amp;mt, DMO_SET_TYPEF_TEST_ONLY)
+if (S_OK == pDMO->SetInputType(0, &mt, DMO_SET_TYPEF_TEST_ONLY)
 {
     // Media type is OK.
 }

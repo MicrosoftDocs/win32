@@ -31,7 +31,7 @@ HRESULT PrintSensorProperty(ISensor* pSensor, REFPROPERTYKEY pk)
 
     PROPVARIANT pv = {};
 
-    hr = pSensor->GetProperty(pk, &amp;pv);
+    hr = pSensor->GetProperty(pk, &pv);
 
     if(SUCCEEDED(hr))
     {
@@ -61,7 +61,7 @@ HRESULT PrintSensorProperty(ISensor* pSensor, REFPROPERTYKEY pk)
         }
     }
 
-    PropVariantClear(&amp;pv);
+    PropVariantClear(&pv);
 
     return hr;    
 }
@@ -96,7 +96,7 @@ HRESULT PrintSensorProperties(ISensor* pSensor)
     hr = CoCreateInstance(CLSID_PortableDeviceKeyCollection, 
                                 NULL, 
                                 CLSCTX_INPROC_SERVER,                                 
-                                IID_PPV_ARGS(&amp;pKeys));
+                                IID_PPV_ARGS(&pKeys));
 
     if(SUCCEEDED(hr))
     {
@@ -118,13 +118,13 @@ HRESULT PrintSensorProperties(ISensor* pSensor)
     if(SUCCEEDED(hr))
     {
         // Retrieve the properties from the sensor.
-        hr = pSensor->GetProperties(pKeys, &amp;pValues);
+        hr = pSensor->GetProperties(pKeys, &pValues);
     }
 
     if(SUCCEEDED(hr))
     {
         // Get the number of values returned.        
-        hr = pValues->GetCount(&amp;cVals);
+        hr = pValues->GetCount(&cVals);
     }
 
     if(SUCCEEDED(hr))
@@ -136,7 +136,7 @@ HRESULT PrintSensorProperties(ISensor* pSensor)
         for (DWORD i = 0; i < cVals; i++)
         {
             // Get the value at the current index.
-            hr = pValues->GetAt(i, &amp;pk, &amp;pv);
+            hr = pValues->GetAt(i, &pk, &pv);
 
             if(SUCCEEDED(hr))
             { 
@@ -159,12 +159,12 @@ HRESULT PrintSensorProperties(ISensor* pSensor)
                 }
             }
 
-            PropVariantClear(&amp;pv);
+            PropVariantClear(&pv);
         } // end i loop        
     }
 
-    SafeRelease(&amp;pKeys);
-    SafeRelease(&amp;pValues);
+    SafeRelease(&pKeys);
+    SafeRelease(&pValues);
 
     return hr;
 };
@@ -195,7 +195,7 @@ HRESULT SetCurrentReportInterval(ISensor* pSensor, ULONG ulNewInterval)
     hr = CoCreateInstance(__uuidof(PortableDeviceValues),
                             NULL,
                             CLSCTX_INPROC_SERVER,                           
-                            IID_PPV_ARGS(&amp;pPropsToSet));
+                            IID_PPV_ARGS(&pPropsToSet));
 
     if(SUCCEEDED(hr))
     {
@@ -206,7 +206,7 @@ HRESULT SetCurrentReportInterval(ISensor* pSensor, ULONG ulNewInterval)
     if(SUCCEEDED(hr))
     {
         // Only setting a single property, here.
-        hr = pSensor->SetProperties(pPropsToSet, &amp;pPropsReturn);
+        hr = pSensor->SetProperties(pPropsToSet, &pPropsReturn);
     }
 
     // Test for failure.
@@ -215,7 +215,7 @@ HRESULT SetCurrentReportInterval(ISensor* pSensor, ULONG ulNewInterval)
         HRESULT hrError = S_OK;
       
         // Check results for failure.
-        hr = pPropsReturn->GetErrorValue(SENSOR_PROPERTY_CURRENT_REPORT_INTERVAL, &amp;hrError);
+        hr = pPropsReturn->GetErrorValue(SENSOR_PROPERTY_CURRENT_REPORT_INTERVAL, &hrError);
 
         if(SUCCEEDED(hr))
         {
@@ -231,8 +231,8 @@ HRESULT SetCurrentReportInterval(ISensor* pSensor, ULONG ulNewInterval)
         // No permission. Take appropriate action.
     }
 
-    SafeRelease(&amp;pPropsToSet);
-    SafeRelease(&amp;pPropsReturn);
+    SafeRelease(&pPropsToSet);
+    SafeRelease(&pPropsReturn);
    
     return hr;
 }

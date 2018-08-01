@@ -127,7 +127,7 @@ The following C++ code sample renames a computer system.
 
 
 ```C++
-int set_computer_name(const string &amp;newname/*, const string &amp;username, const string &amp;password*/)
+int set_computer_name(const string &newname/*, const string &username, const string &password*/)
 {
  HRESULT hres;
 
@@ -187,7 +187,7 @@ hres = CoCreateInstance(
  CLSID_WbemLocator, 
  0, 
  CLSCTX_INPROC_SERVER, 
- IID_IWbemLocator, (LPVOID *) &amp;pLoc);
+ IID_IWbemLocator, (LPVOID *) &pLoc);
 
  if (FAILED(hres))
  {
@@ -216,7 +216,7 @@ IWbemServices *pSvc = NULL;
  NULL, // Security flags.
  0, // Authority (e.g. Kerberos)
  0, // Context object 
- &amp;pSvc // pointer to IWbemServices proxy
+ &pSvc // pointer to IWbemServices proxy
  );
 
  if (FAILED(hres))
@@ -272,7 +272,7 @@ if (FAILED(hres))
  bstr_t("SELECT * FROM Win32_ComputerSystem"),
  WBEM_FLAG_FORWARD_ONLY | WBEM_FLAG_RETURN_IMMEDIATELY, 
  NULL,
- &amp;pEnumerator);
+ &pEnumerator);
 
  if (FAILED(hres))
  {
@@ -295,7 +295,7 @@ if (FAILED(hres))
  while (pEnumerator)
  {
  HRESULT hr = pEnumerator->Next(WBEM_INFINITE, 1, 
- &amp;pclsObj, &amp;uReturn);
+ &pclsObj, &uReturn);
 
 
 if(0 == uReturn)
@@ -310,16 +310,16 @@ if(0 == uReturn)
 
 
 IWbemClassObject* pClass = NULL;
- hres = pSvc->GetObject(ClassName, 0, NULL, &amp;pClass, NULL);
+ hres = pSvc->GetObject(ClassName, 0, NULL, &pClass, NULL);
 
 
 IWbemClassObject* pInParamsDefinition = NULL;
  hres = pClass->GetMethod(MethodName, 0, 
- &amp;pInParamsDefinition, NULL);
+ &pInParamsDefinition, NULL);
 
 
 IWbemClassObject* pClassInstance = NULL;
- hres = pInParamsDefinition->SpawnInstance(0, &amp;pClassInstance);
+ hres = pInParamsDefinition->SpawnInstance(0, &pClassInstance);
 
 
 // Create the values for the in parameters
@@ -336,27 +336,27 @@ VARIANT varName;
 
 // Store the value for the in parameters
  hres = pClassInstance->Put(L"Name", 0,
- &amp;varName, 0);
- wprintf(L"Set computer name to %s\n", V_BSTR(&amp;varName));
+ &varName, 0);
+ wprintf(L"Set computer name to %s\n", V_BSTR(&varName));
 
 
 VARIANT var;
  CIMTYPE pType;
  LONG pFlavor;
- pclsObj->Get(L"__PATH",0,&amp;var,&amp;pType,&amp;pFlavor);
+ pclsObj->Get(L"__PATH",0,&var,&pType,&pFlavor);
 
 
 // Execute Method
  IWbemClassObject* pOutParams = NULL;
  hres = pSvc->ExecMethod(var.bstrVal, MethodName, 0,
- NULL, pClassInstance, &amp;pOutParams, NULL);
+ NULL, pClassInstance, &pOutParams, NULL);
 
 
 if (FAILED(hres))
  {
  cout << "Could not execute method. Error code = 0x" 
  << hex << hres << endl;
- VariantClear(&amp;varName);
+ VariantClear(&varName);
  SysFreeString(ClassName);
  SysFreeString(MethodName);
  SysFreeString(NewName);
@@ -369,18 +369,18 @@ if (FAILED(hres))
 
 // To see what the method returned,
  // use the following code. The return value will
- // be in &amp;varReturnValue
+ // be in &varReturnValue
  VARIANT varReturnValue;
  hres = pOutParams->Get(_bstr_t(L"ReturnValue"), 0, 
- &amp;varReturnValue, NULL, 0);
+ &varReturnValue, NULL, 0);
 
 
 
 
  // Clean up
  //--------------------------
- VariantClear(&amp;varName);
- VariantClear(&amp;varReturnValue);
+ VariantClear(&varName);
+ VariantClear(&varReturnValue);
  SysFreeString(ClassName);
  SysFreeString(MethodName);
  SysFreeString(NewName);

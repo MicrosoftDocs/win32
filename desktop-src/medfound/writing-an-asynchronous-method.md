@@ -126,12 +126,12 @@ public:
 
     STDMETHODIMP_(ULONG) AddRef()
     {
-        return InterlockedIncrement(&amp;m_cRef);
+        return InterlockedIncrement(&m_cRef);
     }
 
     STDMETHODIMP_(ULONG) Release()
     {
-        LONG cRef = InterlockedDecrement(&amp;m_cRef);
+        LONG cRef = InterlockedDecrement(&m_cRef);
         if (cRef == 0)
         {
             delete this;
@@ -181,12 +181,12 @@ public:
 
     STDMETHODIMP_(ULONG) AddRef()
     {
-        return InterlockedIncrement(&amp;m_cRef);
+        return InterlockedIncrement(&m_cRef);
     }
 
     STDMETHODIMP_(ULONG) Release()
     {
-        LONG cRef = InterlockedDecrement(&amp;m_cRef);
+        LONG cRef = InterlockedDecrement(&m_cRef);
         if (cRef == 0)
         {
             delete this;
@@ -220,7 +220,7 @@ HRESULT SqrRoot::BeginSquareRoot(double x, IMFAsyncCallback *pCB, IUnknown *pSta
     //   2. The AsyncOp object, which contains the operation data.
     //
 
-    HRESULT hr = MFCreateAsyncResult(pOp, pCB, pState, &amp;pResult);
+    HRESULT hr = MFCreateAsyncResult(pOp, pCB, pState, &pResult);
 
     if (SUCCEEDED(hr))
     {
@@ -270,20 +270,20 @@ STDMETHODIMP SqrRoot::Invoke(IMFAsyncResult* pResult)
 
     // Get the asynchronous result object for the application callback. 
 
-    hr = pResult->GetState(&amp;pState);
+    hr = pResult->GetState(&pState);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pState->QueryInterface(IID_PPV_ARGS(&amp;pCallerResult));
+    hr = pState->QueryInterface(IID_PPV_ARGS(&pCallerResult));
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Get the object that holds the state information for the asynchronous method.
-    hr = pCallerResult->GetObject(&amp;pUnk);
+    hr = pCallerResult->GetObject(&pUnk);
     if (FAILED(hr))
     {
         goto done;
@@ -303,9 +303,9 @@ done:
         MFInvokeCallback(pCallerResult);
     }
 
-    SafeRelease(&amp;pState);
-    SafeRelease(&amp;pUnk);
-    SafeRelease(&amp;pCallerResult);
+    SafeRelease(&pState);
+    SafeRelease(&pUnk);
+    SafeRelease(&pCallerResult);
     return S_OK;
 }
 ```
@@ -345,7 +345,7 @@ HRESULT SqrRoot::EndSquareRoot(IMFAsyncResult *pResult, double *pVal)
         goto done;
     }
 
-    hr = pResult->GetObject(&amp;pUnk);
+    hr = pResult->GetObject(&pUnk);
     if (FAILED(hr))
     {
         goto done;
@@ -357,7 +357,7 @@ HRESULT SqrRoot::EndSquareRoot(IMFAsyncResult *pResult, double *pVal)
     *pVal = pOp->m_value;
 
 done:
-    SafeRelease(&amp;pUnk);
+    SafeRelease(&pUnk);
     return hr;
 }
 ```

@@ -24,10 +24,10 @@ This example uses the following 75 ×75 image to tile a 200 ×200 rectangle:
 
 ```
 Image image(L"HouseAndTree.png");
-TextureBrush tBrush(&amp;image);
+TextureBrush tBrush(&image);
 Pen blackPen(Color(255, 0, 0, 0));
-stat = graphics.FillRectangle(&amp;tBrush, Rect(0, 0, 200, 200));
-stat = graphics.DrawRectangle(&amp;blackPen, Rect(0, 0, 200, 200));
+stat = graphics.FillRectangle(&tBrush, Rect(0, 0, 200, 200));
+stat = graphics.DrawRectangle(&blackPen, Rect(0, 0, 200, 200));
 ```
 
 
@@ -45,11 +45,11 @@ This example uses a 75 ×75 image to fill a 200 ×200 rectangle. The wrap mode i
 
 ```
 Image image(L"HouseAndTree.png");
-TextureBrush tBrush(&amp;image);
+TextureBrush tBrush(&image);
 Pen blackPen(Color(255, 0, 0, 0));
 stat = tBrush.SetWrapMode(WrapModeTileFlipX);
-stat = graphics.FillRectangle(&amp;tBrush, Rect(0, 0, 200, 200));
-stat = graphics.DrawRectangle(&amp;blackPen, Rect(0, 0, 200, 200));
+stat = graphics.FillRectangle(&tBrush, Rect(0, 0, 200, 200));
+stat = graphics.DrawRectangle(&blackPen, Rect(0, 0, 200, 200));
 ```
 
 
@@ -67,11 +67,11 @@ This example uses a 75 ×75 image to fill a 200 ×200 rectangle. The wrap mode i
 
 ```
 Image image(L"HouseAndTree.png");
-TextureBrush tBrush(&amp;image);
+TextureBrush tBrush(&image);
 Pen blackPen(Color(255, 0, 0, 0));
 stat = tBrush.SetWrapMode(WrapModeTileFlipY);
-stat = graphics.FillRectangle(&amp;tBrush, Rect(0, 0, 200, 200));
-stat = graphics.DrawRectangle(&amp;blackPen, Rect(0, 0, 200, 200));
+stat = graphics.FillRectangle(&tBrush, Rect(0, 0, 200, 200));
+stat = graphics.DrawRectangle(&blackPen, Rect(0, 0, 200, 200));
 ```
 
 
@@ -89,11 +89,11 @@ This example uses a 75 ×75 image to tile a 200 ×200 rectangle. The wrap mode i
 
 ```
 Image image(L"HouseAndTree.png");
-TextureBrush tBrush(&amp;image);
+TextureBrush tBrush(&image);
 Pen blackPen(Color(255, 0, 0, 0));
 stat = tBrush.SetWrapMode(WrapModeTileFlipXY);
-stat = graphics.FillRectangle(&amp;tBrush, Rect(0, 0, 200, 200));
-stat = graphics.DrawRectangle(&amp;blackPen, Rect(0, 0, 200, 200));
+stat = graphics.FillRectangle(&tBrush, Rect(0, 0, 200, 200));
+stat = graphics.DrawRectangle(&blackPen, Rect(0, 0, 200, 200));
 ```
 
 

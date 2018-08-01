@@ -89,7 +89,7 @@ void wmain(void)
         goto cleanup;
     }
 
-    if (BuildTextTable(pCounterTextHead, pHelpTextHead, &amp;pTextOffsets, &amp;dwNumberOfOffsets))
+    if (BuildTextTable(pCounterTextHead, pHelpTextHead, &pTextOffsets, &dwNumberOfOffsets))
     {
         PrintCounterAndHelpText(pCounterTextHead, pHelpTextHead, pTextOffsets, dwNumberOfOffsets);
     }
@@ -123,7 +123,7 @@ LPWSTR GetText(LPWSTR pwszSource)
     LONG status = ERROR_SUCCESS;
 
     // Query the size of the text data so you can allocate the buffer.
-    status = RegQueryValueEx(HKEY_PERFORMANCE_NLSTEXT, pwszSource, NULL, NULL, NULL, &amp;dwBufferSize);
+    status = RegQueryValueEx(HKEY_PERFORMANCE_NLSTEXT, pwszSource, NULL, NULL, NULL, &dwBufferSize);
     if (ERROR_SUCCESS != status)
     {
         wprintf(L"RegQueryValueEx failed getting required buffer size. Error is 0x%x.\n", status);
@@ -134,7 +134,7 @@ LPWSTR GetText(LPWSTR pwszSource)
     pBuffer = (LPWSTR)malloc(dwBufferSize);
     if (pBuffer)
     {
-        status = RegQueryValueEx(HKEY_PERFORMANCE_NLSTEXT, pwszSource, NULL, NULL, (LPBYTE)pBuffer, &amp;dwBufferSize);
+        status = RegQueryValueEx(HKEY_PERFORMANCE_NLSTEXT, pwszSource, NULL, NULL, (LPBYTE)pBuffer, &dwBufferSize);
         if (ERROR_SUCCESS != status)
         {
             wprintf(L"RegQueryValueEx failed with 0x%x.\n", status);
@@ -210,7 +210,7 @@ BOOL BuildTextTable(LPWSTR pCounterHead, LPWSTR pHelpHead, LPDWORD* pOffsetsHead
             //   6                    7
             //                        9   (skip because there is no matching Counter index)
             //   10                   11
-            while (*pwszHelpText &amp;&amp; dwHelpIndex < dwCounterIndex)
+            while (*pwszHelpText && dwHelpIndex < dwCounterIndex)
             {
                 pwszHelpText += (wcslen(pwszHelpText)+1);  // Skip past index value
                 pwszHelpText += (wcslen(pwszHelpText)+1);  // Skip past help text to the next index value
@@ -250,7 +250,7 @@ DWORD GetNumberOfTextEntries(LPWSTR pwszSource)
         L"SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Perflib",
         0,
         KEY_READ,
-        &amp;hkey);
+        &hkey);
     
     if (ERROR_SUCCESS != status)
     {
@@ -258,7 +258,7 @@ DWORD GetNumberOfTextEntries(LPWSTR pwszSource)
         goto cleanup;
     }
 
-    status = RegQueryValueEx(hkey, pwszSource, NULL, 0, (LPBYTE)&amp;dwEntries, &amp;dwSize);
+    status = RegQueryValueEx(hkey, pwszSource, NULL, 0, (LPBYTE)&dwEntries, &dwSize);
 
     if (ERROR_SUCCESS != status)
     {
@@ -339,7 +339,7 @@ void wmain(void)
         goto cleanup;
     }
 
-    if (BuildTextTable(pCounterTextHead, pHelpTextHead, &amp;pTextOffsets, &amp;dwNumberOfOffsets))
+    if (BuildTextTable(pCounterTextHead, pHelpTextHead, &pTextOffsets, &dwNumberOfOffsets))
     {
         PrintCounterAndHelpText(pCounterTextHead, pHelpTextHead, pTextOffsets, dwNumberOfOffsets);
     }
@@ -387,7 +387,7 @@ LPWSTR GetText(LPWSTR pwszSource)
     StringCchPrintf(wszSourceAndLangId, 15, L"%s %d", pwszSource, langid);
 
     // Query the size of the text data so you can allocate the buffer.
-    status = RegQueryValueEx(HKEY_PERFORMANCE_DATA, wszSourceAndLangId, NULL, NULL, NULL, &amp;dwBufferSize);
+    status = RegQueryValueEx(HKEY_PERFORMANCE_DATA, wszSourceAndLangId, NULL, NULL, NULL, &dwBufferSize);
     if (ERROR_SUCCESS != status)
     {
         wprintf(L"RegQueryValueEx failed getting required buffer size. Error is 0x%x.\n", status);
@@ -398,7 +398,7 @@ LPWSTR GetText(LPWSTR pwszSource)
     pBuffer = (LPWSTR)malloc(dwBufferSize);
     if (pBuffer)
     {
-        status = RegQueryValueEx(HKEY_PERFORMANCE_DATA, wszSourceAndLangId, NULL, NULL, (LPBYTE)pBuffer, &amp;dwBufferSize);
+        status = RegQueryValueEx(HKEY_PERFORMANCE_DATA, wszSourceAndLangId, NULL, NULL, (LPBYTE)pBuffer, &dwBufferSize);
         if (ERROR_SUCCESS != status)
         {
             wprintf(L"RegQueryValueEx failed with 0x%x.\n", status);
@@ -429,16 +429,16 @@ LANGID GetLanguageId()
     WORD primary = 0;   // Primary language identifier.
     OSVERSIONINFO osvi;
 
-    ZeroMemory(&amp;osvi, sizeof(OSVERSIONINFO));
+    ZeroMemory(&osvi, sizeof(OSVERSIONINFO));
     osvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFO);
 
-    if (GetVersionEx(&amp;osvi))
+    if (GetVersionEx(&osvi))
     {
         langid = GetUserDefaultUILanguage();
         primary = PRIMARYLANGID(langid);
 
-        if ( (LANG_PORTUGUESE == primary &amp;&amp; osvi.dwBuildNumber > 5) || // Windows Vista and later
-             (LANG_CHINESE == primary &amp;&amp; (osvi.dwMajorVersion == 5 &amp;&amp; osvi.dwMinorVersion >= 1)) ) // XP and Windows Server 2003
+        if ( (LANG_PORTUGUESE == primary && osvi.dwBuildNumber > 5) || // Windows Vista and later
+             (LANG_CHINESE == primary && (osvi.dwMajorVersion == 5 && osvi.dwMinorVersion >= 1)) ) // XP and Windows Server 2003
         {
             ; //Use the complete language identifier.
         }
@@ -511,7 +511,7 @@ BOOL BuildTextTable(LPWSTR pCounterHead, LPWSTR pHelpHead, LPDWORD* pOffsetsHead
             //   6                    7
             //                        9   (skip because there is no matching Counter index)
             //   10                   11
-            while (*pwszHelpText &amp;&amp; dwHelpIndex < dwCounterIndex)
+            while (*pwszHelpText && dwHelpIndex < dwCounterIndex)
             {
                 pwszHelpText += (wcslen(pwszHelpText)+1);  // Skip past index value
                 pwszHelpText += (wcslen(pwszHelpText)+1);  // Skip past help text to the next index value
@@ -551,7 +551,7 @@ DWORD GetNumberOfTextEntries(LPWSTR pwszSource)
         L"SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Perflib",
         0,
         KEY_READ,
-        &amp;hkey);
+        &hkey);
     
     if (ERROR_SUCCESS != status)
     {
@@ -559,7 +559,7 @@ DWORD GetNumberOfTextEntries(LPWSTR pwszSource)
         goto cleanup;
     }
 
-    status = RegQueryValueEx(hkey, pwszSource, NULL, 0, (LPBYTE)&amp;dwEntries, &amp;dwSize);
+    status = RegQueryValueEx(hkey, pwszSource, NULL, 0, (LPBYTE)&dwEntries, &dwSize);
 
     if (ERROR_SUCCESS != status)
     {

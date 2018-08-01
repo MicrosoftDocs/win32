@@ -87,7 +87,7 @@ HRESULT CPlayer::CreateSession()
     assert(m_state == Closed);
 
     // Create the media session.
-    hr = MFCreateMediaSession(NULL, &amp;m_pSession);
+    hr = MFCreateMediaSession(NULL, &m_pSession);
     if (FAILED(hr))
     {
         goto done;
@@ -137,7 +137,7 @@ After all of the topologies are added to the sequencer source, the application m
         hr = m_pSequencerSource->AppendTopology(
             pTopology, 
             SequencerTopologyFlags_Last, 
-            &amp;SegmentId
+            &SegmentId
             );
     ```
 
@@ -192,13 +192,13 @@ HRESULT CPlaylist::QueueNextSegment(IMFPresentationDescriptor *pPD)
     IMFTopology *pTopology = NULL;
 
     //Get the topology for the presentation descriptor
-    HRESULT hr = m_pSequencerSource->QueryInterface(IID_PPV_ARGS(&amp;pTopoProvider));
+    HRESULT hr = m_pSequencerSource->QueryInterface(IID_PPV_ARGS(&pTopoProvider));
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pTopoProvider->GetMediaSourceTopology(pPD, &amp;pTopology);
+    hr = pTopoProvider->GetMediaSourceTopology(pPD, &pTopology);
     if (FAILED(hr))
     {
         goto done;
@@ -208,8 +208,8 @@ HRESULT CPlaylist::QueueNextSegment(IMFPresentationDescriptor *pPD)
     m_pSession->SetTopology(NULL, pTopology);
 
 done:
-    SafeRelease(&amp;pTopoProvider);
-    SafeRelease(&amp;pTopology);
+    SafeRelease(&pTopoProvider);
+    SafeRelease(&pTopology);
     return hr;
 }
 ```
@@ -238,7 +238,7 @@ HRESULT CPlaylist::OnNewPresentation(IMFMediaEvent *pEvent)
 {
     IMFPresentationDescriptor *pPD = NULL;
 
-    HRESULT hr = GetEventObject(pEvent, &amp;pPD);
+    HRESULT hr = GetEventObject(pEvent, &pPD);
 
     if (SUCCEEDED(hr))
     {
@@ -246,7 +246,7 @@ HRESULT CPlaylist::OnNewPresentation(IMFMediaEvent *pEvent)
         hr = QueueNextSegment(pPD);
     }
 
-    SafeRelease(&amp;pPD);
+    SafeRelease(&pPD);
     return hr;
 }
 ```

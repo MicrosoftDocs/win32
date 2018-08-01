@@ -105,7 +105,7 @@ HRESULT PrintAllUsers(LPCWSTR pwszDN,
     
     // Get a memory allocator for allocating and freeing memory.
     CComPtr<IMalloc> spMalloc;
-    hr = CoGetMalloc(1, &amp;spMalloc);
+    hr = CoGetMalloc(1, &spMalloc);
     if(S_OK != hr)
     {
         return hr;
@@ -116,7 +116,7 @@ HRESULT PrintAllUsers(LPCWSTR pwszDN,
         NULL, 
         CLSCTX_INPROC_SERVER, 
         IID_IDBInitialize, 
-        (void**)&amp;spDBInitialize);
+        (void**)&spDBInitialize);
     if(S_OK != hr)
     {
         return hr;
@@ -124,7 +124,7 @@ HRESULT PrintAllUsers(LPCWSTR pwszDN,
 
     // Get the IDBProperties interface.
     hr = spDBInitialize->QueryInterface(IID_IDBProperties, 
-        (void**)&amp;spDBProperties);
+        (void**)&spDBProperties);
     if(S_OK != hr)
     {
         return hr;
@@ -133,7 +133,7 @@ HRESULT PrintAllUsers(LPCWSTR pwszDN,
     // Initialize the OLE DB property initializer structures.
     for(UINT i = 0; i < 3; i++ )
     {
-        VariantInit(&amp;InitProperties[i].vValue);
+        VariantInit(&InitProperties[i].vValue);
         InitProperties[i].dwOptions = DBPROPOPTIONS_REQUIRED;
         InitProperties[i].colid = DB_NULLID;
     }
@@ -161,7 +161,7 @@ HRESULT PrintAllUsers(LPCWSTR pwszDN,
     InitPropSet.rgProperties = InitProperties;
      
     // Set initialization properties.
-    hr = spDBProperties->SetProperties(1, &amp;InitPropSet);
+    hr = spDBProperties->SetProperties(1, &InitPropSet);
     if(S_OK != hr)
     {
         return hr;
@@ -176,7 +176,7 @@ HRESULT PrintAllUsers(LPCWSTR pwszDN,
 
     // Get the IDBCreateSession interface.
     hr = spDBInitialize->QueryInterface(IID_IDBCreateSession, 
-        (void**)&amp;spCreateSession);
+        (void**)&spCreateSession);
     if(S_OK != hr)
     {
         return hr;
@@ -185,7 +185,7 @@ HRESULT PrintAllUsers(LPCWSTR pwszDN,
     // Create an IDBCreateCommand object.
     hr = spCreateSession->CreateSession(NULL, 
         IID_IDBCreateCommand, 
-        (IUnknown**)&amp;spCreateCommand);
+        (IUnknown**)&spCreateCommand);
     if(S_OK != hr)
     {
         return hr;
@@ -195,7 +195,7 @@ HRESULT PrintAllUsers(LPCWSTR pwszDN,
     // the ICreateCommand Interface.
     hr = spCreateCommand->CreateCommand(NULL, 
         IID_ICommandText, 
-        (IUnknown**)&amp;spCommandText);
+        (IUnknown**)&spCommandText);
     if(S_OK != hr)
     {
         return hr;
@@ -226,8 +226,8 @@ HRESULT PrintAllUsers(LPCWSTR pwszDN,
     hr= spCommandText->Execute(NULL, 
         IID_IRowset,
         NULL, 
-        &amp;cRows,
-        (IUnknown**)&amp;spRowset);
+        &cRows,
+        (IUnknown**)&spRowset);
 
     if(DB_SEC_E_PERMISSIONDENIED == hr)
     {
@@ -246,7 +246,7 @@ HRESULT PrintAllUsers(LPCWSTR pwszDN,
     data of the result set.
     */
     hr = spRowset->QueryInterface(IID_IColumnsInfo, 
-                                  (void**)&amp;spColumnsInfo);
+                                  (void**)&spColumnsInfo);
     if(S_OK != hr)
     {
         return hr;
@@ -256,9 +256,9 @@ HRESULT PrintAllUsers(LPCWSTR pwszDN,
     Use the IColumnsInfo::GetColumnInfo method to get 
     the column data from the command object.
     */
-    hr = spColumnsInfo->GetColumnInfo(&amp;cColumns, 
-        &amp;rgDBColumnInfo, 
-        &amp;pStringsBuffer);
+    hr = spColumnsInfo->GetColumnInfo(&cColumns, 
+        &rgDBColumnInfo, 
+        &pStringsBuffer);
     if(S_OK != hr)
     {
         goto PrintAllUsers_cleanup;
@@ -300,7 +300,7 @@ HRESULT PrintAllUsers(LPCWSTR pwszDN,
     cMaxRowSize = dwOffset;
 
     // Get the IAccessor interface from the rowset.
-    hr = spRowset->QueryInterface(IID_IAccessor, (void**)&amp;spAccessor);
+    hr = spRowset->QueryInterface(IID_IAccessor, (void**)&spAccessor);
     if(S_OK != hr)
     {
         goto PrintAllUsers_cleanup;
@@ -315,7 +315,7 @@ HRESULT PrintAllUsers(LPCWSTR pwszDN,
         ulBind, 
         rgBind, 
         0, 
-        &amp;hAccessor,
+        &hAccessor,
         NULL);
     if(S_OK != hr)
     {
@@ -345,9 +345,9 @@ HRESULT PrintAllUsers(LPCWSTR pwszDN,
             0,
             0,
             NUMROWS_CHUNK,
-            &amp;cRowsObtained,
-            &amp;rgRowHandles);
-        if(SUCCEEDED(hr) &amp;&amp; (cRowsObtained > 0))
+            &cRowsObtained,
+            &rgRowHandles);
+        if(SUCCEEDED(hr) && (cRowsObtained > 0))
         {
             // Loop through the rows obtained,
             // getting the data for each.

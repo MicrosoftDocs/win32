@@ -32,7 +32,7 @@ The **Modify** method updates a Text (TXT) Resource Record.
 void Modify(
   [in, optional] uint32               TTL,
   [in]           string               DescriptiveText,
-  [out, ref]     MicrosoftDNS_TXTType &amp;RR
+  [out, ref]     MicrosoftDNS_TXTType &RR
 );
 ```
 

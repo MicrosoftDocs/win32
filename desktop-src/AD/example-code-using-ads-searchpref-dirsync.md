@@ -82,7 +82,7 @@ HRESULT DoDirSyncSearch(
     
     LPOLESTR szDSPath = new OLECHAR[MAX_PATH];
     LPOLESTR szServerPath = new OLECHAR[MAX_PATH];
-    VariantInit(&amp;var);
+    VariantInit(&var);
     
     //  If cookie is non-NULL, this is an update. Otherwise, it is a full-read.
     if (*ppCookie)
@@ -106,7 +106,7 @@ HRESULT DoDirSyncSearch(
     wprintf(L"RootDSE binding string: %s\n", szDSPath);
     hr = ADsGetObject(szDSPath, 
                   IID_IADs,
-                  (void**)&amp;pRootDSE);
+                  (void**)&pRootDSE);
     if (FAILED(hr)) 
     {
         wprintf(L"failed to bind to rootDSE: 0x%x\n", hr);
@@ -117,17 +117,17 @@ HRESULT DoDirSyncSearch(
     //  the same DC on the next dirsync operation.
     if (! szDC[0])
     {
-        hr = pRootDSE->Get(CComBSTR("DnsHostName"), &amp;var);
+        hr = pRootDSE->Get(CComBSTR("DnsHostName"), &var);
         wcsncpy_s(szServerPath,MAX_PATH,L"LDAP://",MAX_PATH);
         wcsncat_s(szServerPath, MAX_PATH,var.bstrVal, MAX_PATH-wcslen(szServerPath));
         wcsncat_s(szServerPath, MAX_PATH,L"/", MAX_PATH-wcslen(szServerPath));
     }
     
     //  Get an IDirectorySearch pointer to the root of the domain partition.
-    hr = pRootDSE->Get(CComBSTR("defaultNamingContext"), &amp;var);
+    hr = pRootDSE->Get(CComBSTR("defaultNamingContext"), &var);
     wcsncpy_s(szDSPath,MAX_PATH,szServerPath,MAX_PATH);
     wcsncat_s(szDSPath, MAX_PATH,var.bstrVal, MAX_PATH - wcslen(szDSPath));
-    hr = ADsGetObject(szDSPath, IID_IDirectorySearch, (void**) &amp;pSearch);
+    hr = ADsGetObject(szDSPath, IID_IDirectorySearch, (void**) &pSearch);
     if (FAILED(hr)) 
     {
         wprintf(L"failed to get IDirectorySearch: 0x%x\n", hr);
@@ -155,7 +155,7 @@ HRESULT DoDirSyncSearch(
     
     // Search for the objects indicated by the search filter.
     hr = pSearch->ExecuteSearch(pszSearchFilter,
-                    pAttributeNames, dwAttributes, &amp;hSearch );
+                    pAttributeNames, dwAttributes, &hSearch );
     if (FAILED(hr)) 
     {
         wprintf(L"failed to set execute search: 0x%x\n", hr);
@@ -165,9 +165,9 @@ HRESULT DoDirSyncSearch(
     //  Loop through the rows of the search result
     //  Each row is an object that has changed since the previous call.
     hr = pSearch->GetNextRow( hSearch);
-    while ( SUCCEEDED(hr) &amp;&amp; hr != S_ADS_NOMORE_ROWS )
+    while ( SUCCEEDED(hr) && hr != S_ADS_NOMORE_ROWS )
     {
-        ZeroMemory(&amp;userdata, sizeof(MyUserData) );
+        ZeroMemory(&userdata, sizeof(MyUserData) );
         
         //  Retrieve the attributes for each object.
         //  With a DirSync search, a GetColumn call can return success even
@@ -175,47 +175,47 @@ HRESULT DoDirSyncSearch(
         //  happens, col.pADsValues is NULL; the following code checks
         //  col.pADsValues before trying to access it.
         //  Get the telephone number.
-        hr = pSearch->GetColumn( hSearch, L"telephoneNumber", &amp;col );
+        hr = pSearch->GetColumn( hSearch, L"telephoneNumber", &col );
         if ( SUCCEEDED(hr) ) 
         {
-            if (col.dwADsType == ADSTYPE_CASE_IGNORE_STRING &amp;&amp; col.pADsValues)
+            if (col.dwADsType == ADSTYPE_CASE_IGNORE_STRING && col.pADsValues)
                 wcscpy_s(userdata.phoneNumber, col.pADsValues->CaseIgnoreString);
-            pSearch->FreeColumn( &amp;col );
+            pSearch->FreeColumn( &col );
         }
         
         //  Get the isDeleted attribute.
-        hr = pSearch->GetColumn( hSearch, L"isDeleted", &amp;col );
+        hr = pSearch->GetColumn( hSearch, L"isDeleted", &col );
         if ( SUCCEEDED(hr) ) 
         {
-            if (col.dwADsType == ADSTYPE_BOOLEAN &amp;&amp; col.pADsValues)
+            if (col.dwADsType == ADSTYPE_BOOLEAN && col.pADsValues)
                 userdata.isDeleted = col.pADsValues->Boolean;
-            pSearch->FreeColumn( &amp;col );
+            pSearch->FreeColumn( &col );
         }
         
         //  Get the ADsPath.
-        hr = pSearch->GetColumn( hSearch, L"ADsPath", &amp;col );
+        hr = pSearch->GetColumn( hSearch, L"ADsPath", &col );
         if ( SUCCEEDED(hr) ) 
         {
-            if (col.dwADsType == ADSTYPE_CASE_IGNORE_STRING &amp;&amp; col.pADsValues)
+            if (col.dwADsType == ADSTYPE_CASE_IGNORE_STRING && col.pADsValues)
                 wcscpy_s(userdata.ADsPath, col.pADsValues->CaseIgnoreString);
-            pSearch->FreeColumn( &amp;col );
+            pSearch->FreeColumn( &col );
         }
         
         //  Get the objectGUID number.
-        hr = pSearch->GetColumn( hSearch, L"objectGUID", &amp;col );
+        hr = pSearch->GetColumn( hSearch, L"objectGUID", &col );
         if ( SUCCEEDED(hr) ) 
         {
             WCHAR szGUID[40]; //  string version of the objectGUID attribute
-            if ((col.dwADsType == ADSTYPE_OCTET_STRING) &amp;&amp; col.pADsValues &amp;&amp;
+            if ((col.dwADsType == ADSTYPE_OCTET_STRING) && col.pADsValues &&
                 (col.pADsValues->OctetString.lpValue))
             {
                 BuildGUIDString(szGUID, (LPBYTE) col.pADsValues->OctetString.lpValue);
                 wcscpy_s(userdata.objectGUID, szGUID);
             }
-            pSearch->FreeColumn( &amp;col );
+            pSearch->FreeColumn( &col );
         }
         
-        WriteObjectDataToStorage(&amp;userdata, bUpdate);
+        WriteObjectDataToStorage(&userdata, bUpdate);
         dwCount++;
         hr = pSearch->GetNextRow( hSearch);
     }
@@ -224,9 +224,9 @@ HRESULT DoDirSyncSearch(
     //  After looping through the results, get the cookie.
     if (hr == S_ADS_NOMORE_ROWS ) 
     {
-        hr = pSearch->GetColumn( hSearch, ADS_DIRSYNC_COOKIE, &amp;col );
+        hr = pSearch->GetColumn( hSearch, ADS_DIRSYNC_COOKIE, &col );
         if ( SUCCEEDED(hr) ) {
-            if (col.dwADsType == ADSTYPE_PROV_SPECIFIC &amp;&amp; col.pADsValues) 
+            if (col.dwADsType == ADSTYPE_PROV_SPECIFIC && col.pADsValues) 
             {
                 wprintf(L"Got cookie\n");
                 *pulCookieLength = col.pADsValues->ProviderSpecific.dwLength;
@@ -234,7 +234,7 @@ HRESULT DoDirSyncSearch(
                 memcpy(*ppCookie, col.pADsValues->ProviderSpecific.lpValue, 
                     *pulCookieLength);
             }
-            pSearch->FreeColumn( &amp;col );
+            pSearch->FreeColumn( &col );
         } else
             wprintf(L"no cookie: 0x%x\n", hr);
     }
@@ -247,7 +247,7 @@ cleanup:
     if (pSearch)
         pSearch->Release();
 
-    VariantClear(&amp;var);
+    VariantClear(&var);
     CoUninitialize();
     delete [] szServerPath;
     delete [] szDSPath;
@@ -294,7 +294,7 @@ DWORD WriteCookieAndDCtoStorage(UCHAR *pCookie,
                              REG_OPTION_NON_VOLATILE,
                              KEY_ALL_ACCESS,
                              NULL,
-                             &amp;hReg,
+                             &hReg,
                              NULL);
     if (dwStat != NO_ERROR) 
     {
@@ -310,7 +310,7 @@ DWORD WriteCookieAndDCtoStorage(UCHAR *pCookie,
 
     //  Cache the cookie length as a value under the registry key.
     dwStat = RegSetValueExW(hReg, L"Cookie Length", 0, REG_DWORD,
-                            (const BYTE *)&amp;ulLength, sizeof(DWORD) );
+                            (const BYTE *)&ulLength, sizeof(DWORD) );
     if (dwStat != NO_ERROR)
         wprintf(L"RegSetValueEx for cookie length failed: 0x%x\n", dwStat);
 
@@ -337,7 +337,7 @@ DWORD GetCookieAndDCfromStorage(PUCHAR *ppCookie,        //  Receives pointer to
                            L"Software\\Microsoft\\Windows 2000 AD-Synchro-DirSync",
                            0,
                            KEY_QUERY_VALUE,
-                           &amp;hReg);
+                           &hReg);
     if (dwStat != NO_ERROR) 
     {
         wprintf(L"RegOpenKeyEx failed: 0x%x\n", dwStat);
@@ -347,7 +347,7 @@ DWORD GetCookieAndDCfromStorage(PUCHAR *ppCookie,        //  Receives pointer to
     //  Get the length of the cookie from the registry.
     dwLen = sizeof(DWORD);
     dwStat = RegQueryValueExW(hReg, L"Cookie Length", NULL, NULL, 
-                              (LPBYTE)pulCookieLength, &amp;dwLen );
+                              (LPBYTE)pulCookieLength, &dwLen );
     if (dwStat != NO_ERROR) {
         wprintf(L"RegQueryValueEx failed to get length: 0x%x\n", dwStat);
         return dwStat;
@@ -372,7 +372,7 @@ DWORD GetCookieAndDCfromStorage(PUCHAR *ppCookie,        //  Receives pointer to
     //  Get the DC name from the registry.
     dwLen = MAX_PATH;
     dwStat = RegQueryValueExW(hReg, L"DC name", NULL, NULL, 
-                              (LPBYTE)pszDCName, &amp;dwLen );
+                              (LPBYTE)pszDCName, &dwLen );
     if (dwStat != NO_ERROR) {
         wprintf(L"RegQueryValueEx failed to get DC name: 0x%x\n", dwStat);
         return dwStat;
@@ -424,7 +424,7 @@ int main(int argc, char* argv[])
         //  Perform an incremental synchronization.
         //  Initialize synchronization parameters from storage.
         wprintf(L"Retrieving changes only.\n");
-        dwStat = GetCookieAndDCfromStorage(&amp;pCookie, &amp;ulLength, szDCName);
+        dwStat = GetCookieAndDCfromStorage(&pCookie, &ulLength, szDCName);
         if (dwStat != NO_ERROR) 
         {
             wprintf(L"Could not get the cookie: %u\n", dwStat);
@@ -436,8 +436,8 @@ int main(int argc, char* argv[])
     hr = DoDirSyncSearch(L"(objectClass=user)",
                          NULL,       //  Retrieve all attributes.
                          -1, 
-                         &amp;pCookie, 
-                         &amp;ulLength,
+                         &pCookie, 
+                         &ulLength,
                          szDCName);
     if (FAILED(hr)) 
     {

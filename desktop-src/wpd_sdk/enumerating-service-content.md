@@ -52,7 +52,7 @@ void EnumerateAllContent(
 
     // Get an IPortableDeviceContent2 interface from the IPortableDeviceService interface to
     // access the content-specific methods.
-    hr = pService->Content(&amp;pContent);
+    hr = pService->Content(&pContent);
     if (FAILED(hr))
     {
         printf("! Failed to get IPortableDeviceContent2 from IPortableDeviceService, hr = 0x%lx\n",hr);
@@ -89,7 +89,7 @@ void RecursiveEnumerate(
     HRESULT hr = pContent->EnumObjects(0,               // Flags are unused
                                        pszObjectID,     // Starting from the passed in object
                                        NULL,            // Filter is unused
-                                       &amp;pEnumObjectIDs);
+                                       &pEnumObjectIDs);
     if (FAILED(hr))
     {
         printf("! Failed to get IEnumPortableDeviceObjectIDs from IPortableDeviceContent2, hr = 0x%lx\n",hr);
@@ -102,7 +102,7 @@ void RecursiveEnumerate(
         PWSTR  szObjectIDArray[NUM_OBJECTS_TO_REQUEST] = {0};
         hr = pEnumObjectIDs->Next(NUM_OBJECTS_TO_REQUEST,   // Number of objects to request on each NEXT call
                                   szObjectIDArray,          // Array of PWSTR array which will be populated on each NEXT call
-                                  &amp;cFetched);               // Number of objects written to the PWSTR array
+                                  &cFetched);               // Number of objects written to the PWSTR array
         if (SUCCEEDED(hr))
         {
             // Traverse the results of the Next() operation and recursively enumerate

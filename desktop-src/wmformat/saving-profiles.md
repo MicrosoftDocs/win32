@@ -42,7 +42,7 @@ HRESULT ProfileToFile(IWMProfileManager* pProfileMgr,
     // First, retrieve the size of the string required.
     hr = pProfileMgr->SaveProfile(pProfile, 
                                   NULL, 
-                                  &amp;cchProfileString);
+                                  &cchProfileString);
     if(FAILED(hr))
     {
         printf("Could not get the profile string size.");
@@ -61,7 +61,7 @@ HRESULT ProfileToFile(IWMProfileManager* pProfileMgr,
     // Retrieve the string.
     hr = pProfileMgr->SaveProfile(pProfile, 
                                   pwszProfileString, 
-                                  &amp;cchProfileString);
+                                  &cchProfileString);
     if(FAILED(hr))
     {
         printf("Could not save the profile string.");

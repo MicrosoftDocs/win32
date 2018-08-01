@@ -44,8 +44,8 @@ LRESULT APIENTRY MainWndProc(
     switch (message) 
     { 
         case WM_PAINT: 
-            hdc = BeginPaint(hwnd, &amp;ps); 
-            EndPaint(hwnd, &amp;ps); 
+            hdc = BeginPaint(hwnd, &ps); 
+            EndPaint(hwnd, &ps); 
             break; 
  
         case WM_COMMAND:     // command from app's menu  
@@ -53,8 +53,8 @@ LRESULT APIENTRY MainWndProc(
             { 
                 case IDM_VANISH:  // erases client area  
                     hdc = GetDC(hwnd); 
-                    GetClientRect(hwnd, &amp;rc); 
-                    FillRect(hdc, &amp;rc, GetStockObject(WHITE_BRUSH)); 
+                    GetClientRect(hwnd, &rc); 
+                    FillRect(hdc, &rc, GetStockObject(WHITE_BRUSH)); 
                     ReleaseDC(hwnd, hdc); 
                     break; 
  
@@ -94,7 +94,7 @@ LRESULT APIENTRY MainWndProc(
                     // Retrieve the dimensions of the rectangle  
                     // that surrounds the text.  
  
-                    GetTextExtentPoint32(hdc, "Clip Path", 9, &amp;sz); 
+                    GetTextExtentPoint32(hdc, "Clip Path", 9, &sz); 
  
                     // Set a clipping region using the rect that  
                     // surrounds the text.  
@@ -165,7 +165,7 @@ LRESULT APIENTRY MainWndProc(
  
                     cf.lStructSize = sizeof (CHOOSEFONT); 
                     cf.hwndOwner = hwnd; 
-                    cf.lpLogFont = &amp;lf; 
+                    cf.lpLogFont = &lf; 
                     cf.Flags = CF_SCREENFONTS | CF_EFFECTS; 
                     cf.rgbColors = RGB(0, 255, 255); 
                     cf.nFontType = SCREEN_FONTTYPE; 
@@ -174,7 +174,7 @@ LRESULT APIENTRY MainWndProc(
                     // to choose a font, and render text in the  
                     // window with that selection.  
  
-                    if (ChooseFont(&amp;cf)) 
+                    if (ChooseFont(&cf)) 
                     { 
                         hdc = GetDC(hwnd); 
                         hfont = CreateFontIndirect(cf.lpLogFont); 

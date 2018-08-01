@@ -20,13 +20,13 @@ HRESULT CGrayProp::OnActivate(void)
     INITCOMMONCONTROLSEX icc;
     icc.dwSize = sizeof(INITCOMMONCONTROLSEX);
     icc.dwICC = ICC_BAR_CLASSES;
-    if (InitCommonControlsEx(&amp;icc) == FALSE)
+    if (InitCommonControlsEx(&icc) == FALSE)
     {
         return E_FAIL;
     }
 
     ASSERT(m_pGray != NULL);
-    HRESULT hr = m_pGray->GetSaturation(&amp;m_lVal);
+    HRESULT hr = m_pGray->GetSaturation(&m_lVal);
     if (SUCCEEDED(hr))
     {
         SendDlgItemMessage(m_Dlg, IDC_SLIDER1, TBM_SETRANGE, 0,

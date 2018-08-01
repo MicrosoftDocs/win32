@@ -16,7 +16,7 @@ The `stackedby` argument specifies the property column to stack results by. You 
 
 
 ```
-search:query=vacation&amp;stackedby=System.Author
+search:query=vacation&stackedby=System.Author
 ```
 
 

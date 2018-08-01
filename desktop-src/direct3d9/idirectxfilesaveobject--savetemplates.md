@@ -72,9 +72,9 @@ The following code fragment provides an example call to **IDirectXFileSaveObject
 IDirectXFileSaveObject * pDXFileSaveObject;
     
 const GUID *aIds[] = {
-    &amp;DXFILEOBJ_SimpleData,
-    &amp;DXFILEOBJ_ArrayData,
-    &amp;DXFILEOBJ_RestrictedData};
+    &DXFILEOBJ_SimpleData,
+    &DXFILEOBJ_ArrayData,
+    &DXFILEOBJ_RestrictedData};
     
 hr = pDXFileSaveObject->SaveTemplates(3, aIds);
 ```

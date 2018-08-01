@@ -35,7 +35,7 @@ To write a Windows Media file, do the following:
     ```C++
     ICaptureGraphBuilder2 *pBuild = 0;
     hr = CoCreateInstance(CLSID_CaptureGraphBuilder2, 0, CLSCTX_INPROC_SERVER,
-        IID_ICaptureGraphBuilder2, (void**)&amp;pBuild);
+        IID_ICaptureGraphBuilder2, (void**)&pBuild);
     pBuild->SetFiltergraph(pGraph); 
     ```
 
@@ -45,11 +45,11 @@ To write a Windows Media file, do the following:
 
     ```C++
     long cGroups = 0;
-    hr = pTimeline->GetGroupCount(&amp;cGroups);
+    hr = pTimeline->GetGroupCount(&cGroups);
     for (long i = 0; i < cGroups; i++)
     {
         IPin *pPin;
-        hr = pRenderEngine->GetGroupOutputPin(i, &amp;pPin);
+        hr = pRenderEngine->GetGroupOutputPin(i, &pPin);
         if (SUCCEEDED(hr))
         {
             hr = pBuild->RenderStream(0, 0, pPin, 0, pASF);

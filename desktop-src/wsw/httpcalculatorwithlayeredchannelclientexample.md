@@ -58,7 +58,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -66,7 +66,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -101,7 +101,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -113,7 +113,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -125,7 +125,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     WS_CHANNEL_PROPERTY channelPropertyArray[1];
     BOOL enableTimeouts = FALSE;
     channelPropertyArray[0].id = WS_CHANNEL_PROPERTY_ENABLE_TIMEOUTS;
-    channelPropertyArray[0].value = &amp;enableTimeouts;
+    channelPropertyArray[0].value = &enableTimeouts;
     channelPropertyArray[0].valueSize = sizeof(enableTimeouts);
     
     // Set up channel properties for the custom channel
@@ -133,7 +133,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     // Set up channel property that specifies the callbacks that implement the custom channel
     customChannelPropertyArray[0].id = WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_CALLBACKS;
-    customChannelPropertyArray[0].value = &amp;layeredChannelCallbacks;
+    customChannelPropertyArray[0].value = &layeredChannelCallbacks;
     customChannelPropertyArray[0].valueSize = sizeof(layeredChannelCallbacks);
     
     // Initialize parameters to pass to the layered channel.
@@ -150,7 +150,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     // Specify the channel parameters as a channel property
     customChannelPropertyArray[1].id = WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS;
-    customChannelPropertyArray[1].value = &amp;layeredChannelParameters;
+    customChannelPropertyArray[1].value = &layeredChannelParameters;
     customChannelPropertyArray[1].valueSize = sizeof(layeredChannelParameters);
     
     
@@ -163,7 +163,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         0, 
         customChannelPropertyArray,
         WsCountOf(customChannelPropertyArray),
-        &amp;proxy, 
+        &proxy, 
         error);
     if (FAILED(hr))
     {
@@ -174,7 +174,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     hr = WsOpenServiceProxy(
         proxy, 
-        &amp;address, 
+        &address, 
         NULL, 
         error);
     if (FAILED(hr))
@@ -186,7 +186,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         proxy, 
         1, 
         2, 
-        &amp;result, 
+        &result, 
         heap, 
         NULL, 
         0, 
@@ -412,7 +412,7 @@ HRESULT CustomCreateChannel(
         layeredChannelParameters->channelProperties,
         layeredChannelParameters->channelPropertyCount,
         layeredChannelParameters->securityDescription,
-        &amp;customChannel->channel,
+        &customChannel->channel,
         error);
     if (FAILED(hr))
     {
@@ -603,20 +603,20 @@ HRESULT CustomShutdownSessionChannel(
 // Initialize the callbacks that will implement the custom channel
 WS_CUSTOM_CHANNEL_CALLBACKS layeredChannelCallbacks =
 {
-    (WS_CREATE_CHANNEL_CALLBACK)&amp;CustomCreateChannel, 
-    (WS_FREE_CHANNEL_CALLBACK)&amp;CustomFreeChannel, 
-    (WS_RESET_CHANNEL_CALLBACK)&amp;CustomResetChannel, 
-    (WS_OPEN_CHANNEL_CALLBACK)&amp;CustomOpenChannel, 
-    (WS_CLOSE_CHANNEL_CALLBACK)&amp;CustomCloseChannel, 
-    (WS_ABORT_CHANNEL_CALLBACK)&amp;CustomAbortChannel, 
-    (WS_GET_CHANNEL_PROPERTY_CALLBACK)&amp;CustomGetChannelProperty, 
-    (WS_SET_CHANNEL_PROPERTY_CALLBACK)&amp;CustomSetChannelProperty, 
-    (WS_WRITE_MESSAGE_START_CALLBACK)&amp;CustomWriteMessageStart, 
-    (WS_WRITE_MESSAGE_END_CALLBACK)&amp;CustomWriteMessageEnd, 
-    (WS_READ_MESSAGE_START_CALLBACK)&amp;CustomReadMessageStart, 
-    (WS_READ_MESSAGE_END_CALLBACK)&amp;CustomReadMessageEnd, 
-    (WS_ABANDON_MESSAGE_CALLBACK)&amp;CustomAbandonMessage, 
-    (WS_SHUTDOWN_SESSION_CHANNEL_CALLBACK)&amp;CustomShutdownSessionChannel,
+    (WS_CREATE_CHANNEL_CALLBACK)&CustomCreateChannel, 
+    (WS_FREE_CHANNEL_CALLBACK)&CustomFreeChannel, 
+    (WS_RESET_CHANNEL_CALLBACK)&CustomResetChannel, 
+    (WS_OPEN_CHANNEL_CALLBACK)&CustomOpenChannel, 
+    (WS_CLOSE_CHANNEL_CALLBACK)&CustomCloseChannel, 
+    (WS_ABORT_CHANNEL_CALLBACK)&CustomAbortChannel, 
+    (WS_GET_CHANNEL_PROPERTY_CALLBACK)&CustomGetChannelProperty, 
+    (WS_SET_CHANNEL_PROPERTY_CALLBACK)&CustomSetChannelProperty, 
+    (WS_WRITE_MESSAGE_START_CALLBACK)&CustomWriteMessageStart, 
+    (WS_WRITE_MESSAGE_END_CALLBACK)&CustomWriteMessageEnd, 
+    (WS_READ_MESSAGE_START_CALLBACK)&CustomReadMessageStart, 
+    (WS_READ_MESSAGE_END_CALLBACK)&CustomReadMessageEnd, 
+    (WS_ABANDON_MESSAGE_CALLBACK)&CustomAbandonMessage, 
+    (WS_SHUTDOWN_SESSION_CHANNEL_CALLBACK)&CustomShutdownSessionChannel,
 };
 ```
 

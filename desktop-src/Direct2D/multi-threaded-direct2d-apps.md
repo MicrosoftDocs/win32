@@ -31,7 +31,7 @@ ID2D1Factory* m_D2DFactory;
 // Create a Direct2D factory.
 HRESULT hr = D2D1CreateFactory(
     D2D1_FACTORY_TYPE_MULTI_THREADED,
-    &amp;m_D2DFactory
+    &m_D2DFactory
 );
 
 ```
@@ -73,7 +73,7 @@ void MyApp::DrawFromThread2()
     // We are accessing Direct3D resources directly without Direct2D's knowledge, so we
     // must manually acquire and apply the Direct2D factory lock.
     ID2D1Multithread* m_D2DMultithread;
-    m_D2DFactory->QueryInterface(IID_PPV_ARGS(&amp;m_D2DMultithread));
+    m_D2DFactory->QueryInterface(IID_PPV_ARGS(&m_D2DMultithread));
     m_D2DMultithread->Enter();
     
     // Now it is safe to make Direct3D/DXGI calls, such as IDXGISwapChain::Present

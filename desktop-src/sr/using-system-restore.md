@@ -59,7 +59,7 @@ BOOL InitializeCOMSecurity()
     //
  
     // Initialize the security descriptor.
-    fRet = ::InitializeSecurityDescriptor( &amp;securityDesc, SECURITY_DESCRIPTOR_REVISION );
+    fRet = ::InitializeSecurityDescriptor( &securityDesc, SECURITY_DESCRIPTOR_REVISION );
     if( !fRet )
     {
         goto exit;
@@ -67,7 +67,7 @@ BOOL InitializeCOMSecurity()
 
     // Create an administrator group security identifier (SID).
     cbSid = sizeof( rgSidBA );
-    fRet = ::CreateWellKnownSid( WinBuiltinAdministratorsSid, NULL, rgSidBA, &amp;cbSid );
+    fRet = ::CreateWellKnownSid( WinBuiltinAdministratorsSid, NULL, rgSidBA, &cbSid );
     if( !fRet )
     {
         goto exit;
@@ -75,7 +75,7 @@ BOOL InitializeCOMSecurity()
 
     // Create a local service security identifier (SID).
     cbSid = sizeof( rgSidLS );
-    fRet = ::CreateWellKnownSid( WinLocalServiceSid, NULL, rgSidLS, &amp;cbSid );
+    fRet = ::CreateWellKnownSid( WinLocalServiceSid, NULL, rgSidLS, &cbSid );
     if( !fRet )
     {
         goto exit;
@@ -83,7 +83,7 @@ BOOL InitializeCOMSecurity()
 
     // Create a network service security identifier (SID).
     cbSid = sizeof( rgSidNS );
-    fRet = ::CreateWellKnownSid( WinNetworkServiceSid, NULL, rgSidNS, &amp;cbSid );
+    fRet = ::CreateWellKnownSid( WinNetworkServiceSid, NULL, rgSidNS, &cbSid );
     if( !fRet )
     {
         goto exit;
@@ -91,7 +91,7 @@ BOOL InitializeCOMSecurity()
 
     // Create a personal account security identifier (SID).
     cbSid = sizeof( rgSidPS );
-    fRet = ::CreateWellKnownSid( WinSelfSid, NULL, rgSidPS, &amp;cbSid );
+    fRet = ::CreateWellKnownSid( WinSelfSid, NULL, rgSidPS, &cbSid );
     if( !fRet )
     {
         goto exit;
@@ -99,7 +99,7 @@ BOOL InitializeCOMSecurity()
 
     // Create a local service security identifier (SID).
     cbSid = sizeof( rgSidSY );
-    fRet = ::CreateWellKnownSid( WinLocalSystemSid, NULL, rgSidSY, &amp;cbSid );
+    fRet = ::CreateWellKnownSid( WinLocalSystemSid, NULL, rgSidSY, &cbSid );
     if( !fRet )
     {
         goto exit;
@@ -155,7 +155,7 @@ BOOL InitializeCOMSecurity()
     ea[4].Trustee.ptstrName = (LPTSTR)rgSidSY;
 
     // Create an access control list (ACL) using this ACE list.
-    dwRet = ::SetEntriesInAcl( ARRAYSIZE( ea ), ea, NULL, &amp;pAcl );
+    dwRet = ::SetEntriesInAcl( ARRAYSIZE( ea ), ea, NULL, &pAcl );
     if( dwRet != ERROR_SUCCESS || pAcl == NULL )
     {
         fRet = FALSE;
@@ -163,21 +163,21 @@ BOOL InitializeCOMSecurity()
     }
 
     // Set the security descriptor owner to Administrators.
-    fRet = ::SetSecurityDescriptorOwner( &amp;securityDesc, rgSidBA, FALSE );
+    fRet = ::SetSecurityDescriptorOwner( &securityDesc, rgSidBA, FALSE );
     if( !fRet )
     {
         goto exit;
     }
 
     // Set the security descriptor group to Administrators.
-    fRet = ::SetSecurityDescriptorGroup( &amp;securityDesc, rgSidBA, FALSE );
+    fRet = ::SetSecurityDescriptorGroup( &securityDesc, rgSidBA, FALSE );
     if( !fRet )
     {
         goto exit;
     }
 
     // Set the discretionary access control list (DACL) to the ACL.
-    fRet = ::SetSecurityDescriptorDacl( &amp;securityDesc, TRUE, pAcl, FALSE );
+    fRet = ::SetSecurityDescriptorDacl( &securityDesc, TRUE, pAcl, FALSE );
     if( !fRet )
     {
         goto exit;
@@ -187,7 +187,7 @@ BOOL InitializeCOMSecurity()
     // CoInitializeSecurity() for your application. Note that an
     // explicit security descriptor is being passed down.
  
-    hrRet = ::CoInitializeSecurity( &amp;securityDesc,
+    hrRet = ::CoInitializeSecurity( &securityDesc,
                                     -1,
                                     NULL,
                                     NULL,
@@ -292,7 +292,7 @@ extern "C" int __cdecl wmain(int argc, WCHAR **argv)
       goto exit;
    }
 
-   fRet = fnSRSetRestorePointW(&amp;RestorePtInfo, &amp;SMgrStatus);
+   fRet = fnSRSetRestorePointW(&RestorePtInfo, &SMgrStatus);
    if(!fRet)
    {
       dwErr = SMgrStatus.nStatus;
@@ -325,7 +325,7 @@ extern "C" int __cdecl wmain(int argc, WCHAR **argv)
 
    // Notify the system that the operation is done and that this
    // is the end of the restore point.
-   fRet = fnSRSetRestorePointW(&amp;RestorePtInfo, &amp;SMgrStatus);
+   fRet = fnSRSetRestorePointW(&RestorePtInfo, &SMgrStatus);
    if(!fRet) 
    {
       dwErr = SMgrStatus.nStatus;
@@ -418,7 +418,7 @@ extern "C" int __cdecl wmain(int argc, WCHAR** argv)
       goto exit;
    }
 
-   fRet = fnSRSetRestorePointW(&amp;RestorePtInfo, &amp;SMgrStatus);
+   fRet = fnSRSetRestorePointW(&RestorePtInfo, &SMgrStatus);
    if(!fRet)
    {
       dwErr = SMgrStatus.nStatus;
@@ -442,7 +442,7 @@ extern "C" int __cdecl wmain(int argc, WCHAR** argv)
    RestorePtInfo.llSequenceNumber=SMgrStatus.llSequenceNumber; 
 
    // Cancel the previous restore point
-   fRet = fnSRSetRestorePointW(&amp;RestorePtInfo, &amp;SMgrStatus);
+   fRet = fnSRSetRestorePointW(&RestorePtInfo, &SMgrStatus);
    if(!fRet) 
    {
       dwErr = SMgrStatus.nStatus;

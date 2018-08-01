@@ -44,7 +44,7 @@ The following example code demonstrates how to create the text host and text ser
         goto errorHandler;
 
     // Create an instance of the text services object.
-    hr = CreateTextServices(NULL, pTextHost, &amp;pUnk);
+    hr = CreateTextServices(NULL, pTextHost, &pUnk);
     
     if (FAILED(hr))
         goto errorHandler;
@@ -53,7 +53,7 @@ The following example code demonstrates how to create the text host and text ser
     IID* pIID_ITS = (IID*) (VOID*) GetProcAddress(hmodRichEdit, "IID_ITextServices");
                
     // Retrieve the ITextServices interface.    
-    hr = pUnk->QueryInterface(*pIID_ITS, (void **)&amp;pTextServices);
+    hr = pUnk->QueryInterface(*pIID_ITS, (void **)&pTextServices);
     
     if (FAILED(hr))
         goto errorHandler;

@@ -42,7 +42,7 @@ int main(int argc, char **argv)
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_ITaskScheduler,
-                          (void **) &amp;pITS);
+                          (void **) &pITS);
     if (FAILED(hr))
     {
       CoUninitialize();
@@ -63,7 +63,7 @@ int main(int argc, char **argv)
   lpcwszTaskName = L"TestTask";
   hr = pITS->Activate(lpcwszTaskName,
                       IID_ITask,
-                      (IUnknown**) &amp;pITask);
+                      (IUnknown**) &pITask);
   
   // Release ITaskScheduler interface.
   pITS->Release();
@@ -83,7 +83,7 @@ int main(int argc, char **argv)
   ///////////////////////////////////////////////////////////////////
   DWORD pdwExitCode;
   
-  hr = pITask->GetExitCode(&amp;pdwExitCode);
+  hr = pITask->GetExitCode(&pdwExitCode);
   
   // Release ITask interface.
   pITask->Release();

@@ -37,7 +37,7 @@ void CreateInstanceFromPropertyData(
   [in, optional] uint32              TTL,
   [in]           uint16              Preference,
   [in]           string              IntermediateHost,
-  [out, ref]     MicrosoftDNS_RTType &amp;RR
+  [out, ref]     MicrosoftDNS_RTType &RR
 );
 ```
 

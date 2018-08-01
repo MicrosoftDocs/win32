@@ -138,14 +138,14 @@ while(pCertContext= CertEnumCertificatesInStore(
 //   Ask if the user would like to set a display name.
      {
          printf("Would you like to set the display name ?");
-         scanf_s("%c%c",&amp;fResponse,&amp;fExtra);
+         scanf_s("%c%c",&fResponse,&fExtra);
          if(fResponse == 'y')
          {
            if(CertSetCertificateContextProperty(
                 pCertContext,  
                 CERT_FRIENDLY_NAME_PROP_ID,      
                 0,
-                &amp;Friendly_Name_Blob))
+                &Friendly_Name_Blob))
            {
                printf("A name has been set.\n");
            }
@@ -186,7 +186,7 @@ while(pCertContext= CertEnumCertificatesInStore(
             pCertContext, 
             dwPropId, 
             NULL, 
-            &amp;cbData)))
+            &cbData)))
           {
              MyHandleError("Call #1 to property length failed.");
           }
@@ -203,7 +203,7 @@ while(pCertContext= CertEnumCertificatesInStore(
               pCertContext,
               dwPropId,
               pvData, 
-              &amp;cbData)))
+              &cbData)))
           {
              MyHandleError("Call #2 getting the data failed.");
           }
@@ -235,7 +235,7 @@ while(pCertContext= CertEnumCertificatesInStore(
                             // CERT_KEY_PROV_INFO_PROP_ID
              NULL,          // NULL on the first call to get the
                             // length.
-             &amp;cbData)))     // The number of bytes that must be
+             &cbData)))     // The number of bytes that must be
                             // allocated for the structure.
           {
              MyHandleError("The property length was not retrieved.");
@@ -249,7 +249,7 @@ while(pCertContext= CertEnumCertificatesInStore(
                 pCertContext,
                 dwPropId,
                 pCryptKeyProvInfo,
-                &amp;cbData))
+                &cbData))
            {
                printf("\n The current key container is %S.",
                    pCryptKeyProvInfo->pwszContainerName);

@@ -119,16 +119,16 @@ HRESULT ListObjectsWithWinNtProvider(
                         pwszPassword, 
                         ADS_SECURE_AUTHENTICATION,
                         IID_IADsContainer, 
-                        (void**) &amp;pIADsCont);
+                        (void**) &pIADsCont);
 
     if (SUCCEEDED(hr))
     {
         VARIANT vFilter;
-        VariantInit(&amp;vFilter);
+        VariantInit(&vFilter);
         LPWSTR rgpwszFilter[] = {(LPWSTR)pwszClass};
  
         // Build a Variant of array type, using the filter passed.
-        hr = ADsBuildVarArrayStr(rgpwszFilter, 1, &amp;vFilter);
+        hr = ADsBuildVarArrayStr(rgpwszFilter, 1, &vFilter);
         if (SUCCEEDED(hr))
         {
             // Set the filter for the results of the enumeration.
@@ -140,7 +140,7 @@ HRESULT ListObjectsWithWinNtProvider(
                 // Build an enumerator interface. This is used 
                 // to enumerate the objects contained in 
                 // the IADsContainer.
-                hr = ADsBuildEnumerator(pIADsCont, &amp;pEnumVariant);
+                hr = ADsBuildEnumerator(pIADsCont, &pEnumVariant);
 
                 if(SUCCEEDED(hr))
                 {
@@ -150,9 +150,9 @@ HRESULT ListObjectsWithWinNtProvider(
                     // Loop through and print the data.
                     while(SUCCEEDED(ADsEnumerateNext(pEnumVariant, 
                                                      1,
-                                                     &amp;Variant, 
-                                                     &amp;ulElementsFetched))
-                          &amp;&amp; (ulElementsFetched > 0))
+                                                     &Variant, 
+                                                     &ulElementsFetched))
+                          && (ulElementsFetched > 0))
                     {
                         if(VT_DISPATCH == Variant.vt)
                         {
@@ -161,20 +161,20 @@ HRESULT ListObjectsWithWinNtProvider(
                             // Query the variant IDispatch *
                             // for the IADs interface
                             hr = Variant.pdispVal->QueryInterface(IID_IADs,
-                                                                  (VOID**)&amp;pIADs);
+                                                                  (VOID**)&pIADs);
      
                             if (SUCCEEDED(hr))
                             {
                                 // Print the object data.
                                 CComBSTR sbstrResult;
-                                hr = pIADs->get_Name(&amp;sbstrResult); 
+                                hr = pIADs->get_Name(&sbstrResult); 
                                 if(SUCCEEDED(hr))
                                 {
                                     wprintf(L"Name : %s\n", 
                                             sbstrResult);
                                 }
 
-                                hr = pIADs->get_ADsPath(&amp;sbstrResult); 
+                                hr = pIADs->get_ADsPath(&sbstrResult); 
                                 if(SUCCEEDED(hr))
                                 {
                                     wprintf(L"ADsPath : %s\n", 
@@ -187,7 +187,7 @@ HRESULT ListObjectsWithWinNtProvider(
                             }
                         }
                     
-                        VariantClear(&amp;Variant);
+                        VariantClear(&Variant);
                     }
                     
                     pEnumVariant->Release();
@@ -195,7 +195,7 @@ HRESULT ListObjectsWithWinNtProvider(
 
             }
         }
-        VariantClear(&amp;vFilter);
+        VariantClear(&vFilter);
     }
  
     return hr;

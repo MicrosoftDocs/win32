@@ -63,13 +63,13 @@ HRESULT InitializeImport( IWMDRMWriter3 *pDRMWriter )
     }
     cbEncryptedSessionKey = MODULUS_SIZE;
 
-    hr = CreateSessionKey( &amp;pSessionKey, &amp;cbSessionKey );
+    hr = CreateSessionKey( &pSessionKey, &cbSessionKey );
     if( FAILED( hr ) ) goto EXIT;
 
     if( cbSessionKey > MODULUS_SIZE )
     if( FAILED( hr ) ) goto EXIT;
 
-    hr = CreateContentKey( &amp;pContentKey, &amp;cbContentKey );
+    hr = CreateContentKey( &pContentKey, &cbContentKey );
     if( FAILED( hr ) ) goto EXIT;
 
     // TODO: Encrypt the content key with the session Key.    
@@ -81,7 +81,7 @@ HRESULT InitializeImport( IWMDRMWriter3 *pDRMWriter )
     ImportInit.pbEncryptedKeyMessage = (BYTE*)pContentKey;
     ImportInit.cbEncryptedKeyMessage = cbContentKey;
 
-    hr = pDRMWriter->SetProtectStreamSamples( &amp;ImportInit );
+    hr = pDRMWriter->SetProtectStreamSamples( &ImportInit );
     if( FAILED( hr ) ) goto EXIT;
 
 EXIT:

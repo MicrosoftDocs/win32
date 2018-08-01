@@ -18,10 +18,10 @@ The following example fills an ellipse with an image. The code constructs an [**
 
 ```
 Image image(L"ImageFile.jpg");
-TextureBrush tBrush(&amp;image);
-stat = tBrush.SetTransform(&amp;Matrix(75.0/640.0, 0.0f, 0.0f,
+TextureBrush tBrush(&image);
+stat = tBrush.SetTransform(&Matrix(75.0/640.0, 0.0f, 0.0f,
    75.0/480.0, 0.0f, 0.0f));
-stat = graphics.FillEllipse(&amp;tBrush,Rect(0, 150, 150, 250));
+stat = graphics.FillEllipse(&tBrush,Rect(0, 150, 150, 250));
 ```
 
 

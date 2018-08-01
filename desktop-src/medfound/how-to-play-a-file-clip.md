@@ -40,13 +40,13 @@ HRESULT PlayMediaClip(
 
     ULONGLONG hnsDuration = 0;
 
-    HRESULT hr = pPlayer->CreateMediaItemFromURL(pszURL, TRUE, 0, &amp;pItem);
+    HRESULT hr = pPlayer->CreateMediaItemFromURL(pszURL, TRUE, 0, &pItem);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = GetPlaybackDuration(pItem, &amp;hnsDuration);
+    hr = GetPlaybackDuration(pItem, &hnsDuration);
     if (FAILED(hr))
     {
         goto done;
@@ -57,23 +57,23 @@ HRESULT PlayMediaClip(
         hnsEnd = hnsDuration;
     }
 
-    hr = InitPropVariantFromInt64(hnsStart, &amp;varStart);
+    hr = InitPropVariantFromInt64(hnsStart, &varStart);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = InitPropVariantFromInt64(hnsEnd, &amp;varEnd);
+    hr = InitPropVariantFromInt64(hnsEnd, &varEnd);
     if (FAILED(hr))
     {
         goto done;
     }
 
     hr = pItem->SetStartStopPosition(
-        &amp;MFP_POSITIONTYPE_100NS,
-        &amp;varStart,
-        &amp;MFP_POSITIONTYPE_100NS,
-        &amp;varEnd
+        &MFP_POSITIONTYPE_100NS,
+        &varStart,
+        &MFP_POSITIONTYPE_100NS,
+        &varEnd
         );
     if (FAILED(hr))
     {
@@ -83,7 +83,7 @@ HRESULT PlayMediaClip(
     hr = pPlayer->SetMediaItem(pItem);
 
 done:
-    SafeRelease(&amp;pItem);
+    SafeRelease(&pItem);
     return hr;
 }
 ```

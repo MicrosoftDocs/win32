@@ -57,8 +57,8 @@ Here is an example using the API.
     // Set up the vertex shader constants.
     {
         D3DXMATRIXA16 mat;
-        D3DXMatrixMultiply( &amp;mat, &amp;m_matView, &amp;m_matProj );
-        D3DXMatrixTranspose( &amp;mat, &amp;mat );
+        D3DXMatrixMultiply( &mat, &m_matView, &m_matProj );
+        D3DXMatrixTranspose( &mat, &mat );
 
         D3DXVECTOR4 vA( sinf(m_fTime)*15.0f, 0.0f, 0.5f, 1.0f );
         D3DXVECTOR4 vD( D3DX_PI, 1.0f/(2.0f*D3DX_PI), 2.0f*D3DX_PI, 0.05f );
@@ -67,11 +67,11 @@ Here is an example using the API.
         D3DXVECTOR4 vSin( 1.0f, -1.0f/6.0f, 1.0f/120.0f, -1.0f/5040.0f );
         D3DXVECTOR4 vCos( 1.0f, -1.0f/2.0f, 1.0f/ 24.0f, -1.0f/ 720.0f );
 
-        m_pd3dDevice->SetVertexShaderConstantF(  0, (float*)&amp;mat,  4 );
-        m_pd3dDevice->SetVertexShaderConstantF(  4, (float*)&amp;vA,   1 );
-        m_pd3dDevice->SetVertexShaderConstantF(  7, (float*)&amp;vD,   1 );
-        m_pd3dDevice->SetVertexShaderConstantF( 10, (float*)&amp;vSin, 1 );
-        m_pd3dDevice->SetVertexShaderConstantF( 11, (float*)&amp;vCos, 1 );
+        m_pd3dDevice->SetVertexShaderConstantF(  0, (float*)&mat,  4 );
+        m_pd3dDevice->SetVertexShaderConstantF(  4, (float*)&vA,   1 );
+        m_pd3dDevice->SetVertexShaderConstantF(  7, (float*)&vD,   1 );
+        m_pd3dDevice->SetVertexShaderConstantF( 10, (float*)&vSin, 1 );
+        m_pd3dDevice->SetVertexShaderConstantF( 11, (float*)&vCos, 1 );
     }
 ```
 

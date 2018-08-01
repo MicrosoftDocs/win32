@@ -18,7 +18,7 @@ The following example creates an [**Image**](/windows/desktop/api/gdiplusheaders
 
 ```
 Image image(L"Grapes.jpg");
-graphics.DrawImage(&amp;image, 60, 10);
+graphics.DrawImage(&image, 60, 10);
 ```
 
 
@@ -35,7 +35,7 @@ The following example obtains a handle to an icon and then uses that handle to c
 ```
 HICON hIcon = LoadIcon(NULL, IDI_APPLICATION);
 Bitmap bitmap(hIcon);
-graphics.DrawImage(&amp;bitmap, 10, 10);
+graphics.DrawImage(&bitmap, 10, 10);
 ```
 
 

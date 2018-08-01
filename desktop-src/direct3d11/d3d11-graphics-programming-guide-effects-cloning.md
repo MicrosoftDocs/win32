@@ -21,7 +21,7 @@ An effect can be cloned with the following syntax:
 ```
 ID3DX11Effect* pClonedEffect = NULL;
 UINT Flags = D3DX11_EFFECT_CLONE_FORCE_NONSINGLE;
-HRESULT hr = pEffect->CloneEffect( Flags, &amp;pClonedEffect );
+HRESULT hr = pEffect->CloneEffect( Flags, &pClonedEffect );
 ```
 
 

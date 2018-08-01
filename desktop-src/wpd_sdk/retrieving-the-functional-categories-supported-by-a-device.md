@@ -59,7 +59,7 @@ if (pDevice == NULL)
 
 // Get an IPortableDeviceCapabilities interface from the IPortableDevice interface to
 // access the device capabilities-specific methods.
-hr = pDevice->Capabilities(&amp;pCapabilities);
+hr = pDevice->Capabilities(&pCapabilities);
 if (FAILED(hr))
 {
     printf("! Failed to get IPortableDeviceCapabilities from IPortableDevice, hr = 0x%lx\n",hr);
@@ -68,7 +68,7 @@ if (FAILED(hr))
 // Get all functional categories supported by the device.
 if (SUCCEEDED(hr))
 {
-    hr = pCapabilities->GetFunctionalCategories(&amp;pCategories);
+    hr = pCapabilities->GetFunctionalCategories(&pCategories);
     if (FAILED(hr))
     {
         printf("! Failed to get functional categories from the device, hr = 0x%lx\n",hr);
@@ -86,7 +86,7 @@ The next step is the enumeration and display of the supported categories. The fi
 ```C++
 if (SUCCEEDED(hr))
 {
-    hr = pCategories->GetCount(&amp;dwNumCategories);
+    hr = pCategories->GetCount(&dwNumCategories);
     if (FAILED(hr))
     {
         printf("! Failed to get number of functional categories, hr = 0x%lx\n",hr);
@@ -101,8 +101,8 @@ if (SUCCEEDED(hr))
     for (DWORD dwIndex = 0; dwIndex < dwNumCategories; dwIndex++)
     {
         PROPVARIANT pv = {0};
-        PropVariantInit(&amp;pv);
-        hr = pCategories->GetAt(dwIndex, &amp;pv);
+        PropVariantInit(&pv);
+        hr = pCategories->GetAt(dwIndex, &pv);
         if (SUCCEEDED(hr))
         {
             // We have a functional category.  It is assumed that
@@ -117,7 +117,7 @@ if (SUCCEEDED(hr))
             }
         }
 
-        PropVariantClear(&amp;pv);
+        PropVariantClear(&pv);
     }
 }
 ```

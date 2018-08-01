@@ -68,7 +68,7 @@ hr = CoCreateInstance(__uuidof(BackgroundCopyManager),
                       NULL,
                       CLSCTX_LOCAL_SERVER,
                       __uuidof(IBackgroundCopyManager),
-                      (void **)&amp;pQueueMgr);
+                      (void **)&pQueueMgr);
 ```
 
 
@@ -84,8 +84,8 @@ IBackgroundCopyJob* pBackgroundCopyJob;
 
 hr = pQueueMgr->CreateJob(L"TransferPolicy",
                           BG_JOB_TYPE_DOWNLOAD,
-                          &amp;guidJob,
-                          (IBackgroundCopyJob **)&amp;pBackgroundCopyJob);
+                          &guidJob,
+                          (IBackgroundCopyJob **)&pBackgroundCopyJob);
 ```
 
 
@@ -106,7 +106,7 @@ propval.Dword = BITS_COST_STATE_USAGE_BASED
               | BITS_COST_STATE_UNRESTRICTED;
 
 hr = pBackgroundCopyJob->QueryInterface(__uuidof(IBackgroundCopyJob5),
-                                        reinterpret_cast<void**>(&amp;pBackgroundCopyJob5));
+                                        reinterpret_cast<void**>(&pBackgroundCopyJob5));
 if(SUCCEEDED(hr))
 {
  pBackgroundCopyJob5->SetProperty(BITS_JOB_PROPERTY_ID_COST_FLAGS, propval);
@@ -160,7 +160,7 @@ int _tmain()
                          NULL,
                          CLSCTX_LOCAL_SERVER,
                          __uuidof(IBackgroundCopyManager),
-                         (void **)&amp;pQueueMgr);
+                         (void **)&pQueueMgr);
 
    if (FAILED(hr))
    {
@@ -174,8 +174,8 @@ int _tmain()
 
    hr = pQueueMgr->CreateJob(L"TransferPolicy",
                              BG_JOB_TYPE_DOWNLOAD,
-                             &amp;guidJob,
-                             (IBackgroundCopyJob **)&amp;pBackgroundCopyJob);
+                             &guidJob,
+                             (IBackgroundCopyJob **)&pBackgroundCopyJob);
 
    if (FAILED(hr))
    {
@@ -194,7 +194,7 @@ int _tmain()
 
    hr = pBackgroundCopyJob->QueryInterface(
          __uuidof(IBackgroundCopyJob5),
-         reinterpret_cast<void**>(&amp;pBackgroundCopyJob5)
+         reinterpret_cast<void**>(&pBackgroundCopyJob5)
         );
 
    if (FAILED(hr))
@@ -210,7 +210,7 @@ int _tmain()
    wprintf(L"Getting TransferPolicy Property ...\n");
 
    hr = pBackgroundCopyJob5->GetProperty(BITS_JOB_PROPERTY_ID_COST_FLAGS, 
-                                         &amp;actual_propval);
+                                         &actual_propval);
    if (FAILED(hr))
    {
     // SetSSLSecurityFlags failed.

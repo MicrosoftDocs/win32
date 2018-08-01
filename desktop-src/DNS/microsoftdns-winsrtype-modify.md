@@ -35,7 +35,7 @@ void Modify(
   [in, optional] uint32                 LookupTimeout,
   [in, optional] uint32                 CacheTimeout,
   [in, optional] string                 ResultDomain,
-  [out, ref]     MicrosoftDNS_WINSRType &amp;RR
+  [out, ref]     MicrosoftDNS_WINSRType &RR
 );
 ```
 

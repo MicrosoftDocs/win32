@@ -44,7 +44,7 @@ const DOUBLE DECELERATION_RATIO = 0.5;
 
 IUIAnimationStoryboard *pStoryboard = NULL;
 HRESULT hr = m_pAnimationManager->CreateStoryboard(
-    &amp;pStoryboard
+    &pStoryboard
     );
 if (SUCCEEDED(hr))
 {
@@ -56,7 +56,7 @@ if (SUCCEEDED(hr))
         red,
         ACCELERATION_RATIO,
         DECELERATION_RATIO,
-        &amp;pTransitionRed
+        &pTransitionRed
         );
     if (SUCCEEDED(hr))
     {
@@ -66,7 +66,7 @@ if (SUCCEEDED(hr))
             green,
             ACCELERATION_RATIO,
             DECELERATION_RATIO,
-            &amp;pTransitionGreen
+            &pTransitionGreen
             );
         if (SUCCEEDED(hr))
         {
@@ -76,7 +76,7 @@ if (SUCCEEDED(hr))
                 blue,
                 ACCELERATION_RATIO,
                 DECELERATION_RATIO,
-                &amp;pTransitionBlue
+                &pTransitionBlue
                 );
             if (SUCCEEDED(hr))
             {

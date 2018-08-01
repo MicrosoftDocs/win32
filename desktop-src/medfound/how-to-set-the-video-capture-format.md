@@ -35,27 +35,27 @@ HRESULT EnumerateCaptureFormats(IMFMediaSource *pSource)
     IMFMediaTypeHandler *pHandler = NULL;
     IMFMediaType *pType = NULL;
 
-    HRESULT hr = pSource->CreatePresentationDescriptor(&amp;pPD);
+    HRESULT hr = pSource->CreatePresentationDescriptor(&pPD);
     if (FAILED(hr))
     {
         goto done;
     }
 
     BOOL fSelected;
-    hr = pPD->GetStreamDescriptorByIndex(0, &amp;fSelected, &amp;pSD);
+    hr = pPD->GetStreamDescriptorByIndex(0, &fSelected, &pSD);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pSD->GetMediaTypeHandler(&amp;pHandler);
+    hr = pSD->GetMediaTypeHandler(&pHandler);
     if (FAILED(hr))
     {
         goto done;
     }
 
     DWORD cTypes = 0;
-    hr = pHandler->GetMediaTypeCount(&amp;cTypes);
+    hr = pHandler->GetMediaTypeCount(&cTypes);
     if (FAILED(hr))
     {
         goto done;
@@ -63,7 +63,7 @@ HRESULT EnumerateCaptureFormats(IMFMediaSource *pSource)
 
     for (DWORD i = 0; i < cTypes; i++)
     {
-        hr = pHandler->GetMediaTypeByIndex(i, &amp;pType);
+        hr = pHandler->GetMediaTypeByIndex(i, &pType);
         if (FAILED(hr))
         {
             goto done;
@@ -72,14 +72,14 @@ HRESULT EnumerateCaptureFormats(IMFMediaSource *pSource)
         LogMediaType(pType);
         OutputDebugString(L"\n");
 
-        SafeRelease(&amp;pType);
+        SafeRelease(&pType);
     }
 
 done:
-    SafeRelease(&amp;pPD);
-    SafeRelease(&amp;pSD);
-    SafeRelease(&amp;pHandler);
-    SafeRelease(&amp;pType);
+    SafeRelease(&pPD);
+    SafeRelease(&pSD);
+    SafeRelease(&pHandler);
+    SafeRelease(&pType);
     return hr;
 }
 ```
@@ -107,26 +107,26 @@ HRESULT SetDeviceFormat(IMFMediaSource *pSource, DWORD dwFormatIndex)
     IMFMediaTypeHandler *pHandler = NULL;
     IMFMediaType *pType = NULL;
 
-    HRESULT hr = pSource->CreatePresentationDescriptor(&amp;pPD);
+    HRESULT hr = pSource->CreatePresentationDescriptor(&pPD);
     if (FAILED(hr))
     {
         goto done;
     }
 
     BOOL fSelected;
-    hr = pPD->GetStreamDescriptorByIndex(0, &amp;fSelected, &amp;pSD);
+    hr = pPD->GetStreamDescriptorByIndex(0, &fSelected, &pSD);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pSD->GetMediaTypeHandler(&amp;pHandler);
+    hr = pSD->GetMediaTypeHandler(&pHandler);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pHandler->GetMediaTypeByIndex(dwFormatIndex, &amp;pType);
+    hr = pHandler->GetMediaTypeByIndex(dwFormatIndex, &pType);
     if (FAILED(hr))
     {
         goto done;
@@ -135,10 +135,10 @@ HRESULT SetDeviceFormat(IMFMediaSource *pSource, DWORD dwFormatIndex)
     hr = pHandler->SetCurrentMediaType(pType);
 
 done:
-    SafeRelease(&amp;pPD);
-    SafeRelease(&amp;pSD);
-    SafeRelease(&amp;pHandler);
-    SafeRelease(&amp;pType);
+    SafeRelease(&pPD);
+    SafeRelease(&pSD);
+    SafeRelease(&pHandler);
+    SafeRelease(&pType);
     return hr;
 }
 ```

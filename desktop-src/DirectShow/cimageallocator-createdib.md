@@ -31,7 +31,7 @@ The `CreateDIB` method creates a GDI device-independent bitmap (DIB). The DIB is
 ```C++
 HRESULT CreateDIB(
         LONG    InSize,
-  [ref] DIBDATA &amp;DibData
+  [ref] DIBDATA &DibData
 );
 ```
 

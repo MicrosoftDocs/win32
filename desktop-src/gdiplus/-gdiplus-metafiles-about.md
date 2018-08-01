@@ -47,7 +47,7 @@ The following example displays the metafile created in the preceding example. Th
 ```
 Graphics myGraphics(hdc);
 Image myImage(L"MyDiskFile.emf");
-myGraphics.DrawImage(&amp;myImage, 100, 100);
+myGraphics.DrawImage(&myImage, 100, 100);
 ```
 
 
@@ -64,15 +64,15 @@ myGraphics = new Graphics(myMetafile);
    // Create an elliptical clipping region.
    GraphicsPath myPath;
    myPath.AddEllipse(0, 0, 200, 100);
-   Region myRegion(&amp;myPath);
-   myGraphics->SetClip(&amp;myRegion);
+   Region myRegion(&myPath);
+   myGraphics->SetClip(&myRegion);
 
    Pen myPen(Color(255, 0, 0, 255));
-   myGraphics->DrawPath(&amp;myPen, &amp;myPath);
+   myGraphics->DrawPath(&myPen, &myPath);
 
    for(INT j = 0; j <= 300; j += 10)
    {
-      myGraphics->DrawLine(&amp;myPen, 0, 0, 300 - j, j);
+      myGraphics->DrawLine(&myPen, 0, 0, 300 - j, j);
    }
 delete myGraphics;
 delete myMetafile;

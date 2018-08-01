@@ -99,18 +99,18 @@ HRESULT GetTextOwner(   ITfContext *pContext,
 
     *pclsidOwner = GUID_NULL;
 
-    hr = pContext->GetProperty(GUID_PROP_TEXTOWNER, &amp;pProp);
+    hr = pContext->GetProperty(GUID_PROP_TEXTOWNER, &pProp);
     if(S_OK == hr)
     {
         ITfRange    *pPropRange;
 
-        hr = pProp->FindRange(ec, pRange, &amp;pPropRange, TF_ANCHOR_START);
+        hr = pProp->FindRange(ec, pRange, &pPropRange, TF_ANCHOR_START);
         if(S_OK == hr)
         {
             VARIANT var;
 
-            VariantInit(&amp;var);
-            hr = pProp->GetValue(ec, pPropRange, &amp;var);
+            VariantInit(&var);
+            hr = pProp->GetValue(ec, pPropRange, &var);
             if(S_OK == hr)
             {
                 if(VT_I4 == var.vt)
@@ -126,7 +126,7 @@ HRESULT GetTextOwner(   ITfContext *pContext,
                                             NULL, 
                                             CLSCTX_INPROC_SERVER, 
                                             IID_ITfCategoryMgr, 
-                                            (LPVOID*)&amp;pCatMgr);
+                                            (LPVOID*)&pCatMgr);
                     if(SUCCEEDED(hr))
                     {
                         hr = pCatMgr->GetGUID((TfGuidAtom)var.lVal, pclsidOwner);
@@ -147,7 +147,7 @@ HRESULT GetTextOwner(   ITfContext *pContext,
                     hr = E_FAIL;
                 }
                 
-                VariantClear(&amp;var);
+                VariantClear(&var);
             }
             
             pPropRange->Release();
@@ -194,28 +194,28 @@ HRESULT SaveProperties( ITfContext *pContext,
     ULONG uWritten;
     
     //Enumerate the properties in the context. 
-    hr = pContext->EnumProperties(&amp;pEnumProps);
+    hr = pContext->EnumProperties(&pEnumProps);
     if(SUCCEEDED(hr))
     {
         ITfProperty *pProp;
         ULONG       uFetched;
 
-        while(SUCCEEDED(pEnumProps->Next(1, &amp;pProp, &amp;uFetched)) &amp;&amp; uFetched)
+        while(SUCCEEDED(pEnumProps->Next(1, &pProp, &uFetched)) && uFetched)
         {
             //Enumerate all the ranges that contain the property. 
             IEnumTfRanges   *pEnumRanges;
-            hr = pProp->EnumRanges(ec, &amp;pEnumRanges, NULL);
+            hr = pProp->EnumRanges(ec, &pEnumRanges, NULL);
             if(SUCCEEDED(hr))
             {
                 IStream *pTempStream;
 
                 //Create a temporary stream to write the property data to. 
-                hr = CreateStreamOnHGlobal(NULL, TRUE, &amp;pTempStream);
+                hr = CreateStreamOnHGlobal(NULL, TRUE, &pTempStream);
                 if(SUCCEEDED(hr))
                 {
                     ITfRange    *pRange;
 
-                    while(SUCCEEDED(pEnumRanges->Next(1, &amp;pRange, &amp;uFetched)) &amp;&amp; uFetched)
+                    while(SUCCEEDED(pEnumRanges->Next(1, &pRange, &uFetched)) && uFetched)
                     {
                         LARGE_INTEGER li;
 
@@ -224,14 +224,14 @@ HRESULT SaveProperties( ITfContext *pContext,
                         pTempStream->Seek(li, STREAM_SEEK_SET, NULL);
                         
                         //Get the property header and data for the range. 
-                        hr = pServices->Serialize(pProp, pRange, &amp;PropHeader, pTempStream);
+                        hr = pServices->Serialize(pProp, pRange, &PropHeader, pTempStream);
 
                         /*
                         Write the property header into the primary stream. 
                         The header also contains the size of the property 
                         data.
                         */
-                        hr = pStream->Write(&amp;PropHeader, sizeof(PropHeader), &amp;uWritten);
+                        hr = pStream->Write(&PropHeader, sizeof(PropHeader), &uWritten);
 
                         //Reset the temporary stream pointer. 
                         li.QuadPart = 0;
@@ -259,8 +259,8 @@ HRESULT SaveProperties( ITfContext *pContext,
     }
 
     //Write a property header with zero size and guid into the stream as a terminator 
-    ZeroMemory(&amp;PropHeader, sizeof(PropHeader));
-    hr = pStream->Write(&amp;PropHeader, sizeof(PropHeader), &amp;uWritten);
+    ZeroMemory(&PropHeader, sizeof(PropHeader));
+    hr = pStream->Write(&PropHeader, sizeof(PropHeader), &uWritten);
 
     return hr;
 }
@@ -298,14 +298,14 @@ HRESULT LoadProperties( ITfContext *pContext,
     list of properties is terminated by a TF_PERSISTENT_PROPERTY_HEADER_ACP 
     structure with a cb member of zero.
     */
-    hr = pStream->Read(&amp;PropHeader, sizeof(PropHeader), &amp;uRead);
-    while(  SUCCEEDED(hr) &amp;&amp; 
-            (sizeof(PropHeader) == uRead) &amp;&amp; 
+    hr = pStream->Read(&PropHeader, sizeof(PropHeader), &uRead);
+    while(  SUCCEEDED(hr) && 
+            (sizeof(PropHeader) == uRead) && 
             (0 != PropHeader.cb))
     {
         ITfProperty *pProp;
 
-        hr = pContext->GetProperty(PropHeader.guidType, &amp;pProp);
+        hr = pContext->GetProperty(PropHeader.guidType, &pProp);
         if(SUCCEEDED(hr))
         {
             /*
@@ -313,14 +313,14 @@ HRESULT LoadProperties( ITfContext *pContext,
             requests a read-only lock, so be sure it can be granted 
             or else this method will fail.
             */
-            CTSFPersistentPropertyLoader *pLoader = new CTSFPersistentPropertyLoader(&amp;PropHeader, pStream);
-            hr = pServices->Unserialize(pProp, &amp;PropHeader, NULL, pLoader);
+            CTSFPersistentPropertyLoader *pLoader = new CTSFPersistentPropertyLoader(&PropHeader, pStream);
+            hr = pServices->Unserialize(pProp, &PropHeader, NULL, pLoader);
 
             pProp->Release();
         }
 
         //Read the next header. 
-        hr = pStream->Read(&amp;PropHeader, sizeof(PropHeader), &amp;uRead);
+        hr = pStream->Read(&PropHeader, sizeof(PropHeader), &uRead);
     }
 
     return hr;

@@ -32,13 +32,13 @@ class SpecializedSink : public ID2D1SimplifiedGeometrySink
 
         STDMETHOD_(ULONG, AddRef)(THIS)
         {
-            return InterlockedIncrement(reinterpret_cast<LONG volatile *>(&amp;m_cRef));
+            return InterlockedIncrement(reinterpret_cast<LONG volatile *>(&m_cRef));
         }
 
         STDMETHOD_(ULONG, Release)(THIS)
         {
             ULONG cRef = static_cast<ULONG>(
-            InterlockedDecrement(reinterpret_cast<LONG volatile *>(&amp;m_cRef)));
+            InterlockedDecrement(reinterpret_cast<LONG volatile *>(&m_cRef)));
 
             if(0 == cRef)
             {
@@ -120,12 +120,12 @@ The example then uses a set of data (182, 209), (211, 251), (251, 226), (392, 36
 
 
 ```C++
-hr = m_pD2DFactory->CreatePathGeometry(&amp;m_pGeometry);
+hr = m_pD2DFactory->CreatePathGeometry(&m_pGeometry);
 if(SUCCEEDED(hr))
 {
     ID2D1GeometrySink *pSink = NULL;
 
-    hr = m_pGeometry->Open(&amp;pSink);
+    hr = m_pGeometry->Open(&pSink);
     if (SUCCEEDED(hr))
     {
         pSink->SetFillMode(D2D1_FILL_MODE_WINDING);

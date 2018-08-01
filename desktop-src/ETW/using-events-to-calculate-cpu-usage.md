@@ -53,17 +53,17 @@ void wmain(void)
 {
     ULONG status = ERROR_SUCCESS;
     EVENT_TRACE_LOGFILE trace;
-    TRACE_LOGFILE_HEADER* pHeader = &amp;trace.LogfileHeader;
+    TRACE_LOGFILE_HEADER* pHeader = &trace.LogfileHeader;
     TRACEHANDLE hTrace = 0;  
 
     // Identify the log file from which you want to consume events
     // and the callbacks used to process the events and buffers.
 
-    ZeroMemory(&amp;trace, sizeof(EVENT_TRACE_LOGFILE));
+    ZeroMemory(&trace, sizeof(EVENT_TRACE_LOGFILE));
     trace.LogFileName = (LPWSTR) LOGFILE_PATH;
     trace.EventCallback = (PEVENT_CALLBACK) (ProcessEvent);
 
-    hTrace = OpenTrace(&amp;trace);
+    hTrace = OpenTrace(&trace);
     if ((TRACEHANDLE)INVALID_HANDLE_VALUE == hTrace)
     {
         wprintf(L"OpenTrace failed with %lu\n", GetLastError());
@@ -77,8 +77,8 @@ void wmain(void)
         g_TimerResolution = pHeader->TimerResolution / 10000;
     }
 
-    status = ProcessTrace(&amp;hTrace, 1, 0, 0);
-    if (status != ERROR_SUCCESS &amp;&amp; status != ERROR_CANCELLED)
+    status = ProcessTrace(&hTrace, 1, 0, 0);
+    if (status != ERROR_SUCCESS && status != ERROR_CANCELLED)
     {
         wprintf(L"ProcessTrace failed with %lu\n", status);
         goto cleanup;
@@ -105,7 +105,7 @@ VOID WINAPI ProcessEvent(PEVENT_TRACE pEvent)
     // the EVENT_TRACE_LOGFILE.LogfileHeader member that you can access when you open 
     // the trace. 
 
-    if (IsEqualGUID(pEvent->Header.Guid, EventTraceGuid) &amp;&amp;
+    if (IsEqualGUID(pEvent->Header.Guid, EventTraceGuid) &&
         pEvent->Header.Class.Type == EVENT_TRACE_TYPE_INFO)
     {
         ; // Skip this event.

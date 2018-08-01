@@ -21,7 +21,7 @@ HRESULT CGuiPaper::PaintWin(void)
     COLORREF crInkColor;
     SHORT nInkWidth;
 
-    if (m_pIPaper &amp;&amp; !m_bPainting &amp;&amp; !m_bInking)
+    if (m_pIPaper && !m_bPainting && !m_bInking)
     {
       m_bPainting = TRUE;
       // Save and restore ink color and width since redraw otherwise

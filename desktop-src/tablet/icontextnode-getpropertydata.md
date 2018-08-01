@@ -139,9 +139,9 @@ HRESULT CMyClass::ExploreParagraphNode(
     ULONG ulDataLen = 0;
 
     HRESULT hr = pParagraphNode->GetPropertyData(
-        (const GUID*)&amp;GUID_CNP_ALIGNMENTLEVEL,
-        &amp;ulDataLen,
-        (BYTE**)&amp;alignmentLevel);
+        (const GUID*)&GUID_CNP_ALIGNMENTLEVEL,
+        &ulDataLen,
+        (BYTE**)&alignmentLevel);
 
     if( FAILED(hr) ||
         ulDataLen != sizeof(LONG) ||

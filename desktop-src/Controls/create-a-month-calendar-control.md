@@ -66,7 +66,7 @@ HRESULT CreateMonthCalDialog(HWND hwndOwner)
     // Load the window class.
     icex.dwSize = sizeof(icex);
     icex.dwICC  = ICC_DATE_CLASSES;
-    InitCommonControlsEx(&amp;icex);
+    InitCommonControlsEx(&icex);
 
     // Create a modeless dialog box to hold the control.
     hwndDlg = CreateDialog(g_hInst,
@@ -94,7 +94,7 @@ HRESULT CreateMonthCalDialog(HWND hwndOwner)
         return HRESULT_FROM_WIN32(GetLastError()); 
                      
     // Get the size required to show an entire month.
-    MonthCal_GetMinReqRect(hwndMonthCal, &amp;rc);
+    MonthCal_GetMinReqRect(hwndMonthCal, &rc);
 
     // Resize the control now that the size values have been obtained.
     SetWindowPos(hwndMonthCal, NULL, LEFT, TOP, 

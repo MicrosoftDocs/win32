@@ -30,7 +30,7 @@ Calls the depth stencil state ([**D3D12\_DEPTH\_STENCIL\_DESC1**](/windows/deskt
 
 ```C++
 void DepthStencilState1Cb(
-  [ref] const D3D12_DEPTH_STENCIL_DESC1 &amp;DepthStencilState
+  [ref] const D3D12_DEPTH_STENCIL_DESC1 &DepthStencilState
 );
 ```
 

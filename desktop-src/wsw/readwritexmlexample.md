@@ -52,14 +52,14 @@ static PurchaseOrderDictionary purchaseOrderDictionary =
 {
     { 
         { 0x89d3da8b, 0xec46, 0x4fe8, { 0x9a, 0xb4, 0x48, 0x62, 0xb2, 0x69, 0x71, 0x8a } },
-        &amp;purchaseOrderDictionary.quantity,
+        &purchaseOrderDictionary.quantity,
         4, 
         TRUE 
     },
-    WS_XML_STRING_DICTIONARY_VALUE("quantity", &amp;purchaseOrderDictionary.dictionary, 0),
-    WS_XML_STRING_DICTIONARY_VALUE("productName", &amp;purchaseOrderDictionary.dictionary, 1),
-    WS_XML_STRING_DICTIONARY_VALUE("PurchaseOrderType", &amp;purchaseOrderDictionary.dictionary, 2),
-    WS_XML_STRING_DICTIONARY_VALUE("http://example.com", &amp;purchaseOrderDictionary.dictionary, 3),
+    WS_XML_STRING_DICTIONARY_VALUE("quantity", &purchaseOrderDictionary.dictionary, 0),
+    WS_XML_STRING_DICTIONARY_VALUE("productName", &purchaseOrderDictionary.dictionary, 1),
+    WS_XML_STRING_DICTIONARY_VALUE("PurchaseOrderType", &purchaseOrderDictionary.dictionary, 2),
+    WS_XML_STRING_DICTIONARY_VALUE("http://example.com", &purchaseOrderDictionary.dictionary, 3),
 };
 
 
@@ -79,7 +79,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -87,7 +87,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -142,7 +142,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -154,7 +154,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -165,7 +165,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateWriter(
         NULL, 
         0, 
-        &amp;xmlWriter, 
+        &xmlWriter, 
         error);
     if (FAILED(hr))
     {
@@ -177,7 +177,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         heap, 
         NULL, 
         0, 
-        &amp;xmlBuffer, 
+        &xmlBuffer, 
         error);
     if (FAILED(hr))
     {
@@ -207,9 +207,9 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         // Write purchase order
         hr = WsWriteElement(
             xmlWriter, 
-            &amp;PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
+            &PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
             WS_WRITE_REQUIRED_VALUE,
-            &amp;purchaseOrder, 
+            &purchaseOrder, 
             sizeof(purchaseOrder), 
             error);
     
@@ -221,7 +221,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     else
     {
         // Write purchase order start element
-        hr = WsWriteStartElement(xmlWriter, NULL, &amp;purchaseOrderDictionary.purchaseOrderType, &amp;purchaseOrderDictionary.purchaseOrderNamespace, error);
+        hr = WsWriteStartElement(xmlWriter, NULL, &purchaseOrderDictionary.purchaseOrderType, &purchaseOrderDictionary.purchaseOrderNamespace, error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -229,13 +229,13 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
         // Write quantity element
         int quantity = 1;
-        hr = WsWriteStartElement(xmlWriter, NULL, &amp;purchaseOrderDictionary.quantity, &amp;purchaseOrderDictionary.purchaseOrderNamespace, error);
+        hr = WsWriteStartElement(xmlWriter, NULL, &purchaseOrderDictionary.quantity, &purchaseOrderDictionary.purchaseOrderNamespace, error);
         if (FAILED(hr))
         {
             goto Exit;
         }
     
-        hr = WsWriteValue(xmlWriter, WS_INT32_VALUE_TYPE, &amp;quantity, sizeof(quantity), error);
+        hr = WsWriteValue(xmlWriter, WS_INT32_VALUE_TYPE, &quantity, sizeof(quantity), error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -248,7 +248,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         }
     
         // Write product name start element
-        hr = WsWriteStartElement(xmlWriter, NULL, &amp;purchaseOrderDictionary.productName, &amp;purchaseOrderDictionary.purchaseOrderNamespace, error);
+        hr = WsWriteStartElement(xmlWriter, NULL, &purchaseOrderDictionary.productName, &purchaseOrderDictionary.purchaseOrderNamespace, error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -284,7 +284,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     }
     
     // Create an XML reader
-    hr = WsCreateReader(NULL, 0, &amp;xmlReader, error);
+    hr = WsCreateReader(NULL, 0, &xmlReader, error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -301,8 +301,8 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     {
         // Read purchase order into heap
         _PurchaseOrderType* purchaseOrder;
-        hr = WsReadElement(xmlReader, &amp;PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
-            WS_READ_REQUIRED_POINTER, heap, &amp;purchaseOrder, sizeof(purchaseOrder), error);
+        hr = WsReadElement(xmlReader, &PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
+            WS_READ_REQUIRED_POINTER, heap, &purchaseOrder, sizeof(purchaseOrder), error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -320,7 +320,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     else
     {
         // Read to purchase order element
-        hr = WsReadToStartElement(xmlReader, &amp;purchaseOrderDictionary.purchaseOrderType, &amp;purchaseOrderDictionary.purchaseOrderNamespace, NULL, error);
+        hr = WsReadToStartElement(xmlReader, &purchaseOrderDictionary.purchaseOrderType, &purchaseOrderDictionary.purchaseOrderNamespace, NULL, error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -334,7 +334,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         }
     
         // Read to quantity element
-        hr = WsReadToStartElement(xmlReader, &amp;purchaseOrderDictionary.quantity, &amp;purchaseOrderDictionary.purchaseOrderNamespace, NULL, error);
+        hr = WsReadToStartElement(xmlReader, &purchaseOrderDictionary.quantity, &purchaseOrderDictionary.purchaseOrderNamespace, NULL, error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -348,7 +348,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
             goto Exit;
         }
     
-        hr = WsReadValue(xmlReader, WS_INT32_VALUE_TYPE, &amp;quantity, sizeof(quantity), error);
+        hr = WsReadValue(xmlReader, WS_INT32_VALUE_TYPE, &quantity, sizeof(quantity), error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -361,7 +361,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         }
     
         // Read to product name element
-        hr = WsReadToStartElement(xmlReader, &amp;purchaseOrderDictionary.productName, &amp;purchaseOrderDictionary.purchaseOrderNamespace, NULL, error);
+        hr = WsReadToStartElement(xmlReader, &purchaseOrderDictionary.productName, &purchaseOrderDictionary.purchaseOrderNamespace, NULL, error);
         if (FAILED(hr))
         {
             goto Exit;
@@ -382,7 +382,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         {
             // Read next block of chars
             ULONG charsRead;
-            hr = WsReadChars(xmlReader, &amp;productName[length], available, &amp;charsRead, error);
+            hr = WsReadChars(xmlReader, &productName[length], available, &charsRead, error);
             if (FAILED(hr))
             {
                 goto Exit;

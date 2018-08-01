@@ -29,11 +29,11 @@ A helper structure to enable easy initialization of a [**D3D12\_DEPTH\_STENCIL\_
 ```C++
 struct CD3DX12_DEPTH_STENCIL_DESC  : public D3D12_DEPTH_STENCIL_DESC{
    CD3DX12_DEPTH_STENCIL_DESC();
-   explicit CD3DX12_DEPTH_STENCIL_DESC(const D3D12_DEPTH_STENCIL_DESC&amp; o);
+   explicit CD3DX12_DEPTH_STENCIL_DESC(const D3D12_DEPTH_STENCIL_DESC& o);
    explicit CD3DX12_DEPTH_STENCIL_DESC(CD3DX12_DEFAULT);
    explicit CD3DX12_DEPTH_STENCIL_DESC(BOOL depthEnable, D3D12_DEPTH_WRITE_MASK depthWriteMask, D3D12_COMPARISON_FUNC depthFunc, BOOL stencilEnable, UINT8 stencilReadMask, UINT8 stencilWriteMask, D3D12_STENCIL_OP frontStencilFailOp, D3D12_STENCIL_OP frontStencilDepthFailOp, D3D12_STENCIL_OP frontStencilPassOp, D3D12_COMPARISON_FUNC frontStencilFunc, D3D12_STENCIL_OP backStencilFailOp, D3D12_STENCIL_OP backStencilDepthFailOp, D3D12_STENCIL_OP backStencilPassOp, D3D12_COMPARISON_FUNC backStencilFunc);
    ~CD3DX12_DEPTH_STENCIL_DESC();
-   operator const D3D12_DEPTH_STENCIL_DESC&amp;() const;
+   operator const D3D12_DEPTH_STENCIL_DESC&() const;
 };
 ```
 

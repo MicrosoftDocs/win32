@@ -26,7 +26,7 @@ For the CPluginWindow class to have access to the private member variable m\_spC
 ```C++
 class ATL_NO_VTABLE CSearch : 
     public CComObjectRootEx<CComSingleThreadModel>,
-    public CComCoClass<CSearch, &amp;CLSID_Search>,
+    public CComCoClass<CSearch, &CLSID_Search>,
     public IWMPPluginUI
 {
 

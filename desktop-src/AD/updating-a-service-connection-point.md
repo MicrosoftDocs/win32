@@ -48,8 +48,8 @@ PADS_ATTR_INFO  pAttribs;
 ADSVALUE        dnsname,binding;
 
 ADS_ATTR_INFO   Attribs[]={
-    {TEXT("serviceDnsName"),ADS_ATTR_UPDATE,ADSTYPE_CASE_IGNORE_STRING,&amp;dnsname,1},
-    {TEXT("serviceBindingInformation"),ADS_ATTR_UPDATE,ADSTYPE_CASE_IGNORE_STRING,&amp;binding,1},
+    {TEXT("serviceDnsName"),ADS_ATTR_UPDATE,ADSTYPE_CASE_IGNORE_STRING,&dnsname,1},
+    {TEXT("serviceBindingInformation"),ADS_ATTR_UPDATE,ADSTYPE_CASE_IGNORE_STRING,&binding,1},
 };
 
 // Open the service registry key.
@@ -58,7 +58,7 @@ dwStat = RegOpenKeyEx(
         TEXT("Software\\Microsoft\\Windows 2000 Auth-O-Matic"),
         0,
         KEY_QUERY_VALUE,
-        &amp;hReg);
+        &hReg);
 if (dwStat != NO_ERROR) 
 {
     ReportServiceError("RegOpenKeyEx failed", dwStat);
@@ -67,8 +67,8 @@ if (dwStat != NO_ERROR)
 
 // Get the GUID binding string used to bind to the service SCP.
 dwLen = sizeof(szAdsPath);
-dwStat = RegQueryValueEx(hReg, TEXT("GUIDBindingString"), 0, &amp;dwType, 
-                             (LPBYTE)szAdsPath, &amp;dwLen);
+dwStat = RegQueryValueEx(hReg, TEXT("GUIDBindingString"), 0, &dwType, 
+                             (LPBYTE)szAdsPath, &dwLen);
 if (dwStat != NO_ERROR) {
     ReportServiceError("RegQueryValueEx failed", dwStat);
     return dwStat;
@@ -77,7 +77,7 @@ if (dwStat != NO_ERROR) {
 RegCloseKey(hReg);
 
 // Bind to the SCP.
-hr = ADsGetObject(szAdsPath, IID_IDirectoryObject, (void **)&amp;pObj);
+hr = ADsGetObject(szAdsPath, IID_IDirectoryObject, (void **)&pObj);
 if (FAILED(hr)) 
 {
     char szMsg1[1024];
@@ -93,7 +93,7 @@ if (FAILED(hr))
 }
 
 // Retrieve attributes from the SCP.
-hr = pObj->GetObjectAttributes(pszAttrs, 2, &amp;pAttribs, &amp;dwAttrs);
+hr = pObj->GetObjectAttributes(pszAttrs, 2, &pAttribs, &dwAttrs);
 if (FAILED(hr)) {
     ReportServiceError("GetObjectAttributes failed", hr);
     pObj->Release();
@@ -103,7 +103,7 @@ if (FAILED(hr)) {
 // Get the current port and DNS name of the host server.
 _stprintf_s(szPort,TEXT("%d"),usPort);
 dwLen = sizeof(szServer);
-if (!GetComputerNameEx(ComputerNameDnsFullyQualified,szServer,&amp;dwLen)) 
+if (!GetComputerNameEx(ComputerNameDnsFullyQualified,szServer,&dwLen)) 
 {
     pObj->Release();
     return GetLastError();
@@ -113,7 +113,7 @@ if (!GetComputerNameEx(ComputerNameDnsFullyQualified,szServer,&amp;dwLen))
 // the SCP. Update the SCP only if nothing has changed.
 for (i=0; i<(LONG)dwAttrs; i++) 
 {
-    if ((_tcscmp(TEXT("serviceDNSName"),pAttribs[i].pszAttrName)==0) &amp;&amp;
+    if ((_tcscmp(TEXT("serviceDNSName"),pAttribs[i].pszAttrName)==0) &&
         (pAttribs[i].dwADsType == ADSTYPE_CASE_IGNORE_STRING))
     {
         if (_tcscmp(szServer,pAttribs[i].pADsValues->CaseIgnoreString) != 0)
@@ -126,7 +126,7 @@ for (i=0; i<(LONG)dwAttrs; i++)
 
     }
 
-    if ((_tcscmp(TEXT("serviceBindingInformation"),pAttribs[i].pszAttrName)==0) &amp;&amp;
+    if ((_tcscmp(TEXT("serviceBindingInformation"),pAttribs[i].pszAttrName)==0) &&
         (pAttribs[i].dwADsType == ADSTYPE_CASE_IGNORE_STRING))
     {
         if (_tcscmp(szPort,pAttribs[i].pADsValues->CaseIgnoreString) != 0)
@@ -149,7 +149,7 @@ if (bUpdate)
     dnsname.CaseIgnoreString    = szServer;
     binding.dwType              = ADSTYPE_CASE_IGNORE_STRING;
     binding.CaseIgnoreString    = szPort;
-    hr = pObj->SetObjectAttributes(Attribs, 2, &amp;dwAttrs);
+    hr = pObj->SetObjectAttributes(Attribs, 2, &dwAttrs);
     if (FAILED(hr)) 
     {
         ReportServiceError("ScpUpdate: Failed to set SCP values.", hr);

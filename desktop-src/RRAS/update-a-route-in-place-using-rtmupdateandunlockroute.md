@@ -32,7 +32,7 @@ Status = RtmLockRoute(RtmRegHandle,
                       RouteHandle,
                       TRUE,
                       TRUE,
-                      &amp;RoutePointer);
+                      &RoutePointer);
 
 if (Status == NO_ERROR)
 {
@@ -57,12 +57,12 @@ if (Status == NO_ERROR)
     NextHop1 = RoutePointer->NextHopsList.NextHop[0];
 
     // Explicitly dereference the old next hop
-    RtmReleaseNextHops(RtmRegHandle, 1, &amp;NextHop1);
+    RtmReleaseNextHops(RtmRegHandle, 1, &NextHop1);
 
     RoutePointer->NextHopsList.NextHop[0] = NextHop2;
 
     // Explicitly reference next hop being added
-    RtmReferenceHandles(RtmRegHandle, 1, &amp;NextHop2);
+    RtmReferenceHandles(RtmRegHandle, 1, &NextHop2);
 
     // Call the routing table manager to indicate that route information
     // has changed, and that its position might
@@ -75,7 +75,7 @@ if (Status == NO_ERROR)
                                      NULL,
                                      0,
                                      NULL,
-                                     &amp;ChangeFlags);
+                                     &ChangeFlags);
     ASSERT(Status == NO_ERROR);
 }
 ```

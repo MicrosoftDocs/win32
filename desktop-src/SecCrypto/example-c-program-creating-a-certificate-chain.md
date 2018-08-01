@@ -81,8 +81,8 @@ ChainConfig.CycleDetectionModulus = 0;
 // Create the nondefault certificate chain engine.
 
 if(CertCreateCertificateChainEngine(
-         &amp;ChainConfig,
-         &amp;hChainEngine))
+         &ChainConfig,
+         &hChainEngine))
 {
     printf("A chain engine has been created.\n");
 }
@@ -136,12 +136,12 @@ if(CertGetCertificateChain(
     pCertContext,          // pointer to the end certificate
     NULL,                  // use the default time
     NULL,                  // search no additional stores
-    &amp;ChainPara,            // use AND logic and enhanced key usage 
+    &ChainPara,            // use AND logic and enhanced key usage 
                            //  as indicated in the ChainPara 
                            //  data structure
     dwFlags,
     NULL,                  // currently reserved
-    &amp;pChainContext))       // return a pointer to the chain created
+    &pChainContext))       // return a pointer to the chain created
 {
     printf("The chain has been created. \n");
 }

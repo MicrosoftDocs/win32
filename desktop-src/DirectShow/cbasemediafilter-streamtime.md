@@ -30,7 +30,7 @@ The `StreamTime` method retrieves the current stream time.
 
 ```C++
 virtual HRESULT StreamTime(
-  [ref] CRefTime &amp;rtStream
+  [ref] CRefTime &rtStream
 );
 ```
 

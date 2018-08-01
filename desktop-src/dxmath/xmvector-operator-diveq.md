@@ -37,7 +37,7 @@ Division Assignment operator.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMVECTOR::operator /= (XMVECTOR&amp;,float)</strong>](https://msdn.microsoft.com/en-us/library/Ee421377(v=VS.85).aspx)</td>
+<td style="text-align: left;">[<strong>XMVECTOR::operator /= (XMVECTOR&,float)</strong>](https://msdn.microsoft.com/en-us/library/Ee421377(v=VS.85).aspx)</td>
 <td style="text-align: left;">Divides an <code>XMVECTOR</code> instance by a floating point value and returns a reference to the updated instance. <br/> The <code>operator /=</code> divides each component of the current instance of [<strong>XMVECTOR Data Type</strong>](xmvector-data-type.md) by a specified floating point value, returning a reference to the updated current instance. <br/>
 <blockquote>
 [!Note]<br />
@@ -46,7 +46,7 @@ This operator is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMVECTOR::operator /= (XMVECTOR&amp;,XMVECTOR)</strong>](https://msdn.microsoft.com/en-us/library/Ee421378(v=VS.85).aspx)</td>
+<td style="text-align: left;">[<strong>XMVECTOR::operator /= (XMVECTOR&,XMVECTOR)</strong>](https://msdn.microsoft.com/en-us/library/Ee421378(v=VS.85).aspx)</td>
 <td style="text-align: left;">Divides one <code>XMVECTOR</code> instance by a second instance, returning a reference to the updated initial instance. <br/> The <code>operator /=</code> divides each component of the current instance of [<strong>XMVECTOR Data Type</strong>](xmvector-data-type.md) by the corresponding component in a second specified instance of <code>XMVECTOR</code>, returning a reference to the updated initial instance. <br/>
 <blockquote>
 [!Note]<br />

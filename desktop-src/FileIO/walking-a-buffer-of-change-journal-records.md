@@ -76,9 +76,9 @@ void main()
           FSCTL_QUERY_USN_JOURNAL, 
           NULL,
           0,
-          &amp;JournalData,
+          &JournalData,
           sizeof(JournalData),
-          &amp;dwBytes,
+          &dwBytes,
           NULL) )
    {
       printf( "Query journal failed (%d)\n", GetLastError());
@@ -96,11 +96,11 @@ void main()
 
       if( !DeviceIoControl( hVol, 
             FSCTL_READ_USN_JOURNAL, 
-            &amp;ReadData,
+            &ReadData,
             sizeof(ReadData),
-            &amp;Buffer,
+            &Buffer,
             BUF_LEN,
-            &amp;dwBytes,
+            &dwBytes,
             NULL) )
       {
          printf( "Read journal failed (%d)\n", GetLastError());
@@ -131,7 +131,7 @@ void main()
                   UsnRecord->RecordLength); 
       }
       // Update starting USN for next call
-      ReadData.StartUsn = *(USN *)&amp;Buffer; 
+      ReadData.StartUsn = *(USN *)&Buffer; 
    }
 
    CloseHandle(hVol);

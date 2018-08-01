@@ -53,7 +53,7 @@ void ReversePlay()
     // Locate a "RIFF" chunk with a "WAVE" form type to make 
     // sure the file is a waveform-audio file. 
     mmckinfoParent.fccType = mmioFOURCC('W', 'A', 'V', 'E'); 
-    if (mmioDescend(hmmio, (LPMMCKINFO) &amp;mmckinfoParent, NULL, 
+    if (mmioDescend(hmmio, (LPMMCKINFO) &mmckinfoParent, NULL, 
         MMIO_FINDRIFF)) 
     { 
         Error("This is not a waveform-audio file."); 
@@ -63,7 +63,7 @@ void ReversePlay()
     // Find the "FMT" chunk (form type "FMT"); it must be 
     // a subchunk of the "RIFF" chunk. 
     mmckinfoSubchunk.ckid = mmioFOURCC('f', 'm', 't', ' '); 
-    if (mmioDescend(hmmio, &amp;mmckinfoSubchunk, &amp;mmckinfoParent, 
+    if (mmioDescend(hmmio, &mmckinfoSubchunk, &mmckinfoParent, 
         MMIO_FINDCHUNK)) 
     { 
         Error("Waveform-audio file has no "FMT" chunk."); 
@@ -88,13 +88,13 @@ void ReversePlay()
     } 
  
     // Ascend out of the "FMT" subchunk. 
-    mmioAscend(hmmio, &amp;mmckinfoSubchunk 0); 
+    mmioAscend(hmmio, &mmckinfoSubchunk 0); 
  
     // Find the data subchunk. The current file position should be at 
     // the beginning of the data chunk; however, you should not make 
     // this assumption. Use mmioDescend to locate the data chunk. 
     mmckinfoSubchunk.ckid = mmioFOURCC('d', 'a', 't', 'a'); 
-    if (mmioDescend(hmmio, &amp;mmckinfoSubchunk, &amp;mmckinfoParent, 
+    if (mmioDescend(hmmio, &mmckinfoSubchunk, &mmckinfoParent, 
         MMIO_FINDCHUNK)) 
     { 
         Error("Waveform-audio file has no data chunk."); 

@@ -30,7 +30,7 @@ The `Advise` method dispatches all requests that are scheduled for a specified t
 
 ```C++
 REFERENCE_TIME Advise(
-  [ref] const REFERENCE_TIME &amp;rtTime
+  [ref] const REFERENCE_TIME &rtTime
 );
 ```
 

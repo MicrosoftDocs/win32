@@ -76,7 +76,7 @@ void wmain(void)
 
     // Create the trace session.
 
-    status = StartTrace((PTRACEHANDLE)&amp;SessionHandle, LOGSESSION_NAME, pSessionProperties);
+    status = StartTrace((PTRACEHANDLE)&SessionHandle, LOGSESSION_NAME, pSessionProperties);
     if (ERROR_SUCCESS != status)
     {
         wprintf(L"StartTrace() failed with %lu\n", status);
@@ -87,7 +87,7 @@ void wmain(void)
 
     status = EnableTraceEx2(
         SessionHandle,
-        (LPCGUID)&amp;ProviderGuid,
+        (LPCGUID)&ProviderGuid,
         EVENT_CONTROL_CODE_ENABLE_PROVIDER,
         TRACE_LEVEL_INFORMATION,
         0,
@@ -114,7 +114,7 @@ cleanup:
         {
             status = EnableTraceEx2(
                 SessionHandle,
-                (LPCGUID)&amp;ProviderGuid,
+                (LPCGUID)&ProviderGuid,
                 EVENT_CONTROL_CODE_DISABLE_PROVIDER,
                 TRACE_LEVEL_INFORMATION,
                 0,

@@ -98,9 +98,9 @@ The following code illustrates extracting the vertex and index buffers from the 
 
 ```
       ID3D10Buffer* vertexBuffer;
-      pDeviceObj->pMesh->GetDeviceVertexBuffer(0, &amp;vertexBuffer);
+      pDeviceObj->pMesh->GetDeviceVertexBuffer(0, &vertexBuffer);
       ID3D10Buffer* indexBuffer;
-      pDeviceObj->pMesh->GetDeviceIndexBuffer(&amp;indexBuffer);
+      pDeviceObj->pMesh->GetDeviceIndexBuffer(&indexBuffer);
       
 ```
 

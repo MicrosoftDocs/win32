@@ -48,7 +48,7 @@ CComPtr<IPortableDevicePropVariantCollection> pObjectIDs;
 
 if (SUCCEEDED(hr))
 {
-    hr = pDevice->Content(&amp;pContent);
+    hr = pDevice->Content(&pContent);
     if (FAILED(hr))
     {
         printf("! Failed to get IPortableDeviceContent from IPortableDevice, hr = 0x%lx\n",hr);
@@ -59,7 +59,7 @@ if (SUCCEEDED(hr))
 
 if (SUCCEEDED(hr))
 {
-    hr = pContent->Properties(&amp;pProperties);
+    hr = pContent->Properties(&pProperties);
     if (FAILED(hr))
     {
         printf("! Failed to get IPortableDeviceProperties from IPortableDevice, hr = 0x%lx\n",hr);
@@ -70,7 +70,7 @@ if (SUCCEEDED(hr))
 
 if (SUCCEEDED(hr))
 {
-    hr = pProperties->QueryInterface(IID_PPV_ARGS(&amp;pPropertiesBulk));
+    hr = pProperties->QueryInterface(IID_PPV_ARGS(&pPropertiesBulk));
     if (FAILED(hr))
     {
         printf("This driver does not support BULK property operations.\n");
@@ -112,7 +112,7 @@ if (SUCCEEDED(hr))
 {
     hr = CreateIPortableDevicePropVariantCollectionWithAllObjectIDs(pDevice,
                                                                     pContent,
-                                                                    &amp;pObjectIDs);
+                                                                    &pObjectIDs);
 }
 ```
 
@@ -132,7 +132,7 @@ These steps are demonstrated in the following code excerpt from the sample appli
        hr = pPropertiesBulk->QueueGetValuesByObjectList(pObjectIDs,
                                                         pPropertiesToRead,
                                                         pCallback,
-                                                        &amp;guidContext);
+                                                        &guidContext);
 
 
        if(SUCCEEDED(hr))

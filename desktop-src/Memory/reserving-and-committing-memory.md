@@ -101,7 +101,7 @@ VOID _tmain(VOID)
     DWORD i;                      // Generic counter
     SYSTEM_INFO sSysInfo;         // Useful information about the system
 
-    GetSystemInfo(&amp;sSysInfo);     // Initialize the structure.
+    GetSystemInfo(&sSysInfo);     // Initialize the structure.
 
     _tprintf (TEXT("This computer has page size %d.\n"), sSysInfo.dwPageSize);
 

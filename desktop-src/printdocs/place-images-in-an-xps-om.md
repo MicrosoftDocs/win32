@@ -33,16 +33,16 @@ If the source image is not available in the XPS OM as an image resource, first c
      XPS_RECT    rect = {0.0f, 0.0f, 0.0f, 0.0f}; // set to image size
 
     hr = xpsFactory->CreateReadOnlyStreamOnFile ( 
-            imageFileName, &amp;imageStream );
+            imageFileName, &imageStream );
 
-    hr = xpsFactory->CreatePartUri( imagePartName, &amp;imagePartUri );
+    hr = xpsFactory->CreatePartUri( imagePartName, &imagePartUri );
 
     imageType; // set to type of image being read in
     hr = xpsFactory->CreateImageResource ( 
         imageStream,
         imageType,
         imagePartUri,
-        &amp;imageResource);
+        &imageResource);
     imagePartUri->Release();
     imageStream->Release();
 
@@ -97,13 +97,13 @@ If the source image is available in the XPS OM as an image resource, it can be u
     viewPort.height = rect.height;
 
     // Create the image brush.
-    hr = xpsFactory->CreateImageBrush(imageResource, &amp;viewBox, &amp;viewPort, 
-        reinterpret_cast<IXpsOMImageBrush**>(&amp;imageBrush));
+    hr = xpsFactory->CreateImageBrush(imageResource, &viewBox, &viewPort, 
+        reinterpret_cast<IXpsOMImageBrush**>(&imageBrush));
 
     // Create the path that describes the outline of the image on the page.
     //  This step uses the function described in the next code example.
-    hr = CreateRectanglePath(xpsFactory, &amp;rect,
-        reinterpret_cast<IXpsOMPath**>(&amp;imageRectPath));
+    hr = CreateRectanglePath(xpsFactory, &rect,
+        reinterpret_cast<IXpsOMPath**>(&imageRectPath));
 
     // Set the accessibility description for the path object as required.
     hr = imageRectPath->SetAccessibilityShortDescription( shortDescText );
@@ -112,7 +112,7 @@ If the source image is available in the XPS OM as an image resource, it can be u
     hr = imageRectPath->SetFillBrushLocal( imageBrush );
 
     // Get the list of visuals for this page...
-    hr = xpsPage->GetVisuals( &amp;pageVisuals );
+    hr = xpsPage->GetVisuals( &pageVisuals );
 
     // ...and add the completed path to the list.
     hr = pageVisuals->Append( imageRectPath );
@@ -166,15 +166,15 @@ CreateRectanglePath(
     // Create a closed geometry figure using the three 
     //  segments defined above.
 
-    hr = xpsFactory->CreateGeometryFigure( &amp;startPoint, &amp;rectFigure );
+    hr = xpsFactory->CreateGeometryFigure( &startPoint, &rectFigure );
     hr = rectFigure->SetIsClosed( TRUE );
     hr = rectFigure->SetIsFilled( TRUE );
     hr = rectFigure->SetSegments( 3, 6, 
             segmentTypes, segmentData, segmentStrokes );
 
     // Create a geometry that consists of the figure created above.
-    hr = xpsFactory->CreateGeometry( &amp;imageRectGeometry );
-    hr = imageRectGeometry->GetFigures( &amp;geomFigureCollection );
+    hr = xpsFactory->CreateGeometry( &imageRectGeometry );
+    hr = imageRectGeometry->GetFigures( &geomFigureCollection );
     hr = geomFigureCollection->Append( rectFigure );
 
     // Create the path that consists of the geometry created above

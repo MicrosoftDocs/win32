@@ -56,7 +56,7 @@ STDMETHODIMP CMyClass::Results(
 {
     // Check the status of the analysis operation.
     VARIANT_BOOL bResult = VARIANT_FALSE;
-    HRESULT hr = pAnalysisStatus->IsSuccessful(&amp;bResult);
+    HRESULT hr = pAnalysisStatus->IsSuccessful(&bResult);
 
     if( SUCCEEDED(hr) )
     {
@@ -68,12 +68,12 @@ STDMETHODIMP CMyClass::Results(
         {
             // Get the analysis warnings.
             IAnalysisWarnings* pAnalysisWarnings = NULL;
-            hr = pAnalysisStatus->GetWarnings(&amp;pAnalysisWarnings);
+            hr = pAnalysisStatus->GetWarnings(&pAnalysisWarnings);
             if (SUCCEEDED(hr))
             {
                 // Iterate through the warning collection.
                 ULONG warningCount = 0;
-                hr = pAnalysisWarnings->GetCount(&amp;warningCount);
+                hr = pAnalysisWarnings->GetCount(&warningCount);
                 if (SUCCEEDED(hr))
                 {
                     IAnalysisWarning *pAnalysisWarning = NULL;
@@ -82,13 +82,13 @@ STDMETHODIMP CMyClass::Results(
                     {
                         // Get an analysis warning.
                         hr = pAnalysisWarnings->GetAnalysisWarning(
-                            index, &amp;pAnalysisWarning);
+                            index, &pAnalysisWarning);
 
                         if (SUCCEEDED(hr))
                         {
                             // Get the warning code for the warning.
                             hr = pAnalysisWarning->GetWarningCode(
-                                &amp;analysisWarningCode);
+                                &analysisWarningCode);
 
                             if (SUCCEEDED(hr))
                             {

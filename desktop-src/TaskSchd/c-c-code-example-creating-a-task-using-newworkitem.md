@@ -42,7 +42,7 @@ int main(int argc, char **argv)
                            NULL,
                            CLSCTX_INPROC_SERVER,
                            IID_ITaskScheduler,
-                           (void **) &amp;pITS);
+                           (void **) &pITS);
      if (FAILED(hr))
      {
         CoUninitialize();
@@ -66,7 +66,7 @@ int main(int argc, char **argv)
   hr = pITS->NewWorkItem(pwszTaskName,         // Name of task
                          CLSID_CTask,          // Class identifier 
                          IID_ITask,            // Interface identifier
-                         (IUnknown**)&amp;pITask); // Address of task 
+                         (IUnknown**)&pITask); // Address of task 
                                                                                                                                                                                             //  interface
   
   
@@ -86,7 +86,7 @@ int main(int argc, char **argv)
   /////////////////////////////////////////////////////////////////
   
   hr = pITask->QueryInterface(IID_IPersistFile,
-                              (void **)&amp;pIPersistFile);
+                              (void **)&pIPersistFile);
   
   pITask->Release();
   if (FAILED(hr))

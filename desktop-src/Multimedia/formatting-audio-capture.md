@@ -27,7 +27,7 @@ wfex.nBlockAlign = 2;
 wfex.wBitsPerSample = 8;
 wfex.cbSize = 0;
 
-capSetAudioFormat(hWndC, &amp;wfex, sizeof(WAVEFORMATEX)); 
+capSetAudioFormat(hWndC, &wfex, sizeof(WAVEFORMATEX)); 
  
 ```
 

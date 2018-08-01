@@ -60,14 +60,14 @@ HRESULT CRleFilter::CheckTransform(
 
     // Compare source and target rectangles.
     RECT rcImg;
-    SetRect(&amp;rcImg, 0, 0, pBmiIn->biWidth, pBmiIn->biHeight);
-    RECT *prcSrc = &amp;((VIDEOINFOHEADER*)(mtIn->pbFormat))->rcSource;
-    RECT *prcTarget = &amp;((VIDEOINFOHEADER*)(mtOut->pbFormat))->rcTarget;
-    if (!IsRectEmpty(prcSrc) &amp;&amp; !EqualRect(prcSrc, &amp;rcImg))
+    SetRect(&rcImg, 0, 0, pBmiIn->biWidth, pBmiIn->biHeight);
+    RECT *prcSrc = &((VIDEOINFOHEADER*)(mtIn->pbFormat))->rcSource;
+    RECT *prcTarget = &((VIDEOINFOHEADER*)(mtOut->pbFormat))->rcTarget;
+    if (!IsRectEmpty(prcSrc) && !EqualRect(prcSrc, &rcImg))
     {
         return VFW_E_INVALIDMEDIATYPE;
     }
-    if (!IsRectEmpty(prcTarget) &amp;&amp; !EqualRect(prcTarget, &amp;rcImg))
+    if (!IsRectEmpty(prcTarget) && !EqualRect(prcTarget, &rcImg))
     {
         return VFW_E_INVALIDMEDIATYPE;
     }

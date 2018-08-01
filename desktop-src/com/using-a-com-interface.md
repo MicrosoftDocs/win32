@@ -29,7 +29,7 @@ void CustomRpt(char *pszObject)
     StringCchPrintf(wszObject, 128, L"%hs", pszObject); 
  
     // Get a file moniker for the object (a *.smp file). 
-    hr = CreateFileMoniker(wszObject, &amp;pmkObject); 
+    hr = CreateFileMoniker(wszObject, &pmkObject); 
  
     if(FAILED(hr)) 
     { 
@@ -41,7 +41,7 @@ void CustomRpt(char *pszObject)
     // a call to BindToObject(). It has the net result of binding the 
     // interface (specified by the IID) to the moniker. 
  
-    hr = BindMoniker(pmkObject, 0, IID_IUnknown, (void **)&amp;pIUnk); 
+    hr = BindMoniker(pmkObject, 0, IID_IUnknown, (void **)&pIUnk); 
     if (FAILED(hr)) 
     { 
         printf("Client: BindMoniker failed (%x)\n", hr); 
@@ -51,7 +51,7 @@ void CustomRpt(char *pszObject)
     // Try a couple QueryInterface calls into the object code; first a 
     // QueryInterface to IPersistFile... 
  
-    hr = pIUnk->QueryInterface(IID_IPersistFile, (void **)&amp;pIPersistFile); 
+    hr = pIUnk->QueryInterface(IID_IPersistFile, (void **)&pIPersistFile); 
  
     if (FAILED(hr)) { 
         printf("Client: QueryInterface IPersistFile failed (%x)\n", hr); 
@@ -60,7 +60,7 @@ void CustomRpt(char *pszObject)
     } 
  
     // Followed by a QueryInterface to ICustomInterface. 
-    hr = pIUnk->QueryInterface(IID_ICustomInterface, (void **)&amp;pICustomInterface); 
+    hr = pIUnk->QueryInterface(IID_ICustomInterface, (void **)&pICustomInterface); 
  
     if (FAILED(hr)) { 
         printf("Client: QueryInterface failed (%x)\n", hr); 

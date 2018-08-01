@@ -114,7 +114,7 @@ Find the following code in NetworkPlugin.cpp:
 
 
 ```C++
-hr = m_spCore->QueryInterface(&amp;spConnectionContainer);
+hr = m_spCore->QueryInterface(&spConnectionContainer);
 ```
 
 
@@ -123,7 +123,7 @@ Modify the code so that it looks like this:
 
 
 ```C++
-hr = m_spCore->QueryInterface(__uuidof(IConnectionPointContainer), (void**)&amp;spConnectionContainer);
+hr = m_spCore->QueryInterface(__uuidof(IConnectionPointContainer), (void**)&spConnectionContainer);
 ```
 
 

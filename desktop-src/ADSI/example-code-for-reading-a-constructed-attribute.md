@@ -22,7 +22,7 @@ The following code example shows a method that can be used to retrieve an attrib
 
 ```VB
 Public Function GetAttribute(oObject As IADs, AttributeName As String) As String
-    Const E_ADS_PROPERTY_NOT_FOUND = &amp;H8000500D
+    Const E_ADS_PROPERTY_NOT_FOUND = &H8000500D
     
     On Error Resume Next
     
@@ -65,19 +65,19 @@ HRESULT GetAttribute(IADs *pads, BSTR bstrAttribute, VARIANT *pvar)
     CComVariant svar;
 
     // Attempt to get the attribute with IADs.Get.
-    hr = pads->Get(bstrAttribute, &amp;svar);
+    hr = pads->Get(bstrAttribute, &svar);
     if(E_ADS_PROPERTY_NOT_FOUND  == hr)
     {
         // Attempt to get the attribute with IADs.GetInfoEx and then IADs.Get.
 
         CComVariant svarArray;
-        hr = ADsBuildVarArrayStr(&amp;(LPWSTR)bstrAttribute, 1, &amp;svarArray);
+        hr = ADsBuildVarArrayStr(&(LPWSTR)bstrAttribute, 1, &svarArray);
         if (SUCCEEDED(hr))
         {
             hr = pads->GetInfoEx(svarArray, 0L);
             if(SUCCEEDED(hr))
             {
-                hr = pads->Get(bstrAttribute, &amp;svar);
+                hr = pads->Get(bstrAttribute, &svar);
             }
         }
 

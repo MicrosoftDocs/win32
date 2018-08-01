@@ -70,8 +70,8 @@ int main()
     }
 
     // Set a timer to call the timer routine in 10 seconds.
-    if (!CreateTimerQueueTimer( &amp;hTimer, hTimerQueue, 
-            (WAITORTIMERCALLBACK)TimerRoutine, &amp;arg , 10000, 0, 0))
+    if (!CreateTimerQueueTimer( &hTimer, hTimerQueue, 
+            (WAITORTIMERCALLBACK)TimerRoutine, &arg , 10000, 0, 0))
     {
         printf("CreateTimerQueueTimer failed (%d)\n", GetLastError());
         return 3;

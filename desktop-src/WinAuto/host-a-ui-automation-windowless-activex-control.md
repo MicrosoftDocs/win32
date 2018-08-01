@@ -72,7 +72,7 @@ A control container implements the [**IRawElementProviderWindowlessSite**](https
 
         for (LONG i = 0; i < 2; i++)
         {
-            SafeArrayPutElement(psa, &amp;i, (void*)&amp;(rId[i]));
+            SafeArrayPutElement(psa, &i, (void*)&(rId[i]));
         }
 
         *ppsaPrefix = psa;  
@@ -110,7 +110,7 @@ A control container implements the [**IRawElementProviderWindowlessSite**](https
 
                     // Call an application-defined function to retrieve the
                     // parent provider interface.
-                    hr = GetParentProvider(&amp;pSimple);  
+                    hr = GetParentProvider(&pSimple);  
                     if (SUCCEEDED(hr))  
                     {  
                         // Get the parent's IRawElementProviderFragment interface.

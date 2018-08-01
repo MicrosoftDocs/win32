@@ -59,7 +59,7 @@ DWORD SpnRegister(TCHAR *pszServiceAcctDN,
 
     // Bind to a domain controller. 
     // Get the domain for the current user.
-    if(GetUserNameEx(NameSamCompatible, szSamName, &amp;dwSize))
+    if(GetUserNameEx(NameSamCompatible, szSamName, &dwSize))
     {
         TCHAR *pWhack = _tcschr(szSamName, '\\');
         if(pWhack)
@@ -80,14 +80,14 @@ DWORD SpnRegister(TCHAR *pszServiceAcctDN,
         DS_IS_FLAT_NAME |
             DS_RETURN_DNS_NAME |
             DS_DIRECTORY_SERVICE_REQUIRED,
-        &amp;pDcInfo);
+        &pDcInfo);
     if(dwStatus != 0) 
     {
         return dwStatus;
     }
      
     // Bind to the domain controller.
-    dwStatus = DsBind(pDcInfo->DomainControllerName, NULL, &amp;hDs);
+    dwStatus = DsBind(pDcInfo->DomainControllerName, NULL, &hDs);
      
     // Free the DOMAIN_CONTROLLER_INFO buffer.
     NetApiBufferFree(pDcInfo);
@@ -105,7 +105,7 @@ DWORD SpnRegister(TCHAR *pszServiceAcctDN,
             (const TCHAR **)pspn);  // Array of SPNs.
 
     // Unbind the DS in any case.
-    DsUnBind(&amp;hDs);
+    DsUnBind(&hDs);
      
     return dwStatus;
 }

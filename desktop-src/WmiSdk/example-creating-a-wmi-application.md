@@ -109,7 +109,7 @@ int main(int argc, char **argv)
         CLSID_WbemLocator,             
         0, 
         CLSCTX_INPROC_SERVER, 
-        IID_IWbemLocator, (LPVOID *) &amp;pLoc);
+        IID_IWbemLocator, (LPVOID *) &pLoc);
  
     if (FAILED(hres))
     {
@@ -135,7 +135,7 @@ int main(int argc, char **argv)
         NULL,                    // Security flags                 
         0,                       // Authority       
         0,                       // Context object
-        &amp;pSvc                    // IWbemServices proxy
+        &pSvc                    // IWbemServices proxy
         );                              
     
     if (FAILED(hres))
@@ -184,7 +184,7 @@ int main(int argc, char **argv)
         bstr_t("SELECT * FROM Win32_Process"),
         WBEM_FLAG_FORWARD_ONLY | WBEM_FLAG_RETURN_IMMEDIATELY, 
         NULL,
-        &amp;pEnumerator);
+        &pEnumerator);
     
     if (FAILED(hres))
     {
@@ -204,7 +204,7 @@ int main(int argc, char **argv)
         while (pEnumerator)
         {
             hres = pEnumerator->Next(WBEM_INFINITE, 1, 
-                &amp;pclsObj, &amp;uReturn);
+                &pclsObj, &uReturn);
 
             if(0 == uReturn)
             {
@@ -214,9 +214,9 @@ int main(int argc, char **argv)
             VARIANT vtProp;
 
             // Get the value of the Name property
-            hres = pclsObj->Get(L"Name", 0, &amp;vtProp, 0, 0);
+            hres = pclsObj->Get(L"Name", 0, &vtProp, 0, 0);
             wcout << "Process Name : " << vtProp.bstrVal << endl;
-            VariantClear(&amp;vtProp);
+            VariantClear(&vtProp);
             
             pclsObj->Release();
             pclsObj = NULL;

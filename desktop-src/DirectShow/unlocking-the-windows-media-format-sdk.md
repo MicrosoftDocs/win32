@@ -47,14 +47,14 @@ CKeyProvider::CKeyProvider() : m_cRef(0)
 // IUnknown methods
 ULONG CKeyProvider::AddRef()
 {
-    return InterlockedIncrement(&amp;m_cRef);
+    return InterlockedIncrement(&m_cRef);
 }
 
 ULONG CKeyProvider::Release()
 {
     ASSERT(m_cRef > 0);
 
-    ULONG lCount = InterlockedDecrement(&amp;m_cRef);
+    ULONG lCount = InterlockedDecrement(&m_cRef);
     if (m_cRef == 0) 
     {
         delete this;
@@ -88,10 +88,10 @@ STDMETHODIMP CKeyProvider::QueryService(REFIID siid, REFIID riid, void **ppv)
 {
     if (!ppv) return E_POINTER;
 
-    if (siid == __uuidof(IWMReader) &amp;&amp; riid == IID_IUnknown) 
+    if (siid == __uuidof(IWMReader) && riid == IID_IUnknown) 
     {
         IUnknown *punkCert;
-        HRESULT hr = WMCreateCertificate(&amp;punkCert);
+        HRESULT hr = WMCreateCertificate(&punkCert);
         if (SUCCEEDED(hr)) 
         {
             *ppv = (void *) punkCert;
@@ -110,7 +110,7 @@ STDMETHODIMP CKeyProvider::QueryService(REFIID siid, REFIID riid, void **ppv)
 
 // Create the filter graph manager, but don't add any filters.
 IGraphBuilder *pGraph;
-hr = CreateFilterGraph(&amp;pGraph);
+hr = CreateFilterGraph(&pGraph);
 
 ...
 
@@ -123,7 +123,7 @@ prov.AddRef();  // Don't let COM try to free our static object.
 // Give the graph an IObjectWithSite pointer for callbacks and QueryService.
 IObjectWithSite* pObjectWithSite = NULL;
 
-hr = pGraph->QueryInterface(IID_IObjectWithSite, (void**)&amp;pObjectWithSite);
+hr = pGraph->QueryInterface(IID_IObjectWithSite, (void**)&pObjectWithSite);
 if (SUCCEEDED(hr))
 {
     // Use the IObjectWithSite pointer to specify our key provider object.
@@ -131,7 +131,7 @@ if (SUCCEEDED(hr))
     // QueryService to do the unlocking.
     // If the unlocking succeeds, then we can build our graph.
 
-    pObjectWithSite->SetSite((IUnknown *) (IServiceProvider *) &amp;prov);
+    pObjectWithSite->SetSite((IUnknown *) (IServiceProvider *) &prov);
     pObjectWithSite->Release();
 }
 

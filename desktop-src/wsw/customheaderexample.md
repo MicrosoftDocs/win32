@@ -56,7 +56,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -64,7 +64,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -94,7 +94,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -106,7 +106,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         WS_ADDRESSING_VERSION_1_0, 
         NULL, 
         0, 
-        &amp;message, 
+        &message, 
         error);
     if (FAILED(hr))
     {
@@ -129,9 +129,9 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // Add purchase order data as a header
     hr = WsAddCustomHeader(
         message, 
-        &amp;PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
+        &PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
         WS_WRITE_REQUIRED_VALUE,
-        &amp;purchaseOrderToAdd, 
+        &purchaseOrderToAdd, 
         sizeof(purchaseOrderToAdd), 
         0, 
         error);
@@ -145,12 +145,12 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     _PurchaseOrderType* purchaseOrder;
     hr = WsGetCustomHeader(
         message, 
-        &amp;PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
+        &PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
         WS_SINGLETON_HEADER,
         0,
         WS_READ_REQUIRED_POINTER, 
         NULL, 
-        &amp;purchaseOrder, 
+        &purchaseOrder, 
         sizeof(purchaseOrder), 
         NULL, 
         error);

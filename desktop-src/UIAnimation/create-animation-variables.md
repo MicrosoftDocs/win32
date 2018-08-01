@@ -40,7 +40,7 @@ const DOUBLE INITIAL_BLUE = COLOR_MAX;
 
 HRESULT hr = m_pAnimationManager->CreateAnimationVariable(
     INITIAL_RED,
-    &amp;m_pAnimationVariableRed
+    &m_pAnimationVariableRed
     );
 if (SUCCEEDED(hr))
 {
@@ -52,7 +52,7 @@ if (SUCCEEDED(hr))
         {
             hr = m_pAnimationManager->CreateAnimationVariable(
                 INITIAL_GREEN,
-                &amp;m_pAnimationVariableGreen
+                &m_pAnimationVariableGreen
                 );
             if (SUCCEEDED(hr))
             {
@@ -64,7 +64,7 @@ if (SUCCEEDED(hr))
                     {
                         hr = m_pAnimationManager->CreateAnimationVariable(
                             INITIAL_BLUE,
-                            &amp;m_pAnimationVariableBlue
+                            &m_pAnimationVariableBlue
                             );
                         if (SUCCEEDED(hr))
                         {
@@ -118,14 +118,14 @@ The following example code is taken from Thumbnail.cpp in the Windows Animation 
 
 hr = m_pAnimationManager->CreateAnimationVariable(
     xInitial,
-    &amp;m_pAnimationVariableX
+    &m_pAnimationVariableX
     );
 
 if (SUCCEEDED(hr))
 {
     hr = m_pAnimationManager->CreateAnimationVariable(
         yInitial,
-        &amp;m_pAnimationVariableY
+        &m_pAnimationVariableY
         );
 
     ...

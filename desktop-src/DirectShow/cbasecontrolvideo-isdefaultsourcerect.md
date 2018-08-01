@@ -57,7 +57,7 @@ HRESULT CVideoText::IsDefaultSourceRect()
 
     VIDEOINFO *pVideoInfo = (VIDEOINFO *) m_pRenderer->m_mtIn.Format();
     BITMAPINFOHEADER *pHeader = HEADER(pVideoInfo);
-    m_pRenderer->m_DrawImage.GetSourceRect(&amp;SourceRect);
+    m_pRenderer->m_DrawImage.GetSourceRect(&SourceRect);
 
     // Check the coordinates that match the video dimensions.
 

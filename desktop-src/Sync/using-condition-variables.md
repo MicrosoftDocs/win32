@@ -51,19 +51,19 @@ DWORD WINAPI ProducerThreadProc (PVOID p)
 
         Sleep (rand() % PRODUCER_SLEEP_TIME_MS);
 
-        ULONG Item = InterlockedIncrement (&amp;LastItemProduced);
+        ULONG Item = InterlockedIncrement (&LastItemProduced);
 
-        EnterCriticalSection (&amp;BufferLock);
+        EnterCriticalSection (&BufferLock);
 
-        while (QueueSize == BUFFER_SIZE &amp;&amp; StopRequested == FALSE)
+        while (QueueSize == BUFFER_SIZE && StopRequested == FALSE)
         {
             // Buffer is full - sleep so consumers can get items.
-            SleepConditionVariableCS (&amp;BufferNotFull, &amp;BufferLock, INFINITE);
+            SleepConditionVariableCS (&BufferNotFull, &BufferLock, INFINITE);
         }
 
         if (StopRequested == TRUE)
         {
-            LeaveCriticalSection (&amp;BufferLock);
+            LeaveCriticalSection (&BufferLock);
             break;
         }
 
@@ -75,11 +75,11 @@ DWORD WINAPI ProducerThreadProc (PVOID p)
 
         printf ("Producer %u: item %2d, queue size %2u\r\n", ProducerId, Item, QueueSize);
 
-        LeaveCriticalSection (&amp;BufferLock);
+        LeaveCriticalSection (&BufferLock);
 
         // If a consumer is waiting, wake it.
 
-        WakeConditionVariable (&amp;BufferNotEmpty);
+        WakeConditionVariable (&BufferNotEmpty);
     }
 
     printf ("Producer %u exiting\r\n", ProducerId);
@@ -92,17 +92,17 @@ DWORD WINAPI ConsumerThreadProc (PVOID p)
 
     while (true)
     {
-        EnterCriticalSection (&amp;BufferLock);
+        EnterCriticalSection (&BufferLock);
 
-        while (QueueSize == 0 &amp;&amp; StopRequested == FALSE)
+        while (QueueSize == 0 && StopRequested == FALSE)
         {
             // Buffer is empty - sleep so producers can create items.
-            SleepConditionVariableCS (&amp;BufferNotEmpty, &amp;BufferLock, INFINITE);
+            SleepConditionVariableCS (&BufferNotEmpty, &BufferLock, INFINITE);
         }
 
-        if (StopRequested == TRUE &amp;&amp; QueueSize == 0)
+        if (StopRequested == TRUE && QueueSize == 0)
         {
-            LeaveCriticalSection (&amp;BufferLock);
+            LeaveCriticalSection (&BufferLock);
             break;
         }
 
@@ -122,11 +122,11 @@ DWORD WINAPI ConsumerThreadProc (PVOID p)
         printf ("Consumer %u: item %2d, queue size %2u\r\n", 
             ConsumerId, Item, QueueSize);
 
-        LeaveCriticalSection (&amp;BufferLock);
+        LeaveCriticalSection (&BufferLock);
 
         // If a producer is waiting, wake it.
 
-        WakeConditionVariable (&amp;BufferNotFull);
+        WakeConditionVariable (&BufferNotFull);
 
         // Simulate processing of the item.
 
@@ -139,25 +139,25 @@ DWORD WINAPI ConsumerThreadProc (PVOID p)
 
 int main ( void )
 {
-    InitializeConditionVariable (&amp;BufferNotEmpty);
-    InitializeConditionVariable (&amp;BufferNotFull);
+    InitializeConditionVariable (&BufferNotEmpty);
+    InitializeConditionVariable (&BufferNotFull);
 
-    InitializeCriticalSection (&amp;BufferLock);
+    InitializeCriticalSection (&BufferLock);
 
     DWORD id;
-    HANDLE hProducer1 = CreateThread (NULL, 0, ProducerThreadProc, (PVOID)1, 0, &amp;id);
-    HANDLE hConsumer1 = CreateThread (NULL, 0, ConsumerThreadProc, (PVOID)1, 0, &amp;id);
-    HANDLE hConsumer2 = CreateThread (NULL, 0, ConsumerThreadProc, (PVOID)2, 0, &amp;id);
+    HANDLE hProducer1 = CreateThread (NULL, 0, ProducerThreadProc, (PVOID)1, 0, &id);
+    HANDLE hConsumer1 = CreateThread (NULL, 0, ConsumerThreadProc, (PVOID)1, 0, &id);
+    HANDLE hConsumer2 = CreateThread (NULL, 0, ConsumerThreadProc, (PVOID)2, 0, &id);
 
     puts ("Press enter to stop...");
     getchar();
 
-    EnterCriticalSection (&amp;BufferLock);
+    EnterCriticalSection (&BufferLock);
     StopRequested = TRUE;
-    LeaveCriticalSection (&amp;BufferLock);
+    LeaveCriticalSection (&BufferLock);
 
-    WakeAllConditionVariable (&amp;BufferNotFull);
-    WakeAllConditionVariable (&amp;BufferNotEmpty);
+    WakeAllConditionVariable (&BufferNotFull);
+    WakeAllConditionVariable (&BufferNotEmpty);
 
     WaitForSingleObject (hProducer1, INFINITE);
     WaitForSingleObject (hConsumer1, INFINITE);

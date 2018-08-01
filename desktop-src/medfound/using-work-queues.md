@@ -42,7 +42,7 @@ DWORD idWorkQueue = 0;
 HRESULT hr = S_OK;
 
 // Create a new work queue.
-hr = MFAllocateWorkQueue(&amp;idWorkQueue);
+hr = MFAllocateWorkQueue(&idWorkQueue);
 
 // Put an item on the queue.
 if (SUCCEEDED(hr))

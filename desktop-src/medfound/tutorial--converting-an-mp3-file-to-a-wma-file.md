@@ -42,7 +42,7 @@ template <class Q>
 HRESULT GetCollectionObject(IMFCollection *pCollection, DWORD index, Q **ppObj)
 {
     IUnknown *pUnk;
-    HRESULT hr = pCollection->GetElement(index, &amp;pUnk);
+    HRESULT hr = pCollection->GetElement(index, &pUnk);
     if (SUCCEEDED(hr))
     {
         hr = pUnk->QueryInterface(IID_PPV_ARGS(ppObj));
@@ -62,7 +62,7 @@ HRESULT CreateTranscodeProfile(IMFTranscodeProfile **ppProfile)
     DWORD dwMTCount = 0;
     
     // Create an empty transcode profile.
-    HRESULT hr = MFCreateTranscodeProfile(&amp;pProfile);
+    HRESULT hr = MFCreateTranscodeProfile(&pProfile);
     if (FAILED(hr))
     {
         goto done;
@@ -78,13 +78,13 @@ HRESULT CreateTranscodeProfile(IMFTranscodeProfile **ppProfile)
         MFT_ENUM_FLAG_SORTANDFILTER;
 
     hr = MFTranscodeGetAudioOutputAvailableTypes(MFAudioFormat_WMAudioV9, 
-        dwFlags, NULL, &amp;pAvailableTypes);
+        dwFlags, NULL, &pAvailableTypes);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pAvailableTypes->GetElementCount(&amp;dwMTCount);
+    hr = pAvailableTypes->GetElementCount(&dwMTCount);
     if (FAILED(hr))
     {
         goto done;
@@ -96,13 +96,13 @@ HRESULT CreateTranscodeProfile(IMFTranscodeProfile **ppProfile)
     }
 
     // Get the first audio type in the collection and make a copy.
-    hr = GetCollectionObject(pAvailableTypes, 0, &amp;pAudioType);
+    hr = GetCollectionObject(pAvailableTypes, 0, &pAudioType);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = MFCreateAttributes(&amp;pAudioAttrs, 0);       
+    hr = MFCreateAttributes(&pAudioAttrs, 0);       
     if (FAILED(hr))
     {
         goto done;
@@ -122,7 +122,7 @@ HRESULT CreateTranscodeProfile(IMFTranscodeProfile **ppProfile)
     }
 
     // Set the container attributes.
-    hr = MFCreateAttributes(&amp;pContainer, 1);
+    hr = MFCreateAttributes(&pContainer, 1);
     if (FAILED(hr))
     {
         goto done;
@@ -144,11 +144,11 @@ HRESULT CreateTranscodeProfile(IMFTranscodeProfile **ppProfile)
     (*ppProfile)->AddRef();
 
 done:
-    SafeRelease(&amp;pProfile);
-    SafeRelease(&amp;pAvailableTypes);
-    SafeRelease(&amp;pAudioType);
-    SafeRelease(&amp;pAudioAttrs);
-    SafeRelease(&amp;pContainer);
+    SafeRelease(&pProfile);
+    SafeRelease(&pAvailableTypes);
+    SafeRelease(&pAudioType);
+    SafeRelease(&pAudioAttrs);
+    SafeRelease(&pContainer);
     return hr;
 }
 ```

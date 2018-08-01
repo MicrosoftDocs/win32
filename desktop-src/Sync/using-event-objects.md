@@ -64,7 +64,7 @@ void CreateEventsAndThreads(void)
             ThreadProc,        // name of the thread function
             NULL,              // no thread parameters
             0,                 // default startup flags
-            &amp;dwThreadID); 
+            &dwThreadID); 
 
         if (ghThreads[i] == NULL) 
         {

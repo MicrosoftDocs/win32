@@ -49,7 +49,7 @@ HRESULT CWMDMController::Authenticate()
         NULL,
         CLSCTX_INPROC_SERVER,
         __uuidof(IComponentAuthenticate),
-        (void**)&amp;pAuth);
+        (void**)&pAuth);
 
     if (FAILED(hr)) return hr;
 
@@ -77,7 +77,7 @@ HRESULT CWMDMController::Authenticate()
 
     // Authentication succeeded, so we can use WMDM.
     // Query for the root WMDM interface.
-    hr = pAuth->QueryInterface( __uuidof(IWMDeviceManager), (void**)&amp;m_IWMDMDeviceMgr);
+    hr = pAuth->QueryInterface( __uuidof(IWMDeviceManager), (void**)&m_IWMDMDeviceMgr);
 
     return hr;
 }

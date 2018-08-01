@@ -43,24 +43,24 @@ WCHAR* pszDescription = NULL;
 WCHAR* pszRemoteName = NULL;
 BG_ERROR_CONTEXT Context;
 
-hr = pJob->GetError(&amp;pError);
+hr = pJob->GetError(&pError);
 if (SUCCEEDED(hr))
 {
   //Retrieve the HRESULT associated with the error. The context tells you
   //where the error occurred, for example, in the transport, queue manager, the 
   //local file, or the remote file.
-  pError->GetError(&amp;Context, &amp;hrError);  
+  pError->GetError(&Context, &hrError);  
 
   //Retrieve a description associated with the HRESULT value.
-  hr = pError->GetErrorDescription(LANGIDFROMLCID(GetThreadLocale()), &amp;pszDescription);
+  hr = pError->GetErrorDescription(LANGIDFROMLCID(GetThreadLocale()), &pszDescription);
   if (SUCCEEDED(hr))
   {
     if (BG_ERROR_CONTEXT_REMOTE_FILE == Context)
     {
-      hr = pError->GetFile(&amp;pFile);  
+      hr = pError->GetFile(&pFile);  
       if (SUCCEEDED(hr))
       {
-        hr = pFile->GetRemoteName(&amp;pszRemoteName);
+        hr = pFile->GetRemoteName(&pszRemoteName);
         if (SUCCEEDED(hr))
         {
           //Do something with the information.

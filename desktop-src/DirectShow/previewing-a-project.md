@@ -27,7 +27,7 @@ The following code example shows these steps:
 ```C++
 IRenderEngine *pRender = NULL; 
 hr = CoCreateInstance(CLSID_RenderEngine, NULL, 
-    CLSCTX_INPROC_SERVER, IID_IRenderEngine, (void**)&amp;pRender);
+    CLSCTX_INPROC_SERVER, IID_IRenderEngine, (void**)&pRender);
 
 hr = pRender->SetTimelineObject(pTL);
 hr = pRender->ConnectFrontEnd();
@@ -42,8 +42,8 @@ Now run the filter graph. First, call the [**IRenderEngine::GetFilterGraph**](ir
 ```C++
 IGraphBuilder   *pGraph = NULL;
 IMediaControl   *pControl = NULL;
-hr = pRender->GetFilterGraph(&amp;pGraph);
-hr = pGraph->QueryInterface(IID_IMediaControl, (void **)&amp;pControl);
+hr = pRender->GetFilterGraph(&pGraph);
+hr = pGraph->QueryInterface(IID_IMediaControl, (void **)&pControl);
 hr = pControl->Run();
 ```
 
@@ -69,7 +69,7 @@ if (hr == S_WARN_OUTPUTRESET)
     hr = pRender->RenderOutputPins();
 }
 LONGLONG llStart = 0; 
-hr = pSeek->SetPositions(&amp;llStart, AM_SEEKING_AbsolutePositioning, 0, 0); 
+hr = pSeek->SetPositions(&llStart, AM_SEEKING_AbsolutePositioning, 0, 0); 
 hr = pControl->Run();
 ```
 

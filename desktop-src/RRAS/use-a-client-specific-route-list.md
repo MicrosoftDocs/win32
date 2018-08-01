@@ -35,12 +35,12 @@ HANDLE RouteListHandle2;
 // Create two entity-specific lists to add routes to
 
 Status = RtmCreateRouteList(RtmRegHandle,
-                            &amp;RouteListHandle1);
+                            &RouteListHandle1);
 // Check Status
 //...
 
 Status = RtmCreateRouteList(RtmRegHandle,
-                            &amp;RouteListHandle2);
+                            &RouteListHandle2);
 // Check Status
 //...
 
@@ -51,7 +51,7 @@ Status = RtmCreateRouteList(RtmRegHandle,
 //                            ...
 //                            RouteListHandle1,
 //                            ...
-//                            &amp;ChangeFlags);
+//                            &ChangeFlags);
 
 // Enumerate routes in RouteListHandle1 list
 
@@ -59,7 +59,7 @@ Status = RtmCreateRouteList(RtmRegHandle,
 
 Status = RtmCreateRouteListEnum(RtmRegHandle,
                                 RouteListHandle1,
-                                &amp;EnumHandle);
+                                &EnumHandle);
 
 if (Status == NO_ERROR)
 {
@@ -82,7 +82,7 @@ if (Status == NO_ERROR)
 
         Status = RtmGetListEnumRoutes(RtmRegHandle,
                                       EnumHandle,
-                                      &amp;NumHandles,
+                                      &NumHandles,
                                       RouteHandles);
 
         for (i = 0; i < NumHandles; i++)

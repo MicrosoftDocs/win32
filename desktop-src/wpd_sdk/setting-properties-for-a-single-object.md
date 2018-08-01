@@ -60,7 +60,7 @@ After this, the application retrieves the WPD\_PROPERTY\_ATTRIBUTE\_CAN\_WRITE v
 ```C++
 if (SUCCEEDED(hr))
 {
-    hr = pDevice->Content(&amp;pContent);
+    hr = pDevice->Content(&pContent);
     if (FAILED(hr))
     {
         printf("! Failed to get IPortableDeviceContent from IPortableDevice, hr = 0x%lx\n",hr);
@@ -71,7 +71,7 @@ if (SUCCEEDED(hr))
 // to access the property-specific methods.
 if (SUCCEEDED(hr))
 {
-    hr = pContent->Properties(&amp;pProperties);
+    hr = pContent->Properties(&pProperties);
     if (FAILED(hr))
     {
         printf("! Failed to get IPortableDeviceProperties from IPortableDevice, hr = 0x%lx\n",hr);
@@ -83,10 +83,10 @@ if (SUCCEEDED(hr))
 {
     hr = pProperties->GetPropertyAttributes(szSelection,
                                             WPD_OBJECT_NAME,
-                                            &amp;pAttributes);
+                                            &pAttributes);
     if (SUCCEEDED(hr))
     {
-        hr = pAttributes->GetBoolValue(WPD_PROPERTY_ATTRIBUTE_CAN_WRITE, &amp;bCanWrite);
+        hr = pAttributes->GetBoolValue(WPD_PROPERTY_ATTRIBUTE_CAN_WRITE, &bCanWrite);
         if (SUCCEEDED(hr))
         {
             if (bCanWrite)
@@ -128,7 +128,7 @@ if (bCanWrite)
         hr = CoCreateInstance(CLSID_PortableDeviceValues,
                               NULL,
                               CLSCTX_INPROC_SERVER,
-                              IID_PPV_ARGS(&amp;pObjectPropertiesToWrite));
+                              IID_PPV_ARGS(&pObjectPropertiesToWrite));
         if (SUCCEEDED(hr))
         {
             if (pObjectPropertiesToWrite != NULL)
@@ -153,7 +153,7 @@ if (SUCCEEDED(hr))
 {
     hr = pProperties->SetValues(szSelection,                // The object whose properties we are reading
                                 pObjectPropertiesToWrite,   // The properties we want to read
-                                &amp;pPropertyWriteResults);    // Driver supplied property result values for the property read operation
+                                &pPropertyWriteResults);    // Driver supplied property result values for the property read operation
     if (FAILED(hr))
     {
         printf("! Failed to set properties for object '%ws', hr= 0x%lx\n", szSelection, hr);

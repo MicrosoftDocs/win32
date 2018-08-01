@@ -36,7 +36,7 @@ The following code sets a matrix to apply to the texture coordinates for texture
 D3DMATRIX matTrans = D3DXMatrixIdentity( NULL );
 
 // Set up the matrix for the desired transformation.
-d3dDevice->SetTransform( D3DTS_TEXTURE0, &amp;matTrans );
+d3dDevice->SetTransform( D3DTS_TEXTURE0, &matTrans );
 ```
 
 

@@ -117,7 +117,7 @@ Use the [**IWbemLocator::ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcl
         NULL,                              // Security flags
         _bstr_t(useNTLM?NULL:pszAuthority),// Authority        
         NULL,                              // Context object 
-        &amp;pSvc                              // IWbemServices proxy
+        &pSvc                              // IWbemServices proxy
         );
 ```
 

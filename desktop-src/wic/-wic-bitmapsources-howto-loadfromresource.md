@@ -81,7 +81,7 @@ This topic demonstrates how to load an [**IWICBitmapFrameDecode**](/windows/desk
     ```C++
     // Create a WIC stream to map onto the memory.
     if (SUCCEEDED(hr)){
-       hr = m_pIWICFactory->CreateStream(&amp;pIWICStream);
+       hr = m_pIWICFactory->CreateStream(&pIWICStream);
     }
 
     // Initialize the stream with the memory pointer and size.
@@ -103,7 +103,7 @@ This topic demonstrates how to load an [**IWICBitmapFrameDecode**](/windows/desk
           pIWICStream,                   // The stream to use to create the decoder
           NULL,                          // Do not prefer a particular vendor
           WICDecodeMetadataCacheOnLoad,  // Cache metadata when needed
-          &amp;pIDecoder);                   // Pointer to the decoder
+          &pIDecoder);                   // Pointer to the decoder
     }
     ```
 
@@ -114,7 +114,7 @@ This topic demonstrates how to load an [**IWICBitmapFrameDecode**](/windows/desk
     ```C++
     // Retrieve the initial frame.
     if (SUCCEEDED(hr)){
-       hr = pIDecoder->GetFrame(0, &amp;pIDecoderFrame);
+       hr = pIDecoder->GetFrame(0, &pIDecoderFrame);
     }
     ```
 

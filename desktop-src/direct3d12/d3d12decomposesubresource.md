@@ -31,9 +31,9 @@ void inline D3D12DecomposeSubresource(
         UINT Subresource,
         UINT MipLevels,
         UINT ArraySize,
-  _Out_ T    &amp;MipSlice,
-  _Out_ U    &amp;ArraySlice,
-  _Out_ V    &amp;PlaneSlice
+  _Out_ T    &MipSlice,
+  _Out_ U    &ArraySlice,
+  _Out_ V    &PlaneSlice
 );
 ```
 
@@ -109,12 +109,12 @@ This function is declared as follows, with C++ templatized parameters for types 
 
 
 ```
-template &amp;lt;typename T, typename U, typename V&amp;gt;
-inline void D3D12DecomposeSubresource( UINT Subresource, UINT MipLevels, UINT ArraySize, _Out_ T&amp;amp; MipSlice, _Out_ U&amp;amp; ArraySlice, _Out_ V&amp;amp; PlaneSlice )
+template &lt;typename T, typename U, typename V&gt;
+inline void D3D12DecomposeSubresource( UINT Subresource, UINT MipLevels, UINT ArraySize, _Out_ T&amp; MipSlice, _Out_ U&amp; ArraySlice, _Out_ V&amp; PlaneSlice )
 {
-    MipSlice = static_cast&amp;lt;T&amp;gt;(Subresource % MipLevels);
-    ArraySlice = static_cast&amp;lt;U&amp;gt;((Subresource / MipLevels) % ArraySize);
-    PlaneSlice = static_cast&amp;lt;V&amp;gt;(Subresource / (MipLevels * ArraySize));
+    MipSlice = static_cast&lt;T&gt;(Subresource % MipLevels);
+    ArraySlice = static_cast&lt;U&gt;((Subresource / MipLevels) % ArraySize);
+    PlaneSlice = static_cast&lt;V&gt;(Subresource / (MipLevels * ArraySize));
 }
 ```
 

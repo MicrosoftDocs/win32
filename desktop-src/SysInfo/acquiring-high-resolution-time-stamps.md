@@ -105,12 +105,12 @@ This example shows how to use [**QPC**](https://msdn.microsoft.com/en-us/library
 LARGE_INTEGER StartingTime, EndingTime, ElapsedMicroseconds;
 LARGE_INTEGER Frequency;
 
-QueryPerformanceFrequency(&amp;Frequency); 
-QueryPerformanceCounter(&amp;StartingTime);
+QueryPerformanceFrequency(&Frequency); 
+QueryPerformanceCounter(&StartingTime);
 
 // Activity to be timed
 
-QueryPerformanceCounter(&amp;EndingTime);
+QueryPerformanceCounter(&EndingTime);
 ElapsedMicroseconds.QuadPart = EndingTime.QuadPart - StartingTime.QuadPart;
 
 
@@ -161,7 +161,7 @@ This example shows how to use [**KeQueryPerformanceCounter**](https://msdn.micro
 LARGE_INTEGER StartingTime, EndingTime, ElapsedMicroseconds;
 LARGE_INTEGER Frequency;
 
-StartingTime = KeQueryPerformanceCounter(&amp;Frequency);
+StartingTime = KeQueryPerformanceCounter(&Frequency);
 
 // Activity to be timed
 

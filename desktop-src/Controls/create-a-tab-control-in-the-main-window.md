@@ -53,12 +53,12 @@ HWND DoCreateTabControl(HWND hwndParent)
     // Initialize common controls.
     icex.dwSize = sizeof(INITCOMMONCONTROLSEX);
     icex.dwICC = ICC_TAB_CLASSES;
-    InitCommonControlsEx(&amp;icex);
+    InitCommonControlsEx(&icex);
     
     // Get the dimensions of the parent window's client area, and 
     // create a tab control child window of that size. Note that g_hInst
     // is the global instance handle.
-    GetClientRect(hwndParent, &amp;rcClient); 
+    GetClientRect(hwndParent, &rcClient); 
     hwndTab = CreateWindow(WC_TABCONTROL, L"", 
         WS_CHILD | WS_CLIPSIBLINGS | WS_VISIBLE, 
         0, 0, rcClient.right, rcClient.bottom, 
@@ -79,7 +79,7 @@ HWND DoCreateTabControl(HWND hwndParent)
         // g_hInst is the global instance handle.
         LoadString(g_hInst, IDS_SUNDAY + i, 
                 achTemp, sizeof(achTemp) / sizeof(achTemp[0])); 
-        if (TabCtrl_InsertItem(hwndTab, i, &amp;tie) == -1) 
+        if (TabCtrl_InsertItem(hwndTab, i, &tie) == -1) 
         { 
             DestroyWindow(hwndTab); 
             return NULL; 

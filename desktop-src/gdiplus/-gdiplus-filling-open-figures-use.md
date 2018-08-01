@@ -29,8 +29,8 @@ Pen pen(Color(128, 0, 0, 255), 5);
 SolidBrush brush(Color(255, 255, 0, 0));
 
 // The fill mode is FillModeAlternate by default.
-graphics.FillPath(&amp;brush, &amp;path);
-graphics.DrawPath(&amp;pen, &amp;path);
+graphics.FillPath(&brush, &path);
+graphics.DrawPath(&pen, &path);
 ```
 
 

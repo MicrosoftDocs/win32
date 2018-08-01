@@ -19,7 +19,7 @@ The following example creates a [**Graphics**](/windows/desktop/api/gdiplusgraph
 
 
 ```
-DrawRectangle(&amp;pen, -60, -30, 120, 60)
+DrawRectangle(&pen, -60, -30, 120, 60)
 ```
 
 
@@ -36,10 +36,10 @@ graphics.TranslateTransform(100.0f, 80.0f);
 
 graphicsContainer = graphics.BeginContainer();
    graphics.RotateTransform(30.0f);
-   graphics.DrawRectangle(&amp;pen, -60, -30, 120, 60);
+   graphics.DrawRectangle(&pen, -60, -30, 120, 60);
 graphics.EndContainer(graphicsContainer);
 
-graphics.DrawRectangle(&amp;pen, -60, -30, 120, 60);
+graphics.DrawRectangle(&pen, -60, -30, 120, 60);
 ```
 
 
@@ -64,7 +64,7 @@ SolidBrush         aquaBrush(Color(255, 180, 255, 255));
 SolidBrush         greenBrush(Color(255, 150, 250, 130));
 
 graphics.SetClip(Rect(50, 65, 150, 120));
-graphics.FillRectangle(&amp;aquaBrush, 50, 65, 150, 120);
+graphics.FillRectangle(&aquaBrush, 50, 65, 150, 120);
 
 graphicsContainer = graphics.BeginContainer();
    // Create a path that consists of a single ellipse.
@@ -72,14 +72,14 @@ graphicsContainer = graphics.BeginContainer();
    path.AddEllipse(75, 50, 100, 150);
 
   // Construct a region based on the path.
-   Region region(&amp;path);
-   graphics.FillRegion(&amp;greenBrush, &amp;region);
+   Region region(&path);
+   graphics.FillRegion(&greenBrush, &region);
 
-   graphics.SetClip(&amp;region);
-   graphics.DrawLine(&amp;redPen, 50, 0, 350, 300);
+   graphics.SetClip(&region);
+   graphics.DrawLine(&redPen, 50, 0, 350, 300);
 graphics.EndContainer(graphicsContainer);
 
-graphics.DrawLine(&amp;bluePen, 70, 0, 370, 300);
+graphics.DrawLine(&bluePen, 70, 0, 370, 300);
 ```
 
 
@@ -107,7 +107,7 @@ GraphicsContainer innerContainer;
 GraphicsContainer outerContainer;
 SolidBrush brush(Color(255, 0, 0, 255));
 FontFamily fontFamily(L"Times New Roman");
-Font font(&amp;fontFamily, 36, FontStyleRegular, UnitPixel);
+Font font(&fontFamily, 36, FontStyleRegular, UnitPixel);
 
 graphics.SetTextRenderingHint(TextRenderingHintAntiAlias);
 
@@ -117,15 +117,15 @@ outerContainer = graphics.BeginContainer();
 
    innerContainer = graphics.BeginContainer();
       graphics.SetTextRenderingHint(TextRenderingHintAntiAlias);
-      graphics.DrawString(L"Inner Container", 15, &amp;font,
-         PointF(20, 10), &amp;brush);
+      graphics.DrawString(L"Inner Container", 15, &font,
+         PointF(20, 10), &brush);
    graphics.EndContainer(innerContainer);
 
-   graphics.DrawString(L"Outer Container", 15, &amp;font, PointF(20, 50), &amp;brush);
+   graphics.DrawString(L"Outer Container", 15, &font, PointF(20, 50), &brush);
 
 graphics.EndContainer(outerContainer);
 
-graphics.DrawString(L"Graphics Object", 15, &amp;font, PointF(20, 90), &amp;brush);
+graphics.DrawString(L"Graphics Object", 15, &font, PointF(20, 90), &brush);
 ```
 
 

@@ -67,7 +67,7 @@ if (pDevice == NULL)
 
 // Get an IPortableDeviceCapabilities interface from the IPortableDevice interface to
 // access the device capabilities-specific methods.
-hr = pDevice->Capabilities(&amp;pCapabilities);
+hr = pDevice->Capabilities(&pCapabilities);
 if (FAILED(hr))
 {
     printf("! Failed to get IPortableDeviceCapabilities from IPortableDevice, hr = 0x%lx\n",hr);
@@ -82,7 +82,7 @@ The supported events are retrieved by calling the [**IPortableDeviceCapabilities
 ```C++
 if (SUCCEEDED(hr))
 {
-    hr = pCapabilities->GetSupportedEvents(&amp;pEvents);
+    hr = pCapabilities->GetSupportedEvents(&pEvents);
     if (FAILED(hr))
     {
         printf("! Failed to get supported events from the device, hr = 0x%lx\n",hr);
@@ -98,7 +98,7 @@ The next step is to retrieve the count of supported events so that the applicati
 ```C++
 if (SUCCEEDED(hr))
 {
-    hr = pEvents->GetCount(&amp;dwNumEvents);
+    hr = pEvents->GetCount(&dwNumEvents);
     if (FAILED(hr))
     {
         printf("! Failed to get number of supported events, hr = 0x%lx\n",hr);
@@ -113,8 +113,8 @@ if (SUCCEEDED(hr))
     for (DWORD dwIndex = 0; dwIndex < dwNumEvents; dwIndex++)
     {
         PROPVARIANT pv = {0};
-        PropVariantInit(&amp;pv);
-        hr = pEvents->GetAt(dwIndex, &amp;pv);
+        PropVariantInit(&pv);
+        hr = pEvents->GetAt(dwIndex, &pv);
         if (SUCCEEDED(hr))
         {
             // We have an event.  It is assumed that
@@ -131,7 +131,7 @@ if (SUCCEEDED(hr))
             }
         }
 
-        PropVariantClear(&amp;pv);
+        PropVariantClear(&pv);
     }
 }
 ```

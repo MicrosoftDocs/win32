@@ -46,7 +46,7 @@ float area;
 // Compute the area of circle1
 hr = m_pCircleGeometry1->ComputeArea(
     D2D1::IdentityMatrix(),
-    &amp;area
+    &area
     );
 ```
 

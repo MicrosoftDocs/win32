@@ -37,7 +37,7 @@ CHAR strTmp[SIZE]; // SIZE equals (2*(sizeof(tstr)+1)). This ensures enough
                    // bytes long and a terminating null character. See Security 
                    // Alert below. 
 
-wcstombs_s(&amp;cCharsConverted, strTmp, sizeof(strTmp), (const wchar_t *)tstr, sizeof(strTmp));
+wcstombs_s(&cCharsConverted, strTmp, sizeof(strTmp), (const wchar_t *)tstr, sizeof(strTmp));
 num = atoi(strTmp);
 
 #else

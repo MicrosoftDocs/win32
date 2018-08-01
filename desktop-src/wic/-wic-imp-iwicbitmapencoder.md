@@ -105,7 +105,7 @@ HRESULT hr;
 ...
 
 hr = pComponentFactory->CreateEncoderPropertyBag( 
-   pPropBagOptions, cuiPropertyCount, &amp;pPropertyBag);
+   pPropBagOptions, cuiPropertyCount, &pPropertyBag);
 ```
 
 

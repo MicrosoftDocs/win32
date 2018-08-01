@@ -48,9 +48,9 @@ public:
             ReleaseActCtx(m_hActivationContext);
     }
 
-    BOOL Activate(ULONG_PTR &amp;ulpCookie) 
+    BOOL Activate(ULONG_PTR &ulpCookie) 
     {
-        return ActivateActCtx(m_hActivationContext, &amp;ulpCookie);
+        return ActivateActCtx(m_hActivationContext, &ulpCookie);
     }
 
     BOOL Deactivate(ULONG_PTR ulpCookie) 
@@ -61,12 +61,12 @@ public:
 
 class CActCtxActivator 
 {
-    CActivationContext &amp;m_ActCtx;
+    CActivationContext &m_ActCtx;
     ULONG_PTR m_Cookie;
     bool m_fActivated;
 
 public:
-    CActCtxActivator(CActivationContext&amp; src, bool fActivate = true) 
+    CActCtxActivator(CActivationContext& src, bool fActivate = true) 
         : m_ActCtx(src), m_Cookie(0), m_fActivated(false) 
     {
         if (fActivate) {
@@ -105,7 +105,7 @@ void MyInitializerFunction()
 {
     HANDLE hActCtx;
     ACTCTX actctx = {sizeof(actctx)};
-    hActCtx = CreateActCtx(&amp;actctx);
+    hActCtx = CreateActCtx(&actctx);
     s_GlobalContext.Set(hActCtx);
     ReleaseActCtx(hActCtx);
     // The static destructor for s_GlobalContext destroys the

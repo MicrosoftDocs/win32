@@ -90,7 +90,7 @@ Accessibility windows can only be docked to a monitor that has at least 768 vert
 
 ```
 IAccessibilityDockingService *pDockingService;
-HRESULT hr = CoCreateInstance(CLSID_AccessibilityDockingService, CLSCTX_INPROV_SERVER, nullptr, IID_PPV_ARGS(&amp;pDockingService));
+HRESULT hr = CoCreateInstance(CLSID_AccessibilityDockingService, CLSCTX_INPROV_SERVER, nullptr, IID_PPV_ARGS(&pDockingService));
 if (SUCCEEDED(hr))
 {
     UINT uMaxHeight;
@@ -99,7 +99,7 @@ if (SUCCEEDED(hr))
     HMONITOR hMonitor = MonitorFromWindow(_hwndMyApplication, MONITOR_DEFAULTTONULL);
     if (hMonitor != nullptr)
     {
-        hr = pDockingService->GetAvailableSize(hMonitor, &amp;uMaxHeight, &amp;uFixedWidth);
+        hr = pDockingService->GetAvailableSize(hMonitor, &uMaxHeight, &uFixedWidth);
     }
 }
 ```

@@ -90,7 +90,7 @@ HRESULT DesktopToastsApp::InstallShortcut(_In_z_ wchar_t *shortcutPath)
     if (SUCCEEDED(hr))
     {
         ComPtr<IShellLink> shellLink;
-        hr = CoCreateInstance(CLSID_ShellLink, nullptr, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&amp;shellLink));
+        hr = CoCreateInstance(CLSID_ShellLink, nullptr, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&shellLink));
 
         if (SUCCEEDED(hr))
         {
@@ -102,11 +102,11 @@ HRESULT DesktopToastsApp::InstallShortcut(_In_z_ wchar_t *shortcutPath)
                 {
                     ComPtr<IPropertyStore> propertyStore;
 
-                    hr = shellLink.As(&amp;propertyStore);
+                    hr = shellLink.As(&propertyStore);
                     if (SUCCEEDED(hr))
                     {
                         PROPVARIANT appIdPropVar;
-                        hr = InitPropVariantFromString(AppId, &amp;appIdPropVar);
+                        hr = InitPropVariantFromString(AppId, &appIdPropVar);
                         if (SUCCEEDED(hr))
                         {
                             hr = propertyStore->SetValue(PKEY_AppUserModel_ID, appIdPropVar);
@@ -116,14 +116,14 @@ HRESULT DesktopToastsApp::InstallShortcut(_In_z_ wchar_t *shortcutPath)
                                 if (SUCCEEDED(hr))
                                 {
                                     ComPtr<IPersistFile> persistFile;
-                                    hr = shellLink.As(&amp;persistFile);
+                                    hr = shellLink.As(&persistFile);
                                     if (SUCCEEDED(hr))
                                     {
                                         hr = persistFile->Save(shortcutPath, TRUE);
                                     }
                                 }
                             }
-                            PropVariantClear(&amp;appIdPropVar);
+                            PropVariantClear(&appIdPropVar);
                         }
                     }
                 }

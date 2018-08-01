@@ -71,7 +71,7 @@ tbAddBitmap.nID = IDB_VIEW_SMALL_COLOR;
 // Do not forget to send TB_BUTTONSTRUCTSIZE if the toolbar was created
 // by using CreateWindowEx.
 //
-int stdidx = SendMessage(hWndToolbar, TB_ADDBITMAP, 0, (LPARAM)&amp;tbAddBitmap);
+int stdidx = SendMessage(hWndToolbar, TB_ADDBITMAP, 0, (LPARAM)&tbAddBitmap);
 
 // Define the buttons. 
 // IDM_SETLARGEICONVIEW and so on are application-defined command IDs.

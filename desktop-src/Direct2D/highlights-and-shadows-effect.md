@@ -30,7 +30,7 @@ The CLSID for this effect is CLSID\_D2D1HighlightsShadows.
 
 ```C++
 ComPtr<ID2D1Effect> highlightsAndShadowsEffect;
-m_d2dContext->CreateEffect(CLSID_D2D1HighlightsShadows, &amp;highlightsAndShadowsEffect);
+m_d2dContext->CreateEffect(CLSID_D2D1HighlightsShadows, &highlightsAndShadowsEffect);
  
 highlightsAndShadowsEffect->SetInput(0, bitmap);
 highlightsAndShadowsEffect->SetValue(D2D1_HIGHLIGHTSANDSHADOWS_PROP_HIGHLIGHTS, 0.0f);

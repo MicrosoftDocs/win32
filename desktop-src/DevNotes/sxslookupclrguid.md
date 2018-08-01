@@ -263,11 +263,11 @@ void main()
     {
       isOK = (pfn_SxsLookupClrGuid)(
                  SXS_LOOKUP_CLR_GUID_FIND_ANY,     // dwFlags
-                 &amp;exampleGuid,                     // pClsid
+                 &exampleGuid,                     // pClsid
                  NULL,                             // hActCtx
                  (PVOID) outputBuffer,             // pvOutputBuffer
                  (SIZE_T) OUTPUT_BUFFER_SIZE,      // cbOutputBuffer
-                 &amp;neededBufferSize );              // pcbOutputBuffer
+                 &neededBufferSize );              // pcbOutputBuffer
       if( isOK == FALSE )
       {
         errorCode = GetLastError( );

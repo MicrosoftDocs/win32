@@ -285,7 +285,7 @@ my $ServiceSet;
 eval { $ServiceSet = Win32::OLE->GetObject("winmgmts:{impersonationLevel=impersonate}!\\\\.\\Root\\CIMv2")->
  ExecQuery("SELECT * FROM Win32_Service WHERE Name='Schedule'"); };
 
-if (!$@ &amp;&amp; defined $ServiceSet)
+if (!$@ && defined $ServiceSet)
 {
  foreach my $Service (in $ServiceSet)
  {

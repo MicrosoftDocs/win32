@@ -67,7 +67,7 @@ int __cdecl main(){
     EntityInfo.EntityId.EntityInstanceId = PROTOCOL_ID(PROTO_TYPE_UCAST, PROTO_VENDOR_ID, PROTO_IP_RIP);
 
     // Register the new client in the routing table manager
-    dwRet = RtmRegisterEntity(&amp;EntityInfo, &amp;Methods, NULL, FALSE, &amp;RegnProfile, &amp;ThisClientHandle);
+    dwRet = RtmRegisterEntity(&EntityInfo, &Methods, NULL, FALSE, &RegnProfile, &ThisClientHandle);
     if (dwRet != ERROR_SUCCESS){
         // Registration failed
         // Do something here
@@ -82,7 +82,7 @@ int __cdecl main(){
     // Calling RtmGetEntityMethods with NumMethods = 0 returns the number of registered methods for the client
     // For simplicity in this example, set the caller client handle to be the same as the callee client handle
     OtherClientHandle = ThisClientHandle;
-    dwRet = RtmGetEntityMethods(ThisClientHandle, OtherClientHandle, &amp;NumMethods, ExportMethods);
+    dwRet = RtmGetEntityMethods(ThisClientHandle, OtherClientHandle, &NumMethods, ExportMethods);
     if (dwRet != ERROR_SUCCESS){
         // RtmGetEntityMethods failed
         // Do something here
@@ -108,7 +108,7 @@ int __cdecl main(){
         }
 
         // Calling RtmGetEntityMethods in order to receive the callback pointers into ExportMethods
-        dwRet = RtmGetEntityMethods(ThisClientHandle, OtherClientHandle, &amp;NumMethods, ExportMethods);
+        dwRet = RtmGetEntityMethods(ThisClientHandle, OtherClientHandle, &NumMethods, ExportMethods);
         if (dwRet != ERROR_SUCCESS){
             // RtmGetEntityMethods failed
             // Do something here
@@ -157,7 +157,7 @@ int __cdecl main(){
         }
 
         // Calling RtmInvokeMethod with arbitray input data and output size for the method exported by OtherClientHandle
-        dwRet = RtmInvokeMethod(ThisClientHandle, OtherClientHandle, Input, &amp;OutputSize, Output);
+        dwRet = RtmInvokeMethod(ThisClientHandle, OtherClientHandle, Input, &OutputSize, Output);
         if (dwRet == NO_ERROR){
             // Parse the output from the method
             printf("Exported method completed with error code: %d\n", (DWORD) *Output->OutputData);

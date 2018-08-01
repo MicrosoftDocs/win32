@@ -38,7 +38,7 @@ BOOL Is_WinXP_SP2_or_Later ()
 
    // Initialize the OSVERSIONINFOEX structure.
 
-   ZeroMemory(&amp;osvi, sizeof(OSVERSIONINFOEX));
+   ZeroMemory(&osvi, sizeof(OSVERSIONINFOEX));
    osvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFOEX);
    osvi.dwMajorVersion = 5;
    osvi.dwMinorVersion = 1;
@@ -55,7 +55,7 @@ BOOL Is_WinXP_SP2_or_Later ()
    // Perform the test.
 
    return VerifyVersionInfo(
-      &amp;osvi, 
+      &osvi, 
       VER_MAJORVERSION | VER_MINORVERSION | 
       VER_SERVICEPACKMAJOR | VER_SERVICEPACKMINOR,
       dwlConditionMask);
@@ -88,7 +88,7 @@ BOOL Is_Win_Server()
 
    // Initialize the OSVERSIONINFOEX structure.
 
-   ZeroMemory(&amp;osvi, sizeof(OSVERSIONINFOEX));
+   ZeroMemory(&osvi, sizeof(OSVERSIONINFOEX));
    osvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFOEX);
    osvi.dwMajorVersion = 5;
    osvi.dwMinorVersion = 0;
@@ -107,7 +107,7 @@ BOOL Is_Win_Server()
    // Perform the test.
 
    return VerifyVersionInfo(
-      &amp;osvi, 
+      &osvi, 
       VER_MAJORVERSION | VER_MINORVERSION | 
       VER_SERVICEPACKMAJOR | VER_SERVICEPACKMINOR |
       VER_PRODUCT_TYPE,

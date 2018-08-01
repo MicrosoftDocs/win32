@@ -52,7 +52,7 @@ void ClipOrCenterRectToMonitor(LPRECT prc, UINT flags)
     // get the work area or entire monitor rect. 
     // 
     mi.cbSize = sizeof(mi);
-    GetMonitorInfo(hMonitor, &amp;mi);
+    GetMonitorInfo(hMonitor, &mi);
 
     if (flags & MONITOR_WORKAREA)
         rc = mi.rcWork;
@@ -81,8 +81,8 @@ void ClipOrCenterRectToMonitor(LPRECT prc, UINT flags)
 void ClipOrCenterWindowToMonitor(HWND hwnd, UINT flags)
 {
     RECT rc;
-    GetWindowRect(hwnd, &amp;rc);
-    ClipOrCenterRectToMonitor(&amp;rc, flags);
+    GetWindowRect(hwnd, &rc);
+    ClipOrCenterRectToMonitor(&rc, flags);
     SetWindowPos(hwnd, NULL, rc.left, rc.top, 0, 0, SWP_NOSIZE | SWP_NOZORDER | SWP_NOACTIVATE);
 }
 ```

@@ -20,7 +20,7 @@ XAudio2 is initialized for audio playback by creating an instance of the XAudio2
     ```
     IXAudio2* pXAudio2 = NULL;
     HRESULT hr;
-    if ( FAILED(hr = XAudio2Create( &amp;pXAudio2, 0, XAUDIO2_DEFAULT_PROCESSOR ) ) )
+    if ( FAILED(hr = XAudio2Create( &pXAudio2, 0, XAUDIO2_DEFAULT_PROCESSOR ) ) )
         return hr;
     ```
 
@@ -32,7 +32,7 @@ XAudio2 is initialized for audio playback by creating an instance of the XAudio2
 
     ```
     IXAudio2MasteringVoice* pMasterVoice = NULL;
-    if ( FAILED(hr = pXAudio2->CreateMasteringVoice( &amp;pMasterVoice ) ) )
+    if ( FAILED(hr = pXAudio2->CreateMasteringVoice( &pMasterVoice ) ) )
         return hr;
     ```
 
@@ -46,11 +46,11 @@ We recommend that you make use of a [smart pointer](https://msdn.microsoft.com/e
 ```C++
 Microsoft::WRL::ComPtr<IXAudio2> XAudio2;
 HRESULT hr;
-if ( FAILED(hr = XAudio2Create( &amp;XAudio2, 0, XAUDIO2_DEFAULT_PROCESSOR ) ) )
+if ( FAILED(hr = XAudio2Create( &XAudio2, 0, XAUDIO2_DEFAULT_PROCESSOR ) ) )
     throw Platform::Exception::CreateException(hr);
 
 IXAudio2MasteringVoice* pMasterVoice = NULL;
-if ( FAILED(hr = pXAudio2->CreateMasteringVoice( &amp;pMasterVoice ) ) )
+if ( FAILED(hr = pXAudio2->CreateMasteringVoice( &pMasterVoice ) ) )
     return hr;
 ```
 

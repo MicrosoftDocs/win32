@@ -51,8 +51,8 @@ IAMTimelineGroup    *pGroup;
 IAMTimelineComp     *pComp = NULL;
 IAMTimelineObj      *pTrackObj = NULL;
 
-pTL->CreateEmptyNode(&amp;pTrackObj, TIMELINE_MAJOR_TYPE_TRACK);
-pGroup->QueryInterface(IID_IAMTimelineComp, (void **)&amp;pComp);
+pTL->CreateEmptyNode(&pTrackObj, TIMELINE_MAJOR_TYPE_TRACK);
+pGroup->QueryInterface(IID_IAMTimelineComp, (void **)&pComp);
 pComp->VTrackInsBefore(pTrackObj, 0);
 ```
 

@@ -53,22 +53,22 @@ float scaleX = 1.0f;
 float scaleY = 1.0f;
 
 ID2D1BitmapRenderTarget *pCompatRT = NULL;
-SafeReplace(&amp;pCompatRT, *ppBitmapRT);
+SafeReplace(&pCompatRT, *ppBitmapRT);
 
 ID2D1SolidColorBrush *pBrush = NULL;
 
 hr = pBaseRT->CreateSolidColorBrush(
     D2D1::ColorF(1.0f, 1.0f, 1.0f, 1.0f),
-    &amp;pBrush
+    &pBrush
     );
 if (SUCCEEDED(hr))
 {
-    pBaseRT->GetDpi(&amp;dpiX, &amp;dpiY);
+    pBaseRT->GetDpi(&dpiX, &dpiY);
     if (fill)
     {
         hr = pIGeometry->GetBounds(
             pWorldTransform,
-            &amp;bounds
+            &bounds
             );
     }
     else
@@ -77,7 +77,7 @@ if (SUCCEEDED(hr))
             strokeWidth,
             pStrokeStyle,
             pWorldTransform,
-            &amp;bounds
+            &bounds
             );
     }
 
@@ -210,7 +210,7 @@ if (SUCCEEDED(hr))
             currentRTSize.height > 2*inflatedIntegerPixelSize.height
            )
         {
-            SafeRelease(&amp;pCompatRT);
+            SafeRelease(&pCompatRT);
             currentRTSize.width = currentRTSize.height = 0;
         }
 
@@ -218,7 +218,7 @@ if (SUCCEEDED(hr))
             inflatedIntegerPixelSize.height > currentRTSize.height
            )
         {
-            SafeRelease(&amp;pCompatRT);
+            SafeRelease(&pCompatRT);
         }
 
         if (!pCompatRT)
@@ -240,10 +240,10 @@ if (SUCCEEDED(hr))
 
             hr = pBaseRT->CreateCompatibleRenderTarget(
                 NULL, // desiredSize
-                &amp;currentRTSize,
-                &amp;alphaOnlyFormat,
+                &currentRTSize,
+                &alphaOnlyFormat,
                 D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_NONE,
-                &amp;pCompatRT
+                &pCompatRT
                 );
         }
 

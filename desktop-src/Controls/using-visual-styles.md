@@ -69,18 +69,18 @@ if (hTheme)
     HRESULT hr;
     size_t cch;
 
-    GetWindowRect(hwndButton, &amp;rc);
+    GetWindowRect(hwndButton, &rc);
     GetWindowText(hwndButton, szButtonText,
                   (sizeof(szButtonText) / sizeof(szButtonText[0])+1));
     hr = StringCchLength(szButtonText,
-         (sizeof(szButtonText) / sizeof(szButtonText[0])), &amp;cch);
+         (sizeof(szButtonText) / sizeof(szButtonText[0])), &cch);
     if (hTheme)
     {
-        hr = DrawThemeBackground(hTheme, hDC, BP_PUSHBUTTON, iState, &amp;rc, 0);
+        hr = DrawThemeBackground(hTheme, hDC, BP_PUSHBUTTON, iState, &rc, 0);
         if (SUCCEEDED(hr))
         {
             hr = GetThemeBackgroundContentRect(hTheme, hDC, BP_PUSHBUTTON, 
-                    iState, &amp;rc, &amp;rcContent);
+                    iState, &rc, &rcContent);
         }
 
         if (SUCCEEDED(hr))
@@ -88,7 +88,7 @@ if (hTheme)
             hr = DrawThemeText(hTheme, hDC, BP_PUSHBUTTON, iState, 
                     szButtonText, cch,
                     DT_CENTER | DT_VCENTER | DT_SINGLELINE,
-                    0, &amp;rcContent);
+                    0, &rcContent);
         }
 
     }
@@ -119,10 +119,10 @@ if (theme)
     WCHAR caption[255];
     size_t cch;
     GetWindowText(hWnd, caption, 255);
-    StringCchLength(caption, 255, &amp;cch);
+    StringCchLength(caption, 255, &cch);
     DrawThemeTextEx(theme, paint.hdc, BP_PUSHBUTTON, CBS_UNCHECKEDNORMAL, 
         caption, cch, DT_CENTER | DT_VCENTER | DT_SINGLELINE, 
-        &amp;paint.rcPaint, &amp;opts);
+        &paint.rcPaint, &opts);
     CloseThemeData(theme);
 }
 else

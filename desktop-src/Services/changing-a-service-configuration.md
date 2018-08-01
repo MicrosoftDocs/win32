@@ -198,7 +198,7 @@ VOID __stdcall DoUpdateSvcDesc()
     if( !ChangeServiceConfig2(
         schService,                 // handle to service
         SERVICE_CONFIG_DESCRIPTION, // change: description
-        &amp;sd) )                      // new description
+        &sd) )                      // new description
     {
         printf("ChangeServiceConfig2 failed\n");
     }

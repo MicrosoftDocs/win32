@@ -44,7 +44,7 @@ The following code shows how to use **ComputeLength** to compute the length of a
 float length = 0;
 hr = m_pPathGeometry->ComputeLength(
     NULL, //no transform
-    &amp;length
+    &length
     );
 
 if (SUCCEEDED(hr))
@@ -53,12 +53,12 @@ if (SUCCEEDED(hr))
     m_Animation.SetEnd(length);     //length at end of path
     m_Animation.SetDuration(5.0f);  //seconds
 
-    ZeroMemory(&amp;m_DwmTimingInfo, sizeof(m_DwmTimingInfo));
+    ZeroMemory(&m_DwmTimingInfo, sizeof(m_DwmTimingInfo));
     m_DwmTimingInfo.cbSize = sizeof(m_DwmTimingInfo);
 
     // Get the composition refresh rate. If the DWM isn't running,
     // get the refresh rate from GDI -- probably going to be 60Hz
-    if (FAILED(DwmGetCompositionTimingInfo(NULL, &amp;m_DwmTimingInfo)))
+    if (FAILED(DwmGetCompositionTimingInfo(NULL, &m_DwmTimingInfo)))
     {
         HDC hdc = GetDC(m_hwnd);
         m_DwmTimingInfo.rateCompose.uiDenominator = 1;

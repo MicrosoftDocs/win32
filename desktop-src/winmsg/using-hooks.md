@@ -227,7 +227,7 @@ LRESULT WINAPI CallWndProc(int nCode, WPARAM wParam, LPARAM lParam)
             {
             // TODO: writer error handler
             }
-            hResult = StringCchLength(szCWPBuf, 256/sizeof(TCHAR), &amp;cch);
+            hResult = StringCchLength(szCWPBuf, 256/sizeof(TCHAR), &cch);
             if (FAILED(hResult))
             {
             // TODO: write error handler
@@ -306,7 +306,7 @@ LRESULT CALLBACK GetMsgProc(int nCode, WPARAM wParam, LPARAM lParam)
             {
             // TODO: write error handler
             }
-            hResult = StringCchLength(szMSGBuf, 256/sizeof(TCHAR), &amp;cch);
+            hResult = StringCchLength(szMSGBuf, 256/sizeof(TCHAR), &cch);
             if (FAILED(hResult))
             {
             // TODO: write error handler
@@ -351,7 +351,7 @@ LRESULT CALLBACK DebugProc(int nCode, WPARAM wParam, LPARAM lParam)
             {
             // TODO: write error handler
             }
-            hResult = StringCchLength(szBuf, 128/sizeof(TCHAR), &amp;cch);
+            hResult = StringCchLength(szBuf, 128/sizeof(TCHAR), &cch);
             if (FAILED(hResult))
             {
             // TODO: write error handler
@@ -483,7 +483,7 @@ LRESULT CALLBACK CBTProc(int nCode, WPARAM wParam, LPARAM lParam)
     {
     // TODO: write error handler
     }
-    hResult = StringCchLength(szBuf, 128/sizeof(TCHAR), &amp;cch);
+    hResult = StringCchLength(szBuf, 128/sizeof(TCHAR), &cch);
     if (FAILED(hResult))
     {
     // TODO: write error handler
@@ -524,7 +524,7 @@ LRESULT CALLBACK MouseProc(int nCode, WPARAM wParam, LPARAM lParam)
     {
     // TODO: write error handler
     }
-    hResult = StringCchLength(szBuf, 128/sizeof(TCHAR), &amp;cch);
+    hResult = StringCchLength(szBuf, 128/sizeof(TCHAR), &cch);
     if (FAILED(hResult))
     {
     // TODO: write error handler
@@ -557,7 +557,7 @@ LRESULT CALLBACK KeyboardProc(int nCode, WPARAM wParam, LPARAM lParam)
     {
     // TODO: write error handler
     } 
-    hResult = StringCchLength(szBuf, 128/sizeof(TCHAR), &amp;cch);
+    hResult = StringCchLength(szBuf, 128/sizeof(TCHAR), &cch);
     if (FAILED(hResult))
     {
     // TODO: write error handler
@@ -634,7 +634,7 @@ LRESULT CALLBACK MessageProc(int nCode, WPARAM wParam, LPARAM lParam)
     {
     // TODO: write error handler
     } 
-    hResult = StringCchLength(szBuf, 128/sizeof(TCHAR), &amp;cch);
+    hResult = StringCchLength(szBuf, 128/sizeof(TCHAR), &cch);
     if (FAILED(hResult))
     {
     // TODO: write error handler

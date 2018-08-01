@@ -84,7 +84,7 @@ HRESULT      hr;
 if (lLe > 0)
 {
     // Get reply data if available.
-    hr = pISCardCmd->get_ApduReply(&amp;pIByteReply);
+    hr = pISCardCmd->get_ApduReply(&pIByteReply);
     if (FAILED(hr)) 
     {
         printf("Failed ISCardCmd::get_ApduReply.\n");
@@ -95,7 +95,7 @@ if (lLe > 0)
         BYTE byReplyBytes[256];
         LONG lBytesRead;
 
-        hr = pIByteReply->Read(byReplyBytes, lLe, &amp;lBytesRead);
+        hr = pIByteReply->Read(byReplyBytes, lLe, &lBytesRead);
         if (FAILED(hr))
         {
             printf("Failed IByteBuffer::Read.\n");

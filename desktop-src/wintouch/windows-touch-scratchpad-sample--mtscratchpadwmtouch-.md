@@ -89,12 +89,12 @@ The following code shows how the ink strokes are drawn to the screen in the **WM
 
 ```C++
         case WM_PAINT:
-            hdc = BeginPaint(hWnd, &amp;ps);
+            hdc = BeginPaint(hWnd, &ps);
             // Full redraw: draw complete collection of finished strokes and
             // also all the strokes that are currently in drawing.
             g_StrkColFinished.Draw(hdc);
             g_StrkColDrawing.Draw(hdc);
-            EndPaint(hWnd, &amp;ps);
+            EndPaint(hWnd, &ps);
             break;
 ```
 

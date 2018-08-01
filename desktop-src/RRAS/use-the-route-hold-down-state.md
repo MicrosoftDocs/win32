@@ -50,7 +50,7 @@ DestInfoSize = RTM_SIZE_OF_DEST_INFO(NumViews);
 // (basically the whole tree; you can
 // also achieve this by using RTM_ENUM_START)
 
-RTM_IPV4_MAKE_NET_ADDRESS(&amp;NetAddress,
+RTM_IPV4_MAKE_NET_ADDRESS(&NetAddress,
                           0x00000000,
                           0);
 
@@ -59,9 +59,9 @@ RTM_IPV4_MAKE_NET_ADDRESS(&amp;NetAddress,
 Status = RtmCreateDestEnum(RtmRegHandle,
                            RTM_VIEW_MASK_ANY, // MUST BE EXACTLY THE SAME AS THIS
                            RTM_ENUM_RANGE,
-                           &amp;NetAddress,
+                           &NetAddress,
                            RTM_BEST_PROTOCOL, // Get best route on each destination
-                           &amp;EnumHandle);
+                           &EnumHandle);
 
 if (Status == NO_ERROR)
 {
@@ -71,7 +71,7 @@ if (Status == NO_ERROR)
 
         Status = RtmGetEnumDests(RtmRegHandle
                                  EnumHandle,
-                                 &amp;NumInfos,
+                                 &NumInfos,
                                  DestInfos);
 
         for (i = 0; i < NumInfos; i++)
@@ -89,7 +89,7 @@ if (Status == NO_ERROR)
                                     DestInfo.DestHandle,
                                     RTM_BEST_PROTOCOL,
                                     RTM_VIEW_MASK_UCAST,
-                                    &amp;DestInfoActual);
+                                    &DestInfoActual);
 
             if (Status == NO_ERROR)
             {
@@ -104,7 +104,7 @@ if (Status == NO_ERROR)
                     ; 
                 }
 
-                RtmReleaseDestInfo(RtmRegHandle, &amp;DestInfoActual);
+                RtmReleaseDestInfo(RtmRegHandle, &DestInfoActual);
             }
 
             ...

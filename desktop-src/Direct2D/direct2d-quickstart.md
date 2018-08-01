@@ -93,7 +93,7 @@ In this step, you set up your application to use Direct2D by adding the necessar
 
     #ifndef HINST_THISCOMPONENT
     EXTERN_C IMAGE_DOS_HEADER __ImageBase;
-    #define HINST_THISCOMPONENT ((HINSTANCE)&amp;__ImageBase)
+    #define HINST_THISCOMPONENT ((HINSTANCE)&__ImageBase)
     #endif
     ```
 
@@ -202,10 +202,10 @@ In this part, you implement the DemoApp constructor and destructor, its initiali
     <tr class="odd">
     <td><pre><code>DemoApp::~DemoApp()
     {
-        SafeRelease(&amp;m_pDirect2dFactory);
-        SafeRelease(&amp;m_pRenderTarget);
-        SafeRelease(&amp;m_pLightSlateGrayBrush);
-        SafeRelease(&amp;m_pCornflowerBlueBrush);
+        SafeRelease(&m_pDirect2dFactory);
+        SafeRelease(&m_pRenderTarget);
+        SafeRelease(&m_pLightSlateGrayBrush);
+        SafeRelease(&m_pCornflowerBlueBrush);
 
     }</code></pre></td>
     </tr>
@@ -220,10 +220,10 @@ In this part, you implement the DemoApp constructor and destructor, its initiali
     {
         MSG msg;
 
-        while (GetMessage(&amp;msg, NULL, 0, 0))
+        while (GetMessage(&msg, NULL, 0, 0))
         {
-            TranslateMessage(&amp;msg);
-            DispatchMessage(&amp;msg);
+            TranslateMessage(&msg);
+            DispatchMessage(&msg);
         }
     }
     ```
@@ -254,7 +254,7 @@ In this part, you implement the DemoApp constructor and destructor, its initiali
             wcex.hCursor       = LoadCursor(NULL, IDI_APPLICATION);
             wcex.lpszClassName = L"D2DDemoApp";
 
-            RegisterClassEx(&amp;wcex);
+            RegisterClassEx(&wcex);
 
 
             // Because the CreateWindow function takes its size in pixels,
@@ -263,7 +263,7 @@ In this part, you implement the DemoApp constructor and destructor, its initiali
 
             // The factory returns the current system DPI. This is also the value it will use
             // to create its own windows.
-            m_pDirect2dFactory->GetDesktopDpi(&amp;dpiX, &amp;dpiY);
+            m_pDirect2dFactory->GetDesktopDpi(&dpiX, &dpiY);
 
 
             // Create the window.
@@ -340,7 +340,7 @@ In this part, you create the Direct2D resources that you use to draw. Direct2D p
         HRESULT hr = S_OK;
 
         // Create a Direct2D factory.
-        hr = D2D1CreateFactory(D2D1_FACTORY_TYPE_SINGLE_THREADED, &amp;m_pDirect2dFactory);
+        hr = D2D1CreateFactory(D2D1_FACTORY_TYPE_SINGLE_THREADED, &m_pDirect2dFactory);
 
         return hr;
     }
@@ -351,7 +351,7 @@ In this part, you create the Direct2D resources that you use to draw. Direct2D p
 2.  Implement the DemoApp::CreateDeviceResources method. This method creates the window's device-dependent resources, a render target, and two brushes. Retrieve the size of the client area and create an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) of the same size that renders to the window's **HWND**. Store the render target in the **m\_pRenderTarget** class member.
     ```C++
             RECT rc;
-            GetClientRect(m_hwnd, &amp;rc);
+            GetClientRect(m_hwnd, &rc);
 
             D2D1_SIZE_U size = D2D1::SizeU(
                 rc.right - rc.left,
@@ -362,7 +362,7 @@ In this part, you create the Direct2D resources that you use to draw. Direct2D p
             hr = m_pDirect2dFactory->CreateHwndRenderTarget(
                 D2D1::RenderTargetProperties(),
                 D2D1::HwndRenderTargetProperties(m_hwnd, size),
-                &amp;m_pRenderTarget
+                &m_pRenderTarget
                 );
     
     ```
@@ -376,7 +376,7 @@ In this part, you create the Direct2D resources that you use to draw. Direct2D p
                 // Create a gray brush.
                 hr = m_pRenderTarget->CreateSolidColorBrush(
                     D2D1::ColorF(D2D1::ColorF::LightSlateGray),
-                    &amp;m_pLightSlateGrayBrush
+                    &m_pLightSlateGrayBrush
                     );
             }
             if (SUCCEEDED(hr))
@@ -384,7 +384,7 @@ In this part, you create the Direct2D resources that you use to draw. Direct2D p
                 // Create a blue brush.
                 hr = m_pRenderTarget->CreateSolidColorBrush(
                     D2D1::ColorF(D2D1::ColorF::CornflowerBlue),
-                    &amp;m_pCornflowerBlueBrush
+                    &m_pCornflowerBlueBrush
                     );
             }
     ```
@@ -400,7 +400,7 @@ In this part, you create the Direct2D resources that you use to draw. Direct2D p
         if (!m_pRenderTarget)
         {
             RECT rc;
-            GetClientRect(m_hwnd, &amp;rc);
+            GetClientRect(m_hwnd, &rc);
 
             D2D1_SIZE_U size = D2D1::SizeU(
                 rc.right - rc.left,
@@ -411,7 +411,7 @@ In this part, you create the Direct2D resources that you use to draw. Direct2D p
             hr = m_pDirect2dFactory->CreateHwndRenderTarget(
                 D2D1::RenderTargetProperties(),
                 D2D1::HwndRenderTargetProperties(m_hwnd, size),
-                &amp;m_pRenderTarget
+                &m_pRenderTarget
                 );
 
 
@@ -420,7 +420,7 @@ In this part, you create the Direct2D resources that you use to draw. Direct2D p
                 // Create a gray brush.
                 hr = m_pRenderTarget->CreateSolidColorBrush(
                     D2D1::ColorF(D2D1::ColorF::LightSlateGray),
-                    &amp;m_pLightSlateGrayBrush
+                    &m_pLightSlateGrayBrush
                     );
             }
             if (SUCCEEDED(hr))
@@ -428,7 +428,7 @@ In this part, you create the Direct2D resources that you use to draw. Direct2D p
                 // Create a blue brush.
                 hr = m_pRenderTarget->CreateSolidColorBrush(
                     D2D1::ColorF(D2D1::ColorF::CornflowerBlue),
-                    &amp;m_pCornflowerBlueBrush
+                    &m_pCornflowerBlueBrush
                     );
             }
         }
@@ -443,9 +443,9 @@ In this part, you create the Direct2D resources that you use to draw. Direct2D p
     ```C++
     void DemoApp::DiscardDeviceResources()
     {
-        SafeRelease(&amp;m_pRenderTarget);
-        SafeRelease(&amp;m_pLightSlateGrayBrush);
-        SafeRelease(&amp;m_pCornflowerBlueBrush);
+        SafeRelease(&m_pRenderTarget);
+        SafeRelease(&m_pLightSlateGrayBrush);
+        SafeRelease(&m_pCornflowerBlueBrush);
     }
     ```
 
@@ -629,7 +629,7 @@ In this part, you implement the windows procedure, the OnRender method that pain
 8.  Use the render target's [**FillRectangle**](https://msdn.microsoft.com/en-us/library/Dd371954(v=VS.85).aspx) method to paint the interior of the first rectangle with the gray brush.
     ```C++
             // Draw a filled rectangle.
-            m_pRenderTarget->FillRectangle(&amp;rectangle1, m_pLightSlateGrayBrush);
+            m_pRenderTarget->FillRectangle(&rectangle1, m_pLightSlateGrayBrush);
     ```
 
     
@@ -637,7 +637,7 @@ In this part, you implement the windows procedure, the OnRender method that pain
 9.  Use the render target's [**DrawRectangle**](https://msdn.microsoft.com/en-us/library/Dd371902(v=VS.85).aspx) method to paint the outline of the second rectangle with the cornflower blue brush.
     ```C++
             // Draw the outline of a rectangle.
-            m_pRenderTarget->DrawRectangle(&amp;rectangle2, m_pCornflowerBlueBrush);
+            m_pRenderTarget->DrawRectangle(&rectangle2, m_pCornflowerBlueBrush);
     ```
 
     

@@ -29,8 +29,8 @@ A helper structure used to describe a compute shader as a single object suitable
 ```C++
 struct CD3DX12_PIPELINE_STATE_STREAM_CS {
                                    CD3DX12_PIPELINE_STATE_STREAM_CS;
-                                   CD3DX12_PIPELINE_STATE_STREAM_CS(D3D12_SHADER_BYTECODE const &amp;i);
-  CD3DX12_PIPELINE_STATE_STREAM_CS operator=(D3D12_SHADER_BYTECODE const&amp; i);
+                                   CD3DX12_PIPELINE_STATE_STREAM_CS(D3D12_SHADER_BYTECODE const &i);
+  CD3DX12_PIPELINE_STATE_STREAM_CS operator=(D3D12_SHADER_BYTECODE const& i);
                                    operator D3D12_SHADER_BYTECODE() const;
 };
 ```

@@ -23,7 +23,7 @@ The following sample code shows how to search the routing table for the best rou
 RTM_IPV4_SET_ADDR_AND_MASK(NetAddress, Addr, Mask);
 
 Status = RtmGetMostSpecificDestination(RtmRegHandle,
-                                       &amp;NetAddress,
+                                       &NetAddress,
                                        RTM_BEST_PROTOCOL,   // Determines which route information is returned.
                                        RTM_VIEW_MASK_UCAST, // Give the information for the best unicast route
                                        DestInfo);

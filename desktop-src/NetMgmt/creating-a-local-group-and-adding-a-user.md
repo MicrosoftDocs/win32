@@ -49,7 +49,7 @@ NET_API_STATUS NetSample( LPWSTR lpszDomain,
 
     err = NetGetDCName( NULL,                    // local computer 
                    lpszDomain,                   // domain name 
-                   (LPBYTE *) &amp;lpszPrimaryDC );  // returned PDC 
+                   (LPBYTE *) &lpszPrimaryDC );  // returned PDC 
 
     if ( err != 0 )
     {
@@ -69,8 +69,8 @@ NET_API_STATUS NetSample( LPWSTR lpszDomain,
 
     err = NetUserAdd( lpszPrimaryDC,        // PDC name 
                       1,                    // level 
-                      (LPBYTE) &amp;user_info,  // input buffer 
-                      &amp;parm_err );          // parameter in error 
+                      (LPBYTE) &user_info,  // input buffer 
+                      &parm_err );          // parameter in error 
 
     switch ( err )
     {
@@ -99,8 +99,8 @@ NET_API_STATUS NetSample( LPWSTR lpszDomain,
 
     err = NetLocalGroupAdd( lpszPrimaryDC,    // PDC name 
                   1,                          // level 
-                  (LPBYTE) &amp;localgroup_info,  // input buffer 
-                  &amp;parm_err );                // parameter in error 
+                  (LPBYTE) &localgroup_info,  // input buffer 
+                  &parm_err );                // parameter in error 
 
     switch ( err )
     {
@@ -129,7 +129,7 @@ NET_API_STATUS NetSample( LPWSTR lpszDomain,
     err = NetLocalGroupAddMembers( lpszPrimaryDC,        // PDC name 
                            lpszLocalGroup,               // group name 
                            3,                            // name 
-                           (LPBYTE) &amp;localgroup_members, // buffer 
+                           (LPBYTE) &localgroup_members, // buffer 
                            1 );                          // count
 
     switch ( err )

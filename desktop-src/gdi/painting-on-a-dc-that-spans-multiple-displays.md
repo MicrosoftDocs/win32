@@ -16,9 +16,9 @@ To respond to a **WM\_PAINT** message, use code like the following.
 
 ```C++
 case WM_PAINT:
-hdc = BeginPaint(hwnd, &amp;ps);
+hdc = BeginPaint(hwnd, &ps);
 EnumDisplayMonitors(hdc, NULL, MyPaintEnumProc, 0);
-EndPaint(hwnd, &amp;ps);
+EndPaint(hwnd, &ps);
  
 ```
 
@@ -28,10 +28,10 @@ To paint the top half of a window, use code like the following.
 
 
 ```C++
-GetClient Rect(hwnd, &amp;rc);
+GetClient Rect(hwnd, &rc);
 rc.bottom = (rc.bottom - rc.top) / 2;
 hdc = GetDC(hwnd);
-EnumDisplayMonitors(hdc, &amp;rc, MyPaintEnumProc, 0);
+EnumDisplayMonitors(hdc, &rc, MyPaintEnumProc, 0);
 ReleaseDC(hwnd, hdc);
 ```
 

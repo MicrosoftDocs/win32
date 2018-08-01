@@ -353,8 +353,8 @@ LONG  lParam;
             // paint the background as appropriate. 
 
             hdc = GetDC(hwnd); 
-            GetClientRect (hwnd, &amp;rc); 
-            FillRect (hdc, &amp;rc, GetStockObject(BLACK_BRUSH)); 
+            GetClientRect (hwnd, &rc); 
+            FillRect (hdc, &rc, GetStockObject(BLACK_BRUSH)); 
             ReleaseDC(hwnd,hdc); 
             break; 
  
@@ -367,9 +367,9 @@ LONG  lParam;
             // time a WM_TIMER message is issued. 
 
             hdc = GetDC(hwnd); 
-            GetClientRect(hwnd, &amp;rc); 
+            GetClientRect(hwnd, &rc); 
             if (i++ <= 4) 
-                FillRect(hdc, &amp;rc, GetStockObject(i)); 
+                FillRect(hdc, &rc, GetStockObject(i)); 
             else 
                 (i = 0); 
             ReleaseDC(hwnd,hdc); 

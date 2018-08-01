@@ -54,14 +54,14 @@ IWMWriterAdvanced2 *pWMWA2 = NULL;
 
 hr = pAsfWriter->QueryInterface(
     IID_IServiceProvider, 
-    (void**)&amp;pProvider
+    (void**)&pProvider
     );
 if (SUCCEEDED(hr))
 {
     hr = pProvider->QueryService(
         IID_IWMWriterAdvanced2,
         IID_IWMWriterAdvanced2, 
-        (void**)&amp;pWMWA2
+        (void**)&pWMWA2
         );
     pProvider->Release();
     if (SUCCEEDED(hr))

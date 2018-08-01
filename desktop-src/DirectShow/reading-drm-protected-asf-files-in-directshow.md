@@ -64,11 +64,11 @@ STDMETHODIMP Player::QueryService(REFIID siid, REFIID riid, void **ppv)
         return E_POINTER; 
     }
 
-    if (siid == __uuidof(IWMReader) &amp;&amp; riid == __uuidof(IUnknown))
+    if (siid == __uuidof(IWMReader) && riid == __uuidof(IUnknown))
     {
         IUnknown *punkCert;
 
-        HRESULT hr = WMCreateCertificate(&amp;punkCert);
+        HRESULT hr = WMCreateCertificate(&punkCert);
 
         if (SUCCEEDED(hr))
         {
@@ -99,7 +99,7 @@ HRESULT Player::CreateFilterGraph()
     }
 
     // Register the application as a site (service).
-    hr = pGraph->QueryInterface(&amp;pSite);
+    hr = pGraph->QueryInterface(&pSite);
     if (FAILED(hr))
     {
         goto done;
@@ -206,7 +206,7 @@ HRESULT Player::LoadMediaFile(PCWSTR pwszFile)
                 goto done;
             }
 
-            hr = m_pReader-&gt;QueryInterface(&amp;m_pFileSource);
+            hr = m_pReader-&gt;QueryInterface(&m_pFileSource);
             if (FAILED(hr))
             {
                 goto done;
@@ -267,23 +267,23 @@ HRESULT RenderOutputPins(IGraphBuilder *pGraph, IBaseFilter *pFilter)
     CComPtr<IPin>       pPin;
 
     // Enumerate all pins on the filter
-    HRESULT hr = pFilter->EnumPins(&amp;pEnumPin);
+    HRESULT hr = pFilter->EnumPins(&pEnumPin);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Step through every pin, looking for the output pins.
-    while (S_OK == (hr = pEnumPin->Next(1, &amp;pPin, NULL)))
+    while (S_OK == (hr = pEnumPin->Next(1, &pPin, NULL)))
     {
         // Skip connected pins.
-        hr = pPin->ConnectedTo(&amp;pConnectedPin);
+        hr = pPin->ConnectedTo(&pConnectedPin);
         if (hr == VFW_E_NOT_CONNECTED)
         {
             PIN_DIRECTION PinDirection;
-            hr = pPin->QueryDirection(&amp;PinDirection);
+            hr = pPin->QueryDirection(&PinDirection);
 
-            if ((S_OK == hr) &amp;&amp; (PinDirection == PINDIR_OUTPUT))
+            if ((S_OK == hr) && (PinDirection == PINDIR_OUTPUT))
             {
                 hr = pGraph->Render(pPin);
             }
@@ -330,11 +330,11 @@ HRESULT DrmManager::Initialize(IBaseFilter *pFilter)
 <td><pre><code>    CComPtr&lt;IServiceProvider&gt; pService;
     CComPtr&lt;IWMDRMReader&gt; pDrmReader;
 
-    HRESULT hr = pFilter-&gt;QueryInterface(&amp;pService);
+    HRESULT hr = pFilter-&gt;QueryInterface(&pService);
     if (SUCCEEDED(hr))
     {
         hr = pService-&gt;QueryService(
-            __uuidof(IWMDRMReader), IID_PPV_ARGS(&amp;m_pDrmReader));
+            __uuidof(IWMDRMReader), IID_PPV_ARGS(&m_pDrmReader));
     }
     return hr;
 }</code></pre></td>

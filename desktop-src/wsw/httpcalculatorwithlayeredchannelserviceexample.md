@@ -117,7 +117,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -125,7 +125,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -195,9 +195,9 @@ static const DefaultBinding_ICalculatorFunctionTable calculatorFunctions = {Add,
 // Method contract for the service
 static const WS_SERVICE_CONTRACT calculatorContract = 
 {
-    &amp;CalculatorService_wsdl.contracts.DefaultBinding_ICalculator, // comes from the generated header.
+    &CalculatorService_wsdl.contracts.DefaultBinding_ICalculator, // comes from the generated header.
     NULL, // for not specifying the default contract
-    &amp;calculatorFunctions // specified by the user
+    &calculatorFunctions // specified by the user
 };
 
 
@@ -211,7 +211,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     WS_SERVICE_HOST* host = NULL;
     WS_SERVICE_ENDPOINT serviceEndpoint = {};
     const WS_SERVICE_ENDPOINT* serviceEndpoints[1];
-    serviceEndpoints[0] = &amp;serviceEndpoint;
+    serviceEndpoints[0] = &serviceEndpoint;
     
     WS_ERROR* error = NULL;
     
@@ -220,7 +220,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     WS_CHANNEL_PROPERTY channelPropertyArray[1];
     BOOL enableTimeouts = FALSE;
     channelPropertyArray[0].id = WS_CHANNEL_PROPERTY_ENABLE_TIMEOUTS;
-    channelPropertyArray[0].value = &amp;enableTimeouts;
+    channelPropertyArray[0].value = &enableTimeouts;
     channelPropertyArray[0].valueSize = sizeof(enableTimeouts);
     
     // Set up channel properties for the custom channel
@@ -228,7 +228,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     // Set up channel property that specifies the callbacks that implement the custom channel
     customChannelPropertyArray[0].id = WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_CALLBACKS;
-    customChannelPropertyArray[0].value = &amp;layeredChannelCallbacks;
+    customChannelPropertyArray[0].value = &layeredChannelCallbacks;
     customChannelPropertyArray[0].valueSize = sizeof(layeredChannelCallbacks);
     
     // Initialize parameters to pass to the layered channel.
@@ -245,7 +245,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     // Specify the channel parameters as a channel property
     customChannelPropertyArray[1].id = WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS;
-    customChannelPropertyArray[1].value = &amp;layeredChannelParameters;
+    customChannelPropertyArray[1].value = &layeredChannelParameters;
     customChannelPropertyArray[1].valueSize = sizeof(layeredChannelParameters);
     
     // Set up the channel properties value
@@ -258,7 +258,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     // Set up listener property that specifies the callbacks that implement the custom listener
     listenerPropertyArray[0].id = WS_LISTENER_PROPERTY_CUSTOM_LISTENER_CALLBACKS;
-    listenerPropertyArray[0].value = &amp;layeredListenerCallbacks;
+    listenerPropertyArray[0].value = &layeredListenerCallbacks;
     listenerPropertyArray[0].valueSize = sizeof(layeredListenerCallbacks);
     
     // Initialize parameters to pass to the layered listener.
@@ -275,7 +275,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     // Specify the listener parameters as a listener property
     listenerPropertyArray[1].id = WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS;
-    listenerPropertyArray[1].value = &amp;layeredListenerParameters;
+    listenerPropertyArray[1].value = &layeredListenerParameters;
     listenerPropertyArray[1].valueSize = sizeof(layeredListenerParameters);
     
     // Set up the listener properties value
@@ -287,10 +287,10 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     WS_SERVICE_ENDPOINT_PROPERTY serviceEndpointProperties[2];
     WS_SERVICE_PROPERTY_CLOSE_CALLBACK closeCallbackProperty = {CloseChannelCallback};
     serviceEndpointProperties[0].id = WS_SERVICE_ENDPOINT_PROPERTY_CLOSE_CHANNEL_CALLBACK;
-    serviceEndpointProperties[0].value = &amp;closeCallbackProperty;
+    serviceEndpointProperties[0].value = &closeCallbackProperty;
     serviceEndpointProperties[0].valueSize = sizeof(closeCallbackProperty);
     serviceEndpointProperties[1].id = WS_SERVICE_ENDPOINT_PROPERTY_LISTENER_PROPERTIES;
-    serviceEndpointProperties[1].value = &amp;listenerProperties;
+    serviceEndpointProperties[1].value = &listenerProperties;
     serviceEndpointProperties[1].valueSize = sizeof(listenerProperties);
     
     
@@ -300,7 +300,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     serviceEndpoint.channelBinding = WS_CUSTOM_CHANNEL_BINDING; // channel binding for the endpoint
     serviceEndpoint.channelType = WS_CHANNEL_TYPE_REPLY; // the channel type
     serviceEndpoint.securityDescription = NULL; // security description
-    serviceEndpoint.contract = &amp;calculatorContract;  // the contract
+    serviceEndpoint.contract = &calculatorContract;  // the contract
     serviceEndpoint.properties = serviceEndpointProperties;
     serviceEndpoint.propertyCount = WsCountOf(serviceEndpointProperties);
     serviceEndpoint.channelProperties.properties = customChannelPropertyArray; // Channel properties
@@ -310,7 +310,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -332,7 +332,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         1, 
         NULL, 
         0, 
-        &amp;host, 
+        &host, 
         error);
     if (FAILED(hr))
     {
@@ -466,7 +466,7 @@ HRESULT CustomCreateChannel(
         layeredChannelParameters->channelProperties,
         layeredChannelParameters->channelPropertyCount,
         layeredChannelParameters->securityDescription,
-        &amp;customChannel->channel,
+        &customChannel->channel,
         error);
     if (FAILED(hr))
     {
@@ -657,20 +657,20 @@ HRESULT CustomShutdownSessionChannel(
 // Initialize the callbacks that will implement the custom channel
 WS_CUSTOM_CHANNEL_CALLBACKS layeredChannelCallbacks =
 {
-    (WS_CREATE_CHANNEL_CALLBACK)&amp;CustomCreateChannel, 
-    (WS_FREE_CHANNEL_CALLBACK)&amp;CustomFreeChannel, 
-    (WS_RESET_CHANNEL_CALLBACK)&amp;CustomResetChannel, 
-    (WS_OPEN_CHANNEL_CALLBACK)&amp;CustomOpenChannel, 
-    (WS_CLOSE_CHANNEL_CALLBACK)&amp;CustomCloseChannel, 
-    (WS_ABORT_CHANNEL_CALLBACK)&amp;CustomAbortChannel, 
-    (WS_GET_CHANNEL_PROPERTY_CALLBACK)&amp;CustomGetChannelProperty, 
-    (WS_SET_CHANNEL_PROPERTY_CALLBACK)&amp;CustomSetChannelProperty, 
-    (WS_WRITE_MESSAGE_START_CALLBACK)&amp;CustomWriteMessageStart, 
-    (WS_WRITE_MESSAGE_END_CALLBACK)&amp;CustomWriteMessageEnd, 
-    (WS_READ_MESSAGE_START_CALLBACK)&amp;CustomReadMessageStart, 
-    (WS_READ_MESSAGE_END_CALLBACK)&amp;CustomReadMessageEnd, 
-    (WS_ABANDON_MESSAGE_CALLBACK)&amp;CustomAbandonMessage, 
-    (WS_SHUTDOWN_SESSION_CHANNEL_CALLBACK)&amp;CustomShutdownSessionChannel,
+    (WS_CREATE_CHANNEL_CALLBACK)&CustomCreateChannel, 
+    (WS_FREE_CHANNEL_CALLBACK)&CustomFreeChannel, 
+    (WS_RESET_CHANNEL_CALLBACK)&CustomResetChannel, 
+    (WS_OPEN_CHANNEL_CALLBACK)&CustomOpenChannel, 
+    (WS_CLOSE_CHANNEL_CALLBACK)&CustomCloseChannel, 
+    (WS_ABORT_CHANNEL_CALLBACK)&CustomAbortChannel, 
+    (WS_GET_CHANNEL_PROPERTY_CALLBACK)&CustomGetChannelProperty, 
+    (WS_SET_CHANNEL_PROPERTY_CALLBACK)&CustomSetChannelProperty, 
+    (WS_WRITE_MESSAGE_START_CALLBACK)&CustomWriteMessageStart, 
+    (WS_WRITE_MESSAGE_END_CALLBACK)&CustomWriteMessageEnd, 
+    (WS_READ_MESSAGE_START_CALLBACK)&CustomReadMessageStart, 
+    (WS_READ_MESSAGE_END_CALLBACK)&CustomReadMessageEnd, 
+    (WS_ABANDON_MESSAGE_CALLBACK)&CustomAbandonMessage, 
+    (WS_SHUTDOWN_SESSION_CHANNEL_CALLBACK)&CustomShutdownSessionChannel,
 };
 ```
 
@@ -755,7 +755,7 @@ HRESULT CustomCreateListener(
         layeredListenerParameters->listenerProperties,
         layeredListenerParameters->listenerPropertyCount,
         layeredListenerParameters->securityDescription,
-        &amp;customListener->listener,
+        &customListener->listener,
         error);
     if (FAILED(hr))
     {
@@ -895,7 +895,7 @@ HRESULT CustomCreateChannelForListener(
         customListener->listener,
         layeredChannelParameters->channelProperties,
         layeredChannelParameters->channelPropertyCount,
-        &amp;customChannel->channel,
+        &customChannel->channel,
         error);
     if (FAILED(hr))
     {
@@ -931,16 +931,16 @@ Exit:
 // Initialize the callbacks that will implement the custom listener
 WS_CUSTOM_LISTENER_CALLBACKS layeredListenerCallbacks =
 {
-    (WS_CREATE_LISTENER_CALLBACK)&amp;CustomCreateListener, 
-    (WS_FREE_LISTENER_CALLBACK)&amp;CustomFreeListener, 
-    (WS_RESET_LISTENER_CALLBACK)&amp;CustomResetListener, 
-    (WS_OPEN_LISTENER_CALLBACK)&amp;CustomOpenListener, 
-    (WS_CLOSE_LISTENER_CALLBACK)&amp;CustomCloseListener, 
-    (WS_ABORT_LISTENER_CALLBACK)&amp;CustomAbortListener, 
-    (WS_GET_LISTENER_PROPERTY_CALLBACK)&amp;CustomGetListenerProperty, 
-    (WS_SET_LISTENER_PROPERTY_CALLBACK)&amp;CustomSetListenerProperty, 
-    (WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK)&amp;CustomCreateChannelForListener, 
-    (WS_ACCEPT_CHANNEL_CALLBACK)&amp;CustomAcceptChannel, 
+    (WS_CREATE_LISTENER_CALLBACK)&CustomCreateListener, 
+    (WS_FREE_LISTENER_CALLBACK)&CustomFreeListener, 
+    (WS_RESET_LISTENER_CALLBACK)&CustomResetListener, 
+    (WS_OPEN_LISTENER_CALLBACK)&CustomOpenListener, 
+    (WS_CLOSE_LISTENER_CALLBACK)&CustomCloseListener, 
+    (WS_ABORT_LISTENER_CALLBACK)&CustomAbortListener, 
+    (WS_GET_LISTENER_PROPERTY_CALLBACK)&CustomGetListenerProperty, 
+    (WS_SET_LISTENER_PROPERTY_CALLBACK)&CustomSetListenerProperty, 
+    (WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK)&CustomCreateChannelForListener, 
+    (WS_ACCEPT_CHANNEL_CALLBACK)&CustomAcceptChannel, 
 };
 ```
 

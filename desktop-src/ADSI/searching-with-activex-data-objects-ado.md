@@ -153,7 +153,7 @@ The following code example shows how to set search options.
 
 ```VB
 Const ADS_SCOPE_ONELEVEL = 1
-Const ADS_CHASE_REFERRALS_EXTERNAL = &amp;H40
+Const ADS_CHASE_REFERRALS_EXTERNAL = &H40
 
 Dim Com As New Command
  

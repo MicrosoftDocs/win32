@@ -36,18 +36,18 @@ HRESULT hr = S_OK;
 hr = CoInitialize(NULL);
 
 // Create a writer file sink.
-hr = WMCreateWriterFileSink(&amp;pBaseFileSink);
+hr = WMCreateWriterFileSink(&pBaseFileSink);
 
 // Retrieve an IWMWriterFileSink3 interface pointer for the new sink.
 hr = pBaseFileSink->QueryInterface(IID_IWMWriterFileSink3,
-                                    (void**)&amp;pMySink);
+                                    (void**)&pMySink);
 
 // Release the base file sink.
 pBaseFileSink->Release();
 pBaseFileSink = NULL;
 
 // Check the state of automatic indexing.
-hr = pMySink->GetAutoIndexing(&amp;fAutoIndex);
+hr = pMySink->GetAutoIndexing(&fAutoIndex);
 
 // If auto indexing is enabled, turn it off.
 if(fAutoIndex)

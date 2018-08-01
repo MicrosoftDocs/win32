@@ -71,7 +71,7 @@ HRESULT CreateMachineLocalGroup(
     CComPtr<IADsContainer> spContainer;
     hr = ADsGetObject(sbstrADsPath, 
                       IID_IADsContainer,
-                     (void**) &amp;spContainer);
+                     (void**) &spContainer);
     if(FAILED(hr))
     {
         return hr;
@@ -84,7 +84,7 @@ HRESULT CreateMachineLocalGroup(
     CComPtr<IDispatch> spDisp;
     hr = spContainer->Create(CComBSTR("group"), 
                              CComBSTR(pwszGroupName), 
-                             &amp;spDisp);
+                             &spDisp);
     if(FAILED(hr))
     {
         return hr;
@@ -92,7 +92,7 @@ HRESULT CreateMachineLocalGroup(
 
     // Get the IADsGroup interface.
     CComPtr<IADsGroup> spGroup;
-    hr = spDisp->QueryInterface(IID_IADsGroup, (void**)&amp;spGroup);
+    hr = spDisp->QueryInterface(IID_IADsGroup, (void**)&spGroup);
     if(FAILED(hr))
     {
         return hr;

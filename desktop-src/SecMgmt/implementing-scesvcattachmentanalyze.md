@@ -64,10 +64,10 @@ SCESTATUS WINAPI SceSvcAttachmentAnalyze (
                               SceSvcConfigurationInfo,
                               NULL,
                               FALSE,
-                              &amp;pConfigInfo,
-                              &amp;EnumContext
+                              &pConfigInfo,
+                              &EnumContext
                               );
-        if(retCode == SCESTATUS_SUCCESS &amp;&amp; pConfigInfo != NULL)
+        if(retCode == SCESTATUS_SUCCESS && pConfigInfo != NULL)
         {
           ULONG i;
           for(i = 0;i < pConfigInfo->Count; i++)
@@ -80,7 +80,7 @@ SCESTATUS WINAPI SceSvcAttachmentAnalyze (
         //////////////////////////////////////////////
             QueryConfigurationLine(
                                pConfigInfo->Line[i].Key,
-                               &amp;SystemValue);
+                               &SystemValue);
         
         //////////////////////////////////////////////
         // Compare values.
@@ -89,7 +89,7 @@ SCESTATUS WINAPI SceSvcAttachmentAnalyze (
                      pConfigInfo->Line[i].Key,
                      SystemValue,
                      pConfigInfo->Line[i].Value,
-                     &amp;Result);
+                     &Result);
         
         //////////////////////////////////////////////
         // Write to security database if values are 
@@ -119,7 +119,7 @@ SCESTATUS WINAPI SceSvcAttachmentAnalyze (
         (*(pSceCbInfo->pfFreeInfo)) (PVOID)pConfigInfo);
           pConfigInfo = NULL;
     }
-  } while (retCode == SCESTATUS_SUCCESS &amp;&amp; pConfigInfo != NULL);
+  } while (retCode == SCESTATUS_SUCCESS && pConfigInfo != NULL);
   
   
   //////////////////////////////////////////////////

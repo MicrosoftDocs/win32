@@ -37,8 +37,8 @@ ULONG ulSpn = 1;
  
 // Compose the SPNs.
 dwStatus = SpnCompose(
-        &amp;pspn,              // Receives pointer to the SPN array.
-        &amp;ulSpn,             // Receives number of SPNs returned.
+        &pspn,              // Receives pointer to the SPN array.
+        &ulSpn,             // Receives number of SPNs returned.
         szDNofSCP,          // Input: DN of the SCP.
         szServiceClass);    // Input: the service class string.
  

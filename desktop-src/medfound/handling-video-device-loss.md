@@ -40,7 +40,7 @@ BOOL RegisterForDeviceNotification(HWND hwnd)
 
     g_hdevnotify = RegisterDeviceNotification(
         hwnd,
-        &amp;di,
+        &di,
         DEVICE_NOTIFY_WINDOW_HANDLE
         );
 
@@ -68,8 +68,8 @@ HRESULT GetSymbolicLink(IMFActivate *pActivate)
 {
     return pActivate->GetAllocatedString(
         MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK,
-        &amp;g_pwszSymbolicLink,
-        &amp;g_cchSymbolicLink
+        &g_pwszSymbolicLink,
+        &g_cchSymbolicLink
         );
 }
 ```
@@ -88,7 +88,7 @@ In your message loop, listen for [**WM\_DEVICECHANGE**](https://msdn.microsoft.c
             HRESULT hr = S_OK;
             BOOL bDeviceLost = FALSE;
 
-            hr = CheckDeviceLost((PDEV_BROADCAST_HDR)lParam, &amp;bDeviceLost);
+            hr = CheckDeviceLost((PDEV_BROADCAST_HDR)lParam, &bDeviceLost);
 
             if (FAILED(hr) || bDeviceLost)
             {

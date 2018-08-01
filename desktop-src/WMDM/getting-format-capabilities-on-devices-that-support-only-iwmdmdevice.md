@@ -49,10 +49,10 @@ void CWMDMController::GetCaps(IWMDMDevice* pDevice)
     UINT numAudioFormats = 0;
     UINT numMimeFormats = 0;
     hr = pDevice->GetFormatSupport(
-        &amp;pAudioFormats,
-        &amp;numAudioFormats,
-        &amp;pMimeFormats,
-        &amp;numMimeFormats);
+        &pAudioFormats,
+        &numAudioFormats,
+        &pMimeFormats,
+        &numMimeFormats);
     if (FAILED(hr)) return;
 
     // Print out audio format data.

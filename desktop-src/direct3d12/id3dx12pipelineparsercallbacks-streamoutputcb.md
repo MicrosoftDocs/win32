@@ -30,7 +30,7 @@ Calls the stream output description subobject callback of an object that impleme
 
 ```C++
 void StreamOutputCb(
-  [ref] const D3D12_STREAM_OUTPUT_DESC &amp;StreamOutput
+  [ref] const D3D12_STREAM_OUTPUT_DESC &StreamOutput
 );
 ```
 

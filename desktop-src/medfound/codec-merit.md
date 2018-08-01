@@ -70,7 +70,7 @@ HRESULT RegisterMFTWithMerit()
     HRESULT hr = S_OK;
     IMFAttributes *pAttributes = NULL;
 
-    hr = MFCreateAttributes(&amp;pAttributes, 1);
+    hr = MFCreateAttributes(&pAttributes, 1);
 
     if (SUCCEEDED(hr))
     {
@@ -96,7 +96,7 @@ HRESULT RegisterMFTWithMerit()
             );
     }
 
-    SafeRelease(&amp;pAttributes);
+    SafeRelease(&pAttributes);
     return hr;
 }
 ```
@@ -154,7 +154,7 @@ STDMETHODIMP CodecMerit::StartInitialization(
     // Generate the random number for the OPM handshake.
     hr = BCryptGenRandom(
         NULL,  
-        (PUCHAR)&amp;m_RandomNumber, 
+        (PUCHAR)&m_RandomNumber, 
         sizeof(m_RandomNumber),
         BCRYPT_USE_SYSTEM_PREFERRED_RNG
         );
@@ -213,7 +213,7 @@ STDMETHODIMP CodecMerit::FinishInitialization(
     //  Decrypt the input using the decoder's private key.
 
     hr = BCryptOpenAlgorithmProvider(
-        &amp;hAlg,
+        &hAlg,
         BCRYPT_RSA_ALGORITHM,
         MS_PRIMITIVE_PROVIDER,
         0
@@ -226,7 +226,7 @@ STDMETHODIMP CodecMerit::FinishInitialization(
             hAlg,
             NULL,
             BCRYPT_RSAPRIVATE_BLOB,
-            &amp;hKey,
+            &hKey,
             (PUCHAR)g_PrivateKey, //pbData,
             sizeof(g_PrivateKey), //cbData,
             0
@@ -241,12 +241,12 @@ STDMETHODIMP CodecMerit::FinishInitialization(
             hKey,
             (PBYTE)pParameters,
             OPM_ENCRYPTED_INITIALIZATION_PARAMETERS_SIZE,
-            &amp;paddingInfo,
+            &paddingInfo,
             NULL,
             0,
             NULL,
             0,
-            &amp;DecryptedLength,
+            &DecryptedLength,
             BCRYPT_PAD_OAEP
             );
     }
@@ -267,12 +267,12 @@ STDMETHODIMP CodecMerit::FinishInitialization(
              hKey,
              (PBYTE)pParameters,
              OPM_ENCRYPTED_INITIALIZATION_PARAMETERS_SIZE,
-             &amp;paddingInfo,
+             &paddingInfo,
              NULL,
              0,
              pbDecryptedParams,
              DecryptedLength,
-             &amp;DecryptedLength,
+             &DecryptedLength,
              BCRYPT_PAD_OAEP
              );
     }
@@ -282,7 +282,7 @@ STDMETHODIMP CodecMerit::FinishInitialization(
         InitParams *Params = (InitParams *)pbDecryptedParams;
         
         //  Check the random number.
-        if (0 != memcmp(&amp;m_RandomNumber, &amp;Params->guidCOPPRandom, sizeof(m_RandomNumber)))
+        if (0 != memcmp(&m_RandomNumber, &Params->guidCOPPRandom, sizeof(m_RandomNumber)))
         {
             hr = E_ACCESSDENIED;
         } 
@@ -290,7 +290,7 @@ STDMETHODIMP CodecMerit::FinishInitialization(
         {
             //  Save the key and the sequence numbers.
 
-            CopyMemory(m_AESKey.abRandomNumber, &amp;Params->guidKDI, sizeof(m_AESKey));
+            CopyMemory(m_AESKey.abRandomNumber, &Params->guidKDI, sizeof(m_AESKey));
             m_StatusSequenceNumber = Params->StatusSeqStart;
             m_CommandSequenceNumber = Params->CommandSeqStart;
         }
@@ -334,12 +334,12 @@ STDMETHODIMP CodecMerit::GetInformation(
         m_AESKey, 
         (PBYTE)Parameters + OPM_OMAC_SIZE, 
         sizeof(OPM_GET_INFO_PARAMETERS) - OPM_OMAC_SIZE, 
-        &amp;Tag
+        &Tag
         );
 
     if (SUCCEEDED(hr))
     {
-        if (0 != memcmp(Tag.abOMAC, &amp;Parameters->omac, OPM_OMAC_SIZE))
+        if (0 != memcmp(Tag.abOMAC, &Parameters->omac, OPM_OMAC_SIZE))
         {
             hr = E_ACCESSDENIED;
         }
@@ -388,7 +388,7 @@ STDMETHODIMP CodecMerit::GetInformation(
         CodecInfoParameters = (OPM_GET_CODEC_INFO_PARAMETERS *)Parameters->abParameters;
     
         if (CodecInfoParameters->cbVerifier != sizeof(CLSID) ||
-            0 != memcmp(&amp;CLSID_MPEG1SampleDecoder,
+            0 != memcmp(&CLSID_MPEG1SampleDecoder,
                         CodecInfoParameters->Verifier,
                         CodecInfoParameters->cbVerifier)) 
         {
@@ -416,7 +416,7 @@ STDMETHODIMP CodecMerit::GetInformation(
             m_AESKey, 
             (PBYTE)pRequest + OPM_OMAC_SIZE, 
             sizeof(OPM_REQUESTED_INFORMATION) - OPM_OMAC_SIZE, 
-            &amp;pRequest->omac
+            &pRequest->omac
             );
     }
 

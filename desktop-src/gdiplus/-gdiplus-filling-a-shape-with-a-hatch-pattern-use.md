@@ -17,7 +17,7 @@ A hatch pattern is made from two colors: one for the background and one for the 
 ```
 HatchBrush hBrush(HatchStyleHorizontal, Color(255, 255, 0, 0),
    Color(255, 128, 255, 255));
-stat = graphics.FillEllipse(&amp;hBrush, 0, 0, 100, 60);
+stat = graphics.FillEllipse(&hBrush, 0, 0, 100, 60);
 ```
 
 

@@ -24,7 +24,7 @@ hr = CoCreateInstance(CLSID_UPnPDeviceFinder,
                       NULL,
                       CLSCTX_INPROC_SERVER,
                       IID_IUPnPDeviceFinder,
-                      (void **) &amp;pDeviceFinder);
+                      (void **) &pDeviceFinder);
 ```
 
 

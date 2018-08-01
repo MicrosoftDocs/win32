@@ -54,7 +54,7 @@ HRESULT CreatePlaybackTopology(
     DWORD cSourceStreams = 0;
 
     // Create a new topology.
-    HRESULT hr = MFCreateTopology(&amp;pTopology);
+    HRESULT hr = MFCreateTopology(&pTopology);
     if (FAILED(hr))
     {
         goto done;
@@ -64,7 +64,7 @@ HRESULT CreatePlaybackTopology(
 
 
     // Get the number of streams in the media source.
-    hr = pPD->GetStreamDescriptorCount(&amp;cSourceStreams);
+    hr = pPD->GetStreamDescriptorCount(&cSourceStreams);
     if (FAILED(hr))
     {
         goto done;
@@ -85,7 +85,7 @@ HRESULT CreatePlaybackTopology(
     (*ppTopology)->AddRef();
 
 done:
-    SafeRelease(&amp;pTopology);
+    SafeRelease(&pTopology);
     return hr;
 }
 ```
@@ -136,7 +136,7 @@ HRESULT AddBranchToPartialTopology(
 
     BOOL fSelected = FALSE;
 
-    HRESULT hr = pPD->GetStreamDescriptorByIndex(iStream, &amp;fSelected, &amp;pSD);
+    HRESULT hr = pPD->GetStreamDescriptorByIndex(iStream, &fSelected, &pSD);
     if (FAILED(hr))
     {
         goto done;
@@ -145,21 +145,21 @@ HRESULT AddBranchToPartialTopology(
     if (fSelected)
     {
         // Create the media sink activation object.
-        hr = CreateMediaSinkActivate(pSD, hVideoWnd, &amp;pSinkActivate);
+        hr = CreateMediaSinkActivate(pSD, hVideoWnd, &pSinkActivate);
         if (FAILED(hr))
         {
             goto done;
         }
 
         // Add a source node for this stream.
-        hr = AddSourceNode(pTopology, pSource, pPD, pSD, &amp;pSourceNode);
+        hr = AddSourceNode(pTopology, pSource, pPD, pSD, &pSourceNode);
         if (FAILED(hr))
         {
             goto done;
         }
 
         // Create the output node for the renderer.
-        hr = AddOutputNode(pTopology, pSinkActivate, 0, &amp;pOutputNode);
+        hr = AddOutputNode(pTopology, pSinkActivate, 0, &pOutputNode);
         if (FAILED(hr))
         {
             goto done;
@@ -171,10 +171,10 @@ HRESULT AddBranchToPartialTopology(
     // else: If not selected, don't add the branch. 
 
 done:
-    SafeRelease(&amp;pSD);
-    SafeRelease(&amp;pSinkActivate);
-    SafeRelease(&amp;pSourceNode);
-    SafeRelease(&amp;pOutputNode);
+    SafeRelease(&pSD);
+    SafeRelease(&pSinkActivate);
+    SafeRelease(&pSourceNode);
+    SafeRelease(&pOutputNode);
     return hr;
 }
 ```
@@ -211,7 +211,7 @@ HRESULT CreateMediaSinkActivate(
     IMFActivate *pActivate = NULL;
 
     // Get the media type handler for the stream.
-    HRESULT hr = pSourceSD->GetMediaTypeHandler(&amp;pHandler);
+    HRESULT hr = pSourceSD->GetMediaTypeHandler(&pHandler);
     if (FAILED(hr))
     {
         goto done;
@@ -219,7 +219,7 @@ HRESULT CreateMediaSinkActivate(
 
     // Get the major media type.
     GUID guidMajorType;
-    hr = pHandler->GetMajorType(&amp;guidMajorType);
+    hr = pHandler->GetMajorType(&guidMajorType);
     if (FAILED(hr))
     {
         goto done;
@@ -229,12 +229,12 @@ HRESULT CreateMediaSinkActivate(
     if (MFMediaType_Audio == guidMajorType)
     {
         // Create the audio renderer.
-        hr = MFCreateAudioRendererActivate(&amp;pActivate);
+        hr = MFCreateAudioRendererActivate(&pActivate);
     }
     else if (MFMediaType_Video == guidMajorType)
     {
         // Create the video renderer.
-        hr = MFCreateVideoRendererActivate(hVideoWindow, &amp;pActivate);
+        hr = MFCreateVideoRendererActivate(hVideoWindow, &pActivate);
     }
     else
     {
@@ -252,8 +252,8 @@ HRESULT CreateMediaSinkActivate(
     (*ppActivate)->AddRef();
 
 done:
-    SafeRelease(&amp;pHandler);
-    SafeRelease(&amp;pActivate);
+    SafeRelease(&pHandler);
+    SafeRelease(&pActivate);
     return hr;
 }
 ```

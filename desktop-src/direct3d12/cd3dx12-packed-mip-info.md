@@ -29,9 +29,9 @@ A helper structure to enable easy initialization of a [**D3D12\_PACKED\_MIP\_INF
 ```C++
 struct CD3DX12_PACKED_MIP_INFO  : public D3D12_PACKED_MIP_INFO{
    CD3DX12_PACKED_MIP_INFO();
-   explicit CD3DX12_PACKED_MIP_INFO(const D3D12_PACKED_MIP_INFO &amp;o);
+   explicit CD3DX12_PACKED_MIP_INFO(const D3D12_PACKED_MIP_INFO &o);
    CD3DX12_PACKED_MIP_INFO(UINT8 numStandardMips, UINT8 numPackedMips, UINT numTilesForPackedMips, UINT startTileIndexInOverallResource);
-   operator const D3D12_PACKED_MIP_INFO&amp;() const;
+   operator const D3D12_PACKED_MIP_INFO&() const;
 };
 ```
 

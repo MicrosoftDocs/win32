@@ -62,7 +62,7 @@ printf("The data to be encrypted is: %s\n",pbDataInput);
 //-------------------------------------------------------------------
 //  Initialize PromptStruct.
 
-ZeroMemory(&amp;PromptStruct, sizeof(PromptStruct));
+ZeroMemory(&PromptStruct, sizeof(PromptStruct));
 PromptStruct.cbSize = sizeof(PromptStruct);
 PromptStruct.dwPromptFlags = CRYPTPROTECT_PROMPT_ON_PROTECT;
 PromptStruct.szPrompt = L"This is a user prompt.";
@@ -71,14 +71,14 @@ PromptStruct.szPrompt = L"This is a user prompt.";
 //  Begin protect phase.
 
 if(CryptProtectData(
-     &amp;DataIn,
+     &DataIn,
      L"This is the description string.", // A description string. 
      NULL,                               // Optional entropy
                                          // not used.
      NULL,                               // Reserved.
-     &amp;PromptStruct,                      // Pass a PromptStruct.
+     &PromptStruct,                      // Pass a PromptStruct.
      0,
-     &amp;DataOut))
+     &DataOut))
 {
      printf("The encryption phase worked. \n");
 }
@@ -90,13 +90,13 @@ else
 //   Begin unprotect phase.
 
 if (CryptUnprotectData(
-        &amp;DataOut,
-        &amp;pDescrOut,
+        &DataOut,
+        &pDescrOut,
         NULL,                 // Optional entropy
         NULL,                 // Reserved
-        &amp;PromptStruct,        // Optional PromptStruct
+        &PromptStruct,        // Optional PromptStruct
         0,
-        &amp;DataVerify))
+        &DataVerify))
 {
      printf("The decrypted data is: %s\n", DataVerify.pbData);
      printf("The description of the data was: %S\n",pDescrOut);

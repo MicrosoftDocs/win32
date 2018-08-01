@@ -65,7 +65,7 @@ The following example shows cloning the [**IByteBuffer**](ibytebuffer.md) interf
 HRESULT  hr;
 
 // Clone the buffer.
-hr = pIByteBuff->Clone(&amp;pIByteClone);
+hr = pIByteBuff->Clone(&pIByteClone);
 if (FAILED(hr))
   printf("Failed IByteBuffer::Clone\n");
 ```

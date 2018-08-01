@@ -64,12 +64,12 @@ public:
     
     STDMETHODIMP_(ULONG) AddRef()
     {
-        return ::InterlockedIncrement(&amp;m_lRefCount);
+        return ::InterlockedIncrement(&m_lRefCount);
     };
     
     STDMETHODIMP_(ULONG) Release()
     {
-        LONG lRefCount = ::InterlockedDecrement(&amp;m_lRefCount);
+        LONG lRefCount = ::InterlockedDecrement(&m_lRefCount);
         if(0 == lRefCount)
         {
             delete this;
@@ -85,11 +85,11 @@ public:
         //You should save pDevice so that it is accessible outside the scope of this method.
 
         BSTR UniqueDeviceName;
-        hr = pDevice->get_UniqueDeviceName(&amp;UniqueDeviceName);
+        hr = pDevice->get_UniqueDeviceName(&UniqueDeviceName);
         if (SUCCEEDED(hr))
         {
             BSTR FriendlyName;
-            hr = pDevice->get_FriendlyName(&amp;FriendlyName);
+            hr = pDevice->get_FriendlyName(&FriendlyName);
             if (SUCCEEDED(hr))
             {
                 printf("Device Added: udn: %S, name: %S\n", FriendlyName, UniqueDeviceName);
@@ -129,11 +129,11 @@ HRESULT FindUPnPDevice(BSTR TypeURI)
         pUPnPDeviceFinderCallback->AddRef();
         IUPnPDeviceFinder* pUPnPDeviceFinder;
         hr = CoCreateInstance(CLSID_UPnPDeviceFinder, NULL, CLSCTX_INPROC_SERVER, 
-            IID_IUPnPDeviceFinder, reinterpret_cast<void**>(&amp;pUPnPDeviceFinder));
+            IID_IUPnPDeviceFinder, reinterpret_cast<void**>(&pUPnPDeviceFinder));
         if(SUCCEEDED(hr))
         {
             LONG lFindData;
-            hr = pUPnPDeviceFinder->CreateAsyncFind(TypeURI, 0, pUPnPDeviceFinderCallback, &amp;lFindData);
+            hr = pUPnPDeviceFinder->CreateAsyncFind(TypeURI, 0, pUPnPDeviceFinderCallback, &lFindData);
             if(SUCCEEDED(hr))
             {
                 hr = pUPnPDeviceFinder->StartAsyncFind(lFindData);
@@ -142,9 +142,9 @@ HRESULT FindUPnPDevice(BSTR TypeURI)
                     // STA threads must pump messages
                     MSG Message;
                     BOOL bGetMessage;
-                    while(bGetMessage = GetMessage(&amp;Message, NULL, 0, 0) &amp;&amp; -1 != bGetMessage)
+                    while(bGetMessage = GetMessage(&Message, NULL, 0, 0) && -1 != bGetMessage)
                     {
-                        DispatchMessage(&amp;Message);      
+                        DispatchMessage(&Message);      
                     }
                 }
                 pUPnPDeviceFinder->CancelAsyncFind(lFindData);

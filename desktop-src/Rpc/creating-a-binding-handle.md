@@ -27,12 +27,12 @@ status = RpcStringBindingCompose(NULL,  // Object UUID
              L"MyServer.MyCompany.com", // Server DNS or Netbios Name
              NULL,
              NULL,
-             &amp;StringBinding);
+             &StringBinding);
 // Error checking ommitted. If no error, we proceed below
-status = RpcBindingFromStringBinding(StringBinding, &amp;BindingHandle);
+status = RpcBindingFromStringBinding(StringBinding, &BindingHandle);
 
 // free string regardless of errors from RpcBindingFromStringBinding
-RpcStringFree(&amp;StringBinding);
+RpcStringFree(&StringBinding);
 
 // Error checking ommitted. If no error, we have a valid binding handle
 ```

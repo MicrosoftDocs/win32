@@ -47,7 +47,7 @@ For example, the following code specifies the file name "output.wmv" for the URL
 
 
 ```C++
-    HRESULT hr = MFCreateSinkWriterFromURL(L"output.wmv", NULL, NULL, &amp;pSinkWriter);
+    HRESULT hr = MFCreateSinkWriterFromURL(L"output.wmv", NULL, NULL, &pSinkWriter);
 ```
 
 

@@ -106,21 +106,21 @@ void CJntlReaderMFCDlg::OnBnClickedButton1()
           DWORD dwRead;
 
           // Read the Journal file into the pData buffer
-          if (ReadFile(hFile, pData, dwFileSize, &amp;dwRead, NULL) &amp;&amp; dwRead == dwFileSize)
+          if (ReadFile(hFile, pData, dwFileSize, &dwRead, NULL) && dwRead == dwFileSize)
           {
             // Create an IStream that points to the buffer
-            hr = CreateStreamOnHGlobal(hGlobal, FALSE, &amp;pJntStream);
+            hr = CreateStreamOnHGlobal(hGlobal, FALSE, &pJntStream);
 
             if (SUCCEEDED(hr))
             {
               // Create a JournalReader object
               hr = CoCreateInstance(CLSID_JournalReader, NULL, CLSCTX_ALL, 
-                          IID_IJournalReader, (void**)&amp;pJntReader);
+                          IID_IJournalReader, (void**)&pJntReader);
 
               if (SUCCEEDED(hr))
               {
                 // Read in the JNT file by using the JournalReader
-                hr = pJntReader->ReadFromStream(pJntStream, &amp;pXmlStream);
+                hr = pJntReader->ReadFromStream(pJntStream, &pXmlStream);
 
                 // Display results
                 if (SUCCEEDED(hr))

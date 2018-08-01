@@ -53,7 +53,7 @@ private:
 
     HRESULT FindDecoderConfiguration(
         /* [in] */  IDirectXVideoDecoderService *pDecoderService,
-        /* [in] */  const GUID&amp; guidDecoder, 
+        /* [in] */  const GUID& guidDecoder, 
         /* [out] */ DXVA2_ConfigPictureDecode *pSelectedConfig,
         /* [out] */ BOOL *pbFoundDXVA2Configuration
         );
@@ -129,7 +129,7 @@ HRESULT CDecoder::ConfigureDXVA2(IPin *pPin)
     GUID    guidDecoder = GUID_NULL;
 
     DXVA2_ConfigPictureDecode config;
-    ZeroMemory(&amp;config, sizeof(config));
+    ZeroMemory(&config, sizeof(config));
 
     // Variables that follow must be cleaned up at the end.
 
@@ -141,7 +141,7 @@ HRESULT CDecoder::ConfigureDXVA2(IPin *pPin)
     HANDLE hDevice = INVALID_HANDLE_VALUE;
 
     // Query the pin for IMFGetService.
-    HRESULT hr = pPin->QueryInterface(IID_PPV_ARGS(&amp;pGetService));
+    HRESULT hr = pPin->QueryInterface(IID_PPV_ARGS(&pGetService));
 
     // Get the Direct3D device manager.
     if (SUCCEEDED(hr))
@@ -149,28 +149,28 @@ HRESULT CDecoder::ConfigureDXVA2(IPin *pPin)
         hr = pGetService->GetService(
 
             MR_VIDEO_ACCELERATION_SERVICE,
-            IID_PPV_ARGS(&amp;pDeviceManager)
+            IID_PPV_ARGS(&pDeviceManager)
             );
     }
 
     // Open a new device handle.
     if (SUCCEEDED(hr))
     {
-        hr = pDeviceManager->OpenDeviceHandle(&amp;hDevice);
+        hr = pDeviceManager->OpenDeviceHandle(&hDevice);
     } 
 
     // Get the video decoder service.
     if (SUCCEEDED(hr))
     {
         hr = pDeviceManager->GetVideoService(
-            hDevice, IID_PPV_ARGS(&amp;pDecoderService));
+            hDevice, IID_PPV_ARGS(&pDecoderService));
     }
 
     // Get the decoder GUIDs.
     if (SUCCEEDED(hr))
     {
         hr = pDecoderService->GetDecoderDeviceGuids(
-            &amp;cDecoderGuids, &amp;pDecoderGuids);
+            &cDecoderGuids, &pDecoderGuids);
     }
 
     if (SUCCEEDED(hr))
@@ -186,7 +186,7 @@ HRESULT CDecoder::ConfigureDXVA2(IPin *pPin)
 
             // Find a configuration that we support. 
             hr = FindDecoderConfiguration(pDecoderService, pDecoderGuids[iGuid],
-                &amp;config, &amp;bFoundDXVA2Configuration);
+                &config, &bFoundDXVA2Configuration);
             if (FAILED(hr))
             {
                 break;
@@ -210,7 +210,7 @@ HRESULT CDecoder::ConfigureDXVA2(IPin *pPin)
     {
         // Store the things we will need later.
 
-        SafeRelease(&amp;m_pDecoderService);
+        SafeRelease(&m_pDecoderService);
         m_pDecoderService = pDecoderService;
         m_pDecoderService->AddRef();
 
@@ -227,14 +227,14 @@ HRESULT CDecoder::ConfigureDXVA2(IPin *pPin)
         }
     }
 
-    SafeRelease(&amp;pGetService);
-    SafeRelease(&amp;pDeviceManager);
-    SafeRelease(&amp;pDecoderService);
+    SafeRelease(&pGetService);
+    SafeRelease(&pDeviceManager);
+    SafeRelease(&pDecoderService);
     return hr;
 }
 HRESULT CDecoder::FindDecoderConfiguration(
     /* [in] */  IDirectXVideoDecoderService *pDecoderService,
-    /* [in] */  const GUID&amp; guidDecoder, 
+    /* [in] */  const GUID& guidDecoder, 
     /* [out] */ DXVA2_ConfigPictureDecode *pSelectedConfig,
     /* [out] */ BOOL *pbFoundDXVA2Configuration
     )
@@ -249,8 +249,8 @@ HRESULT CDecoder::FindDecoderConfiguration(
     // Find the valid render target formats for this decoder GUID.
     hr = pDecoderService->GetDecoderRenderTargets(
         guidDecoder,
-        &amp;cFormats,
-        &amp;pFormats
+        &cFormats,
+        &pFormats
         );
 
     if (SUCCEEDED(hr))
@@ -267,16 +267,16 @@ HRESULT CDecoder::FindDecoderConfiguration(
             // and frame rate.
             DXVA2_VideoDesc videoDesc = {0};
 
-            FillInVideoDescription(&amp;videoDesc); // Private helper function.
+            FillInVideoDescription(&videoDesc); // Private helper function.
             videoDesc.Format = pFormats[iFormat];
 
             // Get the available configurations.
             hr = pDecoderService->GetDecoderConfigurations(
                 guidDecoder,
-                &amp;videoDesc,
+                &videoDesc,
                 NULL, // Reserved.
-                &amp;cConfigurations,
-                &amp;pConfig
+                &cConfigurations,
+                &pConfig
                 );
 
             if (FAILED(hr))
@@ -316,10 +316,10 @@ Because this example is generic, some of the logic has been placed in helper fun
 
 ```C++
 // Returns TRUE if the decoder supports a given decoding mode.
-BOOL IsSupportedDecoderMode(const GUID&amp; mode);
+BOOL IsSupportedDecoderMode(const GUID& mode);
 
 // Returns TRUE if the decoder supports a given decoding configuration.
-BOOL IsSupportedDecoderConfig(const DXVA2_ConfigPictureDecode&amp; config);
+BOOL IsSupportedDecoderConfig(const DXVA2_ConfigPictureDecode& config);
 
 // Fills in a DXVA2_VideoDesc structure based on the input format.
 void FillInVideoDescription(DXVA2_VideoDesc *pDesc);
@@ -348,13 +348,13 @@ HRESULT CDecoder::SetEVRForDXVA2(IPin *pPin)
     IDirectXVideoMemoryConfiguration    *pVideoConfig = NULL;
 
     // Query the pin for IMFGetService.
-    hr = pPin->QueryInterface(__uuidof(IMFGetService), (void**)&amp;pGetService);
+    hr = pPin->QueryInterface(__uuidof(IMFGetService), (void**)&pGetService);
 
     // Get the IDirectXVideoMemoryConfiguration interface.
     if (SUCCEEDED(hr))
     {
         hr = pGetService->GetService(
-            MR_VIDEO_ACCELERATION_SERVICE, IID_PPV_ARGS(&amp;pVideoConfig));
+            MR_VIDEO_ACCELERATION_SERVICE, IID_PPV_ARGS(&pVideoConfig));
     }
 
     // Notify the EVR. 
@@ -364,7 +364,7 @@ HRESULT CDecoder::SetEVRForDXVA2(IPin *pPin)
 
         for (DWORD iTypeIndex = 0; ; iTypeIndex++)
         {
-            hr = pVideoConfig->GetAvailableSurfaceTypeByIndex(iTypeIndex, &amp;surfaceType);
+            hr = pVideoConfig->GetAvailableSurfaceTypeByIndex(iTypeIndex, &surfaceType);
             
             if (FAILED(hr))
             {
@@ -379,8 +379,8 @@ HRESULT CDecoder::SetEVRForDXVA2(IPin *pPin)
         }
     }
 
-    SafeRelease(&amp;pGetService);
-    SafeRelease(&amp;pVideoConfig);
+    SafeRelease(&pGetService);
+    SafeRelease(&pVideoConfig);
 
     return hr;
 }
@@ -482,7 +482,7 @@ private:
     // Sets the pointer to the Direct3D surface. 
     void SetSurface(DWORD surfaceId, IDirect3DSurface9 *pSurf)
     {
-        SafeRelease(&amp;m_pSurface);
+        SafeRelease(&m_pSurface);
 
         m_pSurface = pSurf;
         if (m_pSurface)
@@ -560,7 +560,7 @@ HRESULT CDecoderAllocator::Alloc()
     {
         for (m_lAllocated = 0; m_lAllocated < m_lCount; m_lAllocated++)
         {
-            CDecoderSample *pSample = new (std::nothrow) CDecoderSample(this, &amp;hr);
+            CDecoderSample *pSample = new (std::nothrow) CDecoderSample(this, &hr);
 
             if (pSample == NULL)
             {
@@ -610,7 +610,7 @@ void CDecoderAllocator::Free()
     {
         for (long i = 0; i < m_lAllocated; i++)
         {
-            SafeRelease(&amp;m_ppRTSurfaceArray[i]);
+            SafeRelease(&m_ppRTSurfaceArray[i]);
         }
 
         delete [] m_ppRTSurfaceArray;

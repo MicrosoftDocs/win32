@@ -161,28 +161,28 @@ int main()
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_IADsWinNTSystemInfo,
-                          (void**)&amp;pNTsys);
+                          (void**)&pNTsys);
  
    BSTR bstr;
-   hr = pNtSys->get_UserName(&amp;bstr);
+   hr = pNtSys->get_UserName(&bstr);
    if (SUCCEEDED(hr)) {
       printf("User: %S\n", bstr);
       SysFreeString(bstr);
    }
  
-   hr = pNtSys->get_ComputerName(&amp;bstr);
+   hr = pNtSys->get_ComputerName(&bstr);
    if (SUCCEEDED(hr)) {
       printf("Computer: %S\n", bstr);
       SysFreeString(bstr);
    }
  
-   hr = pNtSys->get_DomainName(&amp;bstr);
+   hr = pNtSys->get_DomainName(&bstr);
    if (SUCCEEDED(hr)) {
       printf("Domain: %S\n", bstr);
       SysFreeString(bstr);
    }
  
-   hr = pNtSys->get_PDC(&amp;bstr);
+   hr = pNtSys->get_PDC(&bstr);
    if (SUCCEEDED(hr)) {
       printf("PDC: %S\n", bstr);
       SysFreeString(bstr);

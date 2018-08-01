@@ -52,11 +52,11 @@ STDAPI CEditSession::DoEditSession(TfEditCookie ec)
                          NULL, 
                          CLSCTX_INPROC_SERVER, 
                          IID_ITfCategoryMgr, 
-                         (void**)&amp;pCategoryMgr);
+                         (void**)&pCategoryMgr);
     
     if(SUCCEEDED(hr))
     {
-        hr = pCategoryMgr->RegisterGUID(guidDisplayAttribute, &amp;gaDisplayAttribute);
+        hr = pCategoryMgr->RegisterGUID(guidDisplayAttribute, &gaDisplayAttribute);
 
         pCategoryMgr->Release();
     }
@@ -68,25 +68,25 @@ STDAPI CEditSession::DoEditSession(TfEditCookie ec)
         ULONG cFetched;
 
         //Get the selection. 
-        hr = m_pContext->GetSelection(ec, TF_DEFAULT_SELECTION, 1, &amp;tfSel, &amp;cFetched);
-        if(SUCCEEDED(hr) &amp;&amp; cFetched)
+        hr = m_pContext->GetSelection(ec, TF_DEFAULT_SELECTION, 1, &tfSel, &cFetched);
+        if(SUCCEEDED(hr) && cFetched)
         {
             ITfProperty *pDisplayAttributeProperty;
 
             //Get the display attribute property. 
-            hr = m_pContext->GetProperty(GUID_PROP_ATTRIBUTE, &amp;pDisplayAttributeProperty);
+            hr = m_pContext->GetProperty(GUID_PROP_ATTRIBUTE, &pDisplayAttributeProperty);
             if(SUCCEEDED(hr))
             {
                 VARIANT var;
 
-                VariantInit(&amp;var);
+                VariantInit(&var);
 
                 //All display attributes are TfGuidAtoms and TfGuidAtoms are VT_I4. 
                 var.vt = VT_I4; 
                 var.lVal = gaDisplayAttribute;
 
                 //Set the display attribute value over the range. 
-                hr = pDisplayAttributeProperty->SetValue(ec, tfSel.range, &amp;var);
+                hr = pDisplayAttributeProperty->SetValue(ec, tfSel.range, &var);
 
                 pDisplayAttributeProperty->Release();
             }

@@ -128,7 +128,7 @@ int __cdecl _tmain(int argc, TCHAR *argv[])
    //
    // Convert thread to a fiber, to allow scheduling other fibers
    //
-   g_lpFiber[PRIMARY_FIBER]=ConvertThreadToFiber(&amp;fs[PRIMARY_FIBER]);
+   g_lpFiber[PRIMARY_FIBER]=ConvertThreadToFiber(&fs[PRIMARY_FIBER]);
 
    if (g_lpFiber[PRIMARY_FIBER] == NULL)
    {
@@ -147,7 +147,7 @@ int __cdecl _tmain(int argc, TCHAR *argv[])
    //
    // Create the Read fiber
    //
-   g_lpFiber[READ_FIBER]=CreateFiber(0,ReadFiberFunc,&amp;fs[READ_FIBER]);
+   g_lpFiber[READ_FIBER]=CreateFiber(0,ReadFiberFunc,&fs[READ_FIBER]);
 
    if (g_lpFiber[READ_FIBER] == NULL)
    {
@@ -160,7 +160,7 @@ int __cdecl _tmain(int argc, TCHAR *argv[])
    //
    // Create the Write fiber
    //
-   g_lpFiber[WRITE_FIBER]=CreateFiber(0,WriteFiberFunc,&amp;fs[WRITE_FIBER]);
+   g_lpFiber[WRITE_FIBER]=CreateFiber(0,WriteFiberFunc,&fs[WRITE_FIBER]);
 
    if (g_lpFiber[WRITE_FIBER] == NULL)
    {
@@ -237,7 +237,7 @@ ReadFiberFunc(
       // Read data from file specified in the READ_FIBER structure
       //
       if (!ReadFile(fds->hFile, g_lpBuffer, BUFFER_SIZE, 
-         &amp;g_dwBytesRead, NULL))
+         &g_dwBytesRead, NULL))
       {
          break;
       }
@@ -306,7 +306,7 @@ WriteFiberFunc(
       // Write data to the file specified in the WRITE_FIBER structure
       //
       if (!WriteFile(fds->hFile, g_lpBuffer, g_dwBytesRead, 
-         &amp;dwBytesWritten, NULL))
+         &dwBytesWritten, NULL))
       {
          //
          // If an error occurred writing, break

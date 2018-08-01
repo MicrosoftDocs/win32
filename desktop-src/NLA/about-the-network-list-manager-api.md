@@ -35,7 +35,7 @@ void main()
     INetworkListManager *pNetworkListManager = NULL; 
     HRESULT hr = CoCreateInstance(CLSID_NetworkListManager, NULL,
             CLSCTX_ALL, IID_INetworkListManager,
-            (LPVOID *)&amp;pNetworkListManager);
+            (LPVOID *)&pNetworkListManager);
 }
 ```
 

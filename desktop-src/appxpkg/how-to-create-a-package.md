@@ -49,7 +49,7 @@ int wmain()
         // Create a package writer
         IAppxPackageWriter* packageWriter = NULL;
 
-        hr = GetPackageWriter(OutputPackagePath, &amp;packageWriter);
+        hr = GetPackageWriter(OutputPackagePath, &packageWriter);
     }
 }
 
@@ -80,7 +80,7 @@ HRESULT GetPackageWriter(
             0,     // default file attributes
             TRUE,  // create file if it does not exist
             NULL,  // no template
-            &amp;outputStream);
+            &outputStream);
 
     // Create default package writer settings, including hash algorithm URI
     // and Zip format.
@@ -89,7 +89,7 @@ HRESULT GetPackageWriter(
                 Sha256AlgorithmUri,
                 Uri_CREATE_CANONICALIZE,
                 0, // reserved parameter
-                &amp;hashMethod);
+                &hashMethod);
     }
 
     if (SUCCEEDED(hr))
@@ -106,7 +106,7 @@ HRESULT GetPackageWriter(
                 NULL,
                 CLSCTX_INPROC_SERVER,
                 __uuidof(IAppxFactory),
-                (LPVOID*)(&amp;appxFactory));
+                (LPVOID*)(&appxFactory));
     }
 
     // Create a new package writer using the factory
@@ -114,7 +114,7 @@ HRESULT GetPackageWriter(
     {
         hr = appxFactory->CreatePackageWriter(
                 outputStream,
-                &amp;packageSettings,
+                &packageSettings,
                 writer);
     }
 
@@ -150,11 +150,11 @@ Call the [**IAppxPackageWriter::AddPayloadFile**](/windows/desktop/api/AppxPacka
 const LPCWSTR DataPath = L"Data\\";
 
 // Add all payload files to the package writer
-for (int i = 0; SUCCEEDED(hr) &amp;&amp; (i < PayloadFilesCount); i++)
+for (int i = 0; SUCCEEDED(hr) && (i < PayloadFilesCount); i++)
 {
     IStream* fileStream = NULL;
 
-    hr = GetFileStream(DataPath, PayloadFilesName[i], &amp;fileStream);
+    hr = GetFileStream(DataPath, PayloadFilesName[i], &fileStream);
 
     if (SUCCEEDED(hr))
     {
@@ -264,7 +264,7 @@ const LPCWSTR ManifestFileName = L"AppxManifest.xml";
 
 IStream* manifestStream = NULL;
 
-hr = GetFileStream(DataPath, ManifestFileName, &amp;manifestStream);
+hr = GetFileStream(DataPath, ManifestFileName, &manifestStream);
 
 if (SUCCEEDED(hr))
 {

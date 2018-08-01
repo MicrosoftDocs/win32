@@ -163,8 +163,8 @@ D3DXQUATERNION Q3 = D3DXQUATERNION(0,  0, 1.000f, 0.000f);
 D3DXQUATERNION A, B, C, Qt;
 FLOAT time = 0.5f;
 
-D3DXQuaternionSquadSetup(&amp;A, &amp;B, &amp;C, &amp;Q0, &amp;Q1, &amp;Q2, &amp;Q3);
-D3DXQuaternionSquad(&amp;Qt, &amp;Q1, &amp;A, &amp;B, &amp;C, time);
+D3DXQuaternionSquadSetup(&A, &B, &C, &Q0, &Q1, &Q2, &Q3);
+D3DXQuaternionSquad(&Qt, &Q1, &A, &B, &C, time);
 ```
 
 

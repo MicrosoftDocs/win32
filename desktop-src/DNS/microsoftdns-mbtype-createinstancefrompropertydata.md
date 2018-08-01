@@ -36,7 +36,7 @@ void CreateInstanceFromPropertyData(
   [in]       uint32              RecordClass = 1,
   [in]       uint32              TTL,
   [in]       string              MBHost,
-  [out, ref] MicrosoftDNS_MBType &amp;RR
+  [out, ref] MicrosoftDNS_MBType &RR
 );
 ```
 

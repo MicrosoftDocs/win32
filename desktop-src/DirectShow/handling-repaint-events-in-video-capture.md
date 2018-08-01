@@ -16,7 +16,7 @@ If you build a video capture graph without using the [**ICaptureGraphBuilder2**]
 
 ```C++
 IMediaEvent *pEvent = 0;
-hr = pGraph->QueryInterface(IID_IMediaEvent, (void**)&amp;pEvent);
+hr = pGraph->QueryInterface(IID_IMediaEvent, (void**)&pEvent);
 if (SUCCEEDED(hr))
 {
     pEvent->CancelDefaultHandling (EC_REPAINT);

@@ -59,10 +59,10 @@ SCESTATUS WINAPI SceSvcAttachmentUpdate (
                               SceSvcConfigurationInfo,
                               ServiceInfo->Line[I].Key,
                               TRUE,
-                              (PVOID *)&amp;pConfigInfo,
-                              &amp;EnumContext
+                              (PVOID *)&pConfigInfo,
+                              &EnumContext
                               );
-        if(retCode != SCESTATUS_SUCCESS &amp;&amp; 
+        if(retCode != SCESTATUS_SUCCESS && 
            retCode != SCESTATUS_RECORD_NOT_FOUND)
         {
             ////////////////////////////////////////////////
@@ -85,8 +85,8 @@ SCESTATUS WINAPI SceSvcAttachmentUpdate (
                                           SceSvcAnalysisInfo,
                                           ServiceInfo->Line [i].Key,
                                           TRUE,
-                                          (PVOID *)&amp;pAnalInfo,
-                                          &amp;EnumContext
+                                          (PVOID *)&pAnalInfo,
+                                          &EnumContext
                                           );
                 if(retCode == SCESTATUS_RECORD_NOT_FOUND)
                 {
@@ -96,14 +96,14 @@ SCESTATUS WINAPI SceSvcAttachmentUpdate (
                   // deleted key.
                   /////////////////////////////////////////////
                   UpdateInfo->Count = 1;
-                  UpdateInfo->Line = &amp;UpdateLine;
+                  UpdateInfo->Line = &UpdateLine;
                   UpdateLine.Key = pConfigInfo->Line[0].Key;
                   UpdateLine.Value = (PBYTE)pConfigInfo->Line[0].Value;
                   retCode = (*(pSceCbInfo->pfSetInfo))( pSceCbInfo->sceHandle,
                                           SceSvcAnalysisInfo,
                                           NULL,
                                           TRUE,
-                                          &amp;UpdateInfo
+                                          &UpdateInfo
                                           );
                   if(retCode != SCESTATUS_SUCCESS)
                   {

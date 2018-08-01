@@ -18,7 +18,7 @@ The following function is a helper function in an example program that is discus
 HRESULT BuildGraph(IGraphBuilder* pGraph, IDMOWrapperFilter* pWrap)
 {
    IBaseFilter* pTocGeneratorBase = NULL;
-   HRESULT hr = pWrap->QueryInterface(IID_IBaseFilter, (VOID**)&amp;pTocGeneratorBase);
+   HRESULT hr = pWrap->QueryInterface(IID_IBaseFilter, (VOID**)&pTocGeneratorBase);
 
    if(SUCCEEDED(hr))
    {
@@ -27,35 +27,35 @@ HRESULT BuildGraph(IGraphBuilder* pGraph, IDMOWrapperFilter* pWrap)
       if(SUCCEEDED(hr))
       {
          IBaseFilter* pSourceBase = NULL;
-         hr = pGraph->AddSourceFilter(g_sourceFile, L"Source", &amp;pSourceBase);
+         hr = pGraph->AddSourceFilter(g_sourceFile, L"Source", &pSourceBase);
 
          if(SUCCEEDED(hr))
          { 
             IEnumPins* pTocGenPins = NULL;
-            hr = pTocGeneratorBase->EnumPins(&amp;pTocGenPins);
+            hr = pTocGeneratorBase->EnumPins(&pTocGenPins);
 
             if(SUCCEEDED(hr))
             {                            
                ULONG numPins = 0;
                IPin* pTocGenInput = NULL;  // 1st pin is input.
-               hr = pTocGenPins->Next(1, &amp;pTocGenInput, &amp;numPins);
+               hr = pTocGenPins->Next(1, &pTocGenInput, &numPins);
 
                if(SUCCEEDED(hr))
                {                           
                   numPins = 0;
                   IPin* pTocGenOutput = NULL;  // 2nd pin is output.
-                  hr = pTocGenPins->Next(1, &amp;pTocGenOutput, &amp;numPins);
+                  hr = pTocGenPins->Next(1, &pTocGenOutput, &numPins);
 
                   if(SUCCEEDED(hr))
                   {
                      IEnumPins* pSourcePins = NULL;
-                     hr = pSourceBase->EnumPins(&amp;pSourcePins);
+                     hr = pSourceBase->EnumPins(&pSourcePins);
 
                      if(SUCCEEDED(hr))
                      {
                         numPins = 0;
                         IPin* pSourceInput = NULL;
-                        hr = pSourcePins->Next(1, &amp;pSourceInput, &amp;numPins);
+                        hr = pSourcePins->Next(1, &pSourceInput, &numPins);
                       
                         // We don't need the first pin, so discard it.
                         if(NULL != pSourceInput)
@@ -65,7 +65,7 @@ HRESULT BuildGraph(IGraphBuilder* pGraph, IDMOWrapperFilter* pWrap)
                         }
 
                         IPin* pSourceOutput = NULL;  // 2nd pin is output.
-                        hr = pSourcePins->Next(1, &amp;pSourceOutput, &amp;numPins);
+                        hr = pSourcePins->Next(1, &pSourceOutput, &numPins);
 
                         if(SUCCEEDED(hr))
                         { 

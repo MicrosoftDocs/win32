@@ -37,7 +37,7 @@ if (SUCCEEDED(hr))
         m_pWICFactory,
         L"GoldFish",
         L"Image",
-        &amp;m_pOrigBitmap
+        &m_pOrigBitmap
         );
 }
 
@@ -48,7 +48,7 @@ if (SUCCEEDED(hr))
         m_pWICFactory,
         L"GoldFishMask",
         L"Image",
-        &amp;m_pBitmapMask
+        &m_pBitmapMask
         );
 }
 
@@ -63,7 +63,7 @@ if (SUCCEEDED(hr))
     hr = m_pRenderTarget->CreateBitmapBrush(
         m_pOrigBitmap,
         propertiesXClampYClamp,
-        &amp;m_pOriginalBitmapBrush
+        &m_pOriginalBitmapBrush
         );
 
     if (SUCCEEDED(hr))
@@ -71,7 +71,7 @@ if (SUCCEEDED(hr))
         hr = m_pRenderTarget->CreateBitmapBrush(
             m_pBitmapMask,
             propertiesXClampYClamp,
-            &amp;m_pBitmapMaskBrush
+            &m_pBitmapMaskBrush
             );
     }
 }
@@ -91,7 +91,7 @@ m_pRenderTarget->FillOpacityMask(
     m_pBitmapMask,
     m_pOriginalBitmapBrush,
     D2D1_OPACITY_MASK_CONTENT_GRAPHICS,
-    &amp;rcBrushRect,
+    &rcBrushRect,
     NULL
     );
 

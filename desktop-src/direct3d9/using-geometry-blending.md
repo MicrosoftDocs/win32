@@ -54,11 +54,11 @@ D3DMATRIX matUpperArm, matLowerArm;
 
 // The upper arm is immobile. Use the identity matrix.
 D3DXMatrixIdentity( matUpperArm );
-d3dDevice->SetTransform( D3DTS_WORLDMATRIX(0), &amp;matUpperArm );
+d3dDevice->SetTransform( D3DTS_WORLDMATRIX(0), &matUpperArm );
 
 // The lower arm rotates about the x-axis, attached to the upper arm.
 D3DXMatrixRotationX( matLowerArm, -BendAngle ); 
-d3dDevice->SetTransform( D3DTS_WORLDMATRIX(1), &amp;matLowerArm );
+d3dDevice->SetTransform( D3DTS_WORLDMATRIX(1), &matLowerArm );
 ```
 
 

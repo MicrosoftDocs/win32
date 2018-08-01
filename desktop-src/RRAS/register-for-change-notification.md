@@ -63,7 +63,7 @@ int __cdecl main(){
     EntityInfo.EntityId.EntityInstanceId = PROTOCOL_ID(PROTO_TYPE_UCAST, PROTO_VENDOR_ID, PROTO_IP_RIP);
 
     // Register the new client in the routing table manager
-    dwRet = RtmRegisterEntity(&amp;EntityInfo, &amp;Methods, NULL, FALSE, &amp;RegnProfile, &amp;ThisClientHandle);
+    dwRet = RtmRegisterEntity(&EntityInfo, &Methods, NULL, FALSE, &RegnProfile, &ThisClientHandle);
     if (dwRet != ERROR_SUCCESS){
         // RtmRegisterEntity failed
         // Do something here

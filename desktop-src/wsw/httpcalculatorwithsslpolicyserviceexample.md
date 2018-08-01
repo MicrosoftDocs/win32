@@ -56,7 +56,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -64,7 +64,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -134,9 +134,9 @@ static const DefaultBinding_ICalculatorFunctionTable calculatorFunctions = {Add,
 // Method contract for the service
 static const WS_SERVICE_CONTRACT calculatorContract = 
 {
-    &amp;CalculatorServiceWithPolicy_wsdl.contracts.DefaultBinding_ICalculator, // comes from the generated header.
+    &CalculatorServiceWithPolicy_wsdl.contracts.DefaultBinding_ICalculator, // comes from the generated header.
     NULL, // for not specifying the default contract
-    &amp;calculatorFunctions // specified by the user
+    &calculatorFunctions // specified by the user
 };
 
 
@@ -158,14 +158,14 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     WS_SERVICE_PROPERTY_CLOSE_CALLBACK closeCallbackProperty = {CloseChannelCallback};
     WS_SERVICE_ENDPOINT_PROPERTY serviceProperties[1];
     serviceProperties[0].id = WS_SERVICE_ENDPOINT_PROPERTY_CLOSE_CHANNEL_CALLBACK;
-    serviceProperties[0].value = &amp;closeCallbackProperty;
+    serviceProperties[0].value = &closeCallbackProperty;
     serviceProperties[0].valueSize = sizeof(closeCallbackProperty);
     
     // Create an error object for storing rich error information
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -177,7 +177,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         /*trimSize*/ 512, 
         NULL, 
         0, 
-        &amp;heap, 
+        &heap, 
         error);
     if (FAILED(hr))
     {
@@ -186,13 +186,13 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     hr = DefaultBinding_ICalculator_CreateServiceEndpoint(
         NULL,
-        &amp;url,
-        (DefaultBinding_ICalculatorFunctionTable*)&amp;calculatorFunctions,
+        &url,
+        (DefaultBinding_ICalculatorFunctionTable*)&calculatorFunctions,
         NULL,
         serviceProperties,
         WsCountOf(serviceProperties),
         heap,
-        &amp;serviceEndpoint,
+        &serviceEndpoint,
         error);
     
     if (FAILED(hr))
@@ -201,7 +201,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         }
     serviceEndpoints[0] = serviceEndpoint;
     
-    hr = WsCreateServiceHost(serviceEndpoints, 1, NULL, 0, &amp;host, error);
+    hr = WsCreateServiceHost(serviceEndpoints, 1, NULL, 0, &host, error);
     if (FAILED(hr))
     {
         goto Exit;

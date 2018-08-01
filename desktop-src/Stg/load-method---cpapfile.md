@@ -46,7 +46,7 @@ HRESULT CPapFile::Load(
                STGM_DIRECT | STGM_READ | STGM_SHARE_EXCLUSIVE,
                NULL,
                0,
-               &amp;m_pIStorage);
+               &m_pIStorage);
         if (SUCCEEDED(hr))
         {
           // An IStorage interface has been obtained. Now, request 

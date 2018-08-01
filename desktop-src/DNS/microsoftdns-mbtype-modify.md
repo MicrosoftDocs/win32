@@ -32,7 +32,7 @@ The **Modify** method updates a Mailbox (MB) Resource Record.
 void Modify(
   [in, optional] uint32              TTL,
   [in]           string              MBHost,
-  [out, ref]     MicrosoftDNS_MBType &amp;RR
+  [out, ref]     MicrosoftDNS_MBType &RR
 );
 ```
 

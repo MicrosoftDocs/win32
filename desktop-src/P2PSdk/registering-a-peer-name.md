@@ -98,20 +98,20 @@ HRESULT PnrpRegister(PWSTR pwzIdentity, PWSTR pwzName, PWSTR pwzCloud, SOCKADDR_
     pnrpInfo.lpwszIdentity = pwzIdentity;
 
     blPnrpData.cbSize = sizeof(pnrpInfo);
-    blPnrpData.pBlobData = (BYTE*)&amp;pnrpInfo;
+    blPnrpData.pBlobData = (BYTE*)&pnrpInfo;
 
     querySet.dwSize = sizeof(querySet);
     querySet.dwNameSpace = NS_PNRPNAME;
     querySet.dwNumberOfCsAddrs = 1; // one address
-    querySet.lpServiceClassId = (LPGUID)&amp;SVCID_PNRPNAME;
+    querySet.lpServiceClassId = (LPGUID)&SVCID_PNRPNAME;
     querySet.lpszServiceInstanceName = pwzName;
     querySet.lpszContext = pwzCloud;
     querySet.lpszComment = L"SomeComment";
-    querySet.lpcsaBuffer = &amp;csaAddr;
-    querySet.lpBlob = &amp;blPnrpData;
+    querySet.lpcsaBuffer = &csaAddr;
+    querySet.lpBlob = &blPnrpData;
 
     // register the name with PNRP
-    iRet = WSASetService(&amp;querySet, RNRSERVICE_REGISTER, 0);
+    iRet = WSASetService(&querySet, RNRSERVICE_REGISTER, 0);
     if (iRet != 0)
     {
         hr = HRESULT_FROM_WIN32(WSAGetLastError());

@@ -26,7 +26,7 @@ The first step when constructing a chat application is to initialize the Peer Gr
 ```C++
     PEER_VERSION_DATA peerVersion;
 
-    hr = PeerGroupStartup(PEER_GROUP_VERSION, &amp;peerVersion);
+    hr = PeerGroupStartup(PEER_GROUP_VERSION, &peerVersion);
     if (FAILED(hr))
     {
         return hr;
@@ -71,7 +71,7 @@ HRESULT CreateGroup(PCWSTR pwzName, PCWSTR pwzIdentity)
         props.pwzFriendlyName = (PWSTR) pwzName;
         props.pwzCreatorPeerName = (PWSTR) pwzIdentity;
 
-        hr = PeerGroupCreate(&amp;props, &amp;g_hGroup);
+        hr = PeerGroupCreate(&props, &g_hGroup);
         if (FAILED(hr))
         {
             DisplayHrError(L"Failed to create a new group.", hr);
@@ -108,7 +108,7 @@ At this point, a mechanism for the delivery of the invitation to the invitee mus
 HRESULT SaveIdentityInfo(PCWSTR pwzIdentity, PCWSTR pwzFile)
 {
     PWSTR pwzXML = NULL;
-    HRESULT hr = PeerIdentityGetXML(pwzIdentity, &amp;pwzXML);
+    HRESULT hr = PeerIdentityGetXML(pwzIdentity, &pwzXML);
 
     if (FAILED(hr))
     {
@@ -119,7 +119,7 @@ HRESULT SaveIdentityInfo(PCWSTR pwzIdentity, PCWSTR pwzFile)
         FILE *fp = NULL;
         errno_t err = 0;
 
-        err = _wfopen_s(&amp;fp, pwzFile, L"wb");
+        err = _wfopen_s(&fp, pwzFile, L"wb");
         if (err != 0)
         {
             hr = E_FAIL;
@@ -164,7 +164,7 @@ HRESULT CreateInvitation(PCWSTR wzIdentityInfoPath, PCWSTR wzInvitationPath)
     errno_t  err  = 0;
     FILE *file = NULL;
         
-    err = _wfopen_s(&amp;file, wzIdentityInfoPath, L"rb");
+    err = _wfopen_s(&file, wzIdentityInfoPath, L"rb");
     if (err != 0)
     {
         hr = E_FAIL;
@@ -184,12 +184,12 @@ HRESULT CreateInvitation(PCWSTR wzIdentityInfoPath, PCWSTR wzInvitationPath)
     if (SUCCEEDED(hr))
     {
         ULONGLONG ulExpire; // adjust time using this structure
-        GetSystemTimeAsFileTime((FILETIME *)&amp;ulExpire);
+        GetSystemTimeAsFileTime((FILETIME *)&ulExpire);
 
         // 15days in 100 nanoseconds resolution
         ulExpire += ((ULONGLONG) (60 * 60 * 24 * 15)) * ((ULONGLONG)1000*1000*10);
 
-        hr = PeerGroupCreateInvitation(g_hGroup, wzIdentityInfo, (FILETIME*)&amp;ulExpire, 1, (PEER_ROLE_ID*) &amp;PEER_GROUP_ROLE_MEMBER, &amp;pwzInvitation);
+        hr = PeerGroupCreateInvitation(g_hGroup, wzIdentityInfo, (FILETIME*)&ulExpire, 1, (PEER_ROLE_ID*) &PEER_GROUP_ROLE_MEMBER, &pwzInvitation);
         if (FAILED(hr))
         {
             DisplayHrError(L"Failed to create the invitation.", hr);
@@ -198,7 +198,7 @@ HRESULT CreateInvitation(PCWSTR wzIdentityInfoPath, PCWSTR wzInvitationPath)
 
     if (SUCCEEDED(hr))
     {
-        err = _wfopen_s(&amp;file, wzInvitationPath, L"wb");
+        err = _wfopen_s(&file, wzInvitationPath, L"wb");
         if (err != 0)
         {
             hr = E_FAIL;
@@ -243,7 +243,7 @@ HRESULT JoinGroup(PCWSTR pwzIdentity, PCWSTR pwzFileName)
     FILE        *file = NULL;
     errno_t     err;
 
-    err = _wfopen_s(&amp;file, pwzFileName, L"rb");
+    err = _wfopen_s(&file, pwzFileName, L"rb");
     if (err !=  0)
     {
         hr = E_FAIL;
@@ -260,7 +260,7 @@ HRESULT JoinGroup(PCWSTR pwzIdentity, PCWSTR pwzFileName)
         }
         fclose(file);
 
-        hr = PeerGroupJoin(pwzIdentity, wzInvitation, NULL, &amp;g_hGroup);
+        hr = PeerGroupJoin(pwzIdentity, wzInvitation, NULL, &g_hGroup);
         if (FAILED(hr))
         {
             DisplayHrError(L"Failed to join group.", hr);
@@ -302,10 +302,10 @@ HRESULT RegisterForEvents(void)
 {
     HRESULT hr = S_OK;
     PEER_GROUP_EVENT_REGISTRATION regs[] = {
-        { PEER_GROUP_EVENT_RECORD_CHANGED, &amp;RECORD_TYPE_CHAT_MESSAGE },
+        { PEER_GROUP_EVENT_RECORD_CHANGED, &RECORD_TYPE_CHAT_MESSAGE },
         { PEER_GROUP_EVENT_MEMBER_CHANGED, 0 },
         { PEER_GROUP_EVENT_STATUS_CHANGED, 0 },
-        { PEER_GROUP_EVENT_DIRECT_CONNECTION, &amp;DATA_TYPE_WHISPER_MESSAGE },
+        { PEER_GROUP_EVENT_DIRECT_CONNECTION, &DATA_TYPE_WHISPER_MESSAGE },
         { PEER_GROUP_EVENT_INCOMING_DATA, 0 },
     };
 
@@ -316,12 +316,12 @@ HRESULT RegisterForEvents(void)
     }
     else
     {
-        hr = PeerGroupRegisterEvent(g_hGroup, g_hEvent, celems(regs), regs,  &amp;g_hPeerEvent);
+        hr = PeerGroupRegisterEvent(g_hGroup, g_hEvent, celems(regs), regs,  &g_hPeerEvent);
     }
 
     if (SUCCEEDED(hr))
     {
-        if (!RegisterWaitForSingleObject(&amp;g_hWait, g_hEvent, EventCallback, NULL, INFINITE, WT_EXECUTEDEFAULT))
+        if (!RegisterWaitForSingleObject(&g_hWait, g_hEvent, EventCallback, NULL, INFINITE, WT_EXECUTEDEFAULT))
         {
             hr = E_UNEXPECTED;
         }
@@ -363,13 +363,13 @@ void UpdateParticipantList(void)
     }
 
     // Retrieve only the members currently present in the group.
-    hr = PeerGroupEnumMembers(g_hGroup, PEER_MEMBER_PRESENT, NULL, &amp;hPeerEnum);
+    hr = PeerGroupEnumMembers(g_hGroup, PEER_MEMBER_PRESENT, NULL, &hPeerEnum);
     if (SUCCEEDED(hr))
     {
         while (SUCCEEDED(hr))
         {
             ULONG cItem = 1;
-            hr = PeerGetNextItem(hPeerEnum, &amp;cItem, (PVOID **) &amp;ppMember);
+            hr = PeerGetNextItem(hPeerEnum, &cItem, (PVOID **) &ppMember);
             if (SUCCEEDED(hr))
             {
                 if (0 == cItem)
@@ -417,7 +417,7 @@ HRESULT AddChatRecord(PCWSTR pwzMessage)
     ULONGLONG   ulExpire;
     ULONG cch = (ULONG) wcslen(pwzMessage);
 
-    GetSystemTimeAsFileTime((FILETIME *) &amp;ulExpire);
+    GetSystemTimeAsFileTime((FILETIME *) &ulExpire);
 
     // Calculate a 2 minute expiration time in 100 nanosecond resolution
     ulExpire += ((ULONGLONG) 60 * 2) * ((ULONGLONG)1000*1000*10);
@@ -426,15 +426,15 @@ HRESULT AddChatRecord(PCWSTR pwzMessage)
     record.dwSize = sizeof(record);
     record.data.cbData = (cch+1) * sizeof(WCHAR);
     record.data.pbData = (PBYTE) pwzMessage;
-    memcpy(&amp;record.ftExpiration, &amp;ulExpire, sizeof(ulExpire));
+    memcpy(&record.ftExpiration, &ulExpire, sizeof(ulExpire));
 
-    PeerGroupUniversalTimeToPeerTime(g_hGroup, &amp;record.ftExpiration, &amp;record.ftExpiration);
+    PeerGroupUniversalTimeToPeerTime(g_hGroup, &record.ftExpiration, &record.ftExpiration);
 
     // Set the record type GUID
     record.type = RECORD_TYPE_CHAT_MESSAGE;
 
     // Add the record to the database
-    hr = PeerGroupAddRecord(g_hGroup, &amp;record, &amp;idRecord);
+    hr = PeerGroupAddRecord(g_hGroup, &record, &idRecord);
     if (FAILED(hr))
     {
         DisplayHrError(L"Failed to add a chat record to the group.", hr);
@@ -464,10 +464,10 @@ void ProcessRecordChanged(PEER_EVENT_RECORD_CHANGE_DATA * pData)
     switch (pData->changeType)
     {
         case PEER_RECORD_ADDED:
-            if (IsEqualGUID(&amp;pData->recordType, &amp;RECORD_TYPE_CHAT_MESSAGE))
+            if (IsEqualGUID(&pData->recordType, &RECORD_TYPE_CHAT_MESSAGE))
             {
                 PEER_RECORD * pRecord = {0};
-                HRESULT hr = PeerGroupGetRecord(g_hGroup, &amp;pData->recordId, &amp;pRecord);
+                HRESULT hr = PeerGroupGetRecord(g_hGroup, &pData->recordId, &pRecord);
                 if (SUCCEEDED(hr))
                 {
                     DisplayChatMessage(pRecord->pwzCreatorId, (PCWSTR) pRecord->data.pbData);

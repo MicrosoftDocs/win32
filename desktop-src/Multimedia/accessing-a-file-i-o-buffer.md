@@ -30,7 +30,7 @@ DWORD    dwCount;
 HPSTR    hptr; 
 
 // Get information about the file I/O buffer. 
-if (mmioGetInfo(hmmio, &amp;mmioinfo, 0)) 
+if (mmioGetInfo(hmmio, &mmioinfo, 0)) 
 { 
     Error("Failed to get I/O buffer info."); 
     . 
@@ -48,7 +48,7 @@ for (dwCount = dwDataSize, hptr = lpData; dwCount  0; dwCount--)
     // Check to see if the I/O buffer must be advanced. 
     if (mmioinfo.pchNext == mmioinfo.pchEndRead) 
     { 
-        if(mmioAdvance(hmmio, &amp;mmioinfo, MMIO_READ)) 
+        if(mmioAdvance(hmmio, &mmioinfo, MMIO_READ)) 
         { 
             Error("Failed to advance buffer."); 
             . 
@@ -64,7 +64,7 @@ for (dwCount = dwDataSize, hptr = lpData; dwCount  0; dwCount--)
 } 
  
 // End direct buffer access and close the file. 
-mmioSetInfo(hmmio, &amp;mmioinfo, 0); 
+mmioSetInfo(hmmio, &mmioinfo, 0); 
 mmioClose(hmmio, 0); 
 
 ```

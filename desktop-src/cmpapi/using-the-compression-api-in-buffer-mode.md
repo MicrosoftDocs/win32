@@ -65,7 +65,7 @@ void wmain(_In_ int argc, _In_ WCHAR *argv[])
     }
 
     //  Get input file size.
-    Success = GetFileSizeEx(InputFile, &amp;FileSize);
+    Success = GetFileSizeEx(InputFile, &FileSize);
     if ((!Success)||(FileSize.QuadPart > 0xFFFFFFFF))
     {
         wprintf(L"Cannot get input file size or file is larger than 4GB.\n");        
@@ -82,7 +82,7 @@ void wmain(_In_ int argc, _In_ WCHAR *argv[])
     }                              
 
     //  Read input file.
-    Success = ReadFile(InputFile, InputBuffer, InputFileSize, &amp;ByteRead, NULL);
+    Success = ReadFile(InputFile, InputBuffer, InputFileSize, &ByteRead, NULL);
     if ((!Success)||(ByteRead != InputFileSize))
     {
         wprintf(L"Cannot read from \t%s\n", argv[1]);
@@ -109,7 +109,7 @@ void wmain(_In_ int argc, _In_ WCHAR *argv[])
     Success = CreateCompressor(
         COMPRESS_ALGORITHM_XPRESS_HUFF, //  Compression Algorithm
         NULL,                           //  Optional allocation routine
-        &amp;Compressor);                   //  Handle
+        &Compressor);                   //  Handle
 
     if (!Success)
     {
@@ -124,7 +124,7 @@ void wmain(_In_ int argc, _In_ WCHAR *argv[])
         InputFileSize,               //  Uncompressed data size
         NULL,                        //  Compressed Buffer
         0,                           //  Compressed Buffer size
-        &amp;CompressedBufferSize);      //  Compressed Data size
+        &CompressedBufferSize);      //  Compressed Data size
 
     //  Allocate memory for compressed buffer.
     if (!Success)
@@ -155,7 +155,7 @@ void wmain(_In_ int argc, _In_ WCHAR *argv[])
         InputFileSize,          //  Uncompressed data size
         CompressedBuffer,       //  Compressed Buffer
         CompressedBufferSize,   //  Compressed Buffer size
-        &amp;CompressedDataSize);   //  Compressed Data size
+        &CompressedDataSize);   //  Compressed Data size
 
     if (!Success)
     {
@@ -173,7 +173,7 @@ void wmain(_In_ int argc, _In_ WCHAR *argv[])
         CompressedFile,     //  File handle
         CompressedBuffer,   //  Start of data to write
         CompressedDataSize, //  Number of byte to write
-        &amp;ByteWritten,       //  Number of byte written
+        &ByteWritten,       //  Number of byte written
         NULL);              //  No overlapping structure
 
     if ((ByteWritten != CompressedDataSize) || (!Success))
@@ -222,7 +222,7 @@ done:
             Success = SetFileInformationByHandle(
                 CompressedFile,
                 FileDispositionInfo,
-                &amp;fdi,
+                &fdi,
                 sizeof(FILE_DISPOSITION_INFO));    
             if (!Success) {
                 wprintf(L"Cannot delete corrupted compressed file.\n");
@@ -281,7 +281,7 @@ void wmain(_In_ int argc, _In_ WCHAR *argv[])
     }
 
     //  Get compressed file size.
-    Success = GetFileSizeEx(InputFile, &amp;FileSize);
+    Success = GetFileSizeEx(InputFile, &FileSize);
     if ((!Success)||(FileSize.QuadPart > 0xFFFFFFFF))
     {
         wprintf(L"Cannot get input file size or file is larger than 4GB.\n");        
@@ -298,7 +298,7 @@ void wmain(_In_ int argc, _In_ WCHAR *argv[])
     }
 
     //  Read compressed content into buffer.
-    Success = ReadFile(InputFile, CompressedBuffer, InputFileSize, &amp;ByteRead, NULL);
+    Success = ReadFile(InputFile, CompressedBuffer, InputFileSize, &ByteRead, NULL);
     if ((!Success) || (ByteRead != InputFileSize))
     {
         wprintf(L"Cannot read from \t%s\n", argv[1]);
@@ -325,7 +325,7 @@ void wmain(_In_ int argc, _In_ WCHAR *argv[])
     Success = CreateDecompressor(
         COMPRESS_ALGORITHM_XPRESS_HUFF, //  Compression Algorithm
         NULL,                           //  Optional allocation routine
-        &amp;Decompressor);                 //  Handle
+        &Decompressor);                 //  Handle
 
     if (!Success)
     {
@@ -340,7 +340,7 @@ void wmain(_In_ int argc, _In_ WCHAR *argv[])
         InputFileSize,               //  Compressed data size
         NULL,                        //  Buffer set to NULL
         0,                           //  Buffer size set to 0
-        &amp;DecompressedBufferSize);    //  Decompressed Data size
+        &DecompressedBufferSize);    //  Decompressed Data size
 
     //  Allocate memory for decompressed buffer.
     if (!Success)
@@ -373,7 +373,7 @@ void wmain(_In_ int argc, _In_ WCHAR *argv[])
         InputFileSize,              //  Compressed data size
         DecompressedBuffer,         //  Decompressed buffer
         DecompressedBufferSize,     //  Decompressed buffer size
-        &amp;DecompressedDataSize);     //  Decompressed data size
+        &DecompressedDataSize);     //  Decompressed data size
 
     if (!Success)
     {
@@ -391,7 +391,7 @@ EndTime = GetTickCount64();
         DecompressedFile,       //  File handle
         DecompressedBuffer,     //  Start of data to write
         DecompressedDataSize,   //  Number of byte to write
-        &amp;ByteWritten,           //  Number of byte written
+        &ByteWritten,           //  Number of byte written
         NULL);                  //  No overlapping structure
     if ((ByteWritten != DecompressedDataSize) || (!Success))
     {
@@ -439,7 +439,7 @@ done:
             Success = SetFileInformationByHandle(
                 DecompressedFile,
                 FileDispositionInfo,
-                &amp;fdi,
+                &fdi,
                 sizeof(FILE_DISPOSITION_INFO));    
             if (!Success) {
                 wprintf(L"Cannot delete corrupted decompressed file.\n");

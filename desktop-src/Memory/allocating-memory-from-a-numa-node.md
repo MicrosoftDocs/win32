@@ -36,7 +36,7 @@ void __cdecl wmain (int argc, const wchar_t* argv[])
 
     if (argc > 1)
     {
-        (void)swscanf_s (argv[1], L"%Ix", &amp;AllocationSize);
+        (void)swscanf_s (argv[1], L"%Ix", &AllocationSize);
     }
 
     if (AllocationSize == 0)
@@ -49,7 +49,7 @@ void __cdecl wmain (int argc, const wchar_t* argv[])
     //
 
     SYSTEM_INFO SystemInfo;
-    GetSystemInfo (&amp;SystemInfo);
+    GetSystemInfo (&SystemInfo);
     NumberOfProcessors = SystemInfo.dwNumberOfProcessors;
     PageSize = SystemInfo.dwPageSize;
 
@@ -57,7 +57,7 @@ void __cdecl wmain (int argc, const wchar_t* argv[])
     // Get the highest node number.
     //
 
-    if (!GetNumaHighestNodeNumber (&amp;HighestNodeNumber))
+    if (!GetNumaHighestNodeNumber (&HighestNodeNumber))
     {
         _tprintf (_T("GetNumaHighestNodeNumber failed: %d\n"), GetLastError());
         goto Exit;
@@ -91,7 +91,7 @@ void __cdecl wmain (int argc, const wchar_t* argv[])
     {
         UCHAR NodeNumber;
 
-        if (!GetNumaProcessorNode (i, &amp;NodeNumber))
+        if (!GetNumaProcessorNode (i, &NodeNumber))
         {
             _tprintf (_T("GetNumaProcessorNode failed: %d\n"), GetLastError());
             goto Exit;

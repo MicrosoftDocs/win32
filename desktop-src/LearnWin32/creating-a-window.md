@@ -45,7 +45,7 @@ Next, pass the address of the [**WNDCLASS**](https://msdn.microsoft.com/library/
 
 
 ```C++
-    RegisterClass(&amp;wc);
+    RegisterClass(&wc);
 ```
 
 
@@ -115,7 +115,7 @@ Here is the complete code to create the window. Remember that `WindowProc` is st
     wc.hInstance     = hInstance;
     wc.lpszClassName = CLASS_NAME;
 
-    RegisterClass(&amp;wc);
+    RegisterClass(&wc);
 
     // Create the window.
 

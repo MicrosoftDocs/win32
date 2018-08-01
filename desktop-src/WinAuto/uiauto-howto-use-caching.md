@@ -34,11 +34,11 @@ IUIAutomationElementArray* FindAndCacheListItems(IUIAutomationElement* pList)
     IUIAutomationCacheRequest* pCacheRequest = NULL;
     IUIAutomationElementArray* pFound = NULL;
 
-    HRESULT hr = g_pAutomation->CreateTrueCondition(&amp;pCondition);
+    HRESULT hr = g_pAutomation->CreateTrueCondition(&pCondition);
     if (FAILED(hr))
         goto cleanup;
 
-    hr = g_pAutomation->CreateCacheRequest(&amp;pCacheRequest);
+    hr = g_pAutomation->CreateCacheRequest(&pCacheRequest);
     if (FAILED(hr))
         goto cleanup;
 
@@ -50,7 +50,7 @@ IUIAutomationElementArray* FindAndCacheListItems(IUIAutomationElement* pList)
     if (FAILED(hr))
         goto cleanup;
 
-    pList->FindAllBuildCache(TreeScope_Children, pCondition, pCacheRequest, &amp;pFound);
+    pList->FindAllBuildCache(TreeScope_Children, pCondition, pCacheRequest, &pFound);
     
 cleanup:
     if (pCondition != NULL)
@@ -82,7 +82,7 @@ HRESULT GetCachedListItem(IUIAutomationElement* pItem)
 
     IUIAutomationSelectionItemPattern* pSelectionItemPattern;
     HRESULT hr = pItem->GetCachedPatternAs(UIA_SelectionItemPatternId, 
-        IID_IUIAutomationSelectionItemPattern, (void**)&amp;pSelectionItemPattern);
+        IID_IUIAutomationSelectionItemPattern, (void**)&pSelectionItemPattern);
     if (pSelectionItemPattern != NULL)
     {
         // ... To do: Do something with the pattern.
@@ -92,7 +92,7 @@ HRESULT GetCachedListItem(IUIAutomationElement* pItem)
 
     // Retrieve a cached property.
     BSTR bstrName;
-    hr = pItem->get_CachedName(&amp;bstrName);
+    hr = pItem->get_CachedName(&bstrName);
     if (SUCCEEDED(hr))
     {
         // ... To do: Do something with the property.
@@ -105,13 +105,13 @@ HRESULT GetCachedListItem(IUIAutomationElement* pItem)
     BOOL isControl;
 
     // The following returns E_INVALIDARG because the property was not cached.
-    // hr = pItem->get_CachedIsControlElement(&amp;isControl);
+    // hr = pItem->get_CachedIsControlElement(&isControl);
 
     // The following is valid because we have a full reference to the object, therefore
     // we can get current properties. If the cache request had been made with 
     // AutomationElementMode_None, no current properties would be available from
     // this IUIAutomationElement.
-    hr = pItem->get_CurrentIsControlElement(&amp;isControl);
+    hr = pItem->get_CurrentIsControlElement(&isControl);
     return hr;
 }
 ```

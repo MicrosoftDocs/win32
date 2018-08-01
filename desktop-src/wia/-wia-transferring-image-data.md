@@ -25,7 +25,7 @@ Applications must query an image item to obtain a pointer to its [**IWiaDataTran
     // Get the IWiaDataTransfer interface
     //
     IWiaDataTransfer *pWiaDataTransfer = NULL;
-    hr = pWiaItem->QueryInterface( IID_IWiaDataTransfer, (void**)&amp;pWiaDataTransfer );
+    hr = pWiaItem->QueryInterface( IID_IWiaDataTransfer, (void**)&pWiaDataTransfer );
 ```
 
 
@@ -52,7 +52,7 @@ The application then calls the [**IWiaDataTransfer::idtGetData**](/windows/deskt
 ```
     // Perform the transfer
     //
-    hr = pWiaDataTransfer->idtGetData( &amp;stgMedium, pWiaDataCallback );
+    hr = pWiaDataTransfer->idtGetData( &stgMedium, pWiaDataCallback );
 ```
 
 
@@ -81,7 +81,7 @@ HRESULT TransferWiaItem( IWiaItem *pWiaItem )
     // Get the IWiaPropertyStorage interface so you can set required properties.
     //
     IWiaPropertyStorage *pWiaPropertyStorage = NULL;
-    HRESULT hr = pWiaItem->QueryInterface( IID_IWiaPropertyStorage, (void**)&amp;pWiaPropertyStorage );
+    HRESULT hr = pWiaItem->QueryInterface( IID_IWiaPropertyStorage, (void**)&pWiaPropertyStorage );
     if (SUCCEEDED(hr))
     {
         //
@@ -109,7 +109,7 @@ HRESULT TransferWiaItem( IWiaItem *pWiaItem )
         // Initialize the PROPVARIANTs
         //
         PropVariant[0].vt = VT_CLSID;
-        PropVariant[0].puuid = &amp;guidOutputFormat;
+        PropVariant[0].puuid = &guidOutputFormat;
         PropVariant[1].vt = VT_I4;
         PropVariant[1].lVal = TYMED_FILE;
 
@@ -123,7 +123,7 @@ HRESULT TransferWiaItem( IWiaItem *pWiaItem )
             // Get the IWiaDataTransfer interface
             //
             IWiaDataTransfer *pWiaDataTransfer = NULL;
-            hr = pWiaItem->QueryInterface( IID_IWiaDataTransfer, (void**)&amp;pWiaDataTransfer );
+            hr = pWiaItem->QueryInterface( IID_IWiaDataTransfer, (void**)&pWiaDataTransfer );
             if (SUCCEEDED(hr))
             {
                 //
@@ -136,7 +136,7 @@ HRESULT TransferWiaItem( IWiaItem *pWiaItem )
                     // Get the IWiaDataCallback interface from our callback class.
                     //
                     IWiaDataCallback *pWiaDataCallback = NULL;
-                    hr = pCallback->QueryInterface( IID_IWiaDataCallback, (void**)&amp;pWiaDataCallback );
+                    hr = pCallback->QueryInterface( IID_IWiaDataCallback, (void**)&pWiaDataCallback );
                     if (SUCCEEDED(hr))
                     {
                         //
@@ -144,7 +144,7 @@ HRESULT TransferWiaItem( IWiaItem *pWiaItem )
                         //
                         STGMEDIUM stgMedium = {0};
                         StgMedium.tymed = TYMED_FILE;
-                        hr = pWiaDataTransfer->idtGetData( &amp;stgMedium, pWiaDataCallback );
+                        hr = pWiaDataTransfer->idtGetData( &stgMedium, pWiaDataCallback );
                         if (S_OK == hr)
                         {
                             //
@@ -157,7 +157,7 @@ HRESULT TransferWiaItem( IWiaItem *pWiaItem )
                             // Release any memory associated with the stgmedium
                             // This will delete the file stgMedium.lpszFileName.
                             //
-                            ReleaseStgMedium( &amp;stgMedium );
+                            ReleaseStgMedium( &stgMedium );
                         }
 
                         //

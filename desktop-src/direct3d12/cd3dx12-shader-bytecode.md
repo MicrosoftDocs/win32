@@ -29,10 +29,10 @@ A helper structure to enable easy initialization of a [**D3D12\_SHADER\_BYTECODE
 ```C++
 struct CD3DX12_SHADER_BYTECODE  : public D3D12_SHADER_BYTECODE{
    CD3DX12_SHADER_BYTECODE();
-   explicit CD3DX12_SHADER_BYTECODE(const D3D12_SHADER_BYTECODE &amp;o);
+   explicit CD3DX12_SHADER_BYTECODE(const D3D12_SHADER_BYTECODE &o);
    CD3DX12_SHADER_BYTECODE(ID3DBlob* pShaderBlob);
    CD3DX12_SHADER_BYTECODE(const void* _pShaderBytecode, SIZE_T bytecodeLength);
-   operator const D3D12_SHADER_BYTECODE&amp;() const;
+   operator const D3D12_SHADER_BYTECODE&() const;
 };
 ```
 

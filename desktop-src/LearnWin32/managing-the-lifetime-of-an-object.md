@@ -78,7 +78,7 @@ Here is the code from the [Open dialog box example](example--the-open-dialog-box
 <tbody>
 <tr class="odd">
 <td><pre><code>        hr = CoCreateInstance(CLSID_FileOpenDialog, NULL, CLSCTX_ALL, 
-                IID_IFileOpenDialog, reinterpret_cast&lt;void**&gt;(&amp;pFileOpen));
+                IID_IFileOpenDialog, reinterpret_cast&lt;void**&gt;(&pFileOpen));
 
         if (SUCCEEDED(hr))
         {</code></pre></td>
@@ -121,11 +121,11 @@ Here is the code from the [Open dialog box example](example--the-open-dialog-box
 <td><pre><code>            if (SUCCEEDED(hr))
             {
                 IShellItem *pItem;
-                hr = pFileOpen-&gt;GetResult(&amp;pItem);
+                hr = pFileOpen-&gt;GetResult(&pItem);
                 if (SUCCEEDED(hr))
                 {
                     PWSTR pszFilePath;
-                    hr = pItem-&gt;GetDisplayName(SIGDN_FILESYSPATH, &amp;pszFilePath);
+                    hr = pItem-&gt;GetDisplayName(SIGDN_FILESYSPATH, &pszFilePath);
 </code></pre></td>
 </tr>
 </tbody>
@@ -167,7 +167,7 @@ Reference counting occurs in two places in this code. First, if program successf
 
 ```C++
 hr = CoCreateInstance(CLSID_FileOpenDialog, NULL, CLSCTX_ALL, 
-        IID_IFileOpenDialog, reinterpret_cast<void**>(&amp;pFileOpen));
+        IID_IFileOpenDialog, reinterpret_cast<void**>(&pFileOpen));
 
 if (SUCCEEDED(hr))
 {
@@ -182,7 +182,7 @@ Second, when the [**GetResult**](https://msdn.microsoft.com/library/windows/desk
 
 
 ```C++
-hr = pFileOpen->GetResult(&amp;pItem);
+hr = pFileOpen->GetResult(&pItem);
 
 if (SUCCEEDED(hr))
 {

@@ -58,7 +58,7 @@ HRESULT SetPlaybackRate(
            pMediaSession, 
            MF_RATE_CONTROL_SERVICE, 
            IID_IMFRateControl, 
-           (void**) &amp;pRateControl ); 
+           (void**) &pRateControl ); 
 
     // Set the playback rate.
     if(SUCCEEDED(hr))

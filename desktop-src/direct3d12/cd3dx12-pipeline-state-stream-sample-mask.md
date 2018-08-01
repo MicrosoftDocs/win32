@@ -29,8 +29,8 @@ A helper structure used to describe a sample mask as a single object suitable fo
 ```C++
 struct CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_MASK {
                                             CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_MASK;
-                                            CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_MASK(UINT const &amp;i);
-  CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_MASK operator=(UINT const&amp; i);
+                                            CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_MASK(UINT const &i);
+  CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_MASK operator=(UINT const& i);
                                             operator UINT() const;
 };
 ```

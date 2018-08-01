@@ -44,13 +44,13 @@ switch(message)
     case WM_PAINT:
         {
             PAINTSTRUCT ps;
-            BeginPaint(hwnd, &amp;ps);
+            BeginPaint(hwnd, &ps);
 
             // Obtain the size of the drawing area.
             RECT rc;
             GetClientRect(
                 hwnd,
-                &amp;rc
+                &rc
             );          
 
             // Save the original object
@@ -79,7 +79,7 @@ switch(message)
             // Restore the original object
             SelectObject(ps.hdc, original);
 
-            EndPaint(hwnd, &amp;ps);
+            EndPaint(hwnd, &ps);
         }
         return 0;
 
@@ -103,7 +103,7 @@ One of the first things that any Direct2D example does is create an [**ID2D1Fact
 ID2D1Factory* pD2DFactory = NULL;
 HRESULT hr = D2D1CreateFactory(
     D2D1_FACTORY_TYPE_SINGLE_THREADED,
-    &amp;pD2DFactory
+    &pD2DFactory
     );
 ```
 
@@ -125,7 +125,7 @@ After you create a factory, use it to create a render target.
 
 // Obtain the size of the drawing area.
 RECT rc;
-GetClientRect(hwnd, &amp;rc);
+GetClientRect(hwnd, &rc);
 
 // Create a Direct2D render target          
 ID2D1HwndRenderTarget* pRT = NULL;          
@@ -137,7 +137,7 @@ HRESULT hr = pD2DFactory->CreateHwndRenderTarget(
             rc.right - rc.left,
             rc.bottom - rc.top)
     ),
-    &amp;pRT
+    &pRT
 );
 ```
 
@@ -167,7 +167,7 @@ if (SUCCEEDED(hr))
             
     pRT->CreateSolidColorBrush(
         D2D1::ColorF(D2D1::ColorF::Black),
-        &amp;pBlackBrush
+        &pBlackBrush
         ); 
 }
 ```

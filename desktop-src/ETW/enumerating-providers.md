@@ -36,7 +36,7 @@ void wmain(void)
 
     // Retrieve the required buffer size.
 
-    status = TdhEnumerateProviders(penum, &amp;BufferSize);
+    status = TdhEnumerateProviders(penum, &BufferSize);
     
     // Allocate the required buffer and call TdhEnumerateProviders. The list of 
     // providers can change between the time you retrieved the required buffer 
@@ -55,7 +55,7 @@ void wmain(void)
         penum = ptemp;
         ptemp = NULL;
 
-        status = TdhEnumerateProviders(penum, &amp;BufferSize);
+        status = TdhEnumerateProviders(penum, &BufferSize);
     }
 
     if (ERROR_SUCCESS != status)
@@ -69,7 +69,7 @@ void wmain(void)
 
         for (DWORD i = 0; i < penum->NumberOfProviders; i++)
         {
-            hr = StringFromCLSID(penum->TraceProviderInfoArray[i].ProviderGuid, &amp;pStringGuid);
+            hr = StringFromCLSID(penum->TraceProviderInfoArray[i].ProviderGuid, &pStringGuid);
 
             if (FAILED(hr))
             {

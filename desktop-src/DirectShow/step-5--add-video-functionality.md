@@ -95,8 +95,8 @@ HRESULT CEVR::UpdateVideoWindow(HWND hwnd, const LPRECT prc)
     {
 
         RECT rc;
-        GetClientRect(hwnd, &amp;rc);
-        return m_pVideoDisplay->SetVideoPosition(NULL, &amp;rc);
+        GetClientRect(hwnd, &rc);
+        return m_pVideoDisplay->SetVideoPosition(NULL, &rc);
     }
 }
 ```
@@ -122,8 +122,8 @@ HRESULT CVMR9::UpdateVideoWindow(HWND hwnd, const LPRECT prc)
     {
 
         RECT rc;
-        GetClientRect(hwnd, &amp;rc);
-        return m_pWindowless->SetVideoPosition(NULL, &amp;rc);
+        GetClientRect(hwnd, &rc);
+        return m_pWindowless->SetVideoPosition(NULL, &rc);
     }
 }
 ```
@@ -148,8 +148,8 @@ HRESULT CVMR7::UpdateVideoWindow(HWND hwnd, const LPRECT prc)
     else
     {
         RECT rc;
-        GetClientRect(hwnd, &amp;rc);
-        return m_pWindowless->SetVideoPosition(NULL, &amp;rc);
+        GetClientRect(hwnd, &rc);
+        return m_pWindowless->SetVideoPosition(NULL, &rc);
     }
 }
 ```

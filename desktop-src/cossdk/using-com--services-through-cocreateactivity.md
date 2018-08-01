@@ -31,10 +31,10 @@ The following code fragment illustrates how to use COM+ services through [**CoCr
 ```C++
 // A CServiceConfig object was created as follows:
 // hr = CoCreateInstance(CLSID_CServiceConfig, NULL, CLSCTX_INPROC_SERVER,
-//   IID_IUnknown, (void**)&amp;pUnknownCSC);
+//   IID_IUnknown, (void**)&pUnknownCSC);
 
 // Create the activity for our services.
-HRESULT hr = CoCreateActivity(pUnknownCSC, IID_IServiceActivity, (void**)&amp;pActivity);
+HRESULT hr = CoCreateActivity(pUnknownCSC, IID_IServiceActivity, (void**)&pActivity);
 if (FAILED(hr)) throw(hr);
 
 // Do the batch work synchronously.

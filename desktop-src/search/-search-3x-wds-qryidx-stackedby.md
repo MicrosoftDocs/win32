@@ -22,7 +22,7 @@ This topic is organized as follows:
 
 
 ```
- search-ms:query=vacation&amp;stackedby=System.Author 
+ search-ms:query=vacation&stackedby=System.Author 
 ```
 
 

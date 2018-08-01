@@ -45,7 +45,7 @@ You can monitor the progress of the burning operation by periodically calling [I
 // Update the progress bar IDC_PROGRESS
 // and the corresponding text string IDC_PROGRESS_TEXT.
 long lProgress = 0;
-hr = m_spCdromBurn->get_burnProgress(&amp;lProgress);
+hr = m_spCdromBurn->get_burnProgress(&lProgress);
 if (SUCCEEDED(hr))
 {
     SendMessage(GetDlgItem(IDC_PROGRESS),
@@ -63,7 +63,7 @@ You can get the current state of the burning operation by calling [IWMPCdromBurn
 ```C++
 // Retrieve the burn state.
 WMPBurnState wmpbs = wmpbsUnknown;
-HRESULT hr = m_spCdromBurn->get_burnState(&amp;wmpbs);
+HRESULT hr = m_spCdromBurn->get_burnState(&wmpbs);
 
 if (SUCCEEDED(hr))
 {
@@ -121,7 +121,7 @@ CComBSTR bstrItem;
 HRESULT hr = bstrItem.Append("AvailableTime");
 if (SUCCEEDED(hr))
 {
-    hr = m_spCdromBurn->getItemInfo(bstrItem, &amp;bstrTime);
+    hr = m_spCdromBurn->getItemInfo(bstrItem, &bstrTime);
 }
 if (SUCCEEDED(hr))
 {
@@ -146,7 +146,7 @@ CComBSTR bstrItem;
 HRESULT hr = bstrItem.Append("FreeSpace");
 if (SUCCEEDED(hr))
 {
-    hr = m_spCdromBurn->getItemInfo(bstrItem, &amp;bstrFreeSpace);
+    hr = m_spCdromBurn->getItemInfo(bstrItem, &bstrFreeSpace);
 }
 if (SUCCEEDED(hr))
 {
@@ -171,7 +171,7 @@ CComBSTR bstrItem;
 HRESULT hr = bstrItem.Append("TotalSpace");
 if (SUCCEEDED(hr))
 {
-    hr = m_spCdromBurn->getItemInfo(bstrItem, &amp;bstrTotalSpace);
+    hr = m_spCdromBurn->getItemInfo(bstrItem, &bstrTotalSpace);
 }
 if (SUCCEEDED(hr))
 {

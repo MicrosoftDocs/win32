@@ -109,7 +109,7 @@ namespace HyperVSamples
 
         static void Main(string[] args)
         {
-            if (args != null &amp;&amp; args.Length != 1)
+            if (args != null && args.Length != 1)
             {
                 Console.WriteLine("Usage: GetVirtualMachineDNSName vmName");
                 return;
@@ -153,7 +153,7 @@ Sub Main()
     set fileSystem = Wscript.CreateObject(&quot;Scripting.FileSystemObject&quot;)
 
     computer = &quot;.&quot;
-    set objWMIService = GetObject(&quot;winmgmts:\\&quot; &amp; computer &amp; &quot;\root\virtualization\v2&quot;)
+    set objWMIService = GetObject(&quot;winmgmts:\\&quot; & computer & &quot;\root\virtualization\v2&quot;)
 
     set objArgs = WScript.Arguments
     if WScript.Arguments.Count = 1 then

@@ -27,17 +27,17 @@ INT main()
    // Initialize GDI+.
    GdiplusStartupInput gdiplusStartupInput;
    ULONG_PTR gdiplusToken;
-   GdiplusStartup(&amp;gdiplusToken, &amp;gdiplusStartupInput, NULL);
+   GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
 
    // Get a device context for the printer.
    HDC hdcPrint = CreateDC(NULL, TEXT("\\\\printserver\\print1"), NULL, NULL);
 
    DOCINFO docInfo;
-   ZeroMemory(&amp;docInfo, sizeof(docInfo));
+   ZeroMemory(&docInfo, sizeof(docInfo));
    docInfo.cbSize = sizeof(docInfo);
    docInfo.lpszDocName = "GdiplusPrint";
 
-   StartDoc(hdcPrint, &amp;docInfo);
+   StartDoc(hdcPrint, &docInfo);
    StartPage(hdcPrint);
       Graphics* graphics = new Graphics(hdcPrint);
       Pen* pen = new Pen(Color(255, 0, 0, 0));
@@ -85,24 +85,24 @@ INT main()
    // Initialize GDI+.
    GdiplusStartupInput gdiplusStartupInput;
    ULONG_PTR gdiplusToken;
-   GdiplusStartup(&amp;gdiplusToken, &amp;gdiplusStartupInput, NULL);
+   GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
 
    DWORD size;
    HDC hdcPrint;
 
    DOCINFO docInfo;
-   ZeroMemory(&amp;docInfo, sizeof(docInfo));
+   ZeroMemory(&docInfo, sizeof(docInfo));
    docInfo.cbSize = sizeof(docInfo);
    docInfo.lpszDocName = "GdiplusPrint";
 
    // Get the size of the default printer name.
-   GetDefaultPrinter(NULL, &amp;size);
+   GetDefaultPrinter(NULL, &size);
 
    // Allocate a buffer large enough to hold the printer name.
    TCHAR* buffer = new TCHAR[size];
 
    // Get the printer name.
-   if(!GetDefaultPrinter(buffer, &amp;size))
+   if(!GetDefaultPrinter(buffer, &size))
    {
       printf("Failure");
    }
@@ -111,7 +111,7 @@ INT main()
       // Get a device context for the printer.
       hdcPrint = CreateDC(NULL, buffer, NULL, NULL);
 
-      StartDoc(hdcPrint, &amp;docInfo);
+      StartDoc(hdcPrint, &docInfo);
          Graphics* graphics;
          Pen* pen = new Pen(Color(255, 0, 0, 0));
 

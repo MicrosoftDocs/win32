@@ -40,7 +40,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         }
         break;
     case WM_PAINT:
-        {hdc = BeginPaint(hWnd, &amp;ps);
+        {hdc = BeginPaint(hWnd, &ps);
 // Create an array of TRIVERTEX structures that describe
 // positional and color values for each vertex.
 TRIVERTEX vertex[3];
@@ -73,8 +73,8 @@ gTriangle.Vertex2 = 1;
 gTriangle.Vertex3 = 2;
 
 // Draw a shaded triangle.
-GradientFill(hdc, vertex, 3, &amp;gTriangle, 1, GRADIENT_FILL_TRIANGLE);
-        EndPaint(hWnd, &amp;ps);
+GradientFill(hdc, vertex, 3, &gTriangle, 1, GRADIENT_FILL_TRIANGLE);
+        EndPaint(hWnd, &ps);
         break;}
     case WM_DESTROY:
         PostQuitMessage(0);

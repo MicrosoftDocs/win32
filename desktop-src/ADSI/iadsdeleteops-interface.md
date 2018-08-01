@@ -43,7 +43,7 @@ hr = ADsOpenObject(L"LDAP://CN=Eng,CN=Users,DC=Fabrikam,DC=Com",
     0,
     ADS_SECURE_AUTHENTICATION,
     IID_IADsDeleteOps, 
-    (void**)&amp;pDeleteOps);
+    (void**)&pDeleteOps);
 if(S_OK == hr)
 {
     // Delete the container and all child objects.

@@ -143,7 +143,7 @@ int __cdecl wmain(
     // Create a Request Queue Handle
     //
     retCode = HttpCreateHttpHandle(
-                &amp;hReqQueue,        // Req Queue
+                &hReqQueue,        // Req Queue
                 0                  // Reserved
                 );
 
@@ -287,7 +287,7 @@ DWORD DoReceiveRequests(
     // request ID.
     //
 
-    HTTP_SET_NULL_ID( &amp;requestId );
+    HTTP_SET_NULL_ID( &requestId );
 
     for(;;)
     {
@@ -299,7 +299,7 @@ DWORD DoReceiveRequests(
                     0,                  // Flags
                     pRequest,           // HTTP request buffer
                     RequestBufferLength,// req buffer length
-                    &amp;bytesRead,         // bytes received
+                    &bytesRead,         // bytes received
                     NULL                // LPOVERLAPPED
                     );
     
@@ -361,7 +361,7 @@ DWORD DoReceiveRequests(
             //
             // Reset the Request ID to handle the next request.
             //
-            HTTP_SET_NULL_ID( &amp;requestId );
+            HTTP_SET_NULL_ID( &requestId );
         }
         else if(result == ERROR_MORE_DATA)
         {
@@ -393,14 +393,14 @@ DWORD DoReceiveRequests(
             pRequest = (PHTTP_REQUEST)pRequestBuffer;
 
         }
-        else if(ERROR_CONNECTION_INVALID == result &amp;&amp; 
-                !HTTP_IS_NULL_ID(&amp;requestId))
+        else if(ERROR_CONNECTION_INVALID == result && 
+                !HTTP_IS_NULL_ID(&requestId))
         {
             // The TCP connection was corrupted by the peer when
             // attempting to handle a request with more buffer. 
             // Continue to the next request.
             
-            HTTP_SET_NULL_ID( &amp;requestId );
+            HTTP_SET_NULL_ID( &requestId );
         }
         else
         {
@@ -456,7 +456,7 @@ DWORD SendHttpResponse(
     //
     // Initialize the HTTP response structure.
     //
-    INITIALIZE_HTTP_RESPONSE(&amp;response, StatusCode, pReason);
+    INITIALIZE_HTTP_RESPONSE(&response, StatusCode, pReason);
 
     //
     // Add a known header.
@@ -474,7 +474,7 @@ DWORD SendHttpResponse(
                                        (ULONG) strlen(pEntityString);
 
         response.EntityChunkCount         = 1;
-        response.pEntityChunks            = &amp;dataChunk;
+        response.pEntityChunks            = &dataChunk;
     }
 
     // 
@@ -486,9 +486,9 @@ DWORD SendHttpResponse(
                     hReqQueue,           // ReqQueueHandle
                     pRequest->RequestId, // Request ID
                     0,                   // Flags
-                    &amp;response,           // HTTP response
+                    &response,           // HTTP response
                     NULL,                // pReserved1
-                    &amp;bytesSent,          // bytes sent  (OPTIONAL)
+                    &bytesSent,          // bytes sent  (OPTIONAL)
                     NULL,                // pReserved2  (must be NULL)
                     0,                   // Reserved3   (must be 0)
                     NULL,                // LPOVERLAPPED(OPTIONAL)
@@ -563,7 +563,7 @@ DWORD SendHttpPostResponse(
     //
     // Initialize the HTTP response structure.
     //
-    INITIALIZE_HTTP_RESPONSE(&amp;response, 200, "OK");
+    INITIALIZE_HTTP_RESPONSE(&response, 200, "OK");
 
     //
     // For POST, echo back the entity from the
@@ -625,7 +625,7 @@ DWORD SendHttpPostResponse(
                         0,
                         pEntityBuffer,
                         EntityBufferLength,
-                        &amp;BytesRead,
+                        &BytesRead,
                         NULL 
                         );
 
@@ -640,7 +640,7 @@ DWORD SendHttpPostResponse(
                                 hTempFile, 
                                 pEntityBuffer, 
                                 BytesRead,
-                                &amp;TempFileBytesWritten,
+                                &TempFileBytesWritten,
                                 NULL
                                 );
                     }
@@ -665,7 +665,7 @@ DWORD SendHttpPostResponse(
                                 hTempFile, 
                                 pEntityBuffer, 
                                 BytesRead,
-                                &amp;TempFileBytesWritten,
+                                &TempFileBytesWritten,
                                 NULL
                                 );
                     }
@@ -700,9 +700,9 @@ DWORD SendHttpPostResponse(
                                hReqQueue,           // ReqQueueHandle
                                pRequest->RequestId, // Request ID
                                HTTP_SEND_RESPONSE_FLAG_MORE_DATA,
-                               &amp;response,       // HTTP response
+                               &response,       // HTTP response
                                NULL,            // pReserved1
-                               &amp;bytesSent,      // bytes sent-optional
+                               &bytesSent,      // bytes sent-optional
                                NULL,            // pReserved2
                                0,               // Reserved3
                                NULL,            // LPOVERLAPPED
@@ -738,7 +738,7 @@ DWORD SendHttpPostResponse(
                                 pRequest->RequestId,
                                 0,           // This is the last send.
                                 1,           // Entity Chunk Count.
-                                &amp;dataChunk,
+                                &dataChunk,
                                 NULL,
                                 NULL,
                                 0,
@@ -777,9 +777,9 @@ DWORD SendHttpPostResponse(
                    hReqQueue,           // ReqQueueHandle
                    pRequest->RequestId, // Request ID
                    0,
-                   &amp;response,           // HTTP response
+                   &response,           // HTTP response
                    NULL,                // pReserved1
-                   &amp;bytesSent,          // bytes sent (optional)
+                   &bytesSent,          // bytes sent (optional)
                    NULL,                // pReserved2
                    0,                   // Reserved3
                    NULL,                // LPOVERLAPPED

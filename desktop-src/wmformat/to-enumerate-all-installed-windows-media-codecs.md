@@ -30,7 +30,7 @@ HRESULT GetCodecNames(IWMCodecInfo3* pCodecInfo)
     DWORD   cchCodecName     = 0;
     
     // Retrieve the number of supported audio codecs on the system.
-    hr = pCodecInfo->GetCodecInfoCount(WMMEDIATYPE_Audio, &amp;cCodecs);
+    hr = pCodecInfo->GetCodecInfoCount(WMMEDIATYPE_Audio, &cCodecs);
 
     if(SUCCEEDED(hr))
         printf("Number of audio codecs: %d\n\n", cCodecs);
@@ -48,7 +48,7 @@ HRESULT GetCodecNames(IWMCodecInfo3* pCodecInfo)
         hr = pCodecInfo->GetCodecName(WMMEDIATYPE_Audio, 
                                       dwCodecIndex, 
                                       NULL, 
-                                      &amp;cchCodecName);
+                                      &cchCodecName);
         if(FAILED(hr))
         {
             printf("Could not get the size of the codec name.\n");
@@ -67,7 +67,7 @@ HRESULT GetCodecNames(IWMCodecInfo3* pCodecInfo)
         hr = pCodecInfo->GetCodecName(WMMEDIATYPE_Audio, 
                                       dwCodecIndex, 
                                       pwszCodecName, 
-                                      &amp;cchCodecName);
+                                      &cchCodecName);
         if(FAILED(hr))
         {
             delete[] pwszCodecName;
@@ -85,7 +85,7 @@ HRESULT GetCodecNames(IWMCodecInfo3* pCodecInfo)
     }
 
     // Retrieve the number of supported video codecs on the system.
-    hr = pCodecInfo->GetCodecInfoCount(WMMEDIATYPE_Video, &amp;cCodecs);
+    hr = pCodecInfo->GetCodecInfoCount(WMMEDIATYPE_Video, &cCodecs);
 
     if(SUCCEEDED(hr))
         printf("\n\nNumber of video codecs: %d.\n\n", cCodecs);
@@ -103,7 +103,7 @@ HRESULT GetCodecNames(IWMCodecInfo3* pCodecInfo)
         hr = pCodecInfo->GetCodecName(WMMEDIATYPE_Video, 
                                       dwCodecIndex, 
                                       NULL, 
-                                      &amp;cchCodecName);
+                                      &cchCodecName);
         if(FAILED(hr))
         {
             printf("Could not get the size of the codec name.\n");
@@ -122,7 +122,7 @@ HRESULT GetCodecNames(IWMCodecInfo3* pCodecInfo)
         hr = pCodecInfo->GetCodecName(WMMEDIATYPE_Video, 
                                       dwCodecIndex, 
                                       pwszCodecName, 
-                                      &amp;cchCodecName);
+                                      &cchCodecName);
         if(FAILED(hr))
         {
             printf("Could not get the codec name.\n");

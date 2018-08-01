@@ -48,7 +48,7 @@ HRESULT GetBufferProgress(IMFMediaSession *pSession, DWORD *pProgress)
     HRESULT hr = MFGetService(
         pSession, 
         MFNETSOURCE_STATISTICS_SERVICE, 
-        IID_PPV_ARGS(&amp;pProp)
+        IID_PPV_ARGS(&pProp)
         );
 
     if (SUCCEEDED(hr))
@@ -57,7 +57,7 @@ HRESULT GetBufferProgress(IMFMediaSession *pSession, DWORD *pProgress)
         key.fmtid = MFNETSOURCE_STATISTICS;
         key.pid = MFNETSOURCE_BUFFERPROGRESS_ID;
 
-        hr = pProp->GetValue(key, &amp;var);
+        hr = pProp->GetValue(key, &var);
     }
 
     if (SUCCEEDED(hr))
@@ -65,8 +65,8 @@ HRESULT GetBufferProgress(IMFMediaSession *pSession, DWORD *pProgress)
         *pProgress = var.lVal;
     }
 
-    PropVariantClear(&amp;var);
-    SafeRelease(&amp;pProp);
+    PropVariantClear(&var);
+    SafeRelease(&pProp);
     return hr;
 }
 ```

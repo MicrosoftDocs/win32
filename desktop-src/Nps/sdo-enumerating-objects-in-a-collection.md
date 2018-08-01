@@ -32,7 +32,7 @@ The following code enumerates the protocols in the NPS protocols collection.
    _variant_t vtIASProtocolsCollection;
    hr = pSdo->GetProperty(
       PROPERTY_IAS_PROTOCOLS_COLLECTION,
-      &amp;vtIASProtocolsCollection
+      &vtIASProtocolsCollection
    );
    if (FAILED(hr))
    {
@@ -46,7 +46,7 @@ The following code enumerates the protocols in the NPS protocols collection.
    CComPtr<ISdoCollection> pIASProtocolsCollection;
    hr = vtIASProtocolsCollection.pdispVal->QueryInterface(
       __uuidof(ISdoCollection), 
-      (void **) &amp;pIASProtocolsCollection
+      (void **) &pIASProtocolsCollection
    );
    if (FAILED(hr))
    {
@@ -57,7 +57,7 @@ The following code enumerates the protocols in the NPS protocols collection.
    // Retrieve the enumeration interface, IEnumVARIANT
    //
    CComPtr<IUnknown> pUnknownProtocol;
-   hr = pIASProtocolsCollection->get__NewEnum(&amp;pUnknownProtocol);
+   hr = pIASProtocolsCollection->get__NewEnum(&pUnknownProtocol);
    if (FAILED(hr))
    {
       return hr;
@@ -66,7 +66,7 @@ The following code enumerates the protocols in the NPS protocols collection.
    CComPtr<IEnumVARIANT> pEnumProtocols;
    hr = pUnknownProtocol->QueryInterface(
       __uuidof(IEnumVARIANT), 
-      (void **) &amp;pEnumProtocols
+      (void **) &pEnumProtocols
    );
    if (FAILED(hr))
    {
@@ -78,7 +78,7 @@ The following code enumerates the protocols in the NPS protocols collection.
    //
    DWORD      dwRetrieved = 1;
    _variant_t vtProtocol;
-   hr = pEnumProtocols->Next(1, &amp;vtProtocol, &amp;dwRetrieved);
+   hr = pEnumProtocols->Next(1, &vtProtocol, &dwRetrieved);
    if (FAILED(hr))
    {
       return hr;
@@ -91,7 +91,7 @@ The following code enumerates the protocols in the NPS protocols collection.
       CComPtr<ISdo> pLocalSdo;
       hr = vtProtocol.pdispVal->QueryInterface(
          __uuidof(ISdo), 
-         (void**)&amp;pLocalSdo
+         (void**)&pLocalSdo
       );
       if (FAILED(hr))
       {
@@ -99,7 +99,7 @@ The following code enumerates the protocols in the NPS protocols collection.
       }
 
       _variant_t vtName;
-      hr = pLocalSdo->GetProperty(PROPERTY_SDO_NAME, &amp;vtName);
+      hr = pLocalSdo->GetProperty(PROPERTY_SDO_NAME, &vtName);
       if (FAILED(hr))
       {
          return hr;
@@ -112,7 +112,7 @@ The following code enumerates the protocols in the NPS protocols collection.
       // Retrieve the next protocol from the collection
       //
       dwRetrieved = 1;
-      hr = pEnumProtocols->Next(1, &amp;vtProtocol, &amp;dwRetrieved);
+      hr = pEnumProtocols->Next(1, &vtProtocol, &dwRetrieved);
       if (FAILED(hr))
       {
          return hr;

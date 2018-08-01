@@ -104,7 +104,7 @@ void __cdecl wmain(
 
     //open an algorithm handle
     if(!NT_SUCCESS(status = BCryptOpenAlgorithmProvider(
-                                                &amp;hAlg,
+                                                &hAlg,
                                                 BCRYPT_SHA256_ALGORITHM,
                                                 NULL,
                                                 0)))
@@ -117,9 +117,9 @@ void __cdecl wmain(
     if(!NT_SUCCESS(status = BCryptGetProperty(
                                         hAlg, 
                                         BCRYPT_OBJECT_LENGTH, 
-                                        (PBYTE)&amp;cbHashObject, 
+                                        (PBYTE)&cbHashObject, 
                                         sizeof(DWORD), 
-                                        &amp;cbData, 
+                                        &cbData, 
                                         0)))
     {
         wprintf(L"**** Error 0x%x returned by BCryptGetProperty\n", status);
@@ -138,9 +138,9 @@ void __cdecl wmain(
     if(!NT_SUCCESS(status = BCryptGetProperty(
                                         hAlg, 
                                         BCRYPT_HASH_LENGTH, 
-                                        (PBYTE)&amp;cbHash, 
+                                        (PBYTE)&cbHash, 
                                         sizeof(DWORD), 
-                                        &amp;cbData, 
+                                        &cbData, 
                                         0)))
     {
         wprintf(L"**** Error 0x%x returned by BCryptGetProperty\n", status);
@@ -158,7 +158,7 @@ void __cdecl wmain(
     //create a hash
     if(!NT_SUCCESS(status = BCryptCreateHash(
                                         hAlg, 
-                                        &amp;hHash, 
+                                        &hHash, 
                                         pbHashObject, 
                                         cbHashObject, 
                                         NULL, 

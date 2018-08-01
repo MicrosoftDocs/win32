@@ -281,10 +281,10 @@ STDMETHODIMP CDeskBand::SetSite(IUnknown *pUnkSite)
     if (pUnkSite)
     {
         IOleWindow *pow;
-        hr = pUnkSite->QueryInterface(IID_IOleWindow, reinterpret_cast<void **>(&amp;pow));
+        hr = pUnkSite->QueryInterface(IID_IOleWindow, reinterpret_cast<void **>(&pow));
         if (SUCCEEDED(hr))
         {
-            hr = pow->GetWindow(&amp;m_hwndParent);
+            hr = pow->GetWindow(&m_hwndParent);
             if (SUCCEEDED(hr))
             {
                 WNDCLASSW wc = { 0 };
@@ -295,7 +295,7 @@ STDMETHODIMP CDeskBand::SetSite(IUnknown *pUnkSite)
                 wc.lpszClassName = g_szDeskBandSampleClass;
                 wc.hbrBackground = CreateSolidBrush(RGB(255, 255, 0));
 
-                RegisterClassW(&amp;wc);
+                RegisterClassW(&wc);
 
                 CreateWindowExW(0,
                                 g_szDeskBandSampleClass,
@@ -319,7 +319,7 @@ STDMETHODIMP CDeskBand::SetSite(IUnknown *pUnkSite)
             pow->Release();
         }
 
-        hr = pUnkSite->QueryInterface(IID_IInputObjectSite, reinterpret_cast<void **>(&amp;m_pSite));
+        hr = pUnkSite->QueryInterface(IID_IInputObjectSite, reinterpret_cast<void **>(&m_pSite));
     }
 
     return hr;
@@ -448,7 +448,7 @@ STDMETHODIMP CDeskBand::GetBandInfo(DWORD dwBandID, DWORD, DESKBANDINFO *pdbi)
         if (pdbi->dwMask & DBIM_TITLE)
         {
             // Don't show title by removing this flag.
-            pdbi->dwMask &amp;= ~DBIM_TITLE;
+            pdbi->dwMask &= ~DBIM_TITLE;
         }
 
         if (pdbi->dwMask & DBIM_MODEFLAGS)
@@ -459,7 +459,7 @@ STDMETHODIMP CDeskBand::GetBandInfo(DWORD dwBandID, DWORD, DESKBANDINFO *pdbi)
         if (pdbi->dwMask & DBIM_BKCOLOR)
         {
             // Use the default background color by removing this flag.
-            pdbi->dwMask &amp;= ~DBIM_BKCOLOR;
+            pdbi->dwMask &= ~DBIM_BKCOLOR;
         }
 
         hr = S_OK;
@@ -541,7 +541,7 @@ HRESULT RegisterServer()
                                              REG_OPTION_NON_VOLATILE,
                                              KEY_WRITE,
                                              NULL,
-                                             &amp;hKey,
+                                             &hKey,
                                              NULL))
         {
             WCHAR const szName[] = L"DeskBand Sample";
@@ -565,7 +565,7 @@ HRESULT RegisterServer()
         if (SUCCEEDED(hr))
         {
             hr = HRESULT_FROM_WIN32(RegCreateKeyExW(HKEY_CLASSES_ROOT, szSubkey,
-                 0, NULL, REG_OPTION_NON_VOLATILE, KEY_WRITE, NULL, &amp;hKey, NULL));
+                 0, NULL, REG_OPTION_NON_VOLATILE, KEY_WRITE, NULL, &hKey, NULL));
             if (SUCCEEDED(hr))
             {
                 WCHAR szModule[MAX_PATH];
@@ -601,11 +601,11 @@ In addition to the CLSID, the band object server must also be registered for one
 HRESULT RegisterComCat()
 {
     ICatRegister *pcr;
-    HRESULT hr = CoCreateInstance(CLSID_StdComponentCategoriesMgr, NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&amp;pcr));
+    HRESULT hr = CoCreateInstance(CLSID_StdComponentCategoriesMgr, NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&pcr));
     if (SUCCEEDED(hr))
     {
         CATID catid = CATID_DeskBand;
-        hr = pcr->RegisterClassImplCategories(CLSID_DeskBandSample, 1, &amp;catid);
+        hr = pcr->RegisterClassImplCategories(CLSID_DeskBandSample, 1, &catid);
         pcr->Release();
     }
     return hr;
@@ -690,13 +690,13 @@ void CDeskBand::OnPaint(const HDC hdcIn)
 
     if (!hdc)
     {
-        hdc = BeginPaint(m_hwnd, &amp;ps);
+        hdc = BeginPaint(m_hwnd, &ps);
     }
 
     if (hdc)
     {
         RECT rc;
-        GetClientRect(m_hwnd, &amp;rc);
+        GetClientRect(m_hwnd, &rc);
 
         SIZE size;
 
@@ -706,11 +706,11 @@ void CDeskBand::OnPaint(const HDC hdcIn)
             if (hTheme)
             {
                 HDC hdcPaint = NULL;
-                HPAINTBUFFER hBufferedPaint = BeginBufferedPaint(hdc, &amp;rc, BPBF_TOPDOWNDIB, NULL, &amp;hdcPaint);
+                HPAINTBUFFER hBufferedPaint = BeginBufferedPaint(hdc, &rc, BPBF_TOPDOWNDIB, NULL, &hdcPaint);
 
-                DrawThemeParentBackground(m_hwnd, hdcPaint, &amp;rc);
+                DrawThemeParentBackground(m_hwnd, hdcPaint, &rc);
 
-                GetTextExtentPointW(hdc, szContentGlass, ARRAYSIZE(szContentGlass), &amp;size);
+                GetTextExtentPointW(hdc, szContentGlass, ARRAYSIZE(szContentGlass), &size);
                 RECT rcText;
                 rcText.left   = (RECTWIDTH(rc) - size.cx) / 2;
                 rcText.top    = (RECTHEIGHT(rc) - size.cy) / 2;
@@ -721,7 +721,7 @@ void CDeskBand::OnPaint(const HDC hdcIn)
                 dttOpts.dwFlags = DTT_COMPOSITED | DTT_TEXTCOLOR | DTT_GLOWSIZE;
                 dttOpts.crText = RGB(255, 255, 0);
                 dttOpts.iGlowSize = 10;
-                DrawThemeTextEx(hTheme, hdcPaint, 0, 0, szContentGlass, -1, 0, &amp;rcText, &amp;dttOpts);
+                DrawThemeTextEx(hTheme, hdcPaint, 0, 0, szContentGlass, -1, 0, &rcText, &dttOpts);
 
                 EndBufferedPaint(hBufferedPaint, TRUE);
 
@@ -731,7 +731,7 @@ void CDeskBand::OnPaint(const HDC hdcIn)
         else
         {
             SetBkColor(hdc, RGB(255, 255, 0));
-            GetTextExtentPointW(hdc, szContent, ARRAYSIZE(szContent), &amp;size);
+            GetTextExtentPointW(hdc, szContent, ARRAYSIZE(szContent), &size);
             TextOutW(hdc,
                      (RECTWIDTH(rc) - size.cx) / 2,
                      (RECTHEIGHT(rc) - size.cy) / 2,
@@ -742,7 +742,7 @@ void CDeskBand::OnPaint(const HDC hdcIn)
 
     if (!hdcIn)
     {
-        EndPaint(m_hwnd, &amp;ps);
+        EndPaint(m_hwnd, &ps);
     }
 }
 ```

@@ -42,7 +42,7 @@ int main(INT argc, CHAR *argv[])
 
     (VOID)HeapSetInformation(NULL, HeapEnableTerminationOnCorruption, NULL, 0);
 
-    ZeroMemory(&amp;erf, sizeof(ERF));
+    ZeroMemory(&erf, sizeof(ERF));
 
     if ( argc < 2 )
     {
@@ -54,7 +54,7 @@ int main(INT argc, CHAR *argv[])
         goto CLEANUP;
     }
     
-    if ( InitCab(&amp;ccab) == FALSE )
+    if ( InitCab(&ccab) == FALSE )
     {
         printf("Failed to initialize the cabinet information structure.\n");
         goto CLEANUP;
@@ -62,7 +62,7 @@ int main(INT argc, CHAR *argv[])
 
     //Creates the FCI context
 
-    hfci = FCICreate(&amp;erf,              //pointer the FCI error structure
+    hfci = FCICreate(&erf,              //pointer the FCI error structure
                      fnFilePlaced,      //function to call when a file is placed
                      fnMemAlloc,        //function to allocate memory
                      fnMemFree,         //function to free memory
@@ -73,7 +73,7 @@ int main(INT argc, CHAR *argv[])
                      fnFileSeek,        //function to move the file pointer
                      fnFileDelete,      //function to delete a file
                      fnGetTempFileName, //function to obtain a temporary file name
-                     &amp;ccab,             //pointer to the FCI cabinet information structure
+                     &ccab,             //pointer to the FCI cabinet information structure
                      NULL);             //client context parameter, NULL for this sample.
 
     if ( hfci == NULL )

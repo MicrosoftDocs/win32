@@ -102,7 +102,7 @@ BOOL InstallWMRedist( BOOL fWaitForCompletion )
     if( !CreateProcess( _T("c:\\temp\\WMFDist.exe"), 
                         _T("c:\\temp\\WMFDist.exe /Q:A"), 
                         NULL, NULL, FALSE, 0, NULL, NULL, 
-                        &amp;StartUpInfo, &amp;ProcessInfo ) )
+                        &StartUpInfo, &ProcessInfo ) )
     {
         DWORD myError = GetLastError();
         return( FALSE );
@@ -116,7 +116,7 @@ BOOL InstallWMRedist( BOOL fWaitForCompletion )
         while( TRUE )
         {
             if( WAIT_TIMEOUT != WaitForMultipleObjects( 1, 
-                                       &amp;ProcessInfo.hProcess, 
+                                       &ProcessInfo.hProcess, 
                                        FALSE, TIME_INCREMENT ) )
                 break;
 
@@ -144,7 +144,7 @@ BOOL SystemNeedsReboot( void )
     OSVERSIONINFO osvi;
 
     osvi.dwOSVersionInfoSize = sizeof( OSVERSIONINFO );
-    GetVersionEx( &amp;osvi );
+    GetVersionEx( &osvi );
 
     if( VER_PLATFORM_WIN32_NT != osvi.dwPlatformId )
     {
@@ -172,7 +172,7 @@ BOOL SystemNeedsReboot( void )
             {
                 DWORD cbFileSize = GetFileSize(hFile, NULL);
 
-                if ((cbFileSize > 0) &amp;&amp; (cbFileSize != INVALID_FILE_SIZE))
+                if ((cbFileSize > 0) && (cbFileSize != INVALID_FILE_SIZE))
                 {
                     fNeedExists = TRUE;
                 }
@@ -186,7 +186,7 @@ BOOL SystemNeedsReboot( void )
 
         if( ERROR_SUCCESS == RegOpenKeyEx( HKEY_LOCAL_MACHINE, 
                 _T("System\\CurrentControlSet\\Control\\Session Manager"), 
-                 0, KEY_READ, &amp;hKey ) )
+                 0, KEY_READ, &hKey ) )
         {
             if( ERROR_SUCCESS == RegQueryValueEx( hKey, 
                 _T("PendingFileRenameOperations"), 

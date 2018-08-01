@@ -95,7 +95,7 @@ DWORD ConfigureIPsecTransportMode(
 
    // The CERT_INFO.Subject name blob is already in the format expected by
    // AuthIP.
-   memset(&amp;certRootConfig, 0, sizeof(certRootConfig));
+   memset(&certRootConfig, 0, sizeof(certRootConfig));
    certRootConfig.certData.size = rootCert->pCertInfo->Subject.cbData;
    certRootConfig.certData.data = rootCert->pCertInfo->Subject.pbData;
 
@@ -118,11 +118,11 @@ DWORD ConfigureIPsecTransportMode(
    mmAuthMethods[1].sslAuthentication.inboundConfigType =
       IKEEXT_CERT_CONFIG_EXPLICIT_TRUST_LIST;
    mmAuthMethods[1].sslAuthentication.inboundRootArraySize = 1;
-   mmAuthMethods[1].sslAuthentication.inboundRootArray = &amp;certRootConfig;
+   mmAuthMethods[1].sslAuthentication.inboundRootArray = &certRootConfig;
    mmAuthMethods[1].sslAuthentication.outboundConfigType =
       IKEEXT_CERT_CONFIG_EXPLICIT_TRUST_LIST;
    mmAuthMethods[1].sslAuthentication.outboundRootArraySize = 1;
-   mmAuthMethods[1].sslAuthentication.outboundRootArray = &amp;certRootConfig;
+   mmAuthMethods[1].sslAuthentication.outboundRootArray = &certRootConfig;
    // Disable CRL checks for test purposes. Consider enabling them in real use.
    mmAuthMethods[1].sslAuthentication.flags =
       IKEEXT_CERT_AUTH_FLAG_DISABLE_CRL_CHECK;
@@ -138,16 +138,16 @@ DWORD ConfigureIPsecTransportMode(
    mmProposals[1].integrityAlgorithm.algoIdentifier = IKEEXT_INTEGRITY_SHA1;
    mmProposals[1].maxLifetimeSeconds = 8 * 60 * 60;
 
-   memset(&amp;mmPolicy, 0, sizeof(mmPolicy));
+   memset(&mmPolicy, 0, sizeof(mmPolicy));
    mmPolicy.numAuthenticationMethods = ARRAYSIZE(mmAuthMethods);
    mmPolicy.authenticationMethods = mmAuthMethods;
    mmPolicy.numIkeProposals = ARRAYSIZE(mmProposals);
    mmPolicy.ikeProposals = mmProposals;
 
-   memset(&amp;provCtxt, 0, sizeof(provCtxt));
+   memset(&provCtxt, 0, sizeof(provCtxt));
    // We have to assign the key ourselves since we will need it when adding the
    // filters that reference this provider context.
-   result = UuidCreate(&amp;(provCtxt.providerContextKey));
+   result = UuidCreate(&(provCtxt.providerContextKey));
    EXIT_ON_ERROR(UuidCreate);
    // For MUI compatibility, object names should be indirect strings. See
    // SHLoadIndirectString for details.
@@ -156,17 +156,17 @@ DWORD ConfigureIPsecTransportMode(
    // installed on a computer, this makes it easy to determine who added what.
    provCtxt.providerKey = (GUID*)providerKey;
    provCtxt.type = FWPM_IPSEC_AUTHIP_MM_CONTEXT;
-   provCtxt.authIpMmPolicy = &amp;mmPolicy;
+   provCtxt.authIpMmPolicy = &mmPolicy;
 
    // Add the main mode policy.
-   result = FwpmProviderContextAdd0(engine, &amp;provCtxt, NULL, NULL);
+   result = FwpmProviderContextAdd0(engine, &provCtxt, NULL, NULL);
    EXIT_ON_ERROR(FwpmProviderContextAdd0);
 
    // Add filters referencing the policy to the IKEEXT policy layers. 
    // We could also add remote address conditions to the filters to 
    // limit which machines or subnets are protected. Note that we use the same 
    // main mode policy for both IPv4 and IPv6.
-   memset(&amp;filter, 0, sizeof(filter));
+   memset(&filter, 0, sizeof(filter));
    filter.displayData.name = (PWSTR)policyName;
    filter.flags = FWPM_FILTER_FLAG_HAS_PROVIDER_CONTEXT;
    filter.providerKey = (GUID*)providerKey;
@@ -175,20 +175,20 @@ DWORD ConfigureIPsecTransportMode(
    filter.providerContextKey = provCtxt.providerContextKey;
 
    filter.layerKey = FWPM_LAYER_IKEEXT_V4;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    filter.layerKey = FWPM_LAYER_IKEEXT_V6;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    // Allow two extended mode authentication methods: Kerberos for
    // domain-joined machines and NTLMv2 for non-joined machines.
-   memset(&amp;emAuthMethods, 0, sizeof(emAuthMethods));
+   memset(&emAuthMethods, 0, sizeof(emAuthMethods));
    emAuthMethods[0].authenticationMethodType = IKEEXT_KERBEROS;
    emAuthMethods[1].authenticationMethodType = IKEEXT_NTLM_V2;
 
-   memset(&amp;emPolicy, 0, sizeof(emPolicy));
+   memset(&emPolicy, 0, sizeof(emPolicy));
    emPolicy.numAuthenticationMethods = ARRAYSIZE(emAuthMethods);
    emPolicy.authenticationMethods = emAuthMethods;
    emPolicy.initiatorImpersonationType = IKEEXT_IMPERSONATION_SOCKET_PRINCIPAL;
@@ -197,54 +197,54 @@ DWORD ConfigureIPsecTransportMode(
 
    // First QM proposal is AH. This is preferable to ESP auth since 
    // more routers are capable of parsing AH.
-   memset(&amp;qmTransform00, 0, sizeof(qmTransform00));
+   memset(&qmTransform00, 0, sizeof(qmTransform00));
    qmTransform00.authTransformId = IPSEC_AUTH_TRANSFORM_ID_HMAC_SHA_1_96;
    memset(qmTransforms0, 0, sizeof(qmTransforms0));
    qmTransforms0[0].ipsecTransformType = IPSEC_TRANSFORM_AH;
-   qmTransforms0[0].ahTransform = &amp;qmTransform00;
+   qmTransforms0[0].ahTransform = &qmTransform00;
    qmProposals[0].lifetime = qmLifetime;
    qmProposals[0].numSaTransforms = ARRAYSIZE(qmTransforms0);
    qmProposals[0].saTransforms = qmTransforms0;
 
    // Second QM proposal is ESP auth. This might be necessary for NAT
    // traversal.
-   memset(&amp;qmTransform10, 0, sizeof(qmTransform10));
+   memset(&qmTransform10, 0, sizeof(qmTransform10));
    qmTransform10.authTransformId = IPSEC_AUTH_TRANSFORM_ID_HMAC_SHA_1_96;
-   memset(&amp;qmTransforms1, 0, sizeof(qmTransforms1));
+   memset(&qmTransforms1, 0, sizeof(qmTransforms1));
    qmTransforms1[0].ipsecTransformType = IPSEC_TRANSFORM_ESP_AUTH;
-   qmTransforms1[0].espAuthTranform = &amp;qmTransform10;
+   qmTransforms1[0].espAuthTranform = &qmTransform10;
    qmProposals[1].lifetime = qmLifetime;
    qmProposals[1].numSaTransforms = ARRAYSIZE(qmTransforms1);
    qmProposals[1].saTransforms = qmTransforms1;
 
    // Third QM proposal is ESP auth and cipher using AES-128. This will
    // allow remote peers to require encryption if necessary.
-   memset(&amp;qmTransform20, 0, sizeof(qmTransform20));
+   memset(&qmTransform20, 0, sizeof(qmTransform20));
    qmTransform20.authTransform.authTransformId =
       IPSEC_AUTH_TRANSFORM_ID_HMAC_SHA_1_96;
    qmTransform20.cipherTransform.cipherTransformId =
       IPSEC_CIPHER_TRANSFORM_ID_AES_128;
-   memset(&amp;qmTransforms2, 0, sizeof(qmTransforms2));
+   memset(&qmTransforms2, 0, sizeof(qmTransforms2));
    qmTransforms2[0].ipsecTransformType = IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER;
-   qmTransforms2[0].espAuthAndCipherTransform = &amp;qmTransform20;
+   qmTransforms2[0].espAuthAndCipherTransform = &qmTransform20;
    qmProposals[2].lifetime = qmLifetime;
    qmProposals[2].numSaTransforms = ARRAYSIZE(qmTransforms2);
    qmProposals[2].saTransforms = qmTransforms2;
 
    // Fourth QM proposal allows fallback to 3DES for perf reasons.
-   memset(&amp;qmTransform30, 0, sizeof(qmTransform30));
+   memset(&qmTransform30, 0, sizeof(qmTransform30));
    qmTransform30.authTransform.authTransformId =
       IPSEC_AUTH_TRANSFORM_ID_HMAC_SHA_1_96;
    qmTransform30.cipherTransform.cipherTransformId =
       IPSEC_CIPHER_TRANSFORM_ID_CBC_3DES;
-   memset(&amp;qmTransforms3, 0, sizeof(qmTransforms3));
+   memset(&qmTransforms3, 0, sizeof(qmTransforms3));
    qmTransforms3[0].ipsecTransformType = IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER;
-   qmTransforms3[0].espAuthAndCipherTransform = &amp;qmTransform30;
+   qmTransforms3[0].espAuthAndCipherTransform = &qmTransform30;
    qmProposals[3].lifetime = qmLifetime;
    qmProposals[3].numSaTransforms = ARRAYSIZE(qmTransforms3);
    qmProposals[3].saTransforms = qmTransforms3;
 
-   memset(&amp;qmPolicy, 0, sizeof(qmPolicy));
+   memset(&qmPolicy, 0, sizeof(qmPolicy));
    qmPolicy.numIpsecProposals = ARRAYSIZE(qmProposals);
    qmPolicy.ipsecProposals = qmProposals;
    // Set ND_SECURE since we require IPsec for all inbound connections.
@@ -254,25 +254,25 @@ DWORD ConfigureIPsecTransportMode(
    qmPolicy.ndAllowClearTimeoutSeconds = 10;
    qmPolicy.saIdleTimeout.idleTimeoutSeconds = 300;
    qmPolicy.saIdleTimeout.idleTimeoutSecondsFailOver = 60;
-   qmPolicy.emPolicy = &amp;emPolicy;
+   qmPolicy.emPolicy = &emPolicy;
 
-   memset(&amp;provCtxt, 0, sizeof(provCtxt));
-   result = UuidCreate(&amp;(provCtxt.providerContextKey));
+   memset(&provCtxt, 0, sizeof(provCtxt));
+   result = UuidCreate(&(provCtxt.providerContextKey));
    EXIT_ON_ERROR(UuidCreate);
    provCtxt.displayData.name = (PWSTR)policyName;
    provCtxt.providerKey = (GUID*)providerKey;
    provCtxt.type = FWPM_IPSEC_AUTHIP_QM_TRANSPORT_CONTEXT;
-   provCtxt.authipQmTransportPolicy = &amp;qmPolicy;
+   provCtxt.authipQmTransportPolicy = &qmPolicy;
 
    // Add the main mode policy.
-   result = FwpmProviderContextAdd0(engine, &amp;provCtxt, NULL, NULL);
+   result = FwpmProviderContextAdd0(engine, &provCtxt, NULL, NULL);
    EXIT_ON_ERROR(FwpmProviderContextAdd0);
 
    // Add filters referencing the policy to the IPsec policy layers.
    // As above, we could also add remote address conditions to the 
    // filters to limit which machines or subnets are protected. 
    // Note that we use the same quick mode policy for both IPv4 and IPv6.
-   memset(&amp;filter, 0, sizeof(filter));
+   memset(&filter, 0, sizeof(filter));
    filter.displayData.name = (PWSTR)policyName;
    filter.flags = FWPM_FILTER_FLAG_HAS_PROVIDER_CONTEXT;
    filter.providerKey = (GUID*)providerKey;
@@ -280,11 +280,11 @@ DWORD ConfigureIPsecTransportMode(
    filter.providerContextKey = provCtxt.providerContextKey;
 
    filter.layerKey = FWPM_LAYER_IPSEC_V4;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    filter.layerKey = FWPM_LAYER_IPSEC_V6;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    // We only protect unicast traffic.
@@ -295,7 +295,7 @@ DWORD ConfigureIPsecTransportMode(
    filterConditions[0].conditionValue.uint8 = NlatUnicast;
 
    // Fields common to all transport and ALE IPsec callout filters.
-   memset(&amp;filter, 0, sizeof(filter));
+   memset(&filter, 0, sizeof(filter));
    filter.displayData.name = (PWSTR)policyName;
    filter.providerKey = (GUID*)providerKey;
    filter.action.type = FWP_ACTION_CALLOUT_TERMINATING;
@@ -306,37 +306,37 @@ DWORD ConfigureIPsecTransportMode(
    filter.layerKey = FWPM_LAYER_OUTBOUND_TRANSPORT_V4;
    filter.action.calloutKey = FWPM_CALLOUT_IPSEC_OUTBOUND_TRANSPORT_V4;
    filter.rawContext = FWPM_CONTEXT_IPSEC_OUTBOUND_NEGOTIATE_DISCOVER;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    filter.layerKey = FWPM_LAYER_OUTBOUND_TRANSPORT_V6;
    filter.action.calloutKey = FWPM_CALLOUT_IPSEC_OUTBOUND_TRANSPORT_V6;
    filter.rawContext = FWPM_CONTEXT_IPSEC_OUTBOUND_NEGOTIATE_DISCOVER;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    filter.layerKey = FWPM_LAYER_INBOUND_TRANSPORT_V4;
    filter.action.calloutKey = FWPM_CALLOUT_IPSEC_INBOUND_TRANSPORT_V4;
    filter.rawContext = FWPM_CONTEXT_IPSEC_INBOUND_PERSIST_CONNECTION_SECURITY;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    filter.layerKey = FWPM_LAYER_INBOUND_TRANSPORT_V6;
    filter.action.calloutKey = FWPM_CALLOUT_IPSEC_INBOUND_TRANSPORT_V6;
    filter.rawContext = FWPM_CONTEXT_IPSEC_INBOUND_PERSIST_CONNECTION_SECURITY;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    filter.layerKey = FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4;
    filter.action.calloutKey = FWPM_CALLOUT_IPSEC_INBOUND_INITIATE_SECURE_V4;
    filter.rawContext = FWPM_CONTEXT_IPSEC_INBOUND_PERSIST_CONNECTION_SECURITY;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    filter.layerKey = FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6;
    filter.action.calloutKey = FWPM_CALLOUT_IPSEC_INBOUND_INITIATE_SECURE_V6;
    filter.rawContext = FWPM_CONTEXT_IPSEC_INBOUND_PERSIST_CONNECTION_SECURITY;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    // Next we'll add filters to exempt ICMP traffic.
@@ -345,7 +345,7 @@ DWORD ConfigureIPsecTransportMode(
    filterConditions[1].conditionValue.type = FWP_UINT8;
    filterConditions[1].conditionValue.uint8 = IPPROTO_ICMP;
 
-   memset(&amp;filter, 0, sizeof(filter));
+   memset(&filter, 0, sizeof(filter));
    filter.displayData.name = (PWSTR)policyName;
    filter.providerKey = (GUID*)providerKey;
    filter.weight.type = FWP_UINT8;
@@ -358,29 +358,29 @@ DWORD ConfigureIPsecTransportMode(
    filter.action.type = FWP_ACTION_PERMIT;
 
    filter.layerKey = FWPM_LAYER_OUTBOUND_TRANSPORT_V4;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    filter.layerKey = FWPM_LAYER_INBOUND_TRANSPORT_V4;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    filter.layerKey = FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    filterConditions[1].conditionValue.uint8 = IPPROTO_ICMPV6;
 
    filter.layerKey = FWPM_LAYER_OUTBOUND_TRANSPORT_V6;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    filter.layerKey = FWPM_LAYER_INBOUND_TRANSPORT_V6;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    filter.layerKey = FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6;
-   result = FwpmFilterAdd0(engine, &amp;filter, NULL, NULL);
+   result = FwpmFilterAdd0(engine, &filter, NULL, NULL);
    EXIT_ON_ERROR(FwpmFilterAdd0);
 
    // Once all the adds have succeeded, we commit the transaction to 

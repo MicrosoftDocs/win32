@@ -48,7 +48,7 @@ void wmain(int argc, WCHAR **argv)
     }
 
     // Open a query object.
-    pdhStatus = PdhOpenQuery(NULL, 0, &amp;hQuery);
+    pdhStatus = PdhOpenQuery(NULL, 0, &hQuery);
 
     if (pdhStatus != ERROR_SUCCESS)
     {
@@ -60,7 +60,7 @@ void wmain(int argc, WCHAR **argv)
     pdhStatus = PdhAddCounter(hQuery,
         COUNTER_PATH,
         0,
-        &amp;hCounter);
+        &hCounter);
 
     if (pdhStatus != ERROR_SUCCESS)
     {
@@ -71,11 +71,11 @@ void wmain(int argc, WCHAR **argv)
     // Open the log file for write access.
     pdhStatus = PdhOpenLog(argv[1], 
         PDH_LOG_WRITE_ACCESS | PDH_LOG_CREATE_ALWAYS,
-        &amp;dwLogType,
+        &dwLogType,
         hQuery,
         0, 
         NULL,
-        &amp;hLog);
+        &hLog);
 
     if (pdhStatus != ERROR_SUCCESS)
     {

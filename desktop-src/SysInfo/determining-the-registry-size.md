@@ -59,7 +59,7 @@ int _tmain( int argc, TCHAR *argv[] )
         szMachineName = argv[1];
 
     // Get the registry size.
-    pdhStatus=GetRegistrySize(szMachineName, &amp;dwCurrent, &amp;dwMaximum);
+    pdhStatus=GetRegistrySize(szMachineName, &dwCurrent, &dwMaximum);
 
     // Print the results.
     if ( pdhStatus == ERROR_SUCCESS ) 
@@ -123,7 +123,7 @@ PDH_STATUS GetRegistrySize( LPTSTR szMachineName,
     DWORD       dwType      = 0;
 
     // Open PDH query
-    pdhResult = PdhOpenQuery( NULL, 0, &amp;hQuery );
+    pdhResult = PdhOpenQuery( NULL, 0, &hQuery );
     if ( pdhResult != ERROR_SUCCESS )
         return pdhResult;
 
@@ -137,13 +137,13 @@ PDH_STATUS GetRegistrySize( LPTSTR szMachineName,
         pe.dwInstanceIndex   = 1;
         pe.szCounterName     = TEXT("% Registry Quota In Use");
 
-        pdhResult = PdhMakeCounterPath( &amp;pe, szCounterPath, 
-            &amp;dwPathSize, 0 );
+        pdhResult = PdhMakeCounterPath( &pe, szCounterPath, 
+            &dwPathSize, 0 );
         if ( pdhResult != ERROR_SUCCESS )
             __leave;
 
         // Add the counter to the query
-        pdhResult=PdhAddCounter(hQuery, szCounterPath, 0, &amp;hCounter);
+        pdhResult=PdhAddCounter(hQuery, szCounterPath, 0, &hCounter);
         if ( pdhResult != ERROR_SUCCESS ) 
             __leave;
 
@@ -155,9 +155,9 @@ PDH_STATUS GetRegistrySize( LPTSTR szMachineName,
         // Retrieve the raw counter data:
         //    The dividend (FirstValue) is the current registry size
         //    The divisor (SecondValue) is the maximum registry size
-        ZeroMemory( &amp;pdhRawValues, sizeof(pdhRawValues) );
-        pdhResult = PdhGetRawCounterValue( hCounter, &amp;dwType,
-            &amp;pdhRawValues );
+        ZeroMemory( &pdhRawValues, sizeof(pdhRawValues) );
+        pdhResult = PdhGetRawCounterValue( hCounter, &dwType,
+            &pdhRawValues );
         if ( pdhResult != ERROR_SUCCESS )
             __leave;
 

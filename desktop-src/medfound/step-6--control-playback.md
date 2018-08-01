@@ -34,9 +34,9 @@ HRESULT CPlayer::StartPlayback()
     assert(m_pSession != NULL);
 
     PROPVARIANT varStart;
-    PropVariantInit(&amp;varStart);
+    PropVariantInit(&varStart);
 
-    HRESULT hr = m_pSession->Start(&amp;GUID_NULL, &amp;varStart);
+    HRESULT hr = m_pSession->Start(&GUID_NULL, &varStart);
     if (SUCCEEDED(hr))
     {
         // Note: Start is an asynchronous operation. However, we
@@ -45,14 +45,14 @@ HRESULT CPlayer::StartPlayback()
         // an error code, and we will update our state then.
         m_state = Started;
     }
-    PropVariantClear(&amp;varStart);
+    PropVariantClear(&varStart);
     return hr;
 }
 
 //  Start playback from paused or stopped.
 HRESULT CPlayer::Play()
 {
-    if (m_state != Paused &amp;&amp; m_state != Stopped)
+    if (m_state != Paused && m_state != Stopped)
     {
         return MF_E_INVALIDREQUEST;
     }
@@ -108,7 +108,7 @@ To stop playback, call [**IMFMediaSession::Stop**](/windows/desktop/api/mfidl/nf
 // Stop playback.
 HRESULT CPlayer::Stop()
 {
-    if (m_state != Started &amp;&amp; m_state != Paused)
+    if (m_state != Started && m_state != Paused)
     {
         return MF_E_INVALIDREQUEST;
     }
@@ -159,9 +159,9 @@ The following code shows the handler for the [**WM\_PAINT**](https://msdn.micros
 void OnPaint(HWND hwnd)
 {
     PAINTSTRUCT ps;
-    HDC hdc = BeginPaint(hwnd, &amp;ps);
+    HDC hdc = BeginPaint(hwnd, &ps);
 
-    if (g_pPlayer &amp;&amp; g_pPlayer->HasVideo())
+    if (g_pPlayer && g_pPlayer->HasVideo())
     {
         // Video is playing. Ask the player to repaint.
         g_pPlayer->Repaint();
@@ -170,10 +170,10 @@ void OnPaint(HWND hwnd)
     {
         // The video is not playing, so we must paint the application window.
         RECT rc;
-        GetClientRect(hwnd, &amp;rc);
-        FillRect(hdc, &amp;rc, (HBRUSH) COLOR_WINDOW);
+        GetClientRect(hwnd, &rc);
+        FillRect(hdc, &rc, (HBRUSH) COLOR_WINDOW);
     }
-    EndPaint(hwnd, &amp;ps);
+    EndPaint(hwnd, &ps);
 }
 ```
 
@@ -207,7 +207,7 @@ HRESULT CPlayer::ResizeVideo(WORD width, WORD height)
 
         RECT rcDest = { 0, 0, width, height };
 
-        return m_pVideoDisplay->SetVideoPosition(NULL, &amp;rcDest);
+        return m_pVideoDisplay->SetVideoPosition(NULL, &rcDest);
     }
     else
     {

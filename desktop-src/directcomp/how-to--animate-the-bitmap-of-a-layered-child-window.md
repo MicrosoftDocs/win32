@@ -66,7 +66,7 @@ Use the following steps to create a layered child window.
     wcex.lpszClassName  = L&quot;DCompLayeredChildWindow&quot;;
     wcex.hIconSm        = NULL;
 
-    if (!RegisterClassExW(&amp;wcex))
+    if (!RegisterClassExW(&wcex))
     {
         return FALSE;
     }
@@ -122,10 +122,10 @@ The following example creates a visual object, sets its Content property to use 
 IDCompositionVisual *pVisual = nullptr;
 IUnknown* pSurface    = nullptr;
 
-hr = m_pDevice->CreateVisual(&amp;pVisual);
+hr = m_pDevice->CreateVisual(&pVisual);
 if (SUCCEEDED(hr))
 {
-    hr = m_pDevice->CreateSurfaceFromHwnd(m_hwndLayeredChild, &amp;pSurface);
+    hr = m_pDevice->CreateSurfaceFromHwnd(m_hwndLayeredChild, &pSurface);
 }
 
 if (SUCCEEDED(hr))
@@ -152,13 +152,13 @@ IDCompositionScaleTransform *pScale = NULL;
 
 if (SUCCEEDED(hr))
 {
-    hr = m_pDevice->CreateAnimation(&amp;pAnimateScale);
+    hr = m_pDevice->CreateAnimation(&pAnimateScale);
 }
 
 if (SUCCEEDED(hr))
 {
     // Create the scale transform object.
-    hr = m_pDevice->CreateScaleTransform(&amp;pScale);
+    hr = m_pDevice->CreateScaleTransform(&pScale);
 }
 ```
 
@@ -191,7 +191,7 @@ Use the [**IDCompositionScale::SetScaleX**](https://msdn.microsoft.com/en-us/lib
 ```C++
 // Find the center of the child window.
 RECT rcChild = { };
-GetClientRect(m_hwndLayeredChild, &amp;rcChild);
+GetClientRect(m_hwndLayeredChild, &rcChild);
 float centerX = rcChild.right / 2.0f;
 float centerY = rcChild.bottom / 2.0f;
 
@@ -227,7 +227,7 @@ Before committing the animation, use the [**DwmSetWindowAttribute**](https://msd
 BOOL fCloak = TRUE;
 DwmSetWindowAttribute(pDemoApp->m_hwndLayeredChild,
     DWMWA_CLOAK,
-    &amp;fCloak,
+    &fCloak,
     sizeof(fCloak));
 ```
 
@@ -247,9 +247,9 @@ Be sure to release all DirectComposition objects when you no longer need them. T
 
 
 ```C++
-SafeRelease(&amp;pVisual);
-SafeRelease(&amp;pAnimateScale);
-SafeRelease(&amp;pScale);
+SafeRelease(&pVisual);
+SafeRelease(&pAnimateScale);
+SafeRelease(&pScale);
 ```
 
 <span codelanguage="ManagedCPlusPlus"></span>
@@ -265,8 +265,8 @@ SafeRelease(&amp;pScale);
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>SafeRelease(&amp;m_pDevice);
-SafeRelease(&amp;m_pCompTarget);</code></pre></td>
+<td><pre><code>SafeRelease(&m_pDevice);
+SafeRelease(&m_pCompTarget);</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -343,7 +343,7 @@ SafeRelease(
 
 #ifndef HINST_THISCOMPONENT
 EXTERN_C IMAGE_DOS_HEADER __ImageBase;
-#define HINST_THISCOMPONENT ((HINSTANCE)&amp;__ImageBase)
+#define HINST_THISCOMPONENT ((HINSTANCE)&__ImageBase)
 #endif
 
 /******************************************************************
@@ -466,7 +466,7 @@ int WINAPI WinMain(
         {
             DemoApp app;
 
-            if (SUCCEEDED(app.InitializeMainWindow()) &amp;&amp; SUCCEEDED(app.InitializeLayeredChildWindow()))
+            if (SUCCEEDED(app.InitializeMainWindow()) && SUCCEEDED(app.InitializeLayeredChildWindow()))
             {
                 app.RunMessageLoop();
             }
@@ -509,12 +509,12 @@ DemoApp::DemoApp() :
 
 DemoApp::~DemoApp()
 {
-    SafeRelease(&amp;m_pDevice);
-    SafeRelease(&amp;m_pCompTarget);
-    SafeRelease(&amp;m_pRenderTarget);
-    SafeRelease(&amp;m_pBitmap),
-    SafeRelease(&amp;m_pD2DFactory);
-    SafeRelease(&amp;m_pWICFactory);
+    SafeRelease(&m_pDevice);
+    SafeRelease(&m_pCompTarget);
+    SafeRelease(&m_pRenderTarget);
+    SafeRelease(&m_pBitmap),
+    SafeRelease(&m_pD2DFactory);
+    SafeRelease(&m_pWICFactory);
 }
 
 /*******************************************************************
@@ -544,11 +544,11 @@ HRESULT DemoApp::InitializeMainWindow()
         wcex.hCursor       = LoadCursor(NULL, IDC_ARROW);
         wcex.lpszClassName = L&quot;DirectCompDemoApp&quot;;
 
-        RegisterClassEx(&amp;wcex);
+        RegisterClassEx(&wcex);
 
         RECT rect = { };
-        SetRect(&amp;rect, 0, 0, 640, 480);
-        AdjustWindowRect(&amp;rect, WS_OVERLAPPED | WS_SYSMENU, FALSE); 
+        SetRect(&rect, 0, 0, 640, 480);
+        AdjustWindowRect(&rect, WS_OVERLAPPED | WS_SYSMENU, FALSE); 
 
         // Create the main application window.
         //
@@ -624,7 +624,7 @@ HRESULT DemoApp::InitializeLayeredChildWindow()
     wcex.lpszClassName  = L&quot;DCompLayeredChildWindow&quot;;
     wcex.hIconSm        = NULL;
     
-    if (!RegisterClassExW(&amp;wcex))
+    if (!RegisterClassExW(&wcex))
     {
         return FALSE;
     }
@@ -686,12 +686,12 @@ HRESULT DemoApp::InitializeDirectCompositionObjects()
 
     // Create a DirectComposition device object. 
     hr = DCompositionCreateDevice(nullptr, __uuidof(IDCompositionDevice), 
-        reinterpret_cast&lt;void**&gt;(&amp;m_pDevice));
+        reinterpret_cast&lt;void**&gt;(&m_pDevice));
 
     if (SUCCEEDED(hr))
     {
         // Create the composition target object.
-        hr = m_pDevice-&gt;CreateTargetForHwnd(m_hwndMain, TRUE, &amp;m_pCompTarget);   
+        hr = m_pDevice-&gt;CreateTargetForHwnd(m_hwndMain, TRUE, &m_pCompTarget);   
     }
 
     return hr;
@@ -712,7 +712,7 @@ HRESULT DemoApp::CreateDeviceIndependentResources()
         CLSID_WICImagingFactory,
         NULL,
         CLSCTX_INPROC_SERVER,
-        IID_PPV_ARGS(&amp;m_pWICFactory)
+        IID_PPV_ARGS(&m_pWICFactory)
         );
 
     if (SUCCEEDED(hr))
@@ -720,7 +720,7 @@ HRESULT DemoApp::CreateDeviceIndependentResources()
         // Create a Direct2D factory.
         hr = D2D1CreateFactory(
             D2D1_FACTORY_TYPE_SINGLE_THREADED,
-            &amp;m_pD2DFactory
+            &m_pD2DFactory
             );
     }
 
@@ -739,7 +739,7 @@ HRESULT DemoApp::CreateDeviceResources()
     HRESULT hr = S_OK;
 
     RECT rc;
-    GetClientRect(m_hwndLayeredChild, &amp;rc);
+    GetClientRect(m_hwndLayeredChild, &rc);
 
     D2D1_SIZE_U size = D2D1::SizeU(
         rc.right - rc.left,
@@ -750,7 +750,7 @@ HRESULT DemoApp::CreateDeviceResources()
     hr = m_pD2DFactory-&gt;CreateHwndRenderTarget(
         D2D1::RenderTargetProperties(),
         D2D1::HwndRenderTargetProperties(m_hwndLayeredChild, size),
-        &amp;m_pRenderTarget
+        &m_pRenderTarget
         );
 
     if (SUCCEEDED(hr))
@@ -760,7 +760,7 @@ HRESULT DemoApp::CreateDeviceResources()
             m_pWICFactory,
             L&quot;WhiteFlowers&quot;,
             L&quot;Image&quot;,
-            &amp;m_pBitmap
+            &m_pBitmap
             );
     }
 
@@ -775,8 +775,8 @@ HRESULT DemoApp::CreateDeviceResources()
 
 void DemoApp::DiscardDeviceResources()
 {
-    SafeRelease(&amp;m_pRenderTarget);
-    SafeRelease(&amp;m_pBitmap);
+    SafeRelease(&m_pRenderTarget);
+    SafeRelease(&m_pBitmap);
 }
 
 /******************************************************************
@@ -789,10 +789,10 @@ void DemoApp::RunMessageLoop()
 {
     MSG msg;
 
-    while (GetMessage(&amp;msg, NULL, 0, 0))
+    while (GetMessage(&msg, NULL, 0, 0))
     {
-        TranslateMessage(&amp;msg);
-        DispatchMessage(&amp;msg);
+        TranslateMessage(&msg);
+        DispatchMessage(&msg);
     }
 }
 
@@ -935,7 +935,7 @@ LRESULT CALLBACK DemoApp::ChildWndProc(HWND hwnd, UINT message,
                         BOOL fCloak = TRUE;
                         DwmSetWindowAttribute(pDemoApp-&gt;m_hwndLayeredChild,
                             DWMWA_CLOAK,
-                            &amp;fCloak,
+                            &fCloak,
                             sizeof(fCloak));
 
                         pDemoApp-&gt;OnChildClick();
@@ -952,7 +952,7 @@ LRESULT CALLBACK DemoApp::ChildWndProc(HWND hwnd, UINT message,
                     BOOL fCloak = FALSE;
                     DwmSetWindowAttribute(pDemoApp-&gt;m_hwndLayeredChild,
                         DWMWA_CLOAK,
-                        &amp;fCloak,
+                        &fCloak,
                         sizeof(fCloak)); 
                     KillTimer(pDemoApp-&gt;m_hwndLayeredChild, TIMER_ID);
                 }
@@ -1020,10 +1020,10 @@ HRESULT DemoApp::OnChildClick()
     IDCompositionVisual *pVisual = nullptr;
     IUnknown* pSurface    = nullptr;
 
-    hr = m_pDevice-&gt;CreateVisual(&amp;pVisual);
+    hr = m_pDevice-&gt;CreateVisual(&pVisual);
     if (SUCCEEDED(hr))
     {
-        hr = m_pDevice-&gt;CreateSurfaceFromHwnd(m_hwndLayeredChild, &amp;pSurface);
+        hr = m_pDevice-&gt;CreateSurfaceFromHwnd(m_hwndLayeredChild, &pSurface);
     }
 
     if (SUCCEEDED(hr))
@@ -1054,10 +1054,10 @@ HRESULT DemoApp::OnChildClick()
     if (SUCCEEDED(hr))
     {
         // Create the animation objects.
-        hr = m_pDevice-&gt;CreateAnimation(&amp;pAnimateX);
+        hr = m_pDevice-&gt;CreateAnimation(&pAnimateX);
         if (SUCCEEDED(hr))
         {
-            hr = m_pDevice-&gt;CreateAnimation(&amp;pAnimateY);
+            hr = m_pDevice-&gt;CreateAnimation(&pAnimateY);
         }
     }
 
@@ -1066,13 +1066,13 @@ HRESULT DemoApp::OnChildClick()
 
     if (SUCCEEDED(hr))
     {
-        hr = m_pDevice-&gt;CreateAnimation(&amp;pAnimateScale);
+        hr = m_pDevice-&gt;CreateAnimation(&pAnimateScale);
     }
 
     if (SUCCEEDED(hr))
     {
         // Create the scale transform object.
-        hr = m_pDevice-&gt;CreateScaleTransform(&amp;pScale);
+        hr = m_pDevice-&gt;CreateScaleTransform(&pScale);
     }
 
     if (SUCCEEDED(hr))
@@ -1081,8 +1081,8 @@ HRESULT DemoApp::OnChildClick()
         // in the center of the main window&#39;s client area.
         RECT rcParent = { };
         RECT rcChild = { };
-        GetClientRect(m_hwndMain, &amp;rcParent);
-        GetClientRect(m_hwndLayeredChild, &amp;rcChild);
+        GetClientRect(m_hwndMain, &rcParent);
+        GetClientRect(m_hwndLayeredChild, &rcChild);
         float endValX = rcParent.right / 2.0f - rcChild.right / 2.0f;
         float endValY = rcParent.bottom / 2.0f - rcChild.bottom / 2.0f;
  
@@ -1142,7 +1142,7 @@ HRESULT DemoApp::OnChildClick()
 
         // Find the center of the child window.
         RECT rcChild = { };
-        GetClientRect(m_hwndLayeredChild, &amp;rcChild);
+        GetClientRect(m_hwndLayeredChild, &rcChild);
         float centerX = rcChild.right / 2.0f;
         float centerY = rcChild.bottom / 2.0f;
 
@@ -1169,11 +1169,11 @@ HRESULT DemoApp::OnChildClick()
         SetTimer(m_hwndLayeredChild, TIMER_ID, 1000, NULL);
     }
 
-    SafeRelease(&amp;pAnimateX);
-    SafeRelease(&amp;pAnimateY);
-    SafeRelease(&amp;pVisual);
-    SafeRelease(&amp;pAnimateScale);
-    SafeRelease(&amp;pScale);
+    SafeRelease(&pAnimateX);
+    SafeRelease(&pAnimateY);
+    SafeRelease(&pVisual);
+    SafeRelease(&pAnimateScale);
+    SafeRelease(&pScale);
     
     return hr;
 }
@@ -1236,7 +1236,7 @@ HRESULT DemoApp::LoadResourceD2DBitmap(
     if (SUCCEEDED(hr))
     {
         // Create a WIC stream to map onto the memory.
-        hr = pIWICFactory-&gt;CreateStream(&amp;pStream);
+        hr = pIWICFactory-&gt;CreateStream(&pStream);
     }
 
     if (SUCCEEDED(hr))
@@ -1255,21 +1255,21 @@ HRESULT DemoApp::LoadResourceD2DBitmap(
             pStream,
             NULL,
             WICDecodeMetadataCacheOnLoad,
-            &amp;pDecoder
+            &pDecoder
             );
     }
 
     if (SUCCEEDED(hr))
     {
         // Create the initial frame.
-        hr = pDecoder-&gt;GetFrame(0, &amp;pSource);
+        hr = pDecoder-&gt;GetFrame(0, &pSource);
     }
 
     if (SUCCEEDED(hr))
     {
         // Convert the image format to 32bppPBGRA
         // (DXGI_FORMAT_B8G8R8A8_UNORM + D2D1_ALPHA_MODE_PREMULTIPLIED).
-        hr = pIWICFactory-&gt;CreateFormatConverter(&amp;pConverter);
+        hr = pIWICFactory-&gt;CreateFormatConverter(&pConverter);
     }
 
     if (SUCCEEDED(hr))
@@ -1294,10 +1294,10 @@ HRESULT DemoApp::LoadResourceD2DBitmap(
             );
     }
 
-    SafeRelease(&amp;pDecoder);
-    SafeRelease(&amp;pSource);
-    SafeRelease(&amp;pStream);
-    SafeRelease(&amp;pConverter);
+    SafeRelease(&pDecoder);
+    SafeRelease(&pSource);
+    SafeRelease(&pStream);
+    SafeRelease(&pConverter);
 
     return hr;
 }</code></pre></td>

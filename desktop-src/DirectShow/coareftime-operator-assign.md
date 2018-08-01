@@ -29,8 +29,8 @@ This operator assigns a new reference time.
 
 
 ```C++
-COARefTime&amp; operator=(
-  [ref] const double &amp;rd
+COARefTime& operator=(
+  [ref] const double &rd
 );
 ```
 

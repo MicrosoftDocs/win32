@@ -29,8 +29,8 @@ This operator subtracts one reference time from another, and sets this object to
 
 
 ```C++
-COARefTime&amp; operator-=(
-  [ref] const COARefTime &amp;rt
+COARefTime& operator-=(
+  [ref] const COARefTime &rt
 );
 ```
 

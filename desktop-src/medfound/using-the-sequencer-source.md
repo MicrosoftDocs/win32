@@ -61,13 +61,13 @@ HRESULT CPlaylist::QueueNextSegment(IMFPresentationDescriptor *pPD)
     IMFTopology *pTopology = NULL;
 
     //Get the topology for the presentation descriptor
-    HRESULT hr = m_pSequencerSource->QueryInterface(IID_PPV_ARGS(&amp;pTopoProvider));
+    HRESULT hr = m_pSequencerSource->QueryInterface(IID_PPV_ARGS(&pTopoProvider));
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pTopoProvider->GetMediaSourceTopology(pPD, &amp;pTopology);
+    hr = pTopoProvider->GetMediaSourceTopology(pPD, &pTopology);
     if (FAILED(hr))
     {
         goto done;
@@ -77,8 +77,8 @@ HRESULT CPlaylist::QueueNextSegment(IMFPresentationDescriptor *pPD)
     m_pSession->SetTopology(NULL, pTopology);
 
 done:
-    SafeRelease(&amp;pTopoProvider);
-    SafeRelease(&amp;pTopology);
+    SafeRelease(&pTopoProvider);
+    SafeRelease(&pTopology);
     return hr;
 }
 ```
@@ -136,12 +136,12 @@ HRESULT CPlaylist::SkipTo(DWORD index)
 
     PROPVARIANT var;
 
-    HRESULT hr = MFCreateSequencerSegmentOffset(ID, NULL, &amp;var);
+    HRESULT hr = MFCreateSequencerSegmentOffset(ID, NULL, &var);
     
     if (SUCCEEDED(hr))
     {
-        hr = m_pSession->Start(&amp;MF_TIME_FORMAT_SEGMENT_OFFSET, &amp;var);
-        PropVariantClear(&amp;var);
+        hr = m_pSession->Start(&MF_TIME_FORMAT_SEGMENT_OFFSET, &var);
+        PropVariantClear(&var);
     }
     return hr;
 }

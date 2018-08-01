@@ -47,10 +47,10 @@ The following code shows how to do this. It creates a compatible A8 render targe
 
         hr = m_pRT->CreateCompatibleRenderTarget(
                 NULL,
-                &amp;maskPixelSize,
-                &amp;alphaOnlyFormat,
+                &maskPixelSize,
+                &alphaOnlyFormat,
                 D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_NONE,
-                &amp;m_pOpacityRT
+                &m_pOpacityRT
                 );
 ```
 
@@ -66,9 +66,9 @@ The following code shows how to do this. It creates a compatible A8 render targe
                 );
 
             ID2D1Bitmap *pBitmap = NULL;
-            m_pOpacityRT->GetBitmap(&amp;pBitmap);
+            m_pOpacityRT->GetBitmap(&pBitmap);
 
-            pBitmap->GetDpi(&amp;dpiX, &amp;dpiY);
+            pBitmap->GetDpi(&dpiX, &dpiY);
 
             //
             // The antialias mode must be set to D2D1_ANTIALIAS_MODE_ALIASED
@@ -79,7 +79,7 @@ The following code shows how to do this. It creates a compatible A8 render targe
                 pBitmap,
                 m_pBlackBrush,
                 D2D1_OPACITY_MASK_CONTENT_TEXT_NATURAL,
-                &amp;destinationRect
+                &destinationRect
                 );
 
             pBitmap->Release();

@@ -55,7 +55,7 @@ LRESULT WndProc(HWND hwnd, UINT uMsg,  WPARAM wParam, LPARAM lParam)
         { 
             g_uQueryCancelAutoPlay = RegisterWindowMessage(TEXT("QueryCancelAutoPlay"));
         } 
-        if (uMsg &amp;&amp; uMsg == g_uQueryCancelAutoPlay)
+        if (uMsg && uMsg == g_uQueryCancelAutoPlay)
         { 
             return TRUE;       // Cancel AutoRun
         }

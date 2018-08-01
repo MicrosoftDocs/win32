@@ -57,11 +57,11 @@ HRESULT hr = CoCreateInstance(
                 NULL,
                 CLSCTX_INPROC_SERVER,
                 IID_IWICImagingFactory,
-                (LPVOID*) &amp;piFactory);
+                (LPVOID*) &piFactory);
 
 if (SUCCEEDED(hr))
 {
-    hr = piFactory->CreateStream(&amp;piStream);
+    hr = piFactory->CreateStream(&piStream);
 }
 
 if (SUCCEEDED(hr))
@@ -71,7 +71,7 @@ if (SUCCEEDED(hr))
 
 if (SUCCEEDED(hr))
 {
-   hr = piFactory->CreateEncoder(GUID_ContainerFormatTiff, NULL, &amp;piEncoder);
+   hr = piFactory->CreateEncoder(GUID_ContainerFormatTiff, NULL, &piEncoder);
 }
 
 if (SUCCEEDED(hr))
@@ -81,7 +81,7 @@ if (SUCCEEDED(hr))
 
 if (SUCCEEDED(hr))
 {
-    hr = piEncoder->CreateNewFrame(&amp;piBitmapFrame, &amp;pPropertybag);
+    hr = piEncoder->CreateNewFrame(&piBitmapFrame, &pPropertybag);
 }
 
 if (SUCCEEDED(hr))
@@ -90,10 +90,10 @@ if (SUCCEEDED(hr))
     PROPBAG2 option = { 0 };
     option.pstrName = L"TiffCompressionMethod";
     VARIANT varValue;    
-    VariantInit(&amp;varValue);
+    VariantInit(&varValue);
     varValue.vt = VT_UI1;
     varValue.bVal = WICTiffCompressionZIP;      
-    hr = pPropertybag->Write(1, &amp;option, &amp;varValue);        
+    hr = pPropertybag->Write(1, &option, &varValue);        
     if (SUCCEEDED(hr))
     {
         hr = piBitmapFrame->Initialize(pPropertybag);
@@ -108,7 +108,7 @@ if (SUCCEEDED(hr))
 WICPixelFormatGUID formatGUID = GUID_WICPixelFormat24bppBGR;
 if (SUCCEEDED(hr))
 {
-    hr = piBitmapFrame->SetPixelFormat(&amp;formatGUID);
+    hr = piBitmapFrame->SetPixelFormat(&formatGUID);
 }
 
 if (SUCCEEDED(hr))
@@ -228,7 +228,7 @@ In the [TIFF Encoding Example](#tiff-encoding-example) above, a specific encoder
 ```C++
 if (SUCCEEDED(hr))
 {
-    hr = piEncoder->CreateNewFrame(&amp;piBitmapFrame, &amp;pPropertybag);
+    hr = piEncoder->CreateNewFrame(&piBitmapFrame, &pPropertybag);
 }
 
 if (SUCCEEDED(hr))
@@ -237,10 +237,10 @@ if (SUCCEEDED(hr))
     PROPBAG2 option = { 0 };
     option.pstrName = L"TiffCompressionMethod";
     VARIANT varValue;    
-    VariantInit(&amp;varValue);
+    VariantInit(&varValue);
     varValue.vt = VT_UI1;
     varValue.bVal = WICTiffCompressionZIP;      
-    hr = pPropertybag->Write(1, &amp;option, &amp;varValue);        
+    hr = pPropertybag->Write(1, &option, &varValue);        
     if (SUCCEEDED(hr))
     {
         hr = piBitmapFrame->Initialize(pPropertybag);
@@ -256,7 +256,7 @@ To use the default encoder options, simply initialize the bitmap frame with the 
 ```C++
 if (SUCCEEDED(hr))
 {
-    hr = piEncoder->CreateNewFrame(&amp;piBitmapFrame, &amp;pPropertybag);
+    hr = piEncoder->CreateNewFrame(&piBitmapFrame, &pPropertybag);
 }
 
 if (SUCCEEDED(hr))
@@ -277,7 +277,7 @@ It is also possible to eliminate the property bag when no encoder options are be
 ```C++
 if (SUCCEEDED(hr))
 {
-    hr = piEncoder->CreateNewFrame(&amp;piBitmapFrame, 0);
+    hr = piEncoder->CreateNewFrame(&piBitmapFrame, 0);
 }
 
 if (SUCCEEDED(hr))

@@ -105,9 +105,9 @@ int __cdecl wmain(int argc, WCHAR* argv[])
     IdnConvert(L"ExAmPlE.cOm");
     
     // Show some idn conversions.  Note that some characters change 
-    IdnConvert(L"&amp;#1088;&amp;#1091;&amp;#1089;&amp;#1089;&amp;#1082;&amp;#1080;&amp;#1081;.ExAmPlE.cOm");
-    IdnConvert(L"&amp;#26085;&amp;#26412;&amp;#35486;.example.com");
-    IdnConvert(L"&amp;#65318;&amp;#65365;&amp;#65356;&amp;#65356;&amp;#65367;&amp;#65353;&amp;#65348;&amp;#65364;&amp;#65352;&amp;#12290;example&amp;#12290;com&amp;#12290;");
+    IdnConvert(L"&#1088;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;.ExAmPlE.cOm");
+    IdnConvert(L"&#26085;&#26412;&#35486;.example.com");
+    IdnConvert(L"&#65318;&#65365;&#65356;&#65356;&#65367;&#65353;&#65348;&#65364;&#65352;&#12290;example&#12290;com&#12290;");
 
     // Some characters are illegal in IDN names 
     IdnConvert(L"\x9fa5\x9fff\x00\x7f");

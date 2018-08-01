@@ -33,9 +33,9 @@ Sub AdsiErr()
     Dim s
     Dim e
     
-    If Err.Number = &amp;H8000500E Then
+    If Err.Number = &H8000500E Then
         WScript.Echo "The user " & username & " already exists."
-    Elseif Err.Number = &amp;H80005000 Then
+    Elseif Err.Number = &H80005000 Then
         WScript.Echo "Computer " & computerPath & " not found.  Check the ADsPath and try again."
     Else
         e = Hex(Err.Number)

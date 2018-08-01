@@ -53,7 +53,7 @@ HRESULT CreateASFIndexer(
 
     IMFASFIndexer *pIndexer = NULL;
 
-    HRESULT hr = MFCreateASFIndexer(&amp;pIndexer);
+    HRESULT hr = MFCreateASFIndexer(&pIndexer);
     if (FAILED(hr))
     {
         goto done;
@@ -77,7 +77,7 @@ HRESULT CreateASFIndexer(
 
 done:
     // Clean up.
-    SafeRelease(&amp;pIndexer);
+    SafeRelease(&pIndexer);
     return hr;
 }
 ```

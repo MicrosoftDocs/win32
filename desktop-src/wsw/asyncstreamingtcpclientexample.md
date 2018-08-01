@@ -56,7 +56,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
     if (error != NULL)
     {
         ULONG errorCount;
-        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &amp;errorCount, sizeof(errorCount));
+        hr = WsGetErrorProperty(error, WS_ERROR_PROPERTY_STRING_COUNT, &errorCount, sizeof(errorCount));
         if (FAILED(hr))
         {
             goto Exit;
@@ -64,7 +64,7 @@ void PrintError(HRESULT errorCode, WS_ERROR* error)
         for (ULONG i = 0; i < errorCount; i++)
         {
             WS_STRING string;
-            hr = WsGetErrorString(error, i, &amp;string);
+            hr = WsGetErrorString(error, i, &string);
             if (FAILED(hr))
             {
                 goto Exit;
@@ -120,7 +120,7 @@ HRESULT CALLBACK Send1(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* state,
         NULL, 
         0, 
         NULL, 
-        &amp;sendState->channel, 
+        &sendState->channel, 
         error);
     if (FAILED(hr))
     {
@@ -138,7 +138,7 @@ HRESULT CALLBACK Send1(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* state,
     // Open channel to address
     hr = WsOpenChannel(
         sendState->channel, 
-        &amp;address, 
+        &address, 
         asyncContext, 
         error);
     if (FAILED(hr))
@@ -160,7 +160,7 @@ HRESULT CALLBACK Send2(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* state,
         return hr;
     }
 
-    hr = WsCreateMessageForChannel(sendState->channel, NULL, 0, &amp;sendState->message, error);
+    hr = WsCreateMessageForChannel(sendState->channel, NULL, 0, &sendState->message, error);
     if (FAILED(hr))
     {
         return hr;
@@ -229,7 +229,7 @@ HRESULT CALLBACK Send4(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* state,
     
     // Get the writer for the body
     WS_XML_WRITER* writer;
-    hr = WsGetMessageProperty(sendState->message, WS_MESSAGE_PROPERTY_BODY_WRITER, &amp;writer, sizeof(writer), error);
+    hr = WsGetMessageProperty(sendState->message, WS_MESSAGE_PROPERTY_BODY_WRITER, &writer, sizeof(writer), error);
     if (FAILED(hr))
     {
         return hr;
@@ -249,9 +249,9 @@ HRESULT CALLBACK Send4(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* state,
     // Write body data
     hr = WsWriteElement(
         writer, 
-        &amp;PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
+        &PurchaseOrder_wsdl.globalElements.PurchaseOrderType, 
         WS_WRITE_REQUIRED_VALUE,
-        &amp;purchaseOrder, 
+        &purchaseOrder, 
         sizeof(purchaseOrder), 
         error);
 
@@ -403,7 +403,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     hr = WsCreateError(
         NULL, 
         0, 
-        &amp;error);
+        &error);
     if (FAILED(hr))
     {
         goto Exit;
@@ -417,9 +417,9 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     WS_ASYNC_CONTEXT sendComplete;
     sendComplete.callback = OnSendComplete;
-    sendComplete.callbackState = &amp;threadInfo;
+    sendComplete.callbackState = &threadInfo;
     
-    hr = WsAsyncExecute(&amp;asyncState, Send1, WS_LONG_CALLBACK, &amp;sendState, &amp;sendComplete, error);
+    hr = WsAsyncExecute(&asyncState, Send1, WS_LONG_CALLBACK, &sendState, &sendComplete, error);
     if (FAILED(hr))
     {
         goto Exit;

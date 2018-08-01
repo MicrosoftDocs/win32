@@ -73,7 +73,7 @@ HRESULT CMyClass::ExploreAnalysisResults(
 {
     // Check that the ink analyzer is not currently analyzing ink.
     VARIANT_BOOL bIsAnalyzing;
-    HRESULT hr = pInkAnalyzer->IsAnalyzing(&amp;bIsAnalyzing);
+    HRESULT hr = pInkAnalyzer->IsAnalyzing(&bIsAnalyzing);
 
     if (SUCCEEDED(hr))
     {
@@ -84,7 +84,7 @@ HRESULT CMyClass::ExploreAnalysisResults(
 
         // Get the ink analyzer's best-result string.
         BSTR recognizedString = NULL;
-        hr = pInkAnalyzer->GetRecognizedString(&amp;recognizedString);
+        hr = pInkAnalyzer->GetRecognizedString(&recognizedString);
 
         if (SUCCEEDED(hr))
         {
@@ -92,7 +92,7 @@ HRESULT CMyClass::ExploreAnalysisResults(
 
             // Get the ink analyzer's root node.
             IContextNode *pRootNode = NULL;
-            hr = pInkAnalyzer->GetRootNode(&amp;pRootNode);
+            hr = pInkAnalyzer->GetRootNode(&pRootNode);
 
             if (SUCCEEDED(hr))
             {
