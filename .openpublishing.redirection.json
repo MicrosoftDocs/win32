@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "desktop-src/direct3dtools/ipixengine5-rendertextureasync-uint-pixenginetexturesliceindex-int-float-arr4-float-arr4-bstr-uint-bstr-arr-float-arr-uint-bstr-arr-bool-arr-bstr-ipixengine5callbacks-ptr-dword-dword.md",
+      "redirect_url": "/windows/desktop/direct3dtools/ipixengine5-rendertextureasync-uint-pixenginetexturesliceindex-short-name",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/direct3dtools/ipixengine5callbacks-loadtexturefromfilecomplete-uint-pixenginetexturedescriptor-uint-pixenginetexturesliceindex-arr-pixenginetextureslicedescriptor-arr-uint-int-arr-pixenginehistogram-ptr.md",
+      "redirect_url": "/windows/desktop/direct3dtools/ipixengine5callbacks-loadtexturefromfilecomplete-short-name",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "desktop-src/win32-and-com-development.md",
       "redirect_url": "/windows/desktop/index",
       "redirect_document_id": false
