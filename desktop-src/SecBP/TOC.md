@@ -6,6 +6,7 @@
 ### [Assigning Privileges to an Account](assigning-privileges-to-an-account.md)
 ## [Avoiding Buffer Overruns](avoiding-buffer-overruns.md)
 ## [Control Flow Guard](control-flow-guard.md)
+### [PE metadata](pe-metadata.md)
 ## [Creating a DACL](creating-a-dacl.md)
 ## [Handling Passwords](handling-passwords.md)
 ### [Password Threat Assessment](password-threat-assessment.md)
