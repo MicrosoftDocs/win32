@@ -26,7 +26,7 @@ Defines how a callout is processed. Read/write. **String**.
 
 **Tag Syntax**
 
-<o: *element* v:ext=" *expression* "&gt;
+<o: *element* v:ext=" *expression* ">
 
 **Remarks**
 

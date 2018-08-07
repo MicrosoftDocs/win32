@@ -26,7 +26,7 @@ ID of next textbox in a series. Read/write. **String**.
 
 **Tag Syntax**
 
-<v: *element* style="mso-next-textbox: *expression* "&gt;
+<v: *element* style="mso-next-textbox: *expression* ">
 
 **Remarks**
 

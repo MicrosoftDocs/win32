@@ -26,7 +26,7 @@ Defines the amount of skew of an extrusion. Read/write. **VgAngle**.
 
 **Tag Syntax**
 
-<o: *element* skewangle=" *expression* "&gt;
+<o: *element* skewangle=" *expression* ">
 
 **Script Syntax**
 

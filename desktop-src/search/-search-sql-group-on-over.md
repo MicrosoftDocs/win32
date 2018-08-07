@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # GROUP ON ... OVER ... Statement
 
-The GROUP ON... OVER... statement returns a hierarchical rowset in which search results are divided into groups based on a specified column and optional grouping ranges. If you group on the [System.Kind](http://msdn.microsoft.com/en-us/library/bb787521(VS.85).aspx) column, the result set is divided into multiple groups: one for documents, one for communications, and so on. If you group on [System.Size](http://msdn.microsoft.com/en-us/library/bb787566(VS.85).aspx) and group range 100 KB, the result set is divided into three groups: items of size < 100 KB, items of size &gt;= 100 KB, and items with no size value. You can also aggregate groupings with functions.
+The GROUP ON... OVER... statement returns a hierarchical rowset in which search results are divided into groups based on a specified column and optional grouping ranges. If you group on the [System.Kind](http://msdn.microsoft.com/en-us/library/bb787521(VS.85).aspx) column, the result set is divided into multiple groups: one for documents, one for communications, and so on. If you group on [System.Size](http://msdn.microsoft.com/en-us/library/bb787566(VS.85).aspx) and group range 100 KB, the result set is divided into three groups: items of size < 100 KB, items of size >= 100 KB, and items with no size value. You can also aggregate groupings with functions.
 
 This topic covers the following subjects:
 
@@ -48,9 +48,9 @@ where grouping ranges are defined as follows:
 
 
 
-The GROUP ON <column&gt; can be a regular or delimited [identifier](-search-sql-identifiers.md) for a property in the property store.
+The GROUP ON <column> can be a regular or delimited [identifier](-search-sql-identifiers.md) for a property in the property store.
 
-The optional <group ranges&gt; is a list of one or more values (number, date, or string) used for dividing the results into groups. The <range limit&gt; identifies a division point in the returned result set, and the <label&gt; identifies a user-friendly label for a group. You can divide the result set into as many groups as you need.
+The optional <group ranges> is a list of one or more values (number, date, or string) used for dividing the results into groups. The <range limit> identifies a division point in the returned result set, and the <label> identifies a user-friendly label for a group. You can divide the result set into as many groups as you need.
 
 The first group of results includes items with the minimum possible value for the specified property up to but not including the first range limit. This group can be referred to with the MINVALUE keyword. The second group can be referred to with the range limit specifier itself and includes items whose value for the specified property is equal to or greater than the range limit. Any items that do not have a value for the specified property are returned last and can be referred to with the **NULL** keyword.
 
@@ -64,12 +64,12 @@ The following table demonstrates how results are divided into groups based the r
 
 
 
-| Example (<column&gt; \[group ranges\])        | Result                                                                                                                                                                                                                                                                         |
+| Example (<column> \[group ranges\])        | Result                                                                                                                                                                                                                                                                         |
 |--------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| System.Size \[1000, 5000\]                       | Results are grouped into four buckets: **MINVALUE**: Size < 1000<br/> **1000:** 1000 <= Size < 5000<br/> **5000:** Size &gt;= 5000<br/> **NULL:** No value for Size<br/>                                                                      |
+| System.Size \[1000, 5000\]                       | Results are grouped into four buckets: **MINVALUE**: Size < 1000<br/> **1000:** 1000 <= Size < 5000<br/> **5000:** Size >= 5000<br/> **NULL:** No value for Size<br/>                                                                      |
 | System.Author \[BEFORE('m'),AFTER('r')\]         | Results are grouped into four buckets: **MINVALUE:** Author < character before "m"<br/> **m:** character before "m" <= Author < character after "r"<br/> **r:** character after "r" <= Author<br/> **NULL:** No value for Author<br/>      |
 | System.Author \[MINVALUE/'a to l',"m"/'m to z'\] | Results are grouped into three buckets: **a to l:** Author < "m"<br/> **m to z:** "m" <= Author <br/> **NULL:** No value for Author<br/>                                                                                                               |
-| System.DateCreated \['2005-1-01','2006-6-01'\]   | Results are grouped into four buckets:<br/> **MINVALUE:** DateCreated < 2005-1-01<br/> **2005-1-01:** 2005-1-01 <= DateCreated < 2006-6-01<br/> **2006-1-01:** DateCreated &gt;= 2006-6-01<br/> **NULL:** No value for DateCreated<br/> |
+| System.DateCreated \['2005-1-01','2006-6-01'\]   | Results are grouped into four buckets:<br/> **MINVALUE:** DateCreated < 2005-1-01<br/> **2005-1-01:** 2005-1-01 <= DateCreated < 2006-6-01<br/> **2006-1-01:** DateCreated >= 2006-6-01<br/> **NULL:** No value for DateCreated<br/> |
 
 
 

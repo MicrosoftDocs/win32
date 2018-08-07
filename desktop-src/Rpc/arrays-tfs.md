@@ -79,7 +79,7 @@ element_description<>
 FC_END
 ```
 
-The conformance\_description<&gt; is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://msdn.microsoft.com/library/windows/desktop/aa367363) is used.
+The conformance\_description<> is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://msdn.microsoft.com/library/windows/desktop/aa367363) is used.
 
 ## Conformant Varying Array
 
@@ -95,7 +95,7 @@ element_description<>
 FC_END
 ```
 
-The conformance\_description<&gt; and variance\_description<&gt; is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://msdn.microsoft.com/library/windows/desktop/aa367363) is used.
+The conformance\_description<> and variance\_description<> is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://msdn.microsoft.com/library/windows/desktop/aa367363) is used.
 
 ## Varying Array
 
@@ -121,9 +121,9 @@ element_description<>
 FC_END
 ```
 
-The variance\_description<&gt; is a correlation descriptor and has 4 or 6 bytes depending on the [**/robust**](https://msdn.microsoft.com/library/windows/desktop/aa367363) being used.
+The variance\_description<> is a correlation descriptor and has 4 or 6 bytes depending on the [**/robust**](https://msdn.microsoft.com/library/windows/desktop/aa367363) being used.
 
-For varying arrays embedded inside of a structure, the offset<2&gt; field of the variance\_description<&gt; is a relative offset from the varying array's position in the structure to the variance describing field. The offset is typically relative to the beginning of the structure.
+For varying arrays embedded inside of a structure, the offset<2> field of the variance\_description<> is a relative offset from the varying array's position in the structure to the variance describing field. The offset is typically relative to the beginning of the structure.
 
 ## Complex Arrays
 
@@ -147,9 +147,9 @@ element_description<>
 FC_END
 ```
 
-The number\_of\_elements<2&gt; field is zero if the array is conformant.
+The number\_of\_elements<2> field is zero if the array is conformant.
 
-The conformance\_description<&gt; and variance\_description<&gt; is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://msdn.microsoft.com/library/windows/desktop/aa367363) is used. If the array has conformance and/or variance then the conformance\_description<&gt; and/or variance\_description<&gt; field(s) have valid descriptions, otherwise the first 4 bytes of the correlation descriptor are set to 0xFFFFFFFF. The flags, when present, are set to zero.
+The conformance\_description<> and variance\_description<> is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://msdn.microsoft.com/library/windows/desktop/aa367363) is used. If the array has conformance and/or variance then the conformance\_description<> and/or variance\_description<> field(s) have valid descriptions, otherwise the first 4 bytes of the correlation descriptor are set to 0xFFFFFFFF. The flags, when present, are set to zero.
 
  
 

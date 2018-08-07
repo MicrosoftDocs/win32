@@ -110,7 +110,7 @@ IDCompositionEffectGroup *m_pEffectGroup;
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>hr = m_pDevice-&gt;CreateEffectGroup(&m_pEffectGroup);</code></pre></td>
+<td><pre><code>hr = m_pDevice->CreateEffectGroup(&m_pEffectGroup);</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -130,7 +130,7 @@ IDCompositionEffectGroup *m_pEffectGroup;
 <tr class="odd">
 <td><pre><code>if (SUCCEEDED(hr))
 {
-    hr = m_pEffectGroup-&gt;SetOpacity(m_pFadeInAnimation);
+    hr = m_pEffectGroup->SetOpacity(m_pFadeInAnimation);
 }</code></pre></td>
 </tr>
 </tbody>
@@ -149,7 +149,7 @@ IDCompositionEffectGroup *m_pEffectGroup;
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>hr = m_pVisual-&gt;SetEffect(m_pEffectGroup);</code></pre></td>
+<td><pre><code>hr = m_pVisual->SetEffect(m_pEffectGroup);</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -481,8 +481,8 @@ HRESULT DemoApp::Initialize()
             WS_OVERLAPPEDWINDOW,
             CW_USEDEFAULT,
             CW_USEDEFAULT,
-            static_cast<UINT&gt;(ceil(640.0f * dpiX / 96.0f)),
-            static_cast<UINT&gt;(ceil(480.0f * dpiY / 96.0f)),
+            static_cast<UINT>(ceil(640.0f * dpiX / 96.0f)),
+            static_cast<UINT>(ceil(480.0f * dpiY / 96.0f)),
             NULL,
             NULL,
             HINST_THISCOMPONENT,
@@ -545,7 +545,7 @@ HRESULT DemoApp::InitializeDirectCompositionDevice()
     if (SUCCEEDED(hr))
     {
         // Create the DXGI device used to create bitmap surfaces.
-        hr = m_pD3D11Device-&gt;QueryInterface(&pDXGIDevice);
+        hr = m_pD3D11Device->QueryInterface(&pDXGIDevice);
     }
 
     if (SUCCEEDED(hr))
@@ -553,66 +553,66 @@ HRESULT DemoApp::InitializeDirectCompositionDevice()
         // Create the DirectComposition device object.
         hr = DCompositionCreateDevice(pDXGIDevice, 
                 __uuidof(IDCompositionDevice), 
-                reinterpret_cast<void **&gt;(&m_pDevice));
+                reinterpret_cast<void **>(&m_pDevice));
     }
 
     if (SUCCEEDED(hr))
     {
         // Create the composition target object.
-        hr = m_pDevice-&gt;CreateTargetForHwnd(m_hwnd, TRUE, &m_pCompTarget);   
+        hr = m_pDevice->CreateTargetForHwnd(m_hwnd, TRUE, &m_pCompTarget);   
     }
 
     if (SUCCEEDED(hr))
     {
         // Create a visual object.          
-        hr = m_pDevice-&gt;CreateVisual(&m_pVisual);  
+        hr = m_pDevice->CreateVisual(&m_pVisual);  
     }
 
     if (SUCCEEDED(hr))
     {
         // Create a composition surface.
-        hr = m_pDevice-&gt;CreateSurface(80, 80,//m_bitmapWidth, m_bitmapHeight, 
+        hr = m_pDevice->CreateSurface(80, 80,//m_bitmapWidth, m_bitmapHeight, 
             DXGI_FORMAT_B8G8R8A8_UNORM, DXGI_ALPHA_MODE_PREMULTIPLIED, 
             &m_pSurface);
     }
 
     if (SUCCEEDED(hr))
     {
-        hr = m_pVisual-&gt;SetContent(m_pSurface);
+        hr = m_pVisual->SetContent(m_pSurface);
     }
 
     if (SUCCEEDED(hr))
     {
-        hr = m_pCompTarget-&gt;SetRoot(m_pVisual);
+        hr = m_pCompTarget->SetRoot(m_pVisual);
     }
 
     if (SUCCEEDED(hr))
     {
-        hr = m_pDevice-&gt;CreateAnimation(&m_pFadeInAnimation);
+        hr = m_pDevice->CreateAnimation(&m_pFadeInAnimation);
     }
 
-    m_pFadeInAnimation-&gt;AddCubic(0.0f, 0.0f, 0.5f, 0.0f, 0.0f);
-    m_pFadeInAnimation-&gt;End(2.0f, 1.0f); 
+    m_pFadeInAnimation->AddCubic(0.0f, 0.0f, 0.5f, 0.0f, 0.0f);
+    m_pFadeInAnimation->End(2.0f, 1.0f); 
 
     if (SUCCEEDED(hr))
     {
-        hr = m_pDevice-&gt;CreateAnimation(&m_pFadeOutAnimation);
-    }
-
-    if (SUCCEEDED(hr))
-    {
-        m_pFadeInAnimation-&gt;AddCubic(0.0f, 1.0f, 0.0f, 0.0f, 0.0f);
-        m_pFadeInAnimation-&gt;End(2.0f, 0.0f); 
+        hr = m_pDevice->CreateAnimation(&m_pFadeOutAnimation);
     }
 
     if (SUCCEEDED(hr))
     {
-        hr = m_pDevice-&gt;CreateEffectGroup(&m_pEffectGroup);
+        m_pFadeInAnimation->AddCubic(0.0f, 1.0f, 0.0f, 0.0f, 0.0f);
+        m_pFadeInAnimation->End(2.0f, 0.0f); 
     }
 
     if (SUCCEEDED(hr))
     {
-        hr = m_pEffectGroup-&gt;SetOpacity(m_pFadeInAnimation);
+        hr = m_pDevice->CreateEffectGroup(&m_pEffectGroup);
+    }
+
+    if (SUCCEEDED(hr))
+    {
+        hr = m_pEffectGroup->SetOpacity(m_pFadeInAnimation);
     }
 
     SafeRelease(&pDXGIDevice);
@@ -671,7 +671,7 @@ HRESULT DemoApp::CreateDeviceResources()
         );
 
     // Create a Direct2D render target.
-    hr = m_pD2DFactory-&gt;CreateHwndRenderTarget(
+    hr = m_pD2DFactory->CreateHwndRenderTarget(
         D2D1::RenderTargetProperties(),
         D2D1::HwndRenderTargetProperties(m_hwnd, size),
         &m_pRenderTarget
@@ -731,20 +731,20 @@ HRESULT DemoApp::OnClick()
     if (m_pEffectGroup == nullptr)
         return E_INVALIDARG;
 
-    hr = m_pEffectGroup-&gt;SetOpacity(m_pFadeOutAnimation);
+    hr = m_pEffectGroup->SetOpacity(m_pFadeOutAnimation);
 
     if (SUCCEEDED(hr))
     {
-        hr = m_pVisual-&gt;SetEffect(m_pEffectGroup);
+        hr = m_pVisual->SetEffect(m_pEffectGroup);
     }
 
     if (SUCCEEDED(hr))
     {
-        hr = m_pDevice-&gt;Commit();
+        hr = m_pDevice->Commit();
     }
 
 
-    hr = m_pSurface-&gt;BeginDraw(NULL, __uuidof(IDXGISurface), (void **)&pDXGISurface, &offset);
+    hr = m_pSurface->BeginDraw(NULL, __uuidof(IDXGISurface), (void **)&pDXGISurface, &offset);
 
     if (pDXGISurface)
     {
@@ -764,25 +764,25 @@ HRESULT DemoApp::OnClick()
         StringCbCopy((wchar_t *)pbuf, MAX_PATH,  L&quot;c:\\images\\&quot;);
         StringCchCat((wchar_t *)pbuf, MAX_PATH, m_pImageFileNames[i]);
 
-        hr = m_pD2DFactory-&gt;CreateDxgiSurfaceRenderTarget(pDXGISurface, &props, &pRenderTarget);
+        hr = m_pD2DFactory->CreateDxgiSurfaceRenderTarget(pDXGISurface, &props, &pRenderTarget);
 
-        pRenderTarget-&gt;BeginDraw();
+        pRenderTarget->BeginDraw();
 
 
         LoadJPEGImage(pRenderTarget, pbuf, &pBitmap);
 
-        pRenderTarget-&gt;DrawBitmap(pBitmap, NULL, 1.0, 
+        pRenderTarget->DrawBitmap(pBitmap, NULL, 1.0, 
             D2D1_BITMAP_INTERPOLATION_MODE_LINEAR, NULL);
 
-        hr = pRenderTarget-&gt;EndDraw();
+        hr = pRenderTarget->EndDraw();
     }
 
-    hr = m_pSurface-&gt;EndDraw();
+    hr = m_pSurface->EndDraw();
 
-    m_pEffectGroup-&gt;SetOpacity(m_pFadeInAnimation);
-    m_pVisual-&gt;SetEffect(m_pEffectGroup);
+    m_pEffectGroup->SetOpacity(m_pFadeInAnimation);
+    m_pVisual->SetEffect(m_pEffectGroup);
 
-    m_pDevice-&gt;Commit();
+    m_pDevice->Commit();
 
     i = (++i == 5) ? 0 : i;
 
@@ -806,28 +806,28 @@ HRESULT DemoApp::SetVisualOpacity(IDCompositionVisual *pVisual, float opacity)
     IDCompositionEffectGroup *pEffectGroup = nullptr;
 
     // Validate the input arguments.
-    if (pVisual == NULL || (opacity &gt; 1.0f || opacity < 0.0f))
+    if (pVisual == NULL || (opacity > 1.0f || opacity < 0.0f))
         return E_INVALIDARG;
 
     // Create an effect group object.
-    hr = m_pDevice-&gt;CreateEffectGroup(&pEffectGroup);
+    hr = m_pDevice->CreateEffectGroup(&pEffectGroup);
 
     if (SUCCEEDED(hr))
     {
         // Set the Opacity of the effect group object.
-        hr = pEffectGroup-&gt;SetOpacity(opacity);
+        hr = pEffectGroup->SetOpacity(opacity);
     }
 
     if (SUCCEEDED(hr))
     {
         // Apply the effect group object to the Effect property of the visual.
-        hr = m_pVisual-&gt;SetEffect(pEffectGroup);
+        hr = m_pVisual->SetEffect(pEffectGroup);
     }
 
     if (SUCCEEDED(hr))
     {
         // Commit the visual to DirectComposition.
-        hr = m_pDevice-&gt;Commit();
+        hr = m_pDevice->Commit();
     }
 
     // Free the effect group object.
@@ -850,7 +850,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message,
     if (message == WM_CREATE)
     {
         LPCREATESTRUCT pcs = (LPCREATESTRUCT)lParam;
-        DemoApp *pDemoApp = (DemoApp *)pcs-&gt;lpCreateParams;
+        DemoApp *pDemoApp = (DemoApp *)pcs->lpCreateParams;
 
         ::SetWindowLongPtrW(
             hwnd,
@@ -862,7 +862,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message,
     }
     else
     {
-        DemoApp *pDemoApp = reinterpret_cast<DemoApp *&gt;(static_cast<LONG_PTR&gt;(
+        DemoApp *pDemoApp = reinterpret_cast<DemoApp *>(static_cast<LONG_PTR>(
             ::GetWindowLongPtrW(
                 hwnd,
                 GWLP_USERDATA
@@ -884,7 +884,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message,
 
             case WM_LBUTTONDOWN:
                 {
-                    pDemoApp-&gt;OnClick();
+                    pDemoApp->OnClick();
                 }
                 wasHandled = true;
                 result = 0;
@@ -901,7 +901,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message,
             case WM_DESTROY:
                 {
                     PostQuitMessage(0);
-                    pDemoApp-&gt;DiscardDeviceResources();
+                    pDemoApp->DiscardDeviceResources();
                 }
                 wasHandled = true;
                 result = 1;
@@ -945,7 +945,7 @@ HRESULT DemoApp::LoadJPEGImage(
         IID_PPV_ARGS(&m_pWICFactory)
         );
 
-    hr = m_pWICFactory-&gt;CreateDecoderFromFilename(
+    hr = m_pWICFactory->CreateDecoderFromFilename(
         fileName,                       // Image to be decoded
         NULL,                           // Do not prefer a particular vendor
         GENERIC_READ,                   // Desired read access to the file
@@ -956,19 +956,19 @@ HRESULT DemoApp::LoadJPEGImage(
     // Retrieve the first bitmap frame.
     if (SUCCEEDED(hr))
     {
-        hr = pDecoder-&gt;GetFrame(0, &pDecoderFrame);
+        hr = pDecoder->GetFrame(0, &pDecoderFrame);
     }
 
     if (SUCCEEDED(hr))
     {
         // Convert the image format to 32bppPBGRA
         // (DXGI_FORMAT_B8G8R8A8_UNORM + D2D1_ALPHA_MODE_PREMULTIPLIED).
-        hr = m_pWICFactory-&gt;CreateFormatConverter(&pConverter);
+        hr = m_pWICFactory->CreateFormatConverter(&pConverter);
     }
 
     if (SUCCEEDED(hr))
     {
-        hr = pConverter-&gt;Initialize(
+        hr = pConverter->Initialize(
             pDecoderFrame,
             GUID_WICPixelFormat32bppPBGRA,
             WICBitmapDitherTypeNone,
@@ -981,7 +981,7 @@ HRESULT DemoApp::LoadJPEGImage(
     if (SUCCEEDED(hr))
     {
         // Create a Direct2D bitmap from the WIC bitmap.
-        hr = pRenderTarget-&gt;CreateBitmapFromWicBitmap(
+        hr = pRenderTarget->CreateBitmapFromWicBitmap(
             pConverter,
             NULL,
             ppBitmap

@@ -26,7 +26,7 @@ Defines the type of callout. Read/write. **String**.
 
 **Tag Syntax**
 
-<o: *element* type=" *expression* "&gt;
+<o: *element* type=" *expression* ">
 
 **Remarks**
 

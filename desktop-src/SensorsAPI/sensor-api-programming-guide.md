@@ -35,10 +35,10 @@ The example code in this section makes use of the following additional included 
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>#include <iostream&gt;
-#include <propvarutil.h&gt;
-#include <functiondiscoverykeys.h&gt;
-#include <assert.h&gt;</code></pre></td>
+<td><pre><code>#include <iostream>
+#include <propvarutil.h>
+#include <functiondiscoverykeys.h>
+#include <assert.h></code></pre></td>
 </tr>
 </tbody>
 </table>

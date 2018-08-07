@@ -22,8 +22,8 @@ For more information, see the documentation for the v1 [**SubscriberID**](https:
 
 ## Element hierarchy
 
-[<MBNProfileExt&gt;](element-mbnprofileext.md)  
-**<SubscriberID&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+**<SubscriberID>**
 
 ## Syntax
 

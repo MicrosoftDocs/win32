@@ -56,10 +56,10 @@ Application configuration files must be installed in the same location as the ap
 
 The name of an application configuration file is the name of the application executable followed by .config.
 
-For example, an application configuration file that refers to Example.exe or Example.dll would use the file name syntax shown in the following example. You can omit the field for <*resource ID*&gt; if installing the configuration file as a separate file or if the resource ID is 1.
+For example, an application configuration file that refers to Example.exe or Example.dll would use the file name syntax shown in the following example. You can omit the field for <*resource ID*> if installing the configuration file as a separate file or if the resource ID is 1.
 
-<dl> example.exe.<resource ID&gt;.config  
-example.dll.<resource ID&gt;.config  
+<dl> example.exe.<resource ID>.config  
+example.dll.<resource ID>.config  
 </dl>
 
 ## Elements

@@ -88,38 +88,38 @@ A ResolveMatches message has the following focus points.
 <tbody>
 <tr class="odd">
 <td>ResolveMatches</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:Action&gt;
+<td><pre class="syntax" data-space="preserve"><code><wsa:Action>
     http://schemas.xmlsoap.org/ws/2005/04/discovery/ResolveMatches
-</wsa:Action&gt;</code></pre></td>
+</wsa:Action></code></pre></td>
 <td>The ResolveMatches SOAP action identifies the message as a ResolveMatches message.</td>
 </tr>
 <tr class="even">
 <td>RelatesTo</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:RelatesTo&gt;
+<td><pre class="syntax" data-space="preserve"><code><wsa:RelatesTo>
     urn:uuid:38d1c3d9-8d73-4424-8861-6b7ee2af24d3
-</wsa:RelatesTo&gt;</code></pre></td>
+</wsa:RelatesTo></code></pre></td>
 <td>The identifier of the message to which the service is responding. This header matches the MessageId in the [Resolve](resolve-message.md) message.</td>
 </tr>
 <tr class="odd">
 <td>AppSequence</td>
 <td><pre class="syntax" data-space="preserve"><code><wsd:AppSequence InstanceId=&quot;1&quot;
     SequenceId=&quot;urn:uuid:369a7d7b-5f87-48a4-aa9a-189edf2a8772&quot;
-    MessageNumber=&quot;6&quot;&gt;
-</wsd:AppSequence&gt;</code></pre></td>
+    MessageNumber=&quot;6&quot;>
+</wsd:AppSequence></code></pre></td>
 <td>Contains application sequencing information, which helps to maintain the sequence of messages even if they are received out of order. The AppSequence is validated as described in [AppSequence Validation Rules](appsequence-validation-rules.md).</td>
 </tr>
 <tr class="even">
 <td>Address</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:Address&gt;
+<td><pre class="syntax" data-space="preserve"><code><wsa:Address>
     urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
-</wsa:Address&gt;</code></pre></td>
+</wsa:Address></code></pre></td>
 <td>Contains the address of the endpoint being resolved.</td>
 </tr>
 <tr class="odd">
 <td>XAddrs</td>
-<td><pre class="syntax" data-space="preserve"><code><wsd:XAddrs&gt;
+<td><pre class="syntax" data-space="preserve"><code><wsd:XAddrs>
     http://192.168.0.2:5357/37f86d35-e6ac-4241-964f-1d9ae46fb366
-</wsd:XAddrs&gt;</code></pre></td>
+</wsd:XAddrs></code></pre></td>
 <td>XAddrs are transport addresses that may be used for communication between client and service. Addrs are validated as described in [XAddr Validation Rules](xaddr-validation-rules.md).</td>
 </tr>
 </tbody>

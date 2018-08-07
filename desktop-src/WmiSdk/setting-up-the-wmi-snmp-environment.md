@@ -88,7 +88,7 @@ As a provider, the SNMP provider acts as a bridge between SNMP data and WMI clas
 
 The compiler runs in the command-line mode, using one MIB file as input. The following command loads the specified MIB file into the SMIR.
 
-**smi2smir /a** *<MIB file&gt;*
+**smi2smir /a** *<MIB file>*
 
 ## Setting Up SNMP Communities
 
@@ -100,33 +100,33 @@ The following commands are an example of how to generate MOF files from the MIB 
 
 **cd** *%windir%\\system32\\wbem\\SNMP*
 
-**Smi2smir /g** *..\\..\\hostmib.mib* **&gt;** *hostmib.mof*
+**Smi2smir /g** *..\\..\\hostmib.mib* **>** *hostmib.mof*
 
-**Smi2smir /g** *..\\..\\ipforwd.mib* **&gt;** *ipforwd.mof*
+**Smi2smir /g** *..\\..\\ipforwd.mib* **>** *ipforwd.mof*
 
-**Smi2smir /g** *..\\..\\nipx.mib* **&gt;** *nipx.mof*
+**Smi2smir /g** *..\\..\\nipx.mib* **>** *nipx.mof*
 
-**Smi2smir /g** *..\\..\\mib\_ii.mib* **&gt;** *mib\_ii.mof*
+**Smi2smir /g** *..\\..\\mib\_ii.mib* **>** *mib\_ii.mof*
 
-**Smi2smir /g** *..\\..\\lmmib2.mib* **&gt;** *lmmib2.mof*
+**Smi2smir /g** *..\\..\\lmmib2.mib* **>** *lmmib2.mof*
 
-**Smi2smir /g** *..\\..\\mcastmib.mib* **&gt;** *mcastmib.mof*
+**Smi2smir /g** *..\\..\\mcastmib.mib* **>** *mcastmib.mof*
 
-**Smi2smir /g** *..\\..\\rfc2571.mib* **&gt;** *rfc2571.mof*
+**Smi2smir /g** *..\\..\\rfc2571.mib* **>** *rfc2571.mof*
 
-**Smi2smir /g** *..\\..\\wfospf.mib* **&gt;** *wfospf.mof*
+**Smi2smir /g** *..\\..\\wfospf.mib* **>** *wfospf.mof*
 
-**Smi2smir /g** *..\\..\\dhcp.mib..\\..\\msft.mib* **&gt;** *dhcp.mof*
+**Smi2smir /g** *..\\..\\dhcp.mib..\\..\\msft.mib* **>** *dhcp.mof*
 
-**Smi2smir /g** *..\\..\\wins.mib..\\..\\msft.mib* **&gt;** *wins.mof*
+**Smi2smir /g** *..\\..\\wins.mib..\\..\\msft.mib* **>** *wins.mof*
 
-**Smi2smir /g** *..\\..\\mipx.mib..\\..\\msft.mib* **&gt;** *mipx.mof*
+**Smi2smir /g** *..\\..\\mipx.mib..\\..\\msft.mib* **>** *mipx.mof*
 
-**Smi2smir /g** *..\\..\\mripsap.mib..\\..\\msft.mib* **&gt;** *mripsap.mof*
+**Smi2smir /g** *..\\..\\mripsap.mib..\\..\\msft.mib* **>** *mripsap.mof*
 
-**Smi2smir /g** *..\\..\\msipbtp.mib..\\..\\msft.mib* **&gt;** *msipbtp.mof*
+**Smi2smir /g** *..\\..\\msipbtp.mib..\\..\\msft.mib* **>** *msipbtp.mof*
 
-**Smi2smir /g** *..\\..\\msiprip2.mib..\\..\\msft.mib* **&gt;** *msiprip2.mof*
+**Smi2smir /g** *..\\..\\msiprip2.mib..\\..\\msft.mib* **>** *msiprip2.mof*
 
 ## Adding SNMP MOF Files to the WMI Repository
 

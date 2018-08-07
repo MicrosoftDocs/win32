@@ -26,7 +26,7 @@ Defines the brush color that fills the closed path of a shape. Read/write. [IVgC
 
 **Tag Syntax**
 
-<v: *element* fillcolor=" *expression* "&gt;
+<v: *element* fillcolor=" *expression* ">
 
 **Script Syntax**
 

@@ -181,7 +181,7 @@ Hosts receiving these router advertisements will automatically configure themsel
 
     If this fails, then you might have a firewall or network address translator (NAT) between your computer and the Internet. If this is successful, then your Internet connection can support 6to4.
 
-3.  Check the display of the ipv6 rt command. You should see a 2002::/16 -&gt; 2 route. Check the display of the ipv6 if 2 command. You should see a preferred address with a 2002::/16 prefix.
+3.  Check the display of the ipv6 rt command. You should see a 2002::/16 -> 2 route. Check the display of the ipv6 if 2 command. You should see a preferred address with a 2002::/16 prefix.
 
 > [!Note]  
 > The IPv4 address of the Microsoft 6to4 relay router of 131.107.152.32 is subject to change. If Step 2 above does not work, check the output of the ping command in step 1 to verify the IPv4 address of the Microsoft 6to4 relay router.

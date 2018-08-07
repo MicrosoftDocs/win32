@@ -21,7 +21,7 @@ The sample demonstrates the use of:
 -   [**OpenView method**](database-openview.md)
 -   [**SummaryInformation property (Database Object)**](database-summaryinformation.md) of the [**Database object**](database-object.md)
 
-Using this sample requires the CScript.exe or WScript.exe version of Windows Script Host. To use CScript.exe to run this sample, type a command at the command prompt using the following syntax. Help is displayed if the first argument is /? or if too few arguments are specified. To redirect the output to a file, end the command line with VBS &gt; \[*path to file*\]. The sample returns a value of 0 for success, 1 if help is invoked, and 2 if the script fails.
+Using this sample requires the CScript.exe or WScript.exe version of Windows Script Host. To use CScript.exe to run this sample, type a command at the command prompt using the following syntax. Help is displayed if the first argument is /? or if too few arguments are specified. To redirect the output to a file, end the command line with VBS > \[*path to file*\]. The sample returns a value of 0 for success, 1 if help is invoked, and 2 if the script fails.
 
 **cscript WiLangID.vbs \[path to database\]\[keyword\]\[value\]**
 

@@ -26,7 +26,7 @@ Defines the concentration of the reflected light on an extrusion surface. Read/w
 
 **Tag Syntax**
 
-<o: *element* shininess=" *expression* "&gt;
+<o: *element* shininess=" *expression* ">
 
 **Script Syntax**
 

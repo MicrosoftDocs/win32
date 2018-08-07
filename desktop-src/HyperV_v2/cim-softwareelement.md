@@ -1072,7 +1072,7 @@ Access type: Read-only
 Qualifiers: [**Key**](https://msdn.microsoft.com/library/aa392157), [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("MIF.DMTF\|SubComponent Software \|001.4")
 </dt> </dl>
 
-The software version in the format *<Major&gt;*.*<Minor&gt;*.*<Revision&gt;* or *<Major&gt;*.*<Minor&gt;<letter&gt;<revision&gt;*.
+The software version in the format *<Major>*.*<Minor>*.*<Revision>* or *<Major>*.*<Minor><letter><revision>*.
 
 </dd> </dl>
 

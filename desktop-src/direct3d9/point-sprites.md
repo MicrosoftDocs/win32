@@ -37,7 +37,7 @@ D ₑ = sqrt (Xₑ² + Y ₑ² + Z ₑ²)
 
 The maximum point size, Pₘₐₓ, is determined by taking the smaller of either the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structure's MaxPointSize member or the D3DRS\_POINTSIZE\_MAX render state. The minimum point size, P<sub>min</sub>, is determined by querying the value of D3DRS\_POINTSIZE\_MIN. Thus the final screen-space point size, S, is determined in the following manner.
 
--   If Sₛ &gt; Pₘₐₓ, then S = P ₘₐₓ
+-   If Sₛ > Pₘₐₓ, then S = P ₘₐₓ
 -   if S < P<sub>min</sub>, then S = P <sub>min</sub>
 -   Otherwise, S = S ₛ
 

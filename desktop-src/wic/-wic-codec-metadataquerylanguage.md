@@ -151,7 +151,7 @@ The following table provides some example expressions and descriptions of their 
 
 | Expression                     | Description                                                                                                                                                                                                                                                                                                                                                      |
 |--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ifd/xmp/exif:Author            | Corresponds to the following navigation path: IFD block -&gt; XMP block -&gt; "Author" property in the "Exif" schema.                                                                                                                                                                                                                                            |
+| ifd/xmp/exif:Author            | Corresponds to the following navigation path: IFD block -> XMP block -> "Author" property in the "Exif" schema.                                                                                                                                                                                                                                            |
 | /\[1\]ifd/\[0\]xmp/exif:Author | Same as the first item in this table except that the \[\#\] prefix describes which item to navigate in event of a name collision.                                                                                                                                                                                                                                |
 | /ifd/{ushort=700}/Author       | Same as the first item in this table except that it uses a data expression to reference the XMP block instead of the block name "xmp" (XMP block is embedded under the unsigned short tag identifier 700). Also, the "Author" property does not specify a schema. The query parser will try to match the property across all schemas and return the first match. |
 | /ifd/xmp                       | Provides a navigation path to a metadata block. If the block is found, a new metadata reader/writer is returned.                                                                                                                                                                                                                                                 |
@@ -204,22 +204,22 @@ The following table is a formal definition of the WIC metadata query language. E
 
 | Symbol                   | Expression                                                                                                                                                                  |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <path&gt;             | <name&gt; \| '/' <property path&gt;                                                                                                                                   |
-| <property path&gt;    | <metadata item&gt; \| <property path&gt; '/' <property path&gt;                                                                                                    |
-| <metadata item&gt;    | <index name&gt; \| <item name&gt; \| <schema name&gt; ':' <item name&gt;                                                                                        |
-| <schema name&gt;      | <item name&gt;                                                                                                                                                           |
-| <item name&gt;        | <metadata item&gt; \| <indexed item&gt;<index&gt;                                                                                                                  |
-| <indexed item&gt;     | <item&gt; \| <implied metadata&gt;<item&gt;                                                                                                                        |
-| <implied metadata&gt; | '<'<name&gt;'&gt;'                                                                                                                                                    |
-| <item&gt;             | <name&gt; \| <index&gt; <data&gt; \| <data&gt;                                                                                                                  |
-| <data&gt;             | '{' <data type&gt; '=' <value&gt; '}'                                                                                                                                 |
-| <index&gt;            | '\[' <number&gt; \| <star&gt; '\]'                                                                                                                                    |
-| <data type&gt;        | 'char' \| 'uchar' \| 'short' \| 'ushort' \| 'long' \| 'ulong' \| 'int' \| 'uint' \| 'longlong' \| 'ulonglong' \| 'float' \| 'double' \| 'str' \| 'wstr' \| 'guid' \| 'bool' |
-| <data value&gt;       | <number&gt; \| <name&gt; \| <guid&gt;                                                                                                                              |
-| <star&gt;             | '\*'                                                                                                                                                                        |
-| <number&gt;           | number                                                                                                                                                                      |
-| <name&gt;             | string                                                                                                                                                                      |
-| <guid&gt;             | guid                                                                                                                                                                        |
+| <path>             | <name> \| '/' <property path>                                                                                                                                   |
+| <property path>    | <metadata item> \| <property path> '/' <property path>                                                                                                    |
+| <metadata item>    | <index name> \| <item name> \| <schema name> ':' <item name>                                                                                        |
+| <schema name>      | <item name>                                                                                                                                                           |
+| <item name>        | <metadata item> \| <indexed item><index>                                                                                                                  |
+| <indexed item>     | <item> \| <implied metadata><item>                                                                                                                        |
+| <implied metadata> | '<'<name>'>'                                                                                                                                                    |
+| <item>             | <name> \| <index> <data> \| <data>                                                                                                                  |
+| <data>             | '{' <data type> '=' <value> '}'                                                                                                                                 |
+| <index>            | '\[' <number> \| <star> '\]'                                                                                                                                    |
+| <data type>        | 'char' \| 'uchar' \| 'short' \| 'ushort' \| 'long' \| 'ulong' \| 'int' \| 'uint' \| 'longlong' \| 'ulonglong' \| 'float' \| 'double' \| 'str' \| 'wstr' \| 'guid' \| 'bool' |
+| <data value>       | <number> \| <name> \| <guid>                                                                                                                              |
+| <star>             | '\*'                                                                                                                                                                        |
+| <number>           | number                                                                                                                                                                      |
+| <name>             | string                                                                                                                                                                      |
+| <guid>             | guid                                                                                                                                                                        |
 
 
 

@@ -45,7 +45,7 @@ Number of bits used for auto-generated filter weights.
 <span id="FWPM_AUTO_WEIGHT_MAX"></span><span id="fwpm_auto_weight_max"></span>**FWPM\_AUTO\_WEIGHT\_MAX**
 </dt> <dd> <dl> <dt>
 
-(**MAXUINT64** &gt;&gt; 4)
+(**MAXUINT64** >> 4)
 </dt> <dt>
 
 
@@ -86,7 +86,7 @@ BFE assigns a weight with this range value to IPsec policy filters.
 <span id="FWPM_WEIGHT_RANGE_MAX"></span><span id="fwpm_weight_range_max"></span>**FWPM\_WEIGHT\_RANGE\_MAX**
 </dt> <dd> <dl> <dt>
 
-(**MAXUINT64** &gt;&gt; 60)
+(**MAXUINT64** >> 60)
 </dt> <dt>
 
 

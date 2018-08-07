@@ -40,7 +40,7 @@ ActCtx.GetObject(
 *bstrName* 
 </dt> <dd>
 
-Required string that indicates the object. The name must be in the registry under **HKEY\_LOCAL\_MACHINE**\\**Microsoft**\\**Visual Studio**\\**6.0**\\**<package&gt;**\\**Automation**.
+Required string that indicates the object. The name must be in the registry under **HKEY\_LOCAL\_MACHINE**\\**Microsoft**\\**Visual Studio**\\**6.0**\\**<package>**\\**Automation**.
 
 </dd> </dl>
 

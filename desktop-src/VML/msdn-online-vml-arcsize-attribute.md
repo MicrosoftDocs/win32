@@ -26,7 +26,7 @@ Defines the amount of roundness for a rounded rectangle. Read/write. [VgFraction
 
 **Tag Syntax**
 
-<v: *element* arcsize=" *expression* "&gt;
+<v: *element* arcsize=" *expression* ">
 
 **Script Syntax**
 

@@ -17,9 +17,9 @@ The MIDL compiler can generate code for different platforms and system releases.
 
 Run the MIDL compiler from the command line using the following command:
 
-**midl** *<***options***&gt;* **filename.idl**
+**midl** *<***options***>* **filename.idl**
 
-where *<***options***&gt;* represents the command-line options you want to use, and Filename.idl is the name of the MIDL file to compile.
+where *<***options***>* represents the command-line options you want to use, and Filename.idl is the name of the MIDL file to compile.
 
 A complete listing of MIDL compiler switches and options is available when you use the MIDL compiler [**/help**](-help-.md) and /? switches. The switches are organized by categories. For details, see the [MIDL Command-Line Reference](midl-command-line-reference.md).
 

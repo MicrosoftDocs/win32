@@ -26,7 +26,7 @@ Defines the join style of a polyline. Read/write. String.
 
 **Tag Syntax**
 
-<v: *element* joinstyle=" *expression* "&gt;
+<v: *element* joinstyle=" *expression* ">
 
 **Script Syntax**
 

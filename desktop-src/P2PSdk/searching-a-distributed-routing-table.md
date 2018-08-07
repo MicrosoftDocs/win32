@@ -29,7 +29,7 @@ The quantity and range of the results returned by the search are specified by th
 
 When **cMaxEndpoints = 1**, the DRT infrastructure searches for a key, returning one match within the range specified by the **pMinimumKey** and **pMaximumKey** values in [**DRT\_SEARCH\_INFO**](/windows/desktop/api/drt/ns-drt-drt_search_info_tag). This match can be either an exact match or the nearest match within range. If a match is not found, **DRT\_E\_NO\_MORE** is returned.
 
-If **cMaxEndpoints &gt; 1**, the DRT infrastructure will return matches within the range up to the value of **cMaxEndpoints**. The returned matches can contain an exact match or the nearest match results within range. Additionally, if **pMinimumKey** and **pMaximumKey** are set to the same value, a search is carried out only for that value, returning **DRT\_E\_NO\_MORE** if it is not found.
+If **cMaxEndpoints > 1**, the DRT infrastructure will return matches within the range up to the value of **cMaxEndpoints**. The returned matches can contain an exact match or the nearest match results within range. Additionally, if **pMinimumKey** and **pMaximumKey** are set to the same value, a search is carried out only for that value, returning **DRT\_E\_NO\_MORE** if it is not found.
 
 ## fAnyMatchInRange
 

@@ -18,8 +18,8 @@ A description of the profile.
 
 ## Element hierarchy
 
-[<MBNProfileExt&gt;](element-mbnprofileext.md)  
-**<Description&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+**<Description>**
 
 ## Syntax
 

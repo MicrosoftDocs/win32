@@ -26,7 +26,7 @@ Defines the length of the callout. Read/write. **VgNumber**.
 
 **Tag Syntax**
 
-<o: *element* length=" *expression* "&gt;
+<o: *element* length=" *expression* ">
 
 **Remarks**
 

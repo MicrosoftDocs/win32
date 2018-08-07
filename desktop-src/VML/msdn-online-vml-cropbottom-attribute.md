@@ -26,7 +26,7 @@ Defines the percentage of picture removal from the bottom side. Read/write. **Vg
 
 **Tag Syntax**
 
-<v: *element* cropbottom=" *expression* "&gt;
+<v: *element* cropbottom=" *expression* ">
 
 **Script Syntax**
 

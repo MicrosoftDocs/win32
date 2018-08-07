@@ -26,7 +26,7 @@ Defines a set of points that make up a polyline. Read/write. [IVgPoints](msdn-on
 
 **Tag Syntax**
 
-<v: *element* points=" *expression* "&gt;
+<v: *element* points=" *expression* ">
 
 **Script Syntax**
 

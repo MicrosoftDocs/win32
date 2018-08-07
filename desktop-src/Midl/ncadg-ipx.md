@@ -52,7 +52,7 @@ The following restrictions apply to the datagram protocols, **ncadg\_ipx** and [
 
 When using the **ncadg\_ipx** transport, the server name is exactly the same as the 32-bit Windows server name. However, since the names are distributed using Novell protocols, they must conform to the Novell naming conventions. If a server name is not a valid Novell name, servers will not be able to create endpoints with the **ncadg\_ipx** transport. The following is a partial list of characters prohibited in Novell server names:
 
-" \* + . / : ; < = &gt; ? \[ \] \\ \|
+" \* + . / : ; < = > ? \[ \] \\ \|
 
 The **ncadg\_ipx** transport is supported by the version of NWLink supplied with MS Client 3.0.
 

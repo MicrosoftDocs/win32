@@ -26,7 +26,7 @@ Determines where the drop of a callout will be placed. Read/write. **String**.
 
 **Tag Syntax**
 
-<o: *element* drop=" *expression* "&gt;
+<o: *element* drop=" *expression* ">
 
 **Remarks**
 

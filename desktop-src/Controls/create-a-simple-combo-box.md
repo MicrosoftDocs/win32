@@ -323,8 +323,8 @@ HRESULT DemoApp::Initialize()
         WS_OVERLAPPEDWINDOW,
         CW_USEDEFAULT,
         CW_USEDEFAULT,
-        static_cast<UINT&gt;(ceil(640.f * dpiX / 96.f)),
-        static_cast<UINT&gt;(ceil(480.f * dpiY / 96.f)),
+        static_cast<UINT>(ceil(640.f * dpiX / 96.f)),
+        static_cast<UINT>(ceil(480.f * dpiY / 96.f)),
         NULL,
         NULL,
         HINST_THISCOMPONENT,
@@ -419,7 +419,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
     if (message == WM_CREATE)
     {
         LPCREATESTRUCT pcs = (LPCREATESTRUCT)lParam;
-        DemoApp *pDemoApp = (DemoApp *)pcs-&gt;lpCreateParams;
+        DemoApp *pDemoApp = (DemoApp *)pcs->lpCreateParams;
 
         ::SetWindowLongPtrW(
             hwnd,
@@ -431,7 +431,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
     }
     else
     {
-        DemoApp *pDemoApp = reinterpret_cast<DemoApp *&gt;(static_cast<LONG_PTR&gt;(
+        DemoApp *pDemoApp = reinterpret_cast<DemoApp *>(static_cast<LONG_PTR>(
             ::GetWindowLongPtrW(
                 hwnd,
                 GWLP_USERDATA

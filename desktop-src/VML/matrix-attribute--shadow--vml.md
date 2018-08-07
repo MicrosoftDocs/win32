@@ -26,7 +26,7 @@ Defines a perspective transform for a shadow. Read/write. **String**.
 
 **Tag Syntax**
 
-<v: *element* matrix=" *expression* "&gt;
+<v: *element* matrix=" *expression* ">
 
 **Script Syntax**
 

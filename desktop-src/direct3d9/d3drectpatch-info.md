@@ -112,8 +112,8 @@ Member of the [**D3DBASISTYPE**](https://msdn.microsoft.com/en-us/library/Bb1725
 | Value                 | Order supported            | Width and height                  |
 |-----------------------|----------------------------|-----------------------------------|
 | D3DBASIS\_BEZIER      | Linear, cubic, and quintic | Width = height = (DWORD)order + 1 |
-| D3DBASIS\_BSPLINE     | Linear, cubic, and quintic | Width = height &gt; (DWORD)order  |
-| D3DBASIS\_INTERPOLATE | Cubic                      | Width = height &gt; (DWORD)order  |
+| D3DBASIS\_BSPLINE     | Linear, cubic, and quintic | Width = height > (DWORD)order  |
+| D3DBASIS\_INTERPOLATE | Cubic                      | Width = height > (DWORD)order  |
 
 
 

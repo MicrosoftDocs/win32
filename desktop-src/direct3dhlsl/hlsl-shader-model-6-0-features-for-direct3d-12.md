@@ -38,7 +38,7 @@ Potential use cases include: stream compaction, reductions, block transpose, bit
 
 Most of the intrinsics appear in pixel shaders and compute shaders, though there are some exceptions (noted for each function). The functions have been added to the requirements for DirectX Feature Level 12.0, under API level 12.
 
-The *<type&gt;* parameter and return value for these functions implies the type of the expression, the supported types are those from the following list that are *also* present in the target shader model for your app:
+The *<type>* parameter and return value for these functions implies the type of the expression, the supported types are those from the following list that are *also* present in the target shader model for your app:
 
 -   half, half2, half3, half4
 -   float, float2, float3, float4
@@ -167,7 +167,7 @@ These intrinsics apply the operation to each lane and leave each partial result 
 
 These intrinsics perform swap operations on the values across a wave known to contain pixel shader quads as defined here. The indices of the pixels in the quad are defined in scan-line or reading order - where the coordinates within a quad are:
 
-<dl> +---------&gt; X  
+<dl> +---------> X  
 \| \[0\] \[1\]  
 \| \[2\] \[3\]  
 v  

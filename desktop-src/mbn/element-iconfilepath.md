@@ -20,8 +20,8 @@ For more details on using this element, see the v1 documentation for [**ICONFile
 
 ## Element hierarchy
 
-[<MBNProfileExt&gt;](element-mbnprofileext.md)  
-**<ICONFilePath&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+**<ICONFilePath>**
 
 ## Syntax
 

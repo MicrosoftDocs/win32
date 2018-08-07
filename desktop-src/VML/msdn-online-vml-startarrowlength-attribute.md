@@ -26,7 +26,7 @@ Defines the arrowhead length for the start of a line. Read/write. **VgArrowheadL
 
 **Tag Syntax**
 
-<v: *element* startarrowlength=" *expression* "&gt;
+<v: *element* startarrowlength=" *expression* ">
 
 **Script Syntax**
 

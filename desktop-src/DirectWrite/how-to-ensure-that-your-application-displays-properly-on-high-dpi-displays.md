@@ -27,11 +27,11 @@ This can be done by using [Direct2D](https://msdn.microsoft.com/en-us/library/Dd
 
 The [**ID2D1Factory**](https://msdn.microsoft.com/library/windows/desktop/dd371246) interface provides the [**GetDesktopDpi**](https://msdn.microsoft.com/library/windows/desktop/dd371316) method for retrieving the system DPI. It provides the horizontal and vertical dimensions of the display in dots per inch (DPI). To use these values to set the width of a window, use the following formula:
 
-<*horizontal DPI*&gt; \* <*width*, in pixels&gt; / <*default horizontal DPI*&gt;
+<*horizontal DPI*> \* <*width*, in pixels> / <*default horizontal DPI*>
 
 ...where *horizontal DPI* is the value retrived by GetDpi and *default horizontal DPI* is 96. The formula is similar for the vertical size:
 
-<*vertical DPI*&gt; \* <*height*, in pixels&gt; / <*default vertical DPI*&gt;
+<*vertical DPI*> \* <*height*, in pixels> / <*default vertical DPI*>
 
 ...where *vertical DPI* is the value retrieved by the [**GetDesktopDpi**](https://msdn.microsoft.com/library/windows/desktop/dd371316) method and *default vertical DPI* is 96.
 

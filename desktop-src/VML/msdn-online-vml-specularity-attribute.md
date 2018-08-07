@@ -26,7 +26,7 @@ Defines the specularity of an extruded shape. Read/write. **VgNumber**.
 
 **Tag Syntax**
 
-<o: *element* specularity=" *expression* "&gt;
+<o: *element* specularity=" *expression* ">
 
 **Script Syntax**
 

@@ -1967,7 +1967,7 @@ Next
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>//be sure to References-&gt;Add-&gt;System.Management to your project
+<td><pre><code>//be sure to References->Add->System.Management to your project
 using System.Management;
 ...
 {
@@ -2036,7 +2036,7 @@ Next
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>//be sure to References-&gt;Add-&gt;System.Management to your project
+<td><pre><code>//be sure to References->Add->System.Management to your project
 using System.Management;
 ...
 

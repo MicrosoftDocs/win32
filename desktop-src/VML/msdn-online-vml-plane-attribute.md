@@ -26,7 +26,7 @@ Specifies the plane that is at right angles to the extrusion. Read/write. **Stri
 
 **Tag Syntax**
 
-<o: *element* plane=" *expression* "&gt;
+<o: *element* plane=" *expression* ">
 
 **Script Syntax**
 

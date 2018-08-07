@@ -66,7 +66,7 @@ The following table lists frequently used search filter operators.
 | =                | Equal to                                   |
 | ~=               | Approximately equal to                     |
 | <=            | Lexicographically less than or equal to    |
-| &gt;=            | Lexicographically greater than or equal to |
+| >=            | Lexicographically greater than or equal to |
 | &                | AND                                        |
 | \|               | OR                                         |
 | !                | NOT                                        |
@@ -84,7 +84,7 @@ In addition to the operators above, LDAP defines two matching rule object identi
 
 
 
-"<attribute name&gt;" is the **lDAPDisplayName** of the attribute, "<rule OID&gt;" is the OID for the matching rule, and "<value&gt;" is the value to use for comparison. Be aware that spaces cannot be used in this string. "<value&gt;" must be a decimal number; it cannot be a hexadecimal number or a constant name such as **ADS\_GROUP\_TYPE\_SECURITY\_ENABLED**. For more information about the available Active Directory attributes, see [All Attributes](https://msdn.microsoft.com/library/ms675090).
+"<attribute name>" is the **lDAPDisplayName** of the attribute, "<rule OID>" is the OID for the matching rule, and "<value>" is the value to use for comparison. Be aware that spaces cannot be used in this string. "<value>" must be a decimal number; it cannot be a hexadecimal number or a constant name such as **ADS\_GROUP\_TYPE\_SECURITY\_ENABLED**. For more information about the available Active Directory attributes, see [All Attributes](https://msdn.microsoft.com/library/ms675090).
 
 The following table lists the matching rule OIDs implemented by LDAP.
 
@@ -222,9 +222,9 @@ The formal definition of the search filter is as follows (from RFC 1960):
 
 
 
-The token <attr&gt; is a string that represents an AttributeType. The token <value&gt; is a string that represents an AttributeValue whose format is defined by the underlying directory service.
+The token <attr> is a string that represents an AttributeType. The token <value> is a string that represents an AttributeValue whose format is defined by the underlying directory service.
 
-If a <value&gt; must contain the asterisk (\*), left parenthesis ((), or right parenthesis ()) character, the character should be preceded by the backslash escape character (\).
+If a <value> must contain the asterisk (\*), left parenthesis ((), or right parenthesis ()) character, the character should be preceded by the backslash escape character (\).
 
 ## Special Characters
 

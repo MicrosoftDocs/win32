@@ -108,7 +108,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 | Description    | A GUID representing the partition. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) property method is called on an object of this collection. |
 | Access         | WriteOnce                                                                                                                                                          |
 | Type           | String                                                                                                                                                             |
-| Default        | <Generated&gt;                                                                                                                                                  |
+| Default        | <Generated>                                                                                                                                                  |
 | Minimum system | Windows Server 2003                                                                                                                                                |
 
 

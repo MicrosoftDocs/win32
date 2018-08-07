@@ -26,7 +26,7 @@ Defines a name that provides a unique identifier for an image. Read/write. **Str
 
 **Tag Syntax**
 
-<v: *element* id=" *expression* "&gt;
+<v: *element* id=" *expression* ">
 
 **Script Syntax**
 

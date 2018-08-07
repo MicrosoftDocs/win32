@@ -15,7 +15,7 @@ The manager routine of an asynchronous function always receives the asynchronous
 
 The server sends asynchronous pipe data in the same manner as the client. See [Client-Side Asynchronous Pipe Handling](client-side-asynchronous-pipe-handling.md).
 
-The server receives asynchronous pipe data in the same manner as the client. If the receive mechanism is asynchronous procedure calls (APCs), the server must specify a thread handle (in pAsync-&gt;u.APC.hThread) and register the asynchronous handle with the run-time library.
+The server receives asynchronous pipe data in the same manner as the client. If the receive mechanism is asynchronous procedure calls (APCs), the server must specify a thread handle (in pAsync->u.APC.hThread) and register the asynchronous handle with the run-time library.
 
 ## Example
 

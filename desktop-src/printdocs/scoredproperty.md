@@ -17,7 +17,7 @@ A ScoredProperty element declares a property that is intrinsic to an Option defi
 
 ## Element Tag
 
-<ScoredProperty&gt;
+<ScoredProperty>
 
 ## XML Attributes
 

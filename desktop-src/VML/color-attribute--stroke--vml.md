@@ -26,7 +26,7 @@ Defines the color of a stroke. Read/write. **VgColor**.
 
 **Tag Syntax**
 
-<v: *element* color=" *expression* "&gt;
+<v: *element* color=" *expression* ">
 
 **Script Syntax**
 

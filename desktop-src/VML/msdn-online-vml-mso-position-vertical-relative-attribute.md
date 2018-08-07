@@ -26,7 +26,7 @@ Specifies relative vertical position data for objects in Microsoft Word. Read/wr
 
 **Tag Syntax**
 
-<v: *element* o:mso-position-vertical-relative=" *expression* "&gt;
+<v: *element* o:mso-position-vertical-relative=" *expression* ">
 
 **Remarks**
 

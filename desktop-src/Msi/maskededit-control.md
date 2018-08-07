@@ -15,9 +15,9 @@ The MaskedEdit Control is an edit field control that contains a mask in the text
 
 You can use the MaskedEdit Control to create a template for user entry of information such as a telephone number or Product ID code. For example, the [**PIDKEY**](pidkey.md) Property can be entered by the user through a MaskedEdit Control that is specified by setting the [**PIDTemplate**](pidtemplate.md) Property to a string like the following:
 
-12345<\#\#\# -%%%%%%%&gt;@@@@@
+12345<\#\#\# -%%%%%%%>@@@@@
 
-The string defines the masking template for the entry of the [**PIDKEY**](pidkey.md) Property by the user. The visible segment of the string is enclosed by a pair of bracket (<&gt;) characters.
+The string defines the masking template for the entry of the [**PIDKEY**](pidkey.md) Property by the user. The visible segment of the string is enclosed by a pair of bracket (<>) characters.
 
 The following table identified the syntax of the mask.
 
@@ -26,7 +26,7 @@ The following table identified the syntax of the mask.
 | Character | Meaning                                                                                                                                                                                                                                                                                     |
 |-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <      | The left end of the visible segment of the template. This character and everything to its left are hidden in the user interface. There should be no more than one instance of this character in the template.                                                                               |
-| &gt;      | The right end of the visible segment of the template. This character and everything to its right are hidden in the user interface. This character is replaced by a dash during validation. If there is a visible segment begins with <, then it must be terminated with a matching &gt;. |
+| >      | The right end of the visible segment of the template. This character and everything to its right are hidden in the user interface. This character is replaced by a dash during validation. If there is a visible segment begins with <, then it must be terminated with a matching >. |
 | \#        | This character can be a digit (numeral.)                                                                                                                                                                                                                                                    |
 | %         | This character can be an alternate digit (numeral) that enables the mask to control the way a custom action differentiates fields.                                                                                                                                                          |
 | @         | This character can be a random digit (numeral.) This character should not appear in the visible part of the template.                                                                                                                                                                       |

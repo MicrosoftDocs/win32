@@ -72,10 +72,10 @@ To fix this warning, name the action the same as the target directory. Note that
 
 | Component               | Directory          |
 |-------------------------|--------------------|
-| Component1.<GUID&gt; | ProgramFilesFolder |
-| Component2.<GUID&gt; | StartMenuFolder    |
-| Component3.<GUID&gt; | AppDataFolder      |
-| Component4.<GUID&gt; | MyPicturesFolder   |
+| Component1.<GUID> | ProgramFilesFolder |
+| Component2.<GUID> | StartMenuFolder    |
+| Component3.<GUID> | AppDataFolder      |
+| Component4.<GUID> | MyPicturesFolder   |
 
 
 
@@ -87,8 +87,8 @@ To fix this warning, name the action the same as the target directory. Note that
 
 | CustomAction                 | Type | Source                       | Target              |
 |------------------------------|------|------------------------------|---------------------|
-| StartMenuFolder.<GUID&gt; | 51   | StartMenuFolder.<GUID&gt; | \[StartMenuFolder\] |
-| MyAppDataFolderAction        | 51   | AppDataFolder.<GUID&gt;   | \[AppDataFolder\]   |
+| StartMenuFolder.<GUID> | 51   | StartMenuFolder.<GUID> | \[StartMenuFolder\] |
+| MyAppDataFolderAction        | 51   | AppDataFolder.<GUID>   | \[AppDataFolder\]   |
 
 
 
@@ -100,7 +100,7 @@ To fix this warning, name the action the same as the target directory. Note that
 
 | Action                       | Sequence | BaseAction | After | Condition |
 |------------------------------|----------|------------|-------|-----------|
-| StartMenuFolder.<GUID&gt; | 100      |            |       |           |
+| StartMenuFolder.<GUID> | 100      |            |       |           |
 
 
 

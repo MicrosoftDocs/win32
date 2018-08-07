@@ -40,13 +40,13 @@ This function enables you to enumerate the names of the animations for a charact
    VARIANT vAnimName;
    DWORD dwRetrieved;
 
-   hRes = punkEnum-&gt;QueryInterface(IID_IEnumVARIANT, (LPVOID *)&amp;pEnum);
+   hRes = punkEnum->QueryInterface(IID_IEnumVARIANT, (LPVOID *)&amp;pEnum);
 
    if (SUCCEEDED(hRes)) {
 
       while (TRUE) {
 
-         hRes = pEnum-&gt;Next(1, &amp;vAnimName, &amp;dwRetrieved);
+         hRes = pEnum->Next(1, &amp;vAnimName, &amp;dwRetrieved);
 
          if (hRes != NOERROR)
             break;
@@ -56,10 +56,10 @@ This function enables you to enumerate the names of the animations for a charact
          VariantClear(&amp;vAnimName);
       } 
 
-      pEnum-&gt;Release();
+      pEnum->Release();
    }
 
-   punkEnum-&gt;Release();
+   punkEnum->Release();
 ```
 
 

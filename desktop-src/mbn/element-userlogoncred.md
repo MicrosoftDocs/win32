@@ -18,15 +18,15 @@ Logon credentials for a connection.
 
 ## Element hierarchy
 
-[<MBNProfileExt&gt;](element-mbnprofileext.md)  
-[<Context&gt;](element-context.md)  
-**<UserLogonCred&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+[<Context>](element-context.md)  
+**<UserLogonCred>**
 
 <!-- -->
 
-[<ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
-[<Context&gt;](element-1-context.md)  
-**<UserLogonCred&gt;**
+[<ModemDMConfigProfile>](element-modemdmconfigprofile.md)  
+[<Context>](element-1-context.md)  
+**<UserLogonCred>**
 
 ## Syntax
 

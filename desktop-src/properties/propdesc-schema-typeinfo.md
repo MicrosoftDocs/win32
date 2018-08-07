@@ -322,7 +322,7 @@ A property whose <em>isInnate</em> value is &quot;false&quot; (meaning that the 
 </tr>
 <tr class="even">
 <td>isGroup</td>
-<td>Public. Optional. Default is &quot;false&quot;. Specifies whether the property is a group heading. A group heading is strictly used in proplists, has no value, is never stored in a file, and should also have <typeInfo type=&quot;Null&quot;&gt;. Some UI in the system use proplists to indicate the sequence of the properties to display. These proplists may include references to group headings (eg, System.PropGroup.Camera), which tell the UI to start a new group section (eg, &quot;Camera Settings&quot;). A property description with isGroup=&quot;true&quot; should specify a <labelInfo label=&quot;Some localized label&quot;&gt;, otherwise it isn't a useful property. This value maps to the PDTF_ISGROUP flag defined in [<strong>PROPDESC_TYPE_FLAGS</strong>](https://msdn.microsoft.com/library/Bb762527(v=VS.85).aspx>) and used in [<strong>IPropertyDescription::GetTypeFlags</strong>](https://msdn.microsoft.com/library/Bb761556(v=VS.85).aspx>).</td>
+<td>Public. Optional. Default is &quot;false&quot;. Specifies whether the property is a group heading. A group heading is strictly used in proplists, has no value, is never stored in a file, and should also have <typeInfo type=&quot;Null&quot;>. Some UI in the system use proplists to indicate the sequence of the properties to display. These proplists may include references to group headings (eg, System.PropGroup.Camera), which tell the UI to start a new group section (eg, &quot;Camera Settings&quot;). A property description with isGroup=&quot;true&quot; should specify a <labelInfo label=&quot;Some localized label&quot;>, otherwise it isn't a useful property. This value maps to the PDTF_ISGROUP flag defined in [<strong>PROPDESC_TYPE_FLAGS</strong>](https://msdn.microsoft.com/library/Bb762527(v=VS.85).aspx>) and used in [<strong>IPropertyDescription::GetTypeFlags</strong>](https://msdn.microsoft.com/library/Bb761556(v=VS.85).aspx>).</td>
 </tr>
 <tr class="odd">
 <td>aggregationType</td>
@@ -406,7 +406,7 @@ A property whose <em>isInnate</em> value is &quot;false&quot; (meaning that the 
 <tbody>
 <tr class="odd">
 <td>String</td>
-<td>Default. The following operators will be used: &quot;is&quot;, &quot;is not&quot;, &quot;<&quot;, &quot;&gt;&quot;, &quot;<=&quot;, &quot;&gt;=&quot;, &quot;starts with&quot;, &quot;ends with&quot;, &quot;contains&quot;, &quot;doesn't contain&quot;, &quot;is like&quot;.</td>
+<td>Default. The following operators will be used: &quot;is&quot;, &quot;is not&quot;, &quot;<&quot;, &quot;>&quot;, &quot;<=&quot;, &quot;>=&quot;, &quot;starts with&quot;, &quot;ends with&quot;, &quot;contains&quot;, &quot;doesn't contain&quot;, &quot;is like&quot;.</td>
 </tr>
 <tr class="even">
 <td>Number</td>

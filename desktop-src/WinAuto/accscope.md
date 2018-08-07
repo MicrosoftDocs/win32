@@ -25,7 +25,7 @@ The AccScope tool enables developers and testers to evaluate the accessibility o
 
 ## About AccScope
 
-AccScope is installed with the Windows Software Development Kit (SDK). It is located in the \\bin\\<*version*&gt;\\<*platform*&gt;\\AccScope folder of the SDK installation path. Run the program AccScope.exe.
+AccScope is installed with the Windows Software Development Kit (SDK). It is located in the \\bin\\<*version*>\\<*platform*>\\AccScope folder of the SDK installation path. Run the program AccScope.exe.
 
 AccScope is a desktop app, not a Windows Store app. You can use it to look at any app that appears as a window, including a desktop app, or a Windows Store app.
 

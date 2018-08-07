@@ -229,16 +229,16 @@ In this example, a menu drop-down button is used to make a context menu visible.
 Run  
 Play  
 Print  
-<separator&gt;  
-</dl> </dd> <dd>Secondary commands supported by the object<dl> <separator&gt;  
+<separator>  
+</dl> </dd> <dd>Secondary commands supported by the object<dl> <separator>  
 </dl> </dd> Transfer commands<dl> Cut  
 Copy  
 Paste  
-<separator&gt;  
-</dl> </dd> <dd>Object settings<dl> <separator&gt;  
+<separator>  
+</dl> </dd> <dd>Object settings<dl> <separator>  
 </dl> </dd> Object commands<dl> Delete  
 Rename  
-<separator&gt;  
+<separator>  
 Properties  
 </dl> </dd> </dl>
 
@@ -313,7 +313,7 @@ For more guidelines and examples, see [Keyboard](inter-keyboard.md).
     -   **Use function keys for commands that have a small-scale effect,** such as commands that apply to the selected object. For example, F2 renames the selected item.
     -   **Use Ctrl key combinations for commands that have a large-scale effect,** such as commands that apply to an entire document. For example, Ctrl+S saves the current document.
     -   **Use Shift key combinations for commands that extend or complement the actions of the standard shortcut key.** For example, the Alt+Tab shortcut key cycles through open primary windows, whereas Alt+Shift+Tab cycles in the reverse order. Similarly, F1 displays Help, whereas Shift+F1 display context-sensitive Help.
-    -   **Don't use the following characters for shortcut keys:** @ $ {} \[\] \\ ~ \| ^ ' < &gt;. These characters require different key combinations across languages or are locale specific.
+    -   **Don't use the following characters for shortcut keys:** @ $ {} \[\] \\ ~ \| ^ ' < >. These characters require different key combinations across languages or are locale specific.
     -   **Don't use Ctrl+Alt combinations,** because Windows interprets this combination in some language versions as an AltGR key, which generates alphanumeric characters.
 -   **If your program assigns many shortcut keys, provide the ability to customize the assignments.** Doing so allows users to reassign conflicting shortcut keys and migrate from other products. Most programs don't assign enough shortcut keys to need this feature.
 
@@ -331,51 +331,51 @@ The standard menu bar structure is as follows. This list shows the menu category
 <dl> File<dl> New Ctrl+N  
 Open... Ctrl+O  
 Close  
-<separator&gt;  
+<separator>  
 Save Ctrl+S  
 Save as...  
-<separator&gt;  
+<separator>  
 Send to  
-<separator&gt;  
+<separator>  
 Print... Ctrl+P  
 Print preview  
 Page setup  
-<separator&gt;  
-1 <filename&gt;  
-2 <filename&gt;  
-3 <filename&gt;  
+<separator>  
+1 <filename>  
+2 <filename>  
+3 <filename>  
 ...  
-<separator&gt;  
+<separator>  
 Exit Alt+F4 (shortcut usually not given)  
 </dl> </dd> Edit<dl> Undo Ctrl+Z  
 Redo Ctrl+Y  
-<separator&gt;  
+<separator>  
 Cut Ctrl+X  
 Copy Ctrl+C  
 Paste Ctrl+V  
-<separator&gt;  
+<separator>  
 Select all Ctrl+A  
-<separator&gt;  
+<separator>  
 Delete Del (shortcut usually not given)  
-<separator&gt;  
+<separator>  
 Find... Ctrl+F  
 Find next F3 (command usually not given)  
 Replace... Ctrl+H  
 Go to... Ctrl+G  
 </dl> </dd> View<dl> Toolbars  
 Status bar  
-<separator&gt;  
+<separator>  
 </dl> </dd> Zoom<dl> Zoom in Ctrl++  
 Zoom out Ctrl+-  
-<separator&gt;  
+<separator>  
 Full screen F11  
 Refresh F5  
 </dl> </dd> <dd>Tools<dl> ...  
-<separator&gt;  
+<separator>  
 Options  
-</dl> </dd> Help<dl> <program name&gt; help F1  
-<separator&gt;  
-About <program name&gt;  
+</dl> </dd> Help<dl> <program name> help F1  
+<separator>  
+About <program name>  
 </dl> </dd> </dl>
 
 **Standard toolbar menu buttons**
@@ -384,28 +384,28 @@ The standard toolbar menu buttons are as follows. This list shows the menu categ
 
 <dl> Tools<dl> Full screenF11(Reassign access key if Find is also used.)  
 Toolbars(Note that the Menu bar command goes here.)  
-<separator&gt;  
+<separator>  
 Print...  
 Find...  
-<separator&gt;  
+<separator>  
 Zoom  
 Text size  
-<separator&gt;  
+<separator>  
 Options  
 </dl> </dd> Organize<dl> New folderCtrl+N  
-<separator&gt;  
+<separator>  
 CutCtrl+X  
 CopyCtrl+C  
 PasteCtrl+V  
-<separator&gt;  
+<separator>  
 Select allCtrl+A  
-<separator&gt;  
+<separator>  
 DeleteDel(shortcut usually not given)  
 Rename  
-<separator&gt;  
+<separator>  
 Options  
 </dl> </dd> Page<dl> New windowCtrl+N  
-<separator&gt;  
+<separator>  
 Zoom  
 Text size  
 </dl> </dd> </dl>
@@ -419,15 +419,15 @@ Run
 Play  
 Edit  
 Print...  
-<separator&gt;  
+<separator>  
 Cut  
 Copy  
 Paste  
-<separator&gt;  
+<separator>  
 Delete  
 Rename  
-<separator&gt;  
-Lock the <object name&gt;(checkmark)  
+<separator>  
+Lock the <object name>(checkmark)  
 Properties  
 </dl>
 
@@ -526,7 +526,7 @@ When referring to menus:
 
 -   In commands that show or hide menus, refer to menu bars. Don't refer to them as classic menus.
 -   Refer to menus by their labels. Use the exact label text, including its capitalization, but don't include the access key underscore or ellipsis.
--   To refer to menu categories, use "On the <category name&gt; menu." If the location of a menu item is clear from the context, you don't need to mention the menu category.
+-   To refer to menu categories, use "On the <category name> menu." If the location of a menu item is clear from the context, you don't need to mention the menu category.
 -   To describe user interaction of menu items, use click, without the word menu or command. Don't use choose, select, or pick. Don't refer to a menu item as a menu item except in technical documentation.
 -   To describe removing a check mark from a menu option, use click to remove the check mark. Don't use clear.
 -   Refer to context menus as context menus, not shortcut menus.

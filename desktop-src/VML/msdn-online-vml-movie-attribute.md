@@ -26,7 +26,7 @@ Defines a pointer to a movie image. Read/write. **VgNumber**.
 
 **Tag Syntax**
 
-<v: *element* o:movie=" *expression* "&gt;
+<v: *element* o:movie=" *expression* ">
 
 **Remarks**
 

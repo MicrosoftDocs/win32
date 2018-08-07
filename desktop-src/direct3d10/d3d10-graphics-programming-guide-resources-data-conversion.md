@@ -94,12 +94,12 @@ The following table describes conversions from various representations described
 <ul>
 <li>Let c represent the starting value.</li>
 <li>If c is NaN, the result is 0.</li>
-<li>If c &gt; 1.0f, including INF, it is clamped to 1.0f.</li>
+<li>If c > 1.0f, including INF, it is clamped to 1.0f.</li>
 <li>If c < -1.0f, including -INF, it is clamped to -1.0f.</li>
 <li>Convert from float scale to integer scale: c = c * (2ⁿ⁻¹-1).</li>
 <li>Convert to an integer as follows.
 <ul>
-<li>If c &gt;= 0 then c = c + 0.5f, otherwise, c = c - 0.5f.</li>
+<li>If c >= 0 then c = c + 0.5f, otherwise, c = c - 0.5f.</li>
 <li>Drop the decimal fraction, and the remaining floating point (integral) value is converted directly to an integer.</li>
 </ul></li>
 </ul>
@@ -116,7 +116,7 @@ This conversion is permitted a tolerance of D3D<em>xx</em>_FLOAT32_TO_INTEGER_TO
 <td>Let c represent the starting value.<br/>
 <ul>
 <li>If c is NaN, the result is 0.</li>
-<li>If c &gt; 1.0f, including INF, it is clamped to 1.0f.</li>
+<li>If c > 1.0f, including INF, it is clamped to 1.0f.</li>
 <li>If c < 0.0f, including -INF, it is clamped to 0.0f.</li>
 <li>Convert from float scale to integer scale: c = c * (2ⁿ-1).</li>
 <li>Convert to integer.
@@ -141,11 +141,11 @@ This conversion is permitted a tolerance of D3D<em>xx</em>_SRGB_TO_FLOAT_TOLERAN
 <tr class="even">
 <td>FLOAT</td>
 <td>SRGB</td>
-<td>The following is the ideal FLOAT -&gt; SRGB conversion.<br/> Assuming the target SRGB color component has n bits:<br/>
+<td>The following is the ideal FLOAT -> SRGB conversion.<br/> Assuming the target SRGB color component has n bits:<br/>
 <ul>
 <li>Suppose the starting value is c.</li>
 <li>If c is NaN, the result is 0.</li>
-<li>If c &gt; 1.0f, including INF, is clamped to 1.0f.</li>
+<li>If c > 1.0f, including INF, is clamped to 1.0f.</li>
 <li>If c < 0.0f, including -INF, it is clamped to 0.0f.</li>
 <li>If (c <= D3D<em>xx</em>_FLOAT_TO_SRGB_THRESHOLD) then: c = D3D<em>xx</em>_FLOAT_TO_SRGB_SCALE_1 * c, else: c = D3D<em>xx</em>_FLOAT_TO_SRGB_SCALE_2 * c(D3D<em>xx</em>_FLOAT_TO_SRGB_EXPONENT_NUMERATOR/D3D<em>xx</em>_FLOAT_TO_SRGB_EXPONENT_DENOMINATOR) - D3D<em>xx</em>_FLOAT_TO_SRGB_OFFSET</li>
 <li>Convert from float scale to integer scale: c = c * (2ⁿ-1).</li>
@@ -228,7 +228,7 @@ Fixed point integer representations are used in two ways in Direct3D.
 <li>Compute FixedMin = -2⁽ⁱ⁻¹⁾</li>
 <li>Compute FixedMax = 2⁽ⁱ⁻¹⁾ - 2<sup>(-f)</sup></li>
 <li>If n is a NaN, result = 0; if n is +Inf, result = FixedMax*2<sup>f</sup>; if n is -Inf, result = FixedMin*2<sup>f</sup></li>
-<li>If n &gt;= FixedMax, result = Fixedmax*2<sup>f</sup>; if n <= FixedMin, result = FixedMin*2<sup>f</sup></li>
+<li>If n >= FixedMax, result = Fixedmax*2<sup>f</sup>; if n <= FixedMin, result = FixedMin*2<sup>f</sup></li>
 <li>Else compute n*2<sup>f</sup> and convert to integer.</li>
 </ul>
 Implementations are permitted D3D<em>xx</em>_FLOAT32_TO_INTEGER_TOLERANCE_IN_ULP Unit-Last-Place tolerance in the integer result, instead of the infinitely precise value n*2<sup>f</sup> after the last step above.<br/></td>
@@ -236,7 +236,7 @@ Implementations are permitted D3D<em>xx</em>_FLOAT32_TO_INTEGER_TOLERANCE_IN_ULP
 <tr class="even">
 <td>Fixed Point Integer</td>
 <td>FLOAT</td>
-<td>Assume that the specific fixed point representation being converted to float does not contain more than a total of 24 bits of information, no more than 23 bits of which is in the fractional component. Suppose a given fixed point number, fxp, is in i.f form (i bits integer, f bits fraction). The conversion to float is akin to the following pseudocode.<br/> float result = (float)(fxp &gt;&gt; f) + // extract integer<br/> <dl> ((float)(fxp & (2<sup>f</sup> - 1)) / (2<sup>f</sup>)); // extract fraction<br />
+<td>Assume that the specific fixed point representation being converted to float does not contain more than a total of 24 bits of information, no more than 23 bits of which is in the fractional component. Suppose a given fixed point number, fxp, is in i.f form (i bits integer, f bits fraction). The conversion to float is akin to the following pseudocode.<br/> float result = (float)(fxp >> f) + // extract integer<br/> <dl> ((float)(fxp & (2<sup>f</sup> - 1)) / (2<sup>f</sup>)); // extract fraction<br />
 </dl></td>
 </tr>
 </tbody>

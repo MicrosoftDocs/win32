@@ -558,7 +558,7 @@ IFACEMETHODIMP GetValue(REFPROPERTYKEY key, __out PROPVARIANT *pPropVar)
 
 
 
-If you choose not to delegate to the in-memory cache, you must implement your methods to provide&gt; the following expected behavior:
+If you choose not to delegate to the in-memory cache, you must implement your methods to provide> the following expected behavior:
 
 -   [**IPropertyStore::GetCount**](https://msdn.microsoft.com/library/Bb761472(v=VS.85).aspx): If there are no properties, this method returns **S\_OK**.
 -   [**IPropertyStore::GetAt**](https://msdn.microsoft.com/library/Bb761471(v=VS.85).aspx): If *iProp* is greater than or equal to *cProps*, this method returns E\_INVALIDARG and the structure pointed to by the *pkey* parameter is filled with zeroes.

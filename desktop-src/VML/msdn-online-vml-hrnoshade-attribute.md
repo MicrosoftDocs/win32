@@ -26,7 +26,7 @@ Determines whether a horizontal rule will be displayed with 3-D shading. Read/wr
 
 **Tag Syntax**
 
-<v: *element* o:hrnoshade=" *expression* "&gt;
+<v: *element* o:hrnoshade=" *expression* ">
 
 **Remarks**
 

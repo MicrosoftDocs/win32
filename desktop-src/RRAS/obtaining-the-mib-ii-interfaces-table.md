@@ -67,8 +67,8 @@ void main()
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>#include <windows.h&gt;
-#include <stdio.h&gt;
+<td><pre><code>#include <windows.h>
+#include <stdio.h>
 #include &quot;Iphlpapi.h&quot;
 
 int __cdecl main(){
@@ -106,13 +106,13 @@ int __cdecl main(){
     if (pMibOpaqueInfo == NULL) 
         return ERROR_SUCCESS; 
     
-    pIntfTable = (PMIB_IFTABLE)pMibOpaqueInfo-&gt;rgbyData;
+    pIntfTable = (PMIB_IFTABLE)pMibOpaqueInfo->rgbyData;
 
     // Print out the name and description of each MIB interface in the table
-    wprintf(L&quot;There were %d MIB table records found:\n&quot;, pIntfTable-&gt;dwNumEntries);
-    for(UINT i=0; i < pIntfTable-&gt;dwNumEntries; i++){
-        wprintf(L&quot;%d\t%s\t&quot;, i, pIntfTable-&gt;table[i].wszName, pIntfTable-&gt;table[i].bDescr);
-        printf(&quot;%s\n&quot;, pIntfTable-&gt;table[i].bDescr);
+    wprintf(L&quot;There were %d MIB table records found:\n&quot;, pIntfTable->dwNumEntries);
+    for(UINT i=0; i < pIntfTable->dwNumEntries; i++){
+        wprintf(L&quot;%d\t%s\t&quot;, i, pIntfTable->table[i].wszName, pIntfTable->table[i].bDescr);
+        printf(&quot;%s\n&quot;, pIntfTable->table[i].bDescr);
     }
 
     return ERROR_SUCCESS;

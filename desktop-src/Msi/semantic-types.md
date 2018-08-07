@@ -20,7 +20,7 @@ The following entries in the Format, Type, and ContextData columns of the [Modul
 | Format | Type       | ContextData                                                 | Description                                                                                                |
 |--------|------------|-------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
 | Text   |            |                                                             | Arbitrary text. See [Arbitrary Text Type](arbitrary-text-type.md).                                        |
-| Text   | Enum       | <A&gt;=<a&gt;;<B&gt;=<b&gt;;<C&gt;=<c&gt; | Value selected from a set. See [Enum Type](enum-type.md).                                                 |
+| Text   | Enum       | <A>=<a>;<B>=<b>;<C>=<c> | Value selected from a set. See [Enum Type](enum-type.md).                                                 |
 | Text   | Formatted  |                                                             | Value meeting the definition of Formatted Text in the installer. See [Formatted Type](formatted-type.md). |
 | Text   | RTF        |                                                             | An RTF text string. See [RTF Type](rtf-type.md).                                                          |
 | Text   | Identifier |                                                             | A text string conforming to a Windows Installer [Identifier](identifier.md).                              |
@@ -71,7 +71,7 @@ The following entries in the Format, Type, and ContextData columns of the [Modul
 
 | Format   | Type | ContextData                                  | Description                                                                                       |
 |----------|------|----------------------------------------------|---------------------------------------------------------------------------------------------------|
-| Bitfield |      | <mask&gt;;<A&gt;=<a&gt;;<B&gt;=b | Changes a subset of bits in a column. See [Arbitrary Bitfield Type](arbitrary-bitfield-type.md). |
+| Bitfield |      | <mask>;<A>=<a>;<B>=b | Changes a subset of bits in a column. See [Arbitrary Bitfield Type](arbitrary-bitfield-type.md). |
 
 
 

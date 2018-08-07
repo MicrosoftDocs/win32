@@ -78,7 +78,7 @@ Here is the code from the [Open dialog box example](example--the-open-dialog-box
 <tbody>
 <tr class="odd">
 <td><pre><code>        hr = CoCreateInstance(CLSID_FileOpenDialog, NULL, CLSCTX_ALL, 
-                IID_IFileOpenDialog, reinterpret_cast<void**&gt;(&pFileOpen));
+                IID_IFileOpenDialog, reinterpret_cast<void**>(&pFileOpen));
 
         if (SUCCEEDED(hr))
         {</code></pre></td>
@@ -99,7 +99,7 @@ Here is the code from the [Open dialog box example](example--the-open-dialog-box
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>            hr = pFileOpen-&gt;Show(NULL);
+<td><pre><code>            hr = pFileOpen->Show(NULL);
 </code></pre></td>
 </tr>
 </tbody>
@@ -121,11 +121,11 @@ Here is the code from the [Open dialog box example](example--the-open-dialog-box
 <td><pre><code>            if (SUCCEEDED(hr))
             {
                 IShellItem *pItem;
-                hr = pFileOpen-&gt;GetResult(&pItem);
+                hr = pFileOpen->GetResult(&pItem);
                 if (SUCCEEDED(hr))
                 {
                     PWSTR pszFilePath;
-                    hr = pItem-&gt;GetDisplayName(SIGDN_FILESYSPATH, &pszFilePath);
+                    hr = pItem->GetDisplayName(SIGDN_FILESYSPATH, &pszFilePath);
 </code></pre></td>
 </tr>
 </tbody>
@@ -149,10 +149,10 @@ Here is the code from the [Open dialog box example](example--the-open-dialog-box
                         MessageBox(NULL, pszFilePath, L&quot;File Path&quot;, MB_OK);
                         CoTaskMemFree(pszFilePath);
                     }
-                    pItem-&gt;Release();
+                    pItem->Release();
                 }
             }
-            pFileOpen-&gt;Release();
+            pFileOpen->Release();
         }
         CoUninitialize();
     }</code></pre></td>

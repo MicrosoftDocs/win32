@@ -31,7 +31,7 @@ Microsoft is deprecating the Windows Mail utility and disabling the API CoStartO
 
 Removal of Windows Mail results in the following:
 
--   All entry points to Windows Mail and Contacts (for example, Start Menu, user-created Shortcuts, Start -&gt; Run, and so on) are removed or disabled. Some of these are completely removed, others will fail when trying to launch.
+-   All entry points to Windows Mail and Contacts (for example, Start Menu, user-created Shortcuts, Start -> Run, and so on) are removed or disabled. Some of these are completely removed, others will fail when trying to launch.
 -   All DLLs ship in the box
 -   Publicly documented APIs continue to work as they did in Windows Vista
 -   Any APIs that attempt to launch the main browser UI have been modified to create a silent failure. The function will return success, but will not show the UI to the user. APIs that call other dialog boxes (for example, the Spooler or the Accounts dialog) continue to show that UI

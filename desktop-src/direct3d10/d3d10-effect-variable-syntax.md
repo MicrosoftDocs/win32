@@ -15,7 +15,7 @@ An effect variable is declared with the following syntax.
 
 ## Syntax
 
-*DataType* *VariableName* \[ : *SemanticName* \] < *Annotations* &gt;;
+*DataType* *VariableName* \[ : *SemanticName* \] < *Annotations* >;
 
 
 

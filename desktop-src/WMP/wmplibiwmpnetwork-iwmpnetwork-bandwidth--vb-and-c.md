@@ -113,7 +113,7 @@ Public Sub player_PlayStateChange(ByVal sender As Object, ByVal e As AxWMPLib._W
 
         Case 3 &#39; Play State = WMPLib.WMPPlayState.wmppsPlaying = 3
 
-            If (player.network.bandWidth <&gt; 0) Then
+            If (player.network.bandWidth <> 0) Then
 
                 bandWidthLabel.Text = &quot;Current Bandwidth: &quot; + player.network.bandWidth + &quot; K bits/second&quot;
 

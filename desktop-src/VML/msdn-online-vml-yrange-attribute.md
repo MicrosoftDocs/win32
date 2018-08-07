@@ -26,7 +26,7 @@ Defines the y range of a handle. Read/write. **VgVector2D**.
 
 **Tag Syntax**
 
-<v: *element* yrange=" *expression* "&gt;
+<v: *element* yrange=" *expression* ">
 
 **Remarks**
 

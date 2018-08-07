@@ -21,11 +21,11 @@ Although Direct2D addresses many high-DPI issues for you, there are two steps yo
 
 The [**ID2D1Factory**](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx) interface provides the [**GetDesktopDpi**](https://msdn.microsoft.com/en-us/library/Dd371316(v=VS.85).aspx) method for retrieving the system DPI. It provides the horizontal and vertical dimensions of the display in dots per inch (DPI). To use these values to set the width of a window, use the following formula:
 
-<*horizontal DPI*&gt; \* <*width*, in pixels&gt; / <*default horizontal DPI*&gt;
+<*horizontal DPI*> \* <*width*, in pixels> / <*default horizontal DPI*>
 
 ...where *horizontal DPI* is the value retrived by [**GetDesktopDpi**](https://msdn.microsoft.com/en-us/library/Dd371316(v=VS.85).aspx) and *default horizontal DPI* is 96. The formula is similar for the vertical size:
 
-<*vertical DPI*&gt; \* <*height*, in pixels&gt; / <*default vertical DPI*&gt;
+<*vertical DPI*> \* <*height*, in pixels> / <*default vertical DPI*>
 
 ...where *vertical DPI* is the value retrieved by the [**GetDesktopDpi**](https://msdn.microsoft.com/en-us/library/Dd371316(v=VS.85).aspx) method and *default vertical DPI* is 96.
 

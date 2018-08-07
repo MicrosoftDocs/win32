@@ -26,7 +26,7 @@ Determines whether the shape is selectable in an editor. Read/write. **VgTriStat
 
 **Tag Syntax**
 
-<o: *element* selection=" *expression* "&gt;
+<o: *element* selection=" *expression* ">
 
 **Remarks**
 

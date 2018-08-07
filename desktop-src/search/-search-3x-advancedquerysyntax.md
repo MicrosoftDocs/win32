@@ -48,7 +48,7 @@ A query consists of basic queries connected with AND, OR, and NOT, as shown in t
 
 If a query has two or more uses of AND or OR, they will bind from left to right, regardless of whether it is AND or OR. That is, the query, "apple AND pear OR plum" will be interpreted as if it were written as "(apple AND pear) OR plum", and the query, "apple OR pear AND plum", will be interpreted as if it were written as "(apple OR pear) AND plum". So if a document contains the word plum but neither apple, nor pear, the first query will return it but the second query will not. Hence, we recommend that you use explicit parentheses for any query that mixes AND and OR to avoid mistakes or misinterpretations.
 
-A basic query searches for items that satisfy a restriction over a property. The only required portion of a basic query is the restriction or search value. If you do not specify a property, Windows Search searches all properties. <restr&gt; represents the search restriction.
+A basic query searches for items that satisfy a restriction over a property. The only required portion of a basic query is the restriction or search value. If you do not specify a property, Windows Search searches all properties. <restr> represents the search restriction.
 
 The following forms for a basic query are valid:
 
@@ -171,7 +171,7 @@ The conventions for canonical keyword syntax are as follows:
 
 -   The canonical syntax for a property is its canonical name, such as `System.Photo.LightSource`. Canonical names are not case sensitive.
 -   The canonical syntax for the Boolean operators consists of the keywords AND, OR, and NOT, in all uppercase.
--   The operators <, &gt;, =, and so forth, are not localized and are thus also part of the canonical syntax.
+-   The operators <, >, =, and so forth, are not localized and are thus also part of the canonical syntax.
 -   If a property `P` has enumerated values or ranges named N₁ through Nₖ, the canonical syntax for the *I*th value or range is the canonical name for P, followed by the character \#, followed by N<sub>I</sub>, as illustrated in the following example:
     -   `System.Photo.LightSource#Daylight`, `System.Photo.LightSource#StandardA`, and so forth.
 -   For a defined semantic type T with values or ranges named N₁ through Nₖ, the canonical syntax for the *I*th value or range is the canonical name for T, followed by the character \#, followed by N<sub>I</sub>, as illustrated in the following example:
@@ -207,7 +207,7 @@ For more information about canonical properties and the property system generall
 
 ### Query Operators
 
-If a property, p, has multiple values for some item, an AQS query for p:<restr&gt; returns the item if <restr&gt; is **true** for at least one of the values. (<restr&gt; represents a restriction.)
+If a property, p, has multiple values for some item, an AQS query for p:<restr> returns the item if <restr> is **true** for at least one of the values. (<restr> represents a restriction.)
 
 The syntax listed in the following table consists of an operator, operator symbol, example and example description. The operator and symbol can be used in any language and included in any query. Do not use the COP\_IMPLICIT or COP\_APPLICATION\_SPECIFIC operators. Some of the operators have interchangeable symbols.
 
@@ -237,8 +237,8 @@ The syntax listed in the following table consists of an operator, operator symbo
 </tr>
 <tr class="even">
 <td>COP_NOTEQUAL</td>
-<td>≠<br/> -<br/> <&gt;<br/> NOT<br/> - -<br/></td>
-<td>System.Kind:≠picture<br/> System.Photo.DateTaken:-[]¹<br/> System.Kind:<&gt;picture<br/> System.Kind:NOT picture<br/> System.Kind:- -picture<br/></td>
+<td>≠<br/> -<br/> <><br/> NOT<br/> - -<br/></td>
+<td>System.Kind:≠picture<br/> System.Photo.DateTaken:-[]¹<br/> System.Kind:<>picture<br/> System.Kind:NOT picture<br/> System.Kind:- -picture<br/></td>
 <td>The [System.Kind](http://msdn.microsoft.com/en-us/library/bb787521(VS.85).aspx) property is not a picture.<br/> The [System.Photo.DateTaken](http://msdn.microsoft.com/en-us/library/bb760410(VS.85).aspx) property has a value.<br/> The [System.Kind](http://msdn.microsoft.com/en-us/library/bb787521(VS.85).aspx) property is not a picture. <br/> The [System.Kind](http://msdn.microsoft.com/en-us/library/bb787521(VS.85).aspx) property is not a picture. <br/> Double NOT operators applied to the same property do not cancel out. Hence, System.Kind:- -picture is equivalent to System.Kind:-picture and System.Kind:NOT picture.<br/></td>
 </tr>
 <tr class="odd">
@@ -249,8 +249,8 @@ The syntax listed in the following table consists of an operator, operator symbo
 </tr>
 <tr class="even">
 <td>COP_GREATERTHAN</td>
-<td>&gt;<br/></td>
-<td>System.ItemDate:&gt;System.StructuredQueryType.DateTime#Today<br/></td>
+<td>><br/></td>
+<td>System.ItemDate:>System.StructuredQueryType.DateTime#Today<br/></td>
 <td>This value is greater than <em>today</em>.<br/></td>
 </tr>
 <tr class="odd">
@@ -261,8 +261,8 @@ The syntax listed in the following table consists of an operator, operator symbo
 </tr>
 <tr class="even">
 <td>COP_GREATERTHANOREQUAL</td>
-<td>&gt;=<br/> ≥<br/></td>
-<td>System.Size:&gt;=1kb<br/></td>
+<td>>=<br/> ≥<br/></td>
+<td>System.Size:>=1kb<br/></td>
 <td>This value is equal to or greater than <em>1kb</em>.<br/></td>
 </tr>
 <tr class="odd">
@@ -273,8 +273,8 @@ The syntax listed in the following table consists of an operator, operator symbo
 </tr>
 <tr class="even">
 <td>COP_VALUE_ENDSWITH</td>
-<td>~&gt;<br/></td>
-<td>System.Photo.CameraModel:~&gt;non<br/></td>
+<td>~><br/></td>
+<td>System.Photo.CameraModel:~>non<br/></td>
 <td>Finds items where the property value ends with the characters <em>non</em>.<br/></td>
 </tr>
 <tr class="odd">

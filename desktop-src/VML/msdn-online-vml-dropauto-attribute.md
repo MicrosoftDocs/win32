@@ -26,7 +26,7 @@ Determines whether the callout will have an automatic drop. Read/write. **VgTriS
 
 **Tag Syntax**
 
-<o: *element* dropauto=" *expression* "&gt;
+<o: *element* dropauto=" *expression* ">
 
 **Remarks**
 

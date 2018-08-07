@@ -58,13 +58,13 @@ LDAP://<servername>/<WKGUID=<XXXXX>,<container DN>>
 
 
 
-"<server name&gt;" is the directory server name. The "<server name&gt;" is optional.
+"<server name>" is the directory server name. The "<server name>" is optional.
 
-"<XXXXX&gt;" is the string representation of the hexadecimal value of the GUID that represents the well-known object. The GUID string is specified in the "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" form and is not the same form as the GUID string produced by the [**StringFromGUID2**](https://msdn.microsoft.com/en-us/library/ms683893(v=VS.85).aspx) function, which takes the form "{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}". For more information and a code example that shows how to create a bindable string from a GUID, see [Example Code for Creating a Bindable String Representation of a GUID](example-code-for-creating-a-bindable-string-representation-of-a-guid.md).
+"<XXXXX>" is the string representation of the hexadecimal value of the GUID that represents the well-known object. The GUID string is specified in the "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" form and is not the same form as the GUID string produced by the [**StringFromGUID2**](https://msdn.microsoft.com/en-us/library/ms683893(v=VS.85).aspx) function, which takes the form "{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}". For more information and a code example that shows how to create a bindable string from a GUID, see [Example Code for Creating a Bindable String Representation of a GUID](example-code-for-creating-a-bindable-string-representation-of-a-guid.md).
 
-To bind to an object specified in **otherWellKnownObjects** in an object, specify "<XXXXX&gt;" as the bind string form of the well-known object GUID of the object. For more information, see [Reading an Object's objectGUID and Creating a String Representation of the GUID](reading-an-objectampaposs-objectguid-and-creating-a-string-representation-of-the-guid.md). For more information about setting the **otherWellKnownObjects** property on objects, see [Enabling Rename-Safe Binding with the otherWellKnownObjects Property](enabling-rename-safe-binding-with-the-otherwellknownobjects-property.md).
+To bind to an object specified in **otherWellKnownObjects** in an object, specify "<XXXXX>" as the bind string form of the well-known object GUID of the object. For more information, see [Reading an Object's objectGUID and Creating a String Representation of the GUID](reading-an-objectampaposs-objectguid-and-creating-a-string-representation-of-the-guid.md). For more information about setting the **otherWellKnownObjects** property on objects, see [Enabling Rename-Safe Binding with the otherWellKnownObjects Property](enabling-rename-safe-binding-with-the-otherwellknownobjects-property.md).
 
-To bind to an object specified in **wellKnownObjects** in domainDNS or configuration containers, specify "<XXXXX&gt;" as one of the following constants, listed in the following table, as defined in Ntdsapi.h.
+To bind to an object specified in **wellKnownObjects** in domainDNS or configuration containers, specify "<XXXXX>" as one of the following constants, listed in the following table, as defined in Ntdsapi.h.
 
 
 
@@ -82,9 +82,9 @@ To bind to an object specified in **wellKnownObjects** in domainDNS or configura
 
  
 
-For example, to bind to the user container in a domain, specify **GUID\_USERS\_CONTAINER\_W** as "<XXXXX&gt;".
+For example, to bind to the user container in a domain, specify **GUID\_USERS\_CONTAINER\_W** as "<XXXXX>".
 
-"<container DN&gt;" is the distinguished name of the container object that has this object represented as a value in its **wellKnownObjects** property. For example, to bind to the users container in a domain, specify the domain distinguished name as the "<container DN&gt;".
+"<container DN>" is the distinguished name of the container object that has this object represented as a value in its **wellKnownObjects** property. For example, to bind to the users container in a domain, specify the domain distinguished name as the "<container DN>".
 
 For example, to bind to the users container of the domain Fabrikam.com, use the following binding string.
 

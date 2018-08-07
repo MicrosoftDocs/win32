@@ -26,7 +26,7 @@ Defines the color value of the image that will be treated as transparent. Read/w
 
 **Tag Syntax**
 
-<v: *element* chromakey=" *expression* "&gt;
+<v: *element* chromakey=" *expression* ">
 
 **Script Syntax**
 

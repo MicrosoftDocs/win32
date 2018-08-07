@@ -116,7 +116,7 @@ Access type: Read-only
 Qualifiers: **WmiDataId** (6), **Max** (4)
 </dt> </dl>
 
-Drive letter of the disk in the form, "<letter&gt;:".
+Drive letter of the disk in the form, "<letter>:".
 
 </dd> <dt>
 

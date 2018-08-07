@@ -26,7 +26,7 @@ Determines whether the shape will be printed. Read/write. [VgTriState](msdn-onli
 
 **Tag Syntax**
 
-<v: *element* print=" *expression* "&gt;
+<v: *element* print=" *expression* ">
 
 **Script Syntax**
 

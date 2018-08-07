@@ -26,7 +26,7 @@ Defines the amount of skew of an extrusion. Read/write. **VgPercent**.
 
 **Tag Syntax**
 
-<o: *element* skewamt=" *expression* "&gt;
+<o: *element* skewamt=" *expression* ">
 
 **Script Syntax**
 

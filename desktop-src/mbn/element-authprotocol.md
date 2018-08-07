@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 # <span id="WWAN_profile_v4.element_AuthProtocol"></span>AuthProtocol
 
-&gt;Specifies the authentication protocol to be used for activating a Packet Data Protocol (PDP) context.
+>Specifies the authentication protocol to be used for activating a Packet Data Protocol (PDP) context.
 
 Note that in v4, a new enumeration value is available for this element. **AutoSelection** means that an auth protocol is to be picked by lower layer(s).
 
@@ -22,15 +22,15 @@ For further information, see the documentation for the v1 [**AuthProtocol**](htt
 
 ## Element hierarchy
 
-[<MBNProfileExt&gt;](element-mbnprofileext.md)  
-[<Context&gt;](element-context.md)  
-**<AuthProtocol&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+[<Context>](element-context.md)  
+**<AuthProtocol>**
 
 <!-- -->
 
-[<ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
-[<Context&gt;](element-1-context.md)  
-**<AuthProtocol&gt;**
+[<ModemDMConfigProfile>](element-modemdmconfigprofile.md)  
+[<Context>](element-1-context.md)  
+**<AuthProtocol>**
 
 ## Syntax
 

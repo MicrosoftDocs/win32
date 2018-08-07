@@ -39,41 +39,41 @@ ID2D1GeometrySink *pSink = NULL;
 <td><pre><code>// Create a path geometry.
 if (SUCCEEDED(hr))
 {
-    hr = m_pD2DFactory-&gt;CreatePathGeometry(&m_pPathGeometry);
+    hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometry);
 
     if (SUCCEEDED(hr))
     {
         // Write to the path geometry using the geometry sink.
-        hr = m_pPathGeometry-&gt;Open(&pSink);
+        hr = m_pPathGeometry->Open(&pSink);
 
         if (SUCCEEDED(hr))
         {
-            pSink-&gt;BeginFigure(
+            pSink->BeginFigure(
                 D2D1::Point2F(0, 0),
                 D2D1_FIGURE_BEGIN_FILLED
                 );
 
-            pSink-&gt;AddLine(D2D1::Point2F(200, 0));
+            pSink->AddLine(D2D1::Point2F(200, 0));
 
-            pSink-&gt;AddBezier(
+            pSink->AddBezier(
                 D2D1::BezierSegment(
                     D2D1::Point2F(150, 50),
                     D2D1::Point2F(150, 150),
                     D2D1::Point2F(200, 200))
                 );
 
-            pSink-&gt;AddLine(D2D1::Point2F(0, 200));
+            pSink->AddLine(D2D1::Point2F(0, 200));
 
-            pSink-&gt;AddBezier(
+            pSink->AddBezier(
                 D2D1::BezierSegment(
                     D2D1::Point2F(50, 150),
                     D2D1::Point2F(50, 50),
                     D2D1::Point2F(0, 0))
                 );
 
-            pSink-&gt;EndFigure(D2D1_FIGURE_END_CLOSED);
+            pSink->EndFigure(D2D1_FIGURE_END_CLOSED);
 
-            hr = pSink-&gt;Close();
+            hr = pSink->Close();
         }
         SafeRelease(&pSink);
     }
@@ -122,7 +122,7 @@ if (SUCCEEDED(hr))
         {   1.f,  { 0.f, 0.f, 1.f, 1.f }  },
     };
 
-    hr = m_pRenderTarget-&gt;CreateGradientStopCollection(
+    hr = m_pRenderTarget->CreateGradientStopCollection(
         stops,
         ARRAYSIZE(stops),
         &pGradientStops
@@ -130,7 +130,7 @@ if (SUCCEEDED(hr))
 
     if (SUCCEEDED(hr))
     {
-        hr = m_pRenderTarget-&gt;CreateLinearGradientBrush(
+        hr = m_pRenderTarget->CreateLinearGradientBrush(
             D2D1::LinearGradientBrushProperties(
                 D2D1::Point2F(100, 0),
                 D2D1::Point2F(100, 200)),
@@ -172,13 +172,13 @@ void DemoApp::RenderGeometryExample()
 <tbody>
 <tr class="odd">
 <td><pre><code>    // Translate subsequent drawings by 20 device-independent pixels.
-    m_pRenderTarget-&gt;SetTransform(
+    m_pRenderTarget->SetTransform(
         D2D1::Matrix3x2F::Translation(20.f, 20.f)
         );
 
     // Draw the hour glass geometry at the upper left corner of the client area.
-    m_pRenderTarget-&gt;DrawGeometry(m_pPathGeometry, m_pBlackBrush, 10.f);
-    m_pRenderTarget-&gt;FillGeometry(m_pPathGeometry, m_pLGBrush);</code></pre></td>
+    m_pRenderTarget->DrawGeometry(m_pPathGeometry, m_pBlackBrush, 10.f);
+    m_pRenderTarget->FillGeometry(m_pPathGeometry, m_pLGBrush);</code></pre></td>
 </tr>
 </tbody>
 </table>

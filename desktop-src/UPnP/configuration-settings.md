@@ -72,7 +72,7 @@ The valid values are shown in the following table. The default value is 1.
 | 1                          | Host's IP address must be a subnet address or a private address which is one of 10.*x*.*x*.*x*, 192.168.*x*.*x*, 172.16.*x*.*x* (as specified by RFC 1918), or 169.254.*x*.*x* (as specified by RFC 3330). |
 | 2                          | Host's IP address must be a subnet address, private address, or an address that is within the time-to-live (TTL) hops from the control point.                                                              |
 | 3                          | Host's IP address can be any address.                                                                                                                                                                      |
-| &gt;3                      | Same as that for the value 0.                                                                                                                                                                              |
+| >3                      | Same as that for the value 0.                                                                                                                                                                              |
 
 
 

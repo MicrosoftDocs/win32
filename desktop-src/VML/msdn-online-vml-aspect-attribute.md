@@ -26,7 +26,7 @@ Specifies how the fill image aspect ratio will be preserved. Read/write. **Strin
 
 **Tag Syntax**
 
-<v: *element* aspect=" *expression* "&gt;
+<v: *element* aspect=" *expression* ">
 
 **Script Syntax**
 

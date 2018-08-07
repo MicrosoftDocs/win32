@@ -90,7 +90,7 @@ In the above example, a shape is created by using the Document Object Model meth
 
 One implementation of VML is through Microsoft Internet Explorer 5.0 or greater. To set up the rendering object correctly in a Web page, the following additions must be made:
 
-1.  The schema must be set up in the initial <HTML&gt; tag as follows:
+1.  The schema must be set up in the initial <HTML> tag as follows:
     ```HTML
     <HTML xmlns:v="urn:schemas-microsoft-com:vml">
     ```
@@ -1231,7 +1231,7 @@ Equations used for formulas.
 </tr>
 <tr class="even">
 <td>If</td>
-<td>If Condition test. v &gt; 0 <strong>?</strong> p1 : p2</td>
+<td>If Condition test. v > 0 <strong>?</strong> p1 : p2</td>
 </tr>
 <tr class="odd">
 <td>Max</td>

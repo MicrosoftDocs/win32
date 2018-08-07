@@ -20,8 +20,8 @@ For details, see the documentation for the v1 [**DataRoamingPartners**](https://
 
 ## Element hierarchy
 
-[<MBNProfileExt&gt;](element-mbnprofileext.md)  
-**<DataRoamingPartners&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+**<DataRoamingPartners>**
 
 ## Syntax
 

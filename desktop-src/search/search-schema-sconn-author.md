@@ -1,5 +1,5 @@
 ---
-Description: The optional <author&gt; element specifies the author of this library. This element has no child elements and no attributes.
+Description: The optional <author> element specifies the author of this library. This element has no child elements and no attributes.
 ms.assetid: c91042d5-9564-463a-9104-97b927027fc9
 title: author Element (Search Connector Schema)
 ms.technology: desktop
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # author Element (Search Connector Schema)
 
-The optional <author&gt; element specifies the author of this library. This element has no child elements and no attributes.
+The optional <author> element specifies the author of this library. This element has no child elements and no attributes.
 
 ## Syntax
 

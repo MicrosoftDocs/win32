@@ -21,9 +21,9 @@ The conditions that determine whether a document is included in the results retu
 
 
 
-The optional <group\_alias&gt; portion of the clause simplifies complex queries by assigning an alias to a group of one or more columns. This can improve the readability of complex queries that search for the same information across multiple columns specified by URLs. For more information about group aliases, see [WITH -- AS Group Alias Predicate](-search-sql-with-as.md).
+The optional <group\_alias> portion of the clause simplifies complex queries by assigning an alias to a group of one or more columns. This can improve the readability of complex queries that search for the same information across multiple columns specified by URLs. For more information about group aliases, see [WITH -- AS Group Alias Predicate](-search-sql-with-as.md).
 
-The <search condition&gt; portion of the WHERE clause is one or more search predicates that specify matching criteria for the search. Search predicates are expressions that assert some fact about some value.
+The <search condition> portion of the WHERE clause is one or more search predicates that specify matching criteria for the search. Search predicates are expressions that assert some fact about some value.
 
 The result of a search condition is a Boolean value, either **TRUE** if the document meets the specified search conditions, or **FALSE** if it does not. If the result is **TRUE**, the document is returned. If the result is **FALSE**, the document is not returned. Documents returned in a Microsoft Windows Search query are assigned rank values according to how well they match the search conditions. Each of the query search conditions can include a [RANKBY](-search-sql-rankby.md) clause that supports modifying the returned rank values.
 
@@ -31,7 +31,7 @@ The [ReuseWhere function](-search-sql-reusewhere.md) makes multiple queries that
 
 ## Search Predicates
 
-A search condition consists of one or more predicates or search conditions that describe what the user is searching for (for example, WHERE System.DateCreated &gt;'2006-04-19'). Search predicates can be combined using the logical operators **AND**, **OR**, or **NOT**. The optional unary operator **NOT** can be used only with **AND** and only to negate the logical value of a predicate or search condition. You can use parentheses to group and nest logical terms.
+A search condition consists of one or more predicates or search conditions that describe what the user is searching for (for example, WHERE System.DateCreated >'2006-04-19'). Search predicates can be combined using the logical operators **AND**, **OR**, or **NOT**. The optional unary operator **NOT** can be used only with **AND** and only to negate the logical value of a predicate or search condition. You can use parentheses to group and nest logical terms.
 
 The following table shows the order of precedence for the logical operators.
 

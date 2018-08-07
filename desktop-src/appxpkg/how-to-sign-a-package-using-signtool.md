@@ -130,7 +130,7 @@ More commonly, the error is 0x8007000b (ERROR\_BAD\_FORMAT). In this case, you c
 **To search the event log**
 
 1.  Run Eventvwr.msc.
-2.  Open the event log: Event Viewer (Local) &gt; Applications and Services Logs &gt; Microsoft &gt; Windows &gt; AppxPackagingOM &gt; Microsoft-Windows-AppxPackaging/Operational
+2.  Open the event log: Event Viewer (Local) > Applications and Services Logs > Microsoft > Windows > AppxPackagingOM > Microsoft-Windows-AppxPackaging/Operational
 3.  Look for the most recent error event.
 
 The internal error usually corresponds to one of these:

@@ -123,7 +123,7 @@ Specifies whether the listener is enabled or disabled. The default is **True**.
 <span id="URLPrefix"></span><span id="urlprefix"></span><span id="URLPREFIX"></span>URLPrefix
 </dt> <dd>
 
-Specifies a URL prefix on which to accept HTTP or HTTPS requests. This is a string containing only the characters a-z, A-Z, 9-0, underscore (\_), and slash (/). The string must not start with or end with a slash (/). For example, if the computer name is SampleMachine, the WinRM client would specify http://SampleMachine/<*URLPrefix*&gt; in the destination address. The default URL prefix is "wsman".
+Specifies a URL prefix on which to accept HTTP or HTTPS requests. This is a string containing only the characters a-z, A-Z, 9-0, underscore (\_), and slash (/). The string must not start with or end with a slash (/). For example, if the computer name is SampleMachine, the WinRM client would specify http://SampleMachine/<*URLPrefix*> in the destination address. The default URL prefix is "wsman".
 
 </dd> <dt>
 

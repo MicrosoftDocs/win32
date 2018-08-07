@@ -26,7 +26,7 @@ Determines whether the closed path will be filled. Read/write. **VgTriState**.
 
 **Tag Syntax**
 
-<v: *element* filled=" *expression* "&gt;
+<v: *element* filled=" *expression* ">
 
 **Script Syntax**
 

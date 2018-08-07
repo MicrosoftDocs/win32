@@ -26,7 +26,7 @@ Defines an alternate reference for an image. Read/write. **String**.
 
 **Tag Syntax**
 
-<v: *element* o:althref=" *expression* "&gt;
+<v: *element* o:althref=" *expression* ">
 
 **Script Syntax**
 

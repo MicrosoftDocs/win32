@@ -25,7 +25,7 @@ Note that if this element is set to true, then the following must also be true.
 
 ## Element hierarchy
 
-**<IsAdditionalPdpContextProfile&gt;**
+**<IsAdditionalPdpContextProfile>**
 
 ## Syntax
 

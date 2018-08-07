@@ -26,7 +26,7 @@ Specifies the center position for polar handles. Read/write. **VgVector2D**.
 
 **Tag Syntax**
 
-<v: *element* polar=" *expression* "&gt;
+<v: *element* polar=" *expression* ">
 
 **Remarks**
 

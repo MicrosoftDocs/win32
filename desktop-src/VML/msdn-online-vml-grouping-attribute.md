@@ -26,7 +26,7 @@ Determines whether shapes can be grouped in an editor. Read/write. **VgTriState*
 
 **Tag Syntax**
 
-<o: *element* grouping=" *expression* "&gt;
+<o: *element* grouping=" *expression* ">
 
 **Remarks**
 

@@ -26,7 +26,7 @@ Determines whether the surface of the extruded shape will resemble metal. Read/w
 
 **Tag Syntax**
 
-<o: *element* metal=" *expression* "&gt;
+<o: *element* metal=" *expression* ">
 
 **Script Syntax**
 

@@ -78,7 +78,7 @@ The following example illustrates how to author the database to schedule the sel
 | RemoveFiles      |                   | 3500     |
 | InstallFiles     |                   | 4000     |
 | SelfRegModules   |                   | 6500     |
-| mydllREG         | $myComponent&gt;2 | 6501     |
+| mydllREG         | $myComponent>2 | 6501     |
 
 
 

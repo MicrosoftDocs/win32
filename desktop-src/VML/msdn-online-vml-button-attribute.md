@@ -26,7 +26,7 @@ Determines whether a shape will be processed as a button. Read/write. **VgTriSta
 
 **Tag Syntax**
 
-<v: *element* o:button=" *expression* "&gt;
+<v: *element* o:button=" *expression* ">
 
 **Remarks**
 

@@ -146,7 +146,7 @@ XMVECTOR XMVectorSwizzle(FXMVECTOR V, uint32_t E0, uint32_t E1, uint32_t E2, uin
 > </colgroup>
 > <tbody>
 > <tr class="odd">
-> <td><pre><code>template<uint32_t PermuteX, uint32_t PermuteY, uint32_t PermuteZ, uint32_t PermuteW&gt;
+> <td><pre><code>template<uint32_t PermuteX, uint32_t PermuteY, uint32_t PermuteZ, uint32_t PermuteW>
 >     XMVECTOR XMVectorPermute(FXMVECTOR V1, FXMVECTOR V2)</code></pre></td>
 > </tr>
 > </tbody>
@@ -168,22 +168,22 @@ XMVECTOR XMVectorSwizzle(FXMVECTOR V, uint32_t E0, uint32_t E1, uint32_t E2, uin
 > </colgroup>
 > <tbody>
 > <tr class="odd">
-> <td><pre><code>template<uint32_t PermuteX, uint32_t PermuteY, uint32_t PermuteZ, uint32_t PermuteW&gt;
+> <td><pre><code>template<uint32_t PermuteX, uint32_t PermuteY, uint32_t PermuteZ, uint32_t PermuteW>
 >     XMVECTOR XMVectorPermute(FXMVECTOR V1, FXMVECTOR V2)
 >
-> template<uint32_t SwizzleX, uint32_t SwizzleY, uint32_t SwizzleZ, uint32_t SwizzleW&gt;
+> template<uint32_t SwizzleX, uint32_t SwizzleY, uint32_t SwizzleZ, uint32_t SwizzleW>
 >     XMVECTOR XMVectorSwizzle(FXMVECTOR V)
 >
-> template<uint32_t Elements&gt;
+> template<uint32_t Elements>
 >     XMVECTOR XMVectorShiftLeft(FXMVECTOR V1, FXMVECTOR V2)
 >
-> template<uint32_t Elements&gt;
+> template<uint32_t Elements>
 >     XMVECTOR XMVectorRotateLeft(FXMVECTOR V)
 >
-> template<uint32_t Elements&gt;
+> template<uint32_t Elements>
 >     XMVECTOR XMVectorRotateRight(FXMVECTOR V)
 >
-> template<uint32_t VSLeftRotateElements, uint32_t Select0, uint32_t Select1, uint32_t Select2, uint32_t Select3&gt;
+> template<uint32_t VSLeftRotateElements, uint32_t Select0, uint32_t Select1, uint32_t Select2, uint32_t Select3>
 >     XMVECTOR XMVectorInsert(FXMVECTOR VD, FXMVECTOR VS)</code></pre></td>
 > </tr>
 > </tbody>

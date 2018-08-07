@@ -26,7 +26,7 @@ Defines the amount of diffusion of reflected light from an extruded shape. Read/
 
 **Tag Syntax**
 
-<o: *element* diffusity=" *expression* "&gt;
+<o: *element* diffusity=" *expression* ">
 
 **Script Syntax**
 

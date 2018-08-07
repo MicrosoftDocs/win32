@@ -23,7 +23,7 @@ ADSI can be used to access directory data using an ASP page. This can be a conve
 
 One advantage of using ADSI with ASP is that you can create a richer user experience because you can use Visual Basic to create an ADSI application and offer it to a user through a standard webpage. For example, you could create a webpage that enables employees to enter the last name of an employee and get back a phone number for that employee, or create a form that allows employees to update personal information in a company human resources database.
 
-ASP code starts with '<%' and ends with '%&gt;'. You can add ADSI code as VBScript or Visual Basic.
+ASP code starts with '<%' and ends with '%>'. You can add ADSI code as VBScript or Visual Basic.
 
 To create an ASP page, you can use a webpage editor, Notepad or other text editor, or the Microsoft Visual Studio .NET development system.
 

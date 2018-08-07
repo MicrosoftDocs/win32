@@ -18,9 +18,9 @@ Specifies the maximum size of MMS messages, in kilobytes. Optional.
 
 ## Element hierarchy
 
-[<MBNProfileExt&gt;](element-mbnprofileext.md)  
-[<MmsConfiguration&gt;](element-mmsconfiguration.md)  
-**<MmsMaximumMessageSize&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+[<MmsConfiguration>](element-mmsconfiguration.md)  
+**<MmsMaximumMessageSize>**
 
 ## Syntax
 

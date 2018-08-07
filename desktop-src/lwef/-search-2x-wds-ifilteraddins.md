@@ -201,7 +201,7 @@ When WDS is ready to filter a file, it looks in the registry under the file's ex
 
     **HKEY\_CURRENT\_USER\\SOFTWARE\\Microsoft\\RSSearch\\ContentIndexCommon\\Filters**
 
-    **HKEY\_CLASSES\_ROOT\\extpersistentHandler-&gt;CLSID-&gt;IID\_IFilter-&gt;CLSID**
+    **HKEY\_CLASSES\_ROOT\\extpersistentHandler->CLSID->IID\_IFilter->CLSID**
 
 4.  From Default at:
 

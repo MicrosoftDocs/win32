@@ -23,10 +23,10 @@ The Windows Management Instrumentation Query Language (WQL) supports a set of st
 |----------------|--------------------------|
 | =              | Equal to                 |
 | <           | Less than                |
-| &gt;           | Greater than             |
+| >           | Greater than             |
 | <=          | Less than or equal to    |
-| &gt;=          | Greater than or equal to |
-| != or <&gt; | Not equal to             |
+| >=          | Greater than or equal to |
+| != or <> | Not equal to             |
 
 
 

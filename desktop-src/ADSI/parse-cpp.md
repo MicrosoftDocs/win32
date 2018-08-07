@@ -28,11 +28,11 @@ The following table lists the functions and methods implemented in Parse.cpp.
 
 | Item                      | Description                                                                                                                                                            |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **ADsObject**             | Parses the ADspath passed to it. This function follows the following grammar rules: <ADsObject&gt; -&gt; <ProviderName&gt; <SampleDSObject&gt;<br/>     |
-| **SampleDSObject**        | Parses the following grammar rules: <SampleDSObject&gt; -&gt; "\\\\" <identifier&gt; "\\" <Pathname&gt;<br/>                                            |
+| **ADsObject**             | Parses the ADspath passed to it. This function follows the following grammar rules: <ADsObject> -> <ProviderName> <SampleDSObject><br/>     |
+| **SampleDSObject**        | Parses the following grammar rules: <SampleDSObject> -> "\\\\" <identifier> "\\" <Pathname><br/>                                            |
 | **ProviderName**          | Adds in the syntactically correct provider name if not there.                                                                                                          |
-| **PathName**              | Parses the following grammar rules: <Pathname&gt; -&gt; <Component&gt; "\\\\" <Pathname&gt; OR<br/> <Pathname&gt; -&gt; <Component&gt;<br/> |
-| **Component**             | Parses the following grammar rules: <Identifier&gt; OR<br/> <Identifier&gt; "=" <Identifier&gt;<br/>                                              |
+| **PathName**              | Parses the following grammar rules: <Pathname> -> <Component> "\\\\" <Pathname> OR<br/> <Pathname> -> <Component><br/> |
+| **Component**             | Parses the following grammar rules: <Identifier> OR<br/> <Identifier> "=" <Identifier><br/>                                              |
 | **CLexer::CLexer**        | Standard constructor.                                                                                                                                                  |
 | **CLexer::~CLexer**       | Standard destructor.                                                                                                                                                   |
 | **CLexer::GetNextToken**  | Tokenizer.                                                                                                                                                             |
@@ -44,7 +44,7 @@ The following table lists the functions and methods implemented in Parse.cpp.
 | **AddProviderName**       | Adds a syntactically correct provider name to the **OBJECTINFO** structure.                                                                                            |
 | **AddRootRDN**            | Adds the syntactically correct root relative distinguished name (RDN) name to the **OBJECTINFO** structure.                                                            |
 | **SetType**               | Sets the type of the object.                                                                                                                                           |
-| **Type**                  | Parses Type-&gt; "user" \| "group" and so on.                                                                                                                          |
+| **Type**                  | Parses Type-> "user" \| "group" and so on.                                                                                                                          |
 
 
 

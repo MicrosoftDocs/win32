@@ -26,7 +26,7 @@ Defines the direction of the text in the textbox. Read/write. **String**.
 
 **Tag Syntax**
 
-<v: *element* style="direction: *expression* "&gt;
+<v: *element* style="direction: *expression* ">
 
 **Remarks**
 

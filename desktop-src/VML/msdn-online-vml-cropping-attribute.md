@@ -26,7 +26,7 @@ Determines whether cropping will be allowed in an editor. Read/write. **VgTriSta
 
 **Tag Syntax**
 
-<o: *element* cropping=" *expression* "&gt;
+<o: *element* cropping=" *expression* ">
 
 **Remarks**
 

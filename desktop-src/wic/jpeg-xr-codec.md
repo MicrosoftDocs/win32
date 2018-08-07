@@ -252,7 +252,7 @@ Sets the number of horizontal tiles.
 
 | Data type  | VARTYPE     | Range  | Default                      |
 |------------|-------------|--------|------------------------------|
-| **USHORT** | **VT\_UI2** | 0–4095 | (image width – 1) &gt;&gt; 8 |
+| **USHORT** | **VT\_UI2** | 0–4095 | (image width – 1) >> 8 |
 
 
 
@@ -477,7 +477,7 @@ Sets the chroma subsampling. This property applies only to RGB images.
 
 | Data type | VARTYPE     | Range | Default                                                  |
 |-----------|-------------|-------|----------------------------------------------------------|
-| **UCHAR** | **VT\_UI1** | 0–3   | 3 if [ImageQuality](#imagequality) &gt; 0.8; otherwise 1 |
+| **UCHAR** | **VT\_UI1** | 0–3   | 3 if [ImageQuality](#imagequality) > 0.8; otherwise 1 |
 
 
 
@@ -551,7 +551,7 @@ Sets the number of horizontal tiles.
 
 | Data type  | VARTYPE     | Range  | Default                       |
 |------------|-------------|--------|-------------------------------|
-| **USHORT** | **VT\_UI2** | 0–4095 | (image height – 1) &gt;&gt; 8 |
+| **USHORT** | **VT\_UI2** | 0–4095 | (image height – 1) >> 8 |
 
 
 

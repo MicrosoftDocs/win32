@@ -379,7 +379,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), and it is always set to "Microsoft:*<GUID&gt;*".
+This property is inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884), and it is always set to "Microsoft:*<GUID>*".
 
 </dd> <dt>
 

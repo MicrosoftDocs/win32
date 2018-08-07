@@ -29,7 +29,7 @@ The range specifiers for a property query require the following form:
 
 
 
-where "<property name&gt;" is the **ldapDisplayName** of the attribute, "<low range&gt;" is the zero-based index of the first attribute value to retrieve and "<high range&gt;" is the zero-based index of the last attribute value to retrieve. Zero is used for "<low range&gt;" to specify the first entry. The wildcard character (\*) can be used for "<high range&gt;" to specify all remaining entries.
+where "<property name>" is the **ldapDisplayName** of the attribute, "<low range>" is the zero-based index of the first attribute value to retrieve and "<high range>" is the zero-based index of the last attribute value to retrieve. Zero is used for "<low range>" to specify the first entry. The wildcard character (\*) can be used for "<high range>" to specify all remaining entries.
 
 The following code example contains a function that shows how to use range retrieval with [**IADs::GetInfoEx**](/windows/desktop/api/Iads/nf-iads-iads-getinfoex) to enumerate the members of a group.
 

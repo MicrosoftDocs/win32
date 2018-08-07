@@ -26,7 +26,7 @@ Triggers a mouse event for a shape. Read/write. **String**.
 
 **Tag Syntax**
 
-<v: *element* onmouseover=" *expression* "&gt;
+<v: *element* onmouseover=" *expression* ">
 
 **Remarks**
 

@@ -40,7 +40,7 @@ Use your database editor to open MNP2000.msi and enter the following data into t
 | ButtonText\_Finish                               | &Finish                                   |
 | ButtonText\_Ignore                               | &Ignore                                   |
 | ButtonText\_Install                              | &Install                                  |
-| ButtonText\_Next                                 | &Next &gt;                                |
+| ButtonText\_Next                                 | &Next >                                |
 | ButtonText\_No                                   | &No                                       |
 | ButtonText\_OK                                   | OK                                        |
 | ButtonText\_Remove                               | &Remove                                   |
@@ -64,7 +64,7 @@ Use your database editor to open MNP2000.msi and enter the following data into t
 | [**INSTALLLEVEL**](installlevel.md)             | 3                                         |
 | InstallMode                                      | Typical                                   |
 | [**Manufacturer**](manufacturer.md)             | Microsoft                                 |
-| [**PIDTemplate**](pidtemplate.md)               | 12345<\#\#\#-%%%%%%%&gt;@@@@@          |
+| [**PIDTemplate**](pidtemplate.md)               | 12345<\#\#\#-%%%%%%%>@@@@@          |
 | [**ProductCode**](productcode.md)               | {18A9233C-0B34-4127-A966-C257386270BC}    |
 | [**ProductID**](productid.md)                   | none                                      |
 | [**ProductLanguage**](productlanguage.md)       | 1033                                      |

@@ -26,7 +26,7 @@ Defines an arrowhead for the end of a line. Read/write. **String**.
 
 **Tag Syntax**
 
-<v: *element* endarrow=" *expression* "&gt;
+<v: *element* endarrow=" *expression* ">
 
 **Script Syntax**
 

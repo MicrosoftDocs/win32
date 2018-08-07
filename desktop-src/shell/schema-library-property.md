@@ -1,5 +1,5 @@
 ---
-Description: The <property&gt; element specifies a property used by the library. These properties are specific to the library, so there is no predefined set of property names to use. This element is optional and has no child elements.
+Description: The <property> element specifies a property used by the library. These properties are specific to the library, so there is no predefined set of property names to use. This element is optional and has no child elements.
 ms.assetid: 8BF6EC7A-A87E-45fe-A8F0-4B49594E9E7B
 title: property Element (Library Schema)
 ms.technology: desktop
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # property Element (Library Schema)
 
-The <property&gt; element specifies a property used by the library. These properties are specific to the library, so there is no predefined set of property names to use. This element is optional and has no child elements.
+The <property> element specifies a property used by the library. These properties are specific to the library, so there is no predefined set of property names to use. This element is optional and has no child elements.
 
 ## Syntax
 
@@ -104,7 +104,7 @@ The <property&gt; element specifies a property used by the library. These proper
 
 ## Remarks
 
-The requirements for the <canonical-name&gt; element match the requirements for Windows Search and the Windows property system. The string must be of type canonical-type.
+The requirements for the <canonical-name> element match the requirements for Windows Search and the Windows property system. The string must be of type canonical-type.
 
 ## Related topics
 

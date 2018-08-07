@@ -70,7 +70,7 @@ A signed value that gives the results of the comparison:
 |-------------------------------------------------------------------------------------------|-------------------------------------------------|
 | <dl> <dt>**Zero**</dt> </dl>       | *String1* equals *String2*.<br/>          |
 | <dl> <dt>**< Zero**</dt> </dl>  | *String1* is less than *String2*.<br/>    |
-| <dl> <dt>**&gt; Zero** </dt> </dl> | *String1* is greater than *String2*.<br/> |
+| <dl> <dt>**> Zero** </dt> </dl> | *String1* is greater than *String2*.<br/> |
 
 
 

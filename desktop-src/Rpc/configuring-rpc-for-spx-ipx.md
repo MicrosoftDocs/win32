@@ -15,7 +15,7 @@ When using the **ncacn\_spx** and **ncadg\_ipx** transports, the server name is 
 
 A valid Novell server name contains only the characters between 0x20 and 0x7f. Lowercase characters are changed to uppercase. The following characters cannot be used:
 
-"\*,./:;<=&gt;?\[\]\\\|\]
+"\*,./:;<=>?\[\]\\\|\]
 
 To maintain compatibility with the first version of Windows NT, **ncacn\_spx** and **ncadg\_ipx** also enable you to use a special format of the server name known as the tilde name. The tilde name consists of a tilde (~), followed by the server's eight-digit network number, and then followed by its 12-digit Ethernet address. Tilde names have an advantage in that they do not require any name service capabilities. Thus, if you are connected to a server, the tilde name will work.
 

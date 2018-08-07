@@ -26,7 +26,7 @@ Specifies thex and y values of the handle. Read/write **VgVector2D**.
 
 **Tag Syntax**
 
-<v: *element* position=" *expression* "&gt;
+<v: *element* position=" *expression* ">
 
 **Remarks**
 

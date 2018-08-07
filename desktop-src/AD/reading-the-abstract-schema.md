@@ -41,7 +41,7 @@ Set adschema = GetObject("LDAP://schema")
 
 
 
-Use a similar binding string, "LDAP://schema/<object&gt;", to bind directly to a class or attribute entry in the abstract schema. In this string, "<object&gt;" is the **lDAPDisplayName** of a class or attribute. For classes bind to the [**IADsClass**](https://msdn.microsoft.com/library/aa705972) interface; for attributes, bind to [**IADsProperty**](https://msdn.microsoft.com/library/aa706099) interface.
+Use a similar binding string, "LDAP://schema/<object>", to bind directly to a class or attribute entry in the abstract schema. In this string, "<object>" is the **lDAPDisplayName** of a class or attribute. For classes bind to the [**IADsClass**](https://msdn.microsoft.com/library/aa705972) interface; for attributes, bind to [**IADsProperty**](https://msdn.microsoft.com/library/aa706099) interface.
 
 
 ```C++

@@ -110,7 +110,7 @@ Public Sub player_PlayStateChange(ByVal sender As Object, ByVal e As AxWMPLib._W
 
         Case 3 &#39; Play State = WMPLib.WMPPlayState.wmppsPlaying = 3
 
-            If (player.network.encodedFrameRate <&gt; 0) Then
+            If (player.network.encodedFrameRate <> 0) Then
 
                 encodedFrameRateLabel.Text = &quot;Current Encoded Frame Rate: &quot; + player.network.encodedFrameRate + &quot; K bits/second&quot;
 

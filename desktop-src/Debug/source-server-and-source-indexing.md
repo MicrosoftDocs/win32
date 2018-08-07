@@ -240,7 +240,7 @@ Return value: A reference that can be used in later operations.
 
 </dd> <dt>
 
-<span id="_objref-_GatherFileInformation__SourcePath___ServerHashReference_"></span><span id="_objref-_gatherfileinformation__sourcepath___serverhashreference_"></span><span id="_OBJREF-_GATHERFILEINFORMATION__SOURCEPATH___SERVERHASHREFERENCE_"></span>**$objref-&gt;GatherFileInformation($SourcePath, $ServerHashReference)**
+<span id="_objref-_GatherFileInformation__SourcePath___ServerHashReference_"></span><span id="_objref-_gatherfileinformation__sourcepath___serverhashreference_"></span><span id="_OBJREF-_GATHERFILEINFORMATION__SOURCEPATH___SERVERHASHREFERENCE_"></span>**$objref->GatherFileInformation($SourcePath, $ServerHashReference)**
 </dt> <dd>
 
 Purpose: Enables the module to gather the required source indexing information for the directory specified by the $SourcePath parameter. The module should not assume that this entry will be called only once for each object instance, as SSIndex.cmd may call it multiple times for different paths.
@@ -251,7 +251,7 @@ Return value: None
 
 </dd> <dt>
 
-<span id="__VariableHashReference___FileEntry_____objref-_GetFileInfo__LocalFile_"></span><span id="__variablehashreference___fileentry_____objref-_getfileinfo__localfile_"></span><span id="__VARIABLEHASHREFERENCE___FILEENTRY_____OBJREF-_GETFILEINFO__LOCALFILE_"></span>**($VariableHashReference, $FileEntry) = $objref-&gt;GetFileInfo($LocalFile)**
+<span id="__VariableHashReference___FileEntry_____objref-_GetFileInfo__LocalFile_"></span><span id="__variablehashreference___fileentry_____objref-_getfileinfo__localfile_"></span><span id="__VARIABLEHASHREFERENCE___FILEENTRY_____OBJREF-_GETFILEINFO__LOCALFILE_"></span>**($VariableHashReference, $FileEntry) = $objref->GetFileInfo($LocalFile)**
 </dt> <dd>
 
 Purpose: Provides the necessary information to extract a single, specific file from the source control system.
@@ -262,7 +262,7 @@ Return value: (1) A hash reference of the variables necessary to interpret the r
 
 </dd> <dt>
 
-<span id="_TextString____objref-_LongName__"></span><span id="_textstring____objref-_longname__"></span><span id="_TEXTSTRING____OBJREF-_LONGNAME__"></span>**$TextString = $objref-&gt;LongName()**
+<span id="_TextString____objref-_LongName__"></span><span id="_textstring____objref-_longname__"></span><span id="_TEXTSTRING____OBJREF-_LONGNAME__"></span>**$TextString = $objref->LongName()**
 </dt> <dd>
 
 Purpose: Provides a descriptive string to identify the source control provider to the end user.
@@ -273,7 +273,7 @@ Return value: The descriptive name of the source control system.
 
 </dd> <dt>
 
-<span id="_StreamVariableLines____objref-_SourceStreamVariables__"></span><span id="_streamvariablelines____objref-_sourcestreamvariables__"></span><span id="_STREAMVARIABLELINES____OBJREF-_SOURCESTREAMVARIABLES__"></span>**@StreamVariableLines = $objref-&gt;SourceStreamVariables()**
+<span id="_StreamVariableLines____objref-_SourceStreamVariables__"></span><span id="_streamvariablelines____objref-_sourcestreamvariables__"></span><span id="_STREAMVARIABLELINES____OBJREF-_SOURCESTREAMVARIABLES__"></span>**@StreamVariableLines = $objref->SourceStreamVariables()**
 </dt> <dd>
 
 Purpose: Enables the source control provider to add source control specific variables to the source stream for each debug file. The sample modules use this method for writing the required EXTRACT\_CMD and EXTRACT\_TARGET variables.

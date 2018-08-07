@@ -13,11 +13,11 @@ ms.date: 05/31/2018
 
 An effect technique is declared with the following syntax.
 
-technique10 *TechniqueName* \[ <*Annotations* &gt; \]
+technique10 *TechniqueName* \[ <*Annotations* > \]
 
 {
 
-<dl> pass *PassName* \[ <*Annotations* &gt; \]  
+<dl> pass *PassName* \[ <*Annotations* > \]  
 {  
 <dl> \[ *SetStateGroup*; \] \[ *SetStateGroup*; \]  
 ...  

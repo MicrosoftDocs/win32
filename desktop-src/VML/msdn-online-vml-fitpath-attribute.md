@@ -26,7 +26,7 @@ Defines whether the text fits the path of a shape. Read/write. **VgTriState**.
 
 **Tag Syntax**
 
-<v: *element* fitpath=" *expression* "&gt;
+<v: *element* fitpath=" *expression* ">
 
 **Script Syntax**
 

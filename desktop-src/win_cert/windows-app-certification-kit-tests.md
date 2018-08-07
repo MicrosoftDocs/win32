@@ -65,14 +65,14 @@ Verifies that the app writes its program and data files to the correct folders.
     -   **Note:** Windows provides file virtualization to improve app compatibility and eliminate problems when apps run as a standard user on Windows. Your app should not rely on virtualization being present in future versions of Windows.
 -   User-specific app data folders
     -   In “per-machine” installations, the app must not write user-specific data during the installation. User-specific installation data should only be written when a user starts the app for the first time. This is because there is no correct user location at which to store data at time of installation. Attempts by an app to modify default association behaviors at a machine level after installation will be unsuccessful. Instead, defaults must be claimed on a per-user level, which prevents multiple users from overwriting each other's defaults.
-    -   All app data exclusive to a specific user and not to be shared with other users of the computer must be stored in Users\\<username&gt;\\AppData.
+    -   All app data exclusive to a specific user and not to be shared with other users of the computer must be stored in Users\\<username>\\AppData.
     -   All app data that must be shared among users on the computer should be stored within ProgramData.
 -   Other system folders and registry keys
     -   The app should never write directly to the Windows directory and or subdirectories. Use the correct methods for installing files, such as fonts or drivers, to these directories.
     -   Apps should not start automatically on startup, such as by adding an entry to one or more of these locations:
         -   Registry run keys HKLM and, or HKCU under Software\\Microsoft\\Windows\\CurrentVersion
         -   Registry run keys HKLM, and or HKCU under Software\\Wow6432Node\\Microsoft\\windows\\CurrentVersion
-        -   Start Menu AllPrograms &gt; STARTUP
+        -   Start Menu AllPrograms > STARTUP
 -   Test details
     -   This test verifies that the app uses the specific locations in the file system that Windows provides to store programs and software components, shared app data, and app data that is specific to a user.
 -   Corrective actions
@@ -144,8 +144,8 @@ Tests the app to verify that it doesn't need unnecessarily elevated permissions 
     -   An app that operates or installs only when the user is an administrator forces users to run the app with unnecessarily elevated permissions, which can allow malware to enter the user's computer.
     -   When users are always forced to run apps with elevated access tokens, the app can server as an entry point for deceptive or malicious code. This malware can easily modify the operating system, or worse, affect other users. It is nearly impossible to control a user that has full administrator access, because Administrators can install apps and run any apps or script on the computer. IT managers are always seeking ways to create "standard desktops" where users log on as standard users. Standard desktops greatly reduce help desk costs and reduce IT overhead.
     -   Most applications don't require administrator privileges at run time. A standard-user account should be able to run them. Windows apps must have a manifest (embedded or external) to define its execution level that tells OS the privileges needed to run the app. The app manifest only applies to .exe files, not .dll files. User Account Control (UAC) does not inspect DLLs during the creation of the process. UAC rules don't apply to Microsoft services. The app manifest can be embedded or external.
-    -   To create a manifest, create a file with the name <app\_name&gt;.exe.manifest and store it in the same directory as the EXE. Note that any external manifest is ignored if the app has an internal manifest.
-        -   For example, <requestedExecutionLevel level=""asInvoker \| highestAvailable \| requireAdministrator"" uiAccess=""true\|false""/&gt;
+    -   To create a manifest, create a file with the name <app\_name>.exe.manifest and store it in the same directory as the EXE. Note that any external manifest is ignored if the app has an internal manifest.
+        -   For example, <requestedExecutionLevel level=""asInvoker \| highestAvailable \| requireAdministrator"" uiAccess=""true\|false""/>
         -   The main process of the app must be run as a standard user (**asInvoker**). Any administrative features must be moved into a separate process that runs with administrative privileges.
         -   User facing apps that require elevated privileges must be Authenticode signed.
 -   Test details

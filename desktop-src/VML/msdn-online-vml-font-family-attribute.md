@@ -26,7 +26,7 @@ Defines the family of the textpath font. Read/write. **String**.
 
 **Tag Syntax**
 
-<v: *element* style="font-family: *expression* "&gt;
+<v: *element* style="font-family: *expression* ">
 
 **Script Syntax**
 

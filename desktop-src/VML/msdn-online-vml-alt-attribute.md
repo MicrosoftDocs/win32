@@ -26,7 +26,7 @@ Defines alternative text to be displayed instead of a graphic. Read/write. **Str
 
 **Tag Syntax**
 
-<v: *element* alt=" *expression* "&gt;
+<v: *element* alt=" *expression* ">
 
 **Script Syntax**
 

@@ -26,7 +26,7 @@ Determines table properties. Read/write. **Integer**.
 
 **Tag Syntax**
 
-<v: *element* o:tableproperties=" *expression* "&gt;
+<v: *element* o:tableproperties=" *expression* ">
 
 **Remarks**
 

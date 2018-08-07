@@ -180,7 +180,7 @@ As described in [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap
     <tbody>
     <tr class="odd">
     <td><pre><code>            
-        hr = pConverter-&gt;Initialize(
+        hr = pConverter->Initialize(
             pSource,
             GUID_WICPixelFormat32bppPBGRA,
             WICBitmapDitherTypeNone,

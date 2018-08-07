@@ -34,7 +34,7 @@ This topic describes VML, a feature that is deprecated as of Windows Internet Ex
 
 ## Examples:
 
-To attach text to a rectangle, you can type the following lines in the <BODY&gt; region of your Web page:
+To attach text to a rectangle, you can type the following lines in the <BODY> region of your Web page:
 
 
 ```HTML
@@ -51,7 +51,7 @@ I'm attaching some text to this shape!!!
 
 [Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/AttachText/textbox1.md)
 
-To attach a hyperlink to a rounded rectangle that is gradient-filled, you can type the following lines in the <BODY&gt; region of your Web page:
+To attach a hyperlink to a rounded rectangle that is gradient-filled, you can type the following lines in the <BODY> region of your Web page:
 
 ![textbox2.gif (1147 bytes)](images/textbox2.gif)
 

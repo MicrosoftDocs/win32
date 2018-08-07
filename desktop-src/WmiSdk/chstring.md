@@ -120,10 +120,10 @@ The **CHString** class has these operators.
 | [**operator =**](chstring--operator-equal.md)                                                      | Assigns a new value to a **CHString** string.<br/>                                                          |
 | [**operator == (CHString, CHString)**](https://msdn.microsoft.com/en-us/library/Aa385641(v=VS.85).aspx)          | Compares two **CHStrings** for equality.<br/>                                                               |
 | [**operator == (CHString, LPCWSTR)**](https://msdn.microsoft.com/en-us/library/Aa385645(v=VS.85).aspx)            | Compares a **CHString** with a **LPCWSTR** for equality.<br/>                                               |
-| [**operator &gt; (CHString, CHString)**](https://msdn.microsoft.com/en-us/library/Aa385665(v=VS.85).aspx)       | Compares two **CHStrings**.<br/>                                                                            |
-| [**operator &gt; (CHString, LPCWSTR)**](https://msdn.microsoft.com/en-us/library/Aa385672(v=VS.85).aspx)         | Compares a **CHString** with a **LPCWSTR**.<br/>                                                            |
-| [**operator &gt;= (CHString, CHString)**](https://msdn.microsoft.com/en-us/library/Aa385652(v=VS.85).aspx) | Compares two **CHStrings**.<br/>                                                                            |
-| [**operator &gt;= (CHString, LPCWSTR)**](https://msdn.microsoft.com/en-us/library/Aa385661(v=VS.85).aspx)   | Compares a **CHString** with a **LPCWSTR**.<br/>                                                            |
+| [**operator > (CHString, CHString)**](https://msdn.microsoft.com/en-us/library/Aa385665(v=VS.85).aspx)       | Compares two **CHStrings**.<br/>                                                                            |
+| [**operator > (CHString, LPCWSTR)**](https://msdn.microsoft.com/en-us/library/Aa385672(v=VS.85).aspx)         | Compares a **CHString** with a **LPCWSTR**.<br/>                                                            |
+| [**operator >= (CHString, CHString)**](https://msdn.microsoft.com/en-us/library/Aa385652(v=VS.85).aspx) | Compares two **CHStrings**.<br/>                                                                            |
+| [**operator >= (CHString, LPCWSTR)**](https://msdn.microsoft.com/en-us/library/Aa385661(v=VS.85).aspx)   | Compares a **CHString** with a **LPCWSTR**.<br/>                                                            |
 | [**operator LPCWSTR**](/windows/desktop/api/ChString/nf-chstring-chstring-operator lpcwstr)                                               | Directly accesses characters stored in a **CHString** string as a C-style string.<br/>                      |
 
 

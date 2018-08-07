@@ -200,13 +200,13 @@ HRESULT Player::LoadMediaFile(PCWSTR pwszFile)
                 goto done;
             }
 
-            hr = pGraph-&gt;AddFilter(m_pReader, NULL);
+            hr = pGraph->AddFilter(m_pReader, NULL);
             if (FAILED(hr))
             {
                 goto done;
             }
 
-            hr = m_pReader-&gt;QueryInterface(&m_pFileSource);
+            hr = m_pReader->QueryInterface(&m_pFileSource);
             if (FAILED(hr))
             {
                 goto done;
@@ -216,7 +216,7 @@ HRESULT Player::LoadMediaFile(PCWSTR pwszFile)
 
     if (bIsWindowsMediaFile)
     {
-            hr = m_pFileSource-&gt;Load(pwszFile, NULL);</code></pre></td>
+            hr = m_pFileSource->Load(pwszFile, NULL);</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -244,7 +244,7 @@ HRESULT Player::LoadMediaFile(PCWSTR pwszFile)
     else
     {
         // Not a Windows Media file, so just render the standard way.
-        hr = pGraph-&gt;RenderFile(pwszFile, NULL);
+        hr = pGraph->RenderFile(pwszFile, NULL);
     }
 
 done:
@@ -327,13 +327,13 @@ HRESULT DrmManager::Initialize(IBaseFilter *pFilter)
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>    CComPtr<IServiceProvider&gt; pService;
-    CComPtr<IWMDRMReader&gt; pDrmReader;
+<td><pre><code>    CComPtr<IServiceProvider> pService;
+    CComPtr<IWMDRMReader> pDrmReader;
 
-    HRESULT hr = pFilter-&gt;QueryInterface(&pService);
+    HRESULT hr = pFilter->QueryInterface(&pService);
     if (SUCCEEDED(hr))
     {
-        hr = pService-&gt;QueryService(
+        hr = pService->QueryService(
             __uuidof(IWMDRMReader), IID_PPV_ARGS(&m_pDrmReader));
     }
     return hr;

@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 | CMSPCallBase                    | \*m\_pMSPCall       | Pointer to the call object.                                                                                                                |
 | IGraphBuilder                   | \*m\_pIGraphBuilder | Pointer to graph object interfaces.                                                                                                        |
 | IMediaControl                   | \*m\_pIMediaControl | Pointer to the media control interface.                                                                                                    |
-| CMSPArray <ITTerminal \*&gt; | m\_Terminals        | The list of terminals on the stream.                                                                                                       |
+| CMSPArray <ITTerminal \*> | m\_Terminals        | The list of terminals on the stream.                                                                                                       |
 | CMSPCritSection                 | m\_lock             | The lock that protects the stream object. The stream object should never acquire the lock and then call an MSPCall method that might lock. |
 
 

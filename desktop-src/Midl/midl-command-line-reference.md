@@ -80,7 +80,7 @@ This section contains reference information for each command-line switch and swi
 [**/savePP**](-savepp.md)  
 [**/sstub**](-sstub.md)  
 [**/syntax\_check**](-syntax-check.md)  
-[**/<system&gt;**](-system-.md)  
+[**/<system>**](-system-.md)  
 [**/target**](-target.md)  
 [**/tlb**](-tlb.md)  
 [**/U**](-u.md)  

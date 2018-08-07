@@ -130,7 +130,7 @@ If a decoder and encoder are located on the same hardware chip, it may be prefer
 
 Other type attributes are optional. The decoder returns the custom type from its [**IMFTransform::GetOutputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype), and the encoder returns the custom type from its [**IMFTransform::GetInputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getinputavailabletype) method. In both cases, the custom type must be the first entry in the list (*dwTypeIndex* = 0).
 
-To work with software codecs, the codec should also return at least one standard format, such as NV12 for video. Standard formats should appear after the custom type (*dwTypeIndex* &gt; 0). If the two codecs must always be paired and cannot interoperate with software codecs, the MFTs should return only the custom format and not return any standard formats.
+To work with software codecs, the codec should also return at least one standard format, such as NV12 for video. Standard formats should appear after the custom type (*dwTypeIndex* > 0). If the two codecs must always be paired and cannot interoperate with software codecs, the MFTs should return only the custom format and not return any standard formats.
 
 > [!Note]  
 > If a decoder does not return any standard formats, it cannot be used for playback with the [Enhanced Video Renderer](enhanced-video-renderer.md). In that case, it should be registered as a transcode-only decoder. See [Transcode-Only Decoders](implementing-a-codec-mft.md).

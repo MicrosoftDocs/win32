@@ -713,7 +713,7 @@ As of Windows 7, you can use canonical names to restrict access to individual C
 Use this method if you want to show more Control Panel items than you want to hide.
 
 1.  Run the Gpedit.msc file to launch the Local Group Policy Editor. You can also type "group policy" at the Windows 8.1 Start screen and select **Edit group policy** from the search results.
-2.  Select **User Configuration** &gt; **Administrative Templates** &gt; **Control Panel**.
+2.  Select **User Configuration** > **Administrative Templates** > **Control Panel**.
 3.  Select **Hide specified Control Panel items**.
 4.  In the **Hide Specified Control Panel Items** window that opens, click **Enabled**.
 5.  Click the **Show** button in the Options panel to show the list of disallowed Control Panel items.
@@ -725,7 +725,7 @@ Use this method if you want to show more Control Panel items than you want to hi
 Use this method if you want to hide more Control Panel items than you want to show.
 
 1.  Run the Gpedit.msc file to launch the Local Group Policy Editor. You can also type "group policy" at the Windows 8.1 Start screen and select **Edit group policy** from the search results.
-2.  Select **User Configuration** &gt; **Administrative Templates** &gt; **Control Panel**.
+2.  Select **User Configuration** > **Administrative Templates** > **Control Panel**.
 3.  Select **Show only specified Control Panel items**.
 4.  In the **Show Only Specified Control Panel Items** window that opens, click **Enabled**. This hides everything in the Control Panel.
 5.  Click the **Show** button in the Options panel to show the list of allowed Control Panel items.

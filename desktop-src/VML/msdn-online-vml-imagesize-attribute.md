@@ -26,7 +26,7 @@ Defines the size of the image for the stroke. Read/write. **VgVector2D**.
 
 **Tag Syntax**
 
-<v: *element* imagesize=" *expression* "&gt;
+<v: *element* imagesize=" *expression* ">
 
 **Script Syntax**
 

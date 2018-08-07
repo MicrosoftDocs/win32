@@ -39,7 +39,7 @@ The following table compares the Windows Media Player 6.4 object model propertie
 <tbody>
 <tr class="odd">
 <td><em>Player6</em>.<strong>AllowChangeDisplaySize</strong></td>
-<td>The display of Windows Media Player 7 or later automatically resizes to fit the media. You can set the height and width properties in the <OBJECT&gt; tag or in script.</td>
+<td>The display of Windows Media Player 7 or later automatically resizes to fit the media. You can set the height and width properties in the <OBJECT> tag or in script.</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>.<strong>AllowScan</strong></td>
@@ -67,7 +67,7 @@ The following table compares the Windows Media Player 6.4 object model propertie
 </tr>
 <tr class="even">
 <td><em>Player6</em>.<strong>AutoSize</strong></td>
-<td>Automatic sizing is the default behavior. To override automatic sizing, set the height and width properties in the <OBJECT&gt; tag or in script.</td>
+<td>Automatic sizing is the default behavior. To override automatic sizing, set the height and width properties in the <OBJECT> tag or in script.</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>.<strong>AutoStart</strong></td>
@@ -231,8 +231,8 @@ The following table compares the Windows Media Player 6.4 object model propertie
 </tr>
 <tr class="odd">
 <td><em>Player6</em>.<strong>DefaultFrame</strong></td>
-<td>Use <em>Settings</em>.<strong>defaultFrame</strong>, or use a <PARAM&gt; attribute in the <OBJECT&gt; element:
-<pre data-space="preserve"><code><PARAM NAME=&quot;defaultFrame&quot; VALUE=&quot;right&quot;&gt;</code></pre></td>
+<td>Use <em>Settings</em>.<strong>defaultFrame</strong>, or use a <PARAM> attribute in the <OBJECT> element:
+<pre data-space="preserve"><code><PARAM NAME=&quot;defaultFrame&quot; VALUE=&quot;right&quot;></code></pre></td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>.<strong>DisplayBackColor</strong></td>
@@ -248,7 +248,7 @@ The following table compares the Windows Media Player 6.4 object model propertie
 </tr>
 <tr class="odd">
 <td><em>Player6</em>.<strong>DisplaySize</strong></td>
-<td>The default display automatically resizes to fit the media. You can set the height and width properties in the <OBJECT&gt; tag, or in script. Use <em>Player</em>.<strong>fullScreen</strong> to switch to full-screen mode.</td>
+<td>The default display automatically resizes to fit the media. You can set the height and width properties in the <OBJECT> tag, or in script. Use <em>Player</em>.<strong>fullScreen</strong> to switch to full-screen mode.</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>.<strong>Duration</strong></td>

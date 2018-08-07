@@ -17,7 +17,7 @@ A PrintCapabilities element represents the root of the PrintCapabilities documen
 
 ## Element Tag
 
-<PrintCapabilities&gt;
+<PrintCapabilities>
 
 ## XML Attributes
 

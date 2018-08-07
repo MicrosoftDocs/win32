@@ -17,7 +17,7 @@ A URL is a compact representation of the location and access method for a resour
 
 The specified syntax and semantics of URLs leaves room for variation and error. Canonicalization is the process of normalizing an actual URL into a correct, standard, "canonical" form.
 
-This involves coding some characters as "escape sequences." Alphanumeric US-ASCII characters need not be encoded (the digits 0-9, the capital letters A-Z, and the lowercase letters a-z). Most other characters must be escaped, including control characters, the space character, the percent sign, "unsafe characters" ( <, &gt;, ", \#, {, }, \|, \\, ^, ~, \[, \], and ' ), and all characters with a code point above 127.
+This involves coding some characters as "escape sequences." Alphanumeric US-ASCII characters need not be encoded (the digits 0-9, the capital letters A-Z, and the lowercase letters a-z). Most other characters must be escaped, including control characters, the space character, the percent sign, "unsafe characters" ( <, >, ", \#, {, }, \|, \\, ^, ~, \[, \], and ' ), and all characters with a code point above 127.
 
 ## Using the WinHTTP Functions to Handle URLs
 

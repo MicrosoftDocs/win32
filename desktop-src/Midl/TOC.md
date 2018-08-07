@@ -150,7 +150,7 @@
 ### [/server](-server.md)
 ### [/sstub](-sstub.md)
 ### [/syntax_check](-syntax-check.md)
-### [/<system&gt;](-system-.md)
+### [/<system>](-system-.md)
 ### [/target](-target.md)
 ### [/tlb](-tlb.md)
 ### [/U](-u.md)

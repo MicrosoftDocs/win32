@@ -26,7 +26,7 @@ Determines whether the original size of an object is saved after reformatting. R
 
 **Tag Syntax**
 
-<v: *element* o:preferrelative=" *expression* "&gt;
+<v: *element* o:preferrelative=" *expression* ">
 
 **Remarks**
 

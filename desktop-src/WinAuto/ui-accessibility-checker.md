@@ -36,7 +36,7 @@ AccChecker provides the following levels of functionality:
 
 All levels of AccChecker functionality provide routines for verifying Microsoft Active Accessibility programmatic access, programmatic event generation, control layout, and keyboard navigation. AccChecker also provides a basic screen reader transcription service.
 
-AccChecker is installed with the Windows Software Development Kit (SDK). It is located in the \\bin\\<*version*&gt;\\<*platform*&gt;\\AccChecker folder of the SDK installation path.
+AccChecker is installed with the Windows Software Development Kit (SDK). It is located in the \\bin\\<*version*>\\<*platform*>\\AccChecker folder of the SDK installation path.
 
 ## In this section
 

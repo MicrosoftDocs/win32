@@ -32,7 +32,7 @@ lists it as an exclusion.
 
 | ModuleID             | ModuleLanguage | RequiredID           | RequiredLanguage | RequiredVersion |
 |----------------------|----------------|----------------------|------------------|-----------------|
-| ModuleA.<GUID&gt; | 1033           | ModuleB.<GUID&gt; | 1033             | 1.0             |
+| ModuleA.<GUID> | 1033           | ModuleB.<GUID> | 1033             | 1.0             |
 
 
 
@@ -44,7 +44,7 @@ lists it as an exclusion.
 
 | ModuleID             | ModuleLanguage | ExcludedID           | ExcludedLanguage | ExcludedMinVersion | ExcludedMaxVersion |
 |----------------------|----------------|----------------------|------------------|--------------------|--------------------|
-| ModuleA.<GUID&gt; | 1033           | ModuleB.<GUID&gt; | 1033             |                    | 1.0                |
+| ModuleA.<GUID> | 1033           | ModuleB.<GUID> | 1033             |                    | 1.0                |
 
 
 

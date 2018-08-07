@@ -246,7 +246,7 @@ Retrieves the priority of the specified job. The priority is either FOREGROUND, 
 <span id="_GetProxyBypassList_Job"></span><span id="_getproxybypasslist_job"></span><span id="_GETPROXYBYPASSLIST_JOB"></span>**/GetProxyBypassList** *Job*
 </dt> <dd>
 
-Retrieves the proxy bypass list for the specified job. The bypass list contains the host names or IP addresses, or both, that are not to be routed through a proxy. The list can contain "<local&gt;" to refer to all servers on the same LAN. The list is space-delimited.
+Retrieves the proxy bypass list for the specified job. The bypass list contains the host names or IP addresses, or both, that are not to be routed through a proxy. The list can contain "<local>" to refer to all servers on the same LAN. The list is space-delimited.
 
 </dd> <dt>
 
@@ -523,7 +523,7 @@ Sets the proxy settings for the specified job. The *usage* parameter can be one 
 -   NO\_PROXY — Do not use a proxy server.
 -   OVERRIDE — Use an explicit proxy list and bypass list. A proxy and proxy bypass list must follow.
 
-The *List* parameter contains a comma-delimited list of proxy servers to use. The *Bypass* parameter contains a space-delimited list of host names or IP addresses, or both, for which transfers are not to be routed through a proxy. This can be <local&gt; to refer to all servers on the same LAN. Values of **NULL** or "" may be used for an empty proxy bypass list.
+The *List* parameter contains a comma-delimited list of proxy servers to use. The *Bypass* parameter contains a space-delimited list of host names or IP addresses, or both, for which transfers are not to be routed through a proxy. This can be <local> to refer to all servers on the same LAN. Values of **NULL** or "" may be used for an empty proxy bypass list.
 
 The following examples show possible uses of the switch:
 
@@ -531,7 +531,7 @@ The following examples show possible uses of the switch:
 
 **bitsadmin** **/setproxysettings** *MyJob NO\_PROXY*
 
-**bitsadmin** **/setproxysettings** *MyJob OVERRIDE proxy1:80 "<local&gt;"*
+**bitsadmin** **/setproxysettings** *MyJob OVERRIDE proxy1:80 "<local>"*
 
 **bitsadmin** **/setproxysettings** *MyJob OVERRIDE proxy1,proxy2,proxy3 NULL*
 
@@ -591,12 +591,12 @@ Displays the command-line usage for the **/Util** switches. You can also specify
 
 </dd> <dt>
 
-<span id="_Util__GetIEProxy__Account__Conn__Connection_Name_"></span><span id="_util__getieproxy__account__conn__connection_name_"></span><span id="_UTIL__GETIEPROXY__ACCOUNT__CONN__CONNECTION_NAME_"></span>**/Util /GetIEProxy** *<Account&gt;*\[**/Conn <Connection Name&gt;**\]
+<span id="_Util__GetIEProxy__Account__Conn__Connection_Name_"></span><span id="_util__getieproxy__account__conn__connection_name_"></span><span id="_UTIL__GETIEPROXY__ACCOUNT__CONN__CONNECTION_NAME_"></span>**/Util /GetIEProxy** *<Account>*\[**/Conn <Connection Name>**\]
 </dt> <dd>
 
 Retrieves the proxy usage for the given service account. This switch shows the value for each proxy usage, not just the proxy usage you specified for the service account.
 
-Use the *<account&gt;* parameter to specify the service account whose proxy settings you want to retrieve. Possible values are:
+Use the *<account>* parameter to specify the service account whose proxy settings you want to retrieve. Possible values are:
 
 -   LOCALSYSTEM
 -   NETWORKSERVICE
@@ -619,20 +619,20 @@ Note that if BITS recreates the service, the service description string may be s
 
 </dd> <dt>
 
-<span id="_Util__SetIEProxy___Account___Usage___Conn__Connection_Name_"></span><span id="_util__setieproxy___account___usage___conn__connection_name_"></span><span id="_UTIL__SETIEPROXY___ACCOUNT___USAGE___CONN__CONNECTION_NAME_"></span>**/Util /SetIEProxy** *<Account&gt; <Usage&gt;* \[**/Conn <Connection Name&gt;**\]
+<span id="_Util__SetIEProxy___Account___Usage___Conn__Connection_Name_"></span><span id="_util__setieproxy___account___usage___conn__connection_name_"></span><span id="_UTIL__SETIEPROXY___ACCOUNT___USAGE___CONN__CONNECTION_NAME_"></span>**/Util /SetIEProxy** *<Account> <Usage>* \[**/Conn <Connection Name>**\]
 </dt> <dd>
 
 Specify proxy settings to use when transferring files using a service account.
 
 **BITSAdmin 1.5 and earlier:** Not supported.
 
-Use the <account&gt; parameter to specify the type of service account whose proxy usage you want to define. Possible values are:
+Use the <account> parameter to specify the type of service account whose proxy usage you want to define. Possible values are:
 
 -   LOCALSYSTEM
 -   NETWORKSERVICE
 -   LOCALSERVICE
 
-Use the <usage&gt; parameter to specify the form of proxy detection to use. Possible values are:
+Use the <usage> parameter to specify the form of proxy detection to use. Possible values are:
 
 -   NO\_PROXY—Do not use a proxy server.
 -   AUTODETECT—Automatically detect the proxy settings.
@@ -640,7 +640,7 @@ Use the <usage&gt; parameter to specify the form of proxy detection to use. Poss
 
     The proxy list is a comma-delimited list of proxy servers to use.
 
-    The bypass list is a space-delimited list of host names or IP addresses, or both, for which transfers are not to be routed through a proxy. This can be <local&gt; to refer to all servers on the same LAN. Values of **NULL** or "" may be used for an empty proxy bypass list.
+    The bypass list is a space-delimited list of host names or IP addresses, or both, for which transfers are not to be routed through a proxy. This can be <local> to refer to all servers on the same LAN. Values of **NULL** or "" may be used for an empty proxy bypass list.
 
 -   AUTOSCRIPT—Same as AUTODETECT, except it also executes a script. Specify the script URL immediately following the usage tag. For example, AUTOSCRIPT http://server/proxy.js.
 -   RESET—Same as NO\_PROXY, except it removes the manual proxy URLs (if specified) and URLs discovered using automatic detection.
@@ -655,7 +655,7 @@ The following examples show how to use the **/Util /SetIEProxy** switch:
 
 **bitsadmin** **/util /setieproxy** *localsystem* **MANUAL\_PROXY proxy1,proxy2,proxy3 NULL**
 
-**bitsadmin** **/util /setieproxy** *localsystem* **MANUAL\_PROXY proxy1:80 "<local&gt;"**
+**bitsadmin** **/util /setieproxy** *localsystem* **MANUAL\_PROXY proxy1:80 "<local>"**
 
 </dd> <dt>
 

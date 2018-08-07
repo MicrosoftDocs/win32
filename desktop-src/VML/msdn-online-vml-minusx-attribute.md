@@ -26,7 +26,7 @@ Determines whether the callout will flip along thex-axis. Read/write. **VgTriSta
 
 **Tag Syntax**
 
-<o: *element* minusx=" *expression* "&gt;
+<o: *element* minusx=" *expression* ">
 
 **Remarks**
 

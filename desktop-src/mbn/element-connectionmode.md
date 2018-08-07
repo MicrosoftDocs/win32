@@ -20,8 +20,8 @@ For more information, see the documentation for the v1 [**ConnectionMode**](http
 
 ## Element hierarchy
 
-[<MBNProfileExt&gt;](element-mbnprofileext.md)  
-**<ConnectionMode&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+**<ConnectionMode>**
 
 ## Syntax
 

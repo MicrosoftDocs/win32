@@ -26,7 +26,7 @@ Defines the amount of slant for a font. Read/write. **String**.
 
 **Tag Syntax**
 
-<v: *element* style="font-style: *expression* "&gt;
+<v: *element* style="font-style: *expression* ">
 
 **Script Syntax**
 

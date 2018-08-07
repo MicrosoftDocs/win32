@@ -210,8 +210,8 @@ The provider remains enabled for the session until the session disables the prov
 
 To determine the level and keywords used to enable a manifest-based provider, use one of the following commands:
 
--   Logman query providers <provider-name&gt;
--   Wevtutil gp <provider-name&gt;
+-   Logman query providers <provider-name>
+-   Wevtutil gp <provider-name>
 
 For classic providers, it is up to the provider to document and make available to potential controllers the severity levels or enable flags that it supports. If the provider wants to be enabled by any controller, the provider should accept 0 for the severity level and enable flags and interpret 0 as a request to perform default logging (whatever that may be).
 

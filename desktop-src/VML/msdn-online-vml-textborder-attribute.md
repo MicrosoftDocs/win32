@@ -26,7 +26,7 @@ Determines whether a callout will have a text border. Read/write. **VgTriState**
 
 **Tag Syntax**
 
-<o: *element* textborder=" *expression* "&gt;
+<o: *element* textborder=" *expression* ">
 
 **Remarks**
 

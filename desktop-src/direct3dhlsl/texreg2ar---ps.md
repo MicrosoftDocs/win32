@@ -51,7 +51,7 @@ This instruction is useful for color-space remapping operations.
 Here is an example of the sequence the instruction follows:
 
 <dl> tex t(n)  
-texreg2ar t(m), t(n) where m &gt; n  
+texreg2ar t(m), t(n) where m > n  
 // The first instruction loads the texture color (RGBA)  
 // into register tn  
 tex tn  

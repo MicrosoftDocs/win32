@@ -121,7 +121,7 @@ Public Sub player_OpenStateChange(ByVal sender As Object, ByVal e As AxWMPLib._W
         videoSize.Clear()
 
         &#39; Test whether an image is visible.
-        If (Height <&gt; 0 And Width <&gt; 0) Then
+        If (Height <> 0 And Width <> 0) Then
 
             &#39; Display the image size information.
             videoSize.Text = (Width.ToString() + &quot; x &quot; + Height.ToString())

@@ -26,7 +26,7 @@ Defines the title of a stroke image. Read/write. **String**.
 
 **Tag Syntax**
 
-<v: *element* title=" *expression* "&gt;
+<v: *element* title=" *expression* ">
 
 **Script Syntax**
 

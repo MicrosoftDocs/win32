@@ -26,7 +26,7 @@ Determines whether the extra handles of a shape are hidden. Read/write. **VgTriS
 
 **Tag Syntax**
 
-<v: *element* o:oned=" *expression* "&gt;
+<v: *element* o:oned=" *expression* ">
 
 **Remarks**
 

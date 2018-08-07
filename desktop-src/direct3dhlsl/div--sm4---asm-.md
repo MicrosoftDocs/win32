@@ -40,7 +40,7 @@ The following table shows the results obtained when executing the instruction wi
 
 You should note the two allowed implementations of divide: a/b and a\*(1/b).
 
-One outcome of this is that there are exceptions to the table below for large denominator values (greater than 8.5070592e+37), where 1/denominator is a denorm. Because implementations may perform divide as a\*(1/b), instead of a/b directly, and 1/\[large value\] is a denorm that could get flushed, some cases in the table would produce different results. For example, (+/-)INF / (+/-)\[value &gt; 8.5070592e+37\] may produce NaN on some implementations, but (+/-)INF on other implementations
+One outcome of this is that there are exceptions to the table below for large denominator values (greater than 8.5070592e+37), where 1/denominator is a denorm. Because implementations may perform divide as a\*(1/b), instead of a/b directly, and 1/\[large value\] is a denorm that could get flushed, some cases in the table would produce different results. For example, (+/-)INF / (+/-)\[value > 8.5070592e+37\] may produce NaN on some implementations, but (+/-)INF on other implementations
 
 In this table F means finite-real number.
 
@@ -48,7 +48,7 @@ In this table F means finite-real number.
 
 |                     |          |            |             |        |        |             |            |          |         |
 |---------------------|----------|------------|-------------|--------|--------|-------------|------------|----------|---------|
-| **src0 src1 -&gt;** | **-inf** | **-F**     | **-denorm** | **-0** | **+0** | **+denorm** | **+F**     | **+inf** | **Nan** |
+| **src0 src1 ->** | **-inf** | **-F**     | **-denorm** | **-0** | **+0** | **+denorm** | **+F**     | **+inf** | **Nan** |
 | **-inf**            | -inf     | -inf       | -inf        | -inf   | -inf   | -inf        | -inf       | NaN      | NaN     |
 | **-F**              | -inf     | -F         | src0        | src0   | src0   | src0        | +-F or +-0 | +inf     | NaN     |
 | **-denorm**         | -inf     | src1       | -0          | -0     | +0     | +0          | src1       | +inf     | NaN     |

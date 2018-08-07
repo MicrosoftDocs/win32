@@ -159,7 +159,7 @@ A brush, represented by the [**ID2D1Brush**](https://msdn.microsoft.com/en-us/li
 -   [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371529(v=VS.85).aspx) paints an area with a radial gradient that blends two or more colors around an ellipse.
 -   [**ID2D1BitmapBrush**](https://msdn.microsoft.com/en-us/library/Dd371122(v=VS.85).aspx) paints an area with a bitmap.
 
-To create a brush, you use one of the [**ID2D1RenderTarget::**](https://msdn.microsoft.com/en-us/library/Dd371766(v=VS.85).aspx)Create*<Type&gt;*Brush methods, such as [**CreateRadialGradientBrush**](https://msdn.microsoft.com/library/windows/desktop/dd371861). Brushes can be used with a render target Draw and Fill methods, either to paint a shape stroke or outline, or as an opacity mask.
+To create a brush, you use one of the [**ID2D1RenderTarget::**](https://msdn.microsoft.com/en-us/library/Dd371766(v=VS.85).aspx)Create*<Type>*Brush methods, such as [**CreateRadialGradientBrush**](https://msdn.microsoft.com/library/windows/desktop/dd371861). Brushes can be used with a render target Draw and Fill methods, either to paint a shape stroke or outline, or as an opacity mask.
 
 For more information about brushes, see the [Brushes Overview](direct2d-brushes-overview.md).
 
@@ -171,7 +171,7 @@ More complex shapes can be created by using the [**ID2D1GeometrySink**](https://
 
 The geometry interfaces provide methods for manipulating shapes by widening or simplifying existing geometries, or by generating the intersection or union of multiple geometries. They also provide methods for determining whether geometries are intersecting or overlapping, retrieving bounds information, computing the area or length of a geometry, and interpolating locations along a geometry. Direct2D also provides the ability to create a mesh of triangles that is tessellated from a geometry.
 
-To create a geometry, you use one of the [**ID2D1Factory**](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx)::Create*<Type&gt;*Geometry methods, such as [**CreatePathGeometry**](https://msdn.microsoft.com/en-us/library/Dd371282(v=VS.85).aspx). A geometry is a device-independent resource.
+To create a geometry, you use one of the [**ID2D1Factory**](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx)::Create*<Type>*Geometry methods, such as [**CreatePathGeometry**](https://msdn.microsoft.com/en-us/library/Dd371282(v=VS.85).aspx). A geometry is a device-independent resource.
 
 To render a geometry, you use the [**DrawGeometry**](https://msdn.microsoft.com/en-us/library/Dd371890(v=VS.85).aspx) and [**FillGeometry**](https://msdn.microsoft.com/en-us/library/Dd371933(v=VS.85).aspx) methods of a render target.
 

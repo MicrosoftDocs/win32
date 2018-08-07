@@ -26,7 +26,7 @@ Defines the number of facets used to describe curved surfaces of an extrusion. R
 
 **Tag Syntax**
 
-<o: *element* facet=" *expression* "&gt;
+<o: *element* facet=" *expression* ">
 
 **Script Syntax**
 

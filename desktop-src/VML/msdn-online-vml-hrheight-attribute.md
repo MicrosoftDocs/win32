@@ -26,7 +26,7 @@ Defines the thickness of a horizontal rule. Read/write. **VgLength**.
 
 **Tag Syntax**
 
-<v: *element* o:hrheight=" *expression* "&gt;
+<v: *element* o:hrheight=" *expression* ">
 
 **Remarks**
 

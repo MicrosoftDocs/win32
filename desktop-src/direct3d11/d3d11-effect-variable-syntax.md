@@ -17,7 +17,7 @@ An effect variable is declared with the syntax described in this section.
 
 Basic syntax:
 
-*DataType* *VariableName* \[ *: SemanticName* \] < *Annotations* &gt; \[ = InitialValue \];
+*DataType* *VariableName* \[ *: SemanticName* \] < *Annotations* > \[ = InitialValue \];
 
 See [Variable Syntax (DirectX HLSL)](https://msdn.microsoft.com/library/windows/desktop/bb509706) for full syntax.
 

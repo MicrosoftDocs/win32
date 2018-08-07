@@ -26,7 +26,7 @@ Determines whether the secondary light source will be harsh. Read/write. **VgTri
 
 **Tag Syntax**
 
-<o: *element* lightharsh2=" *expression* "&gt;
+<o: *element* lightharsh2=" *expression* ">
 
 **Script Syntax**
 

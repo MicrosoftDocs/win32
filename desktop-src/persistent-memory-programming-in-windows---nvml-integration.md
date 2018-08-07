@@ -41,19 +41,19 @@ To help developers take advantage of the benefits persistent memory offers, Micr
 
 -   Open your visual studio project and in the “Solution Explorer” right-click on your project’s name.
 -   Open the project’s setting pane at the bottom of the resulting pop-up.
--   Navigate to “Configuration Properties -&gt; C/C++” and add the folder in which you stored the header (C:\\NVML\\inc) to the “Additional Include Directories” field.
--   Next, navigate to “Configuration Properties -&gt; Linker” and add the folder in which you stored the library (C:\\NVML\\lib) to the “Additional Library Directories” field
+-   Navigate to “Configuration Properties -> C/C++” and add the folder in which you stored the header (C:\\NVML\\inc) to the “Additional Include Directories” field.
+-   Next, navigate to “Configuration Properties -> Linker” and add the folder in which you stored the library (C:\\NVML\\lib) to the “Additional Library Directories” field
 
 4. Next, make sure you target the project for Windows Server 2016 or Windows 10 Anniversary Update:
 
--   Navigate to “Configuration Properties -&gt; General” and set the “Target Platform Version” field to “10.0.14393.0” and
--   Navigate to “Configuration Properties -&gt; C/C++” and add “NTDDI\_VERSION=NTDDI\_WIN10\_RS1;” to the “Preprocessor” field.
+-   Navigate to “Configuration Properties -> General” and set the “Target Platform Version” field to “10.0.14393.0” and
+-   Navigate to “Configuration Properties -> C/C++” and add “NTDDI\_VERSION=NTDDI\_WIN10\_RS1;” to the “Preprocessor” field.
 
 5. Include the headers in your code and link to the required libraries
 
 -   At this point, you can simply include the header files you are looking to use in your code like any other header files. For example, to use libpmem:
-    -   add "\#include <libpmem.h&gt;" and
-    -   add "libpmem.lib" to "Configuration Properties -&gt; Linker -&gt; Input -&gt; Additional Dependencies"
+    -   add "\#include <libpmem.h>" and
+    -   add "libpmem.lib" to "Configuration Properties -> Linker -> Input -> Additional Dependencies"
 
 At this point you are ready to call the library’s functions directly in your code and take advantage of them.
 

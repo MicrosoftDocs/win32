@@ -26,7 +26,7 @@ Specifies the rotation of the object about the x and y -axes. Read/write. **VgVe
 
 **Tag Syntax**
 
-<o: *element* rotationangle=" *expression* "&gt;
+<o: *element* rotationangle=" *expression* ">
 
 **Script Syntax**
 

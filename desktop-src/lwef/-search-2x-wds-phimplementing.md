@@ -71,7 +71,7 @@ First, **GetChunk** returns a FULLPROSPEC with the property set GATHER\_PROPSET 
 
 The property set GUID for GATHER\_PROPSET is 0B63E343-9CCC-11D0-BCDB-00805FCCCE04. The PROPSPEC Property is either PID\_GTHR\_DIRLINK=2 or PID\_GTHR\_DIRLINK\_WITH\_TIME = 12 decimal.
 
-Returning PID\_GTHR\_DIRLINK\_WITH\_TIME is more efficient because the indexer can immediately determine whether the item needs to be indexed without calling the ISearchProtocol-&gt;CreateUrlAccessor() and IUrlAccessor-&gt;GetLastModified() methods.
+Returning PID\_GTHR\_DIRLINK\_WITH\_TIME is more efficient because the indexer can immediately determine whether the item needs to be indexed without calling the ISearchProtocol->CreateUrlAccessor() and IUrlAccessor->GetLastModified() methods.
 
 Then **GetValue** returns a PROPVARIANT for the URL (and last modified time if used), as either:
 

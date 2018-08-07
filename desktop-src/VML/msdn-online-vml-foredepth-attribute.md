@@ -26,7 +26,7 @@ Defines the amount of forward extrusion. Read/write. **VgNumber**.
 
 **Tag Syntax**
 
-<o: *element* foredepth=" *expression* "&gt;
+<o: *element* foredepth=" *expression* ">
 
 **Script Syntax**
 

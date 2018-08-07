@@ -36,7 +36,7 @@ the uuidgen utility would generate a block of UUIDs similar to the following:
 
 One method for generating and tracking GUIDs for an entire project begins with generating a block of some arbitrarily large number of UUIDs, say 500. For example, if you were to type
 
-**uuidgen -n500 -x &gt; guids.txt**
+**uuidgen -n500 -x > guids.txt**
 
 the utility would generate 500 consecutive UUIDs and write them to the specified text file. You could then check this file into your source tree, providing a single repository for all GUIDs to be used in a project. As people require GUIDs for their portions of the project, they can check out the file, take however many GUIDs they need, marking them as taken and leaving a note about where in the code or "spec" they are using them.
 

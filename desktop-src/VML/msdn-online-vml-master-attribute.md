@@ -26,7 +26,7 @@ Determines whether a **ShapeType** element is a master element. Read/write. **Vg
 
 **Tag Syntax**
 
-<v: *element* o:master=" *expression* "&gt;
+<v: *element* o:master=" *expression* ">
 
 **Remarks**
 

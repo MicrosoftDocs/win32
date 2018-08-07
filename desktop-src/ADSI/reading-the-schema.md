@@ -95,7 +95,7 @@ Next
  // Enumerate schema objects
  IEnumVARIANT *pEnum = NULL;
  hr = ADsBuildEnumerator( pSchema, &pEnum );
- pSchema-&gt;Release(); // This is no longer needed, since we have the enumerator already.
+ pSchema->Release(); // This is no longer needed, since we have the enumerator already.
     
  if ( SUCCEEDED(hr) )
  {
@@ -106,14 +106,14 @@ Next
         
    while( SUCCEEDED(ADsEnumerateNext( pEnum, 1, &var, &lFetch )) && lFetch == 1 )
    {
-     hr = V_DISPATCH(&var)-&gt;QueryInterface( IID_IADs, (void**) &pChild );
+     hr = V_DISPATCH(&var)->QueryInterface( IID_IADs, (void**) &pChild );
      if ( SUCCEEDED(hr) )
      {
        BSTR bstrName;
        BSTR bstrClass;
        // Get more information on the child classes
-       pChild-&gt;get_Name(&bstrName);
-       pChild-&gt;get_Class(&bstrClass);
+       pChild->get_Name(&bstrName);
+       pChild->get_Class(&bstrClass);
                 
        printf(&quot;%S\t\t(%S)\n&quot;, bstrName, bstrClass );
                 
@@ -121,7 +121,7 @@ Next
        SysFreeString(bstrName);
        SysFreeString(bstrClass);
                 
-       pChild-&gt;Release();
+       pChild->Release();
      }
      VariantClear(&var);
    }

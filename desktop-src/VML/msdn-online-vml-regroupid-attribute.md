@@ -26,7 +26,7 @@ Defines a previous group for a shape. Read/write. **VgInteger**.
 
 **Tag Syntax**
 
-<v: *element* o:regroupid=" *expression* "&gt;
+<v: *element* o:regroupid=" *expression* ">
 
 **Remarks**
 

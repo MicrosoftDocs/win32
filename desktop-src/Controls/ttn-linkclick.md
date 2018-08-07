@@ -40,7 +40,7 @@ Return value not used.
 
 ## Remarks
 
-Following is an example of when this notification is sent. Assume that your balloon tooltip contains the following text, "This is a <A&gt;link</A&gt;". When "link" is clicked, the tooltip control sends a TTN\_LINKCLICK notification code.
+Following is an example of when this notification is sent. Assume that your balloon tooltip contains the following text, "This is a <A>link</A>". When "link" is clicked, the tooltip control sends a TTN\_LINKCLICK notification code.
 
 > [!Note]  
 > To use this notification code, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).

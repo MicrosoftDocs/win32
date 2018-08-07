@@ -18,13 +18,13 @@ Specifies the parameters required to establish a data connection.
 
 ## Element hierarchy
 
-[<MBNProfileExt&gt;](element-mbnprofileext.md)  
-**<Context&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+**<Context>**
 
 <!-- -->
 
-[<ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
-**<Context&gt;**
+[<ModemDMConfigProfile>](element-modemdmconfigprofile.md)  
+**<Context>**
 
 ## Syntax
 
@@ -72,7 +72,7 @@ None.
 </tr>
 <tr class="even">
 <td>[AuthProtocol](element-1-authprotocol.md)</td>
-<td><p>&gt;Specifies the authentication protocol to be used for activating a Packet Data Protocol (PDP) context.</p>
+<td><p>>Specifies the authentication protocol to be used for activating a Packet Data Protocol (PDP) context.</p>
 <p>Note that in v4, a new enumeration value is available for this element. <strong>AutoSelection</strong> means that an auth protocol is to be picked by lower layer(s).</p>
 <p>For further information, see the documentation for the v1 [<strong>AuthProtocol</strong>](../mbn/schema_authprotocol_contexttype_element.md) element.</p></td>
 </tr>

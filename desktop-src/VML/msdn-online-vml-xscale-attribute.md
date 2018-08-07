@@ -26,7 +26,7 @@ Determines whether a straight textpath will be used instead of the shape path. R
 
 **Tag Syntax**
 
-<v: *element* style="xscale: *expression* "&gt;
+<v: *element* style="xscale: *expression* ">
 
 **Script Syntax**
 

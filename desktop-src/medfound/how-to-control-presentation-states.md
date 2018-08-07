@@ -19,12 +19,12 @@ The following table shows the valid presentation state transitions.
 
 | State transition | Description                                                                                |
 |------------------|--------------------------------------------------------------------------------------------|
-| Play -&gt; Pause | The presentation clock freezes.                                                            |
-| Play -&gt; Stop  | The presentation clock is reset.                                                           |
-| Pause -&gt; Play | The presentation clock resumes from the time it froze during the Play to Pause transition. |
-| Pause -&gt; Stop | The presentation clock is reset.                                                           |
-| Stop -&gt; Play  | The presentation clock starts from the beginning of the presentation.                      |
-| Stop -&gt; Pause | Not allowed.                                                                               |
+| Play -> Pause | The presentation clock freezes.                                                            |
+| Play -> Stop  | The presentation clock is reset.                                                           |
+| Pause -> Play | The presentation clock resumes from the time it froze during the Play to Pause transition. |
+| Pause -> Stop | The presentation clock is reset.                                                           |
+| Stop -> Play  | The presentation clock starts from the beginning of the presentation.                      |
+| Stop -> Pause | Not allowed.                                                                               |
 
 
 

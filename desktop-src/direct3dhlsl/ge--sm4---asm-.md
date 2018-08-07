@@ -36,7 +36,7 @@ Component-wise vector floating point greater-than-or-equal comparison.
 
 ## Remarks
 
-Performs the float comparison (*src0* &gt;= *src1*) for each component, and writes the result to *dest*.
+Performs the float comparison (*src0* >= *src1*) for each component, and writes the result to *dest*.
 
 If the comparison is true, then 0xFFFFFFFF is returned for that component. Otherwise 0x0000000 is returned.
 

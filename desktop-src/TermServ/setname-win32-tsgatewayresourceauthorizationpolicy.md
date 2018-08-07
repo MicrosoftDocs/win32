@@ -49,7 +49,7 @@ uint32 SetName(
 
 Name of the RD RAP. The name must be 64 characters or less, unique (case is ignored), and cannot contain the following reserved characters:
 
-<&gt; : ; " / \\ \| ? \* \[TAB\]
+<> : ; " / \\ \| ? \* \[TAB\]
 
 </dd> </dl>
 

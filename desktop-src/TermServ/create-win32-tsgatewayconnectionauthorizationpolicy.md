@@ -66,7 +66,7 @@ uint32 Create(
 
 Name of the RD CAP. The name must be 64 characters or less, unique (case is ignored), and cannot contain the following reserved characters:
 
-<&gt; : ; " / \\ \| ? \* \[TAB\]
+<> : ; " / \\ \| ? \* \[TAB\]
 
 </dd> <dt>
 

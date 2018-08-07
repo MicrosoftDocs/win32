@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 By default, the results of a search are returned in no guaranteed order. The **ADS\_SEARCHPREF\_SORT\_ON** preference instructs the server to sort the result set on a specified attribute value before it is returned to the client.
 
-It is recommended that indexed attributes be used for sorting. Otherwise, the server must retrieve the complete result set and sort it before sending any results to the client. This also applies to paged searches. Be aware that performance of a sorted search will be increased if the filter includes an indexed attribute and that attribute is specified as the sort key; in this case, Active Directory can satisfy the sort while processing the filter. For example, an efficient sort query for a set of users could have a filter that included (sn&gt;smith) and a sort key of sn.
+It is recommended that indexed attributes be used for sorting. Otherwise, the server must retrieve the complete result set and sort it before sending any results to the client. This also applies to paged searches. Be aware that performance of a sorted search will be increased if the filter includes an indexed attribute and that attribute is specified as the sort key; in this case, Active Directory can satisfy the sort while processing the filter. For example, an efficient sort query for a set of users could have a filter that included (sn>smith) and a sort key of sn.
 
 Server-side sorting with the **ADS\_SEARCHPREF\_SORT\_ON** search option will reduce the performance of the server. If you will be performing many searches, consider sorting the results manually on the client side to reduce the workload on the server.
 

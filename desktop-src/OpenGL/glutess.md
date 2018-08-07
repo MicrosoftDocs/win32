@@ -130,17 +130,17 @@ The following are valid callbacks:
                 GLfloat w[4], VERTEX **dataOut ) 
 { 
     VERTEX *newVertex = new_vertex(); 
-    newVertex-&gt;x = coords[0]; 
-    newVertex-&gt;y = coords[1]; 
-    newVertex-&gt;z = coords[2]; 
-    newVertex-&gt;r = w[0]*d[0]-&gt;r + w[1]*d[1]-&gt;r + w[2]*d[2]-&gt;r + 
-                   w[3]*d[3]-&gt;r; 
-    newVertex-&gt;g = w[0]*d[0]-&gt;g + w[1]*d[1]-&gt;g + w[2]*d[2]-&gt;g + 
-                   w[3]*d[3]-&gt;g; 
-    newVertex-&gt;b = w[0]*d[0]-&gt;b + w[1]*d[1]-&gt;b + w[2]*d[2]-&gt;b + 
-                   w[3]*d[3]-&gt;b; 
-    newVertex-&gt;a = w[0]*d[0]-&gt;a + w[1]*d[1]-&gt;a + w[2]*d[2]-&gt;a + 
-                   w[3]*d[3]-&gt;a; 
+    newVertex->x = coords[0]; 
+    newVertex->y = coords[1]; 
+    newVertex->z = coords[2]; 
+    newVertex->r = w[0]*d[0]->r + w[1]*d[1]->r + w[2]*d[2]->r + 
+                   w[3]*d[3]->r; 
+    newVertex->g = w[0]*d[0]->g + w[1]*d[1]->g + w[2]*d[2]->g + 
+                   w[3]*d[3]->g; 
+    newVertex->b = w[0]*d[0]->b + w[1]*d[1]->b + w[2]*d[2]->b + 
+                   w[3]*d[3]->b; 
+    newVertex->a = w[0]*d[0]->a + w[1]*d[1]->a + w[2]*d[2]->a + 
+                   w[3]*d[3]->a; 
     *dataOut = newVertex; 
 }</code></pre>
 When the tessellation detects an intersection, the GLU_TESS_COMBINE or GLU_TESS_COMBINE_DATA callback (see below) must be defined, and must write a non-<strong>NULL</strong> pointer into dataOut. Otherwise the GLU_TESS_NEED_COMBINE_CALLBACK error occurs, and no output is generated. (This is the only error that can occur during tessellation and rendering.)<br/></td>

@@ -26,7 +26,7 @@ Defines the center of a radial gradient. Read/write. **VgVector2D**.
 
 **Tag Syntax**
 
-<v: *element* focusposition=" *expression* "&gt;
+<v: *element* focusposition=" *expression* ">
 
 **Script Syntax**
 

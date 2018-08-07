@@ -255,27 +255,27 @@ If *S* = 0 then *R* = *G* = *B* = *L*
 
 Otherwise there are six hue-dependant cases:
 
-If *H* is greater than 0, the values are in the red/magenta sector where *R* &gt; *B* &gt; *G*.
+If *H* is greater than 0, the values are in the red/magenta sector where *R* > *B* > *G*.
 
 ![mathematical equaiton step one of six converting hsl color to rgb.](images/blend-hsl-to-rgb-1rm.png)
 
-If *H* is greater than or equal to 0 and less than 1, the values are in the red/yellow sector where *R* &gt; *G* &gt; *B*.
+If *H* is greater than or equal to 0 and less than 1, the values are in the red/yellow sector where *R* > *G* > *B*.
 
 ![mathematical equaiton step two of six converting hsl color to rgb.](images/blend-hsl-to-rgb-1ry.png)
 
-If *H* is greater than or equal to 1 and less than 2, the values are in the yellow/green sector where *G* &gt; *R* &gt; *B*.
+If *H* is greater than or equal to 1 and less than 2, the values are in the yellow/green sector where *G* > *R* > *B*.
 
 ![mathematical equaiton step three of six converting hsl color to rgb.](images/blend-hsl-to-rgb-1yg.png)
 
-If *H* is greater than or equal to 2 and less than 3, the values are in the green/cyan sector where *G* &gt; *B* &gt; *R*.
+If *H* is greater than or equal to 2 and less than 3, the values are in the green/cyan sector where *G* > *B* > *R*.
 
 ![mathematical equaiton step four of six converting hsl color to rgb.](images/blend-hsl-to-rgb-1gc.png)
 
-If *H* is greater than or equal to 3 and less than 4, the values are in the cyan/blue sector where *B* &gt; *G* &gt; *R*.
+If *H* is greater than or equal to 3 and less than 4, the values are in the cyan/blue sector where *B* > *G* > *R*.
 
 ![mathematical equaiton step five of six converting hsl color to rgb.](images/blend-hsl-to-rgb-1cb.png)
 
-If *H* is greater than or equal to 4, the values are in the blue/magenta sector where *B* &gt; *R* &gt; *G*.
+If *H* is greater than or equal to 4, the values are in the blue/magenta sector where *B* > *R* > *G*.
 
 ![mathematical equaiton step six of six converting hsl color to rgb.](images/blend-hsl-to-rgb-1bm.png)
 

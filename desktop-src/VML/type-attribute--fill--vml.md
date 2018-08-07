@@ -26,7 +26,7 @@ Determines the type of fill. Read/write. **VgFillType**.
 
 **Tag Syntax**
 
-<v: *element* type=" *expression* "&gt;
+<v: *element* type=" *expression* ">
 
 **Script Syntax**
 

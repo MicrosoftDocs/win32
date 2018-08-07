@@ -26,7 +26,7 @@ Defines the thickness of a stroke. Read/write. **String**.
 
 **Tag Syntax**
 
-<v: *element* weight=" *expression* "&gt;
+<v: *element* weight=" *expression* ">
 
 **Script Syntax**
 

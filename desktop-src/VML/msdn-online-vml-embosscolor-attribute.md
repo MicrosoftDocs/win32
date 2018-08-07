@@ -26,7 +26,7 @@ Defines the color for embossed color effects. Read/write. **VgPercent**.
 
 **Tag Syntax**
 
-<v: *element* o:embosscolor=" *expression* "&gt;
+<v: *element* o:embosscolor=" *expression* ">
 
 **Script Syntax**
 

@@ -26,7 +26,7 @@ Defines the distance from the shape top to the text that wraps around it. Read/w
 
 **Tag Syntax**
 
-<v: *element* style="mso-wrap-distance-top: *expression* "&gt;
+<v: *element* style="mso-wrap-distance-top: *expression* ">
 
 **Remarks**
 

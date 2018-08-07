@@ -42,7 +42,7 @@ To create a red oval on a Web page, as shown in the following picture, you can d
 
 ![oval1.gif (627 bytes)](images/oval1.gif)
 
-Alternatively, you can use VML to draw graphics. In the preceding example, you can type the following lines in the <BODY&gt; region of your Web page to draw the red oval:
+Alternatively, you can use VML to draw graphics. In the preceding example, you can type the following lines in the <BODY> region of your Web page to draw the red oval:
 
 
 ```HTML
@@ -72,9 +72,9 @@ Browsers that support VML can render and display the graphics represented in VML
 
 ## XML Structure
 
-VML is formatted according to the rules of Extensible Markup Language (XML). Any standard XML parser can parse VML and hand off the resulting data to a VML-specific processor. To let the browsers know how to hand off data to a VML-specific processor, you need to type some information such as [namespaces](web-workshop---how-to-use-vml-on-web-pages----appendix.md) and [embedded custom objects](web-workshop---how-to-use-vml-on-web-pages----appendix.md). You can then use VML to type graphics in the <BODY&gt; region just as you did in the preceding example.
+VML is formatted according to the rules of Extensible Markup Language (XML). Any standard XML parser can parse VML and hand off the resulting data to a VML-specific processor. To let the browsers know how to hand off data to a VML-specific processor, you need to type some information such as [namespaces](web-workshop---how-to-use-vml-on-web-pages----appendix.md) and [embedded custom objects](web-workshop---how-to-use-vml-on-web-pages----appendix.md). You can then use VML to type graphics in the <BODY> region just as you did in the preceding example.
 
-The `"v:"` prefix on each XML tag identifies the tag as VML. The `"v:"` prefix in the <BODY&gt; region should be consistent with `<html xmlns:v="...">`.
+The `"v:"` prefix on each XML tag identifies the tag as VML. The `"v:"` prefix in the <BODY> region should be consistent with `<html xmlns:v="...">`.
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -86,9 +86,9 @@ VML uses [Cascading Style Sheets, Level 2 (CSS2)](http://www.w3.org/TR/PR-CSS2/)
 
 ## VML Elements
 
-In the preceding example, we used a VML predefined **<oval&gt;** element to draw an oval. We then used the **fillcolor** property attribute of the **<oval&gt;** element to fill the oval with red.
+In the preceding example, we used a VML predefined **<oval>** element to draw an oval. We then used the **fillcolor** property attribute of the **<oval>** element to fill the oval with red.
 
-Based upon the [Start-Tags, End-Tags, and Empty-Element Tags](http://www.w3.org/TR/REC-xml#sec-starttags) section of [XML 1.0 specification](http://www.w3.org/TR/REC-xml), empty-element tags may be used for any element that has no content. For example, as shown in the following VML representation, there is no content (sub-element) within the **<oval&gt;** element. (Note that the **style** and **fillcolor** are the attributes of the **<oval&gt;** element; they are not sub-elements.)
+Based upon the [Start-Tags, End-Tags, and Empty-Element Tags](http://www.w3.org/TR/REC-xml#sec-starttags) section of [XML 1.0 specification](http://www.w3.org/TR/REC-xml), empty-element tags may be used for any element that has no content. For example, as shown in the following VML representation, there is no content (sub-element) within the **<oval>** element. (Note that the **style** and **fillcolor** are the attributes of the **<oval>** element; they are not sub-elements.)
 
 
 ```HTML

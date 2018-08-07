@@ -55,7 +55,7 @@ wsutil generates warnings for schema components that are not currently fully sup
 
 Global definition that might affect embedded definitions in the schema. These are global attributes that are applicable to all definitions in the schema.
 
-<xs:schema&gt; attributes
+<xs:schema> attributes
 
 -   attributeFromDefault Ignored.
 -   blockDefault Ignored.
@@ -65,7 +65,7 @@ Global definition that might affect embedded definitions in the schema. These ar
 -   targetNamespace Supported and mapped to the service namespace.
 -   version Ignored.
 
-<xs:schema&gt; contents
+<xs:schema> contents
 
 -   include Supported; wsutil requires all necessary definition be available as input files during compilation time.
 -   redefine Ignored. wsutil does not support this.
@@ -80,9 +80,9 @@ Global definition that might affect embedded definitions in the schema. These ar
 
 ## Complex Type
 
-Complex type, represented by <xs:complexType&gt;, could be restriction of simple type or complex type, extension of simple type, arrays or structure. Noticed that in extension of simple types, there is no inheritance and no xsi:type support.
+Complex type, represented by <xs:complexType>, could be restriction of simple type or complex type, extension of simple type, arrays or structure. Noticed that in extension of simple types, there is no inheritance and no xsi:type support.
 
-<xs:complexType&gt; attributes
+<xs:complexType> attributes
 
 -   abstract Generate warning about unsupported feature, no change to code generation.
 -   block Generate warning about unsupported feature, no change to code generation.
@@ -91,7 +91,7 @@ Complex type, represented by <xs:complexType&gt;, could be restriction of simple
 -   mixed Generate warning about unsupported feature, fallback to structure with WS\_XML\_BUFFER if true.
 -   name Supported and mapped to structure type name.
 
-<xs:complexType&gt; contents
+<xs:complexType> contents
 
 This is type definition for structure. complexContent restriction is not supported.
 
@@ -107,7 +107,7 @@ This is type definition for structure. complexContent restriction is not support
 -   Any Supported, maps to XML\_BUFFER
 -   (blank) supported map to empty struct description with no struct generated.
 
-<xs:sequence&gt; in a complex type: contents
+<xs:sequence> in a complex type: contents
 
 wsutil only fully support sequence of minOccurs = 1 and maxOccurs = 1; otherwise the complex type is currently fall backed to WS\_XML\_BUFFER. It can be supported as array of structures.
 
@@ -121,13 +121,13 @@ wsutil only fully support sequence of minOccurs = 1 and maxOccurs = 1; otherwise
 
 ## Elements
 
-<xs:element&gt;may occur in three contexts.
+<xs:element>may occur in three contexts.
 
--   It may occur within an <xs:sequence&gt;, describing a field of a regular struct. In this case, the maxOccurs attribute must be 1. The field is optional if minOccurs is 0.
--   It may occur within an <xs:sequence&gt;, describing a field of an array. In this case, the maxOccurs attribute must be greater than 1 or 'unbounded'.
--   It may occur within an <xs:schema&gt; as a global element description.
+-   It may occur within an <xs:sequence>, describing a field of a regular struct. In this case, the maxOccurs attribute must be 1. The field is optional if minOccurs is 0.
+-   It may occur within an <xs:sequence>, describing a field of an array. In this case, the maxOccurs attribute must be greater than 1 or 'unbounded'.
+-   It may occur within an <xs:schema> as a global element description.
 
-<xs:element&gt; within an <xs:sequence&gt; or <xs:choice&gt; as a field in a structure
+<xs:element> within an <xs:sequence> or <xs:choice> as a field in a structure
 
 -   ref Supported; resolved to reference to global element.
 -   name Supported, maps to field name.
@@ -141,7 +141,7 @@ wsutil only fully support sequence of minOccurs = 1 and maxOccurs = 1; otherwise
 -   minOccurs if 0, the field options is set to FIELD\_OPTIONAL, if nillable is not set.
 -   nillable The field is nillable. See [Serialization](serialization.md) for more detail.
 
-<xs:element&gt; as global element: attributes
+<xs:element> as global element: attributes
 
 minOccurs and maxOccurs attributes are invalid as global element description. Application can use generated element description in serialization layer or channel layers directly.
 
@@ -156,7 +156,7 @@ minOccurs and maxOccurs attributes are invalid as global element description. Ap
 -   substitutionGroup fallback to structure with WS\_XML\_BUFFER if set. wsutil does not support substitutionGroup.
 -   type Supported and map to the type of the element.
 
-<xs:element&gt; as global element: contents
+<xs:element> as global element: contents
 
 -   simpleType Supported; maps to type definition.
 -   complexType supported; maps to a complex type.
@@ -167,13 +167,13 @@ minOccurs and maxOccurs attributes are invalid as global element description. Ap
 
 ## Simple Types
 
-<xs:simpleType&gt; attributes
+<xs:simpleType> attributes
 
 -   Final Generate warning about unsupported feature, no change to code generation.
 -   Id Ignored
 -   Name Supported, maps to type name.
 
-<xs:simpleType&gt; contents
+<xs:simpleType> contents
 
 -   Restriction Supported, maps to enum type or range. See "xs:simpleType restrictions" section.
 -   List Generate warning about unsupported feature, fallback to XML\_BUFFER.
@@ -185,7 +185,7 @@ Certain facets are allowed in integral types and strings type to allow range and
 
 enumeration support
 
-<xs:enumeration&gt; simple type restriction for base type of string is treated as enum type. In this case, the Base attribute MUST be string type. In enumeration case, all other facets are ignored.
+<xs:enumeration> simple type restriction for base type of string is treated as enum type. In this case, the Base attribute MUST be string type. In enumeration case, all other facets are ignored.
 
 range on simple type support
 
@@ -209,7 +209,7 @@ minLength and maxLength on string is not supported currently but is a desirable 
 
 ## Inheritance
 
-Wsutil supports inheritance of complex types, that is, a structure can inherit from another structure, similar to interface inheritance in C++. This is done through <xs:complexContentExtension&gt;. <xs:simpleContentExtension&gt; is supported but is generated as plain structure with base type as first field instead of type inheritance.
+Wsutil supports inheritance of complex types, that is, a structure can inherit from another structure, similar to interface inheritance in C++. This is done through <xs:complexContentExtension>. <xs:simpleContentExtension> is supported but is generated as plain structure with base type as first field instead of type inheritance.
 
 ## Type/primitive mapping
 

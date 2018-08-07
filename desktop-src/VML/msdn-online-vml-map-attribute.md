@@ -26,7 +26,7 @@ Defines the mapping range of a handle. Read/write. **VgVector2D**.
 
 **Tag Syntax**
 
-<v: *element* map=" *expression* "&gt;
+<v: *element* map=" *expression* ">
 
 **Remarks**
 

@@ -28,7 +28,7 @@ The logon name used to support clients and servers running earlier versions of t
 
 This attribute must be 20 characters or less to support earlier clients, and cannot contain any of these characters:
 
--   "/ \\ \[ \] : ; \| = , + \* ? < &gt;
+-   "/ \\ \[ \] : ; \| = , + \* ? < >
 
 
 

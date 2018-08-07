@@ -36,7 +36,7 @@ Component-wise float minimum.
 
 ## Remarks
 
-&gt;= is used instead of &gt; so that if min(x,y) = x then max(x,y) = y.
+>= is used instead of > so that if min(x,y) = x then max(x,y) = y.
 
 NaN has special handling. If one source operand is NaN, then the other source operand is returned and the choice is made per-component. If both are NaN, any NaN representation is returned. This conforms to new IEEE 754R rules.
 
@@ -48,7 +48,7 @@ The following table shows the results obtained when executing the instruction wi
 
 |                    |          |              |          |         |
 |--------------------|----------|--------------|----------|---------|
-| **src0 src1-&gt;** | **-inf** | **F**        | **+inf** | **NaN** |
+| **src0 src1->** | **-inf** | **F**        | **+inf** | **NaN** |
 | **-inf**           | -inf     | -inf         | -inf     | -inf    |
 | **F**              | -inf     | src0 or src1 | src0     | src0    |
 | **-inf**           | -inf     | src1         | +inf     | +inf    |

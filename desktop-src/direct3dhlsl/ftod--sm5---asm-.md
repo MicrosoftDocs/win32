@@ -43,7 +43,7 @@ The valid *dest* masks are .xy, .zw, and .xyzw. .xy receives the result of the f
 
 *src* is a float vec2 across x and y (zw ignored) (post swizzle).
 
-For float32<-&gt;double conversions, implementations may either honor float32 denorms or may flush them.
+For float32<->double conversions, implementations may either honor float32 denorms or may flush them.
 
 This instruction applies to the following shader stages:
 

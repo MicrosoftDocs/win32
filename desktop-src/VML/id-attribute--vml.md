@@ -26,7 +26,7 @@ All VML elements.
 
 **Tag Syntax**
 
-<v: *elementname* id=" *idname* "&gt;
+<v: *elementname* id=" *idname* ">
 
 **Script Syntax**
 

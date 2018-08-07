@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # nameSpace element
 
-Describes a namespace. This namespace may be used for code generation or for handling <wsdl:import&gt; directives.
+Describes a namespace. This namespace may be used for code generation or for handling <wsdl:import> directives.
 
 ## Usage
 

@@ -1,5 +1,5 @@
 ---
-Description: The optional <scope&gt; element specifies a collection of <scopeItem&gt; elements that define the scope inclusions and exclusions for this particular search connector.
+Description: The optional <scope> element specifies a collection of <scopeItem> elements that define the scope inclusions and exclusions for this particular search connector.
 ms.assetid: 9e92e3db-3d5e-4f86-8d67-90eb5469b04b
 title: scope Element (Search Connector Schema)
 ms.technology: desktop
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # scope Element (Search Connector Schema)
 
-The optional <scope&gt; element specifies a collection of <scopeItem&gt; elements that define the scope inclusions and exclusions for this particular search connector. If <scope&gt; is present, it MUST contain at least one <scopeItem&gt; element. This element has no attributes.
+The optional <scope> element specifies a collection of <scopeItem> elements that define the scope inclusions and exclusions for this particular search connector. If <scope> is present, it MUST contain at least one <scopeItem> element. This element has no attributes.
 
 ## Syntax
 
@@ -53,7 +53,7 @@ The optional <scope&gt; element specifies a collection of <scopeItem&gt; element
 
 ## Remarks
 
-Use the <scope&gt; and <scopeItem&gt; elements to identify which locations should be searched and which locations should be excluded from searching.
+Use the <scope> and <scopeItem> elements to identify which locations should be searched and which locations should be excluded from searching.
 
 ## Example
 

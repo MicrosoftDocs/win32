@@ -26,7 +26,7 @@ A name that provides a unique identifier for a path. Read/write. **String**.
 
 **Tag Syntax**
 
-<v: *element* id=" *expression* "&gt;
+<v: *element* id=" *expression* ">
 
 **Script Syntax**
 

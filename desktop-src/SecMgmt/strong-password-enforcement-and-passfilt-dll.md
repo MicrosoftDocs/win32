@@ -25,7 +25,7 @@ Strong password enforcement can be enabled by using the system administration to
 | Uppercase letters of European languages (A through Z, with diacritic marks, Greek and Cyrillic characters)<br/>                                                     | A, B, C,   Z<br/>                |
 | Lowercase letters of European languages (a through z, sharp-s, with diacritic marks, Greek and Cyrillic characters)<br/>                                            | a, b, c,   z<br/>                |
 | Base 10 digits (0 through 9)<br/>                                                                                                                                   | 0, 1, 2,   9<br/>                |
-| Non-alphanumeric characters (special characters)<br/>                                                                                                               | $,!,%,^,(){}\[\];:<&gt;?<br/> |
+| Non-alphanumeric characters (special characters)<br/>                                                                                                               | $,!,%,^,(){}\[\];:<>?<br/> |
 | Any Unicode character that is categorized as an alphabetic character but is not uppercase or lowercase. This includes Unicode characters from Asian languages.<br/> |                                        |
 
 

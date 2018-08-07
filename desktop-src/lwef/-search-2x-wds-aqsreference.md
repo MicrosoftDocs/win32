@@ -107,7 +107,7 @@ Search keywords and file properties can be combined to broaden or narrow a searc
 | OR              | social OR security<br/>                         | Finds items that contain *social* or *security*.<br/>                                                    |
 | Quotation marks | "social security"<br/>                          | Finds items that contain the exact phrase *social security*.<br/>                                        |
 | Parentheses     | (social security)<br/>                          | Finds items that contain *social* and *security* in any order.<br/>                                      |
-| &gt;            | date:&gt;11/05/04<br/> size:&gt;500<br/>  | Finds items with a date after 11/05/04. <br/> Finds items with a size greater than 500 bytes.<br/> |
+| >            | date:>11/05/04<br/> size:>500<br/>  | Finds items with a date after 11/05/04. <br/> Finds items with a size greater than 500 bytes.<br/> |
 | <            | date:<11/05/04 <br/> size:<500<br/> | Finds items with a date before 11/05/04. <br/> Finds items with a size less than 500 bytes.<br/>   |
 | ..              | date:11/05/04..11/10/04<br/>                    | Finds items with a date beginning on 11/05/04 and ending on 11/10/04.<br/>                               |
 
@@ -178,7 +178,7 @@ where `<property>` is a property listed below and `<value>` is the user-specifie
 | Date           | date                     | date:last week                 |
 | Date modified  | datemodified or modified | modified:last week             |
 | Importance     | importance or priority   | importance:high                |
-| Size           | size                     | size:&gt; 50                   |
+| Size           | size                     | size:> 50                   |
 | Deleted        | deleted or isdeleted     | isdeleted:true                 |
 | Is attachment  | isattachment             | isattachment:true              |
 | To             | to or toname             | to:bob                         |
@@ -290,7 +290,7 @@ where `<property>` is a property listed below and `<value>` is the user-specifie
 | Is completed   | iscompleted                   | is:completed                    |
 | Incomplete     | incomplete or isincomplete    | is:incomplete                   |
 | Has flag       | hasflag or isflagged          | has:flag                        |
-| Duration       | duration                      | duration:&gt; 50                |
+| Duration       | duration                      | duration:> 50                |
 
 
 
@@ -350,7 +350,7 @@ where `<property>` is a property listed below and `<value>` is the user-specifie
 
 | Property    | Use        | Example           |
 |-------------|------------|-------------------|
-| Slide count | slidecount | slidecount:&gt;20 |
+| Slide count | slidecount | slidecount:>20 |
 
 
 
@@ -374,7 +374,7 @@ where `<property>` is a property listed below and `<value>` is the user-specifie
 | Album    | album              | album:"greatest hits"    |
 | Genre    | genre              | genre:rock               |
 | Track    | track              | track:12                 |
-| Year     | year               | year:&gt; 1980 < 1990 |
+| Year     | year               | year:> 1980 < 1990 |
 
 
 

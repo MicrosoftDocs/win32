@@ -18,9 +18,9 @@ Specifies the URL of the MMSC server for the device. Optional.
 
 ## Element hierarchy
 
-[<MBNProfileExt&gt;](element-mbnprofileext.md)  
-[<MmsConfiguration&gt;](element-mmsconfiguration.md)  
-**<MmscUrl&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+[<MmsConfiguration>](element-mmsconfiguration.md)  
+**<MmscUrl>**
 
 ## Syntax
 

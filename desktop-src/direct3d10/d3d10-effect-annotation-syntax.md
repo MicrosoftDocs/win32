@@ -15,7 +15,7 @@ An annotation is a user-defined piece of information, declared with the followin
 
 
 
-| <*DataType* *Name* = *Value*; ... ;&gt; |
+| <*DataType* *Name* = *Value*; ... ;> |
 |--------------------------------------------|
 
 

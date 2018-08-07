@@ -463,7 +463,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <td><span id="HMONITOR"></span><span id="hmonitor"></span><strong>HMONITOR</strong></td>
 <td><p>A handle to a display monitor.</p>
 <p>This type is declared in WinDef.h as follows:</p>
-<p><code>if(WINVER &gt;= 0x0500) typedef HANDLE HMONITOR;</code></p></td>
+<p><code>if(WINVER >= 0x0500) typedef HANDLE HMONITOR;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="HPALETTE"></span><span id="hpalette"></span><strong>HPALETTE</strong></td>
@@ -1079,7 +1079,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>#if (_MSC_VER &gt;= 1300)
+<td><pre><code>#if (_MSC_VER >= 1300)
 #define POINTER_64 __ptr64
 #else
 #define POINTER_64

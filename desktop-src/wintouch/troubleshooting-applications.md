@@ -227,7 +227,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 <tr class="odd">
 <td><pre><code>      POINT ptInput;
       if (GetTouchInputInfo((HTOUCHINPUT)lParam, cInputs, pInputs, sizeof(TOUCHINPUT))){
-        for (int i=0; i < static_cast<INT&gt;(cInputs); i++){
+        for (int i=0; i < static_cast<INT>(cInputs); i++){
           TOUCHINPUT ti = pInputs[i];                       
           if (ti.dwID != 0){                
             // Do something with your touch input handle.

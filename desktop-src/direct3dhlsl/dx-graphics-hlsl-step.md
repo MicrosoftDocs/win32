@@ -50,7 +50,7 @@ Compares two values, returning 0 or 1 based on which value is greater.
 
 ## Remarks
 
-This function uses the following formula: (*x* &gt;= *y*) ? 1 : 0. The function returns either 0 or 1 depending on whether the *x* parameter is greater than the *y* parameter. To compute a smooth interpolation between 0 and 1, use the [**smoothstep**](dx-graphics-hlsl-smoothstep.md) HLSL intrinsic function.
+This function uses the following formula: (*x* >= *y*) ? 1 : 0. The function returns either 0 or 1 depending on whether the *x* parameter is greater than the *y* parameter. To compute a smooth interpolation between 0 and 1, use the [**smoothstep**](dx-graphics-hlsl-smoothstep.md) HLSL intrinsic function.
 
 ## Type Description
 

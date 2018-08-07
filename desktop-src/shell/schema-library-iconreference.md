@@ -1,5 +1,5 @@
 ---
-Description: The <iconReference&gt; element specifies a custom icon for this library. This element is optional and has no attributes or child elements.
+Description: The <iconReference> element specifies a custom icon for this library. This element is optional and has no attributes or child elements.
 title: iconReference Element (Library Schema)
 ms.technology: desktop
 ms.prod: windows
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # iconReference Element (Library Schema)
 
-The <iconReference&gt; element specifies a custom icon for this library. This element is optional and has no attributes or child elements.
+The <iconReference> element specifies a custom icon for this library. This element is optional and has no attributes or child elements.
 
 ## Syntax
 

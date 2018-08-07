@@ -27,7 +27,7 @@ The URL functions operate in a task-oriented manner. The content and format of t
 
 The format of all URLs must follow the accepted syntax and semantics in order to access resources through the Internet. Canonicalization is the process of formatting a URL to follow this accepted syntax and semantics.
 
-Characters that must be encoded include any characters that have no corresponding graphic character in the US-ASCII coded character set (hexadecimal 80-FF, which are not used in the US-ASCII coded character set, and hexadecimal 00-1F and 7F, which are control characters), blank spaces, "%" (which is used to encode other characters), and unsafe characters (<, &gt;, ", \#, {, }, \|, \\, ^, ~, \[, \], and ').
+Characters that must be encoded include any characters that have no corresponding graphic character in the US-ASCII coded character set (hexadecimal 80-FF, which are not used in the US-ASCII coded character set, and hexadecimal 00-1F and 7F, which are control characters), blank spaces, "%" (which is used to encode other characters), and unsafe characters (<, >, ", \#, {, }, \|, \\, ^, ~, \[, \], and ').
 
 ## Using the WinINet Functions to Handle URLs
 

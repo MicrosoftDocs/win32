@@ -556,7 +556,7 @@ In Windows 8, there is a single instance of [**ReplicationSettingData**](msvm-re
 
 | Property name  | Windows 8 value               | Windows 8.1 value                          |
 |----------------|-------------------------------|--------------------------------------------|
-| **InstanceID** | Microsoft:<vmguid&gt;\\HVR | Microsoft:<vmguid&gt;\\HVR\\<0/1&gt; |
+| **InstanceID** | Microsoft:<vmguid>\\HVR | Microsoft:<vmguid>\\HVR\\<0/1> |
 
 
 

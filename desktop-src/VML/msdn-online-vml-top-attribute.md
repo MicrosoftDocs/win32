@@ -26,7 +26,7 @@ Defines the position of the shape relative to the element above it in the flow o
 
 **Tag Syntax**
 
-<v: *element* style="top: *expression* "&gt;
+<v: *element* style="top: *expression* ">
 
 **Script Syntax**
 

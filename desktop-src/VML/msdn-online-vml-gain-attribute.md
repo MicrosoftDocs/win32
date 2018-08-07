@@ -26,7 +26,7 @@ Defines the intensity of all colors in an image. Read/write. **VgNumber**.
 
 **Tag Syntax**
 
-<v: *element* gain=" *expression* "&gt;
+<v: *element* gain=" *expression* ">
 
 **Script Syntax**
 

@@ -26,7 +26,7 @@ Determines whether the letters of the text are rotated. Read/write. **VgTriState
 
 **Tag Syntax**
 
-<v: *element* style="v-rotate-letters: *expression* "&gt;
+<v: *element* style="v-rotate-letters: *expression* ">
 
 **Script Syntax**
 

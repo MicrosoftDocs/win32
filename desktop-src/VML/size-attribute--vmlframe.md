@@ -26,7 +26,7 @@ Defines the size of the clipping region of the frame. Read/write. **VgVector2D**
 
 **Tag Syntax**
 
-<v: *element* size=" *expression* "&gt;
+<v: *element* size=" *expression* ">
 
 **Script Syntax**
 

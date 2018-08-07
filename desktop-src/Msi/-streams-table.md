@@ -54,7 +54,7 @@ To delete a data stream, fetch the record and set the Data column to null before
 
 To rename an OLE data stream, update the 'Name' column of the record.
 
-If a hold is placed on this table using SQL (ALTER TABLE <table&gt; HOLD) or a column is added with HOLD, the table must be released using FREE. Streams are not written until the table has been released or committed.
+If a hold is placed on this table using SQL (ALTER TABLE <table> HOLD) or a column is added with HOLD, the table must be released using FREE. Streams are not written until the table has been released or committed.
 
  
 

@@ -573,7 +573,7 @@ In this example, an error code is used as a substitute for a solution text.
 
 -67113524
 
--   **Use Show/Hide details to display error codes.** Phrase as Error code: <error code&gt;.
+-   **Use Show/Hide details to display error codes.** Phrase as Error code: <error code>.
 
 ![screen shot of message: program didn't initialize ](images/mess-error-image45.png)
 
@@ -734,19 +734,19 @@ In this example, the user is renaming a file from Windows Explorer. In this case
 
 While there are no strict rules for phrasing, try using the following main instruction templates whenever possible:
 
--   <optional subject name&gt; can't <perform action&gt;
--   <optional subject name&gt; can't <perform action&gt; because <reason&gt;
--   <optional subject name&gt; can't <perform action&gt; to "<object name&gt;"
--   <optional subject name&gt; can't <perform action&gt; to "<object name&gt;" because <reason&gt;
--   There is not enough <resource&gt; to <perform action&gt;
--   <Subject name&gt; doesn't have a <object name&gt; required for <purpose&gt;
--   <Device or setting&gt; is turned off so that <undesired results&gt;
--   <Device or setting&gt; isn't <available \| found \| turned on \| enabled&gt;
--   "<object name&gt;" is currently unavailable
+-   <optional subject name> can't <perform action>
+-   <optional subject name> can't <perform action> because <reason>
+-   <optional subject name> can't <perform action> to "<object name>"
+-   <optional subject name> can't <perform action> to "<object name>" because <reason>
+-   There is not enough <resource> to <perform action>
+-   <Subject name> doesn't have a <object name> required for <purpose>
+-   <Device or setting> is turned off so that <undesired results>
+-   <Device or setting> isn't <available \| found \| turned on \| enabled>
+-   "<object name>" is currently unavailable
 -   The user name or password is incorrect
--   You don't have permission to access "<object name&gt;"
--   You don't have privilege to <perform action&gt;
--   <program name&gt; has experienced a serious problem and must close immediately
+-   You don't have permission to access "<object name>"
+-   You don't have privilege to <perform action>
+-   <program name> has experienced a serious problem and must close immediately
 
 Of course, make changes as needed for the main instruction to be grammatically correct and comply with the main instruction guidelines.
 

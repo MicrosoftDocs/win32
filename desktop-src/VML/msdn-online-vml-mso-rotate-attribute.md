@@ -26,7 +26,7 @@ Defines a specific rotation value for text in a textbox. Read/write. **String**.
 
 **Tag Syntax**
 
-<v: *element* style="mso-rotate: *expression* "&gt;
+<v: *element* style="mso-rotate: *expression* ">
 
 **Remarks**
 

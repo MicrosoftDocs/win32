@@ -109,7 +109,7 @@ Public Sub player_PlayStateChange(ByVal sender As Object, ByVal e As AxWMPLib._W
 
         Case 3 &#39; Play State = WMPLib.WMPPlayState.wmppsPlaying = 3
 
-            If (player.network.bitRate <&gt; 0) Then
+            If (player.network.bitRate <> 0) Then
 
                 bitRateLabel.Text = &quot;Current Bit Rate: &quot; + player.network.bitRate + &quot; K bits/second&quot;
 

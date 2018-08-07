@@ -26,7 +26,7 @@ Determines whether a proxy for the rules engine will be used. Read/write. **VgTr
 
 **Tag Syntax**
 
-<v: *element* ruleproxy=" *expression* "&gt;
+<v: *element* ruleproxy=" *expression* ">
 
 **Remarks**
 

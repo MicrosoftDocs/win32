@@ -26,7 +26,7 @@ Defines the black-and-white mode for pure black-and-white output devices. Read/w
 
 **Tag Syntax**
 
-<v: *element* o:bwpure=" *expression* "&gt;
+<v: *element* o:bwpure=" *expression* ">
 
 **Remarks**
 

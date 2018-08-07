@@ -60,8 +60,8 @@ In this example, NoSuchComponent is absent from the [Component table](component-
 
 | Action  | Condition                                |
 |---------|------------------------------------------|
-| Custom1 | TESTACTION=1046 AND &NoSuchFeature&gt;2  |
-| Custom2 | TESTACTION=146 AND $NoSuchComponent&gt;2 |
+| Custom1 | TESTACTION=1046 AND &NoSuchFeature>2  |
+| Custom2 | TESTACTION=146 AND $NoSuchComponent>2 |
 
 
 

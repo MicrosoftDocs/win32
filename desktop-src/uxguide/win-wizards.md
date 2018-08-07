@@ -375,7 +375,7 @@ The edited version of this wizard page provides a task-oriented main instruction
 ### Buttons
 
 -   Don't include text on the Back button. Use the arrow glyph instead, unlabeled.
--   Do include text on the Next button. Don't use glyphs (such as &gt; or &gt;&gt;) in addition to the word Next.
+-   Do include text on the Next button. Don't use glyphs (such as > or >>) in addition to the word Next.
 -   Use specific commit button labels that make sense on their own and are a response to the main instruction. Ideally users shouldn't have to read anything else to understand the label. Users are far more likely to read command button labels than static text.
 -   If possible, don't use the word Finish for the commit button label, because there is usually a better, more specific commit button:
     -   If clicking the button commits to the task (so the task hasn't already been performed), use a specific label that starts with a verb that is a response to the main instruction (examples: Print, Connect, Start).

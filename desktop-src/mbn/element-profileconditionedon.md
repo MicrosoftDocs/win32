@@ -20,8 +20,8 @@ This element is new for v4. It enables you to specify multiple profiles that app
 
 ## Element hierarchy
 
-[<MBNProfileExt&gt;](element-mbnprofileext.md)  
-**<ProfileConditionedOn&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+**<ProfileConditionedOn>**
 
 ## Syntax
 

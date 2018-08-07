@@ -26,7 +26,7 @@ Defines the angle of a gradient fill. Read/write. [VgAngle](msdn-online-vml-vgan
 
 **Tag Syntax**
 
-<v: *element* angle=" *expression* "&gt;
+<v: *element* angle=" *expression* ">
 
 **Script Syntax**
 

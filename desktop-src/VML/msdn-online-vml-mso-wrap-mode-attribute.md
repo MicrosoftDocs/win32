@@ -26,7 +26,7 @@ Defines the wrapping mode for text. Read/write. **String**.
 
 **Tag Syntax**
 
-<v: *element* style="mso-wrap-mode: *expression* "&gt;
+<v: *element* style="mso-wrap-mode: *expression* ">
 
 **Remarks**
 

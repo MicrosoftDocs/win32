@@ -26,7 +26,7 @@ Specifies a name that provides a unique identifier for a shadow. Read/write. **S
 
 **Tag Syntax**
 
-<v: *element* id=" *expression* "&gt;
+<v: *element* id=" *expression* ">
 
 **Script Syntax**
 

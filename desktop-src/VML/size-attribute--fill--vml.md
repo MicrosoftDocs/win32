@@ -26,7 +26,7 @@ Defines the size of the image for the fill. Read/write. [VgVector2D](msdn-online
 
 **Tag Syntax**
 
-<v: *element* size=" *expression* "&gt;
+<v: *element* size=" *expression* ">
 
 **Script Syntax**
 

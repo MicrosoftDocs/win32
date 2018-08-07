@@ -69,18 +69,18 @@ Use the [**IDCompositionDevice::CreateRotateTransform3D**](https://msdn.microsof
 <tbody>
 <tr class="odd">
 <td><pre><code>    // Create a 3D rotate transform object.
-    hr = m_pDevice-&gt;CreateRotateTransform3D(&pRotate3D);
+    hr = m_pDevice->CreateRotateTransform3D(&pRotate3D);
 
     if (SUCCEEDED(hr))
     {
         // Create an effect group object.
-        hr = m_pDevice-&gt;CreateEffectGroup(&pEffectGroup);
+        hr = m_pDevice->CreateEffectGroup(&pEffectGroup);
     }
     
     if (SUCCEEDED(hr))
     {
         // Create an animation object.
-        hr = m_pDevice-&gt;CreateAnimation(&pAnimation);
+        hr = m_pDevice->CreateAnimation(&pAnimation);
     }</code></pre></td>
 </tr>
 </tbody>
@@ -165,7 +165,7 @@ The following example sets up a 3D rotate transform for spinning a visual around
 <td><pre><code>    if (SUCCEEDED(hr))
     {
         // Set the Opacity of the effect group object.
-        hr = pEffectGroup-&gt;SetOpacity(opacity);
+        hr = pEffectGroup->SetOpacity(opacity);
     }</code></pre></td>
 </tr>
 </tbody>
@@ -483,8 +483,8 @@ HRESULT DemoApp::Initialize()
         WS_OVERLAPPEDWINDOW,
         CW_USEDEFAULT,
         CW_USEDEFAULT,
-        static_cast<UINT&gt;(ceil(640.f * dpiX / 96.f)),
-        static_cast<UINT&gt;(ceil(480.f * dpiY / 96.f)),
+        static_cast<UINT>(ceil(640.f * dpiX / 96.f)),
+        static_cast<UINT>(ceil(480.f * dpiY / 96.f)),
         NULL,
         NULL,
         HINST_THISCOMPONENT,
@@ -547,7 +547,7 @@ HRESULT DemoApp::InitializeDirectCompositionDevice()
     if (SUCCEEDED(hr))
     {
         // Create the DXGI device used to create bitmap surfaces.
-        hr = m_pD3D11Device-&gt;QueryInterface(&pDXGIDevice);
+        hr = m_pD3D11Device->QueryInterface(&pDXGIDevice);
     }
 
     if (SUCCEEDED(hr))
@@ -555,13 +555,13 @@ HRESULT DemoApp::InitializeDirectCompositionDevice()
         // Create the DirectComposition device object.
         hr = DCompositionCreateDevice(pDXGIDevice, 
                 __uuidof(IDCompositionDevice), 
-                reinterpret_cast<void **&gt;(&m_pDevice));
+                reinterpret_cast<void **>(&m_pDevice));
     }
 
     if (SUCCEEDED(hr))
     {
         // Create the composition target object.
-        hr = m_pDevice-&gt;CreateTargetForHwnd(m_hwnd, TRUE, &m_pCompTarget);   
+        hr = m_pDevice->CreateTargetForHwnd(m_hwnd, TRUE, &m_pCompTarget);   
     }
 
     SafeRelease(&pDXGIDevice);
@@ -627,7 +627,7 @@ HRESULT DemoApp::OnPaint()
     IDCompositionSurface *pSurface = nullptr;
 
     // Create a visual object.          
-    hr = m_pDevice-&gt;CreateVisual(&m_pVisual);  
+    hr = m_pDevice->CreateVisual(&m_pVisual);  
 
     if (SUCCEEDED(hr))
     {
@@ -639,28 +639,28 @@ HRESULT DemoApp::OnPaint()
     if (SUCCEEDED(hr))
     {
         // Set the bitmap content of the visual. 
-        hr = m_pVisual-&gt;SetContent(pSurface);
+        hr = m_pVisual->SetContent(pSurface);
     }
 
     if (SUCCEEDED(hr))
     {
         // Set the horizontal and vertical position of the visual relative
         // to the upper-left corner of the composition target window.
-        m_pVisual-&gt;SetOffsetX(OFFSET_X);  
-        m_pVisual-&gt;SetOffsetY(OFFSET_Y);  
+        m_pVisual->SetOffsetX(OFFSET_X);  
+        m_pVisual->SetOffsetY(OFFSET_Y);  
         hr = SetVisualOpacity(m_pVisual, TRANSPARENT);
     }
 
    if (SUCCEEDED(hr))
     {
         // Set the visual to be the root of the visual tree.          
-        hr = m_pCompTarget-&gt;SetRoot(m_pVisual);  
+        hr = m_pCompTarget->SetRoot(m_pVisual);  
     }
 
     if (SUCCEEDED(hr))
     {
         // Commit the visual to be composed and displayed.
-        hr = m_pDevice-&gt;Commit();  
+        hr = m_pDevice->Commit();  
     }
 
     return hr;
@@ -681,8 +681,8 @@ HRESULT DemoApp::OnMouseMove(int xPos, int yPos)
     static BOOL fOverImage = FALSE;
 
     // Determine whether the cursor is over the visual.
-    if ((xPos &gt;= OFFSET_X && xPos <= (OFFSET_X + m_bitmapWidth))
-        && (yPos &gt;= OFFSET_Y && yPos <= (OFFSET_Y + m_bitmapHeight)))
+    if ((xPos >= OFFSET_X && xPos <= (OFFSET_X + m_bitmapWidth))
+        && (yPos >= OFFSET_Y && yPos <= (OFFSET_Y + m_bitmapHeight)))
     {
         if (!fOverImage)
         {
@@ -716,28 +716,28 @@ HRESULT DemoApp::SetVisualOpacity(IDCompositionVisual *pVisual, float opacity)
     IDCompositionEffectGroup *pEffectGroup = nullptr;
 
     // Validate the input arguments.
-    if (pVisual == NULL || (opacity &gt; 1.0f || opacity < 0.0f))
+    if (pVisual == NULL || (opacity > 1.0f || opacity < 0.0f))
         return E_INVALIDARG;
 
     // Create an effect group object.
-    hr = m_pDevice-&gt;CreateEffectGroup(&pEffectGroup);
+    hr = m_pDevice->CreateEffectGroup(&pEffectGroup);
 
     if (SUCCEEDED(hr))
     {
         // Set the Opacity of the effect group object.
-        hr = pEffectGroup-&gt;SetOpacity(opacity);
+        hr = pEffectGroup->SetOpacity(opacity);
     }
 
     if (SUCCEEDED(hr))
     {
         // Apply the effect group object to the Effect property of the visual.
-        hr = m_pVisual-&gt;SetEffect(pEffectGroup);
+        hr = m_pVisual->SetEffect(pEffectGroup);
     }
 
     if (SUCCEEDED(hr))
     {
         // Commit the visual to DirectComposition.
-        hr = m_pDevice-&gt;Commit();
+        hr = m_pDevice->Commit();
     }
 
     // Free the effect group object.
@@ -762,8 +762,8 @@ HRESULT DemoApp::OnClientClick(int xPos, int yPos)
 
     // Determine whether the mouse cursor is over the visual. If so,
     // rotate the visual.
-    if ((xPos &gt;= OFFSET_X && xPos <= (OFFSET_X + m_bitmapWidth))
-        && (yPos &gt;= OFFSET_Y && yPos <= (OFFSET_Y + m_bitmapHeight)))
+    if ((xPos >= OFFSET_X && xPos <= (OFFSET_X + m_bitmapWidth))
+        && (yPos >= OFFSET_Y && yPos <= (OFFSET_Y + m_bitmapHeight)))
     {
         hr = RotateVisual(m_pVisual, 360.0f);
     }
@@ -786,63 +786,63 @@ HRESULT DemoApp::RotateVisual(IDCompositionVisual *pVisual, float degrees)
     IDCompositionEffectGroup *pEffectGroup = nullptr;
 
     // Validate the input arguments.
-    if (pVisual == NULL || (degrees &gt; 360.0f || degrees < -360.0f))
+    if (pVisual == NULL || (degrees > 360.0f || degrees < -360.0f))
         return E_INVALIDARG;
 
     // Create a 3D rotate transform object.
-    hr = m_pDevice-&gt;CreateRotateTransform3D(&pRotate3D);
+    hr = m_pDevice->CreateRotateTransform3D(&pRotate3D);
 
     if (SUCCEEDED(hr))
     {
         // Create an effect group object.
-        hr = m_pDevice-&gt;CreateEffectGroup(&pEffectGroup);
+        hr = m_pDevice->CreateEffectGroup(&pEffectGroup);
     }
     
     if (SUCCEEDED(hr))
     {
         // Create an animation object.
-        hr = m_pDevice-&gt;CreateAnimation(&pAnimation);
+        hr = m_pDevice->CreateAnimation(&pAnimation);
     }
 
     if (SUCCEEDED(hr))
     {
         // Define the animation function.
-        pAnimation-&gt;AddCubic(0.0f, 0.0f, degrees, 0.0f, 0.0f);
-        pAnimation-&gt;End(1.0f, degrees);
+        pAnimation->AddCubic(0.0f, 0.0f, degrees, 0.0f, 0.0f);
+        pAnimation->End(1.0f, degrees);
 
         // Set the properties of the rotate transform object.  
         //
         // Apply the animation object to the Angle property so that
         // the visual will appear to spin around an axis. 
-        pRotate3D-&gt;SetAngle(pAnimation);
+        pRotate3D->SetAngle(pAnimation);
 
         // Set a vertical axis through the center of the visual&#39;s bitmap. 
-        pRotate3D-&gt;SetAxisX(0.0f);
-        pRotate3D-&gt;SetAxisY(1.0f);
-        pRotate3D-&gt;SetAxisZ(0.0f);
+        pRotate3D->SetAxisX(0.0f);
+        pRotate3D->SetAxisY(1.0f);
+        pRotate3D->SetAxisZ(0.0f);
 
         // Set the center of rotation to the center of the visual&#39;s bitmap.
-        pRotate3D-&gt;SetCenterX(m_bitmapWidth / 2.0f);
-        pRotate3D-&gt;SetCenterY(m_bitmapHeight / 2.0f);
+        pRotate3D->SetCenterX(m_bitmapWidth / 2.0f);
+        pRotate3D->SetCenterY(m_bitmapHeight / 2.0f);
     }
 
     if (SUCCEEDED(hr))
     {
         // Apply the rotate transform object to the Tranform3D property
         // of the effect group object.
-        hr = pEffectGroup-&gt;SetTransform3D(pRotate3D);
+        hr = pEffectGroup->SetTransform3D(pRotate3D);
     }
 
     if (SUCCEEDED(hr))
     {
         // Apply the effect group object to the Effect property of the visual.
-        hr = pVisual-&gt;SetEffect(pEffectGroup);
+        hr = pVisual->SetEffect(pEffectGroup);
     }
 
     if (SUCCEEDED(hr))
     {
         // Commit the visual to DirectComposition.
-        hr = m_pDevice-&gt;Commit();
+        hr = m_pDevice->Commit();
     }
 
     // Release the DirectComposition objects.
@@ -868,7 +868,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message,
     if (message == WM_CREATE)
     {
         LPCREATESTRUCT pcs = (LPCREATESTRUCT)lParam;
-        DemoApp *pDemoApp = (DemoApp *)pcs-&gt;lpCreateParams;
+        DemoApp *pDemoApp = (DemoApp *)pcs->lpCreateParams;
 
         ::SetWindowLongPtrW(
             hwnd,
@@ -880,7 +880,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message,
     }
     else
     {
-        DemoApp *pDemoApp = reinterpret_cast<DemoApp *&gt;(static_cast<LONG_PTR&gt;(
+        DemoApp *pDemoApp = reinterpret_cast<DemoApp *>(static_cast<LONG_PTR>(
             ::GetWindowLongPtrW(
                 hwnd,
                 GWLP_USERDATA
@@ -894,7 +894,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message,
             {
             case WM_LBUTTONDOWN:
                 {
-                    pDemoApp-&gt;OnClientClick(LOWORD(lParam), HIWORD(lParam));
+                    pDemoApp->OnClientClick(LOWORD(lParam), HIWORD(lParam));
                 }
                 wasHandled = true;
                 result = 0;
@@ -902,7 +902,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message,
 
             case WM_MOUSEMOVE:
                 {
-                    pDemoApp-&gt;OnMouseMove(LOWORD(lParam), HIWORD(lParam));
+                    pDemoApp->OnMouseMove(LOWORD(lParam), HIWORD(lParam));
                 }
                 wasHandled = true;
                 result = 0;
@@ -910,7 +910,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message,
 
             case WM_PAINT:
                 {
-                    pDemoApp-&gt;OnPaint();
+                    pDemoApp->OnPaint();
                     ValidateRect(hwnd, NULL);
                 }
                 wasHandled = true;
@@ -928,7 +928,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message,
             case WM_DESTROY:
                 {
                     PostQuitMessage(0);
-                    pDemoApp-&gt;DiscardResources();
+                    pDemoApp->DiscardResources();
                 }
                 wasHandled = true;
                 result = 1;
@@ -956,7 +956,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message,
 
 HRESULT DemoApp::LoadResourceGDIBitmap(PCWSTR resourceName, HBITMAP &hbmp)
 {
-    hbmp = static_cast<HBITMAP&gt;(LoadImageW(HINST_THISCOMPONENT, resourceName, 
+    hbmp = static_cast<HBITMAP>(LoadImageW(HINST_THISCOMPONENT, resourceName, 
         IMAGE_BITMAP, 0, 0, LR_DEFAULTCOLOR));  
  
     return hbmp ? S_OK : E_FAIL;
@@ -1001,7 +1001,7 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
 
         // Create a DirectComposition-compatible surface that is the same size 
         // as the bitmap.
-        hr = m_pDevice-&gt;CreateSurface(m_bitmapWidth, m_bitmapHeight, 
+        hr = m_pDevice->CreateSurface(m_bitmapWidth, m_bitmapHeight, 
             DXGI_FORMAT_B8G8R8A8_UNORM, DXGI_ALPHA_MODE_IGNORE, &pDCSurface);
     }
 
@@ -1009,14 +1009,14 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
     if (SUCCEEDED(hr)) 
     {
         // Begin rendering to the surface.
-        hr = pDCSurface-&gt;BeginDraw(NULL, __uuidof(IDXGISurface1), 
-            reinterpret_cast<void**&gt;(&pDXGISurface), &pointOffset);
+        hr = pDCSurface->BeginDraw(NULL, __uuidof(IDXGISurface1), 
+            reinterpret_cast<void**>(&pDXGISurface), &pointOffset);
     }
 
     if (SUCCEEDED(hr)) 
     {
         // Get the device context (DC) for the surface.
-        pDXGISurface-&gt;GetDC(FALSE, &hSurfaceDC);
+        pDXGISurface->GetDC(FALSE, &hSurfaceDC);
     }
 
     hr = hSurfaceDC ? S_OK : E_FAIL;
@@ -1038,11 +1038,11 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
             DeleteDC(hBitmapDC);
         }
 
-        pDXGISurface-&gt;ReleaseDC(NULL);
+        pDXGISurface->ReleaseDC(NULL);
     }
 
     // End the rendering.
-    pDCSurface-&gt;EndDraw();
+    pDCSurface->EndDraw();
     *ppSurface = pDCSurface;
 
     SafeRelease(&pDXGISurface);

@@ -18,7 +18,7 @@ Modem DM configuration profile.
 
 ## Element hierarchy
 
-**<ModemDMConfigProfile&gt;**
+**<ModemDMConfigProfile>**
 
 ## Syntax
 

@@ -26,7 +26,7 @@ Defines the starting point of a curve. Read/write. **VgVector2D**.
 
 **Tag Syntax**
 
-<v: *element* from=" *expression* "&gt;
+<v: *element* from=" *expression* ">
 
 **Script Syntax**
 

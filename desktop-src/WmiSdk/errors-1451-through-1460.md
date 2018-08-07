@@ -25,7 +25,7 @@ Describes WMI SNMP provider errors 1451 through 1460.
 
 <dl> <dt>
 
-<span id="_1451__Fatal____Could_not_connect_to_the_SMIR_"></span><span id="_1451__fatal____could_not_connect_to_the_smir_"></span><span id="_1451__FATAL____COULD_NOT_CONNECT_TO_THE_SMIR_"></span>**<1451, Fatal&gt;: "Could not connect to the SMIR"**
+<span id="_1451__Fatal____Could_not_connect_to_the_SMIR_"></span><span id="_1451__fatal____could_not_connect_to_the_smir_"></span><span id="_1451__FATAL____COULD_NOT_CONNECT_TO_THE_SMIR_"></span>**<1451, Fatal>: "Could not connect to the SMIR"**
 </dt> <dd>
 
 SMIR interaction error.
@@ -36,7 +36,7 @@ SMIR interaction error.
 
 <dl> <dt>
 
-<span id="_1453__Fatal____Module__module__does_not_exist_in_the_SMIR_"></span><span id="_1453__fatal____module__module__does_not_exist_in_the_smir_"></span><span id="_1453__FATAL____MODULE__MODULE__DOES_NOT_EXIST_IN_THE_SMIR_"></span>**<1453, Fatal&gt;: "Module <module&gt; does not exist in the SMIR"**
+<span id="_1453__Fatal____Module__module__does_not_exist_in_the_SMIR_"></span><span id="_1453__fatal____module__module__does_not_exist_in_the_smir_"></span><span id="_1453__FATAL____MODULE__MODULE__DOES_NOT_EXIST_IN_THE_SMIR_"></span>**<1453, Fatal>: "Module <module> does not exist in the SMIR"**
 </dt> <dd>
 
 SMIR interaction error. The module that has requested deletion does not exist in the SMIR.

@@ -17,7 +17,7 @@ A sound with no orientation has the same amplitude at a given distance in all di
 
 At any angle within the inner cone, the volume of the sound is set to the inner cone volume. This takes into account the basic volume of the buffer, the distance from the listener, the listener's orientation if the listener has its own cone, and so on.
 
-At any angle outside the outer cone, the normal volume is attenuated by a factor set by the application. The outside cone volume level is expressed as a linear amplitude scaler: 1.0 f represents no attenuation applied to the original signal, 0.5 f denotes an attenuation of 6 dB, and 0.0 f results in silence. Amplification (volume &gt; 1.0 f) is also allowed, and is not clamped. The valid volume range is actually 0.0 f to 2.0 f.
+At any angle outside the outer cone, the normal volume is attenuated by a factor set by the application. The outside cone volume level is expressed as a linear amplitude scaler: 1.0 f represents no attenuation applied to the original signal, 0.5 f denotes an attenuation of 6 dB, and 0.0 f results in silence. Amplification (volume > 1.0 f) is also allowed, and is not clamped. The valid volume range is actually 0.0 f to 2.0 f.
 
 Between the inner and outer cones is a zone of transition from the inside volume to the outside volume. The volume approaches the cone's outer volume as the angle increases.
 

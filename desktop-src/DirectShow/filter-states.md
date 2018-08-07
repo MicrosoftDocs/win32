@@ -15,7 +15,7 @@ Filters have three possible states: stopped, paused, and running. The purpose of
 
 For most filters, the running and paused states are identical. Consider the following filter graph:
 
-Source &gt; Transform &gt; Renderer
+Source > Transform > Renderer
 
 Assume for now that the source filter is not a live capture source. When the source filter pauses, it creates a thread that generates new data and writes it into media samples as quickly as possible. The thread "pushes" the samples downstream by calling [**IMemInputPin::Receive**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receive) on the transform filter's input pin. The transform filter receives the samples on the source filter's thread. It may use a worker thread to deliver the samples to the renderer, but typically it delivers them on the same thread. While the renderer is paused, it waits to receive a sample. After it receives one, it blocks and holds that sample indefinitely. If it is a video renderer, it displays the sample as a poster image, repainting the image as necessary.
 

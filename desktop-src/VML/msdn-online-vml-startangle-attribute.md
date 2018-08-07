@@ -26,7 +26,7 @@ Defines the starting point of the arc. Read/write. [VgAngleInDegrees](msdn-onlin
 
 **Tag Syntax**
 
-<v: *element* endangle=" *expression* "&gt;
+<v: *element* endangle=" *expression* ">
 
 **Script Syntax**
 

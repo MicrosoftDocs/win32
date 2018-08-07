@@ -126,7 +126,7 @@ On x64 operating systems from Windows XP to Windows Server 2008, the 64-bit ve
 
 The workaround is to use the 32-bit version of DCOMCNFG. Run the 32-bit version of mmc.exe and load the 32-bit version of the Component Services snap-in by using the following command line.
 
-C:\\WINDOWS\\SysWOW64&gt;**mmc comexp.msc /32**
+C:\\WINDOWS\\SysWOW64>**mmc comexp.msc /32**
 
 The 32-bit version of Component Services correctly registers 32-bit DCOM applications for remote activation.
 

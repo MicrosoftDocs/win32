@@ -20,8 +20,8 @@ For more information about this element, see the documentation for the v1 [**Pro
 
 ## Element hierarchy
 
-[<MBNProfileExt&gt;](element-mbnprofileext.md)  
-**<ProfileCreationType&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+**<ProfileCreationType>**
 
 ## Syntax
 

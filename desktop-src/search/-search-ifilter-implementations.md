@@ -164,9 +164,9 @@ The filtering process can generate abstracts for each filtered file, which defau
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><pre><code><head&gt;
-                <META NAME=&quot;DESCRIPTION&quot; CONTENT=&quot;This text will appear on the results page as the document&#39;s summary.&quot;&gt;
-                </head&gt;
+<td><pre><code><head>
+                <META NAME=&quot;DESCRIPTION&quot; CONTENT=&quot;This text will appear on the results page as the document&#39;s summary.&quot;>
+                </head>
                 </code></pre></td>
 </tr>
 </tbody>
@@ -184,7 +184,7 @@ The filtering process can generate abstracts for each filtered file, which defau
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><pre><code><meta name=&quot;robots&quot; content=&quot;noindex&quot;&gt;</code></pre></td>
+<td><pre><code><meta name=&quot;robots&quot; content=&quot;noindex&quot;></code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -202,8 +202,8 @@ The filtering process can generate abstracts for each filtered file, which defau
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><pre><code><meta name=&quot;ms.locale&quot; content=&quot;EN&quot;&gt; 
-                <meta name=&quot;ms.locale&quot; content=1033&gt;
+<td><pre><code><meta name=&quot;ms.locale&quot; content=&quot;EN&quot;> 
+                <meta name=&quot;ms.locale&quot; content=1033>
                 </code></pre></td>
 </tr>
 </tbody>

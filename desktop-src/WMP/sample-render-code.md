@@ -95,9 +95,9 @@ This information will be used to display a line whose height will match the audi
 
 The line is drawn from left to right using the **MoveToEx** and **LineTo** GDI functions.
 
-First you move the pen to the starting point. In this case, x and y are used to define the left-to-right and top-to-bottom values the user will see on the screen. X is defined by the rectangle prc and specifically by the value of prc-&gt;left. Y is defined as the value of the waveform data at that moment.
+First you move the pen to the starting point. In this case, x and y are used to define the left-to-right and top-to-bottom values the user will see on the screen. X is defined by the rectangle prc and specifically by the value of prc->left. Y is defined as the value of the waveform data at that moment.
 
-Then you draw a line to the other side of the window. The point you draw the line to is again an x, y value. X is defined by the rectangle prc, but this time by prc-&gt;right. Y is still defined by the waveform data and is the same as the point you started from, because you are drawing a straight line from left to right.
+Then you draw a line to the other side of the window. The point you draw the line to is again an x, y value. X is defined by the rectangle prc, but this time by prc->right. Y is still defined by the waveform data and is the same as the point you started from, because you are drawing a straight line from left to right.
 
 ## Clean up Everything
 

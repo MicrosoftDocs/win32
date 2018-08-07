@@ -17,7 +17,7 @@ A Value element associates a literal with a type.
 
 ## Element Tag
 
-<Value&gt;
+<Value>
 
 ## XML Attributes
 
@@ -64,7 +64,7 @@ A Value element may appear within a Property or ScoredProperty element. The purp
 
  
 
-To conform to the Print Schema Framework, which requires either a Value element or subelements be present in the elements that support values, an absent or undefined value should be represented by presenting the Value element as an empty element; that is, as <Value&gt;</Value&gt;.
+To conform to the Print Schema Framework, which requires either a Value element or subelements be present in the elements that support values, an absent or undefined value should be represented by presenting the Value element as an empty element; that is, as <Value></Value>.
 
 ## Example
 

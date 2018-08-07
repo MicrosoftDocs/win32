@@ -25,7 +25,7 @@ For detailed instructions on creating a publisher filter, see [Creating a Publis
 
 ## Parameter Filtering
 
-In contrast to publisher filtering, the COM+ Events service provides an optional subscriber parameter filtering for each subscription and each event method invocation. Parameter filtering evaluates the subscription FilterCriteria property against the parameters of the event method. This type of filtering is used on a per-method, per-subscription basis and provides a level of subscriber filtering at the event source. The filter criteria string recognizes relational operators for checking equality (=, ==, !, !=, ~, ~=, <&gt;), nested parentheses, and logical keywords **AND**, **OR**, or **NOT**.
+In contrast to publisher filtering, the COM+ Events service provides an optional subscriber parameter filtering for each subscription and each event method invocation. Parameter filtering evaluates the subscription FilterCriteria property against the parameters of the event method. This type of filtering is used on a per-method, per-subscription basis and provides a level of subscriber filtering at the event source. The filter criteria string recognizes relational operators for checking equality (=, ==, !, !=, ~, ~=, <>), nested parentheses, and logical keywords **AND**, **OR**, or **NOT**.
 
 Parameter filtering occurs after any publisher filtering and when the standard event object is fired for a given subscription. If publisher filtering is used, parameter filtering occurs only when the publisher filter invokes [**IFiringControl::FireSubscription**](/windows/desktop/api/EventSys/nf-eventsys-ifiringcontrol-firesubscription). Because of this, publisher filtering and parameter filtering can compose together but publisher filtering takes precedence.
 

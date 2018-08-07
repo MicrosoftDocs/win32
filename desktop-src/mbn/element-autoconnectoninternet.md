@@ -20,8 +20,8 @@ For more information, see the documentation for the v1 [**AutoConnectOnInternet*
 
 ## Element hierarchy
 
-[<MBNProfileExt&gt;](element-mbnprofileext.md)  
-**<AutoConnectOnInternet&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+**<AutoConnectOnInternet>**
 
 ## Syntax
 

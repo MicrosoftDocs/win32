@@ -1,5 +1,5 @@
 ---
-Description: The optional <iconReference&gt; element specifies a custom icon for this location. This element has no attributes and no child elements.
+Description: The optional <iconReference> element specifies a custom icon for this location. This element has no attributes and no child elements.
 ms.assetid: c2fa5e99-a7fd-423e-9952-5233e8c83619
 title: iconReference Element (Search Connector Schema)
 ms.technology: desktop
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # iconReference Element (Search Connector Schema)
 
-The optional <iconReference&gt; element specifies a custom icon for this location. This element has no attributes and no child elements.
+The optional <iconReference> element specifies a custom icon for this location. This element has no attributes and no child elements.
 
 ## Syntax
 
@@ -45,7 +45,7 @@ The optional <iconReference&gt; element specifies a custom icon for this locatio
 
 ## Remarks
 
-The format of the reference must be specified in a form suitable for the [PathParseIconLocation](http://msdn.microsoft.com/en-us/library/bb773737.aspx) function: (for example, <dll file name&gt;,<icon index&gt;).
+The format of the reference must be specified in a form suitable for the [PathParseIconLocation](http://msdn.microsoft.com/en-us/library/bb773737.aspx) function: (for example, <dll file name>,<icon index>).
 
 ## Example
 

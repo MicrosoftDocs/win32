@@ -699,7 +699,7 @@ So now you can apply these techniques and profile all the state changes you want
 
 ### Watch Out for State Change Optimizations
 
-The previous section show how to profile both kinds of state changes: a simple state change that is constrained to generate the same amount of work for each iteration, and a toggling state change that dramatically changes the amount of work done. What happens if you take the previous render sequence and add another state change to it? For instance, this example takes the z&gt;-enable render sequence and adds a z-func comparison to it:
+The previous section show how to profile both kinds of state changes: a simple state change that is constrained to generate the same amount of work for each iteration, and a toggling state change that dramatically changes the amount of work done. What happens if you take the previous render sequence and add another state change to it? For instance, this example takes the z>-enable render sequence and adds a z-func comparison to it:
 
 
 ```

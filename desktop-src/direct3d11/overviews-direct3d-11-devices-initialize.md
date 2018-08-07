@@ -115,15 +115,15 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 > <td><pre><code>ID3D11Texture2D* pBackBuffer;
 >
 > // Get a pointer to the back buffer
-> hr = g_pSwapChain-&gt;GetBuffer( 0, __uuidof( ID3D11Texture2D ), 
+> hr = g_pSwapChain->GetBuffer( 0, __uuidof( ID3D11Texture2D ), 
 >                              ( LPVOID* )&pBackBuffer );
 >
 > // Create a render-target view
-> g_pd3dDevice-&gt;CreateRenderTargetView( pBackBuffer, NULL,
+> g_pd3dDevice->CreateRenderTargetView( pBackBuffer, NULL,
 >                                       &g_pRenderTargetView );
 >
 > // Bind the view
-> g_pImmediateContext-&gt;OMSetRenderTargets( 1, &g_pRenderTargetView, NULL );</code></pre></td>
+> g_pImmediateContext->OMSetRenderTargets( 1, &g_pRenderTargetView, NULL );</code></pre></td>
 > </tr>
 > </tbody>
 > </table>
@@ -153,7 +153,7 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 >     vp.MaxDepth = 1.0f;
 >     vp.TopLeftX = 0;
 >     vp.TopLeftY = 0;
->     g_pImmediateContext-&gt;RSSetViewports( 1, &vp );</code></pre></td>
+>     g_pImmediateContext->RSSetViewports( 1, &vp );</code></pre></td>
 > </tr>
 > </tbody>
 > </table>

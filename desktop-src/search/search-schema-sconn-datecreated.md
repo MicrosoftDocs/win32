@@ -1,5 +1,5 @@
 ---
-Description: The optional <dateCreated&gt; element identifies the date and the time when this search connector was created, using the ISO 8601 standard. It has no child elements and no attributes.
+Description: The optional <dateCreated> element identifies the date and the time when this search connector was created, using the ISO 8601 standard. It has no child elements and no attributes.
 ms.assetid: 96d8b067-b5ab-4d36-a8d7-1d084a9f661d
 title: dateCreated Element (Search Connector Schema)
 ms.technology: desktop
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # dateCreated Element (Search Connector Schema)
 
-The optional <dateCreated&gt; element identifies the date and the time when this search connector was created, using the ISO 8601 standard. It has no child elements and no attributes.
+The optional <dateCreated> element identifies the date and the time when this search connector was created, using the ISO 8601 standard. It has no child elements and no attributes.
 
 ## Syntax
 

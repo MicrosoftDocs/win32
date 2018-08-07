@@ -26,7 +26,7 @@ Defines a URL for an image. Read/write. **String**.
 
 **Tag Syntax**
 
-<v: *element* o:href=" *expression* "&gt;
+<v: *element* o:href=" *expression* ">
 
 **Script Syntax**
 

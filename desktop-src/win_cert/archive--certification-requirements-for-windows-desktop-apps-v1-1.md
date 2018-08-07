@@ -107,7 +107,7 @@ An Authenticode digital signature allows users to be sure that the software is g
 
 ## 7. Apps don t block installation or app launch based on an operating system version check
 
-It is important that customers are not artificially blocked from installing or running their app when there are no technical limitations. In general, if apps were written for Windows Vista or later versions of Windows, they should not have to check the operating system version.<dl> 7.1 Your app must not perform version checks for equality <dl> If you need a specific feature, check whether the feature itself is available. If you need Windows XP, check for Windows XP or later (&gt;= 5.1). This way, your detection code will continue to work on future versions of Windows. Driver installers and uninstall modules should never check the operating system version.  
+It is important that customers are not artificially blocked from installing or running their app when there are no technical limitations. In general, if apps were written for Windows Vista or later versions of Windows, they should not have to check the operating system version.<dl> 7.1 Your app must not perform version checks for equality <dl> If you need a specific feature, check whether the feature itself is available. If you need Windows XP, check for Windows XP or later (>= 5.1). This way, your detection code will continue to work on future versions of Windows. Driver installers and uninstall modules should never check the operating system version.  
 </dl> </dd> 7.2 Exceptions and Waivers will be considered for apps meeting the criteria below:
 
 -   Apps that are delivered as one package that also run on Windows XP, Windows Vista, and Windows 7, and need to check the operating system version to determine which components to install on a given operating system.
@@ -131,8 +131,8 @@ Safe mode allows users to diagnose and troubleshoot Windows. Drivers and service
 ## 9. Apps must follow User Account Control guidelines
 
 Some Windows apps run in the security context of an administrator account, and apps often request excessive user rights and Windows privileges. Controlling access to resources enables users to be in control of their systems and protect them against unwanted changes. An unwanted change can be malicious, such as a rootkit taking control of the computer, or be the result of an action made by people who have limited privileges.. The most important rule for controlling access to resources is to provide the least amount of access  standard user context  necessary for a user to perform his or her necessary tasks. Following user account control (UAC) guidelines provides app with the necessary permissions when they are needed by the app, without leaving the system constantly exposed to security risks. Most apps do not require administrator privileges at run time, and should be just fine running as a standard-user.<dl> 9.1 Your app must have a manifest that defines execution levels and tells the operating system what privileges the app requires in order to run <dl> The app manifest marking only applies to EXEs, not DLLs. This is because UAC does not inspect DLLs during process creation. It is also worth noting that UAC rules do not apply to Windows Services. The manifest can be either embedded or external.  
-To create a manifest, create a file with the name <app\_name&gt;.exe.manifest and store it in the same directory as the EXE. Note that any external manifest is ignored if the app has an internal manifest. For example:  
-<requestedExecutionLevel level=""asInvoker \| highestAvailable \| requireAdministrator"" uiAccess=""true\|false""/&gt;  
+To create a manifest, create a file with the name <app\_name>.exe.manifest and store it in the same directory as the EXE. Note that any external manifest is ignored if the app has an internal manifest. For example:  
+<requestedExecutionLevel level=""asInvoker \| highestAvailable \| requireAdministrator"" uiAccess=""true\|false""/>  
 </dl> </dd> 9.2 Your app s main process must be run as a standard user (asInvoker). <dl> Any administrative features must be moved into a separate process that runs with administrative privileges. User facing apps, such as those accessible through the program group on the Start-Menu, and requiring elevation must be Authenticode signed.  
 </dl> </dd> 9.3 Exceptions and Waivers <dl> A waiver is required for apps that run their main process with elevated privileges (requireAdministrator or highestAvailable). The main process is identified as the user s entry point to the app. Waivers will be considered for the following scenarios:
 
@@ -150,10 +150,10 @@ Users should have a consistent and secure experience with the default installati
 
 -   Registry run keys HKLM and, or HKCU under Software\\Microsoft\\Windows\\CurrentVersion
 -   Registry run keys HKLM, and or HKCU under Software\\Wow6432Node\\Microsoft\\windows\\CurrentVersion
--   Start Menu AllPrograms &gt; STARTUP
+-   Start Menu AllPrograms > STARTUP
 
 </dd> 10.3 Your app data, which must be shared among users on the computer, should be stored within ProgramData  
-10.4 Your app s data that is exclusive to a specific user and that is not to be shared with other users of the computer, must be stored in Users\\<username&gt;\\AppData  
+10.4 Your app s data that is exclusive to a specific user and that is not to be shared with other users of the computer, must be stored in Users\\<username>\\AppData  
 10.5 Your app must never write directly to the "Windows" directory and or subdirectories <dl> Use the correct methods for installing files, such as fonts or drivers.  
 </dl> </dd> 10.6 Your app must write user data at first run and not during the installation in  per-machine  installations <dl> When the app is installed, there is no correct user location in which to store data. Attempts by an app to modify default association behaviors at a machine level after installation will be unsuccessful. Instead, defaults must be claimed on a per-user level, which prevents multiple users from overwriting each other's defaults.  
 </dl> </dd> 10.7 Exceptions and Waivers <dl> A waiver is required for apps that write to the global assembly cache (GAC) .NET apps should keep assembly dependencies private, and store it in the app directory unless sharing an assembly is explicitly required.  

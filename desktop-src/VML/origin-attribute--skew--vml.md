@@ -26,7 +26,7 @@ Defines the origin of the skew. Read/write. **VgVector2D**.
 
 **Tag Syntax**
 
-<o: *element* origin=" *expression* "&gt;
+<o: *element* origin=" *expression* ">
 
 **Script Syntax**
 

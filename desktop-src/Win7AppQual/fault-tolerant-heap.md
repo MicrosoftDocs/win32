@@ -34,7 +34,7 @@ Fault Tolerant Heap logs information when the service starts, stops, or starts m
 
 1.  Click the Start menu.
 2.  Right-click **Computer** and click **Manage**.
-3.  Click **Event Viewer** &gt; **Applications and Services Logs** &gt; **Microsoft** &gt; **Windows &gt; Fault-Tolerant-Heap**
+3.  Click **Event Viewer** > **Applications and Services Logs** > **Microsoft** > **Windows > Fault-Tolerant-Heap**
 4.  View FTH Events.
 
 The service stop and start events contain no additional data. The FTH Enabled event contains the Process ID (PID), the process image name, and the process instance start time.

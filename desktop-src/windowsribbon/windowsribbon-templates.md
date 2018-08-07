@@ -197,20 +197,20 @@ Eight button-family controls (alternate presentation).<br/>
 <tbody>
 <tr class="odd">
 <td><pre><code><Group CommandName=&quot;cmdSizeDefinitionsGroup&quot; 
-       SizeDefinition=&quot;EightButtons-LastThreeSmall&quot;&gt;
-  <ControlGroup&gt;
-    <Button CommandName=&quot;cmdSDButton1&quot; /&gt;
-    <Button CommandName=&quot;cmdSDButton2&quot; /&gt;
-    <Button CommandName=&quot;cmdSDButton3&quot; /&gt;
-    <Button CommandName=&quot;cmdSDButton4&quot; /&gt;
-    <Button CommandName=&quot;cmdSDButton5&quot; /&gt;
-  </ControlGroup&gt;
-  <ControlGroup&gt;
-    <Button CommandName=&quot;cmdSDButton6&quot; /&gt;
-    <Button CommandName=&quot;cmdSDButton7&quot; /&gt;
-    <Button CommandName=&quot;cmdSDButton8&quot; /&gt;
-  </ControlGroup&gt;
-</Group&gt;</code></pre></td>
+       SizeDefinition=&quot;EightButtons-LastThreeSmall&quot;>
+  <ControlGroup>
+    <Button CommandName=&quot;cmdSDButton1&quot; />
+    <Button CommandName=&quot;cmdSDButton2&quot; />
+    <Button CommandName=&quot;cmdSDButton3&quot; />
+    <Button CommandName=&quot;cmdSDButton4&quot; />
+    <Button CommandName=&quot;cmdSDButton5&quot; />
+  </ControlGroup>
+  <ControlGroup>
+    <Button CommandName=&quot;cmdSDButton6&quot; />
+    <Button CommandName=&quot;cmdSDButton7&quot; />
+    <Button CommandName=&quot;cmdSDButton8&quot; />
+  </ControlGroup>
+</Group></code></pre></td>
 </tr>
 </tbody>
 </table>

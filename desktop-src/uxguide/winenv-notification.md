@@ -343,7 +343,7 @@ Run
 
 Secondary commands
 
-< separator&gt;
+< separator>
 
 Suspend/resume enable/disable command (check mark)
 
@@ -353,7 +353,7 @@ Opt in to notifications (check mark)
 
 "Display icon in notification area" (check mark)
 
-< separator&gt;
+< separator>
 
 "Options"
 

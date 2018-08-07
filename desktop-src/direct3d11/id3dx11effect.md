@@ -84,7 +84,7 @@ The effect system groups the information required for rendering into an effect w
 > <tbody>
 > <tr class="odd">
 > <td><pre><code>    IUnknown* pIUnknown = (IUnknown*)pEffect;
->     pIUnknown-&gt;AddRef();</code></pre></td>
+>     pIUnknown->AddRef();</code></pre></td>
 > </tr>
 > </tbody>
 > </table>

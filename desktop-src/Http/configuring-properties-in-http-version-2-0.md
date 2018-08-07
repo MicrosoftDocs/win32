@@ -45,9 +45,9 @@ The server session properties are defined in the [HTTP\_SERVER\_PROPERTY](/windo
 |-------------------------------------------------------------|-------------------------------------------------------------------------------|----------------------------|
 | HttpServerAuthenticatonProperty                             | [**HTTP\_SERVER\_AUTHENTICATION\_INFO**](/windows/desktop/api/Http/ns-http-_http_server_authentication_info) | No Authentication          |
 | HttpServerLoggingProperty                                   | [**HTTP\_LOGGING\_INFO**](/windows/desktop/api/Http/ns-http-_http_logging_info)                              | No Logging                 |
-| HttpServerQosProperty-&gt;HttpQosSettingTypeConnectionLimit | [**HTTP\_CONNECTION\_LIMIT\_INFO**](/windows/desktop/api/Http/ns-http-_http_connection_limit_info)           | No Limit                   |
+| HttpServerQosProperty->HttpQosSettingTypeConnectionLimit | [**HTTP\_CONNECTION\_LIMIT\_INFO**](/windows/desktop/api/Http/ns-http-_http_connection_limit_info)           | No Limit                   |
 | HttpServerTimeoutsProperty                                  | [**HTTP\_TIMEOUT\_LIMIT\_INFO**](/windows/desktop/api/Http/ns-http-_http_timeout_limit_info)                 | 120 sec.                   |
-| HttpServerQosProperty-&gt;HttpQosSettingTypeBandwidth       | [**HTTP\_BANDWIDTH\_LIMIT\_INFO**](/windows/desktop/api/Http/ns-http-_http_bandwidth_limit_info)             | No Limit                   |
+| HttpServerQosProperty->HttpQosSettingTypeBandwidth       | [**HTTP\_BANDWIDTH\_LIMIT\_INFO**](/windows/desktop/api/Http/ns-http-_http_bandwidth_limit_info)             | No Limit                   |
 | HttpServerQueueLengthProperty                               | ULONG                                                                         | 1000                       |
 | HttpServerStateProperty                                     | [**HTTP\_STATE\_INFO**](/windows/desktop/api/Http/ns-http-_http_state_info)                                  | Enabled                    |
 | HttpServer503VerbosityProperty                              | [**HTTP\_503\_RESPONSE\_VERBOSITY**](/windows/desktop/api/Http/ne-http-_http_503_response_verbosity)         | HttpResponseVerbosityBasic |
@@ -63,7 +63,7 @@ The following table lists the minimum and and maximum values for the HTTP Server
 
 | Property                                              | HTTP Server API Maximum and Minimum                        |
 |-------------------------------------------------------|------------------------------------------------------------|
-| HttpServerQosProperty-&gt;HttpQosSettingTypeBandwidth | Min = MIN\_ALLOWED\_BANDWIDTH\_THROTTLING\_RATE Max = none |
+| HttpServerQosProperty->HttpQosSettingTypeBandwidth | Min = MIN\_ALLOWED\_BANDWIDTH\_THROTTLING\_RATE Max = none |
 | HttpServerQueueLengthProperty                         | Min = 0xA Max = 0xFFFF                                     |
 
 

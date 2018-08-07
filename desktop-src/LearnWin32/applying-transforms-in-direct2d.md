@@ -158,7 +158,7 @@ void Scene::RenderScene()
 <tbody>
 <tr class="odd">
 <td><pre><code>    // Restore the identity transformation.
-    m_pRenderTarget-&gt;SetTransform( D2D1::Matrix3x2F::Identity() );
+    m_pRenderTarget->SetTransform( D2D1::Matrix3x2F::Identity() );
 }</code></pre></td>
 </tr>
 </tbody>

@@ -70,12 +70,12 @@ Windows Vista with SP1 has several entry points from which it calls the **searc
 
 | Search protocol entry point | Location         | Query called                                                         |
 |-----------------------------|------------------|----------------------------------------------------------------------|
-| **Search Everywhere**       | **Start** menu   | search:query=<*Search Term*&gt;                                   |
-| **Search Everywhere**       | Windows Explorer | search:query=<*Search Term*&gt;&crumb=location:<*LOCATION*&gt; |
+| **Search Everywhere**       | **Start** menu   | search:query=<*Search Term*>                                   |
+| **Search Everywhere**       | Windows Explorer | search:query=<*Search Term*>&crumb=location:<*LOCATION*> |
 | Windows logo key+F          | Anywhere         | search:                                                              |
-| CTRL+F                      | Windows Explorer | search:query=<*Search Term*&gt;&crumb=location:<*LOCATION*&gt; |
+| CTRL+F                      | Windows Explorer | search:query=<*Search Term*>&crumb=location:<*LOCATION*> |
 | F3                          | **Start** menu   | search:                                                              |
-| F3                          | Windows Explorer | search:query=<*Search Term*&gt;&crumb=location:<*LOCATION*&gt; |
+| F3                          | Windows Explorer | search:query=<*Search Term*>&crumb=location:<*LOCATION*> |
 
 
 

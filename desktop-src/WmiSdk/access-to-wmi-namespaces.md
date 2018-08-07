@@ -47,7 +47,7 @@ WMI uses the namespace [*System access control lists (SACL)*](https://msdn.micro
 
 Auditing is not enabled during the installation of the operating system. To enable auditing, click the **Auditing** tab in the standard **Security** window. Then you can add an auditing entry.
 
-Group Policy for the local computer must be set to allow auditing. You can enable auditing by running the Gpedit.msc MMC snap-in and setting **Audit Object Access** under **Computer Configuration** &gt; **Windows Settings** &gt; **Security Settings** &gt; **Local Policies** &gt; **Audit Policy**.
+Group Policy for the local computer must be set to allow auditing. You can enable auditing by running the Gpedit.msc MMC snap-in and setting **Audit Object Access** under **Computer Configuration** > **Windows Settings** > **Security Settings** > **Local Policies** > **Audit Policy**.
 
 An auditing entry edits the SACL of the namespace. When you add an auditing entry, it is either a user, group, computer, or built-in security principal. After adding the entry, you can set the access operations that result in Security Log events. For example, for the group Authenticated Users, you can click Execute Methods. This setting results in Security Log events whenever a member of the Authenticated Users group executes a method in that namespace. The Event ID for WMI events is 4662.
 

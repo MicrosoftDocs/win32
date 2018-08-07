@@ -22,7 +22,7 @@ transmitted_type_buffer size<2>
 offset_to_the_transmitted_type<2>
 ```
 
-The flags<1&gt; byte consists of the upper flag nibble and the lower alignment nibble.
+The flags<1> byte consists of the upper flag nibble and the lower alignment nibble.
 
 The upper 2 bits of the flag nibble are used to describe whether the wire type is defined as a unique pointer, reference pointer or no pointer (it cannot be a ptr). The following manifests have been defined to set/get the flags:
 
@@ -35,11 +35,11 @@ The upper 2 bits of the flag nibble are used to describe whether the wire type i
 
 The alignment nibble of the flag word keeps the wire alignment of the transmitted type.
 
-The quadruple\_index<2&gt; is an index of the callback routine quadruple of the user marshal functions. The routine positions are as follow: sizing, marshaling, unmarshaling, and freeing routine.
+The quadruple\_index<2> is an index of the callback routine quadruple of the user marshal functions. The routine positions are as follow: sizing, marshaling, unmarshaling, and freeing routine.
 
-The user\_type\_memory\_size<2&gt; provides a size for the user specific type, including unknown types.
+The user\_type\_memory\_size<2> provides a size for the user specific type, including unknown types.
 
-The transmitted\_type\_buffer\_size<2&gt; is either zero when the size is varying, or the actual fixed size. This is an optimization that enables MIDL to skip callbacks when sizing the buffer, and also when freeing.
+The transmitted\_type\_buffer\_size<2> is either zero when the size is varying, or the actual fixed size. This is an optimization that enables MIDL to skip callbacks when sizing the buffer, and also when freeing.
 
 ## Range
 

@@ -87,7 +87,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 |                |                                                                                                                                                                                   |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | A precise specification of the item that has an error, such as a property name. If multiple errors occur or in contexts in which this doesn't apply, MinorRef is <Invalid&gt;. |
+| Description    | A precise specification of the item that has an error, such as a property name. If multiple errors occur or in contexts in which this doesn't apply, MinorRef is <Invalid>. |
 | Access         | ReadOnly                                                                                                                                                                          |
 | Type           | String                                                                                                                                                                            |
 | Default        | None                                                                                                                                                                              |

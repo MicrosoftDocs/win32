@@ -248,7 +248,7 @@ The following steps describe how to create a DXGI surface render target and use 
     </thead>
     <tbody>
     <tr class="odd">
-    <td><pre><code>hr = m_pD2DFactory-&gt;CreateDxgiSurfaceRenderTarget(
+    <td><pre><code>hr = m_pD2DFactory->CreateDxgiSurfaceRenderTarget(
         pBackBuffer,
         &props,
         &m_pBackBufferRT
@@ -286,11 +286,11 @@ The following steps describe how to create a DXGI surface render target and use 
     <td><pre><code>// Draw a gradient background.
     if (m_pBackBufferRT)
     {
-        D2D1_SIZE_F targetSize = m_pBackBufferRT-&gt;GetSize();
+        D2D1_SIZE_F targetSize = m_pBackBufferRT->GetSize();
 
-        m_pBackBufferRT-&gt;BeginDraw();
+        m_pBackBufferRT->BeginDraw();
 
-        m_pBackBufferGradientBrush-&gt;SetTransform(
+        m_pBackBufferGradientBrush->SetTransform(
             D2D1::Matrix3x2F::Scale(targetSize)
             );
 
@@ -301,9 +301,9 @@ The following steps describe how to create a DXGI surface render target and use 
             targetSize.height
             );
 
-        m_pBackBufferRT-&gt;FillRectangle(&rect, m_pBackBufferGradientBrush);
+        m_pBackBufferRT->FillRectangle(&rect, m_pBackBufferGradientBrush);
 
-        hr = m_pBackBufferRT-&gt;EndDraw();
+        hr = m_pBackBufferRT->EndDraw();
     }</code></pre></td>
     </tr>
     </tbody>
@@ -361,7 +361,7 @@ The following examples show how to create a DXGI surface render target that rend
     </thead>
     <tbody>
     <tr class="odd">
-    <td><pre><code>hr = m_pOffscreenTexture-&gt;QueryInterface(&pDxgiSurface);</code></pre></td>
+    <td><pre><code>hr = m_pOffscreenTexture->QueryInterface(&pDxgiSurface);</code></pre></td>
     </tr>
     </tbody>
     </table>
@@ -397,7 +397,7 @@ The following examples show how to create a DXGI surface render target that rend
     </thead>
     <tbody>
     <tr class="odd">
-    <td><pre><code>    hr = m_pD2DFactory-&gt;CreateDxgiSurfaceRenderTarget(
+    <td><pre><code>    hr = m_pD2DFactory->CreateDxgiSurfaceRenderTarget(
             pDxgiSurface,
             &props,
             &m_pRenderTarget

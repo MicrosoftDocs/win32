@@ -60,7 +60,7 @@ Type: **LPCTSTR**
 
 The address of a null-terminated string containing the path, if necessary, and the name of the help file that **MLWinHelp** is to display.
 
-The file name can be followed by an angle bracket (&gt;) and the name of a secondary window if the topic is to be displayed in a secondary window rather than in the primary window. You must define the name of the secondary window in the \[WINDOWS\] section of the help project (.hpj) file.
+The file name can be followed by an angle bracket (>) and the name of a secondary window if the topic is to be displayed in a secondary window rather than in the primary window. You must define the name of the secondary window in the \[WINDOWS\] section of the help project (.hpj) file.
 
 </dd> <dt>
 

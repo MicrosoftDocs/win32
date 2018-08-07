@@ -49,11 +49,11 @@ If this function succeeds, it returns SCESTATUS\_SUCCESS. Otherwise it returns a
 
 ## Remarks
 
-When implementing this function, use the callback function pointed to by the **pfQueryInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_) structure (pSceCbInfo-&gt;pfQueryInfo) to retrieve configuration information. Then configure the service using the returned information.
+When implementing this function, use the callback function pointed to by the **pfQueryInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_) structure (pSceCbInfo->pfQueryInfo) to retrieve configuration information. Then configure the service using the returned information.
 
 This function must do the following:
 
--   Query configuration information from the Security Configuration tool set using the callback function pointed to by the **pfQueryInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_) structure (pSceCbInfo-&gt;pfQueryInfo).
+-   Query configuration information from the Security Configuration tool set using the callback function pointed to by the **pfQueryInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_) structure (pSceCbInfo->pfQueryInfo).
 -   Configure the service using the configuration information.
 
 For more information, see [Implementing SceSvcAttachmentConfig](implementing-scesvcattachmentconfig.md)

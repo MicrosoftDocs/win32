@@ -74,7 +74,7 @@ The following table includes all render states that set-up vertex state:
 | D3DRS\_ADAPTIVETESS\_Y                  | 0                      |
 | D3DRS\_ADAPTIVETESS\_Z                  | 1                      |
 | D3DRS\_ADAPTIVETESS\_W                  | 0                      |
-| D3DRS\_ENABLEADAPTIVETESSELLATION"/&gt; | **FALSE**              |
+| D3DRS\_ENABLEADAPTIVETESSELLATION"/> | **FALSE**              |
 
 
 

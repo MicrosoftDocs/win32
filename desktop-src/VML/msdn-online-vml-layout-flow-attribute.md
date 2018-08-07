@@ -26,7 +26,7 @@ Determines the flow of the text layout in a textbox. Read/write. **String**.
 
 **Tag Syntax**
 
-<v: *element* style="layout-flow: *expression* "&gt;
+<v: *element* style="layout-flow: *expression* ">
 
 **Remarks**
 

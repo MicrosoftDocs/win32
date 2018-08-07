@@ -146,7 +146,7 @@ In most cases, either your app s [Direct2D](https://msdn.microsoft.com/en-us/lib
 |---------------------|-------------------------------|-----------------------------------------|
 | 8 bits per channel  | <= 8 bits per channel      | GUID\_WICPixelFormat32bppPBGRA          |
 | As high as possible | <= 8 bits per channel      | GUID\_WICPixelFormat32bppPBGRA          |
-| As high as possible | &gt; 8 bits per channel       | RGBA channel order, premultiplied alpha |
+| As high as possible | > 8 bits per channel       | RGBA channel order, premultiplied alpha |
 
 
 

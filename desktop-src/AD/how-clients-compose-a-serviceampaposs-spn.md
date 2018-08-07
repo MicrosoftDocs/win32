@@ -29,9 +29,9 @@ The form of an SPN is as shown in the following form:
 
 
 
-In this form, "<service class&gt;" and "<host&gt;" are required. "<port&gt;" and "<service name&gt;" optional.
+In this form, "<service class>" and "<host>" are required. "<port>" and "<service name>" optional.
 
-Typically, the client recognizes the "<service class&gt;" part of the name, and recognizes which of the optional components to include in the SPN. The client can retrieve components of the SPN from sources such as a service connection point (SCP) or user input. For example, the client can read the **serviceDNSName** attribute of a service's SCP to get the "<host&gt;" component. The **serviceDNSName** attribute contains either the DNS name of the server on which the service instance is running or the DNS name of SRV records containing the host data for service replicas. The "<service name&gt;" component, used only for replicable services, can be the distinguished name of the service's SCP, the DNS name of the domain served by the service, or the DNS name of SRV or MX records.
+Typically, the client recognizes the "<service class>" part of the name, and recognizes which of the optional components to include in the SPN. The client can retrieve components of the SPN from sources such as a service connection point (SCP) or user input. For example, the client can read the **serviceDNSName** attribute of a service's SCP to get the "<host>" component. The **serviceDNSName** attribute contains either the DNS name of the server on which the service instance is running or the DNS name of SRV records containing the host data for service replicas. The "<service name>" component, used only for replicable services, can be the distinguished name of the service's SCP, the DNS name of the domain served by the service, or the DNS name of SRV or MX records.
 
 For more information and a code example used to compose an SPN for a service, see [How a Client Authenticates an SCP-based Windows Sockets Service](how-a-client-authenticates-an-scp-based-windows-sockets-service.md).
 

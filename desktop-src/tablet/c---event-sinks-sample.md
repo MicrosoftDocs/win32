@@ -208,7 +208,7 @@ HWND hWnd)
 
 ## Accessing the Tablet PC Interfaces and the Wrapper Classes
 
-First, include the headers for Tablet PC Automation interfaces. These are installed with the Microsoft<entity type="reg"/&gt; Windows<entity type="reg"/&gt; XP Tablet PC Edition Development Kit 1.7.
+First, include the headers for Tablet PC Automation interfaces. These are installed with the Microsoft<entity type="reg"/> Windows<entity type="reg"/> XP Tablet PC Edition Development Kit 1.7.
 
 
 ```C++

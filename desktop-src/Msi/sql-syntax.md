@@ -49,12 +49,12 @@ The Windows Installer SQL syntax does not support the escaping of single-quotes 
 A WHERE {operation-list} clause is optional and is a grouping of operations to be used to filter the selection. The operations must be of the following types:
 
 -   {column} = {column}
--   {column} = \| <&gt; \| &gt; \| < \| &gt;= \| <= {constant}
--   {column} = \| <&gt; \| &gt; \| < \| &gt;= \| <= {marker}
+-   {column} = \| <> \| > \| < \| >= \| <= {constant}
+-   {column} = \| <> \| > \| < \| >= \| <= {marker}
 -   {column} is null
 -   {column} is not null
 
-For string values, only the = or <&gt; operations are possible. Object value comparisons are limited to IS NULL and IS NOT NULL.
+For string values, only the = or <> operations are possible. Object value comparisons are limited to IS NULL and IS NOT NULL.
 
 Individual operations can be grouped by AND or OR operators. Ordering can be imposed by use of parentheses ( ).
 

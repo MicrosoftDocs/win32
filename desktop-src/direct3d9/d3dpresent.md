@@ -74,7 +74,7 @@ Describes the relationship between the adapter refresh rate and the rate at whic
 <li>The presentation will implicitly convert from linear space to sRGB (gamma = 2.2). This is the only conversion that is supported.</li>
 <li>Because this flag represents a property of the content of the back buffer, the flag can be specified during an [<strong>Present</strong>](/windows/desktop/api) call. In other words, an application can present linear content in one frame, and then switch to corrected content in the next.</li>
 <li>This flag is ignored when the swap chain is full screen. (Note that this flag is available only on the explicit swap chain version of [<strong>Present</strong>](/windows/desktop/api). The [<strong>Present</strong>](/windows/desktop/api) method does not take a flags parameter.)</li>
-<li>This flag is always accepted, but will only take effect when the driver exposes &gt;D3DCAPS3_LINEAR_TO_SRGB_PresentATION.</li>
+<li>This flag is always accepted, but will only take effect when the driver exposes >D3DCAPS3_LINEAR_TO_SRGB_PresentATION.</li>
 <li>The only back buffer format supported is [X8R8G8B8](d3dformat.md).</li>
 </ul>
 See [Windowed Swap Chains](gamma.md).<br/></td>

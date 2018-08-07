@@ -26,7 +26,7 @@ Defines the black-and-white mode for normal black-and-white output devices. Read
 
 **Tag Syntax**
 
-<v: *element* o:bwnormal=" *expression* "&gt;
+<v: *element* o:bwnormal=" *expression* ">
 
 **Remarks**
 

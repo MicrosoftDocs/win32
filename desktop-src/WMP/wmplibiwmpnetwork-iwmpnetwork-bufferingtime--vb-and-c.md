@@ -99,7 +99,7 @@ private void setBufTime_Click(object sender, System.EventArgs e)
     Dim newTime As Integer = System.Convert.ToInt32(bufText.Text)
 
     &#39; Test whether the integer is within the valid range. 
-    If (newTime &gt;= 0 And newTime <= 60) Then
+    If (newTime >= 0 And newTime <= 60) Then
 
         &#39; Set the new bufferingTime in miliseconds.
         player.network.bufferingTime = (newTime * 1000)

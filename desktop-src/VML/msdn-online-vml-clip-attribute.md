@@ -26,7 +26,7 @@ Determines whether the clipping is on. Read/write. **VgTriState**.
 
 **Tag Syntax**
 
-<v: *element* clip=" *expression* "&gt;
+<v: *element* clip=" *expression* ">
 
 **Script Syntax**
 

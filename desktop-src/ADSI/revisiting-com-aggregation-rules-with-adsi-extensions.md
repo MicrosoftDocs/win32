@@ -31,9 +31,9 @@ The following is a brief review of COM aggregation and ADSI extension rules.
 
 -   The extension object should store the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) pointer of the aggregator, such as m\_pOuterUnknown, during the implementation of the **CreateInstance** method.
 -   All interfaces that the extension object supports, including [**IADsExtension**](/windows/desktop/api/Iads/nn-iads-iadsextension), should inherit from [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx), which delegates all function calls back to the aggregator.
-    -   [**IUnknown::QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) calls "m\_pOuterUnknown-&gt;QueryInterface"
-    -   [**IUnknown::AddRef**](https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx) calls "m\_pOuterUnknown-&gt;AddRef"
-    -   [**IUnkown::Release**](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) calls "m\_pOuterUnknown-&gt;Release"
+    -   [**IUnknown::QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) calls "m\_pOuterUnknown->QueryInterface"
+    -   [**IUnknown::AddRef**](https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx) calls "m\_pOuterUnknown->AddRef"
+    -   [**IUnkown::Release**](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) calls "m\_pOuterUnknown->Release"
 
 Extension writers can choose any internal implementation they prefer as long as they obey standard COM aggregation rules. Be aware that an extension object does not have to work as a standalone object. Extensions are designed to work as aggregates. However, an extension can be written to work as both a standalone object and as an aggregate.
 

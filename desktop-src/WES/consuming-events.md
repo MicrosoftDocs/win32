@@ -94,7 +94,7 @@ Windows Event Log supports a subset of XPath 1.0. The primary restriction is tha
 -   Axis: Only the Child (default) and Attribute (and its shorthand "@") axis are supported.
 -   Node Tests: Only node names and NCName tests are supported. The "\*" character, which selects any character, is supported.
 -   Predicates: Any valid XPath expression is acceptable if the location paths conform to the following restrictions:
-    -   Standard operators **OR**, **AND**, =, !=, <=, <, &gt;=, &gt;, and parentheses are supported.
+    -   Standard operators **OR**, **AND**, =, !=, <=, <, >=, >, and parentheses are supported.
     -   Generating a string value for a node name is not supported.
     -   Evaluation in reverse order is not supported.
     -   Node sets are not supported.

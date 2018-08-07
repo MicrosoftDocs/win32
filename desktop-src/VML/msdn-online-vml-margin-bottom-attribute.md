@@ -26,7 +26,7 @@ Specifies the bottom edge of the shape's containing rectangle relative to the sh
 
 **Tag Syntax**
 
-<v: *element* margin-bottom=" *expression* "&gt;
+<v: *element* margin-bottom=" *expression* ">
 
 **Script Syntax**
 

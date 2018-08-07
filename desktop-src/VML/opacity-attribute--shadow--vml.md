@@ -26,7 +26,7 @@ Determines the transparency of a shadow. Read/write. [VgFraction](msdn-online-vm
 
 **Tag Syntax**
 
-<v: *element* opacity=" *expression* "&gt;
+<v: *element* opacity=" *expression* ">
 
 **Script Syntax**
 

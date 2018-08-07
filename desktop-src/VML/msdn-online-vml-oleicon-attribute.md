@@ -26,7 +26,7 @@ Determines whether an OLE object will be displayed as an icon. Read/write. **VgT
 
 **Tag Syntax**
 
-<v: *element* o:oleicon=" *expression* "&gt;
+<v: *element* o:oleicon=" *expression* ">
 
 **Remarks**
 

@@ -26,7 +26,7 @@ Determines whether the center of rotation will be the geometric center of the ex
 
 **Tag Syntax**
 
-<o: *element* autorotationcenter=" *expression* "&gt;
+<o: *element* autorotationcenter=" *expression* ">
 
 **Script Syntax**
 

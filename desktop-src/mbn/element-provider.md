@@ -20,9 +20,9 @@ The value of this element is an instance of the v1 [**providerType**](https://ms
 
 ## Element hierarchy
 
-[<MBNProfileExt&gt;](element-mbnprofileext.md)  
-[<DataRoamingPartners&gt;](element-dataroamingpartners.md)  
-**<Provider&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+[<DataRoamingPartners>](element-dataroamingpartners.md)  
+**<Provider>**
 
 ## Syntax
 

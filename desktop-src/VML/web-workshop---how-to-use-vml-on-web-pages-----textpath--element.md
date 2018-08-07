@@ -32,11 +32,11 @@ This topic describes VML, a feature that is deprecated as of Windows Internet Ex
 
  
 
-In this topic, we will illustrate how to use the <textpath&gt; element to draw text with various styles.
+In this topic, we will illustrate how to use the <textpath> element to draw text with various styles.
 
-You can place the <textpath&gt; sub-element inside <shape&gt; or <shapetype&gt; to draw text. You can then use the property attributes of the <textpath&gt; sub-element to customize the text. You can also use the <formulas&gt; sub-element to define the outline of the text.
+You can place the <textpath> sub-element inside <shape> or <shapetype> to draw text. You can then use the property attributes of the <textpath> sub-element to customize the text. You can also use the <formulas> sub-element to define the outline of the text.
 
-For example, to create the text shown in the following picture, you can type the VML representation below. Notice that we use the <shapetype&gt; element to define a prototype for the outline of the text. We then instantiate two shapes from the same shapetype. You can simply change the **string** property attribute to display different text.
+For example, to create the text shown in the following picture, you can type the VML representation below. Notice that we use the <shapetype> element to define a prototype for the outline of the text. We then instantiate two shapes from the same shapetype. You can simply change the **string** property attribute to display different text.
 
 ![shape1\-1.gif (4898 bytes)](images/shape1-1t.gif)
 

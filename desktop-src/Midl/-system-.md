@@ -17,9 +17,9 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# /<system&gt; switch
+# /<system> switch
 
-The **/<system&gt;** switch directs the MIDL compiler to generate a type library for the specified system. The default is the current operating system.
+The **/<system>** switch directs the MIDL compiler to generate a type library for the specified system. The default is the current operating system.
 
 ``` syntax
 midl /{win32 | ia64 | amd64}
@@ -69,7 +69,7 @@ An American Micro Devices-based 64-bit Windows environment such as Windows 2000
 
 ## Remarks
 
-The **/<system&gt;** switch is functionally the same as the MIDL [**/env**](-env.md) option and is recognized by the MIDL compiler solely for backward compatibility with MkTypLib. If you are generating a new makefile, use the **/env** switch.
+The **/<system>** switch is functionally the same as the MIDL [**/env**](-env.md) option and is recognized by the MIDL compiler solely for backward compatibility with MkTypLib. If you are generating a new makefile, use the **/env** switch.
 
 ## Examples
 

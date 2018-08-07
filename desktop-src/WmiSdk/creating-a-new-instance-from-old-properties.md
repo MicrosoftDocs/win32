@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 A join view class contains properties from source class instances that are connected by a common property value, such as **Class1.Prop1** = **Class2.Prop2**. Each instance in a join view class consists of parts of different class instances.
 
-You can base a join view class on inequality of property values, such as **Class1.Prop1** <&gt; **Class2.Prop2** where **Prop1** and **Prop2** are not mapped to the same property in the view class.
+You can base a join view class on inequality of property values, such as **Class1.Prop1** <> **Class2.Prop2** where **Prop1** and **Prop2** are not mapped to the same property in the view class.
 
 A join view class is helpful when the information you are looking for is contained in separate but related classes. For example, if you want information about a printer and about the printer configuration, you can create a join view class that contains some of the properties of the [**Win32\_Printer**](https://msdn.microsoft.com/library/aa394363) class and some of the properties of the [**Win32\_PrinterConfiguration**](https://msdn.microsoft.com/library/aa394364) class. Without the View Provider, you must retrieve and merge the properties of the separate instances to get the information you need.
 

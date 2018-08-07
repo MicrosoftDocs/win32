@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # Compiling the Sample Service Provider Using NMAKE
 
-To compile the sample service provider using NMAKE, open a Visual Studio command window, navigate to <*SDK installation path*&gt;\\WMFSDK95\\WMDM\\mdsp, and enter `nmake` at the prompt.
+To compile the sample service provider using NMAKE, open a Visual Studio command window, navigate to <*SDK installation path*>\\WMFSDK95\\WMDM\\mdsp, and enter `nmake` at the prompt.
 
 ## Related topics
 

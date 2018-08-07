@@ -43,7 +43,7 @@ Below is a list of the different DPI awareness modes that Windows supports:
 
 ### DPI Unaware
 
-DPI unaware applications render as if the screen that they are on has a DPI value of 96. Whenever these applications are run on a screen with a display scale greater than 100% (&gt; 96 DPI), Windows will stretch the application bitmap to the expected physical size, although this results in the application being blurry.
+DPI unaware applications render as if the screen that they are on has a DPI value of 96. Whenever these applications are run on a screen with a display scale greater than 100% (> 96 DPI), Windows will stretch the application bitmap to the expected physical size, although this results in the application being blurry.
 
 ### System DPI Awareness
 

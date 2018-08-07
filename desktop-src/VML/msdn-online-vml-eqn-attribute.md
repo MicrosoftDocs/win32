@@ -26,7 +26,7 @@ Defines the equation used by a formula. Read/write. **String**.
 
 **Tag Syntax**
 
-<v: *element* eqn=" *expression* "&gt;
+<v: *element* eqn=" *expression* ">
 
 **Script Syntax**
 
@@ -45,7 +45,7 @@ Equations are defined by the evaluation of a text expression that has the genera
 
 The table below defines the formulas that can be used withthe optional arguments given the names *v*, *p1*, and *p2*.The formula pattern is:
 
-<f eqn=" *operation* \[*v* \] \[*p1* \] \[*p2* \]"/&gt;
+<f eqn=" *operation* \[*v* \] \[*p1* \] \[*p2* \]"/>
 
 
 
@@ -58,7 +58,7 @@ The table below defines the formulas that can be used withthe optional arguments
 | abs       | 1      | yes    | abs(v)                    | Absolute value.                                                                |
 | min       | 2      | yes    | min(v,p1)                 | The lesser value of v and p1.                                                  |
 | max       | 2      | yes    | max(v,p1)                 | The greater value of v and p1.                                                 |
-| if        | 3      | yes    | v &gt; 0 ? p1 : p2        | Conditional testing.                                                           |
+| if        | 3      | yes    | v > 0 ? p1 : p2        | Conditional testing.                                                           |
 | mod       | 3      | no     | sqrt(v^2 + p1^2 + p2^2)   | Modulus value.                                                                 |
 | atan2     | 2      | no     | atan2(p1,v)               | Polar value in degrees \* 2^16 (fd units).                                     |
 | sin       | 2      | no     | v \* sin(p1)              | Sin, argument in degrees \* 2^16 (fd [units](msdn-online-vml-units.md) ).     |

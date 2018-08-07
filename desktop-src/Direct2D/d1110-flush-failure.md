@@ -89,16 +89,16 @@ The second tag value. See [**SetTags**](https://msdn.microsoft.com/en-us/library
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>        m_pRenderTarget-&gt;FillOpacityMask(
+<td><pre><code>        m_pRenderTarget->FillOpacityMask(
             m_pBitmapMask,
             m_pFernBitmapBrush,
             D2D1_OPACITY_MASK_CONTENT_GRAPHICS,
             &rcBrushRect
             );
 
-        hr = m_pRenderTarget-&gt;Flush();
+        hr = m_pRenderTarget->Flush();
 
-        hr = m_pRenderTarget-&gt;EndDraw();</code></pre></td>
+        hr = m_pRenderTarget->EndDraw();</code></pre></td>
 </tr>
 </tbody>
 </table>

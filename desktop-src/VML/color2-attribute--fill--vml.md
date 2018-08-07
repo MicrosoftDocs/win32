@@ -26,7 +26,7 @@ Defines a second color for fills. Read/write. [VgColor](msdn-online-vml-ivgcolor
 
 **Tag Syntax**
 
-<v: *element* color2=" *expression* "&gt;
+<v: *element* color2=" *expression* ">
 
 **Script Syntax**
 

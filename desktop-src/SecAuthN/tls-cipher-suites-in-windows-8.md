@@ -104,7 +104,7 @@ The following cipher suites are supported by the Microsoft Schannel Provider, bu
 
  
 
-To add cipher suites, use the group policy setting SSL Cipher Suite Order under Computer Configuration &gt; Administrative Templates &gt; Network &gt; SSL Configuration Settings to configure a priority list for all cipher suites you want enabled.
+To add cipher suites, use the group policy setting SSL Cipher Suite Order under Computer Configuration > Administrative Templates > Network > SSL Configuration Settings to configure a priority list for all cipher suites you want enabled.
 
  
 

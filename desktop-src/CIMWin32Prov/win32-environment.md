@@ -40,7 +40,7 @@ The **Win32\_Environment** [WMI class](https://msdn.microsoft.com/library/aa3932
 
 and
 
-**HKEY\_USERS**\\**<*user*&gt;**\\**Environment**
+**HKEY\_USERS**\\**<*user*>**\\**Environment**
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -281,7 +281,7 @@ Access type: Read-only
 Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157), [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (260), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32Registry\|System\\\\CurrentControlSet\\\\Control\\\\Session Manager\\\\Environment")
 </dt> </dl>
 
-Name of the owner of the environment setting. It is set to <SYSTEM&gt; for settings that are specific to the Windows-based system (as opposed to a specific user) and <DEFAULT&gt; for default user settings.
+Name of the owner of the environment setting. It is set to <SYSTEM> for settings that are specific to the Windows-based system (as opposed to a specific user) and <DEFAULT> for default user settings.
 
 Example: "JSmith"
 
@@ -313,7 +313,7 @@ The **Win32\_Environment** class is derived from [**CIM\_SystemResource**](cim-s
 
 and
 
-**HKEY\_USERS**\\**<*user*&gt;**\\**Environment**
+**HKEY\_USERS**\\**<*user*>**\\**Environment**
 
 The calling process that uses this class must have the **SE\_RESTORE\_NAME** privilege on the computer in which the registry resides. For example, if you enumerate this class on the local computer, the account under which your application runs must have this privilege. For more information, see [Executing Privileged Operations](https://msdn.microsoft.com/library/aa390428).
 

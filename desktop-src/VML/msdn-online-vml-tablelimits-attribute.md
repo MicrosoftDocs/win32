@@ -26,7 +26,7 @@ List of minimum height values for each row in a table. Read/write. **VgLengthArr
 
 **Tag Syntax**
 
-<v: *element* o:tablelimits=" *expression* "&gt;
+<v: *element* o:tablelimits=" *expression* ">
 
 **Remarks**
 

@@ -26,7 +26,7 @@ Defines an arrowhead width for the end of a line. Read/write. **VgArrowheadWidth
 
 **Tag Syntax**
 
-<v: *element* endarrowwidth=" *expression* "&gt;
+<v: *element* endarrowwidth=" *expression* ">
 
 **Script Syntax**
 

@@ -27,7 +27,7 @@ There are two methods to set the UI level. The UI level can be set programmatica
 
 The behavior of each of the UI levels is determined by the authoring of the .msi file by the package developer. The author of an internal UI has flexibility in how these levels behave for a package. The availability of these levels depends on the authoring of the installation package. The author must specify every dialog box and control in the user interface in the Dialog and Control tables.
 
--   A full UI typically exhibits [user interface wizard behavior](user-interface-wizard-behavior.md), such as each dialog box in a sequence containing a **Next&gt;&gt;** button. This form of UI is familiar to many users and is the most common type of UI for an author to create. The installer presents a logical sequence of dialog boxes and prompts the user to interact with controls located in each dialog box.
+-   A full UI typically exhibits [user interface wizard behavior](user-interface-wizard-behavior.md), such as each dialog box in a sequence containing a **Next>>** button. This form of UI is familiar to many users and is the most common type of UI for an author to create. The installer presents a logical sequence of dialog boxes and prompts the user to interact with controls located in each dialog box.
 -   A reduced UI typically suppresses the display of wizard behavior.
 -   A basic UI typically only displays progress messages to the user.
 -   A UI level of None means a silent installation.

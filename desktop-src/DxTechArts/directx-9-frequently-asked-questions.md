@@ -416,7 +416,7 @@ Enumeration can be performed through a simple iteration by the application using
 <span id="What_happened_to_Fixed_Function_Bumpmapping_in_D3D9__"></span><span id="what_happened_to_fixed_function_bumpmapping_in_d3d9__"></span><span id="WHAT_HAPPENED_TO_FIXED_FUNCTION_BUMPMAPPING_IN_D3D9__"></span>**What happened to Fixed Function Bumpmapping in D3D9?** 
 </dt> <dd>
 
-As of Direct3D 9 we tightened the validation on cards that could only support &gt; 2 simultaneous textures. Certain older cards only have 3 texture stages available when you use a specific alpha modulate operation. The most common usage that people use the 3 stages for is emboss bumpmapping, and you can still do this with D3D9.
+As of Direct3D 9 we tightened the validation on cards that could only support > 2 simultaneous textures. Certain older cards only have 3 texture stages available when you use a specific alpha modulate operation. The most common usage that people use the 3 stages for is emboss bumpmapping, and you can still do this with D3D9.
 
 The height field has to be stored in the alpha channel and is used to modulate the lights contribution, that is:
 

@@ -49,7 +49,7 @@ WSMan.CreateSession( _
 *connection* \[in, optional\]
 </dt> <dd>
 
-The protocol and service to connect to, including either IPv4 or IPv6. The format of the connection information is as follows: <*Transport*&gt;<*Address*&gt;<*Suffix*&gt;. For examples, see Remarks. If no connection information is provided, the local computer is used.
+The protocol and service to connect to, including either IPv4 or IPv6. The format of the connection information is as follows: <*Transport*><*Address*><*Suffix*>. For examples, see Remarks. If no connection information is provided, the local computer is used.
 
 </dd> <dt>
 
@@ -87,7 +87,7 @@ Set session = _
 
 
 
-The following examples show the different formats used to specify connection information in the *connection* parameter (when creating an HTTPS session, the <*Address*&gt; field must match the server computer certificate name, otherwise a failure occurs):
+The following examples show the different formats used to specify connection information in the *connection* parameter (when creating an HTTPS session, the <*Address*> field must match the server computer certificate name, otherwise a failure occurs):
 
 -   "https://service"
 

@@ -30,7 +30,7 @@ For a DCOM compile, several preprocessor files are typically produced, even thou
 
 In simple cases, such as when the compiled IDL file does not import other files directly or indirectly, or when examining the top-level file, the preprocessor can be invoked directly. Executing C/C++ preprocessor directly can reveal errors masked or confused by MIDL. For example, the following two preprocessor command lines can be used for the previously quoted MIDL line:
 
-**cl /E /nologo -Id:\\nt\\public\\sdk\\inc -DNTENV=1 stub.idl &gt; stub.pp**
+**cl /E /nologo -Id:\\nt\\public\\sdk\\inc -DNTENV=1 stub.idl > stub.pp**
 
 **cl /E /P -Id:\\nt\\public\\sdk\\inc -DNTENV=1 stub.idl**
 

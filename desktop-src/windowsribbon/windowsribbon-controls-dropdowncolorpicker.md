@@ -153,18 +153,18 @@ The basic markup required for each Drop-Down Color Picker type is demonstrated i
 <tbody>
 <tr class="odd">
 <td><pre><code><Group CommandName=&quot;cmdDropDownColorPickerGroup&quot;
-       SizeDefinition=&quot;ThreeButtons&quot;&gt;
+       SizeDefinition=&quot;ThreeButtons&quot;>
   <DropDownColorPicker
     CommandName=&quot;cmdDropDownColorPickerThemeColors&quot;
-    ColorTemplate=&quot;ThemeColors&quot;/&gt;
+    ColorTemplate=&quot;ThemeColors&quot;/>
   <DropDownColorPicker
     CommandName=&quot;cmdDropDownColorPickerStandardColors&quot;
-    ColorTemplate=&quot;StandardColors&quot;/&gt;
+    ColorTemplate=&quot;StandardColors&quot;/>
   <DropDownColorPicker
     CommandName=&quot;cmdDropDownColorPickerHighlightColors&quot;
     ColorTemplate=&quot;HighlightColors&quot;
-    StandardColorGridRows=&quot;1&quot;/&gt;
-</Group&gt;</code></pre></td>
+    StandardColorGridRows=&quot;1&quot;/>
+</Group></code></pre></td>
 </tr>
 </tbody>
 </table>

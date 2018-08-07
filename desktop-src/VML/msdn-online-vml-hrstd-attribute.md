@@ -26,7 +26,7 @@ Determines whether a shape is a?standard horizontal rule. Read/write. **VgTriSta
 
 **Tag Syntax**
 
-<v: *element* o:hrstd=" *expression* "&gt;
+<v: *element* o:hrstd=" *expression* ">
 
 **Remarks**
 

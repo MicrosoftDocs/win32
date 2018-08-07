@@ -25,7 +25,7 @@ The [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/en-us/library/ms741675(v=
 |-------|---------------------------------------------------|
 | 0     | Layered protocol.                                 |
 | 1     | Base protocol (or chain with only one component). |
-| &gt;1 | Protocol chain.                                   |
+| >1 | Protocol chain.                                   |
 
 
 

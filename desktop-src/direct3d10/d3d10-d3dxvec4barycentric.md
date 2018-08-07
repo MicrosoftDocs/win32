@@ -110,10 +110,10 @@ Any point in the plane V1V2V3 can be represented by the Barycentric coordinate (
 
 Note the following relations.
 
--   If (f&gt;=0 &, & g&gt;=0 &, & 1-f-g&gt;=0), the point is inside the triangle V1V2V3.
--   If (f==0 &, & g&gt;=0 &, & 1-f-g&gt;=0), the point is on the line V1V3.
--   If (f&gt;=0 &, & g==0 &, & 1-f-g&gt;=0), the point is on the line V1V2.
--   If (f&gt;=0 &, & g&gt;=0 &, & 1-f-g==0), the point is on the line V2V3.
+-   If (f>=0 &, & g>=0 &, & 1-f-g>=0), the point is inside the triangle V1V2V3.
+-   If (f==0 &, & g>=0 &, & 1-f-g>=0), the point is on the line V1V3.
+-   If (f>=0 &, & g==0 &, & 1-f-g>=0), the point is on the line V1V2.
+-   If (f>=0 &, & g>=0 &, & 1-f-g==0), the point is on the line V2V3.
 
 Barycentric coordinates are a form of general coordinates. In this context, using Barycentric coordinates represents a change in coordinate systems. What holds true for Cartesian coordinates holds true for Barycentric coordinates.
 

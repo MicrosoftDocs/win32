@@ -26,7 +26,7 @@ Determines whether the front face of the extrusion will respond to changes in th
 
 **Tag Syntax**
 
-<o: *element* lightface=" *expression* "&gt;
+<o: *element* lightface=" *expression* ">
 
 **Script Syntax**
 

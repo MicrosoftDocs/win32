@@ -23,7 +23,7 @@ For example, if you perform the following steps to change the "Never notify" set
 4.  Click or tap **OK**.
 5.  Restart your computer.
 6.  Click or tap **Start** and then **Run**. In the **Open** box, type "Cmd.exe". Note that the title of the window doesn't contain the string "Administrator".
-7.  Type "echo &gt; %windir%\\system32\\File.txt".
+7.  Type "echo > %windir%\\system32\\File.txt".
 
 UAC was added in Windows Server 2008 and Windows Vista. A standard user account is synonymous with a user account in Windows XP. User accounts that are members of the local Administrators group will run most applications as a standard user.
 

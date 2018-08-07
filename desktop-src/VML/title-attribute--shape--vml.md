@@ -26,7 +26,7 @@ Defines the text displayed when the mouse pointer moves over the shape. Read/wri
 
 **Tag Syntax**
 
-<v: *element* title=" *expression* "&gt;
+<v: *element* title=" *expression* ">
 
 **Script Syntax**
 

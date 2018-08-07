@@ -28,7 +28,7 @@ Defines how the stroke image aspect ratio will be preserved. Read/write. **Strin
 
 <v:
 
-element *imageaspect="* expression *"&gt;*
+element *imageaspect="* expression *">*
 
 **Script Syntax**
 

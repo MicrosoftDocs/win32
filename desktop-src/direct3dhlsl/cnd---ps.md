@@ -16,7 +16,7 @@ api_location:
 
 # cnd - ps
 
-Conditionally chooses between src1 and src2, based on the comparison src0 &gt; 0.5.
+Conditionally chooses between src1 and src2, based on the comparison src0 > 0.5.
 
 ## Syntax
 

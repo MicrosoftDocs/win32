@@ -18,9 +18,9 @@ Specifies that this profile is active only when the RAT type is the one specifie
 
 ## Element hierarchy
 
-[<MBNProfileExt&gt;](element-mbnprofileext.md)  
-[<ProfileConditionedOn&gt;](element-profileconditionedon.md)  
-**<RATApplicability&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+[<ProfileConditionedOn>](element-profileconditionedon.md)  
+**<RATApplicability>**
 
 ## Syntax
 

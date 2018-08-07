@@ -119,7 +119,7 @@ UINT     D3DX_FLOAT4_to_R8G8B8A8_UNORM_SRGB(hlsl_precise XMFLOAT4 unpackedInput)
 
 
 > [!Note]  
-> The \_inexact-type function uses shader instructions that do not have high enough precision to give the exact answer. The alternative function uses a lookup table stored in the shader to give an exact SRGB-&gt;float conversion.
+> The \_inexact-type function uses shader instructions that do not have high enough precision to give the exact answer. The alternative function uses a lookup table stored in the shader to give an exact SRGB->float conversion.
 
  
 
@@ -190,7 +190,7 @@ UINT     D3DX_FLOAT4_to_R8G8B8A8_UNORM_SRGB(hlsl_precise XMFLOAT4 unpackedInput)
 
 
 > [!Note]  
-> The \_inexact-type function uses shader instructions that do not have high enough precision to give the exact answer. The alternative function uses a lookup table stored in the shader to give an exact SRGB-&gt;float conversion.
+> The \_inexact-type function uses shader instructions that do not have high enough precision to give the exact answer. The alternative function uses a lookup table stored in the shader to give an exact SRGB->float conversion.
 
  
 
@@ -222,7 +222,7 @@ UINT     D3DX_FLOAT3_to_B8G8R8X8_UNORM_SRGB(hlsl_precise XMFLOAT3 unpackedInput)
 
 
 > [!Note]  
-> The \_inexact-type function uses shader instructions that do not have high enough precision to give the exact answer. The alternative function uses a lookup table stored in the shader to give an exact SRGB-&gt;float conversion.
+> The \_inexact-type function uses shader instructions that do not have high enough precision to give the exact answer. The alternative function uses a lookup table stored in the shader to give an exact SRGB->float conversion.
 
  
 

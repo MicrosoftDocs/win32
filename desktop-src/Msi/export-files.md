@@ -22,7 +22,7 @@ The sample demonstrates the use of:
 -   [**Fetch method**](view-fetch.md) of the [**View object**](view-object.md)
 -   [**StringData property**](record-stringdata.md) of the [**Record object**](record-object.md)
 
-You'll require the CScript.exe or WScript.exe version of Windows Script Host to use this sample. To use CScript.exe to run this sample, type a command line at the command prompt using the following syntax. Help is displayed if the first argument is /? or if too few arguments are specified. To redirect the output to a file, end the command line with VBS &gt; \[*path to file*\]. The sample returns a value of 0 for success, 1 if help is invoked, and 2 if the script fails.
+You'll require the CScript.exe or WScript.exe version of Windows Script Host to use this sample. To use CScript.exe to run this sample, type a command line at the command prompt using the following syntax. Help is displayed if the first argument is /? or if too few arguments are specified. To redirect the output to a file, end the command line with VBS > \[*path to file*\]. The sample returns a value of 0 for success, 1 if help is invoked, and 2 if the script fails.
 
 **cscript WiExport.vbs \[path to database\]\[path to folder\]\[options\]\[table name list\]**
 

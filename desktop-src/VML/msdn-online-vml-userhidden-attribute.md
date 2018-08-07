@@ -26,7 +26,7 @@ Determines whether a script anchor is hidden. Read/write. **VgTriState**.
 
 **Tag Syntax**
 
-<v: *element* o:userhidden=" *expression* "&gt;
+<v: *element* o:userhidden=" *expression* ">
 
 **Remarks**
 

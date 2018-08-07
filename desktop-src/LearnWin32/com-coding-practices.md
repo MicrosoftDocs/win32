@@ -260,7 +260,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int nCmdShow
 
 The main difference between this code and the original example is that this version does not explicitly call [**Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317). When the **CComPtr** instance goes out of scope, the destructor calls **Release** on the underlying pointer.
 
-**CComPtr** is a class template. The template argument is the COM interface type. Internally, **CComPtr** holds a pointer of that type. **CComPtr** overrides **operator-&gt;()** and **operator&()** so that the class acts like the underlying pointer. For example, the following code is equivalent to calling the **IFileOpenDialog::Show** method directly:
+**CComPtr** is a class template. The template argument is the COM interface type. Internally, **CComPtr** holds a pointer of that type. **CComPtr** overrides **operator->()** and **operator&()** so that the class acts like the underlying pointer. For example, the following code is equivalent to calling the **IFileOpenDialog::Show** method directly:
 
 
 ```C++

@@ -56,7 +56,7 @@ For more information, see:
 6.  Perform the search with [**IDirectorySearch::ExecuteSearch**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-executesearch).
 7.  Get the first row of results by calling [**IDirectorySearch::GetFirstRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getfirstrow).
 8.  Call [**IDirectorySearch::GetColumn**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getcolumn) with **ADS\_VLV\_RESPONSE** to obtain the VLV search metadata.
-9.  Cast the **pADsValues-&gt;ProviderSpecific.lpValue** of the [**ADS\_SEARCH\_COLUMN**](/windows/desktop/api/Iads/ns-iads-ads_search_column) structure to an [**ADS\_VLV**](/windows/desktop/api/Iads/ns-iads-_ads_vlv) structure pointer. The **dwContentCount** member of this **ADS\_VLV** structure contains the approximate number of items that would be returned by a search of that type.
+9.  Cast the **pADsValues->ProviderSpecific.lpValue** of the [**ADS\_SEARCH\_COLUMN**](/windows/desktop/api/Iads/ns-iads-ads_search_column) structure to an [**ADS\_VLV**](/windows/desktop/api/Iads/ns-iads-_ads_vlv) structure pointer. The **dwContentCount** member of this **ADS\_VLV** structure contains the approximate number of items that would be returned by a search of that type.
 10. If other VLV searches of the same type will be performed, make a copy of the **lpContextID** data and preserve it for the next VLV search.
 
 The [**GetVLVItemCount**](example-code-for-using-a-vlv-search.md) example function shows how to do this.
@@ -84,7 +84,7 @@ Offsets are specified as a ratio between the offset and the content count. Ratio
 > 4.  Get the first row of results by calling [**IDirectorySearch::GetFirstRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getfirstrow).
 > 5.  Call [**IDirectorySearch::GetColumn**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getcolumn) with the name of the attribute to retrieve to get the actual data for the requested item.
 > 6.  Call [**IDirectorySearch::GetColumn**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getcolumn) with **ADS\_VLV\_RESPONSE** to obtain the VLV search metadata.
-> 7.  Cast the **pADsValues-&gt;ProviderSpecific.lpValue** of the [**ADS\_SEARCH\_COLUMN**](/windows/desktop/api/Iads/ns-iads-ads_search_column) structure to an [**ADS\_VLV**](/windows/desktop/api/Iads/ns-iads-_ads_vlv) structure pointer.
+> 7.  Cast the **pADsValues->ProviderSpecific.lpValue** of the [**ADS\_SEARCH\_COLUMN**](/windows/desktop/api/Iads/ns-iads-ads_search_column) structure to an [**ADS\_VLV**](/windows/desktop/api/Iads/ns-iads-_ads_vlv) structure pointer.
 > 8.  Make a copy of the **lpContextID** data and preserve it for the next VLV search.
 
  
@@ -109,7 +109,7 @@ It is also possible to use a VLV search to find items that have a string attribu
 4.  Get the first row of results by calling [**IDirectorySearch::GetFirstRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getfirstrow).
 5.  Call [**IDirectorySearch::GetColumn**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getcolumn) with the name of the attribute to retrieve to get the actual data for the requested item.
 6.  Call [**IDirectorySearch::GetColumn**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getcolumn) with **ADS\_VLV\_RESPONSE** to obtain the VLV search metadata.
-7.  Cast the **pADsValues-&gt;ProviderSpecific.lpValue** of the [**ADS\_SEARCH\_COLUMN**](/windows/desktop/api/Iads/ns-iads-ads_search_column) structure to an [**ADS\_VLV**](/windows/desktop/api/Iads/ns-iads-_ads_vlv) structure pointer.
+7.  Cast the **pADsValues->ProviderSpecific.lpValue** of the [**ADS\_SEARCH\_COLUMN**](/windows/desktop/api/Iads/ns-iads-ads_search_column) structure to an [**ADS\_VLV**](/windows/desktop/api/Iads/ns-iads-_ads_vlv) structure pointer.
 8.  Make a copy of the **lpContextID** data and preserve it for the next VLV search. If required, the **dwOffset** member contains the one-based index of the first item whose string attribute begins with the value specified in **pszTarget**.
 
 The [**GetVLVItemsByString**](example-code-for-using-a-vlv-search.md) example function shows how to do this.

@@ -25,7 +25,7 @@ Short and long file names must not contain the following characters:
 -   slash (/) or (\\)
 -   question mark (?)
 -   vertical bar (\|)
--   right angle bracket (&gt;)
+-   right angle bracket (>)
 -   left angle bracket (<)
 -   colon (:)
 -   asterisk (\*)

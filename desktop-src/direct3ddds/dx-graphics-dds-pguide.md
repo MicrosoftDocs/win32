@@ -78,7 +78,7 @@ The D3DX library (for example, D3DX11.lib) and other similar libraries unreliabl
 
 -   For R8G8\_B8G8, G8R8\_G8B8, legacy UYVY-packed, and legacy YUY2-packed formats, compute the pitch as:
 
-    ((width+1) &gt;&gt; 1) \* 4
+    ((width+1) >> 1) \* 4
 
 -   For other formats, compute the pitch as:
 

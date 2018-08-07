@@ -27,7 +27,7 @@ The sample demonstrates the use of:
 -   [**StringData property**](record-stringdata.md) of the [**Record object**](record-object.md)
 -   [\_TransformView table](-transformview-table.md)
 
-Using this sample requires the CScript.exe version of Windows Script Host. To use CScript.exe to run this sample, type a command at the command prompt using the following syntax. Help is displayed if the first argument is /? or if too few arguments are specified. To redirect the output to a file, end the command line with VBS &gt; \[*path to file*\]. The sample returns a value of 0 for success, 1 if help is invoked, and 2 if the script fails.
+Using this sample requires the CScript.exe version of Windows Script Host. To use CScript.exe to run this sample, type a command at the command prompt using the following syntax. Help is displayed if the first argument is /? or if too few arguments are specified. To redirect the output to a file, end the command line with VBS > \[*path to file*\]. The sample returns a value of 0 for success, 1 if help is invoked, and 2 if the script fails.
 
 **cscript WiDiffDb.vbs** *\[path to original database\]\[path to revised database\]*
 

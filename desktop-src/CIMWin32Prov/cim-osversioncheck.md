@@ -179,8 +179,8 @@ Maximum version of the required operating system.
 
 The value is encoded in one of the following forms:
 
--   <major&gt;.<minor&gt;.<revision&gt;
--   <major&gt;.<minor&gt;<letter&gt;<revision&gt;
+-   <major>.<minor>.<revision>
+-   <major>.<minor><letter><revision>
 
 </dd> <dt>
 
@@ -200,8 +200,8 @@ Minimum version of the required operating system.
 
 The value is encoded in one of the following forms:
 
--   <major&gt;.<minor&gt;.<revision&gt;
--   <major&gt;.<minor&gt;<letter&gt;<revision&gt;
+-   <major>.<minor>.<revision>
+-   <major>.<minor><letter><revision>
 
 </dd> <dt>
 
@@ -847,8 +847,8 @@ Version of the operation.
 
 The version of the operation should be in one of the following forms:
 
--   <major&gt;.<minor&gt;.<revision&gt;
--   <major&gt;.<minor&gt;<letter&gt;<revision&gt;
+-   <major>.<minor>.<revision>
+-   <major>.<minor><letter><revision>
 
 This property is inherited from [**CIM\_Check**](cim-check.md).
 

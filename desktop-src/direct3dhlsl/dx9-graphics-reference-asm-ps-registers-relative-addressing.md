@@ -22,7 +22,7 @@ Where:
 
 -   "R" denotes any register type that can be relatively addressed.
 -   "A" denotes any register that can be used as an index to relatively address other registers.
--   n0 - ni, m0 - mj, and k are integers &gt;= 0.
+-   n0 - ni, m0 - mj, and k are integers >= 0.
 
 
 

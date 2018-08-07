@@ -133,7 +133,7 @@ The class of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.
                    {EEC97550-47A9-11CF-B952-00AA0051FE20}
     ```
 
-4.  Determine the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) persistent handler GUID. Using `Value1` and `Value3`, find the **IFilter** Persistent Handler GUID for the document type. The value under the registry entry \\HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\CLSID\\Value1 or 3\\PersistentAddinsRegistered\\ 89BCB740-6119-101A-BCB7-00DD010655AF"/&gt; yields the **IFilter** PersistentHandler GUID for this document type. Let this key be `Value4`. In this example, the **IFilter** interface GUID is 89BCB740-6119-101A-BCB7-00DD010655AF.
+4.  Determine the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) persistent handler GUID. Using `Value1` and `Value3`, find the **IFilter** Persistent Handler GUID for the document type. The value under the registry entry \\HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\CLSID\\Value1 or 3\\PersistentAddinsRegistered\\ 89BCB740-6119-101A-BCB7-00DD010655AF"/> yields the **IFilter** PersistentHandler GUID for this document type. Let this key be `Value4`. In this example, the **IFilter** interface GUID is 89BCB740-6119-101A-BCB7-00DD010655AF.
 
     ```
     HKEY_LOCAL_MACHINE

@@ -39,7 +39,7 @@ propVal = ActCtx.Manifest
 
 If an activation context can be created with the manifest file provided, the following script sets the Manifest property and activates the activation constant specified by the manifest. If an activation context cannot be created from the manifest, the activation context remains set to the currently active activation context.
 
-ActCtxObj.Manifest = "<*manifest file name*&gt;";
+ActCtxObj.Manifest = "<*manifest file name*>";
 
 If an activation context has previously been created or activated, the following script sets the **Manifest** property to the current activation context. If an activation context has not previously been created or activated, this sets the **Manifest** property to an empty string.
 

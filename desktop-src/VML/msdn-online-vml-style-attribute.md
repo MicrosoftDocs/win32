@@ -26,7 +26,7 @@ Defines the style of the frame. Read/write. **String**.
 
 **Tag Syntax**
 
-<v: *element* style=" *expression* "&gt;
+<v: *element* style=" *expression* ">
 
 **Script Syntax**
 

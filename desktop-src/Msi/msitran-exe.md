@@ -73,8 +73,8 @@ The following validation conditions may be used to indicate when a transform may
 | v      | Applied database version < Base database version.  |
 | w      | Applied database version <= Base database version. |
 | x      | Applied database version = Base database version.     |
-| y      | Applied database version &gt;= Base database version. |
-| z      | Applied database version &gt; Base database version.  |
+| y      | Applied database version >= Base database version. |
+| z      | Applied database version > Base database version.  |
 
 
 

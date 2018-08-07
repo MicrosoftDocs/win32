@@ -18,8 +18,8 @@ Specifies that this profile is a long-standing additional PDP context profile.If
 
 ## Element hierarchy
 
-[<MBNProfileExt&gt;](element-mbnprofileext.md)  
-**<IsLongStandingAdditionalPdpContextProfile&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+**<IsLongStandingAdditionalPdpContextProfile>**
 
 ## Syntax
 

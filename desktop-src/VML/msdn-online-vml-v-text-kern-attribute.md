@@ -26,7 +26,7 @@ Determines whether kerning is turned on. Read/write. **VgTriState**.
 
 **Tag Syntax**
 
-<v: *element* style="v-text-kern: *expression* "&gt;
+<v: *element* style="v-text-kern: *expression* ">
 
 **Script Syntax**
 

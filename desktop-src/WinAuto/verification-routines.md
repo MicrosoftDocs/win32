@@ -158,7 +158,7 @@ This section describes the verification routines that UI Accessibility Checker c
 </tr>
 <tr class="even">
 <td><strong>CheckGridStructure</strong></td>
-<td>Confirms a non-table element with grid role has a structure of grid&gt;row&gt;gridcell with associated attributes.</td>
+<td>Confirms a non-table element with grid role has a structure of grid>row>gridcell with associated attributes.</td>
 
 </tr>
 <tr class="odd">

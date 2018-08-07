@@ -26,7 +26,7 @@ Determines the mode of extrusion color. Read/write. **VgTriState**.
 
 **Tag Syntax**
 
-<o: *element* colormode=" *expression* "&gt;
+<o: *element* colormode=" *expression* ">
 
 **Script Syntax**
 

@@ -26,7 +26,7 @@ Top border color of an inline shape. Read/write. **VgColor**.
 
 **Tag Syntax**
 
-<v: *element* o:bordertopcolor=" *expression* "&gt;
+<v: *element* o:bordertopcolor=" *expression* ">
 
 **Remarks**
 

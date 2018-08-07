@@ -28,7 +28,7 @@ Determines the alignment of the stroke image. Read/write. **VgTriState**.
 
 <v:
 
-element *imagealignshape="* expression *"&gt;*
+element *imagealignshape="* expression *">*
 
 **Script Syntax**
 

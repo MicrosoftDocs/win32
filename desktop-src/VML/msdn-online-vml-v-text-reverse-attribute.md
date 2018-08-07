@@ -26,7 +26,7 @@ Determines whether the layout order of rows is reversed. Read/write. **VgTriStat
 
 **Tag Syntax**
 
-<v: *element* style="v-text-reverse: *expression* "&gt;
+<v: *element* style="v-text-reverse: *expression* ">
 
 **Script Syntax**
 

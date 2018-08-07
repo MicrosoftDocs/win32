@@ -32,7 +32,7 @@ template <template-name> {
 
 
 
-The template name is an alphanumeric name that can include the underscore character (\_). It must not begin with a digit. The UUID is a universally unique identifier formatted to the Open Software Foundation's Distributed Computing Environment standard and enclosed by angle brackets (< &gt;). For example: <3D82AB43-62DA-11cf-AB39-0020AF71E433&gt;.
+The template name is an alphanumeric name that can include the underscore character (\_). It must not begin with a digit. The UUID is a universally unique identifier formatted to the Open Software Foundation's Distributed Computing Environment standard and enclosed by angle brackets (< >). For example: <3D82AB43-62DA-11cf-AB39-0020AF71E433>.
 
 ## Template Members
 
@@ -68,7 +68,7 @@ array <data-type> <name>[<dimension-size>];
 
 
 
-<dimension-size&gt; can either be an integer or a named reference to another template member whose value is then substituted. Arrays can be n-dimensional, where n is determined by the number of paired square brackets trailing the statement, as in the following example.
+<dimension-size> can either be an integer or a named reference to another template member whose value is then substituted. Arrays can be n-dimensional, where n is determined by the number of paired square brackets trailing the statement, as in the following example.
 
 
 ```

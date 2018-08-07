@@ -143,7 +143,7 @@ The following flags are passed in the *dwControlFlags* parameter of [**WSALookup
 
  
 
-On input, **lpBlob**-&gt;**pBlobData** points to a [**BTH\_QUERY\_SERVICE**](/windows/desktop/api/Ws2bth/ns-ws2bth-_bth_query_service) structure that contains the values listed in the following table.
+On input, **lpBlob**->**pBlobData** points to a [**BTH\_QUERY\_SERVICE**](/windows/desktop/api/Ws2bth/ns-ws2bth-_bth_query_service) structure that contains the values listed in the following table.
 
 > [!Note]  
 > The initial search request must be able to fit into one L2CAP packet. The response, however, may be broken into many L2CAP packets.
@@ -164,11 +164,11 @@ On input, **lpBlob**-&gt;**pBlobData** points to a [**BTH\_QUERY\_SERVICE**](/wi
 
  
 
-After each successful call to the [**WSALookupServiceNext**](https://msdn.microsoft.com/library/windows/desktop/ms741641) function, **lpBlob**-&gt;**pBlobData** points to a block of data that contains the values listed in the following table.
+After each successful call to the [**WSALookupServiceNext**](https://msdn.microsoft.com/library/windows/desktop/ms741641) function, **lpBlob**->**pBlobData** points to a block of data that contains the values listed in the following table.
 
 | Value                                                                                | Description                                                                                                                                                                                                                                                                                                                                          |
 |--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **SDP\_SERVICE\_SEARCH\_REQUEST**                                                    | An array of SDP record handles that is identical to the **ServiceRecordHandleList** defined by Bluetooth 1.1 SDP 4.5.2. The number of SDP handles that is returned is calculated by (**lpBlob**-&gt;cbSize)/**sizeof**(ULONG). All results are returned in a single call to the [**WSALookupServiceNext**](https://msdn.microsoft.com/library/windows/desktop/ms741641) function. |
+| **SDP\_SERVICE\_SEARCH\_REQUEST**                                                    | An array of SDP record handles that is identical to the **ServiceRecordHandleList** defined by Bluetooth 1.1 SDP 4.5.2. The number of SDP handles that is returned is calculated by (**lpBlob**->cbSize)/**sizeof**(ULONG). All results are returned in a single call to the [**WSALookupServiceNext**](https://msdn.microsoft.com/library/windows/desktop/ms741641) function. |
 | **SDP\_SERVICE\_ATTRIBUTE\_REQUEST** or **SDP\_SERVICE\_SEARCH\_ATTRIBUTE\_REQUEST** | A binary Bluetooth SDP record. For **SDP\_SERVICE\_ATTRIBUTE\_REQUEST**, all results are returned in a single call to the [**WSALookupServiceNext**](https://msdn.microsoft.com/library/windows/desktop/ms741641) function.                                                                                                                                                       |
 
 

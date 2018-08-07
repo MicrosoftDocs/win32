@@ -26,7 +26,7 @@ Component-wise double-precision maximum.
 
 | Item                                                            | Description                                                                                                                                                                                                   |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="dest"></span><span id="DEST"></span>*dest*<br/> | \[in\] The address of the results of the operation.<br/> *dest* = *src0* &gt;= *src1* ? *src0* : *src1*<br/> &gt;= is used instead of &gt; so that if min(x,y) = x then max(x,y) = y. <br/> |
+| <span id="dest"></span><span id="DEST"></span>*dest*<br/> | \[in\] The address of the results of the operation.<br/> *dest* = *src0* >= *src1* ? *src0* : *src1*<br/> >= is used instead of > so that if min(x,y) = x then max(x,y) = y. <br/> |
 | <span id="src0"></span><span id="SRC0"></span>*src0*<br/> | \[in\] The value to compare with *src1*.<br/>                                                                                                                                                           |
 | <span id="src1"></span><span id="SRC1"></span>*src1*<br/> | \[in\] The value to compare with *src0*.<br/>                                                                                                                                                           |
 

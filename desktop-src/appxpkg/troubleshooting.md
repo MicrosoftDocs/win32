@@ -22,9 +22,9 @@ If the error code doesn't provide enough info, you can get detailed event logs t
 **To access the packaging and deployment event logs**
 
 1.  Run **eventvwr.msc**.
-2.  Go to **Event Viewer (Local)** &gt; **Applications and Services Logs** &gt; **Microsoft** &gt; **Windows**.
-3.  The first log to check is **AppxPackagingOM** &gt; **Microsoft-Windows-AppxPackaging/Operational**.
-4.  Deployment-related errors are recorded in **AppXDeployment-Server** &gt; **Microsoft-Windows-AppXDeploymentServer/Operational**.
+2.  Go to **Event Viewer (Local)** > **Applications and Services Logs** > **Microsoft** > **Windows**.
+3.  The first log to check is **AppxPackagingOM** > **Microsoft-Windows-AppxPackaging/Operational**.
+4.  Deployment-related errors are recorded in **AppXDeployment-Server** > **Microsoft-Windows-AppXDeploymentServer/Operational**.
 
 You can also use the following command in PowerShell to get the first few logged events:
 

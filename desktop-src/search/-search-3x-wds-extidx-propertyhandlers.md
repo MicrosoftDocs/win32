@@ -111,7 +111,7 @@ For each of these properties, you need to determine what attributes it should ha
 </tr>
 <tr class="even">
 <td>columnIndexType</td>
-<td>Optional. To optimize querying, the Windows Search engine can create secondary indices for properties that have isColumn=<strong>TRUE</strong>. This requires more processing and disk space during indexing, but improves performance during querying. If the property tends to be sorted, grouped, or filtered (that is, using =, !=, <, &gt;, LIKE, MATCHES) frequently by users, this attribute should be set to &quot;OnDisk&quot;. The default is &quot;NotIndexed&quot;. The following values are valid:
+<td>Optional. To optimize querying, the Windows Search engine can create secondary indices for properties that have isColumn=<strong>TRUE</strong>. This requires more processing and disk space during indexing, but improves performance during querying. If the property tends to be sorted, grouped, or filtered (that is, using =, !=, <, >, LIKE, MATCHES) frequently by users, this attribute should be set to &quot;OnDisk&quot;. The default is &quot;NotIndexed&quot;. The following values are valid:
 <ul>
 <li>NotIndexed: No secondary index is created.</li>
 <li>OnDisk: Create and store a secondary index on disk.</li>
@@ -119,7 +119,7 @@ For each of these properties, you need to determine what attributes it should ha
 </tr>
 <tr class="odd">
 <td>maxSize</td>
-<td>Optional. Indicates the maximum size allowed for the property value stored in the Windows search database. This limit applies to the indvidual elements of a vector, not the vector as a whole. Values beyond this size are truncated. The default is &quot;128&quot; (bytes).<br/> Currently, Windows Search does not use the maxSize when calculating the amount of data it accepts from a file. Instead, the limit Windows Search uses is the product of the size of the file and the MaxGrowFactor (file size N * MaxGrowFactor) read from the registry at HKEY_LOCAL_MACHINE-&gt;Software-&gt;Microsoft-&gt;Windows Search-&gt;Gathering Manager-&gt;MaxGrowFactor. The default MaxGrowFactor is four (4). Consequently, if your file type tends to be small in total size but have larger properties, Windows Search may not accept all the property data you want to emit. However, you can increase the MaxGrowFactor to suit your needs. <br/></td>
+<td>Optional. Indicates the maximum size allowed for the property value stored in the Windows search database. This limit applies to the indvidual elements of a vector, not the vector as a whole. Values beyond this size are truncated. The default is &quot;128&quot; (bytes).<br/> Currently, Windows Search does not use the maxSize when calculating the amount of data it accepts from a file. Instead, the limit Windows Search uses is the product of the size of the file and the MaxGrowFactor (file size N * MaxGrowFactor) read from the registry at HKEY_LOCAL_MACHINE->Software->Microsoft->Windows Search->Gathering Manager->MaxGrowFactor. The default MaxGrowFactor is four (4). Consequently, if your file type tends to be small in total size but have larger properties, Windows Search may not accept all the property data you want to emit. However, you can increase the MaxGrowFactor to suit your needs. <br/></td>
 </tr>
 </tbody>
 </table>

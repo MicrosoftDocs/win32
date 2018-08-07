@@ -26,7 +26,7 @@ Stores the OLE ID of an image. Read/write. **VgNumber**.
 
 *Tag Syntax*
 
-<v: **element** o:oleid=" **expression** "&gt;
+<v: **element** o:oleid=" **expression** ">
 
 *Remarks*
 

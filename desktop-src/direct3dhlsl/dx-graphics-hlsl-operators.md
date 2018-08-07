@@ -27,11 +27,11 @@ Expressions are sequences of [variables](dx-graphics-hlsl-variable-syntax.md) an
 | [Array Operator](#array-operator)                                               | \[i\]                                                              |
 | [Assignment Operators](#assignment-operators)                                   | =, +=, -=, \*=, /=, %=                                             |
 | [Binary Casts](#binary-casts)                                                   | C rules for float and int, C rules or HLSL intrinsics for bool     |
-| [Bitwise Operators](#bitwise-operators)                                         | ~, <<, &gt;&gt;, &, \|, ^, <<=, &gt;&gt;=, &=, \|=, ^= |
+| [Bitwise Operators](#bitwise-operators)                                         | ~, <<, >>, &, \|, ^, <<=, >>=, &=, \|=, ^= |
 | [Boolean Math Operators](#boolean-math-operators)                               | & &, \|\|, ?:                                                      |
 | [Cast Operator](#cast-operator)                                                 | (type)                                                             |
 | [Comma Operator](#comma-operator)                                               | ,                                                                  |
-| [Comparison Operators](#comparison-operators)                                   | <, &gt;, ==, !=, <=, &gt;=                                   |
+| [Comparison Operators](#comparison-operators)                                   | <, >, ==, !=, <=, >=                                   |
 | [Prefix or Postfix Operators](#prefix-or-postfix-operators)                     | ++, --                                                             |
 | [Structure Operator](#structure-operator)                                       | .                                                                  |
 | [Unary Operators](#unary-operators)                                             | !, -, +                                                            |
@@ -266,12 +266,12 @@ HLSL supports the following bitwise operators, which follow the same precedence 
 | Operator  | Function          |
 | ~         | Logical Not       |
 | <<  | Left Shift        |
-| &gt;&gt;  | Right Shift       |
+| >>  | Right Shift       |
 | &         | Logical And       |
 | \|        | Logical Or        |
 | ^         | Logical Xor       |
 | <<= | Left Shift Equal  |
-| &gt;&gt;= | Right Shift Equal |
+| >>= | Right Shift Equal |
 | &=        | And Equal         |
 | \|=       | Or Equal          |
 | ^=        | Xor Equal         |
@@ -357,7 +357,7 @@ In this instance, leaving off the float4 type from the right side is probably a 
 
 ## Comparison Operators
 
-The comparison operators are: <, &gt;, ==, !=, <=, &gt;=.
+The comparison operators are: <, >, ==, !=, <=, >=.
 
 Compare values that are greater than (or less than) any scalar value:
 

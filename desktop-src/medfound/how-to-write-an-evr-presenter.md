@@ -1641,7 +1641,7 @@ DeliverFrameStepSample Procedure
 1.  If the clock rate is zero and *sample time* + *sample duration* < *clock time*, discard the sample. Exit.
 2.  If *step\_state* equals SCHEDULED or COMPLETE, add the sample to *step\_queue*. Exit.
 3.  Decrement *step\_count*.
-4.  If *step\_count* &gt; 0, discard the sample. Exit.
+4.  If *step\_count* > 0, discard the sample. Exit.
 5.  If *step\_state* equals WAITING, add the sample to *step\_queue*. Exit.
 6.  Schedule the sample for presentation.
 7.  Set *step\_state* to SCHEDULED.

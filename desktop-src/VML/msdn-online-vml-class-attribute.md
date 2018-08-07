@@ -26,7 +26,7 @@ Refers to a definition of a CSS style. Read/write. **String**.
 
 **Tag Syntax**
 
-<v: *element* class=" *expression* "&gt;
+<v: *element* class=" *expression* ">
 
 **Script Syntax**
 

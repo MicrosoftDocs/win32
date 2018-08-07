@@ -114,7 +114,7 @@ Dim mcount As Integer = player.currentMedia.markerCount
 Dim markerNames(mcount) As String
 
 &#39; Verify that at least one marker exists in the current media item.
-If (mcount &gt; 0) Then
+If (mcount > 0) Then
 
     &#39; Loop through the marker list.
     For i As Integer = 1 To mcount

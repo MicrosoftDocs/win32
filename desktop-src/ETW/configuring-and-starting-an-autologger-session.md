@@ -114,12 +114,12 @@ For a description of each clock type, see the <strong>ClientContext</strong> mem
 <tr class="odd">
 <td><strong>FileName</strong></td>
 <td><strong>REG_SZ</strong></td>
-<td>The fully qualified path of the log file. The path to this file must exist. The log file is a sequential log file. The path is limited to 1024 characters.<br/> If <strong>FileName</strong> is not specified, events are written to %SystemRoot%\System32\LogFiles\WMI\<sessionname&gt;.etl. <br/></td>
+<td>The fully qualified path of the log file. The path to this file must exist. The log file is a sequential log file. The path is limited to 1024 characters.<br/> If <strong>FileName</strong> is not specified, events are written to %SystemRoot%\System32\LogFiles\WMI\<sessionname>.etl. <br/></td>
 </tr>
 <tr class="even">
 <td><strong>FileMax</strong></td>
 <td><strong>REG_DWORD</strong></td>
-<td>The maximum number of instances of the log file that ETW creates. If the log file specified in <strong>FileName</strong> exists, ETW appends the <strong>FileCounter</strong> value to the file name. For example, if the default log file name is used, the form is %SystemRoot%\System32\LogFiles\WMI\<sessionname&gt;.etl.NNNN. <br/> The first time the computer is started, the file name is <sessionname&gt;.etl.0001, the second time the file name is <sessionname&gt;.etl.0002, and so on. If <strong>FileMax</strong> is 3, on the fourth restart of the computer, ETW resets the counter to 1 and overwrites <sessionname&gt;.etl.0001, if it exists.<br/> The maximum number of instances of the log file that are supported is 16.<br/> Do not use this feature with the [EVENT_TRACE_FILE_MODE_NEWFILE](logging-mode-constants.md) log file mode.<br/></td>
+<td>The maximum number of instances of the log file that ETW creates. If the log file specified in <strong>FileName</strong> exists, ETW appends the <strong>FileCounter</strong> value to the file name. For example, if the default log file name is used, the form is %SystemRoot%\System32\LogFiles\WMI\<sessionname>.etl.NNNN. <br/> The first time the computer is started, the file name is <sessionname>.etl.0001, the second time the file name is <sessionname>.etl.0002, and so on. If <strong>FileMax</strong> is 3, on the fourth restart of the computer, ETW resets the counter to 1 and overwrites <sessionname>.etl.0001, if it exists.<br/> The maximum number of instances of the log file that are supported is 16.<br/> Do not use this feature with the [EVENT_TRACE_FILE_MODE_NEWFILE](logging-mode-constants.md) log file mode.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>FlushTimer</strong></td>
