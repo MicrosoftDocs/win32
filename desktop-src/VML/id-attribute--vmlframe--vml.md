@@ -26,7 +26,7 @@ Defines a unique identifier for the frame. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* ID=" *expression* "&gt;
+<v: *element* ID=" *expression* ">
 
 **Script Syntax**
 

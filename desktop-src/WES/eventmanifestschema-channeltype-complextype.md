@@ -195,7 +195,7 @@ The default isolation is <strong>Application</strong>. The default permissions f
 <td>name</td>
 <td>anyURI</td>
 <td><p>The name of the channel. The name must be unique within the list of channels that the provider uses. The convention for naming channels is to append the channel type to the provider's name. For example. if the provider's name is Company-Product-Component and you are defining an operational channel, the name would be Company-Product-Component/Operational.</p>
-<p>Channel names must be less that 255 characters and cannot contain the following characters: '&gt;', '&lt;', '&', '&quot;', '|', '\', ':', '`', '?', '*', or characters with codes less than 31.</p></td>
+<p>Channel names must be less that 255 characters and cannot contain the following characters: '>', '<', '&', '&quot;', '|', '\', ':', '`', '?', '*', or characters with codes less than 31.</p></td>
 </tr>
 <tr class="odd">
 <td>symbol</td>

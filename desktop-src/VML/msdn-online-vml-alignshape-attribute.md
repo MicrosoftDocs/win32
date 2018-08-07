@@ -26,7 +26,7 @@ Determines whether an image will align with a shape. Read/write. **VgTriState**.
 
 **Tag Syntax**
 
-&lt;v: *element* alignshape=" *expression* "&gt;
+<v: *element* alignshape=" *expression* ">
 
 **Script Syntax**
 

@@ -26,7 +26,7 @@ Defines the amount of backward extrusion. Read/write. **VgNumber**.
 
 **Tag Syntax**
 
-&lt;o: *element* backdepth=" *expression* "&gt;
+<o: *element* backdepth=" *expression* ">
 
 **Script Syntax**
 

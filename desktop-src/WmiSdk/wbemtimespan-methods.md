@@ -33,10 +33,10 @@ The [**WBEMTimeSpan**](/windows/desktop/api/WbemTime/nl-wbemtime-wbemtimespan) c
 -   [**operator-= method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-operator-=)
 -   [**operator == method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-operator==)
 -   [**operator != method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-operator!=)
--   [**operator &gt; method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-operator_)
--   [**operator &gt;= method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-operator_=)
--   [**operator &lt; method**](https://msdn.microsoft.com/en-us/library/Aa393994(v=VS.85).aspx)
--   [**operator &lt;= method**](https://msdn.microsoft.com/en-us/library/Aa393995(v=VS.85).aspx)
+-   [**operator > method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-operator_)
+-   [**operator >= method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-operator_=)
+-   [**operator < method**](https://msdn.microsoft.com/en-us/library/Aa393994(v=VS.85).aspx)
+-   [**operator <= method**](https://msdn.microsoft.com/en-us/library/Aa393995(v=VS.85).aspx)
 
  
 

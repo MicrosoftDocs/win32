@@ -75,13 +75,13 @@ The following table lists ADsPath special characters.
 | Double quote<br/>   | "<br/>        | Used to quote any part of the ADsPath that may contain a special character so that the string is interpreted literally. For example, "CN=Name/Prefix".<br/>                                     |
 | Backslash<br/>      | \\<br/>       | Used to precede special characters to signify they should be used as literals. For more information and a list of special characters, see [Distinguished Names](https://msdn.microsoft.com/library/aa366101).<br/> |
 | Slash<br/>          | /<br/>        | Component separator.<br/>                                                                                                                                                                       |
-| Angle brackets<br/> | &lt;&gt;<br/> | Delimit an ADsPath within another naming convention.<br/>                                                                                                                                       |
+| Angle brackets<br/> | <><br/> | Delimit an ADsPath within another naming convention.<br/>                                                                                                                                       |
 
 
 
  
 
-To delimit an ADsPath in a search specification or as part of a URL, use the left and right angle bracket (&lt; &gt;). For example, "&lt;WinNT://MyDomain/UserAccount&gt;".
+To delimit an ADsPath in a search specification or as part of a URL, use the left and right angle bracket (< >). For example, "<WinNT://MyDomain/UserAccount>".
 
 Some ADSI providers may have added syntax restrictions due to namespace requirements.
 

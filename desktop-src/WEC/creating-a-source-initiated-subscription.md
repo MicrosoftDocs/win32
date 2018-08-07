@@ -418,12 +418,12 @@ DWORD GetProperty(EC_HANDLE hSubscription,
 
     1.  Run the following command from an elevated privilege command prompt to get the runtime status of the subscription:
 
-        **wecutil gr** *&lt;subscriptionID&gt;*
+        **wecutil gr** *<subscriptionID>*
 
     2.  Verify that the event source has connected. You might need to wait until the refresh interval specified in the policy is over after you create the subscription for the event source to be connected.
     3.  Run the following command to get the subscription information:
 
-        **wecutil gs** *&lt;subscriptionID&gt;*
+        **wecutil gs** *<subscriptionID>*
 
     4.  Get the DeliveryMaxItems value from the subscription information.
 

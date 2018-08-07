@@ -34,7 +34,7 @@ Use the following syntax to declare sampler state as well as sampler-comparison 
 <table>
 <tbody>
 <tr class="odd">
-<td>sampler <em>Name</em> = <em>SamplerType</em>{   Texture = &lt;<em>texture_variable</em>&gt;;   [<em>state_name = state_value;</em>]   ... };</td>
+<td>sampler <em>Name</em> = <em>SamplerType</em>{   Texture = <<em>texture_variable</em>>;   [<em>state_name = state_value;</em>]   ... };</td>
 </tr>
 </tbody>
 </table>
@@ -101,7 +101,7 @@ Direct3D 10 and later only. Optional array size; a positive integer greater than
 
 </dd> <dt>
 
-<span id="Texture____texture_variable__"></span><span id="texture____texture_variable__"></span><span id="TEXTURE____TEXTURE_VARIABLE__"></span>*Texture* = &lt;*texture\_variable*&gt;;
+<span id="Texture____texture_variable__"></span><span id="texture____texture_variable__"></span><span id="TEXTURE____TEXTURE_VARIABLE__"></span>*Texture* = <*texture\_variable*>;
 </dt> <dd>
 
 Direct3D 9 only. A texture variable. The *Texture* keyword is required on the left-hand side; the variable name belongs on the right-hand side of the expression within the angle brackets.
@@ -163,7 +163,7 @@ When you implement an effect, sampler state is one of several types of state tha
 <td><pre><code>sampler MeshTextureSampler = 
 sampler_state
 {
-    Texture = &lt;g_MeshTexture&gt;;
+    Texture = <g_MeshTexture>;
     MipFilter = LINEAR;
     MinFilter = LINEAR;
     MagFilter = LINEAR;

@@ -36,9 +36,9 @@ Depending on how you attempted to deploy your app, you might not have received a
 **To get the error code from the event logs**
 
 1.  Run **eventvwr.msc**.
-2.  Go to **Event Viewer (Local)** &gt; **Applications and Services Logs** &gt; **Microsoft** &gt; **Windows**.
-3.  The first log to check is **AppxPackagingOM** &gt; **Microsoft-Windows-AppxPackaging/Operational**.
-4.  Deployment-related errors are recorded in **AppXDeployment-Server** &gt; **Microsoft-Windows-AppXDeploymentServer/Operational**.
+2.  Go to **Event Viewer (Local)** > **Applications and Services Logs** > **Microsoft** > **Windows**.
+3.  The first log to check is **AppxPackagingOM** > **Microsoft-Windows-AppxPackaging/Operational**.
+4.  Deployment-related errors are recorded in **AppXDeployment-Server** > **Microsoft-Windows-AppXDeploymentServer/Operational**.
 
     For deployment errors, search for the most recent error event 404. This error event provides you with the error code and a description of why the deployment failed. If an error event 465 preceded the 404 event, there was a problem opening the package.
 

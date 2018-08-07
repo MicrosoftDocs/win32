@@ -86,9 +86,9 @@ Use the [**IDCompositionDevice::CreateVisual**](https://msdn.microsoft.com/en-us
     IDCompositionSurface *pSurface = nullptr;
     
     // Create a visual objects and set their content.   
-    for (int i = 0; i &lt; NUM_VISUALS; i++)
+    for (int i = 0; i < NUM_VISUALS; i++)
     {
-        hr = m_pDevice-&gt;CreateVisual(&pVisuals[i]); 
+        hr = m_pDevice->CreateVisual(&pVisuals[i]); 
         if (SUCCEEDED(hr))
         {
             // This application-defined function creates a DirectComposition
@@ -98,7 +98,7 @@ Use the [**IDCompositionDevice::CreateVisual**](https://msdn.microsoft.com/en-us
             if (SUCCEEDED(hr))
             {
                 // Set the bitmap content.  
-                hr = pVisuals[i]-&gt;SetContent(pSurface);
+                hr = pVisuals[i]->SetContent(pSurface);
             }
 
             SafeRelease(&pSurface);
@@ -534,8 +534,8 @@ HRESULT DemoApp::Initialize()
         WS_OVERLAPPEDWINDOW,
         CW_USEDEFAULT,
         CW_USEDEFAULT,
-        static_cast&lt;UINT&gt;(ceil(640.f * dpiX / 96.f)),
-        static_cast&lt;UINT&gt;(ceil(480.f * dpiY / 96.f)),
+        static_cast<UINT>(ceil(640.f * dpiX / 96.f)),
+        static_cast<UINT>(ceil(480.f * dpiY / 96.f)),
         NULL,
         NULL,
         HINST_THISCOMPONENT,
@@ -593,20 +593,20 @@ HRESULT DemoApp::InitializeDirectCompositionDevice()
     if (SUCCEEDED(hr))
     {
         // Create the DXGI device used to create bitmap surfaces.
-        hr = m_pD3D11Device-&gt;QueryInterface(&pDXGIDevice);
+        hr = m_pD3D11Device->QueryInterface(&pDXGIDevice);
     }
 
     if (SUCCEEDED(hr))
     {
         // Create the DirectComposition device object.
         hr = DCompositionCreateDevice(pDXGIDevice, __uuidof(IDCompositionDevice), 
-            reinterpret_cast&lt;void **&gt;(&m_pDevice));
+            reinterpret_cast<void **>(&m_pDevice));
     }
 
     if (SUCCEEDED(hr))
     {
         // Create the composition target object.
-        hr = m_pDevice-&gt;CreateTargetForHwnd(m_hwnd, TRUE, &m_pCompTarget);   
+        hr = m_pDevice->CreateTargetForHwnd(m_hwnd, TRUE, &m_pCompTarget);   
     }
 
     SafeRelease(&pDXGIDevice);
@@ -641,7 +641,7 @@ HRESULT DemoApp::CreateResources()
 void DemoApp::DiscardResources()
 {
     int i = 0;
-    while (i &lt; NUM_VISUALS) 
+    while (i < NUM_VISUALS) 
     {
         DeleteObject(m_hBitmaps[i++]);
     }
@@ -679,9 +679,9 @@ HRESULT DemoApp::OnClientClick()
     IDCompositionSurface *pSurface = nullptr;
     
     // Create a visual objects and set their content.   
-    for (int i = 0; i &lt; NUM_VISUALS; i++)
+    for (int i = 0; i < NUM_VISUALS; i++)
     {
-        hr = m_pDevice-&gt;CreateVisual(&pVisuals[i]); 
+        hr = m_pDevice->CreateVisual(&pVisuals[i]); 
         if (SUCCEEDED(hr))
         {
             // This application-defined function creates a DirectComposition
@@ -691,7 +691,7 @@ HRESULT DemoApp::OnClientClick()
             if (SUCCEEDED(hr))
             {
                 // Set the bitmap content.  
-                hr = pVisuals[i]-&gt;SetContent(pSurface);
+                hr = pVisuals[i]->SetContent(pSurface);
             }
 
             SafeRelease(&pSurface);
@@ -707,11 +707,11 @@ HRESULT DemoApp::OnClientClick()
     float yPosRoot = 50.0; 
 
     // Set the horizontal and vertical position of the root visual. 
-    pVisuals[0]-&gt;SetOffsetX(xPosRoot);  
-    pVisuals[0]-&gt;SetOffsetY(yPosRoot);  
+    pVisuals[0]->SetOffsetX(xPosRoot);  
+    pVisuals[0]->SetOffsetY(yPosRoot);  
 
     // Set the root visual of the visual tree.          
-    hr = m_pCompTarget-&gt;SetRoot(pVisuals[0]);  
+    hr = m_pCompTarget->SetRoot(pVisuals[0]);  
 
     float xPosChild = 20.0f;
     float yPosChild = 20.0f;
@@ -719,23 +719,23 @@ HRESULT DemoApp::OnClientClick()
     if (SUCCEEDED(hr))
     {
         // Set the positions of the child visuals and add them to the visual tree.
-        for (int i = 1; i &lt; NUM_VISUALS; i++)
+        for (int i = 1; i < NUM_VISUALS; i++)
         {
-            pVisuals[i]-&gt;SetOffsetX(xPosChild);
-            pVisuals[i]-&gt;SetOffsetY(
-                static_cast&lt;float&gt;((yPosChild * i) + (CHILD_BITMAP_HEIGHT * (i - 1))));
+            pVisuals[i]->SetOffsetX(xPosChild);
+            pVisuals[i]->SetOffsetY(
+                static_cast<float>((yPosChild * i) + (CHILD_BITMAP_HEIGHT * (i - 1))));
 
             // Add the child visuals as children of the root visual.
-            pVisuals[0]-&gt;AddVisual(pVisuals[i], TRUE, nullptr);
+            pVisuals[0]->AddVisual(pVisuals[i], TRUE, nullptr);
         }
     }
     
     // Commit the visual to be composed and displayed.
-    hr = m_pDevice-&gt;Commit();  
+    hr = m_pDevice->Commit();  
 
 Cleanup:
     // Free the visuals.
-    for (int i = 0; i &lt; NUM_VISUALS; i++) 
+    for (int i = 0; i < NUM_VISUALS; i++) 
     {
         SafeRelease(&pVisuals[i]);
     }
@@ -756,7 +756,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
     if (message == WM_CREATE)
     {
         LPCREATESTRUCT pcs = (LPCREATESTRUCT)lParam;
-        DemoApp *pDemoApp = (DemoApp *)pcs-&gt;lpCreateParams;
+        DemoApp *pDemoApp = (DemoApp *)pcs->lpCreateParams;
 
         ::SetWindowLongPtrW(
             hwnd,
@@ -768,7 +768,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
     }
     else
     {
-        DemoApp *pDemoApp = reinterpret_cast&lt;DemoApp *&gt;(static_cast&lt;LONG_PTR&gt;(
+        DemoApp *pDemoApp = reinterpret_cast<DemoApp *>(static_cast<LONG_PTR>(
             ::GetWindowLongPtrW(
                 hwnd,
                 GWLP_USERDATA
@@ -782,7 +782,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
             {
             case WM_LBUTTONDOWN:
                 {
-                    pDemoApp-&gt;OnClientClick();
+                    pDemoApp->OnClientClick();
                 }
  
             case WM_DISPLAYCHANGE:
@@ -796,7 +796,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
             case WM_DESTROY:
                 {
                     PostQuitMessage(0);
-                    pDemoApp-&gt;DiscardResources();
+                    pDemoApp->DiscardResources();
                 }
                 wasHandled = true;
                 result = 1;
@@ -825,7 +825,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
 HRESULT DemoApp::LoadResourceGDIBitmap(PCWSTR resourceName, HBITMAP &hbmp)
 {
     // Load the bitmap from the application resources.
-    hbmp = static_cast&lt;HBITMAP&gt;(LoadImageW(HINST_THISCOMPONENT, resourceName, 
+    hbmp = static_cast<HBITMAP>(LoadImageW(HINST_THISCOMPONENT, resourceName, 
         IMAGE_BITMAP, 0, 0, LR_DEFAULTCOLOR));  
  
     return hbmp ? S_OK : E_FAIL;
@@ -870,20 +870,20 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap, IDCompositionS
 
         // Create a DirectComposition-compatible surface that is the same size 
         // as the bitmap.
-        hr = m_pDevice-&gt;CreateSurface(bitmapWidth, bitmapHeight, 
+        hr = m_pDevice->CreateSurface(bitmapWidth, bitmapHeight, 
             DXGI_FORMAT_B8G8R8A8_UNORM, DXGI_ALPHA_MODE_IGNORE, ppSurface);
     }
 
     hr = ppSurface ? S_OK : E_FAIL;
     if (SUCCEEDED(hr)) 
     {
-        hr = (*ppSurface)-&gt;BeginDraw(NULL, __uuidof(IDXGISurface1), 
-            reinterpret_cast&lt;void**&gt;(&pDXGISurface), &pointOffset);
+        hr = (*ppSurface)->BeginDraw(NULL, __uuidof(IDXGISurface1), 
+            reinterpret_cast<void**>(&pDXGISurface), &pointOffset);
     }
 
     if (SUCCEEDED(hr)) 
     {
-        pDXGISurface-&gt;GetDC(FALSE, &hSurfaceDC);
+        pDXGISurface->GetDC(FALSE, &hSurfaceDC);
     }
 
     hr = hSurfaceDC ? S_OK : E_FAIL;
@@ -903,10 +903,10 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap, IDCompositionS
             DeleteDC(hBitmapDC);
         }
 
-        pDXGISurface-&gt;ReleaseDC(NULL);
+        pDXGISurface->ReleaseDC(NULL);
     }
 
-    (*ppSurface)-&gt;EndDraw();
+    (*ppSurface)->EndDraw();
 
     SafeRelease(&pDXGISurface);
 

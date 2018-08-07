@@ -31,7 +31,7 @@ Here is an example of a sequence table.
 | [RegisterProduct](registerproduct-action.md)   |                                                                 | 1200     |
 | [InstallValidate](installvalidate-action.md)   |                                                                 | 1300     |
 | [InstallFiles](installfiles-action.md)         |                                                                 | 1400     |
-| MyCustomAction                                  | $MyComponent &gt; 2                                             | 1500     |
+| MyCustomAction                                  | $MyComponent > 2                                             | 1500     |
 | [InstallFinalize](installfinalize-action.md)   |                                                                 | 1600     |
 
 
@@ -109,7 +109,7 @@ All actions run in sequence with the following conditional steps:
 -   The CPPSearch is run only if CCP\_TEST is set.
 -   CCPDialog is run only if NOT\_CCP\_SUCCESS is set.
 -   MaintenanceDialog is run only if this product is already installed and if this is not an installation that is being resume after being suspended.
--   MyCustomAction is run only if the expression in the Condition column is True. The expression $MyComponent &gt; 2 refers to the action state of the component called MyComponent. This condition indicates that MyCustomAction should only be run if MyComponent is set to be installed. For more information on Action states and Selection states, see the [**FeatureRequestState**](session-featurerequeststate.md) property, the [Feature table](feature-table.md), and the [InstallFiles action](installfiles-action.md).
+-   MyCustomAction is run only if the expression in the Condition column is True. The expression $MyComponent > 2 refers to the action state of the component called MyComponent. This condition indicates that MyCustomAction should only be run if MyComponent is set to be installed. For more information on Action states and Selection states, see the [**FeatureRequestState**](session-featurerequeststate.md) property, the [Feature table](feature-table.md), and the [InstallFiles action](installfiles-action.md).
 
 ## Related topics
 

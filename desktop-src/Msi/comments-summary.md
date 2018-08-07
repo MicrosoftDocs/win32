@@ -15,12 +15,12 @@ The **Comments Summary** property conveys the general purpose of the installatio
 
 An author of an installation package, transform, or patch package should set the value of the **Comments Summary** property to one of the following values:
 
-<dl> "This installer database contains the logic and data required to install &lt;*product*&gt;."  
-"This transform contains the logic and data required to install &lt;*product*&gt;."  
-"This patch contains the logic and data required to install &lt;*product*&gt;."  
+<dl> "This installer database contains the logic and data required to install <*product*>."  
+"This transform contains the logic and data required to install <*product*>."  
+"This patch contains the logic and data required to install <*product*>."  
 </dl>
 
-where &lt;*product*&gt; is the name of the product.
+where <*product*> is the name of the product.
 
 ## Requirements
 

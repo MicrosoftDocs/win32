@@ -15,7 +15,7 @@ ICE custom actions communicate by calling [**MsiProcessMessage**](/windows/deskt
 
 When authoring a message string for an ICE custom action, format the string as follows.
 
-*Name of ICE* &lt;tab&gt; *Message Type* &lt;tab&gt; *Description* &lt;tab&gt; *Help URL or location* &lt;tab&gt; *Table Name* &lt;tab&gt; *Column Name* &lt;tab&gt; *Primary Key* &lt;tab&gt; *Primary Key* &lt;tab&gt; *Primary Key* . . . (repeat for as many primary keys as needed)
+*Name of ICE* <tab> *Message Type* <tab> *Description* <tab> *Help URL or location* <tab> *Table Name* <tab> *Column Name* <tab> *Primary Key* <tab> *Primary Key* <tab> *Primary Key* . . . (repeat for as many primary keys as needed)
 
 The first three fields of the string are required in every message.
 
@@ -42,11 +42,11 @@ Error and Warning messages should provide the Table Name, Column Name, and Prima
 
 The first message illustrated by the [Sample ICE in C++](sample-ice-in-c-.md):
 
-"ICE01\\t3\\tCreated 04/29/1998 by &lt;insert author's name here&gt;."
+"ICE01\\t3\\tCreated 04/29/1998 by <insert author's name here>."
 
 The second message posted by the sample ICE:
 
-"ICE01\\t3\\tLast modified 05/06/1999 by &lt;insert author's name here&gt;."
+"ICE01\\t3\\tLast modified 05/06/1999 by <insert author's name here>."
 
 The third message posted by the sample ICE.
 

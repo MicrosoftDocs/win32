@@ -151,7 +151,7 @@ t->right = &h;
 // t->left->pdata == t->right->pdata == &a
 ```
 
-Although "t-&gt;left" and "t-&gt;right" point to unique memory locations, "t-&gt;left-&gt;pdata" and "t-&gt;right-&gt;pdata" are aliased. For this reason, aliasing-support algorithms must follow all pointers (including unique and reference pointers) that may eventually reach a full pointer.
+Although "t->left" and "t->right" point to unique memory locations, "t->left->pdata" and "t->right->pdata" are aliased. For this reason, aliasing-support algorithms must follow all pointers (including unique and reference pointers) that may eventually reach a full pointer.
 
 ## Examples
 

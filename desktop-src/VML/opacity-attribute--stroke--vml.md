@@ -26,7 +26,7 @@ Defines the amount of transparency of a stroke. Read/write. **VgFraction**.
 
 **Tag Syntax**
 
-&lt;v: *element* opacity=" *expression* "&gt;
+<v: *element* opacity=" *expression* ">
 
 **Script Syntax**
 

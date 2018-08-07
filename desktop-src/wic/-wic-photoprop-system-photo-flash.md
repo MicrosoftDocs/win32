@@ -50,7 +50,7 @@ Values from different schemas are reconciled.
 | Order | Path                             | Disk Format |
 |-------|----------------------------------|-------------|
 | 1     | /app1/ifd/exif/{ushort=37385}    | ushort      |
-| 2     | /xmp/&lt;xmpstruct&gt;exif:Flash |             |
+| 2     | /xmp/<xmpstruct>exif:Flash |             |
 
 
 
@@ -63,7 +63,7 @@ Values from different schemas are reconciled.
 | Order | Path                             | Disk Format |
 |-------|----------------------------------|-------------|
 | 1     | /app1/ifd/exif/{ushort=37385}    | ushort      |
-| 2     | /xmp/&lt;xmpstruct&gt;exif:Flash |             |
+| 2     | /xmp/<xmpstruct>exif:Flash |             |
 
 
 
@@ -76,7 +76,7 @@ Values from different schemas are reconciled.
 | Order | Path                             |
 |-------|----------------------------------|
 | 1     | /app1/ifd/exif/{ushort=37385}    |
-| 2     | /xmp/&lt;xmpstruct&gt;exif:flash |
+| 2     | /xmp/<xmpstruct>exif:flash |
 
 
 
@@ -91,7 +91,7 @@ Values from different schemas are reconciled.
 | Order | Path                                 | Disk Format |
 |-------|--------------------------------------|-------------|
 | 1     | /ifd/exif/{ushort=37385}             | ushort      |
-| 2     | /ifd/xmp/&lt;xmpstruct&gt;exif:Flash |             |
+| 2     | /ifd/xmp/<xmpstruct>exif:Flash |             |
 
 
 
@@ -104,7 +104,7 @@ Values from different schemas are reconciled.
 | Order | Path                                 | Disk Format |
 |-------|--------------------------------------|-------------|
 | 1     | /ifd/exif/{ushort=37385}             | ushort      |
-| 2     | /ifd/xmp/&lt;xmpstruct&gt;exif:Flash |             |
+| 2     | /ifd/xmp/<xmpstruct>exif:Flash |             |
 
 
 
@@ -117,7 +117,7 @@ Values from different schemas are reconciled.
 | Order | Path                                 |
 |-------|--------------------------------------|
 | 1     | /ifd/exif/{ushort=37385}             |
-| 2     | /ifd/xmp/&lt;xmpstruct&gt;exif:flash |
+| 2     | /ifd/xmp/<xmpstruct>exif:flash |
 
 
 

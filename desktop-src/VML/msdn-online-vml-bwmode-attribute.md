@@ -26,7 +26,7 @@ Determines how a shape will render for black-and-white output devices. Read/writ
 
 **Tag Syntax**
 
-&lt;v: *element* o:bwmode=" *expression* "&gt;
+<v: *element* o:bwmode=" *expression* ">
 
 **Remarks**
 

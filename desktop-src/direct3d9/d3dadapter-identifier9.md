@@ -99,7 +99,7 @@ Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).a
 
 </dd> <dd>
 
-Identify the version of the Direct3D driver. It is legal to do &lt; and &gt; comparisons on the 64-bit signed integer value. However, exercise caution if you use this element to identify problematic drivers. Instead, you should use DeviceIdentifier. See Remarks.
+Identify the version of the Direct3D driver. It is legal to do < and > comparisons on the 64-bit signed integer value. However, exercise caution if you use this element to identify problematic drivers. Instead, you should use DeviceIdentifier. See Remarks.
 
 </dd> <dt>
 
@@ -110,7 +110,7 @@ Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).a
 
 </dd> <dd>
 
-Identify the version of the Direct3D driver. It is legal to do &lt; and &gt; comparisons on the 64-bit signed integer value. However, exercise caution if you use this element to identify problematic drivers. Instead, you should use DeviceIdentifier. See Remarks.
+Identify the version of the Direct3D driver. It is legal to do < and > comparisons on the 64-bit signed integer value. However, exercise caution if you use this element to identify problematic drivers. Instead, you should use DeviceIdentifier. See Remarks.
 
 </dd> <dt>
 
@@ -176,7 +176,7 @@ Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).a
 
 </dd> <dd>
 
-Used to determine the Windows Hardware Quality Labs (WHQL) validation level for this driver and device pair. The DWORD is a packed date structure defining the date of the release of the most recent WHQL test passed by the driver. It is legal to perform &lt; and &gt; operations on this value. The following illustrates the date format.
+Used to determine the Windows Hardware Quality Labs (WHQL) validation level for this driver and device pair. The DWORD is a packed date structure defining the date of the release of the most recent WHQL test passed by the driver. It is legal to perform < and > operations on this value. The following illustrates the date format.
 
 
 

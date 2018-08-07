@@ -26,7 +26,7 @@ Determines whether a gradient path will be made up of repeated concentric paths.
 
 **Tag Syntax**
 
-&lt;v: *element* gradientshapeok=" *expression* "&gt;
+<v: *element* gradientshapeok=" *expression* ">
 
 **Script Syntax**
 

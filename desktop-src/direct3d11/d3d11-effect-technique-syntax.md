@@ -24,11 +24,11 @@ ms.date: 05/31/2018
 
 An effect technique is declared with the syntax described in this section.
 
-TechniqueVersion *TechniqueName* \[ &lt;*Annotations* &gt; \]
+TechniqueVersion *TechniqueName* \[ <*Annotations* > \]
 
 {
 
-<dl> pass *PassName* \[ &lt;*Annotations* &gt; \]  
+<dl> pass *PassName* \[ <*Annotations* > \]  
 {  
 <dl> \[ *SetStateGroup*; \] \[ *SetStateGroup*; \]  
 ...  
@@ -63,7 +63,7 @@ TechniqueVersion *TechniqueName* \[ &lt;*Annotations* &gt; \]
 <td>Optional. An ASCII string that uniquely identifies the name of the effect technique.<br/></td>
 </tr>
 <tr class="odd">
-<td><span id="______________Annotations__"></span><span id="______________annotations__"></span><span id="______________ANNOTATIONS__"></span> &lt;<em>Annotations</em> &gt;<br/></td>
+<td><span id="______________Annotations__"></span><span id="______________annotations__"></span><span id="______________ANNOTATIONS__"></span> <<em>Annotations</em> ><br/></td>
 <td>[in] Optional. One or more pieces of user-supplied information (metadata) that is ignored by the effect system. For syntax, see [Annotation Syntax (Direct3D 11)](d3d11-effect-annotation-syntax.md).<br/></td>
 </tr>
 <tr class="even">

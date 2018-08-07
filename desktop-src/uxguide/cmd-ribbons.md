@@ -413,7 +413,7 @@ For tab labeling guidelines, see [Tab labels](#labels).
 
     Print preview is a commonly used modal tab.
 
--   **To close a modal tab, put the Close &lt;mode&gt; command as the last command on the tab.** Use the Close icon to make the command easy to find. Give the mode in the command to prevent confusion about what is being closed.
+-   **To close a modal tab, put the Close <mode> command as the last command on the tab.** Use the Close icon to make the command easy to find. Give the mode in the command to prevent confusion about what is being closed.
 
     ![screen shot of close print preview button ](images/cmd-ribbons-image32.png)
 
@@ -635,8 +635,8 @@ For command labeling guidelines, see [Command labels](https://msdn.microsoft.com
     -   **Display the gallery from either a combo box, drop-down list, split button, or menu button.**
     -   **If the user clicks the main window to dismiss the drop-down gallery, just dismiss the gallery without selecting or modifying the contents of the main window.**
     -   **If a gallery has many choices and some choices are rarely used, simplify the default gallery by focusing on the commonly used choices.** For the remaining commands, provide an appropriate command at the bottom of the gallery drop-down.
-        -   If the command shows a list of more variations, name it "More &lt;singular feature name&gt; options..."
-        -   If the command presents a dialog box that allows users to create their own custom options, name it "Custom &lt;feature name&gt;..."
+        -   If the command shows a list of more variations, name it "More <singular feature name> options..."
+        -   If the command presents a dialog box that allows users to create their own custom options, name it "Custom <feature name>..."
     -   **Organize the choices into groups, if doing so makes browsing more efficient.**
     -   **If a gallery has many items, consider adding a filter to help users find choices more efficiently.** To avoid confusion, initially display the gallery unfiltered. However, most galleries shouldn't require a filter because they shouldn't have so many choices, and using groups should be sufficient.
 
@@ -789,13 +789,13 @@ For shortcut key guidelines, see [Keyboard](inter-keyboard.md).
 -   **Use the following standard Application menu commands when appropriate:**<dl> New  
     Open  
     Save  
-    Save as...<dl> &lt;list of file formats&gt;  
-    </dl> </dd> &lt;separator&gt;  
+    Save as...<dl> <list of file formats>  
+    </dl> </dd> <separator>  
     Print...<dl> Print...  
     Quick print  
     Print preview  
     </dl> </dd> Close  
-    &lt;footer&gt;  
+    <footer>  
     Options  
     Exit  
     </dl>

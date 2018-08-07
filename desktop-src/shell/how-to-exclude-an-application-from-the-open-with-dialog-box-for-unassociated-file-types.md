@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # How to Exclude an Application from the Open With Dialog Box for Unassociated File Types
 
-When a user attempts to open a file that is not a member of any registered file type (that is, an unknown file type), or when a user selects **Open with** or **Open with -&gt; Choose default program** from a file's shortcut menu, the Shell presents a submenu or dialog box that enables the user to specify the program used to open the file.
+When a user attempts to open a file that is not a member of any registered file type (that is, an unknown file type), or when a user selects **Open with** or **Open with -> Choose default program** from a file's shortcut menu, the Shell presents a submenu or dialog box that enables the user to specify the program used to open the file.
 
 By default, any application registered as a subkey of **HKEY\_CLASSES\_ROOT**\\**Applications** is presented in the **Open with** dialog box. These applications are presented in **Open with** regardless of whether the application is registered to handle the file type.
 

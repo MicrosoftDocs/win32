@@ -26,7 +26,7 @@ Defines the color of the extrusion faces. Read/write. **VgColor**.
 
 **Tag Syntax**
 
-&lt;o: *element* color=" *expression* "&gt;
+<o: *element* color=" *expression* ">
 
 **Script Syntax**
 

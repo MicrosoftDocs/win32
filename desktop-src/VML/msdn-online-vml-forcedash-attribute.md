@@ -26,7 +26,7 @@ Determines whether a dashed outline is used to draw a shape when a shape has no 
 
 **Tag Syntax**
 
-&lt;v: *element* o:forcedash=" *expression* "&gt;
+<v: *element* o:forcedash=" *expression* ">
 
 **Remarks**
 

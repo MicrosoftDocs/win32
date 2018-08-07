@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The VBScript file WiToAnsi.vbs is provided in the [Windows SDK Components for Windows Installer Developers](platform-sdk-components-for-windows-installer-developers.md). This sample shows how script is used to rewrite a Unicode text file as an ANSI text file.
 
-Using this sample requires the CScript.exe or WScript.exe version of Windows Script Host. To use CScript.exe to run this sample, type a command line at the command prompt using the following syntax. Help is displayed if the first argument is /? or if too few arguments are specified. To redirect the output to a file, end the command line with VBS &gt; \[*path to file*\]. The sample returns a value of 0 for success, 1 if help is invoked, and 2 if the script fails.
+Using this sample requires the CScript.exe or WScript.exe version of Windows Script Host. To use CScript.exe to run this sample, type a command line at the command prompt using the following syntax. Help is displayed if the first argument is /? or if too few arguments are specified. To redirect the output to a file, end the command line with VBS > \[*path to file*\]. The sample returns a value of 0 for success, 1 if help is invoked, and 2 if the script fails.
 
 **cscript WiToAnsi.vbs \[path to Unicode file\]\[path to ANSI file\]**
 

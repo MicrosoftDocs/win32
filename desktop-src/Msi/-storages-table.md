@@ -50,7 +50,7 @@ Data cannot be read from the \_Storages table. However, the \_Storages table can
 
 To rename an OLE storage, update the Name column of the record.
 
-If a hold is placed on this table using SQL (ALTER TABLE &lt;table&gt; HOLD) or a column is added with HOLD, the table must be released using FREE. Storages are not written until the table has been released or committed.
+If a hold is placed on this table using SQL (ALTER TABLE <table> HOLD) or a column is added with HOLD, the table must be released using FREE. Storages are not written until the table has been released or committed.
 
  
 

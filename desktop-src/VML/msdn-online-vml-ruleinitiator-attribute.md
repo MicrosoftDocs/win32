@@ -26,7 +26,7 @@ Determines whether a rules engine will be used. Read/write. **VgTriState**.
 
 **Tag Syntax**
 
-&lt;v: *element* o:ruleinitiator=" *expression* "&gt;
+<v: *element* o:ruleinitiator=" *expression* ">
 
 **Remarks**
 

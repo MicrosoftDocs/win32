@@ -26,7 +26,7 @@ Defines the type of fill used for the background of a stroke. Read/write. **VgFi
 
 **Tag Syntax**
 
-&lt;v: *element* filltype=" *expression* "&gt;
+<v: *element* filltype=" *expression* ">
 
 **Script Syntax**
 

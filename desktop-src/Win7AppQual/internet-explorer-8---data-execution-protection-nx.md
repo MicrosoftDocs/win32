@@ -58,7 +58,7 @@ Compile applications by using the latest versions of frameworks that are DEP com
 ## Compatibility, Performance, Reliability, and Usability Testing
 
 -   Test your code with DEP/NX enabled by using latest released Internet Explorer version on Windows Vista SP1 or later.
--   Test with Internet Explorer 7 on Windows Vista after enabling the DEP/NX option. To enable DEP/NX for Internet Explorer 7, run Internet Explorer as an administrator, then set the appropriate check box in the Tools &gt; Internet Options &gt; Advanced tab.
+-   Test with Internet Explorer 7 on Windows Vista after enabling the DEP/NX option. To enable DEP/NX for Internet Explorer 7, run Internet Explorer as an administrator, then set the appropriate check box in the Tools > Internet Options > Advanced tab.
 -   Run the Internet Explorer Compatibility Test Tool (IECTT), provided with the Application Compatibility Toolkit (ACT) to locate any potential issues due to the DEP/NX changes.
 
 ## Links to Other Resources

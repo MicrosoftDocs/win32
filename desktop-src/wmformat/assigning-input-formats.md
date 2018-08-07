@@ -96,16 +96,16 @@ HRESULT ConfigureVideoInput(IWMWriter* pWriter,
 <tbody>
 <tr class="odd">
 <td><pre><code>    // Image size = stride * height. 
-    pbmi-&gt;biSizeImage = lFrameHeight * lStride;
+    pbmi->biSizeImage = lFrameHeight * lStride;
 
     // Apply the adjusted type to the video input. 
-    hr = pProps-&gt;SetMediaType(pType);
+    hr = pProps->SetMediaType(pType);
     if (FAILED(hr))
     {
         goto Exit;
     }
 
-    hr = pWriter-&gt;SetInputProps(dwInput, pProps);
+    hr = pWriter->SetInputProps(dwInput, pProps);
 
 Exit:
     delete [] pType;

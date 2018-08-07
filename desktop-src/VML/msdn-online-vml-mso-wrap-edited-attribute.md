@@ -26,7 +26,7 @@ Determines whether the wrap coordinates were customized by the user. Read/write.
 
 **Tag Syntax**
 
-&lt;v: *element* style="mso-wrap-edited: *expression* "&gt;
+<v: *element* style="mso-wrap-edited: *expression* ">
 
 **Remarks**
 

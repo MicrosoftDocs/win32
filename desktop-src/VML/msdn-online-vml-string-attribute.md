@@ -26,7 +26,7 @@ Defines the text of the text path. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* string=" *expression* "&gt;
+<v: *element* string=" *expression* ">
 
 **Script Syntax**
 

@@ -26,7 +26,7 @@ Determines whether the handle directions are swapped. Read/write. **VgTriState**
 
 **Tag Syntax**
 
-&lt;v: *element* switch=" *expression* "&gt;
+<v: *element* switch=" *expression* ">
 
 **Remarks**
 

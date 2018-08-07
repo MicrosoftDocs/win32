@@ -95,7 +95,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 ## Remarks
 
-The compiler setting also determines the function version. If Unicode is defined, the function call resolves to D3DXSaveVolumeToFileW. Otherwise, the function call resolves to &gt;D3DXSaveVolumeToFileA because ANSI strings are being used.
+The compiler setting also determines the function version. If Unicode is defined, the function call resolves to D3DXSaveVolumeToFileW. Otherwise, the function call resolves to >D3DXSaveVolumeToFileA because ANSI strings are being used.
 
 This function handles conversion to and from compressed texture formats.
 

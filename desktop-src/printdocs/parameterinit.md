@@ -17,7 +17,7 @@ Defines a value for an instance of a ParameterDef element. A ParameterInit eleme
 
 ## Element Tag
 
-&lt;ParameterInit&gt;
+<ParameterInit>
 
 ## XML Attributes
 

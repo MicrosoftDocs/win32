@@ -26,7 +26,7 @@ Defines the way a skew is displayed. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;o: *element* v:ext=" *expression* "&gt;
+<o: *element* v:ext=" *expression* ">
 
 **Script Syntax**
 

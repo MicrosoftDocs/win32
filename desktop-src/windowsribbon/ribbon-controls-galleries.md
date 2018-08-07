@@ -266,15 +266,15 @@ A *CommandId* attribute used to bind a Command to a Command handler when the mar
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>&lt;!-- DropDownGallery --&gt;
-&lt;Command Name=&quot;cmdDropDownGalleryGroup&quot;
+<td><pre><code><!-- DropDownGallery -->
+<Command Name=&quot;cmdDropDownGalleryGroup&quot;
          Symbol=&quot;cmdDropDownGalleryGroup&quot;
          Comment=&quot;DropDownGallery Group&quot;
-         LabelTitle=&quot;DropDownGallery&quot;/&gt;
-&lt;Command Name=&quot;cmdDropDownGallery&quot;
+         LabelTitle=&quot;DropDownGallery&quot;/>
+<Command Name=&quot;cmdDropDownGallery&quot;
          Symbol=&quot;cmdDropDownGallery&quot;
          Comment=&quot;DropDownGallery&quot;
-         LabelTitle=&quot;DropDownGallery&quot;/&gt;</code></pre></td>
+         LabelTitle=&quot;DropDownGallery&quot;/></code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -292,15 +292,15 @@ A *CommandId* attribute used to bind a Command to a Command handler when the mar
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>&lt;!-- InRibbonGallery --&gt;
-&lt;Command Name=&quot;cmdInRibbonGalleryGroup&quot;
+<td><pre><code><!-- InRibbonGallery -->
+<Command Name=&quot;cmdInRibbonGalleryGroup&quot;
          Symbol=&quot;cmdInRibbonGalleryGroup&quot;
          Comment=&quot;InRibbonGallery Group&quot;
-         LabelTitle=&quot;InRibbonGallery&quot;/&gt;
-&lt;Command Name=&quot;cmdInRibbonGallery&quot;
+         LabelTitle=&quot;InRibbonGallery&quot;/>
+<Command Name=&quot;cmdInRibbonGallery&quot;
          Symbol=&quot;cmdInRibbonGallery&quot;
          Comment=&quot;InRibbonGallery&quot;
-         LabelTitle=&quot;InRibbonGallery&quot;/&gt;</code></pre></td>
+         LabelTitle=&quot;InRibbonGallery&quot;/></code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -318,15 +318,15 @@ A *CommandId* attribute used to bind a Command to a Command handler when the mar
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>&lt;!-- SplitButtonGallery --&gt;
-&lt;Command Name=&quot;cmdSplitButtonGalleryGroup&quot;
+<td><pre><code><!-- SplitButtonGallery -->
+<Command Name=&quot;cmdSplitButtonGalleryGroup&quot;
          Symbol=&quot;cmdSplitButtonGalleryGroup&quot;
          Comment=&quot;SplitButtonGallery Group&quot;
-         LabelTitle=&quot;SplitButtonGallery&quot;/&gt;
-&lt;Command Name=&quot;cmdSplitButtonGallery&quot;
+         LabelTitle=&quot;SplitButtonGallery&quot;/>
+<Command Name=&quot;cmdSplitButtonGallery&quot;
          Symbol=&quot;cmdSplitButtonGallery&quot;
          Comment=&quot;SplitButtonGallery&quot;
-         LabelTitle=&quot;SplitButtonGallery&quot;/&gt;</code></pre></td>
+         LabelTitle=&quot;SplitButtonGallery&quot;/></code></pre></td>
 </tr>
 </tbody>
 </table>

@@ -63,7 +63,7 @@ The **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes** key corresponds to the **HKEY\_C
 
 <dl> <dt>
 
-[**&lt;file\_extension&gt;**](-file-extension--key.md)
+[**<file\_extension>**](-file-extension--key.md)
 </dt> <dt>
 
 [**GetClassFile**](/windows/desktop/api/Objbase/nf-objbase-getclassfile)

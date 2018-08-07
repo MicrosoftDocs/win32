@@ -26,7 +26,7 @@ Determines whether the AutoShape type can be changed by an editor. Read/write. *
 
 **Tag Syntax**
 
-&lt;o: *element* shapetype=" *expression* "&gt;
+<o: *element* shapetype=" *expression* ">
 
 **Remarks**
 

@@ -28,7 +28,7 @@ The following component key files are installed on the system before the compone
 | FileC                                   | 1.0.0000 | 1/1/99      | 1/1/99        | ENG         |
 | FileD                                   | 1.0.0000 | 1/1/99      | 1/2/99        | ENG         |
 | FileE                                   | none     | 1/1/99      | 1/1/99        | none        |
-| FileF (modified &gt; create)<br/> | none     | 1/1/99      | 1/2/99        | none        |
+| FileF (modified > create)<br/> | none     | 1/1/99      | 1/2/99        | none        |
 | FileG                                   | 1.0.0000 | 1/1/99      | 1/1/99        | ENG         |
 | FileH                                   | 1.0.0000 | 1/1/99      | 1/1/99        | ENG,FRN,SPN |
 | FileI                                   | 1.0.0000 | 1/1/99      | 1/1/99        | ENG,FRN     |

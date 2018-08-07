@@ -26,7 +26,7 @@ Defines the focus size for radial fills. Read/write. **VgVector2D**.
 
 **Tag Syntax**
 
-&lt;v: *element* focussize=" *expression* "&gt;
+<v: *element* focussize=" *expression* ">
 
 **Script Syntax**
 

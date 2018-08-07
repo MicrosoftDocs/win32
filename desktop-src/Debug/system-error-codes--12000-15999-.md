@@ -2525,7 +2525,7 @@ Manifest Parse Error : Required white space was missing.
 
 
 
-Manifest Parse Error : The character '&gt;' was expected.
+Manifest Parse Error : The character '>' was expected.
 
 
 </dt> </dl> </dd> <dt>
@@ -2824,7 +2824,7 @@ Manifest Parse Error : Element was not closed.
 
 
 
-Manifest Parse Error : End element was missing the character '&gt;'.
+Manifest Parse Error : End element was missing the character '>'.
 
 
 </dt> </dl> </dd> <dt>

@@ -218,8 +218,8 @@ For an *iEsc* value of DOCUMENTEVENT\_QUERYFILTER, the spooler can interpret a D
 
 If the escape code supplied in the *iEsc* parameter is DOCUMENTEVENT\_CREATEDCPRE, the following rules apply:
 
--   If the job is being sent directly to the printer without spooling, pvIn-&gt;pszDevice points to the printer name. (For more information, see the documentation for the DOCEVENT\_CREATEDCPRE structure in the [Windows Driver Development Kit](http://go.microsoft.com/fwlink/p/?LinkId=321347).)
--   If the job is being spooled, pvIn-&gt;pszDevice points to the printer port name.
+-   If the job is being sent directly to the printer without spooling, pvIn->pszDevice points to the printer name. (For more information, see the documentation for the DOCEVENT\_CREATEDCPRE structure in the [Windows Driver Development Kit](http://go.microsoft.com/fwlink/p/?LinkId=321347).)
+-   If the job is being spooled, pvIn->pszDevice points to the printer port name.
 
 > [!Note]  
 > The following restrictions apply when running a 32-bit application on a 64-bit version of Windows. The only GDI function that **DocumentEvent** should call is [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape), and only private escapes should be used. **DocumentEvent** calls to other GDI functions may produce undefined behavior.

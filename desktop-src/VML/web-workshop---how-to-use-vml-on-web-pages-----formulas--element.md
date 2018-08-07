@@ -32,13 +32,13 @@ This topic describes VML, a feature that is deprecated as of Windows Internet Ex
 
  
 
-In this topic, we will illustrate how to use the &lt;formulas&gt; sub-element to define an adjustable path for a shape.
+In this topic, we will illustrate how to use the <formulas> sub-element to define an adjustable path for a shape.
 
-You can place the &lt;formulas&gt; sub-element inside &lt;shape&gt; or &lt;shapetype&gt; to define formulas that can vary the path of a shape. Inside the &lt;formulas&gt; sub-element, one **f** sub-element defines one formula so that one value is evaluated based upon that formula. For example, the formula, `<v:f eqn="prod 10 4 5"/>` defines a value that is equivalent to "10 x 4 / 5".
+You can place the <formulas> sub-element inside <shape> or <shapetype> to define formulas that can vary the path of a shape. Inside the <formulas> sub-element, one **f** sub-element defines one formula so that one value is evaluated based upon that formula. For example, the formula, `<v:f eqn="prod 10 4 5"/>` defines a value that is equivalent to "10 x 4 / 5".
 
-You can place many **f** sub-elements inside one &lt;formulas&gt; sub-element. Formulas can reference the values that are defined earlier in other formulas within the same &lt;formulas&gt; sub-element. The value that is defined in the first formula can be referred to as @0, the value that is defined in the second formula can be referred to as @1, and so on.
+You can place many **f** sub-elements inside one <formulas> sub-element. Formulas can reference the values that are defined earlier in other formulas within the same <formulas> sub-element. The value that is defined in the first formula can be referred to as @0, the value that is defined in the second formula can be referred to as @1, and so on.
 
-In addition, you can specify the **adj** property attribute of the &lt;shape&gt; element, such as adj="100, 200, 150". Inside the &lt;formulas&gt; element, you can then reference those values in the **adj** list. The first value (100) in the **adj** list can be referred to as \#0, the second value (200) can be referred to as \#1, and so on.
+In addition, you can specify the **adj** property attribute of the <shape> element, such as adj="100, 200, 150". Inside the <formulas> element, you can then reference those values in the **adj** list. The first value (100) in the **adj** list can be referred to as \#0, the second value (200) can be referred to as \#1, and so on.
 
 For example, to draw a smiling face, you can type the following VML representation:
 
@@ -70,7 +70,7 @@ m4960@0c8853@3,12747@3,16640@0nfe">
 -   The second formula, `<v:f eqn="prod #0 4 3"/>`, defines the value (= \#0 \* 4 / 3). This value can be referenced as @1.
 -   The third formula, `<v:f eqn="prod @0 1 3"/>`, defines the value (= @0 \* 1 / 3). This value can be referenced as @2.
 -   The fourth formula, `<v:f eqn="sum @1 0 @2"/>`, defines the value (=@1 + 0 -@2). This value can be referenced as @3.
--   Inside the &lt;path&gt; element, the values defined in the first (@0) and the fourth (@3) formulas are used to determine the outline of the shape.
+-   Inside the <path> element, the values defined in the first (@0) and the fourth (@3) formulas are used to determine the outline of the shape.
 
 If you change the **adj** list, such as `adj="20000"`, the values of the formulas that reference the **adj** list will be changed as well, affecting the smiling face as follows:
 

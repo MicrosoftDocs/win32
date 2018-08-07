@@ -26,7 +26,7 @@ Defines how the application will allow custom inset values. Read/write. **String
 
 **Tag Syntax**
 
-&lt;v: *element* o:insetmode=" *expression* "&gt;
+<v: *element* o:insetmode=" *expression* ">
 
 **Remarks**
 

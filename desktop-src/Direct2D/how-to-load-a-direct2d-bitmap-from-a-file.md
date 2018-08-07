@@ -83,7 +83,7 @@ Direct2D uses the Windows Imaging Component (WIC) to load bitmaps. To load a bit
     </thead>
     <tbody>
     <tr class="odd">
-    <td><pre><code>        hr = pConverter-&gt;Initialize(
+    <td><pre><code>        hr = pConverter->Initialize(
                 pSource,
                 GUID_WICPixelFormat32bppPBGRA,
                 WICBitmapDitherTypeNone,

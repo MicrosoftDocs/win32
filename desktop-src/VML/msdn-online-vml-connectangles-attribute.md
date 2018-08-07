@@ -26,7 +26,7 @@ Specifies the angle that curves will connect to a shape's connection points. Rea
 
 **Tag Syntax**
 
-&lt;v: *element* o:connectangles=" *expression* "&gt;
+<v: *element* o:connectangles=" *expression* ">
 
 **Remarks**
 

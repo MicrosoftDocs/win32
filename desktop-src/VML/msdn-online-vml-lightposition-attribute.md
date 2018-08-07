@@ -26,7 +26,7 @@ Specifies the position of the primary light in a scene. Read/write. **VgVector3D
 
 **Tag Syntax**
 
-&lt;o: *element* lightposition=" *expression* "&gt;
+<o: *element* lightposition=" *expression* ">
 
 **Script Syntax**
 

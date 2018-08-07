@@ -26,7 +26,7 @@ Defines the alignment of a horizontal rule. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* o:hralign=" *expression* "&gt;
+<v: *element* o:hralign=" *expression* ">
 
 **Remarks**
 

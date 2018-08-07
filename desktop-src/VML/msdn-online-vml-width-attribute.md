@@ -26,7 +26,7 @@ Defines the width of the shape. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* style="width: *expression* "&gt;
+<v: *element* style="width: *expression* ">
 
 **Script Syntax**
 

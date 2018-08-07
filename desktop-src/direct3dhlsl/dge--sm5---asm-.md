@@ -36,7 +36,7 @@ Component-wise double-precision greater-than-or-equal comparison.
 
 ## Remarks
 
-This instruction performs the double-precision floating-point comparison (*src0* &gt;= *src1*) for each component, and writes the result to *dest*.
+This instruction performs the double-precision floating-point comparison (*src0* >= *src1*) for each component, and writes the result to *dest*.
 
 If the comparison is true, then 32-bit 0xFFFFFFFF is returned for that component. Otherwise 32-bit 0x00000000 is returned.
 

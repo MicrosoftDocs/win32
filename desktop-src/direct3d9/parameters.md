@@ -15,7 +15,7 @@ Parameters are effect variables.
 
 ## Syntax
 
-*usage type ID* \[: *semantic*\] \[&lt;*annotation(s)*&gt;\] \[= *expression*\];
+*usage type ID* \[: *semantic*\] \[<*annotation(s)*>\] \[= *expression*\];
 
 Parameters can be read from and written to by the application with [**ID3DXEffect**](id3dxeffect.md) or [**ID3DXEffectCompiler**](id3dxeffectcompiler.md).
 

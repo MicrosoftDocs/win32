@@ -86,7 +86,7 @@ if (newMedia.get_isIdentical(player.currentMedia) != true)
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>If (newMedia.isIdentical(player.currentMedia) &lt;&gt; True) Then
+<td><pre><code>If (newMedia.isIdentical(player.currentMedia) <> True) Then
 
     &#39; Change the current media to the new media item.
     player.currentMedia = newMedia

@@ -22,7 +22,7 @@ This table and the following list summarize the syntax to use in conditional exp
 | Item                | Syntax                                                                                                          |
 |---------------------|-----------------------------------------------------------------------------------------------------------------|
 | value               | symbol \| literal \| integer                                                                                    |
-| comparison-operator | &lt; \| &gt; \| &lt;= \| &gt;= \| = \| &lt;&gt;                                                                 |
+| comparison-operator | < \| > \| <= \| >= \| = \| <>                                                                 |
 | term                | value \| value comparison-operator value \| ( expression )\|                                                    |
 | Boolean-factor      | term \| **NOT** term                                                                                            |
 | Boolean-term        | Boolean-factor \| Boolean-factor **AND** term                                                                   |
@@ -37,7 +37,7 @@ This table and the following list summarize the syntax to use in conditional exp
 -   Environment variable names are not case sensitive.
 -   Literal text must be enclosed between quotation marks ("text").
     > [!Note]  
-    > Literal text containing quotation marks cannot be used in conditional statements because there is no escape character for quotation marks inside literal text. To do a comparison against literal text containing quotation marks, the literal text should be put in a property. For example, to verify that the SERVERNAME property does not contain any quotation marks, define a property called QUOTES in the [Property table](property-table.md) with a value of " and change the condition to NOT SERVERNAME&gt;&lt;QUOTES.
+    > Literal text containing quotation marks cannot be used in conditional statements because there is no escape character for quotation marks inside literal text. To do a comparison against literal text containing quotation marks, the literal text should be put in a property. For example, to verify that the SERVERNAME property does not contain any quotation marks, define a property called QUOTES in the [Property table](property-table.md) with a value of " and change the condition to NOT SERVERNAME><QUOTES.
 
      
 
@@ -48,7 +48,7 @@ This table and the following list summarize the syntax to use in conditional exp
 -   Parentheses can be used to override operator precedence.
 -   Operators are not case sensitive.
 -   For string comparisons, a tilde "~" prefixed to the operator performs a comparison that is not case sensitive.
--   Comparison of an integer with a string or property value that cannot be converted to an integer is always **msiEvaluateConditionFalse**, except for the comparison operator "&lt;&gt;", which returns **msiEvaluateConditionTrue**.
+-   Comparison of an integer with a string or property value that cannot be converted to an integer is always **msiEvaluateConditionFalse**, except for the comparison operator "<>", which returns **msiEvaluateConditionTrue**.
 
 ## Access Prefixes
 
@@ -97,11 +97,11 @@ The following table shows the comparison operators used in conditional expressio
 | Operator | Meaning                                                     |
 |----------|-------------------------------------------------------------|
 | =        | TRUE if left value is equal to right value.                 |
-| &lt;&gt; | TRUE if left value is not equal to right value.             |
-| &gt;     | TRUE if left value is greater than right value.             |
-| &gt;=    | TRUE if left value is greater than or equal to right value. |
-| &lt;     | TRUE if left value is less than right value.                |
-| &lt;=    | TRUE if left value is less than or equal to right value.    |
+| <> | TRUE if left value is not equal to right value.             |
+| >     | TRUE if left value is greater than right value.             |
+| >=    | TRUE if left value is greater than or equal to right value. |
+| <     | TRUE if left value is less than right value.                |
+| <=    | TRUE if left value is less than or equal to right value.    |
 
 
 
@@ -115,9 +115,9 @@ The following table shows the substring operators used in conditional expression
 
 | Operator | Meaning                                           |
 |----------|---------------------------------------------------|
-| &gt;&lt; | TRUE if left string contains the right string.    |
-| &lt;&lt; | TRUE if left string starts with the right string. |
-| &gt;&gt; | TRUE if left string ends with the right string.   |
+| >< | TRUE if left string contains the right string.    |
+| << | TRUE if left string starts with the right string. |
+| >> | TRUE if left string ends with the right string.   |
 
 
 
@@ -131,9 +131,9 @@ The following table shows the bitwise numeric operators in conditional expressio
 
 | Operator | Meaning                                                                      |
 |----------|------------------------------------------------------------------------------|
-| &gt;&lt; | Bitwise AND, TRUE if the left and right integers have any bits in common.    |
-| &lt;&lt; | True if the high 16-bits of the left integer are equal to the right integer. |
-| &gt;&gt; | True if the low 16-bits of the left integer are equal to the right integer.  |
+| >< | Bitwise AND, TRUE if the left and right integers have any bits in common.    |
+| << | True if the high 16-bits of the left integer are equal to the right integer. |
+| >> | True if the low 16-bits of the left integer are equal to the right integer.  |
 
 
 
@@ -145,7 +145,7 @@ The following table shows where it is valid to use the feature and component ope
 
 
 
-| Operator &lt;state&gt; | Where this syntax is valid                                                                                                                                         |
+| Operator <state> | Where this syntax is valid                                                                                                                                         |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | $component-action      | In the [Condition](condition-table.md) table, and in the [sequence](using-a-sequence-table.md) tables, after the [CostFinalize](costfinalize-action.md) action. |
 | &feature-action        | In the [Condition](condition-table.md) table, and in the [sequence](using-a-sequence-table.md) tables, after the [CostFinalize](costfinalize-action.md) action. |

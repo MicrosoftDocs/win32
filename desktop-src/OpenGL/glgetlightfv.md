@@ -43,7 +43,7 @@ void WINAPI glGetLightfv(
 *light* 
 </dt> <dd>
 
-A light source. The number of possible lights depends on the implementation, but at least eight lights are supported. They are identified by symbolic names of the form GL\_LIGHT *i* where 0 = *i* &lt; GL\_MAX\_LIGHTS.
+A light source. The number of possible lights depends on the implementation, but at least eight lights are supported. They are identified by symbolic names of the form GL\_LIGHT *i* where 0 = *i* < GL\_MAX\_LIGHTS.
 
 </dd> <dt>
 
@@ -86,7 +86,7 @@ This function does not return a value.
 
 ## Remarks
 
-The **glGetLight** function returns in *params* the value or values of a light source parameter. The *light* parameter names the light and is a symbolic name of the form GL\_LIGHT*i* for 0 = *i* &lt; GL\_MAX\_LIGHTS, where GL\_MAX\_LIGHTS is an implementation-dependent constant that is greater than or equal to eight. The *pname* parameter specifies one of ten light source parameters, again by symbolic name.
+The **glGetLight** function returns in *params* the value or values of a light source parameter. The *light* parameter names the light and is a symbolic name of the form GL\_LIGHT*i* for 0 = *i* < GL\_MAX\_LIGHTS, where GL\_MAX\_LIGHTS is an implementation-dependent constant that is greater than or equal to eight. The *pname* parameter specifies one of ten light source parameters, again by symbolic name.
 
 It is always the case that GL\_LIGHT*i* = GL\_LIGHT0 + *i*.
 

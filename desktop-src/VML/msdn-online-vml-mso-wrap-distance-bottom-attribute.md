@@ -26,7 +26,7 @@ Defines the distance from the bottom side of the shape to the text that wraps ar
 
 **Tag Syntax**
 
-&lt;v: *element* style="mso-wrap-distance-bottom: *expression* "&gt;
+<v: *element* style="mso-wrap-distance-bottom: *expression* ">
 
 **Remarks**
 

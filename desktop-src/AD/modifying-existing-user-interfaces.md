@@ -42,11 +42,11 @@ The following table lists the contents of these values.
 
 | Value                        | Description                                                                                                                         |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| "&lt;ldapdisplayname&gt;"    | Contains a string that represents the **ldapDisplayName** of the attribute.                                                         |
-| "&lt;column header&gt;"      | Contains a string that represents the text displayed in the header for the column.                                                  |
-| "&lt;default visibility&gt;" | Contains a numeric value that is 0 if the attribute is hidden by default or 1 if the attribute is visible by default.               |
-| "&lt;width&gt;"              | Contains the width of the column, in pixels. If this value is -1, the width of the column is set to the width of the column header. |
-| "&lt;unused&gt;"             | Unused. Must be zero.                                                                                                               |
+| "<ldapdisplayname>"    | Contains a string that represents the **ldapDisplayName** of the attribute.                                                         |
+| "<column header>"      | Contains a string that represents the text displayed in the header for the column.                                                  |
+| "<default visibility>" | Contains a numeric value that is 0 if the attribute is hidden by default or 1 if the attribute is visible by default.               |
+| "<width>"              | Contains the width of the column, in pixels. If this value is -1, the width of the column is set to the width of the column header. |
+| "<unused>"             | Unused. Must be zero.                                                                                                               |
 
 
 

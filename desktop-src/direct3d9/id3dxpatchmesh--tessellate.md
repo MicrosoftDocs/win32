@@ -44,7 +44,7 @@ HRESULT Tessellate(
 
 Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
-Tessellation level. This is the number of vertices introduced between existing vertices. The range of this float parameter is 0 &lt; fTessLevel &lt;= 32.
+Tessellation level. This is the number of vertices introduced between existing vertices. The range of this float parameter is 0 < fTessLevel <= 32.
 
 </dd> <dt>
 

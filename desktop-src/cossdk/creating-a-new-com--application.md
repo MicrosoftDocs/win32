@@ -26,7 +26,7 @@ Creating a new COM+ application requires two basic steps, as follows:
 
 4.  On the **Welcome** page of the COM+ Application Install Wizard, click **Next**, and then in the **Install or Create a New Application** dialog box, click **Create an empty application**.
 
-5.  In the box provided, type a name for the new application. (Note that the following special characters cannot be used in an application name: \\, /, ~, !, @, \#, %, ^, &, \*, (, ), \|, }, {, \], \[, ', ", &gt;, &lt;, ., ?, :, and ;.) Under **Activation type**, click **Library application** or **Server application**. Click **Next**.
+5.  In the box provided, type a name for the new application. (Note that the following special characters cannot be used in an application name: \\, /, ~, !, @, \#, %, ^, &, \*, (, ), \|, }, {, \], \[, ', ", >, <, ., ?, :, and ;.) Under **Activation type**, click **Library application** or **Server application**. Click **Next**.
 
     > [!Note]  
     > A server application runs in its own process. Server applications can support all COM+ services. A library application runs in the process of the client that creates it. Library applications can use role-based security but do not support remote access or queued components.

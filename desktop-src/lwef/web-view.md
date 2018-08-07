@@ -273,7 +273,7 @@ The normal banner for Generic.htt is defined by:
 
 
 
-The first part of the banner section displays the title with a horizontal rule underneath it. Table tags are used to control its position. The nowrap attribute is set for the &lt;TD&gt; tag to prevent word wrapping. The system will replace %THISDIRNAME% with the name of the current folder. A **WebViewFolderIcon** object, with an identifier of "Icon" for simplicity, is then loaded to extract and display the folder's icon.
+The first part of the banner section displays the title with a horizontal rule underneath it. Table tags are used to control its position. The nowrap attribute is set for the <TD> tag to prevent word wrapping. The system will replace %THISDIRNAME% with the name of the current folder. A **WebViewFolderIcon** object, with an identifier of "Icon" for simplicity, is then loaded to extract and display the folder's icon.
 
 The minibanner section is similar to the normal banner. The format of the title is placed slightly higher and does not have a rule. Because there is no icon, the **WebViewFolderIcon** object is not loaded.
 
@@ -363,7 +363,7 @@ As a Web view is resized, the width of the Info region will change to maintain t
 
 ### Loading and Initializing the Web View
 
-When a Web view is loaded, the layout needs to be adjusted to fit the available display area. Because no item has been selected yet, Web views normally display some default information that applies to the whole folder. To handle initialization, the &lt;BODY&gt; tag for Generic.htt detects the [onload](http://msdn.microsoft.com/library/ms531409(VS.85).aspx) event and calls the **Init** function.
+When a Web view is loaded, the layout needs to be adjusted to fit the available display area. Because no item has been selected yet, Web views normally display some default information that applies to the whole folder. To handle initialization, the <BODY> tag for Generic.htt detects the [onload](http://msdn.microsoft.com/library/ms531409(VS.85).aspx) event and calls the **Init** function.
 
 
 ```
@@ -509,7 +509,7 @@ When a user selects an item, the FileList object fires a [SelectionChanged](#ret
 
 The script uses two FileList properties, [**FileList.FocusedItem**](https://msdn.microsoft.com/library/windows/desktop/bb774020)and [**FileList.Folder**](https://msdn.microsoft.com/library/windows/desktop/bb774022) to obtain information about the item. **FileList.FocusedItem** identifies the selected item, with the item's name given by **FileList.FocusedItem.Name**. **FileList.Folder** is actually a pointer to a [**Folder**](https://msdn.microsoft.com/library/windows/desktop/bb787868) object. The Folder object's [**GetDetailsOf**](https://msdn.microsoft.com/library/windows/desktop/bb787870) method is used to retrieve the remaining information about the item.
 
-All the information is concatenated into a single text string, separated by &lt;BR&gt; tags for readability. The text is then displayed by assigning it to [TextBlock.innerHTML](http://msdn.microsoft.com/library/ms533897(VS.85).aspx).
+All the information is concatenated into a single text string, separated by <BR> tags for readability. The text is then displayed by assigning it to [TextBlock.innerHTML](http://msdn.microsoft.com/library/ms533897(VS.85).aspx).
 
 ## Summary
 

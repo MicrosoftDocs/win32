@@ -26,7 +26,7 @@ Defines a name that provides a unique identifier for a skew. Read/write. **Strin
 
 **Tag Syntax**
 
-&lt;o: *element* id=" *expression* "&gt;
+<o: *element* id=" *expression* ">
 
 **Script Syntax**
 

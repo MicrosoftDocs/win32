@@ -26,7 +26,7 @@ Defines the size of the font. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* style="font-size: *expression* "&gt;
+<v: *element* style="font-size: *expression* ">
 
 **Script Syntax**
 

@@ -26,7 +26,7 @@ Bottom border color of an inline shape. Read/write. **VgColor**.
 
 **Tag Syntax**
 
-&lt;v: *element* o:borderbottomcolor=" *expression* "&gt;
+<v: *element* o:borderbottomcolor=" *expression* ">
 
 **Remarks**
 

@@ -26,7 +26,7 @@ Defines the amount of contrast for an image. Read/write. **VgNumber**.
 
 **Tag Syntax**
 
-&lt;v: *element* gamma=" *expression* "&gt;
+<v: *element* gamma=" *expression* ">
 
 **Script Syntax**
 

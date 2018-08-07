@@ -352,11 +352,11 @@ In this example, users can quickly comprehend the nature of the notification wit
 -   **Use the following phrasing if the notification is actionable:**
     -   If users can click the notification to perform an action:
 
-        &lt; brief description of essential information&gt;
+        < brief description of essential information>
 
-        &lt;optional details&gt;
+        <optional details>
 
-        Click to &lt;do something&gt;.
+        Click to <do something>.
 
         ![screen shot of message: 'click to view progress' ](images/mess-notif-image24.png)
 
@@ -364,9 +364,9 @@ In this example, users can quickly comprehend the nature of the notification wit
 
     -   If users can click the notification to see more information:
 
-        &lt; brief description of essential information&gt;
+        < brief description of essential information>
 
-        &lt;optional details&gt;
+        <optional details>
 
         Click for more information.
 

@@ -57,13 +57,13 @@ Rich Edit first adds *wParam*to the current font size and then uses the resultin
 
 | Band    | Rounding value |
 |---------|----------------|
-| &lt;=12 | 1              |
+| <=12 | 1              |
 | 28      | 2              |
 | 36      | 0              |
 | 48      | 0              |
 | 72      | 0              |
 | 80      | 0              |
-| &gt; 80 | 10             |
+| > 80 | 10             |
 
 
 

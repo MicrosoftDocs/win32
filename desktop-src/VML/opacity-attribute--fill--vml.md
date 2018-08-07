@@ -26,7 +26,7 @@ Defines the transparency of a fill. Read/write. [VgFraction](msdn-online-vml-vgf
 
 **Tag Syntax**
 
-&lt;v: *element* opacity=" *expression* "&gt;
+<v: *element* opacity=" *expression* ">
 
 **Script Syntax**
 

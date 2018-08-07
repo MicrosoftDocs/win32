@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 The Windows Media Format SDK does not include a Visual Studio solution file. However, this document includes two files that enable you to use Visual Studio to build and debug the sample service provider. Both the files provided are for Visual Studio .NET 2003.
 
--   Save the following code as a text file named mshdsp.vcproj in the folder &lt;*SDK installation path*&gt;\\WMFSDK\\WMFSDK95\\WMDM\\mdsp\\mshdsp.
+-   Save the following code as a text file named mshdsp.vcproj in the folder <*SDK installation path*>\\WMFSDK\\WMFSDK95\\WMDM\\mdsp\\mshdsp.
 
 
 ```C++

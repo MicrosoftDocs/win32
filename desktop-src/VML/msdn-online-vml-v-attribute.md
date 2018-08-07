@@ -26,7 +26,7 @@ Defines the commands that make up a path. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* v=" *expression* "&gt;
+<v: *element* v=" *expression* ">
 
 **Script Syntax**
 

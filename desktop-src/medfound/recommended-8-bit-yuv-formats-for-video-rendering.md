@@ -227,8 +227,8 @@ V = clip3(0, (2^M)-1, floor(2^(M-8) * (112*(R-L) / ((1-Kr)*S) + 128) + 0.5))
 
 where
 
--   M is the number of bits per YUV sample (M &gt;= 8).
--   Z is the black-level variable. For computer RGB, Z equals 0. For studio video RGB, Z equals 16\*2^(N-8), where N is the number of bits per RGB sample (N &gt;= 8).
+-   M is the number of bits per YUV sample (M >= 8).
+-   Z is the black-level variable. For computer RGB, Z equals 0. For studio video RGB, Z equals 16\*2^(N-8), where N is the number of bits per RGB sample (N >= 8).
 -   S is the scaling variable. For computer RGB, S equals 255. For studio video RGB, S equals 219\*2^(N-8).
 
 The function floor(x) returns the largest integer less than or equal to x. The function clip3(x, y, z) is defined as follows:

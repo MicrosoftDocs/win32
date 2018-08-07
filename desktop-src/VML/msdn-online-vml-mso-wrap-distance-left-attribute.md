@@ -26,7 +26,7 @@ Defines the distance from the left side of the shape to the text that wraps arou
 
 **Tag Syntax**
 
-&lt;v: *element* style="mso-wrap-distance-left: *expression* "&gt;
+<v: *element* style="mso-wrap-distance-left: *expression* ">
 
 **Remarks**
 

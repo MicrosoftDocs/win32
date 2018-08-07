@@ -37,11 +37,11 @@ or
 
 
 
-In these examples, the "&lt;state&gt;" is an integer with a value between 0 and 15. The value 0 is defined to be the default or closed state of the icon. The value 1 is defined to be the open state of the icon. The value 2 is the disabled state. All other values are application-defined.
+In these examples, the "<state>" is an integer with a value between 0 and 15. The value 0 is defined to be the default or closed state of the icon. The value 1 is defined to be the open state of the icon. The value 2 is the disabled state. All other values are application-defined.
 
-The "&lt;icon file name&gt;" is the path and file name of an icon file that contains the icon image.
+The "<icon file name>" is the path and file name of an icon file that contains the icon image.
 
-The "&lt;module file name&gt;" is the path and file name of a module, such as an EXE or DLL, that contains the icon image in a resource. The "&lt;resource ID&gt;" is an integer that specifies the resource identifier of the icon resource within the module.
+The "<module file name>" is the path and file name of a module, such as an EXE or DLL, that contains the icon image in a resource. The "<resource ID>" is an integer that specifies the resource identifier of the icon resource within the module.
 
 ## Adding a Value to the **iconPath** Attribute
 

@@ -26,7 +26,7 @@ Determines whether the text attached to a shape can be edited. Read/write. **VgT
 
 **Tag Syntax**
 
-&lt;o: *element* text=" *expression* "&gt;
+<o: *element* text=" *expression* ">
 
 **Remarks**
 

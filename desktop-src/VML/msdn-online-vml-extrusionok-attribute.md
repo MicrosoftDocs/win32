@@ -26,7 +26,7 @@ Determines whether an extrusion will be displayed. Read/write. **VgTriState**.
 
 **Tag Syntax**
 
-&lt;v: *element* o:extrusionok=" *expression* "&gt;
+<v: *element* o:extrusionok=" *expression* ">
 
 **Remarks**
 

@@ -47,7 +47,7 @@ In Windows 10, we ve implemented a V4 engine interface that provides 2 new engin
 <td><ol>
 <li>[<strong>SensorAdapterStartCapture</strong>](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_start_capture_fn)</li>
 <li>[<strong>SensorAdapterFinishCapture</strong>](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_finish_capture_fn)</li>
-<li>[<strong>SensorAdapterPushDataToEngine</strong>](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_push_data_to_engine_fn)<strong>[-&gt;</strong>[<strong>EngineAdapterAcceptSampleData</strong>](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_accept_sample_data_fn)]</li>
+<li>[<strong>SensorAdapterPushDataToEngine</strong>](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_push_data_to_engine_fn)<strong>[-></strong>[<strong>EngineAdapterAcceptSampleData</strong>](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_accept_sample_data_fn)]</li>
 <li>If S_OK or WINBIO_I_MORE_DATA
 <ol>
 <li>[<strong>EngineAdapterUpdateEnrollment</strong>](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_update_enrollment_fn)</li>

@@ -26,7 +26,7 @@ Defines the intensity of the secondary light source for the scene. Read/write. *
 
 **Tag Syntax**
 
-&lt;o: *element* lightlevel2=" *expression* "&gt;
+<o: *element* lightlevel2=" *expression* ">
 
 **Script Syntax**
 

@@ -110,7 +110,7 @@ Beginning in Windows 10, version 1607 and Windows Server 2016, the following P
 
 To add cipher suites, either deploy a group policy or use the TLS cmdlets:
 
--   To use group policy, configure SSL Cipher Suite Order under Computer Configuration &gt; Administrative Templates &gt; Network &gt; SSL Configuration Settings with the priority list for all cipher suites you want enabled.
+-   To use group policy, configure SSL Cipher Suite Order under Computer Configuration > Administrative Templates > Network > SSL Configuration Settings with the priority list for all cipher suites you want enabled.
 -   To use PowerShell, see [TLS cmdlets](https://technet.microsoft.com/library/dn296632.aspx).
 
 > [!Note]  

@@ -26,7 +26,7 @@ Defines the behavior of locking actions for a graphical editor. Read/write. **St
 
 **Tag Syntax**
 
-&lt;o: *element* v:ext=" *expression* "&gt;
+<o: *element* v:ext=" *expression* ">
 
 **Remarks**
 

@@ -26,7 +26,7 @@ Defines the intensity of black in an image. Read/write. **VgNumber**.
 
 **Tag Syntax**
 
-&lt;v: *element* blacklevel=" *expression* "&gt;
+<v: *element* blacklevel=" *expression* ">
 
 **Script Syntax**
 

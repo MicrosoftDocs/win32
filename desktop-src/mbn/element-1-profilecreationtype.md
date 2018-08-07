@@ -20,8 +20,8 @@ This value is used to decide whether a user can delete the profile. Users can on
 
 ## Element hierarchy
 
-[&lt;ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
-**&lt;ProfileCreationType&gt;**
+[<ModemDMConfigProfile>](element-modemdmconfigprofile.md)  
+**<ProfileCreationType>**
 
 ## Syntax
 

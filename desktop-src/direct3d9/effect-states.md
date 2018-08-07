@@ -85,7 +85,7 @@ LightAmbient[0] = float4<0.7f, 0.0f, 0.0f, 1.0f>;
 
 
 
-This will enable lighting, make point lighting the type, set the light position to float3&lt;10.0f, 1.0f, 23.0f&gt;, and set the ambient color to float4&lt;0.7f, 0.0f, 0.0f, 1.0f&gt;.
+This will enable lighting, make point lighting the type, set the light position to float3<10.0f, 1.0f, 23.0f>, and set the ambient color to float4<0.7f, 0.0f, 0.0f, 1.0f>.
 
 ## Material States
 
@@ -116,7 +116,7 @@ MaterialPower = 3.0f;
 
 
 
-This will set the diffuse color to float4&lt;0.7f, 0.0f, 0.0f, 1.0f&gt; and make the power of the material 3.0f.
+This will set the diffuse color to float4<0.7f, 0.0f, 0.0f, 1.0f> and make the power of the material 3.0f.
 
 ## Render States
 
@@ -366,7 +366,7 @@ FogColor = 0xff0000;
 
 
 
-This will make the ambient color float4&lt;0.7f, 0.0f, 0.0f, 1.0f&gt;, set the backface culling mode to counter-clockwise, and set the fog color to red.
+This will make the ambient color float4<0.7f, 0.0f, 0.0f, 1.0f>, set the backface culling mode to counter-clockwise, and set the fog color to red.
 
 ## Sampler States
 

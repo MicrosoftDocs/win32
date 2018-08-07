@@ -45,7 +45,7 @@ The first step is to use the shell you will use for most skins:
 
 
 
-Now add a second **VIEW**, which contains a playlist. Place the following code after the &lt;/VIEW&gt; of the shell code.
+Now add a second **VIEW**, which contains a playlist. Place the following code after the </VIEW> of the shell code.
 
 
 ```C++

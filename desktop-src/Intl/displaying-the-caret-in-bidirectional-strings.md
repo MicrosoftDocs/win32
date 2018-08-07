@@ -61,7 +61,7 @@ ScriptCPtoX(
 
 
 
-[**ScriptCPtoX**](/windows/desktop/api/Usp10/nf-usp10-scriptcptox) handles out-of-range positions logically. It returns the leading edge of the run for *iCharPos* &lt;0, and the trailing edge of the run for *iCharPos* &gt;= length. For more information, see [Managing Caret Placement and Hit Testing](managing-caret-placement-and-hit-testing.md)
+[**ScriptCPtoX**](/windows/desktop/api/Usp10/nf-usp10-scriptcptox) handles out-of-range positions logically. It returns the leading edge of the run for *iCharPos* <0, and the trailing edge of the run for *iCharPos* >= length. For more information, see [Managing Caret Placement and Hit Testing](managing-caret-placement-and-hit-testing.md)
 
 ## Related topics
 

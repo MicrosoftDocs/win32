@@ -35,7 +35,7 @@ Declare a reference to a region of shared memory space available to the compute 
 
 ## Remarks
 
-The total storage for all g\# must be &lt;= the amount of shared memory available per thread group, which is 32kB.
+The total storage for all g\# must be <= the amount of shared memory available per thread group, which is 32kB.
 
 In an extreme case, you can declare 8192 total g\# s, each with a *byteCount* of 4.
 

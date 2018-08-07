@@ -64,9 +64,9 @@ Numeric language ID of the merge module in ExcludedID. The ExcludedLanguage colu
 
 | ExcludedLanguage | Meaning                                                              |
 |------------------|----------------------------------------------------------------------|
-| &gt; 0           | Exclude the language IDs specified by ExcludedLanguage.              |
+| > 0           | Exclude the language IDs specified by ExcludedLanguage.              |
 | = 0              | Exclude no language IDs.                                             |
-| &lt; 0           | Exclude all language IDs except those specified by ExcludedLanguage. |
+| < 0           | Exclude all language IDs except those specified by ExcludedLanguage. |
 
 
 

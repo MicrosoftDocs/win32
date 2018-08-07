@@ -26,7 +26,7 @@ Specifies the position of the secondary light in a scene. Read/write. **VgVector
 
 **Tag Syntax**
 
-&lt;o: *element* lightposition2=" *expression* "&gt;
+<o: *element* lightposition2=" *expression* ">
 
 **Script Syntax**
 

@@ -66,7 +66,7 @@ Nesting depth defines the number of instructions can be called from inside of ea
 
 | Instruction Type | Maximum                                                                                   |
 |------------------|-------------------------------------------------------------------------------------------|
-| Static nesting   | 24 if (D3DCAPS9.D3DPSHADERCAPS2\_0.StaticFlowControlDepth &gt; 0); 0 otherwise            |
+| Static nesting   | 24 if (D3DCAPS9.D3DPSHADERCAPS2\_0.StaticFlowControlDepth > 0); 0 otherwise            |
 | Dynamic nesting  | 0 to 24, see D3DCAPS9.D3DPSHADERCAPS2\_0.DynamicFlowControlDepth                          |
 | rep nesting      | 0 to 4, see D3DCAPS9.D3DPSHADERCAPS2\_0.StaticFlowControlDepth                            |
 | call nesting     | 0 to 4, see D3DCAPS9.D3DPSHADERCAPS2\_0.StaticFlowControlDepth (independent of rep limit) |

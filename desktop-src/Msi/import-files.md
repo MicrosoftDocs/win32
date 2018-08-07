@@ -26,7 +26,7 @@ You'll require the CScript.exe or WScript.exe version of Windows Script Host to 
 
 **cscript WiImport.vbs \[path to database\]\[path to folder\]\[options\] \[archive file list**\]
 
-Help is displayed if the first argument is /? or if too few arguments are specified. To redirect the output to a file, end the command line with VBS &gt; \[path to file\].The sample returns a value of 0 for success, 1 if help is invoked, and 2 if the script fails.
+Help is displayed if the first argument is /? or if too few arguments are specified. To redirect the output to a file, end the command line with VBS > \[path to file\].The sample returns a value of 0 for success, 1 if help is invoked, and 2 if the script fails.
 
 Specify the path to a Windows installer database that is to be created or that is to receive the imported tables. Specify the path to the folder containing the archive files of the tables that are being imported. List the names of the archive files that are being imported. Wildcard file names, such as \*.idt, can be used to import multiple files.
 

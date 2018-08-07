@@ -17,7 +17,7 @@ An Option element contains all of the Property and ScoredProperty elements assoc
 
 ## Element Tag
 
-&lt;Option&gt;
+<Option>
 
 ## XML Attributes
 

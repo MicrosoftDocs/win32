@@ -26,7 +26,7 @@ Defines the second color of a shadow. Read/write. **VgColor**.
 
 **Tag Syntax**
 
-&lt;v: *element* color2=" *expression* "&gt;
+<v: *element* color2=" *expression* ">
 
 **Script Syntax**
 

@@ -26,7 +26,7 @@ Determines whether a stroke will be displayed. Read/write. **VgTriState**.
 
 **Tag Syntax**
 
-&lt;v: *element* strokeok=" *expression* "&gt;
+<v: *element* strokeok=" *expression* ">
 
 **Script Syntax**
 

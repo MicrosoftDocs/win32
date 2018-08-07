@@ -34,7 +34,7 @@ The [**accountExpires**](https://msdn.microsoft.com/library/ms675098) attribute 
 
 The [**altSecurityIdentities**](https://msdn.microsoft.com/library/ms675221) attribute is a multi-valued attribute that contains mappings for X.509 certificates or external Kerberos user accounts to this user for the purpose of authentication. Various security packages, including Public Key authentication package and Kerberos, use this data to authenticate users when they present the alternative form of identification such as certificate, UNIX Kerberos ticket, and so on. Build a Windows 2000 token based on the corresponding user account such that they can access system resources.
 
-For X.509 certificates, the values should be the Issuer and Subject names in 509v3 certificates, issued by an external public certification authority, that map to the user account used to find an account for authentication. The SSL (Schannel) package uses the following syntax: X509:&lt;somecertinfotype&gt;somecertinfo. For example, the following value specifies the issuer DN "&lt;I&gt;" with the DN "C=US,O=InternetCA,CN=APublicCertificateAuthority" and the subject DN "&lt;S&gt;" with the DN "C=US,O=Fabrikam,OU=Sales,CN=Jeff Smith".
+For X.509 certificates, the values should be the Issuer and Subject names in 509v3 certificates, issued by an external public certification authority, that map to the user account used to find an account for authentication. The SSL (Schannel) package uses the following syntax: X509:<somecertinfotype>somecertinfo. For example, the following value specifies the issuer DN "<I>" with the DN "C=US,O=InternetCA,CN=APublicCertificateAuthority" and the subject DN "<S>" with the DN "C=US,O=Fabrikam,OU=Sales,CN=Jeff Smith".
 
 
 ```C++
@@ -43,7 +43,7 @@ X509:<I>C=US,O=InternetCA,CN=APublicCertificateAuthority<S>C=US,O=Fabrikam,OU=Sa
 
 
 
-Be aware that "&lt;I&gt;" or "&lt;I&gt;" and "&lt;S&gt;" are supported. Having only "&lt;S&gt;" is not supported. Applications should not modify the values within "&lt;I&gt;" or "&lt;S&gt;" because partial DN matching is not supported.
+Be aware that "<I>" or "<I>" and "<S>" are supported. Having only "<S>" is not supported. Applications should not modify the values within "<I>" or "<S>" because partial DN matching is not supported.
 
 For external Kerberos accounts, the values should be the Kerberos account name. The Kerberos package uses the following syntax: "Kerberos:MITaccountname". For example, the following is the value for an account at Fabrikam.com:
 
@@ -107,7 +107,7 @@ The [**homeDrive**](https://msdn.microsoft.com/library/ms676191) attribute speci
 
 
 
-where "&lt;drive letter&gt;" is the letter of the drive to map. For example:
+where "<drive letter>" is the letter of the drive to map. For example:
 
 
 ```C++

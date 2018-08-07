@@ -27,7 +27,7 @@ You can also enable Windows Sonic by right-clicking the **Volume** icon in the t
 
 ![enable spatial sound from the taskbar](images/spatialsoundsettings1.png)
 
-On Xbox One, Windows Sonic capabilities are always available for the consumer, and are enabled via the Settings App -&gt; Audio.
+On Xbox One, Windows Sonic capabilities are always available for the consumer, and are enabled via the Settings App -> Audio.
 
 ![enable spatial sound on xbox one in the settings app ](images/spatialsoundsettings3.png)
 

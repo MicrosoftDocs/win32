@@ -28,11 +28,11 @@ When you type a search string, suggestions automatically appear below the search
 
 When you click a topic in the search results, you can quickly determine whether the topic provides SDK content by viewing the navigation path that appears at the top of the topic. For example, a search for **cryptography** generates suggestions that include **cryptography api**. Clicking the suggestion **cryptography api**, generates a search results pane that includes **Cryptography Functions (Windows)**. Clicking **Cryptography Functions (Windows)**, brings you to a topic that contains the following navigation path across the top of the topic:
 
-**MSDN &gt; MSDN Library &gt; Windows Development &gt; Security &gt; Cryptography &gt; Cryptography Reference &gt; Cryptography Functions &gt;**
+**MSDN > MSDN Library > Windows Development > Security > Cryptography > Cryptography Reference > Cryptography Functions >**
 
 All Security SDK content contains this portion of that navigation path:
 
-**MSDN &gt; MSDN Library &gt; Windows Development &gt; Security &gt;**
+**MSDN > MSDN Library > Windows Development > Security >**
 
 **To remove search results filters from your MSDN search**
 

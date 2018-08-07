@@ -26,7 +26,7 @@ Defines the brush thickness that strokes the path of a shape. Read/write. **VGLe
 
 **Tag Syntax**
 
-&lt;v: *element* strokeweight=" *expression* "&gt;
+<v: *element* strokeweight=" *expression* ">
 
 **Script Syntax**
 

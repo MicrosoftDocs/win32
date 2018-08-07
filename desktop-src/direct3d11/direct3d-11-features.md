@@ -118,7 +118,7 @@ This is a complete list of the features in Direct3D 11.
 -   Direct3D 11 supports conservative oDepth - This algorithm allows a pixel shader to compare the per-pixel depth value of the pixel shader with that in the rasterizer. The result enables early depth culling operations while maintaining the ability to output oDepth from a pixel shader.
 -   Direct3D 11 supports large memory
 
-    -   Allow for resources &gt; 4GB
+    -   Allow for resources > 4GB
     -   Keep indices of resources 32bit, but resource larger
 
 -   Direct3D 11 supports stream output improvements
@@ -150,7 +150,7 @@ This is a complete list of the features in Direct3D 11.
     -   Floating-point viewports
     -   Per-resource mipmap clamping
     -   Depth Bias - This algorithm updates the behavior of depth bias, by using rasterizer state. The result eliminates the scenarios where the calculated bias could be NaN.
-    -   Resource limits - Resource indices are still required to be &lt;= 32 bits, but resources can be larger than 4 GB.
+    -   Resource limits - Resource indices are still required to be <= 32 bits, but resources can be larger than 4 GB.
     -   Rasterizer Precision
     -   MSAA Requirements
     -   Counters Reduced

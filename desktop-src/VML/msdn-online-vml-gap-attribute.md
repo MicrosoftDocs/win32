@@ -26,7 +26,7 @@ Defines the distance of the callout from the bounding rectangle of the callout. 
 
 **Tag Syntax**
 
-&lt;o: *element* gap=" *expression* "&gt;
+<o: *element* gap=" *expression* ">
 
 **Remarks**
 

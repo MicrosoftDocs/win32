@@ -15,7 +15,7 @@ Pktextract.exe is a tool that extracts the **publicKeyToken** attribute from a c
 
 ## Syntax
 
-**pktextract.exe** *&lt;filename.cer&gt;* **\[-quiet\] \[-nologo\]**
+**pktextract.exe** *<filename.cer>* **\[-quiet\] \[-nologo\]**
 
 ## Command Line Options
 

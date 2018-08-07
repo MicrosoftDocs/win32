@@ -46,7 +46,7 @@ Values from different schemas are reconciled.
 | Order | Path                                    | Disk Format |
 |-------|-----------------------------------------|-------------|
 | 1     | /app1/ifd/exif/{ushort=34855}           | ushort      |
-| 2     | /xmp/&lt;xmpseq&gt;exif:ISOSpeedRatings | unicode     |
+| 2     | /xmp/<xmpseq>exif:ISOSpeedRatings | unicode     |
 | 3     | /xmp/exif:ISOSpeed                      | unicode     |
 
 
@@ -60,7 +60,7 @@ Values from different schemas are reconciled.
 | Order | Path                                    | Disk Format |
 |-------|-----------------------------------------|-------------|
 | 1     | /app1/ifd/exif/{ushort=34855}           | ushort      |
-| 2     | /xmp/&lt;xmpseq&gt;exif:ISOSpeedRatings | unicode     |
+| 2     | /xmp/<xmpseq>exif:ISOSpeedRatings | unicode     |
 | 3     | /xmp/exif:ISOSpeed                      | unicode     |
 
 
@@ -74,7 +74,7 @@ Values from different schemas are reconciled.
 | Order | Path                                    |
 |-------|-----------------------------------------|
 | 1     | /app1/ifd/exif/{ushort=34855}           |
-| 2     | /xmp/&lt;xmpseq&gt;exif:isospeedratings |
+| 2     | /xmp/<xmpseq>exif:isospeedratings |
 | 3     | /xmp/exif:isospeed                      |
 
 
@@ -90,7 +90,7 @@ Values from different schemas are reconciled.
 | Order | Path                                        | Disk Format |
 |-------|---------------------------------------------|-------------|
 | 1     | /ifd/exif/{ushort=34855}                    | ushort      |
-| 2     | /ifd/xmp/&lt;xmpseq&gt;exif:ISOSpeedRatings | unicode     |
+| 2     | /ifd/xmp/<xmpseq>exif:ISOSpeedRatings | unicode     |
 | 3     | /ifd/xmp/exif:ISOSpeed                      | unicode     |
 
 
@@ -104,7 +104,7 @@ Values from different schemas are reconciled.
 | Order | Path                                        | Disk Format |
 |-------|---------------------------------------------|-------------|
 | 1     | /ifd/exif/{ushort=34855}                    | ushort      |
-| 2     | /ifd/xmp/&lt;xmpseq&gt;exif:ISOSpeedRatings | unicode     |
+| 2     | /ifd/xmp/<xmpseq>exif:ISOSpeedRatings | unicode     |
 | 3     | /ifd/xmp/exif:ISOSpeed                      | unicode     |
 
 
@@ -118,7 +118,7 @@ Values from different schemas are reconciled.
 | Order | Path                                        |
 |-------|---------------------------------------------|
 | 1     | /ifd/exif/{ushort=34855}                    |
-| 2     | /ifd/xmp/&lt;xmpseq&gt;exif:isospeedratings |
+| 2     | /ifd/xmp/<xmpseq>exif:isospeedratings |
 | 3     | /ifd/xmp/exif:isospeed                      |
 
 

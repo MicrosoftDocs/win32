@@ -56,9 +56,9 @@ Display options. This parameter can have one or more of the following values.
 | <span id="ISC_SHOWUIGUIDWINDOW"></span><span id="isc_showuiguidwindow"></span><dl> <dt>**ISC\_SHOWUIGUIDWINDOW**</dt> </dl>                      | Show the guide window by user interface window.<br/>                |
 | <span id="ISC_SHOWUISOFTKBD"></span><span id="isc_showuisoftkbd"></span><dl> <dt>**ISC\_SHOWUISOFTKBD**</dt> </dl>                               | Show the soft keyboard by user interface window.<br/>               |
 | <span id="ISC_SHOWUICANDIDATEWINDOW"></span><span id="isc_showuicandidatewindow"></span><dl> <dt>**ISC\_SHOWUICANDIDATEWINDOW**</dt> </dl>       | Show the candidate window of index 0 by user interface window.<br/> |
-| <dl> <dt>ISC\_SHOWUICANDIDATEWINDOW &lt;&lt; 1</dt> </dl>                                                                                        | Show the candidate window of index 1 by user interface window.<br/> |
-| <dl> <dt>ISC\_SHOWUICANDIDATEWINDOW &lt;&lt; 2</dt> </dl>                                                                                        | Show the candidate window of index 2 by user interface window.<br/> |
-| <dl> <dt>ISC\_SHOWUICANDIDATEWINDOW &lt;&lt; 3</dt> </dl>                                                                                        | Show the candidate window of index 3 by user interface window.<br/> |
+| <dl> <dt>ISC\_SHOWUICANDIDATEWINDOW << 1</dt> </dl>                                                                                        | Show the candidate window of index 1 by user interface window.<br/> |
+| <dl> <dt>ISC\_SHOWUICANDIDATEWINDOW << 2</dt> </dl>                                                                                        | Show the candidate window of index 2 by user interface window.<br/> |
+| <dl> <dt>ISC\_SHOWUICANDIDATEWINDOW << 3</dt> </dl>                                                                                        | Show the candidate window of index 3 by user interface window.<br/> |
 
 
 

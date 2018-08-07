@@ -71,7 +71,7 @@ SELECT * FROM MyClass WHERE Prop1 = "cAt"
 
 
 
-You can construct a query that includes Boolean data types, but the only valid Boolean operand types are the =, != and &lt;&gt; types. The value **TRUE** is equivalent to the number 1, and the value **FALSE** is equivalent to the number 0. The following examples are of queries that compare a Boolean value against the values **TRUE** or **FALSE**.
+You can construct a query that includes Boolean data types, but the only valid Boolean operand types are the =, != and <> types. The value **TRUE** is equivalent to the number 1, and the value **FALSE** is equivalent to the number 0. The following examples are of queries that compare a Boolean value against the values **TRUE** or **FALSE**.
 
 
 ```sql

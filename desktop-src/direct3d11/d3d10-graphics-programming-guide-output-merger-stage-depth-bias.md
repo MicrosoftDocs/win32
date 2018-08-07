@@ -28,7 +28,7 @@ There are two options for calculating depth bias.
 
     
 
-    where *r* is the minimum representable value &gt; 0 in the depth-buffer format converted to **float32**. The **DepthBias** and **SlopeScaledDepthBias** values are [**D3D11\_RASTERIZER\_DESC1**](/windows/desktop/api/D3D11_1/ns-d3d11_1-cd3d11_rasterizer_desc1) structure members. The **MaxDepthSlope** value is the maximum of the horizontal and vertical slopes of the depth value at the pixel.
+    where *r* is the minimum representable value > 0 in the depth-buffer format converted to **float32**. The **DepthBias** and **SlopeScaledDepthBias** values are [**D3D11\_RASTERIZER\_DESC1**](/windows/desktop/api/D3D11_1/ns-d3d11_1-cd3d11_rasterizer_desc1) structure members. The **MaxDepthSlope** value is the maximum of the horizontal and vertical slopes of the depth value at the pixel.
 2.  If a floating-point depth buffer is bound to the output-merger stage the bias value is calculated like this:
     ```
     Bias = (float)DepthBias * 2**(exponent(max z in primitive) - r) +

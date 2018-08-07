@@ -26,7 +26,7 @@ Sends an event message when a shape is double-clicked. Read/write. **VgTriState*
 
 **Tag Syntax**
 
-&lt;v: *element* o:doubleclicknotify=" *expression* "&gt;
+<v: *element* o:doubleclicknotify=" *expression* ">
 
 **Remarks**
 

@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # Comments
 
-Add comments to metafiles by following Extensible Markup Language (XML) syntax. Comments begin with "&lt;!--" and end with "--&gt;".
+Add comments to metafiles by following Extensible Markup Language (XML) syntax. Comments begin with "<!--" and end with "-->".
 
 ``` syntax
 
@@ -30,7 +30,7 @@ Add comments to metafiles by following Extensible Markup Language (XML) syntax. 
 
 ## Remarks
 
-Comments can appear anywhere except within element content (between element open and close tags, &lt; &gt;). They are not part of the document's character data and are ignored when the metafile is parsed.
+Comments can appear anywhere except within element content (between element open and close tags, < >). They are not part of the document's character data and are ignored when the metafile is parsed.
 
 ## Examples
 

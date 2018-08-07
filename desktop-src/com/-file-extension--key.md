@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# &lt;file\_extension&gt; Key
+# <file\_extension> Key
 
 Associates a file name extension with a ProgID.
 

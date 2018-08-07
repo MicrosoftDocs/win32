@@ -26,7 +26,7 @@ Defines the way that the shape is extruded. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;o: *element* type=" *expression* "&gt;
+<o: *element* type=" *expression* ">
 
 **Script Syntax**
 

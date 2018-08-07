@@ -49,7 +49,7 @@ uint32 SetName(
 
 Name of the resource group. The name must be 64 characters or less, unique (case is ignored), and cannot contain the following reserved characters:
 
-&lt;&gt; : ; " / \\ \| ? \* \[TAB\]
+<> : ; " / \\ \| ? \* \[TAB\]
 
 </dd> </dl>
 

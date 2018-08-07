@@ -137,7 +137,7 @@ Conversion of HSL (with each component in the range of 0.0 to 1.0) to a Ribbon H
 
 -   H<sub>background</sub> = Round(255.0 H)
 -   S<sub>background</sub> = Round(255.0 S)
--   B<sub>background</sub> = Round(257.7 + 149.9 ln(L)) if 0.1793 &lt;= L &lt;= 0.9821
+-   B<sub>background</sub> = Round(257.7 + 149.9 ln(L)) if 0.1793 <= L <= 0.9821
 
 ## Related topics
 

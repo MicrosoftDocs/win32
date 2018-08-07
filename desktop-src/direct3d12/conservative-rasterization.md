@@ -130,13 +130,13 @@ Conservative Rasterization allows for degenerate triangles to produce Pixel Shad
 
 ### Clipping interaction
 
-When Conservative Rasterization mode is enabled and depth clip is disabled (when the *DepthClipEnable* Rasterizer State is set to FALSE), there may be variances in attribute interpolation for segments of a primitive that fall outside the 0 &lt;= z &lt;= w range, depending on implementation: either constant values are used from a point where the primitive intersects the relevant plane (near or far), or attribute interpolation behaves as when Conservative Rasterization mode is disabled. However, the depth value behavior is the same regardless of Conservative Rasterization mode, i.e. primitives that fall outside of the depth range must still be given the value of the nearest limit of the viewport depth range. Attribute interpolation behavior inside the 0 &lt;= z &lt;= w range must remain unchanged.
+When Conservative Rasterization mode is enabled and depth clip is disabled (when the *DepthClipEnable* Rasterizer State is set to FALSE), there may be variances in attribute interpolation for segments of a primitive that fall outside the 0 <= z <= w range, depending on implementation: either constant values are used from a point where the primitive intersects the relevant plane (near or far), or attribute interpolation behaves as when Conservative Rasterization mode is disabled. However, the depth value behavior is the same regardless of Conservative Rasterization mode, i.e. primitives that fall outside of the depth range must still be given the value of the nearest limit of the viewport depth range. Attribute interpolation behavior inside the 0 <= z <= w range must remain unchanged.
 
 ### Clip Distance interaction
 
 Clip Distance is valid when Conservative Rasterization mode is enabled, and behaves for a conservatively rasterized pixel as it does when Conservative Rasterization is not enabled with all samples covered.
 
-Note that Conservative Rasterization can cause extrapolation of the W vertex coordinate, which may cause W &lt;= 0. This could cause per-pixel Clip Distance implementations to operate on a Clip Distance that has been Perspective Divided by an invalid W value. Clip Distance implementations must guard against invoking rasterization for pixels where vertex coordinate W &lt;= 0 (e.g. due to extrapolation when in Conservative Rasterization mode).
+Note that Conservative Rasterization can cause extrapolation of the W vertex coordinate, which may cause W <= 0. This could cause per-pixel Clip Distance implementations to operate on a Clip Distance that has been Perspective Divided by an invalid W value. Clip Distance implementations must guard against invoking rasterization for pixels where vertex coordinate W <= 0 (e.g. due to extrapolation when in Conservative Rasterization mode).
 
 ### Target Independent Rasterization interaction
 

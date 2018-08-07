@@ -69,7 +69,7 @@ Scripts can connect with the Scripting API for WMI type library using the follow
 
     
 
--   Referencing the WMI type library using the &lt;reference&gt; tag of the WSH 2.0 XML file format. If you use the &lt;reference&gt; tag, the tag must have either a **uuid** attribute whose value is the **GUID** of the WMI type library, or (recommended) an object attribute whose value is the **PROGID** of any of the WMI scripting objects you can create.
+-   Referencing the WMI type library using the <reference> tag of the WSH 2.0 XML file format. If you use the <reference> tag, the tag must have either a **uuid** attribute whose value is the **GUID** of the WMI type library, or (recommended) an object attribute whose value is the **PROGID** of any of the WMI scripting objects you can create.
 
     The following VBScript code example uses the PROGID of "WbemScripting" . To run the script, save the text in a file with a .wsf extension.
 
@@ -89,7 +89,7 @@ Scripts can connect with the Scripting API for WMI type library using the follow
 
     
 
--   Using an &lt;**object**&gt; tag to create a WMI scripting object. You can specify the **id** attribute with the value of a name that references the WMI scripting object you want to create, and the **progid** attribute equal to the PROID of the WMI scripting object.
+-   Using an <**object**> tag to create a WMI scripting object. You can specify the **id** attribute with the value of a name that references the WMI scripting object you want to create, and the **progid** attribute equal to the PROID of the WMI scripting object.
 
     The following WSH script displays the hostname and the number of processors on the local computer. To run the script, save the text in a file with a .wsf extension.
 

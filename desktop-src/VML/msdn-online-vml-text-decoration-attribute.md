@@ -26,7 +26,7 @@ Defines the style of text decoration. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* style="text-decoration: *expression* "&gt;
+<v: *element* style="text-decoration: *expression* ">
 
 **Script Syntax**
 

@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 The following Visual Basic code adds a new RADIUS client, and sets the address and shared secret for the client.
 
 > [!Note]  
-> A COM reference must be added to the Visual Basic project in order for it to build properly. An example of the VB command sequence looks like this: Add reference -&gt; COM -&gt; "IAS SDO 1.0 Type Library". This varies based on your version of VB.
+> A COM reference must be added to the Visual Basic project in order for it to build properly. An example of the VB command sequence looks like this: Add reference -> COM -> "IAS SDO 1.0 Type Library". This varies based on your version of VB.
 
  
 

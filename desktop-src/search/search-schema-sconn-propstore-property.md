@@ -1,5 +1,5 @@
 ---
-Description: The optional &lt;property&gt; element specifies a property used by the search connector. These properties are specific to this search connector, so there is no predefined set of names to use. This element has no child elements.
+Description: The optional <property> element specifies a property used by the search connector. These properties are specific to this search connector, so there is no predefined set of names to use. This element has no child elements.
 ms.assetid: 33854123-d4c0-4385-910b-a32d6922423f
 title: property Element of propertyStore (Search Connector Schema)
 ms.technology: desktop
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # property Element of propertyStore (Search Connector Schema)
 
-The optional &lt;property&gt; element specifies a property used by the search connector. These properties are specific to this search connector, so there is no predefined set of names to use. This element has no child elements.
+The optional <property> element specifies a property used by the search connector. These properties are specific to this search connector, so there is no predefined set of names to use. This element has no child elements.
 
 ## Syntax
 
@@ -112,7 +112,7 @@ OpenSearch search connectors can use the OpenSearchHTMLRolloverTemplate property
 
 ## Example
 
-The following example shows a &lt;propertyStore&gt; element with two &lt;property&gt; elements.
+The following example shows a <propertyStore> element with two <property> elements.
 
 
 ```

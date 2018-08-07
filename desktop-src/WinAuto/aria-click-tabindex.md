@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 ## Text
 
-Element is not disabled and has a **click** event handler but it has **tabIndex** &lt; 0 and is not in the tab order by default.
+Element is not disabled and has a **click** event handler but it has **tabIndex** < 0 and is not in the tab order by default.
 
 ## Type
 

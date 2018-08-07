@@ -40,11 +40,11 @@ The following table describes the supported comparison operators.
 | Comparison operator | Description              |
 |---------------------|--------------------------|
 | =                   | Equal to                 |
-| != or &lt;&gt;      | Not equal to             |
-| &gt;                | Greater than             |
-| &gt;=               | Greater than or equal to |
-| &lt;                | Less than                |
-| &lt;=               | Less than or equal to    |
+| != or <>      | Not equal to             |
+| >                | Greater than             |
+| >=               | Greater than or equal to |
+| <                | Less than                |
+| <=               | Less than or equal to    |
 
 
 

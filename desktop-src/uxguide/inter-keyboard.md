@@ -431,7 +431,7 @@ where \[Do it\] and \[Don't do it\] are specific responses to the main instructi
 -   **Don't use the Application key as a shortcut key modifier.** Use Ctrl, Alt, and Shift instead.
 -   **Don't use shortcut keys used by Windows for program shortcut keys.** Doing so will conflict with the Windows system shortcut keys when your program has input focus.
 -   **Don't use Alt+alphanumeric key combinations for shortcut keys.** Such shortcut keys may conflict with access keys.
--   **Don't use the following characters for shortcut keys:** @ $ {} \[\] \\ ~ \| ^ ' &lt; &gt;. These characters require different key combinations across languages or are locale specific.
+-   **Don't use the following characters for shortcut keys:** @ $ {} \[\] \\ ~ \| ^ ' < >. These characters require different key combinations across languages or are locale specific.
 -   **Avoid complex key combinations,** such as three or more keys together (example: Ctrl+Alt+spacebar) or keys that are far apart on the keyboard (example: Ctrl+F5). Use simple shortcut keys for frequently used commands.
 -   **Don't use Ctrl+Alt combinations,** because Windows interprets this combination in some language versions as an AltGR key, which generates alphanumeric characters.
 

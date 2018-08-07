@@ -25,15 +25,15 @@ Two primary format string tables are used by the engine: the procedure format st
 
 The notation used in this document follows common programming description guidelines, with a bar ( \| ) used to denote alternative constructs and square brackets ( \[ \] ) used to indicate optional elements. Format strings are frequently stacked up for readability (accountability). Throughout this document, FC denotes a single format character. Format characters are presented in all CAPS, using their actual symbolic names. Other arbitrary fields are represented by a name and a size.
 
-Angle brackets ( &lt;&gt; ) are used to denote sizes of the descriptors. The conventions shown in the following table are employed.
+Angle brackets ( <> ) are used to denote sizes of the descriptors. The conventions shown in the following table are employed.
 
 
 
 | Notation     | Meaning                                                   |
 |--------------|-----------------------------------------------------------|
-| &lt;*n*&gt;  | The size of descriptor is n bytes.                        |
-| &lt;&gt;     | The size of descriptor varies.                            |
-| {&lt;&gt;}\* | The descriptor is repeated any number of times (0,1,2 …). |
+| <*n*>  | The size of descriptor is n bytes.                        |
+| <>     | The size of descriptor varies.                            |
+| {<>}\* | The descriptor is repeated any number of times (0,1,2 …). |
 
 
 

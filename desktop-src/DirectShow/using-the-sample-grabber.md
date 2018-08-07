@@ -57,13 +57,13 @@ To start, create the [Filter Graph Manager](filter-graph-manager.md) and query f
         goto done;
     }
 
-    hr = pGraph-&gt;QueryInterface(IID_PPV_ARGS(&pControl));
+    hr = pGraph->QueryInterface(IID_PPV_ARGS(&pControl));
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pGraph-&gt;QueryInterface(IID_PPV_ARGS(&pEvent));
+    hr = pGraph->QueryInterface(IID_PPV_ARGS(&pEvent));
     if (FAILED(hr))
     {
         goto done;
@@ -105,13 +105,13 @@ Create an instance of the Sample Grabber filter and addit to the filter graph. Q
         goto done;
     }
 
-    hr = pGraph-&gt;AddFilter(pGrabberF, L&quot;Sample Grabber&quot;);
+    hr = pGraph->AddFilter(pGrabberF, L&quot;Sample Grabber&quot;);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pGrabberF-&gt;QueryInterface(IID_PPV_ARGS(&pGrabber));
+    hr = pGrabberF->QueryInterface(IID_PPV_ARGS(&pGrabber));
     if (FAILED(hr))
     {
         goto done;
@@ -170,19 +170,19 @@ For example, if you specified uncompressed video, you can connect a source filte
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>    hr = pGraph-&gt;AddSourceFilter(pszVideoFile, L&quot;Source&quot;, &pSourceF);
+<td><pre><code>    hr = pGraph->AddSourceFilter(pszVideoFile, L&quot;Source&quot;, &pSourceF);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pSourceF-&gt;EnumPins(&pEnum);
+    hr = pSourceF->EnumPins(&pEnum);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    while (S_OK == pEnum-&gt;Next(1, &pPin, NULL))
+    while (S_OK == pEnum->Next(1, &pPin, NULL))
     {
         hr = ConnectFilters(pGraph, pPin, pGrabberF);
         SafeRelease(&pPin);
@@ -231,7 +231,7 @@ The following example connects the Sample Grabber to the Null Renderer filter:
         goto done;
     }
 
-    hr = pGraph-&gt;AddFilter(pNullF, L&quot;Null Filter&quot;);
+    hr = pGraph->AddFilter(pNullF, L&quot;Null Filter&quot;);
     if (FAILED(hr))
     {
         goto done;
@@ -413,13 +413,13 @@ HRESULT GrabVideoBitmap(PCWSTR pszVideoFile, PCWSTR pszBitmapFile)
         goto done;
     }
 
-    hr = pGraph-&gt;QueryInterface(IID_PPV_ARGS(&pControl));
+    hr = pGraph->QueryInterface(IID_PPV_ARGS(&pControl));
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pGraph-&gt;QueryInterface(IID_PPV_ARGS(&pEvent));
+    hr = pGraph->QueryInterface(IID_PPV_ARGS(&pEvent));
     if (FAILED(hr))
     {
         goto done;
@@ -433,13 +433,13 @@ HRESULT GrabVideoBitmap(PCWSTR pszVideoFile, PCWSTR pszBitmapFile)
         goto done;
     }
 
-    hr = pGraph-&gt;AddFilter(pGrabberF, L&quot;Sample Grabber&quot;);
+    hr = pGraph->AddFilter(pGrabberF, L&quot;Sample Grabber&quot;);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pGrabberF-&gt;QueryInterface(IID_PPV_ARGS(&pGrabber));
+    hr = pGrabberF->QueryInterface(IID_PPV_ARGS(&pGrabber));
     if (FAILED(hr))
     {
         goto done;
@@ -450,25 +450,25 @@ HRESULT GrabVideoBitmap(PCWSTR pszVideoFile, PCWSTR pszBitmapFile)
     mt.majortype = MEDIATYPE_Video;
     mt.subtype = MEDIASUBTYPE_RGB24;
 
-    hr = pGrabber-&gt;SetMediaType(&mt);
+    hr = pGrabber->SetMediaType(&mt);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pGraph-&gt;AddSourceFilter(pszVideoFile, L&quot;Source&quot;, &pSourceF);
+    hr = pGraph->AddSourceFilter(pszVideoFile, L&quot;Source&quot;, &pSourceF);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pSourceF-&gt;EnumPins(&pEnum);
+    hr = pSourceF->EnumPins(&pEnum);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    while (S_OK == pEnum-&gt;Next(1, &pPin, NULL))
+    while (S_OK == pEnum->Next(1, &pPin, NULL))
     {
         hr = ConnectFilters(pGraph, pPin, pGrabberF);
         SafeRelease(&pPin);
@@ -490,7 +490,7 @@ HRESULT GrabVideoBitmap(PCWSTR pszVideoFile, PCWSTR pszBitmapFile)
         goto done;
     }
 
-    hr = pGraph-&gt;AddFilter(pNullF, L&quot;Null Filter&quot;);
+    hr = pGraph->AddFilter(pNullF, L&quot;Null Filter&quot;);
     if (FAILED(hr))
     {
         goto done;
@@ -502,30 +502,30 @@ HRESULT GrabVideoBitmap(PCWSTR pszVideoFile, PCWSTR pszBitmapFile)
         goto done;
     }
 
-    hr = pGrabber-&gt;SetOneShot(TRUE);
+    hr = pGrabber->SetOneShot(TRUE);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pGrabber-&gt;SetBufferSamples(TRUE);
+    hr = pGrabber->SetBufferSamples(TRUE);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pControl-&gt;Run();
+    hr = pControl->Run();
     if (FAILED(hr))
     {
         goto done;
     }
 
     long evCode;
-    hr = pEvent-&gt;WaitForCompletion(INFINITE, &evCode);
+    hr = pEvent->WaitForCompletion(INFINITE, &evCode);
 
     // Find the required buffer size.
     long cbBuffer;
-    hr = pGrabber-&gt;GetCurrentBuffer(&cbBuffer, NULL);
+    hr = pGrabber->GetCurrentBuffer(&cbBuffer, NULL);
     if (FAILED(hr))
     {
         goto done;
@@ -538,13 +538,13 @@ HRESULT GrabVideoBitmap(PCWSTR pszVideoFile, PCWSTR pszBitmapFile)
         goto done;
     }
 
-    hr = pGrabber-&gt;GetCurrentBuffer(&cbBuffer, (long*)pBuffer);
+    hr = pGrabber->GetCurrentBuffer(&cbBuffer, (long*)pBuffer);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pGrabber-&gt;GetConnectedMediaType(&mt);
+    hr = pGrabber->GetConnectedMediaType(&mt);
     if (FAILED(hr))
     {
         goto done;
@@ -552,12 +552,12 @@ HRESULT GrabVideoBitmap(PCWSTR pszVideoFile, PCWSTR pszBitmapFile)
 
     // Examine the format block.
     if ((mt.formattype == FORMAT_VideoInfo) && 
-        (mt.cbFormat &gt;= sizeof(VIDEOINFOHEADER)) &&
+        (mt.cbFormat >= sizeof(VIDEOINFOHEADER)) &&
         (mt.pbFormat != NULL)) 
     {
         VIDEOINFOHEADER *pVih = (VIDEOINFOHEADER*)mt.pbFormat;
 
-        hr = WriteBitmap(pszBitmapFile, &pVih-&gt;bmiHeader, 
+        hr = WriteBitmap(pszBitmapFile, &pVih->bmiHeader, 
             mt.cbFormat - SIZE_PREHEADER, pBuffer, cbBuffer);
     }
     else 

@@ -47,7 +47,7 @@ A value with this syntax has the following format:
 S:<char count>:<string value>:<object DN>
 ```
 
-where "&lt;char count&gt;" is the number of characters in the "&lt;string value&gt;" string, and "&lt;object DN&gt;" is a distinguished name of an object in Active Directory. Active Directory updates the DN if the object that it refers to is moved or renamed.
+where "<char count>" is the number of characters in the "<string value>" string, and "<object DN>" is a distinguished name of an object in Active Directory. Active Directory updates the DN if the object that it refers to is moved or renamed.
 
 ## See also
 

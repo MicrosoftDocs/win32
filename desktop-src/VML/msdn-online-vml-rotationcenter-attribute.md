@@ -26,7 +26,7 @@ Specifies the center of rotation for a shape. Read/write. **Vector3D**.
 
 **Tag Syntax**
 
-&lt;o: *element* rotationcenter=" *expression* "&gt;
+<o: *element* rotationcenter=" *expression* ">
 
 **Script Syntax**
 

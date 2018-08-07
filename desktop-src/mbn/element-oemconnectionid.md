@@ -18,8 +18,8 @@ The OEM connection ID for the modem DM configuration.
 
 ## Element hierarchy
 
-[&lt;ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
-**&lt;OemConnectionId&gt;**
+[<ModemDMConfigProfile>](element-modemdmconfigprofile.md)  
+**<OemConnectionId>**
 
 ## Syntax
 

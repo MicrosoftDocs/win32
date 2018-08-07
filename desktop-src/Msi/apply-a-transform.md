@@ -20,7 +20,7 @@ The sample demonstrates the use of
 -   [**ApplyTransform method**](database-applytransform.md)
 -   [**Commit method**](database-commit.md) of the [**Database object**](database-object.md)
 
-You'll require the CScript.exe or WScript.exe version of Windows Script Host to use this sample. To use CScript.exe to run this sample, type a command line at the command prompt using the following syntax. Help is displayed if the first argument is /? or if too few arguments are specified. To redirect the output to a file, end the command line with VBS &gt; \[*path to file*\]. The sample returns a value of 0 for success, 1 if help is invoked, and 2 if the script fails.
+You'll require the CScript.exe or WScript.exe version of Windows Script Host to use this sample. To use CScript.exe to run this sample, type a command line at the command prompt using the following syntax. Help is displayed if the first argument is /? or if too few arguments are specified. To redirect the output to a file, end the command line with VBS > \[*path to file*\]. The sample returns a value of 0 for success, 1 if help is invoked, and 2 if the script fails.
 
 **cscript WiUseXfm.vbs \[path to original database\]\[path to transform file\]\[options\]**
 

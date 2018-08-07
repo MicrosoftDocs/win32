@@ -27,7 +27,7 @@ These constants direct how the compiler compiles an effect file or how the runti
 <span id="D3DCOMPILE_EFFECT_CHILD_EFFECT"></span><span id="d3dcompile_effect_child_effect"></span>**D3DCOMPILE\_EFFECT\_CHILD\_EFFECT**
 </dt> <dd> <dl> <dt>
 
-(1 &lt;&lt; 0)
+(1 << 0)
 </dt> <dt>
 
 
@@ -45,7 +45,7 @@ Compile the effects (.fx) file to a child effect. Child effects have no initiali
 <span id="D3DCOMPILE_EFFECT_ALLOW_SLOW_OPS"></span><span id="d3dcompile_effect_allow_slow_ops"></span>**D3DCOMPILE\_EFFECT\_ALLOW\_SLOW\_OPS**
 </dt> <dd> <dl> <dt>
 
-(1 &lt;&lt; 1)
+(1 << 1)
 </dt> <dt>
 
 

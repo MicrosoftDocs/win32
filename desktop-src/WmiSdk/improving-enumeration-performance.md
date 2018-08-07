@@ -54,7 +54,7 @@ The following procedure describes how to improve enumeration performance.
 
 3.  Experiment with different queries to determine what gives you the best performance.
 
-    For example, WMI seldom efficiently processes queries with **WHERE** clauses of the form Prop1 &lt; "x". In contrast, WMI normally processes queries of the form KeyProp1 = "x" efficiently.
+    For example, WMI seldom efficiently processes queries with **WHERE** clauses of the form Prop1 < "x". In contrast, WMI normally processes queries of the form KeyProp1 = "x" efficiently.
 
 For more information, see [Enumerating WMI](enumerating-wmi.md).
 

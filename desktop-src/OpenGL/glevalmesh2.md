@@ -119,13 +119,13 @@ In the two-dimensional case, **glEvalMesh2**, let
 
 where n, u1, u2, m, v1, and v2 are the arguments to the most recent [**glMapGrid2**](glmapgrid-functions.md) function. Then, if *mode* is GL\_FILL, **glEvalMesh2** is equivalent to:
 
-for (j = j1; j &lt; j2; j += 1)
+for (j = j1; j < j2; j += 1)
 
 {
 
 [**glBegin**](glbegin.md)(GL\_QUAD\_STRIP);
 
-for (i = i1; i &lt;= i2; i += 1)
+for (i = i1; i <= i2; i += 1)
 
 {
 
@@ -139,13 +139,13 @@ for (i = i1; i &lt;= i2; i += 1)
 
 If *mode* is GL\_LINE, then a call to **glEvalMesh2** is equivalent to:
 
-for (j = j1; j &lt;= j2; j += 1)
+for (j = j1; j <= j2; j += 1)
 
 {
 
 [**glBegin**](glbegin.md)(GL\_LINE\_STRIP);
 
-for (i = i1; i &lt;= i2; i += 1)
+for (i = i1; i <= i2; i += 1)
 
 {
 
@@ -157,13 +157,13 @@ for (i = i1; i &lt;= i2; i += 1)
 
 }
 
-for (i = i1; i &lt;= i2; i += 1)
+for (i = i1; i <= i2; i += 1)
 
 {
 
 [**glBegin**](glbegin.md)(GL\_LINE\_STRIP);
 
-for (j = j1; j &lt;= j1; j += 1)
+for (j = j1; j <= j1; j += 1)
 
 {
 
@@ -179,11 +179,11 @@ And finally, if *mode* is GL\_POINT, then a call to **glEvalMesh2** is equivalen
 
 [**glBegin**](glbegin.md)(GL\_POINTS);
 
-for (j = j1; j &lt;= j2; j += 1)
+for (j = j1; j <= j2; j += 1)
 
 {
 
-for (i = i1; i &lt;= i2; i += 1)
+for (i = i1; i <= i2; i += 1)
 
 {
 

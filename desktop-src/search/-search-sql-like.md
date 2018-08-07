@@ -20,9 +20,9 @@ The LIKE predicate performs pattern-matching comparison on the specified column.
 
 
 
-The &lt;column&gt; can be a regular or delimited [identifier](-search-sql-identifiers.md). The column is limited to the properties in the property store.
+The <column> can be a regular or delimited [identifier](-search-sql-identifiers.md). The column is limited to the properties in the property store.
 
-The &lt;wildcard\_literal&gt; is a string literal. It is enclosed in quotation marks and optionally can contain wildcard characters. The match string can contain multiple wildcard characters if needed. The following table describes the wildcard characters that the LIKE predicate recognizes.
+The <wildcard\_literal> is a string literal. It is enclosed in quotation marks and optionally can contain wildcard characters. The match string can contain multiple wildcard characters if needed. The following table describes the wildcard characters that the LIKE predicate recognizes.
 
 
 

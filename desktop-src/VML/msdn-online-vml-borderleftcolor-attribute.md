@@ -26,7 +26,7 @@ Left border color of an inline shape. Read/write. **VgColor**.
 
 **Tag Syntax**
 
-&lt;v: *element* borderleftcolor=" *expression* "&gt;
+<v: *element* borderleftcolor=" *expression* ">
 
 **Remarks**
 

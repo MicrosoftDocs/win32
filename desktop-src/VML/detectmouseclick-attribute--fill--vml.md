@@ -26,7 +26,7 @@ Determines whether a mouse click is detected. Read/write. **VgTriState**.
 
 **Tag Syntax**
 
-&lt;v: *element* o:detectmouseclick=" *expression* "&gt;
+<v: *element* o:detectmouseclick=" *expression* ">
 
 **Script Syntax**
 

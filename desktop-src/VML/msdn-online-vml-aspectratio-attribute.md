@@ -26,7 +26,7 @@ Determines whether the aspect ratio of a shape can be changed by an editor. Read
 
 **Tag Syntax**
 
-&lt;o: *element* aspectratio=" *expression* "&gt;
+<o: *element* aspectratio=" *expression* ">
 
 **Remarks**
 

@@ -32,7 +32,7 @@ For files that will be streamed over a network, you must consider carefully what
 | 31 – 45               | 5                                                 |
 | 46 – 70               | 6                                                 |
 | 71 – 225              | 7                                                 |
-| &gt;225               | 9                                                 |
+| >225               | 9                                                 |
 
 
 

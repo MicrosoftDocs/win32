@@ -26,7 +26,7 @@ Defines the brush color that strokes the path of a shape. Read/write. [IVgColor]
 
 **Tag Syntax**
 
-&lt;v: *element* strokecolor=" *expression* "&gt;
+<v: *element* strokecolor=" *expression* ">
 
 **Script Syntax**
 

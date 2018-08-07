@@ -74,7 +74,7 @@ The WMI Query Language (WQL) is a subset of the American National Standards Inst
 <tr class="odd">
 <td>NOT<br/></td>
 <td>Comparison operator that use in a WQL SELECT query, for example:<br/>
-<pre data-space="preserve"><code>SELECT * FROM meta_class WHERE NOT __class &lt; &quot;Win32&quot; AND NOT __this ISA &quot;Win32_Account&quot;</code></pre></td>
+<pre data-space="preserve"><code>SELECT * FROM meta_class WHERE NOT __class < &quot;Win32&quot; AND NOT __this ISA &quot;Win32_Account&quot;</code></pre></td>
 </tr>
 <tr class="even">
 <td><strong>NULL</strong></td>

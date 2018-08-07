@@ -79,11 +79,11 @@ In some situations, you might be rendering only to small portions of the render 
 
 The results of the projection matrix determine the clipping volume in projection space as:
 
--w<sub>c</sub>&lt;= x<sub>c</sub>&lt;= w<sub>c</sub>
+-w<sub>c</sub><= x<sub>c</sub><= w<sub>c</sub>
 
--w<sub>c</sub>&lt;= y<sub>c</sub>&lt;= w<sub>c</sub>
+-w<sub>c</sub><= y<sub>c</sub><= w<sub>c</sub>
 
-0 &lt;= z<sub>c</sub>&lt;= w<sub>c</sub>
+0 <= z<sub>c</sub><= w<sub>c</sub>
 
 Where: x, y, z, and w represent the vertex coordinates after the projection transformation is applied. Any vertices that have an x-, y-, or z-component outside these ranges are clipped, if clipping is enabled (the default behavior).
 

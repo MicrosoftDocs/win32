@@ -26,7 +26,7 @@ Determines whether a shape is a graphical bullet. Read/write **VgTriState**.
 
 **Tag Syntax**
 
-&lt;v: *element* o:bullet=" *expression* "&gt;
+<v: *element* o:bullet=" *expression* ">
 
 **Remarks**
 

@@ -117,7 +117,7 @@ Use the [**DCompositionCreateDevice**](/windows/desktop/api/Dcomp/nf-dcomp-dcomp
         // Create the DirectComposition device object.
         hr = DCompositionCreateDevice(pDXGIDevice, 
                 __uuidof(IDCompositionDevice), 
-                reinterpret_cast&lt;void **&gt;(&m_pDCompDevice));
+                reinterpret_cast<void **>(&m_pDCompDevice));
     }</code></pre></td>
 </tr>
 </tbody>
@@ -151,7 +151,7 @@ Use the [**IDCompositionDevice::CreateTargetForHwnd**](https://msdn.microsoft.co
     {
         // Create the composition target object based on the 
         // specified application window.
-        hr = m_pDCompDevice-&gt;CreateTargetForHwnd(m_hwnd, TRUE, &m_pDCompTarget);   
+        hr = m_pDCompDevice->CreateTargetForHwnd(m_hwnd, TRUE, &m_pDCompTarget);   
     }</code></pre></td>
 </tr>
 </tbody>
@@ -624,8 +624,8 @@ HRESULT DemoApp::Initialize()
         WS_OVERLAPPEDWINDOW,
         CW_USEDEFAULT,
         CW_USEDEFAULT,
-        static_cast&lt;UINT&gt;(ceil(640.f * dpiX / 96.f)),
-        static_cast&lt;UINT&gt;(ceil(480.f * dpiY / 96.f)),
+        static_cast<UINT>(ceil(640.f * dpiX / 96.f)),
+        static_cast<UINT>(ceil(480.f * dpiY / 96.f)),
         NULL,
         NULL,
         HINST_THISCOMPONENT,
@@ -685,7 +685,7 @@ HRESULT DemoApp::InitializeDirectCompositionDevice()
     if (SUCCEEDED(hr))
     {
         // Create the DXGI device used to create bitmap surfaces.
-        hr = m_pD3D11Device-&gt;QueryInterface(&pDXGIDevice);
+        hr = m_pD3D11Device->QueryInterface(&pDXGIDevice);
     }
 
     if (SUCCEEDED(hr))
@@ -693,13 +693,13 @@ HRESULT DemoApp::InitializeDirectCompositionDevice()
         // Create the DirectComposition device object.
         hr = DCompositionCreateDevice(pDXGIDevice, 
                 __uuidof(IDCompositionDevice), 
-                reinterpret_cast&lt;void **&gt;(&m_pDCompDevice));
+                reinterpret_cast<void **>(&m_pDCompDevice));
     }
     if (SUCCEEDED(hr))
     {
         // Create the composition target object based on the 
         // specified application window.
-        hr = m_pDCompDevice-&gt;CreateTargetForHwnd(m_hwnd, TRUE, &m_pDCompTarget);   
+        hr = m_pDCompDevice->CreateTargetForHwnd(m_hwnd, TRUE, &m_pDCompTarget);   
     }
 
     SafeRelease(&pDXGIDevice);
@@ -768,7 +768,7 @@ HRESULT DemoApp::OnClientClick()
     IDCompositionVisual *pVisual = nullptr;
 
     // Create a visual object.          
-    hr = m_pDCompDevice-&gt;CreateVisual(&pVisual);  
+    hr = m_pDCompDevice->CreateVisual(&pVisual);  
 
     IDCompositionSurface *pSurface = nullptr;
 
@@ -782,30 +782,30 @@ HRESULT DemoApp::OnClientClick()
     if (SUCCEEDED(hr))
     {
         // Set the bitmap content of the visual. 
-        hr = pVisual-&gt;SetContent(pSurface);
+        hr = pVisual->SetContent(pSurface);
     }
 
     if (SUCCEEDED(hr))
     {
         // Set the horizontal and vertical position of the visual relative
         // to the upper-left corner of the composition target window.
-        hr = pVisual-&gt;SetOffsetX(xOffset);  
+        hr = pVisual->SetOffsetX(xOffset);  
         if (SUCCEEDED(hr))
         {
-            hr = pVisual-&gt;SetOffsetY(yOffset);  
+            hr = pVisual->SetOffsetY(yOffset);  
         }
     }
 
     if (SUCCEEDED(hr))
     {
         // Set the visual to be the root of the visual tree.          
-        hr = m_pDCompTarget-&gt;SetRoot(pVisual);  
+        hr = m_pDCompTarget->SetRoot(pVisual);  
     }
 
     if (SUCCEEDED(hr))
     {
         // Commit the visual to be composed and displayed.
-        hr = m_pDCompDevice-&gt;Commit();  
+        hr = m_pDCompDevice->Commit();  
     }
 
     // Free the visual. 
@@ -828,7 +828,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message,
     if (message == WM_CREATE)
     {
         LPCREATESTRUCT pcs = (LPCREATESTRUCT)lParam;
-        DemoApp *pDemoApp = (DemoApp *)pcs-&gt;lpCreateParams;
+        DemoApp *pDemoApp = (DemoApp *)pcs->lpCreateParams;
 
         ::SetWindowLongPtrW(
             hwnd,
@@ -840,7 +840,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message,
     }
     else
     {
-        DemoApp *pDemoApp = reinterpret_cast&lt;DemoApp *&gt;(static_cast&lt;LONG_PTR&gt;(
+        DemoApp *pDemoApp = reinterpret_cast<DemoApp *>(static_cast<LONG_PTR>(
             ::GetWindowLongPtrW(
                 hwnd,
                 GWLP_USERDATA
@@ -854,7 +854,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message,
             {
             case WM_LBUTTONDOWN:
                 {
-                    pDemoApp-&gt;OnClientClick();
+                    pDemoApp->OnClientClick();
                 }
                 wasHandled = true;
                 result = 0;
@@ -871,7 +871,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message,
             case WM_DESTROY:
                 {
                     PostQuitMessage(0);
-                    pDemoApp-&gt;DiscardResources();
+                    pDemoApp->DiscardResources();
                 }
                 wasHandled = true;
                 result = 1;
@@ -899,7 +899,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message,
 
 HRESULT DemoApp::LoadResourceGDIBitmap(PCWSTR resourceName, HBITMAP &hbmp)
 {
-    hbmp = static_cast&lt;HBITMAP&gt;(LoadImageW(HINST_THISCOMPONENT, resourceName, 
+    hbmp = static_cast<HBITMAP>(LoadImageW(HINST_THISCOMPONENT, resourceName, 
         IMAGE_BITMAP, 0, 0, LR_DEFAULTCOLOR));  
  
     return hbmp ? S_OK : E_FAIL;
@@ -947,21 +947,21 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
         // Create a DirectComposition-compatible surface that is the same size 
         // as the bitmap. The DXGI_FORMAT_B8G8R8A8_UNORM flag is required for 
         // rendering on the surface using GDI via GetDC.
-        hr = m_pDCompDevice-&gt;CreateSurface(bitmapWidth, bitmapHeight, 
+        hr = m_pDCompDevice->CreateSurface(bitmapWidth, bitmapHeight, 
             DXGI_FORMAT_B8G8R8A8_UNORM, DXGI_ALPHA_MODE_IGNORE, &pDCSurface);
     }
 
     if (SUCCEEDED(hr)) 
     {
         // Begin rendering to the surface.
-        hr = pDCSurface-&gt;BeginDraw(NULL, __uuidof(IDXGISurface1), 
-            reinterpret_cast&lt;void**&gt;(&pDXGISurface), &pointOffset);
+        hr = pDCSurface->BeginDraw(NULL, __uuidof(IDXGISurface1), 
+            reinterpret_cast<void**>(&pDXGISurface), &pointOffset);
     }
 
     if (SUCCEEDED(hr)) 
     {
         // Get the device context (DC) for the surface.
-        hr = pDXGISurface-&gt;GetDC(FALSE, &hSurfaceDC);
+        hr = pDXGISurface->GetDC(FALSE, &hSurfaceDC);
     }
 
     if (SUCCEEDED(hr))
@@ -982,11 +982,11 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
             DeleteDC(hBitmapDC);
         }
 
-        pDXGISurface-&gt;ReleaseDC(NULL);
+        pDXGISurface->ReleaseDC(NULL);
     }
 
     // End the rendering.
-    pDCSurface-&gt;EndDraw();
+    pDCSurface->EndDraw();
     *ppSurface = pDCSurface;
 
     // Call an application-defined macro to free the surface pointer.

@@ -26,7 +26,7 @@ Defines the line style of the stroke. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* linestyle=" *expression* "&gt;
+<v: *element* linestyle=" *expression* ">
 
 **Script Syntax**
 

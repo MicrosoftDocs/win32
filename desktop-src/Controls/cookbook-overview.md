@@ -39,7 +39,7 @@ Manifests are written in XML. The name of the application manifest file is the n
 
 | Attribute             | Description                                                                                                                 |
 |-----------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| version               | Version of the manifest. The version must be in the form major.minor.revision.build (that is, n.n.n.n, where n &lt;=65535). |
+| version               | Version of the manifest. The version must be in the form major.minor.revision.build (that is, n.n.n.n, where n <=65535). |
 | processorArchitecture | Processor for which your application is developed.                                                                          |
 | name                  | Includes company name, product name and application name.                                                                   |
 | type                  | Type of your application, such as Win32.                                                                                    |
@@ -276,7 +276,7 @@ In the previous example, *hwnd* is the handle of the window in which to disable 
 
 HTML pages that modify the Cascading Style Sheets (CSS) properties such as background or border do not have visual styles applied to them. They display the specified CSS attribute. When specified as part of the content, most CSS properties do apply to elements that have visual styles applied.
 
-By default, visual styles are applied to intrinsic HTML controls on pages displayed in Microsoft Internet Explorer 6 and later versions. To turn off visual styles for an HTML page, add a META tag to the &lt;head&gt; section. This technique also applies to content packaged as HTML Applications (HTAs). To turn off visual styles, the META tag must be as follows:
+By default, visual styles are applied to intrinsic HTML controls on pages displayed in Microsoft Internet Explorer 6 and later versions. To turn off visual styles for an HTML page, add a META tag to the <head> section. This technique also applies to content packaged as HTML Applications (HTAs). To turn off visual styles, the META tag must be as follows:
 
 
 ```

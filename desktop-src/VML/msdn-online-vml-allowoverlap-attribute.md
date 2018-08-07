@@ -26,7 +26,7 @@ Determines if a shape can overlap other shapes. Read/write. **VgTriState**.
 
 **Tag Syntax**
 
-&lt;v: *element* o:allowoverlap=" *expression* "&gt;
+<v: *element* o:allowoverlap=" *expression* ">
 
 **Remarks**
 

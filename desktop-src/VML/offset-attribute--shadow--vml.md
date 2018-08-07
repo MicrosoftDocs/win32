@@ -26,7 +26,7 @@ Defines how far the shadow extends past the shape. Read/write. **VgVector2D**.
 
 **Tag Syntax**
 
-&lt;v: *element* offset=" *expression* "&gt;
+<v: *element* offset=" *expression* ">
 
 **Script Syntax**
 

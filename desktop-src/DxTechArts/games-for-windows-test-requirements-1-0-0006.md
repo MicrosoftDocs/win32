@@ -97,7 +97,7 @@ This section contains detailed notes on each of the test tools used to verify pa
 <li>Verify that game hyperlinks for metadata work correctly in Games Explorer. (If hyperlinks don't show up, then this is a possible sign that the exe isn't signed; see [section 2.3](#23-sign-files).)</li>
 <li>Verify that the game displays accurate parental control rating in Games Explorer. (If it says unrated, then verify that this is an unrated game; otherwise, this is an indicator that the exe isn't signed; see [section 2.3](#23-sign-files).)</li>
 <li>Verify that the game does not place launch shortcuts on user desktop.</li>
-<li>Click Start -&gt; All Programs.</li>
+<li>Click Start -> All Programs.</li>
 <li>Verify that the game does not place launch shortcuts in the Start Menu.</li>
 <li>Verify that the game does not place uninstall shortcuts in Start Menu outside of Control Panel.</li>
 <li>If the game is distributed digitally, verify that the service provider appears in Windows Games Explorer.</li>
@@ -128,8 +128,8 @@ This section contains detailed notes on each of the test tools used to verify pa
 <tr class="even">
 
 <td><ol>
-<li>Create a Standard User account in Windows Vista or Windows 7 called Toby. Start -&gt; Control Panel -&gt; Add or Remove User Accounts -&gt; Create New Account</li>
-<li>As Jane, from Administrator account set up Parental Controls for the game. Start -&gt; Control Panel -&gt; Set Up Parental Controls for Any User -&gt; Toby
+<li>Create a Standard User account in Windows Vista or Windows 7 called Toby. Start -> Control Panel -> Add or Remove User Accounts -> Create New Account</li>
+<li>As Jane, from Administrator account set up Parental Controls for the game. Start -> Control Panel -> Set Up Parental Controls for Any User -> Toby
 <ol>
 <li>Verify that the game launches from the Games Explorer icon.</li>
 <li>Verify that the game displays accurate Parental Control Rating below the game title in the Parental Controls Control Panel.</li>
@@ -156,7 +156,7 @@ If the game is not rated, then skip this step and move onto the next part of thi
 <li>Log off as Jane and log on as Toby.</li>
 <li>Verify that the game does not launch for User Toby when EXE/Name is blocked by User Jane.</li>
 <li>Log off as Toby and back on as Jane.</li>
-<li>As Jane, open User Controls -&gt; Application Restrictions.</li>
+<li>As Jane, open User Controls -> Application Restrictions.</li>
 <li>Click &quot;Toby can only use the programs I allow&quot; and click OK (that is, allow no exes).</li>
 <li>Go to User Controls | Games Controls and allow the specific game using the ESRB rating.</li>
 <li>Log off as Jane, and log on as Toby and try to play the game.</li>
@@ -300,7 +300,7 @@ This requirement has been retired.
 <li>Set the system to DPI 150%: <br/> Windows Vista: Control Panel: Personalization, Adjust font size (DPI), Custom DPI. Set to 150%.<br/> Windows 7: Control Panel: Display, Set to Larger - 150%.<br/></li>
 <li>Run the installation process and game to verify there are no problems with clipped screens or dialog boxes.</li>
 </ol>
-</dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>Automated Test</dt> <dd> Verify that element &lt;dpiAware&gt;true&lt;/dpiAware&gt; is contained in the embedded manifest.<br/> Use tool: Mt.exe <br/> </dd> </dl></td>
+</dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>Automated Test</dt> <dd> Verify that element <dpiAware>true</dpiAware> is contained in the embedded manifest.<br/> Use tool: Mt.exe <br/> </dd> </dl></td>
 </tr>
 </tbody>
 </table>
@@ -324,8 +324,8 @@ This requirement has been retired.
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/></td>
 <td>Every executable file (.EXE extension) included with an application must have an embedded manifest that defines its execution level:
-<pre class="syntax" data-space="preserve"><code>&lt;requestedExecutionLevel level=&quot;asInvoker|highestAvailable|requireAdministrator&quot; 
-              uiAccess=&quot;true|false&quot;/&gt;</code></pre>
+<pre class="syntax" data-space="preserve"><code><requestedExecutionLevel level=&quot;asInvoker|highestAvailable|requireAdministrator&quot; 
+              uiAccess=&quot;true|false&quot;/></code></pre>
 <br/>
 <blockquote>
 [!Note]<br />
@@ -501,12 +501,12 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 </tr>
 <tr class="even">
 
-<td>Create a Standard User account in Windows Vista or Windows 7 called Toby. Start -&gt; Control Panel -&gt; Add or Remove User Accounts -&gt; Create New Account <br/>
+<td>Create a Standard User account in Windows Vista or Windows 7 called Toby. Start -> Control Panel -> Add or Remove User Accounts -> Create New Account <br/>
 <ol>
 <li>Launch the game as User Jane.</li>
 <li>ALT+TAB back to the desktop.</li>
 <li>Verify that the game properly ALT+TABs to the Windows desktop.</li>
-<li>Click Start -&gt; [arrow to the right of Lock] -&gt; Switch User.</li>
+<li>Click Start -> [arrow to the right of Lock] -> Switch User.</li>
 <li>Log on as User Toby.</li>
 <li>Verify that the game launches as User Toby while still running as User Jane.</li>
 <li>Verify that the game does not encounter errors for User Toby or User Jane during User Switch process.</li>
@@ -533,7 +533,7 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 <tbody>
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
-<td>If a game supports saving files, it must be able to save files that have long names and paths. The game must properly handle special file system characters, such as \ / : * ? &quot; &lt; or &gt; in any user input fields used to create file names or paths.</td>
+<td>If a game supports saving files, it must be able to save files that have long names and paths. The game must properly handle special file system characters, such as \ / : * ? &quot; < or > in any user input fields used to create file names or paths.</td>
 </tr>
 <tr class="even">
 
@@ -543,7 +543,7 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 <li>Save the game. During the save process, verify that the game saves using the save name: My First Save Game.</li>
 <li>Exit back to the main menu.</li>
 <li>Attempt to load the newly saved game.</li>
-<li>Verify that the game does not encounter errors when handling unsupported file system characters, such as \ / : * ? &quot; &lt; or &gt; If the game allows you, name the saved game.</li>
+<li>Verify that the game does not encounter errors when handling unsupported file system characters, such as \ / : * ? &quot; < or > If the game allows you, name the saved game.</li>
 <li>If the user is allowed to name their profile and/or character or save games, verify that the game does not encounter errors when using long file names here as well.</li>
 </ol></td>
 </tr>
@@ -735,15 +735,15 @@ If a Microsoft system update REDIST requires a reboot, then do the following: Co
 <li>Prior to installing the game, create a pre-install snapshot of System32.<br/>
 <ol>
 <li>Make a directory called G4Wtest.</li>
-<li>Bring up a command Window (Start -&gt; Run -&gt; cmd).</li>
+<li>Bring up a command Window (Start -> Run -> cmd).</li>
 <li>Navigate to c:\windows\system32.</li>
-<li>Type dir /o:-g /o:-d &gt;&gt; c:\G4Wtest\pregame.txt.</li>
+<li>Type dir /o:-g /o:-d >> c:\G4Wtest\pregame.txt.</li>
 </ol></li>
 <li>Create a post-install snapshot of System32. <br/>
 <ol>
-<li>Bring up a command Window (Start -&gt; Run -&gt; cmd).</li>
+<li>Bring up a command Window (Start -> Run -> cmd).</li>
 <li>Navigate to c:\windows\system32.</li>
-<li>Type dir /o:-g /o:-d &gt;&gt; c:\G4Wtest\postgame.txt.</li>
+<li>Type dir /o:-g /o:-d >> c:\G4Wtest\postgame.txt.</li>
 <li>Verify that the game does not regress any file versions of files that the game did not produce (...of the files listed in the two documents by comparing pregame.txt to postgame.txt).</li>
 </ol></li>
 </ol></td>
@@ -828,7 +828,7 @@ Autorun programs that were written for use on versions of Windows prior to Windo
 <td>Use Tool: AppVerifier 4.0 (or later)<br/>
 <ol>
 <li>Install AppVerifier.</li>
-<li>Launch AppVerifier and select File -&gt; Add Application.</li>
+<li>Launch AppVerifier and select File -> Add Application.</li>
 <li>Locate the game executable, select it, and click the &quot;Open&quot; button.</li>
 <li>In the &quot;Applications&quot; section, select the game executable.</li>
 <li>In the &quot;Tests&quot; section, select the tests listed above under the categories &quot;Basics&quot; and &quot;Miscellaneous&quot; (uncheck ThreadPool and TimeRollOver), and ensure all other tests are not selected.</li>
@@ -957,9 +957,9 @@ This is an example of a typical test pass using the preceding test requirements 
 3.  Create a pre-install snapshot of System32
 
     1.  Make a directory called G4Wtest
-    2.  Bring up a command Window (Start -&gt; Run -&gt; cmd)
+    2.  Bring up a command Window (Start -> Run -> cmd)
     3.  Navigate to c:\\windows\\system32
-    4.  Type dir /o:-g /o:-d &gt;&gt; c:\\G4Wtest\\pregame.txt
+    4.  Type dir /o:-g /o:-d >> c:\\G4Wtest\\pregame.txt
 
 4.  Windows Vista and Windows 7: Set to 150% DPI \[1.8\]
 5.  Proceed to [Install](#3-installation)
@@ -996,9 +996,9 @@ This is an example of a typical test pass using the preceding test requirements 
 7.  Verify that the game displays accurate parental control rating in Windows Games Explorer \[1.1\]
 8.  Create a post-install snapshot of System32
 
-    1.  Bring up a command Window (Start -&gt; Run -&gt; cmd)
+    1.  Bring up a command Window (Start -> Run -> cmd)
     2.  Navigate to c:\\windows\\system32
-    3.  Type dir /o:-g /o:-d &gt;&gt; c:\\G4Wtest\\postgame.txt
+    3.  Type dir /o:-g /o:-d >> c:\\G4Wtest\\postgame.txt
     4.  Verify that the game does not regress any file versions of files listed in the two documents by comparing pregame.txt to postgame.txt \[3.6\]
 
 9.  Proceed to [Runtime](#55-runtime)
@@ -1046,7 +1046,7 @@ This is an example of a typical test pass using the preceding test requirements 
 7.  Start a new game, create a game save, and verify that the game does not encounter errors when handling unsupported file system characters \[2.7\]
 8.  Verify that the game properly ALT+TABs to the Windows desktop \[2.6\]
 
-    1.  Switch users with the game running by clicking Start -&gt; Switch User
+    1.  Switch users with the game running by clicking Start -> Switch User
     2.  Log on as Toby
     3.  Verify that the game launches as User Toby while still running as User Jane \[2.6\]
     4.  Verify that the game does not encounter errors for User Toby or User Jane during User Switch process \[2.6\]
@@ -1088,7 +1088,7 @@ This is an example of a typical test pass using the preceding test requirements 
     12. Log off as Jane and on as Toby
     13. Verify that the game does not launch on User Toby when EXE/Name is blocked by User Jane \[1.2\]
     14. Log off as Toby and back on as Jane
-    15. As Jane, open User Controls -&gt; Application Restrictions
+    15. As Jane, open User Controls -> Application Restrictions
     16. Click "Toby can only use the programs I allow", and then click OK (i.e. allow no exes)
     17. Click the Uncheck All box, and then click OK
     18. Go to User Controls \| Games Controls and allow the specific game using the ESRB rating
@@ -1115,7 +1115,7 @@ This is an example of a typical test pass using the preceding test requirements 
 4.  Force the application to crash while testing, and verify that the game displays Windows Error Reporting properly and collects crash data \[4.3\]
 5.  Ensure proper file summaries \[4.3\]
 
-    1.  Click Start -&gt; Computer
+    1.  Click Start -> Computer
     2.  Navigate to the game directory
     3.  In the search window, type \*.dll
     4.  For each file: Right-click the file and click Properties
@@ -1154,7 +1154,7 @@ These are notes for each of the test tools listed in the above test requirements
  
 
 1.  Install AppVerifier 4.0 (or higher) on a computer running Windows XP
-2.  Launch AppVerifier and click File -&gt; Add Application
+2.  Launch AppVerifier and click File -> Add Application
 3.  Locate the game executable, select it and click Open
 4.  In the "Applications" section, select the game executable
 5.  Select the following tests in the "Basics" section:
@@ -1174,7 +1174,7 @@ These are notes for each of the test tools listed in the above test requirements
 8.  Launch the game
 9.  Play the game
 10. Close the game
-11. In AppVerifier select View -&gt; Logs
+11. In AppVerifier select View -> Logs
 12. In the "Applications" section select the app .exe file
 13. In the "Logs" section, select the log file and observe the error count. If there are no errors, then end AppVerifier tests. If there are errors, click the View button
 14. Search the document (CTRL+F) for Severity="Error
@@ -1192,7 +1192,7 @@ Example:
 mt.exe -inputresource:"c:\yourdir\YourGame.exe";#1 -out:yourgame.manifest
 ```
 
-1.  Click Start -&gt; Run -&gt; type cmd and click the OK button
+1.  Click Start -> Run -> type cmd and click the OK button
 2.  Run the mt.exe tool to generate a .manifest file for each .exe file that installs with the game
 3.  Open the generated .manifest file
 4.  Ensure that each .exe file contains the following (requested:

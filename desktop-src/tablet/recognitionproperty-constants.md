@@ -89,7 +89,7 @@ Confidence evaluation is available only for United States English and all gestur
 
 ## Remarks
 
-In C++, you can access these constants in the Msinkaut.h header file, which is located in the &lt;systemdrive&gt;:\\Program Files\\Microsoft SDKs\\Windows\\v6.0\\Include directory if you installed the SDK in the default location.
+In C++, you can access these constants in the Msinkaut.h header file, which is located in the <systemdrive>:\\Program Files\\Microsoft SDKs\\Windows\\v6.0\\Include directory if you installed the SDK in the default location.
 
 > [!Note]  
 > In C++, these constants are WCHARs, not BSTRs. Convert them into BSTRs before use. For more information about the BSTR data type, see [Using the COM Library](using-the-com-library.md).

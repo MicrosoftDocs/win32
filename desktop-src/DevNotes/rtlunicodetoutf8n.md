@@ -102,7 +102,7 @@ If the output is truncated and an invalid input character is encountered then th
 
 If the *UTF8StringDestination* is set to **NULL** the function will return the required number of bytes to host the translated string without any truncation in *UTF8StringActualByteCount*.
 
-Callers of **RtlUnicodeToUTF8N** must be running at IRQL &lt; DISPATCH\_LEVEL.
+Callers of **RtlUnicodeToUTF8N** must be running at IRQL < DISPATCH\_LEVEL.
 
 ## Requirements
 

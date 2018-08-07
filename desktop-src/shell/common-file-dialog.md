@@ -506,65 +506,65 @@ HRESULT AddCustomControls()
         if (SUCCEEDED(hr))
         {
             // Hook up the event handler.
-            hr = pfd-&gt;Advise(pfde, &dwCookie);
+            hr = pfd->Advise(pfde, &dwCookie);
             if (SUCCEEDED(hr))
             {
                 // Set up a Customization.
                 IFileDialogCustomize *pfdc = NULL;
-                hr = pfd-&gt;QueryInterface(IID_PPV_ARGS(&pfdc));
+                hr = pfd->QueryInterface(IID_PPV_ARGS(&pfdc));
                 if (SUCCEEDED(hr))
                 {
                     // Create a Visual Group.
-                    hr = pfdc-&gt;StartVisualGroup(CONTROL_GROUP, L&quot;Sample Group&quot;);
+                    hr = pfdc->StartVisualGroup(CONTROL_GROUP, L&quot;Sample Group&quot;);
                     if (SUCCEEDED(hr))
                     {
                         // Add a radio-button list.
-                        hr = pfdc-&gt;AddRadioButtonList(CONTROL_RADIOBUTTONLIST);
+                        hr = pfdc->AddRadioButtonList(CONTROL_RADIOBUTTONLIST);
                         if (SUCCEEDED(hr))
                         {
                             // Set the state of the added radio-button list.
-                            hr = pfdc-&gt;SetControlState(CONTROL_RADIOBUTTONLIST, 
+                            hr = pfdc->SetControlState(CONTROL_RADIOBUTTONLIST, 
                                                CDCS_VISIBLE | CDCS_ENABLED);
                             if (SUCCEEDED(hr))
                             {
                                 // Add individual buttons to the radio-button list.
-                                hr = pfdc-&gt;AddControlItem(CONTROL_RADIOBUTTONLIST,
+                                hr = pfdc->AddControlItem(CONTROL_RADIOBUTTONLIST,
                                                           CONTROL_RADIOBUTTON1,
                                                           L&quot;Change Title to ABC&quot;);
                                 if (SUCCEEDED(hr))
                                 {
-                                    hr = pfdc-&gt;AddControlItem(CONTROL_RADIOBUTTONLIST,
+                                    hr = pfdc->AddControlItem(CONTROL_RADIOBUTTONLIST,
                                                               CONTROL_RADIOBUTTON2,
                                                               L&quot;Change Title to XYZ&quot;);
                                     if (SUCCEEDED(hr))
                                     {
                                         // Set the default selection to option 1.
-                                        hr = pfdc-&gt;SetSelectedControlItem(CONTROL_RADIOBUTTONLIST,
+                                        hr = pfdc->SetSelectedControlItem(CONTROL_RADIOBUTTONLIST,
                                                                           CONTROL_RADIOBUTTON1);
                                     }
                                 }
                             }
                         }
                         // End the visual group.
-                        pfdc-&gt;EndVisualGroup();
+                        pfdc->EndVisualGroup();
                     }
-                    pfdc-&gt;Release();
+                    pfdc->Release();
                 }
 
                 if (FAILED(hr))
                 {
                     // Unadvise here in case we encounter failures 
                     // before we get a chance to show the dialog.
-                    pfd-&gt;Unadvise(dwCookie);
+                    pfd->Unadvise(dwCookie);
                 }
             }
-            pfde-&gt;Release();
+            pfde->Release();
         }
 
         if (SUCCEEDED(hr))
         {
             // Now show the dialog.
-            hr = pfd-&gt;Show(NULL);
+            hr = pfd->Show(NULL);
             if (SUCCEEDED(hr))
             {
                 //
@@ -572,9 +572,9 @@ HRESULT AddCustomControls()
                 //
             }
             // Unhook the event handler.
-            pfd-&gt;Unadvise(dwCookie);
+            pfd->Unadvise(dwCookie);
         }
-        pfd-&gt;Release();
+        pfd->Release();
     }
     return hr;
 }</code></pre></td>
@@ -626,37 +626,37 @@ Similarly, choices can be added to the **Open** or **Save** buttons, which are t
         if (SUCCEEDED(hr))
         {
             // Hook up the event handler.
-            hr = pfd-&gt;Advise(pfde, &dwCookie);
+            hr = pfd->Advise(pfde, &dwCookie);
             if (SUCCEEDED(hr))
             {
                 // Set up a Customization.
                 IFileDialogCustomize *pfdc = NULL;
-                hr = pfd-&gt;QueryInterface(IID_PPV_ARGS(&pfdc));
+                hr = pfd->QueryInterface(IID_PPV_ARGS(&pfdc));
                 if (SUCCEEDED(hr))
                 {
-                    hr = pfdc-&gt;EnableOpenDropDown(OPENCHOICES);
+                    hr = pfdc->EnableOpenDropDown(OPENCHOICES);
                     if (SUCCEEDED(hr))
                     {
-                        hr = pfdc-&gt;AddControlItem(OPENCHOICES, OPEN, L&quot;&Open&quot;);
+                        hr = pfdc->AddControlItem(OPENCHOICES, OPEN, L&quot;&Open&quot;);
                     }                    
                     if (SUCCEEDED(hr))
                     {
-                        hr = pfdc-&gt;AddControlItem(OPENCHOICES, 
+                        hr = pfdc->AddControlItem(OPENCHOICES, 
                                                 OPEN_AS_READONLY, 
                                                 L&quot;Open as &read-only&quot;);
                     }
                     if (SUCCEEDED(hr))
                     {
-                        pfd-&gt;Show(NULL);
+                        pfd->Show(NULL);
                     }
                 }
-                pfdc-&gt;Release();
+                pfdc->Release();
             }
-            pfd-&gt;Unadvise(dwCookie);
+            pfd->Unadvise(dwCookie);
         }
-        pfde-&gt;Release();
+        pfde->Release();
     }
-    pfd-&gt;Release();
+    pfd->Release();
     return hr;
 }</code></pre></td>
 </tr>

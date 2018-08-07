@@ -121,23 +121,23 @@ A Get message has the following focus points.
 <tbody>
 <tr class="odd">
 <td>To</td>
-<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:To&gt;
+<td><pre class="syntax" data-space="preserve"><code><wsa:To>
     urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
-&lt;/wsa:To&gt;</code></pre></td>
+</wsa:To></code></pre></td>
 <td>The identifier of the device being asked for metadata.</td>
 </tr>
 <tr class="even">
 <td>Get</td>
-<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Action&gt;
+<td><pre class="syntax" data-space="preserve"><code><wsa:Action>
     http://schemas.xmlsoap.org/ws/2004/09/transfer/Get
-&lt;/wsa:Action</code></pre></td>
+</wsa:Action</code></pre></td>
 <td>The Get SOAP action identifies the message as a Get message.</td>
 </tr>
 <tr class="odd">
 <td>MessageID</td>
-<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:MessageID&gt;
+<td><pre class="syntax" data-space="preserve"><code><wsa:MessageID>
     urn:uuid:027bec45-c37c-466c-936c-68f648abe2bb
-&lt;/wsa:MessageID&gt;</code></pre></td>
+</wsa:MessageID></code></pre></td>
 <td>Contains the message identifier, which is referenced in a [GetResponse](getresponse--metadata-exchange--message.md) message.</td>
 </tr>
 </tbody>

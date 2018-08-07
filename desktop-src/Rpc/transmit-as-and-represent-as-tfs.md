@@ -24,7 +24,7 @@ transmitted_type_buffer_size<2>
 transmitted_type_offset<2>
 ```
 
-The flags&lt;1&gt; byte consists of the upper flag nibble and the lower alignment nibble.
+The flags<1> byte consists of the upper flag nibble and the lower alignment nibble.
 
 The alignment nibble keeps the wire alignment of the transmitted type. This is needed when buffer sizing and using the transmitted type size from the format code.
 
@@ -38,13 +38,13 @@ The flag nibble can have the following flags:
 
 The PRESENTED\_TYPE\_IS\_ARRAY flag marks a top-level transmit as (or represent as) argument being an array of something and passed-by value. The [**–Oi**](https://msdn.microsoft.com/library/windows/desktop/aa367352) interpreter uses this flag to step over such an argument (which is actually a pointer on stack, not the array). The other two flags are also used only in previous interpreters to step correctly over a presented type on the stack.
 
-The quintuple\_index&lt;2&gt; is an index of the callback routine quintuple (this is actually a quadruple) of functions. The table is common to both transmit as and represent as and there is an obvious mapping for the position of the routines, as the same entry points service transmit as and represent as codes. The mapping is from\_local =&gt; to\_xmit, to\_local =&gt; from\_xmit, free\_inst =&gt; free\_xmit, free\_local =&gt; free\_inst.
+The quintuple\_index<2> is an index of the callback routine quintuple (this is actually a quadruple) of functions. The table is common to both transmit as and represent as and there is an obvious mapping for the position of the routines, as the same entry points service transmit as and represent as codes. The mapping is from\_local => to\_xmit, to\_local => from\_xmit, free\_inst => free\_xmit, free\_local => free\_inst.
 
-The presented\_type\_memory\_size&lt;2&gt; always provides a size for the presented/local type, including unknown represent as types.
+The presented\_type\_memory\_size<2> always provides a size for the presented/local type, including unknown represent as types.
 
-The transmitted\_type\_buffer\_size&lt;2&gt; is either zero, when the size is varying, or the actual fixed size. This is an optimization that enables skipping some callbacks when sizing the buffer.
+The transmitted\_type\_buffer\_size<2> is either zero, when the size is varying, or the actual fixed size. This is an optimization that enables skipping some callbacks when sizing the buffer.
 
-The transmitted\_type\_offset&lt;2&gt; is the usual relative type offset to the transmitted type format string.
+The transmitted\_type\_offset<2> is the usual relative type offset to the transmitted type format string.
 
  
 

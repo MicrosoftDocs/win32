@@ -80,7 +80,7 @@ The log-out process involves the following steps.
 3.  The plug-in communicates with the online store and either succeeds or fails to log out the user.
 4.  If the log-out attempt succeeds, the plug-in notifies Windows Media Player by calling **IWMPContentPartnerCallback::Notify**, passing VARIANT\_FALSE in the **boolVal** member of the *pContext* parameter.
 
-When an attempt to log in or out is successful, the online store's plug-in calls **IWMPContentPartnerCallback::Notify**, passing wmpcnLoginStateChange in the *type* parameter. The plug-in uses the *pContext* parameter to specify the user's current log-in state. If the plug-in sets *pContext*-&gt;**boolVal** to VARIANT\_TRUE, the user is logged in. If the plug-in sets *pContext*-&gt;**boolVal** to VARIANT\_FALSE, the user is logged out. Note that *pContext* does not indicate the success or failure of the attempt; rather, it indicates user's current log-in state.
+When an attempt to log in or out is successful, the online store's plug-in calls **IWMPContentPartnerCallback::Notify**, passing wmpcnLoginStateChange in the *type* parameter. The plug-in uses the *pContext* parameter to specify the user's current log-in state. If the plug-in sets *pContext*->**boolVal** to VARIANT\_TRUE, the user is logged in. If the plug-in sets *pContext*->**boolVal** to VARIANT\_FALSE, the user is logged out. Note that *pContext* does not indicate the success or failure of the attempt; rather, it indicates user's current log-in state.
 
 ## Related topics
 

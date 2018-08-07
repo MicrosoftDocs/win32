@@ -26,7 +26,7 @@ Defines the transparency of the second fill color. Read/write. [VgFraction](msdn
 
 **Tag Syntax**
 
-&lt;v: *element* o:opacity2=" *expression* "&gt;
+<v: *element* o:opacity2=" *expression* ">
 
 **Remarks**
 

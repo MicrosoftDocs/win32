@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Dual Interfaces
 
-Use COM interfaces to access the properties and methods on any provider ADSI objects. A read-only property maps to an interface entry of the form **get\_&lt;PropertyName&gt;**. A read/write property maps to two interface entries of the form **get\_&lt;PropertyName&gt;** and **put\_&lt;PropertyName&gt;**.
+Use COM interfaces to access the properties and methods on any provider ADSI objects. A read-only property maps to an interface entry of the form **get\_<PropertyName>**. A read/write property maps to two interface entries of the form **get\_<PropertyName>** and **put\_<PropertyName>**.
 
 All methods on a COM interface must:
 

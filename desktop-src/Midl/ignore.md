@@ -75,7 +75,7 @@ p->previous = q->next = NULL;
 remote_op(p);
 ```
 
-Aliasing occurs in the preceding example because the same memory area is available from two different pointers in the function **p** and **p-&gt;next-&gt;previous**.
+Aliasing occurs in the preceding example because the same memory area is available from two different pointers in the function **p** and **p->next->previous**.
 
 Note that **\[ignore\]** cannot be used as a type attribute.
 

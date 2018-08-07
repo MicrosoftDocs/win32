@@ -787,8 +787,8 @@ Version of the operation.
 
 The version of the operation should be in one of the following forms:
 
--   &lt;major&gt;.&lt;minor&gt;.&lt;revision&gt;
--   &lt;major&gt;.&lt;minor&gt;&lt;letter&gt;&lt;revision&gt;
+-   <major>.<minor>.<revision>
+-   <major>.<minor><letter><revision>
 
 </dd> </dl>
 

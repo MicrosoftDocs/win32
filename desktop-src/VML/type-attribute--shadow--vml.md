@@ -26,7 +26,7 @@ Specifies the type of shadow. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* type=" *expression* "&gt;
+<v: *element* type=" *expression* ">
 
 **Script Syntax**
 

@@ -84,9 +84,9 @@ However, if you type the words **Type TestFile:Stream**, it generates the follow
 
 To view what is in TestFile:stream, use one of the following commands:
 
-**More &lt; TestFile:Stream**
+**More < TestFile:Stream**
 
-**More &lt; TestFile:Stream:$DATA**
+**More < TestFile:Stream:$DATA**
 
 The text displayed is as follows:
 

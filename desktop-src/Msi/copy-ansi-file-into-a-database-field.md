@@ -35,7 +35,7 @@ To use the code sample you need the CScript.exe or WScript.exe version of Window
 
 **To redirect the output to a file**
 
--   End the command line with the following: **VBS &gt; \[path to file\]. T**
+-   End the command line with the following: **VBS > \[path to file\]. T**
 
 > [!Note]  
 > The sample returns a value of 0 (zero) for success, 1 (one) if Help is invoked, and 2 (two) if the script fails.

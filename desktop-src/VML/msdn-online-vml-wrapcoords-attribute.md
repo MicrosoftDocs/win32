@@ -26,7 +26,7 @@ Defines the bounding polygon that surrounds a shape. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* o:wrapcoords=" *expression* "&gt;
+<v: *element* o:wrapcoords=" *expression* ">
 
 **Remarks**
 

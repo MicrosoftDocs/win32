@@ -144,7 +144,7 @@ VT\_UI1
 
 0 - 3
 
-3 if ImageQuality &gt; 0.8; otherwise 1;
+3 if ImageQuality > 0.8; otherwise 1;
 
 [HorizontalTileSlices](#horizontaltileslices-verticaltileslices-options)
 
@@ -152,7 +152,7 @@ VT\_UI2
 
 0 - 4095
 
-(image width – 1) &gt;&gt; 8
+(image width – 1) >> 8
 
 [VerticalTileSlices](#horizontaltileslices-verticaltileslices-options)
 
@@ -160,7 +160,7 @@ VT\_UI2
 
 0 - 4095
 
-(image height – 1) &gt;&gt; 8
+(image height – 1) >> 8
 
 [FrequencyOrder](#frequencyorder-option)
 
@@ -299,15 +299,15 @@ The following table lists the available subsampling options.
 
  
 
-The default value is 3 if [ImageQuality](#imagequality-option) &gt; 0.8; otherwise 1.
+The default value is 3 if [ImageQuality](#imagequality-option) > 0.8; otherwise 1.
 
 ### HorizontalTileSlices, VerticalTileSlices Options
 
 Specify the horizontal and vertical tiling of the image before you perform compression encoding for the optimal performance of region decode . By dividing the image into rectangular tiles during encoding you can decode regions of the image without processing the entire compressed data stream. The default value of 0 specifies no subdivision, so the entire image is treated as a single tile. A value of 1 for each parameter creates a single horizontal and a single vertical division, effectively dividing the image into four equally sized tiles. The maximum value of 4095 for each parameter divides the image into 4096 tile rows with 4096 tiles per row. In other words, the parameter values equal the number of horizontal and vertical tiles (respectively) minus 1. A tile can never be smaller than 16 pixels in width or height, so the HD Photo encoder might adjust this parameter to maintain the required minimum tile size. Because there is storage and processing overhead associated with each tile, you should choose these values carefully to meet the specific scenario.
 
-[HorizontalTileSlices](https://docs.microsoft.com/windows): The default value is (Image Width – 1) &gt;&gt; 8.
+[HorizontalTileSlices](https://docs.microsoft.com/windows): The default value is (Image Width – 1) >> 8.
 
-[VerticalTileSlices](https://docs.microsoft.com/windows): The default value is (Image Height – 1) &gt;&gt; 8.
+[VerticalTileSlices](https://docs.microsoft.com/windows): The default value is (Image Height – 1) >> 8.
 
 ### FrequencyOrder Option
 

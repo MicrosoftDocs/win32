@@ -33,7 +33,7 @@ New features are as follows:
 
 ### Dynamic Flow Control
 
-If [D3DVS20CAPS](https://msdn.microsoft.com/library/windows/desktop/bb172634) &gt; 0, then the following dynamic flow control instructions are supported:
+If [D3DVS20CAPS](https://msdn.microsoft.com/library/windows/desktop/bb172634) > 0, then the following dynamic flow control instructions are supported:
 
 -   [if\_comp - vs](if-comp---vs.md)
 -   [break - vs](break---vs.md)

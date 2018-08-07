@@ -132,7 +132,7 @@ struct VERTEXPOSITION
 
 // Shift the value for use when creating a 
 //   flexible vertex format (FVF) combination.
-dwFVF = dwNumTextures &lt;&lt; D3DFVF_TEXCOUNT_SHIFT;
+dwFVF = dwNumTextures << D3DFVF_TEXCOUNT_SHIFT;
 
 // Now, create an FVF combination using the shifted value.</code></pre></td>
 </tr>

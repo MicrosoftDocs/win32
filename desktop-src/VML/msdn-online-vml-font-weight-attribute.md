@@ -26,7 +26,7 @@ Defines the thickness of the letters of the font. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* style="font-weight: *expression* "&gt;
+<v: *element* style="font-weight: *expression* ">
 
 **Script Syntax**
 

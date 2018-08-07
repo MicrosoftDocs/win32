@@ -26,7 +26,7 @@ Defines the amount of spacing for text. Read/write. **VgNumber**.
 
 **Tag Syntax**
 
-&lt;v: *element* style="v-text-spacing: *expression* "&gt;
+<v: *element* style="v-text-spacing: *expression* ">
 
 **Script Syntax**
 

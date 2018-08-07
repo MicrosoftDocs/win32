@@ -1,5 +1,5 @@
 ---
-Description: The optional &lt;property&gt; element specifies the properties used by the location provider.
+Description: The optional <property> element specifies the properties used by the location provider.
 ms.assetid: c1120dea-cb0b-4746-a5c1-4c83cda6dd7c
 title: property Element of locationProvider (Search Connector Schema)
 ms.technology: desktop
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # property Element of locationProvider (Search Connector Schema)
 
-The optional &lt;property&gt; element specifies the properties used by the location provider. These properties are specific to this location provider, so there is no predefined set of names to use. The &lt;property&gt; element has two attributes, as described in this topic.
+The optional <property> element specifies the properties used by the location provider. These properties are specific to this location provider, so there is no predefined set of names to use. The <property> element has two attributes, as described in this topic.
 
 ## Syntax
 
@@ -34,7 +34,7 @@ The optional &lt;property&gt; element specifies the properties used by the locat
 
 
 
-## &lt;property&gt; Element Information
+## <property> Element Information
 
 
 
@@ -46,7 +46,7 @@ The optional &lt;property&gt; element specifies the properties used by the locat
 
  
 
-## &lt;property&gt; Element Information
+## <property> Element Information
 
 
 
@@ -58,7 +58,7 @@ The optional &lt;property&gt; element specifies the properties used by the locat
 
  
 
-## &lt;property&gt; Attributes
+## <property> Attributes
 
 
 

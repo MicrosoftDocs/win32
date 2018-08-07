@@ -26,7 +26,7 @@ Defines the percentage of picture removal from the right side. Read/write. **VgN
 
 **Tag Syntax**
 
-&lt;v: *element* cropright=" *expression* "&gt;
+<v: *element* cropright=" *expression* ">
 
 **Script Syntax**
 

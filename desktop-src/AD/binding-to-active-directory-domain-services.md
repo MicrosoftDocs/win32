@@ -42,14 +42,14 @@ All bind functions and methods require a binding string. The form of the binding
 
 Beginning with Windows 2000, the LDAP provider is used to access Active Directory Domain Services. The LDAP binding string can take one of the following forms:
 
--   "LDAP://&lt;host name&gt;/&lt;object name&gt;"
--   "GC://&lt;host name&gt;/&lt;object name&gt;"
+-   "LDAP://<host name>/<object name>"
+-   "GC://<host name>/<object name>"
 
 In the examples above, "LDAP:" specifies the LDAP provider. "GC:" uses the LDAP provider to bind to the Global Catalog service to execute fast queries.
 
-"&lt;host name&gt;" specifies the server to bind to and is optional. If possible, do not specify a server. It is also possible to bind to an object in a different domain. To do this pass the domain naming system (DNS) name of the target domain for "&lt;host name&gt;". For example, to bind to the Users container in the domain2 domain of fabrikam.com, the binding string would be "LDAP://domain2.fabrikam.com/CN=Users,DC=domain2,DC=fabrikam,DC=com".
+"<host name>" specifies the server to bind to and is optional. If possible, do not specify a server. It is also possible to bind to an object in a different domain. To do this pass the domain naming system (DNS) name of the target domain for "<host name>". For example, to bind to the Users container in the domain2 domain of fabrikam.com, the binding string would be "LDAP://domain2.fabrikam.com/CN=Users,DC=domain2,DC=fabrikam,DC=com".
 
-"&lt;object name&gt;" represents a specific object in Active Directory Domain Services. The object name can be a distinguished name or an object GUID.
+"<object name>" represents a specific object in Active Directory Domain Services. The object name can be a distinguished name or an object GUID.
 
 For more information about LDAP binding strings, see [LDAP ADsPath](https://msdn.microsoft.com/library/aa746384).
 

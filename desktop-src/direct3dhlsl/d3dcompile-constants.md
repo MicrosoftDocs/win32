@@ -47,7 +47,7 @@ The D3DCOMPILE constants specify how the compiler compiles the HLSL code.
 <span id="D3DCOMPILE_DEBUG"></span><span id="d3dcompile_debug"></span>**D3DCOMPILE\_DEBUG**
 </dt> <dd> <dl> <dt>
 
-(1 &lt;&lt; 0)
+(1 << 0)
 </dt> <dt>
 
 
@@ -60,7 +60,7 @@ Directs the compiler to insert debug file/line/type/symbol information into the 
 <span id="D3DCOMPILE_SKIP_VALIDATION"></span><span id="d3dcompile_skip_validation"></span>**D3DCOMPILE\_SKIP\_VALIDATION**
 </dt> <dd> <dl> <dt>
 
-(1 &lt;&lt; 1)
+(1 << 1)
 </dt> <dt>
 
 
@@ -73,7 +73,7 @@ Directs the compiler not to validate the generated code against known capabiliti
 <span id="D3DCOMPILE_SKIP_OPTIMIZATION"></span><span id="d3dcompile_skip_optimization"></span>**D3DCOMPILE\_SKIP\_OPTIMIZATION**
 </dt> <dd> <dl> <dt>
 
-(1 &lt;&lt; 2)
+(1 << 2)
 </dt> <dt>
 
 
@@ -86,7 +86,7 @@ Directs the compiler to skip optimization steps during code generation. We recom
 <span id="D3DCOMPILE_PACK_MATRIX_ROW_MAJOR"></span><span id="d3dcompile_pack_matrix_row_major"></span>**D3DCOMPILE\_PACK\_MATRIX\_ROW\_MAJOR**
 </dt> <dd> <dl> <dt>
 
-(1 &lt;&lt; 3)
+(1 << 3)
 </dt> <dt>
 
 
@@ -99,7 +99,7 @@ Directs the compiler to pack matrices in row-major order on input and output fro
 <span id="D3DCOMPILE_PACK_MATRIX_COLUMN_MAJOR"></span><span id="d3dcompile_pack_matrix_column_major"></span>**D3DCOMPILE\_PACK\_MATRIX\_COLUMN\_MAJOR**
 </dt> <dd> <dl> <dt>
 
-(1 &lt;&lt; 4)
+(1 << 4)
 </dt> <dt>
 
 
@@ -112,7 +112,7 @@ Directs the compiler to pack matrices in column-major order on input and output 
 <span id="D3DCOMPILE_PARTIAL_PRECISION"></span><span id="d3dcompile_partial_precision"></span>**D3DCOMPILE\_PARTIAL\_PRECISION**
 </dt> <dd> <dl> <dt>
 
-(1 &lt;&lt; 5)
+(1 << 5)
 </dt> <dt>
 
 
@@ -125,7 +125,7 @@ Directs the compiler to perform all computations with partial precision. If you 
 <span id="D3DCOMPILE_FORCE_VS_SOFTWARE_NO_OPT"></span><span id="d3dcompile_force_vs_software_no_opt"></span>**D3DCOMPILE\_FORCE\_VS\_SOFTWARE\_NO\_OPT**
 </dt> <dd> <dl> <dt>
 
-(1 &lt;&lt; 6)
+(1 << 6)
 </dt> <dt>
 
 
@@ -138,7 +138,7 @@ Directs the compiler to compile a vertex shader for the next highest shader prof
 <span id="D3DCOMPILE_FORCE_PS_SOFTWARE_NO_OPT"></span><span id="d3dcompile_force_ps_software_no_opt"></span>**D3DCOMPILE\_FORCE\_PS\_SOFTWARE\_NO\_OPT**
 </dt> <dd> <dl> <dt>
 
-(1 &lt;&lt; 7)
+(1 << 7)
 </dt> <dt>
 
 
@@ -151,7 +151,7 @@ Directs the compiler to compile a pixel shader for the next highest shader profi
 <span id="D3DCOMPILE_NO_PRESHADER"></span><span id="d3dcompile_no_preshader"></span>**D3DCOMPILE\_NO\_PRESHADER**
 </dt> <dd> <dl> <dt>
 
-(1 &lt;&lt; 8)
+(1 << 8)
 </dt> <dt>
 
 
@@ -164,7 +164,7 @@ Directs the compiler to disable Preshaders. If you set this constant, the compil
 <span id="D3DCOMPILE_AVOID_FLOW_CONTROL"></span><span id="d3dcompile_avoid_flow_control"></span>**D3DCOMPILE\_AVOID\_FLOW\_CONTROL**
 </dt> <dd> <dl> <dt>
 
-(1 &lt;&lt; 9)
+(1 << 9)
 </dt> <dt>
 
 
@@ -177,7 +177,7 @@ Directs the compiler to not use flow-control constructs where possible.
 <span id="D3DCOMPILE_PREFER_FLOW_CONTROL"></span><span id="d3dcompile_prefer_flow_control"></span>**D3DCOMPILE\_PREFER\_FLOW\_CONTROL**
 </dt> <dd> <dl> <dt>
 
-(1 &lt;&lt; 10)
+(1 << 10)
 </dt> <dt>
 
 
@@ -190,7 +190,7 @@ Directs the compiler to use flow-control constructs where possible.
 <span id="D3DCOMPILE_ENABLE_STRICTNESS"></span><span id="d3dcompile_enable_strictness"></span>**D3DCOMPILE\_ENABLE\_STRICTNESS**
 </dt> <dd> <dl> <dt>
 
-(1 &lt;&lt; 11)
+(1 << 11)
 </dt> <dt>
 
 
@@ -205,7 +205,7 @@ By default, the compiler disables strictness on deprecated syntax.
 <span id="D3DCOMPILE_ENABLE_BACKWARDS_COMPATIBILITY"></span><span id="d3dcompile_enable_backwards_compatibility"></span>**D3DCOMPILE\_ENABLE\_BACKWARDS\_COMPATIBILITY**
 </dt> <dd> <dl> <dt>
 
-(1 &lt;&lt; 12)
+(1 << 12)
 </dt> <dt>
 
 
@@ -218,7 +218,7 @@ Directs the compiler to enable older shaders to compile to 5\_0 targets.
 <span id="D3DCOMPILE_IEEE_STRICTNESS"></span><span id="d3dcompile_ieee_strictness"></span>**D3DCOMPILE\_IEEE\_STRICTNESS**
 </dt> <dd> <dl> <dt>
 
-(1 &lt;&lt; 13)
+(1 << 13)
 </dt> <dt>
 
 
@@ -231,7 +231,7 @@ Forces the IEEE strict compile.
 <span id="D3DCOMPILE_OPTIMIZATION_LEVEL0"></span><span id="d3dcompile_optimization_level0"></span>**D3DCOMPILE\_OPTIMIZATION\_LEVEL0**
 </dt> <dd> <dl> <dt>
 
-(1 &lt;&lt; 14)
+(1 << 14)
 </dt> <dt>
 
 
@@ -257,7 +257,7 @@ Directs the compiler to use the second lowest optimization level.
 <span id="D3DCOMPILE_OPTIMIZATION_LEVEL2"></span><span id="d3dcompile_optimization_level2"></span>**D3DCOMPILE\_OPTIMIZATION\_LEVEL2**
 </dt> <dd> <dl> <dt>
 
-((1 &lt;&lt; 14) \| (1 &lt;&lt; 15))
+((1 << 14) \| (1 << 15))
 </dt> <dt>
 
 
@@ -270,7 +270,7 @@ Directs the compiler to use the second highest optimization level.
 <span id="D3DCOMPILE_OPTIMIZATION_LEVEL3"></span><span id="d3dcompile_optimization_level3"></span>**D3DCOMPILE\_OPTIMIZATION\_LEVEL3**
 </dt> <dd> <dl> <dt>
 
-(1 &lt;&lt; 15)
+(1 << 15)
 </dt> <dt>
 
 
@@ -283,7 +283,7 @@ Directs the compiler to use the highest optimization level. If you set this cons
 <span id="D3DCOMPILE_WARNINGS_ARE_ERRORS"></span><span id="d3dcompile_warnings_are_errors"></span>**D3DCOMPILE\_WARNINGS\_ARE\_ERRORS**
 </dt> <dd> <dl> <dt>
 
-(1 &lt;&lt; 18)
+(1 << 18)
 </dt> <dt>
 
 
@@ -296,7 +296,7 @@ Directs the compiler to treat all warnings as errors when it compiles the shader
 <span id="D3DCOMPILE_RESOURCES_MAY_ALIAS"></span><span id="d3dcompile_resources_may_alias"></span>**D3DCOMPILE\_RESOURCES\_MAY\_ALIAS**
 </dt> <dd> <dl> <dt>
 
-(1 &lt;&lt; 19)
+(1 << 19)
 </dt> <dt>
 
 
@@ -314,7 +314,7 @@ Directs the compiler to assume that unordered access views (UAVs) and shader res
 <span id="D3DCOMPILE_ENABLE_UNBOUNDED_DESCRIPTOR_TABLES"></span><span id="d3dcompile_enable_unbounded_descriptor_tables"></span>**D3DCOMPILE\_ENABLE\_UNBOUNDED\_DESCRIPTOR\_TABLES**
 </dt> <dd> <dl> <dt>
 
-(1 &lt;&lt; 20)
+(1 << 20)
 </dt> <dt>
 
 
@@ -332,7 +332,7 @@ Directs the compiler to enable unbounded descriptor tables.
 <span id="D3DCOMPILE_ALL_RESOURCES_BOUND"></span><span id="d3dcompile_all_resources_bound"></span>**D3DCOMPILE\_ALL\_RESOURCES\_BOUND**
 </dt> <dd> <dl> <dt>
 
-(1 &lt;&lt; 21)
+(1 << 21)
 </dt> <dt>
 
 

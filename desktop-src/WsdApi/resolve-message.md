@@ -78,23 +78,23 @@ A Resolve message has the following focus points.
 <tbody>
 <tr class="odd">
 <td>Resolve</td>
-<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Action&gt;
+<td><pre class="syntax" data-space="preserve"><code><wsa:Action>
     http://schemas.xmlsoap.org/ws/2005/04/discovery/Resolve
-&lt;/wsa:Action&gt;</code></pre></td>
+</wsa:Action></code></pre></td>
 <td>The Resolve SOAP action identifies the message as a Resolve message.</td>
 </tr>
 <tr class="even">
 <td>MessageID</td>
-<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:MessageID&gt;
+<td><pre class="syntax" data-space="preserve"><code><wsa:MessageID>
     urn:uuid:38d1c3d9-8d73-4424-8861-6b7ee2af24d3
-&lt;/wsa:MessageID&gt;</code></pre></td>
+</wsa:MessageID></code></pre></td>
 <td>Contains the message identifier, which is referenced in a [ResolveMatches](resolvematches-message.md) message.</td>
 </tr>
 <tr class="odd">
 <td>Address</td>
-<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Address&gt;
+<td><pre class="syntax" data-space="preserve"><code><wsa:Address>
     urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
-&lt;/wsa:Address&gt;</code></pre></td>
+</wsa:Address></code></pre></td>
 <td>Contains the address of the endpoint being resolved.</td>
 </tr>
 </tbody>

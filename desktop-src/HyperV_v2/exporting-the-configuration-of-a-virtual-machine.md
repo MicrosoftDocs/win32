@@ -174,7 +174,7 @@ Function GetComputerSystem(vmElementName)
     dim query
     query = Format1(&quot;select * from Msvm_ComputerSystem where ElementName = &#39;{0}&#39;&quot;, vmElementName)
     set GetComputerSystem = objWMIService.ExecQuery(query).ItemIndex(0)
-    if (Err.Number &lt;&gt; 0) then
+    if (Err.Number <> 0) then
         WriteLog Format1(&quot;Err.Number: {0}&quot;, Err.Number)
         WriteLog Format1(&quot;Err.Description:{0}&quot;,Err.Description)
         WScript.Quit(1)
@@ -247,7 +247,7 @@ Function WMIJobCompleted(outParam)
         jobState = WMIJob.JobState
     wend
 
-    if (jobState &lt;&gt; JobCompleted) then
+    if (jobState <> JobCompleted) then
         WriteLog Format1(&quot;ErrorCode:{0}&quot;, WMIJob.ErrorCode)
         WriteLog Format1(&quot;ErrorDescription:{0}&quot;, WMIJob.ErrorDescription)
         WMIJobCompleted = false

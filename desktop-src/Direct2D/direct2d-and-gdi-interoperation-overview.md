@@ -110,7 +110,7 @@ GetClientRect(m_hwnd, &rc);</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>// Bind the DC to the DC render target.
-hr = m_pDCRT-&gt;BindDC(ps.hdc, &rc);</code></pre></td>
+hr = m_pDCRT->BindDC(ps.hdc, &rc);</code></pre></td>
 </tr>
 </tbody>
 </table>

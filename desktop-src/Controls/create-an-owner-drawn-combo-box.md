@@ -322,8 +322,8 @@ INT_PTR CALLBACK FoodDlgProc(HWND hDlg, UINT message, WPARAM wParam,
         // Set the height of the items in the food groups combo box.
         LPMEASUREITEMSTRUCT lpmis = (LPMEASUREITEMSTRUCT) lParam;
 
-        if (lpmis-&gt;itemHeight &lt; CY_BITMAP + 2)
-            lpmis-&gt;itemHeight = CY_BITMAP + 2;
+        if (lpmis->itemHeight < CY_BITMAP + 2)
+            lpmis->itemHeight = CY_BITMAP + 2;
 
         break;
         }
@@ -340,29 +340,29 @@ INT_PTR CALLBACK FoodDlgProc(HWND hDlg, UINT message, WPARAM wParam,
 
         LPDRAWITEMSTRUCT lpdis = (LPDRAWITEMSTRUCT) lParam;
            
-        if (lpdis-&gt;itemID == -1) // Empty item)
+        if (lpdis->itemID == -1) // Empty item)
             break;
 
         // Get the food icon from the item data.
-        hbmIcon = (HBITMAP) lpdis-&gt;itemData;
+        hbmIcon = (HBITMAP) lpdis->itemData;
 
         // The colors depend on whether the item is selected.
-        clrForeground = SetTextColor(lpdis-&gt;hDC, 
-            GetSysColor(lpdis-&gt;itemState & ODS_SELECTED ?
+        clrForeground = SetTextColor(lpdis->hDC, 
+            GetSysColor(lpdis->itemState & ODS_SELECTED ?
             COLOR_HIGHLIGHTTEXT : COLOR_WINDOWTEXT));
 
-        clrBackground = SetBkColor(lpdis-&gt;hDC, 
-            GetSysColor(lpdis-&gt;itemState & ODS_SELECTED ?
+        clrBackground = SetBkColor(lpdis->hDC, 
+            GetSysColor(lpdis->itemState & ODS_SELECTED ?
             COLOR_HIGHLIGHT : COLOR_WINDOW));
 
         // Calculate the vertical and horizontal position.
-        GetTextMetrics(lpdis-&gt;hDC, &tm);
-        y = (lpdis-&gt;rcItem.bottom + lpdis-&gt;rcItem.top - tm.tmHeight) / 2;
+        GetTextMetrics(lpdis->hDC, &tm);
+        y = (lpdis->rcItem.bottom + lpdis->rcItem.top - tm.tmHeight) / 2;
         x = LOWORD(GetDialogBaseUnits()) / 4;
 
         // Get and display the text for the list item.
-        SendMessage(lpdis-&gt;hwndItem, CB_GETLBTEXT,
-            lpdis-&gt;itemID, (LPARAM) achTemp);
+        SendMessage(lpdis->hwndItem, CB_GETLBTEXT,
+            lpdis->itemID, (LPARAM) achTemp);
 
         hr = StringCchLength(achTemp, 256, &cch);
         if (FAILED(hr))
@@ -370,32 +370,32 @@ INT_PTR CALLBACK FoodDlgProc(HWND hDlg, UINT message, WPARAM wParam,
             // TODO: Write error handler.
         }
 
-        ExtTextOut(lpdis-&gt;hDC, CX_BITMAP + 2 * x, y,
-            ETO_CLIPPED | ETO_OPAQUE, &lpdis-&gt;rcItem,
+        ExtTextOut(lpdis->hDC, CX_BITMAP + 2 * x, y,
+            ETO_CLIPPED | ETO_OPAQUE, &lpdis->rcItem,
             achTemp, (UINT)cch, NULL);
 
         // Restore the previous colors.
-        SetTextColor(lpdis-&gt;hDC, clrForeground);
-        SetBkColor(lpdis-&gt;hDC, clrBackground);
+        SetTextColor(lpdis->hDC, clrForeground);
+        SetBkColor(lpdis->hDC, clrBackground);
         
         //  Draw the food icon for the item. 
-        HDC hdc = CreateCompatibleDC(lpdis-&gt;hDC); 
+        HDC hdc = CreateCompatibleDC(lpdis->hDC); 
         if (hdc == NULL) 
             break; 
  
         SelectObject(hdc, hbmMask); 
-        BitBlt(lpdis-&gt;hDC, x, lpdis-&gt;rcItem.top + 1, 
+        BitBlt(lpdis->hDC, x, lpdis->rcItem.top + 1, 
             CX_BITMAP, CY_BITMAP, hdc, 0, 0, SRCAND); 
  
         SelectObject(hdc, hbmIcon); 
-        BitBlt(lpdis-&gt;hDC, x, lpdis-&gt;rcItem.top + 1, 
+        BitBlt(lpdis->hDC, x, lpdis->rcItem.top + 1, 
             CX_BITMAP, CY_BITMAP, hdc, 0, 0, SRCPAINT); 
  
         DeleteDC(hdc); 
       
         // If the item has the focus, draw the focus rectangle.
-        if (lpdis-&gt;itemState & ODS_FOCUS)
-            DrawFocusRect(lpdis-&gt;hDC, &lpdis-&gt;rcItem);
+        if (lpdis->itemState & ODS_FOCUS)
+            DrawFocusRect(lpdis->hDC, &lpdis->rcItem);
 
         break;
         }
@@ -583,11 +583,11 @@ BOOL LoadIconBitmaps(void)
 //
 void DeleteIconBitmaps(void)
 {
-    FreeResource(reinterpret_cast&lt;HGLOBAL&gt;(hbmBread));
-    FreeResource(reinterpret_cast&lt;HGLOBAL&gt;(hbmDairy));
-    FreeResource(reinterpret_cast&lt;HGLOBAL&gt;(hbmMeat));
-    FreeResource(reinterpret_cast&lt;HGLOBAL&gt;(hbmFruit));
-    FreeResource(reinterpret_cast&lt;HGLOBAL&gt;(hbmMask));
+    FreeResource(reinterpret_cast<HGLOBAL>(hbmBread));
+    FreeResource(reinterpret_cast<HGLOBAL>(hbmDairy));
+    FreeResource(reinterpret_cast<HGLOBAL>(hbmMeat));
+    FreeResource(reinterpret_cast<HGLOBAL>(hbmFruit));
+    FreeResource(reinterpret_cast<HGLOBAL>(hbmMask));
 }</code></pre></td>
 </tr>
 </tbody>

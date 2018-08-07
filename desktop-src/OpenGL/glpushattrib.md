@@ -134,7 +134,7 @@ GL\_DITHER flag
 
 GL\_FOG flag
 
-GL\_LIGHT*i* where 0 &lt;= *i* &lt; GL\_MAX\_LIGHTS
+GL\_LIGHT*i* where 0 <= *i* < GL\_MAX\_LIGHTS
 
 GL\_LIGHTING flag
 

@@ -85,7 +85,7 @@ CLOCK <b><required><b><clockid>
 
 
 
-On output there will be a new line ("\\r\\n") per filter, one per connection, and one for each of the keywords FILTERS and CONNECTIONS. Each other case of &lt;b&gt; will be a single space. The keywords FILTERS, CONNECTIONS, and END are not localizable. Note also that the filter data and the format data are binary, so they might contain incorrect line breaks, null values, and so on. The stream uses wide characters.
+On output there will be a new line ("\\r\\n") per filter, one per connection, and one for each of the keywords FILTERS and CONNECTIONS. Each other case of <b> will be a single space. The keywords FILTERS, CONNECTIONS, and END are not localizable. Note also that the filter data and the format data are binary, so they might contain incorrect line breaks, null values, and so on. The stream uses wide characters.
 
 The following shows a typical graph. (The connection lines have been broken for clarity, and the binary data omitted.)
 

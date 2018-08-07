@@ -26,7 +26,7 @@ Preprocessor directive that inserts the contents of the specified file into the 
 
 | \#include "*filename*"       |
 |------------------------------|
-| \#include &lt;*filename*&gt; |
+| \#include <*filename*> |
 
 
 
@@ -85,7 +85,7 @@ The INCLUDE environment variable is ignored in an development environment. Refer
 </ol></td>
 </tr>
 <tr class="even">
-<td>#include &lt;<em>filename</em>&gt;</td>
+<td>#include <<em>filename</em>></td>
 <td>Searches for the include file:
 <ol>
 <li>in paths specified by the /I compiler option, in the order in which they are listed.</li>

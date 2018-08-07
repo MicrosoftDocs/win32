@@ -26,7 +26,7 @@ Determines whether the handles of a shape can be edited. Read/write. **VgTriStat
 
 **Tag Syntax**
 
-&lt;o: *element* adjusthandles=" *expression* "&gt;
+<o: *element* adjusthandles=" *expression* ">
 
 **Remarks**
 

@@ -26,7 +26,7 @@ Defines a source for the image. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* src=" *expression* "&gt;
+<v: *element* src=" *expression* ">
 
 **Script Syntax**
 

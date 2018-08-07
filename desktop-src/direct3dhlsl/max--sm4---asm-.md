@@ -26,7 +26,7 @@ Component-wise float maximum.
 
 | Item                                                            | Description                                                                                               |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| <span id="dest"></span><span id="DEST"></span>*dest*<br/> | \[in\] The result of the operation. <br/> *dest* = *src0* &gt;= *src1* ? *src0* : *src1*<br/> |
+| <span id="dest"></span><span id="DEST"></span>*dest*<br/> | \[in\] The result of the operation. <br/> *dest* = *src0* >= *src1* ? *src0* : *src1*<br/> |
 | <span id="src0"></span><span id="SRC0"></span>*src0*<br/> | \[in\] The components to compare to *src1*.<br/>                                                    |
 | <span id="src1"></span><span id="SRC1"></span>*src1*<br/> | \[in\] The components to compare to *src0*.<br/>                                                    |
 
@@ -36,7 +36,7 @@ Component-wise float maximum.
 
 ## Remarks
 
-&gt;= is used instead of &gt; so that if min(x,y) = x then max(x,y) = y.
+>= is used instead of > so that if min(x,y) = x then max(x,y) = y.
 
 NaN has special handling. If one source operand is NaN, then the other source operand is returned and the choice is made per-component. If both are NaN, any NaN representation is returned.
 
@@ -48,7 +48,7 @@ The following table shows the results obtained when executing the instruction wi
 
 |                    |          |              |          |         |
 |--------------------|----------|--------------|----------|---------|
-| **src0 src1-&gt;** | **-inf** | **F**        | **+inf** | **NaN** |
+| **src0 src1->** | **-inf** | **F**        | **+inf** | **NaN** |
 | **-inf**           | -inf     | src1         | +inf     | -inf    |
 | **F**              | src0     | src0 or src1 | +inf     | src0    |
 | **+inf**           | +inf     | +inf         | +inf     | +inf    |

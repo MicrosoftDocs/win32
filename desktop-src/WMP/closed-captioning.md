@@ -30,7 +30,7 @@ ms.date: 05/31/2018
 
 # Closed Captioning
 
-The Windows Media Player 6.4 ActiveX control includes an integrated closed caption display panel that, when made visible, enables Synchronized Accessible Media Interchange (SAMI) closed captions and displays the closed caption text. The Windows Media Player 7 or later control enables SAMI closed caption display by using an HTML **&lt;DIV&gt;** element. For example:
+The Windows Media Player 6.4 ActiveX control includes an integrated closed caption display panel that, when made visible, enables Synchronized Accessible Media Interchange (SAMI) closed captions and displays the closed caption text. The Windows Media Player 7 or later control enables SAMI closed caption display by using an HTML **<DIV>** element. For example:
 
 
 ```C++

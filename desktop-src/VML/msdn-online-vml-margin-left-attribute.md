@@ -26,7 +26,7 @@ Specifies the left edge of the shape's containing rectangle relative to the shap
 
 **Tag Syntax**
 
-&lt;v: *element* style="margin-left: *expression* "&gt;
+<v: *element* style="margin-left: *expression* ">
 
 **Script Syntax**
 

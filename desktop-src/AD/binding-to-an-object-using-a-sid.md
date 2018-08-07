@@ -38,9 +38,9 @@ In this example, "servername" is the name of the directory server and "XXXXX" is
 
 
 
-the SID binding string would be "&lt;SID=AB14E2&gt;". The [**ADsEncodeBinaryData**](https://msdn.microsoft.com/library/aa772180) function should not be used to convert the SID array into a string because it precedes each byte character with a backslash, which is not a valid bind string format.
+the SID binding string would be "<SID=AB14E2>". The [**ADsEncodeBinaryData**](https://msdn.microsoft.com/library/aa772180) function should not be used to convert the SID array into a string because it precedes each byte character with a backslash, which is not a valid bind string format.
 
-The SID string can also take the form "&lt;SID=S-X-X-XX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXX-XXX&gt;", where the "S-X-X-XX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXX-XXX" portion is the same as the string returned by the [**ConvertSidToStringSid**](https://msdn.microsoft.com/library/windows/desktop/aa376399) function.
+The SID string can also take the form "<SID=S-X-X-XX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXX-XXX>", where the "S-X-X-XX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXX-XXX" portion is the same as the string returned by the [**ConvertSidToStringSid**](https://msdn.microsoft.com/library/windows/desktop/aa376399) function.
 
 When binding using the object SID, some [**IADs**](https://msdn.microsoft.com/library/aa705950) and [**IADsContainer**](https://msdn.microsoft.com/library/aa705985) methods and properties are not supported. The following **IADs** properties are not supported by objects obtained by binding using the object SID:
 

@@ -631,7 +631,7 @@ Texture2D resources have limits on their width and height that differ across [fe
 
 
 
-| Feature Level             | If MipCount &gt; 1, Dimensions must be integral power of two | Minimum supported texture dimension | Cube textures dimensions must be power of two | If MISC\_TEXTURECUBE is set, the ArraySize is: | If MISC\_TEXTURECUBE is not set, the ArraySize is. |
+| Feature Level             | If MipCount > 1, Dimensions must be integral power of two | Minimum supported texture dimension | Cube textures dimensions must be power of two | If MISC\_TEXTURECUBE is set, the ArraySize is: | If MISC\_TEXTURECUBE is not set, the ArraySize is. |
 |---------------------------|--------------------------------------------------------------|-------------------------------------|-----------------------------------------------|------------------------------------------------|----------------------------------------------------|
 | D3D\_FEATURE\_LEVEL\_9\_1 | Yes                                                          | 2048                                | Yes                                           | 6                                              | 1                                                  |
 | D3D\_FEATURE\_LEVEL\_9\_2 | Yes                                                          | 2048                                | Yes                                           | 6                                              | 1                                                  |

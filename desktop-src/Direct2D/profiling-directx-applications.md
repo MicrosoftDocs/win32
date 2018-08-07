@@ -171,7 +171,7 @@ In both the cases, it was observed that the frame rate dropped drastically. Meas
 
     ![gpuview screenshot.](images/profile11.png)
 
-3.  Go to the Trace menu, and make sure "Load Symbols" is checked. Also, go to Trace -&gt; Configure Symbol Paths, and type in the app symbol path. A symbol file contains debugging information about a compiled executable in a separate database (.pdb). This file is commonly referred to as a PDB. More on symbol files can be found here: [Symbol Files](https://msdn.microsoft.com/library/windows/desktop/aa363368). This file can be located in the "Debug" folder of the app directory.
+3.  Go to the Trace menu, and make sure "Load Symbols" is checked. Also, go to Trace -> Configure Symbol Paths, and type in the app symbol path. A symbol file contains debugging information about a compiled executable in a separate database (.pdb). This file is commonly referred to as a PDB. More on symbol files can be found here: [Symbol Files](https://msdn.microsoft.com/library/windows/desktop/aa363368). This file can be located in the "Debug" folder of the app directory.
 
 4.  In order to get the breakdown of where the time is being spent in the app, right click on the interval selected in the previous step and click Summary Table. To get an overview of how much time is spent in each dll, uncheck "Stack" from the "Columns" menu. Note that the "Count" column here shows how many samples are within the given dll/function. Because approximately one sample is taken per ms, this number can be used as a best guess for how much time is spent in each dll/function. Checking the "Stack" from Columns menu will give the inclusive time spent in each function in the call graph. This will help to break down the problem points further.
 

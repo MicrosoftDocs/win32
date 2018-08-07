@@ -36,7 +36,7 @@ Here is an example of a manifest file named MySampleAssembly.manifest. The MySam
 
 Next run the [Mt.exe](mt-exe.md) utility provided in the Windows SDK. The assembly files must be located in the same directory as the manifest. In this example this is the MySampleAssembly directory. Call Mt.exe for the example as follows:
 
-**c:\\ MySampleAssembly&gt;mt.exe -manifest MySampleAssembly.manifest -hashupdate -makecdfs**
+**c:\\ MySampleAssembly>mt.exe -manifest MySampleAssembly.manifest -hashupdate -makecdfs**
 
 Here is how the example manifest looks after running Mt.exe. Notice that running Mt.exe with the hashupdate option adds the SHA-1 hash of the file. Do not change this value.
 
@@ -58,11 +58,11 @@ Running Mt.exe with the -makecdfs option generates a file named MySampleAssembly
 
 The next step is to run Makecat.exe over this .cdf to create the security catalog for the assembly. The call to Makecat.exe for this example would appear as follows:
 
-**c:\\MySampleAssembly&gt;makecat MySampleAssembly.manifest.cdf**
+**c:\\MySampleAssembly>makecat MySampleAssembly.manifest.cdf**
 
 The final step is to run SignTool.exe to sign the catalog file with the certificate. This should be the same certificate that was used in the preceding to generate the public key token. For more information about SignTool.exe see the [**SignTool**](https://msdn.microsoft.com/library/windows/desktop/aa387764) topic. The call to **SignTool** for the example would appear as follows:
 
-**c:\\MySampleAssembly&gt;signtool sign /f** *&lt;fullpath&gt;***mycompany.pfx /du http://www.mycompany.com/MySampleAssembly /t http://timestamp.verisign.com/scripts/timstamp.dll MySampleAssembly.cat**
+**c:\\MySampleAssembly>signtool sign /f** *<fullpath>***mycompany.pfx /du http://www.mycompany.com/MySampleAssembly /t http://timestamp.verisign.com/scripts/timstamp.dll MySampleAssembly.cat**
 
 If you have an authenticated digital certificate, and your certification authority uses the PVK file format to store the private key, you can use the PVK Digital Certificate Files Importer (pvkimprt.exe) to import the key into your cryptographic service provider (CSP). This utility enables you to export to the industry standard format of PFX/P12. For more information about the PVK Digital Certificate Files Importer, see the Deployment Resources section of the MSDN library or contact your certification authority. You may be able to obtain pvkimprt.exe from http://office.microsoft.com/downloads/2000/pvkimprt.aspx.
 

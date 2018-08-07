@@ -26,7 +26,7 @@ Defines the alternate layout flow for text in textboxes. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* style="mso-layout-flow-alt: *expression* "&gt;
+<v: *element* style="mso-layout-flow-alt: *expression* ">
 
 **Remarks**
 

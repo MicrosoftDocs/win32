@@ -52,7 +52,7 @@ Whenever possible, the in-process server is loaded in the same apartment as the 
 
 | Threading model of server | Apartment server is run in |
 |---------------------------|----------------------------|
-| &lt;not specified&gt;     | Main STA                   |
+| <not specified>     | Main STA                   |
 | Both                      | Same apartment as client   |
 | Free                      | Multithreaded apartment    |
 | Neutral                   | Neutral apartment          |

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The Accessible Event Watcher (AccEvent) tool allows developers and testers to validate that an application's UI elements raise proper Microsoft UI Automation and Microsoft Active Accessibility events when UI changes occur. Changes in the UI can occur when focus changes, or when a UI element is invoked, selected, or has a state or property change.
 
-Accessible Event Watcher is installed with the Windows Software Development Kit (SDK). It is located in the \\bin\\&lt;*version*&gt;\\&lt;*platform*&gt; folder of the SDK installation path (Accevent.exe).
+Accessible Event Watcher is installed with the Windows Software Development Kit (SDK). It is located in the \\bin\\<*version*>\\<*platform*> folder of the SDK installation path (Accevent.exe).
 
 -   [Requirements](#requirements)
 -   [The Accessible Event Watcher Window](#the-accessible-event-watcher-window)
@@ -31,7 +31,7 @@ AccEvent can be used to examine accessibility data on systems that don't have UI
 
 AccEvent is installed as part of the overall set of tools in the Windows SDK, it is not distributed as a separate exe download. The Windows SDK includes all of the accessibility-related tools documented in this section. [Get the Windows SDK.](http://go.microsoft.com/fwlink/p/?LinkID=271979) (There's also an SDK download archive linked from that page, if you need a previous version.)
 
-To run AccEvent, find AccEvent.exe in the \\bin\\&lt;*version*&gt;\\&lt;*platform*&gt; folder and run it (you don't typically have to run as administrator).
+To run AccEvent, find AccEvent.exe in the \\bin\\<*version*>\\<*platform*> folder and run it (you don't typically have to run as administrator).
 
 ## The Accessible Event Watcher Window
 

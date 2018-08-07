@@ -26,7 +26,7 @@ Defines the offset of the skew. Read/write **VgVector2D**.
 
 **Tag Syntax**
 
-&lt;o: *element* offset=" *expression* "&gt;
+<o: *element* offset=" *expression* ">
 
 **Script Syntax**
 

@@ -39,7 +39,7 @@ A handle to window.
 *wParam* 
 </dt> <dd>
 
-**DBCS:** A single-byte or double-byte character value. For a double-byte character, (BYTE)(wParam &gt;&gt; 8) contains the lead byte. Note that the parentheses are necessary because the cast operator has higher precedence than the shift operator.
+**DBCS:** A single-byte or double-byte character value. For a double-byte character, (BYTE)(wParam >> 8) contains the lead byte. Note that the parentheses are necessary because the cast operator has higher precedence than the shift operator.
 
 **Unicode:** A Unicode character value.
 

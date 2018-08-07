@@ -26,7 +26,7 @@ Specifies the horizontal positioning data for objects in Microsoft Word. Read/wr
 
 **Tag Syntax**
 
-&lt;v: *element* mso-position-horizontal=" *expression* "&gt;
+<v: *element* mso-position-horizontal=" *expression* ">
 
 **Remarks**
 

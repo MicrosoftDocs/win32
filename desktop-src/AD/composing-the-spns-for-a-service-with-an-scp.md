@@ -27,7 +27,7 @@ The following code example composes an SPN for a service that uses a service con
 
 
 
-"&lt;service class&gt;" and "&lt;service name&gt;" correspond to the *pszDNofSCP* and *pszServiceClass* parameters. "&lt;host&gt;" defaults to the DNS name of the local computer.
+"<service class>" and "<service name>" correspond to the *pszDNofSCP* and *pszServiceClass* parameters. "<host>" defaults to the DNS name of the local computer.
 
 
 ```C++

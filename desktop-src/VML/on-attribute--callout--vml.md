@@ -26,7 +26,7 @@ Determines whether a shape is a callout. Read/write. **VgTriState**.
 
 **Tag Syntax**
 
-&lt;o: *element* on=" *expression* "&gt;
+<o: *element* on=" *expression* ">
 
 **Remarks**
 

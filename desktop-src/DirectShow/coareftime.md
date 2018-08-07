@@ -47,10 +47,10 @@ Filters can use the `COARefTime` class to convert between the two formats. This 
 | [**operator =**](coareftime-operator-assign.md)        | Assigns a new reference time.                                         |
 | [**operator ==**](coareftime-operator-eq.md)           | Tests for equality between two reference times.                       |
 | [**operator !=**](cmediatype-operator-neq.md)          | Tests for inequality between two reference times.                     |
-| [**operator &lt;**](coareftime-operator-lt.md)         | Tests if one reference time is less than another.                     |
-| [**operator &gt;**](coareftime-operator-gt.md)         | Tests if one reference time is greater than another.                  |
-| [**operator &lt;=**](coareftime-operator-lteq.md)      | Tests if one reference time is less than or equal to another.         |
-| [**operator &gt;=**](coareftime-operator-gteq.md)      | Tests if one reference time is greater than or equal to another.      |
+| [**operator <**](coareftime-operator-lt.md)         | Tests if one reference time is less than another.                     |
+| [**operator >**](coareftime-operator-gt.md)         | Tests if one reference time is greater than another.                  |
+| [**operator <=**](coareftime-operator-lteq.md)      | Tests if one reference time is less than or equal to another.         |
+| [**operator >=**](coareftime-operator-gteq.md)      | Tests if one reference time is greater than or equal to another.      |
 | [**operator +**](coareftime-operator-plus.md)          | Adds two reference times.                                             |
 | [**operator  **](coareftime-operator-minus.md)         | Subtracts one reference time from another.                            |
 | [**operator +=**](coareftime-operator-plus-assign.md)  | Adds two reference times, and assigns the result to this object.      |

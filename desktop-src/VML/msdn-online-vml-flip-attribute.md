@@ -26,7 +26,7 @@ Switches the orientation of a shape. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* style="flip: *expression* "&gt;
+<v: *element* style="flip: *expression* ">
 
 **Script Syntax**
 

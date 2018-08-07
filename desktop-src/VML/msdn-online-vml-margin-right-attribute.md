@@ -26,7 +26,7 @@ Specifies the right edge of the shape's containing rectangle relative to the sha
 
 **Tag Syntax**
 
-&lt;v: *element* style="margin-right: *expression* "&gt;
+<v: *element* style="margin-right: *expression* ">
 
 **Script Syntax**
 

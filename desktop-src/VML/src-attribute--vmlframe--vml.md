@@ -26,7 +26,7 @@ Defines the source of data for the frame. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* src=" *expression* "&gt;
+<v: *element* src=" *expression* ">
 
 **Script Syntax**
 

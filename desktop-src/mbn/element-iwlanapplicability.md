@@ -18,9 +18,9 @@ Specifies that this profile is active only when connected to an IWLAN network. O
 
 ## Element hierarchy
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-[&lt;ProfileConditionedOn&gt;](element-profileconditionedon.md)  
-**&lt;IwlanApplicability&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+[<ProfileConditionedOn>](element-profileconditionedon.md)  
+**<IwlanApplicability>**
 
 ## Syntax
 

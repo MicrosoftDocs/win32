@@ -19,7 +19,7 @@ Determines whether a shape can be placed in a table. Read/write. **VgTriState**.
 
 **Tag Syntax**
 
-v:*element* o:allowincell="*expression*"&gt;
+v:*element* o:allowincell="*expression*">
 
 **Remarks**
 

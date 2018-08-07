@@ -52,7 +52,7 @@ F means finite-real number.
 <tbody>
 <tr class="odd">
 <td><dl> <strong>src0</strong><br />
-<strong>src1-&gt;</strong><br />
+<strong>src1-></strong><br />
 </dl></td>
 <td><strong>-inf</strong></td>
 <td><strong>-F</strong></td>

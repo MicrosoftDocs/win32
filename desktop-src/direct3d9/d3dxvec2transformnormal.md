@@ -75,7 +75,7 @@ Pointer to a [**D3DXVECTOR2**](d3dxvector2.md) structure that is the transformed
 
 ## Remarks
 
-This function transforms the vector (*pV-*&gt;x, *pV-*&gt;y, 0, 0) by the matrix pointed to by *pM*.
+This function transforms the vector (*pV-*>x, *pV-*>y, 0, 0) by the matrix pointed to by *pM*.
 
 If you want to transform a normal, the matrix you pass to this function should be the transpose of the inverse of the matrix you would use to transform a point.
 

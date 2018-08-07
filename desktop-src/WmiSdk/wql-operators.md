@@ -22,11 +22,11 @@ The Windows Management Instrumentation Query Language (WQL) supports a set of st
 | Operator       | Description              |
 |----------------|--------------------------|
 | =              | Equal to                 |
-| &lt;           | Less than                |
-| &gt;           | Greater than             |
-| &lt;=          | Less than or equal to    |
-| &gt;=          | Greater than or equal to |
-| != or &lt;&gt; | Not equal to             |
+| <           | Less than                |
+| >           | Greater than             |
+| <=          | Less than or equal to    |
+| >=          | Greater than or equal to |
+| != or <> | Not equal to             |
 
 
 

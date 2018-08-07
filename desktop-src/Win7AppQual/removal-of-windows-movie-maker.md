@@ -27,7 +27,7 @@ ms.date: 05/31/2018
 
 Microsoft is deprecating and removing the Windows Movie Maker utility. This includes:
 
--   All entry points to Windows Movie Maker (for example, Start Menu, Start &gt; Run)
+-   All entry points to Windows Movie Maker (for example, Start Menu, Start > Run)
 -   All binaries that were used by Windows Movie Maker (everything that was in %ProgramFiles%\\Movie Maker)
 
 However, a user's Movie Maker project files will remain on the system and be accessible to other applications that support this file format.

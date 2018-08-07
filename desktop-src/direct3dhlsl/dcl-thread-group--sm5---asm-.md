@@ -26,9 +26,9 @@ Declare thread group size.
 
 | Item                                                   | Description                                                        |
 |--------------------------------------------------------|--------------------------------------------------------------------|
-| <span id="x"></span><span id="X"></span>*x*<br/> | \[in\] An usigned 32-bit integer. 1 &lt;= x &lt;= 1024 <br/> |
-| <span id="y"></span><span id="Y"></span>*y*<br/> | \[in\] An usigned 32-bit integer. 1 &lt;= y &lt;= 1024<br/>  |
-| <span id="z"></span><span id="Z"></span>*z*<br/> | \[in\] An usigned 32-bit integer. 1 &lt;= z &lt;= 64<br/>    |
+| <span id="x"></span><span id="X"></span>*x*<br/> | \[in\] An usigned 32-bit integer. 1 <= x <= 1024 <br/> |
+| <span id="y"></span><span id="Y"></span>*y*<br/> | \[in\] An usigned 32-bit integer. 1 <= y <= 1024<br/>  |
+| <span id="z"></span><span id="Z"></span>*z*<br/> | \[in\] An usigned 32-bit integer. 1 <= z <= 64<br/>    |
 
 
 
@@ -36,7 +36,7 @@ Declare thread group size.
 
 ## Remarks
 
-x\*y\*z &lt;= 1024
+x\*y\*z <= 1024
 
 This thread group declaration must appear once in a compute shader.
 

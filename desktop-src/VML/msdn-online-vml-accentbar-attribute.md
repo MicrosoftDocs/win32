@@ -26,7 +26,7 @@ Determines whether an accent bar will be used with the callout. Read/write. **Vg
 
 **Tag Syntax**
 
-&lt;o: *element* accentbar=" *expression* "&gt;
+<o: *element* accentbar=" *expression* ">
 
 **Remarks**
 

@@ -48,9 +48,9 @@ Leave some blank lines before the closing **VIEW** tag because you'll be adding 
 
 Save your file with any file name you wish, but be sure that the extension is .wms. For example, a typical file name might be skinone.wms.
 
-Every skin must start with &lt;THEME&gt; and end with &lt;/THEME&gt;. You can only have one **THEME** element in your skin, but you must have one.
+Every skin must start with <THEME> and end with </THEME>. You can only have one **THEME** element in your skin, but you must have one.
 
-You must also have at least one **VIEW** element. You can have more than one **VIEW**, but this example only has one. You must have an opening &lt;VIEW&gt; and a closing &lt;VIEW&gt;. Notice that the opening &lt;/VIEW&gt; tag does not close the tag right away, but includes several attributes before the closing angle bracket (&gt;). The following attributes are used in the **THEME** element in this example:
+You must also have at least one **VIEW** element. You can have more than one **VIEW**, but this example only has one. You must have an opening <VIEW> and a closing <VIEW>. Notice that the opening </VIEW> tag does not close the tag right away, but includes several attributes before the closing angle bracket (>). The following attributes are used in the **THEME** element in this example:
 
 **clippingColor**
 
@@ -64,7 +64,7 @@ This is the name of the primary art file. It should be the exact file name and p
 
 This skin does not have a **titleBar**, so the value will be "false". You will only want a title bar if you want your skin to have a background color and be rectangular.
 
-Be sure that you put the closing angle bracket (&gt;) after the **titleBar** value to indicate that you are finished defining the **VIEW**. Leave a few blank lines before the closing **VIEW** and **THEME** tags. You will need the lines for code that you will add later.
+Be sure that you put the closing angle bracket (>) after the **titleBar** value to indicate that you are finished defining the **VIEW**. Leave a few blank lines before the closing **VIEW** and **THEME** tags. You will need the lines for code that you will add later.
 
 ## Related topics
 

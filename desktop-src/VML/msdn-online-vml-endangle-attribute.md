@@ -26,7 +26,7 @@ Defines the endpoint of the arc. Read/write. [VgAngleInDegrees](msdn-online-vml-
 
 **Tag Syntax**
 
-&lt;v: *element* endangle=" *expression* "&gt;
+<v: *element* endangle=" *expression* ">
 
 **Script Syntax**
 

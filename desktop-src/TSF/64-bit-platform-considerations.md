@@ -168,8 +168,8 @@ On 64-bit Windows, only the language bar UI associated with the 64-bit version o
 
 64-bit Windows provides access to both 32-bit and 64-bit versions of text services and IMEs through the Control Panel. To access Control Panel settings for specific versions of text services or IMEs, look in the following locations.
 
--   **Control Panel access for 32-bit Text Services and IMEs:** Start -&gt; Settings -&gt; Control Panel -&gt; View x86 Control Panel Icons
--   **Control Panel access for 64-bit Text Services and IMEs:** Start -&gt; Settings -&gt; Control Panel -&gt; Regional and Language Options
+-   **Control Panel access for 32-bit Text Services and IMEs:** Start -> Settings -> Control Panel -> View x86 Control Panel Icons
+-   **Control Panel access for 64-bit Text Services and IMEs:** Start -> Settings -> Control Panel -> Regional and Language Options
 
 There may be circumstances where some settings might be available only through the 32-bit Control Panel. In these cases, be sure that users of your text service or IME are aware of this, by providing appropriate documentation or offering UI hints in your 64-bit settings interface.
 

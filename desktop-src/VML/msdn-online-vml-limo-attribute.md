@@ -26,7 +26,7 @@ Defines a stretch point on the path. Read/write. **Vector2D**.
 
 **Tag Syntax**
 
-&lt;v: *element* limo=" *expression* "&gt;
+<v: *element* limo=" *expression* ">
 
 **Script Syntax**
 

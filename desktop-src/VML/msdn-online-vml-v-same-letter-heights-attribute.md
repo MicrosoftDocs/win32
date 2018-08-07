@@ -26,7 +26,7 @@ Determines whether all letters will be the same height regardless of initial cas
 
 **Tag Syntax**
 
-&lt;v: *element* style="v-same-letter-heights: *expression* "&gt;
+<v: *element* style="v-same-letter-heights: *expression* ">
 
 **Script Syntax**
 

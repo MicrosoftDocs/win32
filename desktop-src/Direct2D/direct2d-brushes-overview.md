@@ -458,18 +458,18 @@ D2D1_RECT_F rcTransformedBrushRect = D2D1::RectF(100, 100, 200, 200);
 <tbody>
 <tr class="odd">
 <td><pre><code> // Demonstrate the effect of transforming a bitmap brush.
- m_pBitmapBrush-&gt;SetTransform(
+ m_pBitmapBrush->SetTransform(
      D2D1::Matrix3x2F::Translation(D2D1::SizeF(50,50))
      );
 
  // To see the content of the rcTransformedBrushRect, comment
  // out this statement.
- m_pRenderTarget-&gt;FillRectangle(
+ m_pRenderTarget->FillRectangle(
      &rcTransformedBrushRect, 
      m_pBitmapBrush
      );
 
- m_pRenderTarget-&gt;DrawRectangle(rcTransformedBrushRect, m_pBlackBrush, 1, NULL);</code></pre></td>
+ m_pRenderTarget->DrawRectangle(rcTransformedBrushRect, m_pBlackBrush, 1, NULL);</code></pre></td>
 </tr>
 </tbody>
 </table>

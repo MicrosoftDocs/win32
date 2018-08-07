@@ -107,7 +107,7 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 ## Remarks
 
-The **glLighti** function sets the value or values of individual light source parameters. The *light* parameter names the light and is a symbolic name of the form GL\_LIGHT*i*, where 0 = *i* &lt; GL\_MAX\_LIGHTS.
+The **glLighti** function sets the value or values of individual light source parameters. The *light* parameter names the light and is a symbolic name of the form GL\_LIGHT*i*, where 0 = *i* < GL\_MAX\_LIGHTS.
 
 The *pname* parameter specifies one of the light source parameters, again by symbolic name. The *param* parameter is either a single value or a pointer to an array that contains the new values.
 

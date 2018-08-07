@@ -499,7 +499,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Uniquely identifies an instance of this class. This property is inherited from [**CIM\_SettingData**](https://msdn.microsoft.com/library/cc136911). For Windows 8, it is always set to "Microsoft:*Virtual Machine GUID*\\HVR". For Windows 8.1, it is set to "Microsoft:*Virtual Machine GUID*\\HVR\\&lt;0/1&gt;". In the Windows 8.1 value, 0 indicates primary and 1 indicates extended replication. For more info about extended replication, see [**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md).
+Uniquely identifies an instance of this class. This property is inherited from [**CIM\_SettingData**](https://msdn.microsoft.com/library/cc136911). For Windows 8, it is always set to "Microsoft:*Virtual Machine GUID*\\HVR". For Windows 8.1, it is set to "Microsoft:*Virtual Machine GUID*\\HVR\\<0/1>". In the Windows 8.1 value, 0 indicates primary and 1 indicates extended replication. For more info about extended replication, see [**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md).
 
 </dd> <dt>
 

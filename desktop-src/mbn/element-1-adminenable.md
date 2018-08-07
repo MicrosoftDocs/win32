@@ -18,13 +18,13 @@ Specifies whether the profile is enabled administratively.This is a new element 
 
 ## Element hierarchy
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-**&lt;AdminEnable&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+**<AdminEnable>**
 
 <!-- -->
 
-[&lt;ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
-**&lt;AdminEnable&gt;**
+[<ModemDMConfigProfile>](element-modemdmconfigprofile.md)  
+**<AdminEnable>**
 
 ## Syntax
 

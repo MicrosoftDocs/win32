@@ -31,7 +31,7 @@ LDAP://<servername>/rootDSE
 
 
 
-The &lt;servername&gt; is the DNS name of a server. The &lt;servername&gt; is optional, as shown in the following format.
+The <servername> is the DNS name of a server. The <servername> is optional, as shown in the following format.
 
 
 ```C++

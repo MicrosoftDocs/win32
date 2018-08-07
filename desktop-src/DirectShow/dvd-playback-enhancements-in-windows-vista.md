@@ -72,7 +72,7 @@ By default, the reference clock in DirectShow sets the timer resolution to 1 mil
 
 Timer resolution is a global setting; Windows picks the lowest requested value. The Video Mixing Renderer (VMR) filters (VMR-7 and VMR-9) set the timer resolution to 1 millisecond. The EVR typically sets the resolution to a value between 4 and 8 milliseconds, depending on the whether desktop composition is enabled and whether the EVR is in full-screen mode. Other applications might also set the resolution.
 
-**Cache size**: Applications can specify how much data the DVD Navigator caches by setting the DVD\_CacheSizeInMB option in the [**IDvdControl2::SetOption**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-setoption) method. If the application sets this flag to a large value (&gt; 50 MB), the DVD drive may spin down after the initial pre-fetch, depending on the hardware, which can reduce power consumption.
+**Cache size**: Applications can specify how much data the DVD Navigator caches by setting the DVD\_CacheSizeInMB option in the [**IDvdControl2::SetOption**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-setoption) method. If the application sets this flag to a large value (> 50 MB), the DVD drive may spin down after the initial pre-fetch, depending on the hardware, which can reduce power consumption.
 
 ## Related topics
 

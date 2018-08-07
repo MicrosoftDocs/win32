@@ -26,7 +26,7 @@ Defines the title of a fill image. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* o:title=" *expression* "&gt;
+<v: *element* o:title=" *expression* ">
 
 **Script Syntax**
 

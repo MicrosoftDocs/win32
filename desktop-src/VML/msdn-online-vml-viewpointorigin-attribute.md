@@ -26,7 +26,7 @@ Defines the origin of the viewpoint within the bounding box of the shape. Read/w
 
 **Tag Syntax**
 
-&lt;o: *element* viewpointorigin=" *expression* "&gt;
+<o: *element* viewpointorigin=" *expression* ">
 
 **Script Syntax**
 

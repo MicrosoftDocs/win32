@@ -139,14 +139,14 @@ The next example sets the render target's antialiasing mode to [**D2D1\_ANTIALIA
 <tbody>
 <tr class="odd">
 <td><pre><code>        // D2D1_ANTIALIAS_MODE_ALIASED must be set for FillOpacityMask to function properly
-        m_pRenderTarget-&gt;SetAntialiasMode(D2D1_ANTIALIAS_MODE_ALIASED);
-        m_pRenderTarget-&gt;FillOpacityMask(
+        m_pRenderTarget->SetAntialiasMode(D2D1_ANTIALIAS_MODE_ALIASED);
+        m_pRenderTarget->FillOpacityMask(
             m_pBitmapMask,
             m_pFernBitmapBrush,
             D2D1_OPACITY_MASK_CONTENT_GRAPHICS,
             &rcBrushRect
             );
-        m_pRenderTarget-&gt;SetAntialiasMode(D2D1_ANTIALIAS_MODE_PER_PRIMITIVE);</code></pre></td>
+        m_pRenderTarget->SetAntialiasMode(D2D1_ANTIALIAS_MODE_PER_PRIMITIVE);</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -228,7 +228,7 @@ The steps that follow describe how to re-create this effect.
     <tr class="odd">
     <td><pre><code>                if (SUCCEEDED(hr))
                     {
-                        hr = m_pRenderTarget-&gt;CreateBitmapBrush(
+                        hr = m_pRenderTarget->CreateBitmapBrush(
                             m_pLinearFadeFlowersBitmap,
                             propertiesXClampYClamp,
                             &m_pLinearFadeFlowersBitmapBrush
@@ -298,7 +298,7 @@ The steps that follow describe how to re-create this effect.
     </thead>
     <tbody>
     <tr class="odd">
-    <td><pre><code>                pGradientStops-&gt;Release();
+    <td><pre><code>                pGradientStops->Release();
                 }</code></pre></td>
     </tr>
     </tbody>
@@ -382,7 +382,7 @@ The first example creates an [**ID2D1BitmapBrush**](https://msdn.microsoft.com/e
 <tr class="odd">
 <td><pre><code>                if (SUCCEEDED(hr))
                 {
-                    hr = m_pRenderTarget-&gt;CreateBitmapBrush(
+                    hr = m_pRenderTarget->CreateBitmapBrush(
                         m_pLinearFadeFlowersBitmap,
                         propertiesXClampYClamp,
                         &m_pLinearFadeFlowersBitmapBrush
@@ -449,7 +449,7 @@ The next example defines the radial gradient brush that will be used as the opac
 <tr class="odd">
 <td><pre><code>                if (SUCCEEDED(hr))
                 {
-                    hr = m_pRenderTarget-&gt;CreateRadialGradientBrush(
+                    hr = m_pRenderTarget->CreateRadialGradientBrush(
                         D2D1::RadialGradientBrushProperties(
                             D2D1::Point2F(75, 75),
                             D2D1::Point2F(0, 0),
@@ -458,7 +458,7 @@ The next example defines the radial gradient brush that will be used as the opac
                         pGradientStops,
                         &m_pRadialGradientBrush);
                 }
-                pGradientStops-&gt;Release();
+                pGradientStops->Release();
             }</code></pre></td>
 </tr>
 </tbody>

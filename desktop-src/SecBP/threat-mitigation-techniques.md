@@ -69,7 +69,7 @@ The following threat-mitigation techniques use one or more of the four technolog
 
 ## Getting Passwords from the User
 
-When you allow the user to set up a password, force the use of strong passwords. For example, require that passwords be a minimum length such as eight characters or more. Passwords should also be required to include uppercase and lowercase letters, numbers, and other keyboard characters such as the dollar sign ($), exclamation point (!), or greater than (&gt;).
+When you allow the user to set up a password, force the use of strong passwords. For example, require that passwords be a minimum length such as eight characters or more. Passwords should also be required to include uppercase and lowercase letters, numbers, and other keyboard characters such as the dollar sign ($), exclamation point (!), or greater than (>).
 
 After you get a password, use it quickly (using as little code as possible), and then erase all vestiges of the password. This minimizes the time available to an intruder to "trap" the password. The trade-off with this technique is the frequency with which the password must be retrieved from the user; however, the principle should be employed wherever possible. For information about how to properly get passwords, see [Asking the User for Credentials](asking-the-user-for-credentials.md).
 

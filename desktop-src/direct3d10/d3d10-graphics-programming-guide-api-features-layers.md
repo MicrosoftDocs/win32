@@ -27,7 +27,7 @@ The debug layer provides extensive additional parameter and consistency validati
 
 To create a device that supports the debug layer, you must install the DirectX SDK (to get D3D10SDKLayers.DLL), and then specify the D3D10\_CREATE\_DEVICE\_DEBUG flag when calling [**D3D10CreateDevice**](/windows/desktop/api/D3D10Misc/nf-d3d10misc-d3d10createdevice). Of course, running an application with the debug layer will be substantially slower. To enable/disable debug messages for D3DX10 APIs, call [**D3DX10DebugMute**](d3dx10debugmute.md).
 
-When the debug layer lists memory leaks, it outputs a list of object interface pointers along with their friendly names. The default friendly name is "&lt;unnamed&gt;". You can set the friendly name by using the [**ID3D10DeviceChild::SetPrivateData**](/windows/desktop/api/D3D10/nf-d3d10-id3d10devicechild-setprivatedata) method and the **WKPDID\_D3DDebugObjectName** GUID that is in D3Dcommon.h. For example, to name pTexture with a SDKLayer name of mytexture.jpg, use the following code:
+When the debug layer lists memory leaks, it outputs a list of object interface pointers along with their friendly names. The default friendly name is "<unnamed>". You can set the friendly name by using the [**ID3D10DeviceChild::SetPrivateData**](/windows/desktop/api/D3D10/nf-d3d10-id3d10devicechild-setprivatedata) method and the **WKPDID\_D3DDebugObjectName** GUID that is in D3Dcommon.h. For example, to name pTexture with a SDKLayer name of mytexture.jpg, use the following code:
 
 
 ```

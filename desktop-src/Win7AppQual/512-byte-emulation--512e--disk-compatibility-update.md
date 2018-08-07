@@ -117,7 +117,7 @@ Microsoft has provided a code sample on MSDN detailing how an application can qu
 
 While the code sample above allows you to get the physical sector size of the volume, you should do some basic sanity checking on the reported physical sector size before using it, as it has been observed that some drivers may not return correctly formatted data:
 
--   Make sure that the reported physical sector size is &gt;= the reported logical sector size. If it is not, your application should use a physical sector size equal to the reported logical sector size.
+-   Make sure that the reported physical sector size is >= the reported logical sector size. If it is not, your application should use a physical sector size equal to the reported logical sector size.
 -   Make sure that the reported physical sector size is a power of two. If it is not, your application should use a physical sector size equal to the reported logical sector size.
 -   If the physical sector size is a power-of-two value between 512-bytes and 4 KB, you should consider using a physical sector size rounded down to the reported logical sector size.
 -   If the physical sector size is a power-of-two value greater than 4 KB, you should evaluate your application’s ability to handle this scenario before using that value. Otherwise, you should consider using a physical sector size rounded down to 4 KB.

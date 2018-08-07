@@ -16,7 +16,7 @@ api_location:
 
 # cmp - ps
 
-Choose src1 if src0 &gt;= 0. Otherwise, choose src2. The comparison is done per channel.
+Choose src1 if src0 >= 0. Otherwise, choose src2. The comparison is done per channel.
 
 ## Syntax
 

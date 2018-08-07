@@ -59,12 +59,12 @@ If this function succeeds, it returns SCESTATUS\_SUCCESS. Otherwise it returns a
 
 The **SceSvcAttachmentUpdate** function must do the following:
 
--   Call the callback function pointed to by the **pfQueryInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_) structure (pSceCbInfo-&gt;pfQueryInfo) to retrieve the current base configuration information from the security database.
--   Call the callback function pointed to by the **pfQueryInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_) structure (pSceCbInfo-&gt;pfQueryInfo) to retrieve the last set of differences (analysis information) from the security database.
+-   Call the callback function pointed to by the **pfQueryInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_) structure (pSceCbInfo->pfQueryInfo) to retrieve the current base configuration information from the security database.
+-   Call the callback function pointed to by the **pfQueryInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_) structure (pSceCbInfo->pfQueryInfo) to retrieve the last set of differences (analysis information) from the security database.
 -   Use the supplied service information (see *ServiceInfo*) to compute the new base configuration.
 -   Use the supplied service information (see *ServiceInfo*) and the analysis to compute the new difference information.
--   Call the callback function pointed to by the **pfSetInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_) structure (pSceCbInfo-&gt;pfSetInfo)to set the new base configuration in the security database.
--   Call the callback function pointed to by the **pfSetInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_) structure (pSceCbInfo-&gt;pfSetInfo) to set the new analysis information in the security database.
+-   Call the callback function pointed to by the **pfSetInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_) structure (pSceCbInfo->pfSetInfo)to set the new base configuration in the security database.
+-   Call the callback function pointed to by the **pfSetInfo** member of the [**SCESVC\_CALLBACK\_INFO**](/windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_) structure (pSceCbInfo->pfSetInfo) to set the new analysis information in the security database.
 
 For more information, see [Implementing SceSvcAttachmentUpdate](implementing-scesvcattachmentupdate.md)
 

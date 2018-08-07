@@ -20,7 +20,7 @@ There can be more than one MbnProfileExt element in a profile, describing profil
 
 ## Element hierarchy
 
-**&lt;MBNProfileExt&gt;**
+**<MBNProfileExt>**
 
 ## Syntax
 

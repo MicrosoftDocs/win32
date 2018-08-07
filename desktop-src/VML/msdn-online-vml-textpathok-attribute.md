@@ -26,7 +26,7 @@ Determines whether a text path will be displayed. Read/write. **VgTriState**.
 
 **Tag Syntax**
 
-&lt;v: *element* textpathok=" *expression* "&gt;
+<v: *element* textpathok=" *expression* ">
 
 **Script Syntax**
 

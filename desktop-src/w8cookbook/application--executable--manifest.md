@@ -78,7 +78,7 @@ These Windows components provide divergent behavior based on the compatibility s
 
 Update the app manifest with the latest compatibility info for operating system support. This section describes the additions to the manifest:
 
-**Namespace:** Compatibility.v1 (xmlns="urn:schemas-microsoft-com:compatibility.v1"&gt;)
+**Namespace:** Compatibility.v1 (xmlns="urn:schemas-microsoft-com:compatibility.v1">)
 
 **Section name:** Compatibility (new section)
 

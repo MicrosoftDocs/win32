@@ -19,7 +19,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Rect&lt;Type&gt; Function
+# Rect<Type> Function
 
 Creates a rectangle structure that stores its coordinates using the specified data type.
 

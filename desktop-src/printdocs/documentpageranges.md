@@ -19,7 +19,7 @@ Describes the output range of the document in pages. The parameter value must co
 
 -   PageRange: "*PageNumber*" or "*PageNumber*-*PageNumber*"
 
--   PageNumber: 1 to N, where N is the number of pages in the document. If *PageNumber* &gt; N, then *PageNumber* = N.
+-   PageNumber: 1 to N, where N is the number of pages in the document. If *PageNumber* > N, then *PageNumber* = N.
 
 Whitespace in the string should be ignored.
 

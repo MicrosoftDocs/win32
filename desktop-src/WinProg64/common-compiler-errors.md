@@ -34,7 +34,7 @@ This section illustrates the typical compiler errors that occur when migrating a
 
 **PtrToUlong** is an inline function or macro, depending on your usage. It truncates a pointer to a **ULONG**. Although 32-bit pointers are not affected, the upper half of a 64-bit pointer is truncated.
 
-CIA\_PCI\_CONFIG\_BASE\_QVA is declared as a **PVOID**. The **ULONG** cast works in the 32-bit world, but results in an error in the 64-bit world. The solution is to get a 64-bit pointer to a **ULONG**, because changing the definition of the union that pPciAddr-&gt;u.AsULONG is defined in changes too much code.
+CIA\_PCI\_CONFIG\_BASE\_QVA is declared as a **PVOID**. The **ULONG** cast works in the 32-bit world, but results in an error in the 64-bit world. The solution is to get a 64-bit pointer to a **ULONG**, because changing the definition of the union that pPciAddr->u.AsULONG is defined in changes too much code.
 
 Using the macro **PtrToUlong** to convert the 64-bit **PVOID** to the needed **ULONG** is allowed because we have knowledge about the specific value of CIA\_PCI\_CONFIG\_BASE\_QVA. In this case, this pointer will never have data in the upper 32 bits.
 
@@ -334,7 +334,7 @@ return (Qva);
 <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>Description
 </dt> <dd>
 
-The compiler warns about the address of (&) and left shift (&lt;&lt;) operators if they are applied to pointer types. In the above code, Qva is a **PVOID** value. We need to cast that to an integer type to perform the math. Because the code must be portable, use **ULONG\_PTR** instead of **ULONG**.
+The compiler warns about the address of (&) and left shift (<<) operators if they are applied to pointer types. In the above code, Qva is a **PVOID** value. We need to cast that to an integer type to perform the math. Because the code must be portable, use **ULONG\_PTR** instead of **ULONG**.
 
 </dd> <dt>
 
@@ -388,7 +388,7 @@ Knowing what the rest of the code might place in Highpart, we can select either 
 
 `TranslatedAddress->LowPart = PtrToUlong(HalCreateQva(*TranslatedAddress,va) );`
 
-The **PtrToUlong** macro truncates the pointer returned by **HalCreateQva** to 32 bits. We know that the QVA returned by **HalCreateQva** has the upper 32 bits set to zero and the very next line of code sets TranslatedAddress-&gt;Highpart to zero.
+The **PtrToUlong** macro truncates the pointer returned by **HalCreateQva** to 32 bits. We know that the QVA returned by **HalCreateQva** has the upper 32 bits set to zero and the very next line of code sets TranslatedAddress->Highpart to zero.
 
 With caution, we could use the following:
 
@@ -427,7 +427,7 @@ Wbase.Wbase = (ULONG)(WindowRegisters->WindowBase) >> 20;
 <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>Description
 </dt> <dd>
 
-WindowRegisters-&gt;WindowBase is a pointer and is now 64 bits. The code says to right-shift this value 20 bits. The compiler will not let us use the right-shift (&gt;&gt;) operator on a pointer; therefore, we need to cast it to some sort of integer.
+WindowRegisters->WindowBase is a pointer and is now 64 bits. The code says to right-shift this value 20 bits. The compiler will not let us use the right-shift (>>) operator on a pointer; therefore, we need to cast it to some sort of integer.
 
 </dd> <dt>
 
@@ -436,7 +436,7 @@ WindowRegisters-&gt;WindowBase is a pointer and is now 64 bits. The code says to
 
 `Wbase.Wbase= PtrToUlong ( (PVOID) ((ULONG_PTR) (WindowRegisters->WindowBase) >> 20));`
 
-Casting to a **ULONG\_PTR** is just what we need. The next problem is Wbase. Wbase is a **ULONG** and is 32 bits. In this case, we know that the 64-bit pointer WindowRegisters-&gt;WindowBase is valid in the lower 32 bits even after being shifted. This makes use of the **PtrToUlong** macro acceptable, because it will truncate the 64-bit pointer into a 32-bit **ULONG**. The **PVOID** cast is necessary because **PtrToUlong** expects a pointer argument. When you look at the resulting assembler code, all this C code casting becomes just a load quad, shift right, and store long.
+Casting to a **ULONG\_PTR** is just what we need. The next problem is Wbase. Wbase is a **ULONG** and is 32 bits. In this case, we know that the 64-bit pointer WindowRegisters->WindowBase is valid in the lower 32 bits even after being shifted. This makes use of the **PtrToUlong** macro acceptable, because it will truncate the 64-bit pointer into a 32-bit **ULONG**. The **PVOID** cast is necessary because **PtrToUlong** expects a pointer argument. When you look at the resulting assembler code, all this C code casting becomes just a load quad, shift right, and store long.
 
 </dd> </dl>
 

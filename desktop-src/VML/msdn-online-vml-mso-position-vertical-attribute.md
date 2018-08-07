@@ -26,7 +26,7 @@ Specifies the vertical position data for objects in Microsoft Word. Read/write. 
 
 **Tag Syntax**
 
-&lt;v: *element* mso-position-vertical=" *expression* "&gt;
+<v: *element* mso-position-vertical=" *expression* ">
 
 **Remarks**
 

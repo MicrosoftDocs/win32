@@ -25,7 +25,7 @@ The Windows Media Device Manager SDK includes a sample service provider for you 
 
  
 
--   The sample was shipped with a coding error that will cause the service provider to malfunction. To correct this error, open the MDSPEnumStorage.cpp file installed in the folder &lt; *SDK installation path* &gt;\\WMFSDK95\\WMDM\\mdsp\\mshdsp, go to line 185, and change the following line:
+-   The sample was shipped with a coding error that will cause the service provider to malfunction. To correct this error, open the MDSPEnumStorage.cpp file installed in the folder < *SDK installation path* >\\WMFSDK95\\WMDM\\mdsp\\mshdsp, go to line 185, and change the following line:
 
 `wcsncpy(pStg->m_wcsName, m_wcsPath, dwLen);`
 

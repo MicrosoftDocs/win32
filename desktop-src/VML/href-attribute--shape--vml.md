@@ -26,7 +26,7 @@ Defines a URL for a shape. When the shape is clicked, the browser will load the 
 
 **Tag Syntax**
 
-&lt;v: *element* href=" *expression* "&gt;
+<v: *element* href=" *expression* ">
 
 **Script Syntax**
 

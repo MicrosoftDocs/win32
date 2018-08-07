@@ -26,7 +26,7 @@ Determines whether the user has added the shape to a master slide. Read/write. *
 
 **Tag Syntax**
 
-&lt;v: *element* o:userdrawn=" *expression* "&gt;
+<v: *element* o:userdrawn=" *expression* ">
 
 **Remarks**
 

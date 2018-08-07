@@ -19,7 +19,7 @@ This is the command line tool that drives the [FileRep service](filerepserviceex
 
 The command line parameters are as follows:
 
-WsFileRep.exe &lt;Client Service Url&gt; &lt;Server Service Url&gt; &lt;Source File&gt; &lt;Destination File&gt; \[/encoding:&lt;binary/text/MTOM&gt;\] \[/sync\]
+WsFileRep.exe <Client Service Url> <Server Service Url> <Source File> <Destination File> \[/encoding:<binary/text/MTOM>\] \[/sync\]
 
 Client Service Url: Mandatory. Url of the client service.
 

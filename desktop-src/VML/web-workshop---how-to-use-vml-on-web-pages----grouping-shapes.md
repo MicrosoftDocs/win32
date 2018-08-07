@@ -39,7 +39,7 @@ As you've learned, you can easily draw individual shapes by using VML. In this s
 
 If you had many shapes that needed to be scaled, moved, or rotated together, you would find it tedious to set the attributes individually for each shape. Plus you would raise your margin for errors. It would be better if you could group the shapes, and then set the attributes for the entire group.
 
-In VML, you can use the &lt;group&gt; element to group many shapes together so that they can be transformed as one unit. For example, as shown in the following VML representation, you can easily group two shapes together.
+In VML, you can use the <group> element to group many shapes together so that they can be transformed as one unit. For example, as shown in the following VML representation, you can easily group two shapes together.
 
 
 ```HTML
@@ -82,7 +82,7 @@ For more information about this element, see the [VML specification](http://www.
 
 ## Summary
 
-You can use the &lt;group&gt; element to group many shapes together so that they can be transformed as one unit.
+You can use the <group> element to group many shapes together so that they can be transformed as one unit.
 
  
 

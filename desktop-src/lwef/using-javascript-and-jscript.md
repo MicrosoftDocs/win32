@@ -20,7 +20,7 @@ agent.object.Method (parameter)
 agent.object.Property = value
 ```
 
-JavaScript does not currently have event syntax for non-HTML objects. However, with Internet Explorer you can use the &lt;SCRIPT&gt; tag's **For...Event** syntax:
+JavaScript does not currently have event syntax for non-HTML objects. However, with Internet Explorer you can use the <SCRIPT> tag's **For...Event** syntax:
 
 ``` syntax
 <SCRIPT LANGUAGE="JScript" FOR="object" EVENT="event()">

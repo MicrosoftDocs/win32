@@ -101,7 +101,7 @@ The following example first creates two debug-enabled [**ID2D1Factory**](https:/
             );
 
         // Create a geometry from the second factory.
-        hr = m_pD2DFactory1-&gt;CreateRectangleGeometry(
+        hr = m_pD2DFactory1->CreateRectangleGeometry(
             D2D1::RectF(100, 50, 400, 160),
             &m_pRectangleGeometry
             );</code></pre></td>
@@ -123,7 +123,7 @@ The following example first creates two debug-enabled [**ID2D1Factory**](https:/
 <tbody>
 <tr class="odd">
 <td><pre><code>        // Create a render target from the first factory.
-        hr = m_pD2DFactory-&gt;CreateHwndRenderTarget(
+        hr = m_pD2DFactory->CreateHwndRenderTarget(
             D2D1::RenderTargetProperties(),
             D2D1::HwndRenderTargetProperties(m_hwnd, size),
             &m_pRenderTarget
@@ -147,7 +147,7 @@ The following example first creates two debug-enabled [**ID2D1Factory**](https:/
 <tr class="odd">
 <td><pre><code>        if (SUCCEEDED(hr))
         {
-            hr = m_pRenderTarget-&gt;CreateSolidColorBrush(
+            hr = m_pRenderTarget->CreateSolidColorBrush(
                 D2D1::ColorF(D2D1::ColorF::Black, 1.0f),
                 &m_pBlackBrush
                 );
@@ -169,7 +169,7 @@ The following example first creates two debug-enabled [**ID2D1Factory**](https:/
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>        m_pRenderTarget-&gt;FillGeometry(
+<td><pre><code>        m_pRenderTarget->FillGeometry(
             m_pRectangleGeometry,   //The rectangle geometry created from the second factory.
             m_pBlackBrush   //The black brush created from the first factory.
             );</code></pre></td>

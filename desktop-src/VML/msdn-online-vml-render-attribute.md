@@ -26,7 +26,7 @@ Defines the rendering mode of the extrusion. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;o: *element* render=" *expression* "&gt;
+<o: *element* render=" *expression* ">
 
 **Script Syntax**
 

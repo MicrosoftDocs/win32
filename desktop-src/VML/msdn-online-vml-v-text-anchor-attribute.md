@@ -26,7 +26,7 @@ Defines the vertical anchoring of text in a textbox. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* v-text-anchor=" *expression* "&gt;
+<v: *element* v-text-anchor=" *expression* ">
 
 **Remarks**
 

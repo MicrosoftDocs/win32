@@ -290,7 +290,7 @@ A device context (DC) has already been returned for this surface. Only one DC ca
 
 </dt> </dl> </dd> <dt>
 
-<span id="_DDERR_DEVICEDOESNTOWNSURFACE"></span><span id="_dderr_devicedoesntownsurface"></span>**&gt;DDERR\_DEVICEDOESNTOWNSURFACE**
+<span id="_DDERR_DEVICEDOESNTOWNSURFACE"></span><span id="_dderr_devicedoesntownsurface"></span>**>DDERR\_DEVICEDOESNTOWNSURFACE**
 </dt> <dd> <dl> <dt>
 
 
@@ -300,7 +300,7 @@ Surfaces created by one DirectDraw device cannot be used directly by another Dir
 
 </dt> </dl> </dd> <dt>
 
-<span id="_DDERR_DIRECTDRAWALREADYCREATED"></span><span id="_dderr_directdrawalreadycreated"></span>**&gt;DDERR\_DIRECTDRAWALREADYCREATED**
+<span id="_DDERR_DIRECTDRAWALREADYCREATED"></span><span id="_dderr_directdrawalreadycreated"></span>**>DDERR\_DIRECTDRAWALREADYCREATED**
 </dt> <dd> <dl> <dt>
 
 

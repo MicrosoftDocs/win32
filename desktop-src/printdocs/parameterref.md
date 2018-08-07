@@ -17,7 +17,7 @@ A ParameterRef element defines a reference to a ParameterInit element. A ScoredP
 
 ## Element Tag
 
-&lt;ParameterRef&gt;
+<ParameterRef>
 
 ## XML Attributes
 

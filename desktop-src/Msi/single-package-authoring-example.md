@@ -59,8 +59,8 @@ The [Control](control-table.md) table contains entries for the [controls](contro
 | Dialog\_          | Control           | Type       | Attribute | Text                                                   | Control\_Next     |
 |-------------------|-------------------|------------|-----------|--------------------------------------------------------|-------------------|
 | VerifyReadyDialog | Cancel            | PushButton | 3         | {\\Tahoma10}&Cancel                                    | Next              |
-| VerifyReadyDialog | Previous          | PushButton | 3         | {\\Tahoma10}&lt;&lt;&Previous                          | Cancel            |
-| VerifyReadyDialog | Next              | PushButton | 3         | {\\Tahoma10}&Next &gt;&gt;                             | InstallPerUser    |
+| VerifyReadyDialog | Previous          | PushButton | 3         | {\\Tahoma10}<<&Previous                          | Cancel            |
+| VerifyReadyDialog | Next              | PushButton | 3         | {\\Tahoma10}&Next >>                             | InstallPerUser    |
 | VerifyReadyDialog | Text2             | Text       | 3         | Are you ready to complete your suspended installation? |                   |
 | VerifyReadyDialog | InstallPerUser    | PushButton | 3         | {\\Tahoma10}Install Only for &Me                       | InstallPerMachine |
 | VerifyReadyDialog | InstallPerMachine | PushButton | 8388611   | {\\Tahoma10}Install for &Everyone                      | Previous          |
@@ -77,11 +77,11 @@ The [ControlEvent](controlevent-table.md) table specifies the [ControlEvents](co
 | Dialog\_          | Control\_         | Event                 | Argument  | Condition                 | Order |
 |-------------------|-------------------|-----------------------|-----------|---------------------------|-------|
 | VerifyReadyDialog | InstallPerUser    | SpawnDialog           | OutOfDisk | OutOfDiskSpace = 1        | 1     |
-| VerifyReadyDialog | InstallPerUser    | EndDialog             | Return    | OutOfDiskSpace &lt;&gt; 1 | 5     |
+| VerifyReadyDialog | InstallPerUser    | EndDialog             | Return    | OutOfDiskSpace <> 1 | 5     |
 | VerifyReadyDialog | InstallPerUser    | \[MSIINSTALLPERUSER\] | 1         | 1                         | 2     |
 | VerifyReadyDialog | InstallPerUser    | \[ALLUSERS\]          | 2         | 1                         | 3     |
 | VerifyReadyDialog | InstallPerMachine | SpawnDialog           | OutOfDisk | OutOfDiskSpace = 1        | 1     |
-| VerifyReadyDialog | InstallPerMachine | EndDialog             | Return    | OutOfDiskSpace &lt;&gt; 1 | 3     |
+| VerifyReadyDialog | InstallPerMachine | EndDialog             | Return    | OutOfDiskSpace <> 1 | 3     |
 | VerifyReadyDialog | InstallPerMachine | \[ALLUSERS\]          | 1         | 1                         | 2     |
 | VerifyReadyDialog | InstallPerUser    | \[MSIFASTINSTALL\]    | 1         | 1                         | 4     |
 
@@ -95,10 +95,10 @@ The InstallPerUser control should be removed from the user interface of any inst
 
 | Dialog\_          | Control\_      | Action  | Condition               |
 |-------------------|----------------|---------|-------------------------|
-| VerifyReadyDialog | InstallPerUser | Enable  | VersionMsi &gt;= "5.00" |
-| VerifyReadyDialog | InstallPerUser | Disable | VersionMsi &lt; "5.00"  |
-| VerifyReadyDialog | InstallPerUser | Show    | VersionMsi &gt;= "5.00" |
-| VerifyReadyDialog | InstallPerUser | Hide    | VersionMsi &lt; "5.00"  |
+| VerifyReadyDialog | InstallPerUser | Enable  | VersionMsi >= "5.00" |
+| VerifyReadyDialog | InstallPerUser | Disable | VersionMsi < "5.00"  |
+| VerifyReadyDialog | InstallPerUser | Show    | VersionMsi >= "5.00" |
+| VerifyReadyDialog | InstallPerUser | Hide    | VersionMsi < "5.00"  |
 
 
 

@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 | LIST\_ENTRY                     | m\_EventList            | List of events.                                                                                  |
 | CMSPCritSection                 | m\_EventDataLock        | The lock that protects the data related to event handling with TAPI.                             |
 | ITTerminalManager               | \*m\_pITTerminalManager | The pointer to the Terminal Manager object.                                                      |
-| CMSPArray &lt;ITTerminal \*&gt; | m\_Terminals            | The list of static terminals that can be used on the address.                                    |
+| CMSPArray <ITTerminal \*> | m\_Terminals            | The list of static terminals that can be used on the address.                                    |
 | BOOL                            | m\_fTerminalsUpToDate   | This flag is **TRUE** if the terminal list is up to date.                                        |
 | CMSPCritSection                 | m\_TerminalDataLock     | The lock that protects the terminal-related data members.                                        |
 

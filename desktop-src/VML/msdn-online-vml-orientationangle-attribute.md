@@ -26,7 +26,7 @@ Defines the angle that an extrusion rotates around the orientation. Read/write. 
 
 **Tag Syntax**
 
-&lt;o: *element* orientationangle=" *expression* "&gt;
+<o: *element* orientationangle=" *expression* ">
 
 **Script Syntax**
 

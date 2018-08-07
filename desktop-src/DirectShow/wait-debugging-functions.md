@@ -17,9 +17,9 @@ In retail builds, the [**DbgWaitForMultipleObjects**](dbgwaitformultipleobjects.
 
 In debug builds, these functions use a global time-out value. If the time-out expires, the function triggers an assert. The following registry key specifies the time-out value, in milliseconds:
 
-**HKEY\_LOCAL\_MACHINE\\&lt;DebugRoot&gt;\\&lt;Module Name&gt;\\TIMEOUT**
+**HKEY\_LOCAL\_MACHINE\\<DebugRoot>\\<Module Name>\\TIMEOUT**
 
-where *&lt;DebugRoot&gt;* is the registry path described in the topic [Debug Output Functions](debug-output-functions.md).
+where *<DebugRoot>* is the registry path described in the topic [Debug Output Functions](debug-output-functions.md).
 
 If the key does not exist, the time-out value defaults to INFINITE. You can use the [**DbgSetWaitTimeout**](dbgsetwaittimeout.md) function to override the registry entry.
 

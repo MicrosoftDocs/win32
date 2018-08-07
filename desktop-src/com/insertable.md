@@ -38,7 +38,7 @@ Used with controls, this entry indicates that an object can act only as an in-pl
 
 <dl> <dt>
 
-[**&lt;ProgID&gt;**](-progid--key.md)
+[**<ProgID>**](-progid--key.md)
 </dt> </dl>
 
  

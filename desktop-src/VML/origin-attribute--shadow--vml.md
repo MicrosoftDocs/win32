@@ -26,7 +26,7 @@ Defines the center of the shadow. Read/write. **VgVector2D**.
 
 **Tag Syntax**
 
-&lt;v: *element* origin=" *expression* "&gt;
+<v: *element* origin=" *expression* ">
 
 **Script Syntax**
 

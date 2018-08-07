@@ -32,11 +32,11 @@ This topic describes VML, a feature that is deprecated as of Windows Internet Ex
 
  
 
-In this topic, we will illustrate how to use the &lt;shadow&gt; sub-element to draw a shape that has various shadow effects.
+In this topic, we will illustrate how to use the <shadow> sub-element to draw a shape that has various shadow effects.
 
-You can place the &lt;shadow&gt; sub-element inside the &lt;shape&gt;, &lt;shapetype&gt;, or any predefined shape element to draw a shape with a shadow. You can then use the property attributes of the &lt;shadow&gt; sub-element to customize the shadow.
+You can place the <shadow> sub-element inside the <shape>, <shapetype>, or any predefined shape element to draw a shape with a shadow. You can then use the property attributes of the <shadow> sub-element to customize the shadow.
 
-For example, to create a shape with a shadow, as shown in the following picture, you can type the following lines in the &lt;BODY&gt; region of your Web page:
+For example, to create a shape with a shadow, as shown in the following picture, you can type the following lines in the <BODY> region of your Web page:
 
 ![shape1.gif (887 bytes)](images/shape1.gif)
 

@@ -26,7 +26,7 @@ Defines the smoothness of the miter joint. Read/write. **VgNumber**.
 
 **Tag Syntax**
 
-&lt;v: *element* miterlimit=" *expression* "&gt;
+<v: *element* miterlimit=" *expression* ">
 
 **Script Syntax**
 

@@ -49,8 +49,8 @@ A string that specifies the type of discovery volume.
 
 | Value                                                                                                                                                  | Meaning                                                                       |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| <span id="_none_"></span><span id="_NONE_"></span><dl> <dt>**&lt;none&gt;**</dt> </dl>          | No discovery volume. This value creates a native BitLocker volume.<br/> |
-| <span id="_default_"></span><span id="_DEFAULT_"></span><dl> <dt>**&lt;default&gt;**</dt> </dl> | This value is the default behavior.<br/>                                |
+| <span id="_none_"></span><span id="_NONE_"></span><dl> <dt>**<none>**</dt> </dl>          | No discovery volume. This value creates a native BitLocker volume.<br/> |
+| <span id="_default_"></span><span id="_DEFAULT_"></span><dl> <dt>**<default>**</dt> </dl> | This value is the default behavior.<br/>                                |
 | <span id="FAT32"></span><span id="fat32"></span><dl> <dt>**FAT32**</dt> </dl>                   | This value creates a FAT32 discovery volume.<br/>                       |
 
 

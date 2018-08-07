@@ -70,12 +70,12 @@ Use the *ppmoniker* parameter to register your component in the ROT.
 >                     
 >                 if (SUCCEEDED(GetRunningObjectTable(0, &prot)))
 >                 {
->                     hr = prot-&gt;Register(ROTFLAGS_ALLOWANYCLIENT | ROTFLAGS_REGISTRATIONKEEPSALIVE, punk, pmoniker, &amp;_dwRegisterROT);
->                     prot-&gt;Release();
+>                     hr = prot->Register(ROTFLAGS_ALLOWANYCLIENT | ROTFLAGS_REGISTRATIONKEEPSALIVE, punk, pmoniker, &amp;_dwRegisterROT);
+>                     prot->Release();
 >                 }
->                 pmoniker-&gt;Release();
+>                 pmoniker->Release();
 >             }
->             CoRegisterClassObject(CLSID_App, static_cast&lt;IClassFactory *&gt;(this), CLSCTX_LOCAL_SERVER, REGCLS_MULTIPLEUSE, &amp;_dwRegisterClass;
+>             CoRegisterClassObject(CLSID_App, static_cast<IClassFactory *>(this), CLSCTX_LOCAL_SERVER, REGCLS_MULTIPLEUSE, &amp;_dwRegisterClass;
 >         }
 >         FreeLibrary(hinstShSvcs);
 >     }

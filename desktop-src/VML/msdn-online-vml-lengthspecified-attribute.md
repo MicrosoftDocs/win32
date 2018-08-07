@@ -26,7 +26,7 @@ Determines whether the [Length](msdn-online-vml-length-attribute.md) attribute w
 
 **Tag Syntax**
 
-&lt;o: *element* lengthspecified=" *expression* "&gt;
+<o: *element* lengthspecified=" *expression* ">
 
 **Remarks**
 

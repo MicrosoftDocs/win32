@@ -116,7 +116,7 @@ Dim checkit As Integer = player.playlistCollection.getByName(&quot;Favorites -- 
 
 &#39;  Since duplicate playlist names are allowed, the count returned
 &#39;  will be either zero (no playlist) or greater than zero (playlist exists).
-If (checkit &gt; 0) Then
+If (checkit > 0) Then
 
     &#39;  Retrieve a playlist array object containing &quot;Favorites -- 4 and 5 star rated&quot;.
     &#39;  Assume that there is only one playlist with that name, and assign it to the 

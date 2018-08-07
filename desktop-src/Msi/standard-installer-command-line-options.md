@@ -100,7 +100,7 @@ The equivalent Windows Installer command line has [<strong>REBOOTPROMPT</strong>
 </tr>
 <tr class="odd">
 <td><strong>/uninstall</strong></td>
-<td><em>&lt;Package.msi|ProductCode&gt;</em></td>
+<td><em><Package.msi|ProductCode></em></td>
 <td>Uninstall product option. Uninstalls a product.<br/>
 <blockquote>
 [!Note]<br />
@@ -110,7 +110,7 @@ The equivalent Windows Installer [Command-Line Option](command-line-options.md) 
 </tr>
 <tr class="even">
 <td><strong>/uninstall</strong></td>
-<td><em>/package &lt;Package.msi | ProductCode&gt; /uninstall &lt;Update1.msp | PatchGUID1&gt;[;Update2.msp | PatchGUID2]</em></td>
+<td><em>/package <Package.msi | ProductCode> /uninstall <Update1.msp | PatchGUID1>[;Update2.msp | PatchGUID2]</em></td>
 <td>Uninstall update option. Uninstalls an update patch.<br/>
 <blockquote>
 [!Note]<br />
@@ -120,7 +120,7 @@ The equivalent Windows Installer [Command-Line Option](command-line-options.md) 
 </tr>
 <tr class="odd">
 <td><strong>/log</strong></td>
-<td><em>&lt;logfile&gt;</em></td>
+<td><em><logfile></em></td>
 <td>Log option. Writes logging information into a log file at the specified existing path. The path to the log file location must already exist. The installer does not create the directory structure for the logfile.<br/> The following information is entered into the log:<br/>
 <ul>
 <li>Status messages</li>
@@ -147,7 +147,7 @@ For more information about all the methods that are available for setting the lo
 </tr>
 <tr class="even">
 <td><strong>/package</strong></td>
-<td><em>&lt;Package.msi|ProductCode&gt;</em></td>
+<td><em><Package.msi|ProductCode></em></td>
 <td>Install product option. Installs or configures a product.<br/>
 <blockquote>
 [!Note]<br />
@@ -157,11 +157,11 @@ The equivalent Windows Installer [Command-Line Option](command-line-options.md) 
 </tr>
 <tr class="odd">
 <td><strong>/update</strong></td>
-<td><em>&lt;Update1.msp&gt;[;Update2.msp]</em></td>
+<td><em><Update1.msp>[;Update2.msp]</em></td>
 <td>Install patches option. Installs one or multiple patches. <br/>
 <blockquote>
 [!Note]<br />
-The equivalent Windows Installer command line has [<strong>PATCH</strong>](patch.md) = [msipatch.msp]&lt;;PatchGuid2&gt; set on the command line.
+The equivalent Windows Installer command line has [<strong>PATCH</strong>](patch.md) = [msipatch.msp]<;PatchGuid2> set on the command line.
 </blockquote>
 <br/></td>
 </tr>

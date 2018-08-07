@@ -44,7 +44,7 @@ The light and dark gray covering of the pixels show them as groups of the pixels
 
 ## Line Rasterization Rules (Aliased, Without Multisampling)
 
-Line rasterization rules use a diamond test area to determine if a line covers a pixel. For x-major lines (lines with -1 &lt;= slope &lt;= +1), the diamond test area includes (shown solid) the lower-left edge, lower-right edge, and bottom corner; the diamond excludes (shown dotted) the upper-left edge, upper-right edge, the top corder, the left corner, and the right corner. A y-major line is any line that is not an x-major line; the test diamond area is the same as described for the x-major line except the right corner is also included.
+Line rasterization rules use a diamond test area to determine if a line covers a pixel. For x-major lines (lines with -1 <= slope <= +1), the diamond test area includes (shown solid) the lower-left edge, lower-right edge, and bottom corner; the diamond excludes (shown dotted) the upper-left edge, upper-right edge, the top corder, the left corner, and the right corner. A y-major line is any line that is not an x-major line; the test diamond area is the same as described for the x-major line except the right corner is also included.
 
 Given the diamond area, a line covers a pixel if the line exits the pixel's diamond test area when traveling along the line from the start towards the end. A line strip behaves the same, as it is drawn as a sequence of lines.
 

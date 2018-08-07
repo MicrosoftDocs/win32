@@ -44,7 +44,7 @@ For example:
 -   **IInterface1** supports **Method1(int param1, int param2)**.
 -   **IInterface2** supports **Method1(int param1)**.
 
-An ADSI client has an [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface pointer to an object of class CA. It wants to invoke **IInterface2::Method1**. If the client calls "pDispatch-&gt;GetIDsOfNames(IID\_NULL, rgszNames, 1, MY\_LCID, rgDispId)" by just storing the function name "Method1" in *rgszNames\[0\]*, then **IInterface1::Method1** instead of the desired **IInterface2::Method1** is invoked, and the function fails because the number of parameters are different.
+An ADSI client has an [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface pointer to an object of class CA. It wants to invoke **IInterface2::Method1**. If the client calls "pDispatch->GetIDsOfNames(IID\_NULL, rgszNames, 1, MY\_LCID, rgDispId)" by just storing the function name "Method1" in *rgszNames\[0\]*, then **IInterface1::Method1** instead of the desired **IInterface2::Method1** is invoked, and the function fails because the number of parameters are different.
 
 To minimize this problem, extension developers can prefix their function names with their own specific identifiers and avoid interface designs that use functions of the same name, but different parameters.
 

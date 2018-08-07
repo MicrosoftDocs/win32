@@ -26,7 +26,7 @@ Specifies a compound value of font attributes. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* style="font: *expression* "&gt;
+<v: *element* style="font: *expression* ">
 
 **Script Syntax**
 

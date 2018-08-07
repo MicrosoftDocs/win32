@@ -42,7 +42,7 @@ The following example shows how to create a persistent shadow copy from the comm
 
 1.  **vshadow -p -nw -script=SETVAR1.cmd c:**
 2.  **call SETVAR1.cmd**
-3.  **C:\\&gt;vshadow -el=%VSHADOW\_ID\_1%,c:\\directory1**
+3.  **C:\\>vshadow -el=%VSHADOW\_ID\_1%,c:\\directory1**
 
 ## Accessing Nonpersistent Shadow Copies
 
@@ -69,7 +69,7 @@ Here is the command line to execute the enum.cmd script:
 
 The following example shows how to copy a file from a shadow copy.
 
-1.  **dir &gt; c:\\somefile.txt**
+1.  **dir > c:\\somefile.txt**
 2.  **vshadow -p -nw -script=SETVAR1.cmd c:**
 3.  **call SETVAR1.cmd**
 4.  **copy %VSHADOW\_DEVICE\_1%\\somefile.txt c:\\somefile\_bak.txt**
@@ -78,7 +78,7 @@ The following example shows how to copy a file from a shadow copy.
 
 The following example shows how to enumerate all files on a shadow copy device from a batch file.
 
-1.  **dir &gt; c:\\somefile.txt**
+1.  **dir > c:\\somefile.txt**
 2.  **vshadow -p -nw -script=SETVAR1.cmd c:**
 3.  **call SETVAR1.cmd**
 4.  **for /R %VSHADOW\_DEVICE\_1%\\ %%i in (\*) do @echo %%i**
@@ -131,7 +131,7 @@ The following example shows how to create, expose, and break transportable shado
     3.  **vshadow –el=%VSHADOW\_ID\_1%,c:\\mount\_point**
 
     This will surface the created shadow copy devices on computer B.
-6.  Break the shadow copy set to make the volumes writable by typing the following command:**C:\\&gt;vshadow –bw=%VSHADOW\_SET\_ID%**
+6.  Break the shadow copy set to make the volumes writable by typing the following command:**C:\\>vshadow –bw=%VSHADOW\_SET\_ID%**
 
 Note that nonpersistent transportable shadow copies can also be imported, but they are automatically deleted when the **vshadow** **-i** process exits. To import the shadow copies before they are deleted, you must use the **-exec** command-line option as described in Access Nonpersistent Shadow Copies.
 

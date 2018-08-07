@@ -26,7 +26,7 @@ Specifies the vector around which a shape can be rotated. Read/write. **VgVector
 
 **Tag Syntax**
 
-&lt;o: *element* orientation=" *expression* "&gt;
+<o: *element* orientation=" *expression* ">
 
 **Script Syntax**
 

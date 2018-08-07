@@ -23,11 +23,11 @@ If you create a patch package using [Msimsp.exe](msimsp-exe.md) and [Patchwiz.dl
 
 For example, you can use the following conditional statement to run an action or dialog box only when test.msp is being applied.
 
-<dl> PATCH AND PATCHFORTEST AND PATCH &gt;&lt; PATCHFORTEST  
+<dl> PATCH AND PATCHFORTEST AND PATCH >< PATCHFORTEST  
 </dl>
 
 > [!Note]  
-> Because the **PATCH** property can contain multiple patches, use the substring operator "&gt;&lt;" to test for the presence of a particular patch rather than the equals operator "=". For more information about conditional statements see the [Conditional Statement Syntax](conditional-statement-syntax.md) section.
+> Because the **PATCH** property can contain multiple patches, use the substring operator "><" to test for the presence of a particular patch rather than the equals operator "=". For more information about conditional statements see the [Conditional Statement Syntax](conditional-statement-syntax.md) section.
 
  
 

@@ -26,7 +26,7 @@ Defines a number used internally by Microsoft Office to identify types of shapes
 
 **Tag Syntax**
 
-&lt;v: *element* o:spt=" *expression* "&gt;
+<v: *element* o:spt=" *expression* ">
 
 Script Syntax
 

@@ -26,7 +26,7 @@ Defines the mode for letterspacing. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* style="v-text-spacing-mode: *expression* "&gt;
+<v: *element* style="v-text-spacing-mode: *expression* ">
 
 **Script Syntax**
 

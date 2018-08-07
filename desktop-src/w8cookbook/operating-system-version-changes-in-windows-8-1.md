@@ -88,7 +88,7 @@ For Windows 8.1, the two lines above marked with an asterisk (\*) show how to a
 
 Adding the trustInfo isn’t essential, but it is highly recommended. This will allow your .exe to always get the correct version, no matter whether the operating system is Windows 8.1 or Windows 8.
 
-The replacement APIs are known as VersionHelpers. They are extremely easy to use; all you have to do is \#include &lt;VersionHelpers.h&gt;.
+The replacement APIs are known as VersionHelpers. They are extremely easy to use; all you have to do is \#include <VersionHelpers.h>.
 
 **Example**
 

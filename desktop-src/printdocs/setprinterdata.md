@@ -144,7 +144,7 @@ The following values of *pValueName* determine the pool printing behavior when a
 
 The time specified in **SPLREG\_RESTART\_JOB\_ON\_POOL\_ERROR** is a minimum time. The actual time can be longer, depending on the following port monitor settings, which are registry values under this registry key:
 
-**HKLM\\SYSTEM\\CurrentControlSet\\Control\\Print\\Monitors\\&lt;*MonitorName*&gt;\\Ports**
+**HKLM\\SYSTEM\\CurrentControlSet\\Control\\Print\\Monitors\\<*MonitorName*>\\Ports**
 
 Call the [**RegSetValueEx**](https://msdn.microsoft.com/en-us/library/ms724922(v=VS.85).aspx) function to set these values.
 

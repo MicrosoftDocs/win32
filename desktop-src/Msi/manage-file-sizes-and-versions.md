@@ -36,7 +36,7 @@ Using this sample requires the CScript.exe or WScript.exe version of Windows Scr
 Also be aware of the following:
 
 -   Help is displayed if the first argument is /? or if too few arguments are specified.
--   To redirect the output to a file, end the command line with VBS &gt; \[*path to file*\].
+-   To redirect the output to a file, end the command line with VBS > \[*path to file*\].
 -   The sample returns a value of 0 (zero) for success, 1 (one) if help is invoked, and 2 (two) if the script fails.
 
 Specify the Windows Installer database that you want to be updated, which must be located at the source file root. However, you can specify sources for the database at separate locations. If the source is compressed, all the files are opened at the root.

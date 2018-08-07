@@ -449,7 +449,7 @@ Use of versions of Direct3D newer than Direct3D 9 is strongly encouraged. See th
 
 Games and their installers must run correctly without visual problems when dots-per-inch (DPI) scaling is enabled (tested with 144 DPI for 150% scaling at display resolution of 1600 1200) on Windows Vista and Windows 7.
 
-This typically requires the game executable to declare being DPI-aware. This is accomplished by embedding a manifest element: &lt;dpiAware&gt;true&lt;dpiAware&gt; .
+This typically requires the game executable to declare being DPI-aware. This is accomplished by embedding a manifest element: <dpiAware>true<dpiAware> .
 
 </dd> <dt>
 
@@ -739,7 +739,7 @@ For more information, see [Fast User Switching](https://msdn.microsoft.com/libra
 <span id="Requirement"></span><span id="requirement"></span><span id="REQUIREMENT"></span>**Requirement**
 </dt> <dd>
 
-If a game supports saving files, it must be able to save files that have long names and paths. The game must properly handle special file system characters, such as \\ / : \* ? " &lt; &gt;, in any user input fields that are used to create file names or paths.
+If a game supports saving files, it must be able to save files that have long names and paths. The game must properly handle special file system characters, such as \\ / : \* ? " < >, in any user input fields that are used to create file names or paths.
 
 Games must work properly when a user has a long user name.
 

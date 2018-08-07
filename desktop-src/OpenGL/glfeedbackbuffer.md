@@ -115,43 +115,43 @@ You can insert a marker into the feedback buffer with [**glPassThrough**](glpass
 
 The following is the grammar for the blocks of values written into the feedback buffer. Each primitive is indicated with a unique identifying value followed by some number of vertices. Polygon entries include an integer value indicating how many vertices follow. A vertex is fed back as some number of floating-point values, as determined by *type*. Colors are fed back as four values in RGBA mode and one value in color-index mode.
 
-feedbackList &lt;  feedbackItem feedbackList \| feedbackItem
+feedbackList <  feedbackItem feedbackList \| feedbackItem
 
-feedbackItem &lt;  point \| lineSegment \| polygon \| bitmap \| pixelRectangle \| passThru
+feedbackItem <  point \| lineSegment \| polygon \| bitmap \| pixelRectangle \| passThru
 
-point &lt;  GL\_POINT\_TOKEN vertex
+point <  GL\_POINT\_TOKEN vertex
 
-lineSegment &lt;  GL\_LINE\_TOKEN vertex vertex \| GL\_LINE\_RESET\_TOKEN vertex vertex
+lineSegment <  GL\_LINE\_TOKEN vertex vertex \| GL\_LINE\_RESET\_TOKEN vertex vertex
 
-polygon &lt;  GL\_POLYGON\_TOKEN n polySpec
+polygon <  GL\_POLYGON\_TOKEN n polySpec
 
-polySpec &lt;  polySpec vertex \| vertex vertex vertex
+polySpec <  polySpec vertex \| vertex vertex vertex
 
-bitmap &lt;  GL\_BITMAP\_TOKEN vertex
+bitmap <  GL\_BITMAP\_TOKEN vertex
 
-pixelRectangle &lt;  GL\_DRAW\_PIXEL\_TOKEN vertex \| GL\_COPY\_PIXEL\_TOKEN vertex
+pixelRectangle <  GL\_DRAW\_PIXEL\_TOKEN vertex \| GL\_COPY\_PIXEL\_TOKEN vertex
 
-passThru &lt;  GL\_PASS\_THROUGH\_TOKEN value
+passThru <  GL\_PASS\_THROUGH\_TOKEN value
 
-vertex &lt;  2d \| 3d \| 3dColor \| 3dColorTexture \| 4dColorTexture
+vertex <  2d \| 3d \| 3dColor \| 3dColorTexture \| 4dColorTexture
 
-2d &lt;  value value
+2d <  value value
 
-3d &lt;  value value value
+3d <  value value value
 
-3dColor &lt;  value value value color
+3dColor <  value value value color
 
-3dColorTexture &lt;  value value value color tex
+3dColorTexture <  value value value color tex
 
-4dColorTexture &lt;  value value value value color tex
+4dColorTexture <  value value value value color tex
 
-color &lt;  rgba \| index
+color <  rgba \| index
 
-rgba &lt;  value value value value
+rgba <  value value value value
 
-index &lt;  value
+index <  value
 
-tex &lt;  value value value value
+tex <  value value value value
 
 The *value* parameter is a floating-point number, and *n* is a floating-point integer giving the number of vertices in the polygon. The following are symbolic floating-point constants: GL\_POINT\_TOKEN, GL\_LINE\_TOKEN, GL\_LINE\_RESET\_TOKEN, GL\_POLYGON\_TOKEN, GL\_BITMAP\_TOKEN, GL\_DRAW\_PIXEL\_TOKEN, GL\_COPY\_PIXEL\_TOKEN, and GL\_PASS\_THROUGH\_TOKEN. GL\_LINE\_RESET\_TOKEN is returned whenever the line stipple pattern is reset. The data returned as a vertex depends on the feedback *type*.
 

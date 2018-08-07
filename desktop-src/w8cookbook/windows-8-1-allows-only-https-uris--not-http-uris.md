@@ -35,9 +35,9 @@ When running an app built for Windows 8 on Windows 8.1, the use of http URIs in 
 
 ## Mitigations
 
-We recommend that WWA developers switch from [&lt;iframe&gt;](http://go.microsoft.com/fwlink/p/?LinkId=325297) to the [WebView](http://go.microsoft.com/fwlink/p/?LinkId=325298) control (&lt;x-ms-webview&gt;). However, if you need support for AppCache, IndexedDB, geolocation, or programmatic clipboard access, you will need to continue using &lt;iframe&gt; for Windows 8.1.
+We recommend that WWA developers switch from [<iframe>](http://go.microsoft.com/fwlink/p/?LinkId=325297) to the [WebView](http://go.microsoft.com/fwlink/p/?LinkId=325298) control (<x-ms-webview>). However, if you need support for AppCache, IndexedDB, geolocation, or programmatic clipboard access, you will need to continue using <iframe> for Windows 8.1.
 
-Continued usage of &lt;iframe&gt; for remote content will require a new entry in the ApplicationContentUriRules for the app. Apps with WebView require new entries in the ApplicationContentUriRules if the web content needs to invoke window.external.notify for generating a [ScriptNotify](http://go.microsoft.com/fwlink/p/?LinkId=325299) event. If you do not have Visual Studio, you can update the app manifest by adding the following XML, including wildcards for subdomains (e.g. https://\*.microsoft.com):
+Continued usage of <iframe> for remote content will require a new entry in the ApplicationContentUriRules for the app. Apps with WebView require new entries in the ApplicationContentUriRules if the web content needs to invoke window.external.notify for generating a [ScriptNotify](http://go.microsoft.com/fwlink/p/?LinkId=325299) event. If you do not have Visual Studio, you can update the app manifest by adding the following XML, including wildcards for subdomains (e.g. https://\*.microsoft.com):
 
 
 ```
@@ -59,7 +59,7 @@ Continued usage of &lt;iframe&gt; for remote content will require a new entry in
 ## Resources
 
 -   [ApplicationContentUriRules](http://go.microsoft.com/fwlink/p/?LinkId=325296)
--   [&lt;iframe&gt; element \| &lt;iframe&gt; object](http://go.microsoft.com/fwlink/p/?LinkId=325297)
+-   [<iframe> element \| <iframe> object](http://go.microsoft.com/fwlink/p/?LinkId=325297)
 -   [Webview class](http://go.microsoft.com/fwlink/p/?LinkId=325298)
 -   [WebView.ScriptNotify event](http://go.microsoft.com/fwlink/p/?LinkId=325299)
 

@@ -27,9 +27,9 @@ When your metadata files are generated, you can compose them into a more efficie
 
 Using MIDLRT is similar to using the MIDL compiler. Run MIDLRT from the command line using the following command:
 
-**midlrt** *&lt;***options***&gt;* **filename.idl**
+**midlrt** *<***options***>* **filename.idl**
 
-where *&lt;***options***&gt;* represents the command-line options you want to use, and Filename.idl is the name of the IDL file to compile.
+where *<***options***>* represents the command-line options you want to use, and Filename.idl is the name of the IDL file to compile.
 
 ## 
 
