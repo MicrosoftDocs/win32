@@ -1,5 +1,5 @@
 ---
-Description: The &lt;searchConnectorDescription&gt; element is the top level container element of a search connector definition.
+Description: The <searchConnectorDescription&gt; element is the top level container element of a search connector definition.
 ms.assetid: 383CAA20-56CA-4bdc-AC79-E57A1D59785C
 title: searchConnectorDescription Element (Library Schema)
 ms.technology: desktop
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # searchConnectorDescription Element (Library Schema)
 
-The &lt;searchConnectorDescription&gt; element is the top level container element of a search connector definition. The &lt;searchConnectorDescription&gt; element is an extension of the &lt;searchConnectorDescriptionType&gt; element type associated with Windows Federated Search connectors; however, you cannot include search connectors for Windows Federated Search or protocol handlers in a library.
+The <searchConnectorDescription&gt; element is the top level container element of a search connector definition. The <searchConnectorDescription&gt; element is an extension of the <searchConnectorDescriptionType&gt; element type associated with Windows Federated Search connectors; however, you cannot include search connectors for Windows Federated Search or protocol handlers in a library.
 
 ## Syntax
 
@@ -101,23 +101,23 @@ Refer to the schema documentation in [Windows Search](https://msdn.microsoft.com
 
 | Parent Element                                                                                               | Child Elements                        |
 |--------------------------------------------------------------------------------------------------------------|---------------------------------------|
-| [searchConnectorDescriptionList Element (Library Schema)](schema-library-searchconnectordescriptionlist.md) | &lt;isSearchOnlyI.tem&gt;             |
-|                                                                                                              | &lt;description&gt;                   |
-|                                                                                                              | &lt;iconReference&gt;                 |
-|                                                                                                              | &lt;imageLink&gt;                     |
-|                                                                                                              | &lt;author&gt;                        |
-|                                                                                                              | &lt;dateCreated&gt;                   |
-|                                                                                                              | &lt;templateInfo&gt;                  |
-|                                                                                                              | &lt;locationProvider&gt;              |
-|                                                                                                              | &lt;scope&gt;                         |
-|                                                                                                              | &lt;propertyStore&gt;                 |
-|                                                                                                              | &lt;domain&gt;                        |
-|                                                                                                              | &lt;supportsAdvancedQuerySyntax&gt;   |
-|                                                                                                              | &lt;isDefaultSaveLocation&gt;         |
-|                                                                                                              | &lt;isDefaultNonOwnerSaveLocation&gt; |
-|                                                                                                              | &lt;isIndexed&gt;                     |
-|                                                                                                              | &lt;simpleLocation&gt;                |
-|                                                                                                              | &lt;includeInStartMenu&gt;            |
+| [searchConnectorDescriptionList Element (Library Schema)](schema-library-searchconnectordescriptionlist.md) | <isSearchOnlyI.tem&gt;             |
+|                                                                                                              | <description&gt;                   |
+|                                                                                                              | <iconReference&gt;                 |
+|                                                                                                              | <imageLink&gt;                     |
+|                                                                                                              | <author&gt;                        |
+|                                                                                                              | <dateCreated&gt;                   |
+|                                                                                                              | <templateInfo&gt;                  |
+|                                                                                                              | <locationProvider&gt;              |
+|                                                                                                              | <scope&gt;                         |
+|                                                                                                              | <propertyStore&gt;                 |
+|                                                                                                              | <domain&gt;                        |
+|                                                                                                              | <supportsAdvancedQuerySyntax&gt;   |
+|                                                                                                              | <isDefaultSaveLocation&gt;         |
+|                                                                                                              | <isDefaultNonOwnerSaveLocation&gt; |
+|                                                                                                              | <isIndexed&gt;                     |
+|                                                                                                              | <simpleLocation&gt;                |
+|                                                                                                              | <includeInStartMenu&gt;            |
 
 
 
@@ -138,7 +138,7 @@ Refer to the schema documentation in [Windows Search](https://msdn.microsoft.com
 
 ## Remarks
 
-The &lt;searchConnectorDescription&gt; element of a library uses the same schema definition as the &lt;searchConnectorDescription&gt; for Windows Federated Search. Although they use the same schemas, search connectors for Windows Federated search cannot be included in a library.
+The <searchConnectorDescription&gt; element of a library uses the same schema definition as the <searchConnectorDescription&gt; for Windows Federated Search. Although they use the same schemas, search connectors for Windows Federated search cannot be included in a library.
 
 ## Related topics
 

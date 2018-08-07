@@ -26,7 +26,7 @@ Defines the angle that the callout makes with respect to the bounding box of the
 
 **Tag Syntax**
 
-&lt;o: *element* angle=" *expression* "&gt;
+<o: *element* angle=" *expression* "&gt;
 
 **Remarks**
 

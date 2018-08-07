@@ -26,7 +26,7 @@ Defines the length of a horizontal rule as a percentage of page width. Read/writ
 
 **Tag Syntax**
 
-&lt;v: *element* o:hrpct=" *expression* "&gt;
+<v: *element* o:hrpct=" *expression* "&gt;
 
 **Remarks**
 

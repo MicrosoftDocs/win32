@@ -19,7 +19,7 @@ The WMI command-line (WMIC) utility provides a command-line interface for WMI. W
 
 ## Alias
 
-An alias is a friendly renaming of a class, property, or method that makes WMI easier to use and read. You can determine what aliases are available for WMIC through the **/?** command. You can also determine the aliases for a specific class using the **&lt;className&gt; /?** command. For more information, see [WMIC Aliases](https://technet.microsoft.com/library/cc736307.aspx).
+An alias is a friendly renaming of a class, property, or method that makes WMI easier to use and read. You can determine what aliases are available for WMIC through the **/?** command. You can also determine the aliases for a specific class using the **<className&gt; /?** command. For more information, see [WMIC Aliases](https://technet.microsoft.com/library/cc736307.aspx).
 
 ## Switches
 
@@ -36,7 +36,7 @@ Most aliases support the following verbs.
 <span id="ASSOC"></span><span id="assoc"></span>ASSOC
 </dt> <dd>
 
-Returns the result of the `Associators of (<wmi_object>)` query where *&lt;wmi\_object&gt;* is the path of objects returned by the **PATH** or **CLASS** commands. The results are instances associated with the object. When ASSOC is used with an alias, the classes with the class underlying the alias are returned. By default the output is returned in HTML format.
+Returns the result of the `Associators of (<wmi_object>)` query where *<wmi\_object&gt;* is the path of objects returned by the **PATH** or **CLASS** commands. The results are instances associated with the object. When ASSOC is used with an alias, the classes with the class underlying the alias are returned. By default the output is returned in HTML format.
 
 The ASSOC verb has the following switches.
 
@@ -44,9 +44,9 @@ The ASSOC verb has the following switches.
 
 | Switch                         | Description                                                                                                       |
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| /RESULTCLASS:&lt;classname&gt; | Returned endpoints associated with the source object must belong to, or be derived from the specified class.      |
-| /RESULTROLE:&lt;rolename&gt;   | Returned endpoints must play a specific role in associations with the source object.                              |
-| /ASSOCCLASS:&lt;assocclass&gt; | Returned endpoints must be associated with the source through the specified class, or one of its derived classes. |
+| /RESULTCLASS:<classname&gt; | Returned endpoints associated with the source object must belong to, or be derived from the specified class.      |
+| /RESULTROLE:<rolename&gt;   | Returned endpoints must play a specific role in associations with the source object.                              |
+| /ASSOCCLASS:<assocclass&gt; | Returned endpoints must be associated with the source through the specified class, or one of its derived classes. |
 
 
 
@@ -101,9 +101,9 @@ GET has the following switches.
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | /VALUE                               | Output is formatted with each value listed on a separate line and with the name of the property.                                           |
 | /ALL                                 | Output is formatted as a table.                                                                                                            |
-| /TRANSLATE:&lt;translation table&gt; | Translate the output using the translation table named by the command. The translation tables BasicXml and NoComma are included with WMIC. |
-| /EVERY:&lt;interval&gt;              | Repeat the command every &lt;interval&gt; seconds.                                                                                         |
-| /FORMAT:&lt;format specifier&gt;     | Specifies a key word or XSL file name to format the data.                                                                                  |
+| /TRANSLATE:<translation table&gt; | Translate the output using the translation table named by the command. The translation tables BasicXml and NoComma are included with WMIC. |
+| /EVERY:<interval&gt;              | Repeat the command every <interval&gt; seconds.                                                                                         |
+| /FORMAT:<format specifier&gt;     | Specifies a key word or XSL file name to format the data.                                                                                  |
 
 
 
@@ -140,9 +140,9 @@ LIST has the following switches.
 
 | Switch                               | Description                                                                                                                                |
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| /TRANSLATE:&lt;translation table&gt; | Translate the output using the translation table named by the command. The translation tables BasicXml and NoComma are included with WMIC. |
-| /EVERY:&lt;interval&gt;              | Repeat the command every &lt;interval&gt; seconds.                                                                                         |
-| /FORMAT:&lt;format specifier&gt;     | Specifies a key word or XSL file name to format the data.                                                                                  |
+| /TRANSLATE:<translation table&gt; | Translate the output using the translation table named by the command. The translation tables BasicXml and NoComma are included with WMIC. |
+| /EVERY:<interval&gt;              | Repeat the command every <interval&gt; seconds.                                                                                         |
+| /FORMAT:<format specifier&gt;     | Specifies a key word or XSL file name to format the data.                                                                                  |
 
 
 

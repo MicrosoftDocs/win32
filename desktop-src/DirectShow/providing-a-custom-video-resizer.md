@@ -22,7 +22,7 @@ When [DirectShow Editing Services](directshow-editing-services.md) (DES) resizes
 
 -   Support the **IResize** interface on the filter (not the pins).
 -   The filter should accept only [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) formats (FORMAT\_VideoInfo). Reject other format types.
--   The video format from DES may be any uncompressed RGB type, including 32-bit RGB with alpha (MEDIASUBTYPE\_ARGB32). Your filter can safely reject formats with **biHeight** &lt; 0.
+-   The video format from DES may be any uncompressed RGB type, including 32-bit RGB with alpha (MEDIASUBTYPE\_ARGB32). Your filter can safely reject formats with **biHeight** < 0.
 -   Before the Render Engine connects the filter's output pin, it calls [**IResize::put\_MediaType**](iresize-put-mediatype.md) to set the output type. It may also call [**IResize::put\_Size**](iresize-put-size.md) to adjust the output size. It can call these two methods in any order, any number of times, before it connects the output pin.
 -   After the Render Engine connects the output pin, it might call **put\_Size** again. The resizer filter should reconnect its output pin with the new size.
 -   Inside the filter's [**CTransformFilter::Transform**](ctransformfilter-transform.md) method, stretch the input video to the output size.

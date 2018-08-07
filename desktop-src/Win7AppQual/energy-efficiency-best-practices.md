@@ -65,7 +65,7 @@ To ensure that your application is optimized on Windows platforms, follow these 
 
 -   **Avoid use of high-resolution periodic timers**
 
-<dl> Using high-resolution periodic timers (&lt;10 ms) reduces the efficiency of processor power-management technologies.  
+<dl> Using high-resolution periodic timers (<10 ms) reduces the efficiency of processor power-management technologies.  
 </dl>
 
 -   **Invest in performance optimizations**

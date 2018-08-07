@@ -26,7 +26,7 @@ Defines whether the path will be stroked. Read/write. [VgTriState](msdn-online-v
 
 **Tag Syntax**
 
-&lt;v: *element* stroked=" *expression* "&gt;
+<v: *element* stroked=" *expression* "&gt;
 
 **Script Syntax**
 

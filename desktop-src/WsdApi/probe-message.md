@@ -74,21 +74,21 @@ A Probe message has the following focus points.
 <tbody>
 <tr class="odd">
 <td>Probe</td>
-<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Action&gt;
+<td><pre class="syntax" data-space="preserve"><code><wsa:Action&gt;
     http://schemas.xmlsoap.org/ws/2005/04/discovery/Probe
-&lt;/wsa:Action&gt;</code></pre></td>
+</wsa:Action&gt;</code></pre></td>
 <td>The Probe SOAP action identifies the message as a Probe message.</td>
 </tr>
 <tr class="even">
 <td>MessageID</td>
-<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:MessageID&gt;
+<td><pre class="syntax" data-space="preserve"><code><wsa:MessageID&gt;
     urn:uuid:29cf10da-5c41-4d55-b184-5ee15e38ce23
-&lt;/wsa:MessageID&gt;</code></pre></td>
+</wsa:MessageID&gt;</code></pre></td>
 <td>Contains the message identifier, which is referenced by the RelatesTo element in a [ProbeMatches](probematches-message.md) message.</td>
 </tr>
 <tr class="odd">
 <td>Types</td>
-<td><pre class="syntax" data-space="preserve"><code>&lt;wsd:Types&gt;wsdp:Device&lt;/wsd:Types&gt;</code></pre></td>
+<td><pre class="syntax" data-space="preserve"><code><wsd:Types&gt;wsdp:Device</wsd:Types&gt;</code></pre></td>
 <td>Contains the WS-Discovery types for which the client is searching. This element should not be empty.</td>
 </tr>
 </tbody>

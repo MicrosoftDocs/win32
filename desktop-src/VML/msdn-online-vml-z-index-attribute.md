@@ -26,7 +26,7 @@ Determines the display order of overlapping shapes. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* style="z-index: *expression* "&gt;
+<v: *element* style="z-index: *expression* "&gt;
 
 **Script Syntax**
 

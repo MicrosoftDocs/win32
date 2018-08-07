@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Unions
 
-Both encapsulated and nonencapsulated unions share a common union\_arm\_selector&lt;&gt; format:
+Both encapsulated and nonencapsulated unions share a common union\_arm\_selector<&gt; format:
 
 ``` syntax
 union_arms<2>
@@ -21,15 +21,15 @@ armN_case_value<4> offset_to_arm_description<2>
 default_arm_description<2>
 ```
 
-The union\_arms&lt;2&gt; field consists of two parts. If the union is a MIDL 1.0 style union, the upper 4 bits contain the alignment of the union arm (alignment of greatest aligned arm). Otherwise the upper 4 bits are zero. The lower 12 bits contain the number of arms in the union. In other words:
+The union\_arms<2&gt; field consists of two parts. If the union is a MIDL 1.0 style union, the upper 4 bits contain the alignment of the union arm (alignment of greatest aligned arm). Otherwise the upper 4 bits are zero. The lower 12 bits contain the number of arms in the union. In other words:
 
 ``` syntax
 alignment<highest nibble> arm_counter<three lower nibbles>
 ```
 
-The offset\_to\_arm\_description&lt;2&gt; fields contain a relative signed offset to the arm's type description. However, the field is overloaded with optimization for simple types. For these, the upper byte of this offset field is FC\_MAGIC\_UNION\_BYTE (0x80) and the lower byte of the short is the actual format character type of the arm. As such, there are two ranges for the offset values: "80 *xx*" means that *xx* is a type format string; and everything else within range (80 FF .. 7f FF) means an actual offset. This makes offsets from range &lt;80 00 .. 80 FF &gt; unavailable as offsets. The compiler checks that as of MIDL version 5.1.164.
+The offset\_to\_arm\_description<2&gt; fields contain a relative signed offset to the arm's type description. However, the field is overloaded with optimization for simple types. For these, the upper byte of this offset field is FC\_MAGIC\_UNION\_BYTE (0x80) and the lower byte of the short is the actual format character type of the arm. As such, there are two ranges for the offset values: "80 *xx*" means that *xx* is a type format string; and everything else within range (80 FF .. 7f FF) means an actual offset. This makes offsets from range <80 00 .. 80 FF &gt; unavailable as offsets. The compiler checks that as of MIDL version 5.1.164.
 
-The default\_arm\_description&lt;2&gt; field indicates the type of union arm for the default arm, if any. If there is no default arm specified for the union then the default\_arm\_description&lt;2&gt; field is 0xFFFF and an exception is raised if the switch\_is value does not match any of the arm case values. If the default arm is specified but empty, then the default\_arm\_description&lt;2&gt; field is zero. Otherwise the default\_arm\_description&lt;2&gt; field has the same semantics as the offset\_to\_arm\_description&lt;2&gt; fields.
+The default\_arm\_description<2&gt; field indicates the type of union arm for the default arm, if any. If there is no default arm specified for the union then the default\_arm\_description<2&gt; field is 0xFFFF and an exception is raised if the switch\_is value does not match any of the arm case values. If the default arm is specified but empty, then the default\_arm\_description<2&gt; field is zero. Otherwise the default\_arm\_description<2&gt; field has the same semantics as the offset\_to\_arm\_description<2&gt; fields.
 
 The following is a summary:
 
@@ -48,9 +48,9 @@ memory_size<2>
 union_arm_selector<>
 ```
 
-An encapsulated union's switch\_type&lt;1&gt; field has two parts. The lower nibble provides the actual switch type, and the upper nibble provides the memory increment to step over that is an amount that the memory pointer must be incremented to skip past the switch\_is field, which includes any padding between the switch\_is() field of the stub-constructed structure and the actual union field.
+An encapsulated union's switch\_type<1&gt; field has two parts. The lower nibble provides the actual switch type, and the upper nibble provides the memory increment to step over that is an amount that the memory pointer must be incremented to skip past the switch\_is field, which includes any padding between the switch\_is() field of the stub-constructed structure and the actual union field.
 
-The memory\_size&lt;2&gt; field is the size of the union only, and is identical to nonencapsulated unions. To obtain the total size of the structure that contains the union, add memory\_size&lt;2&gt; to memory increment to step over, that is to the upper nibble of the switch\_type&lt;1&gt; field, then align by the alignment corresponding to the increment.
+The memory\_size<2&gt; field is the size of the union only, and is identical to nonencapsulated unions. To obtain the total size of the structure that contains the union, add memory\_size<2&gt; to memory increment to step over, that is to the upper nibble of the switch\_type<1&gt; field, then align by the alignment corresponding to the increment.
 
 ## Nonencapsulated Unions
 
@@ -64,11 +64,11 @@ offset_to_size_and_arm_description<2>
 
 Where:
 
-The switch\_type&lt;1&gt; field is a format character for the discriminant.
+The switch\_type<1&gt; field is a format character for the discriminant.
 
-The switch\_is\_descriptor&lt;&gt; field is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://msdn.microsoft.com/library/windows/desktop/aa367363) is used. However, for the switch\_is\_description&lt;&gt;, if the union is embedded in a structure, the offset field of the switch\_is\_description&lt;&gt; is the offset to the switch\_is field from the union's position in the structure (not from the beginning of the structure).
+The switch\_is\_descriptor<&gt; field is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://msdn.microsoft.com/library/windows/desktop/aa367363) is used. However, for the switch\_is\_description<&gt;, if the union is embedded in a structure, the offset field of the switch\_is\_description<&gt; is the offset to the switch\_is field from the union's position in the structure (not from the beginning of the structure).
 
-The offset\_to\_size\_and\_arm\_description&lt;2&gt; field gives the offset to the union's size and arm description, which is identical to that for encapsulated unions and is shared by all nonencapsulated unions of the same type :
+The offset\_to\_size\_and\_arm\_description<2&gt; field gives the offset to the union's size and arm description, which is identical to that for encapsulated unions and is shared by all nonencapsulated unions of the same type :
 
 ``` syntax
 memory_size<2> 

@@ -19,7 +19,7 @@ While SQL-92 and SQL-99 restrict column and other identifiers to 18 characters, 
 
 ## Grouping Results by Columns
 
-Queries can specify how to group results. You can specify the ranges by which to group, and you can specify more than one column for grouping. For example, you can group results over a range of file sizes (size &lt; 100, 100 &lt;= size &lt; 1000; 1000 &lt;= size), and you can nest groupings. For more information, see [GROUP ON ... OVER... Statement](-search-sql-group-on-over.md).
+Queries can specify how to group results. You can specify the ranges by which to group, and you can specify more than one column for grouping. For example, you can group results over a range of file sizes (size < 100, 100 <= size < 1000; 1000 <= size), and you can nest groupings. For more information, see [GROUP ON ... OVER... Statement](-search-sql-group-on-over.md).
 
 ## Diacritic-Insensitive Searching
 

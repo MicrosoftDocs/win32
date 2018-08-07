@@ -322,7 +322,7 @@ INT_PTR CALLBACK FoodDlgProc(HWND hDlg, UINT message, WPARAM wParam,
         // Set the height of the items in the food groups combo box.
         LPMEASUREITEMSTRUCT lpmis = (LPMEASUREITEMSTRUCT) lParam;
 
-        if (lpmis-&gt;itemHeight &lt; CY_BITMAP + 2)
+        if (lpmis-&gt;itemHeight < CY_BITMAP + 2)
             lpmis-&gt;itemHeight = CY_BITMAP + 2;
 
         break;
@@ -583,11 +583,11 @@ BOOL LoadIconBitmaps(void)
 //
 void DeleteIconBitmaps(void)
 {
-    FreeResource(reinterpret_cast&lt;HGLOBAL&gt;(hbmBread));
-    FreeResource(reinterpret_cast&lt;HGLOBAL&gt;(hbmDairy));
-    FreeResource(reinterpret_cast&lt;HGLOBAL&gt;(hbmMeat));
-    FreeResource(reinterpret_cast&lt;HGLOBAL&gt;(hbmFruit));
-    FreeResource(reinterpret_cast&lt;HGLOBAL&gt;(hbmMask));
+    FreeResource(reinterpret_cast<HGLOBAL&gt;(hbmBread));
+    FreeResource(reinterpret_cast<HGLOBAL&gt;(hbmDairy));
+    FreeResource(reinterpret_cast<HGLOBAL&gt;(hbmMeat));
+    FreeResource(reinterpret_cast<HGLOBAL&gt;(hbmFruit));
+    FreeResource(reinterpret_cast<HGLOBAL&gt;(hbmMask));
 }</code></pre></td>
 </tr>
 </tbody>

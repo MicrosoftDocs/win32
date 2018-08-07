@@ -40,7 +40,7 @@ Samples data from the specified Element/texture using the specified address and 
 
 This instruction is identical to [sample](sample--sm4---asm-.md), except that LOD is provided directly by the application as a scalar value, representing no anisotropy. This instruction is available in all progammable Shader stages.
 
-**sample\_l** samples the texture using *srcLOD* to be the LOD. If the LOD value is &lt;= 0, the zero'th (biggest map) is chosen, with the magnify filter applied (if applicable based on the filter mode). Because *srcLOD* is a floating point value, the fractional value is used to interpolate between two mip levels, if the minify filter is LINEAR or with anisotropic filtering.
+**sample\_l** samples the texture using *srcLOD* to be the LOD. If the LOD value is <= 0, the zero'th (biggest map) is chosen, with the magnify filter applied (if applicable based on the filter mode). Because *srcLOD* is a floating point value, the fractional value is used to interpolate between two mip levels, if the minify filter is LINEAR or with anisotropic filtering.
 
 **sample\_l** ignores address derivatives, so filtering behavior is purely isotropic. Because derivatives are ignored, anisotropic filtering behaves as isotropic filtering.
 

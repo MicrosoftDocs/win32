@@ -52,7 +52,7 @@ To help developers take advantage of the benefits persistent memory offers, Micr
 5. Include the headers in your code and link to the required libraries
 
 -   At this point, you can simply include the header files you are looking to use in your code like any other header files. For example, to use libpmem:
-    -   add "\#include &lt;libpmem.h&gt;" and
+    -   add "\#include <libpmem.h&gt;" and
     -   add "libpmem.lib" to "Configuration Properties -&gt; Linker -&gt; Input -&gt; Additional Dependencies"
 
 At this point you are ready to call the library’s functions directly in your code and take advantage of them.

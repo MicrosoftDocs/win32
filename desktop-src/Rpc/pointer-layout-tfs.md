@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 Pointer layout describes pointers of a structure or an array.
 
-## pointer\_layout&lt;&gt;
+## pointer\_layout<&gt;
 
-A pointer\_layout&lt;&gt; field consists of the format characters FC\_PP FC\_PAD followed by one or more pointer descriptions, as described later, and terminating with an FC\_END format character:
+A pointer\_layout<&gt; field consists of the format characters FC\_PP FC\_PAD followed by one or more pointer descriptions, as described later, and terminating with an FC\_END format character:
 
 ``` syntax
 FC_PP
@@ -24,7 +24,7 @@ FC_PAD
 FC_END
 ```
 
-A pointer\_instance\_layout&lt;&gt; field is a format string describing single or multiple instances of pointers. The following fields are used in these descriptors:
+A pointer\_instance\_layout<&gt; field is a format string describing single or multiple instances of pointers. The following fields are used in these descriptors:
 
 -   offset\_in\_memory
 
@@ -40,7 +40,7 @@ A pointer\_instance\_layout&lt;&gt; field is a format string describing single o
 
 -   iterations
 
-    Total number of pointers that have the same layout&lt;&gt; described.
+    Total number of pointers that have the same layout<&gt; described.
 
 -   increment
 
@@ -54,7 +54,7 @@ A pointer\_instance\_layout&lt;&gt; field is a format string describing single o
 
     Pointer description.
 
-All pointer instance layouts use the following single pointer\_instance&lt;8&gt;:
+All pointer instance layouts use the following single pointer\_instance<8&gt;:
 
 ``` syntax
 offset_to_pointer_in_memory<2> 

@@ -56,7 +56,7 @@ This topic describes VML, a feature that is deprecated as of Windows Internet Ex
 
  
 
-As you've learned, you can use the &lt;oval&gt; element of VML to create a simple oval. VML provides several other predefined elements. In this topic, we will illustrate how to draw graphics by using these elements.
+As you've learned, you can use the <oval&gt; element of VML to create a simple oval. VML provides several other predefined elements. In this topic, we will illustrate how to draw graphics by using these elements.
 
 In this topic:
 
@@ -70,7 +70,7 @@ In this topic:
 
 ## rect
 
-You can use the &lt;rect&gt; element to draw a rectangle. You can then customize the rectangle by specifying different property attributes.
+You can use the <rect&gt; element to draw a rectangle. You can then customize the rectangle by specifying different property attributes.
 
 For example, you can draw a rectangle that is filled with blue by specifying **fillcolor**="blue", and give it a 3.5-point red outline by specifying **strokecolor**="red" **strokeweight**="3.5pt", as shown in the following VML representation:
 
@@ -86,13 +86,13 @@ strokecolor="red" strokeweight="3.5pt"/>
 
 [Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/PredefinedShape/RECT1.md)
 
-For more information about this element, see the [VML specification](http://WWW.w3.org/TR/NOTE-VML#-toc416858405) . (Note: The VML specification doesn't have a bookmark for the &lt;rect&gt; element.)
+For more information about this element, see the [VML specification](http://WWW.w3.org/TR/NOTE-VML#-toc416858405) . (Note: The VML specification doesn't have a bookmark for the <rect&gt; element.)
 
 [![back to top](images/top.gif) Back to top](#top)
 
 ## roundrect
 
-You can use the &lt;roundrect&gt; element to draw a rectangle with rounded corners. You can then customize the rounded rectangle by specifying different property attributes.
+You can use the <roundrect&gt; element to draw a rectangle with rounded corners. You can then customize the rounded rectangle by specifying different property attributes.
 
 For example, you can draw a rectangle that has rounded corners 30% of half the smaller dimension of the rectangle by specifying **arcsize**="0.3", fill it with yellow by specifying **fillcolor**="yellow", and give it a 2-point red outline by specifying **strokecolor**="red" **strokeweight**="2pt", as shown in the following VML representation:
 
@@ -115,7 +115,7 @@ For more information about this element, see the [VML specification](http://WWW.
 
 ## line
 
-You can use the &lt;line&gt; element to create a straight line. You can then customize the line by specifying different property attributes.
+You can use the <line&gt; element to create a straight line. You can then customize the line by specifying different property attributes.
 
 For example, you can draw a horizontal line by specifying **from**="20pt,20pt" **to**="100pt,20pt", and make it 2-point and red by specifying **strokecolor**="red" **strokeweight**="2pt", as shown in the following VML representation:
 
@@ -151,7 +151,7 @@ For more information about this element, see the [VML specification](http://WWW.
 
 ## polyline
 
-You can use the &lt;polyline&gt; element to define shapes that are created from connected line segments. You can then customize the shape by specifying different property attributes.
+You can use the <polyline&gt; element to define shapes that are created from connected line segments. You can then customize the shape by specifying different property attributes.
 
 For example, to draw the shape shown in the following picture, you can type the following VML representation:
 
@@ -173,7 +173,7 @@ For more information about this element, see the [VML specification](http://WWW.
 
 ## curve
 
-You can use the &lt;curve&gt; element to draw a cubic bézier curve. You can then customize the curve by specifying different property attributes.
+You can use the <curve&gt; element to draw a cubic bézier curve. You can then customize the curve by specifying different property attributes.
 
 For example, to draw a curve as shown in the following picture, you can type the following VML representation:
 
@@ -196,7 +196,7 @@ For more information about this element, see the [VML specification](http://WWW.
 
 ## arc
 
-You can use the &lt;arc&gt; element to draw an arc that is defined as a segment of an oval. The arc is defined by the intersection of the oval with the start and end radius vectors given by the angles. The angles are calculated by using the properties of a circle (width equal to height), then scaled anisotropically to the desired width and height.
+You can use the <arc&gt; element to draw an arc that is defined as a segment of an oval. The arc is defined by the intersection of the oval with the start and end radius vectors given by the angles. The angles are calculated by using the properties of a circle (width equal to height), then scaled anisotropically to the desired width and height.
 
 For example, you can draw an arc that starts at 0 degrees and ends at 90 degrees by specifying **startangle**="0" **endangle**="90", as shown in the following VML representation:
 
@@ -247,7 +247,7 @@ For more information about this element, see the [VML specification](http://WWW.
 
 ## Summary
 
-You can use VML predefined elements such as &lt;oval&gt;, &lt;line&gt;, &lt;polyline&gt;, &lt;curve&gt;, &lt;rect&gt;, &lt;roundrect&gt;, and &lt;arc&gt; to easily draw graphics on a Web page, and then customize those graphics by simply changing their property attributes.
+You can use VML predefined elements such as <oval&gt;, <line&gt;, <polyline&gt;, <curve&gt;, <rect&gt;, <roundrect&gt;, and <arc&gt; to easily draw graphics on a Web page, and then customize those graphics by simply changing their property attributes.
 
  
 

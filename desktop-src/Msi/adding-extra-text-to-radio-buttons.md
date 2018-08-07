@@ -72,9 +72,9 @@ In the following example the MySample dialog box has a RadioButtonGroup control 
 
 | Dialog\_ | Control\_  | Action | Condition                 |
 |----------|------------|--------|---------------------------|
-| MySample | HowIsBlue  | Hide   | TheColor &lt;&gt; "Blue"  |
+| MySample | HowIsBlue  | Hide   | TheColor <&gt; "Blue"  |
 | MySample | HowIsBlue  | Show   | TheColor = "Blue"         |
-| MySample | HowIsGreen | Hide   | TheColor &lt;&gt; "Green" |
+| MySample | HowIsGreen | Hide   | TheColor <&gt; "Green" |
 | MySample | HowIsGreen | Show   | TheColor = "Green"        |
 
 

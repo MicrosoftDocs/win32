@@ -26,7 +26,7 @@ Defines the first control point of a bezier curve. Read/write. **VgVector2D**.
 
 **Tag Syntax**
 
-&lt;v: *element* control1=" *expression* "&gt;
+<v: *element* control1=" *expression* "&gt;
 
 **Script Syntax**
 

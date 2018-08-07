@@ -76,7 +76,7 @@ The following media types are supported:
 -   32 bits per pixel, with alpha (MEDIASUBTYPE\_ARGB32, not MEDIASUBTYPE\_RGB32)
 -   16-bit stereo PCM audio (MEDIASUBTYPE\_PCM)
 
-Video types must use FORMAT\_VideoInfo for the format type and [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) for the format block. The [**VIDEOINFOHEADER2**](/windows/desktop/api/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2) format is not supported. Also, top-down video formats (*biHeight* &lt; 0) are not supported.
+Video types must use FORMAT\_VideoInfo for the format type and [**VIDEOINFOHEADER**](/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader) for the format block. The [**VIDEOINFOHEADER2**](/windows/desktop/api/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2) format is not supported. Also, top-down video formats (*biHeight* < 0) are not supported.
 
 To specify a compression format for the group, call the [**IAMTimelineGroup::SetSmartRecompressFormat**](iamtimelinegroup-setsmartrecompressformat.md) method.
 

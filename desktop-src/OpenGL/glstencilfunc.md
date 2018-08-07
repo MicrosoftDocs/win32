@@ -50,7 +50,7 @@ The test function. The following eight tokens are valid.
 | Value                                                                                                                                                   | Meaning                                                          |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | <span id="GL_NEVER"></span><span id="gl_never"></span><dl> <dt>**GL\_NEVER**</dt> </dl>          | Always fails.<br/>                                         |
-| <span id="GL_LESS"></span><span id="gl_less"></span><dl> <dt>**GL\_LESS**</dt> </dl>             | Passes if (*ref* & *mask*) &lt; (*stencil* & *mask*).<br/> |
+| <span id="GL_LESS"></span><span id="gl_less"></span><dl> <dt>**GL\_LESS**</dt> </dl>             | Passes if (*ref* & *mask*) < (*stencil* & *mask*).<br/> |
 | <span id="GL_LEQUAL"></span><span id="gl_lequal"></span><dl> <dt>**GL\_LEQUAL**</dt> </dl>       | Passes if (*ref* & *mask*) = (*stencil* & *mask*).<br/>    |
 | <span id="GL_GREATER"></span><span id="gl_greater"></span><dl> <dt>**GL\_GREATER**</dt> </dl>    | Passes if (*ref* & *mask*) &gt; (*stencil* & *mask*).<br/> |
 | <span id="GL_GEQUAL"></span><span id="gl_gequal"></span><dl> <dt>**GL\_GEQUAL**</dt> </dl>       | Passes if (*ref* & *mask*) = (*stencil* & *mask*).<br/>    |

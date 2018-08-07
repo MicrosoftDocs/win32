@@ -70,7 +70,7 @@ The following table lists possible parameters for the configuration tool.
 <tr class="odd">
 <td>-l</td>
 <td><p>Specifies a prefix for the log file. The prefix can include a path. The log file is written to the current directory or the directory specified in the prefix and has the following format.</p>
-<p>&lt;<em>prefix</em>&gt;-&lt;<em>application name</em>&gt;.&lt;<em>time</em>&gt;.log</p>
+<p><<em>prefix</em>&gt;-<<em>application name</em>&gt;.<<em>time</em>&gt;.log</p>
 <p>If a prefix is not specified, an empty string is used. Specify &quot;*&quot; to delete an existing prefix.</p></td>
 </tr>
 <tr class="even">

@@ -43,8 +43,8 @@ When you run the Uuidgen utility from the command line, you can use the followin
 |--------------------------|----------------------------------------------------------------------------|
 | **/I**                   | Outputs UUID to an IDL interface template.                                 |
 | **/s**                   | Outputs UUID as an initialized C structure.                                |
-| **/o**&lt;*filename*&gt; | Redirects output to a file; specified immediately after the **/o** switch. |
-| **/n**&lt;*number*&gt;   | Specifies the number of UUIDs to generate.                                 |
+| **/o**<*filename*&gt; | Redirects output to a file; specified immediately after the **/o** switch. |
+| **/n**<*number*&gt;   | Specifies the number of UUIDs to generate.                                 |
 | **/v**                   | Displays version information about Uuidgen.                                |
 | **/h** or **?**          | Displays command-option summary.                                           |
 

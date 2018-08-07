@@ -88,9 +88,9 @@ Assembly manifests can be installed in three locations:
 
 The name of an assembly manifest is any valid file name followed by .manifest.
 
-For example, an assembly manifest that refers to myassembly would use the following file name syntax. You can omit the &lt;*resource ID*&gt; field if the assembly manifest is being installed as a separate file or if the resource ID is 1.
+For example, an assembly manifest that refers to myassembly would use the following file name syntax. You can omit the <*resource ID*&gt; field if the assembly manifest is being installed as a separate file or if the resource ID is 1.
 
-<dl> myassembly.&lt;resource ID&gt;.manifest  
+<dl> myassembly.<resource ID&gt;.manifest  
 </dl>
 
 > [!Note]  
@@ -210,7 +210,7 @@ The **comClass** element has the following attributes.
 | **clsid**               | The GUID that uniquely identifies the Class. Required. The value must be in the format of a valid GUID.                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | **threadingModel**      | The threading model used by in-process COM classes. If this property is null, then no threading model is used. The component is created on the main thread of the client and calls from other threads are marshaled to this thread. Optional. Valid values are: "Apartment", "Free", "Both", and "Neutral".                                                                                                                                                                                                                         |
 | **tlbid**               | GUID for the type library for this COM component. The value must be in the format of a GUID. Optional.                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| **progid**              | Version-dependent programmatic identifier associated with the COM component. The format of a ProgID is &lt;*vendor*&gt;.&lt;*component*&gt;.&lt;*version*&gt;.                                                                                                                                                                                                                                                                                                                                                                      |
+| **progid**              | Version-dependent programmatic identifier associated with the COM component. The format of a ProgID is <*vendor*&gt;.<*component*&gt;.<*version*&gt;.                                                                                                                                                                                                                                                                                                                                                                      |
 | **miscStatus**          | Duplicates in the assembly manifest the information provided by the MiscStatus registry key. If values for the **miscStatusIcon**, **miscStatusContent**, **miscStatusDocprint**, or **miscStatusThumbnail** attributes are not found, the corresponding default value listed in **miscStatus** is used for the missing attributes. The value can be a comma-delimited list of the attribute values from the table below. You can use this attribute if the COM class is an OCX class that requires Miscstatus registry key values. |
 | **miscStatusIcon**      | Duplicates in the assembly manifest the information provided by DVASPECT\_ICON. It can provide an icon of an object. The value can be a comma-delimited list of the attribute values from the table below. You can use this attribute if the COM class is an OCX class that requires Miscstatus registry key values.                                                                                                                                                                                                                |
 | **miscStatusContent**   | Duplicates in the assembly manifest the information provided by DVASPECT\_CONTENT. It can provide a compound document displayable for a screen or printer. The value can be a comma-delimited list of the attribute values from the table below. You can use this attribute if the COM class is an OCX class that requires Miscstatus registry key values.                                                                                                                                                                          |
@@ -221,7 +221,7 @@ The **comClass** element has the following attributes.
 
  
 
-The **comClass** element can have &lt;progid&gt;...&lt;/progid&gt; elements as children, which list the version dependent progids.
+The **comClass** element can have <progid&gt;...</progid&gt; elements as children, which list the version dependent progids.
 
 The following example shows a **comClass** element included in a **file** element.
 

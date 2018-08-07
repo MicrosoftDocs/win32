@@ -47,10 +47,10 @@ The URL syntax is described in the following table.
 
 | Syntax           | Description                                                                                                                                                                                                        |
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| &lt;protocol&gt; | Identifies which protocol handler to invoke for the URL.                                                                                                                                                           |
+| <protocol&gt; | Identifies which protocol handler to invoke for the URL.                                                                                                                                                           |
 | {user SID}       | Identifies the user security context under which the protocol handler is called. If no user security identifier (SID) is identified, the protocol handler is called in the security context of the system service. |
-| &lt;path&gt;     | Defines the hierarchy of the store, where each forward slash ('/') is a separator between folder names.                                                                                                            |
-| &lt;ItemID&gt;   | Represents a unique string that identifies the child item (for example, the file name).                                                                                                                            |
+| <path&gt;     | Defines the hierarchy of the store, where each forward slash ('/') is a separator between folder names.                                                                                                            |
+| <ItemID&gt;   | Represents a unique string that identifies the child item (for example, the file name).                                                                                                                            |
 
 
 
@@ -311,7 +311,7 @@ You need to make fourteen entries in the registry to register the protocol handl
              (Default) = <Ver_Ind_ProgID>
     ```
 
-4.  Register the protocol handler with Windows Search. In the following example, &lt;Protocol Name&gt; is the name of the protocol itself, such as file, mapi, and so forth:
+4.  Register the protocol handler with Windows Search. In the following example, <Protocol Name&gt; is the name of the protocol itself, such as file, mapi, and so forth:
 
     ```
     HKEY_LOCAL_MACHINE

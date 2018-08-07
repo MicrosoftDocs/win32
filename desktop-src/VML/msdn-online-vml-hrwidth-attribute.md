@@ -26,7 +26,7 @@ Defines the length of a horizontal rule. Read/write. **VgLength**.
 
 **Tag Syntax**
 
-&lt;v: *element* o:hrwidth=" *expression* "&gt;
+<v: *element* o:hrwidth=" *expression* "&gt;
 
 **Remarks**
 

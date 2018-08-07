@@ -41,7 +41,7 @@ Timeout is a **REG\_DWORD** type.
 
 To display the size of the application in Add or Remove Programs in the Windows 2000 Control Panel, you must manually write the value of EstimatedSize into the key
 
-**HKLM**\\**Software**\\**Microsoft**\\**Windows**\\**CurrentVersion**\\**Uninstall**\\**&lt;*Product Code*&gt;**
+**HKLM**\\**Software**\\**Microsoft**\\**Windows**\\**CurrentVersion**\\**Uninstall**\\**<*Product Code*&gt;**
 
 This is a **REG\_DWORD** type and equals to the size of the application in Kbytes. The installer does not automatically write this value.
 

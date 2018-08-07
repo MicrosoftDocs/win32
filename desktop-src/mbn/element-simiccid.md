@@ -18,13 +18,13 @@ The SIM Identifcation number for GSM devices. For more details , see the documen
 
 ## Element hierarchy
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-**&lt;SimIccID&gt;**
+[<MBNProfileExt&gt;](element-mbnprofileext.md)  
+**<SimIccID&gt;**
 
 <!-- -->
 
-[&lt;ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
-**&lt;SimIccID&gt;**
+[<ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
+**<SimIccID&gt;**
 
 ## Syntax
 

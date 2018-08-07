@@ -26,7 +26,7 @@ Defines the range of a polar handle. Read/write. **VgVector2D**.
 
 **Tag Syntax**
 
-&lt;v: *element* radiusrange=" *expression* "&gt;
+<v: *element* radiusrange=" *expression* "&gt;
 
 **Remarks**
 

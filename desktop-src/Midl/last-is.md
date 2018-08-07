@@ -46,7 +46,7 @@ The **\[last\_is\]** attribute cannot be used as a field attribute at the same t
 
 Using a constant expression with the **\[last\_is\]** attribute is an inappropriate use of the attribute. It is legal, but inefficient, and will result in slower marshaling code.
 
-When the value specified by **\[**[**max\_is**](max-is.md)**\]** is equal to or greater than zero, the following relationship must be true: 0 &lt;= last\_is &lt;= max\_is.
+When the value specified by **\[**[**max\_is**](max-is.md)**\]** is equal to or greater than zero, the following relationship must be true: 0 <= last\_is <= max\_is.
 
 ## Examples
 

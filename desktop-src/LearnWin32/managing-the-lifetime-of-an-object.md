@@ -78,7 +78,7 @@ Here is the code from the [Open dialog box example](example--the-open-dialog-box
 <tbody>
 <tr class="odd">
 <td><pre><code>        hr = CoCreateInstance(CLSID_FileOpenDialog, NULL, CLSCTX_ALL, 
-                IID_IFileOpenDialog, reinterpret_cast&lt;void**&gt;(&pFileOpen));
+                IID_IFileOpenDialog, reinterpret_cast<void**&gt;(&pFileOpen));
 
         if (SUCCEEDED(hr))
         {</code></pre></td>

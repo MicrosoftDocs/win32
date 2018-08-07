@@ -1,5 +1,5 @@
 ---
-Description: The &lt;url&gt; element specifies a URL to the thumbnail for this search connector. If &lt;imageLink&gt; exists, this element is required. It has no child elements and no attributes.
+Description: The <url&gt; element specifies a URL to the thumbnail for this search connector. If <imageLink&gt; exists, this element is required. It has no child elements and no attributes.
 ms.assetid: addb2614-9f4f-4cab-a678-b6020b8c4648
 title: imageLink url Element (Search Connector Schema)
 ms.technology: desktop
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # imageLink url Element (Search Connector Schema)
 
-The &lt;url&gt; element specifies a URL to the thumbnail for this search connector. If &lt;imageLink&gt; exists, this element is required. It has no child elements and no attributes.
+The <url&gt; element specifies a URL to the thumbnail for this search connector. If <imageLink&gt; exists, this element is required. It has no child elements and no attributes.
 
 ## Syntax
 

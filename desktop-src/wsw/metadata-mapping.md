@@ -325,7 +325,7 @@ This section applies when the [**WS\_SECURITY\_CONTEXT\_MESSAGE\_SECURITY\_BINDI
 </sp:EndorsingSupportingTokens>
 ```
 
-The entropy mode is determined by the &lt;sp:Trust10&gt; assertion. &lt;sp:RequireClientEntropy/&gt; and &lt;sp:RequireServerEntropy/&gt; =&gt; [**WS\_SECURITY\_KEY\_ENTROPY\_MODE\_COMBINED**](/windows/desktop/api/WebServices/ne-webservices-ws_security_key_entropy_mode) &lt;sp:RequireClientEntropy/&gt; =&gt; **WS\_SECURITY\_KEY\_ENTROPY\_MODE\_CLIENT\_ONLY** &lt;sp:RequireServerEntropy/&gt; =&gt; **WS\_SECURITY\_KEY\_ENTROPY\_MODE\_SERVER\_ONLY**
+The entropy mode is determined by the <sp:Trust10&gt; assertion. <sp:RequireClientEntropy/&gt; and <sp:RequireServerEntropy/&gt; =&gt; [**WS\_SECURITY\_KEY\_ENTROPY\_MODE\_COMBINED**](/windows/desktop/api/WebServices/ne-webservices-ws_security_key_entropy_mode) <sp:RequireClientEntropy/&gt; =&gt; **WS\_SECURITY\_KEY\_ENTROPY\_MODE\_CLIENT\_ONLY** <sp:RequireServerEntropy/&gt; =&gt; **WS\_SECURITY\_KEY\_ENTROPY\_MODE\_SERVER\_ONLY**
 
 ## WS\_REQUEST\_SECURITY\_TOKEN\_PROPERTY\_TRUST\_VERSION
 

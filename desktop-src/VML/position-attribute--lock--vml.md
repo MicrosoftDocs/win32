@@ -26,7 +26,7 @@ Determines whether the position of a shape is locked in an editor. Read/write. *
 
 **Tag Syntax**
 
-&lt;o: *element* position=" *expression* "&gt;
+<o: *element* position=" *expression* "&gt;
 
 **Remarks**
 

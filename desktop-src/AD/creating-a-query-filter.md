@@ -38,7 +38,7 @@ A filter can contain one, or more, expressions. An expression has the following 
 
 
 
-where "&lt;logicaloperator&gt;" is one of the following.
+where "<logicaloperator&gt;" is one of the following.
 
 
 
@@ -52,7 +52,7 @@ where "&lt;logicaloperator&gt;" is one of the following.
 
  
 
-and "&lt;comparison&gt;" is the following:
+and "<comparison&gt;" is the following:
 
 
 ```C++
@@ -61,7 +61,7 @@ and "&lt;comparison&gt;" is the following:
 
 
 
-where "&lt;attribute&gt;" is the **lDAPDisplayName** of the attribute to evaluate, "&lt;value&gt;" is the value to compare against, and "&lt;operator&gt;" is one of the following comparison operators.
+where "<attribute&gt;" is the **lDAPDisplayName** of the attribute to evaluate, "<value&gt;" is the value to compare against, and "<operator&gt;" is one of the following comparison operators.
 
 
 
@@ -69,14 +69,14 @@ where "&lt;attribute&gt;" is the **lDAPDisplayName** of the attribute to evaluat
 |--------------------|-------------------------------------|
 | "="<br/>     | Equals<br/>                   |
 | "~="<br/>    | Approximately equals<br/>     |
-| "&lt;="<br/> | Less than or equal to<br/>    |
+| "<="<br/> | Less than or equal to<br/>    |
 | "&gt;="<br/> | Greater than or equal to<br/> |
 
 
 
  
 
-In addition, depending on the attribute syntax, the "&lt;value&gt;" may contain the wildcard symbol ("\*"). A "&lt;value&gt;" that contains only a wildcard will check for the existence of any value in "&lt;attribute&gt;". If no value is set for "&lt;attribute&gt;", the test will fail.
+In addition, depending on the attribute syntax, the "<value&gt;" may contain the wildcard symbol ("\*"). A "<value&gt;" that contains only a wildcard will check for the existence of any value in "<attribute&gt;". If no value is set for "<attribute&gt;", the test will fail.
 
 If any of the following special characters must appear in the query filter as literals, they must be replaced by the listed escape sequence.
 

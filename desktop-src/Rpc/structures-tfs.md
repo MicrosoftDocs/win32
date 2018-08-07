@@ -62,7 +62,7 @@ FC_END
 
 ## Simple Structure with Pointers
 
-A simple structure with pointers contains only base types, pointers, fixed arrays, simple structures, and other simple structures with pointers. Because the layout&lt;&gt; will only have to be visited when doing an endianess conversion, it is placed at the end of the description.
+A simple structure with pointers contains only base types, pointers, fixed arrays, simple structures, and other simple structures with pointers. Because the layout<&gt; will only have to be visited when doing an endianess conversion, it is placed at the end of the description.
 
 ``` syntax
 FC_PSTRUCT alignment<1> 
@@ -129,11 +129,11 @@ member_layout<>
 FC_END
 ```
 
-The enum\_offset&lt;2&gt; field provides the offset from the beginning of the structure in memory to an enum16 if it contains one; otherwise the enum\_offset&lt;2&gt; field is –1.
+The enum\_offset<2&gt; field provides the offset from the beginning of the structure in memory to an enum16 if it contains one; otherwise the enum\_offset<2&gt; field is –1.
 
-The copy\_size&lt;2&gt; field provides the total number of bytes in the structure, which may be block-copied into/from the buffer. This total does not include any trailing union nor any end-padding in memory. This value is also the amount the buffer pointer should be incremented following the copy.
+The copy\_size<2&gt; field provides the total number of bytes in the structure, which may be block-copied into/from the buffer. This total does not include any trailing union nor any end-padding in memory. This value is also the amount the buffer pointer should be incremented following the copy.
 
-The mem\_copy\_incr&lt;2&gt; field is the number of bytes the memory pointer should be incremented following the block-copy before handling any trailing union. Incrementing by this amount (not by copy\_size&lt;2&gt; bytes) yields a proper memory pointer to any trailing union.
+The mem\_copy\_incr<2&gt; field is the number of bytes the memory pointer should be incremented following the block-copy before handling any trailing union. Incrementing by this amount (not by copy\_size<2&gt; bytes) yields a proper memory pointer to any trailing union.
 
 ## Complex Structure
 
@@ -162,20 +162,20 @@ FC_END
 [pointer_layout<>]
 ```
 
-The memory\_size&lt;2&gt; field is the size of the structure in memory, in bytes.
+The memory\_size<2&gt; field is the size of the structure in memory, in bytes.
 
-If the structure contains a conformant array, the offset\_to\_conformant\_array\_description&lt;2&gt; field provides the offset to the conformant array's description, otherwise it is zero.
+If the structure contains a conformant array, the offset\_to\_conformant\_array\_description<2&gt; field provides the offset to the conformant array's description, otherwise it is zero.
 
-If the structure has pointers, the offset\_to\_pointer\_layout&lt;2&gt; field provides the offset past the structure's layout to the pointer layout, otherwise this field is zero.
+If the structure has pointers, the offset\_to\_pointer\_layout<2&gt; field provides the offset past the structure's layout to the pointer layout, otherwise this field is zero.
 
-The pointer\_layout&lt;&gt; field of a complex structure is handled somewhat differently than for other structures. The pointer\_layout&lt;&gt; field of a complex structure only contains descriptions of actual pointer fields in the structure itself. Any pointers contained within any embedded arrays, unions, or structures are not described in the complex structure's pointer\_layout&lt;&gt; field.
+The pointer\_layout<&gt; field of a complex structure is handled somewhat differently than for other structures. The pointer\_layout<&gt; field of a complex structure only contains descriptions of actual pointer fields in the structure itself. Any pointers contained within any embedded arrays, unions, or structures are not described in the complex structure's pointer\_layout<&gt; field.
 
 > [!Note]  
-> This is in contrast to other structures, which duplicate the description of any pointers contained in embedded arrays or structures in their own pointer \_layout&lt;&gt; field as well.
+> This is in contrast to other structures, which duplicate the description of any pointers contained in embedded arrays or structures in their own pointer \_layout<&gt; field as well.
 
  
 
-The format of a complex structure's pointer layout is also radically different. Because it only contains descriptions of actual pointer members and because a complex structure is marshaled and unmarshaled one field at a time, the pointer\_layout&lt;&gt; field simply contains the pointer description of all pointer members. There is no beginning FC\_PP, and none of the usual pointer\_layout&lt;&gt; information.
+The format of a complex structure's pointer layout is also radically different. Because it only contains descriptions of actual pointer members and because a complex structure is marshaled and unmarshaled one field at a time, the pointer\_layout<&gt; field simply contains the pointer description of all pointer members. There is no beginning FC\_PP, and none of the usual pointer\_layout<&gt; information.
 
 ## Structure Member Layout Description
 
@@ -198,9 +198,9 @@ A structure's layout description contains one or more of the following format ch
 
     where the offset is not guaranteed to be 2-byte aligned.
 
-    memory\_pad&lt;1&gt; is a padding needed in memory before the complex field.
+    memory\_pad<1&gt; is a padding needed in memory before the complex field.
 
-    offset\_to\_description&lt;2&gt; is a relative type offset to the embedded type.
+    offset\_to\_description<2&gt; is a relative type offset to the embedded type.
 
 There may also be an FC\_PAD before the terminating FC\_END if needed to ensure that the format string will be aligned at a 2-byte boundary following the FC\_END.
 

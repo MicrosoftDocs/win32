@@ -26,7 +26,7 @@ Defines the type of positioning used to place an element. Read/write. **String**
 
 **Tag Syntax**
 
-&lt;v: *element* style="position: *expression* "&gt;
+<v: *element* style="position: *expression* "&gt;
 
 **Script Syntax**
 

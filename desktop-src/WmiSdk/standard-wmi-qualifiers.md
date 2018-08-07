@@ -340,7 +340,7 @@ Set of values indicating which system privileges must be available and enabled f
 
 ### Locale Codes
 
-A locale code is of the form "MS\_&lt;Three Digit Language ID&gt;". For example, English locale is MS\_409. The following table lists the language IDs.
+A locale code is of the form "MS\_<Three Digit Language ID&gt;". For example, English locale is MS\_409. The following table lists the language IDs.
 
 
 

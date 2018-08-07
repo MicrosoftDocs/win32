@@ -36,7 +36,7 @@ TraceLogging builds on Event Tracing for Windows (ETW) and provides a simplified
 
 Note that the value of WINVER will impact the way TraceLoggingProvider.h behaves.
 
--   If WINVER is not set before including &lt;windows.h&gt;, then &lt;windows.h&gt; will set WINVER to a default value corresponding to the SDK version.
+-   If WINVER is not set before including <windows.h&gt;, then <windows.h&gt; will set WINVER to a default value corresponding to the SDK version.
 -   Using TraceLoggingProvider.h with WINVER set to 0x0602 (Windows 8) or higher, the program will not run on Windows Vista or Windows 7.
 -   Using TraceLoggingProvider.h with WINVER set to 0x0600 (Windows Vista) or 0x0601 (Windows 7), the program will be configured for compatibility and will work on the specified versions of Windows.
 

@@ -26,7 +26,7 @@ Defines the arrowhead width for the start of a line. Read/write. **VgArrowheadWi
 
 **Tag Syntax**
 
-&lt;v: *element* startarrowwidth=" *expression* "&gt;
+<v: *element* startarrowwidth=" *expression* "&gt;
 
 **Script Syntax**
 

@@ -26,7 +26,7 @@ Defines the scaling factor for fitting text to shapes. Read/write. **VgNumber**.
 
 **Tag Syntax**
 
-&lt;v: *element* style="mso-text-scale: *expression* "&gt;
+<v: *element* style="mso-text-scale: *expression* "&gt;
 
 **Remarks**
 

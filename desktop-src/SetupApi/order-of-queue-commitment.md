@@ -16,22 +16,22 @@ When the [**SetupCommitFileQueue**](/windows/desktop/api/Setupapi/nf-setupapi-se
  
 
 -   start the delete subqueue
-    -   start a file delete operation &lt;-- repeat for each
-    -   finish a file delete operation &lt;-- queued file delete
+    -   start a file delete operation <-- repeat for each
+    -   finish a file delete operation <-- queued file delete
 -   finish the delete subqueue
 
 <!-- -->
 
 -   start the rename subqueue
-    -   start a file rename operation &lt;-- repeat for each
-    -   finish a file delete operation &lt;-- queued file rename
+    -   start a file rename operation <-- repeat for each
+    -   finish a file delete operation <-- queued file rename
 -   finish the rename subqueue
 
 <!-- -->
 
 -   start the copy subque
-    -   start a file copy operation &lt;-- repeat for each
-    -   finish a file copy operation &lt;-- queued file copy
+    -   start a file copy operation <-- repeat for each
+    -   finish a file copy operation <-- queued file copy
     -   finish the copy subqueue
 -   finish the queue
 

@@ -26,7 +26,7 @@ Determines whether an image will be displayed in black and white. Read/write. **
 
 **Tag Syntax**
 
-&lt;v: *element* bilevel=" *expression* "&gt;
+<v: *element* bilevel=" *expression* "&gt;
 
 **Script Syntax**
 

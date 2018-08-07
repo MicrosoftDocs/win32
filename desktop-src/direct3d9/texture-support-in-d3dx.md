@@ -29,10 +29,10 @@ When using any of the D3DXLoadSurfacexxx, D3DXLoadVolumexxx, D3DXCreateTexturexx
 
 ### Mapping RGBA to UVWQ
 
--   R &lt;-&gt; U, R channel is mapped to the U channel, or vice versa.
--   G &lt;-&gt; V, G channel is mapped to the V channel, or vice versa.
--   B &lt;-&gt; W, B channel is mapped to the W channel, or vice versa.
--   A &lt;-&gt; Q/L, A channel is mapped to either the Q or the L channel (depending on which one is available in the destination format), or vice versa.
+-   R <-&gt; U, R channel is mapped to the U channel, or vice versa.
+-   G <-&gt; V, G channel is mapped to the V channel, or vice versa.
+-   B <-&gt; W, B channel is mapped to the W channel, or vice versa.
+-   A <-&gt; Q/L, A channel is mapped to either the Q or the L channel (depending on which one is available in the destination format), or vice versa.
 
 
 ```
@@ -46,10 +46,10 @@ A->Q or A->L
 
 ### Mapping UV to RGBA
 
--   U &lt;-&gt; R, U channel is mapped to the R channel, or vice versa.
--   V &lt;-&gt; G, V channel is mapped to the G channel, or vice versa.
--   1 &lt;-&gt; B, 1 is mapped to the B channel, or vice versa.
--   1 &lt;-&gt; A, 1 is mapped to the A channel, or vice versa.
+-   U <-&gt; R, U channel is mapped to the R channel, or vice versa.
+-   V <-&gt; G, V channel is mapped to the G channel, or vice versa.
+-   1 <-&gt; B, 1 is mapped to the B channel, or vice versa.
+-   1 <-&gt; A, 1 is mapped to the A channel, or vice versa.
 
 If a channel does not exist in the source, it is assumed to be 1 (with the exception of A8, where R,G,B are assumed to be 0). For example:
 

@@ -18,13 +18,13 @@ The name of the profile. For more information, see the documentation for the v1 
 
 ## Element hierarchy
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-**&lt;Name&gt;**
+[<MBNProfileExt&gt;](element-mbnprofileext.md)  
+**<Name&gt;**
 
 <!-- -->
 
-[&lt;ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
-**&lt;Name&gt;**
+[<ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
+**<Name&gt;**
 
 ## Syntax
 

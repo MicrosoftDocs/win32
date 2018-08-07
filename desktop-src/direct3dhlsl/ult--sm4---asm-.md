@@ -36,7 +36,7 @@ Component-wise vector unsigned integer less-than comparison.
 
 ## Remarks
 
-Performs the unsigned integer comparison (*src0* &lt; *src1*) for each component, and writes the result to *dest*.
+Performs the unsigned integer comparison (*src0* < *src1*) for each component, and writes the result to *dest*.
 
 If the comparison is true, this instruction returns 0xFFFFFFFF for that component. Otherwise it returns 0x0000000.
 

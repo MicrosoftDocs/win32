@@ -45,7 +45,7 @@ Defines the base type for the [**TimeTrigger**](taskschedulerschema-timetrigger-
 
 | Element                                                                        | Type     | Description                                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**RandomDelay**](taskschedulerschema-randomdelay-timetriggertype-element.md) | duration | Specifies the delay time that is randomly added to the start time of the trigger. The format for this string is P&lt;days&gt;DT&lt;hours&gt;H&lt;minutes&gt;M&lt;seconds&gt;S (for example, P2DT5S is a 2 day, 5 second delay). <br/> |
+| [**RandomDelay**](taskschedulerschema-randomdelay-timetriggertype-element.md) | duration | Specifies the delay time that is randomly added to the start time of the trigger. The format for this string is P<days&gt;DT<hours&gt;H<minutes&gt;M<seconds&gt;S (for example, P2DT5S is a 2 day, 5 second delay). <br/> |
 
 
 

@@ -26,7 +26,7 @@ Defines whether the shape will stretch to fit the text in the textbox. Read/writ
 
 **Tag Syntax**
 
-&lt;v: *element* style="mso-fit-shape-to-text: expression "&gt;
+<v: *element* style="mso-fit-shape-to-text: expression "&gt;
 
 **Remarks**
 

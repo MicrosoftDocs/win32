@@ -26,7 +26,7 @@ Defines the angle that a shape is rotated. Read/write. [VgAngleInDegrees](msdn-o
 
 **Tag Syntax**
 
-&lt;v: *element* style="rotation: *expression* "&gt;
+<v: *element* style="rotation: *expression* "&gt;
 
 **Script Syntax**
 

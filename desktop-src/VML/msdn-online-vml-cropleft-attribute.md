@@ -26,7 +26,7 @@ Defines the percentage of picture removal from the left side. Read/write. **VgNu
 
 **Tag Syntax**
 
-&lt;v: *element* cropleft=" *expression* "&gt;
+<v: *element* cropleft=" *expression* "&gt;
 
 **Script Syntax**
 

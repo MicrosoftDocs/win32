@@ -26,7 +26,7 @@ Determines whether a picture will be displayed in grayscale mode. Read/write. **
 
 **Tag Syntax**
 
-&lt;v: *element* grayscale=" *expression* "&gt;
+<v: *element* grayscale=" *expression* "&gt;
 
 **Script Syntax**
 

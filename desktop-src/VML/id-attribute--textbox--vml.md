@@ -26,7 +26,7 @@ A name that provides a unique identifier for a textbox. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* id=" *expression* "&gt;
+<v: *element* id=" *expression* "&gt;
 
 **Script Syntax**
 

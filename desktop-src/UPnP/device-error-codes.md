@@ -43,7 +43,7 @@ Substituting the actual numeric values, the equation is: Device Error Code = (**
 
 ### Mapping for Standard Device Error Codes
 
-Use the following mapping if **HRESULT** &lt; **UPNP\_E\_ACTION\_SPECIFIC\_BASE**.
+Use the following mapping if **HRESULT** < **UPNP\_E\_ACTION\_SPECIFIC\_BASE**.
 
 
 

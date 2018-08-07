@@ -17,7 +17,7 @@ A Feature element contains a complete list of the Option and Property elements t
 
 ## Element Tag
 
-&lt;Feature&gt;
+<Feature&gt;
 
 ## XML Attributes
 

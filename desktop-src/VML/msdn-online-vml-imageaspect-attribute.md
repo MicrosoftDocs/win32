@@ -26,7 +26,7 @@ Defines how the stroke image aspect ratio will be preserved. Read/write. **Strin
 
 **Tag Syntax**
 
-&lt;v:
+<v:
 
 element *imageaspect="* expression *"&gt;*
 

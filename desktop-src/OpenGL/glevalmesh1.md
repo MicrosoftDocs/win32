@@ -99,7 +99,7 @@ In the one-dimensional case, **glEvalMesh1**, the mesh is generated as if the fo
 
 [**glBegin**](glbegin.md)(*type*);
 
-for (i = i1; i &lt;= i2; i += 1)
+for (i = i1; i <= i2; i += 1)
 
 {
 

@@ -42,7 +42,7 @@ void WINAPI glGetClipPlane(
 *plane* 
 </dt> <dd>
 
-A clipping plane. The number of clipping planes depends on the implementation, but at least six clipping planes are supported. They are identified by symbolic names of the form GL\_CLIP\_PLANE *i* where 0 = *i* &lt; GL\_MAX\_CLIP\_PLANES.
+A clipping plane. The number of clipping planes depends on the implementation, but at least six clipping planes are supported. They are identified by symbolic names of the form GL\_CLIP\_PLANE *i* where 0 = *i* < GL\_MAX\_CLIP\_PLANES.
 
 </dd> <dt>
 

@@ -20,7 +20,7 @@ The recommended procedure for generating principal names is to use documented AP
 Specifying an incorrect principal name may prevent the client and server from establishing an authenticated session. The SCHANNEL SSP takes principal names in either of two forms:
 
 -   The first SCHANNEL principal name form is the [*msstd*](m-glos.md) form. Names in msstd form generally follow the pattern msstd:servername@serverdomain.com. This is referred to as an email name property. If the certificate contains an email name property, and it contains the at sign (@), the principal name is msstd:email name. Otherwise it must contain the common name property. Internal backslashes are doubled, just as in string bindings.
--   The second SCHANNEL principal name form is the [*fullsic*](f-glos.md) form. This is a series of RFC1779-compliant names bounded by angle brackets and separated by backslashes. It typically follows the pattern fullsic:\\&lt;\\Authority\\SubAuthority\\.....\\Person&gt; or fullsic:\\&lt;\\Authority\\SubAuthority\\.....\\ServerProgram&gt;.
+-   The second SCHANNEL principal name form is the [*fullsic*](f-glos.md) form. This is a series of RFC1779-compliant names bounded by angle brackets and separated by backslashes. It typically follows the pattern fullsic:\\<\\Authority\\SubAuthority\\.....\\Person&gt; or fullsic:\\<\\Authority\\SubAuthority\\.....\\ServerProgram&gt;.
 
 If the name does not match the certificate, ERROR\_ACCESS\_DENIED is returned. If the name format is invalid, SCHANNEL SSP returns the code ERROR\_INVALID\_PARAMETER.
 

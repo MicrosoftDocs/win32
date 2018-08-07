@@ -26,7 +26,7 @@ Defines a second color for strokes. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* color2=" *expression* "&gt;
+<v: *element* color2=" *expression* "&gt;
 
 Script Syntax
 

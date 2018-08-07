@@ -85,7 +85,7 @@ The **all** option creates a stub that may use any available protocol. For 32-bi
 
 <dl> <dt>
 
-[**/&lt;system&gt;**](-system-.md)
+[**/<system&gt;**](-system-.md)
 </dt> </dl>
 
  

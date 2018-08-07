@@ -102,7 +102,7 @@ The debug layer provides extensive additional parameter and consistency validati
 
 The header required to support the debugging layer, D3D12SDKLayers.h, is included by default from d3d12.h.
 
-When the debug layer lists memory leaks, it outputs a list of object interface pointers along with their friendly names. The default friendly name is "&lt;unnamed&gt;". You can set the friendly name by using the [**ID3D12Object::SetName**](/windows/desktop/api/D3D12/nf-d3d12-id3d12object-setname) method. Typically, you should compile these calls out of your production version.
+When the debug layer lists memory leaks, it outputs a list of object interface pointers along with their friendly names. The default friendly name is "<unnamed&gt;". You can set the friendly name by using the [**ID3D12Object::SetName**](/windows/desktop/api/D3D12/nf-d3d12-id3d12object-setname) method. Typically, you should compile these calls out of your production version.
 
 We recommend that you use the debug layer to debug your apps to ensure that they are clean of errors and warnings. The debug layer helps you write Direct3D 12 code. In addition, your productivity can increase when you use the debug layer because you can immediately see the causes of obscure rendering errors or even black screens at their source. The debug layer provides warnings for many issues. For example:
 

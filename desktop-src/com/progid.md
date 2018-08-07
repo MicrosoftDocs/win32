@@ -25,13 +25,13 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
 
 ## Remarks
 
-Every insertable object class has a ProgID. For information on creating a ProgID, see the [&lt;ProgID&gt; key](-progid--key.md).
+Every insertable object class has a ProgID. For information on creating a ProgID, see the [<ProgID&gt; key](-progid--key.md).
 
 ## Related topics
 
 <dl> <dt>
 
-[&lt;ProgID&gt; key](-progid--key.md)
+[<ProgID&gt; key](-progid--key.md)
 </dt> <dt>
 
 [**VersionIndependentProgID**](versionindependentprogid.md)

@@ -97,8 +97,8 @@ The following operators are defined for use in conditional expressions to test t
 |---------------------|--------------------------------------------------------------------------------------------------------------------------|
 | ==<br/>       | Conventional definition.<br/>                                                                                      |
 | !=<br/>       | Conventional definition.<br/>                                                                                      |
-| &lt;<br/>     | Conventional definition.<br/>                                                                                      |
-| &lt;=<br/>    | Conventional definition.<br/>                                                                                      |
+| <<br/>     | Conventional definition.<br/>                                                                                      |
+| <=<br/>    | Conventional definition.<br/>                                                                                      |
 | &gt;<br/>     | Conventional definition.<br/>                                                                                      |
 | &gt;=<br/>    | Conventional definition.<br/>                                                                                      |
 | Contains<br/> | **TRUE** if the value of the specified attribute is a superset of the specified value; otherwise, **FALSE**.<br/>  |
@@ -118,7 +118,7 @@ The operators are evaluated in the following order of precedence, with operation
 
 1.  Exists, Member\_of
 2.  Contains, Any\_of
-3.  ==, !=, &lt;, &lt;=, &gt;, &gt;=
+3.  ==, !=, <, <=, &gt;, &gt;=
 4.  !
 5.  &&
 6.  \|\|

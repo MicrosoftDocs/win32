@@ -26,7 +26,7 @@ Defines the center of a fill image. Read/write. [VgVector2D](msdn-online-vml-ivg
 
 **Tag Syntax**
 
-&lt;v: *element* origin=" *expression* "&gt;
+<v: *element* origin=" *expression* "&gt;
 
 **Script Syntax**
 

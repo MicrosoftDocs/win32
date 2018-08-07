@@ -26,7 +26,7 @@ Determines whether the fill will be displayed. Read/write. **VgTriState**.
 
 **Tag Syntax**
 
-&lt;v: *element* on=" *expression* "&gt;
+<v: *element* on=" *expression* "&gt;
 
 **Script Syntax**
 

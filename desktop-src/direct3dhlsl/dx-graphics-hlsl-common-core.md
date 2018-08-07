@@ -63,12 +63,12 @@ The common shader core supports the following bitwise operators:
 | Operator  | Function          |
 |-----------|-------------------|
 | ~         | Logical Not       |
-| &lt;&lt;  | Left Shift        |
+| <<  | Left Shift        |
 | &gt;&gt;  | Right Shift       |
 | &         | Logical And       |
 | \|        | Logical Or        |
 | ^         | Logical Xor       |
-| &lt;&lt;= | Left shift Equal  |
+| <<= | Left shift Equal  |
 | &gt;&gt;= | Right Shift Equal |
 | &=        | And Equal         |
 | \|=       | Or Equal          |

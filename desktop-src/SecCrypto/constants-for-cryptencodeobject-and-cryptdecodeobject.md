@@ -174,7 +174,7 @@ The following table provides further details about specific *lpszStructType* val
 </tr>
 <tr class="even">
 <td>X509_AUTHORITY_INFO_ACCESS szOID_AUTHORITY_INFO_ACCESS<br/> szOID_AUTHORITY_KEY_IDENTIFIER2<br/> X509_AUTHORITY_KEY_ID2<br/></td>
-<td>If an encode function returns CRYPT_E_INVALID_IA5_STRING as [<strong>GetLastError</strong>](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx), the error location returned in *<em>pcbEncoded</em> consists of: ENTRY_INDEX – 8 bits &lt;&lt; 16<br/> VALUE_INDEX – 16 bits (Unicode character index)<br/> Error location indices are returned in *<em>pcbEncoded</em> as follows:<br/> Bit 0 is the least significant bit of the <strong>DWORD</strong>.<br/> The VALUE_INDEX of the error is located in bits 0 through 15. This is the Unicode character index.<br/> The ENTRY_INDEX of the error is located in bits 16 through 23.<br/> Macros GET_CERT_ALT_NAME_VALUE_ERR_INDEX(X) and GET_CERT_ALT_NAME_ENTRY_ERR_INDEX(X) are defined to provide for easy reading of the bitmapped fields for VALUE_INDEX and ENTRY_INDEX from the <strong>DWORD</strong> that contains them.<br/></td>
+<td>If an encode function returns CRYPT_E_INVALID_IA5_STRING as [<strong>GetLastError</strong>](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx), the error location returned in *<em>pcbEncoded</em> consists of: ENTRY_INDEX – 8 bits << 16<br/> VALUE_INDEX – 16 bits (Unicode character index)<br/> Error location indices are returned in *<em>pcbEncoded</em> as follows:<br/> Bit 0 is the least significant bit of the <strong>DWORD</strong>.<br/> The VALUE_INDEX of the error is located in bits 0 through 15. This is the Unicode character index.<br/> The ENTRY_INDEX of the error is located in bits 16 through 23.<br/> Macros GET_CERT_ALT_NAME_VALUE_ERR_INDEX(X) and GET_CERT_ALT_NAME_ENTRY_ERR_INDEX(X) are defined to provide for easy reading of the bitmapped fields for VALUE_INDEX and ENTRY_INDEX from the <strong>DWORD</strong> that contains them.<br/></td>
 </tr>
 <tr class="odd">
 <td>X509_AUTHORITY_KEY_IDszOID_AUTHORITY_KEY_IDENTIFIER<br/></td>
@@ -212,7 +212,7 @@ The following table provides further details about specific *lpszStructType* val
 </tr>
 <tr class="even">
 <td>X509_CRL_DIST_POINTSszOID_CRL_DIST_POINTS<br/></td>
-<td>If the encode function fails with [<strong>GetLastError</strong>](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx) returning CRYPT_E_INVALID_IA5_STRING, *<em>pcbEncoded</em> is updated with the error location of the character that is not valid: CRL_ISSUER_BIT – 1 bit &lt;&lt; 31 (0 for FullName, 1 for CRLIssuer)<br/> POINT_INDEX – 7 bits &lt;&lt; 24<br/> ENTRY_INDEX – 8 bits &lt;&lt; 16<br/> VALUE_INDEX – 16 bits (Unicode character index)<br/> Error location indices are returned in *<em>pcbEncoded</em> as follows:<br/> Bit 0 is the least significant bit of the <strong>DWORD</strong>.<br/> The VALUE_INDEX of the error is located in bits 0 through 15. This is the Unicode character index.<br/> The ENTRY_INDEX of the error is located in bits 16 through 23.<br/> Macros GET_CERT_ALT_NAME_VALUE_ERR_INDEX(X) and GET_CERT_ALT_NAME_ENTRY_ERR_INDEX(X) are defined to provide for easy reading of the bitmapped fields for VALUE_INDEX and ENTRY_INDEX from the <strong>DWORD</strong> that contains them.<br/></td>
+<td>If the encode function fails with [<strong>GetLastError</strong>](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx) returning CRYPT_E_INVALID_IA5_STRING, *<em>pcbEncoded</em> is updated with the error location of the character that is not valid: CRL_ISSUER_BIT – 1 bit << 31 (0 for FullName, 1 for CRLIssuer)<br/> POINT_INDEX – 7 bits << 24<br/> ENTRY_INDEX – 8 bits << 16<br/> VALUE_INDEX – 16 bits (Unicode character index)<br/> Error location indices are returned in *<em>pcbEncoded</em> as follows:<br/> Bit 0 is the least significant bit of the <strong>DWORD</strong>.<br/> The VALUE_INDEX of the error is located in bits 0 through 15. This is the Unicode character index.<br/> The ENTRY_INDEX of the error is located in bits 16 through 23.<br/> Macros GET_CERT_ALT_NAME_VALUE_ERR_INDEX(X) and GET_CERT_ALT_NAME_ENTRY_ERR_INDEX(X) are defined to provide for easy reading of the bitmapped fields for VALUE_INDEX and ENTRY_INDEX from the <strong>DWORD</strong> that contains them.<br/></td>
 </tr>
 <tr class="odd">
 <td>szOID_CRL_NUMBER</td>
@@ -230,8 +230,8 @@ The following table provides further details about specific *lpszStructType* val
 <td>X509_CROSS_CERT_DIST_POINTSszOID_CROSS_CERT_DIST_POINTS<br/></td>
 <td>For CRYPT_E_INVALID_IA5_STRING, the error location is returned in *<em>pcbEncoded</em> by [<strong>CryptEncodeObject</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencodeobject)(X509_CRL_DIST_POINTS) Error location consists of:<br/>
 <ul>
-<li>POINT_INDEX – 8 bits &lt;&lt; 24</li>
-<li>ENTRY_INDEX – 8 bits &lt;&lt; 16</li>
+<li>POINT_INDEX – 8 bits << 24</li>
+<li>ENTRY_INDEX – 8 bits << 16</li>
 <li>VALUE_INDEX – 16 bits (Unicode character index)</li>
 </ul>
 For more information about ENTRY_INDEX and VALUE_INDEX error location defined constants, see X509_ALTERNATE_NAME.<br/></td>
@@ -264,7 +264,7 @@ For more information about ENTRY_INDEX and VALUE_INDEX error location defined co
 <td>X509_ISSUING_DIST_POINTszOID_ISSUING_DIST_POINT<br/></td>
 <td>For CRYPT_E_INVALID_IA5_STRING, the error location is returned in *<em>pcbEncoded</em> by [<strong>CryptEncodeObject</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencodeobject)(X509_ISSUING_DIST_POINT) Error location consists of:<br/>
 <ul>
-<li>ENTRY_INDEX – 8 bits &lt;&lt; 16</li>
+<li>ENTRY_INDEX – 8 bits << 16</li>
 <li>VALUE_INDEX – 16 bits (Unicode character index)</li>
 </ul>
 For more information about ENTRY_INDEX and VALUE_INDEX error location defined constants, see X509_ALTERNATE_NAME.<br/></td>
@@ -289,8 +289,8 @@ For more information about ENTRY_INDEX and VALUE_INDEX error location defined co
 <td>X509_NAME_CONSTRAINTSszOID_NAME_CONSTRAINTS<br/></td>
 <td>For CRYPT_E_INVALID_IA5_STRING, the error location is returned in *<em>pcbEncoded</em> by [<strong>CryptEncodeObject</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencodeobject)(X509_NAME_CONSTRAINTS) Error location consists of:<br/>
 <ul>
-<li>EXCLUDED_SUBTREE_BIT – 1 bit &lt;&lt; 31(0 for permitted, 1 for excluded)<br/></li>
-<li>ENTRY_INDEX – 8 bits &lt;&lt; 16</li>
+<li>EXCLUDED_SUBTREE_BIT – 1 bit << 31(0 for permitted, 1 for excluded)<br/></li>
+<li>ENTRY_INDEX – 8 bits << 16</li>
 <li>VALUE_INDEX – 16 bits (Unicode character index)</li>
 </ul>
 For more information about ENTRY_INDEX and VALUE_INDEX error location defined constants, see X509_ALTERNATE_NAME.<br/></td>

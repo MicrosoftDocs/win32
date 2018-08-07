@@ -75,7 +75,7 @@ Use the *ppmoniker* parameter to register your component in the ROT.
 >                 }
 >                 pmoniker-&gt;Release();
 >             }
->             CoRegisterClassObject(CLSID_App, static_cast&lt;IClassFactory *&gt;(this), CLSCTX_LOCAL_SERVER, REGCLS_MULTIPLEUSE, &amp;_dwRegisterClass;
+>             CoRegisterClassObject(CLSID_App, static_cast<IClassFactory *&gt;(this), CLSCTX_LOCAL_SERVER, REGCLS_MULTIPLEUSE, &amp;_dwRegisterClass;
 >         }
 >         FreeLibrary(hinstShSvcs);
 >     }

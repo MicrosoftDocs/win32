@@ -33,7 +33,7 @@ The supported comparison operators for BITWISE tests are listed in the following
 | Comparison operator | Description  |
 |---------------------|--------------|
 | =                   | Equal to     |
-| != or &lt;&gt;      | Not equal to |
+| != or <&gt;      | Not equal to |
 
 
 
@@ -47,8 +47,8 @@ The logic of BITWISE tests is listed in the following table.
 |--------------------------------------|-------------------------|
 | = ALL BITWISE                        | Property & Mask = Mask  |
 | = SOME BITWISE                       | Property & Mask != 0    |
-| &lt;&gt; ALL BITWISE                 | Property & Mask != Mask |
-| &lt;&gt; SOME BITWISE                | Property & Mask = 0     |
+| <&gt; ALL BITWISE                 | Property & Mask != Mask |
+| <&gt; SOME BITWISE                | Property & Mask = 0     |
 
 
 

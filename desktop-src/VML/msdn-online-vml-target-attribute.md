@@ -26,7 +26,7 @@ Defines a frame or window that a URL is displayed in. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* target=" *expression* "&gt;
+<v: *element* target=" *expression* "&gt;
 
 **Remarks**
 

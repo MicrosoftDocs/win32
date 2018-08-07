@@ -18,14 +18,14 @@ Specifies that this profile is active only when the current roaming condition is
 
 ## Element hierarchy
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-[&lt;ProfileConditionedOn&gt;](element-profileconditionedon.md)  
-**&lt;RoamApplicability&gt;**
+[<MBNProfileExt&gt;](element-mbnprofileext.md)  
+[<ProfileConditionedOn&gt;](element-profileconditionedon.md)  
+**<RoamApplicability&gt;**
 
 <!-- -->
 
-[&lt;ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
-**&lt;RoamApplicability&gt;**
+[<ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
+**<RoamApplicability&gt;**
 
 ## Syntax
 

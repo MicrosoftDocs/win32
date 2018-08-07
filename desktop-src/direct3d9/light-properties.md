@@ -69,10 +69,10 @@ D3DMATERIALCOLORSOURCE can have the following values.
 
 A light's direction property determines the direction that the light emitted by the object travels, in world space. Direction is used only by directional lights and spotlights, and is described with a vector.
 
-Set the light direction in the Direction member of the light's [**D3DLIGHT9**](d3dlight9.md) structure. Direction member is of type [**D3DVECTOR**](d3dvector.md). Direction vectors are described as distances from a logical origin, regardless of the light's position in a scene. Therefore, a spotlight that points straight into a scene - along the positive z-axis - has a direction vector of &lt;0,0,1&gt; no matter where its position is defined to be. Similarly, you can simulate sunlight shining directly on a scene by using a directional light whose direction is &lt;0,-1,0&gt;. Obviously, you don't have to create lights that shine along the coordinate axes; you can mix and match values to create lights that shine at more interesting angles.
+Set the light direction in the Direction member of the light's [**D3DLIGHT9**](d3dlight9.md) structure. Direction member is of type [**D3DVECTOR**](d3dvector.md). Direction vectors are described as distances from a logical origin, regardless of the light's position in a scene. Therefore, a spotlight that points straight into a scene - along the positive z-axis - has a direction vector of <0,0,1&gt; no matter where its position is defined to be. Similarly, you can simulate sunlight shining directly on a scene by using a directional light whose direction is <0,-1,0&gt;. Obviously, you don't have to create lights that shine along the coordinate axes; you can mix and match values to create lights that shine at more interesting angles.
 
 > [!Note]  
-> Although you don't need to normalize a light's direction vector, always be sure that it has magnitude. In other words, don't use a &lt;0,0,0&gt; direction vector.
+> Although you don't need to normalize a light's direction vector, always be sure that it has magnitude. In other words, don't use a <0,0,0&gt; direction vector.
 
  
 

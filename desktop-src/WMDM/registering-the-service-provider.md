@@ -22,7 +22,7 @@ In addition to being registered as a COM object, a service provider must be regi
 
 `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Media Device Manager\Plugins\SP\<             `
 
-In this key, &lt; *your service provider name* &gt; is the name of your DLL; for example, the sample service provider uses MsHDSP. The ProgID key should have a string value that corresponds to the CLSID of your service provider. For instance, the sample service provider has the value "MDServiceProviderHD.MDServiceProviderHD".
+In this key, < *your service provider name* &gt; is the name of your DLL; for example, the sample service provider uses MsHDSP. The ProgID key should have a string value that corresponds to the CLSID of your service provider. For instance, the sample service provider has the value "MDServiceProviderHD.MDServiceProviderHD".
 
 The sample service provider's implementation of DLLRegisterServer in Mdsp.cpp adds this registry key when you register the sample service provider DLL.
 

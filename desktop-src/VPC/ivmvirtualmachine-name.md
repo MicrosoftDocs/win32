@@ -63,7 +63,7 @@ Specifies the name of the virtual machine configuration. The length of the name 
 | <dl> <dt>VM\_E\_PREF\_VM\_ACTIVE</dt> <dt>0xA0040302</dt> </dl>            | The virtual machine is running or saved.<br/>                                             |
 | <dl> <dt>VM\_E\_CONFIG\_NO\_NAME</dt> <dt>0xA0040400</dt> </dl>            | The *virtualMachineName* parameter is empty.<br/>                                         |
 | <dl> <dt>VM\_E\_CONFIG\_NAME\_TOO\_LONG</dt> <dt>0xA00400401</dt> </dl>    | The parameter contains too many characters.<br/>                                          |
-| <dl> <dt>VM\_E\_CONFIG\_NAME\_INVALID\_CHAR</dt> <dt>0xA0040402</dt> </dl> | The parameter contains one of the following invalid characters "\*?:&lt;&gt;/\|\\"".<br/> |
+| <dl> <dt>VM\_E\_CONFIG\_NAME\_INVALID\_CHAR</dt> <dt>0xA0040402</dt> </dl> | The parameter contains one of the following invalid characters "\*?:<&gt;/\|\\"".<br/> |
 | <dl> <dt>VM\_E\_CONFIG\_DUPLICATE\_NAME</dt> <dt>0xA0040403</dt> </dl>     | The specified name already exists as the name of another virtual machine.<br/>            |
 | <dl> <dt>DISP\_E\_EXCEPTION</dt> <dt>0x80020009</dt> </dl>                 | An unexpected error has occurred.<br/>                                                    |
 

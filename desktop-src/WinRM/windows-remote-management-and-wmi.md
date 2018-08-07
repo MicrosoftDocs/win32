@@ -32,7 +32,7 @@ A WMI class or method is identified by a [*URI*](windows-remote-management-gloss
 
 ## Constructing the URI Prefix for WMI Classes
 
-The URI prefix contains a fixed part and the WMI namespace. For example, the URI prefix in Windows Server that contains the fixed part of the prefix is: http://schemas.microsoft.com/wbem/wsman/1/wmi/&lt;WmiNamespace&gt;. This allows the URI prefix to be generated for any WMI namespace. For example, to access the **root\\default** WMI namespace, use the following URI prefix: http://schemas.microsoft.com/wbem/wsman/1/wmi/root/default/.
+The URI prefix contains a fixed part and the WMI namespace. For example, the URI prefix in Windows Server that contains the fixed part of the prefix is: http://schemas.microsoft.com/wbem/wsman/1/wmi/<WmiNamespace&gt;. This allows the URI prefix to be generated for any WMI namespace. For example, to access the **root\\default** WMI namespace, use the following URI prefix: http://schemas.microsoft.com/wbem/wsman/1/wmi/root/default/.
 
 The majority of the WMI classes for management are in the **root\\cimv2** namespace. To access classes and instances in **root\\cimv2** namespace, use the URI prefix: http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/. For more information, see [Resource URIs](resource-uris.md).
 

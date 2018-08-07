@@ -20,17 +20,17 @@ For more details, see the documentation for the v1 [**UserName**](https://msdn.m
 
 ## Element hierarchy
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-[&lt;Context&gt;](element-context.md)  
-[&lt;UserLogonCred&gt;](element-userlogoncred.md)  
-**&lt;UserName&gt;**
+[<MBNProfileExt&gt;](element-mbnprofileext.md)  
+[<Context&gt;](element-context.md)  
+[<UserLogonCred&gt;](element-userlogoncred.md)  
+**<UserName&gt;**
 
 <!-- -->
 
-[&lt;ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
-[&lt;Context&gt;](element-1-context.md)  
-[&lt;UserLogonCred&gt;](element-1-userlogoncred.md)  
-**&lt;UserName&gt;**
+[<ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
+[<Context&gt;](element-1-context.md)  
+[<UserLogonCred&gt;](element-1-userlogoncred.md)  
+**<UserName&gt;**
 
 ## Syntax
 

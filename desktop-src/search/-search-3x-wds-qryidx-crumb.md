@@ -37,7 +37,7 @@ crumb=<column>:<value>[,<label>][,<column>:<value>[,<label>]]&
 
 
 
-The &lt;column&gt; portion is any property in the property system, and the &lt;value&gt; portion is a valid value for that property. The &lt;label&gt; portion is an optional alias for the property that displays as a user interface hint.
+The <column&gt; portion is any property in the property system, and the <value&gt; portion is a valid value for that property. The <label&gt; portion is an optional alias for the property that displays as a user interface hint.
 
 ### General Examples
 
@@ -65,7 +65,7 @@ When you specify a `location` property, two additional parameters are supported 
 | Parameter | Values                  | Description                                                                                                                                                                       |
 |-----------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | inclusion | include, exclude        | Specifies whether the query should include or exclude items from that path. "Include" is the default. Windows Vista does not support exclusions without inclusions. (See example) |
-| recursion | recursive, nonrecursive | Specifies whether the search should recurse all subfolders starting from the value defined in the location:&lt;value&gt;. "Recursive" is the default.                             |
+| recursion | recursive, nonrecursive | Specifies whether the search should recurse all subfolders starting from the value defined in the location:<value&gt;. "Recursive" is the default.                             |
 
 
 
@@ -75,17 +75,17 @@ To scope a search using the search-ms: protocol, you have different options depe
 
 Folder on a local machine:
 
--   Use AQS (crumb=folder:&lt;URL-encoded path&gt;)
--   Use location argument (crumb=location:&lt;URL-encoded path&gt;)
+-   Use AQS (crumb=folder:<URL-encoded path&gt;)
+-   Use location argument (crumb=location:<URL-encoded path&gt;)
 
 Folder on a remote machine/netowork:
 
--   Use location argument (crumb=location:&lt;URL-encoded path&gt;)
+-   Use location argument (crumb=location:<URL-encoded path&gt;)
 
 Folder accessed via a known UNC protocol handler:
 
--   Use AQS (crumb=store:&lt;UNC protocol handler name&gt;)
--   Use location argument (crumb=location:&lt;URL-encoded path&gt;)
+-   Use AQS (crumb=store:<UNC protocol handler name&gt;)
+-   Use location argument (crumb=location:<URL-encoded path&gt;)
 
 ### Vista Examples
 

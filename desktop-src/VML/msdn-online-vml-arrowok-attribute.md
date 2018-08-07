@@ -26,7 +26,7 @@ Determines whether arrowheads will be displayed. Read/write. **VgTriState**.
 
 **Tag Syntax**
 
-&lt;v: *element* arrowok=" *expression* "&gt;
+<v: *element* arrowok=" *expression* "&gt;
 
 **Script Syntax**
 

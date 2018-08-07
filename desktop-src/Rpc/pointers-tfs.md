@@ -31,7 +31,7 @@ offset_to_complex_description<2>
 
 The first format is used if the pointer is a pointer to a simple type or a nonsized string pointer. The second format is used for pointers to all other types. Pointer attributes indicate which description layout it is with the FC\_SIMPLE\_POINTER flag.
 
-pointer\_type&lt;1&gt; is one of the following.
+pointer\_type<1&gt; is one of the following.
 
 
 
@@ -48,7 +48,7 @@ pointer\_type&lt;1&gt; is one of the following.
 
 The reason to distinguish FC\_OP is semantic: in object interfaces, an \[in,out\] pointer should be freed before unmarshaling a new object and assigning a new pointer value.
 
-Pointer\_attributes&lt;1&gt; can have any of the flags shown in the following table.
+Pointer\_attributes<1&gt; can have any of the flags shown in the following table.
 
 
 
@@ -77,7 +77,7 @@ FC_IP FC_CONSTANT_IID
 iid<16>
 ```
 
-The iid&lt;16&gt; part is the actual IID for the interface pointer. The iid is written to the format string in a format identical to the GUID data structure: long, short, short, char \[8\].
+The iid<16&gt; part is the actual IID for the interface pointer. The iid is written to the format string in a format identical to the GUID data structure: long, short, short, char \[8\].
 
 The description of an interface pointer with iid\_is() applied to it is:
 
@@ -86,7 +86,7 @@ FC_IP FC_PAD
 iid_description<> 
 ```
 
-The iid\_description&lt;&gt; is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://msdn.microsoft.com/library/windows/desktop/aa367363) is used. The value calculated by the **NdrComputeConformance** function is the IID pointer.
+The iid\_description<&gt; is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://msdn.microsoft.com/library/windows/desktop/aa367363) is used. The value calculated by the **NdrComputeConformance** function is the IID pointer.
 
 ## Byte Count Pointers
 
@@ -107,9 +107,9 @@ byte_count_description<>
 pointee_description<>
 ```
 
-The byte\_count\_description&lt;&gt; is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://msdn.microsoft.com/library/windows/desktop/aa367363) is used.
+The byte\_count\_description<&gt; is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://msdn.microsoft.com/library/windows/desktop/aa367363) is used.
 
-The pointee\_description&lt;&gt; is a description of the pointee type.
+The pointee\_description<&gt; is a description of the pointee type.
 
  
 

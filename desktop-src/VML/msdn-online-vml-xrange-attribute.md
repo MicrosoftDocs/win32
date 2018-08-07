@@ -26,7 +26,7 @@ Defines thexrange of a handle. Read/write **VgVector2D**.
 
 **Tag Syntax**
 
-&lt;v: *element* xrange=" *expression* "&gt;
+<v: *element* xrange=" *expression* "&gt;
 
 **Remarks**
 

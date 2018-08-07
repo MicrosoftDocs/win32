@@ -26,7 +26,7 @@ Defines the position of fill image. Read/write. [VgVector2D](msdn-online-vml-ivg
 
 **Tag Syntax**
 
-&lt;v: *element* position=" *expression* "&gt;
+<v: *element* position=" *expression* "&gt;
 
 **Script Syntax**
 

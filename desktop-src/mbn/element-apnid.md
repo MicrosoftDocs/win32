@@ -18,13 +18,13 @@ An APN ID associated with this profile.This element is new in v4, and it is opti
 
 ## Element hierarchy
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-**&lt;ApnID&gt;**
+[<MBNProfileExt&gt;](element-mbnprofileext.md)  
+**<ApnID&gt;**
 
 <!-- -->
 
-[&lt;ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
-**&lt;ApnID&gt;**
+[<ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
+**<ApnID&gt;**
 
 ## Syntax
 

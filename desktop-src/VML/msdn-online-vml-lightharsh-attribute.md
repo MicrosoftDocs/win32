@@ -26,7 +26,7 @@ Determines whether the primary light source will be harsh. Read/write. **VgTriSt
 
 **Tag Syntax**
 
-&lt;o: *element* lightharsh=" *expression* "&gt;
+<o: *element* lightharsh=" *expression* "&gt;
 
 **Script Syntax**
 

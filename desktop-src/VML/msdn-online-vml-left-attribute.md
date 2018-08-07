@@ -26,7 +26,7 @@ Determines the position of the shape relative to the element left of it in the d
 
 **Tag Syntax**
 
-&lt;v: *element* style="left: *expression* "&gt;
+<v: *element* style="left: *expression* "&gt;
 
 **Script Syntax**
 

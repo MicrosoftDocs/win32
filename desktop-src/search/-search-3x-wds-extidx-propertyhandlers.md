@@ -111,7 +111,7 @@ For each of these properties, you need to determine what attributes it should ha
 </tr>
 <tr class="even">
 <td>columnIndexType</td>
-<td>Optional. To optimize querying, the Windows Search engine can create secondary indices for properties that have isColumn=<strong>TRUE</strong>. This requires more processing and disk space during indexing, but improves performance during querying. If the property tends to be sorted, grouped, or filtered (that is, using =, !=, &lt;, &gt;, LIKE, MATCHES) frequently by users, this attribute should be set to &quot;OnDisk&quot;. The default is &quot;NotIndexed&quot;. The following values are valid:
+<td>Optional. To optimize querying, the Windows Search engine can create secondary indices for properties that have isColumn=<strong>TRUE</strong>. This requires more processing and disk space during indexing, but improves performance during querying. If the property tends to be sorted, grouped, or filtered (that is, using =, !=, <, &gt;, LIKE, MATCHES) frequently by users, this attribute should be set to &quot;OnDisk&quot;. The default is &quot;NotIndexed&quot;. The following values are valid:
 <ul>
 <li>NotIndexed: No secondary index is created.</li>
 <li>OnDisk: Create and store a secondary index on disk.</li>

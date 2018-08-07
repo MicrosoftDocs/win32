@@ -75,10 +75,10 @@ When the **name** attribute of a **fragment** element is a media item characteri
 <tr class="even">
 <td>Value</td>
 <td>The content of the <strong>argument</strong> element is the value portion of a condition string. For example, in the condition string &quot;Artist Equals Joe&quot;, the value portion is &quot;Joe&quot;.Example:<br/>
-<pre data-space="preserve"><code>&lt;fragment name = &quot;Artist&quot;&gt;
-  &lt;argument name = &quot;Condition&quot;&gt;Equals&lt;/argument&gt;
-  &lt;argument name = &quot;Value&quot;&gt;Joe&lt;/argument&gt;
-&lt;/fragment&gt;</code></pre></td>
+<pre data-space="preserve"><code><fragment name = &quot;Artist&quot;&gt;
+  <argument name = &quot;Condition&quot;&gt;Equals</argument&gt;
+  <argument name = &quot;Value&quot;&gt;Joe</argument&gt;
+</fragment&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -110,15 +110,15 @@ When the **name** attribute of a **fragment** element is "Limit Total Size To" o
 <tr class="even">
 <td>Number</td>
 <td>The content of the <strong>argument</strong> element is a number that limits the size or duration of the playlist.Examples:<br/>
-<pre data-space="preserve"><code>&lt;fragment name = &quot;Limit Total Size To&quot;&gt;
-  &lt;argument name = &quot;Format&quot;&gt;Megabytes&lt;/argument&gt;
-  &lt;argument name = &quot;Number&quot;&gt;5&lt;/argument&gt;
-&lt;/fragment&gt;
+<pre data-space="preserve"><code><fragment name = &quot;Limit Total Size To&quot;&gt;
+  <argument name = &quot;Format&quot;&gt;Megabytes</argument&gt;
+  <argument name = &quot;Number&quot;&gt;5</argument&gt;
+</fragment&gt;
 
-&lt;fragment name = &quot;Limit Total Duration To&quot;&gt;
-  &lt;argument name = &quot;Format&quot;&gt;Minutes&lt;/argument&gt;
-  &lt;argument name = &quot;Number&quot;&gt;20&lt;/argument&gt;
-&lt;/fragment&gt;</code></pre></td>
+<fragment name = &quot;Limit Total Duration To&quot;&gt;
+  <argument name = &quot;Format&quot;&gt;Minutes</argument&gt;
+  <argument name = &quot;Number&quot;&gt;20</argument&gt;
+</fragment&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -146,9 +146,9 @@ When the **name** attribute of a **fragment** element is "Limit Number of Items"
 <tr class="odd">
 <td>Number</td>
 <td>The content of the <strong>argument</strong> element is a number that limits the number of items in a playlist.Example:<br/>
-<pre data-space="preserve"><code>&lt;fragment name = &quot;Limit Number of Items&quot;&gt;
-  &lt;argument name = &quot;Number&quot;&gt;15&lt;/argument&gt;
-&lt;/fragment&gt;</code></pre></td>
+<pre data-space="preserve"><code><fragment name = &quot;Limit Number of Items&quot;&gt;
+  <argument name = &quot;Number&quot;&gt;15</argument&gt;
+</fragment&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>

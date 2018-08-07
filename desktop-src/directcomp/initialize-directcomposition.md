@@ -117,7 +117,7 @@ Use the [**DCompositionCreateDevice**](/windows/desktop/api/Dcomp/nf-dcomp-dcomp
         // Create the DirectComposition device object.
         hr = DCompositionCreateDevice(pDXGIDevice, 
                 __uuidof(IDCompositionDevice), 
-                reinterpret_cast&lt;void **&gt;(&m_pDCompDevice));
+                reinterpret_cast<void **&gt;(&m_pDCompDevice));
     }</code></pre></td>
 </tr>
 </tbody>
@@ -624,8 +624,8 @@ HRESULT DemoApp::Initialize()
         WS_OVERLAPPEDWINDOW,
         CW_USEDEFAULT,
         CW_USEDEFAULT,
-        static_cast&lt;UINT&gt;(ceil(640.f * dpiX / 96.f)),
-        static_cast&lt;UINT&gt;(ceil(480.f * dpiY / 96.f)),
+        static_cast<UINT&gt;(ceil(640.f * dpiX / 96.f)),
+        static_cast<UINT&gt;(ceil(480.f * dpiY / 96.f)),
         NULL,
         NULL,
         HINST_THISCOMPONENT,
@@ -693,7 +693,7 @@ HRESULT DemoApp::InitializeDirectCompositionDevice()
         // Create the DirectComposition device object.
         hr = DCompositionCreateDevice(pDXGIDevice, 
                 __uuidof(IDCompositionDevice), 
-                reinterpret_cast&lt;void **&gt;(&m_pDCompDevice));
+                reinterpret_cast<void **&gt;(&m_pDCompDevice));
     }
     if (SUCCEEDED(hr))
     {
@@ -840,7 +840,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message,
     }
     else
     {
-        DemoApp *pDemoApp = reinterpret_cast&lt;DemoApp *&gt;(static_cast&lt;LONG_PTR&gt;(
+        DemoApp *pDemoApp = reinterpret_cast<DemoApp *&gt;(static_cast<LONG_PTR&gt;(
             ::GetWindowLongPtrW(
                 hwnd,
                 GWLP_USERDATA
@@ -899,7 +899,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message,
 
 HRESULT DemoApp::LoadResourceGDIBitmap(PCWSTR resourceName, HBITMAP &hbmp)
 {
-    hbmp = static_cast&lt;HBITMAP&gt;(LoadImageW(HINST_THISCOMPONENT, resourceName, 
+    hbmp = static_cast<HBITMAP&gt;(LoadImageW(HINST_THISCOMPONENT, resourceName, 
         IMAGE_BITMAP, 0, 0, LR_DEFAULTCOLOR));  
  
     return hbmp ? S_OK : E_FAIL;
@@ -955,7 +955,7 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
     {
         // Begin rendering to the surface.
         hr = pDCSurface-&gt;BeginDraw(NULL, __uuidof(IDXGISurface1), 
-            reinterpret_cast&lt;void**&gt;(&pDXGISurface), &pointOffset);
+            reinterpret_cast<void**&gt;(&pDXGISurface), &pointOffset);
     }
 
     if (SUCCEEDED(hr)) 

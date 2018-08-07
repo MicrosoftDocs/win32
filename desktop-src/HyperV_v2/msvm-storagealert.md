@@ -81,7 +81,7 @@ Access type: Read-only
 Qualifiers: **ModelCorrespondence** ("CIM\_AlertIndication.AlertingManagedElement", "CIM\_AlertIndication.OtherAlertingElementFormat")
 </dt> </dl>
 
-Specifies the format of the **AlertingManagedElement** property. The format is a CIMObjectPath, with the format *&lt;NamespacePath&gt;:&lt;ClassName&gt;.&lt;Prop1&gt;=\\"&lt;Value1&gt;\\", "&lt;Prop2&gt;=\\"&lt;Value2&gt;\\"*, which specifies an instance in the CIM Schema.
+Specifies the format of the **AlertingManagedElement** property. The format is a CIMObjectPath, with the format *<NamespacePath&gt;:<ClassName&gt;.<Prop1&gt;=\\"<Value1&gt;\\", "<Prop2&gt;=\\"<Value2&gt;\\"*, which specifies an instance in the CIM Schema.
 
 This property is inherited from the **CIM\_AlertIndication** class.
 

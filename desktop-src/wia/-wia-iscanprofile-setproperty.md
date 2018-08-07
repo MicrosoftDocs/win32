@@ -1,5 +1,5 @@
 ---
-Description: Sets the value of specified child properties in the &lt;Properties&gt; element of a scan profile.
+Description: Sets the value of specified child properties in the <Properties&gt; element of a scan profile.
 ms.assetid: 3cf7b723-4004-49e5-b3bd-49a84432ede3
 title: IScanProfile::SetProperty method
 ms.technology: desktop

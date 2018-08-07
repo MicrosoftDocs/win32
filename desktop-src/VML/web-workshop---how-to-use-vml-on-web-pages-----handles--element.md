@@ -32,9 +32,9 @@ This topic describes VML, a feature that is deprecated as of Windows Internet Ex
 
  
 
-In this topic, we will illustrate how to use the &lt;handles&gt; element to attach text to a shape.
+In this topic, we will illustrate how to use the <handles&gt; element to attach text to a shape.
 
-You can place the &lt;handles&gt; sub-element inside &lt;shape&gt; or &lt;shapetype&gt; to define user interface elements that can vary the **adj** values on the shape.
+You can place the <handles&gt; sub-element inside <shape&gt; or <shapetype&gt; to define user interface elements that can vary the **adj** values on the shape.
 
 For example, as shown the following VML representation, you can provide an adjust handle (yellow box) that users can simply drag to adjust the shape.
 

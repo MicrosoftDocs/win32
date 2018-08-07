@@ -69,10 +69,10 @@ The following procedure describes how to encode an object in XML using C or C++.
     </tr>
     <tr class="even">
     <td>&quot;PathLevel&quot; <strong>VT_I4</strong></td>
-    <td><dl> 0 = A &lt;CLASS&gt; or &lt;INSTANCE&gt; element is generated.<br />
-    1 = A &lt;VALUE.NAMEDOBJECT&gt; element is generated.<br />
-    2 = A &lt;VALUE.OBJECTWITHLOCALPATH&gt; element is generated.<br />
-    3 = A &lt;VALUE.OBJECTWITHPATH&gt; is generated.<br />
+    <td><dl> 0 = A <CLASS&gt; or <INSTANCE&gt; element is generated.<br />
+    1 = A <VALUE.NAMEDOBJECT&gt; element is generated.<br />
+    2 = A <VALUE.OBJECTWITHLOCALPATH&gt; element is generated.<br />
+    3 = A <VALUE.OBJECTWITHPATH&gt; is generated.<br />
     </dl> The default is 0 (zero).<br/></td>
     </tr>
     </tbody>
@@ -359,7 +359,7 @@ The following procedure describes how to encode an object in XML using VBScript.
 
 1.  Optionally, create an [**SWbemNamedValueSet**](swbemnamedvalueset.md) object and initialize it so as to set the context values required for the XML representation.
 
-    The following code example shows how the values instruct the XML encoder to generate a &lt;VALUE.OBJECTWITHLOCALPATH&gt; element, including all of the qualifiers and excluding system properties when it constructs the XML representation of the object.
+    The following code example shows how the values instruct the XML encoder to generate a <VALUE.OBJECTWITHLOCALPATH&gt; element, including all of the qualifiers and excluding system properties when it constructs the XML representation of the object.
 
     ```VB
     ' Create an optional SWbemNamedValueSet object

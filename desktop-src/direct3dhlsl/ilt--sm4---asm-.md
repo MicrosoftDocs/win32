@@ -36,7 +36,7 @@ Component-wise vector integer less-than comparison.
 
 ## Remarks
 
-Performs the integer comparison *(src0* &lt; *src1*) for each component, and writes the result to *dest*.
+Performs the integer comparison *(src0* < *src1*) for each component, and writes the result to *dest*.
 
 If the comparison is true, then 0xFFFFFFFF is returned for that component. Otherwise 0x0000000 is returned.
 

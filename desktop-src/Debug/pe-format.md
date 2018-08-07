@@ -2155,7 +2155,7 @@ The first 8 bytes of an archive consist of the file signature. The rest of the 
 
 An archive member header precedes each member. The following list shows the general structure of an archive:
 
--   Signature :"!&lt;arch&gt;\\n"
+-   Signature :"!<arch&gt;\\n"
 -   Header
 
     <dl> 1st Linker Member  

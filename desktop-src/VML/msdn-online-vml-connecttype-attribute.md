@@ -26,7 +26,7 @@ Defines the type of connection points used for attaching shapes to other shapes.
 
 **Tag Syntax**
 
-&lt;v: *element* o:connecttype=" *expression* "&gt;
+<v: *element* o:connecttype=" *expression* "&gt;
 
 **Remarks**
 

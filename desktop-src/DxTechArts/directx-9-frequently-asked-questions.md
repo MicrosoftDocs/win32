@@ -635,7 +635,7 @@ Many meshes encountered in real data feature vertices that are shared by multipl
 1.  Create a vertex buffer using the D3DUSAGE\_DYNAMIC and D3DUSAGE\_WRITEONLY usage flags and the D3DPOOL\_DEFAULT pool flag. (Also specify D3DUSAGE\_SOFTWAREPROCESSING if you are using software vertex processing.)
 2.  I = 0.
 3.  Set state (textures, renderstates and so on).
-4.  Check if there is space in the buffer, that is, for example, I + M &lt;= N? (Where M is the number of new vertices).
+4.  Check if there is space in the buffer, that is, for example, I + M <= N? (Where M is the number of new vertices).
 5.  If yes, then Lock the VB with D3DLOCK\_NOOVERWRITE. This tells Direct3D and the driver that you will be adding vertices and won't be modifying the ones that you previously batched. Therefore, if a DMA operation was in progress, it isn't interrupted. If no, goto 11.
 6.  Fill in the M vertices at I.
 7.  Unlock.

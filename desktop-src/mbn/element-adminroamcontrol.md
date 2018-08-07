@@ -18,13 +18,13 @@ Specifies whether the profile is administratively roam controlled. This element 
 
 ## Element hierarchy
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-**&lt;AdminRoamControl&gt;**
+[<MBNProfileExt&gt;](element-mbnprofileext.md)  
+**<AdminRoamControl&gt;**
 
 <!-- -->
 
-[&lt;ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
-**&lt;AdminRoamControl&gt;**
+[<ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
+**<AdminRoamControl&gt;**
 
 ## Syntax
 

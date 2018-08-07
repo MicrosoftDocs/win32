@@ -395,7 +395,7 @@ Set colPings = objWMIService.ExecQuery _
 
 For Each objStatus in colPings
     If IsNull(objStatus.StatusCode) _
-        or objStatus.StatusCode&lt;&gt;0 Then 
+        or objStatus.StatusCode<&gt;0 Then 
         WScript.Echo &quot;Computer did not respond.&quot; 
     Else
         Wscript.Echo &quot;Computer responded.&quot;

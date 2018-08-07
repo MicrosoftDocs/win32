@@ -26,7 +26,7 @@ Defines the apparent bevel of the extrusion edges. Read/write. **VgNumber**.
 
 **Tag Syntax**
 
-&lt;o: *element* edge=" *expression* "&gt;
+<o: *element* edge=" *expression* "&gt;
 
 **Script Syntax**
 

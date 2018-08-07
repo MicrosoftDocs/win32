@@ -1,5 +1,5 @@
 ---
-Description: Prevents the generation of import statements for specified targets named in a &lt;wsdl:import&gt; element in a WSDL file.
+Description: Prevents the generation of import statements for specified targets named in a <wsdl:import&gt; element in a WSDL file.
 ms.assetid: 9a50ee38-fadf-4112-8430-cb5a07ae04ce
 title: excludeImport element
 ms.technology: desktop
@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # excludeImport element
 
-Prevents the generation of import statements for specified targets named in a &lt;wsdl:import&gt; element in a WSDL file. This can be used to keep WsdCodeGen from importing well-known targets, such as the WS-Addressing and WS-Eventing specifications, even though these targets are referenced in the WSDL.
+Prevents the generation of import statements for specified targets named in a <wsdl:import&gt; element in a WSDL file. This can be used to keep WsdCodeGen from importing well-known targets, such as the WS-Addressing and WS-Eventing specifications, even though these targets are referenced in the WSDL.
 
-The value of this element must be set to the namespace named in the &lt;wsdl:import&gt; element to exclude.
+The value of this element must be set to the namespace named in the <wsdl:import&gt; element to exclude.
 
 ## Usage
 

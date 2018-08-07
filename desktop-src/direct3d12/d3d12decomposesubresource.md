@@ -109,12 +109,12 @@ This function is declared as follows, with C++ templatized parameters for types 
 
 
 ```
-template &lt;typename T, typename U, typename V&gt;
+template <typename T, typename U, typename V&gt;
 inline void D3D12DecomposeSubresource( UINT Subresource, UINT MipLevels, UINT ArraySize, _Out_ T&amp; MipSlice, _Out_ U&amp; ArraySlice, _Out_ V&amp; PlaneSlice )
 {
-    MipSlice = static_cast&lt;T&gt;(Subresource % MipLevels);
-    ArraySlice = static_cast&lt;U&gt;((Subresource / MipLevels) % ArraySize);
-    PlaneSlice = static_cast&lt;V&gt;(Subresource / (MipLevels * ArraySize));
+    MipSlice = static_cast<T&gt;(Subresource % MipLevels);
+    ArraySlice = static_cast<U&gt;((Subresource / MipLevels) % ArraySize);
+    PlaneSlice = static_cast<V&gt;(Subresource / (MipLevels * ArraySize));
 }
 ```
 

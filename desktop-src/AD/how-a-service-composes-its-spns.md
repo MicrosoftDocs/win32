@@ -21,9 +21,9 @@ A service can use two functions to compose its SPNs: [**DsGetSpn**](/windows/des
 
 A service installer typically uses the [**DsGetSpn**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsgetspna) function to compose SPNs, which it then registers on the service's logon account using the [**DsWriteAccountSpn**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dswriteaccountspna) function. The **DsGetSpn** can perform the following functions.
 
--   Create a simple SPN with the "&lt;service class&gt;/&lt;host&gt;" format for a host-based service.
--   Create a complex SPN that includes the "&lt;service name&gt;" component used by replicable services or the "&lt;port&gt;" component that distinguishes multiple instances of a service on a single host.
--   Create a single SPN with the "&lt;host&gt;" component set to either the name of a specified host or the name of the local computer by default.
+-   Create a simple SPN with the "<service class&gt;/<host&gt;" format for a host-based service.
+-   Create a complex SPN that includes the "<service name&gt;" component used by replicable services or the "<port&gt;" component that distinguishes multiple instances of a service on a single host.
+-   Create a single SPN with the "<host&gt;" component set to either the name of a specified host or the name of the local computer by default.
 -   Create an array of SPNs for multiple service instances that will run on multiple hosts throughout the forest. Each SPN specifies the name of the host for a service instance.
 -   Create an array of SPNs for multiple service instances that will run on the same host. Each SPN specifies the name of the host and a port number for a service instance.
 

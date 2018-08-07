@@ -19,7 +19,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# D2D1CreateFactory&lt;Factory&gt;(D2D1\_FACTORY\_TYPE,D2D1\_FACTORY\_OPTIONS&,Factory\*\*) Function
+# D2D1CreateFactory<Factory&gt;(D2D1\_FACTORY\_TYPE,D2D1\_FACTORY\_OPTIONS&,Factory\*\*) Function
 
 Creates a factory object that can be used to create Direct2D resources.
 

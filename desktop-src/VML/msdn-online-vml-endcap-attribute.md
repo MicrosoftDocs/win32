@@ -26,7 +26,7 @@ Defines the cap style for the end of a stroke. Read/write. **VgLineEndCapStyle**
 
 **Tag Syntax**
 
-&lt;v: *element* endcap=" *expression* "&gt;
+<v: *element* endcap=" *expression* "&gt;
 
 **Script Syntax**
 

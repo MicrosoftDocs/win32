@@ -26,7 +26,7 @@ Defines a perspective transform of a skew. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;o: *element* matrix=" *expression* "&gt;
+<o: *element* matrix=" *expression* "&gt;
 
 **Script Syntax**
 

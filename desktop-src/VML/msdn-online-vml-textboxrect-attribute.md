@@ -26,7 +26,7 @@ Defines one or more text boxes inside a shape. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* textboxrect=" *expression* "&gt;
+<v: *element* textboxrect=" *expression* "&gt;
 
 **Script Syntax**
 

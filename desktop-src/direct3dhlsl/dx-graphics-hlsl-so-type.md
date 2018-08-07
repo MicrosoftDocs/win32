@@ -20,7 +20,7 @@ A stream-output object is a templated object that streams data out of the [geome
 
 
 
-| inout *StreamOutputObject*&lt;*DataType*&gt; *Name;* |
+| inout *StreamOutputObject*<*DataType*&gt; *Name;* |
 |------------------------------------------------------|
 
 
@@ -31,7 +31,7 @@ A stream-output object is a templated object that streams data out of the [geome
 
 <dl> <dt>
 
-<span id="StreamOutputObject___________________________DataType_________________________________________Name"></span><span id="streamoutputobject___________________________datatype_________________________________________name"></span><span id="STREAMOUTPUTOBJECT___________________________DATATYPE_________________________________________NAME"></span>*StreamOutputObject* &lt; *DataType* &gt;   *Name*
+<span id="StreamOutputObject___________________________DataType_________________________________________Name"></span><span id="streamoutputobject___________________________datatype_________________________________________name"></span><span id="STREAMOUTPUTOBJECT___________________________DATATYPE_________________________________________NAME"></span>*StreamOutputObject* < *DataType* &gt;   *Name*
 </dt> <dd>
 
 The stream-output object (SO) declaration.

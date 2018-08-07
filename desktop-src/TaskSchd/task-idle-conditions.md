@@ -22,7 +22,7 @@ A task can be handled in several ways when the computer enters an idle state. Th
 
 In Windows 7, the Task Scheduler verifies that the computer is in an idle state every 15 minutes. Task Scheduler checks for an idle state using two criteria: user absence, and a lack of resource consumption. The user is considered absent if there is no keyboard or mouse input during this period of time. The computer is considered idle if all the processors and all the disks were idle for more than 90% of the last detection interval. (An exception would be for any presentation type application that sets the ES\_DISPLAY\_REQUIRED flag. This flag forces Task Schedule to not consider the system as being idle, regardless of user activity or resource consumption.)
 
-In Windows 7, Task Scheduler considers a processor as idle even when low priority threads (thread priority &lt; normal) execute.
+In Windows 7, Task Scheduler considers a processor as idle even when low priority threads (thread priority < normal) execute.
 
 In Windows 7, when the Task Scheduler detects that the computer is idle, the service waits only for user input to mark the end of the idle state.
 

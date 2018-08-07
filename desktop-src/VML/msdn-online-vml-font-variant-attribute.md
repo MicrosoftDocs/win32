@@ -26,7 +26,7 @@ Defines the variant style of a font. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* style="font-variant: *expression* "&gt;
+<v: *element* style="font-variant: *expression* "&gt;
 
 **Script Syntax**
 

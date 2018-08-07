@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # enumeratedList
 
-Specifies how [**IPropertyDescription::FormatForDisplay**](https://msdn.microsoft.com/library/Bb761521(v=VS.85).aspx) should format the property's value as a string. It also influences how the property may be grouped, or what values to show in the list if the "editControl" is a listblox. This is applicable only if &lt;displayInfo displayType="Enumerated"&gt;. There should be only one [enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx) element for each [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) element.
+Specifies how [**IPropertyDescription::FormatForDisplay**](https://msdn.microsoft.com/library/Bb761521(v=VS.85).aspx) should format the property's value as a string. It also influences how the property may be grouped, or what values to show in the list if the "editControl" is a listblox. This is applicable only if <displayInfo displayType="Enumerated"&gt;. There should be only one [enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx) element for each [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) element.
 
 If there are multiple elements, the last one is used. If no [enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx) element is provided, then the default attribute settings are applied to the property description.
 

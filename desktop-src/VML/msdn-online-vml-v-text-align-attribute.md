@@ -26,7 +26,7 @@ Defines the alignment of text. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* style="v-text-align: *expression* "&gt;
+<v: *element* style="v-text-align: *expression* "&gt;
 
 **Script Syntax**
 

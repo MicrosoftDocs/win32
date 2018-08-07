@@ -26,7 +26,7 @@ Determines whether extra space is removed above and below the text. Read/write. 
 
 **Tag Syntax**
 
-&lt;v: *element* style="trim: *expression* "&gt;
+<v: *element* style="trim: *expression* "&gt;
 
 **Script Syntax**
 

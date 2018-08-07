@@ -110,7 +110,7 @@ Task links are defined in an XML file. This section provides the details of an e
 
 
 > [!Note]  
-> As of Windows 7, a Control Panel item can be identified by its canonical name rather than its executable name: the **&lt;sh:controlpanel&gt;** element can be used in place of **&lt;sh:command&gt;**. The **&lt;sh:controlpanel&gt;** element also provides an attribute to specify the page of the item to which it should open. The following shows an example of the **&lt;sh:controlpanel&gt;** element:
+> As of Windows 7, a Control Panel item can be identified by its canonical name rather than its executable name: the **<sh:controlpanel&gt;** element can be used in place of **<sh:command&gt;**. The **<sh:controlpanel&gt;** element also provides an attribute to specify the page of the item to which it should open. The following shows an example of the **<sh:controlpanel&gt;** element:
 
  
 

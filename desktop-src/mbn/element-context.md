@@ -18,13 +18,13 @@ Specifies the parameters required to establish a data connection.
 
 ## Element hierarchy
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-**&lt;Context&gt;**
+[<MBNProfileExt&gt;](element-mbnprofileext.md)  
+**<Context&gt;**
 
 <!-- -->
 
-[&lt;ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
-**&lt;Context&gt;**
+[<ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
+**<Context&gt;**
 
 ## Syntax
 

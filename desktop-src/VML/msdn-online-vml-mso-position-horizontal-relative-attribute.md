@@ -26,7 +26,7 @@ Specifies relative horizontal position data for objects in Microsoft Word. Read/
 
 **Tag Syntax**
 
-&lt;v: *element* o:mso-position-horizontal-relative=" *expression* "&gt;
+<v: *element* o:mso-position-horizontal-relative=" *expression* "&gt;
 
 **Remarks**
 

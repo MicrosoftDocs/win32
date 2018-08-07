@@ -34,8 +34,8 @@ Returns a lighting coefficient vector.
 This function returns a lighting coefficient vector (ambient, diffuse, specular, 1) where:
 
 -   ambient = 1.
--   diffuse = ((n   l) &lt; 0) ? 0 : n   l.
--   specular = ((n   l) &lt; 0) \|\| ((n   h) &lt; 0) ? 0 : ((n   h) \* m).
+-   diffuse = ((n   l) < 0) ? 0 : n   l.
+-   specular = ((n   l) < 0) \|\| ((n   h) < 0) ? 0 : ((n   h) \* m).
 
 Where the vector n is the normal vector, l is the direction to light and h is the half vector.
 

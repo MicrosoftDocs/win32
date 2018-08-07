@@ -36,7 +36,7 @@ This sample demonstrates rendering ink, copying that ink, and then pasting the i
 
 ## Collecting Ink and Setting Up the Form
 
-First, reference the Tablet PC Automation interfaces, which are installed with the Microsoft Windows&lt;entity type="reg"/&gt; XP Tablet PC Edition Software Development Kit (SDK).
+First, reference the Tablet PC Automation interfaces, which are installed with the Microsoft Windows<entity type="reg"/&gt; XP Tablet PC Edition Software Development Kit (SDK).
 
 
 ```C++

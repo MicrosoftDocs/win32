@@ -300,7 +300,7 @@ This requirement has been retired.
 <li>Set the system to DPI 150%: <br/> Windows Vista: Control Panel: Personalization, Adjust font size (DPI), Custom DPI. Set to 150%.<br/> Windows 7: Control Panel: Display, Set to Larger - 150%.<br/></li>
 <li>Run the installation process and game to verify there are no problems with clipped screens or dialog boxes.</li>
 </ol>
-</dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>Automated Test</dt> <dd> Verify that element &lt;dpiAware&gt;true&lt;/dpiAware&gt; is contained in the embedded manifest.<br/> Use tool: Mt.exe <br/> </dd> </dl></td>
+</dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>Automated Test</dt> <dd> Verify that element <dpiAware&gt;true</dpiAware&gt; is contained in the embedded manifest.<br/> Use tool: Mt.exe <br/> </dd> </dl></td>
 </tr>
 </tbody>
 </table>
@@ -324,7 +324,7 @@ This requirement has been retired.
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/></td>
 <td>Every executable file (.EXE extension) included with an application must have an embedded manifest that defines its execution level:
-<pre class="syntax" data-space="preserve"><code>&lt;requestedExecutionLevel level=&quot;asInvoker|highestAvailable|requireAdministrator&quot; 
+<pre class="syntax" data-space="preserve"><code><requestedExecutionLevel level=&quot;asInvoker|highestAvailable|requireAdministrator&quot; 
               uiAccess=&quot;true|false&quot;/&gt;</code></pre>
 <br/>
 <blockquote>
@@ -533,7 +533,7 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 <tbody>
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
-<td>If a game supports saving files, it must be able to save files that have long names and paths. The game must properly handle special file system characters, such as \ / : * ? &quot; &lt; or &gt; in any user input fields used to create file names or paths.</td>
+<td>If a game supports saving files, it must be able to save files that have long names and paths. The game must properly handle special file system characters, such as \ / : * ? &quot; < or &gt; in any user input fields used to create file names or paths.</td>
 </tr>
 <tr class="even">
 
@@ -543,7 +543,7 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 <li>Save the game. During the save process, verify that the game saves using the save name: My First Save Game.</li>
 <li>Exit back to the main menu.</li>
 <li>Attempt to load the newly saved game.</li>
-<li>Verify that the game does not encounter errors when handling unsupported file system characters, such as \ / : * ? &quot; &lt; or &gt; If the game allows you, name the saved game.</li>
+<li>Verify that the game does not encounter errors when handling unsupported file system characters, such as \ / : * ? &quot; < or &gt; If the game allows you, name the saved game.</li>
 <li>If the user is allowed to name their profile and/or character or save games, verify that the game does not encounter errors when using long file names here as well.</li>
 </ol></td>
 </tr>

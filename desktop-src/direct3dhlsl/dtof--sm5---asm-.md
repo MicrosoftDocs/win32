@@ -45,7 +45,7 @@ The valid *dest* masks are any one or two components. That is: .x, .y, .z, .w, .
 
 *src* is a double vec2 across (x 32LSB, y 32MSB) and (z 32LSB, w 32MSB) post swizzle.
 
-For float32&lt;-&gt;double conversions, implementations may either honor float32 denorms or may flush them.
+For float32<-&gt;double conversions, implementations may either honor float32 denorms or may flush them.
 
 This instruction applies to the following shader stages:
 

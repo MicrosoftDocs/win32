@@ -26,7 +26,7 @@ Defines the center of a linear gradient fill. Read/write. **VgFraction**.
 
 **Tag Syntax**
 
-&lt;v: *element* focus=" *expression* "&gt;
+<v: *element* focus=" *expression* "&gt;
 
 **Script Syntax**
 

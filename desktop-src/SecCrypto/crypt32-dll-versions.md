@@ -19,7 +19,7 @@ In general, the version ranges of Crypt32.dll map to the operating system versio
 |---------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *version* &gt;= 5.131.3790.0                      | Windows Server 2003                                                                                                                                                             |
 | *version* &gt;= 5.131.2600.1243                   | Windows XP with Service Pack 2 (SP2)Windows XP with Service Pack 1 (SP1) with hotfix [Q329433](http://go.microsoft.com/fwlink/p/?linkid=84539)<br/> Windows XP<br/> |
-| 5.131.2600.0 &lt;= *version* &lt; 5.131.2600.1243 | Windows XP with SP1Windows XP<br/>                                                                                                                                        |
+| 5.131.2600.0 <= *version* < 5.131.2600.1243 | Windows XP with SP1Windows XP<br/>                                                                                                                                        |
 
 
 

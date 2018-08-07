@@ -26,7 +26,7 @@ Determines whether a shape is displayed. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* style="visibility: *expression* "&gt;
+<v: *element* style="visibility: *expression* "&gt;
 
 **Script Syntax**
 

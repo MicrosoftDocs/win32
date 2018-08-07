@@ -215,8 +215,8 @@ Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Versio
 
 The version of the operation. The version of the operation should be in one of the following forms:
 
--   *&lt;major&gt;*.*&lt;minor&gt;*.*&lt;revision&gt;*
--   *&lt;major&gt;*.*&lt;minor&gt;&lt;letter&gt;&lt;revision&gt;*
+-   *<major&gt;*.*<minor&gt;*.*<revision&gt;*
+-   *<major&gt;*.*<minor&gt;<letter&gt;<revision&gt;*
 
 </dd> </dl>
 

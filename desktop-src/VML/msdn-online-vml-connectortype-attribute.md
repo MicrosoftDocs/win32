@@ -26,7 +26,7 @@ Indicates the type of connector used for joining shapes. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* o:connectortype=" *expression* "&gt;
+<v: *element* o:connectortype=" *expression* "&gt;
 
 **Remarks**
 

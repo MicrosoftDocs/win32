@@ -1,5 +1,5 @@
 ---
-Description: Compares two numeric data type instances, or two instances of an object which supports an overload of &lt;, and returns the smaller one of the two instances. The data type of the arguments and the return value is the same.
+Description: Compares two numeric data type instances, or two instances of an object which supports an overload of <, and returns the smaller one of the two instances. The data type of the arguments and the return value is the same.
 ms.assetid: 26c57a82-ea4a-4a87-9277-5bb353b5ccd2
 title: XMMin template
 ms.technology: desktop
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # XMMin template
 
-Compares two numeric data type instances, or two instances of an object which supports an overload of &lt;, and returns the smaller one of the two instances. The data type of the arguments and the return value is the same.
+Compares two numeric data type instances, or two instances of an object which supports an overload of <, and returns the smaller one of the two instances. The data type of the arguments and the return value is the same.
 
 ## Syntax
 

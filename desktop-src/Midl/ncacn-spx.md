@@ -47,7 +47,7 @@ Specifies an optional 16-bit number that represents the socket address. Values c
 
 When you use the **ncacn\_spx** transport, the server name is exactly the same as the 32-bit Windows name. However, since the names are distributed using Novell protocols, they must conform to the Novell naming conventions. If a server name is not a valid Novell name, servers will not be able to create endpoints with the **ncacn\_spx** transport. The following is a partial list of characters prohibited in Novell server names:
 
-" \* + . / : ; &lt; = &gt; ? \[ \] \\ \|
+" \* + . / : ; < = &gt; ? \[ \] \\ \|
 
 The **ncacn\_spx** transport is not supported by the version of NWLink supplied with MS Client 3.0.
 

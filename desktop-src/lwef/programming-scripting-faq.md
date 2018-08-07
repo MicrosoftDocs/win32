@@ -40,7 +40,7 @@ This could be caused by one of the following problems:
 
 -   Your programming language doesn't fully support ActiveX controls. Check your documentation to ensure that it supports the ActiveX interface and events for ActiveX objects.
 -   On a scripted webpage, another control has failed to install or load. Check to ensure that all other controls are installed and loading properly without Microsoft Agent.
--   On a scripted webpage with frames, you have the &lt;OBJECT&gt; tag for the Microsoft Agent control on one page, and the events scripted on another page. Events are sent only to the page that hosts the control.
+-   On a scripted webpage with frames, you have the <OBJECT&gt; tag for the Microsoft Agent control on one page, and the events scripted on another page. Events are sent only to the page that hosts the control.
 
 ### I am using the Microsoft Agent control with other ActiveX controls on my webpage, and I don't seem to get any events.
 
@@ -52,7 +52,7 @@ Microsoft Agent should be supportable from any language that supports the Active
 
 ### Can I access the parameters returned from Microsoft Agent using JScript?
 
-Yes, but currently the only way to do this is using the &lt;SCRIPT LANGUAGE="JScript" FOR="*object*" EVENT="event()"&gt; syntax. Although this syntax is supported for Microsoft Internet Explorer, other browsers do not support it, so you may want to avoid using JScript for this part of your page's script.
+Yes, but currently the only way to do this is using the <SCRIPT LANGUAGE="JScript" FOR="*object*" EVENT="event()"&gt; syntax. Although this syntax is supported for Microsoft Internet Explorer, other browsers do not support it, so you may want to avoid using JScript for this part of your page's script.
 
 ### Can Microsoft Agent be used with speech recognition or speech synthesis (text-to-speech, or TTS) engines other than those supplied by Microsoft?
 
@@ -60,7 +60,7 @@ Yes, provided that the engine supports the Microsoft Speech API (SAPI) 4.0 inter
 
 ### My page includes HTML Object tags for Microsoft Agent, the Lernout & Hauspie TruVoice TTS engine, and the Microsoft Command and Control speech recognition engine, but not all the components install.
 
-Typically, the problem can be corrected by refreshing the page. As a general practice, it is best to specify the Microsoft Agent Control &lt;OBJECT&gt; tag first, then the Lernout & Hauspie TruVoice engine, then the Command and Control speech recognition engine.
+Typically, the problem can be corrected by refreshing the page. As a general practice, it is best to specify the Microsoft Agent Control <OBJECT&gt; tag first, then the Lernout & Hauspie TruVoice engine, then the Command and Control speech recognition engine.
 
 ### After calling the MoveTo method, my character seems to freeze even though I have Return animations assigned to Moving state animations.
 

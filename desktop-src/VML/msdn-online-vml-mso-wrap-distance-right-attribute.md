@@ -26,7 +26,7 @@ Defines the distance from the right side of the shape to the text that wraps aro
 
 **Tag Syntax**
 
-&lt;v: *element* style="mso-wrap-distance-right: *expression* "&gt;
+<v: *element* style="mso-wrap-distance-right: *expression* "&gt;
 
 **Remarks**
 

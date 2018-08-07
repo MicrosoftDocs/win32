@@ -26,7 +26,7 @@ Determines whether the rotation of the extruded object is specified by the [Rota
 
 **Tag Syntax**
 
-&lt;o: *element* lockrotationcenter=" *expression* "&gt;
+<o: *element* lockrotationcenter=" *expression* "&gt;
 
 **Script Syntax**
 

@@ -26,7 +26,7 @@ Defines an arrowhead length for the end of a line. Read/write. **VgArrowheadLeng
 
 **Tag Syntax**
 
-&lt;v: *element* endarrowlength=" *expression* "&gt;
+<v: *element* endarrowlength=" *expression* "&gt;
 
 **Script Syntax**
 

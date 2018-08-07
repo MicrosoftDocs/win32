@@ -88,7 +88,7 @@ As a provider, the SNMP provider acts as a bridge between SNMP data and WMI clas
 
 The compiler runs in the command-line mode, using one MIB file as input. The following command loads the specified MIB file into the SMIR.
 
-**smi2smir /a** *&lt;MIB file&gt;*
+**smi2smir /a** *<MIB file&gt;*
 
 ## Setting Up SNMP Communities
 

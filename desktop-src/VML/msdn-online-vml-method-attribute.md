@@ -26,7 +26,7 @@ Defines the method used to generate a gradient fill. Read/write. **VgSigmaType**
 
 **Tag Syntax**
 
-&lt;v: *element* method=" *expression* "&gt;
+<v: *element* method=" *expression* "&gt;
 
 **Script Syntax**
 

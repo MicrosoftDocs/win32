@@ -334,7 +334,7 @@ return (Qva);
 <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>Description
 </dt> <dd>
 
-The compiler warns about the address of (&) and left shift (&lt;&lt;) operators if they are applied to pointer types. In the above code, Qva is a **PVOID** value. We need to cast that to an integer type to perform the math. Because the code must be portable, use **ULONG\_PTR** instead of **ULONG**.
+The compiler warns about the address of (&) and left shift (<<) operators if they are applied to pointer types. In the above code, Qva is a **PVOID** value. We need to cast that to an integer type to perform the math. Because the code must be portable, use **ULONG\_PTR** instead of **ULONG**.
 
 </dd> <dt>
 

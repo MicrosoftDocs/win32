@@ -26,7 +26,7 @@ Defines alternate direction for text in textboxes. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* style="mso-direction-alt: *expression* "&gt;
+<v: *element* style="mso-direction-alt: *expression* "&gt;
 
 **Remarks**
 

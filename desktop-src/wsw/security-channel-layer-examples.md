@@ -48,8 +48,8 @@ Perform the following five-step setup from the command prompt (elevated if you a
     -   **CertUtil.exe -store My localhost**
     -   **CertMgr.exe -s -r LocalMachine My**
 4.  Register the server certificate?s thumbprint with no spaces with HTTP.SYS:
-    -   On Windows Vista and above (the "appid" option is an arbitrary GUID): **Netsh.exe http add sslcert ipport=0.0.0.0:8443 appid={00112233-4455-6677-8899-AABBCCDDEEFF}** certhash=&lt;40CharacterThumbprint&gt;
-    -   On Windows XP or 2003: **HttpCfg.exe set ssl -i 0.0.0.0:8443 -h &lt;40CharacterThumbprint&gt;**
+    -   On Windows Vista and above (the "appid" option is an arbitrary GUID): **Netsh.exe http add sslcert ipport=0.0.0.0:8443 appid={00112233-4455-6677-8899-AABBCCDDEEFF}** certhash=<40CharacterThumbprint&gt;
+    -   On Windows XP or 2003: **HttpCfg.exe set ssl -i 0.0.0.0:8443 -h <40CharacterThumbprint&gt;**
 5.  Create a local user: **Net user "TestUserForBasicAuth" "TstPWD@\*4Bsic" /add**
 
 To clean up the certificates, SSL certificate binding and the user account created in the previous steps, run the following commands. Note if there are multiple certificates of the same name, CertMgr.exe will need your input before deleting them.

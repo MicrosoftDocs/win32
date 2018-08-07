@@ -118,7 +118,7 @@ The following combinations are recognized by the system. The table indicates the
 
  
 
-You can also define your own shutdown reasons and add them to the registry. Each reason code should be stored as a registry value in the following key:**HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Reliability\\UserDefined\\&lt;default\_system\_language\_ID&gt;**
+You can also define your own shutdown reasons and add them to the registry. Each reason code should be stored as a registry value in the following key:**HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Reliability\\UserDefined\\<default\_system\_language\_ID&gt;**
 
 This key contains value names of the following form: *xxxxx*;*nnn*;*nnnnn*. The semicolons delimit the components of a value name.
 

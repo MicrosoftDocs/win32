@@ -26,7 +26,7 @@ Defines the default extrusion behavior for graphical editors. Read/write. **Stri
 
 **Tag Syntax**
 
-&lt;o: *element* v:ext=" *expression* "&gt;
+<o: *element* v:ext=" *expression* "&gt;
 
 **Script Syntax**
 

@@ -168,7 +168,7 @@ The *x* and *y* parameters specify the window coordinates of the lower-left corn
 
 Several parameters control the processing of the pixel data while it is being copied. These parameters are set with three functions: [**glPixelTransfer**](glpixeltransfer.md), [**glPixelMap**](glpixelmap.md), and [**glPixelZoom**](glpixelzoom.md). This topic describes the effects on **glCopyPixels** of most, but not all, of the parameters specified by these three functions.
 
-The **glCopyPixels** function copies values from each pixel with the lower-left corner at (*x* + *i*, *y* + *j*) for 0 = *i* &lt; *width* and 0 = *j* &lt; *height*. This pixel is said to be the *i* pixel in the *j* row. Pixels are copied in row order from the lowest to the highest row, left to right in each row.
+The **glCopyPixels** function copies values from each pixel with the lower-left corner at (*x* + *i*, *y* + *j*) for 0 = *i* < *width* and 0 = *j* < *height*. This pixel is said to be the *i* pixel in the *j* row. Pixels are copied in row order from the lowest to the highest row, left to right in each row.
 
 The *type* parameter specifies whether color, depth, or stencil data is to be copied.
 

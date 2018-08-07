@@ -26,7 +26,7 @@ Defines the drop distance of a callout. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;o: *element* distance=" *expression* "&gt;
+<o: *element* distance=" *expression* "&gt;
 
 **Remarks**
 

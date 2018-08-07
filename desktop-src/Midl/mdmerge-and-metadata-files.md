@@ -21,9 +21,9 @@ Composes multiple metadata (.winmd) files into a number of output metadata files
 
 Run MDMERGE from the command line using the following command:
 
-**mdmerge** *&lt;***options***&gt;*
+**mdmerge** *<***options***&gt;*
 
-where *&lt;***options***&gt;* represents the command-line options you want to use.
+where *<***options***&gt;* represents the command-line options you want to use.
 
 Generate metadata files for your custom Windows Runtime components by using the MIDLRT compiler. For more info, see [MIDLRT and Windows Runtime components](midlrt-and-windows-runtime-components.md).
 

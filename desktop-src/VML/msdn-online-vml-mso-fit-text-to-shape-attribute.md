@@ -26,7 +26,7 @@ Defines whether the text will stretch to fit the shape. Read/write. **VgTriState
 
 **Tag Syntax**
 
-&lt;v: *element* style="mso-fit-text-to-shape: *expression* "&gt;
+<v: *element* style="mso-fit-text-to-shape: *expression* "&gt;
 
 **Remarks**
 

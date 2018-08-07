@@ -18,9 +18,9 @@ Specifies the port number of the MMSC server for the device. Specify 0 to indica
 
 ## Element hierarchy
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-[&lt;MmsConfiguration&gt;](element-mmsconfiguration.md)  
-**&lt;MmscPort&gt;**
+[<MBNProfileExt&gt;](element-mbnprofileext.md)  
+[<MmsConfiguration&gt;](element-mmsconfiguration.md)  
+**<MmscPort&gt;**
 
 ## Syntax
 

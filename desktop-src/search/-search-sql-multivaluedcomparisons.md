@@ -57,11 +57,11 @@ The following table shows the operation of the comparison operators when no quan
 | Operator       | Description                                                                                                                                                                                                                                                                                                                                                                           |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | =              | 'Equal to' returns true when each left-side element has the same value as the corresponding right-side element, and both arrays have the same number of elements.                                                                                                                                                                                                                     |
-| != or &lt;&gt; | 'Not equal to' returns true when one or more left-side elements have values that differ from the corresponding right-side elements, or when the left-side and right-side arrays do not have the same number of elements.                                                                                                                                                              |
+| != or <&gt; | 'Not equal to' returns true when one or more left-side elements have values that differ from the corresponding right-side elements, or when the left-side and right-side arrays do not have the same number of elements.                                                                                                                                                              |
 | &gt;           | 'Greater than' returns true when the value of each left-side element is greater than the value of the corresponding right-side element. If all the left-side element values exactly match the corresponding right-side elements and the left-side array has more elements than the right-side array, 'greater than' returns true.                                                     |
 | &gt;=          | 'Greater than or equal to' returns true when the value of every left-side element is greater than or equal to the value of the corresponding right-side element. If all the left-side element values are equal to or greater than the corresponding right-side elements and the left-side array has the same or more elements than the right-side array, 'greater than' returns true. |
-| &lt;           | 'Less than' returns true when the value of each left-side element is less than the value of the corresponding right-side element. 'Less than' also returns true when the left-side side has fewer elements than the right-side side.                                                                                                                                                  |
-| &lt;=          | 'Less than or equal to' returns true when the value of every left-side element is less than or equal to the value of the corresponding right-side element. If all the left-side element values are equal to or less than the corresponding right-side elements and the left-side array has the same or fewer elements than the right-side array, 'greater than' returns true.         |
+| <           | 'Less than' returns true when the value of each left-side element is less than the value of the corresponding right-side element. 'Less than' also returns true when the left-side side has fewer elements than the right-side side.                                                                                                                                                  |
+| <=          | 'Less than or equal to' returns true when the value of every left-side element is less than or equal to the value of the corresponding right-side element. If all the left-side element values are equal to or less than the corresponding right-side elements and the left-side array has the same or fewer elements than the right-side array, 'greater than' returns true.         |
 
 
 
@@ -78,11 +78,11 @@ The following table shows how each comparison operator functions with the ALL qu
 | Operator       | Description                                                                                                                           |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | =              | 'Equal to' returns true when each left-side element value is the same as every right-side element value.                              |
-| != or &lt;&gt; | 'Not equal to' returns true when at least one of the left-side element values is different from any of the right-side element values. |
+| != or <&gt; | 'Not equal to' returns true when at least one of the left-side element values is different from any of the right-side element values. |
 | &gt;           | 'Greater than' returns true when each left-side element value is greater than every right-side element value.                         |
 | &gt;=          | 'Greater than or equal to' returns true when each left-side element value is greater than or equal to every right-side element value. |
-| &lt;           | 'Less than' returns true when each left-side element value is less than every right-side element value.                               |
-| &lt;=          | 'Less than or equal to' returns true when each left-side element value is less than or equal to every right-side element value.       |
+| <           | 'Less than' returns true when each left-side element value is less than every right-side element value.                               |
+| <=          | 'Less than or equal to' returns true when each left-side element value is less than or equal to every right-side element value.       |
 
 
 
@@ -99,11 +99,11 @@ The following table shows how each comparison operator functions with the SOME q
 | Operator       | Description                                                                                                                                                     |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | =              | 'Equal to' returns true when at least one of the left-side element values is the same as any of the right-side element values.                                  |
-| != or &lt;&gt; | 'Not equal to' returns true when none of the left-side element values is the same as any of the right-side element values.                                      |
+| != or <&gt; | 'Not equal to' returns true when none of the left-side element values is the same as any of the right-side element values.                                      |
 | &gt;           | 'Greater than' returns true when at least one of the left-side element values is greater than any one of the right-side element values.                         |
 | &gt;=          | 'Greater than or equal to' returns true when at least one of the left-side element values is greater than or equal to any one of the right-side element values. |
-| &lt;           | 'Less than' returns true when at least one of the left-side element values is less than any one of the right-side element values.                               |
-| &lt;=          | 'Less than or equal to' returns true when at least one of the left-side element values is less than or equal to any one of the right-side element values.       |
+| <           | 'Less than' returns true when at least one of the left-side element values is less than any one of the right-side element values.                               |
+| <=          | 'Less than or equal to' returns true when at least one of the left-side element values is less than or equal to any one of the right-side element values.       |
 
 
 

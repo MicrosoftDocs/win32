@@ -26,7 +26,7 @@ Defines whether text is selectable with a single click. Read/write. **VgTriState
 
 **Tag Syntax**
 
-&lt;v: *element* style="singleclick: *expression* "&gt;
+<v: *element* style="singleclick: *expression* "&gt;
 
 **Remarks**
 

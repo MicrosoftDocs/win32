@@ -21,9 +21,9 @@ The conditions that determine whether a document is included in the results retu
 
 
 
-The optional &lt;group\_alias&gt; portion of the clause simplifies complex queries by assigning an alias to a group of one or more columns. This can improve the readability of complex queries that search for the same information across multiple columns specified by URLs. For more information about group aliases, see [WITH -- AS Group Alias Predicate](-search-sql-with-as.md).
+The optional <group\_alias&gt; portion of the clause simplifies complex queries by assigning an alias to a group of one or more columns. This can improve the readability of complex queries that search for the same information across multiple columns specified by URLs. For more information about group aliases, see [WITH -- AS Group Alias Predicate](-search-sql-with-as.md).
 
-The &lt;search condition&gt; portion of the WHERE clause is one or more search predicates that specify matching criteria for the search. Search predicates are expressions that assert some fact about some value.
+The <search condition&gt; portion of the WHERE clause is one or more search predicates that specify matching criteria for the search. Search predicates are expressions that assert some fact about some value.
 
 The result of a search condition is a Boolean value, either **TRUE** if the document meets the specified search conditions, or **FALSE** if it does not. If the result is **TRUE**, the document is returned. If the result is **FALSE**, the document is not returned. Documents returned in a Microsoft Windows Search query are assigned rank values according to how well they match the search conditions. Each of the query search conditions can include a [RANKBY](-search-sql-rankby.md) clause that supports modifying the returned rank values.
 

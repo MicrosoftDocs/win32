@@ -65,10 +65,10 @@ For more information, see [Installing Side-by-side Assemblies](installing-side-b
 
 The name of an application manifest file is the name of the application's executable followed by .manifest.
 
-For example, an application manifest that refers to Example.exe or Example.dll would use the following file name syntax. You can omit the &lt;*resource ID*&gt; field if resource ID is 1.
+For example, an application manifest that refers to Example.exe or Example.dll would use the following file name syntax. You can omit the <*resource ID*&gt; field if resource ID is 1.
 
-<dl> example.exe.&lt;resource ID&gt;.manifest  
-example.dll.&lt;resource ID&gt;.manifest  
+<dl> example.exe.<resource ID&gt;.manifest  
+example.dll.<resource ID&gt;.manifest  
 </dl>
 
 ## Elements

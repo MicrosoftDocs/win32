@@ -48,11 +48,11 @@ The registry values of Application Name and Description need to be localizable t
 
 These strings are in the following format, where angle brackets signify required elements and square brackets signify an optional element.
 
-*@&lt;ResDllPath\\ResDLLFilename&gt;,-&lt;resID&gt;\[;&lt;comment&gt;\]*
+*@<ResDllPath\\ResDLLFilename&gt;,-<resID&gt;\[;<comment&gt;\]*
 
-*&lt;ResDllPath\\ResDLLFilename&gt;* is the path to the resource DLL. The path can contain environmental variables.
+*<ResDllPath\\ResDLLFilename&gt;* is the path to the resource DLL. The path can contain environmental variables.
 
-*&lt;resID&gt;* is the resource ID for the string.
+*<resID&gt;* is the resource ID for the string.
 
 *\[comment\]* contains any optional comments.
 
@@ -223,7 +223,7 @@ If your accessibility application supports the secure desktop, you can use the r
 
 To copy settings, set the application's CopySettingsToLockedDesktop registry key to 1, and store the settings in the following registry location.
 
-**HKCU\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Accessibility\\ATConfig\\&lt;AT Key Name&gt;**
+**HKCU\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Accessibility\\ATConfig\\<AT Key Name&gt;**
 
 The Ease of Access Center monitors this registry location while the application is running. When a transition to the secure desktop occurs, the Ease of Access Center copies the settings to the same location in the secure desktop s HKCU hive. The application can then read the settings and resume its state.
 
@@ -282,11 +282,11 @@ The values in the table are under the following key:
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>&lt;HCIModel&gt;
-   &lt;Accommodation type=&quot;low vision&quot; /&gt;
-   &lt;Accommodation type=&quot;severe vision&quot; /&gt;
-   &lt;Accommodation type=&quot;mild cognitive&quot; /&gt;
-&lt;/HCIModel&gt;</code></pre></td>
+<td><pre><code><HCIModel&gt;
+   <Accommodation type=&quot;low vision&quot; /&gt;
+   <Accommodation type=&quot;severe vision&quot; /&gt;
+   <Accommodation type=&quot;mild cognitive&quot; /&gt;
+</HCIModel&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -362,11 +362,11 @@ If the application provides both a screen reader and a screen magnifier in a sin
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>&lt;HCIModel&gt;
-   &lt;Accommodation type=&quot;low vision&quot; /&gt;
-   &lt;Accommodation type=&quot;severe vision&quot; /&gt;
-   &lt;Accommodation type=&quot;mild cognitive&quot; /&gt;
-&lt;/HCIModel&gt;</code></pre></td>
+<td><pre><code><HCIModel&gt;
+   <Accommodation type=&quot;low vision&quot; /&gt;
+   <Accommodation type=&quot;severe vision&quot; /&gt;
+   <Accommodation type=&quot;mild cognitive&quot; /&gt;
+</HCIModel&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -439,9 +439,9 @@ The values for the magnifier component would be in the following key:
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>&lt;HCIModel&gt;
-   &lt;Accommodation type=&quot;mild vision&quot; /&gt;
-&lt;/HCIModel&gt;</code></pre></td>
+<td><pre><code><HCIModel&gt;
+   <Accommodation type=&quot;mild vision&quot; /&gt;
+</HCIModel&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>

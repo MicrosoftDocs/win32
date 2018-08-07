@@ -352,60 +352,60 @@ These commands mirror the commands found in standard menu bars, so they should b
 <dl> File <dl> NewCtrl+N  
 Open...Ctrl+O  
 Close  
-&lt;separator&gt;  
+<separator&gt;  
 SaveCtrl+S  
 Save as...  
-&lt;separator&gt;  
+<separator&gt;  
 Send to  
-&lt;separator&gt;  
+<separator&gt;  
 Print...Ctrl+P  
 Print preview  
 Page setup  
-&lt;separator&gt;  
+<separator&gt;  
 ExitAlt+F4(shortcut usually not given)  
 </dl> </dd> Edit(menu button) <dl> UndoCtrl+Z  
 RedoCtrl+Y  
-&lt;separator&gt;  
+<separator&gt;  
 CutCtrl+X  
 CopyCtrl+C  
 PasteCtrl+V  
-&lt;separator&gt;  
+<separator&gt;  
 Select allCtrl+A  
-&lt;separator&gt;  
+<separator&gt;  
 DeleteDel(shortcut usually not given)  
 Rename...  
-&lt;separator&gt;  
+<separator&gt;  
 Find...Ctrl+F  
 Find nextF3(command usually not given)  
 Replace...Ctrl+H  
 Go to...Ctrl+G  
 </dl> </dd> <dd>Print(split button) <dl> Print...Ctrl+P  
 Print preview  
-&lt;separator&gt;  
+<separator&gt;  
 Page setup  
 </dl> </dd> View(menu button) <dl> Menu bar(check if visible)  
 Details pane(check if visible)  
 Preview pane(check if visible)  
 Status bar(check if visible)  
-&lt;separator&gt;  
+<separator&gt;  
 Zoom  
 Zoom inCtrl++  
 Zoom outCtrl+-  
-&lt;separator&gt;  
+<separator&gt;  
 Text size(selected setting has bullet) <dl> Largest  
 Larger  
 Medium  
 Smaller  
 Smallest  
-</dl> </dd> &lt;separator&gt;  
+</dl> </dd> <separator&gt;  
 Full screenF11  
 RefreshF5  
 </dl> </dd> Tools(menu button) <dl> ...  
-&lt;separator&gt;  
+<separator&gt;  
 Options  
-</dl>&gt; </dd> Help(split button, use the Help icon) <dl> &lt;program name&gt; helpF1  
-&lt;separator&gt;  
-About &lt;program name&gt;  
+</dl>&gt; </dd> Help(split button, use the Help icon) <dl> <program name&gt; helpF1  
+<separator&gt;  
+About <program name&gt;  
 </dl> </dd> </dl>
 
 **Supplemental toolbars**

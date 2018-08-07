@@ -26,7 +26,7 @@ Defines the viewpoint of the observer. Read/write. **VgVector3D**.
 
 **Tag Syntax**
 
-&lt;o: *element* viewpoint=" *expression* "&gt;
+<o: *element* viewpoint=" *expression* "&gt;
 
 **Script Syntax**
 

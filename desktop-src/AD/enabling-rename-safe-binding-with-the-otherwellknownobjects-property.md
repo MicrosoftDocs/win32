@@ -45,7 +45,7 @@ B:<char count>:<well known GUID>:<object DN>
 
 
 
-In this example, "&lt;char count&gt;" is the count of hexadecimal digits in "&lt;well known GUID&gt;", which is 32 (number of hex digits in a GUID) for both **otherWellKnownObjects** and **wellKnownObjects**. "&lt;well known GUID&gt;" is the hexadecimal digit representation of the well-known GUID. "&lt;object DN&gt;" is the distinguished name of the object represented by this WKO value. The server maintains the ObjectDN portion of each **wellKnownObjects** and **otherWellKnownObjects** value so that it contains the current distinguished name of the object originally specified when the value was created.
+In this example, "<char count&gt;" is the count of hexadecimal digits in "<well known GUID&gt;", which is 32 (number of hex digits in a GUID) for both **otherWellKnownObjects** and **wellKnownObjects**. "<well known GUID&gt;" is the hexadecimal digit representation of the well-known GUID. "<object DN&gt;" is the distinguished name of the object represented by this WKO value. The server maintains the ObjectDN portion of each **wellKnownObjects** and **otherWellKnownObjects** value so that it contains the current distinguished name of the object originally specified when the value was created.
 
 For example, if {df447b5e-aa5b-11d2-8d53-00c04f79ab81} is the well-known GUID of the MyObject object in the MyContainer container in the Fabrikam.com domain, the **otherWellKnownObjects** value would specify the well-known GUID and the DN of MyObject:
 

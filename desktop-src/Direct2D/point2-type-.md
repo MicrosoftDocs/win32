@@ -19,7 +19,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Point2&lt;Type&gt; Function
+# Point2<Type&gt; Function
 
 Creates a point that stores its coordinates using the specified data type.
 

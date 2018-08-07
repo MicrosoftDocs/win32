@@ -23,7 +23,7 @@ template AnimationSet
 
 Where:
 
--   \[ Animation &lt; 3D82AB4F-62DA-11cf-AB39-0020AF71E433 &gt; \] - Optional animation template.
+-   \[ Animation < 3D82AB4F-62DA-11cf-AB39-0020AF71E433 &gt; \] - Optional animation template.
 
 ## See also
 

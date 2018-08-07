@@ -26,7 +26,7 @@ Determines whether the vertices of a path can be changed by an editor. Read/writ
 
 **Tag Syntax**
 
-&lt;o: *element* vertices=" *expression* "&gt;
+<o: *element* vertices=" *expression* "&gt;
 
 **Remarks**
 

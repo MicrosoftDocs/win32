@@ -2672,7 +2672,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa3936
 
 String that marks the end of a command string.
 
-Example: "&lt;cr"
+Example: "<cr"
 
 </dd> <dt>
 

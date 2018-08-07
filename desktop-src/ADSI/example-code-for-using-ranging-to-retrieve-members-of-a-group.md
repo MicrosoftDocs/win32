@@ -63,10 +63,10 @@ The following code snippet requires a reference to Microsoft ActiveX Data Object
 
         Do
             If lastLoop Then
-                ' Perform this query with the "range=&lt;lowRange&gt;-*" range.
+                ' Perform this query with the "range=<lowRange&gt;-*" range.
                 oComm.CommandText = commandPrefix & lowRange & "-*" & commandSuffix
             Else
-                ' Perform this query with the "range=&lt;lowRange&gt;-&lt;highRange&gt;" range.
+                ' Perform this query with the "range=<lowRange&gt;-<highRange&gt;" range.
                 oComm.CommandText = commandPrefix & lowRange & "-" & highRange & commandSuffix
             End If
             Debug.Print("Current search command: " & oComm.CommandText)

@@ -28,11 +28,11 @@ The following table lists the functions and methods implemented in Parse.cpp.
 
 | Item                      | Description                                                                                                                                                            |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **ADsObject**             | Parses the ADspath passed to it. This function follows the following grammar rules: &lt;ADsObject&gt; -&gt; &lt;ProviderName&gt; &lt;SampleDSObject&gt;<br/>     |
-| **SampleDSObject**        | Parses the following grammar rules: &lt;SampleDSObject&gt; -&gt; "\\\\" &lt;identifier&gt; "\\" &lt;Pathname&gt;<br/>                                            |
+| **ADsObject**             | Parses the ADspath passed to it. This function follows the following grammar rules: <ADsObject&gt; -&gt; <ProviderName&gt; <SampleDSObject&gt;<br/>     |
+| **SampleDSObject**        | Parses the following grammar rules: <SampleDSObject&gt; -&gt; "\\\\" <identifier&gt; "\\" <Pathname&gt;<br/>                                            |
 | **ProviderName**          | Adds in the syntactically correct provider name if not there.                                                                                                          |
-| **PathName**              | Parses the following grammar rules: &lt;Pathname&gt; -&gt; &lt;Component&gt; "\\\\" &lt;Pathname&gt; OR<br/> &lt;Pathname&gt; -&gt; &lt;Component&gt;<br/> |
-| **Component**             | Parses the following grammar rules: &lt;Identifier&gt; OR<br/> &lt;Identifier&gt; "=" &lt;Identifier&gt;<br/>                                              |
+| **PathName**              | Parses the following grammar rules: <Pathname&gt; -&gt; <Component&gt; "\\\\" <Pathname&gt; OR<br/> <Pathname&gt; -&gt; <Component&gt;<br/> |
+| **Component**             | Parses the following grammar rules: <Identifier&gt; OR<br/> <Identifier&gt; "=" <Identifier&gt;<br/>                                              |
 | **CLexer::CLexer**        | Standard constructor.                                                                                                                                                  |
 | **CLexer::~CLexer**       | Standard destructor.                                                                                                                                                   |
 | **CLexer::GetNextToken**  | Tokenizer.                                                                                                                                                             |

@@ -285,7 +285,7 @@ if (!$pcmcia.count) {
 </tr>
 <tr class="even">
 <td>...identify devices that are not working (those marked with an exclamation point icon in <strong>Device Manager</strong>)?</td>
-<td><p>Use the [<strong>Win32_PnPEntity</strong>](https://msdn.microsoft.com/library/aa394353) class and use the following clause in your [WQL](querying-with-wql.md) query. <strong>WHERE ConfigManagerErrorCode &lt;&gt; 0</strong> Note that this code may not detect USB devices that are missing drivers.</p>
+<td><p>Use the [<strong>Win32_PnPEntity</strong>](https://msdn.microsoft.com/library/aa394353) class and use the following clause in your [WQL](querying-with-wql.md) query. <strong>WHERE ConfigManagerErrorCode <&gt; 0</strong> Note that this code may not detect USB devices that are missing drivers.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -301,7 +301,7 @@ if (!$pcmcia.count) {
 <tr class="odd">
 <td><pre><code>strComputer = &quot;.&quot;
 Set objWMIService = GetObject(&quot;winmgmts:\\&quot; & strComputer & &quot;\root\cimv2&quot;)
-Set colItems = objWMIService.ExecQuery(&quot;Select * from Win32_PnPEntity WHERE ConfigManagerErrorCode &lt;&gt; 0&quot;)
+Set colItems = objWMIService.ExecQuery(&quot;Select * from Win32_PnPEntity WHERE ConfigManagerErrorCode <&gt; 0&quot;)
 For Each objItem in colItems
     Wscript.Echo &quot;Class GUID: &quot; & objItem.ClassGuid
     Wscript.Echo &quot;Description: &quot; & objItem.Description

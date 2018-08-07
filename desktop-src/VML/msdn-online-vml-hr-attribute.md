@@ -26,7 +26,7 @@ Specifies that a shape is a horizontal rule. Read/write. **VgTriState**.
 
 **Tag Syntax**
 
-&lt;v: *element* o:hr=" *expression* "&gt;
+<v: *element* o:hr=" *expression* "&gt;
 
 **Remarks**
 

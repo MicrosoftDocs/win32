@@ -22,17 +22,17 @@ For more details, see the documentation for the v1 [**IgnorePassword**](https://
 
 ## Element hierarchy
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-[&lt;Context&gt;](element-context.md)  
-[&lt;UserLogonCred&gt;](element-userlogoncred.md)  
-**&lt;IgnorePassword&gt;**
+[<MBNProfileExt&gt;](element-mbnprofileext.md)  
+[<Context&gt;](element-context.md)  
+[<UserLogonCred&gt;](element-userlogoncred.md)  
+**<IgnorePassword&gt;**
 
 <!-- -->
 
-[&lt;ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
-[&lt;Context&gt;](element-1-context.md)  
-[&lt;UserLogonCred&gt;](element-1-userlogoncred.md)  
-**&lt;IgnorePassword&gt;**
+[<ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
+[<Context&gt;](element-1-context.md)  
+[<UserLogonCred&gt;](element-1-userlogoncred.md)  
+**<IgnorePassword&gt;**
 
 ## Syntax
 

@@ -27,7 +27,7 @@ Mathematically, the curves work as follows. Suppose that a curve begins at time 
 
 -   Let Δ*t* be the total duration of the curve, *t*₁–*t*₀.
 -   Let Δ*v* be the interval between the starting and ending values, *v*₁–*v*₀.
--   At any time *t* such that *t*₀ &lt;= *t* &lt;= *t*₁, let Δ*t*' = *t*–*t*₀.
+-   At any time *t* such that *t*₀ <= *t* <= *t*₁, let Δ*t*' = *t*–*t*₀.
 
 ![parameter calculation](images/param-curves02.png)
 
@@ -42,7 +42,7 @@ where f(x) is a function determined by the curve type:
 -   Inverse square: y = sqrt(x)
 -   Sine: y = \[ sin(πx – π/2) + 1 \] / 2
 
-Observe that Δ*t*' &lt; Δ*t*, so the term Δ*t*'/Δ*t* ranges from 0 to 1. Therefore, f(x) also ranges from 0 to 1, and *v* always falls between *v*₀ and *v*₁. This is true whether *v*₀ &lt; *v*₁ or vice versa. In other words, the curve is bounded by the rectangle (*t*₀, *v*₀, *t*₁, *v*₁).
+Observe that Δ*t*' < Δ*t*, so the term Δ*t*'/Δ*t* ranges from 0 to 1. Therefore, f(x) also ranges from 0 to 1, and *v* always falls between *v*₀ and *v*₁. This is true whether *v*₀ < *v*₁ or vice versa. In other words, the curve is bounded by the rectangle (*t*₀, *v*₀, *t*₁, *v*₁).
 
 For the sine curve, the value of (πx – π/2) ranges from –π/2 to π/2, which means that sin(πx – π/2) ranges from –1 to 1. The result is then normalized so that f(x) falls into the range (0–1).
 

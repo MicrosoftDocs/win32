@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 The Lightweight Directory Access Protocol (LDAP) requires that you escape some characters with a backslash (\) character when you use them in an LDAP Active Directory Service Interfaces (ADSI) path.
 
-,=+&lt;&gt;\#;\\"
+,=+<&gt;\#;\\"
 
 The escape character is only required for the **ADSIPath** property value.
 

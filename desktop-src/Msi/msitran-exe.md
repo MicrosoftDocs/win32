@@ -70,8 +70,8 @@ The following validation conditions may be used to indicate when a transform may
 | s      | Check major version only.                             |
 | t      | Check major and minor versions only.                  |
 | u      | Check major, minor, and upgrade versions.             |
-| v      | Applied database version &lt; Base database version.  |
-| w      | Applied database version &lt;= Base database version. |
+| v      | Applied database version < Base database version.  |
+| w      | Applied database version <= Base database version. |
 | x      | Applied database version = Base database version.     |
 | y      | Applied database version &gt;= Base database version. |
 | z      | Applied database version &gt; Base database version.  |

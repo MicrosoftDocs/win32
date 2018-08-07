@@ -56,11 +56,11 @@ The **pow** HLSL intrinsic function calculates *x*<sup>y</sup>.
 
 | X      | Y      | Result                                                                      |
 |--------|--------|-----------------------------------------------------------------------------|
-| &lt; 0 | any    | NAN                                                                         |
+| < 0 | any    | NAN                                                                         |
 | &gt; 0 | == 0   | 1                                                                           |
 | == 0   | &gt; 0 | 0                                                                           |
-| == 0   | &lt; 0 | inf                                                                         |
-| &gt; 0 | &lt; 0 | 1/X<sup>-Y</sup>                                                            |
+| == 0   | < 0 | inf                                                                         |
+| &gt; 0 | < 0 | 1/X<sup>-Y</sup>                                                            |
 | == 0   | == 0   | Depends on the particular graphics processor<br/> 0 or NAN<br/> |
 
 

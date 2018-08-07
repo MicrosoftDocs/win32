@@ -195,20 +195,20 @@ End Function
 &#39;
 &#39; exchangeDataItem xml document sample instance
 &#39;
-&#39; &lt;INSTANCE CLASSNAME=&quot;Msvm_KvpExchangeDataItem&quot;&gt;
-&#39;      &lt;PROPERTY NAME=&quot;Caption&quot; PROPAGATED=&quot;true&quot; TYPE=&quot;string&quot;&gt;&lt;/PROPERTY&gt;
-&#39;      &lt;PROPERTY NAME=&quot;Data&quot; TYPE=&quot;string&quot;&gt;
-&#39;         &lt;VALUE&gt;AUTOBVT-4OVYXAB&lt;/VALUE&gt;
-&#39;      &lt;/PROPERTY&gt;
-&#39;      &lt;PROPERTY NAME=&quot;Description&quot; PROPAGATED=&quot;true&quot; TYPE=&quot;string&quot;&gt;&lt;/PROPERTY&gt;
-&#39;      &lt;PROPERTY NAME=&quot;ElementName&quot; PROPAGATED=&quot;true&quot; TYPE=&quot;string&quot;&gt;&lt;/PROPERTY&gt;
-&#39;      &lt;PROPERTY NAME=&quot;Name&quot; TYPE=&quot;string&quot;&gt;
-&#39;         &lt;VALUE&gt;FullyQualifiedDomainName&lt;/VALUE&gt;
-&#39;      &lt;/PROPERTY&gt;
-&#39;      &lt;PROPERTY NAME=&quot;Source&quot; TYPE=&quot;uint16&quot;&gt;
-&#39;          &lt;VALUE&gt;2&lt;/VALUE&gt;
-&#39;      &lt;/PROPERTY&gt;
-&#39; &lt;/INSTANCE&gt;           
+&#39; <INSTANCE CLASSNAME=&quot;Msvm_KvpExchangeDataItem&quot;&gt;
+&#39;      <PROPERTY NAME=&quot;Caption&quot; PROPAGATED=&quot;true&quot; TYPE=&quot;string&quot;&gt;</PROPERTY&gt;
+&#39;      <PROPERTY NAME=&quot;Data&quot; TYPE=&quot;string&quot;&gt;
+&#39;         <VALUE&gt;AUTOBVT-4OVYXAB</VALUE&gt;
+&#39;      </PROPERTY&gt;
+&#39;      <PROPERTY NAME=&quot;Description&quot; PROPAGATED=&quot;true&quot; TYPE=&quot;string&quot;&gt;</PROPERTY&gt;
+&#39;      <PROPERTY NAME=&quot;ElementName&quot; PROPAGATED=&quot;true&quot; TYPE=&quot;string&quot;&gt;</PROPERTY&gt;
+&#39;      <PROPERTY NAME=&quot;Name&quot; TYPE=&quot;string&quot;&gt;
+&#39;         <VALUE&gt;FullyQualifiedDomainName</VALUE&gt;
+&#39;      </PROPERTY&gt;
+&#39;      <PROPERTY NAME=&quot;Source&quot; TYPE=&quot;uint16&quot;&gt;
+&#39;          <VALUE&gt;2</VALUE&gt;
+&#39;      </PROPERTY&gt;
+&#39; </INSTANCE&gt;           
 &#39;-----------------------------------------------------------------
 Function GetVirtualSystemDNS(vmName)
     dim objXMLDoc, query , kvpExchangeComponents, kvpExchangeComponent, vm, vms
@@ -223,7 +223,7 @@ Function GetVirtualSystemDNS(vmName)
         if VMRunning(vm) then
             query = Format1(&quot;ASSOCIATORS OF {{0}} WHERE resultClass = Msvm_KvpExchangeComponent&quot;, vm.Path_.Path)
             set kvpExchangeComponents = objWMIService.ExecQuery(query)
-            if kvpExchangeComponents.Count &lt;&gt; 1 then
+            if kvpExchangeComponents.Count <&gt; 1 then
                 WriteLog Format1(&quot;{0} instance of Msvm_KvpExchangeComponent was found&quot;, kvpExchangeComponents.Count)
                 WScript.Quit(1)
             end if

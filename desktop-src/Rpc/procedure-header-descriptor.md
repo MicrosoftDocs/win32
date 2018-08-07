@@ -26,7 +26,7 @@ stack_size<2>
 [explicit_handle_description<>]
 ```
 
-Where handle\_type&lt;1&gt; can be one of the values shown in the following table.
+Where handle\_type<1&gt; can be one of the values shown in the following table.
 
 
 
@@ -42,7 +42,7 @@ Where handle\_type&lt;1&gt; can be one of the values shown in the following tabl
 
  
 
-If the handle\_type&lt;1&gt; field is nonzero, then the procedure uses an implicit handle of the indicated kind. See the [Handles](handles.md) topic for a more information. If the handle\_type&lt;1&gt; field is zero, the handle used for binding is one of the procedure's parameters.
+If the handle\_type<1&gt; field is nonzero, then the procedure uses an implicit handle of the indicated kind. See the [Handles](handles.md) topic for a more information. If the handle\_type<1&gt; field is zero, the handle used for binding is one of the procedure's parameters.
 
 Explicit handles can be primitive, generic, and context; the last one has the following FC token.
 
@@ -58,7 +58,7 @@ Explicit handles can be primitive, generic, and context; the last one has the fo
 
 By convention, the handle type for DCOM interfaces is FC\_AUTO\_HANDLE.
 
-The Oi\_flags&lt;1&gt; field is an 8-bit mask of the following flags.
+The Oi\_flags<1&gt; field is an 8-bit mask of the following flags.
 
 
 
@@ -93,18 +93,18 @@ The following flags are overloaded.
 
  
 
-The rpc\_flags&lt;4&gt; field describes how to set the **RpcFlags** field of the [**RPC\_MESSAGE**](/windows/desktop/api/RpcdceP/ns-rpcdcep-_rpc_message) structure. This field is only present if the Oi\_flags&lt;1&gt; field has Oi\_HAD\_RPCFLAGS set. If this field is not present, then the RPC flags for the remote procedure are zero.
+The rpc\_flags<4&gt; field describes how to set the **RpcFlags** field of the [**RPC\_MESSAGE**](/windows/desktop/api/RpcdceP/ns-rpcdcep-_rpc_message) structure. This field is only present if the Oi\_flags<1&gt; field has Oi\_HAD\_RPCFLAGS set. If this field is not present, then the RPC flags for the remote procedure are zero.
 
 > [!Note]  
-> For performance, the async interpreters always have the rpc\_flags&lt;4&gt; field present.
+> For performance, the async interpreters always have the rpc\_flags<4&gt; field present.
 
  
 
-The proc\_num&lt;2&gt; field provides the procedure's procedure number.
+The proc\_num<2&gt; field provides the procedure's procedure number.
 
-The stack\_size&lt;2&gt; provides the total size of all parameters on the stack, including any this pointer and/or return value.
+The stack\_size<2&gt; provides the total size of all parameters on the stack, including any this pointer and/or return value.
 
-The explicit\_handle\_description&lt;&gt; field is described later in this document. This field is not present if the procedure uses an implicit handle.
+The explicit\_handle\_description<&gt; field is described later in this document. This field is not present if the procedure uses an implicit handle.
 
  
 

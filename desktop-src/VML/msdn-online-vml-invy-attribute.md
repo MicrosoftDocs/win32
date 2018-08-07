@@ -26,7 +26,7 @@ Determines whether the y position of the handle is inverted. Read/write. **VgTri
 
 **Tag Syntax**
 
-&lt;v: *element* invy=" *expression* "&gt;
+<v: *element* invy=" *expression* "&gt;
 
 **Remarks**
 

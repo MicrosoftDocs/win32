@@ -26,7 +26,7 @@ Specifies inner margin values for textbox text. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* inset=" *expression* "&gt;
+<v: *element* inset=" *expression* "&gt;
 
 **Script Syntax**
 

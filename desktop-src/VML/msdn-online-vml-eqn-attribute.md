@@ -26,7 +26,7 @@ Defines the equation used by a formula. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* eqn=" *expression* "&gt;
+<v: *element* eqn=" *expression* "&gt;
 
 **Script Syntax**
 
@@ -45,7 +45,7 @@ Equations are defined by the evaluation of a text expression that has the genera
 
 The table below defines the formulas that can be used withthe optional arguments given the names *v*, *p1*, and *p2*.The formula pattern is:
 
-&lt;f eqn=" *operation* \[*v* \] \[*p1* \] \[*p2* \]"/&gt;
+<f eqn=" *operation* \[*v* \] \[*p1* \] \[*p2* \]"/&gt;
 
 
 

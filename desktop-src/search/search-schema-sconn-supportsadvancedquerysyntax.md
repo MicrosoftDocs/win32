@@ -1,5 +1,5 @@
 ---
-Description: The Boolean &lt;supportsAdvancedQuerySyntax&gt; element specifies whether the search provider supports the Advanced Query Syntax. The default is false. This element is optional and has no child elements and no attributes.
+Description: The Boolean <supportsAdvancedQuerySyntax&gt; element specifies whether the search provider supports the Advanced Query Syntax. The default is false. This element is optional and has no child elements and no attributes.
 ms.assetid: d4aef1f1-63c8-4e9a-9e22-5efbb8c523b2
 title: supportsAdvancedQuerySyntax Element (Search Connector Schema)
 ms.technology: desktop
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # supportsAdvancedQuerySyntax Element (Search Connector Schema)
 
-The Boolean &lt;supportsAdvancedQuerySyntax&gt; element specifies whether the search provider supports the [Advanced Query Syntax](-search-3x-advancedquerysyntax.md). The default is false. This element is optional and has no child elements and no attributes.
+The Boolean <supportsAdvancedQuerySyntax&gt; element specifies whether the search provider supports the [Advanced Query Syntax](-search-3x-advancedquerysyntax.md). The default is false. This element is optional and has no child elements and no attributes.
 
 ## Syntax
 

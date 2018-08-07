@@ -26,7 +26,7 @@ Specifies the top edge of the shape's containing rectangle relative to the shape
 
 **Tag Syntax**
 
-&lt;v: *element* margin-top=" *expression* "&gt;
+<v: *element* margin-top=" *expression* "&gt;
 
 **Script Syntax**
 

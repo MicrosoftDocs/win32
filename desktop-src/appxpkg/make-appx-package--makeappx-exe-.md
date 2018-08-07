@@ -105,7 +105,7 @@ Place the AppxManifest.xml in the root of a directory containing all of the payl
 
 ### To create a package bundle using a directory structure
 
-We use the **bundle** command to create an app bundle at &lt;output bundle name&gt; by adding all packages from &lt;content directory&gt; (including subfolders). If &lt;content directory&gt; contains a bundle manifest, AppxBundleManifest.xml, it is ignored.
+We use the **bundle** command to create an app bundle at <output bundle name&gt; by adding all packages from <content directory&gt; (including subfolders). If <content directory&gt; contains a bundle manifest, AppxBundleManifest.xml, it is ignored.
 
 1.  Place all packages in a single directory structure, creating subdirectories as desired.
 
@@ -115,9 +115,9 @@ We use the **bundle** command to create an app bundle at &lt;output bundle name&
 
 ### To create a package bundle using a mapping file
 
-We use the **bundle** command to create an app bundle at &lt;output bundle name&gt; by adding all packages from a list of packages within &lt;mapping file&gt;. If &lt;mapping file&gt; contains a bundle manifest, AppxBundleManifest.xml, it is ignored.
+We use the **bundle** command to create an app bundle at <output bundle name&gt; by adding all packages from a list of packages within <mapping file&gt;. If <mapping file&gt; contains a bundle manifest, AppxBundleManifest.xml, it is ignored.
 
-1.  Create a &lt;mapping file&gt;. The first line contains the string **\[Files\]**, and the lines that follow specify the packages to add to the bundle. Each package is described by a pair of paths in quotation marks, separated by spaces or tabs. The pair of paths represents the package's source (on disk) and destination (in bundle). All destination package names must have the .appx extension.
+1.  Create a <mapping file&gt;. The first line contains the string **\[Files\]**, and the lines that follow specify the packages to add to the bundle. Each package is described by a pair of paths in quotation marks, separated by spaces or tabs. The pair of paths represents the package's source (on disk) and destination (in bundle). All destination package names must have the .appx extension.
 
     ``` syntax
         [Files]
@@ -189,21 +189,21 @@ We use the **bundle** command to create an app bundle at &lt;output bundle name&
 
 The command line argument **/p** is always required, with either **/d**, **/f**, or **/ep**. Note that **/d**, **/f**, and **/ep** are mutually exclusive.
 
-**MakeAppx pack \[options\]** **/p** *&lt;output package name&gt;***/d** *&lt;content directory&gt;*
+**MakeAppx pack \[options\]** **/p** *<output package name&gt;***/d** *<content directory&gt;*
 
-**MakeAppx pack \[options\]** **/p** *&lt;output package name&gt;***/f** *&lt;mapping file&gt;*
+**MakeAppx pack \[options\]** **/p** *<output package name&gt;***/f** *<mapping file&gt;*
 
-**MakeAppx unpack \[options\]** **/p** *&lt;input package name&gt;***/d** *&lt;output directory&gt;*
+**MakeAppx unpack \[options\]** **/p** *<input package name&gt;***/d** *<output directory&gt;*
 
-**MakeAppx bundle \[options\]** **/p** *&lt;output bundle name&gt;***/d** *&lt;content directory&gt;*
+**MakeAppx bundle \[options\]** **/p** *<output bundle name&gt;***/d** *<content directory&gt;*
 
-**MakeAppx bundle \[options\]** **/p** *&lt;output bundle name&gt;***/f** *&lt;mapping file&gt;*
+**MakeAppx bundle \[options\]** **/p** *<output bundle name&gt;***/f** *<mapping file&gt;*
 
-**MakeAppx unbundle \[options\]** **/p** *&lt;input bundle name&gt;***/d** *&lt;output directory&gt;*
+**MakeAppx unbundle \[options\]** **/p** *<input bundle name&gt;***/d** *<output directory&gt;*
 
-**MakeAppx encrypt \[options\]** **/p** *&lt;input package name&gt;***/ep** *&lt;output package name&gt;*
+**MakeAppx encrypt \[options\]** **/p** *<input package name&gt;***/ep** *<output package name&gt;*
 
-**MakeAppx decrypt \[options\]** **/p** *&lt;input package name&gt;***/ep** *&lt;output package name&gt;*
+**MakeAppx decrypt \[options\]** **/p** *<input package name&gt;***/ep** *<output package name&gt;*
 
 ## Command-line Syntax
 
@@ -312,7 +312,7 @@ Creates an encrypted app package from the specified input app package at the spe
 
 <dl> <dt>
 
-<span id="_kf__key_file_"></span><span id="_KF__KEY_FILE_"></span>**/kf** *&lt;key file&gt;*
+<span id="_kf__key_file_"></span><span id="_KF__KEY_FILE_"></span>**/kf** *<key file&gt;*
 </dt> <dd>
 
 Encrypts the package or bundle using the key from the specified key file. You can't use this option with **kt**.
@@ -332,7 +332,7 @@ Creates an unencrypted app package from the specified input app package at the s
 
 <dl> <dt>
 
-<span id="_kf__key_file_"></span><span id="_KF__KEY_FILE_"></span>**/kf** *&lt;key file&gt;*
+<span id="_kf__key_file_"></span><span id="_KF__KEY_FILE_"></span>**/kf** *<key file&gt;*
 </dt> <dd>
 
 Decrypts the package or bundle using the key from the specified key file. You can't use this option with **kt**.

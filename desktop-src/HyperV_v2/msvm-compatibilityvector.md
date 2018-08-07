@@ -203,8 +203,8 @@ The set of operations defined for **CompareOperation** just involve basic intege
 | VmCcDisjointSet  | VmAttr must be a disjoint set from HostAttr      | If ((VmAttr & HostAttr) == 0)        |
 | VmCcGreater      | VmAttr must be greater than HostAttr             | If (VmAttr &gt; HostAttr)            |
 | VmCcGreaterEqual | VmAttr must be greater than or equal to HostAttr | If (VmAttr &gt;= HostAttr)           |
-| VmCcLess         | VmAttr must be less than HostAttr                | If (VmAttr &lt; HostAttr)            |
-| VmCcLessEqual    | VmAttr must be less than or equal to HostAttr    | If (VmAttr &lt;= HostAttr)           |
+| VmCcLess         | VmAttr must be less than HostAttr                | If (VmAttr < HostAttr)            |
+| VmCcLessEqual    | VmAttr must be less than or equal to HostAttr    | If (VmAttr <= HostAttr)           |
 | VmCcMultiple     | VmAttr must be a multiple of HostAttr            | If ((VmAttr % HostAttr) == 0)        |
 | VmCcDivisor      | VmAttr must be a divisor of HostAttr             | If ((HostAttr % VmAttr) == 0)        |
 

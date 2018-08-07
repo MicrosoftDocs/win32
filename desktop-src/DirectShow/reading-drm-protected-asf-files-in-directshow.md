@@ -327,8 +327,8 @@ HRESULT DrmManager::Initialize(IBaseFilter *pFilter)
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>    CComPtr&lt;IServiceProvider&gt; pService;
-    CComPtr&lt;IWMDRMReader&gt; pDrmReader;
+<td><pre><code>    CComPtr<IServiceProvider&gt; pService;
+    CComPtr<IWMDRMReader&gt; pDrmReader;
 
     HRESULT hr = pFilter-&gt;QueryInterface(&pService);
     if (SUCCEEDED(hr))

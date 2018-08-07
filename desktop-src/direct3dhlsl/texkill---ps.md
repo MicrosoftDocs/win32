@@ -57,7 +57,7 @@ This instruction is used as follows:
 
 <dl> texkill tn  
 // The pixel masking is accomplished as follows:  
-if ( the x,y,z components of TextureCoordinates(stage n)<sub>UVWQ</sub>&lt; 0 )  
+if ( the x,y,z components of TextureCoordinates(stage n)<sub>UVWQ</sub>< 0 )  
 cancel pixel render  
 </dl>
 

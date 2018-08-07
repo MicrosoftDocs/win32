@@ -41,11 +41,11 @@ The following command stops the above Winsock tracing on a computer for the sess
 
 A binary log file will be written to the location specified by the –o parameter. To translate the binary file into a readable text file, **tracerpt.exe** is used:
 
-**tracerpt.exe &lt;name of the .etl file&gt; –o winsocktracelog.txt**
+**tracerpt.exe <name of the .etl file&gt; –o winsocktracelog.txt**
 
 If an output file containing xml rather than plain text is preferred, the following command is used:
 
-**tracerpt.exe &lt;name of the .etl file&gt; –o winsocktracelog.xml –of xml**
+**tracerpt.exe <name of the .etl file&gt; –o winsocktracelog.xml –of xml**
 
 Winsock catalog change tracing is enabled by default on Windows Vista and later.
 
@@ -66,11 +66,11 @@ The following command stops the above Winsock tracing on a computer for the sess
 
 A binary log file will be written to the location specified by the –o parameter. To translate the binary file into a readable text file, **tracerpt.exe** is used:
 
-**tracerpt.exe &lt;name of the .etl file&gt; –o winsockcatalogtracelog.txt**
+**tracerpt.exe <name of the .etl file&gt; –o winsockcatalogtracelog.txt**
 
 If an output file containing xml rather than plain text is preferred, the following command is used:
 
-**tracerpt.exe &lt;name of the .etl file&gt; –o winsockcatalogtracelog.xml –of xml**
+**tracerpt.exe <name of the .etl file&gt; –o winsockcatalogtracelog.xml –of xml**
 
 ## Using Event Viewer to Start Winsock Network Event Tracing
 

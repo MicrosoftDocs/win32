@@ -26,7 +26,7 @@ Specifies an adjustment value used to define values for a formula. Read/write. *
 
 **Tag Syntax**
 
-&lt;v: *element* adj=" *expression* "&gt;
+<v: *element* adj=" *expression* "&gt;
 
 **Script Syntax**
 

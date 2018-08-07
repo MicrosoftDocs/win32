@@ -26,7 +26,7 @@ Defines multiple colors for a gradient fill. Read/write. **IVgGradientColorArray
 
 **Tag Syntax**
 
-&lt;v: *element* colors=" *expression* "&gt;
+<v: *element* colors=" *expression* "&gt;
 
 **Script Syntax**
 

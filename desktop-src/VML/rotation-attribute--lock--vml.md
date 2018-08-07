@@ -26,7 +26,7 @@ Determines whether rotation of shapes will be allowed in an editor. Read/write. 
 
 **Tag Syntax**
 
-&lt;o: *element* rotation=" *expression* "&gt;
+<o: *element* rotation=" *expression* "&gt;
 
 **Remarks**
 

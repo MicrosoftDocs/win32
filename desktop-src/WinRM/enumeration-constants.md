@@ -62,15 +62,15 @@ This flag controls how the *filter* parameter in the call to [**Session.Enumerat
 
 The format of the filter may be an XML fragment or a string of plain text. The format is determined by the [*filter dialect*](windows-remote-management-glossary.md) of the [*filter*](windows-remote-management-glossary.md) used in the call to [**Session.Enumerate**](session-enumerate.md) or [**IWSManSession::Enumerate**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-enumerate), which is specific to the operation performed.
 
-If the *dialect* parameter is not specified, WinRM attempts to determine the dialect based on the first character of the filter. If the first character is &lt;, but the filter is not actually an XML fragment, then this flag should be set. For example, a filter in the following format requires that you set **WSManFlagNonXmlText** so that the filter is correctly interpreted:
+If the *dialect* parameter is not specified, WinRM attempts to determine the dialect based on the first character of the filter. If the first character is <, but the filter is not actually an XML fragment, then this flag should be set. For example, a filter in the following format requires that you set **WSManFlagNonXmlText** so that the filter is correctly interpreted:
 
 `<25 && > 1`
 
-If the filter is an XML fragment, then this flag is not required because the fragment starts with &lt;, which WinRM correctly interprets as XML. For example,
+If the filter is an XML fragment, then this flag is not required because the fragment starts with <, which WinRM correctly interprets as XML. For example,
 
 `<filter>select * from aDataStructure</filter>`
 
-If the filter is in plain text that does not start with &lt;, then this flag is not required. For example,
+If the filter is in plain text that does not start with <, then this flag is not required. For example,
 
 `select * from aDataStructure`
 

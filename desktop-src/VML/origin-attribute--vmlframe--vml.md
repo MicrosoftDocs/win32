@@ -26,7 +26,7 @@ Defines the origin of the clipping region of the frame. Read/write. **VgVector2D
 
 **Tag Syntax**
 
-&lt;v: *element* origin=" *expression* "&gt;
+<v: *element* origin=" *expression* "&gt;
 
 **Script Syntax**
 

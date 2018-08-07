@@ -67,8 +67,8 @@ void main()
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
+<td><pre><code>#include <windows.h&gt;
+#include <stdio.h&gt;
 #include &quot;Iphlpapi.h&quot;
 
 int __cdecl main(){
@@ -110,7 +110,7 @@ int __cdecl main(){
 
     // Print out the name and description of each MIB interface in the table
     wprintf(L&quot;There were %d MIB table records found:\n&quot;, pIntfTable-&gt;dwNumEntries);
-    for(UINT i=0; i &lt; pIntfTable-&gt;dwNumEntries; i++){
+    for(UINT i=0; i < pIntfTable-&gt;dwNumEntries; i++){
         wprintf(L&quot;%d\t%s\t&quot;, i, pIntfTable-&gt;table[i].wszName, pIntfTable-&gt;table[i].bDescr);
         printf(&quot;%s\n&quot;, pIntfTable-&gt;table[i].bDescr);
     }

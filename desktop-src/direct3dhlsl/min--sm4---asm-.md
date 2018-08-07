@@ -26,7 +26,7 @@ Component-wise float minimum.
 
 | Item                                                            | Description                                                                                             |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| <span id="dest"></span><span id="DEST"></span>*dest*<br/> | \[in\] The result of the operation.<br/> *dest* = *src0* &lt; *src1* ? *src0* : *src1*<br/> |
+| <span id="dest"></span><span id="DEST"></span>*dest*<br/> | \[in\] The result of the operation.<br/> *dest* = *src0* < *src1* ? *src0* : *src1*<br/> |
 | <span id="src0"></span><span id="SRC0"></span>*src0*<br/> | \[in\] The components to compare to *src1*.<br/>                                                  |
 | <span id="src1"></span><span id="SRC1"></span>*src1*<br/> | \[in\] The components to compare to *src0*.<br/>                                                  |
 

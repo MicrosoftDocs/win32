@@ -828,8 +828,8 @@ Version of the operation.
 
 The version of the operation should be in one of the following forms:
 
--   &lt;major&gt;.&lt;minor&gt;.&lt;revision&gt;
--   &lt;major&gt;.&lt;minor&gt;&lt;letter&gt;&lt;revision&gt;
+-   <major&gt;.<minor&gt;.<revision&gt;
+-   <major&gt;.<minor&gt;<letter&gt;<revision&gt;
 
 This property is inherited from [**CIM\_Check**](cim-check.md).
 

@@ -1,5 +1,5 @@
 ---
-Description: Specifies how IPropertyDescription::FormatForDisplay should format the property's value as a string. This is applicable only if &lt;displayInfo displayType=&\#0034;String&\#0034;&gt;.
+Description: Specifies how IPropertyDescription::FormatForDisplay should format the property's value as a string. This is applicable only if <displayInfo displayType=&\#0034;String&\#0034;&gt;.
 ms.assetid: 7c38bc15-be86-4260-b2e4-13afc90de6d7
 title: stringFormat
 ms.technology: desktop
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # stringFormat
 
-Specifies how [**IPropertyDescription::FormatForDisplay**](https://msdn.microsoft.com/library/Bb761521(v=VS.85).aspx) should format the property's value as a string. This is applicable only if &lt;displayInfo displayType="String"&gt;. There should be only one [stringFormat](https://msdn.microsoft.com/library/Bb773886(v=VS.85).aspx) element for each [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) element.
+Specifies how [**IPropertyDescription::FormatForDisplay**](https://msdn.microsoft.com/library/Bb761521(v=VS.85).aspx) should format the property's value as a string. This is applicable only if <displayInfo displayType="String"&gt;. There should be only one [stringFormat](https://msdn.microsoft.com/library/Bb773886(v=VS.85).aspx) element for each [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) element.
 
 If there are multiple elements, the last one is used. If no [stringFormat](https://msdn.microsoft.com/library/Bb773886(v=VS.85).aspx) element is provided, then the default attribute settings are applied to the property description.
 

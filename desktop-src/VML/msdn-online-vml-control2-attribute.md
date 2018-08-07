@@ -26,7 +26,7 @@ Defines the second control point of a bezier curve. Read/write. **VgVector2D**.
 
 **Tag Syntax**
 
-&lt;v: *element* control2=" *expression* "&gt;
+<v: *element* control2=" *expression* "&gt;
 
 **Script Syntax**
 

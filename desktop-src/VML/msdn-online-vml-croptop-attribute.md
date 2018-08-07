@@ -26,7 +26,7 @@ Defines the percentage of picture removal from the top side. Read/write. **VgNum
 
 **Tag Syntax**
 
-&lt;v: *element* croptop=" *expression* "&gt;
+<v: *element* croptop=" *expression* "&gt;
 
 **Script Syntax**
 

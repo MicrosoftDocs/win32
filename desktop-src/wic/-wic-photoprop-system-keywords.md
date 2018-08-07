@@ -45,7 +45,7 @@ Values from different schemas are merged.
 
 | Order | Path                              | Disk Format    |
 |-------|-----------------------------------|----------------|
-| 1     | /xmp/&lt;xmpbag&gt;dc:subject     | unicode        |
+| 1     | /xmp/<xmpbag&gt;dc:subject     | unicode        |
 | 2     | /app13/irb/8bimiptc/iptc/keywords |                |
 | 3     | /app1/ifd/{ushort=18247}          | unicode\_bytes |
 | 4     | /app1/ifd/{ushort=40094}          | unicode\_bytes |
@@ -60,12 +60,12 @@ Values from different schemas are merged.
 
 | Order | Path                                              | Disk Format    |
 |-------|---------------------------------------------------|----------------|
-| 1     | /xmp/&lt;xmpbag&gt;dc:subject                     | unicode        |
+| 1     | /xmp/<xmpbag&gt;dc:subject                     | unicode        |
 | 2     | /app13/irb/8bimiptc/iptc/keywords                 |                |
 | 3     | /app1/ifd/{ushort=18247}                          | unicode\_bytes |
 | 4     | /app1/ifd/{ushort=40094}                          | unicode\_bytes |
-| 5     | /xmp/&lt;xmpbag&gt;MicrosoftPhoto:LastKeywordXMP  | unicode        |
-| 6     | /xmp/&lt;xmpbag&gt;MicrosoftPhoto:LastKeywordIPTC | unicode        |
+| 5     | /xmp/<xmpbag&gt;MicrosoftPhoto:LastKeywordXMP  | unicode        |
+| 6     | /xmp/<xmpbag&gt;MicrosoftPhoto:LastKeywordIPTC | unicode        |
 
 
 
@@ -81,8 +81,8 @@ Values from different schemas are merged.
 | 2     | /app13/irb/8bimiptc/iptc/keywords                 |
 | 3     | /app1/ifd/{ushort=18247}                          |
 | 4     | /app1/ifd/{ushort=40094}                          |
-| 5     | /xmp/&lt;xmpbag&gt;MicrosoftPhoto:LastKeywordXMP  |
-| 6     | /xmp/&lt;xmpbag&gt;MicrosoftPhoto:LastKeywordIPTC |
+| 5     | /xmp/<xmpbag&gt;MicrosoftPhoto:LastKeywordXMP  |
+| 6     | /xmp/<xmpbag&gt;MicrosoftPhoto:LastKeywordIPTC |
 
 
 
@@ -96,7 +96,7 @@ Values from different schemas are merged.
 
 | Order | Path                              | Disk Format    |
 |-------|-----------------------------------|----------------|
-| 1     | /ifd/xmp/&lt;xmpbag&gt;dc:subject | unicode        |
+| 1     | /ifd/xmp/<xmpbag&gt;dc:subject | unicode        |
 | 2     | /ifd/iptc/keywords                |                |
 | 3     | /ifd/{ushort=18247}               | unicode\_bytes |
 | 4     | /ifd/{ushort=40094}               | unicode\_bytes |
@@ -112,14 +112,14 @@ Values from different schemas are merged.
 
 | Order | Path                                                             | Disk Format    |
 |-------|------------------------------------------------------------------|----------------|
-| 1     | /ifd/xmp/&lt;xmpbag&gt;dc:subject                                | unicode        |
+| 1     | /ifd/xmp/<xmpbag&gt;dc:subject                                | unicode        |
 | 2     | /ifd/iptc/keywords                                               |                |
 | 3     | /ifd/irb/8bimiptc/iptc/keywords                                  |                |
 | 4     | /ifd/{ushort=18247}                                              | unicode\_bytes |
 | 5     | /ifd/{ushort=40094}                                              | unicode\_bytes |
-| 6     | /ifd/xmp/&lt;xmpbag&gt;MicrosoftPhoto:LastKeywordXMP             | unicode        |
-| 7     | /ifd/xmp/&lt;xmpbag&gt;MicrosoftPhoto:LastKeywordIPTC            | unicode        |
-| 8     | /ifd/xmp/&lt;xmpbag&gt;MicrosoftPhoto:LastKeywordIPTC\_TIFF\_IRB | unicode        |
+| 6     | /ifd/xmp/<xmpbag&gt;MicrosoftPhoto:LastKeywordXMP             | unicode        |
+| 7     | /ifd/xmp/<xmpbag&gt;MicrosoftPhoto:LastKeywordIPTC            | unicode        |
+| 8     | /ifd/xmp/<xmpbag&gt;MicrosoftPhoto:LastKeywordIPTC\_TIFF\_IRB | unicode        |
 
 
 
@@ -136,9 +136,9 @@ Values from different schemas are merged.
 | 3     | /ifd/irb/8bimiptc/iptc/keywords                                  |
 | 4     | /ifd/{ushort=18247}                                              |
 | 5     | /ifd/{ushort=40094}                                              |
-| 6     | /ifd/xmp/&lt;xmpbag&gt;MicrosoftPhoto:LastKeywordXMP             |
-| 7     | /ifd/xmp/&lt;xmpbag&gt;MicrosoftPhoto:LastKeywordIPTC            |
-| 8     | /ifd/xmp/&lt;xmpbag&gt;MicrosoftPhoto:LastKeywordIPTC\_TIFF\_IRB |
+| 6     | /ifd/xmp/<xmpbag&gt;MicrosoftPhoto:LastKeywordXMP             |
+| 7     | /ifd/xmp/<xmpbag&gt;MicrosoftPhoto:LastKeywordIPTC            |
+| 8     | /ifd/xmp/<xmpbag&gt;MicrosoftPhoto:LastKeywordIPTC\_TIFF\_IRB |
 
 
 

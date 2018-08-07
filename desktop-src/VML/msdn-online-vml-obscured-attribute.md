@@ -26,7 +26,7 @@ Determines whether a shadow is transparent. Read/write. **VgTriState**.
 
 **Tag Syntax**
 
-&lt;v: *element* obscured=" *expression* "&gt;
+<v: *element* obscured=" *expression* "&gt;
 
 **Script Syntax**
 

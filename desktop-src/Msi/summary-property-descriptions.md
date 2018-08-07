@@ -47,7 +47,7 @@ Summary properties for installation packages, transforms, and patches are descri
 </tr>
 <tr class="odd">
 <td>[<strong>Comments</strong>](comments-summary.md)</td>
-<td>Contains the phrase: &quot;This installer database contains the logic and data required to install &lt;<em>product name</em>&gt;.&quot;</td>
+<td>Contains the phrase: &quot;This installer database contains the logic and data required to install <<em>product name</em>&gt;.&quot;</td>
 </tr>
 <tr class="even">
 <td>[<strong>Template</strong>](template-summary.md) (REQUIRED)</td>
@@ -119,7 +119,7 @@ The value of this property must be 200 or greater with [64-bit Windows Installer
 | [**Subject**](subject-summary.md)                            | The name of the product installed by the original installation package. This should be the same value as the [**Subject Summary**](subject-summary.md) property in the original installation package.                                                                                            |
 | [**Author**](author-summary.md)                              | The name of the manufacturer of this transform.                                                                                                                                                                                                                                                   |
 | [**Keywords**](keywords-summary.md)                          | A list of keywords that may be used by file browsers to do keyword searches for a file. The keywords should include "Installer" as well as product-specific keywords.                                                                                                                             |
-| [**Comments**](comments-summary.md)                          | Contains the phrase: "This transform contains the logic and data required to install &lt;*product name*&gt;."                                                                                                                                                                                     |
+| [**Comments**](comments-summary.md)                          | Contains the phrase: "This transform contains the logic and data required to install <*product name*&gt;."                                                                                                                                                                                     |
 | [**Template**](template-summary.md) (REQUIRED)               | The platform and language versions compatible with this transform. This value may be left blank if there are no restrictions. Only one language can be specified for a transform. For more information about the syntax, see [**Template**](template-summary.md).                                |
 | [**Last Saved By**](last-saved-by-summary.md)                | The platform and language ID(s) that the database has after it has been transformed. The [**Template Summary**](template-summary.md) property in the new database should be set to the same values.                                                                                              |
 | [**Revision Number**](revision-number-summary.md) (REQUIRED) | A list of the product code GUIDs and version of the new and original products and the upgrade code GUID. The list is separated by semicolons as follows. *Original-Product-Code Original-Product-Version*;*New-Product Code New-Product-Version*; *Upgrade-Code*<br/>                       |
@@ -171,7 +171,7 @@ The value of this property must be 200 or greater with [64-bit Windows Installer
 </tr>
 <tr class="odd">
 <td>[<strong>Comments</strong>](comments-summary.md)</td>
-<td>Contains the phrase: &quot;This patch contains the logic and data required to install &lt;<em>product name</em>&gt;.&quot;</td>
+<td>Contains the phrase: &quot;This patch contains the logic and data required to install <<em>product name</em>&gt;.&quot;</td>
 </tr>
 <tr class="even">
 <td>[<strong>Template</strong>](template-summary.md) (REQUIRED)</td>

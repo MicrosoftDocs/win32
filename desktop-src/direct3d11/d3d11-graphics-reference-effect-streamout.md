@@ -75,7 +75,7 @@ Note that gs\_5\_0 shaders can define up to four streams of data. The resulting 
 
 | Name              | Description                                                                                           |
 |-------------------|-------------------------------------------------------------------------------------------------------|
-| **Buffer**        | Optional. An integer, 0 &lt;= Buffer &lt; 4, specifying which stream out buffer the value will go to. |
+| **Buffer**        | Optional. An integer, 0 <= Buffer < 4, specifying which stream out buffer the value will go to. |
 | **Semantic**      | A string, along with SemanticIndex, specifying which value to output.                                 |
 | **SemanticIndex** | Optional. The index associated with Semantic.                                                         |
 | **Mask**          | Optional. A component mask, indicating which components of the value to output.                       |

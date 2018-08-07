@@ -86,7 +86,7 @@ Must be one of the following values.
 
 ## Remarks
 
-The first four characters of a metafile playlist must be "&lt;ASX". Other elements defined within the scope of the **ASX** element, such as **TITLE** and **AUTHOR**, are associated with the show information displayed by Windows Media Player.
+The first four characters of a metafile playlist must be "<ASX". Other elements defined within the scope of the **ASX** element, such as **TITLE** and **AUTHOR**, are associated with the show information displayed by Windows Media Player.
 
 For Windows Media Player, the syntax version number is 3.0. Windows Media Player supports all previous versions of metafile syntax. Acceptable values for the **VERSION** attribute include both 3.0 and 3 (with no decimal point).
 

@@ -30,15 +30,15 @@ This element is new in v4 of the schema. The element can have one of the followi
 
 ## Element hierarchy
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-[&lt;Context&gt;](element-context.md)  
-**&lt;IPType&gt;**
+[<MBNProfileExt&gt;](element-mbnprofileext.md)  
+[<Context&gt;](element-context.md)  
+**<IPType&gt;**
 
 <!-- -->
 
-[&lt;ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
-[&lt;Context&gt;](element-1-context.md)  
-**&lt;IPType&gt;**
+[<ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
+[<Context&gt;](element-1-context.md)  
+**<IPType&gt;**
 
 ## Syntax
 

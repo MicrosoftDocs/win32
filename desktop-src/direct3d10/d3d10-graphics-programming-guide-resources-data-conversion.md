@@ -95,7 +95,7 @@ The following table describes conversions from various representations described
 <li>Let c represent the starting value.</li>
 <li>If c is NaN, the result is 0.</li>
 <li>If c &gt; 1.0f, including INF, it is clamped to 1.0f.</li>
-<li>If c &lt; -1.0f, including -INF, it is clamped to -1.0f.</li>
+<li>If c < -1.0f, including -INF, it is clamped to -1.0f.</li>
 <li>Convert from float scale to integer scale: c = c * (2ⁿ⁻¹-1).</li>
 <li>Convert to an integer as follows.
 <ul>
@@ -117,7 +117,7 @@ This conversion is permitted a tolerance of D3D<em>xx</em>_FLOAT32_TO_INTEGER_TO
 <ul>
 <li>If c is NaN, the result is 0.</li>
 <li>If c &gt; 1.0f, including INF, it is clamped to 1.0f.</li>
-<li>If c &lt; 0.0f, including -INF, it is clamped to 0.0f.</li>
+<li>If c < 0.0f, including -INF, it is clamped to 0.0f.</li>
 <li>Convert from float scale to integer scale: c = c * (2ⁿ-1).</li>
 <li>Convert to integer.
 <ul>
@@ -134,7 +134,7 @@ This conversion is permitted a tolerance of D3D<em>xx</em>_FLOAT32_TO_INTEGER_TO
 <ul>
 <li>Take the starting n-bit value, convert it a float (0.0f, 1.0f, 2.0f, etc.); call this c.</li>
 <li>c = c * (1.0f / (2ⁿ-1))</li>
-<li>If (c &lt; = D3D<em>xx</em>_SRGB_TO_FLOAT_THRESHOLD) then: result = c / D3D<em>xx</em>_SRGB_TO_FLOAT_DENOMINATOR_1, else: result = ((c + D3D<em>xx</em>_SRGB_TO_FLOAT_OFFSET)/D3D<em>xx</em>_SRGB_TO_FLOAT_DENOMINATOR_2)D3D<em>xx</em>_SRGB_TO_FLOAT_EXPONENT</li>
+<li>If (c < = D3D<em>xx</em>_SRGB_TO_FLOAT_THRESHOLD) then: result = c / D3D<em>xx</em>_SRGB_TO_FLOAT_DENOMINATOR_1, else: result = ((c + D3D<em>xx</em>_SRGB_TO_FLOAT_OFFSET)/D3D<em>xx</em>_SRGB_TO_FLOAT_DENOMINATOR_2)D3D<em>xx</em>_SRGB_TO_FLOAT_EXPONENT</li>
 </ul>
 This conversion is permitted a tolerance of D3D<em>xx</em>_SRGB_TO_FLOAT_TOLERANCE_IN_ULP Unit-Last-Place (on the SRGB side). <br/></td>
 </tr>
@@ -146,8 +146,8 @@ This conversion is permitted a tolerance of D3D<em>xx</em>_SRGB_TO_FLOAT_TOLERAN
 <li>Suppose the starting value is c.</li>
 <li>If c is NaN, the result is 0.</li>
 <li>If c &gt; 1.0f, including INF, is clamped to 1.0f.</li>
-<li>If c &lt; 0.0f, including -INF, it is clamped to 0.0f.</li>
-<li>If (c &lt;= D3D<em>xx</em>_FLOAT_TO_SRGB_THRESHOLD) then: c = D3D<em>xx</em>_FLOAT_TO_SRGB_SCALE_1 * c, else: c = D3D<em>xx</em>_FLOAT_TO_SRGB_SCALE_2 * c(D3D<em>xx</em>_FLOAT_TO_SRGB_EXPONENT_NUMERATOR/D3D<em>xx</em>_FLOAT_TO_SRGB_EXPONENT_DENOMINATOR) - D3D<em>xx</em>_FLOAT_TO_SRGB_OFFSET</li>
+<li>If c < 0.0f, including -INF, it is clamped to 0.0f.</li>
+<li>If (c <= D3D<em>xx</em>_FLOAT_TO_SRGB_THRESHOLD) then: c = D3D<em>xx</em>_FLOAT_TO_SRGB_SCALE_1 * c, else: c = D3D<em>xx</em>_FLOAT_TO_SRGB_SCALE_2 * c(D3D<em>xx</em>_FLOAT_TO_SRGB_EXPONENT_NUMERATOR/D3D<em>xx</em>_FLOAT_TO_SRGB_EXPONENT_DENOMINATOR) - D3D<em>xx</em>_FLOAT_TO_SRGB_OFFSET</li>
 <li>Convert from float scale to integer scale: c = c * (2ⁿ-1).</li>
 <li>Convert to integer:
 <ul>
@@ -228,7 +228,7 @@ Fixed point integer representations are used in two ways in Direct3D.
 <li>Compute FixedMin = -2⁽ⁱ⁻¹⁾</li>
 <li>Compute FixedMax = 2⁽ⁱ⁻¹⁾ - 2<sup>(-f)</sup></li>
 <li>If n is a NaN, result = 0; if n is +Inf, result = FixedMax*2<sup>f</sup>; if n is -Inf, result = FixedMin*2<sup>f</sup></li>
-<li>If n &gt;= FixedMax, result = Fixedmax*2<sup>f</sup>; if n &lt;= FixedMin, result = FixedMin*2<sup>f</sup></li>
+<li>If n &gt;= FixedMax, result = Fixedmax*2<sup>f</sup>; if n <= FixedMin, result = FixedMin*2<sup>f</sup></li>
 <li>Else compute n*2<sup>f</sup> and convert to integer.</li>
 </ul>
 Implementations are permitted D3D<em>xx</em>_FLOAT32_TO_INTEGER_TOLERANCE_IN_ULP Unit-Last-Place tolerance in the integer result, instead of the infinitely precise value n*2<sup>f</sup> after the last step above.<br/></td>

@@ -215,7 +215,7 @@ where xxx is the value returned from the GUID property. For more information, se
 |-------------|---------------------------------------------------------|-------------------------------------------------------------|
 | **Name**    | CN=Jeff Smith                                           | CN=Jeff Smith                                               |
 | **Parent**  | LDAP://server/CN=Users,DC=Fabrikam,DC=com               | LDAP://server/CN=Users,DC=Fabrikam,DC=com                   |
-| **ADsPath** | LDAP://server/CN=Jeff Smith,CN=Users,DC=Fabrikam,DC=com | LDAP://server/&lt;GUID=c0f59dfcf507d311a99e0000f879f7c7&gt; |
+| **ADsPath** | LDAP://server/CN=Jeff Smith,CN=Users,DC=Fabrikam,DC=com | LDAP://server/<GUID=c0f59dfcf507d311a99e0000f879f7c7&gt; |
 
 
 

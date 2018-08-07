@@ -29,7 +29,7 @@ api_location:
 
 # Win32\_SystemConfigurationChangeEvent class
 
-The **Win32\_SystemConfigurationChangeEvent** [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) indicates that the device list on the system has been refreshed (a device has been added or removed, or the configuration changed). An event is fired and an instance of this is class created when the "DevMgrRefreshOn&lt;*ComputerName*&gt;" message is sent. The exact change to the device list is not contained in the message, so a device refresh is required to obtain the current system settings. Examples of configuration changes affected are IRQ settings, COM ports, and BIOS versions.
+The **Win32\_SystemConfigurationChangeEvent** [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) indicates that the device list on the system has been refreshed (a device has been added or removed, or the configuration changed). An event is fired and an instance of this is class created when the "DevMgrRefreshOn<*ComputerName*&gt;" message is sent. The exact change to the device list is not contained in the message, so a device refresh is required to obtain the current system settings. Examples of configuration changes affected are IRQ settings, COM ports, and BIOS versions.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 

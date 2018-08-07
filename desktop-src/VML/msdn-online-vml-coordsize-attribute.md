@@ -26,7 +26,7 @@ Specifies the horizontal and vertical units of the rectangle that bounds a shape
 
 **Tag Syntax**
 
-&lt;v: *element* coordsize=" *expression* "&gt;
+<v: *element* coordsize=" *expression* "&gt;
 
 **Script Syntax**
 

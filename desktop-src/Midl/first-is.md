@@ -52,7 +52,7 @@ The following relationship must also hold:
 0 <= first_is <= max_is
 ```
 
-The following relationship must hold when **\[**[**max\_is**](max-is.md)**\] &lt;= 0:**
+The following relationship must hold when **\[**[**max\_is**](max-is.md)**\] <= 0:**
 
 ``` syntax
 first_is == 0

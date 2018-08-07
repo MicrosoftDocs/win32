@@ -22,15 +22,15 @@ For further information, see the documentation for the v1 [**AuthProtocol**](htt
 
 ## Element hierarchy
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-[&lt;Context&gt;](element-context.md)  
-**&lt;AuthProtocol&gt;**
+[<MBNProfileExt&gt;](element-mbnprofileext.md)  
+[<Context&gt;](element-context.md)  
+**<AuthProtocol&gt;**
 
 <!-- -->
 
-[&lt;ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
-[&lt;Context&gt;](element-1-context.md)  
-**&lt;AuthProtocol&gt;**
+[<ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
+[<Context&gt;](element-1-context.md)  
+**<AuthProtocol&gt;**
 
 ## Syntax
 

@@ -74,24 +74,24 @@ A Bye message has the following focus points.
 <tbody>
 <tr class="odd">
 <td>Bye</td>
-<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Action&gt;
+<td><pre class="syntax" data-space="preserve"><code><wsa:Action&gt;
     http://schemas.xmlsoap.org/ws/2005/04/discovery/Bye
-&lt;/wsa:Action&gt;</code></pre></td>
+</wsa:Action&gt;</code></pre></td>
 <td>The Bye SOAP action identifies the message as a Bye message.</td>
 </tr>
 <tr class="even">
 <td>AppSequence</td>
-<td><pre class="syntax" data-space="preserve"><code>&lt;wsd:AppSequence InstanceId=&quot;2&quot;
+<td><pre class="syntax" data-space="preserve"><code><wsd:AppSequence InstanceId=&quot;2&quot;
     SequenceId=&quot;urn:uuid:369a7d7b-5f87-48a4-aa9a-189edf2a8772&quot;
     MessageNumber=&quot;21&quot;&gt;
-&lt;/wsd:AppSequence&gt;</code></pre></td>
+</wsd:AppSequence&gt;</code></pre></td>
 <td>Contains application sequencing information, which helps to maintain the sequence of messages even if they are received out of order. The AppSequence is validated as described in [AppSequence Validation Rules](appsequence-validation-rules.md).</td>
 </tr>
 <tr class="odd">
 <td>Address</td>
-<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Address&gt;
+<td><pre class="syntax" data-space="preserve"><code><wsa:Address&gt;
     urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
-&lt;/wsa:Address&gt;</code></pre></td>
+</wsa:Address&gt;</code></pre></td>
 <td>Contains the address of the endpoint going offline.</td>
 </tr>
 </tbody>

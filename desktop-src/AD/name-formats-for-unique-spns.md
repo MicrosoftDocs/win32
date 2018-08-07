@@ -42,19 +42,19 @@ An SPN must be unique in the forest in which it is registered. If it is not uniq
 </thead>
 <tbody>
 <tr class="odd">
-<td>&quot;&lt;service class&gt;&quot;</td>
+<td>&quot;<service class&gt;&quot;</td>
 <td>A string that identifies the general class of service; for example, &quot;SqlServer&quot;. There are well-known service class names, such as &quot;www&quot; for a web service or &quot;ldap&quot; for a directory service. In general, this can be any string that is unique to the service class. Be aware that the SPN syntax uses a forward slash (/) to separate elements, so this character cannot appear in a service class name.</td>
 </tr>
 <tr class="even">
-<td>&quot;&lt;host&gt;&quot;</td>
+<td>&quot;<host&gt;&quot;</td>
 <td>The name of the computer on which the service is running. This can be a fully qualified DNS name or a NetBIOS name. Be aware that NetBIOS names are not guaranteed to be unique in a forest, so an SPN that contains a NetBIOS name may not be unique.</td>
 </tr>
 <tr class="odd">
-<td>&quot;&lt;port&gt;&quot;</td>
+<td>&quot;<port&gt;&quot;</td>
 <td>An optional port number to differentiate between multiple instances of the same service class on a single host computer. Omit this component if the service uses the default port for its service class.</td>
 </tr>
 <tr class="even">
-<td>&quot;&lt;service name&gt;&quot;</td>
+<td>&quot;<service name&gt;&quot;</td>
 <td>An optional name used in the SPNs of a replicable service to identify the data or services provided by the service or the domain served by the service. This component can have one of the following formats:
 <ul>
 <li>The distinguished name or objectGUID of an object in Active Directory Domain Services, such as a service connection point (SCP).</li>
@@ -73,7 +73,7 @@ The components present in a service's SPNs depend on how the service is identifi
 
 ## Host-based services
 
-For a host-based service, the "&lt;service name&gt;" component is omitted because the service is uniquely identified by the service class and the name of the host computer on which the service is installed.
+For a host-based service, the "<service name&gt;" component is omitted because the service is uniquely identified by the service class and the name of the host computer on which the service is installed.
 
 
 ```C++
@@ -93,7 +93,7 @@ The service class alone is sufficient to identify for clients the features that 
 
 ## Replicable services
 
-For a replicable service there can be one or many instances of the service (replicas), and clients do not differentiate which replica they connect to because each provides the same service. The SPNs for each replica have the same "&lt;service class&gt;" and "&lt;service name&gt;" components, where "&lt;service name&gt;" identifies more specifically the features provided by the service. Only the "&lt;host&gt;" and optional "&lt;port&gt;" components would vary from SPN to SPN.
+For a replicable service there can be one or many instances of the service (replicas), and clients do not differentiate which replica they connect to because each provides the same service. The SPNs for each replica have the same "<service class&gt;" and "<service name&gt;" components, where "<service name&gt;" identifies more specifically the features provided by the service. Only the "<host&gt;" and optional "<port&gt;" components would vary from SPN to SPN.
 
 
 ```C++
@@ -102,7 +102,7 @@ For a replicable service there can be one or many instances of the service (repl
 
 
 
-An example of a replicable service would be an instance of a database service that provides access to a specified database. In this case, "&lt;service class&gt;" identifies the database application and "&lt;service name&gt;" identifies the specific database. "&lt;service name&gt;" could be the distinguished name of a service connection point (SCP) containing connection data for the database.
+An example of a replicable service would be an instance of a database service that provides access to a specified database. In this case, "<service class&gt;" identifies the database application and "<service name&gt;" identifies the specific database. "<service name&gt;" could be the distinguished name of a service connection point (SCP) containing connection data for the database.
 
 
 ```C++
@@ -124,9 +124,9 @@ MyDBService/host3/CN=hrdb,OU=mktg,DC=example,DC=com
 
 
 
-Another example of a replicable service is one that provides services to an entire domain. In this case, the "&lt;service name&gt;" component is the DNS name of the domain being served. A Kerberos KDC is an example of this type of replicable service.
+Another example of a replicable service is one that provides services to an entire domain. In this case, the "<service name&gt;" component is the DNS name of the domain being served. A Kerberos KDC is an example of this type of replicable service.
 
-Be aware that if the DNS name of a computer changes, the system updates the "&lt;host&gt;" element for all registered SPNs for that host in the forest.
+Be aware that if the DNS name of a computer changes, the system updates the "<host&gt;" element for all registered SPNs for that host in the forest.
 
  
 

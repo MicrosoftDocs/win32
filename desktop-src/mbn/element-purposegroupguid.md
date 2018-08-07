@@ -31,9 +31,9 @@ Four GUID values are defined, as listed in the following table.
 
 ## Element hierarchy
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-[&lt;PurposeGroups&gt;](element-purposegroups.md)  
-**&lt;PurposeGroupGuid&gt;**
+[<MBNProfileExt&gt;](element-mbnprofileext.md)  
+[<PurposeGroups&gt;](element-purposegroups.md)  
+**<PurposeGroupGuid&gt;**
 
 ## Syntax
 

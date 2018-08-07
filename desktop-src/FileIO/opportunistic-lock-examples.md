@@ -24,15 +24,15 @@ The following diagram shows a network-traffic view of a level 1 opportunistic lo
 | Event | Client X                                          | Server                                   | Client Y                                          |
 |-------|---------------------------------------------------|------------------------------------------|---------------------------------------------------|
 | 1     | Opens file, requests level 1 lock ==&gt;          |                                          |                                                   |
-| 2     |                                                   | &lt;== Grants level 1 opportunistic lock |                                                   |
+| 2     |                                                   | <== Grants level 1 opportunistic lock |                                                   |
 | 3     | Performs read, write, and other operations ==&gt; |                                          |                                                   |
-| 4     |                                                   |                                          | &lt;== Requests to open file                      |
-| 5     |                                                   | &lt;== Breaks opportunistic lock         |                                                   |
+| 4     |                                                   |                                          | <== Requests to open file                      |
+| 5     |                                                   | <== Breaks opportunistic lock         |                                                   |
 | 6     | Discards read-ahead data                          |                                          |                                                   |
 | 7     | Writes data ==&gt;                                |                                          |                                                   |
 | 8     | Sends "close" or "done" message ==&gt;            |                                          |                                                   |
 | 9     |                                                   | Okays open operation ==&gt;              |                                                   |
-| 10    | Performs read, write, and other operations ==&gt; |                                          | &lt;== Performs read, write, and other operations |
+| 10    | Performs read, write, and other operations ==&gt; |                                          | <== Performs read, write, and other operations |
 
 
 
@@ -55,20 +55,20 @@ The following diagram shows a network-traffic view of a batch opportunistic lock
 | Event | Client X                               | Server                                 | Client Y                                          |
 |-------|----------------------------------------|----------------------------------------|---------------------------------------------------|
 | 1     | Opens file, requests batch lock ==&gt; |                                        |                                                   |
-| 2     |                                        | &lt;== Grants batch opportunistic lock |                                                   |
+| 2     |                                        | <== Grants batch opportunistic lock |                                                   |
 | 3     | Reads file ==&gt;                      |                                        |                                                   |
-| 4     |                                        | &lt;== Sends data                      |                                                   |
+| 4     |                                        | <== Sends data                      |                                                   |
 | 5     | Closes file                            |                                        |                                                   |
 | 6     | Opens file                             |                                        |                                                   |
 | 7     | Searches for data                      |                                        |                                                   |
 | 8     | Reads data ==&gt;                      |                                        |                                                   |
-| 9     |                                        | &lt;== Sends data                      |                                                   |
+| 9     |                                        | <== Sends data                      |                                                   |
 | 10    | Closes file                            |                                        |                                                   |
-| 11    |                                        |                                        | &lt;== Opens file                                 |
-| 12    |                                        | &lt;== Breaks opportunistic lock       |                                                   |
+| 11    |                                        |                                        | <== Opens file                                 |
+| 12    |                                        | <== Breaks opportunistic lock       |                                                   |
 | 13    | Closes file ==&gt;                     |                                        |                                                   |
 | 14    |                                        | Okays open operation ==&gt;            |                                                   |
-| 15    |                                        |                                        | &lt;== Performs read, write, and other operations |
+| 15    |                                        |                                        | <== Performs read, write, and other operations |
 
 
 
@@ -93,24 +93,24 @@ The following diagram shows a network-traffic view of a filter opportunistic loc
 | Event | Client X                                | Server                   | Client Y                    |
 |-------|-----------------------------------------|--------------------------|-----------------------------|
 | 1     | Opens file with no access rights ==&gt; |                          |                             |
-| 2     |                                         | &lt;== Opens the file    |                             |
+| 2     |                                         | <== Opens the file    |                             |
 | 3     | Requests filter lock==&gt;              |                          |                             |
-| 4     |                                         | &lt;== Grants lock       |                             |
+| 4     |                                         | <== Grants lock       |                             |
 | 5     | Opens file for reading ==&gt;           |                          |                             |
-| 6     |                                         | &lt;== Reopens the file  |                             |
+| 6     |                                         | <== Reopens the file  |                             |
 | 7     | Reads data using the read handle ==&gt; |                          |                             |
-| 8     |                                         | &lt;== Sends data        |                             |
-| 9     |                                         | &lt;== Sends data        |                             |
-| 10    |                                         | &lt;== Sends data        |                             |
-| 11    |                                         |                          | &lt;== Opens the file       |
+| 8     |                                         | <== Sends data        |                             |
+| 9     |                                         | <== Sends data        |                             |
+| 10    |                                         | <== Sends data        |                             |
+| 11    |                                         |                          | <== Opens the file       |
 | 12    |                                         | Opens the file ==&gt;    |                             |
-| 13    |                                         |                          | &lt;== Requests filter lock |
+| 13    |                                         |                          | <== Requests filter lock |
 | 14    |                                         | Denies filter lock==&gt; |                             |
-| 15    |                                         |                          | &lt;== Reads data           |
+| 15    |                                         |                          | <== Reads data           |
 | 16    |                                         | Sends data ==&gt;        |                             |
 | 17    | Reads (cached) data                     |                          |                             |
 | 18    | Closes file ==&gt;                      |                          |                             |
-| 19    |                                         |                          | &lt;== Closes file          |
+| 19    |                                         |                          | <== Closes file          |
 
 
 

@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# &lt;ProgID&gt; Key
+# <ProgID&gt; Key
 
 A programmatic identifier (ProgID) is a registry entry that can be associated with a CLSID. Like the CLSID, the ProgID identifies a class but with less precision because it is not guaranteed to be globally unique.
 
@@ -34,7 +34,7 @@ A programmatic identifier (ProgID) is a registry entry that can be associated wi
 
 You can use a ProgID in programming situations where it is not possible to use a CLSID. ProgIDs should not appear in the user interface. ProgIDs are not guaranteed to be unique, so they can be used only where name collisions are manageable.
 
-The format of a ProgID is &lt;*Program*&gt;.&lt;*Component*&gt;.&lt;*Version*&gt;, separated by periods and with no spaces, as in Word.Document.6. The ProgID must comply with the following requirements:
+The format of a ProgID is <*Program*&gt;.<*Component*&gt;.<*Version*&gt;, separated by periods and with no spaces, as in Word.Document.6. The ProgID must comply with the following requirements:
 
 -   Have no more than 39 characters.
 -   Contain no punctuation (including underscores) except one or more periods.

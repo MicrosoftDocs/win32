@@ -119,7 +119,7 @@ End.
 
 Setting the position style attribute to "absolute" allows you to place the containing box an exact distance from the top left corner (the base point) of its parent element (the positioned element that contains the shape). Be aware that the containing box that is positioned as absolute doesn't take up space in the text flow.
 
-For example, in the following VML representation, the red oval is contained within the &lt;body&gt; element (the entire Web page); therefore, the base point is at the top left corner of the Web page. The containing box for the oval is positioned exactly 20 points from the left and 10 points from the top, relative to the top left corner of the Web page, as shown in the following picture:
+For example, in the following VML representation, the red oval is contained within the <body&gt; element (the entire Web page); therefore, the base point is at the top left corner of the Web page. The containing box for the oval is positioned exactly 20 points from the left and 10 points from the top, relative to the top left corner of the Web page, as shown in the following picture:
 
 ![shape2.gif (2006 bytes)](images/shape2.gif)
 

@@ -26,7 +26,7 @@ Defines whether a shadow is applied to the text on a text path. Read/write. **Vg
 
 **Tag Syntax**
 
-&lt;v: *element* style="mso-text-shadow: *expression* "&gt;
+<v: *element* style="mso-text-shadow: *expression* "&gt;
 
 **Remarks**
 

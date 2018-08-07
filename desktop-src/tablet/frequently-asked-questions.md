@@ -63,7 +63,7 @@ For available sample applications, see:
 
 -   [Mobile PC and Tablet PC Samples](mobile-pc-and-tablet-pc-samples.md)
 -   [Digital Ink Samples, Windoes Presentation Foundation (WPF)](https://msdn.microsoft.com/en-us/library/Aa972145(v=VS.85).aspx)
--   &lt;systemdrive&gt;:\\Program Files\\Microsoft SDKs\\Windows\\v6.0\\Samples\\TabletPC
+-   <systemdrive&gt;:\\Program Files\\Microsoft SDKs\\Windows\\v6.0\\Samples\\TabletPC
 
 ## Q. What's the base level of Tablet hardware that I should develop for?
 

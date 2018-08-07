@@ -26,7 +26,7 @@ Determines whether an extrusion will be displayed. Read/write. **VgTriState**.
 
 **Tag Syntax**
 
-&lt;o: *element* on=" *expression* "&gt;
+<o: *element* on=" *expression* "&gt;
 
 **Script Syntax**
 

@@ -22,8 +22,8 @@ One profile can be listed in multiple groups.
 
 ## Element hierarchy
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-**&lt;PurposeGroups&gt;**
+[<MBNProfileExt&gt;](element-mbnprofileext.md)  
+**<PurposeGroups&gt;**
 
 ## Syntax
 

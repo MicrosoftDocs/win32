@@ -50,7 +50,7 @@ The Windows Installer 3.1 and Windows Installer 3.0 redistributables can be inst
 
 Use the following syntax to install the redistributables for Windows Installer 4.5 on Windows XP and Windows Server 2003.
 
-*&lt;Name of the Redistributable&gt;\[&lt;options&gt;\]*
+*<Name of the Redistributable&gt;\[<options&gt;\]*
 
 ## Command-Line Options
 

@@ -27,7 +27,7 @@ Use your database editor to open MNP2001.msi and enter the following data into t
 |--------------------------------------------------|-------------------------------------------|
 | [**ARPHELPLINK**](arphelplink.md)               | http://www.microsoft.com/management       |
 | BannerBitmap                                     | bannrbmp                                  |
-| ButtonText\_Back                                 | &lt; &Back                                |
+| ButtonText\_Back                                 | < &Back                                |
 | ButtonText\_Browse                               | Br&owse                                   |
 | ButtonText\_Cancel                               | Cancel                                    |
 | ButtonText\_Exit                                 | &Exit                                     |
@@ -58,7 +58,7 @@ Use your database editor to open MNP2001.msi and enter the following data into t
 | [**INSTALLLEVEL**](installlevel.md)             | 3                                         |
 | InstallMode                                      | Typical                                   |
 | [**Manufacturer**](manufacturer.md)             | Microsoft                                 |
-| [**PIDTemplate**](pidtemplate.md)               | 12345&lt;\#\#\#-%%%%%%%&gt;@@@@@          |
+| [**PIDTemplate**](pidtemplate.md)               | 12345<\#\#\#-%%%%%%%&gt;@@@@@          |
 | [**ProductCode**](productcode.md)               | {34CF587C-1D8F-4DD5-ADFE-440F4B593987}    |
 | [**ProductID**](productid.md)                   | none                                      |
 | [**ProductLanguage**](productlanguage.md)       | 1033                                      |

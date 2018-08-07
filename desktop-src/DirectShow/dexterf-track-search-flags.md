@@ -73,7 +73,7 @@ These boundary conditions are summarized in the following table.
 
 | Enumeration value    | Boundary condition                        |
 |----------------------|-------------------------------------------|
-| DEXTERF\_BOUNDING    | Start &lt;= TimeStop &gt; Time<br/> |
+| DEXTERF\_BOUNDING    | Start <= TimeStop &gt; Time<br/> |
 | DEXTERF\_EXACTLY\_AT | Start == Time                             |
 | DEXTERF\_FORWARDS    | Start &gt;= Time                          |
 

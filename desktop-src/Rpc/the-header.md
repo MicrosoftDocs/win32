@@ -28,7 +28,7 @@ INTERPRETER_OPT_FLAGS<1>
 number_of_params<1>
 ```
 
-Extensions starting with Windows 2000: &lt;8&gt; for 32-bit, &lt;12&gt; for 64-bit)
+Extensions starting with Windows 2000: <8&gt; for 32-bit, <12&gt; for 64-bit)
 
 ``` syntax
 extension_version<1>
@@ -39,7 +39,7 @@ NotifyIndex<2>
 [ FloatDoubleMask<2> ]
 ```
 
-The extension\_version&lt;1&gt; provides the size of the extension section, in bytes. Doing so makes it possible for the current NDR engine to step over the extension section correctly even if the section were to come from a later compiler version with more fields than the current engine understands.
+The extension\_version<1&gt; provides the size of the extension section, in bytes. Doing so makes it possible for the current NDR engine to step over the extension section correctly even if the section were to come from a later compiler version with more fields than the current engine understands.
 
 The INTERPRETER\_OPT\_FLAGS2 are defined as follow:
 

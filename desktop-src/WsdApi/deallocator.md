@@ -39,7 +39,7 @@ There are no child elements.
 
 ## Remarks
 
-The deallocator type should be enclosed in a pair of &lt;deallocator&gt;&lt;/deallocator&gt; tags. The following strings are valid deallocator values:
+The deallocator type should be enclosed in a pair of <deallocator&gt;</deallocator&gt; tags. The following strings are valid deallocator values:
 
 -   none
 -   WSDFreeLinkedMemory

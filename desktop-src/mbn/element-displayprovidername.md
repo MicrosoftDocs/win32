@@ -18,7 +18,7 @@ The [**DisplayProviderName**](element-displayprovidername.md) element is an opti
 
 ## Element hierarchy
 
-**&lt;DisplayProviderName&gt;**
+**<DisplayProviderName&gt;**
 
 ## Syntax
 

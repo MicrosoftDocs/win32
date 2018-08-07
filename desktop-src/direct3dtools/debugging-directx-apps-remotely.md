@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 You can use Visual Studio and the Windows 8 SDK to debug DirectX apps remotely. The Windows 8 SDK provides a set of components that support DirectX development and provide error checking and parameter validation in addition to the debugging that Visual Studio provides. These components are D3D11\_1SDKLayers.dll, D2D1Debug1.dll, and Dxgidebug.dll.
 
-If you want to debug remotely on a computer without the Windows 8 SDK installed and you want this additional debugging capability, you must install the remote debugging package that is appropriate for the architecture on which you want to debug. The Windows Installer Packages in "C:\\Program Files (x86)\\Windows Kits\\8.0\\Remote\\&lt;arch&gt;" install the appropriate support.
+If you want to debug remotely on a computer without the Windows 8 SDK installed and you want this additional debugging capability, you must install the remote debugging package that is appropriate for the architecture on which you want to debug. The Windows Installer Packages in "C:\\Program Files (x86)\\Windows Kits\\8.0\\Remote\\<arch&gt;" install the appropriate support.
 
 To enable the additional debugging capabilities for Direct2D apps, use this code:
 

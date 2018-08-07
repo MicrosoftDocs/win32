@@ -18,8 +18,8 @@ Specifies that this profile is exclusive to other profiles of the same profile s
 
 ## Element hierarchy
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-**&lt;IsExclusiveToOther&gt;**
+[<MBNProfileExt&gt;](element-mbnprofileext.md)  
+**<IsExclusiveToOther&gt;**
 
 ## Syntax
 

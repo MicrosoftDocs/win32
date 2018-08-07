@@ -26,7 +26,7 @@ Defines the location of connection points on a path. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* o:connectlocs=" *expression* "&gt;
+<v: *element* o:connectlocs=" *expression* "&gt;
 
 **Remarks**
 

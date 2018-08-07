@@ -119,12 +119,12 @@ Both the event source computers and the event collector computer must be configu
 
     1.  Run the following command from an elevated privilege command prompt on the Windows Server domain controller to get the runtime status of the subscription:
 
-        **wecutil gr** *&lt;subscriptionID&gt;*
+        **wecutil gr** *<subscriptionID&gt;*
 
     2.  Verify that the event source has connected. You might need to wait until the refresh interval specified in the policy is over after you create the subscription for the event source to be connected.
     3.  Run the following command to get the subscription information:
 
-        **wecutil gs** *&lt;subscriptionID&gt;*
+        **wecutil gs** *<subscriptionID&gt;*
 
     4.  Get the DeliveryMaxItems value from the subscription information.
 
@@ -176,7 +176,7 @@ The following prerequisites must be met before the subscription is created.
 
         To create a new listener, use the following command:
 
-        **winrm create winrm/config/Listener?Address=\*+Transport=HTTPS @{Hostname="***&lt;FQDN of the collector&gt;***";CertificateThumbprint="***&lt;Thumb print of the server authentication certificate&gt;***"}**
+        **winrm create winrm/config/Listener?Address=\*+Transport=HTTPS @{Hostname="***<FQDN of the collector&gt;***";CertificateThumbprint="***<Thumb print of the server authentication certificate&gt;***"}**
 
 2.  Configure the event source computer by completing the following steps.
 
@@ -184,11 +184,11 @@ The following prerequisites must be met before the subscription is created.
 
         1.  Check that NetworkService has access to the private key file of the client authentication certificate by running the following command:
 
-            **winhttpcertcfg -l -c LOCAL\_MACHINE\\my -s** *&lt;subject name of the certificate&gt;*
+            **winhttpcertcfg -l -c LOCAL\_MACHINE\\my -s** *<subject name of the certificate&gt;*
 
         2.  If NetworkService does not have access, then execute the following command to grant access:
 
-            **winhttpcertcfg -g -c LOCAL\_MACHINE\\my -s &lt;subject of the certificate&gt; -a NetworkService**
+            **winhttpcertcfg -g -c LOCAL\_MACHINE\\my -s <subject of the certificate&gt; -a NetworkService**
 
     2.  Set the event forwarding group policy setting by following these steps:
 
@@ -199,7 +199,7 @@ The following prerequisites must be met before the subscription is created.
         2.  Under the Computer Configuration node, expand the Administrative Templates node, then expand the Windows Components node, then select the Event Forwarding node.
         3.  Right-click the SubscriptionManager setting, and select Properties. Enable the SubscriptionManager setting, and click the Show button to add a server address to the setting. Add at least one setting that specifies the event collector computer. The SubscriptionManager Properties window contains an Explain tab that describes the syntax for the setting. Use the following text for the setting:
 
-            **Server=HTTPS://***&lt;FQDN of the collector&gt;***/wsman/SubscriptionManager/WEC,Refresh=***&lt;Refresh interval in seconds&gt;***,IssuerCA=***&lt;Thumb print of the client authentication certificate&gt;*
+            **Server=HTTPS://***<FQDN of the collector&gt;***/wsman/SubscriptionManager/WEC,Refresh=***<Refresh interval in seconds&gt;***,IssuerCA=***<Thumb print of the client authentication certificate&gt;*
 
         4.  After the SubscriptionManager setting has been added, run the following command to ensure the policy is applied:
 
@@ -207,7 +207,7 @@ The following prerequisites must be met before the subscription is created.
 
     3.  Export the client authentication certificate to a .pfx file using the following command and copy the file to a share which can be accessed by the collector machine.
 
-        **certutil -p** *&lt;Password&gt;* **-exportPFX** *&lt;Certificate ID &gt;&lt;pfx file name&gt;*
+        **certutil -p** *<Password&gt;* **-exportPFX** *<Certificate ID &gt;<pfx file name&gt;*
 
         > [!Note]  
         > The certificate ID is the certificate or CRL match token. This can be a serial number, an SHA-1 certificate, CRL, CTL or public key hash, a numeric cert index (0, 1, and so on), a numeric CRL index (.0, .1, and so on), a numeric CTL index (..0, ..1, and so on), a public key, signature or extension ObjectId, a certificate subject Common Name, an e-mail address, UPN or DNS name, a key container name or CSP name, or a CRL issuer Common Name. Many of these can result in multiple matches.
@@ -218,7 +218,7 @@ The following prerequisites must be met before the subscription is created.
 
     1.  Import the .pfx file containing client authentication certificate to the Trusted Root Certificates node using following command:
 
-        **certutil -p** *&lt;Password&gt;* **-importPFX** *&lt;pfx file name&gt;*
+        **certutil -p** *<Password&gt;* **-importPFX** *<pfx file name&gt;*
 
     2.  Create a source initiated subscription.
 
@@ -233,7 +233,7 @@ The following prerequisites must be met before the subscription is created.
 
     3.  Check the subscription status (it should be Active) using the following command:
 
-        **wecutil gr** *&lt;subscriptionID&gt;*
+        **wecutil gr** *<subscriptionID&gt;*
 
         If the source computer does not appear in the command output, you can wait until the refresh interval specified in the policy is over, and then check the status again to make sure it is active.
 

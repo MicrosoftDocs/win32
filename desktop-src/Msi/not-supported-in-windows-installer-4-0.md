@@ -43,7 +43,7 @@ The following features are not supported in Windows Installer 4.0 and earlier v
 
 <dl>
 
-[MsiTransformView*&lt;PatchGUID&gt;*](msitransformview.md)  
+[MsiTransformView*<PatchGUID&gt;*](msitransformview.md)  
 **msidbCustomActionTypePatchUninstall**  
 </dl>
 

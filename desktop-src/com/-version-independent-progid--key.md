@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# &lt;version-independent ProgID&gt; Key
+# <version-independent ProgID&gt; Key
 
 Associates a ProgID with a CLSID. This key is used to determine the latest version of an object application.
 
@@ -25,7 +25,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes
 
 The **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes** key corresponds to the **HKEY\_CLASSES\_ROOT** key, which was retained for compatibility with earlier versions of COM.
 
-The format for &lt;*version-independent ProgID*&gt; is &lt;*program*&gt;.&lt;*component*&gt;, separated by periods, no spaces, and no version number. The version-independent ProgID, like the ProgID, can be registered with a human-readable name.
+The format for <*version-independent ProgID*&gt; is <*program*&gt;.<*component*&gt;, separated by periods, no spaces, and no version number. The version-independent ProgID, like the ProgID, can be registered with a human-readable name.
 
 *ProgID* is the ProgID of the latest installed version of the class.
 
@@ -56,7 +56,7 @@ HKEY_CLASSES_ROOT\CLSID\{00000402-0000-0000-C000-000000000046}
 [**ProgIDFromCLSID**](/windows/desktop/api/combaseapi/nf-combaseapi-progidfromclsid)
 </dt> <dt>
 
-[&lt;ProgID&gt; Key](-progid--key.md)
+[<ProgID&gt; Key](-progid--key.md)
 </dt> </dl>
 
  

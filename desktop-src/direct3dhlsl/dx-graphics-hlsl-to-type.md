@@ -37,7 +37,7 @@ Here is the syntax for creating all texture objects (except multisampled objects
 
 
 
-| Object1 \[&lt;*Type*&gt;\] *Name*; |
+| Object1 \[<*Type*&gt;\] *Name*; |
 |------------------------------------|
 
 
@@ -48,7 +48,7 @@ Multisampled objects (Texture2DMS and Texture2DMSArray) require the texture size
 
 
 
-| Object2 \[&lt;*Type, Samples*&gt;\] *Name*; |
+| Object2 \[<*Type, Samples*&gt;\] *Name*; |
 |---------------------------------------------|
 
 

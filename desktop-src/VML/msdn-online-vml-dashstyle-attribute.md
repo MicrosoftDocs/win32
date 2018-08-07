@@ -26,7 +26,7 @@ Specifies the dot and dash pattern for a stroke. Read/write. **VgLineDashStyle**
 
 **Tag Syntax**
 
-&lt;v: *element* dashstyle=" *expression* "&gt;
+<v: *element* dashstyle=" *expression* "&gt;
 
 **Script Syntax**
 

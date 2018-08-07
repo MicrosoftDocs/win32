@@ -26,7 +26,7 @@ Specifies the overall brightness of a scene. Read/write. **VgNumber**.
 
 **Tag Syntax**
 
-&lt;o: *element* brightness=" *expression* "&gt;
+<o: *element* brightness=" *expression* "&gt;
 
 **Script Syntax**
 

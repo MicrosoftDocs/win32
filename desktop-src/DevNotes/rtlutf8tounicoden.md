@@ -104,7 +104,7 @@ If the *UnicodeStringDestination* is set to **NULL** the function will return th
 
 **RtlUTF8ToUnicodeN** does not modify the source string unless the *UnicodeStringDestination* and *UTF8StringSource* pointers are equivalent. The returned Unicode string is not null-terminated.
 
-Callers of **RtlUTF8ToUnicodeN** must be running at IRQL &lt; DISPATCH\_LEVEL.
+Callers of **RtlUTF8ToUnicodeN** must be running at IRQL < DISPATCH\_LEVEL.
 
 ## Requirements
 

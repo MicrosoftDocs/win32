@@ -144,8 +144,8 @@ In most cases, either your app s [Direct2D](https://msdn.microsoft.com/en-us/lib
 
 | Desired precision   | Native precision of the image | Recommended pixel format                |
 |---------------------|-------------------------------|-----------------------------------------|
-| 8 bits per channel  | &lt;= 8 bits per channel      | GUID\_WICPixelFormat32bppPBGRA          |
-| As high as possible | &lt;= 8 bits per channel      | GUID\_WICPixelFormat32bppPBGRA          |
+| 8 bits per channel  | <= 8 bits per channel      | GUID\_WICPixelFormat32bppPBGRA          |
+| As high as possible | <= 8 bits per channel      | GUID\_WICPixelFormat32bppPBGRA          |
 | As high as possible | &gt; 8 bits per channel       | RGBA channel order, premultiplied alpha |
 
 

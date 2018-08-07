@@ -26,7 +26,7 @@ Specifies the coordinate unit origin of the rectangle that bounds a shape. Read/
 
 **Tag Syntax**
 
-&lt;v: *element* coordorigin=" *expression* "&gt;
+<v: *element* coordorigin=" *expression* "&gt;
 
 **Script Syntax**
 

@@ -26,7 +26,7 @@ Gets the sampling position (x,y) for a given sample index.
 
 |                                                                                  |
 |----------------------------------------------------------------------------------|
-| float&lt;2&gt; GetRenderTargetSamplePosition( in int&lt;1&gt; Index<br/>); |
+| float<2&gt; GetRenderTargetSamplePosition( in int<1&gt; Index<br/>); |
 
 
 

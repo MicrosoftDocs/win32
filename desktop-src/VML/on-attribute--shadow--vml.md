@@ -26,7 +26,7 @@ Determines whether a shadow will be displayed. Read/write. **VgTriState**.
 
 **Tag Syntax**
 
-&lt;v: *element* on=" *expression* "&gt;
+<v: *element* on=" *expression* "&gt;
 
 **Script Syntax**
 

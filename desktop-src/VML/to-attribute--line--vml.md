@@ -26,7 +26,7 @@ Defines the ending point of a line. Read/write. **VgVector2D**.
 
 **Tag Syntax**
 
-&lt;v: *element* to=" *expression* "&gt;
+<v: *element* to=" *expression* "&gt;
 
 **Script Syntax**
 

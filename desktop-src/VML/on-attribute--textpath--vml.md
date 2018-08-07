@@ -26,7 +26,7 @@ Defines whether the text is displayed. Read/write. **VgTriState**.
 
 **Tag Syntax**
 
-&lt;v: *element* on=" *expression* "&gt;
+<v: *element* on=" *expression* "&gt;
 
 **Script Syntax**
 

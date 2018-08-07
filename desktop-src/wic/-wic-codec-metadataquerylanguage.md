@@ -204,22 +204,22 @@ The following table is a formal definition of the WIC metadata query language. E
 
 | Symbol                   | Expression                                                                                                                                                                  |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| &lt;path&gt;             | &lt;name&gt; \| '/' &lt;property path&gt;                                                                                                                                   |
-| &lt;property path&gt;    | &lt;metadata item&gt; \| &lt;property path&gt; '/' &lt;property path&gt;                                                                                                    |
-| &lt;metadata item&gt;    | &lt;index name&gt; \| &lt;item name&gt; \| &lt;schema name&gt; ':' &lt;item name&gt;                                                                                        |
-| &lt;schema name&gt;      | &lt;item name&gt;                                                                                                                                                           |
-| &lt;item name&gt;        | &lt;metadata item&gt; \| &lt;indexed item&gt;&lt;index&gt;                                                                                                                  |
-| &lt;indexed item&gt;     | &lt;item&gt; \| &lt;implied metadata&gt;&lt;item&gt;                                                                                                                        |
-| &lt;implied metadata&gt; | '&lt;'&lt;name&gt;'&gt;'                                                                                                                                                    |
-| &lt;item&gt;             | &lt;name&gt; \| &lt;index&gt; &lt;data&gt; \| &lt;data&gt;                                                                                                                  |
-| &lt;data&gt;             | '{' &lt;data type&gt; '=' &lt;value&gt; '}'                                                                                                                                 |
-| &lt;index&gt;            | '\[' &lt;number&gt; \| &lt;star&gt; '\]'                                                                                                                                    |
-| &lt;data type&gt;        | 'char' \| 'uchar' \| 'short' \| 'ushort' \| 'long' \| 'ulong' \| 'int' \| 'uint' \| 'longlong' \| 'ulonglong' \| 'float' \| 'double' \| 'str' \| 'wstr' \| 'guid' \| 'bool' |
-| &lt;data value&gt;       | &lt;number&gt; \| &lt;name&gt; \| &lt;guid&gt;                                                                                                                              |
-| &lt;star&gt;             | '\*'                                                                                                                                                                        |
-| &lt;number&gt;           | number                                                                                                                                                                      |
-| &lt;name&gt;             | string                                                                                                                                                                      |
-| &lt;guid&gt;             | guid                                                                                                                                                                        |
+| <path&gt;             | <name&gt; \| '/' <property path&gt;                                                                                                                                   |
+| <property path&gt;    | <metadata item&gt; \| <property path&gt; '/' <property path&gt;                                                                                                    |
+| <metadata item&gt;    | <index name&gt; \| <item name&gt; \| <schema name&gt; ':' <item name&gt;                                                                                        |
+| <schema name&gt;      | <item name&gt;                                                                                                                                                           |
+| <item name&gt;        | <metadata item&gt; \| <indexed item&gt;<index&gt;                                                                                                                  |
+| <indexed item&gt;     | <item&gt; \| <implied metadata&gt;<item&gt;                                                                                                                        |
+| <implied metadata&gt; | '<'<name&gt;'&gt;'                                                                                                                                                    |
+| <item&gt;             | <name&gt; \| <index&gt; <data&gt; \| <data&gt;                                                                                                                  |
+| <data&gt;             | '{' <data type&gt; '=' <value&gt; '}'                                                                                                                                 |
+| <index&gt;            | '\[' <number&gt; \| <star&gt; '\]'                                                                                                                                    |
+| <data type&gt;        | 'char' \| 'uchar' \| 'short' \| 'ushort' \| 'long' \| 'ulong' \| 'int' \| 'uint' \| 'longlong' \| 'ulonglong' \| 'float' \| 'double' \| 'str' \| 'wstr' \| 'guid' \| 'bool' |
+| <data value&gt;       | <number&gt; \| <name&gt; \| <guid&gt;                                                                                                                              |
+| <star&gt;             | '\*'                                                                                                                                                                        |
+| <number&gt;           | number                                                                                                                                                                      |
+| <name&gt;             | string                                                                                                                                                                      |
+| <guid&gt;             | guid                                                                                                                                                                        |
 
 
 

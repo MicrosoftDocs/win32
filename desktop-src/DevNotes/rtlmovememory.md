@@ -70,7 +70,7 @@ The source memory block, which is defined by *Source* and *Length*, can overlap 
 
 The [**RtlCopyMemory**](https://msdn.microsoft.com/en-us/library/Ff561808(v=VS.85).aspx) routine runs faster than **RtlMoveMemory**, but **RtlCopyMemory** requires that the source and destination memory blocks do not overlap.
 
-Callers of **RtlMoveMemory** can be running at any IRQL if the source and destination memory blocks are in nonpaged system memory. Otherwise, the caller must be running at IRQL &lt;= APC\_LEVEL.
+Callers of **RtlMoveMemory** can be running at any IRQL if the source and destination memory blocks are in nonpaged system memory. Otherwise, the caller must be running at IRQL <= APC\_LEVEL.
 
 ## Requirements
 

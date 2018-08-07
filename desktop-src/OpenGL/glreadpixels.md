@@ -165,7 +165,7 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 The **glReadPixels** function returns pixel data from the framebuffer, starting with the pixel whose lower-left corner is at location (*x*, *y*), into client memory starting at location *pixels*. Several parameters control the processing of the pixel data before it is placed into client memory. These parameters are set with three commands: [**glPixelStore**](glpixelstore-functions.md), [**glPixelTransfer**](glpixeltransfer.md), and [**glPixelMap**](glpixelmap.md). This topic describes the effects on **glReadPixels** of most, but not all of the parameters specified by these three commands.
 
-The **glReadPixels** function returns values from each pixel with lower-left corner at (*x* + i, *y* + j) for 0 = i &lt; *width* and 0 = j &lt; *height*. This pixel is said to be the *i*th pixel in the *j*th row. Pixels are returned in row order from the lowest to the highest row, left to right in each row.
+The **glReadPixels** function returns values from each pixel with lower-left corner at (*x* + i, *y* + j) for 0 = i < *width* and 0 = j < *height*. This pixel is said to be the *i*th pixel in the *j*th row. Pixels are returned in row order from the lowest to the highest row, left to right in each row.
 
 The shift, scale, bias, and lookup factors described above are all specified by [**glPixelTransfer**](glpixeltransfer.md). The lookup table contents are specified by [**glPixelMap**](glpixelmap.md).
 

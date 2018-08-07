@@ -108,7 +108,7 @@ Search keywords and file properties can be combined to broaden or narrow a searc
 | Quotation marks | "social security"<br/>                          | Finds items that contain the exact phrase *social security*.<br/>                                        |
 | Parentheses     | (social security)<br/>                          | Finds items that contain *social* and *security* in any order.<br/>                                      |
 | &gt;            | date:&gt;11/05/04<br/> size:&gt;500<br/>  | Finds items with a date after 11/05/04. <br/> Finds items with a size greater than 500 bytes.<br/> |
-| &lt;            | date:&lt;11/05/04 <br/> size:&lt;500<br/> | Finds items with a date before 11/05/04. <br/> Finds items with a size less than 500 bytes.<br/>   |
+| <            | date:<11/05/04 <br/> size:<500<br/> | Finds items with a date before 11/05/04. <br/> Finds items with a size less than 500 bytes.<br/>   |
 | ..              | date:11/05/04..11/10/04<br/>                    | Finds items with a date beginning on 11/05/04 and ending on 11/10/04.<br/>                               |
 
 
@@ -374,7 +374,7 @@ where `<property>` is a property listed below and `<value>` is the user-specifie
 | Album    | album              | album:"greatest hits"    |
 | Genre    | genre              | genre:rock               |
 | Track    | track              | track:12                 |
-| Year     | year               | year:&gt; 1980 &lt; 1990 |
+| Year     | year               | year:&gt; 1980 < 1990 |
 
 
 

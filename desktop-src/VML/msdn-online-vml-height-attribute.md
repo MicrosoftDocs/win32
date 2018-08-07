@@ -26,7 +26,7 @@ Specifies the height of the shape. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* style="height: *expression* "&gt;
+<v: *element* style="height: *expression* "&gt;
 
 **Script Syntax**
 

@@ -481,8 +481,8 @@ HRESULT DemoApp::Initialize()
             WS_OVERLAPPEDWINDOW,
             CW_USEDEFAULT,
             CW_USEDEFAULT,
-            static_cast&lt;UINT&gt;(ceil(640.0f * dpiX / 96.0f)),
-            static_cast&lt;UINT&gt;(ceil(480.0f * dpiY / 96.0f)),
+            static_cast<UINT&gt;(ceil(640.0f * dpiX / 96.0f)),
+            static_cast<UINT&gt;(ceil(480.0f * dpiY / 96.0f)),
             NULL,
             NULL,
             HINST_THISCOMPONENT,
@@ -553,7 +553,7 @@ HRESULT DemoApp::InitializeDirectCompositionDevice()
         // Create the DirectComposition device object.
         hr = DCompositionCreateDevice(pDXGIDevice, 
                 __uuidof(IDCompositionDevice), 
-                reinterpret_cast&lt;void **&gt;(&m_pDevice));
+                reinterpret_cast<void **&gt;(&m_pDevice));
     }
 
     if (SUCCEEDED(hr))
@@ -806,7 +806,7 @@ HRESULT DemoApp::SetVisualOpacity(IDCompositionVisual *pVisual, float opacity)
     IDCompositionEffectGroup *pEffectGroup = nullptr;
 
     // Validate the input arguments.
-    if (pVisual == NULL || (opacity &gt; 1.0f || opacity &lt; 0.0f))
+    if (pVisual == NULL || (opacity &gt; 1.0f || opacity < 0.0f))
         return E_INVALIDARG;
 
     // Create an effect group object.
@@ -862,7 +862,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message,
     }
     else
     {
-        DemoApp *pDemoApp = reinterpret_cast&lt;DemoApp *&gt;(static_cast&lt;LONG_PTR&gt;(
+        DemoApp *pDemoApp = reinterpret_cast<DemoApp *&gt;(static_cast<LONG_PTR&gt;(
             ::GetWindowLongPtrW(
                 hwnd,
                 GWLP_USERDATA
@@ -1013,7 +1013,7 @@ HRESULT DemoApp::GetImageFilenames(TCHAR szDir[MAX_PATH])
         // Get a list of files in the directory.
         do
         {
-            if (fileCount &lt; 5)
+            if (fileCount < 5)
             {
                 m_pImageFileNames[fileCount] = new TCHAR[fileCount * MAX_PATH]; 
                 StringCbCopy((wchar_t*)m_pImageFileNames[fileCount], 

@@ -355,7 +355,7 @@ Set of values that indicate correspondence between an object's property and othe
 
 Object properties are identified using the following syntax.
 
-&lt;schema name&gt; "\_" &lt;class or association name&gt; "." &lt;property name&gt;
+<schema name&gt; "\_" <class or association name&gt; "." <property name&gt;
 
 </dd> <dt>
 
@@ -366,7 +366,7 @@ Data type: **string**
 
 Applies to: references
 
-Location of an instance, the value of which is &lt;*namespacetype*&gt;://&lt;*namespacehandle*&gt; The default is **NULL**.
+Location of an instance, the value of which is <*namespacetype*&gt;://<*namespacehandle*&gt; The default is **NULL**.
 
 Usage: This qualifier cannot be used with the **NonlocalType** qualifier.
 
@@ -379,7 +379,7 @@ Data type: **string**
 
 Applies to: references
 
-Type of location of an instance. Its value is &lt;namespacetype&gt;. The default is **NULL**.
+Type of location of an instance. Its value is <namespacetype&gt;. The default is **NULL**.
 
 Usage: This qualifier cannot be used with the **Nonlocal** qualifier.
 
@@ -420,7 +420,7 @@ Parent class or subordinate construct (property, method, or reference) which is 
 
 The format is:
 
-\[&lt;*class*&gt;.\]&lt;*subordinate construct*&gt;
+\[<*class*&gt;.\]<*subordinate construct*&gt;
 
 If the class name is omitted, the override applies to the subordinate construct in the parent class in the class hierarchy.
 
@@ -448,7 +448,7 @@ Name of the key being propagated. The default is **NULL**.
 
 Use of this qualifier assumes the existence of only one weak qualifier on a reference that has the containing class as its target. The associated property must have the same value as the property named by the qualifier in the class on the other side of the weak association. The format is:
 
-\[&lt;*class*&gt;.\]&lt;*subordinate construct*&gt;
+\[<*class*&gt;.\]<*subordinate construct*&gt;
 
 Usage: When the **Propagated** qualifier is used, the [**Key**](key-qualifier.md) qualifier must be specified with a value of **TRUE**.
 
@@ -509,7 +509,7 @@ Applies to: classes, associations, indications, references
 
 Location of an instance. The default is **NULL**.
 
-The qualifier's value is &lt;*namespacetype*&gt;://&lt;*namespacehandle*&gt;.
+The qualifier's value is <*namespacetype*&gt;://<*namespacehandle*&gt;.
 
 Usage: The **Source** qualifier cannot be used with the **SourceType** qualifier.
 
@@ -522,7 +522,7 @@ Data type: **string**
 
 Applies to: classes, associations, indications, references
 
-Type of location of an instance. The value of this qualifier is &lt;*namespacetype*&gt;. The default is **NULL**.
+Type of location of an instance. The value of this qualifier is <*namespacetype*&gt;. The default is **NULL**.
 
 Usage: The **SourceType** qualifier cannot be used with the **Source** qualifier.
 

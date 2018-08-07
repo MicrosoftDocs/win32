@@ -26,7 +26,7 @@ Defines the image to load for a fill. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* src=" *expression* "&gt;
+<v: *element* src=" *expression* "&gt;
 
 **Script Syntax**
 

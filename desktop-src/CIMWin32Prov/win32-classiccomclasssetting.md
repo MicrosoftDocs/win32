@@ -388,7 +388,7 @@ Access type: Read-only
 Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32Registry\|HKEY\_LOCAL\_MACHINE\\\\SOFTWARE\\\\Classes\\\\CLSID\\\\{GUID}\\\\ProgID\[Default\]")
 </dt> </dl>
 
-Programmatic identifier associated with the COM component. The format of a ProgID is &lt;Vendor.&lt;Component.&lt;Version. This identifier is not guaranteed to be unique.
+Programmatic identifier associated with the COM component. The format of a ProgID is <Vendor.<Component.<Version. This identifier is not guaranteed to be unique.
 
 </dd> <dt>
 

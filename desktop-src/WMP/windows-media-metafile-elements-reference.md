@@ -33,7 +33,7 @@ The following metafile elements are supported for client-side applications.
 | [AUTHOR](author-element.md)                      | Contains the name of the author of a media clip or a Windows Media metafile.                                           |
 | [BANNER](banner-element.md)                      | Specifies a URL for a graphic that appears in the display panel of Windows Media Player.                               |
 | [BASE](base-element.md)                          | Specifies a string that is appended to the front of URLs sent to Windows Media Player.                                 |
-| [Comments](comments.md)                          | Specifies the XML syntax for comments ( &lt;!--...--&gt; ).                                                            |
+| [Comments](comments.md)                          | Specifies the XML syntax for comments ( <!--...--&gt; ).                                                            |
 | [COPYRIGHT](copyright-element.md)                | Contains the copyright information for an **ASX** or **ENTRY** element.                                                |
 | [DURATION](duration-element.md)                  | Specifies the length of time Windows Media Player renders a stream.                                                    |
 | [ENDMARKER](endmarker-element.md)                | Specifies a marker at which Windows Media Player stops rendering the stream.                                           |

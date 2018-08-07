@@ -27,9 +27,9 @@ The command line options are case-insensitive and slash delimiters may be used i
 
 | Option | Parameter        | Description                                                                                             |
 |--------|------------------|---------------------------------------------------------------------------------------------------------|
-| -d     | &lt;database&gt; | The database (.msi file) that is being updated.                                                         |
-| -m     | &lt;media Id&gt; | The entry in the DiskId field of the [Media table](media-table.md) in the record for the cabinet file. |
-| -c     | &lt;cabinet&gt;  | The path to the digitally signed cabinet file.                                                          |
+| -d     | <database&gt; | The database (.msi file) that is being updated.                                                         |
+| -m     | <media Id&gt; | The entry in the DiskId field of the [Media table](media-table.md) in the record for the cabinet file. |
+| -c     | <cabinet&gt;  | The path to the digitally signed cabinet file.                                                          |
 | -h     |                  | Include the hash of the digital signature. This is optional.                                            |
 
 

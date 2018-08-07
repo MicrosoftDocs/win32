@@ -164,7 +164,7 @@ To create a custom preview handler:
 
 To reuse an existing preview handler for your file type, follow these two steps:
 
-1.  Register that preview handler for your file type using the CLSID of the existing preview handler in place of &lt;Your\_PreviewHandler\_GUID&gt;.
+1.  Register that preview handler for your file type using the CLSID of the existing preview handler in place of <Your\_PreviewHandler\_GUID&gt;.
 2.  Implement a Shell folder.
 
 For more information on creating preview handlers, see [IPreviewHandler](http://msdn.microsoft.com/en-us/library/Bb775315(VS.85).aspx) and [Preview Handlers](http://msdn.microsoft.com/en-us/library/Cc144143(VS.85).aspx).

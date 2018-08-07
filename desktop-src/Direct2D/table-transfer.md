@@ -59,7 +59,7 @@ The transfer function is based on a list of inputs V=(V0,V1,V2,V3, V? ,V<sub>N</
 
 The input pixel intensity is represented as C. The output pixel intensity, C  can be calculated with the equation.
 
-For a value C, pick a value k, such that: k/N = C &lt; (k+1)/N
+For a value C, pick a value k, such that: k/N = C < (k+1)/N
 
 The output C  is calculated using the following equation: C' = V? + (C -  k/N) \* N \* (V???1? - V?)
 

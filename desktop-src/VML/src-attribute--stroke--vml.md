@@ -26,7 +26,7 @@ Defines the source image to load for a stroke fill. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* src=" *expression* "&gt;
+<v: *element* src=" *expression* "&gt;
 
 **Script Syntax**
 

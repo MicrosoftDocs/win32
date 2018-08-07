@@ -69,7 +69,7 @@ Requests that the compiler perform a syntax check only and print appropriate err
 
 </dd> <dt>
 
-<span id="-N__namespacepath_"></span><span id="-n__namespacepath_"></span><span id="-N__NAMESPACEPATH_"></span>**-N:&lt;***namespacepath***&gt;**
+<span id="-N__namespacepath_"></span><span id="-n__namespacepath_"></span><span id="-N__NAMESPACEPATH_"></span>**-N:<***namespacepath***&gt;**
 </dt> <dd>Requests that the compiler load the MOF file into the namespace specified as *namespacepath*. The compiled MOF is loaded into the default Mofcomp namespace, root\\default, unless this switch is used. You can also insert the preprocessor command **\#pragma namespace ("***namespace path***")** in the MOF file to achieve the same effect. If both the **-N:** switch and the \#[**pragma namespace**](pragma-namespace.md) command are used, \#**pragma namespace** **autorecover** takes priority. In this case, the only way to compile the MOF into another namespace is to edit the MOF file and change the \#**pragma namespace** command. A remote computer can be specified using \\\\machinename\\root\\default.</dd> <dt>
 
 <span id="-class_createonly"></span><span id="-CLASS_CREATEONLY"></span>**-class:createonly**
@@ -114,12 +114,12 @@ Requests that the compiler not make any changes to existing instances. When this
 
 </dd> <dt>
 
-<span id="-B__filename_"></span><span id="-b__filename_"></span><span id="-B__FILENAME_"></span>**-B:&lt;***filename***&gt;**
+<span id="-B__filename_"></span><span id="-b__filename_"></span><span id="-B__FILENAME_"></span>**-B:<***filename***&gt;**
 </dt> <dd>
 
 Requests that the compiler create a binary version of the MOF file with the name *filename* without making any modifications to the WMI repository.
 
-If you use the **-B:&lt;***filename***&gt;** option to create a binary MOF file, only default qualifier flavors are stored in the WMI repository.
+If you use the **-B:<***filename***&gt;** option to create a binary MOF file, only default qualifier flavors are stored in the WMI repository.
 
 Binary MOF format is the intermediate format for combining a WDM-driver with the MOF as a resource. The binary MOF represents classes and instances just as a text MOF file does and is compressed before it is stored on disk.
 
@@ -132,63 +132,63 @@ Requests that the compiler perform a WMI syntax check. The **-B:** switch must b
 
 </dd> <dt>
 
-<span id="-P__Password_"></span><span id="-p__password_"></span><span id="-P__PASSWORD_"></span>**-P:&lt;***Password***&gt;**
+<span id="-P__Password_"></span><span id="-p__password_"></span><span id="-P__PASSWORD_"></span>**-P:<***Password***&gt;**
 </dt> <dd>
 
 Specifies *Password* as the password for the computer user to enter when logging on.
 
 </dd> <dt>
 
-<span id="-U__UserName_"></span><span id="-u__username_"></span><span id="-U__USERNAME_"></span>**-U:&lt;***UserName***&gt;**
+<span id="-U__UserName_"></span><span id="-u__username_"></span><span id="-U__USERNAME_"></span>**-U:<***UserName***&gt;**
 </dt> <dd>
 
 Specifies *UserName* as the name of the user logging on.
 
 </dd> <dt>
 
-<span id="-A__Authority_"></span><span id="-a__authority_"></span><span id="-A__AUTHORITY_"></span>**-A:&lt;***Authority***&gt;**
+<span id="-A__Authority_"></span><span id="-a__authority_"></span><span id="-A__AUTHORITY_"></span>**-A:<***Authority***&gt;**
 </dt> <dd>
 
 Specifies *Authority* as the authority (domain name) to use when logging on to WMI.
 
 </dd> <dt>
 
-<span id="-MOF__path_"></span><span id="-mof__path_"></span><span id="-MOF__PATH_"></span>**-MOF:&lt;***path***&gt;**
+<span id="-MOF__path_"></span><span id="-mof__path_"></span><span id="-MOF__PATH_"></span>**-MOF:<***path***&gt;**
 </dt> <dd>
 
 Name of the language neutral output. Used with the **-AMENDMENT** switch to specify the name of the language-neutral MOF file that will be generated.
 
 </dd> <dt>
 
-<span id="-MFL__path_"></span><span id="-mfl__path_"></span><span id="-MFL__PATH_"></span>**-MFL:&lt;***path***&gt;**
+<span id="-MFL__path_"></span><span id="-mfl__path_"></span><span id="-MFL__PATH_"></span>**-MFL:<***path***&gt;**
 </dt> <dd>
 
 Name of the language specific output. Used with the **-AMENDMENT** switch to specify the name of the language-specific MOF file that will be generated.
 
 </dd> <dt>
 
-<span id="-AMENDMENT__Locale_"></span><span id="-amendment__locale_"></span><span id="-AMENDMENT__LOCALE_"></span>**-AMENDMENT:&lt;***Locale***&gt;**
+<span id="-AMENDMENT__Locale_"></span><span id="-amendment__locale_"></span><span id="-AMENDMENT__LOCALE_"></span>**-AMENDMENT:<***Locale***&gt;**
 </dt> <dd>
 
 Splits the MOF file into language-neutral and -specific versions. The MOF compiler creates a language-neutral form of the MOF file that has all amended qualifiers removed. A localized version of the MOF file is also created with an MFL file name extension. The *Locale* parameter specifies the name of the child namespace that contains the localized class definitions. The format of the *Locale* parameter is MS\_xxx where xxx is the hexadecimal value of the Windows LCID. For example, the locale for American English is MS\_409.
 
 </dd> <dt>
 
-<span id="-ER__ResourceName_"></span><span id="-er__resourcename_"></span><span id="-ER__RESOURCENAME_"></span>**-ER &lt;***ResourceName***&gt;**
+<span id="-ER__ResourceName_"></span><span id="-er__resourcename_"></span><span id="-ER__RESOURCENAME_"></span>**-ER <***ResourceName***&gt;**
 </dt> <dd>
 
 Extracts binary MOF from a named resource. This switch gets the binary MOF from the class in the WMI repository while the -B switch creates the binary MOF format from a MOF file.
 
 </dd> <dt>
 
-<span id="-L__ResourceLocale_"></span><span id="-l__resourcelocale_"></span><span id="-L__RESOURCELOCALE_"></span>**-L:&lt;***ResourceLocale***&gt;**
+<span id="-L__ResourceLocale_"></span><span id="-l__resourcelocale_"></span><span id="-L__RESOURCELOCALE_"></span>**-L:<***ResourceLocale***&gt;**
 </dt> <dd>
 
 Optional. Extracts the localized MOF descriptions from the binary MOF when used with -ER switch.
 
 </dd> <dt>
 
-<span id="_MOFfile_"></span><span id="_moffile_"></span><span id="_MOFFILE_"></span>**&lt;***MOFfile***&gt;**
+<span id="_MOFfile_"></span><span id="_moffile_"></span><span id="_MOFFILE_"></span>**<***MOFfile***&gt;**
 </dt> <dd>
 
 Name of the file to parse.

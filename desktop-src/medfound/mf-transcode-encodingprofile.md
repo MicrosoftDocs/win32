@@ -48,7 +48,7 @@ Typical values for this attribute include the following:
 | "MP"    | Main profile video               |
 | "SP"    | Simple profile video             |
 | "MP@LL" | Main profile, medium level video |
-| "L2"    | Audio profile, &lt;= 160 Kbps    |
+| "L2"    | Audio profile, <= 160 Kbps    |
 
 
 

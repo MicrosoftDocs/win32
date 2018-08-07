@@ -45,7 +45,7 @@ The return value of COM functions and methods is an **HRESULT**. The values of s
 
 If the first four digits of the error code are 8007, this indicates a system or network error. You can use the **net** command to decode these types of errors. To decode the error, first convert the last four digits of the hexadecimal error code to decimal. Then, at the command prompt, type the following, where decimal code is replaced with the return value you want to decode:
 
-**net helpmsg &lt;***decimal\_code***&gt;**
+**net helpmsg <***decimal\_code***&gt;**
 
 The net command returns a description of the error. For example, if COM returns the error 8007054B, convert the 054B to decimal (1355). Then type the following:
 

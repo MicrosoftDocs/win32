@@ -82,9 +82,9 @@ fillcolor="red" strokecolor="blue" strokeweight="2pt">
 [Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/LocalCord/cord1.md)
 
 -   `coordsize="21600,21600"` defines the size of the Local Coordinate Space for the shape to be 21600 units by 21600 units. Therefore, one unit in the Local Coordinate Space is equivalent to 1/216 point.
--   `path="m10800,0l0,10800,10800,21600,21600,10800xe"` defines the outline of the shape as a diamond shape. As we've learned, all position-related information (such as width, height, left, top, path, etc.) is expressed in terms of the unit in Local Coordinate Space. Therefore, 10800 in the &lt;path&gt; means 10800 units, which is equivalent to 50 points.
+-   `path="m10800,0l0,10800,10800,21600,21600,10800xe"` defines the outline of the shape as a diamond shape. As we've learned, all position-related information (such as width, height, left, top, path, etc.) is expressed in terms of the unit in Local Coordinate Space. Therefore, 10800 in the <path&gt; means 10800 units, which is equivalent to 50 points.
 
-When you want to resize this diamond shape, simply specify a different width or height -- that's it; you don't have to change any value in the &lt;path&gt;. For this complicated shape, if you didn't use the Local Coordinate Space feature, you would have to change every value in the &lt;path&gt; whenever you wanted to resize it.
+When you want to resize this diamond shape, simply specify a different width or height -- that's it; you don't have to change any value in the <path&gt;. For this complicated shape, if you didn't use the Local Coordinate Space feature, you would have to change every value in the <path&gt; whenever you wanted to resize it.
 
 For example, you can scale the diamond shape by simply specifying a different width or height, as shown in the following VML representation:
 
@@ -102,7 +102,7 @@ fillcolor="red" strokecolor="blue" strokeweight="2pt">
 
 [Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/LocalCord/cord2.md)
 
-You can also use Local Coordinate Space in the &lt;group&gt; element so that the contents of all shapes within the group are scaled together according to the same coordinate. Then, whenever you want to scale or move a group of shapes, simply change the width and height, or **coordsize** and **coordorigin** settings, of the group.
+You can also use Local Coordinate Space in the <group&gt; element so that the contents of all shapes within the group are scaled together according to the same coordinate. Then, whenever you want to scale or move a group of shapes, simply change the width and height, or **coordsize** and **coordorigin** settings, of the group.
 
 For example, in the following VML representation, `<v:group style='... width:200pt;height:200pt;'>` defines the size of the containing box for the group to be 200 points by 200 points.
 

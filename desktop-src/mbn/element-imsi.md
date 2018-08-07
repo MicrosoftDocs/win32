@@ -18,9 +18,9 @@ Specifies that this profile is active only when the current IMSI being used in t
 
 ## Element hierarchy
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-[&lt;ProfileConditionedOn&gt;](element-profileconditionedon.md)  
-**&lt;IMSI&gt;**
+[<MBNProfileExt&gt;](element-mbnprofileext.md)  
+[<ProfileConditionedOn&gt;](element-profileconditionedon.md)  
+**<IMSI&gt;**
 
 ## Syntax
 

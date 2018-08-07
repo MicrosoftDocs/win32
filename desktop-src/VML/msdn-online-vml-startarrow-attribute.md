@@ -26,7 +26,7 @@ Defines the arrowhead for the start of a line. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* startarrow=" *expression* "&gt;
+<v: *element* startarrow=" *expression* "&gt;
 
 **Script Syntax**
 

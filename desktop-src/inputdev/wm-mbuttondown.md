@@ -91,7 +91,7 @@ As noted above, the x-coordinate is in the low-order **short** of the return val
 
  
 
-To detect that the ALT key was pressed, check whether [**GetKeyState**](https://msdn.microsoft.com/en-us/library/ms646301(v=VS.85).aspx) with **VK\_MENU** &lt; 0. Note, this must not be [**GetAsyncKeyState**](https://msdn.microsoft.com/en-us/library/ms646293(v=VS.85).aspx).
+To detect that the ALT key was pressed, check whether [**GetKeyState**](https://msdn.microsoft.com/en-us/library/ms646301(v=VS.85).aspx) with **VK\_MENU** < 0. Note, this must not be [**GetAsyncKeyState**](https://msdn.microsoft.com/en-us/library/ms646293(v=VS.85).aspx).
 
 ## Requirements
 

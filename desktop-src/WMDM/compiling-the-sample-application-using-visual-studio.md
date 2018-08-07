@@ -21,9 +21,9 @@ ms.date: 05/31/2018
 
 The Windows Media Device Manager SDK includes a Visual Studio solution that is compatible with Microsoft Visual Studio 2005.
 
-Before you compile the sample application, you must rename the header file shtypes.h to prevent conflicts with a file of the same name that is found in the Microsoft Platform SDK. For example, you could rename &lt;*SDK Installation Path*&gt;\\WMFSDK11\\include\\shtypes.h to &lt;*SDK Installation Path*&gt;\\WMFSDK11\\include\\shtypes.h.backup.
+Before you compile the sample application, you must rename the header file shtypes.h to prevent conflicts with a file of the same name that is found in the Microsoft Platform SDK. For example, you could rename <*SDK Installation Path*&gt;\\WMFSDK11\\include\\shtypes.h to <*SDK Installation Path*&gt;\\WMFSDK11\\include\\shtypes.h.backup.
 
-To build the application, start an instance of Visual Studio 2005, open the solution file, wmdmapp.sln, which is found in the folder &lt;*SDK installation path*&gt;\\WMFSDK11\\apps\\wmdmapp and choose the **Build/Build Solution** option. This will create two project files: the helper project, proghelp.vcproj, as well as the main application wmdmapp.vcproj. In addition, it will create the progress helper DLL and the main application (WMDMApp.exe).
+To build the application, start an instance of Visual Studio 2005, open the solution file, wmdmapp.sln, which is found in the folder <*SDK installation path*&gt;\\WMFSDK11\\apps\\wmdmapp and choose the **Build/Build Solution** option. This will create two project files: the helper project, proghelp.vcproj, as well as the main application wmdmapp.vcproj. In addition, it will create the progress helper DLL and the main application (WMDMApp.exe).
 
 ## Related topics
 

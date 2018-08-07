@@ -1,7 +1,7 @@
 ---
 Description: This operator tests if one reference time is less than another.
 ms.assetid: 709fb861-a836-4a20-8c93-c0e8ab79f377
-title: COARefTime.operator&lt; method
+title: COARefTime.operator< method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -11,7 +11,7 @@ topic_type:
 - APIRef
 - kbSyntax
 api_name: 
-- COARefTime.operator&lt;
+- COARefTime.operator<
 api_type: 
 - COM
 api_location: 
@@ -21,7 +21,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# COARefTime.operator&lt; method
+# COARefTime.operator< method
 
 This operator tests if one reference time is less than another.
 

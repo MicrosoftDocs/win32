@@ -483,8 +483,8 @@ HRESULT DemoApp::Initialize()
         WS_OVERLAPPEDWINDOW,
         CW_USEDEFAULT,
         CW_USEDEFAULT,
-        static_cast&lt;UINT&gt;(ceil(640.f * dpiX / 96.f)),
-        static_cast&lt;UINT&gt;(ceil(480.f * dpiY / 96.f)),
+        static_cast<UINT&gt;(ceil(640.f * dpiX / 96.f)),
+        static_cast<UINT&gt;(ceil(480.f * dpiY / 96.f)),
         NULL,
         NULL,
         HINST_THISCOMPONENT,
@@ -555,7 +555,7 @@ HRESULT DemoApp::InitializeDirectCompositionDevice()
         // Create the DirectComposition device object.
         hr = DCompositionCreateDevice(pDXGIDevice, 
                 __uuidof(IDCompositionDevice), 
-                reinterpret_cast&lt;void **&gt;(&m_pDevice));
+                reinterpret_cast<void **&gt;(&m_pDevice));
     }
 
     if (SUCCEEDED(hr))
@@ -681,8 +681,8 @@ HRESULT DemoApp::OnMouseMove(int xPos, int yPos)
     static BOOL fOverImage = FALSE;
 
     // Determine whether the cursor is over the visual.
-    if ((xPos &gt;= OFFSET_X && xPos &lt;= (OFFSET_X + m_bitmapWidth))
-        && (yPos &gt;= OFFSET_Y && yPos &lt;= (OFFSET_Y + m_bitmapHeight)))
+    if ((xPos &gt;= OFFSET_X && xPos <= (OFFSET_X + m_bitmapWidth))
+        && (yPos &gt;= OFFSET_Y && yPos <= (OFFSET_Y + m_bitmapHeight)))
     {
         if (!fOverImage)
         {
@@ -716,7 +716,7 @@ HRESULT DemoApp::SetVisualOpacity(IDCompositionVisual *pVisual, float opacity)
     IDCompositionEffectGroup *pEffectGroup = nullptr;
 
     // Validate the input arguments.
-    if (pVisual == NULL || (opacity &gt; 1.0f || opacity &lt; 0.0f))
+    if (pVisual == NULL || (opacity &gt; 1.0f || opacity < 0.0f))
         return E_INVALIDARG;
 
     // Create an effect group object.
@@ -762,8 +762,8 @@ HRESULT DemoApp::OnClientClick(int xPos, int yPos)
 
     // Determine whether the mouse cursor is over the visual. If so,
     // rotate the visual.
-    if ((xPos &gt;= OFFSET_X && xPos &lt;= (OFFSET_X + m_bitmapWidth))
-        && (yPos &gt;= OFFSET_Y && yPos &lt;= (OFFSET_Y + m_bitmapHeight)))
+    if ((xPos &gt;= OFFSET_X && xPos <= (OFFSET_X + m_bitmapWidth))
+        && (yPos &gt;= OFFSET_Y && yPos <= (OFFSET_Y + m_bitmapHeight)))
     {
         hr = RotateVisual(m_pVisual, 360.0f);
     }
@@ -786,7 +786,7 @@ HRESULT DemoApp::RotateVisual(IDCompositionVisual *pVisual, float degrees)
     IDCompositionEffectGroup *pEffectGroup = nullptr;
 
     // Validate the input arguments.
-    if (pVisual == NULL || (degrees &gt; 360.0f || degrees &lt; -360.0f))
+    if (pVisual == NULL || (degrees &gt; 360.0f || degrees < -360.0f))
         return E_INVALIDARG;
 
     // Create a 3D rotate transform object.
@@ -880,7 +880,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message,
     }
     else
     {
-        DemoApp *pDemoApp = reinterpret_cast&lt;DemoApp *&gt;(static_cast&lt;LONG_PTR&gt;(
+        DemoApp *pDemoApp = reinterpret_cast<DemoApp *&gt;(static_cast<LONG_PTR&gt;(
             ::GetWindowLongPtrW(
                 hwnd,
                 GWLP_USERDATA
@@ -956,7 +956,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message,
 
 HRESULT DemoApp::LoadResourceGDIBitmap(PCWSTR resourceName, HBITMAP &hbmp)
 {
-    hbmp = static_cast&lt;HBITMAP&gt;(LoadImageW(HINST_THISCOMPONENT, resourceName, 
+    hbmp = static_cast<HBITMAP&gt;(LoadImageW(HINST_THISCOMPONENT, resourceName, 
         IMAGE_BITMAP, 0, 0, LR_DEFAULTCOLOR));  
  
     return hbmp ? S_OK : E_FAIL;
@@ -1010,7 +1010,7 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
     {
         // Begin rendering to the surface.
         hr = pDCSurface-&gt;BeginDraw(NULL, __uuidof(IDXGISurface1), 
-            reinterpret_cast&lt;void**&gt;(&pDXGISurface), &pointOffset);
+            reinterpret_cast<void**&gt;(&pDXGISurface), &pointOffset);
     }
 
     if (SUCCEEDED(hr)) 

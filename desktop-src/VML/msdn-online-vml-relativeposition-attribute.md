@@ -26,7 +26,7 @@ Defines a relative position for an object. Read/write. [IVgVector2D](msdn-online
 
 **Tag Syntax**
 
-&lt;v: *element* o:relativeposition=" *expression* "&gt;
+<v: *element* o:relativeposition=" *expression* "&gt;
 
 **Remarks**
 

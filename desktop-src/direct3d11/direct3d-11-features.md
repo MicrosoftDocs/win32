@@ -150,7 +150,7 @@ This is a complete list of the features in Direct3D 11.
     -   Floating-point viewports
     -   Per-resource mipmap clamping
     -   Depth Bias - This algorithm updates the behavior of depth bias, by using rasterizer state. The result eliminates the scenarios where the calculated bias could be NaN.
-    -   Resource limits - Resource indices are still required to be &lt;= 32 bits, but resources can be larger than 4 GB.
+    -   Resource limits - Resource indices are still required to be <= 32 bits, but resources can be larger than 4 GB.
     -   Rasterizer Precision
     -   MSAA Requirements
     -   Counters Reduced

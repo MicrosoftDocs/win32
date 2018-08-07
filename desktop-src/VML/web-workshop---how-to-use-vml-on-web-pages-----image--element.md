@@ -60,23 +60,23 @@ This topic describes VML, a feature that is deprecated as of Windows Internet Ex
 
  
 
-Using &lt;image&gt;
+Using <image&gt;
 
-In this topic, we will illustrate how to use the &lt;image&gt; element to display pictures with various special effects.
+In this topic, we will illustrate how to use the <image&gt; element to display pictures with various special effects.
 
-If you wanted to display a picture that was loaded from an external source, you would usually use the &lt;img&gt; element provided in HTML, and then point the **src** property attribute to the location of the image file.
+If you wanted to display a picture that was loaded from an external source, you would usually use the <img&gt; element provided in HTML, and then point the **src** property attribute to the location of the image file.
 
-Alternatively you can use the &lt;image&gt; element provided in VML. When you use the &lt;image&gt; element, you can create only one image file and then display the image differently by altering the property attributes of the &lt;image&gt; element. Also, the &lt;image&gt; element provides several special effects that you can't do by simply using the &lt;img&gt; element of HTML, such as [cropping](#crop), [contrast](#contrast), [brightness](#brightness), [gamma](#gamma), and [grayscale](#grayscale).
+Alternatively you can use the <image&gt; element provided in VML. When you use the <image&gt; element, you can create only one image file and then display the image differently by altering the property attributes of the <image&gt; element. Also, the <image&gt; element provides several special effects that you can't do by simply using the <img&gt; element of HTML, such as [cropping](#crop), [contrast](#contrast), [brightness](#brightness), [gamma](#gamma), and [grayscale](#grayscale).
 
 [![back to top](images/top.gif) Back to top](#top)
 
 ## crop
 
-You can use the **cropbottom**, **croptop**, **cropleft**, and **cropright** property attributes of the &lt;image&gt; element to display different pictures that are cropped from the same image file.
+You can use the **cropbottom**, **croptop**, **cropleft**, and **cropright** property attributes of the <image&gt; element to display different pictures that are cropped from the same image file.
 
 The value of these crop attributes represents the percentage cut from the edge of the picture. The value can be any number between 0 to 1. By default, the value is set to 0, indicating no crop from the edge. The value 0.1 indicates a cropping of 10 percent from the edge, The value 0.15 indicates a cropping of 15 percent from the edge, and so on.
 
-For example, to display five pictures that are all cropped from the same image file, you can use the &lt;image&gt; element and specify different crop values, as shown in the following VML representation:
+For example, to display five pictures that are all cropped from the same image file, you can use the <image&gt; element and specify different crop values, as shown in the following VML representation:
 
 ![image1.jpg (5770 bytes)](images/image1.jpg)![image1\-2.jpg (1969 bytes)](images/image1-2.jpg)![image1\-3.jpg (1148 bytes)](images/image1-3.jpg)![image1\-4.jpg (1686 bytes)](images/image1-4.jpg)![image1\-5.jpg (1364 bytes)](images/image1-5.jpg)
 
@@ -107,11 +107,11 @@ Similarly the third, fourth, and fifth images have some crop values. The origina
 
 ## contrast
 
-You can use the **gain** property attribute of the &lt;image&gt; element to display various pictures that have different contrast settings.
+You can use the **gain** property attribute of the <image&gt; element to display various pictures that have different contrast settings.
 
 The value of the **gain** property attribute can be any number. By default, the value is 1, indicating the use of the same contrast as the original image. The value 0 indicates no contrast. The larger the number, the higher the contrast.
 
-For example, to display five pictures that have different contrast settings, you can use the &lt;image&gt; element and set a different value for the **gain** property attribute, as shown in the following VML representation:
+For example, to display five pictures that have different contrast settings, you can use the <image&gt; element and set a different value for the **gain** property attribute, as shown in the following VML representation:
 
 ![image1.jpg (5770 bytes)](images/image1.jpg)![image2\-2.jpg (270 bytes)](images/image2-2.jpg)![image2\-3.jpg (1919 bytes)](images/image2-3.jpg)![image2\-4.jpg (3143 bytes)](images/image2-4.jpg)![image2\-5.jpg (1724 bytes)](images/image2-5.jpg)
 
@@ -134,11 +134,11 @@ When the **gain** property attribute is set to 0, the entire image becomes gray 
 
 ## brightness
 
-You can use the **blacklevel** property attribute of the &lt;image&gt; element to display various pictures that have different brightness settings.
+You can use the **blacklevel** property attribute of the <image&gt; element to display various pictures that have different brightness settings.
 
 The value of the **blacklevel** property attribute can be any value between 0 to 1. By default, the value is 0, indicating that the level of brightness in the original image is preserved. The value 1 indicates the highest level of brightness.
 
-For example, to display five pictures that have different brightness settings, you can use the &lt;image&gt; element and set a different value for the **blacklevel** property attribute, as shown in the following VML representation:
+For example, to display five pictures that have different brightness settings, you can use the <image&gt; element and set a different value for the **blacklevel** property attribute, as shown in the following VML representation:
 
 ![image1.jpg (5770 bytes)](images/image1.jpg)![image3\-2.jpg (2579 bytes)](images/image3-2.jpg)![image3\-3.jpg (2330 bytes)](images/image3-3.jpg)![image3\-4.jpg (2727 bytes)](images/image3-4.jpg)![image3\-5.jpg (2435 bytes)](images/image3-5.jpg)
 
@@ -159,7 +159,7 @@ For example, to display five pictures that have different brightness settings, y
 
 ## grayscale
 
-You can use the **grayscale** property attribute of the &lt;image&gt; element to display pictures with or without grayscale.
+You can use the **grayscale** property attribute of the <image&gt; element to display pictures with or without grayscale.
 
 The value of the **grayscale** property attribute can be either true or false. By default, the value is set to false so that the image will be displayed in color. If the value is set to true, the image will be displayed in grayscale.
 
@@ -184,11 +184,11 @@ grayscale=true />
 
 ## gamma
 
-You can use the **gamma** property attribute of the &lt;image&gt; element to display pictures that have different gamma settings.
+You can use the **gamma** property attribute of the <image&gt; element to display pictures that have different gamma settings.
 
 The value of the gamma property attribute can be any value between 0 and 1. By default, the value is set to 1.
 
-For example, to display three pictures that have different gamma settings, you can use the &lt;image&gt; element and set a different value of the **gamma** property attribute, as shown in the following VML representation:
+For example, to display three pictures that have different gamma settings, you can use the <image&gt; element and set a different value of the **gamma** property attribute, as shown in the following VML representation:
 
 ![image5\-1.jpg (2714 bytes)](images/image5-1.jpg)![image5\-2.jpg (2729 bytes)](images/image5-2.jpg)![image5\-3.jpg (2726 bytes)](images/image5-3.jpg)
 

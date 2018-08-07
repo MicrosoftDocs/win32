@@ -92,7 +92,7 @@ End of lines in the clipboard format header could be CR or CR/LF or LF.
 
 The fragment contains pure, valid HTML representing the area the user has selected (to Copy, for example). This contains the selected text plus the opening tags and attributes of any element that has an end tag within the selected text, and end tags at the end of the fragment for any start tag included. This is all information required for basic pasting of an HTML fragment.
 
-The fragment should be preceded and followed by the HTML comments &lt;!--StartFragment--&gt; and &lt;!--EndFragment--&gt; (no space allowed between the !-- and the text) to conveniently indicate where the fragment starts and ends. Thus the start and end of the fragment are indicated by the presence of these comments and by StartFragment and EndFragment byte counts in the description. Tools are expected to produce this information. This redundancy has been introduced to be able to rapidly find the start of the fragment (from the byte count) and mark the position of the fragment directly in the HTML tree.
+The fragment should be preceded and followed by the HTML comments <!--StartFragment--&gt; and <!--EndFragment--&gt; (no space allowed between the !-- and the text) to conveniently indicate where the fragment starts and ends. Thus the start and end of the fragment are indicated by the presence of these comments and by StartFragment and EndFragment byte counts in the description. Tools are expected to produce this information. This redundancy has been introduced to be able to rapidly find the start of the fragment (from the byte count) and mark the position of the fragment directly in the HTML tree.
 
 The selection indicates inside the fragment the exact HTML area the user has selected (to Copy, for example). This adds more information to the fragment by indicating the exact selected text, without the opening tags and end tags that have been added to ensure the fragment is well-formed HTML.
 
@@ -109,7 +109,7 @@ The following scenarios describe how the IE4/MSHTML HTML editor handles HTML cut
 1.  Simple Fragment of HTML.
     -   -   HTML text:
 
-            &lt;BODY&gt;This is normal &lt;B&gt;This is bold &lt;/B&gt;&lt;I&gt;&lt;B&gt;This is bold italic &lt;/B&gt;This is italic &lt;/I&gt;&lt;/BODY&gt;
+            <BODY&gt;This is normal <B&gt;This is bold </B&gt;<I&gt;<B&gt;This is bold italic </B&gt;This is italic </I&gt;</BODY&gt;
 
         -   Appears as:
 
@@ -135,49 +135,49 @@ The following scenarios describe how the IE4/MSHTML HTML editor handles HTML cut
 
             **EndSelection:150**
 
-            &lt;!DOCTYPE ...&gt;
+            <!DOCTYPE ...&gt;
 
-            &lt;BODY&gt;
+            <BODY&gt;
 
-            &lt;!-- StartFragment --&gt;&gt;
+            <!-- StartFragment --&gt;&gt;
 
-            **&lt;B&gt;bold&lt;/B&gt;&lt;I&gt;&lt;B&gt;This is bold italic&lt;/B&gt;This&lt;/I&gt;**
+            **<B&gt;bold</B&gt;<I&gt;<B&gt;This is bold italic</B&gt;This</I&gt;**
 
-            &lt;!-- EndFragment --&gt;
+            <!-- EndFragment --&gt;
 
-            &lt;/BODY&gt;
+            </BODY&gt;
 
-            &lt;/HTML&gt;
+            </HTML&gt;
 
         -   In this scenario only the BODY tag and the HTML tag appear in the context as it precedes the selected fragment. Note that start tags and end tags are included in the context. The selection, as delimited by StartSelection and EndSelection, is shown in bold.
 
 2.  Fragment of a table in HTML.
     -   -   HTML text:
 
-            &lt;BODY&gt;&lt;TABLE BORDER&gt;&lt;TR&gt;&lt;TH ROWSPAN=2&gt;Head1&lt;/TH&gt;&lt;TD&gt;Item 1&lt;/TD&gt;&lt;TD&gt;Item 2&lt;/TD&gt;&lt;TD&gt;Item 3&lt;/TD&gt;&lt;TD&gt;Item 4&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Item 5&lt;/TD&gt;&lt;TD&gt;Item 6&lt;/TD&gt;&lt;TD&gt;Item 7&lt;/TD&gt;&lt;TD&gt;Item 8&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TH&gt;Head2&lt;/TH&gt;&lt;TD&gt;Item 9&lt;/TD&gt;&lt;TD&gt;Item 10&lt;/TD&gt;&lt;TD&gt;Item 11&lt;/TD&gt;&lt;TD&gt;Item 12&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&lt;/BODY&gt;
+            <BODY&gt;<TABLE BORDER&gt;<TR&gt;<TH ROWSPAN=2&gt;Head1</TH&gt;<TD&gt;Item 1</TD&gt;<TD&gt;Item 2</TD&gt;<TD&gt;Item 3</TD&gt;<TD&gt;Item 4</TD&gt;</TR&gt;<TR&gt;<TD&gt;Item 5</TD&gt;<TD&gt;Item 6</TD&gt;<TD&gt;Item 7</TD&gt;<TD&gt;Item 8</TD&gt;</TR&gt;<TR&gt;<TH&gt;Head2</TH&gt;<TD&gt;Item 9</TD&gt;<TD&gt;Item 10</TD&gt;<TD&gt;Item 11</TD&gt;<TD&gt;Item 12</TD&gt;</TR&gt;</TABLE&gt;</BODY&gt;
 
-        -   Appears as: &gt;&lt;TABLE BORDER&gt;&lt;TR&gt;&lt;TH ROWSPAN=2&gt;Head1&lt;/TH&gt;&lt;TD&gt;Item 1&lt;/TD&gt;&lt;TD&gt;Item 2&lt;/TD&gt;&lt;TD&gt;Item 3&lt;/TD&gt;&lt;TD&gt;Item 4&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Item 5&lt;/TD&gt;&lt;TD&gt;Item 6&lt;/TD&gt;&lt;TD&gt;Item 7&lt;/TD&gt;&lt;TD&gt;Item 8&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TH&gt;Head2&lt;/TH&gt;&lt;TD&gt;Item 9&lt;/TD&gt;&lt;TD&gt;Item 10&lt;/TD&gt;&lt;TD&gt;Item 11&lt;/TD&gt;&lt;TD&gt;Item 12&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&lt;!\[CDATA\[\]\]&gt;
+        -   Appears as: &gt;<TABLE BORDER&gt;<TR&gt;<TH ROWSPAN=2&gt;Head1</TH&gt;<TD&gt;Item 1</TD&gt;<TD&gt;Item 2</TD&gt;<TD&gt;Item 3</TD&gt;<TD&gt;Item 4</TD&gt;</TR&gt;<TR&gt;<TD&gt;Item 5</TD&gt;<TD&gt;Item 6</TD&gt;<TD&gt;Item 7</TD&gt;<TD&gt;Item 8</TD&gt;</TR&gt;<TR&gt;<TH&gt;Head2</TH&gt;<TD&gt;Item 9</TD&gt;<TD&gt;Item 10</TD&gt;<TD&gt;Item 11</TD&gt;<TD&gt;Item 12</TD&gt;</TR&gt;</TABLE&gt;<!\[CDATA\[\]\]&gt;
         -   The Item 6, Item7, Item 10, and Item 11 elements of the table are selected as a block and copied to the clipboard.
         -   This is what will be on the clipboard (note this is IE4/MSHTML's interpretation):
 
-            &lt;!DOCTYPE ...&gt;
+            <!DOCTYPE ...&gt;
 
-            &lt;HTML&gt;&lt;BODY&gt;&lt;TABLE BORDER&gt;
+            <HTML&gt;<BODY&gt;<TABLE BORDER&gt;
 
-            &lt;!--StartFragment--&gt;
+            <!--StartFragment--&gt;
 
-            **&lt;TR&gt;&lt;TD&gt;Item 6&lt;/TD&gt;&lt;TD&gt;Item 7&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Item 10&lt;/TD&gt;&lt;TD&gt;Item 11&lt;/TD&gt;&lt;/TR&gt;**
+            **<TR&gt;<TD&gt;Item 6</TD&gt;<TD&gt;Item 7</TD&gt;</TR&gt;<TR&gt;<TD&gt;Item 10</TD&gt;<TD&gt;Item 11</TD&gt;</TR&gt;**
 
-            &lt;!--EndFragment--&gt;
+            <!--EndFragment--&gt;
 
-            &lt;/TABLE&gt;
+            </TABLE&gt;
 
-            &lt;/BODY&gt;&lt;/HTML&gt;The selection, as delimited by StartSelection and EndSelection, is shown in bold.
+            </BODY&gt;</HTML&gt;The selection, as delimited by StartSelection and EndSelection, is shown in bold.
 
 3.  Pasting a fragment of an ordered list into plain text.
     -   -   HTML text:
 
-            &lt;BODY&gt;&lt;OL TYPE = a&gt;&lt;LI&gt;Item 1&lt;LI&gt;Item 2&lt;LI&gt;Item 3&lt;LI&gt;Item 4&lt;LI&gt;Item 5&lt;LI&gt;Item 6&lt;/OL&gt;&lt;/BODY&gt;
+            <BODY&gt;<OL TYPE = a&gt;<LI&gt;Item 1<LI&gt;Item 2<LI&gt;Item 3<LI&gt;Item 4<LI&gt;Item 5<LI&gt;Item 6</OL&gt;</BODY&gt;
 
         -   Appears as:
             1.  Item 1
@@ -188,21 +188,21 @@ The following scenarios describe how the IE4/MSHTML HTML editor handles HTML cut
             6.  Item 6
         -   The user selects and copies items 3 through 5 to the clipboard. The following HTML is in the clipboard:
 
-            &lt;DOCTYPE...&gt;&lt;HTML&gt;&lt;BODY&gt;&lt;OL TYPE = a&gt;
+            <DOCTYPE...&gt;<HTML&gt;<BODY&gt;<OL TYPE = a&gt;
 
-            &lt;!-- StartFragment--&gt;
+            <!-- StartFragment--&gt;
 
-            **&lt;LI&gt;Item 3&lt;LI&gt;Item 4&lt;LI&gt;Item 5**
+            **<LI&gt;Item 3<LI&gt;Item 4<LI&gt;Item 5**
 
-            &lt;!-- EndFragment--&gt;
+            <!-- EndFragment--&gt;
 
-            &lt;/OL&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+            </OL&gt;</BODY&gt;</HTML&gt;
 
             The selection, as delimited by StartSelection and EndSelection, is show in bold.
 
         -   If this fragment is now pasted into an empty document, the following HTML will be created:
 
-            &lt;BODY&gt;&lt;OL TYPE = a&gt;&lt;LI&gt;Item 3&lt;LI&gt;Item 4&lt;LI&gt;Item 5&lt;/OL&gt;&lt;/BODY&gt;
+            <BODY&gt;<OL TYPE = a&gt;<LI&gt;Item 3<LI&gt;Item 4<LI&gt;Item 5</OL&gt;</BODY&gt;
 
         -   Appearing as:
             1.  Item 3
@@ -212,7 +212,7 @@ The following scenarios describe how the IE4/MSHTML HTML editor handles HTML cut
 4.  Pasting a partially selected region.
     -   -   HTML text:
 
-            &lt;P&gt; IE4/MSHTML is a WYSIWYG Editor that supports :&lt;UL&gt;&lt;LI&gt;Cut&lt;LI&gt;Copy&lt;LI&gt;Paste&lt;/UL&gt;&lt;P&gt;This is a Great Tool !
+            <P&gt; IE4/MSHTML is a WYSIWYG Editor that supports :<UL&gt;<LI&gt;Cut<LI&gt;Copy<LI&gt;Paste</UL&gt;<P&gt;This is a Great Tool !
 
         -   Appears as:IE4/MSHTML is a WYSIWYG Editor that supports :
             -   -   Cut
@@ -221,40 +221,40 @@ The following scenarios describe how the IE4/MSHTML HTML editor handles HTML cut
 
         -   The user selects from "WYSIWYG" until "Cop".The following HTML is in the clipboard:
 
-            &lt;DOCTYPE...&gt;&lt;HTML&gt;&lt;BODY&gt;
+            <DOCTYPE...&gt;<HTML&gt;<BODY&gt;
 
-            &lt;!-- StartFragment--&gt;
+            <!-- StartFragment--&gt;
 
-            &lt;P&gt;
+            <P&gt;
 
             **WYSIWYG Editor, which supports**
 
-            **&lt;UL&gt;&lt;LI&gt;Cut&lt;LI&gt;Cop**
+            **<UL&gt;<LI&gt;Cut<LI&gt;Cop**
 
-            &lt;/UL&gt;
+            </UL&gt;
 
-            &lt;!-- EndFragment--&gt;
+            <!-- EndFragment--&gt;
 
-            &lt;/BODY&gt;&lt;/HTML&gt;The selection, as delimited by StartSelection and EndSelection, is shown in bold.
+            </BODY&gt;</HTML&gt;The selection, as delimited by StartSelection and EndSelection, is shown in bold.
 
      
     -   -   The user selects from "opy" until "Great".
 
             The following HTML is in the clipboard:
 
-            &lt;DOCTYPE...&gt;&lt;HTML&gt;&lt;BODY&gt;
+            <DOCTYPE...&gt;<HTML&gt;<BODY&gt;
 
-            &lt;!-- StartFragment--&gt;
+            <!-- StartFragment--&gt;
 
-            &lt;UL&gt;&lt;LI&gt;
+            <UL&gt;<LI&gt;
 
-            **opy&lt;LI&gt;Paste&lt;/UL&gt;&lt;P&gt; This is a Great**
+            **opy<LI&gt;Paste</UL&gt;<P&gt; This is a Great**
 
-            &lt;/P&gt;
+            </P&gt;
 
-            &lt;!-- EndFragment--&gt;
+            <!-- EndFragment--&gt;
 
-            &lt;/BODY&gt;&lt;/HTML&gt;
+            </BODY&gt;</HTML&gt;
 
             The selection, as delimited by StartSelection and EndSelection, is shown in bold.
 

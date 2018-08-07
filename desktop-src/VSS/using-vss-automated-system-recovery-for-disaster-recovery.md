@@ -89,19 +89,19 @@ The component names use the following formats:
 
 -   For disk components, the format is
 
-    &lt;COMPONENT logicalPath="Disks" componentName="harddisk*n*" componentType="filegroup" /&gt;
+    <COMPONENT logicalPath="Disks" componentName="harddisk*n*" componentType="filegroup" /&gt;
 
     where *n* is the disk number. Only the disk number is recorded. To get the disk number, use the [**IOCTL\_STORAGE\_GET\_DEVICE\_NUMBER**](https://msdn.microsoft.com/en-us/library/Bb968800(v=VS.85).aspx) control code.
 
 -   For volume components, the format is
 
-    &lt;COMPONENT logicalPath="Volumes" componentName="Volume{*GUID*}" componentType="filegroup" /&gt;
+    <COMPONENT logicalPath="Volumes" componentName="Volume{*GUID*}" componentType="filegroup" /&gt;
 
     where *GUID* is the volume GUID.
 
 -   For the BCD store component, the format is
 
-    &lt;COMPONENT logicalPath="BCD" componentName="BCD" componentType="filegroup" componentCaption = "This is the path to the boot BCD store and the boot managers...All the files in this directory need to be backed up..."&gt;
+    <COMPONENT logicalPath="BCD" componentName="BCD" componentType="filegroup" componentCaption = "This is the path to the boot BCD store and the boot managers...All the files in this directory need to be backed up..."&gt;
 
     If the system partition has a volume GUID name, this component is selectable. Otherwise, it is not selectable.
 

@@ -26,7 +26,7 @@ Specifies the line that makes up the edges of a shape. Read/write. **String**.
 
 **Tag Syntax**
 
-&lt;v: *element* path=" *expression* "&gt;
+<v: *element* path=" *expression* "&gt;
 
 **Script Syntax**
 

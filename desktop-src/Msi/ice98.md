@@ -43,7 +43,7 @@ The data source name is invalid: <String of length > 32>
 | DataSource | Description                      |
 |------------|----------------------------------|
 | BadChar    | !                                |
-| TooLong    | &lt;String of length &gt; 32&gt; |
+| TooLong    | <String of length &gt; 32&gt; |
 
 
 

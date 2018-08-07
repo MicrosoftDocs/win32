@@ -77,8 +77,8 @@ Use the following steps to create a layered child window.
         WS_CHILD | WS_CLIPSIBLINGS,             
         0, 
         0, 
-        static_cast&lt;UINT&gt;(ceil(640.0f * m_dpiX / 96.0f)),
-        static_cast&lt;UINT&gt;(ceil(480.0f * m_dpiY / 96.0f)),                                  
+        static_cast<UINT&gt;(ceil(640.0f * m_dpiX / 96.0f)),
+        static_cast<UINT&gt;(ceil(480.0f * m_dpiY / 96.0f)),                                  
         m_hwndMain,                               
         NULL,                                     
         HINST_THISCOMPONENT,                    
@@ -563,8 +563,8 @@ HRESULT DemoApp::InitializeMainWindow()
             ReleaseDC(NULL, hdc);
         }
 
-        float width = static_cast&lt;float&gt;(rect.right - rect.left);
-        float height = static_cast&lt;float&gt;(rect.bottom - rect.top);
+        float width = static_cast<float&gt;(rect.right - rect.left);
+        float height = static_cast<float&gt;(rect.bottom - rect.top);
 
         m_hwndMain = CreateWindow(
             L&quot;DirectCompDemoApp&quot;,
@@ -572,8 +572,8 @@ HRESULT DemoApp::InitializeMainWindow()
             WS_OVERLAPPED | WS_SYSMENU,
             CW_USEDEFAULT,
             CW_USEDEFAULT,
-            static_cast&lt;UINT&gt;(ceil(width * m_dpiX / 96.f)),
-            static_cast&lt;UINT&gt;(ceil(height * m_dpiY / 96.f)),
+            static_cast<UINT&gt;(ceil(width * m_dpiX / 96.f)),
+            static_cast<UINT&gt;(ceil(height * m_dpiY / 96.f)),
             NULL,
             NULL,
             HINST_THISCOMPONENT,
@@ -635,8 +635,8 @@ HRESULT DemoApp::InitializeLayeredChildWindow()
         WS_CHILD | WS_CLIPSIBLINGS,             
         0, 
         0, 
-        static_cast&lt;UINT&gt;(ceil(640.0f * m_dpiX / 96.0f)),
-        static_cast&lt;UINT&gt;(ceil(480.0f * m_dpiY / 96.0f)),                                  
+        static_cast<UINT&gt;(ceil(640.0f * m_dpiX / 96.0f)),
+        static_cast<UINT&gt;(ceil(480.0f * m_dpiY / 96.0f)),                                  
         m_hwndMain,                               
         NULL,                                     
         HINST_THISCOMPONENT,                    
@@ -686,7 +686,7 @@ HRESULT DemoApp::InitializeDirectCompositionObjects()
 
     // Create a DirectComposition device object. 
     hr = DCompositionCreateDevice(nullptr, __uuidof(IDCompositionDevice), 
-        reinterpret_cast&lt;void**&gt;(&m_pDevice));
+        reinterpret_cast<void**&gt;(&m_pDevice));
 
     if (SUCCEEDED(hr))
     {
@@ -822,7 +822,7 @@ LRESULT CALLBACK DemoApp::MainWndProc(HWND hwnd, UINT message,
     }
     else
     {
-        DemoApp *pDemoApp = reinterpret_cast&lt;DemoApp *&gt;(static_cast&lt;LONG_PTR&gt;(
+        DemoApp *pDemoApp = reinterpret_cast<DemoApp *&gt;(static_cast<LONG_PTR&gt;(
             ::GetWindowLongPtrW(
                 hwnd,
                 GWLP_USERDATA
@@ -889,7 +889,7 @@ LRESULT CALLBACK DemoApp::ChildWndProc(HWND hwnd, UINT message,
     }
     else
     {
-        DemoApp *pDemoApp = reinterpret_cast&lt;DemoApp *&gt;(static_cast&lt;LONG_PTR&gt;(
+        DemoApp *pDemoApp = reinterpret_cast<DemoApp *&gt;(static_cast<LONG_PTR&gt;(
             ::GetWindowLongPtrW(
                 hwnd,
                 GWLP_USERDATA
@@ -1040,10 +1040,10 @@ HRESULT DemoApp::OnChildClick()
     {
        // Position the visual at the same location as the
        // the child window.
-        hr = pVisual-&gt;SetOffsetX(static_cast&lt;float&gt;(m_childOffsetX));
+        hr = pVisual-&gt;SetOffsetX(static_cast<float&gt;(m_childOffsetX));
         if (SUCCEEDED(hr))
         {
-            hr = pVisual-&gt;SetOffsetY(static_cast&lt;float&gt;(m_childOffsetY));  
+            hr = pVisual-&gt;SetOffsetY(static_cast<float&gt;(m_childOffsetY));  
         }
     }
 
@@ -1088,11 +1088,11 @@ HRESULT DemoApp::OnChildClick()
  
         // Build the animation functions that will move the visual to the 
         // center of the main window&#39;s client area.
-        pAnimateX-&gt;AddCubic(0.0f, static_cast&lt;float&gt;(m_childOffsetX), 
+        pAnimateX-&gt;AddCubic(0.0f, static_cast<float&gt;(m_childOffsetX), 
             endValX - m_childOffsetX, 0.0f, 0.0f);
         pAnimateX-&gt;End(0.9f, endValX);
 
-        pAnimateY-&gt;AddCubic(0.0f, static_cast&lt;float&gt;(m_childOffsetY), 
+        pAnimateY-&gt;AddCubic(0.0f, static_cast<float&gt;(m_childOffsetY), 
             endValY - m_childOffsetY, 0.0f, 0.0f);
         pAnimateY-&gt;End(0.9f, endValY);
 
@@ -1243,7 +1243,7 @@ HRESULT DemoApp::LoadResourceD2DBitmap(
     {
         // Initialize the stream with the memory pointer and size.
         hr = pStream-&gt;InitializeFromMemory(
-            reinterpret_cast&lt;BYTE*&gt;(pImageFile),
+            reinterpret_cast<BYTE*&gt;(pImageFile),
             imageFileSize
             );
     }

@@ -26,7 +26,7 @@ Determines a second offset. Read/write. **VgVector2D**.
 
 **Tag Syntax**
 
-&lt;v: *element* offset2=" *expression* "&gt;
+<v: *element* offset2=" *expression* "&gt;
 
 **Script Syntax**
 

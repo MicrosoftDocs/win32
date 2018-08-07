@@ -26,7 +26,7 @@ Defines whether the text fits bounding box of a shape. Read/write. **VgTriState*
 
 **Tag Syntax**
 
-&lt;v: *element* fitshape=" *expression* "&gt;
+<v: *element* fitshape=" *expression* "&gt;
 
 **Script Syntax**
 

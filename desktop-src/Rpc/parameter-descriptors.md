@@ -35,7 +35,7 @@ FC_RETURN_PARAM_BASETYPE
 simple_type<1>
 ```
 
-Where simple\_type&lt;1&gt; is the FC token indicating the simple type. The codes are as follows:
+Where simple\_type<1&gt; is the FC token indicating the simple type. The codes are as follows:
 
 ``` syntax
 4e  FC_IN_PARAM_BASETYPE 
@@ -54,7 +54,7 @@ stack_size<1>
 type_offset<2>
 ```
 
-Where the param\_direction&lt;1&gt; field for each of these descriptions must be one of those shown in the following table.
+Where the param\_direction<1&gt; field for each of these descriptions must be one of those shown in the following table.
 
 
 
@@ -70,14 +70,14 @@ Where the param\_direction&lt;1&gt; field for each of these descriptions must be
 
  
 
-The stack\_size&lt;1&gt; is the size of the parameter on the stack, expressed as the number of integers the parameter occupies on the stack.
+The stack\_size<1&gt; is the size of the parameter on the stack, expressed as the number of integers the parameter occupies on the stack.
 
 > [!Note]  
 > The [**–Oi**](https://msdn.microsoft.com/library/windows/desktop/aa367352) mode is not supported on 64-bit platforms.
 
  
 
-The type\_offset&lt;2&gt; field is the offset in the type format string table, indicating the type descriptor for the argument.
+The type\_offset<2&gt; field is the offset in the type format string table, indicating the type descriptor for the argument.
 
 ## The –Oif Parameter Descriptors
 
@@ -100,7 +100,7 @@ stack_offset<2>
 type_offset<2>
 ```
 
-In both stack\_offset&lt;2&gt; indicates the offset on the virtual argument stack, in bytes. For base types, the argument type is given directly by the format character corresponding to the type. For other types, the type\_offset&lt;2&gt; field gives the offset in the type format string table where the type descriptor for the argument is located.
+In both stack\_offset<2&gt; indicates the offset on the virtual argument stack, in bytes. For base types, the argument type is given directly by the format character corresponding to the type. For other types, the type\_offset<2&gt; field gives the offset in the type format string table where the type descriptor for the argument is located.
 
 The parameter attribute field is defined as follows:
 
@@ -125,7 +125,7 @@ typedef struct
 
 -   The **MustSize** bit is set only if the parameter must be sized.
 -   The **MustFree** bit is set if the server must call the parameter's NdrFree\* routine.
--   The **IsSimpleRef** bit is set for a parameter that is a reference pointer to anything other than another pointer, and which has no allocate attributes. For such a type, the parameter description's type\_offset&lt;&gt; field, except for a reference pointer to a base type, provides the offset to the referent's type; the reference pointer is simply skipped.
+-   The **IsSimpleRef** bit is set for a parameter that is a reference pointer to anything other than another pointer, and which has no allocate attributes. For such a type, the parameter description's type\_offset<&gt; field, except for a reference pointer to a base type, provides the offset to the referent's type; the reference pointer is simply skipped.
 -   The **IsDontCallFreeInst** bit is set for certain represent\_as parameters whose free instance routines should not be called.
 -   The **ServerAllocSize** bits are nonzero if the parameter is \[**out**\], \[**in**\], or \[**in,out**\] pointer to pointer, or pointer to enum16, and will be initialized on the server interpreter's stack, rather than using a call to **I\_RpcAllocate**. If nonzero, this value is multiplied by 8 to get the number of bytes for the parameter. Note that doing so means at least 8 bytes are always allocated for a pointer.
 -   The **IsBasetype** bit is set for simple types that are being marshaled by the main [**–Oif**](https://msdn.microsoft.com/library/windows/desktop/aa367352) interpreter loop. In particular, a simple type with a range attribute on it is not flagged as a base type in order to force the range routine marshaling through dispatching using an FC\_RANGE token.

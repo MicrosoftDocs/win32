@@ -30,7 +30,7 @@ This topic describes VML, a feature that is deprecated as of Windows Internet Ex
 
  
 
-To let the browsers know how to hand off data to a VML-specific processor, you need to type some information such as namespaces and behavior styles. You can then use VML to type graphics in the &lt;BODY&gt; region.
+To let the browsers know how to hand off data to a VML-specific processor, you need to type some information such as namespaces and behavior styles. You can then use VML to type graphics in the <BODY&gt; region.
 
 In this topic:
 
@@ -43,7 +43,7 @@ An XML mechanism indicates the namespace that an element comes from. If you swit
 
 Ask the vender of your VML processor what information is required for the XML namespace.
 
-If you use Microsoft Internet Explorer to render VML, always type the following line in the &lt;HTML&gt; tag:
+If you use Microsoft Internet Explorer to render VML, always type the following line in the <HTML&gt; tag:
 
 
 ```HTML
@@ -60,7 +60,7 @@ This information tells Internet Explorer to switch to namespace "urn:schemas-mic
 
 VML is defined in Microsoft Internet Explorer as a default behavior.
 
-To render VML, always type the following lines in the &lt;HEAD&gt; region:
+To render VML, always type the following lines in the <HEAD&gt; region:
 
 
 ```HTML
@@ -71,7 +71,7 @@ v\:* { behavior: url(#default#VML); display:inline-block}
 
 
 
-VML is implemented in Internet Explorer through VGX.DLL. If your initial installation of the browser did not include VML behavior, you may need to add it as an option. You do not need to add an &lt;object&gt; tag.
+VML is implemented in Internet Explorer through VGX.DLL. If your initial installation of the browser did not include VML behavior, you may need to add it as an option. You do not need to add an <object&gt; tag.
 
  
 

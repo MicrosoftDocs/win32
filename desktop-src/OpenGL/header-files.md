@@ -17,9 +17,9 @@ ms.date: 05/31/2018
 
 Applications that use:
 
--   The core OpenGL functions must include the header file &lt;GL\\gl.h&gt;.
--   The OpenGL Utility library must include the header file &lt;GL\\glu.h&gt;.
--   The OpenGL Programming Guide auxiliary library must include the header file &lt;GL\\glaux.h&gt;.
+-   The core OpenGL functions must include the header file <GL\\gl.h&gt;.
+-   The OpenGL Utility library must include the header file <GL\\glu.h&gt;.
+-   The OpenGL Programming Guide auxiliary library must include the header file <GL\\glaux.h&gt;.
 -   The WGL functions must include the header file windows.h.
 -   The Windows functions that support Microsoft's implementation of OpenGL in Windows must include the header file Windows.h.
 
