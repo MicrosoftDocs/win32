@@ -105,7 +105,7 @@ WSDAPI complies with R3005, R3006, and R3016. WSDAPI will always use `xs:duratio
 
 ## DPWS 7.0 Security
 
-DPWS describes a recommended security model for devices. WSDAPI does not implement these recommendations as described, and does not enforce the restrictions in this section as described. For more information about WSDAPI's security model, see [Secure WSD Client Development](secure-wsd-client-development.md) and [Secure WSD Device Development](secure-wsd-device-development.md).
+DPWS describes a recommended security model for devices. WSDAPI does not implement these recommendations as described, and does not enforce the restrictions in this section as described.
 
 ## DPWS Appendix I
 

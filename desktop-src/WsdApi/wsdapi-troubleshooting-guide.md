@@ -23,11 +23,3 @@ This guide contains the following sections.
 
 -   [Getting Started with WSDAPI Troubleshooting](getting-started-with-wsdapi-troubleshooting.md)
 -   [WSDAPI Diagnostic Procedures](wsdapi-diagnostic-procedures.md)
--   [Troubleshooting HTTPS Secure Channel Communication](troubleshooting-https-secure-channel-communication.md)
-
- 
-
- 
-
-
-

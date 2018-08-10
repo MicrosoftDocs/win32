@@ -30,7 +30,6 @@ The following diagnostic procedures should be used (in order) to help identify p
 6.  [Use a generic host and client for HTTP metadata exchange](using-a-generic-host-and-client-for-http-metadata-exchange.md).
 7.  [Use WinHTTP logging to verify Get traffic](using-winhttp-logging-to-verify-get-traffic.md).
 8.  [Inspect network traces for HTTP metadata exchange](inspecting-network-traces-for-http-metadata-exchange.md).
-9.  If a secure channel is used, [troubleshoot HTTPS secure channel communication](troubleshooting-https-secure-channel-communication.md).
 
 If the source of the problem cannot be identified using the above diagnostic procedures, follow the directions in [Enabling WSDAPI Tracing](enabling-wsdapi-tracing.md) and contact Microsoft support.
 

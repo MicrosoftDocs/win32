@@ -37,7 +37,6 @@ The following diagnostic procedures should be used (in order) to help identify p
 2.  [Use a generic host and client for HTTP metadata exchange](using-a-generic-host-and-client-for-http-metadata-exchange.md).
 3.  [Use WinHTTP logging to verify Get traffic](using-winhttp-logging-to-verify-get-traffic.md).
 4.  [Inspect network traces for HTTP metadata exchange](inspecting-network-traces-for-http-metadata-exchange.md).
-5.  If a secure channel is used, [troubleshoot HTTPS secure channel communication](troubleshooting-https-secure-channel-communication.md).
 
 The following diagnostic procedures should be used (in order) to help identify problems with an application calling [**WSDCreateDeviceProxy**](/windows/desktop/api/WsdClient/nf-wsdclient-wsdcreatedeviceproxy) with a logical device address.
 
@@ -48,7 +47,6 @@ The following diagnostic procedures should be used (in order) to help identify p
 5.  [Use a generic host and client for HTTP metadata exchange](using-a-generic-host-and-client-for-http-metadata-exchange.md).
 6.  [Use WinHTTP logging to verify Get traffic](using-winhttp-logging-to-verify-get-traffic.md).
 7.  [Inspect network traces for HTTP metadata exchange](inspecting-network-traces-for-http-metadata-exchange.md).
-8.  If a secure channel is used, [troubleshoot HTTPS secure channel communication](troubleshooting-https-secure-channel-communication.md).
 
 Verify that [Resolve](resolve-message.md) and [ResolveMatches](resolvematches-message.md) messages are generated and meet traffic requirements. It is not necessary to look for [Probe](probe-message.md) or [ProbeMatches](probematches-message.md) messages in the WSD Debug Client output or in the network traces.
 
@@ -64,7 +62,6 @@ The following diagnostic procedures should be used (in order) to help identify p
 2.  [Use a generic host and client for HTTP metadata exchange](using-a-generic-host-and-client-for-http-metadata-exchange.md).
 3.  [Use WinHTTP logging to verify Get traffic](using-winhttp-logging-to-verify-get-traffic.md).
 4.  [Inspect network traces for HTTP metadata exchange](inspecting-network-traces-for-http-metadata-exchange.md).
-5.  If a secure channel is used, [troubleshoot HTTPS secure channel communication](troubleshooting-https-secure-channel-communication.md).
 
 The following diagnostic procedures should be used (in order) to help identify problems with an application calling [**WSDCreateDeviceProxyAdvanced**](/windows/desktop/api/WsdClient/nf-wsdclient-wsdcreatedeviceproxyadvanced) with *pDeviceAddress* set to **NULL** and with *pszDeviceId* set to a logical address.
 
@@ -75,7 +72,6 @@ The following diagnostic procedures should be used (in order) to help identify p
 5.  [Use a generic host and client for HTTP metadata exchange](using-a-generic-host-and-client-for-http-metadata-exchange.md).
 6.  [Use WinHTTP logging to verify Get traffic](using-winhttp-logging-to-verify-get-traffic.md).
 7.  [Inspect network traces for HTTP metadata exchange](inspecting-network-traces-for-http-metadata-exchange.md).
-8.  If a secure channel is used, [troubleshoot HTTPS secure channel communication](troubleshooting-https-secure-channel-communication.md).
 
 Verify that [Resolve](resolve-message.md) and [ResolveMatches](resolvematches-message.md) messages are generated and meet traffic requirements. It is not necessary to look for [Probe](probe-message.md) or [ProbeMatches](probematches-message.md) messages in the WSD Debug Client output or in the network traces.
 

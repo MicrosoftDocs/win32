@@ -47,10 +47,6 @@ DPWS defines APP\_MAX\_DELAY, the random interval to delay between receiving a [
 
 WSDAPI uses TCP port 5357 for HTTP traffic and TCP port 5358 for HTTPS traffic by default. These ports are reserved for lower privilege processes through a URL reservation in HTTP.sys, and are also reserved with IANA.
 
-## HTTPS support
-
-WSDAPI provides a mechanism for clients and services to communicate over HTTPS. For more information, see [Using WSDAPI with a Secure Channel](using-wsdapi-with-a-secure-channel.md). A model for trust establishment with the device has not been defined.
-
 ## UDP port sharing
 
 WSDAPI uses port sharing. Unicast messages sent to port 3702 may not be properly handled by all WSDAPI-based applications. If an application binds exclusively to port 3702, it may prevent WSDAPI-based applications from using that port correctly.
