@@ -213,37 +213,9 @@ For applications using directed discovery, the [ProbeMatches](probematches-messa
 </tbody>
 </table>
 
-
-
- 
-
-### SSL/TLS negotiation problems
-
-
-
-| Problem                                                                                                         | Diagnostic Procedure                                                                                           | Problem identification                                                                                                                                                                                                                                                       |
-|-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| The operating system does not trust the server certificate presented by the device.                             | [Using WinHTTP Logging to Verify SSL/TLS Negotiation](using-winhttp-logging-to-verify-ssl-tls-negotiation.md) | The WinHTTP log contains the error 0x800b0109 (CERT\_E\_UNTRUSTEDROOT).                                                                                                                                                                                                      |
-| The common name (CN) of the server certificate does not match the hostname part of the device address.          | [Using WinHTTP Logging to Verify SSL/TLS Negotiation](using-winhttp-logging-to-verify-ssl-tls-negotiation.md) | The WinHTTP log contains the error 0x800b010f (CERT\_E\_CN\_NO\_MATCH).                                                                                                                                                                                                      |
-| Certificate revocation cannot be checked because the certificate revocation server was offline.                 | [Using WinHTTP Logging to Verify SSL/TLS Negotiation](using-winhttp-logging-to-verify-ssl-tls-negotiation.md) | The WinHTTP log contains the error 0x80092013 (CRYPT\_E\_REVOCATION\_OFFLINE).                                                                                                                                                                                               |
-| There is no valid certificate for client authentication to the local computer certificate store.                | [Using WinHTTP Logging to Verify SSL/TLS Negotiation](using-winhttp-logging-to-verify-ssl-tls-negotiation.md) | The WinHTTP log contains the error 12044 (ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED) and SSL/TLS negotiation failed. Inspection of the certificate store using the **Certificates** MMC snap-in shows that there isn't a valid certificate.                                 |
-| The process trying to issue the HTTP request does not have access to the private key of the client certificate. | [Using WinHTTP Logging to Verify SSL/TLS Negotiation](using-winhttp-logging-to-verify-ssl-tls-negotiation.md) | The WinHTTP log contains the error 12044 (ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED) and SSL/TLS negotiation failed. Inspection of the ACL of the client certificate shows that the account running the process trying to issue the HTTP request does not have read access. |
-
-
-
- 
-
 ## Related topics
 
 <dl> <dt>
 
 [WSDAPI Troubleshooting Guide](wsdapi-troubleshooting-guide.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-

@@ -28,7 +28,6 @@ The following diagnostic procedures should be used (in order) to help identify p
 5.  [Use a generic host and client for HTTP metadata exchange](using-a-generic-host-and-client-for-http-metadata-exchange.md).
 6.  [Use WinHTTP logging to verify Get traffic](using-winhttp-logging-to-verify-get-traffic.md).
 7.  [Inspect network traces for HTTP metadata exchange](inspecting-network-traces-for-http-metadata-exchange.md).
-8.  If a secure channel is used, [troubleshoot HTTPS secure channel communication](troubleshooting-https-secure-channel-communication.md).
 
 The Network Explorer uses [Function Discovery](https://msdn.microsoft.com/library/windows/desktop/aa814070) to enumerate network devices. For more troubleshooting information, see [Troubleshooting Function Discovery Clients](troubleshooting-function-discovery-clients.md).
 

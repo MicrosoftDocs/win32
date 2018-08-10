@@ -37,10 +37,6 @@ This troubleshooting guide includes the following types of diagnostic procedures
 
 -   [Inspecting Network Traces for Applications Using Directed Discovery](inspecting-network-traces-for-applications-using-directed-discovery.md)
 
-### Secure channel diagnostic procedure
-
--   [Using WinHTTP Logging to Verify SSL/TLS Negotiation](using-winhttp-logging-to-verify-ssl-tls-negotiation.md)
-
 ## Related topics
 
 <dl> <dt>

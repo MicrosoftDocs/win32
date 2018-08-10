@@ -34,7 +34,7 @@ This procedure shows how to capture WinHTTP logs on the client PC. The WSDAPI-ba
 9.  Inspect the DPWS logs in C:\\Temp and verify that the required requests and messages were sent.
 10. If secure channel (HTTPS) communication is being used, check for SSL/TLS failures.
 
-Once WinHTTP logs have been captured, the logs can be examined to look for the cause of a WSDAPI application failure. Note that the text editor used to view these logs must be run as Administrator. For more information, see [Using WinHTTP Logging to Verify Get Traffic](using-winhttp-logging-to-verify-get-traffic.md) and [Using WinHTTP Logging to Verify SSL/TLS Negotiation](using-winhttp-logging-to-verify-ssl-tls-negotiation.md).
+Once WinHTTP logs have been captured, the logs can be examined to look for the cause of a WSDAPI application failure. Note that the text editor used to view these logs must be run as Administrator. For more information, see [Using WinHTTP Logging to Verify Get Traffic](using-winhttp-logging-to-verify-get-traffic.md).
 
 ## Related topics
 
@@ -44,14 +44,5 @@ Once WinHTTP logs have been captured, the logs can be examined to look for the c
 </dt> <dt>
 
 [Using WinHTTP Logging to Verify Get Traffic](using-winhttp-logging-to-verify-get-traffic.md)
-</dt> <dt>
-
-[Using WinHTTP Logging to Verify SSL/TLS Negotiation](using-winhttp-logging-to-verify-ssl-tls-negotiation.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
+</dt>
+</dl>
