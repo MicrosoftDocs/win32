@@ -6,7 +6,7 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 08/16/2018
 ---
 
 # Best Practices When Using BITS
@@ -29,7 +29,7 @@ For details on authentication, see [Authentication](authentication.md).
 
 By default, BITS uses the user's Internet Explorer proxy settings. To override the user's Internet Explorer proxy settings, call the [**IBackgroundCopyJob::SetProxySettings**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setproxysettings) method.
 
-The Internet Explorer proxy settings do not apply to system accounts. If your application is a service running as LocalSystem, LocalService, or NetworkService, you must call [**IBackgroundCopyJob::SetProxySettings**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setproxysettings) to specify the proxy settings. As an alternative, you can use the **/Util /SetIEProxy** switches of BitsAdmin.exe to set Internet Explorer proxy settings for the LocalSystem, LocalService, or NetworkService system account. For details, see [BitsAdmin Tool](bitsadmin-tool.md).
+The Internet Explorer proxy settings do not apply to system accounts, so the default proxy behavior (**BG\_JOB\_PROXY\_USAGE\_PRECONFIG**) will only work correctly in Web Proxy Auto-Discovery Protocol (WPAD) deployments, unless additional configuration steps are taken. If your application is a service running as LocalSystem, LocalService, or NetworkService, consider configuring a helper token on your BITS jobs, or explicitly setting the correct proxy settings by calling [**IBackgroundCopyJob::SetProxySettings**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setproxysettings) with **BG\_JOB\_PROXY\_USAGE\_OVERRIDE**. As an alternative, you can use the **/Util /SetIEProxy** switches of BitsAdmin.exe to set Internet Explorer proxy settings for the LocalSystem, LocalService, or NetworkService system account. For details, see [BitsAdmin Tool](bitsadmin-tool.md).
 
 BITS does not recognize the proxy settings that are set using the Proxycfg.exe file.
 
@@ -55,6 +55,8 @@ If you do not call the [**Complete**](/windows/desktop/api/Bits/nf-bits-ibackgro
 
 Unless the job is time critical or the user is actively waiting, you should always use a background priority. However, there are times when you may want to switch from background priority to foreground priority, for example, when the proxy or server does not support the Content-Range header, or antivirus software on the client removes the range header request. Switching to foreground priority works only for those files whose file size is less than 2 GB. For an example, see the implementation for the [**IBackgroundCopyCallback::JobError**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback) method. Also note that if the foreground job is then interrupted due to a network disconnect or the user logging off, the job will fail because BITS will send a range request to try to restart the transfer from where it left off.
 
+Starting with Windows 8, you should configure download jobs with **BITS\_JOB\_PROPERTY\_DYNAMIC\_CONTENT** and **BG\_JOB\_PRIORITY\_FOREGROUND** when targeting servers that do not meet the [HTTP Requirements for BITS Downloads](http-requirements-for-bits-downloads.md). Bear in mind that this will result in BITS having to restart the download from the beginning if it ever gets interrupted (for example, due to connectivity issues or system reboot).
+
 For information on the available priorities and how BITS uses the priority level to schedule jobs, see [**BG\_JOB\_PRIORITY**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0001).
 
 ## Transient and fatal errors
@@ -74,11 +76,3 @@ If you are writing an application that many clients will use to download files f
 ## HTTP Headers can be in any case
 
 The HTTP standards have always said that HTTP headers must be treated as case-insensitive (RFC 7230 section 3.2). The most recent HTTP standard, RFC 7540, goes further and says that HTTP/2 traffic must compare the headers as case-insensitive and must present headers in lower case (RFC 6540, section 8.1.2). Even when traffic is sent with non lower-case headers, proxies may well choose to force the headers to lower-case.
-
- 
-
- 
-
-
-
-

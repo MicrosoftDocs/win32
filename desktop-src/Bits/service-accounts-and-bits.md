@@ -11,7 +11,7 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 08/16/2018
 ---
 
 # Service Accounts and BITS
@@ -22,21 +22,13 @@ If a service running under a system account impersonates the user before calling
 
 However, if the service does not impersonate the user, the following behaviors apply:
 
--   Jobs created by the service account are owned by that account. Because system accounts are always logged on, BITS transfers the files as long as the computer is running and there is a network connection.
--   System accounts should not use mapped network drive letters because the drive letters are specific to a session and the mapping may be lost after a computer restart.
--   In the absence of a [Helper Token](helper-tokens-for-bits-transfer-jobs.md), network authentication uses computer credentials for LocalSystem and NetworkService accounts and anonymous credentials for the LocalService account. BITS returns "access denied" if the access control list (ACL) for the source file limits access to a user account.
--   If a proxy requests user authentication, BITS passes the credentials you specify to the proxy. To specify proxy credentials for a job, call the [**IBackgroundCopyJob2::SetCredentials**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials) method. When calling **SetCredentials**, specify implicit credentials (see [Authentication](authentication.md)) and use negotiate as the authentication scheme.
+- Jobs created by the service account are owned by that account. Because system accounts are always logged on, BITS transfers the files as long as the computer is running and there is a network connection.
+- System accounts should not use mapped network drive letters because the drive letters are specific to a session and the mapping may be lost after a computer restart.
+- In the absence of a [Helper Token](helper-tokens-for-bits-transfer-jobs.md), network authentication uses computer credentials for LocalSystem and NetworkService accounts and anonymous credentials for the LocalService account. BITS returns "access denied" if the access control list (ACL) for the source file limits access to a user account.
+- For details on how authentication works in the presence of a [Helper Token](helper-tokens-for-bits-transfer-jobs.md), see [Authentication](authentication.md).
 
-    **BITS 1.2 and earlier:** BITS does not support proxy credentials.
+**BITS 1.2 and earlier:** BITS does not support proxy credentials.
 
--   Microsoft Internet Explorer proxy settings are stored per-user and are not set for system accounts. To set the proxy settings for a job submitted by a system account, call the [**IBackgroundCopyJob::SetProxySettings**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setproxysettings) method. Alternatively, you can use the **/Util /SetIEProxy** switches of BitsAdmin.exe to set Internet Explorer proxy settings for the LocalSystem, LocalService, or NetworkService system account. For details, see [BitsAdmin Tool](bitsadmin-tool.md).
+- Microsoft Internet Explorer proxy settings are stored per-user and are not set for system accounts. Consider configuring a helper token on your BITS jobs, or explicitly setting the correct proxy settings by calling [**IBackgroundCopyJob::SetProxySettings**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setproxysettings) with **BG\_JOB\_PROXY\_USAGE\_OVERRIDE**. Alternatively, you can use the **/Util /SetIEProxy** switches of BitsAdmin.exe to set Internet Explorer proxy settings for the LocalSystem, LocalService, or NetworkService system account. For details, see [BitsAdmin Tool](bitsadmin-tool.md).
 
-    Note that BITS does not recognize the proxy settings that are set using the Proxycfg.exe file.
-
- 
-
- 
-
-
-
-
+Note that BITS does not recognize the proxy settings that are set using the Proxycfg.exe file.

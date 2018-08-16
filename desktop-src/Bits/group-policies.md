@@ -1,22 +1,23 @@
 ---
 title: Group Policies
-description: Background Intelligent Transfer Service (BITS) uses the following Group Policies to configure BITS transfers and settings. For more information on which verison of BITS is used by different versions of Windows, see the What's New topic.
+description: Background Intelligent Transfer Service (BITS) uses the following Group Policies to configure BITS transfers and settings. For more information on which version of BITS is used by different versions of Windows, see the What's New topic.
 ms.assetid: 32c7e2b1-bac2-4708-a30c-f6b2a816c1a4
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 08/16/2018
 ---
 
 # Group Policies
 
-Background Intelligent Transfer Service (BITS) uses the following Group Policies to configure BITS transfers and settings. For more information on which verison of BITS is used by different versions of Windows, see the [What's New](what-s-new.md) topic.
+> [!NOTE]
+> For details about how to use Mobile device management (MDM) to set policies for Background Intelligent Transfer Service (BITS), see [Policy CSP](/windows/client-management/mdm/policy-configuration-service-provider).
 
-> [!Note]  
+Background Intelligent Transfer Service (BITS) uses the following Group Policies to configure BITS transfers and settings. For more information on which version of BITS is used by different versions of Windows, see the [What's New](what-s-new.md) topic.
+
+> [!NOTE]  
 > If the policy value is not set, BITS uses the default policy value.
-
- 
 
 **To enable a BITS policy**
 
@@ -28,8 +29,6 @@ Background Intelligent Transfer Service (BITS) uses the following Group Policies
 **BITS 1.5 and earlier:** The **JobInactivityTimeout** policy is located under **Computer Configuration**, **Administrative Templates**, **Network**.
 
 The group policies for BITS are located in the registry at **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Policies**\\**Microsoft**\\**Windows**\\**BITS**. Note that only those policies that are configured are listed in the registry.
-
-
 
 <table>
 <colgroup>
@@ -88,15 +87,9 @@ Changing the system clock does not affect the bandwidth limitation time interval
 </tbody>
 </table>
 
-
-
- 
-
 BITS uses the following Group Policies to enable and configure the peer caching.
 
 **BITS 4.0:** The BITS 3.0 Group Policies are deprecated. Setting any of these policies will have no effect.
-
-
 
 <table>
 <colgroup>
@@ -155,10 +148,6 @@ This setting does not affect the use of Windows BranchCache by applications othe
 </tbody>
 </table>
 
-
-
- 
-
 BITS uses the following Group Policies to configure bandwidth throttling.
 
 <table>
@@ -194,14 +183,5 @@ The bandwidth limits that are set for the maintenance period supersede any limit
 </table>
 
 
-
- 
-
- 
-
- 
-
-
-
-
-
+## Related topics
+* [Policy CSP](/windows/client-management/mdm/policy-configuration-service-provider)
