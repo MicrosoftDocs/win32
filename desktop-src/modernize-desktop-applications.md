@@ -1,6 +1,5 @@
 ---
 Description: Add modern XAML user interfaces, create MSIX packages, and incorporate other modern components into your desktop application in an "alacart" fashion.
-ms.assetid: 82705644-F1F0-40F3-99B1-7A97BFB32831
 title: Desktop guide to the modern platform
 ms.technology: desktop
 ms.prod: windows
