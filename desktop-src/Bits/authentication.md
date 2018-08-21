@@ -6,18 +6,18 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 08/16/2018
 ---
 
 # Authentication
 
-BITS supports Basic authentication, Passport authentication, and several challenge/response authentication schemes. If the server or proxy requires user authentication, use the [**IBackgroundCopyJob2::SetCredentials**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials) method to specify the user's credentials. BITS uses the [CryptoAPI](https://msdn.microsoft.com/library/windows/desktop/aa380255) to protect the credentials.
+BITS supports Basic authentication, Passport authentication, and several challenge/response authentication schemes. If the server or proxy requires user authentication, use the [**IBackgroundCopyJob2::SetCredentials**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials) function to specify the user's credentials. BITS uses the [CryptoAPI](https://msdn.microsoft.com/library/windows/desktop/aa380255) to protect the credentials.
 
 **BITS 1.2 and earlier:** The [**SetCredentials**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials) method is not available.
 
 Basic authentication requires the user name and password to be embedded in the URL, for example, HTTP://username:password@server/path/file. Because the user name and password are clear text, an administrator can enumerate the jobs in the transfer queue and see the user name and password. The user name and password can also be seen by a network monitor program that is on the same physical network link as the client and server (unless you use HTTPS).
 
-Instead of embedding the user name and password in the URL, you should use the [**SetCredentials**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials) method to specify the user name and password for Basic authentication. This prevents others from viewing the credentials. If you specify credentials in both places, BITS uses the user name and password from the URL.
+Instead of embedding the user name and password in the URL, you should use the [**SetCredentials**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials) function to specify the user name and password for Basic authentication. This prevents others from viewing the credentials. If you specify credentials in both places, BITS uses the user name and password from the URL.
 
 For [Passport](https://msdn.microsoft.com/library/windows/desktop/aa384067) authentication, BITS supports explicit credentials only, not implicit credentials tied to the account.
 
@@ -39,15 +39,11 @@ Note that changing the **LMCompatibilityLevel** registry value can affect other 
 
 If setting the **LMCompatibilityLevel** registry value is an issue, you can create the **UseLMCompat** registry value under **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**Windows**\\**CurrentVersion**\\**BITS**. The registry value is a DWORD. The following table lists the possible values for **UseLMCompat**:
 
-| Value | Description                                                                                                                                                                                 |
-|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Value|Description|
+|-|-|
 | 0     | BITS will send implicit credentials whenever the server prompts for NTLM or Kerberos credentials.                                                                                           |
 | 1     | BITS will send implicit credentials only if the client computer's **LMCompatibilityLevel** registry value is greater than or equal to 2.**Prior to BITS 1.5:** Not supported<br/>     |
 | 2     | BITS will send implicit credentials only if the application called the [**SetCredentials**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials) method. **Prior to BITS 2.0:** Not supported<br/> |
-
-
-
- 
 
 BITS will use the following default values for the **UseLMCompat** registry value if the registry value does not exist:
 
@@ -61,10 +57,6 @@ BITS will use the following default values for the **UseLMCompat** registry valu
 | Windows Server 2003 R2               | 1     |
 | Windows Vista                        | 2     |
 | Windows Server 2008                  | 2     |
-
-
-
- 
 
 **BITS 1.2 and earlier:** BITS uses implicit credentials for NTLM or Kerberos authentication. If you wrote an application based on BITS 1.0 or 1.2, the same application may not run using later versions of BITS if the **LMCompatibilityLevel** value is less than two. Note that the default **LMCompatibilityLevel** value for Windows XP is zero.
 
@@ -82,12 +74,12 @@ If you are using BITS in an environment that requires proxy authentication while
 
 The proxy detection logic used in BITS does the following when a network helper token (BG\_TOKEN\_NETWORK) is set:
 
--   If [**IBackgroundCopyJob::SetProxySettings**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setproxysettings) was called with **BG\_JOB\_PROXY\_USAGE\_PRECONFIG**, then detect local IE proxy settings using job owner token context impersonation via [**WinHttpGetIEProxyConfigForCurrentUser**](https://msdn.microsoft.com/library/windows/desktop/aa384096).
+-   If [**IBackgroundCopyJob::SetProxySettings**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setproxysettings) was called with **BG\_JOB\_PROXY\_USAGE\_PRECONFIG**, then read local IE proxy settings using job owner token context impersonation via [**WinHttpGetIEProxyConfigForCurrentUser**](https://msdn.microsoft.com/library/windows/desktop/aa384096).
 -   If [**IBackgroundCopyJob::SetProxySettings**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setproxysettings) was called with **BG\_PROXY\_USAGE\_AUTODETECT** or if the IE settings from the **BG\_JOB\_PROXY\_USAGE\_PRECONFIG** case specify auto-detect or an auto-config URL, then conduct auto-proxy detection, or Web Proxy Autodiscovery Protocol (WPAD), using helper token impersonation via [**WinHttpGetProxyForUrl**](https://msdn.microsoft.com/library/windows/desktop/aa384097).
 
 After that, helper token impersonation is used for proxy or server authentication throughout.
 
-This means that the correct user identity (the helper token's identity) is used for network-based proxy detection (WPAD) and for proxy authentication, but that the actual detection of local (IE) proxy settings is always done using the job owner's token, even when a helper token is configured. This behavior is by design in BITS, but there is a workaround you can use when necessary for your situation.
+This means that the correct user identity (the helper token's identity) is used for network-based proxy detection (WPAD) and for proxy authentication, but the actual detection of local (IE) proxy settings is always done using the job owner's token, even when a helper token is configured. To work around this shortcoming, you can follow these steps.
 
 1.  Impersonate the user account you're using for NTLM/Kerberos credentials.
 2.  Retrieve the user account's IE proxy settings by calling [**WinHttpGetIEProxyConfigForCurrentUser**](https://msdn.microsoft.com/library/windows/desktop/aa384096).
@@ -107,25 +99,10 @@ This means that the correct user identity (the helper token's identity) is used 
 
 The following table shows the authentication requests that BITS does not support.
 
-
-
-| Scenario not supported                                                                                   | Windows XP    | Windows Server 2003 |
-|----------------------------------------------------------------------------------------------------------|---------------|---------------------|
+|Scenario not supported|Windows XP|Windows Server 2003|
+|-|-|-|
 | Passport authentication on the server when the proxy requires authentication (using the HTTPS protocol). | Not supported | Not supported       |
 | Passport authentication when the auto-detect proxy setting is set.                                       | Not supported | Not supported       |
 | Any authentication scheme on the server when the proxy requires Digest authentication.                   | Not supported | Not supported       |
-| Negotiate authentication on the server when the proxy requires Basic authentication.                     | Not supported |                     |
-| Using HTTPS when the proxy requires Digest authentication.                                               | Not supported |                     |
-
-
-
- 
-
- 
-
- 
-
-
-
-
-
+| Negotiate authentication on the server when the proxy requires Basic authentication.                     | Not supported | |
+| Using HTTPS when the proxy requires Digest authentication.                                               | Not supported | |
