@@ -16,7 +16,7 @@ ms.date: 08/21/2018
 
 * Choose which stack to invest in (modern front-ends, MSIX deployment + opt-into security level, UWP APIs etc.).
 
-## Modern application delivery with MSIX
+## MSIX packages: Safe, secure, and reliable deployment
 
 MSIX is a new containerization package format that applies to all Windows applications including Win32, Windows Forms, WPF, and UWP. This new format inherits great features from UWP:
 
@@ -33,7 +33,7 @@ MSIX is a new containerization package format that applies to all Windows applic
 See [MSIX](https://review.docs.microsoft.com/en-us/windows/msix/landing-page-test?branch=master)
 
 
-## Fluent controls in your desktop application UIs
+## XAML Islands: Fluent controls in your desktop application UIs
 
 Add [Fluent controls](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/controls-by-function) to the user interfaces of your desktop application by using XAML Islands.
 
@@ -126,7 +126,7 @@ See [WebView controls for Windows Forms and WPF applications](https://docs.micro
 
 See [Using the UWP XAML hosting API in a desktop application](https://review.docs.microsoft.com/en-us/windows/uwp/xaml-platform/using-the-xaml-hosting-api?branch=mcleans-xamlhosting).
 
-### New desktop-grade Fluent controls
+### Fluent controls made for the desktop
 
 * Add any Fluent control to your XAML Islands.
 
@@ -184,13 +184,13 @@ See [Make a combo box editable](https://review.docs.microsoft.com/en-us/windows/
 
 See [DataGrid XAML control](https://docs.microsoft.com/en-us/windows/communitytoolkit/controls/datagrid)
 
-### Win UI
+## Windows UI library: Windows version-independent Fluent controls
 
 * Value prop and example.
 
 See [Windows UI Library (Preview version)](https://docs.microsoft.com/en-us/uwp/toolkits/winui/)
 
-## Modern features with WinRT APIs
+## Access to WinRT APIs from desktop application code
 
 * Some sort of stake in the ground that clarifies that desktop applications have access to UWP APIs.
 
