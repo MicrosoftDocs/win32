@@ -26,25 +26,30 @@ MSIX is a new containerization package format that applies to all Windows applic
 
 * Support for the Microsoft Store, enterprise management, and many custom distribution models.
 
-  Link to comprehensive topic about MSIX, it's benefits such as multilingual aware, network optimization, resource packages, automatic updates, etc. This topic not the right place to lay all of that out. Ownership of MSIX all up conceptual needs to be assigned.
-
 * Use DAC or command-line. Visual Studio support coming.
 
-* If you've got apps without source code, use IT Pro tool. Link to tool.
+* If you've got apps without source code, use IT Pro tool.
 
-## User interfaces optimized for high DPI displays
+See [MSIX](https://review.docs.microsoft.com/en-us/windows/msix/landing-page-test?branch=master)
 
-* Update .NET Framework version to .NET 4.7 or .NET Core 3 and Windows Forms UIs render pixel perfect on high res laptops and displays.
 
-* Not sure about WPF or Win32.
+## Fluent controls in your desktop application UIs
 
-## Modern user interfaces with the Fluent design system
+Add [Fluent controls](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/controls-by-function) to the user interfaces of your desktop application by using XAML Islands.
 
-* Add Fluent UIs to a desktop application by using XAML Islands.
+A XAML island acts as a wrapper for Fluent controls. How you create A XAML island in your desktop application depends on what type of desktop application you have. The following table summarizes your options.
 
-* For Windows Forms and WPF applications, use the XAML Island host control or any of the XAML Island wrapped controls.
+| XAML Island Technology            |  Windows Forms | WPF | C++ Win32 |
+|------------------------------|----------------|-----|-------|
+| XAML Islands Wrapped controls|  ✔             |  ✔ |       |
+| XAML Islands Host Control    |  ✔             |  ✔ |       |
+| XAML Islands API             |  ✔             |  ✔ |  ✔    |
 
-* For Win32 applications, use the XAML Island API.
+If you have a C++ Win32 application, you can add a XAML island by using the XAML Islands API.
+
+If you have a Windows Forms or WPF application, You can drag a special control (called a XAML Island host control) to the surface of your designer. This control abstracts away the complexities of a XAML island so that all you have to do is assign that control to your favorite Fluent control.
+
+There are several Fluent controls that you can add directly to your design surfaces without even having to first use a host control. These are called **Wrapped Controls**. They go one step further by abstracting away the host control.
 
 ### XAML Island host control
 
@@ -55,9 +60,9 @@ MSIX is a new containerization package format that applies to all Windows applic
 
   * Show simple example with screenshot.
 
-  * Link to our XAML islands doc.
+See [Host UWP controls in WPF and Windows Forms applications](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/xaml-host-controls)
 
-  * Link to host control doc on Community Toolkit Page.
+See [WindowsXAMLHostControl](https://docs.microsoft.com/en-us/windows/communitytoolkit/controls/WindowsXAMLHost)  * Link to host control doc on Community Toolkit Page.
 
 ### XAML Island wrapped controls
 
@@ -74,7 +79,7 @@ MSIX is a new containerization package format that applies to all Windows applic
 
 * Screenshot of WebView in win32 application.
 
-* Link to WebView doc.
+See [WebView controls for Windows Forms and WPF applications](https://docs.microsoft.com/en-us/windows/communitytoolkit/controls/webview)
 
 #### InkCanvas
 
@@ -119,13 +124,13 @@ MSIX is a new containerization package format that applies to all Windows applic
 
   * Link to code-first sample.
 
-  * Link to Win32 API doc that McLean wrote.
+See [Using the UWP XAML hosting API in a desktop application](https://review.docs.microsoft.com/en-us/windows/uwp/xaml-platform/using-the-xaml-hosting-api?branch=mcleans-xamlhosting).
 
-### Fluent controls
+### New desktop-grade Fluent controls
 
 * Add any Fluent control to your XAML Islands.
 
-  * Link to Fluent controls in UWP content.
+See [Controls by function](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/controls-by-function)
 
 * There's several new desktop-grade controls available with Fluent.
 
@@ -133,47 +138,67 @@ MSIX is a new containerization package format that applies to all Windows applic
 
 #### MenuBar
 
-Code snippet of XAML Island assigned to MenuBar.
-Screenshot of MenuBar in win32 application.
+* Code snippet of XAML Island assigned to MenuBar.
+
+* Screenshot of MenuBar in win32 application.
+
+See [Menus and context menus](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/menus?branch=jimwalk%2Frs5-menu-bar).
 
 #### DropDownButton
 
-Code snippet of XAML Island assigned to DropDownButton.
-Screenshot of DropDownButton in win32 application.
+* Code snippet of XAML Island assigned to DropDownButton.
+
+* Screenshot of DropDownButton in win32 application.
+
+See [Create a drop down button](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/buttons#create-a-drop-down-button)
 
 #### SplitButtonMenuBar
 
-Code snippet of XAML Island assigned to SplitButtonMenuBar.
-Screenshot of SplitButtonMenuBar in win32 application.
+* Code snippet of XAML Island assigned to SplitButtonMenuBar.
+
+* Screenshot of SplitButtonMenuBar in win32 application.
+
+See [Create a split button](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/buttons#create-a-split-button)
 
 #### CommandBarFlyout
 
-Code snippet of XAML Island assigned to CommandBarFlyout.
-Screenshot of CommandBarFlyout in win32 application.
+* Code snippet of XAML Island assigned to CommandBarFlyout.
+
+* Screenshot of CommandBarFlyout in win32 application.
+
+See [Command bar flyout](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/command-bar-flyout?branch=jimwalk%2Frs5-command-bar-flyout).
 
 #### EditableComboBox
 
-Code snippet of XAML Island assigned to EditableComboBox.
-Screenshot of EditableComboBox in win32 application.
+* Code snippet of XAML Island assigned to EditableComboBox.
+
+* Screenshot of EditableComboBox in win32 application.
+
+See [Make a combo box editable](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/combo-box?branch=rs5#make-a-combo-box-editable)
 
 #### DataGridView
 
-Code snippet of XAML Island assigned to DataGridView.
-Screenshot of DataGridView in win32 application.
+* Code snippet of XAML Island assigned to DataGridView.
+
+* Screenshot of DataGridView in win32 application.
+
+See [DataGrid XAML control](https://docs.microsoft.com/en-us/windows/communitytoolkit/controls/datagrid)
 
 ### Win UI
 
 * Value prop and example.
 
+See [Windows UI Library (Preview version)](https://docs.microsoft.com/en-us/uwp/toolkits/winui/)
+
 ## Modern features with WinRT APIs
 
 * Some sort of stake in the ground that clarifies that desktop applications have access to UWP APIs.
 
-* Link to topic about adding references and using UWP APIs.
+See [Enhance your desktop application for Windows 10](https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-enhance)
 
 ## Other Interesting technologies
 
-* .NET Core 3
-* Graph
-* Sets
-* Adaptive Cards
+* [.NET Core 3](https://blogs.msdn.microsoft.com/dotnet/2018/05/07/net-core-3-and-support-for-windows-desktop-applications/)
+* [Microsoft Graph](https://developer.microsoft.com/en-us/graph)
+* [Adaptive Cards](https://adaptivecards.io/)
+* [High DPI support in Windows Forms](https://docs.microsoft.com/en-us/dotnet/framework/winforms/high-dpi-support-in-windows-forms)
