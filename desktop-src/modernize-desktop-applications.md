@@ -10,13 +10,15 @@ ms.date: 08/21/2018
 
 # Desktop guide to the modern platform
 
-The modern platform is being made available as stand-alone building blocks that you can adopt in your desktop applications ala cart without having to completely rewrite applications in UWP. Enhance existing investments in-place. No re-write required. No need to learn a whole new stack to modernize.
+The UWP platform is being made available as a set of "building blocks" that you can adopt in your desktop applications without having to rewrite your application for UWP. There's no need to learn a whole new stack to modernize. You can enhance existing investments in-place by choosing which parts of the platform to adopt.
+
+This guide describes UWP platform features that you can use in your desktop applications right now.
 
 ## MSIX packages
 
 MSIX is a new containerization package format that applies to all Windows applications including Win32, Windows Forms, WPF, and UWP. This new format inherits great features from UWP and provides robust installation and updating, managed security model with a flexible capability system, and support for the Microsoft Store, enterprise management, and many custom distribution models.
 
-See [MSIX](https://review.docs.microsoft.com/en-us/windows/msix/landing-page-test?branch=master)
+To learn more, see [MSIX](https://review.docs.microsoft.com/en-us/windows/msix/landing-page-test?branch=master).
 
 ## XAML Islands (Preview)
 
@@ -24,9 +26,11 @@ You can add [UWP XAML controls](https://docs.microsoft.com/en-us/windows/uwp/des
 
 A XAML island acts as a wrapper for UWP XAML controls. If you have a Windows Forms or WPF application, You can drag a special control, called a XAML Island host control, to the surface of your designer. This control abstracts away the complexities of a XAML island so that all you have to do is assign that control to your favorite UWP XAML control.
 
-There are several Fluent controls that you can add directly to your design surfaces without even having to first use a host control. These are called **Wrapped Controls**. They go one step further by abstracting away the host control.
+There are several UWP XAML controls that you can add directly to your design surfaces without even having to first use a host control. These are called **Wrapped Controls**. They go one step further by abstracting away the host control.
 
 If you have a C++ Win32 application, you can add a XAML island by using the XAML Islands API.
+
+This table summarizes the options.
 
 | XAML Island Technology            |  Windows Forms | WPF | C++ Win32 |
 |------------------------------|----------------|-----|-------|
@@ -43,24 +47,21 @@ To learn more about XAML Islands, see [Host UWP controls in WPF and Windows Form
 
 You can drag a XAML Island Host control directly to the design surface of your Windows Forms or WPF application. Then, you can set that host control to any UWP XAML control that you want. See  [WindowsXAMLHostControl](https://docs.microsoft.com/en-us/windows/communitytoolkit/controls/WindowsXAMLHost).
 
-For a catalog of UWP XAML controls, See [Controls by function](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/controls-by-function).
-
-| Guide |  Description |
-|------ |--------------|
-| [Controls by function](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/controls-by-function) |   Catalog of UWP XAML controls. |
-| [UWP XAML controls optimized for desktop applications](#new-packaging-project) | New UWP control such as DataGrid |
+To look at the complete list of UWP XAML controls, see [Controls by function](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/controls-by-function).
 
 ### XAML Island Wrapped Controls (Preview)
 
-Wrapped controls that you can use directly on design surfaces.
+Add wrapped controls directly to the design surface of your desktop application. Here's what's available today:
 
 | Control |  Description |
 |------ |--------------|
-| [WebView](https://docs.microsoft.com/en-us/windows/communitytoolkit/controls/webview) |   Description |
-| [InkCanvas]() | Description |
-| [InkToolbar]() | Description |
-| [MediaPlayerElement]() | Description |
-| [WebViewCompatible]() | Description  |
+| [WebView](https://docs.microsoft.com/en-us/windows/communitytoolkit/controls/webview) |   Shows richly formatted HTML content from a remote web server, dynamically generated files, or content files by using the Microsoft Edge rendering engine. |
+| [InkCanvas]() | Renders pen input as either an ink stroke (using default settings for color and thickness) or an erase stroke.  |
+| [InkToolbar]() | Contains a customizable and extensible collection of buttons that activate ink-related features in an associated InkCanvas. |
+| [MediaPlayerElement]() | Used to view and listen to video and audio. |
+| [WebViewCompatible]() | Need to find out what this is.  |
+
+We'll update this guide with new controls as they are released.
 
 ### XAML Island API (Preview)
 
@@ -71,12 +72,7 @@ For C++ win32 apps, use the XAML Island API to incorporate UWP XAML controls int
 
 See [Using the UWP XAML hosting API in a desktop application](https://review.docs.microsoft.com/en-us/windows/uwp/xaml-platform/using-the-xaml-hosting-api?branch=mcleans-xamlhosting).
 
-Here's some new UWP XAML controls that you can use to create desktop-optimized experiences with a modern Fluent design.
-
-| Guide |  Description |
-|------ |--------------|
-| [Controls by function](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/controls-by-function) |   Catalog of UWP XAML controls. |
-| [UWP XAML controls optimized for desktop applications](#new-packaging-project) | New UWP control such as DataGrid |
+To look at the complete list of UWP XAML controls, see [Controls by function](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/controls-by-function).
 
 <a id="desktop-uwp-controls"/>
 
@@ -86,12 +82,12 @@ Here's some new UWP XAML controls that you can use to create desktop-optimized e
 
 | Control |  Description |
 |------ |--------------|
-| [MenuBar](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/menus?branch=jimwalk%2Frs5-menu-bar) | MenuBar |
-| [DropDownButton](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/buttons#create-a-drop-down-button) | DropDownButton |
-| [SplitButton](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/buttons#create-a-split-button) | SplitButton|
-| [CommandBarFlyout](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/command-bar-flyout?branch=jimwalk%2Frs5-command-bar-flyout) |  CommandBarFlyout |
-| [EditableComboBox](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/combo-box?branch=rs5#make-a-combo-box-editable) | EditableComboBox |
-| [DataGridView](https://docs.microsoft.com/en-us/windows/communitytoolkit/controls/datagrid) |   DataGridView |
+| [MenuBar](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/menus?branch=jimwalk%2Frs5-menu-bar) | provides a quick and simple way to expose a set of commands for apps that might need more organization or grouping then a CommandBar allows. |
+| [DropDownButton](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/buttons#create-a-drop-down-button) | Shows a chevron as a visual indicator that it has an attached flyout that contains more options.  |
+| [SplitButton](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/buttons#create-a-split-button) | A [SplitButton](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/buttons#create-a-split-button) has two parts that can be invoked separately. One part behaves like a standard button and invokes an immediate action. The other part invokes a flyout that contains additional options that the user can choose from.|
+| [CommandBarFlyout](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/command-bar-flyout?branch=jimwalk%2Frs5-command-bar-flyout) |  Has **PrimaryCommands** and **SecondaryCommands** properties you can use to add commands. You can place commands in either collection, or both. When and how the primary and secondary commands are displayed depends on the display mode. |
+| [EditableComboBox](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/combo-box?branch=rs5#make-a-combo-box-editable) | Need description. |
+| [DataGridView](https://docs.microsoft.com/en-us/windows/communitytoolkit/controls/datagrid) |   Provides a flexible way to display a collection of data in rows and columns.  |
 
 ## Windows UI library
 
