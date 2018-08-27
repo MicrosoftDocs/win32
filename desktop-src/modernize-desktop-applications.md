@@ -10,27 +10,11 @@ ms.date: 08/21/2018
 
 # Desktop guide to the modern platform
 
-* The modern platform is being made available as stand-alone building blocks that you can adopt in your desktop applications ala cart without having to completely rewrite applications in UWP.
-
-* Enhance existing investments in-place. No re-write required. No need to learn a whole new stack to modernize.
-
-* Choose which stack to invest in (modern front-ends, MSIX deployment + opt-into security level, UWP APIs etc.).
-
-* Add UWP XAML controls to  
+The modern platform is being made available as stand-alone building blocks that you can adopt in your desktop applications ala cart without having to completely rewrite applications in UWP. Enhance existing investments in-place. No re-write required. No need to learn a whole new stack to modernize.
 
 ## MSIX packages
 
-MSIX is a new containerization package format that applies to all Windows applications including Win32, Windows Forms, WPF, and UWP. This new format inherits great features from UWP:
-
-* Robust installation and updating.
-
-* Managed security model with a flexible capability system.
-
-* Support for the Microsoft Store, enterprise management, and many custom distribution models.
-
-* Use DAC or command-line. Visual Studio support coming.
-
-* If you've got apps without source code, use IT Pro tool.
+MSIX is a new containerization package format that applies to all Windows applications including Win32, Windows Forms, WPF, and UWP. This new format inherits great features from UWP and provides robust installation and updating, managed security model with a flexible capability system, and support for the Microsoft Store, enterprise management, and many custom distribution models.
 
 See [MSIX](https://review.docs.microsoft.com/en-us/windows/msix/landing-page-test?branch=master)
 
@@ -70,7 +54,7 @@ For a catalog of UWP XAML controls, See [Controls by function](https://docs.micr
 
 Wrapped controls that you can use directly on design surfaces.
 
-| Guide |  Description |
+| Control |  Description |
 |------ |--------------|
 | [WebView](https://docs.microsoft.com/en-us/windows/communitytoolkit/controls/webview) |   Description |
 | [InkCanvas]() | Description |
@@ -102,22 +86,26 @@ Here's some new UWP XAML controls that you can use to create desktop-optimized e
 
 | Control |  Description |
 |------ |--------------|
-| [Menus and context menus](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/menus?branch=jimwalk%2Frs5-menu-bar) | MenuBar |
-| [Create a drop down button](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/buttons#create-a-drop-down-button) | DropDownButton |
-| [Create a split button](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/buttons#create-a-split-button) | SplitButtonMenuBar |
-| [Command bar flyout](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/command-bar-flyout?branch=jimwalk%2Frs5-command-bar-flyout) |  CommandBarFlyout |
-| [Make a combo box editable](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/combo-box?branch=rs5#make-a-combo-box-editable) | EditableComboBox |
-| [DataGrid XAML control](https://docs.microsoft.com/en-us/windows/communitytoolkit/controls/datagrid) |   DataGridView |
+| [MenuBar](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/menus?branch=jimwalk%2Frs5-menu-bar) | MenuBar |
+| [DropDownButton](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/buttons#create-a-drop-down-button) | DropDownButton |
+| [SplitButton](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/buttons#create-a-split-button) | SplitButton|
+| [CommandBarFlyout](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/command-bar-flyout?branch=jimwalk%2Frs5-command-bar-flyout) |  CommandBarFlyout |
+| [EditableComboBox](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/combo-box?branch=rs5#make-a-combo-box-editable) | EditableComboBox |
+| [DataGridView](https://docs.microsoft.com/en-us/windows/communitytoolkit/controls/datagrid) |   DataGridView |
 
-## Windows UI library: Windows version-independent Fluent controls
+## Windows UI library
 
-* Value prop and example.
+The Windows UI library contains new platform controls that haven't yet shipped as part of the Windows platform. It also contains updated versions of existing controls.
+
+Perhaps the best aspect of this library is that it ships controls as NuGet packages. Therefore, you can safely adopt new controls as they are released without having to worry about whether your users are running a compatible version of Windows 10.  That let's you keep your UIs on the cutting edge without having to wait for the rest of the company to catch up on Windows releases and you don't have to include version checks or conditional XAML to hedge against compatibility issues.
 
 See [Windows UI Library (Preview version)](https://docs.microsoft.com/en-us/uwp/toolkits/winui/)
 
-## Access to WinRT APIs from desktop application code
+## Other UWP Features
 
-* Some sort of stake in the ground that clarifies that desktop applications have access to UWP APIs.
+After you've added a few file references to your desktop application project, you can use UWP APIs to add modern experiences that light up for Windows 10 users such toast notifications.
+
+![Toast](images/toast.png)
 
 See [Enhance your desktop application for Windows 10](https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-enhance)
 
