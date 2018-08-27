@@ -61,20 +61,14 @@ You can drag a XAML Island Host control directly to the design surface of your W
 
 For a catalog of UWP XAML controls, See [Controls by function](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/controls-by-function).
 
-Here's some new UWP XAML controls that you can use to create desktop-optimized experiences with a modern Fluent design.
-
-| Control |  Description |
+| Guide |  Description |
 |------ |--------------|
-| [Menus and context menus](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/menus?branch=jimwalk%2Frs5-menu-bar) | MenuBar |
-| [Create a drop down button](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/buttons#create-a-drop-down-button) | DropDownButton |
-| [Create a split button](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/buttons#create-a-split-button) | SplitButtonMenuBar |
-| [Command bar flyout](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/command-bar-flyout?branch=jimwalk%2Frs5-command-bar-flyout) |  CommandBarFlyout |
-| [Make a combo box editable](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/combo-box?branch=rs5#make-a-combo-box-editable) | EditableComboBox |
-| [DataGrid XAML control](https://docs.microsoft.com/en-us/windows/communitytoolkit/controls/datagrid) |   DataGridView |
+| [Controls by function](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/controls-by-function) |   Catalog of UWP XAML controls. |
+| [UWP XAML controls optimized for desktop applications](#new-packaging-project) | New UWP control such as DataGrid |
 
 ### XAML Island Wrapped Controls (Preview)
 
-Wrapped controls that you can use directly on design surfaces. They e
+Wrapped controls that you can use directly on design surfaces.
 
 | Guide |  Description |
 |------ |--------------|
@@ -92,6 +86,17 @@ Wrapped controls that you can use directly on design surfaces. They e
 For C++ win32 apps, use the XAML Island API to incorporate UWP XAML controls into your desktop application UIs.
 
 See [Using the UWP XAML hosting API in a desktop application](https://review.docs.microsoft.com/en-us/windows/uwp/xaml-platform/using-the-xaml-hosting-api?branch=mcleans-xamlhosting).
+
+Here's some new UWP XAML controls that you can use to create desktop-optimized experiences with a modern Fluent design.
+
+| Guide |  Description |
+|------ |--------------|
+| [Controls by function](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/controls-by-function) |   Catalog of UWP XAML controls. |
+| [UWP XAML controls optimized for desktop applications](#new-packaging-project) | New UWP control such as DataGrid |
+
+<a id="desktop-uwp-controls"/>
+
+## UWP XAML controls optimized for desktop applications
 
 Here's some new UWP XAML controls that you can use to create desktop-optimized experiences with a modern Fluent design.
 
