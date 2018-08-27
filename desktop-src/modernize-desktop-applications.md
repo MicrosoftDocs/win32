@@ -16,7 +16,9 @@ ms.date: 08/21/2018
 
 * Choose which stack to invest in (modern front-ends, MSIX deployment + opt-into security level, UWP APIs etc.).
 
-## MSIX packages: Safe, secure, and reliable deployment
+* Add UWP XAML controls to  
+
+## MSIX packages
 
 MSIX is a new containerization package format that applies to all Windows applications including Win32, Windows Forms, WPF, and UWP. This new format inherits great features from UWP:
 
@@ -32,157 +34,75 @@ MSIX is a new containerization package format that applies to all Windows applic
 
 See [MSIX](https://review.docs.microsoft.com/en-us/windows/msix/landing-page-test?branch=master)
 
+## XAML Islands (Preview)
 
-## XAML Islands: Fluent controls in your desktop application UIs
+You can add [UWP XAML controls](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/controls-by-function) to the user interfaces of your desktop application by using XAML Islands.
 
-Add [Fluent controls](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/controls-by-function) to the user interfaces of your desktop application by using XAML Islands.
-
-A XAML island acts as a wrapper for Fluent controls. How you create A XAML island in your desktop application depends on what type of desktop application you have. The following table summarizes your options.
-
-| XAML Island Technology            |  Windows Forms | WPF | C++ Win32 |
-|------------------------------|----------------|-----|-------|
-| XAML Islands Wrapped controls|  ✔             |  ✔ |       |
-| XAML Islands Host Control    |  ✔             |  ✔ |       |
-| XAML Islands API             |  ✔             |  ✔ |  ✔    |
-
-If you have a C++ Win32 application, you can add a XAML island by using the XAML Islands API.
-
-If you have a Windows Forms or WPF application, You can drag a special control (called a XAML Island host control) to the surface of your designer. This control abstracts away the complexities of a XAML island so that all you have to do is assign that control to your favorite Fluent control.
+A XAML island acts as a wrapper for UWP XAML controls. If you have a Windows Forms or WPF application, You can drag a special control, called a XAML Island host control, to the surface of your designer. This control abstracts away the complexities of a XAML island so that all you have to do is assign that control to your favorite UWP XAML control.
 
 There are several Fluent controls that you can add directly to your design surfaces without even having to first use a host control. These are called **Wrapped Controls**. They go one step further by abstracting away the host control.
 
-### XAML Island host control
+If you have a C++ Win32 application, you can add a XAML island by using the XAML Islands API.
+
+| XAML Island Technology            |  Windows Forms | WPF | C++ Win32 |
+|------------------------------|----------------|-----|-------|
+| XAML Island Host Control    |  ✔             |  ✔ |       |
+| XAML Island Wrapped controls|  ✔             |  ✔ |       |
+| XAML Island API             |  ✔             |  ✔ |  ✔    |
+
+To learn more about XAML Islands, see [Host UWP controls in WPF and Windows Forms applications](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/xaml-host-controls).
+
+### XAML Island Host Control (Preview)
 
 >[!NOTE]
 >This feature is in preview only.
 
-* Host control is convenient way to add a XAML Island to Windows Forms and WPF apps.
+You can drag a XAML Island Host control directly to the design surface of your Windows Forms or WPF application. Then, you can set that host control to any UWP XAML control that you want. See  [WindowsXAMLHostControl](https://docs.microsoft.com/en-us/windows/communitytoolkit/controls/WindowsXAMLHost).
 
-  * Show simple example with screenshot.
+For a catalog of UWP XAML controls, See [Controls by function](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/controls-by-function).
 
-See [Host UWP controls in WPF and Windows Forms applications](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/xaml-host-controls)
+Here's some new UWP XAML controls that you can use to create desktop-optimized experiences with a modern Fluent design.
 
-See [WindowsXAMLHostControl](https://docs.microsoft.com/en-us/windows/communitytoolkit/controls/WindowsXAMLHost)  * Link to host control doc on Community Toolkit Page.
+| Control |  Description |
+|------ |--------------|
+| [Menus and context menus](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/menus?branch=jimwalk%2Frs5-menu-bar) | MenuBar |
+| [Create a drop down button](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/buttons#create-a-drop-down-button) | DropDownButton |
+| [Create a split button](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/buttons#create-a-split-button) | SplitButtonMenuBar |
+| [Command bar flyout](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/command-bar-flyout?branch=jimwalk%2Frs5-command-bar-flyout) |  CommandBarFlyout |
+| [Make a combo box editable](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/combo-box?branch=rs5#make-a-combo-box-editable) | EditableComboBox |
+| [DataGrid XAML control](https://docs.microsoft.com/en-us/windows/communitytoolkit/controls/datagrid) |   DataGridView |
 
-### XAML Island wrapped controls
+### XAML Island Wrapped Controls (Preview)
 
->[!NOTE]
->This feature is in preview only.
+Wrapped controls that you can use directly on design surfaces. They e
 
-* Wrapped controls that you can use directly on design surfaces.
+| Guide |  Description |
+|------ |--------------|
+| [WebView](https://docs.microsoft.com/en-us/windows/communitytoolkit/controls/webview) |   Description |
+| [InkCanvas]() | Description |
+| [InkToolbar]() | Description |
+| [MediaPlayerElement]() | Description |
+| [WebViewCompatible]() | Description  |
 
-* Complete list going out with next refresh of the Toolkit is currently TBD.
-
-#### WebView
-
-* Code snippet of XAML Island assigned to WebView.
-
-* Screenshot of WebView in win32 application.
-
-See [WebView controls for Windows Forms and WPF applications](https://docs.microsoft.com/en-us/windows/communitytoolkit/controls/webview)
-
-#### InkCanvas
-
-* Code snippet of XAML Island assigned to WebView.
-
-* Screenshot of WebView in win32 application.
-
-* Link to WebView doc.
-
-#### InkToolbar
-
-* Code snippet of XAML Island assigned to WebView.
-
-* Screenshot of WebView in win32 application.
-
-* Link to WebView doc.
-
-#### MediaPlayerElement
-
-* Code snippet of XAML Island assigned to WebView.
-
-* Screenshot of WebView in win32 application.
-
-* Link to WebView doc.
-
-#### WebViewCompatible
-
-* Code snippet of XAML Island assigned to WebView.
-
-* Screenshot of WebView in win32 application.
-
-* Link to WebView doc.
-
-### XAML Island API
+### XAML Island API (Preview)
 
 >[!NOTE]
 >This feature is in preview only.
 
-* Win32 API for Win32 apps.
-
-  * Show simple example with screenshot.
-
-  * Link to code-first sample.
+For C++ win32 apps, use the XAML Island API to incorporate UWP XAML controls into your desktop application UIs.
 
 See [Using the UWP XAML hosting API in a desktop application](https://review.docs.microsoft.com/en-us/windows/uwp/xaml-platform/using-the-xaml-hosting-api?branch=mcleans-xamlhosting).
 
-### Fluent controls made for the desktop
+Here's some new UWP XAML controls that you can use to create desktop-optimized experiences with a modern Fluent design.
 
-* Add any Fluent control to your XAML Islands.
-
-See [Controls by function](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/controls-by-function)
-
-* There's several new desktop-grade controls available with Fluent.
-
-* These controls render as expected on large desktop screens.
-
-#### MenuBar
-
-* Code snippet of XAML Island assigned to MenuBar.
-
-* Screenshot of MenuBar in win32 application.
-
-See [Menus and context menus](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/menus?branch=jimwalk%2Frs5-menu-bar).
-
-#### DropDownButton
-
-* Code snippet of XAML Island assigned to DropDownButton.
-
-* Screenshot of DropDownButton in win32 application.
-
-See [Create a drop down button](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/buttons#create-a-drop-down-button)
-
-#### SplitButtonMenuBar
-
-* Code snippet of XAML Island assigned to SplitButtonMenuBar.
-
-* Screenshot of SplitButtonMenuBar in win32 application.
-
-See [Create a split button](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/buttons#create-a-split-button)
-
-#### CommandBarFlyout
-
-* Code snippet of XAML Island assigned to CommandBarFlyout.
-
-* Screenshot of CommandBarFlyout in win32 application.
-
-See [Command bar flyout](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/command-bar-flyout?branch=jimwalk%2Frs5-command-bar-flyout).
-
-#### EditableComboBox
-
-* Code snippet of XAML Island assigned to EditableComboBox.
-
-* Screenshot of EditableComboBox in win32 application.
-
-See [Make a combo box editable](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/combo-box?branch=rs5#make-a-combo-box-editable)
-
-#### DataGridView
-
-* Code snippet of XAML Island assigned to DataGridView.
-
-* Screenshot of DataGridView in win32 application.
-
-See [DataGrid XAML control](https://docs.microsoft.com/en-us/windows/communitytoolkit/controls/datagrid)
+| Control |  Description |
+|------ |--------------|
+| [Menus and context menus](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/menus?branch=jimwalk%2Frs5-menu-bar) | MenuBar |
+| [Create a drop down button](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/buttons#create-a-drop-down-button) | DropDownButton |
+| [Create a split button](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/buttons#create-a-split-button) | SplitButtonMenuBar |
+| [Command bar flyout](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/command-bar-flyout?branch=jimwalk%2Frs5-command-bar-flyout) |  CommandBarFlyout |
+| [Make a combo box editable](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/combo-box?branch=rs5#make-a-combo-box-editable) | EditableComboBox |
+| [DataGrid XAML control](https://docs.microsoft.com/en-us/windows/communitytoolkit/controls/datagrid) |   DataGridView |
 
 ## Windows UI library: Windows version-independent Fluent controls
 
