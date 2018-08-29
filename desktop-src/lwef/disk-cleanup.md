@@ -241,7 +241,7 @@ In general, the name of the key holding a handler's particulars is named for the
 <tr class="even">
 <td>AdvancedButtonText</td>
 <td>REG_SZ</td>
-<td>Text for the optional button that users can click to display the handler's UI. The & character can be placed before a character to assign a keyboard shortcut for the button. The AdvancedButtonText value is ignored by handlers exposing [<strong>IEmptyVolumeCache2::InitializeEx</strong>](/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex).</td>
+<td>Text for the optional button that users can click to display the handler's UI. The & character can be placed before a character to assign a keyboard shortcut for the button. The AdvancedButtonText value is ignored by handlers exposing <a href="/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex"><strong>IEmptyVolumeCache2::InitializeEx</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td>CleanupString</td>
@@ -251,7 +251,7 @@ In general, the name of the key holding a handler's particulars is named for the
 <tr class="even">
 <td>CSIDL</td>
 <td>REG_DWORD</td>
-<td>A system-independent identifier for a special folder to include in the file search. This value must be entered as a numerical value for instance, 0x0000001c rather than CSIDL_LOCAL_APPDATA. For a list of possible values, see [<strong>CSIDL</strong>](https://msdn.microsoft.com/library/windows/desktop/bb762494). Only a single value can be used.<br/> If the Folder value is specified, the location indicated by the CSIDL value is prepended to that information to compose a search path. For instance, consider the following scenario.<br/>
+<td>A system-independent identifier for a special folder to include in the file search. This value must be entered as a numerical value for instance, 0x0000001c rather than CSIDL_LOCAL_APPDATA. For a list of possible values, see <a href="https://msdn.microsoft.com/library/windows/desktop/bb762494"><strong>CSIDL</strong></a>. Only a single value can be used.<br/> If the Folder value is specified, the location indicated by the CSIDL value is prepended to that information to compose a search path. For instance, consider the following scenario.<br/>
 <ul>
 <li>The CSIDL value is specified as 0x0000000d (CSIDL_MYMUSIC)</li>
 <li>Your My Music folder is located at C:\Documents and Settings\<em>username</em>\My Music</li>
@@ -262,12 +262,12 @@ The result of that scenario is that the disk cleanup handler searches the C:\Doc
 <tr class="odd">
 <td>Description</td>
 <td>REG_SZ</td>
-<td>Descriptive text displayed below the disk cleanup manager's list box when the handler's name is selected. Here you can explain what the handler does, what files it concerns itself with, and any other information elucidatory to the user. If [<strong>IEmptyVolumeCache2::InitializeEx</strong>](/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex) is not exposed by the handler, this text can be overridden through the handler's [<strong>IEmptyVolumeCache::Initialize</strong>](/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache-initialize) method by specifying an alternate string in the <em>ppwszDescription</em> parameter when the method is called.</td>
+<td>Descriptive text displayed below the disk cleanup manager's list box when the handler's name is selected. Here you can explain what the handler does, what files it concerns itself with, and any other information elucidatory to the user. If <a href="/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex"><strong>IEmptyVolumeCache2::InitializeEx</strong></a> is not exposed by the handler, this text can be overridden through the handler's <a href="/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache-initialize"><strong>IEmptyVolumeCache::Initialize</strong></a> method by specifying an alternate string in the <em>ppwszDescription</em> parameter when the method is called.</td>
 </tr>
 <tr class="even">
 <td>Display</td>
 <td>REG_SZ</td>
-<td>The handler's name to be displayed in the disk cleanup manager's list box. If [<strong>IEmptyVolumeCache2::InitializeEx</strong>](/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex) is not exposed by the handler, this text can be overridden through the handler's [<strong>IEmptyVolumeCache::Initialize</strong>](/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache-initialize) method by specifying an alternate string in the <em>ppwszDisplayName</em> parameter when the method is called.</td>
+<td>The handler's name to be displayed in the disk cleanup manager's list box. If <a href="/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex"><strong>IEmptyVolumeCache2::InitializeEx</strong></a> is not exposed by the handler, this text can be overridden through the handler's <a href="/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache-initialize"><strong>IEmptyVolumeCache::Initialize</strong></a> method by specifying an alternate string in the <em>ppwszDisplayName</em> parameter when the method is called.</td>
 </tr>
 <tr class="odd">
 <td>FileList</td>
@@ -286,9 +286,9 @@ The result of that scenario is that the disk cleanup handler searches the C:\Doc
 <li>DDEVCF_REMOVEHIDDEN (0x00000010). Remove files that meet the search criteria even if they are hidden files.</li>
 <li>DDEVCF_DONTSHOWIFZERO (0x00000020). Do not display this handler in the disk cleanup manager if no files match its search criteria.</li>
 <li>DDEVCF_REMOVEDIRS (0x00000040). Match the FileList value against directories and remove matches and all of their subdirectories.</li>
-<li>DDEVCF_RUNIFOUTOFDISKSPACE (0x00000080). Run this handler only if available disk space has fallen below the critical value, determined by the disk cleanup manager setting the EVCF_OUTOFDISKSPACE flag through [<strong>IEmptyVolumeCache::Initialize</strong>](/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache-initialize) or [<strong>IEmptyVolumeCache2::InitializeEx</strong>](/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex).</li>
+<li>DDEVCF_RUNIFOUTOFDISKSPACE (0x00000080). Run this handler only if available disk space has fallen below the critical value, determined by the disk cleanup manager setting the EVCF_OUTOFDISKSPACE flag through <a href="/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache-initialize"><strong>IEmptyVolumeCache::Initialize</strong></a> or <a href="/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex"><strong>IEmptyVolumeCache2::InitializeEx</strong></a>.</li>
 <li>DDEVCF_REMOVEPARENTDIR (0x00000100). Remove the parent directory of the specified files once the cleaner has run.</li>
-<li>DDEVCF_PRIVATE_LASTACCESS (0x10000000). Use the LastAccess value, if provided, in ascertaining which files should be cleaned. This flag is ignored when using the [DataDrivenCleaner](#using-the-datadrivencleaner-object) any provided LastAccess value is always used.</li>
+<li>DDEVCF_PRIVATE_LASTACCESS (0x10000000). Use the LastAccess value, if provided, in ascertaining which files should be cleaned. This flag is ignored when using the <a href="#using-the-datadrivencleaner-object">DataDrivenCleaner</a> any provided LastAccess value is always used.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -314,7 +314,7 @@ The result of that scenario is that the disk cleanup handler searches the C:\Doc
 <tr class="odd">
 <td>PropertyBag</td>
 <td>REG_SZ</td>
-<td>The CLSID of a resource used to provide localized text for the display name, description, and button text. This resource is useful in the situation where a handler does not implement [<strong>IEmptyVolumeCache</strong>](/windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache) and the handler is being run under Microsoft Windows NT or Windows XP.<br/> The disk cleanup manager first checks whether the handler's initialization routine returned those strings, as would be the case when [<strong>IEmptyVolumeCache2</strong>](/windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache2) is implemented. Failing that, the manager next turns to a property bag named in this value. If none has been provided, it retrieves the text from the registry.<br/></td>
+<td>The CLSID of a resource used to provide localized text for the display name, description, and button text. This resource is useful in the situation where a handler does not implement <a href="/windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache"><strong>IEmptyVolumeCache</strong></a> and the handler is being run under Microsoft Windows NT or Windows XP.<br/> The disk cleanup manager first checks whether the handler's initialization routine returned those strings, as would be the case when <a href="/windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache2"><strong>IEmptyVolumeCache2</strong></a> is implemented. Failing that, the manager next turns to a property bag named in this value. If none has been provided, it retrieves the text from the registry.<br/></td>
 </tr>
 <tr class="even">
 <td>StateFlags</td>

@@ -63,14 +63,14 @@ Represents a [Group](windowsribbon-controls-group.md) control that functions as 
 <td><strong>CommandName</strong><br/></td>
 <td>xs:positiveInteger or xs:string<br/></td>
 <td>No<br/></td>
-<td>Associates the element with a [<strong>Command</strong>](windowsribbon-element-command.md).<br/> <br/>
+<td>Associates the element with a <a href="windowsribbon-element-command"><strong>Command</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs:positiveInteger or xs:string)<br/> </dt> <dd> A string, an integer value between 2 and 59999, inclusive, or a hexadecimal value between 0x2 and 0xea5f, inclusive. <br/> The value must be unique within the Ribbon XML document. <br/> Maximum length: 100 characters. <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>SizeDefinition</strong><br/></td>
 <td>xs:string<br/></td>
 <td>No<br/></td>
-<td>When specified, the value of <em>SizeDefinition</em> is constrained to one of the [layout templates](windowsribbon-templates.md) defined by the Ribbon framework. <br/> <br/>
+<td>When specified, the value of <em>SizeDefinition</em> is constrained to one of the <a href="windowsribbon-templates">layout templates</a> defined by the Ribbon framework. <br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs:string)<br/> </dt> <dd> Any sequence of zero or more characters.<br/> The maximum length is unbounded.<br/> </dd> </dl></td>
 </tr>
 </tbody>

@@ -116,51 +116,51 @@ The window procedure for the predefined button control window class carries out 
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>BM_CLICK</strong>](bm-click.md)</td>
-<td>Sends the button a [<strong>WM_LBUTTONDOWN</strong>](https://msdn.microsoft.com/library/windows/desktop/ms645607) and a [<strong>WM_LBUTTONUP</strong>](https://msdn.microsoft.com/library/windows/desktop/ms645608) message, and sends the parent window a [BN_CLICKED](bn-clicked.md) notification code.</td>
+<td><a href="bm-click"><strong>BM_CLICK</strong></a></td>
+<td>Sends the button a <a href="https://msdn.microsoft.com/library/windows/desktop/ms645607"><strong>WM_LBUTTONDOWN</strong></a> and a <a href="https://msdn.microsoft.com/library/windows/desktop/ms645608"><strong>WM_LBUTTONUP</strong></a> message, and sends the parent window a <a href="bn-clicked">BN_CLICKED</a> notification code.</td>
 </tr>
 <tr class="even">
-<td>[<strong>BM_GETCHECK</strong>](bm-getcheck.md)</td>
+<td><a href="bm-getcheck"><strong>BM_GETCHECK</strong></a></td>
 <td>Returns the check state of the button.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>BM_GETIMAGE</strong>](bm-getimage.md)</td>
+<td><a href="bm-getimage"><strong>BM_GETIMAGE</strong></a></td>
 <td>Returns a handle to the bitmap or icon associated with the button or <strong>NULL</strong> if the button has no bitmap or icon.</td>
 </tr>
 <tr class="even">
-<td>[<strong>BM_GETSTATE</strong>](bm-getstate.md)</td>
+<td><a href="bm-getstate"><strong>BM_GETSTATE</strong></a></td>
 <td>Returns the current check state, push state, and focus state of the button.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>BM_SETCHECK</strong>](bm-setcheck.md)</td>
-<td>Sets the check state for all styles of radio buttons and check boxes. If the <em>wParam</em> parameter is greater than zero for radio buttons, the button is given the [<strong>WS_TABSTOP</strong>](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-tabstop) style.</td>
+<td><a href="bm-setcheck"><strong>BM_SETCHECK</strong></a></td>
+<td>Sets the check state for all styles of radio buttons and check boxes. If the <em>wParam</em> parameter is greater than zero for radio buttons, the button is given the <a href="https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-tabstop"><strong>WS_TABSTOP</strong></a> style.</td>
 </tr>
 <tr class="even">
-<td>[<strong>BM_SETIMAGE</strong>](bm-setimage.md)</td>
+<td><a href="bm-setimage"><strong>BM_SETIMAGE</strong></a></td>
 <td>Associates the specified bitmap or icon handle with the button and returns a handle to the previous bitmap or icon.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>BM_SETSTATE</strong>](bm-setstate.md)</td>
-<td>Sets the push state of the button. For owner-drawn buttons, a [<strong>WM_DRAWITEM</strong>](wm-drawitem.md) message is sent to the parent window if the state of the button has changed.</td>
+<td><a href="bm-setstate"><strong>BM_SETSTATE</strong></a></td>
+<td>Sets the push state of the button. For owner-drawn buttons, a <a href="wm-drawitem"><strong>WM_DRAWITEM</strong></a> message is sent to the parent window if the state of the button has changed.</td>
 </tr>
 <tr class="even">
-<td>[<strong>BM_SETSTYLE</strong>](bm-setstyle.md)</td>
+<td><a href="bm-setstyle"><strong>BM_SETSTYLE</strong></a></td>
 <td>Sets the button style. If the low-order word of the <em>lParam</em> parameter is <strong>TRUE</strong>, the button is redrawn.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>WM_CHAR</strong>](https://msdn.microsoft.com/library/windows/desktop/ms646276)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms646276"><strong>WM_CHAR</strong></a></td>
 <td>Checks a check box or automatic check box when the user presses the plus (+) or equal (=) keys. Clears a check box or automatic check box when the user presses the minus (–) key.</td>
 </tr>
 <tr class="even">
-<td>[<strong>WM_ENABLE</strong>](https://msdn.microsoft.com/library/windows/desktop/ms632621)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms632621"><strong>WM_ENABLE</strong></a></td>
 <td>Paints the button.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>WM_ERASEBKGND</strong>](https://msdn.microsoft.com/library/windows/desktop/ms648055)</td>
-<td>Erases the background for owner-drawn buttons. The backgrounds of other buttons are erased as part of the [<strong>WM_PAINT</strong>](https://msdn.microsoft.com/library/windows/desktop/dd145213) and [<strong>WM_ENABLE</strong>](https://msdn.microsoft.com/library/windows/desktop/ms632621) processing.</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms648055"><strong>WM_ERASEBKGND</strong></a></td>
+<td>Erases the background for owner-drawn buttons. The backgrounds of other buttons are erased as part of the <a href="https://msdn.microsoft.com/library/windows/desktop/dd145213"><strong>WM_PAINT</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/ms632621"><strong>WM_ENABLE</strong></a> processing.</td>
 </tr>
 <tr class="even">
-<td>[<strong>WM_GETDLGCODE</strong>](https://msdn.microsoft.com/library/windows/desktop/ms645425)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms645425"><strong>WM_GETDLGCODE</strong></a></td>
 <td>Returns values that indicate the type of input processed by the default button procedure, as shown in the following table. 
 <table>
 <thead>
@@ -171,31 +171,31 @@ The window procedure for the predefined button control window class carries out 
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>BS_AUTOCHECKBOX</strong>](button-styles.md)</td>
+<td><a href="button-styles"><strong>BS_AUTOCHECKBOX</strong></a></td>
 <td>DLGC_WANTCHARS | DLGC_BUTTON</td>
 </tr>
 <tr class="even">
-<td>[<strong>BS_AUTORADIOBUTTON</strong>](button-styles.md)</td>
+<td><a href="button-styles"><strong>BS_AUTORADIOBUTTON</strong></a></td>
 <td>DLGC_RADIOBUTTON | DLGC_BUTTON</td>
 </tr>
 <tr class="odd">
-<td>[<strong>BS_CHECKBOX</strong>](button-styles.md)</td>
+<td><a href="button-styles"><strong>BS_CHECKBOX</strong></a></td>
 <td>DLGC_WANTCHARS | DLGC_BUTTON</td>
 </tr>
 <tr class="even">
-<td>[<strong>BS_DEFPUSHBUTTON</strong>](button-styles.md)</td>
+<td><a href="button-styles"><strong>BS_DEFPUSHBUTTON</strong></a></td>
 <td>DLGC_DEFPUSHBUTTON | DLGC_BUTTON</td>
 </tr>
 <tr class="odd">
-<td>[<strong>BS_GROUPBOX</strong>](button-styles.md)</td>
+<td><a href="button-styles"><strong>BS_GROUPBOX</strong></a></td>
 <td>DLGC_STATIC</td>
 </tr>
 <tr class="even">
-<td>[<strong>BS_PUSHBUTTON</strong>](button-styles.md)</td>
+<td><a href="button-styles"><strong>BS_PUSHBUTTON</strong></a></td>
 <td>DLGC_UNDEFPUSHBUTTON | DLGC_BUTTON</td>
 </tr>
 <tr class="odd">
-<td>[<strong>BS_RADIOBUTTON</strong>](button-styles.md)</td>
+<td><a href="button-styles"><strong>BS_RADIOBUTTON</strong></a></td>
 <td>DLGC_RADIOBUTTON | DLGC_BUTTON</td>
 </tr>
 </tbody>
@@ -204,63 +204,63 @@ The window procedure for the predefined button control window class carries out 
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td>[<strong>WM_GETFONT</strong>](https://msdn.microsoft.com/library/windows/desktop/ms632624)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms632624"><strong>WM_GETFONT</strong></a></td>
 <td>Returns a handle to the current font.</td>
 </tr>
 <tr class="even">
-<td>[<strong>WM_KEYDOWN</strong>](https://msdn.microsoft.com/library/windows/desktop/ms646280)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms646280"><strong>WM_KEYDOWN</strong></a></td>
 <td>Pushes the button if the user presses the SPACEBAR.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>WM_KEYUP</strong>](https://msdn.microsoft.com/library/windows/desktop/ms646281)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms646281"><strong>WM_KEYUP</strong></a></td>
 <td>Releases the mouse capture for all cases except the TAB key.</td>
 </tr>
 <tr class="even">
-<td>[<strong>WM_KILLFOCUS</strong>](https://msdn.microsoft.com/library/windows/desktop/ms646282)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms646282"><strong>WM_KILLFOCUS</strong></a></td>
 <td>Removes the focus rectangle from a button. For push buttons and default push buttons, the focus rectangle is invalidated. If the button has the mouse capture, the capture is released, the button is not clicked, and any push state is removed.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>WM_LBUTTONDBLCLK</strong>](https://msdn.microsoft.com/library/windows/desktop/ms645606)</td>
-<td>Sends a [BN_DBLCLK](bn-dblclk.md) notification code to the parent window for radio buttons and owner-drawn buttons. For other buttons, a double-click is processed as a [<strong>WM_LBUTTONDOWN</strong>](https://msdn.microsoft.com/library/windows/desktop/ms645607) message.</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms645606"><strong>WM_LBUTTONDBLCLK</strong></a></td>
+<td>Sends a <a href="bn-dblclk">BN_DBLCLK</a> notification code to the parent window for radio buttons and owner-drawn buttons. For other buttons, a double-click is processed as a <a href="https://msdn.microsoft.com/library/windows/desktop/ms645607"><strong>WM_LBUTTONDOWN</strong></a> message.</td>
 </tr>
 <tr class="even">
-<td>[<strong>WM_LBUTTONDOWN</strong>](https://msdn.microsoft.com/library/windows/desktop/ms645607)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms645607"><strong>WM_LBUTTONDOWN</strong></a></td>
 <td>Highlights the button if the position of the mouse cursor is within the button's client rectangle.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>WM_LBUTTONUP</strong>](https://msdn.microsoft.com/library/windows/desktop/ms645608)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms645608"><strong>WM_LBUTTONUP</strong></a></td>
 <td>Releases the mouse capture if the button had the mouse capture.</td>
 </tr>
 <tr class="even">
-<td>[<strong>WM_MOUSEMOVE</strong>](https://msdn.microsoft.com/library/windows/desktop/ms645616)</td>
-<td>Performs the same action as [<strong>WM_LBUTTONDOWN</strong>](https://msdn.microsoft.com/library/windows/desktop/ms645607), if the button has the mouse capture. Otherwise, no action is performed.</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms645616"><strong>WM_MOUSEMOVE</strong></a></td>
+<td>Performs the same action as <a href="https://msdn.microsoft.com/library/windows/desktop/ms645607"><strong>WM_LBUTTONDOWN</strong></a>, if the button has the mouse capture. Otherwise, no action is performed.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>WM_NCCREATE</strong>](https://msdn.microsoft.com/library/windows/desktop/ms632635)</td>
-<td>Turns any [<strong>BS_OWNERDRAW</strong>](button-styles.md) button into a [<strong>BS_PUSHBUTTON</strong>](button-styles.md) button.</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms632635"><strong>WM_NCCREATE</strong></a></td>
+<td>Turns any <a href="button-styles"><strong>BS_OWNERDRAW</strong></a> button into a <a href="button-styles"><strong>BS_PUSHBUTTON</strong></a> button.</td>
 </tr>
 <tr class="even">
-<td>[<strong>WM_NCHITTEST</strong>](https://msdn.microsoft.com/library/windows/desktop/ms645618)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms645618"><strong>WM_NCHITTEST</strong></a></td>
 <td>Returns HTTRANSPARENT, if the button control is a group box.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>WM_PAINT</strong>](https://msdn.microsoft.com/library/windows/desktop/dd145213)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/dd145213"><strong>WM_PAINT</strong></a></td>
 <td>Draws the button according to its style and current state.</td>
 </tr>
 <tr class="even">
-<td>[<strong>WM_SETFOCUS</strong>](https://msdn.microsoft.com/library/windows/desktop/ms646283)</td>
-<td>Draws a focus rectangle on the button getting the focus. For radio buttons and automatic radio buttons, the parent window is sent a [BN_CLICKED](bn-clicked.md) notification code.</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms646283"><strong>WM_SETFOCUS</strong></a></td>
+<td>Draws a focus rectangle on the button getting the focus. For radio buttons and automatic radio buttons, the parent window is sent a <a href="bn-clicked">BN_CLICKED</a> notification code.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>WM_SETFONT</strong>](https://msdn.microsoft.com/library/windows/desktop/ms632642)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms632642"><strong>WM_SETFONT</strong></a></td>
 <td>Sets a new font and optionally updates the window.</td>
 </tr>
 <tr class="even">
-<td>[<strong>WM_SETTEXT</strong>](https://msdn.microsoft.com/library/windows/desktop/ms632644)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms632644"><strong>WM_SETTEXT</strong></a></td>
 <td>Sets the text of the button. In the case of a group box, the message paints over the preexisting text before repainting the group box with the new text.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>WM_SYSKEYUP</strong>](https://msdn.microsoft.com/library/windows/desktop/ms646287)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms646287"><strong>WM_SYSKEYUP</strong></a></td>
 <td>Releases the mouse capture for all cases except the TAB key.</td>
 </tr>
 </tbody>

@@ -56,42 +56,42 @@ Set the following attributes on the output media type.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>MF_MT_MAJOR_TYPE</strong>](mf-mt-major-type-attribute.md)</td>
+<td><a href="mf-mt-major-type-attribute"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
 <td>Major type. Must be <strong>MFMediaType_Video</strong>.</td>
 </tr>
 <tr class="even">
-<td>[<strong>MF_MT_SUBTYPE</strong>](mf-mt-subtype-attribute.md)</td>
+<td><a href="mf-mt-subtype-attribute"><strong>MF_MT_SUBTYPE</strong></a></td>
 <td>Video subtype. Must be <strong>MFVideoFormat_HEVC</strong>.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>MF_MT_AVG_BITRATE</strong>](mf-mt-avg-bitrate-attribute.md)</td>
+<td><a href="mf-mt-avg-bitrate-attribute"><strong>MF_MT_AVG_BITRATE</strong></a></td>
 <td>Average encoded bit rate, in bits per second. Must be greater than zero.</td>
 </tr>
 <tr class="even">
-<td>[<strong>MF_MT_FRAME_RATE</strong>](mf-mt-frame-rate-attribute.md)</td>
+<td><a href="mf-mt-frame-rate-attribute"><strong>MF_MT_FRAME_RATE</strong></a></td>
 <td>Frame rate.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>MF_MT_FRAME_SIZE</strong>](mf-mt-frame-size-attribute.md)</td>
+<td><a href="mf-mt-frame-size-attribute"><strong>MF_MT_FRAME_SIZE</strong></a></td>
 <td>Frame size.</td>
 </tr>
 <tr class="even">
-<td>[<strong>MF_MT_INTERLACE_MODE</strong>](mf-mt-interlace-mode-attribute.md)</td>
+<td><a href="mf-mt-interlace-mode-attribute"><strong>MF_MT_INTERLACE_MODE</strong></a></td>
 <td>Interlace mode.</td>
 </tr>
 <tr class="odd">
-<td>[MF_MT_VIDEO_PROFILE](mf-mt-video-profile.md)</td>
+<td><a href="mf-mt-video-profile">MF_MT_VIDEO_PROFILE</a></td>
 <td>H.265 encoding profile.<br/> The supported values are: <br/>
 <ul>
 <li><strong>eAVEncH265VProfile_Main_420_8</strong></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>[<strong>MF_MT_MPEG2_LEVEL</strong>](mf-mt-mpeg2-level-attribute.md)</td>
+<td><a href="mf-mt-mpeg2-level-attribute"><strong>MF_MT_MPEG2_LEVEL</strong></a></td>
 <td>Specifies the level of the coded video. For more information about profile and level constraints, refer to Annex A of ITU-T H.265.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MF_MT_PIXEL_ASPECT_RATIO</strong>](mf-mt-pixel-aspect-ratio-attribute.md)</td>
+<td><a href="mf-mt-pixel-aspect-ratio-attribute"><strong>MF_MT_PIXEL_ASPECT_RATIO</strong></a></td>
 <td>Optional. Specifies the pixel aspect ratio. The default value is 1:1.</td>
 </tr>
 </tbody>
@@ -161,7 +161,7 @@ For the codec requirements for HCK encoder certification, see the **Certified Ha
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>CODECAPI_AVEncCommonRateControlMode</strong>](https://msdn.microsoft.com/en-us/library/Dd317842(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd317842(v=VS.85).aspx"><strong>CODECAPI_AVEncCommonRateControlMode</strong></a></td>
 <td>Sets the rate control mode. The supported modes are:<br/>
 <ul>
 <li><strong>eAVEncCommonRateControlMode_CBR</strong></li>
@@ -170,51 +170,51 @@ For the codec requirements for HCK encoder certification, see the **Certified Ha
 If other modes are specified, the <strong>eAVEncCommonRateControlMode_CBR</strong> rate control will be used.<br/> This is a VT_UI4 value.<br/></td>
 </tr>
 <tr class="even">
-<td>[CODECAPI_AVEncCommonMeanBitRate](https://msdn.microsoft.com/en-us/library/Dd317662(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd317662(v=VS.85).aspx">CODECAPI_AVEncCommonMeanBitRate</a></td>
 <td>Sets the average bit rate for the encoded bit stream, in bits per second. <br/> The valid range is [1 ... 2³²–1]. <br/> This is a VT_UI4 value.<br/></td>
 </tr>
 <tr class="odd">
-<td>[CODECAPI_AVEncCommonBufferSize](https://msdn.microsoft.com/en-us/library/Dd317651(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd317651(v=VS.85).aspx">CODECAPI_AVEncCommonBufferSize</a></td>
 <td>Sets the buffer size, in bytes, for constant bit rate (CBR) encoding.<br/> The valid range is [1 ... 2³²–1]. <br/> This is a VT_UI4 value.<br/></td>
 </tr>
 <tr class="even">
-<td>[CODECAPI_AVEncCommonMaxBitRate](https://msdn.microsoft.com/en-us/library/Dd317658(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd317658(v=VS.85).aspx">CODECAPI_AVEncCommonMaxBitRate</a></td>
 <td>Sets the maximum bitrate for rate control modes that allow a peak bitrate. <br/> The valid range is [1 ... 2³²–1]. <br/> This is a VT_UI4 value.<br/></td>
 </tr>
 <tr class="odd">
-<td>[CODECAPI_AVEncMPVGOPSize](https://msdn.microsoft.com/en-us/library/Dd317889(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd317889(v=VS.85).aspx">CODECAPI_AVEncMPVGOPSize</a></td>
 <td>Sets the number of pictures from one GOP header to the next, including the leading anchor but not the following one. <br/> The valid range is [0 ... 2³²–1]. If zero, the encoder selects the GOP size. The default value is zero. <br/> This is a VT_UI4 value.<br/></td>
 </tr>
 <tr class="even">
-<td>[CODECAPI_AVLowLatencyMode](codecapi-avlowlatencymode.md)</td>
+<td><a href="codecapi-avlowlatencymode">CODECAPI_AVLowLatencyMode</a></td>
 <td>Enables or disables low-latency mode. <br/> This is a VT_BOOL value.<br/></td>
 </tr>
 <tr class="odd">
-<td>[CODECAPI_AVEncCommonQualityVsSpeed](https://msdn.microsoft.com/en-us/library/Dd317840(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd317840(v=VS.85).aspx">CODECAPI_AVEncCommonQualityVsSpeed</a></td>
 <td>Sets the quality/speed tradeoff. This value affects how the encoder performs various encoding operations, such as motion compensation. At higher complexity levels, the encoder runs more slowly but produces better quality at the same bit rate. <br/> The valid range is 0 – 100. Internally, this value is mapped to a smaller set of quality/speed levels supported by the encoder.<br/> This is a VT_UI4 value.<br/></td>
 </tr>
 <tr class="even">
-<td>[CODECAPI_AVEncVideoForceKeyFrame](codecapi-avencvideoforcekeyframe.md)</td>
+<td><a href="codecapi-avencvideoforcekeyframe">CODECAPI_AVEncVideoForceKeyFrame</a></td>
 <td>Forces the encoder to code the next frame as a key frame.<br/> This is a VT_UI4 value.<br/></td>
 </tr>
 <tr class="odd">
-<td>[CODECAPI_AVEncVideoEncodeQP](codecapi-avencvideoencodeqp.md)</td>
+<td><a href="codecapi-avencvideoencodeqp">CODECAPI_AVEncVideoEncodeQP</a></td>
 <td>When this property is set it will cause the encoder to use the specified QP to encode the next frame and all subsequent frames until a new QP is specified. <br/> Valid range: 0–51, inclusive <br/></td>
 </tr>
 <tr class="even">
-<td>[CODECAPI_AVEncVideoMinQP](codecapi-avencvideominqp.md)</td>
+<td><a href="codecapi-avencvideominqp">CODECAPI_AVEncVideoMinQP</a></td>
 <td>This property will set a limit on the minimum QP that the encoder can use during CBR ratecontrol.<br/> This is a VT_UI4 value.<br/></td>
 </tr>
 <tr class="odd">
-<td>[CODECAPI_AVEncVideoMaxQP](codecapi-avencvideomaxqp.md)</td>
+<td><a href="codecapi-avencvideomaxqp">CODECAPI_AVEncVideoMaxQP</a></td>
 <td>This property will set a limit on the maximum QP that the encoder can use during CBR ratecontrol.<br/> This is a VT_UI4 value.<br/></td>
 </tr>
 <tr class="even">
-<td>[CODECAPI_VideoEncoderDisplayContentType](codecapi-videoencoderdisplaycontenttype.md)</td>
+<td><a href="codecapi-videoencoderdisplaycontenttype">CODECAPI_VideoEncoderDisplayContentType</a></td>
 <td>Sets whether the content is full-screen video, as opposed to screen content that might have a smaller window of video or have no video at all.<br/> This is a VT_UI4 value.<br/></td>
 </tr>
 <tr class="odd">
-<td>[CODECAPI_AVEncNumWorkerThreads](codecapi-avencnumworkerthreads.md)</td>
+<td><a href="codecapi-avencnumworkerthreads">CODECAPI_AVEncNumWorkerThreads</a></td>
 <td>Sets the number of threads used to perform the compression operation. The encoder will divide the frame into tiles such that the number of threads equals the number of tiles.<br/>
 <ul>
 <li>The number of logical processors. The number of threads must be less than or equal to the number of logical processors.</li>

@@ -32,20 +32,20 @@ The SSPI model supports three types of security contexts.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Connection](connection-oriented-contexts.md)</td>
-<td>A connection-oriented [<em>context</em>](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) is the most common security context, and the simplest to use. The caller is responsible for the overall message format and for the location of the data in the message. The caller is also responsible for the location of the security-relevant fields within a message, such as the location of the signature data.<br/></td>
+<td><a href="connection-oriented-contexts">Connection</a></td>
+<td>A connection-oriented <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx"><em>context</em></a> is the most common security context, and the simplest to use. The caller is responsible for the overall message format and for the location of the data in the message. The caller is also responsible for the location of the security-relevant fields within a message, such as the location of the signature data.<br/></td>
 </tr>
 <tr class="even">
-<td>[Datagram](datagram-contexts.md)</td>
-<td>A [<em>datagram</em>](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx)-oriented context has extra support for DCE-style datagram communication. It can also be used generically for a datagram-oriented transport application.<br/>
+<td><a href="datagram-contexts">Datagram</a></td>
+<td>A <a href="https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx"><em>datagram</em></a>-oriented context has extra support for DCE-style datagram communication. It can also be used generically for a datagram-oriented transport application.<br/>
 <blockquote>
 <p>[!Important]</p>
-<p>The [Microsoft Kerberos](microsoft-kerberos.md) package does not support datagram contexts in user-to-user mode.<br/></p>
+<p>The <a href="microsoft-kerberos">Microsoft Kerberos</a> package does not support datagram contexts in user-to-user mode.<br/></p>
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[Stream](stream-contexts.md)</td>
+<td><a href="stream-contexts">Stream</a></td>
 <td>A stream-oriented context is responsible for the blocking and message formatting within the security package. The caller is not interested in formatting, but rather a raw stream of data.<br/></td>
 </tr>
 </tbody>

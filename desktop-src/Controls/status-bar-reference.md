@@ -42,21 +42,21 @@ This section contains information about the programming elements used with statu
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>CreateStatusWindow</strong>](/windows/desktop/api/Commctrl/nf-commctrl-createstatuswindowa)</td>
+<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-createstatuswindowa"><strong>CreateStatusWindow</strong></a></td>
 <td>Creates a status window, which is typically used to display the status of an application. The window generally appears at the bottom of the parent window, and it contains the specified text.
 <blockquote>
 [!Note]<br />
-This function is obsolete. Use [<strong>CreateWindow</strong>](https://msdn.microsoft.com/library/windows/desktop/ms632679) instead.
+This function is obsolete. Use <a href="https://msdn.microsoft.com/library/windows/desktop/ms632679"><strong>CreateWindow</strong></a> instead.
 </blockquote>
 <br/> <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>DrawStatusText</strong>](/windows/desktop/api/Commctrl/nf-commctrl-drawstatustexta)</td>
-<td>The [<strong>DrawStatusText</strong>](/windows/desktop/api/Commctrl/nf-commctrl-drawstatustexta) function draws the specified text in the style of a status window with borders.<br/></td>
+<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-drawstatustexta"><strong>DrawStatusText</strong></a></td>
+<td>The <a href="/windows/desktop/api/Commctrl/nf-commctrl-drawstatustexta"><strong>DrawStatusText</strong></a> function draws the specified text in the style of a status window with borders.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MenuHelp</strong>](/windows/desktop/api/Commctrl/nf-commctrl-menuhelp)</td>
-<td>Processes [<strong>WM_MENUSELECT</strong>](https://msdn.microsoft.com/library/windows/desktop/ms646352) and [<strong>WM_COMMAND</strong>](https://msdn.microsoft.com/library/windows/desktop/ms647591) messages and displays Help text about the current menu in the specified status window.<br/></td>
+<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-menuhelp"><strong>MenuHelp</strong></a></td>
+<td>Processes <a href="https://msdn.microsoft.com/library/windows/desktop/ms646352"><strong>WM_MENUSELECT</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/ms647591"><strong>WM_COMMAND</strong></a> messages and displays Help text about the current menu in the specified status window.<br/></td>
 </tr>
 </tbody>
 </table>

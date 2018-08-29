@@ -108,7 +108,7 @@ A ProbeMatches message has the following focus points.
     SequenceId=&quot;urn:uuid:369a7d7b-5f87-48a4-aa9a-189edf2a8772&quot;
     MessageNumber=&quot;9&quot;>
 </wsd:AppSequence></code></pre></td>
-<td>Contains application sequencing information, which helps to maintain the sequence of messages even if they are received out of order. The AppSequence is validated as described in [AppSequence Validation Rules](appsequence-validation-rules.md).</td>
+<td>Contains application sequencing information, which helps to maintain the sequence of messages even if they are received out of order. The AppSequence is validated as described in <a href="appsequence-validation-rules">AppSequence Validation Rules</a>.</td>
 </tr>
 <tr class="even">
 <td>Address</td>
@@ -122,7 +122,7 @@ A ProbeMatches message has the following focus points.
 <td><pre class="syntax" data-space="preserve"><code><wsd:XAddrs>
     http://192.168.0.2:5357/37f86d35-e6ac-4241-964f-1d9ae46fb366
 </wsd:XAddrs></code></pre></td>
-<td>XAddrs are transport addresses that may be used for communication between client and service. Addrs are validated as described in [XAddr Validation Rules](xaddr-validation-rules.md).</td>
+<td>XAddrs are transport addresses that may be used for communication between client and service. Addrs are validated as described in <a href="xaddr-validation-rules">XAddr Validation Rules</a>.</td>
 </tr>
 </tbody>
 </table>

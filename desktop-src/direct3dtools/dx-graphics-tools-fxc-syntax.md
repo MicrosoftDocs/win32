@@ -119,7 +119,7 @@ lib_4_0_level_9_3<br />
 lib_4_0_level_9_3_vs_only<br />
 lib_4_0_level_9_3_ps_only<br />
 lib_5_0<br />
-</dl> For more info about shader linking, see [<strong>ID3D11Linker</strong>](https://msdn.microsoft.com/library/windows/desktop/dn280558) and [<strong>ID3D11FunctionLinkingGraph</strong>](https://msdn.microsoft.com/library/windows/desktop/dn280535). <br/></td></tr><tr class="odd"><td>Hull Shader</td><td><dl> hs_5_0<br />
+</dl> For more info about shader linking, see <a href="https://msdn.microsoft.com/library/windows/desktop/dn280558"><strong>ID3D11Linker</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dn280535"><strong>ID3D11FunctionLinkingGraph</strong></a>. <br/></td></tr><tr class="odd"><td>Hull Shader</td><td><dl> hs_5_0<br />
 hs_5_1<br />
 </dl></td></tr><tr class="even"><td>Pixel Shader</td><td><dl> ps_2_0<br />
 ps_2_a<br />

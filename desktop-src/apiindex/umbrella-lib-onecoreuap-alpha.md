@@ -792,19 +792,19 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>CallbackMayRunLong</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms681981.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms681981.aspx"><strong>CallbackMayRunLong</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CallNamedPipeA</strong>](https://msdn.microsoft.com/en-us/library/Aa365144.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa365144.aspx"><strong>CallNamedPipeA</strong></a></td>
 <td>Introduced into api-ms-win-core-namedpipe-ansi-l1-1-1.dll in 10.0.10586. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CallNamedPipeW</strong>](https://msdn.microsoft.com/en-us/library/Aa365144.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa365144.aspx"><strong>CallNamedPipeW</strong></a></td>
 <td>Introduced into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.10586. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CallNtPowerInformation</strong>](https://msdn.microsoft.com/en-us/library/Aa372675.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa372675.aspx"><strong>CallNtPowerInformation</strong></a></td>
 <td>Introduced into api-ms-win-power-base-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -812,371 +812,371 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into api-ms-win-core-fibers-l2-1-1.dll in 10.0.10240. Removed in 10.0.10586.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CancelIo</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa363791.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa363791.aspx"><strong>CancelIo</strong></a></td>
 <td>Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CancelIoEx</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa363792.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa363792.aspx"><strong>CancelIoEx</strong></a></td>
 <td>Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-io-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CancelIPChangeNotify</strong>](https://msdn.microsoft.com/en-us/library/Aa365814.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa365814.aspx"><strong>CancelIPChangeNotify</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CancelMibChangeNotify2</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa814397.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa814397.aspx"><strong>CancelMibChangeNotify2</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CancelSynchronousIo</strong>](https://msdn.microsoft.com/en-us/library/Aa363794.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa363794.aspx"><strong>CancelSynchronousIo</strong></a></td>
 <td>Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CancelThreadpoolIo</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms681983.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms681983.aspx"><strong>CancelThreadpoolIo</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CancelWaitableTimer</strong>](https://msdn.microsoft.com/en-us/library/ms681985.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms681985.aspx"><strong>CancelWaitableTimer</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CeipIsOptedIn</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/dn482415.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dn482415.aspx"><strong>CeipIsOptedIn</strong></a></td>
 <td>Introduced into api-ms-win-core-windowsceip-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertAddCertificateContextToStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376009.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376009.aspx"><strong>CertAddCertificateContextToStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertAddCertificateLinkToStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376010.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376010.aspx"><strong>CertAddCertificateLinkToStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertAddCRLContextToStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376011.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376011.aspx"><strong>CertAddCRLContextToStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertAddCRLLinkToStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376012.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376012.aspx"><strong>CertAddCRLLinkToStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertAddCTLContextToStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376013.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376013.aspx"><strong>CertAddCTLContextToStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertAddCTLLinkToStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376014.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376014.aspx"><strong>CertAddCTLLinkToStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertAddEncodedCertificateToStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376015.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376015.aspx"><strong>CertAddEncodedCertificateToStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertAddEncodedCertificateToSystemStoreA</strong>](https://msdn.microsoft.com/en-us/library/Bb736347.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb736347.aspx"><strong>CertAddEncodedCertificateToSystemStoreA</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertAddEncodedCertificateToSystemStoreW</strong>](https://msdn.microsoft.com/en-us/library/Bb736347.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb736347.aspx"><strong>CertAddEncodedCertificateToSystemStoreW</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertAddEncodedCRLToStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376016.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376016.aspx"><strong>CertAddEncodedCRLToStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertAddEncodedCTLToStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376017.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376017.aspx"><strong>CertAddEncodedCTLToStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertAddEnhancedKeyUsageIdentifier</strong>](https://msdn.microsoft.com/en-us/library/ms883731.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms883731.aspx"><strong>CertAddEnhancedKeyUsageIdentifier</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertAddRefServerOcspResponse</strong>](https://msdn.microsoft.com/en-us/library/Aa376019.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376019.aspx"><strong>CertAddRefServerOcspResponse</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertAddRefServerOcspResponseContext</strong>](https://msdn.microsoft.com/en-us/library/Aa376020.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376020.aspx"><strong>CertAddRefServerOcspResponseContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertAddSerializedElementToStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376021.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376021.aspx"><strong>CertAddSerializedElementToStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertAddStoreToCollection</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376022.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376022.aspx"><strong>CertAddStoreToCollection</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertAlgIdToOID</strong>](https://msdn.microsoft.com/en-us/library/ms883739.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms883739.aspx"><strong>CertAlgIdToOID</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertCloseServerOcspResponse</strong>](https://msdn.microsoft.com/en-us/library/Aa376025.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376025.aspx"><strong>CertCloseServerOcspResponse</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertCloseStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376026.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376026.aspx"><strong>CertCloseStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertCompareCertificate</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376027.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376027.aspx"><strong>CertCompareCertificate</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertCompareCertificateName</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376028.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376028.aspx"><strong>CertCompareCertificateName</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertCompareIntegerBlob</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376029.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376029.aspx"><strong>CertCompareIntegerBlob</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertComparePublicKeyInfo</strong>](https://msdn.microsoft.com/en-us/library/ms883760.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms883760.aspx"><strong>CertComparePublicKeyInfo</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertControlStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376031.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376031.aspx"><strong>CertControlStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertCreateCertificateChainEngine</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376032.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376032.aspx"><strong>CertCreateCertificateChainEngine</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertCreateCertificateContext</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376033.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376033.aspx"><strong>CertCreateCertificateContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertCreateContext</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376035.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376035.aspx"><strong>CertCreateContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertCreateCRLContext</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376036.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376036.aspx"><strong>CertCreateCRLContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertCreateCTLContext</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376037.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376037.aspx"><strong>CertCreateCTLContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertCreateCTLEntryFromCertificateContextProperties</strong>](https://msdn.microsoft.com/en-us/library/Aa376038.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376038.aspx"><strong>CertCreateCTLEntryFromCertificateContextProperties</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertCreateSelfSignCertificate</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376039.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376039.aspx"><strong>CertCreateSelfSignCertificate</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertDeleteCertificateFromStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376040.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376040.aspx"><strong>CertDeleteCertificateFromStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertDeleteCRLFromStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376041.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376041.aspx"><strong>CertDeleteCRLFromStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertDeleteCTLFromStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376042.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376042.aspx"><strong>CertDeleteCTLFromStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertDuplicateCertificateChain</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376044.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376044.aspx"><strong>CertDuplicateCertificateChain</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertDuplicateCertificateContext</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376045.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376045.aspx"><strong>CertDuplicateCertificateContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertDuplicateCRLContext</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376046.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376046.aspx"><strong>CertDuplicateCRLContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertDuplicateCTLContext</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376047.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376047.aspx"><strong>CertDuplicateCTLContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertDuplicateStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376048.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376048.aspx"><strong>CertDuplicateStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertEnumCertificateContextProperties</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376049.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376049.aspx"><strong>CertEnumCertificateContextProperties</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertEnumCertificatesInStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376050.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376050.aspx"><strong>CertEnumCertificatesInStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertEnumCRLContextProperties</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376051.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376051.aspx"><strong>CertEnumCRLContextProperties</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertEnumCRLsInStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376052.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376052.aspx"><strong>CertEnumCRLsInStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertEnumCTLContextProperties</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376053.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376053.aspx"><strong>CertEnumCTLContextProperties</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertEnumCTLsInStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376054.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376054.aspx"><strong>CertEnumCTLsInStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertEnumPhysicalStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376055.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376055.aspx"><strong>CertEnumPhysicalStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertEnumSubjectInSortedCTL</strong>](https://msdn.microsoft.com/en-us/library/Aa376057.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376057.aspx"><strong>CertEnumSubjectInSortedCTL</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertEnumSystemStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376058.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376058.aspx"><strong>CertEnumSystemStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertEnumSystemStoreLocation</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376060.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376060.aspx"><strong>CertEnumSystemStoreLocation</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertFindAttribute</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376062.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376062.aspx"><strong>CertFindAttribute</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertFindCertificateInCRL</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376063.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376063.aspx"><strong>CertFindCertificateInCRL</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertFindCertificateInStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376064.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376064.aspx"><strong>CertFindCertificateInStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertFindChainInStore</strong>](https://msdn.microsoft.com/en-us/library/Aa376065.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376065.aspx"><strong>CertFindChainInStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertFindCRLInStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376066.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376066.aspx"><strong>CertFindCRLInStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertFindCTLInStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376067.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376067.aspx"><strong>CertFindCTLInStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertFindExtension</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376068.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376068.aspx"><strong>CertFindExtension</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertFindRDNAttr</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376069.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376069.aspx"><strong>CertFindRDNAttr</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertFindSubjectInCTL</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376071.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376071.aspx"><strong>CertFindSubjectInCTL</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertFindSubjectInSortedCTL</strong>](https://msdn.microsoft.com/en-us/library/Aa376072.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376072.aspx"><strong>CertFindSubjectInSortedCTL</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertFreeCertificateChain</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376073.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376073.aspx"><strong>CertFreeCertificateChain</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertFreeCertificateChainEngine</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376074.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376074.aspx"><strong>CertFreeCertificateChainEngine</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertFreeCertificateChainList</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/dd433796.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd433796.aspx"><strong>CertFreeCertificateChainList</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertFreeCertificateContext</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376075.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376075.aspx"><strong>CertFreeCertificateContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertFreeCRLContext</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376076.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376076.aspx"><strong>CertFreeCRLContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertFreeCTLContext</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376077.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376077.aspx"><strong>CertFreeCTLContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertFreeServerOcspResponseContext</strong>](https://msdn.microsoft.com/en-us/library/Bb540820.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb540820.aspx"><strong>CertFreeServerOcspResponseContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertGetCertificateChain</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376078.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376078.aspx"><strong>CertGetCertificateChain</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertGetCertificateContextProperty</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376079.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376079.aspx"><strong>CertGetCertificateContextProperty</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertGetCRLContextProperty</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376080.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376080.aspx"><strong>CertGetCRLContextProperty</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertGetCRLFromStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376081.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376081.aspx"><strong>CertGetCRLFromStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertGetCTLContextProperty</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376082.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376082.aspx"><strong>CertGetCTLContextProperty</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertGetEnhancedKeyUsage</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376083.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376083.aspx"><strong>CertGetEnhancedKeyUsage</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertGetIntendedKeyUsage</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376084.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376084.aspx"><strong>CertGetIntendedKeyUsage</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertGetIssuerCertificateFromStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376085.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376085.aspx"><strong>CertGetIssuerCertificateFromStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertGetNameStringA</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376086.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376086.aspx"><strong>CertGetNameStringA</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertGetNameStringW</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376086.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376086.aspx"><strong>CertGetNameStringW</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertGetPublicKeyLength</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376087.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376087.aspx"><strong>CertGetPublicKeyLength</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertGetServerOcspResponseContext</strong>](https://msdn.microsoft.com/en-us/library/Aa376088.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376088.aspx"><strong>CertGetServerOcspResponseContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertGetStoreProperty</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376089.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376089.aspx"><strong>CertGetStoreProperty</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertGetSubjectCertificateFromStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376090.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376090.aspx"><strong>CertGetSubjectCertificateFromStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertGetValidUsages</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376091.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376091.aspx"><strong>CertGetValidUsages</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertIsRDNAttrsInCertificateName</strong>](https://msdn.microsoft.com/en-us/library/ms883884.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms883884.aspx"><strong>CertIsRDNAttrsInCertificateName</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertIsStrongHashToSign</strong>](https://msdn.microsoft.com/en-us/library/Hh870260.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh870260.aspx"><strong>CertIsStrongHashToSign</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertIsValidCRLForCertificate</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376552.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376552.aspx"><strong>CertIsValidCRLForCertificate</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -1184,243 +1184,243 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertNameToStrA</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376556.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376556.aspx"><strong>CertNameToStrA</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertNameToStrW</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376556.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376556.aspx"><strong>CertNameToStrW</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertOIDToAlgId</strong>](https://msdn.microsoft.com/en-us/library/ms883894.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms883894.aspx"><strong>CertOIDToAlgId</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertOpenServerOcspResponse</strong>](https://msdn.microsoft.com/en-us/library/Aa376558.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376558.aspx"><strong>CertOpenServerOcspResponse</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertOpenStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376559.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376559.aspx"><strong>CertOpenStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertOpenSystemStoreA</strong>](https://msdn.microsoft.com/en-us/library/Aa376560.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376560.aspx"><strong>CertOpenSystemStoreA</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertOpenSystemStoreW</strong>](https://msdn.microsoft.com/en-us/library/Aa376560.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376560.aspx"><strong>CertOpenSystemStoreW</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertRDNValueToStrA</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376561.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376561.aspx"><strong>CertRDNValueToStrA</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertRDNValueToStrW</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376561.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376561.aspx"><strong>CertRDNValueToStrW</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertRegisterPhysicalStore</strong>](https://msdn.microsoft.com/en-us/library/Aa376562.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376562.aspx"><strong>CertRegisterPhysicalStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertRegisterSystemStore</strong>](https://msdn.microsoft.com/en-us/library/Aa376563.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376563.aspx"><strong>CertRegisterSystemStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertRemoveEnhancedKeyUsageIdentifier</strong>](https://msdn.microsoft.com/en-us/library/ms883910.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms883910.aspx"><strong>CertRemoveEnhancedKeyUsageIdentifier</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertRemoveStoreFromCollection</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376565.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376565.aspx"><strong>CertRemoveStoreFromCollection</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertResyncCertificateChainEngine</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/mt270087.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/mt270087.aspx"><strong>CertResyncCertificateChainEngine</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertRetrieveLogoOrBiometricInfo</strong>](https://msdn.microsoft.com/en-us/library/Aa376566.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376566.aspx"><strong>CertRetrieveLogoOrBiometricInfo</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertSaveStore</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376567.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376567.aspx"><strong>CertSaveStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertSelectCertificateChains</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/dd433797.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd433797.aspx"><strong>CertSelectCertificateChains</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertSerializeCertificateStoreElement</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376569.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376569.aspx"><strong>CertSerializeCertificateStoreElement</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertSerializeCRLStoreElement</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376570.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376570.aspx"><strong>CertSerializeCRLStoreElement</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertSerializeCTLStoreElement</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376571.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376571.aspx"><strong>CertSerializeCTLStoreElement</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertSetCertificateContextPropertiesFromCTLEntry</strong>](https://msdn.microsoft.com/en-us/library/Aa376572.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376572.aspx"><strong>CertSetCertificateContextPropertiesFromCTLEntry</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertSetCertificateContextProperty</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376573.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376573.aspx"><strong>CertSetCertificateContextProperty</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertSetCRLContextProperty</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376574.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376574.aspx"><strong>CertSetCRLContextProperty</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertSetCTLContextProperty</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376575.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376575.aspx"><strong>CertSetCTLContextProperty</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertSetEnhancedKeyUsage</strong>](https://msdn.microsoft.com/en-us/library/ms883927.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms883927.aspx"><strong>CertSetEnhancedKeyUsage</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertSetStoreProperty</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376577.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376577.aspx"><strong>CertSetStoreProperty</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertStrToNameA</strong>](https://msdn.microsoft.com/en-us/library/Aa377160.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa377160.aspx"><strong>CertStrToNameA</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertStrToNameW</strong>](https://msdn.microsoft.com/en-us/library/Aa377160.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa377160.aspx"><strong>CertStrToNameW</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertUnregisterPhysicalStore</strong>](https://msdn.microsoft.com/en-us/library/Aa377161.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa377161.aspx"><strong>CertUnregisterPhysicalStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertUnregisterSystemStore</strong>](https://msdn.microsoft.com/en-us/library/Aa377162.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa377162.aspx"><strong>CertUnregisterSystemStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertVerifyCertificateChainPolicy</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa377163.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa377163.aspx"><strong>CertVerifyCertificateChainPolicy</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertVerifyCRLRevocation</strong>](https://msdn.microsoft.com/en-us/library/Aa377164.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa377164.aspx"><strong>CertVerifyCRLRevocation</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertVerifyCRLTimeValidity</strong>](https://msdn.microsoft.com/en-us/library/Aa377165.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa377165.aspx"><strong>CertVerifyCRLTimeValidity</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertVerifyCTLUsage</strong>](https://msdn.microsoft.com/en-us/library/Aa377166.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa377166.aspx"><strong>CertVerifyCTLUsage</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertVerifyRevocation</strong>](https://msdn.microsoft.com/en-us/library/Aa377167.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa377167.aspx"><strong>CertVerifyRevocation</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertVerifySubjectCertificateContext</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa377168.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa377168.aspx"><strong>CertVerifySubjectCertificateContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertVerifyTimeValidity</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa377169.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa377169.aspx"><strong>CertVerifyTimeValidity</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertVerifyValidityNesting</strong>](https://msdn.microsoft.com/en-us/library/ms883950.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms883950.aspx"><strong>CertVerifyValidityNesting</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ChangeAccountPasswordA</strong>](https://msdn.microsoft.com/en-us/library/Aa374755.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa374755.aspx"><strong>ChangeAccountPasswordA</strong></a></td>
 <td>Introduced into sspicli.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ChangeAccountPasswordW</strong>](https://msdn.microsoft.com/en-us/library/Aa374755.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa374755.aspx"><strong>ChangeAccountPasswordW</strong></a></td>
 <td>Introduced into sspicli.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ChangeDisplaySettingsExW</strong>](https://msdn.microsoft.com/en-us/library/ms533235.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms533235.aspx"><strong>ChangeDisplaySettingsExW</strong></a></td>
 <td>Introduced into api-ms-win-ntuser-sysparams-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ChangeServiceConfig2A</strong>](https://msdn.microsoft.com/en-us/library/ms681988.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms681988.aspx"><strong>ChangeServiceConfig2A</strong></a></td>
 <td>Introduced into api-ms-win-service-winsvc-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-service-winsvc-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ChangeServiceConfig2W</strong>](https://msdn.microsoft.com/en-us/library/ms681988.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms681988.aspx"><strong>ChangeServiceConfig2W</strong></a></td>
 <td>Introduced into api-ms-win-service-management-l2-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ChangeServiceConfigA</strong>](https://msdn.microsoft.com/en-us/library/ms681987.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms681987.aspx"><strong>ChangeServiceConfigA</strong></a></td>
 <td>Introduced into api-ms-win-service-winsvc-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-service-winsvc-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ChangeServiceConfigW</strong>](https://msdn.microsoft.com/en-us/library/ms681987.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms681987.aspx"><strong>ChangeServiceConfigW</strong></a></td>
 <td>Introduced into api-ms-win-service-management-l2-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ChangeTimerQueueTimer</strong>](https://msdn.microsoft.com/en-us/library/ms682004.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682004.aspx"><strong>ChangeTimerQueueTimer</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-legacy-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CharLowerA</strong>](https://msdn.microsoft.com/en-us/library/ms647467.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms647467.aspx"><strong>CharLowerA</strong></a></td>
 <td>Introduced into api-ms-win-core-stringansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CharLowerBuffA</strong>](https://msdn.microsoft.com/en-us/library/ms647468.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms647468.aspx"><strong>CharLowerBuffA</strong></a></td>
 <td>Introduced into api-ms-win-core-stringansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CharLowerBuffW</strong>](https://msdn.microsoft.com/en-us/library/ms647468.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms647468.aspx"><strong>CharLowerBuffW</strong></a></td>
 <td>Introduced into api-ms-win-core-string-l2-1-0.dll in 10.0.10240. Moved into api-ms-win-core-string-l2-1-1.dll in 10.0.10586. Moved into api-ms-win-core-string-l2-1-0.dll in 10.0.14393.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CharLowerW</strong>](https://msdn.microsoft.com/en-us/library/ms647467.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms647467.aspx"><strong>CharLowerW</strong></a></td>
 <td>Introduced into api-ms-win-core-string-l2-1-0.dll in 10.0.10240. Moved into api-ms-win-core-string-l2-1-1.dll in 10.0.10586. Moved into api-ms-win-core-string-l2-1-0.dll in 10.0.14393.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CharNextA</strong>](https://msdn.microsoft.com/en-us/library/ms647469.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms647469.aspx"><strong>CharNextA</strong></a></td>
 <td>Introduced into api-ms-win-core-stringansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CharNextExA</strong>](https://msdn.microsoft.com/en-us/library/ms647470.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms647470.aspx"><strong>CharNextExA</strong></a></td>
 <td>Introduced into api-ms-win-core-stringansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CharNextW</strong>](https://msdn.microsoft.com/en-us/library/ms647469.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms647469.aspx"><strong>CharNextW</strong></a></td>
 <td>Introduced into api-ms-win-core-string-l2-1-0.dll in 10.0.10240. Moved into api-ms-win-core-string-l2-1-1.dll in 10.0.10586. Moved into api-ms-win-core-string-l2-1-0.dll in 10.0.14393.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CharPrevA</strong>](https://msdn.microsoft.com/en-us/library/ms647471.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms647471.aspx"><strong>CharPrevA</strong></a></td>
 <td>Introduced into api-ms-win-core-stringansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CharPrevExA</strong>](https://msdn.microsoft.com/en-us/library/ms647472.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms647472.aspx"><strong>CharPrevExA</strong></a></td>
 <td>Introduced into api-ms-win-core-stringansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CharPrevW</strong>](https://msdn.microsoft.com/en-us/library/ms647471.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms647471.aspx"><strong>CharPrevW</strong></a></td>
 <td>Introduced into api-ms-win-core-string-l2-1-0.dll in 10.0.10240. Moved into api-ms-win-core-string-l2-1-1.dll in 10.0.10586. Moved into api-ms-win-core-string-l2-1-0.dll in 10.0.14393.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CharUpperA</strong>](https://msdn.microsoft.com/en-us/library/ms647474.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms647474.aspx"><strong>CharUpperA</strong></a></td>
 <td>Introduced into api-ms-win-core-stringansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CharUpperBuffA</strong>](https://msdn.microsoft.com/en-us/library/ms647475.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms647475.aspx"><strong>CharUpperBuffA</strong></a></td>
 <td>Introduced into api-ms-win-core-stringansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CharUpperBuffW</strong>](https://msdn.microsoft.com/en-us/library/ms647475.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms647475.aspx"><strong>CharUpperBuffW</strong></a></td>
 <td>Introduced into api-ms-win-core-string-l2-1-0.dll in 10.0.10240. Moved into api-ms-win-core-string-l2-1-1.dll in 10.0.10586. Moved into api-ms-win-core-string-l2-1-0.dll in 10.0.14393.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CharUpperW</strong>](https://msdn.microsoft.com/en-us/library/ms647474.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms647474.aspx"><strong>CharUpperW</strong></a></td>
 <td>Introduced into api-ms-win-core-string-l2-1-0.dll in 10.0.10240. Moved into api-ms-win-core-string-l2-1-1.dll in 10.0.10586. Moved into api-ms-win-core-string-l2-1-0.dll in 10.0.14393.</td>
 </tr>
 <tr class="odd">
@@ -1428,7 +1428,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into userenv.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CheckGamingPrivilegeSilently</strong>](https://msdn.microsoft.com/en-us/library/Mt736759.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Mt736759.aspx"><strong>CheckGamingPrivilegeSilently</strong></a></td>
 <td>Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
@@ -1436,7 +1436,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CheckGamingPrivilegeWithUI</strong>](https://msdn.microsoft.com/en-us/library/Mt736760.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Mt736760.aspx"><strong>CheckGamingPrivilegeWithUI</strong></a></td>
 <td>Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
@@ -1444,19 +1444,19 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CheckRemoteDebuggerPresent</strong>](https://msdn.microsoft.com/en-us/library/ms679280.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms679280.aspx"><strong>CheckRemoteDebuggerPresent</strong></a></td>
 <td>Introduced into api-ms-win-core-debug-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-debug-l1-1-2.dll in 10.0.10586. Moved into api-ms-win-core-debug-l1-1-1.dll in 10.0.14393.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CheckTokenCapability</strong>](https://msdn.microsoft.com/en-us/library/Hh448477.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh448477.aspx"><strong>CheckTokenCapability</strong></a></td>
 <td>Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CheckTokenMembership</strong>](https://msdn.microsoft.com/en-us/library/Aa376389.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376389.aspx"><strong>CheckTokenMembership</strong></a></td>
 <td>Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CheckTokenMembershipEx</strong>](https://msdn.microsoft.com/en-us/library/Hh448479.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh448479.aspx"><strong>CheckTokenMembershipEx</strong></a></td>
 <td>Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -1464,27 +1464,27 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into userenv.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>cldap_open</strong>](https://msdn.microsoft.com/en-us/library/ms863877.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms863877.aspx"><strong>cldap_open</strong></a></td>
 <td>Introduced into wldap32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>cldap_openA</strong>](https://msdn.microsoft.com/en-us/library/Aa366093.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa366093.aspx"><strong>cldap_openA</strong></a></td>
 <td>Introduced into wldap32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>cldap_openW</strong>](https://msdn.microsoft.com/en-us/library/Aa366093.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa366093.aspx"><strong>cldap_openW</strong></a></td>
 <td>Introduced into wldap32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ClearCommBreak</strong>](https://msdn.microsoft.com/en-us/library/ms885166.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms885166.aspx"><strong>ClearCommBreak</strong></a></td>
 <td>Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ClearCommError</strong>](https://msdn.microsoft.com/en-us/library/ms885167.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms885167.aspx"><strong>ClearCommError</strong></a></td>
 <td>Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ClearCustData</strong>](https://msdn.microsoft.com/en-us/library/ms220974.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms220974.aspx"><strong>ClearCustData</strong></a></td>
 <td>Introduced into oleaut32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -1492,11 +1492,11 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CloseCompressor</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/hh437542.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh437542.aspx"><strong>CloseCompressor</strong></a></td>
 <td>Introduced into cabinet.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CloseDecompressor</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/hh437545.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh437545.aspx"><strong>CloseDecompressor</strong></a></td>
 <td>Introduced into cabinet.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -1504,223 +1504,223 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CloseHandle</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms724211.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms724211.aspx"><strong>CloseHandle</strong></a></td>
 <td>Introduced into api-ms-win-core-handle-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ClosePackageInfo</strong>](https://msdn.microsoft.com/en-us/library/Hh446594.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh446594.aspx"><strong>ClosePackageInfo</strong></a></td>
 <td>Introduced into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-appmodel-runtime-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ClosePrivateNamespace</strong>](https://msdn.microsoft.com/en-us/library/ms682026.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682026.aspx"><strong>ClosePrivateNamespace</strong></a></td>
 <td>Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CloseServiceHandle</strong>](https://msdn.microsoft.com/en-us/library/ms682028.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682028.aspx"><strong>CloseServiceHandle</strong></a></td>
 <td>Introduced into api-ms-win-service-management-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>closesocket</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms737582.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms737582.aspx"><strong>closesocket</strong></a></td>
 <td>Introduced into ws2_32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CloseThreadpool</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682030.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682030.aspx"><strong>CloseThreadpool</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CloseThreadpoolCleanupGroup</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682033.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682033.aspx"><strong>CloseThreadpoolCleanupGroup</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CloseThreadpoolCleanupGroupMembers</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682036.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682036.aspx"><strong>CloseThreadpoolCleanupGroupMembers</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CloseThreadpoolIo</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682038.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682038.aspx"><strong>CloseThreadpoolIo</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CloseThreadpoolTimer</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682040.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682040.aspx"><strong>CloseThreadpoolTimer</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CloseThreadpoolWait</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682042.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682042.aspx"><strong>CloseThreadpoolWait</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CloseThreadpoolWork</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682043.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682043.aspx"><strong>CloseThreadpoolWork</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CloseTrace</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa363686.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa363686.aspx"><strong>CloseTrace</strong></a></td>
 <td>Introduced into api-ms-win-eventing-consumer-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CLSIDFromProgID</strong>](https://msdn.microsoft.com/en-us/library/ms688386.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms688386.aspx"><strong>CLSIDFromProgID</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CLSIDFromString</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms680589.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680589.aspx"><strong>CLSIDFromString</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CM_Delete_Class_Key</strong>](https://msdn.microsoft.com/en-us/library/Ff537966.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff537966.aspx"><strong>CM_Delete_Class_Key</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CM_Delete_Device_Interface_KeyW</strong>](https://msdn.microsoft.com/en-us/library/Hh780215.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh780215.aspx"><strong>CM_Delete_Device_Interface_KeyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CM_Delete_DevNode_Key</strong>](https://msdn.microsoft.com/en-us/library/Ff537973.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff537973.aspx"><strong>CM_Delete_DevNode_Key</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CM_Disable_DevNode</strong>](https://msdn.microsoft.com/en-us/library/Ff537996.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff537996.aspx"><strong>CM_Disable_DevNode</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CM_Enable_DevNode</strong>](https://msdn.microsoft.com/en-us/library/Ff538015.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff538015.aspx"><strong>CM_Enable_DevNode</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CM_Get_Child</strong>](https://msdn.microsoft.com/en-us/library/Aa363181.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa363181.aspx"><strong>CM_Get_Child</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CM_Get_Class_Property_Keys</strong>](https://msdn.microsoft.com/en-us/library/Hh780217.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh780217.aspx"><strong>CM_Get_Class_Property_Keys</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CM_Get_Class_PropertyW</strong>](https://msdn.microsoft.com/en-us/library/Hh780216.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh780216.aspx"><strong>CM_Get_Class_PropertyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CM_Get_Class_Registry_PropertyW</strong>](https://msdn.microsoft.com/en-us/library/Ff538098.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff538098.aspx"><strong>CM_Get_Class_Registry_PropertyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CM_Get_Depth</strong>](https://msdn.microsoft.com/en-us/library/Ff538100.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff538100.aspx"><strong>CM_Get_Depth</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CM_Get_Device_ID_List_SizeW</strong>](https://msdn.microsoft.com/en-us/library/Ff538427.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff538427.aspx"><strong>CM_Get_Device_ID_List_SizeW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CM_Get_Device_ID_ListW</strong>](https://msdn.microsoft.com/en-us/library/Ff538415.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff538415.aspx"><strong>CM_Get_Device_ID_ListW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CM_Get_Device_ID_Size</strong>](https://msdn.microsoft.com/en-us/library/Ff538441.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff538441.aspx"><strong>CM_Get_Device_ID_Size</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CM_Get_Device_IDW</strong>](https://msdn.microsoft.com/en-us/library/Ff538405.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff538405.aspx"><strong>CM_Get_Device_IDW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CM_Get_Device_Interface_List_SizeW</strong>](https://msdn.microsoft.com/en-us/library/Aa363184.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa363184.aspx"><strong>CM_Get_Device_Interface_List_SizeW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CM_Get_Device_Interface_ListW</strong>](https://msdn.microsoft.com/en-us/library/Aa363183.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa363183.aspx"><strong>CM_Get_Device_Interface_ListW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CM_Get_Device_Interface_Property_KeysW</strong>](https://msdn.microsoft.com/en-us/library/Hh780219.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh780219.aspx"><strong>CM_Get_Device_Interface_Property_KeysW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CM_Get_Device_Interface_PropertyW</strong>](https://msdn.microsoft.com/en-us/library/Hh780218.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh780218.aspx"><strong>CM_Get_Device_Interface_PropertyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CM_Get_DevNode_Property_Keys</strong>](https://msdn.microsoft.com/en-us/library/Hh780221.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh780221.aspx"><strong>CM_Get_DevNode_Property_Keys</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CM_Get_DevNode_PropertyW</strong>](https://msdn.microsoft.com/en-us/library/Hh780220.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh780220.aspx"><strong>CM_Get_DevNode_PropertyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CM_Get_DevNode_Registry_PropertyW</strong>](https://msdn.microsoft.com/en-us/library/Aa363185.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa363185.aspx"><strong>CM_Get_DevNode_Registry_PropertyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CM_Get_DevNode_Status</strong>](https://msdn.microsoft.com/en-us/library/Ff538514.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff538514.aspx"><strong>CM_Get_DevNode_Status</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CM_Get_Parent</strong>](https://msdn.microsoft.com/en-us/library/Ff538610.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff538610.aspx"><strong>CM_Get_Parent</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CM_Get_Sibling</strong>](https://msdn.microsoft.com/en-us/library/Ff538674.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff538674.aspx"><strong>CM_Get_Sibling</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CM_Locate_DevNodeW</strong>](https://msdn.microsoft.com/en-us/library/Ff538742.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff538742.aspx"><strong>CM_Locate_DevNodeW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CM_MapCrToWin32Err</strong>](https://msdn.microsoft.com/en-us/library/Dn313265.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dn313265.aspx"><strong>CM_MapCrToWin32Err</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CM_Open_Class_KeyW</strong>](https://msdn.microsoft.com/en-us/library/Ff538806.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff538806.aspx"><strong>CM_Open_Class_KeyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CM_Open_Device_Interface_KeyW</strong>](https://msdn.microsoft.com/en-us/library/Hh780223.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh780223.aspx"><strong>CM_Open_Device_Interface_KeyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CM_Open_DevNode_Key</strong>](https://msdn.microsoft.com/en-us/library/Ff538823.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff538823.aspx"><strong>CM_Open_DevNode_Key</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CM_Query_And_Remove_SubTreeW</strong>](https://msdn.microsoft.com/en-us/library/Ff539722.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff539722.aspx"><strong>CM_Query_And_Remove_SubTreeW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CM_Register_Notification</strong>](https://msdn.microsoft.com/en-us/library/Hh780224.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh780224.aspx"><strong>CM_Register_Notification</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CM_Set_Class_PropertyW</strong>](https://msdn.microsoft.com/en-us/library/Hh780225.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh780225.aspx"><strong>CM_Set_Class_PropertyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CM_Set_Class_Registry_PropertyW</strong>](https://msdn.microsoft.com/en-us/library/Ff539833.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff539833.aspx"><strong>CM_Set_Class_Registry_PropertyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CM_Set_Device_Interface_PropertyW</strong>](https://msdn.microsoft.com/en-us/library/Hh780226.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh780226.aspx"><strong>CM_Set_Device_Interface_PropertyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CM_Set_DevNode_PropertyW</strong>](https://msdn.microsoft.com/en-us/library/Hh780227.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh780227.aspx"><strong>CM_Set_DevNode_PropertyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CM_Set_DevNode_Registry_PropertyW</strong>](https://msdn.microsoft.com/en-us/library/Aa363186.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa363186.aspx"><strong>CM_Set_DevNode_Registry_PropertyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CM_Setup_DevNode</strong>](https://msdn.microsoft.com/en-us/library/Ff539825.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff539825.aspx"><strong>CM_Setup_DevNode</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CM_Uninstall_DevNode</strong>](https://msdn.microsoft.com/en-us/library/Ff539876.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff539876.aspx"><strong>CM_Uninstall_DevNode</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CM_Unregister_Notification</strong>](https://msdn.microsoft.com/en-us/library/Hh780228.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh780228.aspx"><strong>CM_Unregister_Notification</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoAddRefServerProcess</strong>](https://msdn.microsoft.com/en-us/library/ms687190.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms687190.aspx"><strong>CoAddRefServerProcess</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
@@ -1728,176 +1728,176 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into dnsapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoAllowUnmarshalerCLSID</strong>](https://msdn.microsoft.com/en-us/library/JJ247563.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/JJ247563.aspx"><strong>CoAllowUnmarshalerCLSID</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoCancelCall</strong>](https://msdn.microsoft.com/en-us/library/ms679698.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms679698.aspx"><strong>CoCancelCall</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoCopyProxy</strong>](https://msdn.microsoft.com/en-us/library/ms680071.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms680071.aspx"><strong>CoCopyProxy</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoCreateFreeThreadedMarshaler</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms694500.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms694500.aspx"><strong>CoCreateFreeThreadedMarshaler</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoCreateGuid</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms688568.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms688568.aspx"><strong>CoCreateGuid</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoCreateInstance</strong>](https://msdn.microsoft.com/en-us/library/ms686615.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms686615.aspx"><strong>CoCreateInstance</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoCreateInstanceEx</strong>](https://msdn.microsoft.com/en-us/library/ms680701.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms680701.aspx"><strong>CoCreateInstanceEx</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoCreateInstanceFromApp</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/hh404137.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh404137.aspx"><strong>CoCreateInstanceFromApp</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoDecodeProxy</strong>](https://msdn.microsoft.com/en-us/library/Hh846255.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh846255.aspx"><strong>CoDecodeProxy</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoDecrementMTAUsage</strong>](https://msdn.microsoft.com/en-us/library/JJ151606.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/JJ151606.aspx"><strong>CoDecrementMTAUsage</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoDisableCallCancellation</strong>](https://msdn.microsoft.com/en-us/library/ms680404.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms680404.aspx"><strong>CoDisableCallCancellation</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-
 
 </tr>
 <tr class="even">
-<td>[<strong>CoDisconnectContext</strong>](https://msdn.microsoft.com/en-us/library/Aa746562.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa746562.aspx"><strong>CoDisconnectContext</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoDisconnectObject</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms680756.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680756.aspx"><strong>CoDisconnectObject</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoEnableCallCancellation</strong>](https://msdn.microsoft.com/en-us/library/ms683750.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms683750.aspx"><strong>CoEnableCallCancellation</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoFreeUnusedLibraries</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms679712.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms679712.aspx"><strong>CoFreeUnusedLibraries</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoFreeUnusedLibrariesEx</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms678413.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms678413.aspx"><strong>CoFreeUnusedLibrariesEx</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoGetApartmentType</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/dd542641.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd542641.aspx"><strong>CoGetApartmentType</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoGetCallContext</strong>](https://msdn.microsoft.com/en-us/library/ms691483.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms691483.aspx"><strong>CoGetCallContext</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoGetCallerTID</strong>](https://msdn.microsoft.com/en-us/library/ms680683.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms680683.aspx"><strong>CoGetCallerTID</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoGetCancelObject</strong>](https://msdn.microsoft.com/en-us/library/ms693417.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms693417.aspx"><strong>CoGetCancelObject</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoGetClassObject</strong>](https://msdn.microsoft.com/en-us/library/ms684007.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms684007.aspx"><strong>CoGetClassObject</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoGetContextToken</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms679665.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms679665.aspx"><strong>CoGetContextToken</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoGetCurrentLogicalThreadId</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms693805.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms693805.aspx"><strong>CoGetCurrentLogicalThreadId</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoGetCurrentProcess</strong>](https://msdn.microsoft.com/en-us/library/ms682241.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682241.aspx"><strong>CoGetCurrentProcess</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoGetDefaultContext</strong>](https://msdn.microsoft.com/en-us/library/ms684311.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms684311.aspx"><strong>CoGetDefaultContext</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoGetInterfaceAndReleaseStream</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms691421.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms691421.aspx"><strong>CoGetInterfaceAndReleaseStream</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoGetMalloc</strong>](https://msdn.microsoft.com/en-us/library/ms693395.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms693395.aspx"><strong>CoGetMalloc</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoGetMarshalSizeMax</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms692640.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms692640.aspx"><strong>CoGetMarshalSizeMax</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoGetObjectContext</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms690084.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms690084.aspx"><strong>CoGetObjectContext</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoGetPSClsid</strong>](https://msdn.microsoft.com/en-us/library/ms693733.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms693733.aspx"><strong>CoGetPSClsid</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoGetStandardMarshal</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms678527.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms678527.aspx"><strong>CoGetStandardMarshal</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoGetStdMarshalEx</strong>](https://msdn.microsoft.com/en-us/library/ms680742.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms680742.aspx"><strong>CoGetStdMarshalEx</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoGetTreatAsClass</strong>](https://msdn.microsoft.com/en-us/library/ms694494.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms694494.aspx"><strong>CoGetTreatAsClass</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoImpersonateClient</strong>](https://msdn.microsoft.com/en-us/library/ms690349.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms690349.aspx"><strong>CoImpersonateClient</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoIncrementMTAUsage</strong>](https://msdn.microsoft.com/en-us/library/JJ151607.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/JJ151607.aspx"><strong>CoIncrementMTAUsage</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoInitializeEx</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms695279.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms695279.aspx"><strong>CoInitializeEx</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoInitializeSecurity</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms693736.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms693736.aspx"><strong>CoInitializeSecurity</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoInvalidateRemoteMachineBindings</strong>](https://msdn.microsoft.com/en-us/library/ms686585.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms686585.aspx"><strong>CoInvalidateRemoteMachineBindings</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoIsHandlerConnected</strong>](https://msdn.microsoft.com/en-us/library/ms694359.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms694359.aspx"><strong>CoIsHandlerConnected</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoLockObjectExternal</strong>](https://msdn.microsoft.com/en-us/library/ms680592.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms680592.aspx"><strong>CoLockObjectExternal</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoMarshalHresult</strong>](https://msdn.microsoft.com/en-us/library/ms680608.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms680608.aspx"><strong>CoMarshalHresult</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoMarshalInterface</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms678428.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms678428.aspx"><strong>CoMarshalInterface</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoMarshalInterThreadInterfaceInStream</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms693316.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms693316.aspx"><strong>CoMarshalInterThreadInterfaceInStream</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
@@ -1905,63 +1905,63 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into dnsapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CompareFileTime</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms724214.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms724214.aspx"><strong>CompareFileTime</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CompareObjectHandles</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/mt438733.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/mt438733.aspx"><strong>CompareObjectHandles</strong></a></td>
 <td>Introduced into api-ms-win-core-handle-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CompareStringA</strong>](https://msdn.microsoft.com/en-us/library/Dd317759.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd317759.aspx"><strong>CompareStringA</strong></a></td>
 <td>Introduced into api-ms-win-core-localization-obsolete-l1-3-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CompareStringEx</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/dd317761.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd317761.aspx"><strong>CompareStringEx</strong></a></td>
 <td>Introduced into api-ms-win-core-string-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CompareStringOrdinal</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/dd317762.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd317762.aspx"><strong>CompareStringOrdinal</strong></a></td>
 <td>Introduced into api-ms-win-core-string-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CompareStringW</strong>](https://msdn.microsoft.com/en-us/library/Dd317759.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd317759.aspx"><strong>CompareStringW</strong></a></td>
 <td>Introduced into api-ms-win-core-string-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>Compress</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/hh437548.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh437548.aspx"><strong>Compress</strong></a></td>
 <td>Introduced into cabinet.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>connect</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms737625.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms737625.aspx"><strong>connect</strong></a></td>
 <td>Introduced into ws2_32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ConnectNamedPipe</strong>](https://msdn.microsoft.com/en-us/library/Aa365146.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa365146.aspx"><strong>ConnectNamedPipe</strong></a></td>
 <td>Introduced into api-ms-win-core-namedpipe-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-namedpipe-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ContinueDebugEvent</strong>](https://msdn.microsoft.com/en-us/library/ms679285.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms679285.aspx"><strong>ContinueDebugEvent</strong></a></td>
 <td>Introduced into api-ms-win-core-debug-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-debug-l1-1-2.dll in 10.0.10586. Moved into api-ms-win-core-debug-l1-1-1.dll in 10.0.14393.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ControlService</strong>](https://msdn.microsoft.com/en-us/library/ms682108.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682108.aspx"><strong>ControlService</strong></a></td>
 <td>Introduced into api-ms-win-service-winsvc-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-service-winsvc-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ControlServiceExA</strong>](https://msdn.microsoft.com/en-us/library/ms682110.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682110.aspx"><strong>ControlServiceExA</strong></a></td>
 <td>Introduced into api-ms-win-service-winsvc-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-service-winsvc-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ControlServiceExW</strong>](https://msdn.microsoft.com/en-us/library/ms682110.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682110.aspx"><strong>ControlServiceExW</strong></a></td>
 <td>Introduced into api-ms-win-service-management-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ControlTraceA</strong>](https://msdn.microsoft.com/en-us/library/Aa363696.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa363696.aspx"><strong>ControlTraceA</strong></a></td>
 <td>Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ControlTraceW</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa363696.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa363696.aspx"><strong>ControlTraceW</strong></a></td>
 <td>Introduced into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -1973,11 +1973,11 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ConvertDefaultLocale</strong>](https://msdn.microsoft.com/en-us/library/ms776314.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms776314.aspx"><strong>ConvertDefaultLocale</strong></a></td>
 <td>Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ConvertFiberToThread</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682112.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682112.aspx"><strong>ConvertFiberToThread</strong></a></td>
 <td>Introduced into api-ms-win-core-fibers-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-fibers-l2-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
@@ -1989,43 +1989,43 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ConvertInterfaceAliasToLuid</strong>](https://msdn.microsoft.com/en-us/library/Aa365821.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa365821.aspx"><strong>ConvertInterfaceAliasToLuid</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ConvertInterfaceGuidToLuid</strong>](https://msdn.microsoft.com/en-us/library/Aa365823.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa365823.aspx"><strong>ConvertInterfaceGuidToLuid</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ConvertInterfaceIndexToLuid</strong>](https://msdn.microsoft.com/en-us/library/Aa365826.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa365826.aspx"><strong>ConvertInterfaceIndexToLuid</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ConvertInterfaceLuidToAlias</strong>](https://msdn.microsoft.com/en-us/library/Bb408400.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb408400.aspx"><strong>ConvertInterfaceLuidToAlias</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ConvertInterfaceLuidToGuid</strong>](https://msdn.microsoft.com/en-us/library/Aa365829.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa365829.aspx"><strong>ConvertInterfaceLuidToGuid</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ConvertInterfaceLuidToIndex</strong>](https://msdn.microsoft.com/en-us/library/Aa365835.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa365835.aspx"><strong>ConvertInterfaceLuidToIndex</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ConvertInterfaceLuidToNameA</strong>](https://msdn.microsoft.com/en-us/library/Aa365842.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa365842.aspx"><strong>ConvertInterfaceLuidToNameA</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ConvertInterfaceLuidToNameW</strong>](https://msdn.microsoft.com/en-us/library/Aa365847.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa365847.aspx"><strong>ConvertInterfaceLuidToNameW</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ConvertInterfaceNameToLuidA</strong>](https://msdn.microsoft.com/en-us/library/Aa365852.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa365852.aspx"><strong>ConvertInterfaceNameToLuidA</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ConvertInterfaceNameToLuidW</strong>](https://msdn.microsoft.com/en-us/library/Aa365855.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa365855.aspx"><strong>ConvertInterfaceNameToLuidW</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -2033,11 +2033,11 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ConvertIpv4MaskToLength</strong>](https://msdn.microsoft.com/en-us/library/Bb408401.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb408401.aspx"><strong>ConvertIpv4MaskToLength</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ConvertLengthToIpv4Mask</strong>](https://msdn.microsoft.com/en-us/library/Bb408402.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb408402.aspx"><strong>ConvertLengthToIpv4Mask</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -2065,27 +2065,27 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ConvertSecurityDescriptorToStringSecurityDescriptorW</strong>](https://msdn.microsoft.com/en-us/library/Aa376397.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376397.aspx"><strong>ConvertSecurityDescriptorToStringSecurityDescriptorW</strong></a></td>
 <td>Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ConvertSidToStringSidA</strong>](https://msdn.microsoft.com/en-us/library/Aa376399.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376399.aspx"><strong>ConvertSidToStringSidA</strong></a></td>
 <td>Introduced into api-ms-win-security-sddl-ansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ConvertSidToStringSidW</strong>](https://msdn.microsoft.com/en-us/library/Aa376399.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376399.aspx"><strong>ConvertSidToStringSidW</strong></a></td>
 <td>Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ConvertStringSecurityDescriptorToSecurityDescriptorW</strong>](https://msdn.microsoft.com/en-us/library/Aa376401.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376401.aspx"><strong>ConvertStringSecurityDescriptorToSecurityDescriptorW</strong></a></td>
 <td>Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ConvertStringSidToSidA</strong>](https://msdn.microsoft.com/en-us/library/Aa376402.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376402.aspx"><strong>ConvertStringSidToSidA</strong></a></td>
 <td>Introduced into api-ms-win-security-sddl-ansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ConvertStringSidToSidW</strong>](https://msdn.microsoft.com/en-us/library/Aa376402.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376402.aspx"><strong>ConvertStringSidToSidW</strong></a></td>
 <td>Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -2101,35 +2101,35 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ConvertThreadToFiber</strong>](https://msdn.microsoft.com/en-us/library/ms682115.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682115.aspx"><strong>ConvertThreadToFiber</strong></a></td>
 <td>Introduced into api-ms-win-core-fibers-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-fibers-l2-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ConvertThreadToFiberEx</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682117.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682117.aspx"><strong>ConvertThreadToFiberEx</strong></a></td>
 <td>Introduced into api-ms-win-core-fibers-l2-1-1.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ConvertToAutoInheritPrivateObjectSecurity</strong>](https://msdn.microsoft.com/en-us/library/Aa376403.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376403.aspx"><strong>ConvertToAutoInheritPrivateObjectSecurity</strong></a></td>
 <td>Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CopyContext</strong>](https://msdn.microsoft.com/en-us/library/Hh134234.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh134234.aspx"><strong>CopyContext</strong></a></td>
 <td>Introduced into api-ms-win-core-xstate-l2-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CopyFile2</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/hh449404.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh449404.aspx"><strong>CopyFile2</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CopyFileExA</strong>](https://msdn.microsoft.com/en-us/library/Aa363852.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa363852.aspx"><strong>CopyFileExA</strong></a></td>
 <td>Introduced into api-ms-win-core-file-ansi-l2-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CopyFileExW</strong>](https://msdn.microsoft.com/en-us/library/Aa363852.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa363852.aspx"><strong>CopyFileExW</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CopyFileW</strong>](https://msdn.microsoft.com/en-us/library/ms891449.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms891449.aspx"><strong>CopyFileW</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l2-1-2.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
@@ -2137,123 +2137,123 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into userenv.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CopySid</strong>](https://msdn.microsoft.com/en-us/library/Aa376404.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376404.aspx"><strong>CopySid</strong></a></td>
 <td>Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoQueryAuthenticationServices</strong>](https://msdn.microsoft.com/en-us/library/ms693785.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms693785.aspx"><strong>CoQueryAuthenticationServices</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoQueryClientBlanket</strong>](https://msdn.microsoft.com/en-us/library/ms683738.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms683738.aspx"><strong>CoQueryClientBlanket</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoQueryProxyBlanket</strong>](https://msdn.microsoft.com/en-us/library/ms693763.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms693763.aspx"><strong>CoQueryProxyBlanket</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoRegisterActivationFilter</strong>](https://msdn.microsoft.com/en-us/library/Mt796494.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Mt796494.aspx"><strong>CoRegisterActivationFilter</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoRegisterClassObject</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms693407.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms693407.aspx"><strong>CoRegisterClassObject</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoRegisterPSClsid</strong>](https://msdn.microsoft.com/en-us/library/ms690518.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms690518.aspx"><strong>CoRegisterPSClsid</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoRegisterSurrogate</strong>](https://msdn.microsoft.com/en-us/library/ms682342.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682342.aspx"><strong>CoRegisterSurrogate</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoReleaseMarshalData</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms690490.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms690490.aspx"><strong>CoReleaseMarshalData</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoReleaseServerProcess</strong>](https://msdn.microsoft.com/en-us/library/ms691324.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms691324.aspx"><strong>CoReleaseServerProcess</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoResumeClassObjects</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms692686.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms692686.aspx"><strong>CoResumeClassObjects</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoRevertToSelf</strong>](https://msdn.microsoft.com/en-us/library/ms687267.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms687267.aspx"><strong>CoRevertToSelf</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoRevokeClassObject</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms688650.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms688650.aspx"><strong>CoRevokeClassObject</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoSetCancelObject</strong>](https://msdn.microsoft.com/en-us/library/ms678489.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms678489.aspx"><strong>CoSetCancelObject</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoSetProxyBlanket</strong>](https://msdn.microsoft.com/en-us/library/ms692692.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms692692.aspx"><strong>CoSetProxyBlanket</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoSuspendClassObjects</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms691208.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms691208.aspx"><strong>CoSuspendClassObjects</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoSwitchCallContext</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms679683.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms679683.aspx"><strong>CoSwitchCallContext</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoTaskMemAlloc</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms692727.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms692727.aspx"><strong>CoTaskMemAlloc</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoTaskMemFree</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722.aspx"><strong>CoTaskMemFree</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoTaskMemRealloc</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms687280.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms687280.aspx"><strong>CoTaskMemRealloc</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoTestCancel</strong>](https://msdn.microsoft.com/en-us/library/ms688724.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms688724.aspx"><strong>CoTestCancel</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoUninitialize</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms688715.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms688715.aspx"><strong>CoUninitialize</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoUnmarshalHresult</strong>](https://msdn.microsoft.com/en-us/library/ms690357.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms690357.aspx"><strong>CoUnmarshalHresult</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoUnmarshalInterface</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms693382.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms693382.aspx"><strong>CoUnmarshalInterface</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CoWaitForMultipleHandles</strong>](https://msdn.microsoft.com/en-us/library/ms680732.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms680732.aspx"><strong>CoWaitForMultipleHandles</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CoWaitForMultipleObjects</strong>](https://msdn.microsoft.com/en-us/library/Hh404144.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh404144.aspx"><strong>CoWaitForMultipleObjects</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateActCtxA</strong>](https://msdn.microsoft.com/en-us/library/Aa375125.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa375125.aspx"><strong>CreateActCtxA</strong></a></td>
 <td>Introduced into api-ms-win-core-sidebyside-ansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateActCtxW</strong>](https://msdn.microsoft.com/en-us/library/Aa375125.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa375125.aspx"><strong>CreateActCtxW</strong></a></td>
 <td>Introduced into api-ms-win-core-sidebyside-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateAnycastIpAddressEntry</strong>](https://msdn.microsoft.com/en-us/library/Aa814398.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa814398.aspx"><strong>CreateAnycastIpAddressEntry</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateAppContainerProfile</strong>](https://msdn.microsoft.com/en-us/library/Hh448539.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh448539.aspx"><strong>CreateAppContainerProfile</strong></a></td>
 <td>Introduced into userenv.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -2261,11 +2261,11 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into userenv.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateBoundaryDescriptorA</strong>](https://msdn.microsoft.com/en-us/library/ms682121.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682121.aspx"><strong>CreateBoundaryDescriptorA</strong></a></td>
 <td>Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateBoundaryDescriptorW</strong>](https://msdn.microsoft.com/en-us/library/ms682121.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682121.aspx"><strong>CreateBoundaryDescriptorW</strong></a></td>
 <td>Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -2273,35 +2273,35 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateCompressor</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/hh437570.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh437570.aspx"><strong>CreateCompressor</strong></a></td>
 <td>Introduced into cabinet.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateConsoleScreenBuffer</strong>](https://msdn.microsoft.com/en-us/library/ms682122.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682122.aspx"><strong>CreateConsoleScreenBuffer</strong></a></td>
 <td>Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateDecompressor</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/hh437573.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh437573.aspx"><strong>CreateDecompressor</strong></a></td>
 <td>Introduced into cabinet.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateDirect3D11DeviceFromDXGIDevice</strong>](https://msdn.microsoft.com/en-us/library/Dn895087.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dn895087.aspx"><strong>CreateDirect3D11DeviceFromDXGIDevice</strong></a></td>
 <td>Introduced into d3d11.dll in 10.0.10586. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateDirect3D11SurfaceFromDXGISurface</strong>](https://msdn.microsoft.com/en-us/library/Dn895088.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dn895088.aspx"><strong>CreateDirect3D11SurfaceFromDXGISurface</strong></a></td>
 <td>Introduced into d3d11.dll in 10.0.10586. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateDirectoryA</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa363855.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa363855.aspx"><strong>CreateDirectoryA</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateDirectoryExA</strong>](https://msdn.microsoft.com/en-us/library/Aa363856.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa363856.aspx"><strong>CreateDirectoryExA</strong></a></td>
 <td>Introduced into api-ms-win-core-file-ansi-l2-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateDirectoryExW</strong>](https://msdn.microsoft.com/en-us/library/Aa363856.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa363856.aspx"><strong>CreateDirectoryExW</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
@@ -2313,83 +2313,83 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into userenv.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateDirectoryW</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa363855.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa363855.aspx"><strong>CreateDirectoryW</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateDispTypeInfo</strong>](https://msdn.microsoft.com/en-us/library/ms221237.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms221237.aspx"><strong>CreateDispTypeInfo</strong></a></td>
 <td>Introduced into oleaut32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateDXGIFactory</strong>](https://msdn.microsoft.com/en-us/library/Bb204862.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb204862.aspx"><strong>CreateDXGIFactory</strong></a></td>
 <td>Introduced into dxgi.dll in 10.0.10586. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateDXGIFactory1</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ff471318.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ff471318.aspx"><strong>CreateDXGIFactory1</strong></a></td>
 <td>Introduced into dxgi.dll in 10.0.10586. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateDXGIFactory2</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/dn268307.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dn268307.aspx"><strong>CreateDXGIFactory2</strong></a></td>
 <td>Introduced into dxgi.dll in 10.0.10586. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateEnclave</strong>](https://msdn.microsoft.com/en-us/library/Mt592866.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Mt592866.aspx"><strong>CreateEnclave</strong></a></td>
 <td>Introduced into api-ms-win-core-enclave-l1-1-0.dll in 10.0.14393. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateEnvironmentBlock</strong>](https://msdn.microsoft.com/en-us/library/Aa373491.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa373491.aspx"><strong>CreateEnvironmentBlock</strong></a></td>
 <td>Introduced into userenv.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateErrorInfo</strong>](https://msdn.microsoft.com/en-us/library/ms221316.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms221316.aspx"><strong>CreateErrorInfo</strong></a></td>
 <td>Introduced into oleaut32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateEventA</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682396.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682396.aspx"><strong>CreateEventA</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateEventExA</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682400.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682400.aspx"><strong>CreateEventExA</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateEventExW</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682400.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682400.aspx"><strong>CreateEventExW</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateEventW</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682396.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682396.aspx"><strong>CreateEventW</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateFiber</strong>](https://msdn.microsoft.com/en-us/library/ms682402.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682402.aspx"><strong>CreateFiber</strong></a></td>
 <td>Introduced into api-ms-win-core-fibers-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-fibers-l2-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateFiberEx</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682406.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682406.aspx"><strong>CreateFiberEx</strong></a></td>
 <td>Introduced into api-ms-win-core-fibers-l2-1-1.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateFile2</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/hh449422.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh449422.aspx"><strong>CreateFile2</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateFileA</strong>](https://msdn.microsoft.com/en-us/library/Aa363858.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa363858.aspx"><strong>CreateFileA</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateFileMappingFromApp</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/hh994453.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh994453.aspx"><strong>CreateFileMappingFromApp</strong></a></td>
 <td>Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateFileMappingNumaW</strong>](https://msdn.microsoft.com/en-us/library/Aa366539.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa366539.aspx"><strong>CreateFileMappingNumaW</strong></a></td>
 <td>Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateFileMappingW</strong>](https://msdn.microsoft.com/en-us/library/Aa366537.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa366537.aspx"><strong>CreateFileMappingW</strong></a></td>
 <td>Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateFileW</strong>](https://msdn.microsoft.com/en-us/library/Aa363858.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa363858.aspx"><strong>CreateFileW</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
@@ -2397,39 +2397,39 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into userenv.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateHardLinkA</strong>](https://msdn.microsoft.com/en-us/library/Aa363860.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa363860.aspx"><strong>CreateHardLinkA</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l2-1-2.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateHardLinkW</strong>](https://msdn.microsoft.com/en-us/library/Aa363860.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa363860.aspx"><strong>CreateHardLinkW</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateILockBytesOnHGlobal</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa378977.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa378977.aspx"><strong>CreateILockBytesOnHGlobal</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateIoCompletionPort</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa363862.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa363862.aspx"><strong>CreateIoCompletionPort</strong></a></td>
 <td>Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-io-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateIpForwardEntry</strong>](https://msdn.microsoft.com/en-us/library/ms887916.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms887916.aspx"><strong>CreateIpForwardEntry</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateIpForwardEntry2</strong>](https://msdn.microsoft.com/en-us/library/Aa814399.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa814399.aspx"><strong>CreateIpForwardEntry2</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateIpNetEntry</strong>](https://msdn.microsoft.com/en-us/library/ms887917.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms887917.aspx"><strong>CreateIpNetEntry</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateIpNetEntry2</strong>](https://msdn.microsoft.com/en-us/library/Aa814400.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa814400.aspx"><strong>CreateIpNetEntry2</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateJobObjectW</strong>](https://msdn.microsoft.com/en-us/library/ms682409.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682409.aspx"><strong>CreateJobObjectW</strong></a></td>
 <td>Introduced into api-ms-win-core-job-l2-1-0.dll in 10.0.10240. Moved into api-ms-win-core-job-l2-1-1.dll in 10.0.10586. Moved into api-ms-win-core-job-l2-1-0.dll in 10.0.14393. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
@@ -2437,87 +2437,87 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into userenv.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateMemoryResourceNotification</strong>](https://msdn.microsoft.com/en-us/library/Aa366541.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa366541.aspx"><strong>CreateMemoryResourceNotification</strong></a></td>
 <td>Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateMutexA</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682411.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682411.aspx"><strong>CreateMutexA</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateMutexExA</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682418.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682418.aspx"><strong>CreateMutexExA</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateMutexExW</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682418.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682418.aspx"><strong>CreateMutexExW</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateMutexW</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682411.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682411.aspx"><strong>CreateMutexW</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateNamedPipeW</strong>](https://msdn.microsoft.com/en-us/library/Aa365150.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa365150.aspx"><strong>CreateNamedPipeW</strong></a></td>
 <td>Introduced into api-ms-win-core-namedpipe-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-namedpipe-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreatePersistentTcpPortReservation</strong>](https://msdn.microsoft.com/en-us/library/Gg696068.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Gg696068.aspx"><strong>CreatePersistentTcpPortReservation</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreatePersistentUdpPortReservation</strong>](https://msdn.microsoft.com/en-us/library/Gg696069.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Gg696069.aspx"><strong>CreatePersistentUdpPortReservation</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreatePipe</strong>](https://msdn.microsoft.com/en-us/library/Aa365152.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa365152.aspx"><strong>CreatePipe</strong></a></td>
 <td>Introduced into api-ms-win-core-namedpipe-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-namedpipe-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreatePrivateNamespaceA</strong>](https://msdn.microsoft.com/en-us/library/ms682419.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682419.aspx"><strong>CreatePrivateNamespaceA</strong></a></td>
 <td>Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreatePrivateNamespaceW</strong>](https://msdn.microsoft.com/en-us/library/ms682419.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682419.aspx"><strong>CreatePrivateNamespaceW</strong></a></td>
 <td>Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreatePrivateObjectSecurity</strong>](https://msdn.microsoft.com/en-us/library/Aa376405.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa376405.aspx"><strong>CreatePrivateObjectSecurity</strong></a></td>
 <td>Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreatePrivateObjectSecurityEx</strong>](https://msdn.microsoft.com/en-us/library/Aa446581.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa446581.aspx"><strong>CreatePrivateObjectSecurityEx</strong></a></td>
 <td>Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreatePrivateObjectSecurityWithMultipleInheritance</strong>](https://msdn.microsoft.com/en-us/library/Aa446582.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa446582.aspx"><strong>CreatePrivateObjectSecurityWithMultipleInheritance</strong></a></td>
 <td>Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateProcessA</strong>](https://msdn.microsoft.com/en-us/library/60katz9k.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/60katz9k.aspx"><strong>CreateProcessA</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateProcessAsUserA</strong>](https://msdn.microsoft.com/en-us/library/ms682429.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682429.aspx"><strong>CreateProcessAsUserA</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateProcessAsUserW</strong>](https://msdn.microsoft.com/en-us/library/ms682429.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682429.aspx"><strong>CreateProcessAsUserW</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateProcessW</strong>](https://msdn.microsoft.com/en-us/library/60katz9k.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/60katz9k.aspx"><strong>CreateProcessW</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateProfile</strong>](https://msdn.microsoft.com/en-us/library/Bb762271.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb762271.aspx"><strong>CreateProfile</strong></a></td>
 <td>Introduced into userenv.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreatePropertyStore</strong>](https://msdn.microsoft.com/en-us/library/ms702984.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms702984.aspx"><strong>CreatePropertyStore</strong></a></td>
 <td>Introduced into mfplat.dll in 10.0.10586. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateProxyArpEntry</strong>](https://msdn.microsoft.com/en-us/library/ms887918.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms887918.aspx"><strong>CreateProxyArpEntry</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -2525,63 +2525,63 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into rpcrt4.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateRandomAccessStreamOnFile</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/hh846256.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh846256.aspx"><strong>CreateRandomAccessStreamOnFile</strong></a></td>
 <td>Introduced into api-ms-win-shcore-stream-winrt-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateRandomAccessStreamOverStream</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/hh846257.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh846257.aspx"><strong>CreateRandomAccessStreamOverStream</strong></a></td>
 <td>Introduced into api-ms-win-shcore-stream-winrt-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateRemoteThread</strong>](https://msdn.microsoft.com/en-us/library/ms682437.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682437.aspx"><strong>CreateRemoteThread</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateRemoteThreadEx</strong>](https://msdn.microsoft.com/en-us/library/Dd405484.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd405484.aspx"><strong>CreateRemoteThreadEx</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateRestrictedToken</strong>](https://msdn.microsoft.com/en-us/library/Aa446583.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa446583.aspx"><strong>CreateRestrictedToken</strong></a></td>
 <td>Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateSemaphoreA</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682438.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682438.aspx"><strong>CreateSemaphoreA</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateSemaphoreExA</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682446.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682446.aspx"><strong>CreateSemaphoreExA</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateSemaphoreExW</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682446.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682446.aspx"><strong>CreateSemaphoreExW</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateSemaphoreW</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682438.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682438.aspx"><strong>CreateSemaphoreW</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-1.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateServiceA</strong>](https://msdn.microsoft.com/en-us/library/ms682450.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682450.aspx"><strong>CreateServiceA</strong></a></td>
 <td>Introduced into api-ms-win-service-winsvc-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-service-winsvc-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateServiceW</strong>](https://msdn.microsoft.com/en-us/library/ms682450.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682450.aspx"><strong>CreateServiceW</strong></a></td>
 <td>Introduced into api-ms-win-service-management-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateSortedAddressPairs</strong>](https://msdn.microsoft.com/en-us/library/Bb870773.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb870773.aspx"><strong>CreateSortedAddressPairs</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateStdDispatch</strong>](https://msdn.microsoft.com/en-us/library/ms221135.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms221135.aspx"><strong>CreateStdDispatch</strong></a></td>
 <td>Introduced into oleaut32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateStreamOnHGlobal</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa378980.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa378980.aspx"><strong>CreateStreamOnHGlobal</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateStreamOverRandomAccessStream</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/hh846258.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh846258.aspx"><strong>CreateStreamOverRandomAccessStream</strong></a></td>
 <td>Introduced into api-ms-win-shcore-stream-winrt-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
@@ -2589,231 +2589,231 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into rpcrt4.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateSymbolicLinkA</strong>](https://msdn.microsoft.com/en-us/library/Aa363866.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa363866.aspx"><strong>CreateSymbolicLinkA</strong></a></td>
 <td>Introduced into api-ms-win-core-file-ansi-l2-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateSymbolicLinkW</strong>](https://msdn.microsoft.com/en-us/library/Aa363866.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa363866.aspx"><strong>CreateSymbolicLinkW</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateThread</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682453.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682453.aspx"><strong>CreateThread</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateThreadpool</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682456.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682456.aspx"><strong>CreateThreadpool</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateThreadpoolCleanupGroup</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682462.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682462.aspx"><strong>CreateThreadpoolCleanupGroup</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateThreadpoolIo</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682464.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682464.aspx"><strong>CreateThreadpoolIo</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateThreadpoolTimer</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682466.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682466.aspx"><strong>CreateThreadpoolTimer</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateThreadpoolWait</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682474.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682474.aspx"><strong>CreateThreadpoolWait</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateThreadpoolWork</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682478.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682478.aspx"><strong>CreateThreadpoolWork</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateTimerQueue</strong>](https://msdn.microsoft.com/en-us/library/ms682483.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682483.aspx"><strong>CreateTimerQueue</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-legacy-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateTimerQueueTimer</strong>](https://msdn.microsoft.com/en-us/library/ms682485.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682485.aspx"><strong>CreateTimerQueueTimer</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-legacy-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateTypeLib</strong>](https://msdn.microsoft.com/en-us/library/ms221499.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms221499.aspx"><strong>CreateTypeLib</strong></a></td>
 <td>Introduced into oleaut32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateTypeLib2</strong>](https://msdn.microsoft.com/en-us/library/ms221307.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms221307.aspx"><strong>CreateTypeLib2</strong></a></td>
 <td>Introduced into oleaut32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateUnicastIpAddressEntry</strong>](https://msdn.microsoft.com/en-us/library/Aa814401.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa814401.aspx"><strong>CreateUnicastIpAddressEntry</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateWaitableTimerA</strong>](https://msdn.microsoft.com/en-us/library/ms682492.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682492.aspx"><strong>CreateWaitableTimerA</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateWaitableTimerExA</strong>](https://msdn.microsoft.com/en-us/library/ms682494.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682494.aspx"><strong>CreateWaitableTimerExA</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateWaitableTimerExW</strong>](https://msdn.microsoft.com/en-us/library/ms682494.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682494.aspx"><strong>CreateWaitableTimerExW</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateWaitableTimerW</strong>](https://msdn.microsoft.com/en-us/library/ms682492.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682492.aspx"><strong>CreateWaitableTimerW</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-1.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateWellKnownSid</strong>](https://msdn.microsoft.com/en-us/library/Aa446585.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa446585.aspx"><strong>CreateWellKnownSid</strong></a></td>
 <td>Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateXmlReader</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms752822.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms752822.aspx"><strong>CreateXmlReader</strong></a></td>
 <td>Introduced into xmllite.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateXmlReaderInputWithEncodingCodePage</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms752859.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms752859.aspx"><strong>CreateXmlReaderInputWithEncodingCodePage</strong></a></td>
 <td>Introduced into xmllite.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateXmlReaderInputWithEncodingName</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms752899.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms752899.aspx"><strong>CreateXmlReaderInputWithEncodingName</strong></a></td>
 <td>Introduced into xmllite.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateXmlWriter</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms752911.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms752911.aspx"><strong>CreateXmlWriter</strong></a></td>
 <td>Introduced into xmllite.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateXmlWriterOutputWithEncodingCodePage</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms753133.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms753133.aspx"><strong>CreateXmlWriterOutputWithEncodingCodePage</strong></a></td>
 <td>Introduced into xmllite.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateXmlWriterOutputWithEncodingName</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms752894.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms752894.aspx"><strong>CreateXmlWriterOutputWithEncodingName</strong></a></td>
 <td>Introduced into xmllite.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CredDeleteA</strong>](https://msdn.microsoft.com/en-us/library/Aa374787.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa374787.aspx"><strong>CredDeleteA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CredDeleteW</strong>](https://msdn.microsoft.com/en-us/library/Aa374787.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa374787.aspx"><strong>CredDeleteW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CredEnumerateA</strong>](https://msdn.microsoft.com/en-us/library/Aa374794.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa374794.aspx"><strong>CredEnumerateA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CredEnumerateW</strong>](https://msdn.microsoft.com/en-us/library/Aa374794.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa374794.aspx"><strong>CredEnumerateW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CredFindBestCredentialA</strong>](https://msdn.microsoft.com/en-us/library/Aa374795.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa374795.aspx"><strong>CredFindBestCredentialA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CredFindBestCredentialW</strong>](https://msdn.microsoft.com/en-us/library/Aa374795.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa374795.aspx"><strong>CredFindBestCredentialW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CredFree</strong>](https://msdn.microsoft.com/en-us/library/ms936983.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms936983.aspx"><strong>CredFree</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CredGetSessionTypes</strong>](https://msdn.microsoft.com/en-us/library/Aa374797.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa374797.aspx"><strong>CredGetSessionTypes</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CredGetTargetInfoA</strong>](https://msdn.microsoft.com/en-us/library/Aa374798.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa374798.aspx"><strong>CredGetTargetInfoA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CredGetTargetInfoW</strong>](https://msdn.microsoft.com/en-us/library/Aa374798.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa374798.aspx"><strong>CredGetTargetInfoW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CredIsMarshaledCredentialW</strong>](https://msdn.microsoft.com/en-us/library/Aa374799.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa374799.aspx"><strong>CredIsMarshaledCredentialW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CredIsProtectedA</strong>](https://msdn.microsoft.com/en-us/library/Aa374800.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa374800.aspx"><strong>CredIsProtectedA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CredIsProtectedW</strong>](https://msdn.microsoft.com/en-us/library/Aa374800.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa374800.aspx"><strong>CredIsProtectedW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CredMarshalCredentialA</strong>](https://msdn.microsoft.com/en-us/library/Aa374801.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa374801.aspx"><strong>CredMarshalCredentialA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CredMarshalCredentialW</strong>](https://msdn.microsoft.com/en-us/library/Aa374801.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa374801.aspx"><strong>CredMarshalCredentialW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CredProtectA</strong>](https://msdn.microsoft.com/en-us/library/Aa374803.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa374803.aspx"><strong>CredProtectA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CredProtectW</strong>](https://msdn.microsoft.com/en-us/library/Aa374803.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa374803.aspx"><strong>CredProtectW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CredReadA</strong>](https://msdn.microsoft.com/en-us/library/Aa374804.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa374804.aspx"><strong>CredReadA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CredReadDomainCredentialsA</strong>](https://msdn.microsoft.com/en-us/library/Aa374805.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa374805.aspx"><strong>CredReadDomainCredentialsA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CredReadDomainCredentialsW</strong>](https://msdn.microsoft.com/en-us/library/Aa374805.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa374805.aspx"><strong>CredReadDomainCredentialsW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CredReadW</strong>](https://msdn.microsoft.com/en-us/library/Aa374804.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa374804.aspx"><strong>CredReadW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CredUnmarshalCredentialA</strong>](https://msdn.microsoft.com/en-us/library/Aa375184.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa375184.aspx"><strong>CredUnmarshalCredentialA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CredUnmarshalCredentialW</strong>](https://msdn.microsoft.com/en-us/library/Aa375184.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa375184.aspx"><strong>CredUnmarshalCredentialW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CredUnprotectA</strong>](https://msdn.microsoft.com/en-us/library/Aa375186.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa375186.aspx"><strong>CredUnprotectA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CredUnprotectW</strong>](https://msdn.microsoft.com/en-us/library/Aa375186.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa375186.aspx"><strong>CredUnprotectW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CredWriteA</strong>](https://msdn.microsoft.com/en-us/library/Aa375187.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa375187.aspx"><strong>CredWriteA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CredWriteDomainCredentialsA</strong>](https://msdn.microsoft.com/en-us/library/Aa375189.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa375189.aspx"><strong>CredWriteDomainCredentialsA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CredWriteDomainCredentialsW</strong>](https://msdn.microsoft.com/en-us/library/Aa375189.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa375189.aspx"><strong>CredWriteDomainCredentialsW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CredWriteW</strong>](https://msdn.microsoft.com/en-us/library/Aa375187.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa375187.aspx"><strong>CredWriteW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptAcquireCertificatePrivateKey</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379885.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa379885.aspx"><strong>CryptAcquireCertificatePrivateKey</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptBinaryToStringA</strong>](https://msdn.microsoft.com/en-us/library/Aa379887.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa379887.aspx"><strong>CryptBinaryToStringA</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptBinaryToStringW</strong>](https://msdn.microsoft.com/en-us/library/Aa379887.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa379887.aspx"><strong>CryptBinaryToStringW</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -2821,7 +2821,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptContextAddRef</strong>](https://msdn.microsoft.com/en-us/library/ms884431.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms884431.aspx"><strong>CryptContextAddRef</strong></a></td>
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
@@ -2829,115 +2829,115 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptCreateKeyIdentifierFromCSP</strong>](https://msdn.microsoft.com/en-us/library/ms883958.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms883958.aspx"><strong>CryptCreateKeyIdentifierFromCSP</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptDecodeMessage</strong>](https://msdn.microsoft.com/en-us/library/Aa379910.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa379910.aspx"><strong>CryptDecodeMessage</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptDecodeObject</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379911.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa379911.aspx"><strong>CryptDecodeObject</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptDecodeObjectEx</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379912.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa379912.aspx"><strong>CryptDecodeObjectEx</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptDecryptAndVerifyMessageSignature</strong>](https://msdn.microsoft.com/en-us/library/Aa379914.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa379914.aspx"><strong>CryptDecryptAndVerifyMessageSignature</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptDecryptMessage</strong>](https://msdn.microsoft.com/en-us/library/Aa379915.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa379915.aspx"><strong>CryptDecryptMessage</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptDuplicateHash</strong>](https://msdn.microsoft.com/en-us/library/ms884437.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms884437.aspx"><strong>CryptDuplicateHash</strong></a></td>
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptDuplicateKey</strong>](https://msdn.microsoft.com/en-us/library/ms884438.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms884438.aspx"><strong>CryptDuplicateKey</strong></a></td>
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptEncodeObject</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379921.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa379921.aspx"><strong>CryptEncodeObject</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptEncodeObjectEx</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379922.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa379922.aspx"><strong>CryptEncodeObjectEx</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptEncryptMessage</strong>](https://msdn.microsoft.com/en-us/library/Aa379925.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa379925.aspx"><strong>CryptEncryptMessage</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptEnumKeyIdentifierProperties</strong>](https://msdn.microsoft.com/en-us/library/ms883971.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms883971.aspx"><strong>CryptEnumKeyIdentifierProperties</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptEnumOIDFunction</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379927.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa379927.aspx"><strong>CryptEnumOIDFunction</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptEnumOIDInfo</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379928.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa379928.aspx"><strong>CryptEnumOIDInfo</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptEnumProvidersA</strong>](https://msdn.microsoft.com/en-us/library/Aa379929.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa379929.aspx"><strong>CryptEnumProvidersA</strong></a></td>
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptEnumProvidersW</strong>](https://msdn.microsoft.com/en-us/library/Aa379929.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa379929.aspx"><strong>CryptEnumProvidersW</strong></a></td>
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptEnumProviderTypesA</strong>](https://msdn.microsoft.com/en-us/library/Aa379930.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa379930.aspx"><strong>CryptEnumProviderTypesA</strong></a></td>
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptEnumProviderTypesW</strong>](https://msdn.microsoft.com/en-us/library/Aa379930.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa379930.aspx"><strong>CryptEnumProviderTypesW</strong></a></td>
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptExportPKCS8</strong>](https://msdn.microsoft.com/en-us/library/Aa379932.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa379932.aspx"><strong>CryptExportPKCS8</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptExportPublicKeyInfo</strong>](https://msdn.microsoft.com/en-us/library/Aa379934.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa379934.aspx"><strong>CryptExportPublicKeyInfo</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptExportPublicKeyInfoEx</strong>](https://msdn.microsoft.com/en-us/library/ms883980.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms883980.aspx"><strong>CryptExportPublicKeyInfoEx</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptExportPublicKeyInfoFromBCryptKeyHandle</strong>](https://msdn.microsoft.com/en-us/library/Dd433802.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd433802.aspx"><strong>CryptExportPublicKeyInfoFromBCryptKeyHandle</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptFindCertificateKeyProvInfo</strong>](https://msdn.microsoft.com/en-us/library/ms883984.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms883984.aspx"><strong>CryptFindCertificateKeyProvInfo</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptFindLocalizedName</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379937.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa379937.aspx"><strong>CryptFindLocalizedName</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptFindOIDInfo</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379938.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa379938.aspx"><strong>CryptFindOIDInfo</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptFormatObject</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379939.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa379939.aspx"><strong>CryptFormatObject</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptFreeOIDFunctionAddress</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379940.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa379940.aspx"><strong>CryptFreeOIDFunctionAddress</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptGenRandom</strong>](https://msdn.microsoft.com/en-us/library/ms884454.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms884454.aspx"><strong>CryptGenRandom</strong></a></td>
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
@@ -2945,79 +2945,79 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptGetDefaultOIDDllList</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379943.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa379943.aspx"><strong>CryptGetDefaultOIDDllList</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptGetDefaultOIDFunctionAddress</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379944.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa379944.aspx"><strong>CryptGetDefaultOIDFunctionAddress</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptGetKeyIdentifierProperty</strong>](https://msdn.microsoft.com/en-us/library/ms884062.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms884062.aspx"><strong>CryptGetKeyIdentifierProperty</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptGetMessageCertificates</strong>](https://msdn.microsoft.com/en-us/library/Aa379962.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa379962.aspx"><strong>CryptGetMessageCertificates</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptGetMessageSignerCount</strong>](https://msdn.microsoft.com/en-us/library/Aa380074.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380074.aspx"><strong>CryptGetMessageSignerCount</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptGetObjectUrl</strong>](https://msdn.microsoft.com/en-us/library/Aa380080.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380080.aspx"><strong>CryptGetObjectUrl</strong></a></td>
 <td>Introduced into cryptnet.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptGetOIDFunctionAddress</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380088.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380088.aspx"><strong>CryptGetOIDFunctionAddress</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptGetOIDFunctionValue</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380187.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380187.aspx"><strong>CryptGetOIDFunctionValue</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptHashCertificate</strong>](https://msdn.microsoft.com/en-us/library/ms884064.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms884064.aspx"><strong>CryptHashCertificate</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptHashCertificate2</strong>](https://msdn.microsoft.com/en-us/library/Aa380201.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380201.aspx"><strong>CryptHashCertificate2</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptHashMessage</strong>](https://msdn.microsoft.com/en-us/library/Aa380203.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380203.aspx"><strong>CryptHashMessage</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptHashPublicKeyInfo</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380204.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380204.aspx"><strong>CryptHashPublicKeyInfo</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptHashSessionKey</strong>](https://msdn.microsoft.com/en-us/library/ms884461.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms884461.aspx"><strong>CryptHashSessionKey</strong></a></td>
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptHashToBeSigned</strong>](https://msdn.microsoft.com/en-us/library/ms884066.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms884066.aspx"><strong>CryptHashToBeSigned</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptImportPKCS8</strong>](https://msdn.microsoft.com/en-us/library/Aa380208.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380208.aspx"><strong>CryptImportPKCS8</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptImportPublicKeyInfo</strong>](https://msdn.microsoft.com/en-us/library/Aa380209.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380209.aspx"><strong>CryptImportPublicKeyInfo</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptImportPublicKeyInfoEx</strong>](https://msdn.microsoft.com/en-us/library/ms884067.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms884067.aspx"><strong>CryptImportPublicKeyInfoEx</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptImportPublicKeyInfoEx2</strong>](https://msdn.microsoft.com/en-us/library/Aa380211.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380211.aspx"><strong>CryptImportPublicKeyInfoEx2</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptInitOIDFunctionSet</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380212.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380212.aspx"><strong>CryptInitOIDFunctionSet</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -3025,11 +3025,11 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into cryptnet.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptInstallDefaultContext</strong>](https://msdn.microsoft.com/en-us/library/ms884069.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms884069.aspx"><strong>CryptInstallDefaultContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptInstallOIDFunctionAddress</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380214.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380214.aspx"><strong>CryptInstallOIDFunctionAddress</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -3037,115 +3037,115 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptMemAlloc</strong>](https://msdn.microsoft.com/en-us/library/Aa380215.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380215.aspx"><strong>CryptMemAlloc</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptMemFree</strong>](https://msdn.microsoft.com/en-us/library/Aa380216.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380216.aspx"><strong>CryptMemFree</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptMemRealloc</strong>](https://msdn.microsoft.com/en-us/library/Aa380217.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380217.aspx"><strong>CryptMemRealloc</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptMsgCalculateEncodedLength</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380218.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380218.aspx"><strong>CryptMsgCalculateEncodedLength</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptMsgClose</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380219.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380219.aspx"><strong>CryptMsgClose</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptMsgControl</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380220.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380220.aspx"><strong>CryptMsgControl</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptMsgCountersign</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380221.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380221.aspx"><strong>CryptMsgCountersign</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptMsgCountersignEncoded</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380223.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380223.aspx"><strong>CryptMsgCountersignEncoded</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptMsgDuplicate</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380224.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380224.aspx"><strong>CryptMsgDuplicate</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptMsgEncodeAndSignCTL</strong>](https://msdn.microsoft.com/en-us/library/Aa380225.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380225.aspx"><strong>CryptMsgEncodeAndSignCTL</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptMsgGetAndVerifySigner</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380226.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380226.aspx"><strong>CryptMsgGetAndVerifySigner</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptMsgGetParam</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380227.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380227.aspx"><strong>CryptMsgGetParam</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptMsgOpenToDecode</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380228.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380228.aspx"><strong>CryptMsgOpenToDecode</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptMsgOpenToEncode</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380229.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380229.aspx"><strong>CryptMsgOpenToEncode</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptMsgSignCTL</strong>](https://msdn.microsoft.com/en-us/library/Aa380230.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380230.aspx"><strong>CryptMsgSignCTL</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptMsgUpdate</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380231.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380231.aspx"><strong>CryptMsgUpdate</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptMsgVerifyCountersignatureEncoded</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380232.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380232.aspx"><strong>CryptMsgVerifyCountersignatureEncoded</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptMsgVerifyCountersignatureEncodedEx</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380233.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380233.aspx"><strong>CryptMsgVerifyCountersignatureEncodedEx</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptProtectData</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380261.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380261.aspx"><strong>CryptProtectData</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptProtectMemory</strong>](https://msdn.microsoft.com/en-us/library/Aa380262.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380262.aspx"><strong>CryptProtectMemory</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptQueryObject</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380264.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380264.aspx"><strong>CryptQueryObject</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptRegisterDefaultOIDFunction</strong>](https://msdn.microsoft.com/en-us/library/Aa380265.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380265.aspx"><strong>CryptRegisterDefaultOIDFunction</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptRegisterOIDFunction</strong>](https://msdn.microsoft.com/en-us/library/Aa380266.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380266.aspx"><strong>CryptRegisterOIDFunction</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptRegisterOIDInfo</strong>](https://msdn.microsoft.com/en-us/library/Aa380267.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380267.aspx"><strong>CryptRegisterOIDInfo</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptReleaseContext</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380268.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380268.aspx"><strong>CryptReleaseContext</strong></a></td>
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptRetrieveObjectByUrlA</strong>](https://msdn.microsoft.com/en-us/library/Aa380269.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380269.aspx"><strong>CryptRetrieveObjectByUrlA</strong></a></td>
 <td>Introduced into cryptnet.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptRetrieveObjectByUrlW</strong>](https://msdn.microsoft.com/en-us/library/Aa380269.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380269.aspx"><strong>CryptRetrieveObjectByUrlW</strong></a></td>
 <td>Introduced into cryptnet.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptRetrieveTimeStamp</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/dd433803.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd433803.aspx"><strong>CryptRetrieveTimeStamp</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -3153,59 +3153,59 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptSetKeyIdentifierProperty</strong>](https://msdn.microsoft.com/en-us/library/ms884071.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms884071.aspx"><strong>CryptSetKeyIdentifierProperty</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptSetOIDFunctionValue</strong>](https://msdn.microsoft.com/en-us/library/Aa380273.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380273.aspx"><strong>CryptSetOIDFunctionValue</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptSetProviderA</strong>](https://msdn.microsoft.com/en-us/library/Aa380274.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380274.aspx"><strong>CryptSetProviderA</strong></a></td>
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptSetProviderExA</strong>](https://msdn.microsoft.com/en-us/library/Aa380275.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380275.aspx"><strong>CryptSetProviderExA</strong></a></td>
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptSetProviderExW</strong>](https://msdn.microsoft.com/en-us/library/Aa380275.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380275.aspx"><strong>CryptSetProviderExW</strong></a></td>
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptSetProviderW</strong>](https://msdn.microsoft.com/en-us/library/Aa380274.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380274.aspx"><strong>CryptSetProviderW</strong></a></td>
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptSignAndEncodeCertificate</strong>](https://msdn.microsoft.com/en-us/library/ms884072.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms884072.aspx"><strong>CryptSignAndEncodeCertificate</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptSignAndEncryptMessage</strong>](https://msdn.microsoft.com/en-us/library/Aa380278.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380278.aspx"><strong>CryptSignAndEncryptMessage</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptSignCertificate</strong>](https://msdn.microsoft.com/en-us/library/ms884073.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms884073.aspx"><strong>CryptSignCertificate</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptSignMessage</strong>](https://msdn.microsoft.com/en-us/library/Aa380281.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380281.aspx"><strong>CryptSignMessage</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptSignMessageWithKey</strong>](https://msdn.microsoft.com/en-us/library/Aa380282.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380282.aspx"><strong>CryptSignMessageWithKey</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptSIPAddProvider</strong>](https://msdn.microsoft.com/en-us/library/Aa380283.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380283.aspx"><strong>CryptSIPAddProvider</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptSIPCreateIndirectData</strong>](https://msdn.microsoft.com/en-us/library/Bb736358.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb736358.aspx"><strong>CryptSIPCreateIndirectData</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptSIPGetCaps</strong>](https://msdn.microsoft.com/en-us/library/Hh968152.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh968152.aspx"><strong>CryptSIPGetCaps</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -3213,43 +3213,43 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptSIPGetSignedDataMsg</strong>](https://msdn.microsoft.com/en-us/library/Cc542585.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Cc542585.aspx"><strong>CryptSIPGetSignedDataMsg</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptSIPLoad</strong>](https://msdn.microsoft.com/en-us/library/Cc542586.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Cc542586.aspx"><strong>CryptSIPLoad</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptSIPPutSignedDataMsg</strong>](https://msdn.microsoft.com/en-us/library/Cc542587.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Cc542587.aspx"><strong>CryptSIPPutSignedDataMsg</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptSIPRemoveProvider</strong>](https://msdn.microsoft.com/en-us/library/Aa380284.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380284.aspx"><strong>CryptSIPRemoveProvider</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptSIPRemoveSignedDataMsg</strong>](https://msdn.microsoft.com/en-us/library/Cc542589.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Cc542589.aspx"><strong>CryptSIPRemoveSignedDataMsg</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptSIPRetrieveSubjectGuid</strong>](https://msdn.microsoft.com/en-us/library/Cc542590.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Cc542590.aspx"><strong>CryptSIPRetrieveSubjectGuid</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptSIPRetrieveSubjectGuidForCatalogFile</strong>](https://msdn.microsoft.com/en-us/library/Bb736359.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb736359.aspx"><strong>CryptSIPRetrieveSubjectGuidForCatalogFile</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptSIPVerifyIndirectData</strong>](https://msdn.microsoft.com/en-us/library/Cc542591.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Cc542591.aspx"><strong>CryptSIPVerifyIndirectData</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptStringToBinaryA</strong>](https://msdn.microsoft.com/en-us/library/Aa380285.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380285.aspx"><strong>CryptStringToBinaryA</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptStringToBinaryW</strong>](https://msdn.microsoft.com/en-us/library/Aa380285.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380285.aspx"><strong>CryptStringToBinaryW</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -3257,155 +3257,155 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into cryptnet.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptUninstallDefaultContext</strong>](https://msdn.microsoft.com/en-us/library/ms884074.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms884074.aspx"><strong>CryptUninstallDefaultContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptUnprotectData</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380882.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380882.aspx"><strong>CryptUnprotectData</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptUnprotectMemory</strong>](https://msdn.microsoft.com/en-us/library/Aa380890.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380890.aspx"><strong>CryptUnprotectMemory</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptUnregisterDefaultOIDFunction</strong>](https://msdn.microsoft.com/en-us/library/Aa380895.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380895.aspx"><strong>CryptUnregisterDefaultOIDFunction</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptUnregisterOIDFunction</strong>](https://msdn.microsoft.com/en-us/library/Aa380899.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380899.aspx"><strong>CryptUnregisterOIDFunction</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptUnregisterOIDInfo</strong>](https://msdn.microsoft.com/en-us/library/Aa380907.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380907.aspx"><strong>CryptUnregisterOIDInfo</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptUpdateProtectedState</strong>](https://msdn.microsoft.com/en-us/library/Aa380910.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380910.aspx"><strong>CryptUpdateProtectedState</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptVerifyCertificateSignature</strong>](https://msdn.microsoft.com/en-us/library/Aa380912.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380912.aspx"><strong>CryptVerifyCertificateSignature</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptVerifyCertificateSignatureEx</strong>](https://msdn.microsoft.com/en-us/library/Aa380916.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380916.aspx"><strong>CryptVerifyCertificateSignatureEx</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptVerifyDetachedMessageHash</strong>](https://msdn.microsoft.com/en-us/library/Aa380996.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa380996.aspx"><strong>CryptVerifyDetachedMessageHash</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptVerifyDetachedMessageSignature</strong>](https://msdn.microsoft.com/en-us/library/Aa381076.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa381076.aspx"><strong>CryptVerifyDetachedMessageSignature</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptVerifyMessageHash</strong>](https://msdn.microsoft.com/en-us/library/Aa381082.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa381082.aspx"><strong>CryptVerifyMessageHash</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptVerifyMessageSignature</strong>](https://msdn.microsoft.com/en-us/library/Aa381088.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa381088.aspx"><strong>CryptVerifyMessageSignature</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptVerifyMessageSignatureWithKey</strong>](https://msdn.microsoft.com/en-us/library/Aa381092.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa381092.aspx"><strong>CryptVerifyMessageSignatureWithKey</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptVerifyTimeStampSignature</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/dd433804.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd433804.aspx"><strong>CryptVerifyTimeStampSignature</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CStdAsyncStubBuffer_AddRef</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/mt243874.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/mt243874.aspx"><strong>CStdAsyncStubBuffer_AddRef</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CStdAsyncStubBuffer_Connect</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/mt243875.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/mt243875.aspx"><strong>CStdAsyncStubBuffer_Connect</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CStdAsyncStubBuffer_Disconnect</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/mt243876.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/mt243876.aspx"><strong>CStdAsyncStubBuffer_Disconnect</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CStdAsyncStubBuffer_Invoke</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/mt243877.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/mt243877.aspx"><strong>CStdAsyncStubBuffer_Invoke</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CStdAsyncStubBuffer_QueryInterface</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/mt243878.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/mt243878.aspx"><strong>CStdAsyncStubBuffer_QueryInterface</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CStdAsyncStubBuffer_Release</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/mt243879.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/mt243879.aspx"><strong>CStdAsyncStubBuffer_Release</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CStdAsyncStubBuffer2_Connect</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/mt243871.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/mt243871.aspx"><strong>CStdAsyncStubBuffer2_Connect</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CStdAsyncStubBuffer2_Disconnect</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/mt243872.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/mt243872.aspx"><strong>CStdAsyncStubBuffer2_Disconnect</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CStdAsyncStubBuffer2_Release</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/mt243873.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/mt243873.aspx"><strong>CStdAsyncStubBuffer2_Release</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CStdStubBuffer_AddRef</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa373611.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa373611.aspx"><strong>CStdStubBuffer_AddRef</strong></a></td>
 <td>Introduced into rpcrt4.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CStdStubBuffer_Connect</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa373612.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa373612.aspx"><strong>CStdStubBuffer_Connect</strong></a></td>
 <td>Introduced into rpcrt4.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CStdStubBuffer_CountRefs</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa373613.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa373613.aspx"><strong>CStdStubBuffer_CountRefs</strong></a></td>
 <td>Introduced into rpcrt4.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CStdStubBuffer_DebugServerQueryInterface</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa373614.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa373614.aspx"><strong>CStdStubBuffer_DebugServerQueryInterface</strong></a></td>
 <td>Introduced into rpcrt4.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CStdStubBuffer_DebugServerRelease</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa373615.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa373615.aspx"><strong>CStdStubBuffer_DebugServerRelease</strong></a></td>
 <td>Introduced into rpcrt4.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CStdStubBuffer_Disconnect</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa373616.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa373616.aspx"><strong>CStdStubBuffer_Disconnect</strong></a></td>
 <td>Introduced into rpcrt4.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CStdStubBuffer_Invoke</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa373617.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa373617.aspx"><strong>CStdStubBuffer_Invoke</strong></a></td>
 <td>Introduced into rpcrt4.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CStdStubBuffer_IsIIDSupported</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa373618.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa373618.aspx"><strong>CStdStubBuffer_IsIIDSupported</strong></a></td>
 <td>Introduced into rpcrt4.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CStdStubBuffer_QueryInterface</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/aa373619.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa373619.aspx"><strong>CStdStubBuffer_QueryInterface</strong></a></td>
 <td>Introduced into rpcrt4.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CStdStubBuffer2_Connect</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/mt243880.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/mt243880.aspx"><strong>CStdStubBuffer2_Connect</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CStdStubBuffer2_CountRefs</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/mt243881.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/mt243881.aspx"><strong>CStdStubBuffer2_CountRefs</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CStdStubBuffer2_Disconnect</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/mt243882.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/mt243882.aspx"><strong>CStdStubBuffer2_Disconnect</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CStdStubBuffer2_QueryInterface</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/mt243883.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/mt243883.aspx"><strong>CStdStubBuffer2_QueryInterface</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CveEventWrite</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/mt759300.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/mt759300.aspx"><strong>CveEventWrite</strong></a></td>
 <td>Introduced into api-ms-win-security-base-l1-2-1.dll in 10.0.14393. Removed in 10.0.15063.</td>
 </tr>
 </tbody>

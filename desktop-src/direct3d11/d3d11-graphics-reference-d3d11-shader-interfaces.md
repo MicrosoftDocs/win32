@@ -36,23 +36,23 @@ Each of these shader interfaces manages a compiled shader. The interface is crea
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>ID3D11ClassInstance</strong>](/windows/desktop/api/D3D11/nn-d3d11-id3d11classinstance)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11classinstance"><strong>ID3D11ClassInstance</strong></a><br/></td>
 <td>This interface encapsulates an HLSL class.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ID3D11ClassLinkage</strong>](/windows/desktop/api/D3D11/nn-d3d11-id3d11classlinkage)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11classlinkage"><strong>ID3D11ClassLinkage</strong></a><br/></td>
 <td>This interface encapsulates an HLSL dynamic linkage.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ID3D11ComputeShader</strong>](https://msdn.microsoft.com/en-us/library/Ff476363(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff476363(v=VS.85).aspx"><strong>ID3D11ComputeShader</strong></a><br/></td>
 <td>A compute-shader interface manages an executable program (a compute shader) that controls the compute-shader stage.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ID3D11DomainShader</strong>](https://msdn.microsoft.com/en-us/library/Ff476535(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff476535(v=VS.85).aspx"><strong>ID3D11DomainShader</strong></a><br/></td>
 <td>A domain-shader interface manages an executable program (a domain shader) that controls the domain-shader stage.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ID3D11FunctionLinkingGraph</strong>](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11functionlinkinggraph)<br/></td>
+<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11functionlinkinggraph"><strong>ID3D11FunctionLinkingGraph</strong></a><br/></td>
 <td>A function-linking-graph interface is used for constructing shaders that consist of a sequence of precompiled function calls that pass values to each other. <br/>
 <blockquote>
 [!Note]<br />
@@ -61,7 +61,7 @@ This interface is part of the HLSL shader linking technology that you can use on
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ID3D11FunctionReflection</strong>](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11functionreflection)<br/></td>
+<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11functionreflection"><strong>ID3D11FunctionReflection</strong></a><br/></td>
 <td>A function-reflection interface accesses function info. <br/>
 <blockquote>
 [!Note]<br />
@@ -70,7 +70,7 @@ This interface is part of the HLSL shader linking technology that you can use on
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ID3D11FunctionParameterReflection</strong>](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11functionparameterreflection)<br/></td>
+<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11functionparameterreflection"><strong>ID3D11FunctionParameterReflection</strong></a><br/></td>
 <td>A function-parameter-reflection interface accesses function-parameter info. <br/>
 <blockquote>
 [!Note]<br />
@@ -79,15 +79,15 @@ This interface is part of the HLSL shader linking technology that you can use on
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ID3D11GeometryShader</strong>](https://msdn.microsoft.com/en-us/library/Ff476536(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff476536(v=VS.85).aspx"><strong>ID3D11GeometryShader</strong></a><br/></td>
 <td>A geometry-shader interface manages an executable program (a geometry shader) that controls the geometry-shader stage.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ID3D11HullShader</strong>](https://msdn.microsoft.com/en-us/library/Ff476537(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff476537(v=VS.85).aspx"><strong>ID3D11HullShader</strong></a><br/></td>
 <td>A hull-shader interface manages an executable program (a hull shader) that controls the hull-shader stage.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ID3D11LibraryReflection</strong>](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11libraryreflection)<br/></td>
+<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11libraryreflection"><strong>ID3D11LibraryReflection</strong></a><br/></td>
 <td>A library-reflection interface accesses library info. <br/>
 <blockquote>
 [!Note]<br />
@@ -96,7 +96,7 @@ This interface is part of the HLSL shader linking technology that you can use on
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ID3D11Linker</strong>](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11linker)<br/></td>
+<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11linker"><strong>ID3D11Linker</strong></a><br/></td>
 <td>A linker interface is used to link a shader module. <br/>
 <blockquote>
 [!Note]<br />
@@ -105,7 +105,7 @@ This interface is part of the HLSL shader linking technology that you can use on
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ID3D11LinkingNode</strong>](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11linkingnode)<br/></td>
+<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11linkingnode"><strong>ID3D11LinkingNode</strong></a><br/></td>
 <td>A linking-node interface is used for shader linking. <br/>
 <blockquote>
 [!Note]<br />
@@ -114,7 +114,7 @@ This interface is part of the HLSL shader linking technology that you can use on
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ID3D11Module</strong>](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11module)<br/></td>
+<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11module"><strong>ID3D11Module</strong></a><br/></td>
 <td>A module interface creates an instance of a module that is used for resource rebinding. <br/>
 <blockquote>
 [!Note]<br />
@@ -123,7 +123,7 @@ This interface is part of the HLSL shader linking technology that you can use on
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ID3D11ModuleInstance</strong>](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11moduleinstance)<br/></td>
+<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11moduleinstance"><strong>ID3D11ModuleInstance</strong></a><br/></td>
 <td>A module-instance interface is used for resource rebinding. <br/>
 <blockquote>
 [!Note]<br />
@@ -132,35 +132,35 @@ This interface is part of the HLSL shader linking technology that you can use on
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ID3D11PixelShader</strong>](https://msdn.microsoft.com/en-us/library/Ff476576(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff476576(v=VS.85).aspx"><strong>ID3D11PixelShader</strong></a><br/></td>
 <td>A pixel-shader interface manages an executable program (a pixel shader) that controls the pixel-shader stage.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ID3D11ShaderReflection</strong>](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11shaderreflection)<br/></td>
+<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11shaderreflection"><strong>ID3D11ShaderReflection</strong></a><br/></td>
 <td>A shader-reflection interface accesses shader information.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ID3D11ShaderReflectionConstantBuffer</strong>](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11shaderreflectionconstantbuffer)<br/></td>
+<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11shaderreflectionconstantbuffer"><strong>ID3D11ShaderReflectionConstantBuffer</strong></a><br/></td>
 <td>This shader-reflection interface provides access to a constant buffer.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ID3D11ShaderReflectionType</strong>](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11shaderreflectiontype)<br/></td>
+<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11shaderreflectiontype"><strong>ID3D11ShaderReflectionType</strong></a><br/></td>
 <td>This shader-reflection interface provides access to variable type.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ID3D11ShaderReflectionVariable</strong>](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11shaderreflectionvariable)<br/></td>
+<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11shaderreflectionvariable"><strong>ID3D11ShaderReflectionVariable</strong></a><br/></td>
 <td>This shader-reflection interface provides access to a variable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ID3D11ShaderTrace</strong>](/windows/desktop/api/D3D11ShaderTracing/nn-d3d11shadertracing-id3d11shadertrace)<br/></td>
-<td>An [<strong>ID3D11ShaderTrace</strong>](/windows/desktop/api/D3D11ShaderTracing/nn-d3d11shadertracing-id3d11shadertrace) interface implements methods for obtaining traces of shader executions.<br/></td>
+<td><a href="/windows/desktop/api/D3D11ShaderTracing/nn-d3d11shadertracing-id3d11shadertrace"><strong>ID3D11ShaderTrace</strong></a><br/></td>
+<td>An <a href="/windows/desktop/api/D3D11ShaderTracing/nn-d3d11shadertracing-id3d11shadertrace"><strong>ID3D11ShaderTrace</strong></a> interface implements methods for obtaining traces of shader executions.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ID3D11ShaderTraceFactory</strong>](/windows/desktop/api/D3D11ShaderTracing/nn-d3d11shadertracing-id3d11shadertracefactory)<br/></td>
-<td>An [<strong>ID3D11ShaderTraceFactory</strong>](/windows/desktop/api/D3D11ShaderTracing/nn-d3d11shadertracing-id3d11shadertracefactory) interface implements a method for generating shader trace information objects.<br/></td>
+<td><a href="/windows/desktop/api/D3D11ShaderTracing/nn-d3d11shadertracing-id3d11shadertracefactory"><strong>ID3D11ShaderTraceFactory</strong></a><br/></td>
+<td>An <a href="/windows/desktop/api/D3D11ShaderTracing/nn-d3d11shadertracing-id3d11shadertracefactory"><strong>ID3D11ShaderTraceFactory</strong></a> interface implements a method for generating shader trace information objects.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ID3D11VertexShader</strong>](https://msdn.microsoft.com/en-us/library/Ff476641(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Ff476641(v=VS.85).aspx"><strong>ID3D11VertexShader</strong></a><br/></td>
 <td>A vertex-shader interface manages an executable program (a vertex shader) that controls the vertex-shader stage.<br/></td>
 </tr>
 </tbody>

@@ -35,32 +35,32 @@ ms.date: 05/31/2018
 <tr class="odd">
 <td>Workstation boot</td>
 <td><ol>
-<li>Winlogon calls the GINA's [<strong>WlxNegotiate</strong>](/windows/desktop/api/Winwlx/nf-winwlx-wlxnegotiate) function to notify the GINA about the version of Winlogon in use.</li>
-<li>Winlogon calls the GINA's [<strong>WlxInitialize</strong>](/windows/desktop/api/Winwlx/nf-winwlx-wlxinitialize) function to give the GINA the addresses of the support functions, a handle to Winlogon, and to obtain the [<em>context</em>](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) information for the GINA (to be used in all future calls to the GINA).<br/> Winlogon is in the logged-out state.<br/></li>
+<li>Winlogon calls the GINA's <a href="/windows/desktop/api/Winwlx/nf-winwlx-wlxnegotiate"><strong>WlxNegotiate</strong></a> function to notify the GINA about the version of Winlogon in use.</li>
+<li>Winlogon calls the GINA's <a href="/windows/desktop/api/Winwlx/nf-winwlx-wlxinitialize"><strong>WlxInitialize</strong></a> function to give the GINA the addresses of the support functions, a handle to Winlogon, and to obtain the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx"><em>context</em></a> information for the GINA (to be used in all future calls to the GINA).<br/> Winlogon is in the logged-out state.<br/></li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>No one is logged on</td>
 <td>(The GINA monitors devices for SAS events).
 <ol>
-<li>The GINA calls Winlogon's [<strong>WlxSasNotify</strong>](https://msdn.microsoft.com/en-us/library/Aa380582(v=VS.85).aspx) function when a SAS event has been received.</li>
-<li>Winlogon calls the GINA's [<strong>WlxLoggedOutSAS</strong>](/windows/desktop/api/Winwlx/nf-winwlx-wlxloggedoutsas) function, allowing the GINA to process a user's identification and authentication information.<br/> When logon is successful, Winlogon is in the logged-on state.<br/></li>
+<li>The GINA calls Winlogon's <a href="https://msdn.microsoft.com/en-us/library/Aa380582(v=VS.85).aspx"><strong>WlxSasNotify</strong></a> function when a SAS event has been received.</li>
+<li>Winlogon calls the GINA's <a href="/windows/desktop/api/Winwlx/nf-winwlx-wlxloggedoutsas"><strong>WlxLoggedOutSAS</strong></a> function, allowing the GINA to process a user's identification and authentication information.<br/> When logon is successful, Winlogon is in the logged-on state.<br/></li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>The user is logged on</td>
 <td>(The GINA monitors devices for SAS events).
 <ol>
-<li>The GINA calls Winlogon's [<strong>WlxSasNotify</strong>](https://msdn.microsoft.com/en-us/library/Aa380582(v=VS.85).aspx) function when a SAS event has been received.</li>
-<li>Winlogon calls the GINA's [<strong>WlxLoggedOnSAS</strong>](/windows/desktop/api/Winwlx/nf-winwlx-wlxloggedonsas) function, allowing the GINA to present options to the user who is currently logged on.</li>
+<li>The GINA calls Winlogon's <a href="https://msdn.microsoft.com/en-us/library/Aa380582(v=VS.85).aspx"><strong>WlxSasNotify</strong></a> function when a SAS event has been received.</li>
+<li>Winlogon calls the GINA's <a href="/windows/desktop/api/Winwlx/nf-winwlx-wlxloggedonsas"><strong>WlxLoggedOnSAS</strong></a> function, allowing the GINA to present options to the user who is currently logged on.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>The user is logged on and wants to lock computer</td>
 <td>(The GINA monitors devices for SAS events).
 <ol>
-<li>The GINA calls the [<strong>WlxSasNotify</strong>](https://msdn.microsoft.com/en-us/library/Aa380582(v=VS.85).aspx) function.</li>
-<li>Winlogon calls the GINA's [<strong>WlxLoggedOnSAS</strong>](/windows/desktop/api/Winwlx/nf-winwlx-wlxloggedonsas) function.</li>
+<li>The GINA calls the <a href="https://msdn.microsoft.com/en-us/library/Aa380582(v=VS.85).aspx"><strong>WlxSasNotify</strong></a> function.</li>
+<li>Winlogon calls the GINA's <a href="/windows/desktop/api/Winwlx/nf-winwlx-wlxloggedonsas"><strong>WlxLoggedOnSAS</strong></a> function.</li>
 <li>The GINA returns WLX_SAS_ACTION_LOCK_WKSTA.<br/> Winlogon is in the workstation-locked state.<br/></li>
 </ol></td>
 </tr>
@@ -68,41 +68,41 @@ ms.date: 05/31/2018
 <td>The user is logged on, the workstation is locked, and the user wants to unlock computer</td>
 <td>(The GINA monitors devices for SAS events).
 <ol>
-<li>The GINA calls the [<strong>WlxSasNotify</strong>](https://msdn.microsoft.com/en-us/library/Aa380582(v=VS.85).aspx) function.</li>
-<li>Winlogon calls the GINA's [<strong>WlxWkstaLockedSAS</strong>](/windows/desktop/api/Winwlx/nf-winwlx-wlxwkstalockedsas) function.</li>
+<li>The GINA calls the <a href="https://msdn.microsoft.com/en-us/library/Aa380582(v=VS.85).aspx"><strong>WlxSasNotify</strong></a> function.</li>
+<li>Winlogon calls the GINA's <a href="/windows/desktop/api/Winwlx/nf-winwlx-wlxwkstalockedsas"><strong>WlxWkstaLockedSAS</strong></a> function.</li>
 <li>The GINA returns WLX_SAS_ACTION_UNLOCK_WKSTA.</li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>The user is logged on, and the program calls the [<strong>ExitWindowsEx</strong>](https://msdn.microsoft.com/en-us/library/Aa376868(v=VS.85).aspx) function</td>
-<td>Winlogon calls the GINA's [<strong>WlxLogoff</strong>](/windows/desktop/api/Winwlx/nf-winwlx-wlxlogoff) function.</td>
+<td>The user is logged on, and the program calls the <a href="https://msdn.microsoft.com/en-us/library/Aa376868(v=VS.85).aspx"><strong>ExitWindowsEx</strong></a> function</td>
+<td>Winlogon calls the GINA's <a href="/windows/desktop/api/Winwlx/nf-winwlx-wlxlogoff"><strong>WlxLogoff</strong></a> function.</td>
 </tr>
 <tr class="odd">
 <td>The user is logged on and wants to log off by using SAS</td>
 <td>(The GINA monitors devices for SAS events).
 <ol>
-<li>The GINA calls the [<strong>WlxSasNotify</strong>](https://msdn.microsoft.com/en-us/library/Aa380582(v=VS.85).aspx) function.</li>
-<li>Winlogon calls the GINA's [<strong>WlxLoggedOnSAS</strong>](/windows/desktop/api/Winwlx/nf-winwlx-wlxloggedonsas) function.</li>
+<li>The GINA calls the <a href="https://msdn.microsoft.com/en-us/library/Aa380582(v=VS.85).aspx"><strong>WlxSasNotify</strong></a> function.</li>
+<li>Winlogon calls the GINA's <a href="/windows/desktop/api/Winwlx/nf-winwlx-wlxloggedonsas"><strong>WlxLoggedOnSAS</strong></a> function.</li>
 <li>The GINA returns WLX_SAS_ACTION_LOGOFF.</li>
-<li>Winlogon calls the GINA's [<strong>WlxLogoff</strong>](/windows/desktop/api/Winwlx/nf-winwlx-wlxlogoff) function.</li>
+<li>Winlogon calls the GINA's <a href="/windows/desktop/api/Winwlx/nf-winwlx-wlxlogoff"><strong>WlxLogoff</strong></a> function.</li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>The user is logged on and wants to log off and shut down by using [<strong>ExitWindowsEx</strong>](https://msdn.microsoft.com/en-us/library/Aa376868(v=VS.85).aspx)</td>
+<td>The user is logged on and wants to log off and shut down by using <a href="https://msdn.microsoft.com/en-us/library/Aa376868(v=VS.85).aspx"><strong>ExitWindowsEx</strong></a></td>
 <td><ol>
-<li>Winlogon calls the GINA's [<strong>WlxLogoff</strong>](/windows/desktop/api/Winwlx/nf-winwlx-wlxlogoff) function.</li>
-<li>Winlogon calls the GINA's [<strong>WlxShutdown</strong>](/windows/desktop/api/Winwlx/nf-winwlx-wlxshutdown) function.</li>
+<li>Winlogon calls the GINA's <a href="/windows/desktop/api/Winwlx/nf-winwlx-wlxlogoff"><strong>WlxLogoff</strong></a> function.</li>
+<li>Winlogon calls the GINA's <a href="/windows/desktop/api/Winwlx/nf-winwlx-wlxshutdown"><strong>WlxShutdown</strong></a> function.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>The user is logged on and wants to log off and shut down by using SAS</td>
 <td>(The GINA monitors devices for SAS events).
 <ol>
-<li>The GINA calls the [<strong>WlxSasNotify</strong>](https://msdn.microsoft.com/en-us/library/Aa380582(v=VS.85).aspx) function.</li>
-<li>Winlogon calls the GINA's [<strong>WlxLoggedOnSAS</strong>](/windows/desktop/api/Winwlx/nf-winwlx-wlxloggedonsas) function.</li>
+<li>The GINA calls the <a href="https://msdn.microsoft.com/en-us/library/Aa380582(v=VS.85).aspx"><strong>WlxSasNotify</strong></a> function.</li>
+<li>Winlogon calls the GINA's <a href="/windows/desktop/api/Winwlx/nf-winwlx-wlxloggedonsas"><strong>WlxLoggedOnSAS</strong></a> function.</li>
 <li>The GINA returns WLX_SAS_ACTION_SHUTDOWN.</li>
-<li>Winlogon calls the GINA's [<strong>WlxLogoff</strong>](/windows/desktop/api/Winwlx/nf-winwlx-wlxlogoff) function.</li>
-<li>Winlogon calls the GINA's [<strong>WlxShutdown</strong>](/windows/desktop/api/Winwlx/nf-winwlx-wlxshutdown) function.</li>
+<li>Winlogon calls the GINA's <a href="/windows/desktop/api/Winwlx/nf-winwlx-wlxlogoff"><strong>WlxLogoff</strong></a> function.</li>
+<li>Winlogon calls the GINA's <a href="/windows/desktop/api/Winwlx/nf-winwlx-wlxshutdown"><strong>WlxShutdown</strong></a> function.</li>
 </ol></td>
 </tr>
 </tbody>

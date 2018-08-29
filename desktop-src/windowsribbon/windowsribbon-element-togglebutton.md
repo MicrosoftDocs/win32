@@ -54,14 +54,14 @@ Represents a [Toggle Button](windowsribbon-controls-togglebutton.md) control.
 <td><strong>ApplicationDefaults.IsChecked</strong><br/></td>
 <td>Boolean<br/></td>
 <td>No<br/></td>
-<td>This attribute is valid only when the <strong>ToggleButton</strong> element is a child of [<strong>QuickAccessToolbar.ApplicationDefaults</strong>](windowsribbon-element-quickaccesstoolbar-applicationdefaults.md). <br/> Restricted to one of the following values:<br/> <br/>
+<td>This attribute is valid only when the <strong>ToggleButton</strong> element is a child of <a href="windowsribbon-element-quickaccesstoolbar-applicationdefaults"><strong>QuickAccessToolbar.ApplicationDefaults</strong></a>. <br/> Restricted to one of the following values:<br/> <br/>
 <dt><span></span><span></span><strong></strong> (true)<br/> </dt> <dd> Default. <br/> </dd> <dt><span></span><span></span><strong></strong> (false)<br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>CommandName</strong><br/></td>
 <td>xs:positiveInteger or xs:string<br/></td>
 <td>No<br/></td>
-<td>Associates the element with a [<strong>Command</strong>](windowsribbon-element-command.md).<br/> <br/>
+<td>Associates the element with a <a href="windowsribbon-element-command"><strong>Command</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs:positiveInteger or xs:string)<br/> </dt> <dd> A string, an integer value between 2 and 59999, inclusive, or a hexadecimal value between 0x2 and 0xea5f, inclusive. <br/> The value must be unique within the Ribbon XML document. <br/> Maximum length: 100 characters. <br/> </dd> </dl></td>
 </tr>
 </tbody>

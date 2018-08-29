@@ -65,7 +65,7 @@ An optional parameter that controls how the statement is compiled. When no attri
 <td>Compile the statement as a series of <strong>if</strong> statements each with the <strong>branch</strong> attribute.
 <blockquote>
 [!Note]<br />
-When you use [Shader Model 2.x](dx-graphics-hlsl-sm2.md) or [Shader Model 3.0](dx-graphics-hlsl-sm3.md), each time you use dynamic branching you consume resources. So, if you use dynamic branching excessively when you target these profiles, you can receive compilation errors.
+When you use <a href="dx-graphics-hlsl-sm2">Shader Model 2.x</a> or <a href="dx-graphics-hlsl-sm3">Shader Model 3.0</a>, each time you use dynamic branching you consume resources. So, if you use dynamic branching excessively when you target these profiles, you can receive compilation errors.
 </blockquote>
 <br/></td>
 </tr>
@@ -74,7 +74,7 @@ When you use [Shader Model 2.x](dx-graphics-hlsl-sm2.md) or [Shader Model 3.0](d
 <td>Force a switch statement in the hardware.
 <blockquote>
 [!Note]<br />
-Requires [feature level](https://msdn.microsoft.com/library/windows/desktop/ff476876) 10_0 or later hardware.
+Requires <a href="https://msdn.microsoft.com/library/windows/desktop/ff476876">feature level</a> 10_0 or later hardware.
 </blockquote>
 <br/></td>
 </tr>
@@ -83,7 +83,7 @@ Requires [feature level](https://msdn.microsoft.com/library/windows/desktop/ff47
 <td>The bodies of the individual cases in the switch will be moved into hardware subroutines and the switch will be a series of subroutine calls.
 <blockquote>
 [!Note]<br />
-Requires [feature level](https://msdn.microsoft.com/library/windows/desktop/ff476876) 10_0 or later hardware.
+Requires <a href="https://msdn.microsoft.com/library/windows/desktop/ff476876">feature level</a> 10_0 or later hardware.
 </blockquote>
 <br/></td>
 </tr>

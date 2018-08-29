@@ -55,24 +55,24 @@ The following table lists the property keys that are associated with the Split B
 </thead>
 <tbody>
 <tr class="odd">
-<td>[UI_PKEY_Enabled](windowsribbon-reference-properties-uipkey-enabled.md)</td>
-<td>Supports [<strong>IUIFramework::GetUICommandProperty</strong>](https://msdn.microsoft.com/library/windows/desktop/dd371370) and [<strong>IUIFramework::SetUICommandProperty</strong>](https://msdn.microsoft.com/library/windows/desktop/dd371478).<br/> If all child items are disabled, the framework sets [UI_PKEY_Enabled](windowsribbon-reference-properties-uipkey-enabled.md) to false (0). Otherwise, if one or more child items are enabled, UI_PKEY_Enabled is set to true (-1).
+<td><a href="windowsribbon-reference-properties-uipkey-enabled">UI_PKEY_Enabled</a></td>
+<td>Supports <a href="https://msdn.microsoft.com/library/windows/desktop/dd371370"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd371478"><strong>IUIFramework::SetUICommandProperty</strong></a>.<br/> If all child items are disabled, the framework sets <a href="windowsribbon-reference-properties-uipkey-enabled">UI_PKEY_Enabled</a> to false (0). Otherwise, if one or more child items are enabled, UI_PKEY_Enabled is set to true (-1).
 <blockquote>
 [!Important]<br />
-The [UI_PKEY_Enabled](windowsribbon-reference-properties-uipkey-enabled.md) property for the Split Button control should be invalidated after one or more child items are enabled or disabled. This ensures that the framework queries the updated property value and refreshes the state of the Split Button control in the ribbon UI.
+The <a href="windowsribbon-reference-properties-uipkey-enabled">UI_PKEY_Enabled</a> property for the Split Button control should be invalidated after one or more child items are enabled or disabled. This ensures that the framework queries the updated property value and refreshes the state of the Split Button control in the ribbon UI.
 </blockquote>
 <br/> <br/></td>
 </tr>
 <tr class="even">
-<td>[UI_PKEY_Keytip](windowsribbon-reference-properties-uipkey-keytip.md)</td>
+<td><a href="windowsribbon-reference-properties-uipkey-keytip">UI_PKEY_Keytip</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 <tr class="odd">
-<td>[UI_PKEY_TooltipDescription](windowsribbon-reference-properties-uipkey-tooltipdescription.md)</td>
+<td><a href="windowsribbon-reference-properties-uipkey-tooltipdescription">UI_PKEY_TooltipDescription</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 <tr class="even">
-<td>[UI_PKEY_TooltipTitle](windowsribbon-reference-properties-uipkey-tooltiptitle.md)</td>
+<td><a href="windowsribbon-reference-properties-uipkey-tooltiptitle">UI_PKEY_TooltipTitle</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 </tbody>

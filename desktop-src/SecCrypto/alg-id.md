@@ -41,32 +41,32 @@ The following table lists the algorithm identifiers that are currently defined. 
 <tr class="odd">
 <td>CALG_3DES</td>
 <td>0x00006603</td>
-<td>[<em>Triple DES</em>](https://msdn.microsoft.com/en-us/library/ms721627(v=VS.85).aspx) encryption algorithm.</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms721627(v=VS.85).aspx"><em>Triple DES</em></a> encryption algorithm.</td>
 </tr>
 <tr class="even">
 <td>CALG_3DES_112</td>
 <td>0x00006609</td>
-<td>Two-key [<em>triple DES</em>](https://msdn.microsoft.com/en-us/library/ms721627(v=VS.85).aspx) encryption with effective key length equal to 112 bits.</td>
+<td>Two-key <a href="https://msdn.microsoft.com/en-us/library/ms721627(v=VS.85).aspx"><em>triple DES</em></a> encryption with effective key length equal to 112 bits.</td>
 </tr>
 <tr class="odd">
 <td>CALG_AES</td>
 <td>0x00006611</td>
-<td>Advanced Encryption Standard (AES). This algorithm is supported by the [Microsoft AES Cryptographic Provider](microsoft-aes-cryptographic-provider.md).</td>
+<td>Advanced Encryption Standard (AES). This algorithm is supported by the <a href="microsoft-aes-cryptographic-provider">Microsoft AES Cryptographic Provider</a>.</td>
 </tr>
 <tr class="even">
 <td>CALG_AES_128</td>
 <td>0x0000660e</td>
-<td>128 bit AES. This algorithm is supported by the [Microsoft AES Cryptographic Provider](microsoft-aes-cryptographic-provider.md).</td>
+<td>128 bit AES. This algorithm is supported by the <a href="microsoft-aes-cryptographic-provider">Microsoft AES Cryptographic Provider</a>.</td>
 </tr>
 <tr class="odd">
 <td>CALG_AES_192</td>
 <td>0x0000660f</td>
-<td>192 bit AES. This algorithm is supported by the [Microsoft AES Cryptographic Provider](microsoft-aes-cryptographic-provider.md).</td>
+<td>192 bit AES. This algorithm is supported by the <a href="microsoft-aes-cryptographic-provider">Microsoft AES Cryptographic Provider</a>.</td>
 </tr>
 <tr class="even">
 <td>CALG_AES_256</td>
 <td>0x00006610</td>
-<td>256 bit AES. This algorithm is supported by the [Microsoft AES Cryptographic Provider](microsoft-aes-cryptographic-provider.md).</td>
+<td>256 bit AES. This algorithm is supported by the <a href="microsoft-aes-cryptographic-provider">Microsoft AES Cryptographic Provider</a>.</td>
 </tr>
 <tr class="odd">
 <td>CALG_AGREEDKEY_ANY</td>
@@ -101,7 +101,7 @@ The following table lists the algorithm identifiers that are currently defined. 
 <tr class="odd">
 <td>CALG_DSS_SIGN</td>
 <td>0x00002200</td>
-<td>DSA [<em>public key</em>](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) signature algorithm.</td>
+<td>DSA <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx"><em>public key</em></a> signature algorithm.</td>
 </tr>
 <tr class="even">
 <td>CALG_ECDH</td>
@@ -109,7 +109,7 @@ The following table lists the algorithm identifiers that are currently defined. 
 <td>Elliptic curve Diffie-Hellman key exchange algorithm.
 <blockquote>
 [!Note]<br />
-This algorithm is supported only through [Cryptography API: Next Generation](https://msdn.microsoft.com/en-us/library/Aa376210(v=VS.85).aspx).
+This algorithm is supported only through <a href="https://msdn.microsoft.com/en-us/library/Aa376210(v=VS.85).aspx">Cryptography API: Next Generation</a>.
 </blockquote>
 <br/> <strong>Windows Server 2003 and Windows XP:</strong> This algorithm is not supported.<br/></td>
 </tr>
@@ -119,7 +119,7 @@ This algorithm is supported only through [Cryptography API: Next Generation](htt
 <td>Ephemeral elliptic curve Diffie-Hellman key exchange algorithm.
 <blockquote>
 [!Note]<br />
-This algorithm is supported only through [Cryptography API: Next Generation](https://msdn.microsoft.com/en-us/library/Aa376210(v=VS.85).aspx).
+This algorithm is supported only through <a href="https://msdn.microsoft.com/en-us/library/Aa376210(v=VS.85).aspx">Cryptography API: Next Generation</a>.
 </blockquote>
 <br/> <strong>Windows Server 2003 and Windows XP:</strong> This algorithm is not supported.<br/></td>
 </tr>
@@ -129,7 +129,7 @@ This algorithm is supported only through [Cryptography API: Next Generation](htt
 <td>Elliptic curve digital signature algorithm.
 <blockquote>
 [!Note]<br />
-This algorithm is supported only through [Cryptography API: Next Generation](https://msdn.microsoft.com/en-us/library/Aa376210(v=VS.85).aspx).
+This algorithm is supported only through <a href="https://msdn.microsoft.com/en-us/library/Aa376210(v=VS.85).aspx">Cryptography API: Next Generation</a>.
 </blockquote>
 <br/> <strong>Windows Server 2003 and Windows XP:</strong> This algorithm is not supported.<br/></td>
 </tr>
@@ -161,7 +161,7 @@ This algorithm is supported only through [Cryptography API: Next Generation](htt
 <tr class="even">
 <td>CALG_MAC</td>
 <td>0x00008005</td>
-<td>[<em>MAC</em>](https://msdn.microsoft.com/en-us/library/ms721594(v=VS.85).aspx) keyed hash algorithm. This algorithm is supported by the [Microsoft Base Cryptographic Provider](microsoft-base-cryptographic-provider.md).</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms721594(v=VS.85).aspx"><em>MAC</em></a> keyed hash algorithm. This algorithm is supported by the [Microsoft Base Cryptographic Provider](microsoft-base-cryptographic-provider.md).</td>
 </tr>
 <tr class="odd">
 <td>CALG_MD2</td>

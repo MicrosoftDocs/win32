@@ -53,35 +53,35 @@ TOM is a straightforward set of interfaces to implement for its primary text sol
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>ITextDocument</strong>](/windows/desktop/api/Tom/nn-tom-itextdocument)</td>
-<td>The [<strong>ITextDocument</strong>](/windows/desktop/api/Tom/nn-tom-itextdocument) interface is the TOM top-level interface, which retrieves the active selection and range objects for any story in the document whether active or not. It enables the application to:
+<td><a href="/windows/desktop/api/Tom/nn-tom-itextdocument"><strong>ITextDocument</strong></a></td>
+<td>The <a href="/windows/desktop/api/Tom/nn-tom-itextdocument"><strong>ITextDocument</strong></a> interface is the TOM top-level interface, which retrieves the active selection and range objects for any story in the document whether active or not. It enables the application to:
 <ul>
 <li>Open and save documents.</li>
 <li>Control undo behavior and screen updating.</li>
 <li>Find a range from a screen position.</li>
-<li>Get an [<strong>ITextStoryRanges</strong>](/windows/desktop/api/Tom/nn-tom-itextstoryranges) story enumerator.</li>
+<li>Get an <a href="/windows/desktop/api/Tom/nn-tom-itextstoryranges"><strong>ITextStoryRanges</strong></a> story enumerator.</li>
 </ul>
-<br/> <strong>When to Implement</strong><br/> Applications typically do not implement the [<strong>ITextDocument</strong>](/windows/desktop/api/Tom/nn-tom-itextdocument) interface. Microsoft text solutions, such as rich edit controls, implement <strong>ITextDocument</strong> as part of their TOM implementation. <br/> <strong>When to Use</strong><br/> Applications can retrieve an [<strong>ITextDocument</strong>](/windows/desktop/api/Tom/nn-tom-itextdocument) pointer from a rich edit control. To do this, send an [<strong>EM_GETOLEINTERFACE</strong>](em-getoleinterface.md) message to retrieve an [<strong>IRichEditOle</strong>](/windows/desktop/api/Richole/nn-richole-iricheditole) object from a rich edit control. Then, call the object's [<strong>IUnknown::QueryInterface</strong>](https://msdn.microsoft.com/library/windows/desktop/ms682521) method to retrieve an <strong>ITextDocument</strong> pointer.<br/></td>
+<br/> <strong>When to Implement</strong><br/> Applications typically do not implement the <a href="/windows/desktop/api/Tom/nn-tom-itextdocument"><strong>ITextDocument</strong></a> interface. Microsoft text solutions, such as rich edit controls, implement <strong>ITextDocument</strong> as part of their TOM implementation. <br/> <strong>When to Use</strong><br/> Applications can retrieve an <a href="/windows/desktop/api/Tom/nn-tom-itextdocument"><strong>ITextDocument</strong></a> pointer from a rich edit control. To do this, send an <a href="em-getoleinterface"><strong>EM_GETOLEINTERFACE</strong></a> message to retrieve an <a href="/windows/desktop/api/Richole/nn-richole-iricheditole"><strong>IRichEditOle</strong></a> object from a rich edit control. Then, call the object's <a href="https://msdn.microsoft.com/library/windows/desktop/ms682521"><strong>IUnknown::QueryInterface</strong></a> method to retrieve an <strong>ITextDocument</strong> pointer.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ITextFont</strong>](/windows/desktop/api/Tom/nn-tom-itextfont)</td>
-<td>TOM rich text-range attributes are accessed through a pair of dual interfaces, [<strong>ITextFont</strong>](/windows/desktop/api/Tom/nn-tom-itextfont) and [<strong>ITextPara</strong>](/windows/desktop/api/Tom/nn-tom-itextpara).<br/></td>
+<td><a href="/windows/desktop/api/Tom/nn-tom-itextfont"><strong>ITextFont</strong></a></td>
+<td>TOM rich text-range attributes are accessed through a pair of dual interfaces, <a href="/windows/desktop/api/Tom/nn-tom-itextfont"><strong>ITextFont</strong></a> and <a href="/windows/desktop/api/Tom/nn-tom-itextpara"><strong>ITextPara</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ITextPara</strong>](/windows/desktop/api/Tom/nn-tom-itextpara)</td>
-<td>TOM rich text-range attributes are accessed through a pair of dual interfaces, [<strong>ITextFont</strong>](/windows/desktop/api/Tom/nn-tom-itextfont) and [<strong>ITextPara</strong>](/windows/desktop/api/Tom/nn-tom-itextpara).<br/></td>
+<td><a href="/windows/desktop/api/Tom/nn-tom-itextpara"><strong>ITextPara</strong></a></td>
+<td>TOM rich text-range attributes are accessed through a pair of dual interfaces, <a href="/windows/desktop/api/Tom/nn-tom-itextfont"><strong>ITextFont</strong></a> and <a href="/windows/desktop/api/Tom/nn-tom-itextpara"><strong>ITextPara</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ITextRange</strong>](/windows/desktop/api/Tom/nn-tom-itextrange)</td>
-<td>The [<strong>ITextRange</strong>](/windows/desktop/api/Tom/nn-tom-itextrange) objects are powerful editing and data-binding tools that allow a program to select text in a story and then examine or change that text.<br/></td>
+<td><a href="/windows/desktop/api/Tom/nn-tom-itextrange"><strong>ITextRange</strong></a></td>
+<td>The <a href="/windows/desktop/api/Tom/nn-tom-itextrange"><strong>ITextRange</strong></a> objects are powerful editing and data-binding tools that allow a program to select text in a story and then examine or change that text.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ITextSelection</strong>](/windows/desktop/api/Tom/nn-tom-itextselection)</td>
+<td><a href="/windows/desktop/api/Tom/nn-tom-itextselection"><strong>ITextSelection</strong></a></td>
 <td>A text selection is a text range with selection highlighting.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ITextStoryRanges</strong>](/windows/desktop/api/Tom/nn-tom-itextstoryranges)</td>
-<td>The purpose of the [<strong>ITextStoryRanges</strong>](/windows/desktop/api/Tom/nn-tom-itextstoryranges) interface is to enumerate the stories in an [<strong>ITextDocument</strong>](/windows/desktop/api/Tom/nn-tom-itextdocument).<br/></td>
+<td><a href="/windows/desktop/api/Tom/nn-tom-itextstoryranges"><strong>ITextStoryRanges</strong></a></td>
+<td>The purpose of the <a href="/windows/desktop/api/Tom/nn-tom-itextstoryranges"><strong>ITextStoryRanges</strong></a> interface is to enumerate the stories in an <a href="/windows/desktop/api/Tom/nn-tom-itextdocument"><strong>ITextDocument</strong></a>.<br/></td>
 </tr>
 </tbody>
 </table>

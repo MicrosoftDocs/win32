@@ -32,7 +32,7 @@ This topic defines the LOCALE\_SMONTHNAME\* constants used by NLS.
 <td>Native long name for January. The maximum number of characters allowed for this string is 80, including a terminating null character.
 <blockquote>
 [!Note]<br />
-Calling the [<strong>GetLocaleInfo</strong>](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) or [<strong>GetLocaleInfoEx</strong>](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex) function with a LOCALE_SMONTHNAME* constant returns the standalone, or nominative, form of the month name. To get the genitive form of the month name, the application calls [GetDateFormat](/windows/desktop/api/datetimeapi/nf-datetimeapi-getdateformata) or [GetDateFormatEx](/windows/desktop/api/datetimeapi/nf-datetimeapi-getdateformatex) with a date picture of ddMMMM and removes the two digits from the beginning of the retrieved string.
+Calling the <a href="/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa"><strong>GetLocaleInfo</strong></a> or <a href="/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex"><strong>GetLocaleInfoEx</strong></a> function with a LOCALE_SMONTHNAME* constant returns the standalone, or nominative, form of the month name. To get the genitive form of the month name, the application calls <a href="/windows/desktop/api/datetimeapi/nf-datetimeapi-getdateformata">GetDateFormat</a> or <a href="/windows/desktop/api/datetimeapi/nf-datetimeapi-getdateformatex">GetDateFormatEx</a> with a date picture of ddMMMM and removes the two digits from the beginning of the retrieved string.
 </blockquote>
 <br/></td>
 </tr>

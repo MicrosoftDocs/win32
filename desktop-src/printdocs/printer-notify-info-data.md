@@ -171,7 +171,7 @@ If the **Type** member specifies PRINTER\_NOTIFY\_TYPE, the **Field** member can
 </tr>
 <tr class="even">
 <td>PRINTER_NOTIFY_FIELD_DEVMODE</td>
-<td><strong>pBuf</strong> is a pointer to a [<strong>DEVMODE</strong>](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure that defines default printer data such as the paper orientation and the resolution.</td>
+<td><strong>pBuf</strong> is a pointer to a <a href="/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea"><strong>DEVMODE</strong></a> structure that defines default printer data such as the paper orientation and the resolution.</td>
 <td>0x07</td>
 </tr>
 <tr class="odd">
@@ -196,7 +196,7 @@ If the **Type** member specifies PRINTER\_NOTIFY\_TYPE, the **Field** member can
 </tr>
 <tr class="odd">
 <td>PRINTER_NOTIFY_FIELD_SECURITY_DESCRIPTOR</td>
-<td><strong>pBuf</strong> is a pointer to a [<strong>SECURITY_DESCRIPTOR</strong>](https://msdn.microsoft.com/library/windows/desktop/aa379561) structure for the printer. The pointer may be <strong>NULL</strong> if there is no security descriptor.</td>
+<td><strong>pBuf</strong> is a pointer to a <a href="https://msdn.microsoft.com/library/windows/desktop/aa379561"><strong>SECURITY_DESCRIPTOR</strong></a> structure for the printer. The pointer may be <strong>NULL</strong> if there is no security descriptor.</td>
 <td>0x0C</td>
 </tr>
 <tr class="even">
@@ -230,7 +230,7 @@ PRINTER_ATTRIBUTE_SHARED<br />
 </tr>
 <tr class="odd">
 <td>PRINTER_NOTIFY_FIELD_STATUS</td>
-<td><strong>adwData</strong> [0] specifies the printer status. For a list of possible values, see the [<strong>PRINTER_INFO_2</strong>](printer-info-2.md) structure.</td>
+<td><strong>adwData</strong> [0] specifies the printer status. For a list of possible values, see the <a href="printer-info-2"><strong>PRINTER_INFO_2</strong></a> structure.</td>
 <td>0x12</td>
 </tr>
 <tr class="even">

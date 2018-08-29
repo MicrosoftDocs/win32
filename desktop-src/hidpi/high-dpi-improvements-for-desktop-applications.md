@@ -76,7 +76,7 @@ Note that non-client areas of a child window, such as non-client scroll bars of 
 
 </dd> <dd>
 
-</dd> <dd>[****GetDpiForWindow****](/windows/desktop/api/Winuser/nf-winuser-getdpiforwindow)<dl> <dt>**GetDpiForWindow** will return the DPI associated with the HWND provided. The answer will depend on the DPI awareness mode of the HWND:
+</dd> <dd><a href="/windows/desktop/api/Winuser/nf-winuser-getdpiforwindow">****GetDpiForWindow****</a><dl> <dt>**GetDpiForWindow** will return the DPI associated with the HWND provided. The answer will depend on the DPI awareness mode of the HWND:
 
 | DPI Awareness mode of HWND | Return value                                                                                                                                                                                                  |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -89,7 +89,7 @@ Note that non-client areas of a child window, such as non-client scroll bars of 
  
 
 
-</dt> </dl> </dd> <dd>[****GetDpiForSystem****](/windows/desktop/api/Winuser/nf-winuser-getdpiforsystem)<dl> <dt>
+</dt> </dl> </dd> <dd><a href="/windows/desktop/api/Winuser/nf-winuser-getdpiforsystem">****GetDpiForSystem****</a><dl> <dt>
 
 Calling **GetDpiForSystem** is more efficient than calling [**GetDC**](https://msdn.microsoft.com/library/windows/desktop/dd144871.aspx) and [**GetDeviceCaps**](https://msdn.microsoft.com/library/windows/desktop/dd144877.aspx) to obtain the system DPI.
 </dt> <dt>

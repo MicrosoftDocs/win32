@@ -142,13 +142,13 @@ A system logger must set **EnableFlags** to indicate which SystemTraceProvider e
 <tbody>
 <tr class="odd">
 <td><span id="EVENT_TRACE_FLAG_ALPC"></span><span id="event_trace_flag_alpc"></span><dl> <dt><strong><strong>EVENT_TRACE_FLAG_ALPC</strong></strong></dt> <dt>0x00100000</dt> </dl></td>
-<td>Enables the [<strong>ALPC</strong>](alpc.md) event types.<br/> This value is supported on Windows Vista and later.<br/></td>
+<td>Enables the <a href="alpc"><strong>ALPC</strong></a> event types.<br/> This value is supported on Windows Vista and later.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="EVENT_TRACE_FLAG_CSWITCH"></span><span id="event_trace_flag_cswitch"></span><dl> <dt><strong><strong>EVENT_TRACE_FLAG_CSWITCH</strong></strong></dt> <dt>0x00000010</dt> </dl></td>
-<td>Enables the following [<strong>Thread</strong>](thread.md) event type:
+<td>Enables the following <a href="thread"><strong>Thread</strong></a> event type:
 <ul>
-<li>[<strong>CSwitch</strong>](cswitch.md)</li>
+<li><a href="cswitch"><strong>CSwitch</strong></a></li>
 </ul>
 <br/> This value is supported on Windows Vista and later.<br/></td>
 </tr>
@@ -158,87 +158,87 @@ A system logger must set **EnableFlags** to indicate which SystemTraceProvider e
 </tr>
 <tr class="even">
 <td><span id="EVENT_TRACE_FLAG_DISK_FILE_IO"></span><span id="event_trace_flag_disk_file_io"></span><dl> <dt><strong><strong>EVENT_TRACE_FLAG_DISK_FILE_IO</strong></strong></dt> <dt>0x00000200</dt> </dl></td>
-<td>Enables the following [<strong>FileIo</strong>](fileio.md) event type (you must also enable EVENT_TRACE_FLAG_DISK_IO):<br/>
+<td>Enables the following <a href="fileio"><strong>FileIo</strong></a> event type (you must also enable EVENT_TRACE_FLAG_DISK_IO):<br/>
 <ul>
-<li>[<strong>FileIo_Name</strong>](fileio-name.md)</li>
+<li><a href="fileio-name"><strong>FileIo_Name</strong></a></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><span id="EVENT_TRACE_FLAG_DISK_IO"></span><span id="event_trace_flag_disk_io"></span><dl> <dt><strong><strong>EVENT_TRACE_FLAG_DISK_IO</strong></strong></dt> <dt>0x00000100</dt> </dl></td>
-<td>Enables the following [<strong>DiskIo</strong>](diskio.md) event types:<br/>
+<td>Enables the following <a href="diskio"><strong>DiskIo</strong></a> event types:<br/>
 <ul>
-<li>[<strong>DiskIo_TypeGroup1</strong>](diskio-typegroup1.md)</li>
-<li>[<strong>DiskIo_TypeGroup3</strong>](diskio-typegroup3.md)</li>
+<li><a href="diskio-typegroup1"><strong>DiskIo_TypeGroup1</strong></a></li>
+<li><a href="diskio-typegroup3"><strong>DiskIo_TypeGroup3</strong></a></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><span id="EVENT_TRACE_FLAG_DISK_IO_INIT"></span><span id="event_trace_flag_disk_io_init"></span><dl> <dt><strong><strong>EVENT_TRACE_FLAG_DISK_IO_INIT</strong></strong></dt> <dt>0x00000400</dt> </dl></td>
-<td>Enables the following [<strong>DiskIo</strong>](diskio.md) event type:
+<td>Enables the following <a href="diskio"><strong>DiskIo</strong></a> event type:
 <ul>
-<li>[<strong>DiskIo_TypeGroup2</strong>](diskio-typegroup2.md)</li>
+<li><a href="diskio-typegroup2"><strong>DiskIo_TypeGroup2</strong></a></li>
 </ul>
 <br/> This value is supported on Windows Vista and later.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="EVENT_TRACE_FLAG_DISPATCHER"></span><span id="event_trace_flag_dispatcher"></span><dl> <dt><strong><strong>EVENT_TRACE_FLAG_DISPATCHER</strong></strong></dt> <dt>0x00000800</dt> </dl></td>
-<td>Enables the following [<strong>Thread</strong>](thread.md) event type:
+<td>Enables the following <a href="thread"><strong>Thread</strong></a> event type:
 <ul>
-<li>[<strong>ReadyThread</strong>](readythread.md)</li>
+<li><a href="readythread"><strong>ReadyThread</strong></a></li>
 </ul>
 <br/> This value is supported on Windows 7, Windows Server 2008 R2, and later.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="EVENT_TRACE_FLAG_DPC"></span><span id="event_trace_flag_dpc"></span><dl> <dt><strong><strong>EVENT_TRACE_FLAG_DPC</strong></strong></dt> <dt>0x00000020</dt> </dl></td>
-<td>Enables the following [<strong>PerfInfo</strong>](perfinfo.md) event type:
+<td>Enables the following <a href="perfinfo"><strong>PerfInfo</strong></a> event type:
 <ul>
-<li>[<strong>DPC</strong>](dpc.md)</li>
+<li><a href="dpc"><strong>DPC</strong></a></li>
 </ul>
 <br/> This value is supported on Windows Vista and later.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="EVENT_TRACE_FLAG_DRIVER"></span><span id="event_trace_flag_driver"></span><dl> <dt><strong><strong>EVENT_TRACE_FLAG_DRIVER</strong></strong></dt> <dt>0x00800000</dt> </dl></td>
-<td>Enables the following [<strong>DiskIo</strong>](diskio.md) event types:
+<td>Enables the following <a href="diskio"><strong>DiskIo</strong></a> event types:
 <ul>
-<li>[<strong>DriverCompleteRequest</strong>](drivercompleterequest.md)</li>
-<li>[<strong>DriverCompleteRequestReturn</strong>](drivercompleterequestreturn.md)</li>
-<li>[<strong>DriverCompletionRoutine</strong>](drivercompletionroutine.md)</li>
-<li>[<strong>DriverMajorFunctionCall</strong>](drivermajorfunctioncall.md)</li>
-<li>[<strong>DriverMajorFunctionReturn</strong>](drivermajorfunctionreturn.md)</li>
+<li><a href="drivercompleterequest"><strong>DriverCompleteRequest</strong></a></li>
+<li><a href="drivercompleterequestreturn"><strong>DriverCompleteRequestReturn</strong></a></li>
+<li><a href="drivercompletionroutine"><strong>DriverCompletionRoutine</strong></a></li>
+<li><a href="drivermajorfunctioncall"><strong>DriverMajorFunctionCall</strong></a></li>
+<li><a href="drivermajorfunctionreturn"><strong>DriverMajorFunctionReturn</strong></a></li>
 </ul>
 <br/> This value is supported on Windows Vista and later.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="EVENT_TRACE_FLAG_FILE_IO"></span><span id="event_trace_flag_file_io"></span><dl> <dt><strong><strong>EVENT_TRACE_FLAG_FILE_IO</strong></strong></dt> <dt>0x02000000</dt> </dl></td>
-<td>Enables the following [<strong>FileIo</strong>](fileio.md) event types:
+<td>Enables the following <a href="fileio"><strong>FileIo</strong></a> event types:
 <ul>
-<li>[<strong>FileIo_OpEnd</strong>](fileio-opend.md)</li>
+<li><a href="fileio-opend"><strong>FileIo_OpEnd</strong></a></li>
 </ul>
 <br/> This value is supported on Windows Vista and later.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="EVENT_TRACE_FLAG_FILE_IO_INIT"></span><span id="event_trace_flag_file_io_init"></span><dl> <dt><strong><strong>EVENT_TRACE_FLAG_FILE_IO_INIT</strong></strong></dt> <dt>0x04000000</dt> </dl></td>
-<td>Enables the following [<strong>FileIo</strong>](fileio.md) event type:
+<td>Enables the following <a href="fileio"><strong>FileIo</strong></a> event type:
 <ul>
-<li>[<strong>FileIo_Create</strong>](fileio-create.md)</li>
-<li>[<strong>FileIo_DirEnum</strong>](fileio-direnum.md)</li>
-<li>[<strong>FileIo_Info</strong>](fileio-info.md)</li>
-<li>[<strong>FileIo_ReadWrite</strong>](fileio-readwrite.md)</li>
-<li>[<strong>FileIo_SimpleOp</strong>](fileio-simpleop.md)</li>
+<li><a href="fileio-create"><strong>FileIo_Create</strong></a></li>
+<li><a href="fileio-direnum"><strong>FileIo_DirEnum</strong></a></li>
+<li><a href="fileio-info"><strong>FileIo_Info</strong></a></li>
+<li><a href="fileio-readwrite"><strong>FileIo_ReadWrite</strong></a></li>
+<li><a href="fileio-simpleop"><strong>FileIo_SimpleOp</strong></a></li>
 </ul>
 <br/> This value is supported on Windows Vista and later.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="EVENT_TRACE_FLAG_IMAGE_LOAD"></span><span id="event_trace_flag_image_load"></span><dl> <dt><strong><strong>EVENT_TRACE_FLAG_IMAGE_LOAD</strong></strong></dt> <dt>0x00000004</dt> </dl></td>
-<td>Enables the following [<strong>Image</strong>](image.md) event type:<br/>
+<td>Enables the following <a href="image"><strong>Image</strong></a> event type:<br/>
 <ul>
-<li>[<strong>Image_Load</strong>](image-load.md)</li>
+<li><a href="image-load"><strong>Image_Load</strong></a></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><span id="EVENT_TRACE_FLAG_INTERRUPT"></span><span id="event_trace_flag_interrupt"></span><dl> <dt><strong><strong>EVENT_TRACE_FLAG_INTERRUPT</strong></strong></dt> <dt>0x00000040</dt> </dl></td>
-<td>Enables the following [<strong>PerfInfo</strong>](perfinfo.md) event type:
+<td>Enables the following <a href="perfinfo"><strong>PerfInfo</strong></a> event type:
 <ul>
-<li>[<strong>ISR</strong>](isr.md)</li>
+<li><a href="isr"><strong>ISR</strong></a></li>
 </ul>
 <br/> This value is supported on Windows Vista and later.<br/></td>
 </tr>
@@ -248,21 +248,21 @@ A system logger must set **EnableFlags** to indicate which SystemTraceProvider e
 </tr>
 <tr class="odd">
 <td><span id="EVENT_TRACE_FLAG_MEMORY_HARD_FAULTS"></span><span id="event_trace_flag_memory_hard_faults"></span><dl> <dt><strong><strong>EVENT_TRACE_FLAG_MEMORY_HARD_FAULTS</strong></strong></dt> <dt>0x00002000</dt> </dl></td>
-<td>Enables the following [<strong>PageFault_V2</strong>](pagefault-v2.md) event type:<br/>
+<td>Enables the following <a href="pagefault-v2"><strong>PageFault_V2</strong></a> event type:<br/>
 <ul>
-<li>[<strong>PageFault_HardFault</strong>](pagefault-hardfault.md)</li>
+<li><a href="pagefault-hardfault"><strong>PageFault_HardFault</strong></a></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><span id="EVENT_TRACE_FLAG_MEMORY_PAGE_FAULTS"></span><span id="event_trace_flag_memory_page_faults"></span><dl> <dt><strong><strong>EVENT_TRACE_FLAG_MEMORY_PAGE_FAULTS</strong></strong></dt> <dt>0x00001000</dt> </dl></td>
-<td>Enables the following [<strong>PageFault_V2</strong>](pagefault-v2.md) event type:<br/>
+<td>Enables the following <a href="pagefault-v2"><strong>PageFault_V2</strong></a> event type:<br/>
 <ul>
-<li>[<strong>PageFault_TypeGroup1</strong>](pagefault-typegroup1.md)</li>
+<li><a href="pagefault-typegroup1"><strong>PageFault_TypeGroup1</strong></a></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><span id="EVENT_TRACE_FLAG_NETWORK_TCPIP"></span><span id="event_trace_flag_network_tcpip"></span><dl> <dt><strong><strong>EVENT_TRACE_FLAG_NETWORK_TCPIP</strong></strong></dt> <dt>0x00010000</dt> </dl></td>
-<td>Enables the [<strong>TcpIp</strong>](tcpip.md) and [<strong>UdpIp</strong>](udpip.md) event types.<br/></td>
+<td>Enables the <a href="tcpip"><strong>TcpIp</strong></a> and <a href="udpip"><strong>UdpIp</strong></a> event types.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="EVENT_TRACE_FLAG_NO_SYSCONFIG"></span><span id="event_trace_flag_no_sysconfig"></span><dl> <dt><strong>EVENT_TRACE_FLAG_NO_SYSCONFIG</strong></dt> <dt>0x10000000</dt> </dl></td>
@@ -270,49 +270,49 @@ A system logger must set **EnableFlags** to indicate which SystemTraceProvider e
 </tr>
 <tr class="odd">
 <td><span id="EVENT_TRACE_FLAG_PROCESS"></span><span id="event_trace_flag_process"></span><dl> <dt><strong><strong>EVENT_TRACE_FLAG_PROCESS</strong></strong></dt> <dt>0x00000001</dt> </dl></td>
-<td>Enables the following [<strong>Process</strong>](process.md) event type:<br/>
+<td>Enables the following <a href="process"><strong>Process</strong></a> event type:<br/>
 <ul>
-<li>[<strong>Process_TypeGroup1</strong>](process-typegroup1.md)</li>
+<li><a href="process-typegroup1"><strong>Process_TypeGroup1</strong></a></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><span id="EVENT_TRACE_FLAG_PROCESS_COUNTERS"></span><span id="event_trace_flag_process_counters"></span><dl> <dt><strong><strong>EVENT_TRACE_FLAG_PROCESS_COUNTERS</strong></strong></dt> <dt>0x00000008</dt> </dl></td>
-<td>Enables the following [<strong>Process_V2</strong>](process-v2.md) event type:
+<td>Enables the following <a href="process-v2"><strong>Process_V2</strong></a> event type:
 <ul>
-<li>[<strong>Process_V2_TypeGroup2</strong>](process-v2-typegroup2.md)</li>
+<li><a href="process-v2-typegroup2"><strong>Process_V2_TypeGroup2</strong></a></li>
 </ul>
 <br/> This value is supported on Windows Vista and later.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="EVENT_TRACE_FLAG_PROFILE"></span><span id="event_trace_flag_profile"></span><dl> <dt><strong><strong>EVENT_TRACE_FLAG_PROFILE</strong></strong></dt> <dt>0x01000000</dt> </dl></td>
-<td>Enables the following [<strong>PerfInfo</strong>](perfinfo.md) event type:
+<td>Enables the following <a href="perfinfo"><strong>PerfInfo</strong></a> event type:
 <ul>
-<li>[<strong>SampledProfile</strong>](sampledprofile.md)</li>
+<li><a href="sampledprofile"><strong>SampledProfile</strong></a></li>
 </ul>
 <br/> This value is supported on Windows Vista and later.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="EVENT_TRACE_FLAG_REGISTRY"></span><span id="event_trace_flag_registry"></span><dl> <dt><strong><strong>EVENT_TRACE_FLAG_REGISTRY</strong></strong></dt> <dt>0x00020000</dt> </dl></td>
-<td>Enables the [<strong>Registry</strong>](registry.md) event types.<br/></td>
+<td>Enables the <a href="registry"><strong>Registry</strong></a> event types.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="EVENT_TRACE_FLAG_SPLIT_IO"></span><span id="event_trace_flag_split_io"></span><dl> <dt><strong><strong>EVENT_TRACE_FLAG_SPLIT_IO</strong></strong></dt> <dt>0x00200000</dt> </dl></td>
-<td>Enables the [<strong>SplitIo</strong>](splitio.md) event types.<br/> This value is supported on Windows Vista and later.<br/></td>
+<td>Enables the <a href="splitio"><strong>SplitIo</strong></a> event types.<br/> This value is supported on Windows Vista and later.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="EVENT_TRACE_FLAG_SYSTEMCALL"></span><span id="event_trace_flag_systemcall"></span><dl> <dt><strong><strong>EVENT_TRACE_FLAG_SYSTEMCALL</strong></strong></dt> <dt>0x00000080</dt> </dl></td>
-<td>Enables the following [<strong>PerfInfo</strong>](perfinfo.md) event type:
+<td>Enables the following <a href="perfinfo"><strong>PerfInfo</strong></a> event type:
 <ul>
-<li>[<strong>SysCallEnter</strong>](syscallenter.md)</li>
-<li>[<strong>SysCallExit</strong>](syscallexit.md)</li>
+<li><a href="syscallenter"><strong>SysCallEnter</strong></a></li>
+<li><a href="syscallexit"><strong>SysCallExit</strong></a></li>
 </ul>
 <br/> This value is supported on Windows Vista and later.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="EVENT_TRACE_FLAG_THREAD"></span><span id="event_trace_flag_thread"></span><dl> <dt><strong><strong>EVENT_TRACE_FLAG_THREAD</strong></strong></dt> <dt>0x00000002</dt> </dl></td>
-<td>Enables the following [<strong>Thread</strong>](thread.md) event type:<br/>
+<td>Enables the following <a href="thread"><strong>Thread</strong></a> event type:<br/>
 <ul>
-<li>[<strong>Thread_TypeGroup1</strong>](thread-typegroup1.md)</li>
+<li><a href="thread-typegroup1"><strong>Thread_TypeGroup1</strong></a></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -321,9 +321,9 @@ A system logger must set **EnableFlags** to indicate which SystemTraceProvider e
 </tr>
 <tr class="odd">
 <td><span id="EVENT_TRACE_FLAG_VIRTUAL_ALLOC"></span><span id="event_trace_flag_virtual_alloc"></span><dl> <dt><strong><strong>EVENT_TRACE_FLAG_VIRTUAL_ALLOC</strong></strong></dt> <dt>0x00004000</dt> </dl></td>
-<td>Enables the following [<strong>PageFault_V2</strong>](pagefault-v2.md) event type:
+<td>Enables the following <a href="pagefault-v2"><strong>PageFault_V2</strong></a> event type:
 <ul>
-<li>[<strong>PageFault_VirtualAlloc</strong>](pagefault-virtualalloc.md)</li>
+<li><a href="pagefault-virtualalloc"><strong>PageFault_VirtualAlloc</strong></a></li>
 </ul>
 <br/> This value is supported on Windows 7, Windows Server 2008 R2, and later.<br/></td>
 </tr>

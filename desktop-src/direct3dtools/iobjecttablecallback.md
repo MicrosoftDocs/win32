@@ -26,7 +26,7 @@ The **IObjectTableCallback** interface inherits from the [**IUnknown**](https://
 
 The **IObjectTableCallback** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;">[<strong>GetSupportedColumns</strong>](https://msdn.microsoft.com/library/windows/desktop/mt422697)</td><td style="text-align: left;"><p>Gets information about which columns (types of object data) are supported by the object table.</p></td></tr><tr class="even"><td style="text-align: left;">[<strong>ResultCallback</strong>](https://msdn.microsoft.com/library/windows/desktop/mt422698)</td><td style="text-align: left;"><p>A callback function used to notify the host of object table information.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt422697"><strong>GetSupportedColumns</strong></a></td><td style="text-align: left;"><p>Gets information about which columns (types of object data) are supported by the object table.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt422698"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>A callback function used to notify the host of object table information.</p></td></tr></tbody></table>
 
  
 

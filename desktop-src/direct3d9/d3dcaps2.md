@@ -30,17 +30,17 @@ Driver capability flags.
 <tr class="even">
 <td>D3DCAPS2_CANAUTOGENMIPMAP</td>
 <td>0x40000000L</td>
-<td>The driver is capable of automatically generating mipmaps. For more information, see [Automatic Generation of Mipmaps (Direct3D 9)](automatic-generation-of-mipmaps.md).</td>
+<td>The driver is capable of automatically generating mipmaps. For more information, see <a href="automatic-generation-of-mipmaps">Automatic Generation of Mipmaps (Direct3D 9)</a>.</td>
 </tr>
 <tr class="odd">
 <td>D3DCAPS2_CANCALIBRATEGAMMA</td>
 <td>0x00100000L</td>
-<td>The system has a calibrator installed that can automatically adjust the gamma ramp so that the result is identical on all systems that have a calibrator. To invoke the calibrator when setting new gamma levels, use the D3DSGR_CALIBRATE flag when calling [<strong>SetGammaRamp</strong>](/windows/desktop/api). Calibrating gamma ramps incurs some processing overhead and should not be used frequently.</td>
+<td>The system has a calibrator installed that can automatically adjust the gamma ramp so that the result is identical on all systems that have a calibrator. To invoke the calibrator when setting new gamma levels, use the D3DSGR_CALIBRATE flag when calling <a href="/windows/desktop/api"><strong>SetGammaRamp</strong></a>. Calibrating gamma ramps incurs some processing overhead and should not be used frequently.</td>
 </tr>
 <tr class="even">
 <td>D3DCAPS2_CANSHARERESOURCE</td>
 <td>0x80000000L</td>
-<td>The device can create sharable resources. Methods that create resources can set non-NULL values for their [<strong>pSharedHandle</strong>](https://msdn.microsoft.com/en-us/library/Bb174562(v=VS.85).aspx) parameters. 
+<td>The device can create sharable resources. Methods that create resources can set non-NULL values for their <a href="https://msdn.microsoft.com/en-us/library/Bb174562(v=VS.85).aspx"><strong>pSharedHandle</strong></a> parameters. 
 <table>
 <tbody>
 <tr class="odd">
@@ -54,7 +54,7 @@ Driver capability flags.
 <tr class="odd">
 <td>D3DCAPS2_CANMANAGERESOURCE</td>
 <td>0x10000000L</td>
-<td>The driver is capable of managing resources. On such drivers, D3DPOOL_MANAGED resources will be managed by the driver. To have Direct3D override the driver so that Direct3D manages resources, use the D3DCREATE_DISABLE_DRIVER_MANAGEMENT flag when calling [<strong>CreateDevice</strong>](/windows/desktop/api).</td>
+<td>The driver is capable of managing resources. On such drivers, D3DPOOL_MANAGED resources will be managed by the driver. To have Direct3D override the driver so that Direct3D manages resources, use the D3DCREATE_DISABLE_DRIVER_MANAGEMENT flag when calling <a href="/windows/desktop/api"><strong>CreateDevice</strong></a>.</td>
 </tr>
 <tr class="even">
 <td>D3DCAPS2_DYNAMICTEXTURES</td>

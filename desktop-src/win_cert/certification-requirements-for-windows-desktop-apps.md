@@ -233,9 +233,9 @@ Thank you again for joining in our commitment to delivering great customer exper
 <td>Compatibility and resiliency</td>
 <td>Crashes & hangs are a major disruption to users and cause frustration. Apps are expected to be resilient and stable, eliminating such failures helps ensure that software is more predictable, maintainable, performant and trustworthy.<br/> User facing app entry point must be manifested for compatibility, as well as declaring the right GUID. <br/> User facing app entry points must be manifested for HIGH-DPI awareness and that the proper APIs are being called to support HIGH-DPI.<br/> For more information see:
 <ul>
-<li>[AppInit DLLs](https://support.microsoft.com/kb/197571)</li>
-<li>[App (executable) manifest](https://msdn.microsoft.com/library/hh848036.aspx)</li>
-<li>[Writing High-DPI Win32 Applications](https://msdn.microsoft.com/library/windows/desktop/dn469266.aspx)</li>
+<li><a href="https://support.microsoft.com/kb/197571">AppInit DLLs</a></li>
+<li><a href="https://msdn.microsoft.com/library/hh848036.aspx">App (executable) manifest</a></li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/dn469266.aspx">Writing High-DPI Win32 Applications</a></li>
 </ul>
 <br/></td>
 </tr>
@@ -243,14 +243,14 @@ Thank you again for joining in our commitment to delivering great customer exper
 <td>Adhere to Windows Security Best Practices</td>
 <td>Using Windows security best practices will help avoid creating exposure to Windows attack surfaces. Attack surfaces are the entry points that a malicious attacker could use to exploit the operating system by taking advantage of vulnerabilities in the target software. One of the worst security vulnerabilities is the elevation of privilege.<br/> For more information see:
 <ul>
-<li>[Attack Surface Analyzer](https://technet.microsoft.com/security/gg749821)</li>
-<li>[Access Control Lists](https://msdn.microsoft.com/library/windows/desktop/aa374872)</li>
+<li><a href="https://technet.microsoft.com/security/gg749821">Attack Surface Analyzer</a></li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/aa374872">Access Control Lists</a></li>
 </ul>
 <br/></td>
 </tr>
 <tr class="even">
 <td>Support Windows Security Features</td>
-<td>The Windows operating system has implemented many measures to support system security and privacy. Applications must support these measures to maintain the integrity of the OS. Improperly compiled applications could cause buffer overruns that in turn could cause denial of service or make malicious code execute. For more information see the [BinScope tool reference](http://blogs.microsoft.com/cybertrust/2012/08/15/microsofts-free-security-tools-binscope-binary-analyzer/).</td>
+<td>The Windows operating system has implemented many measures to support system security and privacy. Applications must support these measures to maintain the integrity of the OS. Improperly compiled applications could cause buffer overruns that in turn could cause denial of service or make malicious code execute. For more information see the <a href="http://blogs.microsoft.com/cybertrust/2012/08/15/microsofts-free-security-tools-binscope-binary-analyzer/">BinScope tool reference</a>.</td>
 </tr>
 <tr class="odd">
 <td>Adhere to System Restart Manager Messages</td>
@@ -258,7 +258,7 @@ Thank you again for joining in our commitment to delivering great customer exper
 </tr>
 <tr class="even">
 <td>Clean Reversible Installation</td>
-<td>A clean, reversible, installation allows users to successfully manage (deploy and remove) apps on their systems. For more information see, [How to: Install Prerequisites with a ClickOnce Application](https://msdn.microsoft.com/library/8st7th1x.aspx).</td>
+<td>A clean, reversible, installation allows users to successfully manage (deploy and remove) apps on their systems. For more information see, <a href="https://msdn.microsoft.com/library/8st7th1x.aspx">How to: Install Prerequisites with a ClickOnce Application</a>.</td>
 </tr>
 <tr class="odd">
 <td>Digitally sign files and drivers</td>
@@ -266,14 +266,14 @@ Thank you again for joining in our commitment to delivering great customer exper
 </tr>
 <tr class="even">
 <td>Do not block installation or app launch based on operating system version check</td>
-<td>It is important that customers are not artificially blocked from installing or running their app when there are no technical limitations. In general, if apps were written for Windows Vista or later releases, they should have no reason to check the operating system version. For more information see, [Operating System Versioning](https://msdn.microsoft.com/library/dd371754(VS.85).aspx).</td>
+<td>It is important that customers are not artificially blocked from installing or running their app when there are no technical limitations. In general, if apps were written for Windows Vista or later releases, they should have no reason to check the operating system version. For more information see, <a href="https://msdn.microsoft.com/library/dd371754(VS.85).aspx">Operating System Versioning</a>.</td>
 </tr>
 <tr class="odd">
 <td>Do not load Services and Drivers in Safe Mode</td>
 <td>Safe mode allows users to diagnose and troubleshoot Windows. Unless needed for basic operations of the system (for example, storage device drivers) or for diagnostic and recovery purposes (for example, anti-virus scanners), drivers and services must not be set to load in safe mode. By default, the safe mode does not start most drivers and services that did not come preinstalled with Windows. They should remain disabled unless the system requires them for basic operations or for diagnostic and recovery purposes.<br/> For more information see:
 <ul>
-<li>[Determining Whether the Operating System Is Running in Safe Mode](https://msdn.microsoft.com/library/ff543079.aspx)</li>
-<li>[How to determine whether the system is running in Safe Mode from a device driver](https://support.microsoft.com/kb/837643)</li>
+<li><a href="https://msdn.microsoft.com/library/ff543079.aspx">Determining Whether the Operating System Is Running in Safe Mode</a></li>
+<li><a href="https://support.microsoft.com/kb/837643">How to determine whether the system is running in Safe Mode from a device driver</a></li>
 </ul>
 <br/></td>
 </tr>
@@ -281,18 +281,18 @@ Thank you again for joining in our commitment to delivering great customer exper
 <td>Follow User Account Control (UAC) Guidelines</td>
 <td>Some Windows app run in the security context of an administrator account, and many require excessive user rights and Windows privileges. Controlling access to resources enables users to be in control of their systems against unwanted changes (An unwanted change can be malicious, such as a rootkit stealthily taking over the machine, or an action from people who have limited privileges, for example, an employee installing prohibited software on a work computer). The most important rule for controlling access to resources is to provide the least amount of access  standard user context  necessary for a user to perform his or her necessary tasks. Following UAC guidelines provides app with the necessary permissions when needed, without leaving the system constantly exposed to security risks.<br/> For more information see:
 <ul>
-<li>[User Account Control](https://msdn.microsoft.com/library/windows/desktop/dn742497.aspx)</li>
-<li>[UAC: Application Update Guidelines](https://msdn.microsoft.com/library/Aa480152#appcomp-topic5)</li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/dn742497.aspx">User Account Control</a></li>
+<li><a href="https://msdn.microsoft.com/library/Aa480152#appcomp-topic5">UAC: Application Update Guidelines</a></li>
 </ul>
 <br/></td>
 </tr>
 <tr class="odd">
 <td>Install to the Correct Folders by Default</td>
-<td>Users should have a consistent and secure experience with the default installation location of files, while maintaining the option to install an app to the location they choose. It is also necessary to store app data in the correct location to allow several people to use the same computer without corrupting or overwriting each other's data and settings. For more information see, [Summary of Install/Uninstall Requirements](https://msdn.microsoft.com/library/ms954376.aspx).</td>
+<td>Users should have a consistent and secure experience with the default installation location of files, while maintaining the option to install an app to the location they choose. It is also necessary to store app data in the correct location to allow several people to use the same computer without corrupting or overwriting each other's data and settings. For more information see, <a href="https://msdn.microsoft.com/library/ms954376.aspx">Summary of Install/Uninstall Requirements</a>.</td>
 </tr>
 <tr class="even">
 <td>Support Multi-User Sessions</td>
-<td>Windows users should be able to run concurrent sessions without conflict or disruption. For more information see, [Remote Desktop Services Programming Guidelines](https://msdn.microsoft.com/library/aa383490.aspx).</td>
+<td>Windows users should be able to run concurrent sessions without conflict or disruption. For more information see, <a href="https://msdn.microsoft.com/library/aa383490.aspx">Remote Desktop Services Programming Guidelines</a>.</td>
 </tr>
 <tr class="odd">
 <td>Support x64 versions of Windows</td>

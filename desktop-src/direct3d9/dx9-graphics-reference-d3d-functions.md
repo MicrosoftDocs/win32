@@ -26,7 +26,7 @@ This section contains reference information for the functions that you need to u
     <tr class="odd">
     <td>Differences between Direct3D 9 and Direct3D 9Ex:<br/> This function is available in Direct3D 9Ex only.<br/>
     <ul>
-    <li>[<strong>Direct3DCreate9Ex</strong>](/windows/desktop/api/D3D9/nf-d3d9-direct3dcreate9ex)</li>
+    <li><a href="/windows/desktop/api/D3D9/nf-d3d9-direct3dcreate9ex"><strong>Direct3DCreate9Ex</strong></a></li>
     </ul></td>
     </tr>
     </tbody>

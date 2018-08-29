@@ -35,7 +35,7 @@ Must be zero.
 </dd> <dt>
 
 *lParam* \[in\]
-</dt> <dd>A style value. For more information see [Month Calendar Control Styles](month-calendar-control-styles.md).</dd> </dl>
+</dt> <dd>A style value. For more information see <a href="month-calendar-control-styles">Month Calendar Control Styles</a>.</dd> </dl>
 
 ## Return value
 

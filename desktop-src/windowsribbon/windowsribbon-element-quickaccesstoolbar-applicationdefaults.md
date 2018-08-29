@@ -50,15 +50,15 @@ There are no attributes.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>Button</strong>](windowsribbon-element-button.md)<br/></td>
+<td><a href="windowsribbon-element-button"><strong>Button</strong></a><br/></td>
 <td>Must occur at least once.<br/> <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>CheckBox</strong>](windowsribbon-element-checkbox.md)<br/></td>
+<td><a href="windowsribbon-element-checkbox"><strong>CheckBox</strong></a><br/></td>
 <td>Must occur at least once.<br/> <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ComboBox</strong>](windowsribbon-element-combobox.md)<br/></td>
+<td><a href="windowsribbon-element-combobox"><strong>ComboBox</strong></a><br/></td>
 <td>Must occur at least once.<br/>
 <blockquote>
 [!Note]<br />
@@ -67,7 +67,7 @@ Windows 8 and newer.
 <br/> <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>DropDownGallery</strong>](windowsribbon-element-dropdowngallery.md)<br/></td>
+<td><a href="windowsribbon-element-dropdowngallery"><strong>DropDownGallery</strong></a><br/></td>
 <td>Must occur at least once.<br/>
 <blockquote>
 [!Note]<br />
@@ -76,7 +76,7 @@ Windows 8 and newer.
 <br/> <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>InRibbonGallery</strong>](windowsribbon-element-inribbongallery.md)<br/></td>
+<td><a href="windowsribbon-element-inribbongallery"><strong>InRibbonGallery</strong></a><br/></td>
 <td>Must occur at least once.<br/>
 <blockquote>
 [!Note]<br />
@@ -85,7 +85,7 @@ Windows 8 and newer.
 <br/> <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SplitButtonGallery</strong>](windowsribbon-element-splitbuttongallery.md)<br/></td>
+<td><a href="windowsribbon-element-splitbuttongallery"><strong>SplitButtonGallery</strong></a><br/></td>
 <td>Must occur at least once.<br/>
 <blockquote>
 [!Note]<br />
@@ -94,7 +94,7 @@ Windows 8 and newer.
 <br/> <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ToggleButton</strong>](windowsribbon-element-togglebutton.md)<br/></td>
+<td><a href="windowsribbon-element-togglebutton"><strong>ToggleButton</strong></a><br/></td>
 <td>Must occur at least once.<br/> <br/></td>
 </tr>
 </tbody>

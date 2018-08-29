@@ -108,7 +108,7 @@ Defines a channel to which providers can log events.
 <tr class="odd">
 <td>access</td>
 <td>string</td>
-<td>A [Security Descriptor Definition Language](https://msdn.microsoft.com/library/windows/desktop/aa379567) (SDDL) access descriptor that controls access to the log file that backs the channel. If the <strong>isolation</strong> attribute is set to Application or System, the access descriptor controls read access to the file (the write permissions are ignored). If the <strong>isolation</strong> attribute is set to Custom, the access descriptor controls write access to the channel and read access to the file.<br/></td>
+<td>A <a href="https://msdn.microsoft.com/library/windows/desktop/aa379567">Security Descriptor Definition Language</a> (SDDL) access descriptor that controls access to the log file that backs the channel. If the <strong>isolation</strong> attribute is set to Application or System, the access descriptor controls read access to the file (the write permissions are ignored). If the <strong>isolation</strong> attribute is set to Custom, the access descriptor controls write access to the channel and read access to the file.<br/></td>
 </tr>
 <tr class="even">
 <td>chid</td>
@@ -189,7 +189,7 @@ The default isolation is <strong>Application</strong>. The default permissions f
 <tr class="odd">
 <td>message</td>
 <td>string</td>
-<td><p>The localized display name for the channel. The message string references a localized string in the [<strong>stringTable</strong>](eventmanifestschema-stringtable-resources-element.md) section of the manifest.</p></td>
+<td><p>The localized display name for the channel. The message string references a localized string in the <a href="eventmanifestschema-stringtable-resources-element"><strong>stringTable</strong></a> section of the manifest.</p></td>
 </tr>
 <tr class="even">
 <td>name</td>
@@ -199,8 +199,8 @@ The default isolation is <strong>Application</strong>. The default permissions f
 </tr>
 <tr class="odd">
 <td>symbol</td>
-<td>[<strong>CSymbolType</strong>](eventmanifestschema-csymboltype-simpletype.md)</td>
-<td><p>The symbol to use to reference the channel in your application. The [<strong>Message Compiler (MC.exe)</strong>](message-compiler--mc-exe-.md) uses the symbol to create a constant for the channel in the header file that the compiler generates. If you do not specify a symbol, the compiler generates the name for you.</p></td>
+<td><a href="eventmanifestschema-csymboltype-simpletype"><strong>CSymbolType</strong></a></td>
+<td><p>The symbol to use to reference the channel in your application. The <a href="message-compiler--mc-exe-"><strong>Message Compiler (MC.exe)</strong></a> uses the symbol to create a constant for the channel in the header file that the compiler generates. If you do not specify a symbol, the compiler generates the name for you.</p></td>
 </tr>
 <tr class="even">
 <td>type</td>
@@ -221,7 +221,7 @@ The default isolation is <strong>Application</strong>. The default permissions f
 </tr>
 <tr class="odd">
 <td>value</td>
-<td>[<strong>UInt8Type</strong>](eventmanifestschema-hexint8type-simpletype.md)</td>
+<td><a href="eventmanifestschema-hexint8type-simpletype"><strong>UInt8Type</strong></a></td>
 <td><p>A numeric identifier that uniquely identifies the channel within the list of channels that the provider defines. The message compiler assigns the value if not specified.</p></td>
 </tr>
 </tbody>

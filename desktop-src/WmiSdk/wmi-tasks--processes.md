@@ -58,7 +58,7 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...run an application in a hidden window?</td>
-<td>Call the application from a script that uses the [<strong>Win32_Process</strong>](https://msdn.microsoft.com/library/aa394372) and [<strong>Win32_ProcessStartup</strong>](https://msdn.microsoft.com/library/aa394375) classes.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>Call the application from a script that uses the [<strong>Win32_Process</strong>](https://msdn.microsoft.com/library/aa394372) and <a href="https://msdn.microsoft.com/library/aa394375"><strong>Win32_ProcessStartup</strong></a> classes.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -153,7 +153,7 @@ Get-WmiObject -Class &quot;Win32_Process&quot; -ComputerName &quot;.&quot; | `
 </tr>
 <tr class="odd">
 <td>...find out the account name under which a process is running?</td>
-<td><p>Use the [<strong>Win32_Process</strong>](https://msdn.microsoft.com/library/aa394372) class and the [<strong>GetOwner</strong>](https://msdn.microsoft.com/library/aa390460) method.</p>
+<td><p>Use the [<strong>Win32_Process</strong>](https://msdn.microsoft.com/library/aa394372) class and the <a href="https://msdn.microsoft.com/library/aa390460"><strong>GetOwner</strong></a> method.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -246,7 +246,7 @@ foreach ($objProcess in $colProcesses) { $objProcess.SetPriority($ABOVE_NORMAL) 
 </tr>
 <tr class="odd">
 <td>...terminate a process using a script?</td>
-<td><p>Use the [<strong>Win32_Process</strong>](https://msdn.microsoft.com/library/aa394372) class and the [<strong>Terminate</strong>](https://msdn.microsoft.com/library/aa393907) method.</p>
+<td><p>Use the [<strong>Win32_Process</strong>](https://msdn.microsoft.com/library/aa394372) class and the <a href="https://msdn.microsoft.com/library/aa393907"><strong>Terminate</strong></a> method.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>

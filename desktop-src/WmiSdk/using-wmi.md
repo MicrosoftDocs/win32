@@ -54,11 +54,11 @@ The following procedure describes how to obtain data from WMI by writing a scrip
     <tbody>
     <tr class="odd">
     <td>Scripts written in Microsoft ActiveX script hosting, including Visual Basic Scripting Edition (VBScript) and Perl<br/></td>
-    <td>[Scripting API for WMI](scripting-api-for-wmi.md).<br/> Start with [Creating a WMI Script](creating-a-wmi-script.md).<br/> For script code examples, see [WMI Tasks for Scripts and Applications](wmi-tasks-for-scripts-and-applications.md) and the TechNet [ScriptCenter](http://go.microsoft.com/fwlink/p/?linkid=46710) Script Repository.<br/></td>
+    <td>[Scripting API for WMI](scripting-api-for-wmi.md).<br/> Start with [Creating a WMI Script](creating-a-wmi-script.md).<br/> For script code examples, see [WMI Tasks for Scripts and Applications](wmi-tasks-for-scripts-and-applications.md) and the TechNet <a href="http://go.microsoft.com/fwlink/p/?linkid=46710">ScriptCenter</a> Script Repository.<br/></td>
     </tr>
     <tr class="even">
     <td>Windows PowerShell<br/></td>
-    <td>[Getting Started with Windows PowerShell](http://go.microsoft.com/fwlink/p/?linkid=113440)<br/> WMI PowerShell Cmdlets, such as [Get-WmiObject](http://go.microsoft.com/fwlink/p/?linkid=153476).<br/></td>
+    <td><a href="http://go.microsoft.com/fwlink/p/?linkid=113440">Getting Started with Windows PowerShell</a><br/> WMI PowerShell Cmdlets, such as <a href="http://go.microsoft.com/fwlink/p/?linkid=153476">Get-WmiObject</a>.<br/></td>
     </tr>
     <tr class="odd">
     <td>Visual Basic applications<br/></td>
@@ -66,18 +66,18 @@ The following procedure describes how to obtain data from WMI by writing a scrip
     </tr>
     <tr class="even">
     <td>Active Server Pages<br/></td>
-    <td>[Scripting API for WMI](scripting-api-for-wmi.md).<br/> Start with [Creating Active Server Pages for WMI](creating-active-server-pages-for-wmi.md).<br/></td>
+    <td>[Scripting API for WMI](scripting-api-for-wmi.md).<br/> Start with <a href="creating-active-server-pages-for-wmi">Creating Active Server Pages for WMI</a>.<br/></td>
     </tr>
     <tr class="odd">
     <td>C++ applications<br/></td>
-    <td>[COM API for WMI](com-api-for-wmi.md).<br/> Start with [Creating a WMI Application Using C++](creating-a-wmi-application-using-c-.md) and [WMI C++ Application Examples](wmi-c---application-examples.md) (contains examples).<br/></td>
+    <td>[COM API for WMI](com-api-for-wmi.md).<br/> Start with [Creating a WMI Application Using C++](creating-a-wmi-application-using-c-.md) and <a href="wmi-c---application-examples">WMI C++ Application Examples</a> (contains examples).<br/></td>
     </tr>
     <tr class="even">
     <td>.NET Framework applications written in C#, Visual Basic .NET, or J#<br/></td>
-    <td>Classes in the [<strong>Microsoft.Management.Infrastructure</strong>](https://msdn.microsoft.com/library/hh872326) namespace.<br/>
+    <td>Classes in the <a href="https://msdn.microsoft.com/library/hh872326"><strong>Microsoft.Management.Infrastructure</strong></a> namespace.<br/>
     <blockquote>
     [!Note]<br />
-    <strong>System.Management</strong> was the original namespace that covered managed code for WMI. However, the underlying technology for <strong>System.Management</strong> is generally slower than, and does not scale as well as, [<strong>Microsoft.Management.Infrastructure</strong>](https://msdn.microsoft.com/library/hh872326). As such, it is not recommended that you use <strong>System.Management</strong> for new projects. (For more information on <strong>System.Management</strong>, see [WMI .NET Overview](http://go.microsoft.com/fwlink/p/?linkid=98072).)
+    <strong>System.Management</strong> was the original namespace that covered managed code for WMI. However, the underlying technology for <strong>System.Management</strong> is generally slower than, and does not scale as well as, <a href="https://msdn.microsoft.com/library/hh872326"><strong>Microsoft.Management.Infrastructure</strong></a>. As such, it is not recommended that you use <strong>System.Management</strong> for new projects. (For more information on <strong>System.Management</strong>, see <a href="http://go.microsoft.com/fwlink/p/?linkid=98072">WMI .NET Overview</a>.)
     </blockquote>
     <br/></td>
     </tr>

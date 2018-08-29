@@ -29,39 +29,39 @@ This section describes the Windows Shell string handling functions. The programm
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>ChrCmpI</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-chrcmpia)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-chrcmpia"><strong>ChrCmpI</strong></a><br/></td>
 <td>Performs a comparison between two characters. The comparison is not case-sensitive.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>GetAcceptLanguages</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-getacceptlanguagesa)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-getacceptlanguagesa"><strong>GetAcceptLanguages</strong></a><br/></td>
 <td>Retrieves a string used with websites when specifying language preferences.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IntlStrEqN</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-intlstreqna)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-intlstreqna"><strong>IntlStrEqN</strong></a><br/></td>
 <td>Performs a case-sensitive comparison of a specified number of characters from the beginning of two localized strings.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IntlStrEqNI</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-intlstreqnia)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-intlstreqnia"><strong>IntlStrEqNI</strong></a><br/></td>
 <td>Performs a case-insensitive comparison of a specified number of characters from the beginning of two localized strings.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IntlStrEqWorker</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-intlstreqworkera)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-intlstreqworkera"><strong>IntlStrEqWorker</strong></a><br/></td>
 <td>Compares a specified number of characters from the beginning of two localized strings.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IsCharSpace</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-ischarspacea)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-ischarspacea"><strong>IsCharSpace</strong></a><br/></td>
 <td>Determines whether a character represents a space.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHLoadIndirectString</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shloadindirectstring)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shloadindirectstring"><strong>SHLoadIndirectString</strong></a><br/></td>
 <td>Extracts a specified text resource when given that resource in the form of an indirect string (a string that begins with the '@' symbol).<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHStrDup</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shstrdupa)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shstrdupa"><strong>SHStrDup</strong></a><br/></td>
 <td>Makes a copy of a string in newly allocated memory.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>StrCat</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strcatw)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strcatw"><strong>StrCat</strong></a><br/></td>
 <td>Appends one string to another. <br/>
 <blockquote>
 [!Note]<br />
@@ -70,7 +70,7 @@ Do not use. See Remarks for alternative functions.
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>StrCatBuff</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strcatbuffa)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strcatbuffa"><strong>StrCatBuff</strong></a><br/></td>
 <td>Copies and appends characters from one string to the end of another. <br/>
 <blockquote>
 [!Note]<br />
@@ -79,63 +79,63 @@ Do not use. See Remarks for alternative functions.
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>StrCatChainW</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strcatchainw)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strcatchainw"><strong>StrCatChainW</strong></a><br/></td>
 <td>Concatenates two Unicode strings. Used when repeated concatenations to the same buffer are required.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>StrChr</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strchra)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strchra"><strong>StrChr</strong></a><br/></td>
 <td>Searches a string for the first occurrence of a character that matches the specified character. The comparison is case-sensitive.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>StrChrI</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strchria)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strchria"><strong>StrChrI</strong></a><br/></td>
 <td>Searches a string for the first occurrence of a character that matches the specified character. The comparison is not case-sensitive.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>StrChrNIW</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strchrniw)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strchrniw"><strong>StrChrNIW</strong></a><br/></td>
 <td>Searches a string for the first occurrence of a specified character. The comparison is not case-sensitive.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>StrChrNW</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strchrnw)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strchrnw"><strong>StrChrNW</strong></a><br/></td>
 <td>Searches a string for the first occurrence of a specified character. The comparison is case-sensitive.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>StrCmp</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strcmpw)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strcmpw"><strong>StrCmp</strong></a><br/></td>
 <td>Compares two strings to determine if they are the same. The comparison is case-sensitive.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>StrCmpC</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strcmpca)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strcmpca"><strong>StrCmpC</strong></a><br/></td>
 <td>Compares strings using C run-time (ASCII) collation rules. The comparison is case-sensitive.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>StrCmpI</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strcmpiw)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strcmpiw"><strong>StrCmpI</strong></a><br/></td>
 <td>Compares two strings to determine if they are the same. The comparison is not case-sensitive.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>StrCmpIC</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strcmpica)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strcmpica"><strong>StrCmpIC</strong></a><br/></td>
 <td>Compares two strings using C run-time (ASCII) collation rules. The comparison is not case-sensitive.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>StrCmpLogicalW</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strcmplogicalw)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strcmplogicalw"><strong>StrCmpLogicalW</strong></a><br/></td>
 <td>Compares two Unicode strings. Digits in the strings are considered as numerical content rather than text. This test is not case-sensitive.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>StrCmpN</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strcmpna)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strcmpna"><strong>StrCmpN</strong></a><br/></td>
 <td>Compares a specified number of characters from the beginning of two strings to determine if they are the same. The comparison is case-sensitive. The <strong>StrNCmp</strong> macro differs from this function in name only.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>StrCmpNC</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strcmpnca)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strcmpnca"><strong>StrCmpNC</strong></a><br/></td>
 <td>Compares a specified number of characters from the beginning of two strings using C run-time (ASCII) collation rules. The comparison is case-sensitive.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>StrCmpNI</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strcmpnia)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strcmpnia"><strong>StrCmpNI</strong></a><br/></td>
 <td>Compares a specified number of characters from the beginning of two strings to determine if they are the same. The comparison is not case-sensitive. The <strong>StrNCmpI</strong> macro differs from this function in name only.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>StrCmpNIC</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strcmpnica)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strcmpnica"><strong>StrCmpNIC</strong></a><br/></td>
 <td>Compares a specified number of characters from the beginning of two strings using C run-time (ASCII) collation rules. The comparison is not case-sensitive.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>StrCpy</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strcpyw)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strcpyw"><strong>StrCpy</strong></a><br/></td>
 <td>Copies one string to another. <br/>
 <blockquote>
 [!Note]<br />
@@ -144,7 +144,7 @@ Do not use. See Remarks for alternative functions.
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>StrCpyN</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strcpynw)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strcpynw"><strong>StrCpyN</strong></a><br/></td>
 <td>Copies a specified number of characters from the beginning of one string to another.<br/>
 <blockquote>
 [!Note]<br />
@@ -153,47 +153,47 @@ Do not use this function or the <strong>StrNCpy</strong> macro. See Remarks for 
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>StrCSpn</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strcspna)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strcspna"><strong>StrCSpn</strong></a><br/></td>
 <td>Searches a string for the first occurrence of any of a group of characters. The search method is case-sensitive, and the terminating <strong>NULL</strong> character is included within the search pattern match.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>StrCSpnI</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strcspnia)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strcspnia"><strong>StrCSpnI</strong></a><br/></td>
 <td>Searches a string for the first occurrence of any of a group of characters. The search method is not case-sensitive, and the terminating <strong>NULL</strong> character is included within the search pattern match.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>StrDup</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strdupa)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strdupa"><strong>StrDup</strong></a><br/></td>
 <td>Duplicates a string.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>StrFormatByteSize64</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strformatbytesize64a)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strformatbytesize64a"><strong>StrFormatByteSize64</strong></a><br/></td>
 <td>Converts a numeric value into a string that represents the number expressed as a size value in bytes, kilobytes, megabytes, or gigabytes, depending on the size.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>StrFormatByteSizeA</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strformatbytesizea)<br/></td>
-<td>Converts a numeric value into a string that represents the number expressed as a size value in bytes, kilobytes, megabytes, or gigabytes, depending on the size. Differs from [<strong>StrFormatByteSizeW</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strformatbytesizew) in one parameter type.<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strformatbytesizea"><strong>StrFormatByteSizeA</strong></a><br/></td>
+<td>Converts a numeric value into a string that represents the number expressed as a size value in bytes, kilobytes, megabytes, or gigabytes, depending on the size. Differs from <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strformatbytesizew"><strong>StrFormatByteSizeW</strong></a> in one parameter type.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>StrFormatByteSizeEx</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strformatbytesizeex)<br/></td>
-<td>Converts a numeric value into a string that represents the number in bytes, kilobytes, megabytes, or gigabytes, depending on the size. Extends [<strong>StrFormatByteSizeW</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strformatbytesizew) by offering the option to round to the nearest displayed digit or to discard undisplayed digits.<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strformatbytesizeex"><strong>StrFormatByteSizeEx</strong></a><br/></td>
+<td>Converts a numeric value into a string that represents the number in bytes, kilobytes, megabytes, or gigabytes, depending on the size. Extends <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strformatbytesizew"><strong>StrFormatByteSizeW</strong></a> by offering the option to round to the nearest displayed digit or to discard undisplayed digits.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>StrFormatByteSizeW</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strformatbytesizew)<br/></td>
-<td>Converts a numeric value into a string that represents the number expressed as a size value in bytes, kilobytes, megabytes, or gigabytes, depending on the size. Differs from [<strong>StrFormatByteSizeA</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strformatbytesizea) in one parameter type.<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strformatbytesizew"><strong>StrFormatByteSizeW</strong></a><br/></td>
+<td>Converts a numeric value into a string that represents the number expressed as a size value in bytes, kilobytes, megabytes, or gigabytes, depending on the size. Differs from <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strformatbytesizea"><strong>StrFormatByteSizeA</strong></a> in one parameter type.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>StrFormatKBSize</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strformatkbsizea)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strformatkbsizea"><strong>StrFormatKBSize</strong></a><br/></td>
 <td>Converts a numeric value into a string that represents the number expressed as a size value in kilobytes.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>StrFromTimeInterval</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strfromtimeintervala)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strfromtimeintervala"><strong>StrFromTimeInterval</strong></a><br/></td>
 <td>Converts a time interval, specified in milliseconds, to a string.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>StrIsIntlEqual</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strisintlequala)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strisintlequala"><strong>StrIsIntlEqual</strong></a><br/></td>
 <td>Compares a specified number of characters from the beginning of two strings to determine if they are equal.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>StrNCat</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strncata)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strncata"><strong>StrNCat</strong></a><br/></td>
 <td>Appends a specified number of characters from the beginning of one string to the end of another. <br/>
 <blockquote>
 [!Note]<br />
@@ -202,68 +202,68 @@ Do not use this function or the <strong>StrCatN</strong> macro. See Remarks for 
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>StrPBrk</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strpbrka)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strpbrka"><strong>StrPBrk</strong></a><br/></td>
 <td>Searches a string for the first occurrence of a character contained in a specified buffer. This search does not include the terminating null character.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>StrRChr</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strrchra)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strrchra"><strong>StrRChr</strong></a><br/></td>
 <td>Searches a string for the last occurrence of a specified character. The comparison is case-sensitive.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>StrRChrI</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strrchria)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strrchria"><strong>StrRChrI</strong></a><br/></td>
 <td>Searches a string for the last occurrence of a specified character. The comparison is not case-sensitive.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>StrRetToBSTR</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strrettobstr)<br/></td>
-<td>Accepts a [<strong>STRRET</strong>](/windows/desktop/api/Shtypes/ns-shtypes-_strret) structure returned by [<strong>IShellFolder::GetDisplayNameOf</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof) that contains or points to a string, and returns that string as a [<strong>BSTR</strong>](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx).<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strrettobstr"><strong>StrRetToBSTR</strong></a><br/></td>
+<td>Accepts a <a href="/windows/desktop/api/Shtypes/ns-shtypes-_strret"><strong>STRRET</strong></a> structure returned by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof"><strong>IShellFolder::GetDisplayNameOf</strong></a> that contains or points to a string, and returns that string as a <a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx"><strong>BSTR</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>StrRetToBuf</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strrettobufa)<br/></td>
-<td>Converts an [<strong>STRRET</strong>](/windows/desktop/api/Shtypes/ns-shtypes-_strret) structure returned by [<strong>IShellFolder::GetDisplayNameOf</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof) to a string, and places the result in a buffer.<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strrettobufa"><strong>StrRetToBuf</strong></a><br/></td>
+<td>Converts an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_strret"><strong>STRRET</strong></a> structure returned by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof"><strong>IShellFolder::GetDisplayNameOf</strong></a> to a string, and places the result in a buffer.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>StrRetToStr</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strrettostra)<br/></td>
-<td>Takes an [<strong>STRRET</strong>](/windows/desktop/api/Shtypes/ns-shtypes-_strret) structure returned by [<strong>IShellFolder::GetDisplayNameOf</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof) and returns a pointer to an allocated string containing the display name.<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strrettostra"><strong>StrRetToStr</strong></a><br/></td>
+<td>Takes an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_strret"><strong>STRRET</strong></a> structure returned by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof"><strong>IShellFolder::GetDisplayNameOf</strong></a> and returns a pointer to an allocated string containing the display name.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>StrRetToStrN</strong>](strrettostrn.md)<br/></td>
-<td>Takes an [<strong>STRRET</strong>](/windows/desktop/api/Shtypes/ns-shtypes-_strret) structure returned by [<strong>IShellFolder::GetDisplayNameOf</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof), converts it to a string, and places the result in a buffer.<br/></td>
+<td><a href="strrettostrn"><strong>StrRetToStrN</strong></a><br/></td>
+<td>Takes an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_strret"><strong>STRRET</strong></a> structure returned by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof"><strong>IShellFolder::GetDisplayNameOf</strong></a>, converts it to a string, and places the result in a buffer.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>StrRStrI</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strrstria)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strrstria"><strong>StrRStrI</strong></a><br/></td>
 <td>Searches for the last occurrence of a specified substring within a string. The comparison is not case-sensitive.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>StrSpn</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strspna)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strspna"><strong>StrSpn</strong></a><br/></td>
 <td>Obtains the length of a substring within a string that consists entirely of characters contained in a specified buffer.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>StrStr</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strstra)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strstra"><strong>StrStr</strong></a><br/></td>
 <td>Finds the first occurrence of a substring within a string. The comparison is case-sensitive.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>StrStrI</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strstria)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strstria"><strong>StrStrI</strong></a><br/></td>
 <td>Finds the first occurrence of a substring within a string. The comparison is not case-sensitive.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>StrToInt</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strtointa)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strtointa"><strong>StrToInt</strong></a><br/></td>
 <td>Converts a string that represents a decimal value to an integer. The <strong>StrToLong</strong> macro is identical to this function.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>StrToInt64Ex</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strtoint64exa)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strtoint64exa"><strong>StrToInt64Ex</strong></a><br/></td>
 <td>Converts a string representing a decimal or hexadecimal value to a 64-bit integer.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>StrToIntEx</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strtointexa)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strtointexa"><strong>StrToIntEx</strong></a><br/></td>
 <td>Converts a string representing a decimal or hexadecimal number to an integer.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>StrTrim</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strtrima)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strtrima"><strong>StrTrim</strong></a><br/></td>
 <td>Removes specified leading and trailing characters from a string.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>wnsprintf</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-wnsprintfa)<br/></td>
-<td>Takes a variable-length argument list and returns the values of the arguments as a [<strong>printf</strong>](https://msdn.microsoft.com/en-us/library/wc7014hz(v=VS.71).aspx)-style formatted string. <br/>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-wnsprintfa"><strong>wnsprintf</strong></a><br/></td>
+<td>Takes a variable-length argument list and returns the values of the arguments as a <a href="https://msdn.microsoft.com/en-us/library/wc7014hz(v=VS.71).aspx"><strong>printf</strong></a>-style formatted string. <br/>
 <blockquote>
 [!Note]<br />
 Do not use this function. See Remarks for alternative functions.
@@ -271,8 +271,8 @@ Do not use this function. See Remarks for alternative functions.
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>wvnsprintf</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-wvnsprintfa)<br/></td>
-<td>Takes a list of arguments and returns the values of the arguments as a [<strong>printf</strong>](https://msdn.microsoft.com/en-us/library/wc7014hz(v=VS.71).aspx)-style formatted string. <br/>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-wvnsprintfa"><strong>wvnsprintf</strong></a><br/></td>
+<td>Takes a list of arguments and returns the values of the arguments as a <a href="https://msdn.microsoft.com/en-us/library/wc7014hz(v=VS.71).aspx"><strong>printf</strong></a>-style formatted string. <br/>
 <blockquote>
 [!Note]<br />
 Do not use this function. See Remarks for alternative functions.

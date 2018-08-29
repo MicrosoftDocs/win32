@@ -57,7 +57,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ProfileConditionedOn](element-profileconditionedon.md)</td>
+<td><a href="element-profileconditionedon">ProfileConditionedOn</a></td>
 <td><p>Specifies the conditions which must be satisfied for a profile to be applicable.</p>
 <p>This element is new for v4. It enables you to specify multiple profiles that apply in different conditions, and for the proper profile to be used automatically when it is applicable. This element is optional. If you do not specify it, then the profile is always applicable with respect to the conditions listed.</p></td>
 </tr>

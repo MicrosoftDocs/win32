@@ -96,11 +96,11 @@ The following function is obsolete.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>InsertMenu</strong>](/windows/desktop/api/Winuser/nf-winuser-insertmenua)</td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-insertmenua"><strong>InsertMenu</strong></a></td>
 <td>Inserts a new menu item into a menu, moving other items down the menu.
 <blockquote>
 [!Note]<br />
-The [<strong>InsertMenu</strong>](/windows/desktop/api/Winuser/nf-winuser-insertmenua) function has been superseded by the [<strong>InsertMenuItem</strong>](/windows/desktop/api/Winuser/nf-winuser-insertmenuitema) function. You can still use <strong>InsertMenu</strong>, however, if you do not need any of the extended features of <strong>InsertMenuItem</strong>.
+The <a href="/windows/desktop/api/Winuser/nf-winuser-insertmenua"><strong>InsertMenu</strong></a> function has been superseded by the <a href="/windows/desktop/api/Winuser/nf-winuser-insertmenuitema"><strong>InsertMenuItem</strong></a> function. You can still use <strong>InsertMenu</strong>, however, if you do not need any of the extended features of <strong>InsertMenuItem</strong>.
 </blockquote>
 <br/> <br/></td>
 </tr>

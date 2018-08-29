@@ -50,8 +50,8 @@ The attribute can have the following values:
 <td><strong>FALSE</strong></td>
 <td>When the Media Session switches to a new topology or clears the current topology, it shuts down the node object, as follows:
 <ul>
-<li>Output nodes: The session calls [<strong>IMFMediaSink::Shutdown</strong>](/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown) on the media sink.</li>
-<li>Transform nodes: The session calls [<strong>IMFShutdown::Shutdown</strong>](/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown) on the MFT.</li>
+<li>Output nodes: The session calls <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown"><strong>IMFMediaSink::Shutdown</strong></a> on the media sink.</li>
+<li>Transform nodes: The session calls <a href="/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown"><strong>IMFShutdown::Shutdown</strong></a> on the MFT.</li>
 </ul></td>
 </tr>
 </tbody>

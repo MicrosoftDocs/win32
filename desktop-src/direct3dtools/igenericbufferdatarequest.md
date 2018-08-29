@@ -26,7 +26,7 @@ The **IGenericBufferDataRequest** interface inherits from the [**IUnknown**](htt
 
 The **IGenericBufferDataRequest** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;">[<strong>RequestAsync</strong>](https://msdn.microsoft.com/library/windows/desktop/mt422685)</td><td style="text-align: left;"><p>Requests to return generic object data that describes an object in the .vsglog file for the specified event and in the specified format.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt422685"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Requests to return generic object data that describes an object in the .vsglog file for the specified event and in the specified format.</p></td></tr></tbody></table>
 
  
 

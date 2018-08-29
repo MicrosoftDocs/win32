@@ -87,7 +87,7 @@ If the function fails, the return value is one of the [system error codes](https
 <tbody>
 <tr class="odd">
 <td><dl> <dt><strong>ERROR_INVALID_FLAG_NUMBER</strong></dt> </dl></td>
-<td>The <strong>Flags</strong> member of the [<strong>EVENT_TRACE_HEADER</strong>](event-trace-header.md) structure is incorrect.<br/></td>
+<td>The <strong>Flags</strong> member of the <a href="event-trace-header"><strong>EVENT_TRACE_HEADER</strong></a> structure is incorrect.<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>ERROR_INVALID_HANDLE</strong></dt> </dl></td>
@@ -95,7 +95,7 @@ If the function fails, the return value is one of the [system error codes](https
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>ERROR_NOT_ENOUGH_MEMORY</strong></dt> </dl></td>
-<td>The session ran out of free buffers to write to. This can occur during high event rates because the disk subsystem is overloaded or the number of buffers is too small. Rather than blocking until more buffers become available, [<strong>TraceEvent</strong>](traceevent.md) discards the event. <br/> Consider increasing the number and size of the buffers for the session, or reducing the number of events written or the size of the events.<br/> <strong>Windows 2000:</strong> Not supported.<br/></td>
+<td>The session ran out of free buffers to write to. This can occur during high event rates because the disk subsystem is overloaded or the number of buffers is too small. Rather than blocking until more buffers become available, <a href="traceevent"><strong>TraceEvent</strong></a> discards the event. <br/> Consider increasing the number and size of the buffers for the session, or reducing the number of events written or the size of the events.<br/> <strong>Windows 2000:</strong> Not supported.<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>ERROR_OUTOFMEMORY</strong></dt> </dl></td>
@@ -107,12 +107,12 @@ If the function fails, the return value is one of the [system error codes](https
 <ul>
 <li><em>SessionHandle</em> is <strong>NULL</strong>.</li>
 <li><em>EventTrace</em> is <strong>NULL</strong>.</li>
-<li>The <strong>Size</strong> member of the [<strong>EVENT_TRACE_HEADER</strong>](event-trace-header.md) structure is incorrect.</li>
+<li>The <strong>Size</strong> member of the <a href="event-trace-header"><strong>EVENT_TRACE_HEADER</strong></a> structure is incorrect.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>ERROR_MORE_DATA</strong></dt> </dl></td>
-<td>Data from a single event cannot span multiple buffers. A trace event is limited to the size of the event tracing session's buffer minus the size of the [<strong>EVENT_TRACE_HEADER</strong>](event-trace-header.md) structure. <br/></td>
+<td>Data from a single event cannot span multiple buffers. A trace event is limited to the size of the event tracing session's buffer minus the size of the <a href="event-trace-header"><strong>EVENT_TRACE_HEADER</strong></a> structure. <br/></td>
 </tr>
 </tbody>
 </table>

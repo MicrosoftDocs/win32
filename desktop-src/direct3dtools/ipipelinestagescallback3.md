@@ -26,7 +26,7 @@ The **IPipeLineStagesCallback3** interface inherits from the [**IUnknown**](http
 
 The **IPipeLineStagesCallback3** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;">[<strong>MeshFileReadyCallback</strong>](https://msdn.microsoft.com/library/windows/desktop/mt432721)</td><td style="text-align: left;"><p>A callback that notifies the host of Mesh information written by the associated request.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt432721"><strong>MeshFileReadyCallback</strong></a></td><td style="text-align: left;"><p>A callback that notifies the host of Mesh information written by the associated request.</p></td></tr></tbody></table>
 
  
 

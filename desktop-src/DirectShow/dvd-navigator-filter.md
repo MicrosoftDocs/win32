@@ -25,7 +25,7 @@ The DVD Navigator filter also implements the [**IDvdControl2**](/windows/desktop
 <tbody>
 <tr class="odd">
 <td>Filter Interfaces</td>
-<td>[<strong>IBaseFilter</strong>](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [<strong>IDvdControl2</strong>](/windows/desktop/api/Strmif/nn-strmif-idvdcontrol2), [<strong>IDvdInfo2</strong>](/windows/desktop/api/Strmif/nn-strmif-idvdinfo2), [<strong>IFileSourceFilter</strong>](/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter), <strong>ISpecifyPropertyPages</strong></td>
+<td><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-idvdcontrol2"><strong>IDvdControl2</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-idvdinfo2"><strong>IDvdInfo2</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter"><strong>IFileSourceFilter</strong></a>, <strong>ISpecifyPropertyPages</strong></td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>
@@ -61,11 +61,11 @@ Subpicture:<br/>
 <li><strong>MEDIATYPE_Video</strong>, <strong>MEDIASUBTYPE_DVD_SUBPICTURE</strong></li>
 <li><strong>MEDIATYPE_MPEG2_PES</strong>, <strong>MEDIASUBTYPE_DVD_SUBPICTURE</strong></li>
 </ul>
-To enable the extended types, call [<strong>IDvdControl2::SetOption</strong>](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-setoption) and set the <br/></td>
+To enable the extended types, call <a href="/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-setoption"><strong>IDvdControl2::SetOption</strong></a> and set the <br/></td>
 </tr>
 <tr class="odd">
 <td>Output Pin Interfaces</td>
-<td>[<strong>IPin</strong>](/windows/desktop/api/Strmif/nn-strmif-ipin), [<strong>IQualityControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol)</td>
+<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
 </tr>
 <tr class="even">
 <td>Filter CLSID</td>
@@ -80,11 +80,11 @@ To enable the extended types, call [<strong>IDvdControl2::SetOption</strong>](/w
 <td>qdvd.dll</td>
 </tr>
 <tr class="odd">
-<td>[Merit](merit.md)</td>
+<td><a href="merit">Merit</a></td>
 <td>MERIT_DO_NOT_USE</td>
 </tr>
 <tr class="even">
-<td>[Filter Category](filter-categories.md)</td>
+<td><a href="filter-categories">Filter Category</a></td>
 <td>CLSID_LegacyAmFilterCategory</td>
 </tr>
 </tbody>

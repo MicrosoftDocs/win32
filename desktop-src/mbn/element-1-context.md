@@ -66,23 +66,23 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AccessString](element-1-accessstring.md)</td>
+<td><a href="element-1-accessstring">AccessString</a></td>
 <td><p>Identifies the APN or dial string to be used to establish a data connection.</p>
-<p>For more information, see the documentation for the v1 [<strong>AccessString</strong>](../mbn/schema_accessstring_contexttype_element.md) element.</p></td>
+<p>For more information, see the documentation for the v1 <a href="../mbn/schema_accessstring_contexttype_element"><strong>AccessString</strong></a> element.</p></td>
 </tr>
 <tr class="even">
-<td>[AuthProtocol](element-1-authprotocol.md)</td>
+<td><a href="element-1-authprotocol">AuthProtocol</a></td>
 <td><p>>Specifies the authentication protocol to be used for activating a Packet Data Protocol (PDP) context.</p>
 <p>Note that in v4, a new enumeration value is available for this element. <strong>AutoSelection</strong> means that an auth protocol is to be picked by lower layer(s).</p>
-<p>For further information, see the documentation for the v1 [<strong>AuthProtocol</strong>](../mbn/schema_authprotocol_contexttype_element.md) element.</p></td>
+<p>For further information, see the documentation for the v1 <a href="../mbn/schema_authprotocol_contexttype_element"><strong>AuthProtocol</strong></a> element.</p></td>
 </tr>
 <tr class="odd">
-<td>[Compression](element-1-compression.md)</td>
+<td><a href="element-1-compression">Compression</a></td>
 <td><p>Specifies whether compression will be used at the data link for header and data transfer.</p>
-<p>For more information, see the documentation for the v1 [<strong>Compression</strong>](../mbn/schema_compression_contexttype_element.md) element.</p></td>
+<p>For more information, see the documentation for the v1 <a href="../mbn/schema_compression_contexttype_element"><strong>Compression</strong></a> element.</p></td>
 </tr>
 <tr class="even">
-<td>[IPType](element-1-iptype.md)</td>
+<td><a href="element-1-iptype">IPType</a></td>
 <td><p>Specifies the IP type to be used on this data connection.</p>
 <p>This element is new in v4 of the schema. The element can have one of the following values.</p>
 <table>
@@ -118,7 +118,7 @@ None.
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td>[UserLogonCred](element-1-userlogoncred.md)</td>
+<td><a href="element-1-userlogoncred">UserLogonCred</a></td>
 <td><p>Logon credentials for a connection.</p></td>
 </tr>
 </tbody>
@@ -141,12 +141,12 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[MBNProfileExt](element-mbnprofileext.md)</td>
+<td><a href="element-mbnprofileext">MBNProfileExt</a></td>
 <td><p>The <strong>MBNProfileExt</strong> element is an extension of the earlier MBNProfile element. It identifies a Mobile Broadband profile with a richer set of options than the MBNProfile element.</p>
-<p>There can be more than one MbnProfileExt element in a profile, describing profile settings for a particular set of operating conditions. Use the [<strong>ProfileConditionedOn</strong>](element-profileconditionedon.md) child element of <strong>MBNProfileExt</strong> to specify which operating conditions make a particular profile the active profile.</p></td>
+<p>There can be more than one MbnProfileExt element in a profile, describing profile settings for a particular set of operating conditions. Use the <a href="element-profileconditionedon"><strong>ProfileConditionedOn</strong></a> child element of <strong>MBNProfileExt</strong> to specify which operating conditions make a particular profile the active profile.</p></td>
 </tr>
 <tr class="even">
-<td>[ModemDMConfigProfile](element-modemdmconfigprofile.md)</td>
+<td><a href="element-modemdmconfigprofile">ModemDMConfigProfile</a></td>
 <td><p>Modem DM configuration profile.</p></td>
 </tr>
 </tbody>

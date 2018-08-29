@@ -43,39 +43,39 @@ The following table lists the documentation for WinRM 2.0.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[WinRM Client Shell API](client-shell-api.md)<br/></td>
+<td><a href="client-shell-api">WinRM Client Shell API</a><br/></td>
 <td>The WinRM Client Shell application programming interface (API) provides functionality to create and manage shells and shell operations, commands, and data streams on remote computers. <br/></td>
 </tr>
 <tr class="even">
-<td>[WinRM Plugin API](winrm-plugin-api.md)<br/></td>
-<td>The WinRM Plug-in API provides functionality that enables a user to write plug-ins by implementing certain APIs for supported [<em>resource URIs</em>](windows-remote-management-glossary.md) and operations.<br/></td>
+<td><a href="winrm-plugin-api">WinRM Plugin API</a><br/></td>
+<td>The WinRM Plug-in API provides functionality that enables a user to write plug-ins by implementing certain APIs for supported <a href="windows-remote-management-glossary"><em>resource URIs</em></a> and operations.<br/></td>
 </tr>
 <tr class="odd">
-<td>[Infrastructure for Managing Hosted Services](winrm-application-hosting.md)<br/></td>
+<td><a href="winrm-application-hosting">Infrastructure for Managing Hosted Services</a><br/></td>
 <td>WinRM 2.0 introduces a hosting framework. Two hosting models are supported. One is Internet Information Service (IIS)–based and the other is WinRM–service based. <br/> For more information about the host configuration, see the following topics:<br/>
 <ul>
-<li>[IIS Host Plug-in Configuration](iis-host-plug-in-configuration.md)</li>
-<li>[WinRM Service Plug-in Configuration](wsman-service-plug-in-configuration.md)</li>
+<li><a href="iis-host-plug-in-configuration">IIS Host Plug-in Configuration</a></li>
+<li><a href="wsman-service-plug-in-configuration">WinRM Service Plug-in Configuration</a></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>[DMTF Profile Discovery through Association Traversal](dmtf-association-traversal.md)<br/></td>
+<td><a href="dmtf-association-traversal">DMTF Profile Discovery through Association Traversal</a><br/></td>
 <td>Association traversal enables a user to retrieve instances of Association classes by using a standard filtering mechanism.<br/></td>
 </tr>
 <tr class="odd">
-<td>[Remote Shell infrastructure improvements](remote-shell-infrastructure-improvements.md)<br/></td>
+<td><a href="remote-shell-infrastructure-improvements">Remote Shell infrastructure improvements</a><br/></td>
 <td>This topic includes information about the remote infrastructure improvements for WinRM. <br/></td>
 </tr>
 <tr class="even">
-<td>[Multi-hop Support](multi-hop-support.md)<br/></td>
-<td>Functionality was added to WinRM 2.0 that supports delegating user credentials across multiple remote computers. <br/> The [<strong>Authentication Constants</strong>](authentication-constants.md) topic was updated to add the following constant: <strong>WSManFlagUseCredSsp</strong>.<br/> The following C++ API was added to provide multi-hop support: [<strong>IWSManEx3</strong>](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanex3).<br/> The following scripting API was added to provide multi-hop support: [<strong>WSMan.SessionFlagUseCredSsp</strong>](wsman-sessionflagusecredssp.md).<br/></td>
+<td><a href="multi-hop-support">Multi-hop Support</a><br/></td>
+<td>Functionality was added to WinRM 2.0 that supports delegating user credentials across multiple remote computers. <br/> The <a href="authentication-constants"><strong>Authentication Constants</strong></a> topic was updated to add the following constant: <strong>WSManFlagUseCredSsp</strong>.<br/> The following C++ API was added to provide multi-hop support: <a href="/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanex3"><strong>IWSManEx3</strong></a>.<br/> The following scripting API was added to provide multi-hop support: <a href="wsman-sessionflagusecredssp"><strong>WSMan.SessionFlagUseCredSsp</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[Quota Management for Remote Shells](quotas.md)<br/></td>
+<td><a href="quotas">Quota Management for Remote Shells</a><br/></td>
 <td>This topic includes information about quota configuration for remote shell management.<br/></td>
 </tr>
 <tr class="even">
-<td>[Managed Reference for WS-Management PowerShell Commands](winrm-powershell-commandlets.md)<br/></td>
+<td><a href="winrm-powershell-commandlets">Managed Reference for WS-Management PowerShell Commands</a><br/></td>
 <td>Users of WinRM 2.0 can use Windows PowerShell cmdlets for system management.<br/></td>
 </tr>
 </tbody>

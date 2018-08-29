@@ -26,7 +26,7 @@ The **ITileRequest** interface inherits from the [**IUnknown**](https://msdn.mic
 
 The **ITileRequest** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;">[<strong>RequestBufferTileAsync</strong>](https://msdn.microsoft.com/library/windows/desktop/mt432820)</td><td style="text-align: left;"><p>Requests to get the raw contents of a tile.</p></td></tr><tr class="even"><td style="text-align: left;">[<strong>RequestTextureTileAsync</strong>](https://msdn.microsoft.com/library/windows/desktop/mt432821)</td><td style="text-align: left;"><p>Requests to get the contents of a tiled texture as a .DDS (DirectDraw Surface) file.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt432820"><strong>RequestBufferTileAsync</strong></a></td><td style="text-align: left;"><p>Requests to get the raw contents of a tile.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt432821"><strong>RequestTextureTileAsync</strong></a></td><td style="text-align: left;"><p>Requests to get the contents of a tiled texture as a .DDS (DirectDraw Surface) file.</p></td></tr></tbody></table>
 
  
 

@@ -34,31 +34,31 @@ This section contains information about the layer interfaces.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>ID3D11Debug</strong>](/windows/desktop/api/D3D11SDKLayers/nn-d3d11sdklayers-id3d11debug)<br/></td>
+<td><a href="/windows/desktop/api/D3D11SDKLayers/nn-d3d11sdklayers-id3d11debug"><strong>ID3D11Debug</strong></a><br/></td>
 <td>A debug interface controls debug settings, validates pipeline state and can only be used if the debug layer is turned on.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ID3D11InfoQueue</strong>](/windows/desktop/api/D3D11SDKLayers/nn-d3d11sdklayers-id3d11infoqueue)<br/></td>
+<td><a href="/windows/desktop/api/D3D11SDKLayers/nn-d3d11sdklayers-id3d11infoqueue"><strong>ID3D11InfoQueue</strong></a><br/></td>
 <td>An information-queue interface stores, retrieves, and filters debug messages. The queue consists of a message queue, an optional storage filter stack, and a optional retrieval filter stack.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ID3D11RefDefaultTrackingOptions</strong>](/windows/desktop/api/D3D11SDKLayers/nn-d3d11sdklayers-id3d11refdefaulttrackingoptions)<br/></td>
+<td><a href="/windows/desktop/api/D3D11SDKLayers/nn-d3d11sdklayers-id3d11refdefaulttrackingoptions"><strong>ID3D11RefDefaultTrackingOptions</strong></a><br/></td>
 <td>The default tracking interface sets reference default tracking options.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ID3D11RefTrackingOptions</strong>](/windows/desktop/api/D3D11SDKLayers/nn-d3d11sdklayers-id3d11reftrackingoptions)<br/></td>
+<td><a href="/windows/desktop/api/D3D11SDKLayers/nn-d3d11sdklayers-id3d11reftrackingoptions"><strong>ID3D11RefTrackingOptions</strong></a><br/></td>
 <td>The tracking interface sets reference tracking options.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ID3D11SwitchToRef</strong>](/windows/desktop/api/D3D11SDKLayers/nn-d3d11sdklayers-id3d11switchtoref)<br/></td>
+<td><a href="/windows/desktop/api/D3D11SDKLayers/nn-d3d11sdklayers-id3d11switchtoref"><strong>ID3D11SwitchToRef</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-The [<strong>ID3D11SwitchToRef</strong>](/windows/desktop/api/D3D11SDKLayers/nn-d3d11sdklayers-id3d11switchtoref) interface and its methods are not supported in Direct3D 11.
+The <a href="/windows/desktop/api/D3D11SDKLayers/nn-d3d11sdklayers-id3d11switchtoref"><strong>ID3D11SwitchToRef</strong></a> interface and its methods are not supported in Direct3D 11.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ID3D11TracingDevice</strong>](/windows/desktop/api/D3D11SDKLayers/nn-d3d11sdklayers-id3d11tracingdevice)<br/></td>
+<td><a href="/windows/desktop/api/D3D11SDKLayers/nn-d3d11sdklayers-id3d11tracingdevice"><strong>ID3D11TracingDevice</strong></a><br/></td>
 <td>The tracing device interface sets shader tracking information, which enables accurate logging and playback of shader execution.<br/></td>
 </tr>
 </tbody>

@@ -130,7 +130,7 @@ Specifies how packages are to be processed.
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="PACKAGE_PROPERTY_DEVELOPMENT_MODE"></span><span id="package_property_development_mode"></span><dl> <dt><strong>PACKAGE_PROPERTY_DEVELOPMENT_MODE</strong></dt> <dt>0x00010000</dt> </dl></td>
-<td style="text-align: left;">The package was registered with the [<strong>DeploymentOptions</strong>](https://msdn.microsoft.com/library/windows/apps/br240928) enumeration.<br/></td>
+<td style="text-align: left;">The package was registered with the <a href="https://msdn.microsoft.com/library/windows/apps/br240928"><strong>DeploymentOptions</strong></a> enumeration.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="PACKAGE_PROPERTY_FRAMEWORK"></span><span id="package_property_framework"></span><dl> <dt><strong>PACKAGE_PROPERTY_FRAMEWORK</strong></dt> <dt>0x00000001</dt> </dl></td>

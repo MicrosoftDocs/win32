@@ -44,23 +44,23 @@ The caret supports the following [**IAccessible**](/windows/desktop/api/oleacc/n
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>get_accChildCount</strong>](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accchildcount)</td>
+<td><a href="/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accchildcount"><strong>get_accChildCount</strong></a></td>
 <td>The <strong>ChildCount</strong> property is zero.</td>
 </tr>
 <tr class="even">
-<td>[<strong>get_accName</strong>](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accname)</td>
+<td><a href="/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accname"><strong>get_accName</strong></a></td>
 <td>The <strong>Name</strong> property is &quot;Edit&quot;.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>get_accRole</strong>](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accrole)</td>
-<td>The <strong>Role</strong> property is [<strong>ROLE_SYSTEM_CARET</strong>](object-roles.md).</td>
+<td><a href="/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accrole"><strong>get_accRole</strong></a></td>
+<td>The <strong>Role</strong> property is <a href="object-roles"><strong>ROLE_SYSTEM_CARET</strong></a>.</td>
 </tr>
 <tr class="even">
-<td>[<strong>get_accState</strong>](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accstate)</td>
+<td><a href="/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accstate"><strong>get_accState</strong></a></td>
 <td>Possible values for the <strong>State</strong> property include:
 <ul>
 <li>Zero, which means the caret is visible</li>
-<li>[<strong>STATE_SYSTEM_INVISIBLE</strong>](object-state-constants.md)</li>
+<li><a href="object-state-constants"><strong>STATE_SYSTEM_INVISIBLE</strong></a></li>
 </ul></td>
 </tr>
 </tbody>

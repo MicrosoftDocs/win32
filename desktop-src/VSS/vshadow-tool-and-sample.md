@@ -115,7 +115,7 @@ This flag is supported only on Windows server operating systems.
 </tr>
 <tr class="odd">
 <td><span id="-nar"></span><span id="-NAR"></span><strong>-nar</strong><br/></td>
-<td>This optional flag specifies shadow copies without auto-recovery. For more information about this option, see the documentation for the VSS_VOLSNAP_ATTR_NO_AUTORECOVERY flag of the [<strong>_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</strong>](/windows/desktop/api/Vss/ne-vss-_vss_volume_snapshot_attributes) enumeration.<br/></td>
+<td>This optional flag specifies shadow copies without auto-recovery. For more information about this option, see the documentation for the VSS_VOLSNAP_ATTR_NO_AUTORECOVERY flag of the <a href="/windows/desktop/api/Vss/ne-vss-_vss_volume_snapshot_attributes"><strong>_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</strong></a> enumeration.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="-norevert"></span><span id="-NOREVERT"></span><strong>-norevert</strong><br/></td>
@@ -128,11 +128,11 @@ This flag is supported only on Windows server operating systems.
 </tr>
 <tr class="odd">
 <td><span id="-nw"></span><span id="-NW"></span><strong>-nw</strong><br/></td>
-<td>This optional flag specifies shadow copies without involving writers. For more information about shadow copies without writer participation, see [Shadow Copy Creation Details](shadow-copy-creation-details.md). This flag and the <strong>-wi</strong> and <strong>-wx</strong> flags are mutually exclusive.<br/></td>
+<td>This optional flag specifies shadow copies without involving writers. For more information about shadow copies without writer participation, see <a href="shadow-copy-creation-details">Shadow Copy Creation Details</a>. This flag and the <strong>-wi</strong> and <strong>-wx</strong> flags are mutually exclusive.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="-p"></span><span id="-P"></span><strong>-p</strong><br/></td>
-<td>This optional flag specifies [<em>persistent shadow copies</em>](vssgloss-p.md).<br/>
+<td>This optional flag specifies <a href="vssgloss-p"><em>persistent shadow copies</em></a>.<br/>
 <blockquote>
 [!Note]<br />
 This flag is supported only on Windows server operating systems.
@@ -150,7 +150,7 @@ This flag is supported only on Windows server operating systems.
 </tr>
 <tr class="even">
 <td><span id="-scsf"></span><span id="-SCSF"></span><strong>-scsf</strong><br/></td>
-<td>This optional flag specifies [<em>client-accessible shadow copies</em>](vssgloss-c.md).<br/>
+<td>This optional flag specifies <a href="vssgloss-c"><em>client-accessible shadow copies</em></a>.<br/>
 <blockquote>
 [!Note]<br />
 This flag is supported only on Windows server operating systems.

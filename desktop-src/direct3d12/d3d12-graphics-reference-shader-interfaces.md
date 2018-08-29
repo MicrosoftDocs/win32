@@ -32,7 +32,7 @@ d3d12shader.h declares the following interfaces.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>ID3D12FunctionParameterReflection</strong>](/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12functionparameterreflection)<br/></td>
+<td><a href="/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12functionparameterreflection"><strong>ID3D12FunctionParameterReflection</strong></a><br/></td>
 <td>A function-parameter-reflection interface accesses function-parameter info. <br/>
 <blockquote>
 [!Note]<br />
@@ -41,7 +41,7 @@ This interface is part of the HLSL shader linking technology that you can use on
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ID3D12FunctionReflection</strong>](/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12functionreflection)<br/></td>
+<td><a href="/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12functionreflection"><strong>ID3D12FunctionReflection</strong></a><br/></td>
 <td>A function-reflection interface accesses function info. <br/>
 <blockquote>
 [!Note]<br />
@@ -50,7 +50,7 @@ This interface is part of the HLSL shader linking technology that you can use on
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ID3D12LibraryReflection</strong>](/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12libraryreflection)<br/></td>
+<td><a href="/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12libraryreflection"><strong>ID3D12LibraryReflection</strong></a><br/></td>
 <td>A library-reflection interface accesses library info. <br/>
 <blockquote>
 [!Note]<br />
@@ -59,19 +59,19 @@ This interface is part of the HLSL shader linking technology that you can use on
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ID3D12ShaderReflection</strong>](/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflection)<br/></td>
+<td><a href="/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflection"><strong>ID3D12ShaderReflection</strong></a><br/></td>
 <td>A shader-reflection interface accesses shader information. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ID3D12ShaderReflectionConstantBuffer</strong>](/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflectionconstantbuffer)<br/></td>
+<td><a href="/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflectionconstantbuffer"><strong>ID3D12ShaderReflectionConstantBuffer</strong></a><br/></td>
 <td>This shader-reflection interface provides access to a constant buffer. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ID3D12ShaderReflectionType</strong>](/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflectiontype)<br/></td>
+<td><a href="/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflectiontype"><strong>ID3D12ShaderReflectionType</strong></a><br/></td>
 <td>This shader-reflection interface provides access to variable type. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ID3D12ShaderReflectionVariable</strong>](/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflectionvariable)<br/></td>
+<td><a href="/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflectionvariable"><strong>ID3D12ShaderReflectionVariable</strong></a><br/></td>
 <td>This shader-reflection interface provides access to a variable. <br/></td>
 </tr>
 </tbody>

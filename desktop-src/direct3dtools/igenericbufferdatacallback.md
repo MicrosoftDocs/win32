@@ -26,7 +26,7 @@ The **IGenericBufferDataCallback** interface inherits from the [**IUnknown**](ht
 
 The **IGenericBufferDataCallback** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;">[<strong>ResultCallback</strong>](https://msdn.microsoft.com/library/windows/desktop/mt422683)</td><td style="text-align: left;"><p>A callback that notifies the host of generic buffer information returned by the assocaited request.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt422683"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>A callback that notifies the host of generic buffer information returned by the assocaited request.</p></td></tr></tbody></table>
 
  
 

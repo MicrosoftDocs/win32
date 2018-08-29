@@ -65,7 +65,7 @@ Returns the current edit style flags, which can include one or more of the follo
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>SES_BIDI</strong></dt> </dl></td>
-<td>Turns on bidirectional processing. This is automatically turned on by Rich Edit if any of the following window styles are active: [<strong>WS_EX_RIGHT</strong>](https://msdn.microsoft.com/library/windows/desktop/ff700543#ws-ex-right), [<strong>WS_EX_RTLREADING</strong>](https://msdn.microsoft.com/library/windows/desktop/ff700543#ws-ex-rtlreading), [<strong>WS_EX_LEFTSCROLLBAR</strong>](https://msdn.microsoft.com/library/windows/desktop/ff700543#ws-ex-leftscrollbar). However, this setting is useful for handling these window styles when using a custom implementation of [<strong>ITextHost</strong>](/windows/desktop/api/Textserv/nl-textserv-itexthost) (default: 0).<br/></td>
+<td>Turns on bidirectional processing. This is automatically turned on by Rich Edit if any of the following window styles are active: <a href="https://msdn.microsoft.com/library/windows/desktop/ff700543#ws-ex-right"><strong>WS_EX_RIGHT</strong></a>, <a href="https://msdn.microsoft.com/library/windows/desktop/ff700543#ws-ex-rtlreading"><strong>WS_EX_RTLREADING</strong></a>, <a href="https://msdn.microsoft.com/library/windows/desktop/ff700543#ws-ex-leftscrollbar"><strong>WS_EX_LEFTSCROLLBAR</strong></a>. However, this setting is useful for handling these window styles when using a custom implementation of <a href="/windows/desktop/api/Textserv/nl-textserv-itexthost"><strong>ITextHost</strong></a> (default: 0).<br/></td>
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>SES_CTFALLOWEMBED</strong></dt> </dl></td>
@@ -118,7 +118,7 @@ If you really want this behavior, use the Windows riched32.dll instead of riched
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>SES_LOGICALCARET</strong></dt> </dl></td>
-<td><strong>Windows 8</strong>: Provide logical caret information instead of a caret bitmap as described in [<strong>ITextHost::TxSetCaretPos</strong>](/windows/desktop/api/Textserv/nf-textserv-itexthost-txsetcaretpos) (default: 0). <br/></td>
+<td><strong>Windows 8</strong>: Provide logical caret information instead of a caret bitmap as described in <a href="/windows/desktop/api/Textserv/nf-textserv-itexthost-txsetcaretpos"><strong>ITextHost::TxSetCaretPos</strong></a> (default: 0). <br/></td>
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>SES_LOWERCASE</strong></dt> </dl></td>
@@ -138,7 +138,7 @@ If you really want this behavior, use the Windows riched32.dll instead of riched
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>SES_NOFOCUSLINKNOTIFY</strong></dt> </dl></td>
-<td>Sends [EN_LINK](en-link.md) notification from links that do not have focus.<br/></td>
+<td>Sends <a href="en-link">EN_LINK</a> notification from links that do not have focus.<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>SES_NOIME</strong></dt> </dl></td>
@@ -174,7 +174,7 @@ If you really want this behavior, use the Windows riched32.dll instead of riched
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>SES_USEATFONT</strong></dt> </dl></td>
-<td><strong>Windows XP with SP1</strong>: Uses an @ font, which is designed for vertical text; this is used with the [<strong>ES_VERTICAL</strong>](rich-edit-control-styles.md) window style. The name of an @ font begins with the @ symbol, for example, &quot;@Batang&quot; (default: 0, but is automatically turned on for vertical text layout). <br/></td>
+<td><strong>Windows XP with SP1</strong>: Uses an @ font, which is designed for vertical text; this is used with the <a href="rich-edit-control-styles"><strong>ES_VERTICAL</strong></a> window style. The name of an @ font begins with the @ symbol, for example, &quot;@Batang&quot; (default: 0, but is automatically turned on for vertical text layout). <br/></td>
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>SES_USECTF</strong></dt> </dl></td>

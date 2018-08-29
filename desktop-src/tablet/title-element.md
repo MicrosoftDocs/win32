@@ -75,10 +75,10 @@ Contains title information about the Journal note.
 </tr>
 <tr class="odd">
 <td><strong>Color</strong></td>
-<td>[<strong>ColorType simpleType</strong>](colortype-simple-type.md)</td>
+<td><a href="colortype-simple-type"><strong>ColorType simpleType</strong></a></td>
 <td>Optional</td>
 <td>Specifies the color of the background.</td>
-<td>See [<strong>ColorType simpleType</strong>](colortype-simple-type.md).</td>
+<td>See <a href="colortype-simple-type"><strong>ColorType simpleType</strong></a>.</td>
 </tr>
 </tbody>
 </table>

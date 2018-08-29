@@ -74,7 +74,7 @@ To distinguish between a SearchProtocolHost process running in the system contex
 
 ## Related topics
 
-<dl> <dt>**Conceptual**</dt> <dt>[Developing Protocol Handlers](-search-3x-wds-phaddins.md)</dt> <dt>[Understanding Protocol Handlers](-search-3x-wds-extidx-prot-implementing.md)</dt> <dt>[Notifying the Index of Changes](-search-3x-wds-notifyingofchanges.md)</dt> <dt>[Adding Icons and Context Menus](-search-3x-wds-ph-ui-extensions.md)</dt> <dt>[Code Sample: Shell Extensions for Protocol Handlers](-search-3x-wds-ph-ui-samplecode.md)</dt> <dt>[Creating a Search Connector for a Protocol Handler](-search-3x-wds-ph-search-connector.md)</dt> <dt>[Installing and Registering Protocol Handlers](-search-3x-wds-ph-install-registration.md)</dt> </dl>
+<dl> <dt>**Conceptual**</dt> <dt><a href="-search-3x-wds-phaddins">Developing Protocol Handlers</a></dt> <dt><a href="-search-3x-wds-extidx-prot-implementing">Understanding Protocol Handlers</a></dt> <dt><a href="-search-3x-wds-notifyingofchanges">Notifying the Index of Changes</a></dt> <dt><a href="-search-3x-wds-ph-ui-extensions">Adding Icons and Context Menus</a></dt> <dt><a href="-search-3x-wds-ph-ui-samplecode">Code Sample: Shell Extensions for Protocol Handlers</a></dt> <dt><a href="-search-3x-wds-ph-search-connector">Creating a Search Connector for a Protocol Handler</a></dt> <dt><a href="-search-3x-wds-ph-install-registration">Installing and Registering Protocol Handlers</a></dt> </dl>
 
  
 

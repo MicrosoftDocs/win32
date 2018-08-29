@@ -200,34 +200,34 @@ The following table describes the WIC interfaces that support metadata, and thei
 </thead>
 <tbody>
 <tr class="odd">
-<td>Bitmap Decoder ([<strong>IWICBitmapDecoder</strong>](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder))</td>
+<td>Bitmap Decoder (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder"><strong>IWICBitmapDecoder</strong></a>)</td>
 <td><ul>
 <li>Reads an image stream and produces a usable bitmap source. Associated with a container format such as Tagged Image File Format (TIFF) or Joint Photographic Experts Group (JPEG).</li>
-<li>Implements an [<strong>IWICMetadataBlockReader</strong>](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader) interface to enumerate all of the metadata blocks in the decoder's data stream that are not inside a frame.</li>
+<li>Implements an <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader"><strong>IWICMetadataBlockReader</strong></a> interface to enumerate all of the metadata blocks in the decoder's data stream that are not inside a frame.</li>
 <li>Exposes a query reader to read the metadata associated with the image that is not inside a frame.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Bitmap Frame Decode ([<strong>IWICBitmapFrameDecode</strong>](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode))</td>
+<td>Bitmap Frame Decode (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode"><strong>IWICBitmapFrameDecode</strong></a>)</td>
 <td><ul>
 <li>Accesses individual frames from the image stream held by the decoder.</li>
-<li>Implements an [<strong>IWICMetadataBlockReader</strong>](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader) interface to enumerate all of the metadata blocks in the frame's data stream.</li>
+<li>Implements an <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader"><strong>IWICMetadataBlockReader</strong></a> interface to enumerate all of the metadata blocks in the frame's data stream.</li>
 <li>Exposes a query reader to read the metadata associated with the frame, using query expressions.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Bitmap Encoder ([<strong>IWICBitmapEncoder</strong>](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder))</td>
+<td>Bitmap Encoder (<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder"><strong>IWICBitmapEncoder</strong></a>)</td>
 <td><ul>
 <li>Writes a bitmap source to an image stream. Associated with a container format such as TIFF or JPEG.</li>
-<li>Implements an [<strong>IWICMetadataBlockWriter</strong>](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter) interface to build up a list of metadata blocks to write into the data stream of the encoder.</li>
+<li>Implements an <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter"><strong>IWICMetadataBlockWriter</strong></a> interface to build up a list of metadata blocks to write into the data stream of the encoder.</li>
 <li>Exposes a query writer to write the metadata associated with the image, using query expressions.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Bitma Frame Encode ([<strong>IWICBitmapFrameEncode</strong>](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode))</td>
+<td>Bitma Frame Encode (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode"><strong>IWICBitmapFrameEncode</strong></a>)</td>
 <td><ul>
 <li>Creates a frame that will be encoded into the stream held by the encoder.</li>
-<li>Implements an [<strong>IWICMetadataBlockWriter</strong>](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter) interface to build up a list of metadata blocks to write into the frame's data stream.</li>
+<li>Implements an <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter"><strong>IWICMetadataBlockWriter</strong></a> interface to build up a list of metadata blocks to write into the frame's data stream.</li>
 <li>Exposes a query writer to write the metadata associated with the frame, using query expressions.</li>
 </ul></td>
 </tr>
@@ -253,35 +253,35 @@ The following table describes the WIC metadata components. These components enab
 </thead>
 <tbody>
 <tr class="odd">
-<td>Metadata Query Reader ([<strong>IWICMetadataQueryReader</strong>](/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataqueryreader))</td>
+<td>Metadata Query Reader (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataqueryreader"><strong>IWICMetadataQueryReader</strong></a>)</td>
 <td><ul>
 <li>Takes a query string and navigates the underlying metadata hierarchy to get metadata.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Metadata Query Writer ([<strong>IWICMetadataQueryWriter</strong>](/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataquerywriter))</td>
+<td>Metadata Query Writer (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataquerywriter"><strong>IWICMetadataQueryWriter</strong></a>)</td>
 <td><ul>
 <li>Takes a query string and navigates the underlying metadata hierarchy to get, set, and remove metadata.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Metadata Block Reader ([<strong>IWICMetadataBlockReader</strong>](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader))</td>
+<td>Metadata Block Reader (<a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader"><strong>IWICMetadataBlockReader</strong></a>)</td>
 <td><ul>
-<li>Manages a read-only collection of [<strong>IWICMetadataReader</strong>](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatareader) objects at the top of the metadata hierarchy and enables enumeration of all metadata blocks.</li>
+<li>Manages a read-only collection of <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatareader"><strong>IWICMetadataReader</strong></a> objects at the top of the metadata hierarchy and enables enumeration of all metadata blocks.</li>
 <li>Implemented by a bitmap decoder and a decoded bitmap frame.</li>
 <li>Implemented by third-party component developers for custom codecs.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Metadata Block Writer ([<strong>IWICMetadataBlockWriter</strong>](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter))</td>
+<td>Metadata Block Writer (<a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter"><strong>IWICMetadataBlockWriter</strong></a>)</td>
 <td><ul>
-<li>Manages a read and write collection of [<strong>IWICMetadataWriter</strong>](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatawriter) objects at the top of the metadata hierarchy.</li>
+<li>Manages a read and write collection of <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatawriter"><strong>IWICMetadataWriter</strong></a> objects at the top of the metadata hierarchy.</li>
 <li>Implemented by a bitmap encoder and a bitmap frame encode.</li>
 <li>Implemented by third-party component developers for custom codecs.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Metadata Reader ([<strong>IWICMetadataReader</strong>](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatareader))</td>
+<td>Metadata Reader (<a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatareader"><strong>IWICMetadataReader</strong></a>)</td>
 <td><ul>
 <li>Parses a stream of metadata and manages a read-only collection of the metadata items. Associated with a metadata format such as EXIF, IFD, and XMP.</li>
 <li>Acts as a dictionary, returning a value when given a format and ID pair.</li>
@@ -289,14 +289,14 @@ The following table describes the WIC metadata components. These components enab
 </ul></td>
 </tr>
 <tr class="even">
-<td>Metadata Writer ([<strong>IWICMetadataWriter</strong>](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatawriter))</td>
+<td>Metadata Writer (<a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatawriter"><strong>IWICMetadataWriter</strong></a>)</td>
 <td><ul>
 <li>Parses and serializes a stream of metadata and manages a read/write collection of metadata items.</li>
 <li>Implemented by third-party component developers for custom metadata types.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Fast Metadata Encoder[<strong>IWICFastMetadataEncoder</strong>](/windows/desktop/api/Wincodec/nn-wincodec-iwicfastmetadataencoder)</td>
+<td>Fast Metadata Encoder<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicfastmetadataencoder"><strong>IWICFastMetadataEncoder</strong></a></td>
 <td><ul>
 <li>Exposes semantics for writing on a metadata hierarchy that will update metadata in place without re-encoding the image.</li>
 </ul></td>

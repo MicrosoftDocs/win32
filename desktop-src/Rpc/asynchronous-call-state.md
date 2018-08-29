@@ -44,7 +44,7 @@ To fail: go to Can<br/></td>
 <tr class="even">
 <td>Can</td>
 <td>Cancel the call</td>
-<td>Call [<strong>RpcAsyncCancelCall</strong>](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasynccancelcall)Go to WComp<br/></td>
+<td>Call <a href="/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasynccancelcall"><strong>RpcAsyncCancelCall</strong></a>Go to WComp<br/></td>
 </tr>
 <tr class="odd">
 <td>WComp</td>
@@ -54,7 +54,7 @@ To fail: go to Can<br/></td>
 <tr class="even">
 <td>Comp</td>
 <td>Completion</td>
-<td>Issue [<strong>RpcAsyncCompleteCall</strong>](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasynccompletecall)Go to End<br/></td>
+<td>Issue <a href="/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasynccompletecall"><strong>RpcAsyncCompleteCall</strong></a>Go to End<br/></td>
 </tr>
 <tr class="odd">
 <td>End</td>

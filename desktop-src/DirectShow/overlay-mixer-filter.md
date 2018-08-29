@@ -39,7 +39,7 @@ This filter is added to the filter graph automatically when applications use the
 <tbody>
 <tr class="odd">
 <td>Filter Interfaces</td>
-<td>[<strong>IAMOverlayFX</strong>](/windows/desktop/api/Strmif/nn-strmif-iamoverlayfx), [<strong>IAMVideoDecimationProperties</strong>](/windows/desktop/api/Strmif/nn-strmif-iamvideodecimationproperties), [<strong>IBaseFilter</strong>](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [<strong>IDDrawExclModeVideo</strong>](/windows/desktop/api/Strmif/nn-strmif-iddrawexclmodevideo), [<strong>IKsPropertySet</strong>](ikspropertyset.md), [<strong>IMediaPosition</strong>](/windows/desktop/api/Control/nn-control-imediaposition), [<strong>IMediaSeeking</strong>](/windows/desktop/api/Strmif/nn-strmif-imediaseeking), [<strong>IMixerOCX</strong>](/windows/desktop/api/Mixerocx/nn-mixerocx-imixerocx), [<strong>IQualProp</strong>](/windows/desktop/api/Amvideo/nn-amvideo-iqualprop), [<strong>IVPNotify</strong>](/windows/desktop/api/Vpnotify/nn-vpnotify-ivpnotify), [<strong>IVPNotify2</strong>](/windows/desktop/api/Vpnotify/nn-vpnotify-ivpnotify2)</td>
+<td><a href="/windows/desktop/api/Strmif/nn-strmif-iamoverlayfx"><strong>IAMOverlayFX</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iamvideodecimationproperties"><strong>IAMVideoDecimationProperties</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iddrawexclmodevideo"><strong>IDDrawExclModeVideo</strong></a>, <a href="ikspropertyset"><strong>IKsPropertySet</strong></a>, <a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>, <a href="/windows/desktop/api/Mixerocx/nn-mixerocx-imixerocx"><strong>IMixerOCX</strong></a>, <a href="/windows/desktop/api/Amvideo/nn-amvideo-iqualprop"><strong>IQualProp</strong></a>, <a href="/windows/desktop/api/Vpnotify/nn-vpnotify-ivpnotify"><strong>IVPNotify</strong></a>, <a href="/windows/desktop/api/Vpnotify/nn-vpnotify-ivpnotify2"><strong>IVPNotify2</strong></a></td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>
@@ -58,7 +58,7 @@ Format Types:<br/>
 </tr>
 <tr class="odd">
 <td>Input Pin Interfaces</td>
-<td>[<strong>IAMVideoAccelerator</strong>](/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator), [<strong>IKsPin</strong>](ikspin.md), [<strong>IKsPropertySet</strong>](ikspropertyset.md), [<strong>IMemInputPin</strong>](/windows/desktop/api/Strmif/nn-strmif-imeminputpin), [<strong>IMixerPinConfig</strong>](/windows/desktop/api/Mpconfig/nn-mpconfig-imixerpinconfig), [<strong>IMixerPinConfig2</strong>](/windows/desktop/api/Mpconfig/nn-mpconfig-imixerpinconfig2), [<strong>IOverlay</strong>](/windows/desktop/api/Strmif/nn-strmif-ioverlay) (pin 0 only), [<strong>IPin</strong>](/windows/desktop/api/Strmif/nn-strmif-ipin), [<strong>IPinConnection</strong>](/windows/desktop/api/Strmif/nn-strmif-ipinconnection), [<strong>IQualityControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol), [<strong>IVPNotify</strong>](/windows/desktop/api/Vpnotify/nn-vpnotify-ivpnotify), [<strong>IVPNotify2</strong>](/windows/desktop/api/Vpnotify/nn-vpnotify-ivpnotify2)</td>
+<td><a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator"><strong>IAMVideoAccelerator</strong></a>, <a href="ikspin"><strong>IKsPin</strong></a>, <a href="ikspropertyset"><strong>IKsPropertySet</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Mpconfig/nn-mpconfig-imixerpinconfig"><strong>IMixerPinConfig</strong></a>, <a href="/windows/desktop/api/Mpconfig/nn-mpconfig-imixerpinconfig2"><strong>IMixerPinConfig2</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ioverlay"><strong>IOverlay</strong></a> (pin 0 only), <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipinconnection"><strong>IPinConnection</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a>, <a href="/windows/desktop/api/Vpnotify/nn-vpnotify-ivpnotify"><strong>IVPNotify</strong></a>, <a href="/windows/desktop/api/Vpnotify/nn-vpnotify-ivpnotify2"><strong>IVPNotify2</strong></a></td>
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>
@@ -66,7 +66,7 @@ Format Types:<br/>
 </tr>
 <tr class="odd">
 <td>Output Pin Interfaces</td>
-<td>[<strong>IMediaPosition</strong>](/windows/desktop/api/Control/nn-control-imediaposition), [<strong>IMediaSeeking</strong>](/windows/desktop/api/Strmif/nn-strmif-imediaseeking), [<strong>IPin</strong>](/windows/desktop/api/Strmif/nn-strmif-ipin), [<strong>IQualityControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol)</td>
+<td><a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
 </tr>
 <tr class="even">
 <td>Filter CLSID</td>
@@ -81,11 +81,11 @@ Format Types:<br/>
 <td>qdvd.dll</td>
 </tr>
 <tr class="odd">
-<td>[Merit](merit.md)</td>
+<td><a href="merit">Merit</a></td>
 <td>MERIT_DO_NOT_USE</td>
 </tr>
 <tr class="even">
-<td>[Filter Category](filter-categories.md)</td>
+<td><a href="filter-categories">Filter Category</a></td>
 <td>CLSID_LegacyAmFilterCategory</td>
 </tr>
 </tbody>

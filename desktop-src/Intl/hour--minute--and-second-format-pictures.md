@@ -80,7 +80,7 @@ The following table defines the format types used to represent a time marker.
 <td>One-character time marker string.
 <blockquote>
 [!Note]<br />
-You are recommended not to use this format for certain languages, for example, Japanese (Japan). With this format, an application always takes the first character from the time marker string, defined by [LOCALE_S1159](locale-s1159.md) (AM) and [LOCALE_S2359](locale-s2359.md) (PM). Because of this, the application can create incorrect formatting with the same string used for both AM and PM.
+You are recommended not to use this format for certain languages, for example, Japanese (Japan). With this format, an application always takes the first character from the time marker string, defined by <a href="locale-s1159">LOCALE_S1159</a> (AM) and <a href="locale-s2359">LOCALE_S2359</a> (PM). Because of this, the application can create incorrect formatting with the same string used for both AM and PM.
 </blockquote>
 <br/></td>
 </tr>

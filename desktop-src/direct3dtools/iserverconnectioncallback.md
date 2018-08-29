@@ -26,7 +26,7 @@ The **IServerConnectionCallback** interface inherits from the [**IUnknown**](htt
 
 The **IServerConnectionCallback** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;">[<strong>ConnectToEngine</strong>](https://msdn.microsoft.com/library/windows/desktop/mt432797)</td><td style="text-align: left;"><p>Connect to another instance of a remote engine on the local machine.</p></td></tr><tr class="even"><td style="text-align: left;">[<strong>WaitForShutdown</strong>](https://msdn.microsoft.com/library/windows/desktop/mt432798)</td><td style="text-align: left;"><p>Wait for shutdown of the specified engine (Blocking call).</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt432797"><strong>ConnectToEngine</strong></a></td><td style="text-align: left;"><p>Connect to another instance of a remote engine on the local machine.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt432798"><strong>WaitForShutdown</strong></a></td><td style="text-align: left;"><p>Wait for shutdown of the specified engine (Blocking call).</p></td></tr></tbody></table>
 
  
 

@@ -95,7 +95,7 @@ The following table lists packet property GUIDs used by the [**PACKET\_PROPERTY*
 </tr>
 <tr class="even">
 <td>GUID_Z<br/></td>
-<td>The z-coordinate or distance of the pen tip from the tablet surface. The [<strong>PROPERTY_UNITS</strong>](/windows/desktop/api/tpcshrd/ne-tpcshrd-_property_units) enumeration type determines the unit of measurement for this property. <br/></td>
+<td>The z-coordinate or distance of the pen tip from the tablet surface. The <a href="/windows/desktop/api/tpcshrd/ne-tpcshrd-_property_units"><strong>PROPERTY_UNITS</strong></a> enumeration type determines the unit of measurement for this property. <br/></td>
 </tr>
 </tbody>
 </table>

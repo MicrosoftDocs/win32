@@ -40,28 +40,28 @@ This section contains reference information for the component object model (COM)
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>ID3DX11DataLoader</strong>](id3dx11dataloader.md)<br/></td>
+<td><a href="id3dx11dataloader"><strong>ID3DX11DataLoader</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
-<br/> Data loading object used by [<strong>ID3DX11ThreadPump Interface</strong>](id3dx11threadpump.md) for loading data asynchronously.<br/></td>
+<br/> Data loading object used by <a href="id3dx11threadpump"><strong>ID3DX11ThreadPump Interface</strong></a> for loading data asynchronously.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ID3DX11DataProcessor</strong>](id3dx11dataprocessor.md)<br/></td>
+<td><a href="id3dx11dataprocessor"><strong>ID3DX11DataProcessor</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
-<br/> Data processing object used by [<strong>ID3DX11ThreadPump Interface</strong>](id3dx11threadpump.md) for loading data asynchronously.<br/></td>
+<br/> Data processing object used by <a href="id3dx11threadpump"><strong>ID3DX11ThreadPump Interface</strong></a> for loading data asynchronously.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ID3DX11ThreadPump</strong>](id3dx11threadpump.md)<br/></td>
+<td><a href="id3dx11threadpump"><strong>ID3DX11ThreadPump</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
-<br/> A thread pump executes tasks asynchronously. It is created by calling [<strong>D3DX11CreateThreadPump</strong>](d3dx11createthreadpump.md). There are several APIs that take an optional thread pump as a parameter, such as [<strong>D3DX11CreateTextureFromFile</strong>](d3dx11createtexturefromfile.md) and [<strong>D3DX11CompileFromFile</strong>](d3dx11compilefromfile.md); if you pass a thread pump interface into these APIs, the functions will execute asynchronously on a separate thread. Particularly on multiprocessor machines, a thread pump can load resources and process data without a noticeable decrease in performance.<br/></td>
+<br/> A thread pump executes tasks asynchronously. It is created by calling <a href="d3dx11createthreadpump"><strong>D3DX11CreateThreadPump</strong></a>. There are several APIs that take an optional thread pump as a parameter, such as <a href="d3dx11createtexturefromfile"><strong>D3DX11CreateTextureFromFile</strong></a> and <a href="d3dx11compilefromfile"><strong>D3DX11CompileFromFile</strong></a>; if you pass a thread pump interface into these APIs, the functions will execute asynchronously on a separate thread. Particularly on multiprocessor machines, a thread pump can load resources and process data without a noticeable decrease in performance.<br/></td>
 </tr>
 </tbody>
 </table>

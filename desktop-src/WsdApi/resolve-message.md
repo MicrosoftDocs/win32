@@ -88,7 +88,7 @@ A Resolve message has the following focus points.
 <td><pre class="syntax" data-space="preserve"><code><wsa:MessageID>
     urn:uuid:38d1c3d9-8d73-4424-8861-6b7ee2af24d3
 </wsa:MessageID></code></pre></td>
-<td>Contains the message identifier, which is referenced in a [ResolveMatches](resolvematches-message.md) message.</td>
+<td>Contains the message identifier, which is referenced in a <a href="resolvematches-message">ResolveMatches</a> message.</td>
 </tr>
 <tr class="odd">
 <td>Address</td>

@@ -134,362 +134,362 @@ The **MsRdpClient8** class has these properties.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>AdvancedSettings</strong>](imstscax-advancedsettings.md)<br/></td>
+<td style="text-align: left;"><a href="imstscax-advancedsettings"><strong>AdvancedSettings</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">An [<strong>IMsTscAdvancedSettings</strong>](imstscadvancedsettings-interface.md) interface pointer.<br/></td>
+<td style="text-align: left;">An <a href="imstscadvancedsettings-interface"><strong>IMsTscAdvancedSettings</strong></a> interface pointer.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>AdvancedSettings2</strong>](imsrdpclient-advancedsettings2.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclient-advancedsettings2"><strong>AdvancedSettings2</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">Pointer to the [<strong>IMsRdpClientAdvancedSettings</strong>](imsrdpclientadvancedsettings-interface.md) interface, used to set advanced settings for the client control.<br/></td>
+<td style="text-align: left;">Pointer to the <a href="imsrdpclientadvancedsettings-interface"><strong>IMsRdpClientAdvancedSettings</strong></a> interface, used to set advanced settings for the client control.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>AdvancedSettings3</strong>](imsrdpclient2-advancedsettings3.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclient2-advancedsettings3"><strong>AdvancedSettings3</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">Pointer to the [<strong>IMsRdpClientAdvancedSettings2</strong>](imsrdpclientadvancedsettings2.md) interface, used to set advanced settings for the client control.<br/></td>
+<td style="text-align: left;">Pointer to the <a href="imsrdpclientadvancedsettings2"><strong>IMsRdpClientAdvancedSettings2</strong></a> interface, used to set advanced settings for the client control.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>AdvancedSettings4</strong>](imsrdpclient3-advancedsettings4.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclient3-advancedsettings4"><strong>AdvancedSettings4</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">Pointer to the [<strong>IMsRdpClientAdvancedSettings3</strong>](imsrdpclientadvancedsettings3.md) interface, used to set advanced settings for the client control.<br/></td>
+<td style="text-align: left;">Pointer to the <a href="imsrdpclientadvancedsettings3"><strong>IMsRdpClientAdvancedSettings3</strong></a> interface, used to set advanced settings for the client control.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>AdvancedSettings5</strong>](imsrdpclient4-advancedsettings5.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclient4-advancedsettings5"><strong>AdvancedSettings5</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">An [<strong>IMsRdpClientAdvancedSettings4</strong>](imsrdpclientadvancedsettings4.md) interface pointer.<br/></td>
+<td style="text-align: left;">An <a href="imsrdpclientadvancedsettings4"><strong>IMsRdpClientAdvancedSettings4</strong></a> interface pointer.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>AdvancedSettings6</strong>](imsrdpclient5-advancedsettings6.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclient5-advancedsettings6"><strong>AdvancedSettings6</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">The interface to [<strong>IMsRdpClientAdvancedSettings5</strong>](imsrdpclientadvancedsettings5.md).<br/></td>
+<td style="text-align: left;">The interface to <a href="imsrdpclientadvancedsettings5"><strong>IMsRdpClientAdvancedSettings5</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>AdvancedSettings7</strong>](imsrdpclient6-advancedsettings7.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclient6-advancedsettings7"><strong>AdvancedSettings7</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">The interface to [<strong>IMsRdpClientAdvancedSettings6</strong>](imsrdpclientadvancedsettings6.md).<br/></td>
+<td style="text-align: left;">The interface to <a href="imsrdpclientadvancedsettings6"><strong>IMsRdpClientAdvancedSettings6</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>AdvancedSettings8</strong>](imsrdpclient7-advancedsettings8.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclient7-advancedsettings8"><strong>AdvancedSettings8</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">An object that supports the [<strong>IMsRdpClientAdvancedSettings7</strong>](imsrdpclientadvancedsettings7.md) interface.<br/></td>
+<td style="text-align: left;">An object that supports the <a href="imsrdpclientadvancedsettings7"><strong>IMsRdpClientAdvancedSettings7</strong></a> interface.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>AdvancedSettings9</strong>](imsrdpclient8-advancedsettings9.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclient8-advancedsettings9"><strong>AdvancedSettings9</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">An [<strong>IMsRdpClientAdvancedSettings8</strong>](imsrdpclientadvancedsettings8.md) interface that represents the settings object.<br/></td>
+<td style="text-align: left;">An <a href="imsrdpclientadvancedsettings8"><strong>IMsRdpClientAdvancedSettings8</strong></a> interface that represents the settings object.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>AllowCredentialSaving</strong>](imsrdpclientnonscriptable4-allowcredentialsaving.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-allowcredentialsaving"><strong>AllowCredentialSaving</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Specifies whether the credentials dialog box displays a check box to enable the saving of credentials.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>AllowPromptingForCredentials</strong>](imsrdpclientnonscriptable5-allowpromptingforcredentials.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-allowpromptingforcredentials"><strong>AllowPromptingForCredentials</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Specifies whether the Remote Desktop ActiveX control can prompt the user for credentials.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>BinaryPassword</strong>](imstscnonscriptable-binarypassword.md)<br/></td>
+<td style="text-align: left;"><a href="imstscnonscriptable-binarypassword"><strong>BinaryPassword</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">This property is not supported.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>BinarySalt</strong>](imstscnonscriptable-binarysalt.md)<br/></td>
+<td style="text-align: left;"><a href="imstscnonscriptable-binarysalt"><strong>BinarySalt</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">This property is not supported.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>CipherStrength</strong>](imstscax-cipherstrength.md)<br/></td>
+<td style="text-align: left;"><a href="imstscax-cipherstrength"><strong>CipherStrength</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
 <td style="text-align: left;">The maximum encryption strength of the current control.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>ClearTextPassword</strong>](imstscnonscriptable-cleartextpassword.md)<br/></td>
+<td style="text-align: left;"><a href="imstscnonscriptable-cleartextpassword"><strong>ClearTextPassword</strong></a><br/></td>
 <td style="text-align: left;">Write-only<br/></td>
 <td style="text-align: left;">The Remote Desktop ActiveX control password, in plaintext format.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>ColorDepth</strong>](imsrdpclient-colordepth.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclient-colordepth"><strong>ColorDepth</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Color depth of the current control.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>Connected</strong>](imstscax-connected.md)<br/></td>
+<td style="text-align: left;"><a href="imstscax-connected"><strong>Connected</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
 <td style="text-align: left;">The connection state of the current control.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>ConnectedStatusText</strong>](imsrdpclient2-connectedstatustext.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclient2-connectedstatustext"><strong>ConnectedStatusText</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Text that is displayed in the client area of the control while the control is in the connected state.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>ConnectingText</strong>](imstscax-connectingtext.md)<br/></td>
+<td style="text-align: left;"><a href="imstscax-connectingtext"><strong>ConnectingText</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">The text that appears centered in the control while the control is connecting.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>ConnectionBarText</strong>](imsrdpclientnonscriptable3-connectionbartext.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-connectionbartext"><strong>ConnectionBarText</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">The text string to display for the connection bar.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>DesktopHeight</strong>](imstscax-desktopheight.md)<br/></td>
+<td style="text-align: left;"><a href="imstscax-desktopheight"><strong>DesktopHeight</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">The current control's height, in pixels, on the initial remote desktop.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>DesktopWidth</strong>](imstscax-desktopwidth.md)<br/></td>
+<td style="text-align: left;"><a href="imstscax-desktopwidth"><strong>DesktopWidth</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">The current control's width, in pixels, on the initial remote desktop.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>DeviceCollection</strong>](imsrdpclientnonscriptable3-devicecollection.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-devicecollection"><strong>DeviceCollection</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
 <td style="text-align: left;">The collection of PnP devices that are available for redirection.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>DisableConnectionBar</strong>](imsrdpclientnonscriptable5-disableconnectionbar.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-disableconnectionbar"><strong>DisableConnectionBar</strong></a><br/></td>
 <td style="text-align: left;">Write-only<br/></td>
 <td style="text-align: left;">Specifies whether the Remote Desktop ActiveX control should disable the connection bar.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>DisableRemoteAppCapsCheck</strong>](imsrdpclientnonscriptable5-disableremoteappcapscheck.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-disableremoteappcapscheck"><strong>DisableRemoteAppCapsCheck</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Specifies whether the Remote Desktop ActiveX control should not check the server for RemoteApp capabilities.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>DisconnectedText</strong>](imstscax-disconnectedtext.md)<br/></td>
+<td style="text-align: left;"><a href="imstscax-disconnectedtext"><strong>DisconnectedText</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">The text that appears centered in the control before a connection is terminated.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>Domain</strong>](imstscax-domain.md)<br/></td>
+<td style="text-align: left;"><a href="imstscax-domain"><strong>Domain</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">The domain to which the current user logs on.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>DriveCollection</strong>](imsrdpclientnonscriptable3-drivecollection.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-drivecollection"><strong>DriveCollection</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
 <td style="text-align: left;">The collection of disk drives that is available for redirection.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>EnableCredSspSupport</strong>](imsrdpclientnonscriptable3-enablecredsspsupport.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-enablecredsspsupport"><strong>EnableCredSspSupport</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Specifies whether CredSSP is enabled for this connection.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>ExtendedDisconnectReason</strong>](imsrdpclient-extendeddisconnectreason.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclient-extendeddisconnectreason"><strong>ExtendedDisconnectReason</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
 <td style="text-align: left;">Extended information about the client control's reason for disconnection.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>FullScreen</strong>](imsrdpclient-fullscreen.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclient-fullscreen"><strong>FullScreen</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Indicates whether the control is in full-screen mode.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>FullScreenTitle</strong>](imstscax-fullscreentitle.md)<br/></td>
+<td style="text-align: left;"><a href="imstscax-fullscreentitle"><strong>FullScreenTitle</strong></a><br/></td>
 <td style="text-align: left;">Write-only<br/></td>
 <td style="text-align: left;">The window title displayed when the control is in full-screen mode.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>GetRemoteMonitorsBoundingBox</strong>](imsrdpclientnonscriptable5-getremotemonitorsboundingbox.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-getremotemonitorsboundingbox"><strong>GetRemoteMonitorsBoundingBox</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
 <td style="text-align: left;">Specifies the bounding rectangle of the remote monitor.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>HorizontalScrollBarVisible</strong>](imstscax-horizontalscrollbarvisible.md)<br/></td>
+<td style="text-align: left;"><a href="imstscax-horizontalscrollbarvisible"><strong>HorizontalScrollBarVisible</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
 <td style="text-align: left;">Indicates whether the control has displayed a horizontal scroll bar.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>LaunchedViaClientShellInterface</strong>](imsrdpclientnonscriptable4-launchedviaclientshellinterface.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-launchedviaclientshellinterface"><strong>LaunchedViaClientShellInterface</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Specifies whether the user launched the client control by using the RD Web Access interface.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>MarkRdpSettingsSecure</strong>](imsrdpclientnonscriptable4-markrdpsettingssecure.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-markrdpsettingssecure"><strong>MarkRdpSettingsSecure</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Specifies whether RDP settings are marked as secure.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>MsRdpClientShell</strong>](imsrdpclient5-msrdpclientshell.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclient5-msrdpclientshell"><strong>MsRdpClientShell</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
 <td style="text-align: left;">The client settings for the web portal launcher.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>NegotiateSecurityLayer</strong>](imsrdpclientnonscriptable3-negotiatesecuritylayer.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-negotiatesecuritylayer"><strong>NegotiateSecurityLayer</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Specifies whether the NegotiateSecurityLayer setting is supported for this connection.<br/>
 <blockquote>
 [!Note]<br />
-When [<strong>CredSspSupport</strong>](imsrdpclientnonscriptable3-enablecredsspsupport.md) is enabled and present on the client, or when Secure Sockets Layer (SSL) is enabled with user authentication, NegotiateSecurityLayer is ignored.
+When <a href="imsrdpclientnonscriptable3-enablecredsspsupport"><strong>CredSspSupport</strong></a> is enabled and present on the client, or when Secure Sockets Layer (SSL) is enabled with user authentication, NegotiateSecurityLayer is ignored.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>PortablePassword</strong>](imstscnonscriptable-portablepassword.md)<br/></td>
+<td style="text-align: left;"><a href="imstscnonscriptable-portablepassword"><strong>PortablePassword</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">This property is not supported.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>PortableSalt</strong>](imstscnonscriptable-portablesalt.md)<br/></td>
+<td style="text-align: left;"><a href="imstscnonscriptable-portablesalt"><strong>PortableSalt</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">This property is not supported.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>PromptForCredentials</strong>](imsrdpclientnonscriptable3-promptforcredentials.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-promptforcredentials"><strong>PromptForCredentials</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Specifies whether the prompt for credentials dialog box should be shown.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>PromptForCredsOnClient</strong>](imsrdpclientnonscriptable4-promptforcredsonclient.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-promptforcredsonclient"><strong>PromptForCredsOnClient</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Specifies whether the client control displays a dialog box that prompts for credentials.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>PublisherCertificateChain</strong>](imsrdpclientnonscriptable4-publishercertificatechain.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-publishercertificatechain"><strong>PublisherCertificateChain</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies the publisher certificate chain. The chain is stored in a variant of type VT_BYREF that contains a pointer to a [<strong>CERT_CHAIN_CONTEXT</strong>](https://msdn.microsoft.com/library/windows/desktop/aa377182) structure.<br/></td>
+<td style="text-align: left;">Specifies the publisher certificate chain. The chain is stored in a variant of type VT_BYREF that contains a pointer to a <a href="https://msdn.microsoft.com/library/windows/desktop/aa377182"><strong>CERT_CHAIN_CONTEXT</strong></a> structure.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>RedirectDynamicDevices</strong>](imsrdpclientnonscriptable3-redirectdynamicdevices.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-redirectdynamicdevices"><strong>RedirectDynamicDevices</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Specifies whether dynamically attached PnP devices that are enumerated while in a session are available for redirection.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>RedirectDynamicDrives</strong>](imsrdpclientnonscriptable3-redirectdynamicdrives.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-redirectdynamicdrives"><strong>RedirectDynamicDrives</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Specifies whether dynamically attached PnP drives that are enumerated while in a session are available for redirection.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>RedirectionWarningType</strong>](imsrdpclientnonscriptable4-redirectionwarningtype.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-redirectionwarningtype"><strong>RedirectionWarningType</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Controls the presence and appearance of the redirection dialog box.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>RemoteMonitorCount</strong>](imsrdpclientnonscriptable5-remotemonitorcount.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-remotemonitorcount"><strong>RemoteMonitorCount</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
 <td style="text-align: left;">Specifies the number of remote monitors.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>RemoteMonitorLayoutMatchesLocal</strong>](imsrdpclientnonscriptable5-remotemonitorlayoutmatcheslocal.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-remotemonitorlayoutmatcheslocal"><strong>RemoteMonitorLayoutMatchesLocal</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
 <td style="text-align: left;">Specifies if the remote monitor layout is identical to the local monitor layout.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>RemoteProgram</strong>](imsrdpclient5-remoteprogram.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclient5-remoteprogram"><strong>RemoteProgram</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
 <td style="text-align: left;">The client RemoteApp setting.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>RemoteProgram2</strong>](imsrdpclient7-remoteprogram2.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclient7-remoteprogram2"><strong>RemoteProgram2</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">An object that supports the [<strong>ITSRemoteProgram2</strong>](itsremoteprogram2.md) interface.<br/></td>
+<td style="text-align: left;">An object that supports the <a href="itsremoteprogram2"><strong>ITSRemoteProgram2</strong></a> interface.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>SecuredSettings</strong>](imstscax-securedsettings.md)<br/></td>
+<td style="text-align: left;"><a href="imstscax-securedsettings"><strong>SecuredSettings</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">A [<strong>IMsTscSecuredSettings</strong>](imstscsecuredsettings-interface.md) interface pointer.<br/></td>
+<td style="text-align: left;">A <a href="imstscsecuredsettings-interface"><strong>IMsTscSecuredSettings</strong></a> interface pointer.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>SecuredSettings2</strong>](imsrdpclient-securedsettings2.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclient-securedsettings2"><strong>SecuredSettings2</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">Pointer to the [<strong>IMsRdpClientSecuredSettings</strong>](imsrdpclientsecuredsettings-interface.md) interface, used to set secured settings for the client control.<br/></td>
+<td style="text-align: left;">Pointer to the <a href="imsrdpclientsecuredsettings-interface"><strong>IMsRdpClientSecuredSettings</strong></a> interface, used to set secured settings for the client control.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>SecuredSettings3</strong>](imsrdpclient7-securedsettings3.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclient7-securedsettings3"><strong>SecuredSettings3</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">An object that supports the [<strong>IMsRdpClientSecuredSettings2</strong>](imsrdpclientsecuredsettings2.md) interface.<br/></td>
+<td style="text-align: left;">An object that supports the <a href="imsrdpclientsecuredsettings2"><strong>IMsRdpClientSecuredSettings2</strong></a> interface.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>SecuredSettingsEnabled</strong>](imstscax-securedsettingsenabled.md)<br/></td>
+<td style="text-align: left;"><a href="imstscax-securedsettingsenabled"><strong>SecuredSettingsEnabled</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">Indicates whether the [<strong>IMsTscSecuredSettings</strong>](imstscsecuredsettings-interface.md) interface is available.<br/></td>
+<td style="text-align: left;">Indicates whether the <a href="imstscsecuredsettings-interface"><strong>IMsTscSecuredSettings</strong></a> interface is available.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>Server</strong>](imstscax-server.md)<br/></td>
+<td style="text-align: left;"><a href="imstscax-server"><strong>Server</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">The name of the server to which the current control is connected.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>ShowRedirectionWarningDialog</strong>](imsrdpclientnonscriptable3-showredirectionwarningdialog.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-showredirectionwarningdialog"><strong>ShowRedirectionWarningDialog</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Specifies whether the redirection security warning dialog box should be shown before starting a session.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>StartConnected</strong>](imstscax-startconnected.md)<br/></td>
+<td style="text-align: left;"><a href="imstscax-startconnected"><strong>StartConnected</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Indicates whether the control will establish the RD Session Host server connection immediately upon startup.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>TransportSettings</strong>](imsrdpclient5-transportsettings.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclient5-transportsettings"><strong>TransportSettings</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
 <td style="text-align: left;">The client RD Gateway setting.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>TransportSettings2</strong>](imsrdpclient6-transportsettings2.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclient6-transportsettings2"><strong>TransportSettings2</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">The interface to [<strong>IMsRdpClientTransportSettings2</strong>](imsrdpclienttransportsettings2.md).<br/></td>
+<td style="text-align: left;">The interface to <a href="imsrdpclienttransportsettings2"><strong>IMsRdpClientTransportSettings2</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>TransportSettings3</strong>](imsrdpclient7-transportsettings3.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclient7-transportsettings3"><strong>TransportSettings3</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">An object that supports the [<strong>IMsRdpClientTransportSettings3</strong>](imsrdpclienttransportsettings3.md) interface.<br/></td>
+<td style="text-align: left;">An object that supports the <a href="imsrdpclienttransportsettings3"><strong>IMsRdpClientTransportSettings3</strong></a> interface.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>TrustedZoneSite</strong>](imsrdpclientnonscriptable4-trustedzonesite.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-trustedzonesite"><strong>TrustedZoneSite</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Specifies whether the website from which the user launched the connection is in the trusted sites list of the client computer.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>UIParentWindowHandle</strong>](imsrdpclientnonscriptable2-uiparentwindowhandle.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable2-uiparentwindowhandle"><strong>UIParentWindowHandle</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">The window handle to be the parent window for the control. This allows any windows displayed by the control to be properly modal with respect to any windows displayed by the parent application.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>UseMultimon</strong>](imsrdpclientnonscriptable5-usemultimon.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-usemultimon"><strong>UseMultimon</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Specifies whether the Remote Desktop ActiveX control should use multiple monitors.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>UseRedirectionServerName</strong>](imsrdppreferredredirectioninfo-useredirectionservername.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdppreferredredirectioninfo-useredirectionservername"><strong>UseRedirectionServerName</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Whether to use the redirection server name.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>UserName</strong>](imstscax-username.md)<br/></td>
+<td style="text-align: left;"><a href="imstscax-username"><strong>UserName</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">The user name logon credential.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>Version</strong>](imstscax-version.md)<br/></td>
+<td style="text-align: left;"><a href="imstscax-version"><strong>Version</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
 <td style="text-align: left;">The version number of the current control.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>VerticalScrollBarVisible</strong>](imstscax-verticalscrollbarvisible.md)<br/></td>
+<td style="text-align: left;"><a href="imstscax-verticalscrollbarvisible"><strong>VerticalScrollBarVisible</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
 <td style="text-align: left;">Indicates whether the control displays a vertical scroll bar.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>WarnAboutClipboardRedirection</strong>](imsrdpclientnonscriptable3-warnaboutclipboardredirection.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-warnaboutclipboardredirection"><strong>WarnAboutClipboardRedirection</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Specifies whether the security warning dialog box should include a warning about clipboard redirection before starting a session.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>WarnAboutDirectXRedirection</strong>](imsrdpclientnonscriptable5-warnaboutdirectxredirection.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-warnaboutdirectxredirection"><strong>WarnAboutDirectXRedirection</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">This property is not used.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>WarnAboutPrinterRedirection</strong>](imsrdpclientnonscriptable4-warnaboutprinterredirection.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-warnaboutprinterredirection"><strong>WarnAboutPrinterRedirection</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Specifies whether the redirection dialog box displays a message about printer redirection before starting a session.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>WarnAboutSendingCredentials</strong>](imsrdpclientnonscriptable3-warnaboutsendingcredentials.md)<br/></td>
+<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-warnaboutsendingcredentials"><strong>WarnAboutSendingCredentials</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Specifies whether the security warning should include a warning about sending credentials to the remote server before starting a session.<br/></td>
 </tr>

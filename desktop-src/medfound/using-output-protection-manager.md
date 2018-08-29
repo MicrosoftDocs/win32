@@ -178,7 +178,7 @@ The following flags are defined for **ulStatusFlags**.
 <ol>
 <li>Stop playback.</li>
 <li>Turn off all protection mechanisms.</li>
-<li>Release the [<strong>IOPMVideoOutput</strong>](/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput) interface.</li>
+<li>Release the <a href="/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput"><strong>IOPMVideoOutput</strong></a> interface.</li>
 <li>Recreate all video surfaces.</li>
 <li>Create a new OPM object and attempt to reestablish content protection. If this fails, display an error message to the user. Do not play any more video content.</li>
 </ol></td>

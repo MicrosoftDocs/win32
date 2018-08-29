@@ -48,7 +48,7 @@ In addition, NPS contains a set of new features that expand the IAS capabilities
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Network Access Protection (NAP)](https://msdn.microsoft.com/library/windows/desktop/aa369712)<br/></td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/aa369712">Network Access Protection (NAP)</a><br/></td>
 <td>NPS is the central server of Network Access Protection.<br/> NPS supports policy authoring using the following additional conditions:<br/>
 <ul>
 <li>Policy expiration.</li>
@@ -67,7 +67,7 @@ NPS supports policy authoring using the following additional settings:<br/>
 NPS, through NAP, interoperates with CISCO NAC.<br/> IAS does not support NAP.<br/></td>
 </tr>
 <tr class="even">
-<td>[EAP](https://msdn.microsoft.com/library/windows/desktop/aa363502) Policy and [EAPHost](https://msdn.microsoft.com/library/windows/desktop/aa364249) Support<br/></td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/aa363502">EAP</a> Policy and <a href="https://msdn.microsoft.com/library/windows/desktop/aa364249">EAPHost</a> Support<br/></td>
 <td>NPS uses EAPHost for EAP method extensibility. Additionally, administrators may configure network access policy for EAP.<br/> IAS does not support EAPHost integration, or EAP type filter conditions for policies.<br/></td>
 </tr>
 <tr class="odd">
@@ -79,11 +79,11 @@ NPS, through NAP, interoperates with CISCO NAC.<br/> IAS does not support NAP.<b
 <td>NPS configuration can be imported and exported in XML format.<br/> IAS is using a Jet database for storing service configuration.<br/></td>
 </tr>
 <tr class="odd">
-<td>[Common Criteria](http://go.microsoft.com/fwlink/p/?linkid=144871) Support<br/></td>
+<td><a href="http://go.microsoft.com/fwlink/p/?linkid=144871">Common Criteria</a> Support<br/></td>
 <td>NPS has been updated to support its deployment in environments that must meet the Common Criteria security standards.<br/></td>
 </tr>
 <tr class="even">
-<td>[NPS Extensions API](ias-extensions.md)<br/></td>
+<td><a href="ias-extensions">NPS Extensions API</a><br/></td>
 <td>The NPS extension DLLs run in a separate process from the NPS service. Should an extension DLL crash, NPS will keep running and future requests will be rejected.<br/> The IAS extension DLLs run in the same process as the IAS service and may adversely affect the service.<br/></td>
 </tr>
 <tr class="odd">
@@ -95,7 +95,7 @@ NPS, through NAP, interoperates with CISCO NAC.<br/> IAS does not support NAP.<b
 <td>NPS is integrated with the Server Manager and the Role Management Tool. This integration facilitates the configuration and management of NPS and related scenarios.<br/> Server Manager is not available on computers running IAS.<br/></td>
 </tr>
 <tr class="odd">
-<td>Updated Command Line Scripting with [Netsh](http://go.microsoft.com/fwlink/p/?linkid=101204).<br/></td>
+<td>Updated Command Line Scripting with <a href="http://go.microsoft.com/fwlink/p/?linkid=101204">Netsh</a>.<br/></td>
 <td>NPS supports the &quot;Netsh nps&quot; command line interface. &quot;Netsh nps&quot; contains new commands that permit to fully configure NPS, including NAP features.<br/> IAS supports the &quot;Netsh aaaa&quot; command line interface.<br/></td>
 </tr>
 <tr class="even">

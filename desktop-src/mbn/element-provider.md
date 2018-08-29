@@ -59,9 +59,9 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[DataRoamingPartners](element-dataroamingpartners.md)</td>
+<td><a href="element-dataroamingpartners">DataRoamingPartners</a></td>
 <td><p>Specifies a list of preferred network providers when roaming.</p>
-<p>For details, see the documentation for the v1 [<strong>DataRoamingPartners</strong>](../mbn/schema_dataroamingpartners_mbnprofile_element.md) element.</p></td>
+<p>For details, see the documentation for the v1 <a href="../mbn/schema_dataroamingpartners_mbnprofile_element"><strong>DataRoamingPartners</strong></a> element.</p></td>
 </tr>
 </tbody>
 </table>

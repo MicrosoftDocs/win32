@@ -46,11 +46,11 @@ Calculates the level of detail.
 <tbody>
 <tr class="odd">
 <td><span id="Object"></span><span id="object"></span><span id="OBJECT"></span><em>Object</em><br/></td>
-<td>Any [texture-object](dx-graphics-hlsl-to-type.md) type (except Texture2DMS and Texture2DMSArray).<br/></td>
+<td>Any <a href="dx-graphics-hlsl-to-type">texture-object</a> type (except Texture2DMS and Texture2DMSArray).<br/></td>
 </tr>
 <tr class="even">
 <td><span id="S"></span><span id="s"></span><em>S</em><br/></td>
-<td>[in] A [Sampler state](https://msdn.microsoft.com/library/windows/desktop/bb205050). This is an object declared in an effect file that contains state assignments.<br/></td>
+<td>[in] A <a href="https://msdn.microsoft.com/library/windows/desktop/bb205050">Sampler state</a>. This is an object declared in an effect file that contains state assignments.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="x"></span><span id="X"></span><em>x</em><br/></td>

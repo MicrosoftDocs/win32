@@ -76,7 +76,7 @@ Windows Portable Devices supports the following device properties.
 <tr class="odd">
 <td><span id="wpd_device_power_source"></span><span id="WPD_DEVICE_POWER_SOURCE"></span><strong>WPD_DEVICE_POWER_SOURCE</strong></td>
 <td>VT_UI4</td>
-<td>A [<strong>WPD_POWER_SOURCES</strong>](wpd-power-sources.md) enumeration that specifies the power source of the device.</td>
+<td>A <a href="wpd-power-sources"><strong>WPD_POWER_SOURCES</strong></a> enumeration that specifies the power source of the device.</td>
 </tr>
 <tr class="even">
 <td><span id="wpd_device_protocol"></span><span id="WPD_DEVICE_PROTOCOL"></span><strong>WPD_DEVICE_PROTOCOL</strong></td>
@@ -116,12 +116,12 @@ Windows Portable Devices supports the following device properties.
 <tr class="odd">
 <td><span id="wpd_device_transport"></span><span id="WPD_DEVICE_TRANSPORT"></span><strong>WPD_DEVICE_TRANSPORT</strong></td>
 <td><strong>VT_UI4</strong></td>
-<td>the transport supported by the device, such as USB, IP, or Bluetooth. Valid values are of the [<strong>WPD_DEVICE_TRANSPORTS</strong>](wpd-device-transports.md) enumeration type.</td>
+<td>the transport supported by the device, such as USB, IP, or Bluetooth. Valid values are of the <a href="wpd-device-transports"><strong>WPD_DEVICE_TRANSPORTS</strong></a> enumeration type.</td>
 </tr>
 <tr class="even">
 <td><span id="wpd_device_type"></span><span id="WPD_DEVICE_TYPE"></span><strong>WPD_DEVICE_TYPE</strong></td>
 <td><strong>VT_UI4</strong></td>
-<td>A value that specifies the device type; applications use this property for representation purposes only. Functional characteristics of the device are decided through functional objects.Devices that do not supply a device icon, for example, a <strong>WPD_RESOURCE_ICON</strong> for the device object, will be represented in the WPD Namespace with a generic icon. This icon will depend on the specified device type, for example, if the device type is a mobile phone, the generic phone icon is used. On first install of the device, the WPD Class Installer will query this property value and store it in the device registry under the PORTABLE_DEVICE_TYPE value as a REG_DWORD.<br/> This parameter's possible values are from the [<strong>WPD_DEVICE_TYPES</strong>](object-properties.md) enumeration defined in PortableDevice.h. Values are:<br/> <dl> <strong>WPD_DEVICE_TYPE_GENERIC</strong><br />
+<td>A value that specifies the device type; applications use this property for representation purposes only. Functional characteristics of the device are decided through functional objects.Devices that do not supply a device icon, for example, a <strong>WPD_RESOURCE_ICON</strong> for the device object, will be represented in the WPD Namespace with a generic icon. This icon will depend on the specified device type, for example, if the device type is a mobile phone, the generic phone icon is used. On first install of the device, the WPD Class Installer will query this property value and store it in the device registry under the PORTABLE_DEVICE_TYPE value as a REG_DWORD.<br/> This parameter's possible values are from the <a href="object-properties"><strong>WPD_DEVICE_TYPES</strong></a> enumeration defined in PortableDevice.h. Values are:<br/> <dl> <strong>WPD_DEVICE_TYPE_GENERIC</strong><br />
 <strong>WPD_DEVICE_TYPE_CAMERA</strong><br />
 <strong>WPD_DEVICE_TYPE_MEDIA_PLAYER</strong><br />
 <strong>WPD_DEVICE_TYPE_PHONE</strong><br />

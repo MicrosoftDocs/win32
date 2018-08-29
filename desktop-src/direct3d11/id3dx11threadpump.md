@@ -55,7 +55,7 @@ The **ID3DX11ThreadPump** interface has these methods.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>AddWorkItem</strong>](id3dx11threadpump-addworkitem.md)</td>
+<td style="text-align: left;"><a href="id3dx11threadpump-addworkitem"><strong>AddWorkItem</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -63,7 +63,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/> Adds a work item to the thread pump.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>GetQueueStatus</strong>](id3dx11threadpump-getqueuestatus.md)</td>
+<td style="text-align: left;"><a href="id3dx11threadpump-getqueuestatus"><strong>GetQueueStatus</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -71,7 +71,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/> Gets the number of items in each of the three queues inside the thread pump.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>GetWorkItemCount</strong>](id3dx11threadpump-getworkitemcount.md)</td>
+<td style="text-align: left;"><a href="id3dx11threadpump-getworkitemcount"><strong>GetWorkItemCount</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -79,7 +79,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/> Gets the number of work items in the thread pump.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>ProcessDeviceWorkItems</strong>](id3dx11threadpump-processdeviceworkitems.md)</td>
+<td style="text-align: left;"><a href="id3dx11threadpump-processdeviceworkitems"><strong>ProcessDeviceWorkItems</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -87,7 +87,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/> Sets work items to the device after they have finished loading and processing.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>PurgeAllItems</strong>](id3dx11threadpump-purgeallitems.md)</td>
+<td style="text-align: left;"><a href="id3dx11threadpump-purgeallitems"><strong>PurgeAllItems</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -95,7 +95,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/> Clears all work items from the thread pump.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>WaitForAllItems</strong>](id3dx11threadpump-waitforallitems.md)</td>
+<td style="text-align: left;"><a href="id3dx11threadpump-waitforallitems"><strong>WaitForAllItems</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.

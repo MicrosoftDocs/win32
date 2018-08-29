@@ -30,14 +30,14 @@ This filter demultiplexes MPEG-2 transport and program streams that are delivere
 <td>Filter Interfaces</td>
 <td>All modes:<br/>
 <ul>
-<li>[<strong>IBaseFilter</strong>](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)</li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a></li>
 <li><strong>ISpecifyPropertyPages</strong></li>
 </ul>
 Push mode only:<br/>
 <ul>
-<li>[<strong>IAMFilterMiscFlags</strong>](/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags)</li>
-<li>[<strong>IMpeg2Demultiplexer</strong>](/windows/desktop/api/Strmif/nn-strmif-impeg2demultiplexer)</li>
-<li>[<strong>IReferenceClock</strong>](/windows/desktop/api/Strmif/nn-strmif-ireferenceclock)</li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags"><strong>IAMFilterMiscFlags</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-impeg2demultiplexer"><strong>IMpeg2Demultiplexer</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-ireferenceclock"><strong>IReferenceClock</strong></a></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -49,19 +49,19 @@ Push mode only:<br/>
 <li>MEDIASUBTYPE_MPEG2_TRANSPORT</li>
 <li>MEDIASUBTYPE_MPEG2_TRANSPORT_STRIDE</li>
 </ul>
-For more information, see [<strong>MPEG-2 Demultiplexer Media Types</strong>](mpeg-2-demultiplexer-media-types.md).<br/></td>
+For more information, see <a href="mpeg-2-demultiplexer-media-types"><strong>MPEG-2 Demultiplexer Media Types</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
 <td>Input Pin Interfaces</td>
-<td>[<strong>IMemInputPin</strong>](/windows/desktop/api/Strmif/nn-strmif-imeminputpin), [<strong>IPin</strong>](/windows/desktop/api/Strmif/nn-strmif-ipin), [<strong>IQualityControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol)</td>
+<td><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>
-<td>Audio and video elementary streams must have a major type of MEDIATYPE_Audio or MEDIATYPE_Video.<br/> For more information, see [<strong>MPEG-2 Demultiplexer Media Types</strong>](mpeg-2-demultiplexer-media-types.md).<br/></td>
+<td>Audio and video elementary streams must have a major type of MEDIATYPE_Audio or MEDIATYPE_Video.<br/> For more information, see <a href="mpeg-2-demultiplexer-media-types"><strong>MPEG-2 Demultiplexer Media Types</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
 <td>Output Pin Interfaces</td>
-<td>[<strong>IPin</strong>](/windows/desktop/api/Strmif/nn-strmif-ipin), [<strong>IQualityControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol)Push mode only: [<strong>IAMPushSource</strong>](/windows/desktop/api/Strmif/nn-strmif-iampushsource), [<strong>IMPEG2PIDMap</strong>](/windows/desktop/api/Bdaiface/nn-bdaiface-impeg2pidmap), [<strong>IMPEG2StreamIdMap</strong>](/windows/desktop/api/Strmif/nn-strmif-impeg2streamidmap)<br/> Pull mode only: [<strong>IMediaSeeking</strong>](/windows/desktop/api/Strmif/nn-strmif-imediaseeking)<br/></td>
+<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a>Push mode only: <a href="/windows/desktop/api/Strmif/nn-strmif-iampushsource"><strong>IAMPushSource</strong></a>, <a href="/windows/desktop/api/Bdaiface/nn-bdaiface-impeg2pidmap"><strong>IMPEG2PIDMap</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-impeg2streamidmap"><strong>IMPEG2StreamIdMap</strong></a><br/> Pull mode only: <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a><br/></td>
 </tr>
 <tr class="even">
 <td>Filter CLSID</td>
@@ -76,11 +76,11 @@ For more information, see [<strong>MPEG-2 Demultiplexer Media Types</strong>](mp
 <td>mpg2splt.ax</td>
 </tr>
 <tr class="odd">
-<td>[Merit](merit.md)</td>
+<td><a href="merit">Merit</a></td>
 <td>MERIT_NORMAL</td>
 </tr>
 <tr class="even">
-<td>[Filter Category](filter-categories.md)</td>
+<td><a href="filter-categories">Filter Category</a></td>
 <td>CLSID_LegacyAmFilterCategory</td>
 </tr>
 </tbody>

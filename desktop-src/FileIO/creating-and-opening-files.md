@@ -34,8 +34,8 @@ The following table illustrates the valid combinations of two calls to [**Create
 </colgroup>
 <thead>
 <tr class="header">
-<th>First call to [<strong>CreateFile</strong>](/windows/desktop/api/FileAPI/nf-fileapi-createfilea)</th>
-<th>Valid second calls to [<strong>CreateFile</strong>](/windows/desktop/api/FileAPI/nf-fileapi-createfilea)</th>
+<th>First call to <a href="/windows/desktop/api/FileAPI/nf-fileapi-createfilea"><strong>CreateFile</strong></a></th>
+<th>Valid second calls to <a href="/windows/desktop/api/FileAPI/nf-fileapi-createfilea"><strong>CreateFile</strong></a></th>
 </tr>
 </thead>
 <tbody>

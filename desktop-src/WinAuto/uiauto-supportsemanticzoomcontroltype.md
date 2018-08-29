@@ -150,47 +150,47 @@ The following table lists the UI Automation properties whose value or definition
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>UIA_AutomationIdPropertyId</strong>](uiauto-automation-element-propids.md)</td>
+<td><a href="uiauto-automation-element-propids"><strong>UIA_AutomationIdPropertyId</strong></a></td>
 <td>See notes.</td>
 <td>The value of this property must be unique among all peer elements in the raw view of the UI Automation tree.</td>
 </tr>
 <tr class="even">
-<td>[<strong>UIA_BoundingRectanglePropertyId</strong>](uiauto-automation-element-propids.md)</td>
+<td><a href="uiauto-automation-element-propids"><strong>UIA_BoundingRectanglePropertyId</strong></a></td>
 <td>See notes.</td>
 <td>The outermost rectangle that contains the whole control.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>UIA_ClickablePointPropertyId</strong>](uiauto-automation-element-propids.md)</td>
+<td><a href="uiauto-automation-element-propids"><strong>UIA_ClickablePointPropertyId</strong></a></td>
 <td>See notes.</td>
-<td>If the list control has a clickable point (a point that can be clicked to cause the list to take focus), that point must be exposed through this property. If the value of the [<strong>UIA_IsOffscreenPropertyId</strong>](uiauto-automation-element-propids.md) property is <strong>TRUE</strong>, attempting to retrieve this property results in the [<strong>UIA_E_NOCLICKABLEPOINT</strong>](uiauto-error-codes.md) error.</td>
+<td>If the list control has a clickable point (a point that can be clicked to cause the list to take focus), that point must be exposed through this property. If the value of the <a href="uiauto-automation-element-propids"><strong>UIA_IsOffscreenPropertyId</strong></a> property is <strong>TRUE</strong>, attempting to retrieve this property results in the <a href="uiauto-error-codes"><strong>UIA_E_NOCLICKABLEPOINT</strong></a> error.</td>
 </tr>
 <tr class="even">
-<td>[<strong>UIA_ControlTypePropertyId</strong>](uiauto-automation-element-propids.md)</td>
+<td><a href="uiauto-automation-element-propids"><strong>UIA_ControlTypePropertyId</strong></a></td>
 <td><strong>SemanticZoom</strong></td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>UIA_IsContentElementPropertyId</strong>](uiauto-automation-element-propids.md)</td>
+<td><a href="uiauto-automation-element-propids"><strong>UIA_IsContentElementPropertyId</strong></a></td>
 <td>TRUE</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>UIA_IsControlElementPropertyId</strong>](uiauto-automation-element-propids.md)</td>
+<td><a href="uiauto-automation-element-propids"><strong>UIA_IsControlElementPropertyId</strong></a></td>
 <td>TRUE</td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>UIA_IsKeyboardFocusablePropertyId</strong>](uiauto-automation-element-propids.md)</td>
+<td><a href="uiauto-automation-element-propids"><strong>UIA_IsKeyboardFocusablePropertyId</strong></a></td>
 <td>FALSE</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>UIA_LabeledByPropertyId</strong>](uiauto-automation-element-propids.md)</td>
+<td><a href="uiauto-automation-element-propids"><strong>UIA_LabeledByPropertyId</strong></a></td>
 <td>See notes.</td>
 <td>If there is a static text label, this property must expose a reference to that control.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>UIA_LocalizedControlTypePropertyId</strong>](uiauto-automation-element-propids.md)</td>
+<td><a href="uiauto-automation-element-propids"><strong>UIA_LocalizedControlTypePropertyId</strong></a></td>
 <td>See notes.</td>
 <td>A localized string corresponding to the <strong>SemanticZoom</strong> control type. The default value is &quot;semantic zoom&quot; for en-US or English (United States).
 <blockquote>
@@ -200,7 +200,7 @@ Some frameworks concatenated this as &quot;semanticzoom&quot;.
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UIA_NamePropertyId</strong>](uiauto-automation-element-propids.md)</td>
+<td><a href="uiauto-automation-element-propids"><strong>UIA_NamePropertyId</strong></a></td>
 <td>See notes.</td>
 <td>An empty string is acceptable, or a more useful name could be provided, as long as it does not contain the term  semantic zoom , which would make the combination of control type and name confusing.</td>
 </tr>

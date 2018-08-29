@@ -65,27 +65,27 @@ The **DeviceInfo** object has these properties.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>Id</strong>](-wia-iwiadeviceinfo-id.md)<br/></td>
+<td style="text-align: left;"><a href="-wia-iwiadeviceinfo-id"><strong>Id</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
 <td style="text-align: left;">Retrieves the ID of the WIA hardware device. <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>Manufacturer</strong>](-wia-iwiadeviceinfo-manufacturer.md)<br/></td>
+<td style="text-align: left;"><a href="-wia-iwiadeviceinfo-manufacturer"><strong>Manufacturer</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
 <td style="text-align: left;">Retrieves the name of the manufacturer of this hardware device.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>Name</strong>](-wia-iwiadeviceinfo-name.md)<br/></td>
+<td style="text-align: left;"><a href="-wia-iwiadeviceinfo-name"><strong>Name</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
 <td style="text-align: left;">The name of the WIA hardware device as it appears in the UI.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>Port</strong>](-wia-iwiadeviceinfo-port.md)<br/></td>
+<td style="text-align: left;"><a href="-wia-iwiadeviceinfo-port"><strong>Port</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
 <td style="text-align: left;">Retrieves the port to which the WIA hardware device is connected.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>Type</strong>](-wia-iwiadeviceinfo-type.md)<br/></td>
+<td style="text-align: left;"><a href="-wia-iwiadeviceinfo-type"><strong>Type</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
 <td style="text-align: left;">Retrieves the type of WIA hardware device. Possible values are: <br/>
 <ul>
@@ -96,7 +96,7 @@ The **DeviceInfo** object has these properties.
 </ul></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>UIClsid</strong>](-wia-iwiadeviceinfo-uiclsid.md)<br/></td>
+<td style="text-align: left;"><a href="-wia-iwiadeviceinfo-uiclsid"><strong>UIClsid</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
 <td style="text-align: left;">Retrieves the class id of the manufacturer-provided user interface for this WIA hardware device. The value is a string representation of a GUID. <br/></td>
 </tr>

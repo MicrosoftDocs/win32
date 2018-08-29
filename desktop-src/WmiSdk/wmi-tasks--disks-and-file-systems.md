@@ -58,7 +58,7 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...find out how much disk space each user is currently using on a computer?</td>
-<td>If you are using disk quotas, then use the [<strong>Win32_DiskQuota</strong>](https://msdn.microsoft.com/library/aa394136) class and retrieve the values of the <strong>User</strong> and <strong>DiskSpaceUsed</strong> properties.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>If you are using disk quotas, then use the <a href="https://msdn.microsoft.com/library/aa394136"><strong>Win32_DiskQuota</strong></a> class and retrieve the values of the <strong>User</strong> and <strong>DiskSpaceUsed</strong> properties.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -108,7 +108,7 @@ foreach ($objQuota in $colItems)
 </tr>
 <tr class="even">
 <td>...determine when a removable drive has been added to or removed from a computer?</td>
-<td><p>Use a monitoring script that queries the [<strong>Win32_VolumeChangeEvent</strong>](https://msdn.microsoft.com/library/aa394516) class.</p>
+<td><p>Use a monitoring script that queries the <a href="https://msdn.microsoft.com/library/aa394516"><strong>Win32_VolumeChangeEvent</strong></a> class.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -139,7 +139,7 @@ Loop</code></pre></td>
 </tr>
 <tr class="odd">
 <td>...determine if a CD is in a CD-ROM drive?</td>
-<td><p>Use the [<strong>Win32_CDROMDrive</strong>](https://msdn.microsoft.com/library/aa394081) class and the <strong>MediaLoaded</strong> property.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394081"><strong>Win32_CDROMDrive</strong></a> class and the <strong>MediaLoaded</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -190,7 +190,7 @@ foreach ($objItem in $colItems)
 </tr>
 <tr class="even">
 <td>...determine if a disk is in the floppy drive?</td>
-<td><p>Use the [<strong>Win32_LogicalDisk</strong>](https://msdn.microsoft.com/library/aa394173) class and check the <strong>FreeSpace</strong> property. If the value is Null, then no disk is in the drive.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394173"><strong>Win32_LogicalDisk</strong></a> class and check the <strong>FreeSpace</strong> property. If the value is Null, then no disk is in the drive.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -249,7 +249,7 @@ foreach ($objItem in $colItems)
 </tr>
 <tr class="odd">
 <td>...distinguish between a fixed hard disk and a removable hard disk?</td>
-<td><p>Use the [<strong>Win32_LogicalDisk</strong>](https://msdn.microsoft.com/library/aa394173) class and check the value of the <strong>DriveType</strong> property.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394173"><strong>Win32_LogicalDisk</strong></a> class and check the value of the <strong>DriveType</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -330,7 +330,7 @@ foreach ($objDisk in $colDisks)
 </tr>
 <tr class="even">
 <td>...determine what file system is in use on a drive?</td>
-<td><p>Use the [<strong>Win32_LogicalDisk</strong>](https://msdn.microsoft.com/library/aa394173) class and the <strong>FileSystem</strong> property.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394173"><strong>Win32_LogicalDisk</strong></a> class and the <strong>FileSystem</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -359,7 +359,7 @@ Next</code></pre></td>
 </tr>
 <tr class="odd">
 <td>...determine how much free space is available on a drive?</td>
-<td><p>Use the [<strong>Win32_LogicalDisk</strong>](https://msdn.microsoft.com/library/aa394173) class and the <strong>FreeSpace</strong> property.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394173"><strong>Win32_LogicalDisk</strong></a> class and the <strong>FreeSpace</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -388,7 +388,7 @@ Next</code></pre></td>
 </tr>
 <tr class="even">
 <td>...determine the size of a drive?</td>
-<td><p>Use the [<strong>Win32_LogicalDisk</strong>](https://msdn.microsoft.com/library/aa394173) class, and the <strong>Size</strong> property.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394173"><strong>Win32_LogicalDisk</strong></a> class, and the <strong>Size</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -417,7 +417,7 @@ Next</code></pre></td>
 </tr>
 <tr class="odd">
 <td>...find out what drives are mapped on a computer?</td>
-<td><p>Use the [<strong>Win32_MappedLogicalDisk</strong>](https://msdn.microsoft.com/library/aa394194) class.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394194"><strong>Win32_MappedLogicalDisk</strong></a> class.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -448,7 +448,7 @@ Next</code></pre></td>
 </tr>
 <tr class="even">
 <td>...defragment a hard disk?</td>
-<td><p>Use the [<strong>Win32_Volume</strong>](https://msdn.microsoft.com/library/aa394515) class and the [<strong>Defrag</strong>](https://msdn.microsoft.com/library/aa389832) method.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394515"><strong>Win32_Volume</strong></a> class and the <a href="https://msdn.microsoft.com/library/aa389832"><strong>Defrag</strong></a> method.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -477,9 +477,9 @@ Next</code></pre></td>
 <tr class="odd">
 <td>...detect which drive letter is associated with a logical disk partition?</td>
 <td><ol>
-<li>Start with the [<strong>Win32_DiskDrive</strong>](https://msdn.microsoft.com/library/aa394132) class and query for instances of [<strong>Win32_DiskPartition</strong>](https://msdn.microsoft.com/library/aa394135) using the <strong>DeviceID</strong> property and the [<strong>Win32_DiskDriveToDiskPartition</strong>](https://msdn.microsoft.com/library/aa394134) association class. Now you have a collection of the partitions on the physical drive.</li>
-<li>Query for the [<strong>Win32_LogicalDisk</strong>](https://msdn.microsoft.com/library/aa394173) that represents the partition using the [<strong>Win32_DiskPartition.DeviceID</strong>](https://msdn.microsoft.com/library/aa394135) property and [<strong>Win32_LogicalDiskToPartition</strong>](https://msdn.microsoft.com/library/aa394175) association class.</li>
-<li>Get the drive letter from the [<strong>Win32_LogicalDisk.DeviceID</strong>](https://msdn.microsoft.com/library/aa394173).</li>
+<li>Start with the <a href="https://msdn.microsoft.com/library/aa394132"><strong>Win32_DiskDrive</strong></a> class and query for instances of <a href="https://msdn.microsoft.com/library/aa394135"><strong>Win32_DiskPartition</strong></a> using the <strong>DeviceID</strong> property and the <a href="https://msdn.microsoft.com/library/aa394134"><strong>Win32_DiskDriveToDiskPartition</strong></a> association class. Now you have a collection of the partitions on the physical drive.</li>
+<li>Query for the <a href="https://msdn.microsoft.com/library/aa394173"><strong>Win32_LogicalDisk</strong></a> that represents the partition using the <a href="https://msdn.microsoft.com/library/aa394135"><strong>Win32_DiskPartition.DeviceID</strong></a> property and <a href="https://msdn.microsoft.com/library/aa394175"><strong>Win32_LogicalDiskToPartition</strong></a> association class.</li>
+<li>Get the drive letter from the <a href="https://msdn.microsoft.com/library/aa394173"><strong>Win32_LogicalDisk.DeviceID</strong></a>.</li>
 </ol>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>

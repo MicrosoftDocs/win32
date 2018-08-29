@@ -67,20 +67,20 @@ The flags, listed in the following table, are used in the *dwControlFlags* param
 </tr>
 <tr class="even">
 <td><strong>LUP_RETURN_NAME</strong></td>
-<td>Return the display name of the service in the <strong>lpszServiceInstanceName</strong> member of the [<strong>WSAQUERYSET</strong>](https://msdn.microsoft.com/library/windows/desktop/ms741679) structure for each call to the [<strong>WSALookupServiceNext</strong>](https://msdn.microsoft.com/library/windows/desktop/ms741641) function.</td>
+<td>Return the display name of the service in the <strong>lpszServiceInstanceName</strong> member of the <a href="https://msdn.microsoft.com/library/windows/desktop/ms741679"><strong>WSAQUERYSET</strong></a> structure for each call to the <a href="https://msdn.microsoft.com/library/windows/desktop/ms741641"><strong>WSALookupServiceNext</strong></a> function.</td>
 </tr>
 <tr class="odd">
 <td><strong>LUP_RETURN_TYPE</strong></td>
-<td>Return the service class ID in the <strong>lpServiceClassId</strong> member of the [<strong>WSAQUERYSET</strong>](https://msdn.microsoft.com/library/windows/desktop/ms741679) structure.
+<td>Return the service class ID in the <strong>lpServiceClassId</strong> member of the <a href="https://msdn.microsoft.com/library/windows/desktop/ms741679"><strong>WSAQUERYSET</strong></a> structure.
 <blockquote>
 [!Note]<br />
-Use of this flag is only applicable to the [<strong>WSALookupServiceBegin</strong>](https://msdn.microsoft.com/library/windows/desktop/ms741633) function. This value is always zero for [<strong>WSALookupServiceNext</strong>](https://msdn.microsoft.com/library/windows/desktop/ms741641).
+Use of this flag is only applicable to the <a href="https://msdn.microsoft.com/library/windows/desktop/ms741633"><strong>WSALookupServiceBegin</strong></a> function. This value is always zero for <a href="https://msdn.microsoft.com/library/windows/desktop/ms741641"><strong>WSALookupServiceNext</strong></a>.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
 <td><strong>LUP_RETURN_ADDR</strong></td>
-<td>Return an address in the <strong>lpcsaBuffer</strong> member to be used with [<strong>connect</strong>](https://msdn.microsoft.com/library/windows/desktop/ms737625) function calls. The returned address contains the port number.</td>
+<td>Return an address in the <strong>lpcsaBuffer</strong> member to be used with <a href="https://msdn.microsoft.com/library/windows/desktop/ms737625"><strong>connect</strong></a> function calls. The returned address contains the port number.</td>
 </tr>
 <tr class="odd">
 <td><strong>LUP_RETURN_BLOB</strong></td>
@@ -92,7 +92,7 @@ Use of this flag is only applicable to the [<strong>WSALookupServiceBegin</stron
 </tr>
 <tr class="odd">
 <td><strong>LUP_RETURN_COMMENT</strong></td>
-<td>Return the service description in the <strong>lpszComment</strong> member of the [<strong>WSAQUERYSET</strong>](https://msdn.microsoft.com/library/windows/desktop/ms741679) structure for each call to the [<strong>WSALookupServiceNext</strong>](https://msdn.microsoft.com/library/windows/desktop/ms741641) function.</td>
+<td>Return the service description in the <strong>lpszComment</strong> member of the <a href="https://msdn.microsoft.com/library/windows/desktop/ms741679"><strong>WSAQUERYSET</strong></a> structure for each call to the <a href="https://msdn.microsoft.com/library/windows/desktop/ms741641"><strong>WSALookupServiceNext</strong></a> function.</td>
 </tr>
 <tr class="even">
 <td><strong>LUP_FLUSHPREVIOUS</strong></td>

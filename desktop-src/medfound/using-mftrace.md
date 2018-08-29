@@ -51,7 +51,7 @@ MFTrace uses the Detours library to hook into Media Foundation API calls and gen
 </tr>
 <tr class="odd">
 <td><span id="-k_Keywords"></span><span id="-k_keywords"></span><span id="-K_KEYWORDS"></span><strong>-k</strong> <strong></strong> <em>Keywords</em><br/></td>
-<td>A comma-separated list of keywords. See [MFTrace Keywords](mftrace-keywords.md).<br/></td>
+<td>A comma-separated list of keywords. See <a href="mftrace-keywords">MFTrace Keywords</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="-l_Level"></span><span id="-l_level"></span><span id="-L_LEVEL"></span><strong>-l</strong> <strong></strong> <em>Level</em><br/></td>

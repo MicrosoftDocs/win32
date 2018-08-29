@@ -43,15 +43,15 @@ This section contains information about the programming elements used with toolb
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>CreateMappedBitmap</strong>](/windows/desktop/api/Commctrl/nf-commctrl-createmappedbitmap)</td>
+<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-createmappedbitmap"><strong>CreateMappedBitmap</strong></a></td>
 <td>Creates a bitmap for use in a toolbar. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateToolbarEx</strong>](/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex)</td>
+<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex"><strong>CreateToolbarEx</strong></a></td>
 <td>Creates a toolbar window and adds the specified buttons to the toolbar.
 <blockquote>
 [!Note]<br />
-This function is deprecated, because it does not support all features of toolbars. Use [<strong>CreateWindowEx</strong>](https://msdn.microsoft.com/library/windows/desktop/ms632680) instead. For examples, see [Using Toolbar Controls](using-toolbar-controls.md).
+This function is deprecated, because it does not support all features of toolbars. Use <a href="https://msdn.microsoft.com/library/windows/desktop/ms632680"><strong>CreateWindowEx</strong></a> instead. For examples, see [Using Toolbar Controls](using-toolbar-controls.md).
 </blockquote>
 <br/> <br/></td>
 </tr>
@@ -256,24 +256,24 @@ This function is deprecated, because it does not support all features of toolbar
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Toolbar Button States](toolbar-button-states.md)</td>
+<td><a href="toolbar-button-states">Toolbar Button States</a></td>
 <td>This section lists the states a toolbar button can have. <br/></td>
 </tr>
 <tr class="even">
-<td>[Toolbar Control and Button Styles](toolbar-control-and-button-styles.md)</td>
-<td>The following window styles are specific to toolbars. They are combined with other window styles when the toolbar is created.<br/> <strong>Note</strong> For Common Controls [version 6.00](common-control-versions.md), if a [visual style](themes-overview.md) is being used with the toolbar, buttons are always transparent regardless of the style setting. Otherwise, transparency behavior is normal as indicated by the use of the [<strong>TBSTYLE_FLAT</strong>](toolbar-control-and-button-styles.md) or [<strong>TBSTYLE_TRANSPARENT</strong>](toolbar-control-and-button-styles.md) style.
+<td><a href="toolbar-control-and-button-styles">Toolbar Control and Button Styles</a></td>
+<td>The following window styles are specific to toolbars. They are combined with other window styles when the toolbar is created.<br/> <strong>Note</strong> For Common Controls <a href="common-control-versions">version 6.00</a>, if a <a href="themes-overview">visual style</a> is being used with the toolbar, buttons are always transparent regardless of the style setting. Otherwise, transparency behavior is normal as indicated by the use of the <a href="toolbar-control-and-button-styles"><strong>TBSTYLE_FLAT</strong></a> or <a href="toolbar-control-and-button-styles"><strong>TBSTYLE_TRANSPARENT</strong></a> style.
 <blockquote>
 [!Note]<br />
-Comctl32.dll version 6 is not redistributable but it is included in Windows or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
+Comctl32.dll version 6 is not redistributable but it is included in Windows or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="cookbook-overview">Enabling Visual Styles</a>.
 </blockquote>
 <br/> <br/></td>
 </tr>
 <tr class="odd">
-<td>[Toolbar Extended Styles](toolbar-extended-styles.md)</td>
+<td><a href="toolbar-extended-styles">Toolbar Extended Styles</a></td>
 <td>This section lists the extended styles supported by toolbar controls.<br/></td>
 </tr>
 <tr class="even">
-<td>[Toolbar Standard Button Image Index Values](toolbar-standard-button-image-index-values.md)</td>
+<td><a href="toolbar-standard-button-image-index-values">Toolbar Standard Button Image Index Values</a></td>
 <td>This section specifies index values of images within standard bitmaps.<br/></td>
 </tr>
 </tbody>

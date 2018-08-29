@@ -58,7 +58,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ModemDMConfigProfile](element-modemdmconfigprofile.md)</td>
+<td><a href="element-modemdmconfigprofile">ModemDMConfigProfile</a></td>
 <td><p>Modem DM configuration profile.</p></td>
 </tr>
 </tbody>

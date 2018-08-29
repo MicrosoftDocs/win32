@@ -132,7 +132,7 @@ If the function fails, the return value is one of the [system error codes](https
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>ERROR_WMI_GUID_NOT_FOUND</strong></dt> </dl></td>
-<td>The provider is not registered. Occurs when [KB307331](Http://go.microsoft.com/fwlink/p/?linkid=83987) or Windows 2000 Service Pack 4 is installed and the provider is not registered. To avoid this error, the provider must first be registered. <br/></td>
+<td>The provider is not registered. Occurs when <a href="Http://go.microsoft.com/fwlink/p/?linkid=83987">KB307331</a> or Windows 2000 Service Pack 4 is installed and the provider is not registered. To avoid this error, the provider must first be registered. <br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>ERROR_NO_SYSTEM_RESOURCES</strong> </dt> </dl></td>
@@ -140,7 +140,7 @@ If the function fails, the return value is one of the [system error codes](https
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>ERROR_ACCESS_DENIED</strong></dt> </dl></td>
-<td>Only users with administrative privileges, users in the Performance Log Users group, and services running as LocalSystem, LocalService, NetworkService can enable trace providers. To grant a restricted user the ability to enable a trace provider, add them to the Performance Log Users group or see [<strong>EventAccessControl</strong>](/windows/desktop/api/Evntcons/nf-evntcons-eventaccesscontrol).<br/> <strong>Windows XP and Windows 2000:</strong> Anyone can enable a trace provider.<br/></td>
+<td>Only users with administrative privileges, users in the Performance Log Users group, and services running as LocalSystem, LocalService, NetworkService can enable trace providers. To grant a restricted user the ability to enable a trace provider, add them to the Performance Log Users group or see <a href="/windows/desktop/api/Evntcons/nf-evntcons-eventaccesscontrol"><strong>EventAccessControl</strong></a>.<br/> <strong>Windows XP and Windows 2000:</strong> Anyone can enable a trace provider.<br/></td>
 </tr>
 </tbody>
 </table>

@@ -26,7 +26,7 @@ The **IBufferObjectDataRequest** interface inherits from the [**IUnknown**](http
 
 The **IBufferObjectDataRequest** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;">[<strong>RequestAsync</strong>](https://msdn.microsoft.com/library/windows/desktop/mt422649)</td><td style="text-align: left;"><p>Requests to get the raw contents of an object (buffer, texture, render target view, etc.)</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt422649"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Requests to get the raw contents of an object (buffer, texture, render target view, etc.)</p></td></tr></tbody></table>
 
  
 

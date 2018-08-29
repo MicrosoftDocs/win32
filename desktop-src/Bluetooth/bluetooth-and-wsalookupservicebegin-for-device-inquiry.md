@@ -35,14 +35,14 @@ The following table lists restrictions that apply to the [**WSAQUERYSET**](https
 <tbody>
 <tr class="odd">
 <td><strong>dwSize</strong></td>
-<td>Set to <strong>sizeof</strong>([<strong>WSAQUERYSET</strong>](https://msdn.microsoft.com/library/windows/desktop/ms741679)).</td>
+<td>Set to <strong>sizeof</strong>(<a href="https://msdn.microsoft.com/library/windows/desktop/ms741679"><strong>WSAQUERYSET</strong></a>).</td>
 </tr>
 <tr class="even">
 <td><strong>lpBlob</strong></td>
-<td>This member contains an optional pointer to a [<strong>BLOB</strong>](https://msdn.microsoft.com/library/windows/desktop/ms737551) structure. If this member is specified, the valid device inquire parameters for <strong>LUP_FLUSHCACHE</strong> are as follows:
+<td>This member contains an optional pointer to a <a href="https://msdn.microsoft.com/library/windows/desktop/ms737551"><strong>BLOB</strong></a> structure. If this member is specified, the valid device inquire parameters for <strong>LUP_FLUSHCACHE</strong> are as follows:
 <ul>
-<li>The <strong>cbSize</strong> member of the [<strong>BLOB</strong>](https://msdn.microsoft.com/library/windows/desktop/ms737551) structure must be <strong>sizeof</strong>(<strong>BTH_QUERY_DEVICE</strong>).</li>
-<li>The <strong>pBlobData</strong> member is a pointer to a [<strong>BTH_QUERY_DEVICE</strong>](/windows/desktop/api/Ws2bth/ns-ws2bth-_bth_query_device) structure, for which the <strong>LAP</strong> member is the Bluetooth inquiry access code, and the <strong>length</strong> member is the length, in seconds, of the inquiry.</li>
+<li>The <strong>cbSize</strong> member of the <a href="https://msdn.microsoft.com/library/windows/desktop/ms737551"><strong>BLOB</strong></a> structure must be <strong>sizeof</strong>(<strong>BTH_QUERY_DEVICE</strong>).</li>
+<li>The <strong>pBlobData</strong> member is a pointer to a <a href="/windows/desktop/api/Ws2bth/ns-ws2bth-_bth_query_device"><strong>BTH_QUERY_DEVICE</strong></a> structure, for which the <strong>LAP</strong> member is the Bluetooth inquiry access code, and the <strong>length</strong> member is the length, in seconds, of the inquiry.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -51,7 +51,7 @@ The following table lists restrictions that apply to the [**WSAQUERYSET**](https
 </tr>
 <tr class="even">
 <td>Other members</td>
-<td>Other members of the [<strong>WSAQUERYSET</strong>](https://msdn.microsoft.com/library/windows/desktop/ms741679) structure are ignored.</td>
+<td>Other members of the <a href="https://msdn.microsoft.com/library/windows/desktop/ms741679"><strong>WSAQUERYSET</strong></a> structure are ignored.</td>
 </tr>
 </tbody>
 </table>

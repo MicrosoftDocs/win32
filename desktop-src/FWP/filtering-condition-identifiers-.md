@@ -454,7 +454,7 @@ The standard conditions are listed first, followed by the conditions specific to
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="FWPM_CONDITION_IP_LOCAL_ADDRESS_TYPE"></span><span id="fwpm_condition_ip_local_address_type"></span><dl> <dt><strong>FWPM_CONDITION_IP_LOCAL_ADDRESS_TYPE</strong></dt> </dl></td>
-<td style="text-align: left;">The local IP address type. <br/> <strong>Possible values:</strong> Any of the following [NL_ADDRESS_TYPE](http://go.microsoft.com/fwlink/p/?linkid=94464) enumeration values.
+<td style="text-align: left;">The local IP address type. <br/> <strong>Possible values:</strong> Any of the following <a href="http://go.microsoft.com/fwlink/p/?linkid=94464">NL_ADDRESS_TYPE</a> enumeration values.
 <ul>
 <li>NlatUnspecified</li>
 <li>NlatUnicast</li>
@@ -466,7 +466,7 @@ The standard conditions are listed first, followed by the conditions specific to
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FWPM_CONDITION_IP_DESTINATION_ADDRESS_TYPE"></span><span id="fwpm_condition_ip_destination_address_type"></span><dl> <dt><strong>FWPM_CONDITION_IP_DESTINATION_ADDRESS_TYPE</strong></dt> </dl></td>
-<td style="text-align: left;">The destination IP address type for forwarded packets. <br/> <strong>Possible values:</strong> Any of the following [NL_ADDRESS_TYPE](http://go.microsoft.com/fwlink/p/?linkid=94464) enumeration values.
+<td style="text-align: left;">The destination IP address type for forwarded packets. <br/> <strong>Possible values:</strong> Any of the following <a href="http://go.microsoft.com/fwlink/p/?linkid=94464">NL_ADDRESS_TYPE</a> enumeration values.
 <ul>
 <li>NlatUnspecified</li>
 <li>NlatUnicast</li>
@@ -514,7 +514,7 @@ The standard conditions are listed first, followed by the conditions specific to
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FWPM_CONDITION_EMBEDDED_LOCAL_ADDRESS_TYPE"></span><span id="fwpm_condition_embedded_local_address_type"></span><dl> <dt><strong>FWPM_CONDITION_EMBEDDED_LOCAL_ADDRESS_TYPE</strong></dt> </dl></td>
-<td style="text-align: left;">The local IP address type that is embedded in the ICMP packet.<br/> <strong>Possible values:</strong> Any of the following [NL_ADDRESS_TYPE](http://go.microsoft.com/fwlink/p/?linkid=94464) enumeration values.
+<td style="text-align: left;">The local IP address type that is embedded in the ICMP packet.<br/> <strong>Possible values:</strong> Any of the following <a href="http://go.microsoft.com/fwlink/p/?linkid=94464">NL_ADDRESS_TYPE</a> enumeration values.
 <ul>
 <li>NlatUnspecified</li>
 <li>NlatUnicast</li>
@@ -552,7 +552,7 @@ The standard conditions are listed first, followed by the conditions specific to
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="FWPM_CONDITION_FLAGS"></span><span id="fwpm_condition_flags"></span><dl> <dt><strong>FWPM_CONDITION_FLAGS</strong></dt> </dl></td>
-<td style="text-align: left;">A bitwise OR of a combination of filtering condition flags. <br/> <strong>Possible values:</strong> See [<strong>Filtering Condition Flags</strong>](filtering-condition-flags-.md)<br/> <strong>Data type:</strong> FWP_UINT32<br/></td>
+<td style="text-align: left;">A bitwise OR of a combination of filtering condition flags. <br/> <strong>Possible values:</strong> See <a href="filtering-condition-flags-"><strong>Filtering Condition Flags</strong></a><br/> <strong>Data type:</strong> FWP_UINT32<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FWPM_CONDITION_DIRECTION"></span><span id="fwpm_condition_direction"></span><dl> <dt><strong>FWPM_CONDITION_DIRECTION</strong></dt> </dl></td>
@@ -589,7 +589,7 @@ The standard conditions are listed first, followed by the conditions specific to
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="FWPM_CONDITION_ALE_APP_ID"></span><span id="fwpm_condition_ale_app_id"></span><dl> <dt><strong>FWPM_CONDITION_ALE_APP_ID</strong></dt> </dl></td>
-<td style="text-align: left;">The fully qualified device path of the application, as returned by the [<strong>FwpmGetAppIdFromFileName0</strong>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmgetappidfromfilename0) function. <br/> (For example, &quot;\device0\hardiskvolume1\Program Files\Application.exe&quot;.)<br/> <strong>Data type:</strong> FWP_BYTE_BLOB_TYPE<br/></td>
+<td style="text-align: left;">The fully qualified device path of the application, as returned by the <a href="/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmgetappidfromfilename0"><strong>FwpmGetAppIdFromFileName0</strong></a> function. <br/> (For example, &quot;\device0\hardiskvolume1\Program Files\Application.exe&quot;.)<br/> <strong>Data type:</strong> FWP_BYTE_BLOB_TYPE<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FWPM_CONDITION_ALE_USER_ID"></span><span id="fwpm_condition_ale_user_id"></span><dl> <dt><strong>FWPM_CONDITION_ALE_USER_ID</strong></dt> </dl></td>
@@ -611,7 +611,7 @@ The standard conditions are listed first, followed by the conditions specific to
 <li>SIO_RCVALL_IGMPMCAST</li>
 <li>SIO_RCVALL_MCAST</li>
 </ul>
-For a description of these raw socket modes, see the [<strong>WSAIoctl</strong>](https://msdn.microsoft.com/library/windows/desktop/ms741621) function.<br/> <strong>Data type:</strong> FWP_UINT32<br/></td>
+For a description of these raw socket modes, see the <a href="https://msdn.microsoft.com/library/windows/desktop/ms741621"><strong>WSAIoctl</strong></a> function.<br/> <strong>Data type:</strong> FWP_UINT32<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FWPM_CONDITION_ALE_SIO_FIREWALL_SYSTEM_PORT"></span><span id="fwpm_condition_ale_sio_firewall_system_port"></span><dl> <dt><strong>FWPM_CONDITION_ALE_SIO_FIREWALL_SYSTEM_PORT</strong></dt> </dl></td>
@@ -743,11 +743,11 @@ Available only on Windows Server 2008 R2, Windows 7, and later.
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FWPM_CONDITION_RPC_AUTH_TYPE"></span><span id="fwpm_condition_rpc_auth_type"></span><dl> <dt><strong>FWPM_CONDITION_RPC_AUTH_TYPE</strong></dt> </dl></td>
-<td style="text-align: left;">The authentication service type. For more information about authentication service types, see [<strong>Authentication-Service Constants</strong>](https://msdn.microsoft.com/library/windows/desktop/aa373556). <br/> <strong>Data type:</strong> FWP_UINT8<br/></td>
+<td style="text-align: left;">The authentication service type. For more information about authentication service types, see <a href="https://msdn.microsoft.com/library/windows/desktop/aa373556"><strong>Authentication-Service Constants</strong></a>. <br/> <strong>Data type:</strong> FWP_UINT8<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="FWPM_CONDITION_RPC_AUTH_LEVEL"></span><span id="fwpm_condition_rpc_auth_level"></span><dl> <dt><strong>FWPM_CONDITION_RPC_AUTH_LEVEL</strong></dt> </dl></td>
-<td style="text-align: left;">The authentication service level. For more information about authentication service levels, see [<strong>Authentication-Level Constants</strong>](https://msdn.microsoft.com/library/windows/desktop/aa373553). <br/> <strong>Data type:</strong> FWP_UINT8<br/></td>
+<td style="text-align: left;">The authentication service level. For more information about authentication service levels, see <a href="https://msdn.microsoft.com/library/windows/desktop/aa373553"><strong>Authentication-Level Constants</strong></a>. <br/> <strong>Data type:</strong> FWP_UINT8<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FWPM_CONDITION_SEC_ENCRYPT_ALGORITHM"></span><span id="fwpm_condition_sec_encrypt_algorithm"></span><dl> <dt><strong>FWPM_CONDITION_SEC_ENCRYPT_ALGORITHM</strong></dt> </dl></td>

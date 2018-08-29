@@ -44,8 +44,8 @@ Constructs instances of the [**XMUSHORT2**](/windows/desktop/api/DirectXPackedVe
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMUSHORT2 ()</strong>](https://msdn.microsoft.com/en-us/library/Ee420626(v=VS.85).aspx)</td>
-<td style="text-align: left;">Default constructor for <code>XMUSHORT2</code>.<br/> Default constructor for [<strong>XMUSHORT2</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushort2).<br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee420626(v=VS.85).aspx"><strong>XMUSHORT2 ()</strong></a></td>
+<td style="text-align: left;">Default constructor for <code>XMUSHORT2</code>.<br/> Default constructor for <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushort2"><strong>XMUSHORT2</strong></a>.<br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -53,8 +53,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMUSHORT2 (float,float)</strong>](https://msdn.microsoft.com/en-us/library/Ee420627(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUSHORT2</code> from two <code>float</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMUSHORT2</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushort2) from two <code>float</code> arguments. <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee420627(v=VS.85).aspx"><strong>XMUSHORT2 (float,float)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMUSHORT2</code> from two <code>float</code> arguments. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushort2"><strong>XMUSHORT2</strong></a> from two <code>float</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -62,8 +62,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMUSHORT2 (const float*)</strong>](https://msdn.microsoft.com/en-us/library/Ee420629(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUSHORT2</code> from a two element <code>float</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMUSHORT2</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushort2) from a from a two element <code>float</code> array argument. <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee420629(v=VS.85).aspx"><strong>XMUSHORT2 (const float*)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMUSHORT2</code> from a two element <code>float</code> array argument. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushort2"><strong>XMUSHORT2</strong></a> from a from a two element <code>float</code> array argument. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -71,7 +71,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMUSHORT2 (const uint16_t*)</strong>](https://msdn.microsoft.com/en-us/library/Hh404766(v=VS.85).aspx)</td>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Hh404766(v=VS.85).aspx"><strong>XMUSHORT2 (const uint16_t*)</strong></a></td>
 <td style="text-align: left;">Initializes a new instance of <code>XMUSHORT2</code> from an array of <code>uint16_t</code> arguments.<br/> This constructor initializes a new instance of <code>XMUSHORT2</code> from an array of <code>uint16_t</code> arguments.<br/>
 <blockquote>
 [!Note]<br />
@@ -80,8 +80,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMUSHORT2 (uint16_t,uint16_t)</strong>](https://msdn.microsoft.com/en-us/library/Hh404765(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUSHORT2</code> from two <code>uint16_t</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMUSHORT2</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushort2) from two <code>uint16_t</code> arguments. <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Hh404765(v=VS.85).aspx"><strong>XMUSHORT2 (uint16_t,uint16_t)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMUSHORT2</code> from two <code>uint16_t</code> arguments. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushort2"><strong>XMUSHORT2</strong></a> from two <code>uint16_t</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.

@@ -32,7 +32,7 @@ For program and transport streams delivered in push-mode, use the [MPEG-2 Demult
 <tbody>
 <tr class="odd">
 <td>Filter Interfaces</td>
-<td>[<strong>IBaseFilter</strong>](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), <strong>ISpecifyPropertyPages</strong>, [<strong>IAMParse</strong>](/windows/desktop/api/Amparse/nn-amparse-iamparse), [<strong>IAMStreamSelect</strong>](/windows/desktop/api/Strmif/nn-strmif-iamstreamselect)</td>
+<td><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, <strong>ISpecifyPropertyPages</strong>, <a href="/windows/desktop/api/Amparse/nn-amparse-iamparse"><strong>IAMParse</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iamstreamselect"><strong>IAMStreamSelect</strong></a></td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>
@@ -44,15 +44,15 @@ For program and transport streams delivered in push-mode, use the [MPEG-2 Demult
 </tr>
 <tr class="odd">
 <td>Input Pin Interfaces</td>
-<td>[<strong>IPin</strong>](/windows/desktop/api/Strmif/nn-strmif-ipin), [<strong>IQualityControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol)</td>
+<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>
-<td>Depends on the stream type. See [MPEG-2 Splitter Media Types](mpeg-2-splitter-media-types.md)</td>
+<td>Depends on the stream type. See <a href="mpeg-2-splitter-media-types">MPEG-2 Splitter Media Types</a></td>
 </tr>
 <tr class="odd">
 <td>Output Pin Interfaces</td>
-<td>[<strong>IPin</strong>](/windows/desktop/api/Strmif/nn-strmif-ipin), [<strong>IMediaSeeking</strong>](/windows/desktop/api/Strmif/nn-strmif-imediaseeking)</td>
+<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a></td>
 </tr>
 <tr class="even">
 <td>Filter CLSID</td>
@@ -67,11 +67,11 @@ For program and transport streams delivered in push-mode, use the [MPEG-2 Demult
 <td>mpg2splt.ax</td>
 </tr>
 <tr class="odd">
-<td>[Merit](merit.md)</td>
+<td><a href="merit">Merit</a></td>
 <td>MERIT_NORMAL + 1</td>
 </tr>
 <tr class="even">
-<td>[Filter Category](filter-categories.md)</td>
+<td><a href="filter-categories">Filter Category</a></td>
 <td>CLSID_AudioInputDeviceCategory</td>
 </tr>
 </tbody>

@@ -58,7 +58,7 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...create scheduled tasks using scripts?</td>
-<td>Use the [<strong>Win32_ScheduledJob</strong>](https://msdn.microsoft.com/library/aa394399) class and the [<strong>Create</strong>](https://msdn.microsoft.com/library/aa389389) method. If you are having difficulty making this task work on Windows 7 or later, see the <strong>Win32_ScheduledJob</strong> Remarks section; likely your settings are preventing you from using the class.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>Use the <a href="https://msdn.microsoft.com/library/aa394399"><strong>Win32_ScheduledJob</strong></a> class and the <a href="https://msdn.microsoft.com/library/aa389389"><strong>Create</strong></a> method. If you are having difficulty making this task work on Windows 7 or later, see the <strong>Win32_ScheduledJob</strong> Remarks section; likely your settings are preventing you from using the class.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -87,11 +87,11 @@ End If</code></pre></td>
 </tbody>
 </table>
 
-<p>In the string &quot;********143000.000000-420&quot; (used in the <em>StartTime</em> parameter value of the [<strong>Create</strong>](https://msdn.microsoft.com/library/aa389389) method), &quot;********143000.000000&quot; specifies that the task starts at 14.30 (2:30 P.M.) and &quot;-420&quot; specifies the time zone. The time zone number is the current bias of the local time translation. The bias is the difference between the UTC time and the local time. To calculate the bias for your time zone, multiply the number of hours that your time zone is ahead or behind Greenwich Mean Time (GMT) by 60 (use a positive number for the number of hours if your time zone is ahead of GMT and a negative number if your time zone is behind GMT). Add an additional 60 to your calculation if your time zone is using daylight savings time. For example, the Pacific Standard Time zone is eight hours behind GMT, therefore the bias is equals to -420 (-8 * 60 + 60) when daylight savings time is in use and -480 (-8 * 60) when daylight savings time is not in use. You can also determine the value of the bias by querying the bias property of the [<strong>Win32_TimeZone</strong>](https://msdn.microsoft.com/library/aa394498) class.</p></td>
+<p>In the string &quot;********143000.000000-420&quot; (used in the <em>StartTime</em> parameter value of the <a href="https://msdn.microsoft.com/library/aa389389"><strong>Create</strong></a> method), &quot;********143000.000000&quot; specifies that the task starts at 14.30 (2:30 P.M.) and &quot;-420&quot; specifies the time zone. The time zone number is the current bias of the local time translation. The bias is the difference between the UTC time and the local time. To calculate the bias for your time zone, multiply the number of hours that your time zone is ahead or behind Greenwich Mean Time (GMT) by 60 (use a positive number for the number of hours if your time zone is ahead of GMT and a negative number if your time zone is behind GMT). Add an additional 60 to your calculation if your time zone is using daylight savings time. For example, the Pacific Standard Time zone is eight hours behind GMT, therefore the bias is equals to -420 (-8 * 60 + 60) when daylight savings time is in use and -480 (-8 * 60) when daylight savings time is not in use. You can also determine the value of the bias by querying the bias property of the <a href="https://msdn.microsoft.com/library/aa394498"><strong>Win32_TimeZone</strong></a> class.</p></td>
 </tr>
 <tr class="even">
 <td>...return a list of all the scheduled tasks on a computer?</td>
-<td><p>Use the [<strong>Win32_ScheduledJob</strong>](https://msdn.microsoft.com/library/aa394399) class. Note that this class can only return jobs that are created using either a script or AT.exe. It cannot return information about jobs that are either created by or modified by the Scheduled Task wizard.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394399"><strong>Win32_ScheduledJob</strong></a> class. Note that this class can only return jobs that are created using either a script or AT.exe. It cannot return information about jobs that are either created by or modified by the Scheduled Task wizard.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>

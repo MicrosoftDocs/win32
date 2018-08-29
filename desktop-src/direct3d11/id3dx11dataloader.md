@@ -55,7 +55,7 @@ The **ID3DX11DataLoader** interface has these methods.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>Decompress</strong>](id3dx11dataloader-decompress.md)</td>
+<td style="text-align: left;"><a href="id3dx11dataloader-decompress"><strong>Decompress</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -63,7 +63,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/> Decompresses encoded data.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>Destroy</strong>](id3dx11dataloader-destroy.md)</td>
+<td style="text-align: left;"><a href="id3dx11dataloader-destroy"><strong>Destroy</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -71,7 +71,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/> Destroys the loader after a work item completes.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>Load</strong>](id3dx11dataloader-load.md)</td>
+<td style="text-align: left;"><a href="id3dx11dataloader-load"><strong>Load</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.

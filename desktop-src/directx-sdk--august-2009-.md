@@ -35,7 +35,7 @@ The following technologies and tools, formerly part of the DirectX SDK, are now 
 <tbody>
 <tr class="odd">
 <td><span id="Windows_Graphics_Components"></span><span id="windows_graphics_components"></span><span id="WINDOWS_GRAPHICS_COMPONENTS"></span>Windows Graphics Components<br/></td>
-<td>The headers and libraries for [Direct3D](https://msdn.microsoft.com/en-us/library/Hh309466(v=VS.85).aspx) and other Windows graphics APIs, like [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx), are available in the Windows SDK. <br/>
+<td>The headers and libraries for <a href="https://msdn.microsoft.com/en-us/library/Hh309466(v=VS.85).aspx">Direct3D</a> and other Windows graphics APIs, like <a href="https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx">Direct2D</a>, are available in the Windows SDK. <br/>
 <blockquote>
 [!Note]<br />
 D3DX is only available for download in previous versions of the DirectX SDK. The D3DCSX DirectCompute utility library is available in the Windows SDK.
@@ -44,7 +44,7 @@ D3DX is only available for download in previous versions of the DirectX SDK. The
 </tr>
 <tr class="even">
 <td><span id="HLSL_compiler__FXC.EXE_"></span><span id="hlsl_compiler__fxc.exe_"></span><span id="HLSL_COMPILER__FXC.EXE_"></span>HLSL compiler (FXC.EXE)<br/></td>
-<td>The [HLSL](https://msdn.microsoft.com/en-us/library/Bb509561(v=VS.85).aspx) compiler is a tool in the appropriate architecture subdirectory under the bin folder in the Windows SDK.<br/>
+<td>The <a href="https://msdn.microsoft.com/en-us/library/Bb509561(v=VS.85).aspx">HLSL</a> compiler is a tool in the appropriate architecture subdirectory under the bin folder in the Windows SDK.<br/>
 <blockquote>
 [!Note]<br />
 The D3DCompiler API is available in the Windows SDK.
@@ -53,15 +53,15 @@ The D3DCompiler API is available in the Windows SDK.
 </tr>
 <tr class="odd">
 <td><span id="PIX_for_"></span><span id="pix_for_"></span><span id="PIX_FOR_"></span>PIX for Windows<br/></td>
-<td>A replacement for the PIX for Windows tool is now a feature in Microsoft Visual Studio, called Visual Studio Graphics Debugger. This new feature has greatly improved usability, support for Windows 8, and Direct3D 11.1, and integration with traditional Microsoft Visual Studio features such as call stacks and debugging windows for [HLSL](https://msdn.microsoft.com/en-us/library/Bb509561(v=VS.85).aspx) debugging. For more info about this new feature, see [Debugging DirectX Graphics](http://msdn.microsoft.com/en-us/library/hh315751.aspx).<br/></td>
+<td>A replacement for the PIX for Windows tool is now a feature in Microsoft Visual Studio, called Visual Studio Graphics Debugger. This new feature has greatly improved usability, support for Windows 8, and Direct3D 11.1, and integration with traditional Microsoft Visual Studio features such as call stacks and debugging windows for <a href="https://msdn.microsoft.com/en-us/library/Bb509561(v=VS.85).aspx">HLSL</a> debugging. For more info about this new feature, see <a href="http://msdn.microsoft.com/en-us/library/hh315751.aspx">Debugging DirectX Graphics</a>.<br/></td>
 </tr>
 <tr class="even">
-<td><span id="XAudio2_for_"></span><span id="xaudio2_for_"></span><span id="XAUDIO2_FOR_"></span>[XAudio2](https://msdn.microsoft.com/en-us/library/Hh405049(v=VS.85).aspx) for Windows<br/></td>
-<td>The [XAudio2](https://msdn.microsoft.com/en-us/library/Hh405049(v=VS.85).aspx) API is now a system component in Windows 8. The headers and libraries for XAudio2 are available in the Windows SDK.<br/></td>
+<td><span id="XAudio2_for_"></span><span id="xaudio2_for_"></span><span id="XAUDIO2_FOR_"></span><a href="https://msdn.microsoft.com/en-us/library/Hh405049(v=VS.85).aspx">XAudio2</a> for Windows<br/></td>
+<td>The <a href="https://msdn.microsoft.com/en-us/library/Hh405049(v=VS.85).aspx">XAudio2</a> API is now a system component in Windows 8. The headers and libraries for XAudio2 are available in the Windows SDK.<br/></td>
 </tr>
 <tr class="odd">
-<td><span id="XInput_for_"></span><span id="xinput_for_"></span><span id="XINPUT_FOR_"></span>[XInput](https://msdn.microsoft.com/en-us/library/Hh405053(v=VS.85).aspx) for Windows<br/></td>
-<td>The [XInput](https://msdn.microsoft.com/en-us/library/Hh405053(v=VS.85).aspx) API is now a system component in Windows 8. The headers and libraries for XInput are available in the Windows SDK.<br/></td>
+<td><span id="XInput_for_"></span><span id="xinput_for_"></span><span id="XINPUT_FOR_"></span><a href="https://msdn.microsoft.com/en-us/library/Hh405053(v=VS.85).aspx">XInput</a> for Windows<br/></td>
+<td>The <a href="https://msdn.microsoft.com/en-us/library/Hh405053(v=VS.85).aspx">XInput</a> API is now a system component in Windows 8. The headers and libraries for XInput are available in the Windows SDK.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="XNAMATH"></span><span id="xnamath"></span>XNAMATH<br/></td>
@@ -76,21 +76,21 @@ The D3DCompiler API is available in the Windows SDK.
 <td>The Xbox Audio Cross Platform Tool (XACT) is no longer supported for use on Windows.<br/></td>
 </tr>
 <tr class="odd">
-<td><span id="Games_Explorer_and_GDFMAKER"></span><span id="games_explorer_and_gdfmaker"></span><span id="GAMES_EXPLORER_AND_GDFMAKER"></span>[Games Explorer](https://msdn.microsoft.com/en-us/library/Hh437965(v=VS.85).aspx) and GDFMAKER<br/></td>
-<td>The [Games Explorer](https://msdn.microsoft.com/en-us/library/Hh437965(v=VS.85).aspx) API presents games to users of Windows. The Games Explorer API is supported only on Windows Vista and Windows 7. Use the Games Definition File Maker tool (GDFMAKER.EXE) to declare game ratings for Windows Store apps. <br/> The Game Definition File Maker tool (GDFMaker.exe) is included in the x86 subdirectory under the bin folder in the Windows SDK, and supports both Windows Store apps and Win32 desktop applications.<br/>
+<td><span id="Games_Explorer_and_GDFMAKER"></span><span id="games_explorer_and_gdfmaker"></span><span id="GAMES_EXPLORER_AND_GDFMAKER"></span><a href="https://msdn.microsoft.com/en-us/library/Hh437965(v=VS.85).aspx">Games Explorer</a> and GDFMAKER<br/></td>
+<td>The <a href="https://msdn.microsoft.com/en-us/library/Hh437965(v=VS.85).aspx">Games Explorer</a> API presents games to users of Windows. The Games Explorer API is supported only on Windows Vista and Windows 7. Use the Games Definition File Maker tool (GDFMAKER.EXE) to declare game ratings for Windows Store apps. <br/> The Game Definition File Maker tool (GDFMaker.exe) is included in the x86 subdirectory under the bin folder in the Windows SDK, and supports both Windows Store apps and Win32 desktop applications.<br/>
 <blockquote>
 [!Note]<br />
-The [Game Definition File Validator](http://code.msdn.microsoft.com/GDF-Trace-5389d1b4) tool (gdftrace.exe) and [Gameux Install Helper](http://code.msdn.microsoft.com/GameuxInstallHelper-6a9335ca) sample are both available in the MSDN Code Gallery.
+The <a href="http://code.msdn.microsoft.com/GDF-Trace-5389d1b4">Game Definition File Validator</a> tool (gdftrace.exe) and <a href="http://code.msdn.microsoft.com/GameuxInstallHelper-6a9335ca">Gameux Install Helper</a> sample are both available in the MSDN Code Gallery.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="Samples"></span><span id="samples"></span><span id="SAMPLES"></span>Samples<br/></td>
-<td>All new samples that highlight DirectX technologies on Windows are online in the [Windows SDK Samples Gallery](http://go.microsoft.com/fwlink/p/?LinkID=246562). Most samples for older versions of Direct3D are only available for download in previous versions of the DirectX SDK although a number of them are online as well. For more info about these samples, see [DirectX SDK Samples Catalog](http://blogs.msdn.com/b/chuckw/archive/2013/09/20/directx-sdk-samples-catalog.aspx). <br/></td>
+<td>All new samples that highlight DirectX technologies on Windows are online in the <a href="http://go.microsoft.com/fwlink/p/?LinkID=246562">Windows SDK Samples Gallery</a>. Most samples for older versions of Direct3D are only available for download in previous versions of the DirectX SDK although a number of them are online as well. For more info about these samples, see <a href="http://blogs.msdn.com/b/chuckw/archive/2013/09/20/directx-sdk-samples-catalog.aspx">DirectX SDK Samples Catalog</a>. <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="Managed_DirectX_1.1"></span><span id="managed_directx_1.1"></span><span id="MANAGED_DIRECTX_1.1"></span>Managed DirectX 1.1<br/></td>
-<td>The .NET DirectX assemblies are deprecated and are not recommended for use by new applications. There are a number of alternatives available. See [DirectX and .NET](https://blogs.msdn.microsoft.com/chuckw/2010/12/09/directx-and-net). <br/></td>
+<td>The .NET DirectX assemblies are deprecated and are not recommended for use by new applications. There are a number of alternatives available. See <a href="https://blogs.msdn.microsoft.com/chuckw/2010/12/09/directx-and-net">DirectX and .NET</a>. <br/></td>
 </tr>
 </tbody>
 </table>

@@ -61,7 +61,7 @@ The enrollCommon folder contains the following helper functions and macros used 
 </tr>
 <tr class="odd">
 <td>checkEnrollStatus</td>
-<td>Checks the status of the certificate enrollment process by using the [<strong>IX509Enrollment</strong>](/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment) and [<strong>IX509EnrollmentStatus</strong>](/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollmentstatus) interfaces. This function is used by the enrollEOBOCMC, enrollPKCS7, enrollRenewalPKCS7, enrollSimpleMachineCert, and enrollSimpleUserCert samples.</td>
+<td>Checks the status of the certificate enrollment process by using the <a href="/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment"><strong>IX509Enrollment</strong></a> and <a href="/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollmentstatus"><strong>IX509EnrollmentStatus</strong></a> interfaces. This function is used by the enrollEOBOCMC, enrollPKCS7, enrollRenewalPKCS7, enrollSimpleMachineCert, and enrollSimpleUserCert samples.</td>
 </tr>
 <tr class="even">
 <td>findCertByKeyUsage</td>
@@ -79,7 +79,7 @@ This function is used by the enrollFromPublicKey sample.<br/></td>
 </tr>
 <tr class="odd">
 <td>findCertByEKU</td>
-<td>Enumerates the personal certificate store of the current user to find the first certificate for which the Enhanced Key Usage (EKU) extension matches that specified on input. For more information about the EKU extension, see the [<strong>IX509ExtensionEnhancedKeyUsage</strong>](/windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionenhancedkeyusage) interface. This function is used by the enrollEOBOCMC sample.</td>
+<td>Enumerates the personal certificate store of the current user to find the first certificate for which the Enhanced Key Usage (EKU) extension matches that specified on input. For more information about the EKU extension, see the <a href="/windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionenhancedkeyusage"><strong>IX509ExtensionEnhancedKeyUsage</strong></a> interface. This function is used by the enrollEOBOCMC sample.</td>
 </tr>
 <tr class="even">
 <td>findCertByTemplate</td>
@@ -87,11 +87,11 @@ This function is used by the enrollFromPublicKey sample.<br/></td>
 </tr>
 <tr class="odd">
 <td>enrollCertByTemplate</td>
-<td>Initializes an [<strong>IX509Enrollment</strong>](/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment) object by using a template, attempts to enroll the implicitly created certificate request, and monitors the status of the enrollment process. This function is used by the enrollEOBOCMC, enrollFromPublicKey, enrollPKCS7, and enrollRenewalPKCS7 samples.</td>
+<td>Initializes an <a href="/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment"><strong>IX509Enrollment</strong></a> object by using a template, attempts to enroll the implicitly created certificate request, and monitors the status of the enrollment process. This function is used by the enrollEOBOCMC, enrollFromPublicKey, enrollPKCS7, and enrollRenewalPKCS7 samples.</td>
 </tr>
 <tr class="even">
 <td>verifyCertContext</td>
-<td>Verifies compliance of the certificate chain against the specified (base) policy and, optionally, against a specified Enhanced Key Usage (EKU) extension. For more information, see the [<strong>CertVerifyCertificateChainPolicy</strong>](https://msdn.microsoft.com/library/windows/desktop/aa377163) function and the [<strong>CERT_CHAIN_POLICY_PARA</strong>](https://msdn.microsoft.com/library/windows/desktop/aa377187) and [<strong>CERT_CHAIN_PARA</strong>](https://msdn.microsoft.com/library/windows/desktop/aa377186) structures. This function is used by the enrollEOBOCMC, enrollFromPublicKey, enrollPKCS7, and enrollRenewalPKCS7 samples.</td>
+<td>Verifies compliance of the certificate chain against the specified (base) policy and, optionally, against a specified Enhanced Key Usage (EKU) extension. For more information, see the <a href="https://msdn.microsoft.com/library/windows/desktop/aa377163"><strong>CertVerifyCertificateChainPolicy</strong></a> function and the <a href="https://msdn.microsoft.com/library/windows/desktop/aa377187"><strong>CERT_CHAIN_POLICY_PARA</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/aa377186"><strong>CERT_CHAIN_PARA</strong></a> structures. This function is used by the enrollEOBOCMC, enrollFromPublicKey, enrollPKCS7, and enrollRenewalPKCS7 samples.</td>
 </tr>
 <tr class="odd">
 <td>decConvertFromUnicode</td>

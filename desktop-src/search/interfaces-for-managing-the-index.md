@@ -33,7 +33,7 @@ Windows Search enables you to manage the Windows Search index with three main co
 <tbody>
 <tr class="odd">
 <td>Search?Manager</td>
-<td>[ISearchManager](/windows/desktop/api/Searchapi/nn-searchapi-isearchmanager)</td>
+<td><a href="/windows/desktop/api/Searchapi/nn-searchapi-isearchmanager">ISearchManager</a></td>
 <td>Provides methods to retrieve and set information about Windows Search:
 <ul>
 <li>Getting an instance of the Catalog Manager for a specific catalog.</li>
@@ -44,19 +44,19 @@ For more information, see [Using the Search Manager](-search-3x-wds-mngidx-searc
 </tr>
 <tr class="even">
 <td>Catalog?Manager</td>
-<td>[ISearchCatalogManager](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager)<br/> [ISearchCatalogManager2](http://msdn.microsoft.com/en-us/library/cc142932(VS.85).aspx)<br/></td>
+<td><a href="/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager">ISearchCatalogManager</a><br/> <a href="http://msdn.microsoft.com/en-us/library/cc142932(VS.85).aspx">ISearchCatalogManager2</a><br/></td>
 <td>Provides methods to manage an individual search catalog, such as causing a re-indexing or setting time-outs. This interface manages the catalog in four areas:
 <ul>
 <li>Catalog contents - ensuring that new data is indexed and that other applications and components work properly by forcing a re-indexing of all or part of the catalog or by resetting the entire catalog.</li>
 <li>Catalog properties - setting properties that determine how the catalog manages time-outs when connecting to protocol handlers and how diacritical marks are treated in searches.</li>
 <li>Catalog status - getting information about the catalog, including status, size, and current activity state.</li>
-<li>Access to other interfaces - retrieving other search-related interfaces required by the Crawl Scope Manager, data change notifications, and the [<strong>ISearchQueryHelper</strong>](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper) interface.</li>
+<li>Access to other interfaces - retrieving other search-related interfaces required by the Crawl Scope Manager, data change notifications, and the <a href="/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper"><strong>ISearchQueryHelper</strong></a> interface.</li>
 </ul>
 For more information, see [Using the Catalog Manager](-search-3x-wds-mngidx-catalog-manager.md).<br/></td>
 </tr>
 <tr class="odd">
 <td>Crawl?Scope?Manager</td>
-<td>[<strong>IEnumSearchRoots</strong>](/windows/desktop/api/Searchapi/nn-searchapi-ienumsearchroots)<br/> [IEnumSearchScopeRules](http://msdn.microsoft.com/en-us/library/bb266499(VS.85).aspx)<br/> [<strong>ISearchCrawlScopeManager</strong>](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager)<br/> [ISearchCrawlScopeManager2](http://msdn.microsoft.com/en-us/library/dd797832(VS.85).aspx)<br/> [<strong>ISearchRoot</strong>](/windows/desktop/api/Searchapi/nn-searchapi-isearchroot)<br/> [<strong>ISearchScopeRule</strong>](/windows/desktop/api/Searchapi/nn-searchapi-isearchscoperule)<br/> [ISearchItem](http://msdn.microsoft.com/en-us/library/dd756722(VS.85).aspx)<br/></td>
+<td><a href="/windows/desktop/api/Searchapi/nn-searchapi-ienumsearchroots"><strong>IEnumSearchRoots</strong></a><br/> <a href="http://msdn.microsoft.com/en-us/library/bb266499(VS.85).aspx">IEnumSearchScopeRules</a><br/> <a href="/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager"><strong>ISearchCrawlScopeManager</strong></a><br/> <a href="http://msdn.microsoft.com/en-us/library/dd797832(VS.85).aspx">ISearchCrawlScopeManager2</a><br/> <a href="/windows/desktop/api/Searchapi/nn-searchapi-isearchroot"><strong>ISearchRoot</strong></a><br/> <a href="/windows/desktop/api/Searchapi/nn-searchapi-isearchscoperule"><strong>ISearchScopeRule</strong></a><br/> <a href="http://msdn.microsoft.com/en-us/library/dd756722(VS.85).aspx">ISearchItem</a><br/></td>
 <td>Provides methods to inform the search engine about containers to crawl or watch, and items under those containers to include or exclude in the index. You can also query the Crawl Scope Manager to see if a particular URL is in the crawl scope. For more information, see [Using the Crawl Scope Manager](-search-3x-wds-extidx-csm.md).<br/></td>
 </tr>
 </tbody>

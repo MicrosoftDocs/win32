@@ -49,27 +49,27 @@ You can also set other attributes. The following user attributes are set with de
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>accountExpires</strong>](https://msdn.microsoft.com/library/ms675098)</td>
+<td><a href="https://msdn.microsoft.com/library/ms675098"><strong>accountExpires</strong></a></td>
 <td>Specifies when the account will expire. The default is <strong>TIMEQ_FOREVER</strong>, which indicates that the account will never expire.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>nTSecurityDescriptor</strong>](https://msdn.microsoft.com/library/ms679006)</td>
-<td>A security descriptor is created based on specific rules. For more information, see [How Security Descriptors are Set on New Directory Objects](how-security-descriptors-are-set-on-new-directory-objects.md).<br/></td>
+<td><a href="https://msdn.microsoft.com/library/ms679006"><strong>nTSecurityDescriptor</strong></a></td>
+<td>A security descriptor is created based on specific rules. For more information, see <a href="how-security-descriptors-are-set-on-new-directory-objects">How Security Descriptors are Set on New Directory Objects</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>objectCategory</strong>](https://msdn.microsoft.com/library/ms679011)</td>
+<td><a href="https://msdn.microsoft.com/library/ms679011"><strong>objectCategory</strong></a></td>
 <td>Specifies the user category. The default is &quot;Person&quot;.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>name</strong>](https://msdn.microsoft.com/library/ms678697)</td>
-<td>Specifies the user name. The default is the value set for [<strong>cn</strong>](https://msdn.microsoft.com/library/ms675449).<br/></td>
+<td><a href="https://msdn.microsoft.com/library/ms678697"><strong>name</strong></a></td>
+<td>Specifies the user name. The default is the value set for <a href="https://msdn.microsoft.com/library/ms675449"><strong>cn</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>pwdLastSet</strong>](https://msdn.microsoft.com/library/ms679430)</td>
+<td><a href="https://msdn.microsoft.com/library/ms679430"><strong>pwdLastSet</strong></a></td>
 <td>Specifies when the user last set the password. The default is zero, which indicates that the user must change the password at next logon.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>userAccountControl</strong>](https://msdn.microsoft.com/library/ms680832)</td>
+<td><a href="https://msdn.microsoft.com/library/ms680832"><strong>userAccountControl</strong></a></td>
 <td>Contains values that determine several logon and account features for the user.<br/> By default, the following flags are set:<br/>
 <ul>
 <li><strong>UF_ACCOUNTDISABLE</strong> - The account is disabled.</li>
@@ -78,7 +78,7 @@ You can also set other attributes. The following user attributes are set with de
 </ul></td>
 </tr>
 <tr class="odd">
-<td>[<strong>memberOf</strong>](https://msdn.microsoft.com/library/ms677099)</td>
+<td><a href="https://msdn.microsoft.com/library/ms677099"><strong>memberOf</strong></a></td>
 <td>Specifies the group or groups that the user is a direct member of. The default is &quot;Domain Users&quot;.<br/></td>
 </tr>
 </tbody>

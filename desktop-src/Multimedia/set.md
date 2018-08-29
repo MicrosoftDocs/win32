@@ -303,7 +303,7 @@ The following table lists the flags that can be specified in the **lpszSetting**
 </tr>
 <tr class="odd">
 <td>counter format</td>
-<td>Set the time format for the counter, as returned by [status](status.md) &quot;counter&quot;. For information about applicable types, see the <strong>set</strong> &quot;time format&quot; command.</td>
+<td>Set the time format for the counter, as returned by <a href="status">status</a> &quot;counter&quot;. For information about applicable types, see the <strong>set</strong> &quot;time format&quot; command.</td>
 </tr>
 <tr class="even">
 <td>counter <em>value</em></td>
@@ -349,7 +349,7 @@ The following table lists the flags that can be specified in the **lpszSetting**
 </tr>
 <tr class="even">
 <td>length <em>duration</em></td>
-<td>Sets the user-specified length of the tape in the VCR. This length is returned by the [status](status.md) &quot;length&quot; command and is provided for compatibility with applications that require this command to return a valid length.</td>
+<td>Sets the user-specified length of the tape in the VCR. This length is returned by the <a href="status">status</a> &quot;length&quot; command and is provided for compatibility with applications that require this command to return a valid length.</td>
 </tr>
 <tr class="odd">
 <td>master midi</td>

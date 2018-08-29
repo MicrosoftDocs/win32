@@ -20,14 +20,14 @@ The following set of topics provide guidance on how to implement camera RAW imag
 
 [RAW Image Formats in Windows Vista](-wic-rawguidelines-intro-vista.md)  
 [General Guidelines for Implementing RAW Codecs](-wic-rawguidelines-intro-implement.md)  
-</dl> </dd> [Feature Completeness: Recommended Interfaces](-wic-rawguidelines-feature-complete.md)  
+</dl> </dd> <a href="-wic-rawguidelines-feature-complete">Feature Completeness: Recommended Interfaces</a>  
 [Interface Method Requirements](-wic-rawguidelines-iface-reqs.md)  
 [Metadata Support](-wic-rawguidelines-metadata.md)  
 <dl>
 
 [Decoding](-wic-rawguidelines-metadata-decoding.md)  
 [Encoding](-wic-rawguidelines-metadata-encoding.md)  
-</dl> </dd> [Support for IWICDevelopRaw](https://msdn.microsoft.com/en-us/library/Ee720045(v=VS.85).aspx)  
+</dl> </dd> <a href="https://msdn.microsoft.com/en-us/library/Ee720045(v=VS.85).aspx">Support for IWICDevelopRaw</a>  
 [Implementing Guidelines for Serializing IWICDevelopRaw Settings](-wic-rawguidelines-iwicdevelopraw-serializing.md)  
 [Performance](-wic-rawguidelines-performance.md)  
 [High Dynamic Range Pixel Formats](-wic-rawguidelines-hdr-formats.md)  
@@ -38,7 +38,7 @@ The following set of topics provide guidance on how to implement camera RAW imag
 
 [Codec Discovery](-wic-rawguidelines-availability.md)  
 [Windows XP Platform Support](-wic-rawguidelines-availability.md)  
-</dl> </dd> [RAW Codec Requirements for Windows 7](-wic-rawguidelines-win7.md)  
+</dl> </dd> <a href="-wic-rawguidelines-win7">RAW Codec Requirements for Windows 7</a>  
 [For More Information](-wic-rawguidelines-moreinfo.md)  
 </dl>
 

@@ -46,25 +46,25 @@ The following table lists object path types and the associated methods that requ
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Namespace](describing-a-wmi-namespace-object-path.md)</td>
-<td><dl>[<strong>IWbemServices::OpenNamespace</strong>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-opennamespace)<br />
+<td><a href="describing-a-wmi-namespace-object-path">Namespace</a></td>
+<td><dl><a href="/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-opennamespace"><strong>IWbemServices::OpenNamespace</strong></a><br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[Class](describing-a-class-object-path.md)</td>
-<td><dl>[<strong>IWbemServices::ExecMethod</strong>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execmethod)<br />
+<td><a href="describing-a-class-object-path">Class</a></td>
+<td><dl><a href="/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execmethod"><strong>IWbemServices::ExecMethod</strong></a><br />
 [<strong>IWbemServices::ExecMethodAsync</strong>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execmethodasync)<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[Class](describing-a-class-object-path.md) or [Instance](describing-an-instance-object-path.md)</td>
-<td><dl>[<strong>IWbemServices::GetObject</strong>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobject)<br />
+<td><a href="describing-a-class-object-path">Class</a> or <a href="describing-an-instance-object-path">Instance</a></td>
+<td><dl><a href="/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobject"><strong>IWbemServices::GetObject</strong></a><br />
 [<strong>IWbemServices::GetObjectAsync</strong>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync)<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[Instance](describing-an-instance-object-path.md)</td>
-<td><dl>[<strong>IWbemServices::DeleteInstance</strong>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteinstance)<br />
+<td><a href="describing-an-instance-object-path">Instance</a></td>
+<td><dl><a href="/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteinstance"><strong>IWbemServices::DeleteInstance</strong></a><br />
 [<strong>IWbemServices::DeleteInstanceAsync</strong>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteinstanceasync)<br />
 </dl></td>
 </tr>
@@ -96,8 +96,8 @@ The following table lists the scripting objects that require object paths.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>SWbemServices</strong>](swbemservices.md)</td>
-<td><dl>[<strong>AssociatorsOf</strong>](swbemservices-associatorsof.md)<br />
+<td><a href="swbemservices"><strong>SWbemServices</strong></a></td>
+<td><dl><a href="swbemservices-associatorsof"><strong>AssociatorsOf</strong></a><br />
 [<strong>AssociatorsOfAsync</strong>](swbemservices-associatorsofasync.md)<br />
 [<strong>Delete</strong>](swbemservices-delete.md)<br />
 [<strong>DeleteAsync</strong>](swbemservices-deleteasync.md)<br />
@@ -110,8 +110,8 @@ The following table lists the scripting objects that require object paths.
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>SWbemObjectSet</strong>](swbemobjectset.md)</td>
-<td><dl>[<strong>Item</strong>](swbemobjectset-item.md)<br />
+<td><a href="swbemobjectset"><strong>SWbemObjectSet</strong></a></td>
+<td><dl><a href="swbemobjectset-item"><strong>Item</strong></a><br />
 </dl></td>
 </tr>
 </tbody>
